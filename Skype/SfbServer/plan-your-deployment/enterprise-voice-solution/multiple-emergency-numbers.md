@@ -9,33 +9,33 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 5ed45a22-ddf0-419f-84da-895a73df855f
-description: 阅读本主题，了解如何在 Skype for Business Server 中规划多个紧急Skype for Business Server。
-ms.openlocfilehash: 1db97627ef783e5fa69bb7a186940c589f4aae40039563c3155c7cb29d5166aa
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 阅读本主题，了解如何在呼叫中规划多个Skype for Business Server。
+ms.openlocfilehash: 06b65e889c4a1ae9badf84d3d6fc948405ed4db9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54329546"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634226"
 ---
 # <a name="plan-for-multiple-emergency-numbers-in-skype-for-business-server"></a>在呼叫中规划多个紧急Skype for Business Server
  
-阅读本主题，了解如何在 Skype for Business Server 中规划多个紧急Skype for Business Server。
+阅读本主题，了解如何在呼叫中规划多个Skype for Business Server。
   
 Skype for Business Server现在支持为客户端配置多个紧急号码。 多个紧急号码是 2016 年 6 月累积更新中引入的新功能。 尽管美国有一个紧急号码 911，但多个国家/地区支持多个紧急号码。 例如，英国支持 999（特定于英国紧急号码）和 112（欧盟紧急号码）。 
   
-此功能还适用于美国境内希望拥有对多个蓝色紧急号码的漫游支持的医疗保健提供商。
+此功能还可用于美国境内希望具有对多个蓝色紧急号码的漫游支持的医疗保健提供商。
   
 ## <a name="multiple-emergency-numbers-and-location-policies"></a>多个紧急号码和位置策略
 
 通过创建定义如何实施紧急呼叫的位置策略来配置紧急呼叫。 使用位置策略定义构成紧急呼叫的号码，例如，美国的 911;英国为 999 和 112。 位置策略确定用户是否启用了紧急呼叫，如果是，则确定紧急呼叫的行为。 还可以定义是否应该自动通知公司安全，以及如何路由呼叫。
   
-有关定义和修改位置策略的信息，请参阅在 Skype for Business Server[](location-policies.md)中规划位置策略[Skype for Business Server。](../../deploy/deploy-enterprise-voice/create-location-policies.md) 这些主题介绍有关位置策略的概念;但是，你必须按照在呼叫中配置[多个紧急号码中的](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md)Skype for Business配置多个紧急号码。
+有关定义和修改位置策略的信息，请参阅在 Skype for Business Server[](location-policies.md)中规划位置[策略](../../deploy/deploy-enterprise-voice/create-location-policies.md)Skype for Business Server。 这些主题介绍有关位置策略的概念;但是，你必须按照在呼叫中配置[多个紧急号码](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md)中的Skype for Business配置多个紧急号码。
   
 规划多个紧急号码时，请牢记以下事项：
   
@@ -52,10 +52,10 @@ Skype for Business Server现在支持为客户端配置多个紧急号码。 多
     
 - 如果位置策略同时定义了 EmergencyNumbers 和 DialString 参数，并且客户端支持多个紧急号码，则紧急号码优先。 如果客户端不支持多个紧急号码，则使用紧急拨号串。
     
-- 有关哪些 Skype for Business 和 Lync 客户端支持接收多个紧急号码、拨号掩码和公用电话交换网 (PSTN) 用法的信息，请参阅客户端[支持](multiple-emergency-numbers.md#BKMK_Clients)。
+- 有关哪些客户端Skype for Business Lync 客户端支持接收多个紧急号码、拨号掩码和公用电话交换网 (PSTN) 用法的信息，请参阅客户端[支持](multiple-emergency-numbers.md#BKMK_Clients)。
     
 > [!NOTE]
-> 不能使用"安全"控制面板配置Skype for Business紧急号码。 必须使用 PowerShell 配置多个紧急号码。 
+> 不能使用"控制面板"来配置Skype for Business紧急号码。 必须使用 PowerShell 配置多个紧急号码。 
   
 配置多个紧急号码之前，请牢记以下事项：
   
@@ -63,7 +63,7 @@ Skype for Business Server现在支持为客户端配置多个紧急号码。 多
     
 - 如果使用带 EmergencyDialString 和 EmergencyDialMask 参数的 Set-CsLocationPolicy 或 New-CsLocationPolicy cmdlet 定义了现有号码，则 EmergencyNumbers 参数指定的值将优先于旧值。 即，EmergencyDialString 和 EmergencyDialMask 参数的值将被忽略。
     
-- 如果你已使用 Set-CsLocationPolicy 或 New-CsLocationPolicy cmdlet 定义了 EmergencyDialString 和 EmergencyDialMask 参数的现有号码，并且未配置新的紧急号码，将继续使用现有号码。
+- 如果使用带 EmergencyDialString 和 EmergencyDialMask 参数的 Set-CsLocationPolicy 或 New-CsLocationPolicy cmdlet 定义了现有号码，并且未配置新的紧急号码，将继续使用现有号码。
     
 - 若要使多个紧急号码功能正常工作，您正在运行的客户端版本必须能够支持新功能。 较旧的客户端将继续将 Set-CsLocationPolicy 或 New-CsLocationPolicy cmdlet 指定的旧值与 EmergencyDialString 和 EmergencyDialMask 参数一同使用。 
     
@@ -71,7 +71,7 @@ Skype for Business Server现在支持为客户端配置多个紧急号码。 多
     
 有关配置多个紧急号码的信息，请参阅在 Skype for Business[中配置多个紧急Skype for Business。](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md)
   
-下表显示了用于示例 (策略的示例位置策略，并非所有属性都) ：
+下表显示了用于 (的示例位置策略，并非所有属性都) ：
   
 
 |**位置策略名称**|**E911 已启用**|**紧急拨号字符串**|**拨号掩码**|**紧急号码**|**PSTN 用法**|**所需位置**|

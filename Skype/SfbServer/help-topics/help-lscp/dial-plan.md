@@ -12,21 +12,21 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.VoiceDialPlanMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: eeb31bd9-688e-4767-a47d-6fda1a55f094
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: c2e78d1de6b5834f096898dc567dc9839c6f6e02d5e30057b285a948a6d741ad
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9ba3b74ac35b104a3fec7f9bb172dbac35e7931c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54348287"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633786"
 ---
 # <a name="dial-plan"></a>拨号计划
 
 要执行什么操作？ 单击要执行的任务的链接。
 
-- [在 Skype for Business Server 2015 中创建或修改拨号计划](../../deploy/deploy-enterprise-voice/dial-plans.md)
+- [Create or modify a dial plan in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/dial-plans.md)
 
 - [修改拨号计划](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-dial-plan)
 
@@ -34,4 +34,4 @@ ms.locfileid: "54348287"
 
 - [手动创建或修改规范化规则](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-normalization-rule-manually)
 
-有关可以使用控制面板执行的不同过程的详细信息，Skype for Business Server Manage [Skype for Business Server 2015](../../manage/manage.md)。
+有关可以使用控制面板执行的不同过程的详细信息，请参阅 Manage [Skype for Business Server Skype for Business Server 2015](../../manage/manage.md)。

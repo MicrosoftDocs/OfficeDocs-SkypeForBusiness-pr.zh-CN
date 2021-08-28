@@ -13,7 +13,7 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,29 +21,29 @@ ms.custom:
 - ms.lync.lac.MeetingInvitation
 - ms.teamsadmincenter.meetingsettings.invitationurls
 description: '使用Skype徽标、帮助和法律 URL 以及页脚文本自定义会议邀请。 '
-ms.openlocfilehash: c7c642d13eb2e0ac76d4565a977faebe08c52b378f50e1e5193486002056c4ea
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 14a544d5a28fc9a0b64cda573245f2e232e0d901
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306175"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614934"
 ---
 # <a name="customize-meeting-invitations"></a>自定义会议邀请
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-作为管理员，你可以确保所有会议Skype for Business包括用户可能需要的一些有用信息，例如指向您的支持网站和法律免责声明的链接、公司徽标以及要包含的其他文本。 
+作为管理员，你可以确保所有 Skype for Business 会议邀请都包括用户可能需要的一些有用信息，例如指向支持网站和法律免责声明的链接、公司徽标和要包含的其他文本。 
   
 ## <a name="tips-for-creating-a-logo-for-meeting-invitations"></a>为会议邀请创建徽标的提示
 <a name="__top"> </a>
 
-1. 创建不超过 188 像素宽 x 30 像素高的图像 (该图像的大小) 。
+1. 创建一个不超过 188 像素宽 x 30 像素高的图像 (其大小相当) 。
     
 2. 将图像保存为 JPG 格式。
     
-3. 将图像存储在企业中的每个人都可以访问的中央位置，例如网络共享、共享OneDrive for Business文件夹、Dropbox等。
+3. 将图像存储在企业中的每个人都可以访问的中心位置，例如网络共享、共享OneDrive for Business文件夹、Dropbox等。
     
-    现在，你可以将其添加到会议邀请。 查看后续步骤。
+    现在，可以将其添加到会议邀请。请参阅后续步骤。
     
 ## <a name="customize-your-meeting-invitations"></a>自定义会议邀请
 <a name="__top"> </a>
@@ -52,9 +52,9 @@ ms.locfileid: "54306175"
 
 1. 使用工作或学校帐户登录。
     
-2. 在管理中心中，选择"**管理中心**  >  Skype for Business"。
+2. 在管理中心中，选择"**管理中心**  >  **Skype for Business"。**
     
-3. 在Skype for Business中心，选择 **"联机会议"。** 
+3. 在 Skype for Business 管理中心，选择 **"联机会议"。** 
     
 4. 完成以下框：
     
@@ -71,7 +71,7 @@ ms.locfileid: "54306175"
    
 5. 选择" **保存**"。
     
-6. 等待一小时左右，以便在所有服务或Microsoft 365填充Office 365更改。 然后转到Outlook并安排Skype会议，以查看更改的外观。 
+6. 等待一个小时左右，以便在所有服务或服务Microsoft 365填充Office 365更改。 然后转到Outlook并安排Skype会议，以查看更改的外观。 
     
     ![下面是自定义邀请的外观，没有图形](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
   

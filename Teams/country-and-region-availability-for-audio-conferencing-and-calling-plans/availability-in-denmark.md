@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,26 +24,26 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是适用于丹麦Microsoft 365 Office 365和Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: 9e7e73c439ec971762c71399ad899afea7f3fc371485af84a3886f5b02fc562c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 以下是适用于丹麦Microsoft 365 Office 365 Skype for Business Microsoft Teams服务。
+ms.openlocfilehash: f3a877b6c6139eef02a85176b57688a5897d3aca
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54278161"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615408"
 ---
 # <a name="availability-in-denmark"></a>在丹麦的可用性
 
 [查找其他国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或详细了解可以在哪些国家/地区使用音频会议和通话套餐。
 
-以下是适用于丹麦Microsoft 365 Office 365和Skype for Business Microsoft Teams服务。
+以下是适用于丹麦Microsoft 365 Office 365 Skype for Business Microsoft Teams服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
-|是否会为音频会议自动分配电话号码？  <br/> |是，适用于：<br/><ul><li> 丹麦</ul> 如果需要专用电话号码，请参阅获取 [服务电话号码](../getting-service-phone-numbers.md)。  <br/> |
+|是否会为音频会议自动分配电话号码？  <br/> |是，适用于：<br/><ul><li> 丹麦</ul> 如果需要专用电话号码，请参阅 [获取服务电话号码](../getting-service-phone-numbers.md)。  <br/> |
 |使用“呼叫我”功能的拨出功能  <br/> |可用  <br/> |
    
 ## <a name="phone-system"></a>电话系统

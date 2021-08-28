@@ -10,21 +10,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 796f77e6-1da6-4969-b18b-3537209a1fe4
 description: 用户视图存储有关数据库中记录的呼叫或会话所涉及的用户的信息。 此视图在 Microsoft Lync Server 2013 中引入。
-ms.openlocfilehash: 200280f6a82a50490aee77177464b435e647a0a44852ca0db5b59c64bda836f3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 59b7371336ec900d6474016bb366407d4ffb7c14
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54302246"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616378"
 ---
 # <a name="user-view"></a>用户视图
  
 用户视图存储有关数据库中记录的呼叫或会话所涉及的用户的信息。 此视图在 Microsoft Lync Server 2013 中引入。
   
-|**列**|**数据类型**|**详细信息**|
+|**列**|**数据类型**|**Details**|
 |:-----|:-----|:-----|
 |UserID  <br/> |int  <br/> |用于标识此用户的唯一编号。  <br/> |
 |UserUri  <br/> |nvarchar (450)   <br/> |用户的 URI。  <br/> |

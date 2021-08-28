@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.VoiceFeaVacantNumEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 58903e40-6b93-40d6-88f8-1201743cd9be
 description: 未分配号码是指对于组织有效但尚未分配给用户或电话的电话号码。未分配号码表标识您希望如何处理对未分配号码的调用。
-ms.openlocfilehash: 13b2caaa8e7b364fa60ab32e6c62f982612121c4861197cd2b76597975c0ba50
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: be5a937938c3d20b19b6b5dc561c0e65cb1dd7bb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54313390"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633736"
 ---
 # <a name="unassigned-phone-number-create-new-or-edit-existing"></a>未分配电话号码：创建新的或编辑现有的
 
@@ -41,7 +41,7 @@ ms.locfileid: "54313390"
 
   - 如果号码范围的起始号码或结束号码包含分机号，那么号码范围的起始号码和结束号码都必须包含分机号，并且起始号码和结束号码的分机号必须相同。
 
-  - 该数字必须与正则表达式匹配 `(tel:)?(\+)?[1-9]\d{0,17}(;ext=[1-9]\d{0,9})?` 。 这意味着该数字可能以字符串 (如果不指定该字符串，它将会自动添加为) 、加号 (+) 以及 1 到 9 之间的数字 `tel:` 。 电话号码最长为 17 位数，并可以后跟分机号，格式为 ;ext= 后跟分机号。
+  - 该数字必须与正则表达式匹配 `(tel:)?(\+)?[1-9]\d{0,17}(;ext=[1-9]\d{0,9})?` 。 这意味着该数字可能以字符串 (开头（如果不指定该字符串，该字符串将自动添加为) 、加号 (+) 以及一个数字 `tel:` 1 到 9）。 电话号码最长为 17 位数，并可以后跟分机号，格式为 ;ext= 后跟分机号。
 
 - **通知服务** 选择 **"** 通知"让通知应用程序处理传入呼叫或Exchange **UM，** 让 um Exchange UM 自动助理处理传入呼叫。
 

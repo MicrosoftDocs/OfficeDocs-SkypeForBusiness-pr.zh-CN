@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7a850cd5-c789-4795-a8ff-083be21ae784
-description: 摘要：阅读本主题，了解 2015 年 10 月持久聊天Skype for Business Server容量规划。
-ms.openlocfilehash: 3b21ce2fdcb05101fb5a3fe1641e766003733fb7675331dbb12c273b1c44d7e6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 摘要：阅读本主题，了解 2015 年 10 月持久聊天服务器Skype for Business Server规划。
+ms.openlocfilehash: 430bceb547be9208348d61dc919ddb463f2d5ca2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54334833"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615568"
 ---
 # <a name="capacity-planning-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的持久聊天服务器容量规划
  
@@ -31,7 +31,7 @@ ms.locfileid: "54334833"
 在阅读本节之前，您应熟悉持久聊天拓扑。 有关详细信息，请参阅规划 [持久聊天服务器拓扑](topology.md)。
 
 > [!NOTE] 
-> 持久聊天在 2015 Skype for Business Server可用，但在 2019 年 2 月不再Skype for Business Server支持。 相同的功能在 Teams。 有关详细信息，请参阅[开始升级Microsoft Teams升级](/microsoftteams/upgrade-start-here)。 如果您需要使用持久聊天，您的选择是将需要此功能的用户迁移到 Teams，或者继续使用 Skype for Business Server 2015。 
+> 持久聊天在 Skype for Business Server 2015 中可用，但在 2019 年 2 Skype for Business Server不再受支持。 相同的功能在 Teams。 有关详细信息，请参阅[开始升级Microsoft Teams升级](/microsoftteams/upgrade-start-here)。 如果您需要使用持久聊天，则选择将需要此功能的用户迁移到 Teams，或者继续使用 Skype for Business Server 2015。 
   
 ## <a name="persistent-chat-server-capacity-planning"></a>持久聊天服务器容量规划
 
@@ -80,16 +80,16 @@ ms.locfileid: "54334833"
 |用户组管理的聊天室比率  <br/> |50%  <br/> |90%  <br/> |100%  <br/> ||
 |未明确指定开放式聊天室的每个聊天室 (列表中的用户组)   <br/> |0  <br/> |0  <br/> |0  <br/> ||
 |非开放式聊天室的每个聊天室的成员资格列表中的用户  <br/> |30  <br/> |150  <br/> |16,000  <br/> ||
-|非开放式聊天室的每个聊天室成员身份列表中的用户组  <br/> |3  <br/> |5   <br/> |10   <br/> ||
-|每个聊天室的管理者列表中的用户和用户组 (开放和非开放式聊天室)   <br/> |6   <br/> |6   <br/> |6   <br/> ||
+|非开放式聊天室的每个聊天室成员身份列表中的用户组  <br/> |3   <br/> |5   <br/> |10   <br/> ||
+|每个聊天室的管理者列表中的用户和用户组 (开放式和非开放式聊天室)   <br/> |6   <br/> |6   <br/> |6   <br/> ||
 |每个大会堂聊天室的演示者列表中的用户和用户组 (开放式和非开放式聊天室)   <br/> |6   <br/> |6   <br/> |6   <br/> ||
 |所有非开放式聊天室中基于用户的成员身份实体  <br/> |465,600  <br/> |15,520  <br/> |-  <br/> ||
 |所有非开放式聊天室中基于用户组的成员身份实体  <br/> |46,560  <br/> |4656  <br/> |50  <br/> ||
 |所有大会堂聊天室中基于用户和用户组的实体  <br/> |0  <br/> |192  <br/> |50  <br/> ||
 |所有聊天室管理员列表中基于用户和用户组的经理实体  <br/> |192,000  <br/> |6,400  <br/> |60  <br/> ||
 |每个聊天室的活动用户数  <br/> |30  <br/> |150  <br/> |16,000  <br/> ||
-|每个用户的聊天室数量  <br/> |12   <br/> |2  <br/> |2  <br/> |16   <br/> |
-|每个聊天室的成员列表中的用户组  <br/> |10   <br/> |10   <br/> |15  <br/> ||
+|每个用户的聊天室数量  <br/> |12   <br/> |2   <br/> |2   <br/> |16   <br/> |
+|每个聊天室的成员列表中的用户组  <br/> |10   <br/> |10   <br/> |15   <br/> ||
 |用户组管理的聊天室比率  <br/> |50%  <br/> |50%  <br/> |50%  <br/> ||
 |所有聊天室中基于用户组的成员实体数量  <br/> |155,200  <br/> |5173  <br/> |68  <br/> ||
 |所有聊天室中基于用户的成员实体数量  <br/> |465,600  <br/> |77,600  <br/> |72,000  <br/> ||
@@ -100,7 +100,7 @@ ms.locfileid: "54334833"
    
 在上一示例中，根据建议的准则部署持久聊天服务器时，这些服务器可以在启用了合规性的四台服务器池中处理多达 80，000 个活动用户。
   
-此示例显示在任何给定时间)  (30 个活动用户、 (150 个活动用户) 和 (16，000 个活动用户) 的聊天室。 上表中特定大小的支持的聊天室数量基于以下总数计算：
+此示例显示在任何给定时间) 中 (30 个活动用户、中 (150 个活动用户) 和 (16，000 个活动用户) 的聊天室。 上表中特定大小的支持的聊天室数量基于以下总数计算：
   
 - 系统中的活动用户数量
     
@@ -108,14 +108,14 @@ ms.locfileid: "54334833"
     
 - 单个用户加入的给定大小的聊天室数量
     
-对于每个聊天室，前面的容量规划表指定与聊天室关联的访问控制条目的数量，包括直接分配给聊天室的条目。 通过使用访问控制列表和 ACL，您可以控制对 (聊天室) 。 您还可以在类别级别控制访问。 在 ACL 中，单个访问控制项可以是用户组，例如，安全组、通讯组列表或单个用户。 您可以为聊天室管理员、演示者和成员定义访问控制条目。
+对于每个聊天室，前面的容量规划表指定与聊天室关联的访问控制条目的数量，包括直接分配给聊天室的条目。 您可以使用访问控制列表和 ACL 或 ACL 来控制对 (聊天室) 。 您还可以在类别级别控制访问。 在 ACL 中，单个访问控制项可以是用户组，例如，安全组、通讯组列表或单个用户。 您可以为聊天室管理员、演示者和成员定义访问控制条目。
   
 > [!IMPORTANT]
 > 在规划管理聊天室的策略时，请记住允许的访问控制项总数为 200 万。 如果计算出的访问控制项超过 200 万个，则服务器性能可能会显著降低。 为避免此问题，只要有可能，请确保您的访问控制项是用户组而不是单个用户。 
   
 ### <a name="plan-capacity-for-managing-chat-room-access-by-invitation"></a>规划通过邀请管理聊天室访问的容量
 
-您可以使用以下容量规划表了解持久聊天服务器在配置为发送邀请时在持久聊天数据库中创建和存储的邀请数。 您可以使用 Skype for Business Server 控制面板中的"聊天室类别"设置页，或通过使用 Windows PowerShell cmdlet **set-csPersistentChatCategory** 管理类别上的邀请。 您可以使用从 Skype for Business 客户端启动的"聊天室管理"页，或通过使用 Windows PowerShell cmdlet **set-csPersistentChatRoom** 来管理聊天室 (上的邀请，该类别允许) 。 
+您可以使用以下容量规划表了解持久聊天服务器在配置为发送邀请时在持久聊天数据库中创建和存储的邀请数。 您可以使用 Skype for Business Server 控制面板中的"聊天室类别"设置页，或通过使用 Windows PowerShell cmdlet **set-csPersistentChatCategory** 管理类别上的邀请。 您可以使用从 Skype for Business 客户端启动的"聊天室管理"页，或通过使用 Windows PowerShell cmdlet **set-csPersistentChatRoom** 管理聊天室) 上的邀请，符合类别允许的类别。 (
   
 下表中的示例数据假定在 50% 聊天室的"聊天室设置"页上，"邀请"选项设置为 **"是"。** 
   
@@ -136,8 +136,8 @@ ms.locfileid: "54334833"
 |每个聊天室的 (聊天速率)   <br/> |50  <br/> |500  <br/> |100  <br/> |650  <br/> |
 |所有聊天室 (每秒) 的聊天速率  <br/> |55.56  <br/> |18.52  <br/> |0.03  <br/> |74  <br/> |
 |模型 2 - 从每个用户每天发布的消息数开始  <br/> |||||
-|每个用户每天的聊天速率  <br/> |15  <br/> |5   <br/> |0.1  <br/> |20  <br/> |
-|每个聊天室的聊天 (数)   <br/> |38  <br/> |375  <br/> |800  <br/> |1,213  <br/> |
+|每个用户每天的聊天速率  <br/> |15   <br/> |5   <br/> |0.1  <br/> |20  <br/> |
+|每个聊天室每天的 (聊天速率)   <br/> |38  <br/> |375  <br/> |800  <br/> |1,213  <br/> |
 |所有聊天室 (每秒) 的聊天速率  <br/> |41.67  <br/> |13.89  <br/> |0.28  <br/> |56  <br/> |
    
 ### <a name="plan-capacity-for-persistent-chat-server-performance"></a>规划持久聊天服务器性能的容量
@@ -159,8 +159,8 @@ ms.locfileid: "54334833"
 |大聊天室的数量  <br/> |10   <br/> |
 |每个用户的聊天室总数  <br/> |16   <br/> |
 |每个用户的小聊天室数量  <br/> |12   <br/> |
-|每个用户的中聊天室数量  <br/> |2  <br/> |
-|每个用户的大聊天室数量  <br/> |2  <br/> |
+|每个用户的中聊天室数量  <br/> |2   <br/> |
+|每个用户的大聊天室数量  <br/> |2   <br/> |
 |每个用户加入的聊天室数  <br/> |24  <br/> |
 |峰值加入速率  <br/> |10/秒  <br/> |
 |总聊天速率  <br/> |24/秒  <br/> |

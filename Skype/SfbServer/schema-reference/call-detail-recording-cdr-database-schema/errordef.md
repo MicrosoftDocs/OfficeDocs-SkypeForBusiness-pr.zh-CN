@@ -1,5 +1,5 @@
 ---
-title: 2015 年 Skype for Business Server 中的 ErrorDef 表
+title: Skype for Business Server 2015 中的 ErrorDef 表
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -10,21 +10,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6acf3b86-da61-4923-9812-300db6f66dec
 description: ErrorDef 表存储有关每种可能发生的错误类型的信息。 每条记录都是一种类型的错误。
-ms.openlocfilehash: 428ce365de65be4d0bcd3776bfc069ffc9246fd869c54d819c6468f926c64351
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4d10e5c8a83e486fe16808a3cf5f38f7ffd15937
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344601"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615528"
 ---
-# <a name="errordef-table-in-skype-for-business-server-2015"></a>2015 年 Skype for Business Server 中的 ErrorDef 表
+# <a name="errordef-table-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的 ErrorDef 表
  
 ErrorDef 表存储有关每种可能发生的错误类型的信息。 每条记录都是一种类型的错误。
   
-|**列**|**数据类型**|**键/索引**|**详细信息**|
+|**列**|**数据类型**|**键/索引**|**Details**|
 |:-----|:-----|:-----|:-----|
 |**ErrorId** <br/> |int  <br/> |主  <br/> |标识此类型错误的唯一 ID 号。  <br/> |
 |**ResponseCode** <br/> |int  <br/> | <br/> |与此错误关联的标准 SIP 响应代码。  <br/> |

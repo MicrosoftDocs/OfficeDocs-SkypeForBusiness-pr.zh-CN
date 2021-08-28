@@ -16,19 +16,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: '了解如何为业务中需要使用电话加入电话会议的人员设置拨号或音频会议。 '
-ms.openlocfilehash: 9045ae734eabdbb38af812610348f2e915b5a07ab481799215824f524b5ed756
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 13cbbf8b8295886cec937091abd3b5a0d378f05e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332554"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615208"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>设置 Microsoft Teams 的音频会议
 

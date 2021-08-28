@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.VoiceFeaSelAnnoun
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 676f4d80-6826-4fa0-9430-4ebdb4b5a03e
 description: 使用“选择通知服务”对话框可选择将处理到未分配号码范围的传入呼叫的通知服务。
-ms.openlocfilehash: ad86dec5e72219c5e7332fbb5bd776ecc5114d7cd57245c6d95d4b453a0d2c61
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2b47a91ea1e8a65c189647fb94de59f115a13ba4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345759"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633776"
 ---
 # <a name="select-an-announcement-service"></a>选择通知服务
  

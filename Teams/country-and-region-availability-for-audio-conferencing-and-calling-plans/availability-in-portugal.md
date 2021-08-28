@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于葡萄牙Microsoft 365 Office 365和Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: 8f67fe2e9b6a86d9a4d3e1ce954d6afb91e095ed372c9d698d82a25416be3202
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cc169d70453ff94d389d156515c6c73c7c0dfabe
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347227"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615378"
 ---
 # <a name="availability-in-portugal"></a>在葡萄牙的可用性
 
@@ -43,7 +43,7 @@ ms.locfileid: "54347227"
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
-|是否会为音频会议自动分配电话号码？  <br/> |是，适用于：<br/><ul><li> 葡萄牙</ul>如果需要专用电话号码，请参阅获取 [服务电话号码](../getting-service-phone-numbers.md)。  <br/> |
+|是否会为音频会议自动分配电话号码？  <br/> |是，适用于：<br/><ul><li> 葡萄牙</ul>如果需要专用电话号码，请参阅 [获取服务电话号码](../getting-service-phone-numbers.md)。  <br/> |
 |使用“呼叫我”功能的拨出功能  <br/> |可用  <br/> |
    
 ## <a name="phone-system"></a>电话系统

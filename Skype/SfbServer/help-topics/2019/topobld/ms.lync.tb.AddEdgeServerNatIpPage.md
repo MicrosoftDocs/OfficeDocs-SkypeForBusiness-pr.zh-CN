@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddEdgeServerNatIpPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: aa97fd0e-48b9-4a66-b55a-12291641c967
 ROBOTS: NOINDEX, NOFOLLOW
 description: 公共 IP 地址是网络地址转换 (NAT) 使用的 IP 地址。IP 地址必须为公共可路由的地址。由于在此向导的“选择功能”页上选择了“此边缘池的外部 IP 地址由 NAT 转换”选项，因此这一点是必需的。
-ms.openlocfilehash: 6e35d384fbc416ee27583adfbde47f5348df8b5d68d419f0da723e3b5b79ed7d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 20fc7b116fe5d0b57b7f818f89a6a473e58a6a4a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295439"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633896"
 ---
 # <a name="add-edge-server-nat-ip"></a>添加边缘服务器 NAT IP
 

@@ -14,20 +14,20 @@ search.appverid: MET150
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
-description: 使用Teams使用情况Power BI报表访问 Microsoft Teams 呼叫质量仪表板 (CQD) 数据，Microsoft Teams组织中使用情况。
-ms.openlocfilehash: e32d321383621b4a961856ad091ba0497e41d7b27fa32925987a8bb093c7fc91
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.localizationpriority: medium
+description: 使用Teams使用情况Power BI访问 Microsoft Teams 呼叫质量仪表板 (CQD) 数据来跟踪Microsoft Teams使用情况。
+ms.openlocfilehash: e026f2b6b2b5e04d98dbf14582e5ce1ffc7f5007
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54352500"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616288"
 ---
 # <a name="view-microsoft-teams-utilization-in-power-bi-using-cqd-data"></a>使用 CQD Microsoft Teams查看Power BI的使用情况
 
-2020 年 3 月新增功能，我们已将一个Teams使用率报告添加到[CQD 的](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)可下载Power BI查询模板。 
+我们于 2020 年 3 月新增了一个Teams使用情况报告，该报表已添加到[CQD Power BI可下载的查询模板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)中。 
 
-此新的 Teams 使用率报告通过访问 Teams 呼叫质量仪表板 (CQD) 数据， (以及) 使用 Microsoft Teams 的用户数。 这些报告旨在成为管理员和业务领导都可以快速转到此数据的集中位置。
+此新的 Teams 利用率报告通过访问 Teams 呼叫质量仪表板 (CQD) 数据， (用户使用 Microsoft Teams) 的用户数。 这些报告旨在成为管理员和业务领导都可以快速转到此数据的集中位置。
 
 "Teams使用率Power BI报告包含两个主要报告："呼叫 **[计数](#call-count-summary-report)** 摘要"和"**[音频分钟数摘要"。](#audio-minutes-summary-report)** 当用户[利用下面](#daily-usage)说明中记下的向下[](#conference-details)钻取报表[](#user-list)时，"每日使用情况、区域音频详细信息、会议详细信息和用户列表"报告将发挥作用。 [](#regional-audio-details)
 
@@ -40,7 +40,7 @@ ms.locfileid: "54352500"
 
 ![屏幕截图：Teams利用率报告](media/CQD-teams-utilization-report1.png)
 
-1. 切片器下拉列表右侧按媒体类型细分为过去 30 天内的内部/外部视图。 通过上面的屏幕截图，可以看到，从组织外部位置发生的调用越来越多，考虑到当前的全局环境，这很有意义。
+1. 切片器下拉列表右侧按媒体类型细分为过去 30 天内的内部/外部视图。 通过上面的屏幕截图可以看到，从组织外部位置发生的调用越来越多，这考虑到当前的全局环境是有意义的。
   ![屏幕截图：Teams利用率报告](media/CQD-teams-utilization-report2.png)
 
 1. 在媒体类型计数框的右侧，我们按媒体类型显示过去 90 天的每月呼叫计数。 可以将每个列和媒体类型悬停在上方以显示上个月或当前月份到目前为止的计数，从而提供使用趋势信息。
@@ -63,7 +63,7 @@ ms.locfileid: "54352500"
 
 在"音频分钟数使用情况"报表上，通过几个不同的视图提供总分钟数使用情况。 
 
-切片器旁边显示了易于使用的文本框的 30 天使用情况摘要。 顶部数字显示 30 天总计，内部和外部细目低于该数字。
+切片器旁边显示的 30 天使用情况摘要易于使用文本框。 顶部数字显示 30 天总计，内部和外部细目低于该数字。
 
 ![屏幕截图：Teams利用率报告](media/CQD-teams-utilization-report9.png)
 
@@ -88,7 +88,7 @@ ms.locfileid: "54352500"
 
 ![屏幕截图：Teams利用率报告](media/CQD-teams-utilization-report12.png)
 
-"每日使用情况"报表显示所选天的音频、视频和屏幕共享数，添加了区分内部和外部连接的能力。 "会议"和"对等"细分位于"形式总计"框的右下角。 报表的右上方提供了一个会议列表，其中列出了当天的关联 ID 和参与者。 会议列表还提供对"会议详细信息"报告的其他向下钻取。 替换图形
+"每日使用情况"报表显示所选天的音频、视频和屏幕共享数，并添加了区分内部和外部连接的能力。 "会议"和"对等"细分位于"形式总计"框的右下角。 报表的右上方提供了一个会议列表，其中列出了当天的关联 ID 和参与者。 会议列表还提供对"会议详细信息"报告的其他向下钻取。 替换图形
 
 ![屏幕截图：Teams利用率报告](media/CQD-teams-utilization-report13.png)
 
@@ -96,7 +96,7 @@ ms.locfileid: "54352500"
 
 在条形图右侧，以可视格式显示用户反馈。 虽然用户情绪可能是主观的，但它确实提供可用于识别潜在问题的见解。
 
-底部表提供当天的指标范围。 较差的百分比和失败率可为管理员提供潜在的改进领域。 也可以单独选择每小时，如下所示。
+底部表提供当天的指标范围。 较差的百分比和失败率可为管理员提供潜在的改进方面。 也可以单独选择每小时，如下所示。
 
 此数据可用于识别在高峰使用时段出现问题的区域。
 
@@ -107,7 +107,7 @@ ms.locfileid: "54352500"
   1.  图表下方的表格将显示该小时的指标。 这可以通过任何列标题进行排序;但是，我们希望找到有问题的领域。  
     ![屏幕截图：Teams利用率报告](media/CQD-teams-utilization-report15.png)
     
-  2.  在此时间帧内，我们看到 IND 区域在会议中遇到较差的视频性能。 随后，可以使用 CQD QER Microsoft 报告缩小有问题的位置范围，因为已识别到该区域和时间范围。
+  2.  在此时间帧内，我们看到 IND 区域在会议中遇到较差的视频性能。 随后，CQD QER Microsoft 报告可用于缩小问题位置范围，因为已识别到该区域和时间范围。
 
 ### <a name="conference-details"></a>会议详细信息
 
@@ -138,16 +138,16 @@ ms.locfileid: "54352500"
 3.  数据趋势显示内部网络上使用大量分钟数，会议远超 P2P 使用。
   ![屏幕截图：Teams利用率报告](media/CQD-teams-utilization-report18.png)
 
-区域音频趋势可用于显示用户受到世界外部影响的影响。 具体而言，目前我们预期 EMEA 和 APAC 区域的外部使用量会随着要求远程工作的人的增加而增加。
+区域音频趋势可用于显示用户受到世界外部影响的影响。 具体而言，我们现在预期 EMEA 和 APAC 区域的外部使用量会随着要求远程工作的人的增加而增加。
 
 
 ### <a name="user-list"></a>用户列表
 
-按预期，"用户列表"向下钻取提供查看报告的用户选择的特定小时的用户特定信息。 可以通过每日使用情况报表上"每小时趋势"图中的向下钻取来访问用户列表报表。 右键单击所需的小时其他信息，然后选择"钻取"和"用户列表"，如下所示。
+"用户列表"向下钻取按预期提供查看报告的用户选择的特定小时的用户特定信息。 可以通过每日使用情况报表上"每小时趋势"图中的向下钻取来访问用户列表报表。 右键单击所需的小时其他信息，然后选择"钻取"和"用户列表"，如下所示。
 
 ![屏幕截图：Teams利用率报告](media/CQD-teams-utilization-report19.png)
 
-"用户列表"报表通过页面顶部中心的圆环图显示内部/外部连接。 如下图所示，企业网络外部存在大量参与活动。
+"用户列表"报表通过页面顶部中心的圆环图显示内部/外部连接。 下图显示了企业网络外部存在大量参与活动。
 
 图的右上方显示每个用户在这一小时内进行调用的数量。
 

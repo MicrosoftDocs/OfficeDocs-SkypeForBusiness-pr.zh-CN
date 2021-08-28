@@ -13,26 +13,26 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - SMB
 - ms.lync.lac.BroadcastMeetings
 description: 您可以启用Skype 会议直播，并更改这些会议的设置和策略。
-ms.openlocfilehash: c942c1f862097f9ccfb7ae67793632b1d02f85ed0ae4995147512698ab54e480
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e3b6568e61e3c3fe1e51f3aacb25c7ec1de421e7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339230"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614912"
 ---
 # <a name="make-changes-to-skype-meeting-broadcast-settings-for-your-organization"></a>对组织的Skype 会议广播设置进行更改
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!IMPORTANT]
-> Microsoft Teams管理中心已Skype for Business旧版门户 (管理) 。 现在，管理Skype for Business的所有设置都位于Teams中心。 必须分配全局管理员或 Skype for Business 管理员的[Azure AD](/azure/active-directory/roles/permissions-reference)管理员角色Skype for Business管理中心Teams功能。 有关详细信息，请参阅[在 Microsoft Teams 管理中心中管理 Skype for Business 设置](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json)。
+> Microsoft Teams管理中心已Skype for Business旧版门户 (管理中心) 。 现在，管理Skype for Business的所有设置都位于Teams中心。 必须分配全局管理员或 Skype for Business 管理员的[Azure AD](/azure/active-directory/roles/permissions-reference)管理员角色，Skype for Business管理中心Teams功能。 有关详细信息，请参阅[在 Microsoft Teams 管理中心中管理 Skype for Business 设置](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json)。
 
 您可以启用Skype 会议直播，并更改这些会议的设置和策略。
   
@@ -42,7 +42,7 @@ ms.locfileid: "54339230"
     
 - **允许组织者安排匿名会议** 这允许组织者创建直播活动，允许组织外部的任何人加入，而无需登录。
     
-- **允许录制直播会议** 这样，演示者或组织者就能够录制任何会议。
+- **允许录制直播会议** 这使演示者或组织者能够录制任何会议。
     
 - **与会者的支持人员支持 URL** 输入一个链接，供会议直播与会者在连接或参加直播会议时需要帮助使用。
     

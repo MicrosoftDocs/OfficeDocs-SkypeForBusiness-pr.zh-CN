@@ -9,20 +9,20 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
-description: 迁移到 2019 年 Skype for Business Server首先需要执行的步骤之一是部署试点池。 试点池是测试 Skype for Business Server 2019 与旧部署共存的地方。 共存是一种临时状态，一直持续到将所有用户和池移动到 2019 Skype for Business Server。
-ms.openlocfilehash: d7e02d1cb921f973d8851cfc3c8bbff0f3e81aa92f1945584ee94fa59a45e9ee
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.localizationpriority: medium
+description: 迁移到 2019 年 Skype for Business Server首先需要执行的步骤之一是部署试点池。 试点池是测试 2019 Skype for Business Server与旧部署共存的地方。 共存是一种临时状态，一直持续到将所有用户和池移动到 2019 Skype for Business Server。
+ms.openlocfilehash: e69e42e95ce7d13d8da88e91d6f1c266d7449f7b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54279600"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614986"
 ---
 # <a name="deploy-skype-for-business-server-2019-pilot-pool"></a>部署 Skype for Business Server 2019 试点池
 
-迁移到 2019 年 Skype for Business Server首先需要执行的步骤之一是部署试点池。 试点池是测试 Skype for Business Server 2019 与旧部署共存的地方。 共存是一种临时状态，一直持续到将所有用户和池移动到 2019 Skype for Business Server。 
+迁移到 2019 年 Skype for Business Server首先需要执行的步骤之一是部署试点池。 试点池是测试 2019 Skype for Business Server与旧部署共存的地方。 共存是一种临时状态，一直持续到将所有用户和池移动到 2019 Skype for Business Server。 
   
-部署试点池时，应使用“定义新前端池”向导。 应在旧池中的 Skype for Business Server 2019 试点池中部署相同的功能和工作负荷。 如果您部署了存档服务器、监控服务器或 System Center Operations Manager 来存档或监控旧环境，并且您希望在整个迁移过程中继续存档或监控，则还需要在试点环境中部署这些功能。 您部署用于存档或监视旧环境的版本不会捕获 Skype for Business Server 2019 环境中的数据。 
+部署试点池时，应使用“定义新前端池”向导。 应在旧池中的 Skype for Business Server 2019 试点池中部署相同的功能和工作负荷。 如果已部署存档服务器、监控服务器或 System Center Operations Manager 来存档或监控旧环境，并且您希望在整个迁移过程中继续存档或监控，则还需要在试点环境中部署这些功能。 您部署用于存档或监视旧环境的版本不会捕获 Skype for Business Server 2019 环境中的数据。 
   
 > [!NOTE]
 > 随后的过程讨论应被视为试点池总体部署过程一部分的功能和设置。 本节只着重介绍在部署试点池的过程中应考虑的关键点。 <!-- For detailed steps, refer to the 
@@ -32,16 +32,16 @@ ms.locfileid: "54279600"
 
 1. 以 Domain Admins 组和 RTCUniversalServerAdmins 组成员的身份登录安装了拓扑生成器的计算机。
     
-2. 展开树，直到到达 **Skype for Business Server 2019 Enterprise Edition**  >  **前端池**。
+2. 展开树，直到到达 **Skype for Business Server 2019 Enterprise Edition**  >  **前端池。**
     
 3. 右键单击 **Enterprise Edition前端池"，** 然后选择"**新建前端池"。**
   
-4. 输入 FQDN 中的池完全限定 (域名) 。 定义试点池时，可以选择在前端Enterprise Edition或部署Standard Edition服务器。 Skype for Business Server 2019 年 10 月不要求试点池功能与旧池中部署的功能相匹配。
+4. 输入 FQDN 中的池完全限定 (域名) 。 定义试点池时，可以选择部署前端池Enterprise Edition或部署Standard Edition服务器。 Skype for Business Server 2019 年 10 月不要求试点池功能与旧池中部署的功能相匹配。
     
     > [!CAUTION]
     > 为试点池定义的池或服务器 FQDN 必须是唯一的。 它不能匹配当前部署的旧池或当前部署任何其他服务器的名称。 
   
-5. 在“选择功能”页上，选中希望此前端池具有的功能的复选框。 例如，如果您仅部署即时消息 (IM) 和状态功能，则应该选中"会议"复选框以允许多方 IM，但不能选中"电话拨入式 (PSTN) 会议、企业语音 或呼叫允许控制"复选框，因为它们代表语音、视频和协作会议功能。 <!-- For additional information on selecting features, see 
+5. 在“选择功能”页上，选中希望此前端池具有的功能的复选框。 例如，如果您仅部署即时消息 (IM) 和状态功能，则应该选中"会议"复选框以允许多方 IM，但不选中"电话拨入式 (PSTN) 会议、企业语音 或呼叫允许控制"复选框，因为它们代表语音、视频和协作会议功能。 <!-- For additional information on selecting features, see 
  [Define and configure a Front End pool or Standard Edition server in Skype for Business Server 2019](../deployment/deploying-lync-server-2013/define-and-configure-a-front-end-pool-or-standard-edition-server.md) in the Deployment documentation.  -->
   
 6. 在"**选择并并的服务器** 角色"页上，建议您选择在 2019 年 10 月并Skype for Business Server中介服务器。 在将旧拓扑与 Skype for Business Server 2019 合并时，我们要求您首先并并旧中介服务器。 合并拓扑并配置 Skype for Business Server 2019 中介服务器后，可以在部署过程中稍后将中介服务器角色移动到 Skype for Business Server 2019 时决定是保留并并的中介服务器，还是将其更改为独立服务器。 
@@ -56,7 +56,7 @@ ms.locfileid: "54279600"
   
 11. 发布过程完成后，单击“完成”。
 
-12. 在移动到下一节"验证试点池与旧池共存"之前，需要安装我们刚刚在已发布拓扑中定义的 Skype for Business Server 新前端试点池，请按照此处列出的步骤在拓扑中的服务器上安装[Skype for Business Server](../../SfbServer/deploy/install/install-skype-for-business-server.md)
+12. 在移动到下一节"验证试点池与旧池共存"之前，需要安装刚在已发布拓扑中定义的 Skype for Business Server 新前端试点池，请按照此处列出的步骤在拓扑中的服务器上安装[Skype for Business Server](../../SfbServer/deploy/install/install-skype-for-business-server.md)
 
 13. 完成上一步后，移至下一部分以验证试点池与旧池的共存。
     

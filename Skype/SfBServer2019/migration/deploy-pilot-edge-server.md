@@ -9,18 +9,18 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
-description: 本主题重点介绍在部署 2019 边缘服务器之前应注意Skype for Business Server设置。 Skype for Business Server 2019 的部署和配置过程与 2015 Skype for Business Server非常相似。 本节仅重点介绍了应作为试点池部署的一部分考虑的关键点。 有关详细步骤，请参阅部署文档中的 Deploying external user access in Skype for Business Server 2019，其中介绍了部署过程，并提供了外部用户访问的配置信息。
-ms.openlocfilehash: 24202bc84be67453eeff321b268f44769d5b11a8eafcd6d93098db7c7b8537fc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.localizationpriority: medium
+description: 本主题重点介绍在部署 Skype for Business Server 2019 边缘服务器之前应注意的配置设置。 Skype for Business Server 2019 的部署和配置过程与 2015 Skype for Business Server非常相似。 本节仅重点介绍了应作为试点池部署的一部分考虑的关键点。 有关详细步骤，请参阅部署文档中的 Deploying external user access in Skype for Business Server 2019，其中介绍了部署过程，并提供了外部用户访问的配置信息。
+ms.openlocfilehash: c76d517bd5130c2babc41e0072ae7450b9838a64
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315078"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615006"
 ---
 # <a name="deploy-pilot-edge-server"></a>部署试点边缘服务器
 
-本主题重点介绍在部署 2019 边缘服务器之前Skype for Business Server设置。 Skype for Business Server 2019 的部署和配置过程与 2015 Skype for Business Server非常相似。 本节仅重点介绍了应作为试点池部署的一部分考虑的关键点。 <!-- For detailed steps, see 
+本主题重点介绍在部署 2019 边缘服务器之前应注意Skype for Business Server设置。 Skype for Business Server 2019 的部署和配置过程与 2015 Skype for Business Server非常相似。 本节仅重点介绍了应作为试点池部署的一部分考虑的关键点。 <!-- For detailed steps, see 
  [Deploying external user access in Skype for Business Server 2019](../deployment/deploying-external-user-access/deploying-external-user-access.md) in the Deployment documentation, which describes the deployment process and also gives configuration information for external user access.  -->
   
 在“定义新的边缘池”向导中导航时，查看以下步骤中显示的关键配置设置。请注意，仅显示了“定义新的边缘池”向导的部分页面。 
@@ -46,7 +46,7 @@ ms.locfileid: "54315078"
     
      ![定义"下一个跃点"对话框](../media/migration_ocs_topo_edgepool_page7.JPG)
   
-7. 在" **关联前端或中介** 池"页上，此时不要将池与此边缘池关联。 外部媒体流量当前通过旧边缘服务器进行路由。 将在迁移的稍后阶段中配置此设置。 
+7. 在" **关联前端或中介** 池"页上，此时不要将池与此边缘池关联。 外部媒体流量当前通过旧版边缘服务器进行路由。 将在迁移的稍后阶段中配置此设置。 
     
      !["关联前端池"对话框](../media/migration_ocs_topo_edgepool_page8.JPG)
   

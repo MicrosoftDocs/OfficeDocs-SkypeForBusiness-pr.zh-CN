@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 443d071e-633e-4337-b20b-f30cdfbd4aaf
 description: 此Set-CcExternalCertificateFilePath cmdlet 指定存储中介服务器或边缘服务器的证书的路径。
-ms.openlocfilehash: 7b9b494b27f3ed05dd1ef1cdb91bd583abf2d2b391f1a49c0b2615fd3485187c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b8555d3a3c6770481e1a66f79fd4a1060d3d9936
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344561"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615518"
 ---
 # <a name="set-ccexternalcertificatefilepath"></a>Set-CcExternalCertificateFilePath
  
@@ -62,7 +62,7 @@ Set-CcExternalCertificateFilePath -Target MediationServer -Path C:\CloudConnecto
 ## <a name="detailed-description"></a>详细说明
 <a name="DetailedDescription"> </a>
 
-在部署期间或修改拓扑时，需要指定边缘服务器证书的路径，并选择性地指定中介服务器证书的路径。 
+在部署过程中或修改拓扑时，需要指定边缘服务器证书的路径，并选择性地指定中介服务器证书的路径。 
   
 如果在网关服务器和中介服务器之间使用 TLS，则 (服务器) 证书。 部署云连接器设备并想要部署 TLS 时，只能指定将在中介服务器上部署的证书的路径。 但是，如果要更新已部署的设备的中介证书，则需要指定路径和 -Import 参数。 若要查看路径，请使用 Get-CCExternalCertificateFilePath cmdlet。
   
@@ -71,7 +71,7 @@ Set-CcExternalCertificateFilePath -Target MediationServer -Path C:\CloudConnecto
 
 |**参数**|**Required**|**类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| Target <br/> | 必需 <br/> |System.String  <br/> |请求的文件路径的类型。 类型包括：  <br/> EdgeServer (默认)   <br/> MediationServer  <br/> |
+| 目标 <br/> | 必需 <br/> |System.String  <br/> |请求的文件路径的类型。 类型包括：  <br/> EdgeServer (默认)   <br/> MediationServer  <br/> |
 |导入  <br/> |可选  <br/> |System.Management.Automation.SwitchParameter  <br/> |指示必须将证书导入中介服务器。 如果首次部署设备，则不需要此参数。 如果要更改已部署版本上的现有证书，则参数是必需的。  <br/> |
    
 ## <a name="input-types"></a>输入类型

@@ -1,5 +1,5 @@
 ---
-title: 在部署中实现企业语音和Skype for Business Server
+title: 在安全与配置中企业语音先决条件Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -9,25 +9,25 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 15354abe-733e-466b-bcd4-a6cfbf58caf8
 description: Summary： Learn about the security and configuration prerequisites for 企业语音 in Skype for Business Server.
-ms.openlocfilehash: 86c7432ea32f4809d2b69d79583caca578c661950a217f7c1e3977925d524d3b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0f46de6fa8b8c2027a3828df67a0330212392e45
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340188"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617018"
 ---
-# <a name="security-and-configuration-prerequisites-for-enterprise-voice-in-skype-for-business-server"></a>在部署中实现企业语音和Skype for Business Server
+# <a name="security-and-configuration-prerequisites-for-enterprise-voice-in-skype-for-business-server"></a>在安全与配置中企业语音先决条件Skype for Business Server
  
-**摘要：** 了解 Skype for Business Server 中用于企业语音和配置Skype for Business Server。
+**摘要：** 了解 企业语音 中的安全Skype for Business Server。
   
-在部署企业语音之前，请验证基础结构是否满足以下安全性、用户配置和特定于方案的硬件先决条件。 
+在部署企业语音，请验证基础结构是否满足以下安全性、用户配置和特定于方案的硬件先决条件。 
   
 ## <a name="administrative-rights-and-certificate-infrastructure"></a>管理权限和证书基础结构
 
@@ -50,9 +50,9 @@ ms.locfileid: "54340188"
   
 ## <a name="user-configuration"></a>用户配置
 
-如果在前端部署期间将中介服务器与每台前端池或 Standard Edition 服务器并并，则 企业语音 所需的用户设置将在安装这些服务器角色的文件期间自动配置。
+如果在前端部署期间将中介服务器与每台前端池或 Standard Edition 服务器并并，则安装这些服务器角色的文件时会自动配置 企业语音 所需的用户设置。
   
-如果此时要执行全新的企业语音工作负荷部署，则在开始部署过程之前，为计划要对其启用企业语音的每个用户指定一个主电话号码。 作为管理员，应确保此号码是唯一的。 实施前，所有主要电话号码都必须经过规范化 (格式) 控制面板将主电话号码复制到每个用户的"线路 **URI"Skype for Business Server** 属性。
+如果此时要执行全新的企业语音工作负荷部署，则在开始部署过程之前，为计划要对其启用企业语音的每个用户指定一个主电话号码。 作为管理员，应确保此号码是唯一的。 实施之前，所有主要电话号码都必须 (格式正确) 控制面板复制到每个用户的"线路 **URI"Skype for Business Server** 属性。
   
 > [!NOTE]
 > 有关部署所需的主要电话号码企业语音，请参阅[示例规范化规则](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md#BKMK_SampleNormalizationRules)。 
@@ -61,8 +61,8 @@ ms.locfileid: "54340188"
 
 验证软件和环境先决条件后企业语音您可以：
   
-- 安装中介服务器，如[在 Skype for Business Server](deploy-a-mediation-server.md)的拓扑生成器中部署中介服务器中所述，但只有在要部署独立的中介服务器或池时，才需要安装中介服务器，因为在并排时中介服务器是作为前端池或 Standard Edition 服务器部署过程的一部分安装的。
+- 安装中介服务器，如[在 Skype for Business Server](deploy-a-mediation-server.md)的拓扑生成器中部署中介服务器中所述，但仅在要部署独立的中介服务器或池时，因为中介服务器是作为前端池或 Standard Edition 服务器部署过程的一部分安装的。）
     
-- 或者，开始配置设置以路由 企业语音 用户的呼叫，如在 Skype for Business Server 中[配置中继中所述](configure-trunks.md)。
+- 或者，开始配置设置以路由 企业语音 用户的呼叫，如在 Skype for Business Server 中配置[中继中所述](configure-trunks.md)。
     
 

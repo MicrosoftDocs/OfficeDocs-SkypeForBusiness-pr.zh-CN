@@ -1,5 +1,5 @@
 ---
-title: 使用 Graph API 管理 Microsoft Teams 中的专用通道
+title: 使用 api 管理 Microsoft Teams 中的Graph通道
 author: MikePlumleyMSFT
 ms.author: mikeplum
 manager: serdars
@@ -15,19 +15,19 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
-description: 了解如何使用 API 管理组织中专用Graph通道。
-ms.openlocfilehash: 82a9f865099be4012456a1c3a854e08b79d15db432e965a60e32d44c36147b9c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 了解如何使用专用 API 管理组织中Graph通道。
+ms.openlocfilehash: a2cb9b45afb005c837b260ac3da22c250d16c758
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350504"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615318"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>管理专用频道在 Microsoft Teams
 
-可在此处找到管理所需的指导，使用 Graph API 管理[Teams专用](./private-channels.md)频道。
+可在此处找到管理指南，使用 Graph API 管理Teams[专用](./private-channels.md)频道。
 
 ## <a name="set-whether-team-members-can-create-private-channels"></a>设置团队成员是否可以创建专用频道
 
@@ -136,13 +136,13 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 ## <a name="list-and-update-roles-of-owners-and-members-in-a-private-channel"></a>列出和更新专用频道中所有者和成员的角色
 
-你可能希望列出专用频道的所有者和成员，以决定是否需要将专用频道的某些成员提升为所有者。 当专用频道的所有者已离开组织，而专用频道需要管理员帮助来声明通道所有权时，可能会发生这种情况。
+你可能希望列出专用频道的所有者和成员，以决定是否需要将专用频道的某些成员提升为所有者。 当专用频道的所有者已离开组织，并且该专用频道需要管理员帮助来声明通道所有权时，可能会发生这种情况。
 
 作为管理员，可以使用 Graph API 来执行这些操作。
 
 可以通过资源管理器 尝试[Graph命令](https://developer.microsoft.com/graph/graph-explorer)。
 
-1. 使用以下代码，其中group_id是团队的 &lt; &gt; 组 ID，channel_id &lt; &gt; 是频道 ID。
+1. 使用以下代码，其中group_id &lt; &gt; 是团队的组 ID，channel_id &lt; &gt; 是频道 ID。
 
     **请求**
 

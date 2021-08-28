@@ -9,18 +9,18 @@ ms.topic: quickstart
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
 description: 阅读本主题，了解如何使用 Microsoft Teams 会议室 部署Skype for Business Server。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 14d942e041d11cfd95b38f4cdcc18ad614c135df9d88b3a3e55261236144bffd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2990e1314ee851156bc11430ecf933fe31552117
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296639"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615188"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-skype-for-business-server"></a>使用 Microsoft Teams 会议室 部署Skype for Business Server
   
@@ -29,7 +29,7 @@ ms.locfileid: "54296639"
 如果具有具有 Exchange 2013 SP1 或更高版本以及 Skype for Business Server 2015 或更高版本的单林本地部署，可以使用提供的 Windows PowerShell 脚本创建设备帐户。 如果使用多林部署，可以使用将生成相同结果的等效 cmdlet。 本节中对这些 cmdlet 进行了介绍。
 
   
-在开始部署Microsoft Teams 会议室，请确保拥有运行关联的 cmdlet 所需的正确权限。
+在开始部署Microsoft Teams 会议室，请确保拥有运行关联 cmdlet 所需的正确权限。
   
 
    ``` Powershell
@@ -61,7 +61,7 @@ ms.locfileid: "54296639"
    -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
    ```
 
-3. 可以在设备Exchange设置各种会议属性，以改进用户的会议体验。 你可以看到需要在 Exchange 属性部分设置的属性。
+3. 可以在设备Exchange设置各种活动属性，以改进用户的会议体验。 你可以看到需要在 Exchange 属性部分设置的属性。
 
    ``` Powershell
    Set-CalendarProcessing -Identity $acctUpn -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments
@@ -81,7 +81,7 @@ ms.locfileid: "54296639"
    Set-AdUser $acctUpn -Enabled $true
    ```
 
-6. 通过启用 Skype for Business Server 池上的 Microsoft Teams 会议室 Active Directory Skype for Business Server设备帐户：
+6. 通过启用 Skype for Business Server 池上的 Microsoft Teams 会议室 Active Directory 帐户，使用 Skype for Business Server帐户：
 
    ``` Powershell
    Enable-CsMeetingRoom -SipAddress sip:PROJECTRIGEL01@contoso.com -DomainController DC-ND-001.contoso.com
@@ -90,7 +90,7 @@ ms.locfileid: "54296639"
 
     该项目需要使用会话初始协议 (SIP) 地址和域控制器。
 
-7. **可选。** 您还可以允许用户Microsoft Teams 会议室 PSTN (呼叫拨打和接收公用) 电话企业语音呼叫。 企业语音不是客户端Microsoft Teams 会议室，但如果您希望为 Microsoft Teams 会议室 客户端提供 PSTN 拨号功能，请通过以下方式启用它：
+7. **可选。** 您还可以允许Microsoft Teams 会议室启用 PSTN (电话呼叫) 拨打和接收公用企业语音电话网络。 企业语音不是应用程序Microsoft Teams 会议室，但如果您希望为客户端启用 PSTN Microsoft Teams 会议室功能，下面将了解如何启用它：
 
    ``` Powershell
    Set-CsMeetingRoom PROJECTRIGEL01 -DomainController DC-ND-001.contoso.com -LineURI "tel:+14255550555;ext=50555"

@@ -16,19 +16,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 description: 这将帮助你了解如何拨打每个国家/地区的免费电话号码。 选择国家/地区后，将进入特定国家/地区页面，其中包含提供免费服务的免费服务可用性的特定详细信息、限制和限制。 拨号格式或格式将显示每个国家/地区拨打免费电话号码所需的访问代码。
-ms.openlocfilehash: 7bdc0594076f4eddbd3e35e71d57e324047522de15e1f423f8ca3ccda06c76bb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a13e1adabc3a587e8e107e83f6f26dad31849e1c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350314"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615158"
 ---
 # <a name="toll-free-dialing-restrictions-in-cyprus"></a>塞浦路斯的免费拨号限制
 

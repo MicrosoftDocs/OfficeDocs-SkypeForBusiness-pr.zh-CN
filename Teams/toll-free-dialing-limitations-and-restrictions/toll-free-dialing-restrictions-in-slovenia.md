@@ -16,19 +16,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 description: 这将帮助你了解如何拨打每个国家/地区的免费电话号码。 选择国家/地区后，将进入特定国家/地区页面，其中包含提供免费服务的免费服务可用性的特定详细信息、限制和限制。 拨号格式或格式将显示每个国家/地区拨打免费电话号码所需的访问代码。
-ms.openlocfilehash: bbcb117e2392f403df34d9b5a98565cf6f14d066f327a8321b8a6e3c9577cc70
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2495ce6a6fc5be8ba068d0354109060d656cb314
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350264"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615148"
 ---
 # <a name="toll-free-dialing-restrictions-in-slovenia"></a>斯洛文尼亚的免费拨号限制
 
@@ -43,7 +43,7 @@ ms.locfileid: "54350264"
 |涵盖的岛屿/区域  <br/> |不适用  <br/> |
 |未涵盖的岛屿/区域  <br/> |不适用  <br/> |
 |有线/固定线路可用性  <br/> |是  <br/> |
-|移动网络可用性  <br/> |弱  <br/> |
+|移动网络可用性  <br/> |否  <br/> |
 |注释、限制和访问问题  <br/> |无  <br/> |
    
 ## <a name="see-also"></a>另请参阅

@@ -13,14 +13,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 本文介绍如何为边缘服务器配置端口范围以及如何为 A/V 边缘服务器配置服务质量策略。
-ms.openlocfilehash: 076f7bd6f3118155eeed6a03268326247394e2b7
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 9e9ec2e3f6aff938866655f3534b2a45ab77f726
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58232637"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634276"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-edge-servers-in-skype-for-business-server"></a>为部署中的边缘服务器配置端口范围和服务质量Skype for Business Server
 
@@ -98,7 +98,7 @@ ms.locfileid: "58232637"
 
 2.  右键单击相应的容器，然后单击"在此域中创建 **GPO"，并在此处链接** 它。
 
-3.  在"**新建 GPO"** 对话框中，在"名称"框中键入新组策略对象的名称 (例如，Skype for Business Server **Audio) ，** 然后单击"确定 **"。**
+3.  在"**新建 GPO"** 对话框中，在"名称"框中键入新组策略对象的名称 (例如，Skype for Business Server **音频**) ，然后单击"确定 **"。**
 
 4.  右键单击新创建的策略，然后单击"编辑 **"。**
 
@@ -126,7 +126,7 @@ ms.locfileid: "58232637"
 
 如果决定创建用于管理应用程序共享通信的策略，则必须创建第三个策略，进行以下替换：
 
-  - 使用不同的策略 (和唯) 策略 (例如，Skype for Business Server **应用程序共享**) 。
+  - 使用不同的策略 (和) 策略名称 (例如，Skype for Business Server **应用程序共享**) 。
 
   - 将 DSCP 值设置为“24”而不是 46。（同样，不一定要使用 DSCP 值 24。唯一的要求是对应用程序共享使用与用于音频或视频的 DSCP 值不同的 DSCP 值。）
 

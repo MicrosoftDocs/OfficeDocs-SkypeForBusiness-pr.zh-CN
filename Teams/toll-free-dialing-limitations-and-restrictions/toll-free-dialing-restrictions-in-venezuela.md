@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 了解如何在委内瑞拉拨打免费电话号码，包括可用性、有线/固定线路和移动网络可用性以及限制。
-ms.openlocfilehash: 1239c2352c729a66538f97de22ef0257f196598e8b2784a0c175f0d45e644c6f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 732e648b4d5c0c9a6c0d5d0ea1d6aa7366f57373
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54346049"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615138"
 ---
 # <a name="toll-free-dialing-restrictions-in-venezuela"></a>委内瑞拉的免费拨号限制
 

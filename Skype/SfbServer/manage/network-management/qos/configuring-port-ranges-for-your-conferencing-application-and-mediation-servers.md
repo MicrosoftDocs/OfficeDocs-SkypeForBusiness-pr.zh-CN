@@ -13,14 +13,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 本文介绍如何为会议、应用程序和中介服务器配置端口范围和服务质量策略。
-ms.openlocfilehash: 52612e1cd4d8990f32b741538b8023ab1f8afabe
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 6e5b420b4ccc8cc59a45834cbd898ccc5b2ec180
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234947"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634286"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-conferencing-application-and-mediation-servers"></a>为会议、应用程序和中介服务器配置端口范围和服务质量策略
 
@@ -41,7 +41,7 @@ ms.locfileid: "58234947"
   Get-CsService -MediationServer |Select-Object Identity、AudioPortStart、AudioPortCount
 
 > [!WARNING]  
-> 正如您在上面的命令中看到的，每种端口类型（音频、视频和应用程序共享）将分配有两个不同的属性值：起始端口和端口计数。 起始端口指示用于相应形式的第一个端口；例如，如果音频起始端口等于 50000，则意味着用于音频通信的第一个端口为端口 50000。 如果音频端口计数为 2， (不是有效值，但在此处用于演示) ，这意味着仅为音频分配了两个端口。 如果第一个端口为端口 50000 并且总共有两个端口，则意味着第二个端口必须为端口 50001（端口范围必须是连续的）。 因此，音频的端口范围将为 50000 到 50001（包括 50000 和 50001）。<BR><br>注意，应用程序服务器和中介服务器仅支持音频的服务质量；您无需更改应用程序服务器或中介服务器中的视频或应用程序共享端口。
+> 正如您在上面的命令中看到的，每种端口类型（音频、视频和应用程序共享）将分配有两个不同的属性值：起始端口和端口计数。 起始端口指示用于相应形式的第一个端口；例如，如果音频起始端口等于 50000，则意味着用于音频通信的第一个端口为端口 50000。 如果音频端口计数为 2 (，该值不是有效值，但在此处用于演示) ，这意味着仅为音频分配了两个端口。 如果第一个端口为端口 50000 并且总共有两个端口，则意味着第二个端口必须为端口 50001（端口范围必须是连续的）。 因此，音频的端口范围将为 50000 到 50001（包括 50000 和 50001）。<BR><br>注意，应用程序服务器和中介服务器仅支持音频的服务质量；您无需更改应用程序服务器或中介服务器中的视频或应用程序共享端口。
 
 如果运行上述三个命令，将看到以下配置了Skype for Business Server端口值：
 
@@ -112,7 +112,7 @@ ms.locfileid: "58234947"
 
 会议服务器、应用程序服务器和中介服务器不必共享完全相同的端口范围；您唯一必须做的是在所有服务器上留出唯一的端口范围。但是，如果您在所有服务器上使用相同的端口集，则管理一般会更加轻松。
 
-## <a name="configure-a-quality-of-service-policy-in-skype-for-business-server-for-your-conferencing-application-and-mediation-servers"></a>在会议、应用程序和中介Skype for Business Server配置服务质量策略
+## <a name="configure-a-quality-of-service-policy-in-skype-for-business-server-for-your-conferencing-application-and-mediation-servers"></a>在 Skype for Business Server 中为会议、应用程序和中介服务器配置服务质量策略
 
 配置端口范围通过确保指定类型的所有流量（例如，所有音频流量）通过同一组端口进行传输来方便服务质量的使用。这使系统标识和标记给定数据包变得容易：如果端口 49152 是为音频通信保留的，则通过端口 49152 的所有数据包均可使用 DSCP 代码进行标记，以指示这是一个音频数据包。反过来，这使路由器能将此数据包标识为一个音频数据包，并为其提供比未标记数据包更高的优先级（如用于将文件从一台服务器复制到另一台服务器的数据包）。
 
@@ -132,7 +132,7 @@ ms.locfileid: "58234947"
 
 5.  在组策略管理编辑器中，依次展开“计算机配置”、“策略”和“Windows 设置”， 右键单击“基于策略的 QoS”，然后单击“创建新策略”。
 
-6.  在"基于策略 **的 QoS"** 对话框的打开页上，键入新策略的名称 (例如，在"名称"框中Skype for Business Server  **QoS) 。** 选择“指定 DSCP 值”，并将该值设置为“46”。 将“指定出站调节率”保留为未选中状态，然后单击“下一步”。
+6.  在"基于策略的 **QoS"** 对话框的打开页上，键入新策略的名称 (例如，在"名称"框中Skype for Business Server  **QoS) 。** 选择“指定 DSCP 值”，并将该值设置为“46”。 将“指定出站调节率”保留为未选中状态，然后单击“下一步”。
 
 7.  On the next page， make sure that **All applications** is selected， and then click **Next**. 这将确保所有应用程序与指定端口范围内带有指定 DSCP 代码的数据包匹配。
 
@@ -155,7 +155,7 @@ ms.locfileid: "58234947"
 
 如果决定创建用于管理应用程序共享通信的策略，则必须创建第三个策略，进行以下替换：
 
-  - 使用不同的策略 (和唯) 策略 (例如，Skype for Business Server **应用程序共享**) 。
+  - 使用不同的策略 (和) 策略 (，例如Skype for Business Server **应用程序共享**) 。
 
   - 将 DSCP 值设置为“24”而不是 46。（同样，不一定要使用 DSCP 值 24。唯一的要求是对应用程序共享使用与用于音频或视频的 DSCP 值不同的 DSCP 值。）
 
@@ -173,7 +173,7 @@ ms.locfileid: "58234947"
 
 2.  在" **运行** "对话框中，键入 **regedit**，然后按 Enter。
 
-3.  在注册表编辑器中，展开 **计算机**，展开 **HKEY \_ LOCAL \_ MACHINE，** 展开 **SOFTWARE，** 展开 **策略**，**展开 Microsoft，** 展开 **Windows**，然后单击 **QoS**。 在“QoS”下，您应看到刚刚创建的每个 QoS 策略对应的注册表项。 例如，如果您创建了两个新策略 (一个名为 Skype for Business Server Audio QoS，另一个名为 Skype for Business Server Video QoS) ，您应该会看到 Skype for Business Server Audio QoS 和 Skype for Business Server Video QoS 的注册表项。
+3.  在注册表编辑器中 **，展开"** 计算机"，展开 **"HKEY \_ LOCAL \_ MACHINE"，** 展开 **"SOFTWARE"，** 展开 **"策略**"，展开 **"Microsoft"，** 展开 **"Windows"，** 然后单击 **"QoS"。** 在“QoS”下，您应看到刚刚创建的每个 QoS 策略对应的注册表项。 例如，如果您创建了两个新策略 (一个名为 Skype for Business Server Audio QoS，另一个名为 Skype for Business Server Video QoS) ，您应看到 Skype for Business Server Audio QoS 和 Skype for Business Server Video QoS 的注册表项。
 
 要确保将网络数据包标记为相应的 DSCP 值，还应该通过完成以下过程在每台计算机上创建新的注册表项：
 

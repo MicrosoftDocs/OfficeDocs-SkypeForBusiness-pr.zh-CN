@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddSimpleUrlPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 202b9fa2-41ab-4c86-a283-ebc8dece7ddf
 description: 若要将其他简单 URL 添加到部署定义中，请指定新的简单 URL 的 URL。
-ms.openlocfilehash: a85f5268e6d66b06ae1110d1a00004535bb12da7c70f131dbd09026e37106857
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a91fee84df2442c11c71a5760fba57b39b44255c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54299589"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634406"
 ---
 # <a name="add-simple-url"></a>添加简单 URL
  
@@ -33,6 +33,6 @@ ms.locfileid: "54299589"
 > [!IMPORTANT]
 > 任何时候都可以拥有一个活动拨入简单 URL 和一个会议简单 URL。添加新的简单 URL 并将其设为活动 URL 会将所有将来的请求设置为使用新的简单 URL。对于在旧的简单 URL 处于活动状态时进行的会议和其他请求，则由非活动的简单 URL 来处理。 
   
-有关添加简单 URL 的更多详细信息，请参阅[DNS requirements for simple URLs in Skype for Business Server 2015。](../../plan-your-deployment/network-requirements/simple-urls.md)
+有关添加简单 URL 的更多详细信息，请参阅[DNS requirements for simple URLs in Skype for Business Server 2015](../../plan-your-deployment/network-requirements/simple-urls.md)。
   
 

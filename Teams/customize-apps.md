@@ -15,19 +15,19 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何在应用中自定义Microsoft Teams。
-ms.openlocfilehash: bd598bed231c0d9d6ab2a58d87f04ab2eecfad8df64d0446ee3c63a884b25e67
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0a3a6b21b34fba7c45ca272f5eefd3eb047a1f7c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281625"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634056"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>自定义应用中Microsoft Teams
 
- Microsoft Teams提供应用自定义，以增强Teams体验。 某些应用开发人员允许由管理员自定义Teams应用。管理员可以使用管理中心"管理应用"页，根据组织需求自定义或Teams **品牌**。 可以自定义的详细信息包括：
+ Microsoft Teams应用自定义来增强Teams体验。 某些应用开发人员允许应用由管理员Teams自定义。管理员可以使用管理中心"管理应用"页，根据组织需求自定义或Teams **品牌**。 可以自定义的详细信息包括：
 
 - 短名称
 - 简短说明
@@ -42,7 +42,7 @@ ms.locfileid: "54281625"
 有关[可Teams](/microsoftteams/platform/resources/schema/manifest-schema)字段的详细信息，请参阅清单架构。
 
 > [!NOTE]
-> 目前，政府社区云高 (GCCH) 或国防部 (DoD) 不支持自定义应用。
+> 目前，DoD 政府社区云高 (GCCH) 或国防部 (不支持) 应用。
 > 目前，此功能不适用于旁加载Microsoft Teams应用。
 
 ## <a name="customize-the-apps-details"></a>自定义应用的详细信息
@@ -85,7 +85,7 @@ ms.locfileid: "54281625"
 
 5. 展开" **图标"** 部分。
 
-   a. Upload图标。 使用一个全颜色图标 (192x192) PNG 格式的像素。
+   a. Upload图标。 使用一个全色图标 (192x192) PNG 格式的像素。
 
    b. 选择图标轮廓颜色。 使用一个 32x32 (32x32) PNG 格式的透明轮廓。
 
@@ -108,7 +108,7 @@ ms.locfileid: "54281625"
 以下说明包含有关自定义应用的重要详细信息。
 
 > [!Note]
-> - 自定义应用以及与应用相关的任何说明时，请确保遵循任何自定义指南（如果应用发布者在文档或使用条款中提供）。 你还有责任尊重他人对可能使用的任何第三方图像的权利。
+> - 自定义应用和与应用相关的任何说明时，请确保遵循任何自定义指南（如果应用发布者在文档或使用条款中提供）。 你还有责任尊重他人对可能使用的任何第三方图像的权利。
 > - 管理员提供的自定义数据存储在最近的区域。
 > - 你负责确保指向使用条款或隐私策略的链接有效。
 > - 如果应用发布者不再允许自定义字段，应用详细信息页上会显示一条消息，通知管理员不再可以自定义的字段。 对该字段进行的所有更改都将还原为原始值。
@@ -157,7 +157,7 @@ ms.locfileid: "54281625"
 
 **自定义应用会自动部署以替换租户中的当前自定义应用吗？**
 
-否，租户管理员必须手动删除任何自定义应用并发布应用的自定义版本。 如果你已自定义应用并将其发布为自定义应用，则使用应用自定义功能自定义的新应用不会替换当前的自定义应用。  
+否，租户管理员必须手动删除任何自定义应用并发布应用的自定义版本。 如果你已自定义应用并将其发布为自定义应用，则使用应用自定义功能自定义的新应用不会替换当前自定义应用。  
 
 **应用使用情况报告还会显示自定义值（如自定义短名称）吗？**
 
@@ -165,7 +165,7 @@ ms.locfileid: "54281625"
 
 **可以使用应用自定义功能自定义哪些应用？**
 
-只能自定义应用发布者允许自定义的应用。 应用发布者将需要选择加入以允许其客户自定义应用。
+只能自定义应用发布者允许自定义的应用。 应用发布者需要选择加入以允许其客户自定义应用。
 
 **自定义属性会显示在图形权限许可屏幕上吗？**
 

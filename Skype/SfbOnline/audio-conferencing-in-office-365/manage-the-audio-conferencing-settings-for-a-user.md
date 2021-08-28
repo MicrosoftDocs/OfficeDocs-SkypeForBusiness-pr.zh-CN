@@ -15,27 +15,27 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
 description: '作为 Microsoft 365 或 Office 365 管理员，您可以编辑 Skype for Business Online 音频会议设置（例如提供商、默认收费或免费电话号码、会议 ID 或 PIN）供您的组织中的单个用户使用。 '
-ms.openlocfilehash: 648bb27ce8e6745d765b8fc400494188fd43b5e866ecf0cf927f36fd4d7ca676
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7f25df3c9f395583273a4bf8ce68f3c93699a41d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335712"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614944"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-skype-for-business-online"></a>在 Skype for Business Online 中管理用户的音频Skype for Business设置
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!Note]
-> 如果要管理用户设置Microsoft Teams，请参阅在 Microsoft Teams 中管理[用户的音频会议Microsoft Teams。](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-a-user-in-teams)
+> 如果要在"会议"中管理Microsoft Teams设置，请参阅在 Microsoft Teams 中管理[用户的音频Microsoft Teams。](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-a-user-in-teams)
 
-作为Microsoft 365管理员Office 365，您可以编辑贵组织中单个用户的音频会议设置，例如提供商、默认收费或免费号码、会议 ID 或 PIN。 如果要编辑组织的设置，请参阅 [管理组织的音频会议设置](manage-the-audio-conferencing-settings-for-my-organization.md)。
+作为Microsoft 365或Office 365管理员，您可以编辑贵组织中单个用户的音频会议设置，例如提供商、默认收费或免费号码、会议 ID 或 PIN。 如果要编辑组织的设置，请参阅 [管理组织的音频会议设置](manage-the-audio-conferencing-settings-for-my-organization.md)。
 
  
 1. 使用工作或学校帐户登录。

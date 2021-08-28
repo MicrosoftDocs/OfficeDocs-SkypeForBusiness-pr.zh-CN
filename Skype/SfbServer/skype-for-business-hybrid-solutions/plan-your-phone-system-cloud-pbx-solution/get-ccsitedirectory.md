@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a243758e-6774-4437-ad2e-d5cea5f04eb6
 description: 此Get-CcSiteDirectory cmdlet 显示存储站点级别配置文件的当前目录。 该文件夹包含基本 VHD 和 Skype for Business 云连接器版本安装文件。 此文件夹应该与云连接器站点的所有其他设备共享。
-ms.openlocfilehash: 279afabbb88aab162be8445007772e24d24d06d935130d5f4f27a8755a2fd25c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 04b1460b9743c3d19ca4db77f67d057d400f400b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343186"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616368"
 ---
 # <a name="get-ccsitedirectory"></a>Get-CcSiteDirectory
  
@@ -48,7 +48,7 @@ Get-CcSiteDirectory
 ## <a name="detailed-description"></a>详细说明
 <a name="DetailedDescription"> </a>
 
-为了提供网关相关性和高可用性，可以在站点中组合使用云连接器设备。 将用户分配给站点，而不是云连接器设备。 每个站点都有一个共享文件夹，其中存储基本 VHD 和云连接器安装文件。 设备在部署期间使用此文件夹。 默认文件夹为 C：\Users \% userprofile%\CloudConnector\SiteRoot。 您可以使用 Set-CcSiteDirectory cmdlet 更改路径。
+为了提供网关相关性和高可用性，可以在站点中组合使用云连接器设备。 将用户分配给站点，而不是云连接器设备。 每个站点都有一个共享文件夹，其中存储基本 VHD 和云连接器安装文件。 设备在部署期间使用此文件夹。 默认文件夹为 C：\Users \% userprofile%\CloudConnector\SiteRoot。 可以使用 cmdlet 更改Set-CcSiteDirectory路径。
   
 ## <a name="input-types"></a>输入类型
 <a name="InputTypes"> </a>

@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 783d2508-e31f-4b54-be0c-63aa5ec21c04
 description: 每条记录表示一个点对点会话，它可以是 VoIP-VoIP 电话呼叫、双方 IM 会话或其他类型的会话。 你可以对 Media 表执行表联接，以查找此会话中涉及的每个媒体的详细信息。
-ms.openlocfilehash: eb47c87be69bfc9308c8c641c54a2173ba2ed03eeae7f7543ce6a5cbb97f7092
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 830e6e2266d77487848c4e49daeaa8462460c2dc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284482"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615508"
 ---
 # <a name="sessiondetails-table"></a>SessionDetails 表
  
@@ -26,10 +26,10 @@ ms.locfileid: "54284482"
   
 请注意，IsUser1IntegratedWithDeskPhone 和 IsUser2IntegratedWithDeskPhone 字段已从 Skype for Business Server 2015 中使用的 SessionDetails 表中删除。
   
-|**列**|**数据类型**|**键/索引**|**详细信息**|
+|**列**|**数据类型**|**键/索引**|**Details**|
 |:-----|:-----|:-----|:-----|
 |**SessionIdTime** <br/> |datetime  <br/> |主、外  <br/> |会话请求的时间。 与 **SessionIdSeq** 结合使用来唯一地标识会话。 有关详细信息，请参阅[Skype for Business Server 2015](dialogs.md)中的 Dialogs 表。 <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |主、外  <br/> |用于标识会话的 ID 号。 与 **SessionIdTime** 结合使用来唯一地标识会话。* 有关详细信息，[请参阅 Skype for Business Server 2015](dialogs.md)中的 Dialogs 表。 <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |主、外  <br/> |用于标识会话的 ID 号。 与 **SessionIdTime** 结合使用来唯一地标识会话。* 有关详细信息，请参阅 [Skype for Business Server 2015](dialogs.md)中的 Dialogs 表。 <br/> |
 |**CorrelationId** <br/> |uniqueidentifier  <br/> ||用于关联多个会话的 GUID。  <br/> |
 |**ReplaceDialogIdTime** <br/> |datetime  <br/> |Foreign  <br/> |用于标识由当前会话取代的对话的 ID 号。 有关详细信息，请参阅[Skype for Business Server 2015](dialogs.md)中的 Dialogs 表。 <br/> |
 |**ReplaceDialogIdSeq** <br/> |int  <br/> |Foreign  <br/> |用于标识会话的 ID 号。 与 **ReplacesDialogIdTime** 结合使用来唯一地标识由此会话取代的会话。 有关详细信息，请参阅[Skype for Business Server 2015](dialogs.md)中的 Dialogs 表。 <br/> |
@@ -63,7 +63,7 @@ ms.locfileid: "54284482"
 |**User2Flag** <br/> |smallint  <br/> ||指示 User2 属性的位集。列出了以下属性定义：  <br/> 0x01 - 与桌面电话集成  <br/> |
 |**CallFlag** <br/> |smallint  <br/> ||指示呼叫属性的位集。列出了以下属性定义：  <br/> 0x01 - 重试会话  <br/> 0x02 - 代表响应组的代理进行的呼叫  <br/> |
 |**已处理** <br/> |bit  <br/> ||供监控服务内部使用。  <br/> 此字段在 Microsoft Lync Server 2013 中引入。  <br/> |
-|**LastModifiedTime** <br/> |Datetime  <br/> ||供监控服务内部使用。  <br/> 此字段是在 2015 年 Skype for Business Server引入的。  <br/> |
+|**LastModifiedTime** <br/> |Datetime  <br/> ||供监控服务内部使用。  <br/> 此字段在 2015 年 Skype for Business Server引入。  <br/> |
    
 \* 对于大多数会话，SessionIdSeq 的值为 1。 如果多个会话完全同时启动，则一个会话的 SessionIdSeq 将为 1，另一个会话的 SessionIdSeq 将为 2，依此类推。
   

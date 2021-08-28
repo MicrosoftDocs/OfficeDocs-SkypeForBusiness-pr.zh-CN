@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于斯洛文尼亚Microsoft 365 Office 365和Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: d48df33d5ded1b220057a50c7741bb2270a13243658b5e3ced3abf1488321a85
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ca0a7caca4296d48b47a547f3661e1011d511936
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343026"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615368"
 ---
 # <a name="availability-in-slovenia"></a>在斯洛文尼亚的可用性
 

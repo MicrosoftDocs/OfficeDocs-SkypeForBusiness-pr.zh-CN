@@ -14,19 +14,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Reporting
 - seo-marvel-apr2020
-description: 阅读常见问题解答 (常见问题) 和有关 CQD Microsoft Teams呼叫质量 (解答) 。
-ms.openlocfilehash: a733abb5f1fb41e149dd0801b5e25dd1bf948bf6
-ms.sourcegitcommit: 942e09c70840582f0cc1e433d4b0261298b1c66d
+description: 阅读常见问题解答 (常见问题) 和有关 Microsoft Teams 呼叫质量仪表板 (CQD) 。
+ms.openlocfilehash: 11b7691596192dbc96cd9deb7a0b64e363f6af4b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58339850"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616298"
 ---
 # <a name="call-quality-dashboard-cqd-frequently-asked-questions-faq"></a>呼叫质量仪表板 (CQD) 常见问题解答 (常见问题) 
 
@@ -38,7 +38,7 @@ ms.locfileid: "58339850"
 
 [为什么我在 CQD 中看不到 EUII？](#why-cant-i-see-euii-in-cqd)
 
-[为什么在仅Skype for Business筛选后，CQD 中Teams信息？](#why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only)
+[为什么在Skype for Business筛选后，CQD 中显示Teams信息？](#why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only)
 
 [为什么我的自定义报表在我知道应该存在更多条目时最多返回 10，000 行？](#why-do-my-custom-reports-only-return-a-maximum-of-10000-rows-when-i-know-there-should-be-more-entries)
 
@@ -52,7 +52,7 @@ ms.locfileid: "58339850"
 
 若要确定它是网络问题，请看会话的平均值与最大值之间的增量。 最大值是会话期间检测到并报告的最大值。
  
-下面是如何排查这种情况的示例。 假设你在调用期间进行网络跟踪，并且前 20 分钟没有丢失数据包，但随后你有 1.5 秒数据包的间隙，然后适合通话的其余部分。 即使在 Wireshark 跟踪 RTP <，平均丢包率 (0.1) 10%。 最大数据包丢失是什么？ 5 秒的 1.5 秒为 0.3 (30%) 。 这是在 5 秒采样期内发生的 (，还是可以在采样期间拆分) ？
+下面是如何排查这种情况的示例。 假设你在调用期间进行网络跟踪，并且前 20 分钟没有丢失数据包，但随后你有 1.5 秒的数据包间隙，然后适合通话的其余部分。 即使在 Wireshark 跟踪 RTP <，平均丢包率 (0.1) 10%。 最大数据包丢失是什么？ 5 秒的 1.5 秒为 0.3 (30%) 。 这是在 5 秒采样期内发生的 (，还是可以在采样期间拆分) ？
  
 如果网络指标在平均值和最大值中看起来不错，则查看其他遥测数据： 
 - 检查"CPU 不足事件比率"，查看检测到的可用 CPU 资源是否不足，导致质量差。 
@@ -84,13 +84,13 @@ ms.locfileid: "58339850"
 
 若要详细了解可以访问 CQD 的角色（包括 EUII），请阅读 [分配用于访问 CQD 的角色](turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd)。
 
-### <a name="why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only"></a>为什么在仅Skype for Business筛选后，CQD 中Teams信息？
+### <a name="why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only"></a>为什么在Skype for Business筛选后，CQD 中显示Teams信息？
 
-仅在 cQD Teams isTeams = 1 (筛选) 时，将筛选包含第一终结点的所有Teams。  如果 *第二终结点* Skype for Business，该信息会显示在 CQD 报告中。
+仅在 CQD Teams isTeams = 1 (筛选) 时，将筛选包含第一终结点的所有Teams。  如果 *第二终结点* Skype for Business，该信息会显示在 CQD 报告中。
 
 CQDv2 和 CQDv3 始终具有不同的总计计数，因为 CQDv3 将具有 CQDv2 不会具有的新方案。 正因如此，比较"汇总总计"或"聚合全部数字"（没有筛选器）将具有这些预期差异的原因。  
 
-如果 SFB 2019 与数据连接器) 、Skype 机器人呼叫 (AA、CVI、VDI) 、实时事件和 PSTN 呼叫一同使用，则 CQDv3 将包括 SFB 2019 本地呼叫 (。 可供客户使用，但其数据不在 CQD V2 中的方案/功能。
+如果 SFB 2019 与数据连接器) 、Skype 机器人呼叫 (AA、CVI、VDI) 、实时事件和 PSTN 呼叫一同使用，则 CQDv3 将包括 SFB 2019 本地呼叫 (， 可供客户使用，但其数据不在 CQD V2 中的方案/功能。
 
 例如，客户以及你将看到 200，000 个音频流，CQD V2 摘要报告中有 5000 个失败，而 300，000 个音频流有 5500 个故障 (来自 2019 年 CQD V3 中的) 。
 
@@ -110,7 +110,7 @@ CQD 设计用于汇总数据查询，不用于数据导出。 我们建议尽可
 
 [什么是 CQD？](CQD-what-is-call-quality-dashboard.md)
 
-[使用 CQD (设置呼叫质量) ](turning-on-and-using-call-quality-dashboard.md)
+[设置 CQD (呼叫质量) ](turning-on-and-using-call-quality-dashboard.md)
 
 [Upload租户和建筑物数据](CQD-upload-tenant-building-data.md)
 
