@@ -1,5 +1,5 @@
 ---
-title: 使用 Office OCT (OCT) oct Skype for Business Server
+title: 在 Skype for Business Server 中Office OCT (OCT) 工具Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -9,23 +9,23 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 26647cb6-ba84-4ba7-8b6f-2cf86818e530
-description: 摘要：如何将 Office自定义工具与 Skype for Business 客户端一同使用。
-ms.openlocfilehash: 383db7b623790153114740c4d245823c38ec63c5881842c281e6c10f7834a450
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 摘要：如何将自定义Office与 Skype for Business 一起使用。
+ms.openlocfilehash: d1fa867326ec1c613793831253dc693783132b57
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54294919"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58587834"
 ---
-# <a name="use-the-office-customization-tool-oct-in-skype-for-business-server"></a>使用 Office OCT (OCT) oct Skype for Business Server
+# <a name="use-the-office-customization-tool-oct-in-skype-for-business-server"></a>在 Skype for Business Server 中Office OCT (OCT) 工具Skype for Business Server
  
 **摘要：** 如何将自定义Office与 Skype for Business 一起使用。
   
 Office 自定义工具 (OCT) 是安装程序的一部分，也是完成许多自定义操作的推荐工具。 使用 OCT 可以自定义 Office 并将您的自定义设置保存在安装程序自定义 .msp 文件中。 可将该文件放在网络安装点上的 Updates 文件夹中。 在安装 Office 时，安装程序会在 Updates 文件夹中查找安装程序自定义文件，并应用自定义设置。 Updates 文件夹只能用于在初始安装更新期间部署Office。
   
-OCT 是安装程序的一部分，仅用于产品的批量许可版本。 通过从网络安装点的根目录键入包含此子源文件的网络安装点中的命令行 `setup.exe /admin` ，Office OCT。 例如，可使用以下命令：
+OCT 是安装程序的一部分，仅用于产品的批量许可版本。 通过从网络安装点的根目录键入包含此子源文件的网络安装点中的命令行， `setup.exe /admin` 可以Office OCT。 例如，可使用以下命令：
   
  ```console
 \\server\share\Office15\setup.exe /admin
@@ -41,4 +41,4 @@ OCT 是安装程序的一部分，仅用于产品的批量许可版本。 通过
     
 - **Outlook** 用于自定义用户的默认Outlook配置文件、指定Exchange设置、添加帐户、删除帐户和导出设置，以及指定发送\接收组。
     
-有关 OCT 的信息，请参阅使用 OCT 自定义[Office 2013。](/previous-versions/office/office-2013-resource-kit/cc179132(v=office.15)) 请注意，此信息还适用于更高版本的 Office。
+有关 OCT 的信息，请参阅使用[OCT 自定义 Office 2013。](/previous-versions/office/office-2013-resource-kit/cc179132(v=office.15)) 请注意，此信息也适用于更高版本的 Office。

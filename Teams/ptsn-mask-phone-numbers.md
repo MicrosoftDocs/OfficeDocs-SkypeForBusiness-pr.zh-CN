@@ -15,15 +15,15 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
-description: 了解如何在会议中屏蔽Microsoft Teams电话号码
-ms.openlocfilehash: f5b2e6066b41d21e4f3761223fd97ff2fd7ac4c72d4a61356115ea212b0409b9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 了解如何在会议中屏蔽Microsoft Teams号码
+ms.openlocfilehash: 1a006450c1d98e6db0b02ceb953682efdbe3fd6a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54285781"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631986"
 ---
 # <a name="mask-phone-numbers-in-microsoft-teams-meetings"></a>在会议中屏蔽Microsoft Teams电话号码
 
@@ -33,7 +33,7 @@ ms.locfileid: "54285781"
 
 对于特定的行业用例，管理员可以选择音频会议参与者的电话号码在租户中组织的会议中如何显示。 管理员可以从三个选项中进行选择：
 
-- 电话外部参与者屏蔽数字。 属于会议组织者租户的参与者仍看到完整电话号码。
+- 电话仅对外部参与者屏蔽数字。 属于会议组织者租户的参与者仍看到完整电话号码。
 - 电话会议中的每个人（组织者除外）屏蔽了数字。
 - 电话数字未屏蔽，因此会议中的每个人都可以看到它们。
 

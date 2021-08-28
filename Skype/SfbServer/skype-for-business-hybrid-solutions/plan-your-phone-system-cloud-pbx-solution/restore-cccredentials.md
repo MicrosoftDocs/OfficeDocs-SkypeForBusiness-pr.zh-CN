@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: aeca610b-db0a-45cf-95b9-ae9a6bbccb45
 description: Restore Cc-Credentials cmdlet 可还原当前部署Skype for Business 云连接器版本凭据。
-ms.openlocfilehash: 95b93e28bb109c26927a940324edef20479bed8c193efea6923c74058995a5bd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 050c4265bff7673a7db620ff41a56a2735d6b4a7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340668"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588434"
 ---
 # <a name="restore-cccredentials"></a>Restore-CcCredentials
  

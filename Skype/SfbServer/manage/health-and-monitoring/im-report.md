@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 19ec0145-2398-437b-8989-f780c179b798
 description: 摘要：了解 Skype for Business Server 中的对等 IM 报告。
-ms.openlocfilehash: 32f68fcf4d191896fc86aa1bc18007920f0b0f7cb29ba446385ced478dc5879c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 26edc017b0877d08a5990e88dcfaf830bb7e4851
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276807"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58632866"
 ---
 # <a name="peer-to-peer-im-report-in-skype-for-business-server"></a>报告中的对等 IM Skype for Business Server
  
@@ -27,7 +27,7 @@ ms.locfileid: "54276807"
   
 ## <a name="accessing-the-peer-to-peer-im-report"></a>访问对等 IM 报告
 
-只有在 Skype for Business Server 中打开对等活动摘要报告，然后单击以下指标[之一，才能](peer-to-peer-activity-summary-report.md)访问对等 IM 报告：
+只有在 Skype for Business Server 中打开对等活动摘要报告，然后单击以下指标[之一，](peer-to-peer-activity-summary-report.md)才能访问对等 IM 报告：
   
 - 对等 IM 会话总数
     

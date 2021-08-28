@@ -14,18 +14,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 description: 使用此表查找有关在罗马尼亚获取和管理电话号码的信息，Microsoft Teams。
-ms.openlocfilehash: 5c9ac50e1b9619a1e4c2890408df3cce701c280d
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 7c9e6da6a76fe20a44f872f077e6ac4a27cd5e55
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233787"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610219"
 ---
 # <a name="phone-number-management-for-romania"></a>电话罗马尼亚的号码管理
 

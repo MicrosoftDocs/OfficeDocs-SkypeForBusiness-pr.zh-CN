@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 1667cfe4-76fa-4e10-91bb-b3efbedbf759
 description: 在 Skype for Business Server 企业语音 中部署呼叫管理功能。
-ms.openlocfilehash: 61452c8b9f5a072e78d4b85dd17e65ef63c27a0e3daab4f71b0e04d9d13c5a1f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3d577e1ea74ef3d8a6152a457d82506927a19763
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54307803"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610129"
 ---
 # <a name="deploy-call-management-features-in-skype-for-business"></a>在 Skype for Business 中部署呼叫管理功能
  
@@ -31,19 +31,19 @@ ms.locfileid: "54307803"
   
 - **呼叫呼叫** 停止：允许语音用户临时呼叫，然后从同一电话或其他电话接听呼叫。
     
-- **组内** 呼叫应答：使用户能够通过拨打呼叫应答组号码来应答分配给应答组的其他用户的呼叫。
+- **组内** 呼叫应答 ：使用户能够通过拨打呼叫应答组号码来应答分配给应答组的其他用户的呼叫。
     
 - **响应组**：使用 IVR 中的寻线或互动语音响应将传入呼叫路由至 (IVR) 和答案。
     
 - **通知**：向对未分配号码发出的呼叫播放消息，或将其路由至其他位置，或同时执行两者。
     
-本节介绍如何在部署期间配置这些呼叫企业语音功能。
+本节介绍如何在部署过程中配置这些企业语音功能。
   
 ## <a name="in-this-section"></a>本节内容
 
 - [呼叫管理中的呼叫Skype for Business](deployment-process-for-call-park.md)
     
-- [组中组内呼叫接听的部署Skype for Business](deployment-process-for-group-call-pickup.md)
+- [组中组内呼叫接听的Skype for Business](deployment-process-for-group-call-pickup.md)
     
 - [响应组的部署Skype for Business](deployment-process-for-response-group.md)
     

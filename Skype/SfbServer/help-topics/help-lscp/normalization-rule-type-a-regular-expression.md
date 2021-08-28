@@ -12,20 +12,20 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.VoiceRouteRegexEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fc0fd40d-77b0-40c1-94f4-1026f70bcf30
 description: 键入一个 .NET Framework 正则表达式以指定应用此路由的目标电话号码的匹配模式。
-ms.openlocfilehash: e304f113a0503262e9ca7b511be7c5e0d8e66114268ac3ff3c89cc670c7fa55d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 263d7233af01bddc7f4401e56300747489b3f637
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303934"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58587514"
 ---
 # <a name="normalization-rule-type-a-regular-expression"></a>规范化规则：键入正则表达式
  
 键入一个 .NET Framework 正则表达式以指定应用此路由的目标电话号码的匹配模式。 
   
-有关可以使用控制面板执行的不同过程的详细信息，Skype for Business Server Manage [Skype for Business Server 2015](../../manage/manage.md)。
+有关可以使用控制面板执行的不同过程的详细信息，请参阅 Manage [Skype for Business Server Skype for Business Server 2015](../../manage/manage.md)。
   
 

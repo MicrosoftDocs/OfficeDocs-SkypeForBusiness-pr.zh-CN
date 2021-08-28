@@ -1,5 +1,5 @@
 ---
-title: 从 Microsoft Teams 中的现有团队模板创建新Microsoft Teams
+title: 从现有团队模板创建新模板Microsoft Teams
 author: cichur
 ms.author: v-cichur
 ms.reviewer: aaglick
@@ -9,25 +9,25 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: 了解如何使用现有团队模板在 Microsoft Teams 中创建新的团队模板。
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80450257158a3a65da5f0fffe05d48239e42cd33d538544a6363befffce842bf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 56af8756282a4d2cc40ebf33a620855785c67306
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282675"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588214"
 ---
 # <a name="create-a-new-team-template-from-an-existing-team-template-in-microsoft-teams"></a>从 Microsoft Teams 中的现有团队模板创建新的团队Microsoft Teams
 
 **EDU 客户尚不支持自定义模板。**
 
-Microsoft Teams提供预构建的模板，可保存和修改这些模板以满足你的特定组织需求。
+Microsoft Teams提供的预构建模板可以保存和修改，以满足你的特定组织需求。
 
 1. 登录到 Teams 管理中心。
 
@@ -39,7 +39,7 @@ Microsoft Teams提供预构建的模板，可保存和修改这些模板以满�
 
 ![突出显示"添加"的"团队模板"对话框的图像。](media/template-duplicate.png)
 
- (，也可以选择"使用现有模板添加开始&quot;打开&quot;选择要用作起点的模板  >  ") 
+ (，也可以选择"使用现有模板添加开始"打开"选择要用作起点的模板  >  ") 
 
 !["团队模板起始点"屏幕的图像，其中突出显示了现有模板的"开始"屏幕。](media/template-start-existing-template.png)
 
@@ -52,7 +52,7 @@ Microsoft Teams提供预构建的模板，可保存和修改这些模板以满�
     - 模板简短和长说明
     - 区域设置可见性  
 
-7. 在 **"频道、选项卡和应用** "部分中，修改团队所需的任何现有频道和应用。
+7. 在 **"频道、选项卡** 和应用"部分中，修改团队所需的任何现有频道和应用。
 
     1. 选择要编辑的频道，然后选择"编辑 **"。**
     2. **完成后** 应用更改。

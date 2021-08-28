@@ -9,22 +9,22 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6793fca0-3970-44e4-8703-1925428c1967
 description: 阅读本主题，了解如何在多林Skype部署会议室系统。
-ms.openlocfilehash: dc1d7fa3a3ca7cbcf62f7c038fb8fd6b4fcedc84319452ec8eaf02781f311bf3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 944042777174539b9b9f0a1d49754d9234a1d255
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310061"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609939"
 ---
 # <a name="skype-room-system-multiple-forest-on-premises-deployments"></a>Skype会议室系统多林本地部署
  
 阅读本主题，了解如何在多林Skype部署会议室系统。
   
 > [!NOTE]
-> 为了在多个林中部署，Skype 2014 年 8 月 26 Exchange Server发布的 2013 CU6。 避免对会议室系统重新Skype邮箱。 使用新的 (删除旧邮箱，然后为会议室) 重新创建Skype邮箱。 若要通过删除邮箱来还原丢失的会议，请参阅连接[或还原已删除的邮箱](/exchange/connect-or-restore-a-deleted-mailbox-exchange-2013-help)。 
+> 为了在多个林中部署，Skype 2014 年 8 月 26 Exchange Server发布的 2013 CU6。 避免对会议室系统重新Skype邮箱。 使用新的 (删除旧邮箱，然后) 会议室系统Skype资源邮箱。 若要通过删除邮箱来还原丢失的会议，请参阅连接[或还原已删除的邮箱](/exchange/connect-or-restore-a-deleted-mailbox-exchange-2013-help)。 
   
 创建邮箱后，可以使用Set-CalendarProcessing配置邮箱。 有关更多详细信息，请参阅单林本地部署下的步骤 3 至 6。 为 Skype 会议室系统创建 Exchange 资源邮箱后，按照单林本地部署下为 Skype for Business 启用 Skype 会议室系统帐户中的步骤为 Skype for Business 启用帐户。
   
@@ -34,7 +34,7 @@ ms.locfileid: "54310061"
   
 1. 在 Active Directory 身份验证 (林) 创建链接用户 (LinkedRoomTest) 。
     
-2. 在命令行管理程序中Exchange Server命令：
+2. 在命令行管理程序Exchange Server命令：
     
    ```powershell
    $cred = Get-Credential AuthForest\LinkedRoomTest

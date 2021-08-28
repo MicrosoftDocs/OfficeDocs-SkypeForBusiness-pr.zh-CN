@@ -11,18 +11,18 @@ ms.collection:
 - M365-collaboration
 f1.keywords:
 - NOCSH
-localization_priority: Normal
-description: 使用 Microsoft Teams 管理Teams远程更新手机、Teams面板和 Teams协作栏
-ms.openlocfilehash: 8ff925756e91c72c42d1557a1c735e5323691272a82405d5e4047ab4ff9828b5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.localizationpriority: medium
+description: 使用 Microsoft Teams 管理Teams远程更新手机、Teams面板和协作Teams栏
+ms.openlocfilehash: 4166d8543c0c0e847e4463ecf3cf0760876a7b37
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322684"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58632176"
 ---
 # <a name="update-microsoft-teams-devices-remotely"></a>远程Microsoft Teams更新设备
 
-使用 Microsoft Teams 管理中心，可以远程更新 Teams 设备，例如 Teams 手机、Teams 面板和协作栏，还可以选择设备固件自动更新行为。 可以使用管理中心在设备上Teams以下内容：
+使用 Microsoft Teams 管理中心，可以远程更新 Teams 设备，例如 Teams 电话、Teams 面板和协作栏，还可以选择设备固件自动更新行为。 可以使用管理中心在设备上更新Teams：
 
 - Teams应用和 Teams 管理员代理
 - 公司门户应用
@@ -32,7 +32,7 @@ ms.locfileid: "54322684"
 可以自动应用设备固件更新，也可以计划在将来的日期和时间进行更新。 其他可用的设备更新不会自动应用，但可以手动应用或计划在将来的日期和时间。
 
 > [!NOTE]
-> 虽然可以计划设备固件更新，但如果计划的日期和时间低于配置的最长 30 天或 90 天延迟，则当达到最大延迟时，将应用固件更新。 将忽略计划的日期和时间。 此外，Microsoft Teams远程更新设备是美国政府云租户 (GCC-High) 。
+> 虽然可以计划设备固件更新，但如果计划的日期和时间低于配置的最长 30 天或 90 天延迟，则当达到最大延迟时，将应用固件更新。 将忽略计划的日期和时间。 此外，Microsoft Teams远程更新设备是美国政府云租户 (GCC-高) 。
 
 若要管理设备，需要是全局管理员、Teams管理员或Teams管理员。有关管理员角色详细信息，请参阅使用 Microsoft Teams[管理员角色管理Teams。](../using-admin-roles.md)
 
@@ -49,7 +49,7 @@ ms.locfileid: "54322684"
 若要选择设备的自动更新行为，请执行下列操作：
 
 1. 通过访问 Microsoft Teams登录到管理中心 https://admin.teams.microsoft.com 。
-2. 导航 **设备**  >  **IP 电话** 或 **协作栏或****Teams面板**。
+2. 在 **设备**  >  **IP 电话或****协作栏或** Teams **导航**。
 3. 选择一个或多个设备，然后选择"更新 **"。**
 4. 在 **"固件自动更新"** 下，选择下列选项之一：
     - **一旦可用** 最新设备固件更新在最新更新发布后的第一个周末应用。
@@ -66,7 +66,7 @@ ms.locfileid: "54322684"
 若要手动更新远程设备，请执行下列操作：
 
 1. 通过访问 Microsoft Teams登录到管理中心 https://admin.teams.microsoft.com 。
-2. 导航 **设备**  >  **IP 电话** 或 **协作栏或****Teams面板**。
+2. 在 **设备**  >  **IP 电话或****协作栏或** Teams **导航**。
 3. 选择一个或多个设备，然后选择"更新 **"。**
 4. 在 **"手动更新**" **下** ，如果要将更新计划为将来的日期和时间，请选择"计划"。 更新在时区 中选定的时区中的 **日期和时间应用**。
 

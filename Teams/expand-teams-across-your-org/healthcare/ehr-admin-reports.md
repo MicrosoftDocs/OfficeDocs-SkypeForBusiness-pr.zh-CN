@@ -12,7 +12,7 @@ searchScope:
 - Microsoft Cloud for Healthcare
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
@@ -23,18 +23,18 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: 查看 EHR 连接器Teams管理员报告
-ms.openlocfilehash: 96f0efac9e1293197e92768e24cbd15187127410f75e70abbd77afa50d0baacf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cebd427096baae564f020694e18fc6023a560790
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54299231"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588164"
 ---
 # <a name="microsoft-teams-ehr-connector-admin-reports"></a>Microsoft TeamsEHR 连接器管理员报告
 
 "Microsoft Teams EHR (连接器) 管理报告"对话框提供了使用数据的快速易读视图。
 
-可以通过访问"Microsoft Teams管理中心"仪表板并查看该对话框Microsoft Teams EHR 连接器管理员报告。
+可以通过访问 Microsoft Teams 管理中心仪表板并查看该对话框Microsoft Teams EHR 连接器管理员报告。
 
 从管理中心仪表板Microsoft Teams报表。
 

@@ -15,19 +15,19 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何在 Android 设备上远程预配Teams登录
-ms.openlocfilehash: 8866079fa02edb8dabbfe36d724194858d16553d
-ms.sourcegitcommit: 3cc2da11aac1a3a7d620810c6f22a7192e4ab993
+ms.openlocfilehash: 31a247f7716d1e97ed3ed1e4b9b7f8d20d0881f8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58483109"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58632196"
 ---
 # <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Android 设备的远程预配Teams登录
 
-IT 管理员可以远程预配和登录到 Teams Android 设备。 若要远程预配设备，管理员需要上传正在预配的设备的 MAC ID 并创建验证码。 整个过程可以从管理中心远程Teams完成。
+IT 管理员可以远程预配并登录到 Teams Android 设备。 若要远程预配设备，管理员需要上传正在预配的设备的 MAC ID 并创建验证码。 整个过程可以从管理中心远程Teams完成。
 
 ## <a name="review-the-supported-devices"></a>查看支持的设备
 

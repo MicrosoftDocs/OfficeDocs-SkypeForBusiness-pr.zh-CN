@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AssociateDirectorWithMonitoringPage2010
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4ad77291-832d-41ee-9ffc-61132691363b
 description: 配置监控服务器并将其与控制器或控制器池关联：
-ms.openlocfilehash: d8edad120b8f2d8e90e32cfd23beca597e08ecd513a688b4a1a65323cf9c6547
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6d636f58818a8271df8dd676f170d287823e4f37
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54346568"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633036"
 ---
 # <a name="associate-director-with-monitoring-page-for-lync-server-2010"></a>将控制器与 Lync Server 2010 监控页面关联
  

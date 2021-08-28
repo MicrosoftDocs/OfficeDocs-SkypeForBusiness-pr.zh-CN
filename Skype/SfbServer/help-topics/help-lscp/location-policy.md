@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.NcsLocMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5530cf17-4520-40b5-ba70-c62692685048
 description: 位置策略确定是否启用增强型 9-1-1 (E9-1-1) 和如何使用它，以及如何将位置信息用于用户和联系人。
-ms.openlocfilehash: cb0f4562acd4904a2fb473b4d828090ce4a653f98090905e7bd9a2b54e240f50
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 15e1117c9279872e9ec28ec28834ade68d36463f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54319245"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633096"
 ---
 # <a name="location-policy"></a>位置策略
 
@@ -74,7 +74,7 @@ ms.locfileid: "54319245"
 
 - **PSTN 用法** 指定公用电话交换网 (PSTN) 用法，用于确定使用此配置文件路由来自客户端的紧急呼叫的语音路由。
 
-- **E9-1-1 号码** 指定为获得紧急服务而拨打的号码。
+- **E9-1-1 号码** 指定为访问紧急服务而拨打的号码。
 
 - **E9-1-1 掩码** 指定用户拨打的、然后转换为紧急拨号号码的号码。
 

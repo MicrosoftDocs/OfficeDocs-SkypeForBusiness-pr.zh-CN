@@ -14,22 +14,22 @@ f1.keywords:
 ms.collection:
 - M365-voice
 search.appverid: MET150
-localization_priority: Normal
-description: 本文概述了显示器支持的功能Microsoft Teams功能。
-ms.openlocfilehash: e7772de5767b9aefe69e1192051be65ccb632656
-ms.sourcegitcommit: 85017cf88789c750836780dad2ef707c1c6c39b4
+ms.localizationpriority: medium
+description: 本文概述了屏幕屏幕支持的功能Microsoft Teams功能。
+ms.openlocfilehash: 9ea9f9ee88bb1d580a0e8a1ded9f6586229d062d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58359159"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58632536"
 ---
 # <a name="deploy-teams-phones-teams-displays-and-microsoft-teams-rooms-on-android-using-intune"></a>使用 Intune Teams Android Teams手机、Microsoft Teams 会议室和平板电脑
 
-本文概述了如何使用 Intune 在 Android Teams手机、Teams和Microsoft Teams 会议室设备。
+本文概述了如何使用 Intune 在 Android Teams手机、Teams和Microsoft Teams 会议室手机。
 
 ## <a name="conditional-access"></a>条件访问
 
-条件访问Azure Active Directory (Azure AD) 功能，可帮助确保访问资源的设备Office 365管理正确且安全。  如果将条件访问策略应用到 Teams 服务，Android (设备（包括 Teams 手机、Teams 显示器和 Microsoft Teams 会议室）在 Android) 上需要将访问 Teams 的设备注册到 Intune 中，并且其设置需要符合策略。  如果设备未注册到 Intune，或者设备已注册，但其设置不符合策略，则条件访问将阻止用户登录或使用该设备上 Teams 应用。
+条件访问Azure Active Directory (Azure AD) 功能，可帮助确保访问资源的设备Office 365管理正确且安全。  如果将条件访问策略应用到 Teams 服务，Android (设备（包括 Teams 手机、Teams 显示器和 Microsoft Teams 会议室）在 Android) 上需要将访问 Teams 的设备注册到 Intune 中，并且其设置需要符合策略。  如果设备未注册到 Intune，或者该设备已注册，但其设置不符合策略，则条件访问将阻止用户登录或使用该设备上 Teams 应用。
 
 通常，Intune 中定义的符合性策略将分配给用户组。  这意味着，如果将 Android 符合性策略分配给 user@contoso.com，该策略同样适用于其 Android 智能手机和任何登录Teams基于 Android user@contoso.com 设备。
 
@@ -44,7 +44,7 @@ Teams基于 Android 的设备由 Intune 通过 Android 设备管理员 (DA) 管�
 
 > [!NOTE]
 > - 如果租户管理员希望将公用区域电话注册到 Intune，则需要将 Intune 许可证添加到帐户，并按照 Intune 注册的步骤操作。
-> - 如果用于登录到 Teams 设备的用户帐户未获得 Intune 的许可，则需要为帐户禁用 Intune 符合性策略和注册限制。
+> - 如果用于登录 Teams设备的用户帐户未获得 Intune 的许可，则需要为帐户禁用 Intune 符合性策略和注册限制。
 
 
 
@@ -61,7 +61,7 @@ Teams基于 Android 的设备由 Intune 通过 Android 设备管理员 (DA) 管�
 
    1. 创建 Android 设备管理员符合性策略。
 
-   1. 将其分配给Azure Active Directory组，该组包含要登录Teams的用户。 请参阅 [使用符合性策略为使用 Intune 管理的设备设置规则](/mem/intune/protect/device-compliance-get-started)。
+   1. 将其分配给Azure Active Directory用户的用户组，该组包含要登录 Teams设备。 请参阅 [使用符合性策略为使用 Intune 管理的设备设置规则](/mem/intune/protect/device-compliance-get-started)。
 
 ## <a name="see-also"></a>另请参阅
 
@@ -69,7 +69,7 @@ Teams基于 Android 的设备由 Intune 通过 Android 设备管理员 (DA) 管�
 
 [经认证的 IP 电话Microsoft Teams](teams-ip-phones.md)
 
-[Teams显示](teams-displays.md)
+[Teams显示器](teams-displays.md)
 
 [在 Teams 中管理设备](device-management.md)
 

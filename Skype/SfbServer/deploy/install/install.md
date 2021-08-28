@@ -10,17 +10,17 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.custom: Strat_SB_Admin
 ms.assetid: 71299b34-8783-4384-9949-0d3162c8a36e
 description: 摘要：了解如何准备环境以安装Skype for Business Server。 从 Microsoft 评估Skype for Business Server下载免费试用版 https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server ：。
-ms.openlocfilehash: 997dc590030e27305058bd4e2bb6773d1114d597276404f23ae350a899666b03
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9e30a3d91f5aaaf8d1717123ffd59499e96fbd7d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323494"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609819"
 ---
 # <a name="install-skype-for-business-server"></a>安装 Skype for Business Server
  
@@ -30,17 +30,17 @@ ms.locfileid: "54323494"
   
 ## <a name="overview-of-the-install-process-for-skype-for-business-server"></a>安装过程概述Skype for Business Server
 
-安装 Skype for Business Server包括许多不同的过程。 在环境中Skype for Business Server运行所需的过程取决于环境的具体内容。 例如，如果将 Windows Server 用于 DNS，您将受益于添加 DNS 条目的示例过程。 如果对 DNS 使用另一个系统，则需要按照特定 DNS 系统的过程操作。 本节中的许多过程都是如此。
+安装 Skype for Business Server包括许多不同的过程。 在环境中Skype for Business Server运行所需的过程取决于环境的具体内容。 例如，如果将 Windows Server 用于 DNS，您将受益于添加 DNS 条目的示例过程。 如果对 DNS 使用另一个系统，则需要按照特定 DNS 系统的过程操作。 本节中的许多过程都如此。
   
-Skype for Business Server中提供 Standard Edition 和 Enterprise Edition。 主要区别在于，Standard Edition不支持应用程序中包含的高可用性Enterprise Edition。 
+Skype for Business Server在 Standard Edition 和 Enterprise Edition 中可用。 主要区别在于，Standard Edition不支持应用程序中包含的高可用性Enterprise Edition。 
   
-Skype for Business Server是一种高级产品，具体的安装过程很大程度上取决于你的特定环境。 本部分将指导你完成安装产品的常规步骤。 但是，每个过程可能有所不同，具体取决于您的环境和规划决策。 例如，对于小型组织，运行 Skype for Business Server Standard Edition 可能合适，而大型跨国组织可能拥有 50 台服务器，它们位于世界各地的位置，专用于该产品。
+Skype for Business Server是一种高级产品，具体的安装过程很大程度上取决于你的特定环境。 本部分将指导你完成安装产品的常规步骤。 但是，每个过程可能有所不同，具体取决于您的环境和规划决策。 例如，对于小型组织，运行 Skype for Business Server Standard Edition 可能适合，而大型跨国组织可能拥有 50 台服务器，它们位于世界各地的位置专用于该产品。
   
 > [!NOTE]
 > 若要了解最新的累积更新，请参阅 Skype for Business Server[更新](https://support.microsoft.com/kb/3061064)。 安装 CU1 修补程序后，管理员需要执行  `Update-CsAdminRole` cmdlet。 需要此 cmdlet 才能通过远程 PowerShell 访问新的 GCP cmdlet。
   
 > [!IMPORTANT]
-> 本节中的过程用作使用一组定义较窄的要求的示例，并假定已做出特定决策。 安装安装程序所需的实际Skype for Business Server可能会非常不同。 仅将本节中的过程用作示例，而不是将本节中的过程用作在每种环境中Skype for Business Server的分步指南。 
+> 本节中的过程用作使用一组定义较窄的要求的示例，并假定已做出特定决策。 安装安装程序所需的实际Skype for Business Server可能会非常不同。 请仅将本节中的过程用作示例，而不是将本节中的过程用作在每种环境中Skype for Business Server的分步指南。 
   
 首次Skype for Business Server启动并运行包括八个主要步骤。 您应该了解，本节中的示例过程不是安装 Skype for Business Server。 以下八个步骤只是一些示例，可帮助您更好地了解整个过程，并启动并运行基本工作环境。 可以按任意顺序执行步骤 1 到步骤 5。 但是，您必须按照图中的概述顺序执行步骤 6、7 和 8 以及步骤 1 到步骤 5 之后。 这八个步骤是：
   
@@ -56,9 +56,9 @@ Skype for Business Server是一种高级产品，具体的安装过程很大程�
     
 - [为 Skype for Business Server](create-dns-records.md)创建 DNS 记录：为了使Skype for Business Server正常工作，必须设置大量 DNS 设置。 这样，客户端就知道如何访问服务，并且服务器知道彼此。 每个部署只需完成一次这些设置，因为分配 DNS 条目后，它在整个域中都可用。
     
-- [Create and publish new topology in Skype for Business Server](create-and-publish-new-topology.md) ： Before you can install the Skype for Business Server system on each the servers in the topology， you must create a topology and publish it. 发布拓扑时，将拓扑信息加载到中央管理存储数据库中。 如果这是一Enterprise Edition池，则首次发布新拓扑时将创建中央管理存储数据库。 如果Standard Edition，则需要在发布拓扑之前从部署向导运行"准备第一Standard Edition服务器"过程。 这将通过安装 Standard Edition Edition 实例并创建中央管理SQL Server Express来准备更新。
+- [Create and publish new topology in Skype for Business Server](create-and-publish-new-topology.md) ： Before you can install the Skype for Business Server system on each the servers in the topology， you must create a topology and publish it. 发布拓扑时，将拓扑信息加载到中央管理存储数据库中。 如果这是一Enterprise Edition池，则首次发布新拓扑时将创建中央管理存储数据库。 如果已Standard Edition，则需要在发布拓扑之前从部署向导运行"准备第一Standard Edition服务器"过程。 这将通过安装 Standard Edition Edition 实例并创建中央管理SQL Server Express来准备更新。
     
-- [在拓扑](install-skype-for-business-server.md)中的服务器上安装 Skype for Business Server：一旦拓扑加载到中央管理存储，并且 Active Directory 知道哪些服务器将执行哪些角色，则需要在拓扑中的每台服务器上安装 Skype for Business Server 系统。
+- [在拓扑](install-skype-for-business-server.md)中的服务器上安装 Skype for Business Server：将拓扑加载到中央管理存储，并且 Active Directory 知道哪些服务器将执行哪些角色后，需要在拓扑中的每台服务器上安装 Skype for Business Server 系统。
     
 - 在[Skype for Business Server](verify-the-topology.md)中验证拓扑：在拓扑中的每台服务器上发布拓扑并安装 Skype for Business Server 系统组件后，即可确认拓扑是否正常工作。 这包括验证配置是否已传播到所有 Active Directory 服务器，以便整个域知道Skype for Business域中可用。
     

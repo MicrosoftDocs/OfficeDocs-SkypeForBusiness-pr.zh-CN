@@ -9,18 +9,18 @@ ms.reviewer: ''
 search.appverid: ''
 description: 了解Teams策略。
 audience: admin
-localization_priority: Normal
+ms.localizationpriority: medium
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 75a2da0b4b949195f5660991eca130249bc1e75ae52e95ef7c221449a8e72821
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 307eccf1d6e919593cdfadaf2b902a7a15c7b4cc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54319945"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588144"
 ---
 # <a name="manage-teams-with-policies"></a>使用Teams管理策略
 
@@ -28,11 +28,11 @@ ms.locfileid: "54319945"
 
 ## <a name="what-you-use-policies-for"></a>策略用于什么
 
-策略用于在组织中跨不同领域（如消息传递、会议和应用程序）完成许多任务。 你可以做的一些操作包括允许用户在团队频道中安排会议、允许用户编辑已发送的消息，以及控制用户是否可以将应用固定到Teams栏。
+策略用于在组织中跨不同领域（如消息传递、会议和应用程序）完成许多任务。 你可以做的一些操作包括允许用户在团队频道中安排会议、允许用户编辑已发送的消息，以及控制用户是否可以将应用固定到 Teams栏。
 
 ## <a name="how-to-assign-policies"></a>如何分配策略
 
-根据组织要尝试完成的任务，可以通过多种不同方式分配策略。 可以在管理中心内完成和Teams作业。
+根据组织要尝试完成的任务，可以通过多种不同方式分配策略。 可以在管理中心内进行Teams作业。
 
 ![组策略分配的屏幕截图。](media/group-policy-assignment.png)
 
@@ -52,20 +52,20 @@ ms.locfileid: "54319945"
 
 ### <a name="teams-for-education"></a>Teams 教育版
 
-此外，[还可使用Teams 教育版](easy-policy-setup-edu.md)向导轻松设置和管理学习环境的策略。
+还可使用 Teams 教育版[策略](easy-policy-setup-edu.md)向导轻松设置和管理学习环境的策略。
 
 ![策略向导Teams 教育版屏幕截图。](media/easy-policy-setup-quick-setup.png)
 
 ## <a name="types-of-policies"></a>策略类型
 
-可以使用以下策略管理Microsoft Teams。
+可以使用资源管理以下Microsoft Teams。
 
 策略类型 | 说明
 ------------|------------
 [策略包](manage-policy-packages.md) | Microsoft Teams策略包是一组预定义的策略和设置，可以分配给组织中具有类似角色的用户。
 [会议策略](meeting-policies-in-teams.md) | 会议策略用于控制可用于组织中用户安排的会议的会议参与者的功能。 会议策略包括以下主题。<br> - 音频和视频策略<br> - 内容和屏幕共享策略<br> - 参与者、来宾和访问策略<br> - 常规策略
 [语音和呼叫策略](voice-and-calling-policies.md)| 语音和呼叫策略通过紧急呼叫、呼叫路由和呼叫者 ID 等团队管理这些设置。
-[应用策略](app-policies.md)| 应用策略用于控制应用程序中的应用程序Microsoft Teams。 管理员可以允许或阻止用户可以安装哪些应用，将应用程序固定到Teams应用栏，并代表用户安装应用程序。
+[应用策略](app-policies.md)| 应用策略用于控制应用程序中Microsoft Teams。 管理员可以允许或阻止用户可以安装哪些应用，将应用程序固定到Teams应用栏，并代表用户安装应用程序。
 [消息策略](messaging-policies-in-teams.md)| 消息传送策略控制聊天和频道功能的可用性。
 
 ## <a name="related-topics"></a>相关主题

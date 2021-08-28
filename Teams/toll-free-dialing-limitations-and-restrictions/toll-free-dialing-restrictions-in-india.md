@@ -16,7 +16,7 @@ search.appverid: MET150
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 了解如何拨打印度的免费电话号码，包括可用性、有线/固定线路和移动网络可用性以及限制。
-ms.openlocfilehash: dae597170f8ea4a56a908087a85a1b12777341ba277e72e3a1ca599037a393e2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9650991d6d1f39915d978515c6afa36f556eed08
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335882"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631946"
 ---
 # <a name="toll-free-dialing-restrictions-in-india"></a>印度的免费拨号限制
 
@@ -45,7 +45,7 @@ ms.locfileid: "54335882"
 |未涵盖的岛屿/区域  <br/> |不适用  <br/> |
 |有线/固定线路可用性  <br/> |部分。 请参阅注释。  <br/> |
 |移动网络可用性  <br/> |部分。 请参阅注释。  <br/> |
-|注释、限制和访问问题  <br/> |可从以下网络访问：Loop Mobile、BSNL - 固定 (除 Bhopal) 、Vodafone、IDEA/SPICE (所有区域外的所有区域，但旁遮普文奇) 、MTS India/一声 (固定) ， MTNL - 固定移动、Reliance (所有区域，但所有区域，但 &amp; 包括：纳巴达、Bhopal、Bhuneswer、Jaipur、Lucknow、Meerut) 、TTML &amp; TTSL (固定 &amp; postpaid) 、Tata DoCoMo、FCCL Infotel/Ping Mobile、S-Tel Mobile、Uninor、Videocon Mobile、BSNL-mobile、Bharti/Airtel network。  <br/> 以下网络无法访问：TTSL (预付费) Etisalat DB Telecom 和 Jio。  <br/> |
+|注释、限制和访问问题  <br/> |可从以下网络访问：Loop Mobile、BSNL - 固定 (所有区域，但 Bhopal) 、Vodafone、IDEA/SPICE (除 Punjab Spice) 、MTS India/一声 (固定) 外， MTNL - 固定移动、Reliance (所有区域，但所有区域，但 &amp; 包括：纳巴巴、Bhopal、Bhuneswer、Jaipur、Lucknow、Meerut) 、TTML &amp; TTSL (固定 &amp; postpaid) 、Tata DoCoMo、FCCL Infotel/Ping Mobile、S-Tel Mobile、Uninor、Videocon Mobile、BSNL-mobile、Bharti/Airtel network。  <br/> 以下网络无法访问：TTSL (预付费) Etisalat DB Telecom 和 Jio。  <br/> |
    
 ## <a name="related-topics"></a>相关主题
 [免费拨号限制](../toll-free-dialing-limitations-and-restrictions.md)

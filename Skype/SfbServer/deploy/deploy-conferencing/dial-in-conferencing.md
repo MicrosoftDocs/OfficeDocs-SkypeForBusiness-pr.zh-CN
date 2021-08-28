@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 38d9f168-80b8-46f2-a1c0-becd84e58e73
 description: 摘要：阅读本主题，了解如何在 Skype for Business Server 中配置电话拨入式Skype for Business Server。
-ms.openlocfilehash: 5e6540b926d3b632fdff21f8fb645667068ca2e362260131dcd2b6379d5ef0b4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a9d48b5232a446f81de1acf14cddfa054f74d488
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303126"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609949"
 ---
 # <a name="configure-dial-in-conferencing-in-skype-for-business-server"></a>配置电话拨入式会议Skype for Business Server
  
@@ -25,7 +25,7 @@ ms.locfileid: "54303126"
   
 创建包含会议工作负荷和所选电话拨入式会议拓扑后，必须执行其他步骤来配置电话拨入式会议。 在阅读本主题之前，请确保已阅读[Skype for Business Server](../../plan-your-deployment/conferencing/dial-in-conferencing.md)中的电话拨入式会议计划[、Skype for Business Server](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)中的会议硬件和软件要求以及电话拨入式会议部署[流程](deploy-conferencing.md#deployment-flowchart-and-checklist-for-dial-in-conferencing)图和清单。 
   
-若要配置电话拨入式会议，必须执行以下任务：
+要配置电话拨入式会议，必须执行以下任务：
   
 - [配置拨号计划](dial-in-conferencing.md#BKMK_ConfigureDialPlans)
     
@@ -75,7 +75,7 @@ ms.locfileid: "54303126"
   
 由于必须指定所有拨号计划的区域，因此建议您验证所有拨号计划是否都有会议区域。 
   
-若要验证是否针对所有电话拨入式会议拨号计划设置了区域，请使用 **Get-CsDialPlan** cmdlet。 如果拨号计划中缺少区域，可使用 **Set-CsDialPlan** cmdlet 设置区域。 您还可以使用Skype for Business Server控制面板更新现有拨号计划中的区域。 有关使用控制面板Skype for Business Server的详细信息，请参阅 Create or [modify a dial plan in Skype for Business Server](../../deploy/deploy-enterprise-voice/dial-plans.md)。
+若要验证是否针对所有电话拨入式会议拨号计划设置了区域，请使用 **Get-CsDialPlan** cmdlet。 如果拨号计划中缺少区域，可使用 **Set-CsDialPlan** cmdlet 设置区域。 您还可以使用Skype for Business Server控制面板更新现有拨号计划中的区域。 有关使用 Skype for Business Server 控制面板的详细信息，请参阅 Create [or modify a dial plan in Skype for Business Server](../../deploy/deploy-enterprise-voice/dial-plans.md)。
   
 ### <a name="to-verify-whether-dial-plans-have-the-region-property-set"></a>验证拨号计划是否设置了 region 属性
 
@@ -128,7 +128,7 @@ ms.locfileid: "54303126"
 
 部署电话拨入式会议时，需要设置用户可从公用电话交换网 (PSTN) 拨打的电话号码，以加入会议的音频部分。 这些拨入访问号码显示在会议邀请和电话拨入式会议设置网页。
   
-必须先规划电话拨入式会议区域，然后使用区域配置拨号计划，然后才能创建拨入访问号码。 有关区域的详细信息，请参阅 Plan [for dial-in conferencing in Skype for Business Server](../../plan-your-deployment/conferencing/dial-in-conferencing.md)。 有关为电话拨入式会议配置拨号计划的详细信息，请参阅在 Skype for Business Server 中创建[或修改拨号Skype for Business Server。](../../deploy/deploy-enterprise-voice/dial-plans.md)
+必须先规划电话拨入式会议区域，然后使用区域配置拨号计划，然后才能创建拨入访问号码。 有关区域的详细信息，请参阅 Plan [for dial-in conferencing in Skype for Business Server](../../plan-your-deployment/conferencing/dial-in-conferencing.md)。 有关为电话拨入式会议配置拨号计划的详细信息，请参阅 Create [or modify a dial plan in Skype for Business Server](../../deploy/deploy-enterprise-voice/dial-plans.md)。
   
 > [!NOTE]
 > 在 Active Directory 域服务 (AD DS) 完成该访问号码的复制之前，不能使用新的拨入访问号码。 复制可能需要几个小时才能完成。 
@@ -153,7 +153,7 @@ ms.locfileid: "54303126"
      > [!NOTE]
      > 使用搜索字段搜索拨入访问号码列表中列的内容可能不会获得预期的结果。 相反，按关注列对列表进行排序，以标识要查看或更改的拨入访问号码。 
   
-5. 在 **"显示** 号码"中，键入公用电话交换网 (PSTN) 电话用户为加入会议而拨打的电话号码。 此号码显示在会议邀请和电话拨入式会议设置网页上。
+5. 在 **"显示** 号码"中，键入公用电话交换网 (PSTN) 电话用户为加入会议而拨打的电话号码。 此号码显示在会议邀请和电话拨入式会议设置网页中。
     
 6. 在 **"显示** 名称"中，键入拨入访问号码的说明。 这是与搜索结果中的拨入访问号码Skype for Business的名称。 当用户呼叫访问号码时，此名称将显示在客户端中。 
     
@@ -180,7 +180,7 @@ ms.locfileid: "54303126"
     
     主要语言是呼叫会议助理语言。 支持的语言显示在电话拨入式会议网页中每个访问设置旁边。
     
-11.  (可选) 在辅助语言 (最多四) 中，单击"添加 **"，** 选择要为此拨入访问号码的呼叫者支持的一种或多种语言，然后单击"确定 **"。** 
+11.  (可选) 在辅助语言 (最多四) 中，单击"添加 **"，** 选择要为此拨入访问号码的呼叫者支持的一种或多种语言，然后单击"确定 **"。**  
     
     对于每个拨入访问号码，你最多可以选择四种辅助语言。 用户在拨入会议时，可以在输入会议 ID 之前选择辅助语言。
     
@@ -217,6 +217,6 @@ ms.locfileid: "54303126"
 6. 在 **“电话”** 下的 **“线路 URI”** 字段中，键入唯一的规范化电话号码（例如，tel:+14255550200）。
     
     > [!NOTE]
-    > 只有当电话设置为仅 PC 到PC、企业语音、远程呼叫控制或远程呼叫控制时 **，你才能** 指定线路 **URI。** 
+    > 只有当电话设置为仅 PC 到PC、企业语音、远程呼叫控制或远程呼叫控制 **时，你** 才能指定线路 **URI。**  
   
 7. 单击“提交”。

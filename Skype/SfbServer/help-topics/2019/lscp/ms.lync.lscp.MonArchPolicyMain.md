@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9b69f1fa-8f3b-450e-aa89-91fd462f198d
 ROBOTS: NOINDEX, NOFOLLOW
 description: 使用存档策略启用和禁用位于存档Skype for Business Server。 在每个存档策略中，您可以对以下任一项或者两项启用或禁用存档：
-ms.openlocfilehash: 2ad43ab7f80a84d471797690f1b7b79870a3342caf3b02d9e1902419c6ec6674
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dca1ec888a63297f89da062d22983d3d05182127
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54325269"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610059"
 ---
 # <a name="archiving-policy"></a>存档策略
  
@@ -68,5 +68,5 @@ ms.locfileid: "54325269"
     
 - **刷新** 可以刷新" **存档策略"** 页以验证所有存档策略的选项状态。
     
-有关存档特性和功能（包括 Exchange 集成）的详细信息，请参阅在[Skype for Business Server](../../../plan-your-deployment/archiving/archiving.md)中规划存档、为[Skype for Business Server](../../../deploy/deploy-archiving/deploy-archiving.md)部署存档和在 Skype for Business Server[中管理存档](../../../manage/archiving/archiving.md)。
+有关存档特性和功能（包括 Exchange 集成）的详细信息，请参阅在[Skype for Business Server](../../../plan-your-deployment/archiving/archiving.md)中规划存档、[为](../../../deploy/deploy-archiving/deploy-archiving.md)Skype for Business Server 部署存档和在 Skype for Business Server 中管理[存档](../../../manage/archiving/archiving.md)。
 

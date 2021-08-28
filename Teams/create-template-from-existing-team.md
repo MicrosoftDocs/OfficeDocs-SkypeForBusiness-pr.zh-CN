@@ -9,19 +9,19 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: 了解如何使用现有团队在 Microsoft Teams 中创建新模板。
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 40eae307d4ec98f37f9ee88e986194ffe99600ae2d6b74430a7b3edfcee66b53
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 05fd28f19b5733ad34bcd12efa21be675cecfd31
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282685"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588224"
 ---
 # <a name="create-a-team-template-from-an-existing-team-in-microsoft-teams"></a>从现有团队创建团队模板Microsoft Teams
 

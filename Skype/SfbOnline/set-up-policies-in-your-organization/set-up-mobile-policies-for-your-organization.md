@@ -13,31 +13,31 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: 您可以在移动设备上使用 Skype for Business 应用设置用户如何连接到 Skype for Business Online，例如允许用户使用工作电话号码（而不是移动电话号码）在移动电话上拨打和接听电话的功能。 还需要使用移动策略来要求在拨打或接听电话时使用 Wi-Fi 连接。
-ms.openlocfilehash: 3bb723c3ca1a9b867c37abf8e638436b4492ae2a7d40d16c22980c7873c70f98
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 您可以设置用户使用移动设备上的 Skype for Business 应用连接到 Skype for Business Online（例如，允许用户使用工作电话号码而不是移动电话号码在移动电话上拨打和接听电话呼叫的功能）。 还需要使用移动策略来要求在拨打或接听电话时使用 Wi-Fi 连接。
+ms.openlocfilehash: 9113c5852d731a12f428e8f53724a5f66b4b8b9a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54325599"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58587854"
 ---
 # <a name="set-up-mobile-policies-for-your-organization"></a>为你的组织设置移动策略
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-您可以在移动设备上使用 Skype for Business 应用设置用户如何连接到 Skype for Business Online，例如允许用户使用工作电话号码（而不是移动电话号码）在移动电话上拨打和接听电话的功能。 还需要使用移动策略来要求在拨打或接听电话时使用 Wi-Fi 连接。
+您可以设置用户使用移动设备上的 Skype for Business 应用连接到 Skype for Business Online（例如，允许用户使用工作电话号码而不是移动电话号码在移动电话上拨打和接听电话呼叫的功能）。 还需要使用移动策略来要求在拨打或接听电话时使用 Wi-Fi 连接。
   
 可以在创建策略时配置移动策略设置，或者可以使用 **Set-CsMobilityPolicy** cmdlet 修改现有策略的设置。
   
 ## <a name="set-your-mobile-policies"></a>设置你的移动策略
 
 > [!NOTE]
-> 对于 Skype for Business Online 中的所有移动策略设置，必须使用 Windows PowerShell 并且不能使用 Skype for Business **管理中心**。 
+> 对于 Skype for Business Online 中的所有移动策略设置，必须使用 Windows PowerShell 并且不能使用 Skype for Business **管理中心**。  
   
 ### <a name="start-windows-powershell"></a>启动Windows PowerShell
 
@@ -54,7 +54,7 @@ ms.locfileid: "54325599"
    $credential = Get-Credential
    Connect-MicrosoftTeams -Credential $credential
    ```
-   如果需要有关启动 Windows PowerShell Windows PowerShell，请参阅在单个 Microsoft 365 窗口中连接所有 Microsoft 365 或[Office 365](/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window)服务Windows PowerShell或为计算机设置[Windows PowerShell。](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+   如果需要有关启动 Windows PowerShell连接，请参阅在单个 Microsoft 365[](/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window)窗口中Microsoft 365或 Office 365 服务Windows PowerShell或为计算机设置[Windows PowerShell。](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
    
 ### <a name="require-a-wifi-connection-for-video-for-a-user"></a>要求用户进行视频操作时使用 WiFi 连接
 
@@ -112,15 +112,15 @@ ms.locfileid: "54325599"
   
 ## <a name="want-to-know-more-about-windows-powershell"></a>想要了解有关 Windows PowerShell 的详细信息？
 
-- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用 Windows PowerShell，Microsoft 365管理Office 365 Skype for Business管理点，可在有多个任务需要执行时简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
+- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用 Windows PowerShell，Microsoft 365 Office 365 Skype for Business单点管理来管理 Microsoft 365 或 Skype for Business Online，当您有多个任务需要执行时，可以简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
     
   - [Windows PowerShell 和 Skype for Business Online 简介](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
   - [你可能希望使用 Windows PowerShell 管理Microsoft 365或Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-- Windows PowerShell比仅使用 Microsoft 365 管理中心（例如，一次为许多用户进行设置更改时）在速度、简单性和工作效率方面具有许多优势。 通过以下主题了解这些优势：
+- Windows PowerShell比仅使用 Microsoft 365 管理中心（例如，一次对许多用户进行设置更改时）在速度、简单性和工作效率方面具有许多优势。 通过以下主题了解这些优势：
     
-  - [使用 Microsoft 365 Office 365 管理Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [使用 Microsoft 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
   - [使用 Windows PowerShell 管理 Skype for Business Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     

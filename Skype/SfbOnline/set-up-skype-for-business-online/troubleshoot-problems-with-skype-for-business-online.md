@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
 description: 了解如何修复管理员和用户的问题Skype for Business Microsoft 365 Office 365。
-ms.openlocfilehash: da0668c8ead3dee48e1829a0871fe2a175bddc5b722f036c61bc3abc5027cb6a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 99c50759cea77e98f239adf8cea265941ce7f704
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310101"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609969"
 ---
 # <a name="troubleshoot-problems-with-skype-for-business-online"></a>解决 Skype for Business Online 中的问题
 
@@ -34,7 +34,7 @@ ms.locfileid: "54310101"
 
 ## <a name="troubleshoot-admin-issues-for-skype-for-business-online"></a>解决 Skype for Business Online 问题（管理员）
 
-可以在检查联机登录错误Skype for Business常见原因一文Skype for Business[大多数联机问题的答案](troubleshooting-sign-in-errors-for-admins.md#toc323194094)。 以下知识库文章还包含许多故障排除资源和错误代码参考：Skype for Business联机登录错误[疑难解答](./troubleshooting-sign-in-errors-for-admins.md)。
+可以在检查联机登录错误Skype for Business常见原因一文Skype for Business[大多数联机问题获得答案](troubleshooting-sign-in-errors-for-admins.md#toc323194094)。 以下知识库文章还包含许多故障排除资源和错误代码参考：Skype for Business[的联机登录错误疑难解答](./troubleshooting-sign-in-errors-for-admins.md)。
 
 有关电话拨入式会议问题，请参阅 [音频会议故障排除和已知问题](../audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues.md)。
 
@@ -77,7 +77,7 @@ Skype for Business Online 用户遇到的大部分问题都与忘记密码有关
 ## <a name="still-need-help-contact-support"></a>是否仍需要帮助？请联系支持人员。
 <a name="BK_SupportBridge_1"> </a>
 
-作为管理员Microsoft 365 商业应用版，你可以免费访问我们经验丰富的支持代理，获取预售、帐户和计费支持，以及帮助解决技术问题。 还可以[代表组织中](/microsoft-365/Admin/contact-support-for-business-products)用户和Microsoft 365 Office 365联系支持人员。
+作为管理员Microsoft 365 商业应用版，您可以免费访问我们经验丰富的支持代理，获取预售、帐户和计费支持，以及帮助解决技术问题。 还可以[代表组织中](/microsoft-365/Admin/contact-support-for-business-products)用户和Microsoft 365 Office 365联系支持人员。
 
 - [从社区论坛Microsoft 365 Office 365获取帮助](https://go.microsoft.com/fwlink/p/?LinkId=518605)
 

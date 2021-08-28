@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: efbe25f2-faf5-41c7-8c95-dbc4a835a4a8
 description: 了解如何升级云连接器版本部署。
-ms.openlocfilehash: 2670557f3f5ab44545c511b759971a457bd37e333d01b323ad6cc35d82526858
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3398fcdf9437a496cf5f4fb94f0fb92dc6a1da42
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54279968"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588424"
 ---
 # <a name="upgrade-to-a-new-version-of-cloud-connector"></a>升级至新版本的云连接器
 
@@ -32,7 +32,7 @@ ms.locfileid: "54279968"
   
 如果已设置联机管理租户帐户并启用自动更新，则 Skype for Business 云连接器版本 的现有部署将按照自动更新时间窗口配置自动升级到较新版本。 您也可以执行手动升级。 
   
-默认情况下，云连接器版本 1.4.1 版和更高版本执行自动更新。 如果要手动升级到最新版本 (2.1) ，请参阅本主题稍后将单个网站升级到新版本。 [](upgrade-to-a-new-version-of-cloud-connector.md#BKMK_Upgrade)
+云连接器版本 1.4.1 及更高版本默认情况下执行自动更新。 如果要手动升级到最新版本 (2.1) ，请参阅本主题稍后将单个网站升级到新版本。 [](upgrade-to-a-new-version-of-cloud-connector.md#BKMK_Upgrade)
   
 自动更新要求云连接器服务正在运行。 以下步骤介绍了自动更新过程：
   
@@ -58,7 +58,7 @@ ms.locfileid: "54279968"
     
   - 卸载旧的 msi 文件;安装新的 msi 文件。
     
-  - 下载新版本的 Skype for Business 位。
+  - 下载新版本的 Skype for Business bits。
     
   - 通过调用 Register-CcAppliance 注册设备。
     
@@ -78,7 +78,7 @@ ms.locfileid: "54279968"
     
 2. 从 安装新版本的 [https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller) CloudConnector.msi。
     
-3. 确认你具有要CloudConnector.ini的版本的文件，并且已更新环境的所有必需值。 不能使用以前.ini中的文件。 如果要升级云连接器，请参阅主题准备云连接器设备，并确保[](prepare-your-cloud-connector-appliance.md)在云连接器文件中将 SiteName 和 EnableReferSupport 设置为正确的CloudConnector.ini值。
+3. 确认您具有要CloudConnector.ini的版本的文件，并且已更新环境的所有必需值。 不能使用以前.ini中的文件。 如果要升级云连接器，请参阅主题准备云连接器设备，并确保[](prepare-your-cloud-connector-appliance.md)在云连接器文件中将 SiteName 和 EnableReferSupport 设置为正确的CloudConnector.ini值。
     
 4. 以管理员角色启动 PowerShell 控制台并运行以下 cmdlet 以注册当前设备：
     
@@ -112,7 +112,7 @@ ms.locfileid: "54279968"
 Install-CcAppliance -UpdateAllCredentials
 ```
 
-然后，当你开始升级到新版本时，你将被提升为输入新的凭据。 
+然后，当你开始升级到新版本时，你将被提升为输入新凭据。 
   
 如果只想重置租户管理员凭据，请运行以下 cmdlet：
   

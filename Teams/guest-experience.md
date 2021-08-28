@@ -10,7 +10,7 @@ ms.reviewer: rafarhi
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
@@ -19,20 +19,20 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 description: 本文介绍Microsoft Teams来宾可用的高级功能。
-ms.openlocfilehash: e0bfd3cf10660b95b0a6ff40fa82bdb40a1b9cec6981aa207bb8dc1f709c4ee6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2469fe840d09708187c47671335992021c4b60b0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349055"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58632136"
 ---
 # <a name="guest-experience-in-teams"></a>来宾体验Teams
 
-当来宾受邀加入团队时，他们将收到欢迎电子邮件。 此消息包含有关团队的一些信息，以及成为成员后期望获得的信息。 来宾必须通过在电子邮件中选择"打开Microsoft Teams才能访问团队及其频道来接受邀请。
+当来宾受邀加入团队时，他们将收到欢迎电子邮件。 此消息包含有关团队的一些信息，以及他们成为成员后的期望。 来宾必须通过在电子邮件中选择"打开Microsoft Teams才能访问团队及其频道来接受邀请。
     
 ![显示欢迎电子邮件示例的屏幕截图](media/guest-experience-image1.png)
     
-所有团队成员将在频道线索中看到一条消息，告知团队所有者添加了来宾并提供该来宾的姓名。 团队中的所有人都可以轻松识别谁是来宾。 频道线程右上角的标记指示团队中的来宾数， (来宾) **标签显示在** 每个来宾的姓名旁边。
+所有团队成员将在频道线索中看到一条消息，告知团队所有者添加了来宾并提供该来宾的姓名。 团队中的所有人都可以轻松识别谁是来宾。 频道线程右上角的标记表示团队中的来宾数，每个来宾的姓名旁边 (来宾 **) 标签。**
 
 ![显示标记的屏幕截图，指示团队中的来宾数](media/guest-experience-image2.png)
 
