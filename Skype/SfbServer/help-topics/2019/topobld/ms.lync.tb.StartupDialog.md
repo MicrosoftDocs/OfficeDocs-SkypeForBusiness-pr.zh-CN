@@ -11,20 +11,20 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.StartupDialog
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8761008f-b239-4b95-bcd8-1011198dd070
 ROBOTS: NOINDEX, NOFOLLOW
-description: 启动拓扑生成器以配置部署的属性和配置。 启动时，拓扑生成器将显示一个对话框，询问拓扑文档的源是什么。 选择三个选项之一：
-ms.openlocfilehash: 8259d8f552f0706d83f809c17802f54229d455910bf6da54eb14373e21f49a02
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 启动拓扑生成器以配置部署的属性和配置。 启动时，拓扑生成器显示一个对话框，询问拓扑文档的源是什么。 选择三个选项之一：
+ms.openlocfilehash: 07747193ba46d3159693991a9d304cb0aaec57d3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335402"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621438"
 ---
 # <a name="topology-builder-startup-dialog"></a>拓扑生成器启动对话框
  
-启动拓扑生成器以配置部署的属性和配置。 启动时，拓扑生成器将显示一个对话框，询问拓扑文档的源是什么。 选择三个选项之一：
+启动拓扑生成器以配置部署的属性和配置。 启动时，拓扑生成器显示一个对话框，询问拓扑文档的源是什么。 选择三个选项之一：
   
 - **从现有部署下载拓扑** 如果已运行拓扑生成器并且已成功将拓扑发布到中央管理服务器，请选择此选项。 此选项请求并下载当前配置的本地副本，从而允许您编辑和配置现有部署。
     

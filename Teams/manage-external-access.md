@@ -20,13 +20,13 @@ ms.custom:
 description: 你的 Teams 管理员或 IT 管理员可以为其他域配置外部访问（联合身份验证），使来自这些域的用户能参与到 Teams 中。
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
-ms.openlocfilehash: ff3b2bd28468c0db33194f5004bcaec026a037a861c28e3b9a3d442dab356410
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.localizationpriority: high
+ms.openlocfilehash: 255b714980db3ac63e9251c8db7af243d91dc72d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310690"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610299"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>在 Microsoft Teams 中管理外部访问
 

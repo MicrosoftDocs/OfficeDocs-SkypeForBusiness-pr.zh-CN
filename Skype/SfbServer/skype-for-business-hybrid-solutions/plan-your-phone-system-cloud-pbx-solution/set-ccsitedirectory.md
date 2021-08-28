@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b1cd89fd-6968-4ace-a4aa-c4105231cf7b
-description: 此Set-CcSiteDirectory cmdlet 设置要存储的站点级别配置文件Skype for Business 云连接器版本目录。 该文件夹将包含基本 VHD 和云连接器配置文件。
-ms.openlocfilehash: 9642c91e811e62b08f2b0e219b5eaa7b9ac7359fcdb6114c028735851280da59
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 此Set-CcSiteDirectory cmdlet 设置用于存储Skype for Business 云连接器版本配置文件的目录。 该文件夹将包含基本 VHD 和云连接器配置文件。
+ms.openlocfilehash: e5685ac8c203338365141a4a7ba59daa82a06ef0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286241"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610529"
 ---
 # <a name="set-ccsitedirectory"></a>Set-CcSiteDirectory
  
-此Set-CcSiteDirectory cmdlet 设置要存储的站点级别配置文件Skype for Business 云连接器版本目录。 该文件夹将包含基本 VHD 和云连接器配置文件。
+此Set-CcSiteDirectory cmdlet 设置用于存储Skype for Business 云连接器版本配置文件的目录。 该文件夹将包含基本 VHD 和云连接器配置文件。
   
 此 cmdlet 适用于 Skype for Business 云连接器版本 1.4.1、1.4.2。
   
@@ -53,7 +53,7 @@ Set-CcSiteDirectory -Path "\\SiteShare\CloudConnector"
 
 |**参数**|**Required**|**类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| Path <br/> | 必需 <br/> | System.String <br/> |提供将存储云连接器站点文件的文件夹的路径。  <br/> |
+| 路径 <br/> | 必需 <br/> | System.String <br/> |提供将存储云连接器站点文件的文件夹的路径。  <br/> |
    
 ## <a name="input-types"></a>输入类型
 <a name="InputTypes"> </a>

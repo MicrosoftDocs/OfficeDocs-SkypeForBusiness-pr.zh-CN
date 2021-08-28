@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: ''
 description: 如何从 ITAdmin 的角度Microsoft Teams Walkie Talkie 应用。
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -18,12 +18,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 042973f245341c0e4badd221075b81023474b6124f55eeb021bd61d32dcc4bfa
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 80aedfd0c1bb4f4a20ecdfcd977ce74d667cad43
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342697"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602067"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft Teams 中的 Walkie Talkie 应用
 
@@ -39,7 +39,7 @@ Teams 中的 Walkie Talkie 应用为团队提供即时 (PTT) 通信，现在可�
 
 ### <a name="adding-walkie-talkie-to-your-app-list"></a>将 Walkie Talkie 添加到应用列表
 
-在 Microsoft Teams 管理中心中，Teams **应用** 设置策略"下，应将"允许用户  >  **固定**"设置为"**打开"。** 然后，在"固定应用"部分下，单击 **"+添加应用"。**
+在 Microsoft Teams 管理中心的"Teams **应用** 设置策略"下，应该将"允许用户  >  **固定**"设置为"**打开"。** 然后，在"固定应用"部分下，单击 **"+添加应用"。**
 
 :::image type="content" source="media/deploy-walkie-talkie-1.png" alt-text="显示"固定的应用"部分和要选择的"添加应用"按钮。":::
 
@@ -47,7 +47,7 @@ Teams 中的 Walkie Talkie 应用为团队提供即时 (PTT) 通信，现在可�
 
 :::image type="content" source="media/deploy-walkie-talkie-2.png" alt-text="显示搜索结果中已输入 Walkie 的"添加固定应用"边栏和搜索结果中的 Walkie Talkie 应用，旁边有"添加"按钮。":::
 
-Walkie Talkie 应用现在应显示在"固定应用"列表中，单击"保存"按钮后 **即可使用。**
+Walkie Talkie 应用现在应显示在"固定的应用"列表中，单击"保存"按钮后 **即可使用。**
 
 :::image type="content" source="media/deploy-walkie-talkie-3.png" alt-text="显示已添加 Walkie Talkie 应用的"固定应用"列表，以及列表下方的"保存"按钮。":::
 
@@ -65,7 +65,7 @@ Teams中的 Walkie Talkie 需要 Internet 连接且低于网络条件才能获�
 
 - **延迟** - 这是从网络上点 A 到点 B 获取 IP 数据包所花的时间。 此网络传播延迟实质上与两个点之间的物理距离和光速有关，包括两者之间的各种路由器所取的更多开销。 延迟以 RTT 流量的往返 (时间) 。
 - **到达间抖动** - 这是连续数据包之间的延迟的平均变化。
-- **数据包** 丢失 - 这通常定义为给定时间窗口中丢失的数据包的百分比。 数据包丢失直接影响音频质量 -从小型、单个丢失的数据包几乎没有任何影响，到导致音频完全中断的背对背突发丢失。
+- **数据包** 丢失 - 这通常定义为给定时间窗口中丢失的数据包的百分比。 数据包丢失会直接影响音频质量 ，从小型、单个丢失的数据包几乎没有任何影响，到导致音频完全中断的背对背突发丢失。
 
 发送或接收音频时，Walkie Talkie 的预期数据使用量约为 20 Kb/s。 空闲时，Walkie Talkie 的预期数据使用量可忽略不计。
 
@@ -80,7 +80,7 @@ Teams中的 Walkie Talkie 需要 Internet 连接且低于网络条件才能获�
     - [Klein Electronics](https://www.kleinelectronics.com/poc-accessories/mtwt/)
 - **粗式手机**
   - Samsung [Galaxy XCover Pro](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/)， [Galaxy XCover 5](https://www.samsung.com/de/smartphones/others/galaxy-xcover-5-black-64gb-sm-g525fzkdeeb/buy)， [Galaxy Tab Active 3](https://www.samsung.com/us/business/tablets/galaxy-tab-active/buy/)
-    -  手动设置 - 安装Teams后，导航设置 > XCover/Active >高级功能。 打开"使用应用控制 XCover 键"，然后选择"Teams"
+    -  手动设置 - 安装Teams后，导航设置 > XCover/Active >的高级功能。 打开"使用应用控制 XCover 键"，然后选择"Teams"
     -  [MDM 设置](https://docs.samsungknox.com/admin/knox-service-plugin/intune-teams.htm)
 
 > [!NOTE]
@@ -88,7 +88,7 @@ Teams中的 Walkie Talkie 需要 Internet 连接且低于网络条件才能获�
 
 ### <a name="license-requirements"></a>许可证要求
 
-Walkie Talkie 应用包含在所有订阅中Teams付费Office 365[许可证](/office365/servicedescriptions/teams-service-description)中。 有关获取访问权限Teams，请参阅如何 [获取对 Microsoft Teams](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)的访问权限？
+Walkie Talkie 应用包含在订阅中所有付费Teams Office 365[许可证中](/office365/servicedescriptions/teams-service-description)。 有关获取访问权限Teams，请参阅如何 [获取对 Microsoft Teams](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)的访问权限？
 
 > [!NOTE]
 > 某些高级功能可能需要额外的许可。 例如，与 Samsung Galaxy XCover Pro需要 Knox 许可证。

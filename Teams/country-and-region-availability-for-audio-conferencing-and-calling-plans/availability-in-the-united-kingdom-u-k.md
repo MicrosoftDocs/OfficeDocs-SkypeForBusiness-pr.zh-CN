@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 下面是适用于Microsoft 365 Office 365服务的Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: 67c36ffbc08d1ceb3bb5ff0b8210ea0f163be67ca36bf651738fed2e89d9832d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 下面是适用于Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
+ms.openlocfilehash: 62c19b6e0fd029068238da0e654dc6c30ac1783d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314098"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610359"
 ---
 # <a name="availability-in-the-united-kingdom-uk"></a>在英国 (U.K.) 的可用性
 
 [查找其他国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或详细了解可以在哪些国家/地区使用音频会议和通话套餐。
 
-下面是适用于Microsoft 365 Office 365服务的Skype for Business Microsoft Teams服务。
+下面是适用于Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 
@@ -61,7 +61,7 @@ ms.locfileid: "54314098"
 |:-----|:-----|
 |是否可购买通话套餐？  <br/> |是  <br/> |
 |通话套餐可用的分钟数。 |每个日历月有四个可用的计划选项： <ul><li>120 分钟国内呼叫计划 </li><li>240 分钟国内呼叫计划</li></li><li>1200 分钟国内呼叫计划 </li></li><li>国内和国际呼叫计划：国内 1200 分钟 -OR- 600 分钟国际呼叫 (以日历月份中首次达到者为准) </li></li> 
-|能否对高级号码进行出站呼叫？ <br/> | 部分支持：支持使用通信信用额度每分钟支付一次，对共享成本号码的调用 (前缀 44843、44844、44845、44870、44871、44872) 。  不支持调用 449XX 前缀。 <br/> |
+|能否对高级号码进行出站呼叫？ <br/> | 部分支持：使用通信信用额度每分钟支付一次，支持对共享成本号码的调用 (前缀 44843、44844、44845、44870、44871、44872) 。  不支持调用 449XX 前缀。 <br/> |
 |是否可以拨打呼出电话？  <br/> | 可向 196 国家/地区（包括[这些国家/地区](users-can-make-outbound-calls-to-these-countries-and-regions.md)）拨打。<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服务的收费和免费电话号码

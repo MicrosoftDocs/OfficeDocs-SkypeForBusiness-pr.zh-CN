@@ -1,5 +1,5 @@
 ---
-title: 管理应用中的应用Teams
+title: 在应用程序中管理Teams
 author: karlistites
 ms.author: kastites
 manager: serdars
@@ -9,22 +9,22 @@ ms.reviewer: ''
 search.appverid: ''
 description: 了解Teams策略。
 audience: admin
-localization_priority: Normal
+ms.localizationpriority: medium
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 09a85edf34f77fb48b998371de3f6bbe2fd4678665c0037358bd32e7c26f2516
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 52fffd29519ea97bf95bc98c1b3de8140667e0b6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54288450"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610389"
 ---
-# <a name="manage-app-policies-in-microsoft-teams"></a>在应用程序中管理Microsoft Teams
+# <a name="manage-app-policies-in-microsoft-teams"></a>管理应用中的应用Microsoft Teams
 
-应用策略用于控制应用程序中的应用程序Microsoft Teams。
+应用策略用于控制应用程序中Microsoft Teams。
 
 ## <a name="app-permission-policies"></a>应用权限策略
 
@@ -36,7 +36,7 @@ ms.locfileid: "54288450"
 
 **使用应用** 设置策略可以代表用户固定和安装应用程序，并控制组织的这些设置。 [应用设置策略](teams-app-setup-policies.md)在管理中心Teams管理。
 
-![管理中心内应用Teams的屏幕截图。](media/app-setup-policy.png)
+![管理中心内应用设置Teams屏幕截图。](media/app-setup-policy.png)
 
 ## <a name="custom-app-policies"></a>自定义应用策略
 

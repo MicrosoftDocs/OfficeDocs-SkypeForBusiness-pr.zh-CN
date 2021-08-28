@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于阿根廷Microsoft 365 Office 365和Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: 0794f16ac5e3511d6ce2daae83ff11a8e70bc5feef3d5c3165744601c0e6ffc6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 904731570fc53fd3db3939e4fab8897d634a4c63
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54352420"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602277"
 ---
 # <a name="availability-in-argentina"></a>在阿根廷的可用性
 
@@ -74,7 +74,7 @@ ms.locfileid: "54352420"
 |是否提供收费电话号码？  <br/> |是  <br/> |
 |免费电话号码是否可用？  <br/> |是  <br/> |
    
- 如果要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅获取音频会议的服务电话号码[Skype for Business Microsoft Teams。](../getting-service-phone-numbers.md)
+ 如果要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅获取电话和[Skype for Business Microsoft Teams。](../getting-service-phone-numbers.md)
   
 ## <a name="communications-credits"></a>通信点数
 

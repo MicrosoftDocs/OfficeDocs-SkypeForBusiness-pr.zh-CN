@@ -12,21 +12,21 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddPersistentChatFqdnPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e0123fa6-008b-430e-a68b-61f0cc3fb12e
 description: 使用"定义新的持久聊天池"向导创建新的持久聊天服务器或持久聊天服务器池。 选择"多计算机池"或"单计算机池"。 如果选择单计算机池，但后来需要多计算机池，则需要删除单计算机池，然后定义多计算机池。
-ms.openlocfilehash: 8c900574b84f2780bc3556242949bf7dce4e72b499acc53e514b1924b99ecabb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2136d740a451670fe01d3123c48c63f3d7de0cc1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54305454"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622454"
 ---
 # <a name="define-persistent-chat-fqdn"></a>定义持久聊天 FQDN
  
 使用"定义新的持久聊天池"向导创建新的持久聊天服务器或 **持久聊天服务器** 池。 选择"多 **计算机池"或**"**单计算机池"。** 如果选择单计算机池，但后来需要多计算机池，则需要删除单计算机池，然后定义多计算机池。
   
-还必须为持久聊天服务器或持久聊天服务器池定义池 **FQDN。** 单个计算机池的池 (FQDN) 的完全限定域名必须与单个服务器池的计算机的 FQDN 相同。 对于多计算机池，FQDN 必须是您选择用于表示此多计算机池的名称，并且由主机 A (和 AAAA 在 DNS 中定义（如果使用 IPv6) 记录）。
+还必须为持久聊天服务器或持久聊天服务器池定义池 **FQDN。** 单个计算机池的池 (FQDN) FQDN 必须与单个服务器池的计算机的 FQDN 相同。 对于多计算机池，FQDN 必须是您选择用于表示此多计算机池的名称，并且由主机 A (和 AAAA 在 DNS 中定义（如果使用 IPv6) 记录）。
   
 ## <a name="see-also"></a>另请参阅
 

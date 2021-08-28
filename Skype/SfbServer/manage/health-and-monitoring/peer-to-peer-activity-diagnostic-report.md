@@ -9,21 +9,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 025e8ab4-2e64-4a6b-8f52-caf756a5cac3
 description: 摘要：了解 Skype for Business Server 中的对等活动诊断报告。
-ms.openlocfilehash: d303bd820a7494be2061eb4e36c5413787b83ffcd4fc794f8e98ac3a8d806261
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: de0bbd43b12209cacac319952040afc526556db6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54325099"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622284"
 ---
 # <a name="peer-to-peer-activity-diagnostic-report-in-skype-for-business-server"></a>Skype for Business Server 中的对等活动诊断Skype for Business Server
  
 **摘要：** 了解 Skype for Business Server 中的对等活动诊断报告。
   
-点对点活动诊断报告提供有关成功和失败的点对点通信会话的信息。 请注意，Skype for Business Server区分不同类型的失败：
+点对点活动诊断报告提供有关成功和失败的点对点通信会话的信息。 请注意Skype for Business Server区分不同类型的失败：
   
 - **预期失败**。 预期失败通常指纯技术意义上的失败。 例如，假设您呼叫某人，但他或她不在办公室，因此无法接听电话。 此呼叫未应答，因而在技术上视为失败。 另一方面，这是预期失败：Skype for Business Server无法接听电话，则不要接听电话。 同样地，如果您尝试发送一条即时消息给某人，而对方处于脱机状态，或者对方只登录到不支持即时消息的电话时，也会发生预期失败。
     
@@ -39,7 +39,7 @@ ms.locfileid: "54325099"
   
 ## <a name="accessing-the-peer-to-peer-activity-diagnostic-report"></a>访问点对点活动诊断报告
 
-可以从“监控报告”主页访问点对点诊断报告。 可以通过单击以下任一[指标Skype for Business Server](failure-distribution-report.md)中访问故障分布报告：
+可以从“监控报告”主页访问点对点诊断报告。 可以通过单击下列任一[指标Skype for Business Server](failure-distribution-report.md)报告中的故障分布报告：
   
 - 意外失败量
     

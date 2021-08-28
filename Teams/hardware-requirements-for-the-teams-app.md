@@ -10,7 +10,7 @@ ms.service: msteams
 ms.collection:
 - M365-collaboration
 - m365initiative-deployteams
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 description: 本文将介绍安装和运行 Microsoft Teams 所需的硬件要求。
 f1.keywords:
@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7de101954a9947fc5edeff43aff27d011e75dc387c25fa53f7190ce5a4a52256
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bdb699ffba3c0d5e1af49477d597d8730c440ce1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336162"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602237"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Microsoft Teams 的硬件要求
 
@@ -55,7 +55,7 @@ ms.locfileid: "54336162"
 |内存     |   4.0 GB RAM（除任何其它系统要求外，Teams 还需要 4 GB 的专用 RAM）     |
 |硬盘    |   1.5 GB 可用磁盘空间      |
 |显示器    | 1280 x 800 或更高分辨率    |
-|操作系统  |    MacOS 的三个最新版本之一。 可在此处查看有关最新 macOS 版本以及如何升级 macOS 版本的信息， [查看](https://support.apple.com/zh-CN/HT201260)。 例如，在发布新版本的 macOS 时，新版本和紧接其前两个版本将成为受支持的版本。      |
+|操作系统  |    MacOS 的三个最新版本之一。 可在此处查看有关最新 macOS 版本以及如何升级 macOS 版本的信息， [查看](https://support.apple.com/en-us/HT201260)。 例如，在发布新版本的 macOS 时，新版本和紧接其前两个版本将成为受支持的版本。      |
 |视频  |    兼容的网络摄像机     |
 |语音    |  兼容的麦克风和扬声器、带麦克风的耳机或等效设备       |
 |视频通话和会议 | <ul><li>需要双核处理器。要提高视频/屏幕共享分辨率和帧速率，建议采用 4 核处理器或更好的处理器。 </li><li>使用近程检测在 Microsoft Teams 会议室中加入会议的功能在 Mac OS 中不可用。</li></ul>

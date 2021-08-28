@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployCertRequestOrgInfo
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1ca030ad-82bd-40b2-9b2a-67d80e516f9c
 description: 通过“组织信息”窗格，可以指定组织和请求证书的组织单位 (OU)（通常是分部或部门）的名称。在“组织”和“组织单位”文本框中键入的信息显示在证书上，用于在其他人查看证书时标识请求证书的用户。
-ms.openlocfilehash: c7209c071ea8f727e2213623b6f28592e30912bd0bd1a757e11f8a6d66600986
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 909051415d4bff3cfd2490e03c70bb6af64d5049
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335372"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610939"
 ---
 # <a name="certificate-request-organization-information"></a>证书请求（组织信息）
  

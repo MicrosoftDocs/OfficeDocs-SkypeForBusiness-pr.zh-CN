@@ -15,22 +15,22 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
 description: 了解如何按国家/地区或城市搜索可分配给用户的电话号码，并指定所需的号码数量。
-ms.openlocfilehash: 732f2128be87e71c2ce4e7d1a2ff618b5bf4960d07080bf0fa23218a736e9ad7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4fcc5d43ec232d57437cabdc09d38a75910b03f8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54275968"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602107"
 ---
 # <a name="search-for-phone-numbers-for-users"></a>为用户搜索电话号码
 
-在组织中设置用户以拨打和接听电话呼叫时，必须使用 Microsoft Teams **管理** 中心，并首先获取可分配给用户的电话号码。 分配给用户的电话号码将是为组织选择的电话号码，在编辑用户的属性并单击"分配"时，该电话号码将列在下拉列表 **中**。
+当您在组织中设置用户以拨打和接听电话呼叫时，您必须使用 Microsoft Teams **管理** 中心，并首先获取可分配给用户的电话号码。 分配给用户的电话号码将是为组织选择的电话号码，在编辑用户的属性并单击"分配"时，该电话号码将列在下拉列表 **中**。
   
 必须先使用"获取新号码"页面搜索区域中的可用号码，然后才能将电话号码分配给用户。 可以按"**国家/** 地区 **"、"号码** 类型"和"位置"进行搜索，然后输入用户所需的电话号码数。 
   
@@ -40,7 +40,7 @@ ms.locfileid: "54275968"
 
 **搜索用户的电话号码**
 
-![一个图标，显示Teams ](media/teams-logo-30x30.png) **徽标使用 Microsoft Teams 管理中心**
+![一个图标，显示Teams ](media/teams-logo-30x30.png) **徽标使用 Microsoft Teams管理中心**
   
 1. 转到 **"Microsoft Teams管理中心"。**
 
@@ -60,7 +60,7 @@ ms.locfileid: "54275968"
 7. 在 **"** 数量"下，输入贵组织的电话号码数，然后单击"下一步 **"。** [!警告] 你有 10 分钟的时间选择电话号码。 如果超过 10 分钟，号码将返回到电话号码池。
 
     > [!NOTE]
-    > 可以看到可用电话号码的数量 (数量旁边列出的) 许可证 **数量**。 
+    > 可以看到可用电话号码的数量， (数量旁边列出的) 许可证 **数量**。 
   
 8. 在"**获取号码**"页面上，选择你需要的电话号码，单击"**获取号码"，** 然后单击"下一步 **"。**
 
@@ -69,7 +69,7 @@ ms.locfileid: "54275968"
 
 9. 在"**确认"** 页上，验证你的选择，然后单击"**下订单"。**
 
-10. 返回到"电话"页时，选择要分配的电话号码，然后单击"编辑"将其分配给用户。   
+10. 返回到"电话"页时，选择要分配的电话号码或号码，然后单击"编辑"将其分配给用户。   
 
 ## <a name="related-topics"></a>相关主题
 [关于转移电话号码的常见问题](./phone-number-calling-plans/port-order-overview.md)

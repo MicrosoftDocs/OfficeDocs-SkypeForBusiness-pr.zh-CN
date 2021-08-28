@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddPersistentChatOptionsPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f4914a44-2113-48f1-8299-4645fc7011b6
 description: 通过定义以下属性配置持久聊天服务器或持久聊天服务器池的选项：
-ms.openlocfilehash: 76556335f87a673c5ae6d8df576bd6fd47d140ae9338c27183d58971ebe4a439
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 242490ebe6be0f68e8c25e0c01b77088c15836d8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281105"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622434"
 ---
 # <a name="define-properties-and-options-for-persistent-chat-pool"></a>定义持久聊天池的属性和选项
  
@@ -37,7 +37,7 @@ ms.locfileid: "54281105"
 > [!NOTE]
 > 此选项仅适用于具有多台服务器的池。 
   
- **使用此池作为站点的默认池 \<site that this server or pool is being configured in\>**：如果此池将是站点的默认持久聊天服务器或持久聊天服务器池，则选中此复选框。 每个站点必须具有一个默认的持久聊天服务器或 pol。
+ **使用此池作为站点的默认 \<site that this server or pool is being configured in\>** 池：如果此池将是站点的默认持久聊天服务器或持久聊天服务器池，则选中此复选框。 每个站点必须具有一个默认的持久聊天服务器或 pol。
   
 > [!NOTE]
 > 如果拓扑包括多个站点，则还会显示“使用此池作为所有站点的默认池”复选框。

@@ -10,7 +10,7 @@ ms.collection:
 - M365-collaboration
 - m365initiative-deployteams
 ms.reviewer: harij, rafarhi
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 description: 了解如何使用支持 Microsoft Teams 的各种客户端，包括 Web、桌面（Windows 和 Mac）和移动（Android 和 iOS）。
 f1.keywords:
@@ -19,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 002aa42786e1464e4aa62c72755c21b37e3225d4
-ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
+ms.openlocfilehash: c11ccbac11b546aa53e6d66625f12b12f86483b5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "58523843"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608959"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>获取 Microsoft Teams 的客户端
 
@@ -54,7 +54,7 @@ Microsoft Teams 桌面客户端是一个独立应用程序，在[Microsoft 365 �
 IT 管理员可以选择其首选方法将安装文件分发到其组织中的计算机上。 一些示例包括 Microsoft Endpoint Configuration Manager (Windows) 或 Jamf Pro (macOS)。 要获取用于 Windows 分发的 MSI 包，请参阅[使用 MSI 安装 Microsoft Teams](msi-deployment.md)。
 
 > [!NOTE]
-> 通过这些机制分发客户端仅适用于初次安装 Microsoft Team 客户端，而不适用于将来的更新。
+> 通过这些机制分发客户端仅适用于初次安装 Microsoft Teams 客户端，不适用于将来的更新。
 
 ### <a name="windows"></a>Windows
 

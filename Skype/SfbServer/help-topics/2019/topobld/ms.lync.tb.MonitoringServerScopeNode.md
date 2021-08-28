@@ -11,22 +11,22 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.MonitoringServerScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 05867db5-ad62-41e3-b1ac-f21f43d1e90b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 在拓扑生成器中，可以通过右键单击控制台树中运行监控的服务器、单击工具栏中的"操作"或单击"操作"窗格中的任务，然后单击监控服务器的以下选项之一来执行与监控相关的任务：
-ms.openlocfilehash: da1c88215191bfb52d768183a6f187e2064932766498403db1c6a30b26637b8a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e352bdb67fa8957c9d25e9e876f512fce38fc5a1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54331784"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622684"
 ---
 # <a name="monitoring-scope-node"></a>监控范围节点
  
 在拓扑生成器中，可以通过右键单击控制台树中运行监控的服务器、单击工具栏中的"操作"或单击"操作"窗格中的任务，然后单击监控服务器的以下选项之一来执行与监控相关的任务：
   
-- **编辑属性**。 打开监控 **服务器的**"编辑属性"页，可在其中更改监控服务器或监控数据库的完全限定 (FQDN) FQDN SQL Server。
+- **编辑属性**。 打开监控 **服务器的**"编辑属性"页，可在其中更改监控服务器或监控数据库 (FQDN) 的完全限定SQL Server名称。
     
 - **删除**。 从拓扑和监控数据库中删除运行监控SQL Server服务器。
     

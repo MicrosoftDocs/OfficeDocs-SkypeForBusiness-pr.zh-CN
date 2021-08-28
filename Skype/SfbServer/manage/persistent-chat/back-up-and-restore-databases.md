@@ -10,24 +10,24 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4f2b689b-7f15-48dc-a069-da7bc8527def
 description: 摘要：了解如何在 Skype for Business Server 2015 中备份和还原持久聊天服务器数据库。
-ms.openlocfilehash: eb6b7e005691abda351993e716ba43a137ffa28c17f7fc9e6297a7e1373f9ad7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: aba6ead1d666f9f257e9cd7bfa1e7d2343049b9d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281705"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622244"
 ---
 # <a name="back-up-and-restore-persistent-chat-databases-in-skype-for-business-server-2015"></a>备份和还原 Skype for Business Server 2015 中的持久聊天数据库
  
 **摘要：** 了解如何在 Skype for Business Server 2015 中备份和还原持久聊天服务器数据库。
   
-持久聊天服务器SQL Server数据库软件来存储聊天室数据，如历史记录和内容、配置、用户设置和其他相关元数据。 此外，如果组织规定需要存档持久聊天活动，并且启用了可选的合规性服务，SQL Server 数据库软件将用于存储合规性数据，包括聊天内容和事件，如加入和离开聊天室。 聊天室内容存储在持久聊天数据库中 (mgc) 。 合规性数据存储在合规性数据库中 (mgccomp) 。 这是应定期备份的业务关键数据。 
+持久聊天服务器SQL Server数据库软件来存储聊天室数据，如历史记录和内容、配置、用户设置和其他相关元数据。 此外，如果组织规定需要存档持久聊天活动，并且启用了可选的合规性服务，SQL Server 数据库软件将用于存储合规性数据，包括聊天内容和事件，例如加入和离开聊天室。 聊天室内容存储在持久聊天数据库中 (mgc) 。 合规性数据存储在合规性数据库 (mgccomp) 。 这是应定期备份的业务关键数据。 
   
 > [!NOTE]
-> 持久聊天在 2015 Skype for Business Server可用，但在 2019 年 2 月不再Skype for Business Server支持。 相同的功能在 Teams。 有关详细信息，请参阅[开始升级Microsoft Teams升级](/microsoftteams/upgrade-start-here)。 如果您需要使用持久聊天，您的选择是将需要此功能的用户迁移到 Teams，或者继续使用 Skype for Business Server 2015。 
+> 持久聊天在 Skype for Business Server 2015 中可用，但在 2019 年 2 Skype for Business Server不再受支持。 相同的功能在 Teams。 有关详细信息，请参阅[开始升级Microsoft Teams升级](/microsoftteams/upgrade-start-here)。 如果您需要使用持久聊天，则选择将需要此功能的用户迁移到 Teams，或者继续使用 Skype for Business Server 2015。 
 
 ## <a name="back-up-the-databases"></a>备份数据库
 
@@ -37,7 +37,7 @@ ms.locfileid: "54281705"
     
 - **Export-CsPersistentChatData** cmdlet，用于将持久聊天数据导出为文件
     
-使用 SQL Server 备份创建的数据所需的磁盘空间明显多于 **Export-CsPersistentChatData** cmdlet 创建的磁盘空间（可能多于 20 倍），但 SQL Server 备份可能是您熟悉的过程。
+使用 SQL Server 备份创建的数据需要的磁盘空间明显多于 **Export-CsPersistentChatData** cmdlet 创建的磁盘空间（可能多于 20 倍），但 SQL Server 备份可能是您熟悉的过程。
   
 如果要使用备份SQL Server，请参阅SQL文档了解详细信息。 
   
@@ -61,7 +61,7 @@ Export-CsPersistentChatData -DBInstance "atl-sql-001.contoso.com\rtc" -FileName 
 
 ## <a name="restore-the-databases"></a>还原数据库
 
-如何还原持久聊天数据取决于用于备份数据的方法。 如果您使用了SQL Server备份过程，则必须使用SQL Server还原过程。 如果您使用 **Export-CsPersistentChatData** cmdlet 备份持久聊天数据，则必须使用 **Import-CsPersistentChatData** cmdlet 还原数据：
+如何还原持久聊天数据取决于用于备份数据的方法。 如果您使用了SQL Server过程，则必须使用SQL Server过程。 如果您使用 **Export-CsPersistentChatData** cmdlet 备份持久聊天数据，则必须使用 **Import-CsPersistentChatData** cmdlet 还原数据：
   
 ```PowerShell
 Import-CsPersistentChatData -FileName <String> <COMMON PARAMETERS>

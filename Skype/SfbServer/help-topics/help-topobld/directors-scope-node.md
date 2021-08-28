@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.DirectorsScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0c725237-2e43-4ba2-a7ad-dce0057d265f
 description: “控制器池”节点列出了拓扑中的控制器池。可以执行以下操作：
-ms.openlocfilehash: b3adafa86270b027b08f9108a793624a3305bbda6e32675d5cc211573baa9bee
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4848a04ea3bc359c9af50b9c7a8ec62248efc52d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333644"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604971"
 ---
 # <a name="directors-scope-node"></a>控制器范围节点
  

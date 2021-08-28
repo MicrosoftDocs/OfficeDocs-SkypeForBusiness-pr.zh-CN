@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: fa8aa499-1188-447e-bc30-89d1f5b198a7
 description: 了解如何在云连接器版本中部署单个 PSTN 站点。
-ms.openlocfilehash: 52c10b8c5e386f72415ce5a379b68b0b469f825f5cf52be9b225f28dcf8232b6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 07262f88f85602b6213dc287babbd05ddec25ed9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298122"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610539"
 ---
 # <a name="deploy-a-single-site-in-cloud-connector"></a>在云连接器中部署单个站点
  
@@ -30,7 +30,7 @@ ms.locfileid: "54298122"
 
 了解如何在云连接器版本中部署单个 PSTN 站点。
   
-你可以部署支持Skype for Business 云连接器版本高可用性 (HA) 部署。 如果要启用 HA，则需要在站点内部署两台或多部设备。 还可以在部署现有设备后将其转换为支持 HA。
+你可以部署支持Skype for Business 云连接器版本高可用性 HA 支持 (高可用性) 部署。 如果要启用 HA，则需要在站点内部署两台或多部设备。 还可以在部署现有设备后将其转换为支持 HA。
   
 ## <a name="deploy-the-first-skype-for-business-cloud-connector-edition-appliance"></a>部署第一Skype for Business 云连接器版本设备
 
@@ -58,7 +58,7 @@ Install-CcAppliance
   
 1. 按照准备云连接器设备 中所述的步骤准备 [云连接器设备](prepare-your-cloud-connector-appliance.md)。 请注意，只有部署中的第一个设备需要执行某些步骤。 确认站点目录存在且已正确配置为支持 HA。
     
-2. 仅在新添加的主机服务器上运行以下 cmdlet，以更新组织配置中的Microsoft 365 Office 365信息。 如果要同时添加多个设备，请在每个新添加的主机服务器上分别运行 cmdlet：
+2. 仅在新添加的主机服务器上运行以下 cmdlet，以更新组织配置中的Microsoft 365 Office 365信息。 如果要同时添加多个设备，请分别在每台新添加的主机服务器上运行 cmdlet：
     
    ```powershell
    Register-CcAppliance
@@ -83,7 +83,7 @@ Install-CcAppliance
 
 如果要从现有站点删除设备：
   
-1. 仅在要从站点中删除的主机服务器上运行以下 cmdlet，以更新 Microsoft 365 或 Office 365 组织配置中的拓扑信息。
+1. 仅在要从站点中删除的主机服务器上运行以下 cmdlet，以更新组织配置中的Microsoft 365 Office 365信息。
     
    ```powershell
    Unregister-CcAppliance

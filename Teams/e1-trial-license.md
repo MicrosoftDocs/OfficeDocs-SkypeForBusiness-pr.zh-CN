@@ -8,19 +8,19 @@ audience: Admin
 ms.reviewer: aytange
 ms.service: msteams
 search.appverid: MET150
-localization_priority: Priority
+ms.localizationpriority: high
 description: 如果你没有 Microsoft Teams 且不急需该软件，可向为应对 COVID-19（冠状病毒）疫情爆发而需要远程工作或在家办公的用户推广 Office 365 E1 试用版。
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 46984365e574ed7f55ad92117750385d02942747
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 875693e23b5e13f48a031a21f0037f1576dbd1ce
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234767"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611691"
 ---
 # <a name="manage-the-office-365-e1-trial"></a>管理 Office 365 E1 试用版
 

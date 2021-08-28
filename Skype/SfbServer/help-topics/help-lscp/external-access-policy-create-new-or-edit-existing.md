@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.ExtPolicyEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6f8fa258-9a9d-44fe-b7e3-0b02604907e2
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: 1aebaf461fb21b356bff2b0119bc281f968d6815b8877040e896672d817e6415
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 41678fc97117fa3924c87606b1f179a688749325
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54309591"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622594"
 ---
 # <a name="external-access-policy-create-new-or-edit-existing"></a>外部访问策略：创建新的或编辑现有的
 

@@ -1,5 +1,5 @@
 ---
-title: 启用呼叫详细信息记录Skype for Business Server
+title: 在呼叫记录中启用Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -9,17 +9,17 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3b28e432-596f-45a5-a070-577d6fa748d9
-description: 摘要：了解如何在 CDR 记录中 (呼叫) 记录Skype for Business Server。
-ms.openlocfilehash: 1d09e637d75b9617abf669f75e96076333380a075010bd3d641f4c5189be9d89
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 摘要：了解如何在 CDR 记录 (启用呼叫) 记录Skype for Business Server。
+ms.openlocfilehash: cc9b3d4f19a4598638093d92733a0917fca7c2c3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301378"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622364"
 ---
-# <a name="enable-call-detail-recording-in-skype-for-business-server"></a>启用呼叫详细信息记录Skype for Business Server
+# <a name="enable-call-detail-recording-in-skype-for-business-server"></a>在呼叫记录中启用Skype for Business Server
 
 **摘要：** 了解如何启用呼叫详细信息记录 (CDR) 记录Skype for Business Server。
 
@@ -32,7 +32,7 @@ ms.locfileid: "54301378"
 
 ### <a name="to-enable-cdr-with-skype-for-business-server-control-panel"></a>使用控制面板Skype for Business Server CDR
 
-1.  从 RTCUniversalServerAdmins 组 (或具有等效用户权限) 的用户帐户，或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署 Skype for Business Server 的网络中的任何计算机。
+1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署了 Skype for Business Server 的网络内的任何计算机。
 
 2. 打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。
 
@@ -45,7 +45,7 @@ ms.locfileid: "54301378"
 
 ## <a name="enabling-cdr-by-using-windows-powershell-cmdlets"></a>使用 cmdlet 启用 CDR Windows PowerShell cmdlet
 
-可以使用 **Set-CsCdrConfiguration** cmdlet 和 Windows PowerShell 启用 CDR。 可以从命令行管理程序或 Skype for Business Server远程会话中运行此 cmdlet Windows PowerShell。 有关使用远程 Windows PowerShell连接到 Skype for Business Server 的详细信息，请参阅博客文章"快速入门：使用远程[PowerShell 管理 Microsoft Lync Server 2010"。](https://go.microsoft.com/fwlink/p/?linkId=255876) 此过程在Skype for Business Server。
+可以使用 **Set-CsCdrConfiguration** cmdlet Windows PowerShell CDR。 可以从命令行管理程序或 Skype for Business Server远程会话中运行此 cmdlet Windows PowerShell。 有关使用远程 Windows PowerShell连接到 Skype for Business Server 的详细信息，请参阅博客文章"快速入门：使用远程[PowerShell 管理 Microsoft Lync Server 2010"。](https://go.microsoft.com/fwlink/p/?linkId=255876) 此过程在 Skype for Business Server 中Skype for Business Server。
 
 ### <a name="to-enable-cdr-for-a-single-location"></a>在单个位置启用 CDR
 

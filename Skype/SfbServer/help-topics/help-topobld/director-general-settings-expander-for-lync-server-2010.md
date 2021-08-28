@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.DirectorGeneralSettingsExpander2010
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 67bd625d-f093-4218-a869-768813c54dad
 description: 配置控制器或控制器池的常规属性：
-ms.openlocfilehash: 7f0e7e80f024c3245907750deeb5c7f30bf3fd7b27c5f9283dd2e49544495a3a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8e73df8cfe113937edac3976e4447c4652b43313
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333704"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605001"
 ---
 # <a name="director-general-settings-expander-for-lync-server-2010"></a>Lync Server 2010 的控制器常规设置扩展器
  
