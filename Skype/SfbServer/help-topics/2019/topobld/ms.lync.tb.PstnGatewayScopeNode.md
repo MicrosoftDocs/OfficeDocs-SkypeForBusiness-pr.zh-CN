@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.PstnGatewayScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 85a52bf7-98cb-4dd4-892e-2d1ba5669593
 ROBOTS: NOINDEX, NOFOLLOW
 description: 此节点显示该公用电话交换网 (PSTN) 网关的完全限定域名 (FQDN)、关联的中介服务器和其他相关基本信息。可以执行以下操作：
-ms.openlocfilehash: 3d6feb83a76ef1cd1df27e5c03fe7918df0ff7bf8f988e7f2fd1939904e3cc75
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d9bcfdde0f77d5bfe0f19e6c5bda5af1f596b965
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281865"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624064"
 ---
 # <a name="pstn-gateway-scope-node"></a>PSTN 网关范围节点
  

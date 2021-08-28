@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d7b17445-1b01-4b7a-9b7f-f86ad59f1a2b
 description: 摘要：使用以下过程管理Skype for Business Server和身份验证。
-ms.openlocfilehash: ce142b4f28c40e13d17e8990696d88a24e8e212bfbfe2b4f0c2635131b35f352
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 77d7163f6064be51ba4c835d7f61363820b23da8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341907"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603971"
 ---
 # <a name="manage-authentication-in-skype-for-business-server"></a>管理身份验证Skype for Business Server
  
@@ -36,12 +36,12 @@ ms.locfileid: "54341907"
 
 - [为混合环境配置Skype for Business Server身份验证。](configure-a-hybrid-environment.md)
 
-- [为部署环境配置本地合作伙伴Skype for Business Server](configure-an-on-premises-partner-app.md)
+- [为本地合作伙伴应用程序配置Skype for Business Server](configure-an-on-premises-partner-app.md)
     
 - [管理注册器配置Skype for Business Server](registrar-configuration-settings.md)
     
 - [管理 Web 服务配置设置Skype for Business Server](web-service-configuration-settings.md)
     
-- [在管理中管理 PIN Skype for Business Server](pin-settings.md)
+- [管理用户中的 PIN Skype for Business Server](pin-settings.md)
     
 - [在客户端中管理双重Skype for Business Server](two-factor-authentication.md)

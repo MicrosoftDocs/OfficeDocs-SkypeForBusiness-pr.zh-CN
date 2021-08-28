@@ -9,22 +9,22 @@ ms.service: msteams
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
 appliesto:
 - Microsoft Teams
 ms.reviewer: anach
-description: 了解应用中的 DSTU2 Teams规范，包括设置或重新配置 FHIR 服务器以使用 Microsoft Teams Patients 应用。
+description: 了解应用中的 DSTU2 接口Teams，包括设置或重新配置 FHIR 服务器以使用 Microsoft Teams 应用。
 ms.custom: seo-marvel-mar2020
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 8ec2b1a88d99937e83bc8553f7dbcdd8d92f78b5a8e5708301147a26f0cffe4a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3d4b8e1d965cd3b0704885d6f86e376cfc3c9316
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308761"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589726"
 ---
 # <a name="dstu2-interface-specification"></a>DSTU2 接口规范
 
@@ -33,7 +33,7 @@ ms.locfileid: "54308761"
 >
 >借助列表，医疗保健组织中的护理团队可针对各种方案创建患者列表，提供圆形和内联团队会议、常规患者监视等。 查看列表的"患者"模板以开始使用。 若要深入了解如何在组织中管理列表应用，请参阅" [列表应用管理](../../manage-lists-app.md)。
 
-设置或重新配置 FHIR 服务器以使用Microsoft Teams患者应用需要了解应用需要访问哪些数据。 FHIR 服务器必须使用捆绑包支持以下资源的 POST 请求：
+设置或重新配置 FHIR 服务器以使用 Microsoft Teams患者应用需要了解应用需要访问哪些数据。 FHIR 服务器必须使用捆绑包支持以下资源的 POST 请求：
 
 - [Patient](#patient)
 - [观察](#observation)
@@ -45,15 +45,15 @@ ms.locfileid: "54308761"
 - [位置](#location)
 
 > [!NOTE]
-> 患者资源是唯一必需的 (资源，如果没有该资源，应用将完全无法加载。 但是，建议合作伙伴根据下面提供的规范实施对上述所有资源的支持，以获得最佳患者应用最终用户Microsoft Teams体验。
+> 患者资源是唯一必需的 (资源，如果没有该资源，应用将完全无法加载。 但是，建议合作伙伴根据下面提供的规范实现对上述所有资源的支持，以获得最佳患者应用最终用户Microsoft Teams体验。
 
-从 Microsoft Teams Patients 应用中针对多个资源的查询将捆绑包 (BATCH) FHIR 服务器 URL 的请求发布。 服务器处理每个请求，并返回每个请求匹配的资源捆绑包。 有关详细信息和示例，请参阅 [https://www.hl7.org/fhir/DSTU2/http.html#transaction](https://www.hl7.org/fhir/DSTU2/http.html#transaction) 。
+从 Microsoft Teams Patients 应用中针对多个资源的查询将一个捆绑包 (BATCH) 发到 FHIR 服务器 URL 的请求。 服务器处理每个请求，并返回每个请求匹配的资源捆绑包。 有关详细信息和示例，请参阅 [https://www.hl7.org/fhir/DSTU2/http.html#transaction](https://www.hl7.org/fhir/DSTU2/http.html#transaction) 。
 
 以下所有 FHIR 资源都应可通过直接资源引用访问。
 
 ## <a name="conformance-minimum-required-field-set"></a>"满足最低要求"字段集
 
- FHIR 服务器必须实现一致性声明，以便我们获得其功能的事实摘要。 DSTU2 FHIR Server 中预期以下参数：
+ FHIR 服务器必须实现一致性声明，以便我们获得其功能的事实摘要。 我们在 DSTU2 FHIR Server 中预期以下参数：
 
  - REST
 
@@ -182,7 +182,7 @@ Response:
 
 这些是最小必填字段，这些字段是 Argonaut 重要符号配置文件的子集：
 
- - 有效 (日期时间或) 
+ - 有效 (日期时间或时间段) 
  - Code.Code.Code
  - ValueQuantity.Value
 
@@ -198,7 +198,7 @@ Response:
  - patient=\<patient id\>
  - sort：desc=\<field ex. date\>
 
-目标是能够检索患者的最新生命符号 [VitalSigns.DSTU.saz] (？) 。
+目标是能够检索患者的最新生命体征 [VitalSigns.DSTU.saz] (？) 。
 
 ```
 Request:
@@ -430,7 +430,7 @@ Response:
  - DateWritten
  - 管理程序.Display
  - 如果参考， (显示) 
- - 药物.文本 (概念) 
+ - 如果概念 (，"药物.文本) 
 
 除了 Argonaut 字段之外，为了获得出色的用户体验，Patients 应用还可以读取以下字段：
 

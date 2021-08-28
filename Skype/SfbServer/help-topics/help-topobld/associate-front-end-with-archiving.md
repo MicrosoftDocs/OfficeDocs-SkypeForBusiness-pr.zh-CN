@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AssociateFrontEndWithArchivingPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a0d732ab-e845-4f46-8f7b-3ba506597a92
 description: 每个前端池和 Survivable Branch Appliance 都只能具有一个关联的存档服务器。为站点启用存档后，存档服务器将收集和记录涉及关联池和 Survivable Branch Appliance 上驻留的用户的对话中的即时消息 (IM) 内容和 Web 会议内容。
-ms.openlocfilehash: 3c9c6a97cafdfb16f536a9f822e6becb89a63e317a0ea5e510e559ea4839c312
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2e595062b3f61a213fd9af70097266f6a1e017e0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54305554"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616698"
 ---
 # <a name="associate-front-end-with-archiving"></a>将前端与存档关联
  

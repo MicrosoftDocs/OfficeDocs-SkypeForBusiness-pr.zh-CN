@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AssociateFrontEndWithMonitoringPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8ea4474a-7453-49a9-ba38-2c7dc4337b05
 description: 每个前端池和 Survivable Branch Appliance 只能拥有一台关联的监控服务器。如果为站点启用监控，监控服务器会提供呼叫详细信息记录 (CDR) 和用户体验质量 (QoE) 数据收集和报告。
-ms.openlocfilehash: 4a6f6561f9af11c2ebd317e09f7a7c5d25266fa90e79ad24969dfbeda36b0ab4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: af43baf9170239fbc31dfce0b19939fa3d74bf34
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338220"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616688"
 ---
 # <a name="associate-front-end-with-monitoring"></a>将前端与监控关联
  

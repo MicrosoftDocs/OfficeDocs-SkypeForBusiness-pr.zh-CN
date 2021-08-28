@@ -7,7 +7,7 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ''
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -22,19 +22,19 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 20204d0c766a9ff248ff8354d9367a9903149d46
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: d875108648ca8fe91d67c03b7c569c59048cfa43
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235007"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589716"
 ---
 # <a name="add-and-update-reporting-labels"></a>添加和更新报告标签
 
 报告标签在组织中用于指示办公室、建筑物或组织网站的物理位置。 使用 Microsoft Teams 管理中心中的"报告标签"页，可以提供文本文件 (.csv 或 .tsv) ，其中包含物理位置及其关联网络子网的列表。 调用分析使用此文件生成报告。 上传子网映射时，这些服务提供的报表也将包含位置名称，使报表更易于理解和用于修正任何潜在问题。
 
 > [!IMPORTANT]
-> 您上传的报告标签将按照您的协议处理为 *支持数据* Office 365，包括否则被视为"客户数据"*或"**个人数据"的任何信息*。 请不要包含不希望作为支持数据向 Microsoft 提供的数据，因为出于支持目的，Microsoft 工程师将看到此信息。
+> 您上传的报告标签将按照协议处理为支持 *数据Office 365，* 包括否则被视为"客户数据"或"*个人数据"的任何信息*。  请不要包含不希望作为支持数据向 Microsoft 提供的数据，因为出于支持目的，Microsoft 工程师将看到此信息。
 
 您提供的报表标签和位置数据是单个数据结构 – 当前没有可用于对数据进行单独编辑的界面。
 
@@ -42,7 +42,7 @@ ms.locfileid: "58235007"
 
 1. 在管理中心的左侧导航Microsoft Teams，单击 **"位置报告**  >  **标签"。**
 2. 单击 **"Upload数据"。**
-3. 在 **"Upload"** 窗格中，单击"选择文件"，然后浏览到已编辑的文件.csv .tsv 文件。
+3. 在 **"Upload数据**"**窗格中，单击**"选择文件"，然后浏览并上传编辑.csv .tsv 文件。
 4. 单击 **"Upload"。**
 
 可以在此处下载示例 [模板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true)。

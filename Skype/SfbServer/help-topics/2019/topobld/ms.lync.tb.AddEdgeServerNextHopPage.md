@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddEdgeServerNextHopPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8ef7235d-626c-4cc9-b6ec-9dfeab495cc0
 ROBOTS: NOINDEX, NOFOLLOW
 description: 边缘池的下一个跃点是前端池（既可以是 Enterprise 池也可以是 Standard Edition Server），或者如果部署中包括控制器，则下一个跃点是控制器。
-ms.openlocfilehash: aeb679c3ed8b583a44e836dd32de2ca84a0aa30638b927034dfdb0b07ba41611
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f4040a158c7f898d5781d4ac1abc4997696ed10c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54307583"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624214"
 ---
 # <a name="add-edge-server-next-hop"></a>添加边缘服务器下一跃点
 

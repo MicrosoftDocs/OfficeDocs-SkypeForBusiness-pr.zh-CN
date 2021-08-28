@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 75ce32ba-eb82-4339-9c02-5df5f2c2ebd2
 description: 摘要：了解如何管理用户策略，以存档Skype for Business Server。
-ms.openlocfilehash: d04406de44510c1d1bc63921e5fa6c5dab817ad81c8cba7dc391ec0ee8454716
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 47c88ea294a3b8ea96f7904041a95fa6f0330816
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54329586"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616578"
 ---
 # <a name="manage-archiving-policies-in-skype-for-business-server"></a>管理存档策略Skype for Business Server
 
@@ -33,7 +33,7 @@ ms.locfileid: "54329586"
 可以在全局、站点或用户级别设置存档策略。
   
 > [!NOTE]
-> 如果为部署启用了 Microsoft Exchange集成，Exchange 策略将控制是否对位于 Exchange 且其邮箱已置于"In-Place保留"的用户启用存档。 有关详细信息，请参阅 Plan [for archiving in Skype for Business Server](../../plan-your-deployment/archiving/archiving.md)和 Configure integration with Exchange storage for [Skype for Business Server](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md)。 
+> 如果为部署启用了 Microsoft Exchange集成，Exchange 策略将控制是否对位于 Exchange 上且其邮箱已置于"In-Place保留"的用户启用存档。 有关详细信息，请参阅 Plan [for archiving in Skype for Business Server](../../plan-your-deployment/archiving/archiving.md)和 Configure integration with Exchange storage for [Skype for Business Server](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md)。 
   
 ## <a name="manage-archiving-policies-by-using-the-control-panel"></a>使用控制面板管理存档策略
 

@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.ArchivingServersScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0c5f46c7-67bf-4daa-b7a9-4b59fd7792a0
 description: 在拓扑生成器中，可以通过右键单击控制台树中的存档服务器、单击工具栏中的"操作"或单击"操作"窗格中的任务，然后单击以下存档服务器选项来执行与单个存档服务器相关的任务。
-ms.openlocfilehash: add77a823e4ca17ce51828959b1b3b402693463dcf77be58f873d13bbfb1fb36
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f134aec2155fb574828e4c5389e43ab8569ca874
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320414"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603981"
 ---
 # <a name="archiving-servers-scope-node"></a>存档服务器范围节点
  

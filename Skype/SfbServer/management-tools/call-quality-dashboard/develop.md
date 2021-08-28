@@ -9,22 +9,22 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 664917b4-c954-40b6-864e-f72db94c6180
 description: 摘要：了解如何为呼叫质量仪表板开发解决方案。 通话质量仪表板是一种用于Skype for Business Server。
-ms.openlocfilehash: d96f314621ab69eb6ad445d9567d7eb7f313aef2c9dc958ef6f93bed58d7eca9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8ba991d0c68edaed057a1a5a8dae0bfb31a4f839
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54278700"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596546"
 ---
 # <a name="develop-call-quality-dashboard-for-skype-for-business-server"></a>开发呼叫质量仪表板Skype for Business Server
  
 **摘要：** 了解如何开发通话质量仪表板解决方案。 通话质量仪表板是一种用于Skype for Business Server。
   
-本主题提供了适用于呼叫质量仪表板 (CQD) 开发Skype for Business Server。
+本主题提供适用于呼叫质量仪表板 (CQD) 开发Skype for Business Server。
   
 ## <a name="develop-call-quality-dashboard-for-skype-for-business-server"></a>开发呼叫质量仪表板Skype for Business Server
 

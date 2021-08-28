@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.ClientDeviceCfgMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c9b81f20-ce8c-40f1-8bed-50775cc35e58
 description: 设备更新 Web 服务会自动创建记录设备更新活动的日志文件。 作为组织的数据管理策略的一部分，您可能需要设置日志数据缓存大小、日志文件 大小或 日志文件 在清除之前保留的时间长度的阈值。 您可以根据组织的要求更改这些设置。 如果不希望设备更新 Web 服务自动清除日志文件，可以根据需要进行手动清除。 可以在全局范围或针对每个站点更改日志设置。
-ms.openlocfilehash: 0233c48334bf40e36a36a9cf9247a1f01364ef6e05dfb5ee0875b04d746dca5c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2077f0929261cf410d0d5aa4525c563d5d73e975
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54307393"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604031"
 ---
 # <a name="device-log-configuration"></a>设备日志配置
 
@@ -48,7 +48,7 @@ ms.locfileid: "54307393"
 
   - 全球
 
-  - Site
+  - 网站
 
 - **编辑** 你可以更改列表中的设备日志配置选项。 使用此选项，可以执行以下操作：
 

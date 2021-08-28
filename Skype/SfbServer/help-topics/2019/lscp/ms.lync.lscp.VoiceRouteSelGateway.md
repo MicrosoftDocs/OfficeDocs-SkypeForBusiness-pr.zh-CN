@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3b513864-15c0-4afb-b934-bb050d5d2dcd
 ROBOTS: NOINDEX, NOFOLLOW
 description: 使用“选择 Trunk”对话框可以查找使用的现有 Trunk。
-ms.openlocfilehash: 58618f4cf3cfe199265af0dd6db9939c2a508fda359178b1de64d70a39b3775f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8e842a1bd77f9c449bb5a6a2def2bfcf9a94cb8b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345939"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616828"
 ---
 # <a name="select-trunk"></a>选择中继
  

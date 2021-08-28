@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployBootstrapInvoke
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1925db10-223e-4213-84cc-1de933878b28
 description: “执行命令”显示为部署服务器角色而运行的任务的运行摘要。 任务完成后（部署和激活，或者停用和卸载）将显示摘要。 此外，在下拉列表中，可以选择命令运行时创建的任何日志文件。 使用下拉列表选择要查看的日志文件，然后单击“查看日志”。
-ms.openlocfilehash: d14e794c349bcff25efec8f468e8dae9160c26222543ca91eec95893843da889
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 86e795c208e148077c858ebaefe00675bfbbc71d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54285082"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604041"
 ---
 # <a name="setup-or-remove-skype-for-business-server-components-invoke"></a>安装或删除 Skype for Business Server 组件（调用）
  

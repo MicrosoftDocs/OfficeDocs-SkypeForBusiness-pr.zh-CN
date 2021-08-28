@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.NcsGlobalMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 93a17c91-816e-4de0-8065-7dec45203355
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: 5247323c9d194ef3d2a301334976ec5c70d2d52a9f58dbb9803d279c26d51fe8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cb0f9fb5802cff48a110a9eea8c11a9892ef3508
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303974"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616738"
 ---
 # <a name="network-configuration-global-setting"></a>网络配置：全局设置
 
@@ -30,4 +30,4 @@ ms.locfileid: "54303974"
 
 - [启用媒体旁路](/previous-versions/office/lync-server-2013/lync-server-2013-enabling-network-media-bypass)
 
-有关可以使用控制面板执行的不同过程的详细信息，Skype for Business Server Manage [Skype for Business Server 2015](../../manage/manage.md)。
+有关可以使用控制面板执行的不同过程的详细信息，请参阅 Manage [Skype for Business Server Skype for Business Server 2015](../../manage/manage.md)。

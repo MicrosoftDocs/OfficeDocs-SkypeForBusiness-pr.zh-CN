@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.BranchOfficeAppliancesScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8117b88a-0a34-4bf4-b1dd-ded72b5c9c18
 ROBOTS: NOINDEX, NOFOLLOW
 description: “Survivable Branch Appliance”节点列出了此分支站点中的 Survivable Branch Appliance。可以执行以下操作：
-ms.openlocfilehash: 73a40dcac000a348a6b0b7259215406b5e60f4267d2766051f703f8c15b1fb6a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e5aef4fbc138b606973aabe941dba2a54b16ccb6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342347"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624144"
 ---
 # <a name="branch-office-appliances-scope-node"></a>分支机构设备范围节点
  

@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 474fac52-0b11-45dd-a211-fd2f1727238b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要导入证书，必须提供证书文件的路径。在“选择证书文件”文本框中，可以键入完整路径和文件名，也可以单击“浏览”按钮并导航到相应的路径位置和文件名（通常为 .p7b、.pfx 或 .cer 文件）。
-ms.openlocfilehash: 789caefaccd9cd46ca2df015cf6b91666d6f02c4ce138d7db57f783cf34aff54
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7d3e360ee61d1262aaec8d228c5f8833d6abd3e6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324521"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616958"
 ---
 # <a name="import-certificate-intro"></a>导入证书（简介）
  

@@ -10,21 +10,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: dcd16dc1-a66c-4720-a48f-ec8b28337383
 description: tblPrincipalRole 包含分配给节点的显式角色。
-ms.openlocfilehash: 28e639a4894b89e449a70fc527b7c4315be57403e15bb582bcdae3933e3790a7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e899bc7763966ab3d7dd537aa162d8a716f958b5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336382"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603791"
 ---
 # <a name="tblprincipalrole"></a>tblPrincipalRole
  
 tblPrincipalRole 包含分配给节点的显式角色。
   
-**Columns**
+**列**
 
 |**列**|**类型**|**说明**|
 |:-----|:-----|:-----|

@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.BranchOfficesScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 116d317c-8df0-45a0-83d4-eb10cf525d70
 ROBOTS: NOINDEX, NOFOLLOW
 description: “分支站点”节点列出了与此中央站点关联的分支站点。可以执行以下操作：
-ms.openlocfilehash: 43d824c281f1d8f9061d733de0ec17c82a58dbee83354202d7dd1808d6cbfcfe
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c3d241eba7b8994b1ac4867f85cbaf45f7e70448
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54299988"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624154"
 ---
 # <a name="branch-offices-scope-node"></a>分支机构范围节点
  

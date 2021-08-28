@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 142caf34-0f20-47f3-9d32-ce25ab622fad
 description: 对于灾难恢复，Skype for Business Server在一个池出现故障时提供与故障转移的池配对。
-ms.openlocfilehash: a7e658e10718ac45ee6c2122433137ac4a198a459baa0171aec2453963636d32
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 728419a20fe99db004b739e599355c9b64a8844f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276623"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603831"
 ---
 # <a name="front-end-pool-disaster-recovery-in-skype-for-business-server"></a>前端池的灾难恢复Skype for Business Server
  
@@ -56,9 +56,9 @@ ms.locfileid: "54276623"
 
 对于池故障转移和池故障回复，RTO (恢复) 目标为 15-20 分钟。 在管理员确定发生灾难并启动故障转移过程后，需要此时间才能进行故障转移。 此时间不包括管理员评估情况并作出决策所需的时间，也不包括用户在故障转移完成后再次登录所需的时间。
   
-对于池故障转移和池故障回复，RPO (目标) 5 分钟。 这表示测量可能因灾难、因备份服务的复制延迟丢失的数据的时间。 例如，如果池在上午 10：00 下降，RPO 为 5 分钟，则写入池的数据在上午 9：55 之间。 和 10：00 A.M .可能尚未复制到备份池，并且将会丢失。
+对于池故障转移和池故障回复，RPO 恢复点目标 (目标) 5 分钟。 这表示测量可能因灾难、因备份服务的复制延迟丢失的数据的时间。 例如，如果池在上午 10：00 下降，RPO 为 5 分钟，则写入池的数据在上午 9：55 之间。 和 10：00 A.M .可能尚未复制到备份池，并且将会丢失。
   
-本文档中的所有 RTO 和 RPO 数字均假定两个数据中心位于同一在两个网站间具有高速度、低延迟传输的世界区域中。 这些数字针对具有 40，000 个并发活动用户和 200，000 个用户启用 Skype for Business 的预定义用户模型（其中数据复制没有积压工作）的池进行测量。 这些数字可能根据测试和验证性能发生改变。
+本文档中的所有 RTO 和 RPO 数字均假定两个数据中心位于同一在两个网站间具有高速度、低延迟传输的世界区域中。 对于具有 40，000 个并发活动用户和 200，000 个用户启用 Skype for Business 的预定义用户模型（其中数据复制没有积压工作）的池，将测量这些数字。 这些数字可能根据测试和验证性能发生改变。
   
 ## <a name="central-management-store-failover"></a>中央管理存储故障转移
 
@@ -68,11 +68,11 @@ ms.locfileid: "54276623"
   
 ![显示两个前端池，一个使用主动 CMS 存储，另一个使用被动备份 CMS 存储](../../media/aa479398-eb56-4854-8d50-1eff39c58a56.jpg)
   
-在涉及承载中央管理存储的池故障转移期间，必须先对中央管理存储进行故障转移，然后才能对前端池进行故障转移。
+在涉及承载中央管理存储的池的池故障转移期间，必须先对中央管理存储进行故障转移，然后才能对前端池进行故障转移。
   
 修复灾难后，不需要对中央管理存储进行故障回复。 中央管理存储可以保留在您进行其故障的池中。
   
-中央管理存储故障转移的工程目标对于恢复时间目标 (RTO) 和 5 分钟（对于恢复点目标 (RPO) ）。
+中央管理存储故障转移的恢复时间目标 (RTO) 的工程目标为 5 分钟，恢复点目标 (RPO) 。
   
 ## <a name="front-end-pool-pairing-data-security"></a>前端池配对数据安全性
 
@@ -80,21 +80,21 @@ ms.locfileid: "54276623"
   
 从源池中，此数据从本地存储导出、压缩，然后传输到目标池，在此池中解压缩并导入到本地存储。 备份服务假定两个数据中心之间的通讯链路位于公司网络内部，受 Internet 保护。 它不会加密两个数据中心之间传输的数据，也不会在安全协议（如 HTTPS）中本地封装数据。 因此，可能会受到企业网络内内部人员的中间人攻击。
   
-跨多个数据中心Skype for Business Server并使用灾难恢复功能的任何企业必须确保数据中心之间的流量受其公司 Intranet 保护。 关注内部攻击保护的企业必须保护数据中心之间的通信链接。 这是一个标准要求，还有助于保护数据中心之间传输的许多其他类型的公司敏感数据。
+跨多个数据中心Skype for Business Server并使用灾难恢复功能的企业必须确保数据中心之间的流量受其公司 Intranet 保护。 关注内部攻击保护的企业必须保护数据中心之间的通信链接。 这是一个标准要求，还有助于保护数据中心之间传输的许多其他类型的公司敏感数据。
   
 当公司网络内存在中间人攻击的风险时，比较而言，它相当于包含将流量公开到 Internet。 具体而言，备份服务 (（如 SIP URI) ）公开的用户数据通常可通过其他方式（如全局通讯簿或其他目录软件）提供给公司内的所有员工。 因此，当使用备份服务在两个成对池之间复制数据时，重点应该是保护两个数据中心之间的 WAN。
   
 ### <a name="mitigating-security-risks"></a>缓解安全风险
 
-您有许多方法可以增强对备份服务流量的安全保护。 这一范围从限制对数据中心的访问到保护两个数据中心之间的 WAN 传输。 在大多数情况下，部署 Skype for Business Server可能已有所需的安全基础结构。 对于寻求指南的企业，Microsoft 提供了一个解决方案，作为如何构建安全的 IT 基础结构的示例。 有关详细信息，请参阅 [https://go.microsoft.com/fwlink/p/?LinkId=268544](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc725770(v=ws.10)) 。 
+您有许多方法可以增强对备份服务流量的安全保护。 这一范围从限制对数据中心的访问到保护两个数据中心之间的 WAN 传输。 在大多数情况下，部署企业Skype for Business Server可能已有所需的安全基础结构。 对于寻求指南的企业，Microsoft 提供了一个解决方案，作为如何构建安全的 IT 基础结构的示例。 有关详细信息，请参阅 [https://go.microsoft.com/fwlink/p/?LinkId=268544](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc725770(v=ws.10)) 。 
   
 我们并不暗示这是唯一的解决方案，也不表示它是解决方案的首选Skype for Business Server。 建议企业客户根据 IT 安全基础结构和要求选择适合其特定需求的解决方案。 示例 Microsoft 解决方案将 IPSec 和组策略用于服务器和域隔离。
   
 另一个可能的解决方案是使用 IPSec 来帮助保护备份服务本身发送的数据。 如果选择此方法，应为以下服务器配置 SMB 协议的 IPSec 规则，其中池 A 和池 B 是两个配对的前端池。
   
-- SMB 服务 (TCP/445) 池 A 中的每台前端服务器到池 B 使用的文件存储。
+- SMB 服务 (TCP/445) 池 A 中的每台前端服务器更新到池 B 使用的文件存储。
     
-- SMB 服务 (TCP/445) 池 B 中的每台前端服务器更新到池 A 使用的文件存储。
+- SMB 服务 (TCP/445) 池 B 中的每台前端服务器到池 A 使用的文件存储。
     
 > [!CAUTION]
 >  IPsec 不用作应用程序级别安全性（如 SSL/TLS）的替换。 使用 IPsec 的一个优点是，它可以为现有应用程序提供网络流量安全，而无需更改它们。 只想保护两个数据中心之间的传输的企业应咨询其各自的网络硬件供应商，以了解使用供应商设备设置安全 WAN 连接的方法。

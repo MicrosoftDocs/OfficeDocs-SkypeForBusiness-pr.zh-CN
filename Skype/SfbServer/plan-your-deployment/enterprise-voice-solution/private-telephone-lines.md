@@ -9,23 +9,23 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 9cc4f9e1-7b7a-4699-bd05-f16669ef2d21
-description: 规划专用 (专用) 电话线路Skype for Business Server 企业语音。
-ms.openlocfilehash: e76f43ebdc4ee38a266651ddc81630c51a9ef976a1f18e6117cec9a1925fe5ce
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 规划专用 (电话) 线路Skype for Business Server 企业语音。
+ms.openlocfilehash: 3f682d6d150bd52093d8c7bbb050b53b95ac3125
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54302356"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603841"
 ---
 # <a name="plan-for-private-telephone-lines-with-skype-for-business"></a>规划专用电话线路与Skype for Business
  
-规划专用 (专用) 电话线路Skype for Business Server 企业语音。
+规划专用 (电话) 线路Skype for Business Server 企业语音。
   
 Skype for Business Server用户的主要电话线路之外，您还可以为用户提供第二条专用电话线路。 专用电话线路通常分配给需要一个未列出的电话号码以便他人直接与其取得联系的高管和其他人员。
   
@@ -86,7 +86,7 @@ Skype for Business Server用户的主要电话线路之外，您还可以为用�
   
 ### <a name="assigning-telephone-numbers"></a>分配电话号码
 
- 需要专用电话线路的新用户的帐户创建方式与没有专用电话线路的帐户相同，Skype for Business Server控制面板Skype for Business Server命令行管理程序。
+ 需要专用电话线路的新用户的帐户创建方式与没有专用电话线路的帐户相同，Skype for Business Server控制面板或 Skype for Business Server命令行管理程序。
   
 使用 Skype for Business Server 命令行管理程序 中的 **Set-CsUser** cmdlet 将电话号码分配给用户的专用电话线路，例如 **Set-CsUser -Identity "sip:joe@contoso.com" -PrivateLine "Tel：+14255551212"**。
   

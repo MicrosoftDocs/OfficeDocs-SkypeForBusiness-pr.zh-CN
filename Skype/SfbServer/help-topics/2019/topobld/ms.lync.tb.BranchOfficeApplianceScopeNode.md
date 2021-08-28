@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.BranchOfficeApplianceScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8632ddaa-9572-4129-9db4-de0f13438d43
 ROBOTS: NOINDEX, NOFOLLOW
 description: 此节点显示 FQDN (的完全限定域名) 关联的池和服务器，以及有关此 Survivable Branch Appliance 的恢复能力信息。 可以执行以下操作：
-ms.openlocfilehash: 1783194430b8bbbf44f79d97f118dc89ccb32b498bb7471a4aebefe1f16d8ce5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 43803d250d7e5447ed6c34e2bd2d3ade32b912e8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323344"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624174"
 ---
 # <a name="branch-office-appliance-scope-node"></a>分支机构设备范围节点
  

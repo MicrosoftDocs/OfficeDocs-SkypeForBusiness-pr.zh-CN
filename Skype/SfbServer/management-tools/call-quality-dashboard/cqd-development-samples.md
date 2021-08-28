@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 8ca9bf7a-2d6f-48d5-a821-531009726525
 description: 摘要：查看通话质量仪表板的教程和开发示例。 通话质量仪表板是一种用于Skype for Business Server。
-ms.openlocfilehash: b0b4811e38d50f871e023757220a2a3f0108be349c55eaf78e39ab243954c5dd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 83fdfdee2b7b55cb9ba0ef0651f8e1994bb182df
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54331284"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603871"
 ---
 # <a name="cqd-development-samples"></a>CQD 开发示例
 
@@ -32,11 +32,11 @@ ms.locfileid: "54331284"
 
 ### <a name="introduction-to-cqd"></a>CQD 简介
 
-CQD 提供对内部部署和本地部署聚合呼叫质量Skype for Business Server访问。 CQD 由三个组件组成：QoE 存档数据库、多维数据集和门户。 门户是主要表示层，可以进一步划分为以下三个组件：
+通过 CQD，可以快速、轻松地访问本地部署和部署的Skype for Business Server信息。 CQD 由三个组件组成：QoE 存档数据库、多维数据集和门户。 门户是主要表示层，可以进一步划分为以下三个组件：
 
-1. 数据服务，通过呼叫质量仪表板的数据 API 访问数据服务[ (CQD) CQD](data-api.md)Skype for Business Server。
+1. 数据服务，可通过呼叫质量仪表板的数据 API 访问数据服务[ (CQD) CQD](data-api.md)Skype for Business Server。
 
-2. 存储库服务，通过呼叫质量仪表板的存储库 API ([CQD](repository-api.md)) 访问，Skype for Business Server。
+2. 存储库服务，通过 (中的呼叫质量仪表板 ([CQD) 存储库 API，](repository-api.md)经过身份验证Skype for Business Server。
 
 3. Web 门户，它是 CQD 用户查看并与之交互的基于 HTML5 的界面。 这可由经过身份验证的用户访问。
 
@@ -48,15 +48,15 @@ CQD 是按照CQM (方法) 创建的，因此默认报告集旨在与 CQM 引入�
 
 ### <a name="how-the-dashboard-consumes-the-data-service"></a>仪表板如何使用数据服务
 
-当导航到 CQD 主页 (例如，将检索经过身份验证和授权的用户的报告集和相应 http://localhost/cqd) 报告。 完整 URL 将基于报告集 ID 构建，而年月 (报告集 ID 是 URL 中"/#/"节后的整数，默认情况下，当前年份追加到报告集 ID 的末尾（斜杠) ）。 报告定义以 JSON 格式存储，从存储库服务检索时，将用作数据服务的输入。 数据服务根据输入 (MDX) 多维表达式，然后针对多维数据集运行这些 MDX 查询以检索每个报告的数据。 
+当导航到 CQD 主页 (例如，从存储库服务检索经过身份验证和授权的用户的报告集和相应 http://localhost/cqd) 报告。 完整 URL 将基于报告集 ID 构建，而年月 (报告集 ID 是 URL 中"/#/"节后的整数，默认情况下，当前年份追加到报告集 ID 的末尾（斜杠) ）。 报告定义以 JSON 格式存储，从存储库服务检索时，将用作数据服务的输入。 数据服务根据输入 (MDX) 多维表达式，然后针对多维数据集运行这些 MDX 查询以检索每个报告的数据。 
 
 ### <a name="building-customized-reports"></a>生成自定义报告
 
-CQD 在自定义报告方面已经具有很大的灵活性，但在某些情况下，用户可能希望跨 CQD 中创建的多个报告聚合数据。 例如，可能需要创建一个报告，该报告显示表中所有可能组合的有线呼叫的较差呼叫百分比， (结果如下所示，如下所示) ：
+CQD 在自定义报告方面已经具有很大的灵活性，但在某些情况下，用户可能希望跨 CQD 中创建的多个报告聚合数据。 例如，可能需要创建一个报告，该报告显示表中所有可能组合的有线呼叫的较差呼叫百分比， (结果类似下图) ：
 
 ![CQD 表](../../media/ef19d535-5da6-44a9-91f6-1ed3f30b96f1.png)
 
-使用 CQD 提供的门户，用户必须导航到多个报告，以提取和记录每个报告质量欠佳的呼叫百分比，如果有许多需要收集的数据点，这将非常费时。 数据 API 为用户提供了一种编程方式来完成此操作，方法为从数据服务中检索数据 (例如通过 AJAX) 。 
+使用 CQD 提供的门户，用户必须导航到多个报告，以提取和记录每个报告质量欠佳的呼叫百分比，如果有许多需要收集的数据点，这将非常费时。 数据 API 为用户提供了一种编程方式来完成此操作，方法为从数据服务应用程序检索数据 (例如，通过 AJAX) 。 
 
  **示例 1：简单报告示例**
 
@@ -100,7 +100,7 @@ $($.fn.freeFormReport = function (queries, urlApi, presentation) {
 
 本示例可以进一步解构为三个步骤：
 
-1. 构造查询 (在"query"变量中定义) 。 查询定义为 JSON 对象，其中包含以下数据：
+1. 构造查询 (示例中，这是在变量"query") 。 查询定义为 JSON 对象，其中包含以下数据：
 
    a. 零个或多个维度。 每个维度由 DataModelName 指示。
 
@@ -108,7 +108,7 @@ $($.fn.freeFormReport = function (queries, urlApi, presentation) {
 
    - DataModelName (将设置筛选器的维度) 。
 
-   - Value (将用操作数值进行比较) 。
+   - Value (将按操作数值比较的值) 。
 
    - 操作 (比较类型，0 表示"等于") 。
 
@@ -120,9 +120,9 @@ $($.fn.freeFormReport = function (queries, urlApi, presentation) {
 
    b. data (这是在"query"变量变量中定义的 JSON 对象的字符串) 。 数据服务将返回查询结果，作为成功调用回叫函数的参数。
 
-   c. type (QoEDataService，RunQuery 仅接受"POST") 。
+   c. type (For QoEDataService， RunQuery only accepts 'POST' requests) .
 
-   d. async (一个标志，指示 AJAX 调用是同步调用还是异步) 。
+   d. async (一个标志，指示 AJAX 调用是同步调用还是异步调用) 。
 
    e. contentType (应为"application/json") 。
 
@@ -312,7 +312,7 @@ $($.fn.freeFormReport = function (queries, urlApi, presentation) {
 </html>
 ```
 
-上述内容将导致网页（如图 1 所示）在 (访问时没有报告) 。 从 CQD 门户获取报告集 ID (在"/#/"登录 CQD 门户 URL 之后，例如 (ID。 第一个图的报告集 ID 为 3024) ，并在此网页的输入部分放入此报告集 ID。 按"load"按钮，查看报告 (、维度、筛选器) 的完整定义。
+上述内容将导致网页（如图 1 所示） (首次访问网站时没有) 。 从 CQD 门户获取报告集 ID (它在"/#/"登录 CQD 门户 URL 之后 (例如 第一个图的报告集 ID 为 3024) ，并在此网页的输入部分放入此报告集 ID。 按"load"按钮，查看有关 (、维度、筛选器列表) 报告集的完整定义。
 
 总之，为了快速获取报告/报告集的完整定义。 步骤如下：
 
@@ -320,11 +320,11 @@ $($.fn.freeFormReport = function (queries, urlApi, presentation) {
 
 2. 从 URL 获取报告集 ID， ("/#/"登录 URL 后的整数) 。
 
-3. 启动在示例 2 中创建的此报告定义网页，并输入报告集 ID 并检索要用于数据 API (报告集) 。
+3. 启动在示例 2 中创建的此报告定义网页，并输入报告集 ID 并检索要用于数据 API 调用 (报告集) 。
 
    **示例 3：记分卡示例**
 
-更复杂的任务的时间。 如果我们希望创建如图所示的网页，该做什么？ 我们需要更新示例 1， (示例 2 中生成的网页的帮助来检索任何报告的完整定义) 以便我们可以处理大量数据。
+更复杂的任务的时间。 如果我们希望创建如图所示的网页，该做什么？ 我们需要更新示例 1， (示例 2 中生成的网页的帮助来检索任何报告报告的完整定义) 以便我们可以处理大量数据。
 
 在这种情况下，我们需要更新度量和维度列表。 若要了解如何添加/编辑度量和/或维度，请按照示例 2 中的说明操作，并检索完整的报告定义，包括完整的度量和维度列表。 将完整的报告定义插入示例代码中。 
 
@@ -351,7 +351,7 @@ $($.fn.freeFormReport = function (queries, urlApi, presentation) {
 
    此处的维度  `[Scenarios].[ScenarioPair]` 设置为等于 `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]` 。 `[Scenario.][ScenarioPair]`是创建以简化报告创建的特殊维度。 它的六个值对应于 `[FirstIsServer], [SecondIsServer], [FirstInside], [SecondIsServer], [FirstConnectionType], [SecondConnectionType]` 。 因此，我们只需要使用 1 个筛选器，而不是使用 6 个筛选器的组合来定义方案。 在我们的示例中，值转换为以下方案：第一个为服务器，第二个为非服务器，第一个为内部，第一个连接类型为有线，第二个连接类型为有线，这是  `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]` "Server-Client-Inside Wired"的确切定义。
 
-3. 每个方案创建一个筛选器集。 在图中，记分卡的每一行表示不同的方案，这是一个不同的筛选器 (而维度和度量保持不变) 。 
+3. 每个方案创建一个筛选器集。 在图中，记分卡的每一行表示不同的方案，即不同的筛选器 (而维度和度量保持不变) 。 
 
 4. 分析来自 AJAX 调用的结果，然后将它们放在表的正确位置。 由于这主要是 HTML 和 JavaScript 操作，因此我们不会在此处详细介绍。 相反，代码在附录 A 中提供。
 

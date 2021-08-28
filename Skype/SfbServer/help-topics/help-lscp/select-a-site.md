@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.SelectSite
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 09472310-a40f-4360-b6f1-1a9ac8888965
 description: 使用"选择网站"对话框查找环境中可用的网站。 若要使用现有站点，请单击列表中的某个站点，然后单击“确定”。
-ms.openlocfilehash: d0606bbb3da21c6b0e7631a290a6b0a22da8439f1a12bb34f63769e2c7d207bc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 376cb057e4351581440562c3d24a88d872ab4d35
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345769"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636236"
 ---
 # <a name="select-a-site"></a>选择站点
 
@@ -29,7 +29,7 @@ ms.locfileid: "54345769"
 > [!NOTE]
 > 要检索所有可用的站点，请不要在搜索框中键入任何内容，然后单击搜索图标。
 
-有关可以使用控制面板执行的不同过程的详细信息，Skype for Business Server Manage [Skype for Business Server 2015](../../manage/manage.md)。
+有关可以使用控制面板执行的不同过程的详细信息，请参阅 Manage [Skype for Business Server Skype for Business Server 2015](../../manage/manage.md)。
 
 ## <a name="tasks-you-can-perform"></a>可执行的任务
 
@@ -39,7 +39,7 @@ ms.locfileid: "54345769"
 
 - [为持久聊天创建站点策略](/previous-versions/office/lync-server-2013/lync-server-2013-create-a-site-policy-for-persistent-chat)
 
-有关可以使用控制面板执行的不同过程的详细信息，Skype for Business Server Manage [Skype for Business Server 2015](../../manage/manage.md)。
+有关可以使用控制面板执行的不同过程的详细信息，请参阅 Manage [Skype for Business Server Skype for Business Server 2015](../../manage/manage.md)。
 
 ## <a name="to-configure-persistent-chat-options-globally"></a>全局配置持久聊天选项
 

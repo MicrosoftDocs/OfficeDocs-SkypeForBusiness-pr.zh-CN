@@ -9,7 +9,7 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: 了解如何在组织中创建和管理组织范围内的Teams，为小型到中型组织中的每个人提供自动协作方式。
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8a45da6af484209fcae5569d52ad03476b9ead4ff6da266d6ca5925c0be815b4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a6faac9e0c04f71bddb69b0a8bd7748072699edb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337980"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589746"
 ---
 # <a name="create-an-organization-wide-team-in-microsoft-teams"></a>在 Microsoft Teams
 
@@ -46,17 +46,17 @@ ms.locfileid: "54337980"
 - 会议室或设备帐户
 - 共享邮箱支持的帐户
 
-当组织的目录更新为包含新的活动用户或禁用不再在公司工作的用户帐户时，将自动同步更改，并且会向团队添加或删除用户。 团队成员不能离开组织范围内的团队。 作为团队所有者，你可以根据需要手动添加或删除用户。
+随着组织的目录更新为包含新的活动用户或禁用不再在公司工作的用户帐户，更改将自动同步，并且会添加或删除团队中的用户。 团队成员不能离开组织范围内的团队。 作为团队所有者，你可以根据需要手动添加或删除用户。
 
 > [!NOTE]
-> - 如果在创建团队时看不到"组织范围"选项，并且你是全局管理员，则你可能已达到组织范围的五个团队限制，或者你的组织可能超过 10，000 个成员的当前大小限制。 我们想要在未来增加此限制。 对于 Teams 教育版，组织范围的团队不可用。
+> - 如果在创建团队时看不到"组织范围"选项，并且你是全局管理员，则你可能已达到组织范围的五个团队限制，或者你的组织可能超过当前 10，000 个成员的大小限制。 我们想要在未来增加此限制。 对于 Teams 教育版，组织范围的团队不可用。
 > - 非会议室列表、设备和资源帐户的一部分可能会添加或同步到组织范围的团队。 团队所有者可轻松从团队中删除这些帐户。
 > - 系统添加或删除成员的所有操作均发布在常规频道中。 该频道还将在 Teams 客户端中标记为具有新活动。
-> - 如果你的组织是新用户且用户数不超过 5，000 Teams，我们会自动为组织创建组织范围的团队。 团队名称将反映租户名称，并且具有常规频道。 全局管理员可像任何其他团队一样编辑此团队。
+> - 如果您的组织是新用户，并且用户数不超过 5，000 Teams，我们将自动为您的组织创建组织范围的团队。 团队名称将反映租户名称，并且具有常规频道。 全局管理员可像任何其他团队一样编辑此团队。
 
 ## <a name="best-practices"></a>最佳做法
 
-若要在组织范围内最了解团队，我们建议团队所有者执行以下任务：
+若要在组织范围内最了解团队，建议团队所有者执行以下任务：
 
 ### <a name="allow-only-team-owners-to-post-to-the-general-channel"></a>仅允许团队所有者发布到常规频道
 
@@ -78,7 +78,7 @@ ms.locfileid: "54337980"
 
 ### <a name="set-up-channel-moderation"></a>设置频道审阅
 
-考虑设置频道审阅并向某些团队成员提供审阅人功能。  (设置审查时，将自动为团队所有者提供审阅者功能。) 审查器可以：
+考虑设置频道审阅并向某些团队成员提供审阅人功能。  (设置审核时，将自动为团队所有者提供审阅者功能。) 审查器可以：
 
 - 控制谁可以在频道中启动新帖子
 - 添加和删除审阅人
@@ -89,13 +89,13 @@ ms.locfileid: "54337980"
 
 ### <a name="remove-accounts-that-might-not-belong"></a>删除可能不属于成员的帐户
 
-即使成员无法离开组织范围的团队，作为团队所有者，您也可以通过删除不属于的帐户来管理团队名单。 **请确保使用 Teams 从组织范围的团队中删除用户**。 如果使用另一种方法删除用户（例如 Microsoft 365 管理中心 或 Outlook 中的组，用户可能会重新添加到组织范围的团队。
+即使成员无法离开组织范围的团队，作为团队所有者，您也可以通过删除不属于的帐户来管理团队名单。 **请确保使用 Teams 从组织范围的团队中删除用户**。 如果使用另一种方法删除用户（例如 Microsoft 365 管理中心 或 Outlook 中的组，则用户可能会重新添加到组织范围的团队。
 
 ## <a name="faq"></a>常见问题
 
 ### <a name="is-there-a-way-to-create-an-organization-wide-team-other-than-using-the-teams-client"></a>除了使用客户端外，是否还有一种方法可以创建组织范围的Teams？
 
-全局管理员只能使用全局客户端创建组织范围的Teams团队。 如果贵组织将创建团队限制为使用 PowerShell，则建议的解决方法是将全局管理员添加到可以创建团队的用户安全组中。
+全局管理员只能使用客户端创建组织范围的Teams团队。 如果贵组织将创建团队限制为使用 PowerShell，则建议的解决方法是将全局管理员添加到可以创建团队的用户安全组中。
 
 有关详细信息，请参阅 [管理可以创建组的人](/microsoft-365/admin/create-groups/manage-creation-of-groups)。
 

@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddEdgeServerStartPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f7f90070-fcdc-4ec5-9551-cc7da2ed271c
 description: 可以在部署初始拓扑时或在部署后添加对外部用户访问的支持。有关向现有拓扑中添加边缘服务器的详细信息，请参阅边缘服务器部署文档中的Define Your Edge Topology。
-ms.openlocfilehash: bd1a76778b3c54925ca67ed2cdee076fbb97c721821b7cb97fdff681182d8619
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 961acf2efb30312e19af6d453ee678f3a04bebd9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298342"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636106"
 ---
 # <a name="add-edge-server-support"></a>添加边缘服务器支持
 
