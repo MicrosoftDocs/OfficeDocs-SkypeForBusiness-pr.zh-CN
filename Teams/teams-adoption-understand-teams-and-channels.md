@@ -8,9 +8,9 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
-description: 详细了解如何构建团队和频道Microsoft Teams以及如何使用 Teams 来推动跨组织协作。
+description: 详细了解如何构建团队和频道Microsoft Teams以及如何使用Teams来推动跨组织协作。
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,18 +21,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 289f684054d3acd8a3801a816286c365ad3a3cced3319ed54845824cb47a5934
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e999bb144a16ffb8963a7a03458fefb98311423b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345301"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627274"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>了解 Microsoft Teams 中的团队和频道
 
 团队和频道的概念是健康、高效地实施团队Microsoft Teams。 
 
-- 团队是一组人员、内容和工具，共同为公司带来业务成果。 Teams 是基于 Microsoft 365 组进行构建的，并且对 Microsoft 365 组成员身份的更改会同步到团队。
+- 团队是人员、内容和工具的集合，可协同工作，为公司带来业务成果。 Teams 是基于 Microsoft 365 组进行构建的，并且对 Microsoft 365 组成员身份的更改会同步到团队。
 
 - 频道是团队中完成实际工作的协作空间。 
 

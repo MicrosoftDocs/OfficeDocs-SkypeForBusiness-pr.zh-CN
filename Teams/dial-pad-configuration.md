@@ -13,16 +13,16 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: 了解如何在客户端中配置拨号盘Teams，以便用户可以使用 PSTN (电话) 网络。
-ms.openlocfilehash: 848e52859be3b2339e1e1968631c6d55fc7a8df79dc3a691fd47e9613f7f583d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6f67aeda059505ec5c1e78d117407f0e9703f732
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344311"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627614"
 ---
 # <a name="dial-pad-configuration"></a>拨号盘配置
 
@@ -122,7 +122,7 @@ EnterpriseVoiceEnabled
  
 ## <a name="user-is-homed-online-and-not-in-skype-for-business-on-premises"></a>用户是联机的，而不是Skype for Business本地
 
-为了确保用户联机托管，而不是在本地 Skype for Business，RegistrarPool 不得为 null，HostingProvider 必须包含以"sipfed.online"开头的值。  若要检查值，请使用以下命令：
+为了确保用户联机托管，而不是在本地Skype for Business，RegistrarPool 不得为 null，HostingProvider 必须包含以"sipfed.online"开头的值。  若要检查值，请使用以下命令：
 
 ```
 Get-CsOnlineUser -Identity $user|Select RegistrarPool, HostingProvider

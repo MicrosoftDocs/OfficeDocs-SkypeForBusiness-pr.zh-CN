@@ -15,19 +15,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: 使用此表查找有关在美国获取和管理电话号码的信息，包括 (波多黎各) Microsoft Teams。
-ms.openlocfilehash: 367c61efc5a399945b628b1c4d13cb15b609e2a8
-ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
+ms.openlocfilehash: a7f1e12696f49ac09c473809d246cbdc8de8986c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58399091"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627544"
 ---
 # <a name="phone-number-management-for-the-united-states"></a>电话美国的电话号码管理
 
@@ -37,10 +37,10 @@ ms.locfileid: "58399091"
   
 | 你要做什么？ | 执行下列步骤并下载正确的表单 |
 |:-----|:-----|
-|获取未在管理中心中列出的新用户Microsoft Teams电话号码。  <br/> |下载此表单。<br/>  [美国 5.0 (5.0)  (美国) ](https://download.microsoft.com/download/5/a/1/5a1c41d1-6ef1-4716-8bdd-985cf894bb86/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf) <br/><br/> 填写它并 [联系 PTSN 服务台，了解说明](contact-pstn-service-desk.md)。 |
-|获取转接给我们的电话号码。  <br/> | 下载下列表单之一： <br/> [美国 ( ()  ( () v.3.3)  ()  (服务号码的授权书) ](https://download.microsoft.com/download/7/3/8/73843692-632f-4078-874d-021f9680e12b/letter-of-authorization-(loa)-for-the-u.s.-(user-and-service-numbers)-(v.3.3)-(en-us).pdf)<br/>[美国免费 (3.3)  ()  (3.3)  (授权书) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.s.-(toll-free-numbers)-(v.3.3)-(en-us).pdf?raw=true)<br/><br/>**注意** 如果尝试获取超过 999 个订阅者或用户电话号码，则需要填写授权书 (LOA) 并将其发送给我们。 有关详细信息[，请参阅将Teams](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md)转接到号码。          <br/>  <br/>   填写它并 [联系 PTSN 服务台，了解说明](contact-pstn-service-desk.md)。  <br/> |
-|将用户号码更改为服务号码，将服务号码更改为用户号码  <br/> |登录到"Teams管理中心"，转到"电话号码"页，然后选择"获取 **电话号码支持"。**  <br/> |
-|将号码从一个Microsoft 365或Office 365转移到另一个。  <br/> |有关要转移的用户 (订阅者) 电话号码列表以及要转移号码的源组织的 PIN，请联系[PTSN](contact-pstn-service-desk.md)服务台。 若要设置 PIN，请参阅 [此处](../phone-number-calling-plans/port-order-overview.md#can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier)。  <br/> |
+|获取未在管理中心中列出的新用户Microsoft Teams电话号码。  <br/> |下载此表单。<br/>  [美国 5.0 (5.0)  (2010 的新电话号码) ](https://download.microsoft.com/download/5/a/1/5a1c41d1-6ef1-4716-8bdd-985cf894bb86/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf) <br/><br/> 填写它并 [联系 PTSN 服务台，了解说明](contact-pstn-service-desk.md)。 |
+|获取转接给我们的电话号码。  <br/> | 下载下列表单之一： <br/> [美国 ( (v.3.3) )  (3.3)  () ](https://download.microsoft.com/download/7/3/8/73843692-632f-4078-874d-021f9680e12b/letter-of-authorization-(loa)-for-the-u.s.-(user-and-service-numbers)-(v.3.3)-(en-us).pdf)<br/>[美国免费 (3.3)  ()  (3.3)  (授权书) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.s.-(toll-free-numbers)-(v.3.3)-(en-us).pdf?raw=true)<br/><br/>**注意** 如果尝试获取超过 999 个订阅者或用户电话号码，则需要填写授权书 (LOA) 并将其发送给我们。 有关详细信息[，请参阅将Teams](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md)转接到号码。          <br/>  <br/>   填写它并 [联系 PTSN 服务台，了解说明](contact-pstn-service-desk.md)。  <br/> |
+|将用户号码更改为服务号码，将服务号码更改为用户号码  <br/> |登录到 Teams管理中心，转到"电话号码"页，然后选择"获取 **电话号码支持"。**  <br/> |
+|将号码从一个Microsoft 365或Office 365转移到另一个。  <br/> |有关要转移的用户 (订阅者) 电话号码列表以及要转移号码的源组织的 PIN 的说明，请联系[PTSN](contact-pstn-service-desk.md)服务台。 若要设置 PIN，请参阅 [此处](../phone-number-calling-plans/port-order-overview.md#can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier)。  <br/> |
 |更新目录服务以呼叫队列或自动助理号码|若要添加或更改呼叫队列或自动助理号码，请联系 [PTSN 服务台，获得说明](contact-pstn-service-desk.md)。 |
 
 ## <a name="related-topics"></a>相关主题

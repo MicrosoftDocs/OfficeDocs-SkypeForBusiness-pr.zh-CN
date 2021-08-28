@@ -10,21 +10,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7f05529c-794d-41ed-bca4-2e85b87b2dec
-description: 每条记录表示一个涉及音频或音频和视频的会话。 它包含有关会话的总体信息。 会话定义为两个终结点之间的 SIP (对话) 或视频会话初始协议。
-ms.openlocfilehash: 749f151def046abdb5169b39ccbd81ea5f07f5d4ee3d1c971ac112a2d4b90cce
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 每条记录表示一个涉及音频或音频和视频的会话。 它包含有关会话的总体信息。 会话定义为音频或视频会话初始协议 (两) SIP) 对话。
+ms.openlocfilehash: bc88a924d16e8e2193b0cce5c487004ab66f47a7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340028"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611841"
 ---
 # <a name="session-table"></a>会话表
  
-每条记录表示一个涉及音频或音频和视频的会话。 它包含有关会话的总体信息。 会话定义为两个终结点之间的 SIP (对话) 或视频会话初始协议。
+每条记录表示一个涉及音频或音频和视频的会话。 它包含有关会话的总体信息。 会话定义为音频或视频会话初始协议 (两) SIP) 对话。
   
-|**列**|**数据类型**|**键/索引**|**详细信息**|
+|**列**|**数据类型**|**键/索引**|**Details**|
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |datetime  <br/> |主  <br/> |从 Dialog 表 [引用](dialog.md)。  <br/> |
 |**SessionSeq** <br/> |int  <br/> |主  <br/> |从 Dialog 表 [引用](dialog.md)。  <br/> |
@@ -37,12 +37,12 @@ ms.locfileid: "54340028"
 |**EndTime** <br/> |datetime  <br/> | <br/> |呼叫结束时间。  <br/> |
 |**CallerPool** <br/> |int  <br/> |Foreign  <br/> |呼叫者池。 从 Pool 表 [引用](pool.md)。  <br/> |
 |**CalleePool** <br/> |int  <br/> |Foreign  <br/> |呼叫接收器的池。 从 Pool 表 [引用](pool.md)。  <br/> |
-|**CalleePAI** <br/> |int  <br/> |Foreign  <br/> |接收终结点的 SIP p 断言标识 (PAI) 中的 SIP URI。 从 User 表 [引用](user-0.md)。  <br/> |
+|**CalleePAI** <br/> |int  <br/> |Foreign  <br/> |接收终结点的 SIP p 断言标识 (PAI) SIP URI。 从 User 表 [引用](user-0.md)。  <br/> |
 |**CallerURI** <br/> |int  <br/> |Foreign  <br/> |呼叫者的 URI。 从 User 表 [引用](user-0.md)。  <br/> |
 |**CallerEndpoint** <br/> |int  <br/> |Foreign  <br/> |呼叫者的终结点。 从 Endpoint 表 [引用](endpoint.md)。  <br/> |
 |**CallerUserAgent** <br/> |bit  <br/> |Foreign  <br/> |呼叫者的用户代理。 从 [UserAgent 表引用](useragent.md)。  <br/> |
 |**CallPriority** <br/> |smallint  <br/> ||此调用的优先级。  <br/> |
-|**ClassifiedPoorCall** <br/> |bit  <br/> ||此列已被弃用，未在 Skype for Business Server。 相反，此信息基于每媒体行进行报告。 有关详细信息， [请参阅 MediaLine](medialine-0.md) 表。 <br/> |
+|**ClassifiedPoorCall** <br/> |bit  <br/> ||此列已被弃用，未在Skype for Business Server。 相反，此信息基于每媒体行进行报告。 有关详细信息， [请参阅 MediaLine](medialine-0.md) 表。 <br/> |
 |**CallerPAI** <br/> |int  <br/> |Foreign  <br/> |拨打呼叫的用户的 P-Asserted-Identity。 P-Asserted-Identity (PAI) 用于传达拨打呼叫的用户的真实身份。  <br/> |
 |**CalleeEndpoint** <br/> |int  <br/> |Foreign  <br/> |接收呼叫的终结点。  <br/> |
 |**CalleeUserAgent** <br/> |int  <br/> |Foreign  <br/> |接收呼叫的用户使用的用户代理。 用户代理表示客户端终结点设备。  <br/> |

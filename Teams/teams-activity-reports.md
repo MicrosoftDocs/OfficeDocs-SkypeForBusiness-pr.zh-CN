@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: chenle
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -18,18 +18,18 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5b6e149b2f62d62053cccfd3252c2b2686ced1d3db01772ef425425d1c377846
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c72162d167d77dd9c5852fcec4077eed615f6c37
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345311"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612991"
 ---
 # <a name="use-activity-reports-for-microsoft-teams"></a>使用 Microsoft Teams 用户活动报告 
 
 可以使用活动报告中的活动Microsoft 365 管理中心查看组织中用户如何使用Microsoft Teams。 例如，如果一些用户尚未Microsoft Teams，他们可能不知道如何入门或了解如何使用 Teams提高工作效率和协作。 组织可以使用活动报告来决定在何处优先安排培训和沟通工作。
 
-## <a name="how-to-view-the-teams-reports-in-the-reports-dashboard"></a>如何在"报表Teams查看报表
+## <a name="how-to-view-the-teams-reports-in-the-reports-dashboard"></a>如何在"Teams仪表板中查看报表
 
 1. 在 ["Microsoft 365 管理中心"](https://portal.office.com/adminportal/home)中，选择"**报告**  >  **使用情况"。**
  
@@ -62,7 +62,7 @@ ms.locfileid: "54345311"
 |**4**   |" **用户** "视图按活动类型显示用户数。 活动类型包括团队聊天消息数、私人聊天消息数、通话数和会议数。 |
 |**5**   |图表上的 X 轴是特定报表的选定日期范围。 <ul><li>在 **"活动** "图表中，Y 轴是指定活动的计数。</ul></li> <ul><li>在 **"用户** "图表中，Y 轴表示参与团队聊天、私人聊天、通话或会议的用户数。</ul></li> |
 |**6**   |你可以通过单击图例上的项目筛选你在图表上看到的系列。 例如，在"活动 **"** 图表上，单击或点击"频道消息"、"**聊天** 消息"、"呼叫"或"会议"，仅查看与每个消息相关的信息。  更改此选项不会更改网格表中的信息。 |
-|**7**   |报告时间范围内最广泛 (180 天) 团队的列表。  活动计数因日期选择而异。 <br><br> 若要查看下表中的以下信息，请确保将列添加到表中。 <ul><li>**用户名** 是用户的电子邮件地址。 您可以显示实际的电子邮件地址或使此字段匿名。</ul></li> <ul><li>**上次活动 (UTC**) 是指用户上次参与活动Microsoft Teams日期。</ul></li> <ul><li>**频道** 消息是用户于指定时间段在团队聊天中发布的唯一消息数。</ul></li> <ul><li>**聊天** 消息是用户于指定时间段在私人聊天中发布的唯一消息数。</ul></li> <ul><li>**调用** 是用户指定的时段内参与的调用数。</ul></li> <ul><li>**"** 会议"表示用户在指定的时段内参与的联机会议数。</ul></li> <ul><li>**其他活动** 是用户进行的其他团队活动的数量，其中一些活动包括但不限于：点赞消息、应用、处理文件、搜索、跟踪团队和频道以及支持它们。</ul></li> <ul><li>**"已删除** "指示团队是否被删除。 如果团队已删除，但报告期间有活动，则它将在网格中显示，已删除设置为 true。</ul></li> <ul><li>**删除日期** 是删除用户的日期。</ul></li> <ul><li>**分配的产品** 是分配给用户的产品列表。</ul></li>如果您的组织策略阻止您查看可识别用户信息的报表，您可以更改所有这些报表的隐私设置。 请查看中心 **预览** 版中的活动报告中的"如何隐藏用户 [级别Microsoft 365 管理部分](https://support.office.com/article/activity-reports-in-the-office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)。</ui> |
+|**7**   |报告时间范围为 180 (最广泛) 团队的列表。  活动计数因日期选择而异。 <br><br> 若要查看下表中的以下信息，请确保将列添加到表中。 <ul><li>**用户名** 是用户的电子邮件地址。 您可以显示实际的电子邮件地址或使此字段匿名。</ul></li> <ul><li>**上次活动 (UTC**) 是指用户上次参与活动Microsoft Teams日期。</ul></li> <ul><li>**频道** 消息是用户于指定时间段在团队聊天中发布的唯一消息数。</ul></li> <ul><li>**聊天** 消息是用户于指定时间段在私人聊天中发布的唯一消息数。</ul></li> <ul><li>**调用** 是用户指定的时段内参与的调用数。</ul></li> <ul><li>**"** 会议"表示用户在指定的时段内参与的联机会议数。</ul></li> <ul><li>**其他活动** 是用户进行的其他团队活动的数量，其中一些活动包括但不限于：点赞消息、应用、处理文件、搜索、跟踪团队和频道以及支持它们。</ul></li> <ul><li>**"已删除** "指示团队是否被删除。 如果团队已删除，但报告期间有活动，则它将在网格中显示，已删除设置为 true。</ul></li> <ul><li>**删除日期** 是删除用户的日期。</ul></li> <ul><li>**分配的产品** 是分配给用户的产品列表。</ul></li>如果您的组织策略阻止您查看可识别用户信息的报表，您可以更改所有这些报表的隐私设置。 请查看中心预览版中的活动报告中的 **"** 如何隐藏用户 [级别Microsoft 365 管理部分](https://support.office.com/article/activity-reports-in-the-office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)。</ui> |
 |**8**   |单击或点击 **"列** "以添加或删除表中的列。 |
 |**9**   |单击或点击 **"导出**"将报表数据导出到Excel .csv文件。 此操作会导出所有用户数据并允许你执行简单的排序和筛选以进行更详细的分析。 如果用户数少于 2，000，可以在报表本身的表中进行排序和筛选。 如果用户数超过 2，000，必须导出数据以对报表进行筛选和排序。 
 
@@ -72,21 +72,21 @@ ms.locfileid: "54345311"
 
 ![设备使用情况Teams屏幕截图。](media/teams-device-usage-report.png)
 
-### <a name="interpret-the-microsoft-teams-device-usage-report"></a>解释Microsoft Teams使用情况报表
+### <a name="interpret-the-microsoft-teams-device-usage-report"></a>解释Microsoft Teams使用情况报告
 
-可以通过查看用户和Teams图表来了解设备 **使用情况**。 
+可以通过查看用户和Teams图表，了解设备 **使用情况**。 
 
 ![带编号标注Teams设备使用情况报表的屏幕截图。](media/teams-device-usage-report-with-callouts.png)
 
 |标注 |说明  |
 |--------|-------------|
-|**1**   |可以查看Teams设备报告，了解过去 7 天、30 天、90 天或 180 天的趋势。 但是，如果单击报告中的特定时间范围，则表 (7) 将显示 30 天的数据，截至生成报表的日期 (2) 。 |
+|**1**   |可以查看Teams报告，了解过去 7 天、30 天、90 天或 180 天的趋势。 但是，如果单击报告中的特定时间范围，则表 (7) 将显示 30 天的数据，截至生成报表的日期 (2) 。 |
 |**2**   |每个报表包含此报表的生成日期。报表通常反映活动时间的 24 至 48 小时延迟。 |
 |**3**   |" **用户** "视图按设备类型显示每日用户数。 |
 |**4**   |" **分布** "视图显示所选时段内按设备显示的用户数。  |
 |**5**   | <ul><li>在 **"用户** "图表中，X 轴是报表的选定日期范围，Y 轴是按设备类型统计的用户数。</ul></li> <ul><li>在 **"分布**"图表上，X 轴显示用于连接到设备Teams Y 轴是使用设备的用户数。</ul></li> |
-|**6**   |你可以通过单击图例上的项目筛选你在图表上看到的系列。 例如，在"分布"图表上，单击或点击Windows、Mac、Linux、Web、iOS 或 **Android，** 仅查看与每个分布区相关的信息。      更改此选项不会更改网格表中的信息。 |
-|**7**   |报告时间范围内最广泛 (180 天) 团队的列表。  活动计数因日期选择而异。 <br><br> 若要在表中查看以下信息，请确保将列添加到表中。 <ul><li>**用户名** 是用户的电子邮件地址。 您可以显示实际的电子邮件地址或使此字段匿名。</ul></li> <ul><li>**上次活动 (UTC)** 是指用户上次参与活动Teams日期。</ul></li> <ul><li>**"已删除** "指示团队是否被删除。 如果团队已删除，但报告期间有活动，则它将在网格中显示，已删除设置为 true。</ul></li><ul><li>**删除日期** 是删除用户的日期。</ul></li> <ul><li>**Windows** 在基于计算机的 Teams 桌面客户端中处于活动状态，则Windows选择。</ul></li> <ul><li>**如果用户在 macOS** 计算机上在 Teams桌面客户端中处于活动状态，则选择 Mac。</ul></li>  <ul><li>**如果用户** 在 Linux 计算机上在 Teams桌面客户端中处于活动状态，则选择 Linux。</ul></li>   <ul><li>**如果用户** 在 Web 客户端上处于活动状态，则Teams Web。</ul></li> <ul><li>**如果用户在 iOS** 的移动客户端上处于活动状态，Teams iOS。</ul></li> <ul><li>**如果用户在 Android** 的移动客户端上处于活动状态，Teams Android 手机。</ul></li></li> <ui>如果您的组织策略阻止您查看可识别用户信息的报表，您可以更改所有这些报表的隐私设置。请查看中心 **预览** 版中的活动报告中的"如何隐藏用户 [级别Microsoft 365 管理部分](https://support.office.com/article/activity-reports-in-the-office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)。</ui> |
+|**6**   |你可以通过单击图例上的项目筛选你在图表上看到的系列。 例如，在"分布"图表上，单击或点击Windows、Mac、Linux、Web、iOS或 **Android，** 仅查看与每个分布区相关的信息。     更改此选项不会更改网格表中的信息。 |
+|**7**   |报告时间范围为 180 (最广泛) 团队的列表。  活动计数因日期选择而异。 <br><br> 若要在表中查看以下信息，请确保将列添加到表中。 <ul><li>**用户名** 是用户的电子邮件地址。 您可以显示实际的电子邮件地址或使此字段匿名。</ul></li> <ul><li>**上次活动 (UTC**) 是指用户上次参与活动Teams日期。</ul></li> <ul><li>**"已删除** "指示团队是否被删除。 如果团队已删除，但报告期间有活动，则它将在网格中显示，已删除设置为 true。</ul></li><ul><li>**删除日期** 是删除用户的日期。</ul></li> <ul><li>**Windows** 在基于计算机的 Teams 桌面客户端中Windows，则选择"Windows" 。</ul></li> <ul><li>**如果用户在 macOS** 计算机上在 Teams桌面客户端中处于活动状态，则选择 Mac。</ul></li>  <ul><li>**如果用户** 在 Linux 计算机上在 Teams桌面客户端中处于活动状态，则选择 Linux。</ul></li>   <ul><li>**如果用户** 在 Web 客户端上处于活动状态，则选择Teams Web。</ul></li> <ul><li>**如果用户在 iOS** 的移动客户端上处于活动状态，Teams iOS。</ul></li> <ul><li>**如果用户在 Android** 的移动客户端上处于活动状态，Teams Android 手机。</ul></li></li> <ui>如果您的组织策略阻止您查看可识别用户信息的报表，您可以更改所有这些报表的隐私设置。请查看中心 **预览** 版中的活动报告中的"如何隐藏用户级别 [Microsoft 365 管理部分](https://support.office.com/article/activity-reports-in-the-office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)。</ui> |
 |**8**   |单击或点击 **"列** "以添加或删除表中的列。 |
 |**9**   |单击或点击 **"导出**"将报表数据导出到Excel .csv文件。 此操作会导出所有用户数据并允许你执行简单的排序和筛选以进行更详细的分析。 如果用户数少于 2，000，可以在报表本身的表中进行排序和筛选。 如果用户数超过 2，000，必须导出数据以对报表进行筛选和排序。 
 
@@ -100,7 +100,7 @@ ms.locfileid: "54345311"
 
 ### <a name="reports-reader-role"></a>报表读取者角色
 
-可以将"报告读者"角色分配给没有管理员权限，但负责推动采用或跟踪用户许可证使用情况Teams。 若要了解如何分配角色，请阅读将管理员和非[管理员](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal)角色分配给具有 Azure Active Directory。
+可以将"报表读者"角色分配给没有管理员权限，但负责推动采用或跟踪用户许可证使用情况Teams。 若要了解如何分配角色，请阅读[将管理员和非管理员](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal)角色分配给具有 Azure Active Directory。
 
 ## <a name="other-information-on-the-reports-dashboard"></a>"报表"仪表板上的其他信息
 

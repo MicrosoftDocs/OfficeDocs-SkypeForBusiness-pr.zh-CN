@@ -14,19 +14,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 了解重置用户会议 ID 的步骤，Microsoft Teams会议更新和迁移工具的链接。
-ms.openlocfilehash: 3c266b59bab4c51293d429d4698b3c79fe8b84232d519499f8a1bfa27a0c0d94
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a4a57fb2f52ce2541e4e30794d78c05eb376a853
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54319775"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627194"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-microsoft-teams"></a>在 Microsoft Teams 中重置用户的会议 ID
 
@@ -43,7 +43,7 @@ ms.locfileid: "54319775"
 
 2. 单击"**编辑"。**
 
-3. 在"**音频会议"下，单击****"重置会议 ID"。**
+3. 在"**音频会议"下，** 单击 **"重置会议 ID"。**
 
 2. 在"**重置会议 ID"窗口中**，单击"重置 **"。** A conference ID will be automatically created and an email sent to the user with the new conference ID. 默认情况下，电子邮件将发送给用户，但可以将其关闭。   
 
@@ -58,7 +58,7 @@ ms.locfileid: "54319775"
 
 - 您可以通过在"音频会议"部分中单击"在电子邮件中为用户发送会议信息"，在包含会议 ID 和拨入电话号码的电子邮件中向用户发送 **所有会议** 信息。 它不会发送 PIN。
     
-- 7- 9 位数的会议 ID 由 Teams 服务创建。 不能更改其长度。
+- 由服务创建一个 7-9 位数Teams ID。 不能更改其长度。
     
 - 重置之后，你可以看到新会议 ID 列在" **会议 ID**"下方。
     
@@ -66,11 +66,11 @@ ms.locfileid: "54319775"
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>想要了解有关 Windows PowerShell 的详细信息？
 
-Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用Windows PowerShell，可以使用Microsoft 365管理Office 365管理点，在有多个任务需要执行时简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
+Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用Windows PowerShell，Microsoft 365 Office 365单点管理来管理任务或任务，可在有多个任务需要执行时简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
     
   - [为什么要使用 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [使用 Microsoft 365 Office 365 管理Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [使用 Microsoft 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
 有关 Windows PowerShell 的详细信息，请参阅 [Microsoft Teams PowerShell 参考](/powershell/module/teams/?view=teams-ps)了解详细信息。
     

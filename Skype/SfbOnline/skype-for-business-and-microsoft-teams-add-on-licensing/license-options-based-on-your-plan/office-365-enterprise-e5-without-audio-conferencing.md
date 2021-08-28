@@ -14,19 +14,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Licensing
 - LIL_Placement
 description: '了解附加许可证、功能以及如何在没有音频会议Office 365 企业版 (购买) 套餐。 '
-ms.openlocfilehash: 3c4ad93d8e1429e2971fd3a9505f0cb391641435c019eb15639c16533d68873c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4ca0f2f73948b45f85520999c049faebe8f61c67
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316408"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613241"
 ---
 # <a name="office-365-enterprise-e5-without-audio-conferencing"></a>Office 365 Enterprise E5（不含音频会议）
 
@@ -36,5 +36,5 @@ ms.locfileid: "54316408"
 |:-----|:-----|
 |**要添加的功能** <br/> |**需要购买的项目** <br/> |
 |**音频会议** <br/> | 要获取此附加许可，请执行以下操作： <br/><br/> 1. 如果已购买 E5 计划，但音频会议功能在你的国家/地区不可用，则需要使用第三方音频会议提供商。 在 Microsoft PinPoint 中查找第三方 [音频会议提供商](https://go.microsoft.com/fwlink/?LinkId=797530)。  <br/><br/>  查看本文，了解音频会议在你的国家/地区是否可用：音频会议和呼叫计划的 ["国家/地区可用性"](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) <br/><br/> 2. 如果可用，请使用[切换套餐按钮](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a)移动到 Office 365 企业版 E5。 你也会获得到更多功能！ <br/> |
-|**包括“电话系统”！** <br/> | 呼叫计划：从[Office 365](/MicrosoftTeams/calling-plans-for-office-365)购买呼叫Office 365。 <br/>  或者，使用[您现有的提供程序中的电话服务](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing)。  <br/> |
+|**包括“电话系统”！** <br/> | 通话套餐：从[Office 365](/MicrosoftTeams/calling-plans-for-office-365)购买呼叫Office 365。 <br/>  或者，使用[您现有的提供程序中的电话服务](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing)。  <br/> |
 |**云语音邮件包含！** <br/> |您无需其他任何东西。  <br/> |

@@ -7,8 +7,8 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: 计划与用户进行通信、训练和支持，以便进行试点、载入和升级以Microsoft Teams。
-localization_priority: Normal
+description: 计划与用户进行通信、培训和支持，同时试用、载入和升级到 Microsoft Teams。
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: af098209bf61ed26b90b1b109215ba13ad9a681205ebd8fcc6339f72cdaa588b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 61dd52a83620b0d4d20547e0da14cafa11ce30dc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318136"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627384"
 ---
 # <a name="prepare-a-user-readiness-plan"></a>准备用户就绪性计划
 
-![升级旅程的阶段，突出显示用户准备阶段](media/upgrade-banner-user-readiness.png "升级旅程的阶段，着重强调用户准备阶段")
+![升级旅程的阶段，突出显示"用户准备"阶段](media/upgrade-banner-user-readiness.png "升级旅程的阶段，着重强调用户准备阶段")
 
 本文是升级过程的用户准备阶段（与技术准备阶段并行完成的活动）的一部分。 在继续之前，请确认已完成之前阶段中的这些活动：
 
@@ -38,7 +38,7 @@ ms.locfileid: "54318136"
 - [了解两者共存Skype for Business互操作性Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [选择了升级旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-最佳用户准备计划包含在试点、载入和升级到 Teams 时如何与用户通信、培训和支持。 正如在评估组织 [更改准备情况中发现，](./upgrade-org-change-readiness.md)准备情况不是一成一的。 为确保以最佳方式利用新技术，请使用广泛宣传的消息传送 (结合愿景/价值消息传递和通用用例) 以及针对你定义的角色和队列定制的消息传递、培训和支持（视情况）。 此个性化计划有助于用户采用，让用户能够更快速地Teams用户，同时表明你了解他们的需求。
+最佳用户就绪性计划包含在试点、载入和升级到 Teams 时如何与用户通信、培训和支持。 正如在评估组织 [更改准备情况中发现，](./upgrade-org-change-readiness.md)就绪性不是一成一的。 若要确保以最佳方式利用新技术，请使用广泛宣传的消息传送 (结合愿景/价值消息传递和通用用例) 以及专为你定义的角色和队列定制的消息传递、培训和支持，以及适合你的程序库。 此个性化计划有助于用户采用，让用户能够更快速地Teams用户，同时表明你了解他们的需求。
 
 > [!Tip]
 > 除了示例 [升级项目](https://aka.ms/UpgradeSuccessKit) 计划和试点测试计划外，下载模板用户准备情况材料（例如通信和用户调查）的升级成功工具包。
@@ -46,7 +46,7 @@ ms.locfileid: "54318136"
 |&nbsp; |&nbsp; |
 |---|---|
 | ![描述决策点的图标](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>如何创建就绪计划来加快用户采用新解决方案？</li><li>您是否具有与用户处理更改的能力以及定义的用户角色保持一致的正确认知、培训和支持资源？</li></ul> |
-| ![描述后续步骤的图标](media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>使用下面的列表生成准备计划的想法。 选择最相关的活动（或添加自己的活动）以设计针对组织优化的就绪计划。 请记得将面向整个组织的 (和有针对性的) 组合用于 (或特定角色) 活动，以获得最佳效果。</li></ul>|
+| ![描述后续步骤的图标](media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>使用下面的列表生成准备计划的想法。 选择最相关的活动（或添加自己的活动）以设计针对组织优化的就绪计划。 请记得为整个组织 (广泛宣传) ，并针对 (或特定角色) 活动，以获得最佳效果。</li></ul>|
 
 <div class="mx-tableFixed">
 <table>

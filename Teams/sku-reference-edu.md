@@ -12,20 +12,20 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 列出教育教职员工和学生许可计划和 SKU ID。
 f1keywords: ''
-ms.openlocfilehash: 38bfcfc39179253a30b45f2ce2c52be1b605a4b65832a5565521209c308a6205
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b0fd67dd27a497712e48cb0664712963a61d678c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54297768"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627074"
 ---
 # <a name="education-sku-reference"></a>教育 SKU 参考
 
-本文列出了教育版教职员工和学生许可计划 (SKU) 和 SKU 标识号，使用 PowerShell 按许可证类型标识组织中用户时，可以使用这些标识作为参考。
+本文列出了教育版教职员工和学生许可计划 (SKU) 和 SKU ID，使用 PowerShell 按许可证类型标识组织中用户时，可以使用这些标识作为参考。
 
 ## <a name="faculty-licenses"></a>教职员工许可证
 
@@ -35,7 +35,7 @@ ms.locfileid: "54297768"
 |Office 365 教育版教职员工       |STANDARDWOFFPACK_FACULTY        |94763226-9b3c-4e75-a931-5c89701abe66         |
 |Office 365 教育版教职员工       |STANDARDWOFFPACK_IW_FACULTY     |78e66a63-337a-4a9a-8959-41c6654dfb56         |
 |Office 365 教育版E5（教职员工）    |ENTERPRISEPREMIUM_FACULTY       |a4585165-0533-458a-97e3-c400570268c4         |
-|不含 PSTN 会议 的 Office 365 教育版 E5 (教职员工)       |ENTERPRISEPREMIUM_NOPSTNCONF_FACULTY         |9a320620-ca3d-4705-a79d-27c135c96e05         |
+|不含 PSTN 会议 的 Office 365 教育版 E5（教职员工）      |ENTERPRISEPREMIUM_NOPSTNCONF_FACULTY         |9a320620-ca3d-4705-a79d-27c135c96e05         |
 |Office 365 教育版E1（教职员工）     |STANDARDPACK_FACULTY         |a19037fc-48b4-4d57-b079-ce44b7832473         |
 |Office 365 教育版E3（教职员工）     |ENTERPRISEPACK_EDULRG         |f5a9147f-b4f8-4924-a9f0-8fadaac4982f         |
 |Office 365 教育版E4（教职员工）      |ENTERPRISEWITHSCAL_FACULTY         |16732e85-c0e3-438e-a82f-71f39cbe2acb         |

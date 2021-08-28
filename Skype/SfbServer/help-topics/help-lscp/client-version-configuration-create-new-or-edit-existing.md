@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.ClientCVSettingEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 07fec57c-5cd3-422a-829a-0b62cb0092c4
 description: 客户端版本配置设置用于打开或关闭客户端版本控制。 全局客户端版本配置随 Skype for Business Server 一起安装，用于启用或禁用整个服务器部署的客户端版本控制。 当全局配置处于启用状态时，用户尝试登录后您所拥有的任何客户端版本策略都将生效。 如果不希望发生任何客户端版本控制，则可以禁用全局客户端版本配置。
-ms.openlocfilehash: 7b08ccfa700b8d054877645bb0b94f1079b9622d2831f9fdd6f76f217e327264
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a420613d06e67df651aa7224f4d791cd69272fd1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284932"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614464"
 ---
 # <a name="client-version-configuration-create-new-or-edit-existing"></a>客户端版本配置：创建新的或编辑现有的
 
@@ -42,7 +42,7 @@ ms.locfileid: "54284932"
 
 下表介绍了该页上的菜单、命令、字段和属性。
 
-- **范围** 标识客户端 (全局) 站点范围。
+- **范围** 标识客户端 (全局) 站点范围的范围。
 
 - **名称** 可以添加或修改客户端版本配置的名称。
 
@@ -50,13 +50,13 @@ ms.locfileid: "54284932"
 
 - **默认操作** 可以选择当用户尝试使用没有特定客户端版本策略的客户端应用程序登录时应用的默认操作。 可以选择下列选项：
 
-  - **允许** 允许客户端在客户端版本策略列表中不匹配任何筛选器时登录。
+  - **允许** 如果客户端版本不匹配客户端版本策略列表中的任何筛选器，则允许客户端登录。
 
   - **阻止** 如果客户端版本不匹配客户端版本策略列表中的任何筛选器，则阻止客户端登录。
 
   - **使用 URL 阻止** 如果客户端版本不匹配客户端版本策略列表中的任何筛选器，则阻止客户端登录，并包括一条错误消息，其中包含可下载较新客户端的 URL。
 
-  - **允许使用 URL** 如果客户端版本不匹配客户端版本策略列表中的任何筛选器，则允许客户端登录，并包含一条错误消息，其中包含可下载较新客户端的 URL。
+  - **允许使用 URL** 如果客户端版本与客户端版本策略列表中的任何筛选器不匹配，则允许客户端登录，并包含包含可下载较新客户端的 URL 的错误消息。
 
   - **URL** 如果选择" **使用 URL 阻止** "或"允许使用 **URL"，** 可以指定要包括在错误消息中的客户端下载 URL。
 

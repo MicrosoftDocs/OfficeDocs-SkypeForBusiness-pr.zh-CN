@@ -13,7 +13,7 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -24,12 +24,12 @@ ms.custom:
 - O365M_SkypeforBusinessON
 - O365P_SkypeforBusinessON
 description: '了解如何为你的组织设置域、用户、即时消息和状态以安装 Skype for Business。另请参阅如何设置音频会议、电话系统和通话套餐以及 Skype 会议直播。 '
-ms.openlocfilehash: 9d8c68468cbceb1e7ab7e2c5d3a9a268b382fa13ec42d78d03269dc9764fb770
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d712fd0bf02e770c15f1c6dcf61789dcf0fd27e9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340288"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613251"
 ---
 # <a name="set-up-skype-for-business-online"></a>设置 Skype for Business Online
 
@@ -43,7 +43,7 @@ ms.locfileid: "54340288"
 
 ## <a name="1-plan-for-skype-for-business"></a>1. 规划 Skype for Business
 
-如果你有标准 **[Microsoft 365 商业高级版](https://products.office.com/business/office-365-business-premium)** 或 **商业** 基础版，可以使用 Skype for Business 向你的订阅中的企业中的其他人进行在线呼叫。 例如，如果企业有 10 个人，则在执行下面的步骤 2-6 之后，即可相互[开始使用 Skype for Business 进行即时消息通信和联机会议](https://support.office.com/article/cc05afa6-1894-4a82-9dd9-6222061f50fd)，并[使用 Skype for Business 召开会议](https://support.office.com/article/2eed8424-581a-4497-b505-c08c152e5851)。 而且你还可以[在 Outlook 中设置 Skype for Business 会议](https://support.office.com/article/b8305620-d16e-4667-989d-4a977aad6556#bkmk_OWA)以召开联机会议！
+如果你有标准 **[Microsoft 365 商业高级版](https://products.office.com/business/office-365-business-premium)****或商业** 基础版，可以使用 Skype for Business 向你的订阅中的企业中的其他人进行在线呼叫。 例如，如果企业有 10 个人，则在执行下面的步骤 2-6 之后，即可相互[开始使用 Skype for Business 进行即时消息通信和联机会议](https://support.office.com/article/cc05afa6-1894-4a82-9dd9-6222061f50fd)，并[使用 Skype for Business 召开会议](https://support.office.com/article/2eed8424-581a-4497-b505-c08c152e5851)。 而且你还可以[在 Outlook 中设置 Skype for Business 会议](https://support.office.com/article/b8305620-d16e-4667-989d-4a977aad6556#bkmk_OWA)以召开联机会议！
 
 如果你想使用 Skype for Business 与组织 **外部** 的用户进行 *通话*  ，则有下列选项：
 
@@ -58,7 +58,7 @@ ms.locfileid: "54340288"
 
 Skype for Business Online 是 Office 365 服务套件的一部分。要设置 Skype for Business Online，你需要登录到 Office 365。下面介绍了如何操作：
 
-1. 找到Microsoft 365或Office 365用户 ID (例如<em>，rob@fourthcoffee.com) 。</em> 你收到了来自 Microsoft Online Services 团队的电子邮件，其中包含Microsoft 365或Office 365在线购买时创建Skype for Business ID。 邮件内容如下所示：
+1. 找到Microsoft 365或Office 365用户 ID (例如<em>，rob@fourthcoffee.com) 。</em> 你收到了来自 Microsoft Online Services 团队的电子邮件，其中包含Microsoft 365或Office 365购买 Skype for Business Online 时创建的用户 ID。 邮件内容如下所示：
 
     ![在你注册 Skype for Business Online 之后收到的欢迎电子邮件的示例。 它包含你的Microsoft 365或Office 365 ID。](../images/977c5c96-29c5-40c0-a4c4-1ba66ba3a1fb.png)
 

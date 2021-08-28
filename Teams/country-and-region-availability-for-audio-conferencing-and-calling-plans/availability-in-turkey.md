@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于土耳其Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: d99ecea4d87bf45c3cf603ef92465afe6ba54bcf5af3cfe77d257d0ae105eeaa
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 08531f0c7228d20bc5086ab2aa566a8a3466d9a5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54327787"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627624"
 ---
 # <a name="availability-in-turkey"></a>在土耳其的可用性
 

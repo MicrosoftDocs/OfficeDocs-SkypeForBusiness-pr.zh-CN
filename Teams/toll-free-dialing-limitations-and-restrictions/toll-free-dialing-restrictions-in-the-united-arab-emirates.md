@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 了解如何在阿拉伯联合酋长国拨打免费电话号码，包括可用性、有线/固定线路和移动网络可用性以及限制。
-ms.openlocfilehash: 324b4e68efdffafa99d678e362d91def535736ab2f89f72edd0a91d8fdf74910
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ddca6e6cb9cf65867adf9c79e0d5dae36f0f3ab3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308213"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612871"
 ---
 # <a name="toll-free-dialing-restrictions-in-the-united-arab-emirates"></a>阿拉伯联合酋长国的免费拨号限制
 

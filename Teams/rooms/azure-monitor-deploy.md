@@ -9,18 +9,18 @@ ms.topic: quickstart
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: 本文讨论如何使用 Azure Monitor 以Microsoft Teams 会议室的端到端方式部署设备管理。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 84251e329645c6722125f21b4fe3cd146a1e3701
-ms.sourcegitcommit: 81f1a113a33c7ea8d2256144544d0e34cd64d576
+ms.openlocfilehash: 77b1e18e9f30e13cc209040ab876324afa232766
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58505400"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613021"
 ---
 # <a name="deploy-no-loc-textmicrosoft-teams-rooms-management-with-no-loc-textazure-monitor"></a>使用 :::no-loc text="Microsoft Teams Rooms"::: 部署管理 :::no-loc text="Azure Monitor":::
 
@@ -207,7 +207,7 @@ ms.locfileid: "58505400"
     **组标题：** 留空<br>
     **新建组：** 未选中
 3.  定义 **磁贴** 属性：<br>
-    **图例：** 非活动设备 (最近 20 分钟内未发送检测信号) <br>
+    **图例：** 非活动 (过去 20 分钟内未发送任何检测信号) <br>
     **图块查询：** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize LastHB = max(TimeGenerated) by Computer | where LastHB < ago(20m) | count```
 4.  定义 **列表** 属性：<br>
     **列表查询：**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize TimeGenerated = max(TimeGenerated) by Computer | where TimeGenerated < ago(20m) | order by TimeGenerated```
@@ -347,7 +347,7 @@ ms.locfileid: "58505400"
 
 2. 导航到工作区 :::no-loc text="Log Analytics"::: ，选择 **"警报"，** 然后选择" **新建警报规则"**
 
-3. 选择 **"添加条件** "，然后选择" **自定义日志搜索"**
+3. 选择 **"添加条件** "，然后选择 **"自定义日志搜索"**
 
 4.  在"搜索查询"文本框中输入以下查询。<br>
     ```
@@ -482,7 +482,7 @@ Stop-Transcript
 ```
 
 > [!NOTE]
-> 可以在需要 [重新配置代理、 :::no-loc text="Log Analytics"::: ](/azure/azure-monitor/platform/agent-manage) 将其移动到其他工作区或修改初始安装后修改代理设置时，参阅管理和维护代理一文。
+> 可以在需要 [重新配置代理、 :::no-loc text="Log Analytics"::: ](/azure/azure-monitor/platform/agent-manage) 将其移到其他工作区或修改初始安装后修改代理设置时，参阅管理和维护代理一文。
 
 ## <a name="additional-solutions"></a>其他解决方案
 <a name="Solutions"> </a>

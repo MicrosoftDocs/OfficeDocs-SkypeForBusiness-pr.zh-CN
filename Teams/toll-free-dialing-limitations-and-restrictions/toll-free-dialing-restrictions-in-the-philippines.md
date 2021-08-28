@@ -16,20 +16,20 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: 了解如何在菲律宾拨打免费电话号码，包括可用性、有线/固定线路和移动网络可用性，以及限制。
-ms.openlocfilehash: debf3e915a1ee246657bb3e470016e5029fa932ccc82e236612184808e02b7bd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 了解如何在菲律宾拨打免费电话号码，包括可用性、有线/固定线路和移动网络可用性以及限制。
+ms.openlocfilehash: 1566415bc30085293ba576f6dc91d341bc41b7dd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341128"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627404"
 ---
 # <a name="toll-free-dialing-restrictions-in-philippines"></a>菲律宾的免费拨号限制
 

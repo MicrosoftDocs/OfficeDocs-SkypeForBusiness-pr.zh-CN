@@ -9,19 +9,19 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 22ddb509-af16-4fc8-9b98-6f58caa6f37e
 description: 摘要：了解会议活动报告中Skype for Business Server。
-ms.openlocfilehash: ebee49f78d7f3ed83c5d8218357181d457fe04b73f638b4a70191bc975ba38de
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d422f86789c8a488f6a1bbe954689a3e422e990f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336632"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612221"
 ---
 # <a name="conference-activity-report-in-skype-for-business-server"></a>会议活动报告中Skype for Business Server
  
-**摘要：** 了解会议活动报告中Skype for Business Server。
+**摘要：** 了解会议活动报告中用于Skype for Business Server。
   
 会议活动报告使你能够轻松回答类似以下问题：每天要召开多少场会议，以及何时召开这些会议？ 这样的信息不仅对自身有用，而且用作疑难解答工具。 例如，假设用户抱怨在一天中网络看上去特别慢。 快速浏览会议活动报告可能会建议一个可能的原因：在上午 10：00 到下午 2：00 之间安排的会议将远超过任何其他时间。
   
@@ -29,7 +29,7 @@ ms.locfileid: "54336632"
   
 ## <a name="accessing-the-conference-activity-report"></a>访问会议活动报告
 
-会议活动报告通过单击以下指标之一[Skype for Business Server会议摘要](conference-summary-report.md)报告中的访问：
+会议活动报告通过单击以下指标之一[](conference-summary-report.md)Skype for Business Server会议摘要报告中的访问：
   
 - 会议总数
     

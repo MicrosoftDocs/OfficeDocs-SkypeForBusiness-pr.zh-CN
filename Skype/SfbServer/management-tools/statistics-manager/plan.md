@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
-description: 摘要：阅读本主题，了解统计数据管理器Skype for Business Server。
-ms.openlocfilehash: 045586a1fd6c53ff1985602b20e390416142fd3dc9d3ddc3f6b9384d8d9955ec
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 摘要：阅读本主题，了解适用于 Skype for Business Server 的统计信息管理器。
+ms.openlocfilehash: 17b01924db7522e2fefc9fbdf399d223429b6c4a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333264"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612071"
 ---
 # <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>规划 Skype for Business Server 的统计信息管理器
 
@@ -28,7 +28,7 @@ ms.locfileid: "54333264"
 
 可以使用统计信息管理器来确定持续的性能问题、查看环境计划更改的结果、跟踪中断的解决等等。 统计信息管理器已配置有关键运行状况指示器 (KHI) 阈值，可进行自定义以满足部署的独特需求。
 
-您可以在本地部署中部署统计信息管理器，其中一台服务器承载所有服务器端统计信息管理器组件。 有关部署统计信息管理器的信息，请参阅部署统计信息管理器[Skype for Business Server。](deploy.md) 如果你已拥有统计信息管理器的现有部署，但尚未升级到 2.0 版，请参阅[2.0](plan.md#BKMK_WhatsNew)版中的新增功能和升级统计信息管理器[Skype for Business Server。](upgrade.md)
+您可以在本地部署中部署统计信息管理器，其中一台服务器承载所有服务器端统计信息管理器组件。 有关部署统计信息管理器的信息，请参阅部署统计信息管理器[Skype for Business Server。](deploy.md) 如果你已拥有统计信息管理器的现有部署，但尚未升级到 2.0 版，请参阅[2.0](plan.md#BKMK_WhatsNew)版中的新增功能和升级统计信息管理器[了解Skype for Business Server。](upgrade.md)
 
 本主题包含以下各部分：
 
@@ -49,7 +49,7 @@ ms.locfileid: "54333264"
 
 统计信息管理器允许你：
 
-- 实时查看所有服务器的原始数据。  (数据以非常高的速度采样，并不到一秒钟就发送到网站。) 
+- 实时查看所有服务器的原始数据。  (数据以非常高的速率进行采样，并不到一秒钟就发送到网站。) 
 
 - 查看为特定角色聚合的数据;例如，前端服务器、中介服务器、边缘服务器等。
 
@@ -86,7 +86,7 @@ ms.locfileid: "54333264"
 
 - 已针对边缘媒体、Fabric 运行状况、池故障转移和注册方案添加了方案视图。
 
-- 为服务器添加了许多新的计数器SQL添加了更多Skype for Business计数器，等等。
+- 为服务器添加了许多新的SQL、Skype for Business计数器等。
 
 - 统计信息管理器代理的观察程序节点集成 - 如果代理安装在观察程序节点上，它将综合事务统计信息作为计数器报告回统计信息管理器。
 
@@ -109,7 +109,7 @@ ms.locfileid: "54333264"
 
 - **侦听器。** 接收来自所有代理的数据并聚合各总体数据的服务器端 API。
 
-- **中心。** 充当系统的客户端 API，在 Web (上运行) ，并提供通过网站连接的客户端实时数据更新。  (中心将自动安装为网站 msi.) 
+- **中心。** 作为系统的客户端 API，在 Web 服务器上运行 () ，为通过网站连接的客户端提供实时数据更新。  (中心将自动安装为网站 msi.) 
 
 - **网站。** 将系统中所有可用功能汇集在一起的用户界面。
 
@@ -142,7 +142,7 @@ ms.locfileid: "54333264"
 - PSExec - 需要执行远程代理部署
 
 - 2012 R2 (中包含的 .NET 4.5) - 代理和服务器端组件需要
-- 下载[64 Skype for Business ServerReal-Time 64 (统计信息管理器) ](https://www.microsoft.com/en-in/download/details.aspx?id=57518)
+- 下载[Skype for Business Server 64 Real-Time 64 位 (统计信息管理器) ](https://www.microsoft.com/en-in/download/details.aspx?id=57518)
 
 ### <a name="networking-requirements"></a>网络要求
 
@@ -157,7 +157,7 @@ ms.locfileid: "54333264"
 
 ### <a name="hardware-requirements"></a>硬件要求
 
-在内部部署中（其中一台服务器托管所有服务器端统计信息管理器组件）中，具有 16 GB RAM 和 4 个 CPU 的服务器平均每秒应支持大约 150 个样本。 若要确定可以支持的计数器/代理数，请使用以下计算：
+在单台服务器托管所有服务器端统计信息管理器组件的本地部署中，具有 16 GB RAM 和 4 个 CPU 的服务器平均每秒应支持大约 150 个样本。 若要确定可以支持的计数器/代理数，请使用以下计算：
 
 100 台服务器 80 个计数器，每个代理每分钟 1 个样本 \* \* /60 秒 = ~ 133 个样本/秒。
 

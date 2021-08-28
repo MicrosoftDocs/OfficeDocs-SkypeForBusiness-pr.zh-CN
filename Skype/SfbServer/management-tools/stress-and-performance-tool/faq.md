@@ -10,16 +10,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ce18db60-5f6b-423d-bc41-91e7c80fb7e3
 description: Skype for Business 2015 压力和性能工具常见问题 (FAQ) ，有助于找出受支持的工具配置、解决工具问题以及阐明在运行压力和性能工具时可能看到的行为。
-ms.openlocfilehash: 401377560183b598311ed58b1a60291ba84f00b06fb8c4a6bd8b7ec792405084
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 42fdf53965e190e98e716df0780eac04565d0767
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333164"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611931"
 ---
 # <a name="faq-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Skype for Business Server 2015 压力和性能工具的常见问题解答
  
@@ -41,7 +41,7 @@ Skype for Business 2015 压力和性能工具常见问题 (FAQ) ，有助于找�
   
 ## <a name="can-i-run-this-tool-on-a-skype-for-business-server-itself"></a>能否在服务器本身上Skype for Business此工具？
 
-不应这样做。 此方案不受支持，因为它可能由于二进制不匹配而失败，还因为目标是测量服务器上资源消耗。 实际运行该工具会影响服务器性能，并且会使数据和度量失效。
+不应这样做。 不支持此方案，因为它可能由于二进制不匹配而失败，还因为目标是测量服务器上资源消耗。 实际运行该工具会影响服务器性能，并且会使数据和度量失效。
   
 ## <a name="can-i-run-lyncperftoolexe-on-a-virtual-server-or-on-microsoft-hyper-v-server-20082012"></a>能否在虚拟LyncPerfTool.exe或 Microsoft Hyper-V Server 2008/2012 中运行该服务器？
 
@@ -55,7 +55,7 @@ MPOP 是一种表示"多点状态"的缩短方式。 MPOP 旨在模拟用户从�
 
 检查服务器上总活动终结点计数器以查看用户是否正在连接。 如果用户未连接，请验证您的 Skype for Business Server 2015 配置。 您看到的问题通常是因为服务器名称、用户前缀或密码之一不正确。 请注意，外部客户端应指定 Access Proxy 和 TargetServer 值。 验证配置文件中的端口号。
   
-## <a name="how-can-i-be-sure-that-something-is-being-measured"></a>如何确定正在测量某些内容？
+## <a name="how-can-i-be-sure-that-something-is-being-measured"></a>如何确保正在测量某些内容？
 
 LyncPerfTool 性能计数器可指示用户是否正在连接和操作，但确保测量操作的最简单方法是使用 Skype for Business 2015 客户端登录到其中一个帐户，然后自己执行这些操作。 检查结果以确认已进行测量。
   

@@ -10,7 +10,7 @@ ms.service: msteams
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 了解如何管理会议网络研讨会Teams策略。
-ms.openlocfilehash: 23c637c1b4192f02ab3e95aa75bf434ae6453afd
-ms.sourcegitcommit: 3650579196d5f340ef32b31ba975285e08ab1848
+ms.openlocfilehash: 1ab4f082a270e4d9b3107c0b6ffbb27bd7c70110
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58392909"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612971"
 ---
 # <a name="set-up-for-webinars-in-microsoft-teams"></a>在 Microsoft Teams 中设置网络Microsoft Teams
 
@@ -45,22 +45,22 @@ ms.locfileid: "58392909"
 如果启用此功能，用户可以安排网络研讨会。 默认情况下，此选项已打开。 如果要关闭会议注册，请将其策略设置为"关闭 **"。**
 
 > [!IMPORTANT]
-> **必须打开允许安排** 私人会议，以便会议注册正常工作。 默认情况下，此策略在管理中心Teams打开。 对于教育租户中的学生，此策略默认已关闭。 若要详细了解如何为学生启用私人会议计划，请参阅Teams 教育版[策略和策略包](policy-packages-edu.md)。
+> **必须打开允许安排** 私人会议，以便会议注册正常工作。 默认情况下，此策略在管理中心Teams打开。 对于教育租户中的学生，此策略默认已关闭。 若要详细了解如何为学生启用私人会议计划，请参阅Teams 教育版[策略包](policy-packages-edu.md)。
 
 ### <a name="who-can-register"></a>Who注册
 
 如果选择" **每个人"，** 则所有用户（包括匿名用户）都可以注册并参加网络研讨会。 如果选择" **组织中所有人"，** 则只有你组织中用户可以注册网络研讨会。 如果会议注册已关闭，此选项将不可用，并且没有人可以注册网络研讨会。
 
 > [!NOTE]
-> 可注册Who **的默认值****是组织中教育** 租户中的每个人。 有关详细信息，请参阅策略[Teams 教育版向导](easy-policy-setup-edu.md)。
+> 可 **注册Who的** 默认值 **是组织中教育** 租户中的每个人。 有关详细信息，请参阅策略[Teams 教育版向导](easy-policy-setup-edu.md)。
 
 ### <a name="allow-engagement-report"></a>允许参与报告
 
-如果启用此功能，组织者可以看到有关谁注册并参加他们设置的网络研讨会的报告。 默认情况下，此策略已关闭。 有关详细信息，请参阅会议[策略中的Teams - 允许参与报告](meeting-policies-in-teams-general.md#allow-engagement-report)。 有关最终用户体验的信息，请参阅 [查看和下载会议出席报告](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310?ui=en-US&#x26;rs=en-US&#x26;ad=US)。
+如果启用此功能，组织者可以看到有关谁注册并参加他们设置的网络研讨会的报告。 默认情况下，此策略已关闭。 有关详细信息，请参阅会议[策略 -Teams - 允许参与报告](meeting-policies-in-teams-general.md#allow-engagement-report)。 有关最终用户体验的信息，请参阅 [查看和下载会议出席报告](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310?ui=en-US&#x26;rs=en-US&#x26;ad=US)。
 
 ## <a name="allow-users-to-schedule-webinars-using-powershell"></a>允许用户使用 PowerShell 安排网络研讨会
 
-可以在 **Set-CsTeamsMeetingPolicy** cmdlet Windows PowerShell 以下属性为 Teams 中的网络研讨会设置。
+可以在 **Set-CsTeamsMeetingPolicy** cmdlet Windows PowerShell 中使用以下属性为 Teams 中的网络研讨会设置。
 
 - AllowMeetingRegistration
 - WhoCanRegister
@@ -69,14 +69,14 @@ ms.locfileid: "58392909"
 有关 cmdlet 详细信息，请阅读[Set-CsTeamsMeetingPolicy。](/powershell/module/skype/set-csteamsmeetingpolicy)
 
 > [!NOTE]
-> 在运行这些 cmdlet 之前，必须先连接到 Microsoft Teams PowerShell。 有关详细信息，请参阅使用[powerShell Teams管理Microsoft Teams。](/microsoftteams/teams-powershell-managing-teams)
+> 在运行这些 cmdlet 之前，必须先连接到 Microsoft Teams PowerShell。 有关详细信息，请参阅使用 Teams [PowerShell Microsoft Teams管理数据](/microsoftteams/teams-powershell-managing-teams)。
 
 ### <a name="allow-users-to-schedule-webinars"></a>允许用户计划网络研讨会
 
 可以将注册限制为仅组织内部用户，或者向租户内外的每个人开放注册。 默认情况下 **，WhoCanRegister** 已启用，并设置为"每个人 **"。** 如果要关闭会议注册，将 **AllowMeetingRegistration 设置为** **False。**
 
 > [!IMPORTANT]
-> **AllowPrivateMeetingScheduling** 必须设置为True，AllowMeetingRegistration **正常工作**。 此外，Microsoft Lists在设置中设置SharePoint。 若要了解有关详细信息，请参阅[控件的控件Microsoft Lists。](/sharepoint/control-lists)
+> **AllowPrivateMeetingScheduling** 必须设置为True，AllowMeetingRegistration **正常工作**。 此外，Microsoft Lists需要在 SharePoint 中设置。 若要了解有关详细信息，请参阅控件[的控件Microsoft Lists。](/sharepoint/control-lists)
 
 1. 打开会议注册
 

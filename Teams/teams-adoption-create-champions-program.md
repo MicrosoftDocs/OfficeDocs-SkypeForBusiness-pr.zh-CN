@@ -14,19 +14,19 @@ ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 ms.reviewer: karuanag
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 了解如何培训一个支持团队，通过Teams提高认知、采用度和教育，促进用户采用。
+description: 了解如何培训一个支持团队，通过Teams提高认知、采用率和教育，促进用户采用。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a29e99a85e0759ca67cb94bd690dac3e690b07fd1269b33aa76e4ca315207d0c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 216323b34d2f0f2778844b901964d56a85d25716
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296619"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612911"
 ---
 # <a name="create-your-champions-program-for-microsoft-teams"></a>为 Microsoft Teams 创建支持者计划
 
@@ -56,9 +56,9 @@ ms.locfileid: "54296619"
 
 - 明确计划要求：某些冠军计划要求成员参加每月会议，为支持的用户组保留办公时间，并为新用户提供培训。 无论你的要求如何，请确保支持者清楚地了解如何成功参与该计划。
 
-- 明显奖励您的冠军：您的冠军将为您提供有关项目进度和潜在陷阱的重要见解。 通常奖励他们参与。 小手势大有作为，员工通常不寻求货币收益，而是感谢人们认可他们的贡献。 查找适合和有趣的社区感谢方式。 
+- 明显奖励您的冠军：您的冠军将为您提供有关项目进度和潜在陷阱的重要见解。 通常奖励他们参与。 小手势大有作为，员工通常不会寻求货币收益，而是感谢人们认可他们的贡献。 查找适合和有趣的社区感谢方式。 
 
 - 提前经常培训冠军：你的计划启动和每月会议可用于在冠军社区中培养技能。 利用这些机会让他们上台、进行初始培训、鼓励他们参加我们的课程，并确保他们已准备好在试验阶段继续工作，为员工提供支持。  
 
-![表示下一步骤"下一步 ](media/teams-adoption-next-icon.png) ： [完成治理快速入门"的图标](teams-adoption-governance-quick-start.md)
+![表示下一步"下一步 ](media/teams-adoption-next-icon.png) ： [完成治理快速入门"的图标](teams-adoption-governance-quick-start.md)
 

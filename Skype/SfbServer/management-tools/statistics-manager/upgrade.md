@@ -9,24 +9,24 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 71f5d0a0-ca81-4ac1-b590-8f854504f21f
 description: 摘要：阅读本主题，了解如何升级统计信息管理器Skype for Business Server。
-ms.openlocfilehash: f3ce2a6f92ee1d3bd12994f2fe490b0acd5987e4801a98fa57a3527b9fa47dd8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: caa2a5f7576a046c990315b638e618a379dd039e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333194"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611981"
 ---
 # <a name="upgrade-statistics-manager-for-skype-for-business-server"></a>更新 Skype for Business Server 的统计信息管理器
  
 **摘要：** 阅读本主题，了解如何升级统计信息管理器Skype for Business Server。
   
-本主题介绍如何升级现有安装的统计信息管理器 for Skype for Business Server，这是一种功能强大的工具，Skype for Business Server实时查看统计数据的运行状况和性能数据。 你可以每隔几秒钟轮询数百台服务器的性能数据，并立即在统计信息管理器网站上查看结果。 
+本主题介绍如何升级现有安装的统计信息管理器 for Skype for Business Server，这是一种功能强大的工具，Skype for Business Server实时查看统计数据运行状况和性能数据。 你可以每隔几秒钟轮询数百台服务器的性能数据，并立即在统计信息管理器网站上查看结果。 
   
-有关统计信息管理器和 2.0 版中的新功能详细信息，请参阅为统计信息[](plan.md)管理器规划 Skype for Business Server 和 部署统计信息管理器[for Skype for Business Server](deploy.md)。
+有关统计信息管理器和 2.0 版中的新功能的信息，请参阅为统计信息[](plan.md)管理器规划 Skype for Business Server 和 部署统计信息管理器[for Skype for Business Server](deploy.md)。
   
 有两种升级方法：
   
@@ -40,7 +40,7 @@ ms.locfileid: "54333194"
   
 - 活动侦听器证书指纹
     
-- 侦听器服务密码 (侦听器和每个代理安装时输入) 
+- 侦听器服务 (在安装侦听器和每个代理时输入) 
     
 - 网站的 SSL 证书配置
     
@@ -99,7 +99,7 @@ ms.locfileid: "54333194"
 1. 在侦听器计算机上，卸载侦听器、网站和代理 (如果已在此服务器上安装，) "程序和功能"控制面板进行卸载。 
     
     > [!NOTE]
-    >  保留安装 Redis，以便缓存中的数据随后在升级过程中得到维护。
+    >  保持安装 Redis，以便缓存中的数据随后在升级过程中得到维护。
   
 2. 安装组件的新版本，包括上述系统提示时保存的值。 有关安装组件的信息，请参阅 [部署统计信息管理器](deploy.md#BKMK_Deploy)
 

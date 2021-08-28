@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeploySSRSIntro
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f3cda686-6301-419c-af68-b49cc785e5fc
 description: 每个前端池和 Survivable Branch Appliance 只能拥有一台关联的监控服务器。如果为站点启用监控，监控服务器会提供呼叫详细信息记录 (CDR) 和用户体验质量 (QoE) 数据收集和报告。
-ms.openlocfilehash: a505893773815a54996c9adfc797911213d73dd88aaf61550b1d325341151967
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 20a8ef5056d75563f4c78e0c9c0ebabf66c73d05
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338450"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614486"
 ---
 # <a name="sql-server-reporting-services-intro"></a>SQL Server Reporting Services（简介）
  

@@ -9,30 +9,30 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: 摘要：阅读本主题，了解如何为组织部署统计信息Skype for Business Server。
-ms.openlocfilehash: e5ace82602ef6443331470a3fd3deda69e3fc797f0446749780436b14b4a7b82
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 966d6aa71eff93f616ae0eb1a7443aebab600016
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333254"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612091"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server"></a>部署 Skype for Business Server 的统计信息管理器
  
 **摘要：** 阅读本主题，了解如何为组织部署统计信息Skype for Business Server。
   
- 统计信息管理器Skype for Business Server一个强大的工具，可用于实时Skype for Business Server运行状况和性能数据。 你可以每隔几秒钟轮询数百台服务器的性能数据，并立即在统计信息管理器网站上查看结果。
+ 统计数据管理器Skype for Business Server一个强大的工具，可用于实时Skype for Business Server运行状况和性能数据。 你可以每隔几秒钟轮询数百台服务器的性能数据，并立即在统计信息管理器网站上查看结果。
   
 在尝试安装统计信息管理器之前，请确保你熟悉软件、网络和硬件要求。 有关详细信息，请参阅规划统计信息[管理器Skype for Business Server。](plan.md)
   
 > [!NOTE]
-> 如果要从以前版本的统计信息管理器升级，请参阅升级统计信息[管理器了解Skype for Business Server。](upgrade.md) 
+> 如果要从以前的统计信息管理器版本升级，请参阅升级统计信息[管理器了解Skype for Business Server。](upgrade.md) 
   
 > [!NOTE]
-> 统计信息管理器网站已经过测试，在 Internet Explorer 11+、Edge 20.10240+ 和 Chrome 46+ (当前常青版本) 上正常运行。 
+> 统计信息管理器网站已经过测试，在 Internet Explorer 11+、Edge 20.10240+ 和 Chrome 46+ (当前常青版本) 。 
   
 可在 上找到可下载的统计信息管理器 [https://aka.ms/StatsManDownload](https://aka.ms/StatsManDownload) 。 
   
@@ -55,7 +55,7 @@ ms.locfileid: "54333254"
     
 3. 在主机上安装网站。
     
-4. 在要监视的每台Skype for Business Server安装代理。
+4. 在你要监视的每台Skype for Business Server安装代理。
     
 5. 导入要监视的服务器拓扑。
     
@@ -70,7 +70,7 @@ ms.locfileid: "54333254"
     
     可以从下载未签名的安装程序 [https://github.com/MSOpenTech/redis/releases](https://github.com/MSOpenTech/redis/releases)
     
-    如果需要，可以通过热门程序包管理器获得已签名的二进制文件 [：Nuget](https://www.nuget.org/packages/Redis-64/) 和 [Choclatey](https://chocolatey.org/packages/redis-64)。
+    如果需要，可以通过热门程序包管理器使用已签名的二进制文件 [：Nuget](https://www.nuget.org/packages/Redis-64/) 和 [Choclatey](https://chocolatey.org/packages/redis-64)。
     
    - 运行提供的 msi 并按照提示执行。
     
@@ -122,11 +122,11 @@ ms.locfileid: "54333254"
     
    - 如果 KnownServerCount 为 1 或更高，则建立与 Redis 的连接。
     
-   - 等待几分钟后，以及安装至少一个代理后，请检查 ValuesWritten 计数器是否正在递增。
+   - 等待几分钟，并安装至少一个代理后，检查值已写入计数器是否正在递增。
     
 ### <a name="install-the-website"></a>安装网站
 
-通过运行 Skype for Business Server、Real-Time 统计信息管理器[ (64](https://www.microsoft.com/en-in/download/details.aspx?id=57518)位) ) 中包含的 StatsManWebSite.msi (并指定以下内容，在主机上安装网站：
+通过运行 Skype for Business Server、Real-Time 统计信息管理器[ (64](https://www.microsoft.com/en-in/download/details.aspx?id=57518)位 () ) 中包含的 StatsManWebSite.msi (并指定以下内容，在主机上安装网站：
   
 1. 查看许可协议，如果同意，请选择"**我接受许可协议中的条款"，** 然后单击"下一步 **"。** 
     
@@ -166,7 +166,7 @@ Web 安装程序添加本地安全组，称为 StatsManWebSiteUsers。 你可以
     
    - **安装目录：** 这是将安装二进制文件的目录。 可以使用"浏览..."按钮更改默认值。 
     
-   - **AppData 目录：** 这是将存储 Logs 文件夹和加密password.txt目录。 你可能需要更改默认值。 卸载时不会删除它。
+   - **AppData 目录：** 这是将存储 Logs 文件夹和加密文件password.txt目录。 你可能需要更改默认值。 卸载时不会删除它。
     
 3. 单击“**安装**”。
     
@@ -245,7 +245,7 @@ Get-Help .\Update-StatsManServerInfo.ps1 -Detailed
         
     2. 如果代理位于拓扑中未列出的服务器上 (例如 SQL AlwaysOn 群集) 中的节点，则需要按照导入拓扑中的说明手动添加[代理](deploy.md#BKMK_ImportTopology)。
     
-- 代理能否联系侦听器？
+- 代理能否与侦听器联系？
     
     1. 确保侦听器服务正在运行。 
         
@@ -292,7 +292,7 @@ Microsoft 强烈建议使用由受信任的证书颁发机构签名的证书。 
     
 7. 单击“**确定**”。
     
-8. 在 **"完全控制**"下，取消选中 **"允许** "复选框。  ("只读"权限是必需的。) 
+8. 在 **"完全控制**"下，取消选中 **"允许** "复选框。  (只有读取权限是必需的。) 
     
 9. 单击“**确定**”。
     

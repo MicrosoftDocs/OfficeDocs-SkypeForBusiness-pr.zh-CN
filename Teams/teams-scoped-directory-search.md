@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sbhatta
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -19,23 +19,23 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9602615d0c2217a828a2530564c49f9a1009c96b78ad06e78ba2ca79b9e29c05
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 82fb18f60bf812bcc6b7535cdbf2589e60e1d399
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54285621"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627424"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>使用 Microsoft Teams 范围目录搜索
 
-Microsoft Teams范围的目录搜索允许组织创建虚拟边界，控制用户如何查找和与组织中其他用户通信。 
+Microsoft Teams范围目录搜索允许组织创建虚拟边界，控制用户如何查找和与组织中其他用户进行通信。 
 
-Microsoft Teams允许组织向用户提供目录的自定义视图。 Microsoft Teams信息[屏障策略来支持](/microsoft-365/compliance/information-barriers)这些自定义视图。 启用策略后，将搜索其他用户返回的结果 (例如，启动聊天或将成员添加到团队) 将按配置的策略进行范围设置。 当范围搜索生效时，用户将无法搜索或发现任何团队，但这些团队中的现有成员可以添加用户，如活动信息屏障策略所允许。
+Microsoft Teams允许组织向用户提供目录的自定义视图。 Microsoft Teams信息[屏障策略来支持](/microsoft-365/compliance/information-barriers)这些自定义视图。 启用策略后，将搜索其他用户返回的结果 (例如，启动聊天或将成员添加到团队) 将按照配置的策略进行范围设置。 当范围搜索生效时，用户将无法搜索或发现任何团队，但这些团队中的现有成员可以添加用户，这是活动信息屏障策略所允许的。
 
 > [!NOTE]
 > 在Exchange环境中，此功能仅适用于Exchange Online邮箱，而与本地邮箱不同。
 
-另请参阅[Exchange Online 中的通讯簿策略](/exchange/address-books/address-book-policies/address-book-policies)。
+另请参阅[中的通讯簿Exchange Online。](/exchange/address-books/address-book-policies/address-book-policies)
 
 ## <a name="when-should-you-use-scoped-directory-searches"></a>何时应该使用范围目录搜索？
 
@@ -47,15 +47,15 @@ Microsoft Teams允许组织向用户提供目录的自定义视图。 Microsoft 
 若要了解如何使用通讯簿策略，请阅读中的信息[屏障Exchange Online。](/microsoft-365/compliance/information-barriers)
 
 > [!IMPORTANT]
-> 通讯簿策略仅从目录角度提供用户虚拟隔离。 另请注意，在强制执行新的或更新的通讯簿策略之前，已缓存的任何用户数据都将在最多 30 天内可供用户使用。
+> 通讯簿策略仅从目录角度提供用户虚拟隔离。 另请注意，在强制执行新的或更新的通讯簿策略之前，已缓存的任何用户数据将保留最多 30 天。
 
 ## <a name="turn-on-scoped-directory-search"></a>打开范围目录搜索
 
 1. 使用信息屏障策略将组织配置为虚拟子组。 有关详细信息，请参阅 [定义信息屏障策略](/microsoft-365/compliance/information-barriers-policies)。
 
-2. 在Microsoft Teams管理中心，选择 **"组织范围的设置"Teams**  >  **设置"。**
+2. 在Microsoft Teams管理中心中，选择 **"组织范围的设置"Teams**  >  **设置"。**
 
-3. 在 **"搜索**"下，在"使用 ABP Teams地址簿策略Exchange范围目录搜索 **("** 下) "打开 **"。**
+3. 在 **"搜索**"下，使用 ABP Teams地址簿策略Exchange范围目录搜索 **(") "，** 将开关 **打开**。
 
     ![管理中心中的Microsoft Teams目录搜索](media/teams-scoped-directory-search-image1.png)
 

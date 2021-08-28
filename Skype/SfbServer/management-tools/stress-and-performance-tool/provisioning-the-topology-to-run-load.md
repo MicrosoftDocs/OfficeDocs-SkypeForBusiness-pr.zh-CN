@@ -10,22 +10,22 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 143cf9bd-b935-494d-817c-a8b0ccc61eb8
 description: Skype for Business Server 2015 拓扑更改或设置，以允许用户成功运行压力和性能工具。
-ms.openlocfilehash: 750a53882344d4a1df357b049fbd1dcbf01c3368fb903552bc5f398761cce66a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 224a2c1afde71ce94b69826ee0222dce729d22d4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328107"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611911"
 ---
 # <a name="provisioning-the-topology-to-run-load-in-stress-and-performance-scenarios"></a>设置拓扑以在压力和性能方案中运行负载
  
 Skype for Business Server 2015 拓扑更改或设置，以允许用户成功运行压力和性能工具。
   
-根据您的 2015 年 Skype for Business Server部署的现有设置和配置，您可能需要在环境中进行一些更改。 下面是这些更改的列表：
+根据 2015 年 Skype for Business Server 部署的现有设置和配置，您可能需要在环境中进行一些更改。 下面是这些更改的列表：
   
 1. 将Windows PowerShell策略设置为 Unrestricted。 如果不确定当前设置为什么，可以打开命令行管理程序，Skype for Business Server运行以下命令：
     
@@ -41,7 +41,7 @@ Skype for Business Server 2015 拓扑更改或设置，以允许用户成功运�
 
 2. 若要有效地Skype for Business Server，您需要：
     
-    - 熟悉 2015 Skype for Business Server 2015 拓扑 (例如计算机名称、服务实例、站点名称和策略) 。
+    - 熟悉 Skype for Business Server 2015 拓扑结构 (例如计算机名称、服务实例、站点名称和策略) 。
     
     - 为组分配一些创建的用户，例如响应组 (，例如 SIP URI) 。
     
@@ -51,8 +51,8 @@ Skype for Business Server 2015 拓扑更改或设置，以允许用户成功运�
    PowerShell.exe -file <path to the file>
    ```
 
-4. 通常，在此包中运行脚本后，生成的跟踪将存储在运行该脚本的同一路径的文件中。 还有一种命名格式 \<scriptname\> ，$h$m$s.txt。 因此，如果你在 12：15 ArchivingPolicy.ps1运行了该日志文件，ArchivingPolicy121500.txt。
+4. 通常，在此包中运行脚本后，生成的跟踪将存储在运行脚本的同一路径的文件中。 还有一种命名格式 \<scriptname\> ，$h$m$s.txt。 因此，如果你在 12：15 ArchivingPolicy.ps1运行该日志文件，你将看到一个名为 ArchivingPolicy121500.txt。
     
-5. 我们已为服务器配置提供了这些示例，但由你负责修改配置和还原配置，或在运行完负载测试后将其回滚。
+5. 虽然我们已为服务器配置提供了这些示例，但由你负责修改配置和还原或在运行完负载测试后回滚配置。
     
 

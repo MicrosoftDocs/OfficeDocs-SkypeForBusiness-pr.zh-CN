@@ -9,18 +9,18 @@ ms.service: msteams
 ms.collection:
 - M365-collaboration
 ms.reviewer: lsomi
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 使用本指南将 Microsoft Teams作为第一个Microsoft 365或Office 365工作负荷。
 ROBOTS: NOINDEX, NOFOLLOW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b52bbef87b08fd541a444e5613aed17032739f67
-ms.sourcegitcommit: 2e1d97a3181fe12be43a0641039dca6077863f44
+ms.openlocfilehash: c94768c4e95799d0d6f2c98f24a900ac096abd6e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "58380436"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627034"
 ---
 # <a name="roll-out-microsoft-teams-first"></a>首次Microsoft Teams推出
 
@@ -29,17 +29,17 @@ Microsoft Teams可帮助员工保持联系和协作，尤其是在当前前所�
 本文详细介绍了使用"第一"方法Teams注意事项。
 
 > [!IMPORTANT]
-> 尽管Teams部署工作负荷可能是组织的第一个云部署工作负荷，但Teams部署应是总体云部署策略的一部分。
+> 尽管Teams可能是组织的第一个云部署工作负荷，但部署 Teams应是总体云部署策略的一部分。
 
-如果已推出其他 Microsoft 365 或 Office 365 服务，并且 Teams 是下一个要推出 (而不是第一个) 的工作负荷，请从如何推出 Teams[开始](./deploy-overview.md)。
+如果已推出其他 Microsoft 365 或 Office 365 服务，Teams 是下一个要推出 (而不是第一个) 的工作负荷，请从如何推出 Teams[开始](./deploy-overview.md)。
 
 ## <a name="start-here"></a>从这里开始
 
-若要开始使用 Teams第一个部署，至少需要满足一些先决条件。 以下列表将显示为组织设置的位置，才能启用Teams功能：
+若要开始使用 Teams第一个部署，至少需要满足一些先决条件。 以下列表将显示在启用之前，必须为组织Teams哪些内容：
 
-1.  使用Microsoft 365 Office 365的域或组织
+1.  使用Microsoft 365 Office 365的用户或组织
 
-2.  Azure Active Directory连接 (AAD) 或类似的云标识同步解决方案 - 与租户同步所有必需属性  
+2.  Azure Active Directory AAD (连接) 或类似云标识同步解决方案 - 与租户同步所有必需属性  
     若要了解与 AAD 同步同步的属性，请阅读[Azure AD 连接同步：同步](/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)到 Azure Active Directory
 
 3.  为用户分配了相应的用户Teams  
@@ -48,7 +48,7 @@ Microsoft Teams可帮助员工保持联系和协作，尤其是在当前前所�
 4.  组织的网络已准备好用于Teams  
     若要了解网络准备，请阅读[准备组织的网络以Teams。](prepare-network.md)
 
-5.  允许网络访问 Exchange SharePoint 或 Microsoft 365 Office 365 OneDrive for Business 中的Microsoft 365、Office 365 URL 和[IP 地址范围](/office365/enterprise/urls-and-ip-address-ranges)。
+5.  允许网络访问Exchange、SharePoint OneDrive for Business Microsoft 365或Office 365：Office 365 URL 和 IP 地址[范围](/office365/enterprise/urls-and-ip-address-ranges)。
 
 > [!NOTE]
 > 在 2019 年 9 月 1 日之后创建的租户在"仅Teams预配。
@@ -62,29 +62,29 @@ Microsoft Teams可帮助员工保持联系和协作，尤其是在当前前所�
 
 **租户Teams配置**：租户和用户模式用于控制收件人的行为。 可以在租户级别或组织中用户级别分配这些设置。 若要了解有关详细信息，请阅读[与 Skype for Business](coexistence-chat-calls-presence.md)共存。
 
-**聊天/外部** 通信Teams：聊天服务是指组织内部或组织外部的对等或群组聊天对话。 外部通信也称为联合身份验证Skype for Business。
+**聊天/外部** Teams：聊天服务是指组织内部或组织外部的对等或群组聊天对话。 外部通信也称为联合身份验证Skype for Business。
 
-**在 Teams** 创建和查看会议：用户始终可以通过 Outlook Teams 加载项创建联机会议，在用户获得许可后，PSTN 拨入功能在所有方案中均可用。 Teams Skype for Business将日历信息存储在用户的邮箱中Exchange信息。 本地Exchange服务器必须Exchange Server 2016 CU3 或Teams客户端才能与用户的邮箱交互。 如果不Exchange邮箱访问，Teams日历图标将不会显示，并且用户将无法在 Teams 客户端中查看、创建或修改会议。
+**在 Teams** 创建和查看会议：用户始终可以通过 Outlook Teams 加载项创建联机会议，在用户获得许可后，PSTN 拨入功能在所有方案中均可用。 Teams Skype for Business将日历信息存储在用户的邮箱中Exchange信息。 本地Exchange服务器必须Exchange Server 2016 CU3 或Teams，客户端才能与用户的邮箱交互。 如果不Exchange邮箱访问，Teams日历图标将不会显示，并且用户将无法在 Teams 客户端中查看、创建或修改会议。
 
-**呼叫功能 Teams 中的 VoIP/PSTN：** 呼叫可以是通过 IP (VoIP) 或 PSTN (公用电话) 。 VoIP 连接在客户端Teams本机发生，而 PSTN 连接发生在用户拨打外部电话号码时。  
+**呼叫功能 Teams 中的 VoIP/PSTN：** 呼叫可以是通过 IP (VoIP) 或 PSTN (电话) 。 VoIP 连接在客户端Teams本机发生，而 PSTN 连接发生在用户拨打外部电话号码时。  
 
 Teams支持两种类型的 PSTN 连接。 Microsoft 呼叫计划，当 Microsoft 提供电话基础结构（包括用户的电话号码）或直接路由配置时，客户通过会话边界控制器 (SBC) 为 Teams 用户提供电话连接。  
-若要了解有关详细信息，请阅读[哪种呼叫计划适合你？电话系统](calling-plan-landing-page.md)[直接路由"。](direct-routing-landing-page.md)
+若要了解有关详细信息，请阅读[哪种呼叫计划适合你？电话系统](calling-plan-landing-page.md)[直接路由"](direct-routing-landing-page.md)。
 
-**Teams团队** 和频道Teams：在Teams，团队是一组为了工作、项目或共同兴趣而聚在一起的人。 Teams由频道决定。 每个频道围绕主题构建，例如"团队事件"、部门名称或只是为了娱乐。 频道是一起召开会议、进行对话以及处理文件的地方。 协作期间
+**Teams团队** 协作和频道Teams：在Teams，团队是一组人员，他们共同协作处理工作、项目或共同兴趣。 Teams由通道决定。 每个频道围绕主题构建，例如"团队事件"、部门名称或只是为了娱乐。 频道是一起召开会议、进行对话以及处理文件的地方。 协作期间
 
-OneDrive for Business (Teams 中的 **) P2P** 文件共享 ：在 Teams 和频道之外，Teams 用户可以使用 OneDrive for business 或其他 P2P 共享文件程序（如 Citrix 文件、DropBox、Box 和 Google 云端硬盘）对等共享文件。 对于OneDrive，用户必须分配有SharePoint Online 许可证。
+OneDrive for Business (Teams 中的) **P2P** 文件共享 ：在 Teams 和频道之外，Teams 用户可以使用 OneDrive for business 或其他 P2P 共享文件程序（如 Citrix 文件、DropBox、Box 和 Google 云端硬盘）对等共享文件。 对于OneDrive，用户必须分配有SharePoint Online 许可证。
 
 **应用程序** 平台：应用为组织提供开箱即用的工具，以进一步Teams。 这些应用结合了由 Microsoft 提供的选项卡、消息传送扩展、连接器和机器人的功能，由第三方构建，或由组织中的开发人员提供。
 
-安全性和符合性 **功能：Teams** 提供大量信息来帮助你处理合规性领域，包括保留策略、数据丢失防护 (DLP) 、电子数据展示和通道、聊天和文件法定保留、审核日志 搜索。 若要了解有关详细信息，请阅读[中的安全性和](security-compliance-overview.md)Microsoft Teams。  
+安全性和 **符合性** 功能：Teams 提供大量信息来帮助你处理合规性领域，包括保留策略、数据丢失防护 (DLP) 、电子数据展示和通道、聊天和文件法定保留、审核日志 搜索。 若要了解有关详细信息，请阅读[中的安全性和符合性Microsoft Teams。](security-compliance-overview.md)  
 
 > [!NOTE]
 > 高级电子数据展示功能需要 E5 许可。
 
 [比较许可选项](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans)。
 
-阅读[Exchange Microsoft Teams](exchange-teams-interact.md)交互，了解方案中可用的符合性功能。
+请阅读[Exchange Microsoft Teams交互](exchange-teams-interact.md)，了解方案中可用的符合性功能。
 
 ## <a name="organizations-span-classunderlinewithoutspan-skype-for-business-or-lync-server"></a>没有 **<span class="underline">Skype for Business</span>** Lync Server 的组织
 
@@ -100,19 +100,19 @@ OneDrive for Business (Teams 中的 **) P2P** 文件共享 ：在 Teams 和频�
 <tbody>
 <tr class="odd">
 <td>租户Teams配置</td>
-<td>Teams仅模式，所有聊天和通话功能都Teams模式。</td>
+<td>Teams仅模式，所有聊天和通话功能仅Teams模式。</td>
 </tr>
 <tr class="even">
 <td>聊天/外部通信Teams</td>
-<td><p>组织 (内部Microsoft 365 Office 365内部) 和外部聊天通信Teams。</p>
+<td><p>组织 (内部Microsoft 365 Office 365内部) 和外部聊天通信可能来自Teams。</p>
 <p><em>注意：必须为外部访问配置 DNS 条目。 Skype for Business即使你没有本地或 Skype for Business 或 Microsoft 365 或 Office 365，也需要 DNS 记录，以允许与 Lync 和 Skype for Business 环境联合：<br />
 <a href="/office365/enterprise/external-domain-name-system-records">外部域名系统记录</a></em></p></td>
 </tr>
 <tr class="odd">
-<td>在会议视图中创建和Teams</td>
+<td>在会议中创建和查看Teams</td>
 <td><p>能够通过加载项创建内部和外部Outlook会议。</p>
 <p>PSTN 拨入和拨出功能随音频会议许可证一起提供。</p>
-<p>Teams日历访问Exchange 2016 CU3+ 本地部署，并且已建立 Exchange 混合：使用混合配置向导创建<a href="/exchange/hybrid-deployment/deploy-hybrid">混合部署。</a> </p>
+<p>Teams日历访问Exchange 2016 CU3+ 本地部署，并且Exchange混合：使用混合配置向导创建<a href="/exchange/hybrid-deployment/deploy-hybrid">混合部署。</a> </p>
 
 除了混合Exchange，请建立 Exchange OAuth 身份验证：在组织Exchange Exchange Online [OAuth 身份验证](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)。 
 
@@ -185,7 +185,7 @@ VoIP/PSTN Teams</td>
 </tr>
 <tr class="even">
 <td>聊天/外部通信Teams</td>
-<td>仅在您自己的租户内部， (联合身份验证) 外部通信Skype for Business Lync 服务器部署。</td>
+<td>仅在您自己的租户内部，外部通信 (联合身份验证) 您的 Skype for Business Lync 服务器部署。</td>
 </tr>
 <tr class="odd">
 <td>在会议中创建和查看Teams</td>
@@ -200,7 +200,7 @@ VoIP/PSTN Teams</td>
 <td>通话功能<br />
 VoIP/PSTN Teams</td>
 <td><p>可在租户内部使用 VoIP。</p>
-<p>PSTN 或呼叫计划服务在将用户移动到仅Teams体验之前不可用。</p></td>
+<p>PSTN 或呼叫计划服务在将用户移动到仅Teams之前不可用。</p></td>
 </tr>
 <tr class="odd">
 <td>Teams和频道协作Teams</td>
@@ -209,7 +209,7 @@ VoIP/PSTN Teams</td>
 </tr>
 <tr class="even">
 <td>OneDrive for Business (P2P 文件共享) </td>
-<td>OneDrive for Business要求用户分配SharePoint Online 许可证。 如果没有此许可证，将不可能进行每对等文件共享。</td>
+<td>OneDrive for Business用户必须分配SharePoint Online 许可证。 如果没有此许可证，将不可能进行每对等文件共享。</td>
 </tr>
 <tr class="odd">
 <td>应用程序平台</td>
@@ -221,9 +221,9 @@ VoIP/PSTN Teams</td>
 <td><ul>
 <li><p>保留策略可用。</p></li>
 <li><p>支持电子数据展示和法定保留，以确保通道消息的符合性。</p></li>
-<li><p>可以使用 DLP () 数据丢失防护策略。</p></li>
+<li><p>DLP (数据丢失防护) 可用。</p></li>
 </ul>
-<p>完整功能集可用于Exchange Online;Exchange本地部署支持大多数这些功能。 有关完整列表，请参阅如何<a href="/MicrosoftTeams/exchange-teams-interact">Exchange Teams交互。</a></p>
+<p>完整的功能集可用于Exchange Online;Exchange本地部署支持大多数这些功能。 有关完整列表，请参阅如何<a href="/MicrosoftTeams/exchange-teams-interact">Exchange Teams交互。</a></p>
 <ul>
 </ul></td>
 </tr>
@@ -234,7 +234,7 @@ VoIP/PSTN Teams</td>
 
 1.  满足上述"从此处开始"部分中详述的先决条件。
 
-2.  对于在 2019 年 9 月 1 (之后预配的租户，请将租户切换到"群岛模式"模式，请联系支持人员)   
+2.  对于在 2019 年 9 月 1 (预配的租户，请将租户切换为"群岛模式"模式，请联系支持人员)   
     [设置共存和升级设置](setting-your-coexistence-and-upgrade-settings.md)
 
 3.  根据公司的业务/公司策略配置租户  
@@ -256,7 +256,7 @@ VoIP/PSTN Teams</td>
 
 Microsoft Teams组织能够将所有员工、信息工作者和一线员工汇集在一个平台上。 你可以 [从今天开始](https://products.office.com/microsoft-teams/group-chat-software) 。 你可以在此处联系我们的所有最新公告和每月产品 [更新](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/bg-p/MicrosoftTeamsBlog)。
 
-此外，随着世界各地的公司正在管理当前的 COVID-19 情况，我们创建了一系列内容，可帮助你利用Teams在组织中产生最大影响。
+此外，由于世界各地的公司正在管理当前的 COVID-19 情况，我们创建了一系列内容来帮助你利用 Teams，以在组织中产生最大影响。
 
   - 我们在[COVID-19](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/05/our-commitment-to-customers-during-covid-19/)期间为客户提供的承诺
 
@@ -274,18 +274,18 @@ Microsoft Teams组织能够将所有员工、信息工作者和一线员工汇�
 
   - [帮助教师和学生转换远程学习](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/11/helping-teachers-students-switch-remote-learning/)
 
-  - [使用远程处理设备时保持Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/10/staying-productive-while-working-remotely-with-microsoft-teams/)
+  - [在远程使用客户端时保持Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/10/staying-productive-while-working-remotely-with-microsoft-teams/)
 
 ## <a name="support-services-reference"></a>支持服务参考
 
-Teams依赖 Exchange Online、SharePoint Online、OneDrive for Business Microsoft 365 组为用户提供完全集成的 Microsoft 365 或 Office 365 体验。 如上所述，Teams完全部署这些服务（功能有限）即可正常工作。 可以在此处阅读有关Teams及其先决条件的更多信息：欢迎[使用 Teams。](teams-overview.md)
+Teams依赖于 Exchange Online、SharePoint Online、OneDrive for Business Microsoft 365 组为用户提供完全集成的 Microsoft 365 或 Office 365 体验。 如上所述，Teams完全部署这些服务即可使用 ， 但功能有限。 可以在此处阅读有关Teams及其先决条件的更多信息：欢迎使用[Teams。](teams-overview.md)
 
 有关上面列出的每个服务的详细信息，请访问以下链接：
 
   - Exchange Online用于日历功能，以及将对等消息存储在 Teams。 有关详细信息，请阅读如何[Exchange Teams交互](exchange-teams-interact.md)
 
 > [!IMPORTANT]
-> 若要Teams本地 Exchange 的互操作，必须配置新的 Exchange OAuth 身份验证协议，如在 Exchange 与 Exchange Online 组织之间配置[OAuth](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)身份验证中所述。
+> 若要Teams本地 Exchange 的互操作，必须配置新的 Exchange OAuth 身份验证协议，如在 Exchange 和 Exchange Online 组织之间配置[OAuth 身份验证中所述](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)。
 
   - SharePoint用于频道中的文件共享，而 /OneDrive for Business 用于 1：1 或群组聊天中的文件共享。 有关详细信息，请阅读[如何SharePoint Online OneDrive for Business如何Microsoft Teams。](sharepoint-onedrive-interact.md)
 
@@ -300,4 +300,4 @@ Teams依赖 Exchange Online、SharePoint Online、OneDrive for Business Microsof
 
 [使用远程工作程序支持Teams](support-remote-work-with-teams.md)
 
-[远程使用Microsoft 365](https://aka.ms/remote-work)
+[远程处理Microsoft 365](https://aka.ms/remote-work)

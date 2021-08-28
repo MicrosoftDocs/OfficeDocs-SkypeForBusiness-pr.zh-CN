@@ -1,5 +1,5 @@
 ---
-title: 将文件存储数据移动到文件存储中的Skype for Business Server
+title: 将文件存储数据移动到文件存储中的新Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -9,17 +9,17 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
 description: 如果需要删除当前充当 Skype for Business Server 部署的文件存储的文件服务器，或者需要进行其他会使当前文件存储不可用的更改，则首先需要创建新的共享。 然后，您需要执行以下步骤：
-ms.openlocfilehash: 47363372b5a54390ff4ba2982ffe17e7c5d32e22728a8d78bdd45c6bba28c44d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 40b5476b432f0549049c9d1bcf46c7c9a921255a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350154"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612131"
 ---
-# <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server"></a>将文件存储数据移动到文件存储中的Skype for Business Server
+# <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server"></a>将文件存储数据移动到文件存储中的新Skype for Business Server
 
 如果需要删除当前充当 Skype for Business Server 部署的文件存储的文件服务器，或者需要进行其他会使当前文件存储不可用的更改，则首先需要创建新的共享。 然后，您需要执行以下步骤：
 
@@ -35,17 +35,17 @@ ms.locfileid: "54350154"
 
 ### <a name="to-move-file-store-data-from-one-file-store-to-a-new-file-store"></a>将文件存储数据从一个文件存储移动到新文件存储
 
-1. 以 RTCUniversersalServerAdmins 或 CsServerAdministrator 组（其中安装了 Skype for Business Server 管理工具）的成员登录计算机。
+1. 以 RTCUniversersalServerAdmins 或 CsServerAdministrator 组（其中安装了 Skype for Business Server 管理工具）的成员登录到计算机。
 
 2. 打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。
 
 3. 在左侧导航栏中，单击“拓扑”，然后单击“状态”。
 
-4. 对于使用计划删除的文件存储的每个控制器池、控制器、Standard Edition 服务器和前端池，选择服务器或池，单击 **"操作**"，然后单击"停止 **所有服务"。**
+4. 对于使用计划删除的文件存储的每个控制器池、控制器、Standard Edition 服务器和前端池，选择服务器或池，单击"操作"，然后单击"停止 **所有服务"。** 
 
 5. 以 Domain Admins 组和 RTCUniversalServerAdmins 组成员的身份登录安装了拓扑生成器的计算机。
 
-6. 启动拓扑生成器：单击"**开始"，单击**"所有程序"，Skype for Business Server"，然后单击"Skype for Business Server **拓扑生成器"。**  
+6. 启动拓扑生成器：**单击"开始**"，单击"所有程序"，Skype for Business Server"，然后单击"Skype for Business Server **拓扑生成器"。** 
 
 7. 选择使用文件存储的服务器或池，然后执行以下操作：
 
@@ -53,7 +53,7 @@ ms.locfileid: "54350154"
 
    b. 在 **"编辑属性"** 中的 **"关联"下的**"**文件存储"下**，单击"**新建"。**
 
-   c. 在 **"定义新文件** 存储"中的"文件服务器 **FQDN"** 下，键入 (FQDN) 的完全限定域名。 在 **"文件共享**"下，键入新文件共享的文件夹名称，然后单击"确定 **"。**
+   c. 在 **"定义新文件** 存储"中的"文件服务器 **FQDN"** 下，键入文件 (FQDN) 的完全限定域名。 在 **"文件共享**"下，键入新文件共享的文件夹名称，然后单击"确定 **"。**
 
      > [!IMPORTANT]
      > 此步骤定义用于拓扑生成器的新文件存储。 只定义一次，而不是为每个服务器定义一次。 在发布拓扑之前，您必须在定义的文件服务器上创建定义的文件存储。 有关详细信息，请参阅[Define the File Store for the Front End](/previous-versions/office/communications/gg133895(v=ocs.14))。

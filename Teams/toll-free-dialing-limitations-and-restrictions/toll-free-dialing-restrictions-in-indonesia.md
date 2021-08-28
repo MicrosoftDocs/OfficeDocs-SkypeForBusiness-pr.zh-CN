@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 了解如何在印度尼西亚拨打免费电话号码，包括可用性、有线/固定线路和移动网络可用性以及限制。
-ms.openlocfilehash: 09438ea5836d0475538d5b15b8b16071b8a79bba3385eb7c0bcce510e4d8902b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 55e17f036261ce7f03417b8cde4a8cb403f3bffe
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335842"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612891"
 ---
 # <a name="toll-free-dialing-restrictions-in-indonesia"></a>印度尼西亚的免费拨号限制
 

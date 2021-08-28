@@ -14,17 +14,17 @@ search.appverid: MET150
 ms.reviewer: rafarhi
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
 description: 管理员可以了解如何在桌面和 Web 客户端以及 B2B 协作门户Microsoft Teams组织Azure Active Directory来宾。
-ms.openlocfilehash: 1525a389b5299491dc7d0de2adfd744d0d3437aff7fbeb5832cd37790ab24ffb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e70b32face0948446ba084f0150dc4da7c9a69b6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344391"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611771"
 ---
 # <a name="add-a-guest-to-a-team"></a>向团队添加来宾
 
@@ -40,7 +40,7 @@ ms.locfileid: "54344391"
 
 利用 AD B2B 协作，组织可以对 B2B 用户强制应用条件访问和多重身份验证 (MFA) 策略。 可以在租户、应用或个人用户级别强制实施这些策略，与针对全职员工和组织成员启用这些策略的方式相同。 此类策略在资源组织上强制应用。 有关详细信息，请参阅 [B2B 协作用户的条件访问](/azure/active-directory/external-identities/conditional-access)。 无法阻止单个来宾。
 
-已通过 Azure AD B2B、Microsoft 365组或SharePoint添加的来宾已准备就绪。 管理员Microsoft 365团队所有者可以将这些来宾添加到各自的团队。 如果将来宾直接添加到与团队关联的 Microsoft 365 组，则来宾将有权访问该团队，但 Microsoft 365 组不会生成给来宾的邀请电子邮件，因此团队中的人应通知来宾。
+已通过 Azure AD B2B、Microsoft 365组或 SharePoint添加的来宾已准备就绪。 管理员Microsoft 365团队所有者可以将这些来宾添加到各自的团队。 如果将来宾直接添加到与团队关联的 Microsoft 365 组，则来宾将有权访问该团队，但 Microsoft 365 组不会生成给来宾的邀请电子邮件，因此团队中的人应通知来宾。
 
 > [!NOTE]
 > 来宾受 [Microsoft 365 或 Office 365](/office365/servicedescriptions/office-365-service-descriptions-technet-library) 和 [Azure Active Directory](/azure/active-directory/external-identities/current-limitations) 服务限制约束。

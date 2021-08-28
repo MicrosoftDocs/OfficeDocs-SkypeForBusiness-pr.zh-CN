@@ -9,22 +9,22 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 946189fa-521f-455c-9762-904e7e41b791
 description: 摘要：阅读本主题，解决统计信息管理器部署问题Skype for Business Server。
-ms.openlocfilehash: 457790514cb769edce6deafc23857a59749b1102cf4c33206eac836d11c75c6a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 622e3fdecc9cbe0def1f87a623692cb93889bb00
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333204"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612051"
 ---
 # <a name="troubleshoot-statistics-manager-for-skype-for-business-server"></a>对 Skype for Business Server 的统计信息管理器进行故障排除
  
 **摘要：** 阅读本主题，了解统计信息管理器部署疑难解答Skype for Business Server。
   
-本主题介绍如何通过描述你可能在应用程序事件日志中看到的事件以及你为纠正事件可能采取的适当操作来排查统计信息管理器部署问题。 本主题包含以下各部分：
+本主题介绍如何通过描述你可能在应用程序事件日志中看到的事件以及你为纠正事件可能采取的适当操作，来对统计信息管理器部署进行疑难解答。 本主题包含以下各部分：
   
 - [代理事件](troubleshoot.md#BKMK_Agent)
     
@@ -35,11 +35,11 @@ ms.locfileid: "54333204"
 ## <a name="agent-events"></a>代理事件
 <a name="BKMK_Agent"> </a>
 
-- **1000** — 无法设置作业对象 (限制) — 未知原因
+- **1000** — 无法为作业对象设置 (限制) — 未知原因
     
-- **1001** — 在作业对象对象 (中，不允许进程限制) 
+- **1001** - 在作业对象模型内 (进程上不允许进程) 
     
-    代理在作业对象Windows自动限制其内存占用。 如果代理不会启动，并且这些事件条目存在于事件日志中，则不能在服务器上实例化作业对象。 若要处理此情况，可以通过更改以下项中的值来配置文件：
+    代理在作业对象Windows自动限制其内存占用。 如果代理不会启动，并且这些事件条目存在于事件日志中，则不能在服务器上实例化作业对象。 若要处理此情况，可以通过更改以下项中的值来删除配置文件：
     
   ```console
   C:\Program Files\Skype for Business Server StatsMan Agent\PerfAgent.exe.config
@@ -60,13 +60,13 @@ ms.locfileid: "54333204"
     
     如果代理无法连接到侦听器计算机，请检查以下内容：
     
-    1. 确保侦听器服务在侦听器计算机上运行。 如果没有，请确保 Redis 正在该服务器上运行，然后重新启动侦听器服务。
+    1. 确保侦听器服务在侦听器计算机上运行。 如果不是，请确保 Redis 正在该服务器上运行，然后重新启动侦听器服务。
         
-        检查侦听器计算机上统计信息管理器事件日志以确保统计信息管理器侦听器服务本身没有问题。
+        检查侦听器计算机上统计信息管理器事件日志，以确保统计信息管理器侦听器服务本身没有问题。
         
-    2. 使用连接工具（如 telnet）验证从代理计算机到正确端口上的侦听器的连接。
+    2. 使用 telnet 等连接工具验证从代理计算机到正确端口上的侦听器的连接。
         
-        如果没有，请确保在侦听器计算机上为侦听器计算机连接到专用/公共/域 (类型的网络类型启用传入防火墙) 。 如果侦听器计算机未加入域，则网络可能列为公共网络，在这种情况下，随统计信息管理器一起安装的防火墙规则将默认不适用。
+        如果没有，请确保在侦听器计算机上为侦听器计算机连接到专用/公共/域 (类型的网络类型启用传入防火墙) 。 如果侦听器计算机未加入域，则网络可能列为公共网络，在这种情况下，随统计信息管理器一起安装的防火墙规则在默认情况下不适用。
     
 - **4000** - 无法从侦听器下载服务器信息 (未知原因) 
     
@@ -105,7 +105,7 @@ ms.locfileid: "54333204"
     
   - **10001** — 配置问题
     
-    通常，当 [listener_install_location]\PerfAgentListener.exe.config文件已手动修改且无法由应用程序读取时，将会出现此情况。
+    通常，当 [listener_install_location]\PerfAgentListener.exe.config文件已手动修改并且应用程序无法读取时，将会发生这种情况。
     
   - **10002** — HTTP 侦听器初始化错误
     
@@ -147,9 +147,9 @@ ms.locfileid: "54333204"
     
 - **23000** - EventLogQueryManager 的初始化 (或失败后成功) 
     
-- **24000** - 首次初始化 serverinfo (或失败后成功) 
+- **24000** - serverinfo 的初始化 (或失败后成功) 
     
-- **25000** - 侦听器在无法发布或首次成功发布 (或首次成功发布) 
+- **25000** - 侦听器在未能发布或首次成功发布 (后重新联机) 
     
 - **5000** — 启动脱机侦听器以发布数据
     
@@ -160,7 +160,7 @@ ms.locfileid: "54333204"
 ## <a name="website-issues"></a>网站问题
 <a name="BKMK_Website"> </a>
 
-- Chrome 中的重复登录提示 - 这是已在版本 1.1 中解决的 Bug。 如果你在 Chrome 浏览器中看到重复的登录提示，请确保你已升级到最新版本的统计信息管理器。 若要验证您正在运行的网站的版本，请运行以下代码：
+- Chrome 中的重复登录提示 - 这是一个已在版本 1.1 中解决的 Bug。 如果你在 Chrome 浏览器中看到重复的登录提示，请确保你已升级到最新版本的统计信息管理器。 若要验证您正在运行的网站版本，请运行以下代码：
     
   - 在文件资源管理器中， (默认目录) 
     

@@ -11,22 +11,22 @@ search.appverid: MET150
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
 description: 'Learn how to get the status of your port orders, and what the different actions you can take on them. '
-ms.openlocfilehash: 607e5680c180f8440f6e09dc28a8de0b069f98e996ccb9c5e6c1b45cbb0753f3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9bf0b66af230ee27036a891572dc92f292cb4d50
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342887"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613041"
 ---
 # <a name="whats-the-status-of-your-port-orders"></a>你的转网订单的状态是什么？
 
-若要查看转口订单的状态，请在 Microsoft Teams 管理中心的左侧导航中，转到"语音转>订单"，然后单击"订单  >  **历史记录"。** 每个移植订单状态都列在"状态 **"** 列中。 [查看移植号需要](../phone-number-calling-plans/port-order-overview.md#how-long-does-it-take-to-port-numbers)多久才能了解订单过程。 
+若要查看转口订单的状态，请在 Microsoft Teams 管理中心的左侧导航栏中，转到"语音转>订单 **"，然后单击**"订单  >  **历史记录"。** 每个移植订单状态都列在"状态 **"** 列中。 [查看移植号需要](../phone-number-calling-plans/port-order-overview.md#how-long-does-it-take-to-port-numbers)多久才能了解订单过程。 
 
 下表列出了移植订单状态，以及可根据需要采取的操作。
 
@@ -34,8 +34,8 @@ ms.locfileid: "54342887"
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |**正在处理** <br/> |是  <br/> |否  <br/> |是  <br/> |否  <br/> |管理员创建了订单，Microsoft 已收到订单。  <br/> |
 |**联系运营商** <br/> |是  <br/> |否  <br/> |是  <br/> |否  <br/> |订单已由 Microsoft 接收和批准，我们正在与丢失的运营商合作以获得批准。  <br/> |
-|**已批准的转移** <br/> |是  <br/> |否  <br/> |是  <br/> |否  <br/> |订单已由丢失的运营商接受，并且已设置 FOC (") 承诺"。  <br/> |
-|**正在等待转移** <br/> |是  <br/> |否  <br/> |否  <br/> |否  <br/> |转移时间不到 24 小时，因此无法再编辑或取消订单。  <br/> |
+|**已批准的转移** <br/> |是  <br/> |否  <br/> |是  <br/> |否  <br/> |订单已由丢失的运营商接受，并且 FOC (承诺) 日期已设置。  <br/> |
+|**正在等待转移** <br/> |是  <br/> |否  <br/> |否  <br/> |否  <br/> |转移距离不超过 24 小时，因此无法再编辑或取消订单。  <br/> |
 |**Error** <br/> |否  <br/> |是  <br/> |是  <br/> |可以 (，如果存在错误，则不能删除移植订单。 需要重新创建移植订单，或者你需要联系[PSTN 服务台帮助。](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)  <br/> |丢失的运营商拒绝了订单。  <br/> |
 |**已完成** <br/> |是  <br/> |否  <br/> |否  <br/> |否  <br/> |已成功转移号码。  <br/> |
 |**已取消** <br/> |否  <br/> |是  <br/> |否  <br/> |否  <br/> |管理员取消了订单。  <br/> |
