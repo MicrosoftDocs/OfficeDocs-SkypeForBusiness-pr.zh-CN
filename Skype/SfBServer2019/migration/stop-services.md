@@ -9,18 +9,18 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
-description: 可以使用"Skype for Business Server控制面板"启动或停止特定计算机上运行的所有旧服务，或者启动或停止特定的旧服务。
-ms.openlocfilehash: 058c9d3833f323634b08dc6f2019e987456e8d031c23f7339aad97a78d5e7181
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.localizationpriority: medium
+description: 可以使用控制面板Skype for Business Server或停止特定计算机上运行的所有旧服务，或者启动或停止特定的旧服务。
+ms.openlocfilehash: b69d62a43136f40a68aa4d24940b664d061169db
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324711"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606881"
 ---
 # <a name="stop-legacy-services"></a>停止旧版服务
 
-可以使用"Skype for Business Server控制面板"启动或停止特定计算机上运行的所有旧服务，或者启动或停止特定的旧服务。
+可以使用控制面板Skype for Business Server或停止特定计算机上运行的所有旧服务，或者启动或停止特定的旧服务。
   
 ## <a name="to-start-or-stop-all-skype-for-business-server-services-on-a-computer"></a>启动或停止Skype for Business Server所有服务
 

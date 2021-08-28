@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - SMB
-description: 遗憾的是，某些用户许可证在用户转到并想要使用广播时被Skype 会议 https://broadcast.skype.com 阻止。 如果用户看到此消息，则他们分配到了阻止的许可证之一。 如果仍希望他们使用它，请为其分配另一个Office 365许可证。
-ms.openlocfilehash: d60b945cdcbf050fd869520c0fa9ff86d39d88f0a41d29e34d4be03f0b3bfc2b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 遗憾的是，某些用户许可证在用户访问并想要使用广播时被Skype 会议 https://broadcast.skype.com 阻止。 如果用户看到此消息，则他们分配到了阻止的许可证之一。 如果仍希望他们使用它，请为其分配另一个Office 365许可证。
+ms.openlocfilehash: f8a31a6584020d24bbd4c05d2fe7aeedf6d75d1b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339270"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606731"
 ---
 # <a name="blocked-user-licenses-for-hosting-skype-meeting-broadcast"></a>阻止用于托管广播Skype 会议许可证
 

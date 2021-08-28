@@ -9,18 +9,18 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
-description: Skype for Business Server 企业语音根据规范化为 E.164 格式的电话号码路由呼叫。 这意味着，必须将所有拨打的字符串规范化为 E.164 格式，以便执行反向号码查找 (RNL) 以便可以将其转换为匹配的 SIP URI。 Skype for Business Server提供了操作被调用的 ID 和呼叫者 ID 演示文稿的能力。
-ms.openlocfilehash: f297ca2d2f6aea52494557083b1b7d3206276ba40fbdf1a5c018716bccc55e25
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.localizationpriority: medium
+description: Skype for Business Server 企业语音规范化为 E.164 格式的电话号码路由呼叫。 这意味着必须将所有拨打的字符串规范化为 E.164 格式，以便执行反向号码查找 (RNL) 以便可以将其转换为匹配的 SIP URI。 Skype for Business Server提供了操作被调用的 ID 和呼叫者 ID 演示文稿的能力。
+ms.openlocfilehash: ca51ef7cbb1619877abf1291ffaa2c76087ec6d3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333364"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629634"
 ---
 # <a name="defining-translation-rules-in-skype-for-business-server"></a>定义转换规则Skype for Business Server
 
-Skype for Business Server 企业语音根据规范化为 E.164 格式的电话号码路由呼叫。 这意味着，必须将所有拨打的字符串规范化为 E.164 格式，以便执行反向号码查找 (RNL) 以便可以将其转换为匹配的 SIP URI。 Skype for Business Server提供了操作被调用的 ID 和呼叫者 ID 演示文稿的能力。
+Skype for Business Server 企业语音规范化为 E.164 格式的电话号码路由呼叫。 这意味着必须将所有拨打的字符串规范化为 E.164 格式，以便执行反向号码查找 (RNL) 以便可以将其转换为匹配的 SIP URI。 Skype for Business Server提供了操作被调用的 ID 和呼叫者 ID 演示文稿的能力。
 
 使用 Skype for Business Server，被叫方的电话号码 (即，称为) 的电话号码可以从 E.164 格式转换为中继对等方 (（即关联网关、专用交换机 (PBX) 或 SIP 中继) ）所需的本地拨号格式。 为此，必须定义一个或多个转换规则，以便在将请求 URI 路由至中继对等方之前对其执行转换。
 
@@ -28,7 +28,7 @@ Skype for Business Server 企业语音根据规范化为 E.164 格式的电话�
 
 Skype for Business Server 还可以选择将呼叫者的电话号码 (即呼叫者从) 从 E.164 格式呼叫的电话号码转换为中继对等方所需的本地拨号格式。 例如，可以编写用于删除拨号串开头的 +44 并将其替换为 0144 的转换规则。
 
-**使用"控制面板"Skype for Business Server呼叫者 ID**
+**使用控制面板配置呼叫Skype for Business Server ID**
 
 1. 以 RTCUniversalServerAdmins 组成员的身份或者以 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。 有关详细信息，请参阅委派 [安装权限](/previous-versions/office/lync-server-2013/lync-server-2013-delegate-setup-permissions)。
 2. 打开浏览器窗口，然后输入管理 URL 以打开控制面板。 有关可用于启动控制面板的不同方法的详细信息，Skype for Business安装[并打开管理工具。](../../management-tools/install-and-open-administrative-tools.md)
@@ -51,7 +51,7 @@ Skype for Business Server 还可以选择将呼叫者的电话号码 (即呼叫�
 
 可以使用以下任一方法创建或修改转换规则：
 
-- [](#create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool)使用"建立转换规则"工具指定起始数字、长度、要删除的数字和要添加的数字的值，然后让 Skype for Business Server 控制面板生成相应的匹配模式和转换规则。
+- 使用"建立[转换](#create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool)规则"工具指定起始数字、长度、要删除的数字和要添加的数字的值，然后让 Skype for Business Server 控制面板生成相应的匹配模式和转换规则。
 - [手动编写正则表达式以](#create-or-modify-a-translation-rule-manually) 定义匹配模式和转换规则。
 
 > [!Note]
@@ -59,7 +59,7 @@ Skype for Business Server 还可以选择将呼叫者的电话号码 (即呼叫�
 
 ### <a name="create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool"></a>使用"生成转换规则"工具创建或修改转换规则
 
-如果要定义转换规则，请按照以下步骤操作：在"生成转换规则"工具中输入一组值，并启用 Skype for Business Server 控制面板来生成相应的匹配模式和转换规则。 
+如果要定义转换规则，请按照以下步骤操作：在"生成转换规则"工具中输入一组值，并启用 Skype for Business Server 控制面板，以生成相应的匹配模式和转换规则。 
 
 **使用“构建转换规则”工具定义规则**
 

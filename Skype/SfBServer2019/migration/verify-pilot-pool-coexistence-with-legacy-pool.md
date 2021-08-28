@@ -9,28 +9,28 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 验证试点池与旧池共存的过程。
-ms.openlocfilehash: f9a3fa8a9716d880b8fa2381fd5cafe88509504c2c142ebd5da5c5ab43667cf1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5d2e6adad0f3297260137df0abcd082b750f0345
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341118"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606811"
 ---
 # <a name="verify-pilot-pool-coexistence-with-legacy-pool"></a>验证试点池与旧池的共存情况
 
  **本文内容：**
   
-[验证 Skype for Business Server 2019 服务已启动](#sectionSection0)
+[确认Skype for Business Server 2019 服务已启动](#sectionSection0)
   
 [打开 Skype for Business Server 2019 控制面板](#sectionSection1)
   
 [不要尝试在旧拓扑生成器中打开拓扑](#sectionSection2)
   
-部署试点池之后，需要使用管理工具查看池信息来验证两个池是否共存。 对于 Skype for Business Server 2019 池和旧池，必须使用 Skype for Business Server 2019 控制面板和拓扑生成器工具。 
+部署试点池之后，需要使用管理工具查看池信息来验证两个池是否共存。 对于 Skype for Business Server 2019 池和旧池，必须使用 Skype for Business Server 控制面板和拓扑生成器工具。 
   
-## <a name="verify-that-skype-for-business-server-2019-services-have-started"></a>验证 Skype for Business Server 2019 服务已启动
+## <a name="verify-that-skype-for-business-server-2019-services-have-started"></a>确认Skype for Business Server 2019 服务已启动
 <a name="sectionSection0"> </a>
 
 1. 从 Skype for Business Server 2019 前端服务器中，导航到"管理工具\服务"小程序。
@@ -59,7 +59,7 @@ ms.locfileid: "54341118"
 从 Skype for Business Server 2019 部署中的前端服务器，打开 Skype for Business Server 2019 控制面板并选择旧池。 重复此过程以打开 Skype for Business Server 2019 池。
   
 > [!IMPORTANT]
-> 在 Skype for Business Server 2019 上，必须先将 Silverlight 升级到 Silverlight 版本 5，Skype for Business Server控制面板。 
+> 在 Skype for Business Server 2019 上，必须先将 Silverlight 升级到 Silverlight 版本 5，然后Skype for Business Server控制面板。 
   
 此拓扑现在包括旧版和 Skype for Business Server 2019 服务器角色。 
 

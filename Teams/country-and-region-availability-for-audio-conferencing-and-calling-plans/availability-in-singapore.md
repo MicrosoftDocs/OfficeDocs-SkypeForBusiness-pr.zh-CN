@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是新加坡Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: 387460bd2da08106862949ea7f7d9c7e8f267a0395ac359783fdb9dd076a13dd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 以下是新加坡Microsoft 365 Office 365和Skype for Business Microsoft Teams服务。
+ms.openlocfilehash: a73bbc72eb83a65a56b53e26f4e766be01bd2bd8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343066"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581316"
 ---
 # <a name="availability-in-singapore"></a>在新加坡的可用性
 
 [查找其他国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或详细了解可以在哪些国家/地区使用音频会议和通话套餐。
 
-以下是新加坡Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
+以下是新加坡Microsoft 365 Office 365和Skype for Business Microsoft Teams服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 

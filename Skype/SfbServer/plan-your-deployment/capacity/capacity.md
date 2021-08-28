@@ -9,20 +9,20 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: e557ed2c-9cb2-4c90-8fd1-96a814c47c19
-description: 本节中的主题可帮助您了解如何计划和部署 Skype for Business Server，以便您可以充分规划组织中用户的数量并规划其活动生成的服务器负载。
-ms.openlocfilehash: 317a08c4cadf6efdb70da744c7817ce6cf7d4a75f996feeb33c56be91031c2de
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 本节中的主题帮助您了解如何计划和部署 Skype for Business Server以便您可以充分规划组织中用户的数量并规划其活动生成的服务器负载。
+ms.openlocfilehash: 3fd7a475172f330a8c892a2afa2b6abe78d92042
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276657"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629554"
 ---
 # <a name="capacity-planning-for-skype-for-business-server"></a>规划容量Skype for Business Server
  
-本节中的主题可帮助您了解如何计划和部署 Skype for Business Server，以便您可以充分规划组织中用户的数量并规划其活动生成的服务器负载。 
+本节中的主题帮助您了解如何计划和部署 Skype for Business Server以便您可以充分规划组织中用户的数量并规划其活动生成的服务器负载。 
   
 > [!NOTE]
 > 本节中所有建议均假定你已Skype for Business 2015 年 11 月或更高版本的累积更新。 

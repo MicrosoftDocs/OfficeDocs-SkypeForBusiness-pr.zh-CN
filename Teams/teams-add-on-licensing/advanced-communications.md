@@ -8,8 +8,8 @@ audience: Admin
 ms.reviewer: nogaro
 ms.service: msteams
 search.appverid: MET150
-localization_priority: Normal
-description: 了解适用于高级通信的高级通信附加内容 SKU Microsoft Teams。
+ms.localizationpriority: medium
+description: 了解适用于 Microsoft Teams 的高级通信附加Microsoft Teams。
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 26b959f531daf7fa93bde07a44e4f29aa4a5e0dc
-ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
+ms.openlocfilehash: 9f7b4ba9aa51f73fbe293f1516e265a877cfa1b2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58398921"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581206"
 ---
 # <a name="advanced-communications-add-on-for-microsoft-teams"></a>适用于 Microsoft Teams 的高级通信Microsoft Teams
 
@@ -35,18 +35,18 @@ ms.locfileid: "58398921"
 - 在加入前和大厅中，使用公司的徽标自定义会议预加入体验。 
 - 使用自定义的"共同模式"场景创建统一的会议体验，该场景旨在满足贵公司和会议的需求。
 - 监视、跟踪和分析用户和设备上的数据，以确保使用实时遥测的顺畅体验。
-- 使用管理中心或 PowerShell 为组织中具有类似角色的用户捆绑自己的一组策略，Teams自定义策略包的体验。 每个用户都需要许可证才能接收自定义策略包分配。 
+- 通过使用管理中心或 PowerShell 为组织中具有类似角色的用户捆绑自己的一组策略，Teams自定义策略包的体验。 每个用户都需要许可证才能接收自定义策略包分配。 
 
-高级通信作为任何付费Microsoft 365订阅的附加内容在所有Microsoft 365 Office 365提供。 高级通信中包含的功能不会添加到其他Microsoft 365或Office 365计划中，并且不能单独购买。 若要获取功能，必须购买附加内容。
+高级通信作为任何付费Microsoft 365订阅的附加内容在所有Microsoft 365 Office 365提供。 高级通信中包含的功能不会添加到其他Microsoft 365或Office 365计划中，并且不能单独购买。 若要获取这些功能，必须购买附加内容。
 
 > [!NOTE]
 > 功能将在可用时发布。 有关最新[Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap?filters=Microsoft%20Teams)时间，请访问公共路线图。
 
 > [!NOTE]
-> 高级通信尚不可用于Microsoft 365 GCC或国防部 (DoD) 环境。
+> 高级通信尚不可用于 Microsoft 365 GCC 或国防部 (DoD) 环境。
 
 这些功能现在以预览版提供，直到年底需要每个用户的高级通信许可证才能继续使用这些功能。
 
 ## <a name="related-articles"></a>相关文章
 
-[有关Teams会议呼叫的基于策略&简介](../teams-recording-policy.md)
+[有关Teams会议呼叫的基于策略的录制&简介](../teams-recording-policy.md)

@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
-description: 了解如何备份 响应组服务 (2019) RGS Skype for Business Server数据。
-ms.openlocfilehash: 8b0cbbb41c7bf2a61d21043141d2475a8c69a79696e8cf5cbde6709e2d196c52
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 了解如何在 响应组服务 (2019) 备份 RGS Skype for Business Server数据。
+ms.openlocfilehash: 7e3e4116a281584da7afc1807fe58e79d2528183
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280467"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581156"
 ---
 # <a name="back-up-response-group-service-rgs-data"></a>备份响应组服务 (RGS) 数据
 
@@ -32,7 +32,7 @@ ms.locfileid: "54280467"
 1. 在配对池的两个成员上安装 RGS 数据库：
     - `Install-CsDatabase -ConfiguredDatabases -SqlServerFqdn <Pool1 BackendDatabase FQDN>`
     - `Install-CsDatabase -ConfiguredDatabases -SqlServerFqdn <Pool2 BackendDatabase FQDN>`
-1. 在两个池上运行以下 cmdlet，将现有 RGS 数据复制到备份表，以便 RGSBackupService 可以选取数据：
+1. 在两个池上运行以下 cmdlet 以将现有 RGS 数据复制到备份表，以便 RGSBackupService 可以选取数据：
     - `Invoke-CsRGSStoreReplicateData -PoolFqdn <Pool1 FQDN>`
     - `Invoke-CsRGSStoreReplicateData -PoolFqdn <Pool2 FQDN>`
 1. 启用 RGSBackupService (这将全局启用 RGSBackupService。 如果此参数设置为 true，则 RGSBackupService 将开始同步配对池中的 RGS 数据 (两个池都需要为 CU1) 。 等待几分钟以开始。 最初，RGS BackupService 状态将为 NotInitialized.) ：

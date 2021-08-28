@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 本文介绍采用方案启动阶段Microsoft Teams活动。 了解有关团队Microsoft Teams和团队规划的最佳实践。
 f1.keywords:
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9d9f81b222c0b780b6e03d2394c6481f75e648ad88ef8cb1fc0a6498e53240ff
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 80f0b731df6444ff4ab20ac0f8575f03766c0a40
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312610"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607005"
 ---
 # <a name="microsoft-teams-adoption-phase-1---start"></a>Microsoft Teams 采用第 1 阶段 - 开始
 
@@ -55,7 +55,7 @@ ms.locfileid: "54312610"
 | 项目经理<sup>1</sup> | 监督整个Teams启动执行和推出过程。 | IT |
 | 冠军<sup>1</sup> | 帮助宣传Teams，支持技能构建，并提供使用情况见解。 | 多个部门 |
 | 培训主管 | 管理和传达有关 Teams 的培训Teams。 | IT 或其他 |
-| 部门主管 (利益干系人) <sup>2</sup> | 确定特定部门如何使用Teams并鼓励用户参与。 | 任何部门 (管理)  |
+| 部门主管 (利益干系人) <sup>2</sup> | 确定特定部门如何使用Teams并鼓励参与。 | 任何部门 (管理)  |
 | IT 专家<sup>1</sup> | 监督实施的所有技术方面，包括集成。 | IT |
 | 通信主管<sup>2</sup> | 监督公司范围内有关Teams。 | 公司通信、IT 或其他 |
 | Community管理器 | 管理日常网络Yammer活动。 提供指导和最佳做法。 | 多个部门 |
@@ -67,9 +67,9 @@ ms.locfileid: "54312610"
 
 ## <a name="additional-resources"></a>其他资源
 
-[Microsoft Technical Community](https://aka.ms/TechCommunity)提供对等提供的见解，了解许多应用和Microsoft 365产品的Office 365问题。 建议加入以下社区：
+[Microsoft 技术Community](https://aka.ms/TechCommunity)提供对等提供的见解，了解许多应用和Microsoft 365产品的Office 365问题。 建议加入以下社区：
 
-- [Microsoft Teams技术Community](https://aka.ms/TeamsCommunity) - 获取产品问题解答，向其他 Teams 客户学习，并关注我们的博客，随时了解产品的新功能和Teams。 
+- [Microsoft Teams技术Community](https://aka.ms/TeamsCommunity) - 获取产品问题解答，向其他 Teams 客户学习，并关注我们的博客，随时了解最新功能和 Teams。 
 - [支持者](https://aka.ms/O365Champions)计划与推动采用社区 - 向同行学习如何最好地推动 Microsoft 365 或 Office 365 工作负荷（如 Teams、SharePoint、Yammer 和其他产品的采用）。 向 IT 专业人员、业务用户、"意外"开发人员以及有兴趣推动采用云服务的任何人开放。  
 
 

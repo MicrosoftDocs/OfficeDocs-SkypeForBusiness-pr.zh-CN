@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployMainInstallReplica
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d9c4bcc2-11a7-4d4d-858d-224db217ad32
 description: 若要开始安装新的 Skype for Business Server 2015 角色服务器，必须先安装将SQL Server本地配置存储的本地服务器。 本地配置存储将充当 CMS 管理中心Skype for Business Server管理 (只读) 。 必须以计算机本地管理员的身份登录运行“安装本地配置存储”步骤的服务器，并具有 RTCUniversalServerAdmins 或 RTCUniversalGlobalReadOnlyGroup 组成员身份。 如果在边缘服务器上执行安装，则不需要具有 RTCUniversalServerAdmins 或 RTCUniversalGlobalReadOnlyGroup 组成员身份。 拓扑生成器定义文档将读取导出的定义文档，而不是从中央管理存储中读取。 若要导出拓扑生成器定义文档，使其对边缘服务器可用，请参阅主题 Export Your Topology and Copy It to External Media for Edge Installation。
-ms.openlocfilehash: 62318febe6f6c9028e55b19da0c1be6ca6316d2bf372f78bb95931693028a096
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a1d2fe8ec044f45da7115cda6133c22d2ec835b2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54311660"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629794"
 ---
 # <a name="install-local-configuration-store"></a>安装本地配置存储
 
@@ -35,4 +35,4 @@ ms.locfileid: "54311660"
 3. 完成本地服务器配置安装后，单击 **“完成”**。
 
 > [!NOTE]
-> 安装本地 SQL Server可能需要一些时间。 在安装更新时，安装摘要屏幕中不会SQL Server更新。 如果要监视安装进度，请使用任务管理器来监视SQL Server设置。
+> 安装本地SQL Server可能需要一些时间。 在安装更新时，你将不会在安装摘要屏幕SQL Server更新。 如果要监视安装进度，请使用任务管理器来监视SQL Server设置。

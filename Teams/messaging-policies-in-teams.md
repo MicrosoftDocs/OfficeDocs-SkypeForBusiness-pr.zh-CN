@@ -12,7 +12,7 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -20,18 +20,18 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: 了解消息传送策略以及如何使用策略来控制聊天消息传送Teams。
-ms.openlocfilehash: 3fc25286f9c17d2e4521fbbaa2ff438b33552d4344550d689043f571bfc5c4f0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 535d240054f3bdb670594635e8b89a2f9785d7e1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350684"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629314"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>在 Teams 中管理消息传递策略
 
 <!--- Add zone marker here--->
 
-消息传送策略用于控制哪些聊天和频道消息传送功能可供用户在 ([所有者](assign-roles-permissions.md)) 成员Microsoft Teams。 可以使用自动创建的 (组织范围的默认) 策略，或者创建和分配自定义消息传送策略。
+消息传送策略用于控制哪些聊天和频道消息传送功能可供用户在 ([所有者](assign-roles-permissions.md)和) 使用Microsoft Teams。 可以使用自动创建的 (组织范围内的默认) 策略，或者创建和分配自定义消息传送策略。
 
 除非创建并分配自定义策略，否则组织中的用户将自动获取全局策略。 编辑全局策略中的设置，或创建并分配一个或多个自定义策略以打开或关闭您需要的功能。
 
@@ -80,12 +80,12 @@ ms.locfileid: "54350684"
 - **用户可以编辑已发送的消息** 使用此设置可让用户编辑他们在聊天中发送的消息。
 - **已读回执** 阅读回执允许当收件人在 1：1 和群聊 20 人或更少人中阅读其消息时，聊天消息的发送者收到通知。 消息已读回执会不确定地删除消息是否已阅读，并改进团队沟通。 电子数据展示报告不会捕获已读回执。  
     - **用户控制** 这意味着用户需要决定是打开还是关闭已读回执。 应用中的默认设置为"打开"。 然后，用户可以将其关闭。
-    - **适用于所有人的打开** 这意味着租户中的每个人都将具有"打开"功能，没有关闭该功能的选项。 使用"为所有人打开"设置时，设置整个租户的回执的唯一方法就是为整个租户仅设置一个消息传送策略 (该策略是名为"全局 (组织范围内的默认) 默认) ") ，或者让租户中所有消息传送策略对收据使用相同的设置。 当已读回执功能启用为“**面向所有人打开**”时，该功能最有效。
+    - **适用于所有人的打开** 这意味着租户中的每个人都将具有"开"功能，没有关闭该功能的选项。 使用"为所有人打开"设置时，设置整个租户的回执的唯一方法就是为整个租户只设置一个消息传送策略 (即名为"全局 (组织范围的默认值) ") 或者让租户中所有消息传送策略对收据使用相同的设置。 当已读回执功能启用为“**面向所有人打开**”时，该功能最有效。
     - **为所有人关闭** 这意味着该功能已禁用，租户中没有任何用户具有已读回执，也不能将其打开。
 <a name="bkchat"> </a>
 
-- **聊天** 如果希望您的组织中的用户能够使用 Teams 应用来与其他用户聊天，请启用此设置。
-- **在对话中使用 Giphy**  如果打开 Giphy，用户可以在与他人的聊天对话中包括 Giphy。 Giphy 是一个联机数据库和搜索引擎，允许用户搜索和共享动态 GIF 文件。 每个 Giphy 都分配有一个内容分级。 除了启用此设置外，还需要启用可选连接 [体验](/deployoffice/privacy/manage-privacy-controls#policy-setting-for-optional-connected-experiences) 以允许对话中的 Giphy。
+- **聊天** 如果希望您的组织中的用户能够使用 Teams 应用来与其他用户聊天，请打开此设置。
+- **在对话中使用 Giphy**  如果打开 Giphy，用户可以在与他人的聊天对话中包括 Giphy。 Giphy 是一个联机数据库和搜索引擎，允许用户搜索和共享动态 GIF 文件。 每个 Giphy 都分配有一个内容分级。 除了启用此设置外，还需要启用可选连接 [体验](/deployoffice/privacy/manage-privacy-controls#policy-setting-for-optional-connected-experiences) 以允许聊天中的 Giphy。
 - **Giphy 内容分级**
     - **无限制** 这意味着，无论内容评级如何，用户都能在聊天中插入任何 Giphy。
     - **中等**  这意味着你的用户将能够在聊天中插入 Giphy，但会适度限制成人内容。
@@ -93,7 +93,7 @@ ms.locfileid: "54350684"
 - **在对话中使用 Meme** 如果打开 Meme，用户可以在与他人的聊天对话中包括 Meme。
 - **在对话中使用贴纸** 如果启用此功能，用户可以在与他人的聊天对话中包括贴纸。
 - **允许 URL 预览** 使用此设置可打开或关闭邮件中的自动 URL 预览。
-- **允许用户翻译邮件** 打开此设置，让用户自动将Teams翻译为个人语言设置指定的语言，Microsoft 365 Office 365。
+- **允许用户翻译邮件** 打开此设置，让用户自动Teams邮件翻译成其个人语言设置指定的语言，Microsoft 365 Office 365。
 - **允许沉浸式阅读器查看消息** 打开此设置，让用户在 Microsoft 沉浸式阅读器 中查看消息。 沉浸式阅读器是一种学习工具，可提供全屏阅读体验以提高文本可读性。
 - **使用优先级通知发送紧急消息** 如果启用此功能，用户可以使用优先级通知 [发送消息](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462)。 优先级通知每 2 分钟通知用户 20 分钟，或直到收件人选取并阅读标记为紧急的邮件。 此功能增加了及时处理消息的可能性。
 - **音频消息创建**

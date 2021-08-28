@@ -9,22 +9,22 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: ''
 description: 有关配置呼叫数据连接器的说明，该连接器允许使用 Skype for Business Online 工具查看本地Skype for Business遥测。
-ms.openlocfilehash: bc9346919e3f70d8fe8fe3e43e61a0e715cf0eb9bf52534a2beb2f8604b920f8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0e064e26ce7b8bfb97793666808b0b8a88ab2efc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323684"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581146"
 ---
 # <a name="configure-call-data-connector"></a>配置呼叫数据连接器
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 
-本文介绍如何配置呼叫数据连接器，这是一个工具集，允许使用 Skype for Business Online 呼叫质量仪表板 (CQD) 和 Call Analytics (CA) 工具查看 Skype for Business Server 呼叫质量数据。
+本文介绍如何配置呼叫数据连接器，这是一个工具集，支持使用 Skype for Business Online 呼叫质量仪表板 (CQD) 和 Call Analytics (CA) 工具查看 Skype for Business Server 通话质量数据。
 
 有关呼叫数据连接器的好处和先决条件（如角色要求和设置混合连接）详细信息，请参阅规划 [呼叫数据连接器](plan-call-data-connector.md)。
 
@@ -43,7 +43,7 @@ ms.locfileid: "54323684"
 | :-----------------|---------------:|
 | New-CsCloudCallDataConnection | 建立联机数据收集器的联机 cmdlet。|
 | Get-CsCloudCallDataConnection | 检索现有联机数据收集器的联机 cmdlet。|  
-| Get-CsCloudCallDataConnector | 本地 cmdlet，用于检索由 New-CsCloudCallDataConnection cmdlet 创建的连接信息。 |
+| Get-CsCloudCallDataConnector | 一个本地 cmdlet，用于检索由 New-CsCloudCallDataConnection cmdlet 创建的连接信息。 |
 | Set-CsCloudCallDataConnector | 本地 cmdlet，用于保存由 New-CsCloudCallDataConnection cmdlet 创建的连接信息本地副本。 |  
 | Set-CsCloudCallDataConnectorConfiguration | 允许启用或禁用连接器并自定义范围级别的本地 cmdlet。|
 
@@ -90,7 +90,7 @@ ms.locfileid: "54323684"
 
 上述命令的输出包含一个令牌值，在配置本地环境时将需要此值，如下所示：
 
-在命令行Skype for Business Server命令行管理程序内，指定以下命令：
+在命令行Skype for Business Server中，指定以下命令：
 
 ```PowerShell
 Set-CsCloudCallDataConnector -Identity Global -TenantId <tenant_id> -Token <token-copied-from-online>
@@ -98,7 +98,7 @@ Set-CsCloudCallDataConnector -Identity Global -TenantId <tenant_id> -Token <toke
 
 ### <a name="configure-the-scope"></a>配置作用域
 
-可以使用命令行管理程序内的 Set-CsCloudCallDataConnectorConfiguration cmdlet 为特定站点或整个 Skype for Business Server 部署启用呼叫数据连接器Skype for Business Server连接器。 例如，以下命令在全局范围启用呼叫数据连接器：
+可以在命令行管理程序内使用 Set-CsCloudCallDataConnectorConfiguration cmdlet 为特定站点或整个 Skype for Business Server 部署启用呼叫数据Skype for Business Server连接器。 例如，以下命令在全局范围启用呼叫数据连接器：
 
 ```PowerShell
 Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConnector $True
@@ -133,7 +133,7 @@ Set-CsCloudCallDataConnectorConfiguration -Identity "site:Dublin" -EnableCallDat
 Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConnector $False
 ```
 
-如果要恢复将呼叫数据上载到云，将 EnableCallDataConnector 属性设置回 $True，如以下示例所示：
+如果要恢复将呼叫数据上载到云，请重新将 EnableCallDataConnector 属性设置为 $True，如以下示例所示：
 
 ```PowerShell
 Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConnector $True

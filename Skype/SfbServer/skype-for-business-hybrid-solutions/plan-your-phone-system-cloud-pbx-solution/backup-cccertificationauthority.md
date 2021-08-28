@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 47ed4559-fb63-42cd-8ecd-b7d1617e91d3
 description: 此Backup-CcCertificationAuthority cmdlet 将 Skype for Business 云连接器版本 证书颁发机构服务备份到文件，并保存到网站共享目录下的 CA 文件夹。
-ms.openlocfilehash: abf94977abe2a0c3548b549ae0101ae399e124769eaaa9f05aabf203c69656a3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f7803a1c773ca3561b13ef5a263002cc4b8e049a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282954"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582526"
 ---
 # <a name="backup-cccertificationauthority"></a>Backup-CcCertificationAuthority
  

@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7cc22b87-18d9-45e6-8402-015abd20f2e5
 description: 本主题介绍中介服务器部署的规划准则。
-ms.openlocfilehash: 693a24f6e71b2eee0a3b2881295b65087fe50bf25b03a2647df6df970509f26e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a524d478797c534950637d10efc39e0827d2f2a4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54317457"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629534"
 ---
 # <a name="deployment-guidelines-for-mediation-server-in-skype-for-business-server"></a>中介服务器部署指南Skype for Business Server
  
@@ -38,7 +38,7 @@ ms.locfileid: "54317457"
   
 如果部署的 PSTN 网关、IP-PBX 或会话边界控制器 (SDC) 缺少与中介服务器池交互的能力，则需要将其与由单个中介服务器组成的独立池相关联。 PSTN 网关、IP-PBXs SDC 需要执行以下一些操作：
   
-- 在池 (中的中介服务器之间执行网络层域名系统 (DNS) 负载平衡，或者将流量统一路由到池中所有中介服务器) 。
+- 在池 (中的中介服务器之间执行网络层域名系统 (DNS) 负载平衡) 。
     
 - 接受来自池中任何中介服务器的流量。
     
@@ -49,7 +49,7 @@ ms.locfileid: "54317457"
  中央站点的中介服务器可用于为分支站点的 IP-PBX 或 PSTN 网关路由呼叫。 但是，如果部署 SIP 中继，您必须在每个中继终止的站点上部署中介服务器。 在中央站点部署中介服务器为分支站点上的 IP-PBX 或 PSTN 网关路由呼叫不需要使用媒体旁路，但建议使用媒体旁路。 这是因为，如果可以启用媒体旁路，它将减少媒体路径延迟，从而改善媒体质量，因为媒体路径不需要遵循信号路径。 媒体绕过还将减少池中的处理负载。
   
 > [!NOTE]
-> 媒体旁路不会与每个 PSTN 网关、IP-PBX 和 SBC 互操作。 Microsoft 已经与认证合作伙伴一起测试了一组 PSTN 网关和 SDC，并且已经使用 Cisco IP-PBX 进行了一些测试。 只有统一通信开放式互操作性计划 - Lync Server 中列出的产品和版本才支持媒体旁路，这些产品和版本位于探索支持并扩展您的 Skype for Business体验的经过测试的设备、基础结构和[工具](http://partnersolutions.skypeforbusiness.com/solutionscatalog)。 
+> 媒体旁路不会与每个 PSTN 网关、IP-PBX 和 SBC 互操作。 Microsoft 已经与认证合作伙伴一起测试了一组 PSTN 网关和 SDC，并且已经使用 Cisco IP-PBX 进行了一些测试。 只有统一通信开放式互操作性计划 - Lync Server 中列出的产品和版本才支持媒体旁路，这些产品和版本位于探索支持并扩展您的 Skype for Business 体验的经过测试的设备、基础结构和[工具](http://partnersolutions.skypeforbusiness.com/solutionscatalog)。 
   
 如果要求具有分支站点恢复能力，则必须在分支站点部署 Survivable Branch Appliance 或部署前端服务器、中介服务器和网关的组合。  (分支站点恢复能力的假设是，状态和会议在站点中无法恢复。) 有关分支站点语音规划的指导，请参阅在 Skype for Business Server 中规划[企业语音](../enterprise-voice-solution/enterprise-voice-resiliency.md)恢复能力。
   
@@ -58,4 +58,4 @@ ms.locfileid: "54317457"
 最后，如果中央站点具有 TDM PBX，或者 IP-PBX 仍然需要 PSTN 网关，则必须在连接中介服务器和 PBX 的呼叫路由上部署网关。
   
 > [!NOTE]
-> 若要提高独立中介服务器的媒体性能，您应在这些服务器上网络适配器 (RSS) 启用接收端缩放。 通过启用 RSS，服务器上的多个处理器能够以并行方式处理传入数据包。 有关详细信息，请参阅["Windows Server 中的接收端缩放增强功能](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh997036(v=ws.11))"。 若要详细了解如何启用 RSS，请参阅网络适配器文档。 
+> 若要提高独立中介服务器的媒体性能，应在这些 (网络适配器) RSS 客户端启用接收端缩放。 通过启用 RSS，服务器上的多个处理器能够以并行方式处理传入数据包。 有关详细信息，请参阅"[Receive-Side Scaling Enhancements in Windows Server"。](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh997036(v=ws.11)) 若要详细了解如何启用 RSS，请参阅网络适配器文档。 

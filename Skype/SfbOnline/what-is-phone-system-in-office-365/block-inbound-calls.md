@@ -11,14 +11,14 @@ audience: Admin
 ms.reviewer: roykuntz
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom: Learn how to use PowerShell to manage inbound call blocking in Skype for Business Online.
-ms.openlocfilehash: ff1dfa87d6b88cdcab46a6ea080b2aa8b61d3ba757ab922ae04f2b4b2d2aa70d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8b4c26fb1f0a34c2dd0b7fb5159398e7eaf54df3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342537"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581126"
 ---
 # <a name="block-inbound-calls"></a>阻止入站呼叫
 
@@ -40,14 +40,14 @@ Skype for Business联机呼叫计划现在支持阻止来自公共电话交换�
 ## <a name="call-blocking-powershell-commands"></a>调用阻止 PowerShell 命令
 
 数字模式通过命令 ```CsInboundBlockedNumberPattern``` ```New``` ```Get``` 、、 和 ```Set``` 进行管理 ```Remove``` 。 可以使用这些 cmdlet 管理给定的模式，包括切换给定模式的激活。
-- [Get-CsInboundBlockedNumberPattern](/powershell/module/skype/get-csinboundblockednumberpattern) 返回添加到租户列表的所有阻止数字模式的列表，包括名称、说明、已启用 (True/False) 和每个模式。
+- [Get-CsInboundBlockedNumberPattern](/powershell/module/skype/get-csinboundblockednumberpattern) 返回添加到租户列表的所有阻止数字模式的列表，包括每个模式的名称、说明、已启用的 (True/False) 和 Pattern。
 - [New-CsInboundBlockedNumberPattern](/powershell/module/skype/new-csinboundblockednumberpattern) 将阻止的编号模式添加到租户列表。
 - [Remove-CsInboundBlockedNumberPattern](/powershell/module/skype/remove-csinboundblockednumberpattern) 从租户列表中删除阻止的编号模式。
 - [Set-CsInboundBlockedNumberPattern](/powershell/module/skype/set-csinboundblockednumberpattern) 修改租户列表中的阻止数字模式的一个或多个参数。
 
 通过 命令 和 管理查看和激活整个呼叫阻止 ```CsTenantBlockingCallingNumbers``` ```Get``` 功能 ```Set``` 。
 
-- [Get-CsTenantBlockedCallingNumbers](/powershell/module/skype/get-cstenantblockedcallingnumbers) 返回全局阻止数字列表的参数，包括"已启用" (True/False) 。 只有打开或关闭该功能，才能手动修改单个全局租户策略。
+- [Get-CsTenantBlockedCallingNumbers](/powershell/module/skype/get-cstenantblockedcallingnumbers) 返回全局阻止数字列表的参数，包括 Enabled (True/False) 。 只有打开或关闭该功能，才能手动修改单个全局租户策略。
 - [Set-CsTenantBlockedCallingNumbers](/powershell/module/skype/set-cstenantblockedcallingnumbers) 允许修改在租户级别打开和关闭全局租户阻止的调用。
 
 ### <a name="examples"></a>示例
@@ -64,7 +64,7 @@ New-CsInboundBlockedNumberPattern -Name “<name>” -Enabled $True -Description
 
 我们建议提供一个有意义的名称，以便轻松了解添加模式的原因。 如果只是阻止垃圾邮件号码，请考虑将规则命名为与匹配的数字模式相同的规则，并根据需要在说明中添加其他信息。
 
-模式使用正则表达式和正则表达式 (正则表达式) 。 在测试和验证之前，请留出时间进行复制。
+使用正则表达式和正则表达式 (正则表达式) 。 在测试和验证之前，请留出时间进行复制。
 
 #### <a name="allow-a-number"></a>允许数字
 
@@ -86,7 +86,7 @@ Remove-CsInboundBlockedNumberPattern -Identity “<identity>”
 Get-CsInboundBlockedNumberPattern
 ```
 
-使用内置的 PowerShell 筛选功能可分析所需的返回值。
+使用内置的 PowerShell 筛选功能，可分析所需的返回值。
 
 ## <a name="add-number-exceptions"></a>添加数字异常
 

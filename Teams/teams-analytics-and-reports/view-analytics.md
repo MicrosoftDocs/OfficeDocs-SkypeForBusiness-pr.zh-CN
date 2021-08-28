@@ -1,5 +1,5 @@
 ---
-title: 在 Teams 中查看Teams
+title: 在分析中查看Teams
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -9,23 +9,23 @@ ms.service: msteams
 ms.reviewer: rahulmi
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 MS.collection:
 - M365-collaboration
-description: 了解 Teams 中的跨团队分析、按团队分析和按频道分析，让用户查看他们参与的团队或频道的使用情况数据。
+description: 了解 Teams 中的跨团队分析、每团队分析和每频道分析，让用户查看他们参与的团队或频道的使用情况数据。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e5eac5dd4b16511041da58bc16d142a613c365982fb5f58b3c308b05df2924ff
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0aa140482188436a08732638196af64402e6ed15
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54292949"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606995"
 ---
-# <a name="view-analytics-in-teams"></a>在 Teams 中查看Teams
+# <a name="view-analytics-in-teams"></a>在分析中查看Teams
 
-在Microsoft Teams中，用户可以查看他们参与的团队和频道的分析。 此信息可让用户深入了解团队中的使用模式和活动。 用户可以在三个级别查看活动用户数、帖子、回复等数据。
+在Microsoft Teams中，用户可以查看他们参与的团队和频道的分析。 此信息可让用户深入了解其团队中的使用模式和活动。 用户可以在三个级别查看活动用户数、帖子、回复等数据。
 
 - **跨团队分析** 让用户在单个列表视图中大致了解他们作为成员或所有者的所有团队的使用情况数据。
 - **按团队分析** 为用户提供更精细的视图，显示特定团队的使用情况数据。
@@ -53,7 +53,7 @@ ms.locfileid: "54292949"
 
 ## <a name="view-per-team-analytics"></a>查看每个团队的分析
 
-1. 在Teams中，转到你需要的团队，单击"更多选项 **" (...) "，** 然后单击"**管理团队"。**
+1. 在Teams中，转到想要的团队，单击"更多选项 **" (...) "，** 然后单击"**管理团队"。**
 2. 单击" **分析"** 选项卡。
 4. 选择一个日期范围以显示团队的使用情况数据。  
 
@@ -61,7 +61,7 @@ ms.locfileid: "54292949"
 
     |项目 |说明  |
     |--------|-------------|
-    |**摘要**   |团队活动摘要，包括以下内容：<ul><li>**用户**：指定时间段的用户总数。 这包括团队所有者、团队成员和来宾。</li> <li>**帖子**：在指定的时段内在团队聊天中发布的新消息数。</li><li>**回复**：在指定的时段内，团队聊天中的回复数。</li> <li>**应用**：添加到团队的应用数。</li><li>**会议**：Teams级别组织的会议数。</li> </ul> |
+    |**摘要**   |团队活动摘要，包括以下内容：<ul><li>**用户**：指定时间段的用户总数。 这包括团队所有者、团队成员和来宾。</li> <li>**帖子**：在指定的时段内在团队聊天中发布的新消息数。</li><li>**回复**：在指定的时段内，团队聊天中的回复数。</li> <li>**应用**：添加到团队的应用数。</li><li>**会议**：Teams组织的会议数。</li> </ul> |
     |**活动用户**   |活动用户数和非活动用户数。|
     |**角色**   |按角色显示的用户数，包括团队所有者、团队成员和来宾。|
     |**活动用户** 图表  |每日活动次数。 将鼠标悬停在给定日期上的点上，以查看该日期的活动用户数。|

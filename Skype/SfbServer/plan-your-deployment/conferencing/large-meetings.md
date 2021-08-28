@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 21507e18-bd79-4019-9c3a-0867fccaa3b4
 description: 摘要：阅读本主题，了解在 Skype for Business Server 中实现和管理大型会议的最佳方案。
-ms.openlocfilehash: 97d2f501c4ebf203e03b2229af4469c89d827f4ef9e74de6360982c782ba83e0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 109bfef5dd86821cdb8ec8e372f26f3edd062983
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54331134"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582606"
 ---
 # <a name="plan-for-large-meetings-in-skype-for-business-server"></a>在会议中规划大型Skype for Business Server
  
@@ -26,10 +26,10 @@ ms.locfileid: "54331134"
 会议Skype for Business Server会议的大小取决于会议是托管在共享池还是专用池中：从共享池中的 250 个参与者到专用池上的 1000 个参与者。 
   
 > [!NOTE]
-> 本主题重点介绍受会议支持的大型会议的Skype for Business Server。 如果你的组织需要更大的会议功能，则应考虑实施利用 Skype 会议 广播的混合环境，这是一种属于 Microsoft 365 和 Office 365 的新联机服务。 
+> 本主题重点介绍由 Skype for Business Server 支持的大型会议。 如果组织需要更大的会议功能，则应考虑实施利用 Skype 会议 广播的混合环境，这是一种属于 Microsoft 365 和 Office 365 的新联机服务。 
 
 > [!NOTE]
-> Skype 会议广播使用户能够主持会议，并广播给最多 10，000 名参与者的大型在线受众。 使用广播Skype 会议要求已在Skype for Business Server或生产组织混合Microsoft 365混合Office 365配置。 所有用户都必须建立联机租户作为先决条件。 如果你有兴趣部署可以利用 Skype 会议 广播的混合解决方案，请参阅什么是[Skype 会议 广播？](https://go.microsoft.com/fwlink/?LinkId=617071)和配置本地部署Skype 会议[广播](../../deploy/configure-skype-meeting-broadcast.md)。 
+> Skype 会议广播使用户能够主持会议，并广播给最多 10，000 名参与者的大型联机受众。 使用广播Skype 会议要求已在Skype for Business Server或生产组织混合Microsoft 365混合Office 365配置。 所有用户都必须建立联机租户作为先决条件。 如果你有兴趣部署可以利用 Skype 会议 广播的混合解决方案，请参阅什么是[Skype 会议 广播？](https://go.microsoft.com/fwlink/?LinkId=617071)和配置本地部署以Skype 会议[广播](../../deploy/configure-skype-meeting-broadcast.md)。 
   
 大型会议通常具有以下特征：
   
@@ -55,7 +55,7 @@ ms.locfileid: "54331134"
 
 如果您的组织需要参与者超过 250 人的会议，则需要规划专用池以支持负载。 
   
-若要为多达 1000 个用户的会议提供足够的 CPU 和内存资源，宿主前端服务器不应承载任何其他即时消息 (IM) 以及状态或 企业语音 工作负载。 服务器不应承载任何其他会议，而不管其他会议的大小如何。 若要承载多达 1000 个用户的会议，您需要设置一个专用于Skype for Business Server大型会议单独的会议池。
+若要为多达 1000 个用户的会议提供足够的 CPU 和内存资源，宿主前端服务器不应承载任何其他即时消息 (IM) 以及状态或 企业语音 工作负载。 服务器不应承载任何其他会议，而不管其他会议的大小如何。 若要承载多达 1000 个用户的会议，您需要设置一个单独的Skype for Business Server专用于承载大型会议的池。
   
 专用于承载大型会议的 Skype for Business Server 池应同时承载一个且仅承载一个多达 1000 个用户的会议，因此需要提前通过带外计划过程预留会议时间，以确保前端服务器的专门支持。 若要同时支持多个大型会议，应设置多个专用大型会议池。
   
@@ -87,9 +87,9 @@ ms.locfileid: "54331134"
     
 ### <a name="create-dedicated-moderators"></a>创建专门的审阅人
 
-由于会议拥有数百到一千个用户，因此最佳做法是让一位专门人员主持大型会议的在线会话。 此专门人员可以是会议组织者的代理人或组织的大型会议支持人员的成员。 在安排会议时添加专门的会议主持人作为演示者很重要，尽管当会议进行时可以将联机与会者提升为演示者角色。
+由于会议拥有数百到一千个用户，因此最佳做法是让专人主持大型会议的在线会话。 此专门人员可以是会议组织者的代理人或组织的大型会议支持人员的成员。 在安排会议时添加专门的会议主持人作为演示者很重要，尽管当会议进行时可以将联机与会者提升为演示者角色。
   
-会议审查方可以使用所有客户端Skype for Business演示者功能来管理大型会议。 这些功能包括：
+会议审查方可以使用所有演示者功能Skype for Business客户端管理大型会议。 这些功能包括：
   
 - 监视会议厅并允许或拒绝会议厅中的用户
     
@@ -108,21 +108,21 @@ ms.locfileid: "54331134"
     
 ### <a name="maintain-a-separate-calendar"></a>维护单独的日历
 
-对于每个大型会议池，应维护该池中安排的大型会议的单独日历。 例如，您可以在大型会议池中拥有一个用户帐户，并使用 Outlook 和 Exchange 联机会议外接程序Skype for Business维护单独的日历。 如果使用多个用户帐户来允许支持人员创建大型会议，则可设置一个单独的日历，以聚合支持人员的成员创建的所有大型会议。 
+对于每个大型会议池，应维护该池中安排的大型会议的单独日历。 例如，您可以在大型会议池中拥有一个用户帐户，并使用 Outlook 和 Exchange Online Meeting Add-in for Skype for Business 维护单独的日历。 如果使用多个用户帐户来允许支持人员创建大型会议，则可设置一个单独的日历，以聚合支持人员的成员创建的所有大型会议。 
   
 维护单独的大型会议日历可帮助防止冲突和确保任何时候都只有一个大型会议处于活动状态。
   
 ### <a name="implement-a-scheduling-process"></a>实施计划过程
 
-由于专用大型会议池一次只支持一个大型会议，因此应该实施大型会议计划过程，以便设置大型会议并帮助防止冲突。 此类功能不是由客户端或Skype for Business Server Skype for Business提供的。 实现此类过程的一种方式是使用组织的支持团队的票证系统（如果可用）。
+由于专用大型会议池一次仅支持一个大型会议，因此应该实施大型会议计划过程，以便设置大型会议并帮助防止冲突。 此类功能不是由客户端或Skype for Business Server Skype for Business提供的。 实现此过程的一个方法就是使用组织的支持团队的票证系统（如果可用）。
   
 安排大型会议包括完成以下步骤：
   
 - 除了演示者列表之外，会议组织者或代理人还确定即将召开的会议的时间、持续时间和大小。 如果预期会议规模超过 250 个用户或为了确保用户数少于 250 的会议获得最佳用户体验，组织者或代理人将提交大型会议请求。
     
-- 计划人员检查请求的日期和时间是否可用。 由于我们一次仅支持专用池中的单个大型会议，因此计划人员需要检查大型会议日历，以确定是否针对请求的日期和时间安排了其他会议。 如果请求的时间可用，则员工会批准会议请求。
+- 计划人员检查请求的日期和时间是否可用。 由于我们一次仅支持专用池中的一个大型会议，因此计划人员需要检查大型会议日历，以确定是否针对请求的日期和时间安排了其他会议。 如果请求的时间可用，则员工会批准会议请求。
     
-- 如果请求得到批准，计划人员 (使用专用池) 上的凭据将 Skype for Business 联机会议外接程序与 Outlook 一起在专用大型会议池中设置会议。 用于加入会议的 URL 作为审批通知的一部分提供给请求者。
+- 如果请求得到批准，计划人员 (使用专用池) 上的凭据使用 Skype for Business 联机会议外接程序和 Outlook 在专用大型会议池上设置会议。 用于加入会议的 URL 作为审批通知的一部分提供给请求者。
     
 - 会议组织者或代理人使用 Outlook 来安排即将召开的会议，将用于加入会议的 URL 添加到会议邀请中。 然后，会议组织者或代理人指定要邀请的用户并发送会议邀请。
     
@@ -189,9 +189,9 @@ ms.locfileid: "54331134"
 - 将 **EnableMultiviewJoin** 选项设置为 **False**。
     
 > [!NOTE]
-> 支持会议中的大型Skype for Business Server要求 **将 AllowLargeMeetings** 设置设置为 true。 当此设置设置为 true 时，Skype for Business用户加入会议时，将为超大型会议优化会议体验。 具体而言，在大型Skype for Business，系统不会显示完整会议参与者列表的初始或更新，这是客户端和会议Skype for Business Server。 相反，Skype for Business将只显示有关用户和会议演示者列表的信息。 Skype for Business仍显示大型会议中可用的参与者总数。
+> 支持会议中的大型Skype for Business Server要求 **将 AllowLargeMeetings** 设置设置为 true。 当此设置设置为 true 时，Skype for Business用户加入会议时，将为特大型会议优化会议体验。 具体而言，在大型Skype for Business，系统不会显示完整会议参与者列表的初始或更新，这是客户端和 Skype for Business Server 的性能瓶颈。 相反Skype for Business将只显示有关用户和会议演示者列表的信息。 Skype for Business仍显示大型会议中可用的参与者总数。
 
-**AllowLargeMeetings $true** 设置会导致以下原因：
+**AllowLargeMeetings** $true设置会导致以下原因：
 
 - 隐藏与会者名单。 
 
@@ -207,11 +207,11 @@ ms.locfileid: "54331134"
 
 - PSTN 拨入用户无法使用 6 将自己取消静音，因为缺少在活动大型会议中负责 DTMF 命令的个人虚拟协助。
 
-- 如果演示者/组织者安排的会议首先应将所有用户设为静音 ("全部静音") ，PSTN 用户将在呼叫过程中被静音，并且无法自行取消静音。
+- 如果演示者/组织者安排的会议首先使所有人静音 ("全部静音") ，PSTN 用户将在呼叫过程中被静音，并且无法自行取消静音。
 
 若要禁用大型会议中不需要的会议功能，需要使用此处指定的所有会议策略设置（“最大会议规模”设置除外）。
   
-此外，您需要配置专用的大型会议池，以便Skype for Business Server该池并负责管理会议日程的每个用户都有相应的权限。 为此，请执行以下操作：
+此外，您需要配置专用大型会议池，以便Skype for Business Server并负责管理会议日程的每个 Skype for Business Server 用户具有相应的权限。 为此，请执行以下操作：
   
 - 将“指定为演示者”选项设置为“无”。通常，大型会议的所有参与者中仅一个或几个用户可成为演示者，因此不应自动允许参与者以演示者身份参加大型会议。相反，应在计划会议时明确指定演示者，或在大型会议进行中将参与者显式提升为演示者。
     

@@ -14,18 +14,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Optimization
 description: 本文旨在介绍 Skype for Business Online 和 ExpressRoute 的核心呼叫流原理，并提供详细呼叫流示例来帮助你正确理解和规划呼叫流。
-ms.openlocfilehash: 35936e1e33f2914345aa5443ca745dc2c5260ad7
-ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
+ms.openlocfilehash: d2de62c29c06b498cff812014014bb1b9acb3cf2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58407201"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606771"
 ---
 # <a name="call-flow-using-expressroute"></a>使用 ExpressRoute 的呼叫流
 
@@ -33,7 +33,7 @@ ms.locfileid: "58407201"
 
 本文旨在介绍 Skype for Business Online 和 ExpressRoute 的核心呼叫流原理，并提供详细呼叫流示例来帮助你正确理解和规划呼叫流。
 
-如果要将 Skype for Business Online 部署为 Microsoft 365、Office 365、Skype for Business Server 混合或 Skype for Business 云连接器版本 的一部分，则需要了解 Skype for Business 客户端与服务器之间的通信以及呼叫流，以便有效地规划、部署、操作和排查 Skype for Business Online 服务问题。
+如果要将 Skype for Business Online 部署为 Microsoft 365、Office 365、Skype for Business Server 混合或 Skype for Business 云连接器版本 的一部分，则需要了解 Skype for Business 客户端和服务器与呼叫流之间的通信，以便有效地规划、部署、操作和排查 Skype for Business Online 服务问题。
 
 ## <a name="call-flow-overview"></a>呼叫流概述
 
@@ -69,7 +69,7 @@ ms.locfileid: "58407201"
 
  **Internet** 这是整个网络的一部分网络段，供从网络外部连接到 Skype for Business Online 的用户使用，在未配置 ExpressRoute 时用于所有连接。 Internet 及其所有连接不由你或 Microsoft 管理，因此无法确定性能和路由路径，这对总体呼叫流和质量的影响最大。
 
- **ExpressRoute** 这是整个网络的一部分网络段，可让你与 Microsoft 网络建立专用连接。 对于依赖于网络速度和性能的所有工作负荷（例如 Skype for Business Online 实时通信）来说，建议使用此选项将网络连接到 Microsoft 网络 (Microsoft 365 或 Office 365 数据中心) 。 ExpressRoute 连接在网络和 Microsoft 网络之间使用 [ExpressRoute](/azure/expressroute/expressroute-locations) 连接提供商提供专用和托管网络，其运行时间为 99.9%，并支持服务质量 (QoS) ，可在网络拥塞期间提高实时媒体的性能。
+ **ExpressRoute** 这是整个网络的一部分网络段，可让你与 Microsoft 网络建立专用连接。 对于依赖于网络速度和性能的所有工作负荷（例如 Skype for Business Online 实时通信）来说，这是将网络连接到 Microsoft 网络 (Microsoft 365 或 Office 365 数据中心) 的建议选项。 ExpressRoute 连接在网络和 Microsoft 网络之间使用 [ExpressRoute](/azure/expressroute/expressroute-locations) 连接提供商提供专用和托管网络，其运行时间为 99.9%，并支持服务质量 (QoS) ，可在网络拥塞期间提高实时媒体的性能。
 
  **Microsoft 网络** 这是一个网络段，它属于整个网络，支持Microsoft 365 Office 365服务。 这包括联机服务器之间的所有通信，Microsoft 365或Office 365。 这可能包括遍历 Microsoft 网络主干和在地理区域之间传输的流量。
 
@@ -79,15 +79,15 @@ Skype for Business Online 的网络流量分为两大类，在调用流中显示
 
  **实时媒体是** RTP 中封装的数据 (实时传输协议) 支持音频、视频、应用程序共享和文件传输工作负荷。 通常，媒体流量对延迟高度敏感，因此，你可能希望此流量采用尽可能最直接的路径，并使用 UDP 作为传输层协议，因为使用 TCP 会引入更高的延迟。
 
- **信令** 是客户端与服务器或其他客户端之间的通信链接，用于控制活动 (例如，在调用发起时) 传递 VM。 大多数信令流量使用 SIP 协议，尽管某些客户端使用基于 HTTP 的 REST 接口。 为简单明了，我们正在考虑在此类流量中通过 HTTP 和 HTTPS 或 TLS 连接传输的各种信号。 必须了解，此流量对延迟不太敏感，但如果终结点之间的延迟超过几秒，则可能会导致服务中断或调用超时。
+ **信令** 是客户端与服务器或其他客户端之间的通信链接，用于控制活动 (例如，在调用发起时) 传送 VM。 大多数信令流量使用 SIP 协议，尽管某些客户端使用基于 HTTP 的 REST 接口。 为简单明了，我们正在考虑在此类流量中通过 HTTP 和 HTTPS 或 TLS 连接传输的各种信号。 必须了解，此流量对延迟不太敏感，但如果终结点之间的延迟超过几秒，则可能会导致服务中断或调用超时。
 
-此流量的目标位于所有Office 365或服务Microsoft 365 [IP](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)地址Office 365范围。 对于每个 URL，它指示该部分流量是否可以遍历 ExpressRoute Microsoft 365或Office 365。 有关显示启用 ExpressRoute 时，Internet 仍用于某些流量的图表，请参阅 Azure [ExpressRoute for Office 365。](https://support.office.com/article/6d2534a2-c19c-4a99-be5e-33a0cee5d3bd) 必须知道，即使列为通过 ExpressRoute 可路由的 URL 也可通过 Internet 进行路由。 这意味着，在某些情况下，决定是使用 Internet 还是 ExpressRoute 取决于客户端的位置以及代理服务器和防火墙的配置。 还必须了解，由于并非所有与 Microsoft 365 或 Office 365 关联的 URL 都能使用 ExpressRoute，因此即使从 ExpressRoute 合作伙伴购买 ExpressRoute，也还需要建立 Internet 连接。
+此流量的目标位于所有 Office 365 服务或服务Microsoft 365 [IP](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)地址Office 365范围。 对于每个 URL，它指示该部分流量是否可以遍历 ExpressRoute Microsoft 365或Office 365。 有关显示启用 ExpressRoute 时，Internet 仍用于某些流量的图表，请参阅 Azure [ExpressRoute for Office 365。](https://support.office.com/article/6d2534a2-c19c-4a99-be5e-33a0cee5d3bd) 必须知道，即使列为通过 ExpressRoute 可路由的 URL 也可通过 Internet 进行路由。 这意味着，在某些情况下，决定是使用 Internet 还是 ExpressRoute 取决于客户端的位置以及代理服务器和防火墙的配置。 还必须了解，由于并非所有与 Microsoft 365 或 Office 365 关联的 URL 都能够使用 ExpressRoute，因此即使从 ExpressRoute 合作伙伴购买 ExpressRoute，也还需要 Internet 连接。
 
-只能通过 Internet 发送的流量包括常见的 Internet 依赖项，例如证书吊销列表 (CTL) 、DNS 查找和名称解析、共享 Microsoft 365 或 Office 365 服务（例如 Microsoft 365 管理中心）的 URL，以及 Skype for Business Online 的一些非实时通信功能，例如用于与 Skype 使用者互操作性的遥测和联合，以及针对 Skype 会议 Broadcast 流式传输的媒体。 若要帮助做出决策，请参阅[使用 ExpressRoute](https://support.office.com/article/e1da26c6-2d39-4379-af6f-4da213218408)进行Office 365，了解规划网络路由时需要考虑的更多注意事项。
+只能通过 Internet 发送的流量包括常见的 Internet 依赖项，例如证书吊销列表 (CTL) 、DNS 查找和名称解析、共享 Microsoft 365 或 Office 365 服务（例如 Microsoft 365 管理中心）的 URL，以及 Skype for Business Online 的一些非实时通信功能，例如用于与 Skype 使用者互操作性的遥测和联合身份验证，以及针对 Skype 会议 Broadcast 流式传输的媒体。 若要帮助做出决策，请参阅[使用 ExpressRoute](https://support.office.com/article/e1da26c6-2d39-4379-af6f-4da213218408)进行Office 365了解规划网络路由时需要考虑的更多注意事项。
 
-## <a name="principles-for-call-flows-with-skype-for-business"></a>使用 Skype for Business 的呼叫流原则
+## <a name="principles-for-call-flows-with-skype-for-business"></a>使用 Skype for Business 的呼叫流Skype for Business
 
-在了解特定调用流方案的详细信息之前，有六个一般性原则可帮助你了解特定呼叫流的Skype for Business。
+在了解特定调用流方案的详细信息之前，有六个一般性原则可帮助你了解Skype for Business。
 
 1. Skype for Business会议托管在会议组织者的同一区域。 如果组织者是联机用户，则位于云中;如果会议组织者是本地用户，则位于本地数据中心。
 
@@ -105,7 +105,7 @@ Skype for Business Online 的网络流量分为两大类，在调用流中显示
 
 ## <a name="skype-for-business-call-flows-with-expressroute"></a>Skype for Business ExpressRoute 调用流
 
-了解四个不同的网段和 Skype for Business 呼叫流的一些一般指导原则后，可以使用该信息来帮助了解哪些 Skype for Business 流量将遍历 ExpressRoute 网络段。
+了解 Skype for Business 呼叫流的四个不同网段和一些一般指导原则后，可以使用该信息来帮助了解哪些 Skype for Business 流量将遍历 ExpressRoute 网络段。
 
 一般情况下，如果一个终结点位于网络中，另一个终结点位于数据中心或数据中心，则网络流量Microsoft 365 expressRoute Office 365。 这包括客户端和服务器之间的信令流量、电话会议期间使用的媒体流量或使用 Online Edge 服务器的点对点呼叫。
 
@@ -113,12 +113,12 @@ Skype for Business Online 的网络流量分为两大类，在调用流中显示
 
 ## <a name="basic-skype-for-business-call-flow"></a>基本Skype for Business调用流
 
-为了帮助你应用与上述调用流Skype for Business一般主体，本文的下一部分包含多个图表供参考。 这不是所有可能的调用流的详尽列表，但旨在帮助你应用上面详述的原则。 此外，图中的方案已选择涵盖常见部署类型，包括联机、混合、云连接器，在一种特殊情况下，Skype 会议广播。
+为了帮助你应用有关上述Skype for Business调用流的一般主体，本文的下一部分包含多个图表供参考。 这不是所有可能的调用流的详尽列表，但旨在帮助你应用上面详述的原则。 此外，图中的方案已选择涵盖常见部署类型，包括联机、混合、云连接器，在一个特殊情况下，Skype 会议广播。
 
 > [!NOTE]
 > 用户使用的一Skype for Business不可通过 ExpressRoute 路由，并且始终采用 Internet 路径。 请参阅Office 365 URL 和[IP 地址范围](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)，确定可能受影响的 URL。
 
-### <a name="peer-to-peer-call-for-microsoft-365-or-office-365-user-from-within-customer-network"></a>从客户网络内部Microsoft 365或Office 365用户的对等呼叫
+### <a name="peer-to-peer-call-for-microsoft-365-or-office-365-user-from-within-customer-network"></a>从客户网络内部Microsoft 365 Office 365用户的对等呼叫
 <a name="bk_Figure2"> </a>
 
 对于对等调用，媒体流量始终采用最直接的路由到其目标。 但是，信令流量将Microsoft 365或Office 365 Online 用户托管的数据中心。 由于两个用户位于同一 WAN 上，并且没有任何内容阻止客户端直接通信，因此媒体直接在两者之间流动。 为两个用户发送流量信号会遍历 ExpressRoute 连接，该连接目标为每个组织的数据中心。 若要在此方案中显示呼叫流，请参阅此部分。
@@ -155,10 +155,10 @@ Online 会议的媒体目标将是 Microsoft 365 或 Office 365 云中的数据�
 
 ![托管于 onprem 的调用流。](../images/9e669859-19f3-4a86-95b7-7185eb421ccd.png)
 
-### <a name="on-premises-edge-server-with-microsoft-365-or-office-365-hosted-conferences"></a>本地边缘服务器，Microsoft 365 Office 365会议
+### <a name="on-premises-edge-server-with-microsoft-365-or-office-365-hosted-conferences"></a>本地边缘服务器，Microsoft 365 Office 365托管会议
 <a name="bk_Figure5"> </a>
 
-当混合用户加入联机托管会议时，我们知道信令和媒体将目的地为 Microsoft 365 或 Office 365 云，并且由于用户正在从 Internet 加入，因此通常会采用直接 Internet 路径。 但是，在某些情况下，例如由于防火墙限制，直接 Internet 路径不可用。 在这种情况下，本地边缘服务器可以中继媒体流量，这会导致媒体流量在将 ExpressRoute 线路遍历到云之前返回到本地网络。
+当混合用户加入联机托管会议时，我们知道信令和媒体将目标为 Microsoft 365 或 Office 365 云，并且由于用户正在从 Internet 加入，因此通常会采用直接 Internet 路径。 但是，在某些情况下，例如由于防火墙限制，直接 Internet 路径不可用。 在这种情况下，本地边缘服务器可以中继媒体流量，这会导致媒体流量在将 ExpressRoute 线路遍历到云之前返回到本地网络。
 
  **使用本地边缘服务器加入联机电话会议本地用户**
 
@@ -169,7 +169,7 @@ Online 会议的媒体目标将是 Microsoft 365 或 Office 365 云中的数据�
 
 使用[Skype for Business Online Cloud Connector Edition](https://aka.ms/CloudConnectorInstaller)提供 PSTN 连接，使用本地资源（例如 SIP 中继或 PSTN 网关）或者使用最少的硬件设备与 Skype for Business。 使用 Cloud Connector Edition 时，用户是托管在 Online 上的，在不涉及呼叫计划时充当普通 Online 用户。 PSTN 方案的信号将跨 ExpressRoute 连接在客户端和云之间传输（如果可用，并且媒体流量保留在 WAN 内）。 在这种情况下，信令在云中Microsoft 365或Office 365，在云连接器处终止。
 
- **通过云连接器或云电话系统Microsoft 365 Office 365 PSTN 呼叫**
+ **通过云连接器电话系统Microsoft 365 Office 365 PSTN 呼叫**
 
 ![使用云 PBX 云连接器进行 PSTN 呼叫的呼叫流。](../images/e48d0f2b-fa1e-4b43-b3dd-d34a33dcdf36.png)
 
@@ -178,7 +178,7 @@ Online 会议的媒体目标将是 Microsoft 365 或 Office 365 云中的数据�
 
 Skype 会议广播是一种特殊用例，包括由两部分组成的会议，每个部分具有不同的网络传输配置文件。 从网络性能的角度来看，第一部分（也是最重要的部分）是内部会议。 这是会议实时部分，包括连接到云中会议服务器的一个或多个客户端终结点。 使用此部分会议传输的数据与上述示例完全相同，用户正在加入联机会议。
 
-广播Skype 会议的独特之处是会议使用广播流式处理服务分发给大量与会者。 此广播流式处理服务无法通过 ExpressRoute 进行路由，而是使用具有可选支持的 Internet 内容分发网络 (CDN) 服务。 它有助于识别广播流是单向媒体流，因为与会者会侦听，但不说话并支持缓冲，因此对网络性能问题（如延迟、数据包丢失和抖动）不太敏感。 它针对带宽利用率进行了优化，而不是针对这些问题优化广播流量，因为可能有很多与会者接收流式传输的媒体。
+广播Skype 会议的独特之处是，会议使用广播流式处理服务分发给大量与会者。 此广播流式处理服务不能通过 ExpressRoute 进行路由，而是使用具有可选支持的 Internet 内容分发网络 (CDN) 服务。 它有助于识别广播流是单向媒体流，因为与会者会侦听，但不说话并支持缓冲，因此对网络性能问题（如延迟、数据包丢失和抖动）不太敏感。 它针对带宽利用率进行了优化，而不是针对这些问题优化广播流量，因为可能有很多与会者接收流式传输的媒体。
 
  **Skype 会议从客户网络与用户一起广播**
 
@@ -199,17 +199,17 @@ Skype for Business联机使用方案涉及在线家庭用户，并且可能正�
 
 |**使用方案** <br/> |**终结点** <br/> |**信令路径** <br/> |**媒体路径** <br/> |**示例流** <br/> |**注释** <br/> |
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|点对点呼叫  <br/> |两个客户端，两个都位于网络中。  <br/> |ExpressRoute  <br/> |local  <br/> |[从客户网络内部Microsoft 365或Office 365用户的对等呼叫](call-flow-using-expressroute.md#bk_Figure2) <br/> ||
-|点对点呼叫  <br/> |两个客户端（一个位于 (内部) ，另一个客户端位于 Internet 上的 (外部) 。  <br/> |内部用户：ExpressRoute  <br/> 外部用户：Internet  <br/> |内部用户：ExpressRoute  <br/> 外部用户：通过 Internet Microsoft 365或Office 365边缘服务器。  <br/> |[从客户网络内部Microsoft 365或Office 365用户的对等呼叫](call-flow-using-expressroute.md#bk_Figure2) <br/> |假设防火墙阻止需要联机边缘服务器的客户端之间的直接连接。 从内部用户到 Online Edge 服务器的流量遵循的路径与会议呼叫的会议服务器的路径类似。  <br/> |
-|对联盟组织中用户的对等调用  <br/> |两个客户端位于 (内部) ，联机用户位于联合组织的网络中， (联合) 。  <br/> |ExpressRoute  <br/> |ExpressRoute  <br/> |[你的网络上加入在线托管会议的在线用户](call-flow-using-expressroute.md#bk_Figure3) <br/> |假设防火墙阻止客户端之间的直接连接，需要联机边缘服务器。 从内部用户到 Online Edge 服务器的流量遵循的路径与用于电话会议的会议服务器的路径类似。  <br/> |
+|点对点呼叫  <br/> |两个客户端，两个都位于网络中。  <br/> |ExpressRoute  <br/> |local  <br/> |[从客户网络内部Microsoft 365 Office 365用户的对等呼叫](call-flow-using-expressroute.md#bk_Figure2) <br/> ||
+|点对点呼叫  <br/> |两个客户端（一个位于 (内部) ，另一个客户端位于 Internet 上 (外部) 。  <br/> |内部用户：ExpressRoute  <br/> 外部用户：Internet  <br/> |内部用户：ExpressRoute  <br/> 外部用户：通过 Internet Microsoft 365或Office 365边缘服务器。  <br/> |[从客户网络内部Microsoft 365 Office 365用户的对等呼叫](call-flow-using-expressroute.md#bk_Figure2) <br/> |假设防火墙阻止需要联机边缘服务器的客户端之间的直接连接。 从内部用户到 Online Edge 服务器的流量遵循的路径与会议呼叫的会议服务器的路径类似。  <br/> |
+|对联盟组织中用户的对等调用  <br/> |两个客户端位于 (，) 位于联合组织的虚拟网络上的 Online 用户 (联合) 。  <br/> |ExpressRoute  <br/> |ExpressRoute  <br/> |[你的网络上加入在线托管会议的在线用户](call-flow-using-expressroute.md#bk_Figure3) <br/> |假设防火墙阻止客户端之间的直接连接，需要联机边缘服务器。 从内部用户到 Online Edge 服务器的流量遵循的路径与用于电话会议的会议服务器的路径类似。  <br/> |
 |在客户网络中按用户加入电话会议  <br/> |网络客户端和云中的会议服务器。  <br/> |ExpressRoute  <br/> |ExpressRoute  <br/> |[你的网络上加入在线托管会议的在线用户](call-flow-using-expressroute.md#bk_Figure3) <br/> ||
 |在 Internet 中按用户加入电话会议  <br/> |客户端位于 Internet 上，会议服务器位于云中。  <br/> |Internet  <br/> |Internet  <br/> |[你的网络上加入在线托管会议的在线用户](call-flow-using-expressroute.md#bk_Figure3) <br/> ||
 |加入由另一家公司的内场服务器托管的会议  <br/> |第三方数据中心的网络和会议服务器上的客户端。  <br/> |Internet  <br/> |Internet  <br/> |不适用  <br/> |由于托管会议的会议服务器位于其他客户的本地网络上，因此不会通过 Microsoft 云传递任何数据。  <br/> |
 |PSTN 呼叫  <br/> |客户网络中客户端电话系统云中的服务器  <br/> |ExpressRoute  <br/> |ExpressRoute  <br/> |[你的网络上加入在线托管会议的在线用户](call-flow-using-expressroute.md#bk_Figure3) <br/> ||
-|PSTN 呼叫  <br/> |Internet 上的客户端电话系统云中的服务器  <br/> |Internet  <br/> |Internet  <br/> |不适用  <br/> |媒体和信号将流向Microsoft 365或Office 365数据中心。 由于客户端终结点位于 Internet 上，因此所有数据都将通过 Internet 流式传输至 Microsoft 数据中心 (即使需要一个 Online Edge 服务器才能进行连接) 。  <br/> |
+|PSTN 呼叫  <br/> |Internet 上的客户端电话系统云中的服务器  <br/> |Internet  <br/> |Internet  <br/> |不适用  <br/> |媒体和信号将流向Microsoft 365或Office 365数据中心。 由于客户端终结点位于 Internet 上，因此所有数据都将通过 Internet (Microsoft 数据中心，即使需要联机边缘服务器才能进行连接) 。  <br/> |
 
 > [!NOTE]
-> ExpressRoute 将在媒体路径（从位于企业网络的用户到联机边缘服务器）上使用，但如果使用了其他客户的本地部署的边缘服务器，则不使用 ExpressRoute。
+> ExpressRoute 将在媒体路径（从位于企业网络的用户到联机边缘服务器）上使用，但如果使用了其他客户的本地部署的边缘服务器，则不会使用 ExpressRoute。
 
 ### <a name="call-flows-for-skype-for-business-hybrid"></a>调用流的Skype for Business 混合
 
@@ -219,11 +219,11 @@ Skype for Business联机使用方案涉及在线家庭用户，并且可能正�
 
 |**使用方案** <br/> |**终结点** <br/> |**信令路径** <br/> |**媒体路径** <br/> |**示例流** <br/> |**注释** <br/> |
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|点对点呼叫  <br/> |两个客户端，同时位于客户网络和本地  <br/> |Local  <br/> |local  <br/> |[从客户网络内部Microsoft 365或Office 365用户的对等呼叫](call-flow-using-expressroute.md#bk_Figure2) <br/> |由于用户位于本地，因此信令流会本地流向本地数据中心，而不是云。  <br/> |
-|点对点呼叫  <br/> |两个客户端，两个客户端都从客户网络进行连接。 一个为联机主页，另一个位于本地。  <br/> |联机用户：ExpressRoute  <br/> 本地用户：本地  <br/> |local  <br/> |[从客户网络内部Microsoft 365或Office 365用户的对等呼叫](call-flow-using-expressroute.md#bk_Figure2) <br/> |只有 Online 托管用户向云发送信号流量。  <br/> |
-|对联盟组织中用户的对等调用  <br/> |两个客户端（客户网络 (本地用户) 联合公司网络本地用户 (联合) 。  <br/> |内部用户：本地  <br/> 联合用户：ExpressRoute  <br/> |Internet 或 ExpressRoute (取决于是联机服务器还是本地边缘服务器)   <br/> |你的[网络上在线](call-flow-using-expressroute.md#bk_Figure3)用户加入联机托管的会议以及本地边缘服务器的一部分，使用[Microsoft 365](call-flow-using-expressroute.md#bk_Figure5)或 Office 365 托管的会议 (媒体流量) 。 <br/> |假设防火墙阻止客户端之间的直接连接，需要联机边缘服务器。 ICE 协商将提供联机 (联机用户) 本地边缘服务器 (本地边缘服务器) 连接。  <br/> |
-|在由 Online 用户组安排 (中按用户加入电话会议)   <br/> |网络和云中的会议服务器中的本地用户。  <br/> |ExpressRoute  <br/> |ExpressRoute  <br/> |[你的网络上加入在线托管会议的在线用户](call-flow-using-expressroute.md#bk_Figure3) <br/> |会议呼叫的服务器资源由会议组织者定义。 在这种情况下，它是由 Online 用户计划的，因此资源在云中。  <br/> |
-|PSTN 呼叫  <br/> |网络本地用户，本地用户Skype for Business数据中心。  <br/> |Local  <br/> |Local  <br/> |[使用 PSTN 呼叫Skype for Business 云连接器版本](call-flow-using-expressroute.md#bk_Figure6) <br/> |与使用 Cloud Connector Edition 的方案类似，但该用户位于本地，因此信号保留在网络中。  <br/> |
+|点对点呼叫  <br/> |两个客户端，同时位于客户网络和本地  <br/> |Local  <br/> |local  <br/> |[从客户网络内部Microsoft 365 Office 365用户的对等呼叫](call-flow-using-expressroute.md#bk_Figure2) <br/> |由于用户位于本地，因此信令流会本地流向本地数据中心，而不是云。  <br/> |
+|点对点呼叫  <br/> |两个客户端，两个客户端都从客户网络进行连接。 一个为联机主页，另一个位于本地。  <br/> |联机用户：ExpressRoute  <br/> 本地用户：本地  <br/> |local  <br/> |[从客户网络内部Microsoft 365 Office 365用户的对等呼叫](call-flow-using-expressroute.md#bk_Figure2) <br/> |只有 Online 托管用户向云发送信号流量。  <br/> |
+|对联盟组织中用户的对等调用  <br/> |两个客户端（客户网络中本地用户 (，) 联合公司网络本地用户 (联合) 。  <br/> |内部用户：本地  <br/> 联合用户：ExpressRoute  <br/> |Internet 或 ExpressRoute (取决于是联机还是本地边缘服务器)   <br/> |网络[联机用户](call-flow-using-expressroute.md#bk_Figure3)加入联机托管的会议以及本地边缘服务器的一部分，使用 Microsoft 365 或[Office 365](call-flow-using-expressroute.md#bk_Figure5)托管的会议 (媒体流量) 。 <br/> |假设防火墙阻止客户端之间的直接连接，需要联机边缘服务器。 ICE 协商将提供联机 (联机) 本地边缘服务器 (本地边缘服务器) 连接。  <br/> |
+|在由 Online 用户计划的会议 (中按用户加入电话会议)   <br/> |网络和云中的会议服务器中的本地用户。  <br/> |ExpressRoute  <br/> |ExpressRoute  <br/> |[你的网络上加入在线托管会议的在线用户](call-flow-using-expressroute.md#bk_Figure3) <br/> |会议呼叫的服务器资源由会议组织者定义。 在这种情况下，它是由 Online 用户计划的，因此资源在云中。  <br/> |
+|PSTN 呼叫  <br/> |网络本地用户和本地用户Skype for Business数据中心。  <br/> |Local  <br/> |Local  <br/> |[使用 PSTN 呼叫Skype for Business 云连接器版本](call-flow-using-expressroute.md#bk_Figure6) <br/> |与使用 Cloud Connector Edition 的方案类似，但该用户位于本地，因此信号保留在网络中。  <br/> |
 
 ### <a name="call-flows-for-skype-for-business-with-cloud-connector"></a>使用云连接器Skype for Business调用流
 
