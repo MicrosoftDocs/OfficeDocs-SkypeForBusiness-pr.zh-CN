@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2f12467c-8b90-43e6-831b-a0b096427f17
 description: 您可以决定使用配对的前端池来提供灾难恢复保护，但这不是一项要求。
-ms.openlocfilehash: bc061e05931c6a4b58d754623bde580e35c2c51367228a05126783d83d3fd27a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9c56ad7a0af5b50f4843a84205c48a11a9177a47
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312050"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608569"
 ---
 # <a name="deploy-paired-front-end-pools-for-disaster-recovery-in-skype-for-business-server"></a>部署配对的前端池，以在 Skype for Business Server
  
@@ -82,7 +82,7 @@ ms.locfileid: "54312050"
     ```
 
 > [!NOTE]
-> " **语音的自动** 故障转移和故障回复"选项以及拓扑生成器中的关联时间间隔仅适用于 Lync Server 中引入的语音恢复能力功能。 选择此选项并不意味着本文档中讨论的池故障转移将自动执行。 池故障转移和故障回复始终需要管理员手动且分别调用故障转移和故障回复 cmdlet。
+> " **语音的** 自动故障转移和故障回复"选项以及拓扑生成器中的关联时间间隔仅适用于 Lync Server 中引入的语音恢复能力功能。 选择此选项并不意味着本文档中讨论的池故障转移将自动执行。 池故障转移和故障回复始终需要管理员手动且分别调用故障转移和故障回复 cmdlet。
   
 ## <a name="see-also"></a>另请参阅
 

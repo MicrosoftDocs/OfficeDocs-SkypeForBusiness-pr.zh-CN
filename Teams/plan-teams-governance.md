@@ -7,8 +7,8 @@ ms.topic: reference
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: 本文介绍了如何规划在 Teams 中实现治理功能。
-localization_priority: Normal
+description: 本文将了解如何规划在 Teams 中实现治理功能。
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f55183b114919048776b7fcb6f39ae6a084c29832652c32f87b97d258fb7f835
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 96052f270bb0b4a9c5a9da94131e55abf314fbf4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54293069"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631276"
 ---
 # <a name="plan-for-governance-in-teams"></a>在 Teams 中规划管理
 
@@ -40,7 +40,7 @@ Teams提供了一组丰富的工具，用于实现组织可能需要的任何管
 |-        |-        |-        |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" alt= "An icon depicting decision points"/>  |决策点|<ul><li>组织是否需要团队的特定命名约定？</li><li>团队创建者是否需要能够将组织特定的分类分配给团队？</li><li>是否需要限制按团队将来宾添加到团队的能力？</li><li>组织是否需要限制可以创建团队的人？</li></ul>|
-|<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next steps"/>|下一步|<ul><li>记录组织对团队创建、命名、分类和来宾访问的要求。</li><li>计划实施这些要求作为实施计划的一Teams部分。</li><li>沟通并发布策略Teams告知用户预期的行为。</li></ul>|
+|<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next steps"/>|后续步骤|<ul><li>记录组织对团队创建、命名、分类和来宾访问的要求。</li><li>计划实施这些要求作为实施计划的一Teams部分。</li><li>传达并发布策略Teams告知用户预期的行为。</li></ul>|
 
 > [!NOTE]
 > 为帮助你提前规划， [请详细了解如何设置这些策略及其需要哪些许可证](/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings)。
@@ -65,12 +65,12 @@ Teams提供了一组丰富的工具，用于实现组织可能需要的任何管
 
 ## <a name="group-and-team-expiration-retention-and-archiving"></a>组和团队过期、保留和存档
 
-组织可能还需要设置过期、保留和存档团队的策略，以及将团队数据 (频道消息和频道) 。 可以将组过期策略配置为自动管理组的生命周期和保留策略以根据需要保留或删除信息，也可以存档团队 (将其设置为只读模式) 以保留不再处于活动状态的团队的时间点视图。 请注意，存档的团队将继续应用过期策略，除非排除或续订，否则可能会被删除。
+组织可能还需要设置过期、保留和存档团队的策略，以及团队数据 (频道消息和频道) 。 可以将组过期策略配置为自动管理组的生命周期和保留策略以根据需要保留或删除信息，也可以存档团队 (将其设置为只读模式) 以保留不再处于活动状态的团队的时间点视图。 请注意，存档的团队将继续应用过期策略，除非排除或续订，否则可能会被删除。
 
 |-          |-           |
 |-----------|------------|
 | ![描述决策点的图标](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>组织是否需要为团队指定到期日期？</li><li>组织是否需要对团队应用特定的数据保留策略？</li><li>您的组织是否期望能够存档非活动团队，以将内容保留为只读状态？</li></ul>|
-| ![描述后续步骤的图标](media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>记录组织对团队过期、数据保留和存档的要求。</li><li>在推出新计划过程中，计划Teams这些要求。</li><li>沟通并发布策略Teams告知用户预期的行为。</li></ul>|
+| ![描述后续步骤的图标](media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>记录组织对团队过期、数据保留和存档的要求。</li><li>在推出新计划过程中，计划Teams这些要求。</li><li>传达并发布策略Teams告知用户预期的行为。</li></ul>|
 
 > [!TIP]
 > 使用下表捕获组织的要求。
@@ -78,11 +78,11 @@ Teams提供了一组丰富的工具，用于实现组织可能需要的任何管
 |功能 |详细信息 |Azure AD Premium许可证 |决定 |
 |---------|---------|---------|---------|
 |过期策略 |通过设置过期Microsoft 365管理组生命周期。 |P1 |TBD|
-|保留策略 |在安全与合规中心中设置保留策略，Teams保留或删除&数据。 **注意**：使用此功能需要获得 E3 Microsoft 365或Office 365 企业版许可。 |弱 |TBD |
-|存档和还原 |当团队不再处于活动状态，但你想要保留该团队供参考或将来重新激活时，请将其存档。 |弱 |TBD |
+|保留策略 |在安全与合规中心中为数据设置保留策略，Teams或删除&数据。 **注意**：使用此功能需要 E3 Microsoft 365 Office 365 企业版许可。 |否 |TBD |
+|存档和还原 |当团队不再处于活动状态，但你想要保留该团队供参考或将来重新激活时，请将其存档。 |否 |TBD |
 
 > [!Note]
-> 组过期是一项Azure AD Premium功能。 若要提供此功能，租户必须具有订阅，Azure AD Premium和许可证的管理员配置设置和受影响组的成员。
+> 组过期是一项Azure AD Premium功能。 若要提供此功能，租户必须具有订阅，Azure AD Premium设置和受影响组成员的管理员的许可证和许可证。
 
 #### <a name="additional-information"></a>其他信息
 
@@ -96,14 +96,14 @@ Teams提供了一组丰富的工具，用于实现组织可能需要的任何管
 
 ## <a name="group-and-team-membership-management"></a>组和团队成员身份管理
 
-对于需要快速载入和下载或用户和来宾的团队来说，必须一致地管理基于项目的成员或受限组的成员。 您的组织可能还需要确保所有当前成员都有在团队中的业务理由。 管理成员可能比较困难，因为团队所有者可以离开，并且用户在项目结束时或更改角色时通常不会自行离开组。 管理组成员身份（允许用户根据需要获取访问权限，但确保组没有不当访问风险）最好的方法是通过两个区域流程：权利管理和访问评审。
+对于需要快速载入和下载或用户和来宾的团队，必须一致地管理基于项目的成员或受限组的成员。 您的组织可能还需要确保所有当前成员都有在团队中的业务理由。 管理成员可能比较困难，因为团队所有者可以离开，并且用户通常在项目结束时或更改角色时不自行离开组。 管理组成员身份（允许用户根据需要获取访问权限，但确保组没有不当访问风险）最好的方法是通过两个区域过程：权利管理和访问评审。
 
-[权利](/azure/active-directory/governance/entitlement-management-overview) 管理允许您委派给项目经理等人员，以将所需的所有资源（包括团队成员身份）收集到单个包中。 他们还可以定义谁可以提出请求：租户中的用户或其他连接的组织的用户。 项目经理将在电子邮件中收到访问请求，在 MyAccess 门户中批准或拒绝请求。 管理员可以配置访问条件，以包括过期日期或期限，除非续订访问权限，否则将用户或来宾从团队中删除。 管理员还可以设置与团队关联的组，以参与访问评审。 对于 [访问评审](/azure/active-directory/governance/access-reviews-overview)，组所有者将收到定期提醒，提醒他们审阅团队成员。 访问评审包括建议，使组所有者可以更轻松地完成其常规证明过程。
+[权利](/azure/active-directory/governance/entitlement-management-overview) 管理允许您委派给项目经理等人员，以将所需的所有资源（包括团队成员身份）收集到单个包中。 他们还可以定义谁可以提出请求：租户中的用户或其他连接的组织的用户。 项目经理将在电子邮件中收到访问请求，在 MyAccess 门户中批准或拒绝请求。 管理员可以配置访问条件，以包括过期日期或期限，除非续订访问权限，否则将用户或来宾从团队中删除。 管理员还可以设置与团队关联的组，以参与访问评审。 对于 [访问评审](/azure/active-directory/governance/access-reviews-overview)，组所有者将收到定期提醒，提醒评审团队成员。 访问评审包括建议，使组所有者可以更轻松地完成其常规证明过程。
 
 |-|-|-|
 |:-|:-|:-|
 |<img src="media/audio_conferencing_image7.png" alt= "An icon depicting decision points"/>  | 决策点 | 组织是否需要一致的流程来管理一个或多个团队的成员身份？ <br> 组织是否需要所有者或成员本身定期证明他们持续成为一个或多个团队的成员身份的理由？ <br> 组织是否需要用户和来宾批准，以请求访问团队、组、SharePoint和应用等资源？ |
-|<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next steps"/>| 下一步？ | 记录每个团队或特定团队的成员资格到期的组织要求。<br>规划组织如何在访问包中将团队、SharePoint、网站和应用捆绑在一起。<br>规划哪些人员（例如请求者经理、项目经理、已连接组织的发起人或组织中安全主管）需要批准或拒绝访问请求。 |
+|<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next steps"/>| 下一步？ | 记录每个团队或特定团队的成员资格到期的组织要求。<br>规划组织如何将团队、组、SharePoint网站和应用捆绑在访问包中。<br>规划哪些人员（例如请求者经理、项目经理、已连接组织的发起人或组织中安全主管）需要批准或拒绝访问请求。 |
 
 > [!TIP]
 > 使用下表捕获组织的要求。
@@ -131,11 +131,11 @@ Teams提供了一组丰富的工具，用于实现组织可能需要的任何管
 |-        |-        |
 |---------|---------|
 | ![描述决策点的图标](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>组织是否需要限制Teams租户的功能？</li><li>组织是否需要限制Teams特定用户的功能？</li></ul>|
-| ![描述后续步骤的图标](media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>记录组织在租户和用户Teams限制功能的要求。</li><li>计划在推出新计划过程中实现Teams要求。</li><li>沟通并发布策略Teams告知用户预期的行为。</li></ul>|
+| ![描述后续步骤的图标](media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>记录组织在租户和用户Teams限制功能的要求。</li><li>计划在推出计划过程中实现特定Teams要求。</li><li>传达并发布策略Teams告知用户预期的行为。</li></ul>|
 
-### <a name="teams-feature-management-focus-areas"></a>Teams功能管理重点区域
+### <a name="teams-feature-management-focus-areas"></a>Teams管理重点区域
 
-Teams策略提供精细的功能，用于控制消息传递、会议、呼叫和实时事件功能等。 默认情况下，可以按组织要求将不同的策略应用到所有用户或按用户应用。 
+Teams策略提供精细的功能来控制消息传递、会议、呼叫和实时事件功能等。 默认情况下，可以按组织要求将不同的策略应用到所有用户或按用户应用。 
 
 有关所有设置的详细列表，包括有关如何为组织实施这些设置的技术指南，请参阅以下文章：
 
@@ -153,7 +153,7 @@ Teams策略提供精细的功能，用于控制消息传递、会议、呼叫和
 Teams基于 Microsoft 365 和 Office 365 的高级安全性和符合性功能，并支持审核和报告、符合性内容搜索、电子发现、法定保留和保留策略。
 
 > [!Important]
-> 如果组织有合规性和安全性要求，请查看安全与合规性概述一文（在安全与合规方面概述）中提供的有关[Microsoft Teams。](security-compliance-overview.md)
+> 如果组织有合规性和安全性要求，请查看有关本主题的深入内容，该文章的安全性和符合性在[Microsoft Teams。](security-compliance-overview.md)
 
 ## <a name="related-topics"></a>相关主题
 

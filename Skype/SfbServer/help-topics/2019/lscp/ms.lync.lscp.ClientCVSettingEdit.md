@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 07fec57c-5cd3-422a-829a-0b62cb0092c4
 ROBOTS: NOINDEX, NOFOLLOW
 description: 客户端版本配置设置用于打开或关闭客户端版本控制。 全局客户端版本配置随 Skype for Business Server 一起安装，用于启用或禁用整个服务器部署的客户端版本控制。 当全局配置处于启用状态时，用户尝试登录后您所拥有的任何客户端版本策略都将生效。 如果不希望发生任何客户端版本控制，则可以禁用全局客户端版本配置。
-ms.openlocfilehash: 1f50cff75f4b5dd0d7be0d091e0379bc845f099bff25cd2d5e8eacdee657686c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c43ae2a58a7a42e23408f5f9c0ad627fe8db5a63
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324431"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608529"
 ---
 # <a name="client-version-configuration-create-new-or-edit-existing"></a>客户端版本配置：创建新的或编辑现有的
 
@@ -50,13 +50,13 @@ ms.locfileid: "54324431"
 
 - **默认操作** 可以选择当用户尝试使用没有特定客户端版本策略的客户端应用程序登录时应用的默认操作。 可以选择下列选项：
 
-  - **允许** 允许客户端在客户端版本策略列表中不匹配任何筛选器时登录。
+  - **允许** 如果客户端版本不匹配客户端版本策略列表中的任何筛选器，则允许客户端登录。
 
   - **阻止** 如果客户端版本不匹配客户端版本策略列表中的任何筛选器，则阻止客户端登录。
 
   - **使用 URL 阻止** 如果客户端版本不匹配客户端版本策略列表中的任何筛选器，则阻止客户端登录，并包括一条错误消息，其中包含可下载较新客户端的 URL。
 
-  - **允许使用 URL** 如果客户端版本不匹配客户端版本策略列表中的任何筛选器，则允许客户端登录，并包含一条错误消息，其中包含可下载较新客户端的 URL。
+  - **允许使用 URL** 如果客户端版本与客户端版本策略列表中的任何筛选器不匹配，则允许客户端登录，并包含包含可下载较新客户端的 URL 的错误消息。
 
   - **URL** 如果选择" **使用 URL 阻止** "或"允许使用 **URL"，** 可以指定要包括在错误消息中的客户端下载 URL。
 

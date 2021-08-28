@@ -9,15 +9,15 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: ''
-description: Overview of using Skype for Business Online telemetry tools to monitor an on-premises implementation in a hybrid scenario.
-ms.openlocfilehash: a0288f07c942f003cfece5aceaddf4139af84569
-ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
+description: 使用 Skype for Business Online 遥测工具监视混合方案中本地实现概述。
+ms.openlocfilehash: 9d71a362de36d865ba6595626d971206bdbb974a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58407171"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608639"
 ---
 # <a name="plan-call-data-connector"></a>规划呼叫数据连接器
 
@@ -32,7 +32,7 @@ ms.locfileid: "58407171"
 
 使用呼叫数据连接器，可以使用单个工具集执行以下任务：
 
-- 监视跨 Microsoft Teams、Skype for Business Online 和 Skype for Business Server 的用户体验。
+- 监视跨 Microsoft Teams、Skype for Business Online 和 Skype for Business Server 的Skype for Business Server。
 
 - 查看并排查整个网络的问题。
 
@@ -46,9 +46,9 @@ ms.locfileid: "58407171"
 
 通话分析和 CQD 工具使您能够监视通话质量，并解决 Microsoft Teams 和 Skype for Business 服务的连接问题，如下所示：
 
-- 通话分析侧重于特定通话的质量问题。 它显示有关用户帐户中每个用户的呼叫和会议Skype for Business的详细信息。  借助通话分析，你可以将权限分配给支持人员，该接线员随后可以监视呼叫，而无需访问管理中心Skype for Business的其余部分。
+- 通话分析侧重于特定通话的质量问题。 它显示有关用户帐户中每个用户的呼叫和Skype for Business的详细信息。  借助通话分析，你可以将权限分配给支持人员，该接线员随后可以监视呼叫，而无需访问管理中心Skype for Business中心。
 
-- 通话质量仪表板重点关注整个组织的网络性能和问题。 Skype for Business管理员和网络工程师使用此工具对网络性能进行故障排除和优化。
+- 通话质量仪表板重点关注整个组织的网络性能和问题。 Skype for Business和网络工程师使用此工具对网络性能进行故障排除和优化。
 
 有关详细信息，请参阅 Call [Analytics 和 Call Quality Dashboard diagram with Monitoring Server details。](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard)
 
@@ -58,18 +58,18 @@ ms.locfileid: "58407171"
 
 ## <a name="requirements"></a>要求
 
-以下要求假定你已在Skype for Business Server拓扑中部署。  有关部署支持的拓扑Skype for Business Server，请参阅[Topology Basics](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md)。 若要配置呼叫数据连接器，您必须：
+以下要求假定你已Skype for Business Server拓扑中部署。  有关部署支持的拓扑Skype for Business Server，请参阅[Topology Basics](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md)。 若要配置呼叫数据连接器，您必须：
 
 - 启用混合连接。 如果已部署Skype for Business Server，并且要启用呼叫数据连接器，则必须确保在本地环境和联机环境之间设置了混合连接。 这有时称为拆分域配置。
 
-   有关详细信息，请参阅 Plan [hybrid connectivity between Skype for Business Server and Microsoft 365 or Office 365](plan-hybrid-connectivity.md)和[Configure hybrid connectivity between Skype for Business Server and Microsoft 365 or Office 365](configure-hybrid-connectivity.md)。
+   有关详细信息，请参阅 Plan [hybrid connectivity between Skype for Business Server and Microsoft 365 or Office 365](plan-hybrid-connectivity.md)和 Configure hybrid connectivity between Skype for Business Server and Microsoft 365 or [Office 365](configure-hybrid-connectivity.md)。
 
 - 向组织Microsoft 365 Office 365身份验证，并确保启用了以下角色：
 
   - Skype for Business Server管理员
   - Microsoft 365全局Office 365或全局管理员
 
-- 如果尚未打开，请打开呼叫质量仪表板，如打开和使用呼叫质量仪表板[进行](/microsoftteams/turning-on-and-using-call-quality-dashboard)Microsoft Teams 和 Skype for Business Online 中所述。
+- 如果尚未打开，请打开呼叫质量仪表板，如打开和使用呼叫质量仪表板[进行](/microsoftteams/turning-on-and-using-call-quality-dashboard)Microsoft Teams Skype for Business Online 中所述。
 
 - 使用本地 LCSCdr 和 QoEMetrics 数据库启用前端池进行监控。 如果没有这一点，呼叫数据连接器将没有要处理的指标数据。
 

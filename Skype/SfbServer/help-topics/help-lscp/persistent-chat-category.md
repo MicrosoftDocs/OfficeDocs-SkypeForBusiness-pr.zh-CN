@@ -12,23 +12,23 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.PersistentChatCategory
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6875d930-7502-4e47-bdb3-45eaeb065350
 description: 您可以使用"持久聊天"页的"类别"部分来配置类别。 持久聊天室类别是组织聊天室的逻辑结构。 类别定义一组默认的访问控制列表 (ACL)，以便控制可以创建或加入聊天室的用户和用户组。 您还可以使用类别强制在组织中不同部门之间使用信息隔离墙。
-ms.openlocfilehash: 009cc7ef5cd35b7637f687043a0a5c5ddd24fa2f228c95a8bb4660b4c9140b47
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: be326978d25039e095e8d679b40194f7468f7a8e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54299818"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630966"
 ---
 # <a name="persistent-chat-category"></a>持久聊天类别
  
 您可以使用" **持久聊天"** 页的"类别 **"** 部分来配置类别。 持久聊天室类别是组织聊天室的逻辑结构。 类别定义一组默认的访问控制列表 (ACL)，以便控制可以创建或加入聊天室的用户和用户组。 您还可以使用类别强制在组织中不同部门之间使用信息隔离墙。
   
-聊天室类别可以包含聊天室，但不包含其他类别。 每个类别都使用元数据（如 Name 和 _Description）__描述_ 其内容。 此外，类别具有可设置以控制其所属聊天室的行为的属性，例如聊天室是否允许邀请或文件上载，或包含 _聊天历史记录_。  
+聊天室类别可以包含聊天室，但不包含其他类别。 每个类别都使用元数据（如 Name 和 _Description）__描述_ 其内容。 此外，类别还具有可设置以控制其所属聊天室的行为的属性，例如聊天室是否允许邀请或文件上载，或者包含 _聊天历史记录_。  
   
-若要创建新类别，请参阅 Manage [categories in Persistent Chat Server in Skype for Business Server 2015](../../manage/persistent-chat/categories.md)。 如果您是持久聊天管理员，可以使用控制面板或 cmdlet 创建Windows PowerShell类别。
+若要创建新类别，请参阅 Manage [categories in Persistent Chat Server in Skype for Business Server 2015。](../../manage/persistent-chat/categories.md) 如果您是持久聊天管理员，可以使用控制面板或 cmdlet 创建Windows PowerShell类别。
   
 ## <a name="tasks-that-you-can-perform"></a>可执行的任务
 

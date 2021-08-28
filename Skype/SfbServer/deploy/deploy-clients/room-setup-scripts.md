@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a66067d2-22b0-48f1-a5d0-e0cd0ece2e5a
-description: 阅读本主题，查找用于预配会议室系统帐户Skype脚本。
-ms.openlocfilehash: b485a8d08dc5b121d43545ab89ce9c992b4a5860eb874ba806b57c4ac09cfbe3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 阅读本主题以查找用于预配会议室系统帐户Skype脚本。
+ms.openlocfilehash: 3786f4b25fc05ba8fda2583aad6d83bde6bd4f89
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54294929"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58585936"
 ---
 # <a name="skype-room-system-room-setup-scripts"></a>Skype会议室系统会议室设置脚本
  
-阅读本主题，查找用于预配会议室系统帐户Skype脚本。
+阅读本主题以查找用于预配会议室系统帐户Skype脚本。
   
 本节演示可用于预配会议室系统帐户Skype脚本。 这些脚本仅用于说明目的。 只有在咨询 IT 专家或域管理员后，才应使用。
   
@@ -39,7 +39,7 @@ Set-ADAccountPassword -Identity "conference room"# Paste the next command on its
 Set-CsMeetingRoom -Identity "conference room" -LineURI "tel:+14255551669;ext=1669" -EnterpriseVoiceEnabled $true
 ```
 
-## <a name="example-setup-script-skype-for-business-and-exchange-server-online"></a>示例设置脚本：Skype for Business Exchange Server Online
+## <a name="example-setup-script-skype-for-business-and-exchange-server-online"></a>示例设置脚本：Skype for Business 和 Exchange Server Online
 
 在运行脚本之前，请确保已查看以下先决条件：
   

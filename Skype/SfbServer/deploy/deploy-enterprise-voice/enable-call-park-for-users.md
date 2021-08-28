@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 9430763f-3394-467c-9c6d-426bf761604e
 description: 为用户启用呼叫Skype for Business Server 企业语音。
-ms.openlocfilehash: 6ff85008481a1742fd0092aa83361917fd4cbf0795ec52304acc10631f00d621
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bb83631b86171ad113a1009c5efc927b754411ba
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300318"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58585674"
 ---
 # <a name="enable-call-park-for-users-in-skype-for-business"></a>为呼叫管理中的用户启用Skype for Business
  
@@ -29,9 +29,9 @@ ms.locfileid: "54300318"
   
 默认情况下，将禁用所有用户的呼叫等待。 在语音策略中为呼叫等待启用之前，用户无法呼叫或取回已呼叫。
   
-可以在全局范围、站点范围或用户范围启用呼叫呼叫。 用户作用域优先于站点范围，而站点作用域优先于全局范围。 如果你有多个语音策略，请查看所有策略以启用呼叫管理，而不只是全局策略。
+可以在全局范围、站点范围或用户范围启用呼叫。 用户作用域优先于站点范围，而站点作用域优先于全局范围。 如果你有多个语音策略，请查看所有策略以启用呼叫管理，而不只是全局策略。
   
-### <a name="to-use-skype-for-business-server-control-panel-to-enable-call-park-for-users"></a>使用 Skype for Business Server 控制面板为用户启用呼叫等待
+### <a name="to-use-skype-for-business-server-control-panel-to-enable-call-park-for-users"></a>使用Skype for Business Server控制面板为用户启用呼叫等待
 
 1. 以 **RTCUniversalServerAdmins** 组的成员或 **CsVoiceAdministrator、CsServerAdministrator** 或 **CsAdministrator** 管理角色 的成员登录到计算机。 
     

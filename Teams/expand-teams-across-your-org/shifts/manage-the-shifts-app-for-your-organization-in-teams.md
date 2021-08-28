@@ -14,7 +14,7 @@ searchScope:
 description: 了解如何在应用程序中为组织的一线Teams设置和管理 Shifts 应用。
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 27bb2e6e336bb09bffc9bc79c25e864964562a97820b3e37c462ec153eed108b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8c2e8a8e976e6c92355bc894447353f436b706bc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308721"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608969"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中为组织管理“班次”应用
 
@@ -36,7 +36,7 @@ ms.locfileid: "54308721"
 
 ## <a name="overview-of-shifts"></a>“班次”概述
 
-应用中的 Shifts 应用Microsoft Teams一线员工保持连接和同步。它首先构建为移动版，用于快速高效的时间管理和团队通信。 排班可让一线员工及其经理使用其移动设备管理日程安排并保持联系。
+应用中的 Shifts Microsoft Teams一线员工保持连接和同步。它首先构建为移动版，用于快速高效的时间管理和团队通信。 排班可让一线员工及其经理使用其移动设备管理日程安排并保持联系。
 
 - 经理可创建、更新和管理团队的班次安排。 他们可以向一个人（“地板上洒了水”）或整个团队（“区域总经理将在 20 分钟后到达”）发送消息。 他们还可以发送政策文档、新闻公告和视频。
 - 员工可查看即将到来的排班、查看当天还有谁的排班、申请调班或转班以及申请请假。

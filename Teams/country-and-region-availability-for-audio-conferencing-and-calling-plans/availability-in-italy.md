@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,26 +24,26 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是适用于意大利Microsoft 365 Office 365和Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: fa5e2e04cecb6a5348fd381fdf3217ccd312ca30f0537a9a2e299bedd3c8d982
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 以下是意大利Microsoft 365 Office 365和Skype for Business Microsoft Teams服务。
+ms.openlocfilehash: a9a7a67c46dd73e8f55d680e1cb05061d4641d3f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336372"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584766"
 ---
 # <a name="availability-in-italy"></a>在意大利的可用性
 
 [查找其他国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或详细了解可以在哪些国家/地区使用音频会议和通话套餐。
 
-以下是适用于意大利Microsoft 365 Office 365和Skype for Business Microsoft Teams服务。
+以下是意大利Microsoft 365 Office 365和Skype for Business Microsoft Teams服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
-|是否会为音频会议自动分配电话号码？  <br/> |是，适用于：<br/><ul><li> 意大利</ul>如果需要专用电话号码，请参阅获取 [服务电话号码](../getting-service-phone-numbers.md)。  <br/> |
+|是否会为音频会议自动分配电话号码？  <br/> |是，适用于：<br/><ul><li> 意大利</ul>如果需要专用电话号码，请参阅 [获取服务电话号码](../getting-service-phone-numbers.md)。  <br/> |
 |使用“呼叫我”功能的拨出功能  <br/> |可用  <br/> |
 
 ## <a name="phone-system"></a>电话系统

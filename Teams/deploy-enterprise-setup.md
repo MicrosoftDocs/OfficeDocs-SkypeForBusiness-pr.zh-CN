@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 description: 在企业中设置 Teams，让用户能够使用聊天和文件共享进行协作、安排和参加大型会议，以及通过视频和语音交谈。
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7ce51b1768422a5780dbeae5b89f1285d26f18e524d3aae8bc710c127ee5af33
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9d67dbb494a0bde5212d405e5710a7c2730734e9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280915"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584626"
 ---
 # <a name="set-up-microsoft-teams-in-your-enterprise"></a>在你的 Office 365 组织中设置 Microsoft Teams
 

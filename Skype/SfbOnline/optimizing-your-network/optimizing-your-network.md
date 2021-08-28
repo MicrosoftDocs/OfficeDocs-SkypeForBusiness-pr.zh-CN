@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Optimization
-description: 以下要求非常重要，可以确保你要为组织设置的所有 Skype for Business Online 功能能够长期正常和成功运行。 本文档适合技术专家使用，但是有些用户并非精通技术。 如果你需要 Skype for Business Online 设置方面的帮助，请阅读本文档熟悉你需要考虑的事项。 它还提供与 Microsoft FastTrack 中心、Microsoft 服务和帐户团队或 Microsoft 合作伙伴合作，了解如何满足这些要求时要讨论的问题。
-ms.openlocfilehash: 048efdec25b1a84221adb6e765d21918e48c109c2e18ab8f501bae757348c792
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 以下要求非常重要，可以确保你要为组织设置的所有 Skype for Business Online 功能能够长期正常和成功运行。 本文档适合技术专家使用，但是有些用户并非精通技术。 如果你需要 Skype for Business Online 设置方面的帮助，请阅读本文档熟悉你需要考虑的事项。 它还提供与 Microsoft FastTrack 中心、Microsoft 服务和帐户团队或 Microsoft 合作伙伴合作时要讨论的问题，以了解如何满足这些要求。
+ms.openlocfilehash: 1c4af624a59e0606b3ee5f9c115ad61a65dffbd0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323654"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586020"
 ---
 # <a name="optimizing-your-network-for-skype-for-business-online"></a>为 Skype for Business Online 优化网络
 
@@ -54,7 +54,7 @@ Skype for Business 让你可与公司内或全球的同事或业务合作伙伴�
 
 通过 IP 的实时媒体（音频、视频和应用程序共享）的质量很大程度上受端到端网络连接质量的影响。为获得最佳的 Skype for Business Online 媒体质量，确保公司网络与 Skype for Business Online 之间的高质量连接很重要。实现这一目标的最佳做法是基于网络容量设置内部网络和云连接，以便所有连接都可以承受 Skype for Business Online 的高峰流量。
 
-与[Microsoft](https://partnercenter.microsoft.com/pcv/search)合作伙伴合作，可以将云中的各种 Microsoft 365 或 Office 365 应用程序（包括 Skype for Business Online）连接到网络，并且需要网络服务Skype for Business实时语音和视频通信功能必须专门配置为支持这些 Microsoft 365 和 Office 365 实时工作负荷。 这包括具有足够带宽承载所需的流量并且能够支持服务质量 (QoS) 来为用户提供企业级体验的网络。
+与[Microsoft](https://partnercenter.microsoft.com/pcv/search)合作伙伴合作，可以将云中的各种 Microsoft 365 或 Office 365 应用程序（包括 Skype for Business Online）连接到网络，并且需要网络服务才能支持这些 Microsoft 365 和 Office 365 实时工作负荷的 Skype for Business 实时语音和视频通信功能。 这包括具有足够带宽承载所需的流量并且能够支持服务质量 (QoS) 来为用户提供企业级体验的网络。
 
 除了本文档中提供的信息，还有其他资源可以帮助你成功规划和部署 Skype for Business Online 服务与功能以及确保你的网络服务满足以下要求：
 
@@ -66,11 +66,11 @@ Skype for Business 让你可与公司内或全球的同事或业务合作伙伴�
 
 ## <a name="implement-quality-of-service-qos-for-skype-for-business"></a>为 Skype for Business 实施服务质量 (QoS)
 
-在进入 Skype for Business Online 之前，应当了解一下你的网络处理音频、视频和分享会话流量的容量。 与其他 Microsoft 365 Office 365 服务一样，Microsoft 可以下载[Skype for Business](https://www.microsoft.com/download/details.aspx?id=19011)带宽计算器，用于确定每个公司站点所需的网络流量。 你应该对使用情况进行建模，包括对实时通信流量媒体流和每个公司位置的 Skype for Business 流量大小进行建模、计算流量以及分析流量对整个网络的影响。 完成上述操作后，此数据分析应对可从何处改进网络和队列大小提供建议，以提供卓越的最终用户体验。
+在进入 Skype for Business Online 之前，应当了解一下你的网络处理音频、视频和分享会话流量的容量。 与其他 Microsoft 365 Office 365 服务一样，Microsoft 已提供下载[Skype for Business](https://www.microsoft.com/download/details.aspx?id=19011)带宽计算器，该计算器用于确定每个公司站点所需的网络流量。 你应该对使用情况进行建模，包括对实时通信流量媒体流和每个公司位置的 Skype for Business 流量大小进行建模、计算流量以及分析流量对整个网络的影响。 完成上述操作后，此数据分析应对可从何处改进网络和队列大小提供建议，以提供卓越的最终用户体验。
 
 Skype for Business 实时流量对于丢包率、延迟和抖动很敏感，而拥堵的网络中经常会发生这些情况。另外，还必须在受管外部 WAN、受管内部 LAN 和基于企业的 WiFi 网络上部署服务质量 (QoS)（有时称为"服务类别"）。这将有助于正确地区分 Skype for Business 实时流量的优先次序，例如音频和视频优先于本地网络上的其他非实时流量并优先于 WAN，从而为最终用户提供更佳的体验。
 
-Skype for Business 音频必须在 EF（加速转发 - DSCP 46）队列中部署，而 Skype for Business 视频则必须在 AF41（确保转发 - DSCP 34）队列中部署。 即使对等和会议流量也是如此，无论 电话系统 或 Microsoft 365 Office 365 或其他电话功能是否正在部署。
+Skype for Business 音频必须在 EF（加速转发 - DSCP 46）队列中部署，而 Skype for Business 视频则必须在 AF41（确保转发 - DSCP 34）队列中部署。 即使对等和会议流量也是如此，无论 电话系统 或 Microsoft 365 Office 365 或其他电话功能是否部署。
 
 用户可能已在 LAN 和 WAN 上针对其他 IP 电话产品妥善部署现有 QoS 策略，但是 Skype for Business 允许用户在使用该服务的同时进行移动，即从一个位置移动到另一个位置。因此，必须在 LAN、WAN 和无线网络上标记 QoS 策略，以确保在所有受管网络上区分所有 Skype for Business 流量的优先次序。
 
@@ -82,15 +82,15 @@ Skype for Business 音频必须在 EF（加速转发 - DSCP 46）队列中部署
 
 ## <a name="bypass-proxies-and-wan-optimization-devices"></a>绕过代理和 WAN 优化设备
 
-所有Microsoft 365或Office 365（Skype for Business Online）都经过加密，通常无法由代理设备进行检查。 出于这些原因，我们建议绕过所有 Microsoft 365 和 Office 365 网络流量的代理设备，这些流量定义为用户与 Office 365 URL 和[IP 地址范围建立的连接](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)。 由于代理设备很可能对实时 Skype for Business Online 媒体流造成延迟，我们强烈建议至少对该流量绕过代理设备。
+所有 Microsoft 365 或 Office 365（Skype for Business Online）都经过加密，通常无法由代理设备进行检查。 出于这些原因，我们建议绕过所有 Microsoft 365 Office 365 网络流量的代理设备，这些流量定义为用户与 Office 365 URL 和[IP 地址范围建立的连接](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)。 由于代理设备很可能对实时 Skype for Business Online 媒体流造成延迟，我们强烈建议至少对该流量绕过代理设备。
 
-Microsoft 建议排除Microsoft 365 Office 365 PAC 文件将Microsoft 365和Office 365发送到防火墙的 URL。
+Microsoft 建议排除Microsoft 365 Office 365 PAC 文件向防火墙发送Microsoft 365 Office 365流量的 URL。
 
 下面的资源可能也对你有帮助：
 
 - [Microsoft 365基准Office 365历史记录优化或优化性能](https://support.office.com/article/1492cb94-bd62-43e6-b8d0-2a61ed88ebae)
 
-- [针对或迁移的Microsoft 365和迁移Office 365](https://support.office.com/article/f5ee6c33-bcd7-4b0b-b0f8-dc1d9fb8d132)
+- [针对网络或Microsoft 365的网络和Office 365](https://support.office.com/article/f5ee6c33-bcd7-4b0b-b0f8-dc1d9fb8d132)
 
 - [Office 365 代理 Pac 生成器](https://gallery.technet.microsoft.com/Office-365-Proxy-Pac-60fb28f7)
 

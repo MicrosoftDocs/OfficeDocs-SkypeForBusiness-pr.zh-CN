@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ec8c45e1-307d-40ec-a75e-6083306105f2
 description: VideoStreamDetail 视图存储有关每个数据库中视频流的信息。 此视图在 Microsoft Lync Server 2013 中引入。
-ms.openlocfilehash: 9caf8cac3c45088cde68635a46ab9ebd79b5ca3bc203f71dc2ea0fce34968e3b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 465684ed4cfc857ede340d960f82d8be13031808
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54279948"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609089"
 ---
 # <a name="videostreamdetail-view"></a>VideoStreamDetail 视图
  
@@ -39,13 +39,13 @@ VideoStreamDetail 视图存储有关每个数据库中视频流的信息。 此�
 |被叫方  <br/> |nvarchar (450)   <br/> |被叫方 URI。  <br/> |
 |CallerUserAgent  <br/> |nvarchar (256)   <br/> |呼叫者的用户代理字符串。  <br/> |
 |CallerUserAgentType  <br/> |smallint  <br/> |呼叫者的用户代理的类型。 有关详细信息， [请参阅 UserAgent](useragent.md) 表。 <br/> |
-|CallerUserAgentCategory  <br/> |nvarchar (64)   <br/> |呼叫者的用户代理的类别。 有关详细信息，请参阅[QoE (UserAgentDef) 。](useragentdef-qoe.md) <br/> |
+|CallerUserAgentCategory  <br/> |nvarchar (64)   <br/> |呼叫者的用户代理的类别。 有关详细信息，请参阅 [QoE (UserAgentDef) ](useragentdef-qoe.md) 表。 <br/> |
 |CalleeUserAgent  <br/> |nvarchar (256)   <br/> |被叫方的用户代理字符串。  <br/> |
 |CalleeUserAgentType  <br/> |smallint  <br/> |被叫方的用户代理的类型。 有关信息 [，请参阅 UserAgent](useragent.md) 表。 <br/> |
-|CalleeUserAgentCategory  <br/> |nvarchar (64)   <br/> |被叫方的用户代理的类别。 有关信息，请参阅 [QoE (UserAgentDef) ](useragentdef-qoe.md) 表。 <br/> |
+|CalleeUserAgentCategory  <br/> |nvarchar (64)   <br/> |被叫方的用户代理的类别。 有关信息，请参阅[QoE (UserAgentDef) 。](useragentdef-qoe.md) <br/> |
 |CallerEndpoint  <br/> |nvarchar (256)   <br/> |呼叫者的终结点名称。  <br/> |
 |CalleeEndpoint  <br/> |nvarchar (256)   <br/> |被叫方终结点名称。  <br/> |
-|CallerOS  <br/> |nvarchar (128)   <br/> |操作系统 () 终结点的操作系统。  <br/> |
+|CallerOS  <br/> |nvarchar (128)   <br/> |操作系统 (操作系统) 终结点的操作系统。  <br/> |
 |CalleeOS  <br/> |nvarchar (128)   <br/> |操作系统 (被) 终结点的操作系统。  <br/> |
 |CallerCPUName  <br/> |nvarchar (128)   <br/> |呼叫者的终结点的 CPU 名称。  <br/> |
 |CalleeCPUName  <br/> |nvarchar (128)   <br/> |被叫方终结点的 CPU 名称。  <br/> |

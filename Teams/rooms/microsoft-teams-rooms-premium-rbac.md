@@ -12,16 +12,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
-description: 了解使用托管服务进行基于Microsoft Teams 会议室访问控制。
+description: 了解托管服务中基于Microsoft Teams 会议室访问控制。
 f1keywords: ''
-ms.openlocfilehash: c73ad1385a0654f3ef50dab46b803debe418b834b6497acfcb27f5a4de736f98
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dd6c89f9e391e2ae7234510c26304076bdee5226
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301058"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608809"
 ---
 # <a name="role-based-access-control-with-the-microsoft-teams-rooms-managed-service"></a>使用托管服务进行基于Microsoft Teams 会议室访问控制
 
@@ -34,7 +34,7 @@ ms.locfileid: "54301058"
 
 ## <a name="what-is-a-role"></a>什么是角色？
 
-角色定义授予分配给该角色的用户的权限集。 目前，Microsoft Teams 会议室托管服务具有三个内置角色：托管服务管理员、站点 **主管** 和 **站点技术**。  它们涵盖了组织中可能参与管理聊天室的用户的一些常见方案。
+角色定义授予分配给该角色的用户的权限集。 目前，Microsoft Teams 会议室托管服务有三个内置角色：托管 **服务** 管理员、**站点主管** 和 **站点技术**。 它们涵盖了组织中可能参与管理聊天室的用户的一些常见方案。
 
 若要查看角色，请在 Microsoft Teams 会议室 服务门户的左侧导航栏中，转到"角色"，然后选择任一角色以查看角色的属性、权限和分配。  
 

@@ -16,28 +16,28 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 了解向会议网桥分配新服务电话号码以扩大用户的覆盖范围所需的步骤。
-ms.openlocfilehash: e7b3f441a36ed608f06b0faa92133c0c3cd59c54d07ef86a650cb79bd5d35ec4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4a3896a0d8711d8edfc2ca75492330dc863c27fb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340478"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631396"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>更改音频会议网桥中的电话号码
 
 当你购买 **音频会议许可证** 时，Microsoft 将托管你的组织的音频会议网桥。 音频会议网桥提供不同位置的拨入电话号码，以便会议组织者和参与者可以使用它们通过电话加入 Skype for Business 或 Microsoft Teams 会议。
   
-除了已分配给会议网桥的电话号码外，您还可以从其他位置获取用于音频会议) 的其他服务号码 [ (](./getting-service-phone-numbers.md) 收费和免费号码，然后将这些号码分配给会议网桥，以便你可以扩大用户的覆盖范围。
+除了已分配给会议网桥的电话号码外，您还可以从其他位置获取用于音频会议) 的其他服务号码 [ (](./getting-service-phone-numbers.md) 收费和免费号码，然后将它们分配给会议网桥，以便你可以扩大用户的覆盖范围。
   
 > [!NOTE]
-> 为了能够为会议网桥分配/取消分配电话号码，电话号码必须是"*服务"* 号码。 导航到管理中心中的"语音"或"电话"并查看"号码类型"Microsoft Teams，  >  可看到号码的类型。  Microsoft 365或Office 365，必须先设置通信信用额度，用户才能拨打免费号码拨入网桥。
+> 为了能够为会议网桥分配/取消分配电话号码，电话号码必须是"*服务"* 号码。 在管理中心导航到"语音"或"电话"并查看"号码类型"Microsoft Teams，  >  可以看到号码的类型。  Microsoft 365或Office 365，必须先设置通信信用额度，用户才能使用免费号码拨入网桥。
 
 ## <a name="steps-when-you-are-assigning-a-new-service-phone-number-to-your-conference-bridge"></a>将新的服务电话号码分配给会议网桥的操作步骤
 
@@ -55,7 +55,7 @@ ms.locfileid: "54340478"
 
 会议网桥的默认电话号码定义当参与者或组织者从会议内拨打出站呼叫时将使用的呼叫者 ID。
 
-只能将服务收费电话号码设置为会议网桥的默认号码; **无法将服务** 免费号码设置为会议网桥的默认号码。 如果要分配服务收费电话号码，并且希望将其设置为音频会议网桥的新默认号码，请执行以下步骤：
+只能将服务收费号码设置为会议网桥的默认号码; **无法将服务** 免费号码设置为会议网桥的默认号码。 如果要分配服务收费电话号码，并且希望将其设置为音频会议网桥的新默认号码，请执行以下步骤：
 
 ![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
 
@@ -67,7 +67,7 @@ ms.locfileid: "54340478"
  
 ### <a name="step-3---change-the-default-phone-numbers-that-are-included-in-the-meeting-invites-of-users-optional"></a>步骤 3 - 更改用户的会议邀请中包含的默认电话号码 (可选) 
 
-用户的默认电话号码是安排会议时包含在其会议邀请中的号码。 有关详细信息，包括如何为新用户分配默认电话号码，请参阅在 Microsoft Teams 中设置邀请中包含的电话号码[或](set-the-phone-numbers-included-on-invites-in-teams.md)设置 Skype for Business Online 中的邀请[中包含的电话号码](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites)。
+用户的默认电话号码是安排会议时包含在其会议邀请中的号码。 有关详细信息，包括如何为新用户分配默认电话号码，请参阅在 Microsoft Teams 中设置邀请中包含的电话号码[或](set-the-phone-numbers-included-on-invites-in-teams.md)设置[Skype for Business Online 中的邀请中包含的电话号码](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites)。
 
 ![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
 
@@ -83,9 +83,9 @@ ms.locfileid: "54340478"
 
 对于接下来的两个步骤，需要开始Windows PowerShell。
   
-如果您更新了部分或所有用户的会议邀请中包含的默认电话号码，您可以选择更新在使用会议迁移服务更改用户的默认电话号码之前已发送给您的组织中的用户的会议邀请。 有关更多信息，请参阅[设置会议迁移服务 (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)。
+如果更新了部分或所有用户的会议邀请中包含的默认电话号码，您可以选择更新已发送给组织中用户的会议邀请，然后使用会议迁移服务更改其默认电话号码。 有关更多信息，请参阅[设置会议迁移服务 (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)。
   
-- 为在步骤 2 中更改 (用户) MMS 帐户运行会议迁移服务。 要执行此操作，请运行以下命令：
+- 为在步骤 2 中 (默认电话号码的用户) MMS 帐户运行会议迁移服务。 要执行此操作，请运行以下命令：
 
 ```PowerShell
     Start-CsExMeetingMigration user@contoso.com
@@ -100,7 +100,7 @@ ms.locfileid: "54340478"
 ## <a name="steps-when-you-are-unassigning-a-service-phone-number-for-a-conferencing-bridge"></a>取消为会议网桥分配的服务电话号码的操作步骤
 
 
-取消为会议网桥分配的服务电话号码时，用户将不能再使用该电话号码加入任何会议。 由于电话号码正在更改，因此，必须更新具有电话号码作为默认号码的所有用户 (如果有) ，并且从音频会议网桥取消分配电话号码之前更新其现有会议邀请。
+取消为会议网桥分配的服务电话号码时，用户将不能再使用该电话号码加入任何会议。 由于电话号码正在更改，因此必须更新具有电话号码作为默认号码的所有用户 (（如果有) ）并更新其现有会议邀请，然后才能从音频会议网桥中取消分配电话号码。
 
 如果在不更新用户及其会议的情况下删除了电话号码，则其现有会议邀请可能包含一个无法加入其会议的电话号码。
 
@@ -123,7 +123,7 @@ Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber <Number to be remove
 
 ### <a name="step-2---view-meeting-migration-status-using-windows-powershell"></a>第 2 步 - 使用 Windows PowerShell 查看会议迁移状态
 
-在没有任何操作进入"挂起"或"正在进行"状态后，将 *重新安排所有* 会议。
+没有"挂起"或"正在进行"状态的操作后，将 *重新安排所有* 会议。
 
 ```PowerShell
 Get-CsMeetingMigrationStatus -SummaryOnly
@@ -203,15 +203,15 @@ Unregister-CsOnlineDialInConferencingServiceNumber -BridgeName "Conference Bridg
 
 ## <a name="about-windows-powershell"></a>有关 Windows PowerShell
 
-可使用 Windows PowerShell 管理用户并管理他们能否执行的操作内容。 Windows PowerShell单点管理Microsoft 365管理 Office 365 Skype for Business Online，可以简化日常工作，尤其是有多个任务需要执行时。 若要开始使用 Windows PowerShell，请参阅下列主题：
+可使用 Windows PowerShell 管理用户并管理他们能否执行的操作内容。 Windows PowerShell可帮助你使用单点管理来管理 Microsoft 365 或 Office 365 和 Skype for Business Online，从而简化日常工作，尤其是当你有多个任务需要执行时。 若要开始使用 Windows PowerShell，请参阅下列主题：
 
   - [Windows PowerShell 和 Skype for Business Online 简介](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
   - [为什么要使用 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
-Windows PowerShell比仅使用 Microsoft 365 管理中心（例如，一次为许多用户进行设置更改时）在速度、简单性和工作效率方面具有许多优势。 通过以下主题了解这些优势：
+Windows PowerShell比仅使用 Microsoft 365 管理中心（例如，一次对许多用户进行设置更改时）在速度、简单性和工作效率方面具有许多优势。 通过以下主题了解这些优势：
 
-  - [使用 Microsoft 365 Office 365 管理Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [使用 Microsoft 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 
   - [使用 Windows PowerShell 管理 Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 

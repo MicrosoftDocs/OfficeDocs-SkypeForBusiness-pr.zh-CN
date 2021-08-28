@@ -7,7 +7,7 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: msteams
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 ms.collection:
 - M365-voice
@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 了解哪些会话边界控制器 (SBC) 已通过直接路由认证。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0def7a1b9938a97a09e08f158c45f04a69879d64
-ms.sourcegitcommit: dcba13777a03780e5dfb3938d9cf6b1d861a2fff
+ms.openlocfilehash: 8d3476b5ae1049e207f07d064ca1548e53fd3635
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "58531022"
+ms.locfileid: "58609009"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>经认证可用于直接路由的会话边界控制器
 

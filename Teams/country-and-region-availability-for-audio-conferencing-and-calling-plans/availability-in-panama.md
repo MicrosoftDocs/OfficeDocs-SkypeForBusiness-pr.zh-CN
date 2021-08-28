@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: 0a5f8c977c0f238a9ce5541fc9fc5f75868b1df48c281afe002163ee45072bc6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: adbedc6904c5bdc5a4d96e61f5387ec0504f0351
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347237"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584746"
 ---
 # <a name="availability-in-panama"></a>在巴拿马的可用性
 

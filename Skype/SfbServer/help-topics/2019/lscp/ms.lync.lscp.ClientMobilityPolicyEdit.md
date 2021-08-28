@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 58bd0c10-f33a-451e-b131-bd251a1b8f50
 ROBOTS: NOINDEX, NOFOLLOW
 description: 在“编辑移动策略”对话框上，您可以编辑移动策略的详细信息。
-ms.openlocfilehash: bb3db80f77e96e3affa47265bdd105d1a3f7d3293743fc6f6f37a09d00accea2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 29a53a43e098c9f01c2fea5acfb91bc61a2c1452
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54330396"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58585434"
 ---
 # <a name="edit-client-mobility-policy"></a>编辑客户端移动策略
 

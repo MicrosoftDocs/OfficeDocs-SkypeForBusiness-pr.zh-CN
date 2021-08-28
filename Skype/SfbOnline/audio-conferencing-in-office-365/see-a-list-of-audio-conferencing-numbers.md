@@ -15,18 +15,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
 description: '了解如何从 Skype for Business Online 中查找电话拨入式Skype for Business号码。 '
-ms.openlocfilehash: 6168451038d1abf5bc73a60630e56aced355af7d58a0024aff480595c71c6c2a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3be641b2a5c4b626f414d1a8ae8ee1b16adc7146
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310231"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586030"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-skype-for-business-online"></a>请参阅  Skype for Business Online 中的音频会议号码列表
 
@@ -58,27 +58,27 @@ ms.locfileid: "54310231"
     
 2. 转到管理中心 **> Skype for Business。**
     
-3. 在 **Skype for Business管理** 中心的 左侧导航中，转到"音频 **会议**  >  **Microsoft 网桥**"，然后：
+3. 在 **Skype for Business管理** 中心的 左侧导航中，转到音频会议 Microsoft  >  **网桥**，然后：
     
    - 您可以查看可用于音频会议的电话号码。
     
    - 您还可以查看位置以及音频会议自动助理将使用的主要和辅助语言。
     
 > [!NOTE]
-> 你可以转到"**音频** 会议用户"并选择用户的属性，通过从组织中可用号码列表中选择新号码来  >  更改默认号码。 请参阅 [设置邀请中包含的电话号码](set-the-phone-numbers-included-on-invites.md)。 
+> 你可以转到"**音频** 会议用户"并选择用户的属性，通过从你的组织中可用号码列表中选择新号码来  >  更改默认号码。 请参阅 [设置邀请中包含的电话号码](set-the-phone-numbers-included-on-invites.md)。 
 
   
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>想知道如何使用 Windows PowerShell 进行管理吗？
 
 - 为节省时间或自动执行此操作，可以使用 [Get-CsOnlineDialInConferencingServiceNumber](/powershell/module/skype/Get-CsOnlineDialInConferencingServiceNumber) cmdlet。
     
-- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用Windows PowerShell，可以使用Microsoft 365管理Office 365管理点，在有多个任务需要执行时简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
+- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用Windows PowerShell，Microsoft 365 Office 365单点管理来管理任务或任务，可在有多个任务需要执行时简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
     
   - [为何需要将 Microsoft 365 或 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [使用 Microsoft 365 Office 365 管理Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [使用 Microsoft 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-- Windows PowerShell相比于仅使用 Microsoft 365 管理中心，在速度、简单性和工作效率方面具有许多优势，例如，一次对许多用户进行设置更改时。 请在以下主题中了解这些优点：
+- Windows PowerShell相比于仅使用 Microsoft 365 管理中心，在速度、简单性和工作效率方面具有许多优势，例如，一次为许多用户更改设置时。 请在以下主题中了解这些优点：
     
   - [Windows PowerShell 和 Skype for Business Online 简介](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     

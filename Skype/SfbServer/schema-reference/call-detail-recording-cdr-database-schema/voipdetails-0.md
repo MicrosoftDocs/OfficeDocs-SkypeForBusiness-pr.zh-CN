@@ -10,21 +10,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 74ffbb71-569b-4018-be1f-4db2bbafcf36
 description: 每条记录均表示一个其中至少有一个用户是 VoIP 用户的双方呼叫。
-ms.openlocfilehash: 2314317f23db8edc4d0c2e0cc203cb74104168c472fa81cdfacc1a6595619278
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 75fd9b26baebef1fcfb06eb91eddc2d9be1e70d5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336404"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584806"
 ---
 # <a name="voipdetails-table"></a>VoipDetails 表
  
 每条记录均表示一个其中至少有一个用户是 VoIP 用户的双方呼叫。
   
-|**列**|**数据类型**|**键/索引**|**详细信息**|
+|**列**|**数据类型**|**键/索引**|**Details**|
 |:-----|:-----|:-----|:-----|
 |**SessionIdTime** <br/> |datetime  <br/> |主  <br/> |会话请求的时间。 与 **SessionIdSeq** 结合使用来唯一地标识会话。 有关详细信息，请参阅[Skype for Business Server 2015](dialogs.md)中的 Dialogs 表。 <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |主  <br/> |用于标识会话的 ID 号。 与 **SessionIdTime** 结合使用来唯一地标识会话。 有关详细信息，请参阅[Skype for Business Server 2015](dialogs.md)中的 Dialogs 表。 <br/> |

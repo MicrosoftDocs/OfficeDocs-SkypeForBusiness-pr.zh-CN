@@ -11,20 +11,20 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 24e8f749-d54c-4315-a8fe-bb9303b356ef
 ROBOTS: NOINDEX, NOFOLLOW
-description: 会议配置设置定义会议类型 (也称为会议) 用户可以创建的会议类型，并控制 (或) 匿名用户和电话拨入式会议用户是否可以加入这些会议。 这些设置仅适用于安排的会议。 它们不适用于通过单击客户端中的"现在开会"选项创建临时会议。
-ms.openlocfilehash: c4c891b7ac058a5e206c8fcde2d30766f9f498fc342dd9cdd4c9b25564443dbc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 会议配置设置定义会议类型 (也称为会议类型) 用户可以创建会议类型，并控制 (或) 匿名用户和电话拨入式会议用户是否可以加入这些会议。 这些设置仅适用于安排的会议。 它们不适用于通过单击客户端中的"现在开会"选项创建临时会议。
+ms.openlocfilehash: 86b8488028d8eb290fa6a7e41e6c14afc3fbac7c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54317637"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58585276"
 ---
 # <a name="meeting-configuration"></a>会议配置
 
-会议配置设置定义会议类型 (也称为"会议") 用户可以创建的会议类型，并控制 (或) 匿名用户和电话拨入式会议用户是否可以加入这些会议。 这些设置仅适用于安排的会议。 它们不适用于通过单击客户端中的"现在开会"选项创建临时会议。
+会议配置设置定义 (也称为"会议") 用户可创建的会议类型，并控制 (或) 匿名用户和电话拨入式会议用户是否可以加入这些会议。 这些设置仅适用于安排的会议。 它们不适用于通过单击客户端中的"现在开会"选项创建临时会议。
 
 在全局级、站点级或池级上应用会议配置：
 
@@ -52,7 +52,7 @@ ms.locfileid: "54317637"
 
 - **新建** 启动新的站点会议配置或池会议配置。
 
-- **编辑** 打开所选会议配置以对其进行编辑，选择列表中的所有会议配置，或删除所选的站点配置或池配置。
+- **编辑** 打开所选的会议配置以对其进行编辑，选择列表中的所有会议配置，或删除所选的站点配置或池配置。
 
     > [!NOTE]
     > 对于全局会议配置，“删除”会将设置重置为默认值。

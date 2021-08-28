@@ -16,19 +16,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 了解如何使用 Microsoft Teams管理中心查看组织中所有电话号码以及分配给用户或未分配的所有号码的列表。
-ms.openlocfilehash: 6d66b1fb1b4118bca60dc37fed7f4eac8c18090c34fa68ba6a61fba860fb5710
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1bad09f115ae31bf392fe14e4d00e1b59b00e3c4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339440"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608789"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>查看组织中的电话号码列表
 
@@ -36,11 +36,11 @@ ms.locfileid: "54339440"
   
 ## <a name="to-see-a-list-of-all-phone-numbers-that-you-have-for-your-organization"></a>查看贵组织拥有的所有电话号码的列表
 
-![一个图标，显示Teams ](media/teams-logo-30x30.png) **徽标使用 Microsoft Teams 管理中心**
+![一个图标，显示Teams ](media/teams-logo-30x30.png) **徽标使用Microsoft Teams管理中心**
 
 1. 转到 **"Microsoft Teams管理中心"。**
 
-2. 在左侧导航栏中，转到"**语音**  >  **"电话号码"**。
+2. 在左侧导航栏中，转到 **"语音**  >  **电话数字"。**
 
     > [!IMPORTANT]
     > 若要在 Skype for Business管理中心的左侧导航栏中查看"语音"选项，必须先购买至少一个 **Enterprise E5** 许可证、一个 **电话系统** 附加许可证或一个音频会议附加许可证。 
@@ -63,11 +63,11 @@ ms.locfileid: "54339440"
 
 设置用户时，可能只想查看已分配给用户的电话号码列表，以及可为其分配的电话号码。
   
-![一个图标，显示Teams ](media/teams-logo-30x30.png) **徽标使用 Microsoft Teams 管理中心**
+![一个图标，显示Teams ](media/teams-logo-30x30.png) **徽标使用Microsoft Teams管理中心**
 
 1. 转到 **"Microsoft Teams管理中心"。**
 
-2. 在左侧导航栏中，转到"**语音**  >  **"电话号码"**。
+2. 在左侧导航栏中，转到 **"语音**  >  **电话数字"。**
 
     > [!IMPORTANT]
     > 若要在 Microsoft Teams管理中心的左侧导航栏中查看"语音"选项，必须先购买至少一个 **Enterprise E5** 许可证、一个 **电话系统** 附加许可证或一个音频会议附加许可证。 
@@ -88,7 +88,7 @@ ms.locfileid: "54339440"
   
 1. 转到 **"Microsoft Teams管理中心"。**
 
-2. 在左侧导航栏中，转到"**语音**  >  **"电话号码"**。
+2. 在左侧导航栏中，转到 **"语音**  >  **电话数字"。**
 
     > [!IMPORTANT]
     > 若要在 Microsoft Teams管理中心的左侧导航栏中查看"语音"选项，必须先购买至少一个 **Enterprise E5** 许可证、一个 **电话系统** 附加许可证或一个音频会议附加许可证。 

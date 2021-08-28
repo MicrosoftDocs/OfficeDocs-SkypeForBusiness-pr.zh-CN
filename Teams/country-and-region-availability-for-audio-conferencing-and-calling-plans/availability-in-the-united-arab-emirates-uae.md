@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,26 +24,26 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是适用于Microsoft 365 Office 365阿拉伯联合酋长国的Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: 43961b3a076fded4e93b1af0489d33264659974d6985d2f7bbc9b69d3fd6e6ec
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 以下是适用于Microsoft 365 Office 365的 Skype for Business Microsoft Teams 服务。
+ms.openlocfilehash: 0118f7e59d0b09809bf1316b64fb1ba6ca49c383
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284234"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631346"
 ---
 # <a name="availability-in-the-united-arab-emirates-uae"></a>在阿拉伯联合酋长国 (UAE) 的可用性
 
 [查找其他国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或详细了解可以在哪些国家/地区使用音频会议和通话套餐。
 
-以下是适用于Microsoft 365 Office 365阿拉伯联合酋长国的Skype for Business Microsoft Teams服务。
+以下是适用于Microsoft 365 Office 365的 Skype for Business Microsoft Teams 服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
-|是否会为音频会议自动分配电话号码？  <br/> |弱  <br/> |
+|是否会为音频会议自动分配电话号码？  <br/> |否  <br/> |
 |使用“呼叫我”功能的拨出功能  <br/> |需要通信信用额度  <br/> |
    
 ## <a name="phone-system"></a>电话系统
@@ -70,7 +70,7 @@ ms.locfileid: "54284234"
 |**功能**|**详细信息**|
 |:-----|:-----|
 |你可以获取哪些首都或大城市的收费电话号码？  <br/> |不适用  <br/> |
-|是否提供收费电话号码？  <br/> |弱  <br/> |
+|是否提供收费电话号码？  <br/> |否  <br/> |
 |是否提供免费电话号码？  <br/> |是  <br/> |
    
  如果你想要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../getting-service-phone-numbers.md)。

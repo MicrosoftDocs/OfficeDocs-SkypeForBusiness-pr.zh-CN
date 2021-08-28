@@ -14,25 +14,25 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: 当你在呼叫中心或电话中心使用呼叫计划时，你可以下载并打印这些Microsoft 365 Office 365。
-ms.openlocfilehash: 3dcfa43cfa1540621702e03408e9e38ada4f9b625945bddf9580ccdcd1e0fb8d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3d269374a5cbce2d6f3c68fa6e9a06d83dbd7a29
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350914"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584616"
 ---
 # <a name="emergency-calling-labels"></a>紧急呼叫标签
 
 这些是紧急呼叫 (911) 免责声明标签或贴纸，用于 Avery 5160 地址标签 (1" x 2 5/8") ，或者如果你想要使用其他类型的标签，也可以调整大小。
 
-[单击 下载紧急.zip标签的 (](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)文件) 。
+[单击下载紧急.zip标签的 (](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)文件) 。
 
 ## <a name="related-topics"></a>相关主题
 

@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于乌克兰Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: 1d28002ae871c95d9f74cdd04abd478d3ec1e178818e3feaaecdf56ca4f3d707
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cf4235a2dbdd7862471803c608240ed5535c5f52
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339788"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609019"
 ---
 # <a name="availability-in-the-ukraine"></a>在乌克兰的可用性
 
@@ -71,7 +71,7 @@ ms.locfileid: "54339788"
 |:-----|:-----|
 |你可以获取哪些首都或大城市的收费电话号码？  <br/> |电话号码没有关联到特定城市或位置。  <br/> |
 |是否提供收费电话号码？  <br/> |是  <br/> |
-|是否提供免费电话号码？  <br/> |弱  <br/> |
+|是否提供免费电话号码？  <br/> |否  <br/> |
    
  如果你想要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../getting-service-phone-numbers.md)。
   

@@ -11,20 +11,20 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8f9125dd-04b3-4a6d-9f41-4f19ddaf7a2d
 ROBOTS: NOINDEX, NOFOLLOW
-description: 测试设备功能与设备更新功能结合使用。 可将测试设备添加到“测试设备”页，然后使用此设备验证新更新的功能，之后再将更新部署到生产设备。 可以在整个环境中或单个站点 (全局测试) 测试设备。 可通过测试设备的媒体访问控制 (MAC) 地址或序列号标识测试设备。 添加设备时，它将显示在控制面板的"测试设备"Skype for Business Server列表中。
-ms.openlocfilehash: 73f56f0ef008fe603b44055d1ad2b48086c9d0b49d3200877bc0545f945dc315
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 测试设备功能与设备更新功能结合使用。 可将测试设备添加到“测试设备”页，然后使用此设备验证新更新的功能，之后再将更新部署到生产设备。 可以在整个环境中或单个站点 (全局测试设备) 测试设备。 可通过测试设备的媒体访问控制 (MAC) 地址或序列号标识测试设备。 添加设备时，它将显示在控制面板的"测试设备"Skype for Business Server列表中。
+ms.openlocfilehash: b016492033ed32e6453c4cc95544b975a285bdbc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54279300"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58585548"
 ---
 # <a name="test-device-create-new-or-edit-existing"></a>测试设备：创建新的或编辑现有的
 
-测试设备功能与设备更新功能结合使用。 可将测试设备添加到“测试设备”页，然后使用此设备验证新更新的功能，之后再将更新部署到生产设备。 可以在整个环境中或单个站点 (全局测试) 测试设备。 可通过测试设备的媒体访问控制 (MAC) 地址或序列号标识测试设备。 添加设备时，它将显示在控制面板的"测试设备 **"Skype for Business Server列表中**。
+测试设备功能与设备更新功能结合使用。 可将测试设备添加到“测试设备”页，然后使用此设备验证新更新的功能，之后再将更新部署到生产设备。 可以在整个环境中或单个站点 (全局测试设备) 测试设备。 可通过测试设备的媒体访问控制 (MAC) 地址或序列号标识测试设备。 添加设备时，它将显示在控制面板的"测试设备 **"Skype for Business Server列表中**。
 
 ## <a name="tasks-you-can-perform"></a>可执行的任务
 

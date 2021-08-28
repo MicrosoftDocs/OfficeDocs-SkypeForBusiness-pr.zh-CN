@@ -16,19 +16,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 description: 这将帮助你了解如何拨打每个国家/地区的免费电话号码。 选择国家/地区后，将进入特定国家/地区页面，其中包含提供免费服务的免费服务可用性的特定详细信息、限制和限制。 拨号格式或格式将显示每个国家/地区拨打免费电话号码所需的访问代码。
-ms.openlocfilehash: 5799975dbce16f4f5f1cee4b2608ea2cfcd8ff70f5787cebde2620ac59eeb427
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: aa1fd5bbb3bb1c547286ae48a037b6ee288a938f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54348397"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631186"
 ---
 # <a name="toll-free-dialing-restrictions-in-monaco"></a>摩纳哥的免费拨号限制
 
@@ -43,7 +43,7 @@ ms.locfileid: "54348397"
 |涵盖的岛屿/区域  <br/> |不适用  <br/> |
 |未涵盖的岛屿/区域  <br/> |不适用  <br/> |
 |有线/固定线路可用性  <br/> |是  <br/> |
-|移动网络可用性  <br/> |弱  <br/> |
+|移动网络可用性  <br/> |否  <br/> |
 |注释、限制和访问问题  <br/> |无  <br/> |
    
 ## <a name="related-topics"></a>相关主题

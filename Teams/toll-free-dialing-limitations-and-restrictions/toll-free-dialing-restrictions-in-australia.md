@@ -16,20 +16,20 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: 了解在澳大利亚拨打免费电话号码，包括可用性、有线/固定线路和移动网络可用性以及限制。
-ms.openlocfilehash: 8fd69301cac8a2889800488c5147111400f829bae5fb870fc602609c30e7e2f8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 了解如何在澳大利亚拨打免费电话号码，包括可用性、有线/固定线路和移动网络可用性，以及限制。
+ms.openlocfilehash: a2d3b79e95eadc9c85abd0d5812dbf7ba785c6d8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300808"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608659"
 ---
 # <a name="toll-free-dialing-restrictions-in-australia"></a>澳大利亚的免费拨号限制
 

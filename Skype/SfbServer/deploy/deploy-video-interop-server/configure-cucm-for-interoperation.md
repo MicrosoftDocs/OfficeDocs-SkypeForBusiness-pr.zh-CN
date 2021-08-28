@@ -9,16 +9,16 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: eab3d9f6-ec40-49bf-9162-1a7f5a59451f
 description: 摘要：配置 CUCM 以使用Skype for Business Server。
-ms.openlocfilehash: c414e14feb29dc834ebcd6a62221e3ae5e6706e5ee5c265f155d6ea512a91423
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a27af30cd4934743f8b83260ffd46fa3c65cbcd8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54307753"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58585628"
 ---
 # <a name="configure-cucm-for-interoperation-with-skype-for-business-server"></a>配置 CUCM 以与 Skype for Business Server
  
@@ -33,7 +33,7 @@ ms.locfileid: "54307753"
   
 ### <a name="configure-the-cucm"></a>配置 CUCM
 
-1. 登录到 CUCM 并导航到"Cisco 统一 CM 管理- \> 呼叫路由- \> 控制类别- \> 分区"。
+1. 登录到 CUCM 并导航到 Cisco Unified CM Administration- \> Call Routing- \> Class of Control- \> Partition。
     
 2. 在"分区配置"屏幕中，输入分区名称和说明，然后单击"添加新 **"。**
     
@@ -45,7 +45,7 @@ ms.locfileid: "54307753"
     
 6. 在"SIP 中继安全配置文件配置"屏幕中，按如下所示设置"SIP 中继安全配置文件信息"选项，然后单击"**添加新"。**
     
-   |**参数**|**推荐设置**|
+   |**Parameter**|**推荐设置**|
    |:-----|:-----|
    |名称  <br/> |SfBVideoInterop_SecurityProfile  <br/> |
    |设备安全模式  <br/> |非安全  <br/> |
@@ -57,16 +57,16 @@ ms.locfileid: "54307753"
     
 8. 在"SIP 配置文件配置"屏幕中，设置"SIP 配置文件信息"选项，如下所示。 
     
-   |**参数**|**推荐设置**|
+   |**Parameter**|**推荐设置**|
    |:-----|:-----|
    |名称  <br/> |SfBVideoInterop_SIPProfile  <br/> |
    |说明  <br/> |SfBVideoInterop_SIPProfile  <br/> |
    
 9. 在同一屏幕上，向下滚动到"SDP 配置文件信息"部分。 默认情况下 **，"早期优惠和** 重新邀请的 SDP 会话级别带宽修饰符"选项设置为 TIAS 和 AS。 仅将此选项更改为 TIAS。 如果将此选项保留为默认设置，Skype for Business Server将不能理解 SIP 消息中的带宽修饰符信息。 TIAS 表示特定于传输独立应用程序，而 AS 表示特定于应用程序。 这些是 RFC3890 中指定的 SIP 选项。
     
-10. 在同一屏幕上，继续向下滚动。 在"SIP 配置文件的中继特定配置"下，选择"语音和视频呼叫的早期提供支持"，并将其设置为" (**插入 MTP")** 选项。 这将允许 CUCM 设置具有 Early Offer 的传出 SIP 呼叫。 CUCM 8.5 及以后的一项新功能是，它支持具有 Early Offer 的传出呼叫设置，而无需使用媒体 (MTP) 。
+10. 在同一屏幕上，继续向下滚动。 在"SIP 配置文件的特定中继配置"下，选择"语音和视频呼叫的早期提供支持"，并根据需要将其设置为" (**插入 MTP")** 选项。 这将允许 CUCM 设置具有 Early Offer 的传出 SIP 呼叫。 CUCM 8.5 及以后的一项新功能是，它支持具有 Early Offer 的传出呼叫设置，而无需使用媒体 (MTP) 。
     
-11. 确认在"SIP 选项 ping"部分，选中"启用 OPTIONS Ping 以监视服务类型为'无 () 默认模式'的中继的目标状态"旁边的框。
+11. 确认在"SIP 选项 ping"部分，选中了"启用 OPTIONS Ping 以监视服务类型为'无，默认为'无 (中继) 状态"旁边的框。
     
 12. 完成后，单击"添加新 **"。**
     
@@ -80,7 +80,7 @@ ms.locfileid: "54307753"
     
 17. 继续向下滚动。 设置"入站呼叫"和"设置"选项，如下所示。
     
-    |**参数**|**推荐设置**|
+    |**Parameter**|**推荐设置**|
     |:-----|:-----|
     |调用搜索空间  <br/> |CSS_SfBVideoInterop  <br/> |
     |AAR 呼叫搜索空间  <br/> |CSS_SfBVideoInterop  <br/> |
@@ -88,7 +88,7 @@ ms.locfileid: "54307753"
    
 18. 继续向下滚动。 在 SIP 中继配置的"SIP 信息目标"部分下，指定 VIS 池的 FQDN 或池中各个 VIS 服务器的 IP 地址， (添加多个) 。 在"目标端口"中，指定 VIS 侦听 CUCM 连接端口的端口 (默认值为 6001) 。 还要指定您之前创建的 SIP 中继安全配置文件和 SIP 配置文件，如下所示。
     
-    |**参数**|**推荐设置**|
+    |**Parameter**|**推荐设置**|
     |:-----|:-----|
     |SIP 中继安全配置文件  <br/> |SfBVideoInterop_SecurityProfile  <br/> |
     |重新路由呼叫搜索空间  <br/> |CSS_SfBVideoInterop  <br/> |
@@ -105,7 +105,7 @@ ms.locfileid: "54307753"
     
 22. 在"路由模式配置"屏幕中，输入如下所示的模式定义参数。 向下滚动到"被叫方转换"部分，按如下所示设置掩码，然后在完成后单击" **添加新** "。
     
-    |**参数**|**推荐设置**|
+    |**Parameter**|**推荐设置**|
     |:-----|:-----|
     |路由模式  <br/> |7779999  <br/> |
     |路由分区  <br/> |SfBVideoInterop_RoutePartition  <br/> |
@@ -117,7 +117,7 @@ ms.locfileid: "54307753"
     
 24. 在"SIP 路由模式配置"屏幕中，按如下所示设置模式定义选项，然后单击"**添加新"。**
     
-    |**参数**|**推荐设置**|
+    |**Parameter**|**推荐设置**|
     |:-----|:-----|
     | 模式用法 <br/> |域路由  <br/> |
     |IPv4 模式  <br/> |contoso.com (IPv6 时保留为空)   <br/> |
@@ -129,11 +129,11 @@ ms.locfileid: "54307753"
    
 25. 如果已更改音频或视频比特率的默认设置，则需要将其恢复为默认值。 若要设置音频/视频呼叫的比特率，请导航到"Cisco 统一 CM 管理- \> 系统- 区域 \> 信息- \> 区域"。 下面显示了默认值，仅供参考：
     
-    |**参数**|**推荐设置**|
+    |**Parameter**|**推荐设置**|
     |:-----|:-----|
-    |地区  <br/> |默认  <br/> |
+    |地区  <br/> |默认值  <br/> |
     |音频编解码器首选项列表  <br/> |系统默认值  <br/> |
-    |最大音频比特率  <br/> |64 kbps (G.722、G.711)   <br/> |
+    |最大音频比特率  <br/> |64 kbps (G.722，G.711)   <br/> |
     |视频呼叫的最大会话比特率  <br/> |200000 kbps  <br/> |
     |最大会话比特率  <br/> |2000000000 kbps  <br/> |
    

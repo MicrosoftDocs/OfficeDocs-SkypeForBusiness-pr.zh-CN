@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.MachineScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 337f5424-5bb4-45ef-83ca-117ada93498c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 此节点显示该服务器的完全限定域名 (FQDN) 和 IP 地址配置。可以执行以下操作：
-ms.openlocfilehash: feab471c72cddbbc3239309e7144908845e9595fb5b2ff0249d1e523a8f19f24
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2e898ba819ca06cbfb52ccac5de2d44373c6ffd7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315988"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631036"
 ---
 # <a name="machine-scope-node"></a>计算机范围节点
  

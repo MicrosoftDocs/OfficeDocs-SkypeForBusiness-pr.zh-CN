@@ -15,15 +15,15 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解应用中的自定义Microsoft Teams。
-ms.openlocfilehash: 0a068634b0f951abff0ae2f1b310cd48bdb80a5d4b790d2fdb81755d05636868
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 12893fc0a424fc85b0bb72dd58da3008c2ba5085
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342986"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584656"
 ---
 # <a name="custom-apps-store-in-microsoft-teams"></a>自定义应用存储在 Microsoft Teams
 
@@ -32,7 +32,7 @@ ms.locfileid: "54342986"
 > [!Note]
 > 品牌更改需要 24 小时才能生效。
 
-通过选择"自定义应用商店"应用，Teams **管理中心**  >  **中的自定义应用商店**。
+通过选择"自定义应用商店"应用，Teams **管理中心**  >  **中的自定义存储**。
 
   ![管理员控制台突出显示自定义应用商店功能](media/customize-app-store.png)
 
@@ -44,7 +44,7 @@ ms.locfileid: "54342986"
 <a name="orglogo"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-可在此处上传组织徽标。 所选徽标将显示在"为租户Teams **应用"**  >  **页的客户端中**。
+可在此处上传组织徽标。 所选徽标将显示在"为租户Teams **应用**  >  **"页面中的"应用"客户端** 中。
 
 选择" **选择图片"选项** 时，可以上传选择的文件。 徽标应为 240x60，否则将缩放到该大小。 它不应大于 5 MB。 支持的格式包括：
 
@@ -60,7 +60,7 @@ ms.locfileid: "54342986"
 <a name="orglogomark"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-组织徽标标记或小徽标是表示组织品牌的图像或符号，不包括公司名称。 lovemark 可帮助团队成员识别应用应用商店。 所选徽标将显示在"应用"页Teams客户端中。
+组织徽标标记或小徽标是表示组织品牌的图像或符号，不包括公司名称。 lovemark 可帮助团队成员识别应用应用商店。 所选徽标将显示在应用页Teams客户端中。
 
 选择" **选择图片"选项** 时，可以上传选择的文件。 徽标标记应为 32x32 像素，否则将缩放到该大小。 它不应大于 5 MB。 支持的格式包括：
 
