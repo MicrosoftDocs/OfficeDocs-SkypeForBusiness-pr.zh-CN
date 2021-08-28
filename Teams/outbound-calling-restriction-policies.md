@@ -14,19 +14,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: 管理员可以控制用户可以进行的音频会议和最终用户 PSTN 呼叫的类型。
-ms.openlocfilehash: bbe2641cfd642e4ffd0cf6af901df059190740bf60ddbb8dfc5d82ba58c98380
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 管理员可以控制用户可以拨打的音频会议和最终用户 PSTN 呼叫的类型。
+ms.openlocfilehash: 9e7f656cd51131237507cc184e021128a33d9268
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332544"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598406"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>音频会议和用户 PSTN 通话的出站通话限制策略
 
@@ -42,14 +42,14 @@ ms.locfileid: "54332544"
 若要了解哪些国家和地区被视为区域 A，请参阅音频会议 [的国家和地区区域](audio-conferencing-zones.md)。
 
    > [!NOTE]
-   > 如果拨打的号码位于为会议组织者设置了 Microsoft 365 或 Office 365 的国家/地区（对于音频会议 () ）或最终用户 (（对于最终用户 PSTN 呼叫) ）来说，呼叫被视为国内呼叫。
+   > 如果拨打的号码位于为会议组织者设置 Microsoft 365 或 Office 365 的国家/地区（对于音频会议 () ）或最终用户 (（对于最终用户 PSTN 呼叫) ）中，呼叫被视为国内呼叫。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
 ## <a name="restrict-audio-conferencing-outbound-calls"></a>限制音频会议出站呼叫
 
-![Microsoft Teams徽标 ](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
+![Microsoft Teams徽标 使用 ](media/teams-logo-30x30.png) **Microsoft Teams 管理中心**
 
 1. 在左侧导航栏中， **选择"用户**"，显示名称可用用户列表中选择该用户的用户名。
 
@@ -80,7 +80,7 @@ ms.locfileid: "54332544"
 
 可以使用 Get-CSOnlineDialOutPolicy cmdlet 查看出站调用策略，并使用以下命令进行设置。
 
-**使用以下 cmdlet 在每个用户级别设置策略**。  (Get cmdlet 不包含"联机"一词，就像 Get cmdlet 一样) 
+**使用以下 cmdlet 在每个用户级别设置策略**。  (Grant cmdlet 不包含"联机"一词，就像 Get cmdlet 一样) 
 
 ```
 Grant-CsDialoutPolicy -Identity <username> -PolicyName <policy name>    
@@ -100,7 +100,7 @@ Grant-CsDialoutPolicy  -Tenant <guid> -PolicyName <policy name>  -Global
 |:-----|:-----|
 |标识='tag:DialoutCPCandPSTNInternational'    |    参加会议的用户可以拨打国际和国内号码，同时此用户还可出站呼叫国际和国内号码。    |
 |标识='tag:DialoutCPCDomesticPSTNInternational'  |    参加会议的用户只能拨打国内号码，同时此用户只能出站呼叫国际和国内号码。    |
-|    标识='tag:DialoutCPCDisabledPSTNInternational'    |    会议中的用户无法拨出。此用户可以拨打国际和国内号码的出站呼叫。    |
+|    标识='tag:DialoutCPCDisabledPSTNInternational'    |    会议中的用户无法拨出。此用户可以拨打国际和国内号码的出站电话。    |
 |    标识='tag:DialoutCPCInternationalPSTNDomestic'    |    参加会议的用户可以拨打国际和国内号码，同时此用户只能出站呼叫国内 PSTN 号码。    |
 |    标识='tag:DialoutCPCInternationalPSTNDisabled'    |    参加会议的用户可以拨打国际和国内号码，同时此用户无法出站呼叫 PSTN 号码，紧急号码除外。    |
 |    标识='tag:DialoutCPCandPSTNDomestic'    |    参加会议的用户只能拨打国内号码，同时此用户只能出站呼叫对国内 PSTN 号码。    |

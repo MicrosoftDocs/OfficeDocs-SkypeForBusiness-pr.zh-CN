@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c24e0891-e108-4cb6-9902-c6a4c8e68455
 description: 摘要：在部署中配置双重Skype for Business Server。
-ms.openlocfilehash: 128ae4fcc1a9e7cd9817e73539b1bf1290883a1d
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: f4c8532d08a3ed6c06a702039eea224f231cbd06
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234637"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612391"
 ---
 # <a name="configure-two-factor-authentication-in-skype-for-business-server"></a>在客户端中配置双重Skype for Business Server
 
@@ -56,11 +56,11 @@ ms.locfileid: "58234637"
 
 12. 更改权限，如下所示：
 
-    - 使用"读取/注册"权限添加单个用户 AD (允许) 用户 AD 帐户，或
+    - 使用读取/注册权限添加单个用户 AD (允许) 或
 
-    - 添加一个安全组，其中包含具有读取/注册权限 (允许) 智能卡用户，或者
+    - 添加一个安全组，其中包含具有读取/注册权限的 (允许) 智能卡用户，或者
 
-    - 添加具有"读取/注册"权限 (域) 组
+    - 添加具有读取/注册权限的域 (允许) 组
 
 ## <a name="configure-windows-8-for-virtual-smart-cards"></a>配置Windows 8智能卡的组
 
@@ -78,7 +78,7 @@ ms.locfileid: "58234637"
 
 4. 右键单击命令 **提示符**，然后选择以 **管理员角色运行**。
 
-5. 通过运行以下命令 (TPM) 控制台打开受信任的平台模块：
+5. 通过运行以下命令 (TPM) 管理控制台中打开受信任的平台模块：
 
    ```console
    Tpm.msc
@@ -87,7 +87,7 @@ ms.locfileid: "58234637"
 6. 从 TPM 管理控制台中，验证 TPM 规范版本是否至少为 1.2
 
     > [!NOTE]
-    > 如果您收到一个对话框，指出找不到兼容信任平台模块 (TPM) ，请验证计算机是否具有兼容的 TPM 模块，以及它在系统 BIOS 中是否已启用。
+    > 如果收到一个对话框，指出找不到兼容的信任平台模块 (TPM) ，请验证计算机是否具有兼容的 TPM 模块，以及它在系统 BIOS 中是否已启用。
 
 7. 关闭 TPM 管理控制台
 
@@ -127,7 +127,7 @@ ms.locfileid: "58234637"
 3. 浏览到证书 **颁发机构 Web 注册** (例如 https://MyCA.contoso.com/certsrv) 。
 
     > [!NOTE]
-    > 如果你使用的是 Internet Explorer 10，可能需要在兼容模式下查看此网站。
+    > 如果你使用的是Internet Explorer 10，可能需要在兼容模式下查看此网站。
 
 4. 在"**欢迎"** 页上，选择"**请求证书"。**
 
@@ -189,7 +189,7 @@ ms.locfileid: "58234637"
 
 2. 启动 Windows PowerShell。
 
-3. 在Windows PowerShell命令行中，运行以下命令：
+3. 从Windows PowerShell命令行运行以下命令：
 
   ```PowerShell
   add-pssnapin Microsoft.Adfs.PowerShell
@@ -205,7 +205,7 @@ ms.locfileid: "58234637"
 
 6. 展开 **"信任**  >  **关系信赖方信任"。**
 
-7. 验证是否为用户创建了新的信任Skype for Business Server。
+7. 验证是否为用户创建了新的Skype for Business Server。
 
 8. 通过运行以下命令，使用 Windows PowerShell为信赖方信任创建和分配颁发授权规则：
 
@@ -254,7 +254,7 @@ ms.locfileid: "58234637"
 
 4. 创建现有数据库文件的web.config副本。
 
-5. 使用"web.config打开现有 记事本。
+5. 使用 web.config 打开现有 记事本。
 
 6. 从"菜单"栏中，选择 **"编辑"，** 然后选择"查找 **"。**
 
@@ -276,7 +276,7 @@ ms.locfileid: "58234637"
 
 ## <a name="configuring-skype-for-business-server-passive-authentication"></a>配置Skype for Business Server身份验证
 
-下一节介绍如何配置Skype for Business Server以支持被动身份验证。 启用后，启用了双重身份验证的用户需要使用物理或虚拟智能卡和有效 PIN 才能使用 Skype for Business 客户端登录。
+下一节介绍如何配置Skype for Business Server以支持被动身份验证。 启用后，启用双重身份验证的用户需要使用物理或虚拟智能卡和有效 PIN 才能使用 Skype for Business 登录。
 
 > [!NOTE]
 > 强烈建议客户在服务级别为注册器和 Web 服务启用被动身份验证。 如果在全局级别为注册器和 Web 服务启用被动身份验证，则可能导致未使用受支持的桌面客户端登录的用户在组织范围内进行身份验证失败。
@@ -287,11 +287,11 @@ ms.locfileid: "58234637"
 
 ### <a name="to-create-a-custom-web-service-configuration"></a>创建自定义 Web 服务配置
 
-1. 使用 Skype for Business Server 管理员帐户登录到 Skype for Business 前端服务器。
+1. 使用管理员Skype for Business Server登录到 Skype for Business 前端服务器。
 
-2. 启动 Skype for Business Server 命令行管理程序。
+2. 启动 Skype for Business Server命令行管理程序。
 
-3. 从 Skype for Business Server 命令行管理程序命令行中，通过运行以下命令，为每个将启用被动身份验证的控制器、Enterprise 池和 Standard Edition 服务器创建新的 Web 服务配置：
+3. 从 Skype for Business Server 命令行中，通过运行以下命令为每个控制器、Enterprise 池和 Standard Edition 服务器创建新的 Web 服务配置，这些服务器将启用被动身份验证：
 
   ```PowerShell
   New-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
@@ -326,7 +326,7 @@ ms.locfileid: "58234637"
 
 ### <a name="to-create-a-custom-proxy-configuration"></a>创建自定义代理配置
 
-1. 从 Skype for Business Server 命令行管理程序命令行中，为将运行以下命令启用被动身份验证的每个 Skype for Business Server 边缘池、Enterprise 池和 Standard Edition 服务器创建新的代理配置：
+1. 在 Skype for Business Server 命令行管理程序命令行中，通过运行以下命令为每个将启用被动身份验证的 Skype for Business Server 边缘池、Enterprise 池和 Standard Edition 服务器创建新的代理配置：
 
   ```PowerShell
   New-CsProxyConfiguration -Identity "Service:EdgeServer:EdgePool01.contoso.com" -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False

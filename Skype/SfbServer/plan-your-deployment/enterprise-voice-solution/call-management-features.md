@@ -1,5 +1,5 @@
 ---
-title: 规划呼叫管理中心中的Skype for Business
+title: 规划呼叫管理中的Skype for Business
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -9,23 +9,23 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 5f557345-5a04-45d6-b274-c02dbfe41b33
-description: 支持呼叫管理功能概述Skype for Business Server 企业语音。
-ms.openlocfilehash: c0cbeb9a659f815c72f36db9ebd426b718b9483d198bd6a65d3f9488701cca19
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 支持的电话管理功能概述Skype for Business Server 企业语音。
+ms.openlocfilehash: e51194792e7b3162c17a9ac2c0a35310f5d60e64
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306893"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622144"
 ---
-# <a name="plan-for-call-management-features-in-skype-for-business"></a>规划呼叫管理中心中的Skype for Business
+# <a name="plan-for-call-management-features-in-skype-for-business"></a>规划呼叫管理中的Skype for Business
 
-支持呼叫管理功能概述Skype for Business Server 企业语音。
+支持的电话管理功能概述Skype for Business Server 企业语音。
 
 企业语音呼叫管理功能控制如何路由和应答传入呼叫。 Skype for Business Server提供了以下呼叫管理功能：
 

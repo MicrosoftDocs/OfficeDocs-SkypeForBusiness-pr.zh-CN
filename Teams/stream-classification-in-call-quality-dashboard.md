@@ -1,5 +1,5 @@
 ---
-title: 'CQD 呼叫质量仪表板中的 (分类) '
+title: '呼叫质量仪表板中的流分类 (CQD) '
 ms.author: serdars
 author: lolaj
 manager: serdars
@@ -14,22 +14,22 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Optimization
-description: 了解如何在呼叫质量仪表板中为 (和 Skype for Business Online) CQD Microsoft Teams流质量。
-ms.openlocfilehash: a717597151f0d933a8bbea49e6e71d070b063885
-ms.sourcegitcommit: 81f1a113a33c7ea8d2256144544d0e34cd64d576
+description: 了解如何在呼叫质量仪表板中分类流质量 (CQD) Microsoft Teams Skype for Business Online。
+ms.openlocfilehash: f4c4fb72d15ce79c60c2400b068898ad463f1b07
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58505420"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598336"
 ---
 # <a name="stream-classification-in-call-quality-dashboard-cqd"></a>呼叫质量仪表板中的流分类 (CQD) 
 
-使用适用于 (和 Skype for Business Online (CQD) 的呼叫质量仪表板Microsoft Teams您可以深入了解使用 Microsoft Teams 和 Skype for Business 服务进行呼叫的质量。 本主题提供有关媒体流质量分类的详细信息。 若要详细了解 CQD 及其设置，请参阅设置 [呼叫质量仪表板](turning-on-and-using-call-quality-dashboard.md)。
+使用适用于 (和 Skype for Business Online 的 CQD) 呼叫质量仪表板Microsoft Teams可深入了解使用 Microsoft Teams 和 Skype for Business 服务进行呼叫的质量。 本主题提供有关媒体流质量分类的详细信息。 若要详细了解 CQD 及其设置，请参阅设置 [呼叫质量仪表板](turning-on-and-using-call-quality-dashboard.md)。
 
 ## <a name="classifier-definitions"></a>分类器定义
 

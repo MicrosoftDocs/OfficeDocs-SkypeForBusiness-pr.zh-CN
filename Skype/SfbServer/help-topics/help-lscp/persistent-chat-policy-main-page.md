@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.PersistentChatPolicyMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0dc18d5c-82d6-4d39-afb1-efdb3ae6d2c7
 description: 您可以使用持久聊天组的"持久聊天策略"页来管理全局、池、站点或用户级别的策略，包括配置默认全局策略和为部署创建一个或多个其他用户和站点策略。 如果策略为用户启用了持久聊天服务器，则持久聊天服务器环境将显示在其客户端中。
-ms.openlocfilehash: c540ba5a21ddac731e3d68814421bcd80a205a3700e95e48b926add490a8baab
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 53717b18088bf8ddcd4317e4e1f3d72e24859f96
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328327"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595776"
 ---
 # <a name="persistent-chat-policy-main-page"></a>持久聊天策略主页
  
@@ -88,7 +88,7 @@ ms.locfileid: "54328327"
     
 ## <a name="to-create-a-user-policy-for-persistent-chat"></a>为持久聊天创建用户策略
 
-在Skype for Business Server控制面板中，定义可在"用户"中分配给用户 **的用户策略**。
+在Skype for Business Server控制面板中，定义可分配给 Users 中的用户 **的用户策略**。
   
 用户策略将覆盖全局策略和站点策略，但仅适用于分配了该用户策略的特定用户。
   
@@ -104,7 +104,7 @@ ms.locfileid: "54328327"
     
    - 在“名称”中，指定新用户策略的名称。
     
-   - 在 **"说明**"中，提供有关用户策略 (例如，特定用户的持久聊天策略) 。
+   - 在 **"** 说明"中，提供有关用户策略 (例如，特定用户的持久聊天策略) 。
     
    - 若要控制未通过用户策略明确控制的所有用户的持久聊天，请选中或清除" **启用持久聊天** "复选框。
     

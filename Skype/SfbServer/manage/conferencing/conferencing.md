@@ -9,21 +9,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 825e051c-83a5-420d-a5ef-f77afa368e2e
 description: 摘要：了解如何在会议Skype for Business Server。
-ms.openlocfilehash: 94f59c2c2a8586ec1d0d47316e976d0e662b5bb0824ce34df9de327b0446fcae
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8f91e6c7e87c5e7a2032e6c3eb9d6b220ec3da51
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333594"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636066"
 ---
 # <a name="manage-conferencing-in-skype-for-business-server"></a>管理会议Skype for Business Server
  
 **摘要：** 了解如何在会议Skype for Business Server。
   
-本主题介绍如何管理会议。 若要详细了解如何计划和部署会议，请参阅在 Skype for Business Server 中规划会议[Skype for Business Server。](../../plan-your-deployment/conferencing/conferencing.md) [](../../deploy/deploy-conferencing/deploy-conferencing.md)
+本主题介绍如何管理会议。 若要详细了解如何计划和部署会议，请参阅在 Skype for Business Server 中[](../../plan-your-deployment/conferencing/conferencing.md)规划会议[Skype for Business Server。](../../deploy/deploy-conferencing/deploy-conferencing.md)
   
 在Skype for Business Server中，通过指定配置和策略设置来管理会议的详细信息，如下所示。 请注意，术语"会议"和"会议"有时可以互换使用。 但是，通常可以将会议视为会议的特定实例。
   
@@ -43,13 +43,13 @@ ms.locfileid: "54333594"
     
 - **PIN 策略设置** 允许你命名和定义参与者用于拨入访问的 PIN。
     
-## <a name="manage-conferencing-by-using-skype-for-business-server-control-panel-or-by-using-skype-for-business-server-management-shell"></a>使用控制面板Skype for Business Server命令行管理程序管理Skype for Business Server会议
+## <a name="manage-conferencing-by-using-skype-for-business-server-control-panel-or-by-using-skype-for-business-server-management-shell"></a>使用控制面板或命令行Skype for Business Server命令行管理程序Skype for Business Server会议
 
 通过使用控制面板或命令行管理程序，Skype for Business Server大多数会议策略和Skype for Business Server设置。 某些配置设置仅在命令行管理程序Skype for Business Server可用。
   
 - 管理会议策略设置：
     
-  - 在"控制面板"中，选择 **"会议|会议策略**。
+  - 在"控制面板"中，选择" **会议|会议策略**。
     
   - 在 PowerShell 中，搜索 **-CsConferencingPolicy** cmdlet。
     
@@ -61,19 +61,19 @@ ms.locfileid: "54333594"
     
 - 管理拨入访问号码设置：
     
-  - 在"控制面板"中，选择 **"会议|拨入访问号码**。
+  - 在"控制面板"中，选择" **会议|拨入访问号码**。
     
   - 在Skype for Business Server命令行管理程序中，搜索 **-CsDialInConferencing** cmdlet。
     
 - 要管理拨入访问信息，例如拨号计划、语音策略、路由和 PSTN 用法： 
     
-  - 在"控制面板"中，选择 **"会议|语音路由**。
+  - 在"控制面板"中，选择" **会议|语音路由**。
     
   - 在Skype for Business Server命令行管理程序中，搜索 **-CsDialPlan** 和 **-CsVoice** cmdlet。
     
 - 管理 PIN 策略设置：
     
-  - 在"控制面板"中，选择 **"会议|PIN 策略**。
+  - 在"控制面板"中，选择" **会议|PIN 策略**。
     
   - 在Skype for Business Server命令行管理程序中，搜索 **-CsPinPolicy** cmdlet。
     
@@ -106,7 +106,7 @@ ms.locfileid: "54333594"
 
 |**Cmdlet**|**说明**|
 |:-----|:-----|
-|[Get-CsConferencingConfiguration](/powershell/module/skype/get-csconferencingconfiguration?view=skype-ps) <br/> |返回有关组织的会议配置设置的信息。 会议设置可确定诸如会议内容和讲义允许的最大大小、内容宽限期 (即内容在被删除) 之前存储的时间量以及用于内部和外部下载受支持客户端的 URL 等内容。  <br/> |
+|[Get-CsConferencingConfiguration](/powershell/module/skype/get-csconferencingconfiguration?view=skype-ps) <br/> |返回有关组织的会议配置设置的信息。 会议设置可确定诸如会议内容和讲义允许的最大大小、内容宽限期 (即内容在删除) 之前存储的时间以及用于内部和外部下载受支持客户端的 URL 等内容。  <br/> |
 |[New-CsConferencingConfiguration](/powershell/module/skype/new-csconferencingconfiguration?view=skype-ps) <br/> |创建新的会议配置设置集合。  <br/> |
 |[Remove-CsConferencingConfiguration](/powershell/module/skype/remove-csconferencingconfiguration?view=skype-ps) <br/> |删除指定的会议配置设置的集合。  <br/> |
 |[Set-CsConferencingConfiguration](/powershell/module/skype/set-csconferencingconfiguration?view=skype-ps) <br/> |修改现有的会议配置设置集合。  <br/> |
@@ -116,7 +116,7 @@ ms.locfileid: "54333594"
 |**Cmdlet**|**说明**|
 |:-----|:-----|
 |[Get-CsConferenceDirectory](/powershell/module/skype/get-csconferencedirectory?view=skype-ps) <br/> |返回有关配置为在组织中使用的会议目录的信息。 会议目录用于帮助电话拨入式会议用户查找会议信息。  <br/> |
-|[Get-CsDialInConferencingConfiguration](/powershell/module/skype/get-csdialinconferencingconfiguration?view=skype-ps) <br/> |检索有关用户Skype for Business Server离开电话拨入式会议时如何响应的信息。  <br/> |
+|[Get-CsDialInConferencingConfiguration](/powershell/module/skype/get-csdialinconferencingconfiguration?view=skype-ps) <br/> |检索有关用户Skype for Business Server或离开电话拨入式会议时如何响应的信息。  <br/> |
 |[Get-CsDialInConferencingAccessNumber](/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps) <br/> |返回有关配置为在组织中使用的所有电话拨入式会议访问号码的信息。  <br/> |
 |[Get-CsDialInConferencingDtmfConfiguration](/powershell/module/skype/get-csdialinconferencingdtmfconfiguration?view=skype-ps) <br/> |返回用于电话拨入式会议的双音多频 (DTMF) 信号设置。 通过 DTMF，拨号接入会议的用户可以使用其电话上的小键盘控制会议设置（例如，将自己静音和取消静音，或者锁定和解锁会议）。  <br/> |
 |[Get-CsDialInConferencingLanguageList](/powershell/module/skype/get-csdialinconferencinglanguagelist?view=skype-ps) <br/> |返回支持用于电话拨入式会议的语言列表，Skype for Business Server/少数语言。 这些语言用于将音频消息和说明中继到使用电话参与会议的用户。  <br/> |
@@ -126,10 +126,10 @@ ms.locfileid: "54333594"
 |[Move-CsConferenceDirectory](/powershell/module/skype/move-csconferencedirectory?view=skype-ps) <br/> |将现有的会议目录从一个池移动到另一个池。 会议目录用于帮助电话拨入式会议用户查找会议信息。  <br/> |
 |[New-CsConferenceDirectory](/powershell/module/skype/new-csconferencedirectory?view=skype-ps) <br/> |创建在组织中使用的新会议目录。 会议目录用于帮助电话拨入式会议用户查找会议信息。  <br/> |
 |[New-CsDialInConferencingAccessNumber](/powershell/module/skype/new-csdialinconferencingaccessnumber?view=skype-ps) <br/> |创建新的电话拨入式会议访问号码。  <br/> |
-|[New-CsDialInConferencingConfiguration](/powershell/module/skype/new-csdialinconferencingconfiguration?view=skype-ps) <br/> |创建新的电话拨入式会议配置设置集合。 这些设置确定Skype for Business Server加入或离开电话拨入式会议时如何响应。 特别是，将返回有关是否要求参与者在加入会议时记录其姓名的信息，以及 (或系统是否) 有人已加入或离开呼叫的信息。  <br/> |
+|[New-CsDialInConferencingConfiguration](/powershell/module/skype/new-csdialinconferencingconfiguration?view=skype-ps) <br/> |创建新的电话拨入式会议配置设置集合。 这些设置确定Skype for Business Server加入或离开电话拨入式会议时如何响应。 特别是，将返回有关是否要求参与者在加入会议时记录其姓名的信息，以及 (或) 系统是否宣布有人已加入或离开呼叫。  <br/> |
 |[New-CsDialInConferencingDtmfConfiguration](/powershell/module/skype/new-csdialinconferencingdtmfconfiguration?view=skype-ps) <br/> |创建新的用于电话拨入式会议的双音多频 (DTMF) 信号设置的集合。  <br/> |
 |[New-CsDialPlan](/powershell/module/skype/new-csdialplan?view=skype-ps) <br/> |创建新的拨号计划。  <br/> |
-|[Remove-CsConferenceDirectory](/powershell/module/skype/remove-csconferencedirectory?view=skype-ps) <br/> |删除现有的会议目录。 会议目录用于帮助电话拨入式会议用户查找会议信息。  <br/> |
+|[Remove-CsConferenceDirectory](/powershell/module/skype/remove-csconferencedirectory?view=skype-ps) <br/> |删除现有会议目录。 会议目录用于帮助电话拨入式会议用户查找会议信息。  <br/> |
 |[Remove-CsDialInConferencingAccessNumber](/powershell/module/skype/remove-csdialinconferencingaccessnumber?view=skype-ps) <br/> |删除现有的电话拨入式会议访问号码。  <br/> |
 |[Remove-CsDialInConferencingConfiguration](/powershell/module/skype/remove-csdialinconferencingconfiguration?view=skype-ps) <br/> |删除电话拨入式会议配置设置的一个或多个集合。 这些设置确定Skype for Business Server加入或离开电话拨入式会议时如何响应。  <br/> |
 |[Remove-CsDialInConferencingDtmfConfiguration](/powershell/module/skype/remove-csdialinconferencingdtmfconfiguration?view=skype-ps) <br/> |删除用于电话拨入式会议 (DTMF) 信号设置的现有双音多频集合。  <br/> |
@@ -152,7 +152,7 @@ ms.locfileid: "54333594"
 
 |**Cmdlet**|**说明**|
 |:-----|:-----|
-|[Disable-CsMeetingRoom](/powershell/module/skype/disable-csmeetingroom?view=skype-ps) <br/> |禁用Skype for Business Server会议室。 会议室是一个旨在处理小会议室中的视频会议和协作方案的会议设备。 禁用会议室对象时，将Skype for Business Server分配给表示该会议室的用户帐户的所有特定于 Active Directory 的属性。 但是，不会删除 Active Directory 用户帐户本身。  <br/> |
+|[Disable-CsMeetingRoom](/powershell/module/skype/disable-csmeetingroom?view=skype-ps) <br/> |禁用Skype for Business Server会议室。 会议室是一个旨在处理小会议室中的视频会议和协作方案的会议设备。 禁用会议室对象时，将删除分配给Skype for Business Server该会议室的用户帐户的所有特定于 Active Directory 的属性。 但是，不会删除 Active Directory 用户帐户本身。  <br/> |
 |[Enable-CsMeetingRoom](/powershell/module/skype/enable-csmeetingroom?view=skype-ps) <br/> |启用Skype for Business Server会议室。 要启用某会议室，您必须先创建一个代表该系统的 Active Directory 用户帐户。 请注意，尽管会议室对象基于用户帐户，但在您运行 Get-CsUser cmdlet 时不会出现这些对象。  <br/> |
 |[Get-CsConferenceDisclaimer](/powershell/module/skype/get-csconferencedisclaimer?view=skype-ps) <br/> |返回有关组织中使用的会议免责声明的信息。 会议免责声明是一条消息，该消息显示给通过超链接加入会议的用户（例如将会议链接粘贴到诸如 Windows Internet Explorer 等浏览器的用户）。  <br/> |
 |[Get-CsMeetingRoom](/powershell/module/skype/get-csmeetingroom?view=skype-ps) <br/> |返回有关配置为Skype for Business Server组织使用的所有会议室的信息。  <br/> |
@@ -170,6 +170,6 @@ ms.locfileid: "54333594"
 |[Test-CsDataConference](/powershell/module/skype/test-csdataconference?view=skype-ps) <br/> |验证一对用户能否参加 Skype for Business Server Web 会议，该会议包括共享或查看PowerPoint幻灯片、白板或投票等活动。 此 cmdlet 还验证 Skype for Business Server Web 会议服务能否发现 Office Web Apps Server，以及客户端能否上载 PowerPoint 文件供 Office Web Apps Server 广播。  <br/> |
 |[Test-CsDialInConferencing](/powershell/module/skype/test-csdialinconferencing?view=skype-ps) <br/> |检查用户能否参与电话拨入式会议会话。  <br/> |
 |[Test-CsDialPlan](/powershell/module/skype/test-csdialplan?view=skype-ps) <br/> |针对拨号计划（以前称为位置配置文件）测试一个电话号码，返回将应用于该号码的规范化规则，以及应用该规范化规则后的转换号码。  <br/> |
-|[Test-CsMcxConference](/powershell/module/skype/test-csmcxconference?view=skype-ps) <br/> |测试三个用户能否参加 Skype for Business Server Mobility Service 会议。 Mobility Service 使移动电话（如 iPhone 和 Windows 电话）的用户能够执行交换即时消息和状态信息等操作;在内部而不是与其无线提供商一起存储和检索语音邮件;以及利用Skype for Business Server电话呼叫和电话拨出式会议等功能。  <br/> **注意：** 使用 MCX 的客户端在 2019 Skype for Business Server不受支持。|
-|[Test-CsUcwaConference](/powershell/module/skype/test-csucwaconference?view=skype-ps) <br/> |测试一对用户使用 UCWA 应用程序的统一通信 Web API 安排、加入 (联机) 。  <br/> |
+|[Test-CsMcxConference](/powershell/module/skype/test-csmcxconference?view=skype-ps) <br/> |测试三个用户能否参加 Skype for Business Server Mobility Service 会议。 Mobility Service 使移动电话（如 iPhone 和 Windows 电话）的用户能够执行诸如交换即时消息和状态信息等操作;在内部而不是与其无线提供商一起存储和检索语音邮件;以及利用Skype for Business Server电话呼叫和电话拨出式会议等功能。  <br/> **注意：** 使用 MCX 的客户端在 2019 年 Skype for Business Server不受支持。|
+|[Test-CsUcwaConference](/powershell/module/skype/test-csucwaconference?view=skype-ps) <br/> |测试一对用户使用 UCWA 部署的统一通信 Web API 安排、加入 (联机) 。  <br/> |
 |[Debug-CsDataConference](/powershell/module/skype/debug-csdataconference?view=skype-ps) <br/> |返回报告中包含的数据会议功能的诊断Skype for Business Server。  <br/> |

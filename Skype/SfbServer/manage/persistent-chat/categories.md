@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b0c834b9-b5c8-41d5-865b-c8b180e76d13
 description: 摘要：了解如何在 Skype for Business Server 2015 中管理持久聊天服务器类别。
-ms.openlocfilehash: 1785f541765075160573907955630ee395d4f9773daebff7895842689327a3ef
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a69d8ec3119f9f94f9f5c864ec0e0d2d613b0e20
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276747"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622214"
 ---
 # <a name="manage-categories-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Manage categories in Persistent Chat Server in Skype for Business Server 2015
  
@@ -36,12 +36,12 @@ ms.locfileid: "54276747"
     
 标识为 (创建者的用户、组织单位) 和用户组是唯一被允许在类别中创建聊天室的个人和组。 创建类别后，可以从类别的 AllowedMembers 列表中选择用户、US 和用户组作为聊天室管理员和成员来管理和参与聊天室。 
   
-在配置类别之前，请务必阅读[Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md)中的持久聊天类别、聊天室和用户角色。
+在配置类别之前，请务必阅读 Skype for Business Server [2015](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md)中的持久聊天类别、聊天室和用户角色。
   
 可以使用控制面板或 cmdlet 配置和管理Windows PowerShell类别。
 
 > [!NOTE]
-> 持久聊天在 2015 Skype for Business Server可用，但在 2019 年 2 月不再Skype for Business Server支持。 相同的功能在 Teams。 有关详细信息，请参阅[开始升级Microsoft Teams升级](/microsoftteams/upgrade-start-here)。 如果您需要使用持久聊天，您的选择是将需要此功能的用户迁移到 Teams，或者继续使用 Skype for Business Server 2015。 
+> 持久聊天在 Skype for Business Server 2015 中可用，但在 2019 年 2 Skype for Business Server不再受支持。 相同的功能在 Teams。 有关详细信息，请参阅[开始升级Microsoft Teams升级](/microsoftteams/upgrade-start-here)。 如果您需要使用持久聊天，则选择将需要此功能的用户迁移到 Teams，或者继续使用 Skype for Business Server 2015。 
   
 ## <a name="configure-categories-by-using-the-control-panel"></a>使用控制面板配置类别
 
@@ -105,7 +105,7 @@ ms.locfileid: "54276747"
     
 - DeniedMembers。 列出不允许访问类别中的聊天室的用户。
     
-有关 cmdlet 语法（包括所有参数）的完整信息，请参阅[Skype for Business Server 2015 Management Shell](../management-shell.md)。
+有关 cmdlet 语法的完整信息（包括所有参数），请参阅[Skype for Business Server 2015 Management Shell](../management-shell.md)。
   
 ### <a name="create-a-new-category"></a>创建新类别
 

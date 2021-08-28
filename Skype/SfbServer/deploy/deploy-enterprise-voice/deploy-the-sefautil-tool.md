@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fb556e50-88dd-4404-a3d5-be36f5ba41e6
 description: 在 Skype for Business Server 中部署 SEFAUtil Skype for Business Server。
-ms.openlocfilehash: 5683dab35a51a088b89f410c11bd0713a8256496f85d11c7190d44f82528a3c9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4848bc2c73cbcfc132bd996622a25512dedc2bf1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54331864"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612751"
 ---
 # <a name="deploy-the-sefautil-tool-in-skype-for-business"></a>在部署中部署 SEFAUtil Skype for Business
  
@@ -30,9 +30,9 @@ ms.locfileid: "54331864"
 若要部署和管理组呼叫接听，你需要使用 Skype for Business Server SEFAUtil 工具的版本。 
   
 > [!IMPORTANT]
-> 必须在计划运行 SEFAUtil (的任何计算机上安装 Microsoft 统一通信托管 API) UCMA) 5 运行时。 在此处下载 [：Unified Communications Managed API 5.0 Runtime](https://www.microsoft.com/download/details.aspx?id=47344)。 也可以在此处下载 UCMA 5 SDK，其中包括运行时[：UCMA 5.0 SDK。](https://www.microsoft.com/download/details.aspx?id=47345)
+> 必须在计划运行 SEFAUtil 工具 (安装 Microsoft 统一通信托管 API) UCMA) 5 运行时。 在此处下载 [：Unified Communications Managed API 5.0 Runtime](https://www.microsoft.com/download/details.aspx?id=47344)。 也可以在此处下载 UCMA 5 SDK，其中包括运行时[：UCMA 5.0 SDK。](https://www.microsoft.com/download/details.aspx?id=47345)
   
-可以在部署中的任一前端池中运行 SEFAUtil 工具。 若要运行 SEFAUtil 工具，必须在受信任的应用程序计算机上从 Skype for Business 部署向导运行步骤 1、2 和 3。 SEFAUtil 要求存在本地配置存储以及证书。
+可以在部署的任何前端池中运行 SEFAUtil 工具。 若要运行 SEFAUtil 工具，必须在受信任应用程序计算机上从 Skype for Business 部署向导运行步骤 1、2 和 3。 SEFAUtil 要求存在本地配置存储以及证书。
   
 > [!NOTE]
 > 有关运行 SEFAUtil 的更多详细信息，请参阅博客文章"[如何运行 SEFAutil？"。](/archive/blogs/jenstr/how-to-get-sefautil-running) 
@@ -50,7 +50,7 @@ ms.locfileid: "54331864"
    ```
     > [!NOTE]
     > 池 FQDN：将承载 SEFAUtil 应用程序的服务器或池的 FQDN (通常是Skype for Business前端服务器或池) 。
-    > 池注册器 FQDN：Skype for Business前端服务器或池的 FQDN 应用程序池。
+    > 池注册器 FQDN：与Skype for Business关联的前端服务器或池的 FQDN 应用程序池。
     > 池站点：此池所位于的站点的站点 ID。
 
 4. 将 SEFAUtil 工具定义为受信任的应用程序。 在命令行中运行：
@@ -68,11 +68,11 @@ ms.locfileid: "54331864"
    Enable-CsTopology
    ```
 
-6. 如果尚未下载，请从此位置下载 Skype for Business Server 版本的 SEFAUtil 工具，并安装在[](https://www.microsoft.com/download/details.aspx?id=52631)步骤 3 中创建应用程序池受信任的证书上。
+6. 如果尚未下载，请从此位置下载 Skype for Business Server 版本的 SEFAUtil 工具，并[](https://www.microsoft.com/download/details.aspx?id=52631)安装在步骤 3 中创建应用程序池受信任的证书上。
     
 7. 验证 SEFAUtil 工具是否正常运行，如下所示： 
     
-    a. 使用管理员权限Windows命令提示符中运行该工具，以显示部署中用户的呼叫转发设置。
+    a. 使用管理员权限Windows命令提示符运行该工具，以显示部署中用户的呼叫转发设置。
     
     b. 显示用户的呼叫转发设置。 在命令行中运行：
     

@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f031eb6d-0749-4247-842c-c1e701027ffb
 ROBOTS: NOINDEX, NOFOLLOW
-description: "\"正在执行命令\"页显示为扩展数据库的架构而发出的Skype for Business Server。"
-ms.openlocfilehash: c76a9ea02a1212441518192906b47e7a73a35d95fbc4db247f48981a035f7e35
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: "\"正在执行命令\"页显示为扩展应用程序架构而发出的Skype for Business Server。"
+ms.openlocfilehash: d02d891307c969852f6fd1f5e1dceab126383669
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54307673"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598066"
 ---
 # <a name="prepare-schema-invoke"></a>准备架构（调用）
  

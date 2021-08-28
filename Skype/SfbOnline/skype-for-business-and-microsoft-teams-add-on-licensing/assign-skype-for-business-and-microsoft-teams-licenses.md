@@ -15,18 +15,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Licensing
 description: '了解如何为电话系统、音频会议、通话套餐和通信点数分配 Skype for Business 许可证。 '
-ms.openlocfilehash: 61d8eca21fec85f7f729e0d0de9cc5d43fd5ca96567e2abe49cf7b6b5f651500
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8e43bba8970e03fced61620fff7b63eed893484e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281325"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598276"
 ---
 # <a name="assign-skype-for-business-licenses"></a>分配 Skype for Business 许可证
 
@@ -35,7 +35,7 @@ ms.locfileid: "54281325"
 本文提供了有关将许可证分配给您的用户，以用于音频会议、电话系统和通话套餐等功能的提示。 它还提供了批量分配许可证的脚本。
 
 > [!IMPORTANT]
-> 请参阅[Skype for Business](skype-for-business-and-microsoft-teams-add-on-licensing.md)附加许可，了解需要购买哪些许可证以及如何购买许可证（具体取决于 Microsoft 365或 Office 365 计划）以便用户获得音频会议、免费号码以及拨打企业外部电话号码的能力。
+> 请参阅[Skype for Business](skype-for-business-and-microsoft-teams-add-on-licensing.md)附加许可，了解需要购买哪些许可证以及如何购买许可证（具体取决于 Microsoft 365或 Office 365 计划）以便用户获得音频会议、免费号码和呼叫企业外部电话号码的能力。
 
 
 ## <a name="phone-system-and-calling-plans-tips-and-scripts-for-assigning-licenses"></a>电话系统和通话套餐：分配许可证的提示和脚本
@@ -44,7 +44,7 @@ ms.locfileid: "54281325"
 
 - **使用的是面向混合用户的内部部署 PSTN 连接？** 如果是这样，则只需分配 **一个电话系统** 许可证。 不应 **分配** 呼叫计划。
 
-- 分配许可证后的延迟：由于 Microsoft 365 或 Office 365 与 Skype for Business Online 之间的延迟，在分配许可证后，可能需要最多 24 小时才能为用户分配呼叫计划。 如果 24 小时后未为用户分配呼叫计划，请联系业务产品 [支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
+- 分配许可证后的延迟：由于 Microsoft 365 或 Office 365 与 Skype for Business Online 之间的延迟，用户分配许可证后可能需要最多 24 小时才能分配呼叫计划。 如果 24 小时后未为用户分配呼叫计划，请联系业务产品 [支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
 
 - **错误消息** ：如果你还没有购买正确数量的许可证，则会收到一条错误消息。 如果需要购买更多通话套餐许可证，请选择"**购买更多"。**
     
@@ -58,13 +58,13 @@ ms.locfileid: "54281325"
 
 1. 安装 **适用于 IT 专业人员 RTW 的 Microsoft Online Services 登录助手** 。 没有安装模块？ 请参阅 [Microsoft Online Services Sign-In RTW 专业助手](https://go.microsoft.com/fwlink/?LinkId=625123) 下载它。
 
-2. 安装 **Windows Azure Active Directory 模块。** 没有安装模块？ 有关下载说明和 cmdlet 语法，请参阅Windows PowerShell管理 Azure [AD。](/previous-versions/azure/jj151815(v=azure.100))
+2. 安装 **Windows Azure Active Directory 模块。** 没有安装模块？ 有关下载说明和 cmdlet[语法，请参阅Windows PowerShell](/previous-versions/azure/jj151815(v=azure.100))管理 Azure AD。
 
 3. 在安装模块后，请使用 Windows PowerShell 命令提示符和以下语法向用户分配许可证：
 
    本示例指定一个 **企业版 E3 许可证** 以及 **电话系统** 和 **国内通话套餐** 许可证。
 
-   脚本中许可证或产品名称的名称以斜体文本列出 (请参阅 电话系统 和调用计划产品名称或用于脚本的 **SKUS，** 在示例) 之后。
+   脚本中许可证或产品名称的名称以斜体文本列出 (请参阅 电话系统 和调用计划产品名称或用于脚本的 **SKUS（** 在示例) 之后）。
 
    ```powershell
    #Create a text file with a single row containing list of UserPrincipalName (UPN) of users to license. The MSOLservice uses UPN to license user accounts in Microsoft 365 or Office 365.
@@ -110,9 +110,9 @@ ms.locfileid: "54281325"
 |Skype for Business Online 独立计划 2  <br/> |MCOSTANDARD  <br/> |
 |电话系统  <br/> |MCOEV  <br/> |
 |国际通话套餐  <br/> |MCOPSTN2  <br/> |
-|国内呼叫计划 (美国 3000 分钟/欧盟 1200 分钟)   <br/> |MCOPSTN1  <br/> |
+|国内呼叫计划 (3000 分钟美国/1200 分钟欧盟)   <br/> |MCOPSTN1  <br/> |
 |国内呼叫套餐 (120 分钟通话套餐)   <br/> |MCOPSTN5  <br/> |
-|国内呼叫套餐 (240 分钟通话套餐)   <br/> |MCOPSTN6  <br/> |
+|国内呼叫套餐 (240 分钟呼叫)   <br/> |MCOPSTN6  <br/> |
 |通信点数  <br/> |MCOPSTNC  <br/> |
 
 ## <a name="audio-conferencing-tips-and-scripts-for-assigning-licenses"></a>音频会议：使用技巧许可证的脚本和脚本
@@ -184,7 +184,7 @@ ms.locfileid: "54281325"
 |企业版 E1  <br/> |STANDARDPACK  <br/> |
 |企业版 E3  <br/> |ENTERPRISEPACK  <br/> |
 |企业版 E5（无音频会议）  <br/> |ENTERPRISEPREMIUM_NOPSTNCONF  <br/> |
-|EnterpriseE5 (音频会议)   <br/> |ENTERPRISEPREMIUM  <br/> |
+|Enterprise带 (会议音频的 E5)   <br/> |ENTERPRISEPREMIUM  <br/> |
 
 ## <a name="communications-credits"></a>通信点数
 

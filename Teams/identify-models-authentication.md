@@ -8,7 +8,7 @@ ms.topic: reference
 ms.service: msteams
 ms.reviewer: anwara
 audience: admin
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -18,12 +18,12 @@ description: 了解适用于云环境的不同标识Microsoft Teams，例如仅�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: cea02bf51c474e9be7aca205aa73fd9558f03ad104e5e1a1bde8f5ddc39e95ff
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7123a2456da9e8a18c3d665e41e15cf44550a6da
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342976"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598516"
 ---
 # <a name="identity-models-and-authentication-for-microsoft-teams"></a>标识模型和身份验证Microsoft Teams
 
@@ -31,7 +31,7 @@ Microsoft Teams支持可用于 Microsoft 365 和 Office 365 的所有标识模�
 
 - **仅云**：用户帐户在 Azure AD Microsoft 365 或 Office 365 中创建Azure Active Directory () 。 用户登录凭据 (帐户名和密码) Azure AD 进行验证。
 
-- **混合**：用户帐户通常托管在本地 Active Directory 域服务中， (AD DS) 林。 根据配置，凭据验证可通过 Azure AD、AD DS 或联合标识提供者完成。 此模型使用 Azure AD 数据库将目录从 AD DS 同步到 Azure AD 连接。
+- **混合**：用户帐户通常在 AD DS (本地 Active Directory 域服务) 管理。 根据配置，凭据验证可通过 Azure AD、AD DS 或联合标识提供者完成。 此模型使用 Azure AD 数据库将目录从 AD DS 同步到 Azure AD 连接。
 
 有关详细信息，请参阅Microsoft 365[模型和 Azure AD。](/microsoft-365/enterprise/about-microsoft-365-identity)
 
@@ -58,10 +58,10 @@ Microsoft Teams支持可用于 Microsoft 365 和 Office 365 的所有标识模�
 - 发送到电话的短信，要求用户键入验证码。
 - 电话呼叫。
 - Microsoft Authenticator智能手机应用。
-- 混合标识和联合身份验证提供的其他方法。
+- 可用于混合标识和联合身份验证的其他方法。
 
-MFA 受包括Microsoft 365或Office 365计划Microsoft Teams。 强烈建议至少为分配有管理员角色的帐户（例如服务管理员）Teams MFA。 [](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide)
+包括 MFA 的任何Microsoft 365或Office 365计划都Microsoft Teams。 强烈建议至少为分配有管理员角色的帐户（例如服务管理员）Teams MFA。 [](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide)
 
 还应向用户推出 MFA。 用户注册 MFA 后，下次登录时，他们将看到一条消息，要求他们设置其他验证方法。 
 
-有关详细信息，请参阅适用于的[多重身份验证Microsoft 365。](/microsoft-365/admin/security-and-compliance/multi-factor-authentication-microsoft-365)
+有关详细信息，请参阅适用于[Microsoft 365 的多重Microsoft 365。](/microsoft-365/admin/security-and-compliance/multi-factor-authentication-microsoft-365)

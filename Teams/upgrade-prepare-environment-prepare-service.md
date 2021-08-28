@@ -7,8 +7,8 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: 了解为组织准备使用云语音服务进行协作和云语音Teams。
-localization_priority: Normal
+description: 了解为组织准备使用云语音服务进行协作和云语音服务Teams。
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: da6ccd1283eda3bd96fd9b4b2856c6318d79c1f36573a62394d1a4d404123ca5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0a4b417876745042d6805c88de4a5b93cdc275c3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337850"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621934"
 ---
 # <a name="prepare-your-service-for-upgrading-to-teams"></a>准备服务以升级到 Teams
 
@@ -54,7 +54,7 @@ ms.locfileid: "54337850"
 
 - [会议和音频会议](deploy-meetings-microsoft-teams-landing-page.md)
 
-- [电话系统和 PSTN 连接选项](cloud-voice-landing-page.md)
+- [电话系统 PSTN 连接选项](cloud-voice-landing-page.md)
 
 
 这些清单中的任务和活动是核心的"任务"项目，适用于使用 Teams 的协作和语音功能的每一个部署。 可以自定义清单，以包含特定于自己的任务旅程的活动Teams任务。
@@ -63,14 +63,14 @@ ms.locfileid: "54337850"
 
 尽管我们建议按顺序遵循清单，但确切顺序取决于部署范围和环境的配置和复杂性。 它们被组织为支持"绿地"Teams部署 (之前没有 Skype for Business Online 状态) 或者从 Skype for Business Online 升级到 Teams。 如果要从 Skype for Business Online 升级，则你可能已完成其中一些活动，现在可以忽略这些活动。
 
-当您按网站载入用户时，强烈建议使用 [适用于 Voice (Playbook ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) 的站点启用 Playbook) 作为这些清单的补充指南。
+当您按网站载入用户时，强烈建议使用 [适用于 Voice (Playbook ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)) 的网站启用 Playbook 作为这些清单的补充指南。
 
 >[!NOTE]
->大多数配置设置在 Teams 和 Skype for Business Online 之间很常见。 使用 Microsoft Teams管理中心配置这些设置。
+>大多数配置设置在 Teams 和 Skype for Business Online 之间很常见。 使用 Microsoft Teams 管理中心配置这些设置。
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>决策点</td><td><ul><li>Who将负责监督登记清单的完成情况？</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>下一步</td><td><ul><li>下载载入清单。</li><li>根据组织的部署计划逐步完成登记清单项。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>下载载入清单。</li><li>根据组织的部署计划逐步完成登记清单项。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -79,7 +79,7 @@ ms.locfileid: "54337850"
 
 完成此清单后，继续执行下一步： [进行用户试点](pilot-essentials.md)
 
-[//]: # (@Turgay，我注释掉下一段落，因为它是特定于云语音的。)
+[//]: # (@Turgay，我注释掉这个下一个段落，因为它是特定于云语音的。)
 <!--
 As the next step, use the [Site Enablement Playbook for Voice (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) to help you onboard your users on each site to cloud voice, and help ensure that you plan and execute important site-specific activities.
 -->

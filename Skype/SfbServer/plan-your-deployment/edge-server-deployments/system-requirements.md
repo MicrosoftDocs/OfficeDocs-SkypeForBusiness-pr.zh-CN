@@ -9,29 +9,29 @@ manager: serdars
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: ed53a566-0504-46f9-81a7-116a637833af
 description: 摘要：了解 Skype for Business Server 中边缘服务器的系统要求。
-ms.openlocfilehash: dc1541604a4a26c9af3c184282648ef2f96469fa4346a6b6cc379eed2f5f023f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bc8a6666f46d093c9f3d2da41f2663c79e94ddf3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306973"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622154"
 ---
 # <a name="edge-server-system-requirements-in-skype-for-business-server"></a>Skype for Business Server 中的边缘服务器系统要求
  
-**摘要：** 了解边缘服务器在 Skype for Business Server 中的系统Skype for Business Server。
+**摘要：** 了解边缘服务器在 Skype for Business Server 中的系统要求。
   
-对于边缘Skype for Business Server部署，需要针对环境本身的一个或多个服务器执行这些操作，以及规划环境结构。 有关拓扑、DNS、证书和其他基础结构问题的信息，请查看环境要求文档。
+对于边缘Skype for Business Server部署，您需要为环境本身的一个或多个服务器执行这些操作，以及规划环境结构。 有关拓扑、DNS、证书和其他基础结构问题的信息，请查看环境要求文档。
   
 ## <a name="components"></a>组件
 
-讨论边缘服务器环境时，我们将引用大部分部署在外围网络 (即位于工作组中或 Skype for Business Server 域结构) 外部的域中的组件。
+讨论边缘服务器环境时，我们主要引用在外围网络 (中部署的组件，即位于工作组或 Skype for Business Server 域结构) 外部的域中。
   
 请记住，这些组件是成功部署边缘时需要记住的组件：
   
@@ -41,16 +41,16 @@ ms.locfileid: "54306973"
     
 - [防火墙](system-requirements.md#Firewalls)
     
-- [ (](system-requirements.md#Directors) 这些控制器是可选的，如果包含它们，它们将位于内部网络) 
+- [控制器](system-requirements.md#Directors) (这些控制器是可选的，如果包含它们，它们将位于内部网络) 
     
-- [负载平衡](system-requirements.md#LoadBalancers) 器 (可以具有 DNS 负载平衡或硬件负载平衡器 (HLB) ，但对于单个边缘服务器，这不是) 
+- [负载平衡](system-requirements.md#LoadBalancers) 器 (HLB 服务器具有 DNS 负载平衡或硬件负载平衡器 (HLB) ，但对于单个边缘服务器，这不是) 
     
 下面我们详细介绍了其中每一项：
   
 ### <a name="edge-servers"></a>边缘服务器
 <a name="EdgeServers"> </a>
 
-这些服务器Skype for Business部署在外围环境中。 他们的角色是向外部用户发送和接收由内部部署提供的服务的Skype for Business Server通信。 要成功执行这一操作，每台边缘服务器将运行：
+这些服务器Skype for Business环境中部署的服务器。 他们的角色是向外部用户发送和接收由内部部署提供的服务的Skype for Business Server通信。 要成功执行这一操作，每台边缘服务器将运行：
   
 - **访问边缘服务**：为出站和入站会话初始协议提供单一的受信任连接点 (SIP) 流量。
     
@@ -58,9 +58,9 @@ ms.locfileid: "54306973"
     
 - **A/V 边缘服务**：使音频、视频、应用程序共享和文件传输对外部用户可用。
     
-- **XMPP 代理** 服务：接受 XMPP 联盟伙伴 (和发送) XMPP 联盟伙伴的可扩展消息传递和状态协议。
+- **XMPP 代理** 服务：接受 XMPP 联盟伙伴 (发送) XMPP 联盟伙伴的可扩展消息传递和状态协议。
     
-授权的外部用户可以使用边缘服务器连接到内部Skype for Business Server部署，但在其他情况下，他们不会为任何人提供对内部网络的其他访问。
+授权外部用户可以使用边缘服务器连接到内部Skype for Business Server部署，但在其他情况下，它们不会为任何人提供对内部网络的其他访问。
   
 > [!NOTE]
 > 部署边缘服务器为启用的客户端Skype for Business联盟方案中的其他边缘 (服务器) 。 无法从其他终端客户端或服务器类型进行连接。 XMPP 网关服务器可以允许与配置的 XMPP 合作伙伴建立连接。 但同样，这些类型是唯一能工作的客户端和联盟类型。 
@@ -89,25 +89,25 @@ ms.locfileid: "54306973"
   
 - 它允许他们自动发现提供移动服务的前端服务器。
     
-- 它支持从移动设备Microsoft 365 Office 365到移动设备的推送通知。
+- 它支持从移动设备Microsoft 365或Office 365推送通知。
     
-我们的当前反向代理建议可在"电话基础结构[for Skype for Business](../../../SfbPartnerCertification/certification/infra-gateways.md)页面上找到。 因此反向代理：
+我们的当前反向代理建议位于电话基础结构 for [Skype for Business](../../../SfbPartnerCertification/certification/infra-gateways.md)页面上。 因此反向代理：
   
-- 应该能够使用传输层安全性 (TLS) 通过公共证书引入环境，以连接到以下已发布的外部 Web 服务：
+- 应该能够将传输层安全性 (TLS) 通过公共证书引入环境，以连接到以下已发布的外部 Web 服务：
     
   - 控制器或控制器池
     
   - 前端服务器或前端池
     
-- 需要能够使用加密证书发布内部网站，或者根据需要通过未加密的方式发布它们。
+- 需要能够使用加密证书发布内部网站，或者根据需要通过未加密的方式发布这些网站。
     
-- 应该能够使用 FQDN 中的完全限定域名在外部发布 (托管) 。
+- 应该能够使用完全限定的域名和 FQDN 在外部发布 (托管) 。
     
 - 需要能够发布托管网站的所有内容。 默认情况下，您可以使用 _指令，该指令被大多数 Web 服务器识别为表示"在 Web 服务器上 **/\\** 发布所有内容"。 您还可以修改指令（例如 ，_*/Uwca/ ***，这意味着"发布虚拟目录 \\ Ucwa 下的所有内容"。
     
 - 必须与从已发布网站请求内容的客户端建立 TLS 连接。
     
-- 必须接受主题备用名称为 SAN (条目) 证书。
+- 必须接受使用 SAN 证书条目 () 证书。
     
 - 需要能够允许将证书绑定到外部 Web 服务 FQDN 将通过其解析的侦听器或接口。 侦听器配置比接口更可取。 可以在单个接口上配置许多侦听器。
     
@@ -131,7 +131,7 @@ ms.locfileid: "54306973"
 
 这是可选角色。 它可以是单个服务器或运行控制器角色的服务器池。 它是在内部管理环境中Skype for Business Server角色。
   
-控制器是内部的下一个跃点服务器，它接收来自发往内部服务器的边缘服务器的入站 SIP Skype for Business Server流量。 它会预授权入站请求，并重定向到用户主池或服务器。 此预身份验证允许你删除无法识别的用户帐户请求。
+控制器是内部下一跃点服务器，接收来自发往内部服务器的边缘服务器的入站 SIP Skype for Business Server流量。 它会预授权入站请求，并重定向到用户主池或服务器。 此预身份验证允许你删除无法识别的用户帐户请求。
   
 为什么这很重要？ 控制器的一个重要功能是Standard Edition服务器和前端服务器或前端池免受恶意流量的攻击，例如拒绝服务 (DoS) 攻击。 如果网络被无效外部流量淹没，流量将停止在控制器上。
   
@@ -152,7 +152,7 @@ ms.locfileid: "54306973"
 
 对于运行 A/V 边缘服务的任何边缘服务器，有以下要求：
   
-- 关闭内部和外部端口 443 (tcp nagling 是一个将多个小数据包合并到单个较大数据包中以更有效地传输) 。
+- 关闭内部和外部端口 443 的 TCP nagling (将多个小数据包合并到一个更大的数据包中，以更有效地传输) 。
     
 - 关闭外部端口范围 50000 - 59999 的 TCP nagling。
     
@@ -188,14 +188,14 @@ Skype for Business Server没有很多基于 Cookie 的关联要求。 因此，�
 > [!NOTE]
 > HLB 配置通常使用源相关性和 20 分钟的 TCP 会话生存期，这适用于 Skype for Business Server 及其客户端，因为会话状态通过客户端使用和/或应用程序交互进行维护。 
   
-如果要部署移动设备，则 HLB 必须能够在有效 TCP 会话 (中对单个请求进行负载平衡，您需要能够基于目标 IP 地址) 对单个请求进行负载平衡。
+如果要部署移动设备，则 HLB 必须能够在 TCP 会话 (内对单个请求进行负载平衡，您需要能够基于目标 IP 地址) 对单个请求进行负载平衡。
   
 > [!IMPORTANT]
 > F5 HLB 具有一个称为 OneConnect 的功能。 它确保 TCP 连接内的每个请求都单独进行负载平衡。 如果要部署移动设备，请确保您的 HLB 供应商支持相同的功能。 最新的 iOS 移动应用需要 TLS 版本 1.2。 如果需要了解更多信息，F5 会为此提供特定设置。 
   
 以下是前端池 Web 服务中 (控制器) 所需的 (HLB) HLB 要求：
   
-- 对于内部 Web 服务 IP，Source_addr HLB (端口 80，443) 持久性。 对于Skype for Business Server，Source_addr持久性意味着始终向一台服务器发送来自单个 IP 地址的多个连接，以维持会话状态。
+- 对于内部 Web 服务 IP，Source_addr HLB (端口 80，443) 持久性。 例如Skype for Business Server，Source_addr持久性意味着始终向一台服务器发送来自单个 IP 地址的多个连接，以维持会话状态。
     
 - 使用 TCP 空闲超时 1800 秒。
     
@@ -206,7 +206,7 @@ Skype for Business Server没有很多基于 Cookie 的关联要求。 因此，�
 |**客户端/用户位置**|**外部 Web 服务 FQDN 关联要求**|**内部 Web 服务 FQSN 相关性要求**|
 |:-----|:-----|:-----|
 |Skype for Business Web应用 (内部和外部用户)   <br/> 移动设备 (内部和外部用户  <br/> |无相关性  <br/> |源地址相关性  <br/> |
-|Skype for Business Web应用 (外部用户只能)   <br/> 移动设备 (内部和外部用户  <br/> |无相关性  <br/> |源地址相关性  <br/> |
+|Skype for Business Web应用 (外部用户仅)   <br/> 移动设备 (内部和外部用户  <br/> |无相关性  <br/> |源地址相关性  <br/> |
 |Skype for Business Web应用 (内部用户只能)   <br/> 移动设备（未部署）  <br/> |无相关性  <br/> |源地址相关性  <br/> |
    
 #### <a name="port-monitoring-for-hlbs"></a>HLB 的端口监控

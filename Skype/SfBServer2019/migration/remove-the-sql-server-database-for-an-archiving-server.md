@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 删除存档服务器后，可以删除SQL Server池数据的数据库。 使用以下过程从拓扑生成器中删除定义，然后从拓扑生成器中删除数据库服务器。
-ms.openlocfilehash: 3b0b41944941cd6984dec72c52405a1bce63fd8bff87e14cfd94fc723e262d49
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9305109e38c265b919d9ec22fa626d27efb19225
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54279560"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621914"
 ---
 # <a name="remove-the-sql-server-database-for-an-archiving-server"></a>删除存档服务器的 SQL Server 数据库
 
@@ -43,8 +43,8 @@ ms.locfileid: "54279560"
    Uninstall-CsDataBase -DatabaseType Archiving -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
    ```
 
-    其中，完全限定的域名是 (FQDN) FQDN 数据库服务器，是命名数据库实例 (，也就是说，如果已定义一个  _\<FQDN\>_  _\<instance\>_) 。 
+    其中 是 (FQDN) 的完全限定域名，数据库服务器是命名数据库实例 (，也就是说，如果已定义  _\<FQDN\>_  _\<instance\>_) 。 
     
-4. 当 **Uninstall-CsDataBase** cmdlet 提示您确认操作时，请阅读信息，然后按 Y (或 Enter) 继续，或者，如果要在出现错误) 时停止该 cmdlet，请按 N，然后按 Enter (。 
+4. 当 **Uninstall-CsDataBase** cmdlet 提示您确认操作时，请阅读信息，然后按 Y (或 Enter) 继续，或者，如果要停止该 cmdlet (如果存在错误) ，请按 N，然后按 Enter。 
     
 

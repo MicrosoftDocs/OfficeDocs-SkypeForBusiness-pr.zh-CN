@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
@@ -17,16 +17,16 @@ search.appverid: MET150
 description: 了解如何向用户Microsoft 365 商务语音许可证
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 53ae830e12ea360ed212cec56190e09f94aaae0870a01e880f0f1872a996e56b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 879862446aef2f5d7a2b8dd1a6515c80a1d6b741
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312950"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635816"
 ---
 # <a name="step-3-assign-business-voice-licenses"></a>步骤 3：分配业务语音许可证
 
-需要为每个需要使用该Microsoft 365 商务语音的用户分配 Business Voice 许可证。
+需要为每个需要使用 Microsoft 365 商务语音的用户分配 Business Voice 许可证。
 
 以下视频演示如何在以下步骤中完成Microsoft 365 管理中心。
 
@@ -42,4 +42,4 @@ ms.locfileid: "54312950"
 
 
 > [!div class="nextstepaction"]
-> [下一步：设置Teams资源帐户](set-up-resource-account.md)
+> [下一步：Teams资源帐户](set-up-resource-account.md)

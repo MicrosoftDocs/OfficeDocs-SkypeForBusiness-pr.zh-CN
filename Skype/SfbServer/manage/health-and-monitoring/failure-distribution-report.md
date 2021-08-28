@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 365c7beb-24d4-40f5-92e7-4978b9688916
 description: Summary： Learn about the Failure Distribution Report in Skype for Business Server.
-ms.openlocfilehash: 6b6bedff59f73befbaa70dbc0eb4bf1b04b100022a7ca20c41245a07a082d4e3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e2b925a84237ed0ef88012e63f9e5db4b561dd27
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344721"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636056"
 ---
 # <a name="failure-distribution-report-in-skype-for-business-server"></a>报告中的故障分布Skype for Business Server
  
@@ -47,13 +47,13 @@ ms.locfileid: "54344721"
 
 您可以通过单击“预期失败量”或“意外失败量”指标，从以下任意报告中访问故障分布报告：
   
-- [报告中的故障Skype for Business Server](top-failures-report.md)
+- [报告中的Skype for Business Server](top-failures-report.md)
     
 - [会议诊断报告Skype for Business Server](conference-diagnostic-report.md)
     
 - [Skype for Business Server 中的对等活动诊断Skype for Business Server](peer-to-peer-activity-diagnostic-report.md)
     
-从故障分布报告中，可以单击以下任一指标以查看"故障列表[报告](failure-list-report.md)Skype for Business Server：
+从故障分布报告中，可以单击下列任何指标以查看以下[Skype for Business Server：](failure-list-report.md)
   
 - 主要诊断原因（会话）
     

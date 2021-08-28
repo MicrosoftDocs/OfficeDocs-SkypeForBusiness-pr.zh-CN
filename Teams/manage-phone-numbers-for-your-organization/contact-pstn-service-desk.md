@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: 为组织获取电话号码或端口（转接）号码时，可能需要在 PSTN 服务台获取帮助和支持。
-ms.openlocfilehash: 4fa1a72c68c43f82715fb5f54a77a2e3a2181445f37afeb4f1bf640bb2766de6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
-ms.translationtype: HT
+ms.openlocfilehash: 01c54f1b6c5592626349841dea0dd4ec197d7488
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310670"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598466"
 ---
 # <a name="pstn-service-desk"></a>PSTN 服务台 
 

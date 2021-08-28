@@ -8,21 +8,21 @@ ms.service: msteams
 audience: admin
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: 了解如何在中小型企业Microsoft 365 商务语音中设置服务。
+description: 了解如何在Microsoft 365 商务语音或组织中设置服务。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8b8d5c89fca6fd9ff84d06b784b51040dbafe20c0e2ccc74fde845b6990095e2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: eceaba6a099a718d6061c7db3888a63d6faf50f5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314128"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635806"
 ---
 # <a name="set-up-microsoft-365-business-voice"></a>设置Microsoft 365 商务语音
 
@@ -58,7 +58,7 @@ Business Voice 是一个完整的电话系统，可以取代现有的电话提�
 * **请确保 Internet 连接可以支持 Business Voice。** 有关详细信息，请参阅检查 [Business Voice 的 Internet 连接](get-ready-internet.md)。
 * **在Teams** 设备上设置语音信箱，设置语音邮件问候语，并帮助用户了解Teams。 有关详细信息，请参阅[如何让用户准备好使用Microsoft 365 商务语音？。](prepare-users.md)
 
-为组织准备 Business Voice 后，选择"下一步 **：开始设置业务语音"。**
+为组织准备 Business Voice 后，选择"下一步 **： 开始设置 Business Voice"。**
 
 > [!div class="nextstepaction"]
 > [下一步：开始设置 Business Voice](set-up-emergency-locations.md)

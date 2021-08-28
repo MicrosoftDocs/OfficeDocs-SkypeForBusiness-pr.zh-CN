@@ -9,19 +9,19 @@ manager: serdars
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 7b9c211b-deb0-479d-b184-973f08b96d07
 description: 摘要：查看这些方案可帮助您在部署中规划边缘服务器Skype for Business Server。
-ms.openlocfilehash: df654740ae8b0fb6f7ce39669a14f3e7151220a24527166e996f1ceda583d2d7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 213081e5e232ff2d033c556fa9e037cdf813da3a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306983"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622174"
 ---
 # <a name="edge-server-scenarios-in-skype-for-business-server"></a>Skype for Business Server 中的边缘服务器Skype for Business Server
  
@@ -33,14 +33,14 @@ ms.locfileid: "54306983"
   
 图中显示了外部接口的 .com 和内部接口的 .net，这也是示例材料;当然，在将自己的最终边缘计划放在一起时，你自己的条目可能会完全不同。
   
-我们未在任何图中包括控制器 (，它是可选组件) ，但你可以单独阅读 (其他规划主题) 。
+我们未在任何图中包括控制器 (它是可选组件) ，但你可以单独阅读 (其他规划主题中) 。
   
-如上所述，图表中有示例 IPv6 数据。 Plan [for Edge Server deployments in Skype for Business Server](edge-server-deployments.md)中的大多数文档将引用 IPv4，但如果要使用 IPv6，则肯定支持你。 请注意，你将需要分配的地址空间中的 IPv6 地址，并且它们将需要与 IPv4 IP 一样用于内部和外部寻址。 借助这一Windows，您可以使用双协议栈功能，这是适用于 IPv4 和 IPv6 的单独且不同的网络堆栈。 如果需要，这将允许您同时分配 IPv4 和 IPv6 地址。
+如上所述，图表中有示例 IPv6 数据。 Plan [for Edge Server deployments in Skype for Business Server](edge-server-deployments.md)中的大多数文档将引用 IPv4，但如果要使用 IPv6，则当然支持你。 请注意，在分配的地址空间中将需要 IPv6 地址，它们将需要与 IPv4 IP 一样用于内部和外部寻址。 借助这一Windows，您可以使用双协议栈功能，这是适用于 IPv4 和 IPv6 的单独且不同的网络堆栈。 如果需要，这将允许您同时分配 IPv4 和 IPv6 地址。
   
-一些 NAT 设备允许 NAT64 (IPv6 到 IPv4) ，NAT66 (IPv6 到 IPv6) ) ，这适用于 Skype for Business Server。
+一些 NAT 设备允许 NAT64 iPv6 (IPv4) NAT66 (IPv6 到 IPv6) ) ，这适用于 Skype for Business Server。
   
 > [!IMPORTANT]
-> 如果使用呼叫允许控制 (CAC) 您必须在内部接口上使用 IPv4，它一直工作。 
+> 如果使用呼叫允许控制 (CAC) 您必须在内部接口上使用 IPv4，它工作。 
   
 ## <a name="single-consolidated-skype-for-business-server-edge-server-with-private-ip-addresses-and-nat"></a>使用专用 IP Skype for Business Server NAT 的单一合并边缘服务器
 

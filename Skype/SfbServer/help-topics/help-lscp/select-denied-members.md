@@ -12,19 +12,19 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.SelectDeniedMembers
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c626b6b4-15f3-4a59-bb1d-55dc8c60f5cb
-description: 持久聊天管理员可以创建和管理聊天室类别。 在创建和管理聊天室类别时，持久聊天管理员可以配置主体 (Active Directory 域服务组/容器/用户) 这些主体有权访问特定类别的聊天室的成员/创建者。 持久聊天管理员还可以将 DeniedMembers 添加到类别，这些成员将成为允许列表的显式排除项。 DeniedMembers 会覆盖 AllowedMembers 中的功能。
-ms.openlocfilehash: 2e4927532e6991565095693d7c087bcdf5b826d47aaf3fa101e30cecced7664a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 持久聊天管理员可以创建和管理聊天室类别。 作为创建和管理聊天室类别的一部分，持久聊天管理员可以配置主体 (Active Directory 域服务组/容器/用户) 这些主体有权访问特定类别的聊天室的成员/创建者。 持久聊天管理员还可以将 DeniedMembers 添加到类别，这些成员将成为允许列表的显式排除项。 DeniedMembers 会覆盖 AllowedMembers 中的功能。
+ms.openlocfilehash: ee1221e7d6b7e898018018e0b7be930f289bec50
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54331564"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612481"
 ---
 # <a name="select-denied-members"></a>选择被拒绝的成员
 
-持久聊天管理员可以创建和管理聊天室类别。 在创建和管理聊天室类别时，持久聊天管理员可以配置主体 (Active Directory 域服务组/容器/用户) 这些主体有权访问特定类别的聊天室的成员/创建者。 持久聊天管理员还可以将 DeniedMembers 添加到类别，这些成员将成为允许列表的显式排除项。 DeniedMembers 会覆盖 AllowedMembers 中的功能。
+持久聊天管理员可以创建和管理聊天室类别。 作为创建和管理聊天室类别的一部分，持久聊天管理员可以配置主体 (Active Directory 域服务组/容器/用户) 这些主体有权访问特定类别的聊天室的成员/创建者。 持久聊天管理员还可以将 DeniedMembers 添加到类别，这些成员将成为允许列表的显式排除项。 DeniedMembers 会覆盖 AllowedMembers 中的功能。
 
 ## <a name="tasks-that-you-can-perform"></a>可执行的任务
 
@@ -34,7 +34,7 @@ ms.locfileid: "54331564"
 
 - [新增的群聊服务器功能](/previous-versions/office/lync-server-2013/lync-server-2013-new-persistent-chat-server-features)
 
-有关可以使用控制面板执行的不同过程的详细信息，Skype for Business Server Manage [Skype for Business Server 2015](../../manage/manage.md)。
+有关可以使用控制面板执行的不同过程的详细信息，请参阅 Manage [Skype for Business Server Skype for Business Server 2015](../../manage/manage.md)。
 
 ## <a name="to-configure-categories-for-chat-rooms"></a>配置聊天室的类别
 

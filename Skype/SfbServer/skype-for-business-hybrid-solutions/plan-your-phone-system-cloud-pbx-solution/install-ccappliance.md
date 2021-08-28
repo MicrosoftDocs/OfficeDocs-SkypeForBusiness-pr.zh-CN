@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 385453cd-3a96-4837-8bb4-513aa97a256b
-description: 此 Install-CcAppliance cmdlet 在主机服务器上Skype for Business 云连接器版本服务器，包括 AD、中央管理存储、中介服务器和边缘服务器虚拟机。
-ms.openlocfilehash: b88b869e3c30783a69bc16ab690a258506ebcc90e849eb474a17859140485e8d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 此 Install-CcAppliance cmdlet 将 Skype for Business 云连接器版本 设备（包括 AD、中央管理存储、中介服务器和边缘服务器虚拟机）安装在主机服务器上。
+ms.openlocfilehash: 0ed13282039b84975bea3e26f5ae1d7f79122a11
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343176"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635836"
 ---
 # <a name="install-ccappliance"></a>Install-CcAppliance
  
-此 Install-CcAppliance cmdlet 在主机服务器上Skype for Business 云连接器版本服务器，包括 AD、中央管理存储、中介服务器和边缘服务器虚拟机。 
+此 Install-CcAppliance cmdlet 将 Skype for Business 云连接器版本 设备（包括 AD、中央管理存储、中介服务器和边缘服务器虚拟机）安装在主机服务器上。 
   
 ```powershell
 Install-CcAppliance [-Steps <array>] [-SkipExistingObjects] [-Upgrade] [-UpdateAllCredentials] [<CommonParameters>]
@@ -51,7 +51,7 @@ Install-CcAppliance -Upgrade
 
 ### <a name="example-3"></a>示例 3
 
-以下示例删除主机服务器上缓存的所有云连接器凭据，提示用户重新指定所有凭据信息，然后安装云连接器：
+以下示例删除主机服务器上缓存的所有云连接器凭据，提示用户再次指定所有凭据信息，然后安装云连接器：
   
 ```powershell
 Install-CcAppliance -UpdateAllCredentials
@@ -79,7 +79,7 @@ Install-CcAppliance -PrepareOnly
   
 ### <a name="example-6"></a>示例 6
 
-在下面的示例中，云连接器运行部署步骤 1、2 和 3，以创建虚拟交换机、创建 AD 虚拟机，以及安装 AD 服务器上域服务。 如果已执行该步骤，则跳过该步骤：
+在下面的示例中，云连接器运行部署步骤 1、2 和 3 以创建虚拟交换机、创建 AD 虚拟机，以及安装 AD 服务器上域服务。 如果已执行该步骤，则跳过该步骤：
   
 ```powershell
 Install-CcAppliance -Steps @(1,2,3) -SkipExistingObjects
@@ -99,7 +99,7 @@ Install-CcAppliance -ShowStepsOnly
 
 Install-CcAppliance cmdlet 用于将云连接器部署到新设备或将现有设备升级到最新版本。
   
-如果你有新设备，请务必先阅读为云连接器准备环境，运行 Register-CcAppliance cmdlet 注册该设备，然后运行 Install-CcAppliance cmdlet。 有关详细信息，请参阅在云 [连接器](deploy-a-single-site-in-cloud-connector.md) 中部署单个站点和在云连接器 [中部署多个站点](deploy-multiple-sites-in-cloud-connector.md)。 
+如果你有新设备，请务必先阅读为云连接器准备环境，运行 Register-CcAppliance cmdlet 注册该设备，然后运行 Install-CcAppliance cmdlet。 有关详细信息，请参阅在云 [连接器](deploy-a-single-site-in-cloud-connector.md) 中部署单个站点和在云连接器中 [部署多个站点](deploy-multiple-sites-in-cloud-connector.md)。 
   
 如果你有云连接器的现有部署，并且想要升级，请按照升级到云连接器的 [新版本中的说明操作](upgrade-to-a-new-version-of-cloud-connector.md)。
   

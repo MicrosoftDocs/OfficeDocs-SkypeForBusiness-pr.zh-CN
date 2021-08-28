@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployCertRequestSipDomains
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1af294a0-5aa1-40a4-b460-231dd4b2f3dc
 description: 如果基础结构和部署满足列出的条件，则应在“使用者备用名称(SAN)的 SIP 域设置”页上，选中主会话初始协议 (SIP) 域和其他任何 SIP 域对应的复选框。
-ms.openlocfilehash: 4a561e846b787c92d2ec279e93722372dfe0f5c0520f2be15c487d9d91fced15
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 66aa84d56e16739615210660ba58617b6a088056
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54334274"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596936"
 ---
 # <a name="certificate-request-sip-domains"></a>证书请求（SIP 域）
  

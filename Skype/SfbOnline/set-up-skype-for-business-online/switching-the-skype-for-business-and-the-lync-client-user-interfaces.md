@@ -13,19 +13,19 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
 description: '了解如何使用 PowerShell 在 Skype for Business 或客户端用户界面之间Microsoft 365 lync Office 365 '
-ms.openlocfilehash: 3bd4f2eda05808428eadde5f2d596a5b9fe38cea6f1a6c253b2da64f9473f097
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0a57bc5c246ac94926247805a0e1134f29e54937
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320966"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621894"
 ---
 # <a name="switching-between-the-skype-for-business-and-the-lync-client-user-interfaces"></a>在 Skype for Business 与 Lync 客户端用户界面之间切换
 
@@ -37,7 +37,7 @@ ms.locfileid: "54320966"
 > [!注释] Lync 2013 客户端体验不是 Skype for Business 2016 客户端版本的一个选项。 在尝试将你的客户端环境配置为使用 Lync 2013 客户端之前，请检查客户端版本，以确保它不会以数字 16 开头；例如：16.x.x.x。 
   
 > [!TIP]
-> 如果想轻松切换用户界面，而不想执行手动步骤，请参阅 [Microsoft](https://go.microsoft.com/fwlink/?LinkId=532431) 下载中心的 PowerShell 脚本，使其更容易。
+> 如果想轻松切换用户界面，而不想执行手动步骤，请参阅 [Microsoft](https://go.microsoft.com/fwlink/?LinkId=532431) 下载中心的 PowerShell 脚本，以便更轻松地操作。
   
 ## <a name="switching-the-skype-for-business-user-interface-for-users"></a>切换用户的 Skype for Business 用户界面
 
@@ -97,7 +97,7 @@ Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI -Identity <username>
   
 
 ```PowerShell
-$users = @("sip:bob@contoso.com&quot;,&quot;sip:fred@contoso.com") 
+$users = @("sip:bob@contoso.com","sip:fred@contoso.com") 
 
 $users | Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI
 ```
@@ -143,7 +143,7 @@ Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -Policy
   
 |**管理员策略设置**|**Skype for Business (Lync) 用户界面**|**Skype for Business 用户界面**|
 |:-----|:-----|:-----|
-|`Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI`|将要求用户切换到 Skype for Business用户界面。  <br/> |用户将继续使用客户端Skype for Business用户界面。  <br/> |
+|`Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI`|将要求用户切换到Skype for Business用户界面。  <br/> |用户将继续使用客户端Skype for Business用户界面。  <br/> |
 |`Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI`|用户将继续使用 Lync Skype for Business () 界面。  <br/> |将要求用户切换到 Lync Skype for Business (客户端) 界面。  <br/> |
 |未设置策略。  <br/> |如果未设置策略，用户Skype for Business (Lync) 客户端用户界面。 他们将一直使用 Skype for Business 客户端用户界面。  <br/> |用户将继续使用客户端Skype for Business用户界面。  <br/> |
    
@@ -171,7 +171,7 @@ Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -Policy
   
 - [为何需要将 Microsoft 365 或 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-- [使用 Microsoft 365 Office 365 管理Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+- [使用 Microsoft 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
 ## <a name="first-launch-client-behaviors"></a>首次启动客户端行为
 

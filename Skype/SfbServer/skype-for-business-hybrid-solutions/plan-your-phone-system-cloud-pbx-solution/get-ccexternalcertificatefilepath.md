@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 62fdc9cc-e82e-463f-b8b3-05d5c6482ea2
 description: 此Get-CcExternalCertificateFilePath cmdlet 返回用于部署Skype for Business 云连接器版本文件路径。 用户准备此证书。
-ms.openlocfilehash: 3f0a3bc761beb1a2aa1c88bfabf509e4aef17b012f52e04be1ec5944df73ba9c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9b06958d68d73bc68fc0fda4e681af2e7b9b4f9e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315378"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622034"
 ---
 # <a name="get-ccexternalcertificatefilepath"></a>Get-CcExternalCertificateFilePath
  
@@ -59,7 +59,7 @@ Get-CcExternalCertificateFilePath -Target MediationServer
 
 |**参数**|**Required**|**类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-|Target  <br/> |可选  <br/> | System.Management.Automation.SwitchParameter <br/> |请求的文件路径的类型。 类型包括：  <br/> EdgeServer (默认)   <br/> MediationServer  <br/> |
+|目标  <br/> |可选  <br/> | System.Management.Automation.SwitchParameter <br/> |请求的文件路径的类型。 类型包括：  <br/> EdgeServer (默认)   <br/> MediationServer  <br/> |
    
 ## <a name="input-types"></a>输入类型
 <a name="InputTypes"> </a>

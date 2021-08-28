@@ -12,23 +12,23 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.voice.phonenumbers.porting.moreinfo
 description: 获取将电话号码移植到 Microsoft Teams。
-ms.openlocfilehash: 17ceb8270d9474a64b2a4f2a55e7f015585dacd5ba376708092f1fcf96f57722
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5ed15432517ae6ba5709e699c89c341dc86f30f2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296709"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598386"
 ---
 # <a name="more-information-about-porting"></a>有关移植的信息
 
-可在此处找到有关将电话号码移植到 Microsoft Teams。
+可在此处找到有关将电话号码移植到Microsoft Teams。
 
 有关完整的分步说明，请参阅[将电话号码转移到 Teams。](transfer-phone-numbers-to-teams.md)
 
@@ -58,7 +58,7 @@ ms.locfileid: "54296709"
   
 若要轻松提交移植订单并避免错误，请确保执行以下操作：
   
-- 删除与 (相关联的任何功能，) "寻线组"。 请确保这些电话号码上未启用高级呼叫控制功能，例如"呼叫寻线"或"独特圈"。
+- 删除与 (相关联的任何功能，) "寻道组"。 确保这些电话号码上未启用高级呼叫控制功能，例如"呼叫寻线"或"独特圈"。
     
 - 确保尚未下任何新的服务订单或与当前服务提供商断开连接。
     
@@ -78,7 +78,7 @@ ms.locfileid: "54296709"
   
 ## <a name="whats-my-billing-telephone-number"></a>我的付费电话号码是什么？
 
-按 BTN (收费) 是帐单中包含的主电话号码，由服务提供商或运营商计费。 如果要从只有一个电话号码的帐户转移电话号码，则需要输入此电话号码。 如果要从具有多个帐户的电话号码转移，你可以查看帐单或联系服务提供商或运营商，以确定你的帐户的 BTN 是什么。
+BTN (收费电话号码) 包含在帐单上且由服务提供商或运营商计费的主电话号码。 如果要从只有一个电话号码的帐户转移电话号码，则需要输入此电话号码。 如果要从具有多个帐户转移电话号码，可以查看帐单或联系服务提供商或运营商，确定您的帐户的 BTN 是什么。
 
 ## <a name="what-should-i-put-in-for-the-account-number"></a>我应该为帐号放入什么？
 
@@ -89,7 +89,7 @@ ms.locfileid: "54296709"
 
 ## <a name="what-should-i-put-in-for-the-organization-name"></a>我应该输入什么作为组织名称？
 
-这是组织的名称。 组织名称限制为 25 个字符，其中包括空格。 公司名称不用于处理移植订单请求。 它在存在争议时或当电话号码被移植时出错时使用。 如果框中不能容纳公司全名，则它不会延迟或取消移植订单。
+这是组织的名称。 组织名称限制为 25 个字符，其中包括空格。 公司名称不用于处理移植订单请求。 它在存在争议时或当电话号码被移植时出错时使用。 如果框中不能容纳公司全名，它不会延迟或取消移植订单。
   
 ## <a name="what-should-i-put-in-for-the-service-address"></a>我应该输入什么作为服务地址？
 

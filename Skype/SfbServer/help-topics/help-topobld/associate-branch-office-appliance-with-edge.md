@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AssociateBranchOfficeApplianceWithEdgePage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3f02e4bd-f86f-4a84-9c04-28d2a53b10b1
 description: 如果已部署边缘服务器并且必须提供媒体服务供外部使用，则通过在下拉列表中选择与 Survivable Branch Appliance 或 Survivable Branch Server 关联的边缘服务器或池。 单击"下一步"继续。
-ms.openlocfilehash: 075d05c97e8e9a4a1fccc69562fe390cc0e8ade15e00e515f0e6e4fd4706b5c6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 02a57ab5bcd4960e277b8ab433d9a76780482f38
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303814"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612431"
 ---
 # <a name="associate-branch-office-appliance-with-edge"></a>将分支机构设备与边缘关联
  

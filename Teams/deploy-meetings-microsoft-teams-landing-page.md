@@ -15,17 +15,17 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 - remotework
 - m365initiative-meetings
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e17efec2d363083ac2169623b8b561ea6fbed333
-ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
+ms.openlocfilehash: b7ed3de69ed5deffcd0681f9f040dfeb074b2aa1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "58523973"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596346"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Microsoft Teams 中的会议
 
@@ -99,7 +99,7 @@ Teams 提供了一组可用于为组织管理 Teams 的自定义管理员角色�
 
 ### <a name="meeting-policies"></a>会议策略
 
-会议策略用于控制在用户加入 Teams 会议时可以使用哪些功能。 你可以使用默认策略，或者为组织中主持会议的人员创建一个或多个自定义会议策略。 要了解详细信息，请参阅 [Microsoft Team 中的会议教程](tutorial-meetings-in-teams.yml)。
+会议策略用于控制在用户加入 Teams 会议时可以使用哪些功能。 你可以使用默认策略，或者为组织中主持会议的人员创建一个或多个自定义会议策略。 若要了解详细信息，请参阅 [Microsoft Teams 中的会议教程](tutorial-meetings-in-teams.yml)。
 
 | 询问你自己 | 操作 |
 |--------------|--------|

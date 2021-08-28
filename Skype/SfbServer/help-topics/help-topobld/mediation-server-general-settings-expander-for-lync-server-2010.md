@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.MediationServerGeneralSettingsExpander2010
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 48e434c1-0c3c-4502-9441-c0a3c340f51f
 description: 在此对话框中编辑中介服务器的属性。 左侧是一组快速链接，带您设置常规设置、下一个跃点设置和 PSTN 网关设置。 每个部分的设置如下：
-ms.openlocfilehash: 87eda891ae5c9e19a9a54e000b85b62e46c077d6a4c90318c9372fe6e887ecaa
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 43fb20304a078c7d51024153e7a725992fb95280
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344781"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612421"
 ---
 # <a name="mediation-server-general-settings-expander-for-lync-server-2010"></a>适合于 Lync Server 2010 的中介服务器常规设置扩展器
 
@@ -30,7 +30,7 @@ ms.locfileid: "54344781"
 
 - **FQDN：** 编辑中介服务器的完全限定域名
 
-- **关联**：选中"为媒体组件 (关联边缘池) "复选框 **，** 并选择中介服务器的边缘服务器或边缘池以用作外部访问的媒体路径。
+- **关联**：选中"为媒体组件 **(** 关联边缘池) "复选框，并选择中介服务器要用作外部访问的媒体路径的边缘服务器或边缘池。
 
   **下一个跃点**：
 

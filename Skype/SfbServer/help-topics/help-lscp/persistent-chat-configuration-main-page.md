@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.PersistentChatConfigMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1e75d352-12cf-4548-9301-5d4c0e1c8f46
 description: 持久聊天服务器部署可以承载许多并发持久聊天室。 聊天室可以组织到服务器上的一组类别中。 每个聊天室属于一个类别，并可从该类别继承部分设置。 这种组织方式可创建一种非常有用的结构以基于对话的业务目的识别对话，并有助于方便委托管理和简化控制。
-ms.openlocfilehash: 60f1cd5db29c86d43dbea285ffdffc0b79e98d4bf8c07381089e0cb6b4b4ce46
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0c33c6269dd5b90137d4cf33d2db3c10039839fc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54346998"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595796"
 ---
 # <a name="persistent-chat-configuration-main-page"></a>持久聊天配置主页
  
@@ -29,7 +29,7 @@ ms.locfileid: "54346998"
 > [!NOTE]
 > 尽管聊天室的许多管理功能在运行用户的持久聊天的计算机上可用，但 **cspersistentchatadministrator** 角色) 中的持久聊天管理员 (必须使用控制面板或命令行管理程序 cmdlet 创建或管理类别。
   
-持久聊天管理员Skype for Business Server控制面板Windows PowerShell cmdlet 创建和管理类别，并设计组织中用户的聊天室访问权限。
+持久聊天管理员Skype for Business Server控制面板或 Windows PowerShell cmdlet 创建和管理类别，并设计组织中用户的聊天室访问权限。
   
 具有管理一个或多个聊天室的能力的持久聊天室管理者可以使用客户端启动聊天室管理 Web 应用程序以创建和管理聊天室 (或者客户可以创建要调用) 的自定义解决方案和工作流。 
   
@@ -87,7 +87,7 @@ ms.locfileid: "54346998"
     
    -  (Optional.) 在 **"聊天室管理 URL"中**，选择聊天室管理 URL。 这是基于 Web 的自定义聊天室管理的 URL。 如果不需要自定义聊天室管理，而只需使用默认设置，则保留此选项为空。 在设置该 URL 后，它将应用为内部和外部聊天室管理 URL。
     
-     如果要自定义聊天室创建体验并包括特定的业务工作流，可以使用持久聊天服务器软件开发工具包 (SDK) 构建一个自定义聊天室管理解决方案，在某处托管它，并在此处添加 URL。 此 URL 将被发送给客户端，以便用户尝试查看/创建聊天室时将被指引到您的自定义聊天室管理解决方案。
+     如果要自定义聊天室创建体验并包括特定的业务工作流，可以使用持久聊天服务器软件开发工具包 (SDK) 构建自定义聊天室管理解决方案，在某处托管它，并在此处添加 URL。 此 URL 将被发送给客户端，以便用户尝试查看/创建聊天室时将被指引到您的自定义聊天室管理解决方案。
     
 7. 单击“提交”。
     
@@ -118,7 +118,7 @@ ms.locfileid: "54346998"
     
    - 在“聊天室管理 URL”中，选择聊天室管理 URL。 这是基于 Web 的聊天室管理部署的 URL。 如果不需要自定义聊天室管理，而只需使用默认设置，则保留此选项为空。
     
-     如果要自定义聊天室创建体验并包括特定的业务工作流，可以使用持久聊天服务器软件开发工具包 (SDK) 构建一个自定义聊天室管理解决方案，在某处托管它，并在此处添加 URL。 此 URL 将被发送给客户端，以便用户在尝试查看/创建聊天室时将被定向到您的自定义聊天室管理解决方案。
+     如果要自定义聊天室创建体验并包括特定的业务工作流，可以使用持久聊天服务器软件开发工具包 (SDK) 构建自定义聊天室管理解决方案，在某处托管它，并在此处添加 URL。 此 URL 将被发送给客户端，以便用户在尝试查看/创建聊天室时将被定向到您的自定义聊天室管理解决方案。
     
 7. 单击“提交”。
     

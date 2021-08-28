@@ -13,15 +13,15 @@ ms.custom:
 - ms.lync.plan.BranchOffice
 - ms.lync.plan.BranchOffice
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7b9d0779-436f-4965-8110-a41ff4d0302d
 description: 有关分支站点恢复能力的详细信息，请参阅 Planning for Branch-Site Voice Resiliency。
-ms.openlocfilehash: e450f0ddafd9ad309a5946f84d04e0deee84b3ab5f0faf4a5e8aa00484b5b2a6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 129e6e5950d56b053468de309441fa850916bedc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315908"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612471"
 ---
 # <a name="lync-server-branch-sites-planning-tool"></a>Lync Server Branch Sites 规划工具
 
