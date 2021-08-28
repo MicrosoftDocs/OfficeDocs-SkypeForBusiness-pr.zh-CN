@@ -9,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: ''
-ms.openlocfilehash: e6238e51051586ffb579947f6c6c3b6693a1c0aebba40e56915c67b016190997
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 580a0c31d3321564d76f248408facaffa4f399a2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54334973"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580516"
 ---
 # <a name="delegate-administrative-control-of-skype-for-business-server"></a>委派对项目的管理Skype for Business Server 
 
@@ -28,7 +28,7 @@ ms.locfileid: "54334973"
 
 `Get-CsAdminRole`
 
-请记住，RBAC 角色的 Identity (例如，CsVoiceAdministrator) 具有到 Active Directory 域服务中的 Users 容器中找到的安全组的直接映射。
+请记住，RBAC 角色的标识 (例如 CsVoiceAdministrator) 具有到 Active Directory 域服务中的用户容器中找到的安全组的直接映射。
 
 若要查看已分配给角色的 cmdlet 的列表，请使用以下类似命令：
 
@@ -39,13 +39,13 @@ ms.locfileid: "54334973"
 若要将 RBAC 角色分配给用户，必须将该用户添加到相应的 Active Directory 安全组。 例如，若要将 CsLocationAdministrator 角色分配给用户，必须将该用户添加到 CsLocationAdministrator 组。 这可以通过执行以下过程完成：
 
 1. 使用有权修改 Active Directory 组成员身份的帐户登录到安装了 Active Directory 用户和计算机的计算机。
-2. 单击 **"开始**"，单击"**所有** 程序"，单击"**管理工具**"，然后单击 **"Active Directory 用户和计算机"。**
+2. 单击 **"开始**"，单击"**所有** 程序"，单击 **"管理工具**"，然后单击 **"Active Directory 用户和计算机"。**
 3. 在"Active Directory 用户和计算机"中，展开域的名称，然后单击"用户 **"** 容器。
 4. 右键单击安全组 **CsLocationAdministrator**， **然后单击属性**。
 5. 在"**属性**"对话框的"成员 **"** 选项卡上，单击"添加 **"。**
-6. 在"**选择** 用户、计算机、联系人或组"对话框中，在"输入要选择的对象名称"框中键入要添加到组 (例如 Ken Myer) 的用户的用户名或 显示名称，然后单击 **"确定**"。 
+6. 在"选择用户、计算机、联系人或组"对话框中，键入要添加到组 (的用户的用户名或 显示名称 例如，在"输入要选择的对象名称"框中键入 Ken Myer) ，然后单击"确定 **"。**
 7. 在“属性”对话框中，单击“确定”。
 
-若要验证是否分配了 RBAC 角色，请使用 Get-CsAdminRoleAssignment cmdlet，向该 cmdlet 传递用户的 SamAccountName (Active Directory) 名称。 例如，从命令行管理程序Skype for Business Server此命令：
+若要验证是否分配了 RBAC 角色，请使用 Get-CsAdminRoleAssignment cmdlet，向该 cmdlet 传递用户的 SamAccountName (Active Directory) 登录名。 例如，从命令行管理程序Skype for Business Server此命令：
 
 `Get-CsAdminRoleAssignment  -Identity "kenmyer"`

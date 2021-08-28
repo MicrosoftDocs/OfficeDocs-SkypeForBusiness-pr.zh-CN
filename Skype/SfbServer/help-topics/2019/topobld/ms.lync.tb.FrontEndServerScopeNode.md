@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.FrontEndServerScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 16f6382d-1cbd-4656-b9cb-1adda13b97ae
 ROBOTS: NOINDEX, NOFOLLOW
 description: 此节点显示该前端池或 Standard Edition Server 的配置信息。可以执行以下操作：
-ms.openlocfilehash: e27dfef795aa91b37496c0e77d9b9c1792e00342e58441ef5cbc79fae66cf03e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5ba5167ac9300d412bcfdde38e86f0c25a9246f7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54291200"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628974"
 ---
 # <a name="front-end-server-scope-node"></a>前端服务器范围节点
  

@@ -15,7 +15,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -23,16 +23,16 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 description: 了解英国 PSTN 呼叫计划Skype for Business，包括在何处获取帮助，以及如何提交投诉和解决争议。
-ms.openlocfilehash: 822fe58fd072bbb61626b0410876fe6adb3b4790a6db22c97196596f05adf52a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: afddab7205572386a616e0dcb07d00f226efda9c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306563"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580196"
 ---
-# <a name="calling-plans-in-microsoft-365---code-of-practice-for-the-united-kingdom-uk"></a>在 Microsoft 365 中调用计划 - 英国 (英国) 
+# <a name="calling-plans-in-microsoft-365---code-of-practice-for-the-united-kingdom-uk"></a>英国Microsoft 365套餐 - 英国 (行为准则) 
 
-本代码适用于英国 (英国) 中员工数少于) 10 名的小型企业客户 (组织，适用于 Microsoft 365 或 Office 365 呼叫计划服务 ("服务") （符合英国通信法规）。 使用其他 Skype for Business 服务应遵守与 Microsoft 签署的服务协议以及适用于所使用的特定服务的任何其他条款的规定。
+本代码适用于英国 (英国) 中员工数少于) 10 名的小型企业客户 (组织Microsoft 365或 Office 365 呼叫计划服务 ("服务) 符合英国通信法规。 使用其他 Skype for Business 服务应遵守与 Microsoft 签署的服务协议以及适用于所使用的特定服务的任何其他条款的规定。
 
 ## <a name="1-about-skype-for-business"></a>1 关于 Skype for Business
 
@@ -66,7 +66,7 @@ Microsoft 365呼叫Office 365取决于宽带连接。 如果宽带连接断电�
 
 Skype for Business 向英格兰、威尔士、苏格兰和北爱尔兰地区的客户提供对 999/112 公共紧急呼叫服务的访问。 但是，拨打 999 或 112 紧急呼叫的方式Microsoft 365或Office 365呼叫计划服务的方式与传统电话服务不同。 客户必须通知每个用户有关这些Microsoft 365或Office 365套餐服务的信息。
 
-差异包括： (i) Skype for Business可能不知道呼叫者的实际位置，这可能会导致紧急服务被取消修补到错误的位置; (ii) 当 Skype for Business 用户拨打紧急呼叫时，操作员可能会要求用户提供其当前位置，以帮助正确路由紧急呼叫和取消紧急服务; (iii) 如果用户的设备没有电源、遇到断电或出于任何原因无法访问 Internet，则用户无法通过 Microsoft 365 或 Office 365 呼叫计划服务进行紧急呼叫;和 (iv) 尽管 Microsoft 365 和 Office 365 呼叫计划服务可以在提供 Internet 连接的任何位置使用，但用户不应在英格兰、威尔士、苏格兰或爱尔兰之外调用 999 或 112，因为呼叫可能不会路由到相应的紧急服务。
+差异包括： () Skype for Business可能不知道呼叫者的实际位置，这可能会导致紧急服务被取消修补到错误的位置; (ii) 当 Skype for Business 用户拨打紧急呼叫时，操作员可能会要求用户提供其当前位置，以帮助正确路由紧急呼叫和取消紧急服务; (iii) 如果用户的设备没有电源、遇到断电或出于任何原因无法访问 Internet，则用户无法通过 Microsoft 365 或 Office 365 呼叫计划服务进行紧急呼叫;和 (iv) 尽管 Microsoft 365 和 Office 365 呼叫计划服务可以在提供 Internet 连接的任何位置使用，但用户不应在英格兰、威尔士、苏格兰或爱尔兰之外调用 999 或 112，因为呼叫可能不会路由到相应的紧急服务。
 
 每位客户应注册用户的位置并使此信息保持在最新状态下，以便向紧急服务中心提供此信息，这一点非常重要。你可以通过 Skype for Business 管理员门户在线更改位置信息。
 
@@ -134,13 +134,13 @@ Skype for Business 会将高价位服务呼叫发送给另一家电话公司（"
 
 如果要对 PhonepayPlus 服务提供商提出投诉，可以在线或通过电话免费提交查询：
 
-- 电话：星期一到星期五上午 03：00 30 300 20 (上午 9：30 - 下午 5) 
+- 电话：星期一到星期五上午 0300 30 300 20 (上午 9：30 到下午 5 点) 
 
 - 联机查询： [http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry](http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry)
 
 ### <a name="dispute-resolution"></a>争议解决
 
-如果您认为帐单上的 高级版 费率服务费用是 Skype for Business 的一个错误，并且希望获得退款，您可以根据 Skype for Business 投诉处理代码提出投诉。 如果您向 Skype for Business 提出投诉，或者 (a) 在提交八 () 周后或 (b) 您收到一封来自我们的信函，表明我们已做出最终决定，您可以将投诉提交给 Ombudsman Services，该投诉是 Ofcom 批准的第三方，负责处理有关通信服务投诉。
+如果您认为帐单上的 高级版 费率服务费用是 Skype for Business 的一个错误，并且希望获得退款，您可以根据 Skype for Business 投诉处理代码提出投诉。 如果您向 Skype for Business 提出投诉，并且 (a) 在提交八 () 周或 (b) 您收到一封来自我们的信函，表明我们已做出最终决定，您可以向 Ombudsman Services 提交投诉，该投诉是 Ofcom 批准的第三方，负责处理通信服务投诉。
 
 ## <a name="13-national-translation-services-personal-numbers-and-0870-numbers"></a>13. 国内翻译服务、个人号码和 0870 号码
 

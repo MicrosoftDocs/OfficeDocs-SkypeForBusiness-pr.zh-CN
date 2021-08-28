@@ -1,5 +1,5 @@
 ---
-title: 适用于 Microsoft Teams 会议室 的发行说明
+title: Microsoft Teams 会议室 发行说明
 ms.author: dstrome
 author: dstrome
 ms.reviewer: sohailta
@@ -9,19 +9,19 @@ ms.topic: article
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
-description: 管理员可以阅读有关更新的Microsoft Teams 会议室说明，其中列出了 Microsoft Teams 会议室。
+description: 管理员可以阅读有关 Microsoft Teams 会议室 的发行说明，其中列出了 Microsoft Teams 会议室。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a76d2ba56a56b3055d0ca6838e512e2074afcf72c93c5590510a22bb946a63eb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: aed319f4621cb95b653294f4b27d2ff37ffafb72
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54346139"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629234"
 ---
-# <a name="release-notes-for-microsoft-teams-rooms"></a>适用于 Microsoft Teams 会议室 的发行说明
+# <a name="release-notes-for-microsoft-teams-rooms"></a>Microsoft Teams 会议室 发行说明
 
 本文讨论在性能方面的累积Microsoft Teams 会议室。
 
@@ -90,12 +90,12 @@ ms.locfileid: "54346139"
 - Windows 10 20H2 支持 
 
 > [!NOTE]
-> Crestron UC-Engine (包含"KYSKLi"的 BIOS 版本日期) Teams 会议室存在兼容性问题，并且系统 OEM 将在近期提供更新的驱动程序。 Windows 10 20H2 不向这些设备提供。 有关版本支持Windows，请参阅版本[Windows 10支持](./rooms-lifecycle-support.md#windows-10-release-support)。
+> Crestron UC-Engine (包含"KYSKLi"的 BIOS 版本日期) Teams 会议室存在兼容性问题，并且系统 OEM 将在近期提供更新的驱动程序。 Windows 10 20H2 不会提供给这些设备。 有关版本支持Windows，请参阅版本[Windows 10支持](./rooms-lifecycle-support.md#windows-10-release-support)。
 
 ### <a name="48250-04222021"></a>2021/04/22 (4.8.25.0) 
 
 此更新中引入：
-- 修复了以下问题：Teams 会议室主机上的会议室信息未显示，这些帐户隐藏在 GAL (全局地址列表中) 
+- 修复了以下问题：Teams 会议室主机上的会议室信息未显示，而聊天室帐户隐藏在 GAL (列表中) 
 
 > [!NOTE]
 > GCCH 客户可以从手动更新设备下载Microsoft Teams 会议室[包](manual-update.md)
@@ -103,11 +103,11 @@ ms.locfileid: "54346139"
 ### <a name="48190-04062021"></a>4.8.19.0 (2021/04/06) 
 
 此更新中引入：
-- 政府社区云高 (GCCH) 支持Teams 会议室。 具有现有 Teams 会议室 的 GCCH 客户可以从手动更新设备下载 4.8.19.0 [Microsoft Teams 会议室版本](manual-update.md)
-- 通过 720p (视频质量加入缩放会议) 并接收参与者的视频库
-- Skype for Business模式中删除了登录失败Teams横幅。 此更改支持组织删除Skype for Business基础结构
-- Teams会议加入链接分析现在处理 Microsoft Defender 高级线程保护保险箱链接，以允许无缝加入外部Teams连接
-- 修复了当共享者的电脑Skype for Business设置自定义 DPI 时，会议中的共享内容缩放Windows
+- 政府社区云高 (GCCH) 支持 Teams 会议室。 具有现有 Teams 会议室 设备的 GCCH 客户可以从手动更新设备下载版本 4.8.19.0 Microsoft Teams 会议室[设备](manual-update.md)
+- 通过 720p 支持 (加入缩放会议) 并接收参与者的视频库
+- Skype for Business模式中删除登录失败Teams横幅。 此更改支持组织删除Skype for Business基础结构
+- Teams会议加入链接分析现在处理 Microsoft Defender 高级线程保护保险箱链接以允许无缝加入外部Teams
+- 修复了当共享者的电脑在 Skype for Business 中设置了自定义 DPI 时，会议中的共享内容缩放Windows
 - 质量和可靠性修复
 
 ### <a name="47190-02032021"></a>2021/02/03 (4.7.19.0) 
@@ -119,7 +119,7 @@ ms.locfileid: "54346139"
 
 此更新中引入：
 
-- 在会议与会议参与者Teams HDMI 音频
+- 与会议参与者共享 HDMI 音频Teams会议
 - Cortana语音技能 (预览版) 
 - 当聊天室作为与会者加入时，Teams基于音频权限取消静音。 有关详细信息，请参阅[管理会议中的与会者Teams权限](https://support.microsoft.com/office/manage-attendee-audio-permissions-in-teams-meetings-f9db15e1-f46f-46da-95c6-34f9f39e671a)。
 - 从会议室控制台聚焦某人Teams，在会议室显示器上使用聚焦视频
@@ -139,17 +139,17 @@ ms.locfileid: "54346139"
 
 - 在会议室显示器前查看更多带 3x3 视频库的视频  
 - 从一线线启动本地实时隐藏式字幕
-- 使用直接来宾加入Teams 会议室预览版从 (加入缩放) 
+- 使用直接来宾加入Teams 会议室预览版加入缩放 (会议) 
 
 > [!NOTE]
-> 3x3 视频库和本地实时隐藏式字幕通过 Microsoft Teams传送。 这些功能适用于应用程序版本Teams 会议室 4.5.37.0 及以上版本的所有设备。
+> 3x3 视频库和本地实时隐藏式字幕通过 Microsoft Teams传送。 这些功能适用于应用程序版本 Teams 会议室 4.5.37.0 及以上版本的所有设备。
 
 ### <a name="45370-08142020"></a>2020/08/14 (4.5.37.0) 
 
 此更新中引入：
 
 - Microsoft Teams 2S Surface Hub协调会议
-- 修复了Skype [KB4565351](https://support.microsoft.com/help/4565351/windows-10-update-kb4565351) Windows 10安装更新 KB4571709 时Windows 10 [For](https://support.microsoft.com/help/4571709/windows-10-update-kb4571709) Business 登录失败的问题
+- 修复了Skype[安装更新 KB4565351](https://support.microsoft.com/help/4565351/windows-10-update-kb4565351)或 Windows 10 KB4571709 时Windows 10 [For](https://support.microsoft.com/help/4571709/windows-10-update-kb4571709) Business 登录失败的问题
 
 ### <a name="45350-07232020"></a>2020/07/23 (4.5.35.0) 
 
@@ -161,7 +161,7 @@ ms.locfileid: "54346139"
 - 即使内容存在，也切换到视频库布局
 - 虚拟举手支持与会者和演示者控件
 - 会议和默认扬声器的可调整默认音量设置
-- 从会议室搜索并 (联合) 租户Teams用户
+- 从 (会议室) 联合Teams用户
 
 > [!IMPORTANT]
 > 版本 4.5 是最后一个版本，Windows 10版本 1803;将来的版本将不会提供给版本 1803 Windows 10的系统。 有关版本支持Windows，请参阅版本[Windows 10支持](./rooms-lifecycle-support.md#windows-10-release-support)。
@@ -187,7 +187,7 @@ ms.locfileid: "54346139"
 此更新中引入：
 
 - 新式身份验证支持Exchange Skype for Business
-- 支持动态紧急呼叫，Teams (服务组件使用客户端环Teams释放) 
+- 支持动态紧急呼叫，Teams (服务组件，并且使用客户端环Teams释放) 
 - 使用 XML 为双显示器会议室禁用会议外重复内容的能力
 - 应用程序初始屏幕
 - 开放源代码软件 (OSS) 设备设置中的通知
@@ -215,13 +215,13 @@ ms.locfileid: "54346139"
 - 设备管理员设置 UI 刷新，同时在"关于"选项卡下添加设备配置
 - 会议室控件返回到主屏幕
 - 会议室SKU 在 GCC
-- 内容相机支持Surface Pro系统 (最低要求的应用版本：4.2.4.0) 
+- 内容相机支持基于 Surface Pro 的系统 (最低要求的应用版本：4.2.4.0) 
 
 ### <a name="4240-10072019"></a>2019/10/07 (4.2.4.0) 
 
 此更新中引入：
 
-- Windows 10 1903 支持。 Windows 10应用更新后的几天内提供 1903 更新
+- Windows 10 1903 支持。 Windows 10更新后的几天内提供 1903 更新
 - 修复了屏幕键盘无法可靠地显示的问题
 
 ### <a name="41220-08152019"></a>2019/08/15 (4.1.22.0) 
@@ -229,39 +229,39 @@ ms.locfileid: "54346139"
 此更新中引入：
 
 - 新的内容相机功能，使用户能够智能地将传统白板加入其Teams会议
-- 对主机 UI 的其他改进，以减少混乱设置移动到新的侧栏中，该侧栏可通过主机上的"更多"访问
+- 对控制台 UI 的其他改进，以减少混乱设置移动到新的侧栏中，该侧栏可通过主机上的"更多"访问
 - 如果本地内容电缆未连接或内容相机未连接，则禁用共享托盘按钮
-- 修复了触摸键盘的故障问题，该问题仅在一次重新启动了一个一次进行一次使用时，才显示
+- 修复了触摸键盘故障的问题，该问题仅在重新启动了一个一个设计公司系统之后才显示
 - 质量和可靠性修复
 
 ### <a name="401050-07102019"></a>2019/07/10 (4.0.105.0) 
 
 此更新中引入：
 
-- Skype会议室系统应用商店应用品牌"Microsoft Teams 会议室"
+- Skype会议室系统应用商店应用品牌到"Microsoft Teams 会议室"
 - Microsoft Teams 会议室主机用户界面重新Microsoft Teams
 - 主题更新：仅在会议室显示器前保留自定义背景图像，同时使主机背景成为中性颜色，以确保主机 UI 控件满足颜色对比度 - 辅助功能要求
-- 会议呼叫/会议会议Teams呼叫控件的通用栏，以便Microsoft Teams电脑/Web/移动客户端<sup>1</sup>
+- 会议呼叫/会议会议Teams呼叫控件的通用栏，以提供与电脑/web/移动Microsoft Teams一致的体验<sup>1</sup>
 - 通话后通话质量反馈Teams分级<sup>1</sup>
-- 从电脑/Microsoft Whiteboard/移动Microsoft Teams 会议室客户端<sup>1 2</sup>共享时，在会议室Teams上接收/呈现<sup>图像</sup>
+- 从电脑/Microsoft Whiteboard移动Microsoft Teams 会议室客户端<sup>1 2</sup>共享时，在会议室显示器前接收/呈现Teams<sup>呈现</sup>
 - 由于客户端Windows 10兼容性问题，删除了对版本 1809 Microsoft Teams 会议室的支持。 Windows 10未来版本中将添加版本 19H1 支持
 
 <sup>1 Microsoft Teams</sup>环推出Teams服务。 此功能可能在 4.0.105.0 客户端更新之前或之后可用
 
-<sup>2</sup>要求 IT 管理员启用Microsoft Whiteboard。 此外，如果会议室显示器前面启用了触摸功能，则必须使用设备管理员登录名的 Windows 设置校准多个触摸显示器，以开始使用 Microsoft Whiteboard 从共享到 Teams 会议的房间显示进行协作
+<sup>2</sup>要求 IT 管理员打开Microsoft Whiteboard。 此外，如果会议室显示器前面启用了触摸功能，则必须使用设备管理员登录名的 Windows 设置校准多个触摸显示器，以开始使用 Microsoft Whiteboard 从共享到 Teams 会议的房间显示进行协作
 
 ### <a name="40850-0482019"></a>2019/04/8 (4.0.85.0) 
 
 此更新中引入：
 
 - 修复了"提供反馈"功能的问题
-- 为即将推出的设备升级到 Microsoft Teams 会议室 版本 1809 Windows 10进行优化
+- 准备将设备升级到 Microsoft Teams 会议室 版本 1809 Windows 10优化
 
 ### <a name="40780-03142019"></a>2019/03/14 (4.0.78.0) 
 
 此更新中引入：
 
-- 修复了"在应用启动时挂起"bug，该 bug 影响旧版 RS2 Windows 10设备。
+- 修复了"在应用启动时挂起"bug，该 bug 影响旧版 RS2 Windows 10上的设备。
 
 ### <a name="40760-03042019"></a>2019/03/04 (4.0.76.0) 
 
@@ -270,7 +270,7 @@ ms.locfileid: "54346139"
 - 用于 P2P Microsoft Teams PSTN 呼叫的 DTMF 键盘。 若要Microsoft Teams客户端，管理员必须将 IsTeamsDefaultClient 设置为 true
 - 将远程参与者的传入视频固定到会议室显示器前面的全屏。 使用主机上参与者名单的"固定"命令
 - 改进了大厅通知，并新增了"会议室前"通知
-- 未在设备上启用蓝牙时，会议室前显示转换Microsoft Teams 会议室图标
+- 当设备未启用蓝牙时，会议室前显示转换Microsoft Teams 会议室图标
 - 修复了会议中音量Teams问题
 
 ### <a name="40640-12142018"></a>2018/12/14 (4.0.64.0) 
@@ -285,7 +285,7 @@ ms.locfileid: "54346139"
 
 此更新中引入：
 
-- 会议室 (的双显示器) 支持Teams会议
+- 会议室 (的双) 显示Teams支持
 
 ### <a name="40310-10162018"></a>2018/10/16 (4.0.31.0) 
 
@@ -297,9 +297,9 @@ ms.locfileid: "54346139"
 
 此更新中引入：
 
-- 为以后的版本 1803 Microsoft Teams 会议室准备 Windows 10 应用所需的代码更改
-- 修复本地化 EUL 格式问题， (挪威语) ，从而阻止超过 EULA OOBE 设置窗口
-- 需要更改代码，Microsoft Teams 会议室旧版 Lync Room Systems 运行应用程序。 在此处查看 [更多信息](./lrs-migration.md)。
+- 为以后的版本 1803 Microsoft Teams 会议室准备应用Windows 10所需的代码更改
+- 修复本地化 EUL（特别是挪威 (）的格式) 防止超过 EULA OOBE 设置窗口
+- 在旧版 Lync Microsoft Teams 会议室系统上运行应用程序所需的代码更改。 在此处查看 [更多信息](./lrs-migration.md)。
 
 ### <a name="40190-8312018"></a>2018/8/31 (4.0.19.0) 
 
@@ -340,7 +340,7 @@ ms.locfileid: "54346139"
 
 此更新中引入：
 
-- 修复了在连接到两个房间前显示器和视频Surface Pro的基于 2017 的设备上观察到的主机响应问题
+- 修复了在连接到两个前会议室显示器和视频Surface Pro的基于 2017 的设备上观察到的主机响应问题
 - 自动检查以确保系统正在运行最新的预配脚本
 
 ### <a name="311040-04162018"></a>2018/04/16 (3.1.104.0) 
@@ -369,7 +369,7 @@ ms.locfileid: "54346139"
 
 - Bug/崩溃修复，以提高稳定性
 - 支持可变大小的主机
-- 外围设备音频处理卸载 (额外的媒体允许列表) 
+- 外围设备音频处理卸载 (媒体允许列表) 
 - 使 IT 专业人员能够使用版本 1709 1 月更新Windows 10构建自己动手映像的优化。
 
 ### <a name="30160-11272017"></a>2017/11/27 (3.0.16.0) 
@@ -384,7 +384,7 @@ ms.locfileid: "54346139"
 
 - 支持 [Polycom MSR 系列扩展](https://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl) 坞硬件
 - 对 [Logitech Brio 的支持](https://www.logitech.com/product/brio)
-- 解决在 (没有活动时显示) 进入睡眠模式的问题
+- 解决了在 (没有活动时，) 主机和房间前显示无法进入睡眠模式的问题
 
 ### <a name="30120-912017"></a>2017/9/1 (3.0.12.0) 
 
@@ -395,7 +395,7 @@ ms.locfileid: "54346139"
 - 支持 [Crestron SR](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system) 扩展坞硬件
 - 针对 Crestron (环境控件的 OEM) 
 
-自 Microsoft Teams 会议室 版本 3.0.12.0 (update) 3 起，不再支持 64 位版本的 Windows 10 企业版 周年版 (英语版本 1607) 。
+64 位版本的 Windows 10 企业版 周年版 (英文版 1607) 自 Microsoft Teams 会议室 版本 3.0.12.0 (update 3) 起不再受支持。
 
 ### <a name="3080-842017"></a>2017/8/4 (3.0.8.0) 
 
@@ -408,7 +408,7 @@ ms.locfileid: "54346139"
 此更新中引入：
 
 - Dual-Screen支持 (旧版系统奇偶校验) 
-- 主题 (内置主题，并能够设置自定义主题) 
+- 主题 (内置主题，并且能够设置自定义主题) 
 - 为公共版本提供反馈的能力
 - 改进了有关会议加入可靠性的遥测
 - 改进了 OMS 报告
@@ -446,7 +446,7 @@ ms.locfileid: "54346139"
 - 在检测到会议室中的人员时自动唤醒显示器的始终打开设备
 - UWP（通用 Windows 平台）Skype 会议应用的部署和更新都非常简单
 - Windows AppLocker 可将设备锁定至 Skype 会议应用
-- 通过 Intune 和 Configuration Manager Windows 10 企业版 MDM 应用程序作为 (设备进行监视) 
+- 通过 Intune 和 Configuration Manager Windows 10 企业版 MDM 托管设备作为 (进行管理) 
 - 企业级可靠性
 - 由于最终用户很熟悉 Skype 用户界面，因此只需进行少量培训
 - 在 Surface Pro 4 平板电脑上运行

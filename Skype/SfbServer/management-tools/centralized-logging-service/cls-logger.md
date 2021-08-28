@@ -10,16 +10,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1eaf8cdf-3dcd-4d6e-ae68-b6f6f9431ad8
-description: 摘要：了解如何在 2015 年 10 月 (CLS) 日志记录Skype for Business Server日志记录服务。
-ms.openlocfilehash: 38cc7007476fbdfa6a02cf4d244fa0173e958d6bfe055d042be8ba4cf2d049e4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 摘要：了解如何在 2015 年 10 月 (CLS) 记录器Skype for Business Server日志记录服务。
+ms.openlocfilehash: d811fb1f331cb680f1c9645dec669bd7c81db192
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54317487"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628614"
 ---
 # <a name="cls-logger-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 的 CLS 日志记录程序
  
@@ -31,7 +31,7 @@ CLS 日志记录器是一种可帮助您管理由集中日志记录服务生成�
 
 若要成功使用 CLS 记录器，需要确保以下各项为真：
   
-- 在作为运行集中日志记录服务 (CLS) 的成员的计算机上使用此工具。 远程 PowerShell 会话中当前不支持该工具。
+- 在作为运行集中日志记录服务或 CLS (的域) 使用该工具。 远程 PowerShell 会话中当前不支持该工具。
     
 - 跟踪文件夹中的 Default.tmx 文件 (捕获 CLS) 和 Snooper 的跟踪数据的文件夹必须复制到安装 CLS 记录器工具的同一文件夹中。
     
@@ -57,7 +57,7 @@ CLS 日志记录器是一种可帮助您管理由集中日志记录服务生成�
     
 4. 成功启动方案后，用户界面将再次启用，操作的详细信息还将显示在 PowerShell 命令输出区域中。
     
-5. 此任务可能需要一些时间，CLS 才能在此方案中的任何新数据之前选取日志记录。
+5. 此任务可能需要一些时间，CLS 才能在从此方案中选取任何新数据之前选取日志记录。
     
 ## <a name="stop-an-existing-scenario"></a>停止现有方案
 
@@ -116,7 +116,7 @@ CLS 日志记录器是一种可帮助您管理由集中日志记录服务生成�
 1. 在" **编辑方案"** 选项卡中，单击" **创建方案"** 按钮。
     
     > [!NOTE]
-    > 创建新方案将克隆当前所选方案的配置。 如果在创建新方案 **设置** 之前单击"清除项目"，它将在未选择组件和标志的情况下开始。
+    > 创建新方案将克隆当前所选方案的配置。 如果在创建新方案 **设置** 之前单击"清除项目"，它将首先不选择任何组件和标志。
   
 2. 输入要创建的方案的名称，然后按 Enter 键或单击"确定"按钮。
     

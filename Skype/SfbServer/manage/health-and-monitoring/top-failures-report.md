@@ -1,5 +1,5 @@
 ---
-title: 报告中的故障Skype for Business Server
+title: 报告中的Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -9,17 +9,17 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 438942e2-580a-4b67-9d42-f116111fb26a
-description: Summary： Learn about the Top Failures Report in Skype for Business Server.
-ms.openlocfilehash: 04088bce640ec19675afb1513645639a59ed4351ab581280bbec4904d57f835e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 摘要：了解 Skype for Business Server 中的顶部故障Skype for Business Server。
+ms.openlocfilehash: 5b932833aa80d11134133b7b3ed13cdfd2a57e29
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54317549"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606151"
 ---
-# <a name="top-failures-report-in-skype-for-business-server"></a>报告中的故障Skype for Business Server
+# <a name="top-failures-report-in-skype-for-business-server"></a>报告中的Skype for Business Server
  
 **摘要：** 了解 Skype for Business Server 中的顶部故障Skype for Business Server。
   
@@ -33,11 +33,11 @@ ms.locfileid: "54317549"
   
 ## <a name="accessing-the-top-failures-report"></a>访问主要故障报告
 
-可从监控报告主页访问主要故障报告。 单击"报告的会话"指标将进入"报告"中的"故障分布[Skype for Business Server"](failure-distribution-report.md)。
+可从监控报告主页访问主要故障报告。 单击"报告的会话"指标将进入"报告"中的"故障分布[Skype for Business Server"。](failure-distribution-report.md)
   
 ## <a name="making-the-best-use-of-the-top-failures-report"></a>最充分地利用主要故障报告
 
-主要故障报告有一个与众不同的方面：它允许您一次性对最多 5 个诊断 ID 进行筛选。  (通常一次只能筛选一个项目（如一个用户 SIP 地址）。) 若要筛选多个诊断 ID，只需在"诊断 ID"框中输入每个 ID，使用逗号分隔这些 ID。  (如果需要，可以在每个逗号后留一个空格) 例如：
+主要故障报告有一个与众不同的方面：它允许您一次性对最多 5 个诊断 ID 进行筛选。  (通常一次只能筛选一个项目（如一个用户 SIP 地址）。) 若要筛选多个诊断 ID，只需在"诊断 ID"框中输入每个 ID，使用逗号分隔这些 ID。  (如果需要，可以在每个逗号后面留一个空格) 例如：
   
 1011, 2412, 1033, 52116, 1008
   

@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: eddfbdd2-cfd0-4c03-986e-443d6728db7d
-description: 摘要：管理注册器配置Skype for Business Server。
-ms.openlocfilehash: c4dfe9ab3fb8694cf17ef7e4da18d0e8add8b80aabc074bce404947864bd68f1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 摘要：管理注册器配置设置Skype for Business Server。
+ms.openlocfilehash: d1962bb7f2a8c6205bcc8bc5dee47217c21758f2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336862"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580626"
 ---
 # <a name="manage-registrar-configuration-settings-in-skype-for-business-server"></a>管理注册器配置Skype for Business Server
  
@@ -28,7 +28,7 @@ ms.locfileid: "54336862"
   
 - **Kerberos** 这是可供客户端使用的最强基于密码的身份验证方案，但它通常仅适用于企业客户端，因为它需要客户端连接到密钥发行中心 (Kerberos 域控制器) 。 如果服务器仅对企业客户端进行身份验证，则此设置适用。
     
-- **NTLM** 这是对密码使用质询响应哈希方案的客户可用的基于密码的身份验证。 这是对没有连接到 Kerberos 域控制器上密钥发行中心 (客户端（如) ）的唯一形式的身份验证。 如果服务器仅对远程用户进行身份验证，则应该选择"NTLM"。
+- **NTLM** 这是对密码使用质询响应哈希方案的客户可用的基于密码的身份验证。 这是没有连接到 Kerberos 域控制器上密钥发行中心 (客户端（) 用户）的唯一形式的身份验证。 如果服务器仅对远程用户进行身份验证，则应该选择"NTLM"。
     
 - **证书身份验证** 当服务器需要从 Lync 电话 Edition 客户端、公用区域电话、Skype for Business和 Lync Windows Store 应用获取证书时，这是新的身份验证方法。 在 Lync 电话 Edition 客户端上，在用户登录并通过提供个人标识号 (PIN) 成功通过身份验证后，Skype for Business Server 然后将 SIP URI 设置到电话，并为电话设置 Skype for Business Server 签名证书或标识 Joe (Ex： SN=joe@contoso.com ) 的用户证书。 此证书用于向注册器和 Web 服务进行身份验证。
     
@@ -39,7 +39,7 @@ ms.locfileid: "54336862"
   
 ### <a name="to-create-new-registrar-configuration-settings"></a>创建新的注册器配置设置
 
-1.  从 RTCUniversalServerAdmins 组 (或具有等效用户权限) 的用户帐户，或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署 Skype for Business Server 的网络中的任何计算机。
+1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 的用户帐户，或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署 Skype for Business Server 的网络中的任何计算机。
     
 2. 打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。  
     
@@ -70,7 +70,7 @@ ms.locfileid: "54336862"
   
 ### <a name="to-modify-existing-registrar-configuration-settings"></a>修改现有注册器配置设置
 
-1.  从 RTCUniversalServerAdmins 组 (或具有等效用户权限) 的用户帐户，或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署 Skype for Business Server 的网络中的任何计算机。
+1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 的用户帐户，或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署 Skype for Business Server 的网络中的任何计算机。
     
 2. 打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。  
     
@@ -90,7 +90,7 @@ ms.locfileid: "54336862"
     
 ### <a name="to-delete-registrar-configuration-settings"></a>删除注册器配置设置
 
-1. 从 RTCUniversalServerAdmins 组 (或具有等效用户权限) 的用户帐户，或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署 Skype for Business Server 的网络中的任何计算机。
+1. 从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 的用户帐户，或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署 Skype for Business Server 的网络中的任何计算机。
     
 2. 打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。 
     
@@ -102,7 +102,7 @@ ms.locfileid: "54336862"
     
 6. 单击“**确定**”。
     
-## <a name="removing-registrar-configuration-settings-by-using-windows-powershell-cmdlets"></a>使用 cmdlet 设置注册器Windows PowerShell配置
+## <a name="removing-registrar-configuration-settings-by-using-windows-powershell-cmdlets"></a>使用 cmdlet 删除设置配置Windows PowerShell配置
 
 可以使用 Windows PowerShell **和 Remove-CsProxyConfiguration** cmdlet 删除注册器配置设置。 还可从 Skype for Business Server Management Shell 或 Windows PowerShell 远程会话运行此 cmdlet。 有关使用远程 Windows PowerShell连接到 Skype for Business Server 的详细信息，请参阅博客文章"快速入门：使用远程[PowerShell 管理 Microsoft Lync Server 2010"。](https://go.microsoft.com/fwlink/p/?linkId=255876) 此过程在Skype for Business Server。
   

@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b6d7b02a-a34e-4fef-986c-ca442e18fa0c
 description: 摘要：了解项目服务，它是通话质量仪表板存储库 API 的一部分。 通话质量仪表板是一种用于Skype for Business Server。
-ms.openlocfilehash: 4e46cb213502e646a9fc3c750e7aeb40ffb6aff47b4d2aba0c19e04c56ce6cc0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3be67c2455a299c6643238b966c9cb04545bc5d6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54331224"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628664"
 ---
 # <a name="item-service-for-call-quality-dashboard-cqd"></a>呼叫质量仪表板项目服务 (CQD) 
  
@@ -30,7 +30,7 @@ ms.locfileid: "54331224"
 
 存储库 API 提供了一个简单的内容管理服务（称为项目服务）来存储用户的任何应用程序定义的内容。 
   
-系统内容归系统用户所有，并且由具有只读访问权限的所有用户共享。 专用用户内容归常规用户所有，只有所有者可以修改或删除这些内容，但所有用户仍具有只读访问权限。
+系统内容归系统用户所有，并且由具有只读访问权限的所有用户共享。 专用用户内容归常规用户所有，只有所有者可以修改或删除这些内容，但所有用户仍具有对这些内容的只读访问权限。
   
 > [!NOTE]
 > 此 API 文档介绍了存储库 API 的只读操作。 
@@ -54,7 +54,7 @@ REST 操作包含在下表中。
 |:-----|:-----|
 |[获取项目](get-items.md) <br/> |Get Items 返回存储库中的所有项。  <br/> |
 |[获取项目](get-item.md) <br/> |Get Item 返回特定 Item。  <br/> |
-|[获取子项](get-sub-items.md) <br/> |Get Sub-Items返回特定项目的子项。  <br/> |
+|[获取子项](get-sub-items.md) <br/> |获取Sub-Items返回特定项目的子项。  <br/> |
 |[获取项目上级](get-item-ancestors.md) <br/> |获取项目上级返回特定项的上级。  <br/> |
 |[更新项目](update-item.md) <br/> |更新存储库中的特定项。  <br/> |
    

@@ -10,21 +10,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 487a430b-af66-4ea6-b28e-4e33cfdb7f9e
 description: Dialogs 表是一个支持表，用于存储有关对等会话的 DialogID 的信息。
-ms.openlocfilehash: 368abb6131367434edbdf1fe142a376fe9a155277eec8b369482545146dbdc3b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6f5abd6326ca1f00a631462c43c8814fb3822f41
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54302276"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580426"
 ---
 # <a name="dialogs-table-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的 Dialogs 表
  
 Dialogs 表是一个支持表，用于存储有关对等会话的 DialogID 的信息。
   
-|**列**|**数据类型**|**键/索引**|**详细信息**|
+|**列**|**数据类型**|**键/索引**|**Details**|
 |:-----|:-----|:-----|:-----|
 |**SessionIdTime** <br/> |datetime  <br/> |主  <br/> |会话请求的时间;与 SessionIDSeq 结合使用来唯一地标识会话。  <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |主  <br/> |用于标识会话的 ID 号。 与 SessionIDTime 结合使用来唯一地标识会话。  <br/> |

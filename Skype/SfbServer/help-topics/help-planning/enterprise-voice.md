@@ -13,19 +13,19 @@ ms.custom:
 - ms.lync.plan.EnterpriseVoice
 - ms.lync.plan.EnterpriseVoice
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8749fc54-4cd1-4c25-9a64-60e4bdab9767
-description: 借助 企业语音，Skype for Business Server 2015 提供了独立的 Voice over Internet 协议 (VoIP) 产品，用于增强或替换传统的专用交换机 (PBX) 系统。 企业语音可以呼叫您组织的 VoIP 网络或 PBX 上的同事，并且他们可以呼叫组织外部的传统电话号码。 企业语音 解决方案包括常见呼叫功能，如应答、转接、转移、暂停、释放和 (增强型 9-1-1 (E9-1-1) 呼叫 (E9-1-1 仅在美国可用。) 企业语音 还支持多种当前和较旧的 IP 和 USB 设备。
-ms.openlocfilehash: 00e48ff826314cf4cb64e2647f6bbebb8118c8fe38c9784b42a2430a10ae8895
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 借助 企业语音，Skype for Business Server 2015 提供了独立的 Internet 语音 (VoIP) 产品，用于增强或替换传统的专用交换机 (PBX) 系统。 企业语音可以呼叫您组织的 VoIP 网络或 PBX 上的同事，并且他们可以呼叫组织外部的传统电话号码。 企业语音 解决方案包括常见呼叫功能，如应答、转接、转移、转移、释放和 (增强型 9-1-1 (E9-1-1) 呼叫 (E9-1-1 仅在美国可用。) 企业语音 还支持各种当前和较旧的 IP 和 USB 设备。
+ms.openlocfilehash: bf75c220a955d24fa088997f257b9ce5dd448643
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321884"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628784"
 ---
 # <a name="skype-for-business-server-enterprise-voice-planning-tool"></a>Skype for Business Server 企业语音规划工具
  
-借助 企业语音，Skype for Business Server 2015 提供了独立的 Voice over Internet 协议 (VoIP) 产品，用于增强或替换传统的专用交换机 (PBX) 系统。 企业语音可以呼叫您组织的 VoIP 网络或 PBX 上的同事，并且他们可以呼叫组织外部的传统电话号码。 企业语音 解决方案包括常见呼叫功能，如应答、转接、转移、暂停、释放和 (增强型 9-1-1 (E9-1-1) 呼叫 (E9-1-1 仅在美国可用。) 企业语音 还支持多种当前和较旧的 IP 和 USB 设备。
+借助 企业语音，Skype for Business Server 2015 提供了独立的 Internet 语音 (VoIP) 产品，用于增强或替换传统的专用交换机 (PBX) 系统。 企业语音可以呼叫您组织的 VoIP 网络或 PBX 上的同事，并且他们可以呼叫组织外部的传统电话号码。 企业语音 解决方案包括常见呼叫功能，如应答、转接、转移、转移、释放和 (增强型 9-1-1 (E9-1-1) 呼叫 (E9-1-1 仅在美国可用。) 企业语音 还支持各种当前和较旧的 IP 和 USB 设备。
   
 有关规划 企业语音 的详细信息，请参阅[Plan for 企业语音 in Skype for Business Server 2015。](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md) 有关部署独立中介服务器的更多详细信息，请参阅 Deploy [a Mediation Server in Topology Builder in Skype for Business Server 2015。](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)
   

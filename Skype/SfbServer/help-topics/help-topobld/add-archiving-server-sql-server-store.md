@@ -12,19 +12,19 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddArchivingServerSqlStorePage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 26e0a748-e31d-4c66-b225-b37e0a45408f
-description: 存档服务器需要受支持的 64 位版本的 SQL Server 数据库软件来存储存档数据。 可以选择以前定义的 SQL Server 数据库进行存档，或者通过指定 SQL Server 数据库将驻留的服务器的完全限定域名 (FQDN) 以及要用于新的 SQL Server 数据库 (（可以是默认实例或指定) 的命名实例）的 SQL Server 来定义新的 SQL Server 数据库。
-ms.openlocfilehash: 471001fbd003211c1f4d47e36c7ad434277ff383f3a262a5a10376d3b6dee617
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 存档服务器需要受支持的 64 位版本的 SQL Server 数据库软件来存储存档数据。 可以选择用于存档的以前定义的 SQL Server 数据库，或者通过指定 SQL Server 数据库将驻留的服务器的完全限定域名 (FQDN) ，以及要用于新的 SQL Server 数据库 (（可以是默认实例或指定) 的命名实例）的 SQL Server 实例来定义新的 SQL Server 数据库。
+ms.openlocfilehash: 3f95a2e00ab7465f5bc184f59c659dd1937afa8e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315858"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606361"
 ---
 # <a name="add-archiving-server-sql-server-store"></a>添加存档 SQL Server 存储
 
-存档服务器需要受支持的 64 位版本的 SQL Server 数据库软件来存储存档数据。 可以选择以前定义的 SQL Server 数据库进行存档，或者通过指定 SQL Server 数据库将驻留的服务器的完全限定域名 (FQDN) 以及要用于新的 SQL Server 数据库 (（可以是默认实例或指定) 的命名实例）的 SQL Server 来定义新的 SQL Server 数据库。
+存档服务器需要受支持的 64 位版本的 SQL Server 数据库软件来存储存档数据。 可以选择用于存档的以前定义的 SQL Server 数据库，或者通过指定 SQL Server 数据库将驻留的服务器的完全限定域名 (FQDN) ，以及要用于新的 SQL Server 数据库 (（可以是默认实例或指定) 的命名实例）的 SQL Server 实例来定义新的 SQL Server 数据库。
 
 > [!NOTE]
 > 如果用于发布拓扑的帐户具有相应的用户权限，则您可以在发布拓扑时创建存档数据库 (LcsLog)。也可以稍后在安装过程中或其他操作过程中创建数据库。

@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddPstnGatewayFqdnPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c6135e2a-5d44-4046-bd53-fac4fdf52238
 ROBOTS: NOINDEX, NOFOLLOW
 description: 指定公用电话交换网 (PSTN) 网关的完全限定域名 (FQDN) ，该网关可将 企业语音 组件连接到 PSTN 或专用交换机 (PBX) 。
-ms.openlocfilehash: 8c85168d14a4e095c690e846a8bf720d4dd9f8c5c3d666d71e2a6e8ce01ea6cc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 286ab32889f510cc8e6b3387dda23836f535fea8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337072"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629104"
 ---
 # <a name="define-the-pstn-gateway-fqdn"></a>定义 PSTN 网关 FQDN
 

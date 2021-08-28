@@ -9,25 +9,25 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Skype for Business Server支持增强型 9-1-1 (E9-1-1) 客户端Skype for Business呼叫。 为 E9-1-1 配置 Skype for Business Server 时，从 Skype for Business 拨打的紧急呼叫包括紧急响应位置 (ERL) 位置信息服务数据库中的信息。
-ms.openlocfilehash: 03fee1a411b88e51f0b994de7bba65ba3f2d3edfecb14d004e6a7f98842002ab
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9ac2b594a5ad13401c01ad5fcf1ea46f46cd016f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54297278"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580606"
 ---
 # <a name="manage-enhanced-9-1-1-and-the-location-service-in-skype-for-busines-server"></a>管理 Skype for Busines Server 中的增强型 9-1-1 和位置服务
 
 Skype for Business Server支持增强型 9-1-1 (E9-1-1) 客户端Skype for Business呼叫。 为 E9-1-1 配置 Skype for Business Server 时，从 Skype for Business 拨打的紧急呼叫包括紧急响应位置 (ERL) 位置信息服务数据库中的信息。 使用本文中的过程管理位置策略。
 
 > [!Note]
-> 有关部署高级企业语音（如 E9-1-1 和位置信息服务）的详细信息，请参阅部署高级企业语音[功能](../deploy/deploy-enterprise-voice/deploy-advanced-enterprise-voice-features.md)。
+> 有关部署高级 企业语音功能（如 E9-1-1 和位置信息服务）的详细信息，请参阅部署高级企业语音[功能](../deploy/deploy-enterprise-voice/deploy-advanced-enterprise-voice-features.md)。
 
 在 Skype for Business Server 中，可以使用位置策略应用与增强型 9-1-1 (E9-1-1) 功能以及用户或联系人的位置设置相关的设置。 位置策略可确定用户是否启用了 E9-1-1，以及在启用了该服务时紧急呼叫的行为。 例如，您可以使用位置策略定义哪些数字构成紧急呼叫（例如，美国的 911）、是否应自动通知企业安全人员以及应如何路由该呼叫。
 
-可以从"控制面板"**中的"网络** 配置"Skype for Business Server位置策略。 从Skype for Business Server控制面板中，可以查看、创建、修改或删除位置策略。 可使用以下过程查看位置策略的信息。 
+可以从控制面板 **的"网络** 配置"组中配置Skype for Business Server策略。 从Skype for Business Server控制面板中，可以查看、创建、修改或删除位置策略。 可使用以下过程查看位置策略的信息。 
 
 
 ## <a name="view-location-policy-information"></a>查看位置策略信息 
@@ -80,7 +80,7 @@ Skype for Business Server支持增强型 9-1-1 (E9-1-1) 客户端Skype for Busin
           - **免责声明**   此选项与"必需"相同 **，只是** 用户在未输入位置信息的情况下无法消除提示。 用户仍可以完成紧急呼叫，但在未输入信息的情况下无法完成其他呼叫。 此外，还将向用户显示免责声明文本，提醒他们拒绝输入位置信息的后果。 若要设置免责声明文本，必须使用 Skype for Business Server 命令行管理程序运行带 EnhancedEmergencyServiceDisclaimer 参数的 **Set-CsLocationPolicy** cmdlet 或 **New-CsLocationPolicy** cmdlet。 有关详细信息，请参阅[Set-CsLocationPolicy](/powershell/module/skype/Set-CsLocationPolicy)或[New-CsLocationPolicy。](/powershell/module/skype/New-CsLocationPolicy)
           
     
-      - **仅对紧急服务** Skype for Business位置信息，可以出于各种原因 (例如，通知队友你的当前位置) 。 选中该复选框可确保位置信息只能用于紧急呼叫。
+      - **将位置用于紧急服务** Skype for Business出于各种原因使用位置信息 (例如，通知队友你的当前位置) 。 选中该复选框可确保位置信息只能用于紧急呼叫。
     
       - **PSTN 用法**   公用电话交换网 (PSTN) 用法，用于确定将使用哪个语音路由来路由使用此配置文件的客户端发出的紧急呼叫。与此用法关联的路由应指向专用于紧急呼叫的 SIP 中继或指向将紧急呼叫路由到最近的公共安全应答点 (PSAP) 的紧急位置标识号 (ELIN) 网关。
     

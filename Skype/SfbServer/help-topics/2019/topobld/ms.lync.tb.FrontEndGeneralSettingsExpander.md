@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.FrontEndGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8a5f21d0-f6c8-4907-9958-5ca36f702542
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要编辑现有前端池或 Standard Edition Server 的设置，可参考以下各节内容：
-ms.openlocfilehash: b4dd6cee4c612cf929c1c058001b79dcfad0e9c88c055a78351297e125c40e90
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2501ad035950582b67167089972c7d84f25be052
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323364"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628994"
 ---
 # <a name="front-end-general-settings-expander"></a>前端常规设置扩展器
 
@@ -113,7 +113,7 @@ ms.locfileid: "54323364"
 
 - 外部 Web 服务的 FQDN。此处指定的 FQDN 通常由外部连接要求（如反向代理）定义。
 
-- 部署所需的 HTTP 和 HTTPS 侦听端口和已发布端口。 最初定义为端口 8080（对于 HTTP）和端口 4443（对于 HTTPS）的默认设置。 根据反向代理的要求和外部网络要求，更改侦听端口的这些设置。 已发布端口设置为端口 80（对于 HTTP）和端口 443（对于 HTTPS）的默认值。 这些值确定了该池将侦听哪些端口的传入请求。 通常，不需要更改这些端口，除非池上的端口要求存在冲突。 建议使用相同端口值的内部和外部已发布端口。 这不会出现冲突。
+- 部署所需的 HTTP 和 HTTPS 侦听端口和已发布端口。 最初定义为端口 8080（对于 HTTP）和端口 4443（对于 HTTPS）的默认设置。 根据反向代理的要求和外部网络要求，更改侦听端口的这些设置。 已发布端口设置为端口 80（对于 HTTP）和端口 443（对于 HTTPS）的默认值。 这些值确定了该池将侦听哪些端口的传入请求。 通常，无需更改这些端口，除非池上的端口要求存在冲突。 建议使用相同端口值的内部和外部已发布端口。 这不会出现冲突。
 
 ### <a name="mediation-server"></a>中介服务器
 

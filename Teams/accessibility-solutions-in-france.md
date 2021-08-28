@@ -15,7 +15,7 @@ ms.collection:
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: None
+ms.localizationpriority: ''
 f1.keywords:
 - CSH
 ms.custom:
@@ -23,14 +23,14 @@ ms.custom:
 - seo-marvel-jul2020
 hideEdit: true
 description: Fournir des expériences accessibles à tous est au c'ur de la mission de Microsoft， qui consiste à permettre à chaque personne et à chaque 组织 de la planète d'accomplir davantage. Microsoft offre un certain nombre de fonctionnalités d'accessibilité pour Skype Entreprise et Microsoft Teams qui s'inscrivent dans son engagement fort en faveur de l'accessibilité et de l'inclusion.
-ms.openlocfilehash: e8e05e8eeb8a5af889507e7111cbdd478aaab2894cc92f0c5bea5f8bb58e79b8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 58b90c5b20fcbb38848e04337b218425da9d346e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333004"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580316"
 ---
-# <a name="accessibility-solutions-for-skype-for-business-online-and-microsoft-teams-in-france"></a>适用于法国 Skype for Business Online Microsoft Teams 的辅助功能解决方案
+# <a name="accessibility-solutions-for-skype-for-business-online-and-microsoft-teams-in-france"></a>适用于法国 Skype for Business Online 和 Microsoft Teams 的辅助功能解决方案
 
 <span class="underline">Rapport sur les actions engagées par Microsoft pour favoriser l'accès des personnes en situation de pour aux communications électroniques</span>
 
@@ -82,7 +82,7 @@ SkypeEntreprise dans Office 365 prend également en charge diverses fonctionnali
 
 Lorsque vous utilisez Skype Entreprise， les menus interactifs de réponse utilise peuvent être ralentis， accélérés et redémarrés， et les utilisateurs peuvent choisir de sauter des messages， et Microsoft Teams prend en charge le réglage de la vitesse de la boîte lese. Microsoft Teams et Skype Entreprise prennent en charge les appels textes (TTY) 。
 Les utilisateurs de Skype Entreprise utilisant Outlook 2010 ou des versions plus récentes peuvent choisir de recevoir leurs messages vocaux au format texte， ce qui peut être bénéfique pour les personnes malentendantes ou sourdes ： [https://support.microsoft.com/fr-fr/office/consultation-de-la-messagerie-vocale-et-des-options-de-skype-entreprise-2deea7f8-831f-4e85-a0d4-b34da55945a8?ui=fr-fr&rs=fr-fr&ad=fr](https://support.microsoft.com/fr-fr/office/consultation-de-la-messagerie-vocale-et-des-options-de-skype-entreprise-2deea7f8-831f-4e85-a0d4-b34da55945a8?ui=fr-fr&rs=fr-fr&ad=fr) .
-Les administrateurs informatiques de Microsoft Teams peuvent gérer la transcription pour leurs clients. 将 une 讲座加上 facile、Microsoft Teams prend en charge le zoom et Skype Entreprise permet d'ajuster la taille du texte des messages instantanés.
+Les administrateurs informatiques de Microsoft Teams peuvent gérer la transcription pour leurs clients. 将 une 演讲加上 facile、Microsoft Teams prend en charge le zoom et Skype Entreprise permet d'ajuster la taille du texte des messages instantanés.
 
 Les pages consacrées à chacune de ces plates-formes décrivent comment se présentent généralement Skype Entreprise et Microsoft Teams sur les appareils qui prennent en charge ces plates-formes， telles que Windows， Mac， iOS et Android. Les descriptions de des agencements de Skype Entreprise peuvent être particulièrement utiles aux utilisateurs aveugles， malvoyants ou à mobilité réduite pour les aider àire une représentation mentale des points de repère des interfaces utilisateur (IU) afin de faciliter la navigation dans l'IU.
 
@@ -90,7 +90,7 @@ La reconnaissance utilise de Windows peut également aider les personnes à mobi
 
 ## <a name="assistance-client"></a>援助客户
 
-Afin d'offrir la meilleure expérience possible à tous nos clients， Microsoft 建议 une assistance technique pour les questions liées à l'accessibilité par l'inter多美diaire de son bureau de réponse aux questions des personnes questionsées. L'équipe d'assistance du Answer Desk Accessibilité est formée à l'utilisation de nombreuses technologies d'assistance populaires et peut offrir une assistance en français par téléphone ou par chat ： [<span class="underline">https://support.microsoft.com/fr-fr/accessibility/disability-answer-desk</span>](https://support.microsoft.com/fr-fr/accessibility/disability-answer-desk) .
+Afin d'offrir la meilleure expérience possible à tous nos clients， Microsoft 建议 une assistance technique pour les questions liées à l'accessibilité par l'inter多美diaire de son bureau de réponse aux questions des personnes questions L'équipe d'assistance du Answer Desk Accessibilité est formée à l'utilisation de nombreuses technologies d'assistance populaires et peut offrir une assistance en français par téléphone ou par chat ： [<span class="underline">https://support.microsoft.com/fr-fr/accessibility/disability-answer-desk</span>](https://support.microsoft.com/fr-fr/accessibility/disability-answer-desk) .
 
 ## <a name="dclarations-de-conformit--la-norme-en-301-549"></a>Déclarations de conformité à la norme EN 301 549
 

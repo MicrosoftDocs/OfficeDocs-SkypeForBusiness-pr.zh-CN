@@ -9,7 +9,7 @@ ms.service: msteams
 audience: admin
 search.appverid: MET150
 description: 了解必须为直接路由和增强型紧急Location-Based路由配置的网络设置。
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 54739ca0f5b1d7191df326ca75f4e868c5e1e65251ebe3c81800fe425a4f5a1e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 425f453e5e1b7f90b1486aa35d09f7919e0c33b4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54331054"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580216"
 ---
 # <a name="network-settings-for-cloud-voice-features-in-microsoft-teams"></a>云语音功能的网络设置Microsoft Teams
 
@@ -52,7 +52,7 @@ ms.locfileid: "54331054"
 
 子网信息用于确定启动新会话时终结点所在的网络站点。 当知道会话中每一方的位置时，云语音功能可以应用该信息来确定如何处理呼叫设置或路由。
 
-对于每个网络站点，请与网络管理员合作，确定哪些 IP 子网分配给每个网络站点。 例如，可为北美区域中的纽约站点分配以下 IP 子网：172.29.80.0/23、157.57.216.0/25、172.29.91.0/23、172.29.81.0/24。 如果常在 Office 中工作的 Bob 前往纽约办公室接受培训，打开他的计算机并连接到网络，则他的计算机将在分配给纽约四个范围之一（例如 172.29.80.103）中获取 IP 地址。
+对于每个网络站点，请与网络管理员合作，确定哪些 IP 子网分配给每个网络站点。 例如，可为北美区域中的纽约站点分配以下 IP 子网：172.29.80.0/23、157.57.216.0/25、172.29.91.0/23、172.29.81.0/24。 如果常在 Office 中工作的 Bob 前往纽约办公室接受培训，打开他的计算机并连接到网络，则他的计算机将获取分配给纽约四个范围之一的 IP 地址，例如 172.29.80.103。
 
 ## <a name="trusted-ip-address"></a>受信任的 IP 地址
 

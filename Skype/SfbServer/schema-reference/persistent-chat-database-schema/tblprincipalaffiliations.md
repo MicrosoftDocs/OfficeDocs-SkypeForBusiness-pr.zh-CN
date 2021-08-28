@@ -10,21 +10,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 45fd8484-5837-44d2-85bb-45c83546607c
 description: tblPrincipalAffiliations 包含主体附属关系，这些附属关系描述域中 Active Directory 容器中的位置（包括 Active Directory 域服务安全组）中的成员身份。
-ms.openlocfilehash: 5eb67681e5823b8549deb01b44e0bcb771e26882a2cd713d9cf598ae0670335b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6126fb32b6b56c9a3ec142ad1b1186763f28d045
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341667"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580376"
 ---
 # <a name="tblprincipalaffiliations"></a>tblPrincipalAffiliations
  
 tblPrincipalAffiliations 包含主体附属关系，这些附属关系描述域中 Active Directory 容器中的位置（包括 Active Directory 域服务安全组）中的成员身份。
   
-**Columns**
+**列**
 
 |**列**|**类型**|**说明**|
 |:-----|:-----|:-----|
@@ -35,7 +35,7 @@ tblPrincipalAffiliations 包含主体附属关系，这些附属关系描述域�
    
 **Keys**
 
-|**Columns**|**说明**|
+|**列**|**说明**|
 |:-----|:-----|
 |\<principalID, index, affiliationID\>  <br/> |主键。  <br/> |
 |principalID  <br/> |其查找包含在 tblPrincipal.prinID 表中的外键。  <br/> |

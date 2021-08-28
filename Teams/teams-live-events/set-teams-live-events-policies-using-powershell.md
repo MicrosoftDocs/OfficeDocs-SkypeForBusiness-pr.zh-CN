@@ -11,19 +11,19 @@ audience: admin
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
-description: 如何使用 PowerShell 在 Teams 中设置策略的示例，以控制谁可以在组织中保存实时事件以及事件可用的功能。
+description: 如何使用 PowerShell 在 Teams 中设置策略以控制哪些人可以在组织中保存实时事件以及事件可用功能的示例。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2b55589a3cabf1b696c1034ce4e20cd7a56af3444f7fa51e0f81f44430ead6bb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dd408ab17d91a826b0d85a6c2515e8f21013242a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328927"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629174"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>使用 PowerShell 在 Microsoft Teams 中设置实时事件策略
 
@@ -77,7 +77,7 @@ Set-CsTeamsMeetingBroadcastPolicy -identity Global -AllowBroadcastScheduling $fa
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ```
 
-**您希望大量用户能够计划实时事件，并防止一组用户安排它们**
+**您希望大量用户能够计划实时事件，并防止一组用户计划这些事件**
 
 运行 并验证 *AllowBroadcastScheduling* 是否设置为 *True：*
 ```PowerShell
@@ -100,7 +100,7 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity DisabledBroadcastSchedulingPolicy -A
 ```PowerShell
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName DisabledBroadcastSchedulingPolicy -Verbose
 ```
-**希望为大量用户禁用实时事件计划，并允许一组用户计划它们**
+**希望为大量用户禁用实时事件计划，并允许一组用户安排它们**
 
 禁用实时事件计划，运行：
 ```PowerShell

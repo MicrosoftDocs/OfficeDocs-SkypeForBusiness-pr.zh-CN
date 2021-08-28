@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8f16d8ea-8161-4b07-9c79-d57e786b3e78
-description: 此Get-CcApplianceLogDirectory cmdlet 显示存储设备日志的当前Skype for Business 云连接器版本目录。
-ms.openlocfilehash: 75f3ba3a5de5198456e053bd51ef567df1a0ae43461e9888e87294d3af406288
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 此Get-CcApplianceLogDirectory cmdlet 显示存储设备日志Skype for Business 云连接器版本的当前目录。
+ms.openlocfilehash: 826599ab785d8b4d74f0792c6091b2a5e78b74e3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318655"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580356"
 ---
 # <a name="get-ccappliancelogdirectory"></a>Get-CcApplianceLogDirectory
  
-此Get-CcApplianceLogDirectory cmdlet 显示存储设备日志的当前Skype for Business 云连接器版本目录。
+此Get-CcApplianceLogDirectory cmdlet 显示存储设备日志Skype for Business 云连接器版本的当前目录。
   
 此 cmdlet 适用于 Skype for Business 云连接器版本 1.4.1、1.4.2。
   

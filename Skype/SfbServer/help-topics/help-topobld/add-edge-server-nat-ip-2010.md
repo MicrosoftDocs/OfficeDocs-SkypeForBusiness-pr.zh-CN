@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddEdgeServerNatIpPage2010
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: aacc1166-0f3b-4593-9747-85bb42ee4599
 description: 如果通过网络地址转换 (NAT) 转换此边缘池的公共 IP 地址，则必须指定要转换的公共 IP 地址。该地址应为 A/V 边缘服务的外部 IP 地址。
-ms.openlocfilehash: e889242cedbcc9092f196944ec4d824a5bcc80a79f40677c5e5a684c0dab914c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 10fef7be044a0dca70e8692dd0e0000c3c4cc703
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284842"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628744"
 ---
 # <a name="add-edge-server-nat-ip-2010"></a>添加边缘服务器 NAT IP 2010
  

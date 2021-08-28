@@ -13,15 +13,15 @@ ms.custom:
 - ms.lync.plan.CallAdmissionControl
 - ms.lync.plan.CallAdmissionControl
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7b73e678-3e5c-491c-bef1-0eb72cf60398
 description: 呼叫允许控制 (CAC) 根据可用网络带宽确定是否允许建立实时通信会话（如语音呼叫或视频呼叫）。
-ms.openlocfilehash: 1e9919d43a7ebcbee4b85f29d12a8856eccf2529c14d9f65c17a7484f5dc4f02
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3c5a6b4ee4c7f0f7bd5c4fb45f05479bbee754ba
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345001"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628844"
 ---
 # <a name="skype-for-business-server-call-admission-control-planning-tool"></a>Skype for Business Server呼叫允许控制规划工具
  

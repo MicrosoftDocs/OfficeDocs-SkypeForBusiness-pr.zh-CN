@@ -9,26 +9,26 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: 了解如何在管理中心的"管理应用"页面上查看应用请求的权限并授予Microsoft Teams许可。
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a5dadf59457813f1bd25b43c13d361ca4302aaa7891003f09dd231aced7441f5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5e4875eca0c7a9848d7676be77e4677de45cf8db
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314158"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580236"
 ---
 # <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>在管理中心查看应用权限Microsoft Teams管理员许可
 
-管理[中心中的](manage-apps.md)"Microsoft Teams"页面是查看和管理组织Teams应用的地方。 例如，可以看到应用的组织级状态和属性、批准新的自定义应用或将其上载到组织的应用商店、在组织级别阻止或允许应用，以及管理组织范围内的应用设置。
+管理[中心](manage-apps.md)中的"Microsoft Teams"页面是查看和管理组织Teams应用的地方。 例如，可以看到应用的组织级状态和属性、批准新的自定义应用或将其上载到组织的应用商店、在组织级别阻止或允许应用，以及管理组织范围内的应用设置。
 
-在此处，还可以向请求访问数据和查看资源特定许可权限的应用授予组织范围的管理员许可， (RSC) 权限。
+在此处，还可以向请求访问数据和查看资源特定许可权限的应用授予组织范围的管理员许可， (RSC) 应用的权限。
 
 ## <a name="grant-org-wide-admin-consent-to-an-app"></a>向应用授予组织范围的管理员许可
 
-如果你是全局管理员，你可以查看并许可代表组织中所有用户请求权限的应用。 你这样做，以便用户不必在启动应用时查看并接受应用请求的权限。 此外，根据 Azure AD [](/azure/active-directory/manage-apps/configure-user-consent) Azure Active Directory (中的用户) ，某些用户可能无法向访问公司数据的应用授予许可。
+如果你是全局管理员，你可以查看并许可代表组织中所有用户请求权限的应用。 你这样做，以便用户不必在启动应用时查看并接受应用请求的权限。 此外，根据 Azure AD [](/azure/active-directory/manage-apps/configure-user-consent) Azure Active Directory (中的用户同意) ，可能不允许某些用户向访问公司数据的应用授予许可。
 
 应用请求的权限示例包括读取团队中存储的信息、读取用户的个人资料以及代表用户发送电子邮件的能力。 有关详细信息，请参阅终结点 中[的权限Microsoft 标识平台许可](/azure/active-directory/develop/v2-permissions-and-consent)。 
 
@@ -47,7 +47,7 @@ ms.locfileid: "54314158"
 
     :::image type="content" source="media/app-perm-admin-center-org-wide.png" alt-text="应用"权限"选项卡上组织范围内权限的屏幕截图":::
 
-    只有全局管理员才能这样做。 此选项对服务管理员Teams可用。
+    只有全局管理员才能这样做。 此选项对服务管理员Teams不可用。
 
 4. 在 **"权限"** 选项卡上，查看应用请求的权限。
 
@@ -57,11 +57,11 @@ ms.locfileid: "54314158"
     > 向应用授予组织范围同意允许应用访问组织的数据。 在授予许可之前，请仔细查看应用请求的权限。
 5. 如果你同意应用请求的权限，请单击" **接受"以** 授予同意。 页面顶部临时显示一个横幅，告知你已授予应用所请求的权限。 应用现在有权访问组织中所有用户的指定资源，系统不会提示任何其他用户查看权限。
 
-接受权限后，应用详细信息页面上的" **组织** 范围权限"下会显示一条消息，告知你已授予许可。 若要查看有关应用权限的详细信息，请单击"Azure Active Directory"链接以转到Azure AD 门户中应用的页面。
+接受权限后，应用详细信息页面上的" **组织** 范围权限"下会显示一条消息，告知你已授予许可。 若要查看有关应用权限的详细信息，请单击Azure Active Directory链接以转到 Azure  AD 门户中的应用页面。
 
 :::image type="content" source="media/app-perm-admin-center-org-wide-accepted.png" alt-text="授予许可时显示的消息的屏幕截图":::
 
-如果允许组织中用户授予许可，并且如果一个或多个用户授予了对特定应用的同意，则还会看到相同的消息，告知你已授予许可，以及 Azure AD 门户中该应用页面的 Azure Active Directory 链接。
+如果允许组织中用户授予许可，并且如果一个或多个用户授予了对特定应用的同意，则还会看到相同的消息，告知你已授予许可，以及 Azure AD 门户中应用的页的 Azure Active Directory 链接。
 
 > [!NOTE]
 > 尽管"审阅权限和许可"选项不可用于 Teams 服务管理员，并且他们无法向应用授予组织范围的管理员许可，但 Teams 服务管理员可以在应用的"权限"选项卡上查看内容。  例如，Teams服务管理员可以单击"Azure Active Directory"链接，在Azure AD 门户中查看应用权限详细信息。 
@@ -70,7 +70,7 @@ ms.locfileid: "54314158"
 
 RSC 权限允许团队所有者授予应用访问和修改团队数据的许可。 RSC 权限是Teams特定权限，用于定义应用可在特定团队中执行哪些操作。 RSC 权限的示例包括创建和删除频道、获取团队设置以及创建和删除频道选项卡的功能。 
 
-RSC 权限在应用清单中定义，而不是在 Azure AD 中定义。 将应用添加到团队时，需要授予对 RSC 权限的许可。 有关详细信息，请参阅 [RSC ](/microsoftteams/platform/graph-api/rsc/resource-specific-consent) (资源) 。
+RSC 权限在应用清单中定义，而不是在 Azure AD 中定义。 将应用添加到团队时，需要授予对 RSC 权限的许可。 若要了解有关详细信息，请参阅 [RSC ](/microsoftteams/platform/graph-api/rsc/resource-specific-consent) (资源) 。
 
 全局管理员Teams服务管理员可以在应用详细信息页的"权限"选项卡上查看应用的 RSC权限。 
 

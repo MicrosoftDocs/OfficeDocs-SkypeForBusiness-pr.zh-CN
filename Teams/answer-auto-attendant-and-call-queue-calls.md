@@ -11,7 +11,7 @@ ms.service: msteams
 description: 介绍云自动助理和呼叫队列，并说明如何在 Teams。
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-voice
@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 7b9510b3e7c31005c2ec75d6358c1f911daba752298b726e960bf38c63e11e4e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bb35bc5a035c03080ce44fa19fa3ecf5a5c674a6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314258"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580286"
 ---
 # <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>直接从 Teams 回答自动助理和呼叫队列
 
@@ -32,13 +32,13 @@ Teams用户可以直接从云自动助理接收和接听来自云自动助理的
 
 ## <a name="what-are-auto-attendants-and-call-queues"></a>什么是自动助理和呼叫队列？
 
-云自动助理提供一系列语音提示或音频文件，呼叫者在呼叫组织时可以听到这些提示或音频文件，而不是人工接线员。 自动助理使呼叫者能够移动浏览菜单系统，进行呼叫，或者使用电话键盘 (DTMF) 或采用语音识别功能的语音输入找到用户。
+云自动助理提供一系列语音提示或音频文件，呼叫者在呼叫组织时听到这些提示或音频文件，而不是人工接线员。 自动助理使呼叫者能够移动浏览菜单系统，进行呼叫，或者使用电话键盘 (DTMF) 或采用语音识别功能的语音输入找到用户。
 
-云呼叫队列包括当某人呼叫组织的电话号码时使用的问候语、自动将呼叫置于保持状态的能力，以及搜索下一个可用的呼叫代理以在呼叫者收听保持音乐时处理呼叫的能力。 你可以为组织创建单个或多个呼叫队列。
+云呼叫队列包括当某人呼叫你的组织的电话号码时使用的问候语、自动将呼叫置于保持状态的能力，以及搜索下一个可用的呼叫代理以在呼叫者正在收听保持音乐时处理呼叫的能力。 你可以为组织创建单个或多个呼叫队列。
 
 ## <a name="handling-an-auto-attendant-or-call-queue-call"></a>处理自动助理或呼叫队列呼叫
 
-用户在接听呼叫之前，能够区分来自自动助理或呼叫队列的传入呼叫。 除了呼叫者的姓名和/或号码外，每个呼叫都将包含有关呼叫者尝试联系的用户的信息，为用户提供了一个更好的上下文来向呼叫者进行寻址。
+用户在接听呼叫之前，能够区分来自自动助理或呼叫队列的传入呼叫。 除了呼叫者的姓名和/或号码外，每个呼叫还将包含有关呼叫者尝试联系的用户的信息，为用户提供了一个更好的上下文来向呼叫者进行寻址。
 
 下图显示了来自自动助理或呼叫队列的传入呼叫如何向用户显示。
 
@@ -60,11 +60,11 @@ Teams用户可以直接从云自动助理接收和接听来自云自动助理的
 -    Microsoft Teams iPhone 应用
 -    Microsoft Teams Android 应用
 
-只有 Teams 共存模式才支持 Teams[客户端](/microsoftteams/setting-your-coexistence-and-upgrade-settings)。
+仅Teams共存模式（仅支持 ）支持 Teams[客户端](/microsoftteams/setting-your-coexistence-and-upgrade-settings)。
 
 ## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>为呼叫配置自动助理和呼叫队列Microsoft Teams
 
-若要在客户端上接收自动助理Microsoft Teams呼叫队列呼叫，需要配置互操作性策略和升级策略。 请查看将 Teams 与 Skype for Business[一起用于组织的迁移和Skype for Business。](migration-interop-guidance-for-teams-with-skype.md) 如果没有配置自动助理和/或呼叫队列，并且希望这样做，请参阅设置云自动[助理和](create-a-phone-system-auto-attendant.md)[创建云呼叫队列](create-a-phone-system-call-queue.md)。
+若要在客户端上接收自动助理和Microsoft Teams呼叫，需要配置互操作性策略和升级策略。 请查看[将应用程序与 Skype for Business 一起Teams迁移和Skype for Business。](migration-interop-guidance-for-teams-with-skype.md) 如果没有配置自动助理和/或呼叫队列，并且希望这样做，请参阅设置云自动[助理和](create-a-phone-system-auto-attendant.md)[创建云呼叫队列](create-a-phone-system-call-queue.md)。
 
 ## <a name="known-issues"></a>已知问题
 

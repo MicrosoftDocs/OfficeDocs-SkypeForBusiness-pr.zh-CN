@@ -1,5 +1,5 @@
 ---
-title: 在部署中创建Skype for Business Server
+title: 在部署中创建存档Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -9,17 +9,17 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: dc574afa-0b7d-404f-99b3-c812430b7c70
 description: 摘要：了解如何创建存档Skype for Business Server。
-ms.openlocfilehash: c171b0ec86a8b29ede72b5dc0c577c890fcc497d4850148469d5ba64756ce472
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 68ea35ef81c3a387aa95c54172bb1decc6c5624b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335012"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606221"
 ---
-# <a name="create-an-archiving-configuration-in-skype-for-business-server"></a>在部署中创建Skype for Business Server
+# <a name="create-an-archiving-configuration-in-skype-for-business-server"></a>在部署中创建存档Skype for Business Server
 
 **摘要：** 了解如何为用户创建存档Skype for Business Server。
   
@@ -51,7 +51,7 @@ ms.locfileid: "54335012"
     
    - 要在存档不可用时阻止活动，请选中“存档失败时阻止即时消息 (IM) 或 Web 会议会话”复选框。
     
-   - 若要使用Microsoft Exchange Server存储存档数据，请单击"Microsoft Exchange **集成"** 复选框。
+   - 若要使用Microsoft Exchange Server存储存档数据，请单击 **"Microsoft Exchange集成"** 复选框。
     
    - 若要启用数据清除，请选中“启用存档数据清除”复选框，然后执行下列操作之一：
     
