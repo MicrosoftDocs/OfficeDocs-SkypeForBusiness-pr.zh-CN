@@ -9,15 +9,15 @@ ms.topic: overview
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 摘要：这些功能是 Skype for Business Server 2019 中的新增功能。
-ms.openlocfilehash: cbdfcd92fbb6fbaefb75024dcb1e393ad5049e636e463bc4ad97588279702151
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b58c61702d447a7b68e9fa7e09cc6e539e682582
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295959"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600897"
 ---
 # <a name="whats-in-skype-for-business-server-2019"></a>2019 年 Skype for Business Server 中有什么功能
 
@@ -31,14 +31,14 @@ Skype for Business Server 2019 中的新功能包括：
 
 ## <a name="unified-messaging-services-cloud-voicemail"></a>统一消息服务：云语音邮件
 
-Exchange将 Skype for Business 2019 与 Exchange 2013 或 Exchange 2016 集成后，UM 在 Skype for Business Server 2019 中仍然可用。 由于 2019 年 Exchange 支持的变化，EXCHANGE UM 集成的重要性正在减少，以支持 云语音邮件 和云自动助理功能。  
+Exchange当您将 Skype for Business 2019 与 Exchange 2013 或 Exchange 2016 集成时，UM 在 Skype for Business Server 2019 中仍然可用。 由于 2019 年 Exchange 支持的变化，EXCHANGE UM 集成的重要性正在减少，以支持 云语音邮件 和云自动助理功能。  
 
-云语音邮件使你的所有 Skype for Business 2019&#x2014;无论是本地用户还是联机&#x2014;用户都有权访问 Microsoft 云中的同一语音邮件服务。 云语音邮件为本地用户和联机用户提供以下好处：
+云语音邮件使你的所有 Skype for Business 2019 用户&#x2014;无论他们位于本地还是联机&#x2014;都有权访问 Microsoft 云中的同一语音邮件服务。 云语音邮件为本地用户和联机用户提供以下好处：
 
-- 使用 Skype for Business Online、Teams 或 Outlook 客户端访问 Exchange 邮箱中的语音邮件
+- 使用 Exchange Online、Teams 或 Outlook 客户端访问 Skype for Business 邮箱中的语音邮件
 - 能够使用基于 Web 的门户管理其语音邮件选项
 
-有关详细信息[，云语音邮件 Plan 云语音邮件](../sfbhybrid/hybrid/plan-cloud-voicemail.md)service 和[Plan for Skype for Business Server and Exchange Server migration。](../sfbhybrid/hybrid/plan-um-migration.md)
+有关详细信息[，请参阅](../sfbhybrid/hybrid/plan-cloud-voicemail.md)规划 云语音邮件 服务和规划 Skype for Business Server[和 Exchange Server 迁移](../sfbhybrid/hybrid/plan-um-migration.md)。
   
 ## <a name="call-monitoring-call-data-connector"></a>呼叫监控：呼叫数据连接器
 

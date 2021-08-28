@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 176194d7-d184-4e23-94bb-cb62b4db47f5
 description: 数据库架构由以下表组成。
-ms.openlocfilehash: 02471ddc936c5dc0522e5ea3c9ad3c5f2859c6cd612b2618ace5d1dbe6be1078
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1d6d60d06dcb6cbfdde6a4fdbbd2746d00aa8531
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351282"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601267"
 ---
 # <a name="list-of-qoe-tables"></a>QoE 表列表
  

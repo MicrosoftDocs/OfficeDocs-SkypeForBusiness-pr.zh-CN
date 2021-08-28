@@ -14,15 +14,15 @@ search.appverid: MET150
 description: 获取排查并解决 Microsoft Teams 中来宾访问问题方面的帮助。
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aaca5da3140761a4a0fc9194c8acb31325d0aceaa9463ab7517779865aa479cf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5b539116fb5e81156a56c5f73146b92eea898765
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296439"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600927"
 ---
 # <a name="troubleshoot-problems-with-guest-access-in-microsoft-teams"></a>排查 Microsoft Teams 中的来宾访问问题
 
@@ -39,7 +39,7 @@ ms.locfileid: "54296439"
 Teams 中的来宾访问功能使用 Azure Active Directory (Azure AD) 企业对企业 (B2B) 及其许可模式。 所有 Microsoft 365 商业标准版、Office 365 企业版和 Office 365 教育版订阅均包含来宾访问功能。 无需额外的 Microsoft 365 或 Office 365 许可证。
 
 > [!NOTE]
-> Teams来宾的住宅租户上启用订阅，来宾才能登录并使用 Teams 作为另一资源租户上的 () 租户。
+> Teams来宾的住宅租户上启用订阅，来宾才能登录，并使用 Teams 作为另一资源租户 () 租户。
 
 如果看到许可错误，请务必阅读 [Azure AD](/azure/active-directory/external-identities/external-identities-pricing) 外部标识的计费模型，以确定满足组织中来宾访问需求的许可要求。
 

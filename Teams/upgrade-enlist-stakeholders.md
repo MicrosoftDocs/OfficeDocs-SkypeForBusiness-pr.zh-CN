@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: landerl
 description: 了解如何组织利益干系人的结构，以确保Microsoft Teams成功。
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f821eb2e00725d484f816edcd352f1aa38934acb868b3468d1c7ef984b03b506
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 21e08060c61e78919e514a099413f6d70380cf11
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308203"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600917"
 ---
 # <a name="enlist-your-project-stakeholders"></a>登记项目干系人
 
@@ -42,8 +42,8 @@ ms.locfileid: "54308203"
 
 |&nbsp; |&nbsp; |
 |---|---|
-| ![描述决策点的图标](media/audio_conferencing_image7.png) <br/>决策点 | <ul><li>Who适合充当此项目利益干系人团队的人吗？</li></ul> |
-| ![描述后续步骤的图标](media/audio_conferencing_image9.png)<br/>后续步骤 | <ul><li>考虑项目范围并分配相关利益干系人。</li><li>请使用下表作为指南，但请注意，此列表并不全面。<br><strong>提示</strong><br>构建一个责任负责、咨询 (的 [ RACI) ](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) 矩阵，以进一步区分那些将负责的人与只是需要及时了解项目特定领域信息的人。</li> |
+| ![描述决策点的图标](media/audio_conferencing_image7.png) <br/>决策点 | <ul><li>Who是适合充当此项目利益干系人团队的人？</li></ul> |
+| ![描述后续步骤的图标](media/audio_conferencing_image9.png)<br/>后续步骤 | <ul><li>考虑项目范围并分配相关利益干系人。</li><li>请使用下表作为指南，但请注意，此列表并不全面。<br><strong>提示</strong><br>构建一个责任负责的、咨询有根据的 [ (RACI) ](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) 矩阵，以进一步区分那些将负责的人与只是需要及时了解项目特定领域信息的人。</li> |
 | <li>决定是否创建一个指导委员会，并在适当的时候分配角色。</li></ul> | |
 
 | 角色 | 责任 |
@@ -61,7 +61,7 @@ ms.locfileid: "54308203"
 | 同步通信主管 | 拥有聊天、会议和通话等状态工具 |
 | 异步协作主管 | 拥有异步工具，SharePoint、OneDrive等 |
 | 电话服务主管 | 提供电话设计和实现见解 |
-| 服务所有者/质量冠军 | 拥有Teams的操作，包括用户体验的质量 |
+| 服务所有者/质量冠军 | 拥有整个Teams的操作，包括用户体验的质量 |
 | 桌面和设备潜在顾客 | 提供对客户端、设备和桌面应用的输入 |
 | IT Pro/租户管理员 | 确保网络就绪Microsoft 365 管理中心配置已就绪 |
 | 支持主管 | 管理支持台的准备情况 |

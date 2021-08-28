@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.ConfCAAMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1b2c8676-b132-4ba0-a242-a1edf30a3d44
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: eb5237e21c76078e8809b9299b72072bce22e884cc91481e0b5c64fcc2ddff55
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9b79067cb99d4837b300ba9b4596e035b53a9537
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323144"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614422"
 ---
 # <a name="dial-in-access-number"></a>拨入访问号码
 
