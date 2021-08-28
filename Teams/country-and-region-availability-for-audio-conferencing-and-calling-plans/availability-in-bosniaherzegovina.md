@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于Microsoft 365 Office 365波斯尼亚和黑塞哥维那的Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: 9c483f4670d3fdfc201f61269bf64fe5e3e9c779b7f9c7fac6b0a5875cb4846f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 12c7c57731eeecf7e34da8ee976137652d26c1ab
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54326168"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583596"
 ---
 # <a name="availability-in-bosnia-amp-herzegovina"></a>在波斯尼亚 &amp; 黑塞哥维那的可用性
 
@@ -43,7 +43,7 @@ ms.locfileid: "54326168"
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
-|是否会为音频会议自动分配电话号码？  <br/> |弱  <br/> |
+|是否会为音频会议自动分配电话号码？  <br/> |否  <br/> |
 |使用“呼叫我”功能的拨出功能  <br/> |需要通信信用额度  <br/> |
    
 ## <a name="phone-system"></a>电话系统

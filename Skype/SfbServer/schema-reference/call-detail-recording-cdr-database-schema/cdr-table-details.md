@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 896198f5-672b-48ea-852f-0211c0c90857
 description: 以下主题详细介绍了每个呼叫详细记录 (CDR) 数据库架构表中的列。
-ms.openlocfilehash: 7b22676a675d70359cf895261f3f0ad3cec13a6835805efefaacb6be7a7416ce
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 17450a04cee6463cf5ae9a04f8f4976f59421e80
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296965"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583806"
 ---
 # <a name="cdr-table-details-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的 CDR 表详细信息
  
@@ -38,7 +38,7 @@ ms.locfileid: "54296965"
     
 - [Skype for Business Server 2015 中的 ConferenceMessageCount 表](conferencemessagecount.md)
     
-- [2015 年 Skype for Business Server 中的 Conferences 表](conferences.md)
+- [Skype for Business Server 2015 中的 Conferences 表](conferences.md)
     
 - [ConferenceSessionDetails table in Skype for Business Server 2015](conferencesessiondetails-0.md)
     
@@ -56,7 +56,7 @@ ms.locfileid: "54296965"
     
 - [Skype for Business Server 2015 中的 ErrorCategory 表](errorcategory.md)
     
-- [2015 年 Skype for Business Server 中的 ErrorDef 表](errordef.md)
+- [Skype for Business Server 2015 中的 ErrorDef 表](errordef.md)
     
 - [Skype for Business Server 2015 中的 ErrorReport 表](errorreport.md)
     

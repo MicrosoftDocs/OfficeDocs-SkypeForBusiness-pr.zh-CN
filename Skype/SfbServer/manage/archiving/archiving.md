@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 63fd56cf-6d40-4db5-96fc-32d813930bcf
 description: 摘要：了解如何管理存档Skype for Business Server。
-ms.openlocfilehash: a3d23eefe673f74162e2c23a3d0476c1251ecad7e4719ccc1a7c6347f564deed
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d7751e8aff9bb9d1f559655671ff56655dc0f188
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320294"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630686"
 ---
 # <a name="manage-archiving-in-skype-for-business-server"></a>管理存档Skype for Business Server
 
@@ -25,10 +25,10 @@ ms.locfileid: "54320294"
   
 为组织部署存档时，在部署过程中指定初始配置。 但是，有时可能需要更改实现存档支持以用于日常管理或满足组织的新要求。 例如，您可能需要为组织内部的特定站点、特定池或特定用户设置不同的存档支持。 对于位于Skype for Business Server的用户，通过创建和自定义存档配置选项和用户策略来完成此操作。 
   
-在阅读本主题之前，请确保您熟悉在 Skype for Business Server 中规划存档[和](../../plan-your-deployment/archiving/archiving.md)为 Skype for Business Server 部署[存档中Skype for Business Server。](../../deploy/deploy-archiving/deploy-archiving.md)
+在阅读本主题之前，请确保您熟悉在 Skype for Business Server 中规划存档和[](../../plan-your-deployment/archiving/archiving.md)部署存档[中Skype for Business Server。](../../deploy/deploy-archiving/deploy-archiving.md)
   
 > [!NOTE]
-> 如果为部署启用 Microsoft Exchange集成，Exchange 策略将控制是否对位于 Exchange 上且其邮箱置于"保留"状态In-Place存档。 有关详细信息，请参阅 Plan [for archiving in Skype for Business Server](../../plan-your-deployment/archiving/archiving.md)和 Configure integration with Exchange storage for [Skype for Business Server](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md)。 
+> 如果为部署启用 Microsoft Exchange 集成，Exchange策略将控制是否对位于 Exchange 上且其邮箱置于"In-Place保留"的用户启用存档。 有关详细信息，请参阅 Plan [for archiving in Skype for Business Server](../../plan-your-deployment/archiving/archiving.md)和 Configure integration with Exchange storage for [Skype for Business Server](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md)。 
   
 ## <a name="archiving-configuration-options"></a>存档配置选项
 
@@ -46,7 +46,7 @@ ms.locfileid: "54320294"
     
 - 设置数据的清除和导出
     
-可以在全局、站点或池级别设置这些选项。 有关详细信息，请参阅管理[存档Skype for Business Server。](options.md)
+可以在全局、站点或池级别设置这些选项。 有关详细信息，请参阅管理存档[Skype for Business Server。](options.md)
   
 ## <a name="archiving-policies"></a>存档策略
 
@@ -60,7 +60,7 @@ ms.locfileid: "54320294"
   
 ## <a name="manage-archiving-by-using-the-control-panel-or-by-using-windows-powershell"></a>使用控制面板或管理存档Windows PowerShell
 
-可以使用控制面板或自动管理存档Windows PowerShell。 下表总结了可帮助您管理存档的 cmdlet。 有关语法的详细信息，包括所有可用参数，请参阅Skype for Business Server[命令行管理程序](../management-shell.md)。 
+可以使用控制面板或控制面板来管理存档Windows PowerShell。 下表总结了可帮助您管理存档的 cmdlet。 有关语法的详细信息，包括所有可用参数，请参阅Skype for Business Server[命令行管理程序](../management-shell.md)。 
 
 
 |**Cmdlet**|**说明**|

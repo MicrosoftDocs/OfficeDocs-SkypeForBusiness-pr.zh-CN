@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.UserMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 50feb75f-92a1-4916-b92e-c039e1290c52
 description: 您可以使用搜索查询的结果为用户配置Skype for Business Server。 可以按照显示名称、名字、姓氏、安全帐户管理器 (SAM) 帐户名、SIP 地址或线路统一资源标识符 (URI) 搜索用户。 您还可以使用 Lync Server 控制面板或 Active Directory 用户和计算机管理单元搜索用户。
-ms.openlocfilehash: 75e5a3ddf063477351946ad1d5efa1e5877f38d1a6b8d2109fc2b91869bc6cde
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2333a92d95a3d93ef9e10c0db89eba0c77c9f809
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320644"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608229"
 ---
 # <a name="control-panel---updated-user-search"></a>控制面板 - 已更新：用户搜索
 
@@ -46,7 +46,7 @@ ms.locfileid: "54320644"
 
 - [为用户配置电话](/previous-versions/office/lync-server-2013/lync-server-2013-configure-telephony-for-a-user)
 
-有关可以使用控制面板执行的不同过程的详细信息，Skype for Business Server Manage [Skype for Business Server 2015](../../manage/manage.md)。
+有关可以使用控制面板执行的不同过程的详细信息，请参阅 Manage [Skype for Business Server Skype for Business Server 2015](../../manage/manage.md)。
 
 ## <a name="ui-reference"></a>用户界面参考
 
@@ -76,7 +76,7 @@ ms.locfileid: "54320644"
 
 ### <a name="search-results-menus"></a>搜索结果菜单
 
-- **启用用户** 单击以打开"[用户： 新建 Lync Server](users-new-lync-server-user.md)用户"对话框，可在其中添加新用户Skype for Business Server。
+- **启用用户** 单击以打开"[用户： 新建 Lync Server](users-new-lync-server-user.md)用户"对话框，可在其中添加新用户以Skype for Business Server。
 
     若要添加新联系人，请单击向下箭头，然后选择"启用 **联系人** "以打开"用户： [新建联系人对象"](users-new-contact-objects.md) 对话框。
 
@@ -104,4 +104,4 @@ ms.locfileid: "54320644"
 
   - **将所选用户移动到池** 打开 ["移动用户](move-user.md) "对话框，可在其中选择要将所选用户移动到的池。
 
-  - **将所有用户移动到池** 打开 ["移动用户](move-user.md) "对话框，可在其中选择要将所有选定用户移动到的池。
+  - **将所有用户移动到池** 打开 ["移动用户](move-user.md) "对话框，您可以在其中选择要将所有选定用户移动到的池。

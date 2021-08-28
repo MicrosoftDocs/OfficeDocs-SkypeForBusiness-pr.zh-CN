@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: landerl
 audience: admin
 description: 示例电子邮件和调查，通过加速的十步操作计划在 conjunciton 中用于从 Skype for Business Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7c94094720a68bf14c0c6b3f66d8b45c4a7a3251cd1159645b1226a711d562a2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0c23c2818c791915aa2a8e6c772510c6a50094c1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323774"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583466"
 ---
 # <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>升级基本通信的示例电子邮件和调查
 
@@ -84,7 +84,7 @@ If you have questions or need help, please reach out to <<insert company support
 
 ### <a name="remind-users-email-for-step-6"></a>提醒用户有关步骤 6 的电子邮件
 
-主题行：提醒：准备好升级到Teams
+主题行：提醒：准备好升级到 Teams
 
 ```
 ACTION REQUIRED: Host your next online meeting in Teams
@@ -170,7 +170,7 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 <a name="step-10-email"></a>
 
-### <a name="email-to-ask-users-to-give-teams-and-channels-a-try-for-step-10"></a>电子邮件，要求用户尝试团队和频道，步骤 10
+### <a name="email-to-ask-users-to-give-teams-and-channels-a-try-for-step-10"></a>电子邮件，要求用户试用团队和频道，步骤 10
 
 主题行：
 
@@ -207,8 +207,8 @@ Should you have questions, contact <<insert alias or contact info>>.
 |---|---|---|---|---|---|---|---|---|---|---|
 | 使用Teams其他人进行即时消息/聊天 | | | | | | | | | | |
 | 使用Teams联机会议 | | | | | | | | | | |
-| 使用Teams团队和频道 (协作)  | | | | | | | | | | |
-| 在Teams设备上使用" | | | | | | | | | | |
+| 使用Teams团队 (频道进行协作)  | | | | | | | | | | |
+| 在Teams设备上使用 | | | | | | | | | | |
 
 | **什么（如果有）阻止你使用Microsoft Teams？** | **选择所有适用项** |
 |---|---|

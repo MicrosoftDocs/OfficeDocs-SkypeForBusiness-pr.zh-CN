@@ -1,5 +1,5 @@
 ---
-title: 'Upload CQD 服务中的呼叫质量仪表板 (租户和) '
+title: 'Upload CQD 仪表板中的"呼叫质量仪表板" (租户和) '
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -14,30 +14,30 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: 了解如何在 CQD 仪表板的呼叫质量仪表板 (租户和) 。
-ms.openlocfilehash: be51f4ec7eb19f56a07413749abf5455856754ed0984d00cd27ed72d9aaa8316
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 847abe5aeb18f7cb19bdad9213334f119c101e20
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322804"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583696"
 ---
-# <a name="upload-tenant-and-building-data-in-call-quality-dashboard-cqd"></a>Upload CQD 服务中的呼叫质量仪表板 (租户和) 
+# <a name="upload-tenant-and-building-data-in-call-quality-dashboard-cqd"></a>Upload CQD 仪表板中的"呼叫质量仪表板" (租户和) 
 
 
-若要在 CQD 仪表板中 (呼叫质量) ，建议上传租户和建筑物数据。 有 2 种类型的租户数据文件，[即"生成"和"](#upload-building-data-file)[终结点"。](#endpoint-data-file)
+若要在 CQD (质量仪表板) ，建议上传租户和建筑物数据。 有 2 种类型的租户数据文件，[即"生成"和"](#upload-building-data-file)[终结点"。](#endpoint-data-file)
 
 可以在此处下载示例租户数据 [模板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true)。 有关建筑物映射的帮助，请阅读 [为 CQD 创建建筑地图](CQD-building-mapping.md)。
 
-在"CQD 摘要报表"仪表板中，从 CQD 设置 菜单中选择"租户数据Upload"， (CQD 报表顶部的齿轮图标) 。 在这里，管理员可以上传其组织的建筑物和终结点信息，例如 IP 地址和地理信息映射、映射每个无线接入点及其 MAC 地址，等等。
+在 CQD 摘要报表仪表板中，从 CQD 设置 菜单中选择"租户数据Upload"， (CQD 报表顶部的齿轮图标) 。 在这里，管理员可以上传其组织的建筑物和终结点信息，例如 IP 地址和地理信息映射、映射每个无线接入点及其 MAC 地址，等等。
 
-1. 从 Teams 管理中心或) 打开 CQD (，然后选择右上角的齿轮图标，然后从"摘要报表"页中选择"租户数据 Upload"。 [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com)  
+1. 从 Teams 管理中心或) 打开 CQD (，然后选择右上角的齿轮图标，然后从"摘要报表"页Upload"租户数据"。 [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com)  
 
    ![上传数据时出现的对话框的屏幕截图](media/qerguide-image-tenantdataupload.png)
     
@@ -63,7 +63,7 @@ ms.locfileid: "54322804"
 
 CQD 中第一种类型的租户数据文件是 **建筑物** 数据文件。 通过展开"Network+NetworkRange"列，然后将"子网"列联接到呼叫记录的"第一个子网"或"第二个子网"列以显示"建筑物、城市、国家/地区"或"区域"信息，派生子网列。 上传的数据文件的格式必须满足以下条件，才能在上传前通过验证检查：
   
-- 该文件必须是 .tsv 文件 (制表符分隔) 或 .csv 文件 (以逗号分隔) 。
+- 该文件必须是 .tsv 文件， (列由 Tab 键分隔) 或 .csv 文件 (以逗号分隔) 。
 
 - 数据文件不包括表标题行。 数据文件的第一行应该是实际数据，而不是标头标签（如"网络"）。
 
@@ -95,7 +95,7 @@ CQD 中第一种类型的租户数据文件是 **建筑物** 数据文件。 通
   | ExpressRoute<sup>3</sup>       | Bool      | 0             | 必需              |
   | VPN                | Bool      | 0                         | 可选              |
 
-  <sup>1</sup> CQD 不要求，但模板配置为显示"建筑物"和"网络名称"。
+  <sup>1</sup> 尽管 CQD 不需要，但模板配置为显示"建筑物"和"网络名称"。
 
   <sup>2</sup> 此设置可用于反映子网是否在企业网络中。 可以出于其他目的自定义使用情况。
 
@@ -106,14 +106,14 @@ CQD 中第一种类型的租户数据文件是 **建筑物** 数据文件。 通
   `192.168.1.0,USA/Seattle/SEATTLE-SEA-1,26,SEATTLE-SEA-1,Contoso,IT Termination,Engineering,Seattle,98001,US,WA,MSUS,1,0,0`
 
 > [!IMPORTANT]
-> 网络范围可用于表示具有单个路由前缀的 (子网的超网络) 。 所有新建筑物上载都将检查是否有重叠的范围。 如果以前上传过一个建筑物文件，应下载当前文件，然后重新上传该文件，以确定任何重叠，并修复问题，然后再重新上传。 以前上传的文件的任何重叠都可能导致报告中子网与建筑物之间的映射错误。 某些 VPN 实现无法准确报告子网信息。 
+> 网络范围可用于表示具有单个路由前缀的 (子网的超网络) 。 所有新建筑物上载都将检查是否有重叠的范围。 如果以前上传过一个建筑物文件，应下载当前文件，然后重新上传该文件，以识别任何重叠，并修复问题，然后再重新上传。 以前上传的文件的任何重叠都可能导致报告中子网与建筑物之间的映射错误。 某些 VPN 实现无法准确报告子网信息。 
 >
 > VPN 列是可选的，默认为 0。 如果 VPN 列的值设置为 1，则该行表示的子网将完全展开，以匹配子网内的所有 IP 地址。 请尽量少用，仅对 VPN 子网使用，因为完全扩展这些子网会对涉及生成数据的查询的查询时间产生负面影响。 如果子网的扩展导致超出 1，000，000 的扩展行限制，则不接受生成文件。
 
 
 ### <a name="supernetting"></a>Supernetting
 
-可以使用超级网络（通常称为无Inter-Domain路由 (CIDR，) 定义每个子网。 超级 *网络* 是共享单个路由前缀的几个子网的组合。 可以使用超网络地址，而不是添加每个子网的条目。 支持超网络，但我们不建议使用它。
+可以使用超级网络（通常称为无Inter-Domain路由 (CIDR，) 来取代定义每个子网。 超级 *网络* 是共享单个路由前缀的几个子网的组合。 可以使用超网络地址，而不是添加每个子网的条目。 支持超网络功能，但我们不建议使用它。
 
 例如，Contoso 的营销大楼由以下子网决定：
 
@@ -142,13 +142,13 @@ CQD 中第一种类型的租户数据文件是 **建筑物** 数据文件。 通
 
 ### <a name="vpn"></a>VPN
 
-QoE (质量) 客户端发送到 Microsoft 365 或 Office 365（CQD 数据的来源）的数据包括 VPN 标志。 CQD 将看到此为第一个 VPN 维度和第二个 VPN 维度。 但是，此标志依赖于 VPN 供应商向Windows注册的 VPN 网络适配器是远程访问适配器的报告。 并非所有 VPN 供应商都正确注册远程访问适配器。 因此，可能无法使用内置的 VPN 查询筛选器。 使用上面讨论的 VPN 列准确标记和标识 VPN 子网。 此外，为 VPN 网络添加标签也是一种很好的做法，便于在报告中识别。 下面是如何标记 VPN 子网的两个示例：
+QoE (质量) 客户端发送到 Microsoft 365 或 Office 365 的数据（CQD 数据的来源位置）包括 VPN 标志。 CQD 将看到此为第一个 VPN 维度和第二个 VPN 维度。 但是，此标志依赖于 VPN 供应商向Windows注册的 VPN 网络适配器是远程访问适配器的报告。 并非所有 VPN 供应商都正确注册远程访问适配器。 因此，可能无法使用内置的 VPN 查询筛选器。 使用上面讨论的 VPN 列准确标记和标识 VPN 子网。 此外，为 VPN 网络添加标签也是一种很好的做法，便于在报告中识别。 下面是如何标记 VPN 子网的两个示例：
 
 - 在 VPN **子网的** 此字段中输入"VPN"，定义网络名称。
 
   ![显示使用网络名称的 VPN 的 QCD 报告屏幕截图](media/qerguide-image-vpnnetworkname.png)
 
-- 在 VPN **子网的此字段** 中输入"VPN"，定义建筑物名称。
+- 在 VPN **子网的** 此字段中输入"VPN"，定义建筑物名称。
 
   ![显示使用建筑物名称的 VPN 的 QCD 报告屏幕截图](media/qerguide-image-vpnbuildingname.png)
 
@@ -159,7 +159,7 @@ QoE (质量) 客户端发送到 Microsoft 365 或 Office 365（CQD 数据的来�
 
 另一种类型的 CQD 租户数据文件是 **终结点** 数据文件。 列值用于调用记录的"第一个客户端终结点名称"或"第二个客户端终结点名称"列中，以显示终结点制造、模型或类型信息。 上传的数据文件的格式必须满足以下条件，才能在上传前通过验证检查：
 
-- 该文件必须是 .tsv 文件 (制表符分隔) 或 .csv 文件 (以逗号分隔) 。
+- 该文件必须是 .tsv 文件， (列由 Tab 键分隔) 或 .csv 文件 (以逗号分隔) 。
 
 - 数据文件的内容不包括表标题。 数据文件的第一行应该是实际数据，而不是标头标签（如"EndpointName"）。
 
@@ -183,7 +183,7 @@ QoE (质量) 客户端发送到 Microsoft 365 或 Office 365（CQD 数据的来�
 
 ## <a name="update-a-building-file"></a>更新建筑物文件
 
-收集建筑物和子网信息时，管理员通常会在一段时间的多次迭代中上传该建筑物文件，添加新子网及其建筑物信息，因为它可用。 发生这种情况时，需要重新上传建筑物文件。 此过程与上一部分中所述的初始上传类似，但以下部分介绍了一些例外。
+收集建筑物和子网信息时，管理员通常会在一段时间的多次迭代中上传该建筑物文件，并添加新的子网及其建筑物信息（可用时）。 发生这种情况时，需要重新上传建筑物文件。 此过程与上一部分中所述的初始上传类似，但以下部分介绍了一些例外。
 
 > [!Important]
 > 一次只能有一个建筑物文件处于活动状态。 多个建筑物文件不是累积的。
@@ -206,7 +206,7 @@ QoE (质量) 客户端发送到 Microsoft 365 或 Office 365（CQD 数据的来�
 
 上传托管网络的建筑物信息后，每个托管网络都应具有建筑物关联。 但是，情况并非总是如此;通常，会遗漏几个子网。 若要查找这些缺失的网络，请查看CQD 中"体验质量报告 **"页上的**"缺少子网报告"。 这会向所有子网显示 10 个或多个音频流，这些音频流未在建筑物数据文件中定义，并且被标记为外部。 请确保此列表中没有托管网络。 如果缺少子网，请使用以下过程更新原始建筑物数据文件，并将其重新上传到 CQD。
 
-1. 转到 CQD **Upload"** 租户数据"页。
+1. 转到 CQD **Upload** 租户数据"页。
 
 1. 下载原始文件（如果还没有最新副本）。
 
@@ -232,7 +232,7 @@ QoE (质量) 客户端发送到 Microsoft 365 或 Office 365（CQD 数据的来�
 
 [什么是 CQD？](CQD-what-is-call-quality-dashboard.md)
 
-[使用 CQD (设置呼叫质量) ](turning-on-and-using-call-quality-dashboard.md)
+[设置 CQD (呼叫质量) ](turning-on-and-using-call-quality-dashboard.md)
 
 [CQD 数据和报表](CQD-data-and-reports.md)
 

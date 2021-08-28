@@ -9,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 网络区域* 是呼叫允许控制、E9-1-1 和媒体旁路配置中使用的网络中心或网络中枢。
-ms.openlocfilehash: 9e38528dd34f25fa2b70b51485657168868d6628
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 0fc7b1cdc41f73535aef83e6ec46f9bd4622da48
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58232797"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630576"
 ---
 # <a name="managing-network-regions-in-skype-for-business-server"></a>在 Skype for Business Server 中管理网络区域
 
@@ -27,7 +27,7 @@ ms.locfileid: "58232797"
 ## <a name="view-network-region-information"></a>查看网络区域信息 
 
 
-网络区域将跨多个地理区域的网络的各个部分相互连接起来。 每个网络区域都必须与中央站点关联。 中央站点是运行呼叫允许控制 (CAC) 带宽策略服务的数据中心站点。 可以使用"Skype for Business Server控制面板"来查看网络区域。 网络区域包括确定音频和视频连接是否可以使用通过 Internet 的备用路径的设置。 使用本主题可查看现有网络区域。 
+网络区域将跨多个地理区域的网络的各个部分相互连接起来。 每个网络区域都必须与中央站点关联。 中央站点是运行呼叫允许控制 (CAC) 带宽策略服务的数据中心站点。 可以使用"Skype for Business Server"来查看网络区域。 网络区域包括确定音频和视频连接是否可以使用通过 Internet 的备用路径的设置。 使用本主题可查看现有网络区域。 
 
 ### <a name="to-view-information-about-a-network-region-with-skype-for-business-server-control-panel"></a>使用控制面板查看有关Skype for Business Server区域的信息
 
@@ -47,7 +47,7 @@ ms.locfileid: "58232797"
 
 ### <a name="viewing-network-region-information-by-using-windows-powershell-cmdlets"></a>使用 cmdlet 查看Windows PowerShell信息
 
-可以通过使用 Windows PowerShell **和 Get-CsNetworkRegion** cmdlet 查看网络区域信息。 可以从命令行管理程序或 Skype for Business Server远程会话中运行此 cmdlet Windows PowerShell。 
+可以使用 **Get-CsNetworkRegion** cmdlet 和 Windows PowerShell查看网络区域信息。 可以从命令行管理程序或 Skype for Business Server远程会话中运行此 cmdlet Windows PowerShell。 
 
 ### <a name="to-view-network-region-information"></a>查看网络区域信息
 
@@ -82,7 +82,7 @@ ms.locfileid: "58232797"
 
 4.  在"区域 **"页上**，单击"新建 **"。**
 
-5.  在" **新建区域"** 页的"名称"字段中 **键入** 值。 此值在部署中必须Skype for Business Server。
+5.  在" **新建区域"** 页的"名称"字段中 **键入** 值。 此值在部署中必须Skype for Business Server唯一。
 
 6.  从 **中央站点** 下拉列表中，选择此网络区域的中央站点。
 
@@ -108,7 +108,7 @@ ms.locfileid: "58232797"
 
 5.  在“编辑”菜单上，单击“显示详细信息”。
 
-6.  在"编辑区域"页上，您可以修改用于启用和禁用音频和视频备用路径的设置，并更改说明 (了解详细信息，请参阅本主题前面介绍的"创建网络区域"部分。
+6.  在"编辑区域"页上，可以修改用于启用和禁用音频和视频备用路径的设置，并更改说明 (了解详细信息，请参阅本主题前面介绍的"创建网络区域"部分。
 
 7.  单击“提交”。
 

@@ -10,16 +10,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
 description: 摘要：了解如何在 Skype for Business Server 2015 中启动或停止集中日志记录服务日志捕获会话。
-ms.openlocfilehash: 9979af3724a245fb71f14f3db07dba7899269d904d5dfcc1d548dae3a2890559
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8f21b4b63c4261443cf6749f1daf0b905b1adb11
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324112"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608049"
 ---
 # <a name="start-or-stop-cls-log-capture-in-skype-for-business-server-2015"></a>在 2015 年 10 月Skype for Business Server CLS 日志捕获
  
@@ -31,7 +31,7 @@ ms.locfileid: "54324112"
   
 默认方案称为 **AlwaysOn**。顾名思义，AlwaysOn 的目的就是持续不断地运行方案。AlwaysOn 方案为许多最常用的服务器组件收集信息级别信息（请注意，除“信息”消息外，“信息”日志记录级别还包括致命错误、错误和警告）。AlwaysOn 在问题发生之前、发生过程中和发生之后收集信息。这与以前的日志记录工具（如 OCSLogger）的典型行为截然不同。您在问题发生之后才运行 OCSLogger，这使得故障排除工作更加困难，因为获得的数据是被动而非主动的。如果 AlwaysOn 不包含您正在寻找的能够指出问题组件和纠正措施的信息（考虑到 AlwaysOn 中提供程序的广度和深度，不太可能会发生这种情况），它会指出一个合理的信息水平，以确定您需要执行的其他操作，例如，创建新方案，收集其他信息，运行不同搜索来收集更集中的详细信息等等。
   
-集中日志记录服务提供了两种发出命令的方法。 许多主题已完全侧重于通过命令行管理程序Windows PowerShell Skype for Business Server方法。 使用大量复杂配置和命令的能力有利于Windows PowerShell日志记录服务使用。 由于Windows PowerShell命令行管理程序Skype for Business Server命令行管理程序对命令行管理程序Skype for Business Server，因此只讨论Windows PowerShell命令。 
+集中日志记录服务提供了两种发出命令的方法。 许多主题已完全侧重于通过 Windows PowerShell命令行管理程序Skype for Business Server方法。 使用大量复杂配置和命令的能力有利于Windows PowerShell日志记录服务使用。 由于Windows PowerShell命令行管理Skype for Business Server对命令行管理程序中所有函数Skype for Business Server，因此只讨论Windows PowerShell命令。 
   
 ### <a name="to-run-start-csclslogging-with-windows-powershell-using-basic-commands"></a>使用基本Start-CsClsLogging Windows PowerShell运行命令
 
@@ -50,12 +50,12 @@ ms.locfileid: "54324112"
    ```
 
     > [!NOTE]
-    > AlwaysOn 方案没有默认持续时间。 此方案将一直运行，直到你使用 **Stop-CsClsLogging** cmdlet 显式停止它。 有关详细信息，请参阅 [Stop-CsClsLogging](/powershell/module/skype/stop-csclslogging?view=skype-ps)。 对于所有其他方案，默认持续时间为 4 小时。 
+    > AlwaysOn 方案没有默认持续时间。 此方案将一直运行，直到使用 **Stop-CsClsLogging** cmdlet 显式停止它。 有关详细信息，请参阅 [Stop-CsClsLogging](/powershell/module/skype/stop-csclslogging?view=skype-ps)。 对于所有其他方案，默认持续时间为 4 小时。 
   
 3. 按 Enter 运行命令。 
     
     > [!NOTE]
-    > 运行命令和从部署中的计算机返回状态 (30 至 60 秒) 可能需要一小段时间。 
+    > 运行命令和从部署中的 (接收状态可能需要) 30 到 60 秒。 
   
      ![运行 Start-CsClsLogging。](../../media/Ops_CLS_Show_and_Start_ClsLogging.jpg)
   
@@ -72,7 +72,7 @@ ms.locfileid: "54324112"
 
 1. 启动命令行Skype for Business Server：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击"Skype for Business Server **命令行管理程序"。**
     
-2. 其他参数可用于管理日志记录命令。 可以使用 -Duration 调整方案运行的时间长度。 还可以定义 -Computers、计算机完全限定域名列表 (FQDN) （用逗号分隔）或 -Pools（要运行日志记录的池的以逗号分隔的 FQDN 列表）。
+2. 其他参数可用于管理日志记录命令。 可以使用 -Duration 调整方案运行的时间长度。 还可以定义 -Computers、计算机完全限定域名列表 (FQDN) （用逗号分隔）或 -Pools（要运行日志记录的池的逗号分隔 FQDN 列表）。
     
     为池"pool01.contoso.net"上的 UserReplicator 方案启动日志记录会话。 还可以将日志记录会话的持续时间定义为 8 小时。 为此，请键入：
     
@@ -96,7 +96,7 @@ ms.locfileid: "54324112"
   
 在了解了问题和影响范围后，应谨慎选择哪些方案在哪些计算机和池上运行。AlwaysOn 方案对于广泛的应用具有意义，因为它收集各类提供商的信息，而具体方案只在特定计算机或池上具有应用价值。此外，在随机启动日志记录会话而不先了解给定方案的价值时务必小心。如果使用的方案错误，或者虽然使用的方案适合任务，但应用范围（全局、站点、池或计算机）错误，您可以获得不是很有用的可疑数据，就像您根本没有运行该方案一样。
   
-若要使用 Skype for Business Server 命令行管理程序控制集中日志记录服务功能，您必须是基于 CsAdministrator 或 CsServerAdministrator 角色的访问控制 (RBAC) 安全组的成员，或者是包含这两个组之一的自定义 RBAC 角色。 若要返回分配了此 cmdlet 的所有 RBAC 角色的列表 (包括您自己创建的任何自定义 RBAC 角色) ，请从 Skype for Business Server 命令行管理程序 或 Windows PowerShell 提示符运行以下命令：
+若要使用 Skype for Business Server 命令行管理程序控制集中日志记录服务功能，您必须是基于 CsAdministrator 或 CsServerAdministrator 角色的访问控制 (RBAC) 安全组的成员，或者是包含这两个组之一的自定义 RBAC 角色。 若要返回分配了此 cmdlet 的所有 RBAC 角色的列表 (包括您自己创建的任何自定义 RBAC 角色) 请从 Skype for Business Server 命令行管理程序或 Windows PowerShell 提示符运行以下命令：
   
 ```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Skype for Business Server 2015 cmdlet"}
@@ -109,7 +109,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 ```
 
 > [!NOTE]
-> 因此，您可能想知道：现在已启用日志记录，日志将保留在什么位置？ 由于您将使用发送到 CLS 代理的命令行管理程序查询访问日志中存储的信息，并且您可以将结果输出为多种可能的文件格式，其中，CLS 代理在每台服务器上保留其记录实际上并不很重要。  日志文件可以保存到使用多种工具（包括 **Snooper.exe** 以及任何可读取文本文件的工具（如Notepad.exe）指定 **并读取Notepad.exe。** Snooper.exe是 Skype for Business Server 2015 调试工具的一部分，并作为[Web 下载提供](https://go.microsoft.com/fwlink/p/?LinkId=285257)。
+> 因此，您可能想知道：现在已启用日志记录，日志将保留在什么位置？ 由于您将使用发送到 CLS 代理的命令行管理程序查询访问日志中存储的信息，并且您可以将结果输出为多种可能的文件格式，其中，CLS 代理在每台服务器上保留其记录实际上并不很重要。  日志文件可以保存到使用多种工具（包括 **Snooper.exe以及** 任何可读取文本文件的工具（如Notepad.exe）中指定 **并读取Notepad.exe。** Snooper.exe是 Skype for Business Server 2015 调试工具的一部分，并作为[Web 下载提供](https://go.microsoft.com/fwlink/p/?LinkId=285257)。
 
 ### <a name="to-stop-a-currently-running-centralized-logging-service-session"></a>停止当前正在运行的集中日志记录服务会话
 

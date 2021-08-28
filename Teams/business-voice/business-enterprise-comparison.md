@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
-localization_priority: Priority
+ms.localizationpriority: high
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 了解 Microsoft 365 企业语音和商务语音之间的区别。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a46a245ddbd9a0e9b8e6dd1d4a3dab7a05cb125023ca938eecc6f519776ae49
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 88310047ab763631091b8b0efa72ff0c2997fb39
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351901"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630306"
 ---
 # <a name="whats-the-difference-between-business-voice-and-enterprise-voice"></a>商务语音和企业语音有何区别？
 

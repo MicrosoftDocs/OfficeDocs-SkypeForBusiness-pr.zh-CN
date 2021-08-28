@@ -7,7 +7,7 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: aaglick
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ebbc1e2b26fdd5f0ff6816d456e0f2a2dc9d02275b8c81089a0c0a1ef299e64f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2ab5eb94740138af0405378728516bd4dfbaf2c7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308711"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584556"
 ---
 # <a name="get-started-with-team-templates-in-the-admin-center"></a>管理中心中的团队模板入门
 
@@ -32,7 +32,7 @@ ms.locfileid: "54308711"
 > [!NOTE]
 > 团队模板目前不支持专用频道和敏感度标签。 专用通道创建不包括在模板定义中。 从模板流创建团队 **中的** 敏感度标签选项不会应用于该团队。
 
-团队模板是围绕业务需求或项目设计的团队结构的预构建定义。 使用预建模板或创建自己的模板。 使用团队模板，可借助不同主题的频道快速创建丰富的协作空间，并预安装应用以提取任务关键型内容和服务。 团队模板提供预定义的团队结构，可帮助你在整个组织中轻松创建一致的团队。 目前，你可以从 Teams 模板创建团队，或者使用[Microsoft Graph。](get-started-with-teams-templates.md)
+团队模板是围绕业务需求或项目设计的团队结构的预构建定义。 使用预建模板或创建自己的模板。 使用团队模板，可借助不同主题的频道快速创建丰富的协作空间，并预安装应用以拉取任务关键型内容和服务。 团队模板提供预定义的团队结构，可帮助你在整个组织中轻松创建一致的团队。 目前，可以从模板或 Microsoft Teams创建[Graph。](get-started-with-teams-templates.md)
 
 本文介绍以下功能：
 
@@ -44,7 +44,7 @@ ms.locfileid: "54308711"
 
 ## <a name="team-template-capabilities"></a>团队模板功能
 
-模板包含并支持团队中的大多数属性。 但是，目前不支持一些属性和功能。 下表提供了团队模板中包含的内容以及不包含的内容的快速摘要。
+模板包含并支持团队中的大多数属性。 但是，目前不支持一些属性和功能。 下表提供了包含的内容和团队模板中不包含的内容的快速摘要。
 
 | **团队模板支持的团队属性** | **团队模板尚不支持的团队属性** |
 | ------------------------------------------------ | -------------------------------------------------------- |
@@ -109,7 +109,7 @@ ms.locfileid: "54308711"
 |每个模板的应用数 | 50|
 |||
 
-有关详细信息[，请参阅Teams](limits-specifications-teams.md)的限制和规范。
+有关详细信息[，请参阅Teams](limits-specifications-teams.md)限制和规范。
 
 ## <a name="manage-templates-in-powershell"></a>在 PowerShell 中管理模板
 

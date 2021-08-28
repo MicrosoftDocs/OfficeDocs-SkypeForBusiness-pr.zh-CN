@@ -9,23 +9,23 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: aa7d6b31-cb09-4e68-b020-aa5dd0081c20
-description: 摘要：了解 Skype for Business Server 中的 IP 电话 清单Skype for Business Server。
-ms.openlocfilehash: 89596d09bff9c58901b54bed928020bae3fa90d5971a8be3929fdc5914b54488
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 摘要：了解 Skype for Business Server 中的 IP 电话 清单报告。
+ms.openlocfilehash: 00677d5ed31303cd87df6547d2cab99323f6ed53
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276797"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630586"
 ---
 # <a name="ip-phone-inventory-report-in-skype-for-business-server"></a>IP 电话清单报告Skype for Business Server
  
-**摘要：** 了解 电话 中的 IP Skype for Business Server。
+**摘要：** 了解 Skype for Business Server 中的 IP 电话 清单Skype for Business Server。
   
 IP 电话清单报告会报告有关您的组织中目前所使用的 IP 电话的信息。IP 清单报告提供了在指定的报告期间实际上所使用的详细 IP 电话列表。除此之外，管理员还可以通过此报告了解是否存在应进行替换但仍在使用中的任何旧的、过时的电话；该报告还可以就组织中存在很少使用的昂贵电话这一实际情况，向管理员发出警报。当应该购买新电话或重新分配现有的电话时，该类型的信息非常重要。（例如，可能要求很少使用其昂贵电话的用户与较为频繁使用其电话的用户交换电话。）
   
-值得注意的是，此报告在用作真正的清单报告时存在几点限制。 首先，IP 电话报告仅列出指定时段内登录到 Skype for Business Server 的所有电话（按其上次登录时间排序）。 如果某个电话在指定的时间段内未登录，那么就不会在清单报告中列出。 这包括在该时间段开始前已登录并且在指定的时间间隔内仍保持登录的电话。 例如，假设您想查看 2015 年 7 月的所有电话清单。 同时假设在 2015 年 6 月 30 Skype for Business Server多部电话登录，自 7 月 1 日起仍登录。 这些电话将不会在 7 月 1 日的清单报告上出现。
+值得注意的是，此报告在用作真正的清单报告时存在几点限制。 首先，IP 电话报告仅列出指定时段内登录到 Skype for Business Server 的所有电话（按其上次登录时间排序）。 如果某个电话在指定的时间段内未登录，那么就不会在清单报告中列出。 这包括在该时间段开始前已登录并且在指定的时间间隔内仍保持登录的电话。 例如，假设您想查看 2015 年 7 月的所有电话清单。 同时假设在 2015 年 6 月 30 日Skype for Business Server几部电话登录并自 7 月 1 日起仍登录。 这些电话将不会在 7 月 1 日的清单报告上出现。
   
 还必须注意的是，清单报告可能包括您的组织不再使用的电话。 例如，假设许多 Fabrikam 电话于 2015 年 7 月 1 日登录到系统;5 天后，您的组织清除了所有这些 Fabrikam 电话，并替换为较新的 Contoso 模型。 Fabrikam 电话仍会显示在“清单”报告中，原因很简单，就是它们在 7 月份已登录到系统。
   

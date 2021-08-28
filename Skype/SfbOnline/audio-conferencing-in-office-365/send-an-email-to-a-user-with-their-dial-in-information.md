@@ -15,18 +15,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
 description: 在 Skype for Business Online 中向用户发送包含其音频会议Skype for Business电子邮件。
-ms.openlocfilehash: 9cc178b64d9c242337717598f41bdcb4018f14620c5fdc3709abcf8c1bbdb0d9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8cb4d51fedc5cd12a3ee7a95b0d83c254526abd8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54327038"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584446"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-skype-for-business-online"></a>在 Skype for Business Online 中向用户发送包含其音频会议信息的电子邮件
 
@@ -90,7 +90,7 @@ ms.locfileid: "54327038"
     
   - 将SendEmailOverride参数设置为 True。
     
-  - 在 SendEmailFromDisplayName 显示名称输入电子邮件。
+  - 在 SendEmailFromDisplayName 显示名称中输入电子邮件地址。
     
      `Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailFromAddress amos.marble@contoso.com -SendEmailFromDisplayName "Amos Marble"`
     
@@ -107,13 +107,13 @@ ms.locfileid: "54327038"
   Set-CsOnlineDialInConferencingUser -id amos.marble@contoso.com  -SendEmail
   ```
 
-- 对于 Windows PowerShell，Skype for Business Online 的功能是管理用户以及允许或不允许用户执行的操作。 使用Windows PowerShell，可以使用Microsoft 365管理Office 365管理点，在有多个任务需要执行时简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
+- 对于 Windows PowerShell，Skype for Business Online 的功能是管理用户以及允许或不允许用户执行的操作。 使用Windows PowerShell，Microsoft 365 Office 365单点管理来管理任务或任务，可在有多个任务需要执行时简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
     
   - [为何需要将 Microsoft 365 或 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [使用 Microsoft 365 Office 365 管理Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [使用 Microsoft 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-- Windows PowerShell相比于仅使用 Microsoft 365 管理中心，在速度、简单性和工作效率方面具有许多优势，例如，一次对许多用户进行设置更改时。 请在以下主题中了解这些优点： 
+- Windows PowerShell相比于仅使用 Microsoft 365 管理中心，在速度、简单性和工作效率方面具有许多优势，例如，一次为许多用户更改设置时。 请在以下主题中了解这些优点： 
     
   - [Windows PowerShell 和 Skype for Business Online 简介](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     

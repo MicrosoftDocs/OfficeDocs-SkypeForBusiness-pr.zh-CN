@@ -9,7 +9,7 @@ ms.service: msteams
 audience: admin
 search.appverid: MET150
 description: 了解如何为直接Location-Based启用路由，包括为用户、网络站点、网关配置和调用策略启用路由。
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -17,26 +17,26 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8dc1c36c0a82bb7323f5919c788508a4ef028f21
-ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
+ms.openlocfilehash: 51a7aa95eb74e7baa199ac8d43dd5f89b352c95c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "58523813"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584496"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>为直接路由启用基于位置的路由
 
-在按照本文中的步骤操作之前，请确保已阅读规划直接路由Location-Based[](location-based-routing-plan.md)路由，并完成配置路由的网络设置中的[Location-Based步骤](location-based-routing-configure-network-settings.md)。
+在按照本文中的步骤操作之前，请确保已阅读规划直接路由的[](location-based-routing-plan.md)Location-Based 路由，并完成为路由配置网络设置中的[Location-Based步骤](location-based-routing-configure-network-settings.md)。
 
 本文介绍如何为直接路由Location-Based路由。 部署电话系统路由并设置网络区域、站点和子网后，即可启用Location-Based路由。 若要完成本文中的步骤，需要熟悉 PowerShell cmdlet。 有关详细信息，请参阅[PowerShell Teams概述](teams-powershell-overview.md)。
 
- 必须针对以下Location-Based启用路由：
+ 必须启用以下Location-Based路由：
 - 用户
 - 网络站点
 - 网关配置
 - 通话策略
 
-可以使用 Microsoft Teams[管理中心](#using-the-microsoft-teams-admin-center)或[PowerShel](#using-powershell)l 来启用Location-Based路由。
+可以使用 Microsoft Teams[管理中心](#using-the-microsoft-teams-admin-center)或[PowerShel](#using-powershell)l 启用Location-Based路由。
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 管理中心
 
@@ -45,20 +45,20 @@ ms.locfileid: "58523813"
 1. 创建语音路由策略并将 PSTN 使用情况分配给该策略。 将 PSTN 使用情况分配给策略时，请确保执行下列操作之一：
 
     - 使用与使用站点本地 PSTN 网关的语音路由关联的 PSTN 使用情况。
-    - 使用与使用 PSTN 网关的语音路由关联的 PSTN 使用情况，该网关位于Location-Based不需要路由限制的区域。
+    - 使用与使用 PSTN 网关的语音路由关联的 PSTN 使用Location-Based不需要任何路由限制。
 2. 将语音路由策略分配给需要强制实施路由限制的用户。
 
 若要详细了解如何创建语音路由策略并将其分配给用户，请参阅在 Microsoft Teams 中管理语音[路由策略](manage-voice-routing-policies.md)。
 
 ### <a name="enable-location-based-routing-for-network-sites"></a>为Location-Based启用路由
 
-为Location-Based实施路由限制的站点启用路由。 为此，请在 Microsoft Teams 管理中心的左侧导航中，转到"位置""网络拓扑"，选择一个网络站点，单击"编辑"，然后打开"基于位置的路由  >  **"。**   
+为Location-Based实施路由限制的站点启用路由。 为此，请在管理中心的左侧导航Microsoft Teams，转到"位置""网络拓扑"，选择网络站点，单击"编辑"，然后打开"基于位置的  >  **路由"。**   
 
 有关详细信息，请参阅 [管理网络拓扑](manage-your-network-topology.md)。
 
 ### <a name="enable-location-based-routing-for-gateways"></a>为Location-Based启用路由
 
-启用Location-Based路由到将呼叫路由到 PSTN 网关的网关，将呼叫路由到 PSTN，并关联网关所在的网络站点。 
+启用Location-Based路由到将呼叫路由到 PSTN 的 PSTN 网关的网关，并关联网关所在的网络站点。 
 
 1. 在左侧导航中，转到 **"语音**  >  **直接路由"，** 然后单击 **"SDC"** 选项卡。
 2. 选择 SBC，然后单击"编辑 **"。** 
@@ -66,11 +66,11 @@ ms.locfileid: "58523813"
 4. 指定网关站点 ID，然后设置绕过模式。
 5. 单击“**保存**”。
 
-### <a name="enable-location-based-routing-for-calling-policies"></a>为Location-Based启用路由
+### <a name="enable-location-based-routing-for-calling-policies"></a>启用Location-Based策略的路由
 
 若要为Location-Based用户强制实施呼叫路由，请设置用户的呼叫策略以防止 PSTN 收费绕过。 为此，请打开呼叫 **策略中的** "防止绕过收费"设置。
 
-若要了解有关详细信息，请参阅[调用 Teams](teams-calling-policy.md)中的策略。
+有关详细信息，请参阅在 中[调用Teams。](teams-calling-policy.md)
 
 ## <a name="using-powershell"></a>使用 PowerShell
 
@@ -93,7 +93,7 @@ ms.locfileid: "58523813"
     
     将 PSTN 使用情况分配到语音路由策略时，请确保执行下列操作之一：
     - 使用与使用站点本地 PSTN 网关的语音路由关联的 PSTN 使用情况
-    - 使用与使用 PSTN 网关的语音路由关联的 PSTN 使用情况，该网关位于Location-Based不需要路由限制的区域。
+    - 使用与使用 PSTN 网关的语音路由关联的 PSTN 使用Location-Based不需要任何路由限制。
 
     本示例将创建两个新的语音路由策略，并为其分配 PSTN 使用情况。 
 
@@ -148,9 +148,9 @@ ms.locfileid: "58523813"
     ```
     有关详细信息，请参阅配置 [直接路由](direct-routing-configure.md)。
     
-2. 使用 [Set-CSOnlinePSTNGateway](/powershell/module/skype/set-csonlinepstngateway?view=skype-ps) cmdlet 为需要强制实施路由Location-Based网关启用路由。 
+2. 使用 [Set-CSOnlinePSTNGateway](/powershell/module/skype/set-csonlinepstngateway?view=skype-ps) cmdlet 为Location-Based网关启用路由路由。 
 
-    启用Location-Based路由到将呼叫路由到 PSTN 网关的网关，将呼叫路由到 PSTN，并关联网关所在的网络站点。
+    启用Location-Based路由到将呼叫路由到 PSTN 的 PSTN 网关的网关，并关联网关所在的网络站点。
 
     ```PowerShell
     Set-CSOnlinePSTNGateway -Identity <gateway configuration ID> -GatewaySiteLbrEnabled $true -GatewaySiteID <site ID> 
@@ -175,7 +175,7 @@ ms.locfileid: "58523813"
     GatewaySiteLbrEnabled: $false 
     ```
 
-### <a name="enable-location-based-routing-for-calling-policies"></a>为Location-Based启用路由
+### <a name="enable-location-based-routing-for-calling-policies"></a>启用Location-Based策略的路由
 
 若要为Location-Based用户强制实施语音路由，请设置用户的语音策略以防止 PTSN 收费绕过。 
 

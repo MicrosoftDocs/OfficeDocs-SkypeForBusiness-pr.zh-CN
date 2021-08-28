@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Hybrid
 - M365-voice
@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: 在停用本地环境之前迁移Skype for Business应用程序终结点。
-ms.openlocfilehash: f655c232e8502e6309f57ce88af6ca0eebce9a43
-ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
+ms.openlocfilehash: 2968cdb5ecec3bffb22fffaf43c77e97ab8004d1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58406971"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583416"
 ---
 # <a name="migrate-hybrid-application-endpoints-before-decommissioning-your-on-premises-environment"></a>在停用本地环境之前迁移混合应用程序终结点
 
@@ -41,18 +41,18 @@ ms.locfileid: "58406971"
 
 ## <a name="migrate-all-required-hybrid-application-endpoints-from-on-premises-to-online"></a>将所有必需的混合应用程序终结点从本地迁移到联机
 
-在可以将这些终结点移动到联机状态之前，必须确保已更新 DNS 记录Microsoft 365终结点使用的所有 sip 域的 DNS 记录。 请注意，一旦将 DNS 更新为指向Microsoft 365，在您完成此步骤之前，将无法再发现任何现有的混合应用程序终结点。 由于此步骤 (DNS 记录指向本地) 无法创建联机资源帐户，因此您应计划在同一维护窗口中执行步骤 2 和步骤 3。 有关详细信息，请参阅 [禁用混合配置](cloud-consolidation-disabling-hybrid.md)。
+在可以将这些终结点移动到联机状态之前，必须确保已更新 DNS 记录Microsoft 365终结点使用的所有 sip 域的 DNS 记录。 请注意，一旦将 DNS 更新为指向Microsoft 365，在您完成此步骤之前，任何现有的混合应用程序终结点将无法再被发现。 由于此步骤 (创建联机资源帐户) 如果 DNS 记录指向本地，则不应在同一维护窗口中执行步骤 2 和步骤 3。 有关详细信息，请参阅 [禁用混合配置](cloud-consolidation-disabling-hybrid.md)。
 
-1. 通过执行以下本地部署和 PowerShell 命令检索和导出Skype for Business Server应用程序终结点设置：
+1. 通过执行以下 PowerShell 命令本地混合应用程序终结点设置来检索Skype for Business Server导出这些设置：
 
    ```PowerShell
    Get-CsHybridApplicationEndpoint|select Sipaddress, DisplayName, ApplicationID, LineUri |Export-Csv -Path "c:\backup\HybridEndpoints.csv"
    ```
-2. 在[部署中新建](/microsoftteams/manage-resource-accounts)资源帐户Microsoft 365许可证，以替换现有的内部部署混合应用程序终结点。
+2. 在"[管理中心](/microsoftteams/manage-resource-accounts)"Microsoft 365并许可新的资源帐户，以替换现有的本地混合应用程序终结点。
 
 3. 将新的资源帐户与现有的混合应用程序终结点关联。
 
-4. 通过执行以下 PowerShell 命令中的本地混合应用程序终结点中定义Skype for Business Server电话号码：
+4. 通过执行以下本地部署和 PowerShell 命令删除在本地混合应用程序终结点Skype for Business Server电话号码：
 
    ```PowerShell
    Get-CsHybridApplicationEndpoint -Filter {LineURI -ne $null} | Set-CsHybridApplicationEndpoint -LineURI ""

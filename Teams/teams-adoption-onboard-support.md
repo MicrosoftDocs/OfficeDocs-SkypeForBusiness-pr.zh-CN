@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 使用在线培训资源，让支持人员加入采用实验Teams阶段。
 f1.keywords:
@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: afc949e71292f88bbd5d955349782938b724bdae94806339d05ddb404aafaf76
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0f45a3a8e1538032ffffe3fbee6bc94d093889a1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280537"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583566"
 ---
 # <a name="onboard-support-for-microsoft-teams"></a>为 Microsoft Teams 上线支持
 
-若要确保早期采用者团队和冠军团队在开始使用 Teams 时获得适当的支持，请与支持人员会面并查看Teams。 支持组织的关键成员可能希望加入早期采用者计划。 鼓励在其自己的Teams使用资源。 使用我们的在线培训资源，让他们完成产品的基本载入。  
+若要确保早期采用者团队和冠军团队在开始使用 Teams 时获得适当的支持，请与支持人员会面，并查看团队Teams。 支持组织的关键成员可能希望加入早期采用者计划。 鼓励在其自己的Teams方案中使用自定义配置。 使用我们的在线培训资源，让他们完成产品的基本载入。  
 
 - [基础 - Microsoft Teams](https://youtu.be/V6B4KraD-FM)
 - [故障排除Teams](https://youtu.be/0KNh9KNpXcA)

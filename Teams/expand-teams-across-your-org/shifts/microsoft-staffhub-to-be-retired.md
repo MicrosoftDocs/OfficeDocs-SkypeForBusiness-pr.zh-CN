@@ -11,19 +11,19 @@ search.appverid: MET150
 description: 查找有关 Microsoft StaffHub 停用以及转换到 Microsoft StaffHub 中的 Shifts 应用的常见问题Microsoft Teams。
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 07e2b94b1c4dea84136a2faad5748fcc412e4097
-ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
+ms.openlocfilehash: ef05d7cf25f015932f55491368ed8fd4f3131692
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "58523793"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584576"
 ---
 # <a name="microsoft-staffhub-has-been-retired"></a>Microsoft StaffHub 已停用
 
@@ -92,7 +92,7 @@ Shifts iOS 和 Android 应用之间的核心功能相同。 两个应用之间�
 Shifts 适用于所有Teams浏览器，包括最新版本的 Microsoft Edge、Internet Explorer、Google Chrome 和 Mozilla Firefox。 有关详细信息，请参阅获取[客户端Teams。](../../get-clients.md)
 
 > [!Note]
-> Microsoft 365应用和服务不支持 2021 年 8 月 17 Internet Explorer 11 日 (Microsoft Teams将不支持从 202) 0 年 11 月 30 日到 2020 年 11 月 30 日之前Internet Explorer 11 日。 [了解详细信息](https://aka.ms/AA97tsw)。 请注意，Internet Explorer 11 将保留为受支持的浏览器。 Internet Explorer 11 是 Windows 操作系统的一个组件，它遵循[](/lifecycle/faq/internet-explorer-microsoft-edge)安装它的产品的生命周期策略。 
+> Microsoft 365应用和服务将不支持 2021 年 8 月 17 Internet Explorer Internet Explorer 11 日 (Microsoft Teams将不支持 2020 年 11 月 30) 年 11 月 30 日之前 11 日。 [了解详细信息](https://aka.ms/AA97tsw)。 请注意，Internet Explorer 11 将保留为受支持的浏览器。 Internet Explorer 11 是 Windows 操作系统的一个组件，它遵循[](/lifecycle/faq/internet-explorer-microsoft-edge)安装它的产品的生命周期策略。 
 
 #### <a name="what-languages-does-shifts-support"></a>Shifts 支持哪些语言？
 
@@ -114,19 +114,19 @@ Shifts 数据存储在北美和西欧的数据中心的 Azure 中。 SharePoint�
 
 #### <a name="what-licenses-do-i-need-for-teams"></a>需要哪些许可证Teams？
 
-每个用户必须具有活动许可证Microsoft 365或Office 365计划的许可证，并且必须分配有一个Teams许可证。 
+每个用户必须具有有效Microsoft 365或Office 365计划的许可证，并且必须分配有一个Teams许可证。 
 
 #### <a name="how-do-i-enable-teams-in-my-organization"></a>如何在组织中启用Teams？
 
-默认情况下，Teams所有组织启用此配置。 将Teams许可证分配给用户，以控制个人对Teams。 有关详细信息，请参阅[在Teams启用用户访问权限](../../Office-365-set-up.md)和管理用户[对 Teams。](../../user-access.md)
+默认情况下，Teams所有组织启用此功能。 向用户Teams许可证，以控制个人对Teams。 有关详细信息，请参阅[在Teams启用用户访问权限](../../Office-365-set-up.md)和管理用户[对 Teams。](../../user-access.md)
 
-#### <a name="what-if-i-currently-have-skype-for-business-enabled-in-my-organization-but-not-teams"></a>如果我当前在组织中启用了Skype for Business，但没有启用此功能，Teams？
+#### <a name="what-if-i-currently-have-skype-for-business-enabled-in-my-organization-but-not-teams"></a>如果我当前在组织中启用了Skype for Business但尚未启用此功能，Teams？
 
-Teams支持与 Skype for Business 共存。 有关详细信息，请参阅了解[Teams](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md)和 Skype for Business 共存和互操作性，以及将 Teams 与 Skype for Business 一起用于组织的[迁移和互操作性Skype for Business。](../../migration-interop-guidance-for-teams-with-skype.md)
+Teams支持与 Skype for Business 共存。 有关详细信息，请参阅了解[Teams](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md)和 Skype for Business 共存和互操作性，以及将 Teams 与 Skype for Business 一起用于[组织的迁移和互操作性Skype for Business。](../../migration-interop-guidance-for-teams-with-skype.md)
 
 #### <a name="does-each-user-need-to-have-a-microsoft-365-or-office-365-account-or-azure-active-directory-azure-ad-account"></a>每个用户是否需要拥有 Azure AD Microsoft 365帐户Office 365帐户Azure Active Directory (帐户) 帐户？
 
-是的，在 Teams 内使用 Teams 和 Shifts 的每个经理和团队成员必须具有 Microsoft 365 或 Office 365 帐户 (Azure AD) ，并且必须分配有效的许可证。
+是的，在 Teams 内使用 Teams 和 Shifts 的每个经理和团队成员必须具有 Microsoft 365 或 Office 365 帐户 (Azure AD) 并且必须分配有效的许可证。
 
 #### <a name="can-i-export-shift-schedules-from-shifts"></a>能否从 Shifts 导出排班计划？
   
@@ -138,9 +138,9 @@ Teams支持与 Skype for Business 共存。 有关详细信息，请参阅了解
 
 #### <a name="what-powers-the-file-sharing-capability-in-teams-where-are-files-stored"></a>哪些功能为文件共享功能提供Teams？ 文件存储在何处？
 
-文件共享功能是管理员向团队成员分发文件的功能，由 SharePoint Online 提供。 创建团队后，Microsoft 365自动为此团队预配组。
+文件共享功能是管理员向团队成员分发文件的功能，由 SharePoint Online 在后端提供。 创建团队后，Microsoft 365自动为此团队预配组。
 
-有关详细信息，请参阅如何SharePoint [Online OneDrive for Business如何Teams。](../../SharePoint-OneDrive-interact.md)
+有关详细信息，请参阅如何SharePoint Online OneDrive for Business[如何Teams。](../../SharePoint-OneDrive-interact.md)
  
 #### <a name="is-there-integration-between-shifts-and-the-outlook-calendar-can-i-export-a-schedule-to-a-calendar"></a>Shifts 和日历日历之间Outlook？ 能否将计划导出到日历？
  
@@ -154,7 +154,7 @@ Teams支持与 Skype for Business 共存。 有关详细信息，请参阅了解
 
 #### <a name="what-powershell-controls-are-available-for-teams"></a>哪些 PowerShell 控件可用于Teams？
 
-可以通过 Teams PowerShell 模块Microsoft Teams PowerShell 模块来管理Skype for Business。 有关详细信息，请参阅[PowerShell Teams概述](../../teams-powershell-overview.md)。 目前，没有可用于管理 Shifts 的特定 PowerShell cmdlet。  
+通过 Teams PowerShell 模块Microsoft Teams PowerShell 模块Skype for Business管理数据。 有关详细信息，请参阅[PowerShell Teams概述](../../teams-powershell-overview.md)。 目前，没有可用于管理 Shifts 的特定 PowerShell cmdlet。  
 
 如果对此感兴趣，请通过[UserVoice](https://microsoftteams.uservoice.com/forums/555103-public-preview/category/182881-developer-platform)上的 Teams反馈门户向我们发送请求。
 

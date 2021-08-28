@@ -10,7 +10,7 @@ ms.reviewer: svemu
 f1.keywords:
 - NOCSH
 - ms.teamsadmincenter.analyticsandreports.overview
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -18,25 +18,25 @@ description: 本文介绍在 Teams 管理中心中可用的Microsoft Teams报表
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 362dce90521cb5fe948735f7e8a435e5f158ed3e
-ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
+ms.openlocfilehash: 02353f540a3739f46e8e693ab4e83141b0bdfd3b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "58523823"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583546"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft Teams 分析和报告
 
-新的分析和报告体验Microsoft Teams管理中心提供Microsoft Teams体验。 可以运行不同的报表来深入了解组织中用户如何使用 Teams。 例如，你可以看到多少用户通过通道和聊天消息进行通信，以及他们用于连接到Teams。 组织可以使用报告中的信息更好地了解使用模式、帮助做出业务决策，以及告知培训和沟通工作。
+Microsoft Teams管理中心Microsoft Teams新的分析和报告体验。 可以运行不同的报告来深入了解组织中用户如何使用 Teams。 例如，你可以看到多少用户通过通道和聊天消息进行通信，以及他们用于连接到Teams。 组织可以使用报告中的信息更好地了解使用模式、帮助做出业务决策，以及告知培训和沟通工作。
 
 ## <a name="how-to-access-the-reports"></a>如何访问报表
 
-若要访问报表，您必须是 Microsoft 365 或 Office 365 中的全局管理员、Microsoft 365 或 Office 365 中的全局Teams管理员或 Skype for Business 管理员。若要详细了解管理员Teams以及每个管理员角色可以访问哪些报告，请参阅使用 Teams[管理员角色管理Teams。](../using-admin-roles.md)
+若要访问报表，您必须是 Microsoft 365 或 Office 365 中的全局管理员、Microsoft 365 或 Office 365 中的全局Teams管理员或 Skype for Business 管理员。若要详细了解Teams角色以及每个管理员角色可以访问的报告，请参阅使用 Teams[管理员角色管理Teams。](../using-admin-roles.md)
 
-转到Microsoft Teams管理中心，在左侧导航栏中，选择"分析&报表"，然后在"报表"下选择要运行的报表。  
+转到Microsoft Teams管理中心，在左侧导航栏中，选择"分析&报表"，然后在"报表"下选择要运行的报表。 
 
 > [!NOTE]
-> Microsoft Teams 管理中心中的报表独立于 Teams 中组报表Microsoft 365活动Microsoft 365 管理中心。 有关活动报告中的活动报告Microsoft 365 管理中心，请参阅Teams[中的活动Microsoft 365 管理中心](../teams-activity-reports.md)
+> Microsoft Teams管理中心中的报表独立于 Teams 活动报告，这些报表是 Microsoft 365 报表的Microsoft 365 管理中心。 有关活动报告中的活动报告Microsoft 365 管理中心，请参阅Teams[中的活动Microsoft 365 管理中心](../teams-activity-reports.md)
 
 ## <a name="teams-reporting-reference"></a>Teams报告参考
 
@@ -61,13 +61,13 @@ ms.locfileid: "58523823"
 
 ## <a name="make-the-user-specific-data-anonymous"></a>使用户特定的数据匿名
 
-若要使用户活动Teams数据并Teams设备使用情况报告匿名，你必须是全局管理员。 这会隐藏报表及其导出显示名称标识信息，例如电子邮件、电子邮件和 AAD ID。
+若要使用户活动Teams设备使用情况报告匿名Teams，您必须是全局管理员。 这会在报表及其导出中隐藏显示名称、电子邮件和 AAD ID 等可识别信息。
 
-1. 在Microsoft 365 管理中心中，转到 \> **"设置"设置"，在**"服务 **"** 选项卡下，选择"报表 **"。**
+1. 在Microsoft 365 管理中心，转到 **"设置** Org 设置"，在"服务" \> **选项卡** 下，选择"报表 **"。**
     
 2. 选择 **"报告**"，然后选择"**显示匿名标识符"。** 此设置同时应用于管理中心Microsoft 365 管理中心使用情况Teams报表。
   
 3. 选择"**保存更改"。**
 
 > [!NOTE]
-> 启用此设置将取消标识用户活动[Teams和设备使用情况](user-activity-report.md)Teams[报告中](device-usage-report.md)的信息。 它不会影响管理中心内提供的其他Teams报告。
+> 启用此设置将取消标识用户活动Teams[和设备](user-activity-report.md)使用情况Teams[中的信息](device-usage-report.md)。 它不会影响管理中心内提供的其他Teams报告。

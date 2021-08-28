@@ -9,21 +9,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e9edc23c-8ce8-4ab8-8786-9d22e1e51e14
-description: 摘要：了解会议诊断报告在Skype for Business Server。
-ms.openlocfilehash: 31410ec98e3902e3ab64967061611e5c94a132258fca0a87a5332efdf0057a21
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 摘要：了解会议诊断报告Skype for Business Server。
+ms.openlocfilehash: 578f4f2a60ca5dd1706d3b366e4decc35effeb7b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328147"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630636"
 ---
 # <a name="conference-diagnostic-report-in-skype-for-business-server"></a>会议诊断报告Skype for Business Server
  
 **摘要：** 了解会议诊断报告在Skype for Business Server。
   
-会议诊断报告提供有关所有会议会话成功和失败的信息。 请注意，Skype for Business Server区分不同类型的失败：
+会议诊断报告提供有关所有会议会话成功和失败的信息。 请注意Skype for Business Server区分不同类型的失败：
   
 - **预期失败**。预期失败通常仅是大多数技术意义上的失败。例如，假定有人启动会议，但在任何人可加入前挂起。技术上的失败：会议已启动，但没有完成。但是，以下是预期发生的失败：如果任何人可加入前组织取消会议，则将不会预期会议要完成。
     
@@ -39,7 +39,7 @@ ms.locfileid: "54328147"
   
 ## <a name="accessing-the-conference-diagnostic-report"></a>访问会议诊断报告
 
-可从监控报告主页访问会议诊断报告。 可以通过单击以下任一[指标Skype for Business Server](failure-distribution-report.md)中访问故障分布报告：
+可从监控报告主页访问会议诊断报告。 可以通过单击下列任一[指标Skype for Business Server](failure-distribution-report.md)报告中的故障分布报告：
   
 - 意外失败量
     
@@ -47,7 +47,7 @@ ms.locfileid: "54328147"
     
 ## <a name="making-the-best-use-of-the-conference-diagnostic-report"></a>充分利用会议诊断报告
 
-会议诊断报告包括一系列图形。 图形中显示的每个列实际是个超链接。 如果单击某个列，您将向下钻取到该时间段和该[Skype for Business Server中的故障](failure-distribution-report.md)分布报告。
+会议诊断报告包括一系列图形。 图形中显示的每个列实际是个超链接。 如果单击某个列，您将向下钻取到该时间段Skype for Business Server[以及该](failure-distribution-report.md)会议类型的故障分布报告。
   
 ## <a name="filters"></a>筛选器
 

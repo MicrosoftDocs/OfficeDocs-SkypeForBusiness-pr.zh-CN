@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 336ef724-ab2f-4215-b689-60248a90917f
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: 0c149817bb7e8e11a96c6b91c787aa6b73e1f4cecd64fc8ccc840f409a6f1e69
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 735425b7e6cc5595592fbbc680afefe094967943
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300168"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608449"
 ---
 # <a name="external-access-policy"></a>外部访问策略
 

@@ -13,19 +13,19 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Reporting
 - O365E_ReportsS4BPartActivity
 description: 'Learn how to get the Skype for Business Conference Participant Activity report, and how to interpret and customize it. '
-ms.openlocfilehash: 75e19e665cef14c2b06202368948b0ab19e2836a987552634d72e84bf6e6527a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: fddc5508897349b43bf434b1cd8cb977e1c6cb8e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342687"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584386"
 ---
 # <a name="conference-participant-activity-report"></a>会议参与者活动报告
 
@@ -38,7 +38,7 @@ ms.locfileid: "54342687"
 此报告以及其他会议Skype for Business一起提供有关整个组织的会议活动的详细信息。 当你为组织进行调查、规划及执行其他业务决策时，这些详细信息非常有用。
   
 > [!NOTE]
-> 以管理员角色登录到 Skype for Business时，可以看到所有 Microsoft 365 管理中心。 
+> 以管理员登录 Skype for Business时，可以看到所有报告Microsoft 365 管理中心。 
   
 ## <a name="how-to-get-to-the-skype-for-business-conference-participant-report"></a>如何访问 Skype for Business 会议参与者报告
 
@@ -49,10 +49,10 @@ ms.locfileid: "54342687"
   
 ## <a name="interpret-the-skype-for-business-conference-participant-activity-report"></a>解释 Skype for Business 会议参与者活动报告
 
-![Skype参与者活动报告](../images/a5fb6a3f-d8bc-402e-850e-87a75fbc2546.PNG)
+![Skype会议参与者活动报告](../images/a5fb6a3f-d8bc-402e-850e-87a75fbc2546.PNG)
   
 ***
-![第一](../images/sfbcallout1.png)<br/>可以查看" **Skype for Business 会议参与者活动**"报告以了解过去 7 天、30 天、90 天或 180 天的趋势。 但是，如果单击报告中的某一天，则表 (请参阅数字 7) 将显示 30 天的数据，到该日期为止 (请参阅报告生成时间的第 2) 个数字。
+![第一](../images/sfbcallout1.png)<br/>可以查看" **Skype for Business 会议参与者活动**"报告以了解过去 7 天、30 天、90 天或 180 天的趋势。 但是，如果单击报告中的特定日期，则表 (请参阅数字 7) 将显示 30 天的数据，截至日期 (请参阅报告生成时的第 2) 个数字。
 > [!NOTE]
 > 如果单击特定日期的详细信息，该表将只显示报告生成日期之前 30 天的数据。
      
@@ -63,7 +63,7 @@ ms.locfileid: "54342687"
 ***
 ![第四](../images/sfbcallout4.png)<br/>使用" **用户**"图表上的交互式图表数据可了解使用趋势并查看参与组织中正在举行的会议的单独用户数。它将显示用户总数以及所组织的 **即时消息**、 **音频/视频**、 **应用程序共享**、 **Web** 和 **拨入/拨出（第三方）** 会议的类型。
 ***
-![第五](../images/sfbcallout5.png)<br/>使用"分钟数"图表上的交互式图表数据可了解使用趋势并查看用户在使用音频/视频以及拨入和拨出（Microsoft 作为音频会议提供商）组织会议时所使用的分钟数。 它将显示在有人参与的会议中使用的 **音频/视频** 总分钟数。
+![第五](../images/sfbcallout5.png)<br/>使用"分钟数"图表上的交互式图表数据，了解使用趋势并查看用户在使用音频/视频以及拨入和拨出（Microsoft 作为音频会议提供商）组织会议时所使用的分钟数。 它将显示在有人参与的会议中使用的 **音频/视频** 总分钟数。
 ***
 ![第六](../images/sfbcallout6.png)<br/>你可以通过单击图例上的项目筛选你在图表上看到的系列。例如，在" **活动**"图表中，通过单击或点击" **即时消息**"、" **音频/视频**"、" **应用程序共享**"、" **Web**"和" **拨入/拨出(第三方)**"，可以只查看与各项相关的信息。更改此选项不会更改网格表中的信息。 
 ***
@@ -98,15 +98,15 @@ ms.locfileid: "54342687"
     
 - [Skype for Business设备使用情况报告](device-usage-report.md)你可以查看设备，包括Windows操作系统和移动设备，这些设备已安装Skype for Business应用，并使用它进行即时消息和会议。
     
-- [Skype for Business组织者活动报告](conference-organizer-activity-report.md)可以看到有多少用户正在组织使用即时消息、音频/视频、应用程序共享、Web、拨入/拨出 - 第三方和拨入/拨出 -Microsoft 的会议。
+- [Skype for Business组织者活动报告](conference-organizer-activity-report.md)你可以看到有多少用户正在组织使用即时消息、音频/视频、应用程序共享、Web、拨入/拨出 - 第三方和拨入/拨出 -Microsoft 的会议。
     
 - [Skype for Business对等活动报告](peer-to-peer-activity-report.md)可以看到有多少用户使用即时消息、音频/视频、应用程序共享和传输文件。
     
 - [Skype for Business用户阻止的报告](users-blocked-report.md)可以看到组织中被阻止进行 PSTN 呼叫的用户。
     
-- [Skype for Business PSTN 使用情况报告](pstn-usage-report.md)可以看到入站/出站呼叫花费的时间以及这些调用的成本。
+- [Skype for Business PSTN 使用情况报告](pstn-usage-report.md)可以看到在入站/出站调用中花费的分钟数以及这些调用的成本。
     
-- [Skype for Business PSTN 分钟](pstn-minute-pools-report.md)数池报告，可以看到组织内部当月使用的分钟数。
+- [Skype for Business PSTN](pstn-minute-pools-report.md)分钟数池报告，可以看到组织内部当月使用的分钟数。
 
 - [Skype for Business会话详细信息报告](session-details-report.md)可以看到有关单个用户的呼叫体验的详细信息。
     

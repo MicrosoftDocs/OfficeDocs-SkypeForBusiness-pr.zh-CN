@@ -1,5 +1,5 @@
 ---
-title: 规划媒体旁路Skype for Business
+title: 规划媒体中的媒体旁路Skype for Business
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -9,21 +9,21 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 9ea090b3-f607-46f7-97dd-2510052524e5
 description: 规划媒体中媒体旁路Skype for Business Server 企业语音。 包括与 CAC 呼叫允许控制 (的) 。
-ms.openlocfilehash: 386272fd2a20d2d780f146c8eb03d75878cdf69cdfa27145d42c0421ba4ba91f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7bf6be9a279d5b5f90da0274b8d271767be87f36
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284699"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630436"
 ---
-# <a name="plan-for-media-bypass-in-skype-for-business"></a>规划媒体旁路Skype for Business
+# <a name="plan-for-media-bypass-in-skype-for-business"></a>规划媒体中的媒体旁路Skype for Business
 
 规划媒体中媒体旁路Skype for Business Server 企业语音。 包括与 CAC 呼叫允许控制 (的) 。
 
@@ -41,7 +41,7 @@ ms.locfileid: "54284699"
 
 ![语音 CAC 媒体旁路连接强制](../../media/Plan_CS_VoiceCAC_enforcementofconnectionstoPSTN.jpg)
 
-如果希望将部署的中介服务器数目降至最低，媒体绕过非常有用。 通常会在中央站点部署中介服务器池，中介服务器池将控制分支站点的网关。 启用媒体旁路后，来自分支站点中客户端的公用电话交换网 (PSTN) 呼叫的媒体可直接通过这些站点中的网关流动。 Skype for Business Server配置出站呼叫路由企业语音策略，以便从分支站点上的客户端发送的 PSTN 呼叫路由到相应的网关。
+如果希望将部署的中介服务器数目降至最低，媒体绕过非常有用。 通常会在中央站点部署中介服务器池，中介服务器池将控制分支站点的网关。 启用媒体旁路后，来自分支站点中客户端的公用电话交换网 (PSTN) 呼叫的媒体可直接通过这些站点中的网关流动。 Skype for Business Server配置出站呼叫路由和企业语音策略，以便来自分支站点客户端的 PSTN 呼叫路由到相应的网关。
 
 Wi-Fi 网络通常会比有线网络丢失更多的数据包。通常网关无法恢复这些丢失的数据包。因此，我们建议，在决定是否对无线子网启用绕过功能之前，先评估 Wi-Fi 网络的质量。同时，还需要在降低延迟和恢复丢失的数据包之间取得平衡。RTAudio 是一种可用于未绕过中介服务器的呼叫的编解码器，它更适合处理数据包丢失。
 
@@ -92,7 +92,7 @@ Wi-Fi 网络通常会比有线网络丢失更多的数据包。通常网关无�
 
 - 同时启用 CAC 和媒体旁路。必须将媒体旁路设置为“使用站点和区域信息”。该站点和区域信息与用于 CAC 的信息相同。
 
-    如果启用 CAC，则不能选择“始终绕过”，反之亦然，因为两种配置相互排斥。 即两者中只有一个可应用于任意给定的 PSTN 呼叫。 首先，将执行检查以确定是否对呼叫应用媒体旁路。 如果是，则不使用 CAC。 这样可行，因为如果可以对呼叫使用旁路，则根据定义将使用不需要 CAC 的连接。 如果无法将绕过应用于呼叫 (即，如果客户端和网关的绕过 ID 与) 不匹配，则 CAC 将应用于呼叫。
+    如果启用 CAC，则不能选择“始终绕过”，反之亦然，因为两种配置相互排斥。 即两者中只有一个可应用于任意给定的 PSTN 呼叫。 首先，将执行检查以确定是否对呼叫应用媒体旁路。 如果是，则不使用 CAC。 这样可行，因为如果可以对呼叫使用旁路，则根据定义将使用不需要 CAC 的连接。 如果无法对呼叫应用旁路 (，即，如果客户端和网关的绕过 ID 与) 不匹配，则 CAC 将应用于呼叫。
 
 - 未启用 CAC 并且将媒体旁路设置为“始终绕过”。
 
@@ -102,7 +102,7 @@ Wi-Fi 网络通常会比有线网络丢失更多的数据包。通常网关无�
 
     在启用“使用站点和区域信息”的配置中，绕过确定基本上以相同方式工作，不论是否启用 CAC。 也就是说，对于任何给定的 PSTN 呼叫，客户端的子网将映射到特定站点，并提取该子网的绕过 ID。 同样，网关的子网将映射到特定站点，并提取该子网的绕过 ID。 仅当两个绕过 ID 相同时，才会对呼叫执行绕过。 如果不同，将不会发生媒体旁路。
 
-    如果要使用站点和区域配置控制绕过决定，那么即使在全局范围内禁用 CAC，也需要为每个站点和链接定义带宽策略。 带宽实际值或其形式的方式并不重要。 最终目标是让系统自动计算不同的绕过 ID，以便与连接不佳的不同区域设置关联。 根据定义，定义带宽限制是指链接连接不佳。
+    如果要使用站点和区域配置控制绕过决定，那么即使在全局范围内禁用 CAC，也需要为每个站点和链接定义带宽策略。 带宽实际值形式的方式并不重要。 最终目标是让系统自动计算不同的绕过 ID，以便与连接不佳的不同区域设置关联。 根据定义，定义带宽限制是指链接连接不佳。
 
 - 启用 CAC，但未启用媒体旁路。该配置仅适用于所有网关和 IP-PBX 均连接不佳，或不满足媒体旁路的其他要求的情况。有关媒体旁路的要求的详细信息，请参阅[Requirements for Media Bypass](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-media-bypass)。
 

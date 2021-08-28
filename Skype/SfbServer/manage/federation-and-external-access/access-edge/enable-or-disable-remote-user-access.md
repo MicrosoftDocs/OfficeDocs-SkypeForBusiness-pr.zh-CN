@@ -13,18 +13,18 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
-description: 如果为远程用户启用远程用户访问，则受支持的远程用户通过 Internet 进行连接，并且不需要使用 VPN 进行连接，以便使用 Skype for Business Server。
-ms.openlocfilehash: 3b95796efbd8056092a24399f6faa7ccd3619b7168a2bb787436beeb3f78f4fc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.localizationpriority: medium
+description: 如果为远程用户启用远程用户访问，则受支持的远程用户通过 Internet 连接，并且不需要使用 VPN 进行连接，以便使用 Skype for Business Server 与内部用户进行协作。
+ms.openlocfilehash: c20f6891b463f44fdcd424ca870fbba0826d33bd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54313180"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608189"
 ---
 # <a name="enable-or-disable-remote-user-access-in-skype-for-business-server"></a>启用或禁用远程用户访问Skype for Business Server
 
-远程用户是组织内拥有持久 Active Directory 标识的用户。 远程用户通常在Skype for Business Server组织网络时，使用虚拟专用网络 (VPN) 从网络外部登录。 远程用户包括在家或在路上工作的员工以及其他远程工作者，如已被授予企业凭据的受信任供应商。 如果为远程用户启用远程用户访问，则受支持的远程用户通过 Internet 进行连接，并且不需要使用 VPN 进行连接，以便使用 Skype for Business Server。
+远程用户是组织内拥有持久 Active Directory 标识的用户。 当远程用户未连接到Skype for Business Server网络时，他们通常使用虚拟专用网络 (VPN) 从网络外部登录。 远程用户包括在家或在路上工作的员工以及其他远程工作者，如已被授予企业凭据的受信任供应商。 如果为远程用户启用远程用户访问，则受支持的远程用户通过 Internet 连接，并且不需要使用 VPN 进行连接，以便使用 Skype for Business Server 与内部用户进行协作。
 
 要支持远程用户访问，必须启用远程用户访问。启用远程用户访问即为整个组织启用。如果稍后要暂时或永久阻止远程用户访问，可以为组织将其禁用。可以使用本节中的步骤为组织启用或禁用远程用户访问。
 
@@ -51,7 +51,7 @@ ms.locfileid: "54313180"
 
 6.  单击“提交”。
 
-若要允许远程用户登录到运行 Skype for Business Server 的服务器，还必须至少配置一个外部访问策略以支持远程用户访问。 有关详细信息，请参阅[配置策略以控制远程用户访问Skype for Business Server。](../external-access-policies/configure-policies-to-control-remote-user-access.md)
+若要允许远程用户登录到运行 Skype for Business Server 的服务器，还必须至少配置一个外部访问策略以支持远程用户访问。 有关详细信息，请参阅[Configure policies to control remote user access in Skype for Business Server](../external-access-policies/configure-policies-to-control-remote-user-access.md)。
 
 
 ## <a name="enabling-or-disabling-remote-user-access-by-using-windows-powershell-cmdlets"></a>使用 cmdlet 启用或禁用Windows PowerShell用户访问
