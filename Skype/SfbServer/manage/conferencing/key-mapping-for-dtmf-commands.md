@@ -1,5 +1,5 @@
 ---
-title: 在部署中管理 DTMF 命令的Skype for Business Server
+title: 管理 DTMF 命令在Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -9,19 +9,19 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f91e80ee-a587-4a1b-ac8f-12fa102c098c
-description: 摘要：了解如何在 Skype for Business Server 中管理双音多频 (DTMF) 键Skype for Business Server。
-ms.openlocfilehash: 106cd301826792ec494df4d490a6b953baf3badd1740d9cfd2de12e6de966d09
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 摘要：了解如何在 Skype for Business Server 中管理双音多频 (DTMF) 键映射。
+ms.openlocfilehash: 10f1d6f0386e97d688e0b56b2605c194c0599ee5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276847"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592556"
 ---
-# <a name="manage-key-mapping-for-dtmf-commands-in-skype-for-business-server"></a>在部署中管理 DTMF 命令的Skype for Business Server
+# <a name="manage-key-mapping-for-dtmf-commands-in-skype-for-business-server"></a>管理 DTMF 命令在Skype for Business Server
  
-**摘要：** 了解如何在 Skype for Business Server 中管理双音多频 (DTMF) 键映射。
+**摘要：** 了解如何在 Skype for Business Server 中管理双音多频 (DTMF) 键Skype for Business Server。
   
 电话拨入式会议用户可以在电话小键盘上按键以执行双音多频 (DTMF) 命令。 通过 DTMF 命令，拨入会议的用户可以使用其电话上的小键盘控制会议设置（例如，将自己静音和取消静音，或者锁定和解锁会议）。 
   

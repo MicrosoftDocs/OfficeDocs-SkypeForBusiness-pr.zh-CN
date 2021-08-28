@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 6eacfa99-9759-4c13-aca3-8992c2ff2710
 description: 了解如何准备云连接器设备进行部署，以及如何与 电话系统 (PBX) 。
-ms.openlocfilehash: 58f9765f211a3961db8baf5929956feecf1eb4fd7e7744490cb21f1967dcb46f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 255b276ebb0d192f876d07e318cf94ccf3698a1f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340808"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589996"
 ---
 # <a name="prepare-your-cloud-connector-appliance"></a>准备云连接器设备
 
@@ -33,13 +33,13 @@ ms.locfileid: "54340808"
 本部分介绍如何获取云Skype for Business 云连接器版本文件、安装云连接器软件以及准备云连接器设备进行部署。 完成本节的所有步骤后，即可为单个站点或多个站点部署云连接器。 如果你有现有的云连接器部署，并且尚未升级到云连接器版本 2.1，请参阅升级到云连接器 [的新版本](upgrade-to-a-new-version-of-cloud-connector.md)。
 
 > [!NOTE]
-> Microsoft 支持云连接器版本 2.1 版当前版本。 如果配置了自动更新，云连接器将自动更新。 如果配置了手动更新，则需要在版本 2.1 发布后 60 天内升级到版本 2.1。 Microsoft 将在 2.1 版发布后的 60 天内支持早期版本，以便你有时间进行升级。 
+> Microsoft 支持云连接器版本 2.1 版当前版本。 如果配置了自动更新，云连接器将自动更新。 如果配置了手动更新，则需要在版本 2.1 发布后 60 天内升级到版本 2.1。 Microsoft 将在 2.1 版发布后的 60 天内支持以前的版本，以便你有时间进行升级。 
 
 > [!NOTE]
 > 对于云连接器版本 2.1 及更高版本，主机设备必须.NET Framework 4.6.1 或更高版本。 
 
 > [!IMPORTANT]
-> 若要成功部署，在运行 cmdlet 以配置Skype for Business 云连接器版本，请始终使用与启动的会话相同的控制台会话。 避免在部署和配置期间切换到不同的会话。 
+> 若要成功部署，在运行 cmdlet 以配置Skype for Business 云连接器版本，请始终使用与启动会话相同的控制台会话。 避免在部署和配置期间切换到不同的会话。 
 
 > [!NOTE]
 > 仅对部署中的第一个设备执行一些步骤：为站点目录创建共享、下载位以及从 Windows Server ISO 映像准备虚拟硬盘 (VHDX) 文件。 
@@ -57,15 +57,15 @@ ms.locfileid: "54340808"
 
 ## <a name="verify-the-installation-and-configure-the-environment"></a>验证安装并配置环境
 
-1. 以管理员角色打开 PowerShell 控制台，然后Skype for Business 云连接器版本 cmdlet 是否可用：
+1. 以管理员角色打开 PowerShell 控制台，并确认Skype for Business 云连接器版本 cmdlet 可用：
 
    ```powershell
    Get-Command *-Cc*
    ```
 
-    该命令应返回用于更新的 cmdlet Skype for Business 云连接器版本。
+    该命令应返回一个 cmdlet 列表Skype for Business 云连接器版本。
 
-2. VHD、SfBBits 和 VersionInfo 文件将存储在 **站点目录中**。
+2. VHD、SfBBits 和 VersionInfo 文件将存储在站点 **目录中**。
 
     可以通过以下 cmdlet 查找 **站点** 目录的位置：
 
@@ -79,7 +79,7 @@ ms.locfileid: "54340808"
 
    - 在每个站点中创建的第一个设备上创建。
 
-   - 其他主机服务器可访问的共享文件夹 (同一) 设备。
+   - 由其他主机服务器访问的共享文件夹 (一) 设备。
 
      若要将 **网站目录** 设置为默认位置，请运行以下 cmdlet：
 
@@ -91,7 +91,7 @@ ms.locfileid: "54340808"
 
     登录并部署站点中的每台设备时，请确保你的当前登录帐户对站点目录具有正确的 **访问权限**。
 
-3. 设备 **目录是** 证书的本地工作根目录Skype for Business 云连接器版本，以及保存外部证书、实例和日志的位置。 默认位置为：%USERPROFILE%\CloudConnector\ApplianceRoot。
+3. 设备 **目录** 是证书的本地工作根目录Skype for Business 云连接器版本，以及保存外部证书、实例和日志的位置。 默认位置为：%USERPROFILE%\CloudConnector\ApplianceRoot。
 
     若要查找设备目录 **的位置，** 请运行以下 cmdlet：
 
@@ -99,13 +99,13 @@ ms.locfileid: "54340808"
    Get-CcApplianceDirectory
    ```
 
-    若要将 **设备目录设置为** 默认位置，请运行以下 cmdlet：
+    若要将 **设备目录** 设置为默认位置，请运行以下 cmdlet：
 
    ```powershell
    Set-CcApplianceDirectory <File path>
    ```
 
-    设备目录应设置为设备上的本地文件夹。 应仅在开始部署 **之前设置** 设备Skype for Business 云连接器版本目录。 如果在部署后更改它，则需要重新部署主机服务器。
+    设备目录应设置为设备上的本地文件夹。 应仅在开始部署 **设备目录** 之前设置Skype for Business 云连接器版本目录。 如果在部署后更改它，则需要重新部署主机服务器。
 
     > [!IMPORTANT]
     > 设备目录 **的路径不得** 包含任何空格。
@@ -165,28 +165,28 @@ Export-CcConfigurationSampleFile
 
 示例模板存储在设备 **目录中**。
 
-使用环境的值更新后，将文件另存为CloudConnector.ini **设备目录中**。 你可以运行 **Get-CcApplianceDirectory** 来确定设备 **目录的路径**。
+使用环境的值更新该文件后，将文件CloudConnector.ini设备 **目录中**。 你可以运行 **Get-CcApplianceDirectory** 来确定设备 **目录的路径**。
 
 在更新.ini文件时，请考虑以下事项：
 
 > [!NOTE]
 > 本节并未讨论.ini文件的所有值，此处仅介绍有特别注意事项的值。 有关完整列表，请参阅 Plan [](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams) [for Skype for Business 云连接器版本](plan-skype-for-business-cloud-connector-edition.md)一节。 有关需要为其他设备或新站点更改哪些值的详细信息，请参阅主题部署云连接器中的多个站点中的高可用性[ (HA) ](deploy-multiple-sites-in-cloud-connector.md#BKMK_SingleSitecomparedtomulti-site)与多站点部署相比的单站点。 [](deploy-multiple-sites-in-cloud-connector.md) 
 
-- **SiteName：** 默认值为 **Site1**。 在部署云连接器之前，必须更新它，因为在运行 **Register-CcAppliance** 以将设备注册到现有站点或新站点时，该 cmdlet 将使用 **SiteName** 确定要注册的站点。
+- **SiteName：** 默认值为 **Site1**。 在部署云连接器之前，必须更新它，因为在运行 **Register-CcAppliance** 以将设备注册到现有或新站点时，该 cmdlet 将使用 **SiteName** 确定要注册的站点。
 
-     如果要将设备注册到新站点 **，SiteName** 的值必须唯一且不同于现有站点。 如果要将设备注册到现有站点，.ini 文件中 **SiteName** 的值必须与 Microsoft 365 或 Office 365 配置中定义的名称相匹配。 如果要将配置文件从一个站点复制到另一个站点，请确保相应地更新每个 **站点的 SiteName** 值。
+     如果要将设备注册到新站点 **，SiteName** 的值必须唯一且不同于现有站点。 如果要将设备注册到现有站点，.ini 文件中 **SiteName** 的值必须与 Microsoft 365 或 Office 365 配置中定义的名称相匹配。 如果要将配置文件从一个站点复制到另一个站点，请确保相应地更新每个 **站点的 SiteName** 的值。
 
 - **ServerName：** 服务器名称不应包含域名，且应限制为 15 个字符。
 
-- **HardwareType：** 如果未将此值设置为或保留为 null，则使用 **Normal** 的默认值。 如果计划部署云连接器的较大版本以支持每个主机 500 个并发呼叫，请使用 **Normal，** 如 Plan [for Skype for Business 云连接器版本 中所述](plan-skype-for-business-cloud-connector-edition.md)。 对于 **支持** 50 个并发呼叫的较小部署，请使用 Minimum。
+- **HardwareType：** 如果未将此值设置为或保留为 null，则使用 **Normal** 的默认值。 如果你计划部署云连接器的较大版本以支持每个主机 500 个并发呼叫，请使用 **Normal，** 如 Plan [for Skype for Business 云连接器版本 中所述](plan-skype-for-business-cloud-connector-edition.md)。 对于 **支持** 50 个并发呼叫的较小部署，请使用 Minimum。
 
-- **Internet/公司网络/管理虚拟交换机：** 添加已创建的虚拟交换机的名称。 对于管理虚拟交换机，保留默认值。 部署脚本将在部署开始时创建管理虚拟交换机，在部署完成后将其删除。
+- **Internet/公司网络/管理虚拟交换机：** 添加已创建的虚拟交换机的名称。 对于管理虚拟交换机，保留默认值。 部署脚本将在部署开始时创建管理虚拟交换机，部署完成后将其删除。
 
 - **ManagementIPPrefix：** "网络"部分中的 ManagementIPPrefix 必须是与其他内部 IP 不同的子网。 例如，如默认值所示，ManagementIPPrefix 为 192.168.213.0，而 AD IPAddress 为 192.168.0.238。
 
     部署脚本在每个虚拟机上创建管理网络适配器，分配管理 IP，并将其连接到管理虚拟交换机。 这使主机服务器可以通过此管理网络连接到和管理每台虚拟机。 部署完成后，将删除管理虚拟交换机。
 
-- **基本虚拟机特定配置：设置** 中的配置必须针对 **Convert-CcIsoToVhdx** cmdlet 进行配置。
+- **基本虚拟机特定配置：设置** 为 **Convert-CcIsoToVhdx** cmdlet 配置本节中的配置。
 
     在基本 VM 映像准备过程中，基本 VM 将连接到内部网络交换机。 以下设置对于 VM 能够访问 Internet 至关重要：
 
@@ -196,7 +196,7 @@ Export-CcConfigurationSampleFile
 
   - [网络]CorpnetDNSIPAddress：要分配给基本虚拟机的 DNS IP 地址。
 
-  - [网络]WSUSServer：Windows服务器更新服务的 IP 地址。
+  - [网络]WSUSServer：Windows服务器的 IP 地址。
 
   - [网络]WSUSStatusServer：Windows服务器更新服务状态服务器的 IP 地址。
 
@@ -222,7 +222,7 @@ Export-CcConfigurationSampleFile
 
   - 如果只有一个网关，请删除辅助网关的部分。 如果网关超过两个，请通过复制并粘贴现有部分，然后更新来创建其他部分。
 
-  - 确保网关网关的 IP 地址 (正确的) 端口。
+  - 确保网关网关的 IP 地址 (端口) 正确。
 
   - 要支持 PSTN 网关级别 HA，请离开辅助网关，并添加将使用的其他任何网关。 您可以复制并粘贴现有条目，然后更新它。
 
@@ -258,7 +258,7 @@ Start-CcDownload
 
 - [网络]CorpnetDNSIPAddress
 
-以管理员角色启动 PowerShell 控制台并运行以下 cmdlet，以将 ISO 映像转换为使用 VHD (虚拟) ：
+以管理员角色启动 PowerShell 控制台并运行以下 cmdlet，以将 ISO 映像转换为 VHD (虚拟) ：
 
 ```powershell
 Convert-CcIsoToVhdx -IsoFilePath <Windows ISO File Path, including file name>
@@ -277,7 +277,7 @@ Convert-CcIsoToVhdx -IsoFilePath <Windows ISO File Path, including file name>
 
 如果要部署多站点部署，则无需将每个站点的 ISO 转换为 VHD。 可以将为第一个站点创建的 VHDX 复制到第二个站点的主机服务器。
 
- 将文件复制到主机服务器上 ( **站点** 目录 \Bits\VHD 文件夹) ，文件名称相同，位于其他站点的主机服务器上。
+ 将文件复制到主机服务器上 (站点目录 \Bits\VHD 文件夹) ，并使用相同的文件名复制到其他站点的相同文件位置。
 
 ## <a name="set-the-powershell-execution-policy-to-remotesigned"></a>将 PowerShell 执行策略设置为 RemoteSigned
 
@@ -304,7 +304,7 @@ CceService 帐户是在部署期间Skype for Business 云连接器版本帐户�
 
 1. 通过运行 gpedit.msc 打开组策略编辑器。
 
-2. 在 **组策略编辑器** 中，导航到> System > UserProfile >在用户注销时不强制卸载用户注册表。 
+2. 在 **组策略编辑器** 中，导航到"> System > UserProfile >在用户注销时不强制卸载用户注册表。 
 
 3. 将它的值设置为 **Enabled**。
 
@@ -312,6 +312,6 @@ CceService 帐户是在部署期间Skype for Business 云连接器版本帐户�
 
 需要Microsoft 365 Office 365 Online Skype for Business 电话系统组织。 在尝试使用云连接器之前，请确保已设置和配置租户。
 
-某些Microsoft 365和Office 365设置步骤要求使用租户远程 PowerShell (TRPS) 配置 Microsoft 365 或 Office 365 组织。 **这应安装在主机服务器上。** 可以从：Skype for Business Online、Windows PowerShell Module 下载 PowerShell[的 Skype for Business Online 模块](https://www.microsoft.com/download/details.aspx?id=39366)。
+某些Microsoft 365和Office 365设置步骤要求使用租户远程 PowerShell (TRPS) 配置 Microsoft 365 或 Office 365 组织。 **这应安装在主机服务器上。** 可以从以下版本下载 Skype for Business Online 模块[：Skype for Business Online，Windows PowerShell模块](https://www.microsoft.com/download/details.aspx?id=39366)。
 
-为云连接器Skype for Business管理员帐户创建专用帐户，例如 CceOnlineManagmentAdministrator。 设备将将此帐户用于添加或删除设备、启用或禁用自动更新操作系统、启用或禁用二进制自动更新。 将该帐户的密码设置为永不过期，这样一来，你无需每次过期时都为服务更改密码。
+创建一个Skype for Business管理员帐户进行云连接器联机管理，例如 CceOnlineManagmentAdministrator。 设备将将此帐户用于添加或删除设备、启用或禁用自动更新操作系统、启用或禁用二进制自动更新。 将该帐户的密码设置为永不过期，这样一来，你无需每次过期时都为服务更改密码。

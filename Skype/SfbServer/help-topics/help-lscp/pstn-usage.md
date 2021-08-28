@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.VoiceUsageMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 08d7877d-0ef4-4630-b6b0-ee76cbe4ce25
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: 79f43bbeeeebfeb988dc85625539deb8b96f591e5ecf953ac0ec47f6eb87bca1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3d04f055cd29a432263b508453447d658af1aec4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315918"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592697"
 ---
 # <a name="pstn-usage"></a>PSTN 用法
 
@@ -28,8 +28,8 @@ ms.locfileid: "54315918"
 
 - [查看 2015 年 Skype for Business PSTN 用法记录](../../deploy/deploy-enterprise-voice/view-pstn-usage-records.md)
 
-- [Create or modify a voice policy and configure PSTN usage records in Skype for Business 2015](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)
+- [在 2015 年 10 月创建或修改语音策略和配置 PSTN 用法Skype for Business记录](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)
 
 - [修改语音策略和配置 PSTN 用法记录](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records)
 
-有关可以使用控制面板执行的不同过程的详细信息，Skype for Business Server Manage [Skype for Business Server 2015](../../manage/manage.md)。
+有关可以使用控制面板执行的不同过程的详细信息，请参阅 Manage [Skype for Business Server Skype for Business Server 2015](../../manage/manage.md)。

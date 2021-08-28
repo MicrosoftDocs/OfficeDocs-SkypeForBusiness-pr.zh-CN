@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -25,26 +25,26 @@ ms.custom:
 - Phone System
 - Calling Plans for Business and Microsoft Teams available for Moldova."
 - seo-marvel-mar2020
-description: 查找有关在 Microsoft 365 中Office 365哪些Skype for Business Microsoft Teams服务的信息。
-ms.openlocfilehash: ec4c3e920e335a0b92a67246c823e644b7bfa81d65a7067f9deba2dfe565ad9b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 查找有关在Microsoft 365 Office 365提供哪些Skype for Business Microsoft Teams服务的信息。
+ms.openlocfilehash: f7fe5633f7ca2756b8e6611f1c44fabc4ff8c0c8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322734"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589796"
 ---
 # <a name="availability-in-moldova"></a>在摩尔多瓦的可用性
 
 [查找其他国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或详细了解可以在哪些国家/地区使用音频会议和通话套餐。
 
-以下是适用于Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
+以下是适用于 Microsoft 365 Office 365 的 Skype for Business Microsoft Teams 服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是 [，仅按分钟](../audio-conferencing-pay-per-minute.md) 付费  <br/> |
-|是否自动分配音频会议的电话号码？  <br/> |弱  <br/> |
+|是否自动分配音频会议的电话号码？  <br/> |否  <br/> |
 |使用“呼叫我”功能的拨出功能  <br/> |需要通信信用额度  <br/> |
    
 ## <a name="phone-system"></a>电话系统
@@ -71,7 +71,7 @@ ms.locfileid: "54322734"
 |**功能**|**详细信息**|
 |:-----|:-----|
 |你可以获取哪些首都或大城市的收费电话号码？  <br/> |不适用  <br/> |
-|是否提供收费电话号码？  <br/> |弱  <br/> |
+|是否提供收费电话号码？  <br/> |否  <br/> |
 |是否提供免费电话号码？  <br/> |是  <br/> |
    
  如果你想要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../getting-service-phone-numbers.md)。

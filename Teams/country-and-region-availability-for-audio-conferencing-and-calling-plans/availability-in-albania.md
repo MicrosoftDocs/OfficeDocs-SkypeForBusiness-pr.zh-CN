@@ -15,7 +15,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: ea6b120874723e4fd562b029276b35d9c119dd15af1d1fc07610b21a529b08f2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a0bcffec1ad4e147abf0d0ca21877541dedd3dae
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54329197"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592346"
 ---
 # <a name="availability-in-albania"></a>阿尔巴尼亚的可用性
 
@@ -42,7 +42,7 @@ ms.locfileid: "54329197"
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是。 每分钟付费  <br/> |
-|是否自动分配音频会议的电话号码？  <br/> | 弱 |
+|是否自动分配音频会议的电话号码？  <br/> | 否 |
 |使用“呼叫我”功能的拨出功能  <br/> | 需要通信信用额度 <br/> |
    
 ## <a name="phone-system"></a>电话系统
@@ -70,9 +70,9 @@ ms.locfileid: "54329197"
 |:-----|:-----|
 |你可以获取哪些首都或大城市的收费电话号码？   | 地拉那 <br/> |
 |是否提供收费电话号码？  <br/> |是（[应要求](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)） <br/> |
-|免费电话号码是否可用？  <br/> |弱  <br/> |
+|免费电话号码是否可用？  <br/> |否  <br/> |
    
- 如果要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅获取音频会议的服务电话号码[Skype for Business Microsoft Teams。](../getting-service-phone-numbers.md)
+ 如果要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅获取电话和[Skype for Business Microsoft Teams。](../getting-service-phone-numbers.md)
   
 ## <a name="communications-credits"></a>通信点数
 

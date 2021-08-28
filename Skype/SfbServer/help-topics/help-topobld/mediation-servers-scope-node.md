@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.MediationServersScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e6da97ad-1546-4af8-b8e8-5a0053a1abea
 description: “中介池”节点列出了拓扑中的中介池。可以执行以下操作：
-ms.openlocfilehash: 26c0deff360b359c2f53c9d230c17f0288321b2a5c944cec9cd5a90b746d1403
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 74db8c3a41867d1aecef0fc44fe993cf39b2a363
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320364"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591198"
 ---
 # <a name="mediation-servers-scope-node"></a>中介服务器范围节点
  

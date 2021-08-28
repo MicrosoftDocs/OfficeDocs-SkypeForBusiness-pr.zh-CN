@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Reporting
-description: 新的Skype for Business管理中心报告"区域显示你的组织的呼叫和音频会议活动。 它使你能够钻取到报表，从而更细致地了解每个用户的活动。 例如，可以使用 PSTN Skype for Business报告查看组织内部当月使用的分钟数。
-ms.openlocfilehash: 02f2d2bad1bbf948dfe9b39c49c389423437fd05877811c647220df41502c558
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 新的Skype for Business管理中心报告"区域显示你组织的呼叫和音频会议活动。 它使你能够深入了解报表，从而更细致地了解每个用户的活动。 例如，可以使用 PSTN Skype for Business报告查看组织内部当月使用的分钟数。
+ms.openlocfilehash: 3c9999a642480442f25dddad9daca503ade7851a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342567"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592896"
 ---
 # <a name="pstn-minute-pools-report"></a>PSTN 分钟池报告
 
@@ -33,14 +33,14 @@ ms.locfileid: "54342567"
 >[!NOTE]
 >此报告仅适用于预览版客户。
 
-新的"Skype for Business中心报告"区域显示组织中呼叫和音频会议活动。 它使你能够钻取到报表，从而更细致地了解每个用户的活动。 例如，可以使用 **PSTN** Skype for Business报告查看组织内部当月使用的分钟数。
+新的Skype for Business管理中心 **报告**"区域显示你组织的呼叫和音频会议活动。 它使你能够深入了解报表，从而更细致地了解每个用户的活动。 例如，可以使用 **PSTN** Skype for Business报告查看组织内部当月使用的分钟数。
   
 有关更多 [可用报表，](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) 请查看报表概述。
   
 此报表以及其他Skype for Business一起提供有关整个组织活动的详细信息。 在调查、规划和为组织做出其他业务决策以及设置通信信用额度时，这些详细信息非常有用[](/microsoftteams/what-are-communications-credits)
   
 > [!NOTE]
-> 以管理员角色登录到 Skype for Business时，可以看到所有 Microsoft 365 管理中心。 
+> 以管理员登录 Skype for Business时，可以看到所有报告Microsoft 365 管理中心。 
   
 ## <a name="how-to-get-to-the-skype-for-business-pstn-minute-pools-report"></a>如何访问 PSTN Skype for Business报告
 
@@ -56,8 +56,6 @@ ms.locfileid: "54342567"
 通过查看显示的每个列，Skype for Business分钟池的视图。
   
 以下是此报告的外观。
-  
-## 
 
 ![Skype for BusinessPSTN 分钟池报告](../images/f5da5ca9-3466-4234-8f33-ab50ac5eb781.png)
   
@@ -87,7 +85,7 @@ ms.locfileid: "54342567"
     
 - [Skype for Business组织者活动报告](conference-organizer-activity-report.md)可以看到有多少用户正在组织使用即时消息、音频/视频、应用程序共享、Web、/拨出 - 第三方和 /dial out - Microsoft 的会议。
     
-- [Skype for Business会议参与者活动报告](conference-participant-activity-report.md)可以看到正在参与多少个即时消息、音频/视频、应用程序共享、Web 和拨出音频会议。
+- [Skype for Business参与者活动报告](conference-participant-activity-report.md)可以看到正在参与多少个即时消息、音频/视频、应用程序共享、Web 和拨出音频会议。
     
 - [Skype for Business对等活动报告](peer-to-peer-activity-report.md)可以看到有多少用户使用即时消息、音频/视频、应用程序共享和传输文件。
     

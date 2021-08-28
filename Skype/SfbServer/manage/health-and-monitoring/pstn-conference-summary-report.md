@@ -9,21 +9,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8e2f0862-4dfa-4c2b-bf8d-ad71419f15d2
 description: 摘要：了解 pstN 会议摘要报告中Skype for Business Server。
-ms.openlocfilehash: 4fdcac31c5f674ca3289a275cc253f798fabdf5fb9ab221e5872e8b5d82fccb2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c1f652e6c99db1e011624ee368244795555b61f4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286761"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591146"
 ---
 # <a name="pstn-conference-summary-report-in-skype-for-business-server"></a>PSTN 会议摘要报告Skype for Business Server
  
 **摘要：** 了解 PSTN 会议摘要报告中Skype for Business Server。
   
-在 Skype for Business Server 中，PSTN 会议是至少一个参与者使用 PSTN (公用电话交换网或电话拨入音频部分) 会议。  (PSTN 电话是"座机"、移动电话或不使用 IP 语音的其他任何电话。) 尽管监控报告中称为 PSTN 会议，但是这些会议可能更常称为电话拨入式会议。
+在 Skype for Business Server 中，PSTN 会议是至少一个参与者使用 PSTN (公用电话交换网或电话拨入音频部分) 会议。  (PSTN 电话是"座机"、"移动电话"或不使用 IP 语音的其他任何电话。) 尽管监控报告中称为 PSTN 会议，但是这些会议可能更常称为电话拨入式会议。
   
 PSTN 会议摘要报告提供了有关您组织中召开的所有 PSTN 会议（即，所有至少有一个电话拨入式用户的会议）的信息。此报告包括有关 PSTN 会议总数和参与这些会议的人员总数的信息，并且可能包括有关电话拨入式用户的总数（PSTN 参与者指标总计）的信息（此信息最重要）。
   
@@ -33,9 +33,9 @@ PSTN 会议摘要报告提供了有关您组织中召开的所有 PSTN 会议（
   
 ## <a name="making-the-best-use-of-the-pstn-conference-summary-report"></a>最充分地利用 PSTN 会议摘要报告
 
-若要确定包含电话拨入用户的所有会议的百分比，请将 PSTN 会议指标总计值与 Skype for Business Server 中的会议摘要报告上找到的会议[指标总计进行比较](conference-summary-report.md)。
+若要确定包含电话拨入用户的所有会议的百分比，请将 PSTN 会议指标总计值与 Skype for Business Server 中的会议摘要报告上找到的会议总指标[进行比较](conference-summary-report.md)。
   
-如果您未看到所预计数目的 PSTN 会议，请记住，组织允许电话拨入式用户的会议的能力取决于已分配给用户的会议策略：如果仅允许几个用户主持 PSTN 会议，则可以明显看到 PSTN 会议的数目极少。 通过从命令行管理程序 (运行以下命令，) 验证哪些会议策略Skype for Business Server PSTN 会议：
+如果您未看到所预计数目的 PSTN 会议，请记住，组织允许电话拨入式用户的会议的能力取决于已分配给用户的会议策略：如果仅允许几个用户主持 PSTN 会议，则可以明显看到 PSTN 会议的数目极少。 如果有任何会议策略 (命令行管理程序) 运行以下命令来快速验证哪些会议策略Skype for Business Server PSTN 会议：
   
 ```PowerShell
 Get-CsConferencingPolicy | Select-Object Identity, EnableDialInConferencing
@@ -75,7 +75,7 @@ Tag:DublinDialInUsers                                       True
 
 |**名称**|**是否可按此项排序？**|**说明**|
 |:-----|:-----|:-----|
-|**每小时** <br/> **每天** <br/> **每周** <br/> **每月一次** <br/> |否  <br/> |指示所选的时间间隔。 如果适用，可单击某一给定的时间间隔以查看该间隔的详细信息。 例如，如果使用"每天"间隔并单击 2015/7/7，则会看到该日期的用户注册活动的每小时细分信息。  <br/> |
+|**每小时** <br/> **每天** <br/> **每周** <br/> **每月** <br/> |否  <br/> |指示所选的时间间隔。 如果适用，可单击某一给定的时间间隔以查看该间隔的详细信息。 例如，如果使用"每天"间隔并单击 2015/7/7，则会看到该日期的用户注册活动的每小时细分信息。  <br/> |
 |**PSTN 会议总数** <br/> |否  <br/> |允许拨入访问的会议总数。  <br/> |
 |**参与者总数** <br/> |否  <br/> |参与允许拨入访问的会议的人员总数。  <br/> |
 |**A/V 会议总分钟数** <br/> |否  <br/> |音频/视频会议时间的总长度。  <br/> |

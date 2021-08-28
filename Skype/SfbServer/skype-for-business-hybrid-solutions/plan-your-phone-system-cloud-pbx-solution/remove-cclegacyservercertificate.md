@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ff21cecb-5035-48fd-9705-11ea81ce7df6
-description: 执行 Remove-CcLegacyServerCertificate cmdlet 或续订 Renew-CcCACertificate ccServerCertificate cmdlet 后，Remove-CcLegacyServerCertificate cmdlet 删除中央管理存储、中介服务器和边缘服务器上旧的服务器证书。
-ms.openlocfilehash: 6c1665d0c21e5afd25ed630fc1da4f1987264d9325fec2058981fe91a1edc0bb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 执行 Remove-CcLegacyServerCertificate cmdlet 或续订 Renew-CcCACertificate ccServerCertificate cmdlet 后，Remove-CcLegacyServerCertificate cmdlet 删除中央管理存储、中介服务器和边缘服务器上旧服务器证书。
+ms.openlocfilehash: 93df3e8658cecdb4a6cc8b14d59d61a716dab8fc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54288730"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589946"
 ---
 # <a name="remove-cclegacyservercertificate"></a>Remove-CcLegacyServerCertificate
  
-执行 Remove-CcLegacyServerCertificate cmdlet 或续订 Renew-CcCACertificate ccServerCertificate cmdlet 后，Remove-CcLegacyServerCertificate cmdlet 删除中央管理存储、中介服务器和边缘服务器上旧的服务器证书。
+执行 Remove-CcLegacyServerCertificate cmdlet 或续订 Renew-CcCACertificate ccServerCertificate cmdlet 后，Remove-CcLegacyServerCertificate cmdlet 删除中央管理存储、中介服务器和边缘服务器上旧服务器证书。
   
 ```powershell
 Remove-CcLegacyServerCertificate [[-Roles] <array> {Cms | MS | Edge}] 

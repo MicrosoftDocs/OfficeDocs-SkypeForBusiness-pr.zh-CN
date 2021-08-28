@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 90490c65-0e40-4e85-96e1-751f27897e25
 description: 按照本主题中的步骤修改现有部署Skype for Business 云连接器版本 1.4.1 或更高版本部署。
-ms.openlocfilehash: 151408d48f7623d72d5af4f8fef605d9dcc7d690a915cc7e8454a91f051dd0f1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5d0771e1f6a62015cf040a899c88696016366e47
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324181"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590006"
 ---
 # <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>修改现有云连接器部署的配置
 
@@ -67,7 +67,7 @@ ms.locfileid: "54324181"
    Install-CcAppliance
    ```
 
-如果站点中存在多个设备，则需要按照以下步骤操作、修改 CloudConnector.ini 文件，然后一个一个地重新部署设备。
+如果站点中存在多个设备，你将需要按照以下步骤操作、修改 CloudConnector.ini 文件，然后一个一个地重新部署设备。
   
 1. 运行以下 cmdlet 以卸载当前设备上的所有现有虚拟机： 
     
@@ -117,7 +117,7 @@ ms.locfileid: "54324181"
 
 若要启用操作系统自动更新和 Bits 自动更新，必须使用 Skype for Business 租户管理员帐户进行联机管理，并使用租户远程 PowerShell，如下所示。
   
-如果禁用操作系统自动更新或 Bits 自动更新，主机和虚拟机可能会错过重要的 Windows 更新，云连接器不会自动升级到新版本。 强烈建议您启用自动更新。
+如果禁用操作系统自动更新或 Bits 自动更新，主机和虚拟机可能会错过重要的 Windows 更新，并且云连接器不会自动升级到新版本。 强烈建议您启用自动更新。
   
 1. 网站的 EnableAutoUpdate 属性需要设置为 true， (默认值) 。 运行以下 cmdlet 以确保 EnableAutoUpdate 设置为 true：
     
@@ -155,7 +155,7 @@ ms.locfileid: "54324181"
 
    - 将更新时间窗口分配给网站。 
     
-     位更新时间和操作系统更新时间窗口是单独配置的。 这两个窗口都可以分配一个或多个时间窗口。 可以将每个时间窗口分配给不同的站点，并使用不同的 (位更新和操作系统更新) 。 运行以下 cmdlet 设置网站的时间窗口： 
+     位更新时间和操作系统更新时间窗口是单独配置的。 这两个窗口都可以分配一个或多个时间窗口。 可以将每个时间窗口分配给不同的站点和不同的用途 (位更新和操作系统更新) 。 运行以下 cmdlet 设置网站的时间窗口： 
     
    ```powershell
    Set-CsHybridPSTNSite -Identity <SiteName> -BitsUpdateTimeWindow @{add="MidDayOfMonth","WeekdayNight"} -OsUpdateTimeWindow @{replace="Night"}
@@ -164,7 +164,7 @@ ms.locfileid: "54324181"
 ## <a name="update-the-dedicated-tenant-admin-credentials"></a>更新专用租户管理员凭据
 <a name="BKMK_MultipleSites"> </a>
 
-云连接器Microsoft 365组织或 Office 365 中的管理更改是由具有所需权限的帐户进行。 在 2.0 以前的云连接器版本中，该帐户是专用全局租户管理员帐户。 在云连接器 2.0 版及更高版本中，该帐户可以是具有 Microsoft 365 或 Office 365 管理员权限Skype for Business帐户。
+云连接器Microsoft 365或Office 365管理更改是由具有所需权限的帐户进行。 在 2.0 以前的云连接器版本中，该帐户是专用全局租户管理员帐户。 在云连接器 2.0 版和更高版本中，该帐户可以是具有 Microsoft 365 或 Office 365 管理员权限Skype for Business帐户。
   
 如果你的管理员帐户凭据在 Microsoft 365 或 Office 365 中更改，则还需要更新云连接器中本地缓存的凭据，只需在已部署的每个云连接器设备上运行以下管理员 PowerShell 命令：
   
@@ -206,7 +206,7 @@ Set-CcCredential -AccountType TenantAdmin
     
 2. 当系统提示输入新帐户凭据时，请输入步骤 1 中返回的 DomainAdmin 密码的密码。
     
-2. 运行 Set-CcCredential -AccountType VmAdmin，如下所示：
+2. 运行Set-CcCredential -AccountType VmAdmin，如下所示：
     
 1. 当系统提示输入旧帐户凭据时，请输入用于 CceService 密码的凭据。
     
@@ -216,7 +216,7 @@ Set-CcCredential -AccountType TenantAdmin
 <a name="BKMK_UpdatePassword"> </a>
 
 > [!NOTE]
-> 此部分适用于云连接器版本 2.0.1 及更高版本。 
+> 本部分适用于云连接器版本 2.0.1 及更高版本。 
   
 云连接器服务运行云连接器管理服务。 CceService 帐户在云连接器版本部署期间创建，并存储在以下文件中："%SystemDrive%\Programdata\Cloudconnector\credentials"。 \<CurrentUser\>.xml"和"%SystemDrive%\Programdata\Cloudconnector\credentials..CceService.xml"。
   
@@ -262,13 +262,13 @@ Set-CcCredential -AccountType TenantAdmin
     
    - 当系统提示输入新帐户凭据时，请输入步骤 1 中返回的 DomainAdmin 密码的密码。
     
-8. 运行 Set-CcCredential -AccountType VmAdmin，如下所示：
+8. 运行Set-CcCredential -AccountType VmAdmin，如下所示：
     
    - 当系统提示输入旧帐户凭据时，请输入用于 CceService 密码的凭据。
     
    - 当系统提示输入新帐户凭据时，请输入步骤 1 中返回的 VmAdmin 密码的密码。 
     
-9. 运行 Exit-CcUpdate cmdlet 以将设备从手动维护模式移开。
+9. 运行 Exit-CcUpdate cmdlet 以将设备从手动维护模式中移动。
     
 10. 在同一 PSTN 站点的所有设备上完成这些步骤后，删除站点根目录中的以下文件：
     
@@ -285,7 +285,7 @@ Set-CcCredential -AccountType TenantAdmin
 
 若要将新的 SIP 域 (或多个 SIP) 添加到现有云连接器部署中，请执行下列操作：
   
-1. 请确保已完成在域中更新域Microsoft 365 Office 365并能够添加 DNS 记录。 若要详细了解如何在 Microsoft 365 或 Office 365 中Microsoft 365域，请参阅将域Microsoft 365[或Office 365。](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)
+1. 请确保已完成在域中更新域Microsoft 365 Office 365并能够添加 DNS 记录。 若要详细了解如何在 Microsoft 365 或 Office 365 中设置域，请参阅将域Microsoft 365[或Office 365。](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)
     
 2. 使用新的 SIP 域更新云连接器配置文件。
     
@@ -306,7 +306,7 @@ Set-CcCredential -AccountType TenantAdmin
 
 如果需要更改云连接器部署中的主 SIP 域，请执行下列操作：
   
-1. 请确保已完成在域中更新域Microsoft 365 Office 365并能够添加 DNS 记录。 若要详细了解如何在 Microsoft 365 或 Office 365 中Microsoft 365域，请参阅将域Microsoft 365[或Office 365。](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)
+1. 请确保已完成在域中更新域Microsoft 365 Office 365并能够添加 DNS 记录。 若要详细了解如何在 Microsoft 365 或 Office 365 中设置域，请参阅将域Microsoft 365[或Office 365。](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)
     
 2. 使用新的 SIP 域更新云连接器配置文件。
     
@@ -328,7 +328,7 @@ Set-CcCredential -AccountType TenantAdmin
 
 6. 
     
-    在 Skype for Business Online PowerShell 中运行以下 cmdlet，删除每个站点的网站注册：
+    在 Skype for Business PowerShell 中运行以下 cmdlet，删除每个Skype for Business注册：
     
    ```powershell
    Remove-CsHybridPSTNSite
@@ -373,6 +373,6 @@ Set-CcCredential -AccountType TenantAdmin
 
 3. 
     
-    如果新证书的密码与旧证书相同，则导入将成功。 如果密码不同，您将收到密码错误的错误，并且您需要通过运行带 -Local 参数的 Register-CcAppliance cmdlet，然后重复步骤 2 来重置密码。 
+    如果新证书的密码与旧证书相同，则导入将成功。 如果密码不同，您将收到密码错误的错误，您需要通过运行带 -Local 参数的 Register-CcAppliance cmdlet，然后重复步骤 2 来重置密码。 
     
 4. 使用 Exit -CcUpdate cmdlet 使设备退出维护模式。

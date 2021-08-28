@@ -16,18 +16,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: '了解如何为用户云语音邮件服务。 '
-ms.openlocfilehash: 477bc16de7953033bafb0b32d0ac3d2eac74f90a
-ms.sourcegitcommit: df6ad1b0f0caebebad87f1b5536fba85c3c0d26e
+description: '了解如何为云语音邮件设置帐户。 '
+ms.openlocfilehash: c9e073a61501143c478d78b9184602f4eebe9264
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "58548297"
+ms.locfileid: "58590726"
 ---
 # <a name="set-up-cloud-voicemail"></a>设置云语音邮件
 
@@ -37,19 +37,19 @@ ms.locfileid: "58548297"
 > 云语音邮件仅支持将语音邮件Exchange邮箱中，并且不支持任何第三方电子邮件系统。 
 
 > [!NOTE]
-> 当代理人代表代理人应答呼叫时，通知在 云语音邮件。 用户可以接收未接来电的通知。
+> 当代理人代表代理人应答呼叫时，通知在云语音邮件。 用户可以接收未接来电的通知。
 
-## <a name="cloud-voicemail-for-teams-users"></a>云语音邮件用户Teams
+## <a name="cloud-voicemail-for-teams-users"></a>云语音邮件用户Teams的用户
 
 对于Teams用户，云语音邮件自动设置和预配。 请注意，电话系统不需要许可证云语音邮件。 
 
-## <a name="set-up-cloud-voicemail-for-exchange-server-mailbox-users"></a>为云语音邮件用户Exchange Server邮箱用户
+## <a name="set-up-cloud-voicemail-for-exchange-server-mailbox-users"></a>为云语音邮件用户设置Exchange Server组
 
-以下信息有关配置 云语音邮件，以便与联机进行登录但邮箱位于电话系统的用户Exchange Server。 
+以下信息将有关配置云语音邮件，以便与联机电话系统但邮箱位于Exchange Server。 
   
-1. 语音邮件通过 SMTP Exchange发送到用户的邮箱，Exchange Online Protection。 若要成功传递这些消息，请确保在 Exchange 服务器和服务器之间正确Exchange连接器Exchange Online Protection;[使用连接器配置邮件Flow。](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow) 
+1. 语音邮件通过 SMTP Exchange发送到用户的邮箱Exchange Online Protection。 若要成功传递这些消息，请确保在 Exchange 服务器和服务器之间正确Exchange连接器Exchange Online Protection;[使用连接器配置邮件Flow。](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow) 
 
-2. 若要启用语音邮件功能，例如自定义 Skype for Business 客户端中的问候语和可视语音邮件，需要通过 Exchange Web 服务从 Microsoft 365 或 Office 365 连接到 Exchange 服务器邮箱。 若要启用此连接，必须配置配置 Exchange 与 Exchange Online 组织之间的[OAuth](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)身份验证中所述的新 Exchange Oauth 身份验证协议，或者从 Exchange 2013 CU5 或更高版运行 Exchange 混合向导。 此外，必须在 Skype for Business Online 和 Exchange 服务器之间配置集成和 Oauth，如在 Skype for Business Online 和 Exchange Server[之间配置集成和 OAuth 中所述](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)。 
+2. 若要启用语音邮件功能，例如自定义 Skype for Business 客户端中的问候语和可视语音邮件，需要从 Microsoft 365 或 Office 365 通过 Exchange Web 服务连接到 Exchange 服务器邮箱。 若要启用此连接，必须配置在 Exchange 和 Exchange Online 组织之间配置[OAuth](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)身份验证中所述的新 Exchange Oauth 身份验证协议，或者从 Exchange 2013 CU5 或更高版运行 Exchange 混合向导。 此外，必须在 Skype for Business Online 和 Exchange 服务器之间配置集成和 Oauth，如在 Skype for Business Online 和 Exchange Server[之间配置集成和 OAuth 中所述](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)。 
 
 ## <a name="set-up-cloud-voicemail-for-skype-for-business-server-users"></a>为云语音邮件用户Skype for Business Server组
 

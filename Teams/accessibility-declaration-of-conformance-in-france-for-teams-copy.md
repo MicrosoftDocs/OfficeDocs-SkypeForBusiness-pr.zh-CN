@@ -12,7 +12,7 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-localization_priority: None
+ms.localizationpriority: ''
 f1.keywords:
 - CSH
 ms.custom:
@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 description: "Microsoft Teams est l'outil de chat collaboratif d'Office 365 qui intègre toutes les personnes， contenus et outils don votre équipe a besoin pour être plus impliquée et efficace. "
-ms.openlocfilehash: 92a982857f3530a5f03c2efafb2efbce83bfd23a
-ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
+ms.openlocfilehash: 97ce2f3a4bd74d56b57a15a249b7b2fa50f27660
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58372222"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589926"
 ---
 #  <a name="en-301-549-dclaration-de-conformit-en-matire-daccessibilit"></a>EN 301 549 Déclaration de conformité en matière d'accessibilité
 
@@ -99,7 +99,7 @@ Définitions et abréviations [EN 301 549](http://mandate376.standards.eu/standa
 </tr>
 <tr class="odd">
 <td><h3 id="préservation-des-informations-daccessibilité-pendant-la-conversion">5.4 Préservation des informations d'accessibilité pendant la conversion</h3>
-<p>Dans le cas oé la TIC convertit des informations ou une communication， elle préserve toutes les informations non exclusives documentées qui sont fournies pour l'accessibilité dans la mesure oré ces informations peuvent être contenues dans le format de destination ou prises en charge par ce dernier.</p></td>
+<p>Dans le cas oré la TIC convertit des informations ou une communication， elle préserve toutes les informations non exclusives documentées qui sont fournies pour l'accessibilité dans la mesure oré ces informations peuvent être contenues dans le format de destination ou prises en charge par ce dernier.</p></td>
 <td>不适用</td>
 <td></td>
 </tr>
@@ -137,7 +137,7 @@ Définitions et abréviations [EN 301 549](http://mandate376.standards.eu/standa
 </tr>
 <tr class="odd">
 <td><h3 id="acceptation-des-doubles-frappes-sur-le-clavier">5.8 Acceptation des doubles frappes sur le clavier</h3>
-<p>Dans le cas oré un clavier est fourni， le délai， après une frappe sur le clavier， pendant lequel une autre frappe ne sera pas acceptée si identique à la frappe précédente est réglable jusqu'à au moins 0，5 seconde.</p></td>
+<p>Dans le cas o à un clavier est fourni， le délai， après une frappe sur le clavier， pendant lequel une autre frappe ne sera pas acceptée si identique à la frappe précédente est réglable jusqu'à au moins 0，5 seconde.</p></td>
 <td>不适用</td>
 <td></td>
 </tr>
@@ -167,7 +167,7 @@ Définitions et abréviations [EN 301 549](http://mandate376.standards.eu/standa
 <td></td>
 </tr>
 <tr class="odd">
-<td><h3 id="communication-en-temps-réel-par-texte-rtt">6.2.1.1 通信 en temps réel par texte (RTT) </h3>
+<td><h3 id="communication-en-temps-réel-par-texte-rtt">6.2.1.1 通信 temps réel par texte (RTT) </h3>
 <p>Dans le cas o à la TIC est compatible avec la communication voix bidirectionnelle dans un contexte d'utilisation spécifié， elle permet à un utilisateur de communiquer avec un autre utilisateur en RTT.</p></td>
 <td>Pas pris en charge</td>
 <td></td>
@@ -193,10 +193,10 @@ Définitions et abréviations [EN 301 549](http://mandate376.standards.eu/standa
 <tr class="odd">
 <td><h3 id="interopérabilité">6.2.3 Interopérabilité</h3>
 <p>Dans le cas oé une TIC dotée de la fonctionnalité RTT affiche une interopérabilité avec d'autres TIC dotées de la fonctionnalité RTT (comme l'exige le 6.2.1.1) ， elles sont compatibles avec au moins un des quatre mécanismes d'interopérabilité RTT décrits ci-dessous ：</p>
-<p>a) TIC -opérant sur le Réséléphonique Public (RTC) avec une autre TIC qui se connecte directement au RTC comme décrit dans la Recommandation ITU-T V.18 [i.23] ou l'une de ses pour les signaux de téléphonie en mode texte sur l'interface RTC ;</p>
-<p>b) TIC -opérant avec une autre TIC utilisant la VoIP SIP et utilisant une technologie RTT conforme au document RFC 4103;</p>
-<p>c) TIC-opérant avec une autre TIC utilisant une technologie RTT conforme à l'ensemble des protocoles IP Multimedia Sub-System (IMS) spécifiés dans les documents TS 126 114， TS 122 173 et TS 134 229;</p>
-<p>d) TIC -opérant avec une autre TIC utilisant une spécification adaptée et applicable pour l'échange RTT qui est publiée et peut être consultée. Cette spécification 管理 comprend une méthode pour indiquer la perte ou de la corruption de caractères.</p></td>
+<p>a) TIC inter opérant sur le Réséléphonique Public (RTC) avec une autre TIC qui se connecte directement au RTC comme décrit dans la Recommandation ITU-T V.18 [i.23] ou l'une de ses pour les signaux de téléphonie en mode texte sur l'interface RTC;</p>
+<p>b) TIC-opérant avec une autre TIC utilisant la VoIP SIP et utilisant une technologie RTT conforme au document RFC 4103 ;</p>
+<p>c) TIC-opérant avec une autre TIC utilisant une technologie rtT conforme à l'ensemble des protocoles IP Multimedia Sub-System (IMS) spécifiés dans les documents TS 126 114， TS 122 173 et TS 134 229;</p>
+<p>d) TIC inter opérant avec une autre TIC utilisant une spécification adaptée et applicable pour l'échange RTT qui est publiée et peut être consultée. Cette spécification 管理 comprend une méthode pour indiquer la perte ou de la corruption de caractères.</p></td>
 <td>Pas pris en charge</td>
 <td></td>
 </tr>
@@ -227,9 +227,9 @@ Définitions et abréviations [EN 301 549](http://mandate376.standards.eu/standa
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="taux-de-trame-vitesse-dimages">6.5.3 Taux deaux deauxe (vitesse d'images) </h3>
+<td><h3 id="taux-de-trame-vitesse-dimages">6.5.3 Taux deauxe (vitesse d'images) </h3>
 <p>Lorsqu'une TIC qui 建议 la communication voix bidirectionnelle est dotée d'une fonctionnalité de vidéo en temps réel， cette TIC ：</p>
-<p>a) prend en charge un taux de moins d'au moins 12 images par seconde (IPS) ;</p>
+<p>a) prend en charge un taux deaux de moins 12 images par seconde (IPS) ;</p>
 <p>b) doit de préférence prendre en charge un taux de moins 20 images par seconde (IPS) avec ou sans langue des signes dans le flux de données vidéo.</p></td>
 <td>Pris en charge</td>
 <td></td>
@@ -287,7 +287,7 @@ Cette section ne s'applique pas à Skype Entreprise 2016.
 <p>测试：Si le contenu non textuel est un test ou un exercice qui serait invalide s'il était présenté sous forme de texte， alors des équivalents textuels donnent au moins une identification descriptive du contenu non textuel.</p>
 <p>Contenu sensoriel ： Si le contenu non textuel a pour principal objectif de créer une expérience sensorielle spécifique， alors des équivalents textuels donnent au moins une identification de ce contenu non textuel.</p>
 <p>CAPTCHA ： Si le contenu non textuel sert à confirmer que c'est une personne et non un ordinateur qui accède au contenu， alors des équivalents textuels qui identifient et décrivent à quoi sert ce contenu non textuel sont fournis， et des formes alternatives de CAPTCHA utilisant différents modes de sortie pour les différents types de perception sensorielle sont fournies afin de répondre aux besoins des différents perceptions.</p>
-<p>处理、格式化、隐身：Si le contenu 非 textuel est purementatif、s'il n'est utilisé que pour le formatage visuel ou s'il n'est pas présenté aux utilisateurs， alors il est mis en être ignoré par la technologie d'assistance.</p></td>
+<p>处理、格式化、隐身：Si le contenu 非 textuel est purementatif、s'il n'est utilisé que pour le formatage visuel ou s'il n'est pas présenté aux utilisateurs， alors il est mis en èuvre de manière à être ignoré par la technologie d'assistance.</p></td>
 <td>Pris en charge</td>
 <td></td>
 </tr>
@@ -402,7 +402,7 @@ Cette section ne s'applique pas à Skype Entreprise 2016.
 <tr class="odd">
 <td><h3 id="pas-de-piège-au-clavier">11.2.1.16 Pas de piège au clavier</h3>
 <p>Dans le cas oè la TIC est un logiciel non-web qui est doté d'une interface utilisateur， elle remplit les Critères de Succès indiqués dans le Tableau 11.16 ： Pas de piège au clavier ：</p>
-<p>Si le focus du clavier peut être positionné sur un composant du logiciel à l'aide d'une <a href="https://www.w3.org/Translations/NOTE-UNDERSTANDING-WCAG20-fr/keyboard-operation-trapping.html#keybrd-interfacedef">interface clavier</a>， réciproquement， il peut être déplacé hors de ce même composant simplement à l'aide d'une interface clavier et， si ce déplacement exige plus que l'utilisation d'une simple touche flèche ou tabulation ou toute autre méthode standard de sortie， l'utilisateur est informé de la méthode permettant de déplacer le focus hors de ce composant.</p></td>
+<p>Si le focus du clavier peut être positionné sur un composant du logiciel à l'aide d'une <a href="https://www.w3.org/Translations/NOTE-UNDERSTANDING-WCAG20-fr/keyboard-operation-trapping.html#keybrd-interfacedef">interface clavier</a>， réciproquement， il peut être déplacé hors de ce même composant simplement à l'aide d'une interface clavier et， si ce déplacement exige plus que l'utilisation d'une simple touche flèche ou tabulation ou toute autre méthode standard de sortie， l'utilisateur est informé de la èthode permettant de déplacer le focus hors de ce composant.</p></td>
 <td>Pris en charge</td>
 <td></td>
 </tr>
@@ -412,8 +412,8 @@ Cette section ne s'applique pas à Skype Entreprise 2016.
 <p>Pour chaque délai qui est fixé par le logiciel， au moins l'un des points suivants est vrai ：</p>
 <p>抑制：l'utilisateur est autorisé à supprimer la limite de temps avant de la dépasser;ou</p>
 <p><strong>Ajustement ：</strong> l'utilisateur est autorisé à ajuster la limite de temps avant de la dépasser dans un intervalle d'au moins dix fois la durée paramétrée par défaut </p>
-<p>延长 ： l'utilisateur est utilisi avant que la limite de temps n'expire et il lui est accordé au moins 20 secondes pour prolonger cette limite par une action simple (par exemple， « appuyer sur la barre d'espace ») et l'utilisateur est autorisé à prolonger la limite de temps au moins dix fois ;ou</p>
-<p>L'exception du temps réel ： la limite de temps est une partieive d'un événement en temps réel (par exemple， une enchère) et aucune alternative n'est possible;ou</p>
+<p>延长： l'utilisateur est utilisi avant que la limite de temps n'expire et il lui est accordé au moins 20 secondes pour prolonger cette limite par une action simple (par exemple， « appuyer sur la barre d'espace ») et l'utilisateur est autorisé à prolonger la limite de temps au moins dix fois ;ou</p>
+<p>L'exception du temps réel ： la limite de temps est une partie partie d'un événement en temps réel (par exemple， une enchère) et aucune alternative n'est possible;ou</p>
 <p>L'exception de la limite essentielle ： la limite de temps est essentielle et la prolonger invaliderait alors l'activité;ou</p>
 <p>L'exception des 20 heures ： la limite de temps est supérieure à 20 heures.</p></td>
 <td>Pris en charge</td>
@@ -525,7 +525,7 @@ Cette section ne s'applique pas à Skype Entreprise 2016.
 <tr class="odd">
 <td><h3 id="nom-rôle-et-valeur">11.2.1.38 Nom、r与le et valeur</h3>
 <p>Dans le cas o à la TIC est un logiciel non-web qui est doté d'une interface utilisateur et qui permet l'accès à des technologies d'assistance， elle remplit les Critères de Succès indiqués dans le tableau 11.38 ： Nom， r àle et valeur ：</p>
-<p>Pour tout composant d'une interface utilisateur (et notamment des éléments de formulaire， liens et composants générés par des scripts) ， le nom et le rréle peuvent être déterminés par un编程 informatique;les états， les propriétés et les valeurs qui peuvent être paramétrés par l'utilisateur peuvent être définis par un programme informatique ;et la notification des changements de ces éléments est mise à la disposition des agents utilisateurs， et notamment des technologies d'assistance.</p></td>
+<p>Pour tout composant d'une interface utilisateur (et notamment des éléments de formulaire， liens et composants générés par des scripts) ， le nom et le rréle peuvent être déterminés par un programme informatique;les états， les propriétés et les valeurs qui peuvent être paramétrés par l'utilisateur peuvent être définis par un programme informatique ;et la notification des changements de ces éléments est mise à la disposition des agents utilisateurs， et notamment des technologies d'assistance.</p></td>
 <td>Pris en charge avec des exceptions</td>
 <td>1) Pas d'accès de 可编程 dans Poll， Q &amp; A et Whiteboard.<br />
 2)Le contenu des fichiers PowerPoint partagé n'est pas exposé par 可编程。<br />
@@ -539,7 +539,7 @@ Cette section ne s'applique pas à Skype Entreprise 2016.
 <tr class="odd">
 <td><h3 id="prise-en-charge-des-services-daccessibilité-de-la-plate-forme-pour-un-logiciel-qui-est-doté-dune-interface-utilisateur">11.3.2.1 Prise en charge des services d'accessibilité de la plate-forme pour un logiciel qui est doté d'une interface utilisateur</h3>
 <p>Le logiciel de la plate-forme fournit unensemble de services de plate-forme documentés qui permettent à un logiciel qui est doté d'une interface utilisateur fonctionnant sur le logiciel de la plate-forme d'interagir avec la technologie d'assistance.</p>
-<p>Le logiciel de la plate-forme doit être compatible avec les exigences 11.3.2.5 à 11.3.2.17 étant toutefois entendu que， dans le cas o à le concept d'une interface utilisateur qui correspond à l'une des clauses 11.3.2.5 à 11.3.2.17 n'est pas compatible avec l'environnement logiciel， ces exigences ne s'appliquent pas. Par exemple， les leslection du 11.3.2.14 (Modification du focus et modifications de sélection) peuvent ne pas exister dans les environnements qui ne permettent pas la sélection， ce qui est le souvent le cas de la fonction copier-coller.</p></td>
+<p>Le logiciel de la plate-forme doit être compatible avec les exigences 11.3.2.5 à 11.3.2.17 étant toutefois entendu que， dans le cas o à le concept d'une interface utilisateur qui correspond à l'une des clauses 11.3.2.5 à 11.3.2.17 n'est pas compatible avec l'environnement logiciel， ces exigences ne s'appliquent pas. Par exemple， les modifications de sélection du 11.3.2.14 (Modification du focus et modifications de sélection) peuvent ne pas exister dans les environnements qui ne permettent pas la sélection， ce qui est le souvent le cas de la fonction copier-coller.</p></td>
 <td>不适用</td>
 <td></td>
 </tr>
@@ -654,13 +654,13 @@ Cette section ne s'applique pas à Skype Entreprise 2016.
 </tr>
 <tr class="even">
 <td><h3 id="préférences-de-lutilisateur">11.5 Préférences de l'utilisateur</h3>
-<p>Dans le cas oè le logiciel est doté d'une interface utilisateur， il propose des modes d'utilisisants qui utilisent les préférences de l'utilisateur pour les paramètres de la plate-forme (couleur， contraste， police， taille de la police etielur de focus) ， à l'exception des logiciels qui sont destinés à être isolés de la plate-forme à laquelle ils appartiennent.</p></td>
+<p>Dans le cas oè le logiciel est doté d'une interface utilisateur， il propose des modes d'utilisation suffisants qui utilisent les préférences de l'utilisateur pour les paramètres de la plate-forme (couleur， contraste， police， taille de la police etielur de focus) ， à l'exception des logiciels qui sont destinés à être isolés de la plate-forme à laquelle ils appartiennent.</p></td>
 <td>不适用</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td><p><strong>11.6.2 可访问的 Création de contenu</strong></p>
-<p>Les systèmes auteurs permettent et guident la production de contenu 符合 aux 子句 9 (Contenu Web) ou 10 (Contenu non web) telles qu'applicables.</p></td>
+<p>Les systèmes auteurs permettent et guident la production de contenu 符合 aux 子句 9 (Contenu Web) ou 10 (Contenu 非 web) telles qu'applicables.</p></td>
 <td>不适用</td>
 <td></td>
 </tr>
@@ -678,7 +678,7 @@ Cette section ne s'applique pas à Skype Entreprise 2016.
 </tr>
 <tr class="even">
 <td><p><strong>11.6.5 修改</strong></p>
-<p>Quand un système auteur 建议 des modèles， au moins un modèle prenant en charge la création de contenu conforme aux exigences des clauses 9 (Web contenu) ou 10 (Documents) ， selon le cas， est disponible et identifié comme tel.</p></td>
+<p>Quand un système auteur 建议 des modèles， au moins un modèèle prenant en charge la création de contenu conforme aux exigences des clauses 9 (Web contenu) ou 10 (Documents) ， selon le cas， est disponible et identifié comme tel.</p></td>
 <td>不适用</td>
 <td></td>
 </tr>
@@ -705,7 +705,7 @@ Cette section ne s'applique pas à Skype Entreprise 2016.
 <td><h3 id="documentation-accessible">12.1.2 文档可访问 </h3>
 <p>La documentation produit four一 avec la TIC est mise à disposition dans au moins un des formats électroniques suivants：</p>
 <p>a) un format web qui est conforme à la clause 9， ou</p>
-<p>b) 非 web qui est 格式符合 à la 子句 10。</p></td>
+<p>b) 非 Web qui est 格式符合 à la 子句 10。</p></td>
 <td>Pris en charge</td>
 <td></td>
 </tr>
@@ -725,7 +725,7 @@ Cette section ne s'applique pas à Skype Entreprise 2016.
 <td><h3 id="documentation-accessible-1">12.2.4 文档可访问 </h3>
 <p>La documentation four一 par les services d'assistance est mise à disposition dans au moins un des formats électroniques suivants ：</p>
 <p>a) un format Web qui est conforme à la clause 9， ou</p>
-<p>b) 非 web qui est 格式符合 à la 子句 10。</p></td>
+<p>b) 非 Web qui est 格式符合 à la 子句 10。</p></td>
 <td>Pris en charge</td>
 <td></td>
 </tr>
@@ -744,6 +744,6 @@ La personnalation du produit annule la présente déclaration de conformité de 
 
 Pour en savoir plus sur les spécifications de compatibilité de produits de technologie d'assistance spécifiques， consultez vos fournisseurs de technologies d'assistance.
 
-Le présent 文档 n'est pas la norme EN 301 549 v 1.1.2 (2015-04) et ne doit pas être utilisé en remplacement de celle-ci. Les extraits de la norme EN 301 549 v 1.1.2 qu'il contient ne sont référencés que pour décrire la conformité de Microsoft avec certaines de ses dispositions. Un exemplaire 完成 de la norme EN 301 549 v 1.1.2 (2015-04) est disponible dans ce PDF émanant de l'European Telecommunications Standards Institute， du Comité Européen de Normalisation et du Comité Européen de Normal standards Électrotechnique.
+Le présent 文档 n'est pas la norme EN 301 549 v 1.1.2 (2015-04) et doit pas être utilisé en remplacement de celle-ci. Les extraits de la norme EN 301 549 v 1.1.2 qu'il contient ne sont référencés que pour décrire la conformité de Microsoft avec certaines de ses dispositions. Un exemaire 完成 de la norme EN 301 549 v 1.1.2 (2015-04) est disponible dans ce PDF émanant de l'欧洲电信标准协会， du Comité Européen de Normal standards et du Comité Européen de Normal standards Électrotechnique.
 
 Le présent 文档 est fourni à titre indicatif。 MICROSOFT NE FOURNIT AUCUNE GARANTIE、EXPRESSE OU TACITE、DANS LE PRÉSENT 文档。

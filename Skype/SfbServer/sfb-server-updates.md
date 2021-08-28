@@ -13,18 +13,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: 在一个地方查找和管理 Skype for Business Server 2015/2019 和 Lync 2013 的更新。 单击此页面上的链接可以详细了解并下载这些更新。
-ms.openlocfilehash: 2101e8ca02d227837aef0b9c49ce0d2e8d1144bb
-ms.sourcegitcommit: 25fd720c008dcf1573344e50d736131a20c3ac7d
+ms.openlocfilehash: 6071dabddebcce05c3dffee7578a432217a0f6cd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "58683316"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590946"
 ---
 # <a name="skype-for-business-server-updates"></a>Skype for Business Server 更新
 
-在一个地方查找和管理 Skype for Business Server 2019、Skype for Business Server 2015、Lync Server [2013](#lync-server-2013-update-history)和[Lync Server 2010](#lync-server-2010-update-history)的更新。 [](#skype-for-business-server-2019-update-history) [](#skype-for-business-server-2015-update-history) 单击此页面上的链接可以详细了解并下载这些更新。
+在一个地方查找和管理[Skype for Business Server 2019、Skype for Business Server 2015、Lync](#skype-for-business-server-2019-update-history) [Server 2013](#lync-server-2013-update-history)和[Lync Server 2010](#lync-server-2010-update-history)的更新。 [](#skype-for-business-server-2015-update-history) 单击此页面上的链接可以详细了解并下载这些更新。
 
-有关最新 Skype for Business Online 和 Microsoft 365 更新，请参阅 Microsoft 365[路线图](https://go.microsoft.com/fwlink/p/?linkid=529454)。
+有关最新 Skype for Business Online Microsoft 365更新，请参阅 Microsoft 365[路线图](https://go.microsoft.com/fwlink/p/?linkid=529454)。
 
 ## <a name="skype-for-business-server-2019-update-history"></a>Skype for Business Server 2019 更新历史记录
 
@@ -56,7 +56,6 @@ KB 4470124是 Skype for Business Server 2019 的主 KB，具有已发布的所�
 
 |程序包名称|KB 编号|发布日期|
 |:--- |:--- |:--- |
-|Skype for Business Server 2015 累积更新 11|[KB 3061064](https://support.microsoft.com/kb/3061064)| 2021 年 8 月 |
 |Skype for Business Server 2015 累积更新 11 修补程序 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| 2020 年 7 月 |
 |Skype for Business Server 2015 累积更新 11|[KB 3061064](https://support.microsoft.com/kb/3061064)| 2020 年 5 月 13 日 |
 |Skype for Business Server 2015 累积更新 10 修补程序 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| 2019 年 8 月 |
@@ -67,7 +66,7 @@ KB 4470124是 Skype for Business Server 2019 的主 KB，具有已发布的所�
 |Skype for Business Server 2015 前端服务器和边缘服务器的累积更新 6 修补程序 2 |[KB 4086059](https://support.microsoft.com/kb/4086059) |2018 年 3 月 |
 |Skype for Business Server 2015 前端服务器和边缘服务器的累积更新 6 修补程序 1 |[KB 4074701](https://support.microsoft.com/kb/4074701)|2018 年 1 月 |
 |Skype for Business Server 2015 前端服务器和边缘服务器的累积更新 6|[KB 4036312](https://support.microsoft.com/kb/4036312) |2017 年 12 月 |
-|2015 Skype for Business Server前端服务器和边缘服务器的累积更新 5  |[KB 4012621](https://support.microsoft.com/kb/4012621) |2017 年 5 月 |
+|Skype for Business Server 2015 前端服务器和边缘服务器的累积更新 5  |[KB 4012621](https://support.microsoft.com/kb/4012621) |2017 年 5 月 |
 |Skype for Business Server 2015 前端服务器和边缘服务器的累积更新 4 修补程序 1 |[KB 3207506](https://support.microsoft.com/kb/3207506) |2017 年 2 月 |
 |Skype for Business Server 2015 前端服务器和边缘服务器的累积更新 4 |[KB 3199093](https://support.microsoft.com/kb/3199093) |2017 年 11 月 |
 |Skype for Business Server 2015 前端服务器和边缘服务器的累积更新 3 |[KB 3149227](https://support.microsoft.com/kb/3149227) |2016 年 6 月 |
@@ -272,4 +271,3 @@ KB 4470124是 Skype for Business Server 2019 的主 KB，具有已发布的所�
 - [Install Skype for Business Server 2015](./deploy/install/install.md)
 - [升级到 Skype for Business Server 2015](./deploy/upgrade-to-skype-for-business-server.md)
 - [使用 MSI 安装程序Skype for Business安装程序Windows版本的 (最新) ](sfb-client-updates.md)
-- 

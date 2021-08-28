@@ -9,33 +9,33 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ea61428e-a1d5-4189-aae6-3db19ddc5cf2
 description: 摘要：了解 Skype for Business Server 中的媒体质量诊断报告。
-ms.openlocfilehash: 3f252fb3871f455f79ea39018b8a87c06c12b3247189541d0a0ec3139dbe15b6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 406eb2208b6f2f53e708732f2de751786ab296a2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54290340"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592546"
 ---
 # <a name="media-quality-diagnostic-reports-in-skype-for-business-server"></a>媒体质量诊断报告中Skype for Business Server
  
-**摘要：** 了解 Skype for Business Server 中的媒体质量诊断Skype for Business Server。
+**摘要：** 了解 Skype for Business Server 中的媒体质量诊断报告。
   
 媒体质量诊断报告提供有关呼叫质量的信息以及失败的呼叫的诊断和疑难解答信息。
   
 ## <a name="in-this-section"></a>本节内容
 
-- [媒体质量摘要报告Skype for Business Server](summary.md)提供不同终结点类型的整体质量数据，包括 企业语音 对等呼叫、企业语音 电话会议和至少部分依赖于公用电话交换网 (PSTN) 的呼叫。
+- [媒体质量摘要报告Skype for Business Server](summary.md)提供不同终结点类型的整体质量数据，包括 企业语音 对等呼叫、企业语音 电话会议和至少部分依赖公用电话交换网 (PSTN) 的呼叫。
     
-- [Skype for Business Server 中的媒体质量比较报告](comparison.md)提供不同类型的音频呼叫的呼叫质量值的比较 (例如，通过无线网络拨打的呼叫与通过有线连接网络) 。
+- Skype for Business Server 中的媒体[质量比较报告](comparison.md)提供不同类型的音频呼叫的呼叫质量值的比较 (例如，通过无线网络拨打的呼叫与通过有线连接网络) 。
     
-- [Skype for Business Server 中的服务器性能报告](server-performance.md)根据降级、数据包丢失和抖动等关键质量指标的度量，列出遇到最多问题的服务器。
+- [服务器性能报告Skype for Business Server](server-performance.md)根据降级、数据包丢失和抖动等关键质量指标的度量，列出遇到最多问题的服务器。
     
 - [位置报告中Skype for Business Server](location-report.md)提供网络位置列表以及每个位置发生的呼叫的媒体质量摘要。 对于此报告，位置基于 IP 子网。
     
-- [设备报告中Skype for Business Server](device-report.md)提供用于呼叫的设备摘要企业语音包括按设备表示的呼叫的平均媒体质量。
+- [设备报告中Skype for Business Server](device-report.md)提供用于呼叫企业语音的摘要，其中包含按设备表示的呼叫的平均媒体质量。
     
 - [呼叫列表中的呼叫Skype for Business Server](call-list-report-0.md)提供有关在组织中拨打或接听的电话呼叫的详细信息。
     

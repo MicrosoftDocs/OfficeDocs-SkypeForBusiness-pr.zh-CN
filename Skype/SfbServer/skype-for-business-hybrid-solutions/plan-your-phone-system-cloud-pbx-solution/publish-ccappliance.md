@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e7d5b63e-ba7c-4757-8670-f96b2a91e646
-description: 此 Publish-CcAppliance cmdlet 从联机租户配置获取高可用性信息，并发布到主机Skype for Business 云连接器版本上的 Skype for Business 云连接器版本 设备。
-ms.openlocfilehash: 83b0a7e3806a271a358085bb0cca2a2ef6a518e67e124f0be97c1ff4616e3dcc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 此Publish-CcAppliance cmdlet 从联机租户配置获取高可用性信息，并发布到主机Skype for Business 云连接器版本设备。
+ms.openlocfilehash: d1cd8d3ff9a47d10089ee3ea64d0db576845a708
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54326178"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589986"
 ---
 # <a name="publish-ccappliance"></a>Publish-CcAppliance
  
-此 Publish-CcAppliance cmdlet 从联机租户配置获取高可用性信息，并发布到主机Skype for Business 云连接器版本上的 Skype for Business 云连接器版本 设备。 
+此Publish-CcAppliance cmdlet 从联机租户配置获取高可用性信息，并发布到主机Skype for Business 云连接器版本设备。 
   
 ```powershell
 Publish-CcAppliance

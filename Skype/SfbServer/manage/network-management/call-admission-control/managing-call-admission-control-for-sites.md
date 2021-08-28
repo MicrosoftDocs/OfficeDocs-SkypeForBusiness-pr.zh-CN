@@ -9,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: “网络站点”是指部署了呼叫允许控制 (CAC)、E9-1-1 和媒体旁路的每个网络区域内的办公室或位置。
-ms.openlocfilehash: fd353980e7ac2a367b05c0f0be6ce760b7102fcc
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: c391c75b4434412e055403d621e884706c30dee5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233667"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590126"
 ---
 # <a name="managing-call-admission-control-for-sites-in-skype-for-business-server"></a>在 Skype for Business Server 中管理站点的呼叫允许控制
 
@@ -24,13 +24,13 @@ ms.locfileid: "58233667"
 
 ## <a name="configure-network-site-links"></a>配置网络站点链接
 
-在呼叫允许控制 (CAC) 配置中，可以创建定义直接链接的站点之间的带宽限制的网络站点间策略。 当两个网络站点共享一条直接链接时，可定义这两个站点之间的音频和视频连接的带宽限制。 不能使用命令行Skype for Business Server配置网络站点策略，这只能通过使用命令行管理程序中的 cmdlet Skype for Business Server完成。 您可以创建、修改和删除网络站点链接 (命令行管理程序) 网络站点Skype for Business Server策略。
+在呼叫允许控制 (CAC) 配置中，可以创建定义直接链接的站点之间的带宽限制的网络站点间策略。 当两个网络站点共享一条直接链接时，可定义这两个站点之间的音频和视频连接的带宽限制。 不能使用 Skype for Business Server 控制面板配置网络站点策略，这只能通过使用命令行管理程序中的 cmdlet Skype for Business Server完成。 您可以创建、修改和删除网络站点链接 (命令行管理程序) 网络站点间Skype for Business Server策略。
 
 ### <a name="to-create-a-network-site-link"></a>创建网络站点链接
 
-1.  以 RTCUniversalServerAdmins 组Skype for Business Server或必要的用户权限登录到安装了命令行管理程序的计算机。
+1.  以 RTCUniversalServerAdmins Skype for Business Server或必要的用户权限登录到安装了命令行管理程序的计算机。
 
-2.  启动命令行Skype for Business Server：单击"开始"，单击"所有程序 **"，单击**"Skype for Business Server"，然后单击"Skype for Business Server **命令行管理程序"。** 
+2.  启动命令行Skype for Business Server：单击"开始"，单击"所有程序 **"，单击****"Skype for Business Server"，** 然后单击"Skype for Business Server **命令行管理程序"。**
 
 3.  在命令提示符处，键入以下命令，取代有效的配置值：
     
@@ -42,9 +42,9 @@ ms.locfileid: "58233667"
 
 ### <a name="to-modify-a-network-site-link"></a>修改网络站点链接
 
-1.  以 RTCUniversalServerAdmins 组Skype for Business Server或必要的用户权限登录到安装了命令行管理程序的计算机。
+1.  以 RTCUniversalServerAdmins Skype for Business Server或必要的用户权限登录到安装了命令行管理程序的计算机。
 
-2.  启动命令行Skype for Business Server：单击"开始"，单击"所有程序 **"，单击**"Skype for Business Server"，然后单击"Skype for Business Server **命令行管理程序"。** 
+2.  启动命令行Skype for Business Server：单击"开始"，单击"所有程序 **"，单击****"Skype for Business Server"，** 然后单击"Skype for Business Server **命令行管理程序"。**
 
 3.  使用 **Set-CsNetworkInterSitePolicy** cmdlet 修改给定网络站点链接的属性。 可以修改连接站点中的任一个（或两个），也可以修改与链接关联的带宽策略配置文件。 下面是修改名为 Reno Portland 的站点链接的带宽策略配置文件 \_ 的示例：
     
@@ -55,9 +55,9 @@ ms.locfileid: "58233667"
 
 ### <a name="to-delete-a-network-site-link"></a>删除网络站点链接
 
-1.  以 RTCUniversalServerAdmins 组Skype for Business Server或必要的用户权限登录到安装了命令行管理程序的计算机。
+1.  以 RTCUniversalServerAdmins Skype for Business Server或必要的用户权限登录到安装了命令行管理程序的计算机。
 
-2.  启动命令行Skype for Business Server：单击"开始"，单击"所有程序 **"，单击**"Skype for Business Server"，然后单击"Skype for Business Server **命令行管理程序"。** 
+2.  启动命令行Skype for Business Server：单击"开始"，单击"所有程序 **"，单击****"Skype for Business Server"，** 然后单击"Skype for Business Server **命令行管理程序"。**
 
 3.  使用 **Remove-CsNetworkInterSitePolicy** cmdlet 删除网络站点链接。 以下示例删除 Reno Portland \_ 网络站点链接：
     
@@ -68,7 +68,7 @@ ms.locfileid: "58233667"
 
 ## <a name="view-network-site-information"></a>查看网络站点信息
 
-网络站点是指在部署了呼叫允许控制 (CAC) 或增强型 9-1-1 的每个区域中配置的办公室或位置。 可以在控制面板或命令行管理程序Skype for Business Server网络Skype for Business Server信息。 
+网络站点是指在部署了呼叫允许控制 (CAC) 或增强型 9-1-1 的每个区域中配置的办公室或位置。 可以在命令行管理程序或命令行管理程序Skype for Business Server网络Skype for Business Server信息。 
 
 ### <a name="to-view-network-site-information-in-skype-for-business-server-control-panel"></a>在控制面板中Skype for Business Server网络站点信息
 
@@ -86,9 +86,9 @@ ms.locfileid: "58233667"
 5.  在“编辑”菜单上，单击“显示详细信息”。
 
 
-### <a name="viewing-network-site-information-by-using-windows-powershell-cmdlets"></a>使用 cmdlet 查看网络Windows PowerShell信息
+### <a name="viewing-network-site-information-by-using-windows-powershell-cmdlets"></a>使用 cmdlet 查看Windows PowerShell信息
 
-您可以使用 Windows PowerShell cmdlet 查看Get-CsNetworkSite信息。 可以从命令行管理程序或 Skype for Business Server远程会话运行此 cmdlet Windows PowerShell。 
+您可以使用 Windows PowerShell cmdlet 和 Get-CsNetworkSite 查看网络站点信息。 此 cmdlet 可以从命令行管理程序Skype for Business Server或远程会话运行Windows PowerShell。 
 
 ### <a name="to-view-network-site-information"></a>查看网络站点信息
 

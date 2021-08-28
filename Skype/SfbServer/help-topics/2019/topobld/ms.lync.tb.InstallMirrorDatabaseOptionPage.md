@@ -11,18 +11,18 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.InstallMirrorDatabaseOptionPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7500896a-14ea-4b11-aaee-be3d81314536
 ROBOTS: NOINDEX, NOFOLLOW
 description: 通过以下定义配置“镜像数据库设置”：
-ms.openlocfilehash: ae2c32201b2d8f3e594469cd84a41ce307897ac7bd214cdd7951feb02bc42646
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3df4f9b5e2f11127249c597671152c2f1a6e9f78
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323314"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591626"
 ---
 # <a name="install-mirror-database-option-page"></a>安装镜像数据库选项页
  
 > [!NOTE]
-> SQL镜像在 Skype for Business Server 2015 中可用，但在 2019 年 2 月不再Skype for Business Server支持。 AlwaysOn 可用性组、AlwaysOn 故障转移群集实例 (FCI) 和 SQL 故障转移群集方法在 Skype for Business Server 2019 中Skype for Business Server首选。
+> SQL镜像在 Skype for Business Server 2015 中可用，但在 Skype for Business Server 2019 中不再受支持。 AlwaysOn 可用性组、AlwaysOn 故障转移群集实例 (FCI) 和 SQL 故障转移群集方法在 Skype for Business Server 2019 中Skype for Business Server首选。

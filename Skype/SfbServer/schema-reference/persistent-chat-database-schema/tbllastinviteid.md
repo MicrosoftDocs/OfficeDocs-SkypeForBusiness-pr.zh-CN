@@ -10,21 +10,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 222b3508-5963-4ddc-b4f3-e8412767e61b
 description: tblLastInviteId 包含上次为每个用户生成的并且在 tblPrincipalInvites 表中使用的邀请 ID。
-ms.openlocfilehash: 2e233cb15ca0037b8741411bf20f8657fd2b1212a9f80ff071c224c470dc3532
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b659f337456632959c107cb2942d402eb0014b6c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54352510"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592406"
 ---
 # <a name="tbllastinviteid"></a>tblLastInviteId
  
 tblLastInviteId 包含上次为每个用户生成的并且在 tblPrincipalInvites 表中使用的邀请 ID。
   
-**Columns**
+**列**
 
 |**列**|**类型**|**说明**|
 |:-----|:-----|:-----|

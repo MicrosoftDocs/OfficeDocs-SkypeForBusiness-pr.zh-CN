@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 01eed3c5-af68-4db7-90b3-d28ebe7ffef1
-description: 此Register-CcAppliance cmdlet 将设备信息注册到联机租户配置中的 PSTN 站点。 设备必须先注册，然后才能由 Skype for Business 云连接器版本管理服务进行部署和管理。
-ms.openlocfilehash: 5b63ce38b358d41fea15551df1e8134d1b56db00851317cbc5c81ac8f3aea058
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 此Register-CcAppliance cmdlet 将设备信息注册到联机租户配置中的 PSTN 站点。 设备必须先注册，然后才能由 Skype for Business 云连接器版本 管理服务进行部署和管理。
+ms.openlocfilehash: 159e74f91ca26cd0f8bdd214c9cd6ac45b5c1196
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54288800"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589956"
 ---
 # <a name="register-ccappliance"></a>Register-CcAppliance
  
-此Register-CcAppliance cmdlet 将设备信息注册到联机租户配置中的 PSTN 站点。 设备必须先注册，然后才能由 Skype for Business 云连接器版本管理服务进行部署和管理。
+此Register-CcAppliance cmdlet 将设备信息注册到联机租户配置中的 PSTN 站点。 设备必须先注册，然后才能由 Skype for Business 云连接器版本 管理服务进行部署和管理。
   
 ```powershell
 Register-CcAppliance [[-SiteName] <string>] [[-ApplianceName] <string>] [-Local]
@@ -74,9 +74,9 @@ SiteName 与边缘服务器外部 FQDN 组合在CloudConnector.ini被视为 PSTN
     
 - 站点名称为 Site1 且边缘服务器外部 FQDN 为 pstN edgserver.contoso.com。
     
-- 已注册其 SiteName 为 NewSite 和边缘服务器外部 FQDN edgserver1.contoso.com PSTN 站点。 
+- 已注册其 SiteName 为 NewSite 且边缘服务器外部 FQDN edgserver1.contoso.com PSTN 站点。 
     
-设备名称与中介服务器 FQDN CloudConnector.ini文件被视为设备标识。 如果 ApplianceName 和中介服务器 FQDN 都未用于注册设备，将在联机租户配置中新建设备。 如果设备已注册，该 cmdlet 将失败。
+设备名称与文件内中介服务器 FQDN CloudConnector.ini被视为设备标识。 如果 ApplianceName 和中介服务器 FQDN 都未用于注册设备，将在联机租户配置中新建设备。 如果设备已注册，该 cmdlet 将失败。
   
 在下列情况下，该 cmdlet 将失败，并指示设备已注册： 
   
@@ -89,7 +89,7 @@ SiteName 与边缘服务器外部 FQDN 组合在CloudConnector.ini被视为 PSTN
 
 |**参数**|**Required**|**类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-|SiteName  <br/> |可选  <br/> |System.String  <br/> |设备注册到的 PSTN 站点名称。 默认值为网站配置文件中的 SiteName CloudConnector.ini值。  <br/> |
+|SiteName  <br/> |可选  <br/> |System.String  <br/> |设备注册到的 PSTN 站点名称。 默认值是网站配置文件中的 SiteName CloudConnector.ini值。  <br/> |
 |ApplianceName  <br/> |可选  <br/> |System.String  <br/> |当前设备的名称。 默认值是主机服务器的计算机名称。  <br/> |
 |本地  <br/> |可选  <br/> |System.Management.Automation.SwitchParameter  <br/> |检查本地注册的配置，而无需连接到联机租户配置。  <br/> |
    

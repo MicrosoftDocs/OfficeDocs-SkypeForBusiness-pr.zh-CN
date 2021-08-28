@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.ConfCAASelLang
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cb9f98e3-6123-4e5a-a360-8ee1be6977f1
 description: 选择要用于电话拨入式会议访问号码的语言。有关详细信息，请参阅Create or Modify a Dial-in Conferencing Access Number。
-ms.openlocfilehash: a97127c7f2875cab0d98e295db1da137031d0ceb6ccc1eac5b50452e61a986a7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: eb1211410689c4dcc08e5959fcfa453885bf527f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301578"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591566"
 ---
 # <a name="select-languages"></a>选择语言
 

@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.LegacyMergeStartPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 04f160cf-13c3-4d9d-80ab-78908fe86abe
 description: 若要开始将旧部署与 Skype for Business Server 2015 合并，请单击"下一步"。
-ms.openlocfilehash: e5eac4fa2107b80cd9f308e949772abd07df9b63798a93d3526b8edd40600db2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4b5bd4f904e822b64bb6fa2679666aee002809db
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54299559"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591406"
 ---
 # <a name="legacy-merge-start"></a>旧版合并启动
  

@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
 description: 摘要：了解诊断报告中Skype for Business Server。
-ms.openlocfilehash: ef930870e918cd11f2525914e6f5716d7d685bfec224480c1eb88b3a280e3fa3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dde192aa90cc0a9cd5b1d05fbe2852d1277a6953
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54297218"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590146"
 ---
 # <a name="diagnostic-report-in-skype-for-business-server"></a>诊断报告中Skype for Business Server
  
@@ -33,7 +33,7 @@ ms.locfileid: "54297218"
     
 ## <a name="accessing-the-diagnostic-report"></a>访问诊断报告
 
-通过单击 Skype for Business Server 中的点对点会话详细信息报告或会议详细信息报告的诊断报告 (详细信息) 指标可以访问诊断报告[](peer-to-peer-session-detail-report.md)。
+通过单击 (中的点对点会话详细信息报告或会议详细信息报告中 Skype for Business Server的诊断报告 (详细信息) 指标[，](peer-to-peer-session-detail-report.md)可以访问诊断报告。
   
 ## <a name="filters"></a>筛选器
 

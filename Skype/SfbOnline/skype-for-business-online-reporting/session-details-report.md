@@ -13,33 +13,33 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Reporting
 description: "\"报表\"仪表板显示组织中Microsoft 365或Office 365活动概述。 利用它，你可以深入了解各个产品级别的报告，从而更加详细地了解每个产品中的活动。"
-ms.openlocfilehash: 522a82bf9b93a590f8f319d59e805b23ba34d4665b34eb05541aa18d1b9ba89e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c369f93c126629673996aec44d1ce86f561c4947
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308013"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592916"
 ---
 # <a name="session-details-report"></a>会话详细信息报告
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-"**报表**"仪表板显示组织中Microsoft 365或Office 365活动概述。 利用它，你可以深入了解各个产品级别的报告，从而更加详细地了解每个产品中的活动。 例如，可以使用"Skype for Business **详细信息**"报表查看有关单个用户的呼叫体验的详细信息。
+"**报表**"仪表板显示组织中Microsoft 365 Office 365产品的活动概述。 利用它，你可以深入了解各个产品级别的报告，从而更加详细地了解每个产品中的活动。 例如，可以使用"Skype for Business **详细信息**"报表来查看有关单个用户的呼叫体验的详细信息。
   
 有关更多 [可用报表](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) ，请查看报表概述。
   
-此报告以及其他活动Skype for Business提供有关活动的详细信息，包括整个组织的会话详细信息。 当你为组织进行调查、规划和做出其他业务决策以及设置通信信用额度时，这些详细信息[非常有用。](/microsoftteams/what-are-communications-credits)
+此报告以及其他活动Skype for Business一起提供有关活动的详细信息，包括整个组织的会话详细信息。 当你为组织进行调查、规划和进行其他业务决策以及设置通信信用额度时，这些详细信息 [非常有用](/microsoftteams/what-are-communications-credits)。
   
 > [!NOTE]
-> 以管理员角色登录到 Skype for Business时，可以看到所有 Microsoft 365 管理中心。 
+> 以管理员登录 Skype for Business时，可以看到所有报告Microsoft 365 管理中心。 
   
-## <a name="how-to-get-to-the-skype-for-business-session-details-report"></a>如何访问"Skype for Business会话详细信息"报表
+## <a name="how-to-get-to-the-skype-for-business-session-details-report"></a>如何访问会话Skype for Business报告
 
 1. 转到管理中心> **报表**
     
@@ -48,10 +48,10 @@ ms.locfileid: "54308013"
 3. 在"选择报表 **"下的列表中，** 单击 **"Skype for Business详细信息"。**
     
     > [!TIP]
-    > 如果未列出此报告，请转到管理 **Skype for Business**  >  **报告**  >  **会话详细信息。** 
+    > 如果未列出此报告，请转到管理中心  >    >  **"Skype for Business"会话详细信息"。** 
   
     > [!IMPORTANT]
-    > 根据你Microsoft 365或Office 365订阅，可能看不到此处显示的所有产品和报表。 
+    > 根据你Microsoft 365或Office 365订阅，你可能看不到此处显示的所有产品和报表。 
   
 ## <a name="interpret-the-skype-for-business-session-details-report"></a>解释Skype for Business会话详细信息报告
 
@@ -73,16 +73,16 @@ ms.locfileid: "54308013"
 *    **媒体类型说明** 描述会话是电话会议还是 P2P 会话，以及用于音频/ (/应用程序共享的媒体) 。
 *    **开始时间** 是会话开始时的时间。
 *    **结束时间** 是会话结束的时间。
-*    **"从 URI"** 是发起会话的用户或服务的 URI。 如果用户从 PSTN 电话启动了会话，则它可能为空。
+*    **"从 URI"** 是启动会话的用户或服务的 URI。 如果用户从 PSTN 电话启动了会话，则它可能为空。
 *    To URI 是作为会话启动目标的用户或服务的 **URI。** 对于会议，这是组织者的 URI。 如果会话的目标是 PSTN 电话号码，则它可能为空。
 *    **从客户端** 版本告知启动会话的用户或服务使用的用户代理和客户端版本。
 *    **客户端版本** 会告知用户代理，以及作为会话启动目标的用户或服务使用的客户端版本。
 *    **会议 URL** 是会议的 SIP URL（如果会话是电话会议）。 同一电话会议中的所有用户将具有相同的会议 URL。 
-*    **"从** 电话号码"是作为会话目标的电话号码（如果适用）。 电话号码的最后一个数字可能替换为"x"，以保护用户隐私。
-*    **"呼叫** 号码"是作为会话目标的电话号码（如果适用）。 电话号码的最后一个数字可能替换为"x"，以保护用户隐私。
+*    **"从** 电话号码"是作为会话目标的电话号码（如果适用）。 电话号码的最后一个数字可能会替换为"x"，以保护用户隐私。
+*    **"呼叫** 号码"是作为会话目标的电话号码（如果适用）。 电话号码的最后一个数字可能会替换为"x"，以保护用户隐私。
 *    **"从终结点 ID"** 是"来自"用户使用的终结点的唯一 GUID。 用于标识用户是否正在从同一终结点通信多个会话。 如果用户使用的是 PSTN 电话，或者会话从服务启动，则可能是空白的。
 *    **"到终结点 ID"** 是"到"用户使用的终结点的唯一 GUID。 用于标识用户是否正在从同一终结点通信多个会话。 如果用户使用的是 PSTN 电话、从服务启动会话或无法建立会话，则可能会为空。
-*    **Conf** 实例是使用会议 URL 的会议实例的唯一 GUID。 定期会议将具有相同的会议 URL，但会议的每个实例将有所不同"合并实例"。
+*    **Conf** 实例是使用会议 URL 的会议实例的唯一 GUID。 定期会议将具有相同的会议 URL，但会议的每个实例将有所不同。
 *    代表 URI 是代表建立会话的委派器的 **URI。** <br/> **"引用者 URI"** 是指引用建立会话的用户的 URI。
 *    **响应代码** 是建立会话的 SIP 响应代码，用于指示会话是否成功建立。
 
@@ -108,13 +108,13 @@ ms.locfileid: "54308013"
     
 - [Skype for Business设备使用情况报告](device-usage-report.md)你可以查看设备，包括Windows操作系统和移动设备，这些设备已安装Skype for Business应用，并使用它进行即时消息和会议。
     
-- [Skype for Business组织者活动报告](conference-organizer-activity-report.md)可以看到有多少用户正在组织使用即时消息、音频/视频、应用程序共享、Web、拨入/拨出 - 第三方和拨入/拨出 -Microsoft 的会议。
+- [Skype for Business组织者活动报告](conference-organizer-activity-report.md)你可以看到有多少用户正在组织使用即时消息、音频/视频、应用程序共享、Web、拨入/拨出 - 第三方和拨入/拨出 -Microsoft 的会议。
     
 - [Skype for Business会议参与者活动报告](conference-participant-activity-report.md)你可以看到正在参与多少个即时消息、音频/视频、应用程序共享、Web 和电话拨入/拨出式会议。
     
 - [Skype for Business对等活动报告](peer-to-peer-activity-report.md)可以看到有多少用户使用即时消息、音频/视频、应用程序共享和传输文件。
     
-- [Skype for Business PSTN 使用情况报告](pstn-usage-report.md)可以看到入站/出站呼叫花费的时间以及这些调用的成本。
+- [Skype for Business PSTN 使用情况报告](pstn-usage-report.md)可以看到在入站/出站调用中花费的分钟数以及这些调用的成本。
 
 - [Skype for Business用户阻止的报告](users-blocked-report.md)可以看到组织中被阻止进行 PSTN 呼叫的用户。
 

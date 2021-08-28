@@ -9,25 +9,25 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 31fd4e7c-3c68-48dd-9fad-8863831accd7
 description: 摘要：了解如何在出现可能阻止存档的Skype for Business Server阻止 IM 和会议会话。
-ms.openlocfilehash: 8baf245b1c8e95394aec756cb019b9562555f4bbe17dc0444615d5815da846df
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f86b26178963621b4d71a657e589a63f1351aeef
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320264"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592566"
 ---
 # <a name="configure-archiving-options-to-handle-failures-in-skype-for-business-server"></a>配置存档选项以处理Skype for Business Server
 
 **摘要：** 了解如何在出现可能阻止存档的故障时Skype for Business Server IM 和会议会话。
   
-如果存档是组织的要求，可以在出现可能阻止存档的故障时Skype for Business Server IM 和会议会话。 这有时称为关键模式。 例如，如果存储服务出现问题，将阻止其通信已启用存档的用户使用 IM。 IM 和会议都能在修复故障后自动恢复。 
+如果存档是组织的要求，可以在发生可能阻止存档的故障时阻止 IM Skype for Business Server会议会话。 这有时称为关键模式。 例如，如果存储服务出现问题，将阻止其通信已启用存档的用户使用 IM。 IM 和会议都能在修复故障后自动恢复。 
   
 ## <a name="configure-critical-mode-by-using-the-control-panel"></a>使用控制面板配置关键模式
 
-若要指定在将阻止存档的故障时是否允许通信会话：
+若要指定在阻止存档的故障时是否允许通信会话：
   
 1. 使用分配给 CsArchivingAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。 
     

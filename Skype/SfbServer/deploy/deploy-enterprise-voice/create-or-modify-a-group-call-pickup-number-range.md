@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4b442b98-df6b-4e50-8254-b3be9cde21dd
 description: Create or modify a Group Call Pickup number range in Skype for Business Server 企业语音.
-ms.openlocfilehash: 73c2c0b74c27fd59d94d97c5ee05e0da88219601e839d42dc12e0ec659db0aa3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 65e8cacb3b9ecd55c7411e106aa4dd11d91a32f5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54307873"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590566"
 ---
 # <a name="create-or-modify-a-group-call-pickup-number-range-in-skype-for-business"></a>Create or modify a Group Call Pickup number range in Skype for Business
 
@@ -29,12 +29,12 @@ Create or modify a Group Call Pickup number range in Skype for Business Server �
 
 组内呼叫接听基于呼叫管理应用程序。 部署组内呼叫分拣时，必须使用指定为呼叫接听组号码的电话号码范围来配置呼叫安排通道表。 这些组号码是用户为接听为其他用户响铃的呼叫而拨打的号码。
 
-与呼叫管理通道号码一样，呼叫接听组号码需要是未为其分配用户或电话的虚拟分机。 每个部署组内呼叫接听的前端池都可以有一个或多个呼叫接听组号码范围。 组号码范围在部署中必须全局唯一，并且必须分配为 **GroupPickup** 类型。
+与呼叫管理通道号码一样，呼叫接听组号码需要是未为其分配用户或电话的虚拟分机。 部署组内呼叫接听的每个前端池可以有一个或多个呼叫接听组号码范围。 组号码范围在部署中必须全局唯一，并且必须分配为 **GroupPickup** 类型。
 
 使用以下过程可创建或修改呼叫管理通道表中的呼叫接听组号码范围。
 
 > [!NOTE]
-> 必须使用命令行Skype for Business Server来创建、修改、删除和查看呼叫管理程序通道表中的组内呼叫接听号码范围。 组内呼叫接听号码范围在控制面板Skype for Business Server可用。
+> 必须使用命令行Skype for Business Server来创建、修改、删除和查看呼叫管理程序通道表中的组内呼叫接听号码范围。 "控制面板"中未提供Skype for Business Server号码范围。
 
 呼叫接听组号码范围必须符合以下规则：
 
@@ -46,11 +46,11 @@ Create or modify a Group Call Pickup number range in Skype for Business Server �
 
 - 如果号码范围以字符或 #开头，则范围 \* 必须大于 100。
 
-- 有效值：必须与正则表达式字符串匹配 ([ \\ *|#]？[1-9]\d {0,7}) | ([1-9]\d {0,8}) 。 这意味着该值必须是以字符或 # 或数字 1 到 9 开头的字符串 (第一个字符不能为 \* 零) 。 如果第一个字符是 或 #，则下一个字符必须是 1 到 \* 9 (不能是零) 。 后续字符可以是 0 到 9 之间的任意数字 (例如 \* ，"#6000"、"92000"、"95551212"和 \* "915551212") 。 如果第一个字符不是 或 #，则第一个字符必须是 1 到 9 个数字 (不能为零) ，后跟最多八个字符，每个字符从 0 到 9 (例如 \* ，"915551212"、"41212"、"300") 。
+- 有效值：必须与正则表达式字符串匹配 ([ \\ *|#]？[1-9]\d {0,7}) | ([1-9]\d {0,8}) 。 这意味着该值必须是以字符或 # 或数字 1 到 9 开头的字符串 (第一个字符不能为 \* 零) 。 如果第一个字符是 或 #，则下面的字符必须是 1 到 \* 9 (不能是零) 。 后续字符可以是 0 到 9 之间的任意数字，最多包含七个其他字符 (例如 \* ，"#6000"、"92000"、"95551212"和 \* "915551212") 。 如果第一个字符不是 或 #，则第一个字符必须是数字 1 到 9 (不能为零) 后跟最多八个字符，每个字符从 0 到 9 (例如 \* ，"915551212"、"41212"、"300") 。
 
 ### <a name="to-create-or-modify-a-call-pickup-group-range"></a>创建或修改呼叫接听组范围
 
-1. 以 RTCUniversalServerAdmins 组的成员或必要的用户权限（如D委托安装权限中所述）登录到安装了命令行管理程序Skype for Business Server **的计算机。**
+1. 以 RTCUniversalServerAdmins 组的成员或所需的用户权限（如D delegate **Setup Permissions** 中所述）登录到安装了命令行管理程序Skype for Business Server的计算机。
 
 2. 启动命令行Skype for Business Server：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击"Skype for Business Server **命令行管理程序"。**
 
@@ -75,7 +75,7 @@ Create or modify a Group Call Pickup number range in Skype for Business Server �
    ```
 
     > [!IMPORTANT]
-    > 只有在最初指定的类型不正确且组范围尚未使用时，使用此 cmdlet 才能更改分配给号码范围的类型。 如果将号码范围从 CallPark 更改为 GroupPickup，反之亦然，并且该号码范围已在使用中，则呼叫等待或组内呼叫接听将停止处理该号码范围。 例如，如果将一个号码范围从 CallPark 更改为 GroupPick，则呼叫等待应用程序不能再使用该通道范围来呼叫。
+    > 只有在最初指定的类型不正确且组范围尚未使用时，使用此 cmdlet 才能更改分配给号码范围的类型。 如果将号码范围从 CallPark 更改为 GroupPickup，反之亦然，并且该号码范围已在使用中，则呼叫等待或组内呼叫接听将停止处理该号码范围。 例如，如果您将号码范围从 CallPark 更改为 GroupPick，则呼叫等待应用程序不能再使用该通道范围来呼叫。
 
 ## <a name="see-also"></a>另请参阅
 

@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7844b55e-b7e9-4599-9962-f0322728405a
-description: Renew-CcServerCertificate cmdlet 在证书即将过期Skype for Business 云连接器版本过期时续订证书。 在云连接器 2.0 Update-CcServerCertificate版本中，此命令已更改为 Update-CcServerCertificate。
-ms.openlocfilehash: 632807f8d6b8dda7b3df6639e8f6166e8ac5e6a22381646616a0637779a9159a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Renew-CcServerCertificate cmdlet 在证书即将过期Skype for Business 云连接器版本过期时续订证书。 在云连接器 2.0 Update-CcServerCertificate版本中，此命令已更改为已更新。
+ms.openlocfilehash: 564f947462248bb65c8514c9699f2f867312c365
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340728"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589936"
 ---
 # <a name="renew-ccservercertificate"></a>Renew-CcServerCertificate
  
-Renew-CcServerCertificate cmdlet 在证书即将过期Skype for Business 云连接器版本过期时续订证书。 在云连接器 2.0 Update-CcServerCertificate版本中，此命令已更改为 Update-CcServerCertificate。 
+Renew-CcServerCertificate cmdlet 在证书即将过期Skype for Business 云连接器版本过期时续订证书。 在云连接器 2.0 Update-CcServerCertificate版本中，此命令已更改为已更新。 
   
 ```powershell
 Renew-CcServerCertificate [[-Roles] <array> {Cms | MS | Edge}]

@@ -13,22 +13,22 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
-description: 本文介绍如何为客户端配置端口范围，以及如何在 Skype for Business Server 中为在 Windows 10 上运行的客户端配置服务质量策略。
-ms.openlocfilehash: 4d8736c9249bbef25438be7232d7802f3ddb3e9a
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.localizationpriority: medium
+description: 本文介绍如何为客户端配置端口范围，以及如何为 Skype for Business Server 上运行的客户端配置服务质量Windows 10。
+ms.openlocfilehash: d43b79d82e3099cbc471b12fba5ad7155de43e77
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234017"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591156"
 ---
-# <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-clients-in-skype-for-business-server"></a>为客户端配置端口范围和服务质量策略Skype for Business Server
+# <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-clients-in-skype-for-business-server"></a>在客户端中为客户端配置端口范围和服务质量Skype for Business Server
 
-本文介绍如何为客户端配置端口范围，以及如何在 Skype for Business Server 中为在 Windows 10 上运行的客户端配置服务质量策略。
+本文介绍如何为客户端配置端口范围，以及如何为 Skype for Business Server 上运行的客户端配置服务质量Windows 10。
 
 ## <a name="configure-port-ranges"></a>配置端口范围
 
-默认情况下，Skype for Business客户端应用程序可以在涉及通信会话时使用端口 1024 和 65535 之间的任何端口;这是因为不会为客户端自动启用特定端口范围。 但是，若要使用服务质量，您将需要为一系列特定端口范围重新分配各种通信类型（音频、视频、媒体、应用程序共享和文件传输）。 可使用 Set-CsConferencingConfiguration cmdlet 完成此操作。
+默认情况下，Skype for Business客户端应用程序在涉及通信会话时可以使用端口 1024 和 65535 之间的任意端口;这是因为不会为客户端自动启用特定端口范围。 但是，若要使用服务质量，您将需要为一系列特定端口范围重新分配各种通信类型（音频、视频、媒体、应用程序共享和文件传输）。 可使用 Set-CsConferencingConfiguration cmdlet 完成此操作。
 
 > [!NOTE]  
 > 最终用户无法自行进行这些更改。 端口更改只能由管理员使用 Set-CsConferencingConfiguration cmdlet 进行。
@@ -38,7 +38,7 @@ ms.locfileid: "58234017"
 
 **Get-CsConferencingConfiguration**
 
-假设您自安装会议设置后尚未对会议设置Skype for Business Server，应返回包含以下属性值的信息：
+假设您自安装会议之后尚未对会议设置Skype for Business Server，您应获取包含以下属性值的返回信息：
 
 ClientMediaPortRangeEnabled ： False<br/>
 ClientAudioPort ： 5350<br/>
@@ -111,7 +111,7 @@ ClientFileTransferPort ： 5350<br/>
 </table>
 
 
-在上表中，客户端端口范围表示为您的服务器配置的端口范围的一部分。 例如，在服务器上，应用程序共享已配置为使用 40803 和 49151 之间的端口；在客户端计算机上，应用程序共享配置为使用 42000 和 42019 之间的端口。 这样做主要用于简化 QoS 管理：客户端端口不需要表示服务器上使用的端口的子集。  (例如，在客户端计算机上，可以将应用程序共享配置为使用端口 10000 到 10019。) 但是，建议您将客户端端口范围作为服务器端口范围的子集。
+在上表中，客户端端口范围表示为您的服务器配置的端口范围的一部分。 例如，在服务器上，应用程序共享已配置为使用 40803 和 49151 之间的端口；在客户端计算机上，应用程序共享配置为使用 42000 和 42019 之间的端口。 这样做主要用于简化 QoS 管理：客户端端口不需要表示服务器上使用的端口的子集。  (例如，在客户端计算机上，可以将应用程序共享配置为使用端口 10000 至 10019。) 但是，建议您将客户端端口范围作为服务器端口范围的子集。
 
 另外，您可能已注意到，为服务器上的应用程序共享留出了 8348 个端口，但为客户端上的应用程序共享只留出了 20 个端口。 这也是推荐方法，但不是一种硬性规定。 通常，你可以考虑每个可用的端口来表示单个通信会话：如果端口范围内有 100 个可用端口，这意味着该计算机在任何给定时间最多可以参与 100 个通信会话。 因为服务器参与的会话数可能多于客户端，所以在服务器上打开的端口数应多于在客户端上打开的端口数。 为客户端上的应用程序共享留出 20 个端口意味着用户可以参与指定设备上的 20 个应用程序共享会话，并且所有会话是同时进行的。 对于您的大多数用户来说，这样做应该足够了。
 
@@ -169,7 +169,7 @@ ClientFileTransferPort ： 5350<br/>
 </tbody>
 </table>
 
-若要为计算机创建服务质量音频Windows 10，请首先登录到安装了组策略管理的计算机。 打开"组策略 (，单击"开始"，指向"管理工具"，然后单击"组策略管理) "，然后完成以下过程： 
+若要为计算机创建服务质量音频Windows 10，请首先登录到安装了组策略管理的计算机。 打开"组策略 (，单击"开始"，指向"管理工具"，然后单击"组策略) "，然后完成以下过程： 
 
 1.  在组策略管理中，找到其中应创建新策略的容器。 例如，如果所有客户端计算机都位于名为"客户端"的 OU 中，应在客户端 OU 中新建策略。
 
@@ -179,11 +179,11 @@ ClientFileTransferPort ： 5350<br/>
 
 4.  右键单击新创建的策略，然后单击"编辑 **"。**
 
-5.  在组策略管理编辑器中，展开"计算机配置"，展开 **Windows 设置，右** 键单击"基于策略 **的 QoS"，** 然后单击"**创建新策略"。**
+5.  在组策略管理编辑器中，展开"计算机配置"，Windows 设置，**右** 键单击"基于策略的 **QoS"，** 然后单击"**创建新策略"。**
 
 6.  在" **基于策略的 QoS"** 对话框的打开页上，在"名称"框中键入新 **策略** 的名称。 选择“指定 DSCP 值”，并将该值设置为“46”。 将“指定出站调节率”保留为未选中状态，然后单击“下一步”。
 
-7.  On the next page， select **Only applications with this executable name，** enter **Lync.exe** as the name， and then click **Next**. 此设置指示策略仅对来自客户端的匹配Skype for Business优先级。
+7.  On the next page， select **Only applications with this executable name，** enter **Lync.exe** as the name， and then click **Next**. 此设置指示策略仅对来自客户端的匹配流量Skype for Business优先级。
 
 8.  第三页上，确保选中"任何 **源 IP** 地址"和"任何目标 **IP** 地址"，然后单击"下一步 **"。** 这两个设置确保将管理这些数据包，与哪台计算机（IP 地址）发送这些数据包及哪台计算机（IP 地址）将接收这些数据包无关。
 
@@ -201,7 +201,7 @@ ClientFileTransferPort ： 5350<br/>
 
 如果您决定创建用于管理应用程序共享流量的策略，请进行以下替换：
 
-  - 使用不同的策略 (和唯) 策略 (例如，Skype for Business Server **应用程序共享**) 。
+  - 使用不同的策略 (和) 策略 (，例如Skype for Business Server **应用程序共享**) 。
 
   - 将 DSCP 设置为“24”代替 46。（另外，此值不必为 24；只是必须用于不同于音频和视频的 DSCP 值。）
 
@@ -209,7 +209,7 @@ ClientFileTransferPort ： 5350<br/>
 
 对于文件传输策略：
 
-  - 使用不同的 (和唯) 策略名称 (例如，Skype for Business Server **文件** 传输) 。
+  - 使用不同的 (和唯) 策略 (例如，Skype for Business Server **文件** 传输) 。
 
   - 将 DSCP 值设置为“14”。（另外，此值不必为 14；只是它必须为唯一 DSCP 代码。）
 

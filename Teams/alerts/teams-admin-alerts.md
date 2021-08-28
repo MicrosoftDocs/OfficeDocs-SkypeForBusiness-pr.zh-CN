@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: vapati
 f1.keywords: ''
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: ''
 ms.collection:
 - M365-collaboration
@@ -16,12 +16,12 @@ description: 了解 Teams 管理中心提供Microsoft Teams通知和通知功能
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 1afe0ae7c8045b6a7e1c8b6eaf6f0e179e76a59e674c3a21b323eb9f123fd810
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 38380adecf3ce54d12b06e74f4467e39697d67f4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314268"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592356"
 ---
 # <a name="microsoft-teams-monitoring-and-alerting"></a>Microsoft Teams监视和警报
 
@@ -35,15 +35,15 @@ ms.locfileid: "54314268"
 
 ## <a name="how-to-manage-monitoring-and-alerting"></a>如何管理监视和警报
 
- 必须是管理员中的全局管理员Microsoft 365或Teams服务管理员才能配置警报规则。 请参阅[使用Teams管理员](../using-admin-roles.md)角色来管理Teams，详细了解Teams角色以及每个管理员角色可以访问的报告。
+ 只有全局管理员才能Microsoft 365，Teams服务管理员才能配置警报规则。 请参阅[使用 Teams 管理员](../using-admin-roles.md)角色来管理Teams，详细了解Teams角色以及每个管理员角色可以访问的报告。
 
 1. 登录到 Teams 管理中心。
-2. 在左侧导航栏中，选择 **"通知&警报"。**
-3. 从"规则"中选择要 **配置的规则**。
+2. 在左侧导航栏中，选择"**通知&警报"。**
+3. 从"规则"中选择要配置 **的规则**。
 
 ## <a name="teams-monitoring-rules-reference"></a>Teams监视规则参考
 
-通过添加各种监视功能和配置功能，Teams改进监视体验。 下面是当前在管理中心Teams监视规则Teams列表。
+我们通过添加各种监视功能和配置Teams来不断增加和改进监视体验。 下面是当前在管理中心Teams监视规则Teams列表。
 
 
 |规则  |监视功能|监视什么？ |

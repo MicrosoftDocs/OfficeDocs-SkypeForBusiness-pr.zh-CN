@@ -9,19 +9,19 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6be1d676-68f7-4a53-a72a-de73296c5571
 description: 摘要：了解 Skype for Business Server 中的对等会话详细信息报告。
-ms.openlocfilehash: 14df5ae82706a719086c31a3c8582009ed48d85b825057ab49ce6e92fa258116
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 014851a7c070a11366ec54682b9f94d999ac73de
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286801"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591166"
 ---
 # <a name="peer-to-peer-session-detail-report-in-skype-for-business-server"></a>报告中的对等会话详细信息Skype for Business Server
  
-**摘要：** 了解 Skype for Business Server 中的对等会话详细信息报告。
+**摘要：** 了解 Skype for Business Server 中的点对点会话详细信息Skype for Business Server。
   
 点对点会话详细信息报告返回有关点对点会话的详细信息。例如，如果您选择即时消息会话，则此报告将告知您会话中两个用户各自发送的消息数。
   

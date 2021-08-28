@@ -10,21 +10,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 271b7963-8fd8-4d92-a701-1a62aaf895ee
-description: Mcus 表是一个支持表。 每条记录都存储有关一个会议服务的信息。 这些会议服务可能包括 IM 会议服务和电话会议服务 (它们作为进程在前端服务器) 以及 Web 会议服务和 A/V 会议服务中运行。
-ms.openlocfilehash: 501736f91073b193f68a22dee8bf54899ee1250373258cf49fb19ed02af5c5e1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Mcus 表是一个支持表。 每条记录都存储有关一个会议服务的信息。 这些会议服务可能包括 IM 会议服务和电话会议服务 (这些服务在前端服务器) 以及 Web 会议服务和 A/V 会议服务上作为进程运行。
+ms.openlocfilehash: 79585600d417d51172cc9365cb5f8be1f27b8fa3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54352071"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592476"
 ---
 # <a name="mcus-table-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的 Mcus 表
  
-Mcus 表是一个支持表。 每条记录都存储有关一个会议服务的信息。 这些会议服务可能包括 IM 会议服务和电话会议服务 (它们作为进程在前端服务器) 以及 Web 会议服务和 A/V 会议服务中运行。 
+Mcus 表是一个支持表。 每条记录都存储有关一个会议服务的信息。 这些会议服务可能包括 IM 会议服务和电话会议服务 (这些服务在前端服务器) 以及 Web 会议服务和 A/V 会议服务上作为进程运行。 
   
-|**列**|**数据类型**|**键/索引**|**详细信息**|
+|**列**|**数据类型**|**键/索引**|**Details**|
 |:-----|:-----|:-----|:-----|
 |**McuId** <br/> |int  <br/> |主  <br/> |标识此会议服务器的唯一编号。  <br/> |
 |**McuUri** <br/> |nvarchar (450)   <br/> | <br/> | <br/> |
