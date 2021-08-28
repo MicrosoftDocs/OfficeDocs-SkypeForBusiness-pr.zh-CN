@@ -9,19 +9,19 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3248b320-a552-400a-8485-6891af4eb0f3
 description: 摘要：了解应用程序中的响应组Skype for Business Server。
-ms.openlocfilehash: 4b0843d44a9e23756e9f4f8516fcaf1f543b94da45749416deb9f43fca0715ad
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6d065f8313a770ce05b10925c9c854cec7e256e5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54326418"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623624"
 ---
 # <a name="response-group-usage-report-in-skype-for-business-server"></a>响应组中响应组使用情况Skype for Business Server
 
-**摘要：** 了解应用程序中的响应组Skype for Business Server。
+**摘要：** 了解响应组中响应组Skype for Business Server。
 
 响应组应用程序提供了一种Skype for Business Server根据拨打的号码以及（可选）呼叫者对一系列问题的响应来应答和路由电话呼叫。 通常，响应组呼叫不路由到单个人员，而是路由到称为代理组的一组人员。 例如，如果有人呼叫技术支持的电话号码，Skype for Business Server可以将该呼叫自动路由到第一个可用的技术支持代理。 或者，Skype for Business Server在遇到硬件问题 (请按 1"时询问一系列问题。 如果您有软件问题，请按 2。 如果您有网络问题，请按 3。") ，然后根据这些问题的回答将呼叫路由至最合适的技术支持代理。
 
@@ -47,7 +47,7 @@ ms.locfileid: "54326418"
 
 ## <a name="accessing-the-response-group-usage-report"></a>访问响应组使用情况报告
 
-可从监控报告主页访问响应组使用情况报告。 通过单击以下任一指标[，Skype for Business Server](call-list-report.md)中向下钻取到"响应组呼叫列表报告"：
+可从监控报告主页访问响应组使用情况报告。 通过单击以下任一指标[，可以](call-list-report.md)向下钻取Skype for Business Server响应组呼叫列表报告：
 
 - 收到的呼叫
 
@@ -64,13 +64,13 @@ ms.locfileid: "54326418"
 响应组使用情况报告的值得关注的用途之一可能不是显而易见的：能够检索单个响应组工作流的使用情况信息。
 
 > [!CAUTION]
-> 响应组工作流基本上是一组说明，用于确定Skype for Business Server拨打特定电话号码时执行哪些操作。 为此，每个工作流都唯一地与一个电话号码关联。 当有人呼叫该号码时，工作流将确定如何处理该呼叫。 例如，工作流可能会导致将呼叫路由到一系列互动语音响应 (IVR) 问题，提示呼叫者输入其他信息 ("按 1 获取硬件支持。 按 2 以获取软件支持”）。 或者，工作流可能导致呼叫置于队列中，呼叫者将置于呼叫等待状态，直到代理可以应答呼叫。 工作流也可指示是否有代理能够应答呼叫：工作流用于配置工作时间（代理在一周中的哪几天、一天中的哪些时段能够应答呼叫）和假日（代理无法应答呼叫的日期）。 拨打属于响应组应用程序的电话号码时，实际上是在调用响应组工作流。 
+> 响应组工作流基本上是一组说明，用于确定Skype for Business Server拨打特定电话号码时执行哪些操作。 为此，每个工作流都唯一地与一个电话号码关联。 当有人呼叫该号码时，工作流将确定如何处理该呼叫。 例如，工作流可能会导致呼叫路由到一系列互动语音响应 (IVR) 问题，这些问题提示呼叫者输入其他信息 (按 1 获取硬件支持。 按 2 以获取软件支持”）。 或者，工作流可能导致呼叫置于队列中，呼叫者将置于呼叫等待状态，直到代理可以应答呼叫。 工作流也可指示是否有代理能够应答呼叫：工作流用于配置工作时间（代理在一周中的哪几天、一天中的哪些时段能够应答呼叫）和假日（代理无法应答呼叫的日期）。 拨打属于响应组应用程序的电话号码时，实际上是在调用响应组工作流。 
 
 虽然工作流 URI 不显示在响应组使用情况报告中，但仍可以查看单个工作流的使用情况统计信息，这通常极其有用。例如，假定您最近开展了一项新的广告活动并很想知道人们是否通过电话询问该产品。如果您已将响应组工作流与广告活动中提供的电话号码相关联，则可以轻松地查看有多少人（如果有）呼叫了该号码。
 
 您可能还使用类似的方法来测量内部技术支持或客户服务部门处理的呼叫数。
 
-若要查看特定工作流的使用情况统计信息，请在“工作流 URI”框中输入工作流 URI。 当然，正如上文所述，工作流 URI（与工作流关联的 SIP 地址）不显示在报告上。 这意味着您需要查找某种其他方法来确定工作流的 URI。 这样做的一种方式是使用命令行Windows PowerShell命令行Skype for Business Server命令行管理程序。 例如，以下命令返回您的所有响应组工作流的 URI：
+若要查看特定工作流的使用情况统计信息，请在“工作流 URI”框中输入工作流 URI。 当然，正如上文所述，工作流 URI（与工作流关联的 SIP 地址）不显示在报告上。 这意味着您需要查找某种其他方法来确定工作流的 URI。 为此，一种方式是使用 Windows PowerShell 命令行Skype for Business Server命令行管理程序。 例如，以下命令返回您的所有响应组工作流的 URI：
 
 ```PowerShell
 Get-CsRgsWorkflow | Select-Object Name, PrimaryUri
@@ -116,7 +116,7 @@ Get-CsRgsWorkflow -Name "New Ad Campaign" | Select-Object Name, PrimaryUri
 
 |**名称**|**是否可按此项排序？**|**说明**|
 |:-----|:-----|:-----|
-|**每小时** <br/> **每天** <br/> **每周** <br/> **每月一次** <br/> |否  <br/> |指示所选的时间间隔。 如果适用，可单击某一给定的时间间隔以查看该间隔的详细信息。 例如，如果使用"每天"间隔并单击 2015/7/7，则会看到该日期的用户注册活动的每小时细分信息。  <br/> |
+|**每小时** <br/> **每天** <br/> **每周** <br/> **每月** <br/> |否  <br/> |指示所选的时间间隔。 如果适用，可单击某一给定的时间间隔以查看该间隔的详细信息。 例如，如果使用"每天"间隔并单击 2015/7/7，则会看到该日期的用户注册活动的每小时细分信息。  <br/> |
 |**收到的呼叫** <br/> |否  <br/> |响应组应用程序的所有实例收到的呼叫总数。单击此项时，报告向您显示所选时间段的响应组呼叫列表报告。  <br/> |
 |**成功呼叫** <br/> |否  <br/> |响应组应用程序接听的呼叫总数。单击此项时，报告向您显示所选时间段的响应组呼叫列表报告。  <br/> |
 |**提供的呼叫** <br/> |否  <br/> |转接到响应组代理的呼叫总数。单击此项时，报告向您显示所选时间段的响应组呼叫列表报告。  <br/> |

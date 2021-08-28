@@ -19,36 +19,36 @@ f1.keywords:
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 本文介绍如何在停用本地环境后管理属性。
-ms.openlocfilehash: 5f130cce4a464a2e7a7c1823d6b3d297931d02ab
-ms.sourcegitcommit: b17e5acadcca0261eaccc64e1b4ee457348f975c
+ms.openlocfilehash: 9f78dbcfaf1c753d18cc2e85a6b209248c2feea8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58365809"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636893"
 ---
 # <a name="decide-how-to-manage-attributes-after-decommissioning"></a>决定如何在解除授权后管理属性
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 
-默认情况下，之前已启用 Skype for Business Server随后移动到云的所有用户在本地 Active Directory 中仍配置了 msRTCSIP 属性。 
+默认情况下，以前启用了 Skype for Business Server 随后移动到云的所有用户在本地 Active Directory 中仍配置了 msRTCSIP 属性。 
 
 这些属性（尤其是 sip 地址 (msRTCSIP-PrimaryUserAddress) 以及可能的电话号码 (msRTCSIP-Line) ）将继续同步到 Azure AD。 如果需要更改任何 msRTCSIP 属性，则必须在本地 Active Directory 中进行更改，然后同步到 Azure AD。 但是，Skype for Business Server部署后，Skype for Business Server工具将不能用于管理这些属性。
 
 有两个选项可用于处理这种情况：
 
-1. 将启用的用户保留为Skype for Business帐户，然后使用 Active Directory 工具管理 msRTCSIP 属性。 这可确保迁移用户不会丢失服务，并允许你通过消除 (（例如擦除) 服务器）轻松删除 Skype for Business Server 部署，而无需完全停用。 但是，新授权的用户不会在本地 Active Directory 中填充这些属性，并且需要联机管理。
+1. 将启用的用户保留为Skype for Business帐户，然后使用 Active Directory 工具管理 msRTCSIP 属性。 这可确保迁移的用户不会丢失服务，并允许你通过消除 (（例如擦除服务器) ）轻松删除 Skype for Business Server 部署，而无需完全停用。 但是，新授权的用户不会在本地 Active Directory 中填充这些属性，并且需要联机管理。
 
 2.  清除本地 Active Directory 中迁移用户的所有 msRTCSIP 属性，然后使用联机工具管理这些属性。 此方法允许现有用户和新用户采用一致的管理方法，但可能会导致本地停用过程中暂时丢失服务。
 
 
 ## <a name="method-1---manage-sip-addresses-and-phone-numbers-for-users-in-active-directory"></a>方法 1 - 在 Active Directory 中管理用户的 sip 地址和电话号码
 
-即使已取消本地部署，管理员也可以管理以前从本地Skype for Business Server移动到云的用户。 
+管理员可管理以前从本地部署Skype for Business Server移动到云的用户，即使内部部署已停用。 
 
-如果要更改用户的 sip 地址或用户的电话号码 (并且 sip 地址或电话号码在本地 Active Directory) 中已有值，则必须在本地 Active Directory 中这样做，让值 (s) 流向 Azure AD。 这不需要本地Skype for Business Server。 相反，您可以直接在本地 Active Directory 中修改这些属性，使用 Active Directory 用户和计算机 MMC 管理单元 (如下面的) 所示，或者使用 PowerShell。 如果使用的是 MMC 管理单元，请打开用户的属性页，单击"属性编辑器"选项卡，并查找要修改的适当属性：
+如果要更改用户的 sip 地址或用户的电话号码 (并且 sip 地址或电话号码在本地 Active Directory) 中已有值，则必须在本地 Active Directory 中这样做，让值 (s) 流向 Azure AD。 这不需要本地Skype for Business Server。 相反，您可以直接在本地 Active Directory 中修改这些属性，使用 Active Directory 用户和计算机 MMC 管理单元 (如下) 所示，或者使用 PowerShell。 如果使用的是 MMC 管理单元，请打开用户的属性页，单击"属性编辑器"选项卡，并查找要修改的适当属性：
 
 - 若要修改用户的 sip 地址，请修改 `msRTCSIP-PrimaryUserAddress` 。
 
@@ -66,7 +66,7 @@ ms.locfileid: "58365809"
 
 ## <a name="method-2---clear-skype-for-business-attributes-for-all-on-premises-users-in-active-directory"></a>方法 2 - Skype for Business Active Directory 中所有本地用户的自定义属性
 
-此选项需要做额外的工作并进行适当的规划，因为以前从本地Skype for Business Server移动到云的用户需要重新预配。 可以将这些用户分为两个不同的类别：没有电话系统的用户和具有电话系统。 在将电话系统 Active Directory 中管理到云中时，拥有此号码的用户将遇到电话服务暂时丢失的问题。 **建议在启动批量用户操作之前执行涉及少量用户电话系统执行试点。** 对于大型部署，可以在不同的时间窗口中以较小的组处理用户。 
+此选项需要进行额外的努力和适当的规划，因为需要重新预配之前从本地Skype for Business Server移动到云的用户。 可以将这些用户分为两个不同的类别：没有电话系统的用户和具有电话系统。 在将电话系统 Active Directory 中管理的电话号码转换为云时，拥有此号码的用户将遇到电话服务暂时丢失的问题。 **建议在启动批量用户操作之前执行涉及少量用户电话系统试点。** 对于大型部署，可以在不同的时间窗口中以较小的组处理用户。 
 
 > [!NOTE] 
 > 对于具有匹配的 sip 地址和 UserPrincipalName 的用户，此过程最简单。 对于用户具有跨这两个属性的不匹配值的组织，必须格外小心，如下所述，以便顺利过渡。
@@ -81,7 +81,7 @@ ms.locfileid: "58365809"
    Get-CsUser -Filter { HostingProvider -eq "SRV:"} | Select-Object Identity, SipAddress, UserPrincipalName, RegistrarPool
    ```
 
-2. 通过执行以下本地 Skype for Business Server PowerShell cmdlet 导出用户数据，记录用户的当前电话号码 (LineUri) 、UserPrincipalName 和相关信息：
+2. 通过执行以下本地 Skype for Business Server PowerShell cmdlet 导出用户数据 (LineUri) 、UserPrincipalName 和相关信息，记录用户的当前电话号码：
 
    ```PowerShell
    Get-CsUser | Select-Object SipAddress, UserPrincipalName, SamAccountName, RegistrarPool, HostingProvider, EnabledForFederation, EnabledForInternetAccess, LineUri, EnterpriseVoiceEnabled, HostedVoiceMail | Sort SipAddress | Export-Csv -Path  "c:\backup\SfbUserSettings.csv"
@@ -102,7 +102,7 @@ ms.locfileid: "58365809"
 4. 从 active Directory 中删除Skype for Business Server准备更新的一组用户的属性信息。  此过程有 2 个步骤，如下所示。
 
    > [!Important] 
-   > 运行此步骤后的下一个 AAD Sync 循环后，具有 电话系统 的用户（以前从本地 Skype for Business Server 移动到云）将失去拨打和接听呼叫的能力，直到步骤 8 成功完成，且在步骤 9 中确认。 此外，请确保已按步骤 2 保存用户的电话号码和相关信息，因为此步骤需要该信息。
+   > 运行此步骤AAD Sync下一个 AAD Sync 周期后，具有 电话系统 的用户（以前从本地 Skype for Business Server 移动到云）将失去拨打和接听呼叫的能力，直到步骤 8 成功完成，且在步骤 9 中确认。 此外，请确保已按步骤 2 保存用户的电话号码和相关信息，因为此步骤需要该信息。
 
  
    ```PowerShell
@@ -119,7 +119,7 @@ ms.locfileid: "58365809"
    Set-ADUser -Identity $user.SamAccountName -Clear msRTCSIP-DeploymentLocator}
    ```
 
-5. 运行以下内部部署 Active Directory 模块，Windows PowerShell cmdlet 将 sip 地址值添加回本地 Active Directory 代理Addresses。 这将防止依赖此属性的互操作性问题。 
+5. 运行以下内部部署 Active Directory 模块Windows PowerShell cmdlet，将 sip 地址值添加回本地 Active Directory 代理Addresses。 这将防止依赖此属性的互操作性问题。 
 
    ```PowerShell
    $sfbusers=import-csv "c:\data\SfbUsers.csv"
@@ -159,7 +159,7 @@ ms.locfileid: "58365809"
     ```
 
    > [!Note]
-   >  如果仍有 Skype for Business 终结点 (客户端Skype第三方) ，则还需要将 -HostedVoiceMail 设置为 $true。 如果组织仅将 Teams终结点用于启用语音的用户，则此设置不适用于您的用户。 
+   >  如果仍有 Skype for Business 终结点 (客户端Skype第三方) ，则还需要将 -HostedVoiceMail 设置为 $true。 如果您的组织仅对启用Teams的用户使用语音终结点，则此设置不适用于您的用户。 
 
 9. 确认具有电话系统功能的用户已正确设置。 下面的 powerShell Teams在进程完成后将返回空结果。
 
@@ -194,12 +194,12 @@ ms.locfileid: "58365809"
     Get-CsOnlineUser -Filter {Enabled -eq $True -and (OnPremHostingProvider -ne $null -or MCOValidationError -ne $null -or ProvisioningStamp -ne $null -or SubProvisioningStamp -ne $null)} | fl SipAddress, InterpretedUserType, OnPremHostingProvider, MCOValidationError, *ProvisioningStamp
     ``` 
 
-12. 完成方法 2 的所有步骤后，请参阅将混合[](decommission-move-on-prem-endpoints.md)应用程序终结点从本地移动到联机和删除本地[Skype for Business Server，](decommission-remove-on-prem.md)了解删除本地部署Skype for Business Server的步骤。
+12. 完成方法 2 的所有步骤后，请参阅将混合[](decommission-move-on-prem-endpoints.md)应用程序终结点从本地移动到联机和删除本地[Skype for Business Server，](decommission-remove-on-prem.md)了解删除 Skype for Business Server 本地部署的其他步骤。
 
 
 ## <a name="see-also"></a>另请参阅
 
-- [云合并Teams和Skype for Business](cloud-consolidation.md)
+- [云解决方案Teams Skype for Business](cloud-consolidation.md)
 
 - [停用本地 Skype for Business 环境](decommission-on-prem-overview.md)
 

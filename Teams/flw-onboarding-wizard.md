@@ -9,18 +9,18 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: 了解如何使用"一线员工加入向导"在Teams为组织中一线员工和经理量身定制的体验。
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 461e73a4c4008d028e564c25b5842c7b59e2a57b
-ms.sourcegitcommit: b17e5acadcca0261eaccc64e1b4ee457348f975c
+ms.openlocfilehash: da44a5eb25e56a974214472782e424cda735b6dc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58365912"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636800"
 ---
 # <a name="use-the-frontline-worker-onboarding-wizard-to-get-your-frontline-workforce-up-and-running"></a>使用"一线员工加入向导"让一线员工启动并运行
 
@@ -29,14 +29,14 @@ ms.locfileid: "58365912"
 
 ## <a name="overview"></a>概述
 
-"一线员工加入"向导Microsoft 365 管理中心简化了将一线员工加入组织。 通过向导，可以在专为一线员工Microsoft Teams部署体验。 使用向导，可以轻松开始试点部署Teams组织中一线员工部署。
+"一线员工加入向导"Microsoft 365 管理中心简化了将一线员工加入组织。 通过向导，可以在专为一线员工Microsoft Teams部署体验。 使用向导，可以轻松开始为组织的一线Teams试点部署。
 
 该向导为一线员工设置一个团队，并将许可证和 [策略包](manage-policy-packages.md) 分配给每个团队成员。 可以从头开始或从团队模板创建团队，然后[](get-started-with-teams-templates-in-the-admin-console.md)添加用户并分配角色。 该角色确定向导分配给每个用户的策略包。
 
-该向导适用于至少具有一个 F 许可证Microsoft 365组织。 可以多次运行该向导，以向Teams或组织中不同位置的一线员工推出该向导。
+该向导可供至少具有一个 F 许可证的所有Microsoft 365使用。 可以多次运行向导，以在整个组织的不同位置或Teams一线员工推出该向导。
 
 > [!NOTE]
-> 通过此向导，可快速载入一线Teams通过 Microsoft 365 管理中心。 有关如何使用脚本将 Teams部署到一线员工，请参阅如何为Teams工作人员大规模[预配服务](flw-scripted-deployment.md)。
+> 通过此向导可以快速载入一线员工，Teams通过 Microsoft 365 管理中心。 有关如何使用脚本将 Teams部署到一线员工，请参阅如何为Teams工作人员大规模[预配服务](flw-scripted-deployment.md)。
 
 ## <a name="run-the-wizard"></a>运行向导
 
@@ -54,7 +54,7 @@ ms.locfileid: "58365912"
     - 前端管理器
     - 无
 
-    通过分配一个"前端辅助角色"或"前端管理员"角色，该用户Teams角色量身定制的体验。 这包括用于正常一线辅助角色和经理通信和协作的预固定应用和策略。
+    通过分配一个"前端辅助角色"或"前端管理员"角色，该用户将在Teams角色量身定制的体验。 这包括用于正常一线辅助角色和经理通信和协作的预固定应用和策略。
 
     接下来，为每个Microsoft 365分配一个 F 许可证。 如果没有足够的许可证，可以选择"购买更多许可证 **"以购买** 更多许可证。  
 

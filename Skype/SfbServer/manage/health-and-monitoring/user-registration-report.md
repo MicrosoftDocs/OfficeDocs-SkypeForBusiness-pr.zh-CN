@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 151d5cc9-cc1b-4cfa-be9c-55ebe321f7a4
 description: 摘要：了解 Skype for Business Server 中的用户注册报告。
-ms.openlocfilehash: 1202c18f831c36fcc4b3ce7073b15c1ee5aa1776060cde5098b41dcb4f635130
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6424d3b0c90bf8b9286f03f7997e286b38193d6d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315588"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593676"
 ---
 # <a name="user-registration-report-in-skype-for-business-server"></a>用户注册报告中Skype for Business Server
  
@@ -35,9 +35,9 @@ ms.locfileid: "54315588"
   
 ## <a name="making-the-best-use-of-the-user-registration-report"></a>充分利用用户注册报告
 
-部署后Skype for Business Server一个常见问题：我如何知道我的用户是否确实使用此新技术？ 尽管对于这一点仍存在一些限制，但用户注册报告可以帮助您回答此问题。 若要确定用户是否正在使用Skype for Business Server，您需要执行两项操作。 首先，从用户注册报告中获取“唯一登录用户”指标的值。 此值告诉你有多少不同个人登录到Skype for Business Server。
+在部署此Skype for Business Server一个常见问题是：我如何知道我的用户是否真正使用此新技术？ 尽管对于这一点仍存在一些限制，但用户注册报告可以帮助您回答此问题。 若要确定用户是否正在使用Skype for Business Server，您需要执行两项操作。 首先，从用户注册报告中获取“唯一登录用户”指标的值。 此值告诉你有多少不同个人登录到Skype for Business Server。
   
-相比之下，"登录总数"指标显示任何人登录到登录Skype for Business Server。 例如，假设 Ken Myer 在一Skype for Business Server五次登录。 在此情况下，Ken Myer 将在“登录总数”指标中记为五次单独的登录会话，但对于“唯一登录用户”指标只是一个登录用户。 同样，一个用户从多个设备或多个位置登录的情况也很常见。 例如，用户可以使用台式机、笔记本电脑登录，并且可以使用 IP 电话自动登录Skype for Business Server。 在此示例中，一个唯一用户登录三次。
+相比之下，"登录总数"指标显示任何人登录登录Skype for Business Server。 例如，假设 Ken Myer 在一Skype for Business Server五次登录。 在此情况下，Ken Myer 将在“登录总数”指标中记为五次单独的登录会话，但对于“唯一登录用户”指标只是一个登录用户。 同样，一个用户从多个设备或多个位置登录的情况也很常见。 例如，用户可以使用台式机、笔记本电脑登录，并且可以使用 IP 电话自动登录Skype for Business Server。 在此示例中，一个唯一用户登录三次。
   
 为了进一步解释登录总数和唯一登录之间的差别，请考虑下表中给定时间段的登录数。
   
@@ -51,20 +51,20 @@ ms.locfileid: "54315588"
    
 请注意，总共有五次登录；但只有两个唯一登录用户：Ken Myer（登录三次）和 Pilar Ackerman（登录两次）。这就是登录用户和唯一登录用户之间的差异。
   
-除了知道唯一登录数之外，还需要了解已启用登录的用户总数Skype for Business Server。 可以通过打开命令行管理程序并运行以下命令Skype for Business Server Windows PowerShell检索该值：
+除了知道唯一登录数之外，还需要了解已启用登录的用户总数Skype for Business Server。 可以通过打开命令行管理程序并运行以下命令行管理Skype for Business Server检索该值Windows PowerShell命令：
   
 ```PowerShell
 (Get-CsUser).Count
 ```
 
-如果上述命令返回值 1，236，并且"唯一登录用户"指标返回平均值 667，则表明为 Skype for Business 启用的用户中，有一半多一半实际每天登录系统 (即 667 除以 1，236，大约 54%) 。
+如果上述命令返回值 1，236，并且"唯一登录用户"指标返回平均值 667，则表明为 Skype for Business 启用的用户中，有一半以上的用户每天实际登录系统 (即 667 除以 1，236，大约 54%) 。
   
 > [!CAUTION]
 > 请记住，登录指标记录指定时段内实际登录的用户。 它们不会跟踪已登录到系统的用户。 例如，如果你的唯一登录用户指标显示 667 次登录，并且你有 1，236 个用户，则表明大约一半的用户登录系统。 但是，假设在开始检查登录数据时已有 300 个用户登录到系统。 这意味着您实际上有近 1，000 个用户登录到 Skype for Business Server，这意味着接近 80% 的用户已登录。 
   
-还应将“唯一登录用户”值与“唯一活动用户”指标的值进行比较。 "唯一活动用户"指标会告知您实际使用 Skype for Business Server用户数：他们进行了电话呼叫、加入了 Skype for Business Server 会议或参与了 IM 会话。 此信息非常有用，因为Skype for Business Server可以配置为每次用户启动项目时自动Windows。 因此，您可能有大量用户在每天登录到 Windows 时自动登录到 Skype for Business，但之后在这一时段内从未实际Skype for Business Server使用 Skype for Business Server。
+还应将“唯一登录用户”值与“唯一活动用户”指标的值进行比较。 "唯一活动用户"指标会告知您实际使用 Skype for Business Server用户数：他们进行了电话呼叫、Skype for Business Server会议或参与了 IM 会话。 此信息非常有用，因为Skype for Business Server可以配置为每次用户启动时自动启动Windows。 因此，可能有大量用户在每天登录到 Windows 时自动登录到 Skype for Business，但在该时段内从未实际Skype for Business Server使用 Skype for Business Server。
   
-"唯一活动用户"指标还在组织中提供更有意义的数据，其中用户通常Windows在一天结束时不注销。 相反，他们只需锁定计算机，Windows Skype for Business运行。 在此类情况下，由于用户在若干天之前登录并且从未注销，因此每天的登录数可能很少。 但是，"唯一活动用户"会告知用户是主动Skype for Business还是Skype for Business Server客户端。
+"唯一活动用户"指标还在组织中提供更有意义的数据，其中用户通常不会Windows一天结束时注销。 相反，他们只需锁定计算机，Windows Skype for Business运行。 在此类情况下，由于用户在若干天之前登录并且从未注销，因此每天的登录数可能很少。 但是，"唯一活动用户"会告知用户是主动Skype for Business还是Skype for Business Server客户端。
   
 ## <a name="filters"></a>筛选器
 
@@ -89,7 +89,7 @@ ms.locfileid: "54315588"
 
 |**名称**|**是否可按此项排序？**|**说明**|
 |:-----|:-----|:-----|
-|**每小时** <br/> **每天** <br/> **每周** <br/> **每月一次** <br/> |否  <br/> |指示在筛选器工具栏上选择的时间间隔。 如果适用，可单击某一给定的时间间隔以查看该间隔的详细信息。 例如，如果使用"每天"间隔并单击 2015/7/7，则会看到该日期的用户注册活动的每小时细分信息。  <br/> |
+|**每小时** <br/> **每天** <br/> **每周** <br/> **每月** <br/> |否  <br/> |指示在筛选器工具栏上选择的时间间隔。 如果适用，可单击某一给定的时间间隔以查看该间隔的详细信息。 例如，如果使用"每天"间隔并单击 2015/7/7，则会看到该日期的用户注册活动的每小时细分信息。  <br/> |
 |**登录总数** <br/> |否  <br/> |成功的登录会话总数。  <br/> |
 |**内部登录数** <br/> |否  <br/> |内部网络中的登录总数。  <br/> |
 |**外部登录数** <br/> |否  <br/> |内部网络之外使用边缘服务器的登录总数。  <br/> |

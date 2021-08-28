@@ -9,19 +9,19 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8d362dd9-a119-4601-a3b4-3e7ed0aaa92e
 description: 摘要：了解在呼叫服务中使用的多用户呼叫Skype for Business Server。
-ms.openlocfilehash: 19ceb9a7fa58c53e209aaa4fde1ed530d20d7d1a5e6431d2da84d14f01740a60
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4487c320d591c5d64fd209818824ffd1ce045d48
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333494"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623644"
 ---
 # <a name="call-diagnostic-reports-in-skype-for-business-server"></a>呼叫诊断报告中Skype for Business Server
  
-**摘要：** 了解在呼叫诊断中使用的多用户呼叫诊断Skype for Business Server。
+**摘要：** 了解在呼叫诊断中使用的多用户呼叫Skype for Business Server。
   
 呼叫诊断报告提供失败的点对点会话和会议会话的摘要信息及诊断数据。
   
@@ -39,6 +39,6 @@ ms.locfileid: "54333494"
     
 - [报告中的故障Skype for Business Server](failure-list-report.md)提供有关失败的会议所涉及的单个参与者的详细信息。
     
-- [诊断报告中Skype for Business Server](diagnostic-report.md)提供诊断和疑难解答 (包括失败的会话的 SIP 响应代码、) 头和 ID。
+- [诊断报告中Skype for Business Server](diagnostic-report.md)提供诊断和疑难解答信息 (包括失败的会话的 SIP 响应代码、) 头和 ID。
     
 

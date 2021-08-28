@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c99ee134-8294-4481-bb4e-710fe85a39ca
 description: 本文介绍如何管理在拓扑中Skype for Business Server服务。
-ms.openlocfilehash: ac09cc3d387fb74c28a1908489071a739fa1bbc65d5d1f6e53758db61b0cbf29
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 45af8756feda61d0a0bac06beedddcc693591346
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295409"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593636"
 ---
 # <a name="manage-services-for-skype-for-business-server"></a>管理服务Skype for Business Server
 
@@ -28,9 +28,9 @@ ms.locfileid: "54295409"
 
 可以使用Skype for Business Server控制面板查看在拓扑中运行Skype for Business Server计算机的列表，并查看每台计算机的服务状态。 可以按计算机、池或站点对列表进行排序。 
   
-### <a name="to-view-a-list-of-computers-running-skype-for-business-server"></a>查看运行 Skype for Business Server 的计算机Skype for Business Server
+### <a name="to-view-a-list-of-computers-running-skype-for-business-server"></a>查看运行 Skype for Business Server
 
-1. 从分配给用户的任何预定义管理角色的用户帐户Skype for Business Server登录到内部部署中的任意计算机。 有关这些角色中可用的预定义管理角色Skype for Business Server，请参阅 Planning **for Role-Based Access Control**。   
+1. 从分配给用户的任何预定义管理角色的用户帐户Skype for Business Server内部部署中的任意计算机。 有关这些角色中可用的预定义管理角色Skype for Business Server，请参阅 Planning **for Role-Based Access Control**。   
 2. 打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。   
 3. 在左侧导航栏中，单击“拓扑”，然后单击“状态”。   
 4. 根据需要，在“状态”页上执行下列任意操作：
@@ -55,7 +55,7 @@ ms.locfileid: "54295409"
     
 ### <a name="viewing-service-status-with-windows-powershell-cmdlets"></a>使用 Powershell cmdlet Windows服务状态
 
-您还可以使用 **Get-CsWindowsService** cmdlet 和 Windows PowerShell查看服务状态。 还可从 Skype for Business Server Management Shell 或 Windows PowerShell 远程会话运行此 cmdlet。 有关使用远程 Windows PowerShell连接到 Skype for Business Server 的详细信息，请参阅博客文章"快速入门：使用远程[PowerShell 管理 Microsoft Lync Server 2010"。](https://go.microsoft.com/fwlink/p/?linkId=255876) 此过程在Skype for Business Server。
+您还可以使用 **Get-CsWindowsService** cmdlet 和 Windows PowerShell查看服务状态。 还可从 Skype for Business Server Management Shell 或 Windows PowerShell 远程会话运行此 cmdlet。 有关使用远程 Windows PowerShell连接到 Skype for Business Server 的详细信息，请参阅博客文章"快速入门：使用远程[PowerShell 管理 Microsoft Lync Server 2010"。](https://go.microsoft.com/fwlink/p/?linkId=255876) 此过程在 Skype for Business Server 中Skype for Business Server。
   
 ### <a name="to-view-service-status"></a>查看服务状态
 
@@ -86,7 +86,7 @@ Get-CsWindowsService -ComputerName atl-cs-001.litwareinc.com | Select-Object Rol
   
 ### <a name="to-view-details-for-a-service"></a>查看服务的详细信息
 
-1. 从分配给用户的任何预定义管理角色的用户帐户Skype for Business Server登录到内部部署中的任意计算机。 有关这些角色中可用的预定义管理角色Skype for Business Server，请参阅 Planning **for Role-Based Access Control**。
+1. 从分配给用户的任何预定义管理角色的用户帐户Skype for Business Server内部部署中的任意计算机。 有关这些角色中可用的预定义管理角色Skype for Business Server，请参阅 Planning **for Role-Based Access Control**。
 2. 打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。 
 3. 在左侧导航栏中，单击“拓扑”，然后单击“状态”。
 4. 在“状态”页中，对列表进行排序或搜索列表，然后单击要查看的计算机。
@@ -104,7 +104,7 @@ Get-CsWindowsService -ComputerName atl-cs-001.litwareinc.com | Select-Object Rol
   
 ### <a name="to-start-or-stop-all-skype-for-business-services-on-a-computer"></a>启动或停止Skype for Business所有服务
 
-1. 从 RTCUniversalServerAdmins 组 (或具有等效用户权限) 的用户帐户，或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署 Skype for Business Server 的网络中的任何计算机。 通过运行与以下内容类似的命令，您可以确定是否已分配了 CsServerAdministrator 或 CsAdministrator RBAC 角色：
+1. 从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署了 Skype for Business Server 的网络内的任何计算机。 通过运行与以下内容类似的命令，您可以确定是否已分配了 CsServerAdministrator 或 CsAdministrator RBAC 角色：
     
    ```PowerShell
    Get-CsAdminRoleAssignment -Identity "kenmyer"
@@ -135,7 +135,7 @@ Get-CsWindowsService -ComputerName atl-cs-001.litwareinc.com | Select-Object Rol
   
 ### <a name="to-prevent-new-sessions-for-all-skype-for-business-services-on-a-computer"></a>阻止计算机上所有 Skype for Business服务的新会话
 
-1. 从 RTCUniversalServerAdmins 组 (或具有等效用户权限) 的用户帐户，或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署 Skype for Business Server 的网络中的任何计算机。
+1. 从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署了 Skype for Business Server 的网络内的任何计算机。
 2. 打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。 
 3. 在左侧导航栏中，单击“拓扑”，然后单击“状态”。
 4. 在“状态”页上，根据需要对列表进行排序或搜索，以查找正在运行要对其阻止新会话的服务的计算机，然后单击该计算机。
@@ -144,7 +144,7 @@ Get-CsWindowsService -ComputerName atl-cs-001.litwareinc.com | Select-Object Rol
     
 ### <a name="to-prevent-new-sessions-for-a-specific-service"></a>阻止特定服务的新会话
 
-1. 从 RTCUniversalServerAdmins 组 (或具有等效用户权限) 的用户帐户，或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署 Skype for Business Server 的网络中的任何计算机。
+1. 从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署了 Skype for Business Server 的网络内的任何计算机。
 2. 打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。 
 3. 在左侧导航栏中，单击“拓扑”，然后单击“状态”。
 4. 在“状态”页上，根据需要对列表进行排序或搜索列表，以查找正在运行要启动或停止的服务的计算机，然后单击该计算机。 

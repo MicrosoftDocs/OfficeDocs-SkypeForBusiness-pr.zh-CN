@@ -1,5 +1,5 @@
 ---
-title: 有关实现升级到 Microsoft Teams 的概述
+title: 概述如何实施升级到 Microsoft Teams
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -7,8 +7,8 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: 根据当前部署确定Microsoft Teams升级路径Skype for Business路径。
-localization_priority: Normal
+description: 根据当前部署确定Microsoft Teams升级Skype for Business路径。
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c0794e855fac3f911b028c049289beaa13a571473f32f84509c6d219d92bdd78
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 726355c7edf145dec6eeaf9ec1904119c15a3275
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282475"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616128"
 ---
 # <a name="overview-of-implementing-your-upgrade"></a>实现升级的概述
 
@@ -51,11 +51,11 @@ ms.locfileid: "54282475"
 
 ## <a name="choose-your-upgrade-starting-point"></a>选择升级起点
 
-执行升级以升级到 Teams的步骤取决于当前部署Skype for Business：
+执行升级到 Teams的步骤取决于当前部署Skype for Business：
 
 根据当前环境，选择起点：  
 
-- **如果要从 Skype for Business Online** 升级到 Teams，请按照从 [Skype for Business Online 升级到 Teams。](./upgrade-to-teams-execute-skypeforbusinessonline.md)
+- **如果要从** Skype for Business Online 升级到 Teams，请按照从 Skype for Business Online 升级到 [Teams。](./upgrade-to-teams-execute-skypeforbusinessonline.md)
 
 -  如果要 **从** Skype for Business 本地环境升级，则需要执行一些额外步骤，在本地和联机环境之间设置连接，然后再将用户移动到 Teams。 有关详细信息，请参阅将[Skype for Business升级到 Teams。](upgrade-to-teams-execute-SkypeforBusinessHybridOnPrem.md)
 

@@ -14,19 +14,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Licensing
 - LIL_Placement
 description: '了解有关加载项许可证、功能和如何购买 Office 365 企业版 E1、E3 和 E4 计划。 '
-ms.openlocfilehash: 16752a076b84bc8ad8fe65251732af65993cb73784e7589c275fd42ac71c4352
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 25f45b9bb84a572c23feb33972c39693695f69e9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316448"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594796"
 ---
 # <a name="office-365-enterprise-e1-e3-and-e4"></a>Office 365 企业版 E1、E3 和 E4
 
@@ -74,7 +74,7 @@ The E3 plan is part of your Action Pack. To buy the **Phone System** and **Audio
 
 少数情况下，在 Microsoft 365 管理中心看不到用于购买 Skype for Business 加载项的选项。
 
-- **你通过 goDaddy Microsoft 365 商业标准版购买。** 在这种情况下，你无法购买 Skype for Business 附加许可证。 你需要切换到 GoDaddy 不 (的 E3 计划) ，然后你可以购买它们。 [联系商业产品的支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
+- **你通过 goDaddy Microsoft 365 商业标准版购买。** 在这种情况下，你无法购买 Skype for Business 附加许可证。 你需要切换到 GoDaddy 不 (E3 计划，) 购买。 [联系商业产品的支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
 
 - **You have a monthly commitment instead of an annual commitment**. In some cases, customers who have a monthly commitment can't buy the add-ons (this is different from the payment method, which can be monthly). This is a known issue that we are fixing. [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 

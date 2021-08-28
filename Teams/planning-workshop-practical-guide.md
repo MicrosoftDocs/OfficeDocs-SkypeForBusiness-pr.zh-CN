@@ -8,19 +8,19 @@ ms.service: msteams
 audience: admin
 ms.reviewer: karuanag
 description: 用于帮助组织开始使用 Microsoft Teams 的规划工具、研讨会和入门工具包。
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 5f384baff6aa12b241e69e0214f5aa9561e5c1df68970c949d9448a344b94cb7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 159ff348fcc519b2ddc837021263f5c6851214d1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282555"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636666"
 ---
 # <a name="tools-and-workshops-plan-deliver-and-adopt-microsoft-teams"></a>工具和研讨会：规划、交付和采用 Microsoft Teams
 
@@ -29,7 +29,7 @@ ms.locfileid: "54282555"
 
 - [Microsoft Teams 客户成功套件](https://aka.ms/TeamsCustomerSuccess)
 
-    此工具包包含各种演示文稿、电子邮件模板、提示&技巧和海报，可用于在组织中推广和推动Teams应用。 它包括两个适用于管理员和团队主管的快速入门指南，以及每个部门的用例示例。 使用这些资源充分利用Teams，包括市场营销、销售、财务、人力资源、IT、工程Project管理。
+    此工具包包含各种演示文稿、电子邮件模板、提示&技巧和海报，可用于在组织中推广和推动Teams应用。 它包括两个适用于管理员和团队主管的快速入门指南，以及每个部门的用例示例。 使用这些资源充分利用组织中各种Teams的功能，包括市场营销、销售、财务、人力资源、IT、工程Project管理。
 
 - [如何部署 Teams](./deploy-overview.md)
 
@@ -42,7 +42,7 @@ ms.locfileid: "54282555"
 
 - [Office 365 政府版客户](plan-for-government-gcc.md)
 
-   您Teams之旅与企业客户的体验非常类似。 随着Teams租户的已普遍可用，我们建议你首先阅读我们的 Microsoft 365[政府 -](plan-for-government-gcc.md) GCC 部署一文和管理员[快速入门指南](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx)。 我们的[安全性和符合性](security-compliance-overview.md)概述可帮助你确信Teams环境中的安全性。
+   您Teams之旅与企业客户的体验非常类似。 随着Teams租户的已普遍使用，我们建议你从我们的政府 - Microsoft 365 部署计划一文GCC[管理员](plan-for-government-gcc.md)[快速入门指南开始](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx)。 我们的[安全性和符合性](security-compliance-overview.md)概述可帮助你确信Teams环境中的安全性。
 
 - [Teams 教育版 - 管理员快速入门](./teams-quick-start-edu.yml)
 

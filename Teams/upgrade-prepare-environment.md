@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: landerl
 audience: admin
 description: 在开始从云到云的升级之前，请验证Skype for Business和网络Teams。
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 957f84ca8629dbc9effb440211220465f6be0640633638e70306c6e3dec6d0ec
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b12ed0ad9b662f4cc36a68ae7ee3b4340960517f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300728"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616138"
 ---
 # <a name="prepare-your-environment-for-upgrading-to-teams"></a>准备环境以升级到 Teams
 
@@ -38,7 +38,7 @@ ms.locfileid: "54300728"
 - [了解两者共存Skype for Business互操作性Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [选择了升级旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-若要在组织中Teams升级，必须验证当前Skype for Business网络就绪性。 准备当前环境有助于确保现在获得高质量的用户体验，此外，还有助于改善用户在 Teams。 花时间规划各个步骤有助于加快部署，并确保未跳过任何重要操作项目。
+若要在组织中Teams升级，必须验证当前Skype for Business网络就绪性。 准备当前环境有助于确保现在高质量的用户体验，此外，还有助于改善用户在 Teams。 花时间规划各个步骤有助于加速部署，并确保未跳过任何重要操作项目。
 
 在用户准备准备的同时完成这些活动：
 
