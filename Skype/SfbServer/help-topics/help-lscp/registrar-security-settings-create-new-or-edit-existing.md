@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.SecRegistrarEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: be480209-e0f4-4c2a-9f95-b0345ee01135
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: 73ae222a8884547f9a31b9ded8fa93f7fd3db19998d258e3b98d6064b9a50f47
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b218ae0c0c98b1506af4d6b479dafa0d9531b9cd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54305594"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600417"
 ---
 # <a name="registrar-security-settings-create-new-or-edit-existing"></a>注册器安全设置：创建新的或编辑现有的
 
@@ -32,4 +32,4 @@ ms.locfileid: "54305594"
 
 - [删除注册器](/previous-versions/office/lync-server-2013/lync-server-2013-delete-existing-registrar-configuration-settings)
 
-有关可以使用控制面板执行的不同过程的详细信息，Skype for Business Server Manage [Skype for Business Server 2015](../../manage/manage.md)。
+有关可以使用控制面板执行的不同过程的详细信息，请参阅 Manage [Skype for Business Server Skype for Business Server 2015](../../manage/manage.md)。

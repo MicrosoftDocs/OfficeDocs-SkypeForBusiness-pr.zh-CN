@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.OfficeCommunicationsServerScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ec5088ec-71b5-42cb-9f04-242716877178
 description: 这是初步文档，可能会更改。 空白主题作为占位符包含在内。
-ms.openlocfilehash: 848e4f936ec3e18937fb9ffdff6e4e5ca725d360e109f0c33d7ae80b0fc89a83
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a62ecd81d083e6f5c89d81f2d6ee950d4ccc943b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301428"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614242"
 ---
 # <a name="office-communications-server-scope-node"></a>Office Communications Server 范围节点
 

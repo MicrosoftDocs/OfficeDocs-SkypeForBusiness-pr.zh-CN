@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 985dc326-0aef-4308-b98b-c1d0069311e7
 description: 规划呼叫呼叫Skype for Business Server 企业语音，从而允许将呼叫置于保持状态以及将呼叫转接到部门。 包括容量规划、支持的呼叫和支持的客户端。
-ms.openlocfilehash: 40f6b08512bd76401a8bb881429737f0da53be952e2774099e82396522b79aeb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8bc69bedfd3abf7745ce25133ae8ac32d1eda032
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306863"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625174"
 ---
 # <a name="plan-for-call-park-in-skype-for-business"></a>Plan for Call Park in Skype for Business
  
@@ -31,32 +31,32 @@ ms.locfileid: "54306863"
   
 - 将呼叫置于保持状态，然后从同一电话或其他电话检索呼叫。
     
-- 将呼叫置于保持状态，以将呼叫转接到部门或 (部门，例如销售部门或具有公用区域电话的) 。
+- 将呼叫置于保持状态，以将呼叫转接到部门或常规 (例如，转接到销售部门或具有公用区域电话的) 。
     
 - 将呼叫置于保持状态，并保持原始应答电话对于其他呼叫是免费的。
     
 当用户取回呼叫时，Skype for Business Server呼叫转接到一个称为通道的临时号码，在此通道中，呼叫将一直持续到取回或时间过长。Skype for Business Server呼叫的用户发送通道。 要检索已呼叫，用户可以拨打通道号码，或单击"对话"窗口中的通道链接或按钮。 
   
-通过外部机制（如即时消息 (IM) 或分页系统）将通道号码传达给其他人，可通知呼叫者取回呼叫。 在取回呼叫时，将呼叫保留为"对话"窗口打开以接收通知。
+已呼叫的用户可通知某人使用外部机制（如即时消息 (IM) 或分页系统）检索呼叫，以将通道号码告知其他人。 在取回呼叫时，将呼叫保留为"对话"窗口打开以接收通知。
   
-由于通道范围是全局唯一的，因此，如果正确配置了路由，Skype for Business Server从任何站点或 PBX 电话取回呼叫。 如果在可配置的一定时间内没有人取回该呼叫，呼叫将回响到该呼叫的接听人。 如果此人未应答回叫，则呼叫将转接到回退目标，例如接线员（如果已配置）。 你可以配置呼叫在从 1 到 10 次转接之前回响次数。 如果没有人应答转接的呼叫，则呼叫将断开连接。 检索或断开呼叫时，将释放通道。
+由于通道范围是全局唯一的，因此，如果正确配置了路由，Skype for Business Server从任何站点或 PBX 电话取回呼叫。 如果在可配置的时间范围内没有人取回该呼叫，该呼叫将回响到该呼叫的接听人。 如果此人未应答回叫，则呼叫将转接到回退目标，例如接线员（如果已配置）。 你可以配置呼叫在从 1 到 10 次转接之前回响次数。 如果没有人应答转接的呼叫，则呼叫将断开连接。 检索或断开呼叫时，将释放通道。
   
 部署呼叫保留时，需要保留用于呼叫的分机号码范围。 这些分机需要为虚拟分机：未为其分配用户或电话的分机。 然后，使用分机号码范围配置呼叫托管通道表，并指定哪个应用程序服务托管处理每个范围的呼叫托管应用程序。 每个前端池在相应的后端服务器上都有一个呼叫库表，该表用于管理池中的呼叫。 通道范围列表存储在中央管理存储中，用于将通道路由到目标池。 每个Skype for Business Server部署和配置的呼叫库池都可以有一个或多个通道范围。 通道范围在整个部署中必须Skype for Business Server唯一。 
   
-还可以配置其他呼叫离开设置，例如呼叫的重定向位置（如果呼叫时间过长）以及电话上的人在离开时是否听到音乐。 还可以指定呼叫保持时要播放的音乐文件。
+此外，还可以配置其他呼叫离开设置，例如呼叫的重定向位置（如果呼叫时间过长）以及电话上的人在离开时是否听到音乐。 还可以指定呼叫保持时要播放的音乐文件。
   
 > [!NOTE]
 > 呼叫保留的自定义保持音乐文件不会作为 Skype for Business Server 灾难恢复过程的一部分进行备份，如果上载到池的文件已损坏、损坏或擦除，将丢失。 请始终保留为呼叫保留上载的自定义保持音乐文件的单独备份副本。 
   
-呼叫管理应用程序是呼叫企业语音。 在部署企业语音时，会自动安装并激活呼叫管理应用程序。 但是，在可以使用呼叫企业语音，管理员必须通过语音策略配置呼叫企业语音为用户启用它。
+呼叫管理应用程序是呼叫企业语音。 部署呼叫企业语音，将自动安装并激活呼叫管理应用程序。 但是，在可以使用呼叫企业语音，管理员必须通过语音策略配置呼叫企业语音为用户启用呼叫等待。
   
 ## <a name="deployment-and-requirements"></a>部署和要求
 
-部署呼叫管理程序时，会自动安装呼叫企业语音。 通过配置语音策略启用呼叫管理。
+部署呼叫管理中心时，会自动安装呼叫企业语音。 通过配置语音策略启用呼叫管理。
   
 ### <a name="software-requirements"></a>软件要求
 
-部署了呼叫库的所有前端服务器和 Standard Edition 服务器必须为运行 Windows Server 2008 R2 的服务器安装 Windows Media Format Runtime，或者为运行 Windows Server 2012 或 Windows Server 2012 R2 的服务器安装 Microsoft Media Foundation。 对于 Windows Server 2008 R2，Windows Media Format Runtime 作为桌面体验的一Windows安装。 Windows媒体格式运行时或 Microsoft Media Foundation 是呼叫Windows播放保持音乐 (.wma) 需要媒体格式运行时或 Microsoft Media Foundation。
+部署了呼叫库的所有前端服务器和 Standard Edition 服务器必须为运行 Windows Server 2008 R2 的服务器安装 Windows Media Format Runtime，或为运行 Windows Server 2012 或 Windows Server 2012 R2 的服务器安装 Microsoft Media Foundation。 对于 Windows Server 2008 R2，Windows Media Format Runtime 作为桌面体验的一Windows安装。 Windows媒体格式运行时或 Microsoft Media Foundation 是呼叫Windows播放保持音乐 (.wma) 文件所需的媒体格式运行时或 Microsoft Media Foundation。
   
 ### <a name="port-requirements"></a>端口要求
 

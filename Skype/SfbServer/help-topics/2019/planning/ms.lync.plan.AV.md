@@ -12,16 +12,16 @@ ms.custom:
 - ms.lync.plan.AV
 - ms.lync.plan.AV
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 466f5d2e-0e70-434c-8318-dfdefe679a31
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype for Business Server音频/ (A/V) 会议使用户能够参与实时音频或视频会议。
-ms.openlocfilehash: 6e9429c030ed3ed21c4873b80907adcee086ddf6554109c0c12d0ebb1b1c5b71
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b4313bc3961f1f752180ff253341bce7bed1df17
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300058"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597476"
 ---
 # <a name="audio-video-conferencing-planning-tool"></a>音频视频会议 (规划工具) 
  

@@ -11,20 +11,20 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.SqlInstancesScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 399dce5b-bd51-4693-89d9-3463c1d73ded
 ROBOTS: NOINDEX, NOFOLLOW
 description: "\"SQL存储\"节点列出了SQL Server拓扑中的数据库。 可以执行以下操作："
-ms.openlocfilehash: f5e4ad781fa2e5a4ec1e813cdb5c3e74157960b086ff96c86ba09ae05120f4e6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f8c19da041c532c623604d4513230089d91fb97a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54311650"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626804"
 ---
 # <a name="sql-instances-scope-node"></a>SQL 实例范围节点
  
-**"SQL存储**"节点列出了SQL Server中的数据库。 可以执行以下操作：
+**"SQL存储**"节点列出了SQL Server拓扑中的数据库。 可以执行以下操作：
   
 - **新建 SQL 存储**。 启动 **"定义SQL** 存储"向导，以向拓扑SQL Server新的数据库。
     

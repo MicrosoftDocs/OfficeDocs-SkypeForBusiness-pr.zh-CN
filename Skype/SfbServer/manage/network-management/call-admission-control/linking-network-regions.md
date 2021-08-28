@@ -9,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: '您可以配置两个网络区域之间的链接，以作为呼叫允许控制 (CAC) 的一部分。 '
-ms.openlocfilehash: 641d7b896c540301af1adaca24cb8e1057179262
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 56e94f6cc9e9bf0bd43c607eef53561a6129d468
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233677"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600067"
 ---
 # <a name="linking-network-regions-in-skype-for-business-server"></a>在 Skype for Business Server 中链接网络区域
 
@@ -27,7 +27,7 @@ ms.locfileid: "58233677"
 您可以查看两个网络区域之间作为呼叫允许控制 (CAC) 的一部分的链接。 网络内的区域通过物理广域网 (WAN) 连接进行链接。 可以使用"Skype for Business Server控制面板"查看两个网络区域之间的现有链接。 
 
 
-### <a name="to-view-a-network-region-link-in-skype-for-business-server-control-panel"></a>在控制面板中查看Skype for Business Server链接
+### <a name="to-view-a-network-region-link-in-skype-for-business-server-control-panel"></a>在"控制面板"中Skype for Business Server网络区域链接
 
 1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
 
@@ -44,7 +44,7 @@ ms.locfileid: "58233677"
 
 ### <a name="view-network-region-link-information-by-using-windows-powershell-cmdlets"></a>使用 cmdlet 查看网络区域Windows PowerShell信息
 
-可以通过使用 Windows PowerShell **和 Get-CsNetworkRegionLink** cmdlet 查看网络区域链接。 还可从 Skype for Business Server Management Shell 或 Windows PowerShell 远程会话运行此 cmdlet。 
+可以使用 **Get-CsNetworkRegionLink** cmdlet 和 Windows PowerShell查看网络区域链接。 还可从 Skype for Business Server Management Shell 或 Windows PowerShell 远程会话运行此 cmdlet。 
 
 
 ### <a name="to-view-network-region-link-information"></a>查看网络区域链接信息

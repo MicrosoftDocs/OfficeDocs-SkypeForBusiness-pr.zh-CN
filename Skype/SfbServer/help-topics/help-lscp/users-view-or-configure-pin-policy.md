@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.UserViewUserPin
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4a68227c-f559-442f-955b-5c4ccc06b7f4
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: 6a7dd14a786d37247a90310c14732814173e44962ee24aeae3dbe62429111fab
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 23fb51ab0645f0deb60e9a7ba8da46b989b5084d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303894"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600357"
 ---
 # <a name="users-view-or-configure-pin-policy"></a>用户：查看或配置 PIN 策略
  
@@ -28,5 +28,5 @@ ms.locfileid: "54303894"
   
 - [在 2015 年 10 月Skype for Business Server电话拨入式会议 PIN](../../manage/authentication/set-a-user-s-dial-in-conferencing-pin.md)
     
-有关可以使用控制面板执行的不同过程的详细信息，Skype for Business Server Manage [Skype for Business Server 2015](../../manage/manage.md)。
+有关可以使用控制面板执行的不同过程的详细信息，请参阅 Manage [Skype for Business Server Skype for Business Server 2015](../../manage/manage.md)。
 

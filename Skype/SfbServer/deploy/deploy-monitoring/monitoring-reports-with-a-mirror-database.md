@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 42b797c6-8db8-4ad7-886e-8ddf8deb06f9
-description: 摘要：了解如何将监控报告与服务器使用的镜像Skype for Business Server。
-ms.openlocfilehash: 99b30eaf7388bfec71f55e2e3f1f784271a3258d1280953426291b1dbfe14750
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 摘要：了解如何将监控报告与监控服务器使用的镜像Skype for Business Server。
+ms.openlocfilehash: 723d01f732259098c714eaac330eeaf8c686acac
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304354"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600657"
 ---
 # <a name="associate-monitoring-reports-with-a-mirror-database-in-skype-for-business-server"></a>将监控报告与数据库中的镜像数据库Skype for Business Server 
  
@@ -27,19 +27,19 @@ ms.locfileid: "54304354"
 
 如果为监控数据库配置镜像，该镜像数据库将在发生故障转移时接管主数据库。 但是，如果您使用Skype for Business Server监控报告并发生故障转移，您可能会发现监控报告未连接到镜像数据库。 这是因为，在安装监控报告时，仅指定主数据库的位置;您不指定镜像数据库的位置。
   
-若要使监控报告自动故障转移到镜像数据库，必须将镜像数据库作为"故障转移合作伙伴"添加到监控报告 (使用的两个数据库，其中一个数据库用于呼叫详细信息记录数据，另一个数据库用于用户体验质量 (QoE) 数据) 。  (请注意，此步骤应在安装监控报告之后执行。) 您可以通过手动编辑这两个数据库使用的连接字符串值来添加故障转移合作伙伴信息。 为此，请完成以下过程：
+若要使监控报告自动故障转移到镜像数据库，必须将镜像数据库作为"故障转移合作伙伴"添加到监控报告使用的两个数据库 (一个数据库用于呼叫详细记录数据，另一个数据库用于用户体验质量 (QoE) 数据) 。  (请注意，此步骤应在安装监控报告之后执行。) 可以通过手动编辑这两个数据库使用的连接字符串值来添加故障转移合作伙伴信息。 为此，请完成以下过程：
   
 1. 使用 Internet Explorer **打开SQL Server Reporting Services主页**。 Reporting Services 主页 URL 包括：
     
    - **http：** 前缀。
     
-   - 安装 Reporting Services 的计算机的完全限定 (FQDN (FQ) DN，例如 **atl-sql-001.litwareinc.com) 。**
+   - 安装 Reporting Services 的计算机的完全限定 (FQDN) ，例如 (，atl-sql-001.litwareinc.com) 。 
     
    - 字符串 **/Reports_**。
     
    - 安装监控报告的数据库实例的名称 (，例如 **archinst**) 。
     
-     例如，如果在SQL Server Reporting Services计算机上安装了 atl-sql-001.litwareinc.com 监控报告使用数据库实例 archinst，则主页 URL 如下所示：
+     例如，如果在SQL Server Reporting Services计算机上安装了 atl-sql-001.litwareinc.com 监控报告使用数据库实例 archinst，则主页 URL 将如下所示：
     
      **http://atl-sql-001.litwareinc.com/Reports_archinst**
     
@@ -55,7 +55,7 @@ ms.locfileid: "54304354"
     
     故障转移 Partner=atl-mirror-001\archinst
     
-    编辑的连接字符串如下所示：
+    编辑的连接字符串将如下所示：
     
     Data source= (local) \archinst;故障转移 Partner=atl-mirror-001\archinst;initial catalog=LcsCDR
     
@@ -71,4 +71,4 @@ ms.locfileid: "54304354"
 
 [安装监控报告Skype for Business Server](install-monitoring-reports.md)
   
-[使用监控报告Skype for Business Server](../../manage/health-and-monitoring/monitoring-reports.md)
+[使用监控报告中Skype for Business Server](../../manage/health-and-monitoring/monitoring-reports.md)

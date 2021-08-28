@@ -13,14 +13,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 配置一个或多个外部用户访问策略，以控制远程用户能否与内部用户Skype for Business Server协作。 若要控制远程用户访问，可以在全局、站点和用户级别配置策略。
-ms.openlocfilehash: 205ff2cf39a28630677390d5ee39e4dfe4beffad8be3155dd686d50fede40865
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3400544e39941aca408ca99f4c323f97e8c2cd0b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54309371"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625184"
 ---
 # <a name="configure-policies-to-control-remote-user-access-in-skype-for-business-server"></a>配置策略以控制远程用户访问Skype for Business Server
 
@@ -33,7 +33,7 @@ ms.locfileid: "54309371"
 
 
 > [!NOTE]  
-> 此过程描述如何配置策略以便仅启用与远程用户的通信，但配置为支持远程用户访问的每个策略也可以配置联盟用户访问和公共用户访问。 有关配置策略以支持联盟用户的详细信息，请参阅 Configure [policies to control federated user access in Skype for Business Server](configure-policies-to-control-federated-user-access.md)。 有关配置策略以支持公共用户的详细信息，请参阅管理组织中组织的 SIP 联盟[Skype for Business Server。](../sip-providers/manage-sip-federated-providers-for-your-organization.md)
+> 此过程描述如何配置策略以便仅启用与远程用户的通信，但配置为支持远程用户访问的每个策略也可以配置联盟用户访问和公共用户访问。 有关配置策略以支持联盟用户的详细信息，请参阅配置策略以控制联盟[Skype for Business Server。](configure-policies-to-control-federated-user-access.md) 有关配置策略以支持公共用户的详细信息，请参阅管理组织中组织的 SIP 联盟[Skype for Business Server。](../sip-providers/manage-sip-federated-providers-for-your-organization.md)
 
 
 ## <a name="to-configure-an-external-access-policy-to-support-remote-user-access"></a>配置外部访问策略以支持远程用户访问

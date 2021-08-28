@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c5801f48-14e3-4fdd-8f14-d52e7af07a57
 description: 若要委派安装，您可以授予特定 Active Directory 组织单位 (OU) 的 RTCUniversalServerAdmins 通用组的权限，从而使该 OU 中的 RTCUniversalServerAdmins 组的成员可以在指定域中安装 Skype for Business Server，而无需是 Domain Admins 组的成员。
-ms.openlocfilehash: 32c0d48c5b6c63a38ff48e7808b8009c3ef265e6f0b6eb739094f797e47ace4d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 160882e70ba1126765adf7f73f6c6a15fb25bf2b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349704"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613872"
 ---
 # <a name="changes-made-by-grant-cssetuppermission-in-skype-for-business-server"></a>由 Grant-CsSetupPermission 中Skype for Business Server
  

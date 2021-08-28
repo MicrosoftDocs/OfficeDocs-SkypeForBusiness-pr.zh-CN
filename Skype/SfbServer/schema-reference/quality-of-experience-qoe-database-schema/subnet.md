@@ -10,21 +10,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 76f5c995-96c8-4aa3-bc30-1d74991d7c42
 description: Subnet 表是一个支持表。每条记录均表示网络配置设置中定义的一个子网。
-ms.openlocfilehash: 10df067fe95f244aea2fa9987b4962efaef9fbe32fbbfbe5b0e9f6ed9f6392e1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e7fd43963414b24ed684d8f1efa59c7e634839bd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54279958"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613792"
 ---
 # <a name="subnet-table"></a>Subnet 表
  
 Subnet 表是一个支持表。每条记录均表示网络配置设置中定义的一个子网。
   
-|**列**|**数据类型**|**键/索引**|**详细信息**|
+|**列**|**数据类型**|**键/索引**|**Details**|
 |:-----|:-----|:-----|:-----|
 |**SubnetIP** <br/> |int  <br/> |主、外  <br/> |子网 IP 的整数表示形式。  <br/> |
 |**SubnetMask** <br/> |int  <br/> ||子网掩码。  <br/> |

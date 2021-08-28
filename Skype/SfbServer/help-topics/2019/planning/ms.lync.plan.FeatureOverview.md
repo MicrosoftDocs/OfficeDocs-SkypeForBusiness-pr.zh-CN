@@ -12,16 +12,16 @@ ms.custom:
 - ms.lync.plan.FeatureOverview
 - ms.lync.plan.FeatureOverview
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype for Business Server规划工具
-ms.openlocfilehash: 2bff4f6eb8774b9660f27cf2217eccd7b1b3c3dce469cab70ac7c96c9489b234
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c1272cf0809be097e9f5b0282b165ef899744520
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54325119"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600497"
 ---
 # <a name="feature-overview-planning-tool"></a>功能概述 (规划工具) 
  
@@ -47,7 +47,7 @@ Skype for Business Server规划工具
   
 - **IM 和状态**
     
-    即时消息 (IM) 使用户可以使用基于文本的消息在计算机中实时相互通信。 支持双方和多方之间的 IM 会话。 状态会为用户提供有关网络上其他人的状态的信息。 用户的状态信息可帮助其他人确定用户是否联机以及如何最好地与用户联系。 例如，最好通过电子邮件联系正在参加会议的用户。
+    即时消息 (IM) 使用户可以使用基于文本的消息在计算机中实时相互通信。 支持双方和多方之间的 IM 会话。 状态为用户提供有关网络上其他人的状态的信息。 用户的状态信息可帮助其他人确定用户是否联机以及如何最好地与用户联系。 例如，最好通过电子邮件联系正在参加会议的用户。
     
 - **音频和视频会议**
     
@@ -66,7 +66,7 @@ Skype for Business Server规划工具
     持久聊天使多个用户可以参与对话，用户可在对话中发布和访问有关特定主题的内容，包括文本、链接和文件。 尽管用户可以在会话期间实时进行通信，但每个会话的内容都可以持久保存，也就是说，在会话结束后依然可以获得这些内容。
 
     > [!NOTE] 
-    > 持久聊天在 2015 Skype for Business Server可用，但在 2019 年 2 月不再Skype for Business Server支持。 相同的功能在 Teams。 有关详细信息，请参阅[Skype for Business Microsoft Teams升级](/MicrosoftTeams/upgrade-start-here)。 如果您需要使用持久聊天，您的选择是迁移需要此功能的用户以Teams或继续使用 Skype for Business Server 2015。
+    > 持久聊天在 Skype for Business Server 2015 中可用，但在 2019 年 2 Skype for Business Server不再受支持。 相同的功能在 Teams 中可用。 有关详细信息，请参阅[Skype for Business Microsoft Teams升级](/MicrosoftTeams/upgrade-start-here)。 如果您需要使用持久聊天，您的选择是迁移需要此功能的用户以Teams或继续使用 Skype for Business Server 2015。
     
 ### <a name="users"></a>用户
 
@@ -82,7 +82,7 @@ Skype for Business Server规划工具
     
 - **与基于 XMPP 的服务提供商联盟**
     
-    Skype for Business Server 2015 年引入了完全集成的 XMPP 代理 (部署在边缘服务器上) 前端服务器上部署的 XMPP 网关。 您可以部署添加和配置 XMPP 代理和 XMPP 网关将允许 Skype for Business Server 用户为即时消息和 IM) 添加来自基于 XMP (P 的合作伙伴的联系人。
+    Skype for Business Server 2015 年 10 月引入了完全集成的 XMPP 代理 (部署在边缘服务器上) 前端服务器上部署的 XMPP 网关。 您可以部署 添加和配置 XMPP 代理和 XMPP 网关将允许 Skype for Business Server 用户添加来自基于 XMPP 的合作伙伴的联系人，以便 (IM) 和状态。
     
 - **行动能力**
     
@@ -101,11 +101,11 @@ Skype for Business Server规划工具
   
 - **企业语音**
     
-    Enterprise语音是 Microsft 的软件支持 VoIP 解决方案。 Enterprise使用户可以使用Skype for Business从计算机发出电话呼叫。
+    Enterprise是 Microsft 的软件支持 VoIP 解决方案。 Enterprise使用户可以使用Skype for Business从计算机发出电话呼叫。
     
 - **Exchange 统一消息**
     
-    Exchange统一消息 (UM) 将语音邮件和电子邮件合并到单个邮件基础结构中。 Skype for Business Server 2015 Exchange UM 提供呼叫应答、订阅者访问、呼叫通知和自动助理服务。 如果使用这些服务，则需要将 UM 和 Exchange集成到Skype for Business Server Active Directory 拓扑中。
+    Exchange统一 (UM) 将语音邮件和电子邮件合并到单个邮件基础结构中。 Skype for Business Server 2015 Exchange UM 提供呼叫应答、订阅者访问、呼叫通知和自动助理服务。 如果使用这些服务，则需要将 UM 和 Exchange集成Skype for Business Server Active Directory 拓扑中。
 
     > [!NOTE]
     > Exchange以前已知的统一消息在 Exchange 2019 中不再可用，但您仍可以使用 电话系统 录制语音邮件，然后在用户的 Exchange 邮箱中保留录制。 有关详细信息[，请参阅云语音邮件](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)服务。
@@ -160,7 +160,7 @@ Skype for Business Server规划工具
     
 - **呼叫寄存**
     
-    呼叫呼叫企业语音使呼叫用户能够将来自一部电话的呼叫置于保持状态，然后从另一部电话接收呼叫，而不会使接听该呼叫的电话上的资源增加。 当用户需要转接呼叫，但特定收件人未知时，呼叫呼叫管理应用程序非常有用。 
+    呼叫保留应用程序使呼叫企业语音用户从一部电话将呼叫置于保持状态，然后从另一部电话接收呼叫，而不会使接收呼叫的电话上的资源不足。 当用户需要转移呼叫，但特定收件人未知时，呼叫呼叫管理应用程序非常有用。 
     
 - **会议助理**
     
@@ -172,7 +172,7 @@ Skype for Business Server规划工具
     
 - **呼叫允许控制**
     
-    呼叫允许控制 (CAC) 也称为 WAN 带宽管理，它根据可用带宽确定是否允许建立新的实时通信会话，帮助防止出现塞塞网络的用户体验质量差。 
+    呼叫允许控制 (CAC) 也称为 WAN 带宽管理，它通过根据可用带宽确定是否允许和建立新的实时通信会话，帮助防止出现塞塞网络的用户体验质量差。 
     
     > [!NOTE]
     > CAC 仅控制实时流量，不会影响数据流量。 

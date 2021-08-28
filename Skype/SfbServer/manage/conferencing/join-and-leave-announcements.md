@@ -9,21 +9,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cb09f9c2-c6dc-4083-b45a-8b6773341373
 description: 摘要：了解如何管理会议加入和离开Skype for Business Server。
-ms.openlocfilehash: 597bf27f574413364f1d16efc31704abe3c107f143f95d9469234d84d245628b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f2219fc8d55485a4c34a8730fbec6b556d57b728
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54290380"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625204"
 ---
 # <a name="manage-conference-join-and-leave-announcements-in-skype-for-business-server"></a>管理会议加入和离开Skype for Business Server
  
 **摘要：** 了解如何管理会议加入和离开Skype for Business Server。
   
-当拨入用户加入或离开会议时，会议公告应用程序可以通过播放提示音或说姓名来宣布其进入或退出。 可以使用命令行管理程序和 **Set-CsDialinConferencing** cmdlet 和 Skype for Business Server Cmdlet 更改通知的运行方式：
+当拨入用户加入或离开会议时，会议公告应用程序可以通过播放提示音或说其姓名来宣布其进入或退出。 您可以使用命令行管理程序和 **Set-CsDialinConferencing** cmdlet 和 Skype for Business Server Cmdlet 更改通知的运行方式：
   
 - EnableNameRecording - 确定是否要求匿名参与者在进入会议之前记录其姓名。 （经过身份验证的参与者不会记录他们的姓名，因为将使用他们的显示名称。 ）
     
@@ -46,7 +46,7 @@ ms.locfileid: "54290380"
    Get-CsDialinConferencingConfiguration
    ```
 
-此 cmdlet 检索有关在加入会议时是否需要参与者记录其姓名的信息，以及Skype for Business Server加入或离开电话拨入式会议时如何响应的信息。
+此 cmdlet 检索有关在加入会议时是否需要参与者记录其姓名的信息，以及当参与者加入或离开电话拨入式会议时Skype for Business Server如何响应。
     
 4. 在命令提示符下，运行以下内容：
     

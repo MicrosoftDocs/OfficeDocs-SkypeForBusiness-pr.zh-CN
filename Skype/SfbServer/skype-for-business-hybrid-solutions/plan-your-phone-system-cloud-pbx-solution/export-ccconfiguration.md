@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e3775bd6-682c-4f62-aafc-974fe3a65c61
-description: 将Skype for Business 云连接器版本导出到主机服务器上Skype for Business 云连接器版本文件。
-ms.openlocfilehash: f34f8454dfc3129be50b26114f71fdeee4a4b633f66ca9f80dc621c51c5af6ad
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 将Skype for Business 云连接器版本配置导出到主机服务器上Skype for Business 云连接器版本文件。
+ms.openlocfilehash: b2b3ea0171b68701b47b8ae2ed239f2e0495855b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54288832"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625004"
 ---
 # <a name="export-ccconfiguration"></a>Export-CcConfiguration
  
-将Skype for Business 云连接器版本导出到主机服务器上Skype for Business 云连接器版本文件。
+将Skype for Business 云连接器版本配置导出到主机服务器上Skype for Business 云连接器版本文件。
   
 ```powershell
 Export-CcConfiguration [-Path] <String> [<CommonParameters>]
@@ -49,7 +49,7 @@ Export-CcConfiguration -Path "C:\test\CloudConnector.ini"
 
 |**参数**|**Required**|**类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-|Path  <br/> |必需  <br/> |System.String  <br/> |存储云连接器配置的完整文件路径。  <br/> |
+|路径  <br/> |必需  <br/> |System.String  <br/> |存储云连接器配置的完整文件路径。  <br/> |
    
 ## <a name="input-types"></a>输入类型
 <a name="Examples"> </a>

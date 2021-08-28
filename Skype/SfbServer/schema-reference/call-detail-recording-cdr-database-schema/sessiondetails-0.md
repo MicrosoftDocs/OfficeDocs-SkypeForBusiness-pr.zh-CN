@@ -10,21 +10,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ea328c6f-cf22-48dd-8f7f-f1666c9148c8
 description: SessionDetails 视图存储有关点对点会话的信息，这应该是 VoIP-VoIP 电话呼叫、双方 IM 会话或其他类型的会话。 此视图在 Microsoft Lync Server 2013 中引入。
-ms.openlocfilehash: 7b8822766b885ea729bed28e3191846281033225383faada0120b14d00e1a1ba
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 454cefc905409e0488121addab2cac5df55ef34d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284512"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625124"
 ---
 # <a name="sessiondetails-view"></a>SessionDetails 视图
  
 SessionDetails 视图存储有关点对点会话的信息，这应该是 VoIP-VoIP 电话呼叫、双方 IM 会话或其他类型的会话。 此视图在 Microsoft Lync Server 2013 中引入。
   
-|**列**|**数据类型**|**详细信息**|
+|**列**|**数据类型**|**Details**|
 |:-----|:-----|:-----|
 |**SessionIdTime** <br/> |datetime  <br/> |会话请求的时间。 与 SessionIdSeq 结合使用来唯一地标识会话。 有关详细信息，请参阅[Skype for Business Server 2015](dialogs.md) Table 中的 Dialogs 表。 <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |用于标识会话的 ID 号。 与 SessionIdTime 结合使用来唯一地标识会话。 有关详细信息，请参阅[Skype for Business Server 2015](dialogs.md)中的 Dialogs 表。 <br/> |
@@ -73,7 +73,7 @@ SessionDetails 视图存储有关点对点会话的信息，这应该是 VoIP-Vo
 |**FromUserFlag** <br/> |smallint  <br/> |指示启动会话的用户的属性。允许以下属性定义：  <br/> 0x01 - 与桌面电话集成  <br/> |
 |**ToUserFlag** <br/> |smallint  <br/> |指示启动会话的用户的属性。允许以下属性定义：  <br/> 0x01 - 与桌面电话集成  <br/> |
 |**CallFlag** <br/> |smallint  <br/> |指示呼叫属性。允许以下属性定义：  <br/> 0x01 - 重试会话  <br/> 0x02 - 代表响应组的代理进行的呼叫  <br/> |
-|**位置** <br/> |varchar (max)   <br/> |紧急呼叫的位置。  <br/> |
-|**LastModifiedTime** <br/> |Datetime  <br/> |供监控服务内部使用。  <br/> 此字段是在 2015 年 Skype for Business Server引入的。  <br/> |
+|**Location** <br/> |varchar (max)   <br/> |紧急呼叫的位置。  <br/> |
+|**LastModifiedTime** <br/> |Datetime  <br/> |供监控服务内部使用。  <br/> 此字段在 2015 年 Skype for Business Server引入。  <br/> |
    
 

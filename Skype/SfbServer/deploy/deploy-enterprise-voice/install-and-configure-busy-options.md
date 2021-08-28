@@ -9,22 +9,22 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fb0faac8-ca1c-4abb-9959-d19def294c64
-description: 了解如何安装和配置忙碌选项。Skype for Business Server。
-ms.openlocfilehash: aa7dc18d2c535b96cfca06a28aff85f8ab5bc738c4eef94babd9048450bfb897
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 了解如何安装和配置忙碌Skype for Business Server。
+ms.openlocfilehash: 58c70360a9e25ccefcd62181ab5a1a5b222ae9a5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322394"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600677"
 ---
 # <a name="install-and-configure-busy-options-for-skype-for-business-server"></a>安装和配置忙碌选项Skype for Business Server
 
-了解如何安装和配置忙碌选项。Skype for Business Server。
+了解如何安装和配置忙碌Skype for Business Server。
 
 忙碌选项是 2016 年 7 月累积更新中引入的新语音策略，允许你配置当用户正在接听电话或参加会议或将呼叫置于保留状态时如何处理传入呼叫。 可以使用繁忙信号拒绝新呼叫或传入呼叫，也可以将新呼叫或传入呼叫转发到语音邮件。
 
@@ -44,9 +44,9 @@ ms.locfileid: "54322394"
 
 1. 运行 Stop-CsWindowsService 命令。
 
-2. 在SkypeServerUpdateInstaller.exe每台前端服务器上运行该安装程序。
+2. 在SkypeServerUpdateInstaller.exe每台前端服务器上运行前端安装程序。
 
-3. 如果希望确保支持 SBS 上的SkypeServerUpdateInstaller.exe，请在每个 Survivable Branch Server (SBS) 运行该安装程序。
+3. 如果希望确保支持 SBS 上的SkypeServerUpdateInstaller.exe，请在每个 Survivable Branch Server (SBS) 运行此安装程序。
 
 安装程序将部署最新版本的忙碌选项应用程序。 但是，默认情况下不启用该应用程序。 若要启用应用程序，请执行以下步骤：
 
@@ -101,7 +101,7 @@ ms.locfileid: "54322394"
 
 若要配置忙碌选项，请使用 [Set-CsBusyOptions](https://technet.microsoft.com/library/8ffbb832-3e55-4d6c-9a7c-5ce2df22de2e.aspx) cmdlet。
 
-例如，以下命令为用户"Ken Myer"配置忙碌选项。 在此配置中，对"Ken Myer"的任何呼叫都将在"Ken Myer"已呼叫时返回繁忙信号：
+例如，以下命令为用户"Ken Myer"配置忙碌选项。 在此配置中，对"Ken Myer"的任何呼叫都将在"Ken Myer"已在通话中时返回繁忙信号：
 
 ```powershell
 Set-CsBusyOptions -Identity "Ken Myer"  -ActionType BusyOnBusy
@@ -154,4 +154,4 @@ ScriptName :
 Script     :
 </pre>
 
-您还可以使用事件Windows验证忙碌选项安装是否成功，以及是否Skype for Business Server忙碌选项。 若要验证忙碌选项，请打开事件查看器 - 应用程序和服务日志 **- Skype (或 Lync) \> \> Server** 并搜索事件 ID = 30253。
+您还可以使用事件Windows验证忙碌选项安装是否成功，以及是否Skype for Business Server忙碌选项。 若要验证忙碌选项，请打开事件查看器 - 应用程序和服务日志 **\> - \> Skype (或 Lync) Server** 并搜索事件 ID = 30253。

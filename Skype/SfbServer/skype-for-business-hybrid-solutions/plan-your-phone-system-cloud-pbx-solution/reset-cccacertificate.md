@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5ada7e55-df9b-4b4e-b752-2468f4e28b8a
 description: 此Reset-CcCACertificate cmdlet 将重新安装证书颁发机构服务 AD 服务器以创建新的根 CA 证书。
-ms.openlocfilehash: 8e0cb93e6f10f28df28213579674a6cda6e7e2cd1cf201319f77dc26be69de80
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 21f62724f74504216bcd38f5498b3a7068722512
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340718"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624964"
 ---
 # <a name="reset-cccacertificate"></a>Reset-CcCACertificate
  

@@ -14,20 +14,20 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Reporting
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
-description: 了解如何使用呼叫质量仪表板Power BI报表来查看自动助理呼叫队列历史数据。
-ms.openlocfilehash: 3bae6b1e874026a452798d27b4629207f7ec0035
-ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
+description: 了解如何使用呼叫质量仪表板Power BI报表来查看自动助理和呼叫队列历史数据。
+ms.openlocfilehash: cd32c732162c15cdaf4cfeac4c83cb53ebd5fe10
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58398941"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598616"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>自动助理 &队列历史报告
 
@@ -42,7 +42,7 @@ CQD Teams 自动助理 &队列历史报告模板Power BI提供以下三个报告
 ## <a name="prerequisites"></a>先决条件
 
 ### <a name="power-bi-desktop"></a>Power BI Desktop
-需要安装Power BI Desktop。 可以从 Microsoft store [Windows安装它](https://aka.ms/pbidesktopstore)。
+需要安装Power BI Desktop。 可以从 Microsoft store [Windows安装](https://aka.ms/pbidesktopstore)它。
 
 可以使用免费版本的 Power BI Desktop。 最低兼容版本为 2020 年 9 月 (2.85.681.0) 。
 
@@ -297,8 +297,8 @@ CQD Teams 自动助理 &队列历史报告模板Power BI提供以下三个报告
 
 
 > [!NOTE]
-> 1) 此报告从代理的角度来看显示呼叫计数，因此此报告中的呼叫计数总计通常高于云呼叫队列 **分析** 报表上的调用总数。 在应答队列之前，队列中的每个调用可以至少呈现给一个或多个代理一次。 呈现给代理的每次呼叫队列调用都会计入此报告，即使该报告未由代理应答。 这两个报告之间的呼叫计数差异通过 **Attendant** 路由选项更加明显，该选项将每个呼叫的每个代理都响铃。 
-> 2) 当呼叫首次到达第一个呼叫队列时，如果该队列中已等待的呼叫数超出了呼叫溢出处理限制，并且重定向选项将呼叫发送到第二个呼叫队列，则第二个呼叫队列中的代理将在此报告的第一个呼叫队列中显示。 
+> 1) 此报告从代理的角度来看显示呼叫计数，因此此报告中的呼叫计数总计通常高于云呼叫队列 **分析** 报表上的调用总数。 在应答队列之前，队列中的每个调用可以至少呈现给一个或多个代理一次。 呈现给代理的每次呼叫队列调用都会计入此报告，即使该呼叫未由代理应答。 这两个报告之间的呼叫计数差异通过 **Attendant** 路由选项更加明显，该选项将每个呼叫的每个代理都响铃。 
+> 2) 当呼叫首次到达第一个呼叫队列时，如果已在该队列中等待的呼叫数超出了呼叫溢出处理限制，并且重定向选项将呼叫发送到第二个呼叫队列，则第二个呼叫队列中的代理将在此报告的第一个呼叫队列中显示。 
 
 ## <a name="known-issues"></a>已知问题
 

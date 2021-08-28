@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.FileStoresScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9d88f69d-8641-4405-a26d-99414af679a5
 description: “文件存储”节点列出了拓扑中的文件存储。可以执行以下操作：
-ms.openlocfilehash: 68fdf403b4748808c0b7e390579f274be5399f9dedbee89b8612fcf7aefdb6f8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a884cee9f0dbc0685091daf9718281005ad49a1b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344881"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600137"
 ---
 # <a name="file-stores-scope-node"></a>文件存储范围节点
  

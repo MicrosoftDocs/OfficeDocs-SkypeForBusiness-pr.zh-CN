@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 98e6372e-90e3-4939-b681-640f00d98ff1
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: 4aa21afbab25bffe9f8291ea96b027aa16434816f7c245da90ab057acf27296e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7bedd748fece47287529e0018c69c8acb36f43bd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322264"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625534"
 ---
 # <a name="dial-plan-create-new-or-edit-existing"></a>拨号计划：创建新的或编辑现有的
 

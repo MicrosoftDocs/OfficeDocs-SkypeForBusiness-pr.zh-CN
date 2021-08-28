@@ -13,16 +13,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 在部署边缘服务器并为组织启用联盟时，应该已经指定了是否支持自动发现联盟伙伴域。
-ms.openlocfilehash: 2160964842b308b8e715155fe2bde30fb76f9d8a
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: c2263691e67b819a510087bde6fbd4f5b757e946
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234177"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614092"
 ---
-# <a name="enable-or-disable-discovery-of-federation-partners-in-skype-for-business-server"></a>启用或禁用发现联盟伙伴Skype for Business Server
+# <a name="enable-or-disable-discovery-of-federation-partners-in-skype-for-business-server"></a>启用或禁用联盟伙伴在 Skype for Business Server
 
 在部署边缘服务器并为组织启用联盟时，应该已经指定了是否支持自动发现联盟伙伴域。使用本主题中的过程更改此配置。
 
@@ -48,7 +48,7 @@ ms.locfileid: "58234177"
 
 ## <a name="enabling-or-disabling-discovery-of-federation-partners-by-using-windows-powershell-cmdlets"></a>使用 cmdlet 启用或禁用联盟伙伴Windows PowerShell发现
 
-可以使用 Windows PowerShell cmdlet 管理联盟伙伴Set-CsAccessEdgeConfiguration发现。 可以从命令行管理程序或 Skype for Business Server远程会话中运行此 cmdlet Windows PowerShell。 
+可以使用 Windows PowerShell cmdlet 管理联盟伙伴Set-CsAccessEdgeConfiguration发现。 此 cmdlet 可以从命令行管理程序Skype for Business Server或远程会话运行Windows PowerShell。 
 
 
 ## <a name="to-enable-discovery-of-federation-partners"></a>启用联盟伙伴发现

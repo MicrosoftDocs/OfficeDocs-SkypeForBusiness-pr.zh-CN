@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
 description: 如果需要删除当前充当 Skype for Business Server 2015 部署的文件存储的文件服务器，或者需要进行其他会使当前文件存储不可用的更改，则首先需要创建新的共享。 然后，您需要执行以下步骤：
-ms.openlocfilehash: d57bfe10df36f200f927d4a2c9850eee0d21e9cf38724f31cc62bf84f76708e2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 10571b398b6e39624c408f0e36baa317212f9b21
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54307113"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614252"
 ---
 # <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server-2015"></a>Move File Store Data to a New File Store in Skype for Business Server 2015
 
@@ -42,11 +42,11 @@ ms.locfileid: "54307113"
 
 3. 在左侧导航栏中，单击“拓扑”，然后单击“状态”。
 
-4. 对于使用计划删除的文件存储的每个控制器池、控制器、Standard Edition 服务器和前端池，选择服务器或池，单击 **"操作**"，然后单击"停止 **所有服务"。**
+4. 对于使用计划删除的文件存储的每个控制器池、控制器、Standard Edition 服务器和前端池，选择服务器或池，单击"操作"，然后单击"停止 **所有服务"。** 
 
 5. 以 Domain Admins 组和 RTCUniversalServerAdmins 组成员的身份登录安装了拓扑生成器的计算机。
 
-6. 启动拓扑生成器：单击"开始"，单击"所有程序"，Skype for Business Server **2015"，** 然后单击"Skype for Business Server **2015Topology Builder"。**
+6. 启动拓扑生成器：单击"开始"，单击 **"所有程序**"，Skype for Business Server"2015"，然后单击"Skype for Business Server **2015Topology Builder"。** 
 
 7. 选择使用文件存储的服务器或池，然后执行以下操作：
 
@@ -54,7 +54,7 @@ ms.locfileid: "54307113"
 
 9. 在 **"编辑属性"** 中的 **"关联"下的**"**文件存储"下**，单击"**新建"。**
 
-10. 在 **"定义新文件** 存储"中的"文件服务器 **FQDN"** 下，键入 (FQDN) 的完全限定域名。 在 **"文件共享**"下，键入新文件共享的文件夹名称，然后单击"确定 **"。**
+10. 在 **"定义新文件** 存储"的"文件服务器 **FQDN"** 下，键入文件服务器的 (FQDN) 的完全限定域名。 在 **"文件共享**"下，键入新文件共享的文件夹名称，然后单击"确定 **"。**
 
      > [!IMPORTANT]
      > 此步骤定义用于拓扑生成器的新文件存储。 只定义一次，而不是为每个服务器定义一次。 在发布拓扑之前，您必须在定义的文件服务器上创建定义的文件存储。 有关详细信息，请参阅[Define the File Store for the Front End](/previous-versions/office/communications/gg133895(v=ocs.14))。

@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddPstnGatewayIPPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 319fdc9f-7ed6-4ed3-8f3f-b78758a0eb42
 ROBOTS: NOINDEX, NOFOLLOW
 description: 通过选择“启用 IPv4”或“启用 IPv6”定义 IP 或电话交换电话网 (PSTN) 网关的 IPv4 或 IPv6 地址。可以选择“使用所有已配置的 IP 地址”或“将服务用途限制为所选 IP 地址”。
-ms.openlocfilehash: dc202ad8be1b83eaeaf13b51dee80870fd1de5108eace1c71ed95e3fba1e4408
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 03c1c26a9e320b5e783fb1d6baf2759570ab1b6d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337062"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600467"
 ---
 # <a name="define-the-ip-address-of-the-ip-or-pstn-gateway"></a>定义 IP 或 PSTN 网关的 IP 地址
 
