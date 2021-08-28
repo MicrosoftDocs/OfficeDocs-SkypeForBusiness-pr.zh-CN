@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8732867c-4f78-454a-a4cc-49c3e76ce40c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 使用"从 Active Directory 中选择"对话框查找要为联系人启用Skype for Business。 在搜索框中，键入要查找的联系人的 SIP 地址或显示名称。 要检索所有可用的联系人，请不要在搜索框中键入任何内容。
-ms.openlocfilehash: c981de5361e734249a9ab57322118fcc13f1c24a4a345be3627fcd233334af5b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 743b3302ec0029d47563d8948d76801bb17c9acb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54285352"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590396"
 ---
 # <a name="select-contacts-from-active-directory"></a>从 Active Directory 选择联系人
  

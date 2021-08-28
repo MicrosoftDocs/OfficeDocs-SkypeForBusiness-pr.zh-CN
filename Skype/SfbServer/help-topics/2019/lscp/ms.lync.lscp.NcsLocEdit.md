@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d9b30b3b-570b-49a6-b2b4-46b0cf490153
 ROBOTS: NOINDEX, NOFOLLOW
 description: 可以配置位置策略以确定增强型 9-1-1 (E9-1-1) 是否已启用，如何使用它，以及如何将位置信息用于用户和联系人。
-ms.openlocfilehash: 1102aeccb6b9e91e29526b6512c7742b766514a15a5d6e13e0e1c00698d866a1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 15fd372a7597ce73c3246cbbd1aca867f39dc34e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54305754"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590456"
 ---
 # <a name="location-policy-create-new-or-edit-existing"></a>位置策略：创建新的或编辑现有的
 
@@ -49,7 +49,7 @@ ms.locfileid: "54305754"
 
 - **仅对 E9-1-1 使用位置** 如果位置信息仅用于紧急呼叫，请选中此复选框。
 
-- **PSTN 用法** 选择公用电话交换网 (PSTN) 用法，该用法将用于确定哪些语音路由将用于路由来自使用此配置文件的客户端的紧急呼叫。 与此用法关联的路由应指向专用于紧急呼叫的 SIP 中继或紧急位置标识号 (ELIN) 网关，该网关将紧急呼叫路由到最近的公共安全应答点 (PSAP) 。 选项有 **Internal、Local** 或 **Long distance。** 
+- **PSTN 用法** 选择公用电话交换网 (PSTN) 用法，该用法将用于确定哪个语音路由将用于路由来自使用此配置文件的客户端的紧急呼叫。 与此用法关联的路由应指向专用于紧急呼叫的 SIP 中继或紧急位置标识号 (ELIN) 网关，该网关将紧急呼叫路由到最近的公共安全应答点 (PSAP) 。 选项有 **Internal、Local** 或 **Long distance。** 
 
 - **E9-1-1 拨号号码** 指定为获得紧急服务而拨打的号码。
 
@@ -58,7 +58,7 @@ ms.locfileid: "54305754"
     > [!IMPORTANT]
     > 确保拨号掩码与呼叫号码范围中的号码不同，因为呼叫呼叫停止路由优先于紧急拨号字符串转换。 To see the Call Park number ranges， click **Voice Features** in the left navigation bar， and then click **Call Park**.
 
-- **通知 URI** 指定进行紧急呼叫时要通知的一个或多个 SIP URI。 例如，键入公司安全办公室的 SIP URI，以在发出紧急呼叫时通过即时消息通知安全人员。 如果呼叫者的位置可用，该位置将包含在通知中。 可以将多个 SIP URI 指定为逗号分隔列表。 例如，"sip:security@litwareinc.com"、"sip:kmyer@litwareinc.com"。 字符串长度必须为 1 到 256 个字符，并且必须以前缀"sip："开头。 您还可以指定通讯组列表。
+- **通知 URI** 指定进行紧急呼叫时要通知的一个或多个 SIP URI。 例如，键入公司安全办公室的 SIP URI，以在发出紧急呼叫时通过即时消息通知安全人员。 如果呼叫者的位置可用，则通知中会包含该位置。 可以将多个 SIP URI 指定为逗号分隔列表。 例如，"sip:security@litwareinc.com"、"sip:kmyer@litwareinc.com"。 字符串长度必须为 1 到 256 个字符，并且必须以前缀"sip："开头。 您还可以指定通讯组列表。
 
 - **会议 URI** 指定 SIP URI (电话号码，在这种情况下，) 第三方参加紧急呼叫会议。 例如，键入公司安全办公室的电话号码，以便他们在拨打紧急呼叫时收到呼叫。 会议 **模式设置** 确定第三方是可以参与还是只收听呼叫。 该字符串的长度必须为 1 到 256 个字符，并且必须以前缀 sip: 开头。
 

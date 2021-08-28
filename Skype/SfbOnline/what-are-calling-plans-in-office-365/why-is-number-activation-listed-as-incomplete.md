@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.NumberActivationStateIncomplete
 description: 地址验证是设置呼叫计划的重要部分。 它为组织中的用户提供了一个可供紧急响应服务使用的紧急通话地址。
-ms.openlocfilehash: c3ab63ce08eebdcc88b44edc5447d7b2dad0ac412f9320de595f0bb783226317
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d895740498e77a2b88c1306cdc1f91c7619e8ecf
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54279510"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597806"
 ---
 # <a name="why-is-number-activation-listed-as-incomplete"></a>为什么号码激活列为未完成？
 
@@ -44,7 +44,7 @@ ms.locfileid: "54279510"
 
 ## <a name="for-organizations-with-more-than-150-users-create-a-service-request-to-validate-an-emergency-address"></a>对于人数超过 150 人的组织，创建验证紧急地址的服务请求
 
-1. 以管理员登录，Microsoft 365 Office 365或学校帐户登录。
+1. 以管理员角色登录，Microsoft 365 Office 365或学校帐户登录。
     
 2. 在管理中心的左侧导航栏中，单击"**支持**  >  **新服务请求"。**
     
@@ -96,7 +96,7 @@ ms.locfileid: "54279510"
 8. 检查信息，然后单击“**提交请求**”。
     
 > [!TIP]
-> 参考编号将列在"服务请求"**页上的**"Microsoft 365 管理中心"。
+> 参考编号将在"服务请求"页 **的"** 服务请求"页上Microsoft 365 管理中心。
 
 > [!NOTE]
 > 如果需要获取更多电话号码，请[联系商业版产品支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)

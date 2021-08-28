@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: abybee
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解Teams会议呼叫的基于策略&录制
 f1.keywords:
@@ -21,22 +21,22 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 82f1e348ad4f81ec61ac7cf0a47c1574aa7f139a
-ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
+ms.openlocfilehash: 08faea7d5926a35ac4c663cd2df4b51b8c4472dc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58399111"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597926"
 ---
-# <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>有关Teams会议呼叫的基于策略的录制&简介
+# <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>有关Teams会议呼叫的基于策略&简介
 
-基于策略的录制使采用 Microsoft Teams 进行呼叫和会议的组织能够规定，当应该根据相关公司或法规策略的要求自动记录和捕获呼叫和联机会议以用于后续处理和保留时，使用管理策略。
+基于策略的记录使采用 Microsoft Teams 进行呼叫和会议的组织能够使用管理策略规定何时应自动录制和捕获呼叫和联机会议，以根据相关公司或法规策略的要求进行后续处理和保留。
 
-Teams已经过增强，以支持第三方录制解决方案的集成，包括平台功能、用户体验和管理界面，这些解决方案可提供端到端解决方案，用于配置、管理、记录、存储和分析 Teams 通信。 增强功能包括通信平台 API 和用于录制的事件，它们提供：
+Teams已增强，以支持第三方录制解决方案的集成，包括平台功能、用户体验和管理界面，这些解决方案可提供端到端解决方案，用于配置、管理、录制、存储和分析 Teams 通信。 增强功能包括通信平台 API 和用于录制的事件，它们提供：
 
 - 跨设备和所有受支持的终结点无缝、高质量的媒体捕获，用于音频、视频、屏幕共享和聊天。
 
-- 支持在 Teams 用户与受支持的呼叫终结点 (Teams、Teams、Skype for Business、PSTN) 
+- 支持在 Teams 用户和支持的呼叫终结点 (Teams、Teams Mobile、Skype for Business、PSTN) 
 
 - 用于合规性记录的新管理策略，包括与现有Teams呼叫和会议工具和策略的集成
 
@@ -53,7 +53,7 @@ Teams已经过增强，以支持第三方录制解决方案的集成，包括平
 
 每个类别对于如何启动录制、录制内容、录制位置、通知谁、谁控制访问以及如何处理保留要求不同。
 
-| 类型                   | 方便 (常规Teams录制)  | 组织 - 受管制 (合规性记录)  |
+| 类型                   | 方便 ("常规Teams录制)  | 组织 - 受管制 (合规性记录)  |
 | ---------------------- | ------------------ | --------------- |
 | 发起程序              | 用户               | 管理 (系统)   |
 | 目标                 | 每呼叫/会议 | 按用户        |
@@ -62,7 +62,7 @@ Teams已经过增强，以支持第三方录制解决方案的集成，包括平
 | 访问所有者           | 用户               | 合规性      |
 | 保留策略？      | 可选           | 是             |
 
-Teams提供了各种[功能，方便](./cloud-recording.md)且功能齐全的录制会议和实时事件。 组织记录是指使采用 Teams 进行呼叫和会议的组织能够根据管理策略规定何时应自动记录和捕获呼叫和联机会议，以便根据相关公司或法规策略的要求进行后续处理和保留。 此策略下的用户将注意到正在录制其与 Teams 的数字交互，但无法禁用录制，并且交互完成后将无法访问录制。 记录成为组织存档的一部分，可供合规性和法律人员用于电子数据展示、法定保留和其他公司保留用途。
+Teams提供了各种[功能，方便](./cloud-recording.md)且实用地录制会议和实时事件。 组织记录是指使采用 Teams 进行呼叫和会议的组织能够根据管理策略规定何时应自动记录和捕获呼叫和联机会议，以便根据相关公司或法规策略的要求进行后续处理和保留。 此策略下的用户将注意到正在录制其与 Teams 的数字交互，但无法禁用录制，并且完成交互后将无法访问录制。 记录成为组织存档的一部分，可供合规性和法律人员用于电子数据展示、法定保留和其他公司保留用途。
 
 ## <a name="example-user-needs"></a>用户需求示例
 
@@ -84,8 +84,8 @@ Teams提供了各种[功能，方便](./cloud-recording.md)且功能齐全的录
 <tr class="even">
 <td>通信管理员</td>
 <td><ul>
-<li><p>了解为何以及如何对用户/终结点应用/Teams策略。</p></li>
-<li><p>为Teams配置和维护记录策略。</p></li>
+<li><p>了解为何以及如何对用户/终结点应用/Teams录制策略。</p></li>
+<li><p>为组织Teams和维护录制策略。</p></li>
 <li><p>监视和排查与通话和Teams录制相关的问题。</p></li>
 <li><p>通过使用情况、质量和可靠性的操作分析，为内部合规专员提供支持。</p></li>
 </ul></td>
@@ -123,7 +123,7 @@ Graph [updateRecordingStatus](/graph/api/call-updaterecordingstatus?tabs=http&vi
 
 记录器服务的确切实现因合作伙伴而异，但必须设计为支持多个记录器，以实现部署的高可用性和地理分布，以减少从 Teams 到记录器的延迟。 此外，设计记录器本身时，应牢记复原能力和冗余。
 
-合作伙伴必须在提交其解决方案进行认证之前，与 Microsoft 确认 Microsoft Graph 通信 API 和 SDK 的最低发布版本，以确保合规性记录集成的所有要求都受支持。
+合作伙伴在提交认证解决方案之前，必须与 Microsoft 确认 Microsoft Graph 通信 API 和 SDK 的最低发布版本，以确保合规性记录集成的所有要求都受支持。
 
 合规性记录方案的基本要求有两个：
 
@@ -131,7 +131,7 @@ Graph [updateRecordingStatus](/graph/api/call-updaterecordingstatus?tabs=http&vi
 
 - 记录器机器人必须在 Azure Windows VM 上运行
 
-Azure 和 Windows VM 要求仅适用于 Teams 机器人组件，这意味着合作伙伴可以实施他们选择的其他平台，但必须符合合规性记录的相关性能和功能要求。
+Azure 和 Windows VM 要求仅适用于 Teams 机器人组件，这意味着合作伙伴可以实施其选择的其他平台，但必须符合合规性记录的相关性能和功能要求。
 
 ## <a name="compliance-recording-policy-assignment-and-provisioning"></a>符合性记录策略分配和预配
 
@@ -192,7 +192,7 @@ IT 管理员可以通过创建和分配符合性记录策略来确定要记录�
 
 ## <a name="user-experiences"></a>用户体验
 
-使用客户端体验支持Teams通知。 体验可以是视觉或音频。
+使用客户端体验启用Teams支持。 体验可以是视觉或音频。
 
 **Teams客户端 - 视觉通知**
 - 桌面/Web
@@ -211,7 +211,7 @@ IT 管理员可以通过创建和分配符合性记录策略来确定要记录�
 
 ## <a name="compliance-recording-for-teams-certification-programs"></a>认证计划Teams符合性记录
 
-除了发布允许合作伙伴开发和集成 CCaaS 解决方案与 Teams 的公开可用的 API 外，我们还为 Microsoft Teams 认证计划开发了合规性记录，为客户提供了保证，即每个参与合作伙伴的解决方案已经过测试和验证，以提供他们期望的 Microsoft 解决方案的质量、兼容性和可靠性。  
+除了发布允许合作伙伴开发和集成 CCaaS 解决方案与 Teams 的公开可用的 API 外，我们还为 Microsoft Teams 认证计划开发了合规性记录，为客户提供了保证，即每个参与合作伙伴的解决方案都经过测试和验证，以提供他们期望的 Microsoft 解决方案的质量、兼容性和可靠性。  
 
 以下合作伙伴已认证其解决方案Microsoft Teams。<br/><br/>
 
@@ -227,7 +227,7 @@ IT 管理员可以通过创建和分配符合性记录策略来确定要记录�
 |Verint |[https://www.verba.com/solutions/microsoft-teams-recording](https://www.verba.com/solutions/microsoft-teams-recording) |
 
 <br/>
-以下合作伙伴正在认证其解决方案Microsoft Teams。<br/><br/>
+以下合作伙伴正在验证其解决方案Microsoft Teams。<br/><br/>
 
 |合作伙伴|解决方案网站 |
 |:--|:--|
@@ -239,6 +239,6 @@ IT 管理员可以通过创建和分配符合性记录策略来确定要记录�
 
 随着更多合作伙伴加入并满足认证条件，此列表将更新。
 
-## <a name="next-steps"></a>下一步
+## <a name="next-steps"></a>后续步骤
 
 如果你是希望加入认证计划的供应商，请 [发送邮件到](mailto:Teamscategorypartner@microsoft.com)Teamscategorypartner@microsoft.com。

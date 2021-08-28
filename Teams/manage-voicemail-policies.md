@@ -16,32 +16,32 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Phone System
 description: 管理用户的语音邮件策略。
-ms.openlocfilehash: 112a2ac98ee22c46cb78c579ead947f70a1d6d447ac81ace3aef224304a281dd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 275c67cef3a318d15f030f26aa50a74a15748c03
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342966"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604421"
 ---
 # <a name="setting-voicemail-policies-in-your-organization"></a>设置组织的语音邮件策略
 
 > [!WARNING]
-> 对于Skype for Business，通过语音信箱呼叫Microsoft Teams禁用语音邮件可能也会为你的Skype for Business禁用语音邮件服务。
+> 对于Skype for Business，通过语音信箱呼叫Microsoft Teams语音信箱可能也会禁用你的Skype for Business服务。
 
 ## <a name="voicemail-organization-defaults-for-all-users"></a>所有用户的语音邮件组织默认设置
 - 已启用语音邮件听录。
-- 已禁用语音邮件听录亵渎内容屏蔽。
+- 已禁用语音邮件转录亵渎内容屏蔽。
 - 最大录制持续时间设置为 5 分钟。
 
 可以使用 [Set-CsOnlineVoicemailPolicy](/powershell/module/skype/Set-CsOnlineVoicemailPolicy) 和 [Grant-CsOnlineVoicemailPolicy](/powershell/module/skype/Get-CsOnlineVoicemailPolicy) cmdlet 控制这些默认值。
 
-您的组织中的用户收到的语音邮件转录在托管您的组织或Microsoft 365 Office 365区域。 托管租户的区域可能与接收语音邮件的用户所在的区域不同。 若要查看托管租户的区域，请转到"组织配置文件"页，然后单击"[](https://go.microsoft.com/fwlink/p/?linkid=2067339)数据位置"旁边的"查看 **详细信息"。**
+您的组织中的用户收到的语音邮件将转录在托管您的组织或Microsoft 365 Office 365区域。 托管租户的区域可能与接收语音邮件的用户所在的区域不同。 若要查看托管租户的区域，请转到"组织配置文件"页，然后单击"[](https://go.microsoft.com/fwlink/p/?linkid=2067339)数据位置"旁边的"查看 **详细信息"。**
 
 > [!IMPORTANT]
 > 不能使用 **New-CsOnlineVoiceMailPolicy** cmdlet 为听录和听录亵渎内容屏蔽创建新的策略实例，并且不能使用 **Remove-CsOnlineVoiceMailPolicy** cmdlet 删除现有策略实例。
@@ -139,7 +139,7 @@ Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionProfanityMaskingEnabled -
 
 ## <a name="changing-the-recording-duration-for-a-user"></a>更改用户的录制持续时间
 
-必须先使用 [New-CsOnlineVoicemailPolicy](/powershell/module/skype/New-CsOnlineVoicemailPolicy) cmdlet 创建自定义语音邮件策略。 以下显示的命令创建按用户联机语音邮件策略 OneMinuteVoicemailPolicy，MaximumRecordingLength 设置为 60 秒，其他字段设置为租户级全局值。
+必须先使用 [New-CsOnlineVoicemailPolicy](/powershell/module/skype/New-CsOnlineVoicemailPolicy) cmdlet 创建自定义语音邮件策略。 以下显示的命令将创建按用户联机语音邮件策略 OneMinuteVoicemailPolicy，MaximumRecordingLength 设置为 60 秒，其他字段设置为租户级全局值。
 
 ```PowerShell
 New-CsOnlineVoicemailPolicy -Identity "OneMinuteVoicemailPolicy" -MaximumRecordingLength ([TimeSpan]::FromSeconds(60))
@@ -176,4 +176,4 @@ Grant-CsOnlineVoicemailPolicy -PolicyName "enUS-esES-VoicemailPolicy" -Identity 
 
 
 > [!IMPORTANT]
-> 语音信箱和语音Microsoft 365 Office 365缓存语音邮件策略，并每隔 6 小时更新一次缓存。 因此，你所做的更改最多可能需要 6 小时才能应用。
+> 语音信箱和Microsoft 365 Office 365缓存语音邮件策略，并每隔 6 小时更新一次缓存。 因此，你所做的更改最多可能需要 6 小时才能应用。

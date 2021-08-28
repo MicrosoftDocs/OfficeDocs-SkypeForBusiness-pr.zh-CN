@@ -12,21 +12,21 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployMainDomainPrep
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bfcb37ca-34eb-4d0d-9694-6edd2e7fe0f3
 description: 若要准备域以托管运行 Skype for Business Server 2015 或 Skype for Business Server 用户的服务器，必须完成步骤 5：准备当前域，如使用安装程序运行域准备主题中所述。 要完成此步骤，必须以准备的域中 Domain Admins 组成员身份登录，或以该域所属的林中 Enterprise Admins 组成员身份登录。 要准备域，请执行以下操作：
-ms.openlocfilehash: 5c9dca22bc0c9d633521b58fdc47effc72a20b2ef9871bd7f4330ed2edd39118
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 61340981324aa32abfb97a8e33cd8e89e460b9c2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54311480"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635466"
 ---
 # <a name="prepare-current-domain"></a>准备当前域
 
-若要准备域以托管运行 Skype for Business Server 2015 或 Skype for Business Server 用户的服务器，必须完成步骤 **5：准备当前域**，如使用安装程序运行域准备主题 [中所述。](/previous-versions/office/lync-server-2013/lync-server-2013-running-domain-preparation) 要完成此步骤，必须以准备的域中 Domain Admins 组成员身份登录，或以该域所属的林中 Enterprise Admins 组成员身份登录。 要准备域，请执行以下操作：
+若要准备域以托管运行 Skype for Business Server 2015 或 Skype for Business Server 用户的服务器，必须完成步骤 **5：** 准备当前域，如使用安装程序运行域准备主题 [](/previous-versions/office/lync-server-2013/lync-server-2013-running-domain-preparation)中所述。 要完成此步骤，必须以准备的域中 Domain Admins 组成员身份登录，或以该域所属的林中 Enterprise Admins 组成员身份登录。 要准备域，请执行以下操作：
 
-1. 从 Skype for Business Server 2015 安装文件夹或媒体中，Setup.exe启动 Skype for Business Server 向导。
+1. 从 Skype for Business Server 2015 安装文件夹或媒体中，Setup.exe启动 Skype for Business Server 部署向导。
 
 2. 单击“准备 Active Directory”，然后等待确定部署状态。
 

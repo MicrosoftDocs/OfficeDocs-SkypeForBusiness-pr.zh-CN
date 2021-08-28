@@ -1,5 +1,5 @@
 ---
-title: 设置"公共区域"电话许可证
+title: 设置公共区域电话许可证
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -14,19 +14,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: '了解如何为大厅、接收区和会议室设置公用区域电话 '
-ms.openlocfilehash: 6b97c931364ec9a1c589b0a677e0ec82d6288d945b8f0c002e48824921fe3107
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 928c4c2a81f2e19524aa7dc43ac2bd597b1293dd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301048"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597956"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>为 Microsoft Teams 设置公共区域电话许可证
 > [!NOTE]
@@ -34,9 +34,9 @@ ms.locfileid: "54301048"
 
 公用区域电话通常放置在大厅等区域，或者供许多人进行呼叫的另一区域;例如，前台区域、大厅或会议电话。 常用区域电话使用与公用区域服务许可证绑定电话登录。 还必须适当设置 TeamsIPPhone 策略，使手机具有共同的区域用户体验。
 
-在以下步骤中，我们将帮助你设置一个帐户电话系统为组织部署公用区域电话。 为获得更完整的会议室体验（包括音频会议），请考虑购买具有会议室设备的专用会议许可证。 
+在以下步骤中，我们将帮助你设置一个帐户电话系统为组织部署常用区域电话。 为获得更完整的会议室体验（包括音频会议），请考虑购买具有会议室设备的专用会议许可证。 
 
-首先，需要购买公共区域电话 (CAP) 许可证，并确保拥有经过认证的电话。 若要搜索并了解有关认证电话的信息，请转到["Microsoft Teams设备"。](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1) 
+首先，需要购买公共区域 电话 (CAP) 许可证，并确保拥有经过认证的电话。 若要搜索并了解有关认证电话的信息，请转到"Microsoft Teams[设备"。](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1) 
 
 ## <a name="step-1---buy-the-licenses"></a>第 1 步 - 购买许可证
 
@@ -84,13 +84,13 @@ ms.locfileid: "54301048"
 
 2. 输入用户名，例如"Main"作为名字，输入"接收"作为第二个名称。
 
-3. 如果没有自动生成显示名称如"主前台"，请输入一个密码。
+3. 如果显示名称自动生成"主前台"这样的服务，请输入一个密码。
 
 4. 输入用户名，例如"MainReception"或"Mainlobby"。
 
-5. 对于公用区域电话，你可能希望手动设置密码，或者拥有所有公用区域电话的相同密码。 此外，还可以考虑清除" **使此用户首次登录时更改** 其密码"复选框。
+5. 对于公用区域电话，你可能希望手动设置密码，或者拥有所有公用区域电话的相同密码。 此外，还可以考虑清除" **让此用户在首次登录时更改** 其密码"复选框。
 
-6. 将许可证分配给用户。 在同一页面上，点击展开 **产品许可证**。 打开"公用区域"电话，选择"国内呼叫计划"**或"****国内和国际呼叫计划"。** 
+6. 将许可证分配给用户。 在同一页面上，点击展开 **产品许可证**。 打开"公用区域"电话选择国内 **呼叫计划或****国内和国际呼叫计划**。 
 
     ![显示许可证分配的屏幕截图，其中突出显示了国内呼叫计划以及国内和国际计划选项](media/set-up-common-area-phone-image2.png)
 
@@ -116,7 +116,7 @@ ms.locfileid: "54301048"
    ![屏幕截图显示示例用户许可证分配](media/set-up-common-area-phone-image3.png)
 
 > [!NOTE]
-> 用户只有在应用了许可证后电话系统显示。 如果你刚执行了该操作，用户可能需要经过一段时间才能在列表中显示。
+> 用户只有在应用了许可证后才能电话系统显示。 如果你刚执行了该操作，用户可能需要经过一段时间才能在列表中显示。
 
 有关详细信息，请参阅 [获取用户的电话号码](getting-phone-numbers-for-your-users.md)。
 

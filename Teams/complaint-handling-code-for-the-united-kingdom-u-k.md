@@ -15,24 +15,24 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Legal
 - seo-marvel-mar2020
 hideEdit: true
-description: 针对英国 PSTN Skype呼叫服务 (提出投诉，) 答复时间线，以及解决未解决投诉的争议。
-ms.openlocfilehash: 5d0697de0d0c19038c5b6307eca4023f2838ee0aab010fb7a33faf371300625c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 针对英国 pstN 呼叫Skype服务 (提出投诉，) 答复时间线，以及解决未解决投诉的争议。
+ms.openlocfilehash: 648f7b171e8d04f4bad6ef1cdb1021b987cf042e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347407"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604601"
 ---
 # <a name="calling-plans-in-microsoft-365---complaint-handling-code-for-the-united-kingdom-uk"></a>英国Microsoft 365的呼叫计划 - 英国 (投诉处理) 
 
-根据英国通信法规，此代码适用于英国 (英国) Microsoft 365 Microsoft 365 呼叫计划服务 ("服务") 员工数少于 1) 0 名的小型企业客户。 ( 使用其他 Skype for Business 服务应遵守与 Microsoft 签署的服务协议以及适用于所使用的特定服务的任何其他条款的规定。
+此代码适用于英国 (英国) Microsoft 365 中员工数少于) 10 名的小型企业客户 (组织 (根据英国通信法规 ("服务") 。 使用其他 Skype for Business 服务应遵守与 Microsoft 签署的服务协议以及适用于所使用的特定服务的任何其他条款的规定。
 
 ## <a name="how-to-make-a-complaint"></a>如何投诉
 

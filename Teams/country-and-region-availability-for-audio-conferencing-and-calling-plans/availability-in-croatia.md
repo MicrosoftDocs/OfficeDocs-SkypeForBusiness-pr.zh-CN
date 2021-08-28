@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是适用于克罗地亚Microsoft 365 Office 365 Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: 7a273871c5d090365738222f319254900c95679d1b9554094697f6ffb2c21168
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 以下是适用于克罗地亚Microsoft 365 Office 365和Skype for Business Microsoft Teams服务。
+ms.openlocfilehash: 64c0c0ff31fa7952ffc89063ae2c2c5fb52631c8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54352390"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635776"
 ---
 # <a name="availability-in-croatia"></a>在克罗地亚的可用性
 
 [查找其他国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或详细了解可以在哪些国家/地区使用音频会议和通话套餐。
 
-以下是适用于克罗地亚Microsoft 365 Office 365 Skype for Business Microsoft Teams服务。
+以下是适用于克罗地亚Microsoft 365 Office 365和Skype for Business Microsoft Teams服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 

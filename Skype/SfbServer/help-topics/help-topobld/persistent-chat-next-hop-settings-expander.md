@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.PersistentChatNextHopSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 91423153-746a-4f8a-9c7f-4102d3fdbb8a
 description: 通过从列表中选择前端服务器或前端池来配置持久聊天下一跃点池。
-ms.openlocfilehash: 1f8c51a2ebfc7734c908dbc106af3821c35e1a282b2e85491d564c9d608b135e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c5fe79178b9008c1805d6a0a09430ec988b9c7f4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335142"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623784"
 ---
 # <a name="persistent-chat-next-hop-settings-expander"></a>持久聊天下一跃点设置扩展器
  

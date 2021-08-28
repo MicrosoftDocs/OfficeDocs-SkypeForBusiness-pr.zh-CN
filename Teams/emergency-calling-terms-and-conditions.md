@@ -15,25 +15,25 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINEX, NOFOLLOW
 f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
-description: '了解 911 紧急 (服务) 与传统电话服务的区别以及如何进行呼叫。 '
-ms.openlocfilehash: 3bceef7d98cb2598422bb30a827bd9a0608a515887f6f3963291c06f6e8505a6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: '了解紧急服务 (911) 与传统电话服务的区别以及如何进行呼叫。 '
+ms.openlocfilehash: 5dcc7195e4dc4d02bb6a9fb9dffde5aa044b3a0d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336282"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604471"
 ---
 # <a name="emergency-calling-terms-and-conditions"></a>紧急呼叫条款和条件
 
 ## <a name="important-information"></a>重要信息
 
-与传统电话服务相比，紧急Microsoft 365呼叫Office 365呼叫计划的方式有所不同。 必须了解这些差异，并告知所有使用呼叫计划的用户或Microsoft 365 Office 365。 你确认并同意你已阅读并了解紧急服务呼叫的差异，并且将在紧急服务呼叫或紧急呼叫计划中向Microsoft 365 Office 365。
+与传统电话服务相比，紧急服务呼叫Microsoft 365 Office 365呼叫计划。 必须了解这些差异，并告知所有使用呼叫计划的用户或Microsoft 365 Office 365。 你确认并同意你已阅读并了解紧急服务呼叫的差异，并且将在紧急服务呼叫或紧急呼叫计划中向Microsoft 365 Office 365。
   
 紧急服务呼叫功能的差异包括： (i) Skype for Business 和 Teams 可能不知道呼叫者进行紧急服务呼叫的实际位置，这可能会导致呼叫被路由到错误的紧急服务呼叫中心和/或紧急服务被分派到错误的位置; (ii) 如果用户的 Teams 客户端处于脱机状态，或者用户的设备出于任何原因（例如网络中断或断电）无法访问 Internet，则不支持通过 Microsoft 365 或 Office 365 中的 电话系统 进行紧急服务呼叫，并且预期不会正常工作;和 (iii) 尽管 Microsoft 365 或 Office 365 中的呼叫计划可用于提供 Internet 连接的任何位置，但用户不应从其国家/地区以外的位置拨打紧急服务呼叫，因为呼叫可能不会路由到该国家/地区的相应呼叫中心。
   

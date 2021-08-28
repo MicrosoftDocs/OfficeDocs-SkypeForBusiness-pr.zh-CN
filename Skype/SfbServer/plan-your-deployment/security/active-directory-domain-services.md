@@ -9,24 +9,24 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 5483afd5-d8af-4825-ae95-a82dbe941dbf
-description: Active Directory 域服务用作 Windows Server 2003、Windows Server 2008、Windows Server 2012 和 Windows Server 2012 R2 网络的目录服务。 Active Directory 域服务还可用作构建Skype for Business Server基础结构的基础。 本节旨在介绍用户Skype for Business Server Active Directory 域服务为 IM、Web 会议、媒体和语音创建可信赖的环境。 有关为 Active Directory 域服务准备环境的详细信息，请参阅部署Skype for Business Server安装域服务。 有关 Active Directory 域服务在 Windows Server 网络中的角色的详细信息，请参阅正在使用的操作系统版本相应的文档。
-ms.openlocfilehash: 8044e79be38300c39790aeae3bd0ece9105f9a145e1185cef2980297674c16f8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Active Directory 域服务用作 Windows Server 2003、Windows Server 2008、Windows Server 2012 和 Windows Server 2012 R2 网络的目录服务。 Active Directory 域服务还可用作构建Skype for Business Server基础结构的基础。 本节旨在介绍用户Skype for Business Server Active Directory 域服务为 IM、Web 会议、媒体和语音创建可信赖的环境。 有关为 Active Directory 域服务准备环境的详细信息，请参阅部署文档中Skype for Business Server安装域服务。 有关 Active Directory 域服务在 Windows Server 网络中的角色的详细信息，请参阅正在使用的操作系统版本相应的文档。
+ms.openlocfilehash: 4af4e4b4dd7a64dd133d36a55ca1c334a12fe97e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54346388"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604651"
 ---
 # <a name="active-directory-domain-services-for-skype-for-business-server"></a>Active Directory 域服务Skype for Business Server
  
-Active Directory 域服务用作 Windows Server 2003、Windows Server 2008、Windows Server 2012 和 Windows Server 2012 R2 网络的目录服务。 Active Directory 域服务还可用作构建Skype for Business Server基础结构的基础。 本节旨在介绍用户Skype for Business Server Active Directory 域服务为 IM、Web 会议、媒体和语音创建可信赖的环境。 有关为 Active Directory 域服务准备环境的详细信息，请参阅部署文档中[Skype for Business Server](../../deploy/install/install.md)安装域服务。 有关 Active Directory 域服务在 Windows Server 网络中的角色的详细信息，请参阅正在使用的操作系统版本相应的文档。
+Active Directory 域服务用作 Windows Server 2003、Windows Server 2008、Windows Server 2012 和 Windows Server 2012 R2 网络的目录服务。 Active Directory 域服务还可用作构建Skype for Business Server基础结构的基础。 本节旨在介绍用户Skype for Business Server Active Directory 域服务为 IM、Web 会议、媒体和语音创建可信赖的环境。 有关为 Active Directory 域服务准备环境的详细信息，请参阅部署[文档中Skype for Business Server](../../deploy/install/install.md)安装域服务。 有关 Active Directory 域服务在 Windows Server 网络中的角色的详细信息，请参阅正在使用的操作系统版本相应的文档。
   
 Skype for Business Server Active Directory 域服务存储：
   
-- 林中所有运行 Skype for Business Server都需要的全局设置。
+- 林中所有运行Skype for Business Server服务器都需要的全局设置。
     
 - 标识林中所有运行服务器角色Skype for Business Server的服务信息。
     
@@ -48,20 +48,20 @@ Active Directory 的基础结构要求包括以下各项：
 
 在准备林期间，Skype for Business Server Active Directory 域服务内创建各种通用组，这些通用组有权访问和管理全局设置和服务。 这些通用组包括：
   
-- **管理组**。 这些组定义网络网络的基本Skype for Business Server角色。 在林准备过程中，这些管理员组将添加到Skype for Business Server组。
+- **管理组**。 这些组定义网络的基本管理员Skype for Business Server角色。 在林准备过程中，这些管理员组将添加到Skype for Business Server组。
     
-- **服务组**。 这些组是访问由组织提供的各种服务所需的服务Skype for Business Server。
+- **服务组**。 这些组是访问由组织提供的各种服务所需的Skype for Business Server。
     
-- **基础结构组**。 这些组提供访问基础结构的特定区域Skype for Business Server权限。 这些基础结构组将用作管理组的组件，不应修改这些基础结构组或直接向其中添加用户。 在林准备过程中，特定服务组和管理组将添加到相应的基础结构组中。
+- **基础结构组**。 这些组提供访问基础结构的特定Skype for Business Server的权限。 这些基础结构组将用作管理组的组件，不应修改这些基础结构组或直接向其中添加用户。 在林准备过程中，特定服务组和管理组将添加到相应的基础结构组中。
     
-有关为 Skype for Business Server 准备 AD 时创建的特定通用组以及添加到基础结构组的服务组和管理组的详细信息，请参阅部署文档中的[changes made by forest preparation in Skype for Business Server。](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md)
+有关为 Skype for Business Server 准备 AD 时创建的特定通用组以及添加到基础结构组的服务组和管理组的详细信息，请参阅部署文档中的 changes made by [forest preparation in Skype for Business Server。](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md)
   
 > [!NOTE]
 > Skype for Business Server支持 Windows Server 2012 中的通用组，Windows支持域控制器的 Windows Server 2003 操作系统。 通用组的成员可包括域树或林中的任何域中的其他组和帐户，并且可将域树或林中的任何域中的权限分配给这些成员。 通用组支持与管理员委派相结合，简化了对部署Skype for Business Server管理。 例如，不必将一个域添加到另一个域，管理员即可同时管理这两个域。 
   
 ## <a name="role-based-access-control"></a>基于角色的访问控制
 
-除了创建通用服务组和管理组以及将服务组和管理组添加到相应的通用组之外，林准备还创建 Role-Based Access Control (RBAC) 组。 有关林准备创建的特定 RBAC 组的详细信息，请参阅部署文档中的[Skype for Business Server](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md)林准备所做的更改。 有关 RBAC 组详细信息，请参阅基于角色的访问控制[ (RBAC](role-based-access-control-rbac.md)) for Skype for Business Server 。
+除了创建通用服务组和管理组以及将服务组和管理组添加到相应的通用组之外，林准备还创建 Role-Based Access Control (RBAC) 组。 有关林准备创建的特定 RBAC 组的详细信息，请参阅部署文档中的[Skype for Business Server林准备](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md)所做的更改。 有关 RBAC 组详细信息，请参阅[Role-based access control (RBAC) for Skype for Business Server。](role-based-access-control-rbac.md)
   
 ## <a name="access-control-entries-aces-and-inheritance"></a>访问控制项 (ACE) 与继承
 
@@ -85,7 +85,7 @@ Active Directory 的基础结构要求包括以下各项：
     
 ## <a name="service-connection-points"></a>服务连接点
 
-Active Directory 域服务中的Skype for Business Server对象都有一个称为 RTC 服务的 SCP，而 SCP 又包含许多属性，这些属性标识每台计算机并指定它提供的服务。 在更重要的 SCP 属性中，有 serviceDNSName、serviceDNSNameType、serviceClassname 和 *serviceBindingInformation* 。    第三方资产管理应用程序可以通过针对上述 SCP 属性和其他 SCP 属性进行查询来检索部署中的服务器信息。
+Active Directory 域服务中的Skype for Business Server对象都有一个称为 RTC Services 的 SCP，而 SCP 又包含许多标识每台计算机并指定其提供的服务的属性。 在更重要的 SCP 属性中，有 serviceDNSName、serviceDNSNameType、serviceClassname 和 *serviceBindingInformation* 。    第三方资产管理应用程序可以通过针对上述 SCP 属性和其他 SCP 属性进行查询来检索部署中的服务器信息。
   
 ## <a name="active-directory-server-objects"></a>Active Directory 服务器对象
 
@@ -101,7 +101,7 @@ Active Directory 域服务中的Skype for Business Server对象都有一个称�
     
 如果未满足上述任一条件，则该服务器将不会受到信任，并且与该服务器的连接将被拒绝。 此双重要求可防止未授权服务器尝试接管有效服务器的 FQDN（如果不太可能）受到攻击。
   
-此外，为了启用 Microsoft Office Communications Server 2007 R2 和 Microsoft Office Communications Server 2007 部署与 Skype for Business Server 服务器进行通信，Skype for Business Server 在林准备期间创建容器，以存放早期版本的受信任服务器列表。 下表介绍为了与早期部署兼容而创建的容器。
+此外，为了启用 Microsoft Office Communications Server 2007 R2 和 Microsoft Office Communications Server 2007 部署与 Skype for Business Server 服务器进行通信，Skype for Business Server 在林准备期间创建容器，以便存放早期版本的受信任服务器列表。 下表介绍为了与早期部署兼容而创建的容器。
   
 **与早期版本兼容的受信任的服务器列表及其 Active Directory 容器**
 

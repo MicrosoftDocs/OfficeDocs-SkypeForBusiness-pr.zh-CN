@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.ExtXmppPartnerMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3e270f9f-c5b7-4aa8-8425-83acadfbfb9a
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: 5fe9b0f9b740d57f4e652ebe17d24b7733bffb63594ea8204655838bb82d8c97
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 408fed92ae654db1aed177661bb4f2669c4cd669
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298352"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623814"
 ---
 # <a name="xmpp-federated-partners"></a>XMPP 联盟伙伴
 
@@ -28,4 +28,4 @@ ms.locfileid: "54298352"
 
 - [管理组织的 XMPP 联盟伙伴](/previous-versions/office/lync-server-2013/lync-server-2013-manage-xmpp-federated-partners-for-your-organization)
 
-有关可以使用控制面板执行的不同过程的详细信息，Skype for Business Server Manage [Skype for Business Server 2015](../../manage/manage.md)。
+有关可以使用控制面板执行的不同过程的详细信息，请参阅 Manage [Skype for Business Server Skype for Business Server 2015](../../manage/manage.md)。

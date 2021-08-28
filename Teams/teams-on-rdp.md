@@ -9,7 +9,7 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: 了解如何将 Microsoft Teams与远程桌面服务一起使用。
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -17,20 +17,20 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d15dabb0b81f86d41540eda7e580c588a0d921bad88eb5fa322fd2103b0cac61
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3fbb5fbd43d9fdc702d0fb9a0a0de446b3a50087
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296459"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635636"
 ---
-# <a name="teams-in-remote-desktop-services"></a>Teams桌面服务中的设置
+# <a name="teams-in-remote-desktop-services"></a>Teams桌面服务中的
 
 本文介绍在 RDS Microsoft Teams远程桌面服务 (使用) 的要求和限制。
 
 ## <a name="what-is-rds"></a>什么是 RDS？
 
-远程桌面 (RDS) 是构建虚拟化解决方案，满足每个最终客户需求的首选平台。 RDS 允许交付单个虚拟化应用程序、提供安全的移动和远程桌面访问，以及使最终用户能够从云中运行其应用程序和桌面。
+远程桌面 (RDS) 是构建虚拟化解决方案，满足每个最终客户需求的首选平台。 RDS 允许交付单个虚拟化应用程序，提供安全的移动和远程桌面访问，并为最终用户提供从云中运行其应用程序和桌面的能力。
 
 RDS 提供部署灵活性、成本效益和可扩展性。 RDS 通过各种部署选项提供，包括Windows Server 2016部署方案、Microsoft Azure部署解决方案以及一系列可靠的合作伙伴解决方案。
 根据环境和首选项，可以将 RDS 解决方案设置为基于会话的虚拟化，作为 VDI (虚拟) 
@@ -39,13 +39,13 @@ RDS 提供部署灵活性、成本效益和可扩展性。 RDS 通过各种部�
 
 ## <a name="teams-on-rds-with-chat-and-collaboration"></a>Teams聊天和协作在 RDS 上聊天
 
-如果你的组织只想在 Teams 使用聊天和协作功能，你可以设置用户级策略以在 Teams 中关闭呼叫和Teams。
+如果你的组织只想在 Teams 中使用聊天和协作功能，你可以设置用户级策略以在 Teams 中关闭呼叫和Teams。
 
 ### <a name="set-policies-to-turn-off-calling-and-meeting-functionality"></a>设置策略以关闭呼叫和会议功能
 
 可以使用管理中心或 PowerShell Microsoft Teams策略。 传播策略更改 (可能需要) 几个小时。 如果未立即看到给定帐户的更改，请在几小时后重试。
 
-[**调用策略**](teams-calling-policy.md)：Teams包括内置的 DisallowCalling 调用策略，其中所有调用功能都已关闭。 将 DisallowCalling 策略分配给组织中在虚拟化环境中Teams的所有用户。
+[**调用策略**](teams-calling-policy.md)：Teams包括内置的 DisallowCalling 调用策略，其中所有调用功能都已关闭。 将 DisallowCalling 策略分配给组织中在虚拟化环境中Teams用户。
 
 [**会议策略**](meeting-policies-in-teams.md)：Teams包括内置的 AllOff 会议策略，其中所有会议功能都已关闭。 将 AllOff 策略分配给组织中在虚拟化环境中Teams用户。
 

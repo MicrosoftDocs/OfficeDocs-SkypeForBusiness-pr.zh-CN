@@ -10,20 +10,20 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 6a197ecf-b56b-45e0-8e7c-f532ec5164ff
 description: 摘要：了解如何为 Skype for Business Server 2015 中的集中日志记录服务配置方案提供程序。
-ms.openlocfilehash: 348ed9b17cfd6cbaa6ab6f02e105b268df8caccad05fa4b5f201a20b099bf71c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ef1c728615d34e074ea041e261b4fc5b220e1fdd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54326408"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616538"
 ---
 # <a name="configure-providers-for-centralized-logging-service-in-skype-for-business-server-2015"></a>Configure providers for Centralized Logging Service in Skype for Business Server 2015
  
-**摘要：** 了解如何在 Skype for Business Server 2015 中为集中日志记录服务配置方案提供程序。
+**摘要：** 了解如何为 Skype for Business Server 2015 中的集中日志记录服务配置方案提供程序。
   
 集中日志记录服务中的提供程序的概念和配置是必须掌握的最重要的概念之一。 这些角色直接映射到Skype for Business Server跟踪模型中的Skype for Business Server角色组件。 提供程序定义将跟踪的 Skype for Business Server 2015 的组件、要收集的消息类型 (例如，要收集的致命消息、错误或警告) 以及标志 (例如 TF_Connection 或 TF_Diag) 。 提供程序是每个服务器角色中Skype for Business Server组件。 通过使用提供程序，可以定义对组件进行的跟踪的级别和类型（例如，S4、SIPStack、IM 和 Presence）。 可在方案中使用所定义的提供程序将针对给定逻辑集合的、满足某个特定问题条件的所有提供程序组合在一起。
   
@@ -39,7 +39,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Skype for Business Server 201
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 ```
 
-本主题的其余部分将重点说明如何定义提供程序、修改提供程序以及提供程序定义为优化您的疑难解答所包含的内容。 有两种方法可以发出集中日志记录服务命令。 默认情况下，您可以使用CLSController.exe C：\Program Files\Common Files\Skype for Business Server 2015\CLSAgent 目录中的目录。 或者，您可以使用命令行管理Skype for Business Server来发出Windows PowerShell命令。 通过使用Windows PowerShell，您可以定义用于日志记录会话的新提供程序，并完全控制其创建、收集内容以及收集数据的级别。
+本主题的其余部分将重点说明如何定义提供程序、修改提供程序以及提供程序定义为优化您的疑难解答所包含的内容。 有两种方法可以发出集中日志记录服务命令。 默认情况下，您可以使用CLSController.exe C：\Program Files\Common Files\Skype for Business Server 2015\CLSAgent 目录中的目录。 或者，您可以使用命令行管理Skype for Business Server发出Windows PowerShell命令。 通过使用Windows PowerShell，您可以定义用于日志记录会话的新提供程序，并完全控制其创建、收集内容以及收集数据的级别。
   
 > [!IMPORTANT]
 > 如前所述，提供程序的功能十分强大。但是，方案的功能更为强大，因为方案是对提供程序表示的组件进行设置并执行跟踪所需的所有信息的具体体现。由于方案将包含一组提供程序，因此将运行一个包含几百条用于收集大量信息的命令的批处理文件与在命令行中一次性发出几百条命令相比是不受限制的。 
@@ -66,7 +66,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     
   - **调试** 这本质上是"全部"的等效项 - 为定义的提供程序收集类型为 Fatal、Error、Warning、Info、Verbose 和 Debug 的跟踪。
     
-- **Flags** OCSLogger 提供了为定义了可以从跟踪文件中检索的信息类型的每个提供程序选择标志的选项。 可以根据提供程序选择以下标志：
+- **Flags** OCSLogger 提供了用于为定义了可以从跟踪文件中检索的信息类型的每个提供程序选择标志的选项。 可以根据提供程序选择以下标志：
     
   - **TF_Connection** 提供与连接相关的日志条目。 这些日志包括与特定组件建立的连接的相关信息。 这可能还包括大量网络级信息（即针对组件，但不包括连接的概念）。
     

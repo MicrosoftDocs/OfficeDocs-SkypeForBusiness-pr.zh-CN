@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7992440b-8545-4af9-b3ac-ea200b9de084
 ROBOTS: NOINDEX, NOFOLLOW
 description: "\"正在执行命令\"窗格上的摘要窗格显示为要部署的 Skype for Business Server 服务器启动服务而发出的任务的状态。"
-ms.openlocfilehash: 3a63d15c96728d1503c3938e8466420895ad8fceb0a4636126055949dbea6c79
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1c53ea2bc52cee5213bfca585b14957d50581b98
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54317777"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597996"
 ---
 # <a name="start-services-invoke"></a>启动服务（调用）
  

@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.SqlInstanceScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bd270488-ceb9-4920-bef3-ed9fe8eff36c
 description: 此节点显示此 (的完全限定域名) FQDN Microsoft SQL Server以及该服务器上 SQL Server 的实例以及使用此 SQL Server 的池或服务器。 可以执行以下操作：
-ms.openlocfilehash: 1abf5a3cf011d90f8efc81531d5f7fa052a57941ec7484b00435d285364ec134
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3a6ae742e778ba105ab19b8e8459b1695fb82519
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338160"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588564"
 ---
 # <a name="sql-instance-scope-node"></a>SQL 实例范围节点
  

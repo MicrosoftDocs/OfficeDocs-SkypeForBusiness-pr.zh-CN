@@ -13,18 +13,18 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: '如果将策略配置为支持与联盟伙伴进行通信，则策略将适用于联盟域用户。 '
-ms.openlocfilehash: 57b674e0b75a310b56b6aaedaf4338eda94d75452f7f4b3d59580a4a52759453
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 86d3988df429b3bc9ef2972aa27e0a6ed03ceb72
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301388"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588584"
 ---
 # <a name="configure-policies-to-control-federated-user-access-in-skype-for-business-server"></a>配置策略以控制联盟用户访问Skype for Business Server
 
-如果将策略配置为支持与联盟伙伴进行通信，则策略将适用于联盟域用户。 可以配置一个或多个外部用户访问策略，以控制联盟域的用户是否可以与联盟Skype for Business Server协作。 要控制联盟用户访问，可以在全局、站点和用户级别配置策略。 Skype for Business Server一个策略级别应用的策略设置可以覆盖在另一个策略级别应用的设置。 Skype for Business 服务器策略优先级是：用户策略（最大影响力）覆盖站点策略，然后站点策略覆盖全局策略（最小影响）。 这意味着，策略设置越接近策略影响的对象，它对对象的影响就越大。
+如果将策略配置为支持与联盟伙伴进行通信，则策略将适用于联盟域用户。 您可以配置一个或多个外部用户访问策略，以控制联盟域的用户是否可以与联盟Skype for Business Server协作。 要控制联盟用户访问，可以在全局、站点和用户级别配置策略。 Skype for Business Server一个策略级别应用的策略设置可以覆盖在另一个策略级别应用的设置。 Skype for Business 服务器策略优先级是：用户策略（最大影响力）覆盖站点策略，然后站点策略覆盖全局策略（最小影响）。 这意味着，策略设置越接近策略影响的对象，它对对象的影响就越大。
 
 
 > [!NOTE]  
@@ -67,7 +67,7 @@ ms.locfileid: "54301388"
 
 1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
 
-2.  启动"Skype命令行管理程序"：单击"开始"，单击"所有程序"，单击 **"Skype for Business Server"，** 然后单击"Skype for Business Server **命令行管理程序"。** 
+2.  Start the Skype for Busines Server Management Shell： Click **Start**， click **All Programs，** click **Skype for Business Server**， and then click Skype for Business Server **Management Shell**.
 
 3.  在命令行管理程序Skype for Business Server以下内容：
     

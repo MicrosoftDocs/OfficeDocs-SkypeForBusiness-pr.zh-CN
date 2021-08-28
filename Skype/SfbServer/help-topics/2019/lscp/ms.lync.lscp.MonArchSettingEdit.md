@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 49096960-c442-4846-be8f-03c167acea41
 ROBOTS: NOINDEX, NOFOLLOW
 description: 使用存档配置控制部署的存档选项。 存档配置包括全局配置以及可选的一个或多个站点和池配置：
-ms.openlocfilehash: 74fc7795abdc97bc51404a88ef26cac3755d370a54e4b52fb53838cbd2fb11a6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 01c14b482fb546a83d9cff8bdbbfd75f8f81f1bd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54325275"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597726"
 ---
 # <a name="archiving-configuration-create-new-or-edit-existing"></a>存档配置：创建新的或编辑现有的
  
@@ -54,7 +54,7 @@ ms.locfileid: "54325275"
     
   - **禁用存档**
     
-- **如果存档失败， (即时消息)** IM 会话或 Web 会议会话故障包括：
+- **如果存档失败， (即时消息) IM** 会话或 Web 会议会话故障包括：
     
   - **IM** 故障可能是数据库已满或存储服务出现问题。 在此情况下，将阻止为存档启用的用户使用 IM。
     
@@ -62,16 +62,16 @@ ms.locfileid: "54325275"
     
     IM 和会议都能在修复故障后自动恢复。
     
-- **Microsoft Exchange 集成** 如果你有用户位于其他网站中，请Exchange。 使用此选项，Exchange邮箱已置于"保留"状态，则使用 In-Place存储这些用户的数据。 如果您的所有用户都位于Exchange，则无需为存档数据SQL Server单独的数据库。
+- **Microsoft Exchange 集成** 如果你有用户位于其他网站中，请Exchange。 使用此选项，Exchange，如果这些用户的邮箱已置于"保留"状态，则In-Place数据。 如果您的所有用户都位于Exchange，则无需为存档数据SQL Server单独的数据库。
     
 - **启用存档数据的清除** 选择此选项可启用清除并指定清除选项，其中包括：
     
   - 在您指定的特定天数之后清除
     
-  - 如果启用 Microsoft Exchange 集成策略，则清除存档数据 (包括已上载到 Exchange) 的数据Exchange清除。
+  - 如果启用了 Exchange Microsoft (集成策略，则清除存档数据 (包括已上载到 Exchange) 的数据。
     
     > [!NOTE]
-    > 如果启用 Microsoft Exchange集成，则清除位于 Exchange 上的用户及其置于 In-Place 保留中的邮箱由 Exchange。 唯一的例外是存储在 Lync Server 文件共享上的会议文件。 如果您选择在已导出存档数据后清除数据，或在指定的最长天数（如果您指定了最长保留天数）后清除数据，则仅在导出文件（上载到 Exchange）后才从文件共享中清除这些文件。 
+    > 如果启用 Microsoft Exchange集成，则清除位于 Exchange 上的用户及其置于 In-Place 保留的邮箱由 Exchange。 唯一的例外是存储在 Lync Server 文件共享上的会议文件。 如果您选择在已导出存档数据后清除数据，或在指定的最长天数（如果您指定了最长保留天数）后清除数据，则仅在导出文件（上载到 Exchange）后才从文件共享中清除这些文件。 
   
-有关存档特性和功能（包括 Exchange 集成）的详细信息，请参阅在[Skype for Business Server](../../../plan-your-deployment/archiving/archiving.md)中规划存档、为[Skype for Business Server](../../../deploy/deploy-archiving/deploy-archiving.md)部署存档和在 Skype for Business Server[中管理存档](../../../manage/archiving/archiving.md)。
+有关存档特性和功能（包括 Exchange 集成）的详细信息，请参阅在[Skype for Business Server](../../../plan-your-deployment/archiving/archiving.md)中规划存档、[为](../../../deploy/deploy-archiving/deploy-archiving.md)Skype for Business Server 部署存档和在 Skype for Business Server 中管理[存档](../../../manage/archiving/archiving.md)。
 
