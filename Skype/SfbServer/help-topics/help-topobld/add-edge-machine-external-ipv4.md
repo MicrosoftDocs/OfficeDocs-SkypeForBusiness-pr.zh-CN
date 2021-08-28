@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddEdgeMachineExternalIPv4Page
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0429444b-97cc-41a1-94e0-3e2e5fdfa9ca
 description: 在"外部 IPv4"中，输入指向访问边缘服务、Web 会议边缘服务和 A/V 边缘服务的外部 IP 地址。
-ms.openlocfilehash: c86fc50b11951a46311150cfffd4ed4d535c69d71ad149f34c691a83b9d65f6f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 621d15cb99753d9a03e39b8e35ee2acf4d339bd6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343616"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621308"
 ---
 # <a name="add-edge-machine-external-ipv4"></a>添加边缘计算机外部 IPv4
  

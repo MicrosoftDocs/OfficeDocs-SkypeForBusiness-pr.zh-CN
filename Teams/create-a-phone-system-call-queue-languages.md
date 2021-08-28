@@ -15,18 +15,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Phone System
 description: Microsoft Teams队列支持的语言
-ms.openlocfilehash: dd16ef64facfca51d8d2a456d1e5bba877e1e1c0
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 775b8c01f2638ffb2e13c25edf265f9abdd65989
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233077"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634856"
 ---
 # <a name="microsoft-teams-call-queue-supported-languages"></a>Microsoft Teams队列支持的语言
 
@@ -42,7 +42,7 @@ ms.locfileid: "58233077"
 |克罗地亚 (克罗地亚)                       |
 |捷克共和国 (捷克共和国)                   |
 |丹麦 (丹麦)                         |
-|荷兰语 (荷兰)                      |
+|荷兰 (荷兰语)                      |
 |澳大利亚 (英语)                      |
 |加拿大 (英语)                         |
 |印度 (英语)                          |
@@ -58,7 +58,7 @@ ms.locfileid: "58233077"
 |意大利 (意大利)                          |
 |日语 (日本)                         |
 |韩语 (韩国)                           |
-|挪威博克马尔语 (挪威)                |
+|挪威博克马尔 (挪威)                |
 |波兰 (波兰)                          |
 |巴西 (葡萄牙语)                      |
 |葡萄牙语 (葡萄牙)                    |

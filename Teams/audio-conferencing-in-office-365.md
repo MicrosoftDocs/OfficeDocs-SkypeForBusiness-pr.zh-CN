@@ -17,7 +17,7 @@ audience: admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -25,12 +25,12 @@ ms.custom:
 - ms.teamsadmincenter.audioconferencing.overview
 - seo-marvel-apr2020
 description: 了解会议或会议Microsoft 365音频Office 365允许用户从他们的电话呼入会议。
-ms.openlocfilehash: 46c3c1c7e2fde92d2c8fa37978c9c3c19928dadd
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: ffb24b35171e59ec99d9145362a51c51cd5f2ecb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58232817"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633436"
 ---
 # <a name="audio-conferencing-in-microsoft-365"></a>音频会议Microsoft 365
 使用音频和视频Microsoft 365 Office 365用户可以从他们的电话呼入会议。 音频会议允许最多 1000 个电话与会者。

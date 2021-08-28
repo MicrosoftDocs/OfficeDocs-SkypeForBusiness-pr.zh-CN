@@ -10,7 +10,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 description: 使用 Microsoft Teams 的保留策略可以保留满足组织内部策略、行业法规或法律要求所需的消息，并删除被视为不利因素或没有法律及商业价值的消息。
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a122bd1d0bb3c8cba450293b43f7532f36c510831bd301ed30d9955a9a1f8d31
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1385f190c0bcf35c89576695911853c88ef7d1d1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296689"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634836"
 ---
 # <a name="manage-retention-policies-for-microsoft-teams"></a>管理 Microsoft Teams 的保留策略
 
@@ -67,13 +67,13 @@ Teams 支持聊天和频道消息中的保留策略。因此，作为管理员�
 
 - 对于私人聊天，请 (1：1 或 1：) 聊天、来自标准通道的消息或来自专用通道的消息制定单独的保留策略。
 
-- 将策略仅应用于组织的特定用户或团队。 对于Teams和专用频道，可以选择策略所应用到的用户。 对于 Teams 频道消息，可选择要为其应用策略的团队。
+- 将策略仅应用于组织的特定用户或团队。 对于Teams和专用频道，可以选择策略适用于哪些用户。 对于 Teams 频道消息，可选择要为其应用策略的团队。
 
-例如，对于标准频道消息：为组织中特定团队创建保留策略，在 1 年后使用删除操作配置该策略。 然后为所有其他团队的标准频道消息创建另一个保留策略，然后在 3 年后通过删除操作配置该策略。
+例如，对于标准频道消息：为组织中特定团队创建保留策略，并配置该策略，在 1 年后执行删除操作。 然后为所有其他团队的标准频道消息创建另一个保留策略，然后在 3 年后通过删除操作配置该策略。
 
 ## <a name="create-and-manage-retention-policies-for-teams"></a>在 Teams 创建并管理保留策略：
 
-若要为邮件创建或编辑Teams策略，请使用保留策略[中的说明Teams位置](/microsoft-365/compliance/create-retention-policies#retention-policy-for-teams-locations)。
+若要为邮件创建或编辑Teams策略，请使用保留策略中的说明[Teams位置](/microsoft-365/compliance/create-retention-policies#retention-policy-for-teams-locations)。
 
 该页包含为 Microsoft 365 中其他工作负荷创建和管理保留策略的补充信息。 例如，你可能还想要为 Microsoft 365 组创建保留策略，以保留和删除可通过 Teams 访问并存储在 OneDrive 或 SharePoint 中的文件。  
 

@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是适用于Microsoft 365 Office 365菲律宾的Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: dcc3e23c628866f125fb6926d7f0349d77b30e8e1a8dc4ba3073d564bebae17c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 以下是适用于菲律宾Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
+ms.openlocfilehash: 071bad707b51a0d455dbccb02c72922c904b5ab2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339800"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634876"
 ---
 # <a name="availability-in-the-philippines"></a>在菲律宾的可用性
 
 [查找其他国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或详细了解可以在哪些国家/地区使用音频会议和通话套餐。
 
-以下是适用于Microsoft 365 Office 365菲律宾的Skype for Business Microsoft Teams服务。
+以下是适用于菲律宾Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 

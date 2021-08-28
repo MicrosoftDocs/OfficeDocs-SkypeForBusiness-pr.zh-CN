@@ -9,20 +9,20 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 01131e28-b38e-40d9-8524-06725b9c6608
-description: 本节概述了构成安全框架的基本Skype for Business Server。 了解这些元素如何协同工作对于做出有关保护特定部署部署的安全Skype for Business Server至关重要。
-ms.openlocfilehash: a0f6513f86d7416f546c6a744fc1b40df7c7137a18dae5d76fcf18166a4f2eb1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 本节概述了构成安全框架的基本Skype for Business Server。 了解这些元素如何协同工作对于做出有关保护特定部署部署的明智决定Skype for Business Server至关重要。
+ms.openlocfilehash: 27c5cdd1e9ff662a2a7d39ded04782af666ddb29
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337710"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627904"
 ---
 # <a name="security-framework-for-skype-for-business-server"></a>安全框架Skype for Business Server
  
-本节概述了构成安全框架的基本Skype for Business Server。 了解这些元素如何协同工作对于做出有关保护特定部署部署的安全Skype for Business Server至关重要。
+本节概述了构成安全框架的基本Skype for Business Server。 了解这些元素如何协同工作对于做出有关保护特定部署部署的明智决定Skype for Business Server至关重要。
   
 这些要素如下所示：
   
@@ -46,7 +46,7 @@ ms.locfileid: "54337710"
   
 - [Active Directory 域服务Skype for Business Server](active-directory-domain-services.md)
     
-- [基于角色的访问控制 (RBAC) for Skype for Business Server](role-based-access-control-rbac.md)
+- [基于角色的访问控制 (RBAC) Skype for Business Server](role-based-access-control-rbac.md)
     
 - [用于基础结构的公钥Skype for Business Server](public-key-infrastructure-for-skype.md)
     
@@ -56,6 +56,6 @@ ms.locfileid: "54337710"
     
 - [用户和客户端身份验证Skype for Business Server](user-and-client-authentication.md)
     
-- [Windows PowerShell Skype for Business Server管理工具](management-tools.md)
+- [Windows PowerShell和Skype for Business Server管理工具](management-tools.md)
     
 

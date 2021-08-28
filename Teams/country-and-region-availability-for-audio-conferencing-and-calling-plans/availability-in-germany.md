@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是适用于德国Microsoft 365 Office 365和Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: 53a775c6fa661c7222acb1370cd9426c0536890496c03eed128e2446788c5968
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 下面是适用于德国Microsoft 365 Office 365和Skype for Business Microsoft Teams服务。
+ms.openlocfilehash: 5d0ef40f401643b15ffce62a94fc1685161480ee
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308891"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633316"
 ---
 # <a name="availability-in-germany"></a>在德国的可用性
 
 [查找其他国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或详细了解可以在哪些国家/地区使用音频会议和通话套餐。
 
-以下是适用于德国Microsoft 365 Office 365和Skype for Business Microsoft Teams服务。
+下面是适用于德国Microsoft 365 Office 365和Skype for Business Microsoft Teams服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 
@@ -60,7 +60,7 @@ ms.locfileid: "54308891"
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买通话套餐？  <br/> |是  <br/> |
-|通话套餐可用的分钟数。 |每个日历月有四个可用的计划选项： <ul><li>120 分钟国内呼叫计划 </li><li>240 分钟国内呼叫计划</li></li><li>1200 分钟国内呼叫计划 </li></li><li>国内和国际呼叫计划：国内呼叫 1200 分钟或国际呼叫 600 分钟 (以日历月份内首先达到的为准) </li></li>|
+|通话套餐可用的分钟数。 |每个日历月有四个可用的计划选项： <ul><li>120 分钟国内呼叫计划 </li><li>240 分钟国内呼叫计划</li></li><li>1200 分钟国内呼叫计划 </li></li><li>国内和国际呼叫计划：国内呼叫 1200 分钟或国际呼叫 600 分钟 (在日历月份内先达到) </li></li>|
 |能否对高级号码进行出站呼叫？ <br/> | 目前不支持。 <br/> |
 |是否可以拨打呼出电话？  <br/> | 可向 196 国家/地区（包括[这些国家/地区](users-can-make-outbound-calls-to-these-countries-and-regions.md)）拨打。<br/> |
    

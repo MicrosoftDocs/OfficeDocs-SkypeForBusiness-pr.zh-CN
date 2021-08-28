@@ -10,21 +10,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 32e1c1d6-80f4-4624-bf4e-b4c77d3982fa
 description: tblPrincipalType 包含用于对 tblPrincipal 表中的内容进行分类的主体类型。
-ms.openlocfilehash: e058af1fa45c87f97b34ac9c5b931b7d7cb9114205c702c732984adafc04d3fc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5a4e38c7e29de235c4244e0617575f0732ab4362
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281645"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633496"
 ---
 # <a name="tblprincipaltype"></a>tblPrincipalType
  
 tblPrincipalType 包含用于对 tblPrincipal 表中的内容进行分类的主体类型。
   
-**Columns**
+**列**
 
 |**列**|**类型**|**说明**|
 |:-----|:-----|:-----|
@@ -43,13 +43,13 @@ tblPrincipalType 包含用于对 tblPrincipal 表中的内容进行分类的主�
 
 |**ID**|**角色**|**说明**|**用户**|
 |:-----|:-----|:-----|:-----|
-|1  <br/> |任何  <br/> |未知类型的通用主体。不用于 tblPrincipal 表。  <br/> ||
-|2  <br/> |AnyUser  <br/> |用户类型的通用主体。不用于 tblPrincipal 表。  <br/> |是  <br/> |
-|3  <br/> |AnyGroup  <br/> |组语义的通用主体。不用于 tblPrincipal 表。  <br/> ||
+|1   <br/> |任何  <br/> |未知类型的通用主体。不用于 tblPrincipal 表。  <br/> ||
+|2   <br/> |AnyUser  <br/> |用户类型的通用主体。不用于 tblPrincipal 表。  <br/> |是  <br/> |
+|3   <br/> |AnyGroup  <br/> |组语义的通用主体。不用于 tblPrincipal 表。  <br/> ||
 |4   <br/> |SystemUser  <br/> |持久聊天服务器内部使用的主体。  <br/> ||
 |5   <br/> |用户  <br/> |常规用户。  <br/> |是  <br/> |
 |8   <br/> |DC  <br/> |Active Directory 域服务域控制器。  <br/> ||
-|9   <br/> |Group  <br/> |Active Directory 安全组。  <br/> ||
+|9   <br/> |组  <br/> |Active Directory 安全组。  <br/> ||
 |10   <br/> |Folder  <br/> |Active Directory 容器或组织单位。  <br/> ||
    
 ## <a name="see-also"></a>另请参阅

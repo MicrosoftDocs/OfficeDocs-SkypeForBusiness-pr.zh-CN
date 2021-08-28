@@ -9,22 +9,22 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 3d293a8a-e182-4547-8b06-2603c3c77329
 description: 摘要：锁定或解锁用户的电话拨入式会议 PIN Skype for Business Server。
-ms.openlocfilehash: d0871622a045555dcd2da49a6bbbd6721a8d3302a6bf3c7800092e4f7e062d32
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8348685e925d9726c43ecd54b6116b9b40652208
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284802"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633636"
 ---
 # <a name="lock-or-unlock-a-user-pin-in-skype-for-business-server"></a>锁定或解锁用户 PIN Skype for Business Server
  
 **摘要：** 锁定或解锁用户的电话拨入式会议 PIN Skype for Business Server。
   
-你可以从控制面板的"用户"部分锁定或解锁Skype for Business Server  PIN。
+可以从控制面板的"用户"部分锁定或解锁Skype for Business Server  PIN。
   
 ### <a name="to-lock-a-users-pin-in-skype-for-business-server-control-panel"></a>在控制面板中锁定Skype for Business Server PIN
 
@@ -90,7 +90,7 @@ ms.locfileid: "54284802"
     
 ## <a name="locking-and-unlocking-user-pins-by-using-windows-powershell-cmdlets"></a>使用 Cmdlet 锁定和解锁Windows PowerShell PIN
 
-可以使用 Windows PowerShell cmdlet 和 Lock-CsClientPin cmdlet 锁定和解锁Unlock-CsClientPin PIN。 可以从命令行管理程序或 Skype for Business Server远程会话中运行这些 cmdlet Windows PowerShell。 有关使用远程 Windows PowerShell连接到 Skype for Business Server 的详细信息，请参阅博客文章"快速入门：使用远程[PowerShell 管理 Microsoft Lync Server 2010"。](https://go.microsoft.com/fwlink/p/?linkId=255876) 此过程在Skype for Business Server。
+可以使用 cmdlet 和 Windows PowerShell cmdlet 锁定和解锁Lock-CsClientPinUnlock-CsClientPin PIN。 可以从命令行管理程序或 Skype for Business Server远程会话中运行这些 cmdlet Windows PowerShell。 有关使用远程 Windows PowerShell连接到 Skype for Business Server 的详细信息，请参阅博客文章"快速入门：使用远程 PowerShell 管理[Microsoft Lync Server 2010"。](https://go.microsoft.com/fwlink/p/?linkId=255876) 此过程在Skype for Business Server。
   
 ### <a name="to-lock-a-user-pin"></a>锁定用户 PIN
 

@@ -15,7 +15,7 @@ metadata:
   audience: admin
   f1.keywords:
     - NOCSH
-  localization_priority: Priority
+  ms.localizationpriority: high
   ms.collection:
     - Teams_ITAdmin_JourneyFromSfB
     - M365-collaboration
@@ -43,13 +43,13 @@ productDirectory:
         - url: 'https://customers.microsoft.com/story/813525-dsm-discrete-manufacturing-technical-teams'
           text: 英国 DSM – Skype for Business Server Teams
         - url: 'https://customers.microsoft.com/story/799203-ikea-retailers-teams'
-          text: 功能 - Skype for Business Server Teams
+          text: 一SKYPE FOR BUSINESS SERVER到 Teams
         - url: 'https://customers.microsoft.com/story/782385-williams-energy-teams'
-          text: Williams – Skype for Business Server Teams
+          text: Williams – Skype for Business Server to Teams
         - url: 'https://customers.microsoft.com/story/765513-trek-retailers-teams'
           text: 旅行 - Skype for Business Online Teams
         - url: 'https://customers.microsoft.com/story/765520-dentsu-aegis-network-media-entertainment-teams'
-          text: 一文 ：使用 Skype for Business Online 连接到 Teams
+          text: 一文-2016-Skype for Business Online Teams
         - url: 'https://customers.microsoft.com/story/764851-berkshire-healthcare-nhs-foundation-trust-health-provider-teams'
           text: Berk一家医疗保健公司 – Skype for Business Online Teams
     - title: Ignite 会话：设计目标Teams
@@ -66,7 +66,7 @@ productDirectory:
       url: ./index.yml
     - title: 教师指导Teams培训
       imageSrc: 'https://docs.microsoft.com/office/media/icons/presenter-with-podium.svg'
-      summary: 免费、实时、在线的培训课程，旨在帮助你使用 Teams。
+      summary: 免费、实时、在线的培训课程，旨在帮助你使用Teams。
       url: ./instructor-led-training-teams-landing-page.yml
     - title: 扩展Teams方案
       imageSrc: 'https://docs.microsoft.com/office/media/icons/best-practices-teams.svg'
@@ -89,11 +89,11 @@ additionalContent:
     - title: 需要其他帮助？
     - items:
         - title: 与FastTrack联系，寻求部署帮助
-          summary: 当Teams项目需要更多参与协助时，具有合格订阅的客户可以FastTrack获取支持。
+          summary: 当Teams项目需要更多涉及的帮助时，具有合格订阅的客户可以FastTrack获取支持。
           url: 'https://www.microsoft.com/fasttrack'
         - title: 查找 Microsoft 合作伙伴
           summary: 需要其他指导？ Microsoft 解决方案提供商可帮助你管理升级的技术和物流。
           url: 'https://www.microsoft.com/solution-providers/home'
         - title: Microsoft Teams计划和定价
-          summary: 找到适合Microsoft Teams的合适应用。
+          summary: 找到适合Microsoft Teams应用。
           url: 'https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options'

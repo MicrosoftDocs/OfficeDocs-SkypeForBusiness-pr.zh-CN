@@ -1,5 +1,5 @@
 ---
-title: 企业语音中Skype for Business Server
+title: 在应用程序企业语音所需的Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -9,27 +9,27 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ee219976-c39a-4b2f-988d-886c339700f7
-description: Skype for Business Server 中的企业语音组件摘要。
-ms.openlocfilehash: e07c075fad0dcbad8fecfc9183b6ab1a4a1901d848d072a893444c295e56a59d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 企业语音组件摘要Skype for Business Server。
+ms.openlocfilehash: 77a2fdf049ac85eae47ad9f4085c5bcaf92f401a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333094"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633576"
 ---
-# <a name="components-required-for-enterprise-voice-in-skype-for-business-server"></a>企业语音中Skype for Business Server
+# <a name="components-required-for-enterprise-voice-in-skype-for-business-server"></a>在应用程序企业语音所需的Skype for Business Server
  
-Skype for Business Server 中的企业语音组件摘要。
+企业语音组件摘要Skype for Business Server。
   
 若要企业语音，拓扑中需要以下组件。 
   
-- 一个或多个中介服务器，用于转换内部 Skype for Business Server、企业语音 基础结构与公用电话交换网 (PSTN) 网关或会话初始协议 (SIP) 中继之间的信号和媒体（在某些配置中）。 中介服务器是部署中最重要的企业语音组件。 有关详细信息，请参阅中介[服务器组件Skype for Business Server。](mediation-server.md)
+- 一个或多个中介服务器，转换内部 Skype for Business Server、企业语音 基础结构和公用电话交换网 (PSTN) 网关或会话初始协议 (SIP) 中继之间的信号和媒体（在某些配置中）。 中介服务器是部署中最重要的企业语音组件。 有关详细信息，请参阅中介[服务器组件Skype for Business Server。](mediation-server.md)
     
     中介服务器可以与前端服务器并排，也可以作为独立服务器安装。
     

@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AvMcuScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 45e90203-2da3-44c3-beaf-02456fa970a1
 ROBOTS: NOINDEX, NOFOLLOW
 description: 此节点显示此 A/V 会议池的池完全限定域名 (FQDN) 和关联的前端池。可以执行以下操作：
-ms.openlocfilehash: 3ab0ad1f52eb9fd6ff9a123229cdc76fa3feb28ec8d220782c604b45b6c54a42
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e12e878d1561fb25a986331b7214d29184b83f5d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314678"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634656"
 ---
 # <a name="av-mcu-scope-node"></a>AV MCU 范围节点
  

@@ -10,41 +10,41 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7b22002b-7e6a-4d3f-b600-a733a7e3778a
 description: 摘要：在计划将 2013 Skype for Business Server 2016 Exchange本主题。
-ms.openlocfilehash: 68ae17e7a7c5f3b427323f1ea571337de264529fbee954c61f40fb8afe20d1a2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 382d432947ea099db35831a5db0d9ba649796b88
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349934"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633526"
 ---
 # <a name="plan-for-exchange-unified-messaging-integration-in-skype-for-business"></a>规划Exchange统一消息集成Skype for Business
 
 **摘要：** 在计划将 2013 Skype for Business Server 2016 Exchange本主题。
 
-Skype for Business Server统一Exchange与统一 (UM) 集成，以将语音邮件和电子邮件合并到单个邮件基础结构中。 在 Exchange 中Exchange UM (um) 是您可以安装和配置的Exchange服务器角色之一。
+Skype for Business Server统一Exchange与统一 (UM) 集成，以将语音邮件和电子邮件合并到单个邮件基础结构中。 在 Exchange 中Exchange统一 (UM) 是您可以安装和配置的Exchange服务器角色之一。
 
-在 Microsoft Exchange Server 2013 和 2016 中，Exchange UM 作为服务在 Exchange 服务器上运行。 对于Skype for Business Server 企业语音，统一消息将语音邮件和电子邮件合并到一个存储中，用户可以通过电话 (Outlook Voice Access) 访问该存储。 统一消息Skype for Business Server协同工作，为 Outlook 用户提供呼叫应答、Outlook Voice Access 和自动助理企业语音。
+在 Microsoft Exchange Server 2013 和 2016 中，Exchange UM 作为服务在 Exchange 服务器上运行。 对于Skype for Business Server 企业语音，统一消息将语音邮件和电子邮件合并到一个存储中，用户可以从电话 (Outlook Voice Access) 访问该存储。 统一消息Skype for Business Server协同工作，为 Outlook 用户提供呼叫应答、Outlook Voice Access 和自动助理企业语音。
 
 > [!NOTE]
-> Exchange将 Skype for Business 2019 与 Exchange 2013 或 Exchange 2016 集成后，UM 在 Skype for Business Server 2019 中仍然可用。 由于 2019 年 Exchange 支持的变化，EXCHANGE UM 集成的重要性正在减少，以支持 云语音邮件 和云自动助理功能。  有关详细信息[，云语音邮件 Plan 云语音邮件](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)service 和[Plan for Skype for Business Server and Exchange Server migration。](../../../sfbhybrid/hybrid/plan-um-migration.md)
+> Exchange将 Skype for Business Server 2019 与 Skype for Business 2013 或 Exchange 2016 集成后，UM 在 Exchange 2019 中仍然可用。 由于 2019 年 Exchange 支持的变化，EXCHANGE UM 集成的重要性正在减少，以支持 云语音邮件 和云自动助理功能。  有关详细信息[，云语音邮件 Plan Skype for Business Server](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) [and Exchange Server migration。](../../../sfbhybrid/hybrid/plan-um-migration.md)
 
 
 若要在本地 UM 部署中支持这些功能Exchange，必须运行以下项之一：
 
 - Microsoft Exchange Server 2010 (Skype for Business Server 2015 版本或最新的 Service Pack) 
 - Microsoft Exchange Server 2013
-- Microsoft Exchange Server 2016 年
+- Microsoft Exchange Server 2016 年 10 月
 
 > [!NOTE]
-> Exchange以前已知的统一消息在 Skype for Business Server 2019 中不再可用，2019 使用 电话系统 录制语音邮件，然后在用户的邮箱中保留Exchange录制。 有关详细信息[，请参阅云语音邮件](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)服务。
+> Exchange以前已知的统一消息在 Skype for Business Server 2019 中不再可用，2019 使用 电话系统 录制语音邮件，然后将录制保留到用户的 Exchange 邮箱中。 有关详细信息[，云语音邮件](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)规划服务。
 
 ## <a name="features-of-integrated-unified-messaging-and-skype-for-business-server"></a>集成统一消息和统一消息Skype for Business Server
 
-Skype for Business Server，企业语音使用 Exchange 统一消息 (UM) 基础结构来提供呼叫应答、呼叫通知、 (包括语音邮件) 和自动助理服务。
+Skype for Business Server，企业语音使用 Exchange 统一消息 (UM) 基础结构来提供呼叫应答、呼叫通知、语音访问 (包括语音邮件) 和自动助理服务。
 
 - **呼叫应答** 呼叫应答是代表呼叫未应答或忙碌的用户接收语音邮件。 这包括播放个人问候语、录制邮件以及提交要排队等待传递至用户邮箱（存储在 Exchange 服务器上）的邮件。
 
@@ -52,7 +52,7 @@ Skype for Business Server，企业语音使用 Exchange 统一消息 (UM) 基础
 
 - **Outlook Voice Access** Outlook Voice Access 使 企业语音 用户不仅能够访问语音邮件，还可以访问 Exchange 收件箱，包括电子邮件、日历和电话界面中的联系人。 订阅者访问号码由 UM 管理员Exchange分配。
 
-- **自动助理** 自动助理是Exchange UM 功能，可用于配置外部用户可以拨打以联系公司代表的电话号码。 尤其是，它可以提供一系列语音提示来帮助外部呼叫者导航菜单系统。 可用选项列表由 UM 管理员Exchange UM 服务器上Exchange配置。
+- **自动助理** 自动助理是Exchange UM 功能，可用于配置外部用户可以拨打以联系公司代表的电话号码。 尤其是，它可以提供一系列语音提示来帮助外部呼叫者导航菜单系统。 可用选项列表由 UM 管理员在 Exchange UM Exchange配置。
 
 - **传真服务** Exchange UM 包括传真功能，使用户可以接收其邮箱中的Exchange传真。 有关详细信息，请参阅统一[消息Microsoft Exchange Server](/previous-versions/office/exchange-server-2007/bb123911(v=exchg.80))文档。
 
@@ -69,9 +69,9 @@ Skype for Business Server，企业语音使用 Exchange 统一消息 (UM) 基础
 
 ### <a name="supported-topologies"></a>支持的拓扑
 
-可以在同Skype for Business Server Exchange林 (统) 统一消息和统一消息。 如果部署跨多个林，则必须对 UM 林的每个Exchange执行Exchange集成步骤。 此外，必须将每个 Microsoft Exchange林配置为信任 Skype for Business Server 林，将 Skype for Business Server 林配置为信任每个 Exchange UM 林。 除了此林信任之外，还必须Exchange林中的用户对象设置所有用户的 UM Skype for Business Server设置。
+可以在同Skype for Business Server Exchange林 (UM) 部署统一消息和统一消息。 如果部署跨多个林，则必须对 UM 林Exchange执行Exchange集成步骤。 此外，必须将每个 Microsoft Exchange林配置为信任 Skype for Business Server 林，将 Skype for Business Server 林配置为信任每个 Exchange UM 林。 除了此林信任之外，还必须Exchange林中的用户对象上设置所有用户的 UM Skype for Business Server设置。
 
-Skype for Business Server UM 集成支持以下Exchange拓扑：
+Skype for Business Server UM 集成支持Exchange拓扑：
 
 - 单林
 
@@ -79,17 +79,17 @@ Skype for Business Server UM 集成支持以下Exchange拓扑：
 
 - 多域（即具有一个或多个子域的根域）。 Skype for Business Server和 Microsoft Exchange 服务器部署在不同于创建用户的域的域中。 ExchangeUM 服务器可以部署在不同于其支持的池Skype for Business Server域中。
 
-- 多林（即资源林）。 Skype for Business Server部署在单个林中，然后用户分布在多个林中。 用户Exchange UM 属性必须复制到 Skype for Business Server 林。
+- 多林（即资源林）。 Skype for Business Server部署在单个林中，然后用户分布在多个林中。 用户Exchange UM 属性必须复制到Skype for Business Server林。
 
     > [!NOTE]
-    > 可在多个林中部署 Exchange。 每个Exchange组织都可以Exchange UM，也可以Exchange UM 部署在同一个林中Skype for Business Server。
+    > 可在多个林中部署 Exchange。 每个Exchange组织都可以Exchange UM，Exchange UM 可以部署在同一个林中Skype for Business Server。
 
 ## <a name="guidelines-for-integrating-on-premises-unified-messaging-and-skype-for-business-server"></a>集成本地统一消息和统一消息Skype for Business Server
 
-以下是在部署新部署时要考虑的指南和企业语音：
+下面是在部署新部署时要考虑的指南和企业语音：
 
 > [!IMPORTANT]
-> Exchange统一 (UM) 仅在也使用 UCMA 4 时支持 IPv6。
+> Exchange统一消息 (UM) 仅在也使用 UCMA 4 时支持 IPv6。
 
 - 部署Skype for Business Server Standard Edition服务器或前端池。
 
@@ -119,10 +119,10 @@ Skype for Business Server UM 集成支持以下Exchange拓扑：
 
 ![ExchangeUM 恢复能力图](../../media/d8381ecc-0e4e-47ea-9bf7-e54fec9414e7.png)
 
-在示例 1 中，Tukwila 数据中心启用了 Exchange UM 服务器 1 和 2，Dublin 数据中心启用了 Exchange UM 服务器 3 和 4。 如果 Tukwila 发生 Exchange UM 中断，则服务器 1 和 2 的域名系统 (DNS) A 记录应分别配置为指向服务器 3 和服务器 4。 如果 Dublin 发生 UM Exchange，应分别将服务器 3 和 4 的 DNS A 记录配置为指向服务器 1 和服务器 2。
+在示例 1 中，Tukwila 数据中心启用了 Exchange UM 服务器 1 和 2，Dublin 数据中心启用了 Exchange UM 服务器 3 和 4。 如果 Tukwila 发生 Exchange UM 中断，则服务器 1 和 2 的域名系统 (DNS) A 记录应分别配置为指向服务器 3 和 4。 如果 Dublin 发生 UM Exchange，服务器 3 和 4 的 DNS A 记录应分别配置为指向服务器 1 和 2。
 
 > [!NOTE]
-> 对于示例 1，还应在每个 Exchange UM 服务器上分配以下证书之一：使用主题备用名称 (SAN) 中带通配符的证书，或将 SAN 中四个 Exchange UM 服务器中每个服务器的完全限定域名 (FQDN) 放在该证书中。
+> 对于示例 1，还应在每个 Exchange UM 服务器上分配以下证书之一：在主题备用名称 (SAN) 中使用带通配符的证书，或在 SAN 中四个 Exchange UM 服务器中分别使用完全限定的域名 (FQDN) 。
 
 **示例 2：Exchange UM 恢复能力**
 

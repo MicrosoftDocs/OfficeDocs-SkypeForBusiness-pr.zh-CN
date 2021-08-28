@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.EdgeServerScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3f597f6f-c55c-4290-a1cf-3efcc0adfb99
 description: 此节点显示此边缘池的池完全限定域名 (FQDN) 以及其他基本设置。可以执行以下操作：
-ms.openlocfilehash: acda6242dcd3666ccf03814ab3574e0dcf35c8fa5c3fdb8d9c3c06009a90fccb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3d4a8d02110876efa9a10774c610497553b739a8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286901"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633666"
 ---
 # <a name="edge-server-scope-node"></a>边缘服务器范围节点
  

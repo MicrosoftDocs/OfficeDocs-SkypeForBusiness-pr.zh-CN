@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: landerl
 audience: admin
 description: 评估组织接受更改的准备情况，并准备一个计划，让用户准备好从 Skype for Business 升级到 Microsoft Teams。
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 68367cc1879ae514e430b26d46aeb5e830f5d5e3af69a7a60404cc3fe5333a33
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bf2faf2c70fb06efe67e2b108d44612fb2d4b430
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312430"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634786"
 ---
 # <a name="prepare-your-organization"></a>准备组织
 
@@ -40,7 +40,7 @@ ms.locfileid: "54312430"
 
 若要从Teams实现最大值，用户必须实际使用它，但让用户更改其工作方式并不总是容易。 花时间了解用户并设计适当的准备计划有助于促进更改和加速采用Teams。 这些活动应在技术准备准备的同时完成：
 
-- [评估组织变更就绪](./upgrade-org-change-readiness.md)性：这包括了解你的用户是谁、他们将如何使用新技术，以及他们如何随时适应变化。 这也是识别从重点载入中获益的特定用户配置文件的机会。
+- [评估组织变更就绪](./upgrade-org-change-readiness.md)性：这包括了解你的用户是谁、他们将如何使用新技术，以及他们如何随时适应变化。 这也是一个识别特定用户配置文件的机会，这些配置文件将受益于重点载入。
 - [准备用户准备](./upgrade-user-readiness.md)情况计划：准备计划由认知、培训和支持活动组成，应同时解决广泛的用户群和目标配置文件，如评估更改准备情况一 [文所标识](./upgrade-org-change-readiness.md) 。
 
 > [!Tip]

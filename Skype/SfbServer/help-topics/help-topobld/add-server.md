@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddMachinePage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 61647eac-9062-4381-9c80-3cbf70b7db33
 description: 向现有服务器池添加新的服务器，其中池为以下几项之一：
-ms.openlocfilehash: 4a0b06f12a53d933388770fe658712cd73162bbd0a003be38876e735c783b60d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6bd3e18654bf5a9dd0fdb9d0ad4d63ddbc30d4be
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344911"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634436"
 ---
 # <a name="add-server"></a>添加服务器
  

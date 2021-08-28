@@ -12,33 +12,33 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddPersistentChatBackupSqlStorePage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 106698e4-ce73-4a34-8fc7-e9d3208a17dc
 description: 配置将为持久SQL Server持久聊天服务器或持久聊天服务器池提供备份数据库的备份数据库。
-ms.openlocfilehash: c62cf2114d2a982e70aa6218b90109d7fafcea2f85abf9aff5bfd155a5ddef76
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dabfa09b84afef71b5c887ad3bde48486814538b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54302556"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627994"
 ---
 # <a name="add-persistent-chat-backup-sql-server-store"></a>添加持久聊天备份 SQL Server 存储
  
 配置将为持久SQL Server持久聊天服务器或持久聊天服务器池提供备份数据库的备份数据库。
   
- **SQL Server存储**：选择现有SQL Server持久聊天的实例（可选）。
+ **SQL Server存储**：选择现有SQL Server和可选的持久聊天实例。
   
 单击 **"** 新建"以定义SQL Server持久聊天备份数据的新实例（可选）。
   
 选中"**启用SQL Server存储镜像**"复选框以配置将为持久聊天备份数据提供镜像数据库的 SQL Server 数据库和可选实例。
   
-从列表"**镜像**"SQL Server存储SQL Server和可选实例，以用作持久SQL Server持久聊天备份SQL Server。
+从列表"**镜像**"SQL Server存储SQL Server和可选实例，以用作持久SQL Server备份数据库的SQL Server。
   
 单击 **"** 新建"以定义SQL Server持久聊天策略镜像的新实例SQL Server实例。
   
-从“使用 SQL Server 镜像见证启用自动故障转移”列表选择一个 SQL Server，用作故障转移情况下的见证服务器。 见证服务器不镜像或承载持久聊天服务器的数据，但确保镜像配置中SQL Server一个服务器是SQL Server活动服务器。
+从“使用 SQL Server 镜像见证启用自动故障转移”列表选择一个 SQL Server，用作故障转移情况下的见证服务器。 见证服务器不镜像或承载持久聊天服务器的数据，但确保镜像配置中SQL Server一个服务器是活动SQL Server处于活动状态。
   
-单击 **"** 新建"以定义新的SQL Server（可选）用于镜像见证的持久聊天SQL Server实例。
+单击 **"** 新建"以定义SQL Server见证持久聊天备份实例（可选）SQL Server见证。
   
 单击“上一步”以回到上一个池定义对话框。
   

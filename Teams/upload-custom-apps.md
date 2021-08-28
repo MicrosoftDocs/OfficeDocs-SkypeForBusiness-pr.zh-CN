@@ -14,20 +14,20 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
-description: 了解如何在管理中心将自定义应用上传到Microsoft Teams应用商店。
-ms.openlocfilehash: add429a0f662db852f78d9b178b046611ecb4e39ebf86729a1d0398fa1583e2f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 了解如何在管理中心将自定义应用上传到组织的Microsoft Teams应用商店。
+ms.openlocfilehash: 2e5eecc0bb5f5ed7c03552057cca6d42f7395ca2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321044"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634696"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>通过上传应用包发布自定义应用
 
 > [!NOTE]
-> 当你发布自定义Teams应用时，该应用可供组织应用商店中的用户使用。 有两种方法可发布自定义应用，使用方式取决于获取应用的方式。 本文重点介绍如何在开发人员发送给你的应用包 (应用包.zip) **应用包来发布自定义应用**。 当开发人员通过应用提交 API 将应用直接提交到"管理应用"Teams使用另<a href="/microsoftteams/manage-apps" target="_blank"></a>一种方法（审批自定义应用）。 若要详细了解该方法，请参阅发布通过应用<a href="/microsoftteams/submit-approve-custom-apps" target="_blank">提交 API Teams提交的自定义应用</a>。
+> 当你发布自定义Teams应用时，该应用可供组织应用商店中的用户使用。 有两种方法可发布自定义应用，使用方式取决于获取应用的方式。 **本文重点介绍了如何在** 开发人员发送给你的应用包 (应用包.zip) 应用包来发布自定义应用。 当开发人员通过应用提交 API 将应用直接提交到"管理应用"Teams一种方法<a href="/microsoftteams/manage-apps" target="_blank"></a>（审批自定义应用）。 若要详细了解该方法，请参阅发布通过应用<a href="/microsoftteams/submit-approve-custom-apps" target="_blank">提交 API Teams提交的自定义应用</a>。
 
 本文提供端到端指导，指导如何将 Teams应用从开发到部署到发现。 本指南重点介绍应用Teams面向管理员和 IT 专业人员。 有关开发应用Teams，请参阅开发人员<a href="/microsoftteams/platform" target="_blank">Teams文档</a>。
 
@@ -37,7 +37,7 @@ ms.locfileid: "54321044"
 
 ### <a name="create-your-app"></a>创建应用
 
-开发人员Microsoft Teams平台，开发人员可以轻松集成自己的应用和服务，以提高工作效率、更快地做出决策，以及围绕现有内容和工作流创建协作。 基于 Teams 平台构建的应用是 Teams 客户端与服务和工作流之间的桥梁，可将它们直接带到协作平台的上下文中。 有关详细信息，请转到开发人员Teams<a href="/microsoftteams/platform" target="_blank">文档</a>。
+开发人员Microsoft Teams平台，开发人员可以轻松集成自己的应用和服务，以提高工作效率、更快地做出决策，以及围绕现有内容和工作流创建协作。 基于 Teams 平台构建的应用是 Teams 客户端和服务与工作流之间的桥梁，可将它们直接引入协作平台的上下文中。 有关详细信息，请转到开发人员Teams<a href="/microsoftteams/platform" target="_blank">文档</a>。
 
 ## <a name="validate"></a>验证
 
@@ -52,13 +52,13 @@ Microsoft<a href="/microsoftteams/platform/publishing/office-store-approval" tar
 若要验证应用在生产租户中是否正常工作，需要允许你自己和/或受信任的用户上传生产租户中的自定义应用。 使用 <a href="/microsoftteams/teams-app-setup-policies" target="_blank">应用设置策略</a> 可以完成此操作。
 
 > [!NOTE]
-> 如果无法将应用上传到生产租户进行验证，即使对于你自己或受信任的用户，也可以跳过此步骤，并按照[Upload](#upload)和设置和管理部分中的步骤将未经验证的应用发布到组织的应用商店。 [](#set-up-and-manage) 然后，将该应用的访问权限限制为仅你自己和您信任的用户。 然后，这些用户可以从组织的应用商店获取应用以执行验证。 验证应用后，使用相同的权限策略打开访问权限，并推出应用供生产使用。
+> 如果无法将应用上传到生产租户进行验证，即使对于你自己或受信任的用户，也可以跳过此步骤，并按照[Upload](#upload)和设置和管理部分中的步骤将未经验证的应用发布到组织的应用商店。 [](#set-up-and-manage) 然后，将该应用的访问权限限制为仅你自己和您信任的用户。 然后，这些用户可以从组织的应用商店获取应用以执行验证。 验证应用后，使用相同的权限策略打开访问权限并推出应用供生产使用。
 
 若要允许受信任的用户上传自定义应用，请执行以下步骤：
 
-1. 打开" **允许与自定义应用与组织** 范围的自定义应用交互"设置。 要执行此操作：
-    1. 在管理中心的左侧导航Microsoft Teams，转到"管理Teams **应用**"，然后单击"  >  **组织范围的应用设置"。**
-    2. 在 **"自定义应用"** 下，打开"**允许与自定义应用交互"，** 然后单击"保存 **"。**
+1. 打开" **允许与自定义应用与** 组织范围的自定义应用交互"设置。 要执行此操作：
+    1. 在管理中心的左侧导航Microsoft Teams，转到"管理Teams **应用"，** 然后单击  >  "**组织范围内的应用设置"。**
+    2. 在 **"自定义应用**"下，打开"**允许与自定义应用交互"，** 然后单击"保存 **"。**
 2. 关闭全局 **Upload设置策略** 中的自定义应用设置。 要执行此操作：
     1. 在管理中心的左侧导航Microsoft Teams，转到"Teams **应用**""设置策略"，然后单击"全局 (组织范围的默认)  >  策略。 
     2. 关闭Upload **应用，** 然后单击"保存 **"。**
@@ -87,7 +87,7 @@ Microsoft<a href="/microsoftteams/platform/publishing/office-store-approval" tar
 
 ### <a name="pin-and-install-the-app-for-users-to-discover"></a>固定并安装应用供用户发现
 
-默认情况下，用户若要查找应用，必须转到组织的应用商店并浏览或搜索该应用。 为了方便用户访问该应用，你可以将应用固定到应用中的Teams。 为此，请创建应用设置策略并将其分配给用户。 要了解详细信息，请参阅<a href="/microsoftteams/teams-app-setup-policies" target="_blank">在 Teams 中管理应用设置策略</a>。
+默认情况下，用户若要查找应用，必须转到组织的应用商店并浏览或搜索该应用。 若要让用户轻松访问应用，你可以将应用固定到应用中的应用Teams。 为此，请创建应用设置策略并将其分配给用户。 要了解详细信息，请参阅<a href="/microsoftteams/teams-app-setup-policies" target="_blank">在 Teams 中管理应用设置策略</a>。
 
 ### <a name="search-the-audit-log-for-teams-app-events"></a>在审核日志搜索Teams事件
 
@@ -129,7 +129,7 @@ Microsoft<a href="/microsoftteams/platform/publishing/office-store-approval" tar
 
 ## <a name="related-topics"></a>相关主题
 
-- [发布通过应用提交 API Teams提交的自定义应用](submit-approve-custom-apps.md)
+- [发布通过应用提交 API Teams的自定义应用](submit-approve-custom-apps.md)
 - [在管理中心内Microsoft Teams应用](manage-apps.md)
 - [在 Teams 中管理自定义应用策略和设置](teams-custom-app-policies-and-settings.md)
 - [在 Teams 中管理应用权限策略](teams-app-permission-policies.md)

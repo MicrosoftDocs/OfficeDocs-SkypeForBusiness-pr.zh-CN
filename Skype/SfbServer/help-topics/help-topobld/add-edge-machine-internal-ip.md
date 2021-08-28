@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddEdgeMachineInternalIpPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 34717d03-5ece-4be3-9d05-25497250dc16
 description: 使用此页指定边缘服务器的内部 IP 地址和内部完全限定域名 (FQDN)。
-ms.openlocfilehash: 3f1066d183233c2341332d796166827c34d62e026fa5ba3afa0f8eebe66b69bf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c3e9e5b9263da95509aff4a2950b3273d7609707
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328297"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634486"
 ---
 # <a name="add-edge-machine-internal-ip"></a>添加边缘计算机内部 IP
 

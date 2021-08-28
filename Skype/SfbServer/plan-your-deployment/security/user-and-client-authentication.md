@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 77f4b62a-f75c-424d-8f02-a6519090015d
 description: 受信任用户是已由受信任服务器在 Skype for Business Server 中进行身份验证的用户。 此服务器通常是 Standard Edition Server、Enterprise Edition 前端服务器或控制器。 Skype for Business Server Active Directory 域服务作为用户凭据的单一受信任后端存储库。
-ms.openlocfilehash: 5c0a193f8164faac112a5539154eb95baac20ce5313d07607a96c509a3d06736
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 069ce556f37591f7332e8e968dc02e657b090d03
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54346408"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627794"
 ---
 # <a name="user-and-client-authentication-for-skype-for-business-server"></a>用户和客户端身份验证Skype for Business Server
  
@@ -46,11 +46,11 @@ Skype for Business Server身份验证包含两个阶段：
   
 ICE 和 TURN 协议也会使用摘要式质询，如 IETF TURN RFC 中所述。
   
-客户端证书为用户提供了一种供用户进行身份验证的备用Skype for Business Server。 无需提供用户名和密码，用户具有证书以及解析加密质询所需的与证书对应的私钥。  (此证书必须具有标识用户的使用者名称或使用者替代名称，并且必须由运行 Skype for Business Server 的服务器信任的根 CA 颁发，且在证书有效期内且尚未吊销。) 若要进行身份验证，用户只需键入个人标识号 (PIN) 。 证书对于电话、移动电话和其他难以输入用户名和密码的设备尤其有用。
+客户端证书为用户提供了一种供用户通过身份验证的Skype for Business Server。 无需提供用户名和密码，用户具有证书以及解析加密质询所需的与证书对应的私钥。  (此证书必须具有标识用户的使用者名称或使用者替代名称，并且必须由运行 Skype for Business Server 的服务器信任的根 CA 颁发，且在证书有效期内且尚未吊销。) 若要进行身份验证，用户只需键入个人标识号 (PIN) 。 证书对于电话、移动电话和其他难以输入用户名和密码的设备尤其有用。
   
 ### <a name="cryptographic-requirements-due-to-asp-net-45"></a>4.5 ASP.NET 加密要求 
 
-自 Skype for Business Server 2015 CU5 起，ASP.NET 4.6 不支持 AES，这可能会导致 Skype 会议应用无法启动。 如果客户端使用 AES 作为计算机密钥验证值，则需要将计算机密钥值重置为 SHA-1 或 IIS 上 Skype 会议应用站点级别的另一个受支持的算法。 如有必要，请参阅[IIS 8.0 ASP.NET Configuration Management](/iis/get-started/whats-new-in-iis-8/iis-80-aspnet-configuration-management)了解说明。
+自 Skype for Business Server 2015 CU5 起，ASP.NET 4.6 不支持 AES，这可能会导致 Skype 会议应用无法启动。 如果客户端使用 AES 作为计算机密钥验证值，则需要将计算机密钥值重置为 SHA-1 或在 IIS 上的 Skype 会议应用站点级别上另一个受支持的算法。 如有必要，请参阅[IIS 8.0 ASP.NET Configuration Management](/iis/get-started/whats-new-in-iis-8/iis-80-aspnet-configuration-management)了解说明。
   
 其他支持的值包括：
   

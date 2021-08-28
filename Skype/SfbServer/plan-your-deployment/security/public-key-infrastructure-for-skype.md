@@ -9,20 +9,20 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 737c8a25-23e9-4494-ab76-5a7b729b44ca
-description: Skype for Business Server证书进行服务器身份验证，并在不同的服务器角色之间以及客户端和服务器之间建立信任链。 Windows Server 2012 R2、Windows Server 2012、Windows Server 2008 R2 和 Windows Server 2008 公钥基础结构 (PKI) 提供了用于建立和验证此信任链的基础结构。
-ms.openlocfilehash: 7b955aa07143cead900a0140ac8ee64fa02ba34ed3945553e376123c7260909d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Skype for Business Server证书进行服务器身份验证，并在不同的服务器角色之间建立信任链。 Windows Server 2012 R2、Windows Server 2012、Windows Server 2008 R2 和 Windows Server 2008 公钥基础结构 (PKI) 提供了用于建立和验证此信任链的基础结构。
+ms.openlocfilehash: 733b1bb946147edd184a7b0fecb16ffab2adba51
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54329486"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627924"
 ---
 # <a name="public-key-infrastructure-for-skype-for-business-server"></a>用于基础结构的公钥Skype for Business Server
  
-Skype for Business Server证书进行服务器身份验证，并在不同的服务器角色之间以及客户端和服务器之间建立信任链。 Windows Server 2012 R2、Windows Server 2012、Windows Server 2008 R2 和 Windows Server 2008 公钥基础结构 (PKI) 提供了用于建立和验证此信任链的基础结构。
+Skype for Business Server证书进行服务器身份验证，并在不同的服务器角色之间建立信任链。 Windows Server 2012 R2、Windows Server 2012、Windows Server 2008 R2 和 Windows Server 2008 公钥基础结构 (PKI) 提供了用于建立和验证此信任链的基础结构。
   
 证书是数字 ID。 它们通过名称来标识某台服务器并指定其属性。 要确保证书上的信息有效，证书必须由连接到该服务器的客户端或其他服务器信任的 CA 颁发。 如果服务器仅与专用网络中的其他客户端和服务器建立连接，则 CA 可以是企业 CA。 如果服务器与专用网络外部的实体进行交互，则可能需要公共 CA。
   
@@ -35,7 +35,7 @@ Skype for Business Server证书进行服务器身份验证，并在不同的服�
   
 ## <a name="crl-distribution-points"></a>CRL 分发点
 
-Skype for Business Server要求所有服务器证书在 CRL 分发点中包含一 (一) 证书吊销列表。 可从 CRL 分发点 (CDP) 下载 CRL，以便确认证书自颁发以来未被吊销且仍处于有效期内。 CRL 分发点在证书的属性中标记为一个 URL，它通常是安全 HTTP。
+Skype for Business Server要求所有服务器证书在 CRL 分发点中包含一 (证书吊销) 列表。 可从 CRL 分发点 (CDP) 下载 CRL，以便确认证书自颁发以来未被吊销且仍处于有效期内。 CRL 分发点在证书的属性中标记为一个 URL，它通常是安全 HTTP。
   
 ## <a name="enhanced-key-usage"></a>增强型密钥使用
 
