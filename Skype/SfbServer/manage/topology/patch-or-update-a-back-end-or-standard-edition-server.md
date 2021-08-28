@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f95f8d3a-e039-484e-97bd-d727db21a12b
 description: 摘要：了解如何在 Skype for Business Server 中的后端服务器上安装更新或Skype for Business Server。
-ms.openlocfilehash: 6da04dda24400e8dfa00bcaac5d3620cbf6509a5f4bef2d7d988682597b732f8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2b7292b71f57d7396c5b90bce3746b73b98f6f43
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54290280"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619748"
 ---
 # <a name="patch-or-update-a-back-end-server-or-standard-edition-server-in-skype-for-business-server"></a>修补或更新后端服务器或Standard Edition服务器Skype for Business Server
  
@@ -33,7 +33,7 @@ ms.locfileid: "54290280"
     
 2. 下载更新并将其提取到本地硬盘。
     
-3. 启动命令行Skype for Business Server：单击"开始"，单击"所有程序"，Skype for Business"，然后单击"Skype for Business Server **命令行管理程序**"。  
+3. 启动命令行Skype for Business Server：单击"开始"，单击"所有程序 **"，Skype for Business"，** 然后单击"Skype for Business Server **命令行管理程序**"。 
     
 4. 停止Skype for Business Server服务。 在命令行中键入：
     
@@ -51,7 +51,7 @@ ms.locfileid: "54290280"
     
 7. 安装该更新。
     
-8. 启动命令行Skype for Business Server：**单击"** 开始"，单击"所有程序 **"，Skype for Business"，** 然后单击"Skype for Business Server **命令行管理程序"。** 
+8. 启动命令行Skype for Business Server：单击"开始"，单击"所有程序"，Skype for Business，然后单击"Skype for Business Server **命令行管理程序"。**
     
 9. 再次Skype for Business Server服务以捕获 GAC (-d) 全局程序集缓存。 在命令行中键入：
     
@@ -79,7 +79,7 @@ ms.locfileid: "54290280"
     Install-CsDatabase -Update -ConfiguredDatabases -SqlServerFqdn <SQL Server FQDN>  -ExcludeCollocatedStores
     ```
 
-    - 如果这是Standard Edition，在命令行中键入以下内容：
+    - 如果这是服务器Standard Edition，在命令行中键入以下内容：
     
     ```PowerShell
     Install-CsDatabase -Update -LocalDatabases

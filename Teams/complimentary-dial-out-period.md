@@ -16,25 +16,25 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: None
+ms.localizationpriority: ''
 f1.keywords:
 - CSH
 ms.custom:
 - Legal
 - seo-marvel-mar2020
-description: 了解通话套餐或通话套餐的免费拨出Microsoft 365 Office 365套餐Office 365音频Microsoft Teams。
-ms.openlocfilehash: bf82b9ffc24000244a2666dedf2bb3ff8cd280cb476d6550747807411a4b9475
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 了解通话套餐或通话套餐的Microsoft 365拨出Office 365套餐Office 365音频Microsoft Teams。
+ms.openlocfilehash: fa571a355f4eb9a546c2c231e9a06f83d4374029
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347386"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619598"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>音频会议免费拨出期
 
 ## <a name="skype-for-business-pstn-services"></a>Skype for Business PSTN 服务
 
-客户可Microsoft 365 Office 365 PSTN 服务使用条款Office 365客户批量许可协议中的允许，使用 Skype for Business 或呼叫计划以及音频会议。 PSTN 服务使用条款可以参阅 [许可条款和文档](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=2&amp;Keyword=PSTN)。
+客户可以使用 Microsoft 365 或 Office 365 呼叫计划和 Office 365 音频会议（Skype for Business Online PSTN 服务使用条款和客户批量许可协议中允许）。 PSTN 服务使用条款可以参阅 [许可条款和文档](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=2&amp;Keyword=PSTN)。
   
 ### <a name="end-of-complimentary-dial-out-period"></a>免费拨出期结束
 
@@ -44,20 +44,20 @@ ms.locfileid: "54347386"
 
 ### <a name="complimentary-dial-out-period-details"></a>免费拨出时段详细信息
 
-对于采用我们的 Microsoft 365 或 Office 365 音频会议服务的客户，Microsoft 提供与从分配有 Microsoft 365 或 Office 365 音频会议订阅许可证到 2019 年 11 月的用户组织的会议拨出相关的额外补充权益。 在此补充期间，Microsoft 允许会议组织者或授权与会者（如会议策略设置中的定义）从会议内部拨打 44 个区域 [A](audio-conferencing-zones.md)国家和地区中的非高级电话号码。 此权益适用于音频会议月度订阅许可证，不适用于音频会议按分钟付费许可证。
+对于采用 Microsoft 365 或 Office 365 音频会议服务的客户，Microsoft 提供与从分配有 Microsoft 365 或 Office 365 音频会议订阅许可证的用户组织的会议拨出相关的额外补充权益，这些会议将于 2019 年 11 月完成。 在此免费期内，Microsoft 允许会议组织者或授权与会者（如会议策略设置中的定义）从会议内部拨打 44 个区域 [A](audio-conferencing-zones.md)国家和地区中的非高级电话号码。 此权益适用于音频会议月度订阅许可证，不适用于音频会议按分钟付费许可证。
 
 此外，在免费拨出期间，有 900 分钟的限制，例如：
 
-具有许可证使用位置 (位置是在任何 ___ 国家/地区的 Microsoft 365 管理中心) 许可区域中定义的用户国家/地区位置，可以从会议拨出到 44 个区域 [A 国家和地区](audio-conferencing-zones.md)中的任意一个。 每个用户每月向任何区域[A](audio-conferencing-zones.md)国家和地区（在租户级别进行池）接收 900 分钟。 例如，客户购买了 115 个音频会议订阅许可证，在美国有 10 个用户，英国有 100 个用户，印度有 5 个用户，所有这些用户都分配有音频会议订阅许可证。
+具有许可证使用位置 (位置是在任何 ___ 国家/地区的 Microsoft 365 管理中心) 许可区域中定义的用户国家/地区位置，可以从会议拨出到 44 个区域 [A 国家和地区](audio-conferencing-zones.md)中的任意一个。 每个用户每月向任何区域[A](audio-conferencing-zones.md)国家和地区（在租户级别进行池）接收 900 分钟。 例如，客户购买了 115 个音频会议订阅许可证，在美国有 10 个用户，英国有 100 个用户，印度有 5 个用户，所有用户都分配有音频会议订阅许可证。
 
 - 所有 115 个用户共享一个池 (，该池的 115 个用户 X 900 分钟) = 每个日历月 103，500 个会议拨出分钟数，可用于向任何区域 [A](audio-conferencing-zones.md)国家和地区拨打出站呼叫。
 
 - 每个日历月超过 103，500 分钟的所有呼叫均使用通信信用额度以我们发布到该目的地的费率每分钟计费。  (注意：租户必须设置通信信用额度并将通信信用额度许可证分配给会议组织者) 。
 
-- 对于不在" [区域 A](audio-conferencing-zones.md) 国家和地区"列表中的目标的所有出站呼叫，使用通信信用额度按我们向该目标发布的费率每分钟计费 (提供的租户已设置通信信用额度，并将通信信用额度许可证分配给会议组织者) 。
+- 对于不在" [区域 A](audio-conferencing-zones.md) 国家和地区"列表中的目标的所有出站呼叫，使用通信信用额度按我们向该目标发布的费率计费 (提供的租户已设置通信信用额度，并将通信信用额度许可证分配给会议组织者) 。
 
 > [!NOTE]
-> 可以在管理中心内针对拨出分钟数池监视Skype for Business使用情况。 在"Microsoft Teams & Skype管理中心"中，转到旧 **门户**  >  **"报告**  >  **PSTN 分钟池"。** 此免费分钟池将在报告中标记为"对区域 A 国家和地区的出站呼叫"。
+> 可以在管理中心内针对拨出分钟数池监视Skype for Business使用情况。 在"Microsoft Teams & Skype管理中心"中，转到 **旧** 门户  >  **"报告**  >  **PSTN 分钟池"。** 此免费分钟池将在报告中标记为"对区域 A 国家和地区的出站呼叫"。
 
 当租户的拨出分钟数池利用率达到 80% 和 100% 时，电子邮件通知将发送给给定客户的所有租户管理员。
 

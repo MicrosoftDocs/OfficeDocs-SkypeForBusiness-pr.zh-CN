@@ -13,18 +13,18 @@ ms.collection:
 - M365-voice
 - M365-collaboration
 - m365initiative-meetings
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
 description: 下面介绍了音频会议的网络内功能。
-ms.openlocfilehash: 63a76bd8cb7765816c417d60640d931acbe856bae7c1c7c3531e9598524e59c3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7d477826c79b1a1630616cc51130348bfb953fa7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351222"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620708"
 ---
 # <a name="on-network-conferencing-for-audio-conferencing"></a>音频会议的网络内会议
 
@@ -39,7 +39,7 @@ ms.locfileid: "54351222"
 
 在配置网络会议之前，请确保组织满足以下先决条件： 
 
-- 确保组织中已启用或将启用音频会议的所有用户都Teams会议。 仅支持通过网络内会议进行入站和出站音频会议呼叫的路由，Teams会议。
+- 确保组织中已启用或将启用音频会议的所有用户使用Teams会议。 仅支持通过网络内会议进行入站和出站音频会议呼叫的路由，Teams会议。
 
 - 将音频会议许可证分配给将使用网络内会议的所有用户。
 
@@ -47,7 +47,7 @@ ms.locfileid: "54351222"
 
 - 为直接路由设置 SBC () 边界控制器。 有关其他信息，请参阅 [规划直接路由](direct-routing-plan.md) 和 [配置直接路由](direct-routing-configure.md)。 
 
-  如果您仅出于音频会议的目的设置直接路由，则对于网络会议，只需完成"步骤 1：连接 SBC"。
+  如果仅针对音频会议设置直接路由，则只需完成"步骤 1：连接 SBC"进行网络会议。
   
 ## <a name="enable-the-routing-of-dial-in-calls-to-microsoft-audio-conferencing-through-direct-routing"></a>启用通过直接路由将拨入呼叫路由到 Microsoft 音频会议 
 
@@ -55,14 +55,14 @@ ms.locfileid: "54351222"
 
 需要配置站点的电话设备，以通过直接路由中继将呼叫路由到组织会议网桥的任何服务号码。
 
-可以在会议 **-> 会议** 网桥下的 Teams 管理中心中查找服务号码，或者使用 Skype for Business Online PowerShell cmdlet Get-CsOnlineDialInConferencingBridge 查找服务号码。 有关其他信息，请参阅音频会议[号码列表Microsoft Teams。](see-a-list-of-audio-conferencing-numbers-in-teams.md)
+您可以在会议 **->** 会议网桥下的 Teams 管理中心中查找服务号码，或者使用 Skype for Business Online PowerShell cmdlet Get-CsOnlineDialInConferencingBridge 查找服务号码。 有关其他信息，请参阅音频会议号码[列表Microsoft Teams。](see-a-list-of-audio-conferencing-numbers-in-teams.md)
 
 > [!NOTE]
-> 具有每分钟音频会议付费许可证的用户无法使用此功能。
+> 具有"每分钟付费音频会议"许可证的用户无法使用此功能。
 
 ## <a name="enable-the-routing-of-teams-meeting-dial-out-calls-through-direct-routing"></a>通过直接路由Teams会议拨出呼叫的路由
 
-Teams会议拨出呼叫从您组织的会议内发起到 PSTN 号码，包括呼叫我电话和呼叫以将新参与者带到会议。 
+Teams会议拨出呼叫从你组织的会议内发起到 PSTN 号码，包括呼叫我时呼叫和将新参与者带到会议。 
 
 若要Teams通过直接路由向网络用户启用会议拨出路由，需要创建并分配名为"OnlineAudioConferencingRoutingPolicy"的音频会议路由策略。 
 
@@ -83,7 +83,7 @@ OnlineAudioConferencingRoutingPolicy 策略等同于通过直接路由进行 1�
 - 在组织的电话设备上配置路由
 -  (可选) 配置拨号计划
 
-来自会议Teams呼叫来自会议网桥上的默认服务号码。 有关音频会议网桥的默认服务号码的其他信息，请参阅更改音频会议网桥 [上的电话号码](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)。
+来自会议Teams拨出呼叫来自会议网桥上的默认服务号码。 有关音频会议网桥的默认服务号码的其他信息，请参阅更改音频会议网桥 [上的电话号码](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)。
 
 ### <a name="configure-audio-conferencing-routing-policies"></a>配置音频会议路由策略
 

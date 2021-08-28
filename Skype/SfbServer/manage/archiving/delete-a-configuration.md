@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fed12cb5-2c80-476a-af3b-d55b450c5fbc
-description: 摘要：了解如何删除存档配置Skype for Business Server。
-ms.openlocfilehash: b6a8aec925bf6bfb7914b6cf830ee6e38751ed7187c862ca2d26104ca3384f39
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 摘要：了解如何在 Skype for Business Server 中删除存档配置。
+ms.openlocfilehash: 046bd2c1fc5e54189ac038bdf769a711b3c9a774
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320254"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621138"
 ---
 # <a name="delete-an-archiving-configuration-in-skype-for-business-server"></a>删除存档配置Skype for Business Server
 

@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 330367f2-22b0-43e3-b8fb-3e0d2e3b330e
-description: 该Enter-CcUpdate cmdlet 通过将Skype for Business 云连接器版本服务器置于维护模式来准备更新过程。 设备将立即停止所有服务，结束任何正在进行的呼叫并拒绝任何新呼叫。
-ms.openlocfilehash: 75be5933e31f3966ab36f9957b78cd89c21a4a31df23b5761000a6e96cd9806e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 该Enter-CcUpdate cmdlet 通过将Skype for Business 云连接器版本服务器置于维护模式，为更新过程准备该主机服务器。 设备将立即停止所有服务，结束任何正在进行的呼叫并拒绝任何新呼叫。
+ms.openlocfilehash: 26f1874ca6c0b92836716d66031945adc864d0ff
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303645"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620758"
 ---
 # <a name="enter-ccupdate"></a>Enter-CcUpdate
 
-该Enter-CcUpdate cmdlet 通过将Skype for Business 云连接器版本服务器置于维护模式来准备更新过程。 设备将立即停止所有服务，结束任何正在进行的呼叫并拒绝任何新呼叫。
+该Enter-CcUpdate cmdlet 通过将Skype for Business 云连接器版本服务器置于维护模式，为更新过程准备该主机服务器。 设备将立即停止所有服务，结束任何正在进行的呼叫并拒绝任何新呼叫。
   
 ```powershell
 Enter-CcUpdate
@@ -46,11 +46,11 @@ Enter-CcUpdate
 ## <a name="detailed-description"></a>详细说明
 <a name="DetailedDescription"> </a>
 
-该Enter-CcUpdate cmdlet 将立即停止结束任何正在进行的呼叫的所有服务，设备将拒绝转移到其他生产设备的任何新呼叫。 必须确保剩余生产设备具有足够的容量来处理来自你准备更新的设备的呼叫。
+该Enter-CcUpdate cmdlet 将立即停止结束任何正在进行的呼叫的所有服务，设备将拒绝任何转移到其他生产设备的新呼叫。 必须确保剩余生产设备具有足够的容量来处理来自你准备更新的设备的呼叫。
   
 维护模式在设备启用了自动更新（例如，Microsoft 发布关键修补程序）时非常有用。 如果你决定关闭自动更新，但以一致的方式执行手动更新，维护模式也很有用。
   
-安装更新后，可通过运行 Exit-CcUpdate cmdlet 将设备返回到生产模式。
+安装更新后，可以通过运行 Exit-CcUpdate cmdlet 将设备返回到生产模式。
   
 > [!NOTE]
 > 如果你决定手动更新云连接器设备，则需要在 Microsoft 发布下一版本后的 60 天内更新它。 Microsoft 在新版本发布后的 60 天内支持之前发布的云连接器版本 

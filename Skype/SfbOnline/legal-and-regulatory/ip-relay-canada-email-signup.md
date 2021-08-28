@@ -12,19 +12,19 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: None
+ms.localizationpriority: ''
 f1.keywords:
 - NOCSH
 ms.custom:
 - Legal
 hideEdit: true
 description: 如何为加拿大的 IP 中继帐户注册帐户。
-ms.openlocfilehash: 1ed95651ab006cfff5c59e22d5d14f083116872d
-ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
+ms.openlocfilehash: d062ec96a35d01fc5986af24a2bc52adf8138440
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58406961"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620539"
 ---
 # <a name="ip-relay-in-canada---sign-up"></a>加拿大的 IP 中继 - 注册
 
@@ -59,7 +59,7 @@ ms.locfileid: "58406961"
 > [!NOTE]
 > 如果某人通过 IP 中继呼叫你时未联机，上述电子邮件地址将接收留下给你的消息。 
 
-帐户准备就绪后 (24 工作) ，我们将通过电子邮件返回用户名和密码。 
+帐户准备就绪后， (24 工作) ，我们将通过电子邮件返回"用户名和密码"。 
 
 
 接下来，请参阅 [加拿大的 IP 中继 - 用户](ip-relay-canada-user-guide.md) 指南以开始使用。 

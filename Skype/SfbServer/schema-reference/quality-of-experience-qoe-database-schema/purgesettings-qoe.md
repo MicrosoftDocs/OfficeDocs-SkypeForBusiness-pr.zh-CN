@@ -10,19 +10,19 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 31b85d1c-3f32-4f67-94bf-9389cdd282c5
-description: PurgeSettings 表包含指定是否（以及何时）将过时的用户体验质量记录从 QoE 数据库中自动删除。 请注意，通过运行以下命令，也可以从命令行管理程序Skype for Business Server清除相关信息：
-ms.openlocfilehash: a07b8916cbc4cd2e0073cb11a02fe149a7849f17f9b5f69ad20460d0f19274ad
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: PurgeSettings 表包含指定是否（以及何时）将过时的用户体验质量记录从 QoE 数据库中自动删除。 请注意，还可通过运行以下命令从命令行管理程序Skype for Business Server清除相关信息：
+ms.openlocfilehash: eb5b0570073498580ec2ad468ea50474e0246b07
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306643"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620818"
 ---
 # <a name="purgesettings-table-qoe"></a>QoE (PurgeSettings) 
  
-PurgeSettings 表包含指定是否（以及何时）将过时的用户体验质量记录从 QoE 数据库中自动删除。 请注意，通过运行以下命令，也可以从命令行管理程序Skype for Business Server清除相关信息：
+PurgeSettings 表包含指定是否（以及何时）将过时的用户体验质量记录从 QoE 数据库中自动删除。 请注意，还可通过运行以下命令从命令行管理程序Skype for Business Server清除相关信息：
   
 ```PowerShell
 Get-CsQoEConfiguration
@@ -30,7 +30,7 @@ Get-CsQoEConfiguration
 
 此表在 Microsoft Lync Server 2013 中引入。
   
-|**列**|**数据类型**|**键/索引**|**详细信息**|
+|**列**|**数据类型**|**键/索引**|**Details**|
 |:-----|:-----|:-----|:-----|
 |**ID** <br/> |int  <br/> |主  <br/> |QoE 清除设置集合的唯一标识符。  <br/> |
 |**EnablePurge** <br/> |bit  <br/> ||设置为 True 时 (1) Microsoft Lync Server 2013 将定期清除 QoE 数据库中的过时记录。 将每天在 PurgeHour 设置所指定的时间执行清除。 如果设置为 False (0)，则不会从数据库中自动清除记录。 默认值为 True。  <br/> |

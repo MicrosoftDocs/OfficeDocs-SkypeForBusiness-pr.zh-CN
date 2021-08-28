@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 68c2046d-c988-4411-bd8b-b3096b4f4f3e
 ROBOTS: NOINDEX, NOFOLLOW
 description: 有关使用部署向导安装 Skype for Business Server的详细信息，请参阅安装Skype for Business Server。
-ms.openlocfilehash: 443a9c581f2fc5bb4ffcd0e88c5444d914408b291c1778b5dda169353e873d88
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bfff9a2b403a60241a84e9474fa669477700855c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343786"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620468"
 ---
 # <a name="deployment-wizard-request-a-certificate"></a>部署向导：请求证书
  

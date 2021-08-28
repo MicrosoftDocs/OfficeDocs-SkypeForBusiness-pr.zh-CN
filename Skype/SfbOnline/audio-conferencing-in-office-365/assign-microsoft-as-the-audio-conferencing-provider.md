@@ -16,26 +16,26 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
 description: Learn how to assign Microsoft the dial-in conferencing provider for Skype for Business.
-ms.openlocfilehash: 5e02103dcd84bcbbaf60ccbc1a9fcd29555c241d4e05fd5e0f535b296d965748
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 982d0515468109d1adf8ac2d7f00cce36732faf7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340308"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620298"
 ---
 # <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>将 Microsoft 指定为音频会议提供商
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-要通过 Microsoft 365 或 Office 365 Skype for Business Microsoft Teams 使用音频会议，组织中用户需要为其分配音频会议许可证。 有关[许可及其费用](try-or-purchase-audio-conferencing-in-office-365.md)Microsoft 365，Office 365试用或购买音频会议。
+若要在 Microsoft 365 或 Office 365 Skype for Business Microsoft Teams 中使用音频会议，组织中用户需要为其分配音频会议许可证。 有关[许可和](try-or-purchase-audio-conferencing-in-office-365.md)费用Microsoft 365或Office 365，请参阅试用或购买音频会议。
 
-Microsoft 音频会议提供电话拨入电话号码、PIN 和会议 ID，与会者可时用其加入你所在组织的会议。 你只需将 Microsoft 作为音频会议提供商分配给要安排或Skype for Business或Microsoft Teams会议。
+Microsoft 音频会议提供电话拨入电话号码、PIN 和会议 ID，与会者可时用其加入你所在组织的会议。 你只需将 Microsoft 作为音频会议提供商分配给要安排或引导Skype for Business或Microsoft Teams会议。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -44,7 +44,7 @@ Microsoft 音频会议提供电话拨入电话号码、PIN 和会议 ID，与会
 
 ### <a name="an-icon-showing-the-skype-for-business-logo-using-the-skype-for-business-admin-center"></a>![一个图标，显示Skype for Business徽标](../images/sfb-logo-30x30.png) 使用 Skype for Business 管理中心
 
-1. 转到管理 **Microsoft Teams**  >  **旧版门户**。
+1. 转到管理 **Microsoft Teams旧版**  >  **门户**。
     
 2. 在 **Skype for Business管理中心的** 左侧导航中，转到"**音频会议"。**
     
@@ -65,7 +65,7 @@ Microsoft 音频会议提供电话拨入电话号码、PIN 和会议 ID，与会
 为节省时间或自动执行此操作，可以使用以下 PowerShell 脚本将 Microsoft 设置为少数用户的音频会议提供商。
 
 > [!NOTE]
-> 当提供商从另一个提供商更改为 **Microsoft** 时，将 (会议 ID、收费和免费号码的用户) 信息。 你应该先保存此信息，再更改提供商。 
+> 当提供商从另一个提供商更改为 **Microsoft** 时，将 (会议 ID、收费和免费号码) 音频会议信息。 你应该先保存此信息，再更改提供商。 
 
   
 若要为少量用户将提供程序更改为 Microsoft，可以使用  [Enable-CsOnlineDialInConferencingUser](/powershell/module/skype/Enable-CsOnlineDialInConferencingUser) cmdlet。
@@ -74,7 +74,7 @@ Microsoft 音频会议提供电话拨入电话号码、PIN 和会议 ID，与会
 ### <a name="using-a-windows-powershell-script-for-a-large-number-of-users"></a>对大量用户使用 Windows PowerShell 脚本
 为节省时间或自动执行此操作，可以使用以下 PowerShell 脚本将 Microsoft 设置为大量用户的音频会议提供商。
 
-当提供商从另一个提供商更改为 **Microsoft** 时，将 (会议 ID、收费和免费号码的用户) 信息。 你应该先保存此信息，再更改提供商。 
+当提供商从另一个提供商更改为 **Microsoft** 时，将 (会议 ID、收费和免费号码) 音频会议信息。 你应该先保存此信息，再更改提供商。 
   
 可将以下脚本另存为的 PowerShell 脚本文件，然后使用其任何输入参数运行。
 
@@ -92,7 +92,7 @@ Script.ps1 -CsvFile <Path of the csv file>
 ./Script.ps1 -CsvFile ".\\CsvFile.csv"
   ```
 
-**示例 3：** 此示例中，可以使用此脚本将音频会议提供商从 Intercall (或另一个提供商) 组织中大量用户更改为 **Microsoft。**
+**示例 3：** 本示例中，可以使用此脚本将音频会议提供商从 Intercall (或其他提供商) **更改为 Microsoft，** 供组织中大量用户使用。
     
   ```PowerShell
   Script.ps1 -ACPProviderName <Provider>

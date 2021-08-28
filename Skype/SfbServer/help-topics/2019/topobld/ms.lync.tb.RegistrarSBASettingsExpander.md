@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.RegistrarSBASettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 68ea1fc0-9cd1-4e0a-995e-b53845493477
 ROBOTS: NOINDEX, NOFOLLOW
 description: 编辑“复原”的设置并配置以下属性：
-ms.openlocfilehash: e3a8fd98ac4b928eca8ce969c10b2de7410cbace623a09f5ef71de6e1a98b47a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: fdc7c30a0d9e71ebdbcdfbf48cc793cd34ae34ac
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343756"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620028"
 ---
 # <a name="registrar-sba-settings-expander"></a>注册器 SBA 设置扩展器
 

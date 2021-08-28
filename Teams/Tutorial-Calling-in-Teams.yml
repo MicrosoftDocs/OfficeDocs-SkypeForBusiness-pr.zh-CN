@@ -11,457 +11,240 @@ metadata:
   manager: serdars
   ms.service: msteams
   ms.topic: tutorial
-  localization_priority: Normal
+  ms.localizationpriority: medium
   search.appverid: MET150
   ms.collection:
-    - M365-voice
+  - M365-voice
   appliesto:
-    - Microsoft Teams
+  - Microsoft Teams
+  ms.openlocfilehash: 719a39584ee77c9f281b4bca9ea2c8d62fc5cfc0
+  ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 08/26/2021
+  ms.locfileid: "58620768"
 items:
-  - durationInMinutes: 1
-    content: |
-      在此培训中，介绍了 Teams 中的通话功能，这些功能由 Office 365 中的电话系统功能提供技术支持。 将解释实施电话系统所需的技术规划，如何对其进行配置，以及如何在你的实施中监控使用情况和通话质量。
+- durationInMinutes: 1
+  content: >
+    在此培训中，介绍了 Teams 中的通话功能，这些功能由 Office 365 中的电话系统功能提供技术支持。 将解释实施电话系统所需的技术规划，如何对其进行配置，以及如何在你的实施中监控使用情况和通话质量。
 
-      此培训面向以下人员：
 
-      - IT 专业人士。
+    此培训面向以下人员：
 
-      - 负责规划、部署或管理 Teams。
 
-      - 计划在你的 Teams 部署中引入通话功能。
+    - IT 专业人士。
 
-      你将了解：
 
-      - Teams 中的通话功能是什么？
+    - 负责规划、部署或管理 Teams。
 
-      - 如何在 Teams 中规划通话功能。
 
-      - 如何在 Teams 中配置通话功能。
+    - 计划在你的 Teams 部署中引入通话功能。
 
-      [!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-roadmap.md)]
 
-      如果对此培训有任何疑问或反馈，请：
+    你将了解：
 
-      - 在此教程的“后续步骤”页面底部的“评论”部分中发布</a>
 
-      要向我们提供有关 Teams 的产品反馈（例如，新功能想法），请访问 [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)。
-  - title: Teams 中的通话功能是什么？
-    durationInMinutes: 15
-    content: |
-      Teams 提供立即可用的功能，让用户可以在 Teams 客户端之间进行 IP 语音通话 (VoIP)。
+    - Teams 中的通话功能是什么？
 
-      在 Teams 中，用户可通过两种方式在公用电话交换网 (PSTN) 上使用座机和移动电话拨打、接听和转接呼叫：
-      - 借助具有通话套餐的电话系统，Microsoft 向用户和所有 PSTN 服务提供电话号码
-      - 借助直接连接，可通过 SBC（会话边界控制器）将现有 PSTN 连接连接到 Microsoft Teams。
 
-      #### <a name="span-stylecolorredactionspan-watch-calling-in-teams-300-minutes"></a><span style="color:red">**操作**：</span>观看 Teams 中的通话功能（3:00 分钟）
-      > [!Video https://www.youtube.com/embed/9O4p48Mws9U]
+    - 如何在 Teams 中规划通话功能。
 
-      ### <a name="calling-features-in-teams"></a>Teams 中的通话功能
-      Teams 中的通话功能支持基本的电话系统功能，例如，使用集成的拨号盘应答和拨打电话（按姓名和号码）、通话保留和检索、呼叫转接和同时响铃、呼叫历史记录、语音邮件以及紧急呼叫。
 
-      以后将逐步添加更多高级功能。 有关详细信息，请参阅 [Microsoft 365 路线图](https://aka.ms/O365Roadmap)。
+    - 如何在 Teams 中配置通话功能。
 
-      Teams 中的通话功能由电话系统（以前称为云 PBX）提供技术支持，Office 365 中也有此服务，用于在 Skype for Business Online 中实现 PSTN 呼叫功能。
 
-      <span style="color:red">**重要提示**：</span>请注意，为 Skype for Business 设置的电话系统功能不用于为 Teams 设置的电话系统功能。
+    [!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-roadmap.md)]
 
-      <span style="color:red">**操作**：</span>要了解当前可用的功能以及我们预计开发的功能的时间线，请参阅以下资源：
 
-      - 在[公共路线图](https://aka.ms/O365Roadmap)中，查看“通话路线图”幻灯片，大致了解功能发布日期的预计时间线。
-      - 查看 [Office 365 中的电话系统提供的功能](./here-s-what-you-get-with-phone-system.md)，了解电话系统功能的说明。 请注意，撰写此文时，其中一些功能可能只面向 Skype for Business 提供。
+    如果对此培训有任何疑问或反馈，请：
 
-      ### <a name="emergency-services-calling"></a>紧急服务呼叫
-      请务必了解 Teams 中紧急服务呼叫功能的使用方式不同于传统电话服务。 你必须确保你的用户也了解这些差别。 例如，他们使用 Teams 呼叫紧急服务（例如美国的 911）时，用户需要了解 Teams 可能无法确定呼叫方的实际位置。
 
-      <span style="color:red">**操作**：</span>查看 [紧急呼叫条款和条件](/SkypeForBusiness/legal-and-regulatory/emergency-calling-terms-and-conditions)，了解有关紧急服务呼叫的详细信息。
-  - title: Skype for Business Online 客户考虑事项
-    durationInMinutes: 2
-    content: |
-      如果你未使用 Skype for Business Online，可以跳过此部分。 对于熟悉 Skype for Business Online 中的呼叫功能的用户，我们想要强调一些重要事项。
+    - 在此教程的“后续步骤”页面底部的“评论”部分中发布</a>
 
-      - **通过通话套餐或直接路由连接到 PSTN。**
-      将 Teams 连接到 PSTN 的选项与 Skype for Business Online 中的选项略有不同：当通话套餐（以前称为“带 PSTN 连接的云 PBX”）对于两者同时存在时，将现有 PBX 或 SIP 中继连接到 Teams 的选项称为“直接路由”。
-      有关直接路由的详细文档可在此处找到：[电话系统直接路由](./direct-routing-plan.md)
 
-      - **Skype for Business 与 Microsoft Teams 之间的功能不同。**
-      请注意，Skype for Business 和 Microsoft Teams 中的通话功能不同。 请勿认为，正因为其中一个客户端支持某功能，另一个客户端也可以支持该功能。
+    要向我们提供有关 Teams 的产品反馈（例如，新功能想法），请访问 [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)。
+- title: Teams 中的通话功能是什么？
+  durationInMinutes: 15
+  content: >
+    Teams 提供立即可用的功能，让用户可以在 Teams 客户端之间进行 IP 语音通话 (VoIP)。
 
-      - **可以在 Teams 或 Skype for Business 中接听电话，但不能同时在两者中接听。**
-      如果你为用户配置了具有通话套餐的电话系统，他们可以从 Teams 或 Skype for Business 拨打电话。 但是，他们只能在其中一个应用中接听电话，要配置接听电话的应用，请使用新策略 CsTeamsInteropPolicy。 在此培训中，你将了解有关该策略的详细信息。
 
-      - **如果你在 Teams 中配置了电话系统，可以从 Skype for Business 或 Teams 拨打电话。**
-      除了前面提到的 CsTeamsInteropPolicy 配置外，Skype for Business 和 Teams 中的配置相同。 这意味着，如果你已为 Skype for Business 配置了呼叫，你的用户将能够从 Teams 拨打电话。
-  - title: 实践指导
-    durationInMinutes: 3
-    content: |
-      Microsoft 提供了实践指导，介绍 Office 365 FastTrack 客户旅程框架及其三个阶段（展望、上线和推动价值），帮助你规划、交付和运营成功的具有通话套餐的电话系统实施。
+    在 Teams 中，用户可通过两种方式在公用电话交换网 (PSTN) 上使用座机和移动电话拨打、接听和转接呼叫：
 
-      此实践指导的目标是让你的项目获得成功，不仅从技术角度（即，交付可靠的高质量实施），而且确保解决方案符合项目利益干系人的要求。
+    - 借助具有通话套餐的电话系统，Microsoft 向用户和所有 PSTN 服务提供电话号码
 
-      实践指导与技术规划之间存在反馈循环。
+    - 借助直接连接，可通过 SBC（会话边界控制器）将现有 PSTN 连接连接到 Microsoft Teams。
 
-      - 你需要了解电话系统的特性和功能以了解它如何支持你的业务用例。
 
-      - 你需要定义你的业务用例以了解如何最好地配置电话系统。
+    #### <a name="span-stylecolorredactionspan-watch-calling-in-teams-300-minutes"></a><span style="color:red">**操作**：</span>观看 Teams 中的通话功能（3:00 分钟）
 
-      这意味着，你可能必须调整此实践指导以实现你的目标。 你需要完成以下任务：
+    > [!Video https://www.youtube.com/embed/9O4p48Mws9U]
 
-      - 为具有通话套餐的电话系统定义业务用例。记录预期的可衡量业务成果，包括以下内容：
 
-        - 你的当前业务流程说明
+    ### <a name="calling-features-in-teams"></a>Teams 中的通话功能
 
-        - 你的现有业务流程中的挑战
+    Teams 中的通话功能支持基本的电话系统功能，例如，使用集成的拨号盘应答和拨打电话（按姓名和号码）、通话保留和检索、呼叫转接和同时响铃、呼叫历史记录、语音邮件以及紧急呼叫。
 
-        - 技术如何帮助克服这些挑战
 
-        - 克服这些挑战后预期的可衡量业务成果
+    以后将逐步添加更多高级功能。 有关详细信息，请参阅 [Microsoft 365 路线图](https://aka.ms/O365Roadmap)。
 
-      - 确定关键利益干系人 根据你的业务用例，创建全面的利益干系人列表，包括角色和说明。 这将帮助你确定项目中涉及到的每个人。
 
-      - 定义目标和关键结果 (OKR)、关键成功指示器 (KSI) 和风险 使用 OKR 和 KSI 设定明确的目标来衡量项目的成功，并定期审查这些目标以衡量进展情况。 利益干系人了解并同意 OKR 和 KSI 从而为了一个共同目标而努力，这一点很重要。 此外，你需要确定和记录风险以提高防范意识，并准备好在需要时降低这些风险。
+    Teams 中的通话功能由电话系统（以前称为云 PBX）提供技术支持，Office 365 中也有此服务，用于在 Skype for Business Online 中实现 PSTN 呼叫功能。
 
-      - 评估环境并评估采用准备情况 在你清楚要实现的目标并记录了你的 OKR 和 KSI 后，评估贵组织是否准备好利用该服务，以及它是否可以提供你的用户所需的所有功能。
 
-      > [!NOTE]
-      > 评估环境还包括对你的网络进行就绪评估。 请勿低估网络的重要性：网络质量直接影响用户体验。 即使你的网络从未出现过问题，但实时通信与其他应用的行为可能不同。 尤其是在电话服务中，用户对高质量的期望较高。 网络质量存在挑战（尤其是在像这样的项目开始时）可能会使整个项目面临风险。
+    <span style="color:red">**重要提示**：</span>请注意，为 Skype for Business 设置的电话系统功能不用于为 Teams 设置的电话系统功能。
 
-      - 映射运营角色 部署解决方案后，你需要有人监控和推动使用和质量。 提前映射运营角色可帮助你确定需要的人员。
 
-      - 创建成功计划 成功计划可为项目团队（包括 FastTrack 或部署合作伙伴）提供足够的信息，使其能够通过具有通话套餐的电话系统实现组织的目标。 它应包含以下部分：
+    <span style="color:red">**操作**：</span>要了解当前可用的功能以及我们预计开发的功能的时间线，请参阅以下资源：
 
-        - 业务案例
 
-        - 服务就绪
+    - 在[公共路线图](https://aka.ms/O365Roadmap)中，查看“通话路线图”幻灯片，大致了解功能发布日期的预计时间线。
 
-        - 采用计划
+    - 查看 [Office 365 中的电话系统提供的功能](./here-s-what-you-get-with-phone-system.md)，了解电话系统功能的说明。 请注意，撰写此文时，其中一些功能可能只面向 Skype for Business 提供。
 
-        - 运营计划
 
-      **其他信息：** 有关此实践指导和你可以在规划中使用的模板的更多详细信息，请参阅 [具有通话套餐的电话系统](calling-plan-landing-page.md)。
-  - title: 展望
-    durationInMinutes: 15
-    content: |
+    ### <a name="emergency-services-calling"></a>紧急服务呼叫
 
-      为了在 Teams 中规划实施通话功能，必须制定一系列决策，让贵组织做好更充分的准备以满足业务需求。 其中包括：
+    请务必了解 Teams 中紧急服务呼叫功能的使用方式不同于传统电话服务。 你必须确保你的用户也了解这些差别。 例如，他们使用 Teams 呼叫紧急服务（例如美国的 911）时，用户需要了解 Teams 可能无法确定呼叫方的实际位置。
 
-      -   连接到 PSTN
 
-      -   服务可用性和用户位置
+    <span style="color:red">**操作**：</span>查看 [紧急呼叫条款和条件](/SkypeForBusiness/legal-and-regulatory/emergency-calling-terms-and-conditions)，了解有关紧急服务呼叫的详细信息。
+- title: Skype for Business Online 客户考虑事项
+  durationInMinutes: 2
+  content: >
+    如果你未使用 Skype for Business Online，可以跳过此部分。 对于熟悉 Skype for Business Online 中的呼叫功能的用户，我们想要强调一些重要事项。
 
-      -   电话系统许可
 
-      -   电话号码和紧急位置
+    - **通过通话套餐或直接路由连接到 PSTN。**
 
-      -   语音邮件
+    将 Teams 连接到 PSTN 的选项与 Skype for Business Online 中的选项略有不同：当通话套餐（以前称为“带 PSTN 连接的云 PBX”）对于两者同时存在时，将现有 PBX 或 SIP 中继连接到 Teams 的选项称为“直接路由”。
 
-      -   可选：呼叫标识
+    有关直接路由的详细文档可在此处找到：[电话系统直接路由](./direct-routing-plan.md)
 
-      -   可选：拨号计划
 
-      ### <a name="connecting-to-the-pstn"></a>连接到 PSTN
+    - **Skype for Business 与 Microsoft Teams 之间的功能不同。**
 
-      为了让用户可以通过使用 Teams 向 PSTN 拨打电话和从其接听电话，你需要安装电话系统，并需要将电话系统连接到 PSTN。
+    请注意，Skype for Business 和 Microsoft Teams 中的通话功能不同。 请勿认为，正因为其中一个客户端支持某功能，另一个客户端也可以支持该功能。
 
-      > **示例** <br/> 为了更好地了解电话系统与 PSTN 连接如何配合工作，假定你购买了一部移动电话。 该移动电话具有优良功能（例如按键和应用），但要拨打电话，你需要有电话提供商提供的通话套餐，该提供商为你提供一个实际的电话号码，并提供与 PSTN 的连接。
 
-      电话系统相当于移动电话：它为你提供语音邮件等功能，但不为你提供电话号码，也不能用于向 PSTN 拨打电话或从 PSTN 接听电话。 为了将电话系统连接到 PSTN（相当于与电话提供商签订的合同），Microsoft 提供了通话套餐，在通话套餐中 Microsoft 为每个用户提供一个可以用于拨打电话和接听电话的电话号码。
+    - **可以在 Teams 或 Skype for Business 中接听电话，但不能同时在两者中接听。**
 
-      客户可通过[直接路由](direct-routing-landing-page.md)或[通话套餐](set-up-calling-plans.md)连接到 PSTN。
+    如果你为用户配置了具有通话套餐的电话系统，他们可以从 Teams 或 Skype for Business 拨打电话。 但是，他们只能在其中一个应用中接听电话，要配置接听电话的应用，请使用新策略 CsTeamsInteropPolicy。 在此培训中，你将了解有关该策略的详细信息。
 
-      ### <a name="service-availability-and-user-locations"></a>服务可用性和用户位置
 
-      有 Office 365 的地方就有电话系统（有关完整国家和地区列表，请参阅[国际可用性](https://products.office.com/business/international-availability)）。
-      通话套餐服务的可用性受到的限制稍微多一些。 电话系统和通话套餐的商业可用性还取决于贵组织所在的地方，更重要的是贵组织与 Microsoft 及其合作伙伴具有商业关系的所在国家或地区。
+    - **如果你在 Teams 中配置了电话系统，可以从 Skype for Business 或 Teams 拨打电话。**
 
-      -   只能为所在国家/地区提供通话套餐的用户分配和使用通话套餐。
+    除了前面提到的 CsTeamsInteropPolicy 配置外，Skype for Business 和 Teams 中的配置相同。 这意味着，如果你已为 Skype for Business 配置了呼叫，你的用户将能够从 Teams 拨打电话。
+- title: 实践指导
+  durationInMinutes: 3
+  content: >
+    Microsoft 提供了实践指导，介绍 Office 365 FastTrack 客户旅程框架及其三个阶段（展望、上线和推动价值），帮助你规划、交付和运营成功的具有通话套餐的电话系统实施。
 
-      -   仅当你的帐单地址位于可以购买音频会议的国家或地区时，才能购买通话套餐。
 
-      > **示例 1** <br/>Contoso 的帐单地址位于奥地利，该公司想让其德国境内的用户使用具有通话套餐的电话系统。 尽管在德国提供通话套餐，但在奥地利不提供。 但是，在奥地利可以购买音频会议，因此，Contoso 可以为其德国境内的用户购买所需的许可证。
+    此实践指导的目标是让你的项目获得成功，不仅从技术角度（即，交付可靠的高质量实施），而且确保解决方案符合项目利益干系人的要求。
 
-      > **示例 2** <br/>Fabrikam, Inc. 是一家位于香港的公司，它在美国有一些用户。 其帐单地址在香港。 尽管 Microsoft 在香港可以提供用于音频会议的电话号码，但在该地区不可购买音频会议。 很遗憾，这意味着 Fabrikam 无法为其美国境内的用户获取通话套餐。
 
-      <span style="color:red">**操作**：</span>查看 [音频会议和通话套餐的国家和地区可用性](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，了解以下信息：
+    实践指导与技术规划之间存在反馈循环。
 
-      -   对于你的帐单地址所在国家/地区，检查是否可以购买音频会议。 这将完全决定你是否可以购买任何通话套餐。
 
-      -   对于你希望用户利用通话套餐的每个国家或地区，检查“是否可以购买电话系统？”， 了解相应国家或地区是否提供通话套餐。
+    - 你需要了解电话系统的特性和功能以了解它如何支持你的业务用例。
 
-      ### <a name="phone-system-licensing"></a>电话系统许可
 
-      电话系统许可证作为 Office 365 E5 订阅计划的一部分提供，或者作为 Office 365 E1 或 Office 365 E3 订阅计划的附加服务提供。
+    - 你需要定义你的业务用例以了解如何最好地配置电话系统。
 
-      通话套餐是 Office 365 中电话系统功能的附加项。 这意味着，电话系统许可证是让用户使用通话套餐的先决条件。
 
-      通常，有两种类型的通话套餐附加项：
+    这意味着，你可能必须调整此实践指导以实现你的目标。 你需要完成以下任务：
 
-      -   国内通话套餐
 
-      -   国际和国内通话套餐
+    - 为具有通话套餐的电话系统定义业务用例。记录预期的可衡量业务成果，包括以下内容：
 
-      每种通话套餐类型均分配用户每月可以用于拨打国内电话或国际电话的通话分钟数。 分钟数因国家/地区而异。 用完分配额后，用户将无法拨打出站电话（紧急服务呼叫除外），直到下一个月的计费周期。
+      - 你的当前业务流程说明
 
-      正如你可能预计到的情况，国内通话套餐的费用低于国际和国内通话套餐。 通常，并非组织中的所有人都需要拨打国际电话。 你可以根据用户的业务需求为各个用户分配不同的通话套餐。 此灵活性可以帮助你控制具有通话套餐的电话系统实施的成本。
+      - 你的现有业务流程中的挑战
 
-      你可以设置通信点数，以便用户即使在用完其分钟数后仍可拨打电话，而不必等到下一个月的计费周期。 这意味着，一旦用完你的分配额，你可以按你的用量付费。 你还可以使用通信点数，让分配了国内通话套餐的用户可以拨打国际电话，这些电话使用“按分钟付费”模式进行收费。
+      - 技术如何帮助克服这些挑战
 
-      <span style="color:red">**操作**：</span>
+      - 克服这些挑战后预期的可衡量业务成果
 
-      -   查看[音频会议和通话套餐的国家和地区可用性](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)中的“通话套餐”部分，了解每种通话套餐附加项类型的通话分钟数分配额。
+    - 确定关键利益干系人 根据你的业务用例，创建全面的利益干系人列表，包括角色和说明。 这将帮助你确定项目中涉及到的每个人。
 
-      **其他信息**
 
-      -   从[音频会议和通话套餐的国家和地区可用性](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)了解有关电话系统和通话套餐的许可的详细信息。
+    - 定义目标和关键结果 (OKR)、关键成功指示器 (KSI) 和风险 使用 OKR 和 KSI 设定明确的目标来衡量项目的成功，并定期审查这些目标以衡量进展情况。 利益干系人了解并同意 OKR 和 KSI 从而为了一个共同目标而努力，这一点很重要。 此外，你需要确定和记录风险以提高防范意识，并准备好在需要时降低这些风险。
 
-      -   从[具有通话套餐的电话系统](calling-plan-landing-page.md)了解有关通话套餐加载项的详细信息
 
-      -   从[通信点数是什么？](./what-are-communications-credits.md)了解有关通信点数的详细信息
+    - 评估环境并评估采用准备情况 在你清楚要实现的目标并记录了你的 OKR 和 KSI 后，评估贵组织是否准备好利用该服务，以及它是否可以提供你的用户所需的所有功能。
 
-      ### <a name="phone-numbers-and-emergency-locations"></a>电话号码和紧急位置
 
-      要实施具有通话套餐的电话系统，贵组织中的每个用户都需要具有唯一的订阅者（用户）电话号码。 订阅者（用户）电话号码可以直接从 Microsoft 获取，也可以将现有电话号码转移（转网）到 Microsoft。
+    > [!NOTE]
 
-      > [!IMPORTANT]
-      > 获取或转移电话号码的复杂性根据国家/地区、运营商、涉及的线路数量以及许多其他影响因素而有很大不同。
+    > 评估环境还包括对你的网络进行就绪评估。 请勿低估网络的重要性：网络质量直接影响用户体验。 即使你的网络从未出现过问题，但实时通信与其他应用的行为可能不同。 尤其是在电话服务中，用户对高质量的期望较高。 网络质量存在挑战（尤其是在像这样的项目开始时）可能会使整个项目面临风险。
 
-      除了确保每个用户都有唯一的电话号码外，还必须为每个电话号码分配一个紧急地址（在你分配电话号码时，或在你首次获取电话号码时，具体取决于你的国家/地区）。 要支持紧急服务呼叫，需要紧急地址。 必须验证该地址以确保可识别该地址，并且其格式正确，以便紧急响应服务可以使用。
 
-      要为紧急响应者提供更加准确的用户位置信息，你可以定义紧急位置并将其与验证的紧急地址关联。 紧急位置通常是用户所在的建筑物编号、楼层、建筑物侧楼或办公室号码。
+    - 映射运营角色 部署解决方案后，你需要有人监控和推动使用和质量。 提前映射运营角色可帮助你确定需要的人员。
 
-      **其他信息**
 
-      -   查看[用于通话套餐的不同种类的电话号码](./different-kinds-of-phone-numbers-used-for-calling-plans.md)，了解 Office 365 中的电话系统支持的电话号码的类型。
+    - 创建成功计划 成功计划可为项目团队（包括 FastTrack 或部署合作伙伴）提供足够的信息，使其能够通过具有通话套餐的电话系统实现组织的目标。 它应包含以下部分：
 
-      -   查看[管理组织的电话号码](./manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)，了解有关如何为通话套餐实施获取用户号码的详细信息。
+      - 业务案例
 
-      -   若要了解有关如何将电话号码转移（转网）到 Microsoft 的详细信息，请参阅[将电话号码转接到 Teams](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。
+      - 服务就绪
 
-      -   要了解有关紧急地址和位置的详细信息，请查看[什么是紧急位置、地址和呼叫路由？](./what-are-emergency-locations-addresses-and-call-routing.md)
+      - 采用计划
 
-      -   [紧急呼叫条款和条件](./emergency-calling-terms-and-conditions.md)
+      - 运营计划
 
-      ### <a name="voicemail"></a>语音邮件
+    **其他信息：** 有关此实践指导和你可以在规划中使用的模板的更多详细信息，请参阅 [具有通话套餐的电话系统](calling-plan-landing-page.md)。
+- title: 展望
+  durationInMinutes: 15
+  content: "\n为了在 Teams 中规划实施通话功能，必须制定一系列决策，让贵组织做好更充分的准备以满足业务需求。 其中包括：\n\n-   连接到 PSTN\n\n-   服务可用性和用户位置\n\n-   电话系统许可\n\n-   电话号码和紧急位置\n\n-   语音邮件\n\n-   可选：呼叫标识\n\n-   可选：拨号计划\n\n### <a name=\"connecting-to-the-pstn\"></a>连接到 PSTN\n\n为了让用户可以通过使用 Teams 向 PSTN 拨打电话和从其接听电话，你需要安装电话系统，并需要将电话系统连接到 PSTN。\n\n> **示例** <br/> 为了更好地了解电话系统与 PSTN 连接如何配合工作，假定你购买了一部移动电话。 该移动电话具有优良功能（例如按键和应用），但要拨打电话，你需要有电话提供商提供的通话套餐，该提供商为你提供一个实际的电话号码，并提供与 PSTN 的连接。\n\n电话系统相当于移动电话：它为你提供语音邮件等功能，但不为你提供电话号码，也不能用于向 PSTN 拨打电话或从 PSTN 接听电话。 为了将电话系统连接到 PSTN（相当于与电话提供商签订的合同），Microsoft 提供了通话套餐，在通话套餐中 Microsoft 为每个用户提供一个可以用于拨打电话和接听电话的电话号码。\n\n客户可通过[直接路由](direct-routing-landing-page.md)或[通话套餐](set-up-calling-plans.md)连接到 PSTN。\n\n### <a name=\"service-availability-and-user-locations\"></a>服务可用性和用户位置\n\n有 Office 365 的地方就有电话系统（有关完整国家和地区列表，请参阅[国际可用性](https://products.office.com/business/international-availability)）。\n通话套餐服务的可用性受到的限制稍微多一些。 电话系统和通话套餐的商业可用性还取决于贵组织所在的地方，更重要的是贵组织与 Microsoft 及其合作伙伴具有商业关系的所在国家或地区。\n\n-   只能为所在国家/地区提供通话套餐的用户分配和使用通话套餐。\n\n-   仅当你的帐单地址位于可以购买音频会议的国家或地区时，才能购买通话套餐。\n\n> **示例 1** <br/>Contoso 的帐单地址位于奥地利，该公司想让其德国境内的用户使用具有通话套餐的电话系统。 尽管在德国提供通话套餐，但在奥地利不提供。 但是，在奥地利可以购买音频会议，因此，Contoso 可以为其德国境内的用户购买所需的许可证。\n\n> **示例 2** <br/>Fabrikam, Inc. 是一家位于香港的公司，它在美国有一些用户。 其帐单地址在香港。 尽管 Microsoft 在香港可以提供用于音频会议的电话号码，但在该地区不可购买音频会议。 很遗憾，这意味着 Fabrikam 无法为其美国境内的用户获取通话套餐。\n\n<span style=\"color:red\">**操作**：</span>查看 [音频会议和通话套餐的国家和地区可用性](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，了解以下信息：\n\n-   对于你的帐单地址所在国家/地区，检查是否可以购买音频会议。 这将完全决定你是否可以购买任何通话套餐。\n\n-   对于你希望用户利用通话套餐的每个国家或地区，检查“是否可以购买电话系统？”， 了解相应国家或地区是否提供通话套餐。\n\n### <a name=\"phone-system-licensing\"></a>电话系统许可\n\n电话系统许可证作为 Office 365 E5 订阅计划的一部分提供，或者作为 Office 365 E1 或 Office 365 E3 订阅计划的附加服务提供。\n\n通话套餐是 Office 365 中电话系统功能的附加项。 这意味着，电话系统许可证是让用户使用通话套餐的先决条件。\n\n通常，有两种类型的通话套餐附加项：\n\n-   国内通话套餐\n\n-   国际和国内通话套餐\n\n每种通话套餐类型均分配用户每月可以用于拨打国内电话或国际电话的通话分钟数。 分钟数因国家/地区而异。 用完分配额后，用户将无法拨打出站电话（紧急服务呼叫除外），直到下一个月的计费周期。\n\n正如你可能预计到的情况，国内通话套餐的费用低于国际和国内通话套餐。 通常，并非组织中的所有人都需要拨打国际电话。 你可以根据用户的业务需求为各个用户分配不同的通话套餐。 此灵活性可以帮助你控制具有通话套餐的电话系统实施的成本。\n\n你可以设置通信点数，以便用户即使在用完其分钟数后仍可拨打电话，而不必等到下一个月的计费周期。 这意味着，一旦用完你的分配额，你可以按你的用量付费。 你还可以使用通信点数，让分配了国内通话套餐的用户可以拨打国际电话，这些电话使用“按分钟付费”模式进行收费。\n\n<span style=\"color:red\">**操作**：</span>\n\n-   查看[音频会议和通话套餐的国家和地区可用性](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)中的“通话套餐”部分，了解每种通话套餐附加项类型的通话分钟数分配额。\n\n**其他信息**\n\n-   从[音频会议和通话套餐的国家和地区可用性](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)了解有关电话系统和通话套餐的许可的详细信息。\n\n-   从[具有通话套餐的电话系统](calling-plan-landing-page.md)了解有关通话套餐加载项的详细信息\n\n-   从[通信点数是什么？](./what-are-communications-credits.md)了解有关通信点数的详细信息\n\n### <a name=\"phone-numbers-and-emergency-locations\"></a>电话号码和紧急位置\n\n要实施具有通话套餐的电话系统，贵组织中的每个用户都需要具有唯一的订阅者（用户）电话号码。 订阅者（用户）电话号码可以直接从 Microsoft 获取，也可以将现有电话号码转移（转网）到 Microsoft。\n\n> [!IMPORTANT]\n> 获取或转移电话号码的复杂性根据国家/地区、运营商、涉及的线路数量以及许多其他影响因素而有很大不同。\n\n除了确保每个用户都有唯一的电话号码外，还必须为每个电话号码分配一个紧急地址（在你分配电话号码时，或在你首次获取电话号码时，具体取决于你的国家/地区）。 要支持紧急服务呼叫，需要紧急地址。 必须验证该地址以确保可识别该地址，并且其格式正确，以便紧急响应服务可以使用。\n\n要为紧急响应者提供更加准确的用户位置信息，你可以定义紧急位置并将其与验证的紧急地址关联。 紧急位置通常是用户所在的建筑物编号、楼层、建筑物侧楼或办公室号码。\n\n**其他信息**\n\n-   查看[用于通话套餐的不同种类的电话号码](./different-kinds-of-phone-numbers-used-for-calling-plans.md)，了解 Office 365 中的电话系统支持的电话号码的类型。\n\n-   查看[管理组织的电话号码](./manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)，了解有关如何为通话套餐实施获取用户号码的详细信息。\n\n-   若要了解有关如何将电话号码转移（转网）到 Microsoft 的详细信息，请参阅[将电话号码转接到 Teams](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。\n\n-   要了解有关紧急地址和位置的详细信息，请查看[什么是紧急位置、地址和呼叫路由？](./what-are-emergency-locations-addresses-and-call-routing.md)\n\n-   [紧急呼叫条款和条件](./emergency-calling-terms-and-conditions.md)\n\n### <a name=\"voicemail\"></a>语音邮件\n\n由 Azure Voicemail 服务提供技术支持的云语音邮件支持仅向 Exchange 邮箱存储语音邮件，不支持第三方电子邮件系统。\n\n默认情况下，云语音邮件与 Exchange Online 结合使用；但是，它要求达到[支持的最低本地 Exchange 版本和部署模式](https://support.microsoft.com/help/3195158/customer-issues-between-exum-and-azure-voicemail)，才能向本地 Exchange 部署中的用户邮箱传送语音邮件。\n\n云语音邮件包括语音邮件转录，默认情况下，为组织中的所有用户启用该功能。 你的企业可能要求你为特定用户或整个组织中的每个人禁用语音邮件转录。\n\n> [!NOTE]\n> 实施了回退机制，以便云语音邮件可以通过使用 SMTP 重新发送邮件，这意味着，在第三方电子邮件系统中有邮箱的用户将会收到其语音邮件。 此机制不包括保证的服务正常运行时间和其他语音邮件功能（例如，更改语音邮件问候语）。\n\n**其他信息**\n\n-   查看[对 Exchange Server 的 Azure PBX 语音邮件支持](https://support.microsoft.com/help/3195158/customer-issues-between-exum-and-azure-voicemail)，了解如何启用本地 Exchange 以支持电话系统语音邮件。\n\n### <a name=\"optional-calling-identity\"></a>可选：呼叫标识\n\n默认情况下，所有出站呼叫均将分配的电话号码用于呼叫标识（呼叫方 ID）。 呼叫接收人可以快速识别呼叫方，并决定是接收还是拒绝呼叫。\n\n在有些情况下，出于合理的业务原因，要显示不同的号码以屏蔽呼叫方标识。\n\n> **示例** <br/>Contoso 为其用户使用具有通话套餐的电话系统。\n但是，其业务需求要求，如果接待员拨打电话号码，呼叫方 ID 不应体现接待员的电话号码，而是办公地点的主电话号码。\n\n其他方式包括可能完全阻止（匿名）显示呼叫方 ID，或让用户选择使用其呼叫方 ID 或匿名拨出。\n\n还可以对传入呼叫阻止呼叫方 ID。\n\n**其他信息**\n\n-   从[如何在组织中使用呼叫方 ID](how-can-caller-id-be-used-in-your-organization.md) 了解有关呼叫标识控制的详细信息。\n\n### <a name=\"optional-dial-plans\"></a>可选：拨号计划\n\nOffice 365 的电话系统功能中的拨号计划控制用户使用拨号盘拨打电话号码的方式。 PSTN 要求电话号码采用特定格式，即以加号 (+) 开头，后接表示 E.164 号码的数字。 E.164 是 PSTN 号码的标准，用于指定国家/地区代码。\n\n显然，用户不愿意在拨打电话号码时使用该长格式。\n尤其是在拨打本地号码时，他们希望不使用国家/地区代码，甚至不希望使用区号。 此时拨号计划将发挥作用：你可以使用它们将用户输入的电话号码标准化为所需格式。\n\n> **示例 1** <br/>Alice 想要拨打电话号码 +1 311-555-2368。 由于 Alice 位于美国的西雅图（区号 206），她只需拨打 **311-555-2368**。 Teams 先将此电话号码标准化为完整号码 +1 311-555-2368，然后将其路由至 PSTN。\n\n默认情况下，通用拨号行为是自动分配的拨号计划（也称为 *服务拨号计划*）根据每个用户的许可证使用位置实施的。 此通用拨号行为可能未满足用户要求，例如，它可能要求用户在拨打本地号码时拨打区号。 在此类情况下，你需要自定义拨号计划（也称为 *租户拨号计划*），以便用户可以按其习惯的方式拨打电话号码，例如，对于本地呼叫省略区号，或呼叫同一位置或办公室的其他用户时使用简短数字拨号。\n\n> **示例 2** <br/>Bob 也想要拨打电话号码 +1 311-555-2368。 Bob 不仅在美国，而且他的位置实际上在 311 区号内。 他期望能够拨打 **555-2368** 即可。 你可以将 Teams 配置为接受 Bob 的拨号行为，并先将电话号码标准化为正确格式，然后将其发送到 PSTN。\n\n你可以为不同的用户分配不同的拨号计划。 这样，你可以实现符合用户的不同要求的特定体验，例如，如果某个特定位置的用户希望的拨号体验不同于另一个位置的用户。\n\n**其他信息**\n\n-   有关拨号计划的就绪讨论培训，请访问[租户拨号计划](https://aka.ms/sa-tdp)。 尽管此培训是为 Skype for Business 创建的，但它也适用于 Teams，因为 Teams 是基于相同的基础结构构建而成。\n"
+- title: 上线
+  durationInMinutes: 20
+  content: "\n要在 Teams 中设置具有通话套餐的电话系统，请按照以下步骤操作：\n\n1.  为 Azure Voicemail 启用本地 Exchange\n\n1.  验证所需的许可证\n\n1.  分配许可证\n\n1.  获取电话号码\n\n1.  设置紧急地址和位置\n\n1.  为用户分配电话号码和紧急地址\n\n1.  可选：为用户分配呼叫标识设置\n\n1.  可选：为用户分配拨号计划设置\n\n1.  分配 Teams 通话互操作性策略\n\n有关上线流程的演示，请观看以下视频：\n\n### <a name=\"1-enable-exchange-on-premises-for-azure-voicemail\"></a>1. 为 Azure Voicemail 启用本地 Exchange\n\n如果一些用户在本地 Exchange Server 上有 Exchange 邮箱，请按照[对 Exchange Server 的 Azure PBX 语音邮件支持](https://support.microsoft.com/help/3195158/customer-issues-between-exum-and-azure-voicemail)中的步骤操作来启用它，以便结合使用 Azure Voicemail。\n\n### <a name=\"2-validate-required-licenses\"></a>2. 验证所需的许可证\n\n在展望阶段中，你应该有了作为为贵组织实施具有通话套餐的电话系统的先决条件的许可证列表：\n\n-   Microsoft Teams\n\n-   Skype for Business Online（计划 2）\n\n-   电话系统\n\n-   国内通话套餐或国内和国际通话套餐\n\n-   通信点数（可选）\n\n> [!NOTE]\n> 电话系统许可证可以作为 Office 365 企业版 E5 订阅计划的一部分提供，也可以作为 Office 365 企业版 E1 或 E3 的附加内容提供。\n\n> [!IMPORTANT]\n> 如果没有所需的许可证，你需要联系贵组织中负责 Office 365 订阅的团队，以便他们可以购买所需的许可证。\n\n### <a name=\"3-assign-licenses\"></a>3. 分配许可证\n\n确认了所需的许可证（根据你的实施计划）可用后，你需要为用户分配许可证。\n\n按照[分配 Skype for Business 和 Microsoft Teams 许可证](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)中的说明，通过使用 Skype for Business 管理中心或远程 PowerShell 会话，为单个或多个用户分配许可证。\n\n### <a name=\"4-acquire-phone-numbers\"></a>4. 获取电话号码\n\n可以通过多种方式为具有通话套餐的电话系统实施获取电话号码：\n\n-   通过使用 Skype for Business 管理中心获取电话号码（仅限美国和英国）\n\n-   通过提交电话号码申请表单申请电话号码\n\n-   将现有电话号码转移（或转网）到 Microsoft\n\n### <a name=\"5-set-up-emergency-addresses-and-locations\"></a>5. 设置紧急地址和位置\n\n按照[为组织添加或删除紧急地址](/SkypeForBusiness/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization)中的说明设置紧急地址和位置。 有关详细信息，请参阅\n\n\n### <a name=\"6-assign-phone-numbers-and-emergency-address-to-users\"></a>6. 为用户分配电话号码和紧急地址\n\n按照[为用户分配、更改或删除电话号码](./assign-change-or-remove-a-phone-number-for-a-user.md)中的说明为用户分配电话号码和紧急地址。\n\n> [!NOTE]\n> 对于要在 Teams 中显示的分配的电话号码，你必须在 Azure Active Directory (Azure AD) 中更新用户的办公地点电话号码。 如果用户是直接在 Office 365 或 Azure AD 中创建的，你可以在 Microsoft 365 管理中心编辑此属性。 如果用户是从本地 Active Directory 同步的，你必须使用本地 Active Directory 更新办公地点电话号码属性。\n\n### <a name=\"7-optional-assign-calling-identity-settings-to-users\"></a>7. 可选：为用户分配呼叫标识设置\n\n根据你的实施计划，你可能需要为用户配置呼叫标识。 请按照[为用户设置呼叫方 ID](./set-the-caller-id-for-a-user.md) 中的说明操作。\n\n### <a name=\"8-optional-assign-dial-plan-settings-to-users\"></a>8. 可选：为用户分配拨号计划设置\n\n根据贵组织和用户的要求，你可能需要为用户分配租户拨号计划。 请按照[创建和管理拨号计划](./create-and-manage-dial-plans.md)中的说明操作。\n\n### <a name=\"9-assign-the-teams-calling-interop-policy\"></a>9. 分配 Teams 通话互操作性策略\n\n默认情况下，Teams 中的所有通话均设置为 Skype for Business，没有让用户更改设置的选项。\n\n要在 Teams 中实施具有通话套餐的电话系统，你需要分配 Teams 互操作性策略，用于指定通话使用 Teams。 满足此要求的策略是 DisallowOverrideCallingTeamsChatTeams。\n\n通过使用 Grant-CsTeamsInteropPolicy 为要在 Teams 中为其启用具有通话套餐的电话系统的用户分配以上策略：\n\n   ```\n   Grant-CsTeamsInteropPolicy -PolicyName tag:DisallowOverrideCallingTeamsChatTeams -Identity user\\@contoso.com\n   ```\n"
+- title: 练习 - 管理互操作性策略
+  durationInMinutes: 30
+  content: >
+    在此练习中，你将在 Teams 中为用户启用通话功能。 尽管我们未介绍如何执行每个操作，但我们推荐了一些可尝试的方案。
 
-      由 Azure Voicemail 服务提供技术支持的云语音邮件支持仅向 Exchange 邮箱存储语音邮件，不支持第三方电子邮件系统。
 
-      默认情况下，云语音邮件与 Exchange Online 结合使用；但是，它要求达到[支持的最低本地 Exchange 版本和部署模式](https://support.microsoft.com/help/3195158/customer-issues-between-exum-and-azure-voicemail)，才能向本地 Exchange 部署中的用户邮箱传送语音邮件。
+    ### <a name="requirements"></a>要求
 
-      云语音邮件包括语音邮件转录，默认情况下，为组织中的所有用户启用该功能。 你的企业可能要求你为特定用户或整个组织中的每个人禁用语音邮件转录。
 
-      > [!NOTE]
-      > 实施了回退机制，以便云语音邮件可以通过使用 SMTP 重新发送邮件，这意味着，在第三方电子邮件系统中有邮箱的用户将会收到其语音邮件。 此机制不包括保证的服务正常运行时间和其他语音邮件功能（例如，更改语音邮件问候语）。
+    -   具有用于启用具有通话套餐的电话系统的合适许可证的 Office 365 组织
 
-      **其他信息**
+        -   强烈建议你使用专用的测试租户。
 
-      -   查看[对 Exchange Server 的 Azure PBX 语音邮件支持](https://support.microsoft.com/help/3195158/customer-issues-between-exum-and-azure-voicemail)，了解如何启用本地 Exchange 以支持电话系统语音邮件。
+        -   如果你没有测试许可证，可以在此处注册试用版租户：[Office 365 企业版 E5 试用版](https://go.microsoft.com/fwlink/p/?LinkID=698279)。 但是很遗憾，现在无法通过试用版租户提供通话套餐。
 
-      ### <a name="optional-calling-identity"></a>可选：呼叫标识
+        -   请勿在生产环境中运行任何测试。 更改设置或策略可能会对所有用户造成负面影响，并可能会影响其用户体验。
 
-      默认情况下，所有出站呼叫均将分配的电话号码用于呼叫标识（呼叫方 ID）。 呼叫接收人可以快速识别呼叫方，并决定是接收还是拒绝呼叫。
+    -   为你的 PC 设置了 Skype for Business Online 管理
 
-      在有些情况下，出于合理的业务原因，要显示不同的号码以屏蔽呼叫方标识。
+        -   如果你未安装 Skype for Business Online 连接器模块，请按照此处说明操作：[为你的计算机配置 Skype for Business Online 管理](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)。
 
-      > **示例** <br/>Contoso 为其用户使用具有通话套餐的电话系统。
-      但是，其业务需求要求，如果接待员拨打电话号码，呼叫方 ID 不应体现接待员的电话号码，而是办公地点的主电话号码。
+        -   要将 PowerShell 连接到 Skype for Business Online，请按照以下说明操作：[使用 Windows PowerShell 连接到 Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)。
 
-      其他方式包括可能完全阻止（匿名）显示呼叫方 ID，或让用户选择使用其呼叫方 ID 或匿名拨出。
+    -   至少两个终结点和一部电话
 
-      还可以对传入呼叫阻止呼叫方 ID。
+        -   这可以是两台 PC，但你还可以在浏览器中或移动电话上使用该客户端。
 
-      **其他信息**
+        -   要测试 PSTN 呼叫，你需要有一部可以向你要测试 PSTN 呼叫的国家或地区拨打电话的电话。
 
-      -   从[如何在组织中使用呼叫方 ID](how-can-caller-id-be-used-in-your-organization.md) 了解有关呼叫标识控制的详细信息。
+    ### <a name="suggested-scenarios-to-test"></a>建议进行测试的方案
 
-      ### <a name="optional-dial-plans"></a>可选：拨号计划
 
-      Office 365 的电话系统功能中的拨号计划控制用户使用拨号盘拨打电话号码的方式。 PSTN 要求电话号码采用特定格式，即以加号 (+) 开头，后接表示 E.164 号码的数字。 E.164 是 PSTN 号码的标准，用于指定国家/地区代码。
+    -   在 Teams 中为用户启用具有通话套餐的电话系统。
 
-      显然，用户不愿意在拨打电话号码时使用该长格式。
-      尤其是在拨打本地号码时，他们希望不使用国家/地区代码，甚至不希望使用区号。 此时拨号计划将发挥作用：你可以使用它们将用户输入的电话号码标准化为所需格式。
 
-      > **示例 1** <br/>Alice 想要拨打电话号码 +1 311-555-2368。 由于 Alice 位于美国的西雅图（区号 206），她只需拨打 **311-555-2368**。 Teams 先将此电话号码标准化为完整号码 +1 311-555-2368，然后将其路由至 PSTN。
+    -   以配置的用户身份登录，然后查看“**通话**”选项卡。
 
-      默认情况下，通用拨号行为是自动分配的拨号计划（也称为 *服务拨号计划*）根据每个用户的许可证使用位置实施的。 此通用拨号行为可能未满足用户要求，例如，它可能要求用户在拨打本地号码时拨打区号。 在此类情况下，你需要自定义拨号计划（也称为 *租户拨号计划*），以便用户可以按其习惯的方式拨打电话号码，例如，对于本地呼叫省略区号，或呼叫同一位置或办公室的其他用户时使用简短数字拨号。
 
-      > **示例 2** <br/>Bob 也想要拨打电话号码 +1 311-555-2368。 Bob 不仅在美国，而且他的位置实际上在 311 区号内。 他期望能够拨打 **555-2368** 即可。 你可以将 Teams 配置为接受 Bob 的拨号行为，并先将电话号码标准化为正确格式，然后将其发送到 PSTN。
+    -   使用不同的格式（例如，拨打带前导加号的完整 E.164 号码，或拨打号码时不使用国家/地区代码）拨打 PSTN 号码。
 
-      你可以为不同的用户分配不同的拨号计划。 这样，你可以实现符合用户的不同要求的特定体验，例如，如果某个特定位置的用户希望的拨号体验不同于另一个位置的用户。
 
-      **其他信息**
-
-      -   有关拨号计划的就绪讨论培训，请访问[租户拨号计划](https://aka.ms/sa-tdp)。 尽管此培训是为 Skype for Business 创建的，但它也适用于 Teams，因为 Teams 是基于相同的基础结构构建而成。
-  - title: 上线
-    durationInMinutes: 20
-    content: |
-
-      要在 Teams 中设置具有通话套餐的电话系统，请按照以下步骤操作：
-
-      1.  为 Azure Voicemail 启用本地 Exchange
-
-      1.  验证所需的许可证
-
-      1.  分配许可证
-
-      1.  获取电话号码
-
-      1.  设置紧急地址和位置
-
-      1.  为用户分配电话号码和紧急地址
-
-      1.  可选：为用户分配呼叫标识设置
-
-      1.  可选：为用户分配拨号计划设置
-
-      1.  分配 Teams 通话互操作性策略
-
-      有关上线流程的演示，请观看以下视频：
-
-      ### <a name="1-enable-exchange-on-premises-for-azure-voicemail"></a>1. 为 Azure Voicemail 启用本地 Exchange
-
-      如果一些用户在本地 Exchange Server 上有 Exchange 邮箱，请按照[对 Exchange Server 的 Azure PBX 语音邮件支持](https://support.microsoft.com/help/3195158/customer-issues-between-exum-and-azure-voicemail)中的步骤操作来启用它，以便结合使用 Azure Voicemail。
-
-      ### <a name="2-validate-required-licenses"></a>2. 验证所需的许可证
-
-      在展望阶段中，你应该有了作为为贵组织实施具有通话套餐的电话系统的先决条件的许可证列表：
-
-      -   Microsoft Teams
-
-      -   Skype for Business Online（计划 2）
-
-      -   电话系统
-
-      -   国内通话套餐或国内和国际通话套餐
-
-      -   通信点数（可选）
-
-      > [!NOTE]
-      > 电话系统许可证可以作为 Office 365 企业版 E5 订阅计划的一部分提供，也可以作为 Office 365 企业版 E1 或 E3 的附加内容提供。
-
-      > [!IMPORTANT]
-      > 如果没有所需的许可证，你需要联系贵组织中负责 Office 365 订阅的团队，以便他们可以购买所需的许可证。
-
-      ### <a name="3-assign-licenses"></a>3. 分配许可证
-
-      确认了所需的许可证（根据你的实施计划）可用后，你需要为用户分配许可证。
-
-      按照[分配 Skype for Business 和 Microsoft Teams 许可证](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)中的说明，通过使用 Skype for Business 管理中心或远程 PowerShell 会话，为单个或多个用户分配许可证。
-
-      ### <a name="4-acquire-phone-numbers"></a>4. 获取电话号码
-
-      可以通过多种方式为具有通话套餐的电话系统实施获取电话号码：
-
-      -   通过使用 Skype for Business 管理中心获取电话号码（仅限美国和英国）
-
-      -   通过提交电话号码申请表单申请电话号码
-
-      -   将现有电话号码转移（或转网）到 Microsoft
-
-      ### <a name="5-set-up-emergency-addresses-and-locations"></a>5. 设置紧急地址和位置
-
-      按照[为组织添加或删除紧急地址](/SkypeForBusiness/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization)中的说明设置紧急地址和位置。 有关详细信息，请参阅
-
-
-      ### <a name="6-assign-phone-numbers-and-emergency-address-to-users"></a>6. 为用户分配电话号码和紧急地址
-
-      按照[为用户分配、更改或删除电话号码](./assign-change-or-remove-a-phone-number-for-a-user.md)中的说明为用户分配电话号码和紧急地址。
-
-      > [!NOTE]
-      > 对于要在 Teams 中显示的分配的电话号码，你必须在 Azure Active Directory (Azure AD) 中更新用户的办公地点电话号码。 如果用户是直接在 Office 365 或 Azure AD 中创建的，你可以在 Microsoft 365 管理中心编辑此属性。 如果用户是从本地 Active Directory 同步的，你必须使用本地 Active Directory 更新办公地点电话号码属性。
-
-      ### <a name="7-optional-assign-calling-identity-settings-to-users"></a>7. 可选：为用户分配呼叫标识设置
-
-      根据你的实施计划，你可能需要为用户配置呼叫标识。 请按照[为用户设置呼叫方 ID](./set-the-caller-id-for-a-user.md) 中的说明操作。
-
-      ### <a name="8-optional-assign-dial-plan-settings-to-users"></a>8. 可选：为用户分配拨号计划设置
-
-      根据贵组织和用户的要求，你可能需要为用户分配租户拨号计划。 请按照[创建和管理拨号计划](./create-and-manage-dial-plans.md)中的说明操作。
-
-      ### <a name="9-assign-the-teams-calling-interop-policy"></a>9. 分配 Teams 通话互操作性策略
-
-      默认情况下，Teams 中的所有通话均设置为 Skype for Business，没有让用户更改设置的选项。
-
-      要在 Teams 中实施具有通话套餐的电话系统，你需要分配 Teams 互操作性策略，用于指定通话使用 Teams。 满足此要求的策略是 DisallowOverrideCallingTeamsChatTeams。
-
-      通过使用 Grant-CsTeamsInteropPolicy 为要在 Teams 中为其启用具有通话套餐的电话系统的用户分配以上策略：
-
-         ```
-         Grant-CsTeamsInteropPolicy -PolicyName tag:DisallowOverrideCallingTeamsChatTeams -Identity user\@contoso.com
-         ```
-  - title: 练习 - 管理互操作性策略
-    durationInMinutes: 30
-    content: |
-      在此练习中，你将在 Teams 中为用户启用通话功能。 尽管我们未介绍如何执行每个操作，但我们推荐了一些可尝试的方案。
-
-      ### <a name="requirements"></a>要求
-
-      -   具有用于启用具有通话套餐的电话系统的合适许可证的 Office 365 组织
-
-          -   强烈建议你使用专用的测试租户。
-
-          -   如果你没有测试许可证，可以在此处注册试用版租户：[Office 365 企业版 E5 试用版](https://go.microsoft.com/fwlink/p/?LinkID=698279)。 但是很遗憾，现在无法通过试用版租户提供通话套餐。
-
-          -   请勿在生产环境中运行任何测试。 更改设置或策略可能会对所有用户造成负面影响，并可能会影响其用户体验。
-
-      -   为你的 PC 设置了 Skype for Business Online 管理
-
-          -   如果你未安装 Skype for Business Online 连接器模块，请按照此处说明操作：[为你的计算机配置 Skype for Business Online 管理](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)。
-
-          -   要将 PowerShell 连接到 Skype for Business Online，请按照以下说明操作：[使用 Windows PowerShell 连接到 Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)。
-
-      -   至少两个终结点和一部电话
-
-          -   这可以是两台 PC，但你还可以在浏览器中或移动电话上使用该客户端。
-
-          -   要测试 PSTN 呼叫，你需要有一部可以向你要测试 PSTN 呼叫的国家或地区拨打电话的电话。
-
-      ### <a name="suggested-scenarios-to-test"></a>建议进行测试的方案
-
-      -   在 Teams 中为用户启用具有通话套餐的电话系统。
-
-      -   以配置的用户身份登录，然后查看“**通话**”选项卡。
-
-      -   使用不同的格式（例如，拨打带前导加号的完整 E.164 号码，或拨打号码时不使用国家/地区代码）拨打 PSTN 号码。
-
-      -   测试用户功能，例如，更改用于呼叫转接的号码、转接呼叫或访问语音邮件。
-  - title: 推动价值
-    durationInMinutes: 1
-    content: |
-
-      现在，你已在你的环境中正确规划和实施了电话系统，你需要确保它得到使用并提供卓越的用户体验。 尽管完整的详细信息不在此培训的范围内，但我们依然要指出参与的最重要的方面：
-
-      -   采用和变更管理 在你向用户提供该服务后，他们可能就会开始使用。 也可能不会。 因此，务必要执行合适的采用和变更管理。
-
-      -   监控和推动使用 建议将你的一个 KSI 设置为活跃用户数，以帮助你衡量 Teams 作为电话客户端的接受程度。
-
-      -   监控和推动质量
-
-      用户的满意度直接与其通话质量相关；因此，务必要监控通话质量并进行改进（如果需要）。 要了解如何报告通话质量，请访问“通话质量仪表板”培训。 尽管这些视频是为 Skype for Business 创建的，但它们也适用于 Teams：<https://aka.ms/sof-cqd>。
-  - title: 后续步骤
-    durationInMinutes: 1
-    content: |
-
-      此培训涵盖了以下主要学习内容：
-      -   Teams 中的通话功能是什么？
-
-      -   如何在 Teams 中规划通话功能
-
-      -   如何在 Teams 中配置通话功能
-
-      要了解详细信息，请参阅：
-
-      -   [具有通话套餐的电话系统](calling-plan-landing-page.md)
-
-      -   [快速入门指南：在 Microsoft Teams 中配置通话套餐](./configuring-teams-calling-quickstartguide.md)
-
-      后续步骤
-
-      1.  开始为 Teams 部署电话系统
-      2.  向我们发送反馈：
-          - 在此页面底部的“评论”部分发布。
-          - 若要向我们提供有关 Teams 的反馈，或分享你对新功能的想法，请访问 [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)。
-      3.  获取最新信息：
-          - 关注 [Teams 博客](https://aka.ms/teamsblog)。
-          - 阅读 [Teams 路线图](https://aka.ms/O365Roadmap)。
-          - 在[发行说明](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de)中了解最新发行的功能。
-      4.  浏览[更多培训和教程](/OfficeDocs-SkypeForBusiness-pr/blob/master/Teams/ITAdmin-readiness#technical-training)。
+    -   测试用户功能，例如，更改用于呼叫转接的号码、转接呼叫或访问语音邮件。
+- title: 推动价值
+  durationInMinutes: 1
+  content: "\n现在，你已在你的环境中正确规划和实施了电话系统，你需要确保它得到使用并提供卓越的用户体验。 尽管完整的详细信息不在此培训的范围内，但我们依然要指出参与的最重要的方面：\n\n-   采用和变更管理 在你向用户提供该服务后，他们可能就会开始使用。 也可能不会。 因此，务必要执行合适的采用和变更管理。\n\n-   监控和推动使用 建议将你的一个 KSI 设置为活跃用户数，以帮助你衡量 Teams 作为电话客户端的接受程度。\n\n-   监控和推动质量\n\n用户的满意度直接与其通话质量相关；因此，务必要监控通话质量并进行改进（如果需要）。 要了解如何报告通话质量，请访问“通话质量仪表板”培训。 尽管这些视频是为 Skype for Business 创建的，但它们也适用于 Teams：<https://aka.ms/sof-cqd>。\n"
+- title: 后续步骤
+  durationInMinutes: 1
+  content: "\n此培训涵盖了以下主要学习内容：\n-   Teams 中的通话功能是什么？\n\n-   如何在 Teams 中规划通话功能\n\n-   如何在 Teams 中配置通话功能\n\n要了解详细信息，请参阅：\n\n-   [具有通话套餐的电话系统](calling-plan-landing-page.md)\n\n-   [快速入门指南：在 Microsoft Teams 中配置通话套餐](./configuring-teams-calling-quickstartguide.md)\n\n后续步骤\n\n1.  开始为 Teams 部署电话系统\n2.  向我们发送反馈：\n    - 在此页面底部的“评论”部分发布。\n    - 若要向我们提供有关 Teams 的反馈，或分享你对新功能的想法，请访问 [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)。\n3.  获取最新信息：\n    - 关注 [Teams 博客](https://aka.ms/teamsblog)。\n    - 阅读 [Teams 路线图](https://aka.ms/O365Roadmap)。\n    - 在[发行说明](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de)中了解最新发行的功能。\n4.  浏览[更多培训和教程](/OfficeDocs-SkypeForBusiness-pr/blob/master/Teams/ITAdmin-readiness#technical-training)。"

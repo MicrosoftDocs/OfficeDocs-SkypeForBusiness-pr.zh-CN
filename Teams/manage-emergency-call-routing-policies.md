@@ -15,24 +15,24 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何使用和管理紧急语音路由策略Microsoft Teams设置紧急号码并指定紧急呼叫的路由方式。
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
-ms.openlocfilehash: d3266008f5e2c62ead297288a55caf1bbf8b473b
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 5f6d3f45c2a3a97980bec3eb17ee1f6b35952fe5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234507"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619438"
 ---
 # <a name="manage-emergency-voice-routing-policies-for-direct-routing"></a>管理直接路由的紧急语音路由策略
 
-如果已在你的组织中电话系统直接[](direct-routing-landing-page.md)路由，可以使用 Microsoft Teams 中的紧急语音路由策略来设置紧急号码并指定紧急呼叫的路由方式。 紧急语音路由策略确定是否为分配了该策略的用户启用增强型紧急服务、用于呼叫紧急服务 (例如，美国) 的 911 号码，以及如何路由对紧急服务的呼叫。
+如果已在你的组织中部署了[电话系统](direct-routing-landing-page.md)直接路由，可以使用 Microsoft Teams 中的紧急语音路由策略来设置紧急号码并指定紧急呼叫的路由方式。 紧急语音路由策略确定是否为分配了该策略的用户启用增强型紧急服务、用于呼叫紧急服务 (例如，美国) 的 911 号码，以及如何路由对紧急服务的呼叫。
 
-可以管理紧急语音路由策略，方法为：在 Microsoft Teams 管理中心中，或者使用语音  >  Windows PowerShell。 可以将策略分配给用户和网络 [站点](cloud-voice-network-settings.md)。
+可以管理紧急语音路由策略，方法为：在 Microsoft Teams 管理中心中通过语音紧急  >  Windows PowerShell。 可以将策略分配给用户和网络 [站点](cloud-voice-network-settings.md)。
 
 对于用户，可以使用全局策略 (组织范围内的默认) 策略，或者创建和分配自定义策略。 除非创建并分配自定义策略，否则用户将自动获取全局策略。 请记住，可以在全局策略中编辑设置，但不能重命名或删除设置。 对于网络站点，请创建并分配自定义策略。
 
@@ -49,7 +49,7 @@ ms.locfileid: "58234507"
 5. 定义一个或多个紧急号码。 为此，请在"紧急 **号码"下** 单击" **添加**"，然后执行以下操作：
     1. **紧急拨号字符串**：输入紧急拨号字符串。 此拨号字符串指示呼叫是紧急呼叫。
         > [!NOTE]
-        > 对于直接路由，我们正在从发送紧急Teams呼叫的客户端过渡，紧急拨号字符串前面有"+"。 在转换完成之前，与紧急拨号字符串匹配的语音路由模式应确保匹配具有和没有前面"+"的字符串，例如 911 和 +911。 例如 \\ ^+？911 或 .*。
+        > 对于直接路由，我们将从发送紧急Teams呼叫的客户端过渡，紧急拨号字符串前面有一个"+"。 在转换完成之前，与紧急拨号字符串匹配的语音路由模式应确保匹配具有和没有前面"+"的字符串，例如 911 和 +911。 例如 \\ ^+？911 或 .*。
     2. **紧急拨号掩码**：对于每个紧急号码，可以指定零个或多个紧急拨号掩码。 拨号掩码是您想要转换为紧急拨号字符串的值的号码。 这允许拨打备用紧急号码，同时仍可让呼叫进入紧急服务。 <br>例如，添加 112 作为紧急拨号掩码，即欧洲大多数国家/地区紧急服务号码，911 作为紧急拨号字符串。 正在Teams欧洲的用户可能不知道 911 是美国的紧急号码，当他们拨打 112 时，呼叫将拨打 911。 若要定义多个拨号掩码，请用分号分隔每个值。 例如，112;212。
     3. **PSTN 使用记录**：选择 PSTN 公用电话交换 (PSTN) 使用记录。 PSTN 使用记录用于确定使用哪种路由来路由有权使用紧急呼叫的用户的紧急呼叫。 与此用法关联的路由应指向专用于紧急呼叫的会话启动协议 (SIP) 中继或紧急位置标识号 (ELIN) 网关，该网关将紧急呼叫路由到最近的公共安全应答点 (PSAP) 。
 

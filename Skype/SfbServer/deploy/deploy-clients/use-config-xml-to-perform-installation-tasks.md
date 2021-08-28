@@ -1,5 +1,5 @@
 ---
-title: 使用 Config.xml 在客户端中执行Skype for Business任务
+title: 使用Config.xml在客户端中执行Skype for Business任务
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -9,17 +9,17 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0813184a-ab40-417c-b3a3-c2090766b831
 description: 摘要：如何使用 Config.xml文件指定其他安装说明。
-ms.openlocfilehash: b7c04a9c08f6a5dd51c21a189ce3a07d81a589cf694e5020a75cf6f646bd1cef
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f79dcc1d31fdd862ca8705552d7894dcdd90fcd7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332044"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620488"
 ---
-# <a name="use-configxml-to-perform-installation-tasks-in-skype-for-business-clients"></a>使用 Config.xml 在客户端中执行Skype for Business任务
+# <a name="use-configxml-to-perform-installation-tasks-in-skype-for-business-clients"></a>使用Config.xml在客户端中执行Skype for Business任务
 
 **摘要：** 如何使用 Config.xml 文件指定其他安装说明。
 
@@ -39,7 +39,7 @@ ms.locfileid: "54332044"
 
 建议您使用 Config.xml 文件配置无Skype for Business安装。 
 
-默认情况下，Config.xml核心产品文件夹中存储的文件 (例如\ _product_。WW) 指示安装程序安装该产品。 例如，以下Config.xml中的文件将安装Skype for Business：
+默认情况下，Config.xml核心产品文件夹中存储的 (文件，例如 \ _product_。WW) 指示安装程序安装该产品。 例如，以下Config.xml中的文件将安装Skype for Business：
 
 - \\server\share\Skype15\Skype。WW \Config.xml
 
@@ -54,10 +54,10 @@ ms.locfileid: "54332044"
 | OptionState  <br/>       | 指定在安装期间如何处理特定产品功能。 使用以下属性阻止安装 业务连接 Services，其中包括干扰 Outlook： <br/>  Id="LOBiMain" <br/>  State="Absent" <br/>  Children="Force" <br/> |
 | 显示  <br/>           | 安装程序向用户显示的 UI 级别。典型属性包括： <br/>  CompletionNotice="Yes"                                                                                                                                                                                |
 | 日志记录  <br/>           | 安装程序执行的日志记录类型的选项。典型属性包括： <br/>  Type ="Off"                                                                                                                                                                                       |
-| 设置  <br/>           | 指定 Windows Installer 属性的值。典型属性包括：<br/>  Setting Id=" *name*" (Windows Installer 属性的名称)   <br/>  Value=" *value*" (要分配给属性属性的值)   <br/>                                                             |
+| 设置  <br/>           | 指定 Windows Installer 属性的值。典型属性包括：<br/>  Setting Id=" *name*" (Windows Installer 属性)   <br/>  Value=" *value*" (要分配给属性属性的值)   <br/>                                                             |
 | DistributionPoint  <br/> | 从该位置运行安装的网络安装点的完全限定路径。包括 Location 属性：<br/>  Location=" *path*"  <br/>                                                                                                                                     |
 
-以下示例显示了一个Config.xml客户端的典型无提示安装Skype for Business文件。 
+下面的示例演示一个Config.xml客户端的典型无提示安装Skype for Business文件。 
 
 ```xml
 <Configuration Product="Lync"> 
@@ -69,7 +69,7 @@ ms.locfileid: "54332044"
 </Configuration>
 ```
 
-有关使用 Config.xml 文件执行Office安装和维护任务的详细信息，请参阅 [https://go.microsoft.com/fwlink/p/?linkid=267514](/previous-versions/office/office-2013-resource-kit/cc179195(v=office.15)) 。
+有关使用 Config.xml 文件执行Office和维护任务的详细信息，请参阅 [https://go.microsoft.com/fwlink/p/?linkid=267514](/previous-versions/office/office-2013-resource-kit/cc179195(v=office.15)) 。
 
 ## <a name="to-customize-the-configxml-file"></a>自定义 Config.xml 文件
 

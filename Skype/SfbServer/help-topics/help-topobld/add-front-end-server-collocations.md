@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddFrontEndCollocationsPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 23e3bda7-a8bf-4da4-88e5-098ae2aa268f
 description: 对于 Enterprise Edition 部署，A/V 会议服务并置在前端池上。还可以在前端池上并置中介服务器，或者可以将其部署为独立服务器。如果启用了会议，则始终并置 A/V 会议服务。
-ms.openlocfilehash: 496264b412e9caabb99cc8249d6933be72bcd10364eaed752b9e1921140d2868
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: de07dfcb547031c7edb512e6ffccfa791e5adc86
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321724"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619908"
 ---
 # <a name="add-front-end-server-collocations"></a>添加前端服务器并置
 

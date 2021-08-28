@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - PowerShell
 description: 排查创建远程 PowerShell 会话以连接到 Skype for Business Online 的问题，包括 Import-Module、并发 shell、Live ID 和权限错误。
-ms.openlocfilehash: 9635d2a4ff8ecf17fd9d1bb4717fad98a9795292
-ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
+ms.openlocfilehash: 9157c556eaa2952adf2b67a514eebfb1a9d3abff
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58407191"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617088"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>诊断与 Skype for Business Online 连接器的连接问题
 
@@ -54,7 +54,7 @@ ms.locfileid: "58407191"
     
 
 > [!IMPORTANT]
-> 默认情况下，PowerShell 会话在 60 分钟后会退出。 若要重新连接，必须关闭会话并启动新的 PowerShell 会话。 新版 Skype for Business Windows PowerShell Online 模块 [ (2046.123 - 已发布 10/2/2019) ，](https://www.microsoft.com/download/details.aspx?id=39366)其中包括名为 **Enable-CsOnlineSessionForReconnection** 的新 cmdlet，可缓解 60 分钟时问题。
+> 默认情况下，PowerShell 会话在 60 分钟后会退出。 若要重新连接，必须关闭会话并启动新的 PowerShell 会话。 新版 Skype for Business Windows PowerShell Online 模块 [ (模块 (2046.123 - 已发布 10/2/2019) ，](https://www.microsoft.com/download/details.aspx?id=39366)其中包括名为 **Enable-CsOnlineSessionForReconnection** 的新 cmdlet，可缓解 60 分钟的时出问题。
 > PowerShell 会话重新连接并进行身份验证，从而可以重新使用，而无需启动新实例重新连接。
 
 
@@ -77,7 +77,7 @@ PowerShell 执行策略可帮助确定哪些配置文件可以加载到 PowerShe
 
 Skype for Business Online 连接器模块只能在 Windows PowerShell 3.0 下运行。 如果尝试在早期版本的 PowerShell 下导入模块，导入过程会失败，并出现类似于此消息的错误消息：
   
-  - **错误***：Import-Module：加载的 PowerShell 的版本为"2.0"。模块"D： 程序文件通用文件 \\ \\ Microsoft Lync Server \\ 2013 \\ 模块 \\ LyncOnlineConnectorLyncOnlineConnector.psd1"要求执行最低 \\ PowerShell 版本"3.0"。请验证 PowerShell 的安装，然后重试。*
+  - **错误***：Import-Module：加载的 PowerShell 的版本为"2.0"。模块"D： \\ Program Files \\ Common Files Microsoft Lync \\ Server 2013 \\ Modules \\ LyncOnlineConnector \\LyncOnlineConnector.psd1"要求执行最低 PowerShell 版本"3.0"。请验证 PowerShell 的安装，然后重试。*
 
 - **解决方法**：解决此问题的唯一方法就是安装 3.0 Windows PowerShell 3.0，可从 中的 Microsoft 下载中心获得 [https://www.microsoft.com/download/details.aspx?id=34595](https://www.microsoft.com/download/details.aspx?id=34595) 。
   

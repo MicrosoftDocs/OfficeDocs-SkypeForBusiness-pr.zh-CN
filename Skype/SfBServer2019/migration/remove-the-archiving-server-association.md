@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 若要删除存档服务器，您需要更改或清除关联前端池、前端服务器、Survivable Branch Appliance 和 Survivable Branch Server 的依赖项。 编辑前端池、前端服务器、Survivable Branch Appliance 和 Survivable Branch Server 的属性以删除依赖项。 在清除依赖关系并删除拓扑生成器中的服务器后，将会收到通知，拓扑生成器中的关联数据库存储对象也将被删除。
-ms.openlocfilehash: 6265642a45b891180e53d3b00d39a9053b663a434aaa1a4a26e92b619dfba257
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 489eeb276b495598ec2f11fc9b4502935beedf30
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340328"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617068"
 ---
 # <a name="remove-the-archiving-server-association"></a>删除存档服务器关联
 
@@ -28,7 +28,7 @@ ms.locfileid: "54340328"
     
 2. 导航到旧安装节点。
     
-3. 在拓扑生成器中，Enterprise Edition前端 **池**、Standard Edition **前端服务器** 或分支站点，具体取决于存档服务器的定义位置。 
+3. 在拓扑生成器中，Enterprise Edition前端池、Standard Edition **前端服务器** 或分支站点，具体取决于存档服务器的定义位置。 
     
 4. 如果关联了 Survivable Branch Server，请展开"分支站点"，展开"分支站点名称"，然后展开 **"Survivable Branch 设备"。**
     

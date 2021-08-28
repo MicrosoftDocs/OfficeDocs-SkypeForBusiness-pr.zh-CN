@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d8211c64-0b63-4193-a074-673da7d14287
 description: 摘要：为用户阶段 AV 和 OAuth Skype for Business Server。
-ms.openlocfilehash: 61b37b7e4edc41c73d27a85432f1328215ca84e58d4906c0a825071f5f6669ef
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 82dd1e88330bec6af7a9832fbb23429fbe457d04
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286841"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619838"
 ---
 # <a name="assign-a-per-user-pin-policy-in-skype-for-business-server"></a>在策略中分配每用户 PIN Skype for Business Server
 
@@ -67,7 +67,7 @@ ms.locfileid: "54286841"
 7. 在“分配策略”中的“PIN 策略”下，执行下列操作之一：
     
     > [!NOTE]
-    > 由于可以使用"分配策略"对话框配置多个策略，因此默认情况下会为对话框内每个策略选择 **\<Keep as is\>** 策略。 如果不对此设置进行任何更改，则将继续使用先前分配给用户的策略。
+    > 由于可以使用"分配策略"对话框配置多个策略，因此默认情况下会为对话框内每个策略 **\<Keep as is\>** 选择策略。 如果不对此设置进行任何更改，则将继续使用先前分配给用户的策略。
   
    - 允许Skype for Business Server自动选择全局级别的策略或站点级别策略（如果已定义）。
     
@@ -80,7 +80,7 @@ ms.locfileid: "54286841"
     
 ## <a name="assigning-a-per-user-pin-policy-by-using-windows-powershell-cmdlets"></a>使用 cmdlet Per-User分配Windows PowerShell PIN 策略
 
-可以使用 Windows PowerShell **和 Grant-CsPinPolicy** cmdlet 分配每用户 PIN 策略。 还可从 Skype for Business Server Management Shell 或 Windows PowerShell 远程会话运行此 cmdlet。 有关使用远程 Windows PowerShell连接到 Skype for Business Server 的详细信息，请参阅博客文章"快速入门：使用远程[PowerShell 管理 Microsoft Lync Server 2010"。](https://go.microsoft.com/fwlink/p/?linkId=255876) 此过程在Skype for Business Server。
+可以使用 Windows PowerShell **和 Grant-CsPinPolicy** cmdlet 分配每用户 PIN 策略。 还可从 Skype for Business Server Management Shell 或 Windows PowerShell 远程会话运行此 cmdlet。 有关使用远程 Windows PowerShell连接到 Skype for Business Server 的详细信息，请参阅博客文章"快速入门：使用远程[PowerShell 管理 Microsoft Lync Server 2010"。](https://go.microsoft.com/fwlink/p/?linkId=255876) 此过程在 Skype for Business Server 中Skype for Business Server。
   
 ### <a name="to-assign-a-per-user-pin-policy-to-a-single-user"></a>为单个用户分配每用户 PIN 策略
 

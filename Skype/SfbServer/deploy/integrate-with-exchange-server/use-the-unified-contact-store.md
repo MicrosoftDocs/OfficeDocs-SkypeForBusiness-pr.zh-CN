@@ -10,33 +10,33 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 6aa17ae3-764e-4986-a900-85a3cdb8c1fc
 description: 摘要：为联系人和联系人配置统一Exchange Server Skype for Business Server。
-ms.openlocfilehash: 78953049394391517d229205e711e670701d9f857458673646e4022a178d3843
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d3e83f052f866e0d87d27c94fad8c2a7f46f4db0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295709"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620098"
 ---
 # <a name="configure-skype-for-business-server-to-use-the-unified-contact-store"></a>配置Skype for Business Server统一联系人存储
  
-**摘要：** 为 2016 或 Exchange Server 2013 Exchange Server配置统一的联系人Skype for Business Server。
+**摘要：** 为 2016 或 Exchange Server 2013 Exchange Server配置统一联系人Skype for Business Server。
   
-通过使用统一的联系人存储，用户可以维护一个联系人列表，然后将这些联系人用于多个应用程序，包括 Skype for Business、Microsoft Outlook 2013 和 Microsoft Outlook Web App 2013。 为用户启用统一联系人存储时，该用户的联系人不会存储在 Skype for Business Server并根据需要进行检索。 相反，其联系人存储在 Exchange Server 2016 或 Exchange Server 2013 中，并且使用 Exchange Web 服务进行检索。
+通过使用统一的联系人存储，用户可以维护一个联系人列表，然后使这些联系人可用于多个应用程序，包括 Skype for Business、Microsoft Outlook 2013 和 Microsoft Outlook Web App 2013。 为用户启用统一联系人存储时，该用户的联系人不会存储在 Skype for Business Server并根据需要进行检索。 相反，其联系人存储在 Exchange Server 2016 或 Exchange Server 2013 中，并且使用 Exchange Web 服务进行检索。
   
 > [!NOTE]
-> 从技术上说，联系人信息存储在用户邮箱的一对Exchange中。 联系人本身存储在名为"联系人Skype for Business最终用户可见的文件夹中;有关联系人的元数据存储在最终用户不可见的子文件夹内。 
+> 从技术上说，联系人信息存储在用户的邮箱邮箱中的一对Exchange中。 联系人本身存储在名为"联系人Skype for Business最终用户可见的文件夹中;有关联系人的元数据存储在最终用户不可见的子文件夹内。 
   
 ## <a name="enabling-the-unified-contact-store-for-a-user"></a>为用户启用统一的联系人存储库
 
 如果已配置 Skype for Business Server 和 Exchange Server 之间的服务器到服务器身份验证，则还启用了统一联系人存储;无需其他服务器配置。 但是，若要将用户的联系人移至统一的联系人存储库，则需要其他用户帐户配置。 默认情况下，用户联系人保存在统一Skype for Business Server，而不是保存在统一的联系人存储中。
   
-通过使用统一联系人存储的用户服务策略Skype for Business Server统一联系人存储。 用户服务器策略只具有一个属性 (UcsAllowed)；此属性用于确定存储用户联系人的位置。 如果用户由 UcsAllowed 设置为 True 的用户服务策略进行管理 ($True) 则用户的联系人将存储在统一的联系人存储中。 如果用户由 UcsAllowed 设置为 False 的用户服务策略进行管理 ($False) 则其联系人将存储在 Skype for Business Server。
+通过使用统一联系人存储的用户服务策略Skype for Business Server统一联系人存储。 用户服务器策略只具有一个属性 (UcsAllowed)；此属性用于确定存储用户联系人的位置。 如果用户由 UcsAllowed 设置为 True 的用户服务策略进行管理 ($True) 则用户的联系人将存储在统一的联系人存储中。 如果用户由 UcsAllowed 设置为 False 的用户服务策略管理 ($False) 则其联系人将存储在 Skype for Business Server。
   
-安装 Skype for Business Server时， (全局范围配置的单用户服务策略) 安装。 此策略中的 UcsAllowed 值设置为 True，这意味着默认情况下，用户联系人将存储在统一联系人存储中 (假定已部署和配置) 。 如果要将所有的用户联系人迁移到统一的联系人存储，则完全不需要执行任何操作。 
+在安装Skype for Business Server时，在全局 (配置的单用户服务策略策略) 安装。 此策略中的 UcsAllowed 值设置为 True，这意味着默认情况下，用户联系人将存储在统一联系人存储中 (假定已部署和配置) 。 如果要将所有的用户联系人迁移到统一的联系人存储，则完全不需要执行任何操作。 
   
 如果您不希望将所有联系人迁移到统一的联系人存储，可以通过将全局策略中的 UcsAllowed 属性设置为 False 来禁用所有用户的统一联系人存储：
   
@@ -44,7 +44,7 @@ ms.locfileid: "54295709"
 Set-CsUserServicesPolicy -Identity global -UcsAllowed $False
 ```
 
-在全局策略中禁用统一联系人存储后，可以创建允许使用统一联系人存储的按用户策略;这样，一些用户可以将联系人保存在统一的联系人存储中，而其他用户可以继续将联系人保存在统一Skype for Business Server。 可通过使用与以下内容类似的命令来创建每用户用户服务策略：
+在全局策略中禁用统一联系人存储后，可以创建允许使用统一联系人存储的按用户策略;这样，一些用户可以将联系人保存在统一的联系人存储中，而其他用户则继续将联系人保存在统一Skype for Business Server。 可通过使用与以下内容类似的命令来创建每用户用户服务策略：
   
 ```powershell
 New-CsUserServicesPolicy -Identity "AllowUnifiedContactStore" -UcsAllowed $True
@@ -56,7 +56,7 @@ New-CsUserServicesPolicy -Identity "AllowUnifiedContactStore" -UcsAllowed $True
 Grant-CsUserServicesPolicy -Identity "Ken Myer" -PolicyName "AllowUnifiedContactStore"
 ```
 
-分配策略后，Skype for Business Server开始将用户的联系人迁移到统一的联系人存储。 迁移完成后，用户将联系人存储在 Exchange 中，而不是Skype for Business Server。 如果用户在迁移完成时登录到 Lync 2013，将出现一个消息框，并要求其注销 Skype for Business 然后重新登录以完成此过程。 尚未分配此每用户策略的用户不会将其联系人迁移到统一的联系人存储。 这是因为这些用户由全局策略管理，并且已在全局策略中禁用对统一联系人存储的使用。
+分配策略后，Skype for Business Server开始将用户的联系人迁移到统一的联系人存储。 迁移完成后，用户将联系人存储在 Exchange 中，而不是Skype for Business Server。 如果用户在迁移完成时登录到 Lync 2013，将显示一个消息框，并要求其注销 Skype for Business 然后重新登录以完成此过程。 尚未分配此每用户策略的用户不会将其联系人迁移到统一的联系人存储。 这是因为这些用户由全局策略管理，并且已在全局策略中禁用对统一联系人存储的使用。
   
 通过从命令行管理程序内运行[Test-CsUnifiedContactStore](/powershell/module/skype/test-csunifiedcontactstore?view=skype-ps) cmdlet，可以验证用户的联系人已成功迁移到统一Skype for Business Server存储：
   
@@ -64,11 +64,11 @@ Grant-CsUserServicesPolicy -Identity "Ken Myer" -PolicyName "AllowUnifiedContact
 Test-CsUnifiedContactStore -UserSipAddress "sip:kenmyer@litwareinc.com" -TargetFqdn "atl-cs-001.litwareinc.com"
 ```
 
-如果Test-CsUnifiedContactStore，则意味着用户 sip：kenmyer@ <span></span> litwareinc .com 的联系人已迁移到 <span></span> 统一的联系人存储。
+如果Test-CsUnifiedContactStore，则意味着用户 sip：kenmyer@ <span></span> litwareinc .com 的联系人已迁移到统一 <span></span> 的联系人存储。
   
 ## <a name="rolling-back-the-unified-contact-store"></a>回滚统一的联系人存储库
 
-如果需要从统一联系人存储 (中删除用户的联系人，例如，如果用户需要在 Microsoft Lync Server 2010 上重新进行管理，因而无法再使用统一联系人存储) 则必须执行两项操作。 首先，您必须为用户分配一个新的用户服务策略，此策略禁止将联系人存储在统一的联系人存储库中。  (即 UcsAllowed 属性已设置为 $False.) 如果没有此类策略，可以使用以下类似命令创建一个策略：
+如果需要从统一联系人存储 (中删除用户的联系人，例如，如果用户需要在 Microsoft Lync Server 2010 上重新进行呼叫，因而无法再使用统一联系人存储) 则必须执行两项操作。 首先，您必须为用户分配一个新的用户服务策略，此策略禁止将联系人存储在统一的联系人存储库中。  (，即 UcsAllowed 属性已设置为 $False.) 如果没有此类策略，可以使用以下类似命令创建一个策略：
   
 ```powershell
 New-CsUserServicesPolicy -Identity NoUnifiedContactStore -UcsAllowed $False
@@ -95,4 +95,4 @@ Invoke-CsUcsRollback -Identity "Ken Myer"
 
 如果更改用户服务策略但不运行 Invoke-CsUcsRollback cmdlet，则不会从统一的联系人存储库中删除 Ken 的联系人。 如果运行 Invoke-CsUcsRollback 但不更改 Ken Myer 的用户服务策略，会出现什么情况？ 在此情况下，会暂时从统一的联系人存储库中删除 Ken 的联系人。 请务必记住此删除是暂时性的这一事实。 从统一的联系人存储中删除 Ken 的联系人后，Skype for Business Server等待 7 天，然后查看向 Ken 分配了哪个用户服务策略。 如果仍为 Ken 分配了允许使用统一的联系人存储库的策略，则其联系人将被自动移回联系人存储库中。 若要从统一的联系人存储库中永久性删除联系人，您必须更改用户服务策略并运行 Invoke-CsUcsRollback cmdlet。
   
-由于大量的变量会影响迁移，因此很难估计帐户完全迁移到统一联系人存储之前需要多久。 但是，作为一般规则，迁移不会立即生效：即使迁移少量联系人，移动完成也可能需要 10 分钟或更大时间。
+由于会影响迁移的变量很多，因此很难估计帐户完全迁移到统一联系人存储之前需要多久。 但是，一般而言，迁移不会立即生效：即使迁移少量联系人，移动完成也可能需要 10 分钟或更大时间。

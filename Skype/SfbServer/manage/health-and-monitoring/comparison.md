@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c1d0b5a8-98ff-455a-b78b-a05a21cf066d
 description: 摘要：了解 Skype for Business Server 中的媒体质量比较报告。
-ms.openlocfilehash: 4ce020e923d66d5d5ee3b8757f3259e35c65ecbb306cbce238d68e8c05351039
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9d8c39cd2c416917b8e0cc4dd7d7d911f21ec70c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345629"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619808"
 ---
 # <a name="media-quality-comparison-report-in-skype-for-business-server"></a>Skype for Business Server 中的媒体质量比较报告
  

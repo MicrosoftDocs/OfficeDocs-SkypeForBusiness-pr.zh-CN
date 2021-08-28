@@ -12,19 +12,19 @@ ms.collection:
 - m365initiative-meetings
 ms.reviewer: nakulm
 search.appverid: MET150
-localization_priority: Priority
+ms.localizationpriority: high
 f1.keywords:
 - NOCSH
 description: 在 Teams 中部署云语音功能的实用指南，用于记录 Teams 会议和组内通话，以捕获音频、视频和屏幕共享活动。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 45eb669dd83f2c66d556da82043e076b84ae370e
-ms.sourcegitcommit: dcba13777a03780e5dfb3938d9cf6b1d861a2fff
+ms.openlocfilehash: 4024ca2b061f6fb2db463b2eebf5951da2f19304
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "58531012"
+ms.locfileid: "58620698"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 云会议录制
 
@@ -240,7 +240,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 会议录制内容可能由于以下原因存储在此临时存储中：
 
-- 对于非频道会议，如果用户录制内容未设置OneDrive for Business，或 OneDrive for Business 已达到其存储配额
+- 对于非频道会议，如果用户录制内容未设置 OneDrive for Business 或 OneDrive for Business 已达到其存储配额
 - 对于频道会议，如果 SharePoint Online 网站已达到其存储配额，或网站尚未预配
 - 如果启用了特定的 OneDrive for Business 和 SharePoint Online 策略，则限制用户在不在特定 IP 范围内时上传文件，等等。
 
@@ -291,7 +291,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
   
 我们认为，通过删除 60 天后可能永远不会重新播放的录制内容，几乎所有客户都从租户的存储负载降低中获益。 我们的目标是在默认情况下为所有客户提供尽可能无干扰的体验。 
   
-**即使已访问或下载数据，30 天后其仍将自动删除?**
+**即使访问或下载了数据，也会自动删除数据吗？**
   
 访问文件不会更改过期日期。 
   

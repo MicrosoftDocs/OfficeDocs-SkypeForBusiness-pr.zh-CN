@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c7413954-2504-47f4-a073-44548aff1c0c
 description: 摘要：为用户分配服务器到服务器身份验证Skype for Business Server。
-ms.openlocfilehash: b3d662dc3d0e18f0aefd1d8e643e09554fc39d652d31ac0bf8ed5540a5e34d8f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 67e9b618e882a257047a4569e790d96c73bf386b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338146"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621078"
 ---
 # <a name="assign-a-server-to-server-authentication-certificate-to-skype-for-business-server"></a>将服务器到服务器身份验证证书分配给Skype for Business Server
 **摘要：** 为用户分配服务器到服务器身份验证Skype for Business Server。
@@ -46,7 +46,7 @@ $x = (Get-CsCertificate -Type Default).Thumbprint
 Set-CsCertificate -Identity global -Type OAuthTokenIssuer -Thumbprint $x
 ```
 
-在上述命令中，所检索的证书配置为用作全局服务器到服务器身份验证证书；这意味着该证书将被复制到所有前端服务器并被这些服务器使用。 再强调一次，此命令只应在其中一台前端服务器上运行一次。 尽管所有前端服务器都必须使用相同证书，但您不应在每台前端服务器上都配置 OAuthTokenIssuer 证书。 相反，配置证书一次，然后让Skype for Business Server复制服务器负责将证书复制到每个服务器。
+在上述命令中，所检索的证书配置为用作全局服务器到服务器身份验证证书；这意味着该证书将被复制到所有前端服务器并被这些服务器使用。 再强调一次，此命令只应在其中一台前端服务器上运行一次。 尽管所有前端服务器都必须使用相同证书，但您不应在每台前端服务器上都配置 OAuthTokenIssuer 证书。 相反，配置证书一次，然后让Skype for Business Server复制服务器负责将证书复制到每台服务器。
   
 该Set-CsCertificate cmdlet 获取该证书并立即配置该证书以用作当前的 OAuthTokenIssuer 证书。  (Skype for Business Server保留证书类型的两个副本：当前证书和上一个证书。) 如果需要新证书立即开始用作 OAuthTokenIssuer 证书，则应该使用 Set-CsCertificate cmdlet。
   
@@ -66,7 +66,7 @@ Set-CsCertificate -Identity global -Type OAuthTokenIssuer -Thumbprint $x -Effect
   
 将证书导入到所有前端服务器后，可以使用部署向导而不是 Skype for Business Server 分配该证书Windows PowerShell。 要使用部署向导分配证书，请在安装了部署向导的计算机上完成以下步骤：
   
-1. 单击"开始"，单击"所有程序"，Skype for Business Server"，然后单击"Skype for Business Server **向导"。**
+1. 单击"开始"，单击"所有程序"，Skype for Business Server"，然后单击"Skype for Business Server **部署向导"。**
     
 2. 在部署向导中，单击 **"安装或更新Skype for Business Server系统"。**
     

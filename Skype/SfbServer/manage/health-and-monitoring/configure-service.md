@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c2b8aadb-cffb-49f0-ba7a-e8541a1ff475
 description: 摘要：了解 Skype for Business Server 中的 Mobility Service。
-ms.openlocfilehash: 3029877aa6f252ada9bbb38bca0148b8a96908ad5cf4deded7cf48e6451ec833
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: da2685faae6bf44fee212132dba6a0f7e0fe2e76
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298132"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621028"
 ---
 # <a name="configure-mobility-service-for-high-performance-in-skype-for-business-server"></a>配置 Mobility Service 以在 Skype for Business Server
  
@@ -26,7 +26,7 @@ ms.locfileid: "54298132"
 > [!IMPORTANT]
 > 本主题仅适用于 Skype for Business Server Mobility Service (Mcx) ，不适用于 2013 年 2 月 Lync Server 2013 累积更新中提供的统一通信 Web API (UCWA) 。 
   
-在 Internet Information Services (IIS (7.5) 安装 Mobility Service) 时，Mobility Service 安装程序会配置前端服务器上一些性能设置。 建议您使用 IIS 7.5 以实现移动功能。 这些设置会影响 Mobility Service 允许的最大并发用户请求数和最大线程数。
+在 Internet Information Services (IIS) 7.5 上安装 Mobility Service (Mcx) 时，Mobility Service 安装程序会配置前端服务器上一些性能设置。 建议您使用 IIS 7.5 以实现移动功能。 这些设置会影响 Mobility Service 允许的最大并发用户请求数和最大线程数。
   
 以下是性能设置：
   
@@ -36,7 +36,7 @@ ms.locfileid: "54298132"
     
 2. **maxConcurrentRequestsPerCPU** 设置为零 (0) 。
     
-3. ASP.NET 仅针对 IIS 7.5 (自动配置进程) 。
+3. ASP.NET IIS 7.5 (设置为"自动配置") 。
     
 4. HTTP.sys默认将队列限制设置为 1，000 (1，000) 。
     

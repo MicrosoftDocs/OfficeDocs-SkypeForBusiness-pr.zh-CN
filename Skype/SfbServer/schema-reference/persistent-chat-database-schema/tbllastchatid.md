@@ -10,21 +10,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 17a4ffbe-cca9-4ec5-ae46-38a15274889a
 description: LastChatId 包含上次为每个用户生成的并且在 tblChat 表中使用的聊天 ID。
-ms.openlocfilehash: ecd707a8e6c9dbec220f137c69042c22ac6e1d8a4e46a46e4c2d8a6f035c8a0d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 18fe97268f277de11740b2181235a5088807c49f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322934"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620858"
 ---
 # <a name="tbllastchatid"></a>tblLastChatId
  
 LastChatId 包含上次为每个用户生成的并且在 tblChat 表中使用的聊天 ID。
   
-**Columns**
+**列**
 
 |**列**|**类型**|**说明**|
 |:-----|:-----|:-----|

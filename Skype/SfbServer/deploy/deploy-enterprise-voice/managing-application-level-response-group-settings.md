@@ -9,23 +9,23 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: aab749a1-fa2d-4ce8-a6c6-ebcfa37ce02a
-description: 管理应用程序级响应组设置，如保持音乐设置和回Skype for Business Server 企业语音。
-ms.openlocfilehash: a6883247f7be8816a8363c9b2790d6d0e45599484037d23af860b3e0f191dc10
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 管理应用程序级响应组设置，例如保持音乐设置和回响设置Skype for Business Server 企业语音。
+ms.openlocfilehash: 75a9216251b44048811cf1308be431c0eaeae045
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337152"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620168"
 ---
 # <a name="managing-application-level-response-group-settings-in-skype-for-business"></a>管理应用程序中的应用程序级响应组Skype for Business
  
-管理应用程序级响应组设置，如保持音乐设置和回Skype for Business Server 企业语音。
+管理应用程序级响应组设置，例如保持音乐设置和回响设置Skype for Business Server 企业语音。
   
 响应组应用程序的应用程序级别设置包括默认的保持音乐配置、默认的保持音乐音频文件、代理回响宽限期和呼叫上下文配置。 您只能针对每个池定义一组应用程序级别设置。 要查看应用程序级别设置，请使用 **Get-CsRgsConfiguration** cmdlet。 要修改应用程序级别设置，请使用 **Set-CsRgsConfiguration** cmdlet。
   

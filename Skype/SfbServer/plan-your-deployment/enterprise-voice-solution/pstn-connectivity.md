@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 6b2a3f7d-760f-4f09-8432-312c98a7e6b7
 description: 了解 sip 中继和 PSTN 网关，企业语音中Skype for Business Server。
-ms.openlocfilehash: 3ac0a2afba49da52b909bf8b4c040f1124c510ba1818e37100f0c0ebdae941c4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8aa3914eac1a716380b69971b0c576186dbfac17
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286341"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620968"
 ---
 # <a name="pstn-connectivity-components-in-skype-for-business-server"></a>PSTN 连接组件Skype for Business Server
  
@@ -29,7 +29,7 @@ ms.locfileid: "54286341"
   
 企业级 VoIP 解决方案必须以始终如一的服务质量 (QoS) 提供来往于公用电话交换网 (PSTN) 的呼叫。此外，用户在发起和接收呼叫时应不必了解底层技术。从用户的角度来看，企业语音基础结构与 PSTN 之间的呼叫应该就像是另一个 SIP 会话。
   
-对于 PSTN 连接，可以使用 PBX 部署 SIP 中继或 PSTN 网关 (（也称为直接 SIP 链接）或不带 PBX) 。
+对于 PSTN 连接，可以使用 PBX 部署 SIP 中继或 PSTN (（也称为直接 SIP 链接）或部署 PBX) 。
   
 ## <a name="sip-trunking"></a>SIP 中继
 
@@ -43,7 +43,7 @@ ms.locfileid: "54286341"
   
 ## <a name="pstn-gateways"></a>PSTN 网关
 
-PSTN 网关是在企业语音基础结构与 PSTN 或 PBX 之间转换信号和媒体的第三方设备。 PSTN 网关与中介服务器配合工作，以向企业语音客户端提交 PSTN 或 PBX 呼叫。 中介服务器还将来自企业语音客户端的呼叫提交到 PSTN 网关，以便路由到 PSTN 或 PBX。 有关与 Microsoft 合作以提供与 microsoft 合作的设备Skype for Business Server，请参阅 Microsoft 统一[通信合作伙伴网站](https://go.microsoft.com/fwlink/p/?linkId=202836)。 
+PSTN 网关是在企业语音基础结构与 PSTN 或 PBX 之间转换信号和媒体的第三方设备。 PSTN 网关与中介服务器配合工作，以向企业语音客户端提交 PSTN 或 PBX 呼叫。 中介服务器还将来自企业语音客户端的呼叫提交到 PSTN 网关，以便路由到 PSTN 或 PBX。 有关与 Microsoft 合作以提供与 Skype for Business Server 合作的设备的合作伙伴列表，请参阅 Microsoft 统一[通信合作伙伴网站](https://go.microsoft.com/fwlink/p/?linkId=202836)。 
   
 ## <a name="private-branch-exchanges"></a>专用交换机
 

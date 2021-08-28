@@ -7,7 +7,7 @@ audience: ITPro
 ms.reviewer: NMuravlyannikov
 ms.topic: conceptual
 ms.service: msteams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-voice
@@ -15,28 +15,28 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: 阅读本文，了解如何将模拟设备与 Microsoft 电话直接路由一起使用。
-ms.openlocfilehash: 275566d97d63bf4c9a4918dd590a3a2d40265d3b6d4a93c550580e1c24f287b5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 阅读本文，了解如何将模拟设备与Microsoft 电话直接路由一起使用。
+ms.openlocfilehash: 93ce20366cfb29d5719a94af0842285d299e50e7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337430"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619478"
 ---
 # <a name="how-to-use-analog-devices-with-phone-system-direct-routing"></a>如何将模拟设备与 电话系统直接路由
 
-本文介绍如何将模拟设备与 电话系统直接路由。 若要将模拟设备连接到直接路由，必须使用模拟电话适配器 (ATA) ，并且此适配器必须受经过认证的会话边界控制器 (SBC) 供应商的支持。 
+本文介绍如何将模拟设备与 电话系统直接路由。 若要将模拟设备连接到直接路由，必须使用模拟电话适配器 (ATA) ，并且此适配器必须由经过认证的会话边界控制器 (SBC) 供应商支持。 
 
-当用户从模拟设备发出呼叫时，信号和媒体通过 ATA (ATA) 流到 SBC。  SBC 根据内部路由表Microsoft Teams呼叫发送到 PSTN (公用电话交换网) 呼叫。  当设备进行调用时，它采用的路由取决于为设备创建的路由策略。
+当用户从模拟设备进行呼叫时，信号和媒体流经 ATA (ATA) SBC。  SBC 根据内部路由表Microsoft Teams呼叫发送到 PSTN (公用电话交换) 呼叫。  当设备进行调用时，它采用的路由取决于为设备创建的路由策略。
 
-下图中配置了直接路由，以便任何 Teams 对 +1425 4XX XX XX 和 +1425 5XX XX XX 之间的号码进行调用都必须使用红色路由 (点) ， 与 +1425 4XX XX XX 之间的号码和除号码范围 +1425 5XX XX XX 之外任何其他号码之间的任何 PSTN 呼叫都必须使用蓝色 (实线) 。 
+下图中配置了直接路由，以便从 +1425 4XX XX XX 和 +1425 5XX XX XX 之间的号码进行的任何 Teams 调用都必须使用红色路由 (虚线) ， 与 +1425 4XX XX XX 之间的号码和除号码范围 +1425 5XX XX XX 之外任何其他号码之间的任何 PSTN 呼叫都必须使用蓝色路线 (实线) 。 
 
 > [!div class="mx-imgBorder"]
 > ![显示直接路由配置的示意图](media/direct-routing-analog-device.png)
 
 ## <a name="example--how-to-configure-the-use-of-analog-devices-with-direct-routing"></a>示例：如何使用直接路由配置模拟设备的使用
 
-若要配置模拟设备与直接路由的使用，必须将模拟电话适配器连接到 SBC，并配置 SBC 以使用直接路由。 
+若要配置通过直接路由使用模拟设备，必须将模拟电话适配器连接到 SBC，并配置 SBC 以使用直接路由。 
 
 此示例指导完成以下步骤：
 
@@ -71,7 +71,7 @@ PS C:\> New-CsOnlinePSTNGateway -FQDN sbc.contoso.com -SIPSignalingPort 5068 -Fo
 
 ## <a name="step-2--create-the-pstn-usage"></a>步骤 2：创建 PSTN 使用情况 
 
-下一个命令将创建一个空的 PSTN 使用情况。 联机 PSTN 使用情况是用于呼叫授权的字符串值。 联机 PSTN 使用情况将联机语音策略链接到路由。 此示例将字符串"互操作"添加到可用 PSTN 使用情况的当前列表。 
+下一个命令将创建一个空的 PSTN 使用情况。 联机 PSTN 使用情况是用于呼叫授权的字符串值。 联机 PSTN 使用将联机语音策略链接到路由。 此示例将字符串"互操作"添加到可用 PSTN 使用情况的当前列表。 
 
 ```powershell
 PS C:\> Set-CsOnlinePstnUsage -Identity global -Usage @{add="Interop"} 
@@ -95,7 +95,7 @@ PS C:\> New-CsOnlineVoiceRoutingPolicy -Identity "AnalogInteropPolicy" -Name "An
 
 ## <a name="step-5-enable-the-online-user"></a>步骤 5：启用联机用户
 
-此命令使用 Identity exampleuser@contoso.com 修改用户帐户。 在这种情况下，将修改帐户以启用 企业语音，即启用语音邮件的 Microsoft 实现，并将号码 +14255000000 分配给此用户。  此命令应该针对每个用户Teams运行 (，但公司租户) ATA 设备用户除外。
+此命令使用 Identity exampleuser@contoso.com 修改用户帐户。 在这种情况下，将修改帐户以启用 企业语音（Microsoft 的 VoIP 实现，已启用语音邮件）并将号码 +14255000000 分配给此用户。  此命令应针对每个用户Teams运行 (，公司租户) ATA 设备用户除外。
 
 ```powershell
 PS C:\> Set-CsUser -Identity "exampleuser@contoso.com" -EnterpriseVoiceEnabled $True -HostedVoiceMail $True -OnPremLineUri "tel:+14255000000"
@@ -103,7 +103,7 @@ PS C:\> Set-CsUser -Identity "exampleuser@contoso.com" -EnterpriseVoiceEnabled $
 
 ## <a name="step-6-assign-the-voice-route-policy-to-a-user"></a>步骤 6：将语音路由策略分配给用户
 
-此命令将每个用户的联机语音路由策略 AnalogInteropPolicy 分配给标识为 exampleuser@contoso.com。  此命令应该针对每个用户Teams运行 (，但公司租户) ATA 设备用户除外。
+此命令将每个用户的联机语音路由策略 AnalogInteropPolicy 分配给标识为 exampleuser@contoso.com。  此命令应针对每个用户Teams运行 (，公司租户) ATA 设备用户除外。
 
 ```powershell
 PS C:\> Grant-CsOnlineVoiceRoutingPolicy -Identity "exampleuser@contoso.com" -PolicyName "AnalogInteropPolicy" 
@@ -111,7 +111,7 @@ PS C:\> Grant-CsOnlineVoiceRoutingPolicy -Identity "exampleuser@contoso.com" -Po
 
 ## <a name="step-7--create-a-voice-route-for-an-analog-device"></a>步骤 7：为模拟设备创建语音路由
 
-此命令为适用于联机网关列表的编号范围 +1425 4XX XX XX 创建标识为"模拟互操作"的联机语音路由 sbc.contoso.com 并关联它与联机 PSTN 使用情况"互操作"。  此命令应该针对具有适当电话号码模式的每个模拟设备运行。 或者，在之前的步骤之一中配置联机语音路由时，可以使用模拟设备的适当数字模式。
+此命令为适用于联机网关列表的编号范围 +1425 4XX XX XX 创建标识为"模拟互操作"的联机语音路由 sbc.contoso.com 并关联它与联机 PSTN 使用情况"互操作"。  此命令应该针对具有适当电话号码模式的每个模拟设备运行。 或者，在之前的步骤之一中配置在线语音路由时，可以使用模拟设备的适当数字模式。
 
 ```powershell
 PS C:\> New-CsOnlineVoiceRoute -Identity analog-interop -NumberPattern "^\+1(4254)(\d{6})$"  -OnlinePstnGatewayList sbc.contoso.com -Priority 1 -OnlinePstnUsages "Interop"
