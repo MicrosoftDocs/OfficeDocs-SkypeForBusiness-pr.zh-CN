@@ -10,16 +10,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 2a352f62-c5cb-4ef1-9aa9-7f0c1ab47455
 description: 有关使用 Skype for Business Server 2015 规划工具的指南。
-ms.openlocfilehash: 36dca20371ced46d9a4e75d3bd086f23127ef307e6cc8473e706d3b26580b8df
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7e532f33710da1f0a9f82f2c8169b5258dab50ec
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318855"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626564"
 ---
 # <a name="skype-for-business-server-2015-planning-tool"></a>Skype for Business Server 2015 规划工具
  
@@ -47,7 +47,7 @@ the Skype for Business Server 2015 Planning Tool is a wizard driven， interview
     
 - [可选软件](install.md#Optional_Software)
     
-- [在 2015 Skype for Business Server规划工具](navigate.md)
+- [在 Skype for Business Server 2015 中导航规划工具](navigate.md)
     
 - [为 Skype for Business Server 2015 创建初始拓扑设计](create-the-initial-design.md)
     
@@ -61,4 +61,4 @@ the Skype for Business Server 2015 Planning Tool is a wizard driven， interview
 
 [Install Skype for Business Server 2015](../../deploy/install/install.md)
   
-[规划 Skype for Business Server 2015 中的即时消息和状态](../../plan-your-deployment/instant-messaging-and-presence.md)
+[在 2015 年 10 月Skype for Business Server即时消息和状态](../../plan-your-deployment/instant-messaging-and-presence.md)

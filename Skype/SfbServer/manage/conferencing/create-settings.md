@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6d8f9ff8-2a04-4175-9bf0-1ec5d78fd015
 description: 摘要：了解如何在会议环境中创建会议Skype for Business Server。
-ms.openlocfilehash: 11871685d51a73f5f2e9dbcbaa2835060d8a7cdc59958af1785d689c3c9246ed
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ad1f4fabf172fa5ff693a91e7994916487c322e7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321685"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595564"
 ---
 # <a name="create-meeting-configuration-settings-in-skype-for-business-server"></a>在会议环境中创建会议Skype for Business Server
  
@@ -75,7 +75,7 @@ ms.locfileid: "54321685"
 New-CsMeetingConfiguration -Identity "site:Redmond"
 ```
 
-由于上述 (中未指定必需的 Identity) 参数，因此新的会议配置设置将在其所有属性中都使用默认值。
+由于上述 (中未指定必需的 Identity) 参数，因此新的会议配置设置将使用其所有属性的默认值。
   
 要创建使用不同属性值的设置，只需包含相应的参数和参数值。 例如，若要创建默认情况下允许所有人以演示者角色加入会议的会议配置设置集合，请使用类似如下的命令：
   

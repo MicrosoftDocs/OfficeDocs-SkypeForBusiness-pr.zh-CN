@@ -9,19 +9,19 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c830be5a-2a82-468d-9c46-d3fec0f79fd0
-description: 摘要：了解呼叫详细信息记录 (CDR) cdR Skype for Business Server。
-ms.openlocfilehash: 1a1e78fbca4ec0d011cb8cbbcade04888b0099040d15a4289d8cc846cfef825b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 摘要：了解呼叫详细信息记录 (CDR) Skype for Business Server。
+ms.openlocfilehash: e9b30eee578fd83dd0d94fbd78a490bf1b0e65de
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54346428"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626604"
 ---
 # <a name="create-or-modify-a-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>Create or modify a collection of CDR configuration settings in Skype for Business Server
  
-**摘要：** 了解呼叫详细信息记录 (CDR) cdR Skype for Business Server。
+**摘要：** 了解呼叫详细信息记录 (CDR) 中Skype for Business Server。
   
 呼叫详细信息记录 (CDR) 使您可以跟踪对等即时消息会话、Internet 语音 (VoIP) 电话呼叫和会议呼叫等的使用情况。 此使用情况数据包含有关呼叫者、被叫方、呼叫时间及通话时长的信息。
   
@@ -38,7 +38,7 @@ ms.locfileid: "54346428"
 |将错误报告数据保留最长持续时间 (天)   <br/> |KeepErrorReportForDays  <br/> |指示 CDR 错误报告保留的天数。 超过指定天数的任何报告将自动删除。 CDR 错误报告是由客户端应用程序上载的诊断报告。  <br/> |
    
 > [!NOTE]
-> New-CsCdrConfiguration cmdlet Set-CsCdrConfiguration cmdlet 包括控制面板中Skype for Business Server选项。 有关详细信息，请参阅 [New-CsCdrConfiguration](/powershell/module/skype/new-cscdrconfiguration?view=skype-ps) [和 Set-CsCdrConfiguration](/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) 帮助主题。
+> New-CsCdrConfiguration cmdlet 和 Set-CsCdrConfiguration cmdlet 包括"控制面板"中Skype for Business Server选项。 有关详细信息，请参阅 [New-CsCdrConfiguration](/powershell/module/skype/new-cscdrconfiguration?view=skype-ps) [和 Set-CsCdrConfiguration](/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) 帮助主题。
   
 ### <a name="to-create-cdr-configuration-settings-by-using-skype-for-business-server-control-panel"></a>使用控制面板创建 CDR Skype for Business Server设置
 
@@ -54,7 +54,7 @@ ms.locfileid: "54346428"
 
 1. 在"Skype for Business Server控制面板"中，单击 **"监控和存档"。**
     
-2. 双击要修改的设置集合，或选择该集合，单击"编辑 **"，然后单击**"显示 **详细信息"。** 请注意，一次只能修改一个集合。 若要对多个集合进行相同的更改，请改为Skype for Business Server命令行管理程序。
+2. 双击要修改的设置集合，或选择该集合，单击"编辑 **"，然后单击**"显示 **详细信息"。** 请注意，一次只能修改一个集合。 若要对多个集合进行相同的更改，请Skype for Business Server命令行管理程序。
     
 3. 在"**编辑呼叫详细信息记录 (CDR**) 设置"对话框中，进行所需的选择，然后单击"提交 **"。**
     

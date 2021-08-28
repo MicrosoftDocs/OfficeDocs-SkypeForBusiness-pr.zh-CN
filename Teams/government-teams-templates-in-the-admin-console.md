@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: phecda louie
 ms.collection:
 - M365-collaboration
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何通过使用管理中心提供预定义的设置、频道和预安装的应用，使用团队模板创建专为政府需求设计的团队结构。
 f1.keywords:
@@ -19,16 +19,16 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b915daab744bd764a9ac9e1d0be000357a051a2719e9e544bfff8b5a5c26e5a6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f373e2e949d4fe461ef06657e0791f4ff59f4b61
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315248"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603401"
 ---
 # <a name="use-government-team-templates-in-the-admin-center"></a>使用管理中心中的政府团队模板
 
-使用团队模板，你可以通过提供设置、频道和预安装应用的预定义模板快速轻松地创建团队。
+使用团队模板，通过提供设置、频道和预安装应用的预定义模板，可以快速轻松地创建团队。
 
 团队模板具有围绕政府需求设计的团队结构的预构建定义。 还可以扩展团队模板，创建根据特定组织需求定制的团队。
 

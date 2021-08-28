@@ -10,30 +10,30 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d760cb93-77d4-4d64-adb7-416b808f36f8
-description: 在部署和运行 Skype for Business Server，必须通过扩展架构来准备 Active Directory 域服务。 架构扩展添加应用程序所需的类和Skype for Business Server。
-ms.openlocfilehash: 486d642621869cbb23051d2957614f35aa2c67fcda1c539862b05925787f180d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 在部署和运行 Skype for Business Server，必须通过扩展架构来准备 Active Directory 域服务。 架构扩展添加用户所需的类和Skype for Business Server。
+ms.openlocfilehash: 16f71b80864fae8fc97b87eda22ad2a9594c3987
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281655"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626534"
 ---
 # <a name="schema-changes-in-skype-for-business-server"></a>架构中的架构Skype for Business Server
  
-在部署和运行 Skype for Business Server，必须通过扩展架构来准备 Active Directory 域服务。 架构扩展添加应用程序所需的类和Skype for Business Server。
+在部署和运行 Skype for Business Server，必须通过扩展架构来准备 Active Directory 域服务。 架构扩展添加用户所需的类和Skype for Business Server。
 
 > [!NOTE]
 > 如果要从 Lync Server 2013 升级到 Skype for Business Server 2015，将不会进行架构更改，因此本文不适用。
   
-Skype for Business Server需要几个新的类和属性，并修改一些现有的类和属性。 此外，与以前版本Skype for Business Server一样，许多有关管理的配置信息都存储在中央管理存储中，而不是 AD DS 中。 以下信息仍存储在 Skype for Business Server 中的 AD DS 中：
+Skype for Business Server需要几个新的类和属性，并修改一些现有的类和属性。 此外，与以前版本一样，Skype for Business Server管理存储（而不是 AD DS）中存储有关该策略的很多配置信息。 以下信息仍存储在 AD DS 中的 Skype for Business Server：
   
 - **架构扩展**：
     
   - 用户对象扩展
     
-  - 用于维护与受支持的早期版本的 Lync Server 的向后兼容性的类扩展。
+  - 用于保持与支持的以前版本的 Lync Server 的向后兼容性的类扩展。
     
 - **存储在** (扩展架构Skype for Business Server现有架构类中存储的数据) ：
     
@@ -45,7 +45,7 @@ Skype for Business Server需要几个新的类和属性，并修改一些现有�
     
   - Kerberos 身份验证帐户（可选计算机对象）
     
-本主题介绍 Active Directory 架构更改Skype for Business Server。 它不介绍早期版本的 Communications Server 引入的Office更改。 有关类及其说明的列表，请参阅架构[类和Skype for Business Server。](schema-classes-and-descriptions.md) 有关属性及其说明的列表，请参阅架构[属性和Skype for Business Server。](schema-attributes-and-descriptions.md) 有关包含其可能包含的属性的类的列表，请参阅 Schema [attributes by class in Skype for Business Server](schema-attributes-by-class.md)。
+本主题介绍 Active Directory 架构更改Skype for Business Server。 它不介绍早期版本的 Communications Server 引入的Office更改。 有关类及其说明的列表，请参阅架构类和[Skype for Business Server。](schema-classes-and-descriptions.md) 有关属性及其说明的列表，请参阅架构[属性和Skype for Business Server。](schema-attributes-and-descriptions.md) 有关包含其可能包含的属性的类的列表，请参阅 Schema [attributes by class in Skype for Business Server](schema-attributes-by-class.md)。
   
 msRTCSIP 前缀标识特定于 Skype for Business Server 的类和Skype for Business Server。
   

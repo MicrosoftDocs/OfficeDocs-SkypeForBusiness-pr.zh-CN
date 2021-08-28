@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 45a77f7e-b137-462b-9146-3a0f43d8e0c7
 description: 摘要：了解运行查询操作，这是通话质量仪表板的数据 API 的一部分。 通话质量仪表板是一种用于Skype for Business Server。
-ms.openlocfilehash: 860760303510b792cba70fc211ac8b7f9b994996b4937aa333ed54fcffb6eb75
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 814b602631b3699b2b802adaee931e4ab0a780a6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340858"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626624"
 ---
 # <a name="run-query"></a>运行查询
 
@@ -28,7 +28,7 @@ ms.locfileid: "54340858"
 
 ## <a name="run-query"></a>运行查询
 
-通过运行查询操作，可以基于指定的维度、度量和筛选器对多维数据集运行查询，并返回数据。
+运行查询操作能够基于指定的维度、度量和筛选器对多维数据集运行查询，并返回数据。
 
 
 |**方法**|**请求 URI**|**HTTP 版本**|
@@ -84,7 +84,7 @@ ms.locfileid: "54340858"
 
  **响应** - 响应包括 HTTP 状态代码和一组响应标头。
 
- **状态代码** - 成功操作返回状态代码 200 (确定) 。
+ **状态代码** - 成功操作返回状态代码 200， (确定) 。
 
  **响应标头** - 无其他标头。
 

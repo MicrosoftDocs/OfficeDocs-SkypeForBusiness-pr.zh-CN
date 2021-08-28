@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Skype for Business Server支持简单 URL。
-ms.openlocfilehash: c3d78387ae0bcf16204e2fcaa4ff7db3549334fe814a014a88c80e8ab6658d5b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8bbbb55262e353ff66adeaca194e7060e3ff7ca5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324721"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618308"
 ---
 # <a name="change-simple-urls-after-migration"></a>迁移后更改简单 URL
 
@@ -32,7 +32,7 @@ Skype for Business Server支持三个简单的 URL：
 
 ## <a name="to-update-the-meet-simple-url"></a>更新会议简单 URL
 
-1. 在拓扑生成器中，右键单击顶部节点 **Skype for Business Server，** 然后单击"编辑 **属性"。**
+1. 在拓扑生成器中，右键单击 **Skype for Business Server节点，** 然后单击"编辑 **属性"。**
     
 2. 在 **左窗格中选择"简单 URL"，** 然后在 **"会议** URL："下方选择"会议 URL"，然后单击"编辑 **URL"。**
     
@@ -40,13 +40,13 @@ Skype for Business Server支持三个简单的 URL：
     
 ## <a name="to-update-the-admin-simple-url"></a>更新管理简单 URL
 
-1. 在拓扑生成器中，右键单击顶部节点 **Skype for Business Server，** 然后单击"编辑 **属性"。**
+1. 在拓扑生成器中，右键单击 **Skype for Business Server节点，** 然后单击"编辑 **属性"。**
     
-2. 在 **左窗格中** 选择"简单 URL"，然后在"管理访问 **URL"** 框下方，输入管理访问"控制面板"Skype for Business Server URL，然后单击"确定 **"。**
+2. 在 **左窗格中选择"简单 URL"，** 然后在"管理访问 **URL"** 框下方，输入要用于管理访问 Skype for Business Server 控制面板的简单 URL，然后单击"确定 **"。**
     
    > [!TIP]
    > 建议尽可能使用最简单的 URL 作为管理 URL。 最简单的选项是 https://admin 。 <em>\<domain\></em> 
   
 ## <a name="see-also"></a>另请参阅
 
-[用户中简单 URL 的 DNS Skype for Business Server](../../SfbServer/plan-your-deployment/network-requirements/simple-urls.md)
+[简单 URL 的 DNS 要求Skype for Business Server](../../SfbServer/plan-your-deployment/network-requirements/simple-urls.md)

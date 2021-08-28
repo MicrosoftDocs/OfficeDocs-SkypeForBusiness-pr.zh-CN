@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: rafarhi
 audience: admin
 search.appverid: MET150
-localization_priority: Priority
+ms.localizationpriority: high
 f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.orgwidesettings.guestaccess.overview
@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 利用 Microsoft Teams 中的来宾访问功能，贵组织中的团队可以通过为贵组织外的人员授予访问团队和频道的权限来与其协作。
-ms.openlocfilehash: 70890cecc1b952aed743e801413c0416c214c5b77bc5dc9e89cac4da01f0cd8f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 83ad01ef738cc8e68d0cfdf41ea082493eb7c7b1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336172"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603391"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams 中的来宾访问
 

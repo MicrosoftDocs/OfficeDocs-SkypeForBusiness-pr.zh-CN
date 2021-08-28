@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.SimpleUrlSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9fd2087a-3c3a-4863-aa7f-e532a18e77af
 description: 要指定新的简单 URL、删除现有简单 URL 或更改活动的简单 URL，请执行以下操作：
-ms.openlocfilehash: 4a3d0a885c0c963cb8ebe162f39858f1d399b85d5ea158053326436110eb9b78
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 230ad40510f02f5945bd0af2902c818af996ca70
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54297398"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626674"
 ---
 # <a name="simple-url-settings-expander"></a>简单 URL 设置扩展器
 

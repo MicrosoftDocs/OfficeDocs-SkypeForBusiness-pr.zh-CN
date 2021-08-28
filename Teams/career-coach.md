@@ -9,35 +9,35 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: 了解如何为用户购买、配置和职业指导Microsoft Teams。
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 798f9ff2a63291b3f110bf6fedd085609f71585c6b31a10d8afbe2e495f5ac0a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0d1d63b827775f00aa4d6a2a53603a84b4e39edf
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310830"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595116"
 ---
 # <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a>购买、配置和启用职业指导配置Microsoft Teams
 
-职业指导是一Microsoft Teams 教育版由 LinkedIn 支持的应用，它为教育学生提供个性化指导，帮助其导航其职业之旅。 职业指导为教育机构提供统一的职业发展解决方案，学生可以发现其职业路径、培养实际技能，并全部在一个地方构建其网络。
+职业指导是一Microsoft Teams 教育版由 LinkedIn 支持的应用，它为教育学生提供个性化指导，帮助其导航其职业之旅。 职业指导为教育机构提供统一的职业发展解决方案，使学生能够发现其职业路径、培养实际技能，并全部在一个地方构建自己的网络。
 
 ## <a name="supported-languages"></a>支持的语言
 
 职业指导以下语言本地化：
 
-- 简体中文 (，中国大陆) 
-- 繁 (繁体中文，台湾) 
+- 中文 (简体中文，中国大陆) 
+- 繁体中文 (，台湾) 
 - 英语 (US)
 - 英语 (UK)
 - 加拿大 (法语) 
 - 法语 (法国) 
-- 德国 (德国) 
+- 德国 (德语) 
 - 日语 (日本) 
 - 巴西 (葡萄牙语) 
 - 西班牙语 (西班牙) 
@@ -58,7 +58,7 @@ ms.locfileid: "54310830"
 
 - Microsoft Teams
 
-- Azure Active Directory 中的 LinkedIn 帐户Azure Active Directory
+- Azure Active Directory 中的 LinkedIn 帐户连接
 
 **许可证**
 
@@ -67,7 +67,7 @@ ms.locfileid: "54310830"
 - 学生
 
 > [!NOTE]
-> 必须将职业指导许可证分配给完成配置的 IT 管理员。
+> 必须为职业指导配置 IT 管理员分配一个教职员工许可证。
 
 **来自教育机构的数据和文件**
 
@@ -79,9 +79,9 @@ ms.locfileid: "54310830"
 
 - LinkedIn Learning 学校订阅 (首选) 
 
-## <a name="purchase-the-career-coach-licenses"></a>购买 职业指导 许可证
+## <a name="purchase-the-career-coach-licenses"></a>购买职业指导许可证
 
-职业指导 通过教育版解决方案注册 (EES) 、云服务提供商 (CSP) ) 和 Microsoft 365 管理中心 (Web direct) 在全球 (（中国和俄罗斯除外）提供，适用于符合条件的教育机构作为附加许可证。 作为Microsoft Teams应用，客户必须具有 Microsoft 365 A3/A5 或 Office 365 A1/A3/A5 才能购买附加职业指导许可证。
+职业指导 通过教育版解决方案注册 (EES) 、云服务提供商 (CSP) 和 Microsoft 365 管理中心 (Web 直接) ， (除中国和俄罗斯) 外，适用于符合条件的教育机构作为附加许可证在全球提供。 作为Microsoft Teams应用，客户必须具有 Microsoft 365 A3/A5 或 Office 365 A1/A3/A5 才能购买附加职业指导许可证。
 
 ### <a name="assign-app-licenses-to-users"></a>向用户分配应用许可证
 
@@ -107,7 +107,7 @@ ms.locfileid: "54310830"
 
 了解如何将[LinkedIn 帐户连接集成到 Azure Active Directory](/azure/active-directory/enterprise-users/linkedin-integration)
 
-## <a name="configure-career-coach-in-the-teams-admin-center"></a>在 职业指导 管理中心Teams配置配置
+## <a name="configure-career-coach-in-the-teams-admin-center"></a>在 职业指导 管理Teams配置配置
 
 使用 Microsoft Teams 管理中心中的管理员设置，职业指导为教育机构配置管理员，并允许用户启用它。
 
@@ -125,12 +125,12 @@ ms.locfileid: "54310830"
 
 使用["管理应用](/microsoftteams/manage-apps)"Teams在教育机构的应用目录中查看应用。
 
-1. 登录到管理 **Teams中心**。
+1. 登录到 Teams **管理中心**。
 
-2. 在左侧导航栏中，选择  >  **Teams"管理应用"。**  
+2. 在左侧导航栏中，选择 **"Teams"**  >  **管理应用"。**  
 
     > [!NOTE]
-    > 只有全局管理员或Teams才能访问页面。
+    > 必须是全局管理员或Teams管理员才能访问页面。
 
 3. 搜索或 **浏览职业指导。**  
 
@@ -138,7 +138,7 @@ ms.locfileid: "54310830"
 
     ![显示职业指导选择的应用，其中显示了设置选项](media/career-coach-app.png)
 
-### <a name="configure-the-career-coach-app-settings"></a>配置 职业指导 应用设置
+### <a name="configure-the-career-coach-app-settings"></a>配置职业指导应用设置
 
 职业指导有五个配置类别：
 
@@ -160,13 +160,13 @@ ms.locfileid: "54310830"
 在品牌和首选项设置页面上设置教育机构的名称、徽标和默认语言。
 
 > [!NOTE]
-> 这是必填部分 - 职业指导提交品牌和首选项的情况下无法启用此功能。
+> 这是必填部分 - 职业指导提交品牌和首选项的情况下无法启用。
 
 ![管理职业指导的"品牌"部分](media/career-coach-brand.png)
 
 ##### <a name="educational-institution-icon"></a>教育机构图标
 
-在整个应用中，教育机构图标职业指导标识您的教育机构独有的内容、整个应用中的课程目录资源，以及仪表板的实际体验部分。 图标的格式最好为：
+在整个应用中使用教育机构职业指导标识您的教育机构独有的内容、整个应用中的课程目录资源，以及仪表板的实际体验部分。 图标的格式最好为：
 
 - 透明 PNG
 - 纵横比为 1：1
@@ -182,18 +182,18 @@ ms.locfileid: "54310830"
 
 #### <a name="linkedin-connection"></a>LinkedIn 连接
 
-LinkedIn 配置将职业指导来自 LinkedIn 的公共毕业生数据连接在一起。
+LinkedIn 配置将 职业指导与来自 LinkedIn 的公共毕业生数据连接。
 
 > [!NOTE]
-> 这是必填部分 - 职业指导 LinkedIn 页面连接无法启用。
+> 这是必填职业指导 - 在未验证 LinkedIn 页面连接的情况下无法启用。
 
 ##### <a name="add-and-confirm-the-linkedin-page"></a>添加并确认 LinkedIn 页面
 
-确定教育机构的 LinkedIn 页面。 通过搜索 LinkedIn 或与职业服务职员联系来确定使用的正确页面，查找 LinkedIn 页面。  
+确定教育机构的 LinkedIn 页面。 通过搜索 LinkedIn 或联系职业服务职员来确定使用的正确页面，查找 LinkedIn 页面。  
   
-1. 登录到管理 **Teams中心**。
+1. 登录到 Teams **管理中心**。
 
-1. 选择 **Teams"**  >  **管理应用职业指导**  >    >  **LinkedIn 连接"。**
+1. 选择 **Teams"**  >  **管理应用"职业指导**  >    >  **LinkedIn 连接"。**
 
 2. 通过搜索 LinkedIn 并选择"学校筛选器"来查找 LinkedIn 页面。 或者与职业服务员工联系，以确定要使用正确的 LinkedIn 学校页面。 [如何识别 LinkedIn 页面](https://www.linkedin.com/help/linkedin/answer/40133/differences-between-a-linkedin-page-for-a-school-and-company?lang=en)
 
@@ -214,7 +214,7 @@ LinkedIn 配置将职业指导来自 LinkedIn 的公共毕业生数据连接在�
 7. LinkedIn 页面超级管理员将使用唯一验证链接将职业指导学校页面关联。 [有关 LinkedIn 页面验证的其他文档](https://www.linkedin.com/help/linkedin/answer/102672)。
 
 > [!NOTE]
-> LinkedIn 页面超级管理员的验证是完成 LinkedIn 连接职业指导。
+> LinkedIn 页面超级管理员的验证需要完成 LinkedIn 连接才能职业指导。
 
    ![linkedin 开发人员门户中的 linkedin 页面验证](media/career-coach-linkedin-verification.png)
 
@@ -223,7 +223,7 @@ LinkedIn 配置将职业指导来自 LinkedIn 的公共毕业生数据连接在�
 课程目录表示教育机构为学生提供的课程和课程。
 
 > [!NOTE]
-> 这是必填职业指导 - 如果没有课程目录，则不能启用。
+> 这是必填部分 - 职业指导目录无法启用。
 
 这些课程在应用内用于两个方面：
 
@@ -235,7 +235,7 @@ LinkedIn 配置将职业指导来自 LinkedIn 的公共毕业生数据连接在�
 
 ##### <a name="course-catalog-documents-formatting-and-schema"></a>课程目录文档格式和架构
 
-文档需要采用 CSV 格式，最大大小为 18 MB。 文档必须包含必填字段 **课程标题**、**课程 ID** 和 **课程 URL。** 包含建议的字段可返回更好的搜索结果和技能标识，从而改善学生的体验。
+文档需要采用 CSV 格式，最大大小为 18 MB。 文档必须包含必填字段 **课程标题**、**课程 ID** 和 **课程 URL。** 包括建议的字段可返回更好的搜索结果和技能标识，从而改善学生的体验。
 
 > [!NOTE]
 > 从示例 [课程目录文档]( https://aka.ms/career-coach/docs/it-admins/sample-catalog) 开始入门。
@@ -244,12 +244,12 @@ LinkedIn 配置将职业指导来自 LinkedIn 的公共毕业生数据连接在�
 
 | 名称             | 状态      | 类型   | 说明                                                                    |
 |------------------|-------------|--------|--------------------------------------------------------------------------------|
-| courseId         | 必需    | string | 课程 ID 通常 (映射到脚本脚本中生成的内容) 。 |
+| courseId         | 必需    | string | 课程 ID (通常映射到脚本脚本中生成) 。 |
 | title            | 必需    | string | 通常是课程标题。                                                      |
 | sourceLink       | 必需    | URL    | 课程页面的网站链接。                                               |
 | description      | 推荐 | string | 课程简介文本。                                              |
 | 语言         | 推荐 | string | 课程的语言。 使用标准语言代码。                           |
-| format           | 推荐 | string | 在线、 (在线、视频、个人或个人) 。                              |
+| format           | 推荐 | string | 在线 (、视频、个人或游戏教学) 。                              |
 | thumbnailLink    | 推荐 | URL    | 指向课程图像的缩略图链接。                                            |
 | thumbnailAltText | 推荐 | string | 图像的辅助功能替换文字                                           |
 | educationLevel   | 推荐 | string | 学习级别，例如 公司/毕业生。                                       |
@@ -263,7 +263,7 @@ LinkedIn 配置将职业指导来自 LinkedIn 的公共毕业生数据连接在�
 
 2. Upload包含所需列的 CSV 格式课程：courseId、title、sourceLink。 每行必须包含每个必需列的数据。
 
-包含建议的字段可返回更好的搜索结果和技能标识，从而改善学生的体验。
+包括建议的字段可返回更好的搜索结果和技能标识，从而改善学生的体验。
 
 4. 选择"**提交"。**
 
@@ -274,7 +274,7 @@ LinkedIn 配置将职业指导来自 LinkedIn 的公共毕业生数据连接在�
 研究领域与感兴趣的主要领域、学术专业和程度同义。 这些游戏在学生开始使用应用并开始设置其个性化个人资料时被学生引用。
 
 > [!NOTE]
-> 这是必填部分 - 职业指导没有研究领域列表，无法启用此部分。
+> 这是必填职业指导 - 如果没有研究领域列表，则不能启用此功能。
 
 添加学生可用的所有研究领域，如工程、英语、商业等。 字段列表允许学生发现可能感兴趣的研究领域，并将其添加到其个人资料中。
 
@@ -312,7 +312,7 @@ LinkedIn 配置将职业指导来自 LinkedIn 的公共毕业生数据连接在�
 
 ## <a name="making-career-coach-available-to-your-organization"></a>使职业指导可供组织使用
 
-现在职业指导为组织配置了该配置。 请按照以下步骤操作，确保职业指导组织可以使用Microsoft Teams。
+现在职业指导为组织配置了该配置。 请按照以下步骤操作，确保职业指导中的组织Microsoft Teams。
 
 ### <a name="enable-the-app"></a>启用应用
 
@@ -355,7 +355,7 @@ LinkedIn 配置将职业指导来自 LinkedIn 的公共毕业生数据连接在�
 
 4. 搜索 **"职业指导"，** 然后选择"添加 **"。**
 
-5. 选择显示应用的顺序，然后选择"保存 **"。**
+5. 选择应用的显示顺序，然后选择"保存 **"。**
 
 > [!NOTE]
 > 学生将收到已Microsoft Teams职业指导通知。

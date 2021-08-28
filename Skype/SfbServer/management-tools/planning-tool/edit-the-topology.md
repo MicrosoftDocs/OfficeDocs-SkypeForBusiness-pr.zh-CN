@@ -1,5 +1,5 @@
 ---
-title: 在 Skype for Business Server 2015 中编辑拓扑
+title: 在 2015 年 Skype for Business Server中编辑拓扑
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -10,18 +10,18 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 47425ab1-5645-4d6f-b202-64bcce43e3ef
 description: 完成初始访谈问题后，可以编辑站点的 FQDN (FQDN) IP 地址的完全限定域名。 要执行此操作，请在“全局拓扑”页上双击要编辑的站点。
-ms.openlocfilehash: 017b1e9e04851d321c9fd6f08508c8ffeccb4b4b558a3b0668c7e6f0efdd1f15
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6c18b980f7dca770de46a8eaeed01e7c508486b2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347907"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626594"
 ---
-# <a name="edit-the-topology-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中编辑拓扑
+# <a name="edit-the-topology-in-skype-for-business-server-2015"></a>在 2015 年 Skype for Business Server中编辑拓扑
 
 完成初始访谈问题后，可以编辑站点的 FQDN (FQDN) IP 地址的完全限定域名。 要执行此操作，请在 **“全局拓扑”** 页上双击要编辑的站点。
 
@@ -45,7 +45,7 @@ ms.locfileid: "54347907"
 
   - DNS 报告 - DNS 报告列出了您必须创建的 DNS 条目的相关信息。 其中包括相应操作所需的记录类型、FQDN、IP 地址和备注。
 
-- 网站摘要 - 网站摘要概述了通过回答初始访谈式问题或填写"设计网站" **中的值而做出的选择**。 还显示容量信息。
+- 网站摘要 - 网站摘要概述了通过回答初始访谈式问题或填写"设计网站" **中的值而做出的选择**。 还会显示容量信息。
 
     > [!NOTE]
     > “站点摘要”页上的信息可针对每个设计进行自定义，可能不包含此处详细介绍的所有内容或信息。
@@ -53,7 +53,7 @@ ms.locfileid: "54347907"
 ## <a name="edit-the-network-configuration-diagram"></a>编辑网络配置图
 <a name="Edit_Network_diagram"> </a>
 
-设计师在 Skype for Business Server 2015 规划工具中执行大多数工作包括定义网络图上条目的 IP 地址和完全限定域名 (FQDN) 条目。 在此页上输入的信息将进入报告以及规划工具中包含的其他信息。
+设计师在 Skype for Business Server 2015 规划工具中执行大部分工作包括定义网络图上条目的 IP 地址和完全限定域名 (FQDN) 条目。 在此页上输入的信息将进入报告以及规划工具中包含的其他信息。
 
 ![规划工具网络图](../../media/Planning_Tool_Network_Diagram.png)
 

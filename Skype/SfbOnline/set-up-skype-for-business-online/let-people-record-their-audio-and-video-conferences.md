@@ -13,19 +13,19 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Setup
 - O365P_RecordingDesc
 description: "How to turn on recording for audio and video conferences, and learn what is and isn't included in recordings. "
-ms.openlocfilehash: c321ac300e9bdf39a727c419e447da88f3cccb5b403b0361361e7e1b59155dab
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8aee8991161364eaab29459ae305e6ba4cf37b50
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316468"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625734"
 ---
 # <a name="let-people-record-their-audio-and-video-conferences"></a>让人员可以录制其音频和视频会议
 
@@ -39,7 +39,7 @@ ms.locfileid: "54316468"
     
 2. 在"**用户**"页上，从列表中选择用户，然后单击"编辑 **"。**
     
-3. 在"**选项"页上**，单击 **"录制对话和会议"，** 然后单击"保存 **"。**
+3. 在"**选项"页上，** 单击 **"录制对话和会议"，** 然后单击"保存 **"。**
     
 打开录制功能后，组织者或演示者可以录制 Skype for Business Online 会议或电话会议。打开或关闭录制功能会影响组织中的每个人。
   

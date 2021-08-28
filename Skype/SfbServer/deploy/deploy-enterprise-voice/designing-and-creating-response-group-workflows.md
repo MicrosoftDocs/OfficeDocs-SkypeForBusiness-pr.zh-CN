@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
 description: 设计并创建响应组工作流，Skype for Business Server 企业语音。 涵盖搜寻组工作流和互动工作流。
-ms.openlocfilehash: ac77753e82acc2a7733fb5d273a55b4c9fd0d0fd5466262fec6fdc9a2c223030
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 63069268621ff7f5e2b3783a661e163ff6fe6416
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303116"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603112"
 ---
 # <a name="designing-and-creating-response-group-workflows-in-skype-for-business"></a>在工作流中设计和创建响应组Skype for Business
 
@@ -89,7 +89,7 @@ ms.locfileid: "54303116"
 
 13. 在“显示号码”中，键入希望显示的响应组号码（例如，+1 (425) 555-0165）。
 
-14.  (可选) 在"说明"中，键入工作流的说明，因为您希望工作流显示在联系人卡片中的Skype for Business。
+14.  (可选) 在"说明"中，键入工作流的说明，因为它显示在联系人卡片中的Skype for Business。
 
 15. 如果工作流将由响应组管理员进行管理，则在“工作流类型”中，选择“受管理”。 执行以下操作可向工作流分配响应组管理员：
 
@@ -158,12 +158,12 @@ ms.locfileid: "54303116"
 
     - 要将呼叫转接到另一个用户，请单击“转接到 SIP URI”，然后键入该用户的地址。 用户地址的格式为 _\<username\>_ @ _\<domainName\>_ 。
 
-    - 要将呼叫转接到另一个电话号码，请单击“转接到电话号码”，然后键入该电话号码。 电话号码的格式为 (*\<number\>* @ *\<domainName\>* 例如，+14255550121@contoso.com) 。 域名可用来将呼叫者路由至正确的目标。
+    - 要将呼叫转接到另一个电话号码，请单击“转接到电话号码”，然后键入该电话号码。 电话号码的格式是 *\<number\>* @ *\<domainName\>* + (例如+14255550121@contoso.com) 。 域名可用来将呼叫者路由至正确的目标。
 
 24. 在“步骤 5 指定您的假日”下，单击定义响应组停止营业日期的一个或多个假日集对应的复选框。
 
     > [!NOTE]
-    > 配置工作流之前，您需要先定义假日和假日集。 使用 **New-CsRgsHoliday** 和 **New-CsRgsHolidaySet** cmdlet 可定义假日和假日集。 有关详细信息，请参阅 ([中的) 定义响应组假日集的可选Skype for Business。](optional-define-response-group-holiday-sets.md)
+    > 配置工作流之前，您需要先定义假日和假日集。 使用 **New-CsRgsHoliday** 和 **New-CsRgsHolidaySet** cmdlet 可定义假日和假日集。 有关详细信息，请参阅可选[ (在) 定义响应组假日Skype for Business。](optional-define-response-group-holiday-sets.md)
 
 25. 如果要在假日播放消息，请选中“假期播放消息”复选框，然后通过执行以下操作之一指定要播放的消息：
 
@@ -185,7 +185,7 @@ ms.locfileid: "54303116"
 
     - 要将呼叫转接到另一个用户，请单击“转接到 SIP URI”，然后键入该用户的地址。 用户地址的格式为 _\<username\>_ @ _\<domainName\>_ 。
 
-    - 要将呼叫转接到另一个电话号码，请单击“转接到电话号码”，然后键入该电话号码。 电话号码的格式为 (*\<number\>* @ *\<domainName\>* 例如，+14255550121@contoso.com) 。 域名用于将呼叫者路由至正确的目标。
+    - 要将呼叫转接到另一个电话号码，请单击“转接到电话号码”，然后键入该电话号码。 电话号码的格式是 *\<number\>* @ *\<domainName\>* + (例如+14255550121@contoso.com) 。 域名用于将呼叫者路由至正确的目标。
 
 27. 在“步骤 6 配置队列”下的“选择将接收呼叫的队列”中，选择在出现可以应答的代理之前，使呼叫者处于保持状态的队列。
 
@@ -200,7 +200,7 @@ ms.locfileid: "54303116"
 
 29. 单击“部署”。
 
-### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-hunt-group-workflow"></a>使用 Skype for Business Server 命令行管理程序 创建或修改寻线工作流
+### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-hunt-group-workflow"></a>使用 Skype for Business Server命令行管理程序创建或修改寻线工作流
 
 1. 以 RTCUniversalServerAdmins 组的成员或支持响应组的预定义管理角色之一的成员登录。
 
@@ -274,7 +274,7 @@ ms.locfileid: "54303116"
 
 ## <a name="designing-an-interactive-workflow"></a>设计互动工作流
 
-使用互动语音响应 (IVR) 可从呼叫者获取信息，并将呼叫引导到相应的队列。 问题/答案对确定要使用哪个队列。 根据呼叫者的响应，呼叫者会听到后续问题，或者被路由到相应的队列。 IVR 问题和呼叫者的响应会提供给接受呼叫的响应代理，从而向代理提供有价值的信息。
+使用互动语音响应 (IVR) 可从呼叫者获取信息，并将呼叫引导到相应的队列。 问题/答案对确定要使用哪个队列。 根据呼叫者的响应，呼叫者会听到后续问题，或者被路由到相应的队列。 将 IVR 问题和呼叫者的响应提供给接受呼叫的响应代理，从而向代理提供有价值的信息。
 
 ### <a name="overview-of-ivr-features"></a>IVR 功能概述
 
@@ -283,7 +283,7 @@ ms.locfileid: "54303116"
 互动工作流最多支持两级问题，每个问题最多有四个可能的答案。 IVR 向呼叫者提出问题，根据呼叫者的响应，将呼叫者路由至队列或提出第二个问题。 第二个问题也可以有四个可能的答案。 根据呼叫者对第二级问题的回答，将呼叫者路由至相应的队列。
 
 > [!NOTE]
-> 使用命令行管理程序设计Skype for Business Server流时，可以定义任意数目的 IVR 问题和任意数目的答案。 但是，为了方便呼叫者使用，建议不要使用三个级别以上的问题，并且每个问题的答案不要超过五个。 此外，如果您设计的呼叫流具有两个级别以上的问题且每个问题的答案超过四个，则不能使用"控制面板"Skype for Business Server呼叫流。
+> 使用命令行管理程序设计Skype for Business Server流时，可以定义任意数目的 IVR 问题和任意数目的答案。 但是，为了方便呼叫者使用，建议不要使用三个级别以上的问题，并且每个问题的答案不要超过五个。 此外，如果您设计的呼叫流具有两个级别以上的问题，并且每个问题的答案超过四个，则不能使用"控制面板"Skype for Business Server呼叫流。
 
 将 IVR 问题和呼叫者的响应提供给接受呼叫的响应代理。
 
@@ -485,12 +485,12 @@ ms.locfileid: "54303116"
 
     - 要将呼叫转接到另一个用户，请单击“转接到 SIP URI”，然后键入该用户的地址。 用户地址的格式为 _\<username\>_ @ _\<domainname\>_ 。
 
-    - 要将呼叫转接到另一个电话号码，请单击“转接到电话号码”，然后键入该电话号码。 电话号码的格式为 (*\<number\>* @ *\<domainname\>* 例如，+14255550121@contoso.com) 。 域名可用来将呼叫者路由至正确的目标。
+    - 要将呼叫转接到另一个电话号码，请单击“转接到电话号码”，然后键入该电话号码。 电话号码的格式是 *\<number\>* @ *\<domainname\>* + (例如+14255550121@contoso.com) 。 域名可用来将呼叫者路由至正确的目标。
 
 24. 在“步骤 5 指定您的假日”下，单击定义响应组停止营业日期的一个或多个假日集对应的复选框。
 
     > [!NOTE]
-    > 配置工作流之前，您需要先定义假日和假日集。 使用 **New-CsRgsHoliday** 和 **New-CsRgsHolidaySet** cmdlet 可定义假日和假日集。 有关详细信息，请参阅 ([中的) 定义响应组假日集的可选Skype for Business。](optional-define-response-group-holiday-sets.md)
+    > 配置工作流之前，您需要先定义假日和假日集。 使用 **New-CsRgsHoliday** 和 **New-CsRgsHolidaySet** cmdlet 可定义假日和假日集。 有关详细信息，请参阅可选[ (在) 定义响应组假日Skype for Business。](optional-define-response-group-holiday-sets.md)
 
 25. 如果要在假日播放消息，请选中“假期播放消息”复选框，然后通过执行以下操作之一指定要播放的消息：
 
@@ -512,7 +512,7 @@ ms.locfileid: "54303116"
 
     - 要将呼叫转接到另一个用户，请单击“转接到 SIP URI”，然后键入该用户的地址。 用户地址的格式为 _\<username\>_ @ _\<domainname\>_ 。
 
-    - 要将呼叫转接到另一个电话号码，请单击“转接到电话号码”，然后键入该电话号码。 电话号码的格式为 (*\<number\>* @ *\<domainname\>* 例如，+14255550121@contoso.com) 。 域名可用来将呼叫者路由至正确的目标。
+    - 要将呼叫转接到另一个电话号码，请单击“转接到电话号码”，然后键入该电话号码。 电话号码的格式是 *\<number\>* @ *\<domainname\>* + (例如+14255550121@contoso.com) 。 域名可用来将呼叫者路由至正确的目标。
 
 27. 在“步骤 6 配置保持音乐”下，执行以下操作之一，选择希望呼叫者在等待代理时听到的音乐：
 
@@ -533,7 +533,7 @@ ms.locfileid: "54303116"
     > [!NOTE]
     > 文本到语音转换引擎会将符号“#”转换为“号码”这个词。 如果需要指代 # 键，则应该在提示语中使用键名代替符号。 例如，“要与销售人员交谈，请按井号键”。
 
-    - 若要使用包含问题的预先录制的音频文件，请单击"选择录音"，然后单击"**录音**"链接以上载该文件。 In the new browser window， click **Browse**， select the audio file， and then click **Open**. 单击 **"Upload"** 加载文件，然后可以选择在文本框中键入问题 (这样将问题以及呼叫者的响应转发给响应代理) 。
+    - 若要使用包含问题的预先录制的音频文件，请单击"选择录音"，然后单击"**录音**"链接以上载该文件。 In the new browser window， click **Browse**， select the audio file， and then click **Open**. 单击 **Upload"** 以加载文件，然后可以选择在文本框中键入问题 (这样将问题以及呼叫者的响应转发给响应代理) 。
 
       > [!NOTE]
       > 用户提供的所有音频文件都必须满足特定要求。有关支持的文件格式的详细信息，请参阅[Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group)。

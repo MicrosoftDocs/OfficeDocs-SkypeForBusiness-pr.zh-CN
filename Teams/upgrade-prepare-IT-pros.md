@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: landerl
 description: 了解如何为组织中 IT 人员做好准备，以部署和支持Microsoft Teams。
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -19,12 +19,12 @@ ms.collection:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2dc29f8656b4fdd69d0e6e59338e91341d32cc7e283b4bdd2cfb5680192e248b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 53e0e8e57a7948947878fe93bcf358c83adeac52
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343856"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618328"
 ---
 # <a name="prepare-your-it-staff-for-microsoft-teams"></a>准备 IT 人员以Microsoft Teams
 
@@ -39,7 +39,7 @@ ms.locfileid: "54343856"
 
 你的Microsoft 365或Office 365管理员、技术主管和支持人员负责推动高质量的用户体验。 这包括确保你的网络已准备好支持Teams配置Teams，以及能够有效地排查和解决可能出现的问题。
 
-与 IT 人员共享以下资源，并确认他们已准备好在升级到 Teams：
+与 IT 人员共享以下资源，并确认他们已准备好在升级到 Teams 之前为用户提供Teams：
 
 - [Microsoft Teams 管理培训](itadmin-readiness.md)
 - [联系商业版产品的支持人员 - 管理员帮助](/microsoft-365/admin/contact-support-for-business-products)
@@ -53,4 +53,4 @@ ms.locfileid: "54343856"
 | ![描述决策点的图标](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>是否涉及可能参与部署和支持所有支持人员Teams？</li><li>你已制定培训计划，以在升级过程中培训其他员工？</li></ul> |
 | ![描述后续步骤的图标](media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>验证 IT 人员是否具有他们所需的信息。</li><li>新功能发布后，请重新访问培训和准备计划。</li></ul>|
 
-准备好 IT 人员以Teams后，请验证环境是否满足所有[先决条件](upgrade-plan-journey-prerequisites.md)。
+准备好 IT 人员进行配置Teams，请验证环境是否满足所有[先决条件](upgrade-plan-journey-prerequisites.md)。

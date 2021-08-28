@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于罗马尼亚的Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: 4d9bfd3b0d6f5dc13b6922b12b4c005fd86130889b5c923ecf9955a12852fc01
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 101b240bd79aa7ef867e4dd5a26452a28676759d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337530"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618598"
 ---
 # <a name="availability-in-romania"></a>在罗马尼亚的可用性
 
@@ -60,7 +60,7 @@ ms.locfileid: "54337530"
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买通话套餐？  <br/> |是  <br/> |
-|通话套餐可用的分钟数。 |每个日历月有四个可用的计划选项： <ul><li>120 分钟国内呼叫计划 </li><li>240 分钟国内呼叫计划</li></li><li>1200 分钟国内呼叫计划 </li></li><li>国内和国际呼叫计划：国内 1200 分钟 -OR- 600 分钟国际呼叫 (以日历月份中首次达到者为准) </li></li></ul>Prezentare general Microsoft Teams辅助功能[支持 accesibilitate a Microsoft Teams - Asistență Office](https://support.microsoft.com/ro-ro/office/prezentare-general%C4%83-accesibilitate-a-microsoft-teams-2d4009e7-1300-4766-87e8-7a217496c3d5?ui=ro-RO&rs=ro-RO&ad=RO)<br>[MicrosoftOnlineServicesTerms (WW)  (罗马尼亚)  (2021 年 2 月) ](https://www.microsoft.com/licensing/terms/productoffering/AudioServices/EAEAS#GeneralServiceTerms)|
+|通话套餐可用的分钟数。 |每个日历月有四个可用的计划选项： <ul><li>120 分钟国内呼叫计划 </li><li>240 分钟国内呼叫计划</li></li><li>1200 分钟国内呼叫计划 </li></li><li>国内和国际呼叫计划：国内 1200 分钟 -OR- 600 分钟国际呼叫 (以日历月份中首次达到者为准) </li></li></ul>Prezentare general [Microsoft Teams辅助功能支持 accesibilitate a](https://support.microsoft.com/ro-ro/office/prezentare-general%C4%83-accesibilitate-a-microsoft-teams-2d4009e7-1300-4766-87e8-7a217496c3d5?ui=ro-RO&rs=ro-RO&ad=RO) Microsoft Teams - Asistență Office<br>[MicrosoftOnlineServicesTerms (WW)  (罗马尼亚)  (2021 年 2 月) ](https://www.microsoft.com/licensing/terms/productoffering/AudioServices/EAEAS#GeneralServiceTerms)|
 |能否对高级号码进行出站呼叫？  <br/> | 目前不支持。 <br/> |
 |是否可以拨打呼出电话？  <br/> | 可向 196 国家/地区（包括[这些国家/地区](users-can-make-outbound-calls-to-these-countries-and-regions.md)）拨打。<br/> |
    

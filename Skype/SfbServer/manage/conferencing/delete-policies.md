@@ -9,21 +9,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 497e6ca0-7a49-4f3e-9804-14414cf87b57
-description: 摘要：了解如何删除会议策略Skype for Business Server。
-ms.openlocfilehash: 76648fed55f01790e2e81f8683dedde4c24ac0cdfcff956f7813735872c801eb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 摘要：了解如何删除 Skype for Business Server 中的会议策略。
+ms.openlocfilehash: 62fce625133565e7e2ec53b0a5a4e37408f7e49e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315618"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595554"
 ---
 # <a name="delete-conferencing-policies-in-skype-for-business-server"></a>删除会议策略Skype for Business Server
  
 **摘要：** 了解如何删除会议策略中的Skype for Business Server。
   
-可以使用控制面板或命令行管理程序Skype for Business Server会议策略Skype for Business Server会议策略。
+可以使用控制面板或命令行管理Skype for Business Server删除会议Skype for Business Server策略。
   
 ## <a name="delete-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>使用控制面板删除Skype for Business Server策略
 
@@ -45,7 +45,7 @@ ms.locfileid: "54315618"
 Remove-CsConferencingPolicy -Identity "RedmondConferencingPolicy"
 ```
 
-下一个命令将删除允许外部用户录制会议的任何会议策略：
+下一个命令删除允许外部用户录制会议的任何会议策略：
   
 ```PowerShell
 Get-CsConferencingPolicy | Where-Object {$_.AllowExternalUsersToRecordMeetings -eq $True} | Remove-CsConferencingPolicy

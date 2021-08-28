@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Hybrid
 - M365-voice
@@ -17,34 +17,34 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: 在混合环境中配置 Azure AD 连接的说明。
-ms.openlocfilehash: e9e043e8cded2e9e55741cd0abe37488c4b621c6fb7cbfc5e9fd1e35917f8b84
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 47c158928a9536b0be40833deaddf3fb9967be73
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54292479"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625784"
 ---
 # <a name="configure-azure-ad-connect-for-teams-and-skype-for-business"></a>为 Teams 和 Skype for Business 配置 Azure AD Connect
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
  
-具有本地 Skype for Business Server (或 Lync Server) 且计划使用 Teams 的组织必须配置 Azure AD 连接 以将其本地目录与 Microsoft 365 同步。 此要求包括直接从内部部署Skype for Business内部部署Teams。 具有本地Skype for Business的组织必须确保正确的 msRTCSIP 属性同步到 Azure AD。
+拥有 Skype for Business Server (或 Lync Server) 且计划使用 Teams 的组织必须配置 Azure AD 连接 以将其本地目录与 Microsoft 365 同步。 此要求包括直接从内部部署Skype for Business内部部署Teams。 具有本地Skype for Business的组织必须确保正确的 msRTCSIP 属性同步到 Azure AD。
 
 > [!NOTE]
-> 同时拥有 Skype for Business 本地部署的现有 Teams 用户需要将 Skype for Business 本地帐户移动到云，才能获得完整功能，例如与 Skype for Business 用户进行互操作以及与联盟组织中用户进行通信的功能。 即使用户只在使用 Teams，基础结构也要求必须有此联机 Skype for Business 帐户，才能提供其他功能。 为了执行此迁移，必须确保已正确配置 Azure AD Connect，这样就可以启用混合了。
+> 同时在本地拥有 Skype for Business 的现有 Teams 用户需要将 Skype for Business 本地帐户移动到云，才能获得完整功能，例如与 Skype for Business 用户进行互操作以及与联盟组织中用户进行通信的功能。 即使用户只在使用 Teams，基础结构也要求必须有此联机 Skype for Business 帐户，才能提供其他功能。 为了执行此迁移，必须确保已正确配置 Azure AD Connect，这样就可以启用混合了。
  
 
 ## <a name="background-information"></a>背景信息
 
-Azure Active Directory 连接保持本地 Active Directory 与本地 Active Directory Microsoft 365。 本地目录仍是标识的权威源，且本地环境中的更改会同步到 Azure AD 中。 有关详细信息，请参阅[Azure AD 连接 Sync。](/azure/active-directory/hybrid/how-to-connect-sync-whatis)  
+Azure Active Directory 连接保持本地 Active Directory 与 Microsoft 365 持续同步。 本地目录仍是标识的权威源，且本地环境中的更改会同步到 Azure AD 中。 有关详细信息，请参阅[Azure AD 连接 Sync。](/azure/active-directory/hybrid/how-to-connect-sync-whatis)  
 
 如果未将所有用户从本地迁移到云，则必须将使用本地 Teams 或 Skype for Business 的所有用户从本地同步到 Azure AD，以确保本地用户和联机用户之间的通信。 *组织中的用户将同时出现在本地目录和联机目录中。*
 
 
 ## <a name="configuring-azure-ad-when-you-have-skype-for-business-server"></a>在有 Skype for Business Server 的情况下配置 Azure AD 
 
-无论你拥有一个本地 Active Directory 林还是多个林，Azure AD 连接 都可以用于各种受支持的拓扑，如[Azure AD](/azure/active-directory/hybrid/plan-connect-topologies)连接 拓扑中所述。 从企业Skype for Business Server，有三种变体： 
+无论你拥有一个本地 Active Directory 林还是多个林，Azure AD 连接 都可以用于各种受支持的拓扑，如[Azure AD](/azure/active-directory/hybrid/plan-connect-topologies)连接 拓扑中所述。 从企业Skype for Business Server，有三种变化： 
 
 1. 单个林，其中包含权威用户标识，并托管 Skype for Business Server。 
 
@@ -60,22 +60,22 @@ Azure Active Directory 连接保持本地 Active Directory 与本地 Active Dire
 
 此方案通常称为“资源林拓扑”。 用户的权威标识托管在一个或多个帐户林中，Skype for Business 单独部署在一个资源林中（其本身可能也会托管权威用户标识）。 一般说来，Skype for Business 用户的权威标识可能与 Skype for Business Server 位于同一林中，也可能位于其他林中，前提是： 
 
-- 帐户林中具有权威标识 (用户) 资源林 (其中 Skype for Business Server 部署) 禁用的用户对象。 资源林中的 msRTCSIP-OriginatorSID 属性必须与帐户林中的 SID 匹配。 有关更多详细信息，请参阅[Configure a multi-forest environment for hybrid Skype for Business](configure-a-multi-forest-environment-for-hybrid.md)。
+- 帐户林中具有权威标识 (用户) 资源林 (其中 Skype for Business Server 部署为) 用户对象。 资源林中的 msRTCSIP-OriginatorSID 属性必须与帐户林中的 SID 匹配。 有关详细信息，请参阅[Configure a multi-forest environment for hybrid Skype for Business](configure-a-multi-forest-environment-for-hybrid.md)。
 
 - 托管 Skype for Business Server 的资源林信任一个或多个帐户林。  
 
-- 资源林) 中来自帐户林) 和 Skype for Business (的标识 (的所有相关用户对象和属性都通过 Azure AD 连接 同步到 Azure AD 中。  
+- 资源林) 中帐户林)  (和 Skype for Business (的标识 (的所有相关用户对象和属性都通过 Azure AD 连接 同步到 Azure AD 中。  
 
   若要在多林本地方案中将正确的对象和属性同步到[](configure-a-multi-forest-environment-for-hybrid.md)Azure AD，Microsoft 强烈建议使用 Azure AD 连接 从已启用用户帐户的所有林和包含 Skype for Business 的林进行同步。 假设你从所有林进行同步，必须将 Azure AD Connect 配置为，合并这些标识，并同步到 Azure AD 中。 Azure AD Connect 旨在处理这种情况，它在安装向导中提供了用于进行此设置的内置选项，包括设置用于联接标识的定位标记。 选择以下选项： **用户标识存在于** 多个目录中，使用 **--> ObjectSID 和 msExchangeMasterAccountSID 属性进行匹配**。
 
 
 ### <a name="multiple-skype-for-business-server-deployments-in-multiple-forests"></a>多个林中有多个 Skype for Business Server 部署 
 
-在此方案中，存在多个林，每个林Skype for Business Server一个Microsoft 365组织。 每个包含Skype for Business Server林都可以使用 AAD 连接 同步到组织的 Azure AD 中。 在给定时间，最多只能为 Skype for Business 混合配置一个林。 在林中启用混合之前，必须使用 [disable-csonlineSipDomain](/powershell/module/skype/disable-csonlinesipdomain)禁用所有其他林的所有 SIP 域。 有关详细信息，请参阅 Cloud [consolidation for Teams and Skype for Business](cloud-consolidation.md)。
+在此方案中，有多个林，每个林Skype for Business Server一个Microsoft 365组织。 每个包含Skype for Business Server的林都可以使用 AAD 连接 同步到组织的 Azure AD。 在给定时间，最多只能为 Skype for Business 混合配置一个林。 在林中启用混合之前，必须使用 [disable-csonlineSipDomain](/powershell/module/skype/disable-csonlinesipdomain)禁用所有其他林的所有 SIP 域。 有关详细信息，请参阅 Cloud [consolidation for Teams and Skype for Business](cloud-consolidation.md)。
 
 ## <a name="general-requirements"></a>常规要求 
 
-这些Teams要求正确的 Active Directory 属性存在且填充在 Azure AD 中。 Microsoft 建议您同步包含用户标识的所有林以及包含用户标识Skype for Business Server。
+这些Teams服务要求存在正确的 Active Directory 属性，并且这些属性填充在 Azure AD 中。 Microsoft 建议您同步包含用户标识的所有林以及包含用户标识Skype for Business Server。
 
  如果用户的标识存在于多个林中，Azure AD Connect 应进行合并。 遵循本指南后，Azure AD Connect 会自动同步正确的属性，前提是你不修改 Azure AD Connect 中的“连接器”或“同步规则”。 
   

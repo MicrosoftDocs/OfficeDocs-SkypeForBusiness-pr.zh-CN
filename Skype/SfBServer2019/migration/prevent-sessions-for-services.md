@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 您可以使用旧版安装控制面板阻止特定计算机上运行的所有旧服务的新会话，或阻止特定旧服务的新会话。
-ms.openlocfilehash: 6ee7f33e01118297b5a86878ded8a0bb89aadc84524839a41fbacd0c9d699633
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2f65d9453eab4548d9b4b94a5c6d38673d3ebd54
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54313840"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595006"
 ---
 # <a name="prevent-sessions-for-services"></a>阻止服务的会话
 
@@ -24,7 +24,7 @@ ms.locfileid: "54313840"
   
 ## <a name="to-prevent-new-sessions-for-services-on-a-computer"></a>阻止计算机上服务的新会话
 
-1. 从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 的用户帐户，或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署了 Skype for Business Server 2019 的网络中的任何计算机。
+1. 从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 的用户帐户，或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署 Skype for Business Server 2019 的网络中的任何计算机。
     
 2. 打开Skype for Business控制面板"。
     
@@ -38,7 +38,7 @@ ms.locfileid: "54313840"
     
 ## <a name="to-prevent-new-sessions-for-a-specific-service"></a>阻止特定服务的新会话
 
-1. 从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 的用户帐户，或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署了 Skype for Business Server 2019 的网络中的任何计算机。
+1. 从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 的用户帐户，或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署 Skype for Business Server 2019 的网络中的任何计算机。
     
 2. 打开Skype for Business控制面板"。
     

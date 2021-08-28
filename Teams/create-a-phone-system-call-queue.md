@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -24,16 +24,16 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 了解如何在 Microsoft Teams 中为大型组织设置呼叫队列，该队列提供问候消息、保留音乐、呼叫重定向和其他功能。
-ms.openlocfilehash: 8a805c90ef68f6ee5d6c754cdad7834c7a6ddff0
-ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
+ms.openlocfilehash: 2d8f2e0eefd3e600b57f1a5fdeafc0a813dc4c22
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58398931"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595096"
 ---
 # <a name="create-a-call-queue"></a>创建呼叫队列
 
-呼叫队列提供了将呼叫者路由到组织中可以解决特定问题或问题的人的方法。 呼叫一次一个地分配给队列中 (称为代理 *) 。* 
+呼叫队列提供了将呼叫者路由到组织中可以解决特定问题或问题的人的方法。 呼叫将一次一个分配给队列中 (称为代理 *) 。* 
 
 > [!TIP]
 > 本文适用于大型组织。 如果你的组织是小型企业，请改为阅读创建 [呼叫队列 - 小型企业](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb) 教程。
@@ -42,23 +42,23 @@ ms.locfileid: "58398931"
 
 - 问候消息。
 
-- 音乐排入队列等待时，将打开队列。
+- 音乐等待队列中等待时，
 
-- 调用路由 - 在 *"先* 到先出" (FIFO) 顺序 - 到代理。
+- 呼叫路由 - 在 *"先到* 先出" (FIFO) 顺序 - 到代理。
 
 - 处理队列溢出和超时的选项。
 
-请确保已阅读自动助理[](plan-auto-attendant-call-queue.md)Teams呼叫队列的计划，并按照入门步骤操作，然后按照本文中的步骤[](plan-auto-attendant-call-queue.md#getting-started)操作。
+在按照本文中[的过程操作之前](plan-auto-attendant-call-queue.md)，请确保已Teams自动助理和呼叫队列的计划并按照入门步骤[](plan-auto-attendant-call-queue.md#getting-started)操作。
 
 ## <a name="video-demonstration"></a>视频演示
 
-此视频展示了如何在呼叫队列中创建呼叫队列的基本Teams。
+此视频展示了如何在 Teams 创建呼叫队列的基本示例。
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWCF23?autoplay=false]
 
 ## <a name="create-the-call-queue"></a>创建呼叫队列
 
-要设置呼叫队列，请在Teams中心展开 **"** 语音"，单击"呼叫队列"，然后单击"添加 **"。**
+要设置呼叫队列，请在Teams中心展开 **"** 语音"，单击"呼叫 **队列**"，然后单击"添加 **"。**
 
 键入呼叫队列的名称。
 
@@ -74,7 +74,7 @@ ms.locfileid: "58398931"
 
 ![调用 ID 设置的屏幕截图](media/call-queue-assign-calling-id.png)
 
-如果计划为呼叫Teams一个呼叫通道，可以通过指定一个或多个具有电话号码的资源帐户来为代理分配出站呼叫者 ID 号码。
+如果计划为呼叫代理使用 Teams通道，可以通过指定一个或多个具有电话号码的资源帐户来为代理分配出站呼叫者 ID 号码。
 
 单击 **"** 添加"，在进行出站调用时搜索要允许代理调用 ID 的资源帐户，单击"添加 **"，然后单击**"添加 **"。**
 
@@ -84,7 +84,7 @@ ms.locfileid: "58398931"
 
 ![语言设置的屏幕截图](media/call-queue-language.png)
 
-选择 [受支持的语言](create-a-phone-system-call-queue-languages.md)。 如果启用语音提示和语音邮件听录，此语言 (系统生成的语音提示) 。
+选择 [受支持的语言](create-a-phone-system-call-queue-languages.md)。 如果启用系统生成的语音提示和语音邮件听录， (此语言) 。
 
 ## <a name="greetings-and-music-on-hold-in-queue"></a>队列中保留的问候语和音乐
 
@@ -95,7 +95,7 @@ ms.locfileid: "58398931"
 Teams在队列中保持时向呼叫者提供默认音乐。 呼叫队列中提供的默认Teams不收取组织支付的任何版权费。 如果要播放特定音频文件，请选择"播放音频文件 **"并** 上传 MP3、WAV 或 WMA 文件。
 
 > [!NOTE]
-> 你负责独立清除和保护在服务中使用任何音乐或音频文件的Microsoft Teams权限， 其中可能包括来自所有相关权利持有者的任何音乐、声音效果、音频、品牌、名称和其他内容中的知识产权和其他权利，其中可能包括艺术家、执行者、执行者、艺术家、歌曲作者、作曲者、录制标签、音乐发布者、联盟、团体、权利代理人、集体管理组织以及拥有、控制或许可音乐版权、音效、音频和其他知识产权的其他任何方。
+> 你负责独立清除和保护使用任何音乐或音频文件的一切必要Microsoft Teams权限， 其中可能包括来自所有相关权利持有者的任何音乐、声音效果、音频、品牌、名称和其他内容中的知识产权和其他权利，其中可能包括艺术家、执行者、执行者、艺术家、歌曲作者、作曲者、录制标签、音乐发布者、联盟、团体、权利代理人、集体管理组织以及拥有、控制或许可音乐版权、音效、音频和其他知识产权的其他任何方。
 
 ## <a name="call-agents"></a>呼叫代理
 

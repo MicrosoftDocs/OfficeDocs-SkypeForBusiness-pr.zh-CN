@@ -11,7 +11,7 @@ ms.reviewer: naforer
 f1.keywords:
 - NOCSH
 description: 使用云视频互操作作为中间解决方案，允许第三方会议室设备加入Microsoft Teams会议。
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-voice
 - M365-collaboration
@@ -20,18 +20,18 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 12ddd59e1bb126e69557ba69fc34113c69f31868600414f9c686665f9b546bd9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 39452a659f1a95d66aeac4a18a4d7801764437ae
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336432"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618638"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Microsoft Teams 的云视频互操作性
 
-云视频互操作 (CVI) 是 Microsoft 符合条件的第三方解决方案，可让第三方会议室 (telepresence) 和个人视频设备 (VTC) 加入 Microsoft Teams 会议。
+云视频互操作 (CVI) 是 Microsoft 符合条件的第三方解决方案，可让第三方会议室 (远程) 和个人视频设备 (VTC) 加入 Microsoft Teams 会议。
  
-借助Microsoft Teams，您可以在会议（包括音频、视频和内容共享）中实现丰富的联机内容协作。 这可以通过桌面和 Web 客户端以及许多原生与客户端集成的合作伙伴设备Microsoft Teams。 但是，许多客户已经投资了视频电话会议和个人视频通信设备，升级成本可能很高。 云视频互操作提供了一个简单的解决方案，让你能够一直使用现有解决方案，直到准备好升级。
+使用Microsoft Teams，您可以在会议（包括音频、视频和内容共享）中实现丰富的联机内容协作。 这可以通过桌面和 Web 客户端以及许多原生与客户端集成的合作伙伴设备Microsoft Teams。 但是，许多客户已经投资了视频电话会议和个人视频通信设备，升级成本可能很高。 云视频互操作提供了一个简单的解决方案，让你能够一直使用现有解决方案，直到准备好升级。
 
 借助云视频互操作，Microsoft Teams为会议室内或客户端内部的所有参与者提供Teams体验。
 
@@ -41,11 +41,11 @@ ms.locfileid: "54336432"
 
 云视频互操作适用于符合以下条件的客户：
 
-- 在超过 5) 0 (个没有资格与 Microsoft Teams 直接集成的设备上部署大量会议室设备和个人视频Microsoft Teams
+- 在超过 50 (个没有资格与 Microsoft Teams 直接集成的) 设备上部署大量会议室设备和个人视频Microsoft Teams
 - 我们的一个云视频互操作合作伙伴支持
-- 想要在迁移到本机会议解决方案期间保留当前会议室设备和个人视频设备Microsoft Teams价值
+- 想要在迁移到本机会议解决方案期间保留其当前会议室设备和个人视频设备投资Microsoft Teams价值
 
-尽管云视频互操作提供了出色的中间解决方案，但我们鼓励客户长期查看本机 Teams 会议解决方案，例如 Teams 会议室系统。 
+尽管云视频互操作提供了很好的中间解决方案，但我们鼓励客户长期查看本机 Teams 会议解决方案，例如 Teams 会议室系统。 
 
 ### <a name="office-365-us-government-and-third-party-services"></a>Office 365美国政府和第三方服务
 
@@ -53,7 +53,7 @@ Office 365 能够将第三方应用程序集成到 SharePoint Online 网站、Sk
 
 
 
-### <a name="partners-certified-for-microsoft-teams"></a>经认证的合作伙伴Microsoft Teams
+### <a name="partners-certified-for-microsoft-teams"></a>合作伙伴认证Microsoft Teams
 
 以下合作伙伴提供适用于 Microsoft Teams 的视频互操作解决方案。 公司可以选择与企业中这些合作伙伴的任意组合合作。 
 
@@ -62,7 +62,7 @@ Office 365 能够将第三方应用程序集成到 SharePoint Online 网站、Sk
 |![表示 Poly RealConnect 的徽标](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Poly RealConnect 服务</a> |
 |![表示 Pexip Infinity 的徽标](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">Pexip Infinity for Microsoft Teams</a> | 
 |![表示 BlueJeans 网关的徽标](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">BlueJeans 网关Microsoft Teams</a> |
-|![表示 Cisco CVI 的徽标](media/cisco.png)|<a href="https://aka.ms/CiscoCVI" target="_blank">Cisco Webex Video Integration for Microsoft Teams</a>|
+|![表示 Cisco CVI 的徽标](media/cisco.png)|<a href="https://aka.ms/CiscoCVI" target="_blank">适用于 Microsoft Teams 的 Cisco Webex 视频集成</a>|
 
 ### <a name="cloud-video-interop-overview"></a>云视频互操作概述
 
@@ -85,7 +85,7 @@ Office 365 能够将第三方应用程序集成到 SharePoint Online 网站、Sk
 
 在计划阶段，应确定不会替换为本机 Teams 的设备，并找到支持这些设备的云视频互操作合作伙伴。  
 
-另一个必须了解的是，需要为要安排希望启用云视频互操作的设备加入会议的每个用户提供许可证。 请注意，可以从云视频互操作合作伙伴获取确切的许可要求。 在开始部署之前，请确保这一点清晰明了。
+此外，必须了解，需要为要安排要加入云视频互操作设备的会议的每个用户提供许可证。 请注意，可以从云视频互操作合作伙伴获取确切的许可要求。 在开始部署之前，请确保这一点清晰明了。
 
 ### <a name="configure"></a>配置
 
@@ -93,11 +93,11 @@ Office 365 能够将第三方应用程序集成到 SharePoint Online 网站、Sk
 
 ### <a name="provision"></a>预配  
 
-在预配阶段，根据合作伙伴配置指南将许可证分配给相应的用户。 还需要完成 Azure 许可过程，向合作伙伴提供对 Teams 环境的访问权限。 有关 Azure[许可过程Microsoft 标识平台，](/azure/active-directory/develop/v2-permissions-and-consent)请参阅终结点中的权限和许可。
+在预配阶段，根据合作伙伴配置指南将许可证分配给相应的用户。 还需要完成 Azure 许可过程，使合作伙伴能够访问Teams环境。 有关 Azure[许可过程Microsoft 标识平台，](/azure/active-directory/develop/v2-permissions-and-consent)请参阅终结点中的权限和许可。
 
 ### <a name="schedule"></a>计划
 
-为用户启用云视频互操作后，使用 Outlook 的 Teams 会议加载项或 Teams 客户端安排的任何会议将自动添加到 Teams 会议中，以便与云视频互操作兼容的设备可以加入这些会议。
+为用户启用云视频互操作后，使用 Outlook 的 Teams 会议加载项或 Teams 客户端安排的任何会议将自动添加到 Teams 会议中，以便云视频互操作兼容的设备可以加入这些会议。
 
 ### <a name="join"></a>Join
 
@@ -105,11 +105,11 @@ Office 365 能够将第三方应用程序集成到 SharePoint Online 网站、Sk
 
 - IVR (交互式语音响应)  
   - 可以使用设备拨入合作伙伴的 IVR tenantkey@domain。
-  - 当位于合作伙伴 IVR 中时，系统会提示输入 VTC conferenceId，然后它将你连接到 Teams 会议。
+  - 当位于合作伙伴 IVR 中时，系统会提示输入 VTC conferenceId，然后它将你连接到 Teams会议。
 - 直接拨号 
-  - 您可以使用直接拨号功能，使用 tenantkey 的完整字符串，直接拨入 Teams 会议，而无需与合作伙伴的 IVR 交互。VTC ConferenceId@domain。
+  - 可以使用租户密钥的完整字符串，直接拨入 Teams 会议，而无需与合作伙伴的 IVR 交互。VTC ConferenceId@domain。
 - 一键式拨号 
-  - 如果您有集成的Teams会议室，您可以使用合作伙伴合作伙伴提供的一键式拨号功能 (无需键入任何拨号字符串) 。
+  - 如果您有集成的Teams，您可以使用合作伙伴提供的一键式拨号功能 (而无需键入任何拨号字符串) 。
 
 ## <a name="manage-cloud-video-interop"></a>管理云视频互操作
 
@@ -121,7 +121,7 @@ Office 365 能够将第三方应用程序集成到 SharePoint Online 网站、Sk
 
 云视频互操作是合作伙伴提供的服务。 如果遇到问题，第一步是连接安装了 Teams 客户端的设备，并连接到与导致问题的云视频互操作设备相同的段。 
 
-如果Teams在此段中正常运行，并且还遵循了合作伙伴提供的所有网络和配置准则，则需要联系合作伙伴进行进一步的故障排除。 
+如果Teams在此段中正常运行，并且还遵循了合作伙伴提供的所有网络和配置准则，则需要联系合作伙伴进行进一步故障排除。 
 
 ## <a name="powershell-for-cloud-video-interop"></a>PowerShell for Cloud Video Interop
 
