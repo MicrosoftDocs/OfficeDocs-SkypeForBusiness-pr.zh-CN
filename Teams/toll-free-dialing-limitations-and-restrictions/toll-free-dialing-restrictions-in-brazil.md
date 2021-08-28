@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 了解如何拨打巴西的免费电话号码，包括可用性、有线/固定线路和移动网络可用性，以及限制。
-ms.openlocfilehash: 24d5ed2ae333a3188e5921ad2c23f72d99c1994d77c30380cf3d09aa854a4a8a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 03c2e90563bac0a22c4569418dd988ea9ceb5d6f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351722"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636586"
 ---
 # <a name="toll-free-dialing-restrictions-in-brazil"></a>巴西的免费拨号限制
 

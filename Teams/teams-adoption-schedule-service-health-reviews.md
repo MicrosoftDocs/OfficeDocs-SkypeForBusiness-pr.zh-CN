@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何在采用时使用服务运行状况Teams，以分享有关使用情况、运行状况、功能/项目路线图和其他更新的见解。
 f1.keywords:
@@ -20,18 +20,18 @@ ms.collection:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bd66b3a5bed27a9fbe05ba4273c24a97cf837cda9bfab19a2e5ab9b4656d8f5a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8c203096f10f3263c8e0b16a62d0d7ede004adde
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54330866"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594474"
 ---
 # <a name="schedule-service-health-reviews-for-your-microsoft-teams-adoption"></a>为 Microsoft Teams 采用安排服务运行状况检查
 
 在技术实施团队的配合下，计划每月举行一次服务运行状况评审，Teams。 在这些评论中，你将分享有关以下措施的见解：
 
-- **服务使用情况**- 活动使用情况数据，可能包括由于迁移到服务中心而弃用或Teams。 通常由协作服务的服务经理或产品所有者领导。
+- **服务使用情况**- 活动使用情况数据，可能包括有关服务已弃用或由于迁移到服务而减少Teams。 通常由协作服务的服务经理或产品所有者领导。
 - **服务运行状况** - 呼叫质量、会议运行状况和总体服务运行状况。 查看任何支持事件和支持人员票证级别。 安全和治理主题。 通常由信息保护和支持团队领导。 
 - **功能/项目路线图** - 剩余员工入职或进一步协作改进项目的日程安排是什么？ 组织将启用哪些附加功能？ 通常由服务经理或产品所有者与关键业务利益干系人协作，为协作服务引导。
 - **意识活动和培训成功措施更新** - 包括市场宣传、参与、关键反馈主题和未解决问题。 包括关键胜出和成功案例。 

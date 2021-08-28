@@ -1,5 +1,5 @@
 ---
-title: 在管理中管理 PIN Skype for Business Server
+title: 管理用户中的 PIN Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -9,24 +9,24 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d4a104e2-830c-47f1-a5dd-de7a937cc83a
 description: 摘要：管理用户中的 PIN Skype for Business Server。
-ms.openlocfilehash: 0c3df7b9c1613c5364f5d48addfb258f61f361cf9e22834219ec4ace68bf4950
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1b30ab7020a373dad54e4e4456b7a8525b3d3f47
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54346458"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602547"
 ---
-# <a name="manage-pin-settings-in-skype-for-business-server"></a>在管理中管理 PIN Skype for Business Server
+# <a name="manage-pin-settings-in-skype-for-business-server"></a>管理用户中的 PIN Skype for Business Server
  
 **摘要：** 管理用户中的 PIN Skype for Business Server。
   
 使用以下各节中的过程管理 Skype for Business Server。
   
-可以从控制面板Skype for Business Server命令行管理程序管理Skype for Business Server PIN Skype for Business Server策略。 使用以下过程为您的组织配置 PIN 策略。
+可以从控制面板Skype for Business Server命令行管理程序Skype for Business Server管理Skype for Business Server PIN 策略。 使用以下过程为您的组织配置 PIN 策略。
   
 - [在管理中查看 PIN 策略Skype for Business Server](view-pin-policy-information.md)
     
@@ -38,7 +38,7 @@ ms.locfileid: "54346458"
     
 - [在策略中分配每用户 PIN Skype for Business Server](assign-a-per-user-pin-policy.md)
     
-使用以下过程从控制面板的"用户"部分管理Skype for Business Server PIN。 
+使用以下过程从控制面板的"用户"部分Skype for Business Server用户的电话拨入式会议PIN。
   
 - [设置用户电话拨入式会议 PIN Skype for Business Server](set-a-user-s-dial-in-conferencing-pin.md)
     

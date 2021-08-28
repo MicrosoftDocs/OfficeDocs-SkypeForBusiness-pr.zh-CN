@@ -14,7 +14,7 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -22,16 +22,16 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: 了解如何向用户发送包含其音频会议信息的电子邮件，Microsoft Teams。
-ms.openlocfilehash: 58524f6a6f4fe8ad8aefb559ae4f9748ffbf506394cf0bf446aa38ae9740d608
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7b92cfd6b030dab4dcf823abc17baeb048a0dc42
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350474"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594494"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>在 Microsoft Teams 中向用户发送包含其音频会议信息的电子邮件
 
-有时Microsoft Teams用户可能需要你向用户发送其音频会议信息。 为此，可以单击用户属性下的 **"** 通过电子邮件发送会议信息"。 当你发送此电子邮件时，它将包含所有音频会议信息，包括：
+有时Microsoft Teams用户可能需要你向用户发送其音频会议信息。 为此，可单击用户属性下的 **"** 通过电子邮件发送会议信息"。 当你发送此电子邮件时，它将包含所有音频会议信息，包括：
   
 - 用户的会议电话或拨入电话号码。
     

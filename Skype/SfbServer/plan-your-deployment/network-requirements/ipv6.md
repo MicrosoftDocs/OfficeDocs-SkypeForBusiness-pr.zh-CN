@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 01f77196-38f4-4292-9480-2e2fbd57eabe
-description: 摘要：在安装 IPv6 之前Skype for Business Server。
-ms.openlocfilehash: 02753ad0e2fee00e548dd2f709dc451373283cae2fe0fe2e30dbae62e77f12f1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 摘要：在安装 IPv6 之前实现Skype for Business Server。
+ms.openlocfilehash: ff58da4a4064c91949446e9107d0f3ff07b720e1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54289670"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593506"
 ---
 # <a name="plan-for-ipv6-in-skype-for-business"></a>规划 IPv6 Skype for Business
  
@@ -46,7 +46,7 @@ IPv4 地址是 32 位地址，允许计算机通过 Internet 进行通信。 由
 ## <a name="overview-of-ip-address-types"></a>IP 地址类型概述
 <a name="over"> </a>
 
-在服务器中配置 IP 地址时，有三Skype for Business Server。 可以将 Skype for Business Server 配置为仅支持 IP 版本 4 (IPv4) 、仅支持 IP 版本 6 (IPv6) ，或支持两者的组合 (称为双协议栈) 。 对于每种类型的配置，都需要考虑一些问题：
+在服务器中配置 IP 地址时，有三Skype for Business Server。 您可以将 Skype for Business Server 配置为仅支持 IP 版本 4 (IPv4) 、仅支持 IP 版本 6 (IPv6) ，或支持两者的组合（称为双协议栈 () ）。 对于每种类型的配置，都需要考虑一些问题：
   
 - **仅 IPv4** 创建 IPv6 是因为世界上的 IPv4 地址已用不上。 最终，IPv6 将会在世界范围内得到完全支持，但现在有很多您的企业可能需要与之通信的公司和设备尚不支持 IPv6，并且在一段时间内可能也不会支持。 仅 IPv4 配置有助于确保你的 Skype for Business Server 实现可以与大多数现有设备通信。
     
@@ -103,7 +103,7 @@ IPv4 地址是 32 位地址，允许计算机通过 Internet 进行通信。 由
 ### <a name="mediation-serverpstn"></a>中介服务器/PSTN
 <a name="med"> </a>
 
-Skype for Business Server通过 IPv6 接口 (PSTN) 公用电话交换网的媒体旁路。 如果需要媒体旁路，则我们建议将 PSTN 网关配置为 IPv4。 
+Skype for Business Server如果流量通过 IPv6 接口 (PSTN) ，则不支持公用电话交换网或 PSTN 呼叫的媒体旁路。 如果需要媒体旁路，则我们建议将 PSTN 网关配置为 IPv4。 
   
 |**主接口 1**|**PSTN 接口（位于中介服务器上）**|**PSTN 网关设置**|
 |:-----|:-----|:-----|
@@ -111,7 +111,7 @@ Skype for Business Server通过 IPv6 接口 (PSTN) 公用电话交换网的媒�
 |双协议栈  <br/> |双协议栈  <br/> |IPv4  <br/> |
 |双协议栈  <br/> |双协议栈  <br/> |IPv6  <br/> |
    
-1. 主接口是一个与Skype for Business Server接口。
+1. 主接口是一个接口，用于与Skype for Business Server组件通信。
   
 ### <a name="remote-user-peer-to-peer-communications"></a>远程用户对等通信
 <a name="remote"> </a>
@@ -156,7 +156,7 @@ Skype for Business Server通过 IPv6 接口 (PSTN) 公用电话交换网的媒�
 ### <a name="advanced-enterprise-voice-support-for-ipv6"></a>IPv6 的高级企业语音支持
 <a name="Ent_V"> </a>
 
-包括呼叫许可控制 (CAC)、增强型 9-1-1 (E9-1-1) 或媒体旁路的部署必须配置为仅 IPv4 或双协议栈实现。 仅使用 IPv6 的终结点无法使用这些功能中的任一功能。
+包括呼叫许可控制 (CAC)、增强型 9-1-1 (E9-1-1) 或媒体旁路的部署必须配置为仅 IPv4 或双协议栈实现。 仅使用 IPv6 的终结点无法使用其中任何功能。
   
 > [!NOTE]
 > 在双协议栈部署中，即使 Skype for Business Server 客户端使用 IPv6 连接到 Skype for Business Server，Skype for Business Server 也会尽力映射相应的 IPv4 地址以支持 E9-1-1。 
@@ -165,7 +165,7 @@ Skype for Business Server通过 IPv6 接口 (PSTN) 公用电话交换网的媒�
   
 Exchange 统一消息 (UM) 不支持 IPv6。对于 Exchange UM，请确保 DNS 解析不会返回 IPv6 地址。使用 IPv6 可能会在将呼叫发送至语音信箱时导致失败。 
   
-### <a name="other-skype-for-business-server-feature-support-for-ipv6"></a>IPv6 的其他Skype for Business Server功能支持
+### <a name="other-skype-for-business-server-feature-support-for-ipv6"></a>IPv6 的其他 Skype for Business Server 功能支持
 <a name="Ent_V"> </a>
 
 除了前面提到的功能和组件，Skype for Business Server以下功能支持 IPv6：
@@ -183,7 +183,7 @@ Exchange 统一消息 (UM) 不支持 IPv6。对于 Exchange UM，请确保 DNS �
 
 如果计划为 IPv6 Skype for Business Server配置 IPv6，请牢记以下要求：
   
-- 若要将 IPv6 地址与 Skype for Business Server，您需要为必须发现并解析为 IPv6 地址的记录创建域名系统 (DNS) 记录。 IPv6 DNS 使用主机 AAAA (4A) 记录。 如果在部署中同时使用 IPv4 和 IPv6，最好同时配置和维护 IPv4 的主机 A 记录和 IPv6 的主机 AAAA 记录。 即使将部署完全转换到 IPv6 后，仍可能需要 IPv4 DNS 主机记录以满足仍使用 IPv4 的用户。
+- 若要将 IPv6 地址与Skype for Business Server，您需要为必须发现并解析为 IPv6 地址的记录创建域名系统 (DNS) 记录。 IPv6 DNS 使用主机 AAAA (4A) 记录。 如果在部署中同时使用 IPv4 和 IPv6，最好同时配置和维护 IPv4 的主机 A 记录和 IPv6 的主机 AAAA 记录。 即使将部署完全转换到 IPv6 后，仍可能需要 IPv4 DNS 主机记录以满足仍使用 IPv4 的用户。
     
     您可以在开始使用 IPv6 前部署 IPv6 DNS 主机记录。 如果客户端或服务器不使用 IPv6，该记录不会被引用。 切换技术将根据切换技术配置和策略决定使用哪条记录。
     
@@ -195,7 +195,7 @@ Exchange 统一消息 (UM) 不支持 IPv6。对于 Exchange UM，请确保 DNS �
 ## <a name="migration-and-coexistence-considerations-for-ipv6"></a>IPv6 的迁移和共存注意事项
 <a name="migration"> </a>
 
-Lync Server 2010 或) Communications Server 不支持 IP 版本 6 (IPv6 Office IPv6 版本。 出于试点目的，您可以测试 Lync Server 2010 和 Skype for Business Server双协议栈共存。 建议在任何池启用 IPv6 (双协议栈网络) 之前，将给定中央站点的所有池升级到 Skype for Business Server。 如果您需要为池配置仅 IPv6，则建议您在实验室环境中设置仅 IPv6 以进行测试。
+Lync Server 2010 (Communications Server 不支持 IP 版本 6) IPv6 Office IPv6 版本。 出于试点目的，您可以测试 Lync Server 2010 和 Skype for Business Server双协议栈共存。 建议先将给定中央站点的所有池升级到 Skype for Business Server，然后再为任意池 (IPv6) 双协议栈网络。 如果您需要为池配置仅 IPv6，则建议您在实验室环境中设置仅 IPv6 以进行测试。
   
 迁移和共存期间支持下列方案：
   

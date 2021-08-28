@@ -1,5 +1,5 @@
 ---
-title: Teams 或 Skype for Business
+title: 用户或Teams反馈Skype for Business
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -9,29 +9,29 @@ ms.service: msteams
 ms.reviewer: rowille
 audience: admin
 description: 收集用户反馈，改进云语音在 Microsoft Teams 或 Skype for Business。
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 1d12d859f2d6d828db0ad5cfb9aa474143d89c94ddfa4a0b6ccc0d9233fb256c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f08760e7af5b40a063f0dd43c1b728444884bb9d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312710"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594514"
 ---
 # <a name="user-feedback-surveys"></a>用户反馈调查 
 
-使用反馈调查捕获部署后的用户体验和见解。 问题应引起有关用户更改的及时性、培训资源有效性、支持计划就绪程度以及用户总体体验的反馈。 评估调查响应，以根据在项目规划 (定义的、可测量的、可实现的、相关的、有时限的 SMART) ，并确定所需的任何其他操作。
+使用反馈调查捕获部署后的用户体验和见解。 问题应引起有关用户更改的及时性、培训资源有效性、支持计划就绪程度以及用户总体体验的反馈。 评估调查响应，以根据在项目 (定义的、可测量的、可实现的、相关的、有时限的 SMART) 目标进行衡量，并确定所需的任何其他操作。
 
 自定义以下问题，然后将它们转移到调查工具（例如SharePoint，便于分发和分析。
 
-对于这些调查，*新的* 电话系统是指使用 Microsoft Teams 或 Skype for Business 中的呼叫功能，以及媒体电话或移动电话等设备。 对这些调查Microsoft Teams的所有引用也适用于Skype for Business。
+对于这些调查，*除了* 媒体电话或移动电话等设备外，新电话系统Microsoft Teams或 Skype for Business 中的呼叫功能。 对这些调查Microsoft Teams的所有引用也适用于Skype for Business。
 
-指示你同意以下语句的级别，因为它与将Teams手机相关。 
+指示你同意以下语句的级别，因为它与将 Teams作为手机相关。 
 
 |     &nbsp;                              | 完全同意 | 稍稍同意 | 中性 | 有点不同意 | 完全不同意 | N/A 或不使用 |
 |--------------------------------------------------------------------------------------------------------------------------|----------------------|--------------------|-------------|-----------------------|-------------------------|------------------------|
@@ -39,12 +39,12 @@ ms.locfileid: "54312710"
 | 我可以使用新的桌面电话轻松拨打和接听电话。                                              |                      |                    |             |                       |                         |                        |
 | 我可以轻松登录到新的桌面电话。                                                                              |                      |                    |             |                       |                         |                        |
 | 我能够在移动设备上成功拨打和接听电话。                                                   |                      |                    |             |                       |                         |                        |
-| 新电话系统满足我的所有呼叫 (转接、保留、语音邮件等)                                       |                      |                    |             |                       |                         |                        |
-| 我看到将手机系统与手机集成Teams。                                                 |                      |                    |             |                       |                         |                        |
+| 新电话系统满足我的呼叫 (转接、保留、语音邮件等)                                       |                      |                    |             |                       |                         |                        |
+| 我看到将手机系统与手机集成的价值Teams。                                                 |                      |                    |             |                       |                         |                        |
 | 使用 Teams 作为我的手机，这样我更容易完成工作。                                          |                      |                    |             |                       |                         |                        |
 | 我的音频体验Teams与旧手机系统一样好或更好。                   |                      |                    |             |                       |                         |                        |
 
-如果你对 **上述任何** 表述选择"有些不同意"或"完全不同意"，请解释。  (打开文本) 
+如果你对 **上述任何表述选择**"有些不同意"或"完全不同意"，请解释。  (打开文本) 
 
 指示你同意以下声明的级别，因为它与新手机的载入体验相关。  
 
@@ -54,7 +54,7 @@ ms.locfileid: "54312710"
 | 我有足够的培训资源来快速载入新的手机系统。                                                          |                      |                    |             |                       |                         |                        |
 | 我们的支持人员可以回答我有关新电话系统的所有问题。                                                           |                      |                    |             |                       |                         |                        |
 
-如果你对 **上述任何** 表述选择"有些不同意"或"完全不同意"，请解释。  (打开文本) 
+如果你对 **上述任何表述选择**"有些不同意"或"完全不同意"，请解释。  (打开文本) 
 
 你向朋友或同事推荐Teams手机的可能性有多大？  (0=完全不可能...10=极可能) 
 

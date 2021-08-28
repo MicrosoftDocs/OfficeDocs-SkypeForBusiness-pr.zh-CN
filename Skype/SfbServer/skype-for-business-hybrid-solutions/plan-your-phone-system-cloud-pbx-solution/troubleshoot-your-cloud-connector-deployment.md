@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: e6cf58cc-dbd9-4f35-a51a-3e2fea71b5a5
 description: 云连接器版本部署疑难解答。
-ms.openlocfilehash: 7982cd153dcd9cc615201044c080479e9693550a0446b12c9a8a73c4366a9d57
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 95a3a89e4ae593ffa972f7b5de3891ee94aaeff6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344571"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623400"
 ---
 # <a name="troubleshoot-your-cloud-connector-deployment"></a>对云连接器部署进行故障排除
 
@@ -30,7 +30,7 @@ ms.locfileid: "54344571"
  
 云连接器版本部署疑难解答。
   
-本主题介绍云连接器版本部署常见问题的解决方案。 如果在呼叫公用电话交换网 (PSTN) 时遇到问题，可以按照本主题中所述的解决方案进行调查。
+本主题介绍云连接器版本部署常见问题的解决方案。 如果在呼叫公用电话交换网 (PSTN) 时遇到问题，可以按照本主题中介绍的解决方案进行调查。
   
 云连接器提供自动解决某些问题的内置机制。 自动检测过程会查找云连接器设备的潜在问题，如果可能，采取纠正措施来解决这些问题，而无需管理员干预。 检测过程的工作方式如下：
   
@@ -110,9 +110,9 @@ ms.locfileid: "54344571"
     > [!NOTE]
     > 此问题仅适用于早于 1.4.2 的云连接器版本。 
   
-    启动失败还可能是因为此前端服务器之前已故障转移到 (计算机故障转移) 。 如果是这种情况，请使用计算机故障回复 (调用故障回复) 。
+    启动失败还可能是因为此前端服务器之前已使用计算机故障转移 (故障转移) 。 如果是这种情况，请使用计算机故障回复 (调用故障回复) 。
     
-    **解决方法：** 边缘服务器不信任根 CA 证书或中间 CA 证书时，边缘服务器上会发生此问题。 即使可以导入外部证书，但证书链断开。 在这种情况下，RTCMRAUTH 和/或 RTCSRV 服务无法启动。
+    **解决方法：** 边缘服务器不信任根 CA 证书或中间 CA 证书时，边缘服务器上会发生此问题。 即使可以导入外部证书，但证书链已损坏。 在这种情况下，RTCMRAUTH 和/或 RTCSRV 服务无法启动。
     
     请手动将外部证书的根 CA 证书和所有中间 CA 证书导入边缘服务器，然后重新启动边缘服务器。 在看到 RTCMRAUTH 和 RTCSRV 服务在边缘服务器上启动后，返回到主机服务器，以管理员角色启动 PowerShell 控制台，然后运行以下 cmdlet 以切换到新部署：
     
@@ -146,7 +146,7 @@ ms.locfileid: "54344571"
     
     **解决方法：** 若要解决此问题，请参阅配置 [联机混合中介服务器设置。](configure-cloud-connector-integration-with-your-office-365-tenant.md#BKMK_ConfigureMediationServer)
     
-- **问题：在安装 Active Directory 服务器Windows更新时，会显示一条有关"Windows自动更新未启用"的警告消息。若要确保新安装的角色或功能自动更新，请打开"Windows"。**
+- **问题：在安装 Active Directory Windows更新时，会显示一条有关"Windows自动更新未启用的警告消息。若要确保新安装的角色或功能自动更新，请打开"Windows"。**
     
     **解决方法：** 使用租户管理员凭据Skype for Business租户远程 PowerShell 会话，然后运行以下 cmdlet 检查 _网站的 EnableAutoUpdate_ 配置：
     
@@ -154,7 +154,7 @@ ms.locfileid: "54344571"
   Get-CsHybridPSTNSite
   ```
 
-    如果 _EnableAutoUpdate_ 设置为 **True，** 可以安全地忽略此警告消息，因为 CCEManagement 服务将处理虚拟机和主机服务器的 Windows 更新的下载和安装。 如果  _EnableAutoUpdate_ 设置为 **False**，请运行以下 cmdlet 以将设置为 **True**。
+    如果 _EnableAutoUpdate_ 设置为 **True，** 可以安全地忽略此警告消息，因为 CCEManagement 服务将同时处理虚拟机和主机服务器的 Windows 更新的下载和安装。 如果  _EnableAutoUpdate_ 设置为 **False**，请运行以下 cmdlet 以将设置为 **True**。
     
   ```powershell
   Set-CsHybridPSTNSite -EnableAutoUpdate $true
@@ -162,11 +162,11 @@ ms.locfileid: "54344571"
 
     或者，可以手动检查并安装更新。 请参阅下一部分。
     
-- **问题：收到错误消息：无法注册设备，因为当前输入/配置或与设备 \<SiteName\> (\<ApplianceName\> \<Mediation Server FQDN\> \<Mediation Server IP Address\> 冲突) 。删除冲突设备或更新输入/配置信息，然后重新注册。在运行 Register-CcAppliance将当前设备注册到联机时。**
+- **问题：收到一条错误消息：无法注册设备，因为当前输入/配置或与现有设备 (\<SiteName\> \<ApplianceName\> \<Mediation Server FQDN\> \<Mediation Server IP Address\> 冲突) 。删除冲突设备或更新输入/配置信息，然后重新注册。运行设备Register-CcAppliance将当前设备注册到联机时。**
     
     **解决方法：**\<ApplianceName\>和 的值 \<Mediation Server FQDN\> \<Mediation Server IP Address\> 必须是唯一的，并且仅用于一个设备注册。 默认情况下， \<ApplianceName\> 来自主机名。 \<Mediation Server FQDN\> 和 \<Mediation Server IP Address\> 在配置 ini 文件中定义。
     
-    例如，使用 (ApplianceName= MyserverNew、中介服务器 FQDN=ms.contoso.com、 要注册到 SiteName=MySite 的中介服务器 IP Address=10.10.10.10) ，但如果存在注册设备 (ApplianceName= Myserver、中介服务器 FQDN=ms.contoso.com、中介服务器 IP Address=10.10.10.10) ，则存在冲突。
+    例如，使用 (ApplianceName= MyserverNew、中介服务器 FQDN=ms.contoso.com、 中介服务器 IP 地址=10.10.10.10) 注册到 SiteName=MySite，但是如果存在注册设备 (ApplianceName= Myserver、中介服务器 FQDN=ms.contoso.com、中介服务器 IP Address=10.10.10.10) ，则存在冲突。
     
     首先，请检查 ApplianceRoot CloudConnector.ini部分中的文件。 你将在 \<SiteName\> \<Mediation Server FQDN\> 文件中 \<Mediation Server IP Address\> 获取 和 值。 \<ApplianceName\> 是主机服务器名称。
     
@@ -176,24 +176,24 @@ ms.locfileid: "54344571"
   Get-CsHybridPSTNAppliance
   ```
 
-    识别任何冲突后，可以使用与已注册设备匹配的信息更新 CloudConnector.ini 文件，或者注销现有设备以解决冲突。
+    识别任何冲突后，可以使用与注册设备匹配的信息更新 CloudConnector.ini 文件，或者注销现有设备以解决冲突。
     
   ```powershell
   Unregister-CsHybridPSTNAppliance -Force
   ```
 
     
-- **问题：如果Get-CcRunningVersion已部署的设备，则此 cmdlet 将返回空值。**
+- **问题：Get-CcRunningVersion主机上运行的已部署设备时，此 cmdlet 将返回空值。**
     
-  **解决方法：** 从 1.3.4 或 1.3.8 升级到 1.4.1 时，可能会发生这种情况。 在将版本 1.4.1 与 .msi一起安装后，必须在运行任何其他 `Register-CcAppliance` cmdlet 之前运行。 `Register-CcAppliance` 将文件module.ini %UserProfile%\CloudConnector 迁移到 %ProgramData%\CloudConnector。 如果你错过它，将在 %ProgramData%\CloudConnector 文件夹中module.ini一个新的数据库，并替换 1.3.4 或 1.3.8 的运行/备份版本信息。
+  **解决方法：** 从 1.3.4 或 1.3.8 升级到 1.4.1 时，可能会发生这种情况。 在将版本 1.4.1 与 .msi一起安装后，必须在运行任何其他 `Register-CcAppliance` cmdlet 之前运行。 `Register-CcAppliance` 将文件module.ini %UserProfile%\CloudConnector 迁移到 %ProgramData%\CloudConnector。 如果错过它，将在 %ProgramData%\CloudConnector 文件夹中module.ini一个新的数据库，并替换 1.3.4 或 1.3.8 的运行/备份版本信息。
     
   比较module.ini %UserProfile%\CloudConnector 和 %ProgramData%\CloudConnector 文件夹中的文件。 如果存在差异，请删除 %ProgramData%\CloudConnector module.ini文件，然后重新运行  `Register-CcAppliance` 。 您还可以手动将该文件修改为正确的运行和备份版本。
     
 - **问题：运行 Switch-CcVersion cmdlet 以切换到与当前脚本版本不同的旧版本后，此旧版本没有高可用性支持。**
     
-    **解决方法：** 例如，您从 1.4.1 升级到 1.4.2。 当前脚本版本（可通过运行 确定）和正在运行的版本（可通过运行确定） `Get-CcVersion`  `Get-CcRunningVersion` 都是 1.4.2。 此时，如果运行 以将正在运行的版本切换回 `Switch-CcVersion` 1.4.1，则此旧版本将没有高可用性支持。
+    **解决方法：** 例如，您从 1.4.1 升级到 1.4.2。 当前脚本版本（可通过运行 来确定）和运行的版本（可通过运行确定） `Get-CcVersion`  `Get-CcRunningVersion` 都是 1.4.2。 此时，如果运行 以将正在运行的版本切换回 `Switch-CcVersion` 1.4.1，则此旧版本将没有高可用性支持。
     
-    若要获得完整的高可用性支持，请切换回 1.4.2，以便运行的版本和脚本版本相同。 如果 1.4.2 部署出现问题，请尽快卸载并重新安装。
+    若要获得完整的高可用性支持，请切换回 1.4.2，以便运行的版本和脚本版本相同。 如果 1.4.2 部署出现问题，请尽快卸载并重新安装它。
     
 - **问题：颁发给中央管理存储、中介服务器和边缘服务器的证书颁发机构证书或内部证书即将过期或受到威胁。**
     
@@ -204,7 +204,7 @@ ms.locfileid: "54344571"
   
     如果颁发给中央管理存储、中介服务器和边缘服务器的内部证书即将过期或受到威胁，请运行 Renew-CcServerCertificate 或 Update-CcServerCertificate cmdlet 来续订证书。
     
-    如果证书颁发机构证书即将过期，请运行 Renew-CcCACertificate 或 Update-CcCACertificate cmdlet 来续订证书。
+    如果证书颁发机构证书即将过期，请Renew-CcCACertificate或Update-CcCACertificate cmdlet 续订证书。
     
     **如果证书颁发机构证书受到威胁，并且** 站点中只有一个设备，请执行以下步骤：
     
@@ -306,7 +306,7 @@ ms.locfileid: "54344571"
      ```
     
     
-- **问题：在云连接器管理服务日志中收到以下错误消息"C：\Program Files\Skype for Business 云连接器版本\ManagementService\CceManagementService.log"： CceService Error： 0 ： Unexpected exception when reporting status to online： System.Management.Automation.CmdletInvocationException： Logon failed for the user \<Global Tenant Admin\> .请创建新的凭据对象，确保已使用正确的用户名和密码。---\>**
+- **问题：在云连接器管理服务日志中收到以下错误消息，"C：\Program Files\Skype for Business 云连接器版本\ManagementService\CceManagementService.log"： CceService Error： 0： Unexpected exception when reporting status to online： System.Management.Automation.CmdletInvocationException： Logon failed for the user \<Global Tenant Admin\> .请创建新的凭据对象，确保已使用正确的用户名和密码。---\>**
     
     **解决方法：** 自Microsoft 365云Office 365以来，全局租户管理员凭据或全局租户管理员凭据已更改。 若要更新云连接器设备本地存储的凭据，请从主机上的管理员 PowerShell 运行以下代码：
     
@@ -352,13 +352,13 @@ ms.locfileid: "54344571"
     
        2. 当系统提示输入新帐户凭据时，请输入之前使用的 DomainAdmin 密码的密码。
     
-  11. 运行 Set-CcCredential -AccountType VmAdmin，如下所示：
+  11. 运行Set-CcCredential -AccountType VmAdmin，如下所示：
     
        1. 当系统提示输入旧帐户凭据时，输入用于 CceService 密码的凭据
     
        2. 当系统提示输入新帐户凭据时，请输入之前使用的 VmAdmin 密码的密码。 
     
-- **问题：对于云连接器版本 2.1 及更高版本，当在设备中运行 Register-CcAppliance 或其他 cmdlet 时，将收到错误消息，例如："对于 Each-Object ：在此对象上找不到属性"Common"。验证属性是否存在。在 C：\Program Files\WindowsPowerShell\Modules\CloudConnector\Internal\MtHostCommon.ps1：681 char：14"**
+- **问题：对于云连接器版本 2.1 及更高版本，当在设备中运行 Register-CcAppliance 或其他 cmdlet 时，将收到错误消息，例如："对于 Each-Object ：在此对象上找不到属性"Common"。验证属性是否存在。位于 C：\Program Files\WindowsPowerShell\Modules\CloudConnector\Internal\MtHostCommon.ps1：681 char：14"**
     
     **解决方法：** 云连接器 2.1 及更高版本.NET Framework 4.6.1 或更高版本。 Please update .NET Framework on the appliance to version 4.6.1 or later and run the cmdlet (s) again.
 
@@ -378,9 +378,9 @@ ms.locfileid: "54344571"
     
   - 如果第一个云连接器设备出现故障，并且无法确定故障原因，则必须在部署成功之前再次安装该设备，然后安装其他设备。
     
-  - 如果第一个云连接器设备出现故障，出现一个小问题（如外部证书问题）时，你可能能够在不重新安装该设备的情况下解决该问题。 然后，可以使用租户远程 PowerShell 将部署标记为成功，如下所示。  (如果第一次部署成功，您也可以使用以下步骤，但出于某种原因，云连接器无法将部署报告为成功。) 
+  - 如果第一个云连接器设备出现故障，出现次要问题（如外部证书问题）时，你可能能够在不重新安装该设备的情况下修复该问题。 然后，可以使用租户远程 PowerShell 将部署标记为成功，如下所示。  (如果第一次部署成功，您也可以使用以下步骤，但出于某种原因，云连接器无法将部署报告为成功。) 
     
-  - 若要获取第一 (设备的 IDENTITY) GUID，请运行 Get-CsHybridPSTNAppliance cmdlet。
+  - 若要获取第一 (设备的 Identity) GUID，请运行 Get-CsHybridPSTNAppliance cmdlet。
     
   - 若要将设备标记为已成功部署，请Set-CsCceApplianceDeploymentStatus如下所示：
     
@@ -404,12 +404,12 @@ ms.locfileid: "54344571"
     
    - 关闭云连接器设备的 PowerShell，然后重新打开 PowerShell。
     
-     - 或者，你可以运行 Import-Module -Force。 
+     - 或者，你可以运行 cloudConnector Import-Module -Force。 
  
 -   **问题："The term 'Stop-CsWindowsService' is not recognized as the name of a cmdlet， function， script file， or operable program." error when attempting to run Enter-CcUpdate cmdlet.**
 
     **解决方法：** 删除 $HOME\AppData\Local\Microsoft\Windows\PowerShell\ModuleAnalysisCache 文件。
-PowerShell 将此文件创建为它找到的模块中的 cmdlet 缓存，这样它就不必每次重新分析所有模块，因为这样做会使操作变得很慢。 很可能存在一些文件损坏，导致 PowerShell 在从该缓存中回读时产生令人误解的结果。
+PowerShell 将此文件创建为它找到的模块中的 cmdlet 的缓存，因此它不必每次重新分析所有模块，因为这样做会使操作变得很慢。 很可能存在一些文件损坏，导致 PowerShell 在从该缓存中回读时产生令人误解的结果。
 
 -   **问题："Import-Module CloudConnector"生成错误"Import-Module： 未加载指定的模块"CloudConnector"，因为在任何模块目录中都未找到有效的模块文件"**
 
@@ -427,7 +427,7 @@ PowerShell 将此文件创建为它找到的模块中的 cmdlet 缓存，这样�
 
 如果不希望在环境中使用自动更新，请按照以下步骤手动检查并应用Windows更新。 检查并安装Windows可能需要重新启动服务器。 当主机服务器重新启动时，用户将不能使用云连接器拨打或接听呼叫。 你可以手动检查并安装更新，以控制更新发生的时间，然后在选择的时间根据需要重新启动计算机以避免服务中断。
   
-若要手动检查更新，请连接到每台主机服务器并打开 **控制面板**。 选择 **"系统和安全 \> Windows** 更新"，然后根据你的环境管理更新和服务器重新启动。
+若要手动检查更新，请连接到每台主机服务器并打开 **控制面板**。 选择 **"系统 \> 和安全Windows** 更新"，然后根据你的环境管理更新和服务器重新启动。
   
 - 如果站点中只有一个设备，请连接到每台虚拟机并打开 **控制面板**。 选择 **"系统 \> 和安全Windows""** 更新"，然后根据情况配置更新和服务器重新启动。
     
@@ -453,7 +453,7 @@ PowerShell 将此文件创建为它找到的模块中的 cmdlet 缓存，这样�
 
 对于多站点部署，请按照部署中每个站点的单个站点的步骤操作，一次将更新应用到一个站点。
   
-## <a name="tips-when-installing-anti-virus-software-on-the-cloud-connector-host-machine"></a>使用技巧云连接器主机计算机上安装防病毒软件时，请运行此配置
+## <a name="tips-when-installing-anti-virus-software-on-the-cloud-connector-host-machine"></a>使用技巧在云连接器主机计算机上安装防病毒软件时，将启用此配置
 
 如果需要在云连接器主机计算机上安装防病毒软件，需要添加以下排除项：
   

@@ -13,15 +13,15 @@ ms.custom:
 - ms.lync.plan.ExchagneUM
 - ms.lync.plan.ExchagneUM
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cb767f83-2684-4006-a1f2-c6f0adf50f62
 description: Skype for Business Server与统一Exchange集成，以将语音邮件和电子邮件合并到单个邮件基础结构中。
-ms.openlocfilehash: 8190104036f217e4ac85bc5a08c4d99471479805f9ab7594bc49525770833ff4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4363cd9c2ce79d2d55403f4f4f6a63b096125e85
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343656"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615848"
 ---
 # <a name="skype-for-business-server-exchange-unified-messaging-planning-tool"></a>Skype for Business Server Exchange统一消息规划工具
 

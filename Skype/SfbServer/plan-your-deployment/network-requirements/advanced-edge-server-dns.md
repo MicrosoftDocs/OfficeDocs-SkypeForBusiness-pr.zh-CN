@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: 查看部署选项Skype for Business Server方案。 无论是希望使用单个服务器，还是首选具有 DNS 或 HLB 的服务器池，本主题都应有所帮助。
-ms.openlocfilehash: d7f3847cb538dcdfbb09809b6313a9aa9b4f42e5431aa279d411a97bb0979752
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 208098fe44238d9d96debbde7b8c00daf6622b91
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315468"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602347"
 ---
 # <a name="advanced-edge-server-dns-planning-for-skype-for-business-server"></a>高级边缘服务器 DNS 规划Skype for Business Server
  
@@ -75,7 +75,7 @@ Skype for Business客户端在客户端中查找和访问服务的方式与以�
 自动发现服务始终受支持，因为这是服务位置的首选方法，其他方法为回退方法。
   
 > [!NOTE]
-> 在创建 SRV 记录时，必须记住，如果使用 IPv6 寻址) ，且正在创建 DNS SRV 记录的同一域中，它们需要指向 DNS A (和 AAAA。 例如，如果 SRV 记录在 contoso.com 中，则它 (A 和 AAAA) 记录不能 fabrikam.com。 
+> 在创建 SRV 记录时，必须记住，如果使用 IPv6 寻址) （在创建 DNS SRV 记录的同一域中）中，它们需要指向 DNS A (和 AAAA。 例如，如果 SRV 记录在 contoso.com 中，则它指向的 A (和 AAAA) 记录不能 fabrikam.com。 
   
 如果你倾向于这样做，你可以将移动设备设置为手动发现服务。 如果你希望这样做，每个用户都需要使用完整的内部和外部自动发现服务 URI（包括协议和路径）配置其移动设备设置，如下所示：
   
@@ -83,7 +83,7 @@ Skype for Business客户端在客户端中查找和访问服务的方式与以�
     
 - 对于内部访问：https:// \<IntPoolFQDN\> /AutoDiscover/AutoDiscover.svc/Root
     
-我们建议你使用自动发现，而不是手动发现。 但是，如果你要执行一些故障排除或测试，手动设置可能会很有帮助。
+我们建议你使用自动发现，而不是手动发现。 但是，如果你要执行一些疑难解答或测试，手动设置可能会很有帮助。
   
 ## <a name="split-brain-dns"></a>拆分式 DNS
 <a name="SplitBrainDNS"> </a>
@@ -104,17 +104,17 @@ Skype for Business客户端在客户端中查找和访问服务的方式与以�
     
   - DNS A 和 AAAA (如果使用 IPv6 寻址前端池、控制器池或控制器池名称以及组织网络中运行 Skype for Business Server 的所有内部服务器的) 记录。
     
-  - 如果在外围网络中 (边缘服务器的边缘内部接口使用 IPv6 寻址) 记录，则 DNS A 和 AAAA Skype for Business Server。
+  - 如果为外围网络中 (边缘服务器的边缘内部接口使用 IPv6 寻址) 记录，则 DNS A 和 AAAA Skype for Business Server。
     
-  - DNS A 和 AAAA (如果你为外围网络 (中每台反向代理服务器的内部接口使用 IPv6 寻址) 记录，这是可选的，用于管理反向代理) 。
+  - DNS A 和 AAAA (如果你为外围网络 (中每台反向代理服务器的内部接口使用 IPv6 寻址) 记录) 则此地址是可选的。 
     
-  - 如果使用 IPv6 寻址) 和 SRV 记录进行内部 Skype for Business Server 客户端自动配置 (则使用 DNS A 和 AAA (A (是可选的 **) 。**
+  - DNS A 和 AAAA (如果使用 IPv6 寻址) 和 SRV 记录进行内部 Skype for Business Server 客户端自动配置 (可选 **) 。**
     
   - DNS A 和 AAAA (如果使用 IPv6 寻址) 或 CNAME 记录自动发现 Skype for Business Server Web (（可选 **) ）。**
     
 - 外围Skype for Business Server中所有内部边缘接口均使用此内部 DNS 区域解析 contoso.com。
     
-- 所有运行 Skype for Business Server 的服务器和在企业网络中运行 Skype for Business Server 的客户端指向内部 DNS 服务器以解析对 contoso.com 的查询，或者，如果使用 IPv6 寻址下一跃点服务器 (（特别是控制器或控制器池 VIP、前端池 VIP 或 Standard Edition 服务器) ）的 IPv6 寻址) 记录，则它们使用每台边缘服务器的主机文件并列出 A 和 AAAA (。
+- 所有运行 Skype for Business Server 的服务器和在企业网络中运行 Skype for Business Server 的客户端指向内部 DNS 服务器以解析对 contoso.com 的查询，或者，如果使用 IPv6 寻址) 记录（特别是针对控制器或控制器池 VIP、前端池 VIP 或 Standard Edition 服务器) 使用 IPv6 寻址 () 记录，则这些服务器会在每个边缘服务器上列出 A 和 AAAA (。
     
 ### <a name="external-dns"></a>外部 DNS
 
@@ -122,9 +122,9 @@ Skype for Business客户端在客户端中查找和访问服务的方式与以�
     
 - 此外部 contoso.com 包含：
     
-  - DNS A 和 AAAA (如果使用 IPv6 寻址) 或 CNAME 记录，用于自动发现 Skype for Business Server Web 服务。 这适用于移动性。
+  - DNS A 和 AAAA (如果你使用 IPv6 寻址) 或 CNAME 记录，用于自动发现 Skype for Business Server Web 服务。 这适用于移动性。
     
-  - DNS A 和 AAAA (如果你对外围网络中每台 Skype for Business Server 边缘服务器的边缘外部接口或硬件负载平衡 (HLB) VIP 使用 IPv6 寻址) 和 SRV 记录。
+  - 如果对外围网络中每台 Skype for Business Server 边缘服务器的边缘外部接口或硬件负载平衡 (HLB) VIP 使用 IPv6 寻址) 和 SRV 记录，DNS A 和 AAA (A) 。
     
   - DNS A 和 AAAA (如果使用 IPv6 寻址) 和 SRV 记录用于外围网络中反向代理服务器) 池的反向代理服务器的外部接口或 (VIP。
     
@@ -133,7 +133,7 @@ Skype for Business客户端在客户端中查找和访问服务的方式与以�
 ## <a name="automatic-configuration-without-split-brain-dns"></a>无拆分式 DNS 的自动配置
 <a name="NoSplitBrainDNS"> </a>
 
-如果不使用拆分式 DNS，则运行 Skype for Business 的内部自动配置将不起作用，除非你使用的是我们在此处的解决方法之一。 这是为什么？ 由于Skype for Business Server要求用户的 SIP URI 与为自动配置指定的前端池的域相匹配。 这一点与早期版本的 Lync Server 没有变化。
+如果不使用拆分式 DNS，则运行 Skype for Business 的客户端的内部自动配置将不起作用，除非你使用的是我们在此处的解决方法之一。 这是为什么？ 由于Skype for Business Server要求用户的 SIP URI 与为自动配置指定的前端池的域相匹配。 这一点与早期版本的 Lync Server 没有变化。
   
 因此，如果您有两个 SIP 域在使用中，则需要以下 DNS SRV 记录：
   
@@ -143,7 +143,7 @@ Skype for Business客户端在客户端中查找和访问服务的方式与以�
     
 - _sipinternaltls._tcp.fabrikam.com。 86400 IN SRV 0 0 5061 pool01.fabrikam.com
     
-     *如果用户以用户 alice@fabrikam.com 登录，此记录将适用于第二个域的自动配置，同样，因为 SIP 域与该域的前端池匹配。* 
+     *如果用户以用户 alice@fabrikam.com 登录，此记录适用于第二个域的自动配置，同样，因为 SIP 域与该域的前端池匹配。* 
     
 若要进一步说明示例，此操作将不起作用：
   
@@ -162,15 +162,15 @@ Skype for Business客户端在客户端中查找和访问服务的方式与以�
   
 - **匹配内部区域**
     
-    您需要在内部 DNS 中创建一个与外部 DNS 区域 (（例如 contoso.com) ）匹配的区域，然后使用与用于自动配置的 Skype for Business Server 池相对应的 IPv6 寻址) 记录，然后创建 DNS A (和 AAAA。
+    您需要在内部 DNS 中创建一个与外部 DNS 区域 (（例如 contoso.com) ）相匹配的区域，然后使用与用于自动配置的 Skype for Business Server 池相对应的 IPv6 寻址) 记录，然后创建 DNS A (和 AAAA。
     
-    例如，如果用户托管在 pool01.contoso.net 上，但以 bob@contoso.com 登录 Skype for Business，请创建一个称为 contoso.com 的内部 DNS 区域，如果在 pool01.contoso.com 使用 IPv6 寻址的) 记录，则需要在内部创建 DNS A (和 AAAA。
+    例如，如果你的用户托管在 pool01.contoso.net 上，但以 bob@contoso.com 登录 Skype for Business，请创建名为 contoso.com 的内部 DNS 区域，如果在 pool01.contoso.com 使用 IPv6 寻址的) 记录，则需要在内部创建 DNS A (和 AAAA。
     
 - **固定点内部区域**
     
-    如果无法选择在内部 DNS 中创建整个区域，可以创建与自动配置所需的 SRV 记录对应的 pin-point (专用) 区域，并使用 dnscmd.exe 填充这些区域。 Dnscmd.exe，因为 DNS 用户界面不支持创建 pin-point 区域。
+    如果无法选择在内部 DNS 中创建整个区域，可以创建与自动配置所需的 SRV 记录对应的 pin-point (专用) 区域，并使用 dnscmd.exe 填充这些区域。 Dnscmd.exe，因为 DNS 用户界面不支持创建点区域。
     
-    例如，如果您的 SIP 域是 contoso.com，并且您的前端池名为 pool01，其中包含两台前端服务器，则内部 DNS 中需要以下 pin-point 区域和 A 记录：
+    例如，如果您的 SIP 域是 contoso.com，并且您的前端池名为 pool01，其中包含两台前端服务器，则需要在内部 DNS 中具有以下 pin-point 区域和 A 记录：
     
   ```console
   dnscmd . /zoneadd _sipinternaltls._tcp.contoso.com. /dsprimary
@@ -198,36 +198,36 @@ Skype for Business客户端在客户端中查找和访问服务的方式与以�
 > 你将看到前端池 FQDN 出现两次，但显示两个不同的 IP 地址。 这是因为使用了 DNS 负载平衡。 如果使用 HLB，则只有一个前端池条目。 
   
 > [!NOTE]
-> 此外，前端池 FQDN 值在 contoso.com 和 fabrikam.com 更改，但 IP 地址保持不变。 这是因为从任一 SIP 域登录的用户将使用相同的前端池进行自动配置。 
+> 此外，前端池 FQDN 值在 contoso.com 和 fabrikam.com 示例中更改，但 IP 地址保持不变。 这是因为从任一 SIP 域登录的用户将使用相同的前端池进行自动配置。 
   
 ## <a name="dns-disaster-recovery"></a>DNS 灾难恢复
 <a name="DNSDR"> </a>
 
 若要将 DNS 配置为Skype for Business Server Web 流量重定向到灾难恢复 (DR) 和故障转移网站，您需要使用支持 GeoDNS 的 DNS 提供程序。 您可以将 DNS 记录设置为支持灾难恢复，以便即使整个前端池关闭，使用 Web 服务的功能也将继续。 此 DR 功能支持自动发现、会议和拨入简单 URL。
   
-如果在 GeoDNS 提供程序中为 Web 服务的内部和外部解析) IPv6 记录，则定义和配置其他 DNS 主机 (A 或 AAAA。 以下详细信息假定池已配对，地理位置分散，且您的提供商支持的 GeoDNS 具有循环 **DNS** 或配置为使用 Pool1 作为主池，并且在任何通信丢失或电源故障时将故障转网到 Pool2。
+如果在 GeoDNS 提供程序上为 Web 服务的内部和外部解析 (IPv6) 记录，则定义和配置其他 DNS 主机 A 或 AAAA。 以下详细信息假定池已配对，地理位置分散，且您的提供商支持的 GeoDNS 要么具有循环 **DNS，** 要么配置为使用 Pool1 作为主池，并且在任何通信丢失或电源故障时将故障转网到 Pool2。
   
 此表中的所有 DNS 记录都是示例。
   
 |**GeoDNS 记录**|**池记录**|**CNAME 记录**|**DNS 设置 (选择一个选项)**|
 |:-----|:-----|:-----|:-----|
-|Meet-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Meet.contoso.com 别名 Pool1InternalWebFQDN.contoso.com  <br/> Meet.contoso.com 别名 Pool2InternalWebFQDN.contoso.com  <br/> |池之间的循环  <br/> **OR** <br/> 使用主服务器，如果发生故障，请连接到辅助服务器  <br/> |
-|Meet-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Meet.contoso.com 别名 Pool1ExternalWebFQDN.contoso.com  <br/> Meet.contoso.com 别名 Pool2ExternalWebFQDN.contoso.com  <br/> |池之间的循环  <br/> **OR** <br/> 使用主服务器，如果发生故障，请连接到辅助服务器  <br/> |
-|Dialin-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Dialin.contoso.com 别名 Pool1InternalWebFQDN.contoso.com  <br/> Dialin.contoso.com 别名 Pool2InternalWebFQDN.contoso.com  <br/> |池之间的循环  <br/> **OR** <br/> 使用主服务器，如果发生故障，请连接到辅助服务器  <br/> |
-|Dialin-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Dialin.contoso.com 别名 Pool1ExternalWebFQDN.contoso.com  <br/> Dialin.contoso.com 别名 Pool2ExternalWebFQDN.contoso.com  <br/> |池之间的循环  <br/> **OR** <br/> 使用主服务器，如果发生故障，请连接到辅助服务器  <br/> |
-|Lyncdiscoverint-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Lyncdiscoverinternal.contoso.com 别名 Pool1InternalWebFQDN.contoso.com  <br/> Lyncdiscoverinternal.contoso.com 别名 Pool2InternalWebFQDN.contoso.com  <br/> |池之间的循环  <br/> **OR** <br/> 使用主服务器，如果发生故障，请连接到辅助服务器  <br/> |
-|Lyncdiscover-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Lyncdiscover.contoso.com 别名 Pool1ExternalWebFQDN.contoso.com  <br/> Lyncdiscover.contoso.com 别名 Pool2ExternalWebFQDN.contoso.com  <br/> |池之间的循环  <br/> **OR** <br/> 使用主服务器，如果发生故障，请连接到辅助服务器  <br/> |
-|Scheduler-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Scheduler.contoso.com 别名 Pool1InternalWebFQDN.contoso.com  <br/> Scheduler.contoso.com 别名 Pool2InternalWebFQDN.contoso.com  <br/> |池之间的循环  <br/> **OR** <br/> 使用主服务器，如果发生故障，请连接到辅助服务器  <br/> |
-|Scheduler-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Scheduler.contoso.com 别名 Pool1ExternalWebFQDN.contoso.com  <br/> Scheduler.contoso.com 别名 Pool2ExternalWebFQDN.contoso.com  <br/> |池之间的循环  <br/> **OR** <br/> 使用主服务器，如果发生故障，请连接到辅助服务器  <br/> |
+|Meet-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Meet.contoso.com 别名 Pool1InternalWebFQDN.contoso.com  <br/> Meet.contoso.com 别名 Pool2InternalWebFQDN.contoso.com  <br/> |池之间的循环  <br/> **或** <br/> 使用主服务器，如果发生故障，请连接到辅助服务器  <br/> |
+|Meet-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Meet.contoso.com 别名 Pool1ExternalWebFQDN.contoso.com  <br/> Meet.contoso.com 别名 Pool2ExternalWebFQDN.contoso.com  <br/> |池之间的循环  <br/> **或** <br/> 使用主服务器，如果发生故障，请连接到辅助服务器  <br/> |
+|Dialin-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Dialin.contoso.com 别名 Pool1InternalWebFQDN.contoso.com  <br/> Dialin.contoso.com 别名 Pool2InternalWebFQDN.contoso.com  <br/> |池之间的循环  <br/> **或** <br/> 使用主服务器，如果发生故障，请连接到辅助服务器  <br/> |
+|Dialin-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Dialin.contoso.com 别名 Pool1ExternalWebFQDN.contoso.com  <br/> Dialin.contoso.com 别名 Pool2ExternalWebFQDN.contoso.com  <br/> |池之间的循环  <br/> **或** <br/> 使用主服务器，如果发生故障，请连接到辅助服务器  <br/> |
+|Lyncdiscoverint-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Lyncdiscoverinternal.contoso.com 别名 Pool1InternalWebFQDN.contoso.com  <br/> Lyncdiscoverinternal.contoso.com 别名 Pool2InternalWebFQDN.contoso.com  <br/> |池之间的循环  <br/> **或** <br/> 使用主服务器，如果发生故障，请连接到辅助服务器  <br/> |
+|Lyncdiscover-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Lyncdiscover.contoso.com 别名 Pool1ExternalWebFQDN.contoso.com  <br/> Lyncdiscover.contoso.com 别名 Pool2ExternalWebFQDN.contoso.com  <br/> |池之间的循环  <br/> **或** <br/> 使用主服务器，如果发生故障，请连接到辅助服务器  <br/> |
+|Scheduler-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Scheduler.contoso.com 别名 Pool1InternalWebFQDN.contoso.com  <br/> Scheduler.contoso.com 别名 Pool2InternalWebFQDN.contoso.com  <br/> |池之间的循环  <br/> **或** <br/> 使用主服务器，如果发生故障，请连接到辅助服务器  <br/> |
+|Scheduler-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Scheduler.contoso.com 别名 Pool1ExternalWebFQDN.contoso.com  <br/> Scheduler.contoso.com 别名 Pool2ExternalWebFQDN.contoso.com  <br/> |池之间的循环  <br/> **或** <br/> 使用主服务器，如果发生故障，请连接到辅助服务器  <br/> |
    
 ## <a name="dns-load-balancing"></a>DNS load balancing － DNS 负载平衡
 <a name="DNSLB"> </a>
 
-DNS 负载平衡通常在应用程序级别实现。 应用程序 (例如，运行 Skype for Business) 的客户端，如果对池 FQDN 使用 IPv6 寻址的) 记录查询，则通过连接到从 DNS A 和 AAAA (返回的 IP 地址之一来尝试连接到池中的服务器。
+DNS 负载平衡通常在应用程序级别实现。 应用程序 (例如，运行 Skype for Business) 的客户端，如果对池 FQDN 使用 IPv) 6 寻址，则通过连接到从 DNS A 和 AAAA (返回的 IP 地址之一来尝试连接到池中的服务器。
   
 例如，如果名为 pool01.contoso.com 的池中有三台前端服务器，则会发生以下情况：
   
-- 运行 dns Skype for Business客户端查询 dns pool01.contoso.com。 查询返回三个 IP 地址，并按以下 (顺序缓存它们) ：
+- 运行 dns 的Skype for Business DNS 查询 pool01.contoso.com。 查询返回三个 IP 地址，并按以下 (顺序缓存它们) ：
     
    |&nbsp;|&nbsp;|
    |:-----|:-----|
@@ -239,18 +239,18 @@ DNS 负载平衡通常在应用程序级别实现。 应用程序 (例如，运�
     
 - 如果 TCP 连接成功，客户端将协商 TLS 以连接到 pool01.contoso.com。
     
-- 如果客户端在未成功连接的情况下尝试所有缓存的条目，用户将收到一条通知，Skype for Business Server当前没有可用的服务器。
+- 如果客户端在未成功连接的情况下尝试所有缓存的条目，则用户将收到一条通知，Skype for Business Server当前没有可用的服务器。
     
 > [!NOTE]
-> 基于 DNS 的负载平衡不同于 DNS 轮循机制 (DNS RR) ，DNS RR) 通常是指通过依赖 DNS 为池中的服务器提供不同的 IP 地址顺序来实现负载平衡。 通常，DNS RR 会启用负载分布，但不允许您启用故障转移。 例如，如果与 IPv6 方案中 DNS A (或 AAAA 返回的一个 IP 地址的连接) 查询失败，该连接将失败。 这使得 DNS RR 的可靠性低于基于 DNS 的负载平衡。 如果需要，您仍可以将 DNS RR 与基于 DNS 的负载平衡结合使用。 
+> 基于 DNS 的负载平衡不同于 DNS 轮循机制 (DNS RR) ，DNS RR) 通常是指通过依赖 DNS 为池中的服务器提供不同顺序的 IP 地址进行负载平衡。 通常，DNS RR 会启用负载分布，但不允许您启用故障转移。 例如，如果与 DNS A 或 AAAA 在 IPv6 方案中返回的一个 IP 地址 (或 AAAA 的连接失败) 该连接将失败。 这使得 DNS RR 的可靠性低于基于 DNS 的负载平衡。 如果需要，您仍可以将 DNS RR 与基于 DNS 的负载平衡结合使用。 
   
 DNS 负载平衡用于：
   
 - 负载平衡服务器到服务器 SIP 到边缘服务器。
     
-- 负载平衡 统一通信应用程序服务 (一) 应用程序，如会议自动助理、响应组和呼叫呼叫呼叫提供商。
+- 负载平衡 统一通信应用程序服务 (一) 应用程序，如会议自动助理、响应组和呼叫呼叫呼叫应答。
     
-- 阻止与 UCAS 应用程序的新 (也称为排出) 。
+- 阻止与 一起 (一起消耗资源) 。
     
 - 负载平衡客户端和边缘服务器之间的所有客户端到服务器流量。
     
@@ -262,7 +262,7 @@ DNS 负载平衡不能用于：
   
 例如，如果第一条 DNS SRV 记录的权重为 20，优先级为 40，第二条 DNS SRV 记录的权重为 10，优先级为 50，则选择第一条记录，因为它的优先级为 40。 优先级始终优先，这是客户端首先面向的主机。 如果存在两个优先级相同的目标，该做什么？ 
   
-在这种情况下，需要考虑权重。 在这种情况下，权重越大，被选中的可能性越大。 当没有任何服务器选择时，DNS 管理员应使用权重 0。 存在权重大于 0 的记录时，权重为 0 的记录被选中的可能性很小。
+在这种情况下，需要考虑权重。 在这种情况下，权重越大，被选中的可能性越大。 当没有任何服务器选择时，DNS 管理员应使用权重 0。 当存在权重大于 0 的记录时，权重为 0 的记录被选中的可能性很小。
   
 那么，如果返回多个优先级和权重相同的 DNS SRV 记录，会发生什么情况？ 在这种情况下，访问边缘服务将选择它首先从 DNS 服务器获取的 SRV 记录。
   

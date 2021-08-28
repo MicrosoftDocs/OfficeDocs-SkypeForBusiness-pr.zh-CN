@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 了解如何在白俄罗斯拨打免费电话号码，包括可用性、有线/固定线路和移动网络可用性以及限制。
-ms.openlocfilehash: 38dce7862ea9764baefcc38aa7275d0d5c686cd753a91dc9fe672ee54fcf304c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0110c3a35b745ce4a9bf2633b7aa7e006a664297
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345251"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636416"
 ---
 # <a name="toll-free-dialing-restrictions-in-belarus"></a>白俄罗斯的免费拨号限制
 

@@ -9,22 +9,22 @@ ms.topic: article
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 ms.collection:
 - M365-collaboration
 description: 了解如何开发和执行持续维护和操作，以确保Microsoft Teams 会议室系统可供用户使用。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 594fa8c6301cdea8be8ee137db13d9e163a9f670e3e826fed3869563238b5be4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dbe3a22b86fa9f4b0773e1a7397bb206deb093e1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316938"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636636"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>管理 Microsoft Teams 会议室
 
-如果组织中Microsoft Teams 会议室设备，则有灵活的管理选项。  可以在管理所有 Teams 解决方案（Microsoft Teams 管理中心）的同一中心位置自己管理设备，或者可以使用 Microsoft Teams 会议室 托管服务 将管理责任转移[给Microsoft Teams 会议室专家](https://portal.rooms.microsoft.com)。  还可以将管理访问权限委派给所选择的合作伙伴，以选择任一选项。
+如果组织中Microsoft Teams 会议室设备，则有灵活的管理选项。  可以在管理所有 Teams 解决方案（Microsoft Teams 管理中心）的同一中心位置自己管理设备，或者可以使用 Microsoft Teams 会议室 托管服务 将管理责任转移到Microsoft Teams 会议室[专家](https://portal.rooms.microsoft.com)。  还可以将管理访问权限委派给所选择的合作伙伴，以选择任一选项。
 
 使用Microsoft Teams管理中心，可以：
 
@@ -56,16 +56,16 @@ ms.locfileid: "54316938"
     > [!CAUTION]
     > 你选择更新的设置上的现有值将替换为你提供的值。 如果要添加到现有值列表，则需要包含包含要添加的值的现有值。 例如，如果设置的现有域列表为 ，并且你想要添加 ，则需要提供 `contoso.com, fabrikam.com` `northwindtraders.com` 的值将是 `contoso.com, fabrikam.com, northwindtraders.com` 。
     >
-    > 如果选择多个设备，则你选择的所有设备的设置将更改为你提供的值。 如果设备对设置具有不同的值，则它们全部将更新为相同的值。
+    > 如果选择多个设备，则你选择的所有设备的设置将更改为你提供的值。 如果设备对设置具有不同的值，则它们将全部更新为相同的值。
 
 | 设置                                                      | 接受的值                                        | 支持批量编辑 |
 |--------------------------------------------------------------|--------------------------------------------------------|--------------------|
 | *帐户*                                                    |                                                        |                    |
-| **电子邮件**                                                    | 电子邮件地址                                          | 弱                 |
+| **电子邮件**                                                    | 电子邮件地址                                          | 否                 |
 | **支持的会议模式**                                   | Skype for Business (默认) Microsoft Teams<br>Skype for Business和Microsoft Teams (默认) <br>Skype for Business仅|是|
 | **新式身份验证**                                    | 开<br>关闭                                              | 是                |
-| **Exchange地址**                                         | 电子邮件地址                                          | 弱                 |
-| **域\用户名 (可选)**                               | 帐户域和用户名                           | 弱                 |
+| **Exchange地址**                                         | 电子邮件地址                                          | 否                 |
+| **域\用户名 (可选)**                               | 帐户域和用户名                           | 否                 |
 | **配置域**                                         | 逗号分隔列表                                   | 是                |
 | *会议*                                                   |                                                        |                    |
 | **自动屏幕共享**                                 | 开<br>关闭                                              | 是                |
@@ -78,14 +78,14 @@ ms.locfileid: "54316938"
 | **发送有反馈的日志**                                  | 开<br>关闭                                              | 是                |
 | **日志和反馈的电子邮件地址**                      | 电子邮件地址                                          | 是                |
 | *外围设备*                                                |                                                        |                    |
-| **会议麦克风**                                  | 可用麦克风列表                          | 弱                 |
-| **会议发言人**                                     | 可用发言人列表                             | 弱                 |
-| **默认卷**                                           | 0-100                                                  | 弱                 |
-| **默认扬声器**                                          | 可用发言人列表                             | 弱                 |
-| **默认卷**                                           | 0-100                                                  | 弱                 |
-| **内容相机**                                           | 可用相机列表                              | 弱                 |
-| **内容相机增强功能**                              | 开<br>关闭                                              | 弱                 |
-| **将内容相机旋转 180 度**                        | 开<br>关闭                                              | 弱                 |
+| **会议麦克风**                                  | 可用麦克风列表                          | 否                 |
+| **会议发言人**                                     | 可用发言人列表                             | 否                 |
+| **默认卷**                                           | 0-100                                                  | 否                 |
+| **默认扬声器**                                          | 可用发言人列表                             | 否                 |
+| **默认卷**                                           | 0-100                                                  | 否                 |
+| **内容相机**                                           | 可用相机列表                              | 否                 |
+| **内容相机增强功能**                              | 开<br>关闭                                              | 否                 |
+| **将内容相机旋转 180 度**                        | 开<br>关闭                                              | 否                 |
 | *"进行"。*                                                    |                                                        |                    |
 |                                                              | 默认值<br>无主题<br>自定义<br>内置主题列表   | 是                |
 
@@ -109,7 +109,7 @@ ms.locfileid: "54316938"
 
 若要删除一个或多个设备，请执行下列操作：
 
-1. 转到 **"**  >  **设备Teams 会议室** 并选择要删除的设备。
+1. 转到 **"设备**  >  **Teams 会议室** 并选择要删除的设备。
 1. 选择“**删除**”。
 
 ## <a name="download-device-logs"></a>下载设备日志
@@ -124,11 +124,11 @@ ms.locfileid: "54316938"
 
 ## <a name="view-device-information"></a>查看设备信息
 
-从Teams管理中心，可以查看组织中所有设备的总体状态，并单独查看每个设备的详细信息。
+从Teams管理中心，可以查看组织内所有设备的总体状态，并单独查看每个设备的详细信息。
 
 ### <a name="teams-rooms-system-dashboard"></a>Teams 会议室系统仪表板
 
-系统Teams 会议室仪表板一目了然地显示所有设备的状态和运行状况。
+"Teams 会议室"系统仪表板一目了然地显示所有设备的状态和运行状况。
 
 ### <a name="device-details-view"></a>设备详细信息视图
 
@@ -136,7 +136,7 @@ ms.locfileid: "54316938"
 
 - **运行状况** 显示会议室设备Teams运行状况。 运行状况状态可以是"正常 **"或**"**不正常"。**
 - **脱机，因为** 显示上次Microsoft 365设备通信的时间。
-- **设备状态** 显示设备的当前状态：空闲、Teams、Skype会议或"**正在****"。**
+- **设备状态** 显示设备的当前状态：**空闲**、Teams **会议、Skype****会议** 或 **"正在"。**
 - **外围设备** 显示连接到会议室设备Teams外围设备及其运行状况。 运行状况状态可以是"已连接 **"或**"已 **断开连接"。**
 - **运行状况** 显示有关连接到您的 Teams 会议室设备、网络连接、所需服务的登录状态和软件版本信息的详细信息。
 - **详细信息** 显示制造商信息、网络 IP 地址和Teams设备串行/MAC 地址。
@@ -145,7 +145,7 @@ ms.locfileid: "54316938"
 
 #### <a name="meeting-activity-details"></a>会议活动详细信息
 
-"**会议室** Teams详细信息中的"活动"选项卡显示设备随着时间的推移参与的所有会议的高级别和详细信息。 在 **"活动** "选项卡中，可以看到会议举行时间、与会者数以及会议期间的音频质量。
+"**会议室** Teams详细信息中的"活动"选项卡显示有关设备随着时间的推移参与的所有会议的高级别和详细信息。 在 **"活动** "选项卡中，可以看到会议举行时间、与会者数以及会议期间的音频质量。
 
 :::image type="content" source="../media/teams-rooms-meeting-activity-summary.png" alt-text="Teams会议室设备活动摘要列表":::
 
@@ -159,6 +159,6 @@ ms.locfileid: "54316938"
 
 ##### <a name="participant-details"></a>参与者详细信息
 
-参与者详细信息页显示该参与者会话的端到端诊断信息。 如下图所示，为参与者和设备设备提供了设备、系统和Teams 会议室信息。  **此外**，还提供了参与者与Teams 会议室之间的网络诊断信息。 选择要了解详细信息的上下文的图标。 有关其他诊断信息，请选择"高级 **"** 选项卡。
+参与者详细信息页显示该参与者会话的端到端诊断信息。 如下图所示，**为** 参与者和设备提供了设备、系统和Teams 会议室信息。 **此外**，还提供了参与者与Teams 会议室之间的网络诊断信息。 选择要了解详细信息的上下文的图标。 有关其他诊断信息，请选择"高级 **"** 选项卡。
 
 :::image type="content" source="../media/teams-rooms-meeting-activity-participant-details.png" alt-text="Teams会议室设备呼叫详细信息":::

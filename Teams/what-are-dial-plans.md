@@ -15,19 +15,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.voice.dialplans.overview
 - Calling Plans
 description: '了解 PSTN 呼叫 (套餐) 哪些类型的Teams以及如何为组织选择一个。  '
-ms.openlocfilehash: cfe90a65fb7e1bbc0aae30cd5d0a0dc052f86cb4
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 231df0f5fa5e025f81379c2736de54bcd0f353fb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234407"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594434"
 ---
 # <a name="what-are-dial-plans"></a>什么是拨号计划？
 
@@ -41,7 +41,7 @@ ms.locfileid: "58234407"
 
 拨号计划范围确定可以应用拨号计划的层次结构级别。 客户端通过预配设置获取相应的拨号计划，这些设置在用户登录到 Teams 时自动提供。 作为管理员，可以使用远程管理中心或远程 PowerShell Microsoft Teams和分配拨号计划范围级别。
 
-在Teams中，有两种类型的拨号计划：服务范围和租户范围 (适用于组织) 。 服务范围的拨号计划为可用的每个电话系统定义。 系统会自动为每个用户分配与分配给用户的使用位置匹配的服务国家/地区拨号计划。 你无法更改服务国家/地区拨号计划，但可以创建租户范围的拨号计划，用于增强服务国家/地区拨号计划。 在预配客户端时，他们获得"有效拨号计划"，这是服务国家/地区拨号计划和适当范围的租户拨号计划的组合。 因此，在租户拨号计划中不必定义所有规范化规则，因为这些规则已经存在于服务国家/地区拨号计划中。
+在Teams，有两种类型的拨号计划：服务范围和租户范围 (，适用于组织) 。 服务范围的拨号计划为可用的每个电话系统定义。 系统会自动为每个用户分配与分配给用户的使用位置匹配的服务国家/地区拨号计划。 你无法更改服务国家/地区拨号计划，但可以创建租户范围的拨号计划，用于增强服务国家/地区拨号计划。 在预配客户端时，他们获得"有效拨号计划"，这是服务国家/地区拨号计划和适当范围的租户拨号计划的组合。 因此，在租户拨号计划中不必定义所有规范化规则，因为这些规则已经存在于服务国家/地区拨号计划中。
 
 租户拨号计划可以进一步细分为两个范围 - 租户范围或用户范围。 如果租户定义并分配用户范围的拨号计划，将为该用户预配用户的服务国家/地区拨号计划和分配的用户拨号计划的有效拨号计划。 如果租户定义了租户范围的拨号计划，但没有分配用户范围的拨号计划，则将为该用户预配用户的服务国家/地区拨号计划和租户拨号计划的有效拨号计划。
 
@@ -113,12 +113,12 @@ ms.locfileid: "58234407"
 
 规范化规则.NET Framework正则表达式来指定服务器用来将拨号字符串转换为 E.164 格式的数字匹配模式。 可以通过指定在找到匹配项时要执行的匹配和转换的正则表达式来创建规范化规则。 完成之后，你可以输入一个测试号码以验证规范化规则是否可按预期工作。
 
-有关使用正则表达式.NET Framework，请参阅.NET Framework[正则表达式"。](/dotnet/standard/base-types/regular-expressions)
+有关使用正则表达式.NET Framework的详细信息，请参阅.NET Framework[正则表达式"。](/dotnet/standard/base-types/regular-expressions)
 
 请参阅 [创建和管理拨号计划](create-and-manage-dial-plans.md) ，以创建和管理租户拨号计划的规范化规则。
 
 > [!NOTE]
-> 3pip 设备目前不支持将第一个令牌作为可选标记的规范化规则 (例如 Polycom VVX 601 模型) 。 如果要在 3pip 设备上应用具有可选属性的规范化规则，应创建两个规范化规则而不是一个规范化规则。 例如，规则 ^0？ (999) $ 应替换为以下两个规则： (999) $ (Translation：$1) 和 ^0 (999) $ (Translation：$1) 。
+> 3pip 设备目前不支持将第一个令牌作为可选标记的规范化规则 (例如 Polycom VVX 601) 。 如果要在 3pip 设备上应用具有可选属性的规范化规则，应创建两个规范化规则而不是一个规范化规则。 例如，规则 ^0？ (999) $ 应替换为以下两个规则： (999) $ (Translation：$1) 和 ^0 (999) $ (Translation：$1) 。
 
 
 ### <a name="sample-normalization-rules"></a>示例规范化规则

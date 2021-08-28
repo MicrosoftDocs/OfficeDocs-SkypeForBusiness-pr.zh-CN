@@ -12,18 +12,18 @@ ms.reviewer: rowille
 description: 通过定义目标、了解接受内容以及提供培训和支持，创建一个计划来推动用户采用。
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2a98c2b847844de38608782c8feabf754ed25187d5cf4f041bcdf14a8dda8d56
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 30a844f0ecd619e609a61500ac1b845cfbbad553
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322874"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623384"
 ---
 # <a name="prepare-my-users"></a>准备用户
 
@@ -52,7 +52,7 @@ ms.locfileid: "54322874"
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>您是否以让用户购买此新解决方案的方式向用户表述了好处和价值？</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>下一步</td><td><ul><li>为当前项目范围创建愿景和价值陈述，确保它们与目标保持一致。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>为当前项目范围创建愿景和价值陈述，确保它们与目标保持一致。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -63,7 +63,7 @@ ms.locfileid: "54322874"
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>用户是否已准备好并愿意更改到新解决方案？</li><li>用户是否具有促进更改的能力或能力？</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>下一步</td><td><ul><li>在需要更改时，请使用以下对话入门来了解组织文化。 此信息有助于告知可能需要为项目实施多少认知和培训。
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>在需要更改时，请使用以下对话入门来了解组织文化。 此信息有助于告知可能需要为项目实施多少认知和培训。
 </li></ul></td></tr>
 </table>
 
@@ -80,9 +80,9 @@ ms.locfileid: "54322874"
 
 
 > [!TIP]
-> 早期采用者是试点部署以及支持者计划很好的候选者。 如果你拥有很大百分比的如果您希望，请花些时间专注于为这些用户发送价值消息并获取帮助他们了解变化的信息。
+> 早期采用者是试点部署以及支持者计划的巨大候选者。 如果你拥有很大百分比的如果您希望，请花些时间专注于为这些用户发送价值消息并获取帮助他们了解变化的信息。
 
-### <a name="what-percent-of-users-fall-into-each-competency"></a>哪些用户属于每个资格？
+### <a name="what-percent-of-users-fall-into-each-competency"></a>哪些用户属于每个能力？
 
 | **学习器类型**                                                        | **%** |
 |----------------------------------------------------------------------------|-------|
@@ -92,7 +92,7 @@ ms.locfileid: "54322874"
 
  
 > [!TIP]
-> Learning不是一个全尺寸的。 通过了解用户的最佳学习方式，可以创建一个可靠的培训计划来帮助加快其学习速度。 如果许多用户都是自我激励的，则链接到视频和用户指南可能就足够了。 对于需要专门关注的用户，请务必安排一对一，或召集你的支持者来帮助这些用户 &mdash; 完成学习曲线。
+> Learning不是一全其美。 通过了解用户的最佳学习方式，可以创建一个可靠的培训计划来帮助加快其学习速度。 如果许多用户都是自我激励的，则链接到视频和用户指南可能就足够了。 对于需要专门关注的用户，请务必安排一对一，或召集你的支持人员来帮助这些用户完成 &mdash; 学习曲线。
 
 <!--ENDOFSECTION-->
 
@@ -102,13 +102,13 @@ ms.locfileid: "54322874"
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>某些用户或队列是否依赖于此解决方案才能有效地执行其作业？</li><li>是否有可以通过使用此新解决方案促进的特定用例？</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>下一步</td><td><ul><li>映射用户角色。 首先，将用户群细分为人员/队列组 (主管、道路运输人员、协作工作者、零售) 。 为易于管理，请列出不超过八个组。  (有关示例对话入门，请参阅下文。) 使用你的发现进一步设计用户准备活动，将试点用户与可能受益于以后升级的用户进行细分。
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>映射用户角色。 首先，将用户群细分为人员/队列组 (主管、道路运输人员、协作工作者、零售等) 。 为易于管理，请列出不超过八个组。  (有关示例对话入门，请参阅下文。) 使用你的发现来进一步设计用户准备活动，并细分试点用户与可能受益于以后升级的用户。
 </li><li>映射用例。 确定将受益于此新技术的核心用户组后，请考虑一般用户群体。 通过了解跨团队用例和方案，可以将使用此新技术的组织可视化。 此外，向通信和培训计划添加用例示例确实有助于使其与用户相关。</li></ul></td></tr>
 </table>
 
 对于每个人员组，与项目团队讨论以下内容：
 
--   此组的核心特征是什么 (，也就是说，典型的"一天"是) ？
+-   此组的核心特征是什么 (，也就是说，典型的"生活一天"是什么) ？
 
 -   此组如何受益于新解决方案？ 它们需要哪些特性和功能有效？
 
@@ -120,7 +120,7 @@ ms.locfileid: "54322874"
 
     -   认知 (例如电子邮件、海报、部门经理) ？
 
-    -   培训 (，例如在线培训、用户指南、白) ？
+    -   培训 (例如在线培训、用户指南、白) ？
 
     -   支持 (自助服务、支持人员、支持) ？  
 
@@ -128,7 +128,7 @@ ms.locfileid: "54322874"
 
 下图是一个人物表示例。
 
-![列出人员详细信息的值表](media/prepare-my-users-image2.png "列出角色及其常见角色以及通信和协作解决方案依赖项的表。突出显示了高层形象，并详细介绍了 (一天) 以及功能、设备和培训高层需求的详细信息。")
+![列出人员详细信息的值表](media/prepare-my-users-image2.png "列出角色及其常见角色以及通信和协作解决方案依赖项的表。突出显示了高层形象，并详细介绍了 (一天的个人资料) 功能、设备和培训高层需求。")
 
 对于每个用例，请与您的项目团队讨论以下内容：
 
@@ -145,11 +145,11 @@ ms.locfileid: "54322874"
 <!--ENDOFSECTION-->
 
 ## <a name="optimize-your-readiness-plan"></a>优化准备计划
-了解用户是谁及其如何在新解决方案中工作后，可以设计准备计划。 用户准备计划包含在试点、载入和操作新解决方案时如何与用户通信、培训和支持。 如本文前面的步骤所发现，就绪性并非一成多。 从广泛宣传的认知和培训计划开始，将此过程开始时定义的价值消息传递纳入其中。 然后，根据你定义的角色或队列定制消息、培训和支持。 你的个性化计划将使用户能够更快速地与新解决方案关联，同时表明你了解他们的需求，这有助于他们进行过渡。
+了解用户是谁及其如何在新解决方案中工作后，可以设计准备计划。 用户准备计划包含在试点、载入和操作新解决方案时如何与用户通信、培训和支持。 如本文前面的步骤所发现，就绪性并非一成多。 从广泛宣传的认知和培训计划开始，将此过程开始时定义的价值消息传递纳入其中。 然后，根据你定义的角色或队列来定制消息、培训和支持。 你的个性化计划将使用户能够更快速地与新解决方案关联，同时表明你了解他们的需求，这有助于促进其过渡。
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>可以提供哪些准备计划来帮助促进和加速新解决方案的采用？</li><li>您是否具有与用户处理更改的能力以及定义的用户角色保持一致的正确认知、培训和支持资源？</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>下一步</td><td><ul><li>使用以下部分中的列表生成准备计划的想法。 选择最相关的计划 &mdash; ，或添加自己的计划 &mdash; ，以设计针对组织优化的就绪计划。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>使用以下部分中的列表生成准备计划的想法。 选择最相关的计划 &mdash; 或添加自己的计划， &mdash; 以设计针对组织优化的就绪计划。</li></ul></td></tr>
 </table>
 
 ### <a name="readiness-plan-ideas"></a>准备计划想法

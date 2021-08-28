@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: svemu
 audience: admin
 description: 管理员可以了解如何使用网络规划器来确定网络Microsoft Teams。
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -22,16 +22,16 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 13cccda1c51e1706cc83b83667dff6e2f00e535e4afd1fd50ea869633199c4d3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 55fc461a2dd005d454a2b964bb3774c5ac17dbc1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332604"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594606"
 ---
 # <a name="use-the-network-planner-for-microsoft-teams"></a>使用网络规划器Microsoft Teams
 
-网络规划器是一个新的工具，可在 Teams管理中心使用。 可以通过访问规划网络规划器  >  **找到它**。 只需几个步骤，网络规划器就可以帮助你确定和组织连接组织中Microsoft Teams用户的网络要求。 只要您提供网络的详细信息和 Teams 的使用场景，网络规划器便会计算出在您组织的所有地点部署 Teams 和云语音的网络要求。
+网络规划器是一个新的工具，可在 Teams管理中心使用。 可以通过访问规划网络规划器  >  **找到它**。 只需几个步骤，网络规划器就可以帮助你确定和组织连接整个Microsoft Teams用户的网络要求。 只要您提供网络的详细信息和 Teams 的使用场景，网络规划器便会计算出在您组织的所有地点部署 Teams 和云语音的网络要求。
 
 ![网络规划器屏幕截图](media/network-planner.png)
 
@@ -42,7 +42,7 @@ ms.locfileid: "54332604"
     > [!NOTE]
     > 推荐角色是根据最佳使用方案和典型Teams数据开发的。 但是，除了三个推荐角色外，还可以创建最多三个自定义角色。
 
-- 生成报告并计算使用情况Teams要求。
+- 生成报告，并计算Teams带宽要求。
 
 若要使用网络规划器，你必须是全局管理员、Teams管理员或Teams管理员。
 
@@ -80,7 +80,7 @@ ms.locfileid: "54332604"
 
     1. 为网站添加名称和说明。
 
-    2. 在 **"网络** 设置"下，添加该站点中所需的 (用户) 。
+    2. 在 **"网络** 设置"下，添加该网站的网络用户数 (所需的) 。
 
     3. 添加网络详细信息：启用 WAN、WAN 容量、Internet 出口 (**本地** 或远程 **) ，** 以及 PSTN (无、本地或远程) 。
 
@@ -95,7 +95,7 @@ ms.locfileid: "54332604"
 
 1. 在"**报表"选项卡** 上，单击 **"启动报表"。**
 
-2. 对于您创建的每个网站，跨可用角色分配用户数。 如果使用 Microsoft 推荐的角色，该数字将自动 (80% 的办公人员以及 20% 的远程) 。
+2. 对于您创建的每个网站，跨可用角色分配用户数。 如果使用 Microsoft 推荐的人，该数字将自动分配给 80% (20% 的远程) 。
 
 3. 完成分发后，单击"生成 **报表"。**
 
@@ -107,4 +107,4 @@ ms.locfileid: "54332604"
 
 ## <a name="example-scenario"></a>应用场景示例
 
-有关如何使用网络规划器设置网络计划并使用这些步骤生成报表的示例，请仅下载"网络规划器How-To PowerPoint[幻灯片](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-planner-how-to.pptx?raw=true) (英语) 。
+有关如何使用网络规划器设置网络计划并使用这些步骤生成报表的示例，请仅下载网络规划器 How-To PowerPoint 幻灯片 (英语[](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-planner-how-to.pptx?raw=true)) 。

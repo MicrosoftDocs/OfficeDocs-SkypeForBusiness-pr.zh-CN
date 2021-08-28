@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1d61cd81-dcfe-40b4-9a41-a73b038bc216
 description: 摘要：了解会议详细信息报告中Skype for Business Server。
-ms.openlocfilehash: 5da5c703916cb1f8ac24624efa14c5a65cec5cdd7b3d45da5d13ce8ac00fbfcc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9b5dbbaf4ab1312d187b4e3c02882c26066c3db5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328117"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615698"
 ---
 # <a name="conference-detail-report-in-skype-for-business-server"></a>会议详细信息报告Skype for Business Server
 
@@ -29,9 +29,9 @@ ms.locfileid: "54328117"
 
 可以从以下报告访问会议详细信息报告：
 
-- 呼叫 [允许控制报告](call-admission-control-report.md) (会议记录的详细信息指标来) 
+- 通过 [单击](call-admission-control-report.md) 会议 (详细信息指标，呼叫允许控制报告) 
 
-- 故障 [列表报告](failure-list-report.md) ("会议"指标) 
+- 故障 [列表报告](failure-list-report.md) (会议指标列表) 
 
 - 用户 [活动报告](call-diagnostic-reports-per-user.md) (会议 URI 指标) 
 
@@ -39,7 +39,7 @@ ms.locfileid: "54328117"
 
 ## <a name="filters"></a>筛选器
 
-无。 不能筛选会议详细信息报告。
+无。 您无法对会议详细信息报告进行筛选。
 
 ## <a name="metrics"></a>度量标准
 
