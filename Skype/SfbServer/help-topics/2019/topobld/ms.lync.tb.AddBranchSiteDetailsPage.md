@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddBranchSiteDetailsPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5eab6090-094e-4260-b501-61309f1cff67
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要指定网站的网站详细信息，请执行下列操作：
-ms.openlocfilehash: 6739abe517dd9e0c84b300f7ac00096d67fecfb7b4059f20064204cabc348593
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0e76decbb2c19783fabf6083ac66e31760be0ddd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322145"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582966"
 ---
 # <a name="add-branch-site-details"></a>添加分支站点详细信息
 

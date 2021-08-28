@@ -15,15 +15,15 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何在 Microsoft Teams
-ms.openlocfilehash: f5856d0754fc4ea72358d1e8a8c0473138b4a861495386cbbfeeb276cfce8bc5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9241699f20d989ff90ec858c591e74c07f022b79
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301947"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630164"
 ---
 # <a name="manage-bridge-settings-in-teams"></a>管理 Teams 中的网桥设置
 

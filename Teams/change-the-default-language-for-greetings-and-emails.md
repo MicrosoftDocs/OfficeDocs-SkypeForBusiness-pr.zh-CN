@@ -16,19 +16,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 了解如何设置Microsoft Teams Skype for Business语言以使用组织的默认语音邮件问候语。
-ms.openlocfilehash: 92f767a366ac6c3250f529ec022f9b12414bd2f542c00c8f267596c7e276ee0b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f204cdfca0be7eab5964b2c9c50c57f306af94ff
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339878"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607869"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>更改问候语和电子邮件的默认语言
 
@@ -40,14 +40,14 @@ ms.locfileid: "54339878"
   - [Microsoft Teams支持的语言](languages-for-voicemail-greetings-and-messages.md)
   - [Skype for Business支持的语言](/skypeforbusiness/what-is-phone-system-in-office-365/phone-system-voicemail/languages-for-voicemail-greetings-and-messages)
 
-- **更改单个用户的语音邮件问候语和语音邮件的语言。** 你可以更改用户的首选语言，这将更改发送到用户邮箱的语音邮件问候语和语音邮件Outlook语言。 有关详细信息，请参阅如何为用户或用户设置语言[Microsoft 365 Office 365。](/office365/troubleshoot/access-management/set-language-and-region)
+- **更改单个用户的语音邮件问候语和语音邮件的语言。** 你可以更改用户的首选语言，这将更改发送到用户邮箱的语音邮件问候语和语音邮件Outlook语言。 有关详细信息，请参阅如何为用户或用户[设置语言Microsoft 365 Office 365。](/office365/troubleshoot/access-management/set-language-and-region)
 
   > [!NOTE]
   > 用户登录后，可以通过设置更改自己的问候语语言。 有关详细信息，请参阅在 Microsoft 365 for Business 中更改[显示语言和时区](https://support.office.com/article/change-your-display-language-and-time-zone-in-microsoft-365-for-business-6f238bff-5252-441e-b32b-655d5d85d15b?ui=en-US&rs=en-US&ad=US)
   
 - **是否要录制你的外出语音邮件消息？** 请参阅[检查 Skype for Business 语音邮件和选项](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8)。 例如Microsoft Teams - 用户可以从桌面客户端设置Teams[语音邮件设置](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
 
-- **是否要更改语音邮件提示语言？** 对于Skype for Business - [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) 在"提示语言"下选择 **新语言**。 例如Microsoft Teams - 用户可以从桌面客户端设置Teams[语音邮件问候语](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
+- **是否要更改语音邮件提示语言？** 对于Skype for Business [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) - 在"提示语言"下选择 **新语言**。 例如Microsoft Teams - 用户可以从桌面客户端设置Teams[语音邮件问候语](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
 
 ## <a name="change-the-system-language-for-everyone-in-your-organization"></a>更改组织内所有用户的系统语言
 
@@ -55,7 +55,7 @@ ms.locfileid: "54339878"
 
 2. 在"Microsoft 365 管理中心"中  >  **，设置设置"**  >  **组织配置文件"。**
 
-     ![显示选择"组织设置，然后选择"组织配置文件"的屏幕截图。](media/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
+     ![显示选择"设置"，然后选择"组织配置文件"的屏幕截图。](media/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
   
 3. 选择" **编辑**"。
 
@@ -71,7 +71,7 @@ ms.locfileid: "54339878"
 
 - [设置通话套餐](set-up-calling-plans.md)
 
-- [在电话系统 PSTN Microsoft 365中Office 365本地 PSTN 连接计划Skype for Business Server](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)
+- [在电话系统 PSTN Microsoft 365 Office 365本地 PSTN 连接中计划Skype for Business Server](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)
 
 ## <a name="related-topics"></a>相关主题
 

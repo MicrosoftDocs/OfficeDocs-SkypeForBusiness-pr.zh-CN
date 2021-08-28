@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e826fd4b-5c2c-4164-b352-c109f42810f9
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'UNRESOLVED_TOKEN_VAL ( bigfin_UI_help_intro) '
-ms.openlocfilehash: 6bbba21c1d40fa49cdfef50602c2f357c92cf60f548dd951e8c9aa58aed90ad4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 76b7c27ae62230ad68e4e4ca4bf7c659bc37e286
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322254"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583106"
 ---
 # <a name="test-voice-routing-create-new-or-edit-existing-test-cases"></a>测试语音路由：创建新的或编辑现有的测试用例
 

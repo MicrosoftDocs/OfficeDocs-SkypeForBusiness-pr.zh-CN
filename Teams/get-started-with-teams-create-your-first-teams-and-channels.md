@@ -8,7 +8,7 @@ audience: admin
 ms.service: msteams
 ms.reviewer: serdars
 description: 了解如何在 Microsoft Teams 客户端或 Microsoft Teams 管理中心中创建首批团队和频道。
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7e4105b9ab205a3a409ae166cfe2d0221509fd17028b7fb394a58ae8b3380f67
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a452a4370d980403d9ae82a30b993c7f20e1aca0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312920"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607699"
 ---
 # <a name="create-your-first-teams-and-channels-in-microsoft-teams"></a>在 Microsoft Teams 中创建首批团队和频道
 

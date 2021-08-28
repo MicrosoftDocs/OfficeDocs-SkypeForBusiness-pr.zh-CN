@@ -1,5 +1,5 @@
 ---
-title: 在邮件中删除通知Skype for Business Server
+title: 创建或删除通知Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -9,21 +9,21 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
 description: 创建或删除通知应用程序中通知Skype for Business Server 企业语音。 这会影响如何处理对未分配号码的呼叫。
-ms.openlocfilehash: f382c86ee6773f586e1fb1d1080c9c9ce64a46dc253ff81275252a28db1addd0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 095b510dc152e527608ff1e894d971e793cbc822
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54283874"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583216"
 ---
-# <a name="create-or-delete-an-announcement-in-skype-for-business-server"></a>在邮件中删除通知Skype for Business Server
+# <a name="create-or-delete-an-announcement-in-skype-for-business-server"></a>创建或删除通知Skype for Business Server
 
 创建或删除通知应用程序中通知Skype for Business Server 企业语音。 这会影响如何处理对未分配号码的呼叫。
 
@@ -44,7 +44,7 @@ ms.locfileid: "54283874"
 3. 运行 **New-CsAnnouncement** cmdlet 以创建通知并命名通知。 执行此步骤可创建具有音频提示、文本到语音 (TTS) 或无提示通知。
 
     > [!TIP]
-    > 例如，如果要将呼叫转接到特定目标而不播放消息 (，可能需要创建无提示) 。
+    > 例如，如果要将呼叫转接到特定目标而不播放 (，可能需要创建无提示通知) 。
 
 4. 将新通知分配给未分配号码表中的号码范围。
 
@@ -117,7 +117,7 @@ ms.locfileid: "54283874"
 
 ## <a name="see-also"></a>另请参阅
 
-[在邮件中删除通知Skype for Business Server](create-an-announcement.md)
+[创建或删除通知Skype for Business Server](create-an-announcement.md)
 
 [Import-CsAnnouncementFile](/powershell/module/skype/import-csannouncementfile?view=skype-ps)
 

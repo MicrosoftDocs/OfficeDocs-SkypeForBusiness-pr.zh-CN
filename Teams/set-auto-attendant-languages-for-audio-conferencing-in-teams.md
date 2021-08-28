@@ -15,25 +15,25 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: 了解如何为音频会议号码选择音频会议自动助理语言Microsoft Teams。
-ms.openlocfilehash: 1238cebfa9be1c37e6754234338273738f06e07a8e495631361cb76fdcbc63cb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 了解如何为音频会议号码选择音频会议自动助理语言，Microsoft Teams。
+ms.openlocfilehash: 427510e5026a5812ab14db21a7410c4d9c3e2a8f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280637"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630054"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>在 Microsoft Teams 中设置音频会议自动助理语言
 
 音频会议自动助理Microsoft Teams呼叫者加入会议时，可以使用多种语言问候音频呼叫者。
   
-选择一种主要语言和最多四种辅助语言。 首先将使用你设置的主要语言，自动助理将按你选择的顺序使用辅助语言。 
+选择一种主要语言和最多四种辅助语言。 首先将使用你设置的主要语言，然后自动助理将按你选择的顺序使用辅助语言。 
   
 > [!NOTE]
 >  你只能更改"专用"类别的音频会议号码的语言。 无法更改共享音频会议号码的语言。
@@ -63,7 +63,7 @@ ms.locfileid: "54280637"
     
 - 语言可以设置为专用，但不能设置为共享电话号码。
     
-- 若要查看使用 Microsoft 作为提供商的 Microsoft 365 或 Office 365 提供音频会议的国家/地区列表，请参阅音频电话[号码](phone-numbers-for-audio-conferencing-in-teams.md)。
+- 若要查看使用 Microsoft 作为提供商的 Microsoft 365 或 Office 365 提供音频会议的国家/地区列表，请参阅音频电话[的电话号码](phone-numbers-for-audio-conferencing-in-teams.md)。
     
 ## <a name="want-to-use-windows-powershell"></a>想要使用 Windows PowerShell？
 

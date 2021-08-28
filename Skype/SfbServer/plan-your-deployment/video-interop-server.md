@@ -9,25 +9,25 @@ ms.topic: conceptual
 f1.keywords:
 - ms.lync.plan.VideoInterop
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4a8daf23-77ba-428b-bcbc-161f6af52c11
 description: 摘要：在计划将远程会议Skype for Business Server第三方电话会议设备时，请查看本主题。
-ms.openlocfilehash: 3f42ea3545b7185f0d79999adc0af821d73e4bb8077f60cef2b0690a693aaea3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0e94a7fc84d4174c3fe562355a6550a1b77d909c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349814"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607899"
 ---
 # <a name="plan-for-video-interop-server-in-skype-for-business-server"></a>规划视频互操作服务器Skype for Business Server
  
 **摘要：** 在计划将远程会议Skype for Business Server第三方电话会议设备时，请查看本主题。
   
-Skype for Business Server现在，你可以与某些第三方 VTC (视频电话会议系统解决方案) 集成。 实现此视频会议互操作性的新服务器角色是视频互操作服务器 (VIS) ，它当前作为仅可用于本地安装的独立服务器角色实现。 VIS 充当第三方电话会议系统和远程电话会议部署之间的Skype for Business Server中介。 对于此版本，VIS 侧重于与 Cisco/Tandberg 视频系统的互操作性。 查看本文可确定是否在安装过程中使用Skype for Business Server此功能。
+Skype for Business Server现在允许您集成某些第三方 VTC (视频电话会议系统) 解决方案。 实现此视频会议互操作性的新服务器角色是视频互操作服务器 (VIS) ，它当前作为仅可用于本地安装的独立服务器角色实现。 VIS 充当第三方电话会议系统和会议部署之间的Skype for Business Server中介。 对于此版本，VIS 侧重于与 Cisco/Tandberg 视频系统的互操作性。 查看本文，确定是否在安装过程中使用Skype for Business Server此功能。
   
 ## <a name="device-interoperability"></a>设备互操作性
 
-通过 Cisco 统一通信管理器 (CallManager 或 CUCM) 版本 10.5 注册的 Cisco VTC 以及 CUCM 和 VIS 之间设置的 TCP SIP 中继，可测试并支持互操作。
+通过 Cisco 统一通信管理器 (CallManager 或 CUCM) 版本 10.5 注册的 Cisco VTC 以及 CUCM 和 VIS 之间设置的 TCP SIP 中继，对互操作进行测试和支持。
   
 当前支持的 VTC 包括：
   
@@ -50,7 +50,7 @@ Skype for Business Server现在，你可以与某些第三方 VTC (视频电话�
 - Cisco SX20
     
 > [!NOTE]
->  这些系统上需要 Cisco 软件版本 TC7.0.0 或以上版本，才能与 Skype for Business Server集成以按预期工作。
+>  这些系统上需要 Cisco 软件版本 TC7.0.0 或Skype for Business Server才能按预期工作。
   
 ## <a name="sip-trunks"></a>SIP 中继
 
@@ -62,11 +62,11 @@ Skype for Business Server现在，你可以与某些第三方 VTC (视频电话�
 
 此服务器角色提供：
   
-- 第三方视频系统使用的 H.264 格式与部署Skype for Business Server转换。
+- 第三方视频系统使用的 H.264 格式与 Skype for Business Server转换。
     
-- 将采用给定分辨率的单个视频流从 VTC 转换为多个不同分辨率的双播流，以用于Skype for Business Server部署。 这些流可以发送到 AVMCU，然后发送到Skype for Business Server请求不同分辨率的其他视频系统。 当第三方视频系统参与 A/V 电话会议时，也会Skype for Business转换。 在特定的 VIS 服务器中达到转码限制后，对不同分辨率的任何以下请求都只会收到分辨率最低的流。 
+- 将采用给定分辨率的单个视频流从 VTC 转换为多个不同分辨率的双播流，以用于 Skype for Business Server 部署。 这些流可以发送到 AVMCU，然后发送到Skype for Business Server请求不同分辨率的其他视频系统。 当第三方视频系统参与 A/V 电话会议时，也会Skype for Business转换。 在特定的 VIS 服务器中达到转码限制后，对不同分辨率的任何以下请求都只会收到分辨率最低的流。 
     
-- 支持 CUCM 网关和 Skype for Business Server 互操作服务器之间的视频 SIP 中继;VTC 继续注册 Cisco 网关，并通过网关向 Skype for Business发起呼叫。 呼叫通过视频 SIP 中继从Skype for Business路由到视频互操作服务器。
+- 支持 CUCM 网关与 Skype for Business Server 互操作服务器之间的视频 SIP 中继;VTC 继续注册 Cisco 网关，并通过网关向 Skype for Business发起呼叫。 呼叫通过视频 SIP 中继从Skype for Business路由到视频互操作服务器。
     
 - 支持会议室中具有支持的视频系统的用户从该系统拨号加入打开或关闭的会议。 此呼叫将遍历视频 SIP 中继。
     
@@ -78,13 +78,13 @@ Skype for Business Server现在，你可以与某些第三方 VTC (视频电话�
 
 此服务器角色具有以下限制：
   
-- 不支持通过视频 SIP 中继Skype for Business VTC 的新呼叫。 . 这意味着视频 SIP 中继仅支持从 VTC 到 Skype for Business部署的新呼叫。 支持的视频系统状态无法通过视频 SIP 中继提供给 VIS。 
+- 不支持从 Skype for Business通过视频 SIP 中继部署到 VTC 的新呼叫。 . 这意味着视频 SIP 中继仅支持从 VTC 到 Skype for Business部署的新呼叫。 支持的视频系统状态无法通过视频 SIP 中继提供给 VIS。 
     
 - 视频 SIP 中继模式仅支持独立 VIS 池。
     
 -  VTC 与 VIS 之间通过视频 SIP 中继的通信将支持 TLS + SRTP 或 TCP + RTP。
     
-- 不支持应用程序共享。 会议室Skype for Business用户需要通过笔记本电脑（例如) ）加入 Skype for Business 会议 (，在会议室中未与 VTC 关联的其中一台免费显示器上显示应用共享屏幕。
+- 不支持应用程序共享。 会议室Skype for Business用户需要通过笔记本电脑（例如) ）加入 Skype for Business 会议 (，并且需要在未与 VTC 关联的会议室中的其中一台免费显示器上显示应用共享屏幕。
     
 - 不支持 VTC 通过 VIS 加入联盟会议。
     
@@ -99,11 +99,11 @@ Skype for Business Server现在，你可以与某些第三方 VTC (视频电话�
 
 VIS 支持通过视频 SIP 中继传输的 CUCM 传入呼叫。 可能会丢失上游或下游的连接，因此若要获得强大的复原能力，请考虑以下两种可能性：
   
-1. **VIS 池故障转移** 如果视频网关指向的主 VIS 池关闭，则视频网关在 VIS 池中定义了指向两个或多个 (中继) 恢复。 如果视频网关确定它无法对主 VIS 池进行呼叫，则只需将呼叫路由到辅助 VIS 池。
+1. **VIS 池故障转移** 如果视频网关指向的主 VIS 池关闭，则当视频网关在 VIS 池中定义了指向两个或多个 (的中继) 恢复。 如果视频网关确定它无法对主 VIS 池进行呼叫，则只需将呼叫路由到辅助 VIS 池。
     
      ![VIS 池故障转移关系图](../media/390d93c3-e132-4bbd-8d5a-c70ead9cdfad.png)
   
-    特定 VIS 池可以具有到多个网关的中继，但通常特定网关无法具有多个 VIS 池的中继，因此需要执行一个技巧来支持此故障转移：在 DNS 中定义 2 个 FDQN，它们解析为视频网关的相同 IP 地址。 将每个 FQDN 表示为拓扑文档中的单独视频网关，其中每个视频网关都有一个到不同 VIS 池的中继，现在可以恢复。  (如果使用 TLS，则多个名称将需要位于视频网关证书的 SAN 中。) 
+    特定 VIS 池可以具有到多个网关的中继，但通常特定网关无法具有多个 VIS 池的中继，因此需要执行技巧来支持此故障转移：在 DNS 中定义 2 个 FDQN，它们解析为视频网关的相同 IP 地址。 将每个 FQDN 表示为拓扑文档中的单独视频网关，其中每个视频网关都有一个到不同 VIS 池的中继，现在可以恢复。  (如果使用 TLS，则多个名称将需要位于视频网关证书的 SAN 中。) 
     
     > [!NOTE]
     > VIS 仅允许来自拓扑文档中配置的网关的传入呼叫。 
@@ -112,7 +112,7 @@ VIS 支持通过视频 SIP 中继传输的 CUCM 传入呼叫。 可能会丢失�
     
      ![前端故障转移关系图](../media/6ddc08ec-4708-4c23-9e77-0f88899a2a96.png)
   
-    VIS 将跟踪其主前端池及其备份前端池的状态 (该设置位于拓扑文档集中注册器服务的备份设置) 。 它会向两个池一分钟发送一次"选项"轮询，如果连续五次失败，VIS 将假定特定前端池出现故障。 如果主前端池标记为"关闭"，并且有一个可用的配置备份，VIS 将新呼叫从网关发送到备份前端池。 主前端池返回后，VIS 将恢复使用主前端池进行新呼叫。
+    VIS 将跟踪其主前端池及其备份前端池的状态 (该设置位于拓扑文档集中注册器服务的备份设置) 。 它会向两个池一分钟发送一次"选项"轮询，如果连续五次失败，VIS 将假定特定前端池出现故障。 如果主前端池标记为"关闭"，并且存在一个可用的配置备份，VIS 将新呼叫从网关发送到备份前端池。 主前端池返回后，VIS 将恢复使用主前端池进行新呼叫。
     
     VIS 还将对来自视频 SIP 中继的呼叫实施 10 秒计时器。 如果下一跃点主前端池用于来自视频 SIP 中继的呼叫，并且下一跃点主前端池未通过某些 SIP 消息 (包括 100 尝试) 在此计时器值中发送给它的 Invite 应答，则应该尝试呼叫的备份下一跃点代理（如果配置）。 
     
@@ -147,11 +147,11 @@ VIS 只能作为部署部署的一Skype for Business一部分。 它可以与 Ly
   
 VIS 不支持在 RTV 和 H.264 之间进行转码。 Lync 2013 之前客户端与会议中的 VTC 参与者之间没有视频互操作性。
   
-在会议中设置 Lync 2013 之前客户端将导致移动客户端使用 RTV 发送，从而导致 VTC 在移动客户端成为主要扬声器时不会接收任何视频。
+在会议中设置 Lync 2013 之前客户端将导致移动客户端使用 RTV 发送，从而导致 VTC 在移动客户端成为主要扬声器时不接收视频。
   
 为了使 Lync 2013 与作为 Skype for Business 部署的一部分的 VIS 正确工作，Lync 2013 需要应用相应的 CU，以升级 Lync 2013 客户端、CAA 和 AVMCU 以使用 VIS。
   
-VIS 与 Lync 2013 和桌面Skype for Business的互操作性已经过测试且受支持。
+VIS 与 Lync 2013 和 Skype for Business客户端的互操作性已经过测试且受支持。
   
 VIS 与非桌面 (Android、Ipad、Iphone、Windows Phone、LMX 等 ) Skype for Business 客户端的互操作性在 VIS 发布时可从适用的应用商店获得测试，并且受支持。
   
@@ -163,7 +163,7 @@ VIS 与非桌面 (Android、Ipad、Iphone、Windows Phone、LMX 等 ) Skype for 
 ## <a name="vis-sizing-and-transcoding-costs"></a>VIS 大小调整和转换成本
 <a name="resiliency"> </a>
 
-将单个视频流从 Cisco VTC 转码为多个双播流使用 CPU 容量。 假定每个 VTC 中的 720p 视频流在运行在 Lync 2013 建议的FE 平台等效的单个 VIS 中，在 720p、360p 和 180p) 中，大约 16 个 VTC 可以转换视频代码 (以转换为 3 个单独的同播流。 如果关闭转换码功能，这将节省 VIS CPU。 但是，VIS 从 VTC 请求的视频图像将是满足 VTC 上所有接收器的最低Skype for Business分辨率。 请注意，即使关闭代码转换，当客户端请求Skype for Business VTC 无法发送的某些低分辨率时，也可以激活转换代码。
+将单个视频流从 Cisco VTC 转码为多个双播流使用 CPU 容量。 假定每个 VTC 中的 720p 视频流在运行在 Lync 2013 建议的FE 平台等效的单个 VIS 中，在 720p、360p 和 180p) 中，大约 16 个 VTC 可以转换其视频代码 (假定其视频流在 720p、360p 和 180p 流中转换代码。 如果关闭转换码功能，这将节省 VIS CPU。 但是，VIS 从 VTC 请求的视频图像将是满足 VTC 上所有接收器的最低Skype for Business分辨率。 请注意，即使关闭代码转换，在客户端请求Skype for Business VTC 无法发送的某些低分辨率时，也可以激活转换代码。
   
 ## <a name="call-distribution-from-the-video-gateway-to-vis"></a>从视频网关到 VIS 的呼叫分布
 <a name="resiliency"> </a>

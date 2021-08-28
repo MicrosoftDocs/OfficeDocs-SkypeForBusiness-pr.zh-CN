@@ -13,18 +13,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 description: 使用此表查找有关在奥地利获取和管理奥地利Microsoft Teams。
-ms.openlocfilehash: 9a83bd68c313af1020a052c92e708505f6f13d02
-ms.sourcegitcommit: 7251b92c9913ca1e43b3cc24fad73e8997303731
+ms.openlocfilehash: 240af65018568760de93eaebda360ca8a73e9baf
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58348264"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630124"
 ---
 # <a name="phone-number-management-for-austria"></a>电话奥地利的号码管理
 

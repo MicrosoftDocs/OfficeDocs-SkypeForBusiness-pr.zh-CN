@@ -12,22 +12,22 @@ ms.custom:
 - ms.lync.plan.Federation
 - ms.lync.plan.Federation
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 63ea8a5e-a040-4892-9440-0fdbeef66fc0
 ROBOTS: NOINDEX, NOFOLLOW
 description: 可以将边缘服务器配置为允许内部和外部用户访问合作伙伴组织或服务中的联系人。
-ms.openlocfilehash: 96e1a4d575670013d01fb784945293855d35fc0190aa8c0d72c2b3969ed151d4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c0a7bb6ed7fd3ec575e1f1c4ee3332dbe95a8f3b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280107"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582986"
 ---
 # <a name="federation-planning-tool"></a>联合 (规划工具) 
  
 可以将边缘服务器配置为允许内部和外部用户访问合作伙伴组织或服务中的联系人。
   
- 联盟的工作方式Skype for Business Server Microsoft Lync 2013 一样。 有关为联合环境准备环境的更多详细信息，请参阅下列主题：
+ 联盟的工作方式与Skype for Business Server Microsoft Lync 2013 一样。 有关为联合环境准备环境的更多详细信息，请参阅下列主题：
   
 - [规划 Lync Server 2013 和 Office Communications Server 联盟](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-lync-server-and-office-communications-server-federation)
     

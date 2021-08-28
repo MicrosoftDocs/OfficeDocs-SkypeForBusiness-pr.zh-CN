@@ -15,18 +15,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: 了解如何为企业中的小型企业设置和测试Microsoft 365 商务语音。
-ms.openlocfilehash: 0eaa5c61a85bcf189e13f9cdfff43e68f12090c42533c69b2d0154da81a6f3e3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 了解如何为小型企业设置和测试自动助理，Microsoft 365 商务语音。
+ms.openlocfilehash: 04df17f84bccb18f9cd1184574b118e8c870a0e8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332964"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630256"
 ---
 # <a name="set-up-an-auto-attendant---small-business-tutorial"></a>设置自动助理 - 小型企业教程
 

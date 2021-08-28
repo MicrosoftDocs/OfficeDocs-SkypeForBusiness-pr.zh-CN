@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a71881ef-b04a-465e-9abb-0577bfd182f3
 description: 创建或修改带宽策略，企业语音呼叫允许控制Skype for Business Server。
-ms.openlocfilehash: 9a0cbbb4f398872504eea38bda7a3a4e79a62ac00331946b73a62bbf9c57a2df
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4ba24c7f1fa170386e6d74fc34ef99e580d5ac91
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332034"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583206"
 ---
 # <a name="create-bandwidth-policy-profiles-in-skype-for-business-server"></a>在服务器创建带宽策略Skype for Business Server 
  
@@ -29,7 +29,7 @@ ms.locfileid: "54332034"
   
 “带宽策略”定义对实时音频和视频内容的带宽使用量的限制。 带宽策略应用于bandwidth策略配置文件，这些策略配置文件可应用于多个网络站点以用于呼叫允许控制。
   
-有关应在 CAC 部署中设置哪些带宽限制的指南，请参阅 Plan [for call admission control in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)。
+有关应在 CAC 部署中设置哪些带宽限制的指南，请参阅在 Skype for Business Server 中规划[呼叫允许Skype for Business Server。](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)
   
 以下过程中创建的示例策略会为音频总流量、各个音频会话、视频总流量和各个视频会话设置限制。例如，5Mb_Link 带宽策略配置文件将设置以下限制： 
   
