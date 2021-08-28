@@ -11,24 +11,24 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Ent_O365_Hybrid
 - IT_Skype16
 - IT_Skype4B_Hybrid
 ms.assetid: 791026d0-730f-4225-872e-74c9b5c166d7
 ROBOTS: NOINDEX, NOFOLLOW
-description: 使用 Skype for Business Server 混合可管理性向导帮助你配置环境，以使用 Skype for Business Online 进行混合。
-ms.openlocfilehash: e77fbb172e947c7381d7655ac9253f768c9719614dafd5ddb4c0f766b0b2b3bb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 使用 Skype for Business Server 混合可管理性向导帮助你配置环境，以与 Skype for Business Online 进行混合。
+ms.openlocfilehash: fa7299fc612974e5f1f79e815284d68403527b49
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54302966"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609729"
 ---
 # <a name="hybrid-wizard-sign-in-to-microsoft-365-or-office-365"></a>混合向导：登录到 Microsoft 365 或 Office 365
 
-使用 Skype for Business Server 混合可管理性向导帮助你配置环境，以使用 Skype for Business Online 进行混合。
+使用 Skype for Business Server 混合可管理性向导帮助你配置环境，以与 Skype for Business Online 进行混合。
 
 ## <a name="sign-in-to-microsoft-365-or-office-365"></a>登录到 Microsoft 365 或 Office 365
 

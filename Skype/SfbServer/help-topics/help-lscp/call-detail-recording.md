@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.MonArchCdrMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e3daddf8-ac49-4b96-bf05-44b5a01d7aab
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: 707556186987be9a80b9fe51aa369b30c08278a95694438503572d0f4b7780cf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4d1711ae1942041736b25e7c6d8df49b64f34deb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298412"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609549"
 ---
 # <a name="call-detail-recording"></a>呼叫详细信息记录
  
@@ -30,5 +30,5 @@ ms.locfileid: "54298412"
     
 - [指定 CDR 数据在 Skype for Business Server 2015 中的保留](../../manage/health-and-monitoring/specify-retention-of-data.md)
     
-有关可以使用控制面板执行的不同过程的详细信息，Skype for Business Server Manage [Skype for Business Server 2015](../../manage/manage.md)。
+有关可以使用控制面板执行的不同过程的详细信息，请参阅 Manage [Skype for Business Server Skype for Business Server 2015](../../manage/manage.md)。
 

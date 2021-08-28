@@ -1,5 +1,5 @@
 ---
-title: 呼叫允许控制的组件和拓扑Skype for Business
+title: 呼叫允许控制的组件和Skype for Business
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -9,23 +9,23 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0beec6be-2431-4255-a3d2-512dd030e66a
-description: 规划呼叫允许控制 (CAC) ，如果有 MPLS 网络、SIP 中继或第三方 PSTN 网关或 PBX。 适用于Skype for Business Server 企业语音。
-ms.openlocfilehash: 33e13853e4c2ed9ab9cab328092f7bc44147607187c8f221993d88cb4114a6d5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 规划呼叫允许控制 (CAC) （如果您有 MPLS 网络、SIP 中继或第三方 PSTN 网关或 PBX）。 适用于Skype for Business Server 企业语音。
+ms.openlocfilehash: 42fa61908ff13b6323215f2760b113e5d104553d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315544"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631636"
 ---
-# <a name="components-and-topologies-for-call-admission-control-in-skype-for-business"></a>呼叫允许控制的组件和拓扑Skype for Business
+# <a name="components-and-topologies-for-call-admission-control-in-skype-for-business"></a>呼叫允许控制的组件和Skype for Business
 
-规划呼叫允许控制 (CAC) ，如果有 MPLS 网络、SIP 中继或第三方 PSTN 网关或 PBX。 适用于Skype for Business Server 企业语音。
+规划呼叫允许控制 (CAC) （如果您有 MPLS 网络、SIP 中继或第三方 PSTN 网关或 PBX）。 适用于Skype for Business Server 企业语音。
 
 本节中的主题提供了有关通过各种类型的网络拓扑部署呼叫允许控制 (CAC) 的特殊注意事项的信息。
 
@@ -60,7 +60,7 @@ ms.locfileid: "54315544"
     > [!NOTE]
     > 对于 ITSP，该网络站点配置不起作用。带宽策略值实际是在步骤 2 中应用。
 
-2. 使用在步骤 1 中创建的站点的相关参数值，为 SIP 中继创建站点间链接。 例如，使用企业中的网络站点名称作为参数 NetworkSiteID1 的值，并使用 ITSP 网络站点名称作为参数 NetworkSiteID2 的值。 有关详细信息，请参阅部署文档中的[在](../../deploy/deploy-enterprise-voice/create-network-intersite-policies.md)Skype for Business Server 创建网络站点间策略和[New-CsNetworkInterSitePolicy。](/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps)
+2. 使用在步骤 1 中创建的站点的相关参数值，为 SIP 中继创建站点间链接。 例如，使用企业中的网络站点名称作为参数 NetworkSiteID1 的值，并使用 ITSP 网络站点名称作为参数 NetworkSiteID2 的值。 有关详细信息，请参阅部署[](../../deploy/deploy-enterprise-voice/create-network-intersite-policies.md)文档中的在 Skype for Business Server 创建网络站点间策略和[New-CsNetworkInterSitePolicy。](/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps)
 
 3. 从 ITSP 获取会话边界控制器 (SCB) 的 IP 地址。 将子网掩码为 32 的 IP 地址添加到代表 ITSP 的网络站点。 有关详细信息，请参阅[Associate a Subnet with a Network Site](/previous-versions/office/lync-server-2013/lync-server-2013-associate-a-subnet-with-a-network-site)。
 
@@ -101,7 +101,7 @@ ms.locfileid: "54315544"
 
 ![案例 2：中介服务器 PBX 与 MTP 之间的 CAC](../../media/CAC_gateways_2.jpg)
 
-本示例在中介服务器和 PBX/MTP 之间应用 CAC。 如果网络Skype for Business 1 上的客户端用户通过位于网络站点 2 中的 PBX/MTP 进行 PSTN 呼叫，则媒体将流经 WAN 链路。 因此，对于每个 PSTN 会话，将执行两个 CAC 检查：
+本示例在中介服务器和 PBX/MTP 之间应用 CAC。 如果网络Skype for Business站点 1 上的客户端用户通过位于网络站点 2 中的 PBX/MTP 进行 PSTN 呼叫，则媒体将流经 WAN 链路。 因此，对于每个 PSTN 会话，将执行两个 CAC 检查：
 
 - 在 Skype for Business 客户端应用程序和中介服务器之间
 
@@ -110,7 +110,7 @@ ms.locfileid: "54315544"
 这既适用于网络站点 1 中客户端的传入 PSTN 呼叫，也适用于从网络站点 1 中的客户端发出的传出 PSTN 呼叫。
 
 > [!NOTE]
-> 确保已配置 MTP 所属的 IP 子网，并且该子网与网络站点 2 相关联。
+> 确保已配置 MTP 所属的 IP 子网，并且该子网与网络站点 2 关联。
 
 > [!NOTE]
 > 确保已配置中介服务器的两个接口所属的 IP 子网，并且该子网与网络站点 1 关联。
@@ -126,12 +126,12 @@ ms.locfileid: "54315544"
 
 ![案例 3：中介服务器 PBX 之间没有 MTP 的 CAC](../../media/CAC_gateways_3.jpg)
 
-本示例中，如果网络站点 1 的 Skype for Business 客户端用户通过 PBX 向用户发送呼叫，则中介服务器只能对 Skype for Business 客户端应用程序和中介服务器) 之间的代理代理段执行 (CAC 检查。 由于在请求会话时中介服务器没有有关终结点设备的信息，因此在呼叫建立之前，无法在中介服务器和第三方终结点 (之间的 WAN 链接) 上执行 CAC 检查。 但是，建立会话后，中介服务器可便于计算中继上使用的带宽。
+此示例中，如果网络站点 1 的 Skype for Business 客户端用户通过 PBX 向用户发送呼叫，则中介服务器只能对 Skype for Business 客户端应用程序和中介服务器) 之间的代理代理 (执行 CAC 检查。 由于在请求会话时中介服务器没有有关终结点设备的信息，因此在呼叫建立之前，无法在中介服务器和第三方终结点) 之间的 WAN 链接 (上执行 CAC 检查。 但是，建立会话后，中介服务器可便于计算中继上使用的带宽。
 
 对于来自第三方终结点的呼叫，有关该终结点设备的信息在会话请求时可用，并且 CAC 检查可在中介服务器的两侧执行。
 
 > [!NOTE]
-> 确保已配置终结点设备所属的 IP 子网，并且该子网与网络站点 2 关联。
+> 确保已配置终结点设备所属的 IP 子网，并且该子网与网络站点 2 相关联。
 
 > [!NOTE]
 > 确保已配置中介服务器的两个接口所属的 IP 子网，并且该子网与网络站点 1 关联。

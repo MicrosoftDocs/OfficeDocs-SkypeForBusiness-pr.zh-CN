@@ -15,19 +15,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 了解哪些国家和地区有拨入式会议号码，以及号码是如何自动分配的。
-ms.openlocfilehash: a0984a4bab89724f0dd00a50a1dbe0161ad837555180086f807f099396c9445e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9ad8f10a35ff712d8ee80822343c5098f0b2a907
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306225"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586140"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-skype-for-business-online"></a>Skype for Business Online 中的音频会议电话号码
 
@@ -36,7 +36,7 @@ ms.locfileid: "54306225"
 > [!NOTE]
 > 有关在 Microsoft Teams中电话号码的信息，请参阅 [Microsoft Teams 中的音频会议电话号码](/MicrosoftTeams/phone-numbers-for-audio-conferencing-in-teams)。
 
-当您为会议设置 **音频** 会议Skype for Business，拨入电话号码将自动分配给您的组织。 通过访问音频会议 Microsoft 网桥管理中心，Skype for Business分配给音频会议网桥  >    >  **的电话号码**。 请参阅 [查看音频会议号码列表](see-a-list-of-audio-conferencing-numbers.md)。
+当您为会议设置 **音频** 会议Skype for Business，拨入电话号码将自动分配给您的组织。 可以通过访问音频管理中心音频会议 Microsoft 网桥 来Skype for Business分配给音频会议网桥  >    >  **的电话号码**。 请参阅 [查看音频会议号码列表](see-a-list-of-audio-conferencing-numbers.md)。
   
 > [!NOTE]
 > 没有包含所有音频会议拨入号码列表的资源。 如果你希望查看你的地区或国家/地区是否有可用的拨入电话号码，请使用 **Skype for Business** 管理中心 Voice 电话 号码，单击"添加"，然后单击"新建服务号码  >    >  **"。**   使用“国家/地区”、“省/直辖市/自治区/地区”和“城市”列表来筛选搜索结果。 此外，如果要查找免费服务号码，请从"州 **/** 地区"**列表中选择**"免费"。
@@ -47,7 +47,7 @@ ms.locfileid: "54306225"
   
 ## <a name="dial-in-phone-numbers-in-a-meeting-invite"></a>会议邀请中的拨入电话号码
 
-当 Skype for Business Online 用户在 Outlook 或 Outlook Web App 中安排会议时，为用户设置的默认音频会议号码将包含在会议邀请中。 如果要为一个或多个用户选择不同的默认号码，可以通过访问"音频会议用户"Skype for Business更改  >    >  **该号码**。 请参阅 [设置邀请中包含的电话号码](set-the-phone-numbers-included-on-invites.md)。
+当 Skype for Business Online 用户在 Outlook 或 Outlook Web App 中安排会议时，为用户设置的默认音频会议号码将包含在会议邀请中。 如果要为一个或多个用户选择不同的默认号码，可以通过访问"管理中心音频会议用户"Skype for Business  >  **更改**  >  **该号码**。 请参阅 [设置邀请中包含的电话号码](set-the-phone-numbers-included-on-invites.md)。
   
 可以通过单击会议邀请上的" **查找本地号码**"链接来查看其他拨入号码。
   
@@ -69,7 +69,7 @@ ms.locfileid: "54306225"
 > 你可以登录到 Microsoft 365 管理中心，然后在“**组织资料**”下面查找，以确定贵组织所在的国家或地区位置。 
   
 > [!CAUTION]
-> 由于委内瑞拉、印度尼西亚、越南和阿拉伯联合酋长国 (阿拉伯联合酋长国) 的收费电话号码可用性有限，这些国家/地区的组织不会自动为其分配音频会议收费号码。 这些地点可使用的免费号码取决于可用库存。 
+> 由于委内瑞拉、印度尼西亚、越南和阿拉伯联合酋长国 (阿拉伯联合酋长国) 的收费电话号码有限，这些国家/地区的组织不会自动为其分配音频会议收费号码。 这些地点可使用的免费号码取决于可用库存。 
   
 专用音频会议电话号码是你可以获取并随后分配给组织的服务号码。 可以使用管理中心 中的 Skype for Business **号码**。 有关详细信息，请参阅 [获取服务电话号码](/microsoftteams/getting-service-phone-numbers)。
   

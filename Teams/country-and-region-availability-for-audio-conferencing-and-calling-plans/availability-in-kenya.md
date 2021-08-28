@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: 5ba5493f62d9745a17436f98ab8497a684806b874ecafcac1afb29a217a16a7b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f7ec89f4508b383d14b51e36775e5b12a1c6a06f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337990"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586650"
 ---
 # <a name="availability-in-kenya"></a>在肯尼亚的可用性
 
@@ -43,7 +43,7 @@ ms.locfileid: "54337990"
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
-|是否会为音频会议自动分配电话号码？  <br/> |弱  <br/> |
+|是否会为音频会议自动分配电话号码？  <br/> |否  <br/> |
 |使用“呼叫我”功能的拨出功能  <br/> |需要通信信用额度  <br/> |
    
 ## <a name="phone-system"></a>电话系统
@@ -69,7 +69,7 @@ ms.locfileid: "54337990"
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|你可以获取哪些首都或大城市的收费电话号码？  <br/> |Na一 ([请求请求) ](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)  <br/> |
+|你可以获取哪些首都或大城市的收费电话号码？  <br/> |Na一 ([请求) ](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)  <br/> |
 |是否提供收费电话号码？  <br/> |是（[应要求](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)） <br/> |
 |是否提供免费电话号码？  <br/> |是  <br/> |
    

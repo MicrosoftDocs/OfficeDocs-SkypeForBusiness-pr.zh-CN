@@ -9,41 +9,41 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 113e8c3f-71de-435c-bc4a-918ac7b50008
 description: 摘要：选择用于部署Skype for Business Server。 了解服务器并置Skype for Business Server。
-ms.openlocfilehash: 922bc26ee6eeea720c62cbbc744953aa5edecf4c03a792fac56ee7910806b6e1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ff527bc35f534de5a7c8830bbc4359626f8f09b9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349864"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609209"
 ---
 # <a name="topology-basics-for-skype-for-business-server"></a>拓扑结构Skype for Business Server
 
 **摘要：** 选择您的拓扑Skype for Business Server。 了解服务器并置Skype for Business Server。
 
-在准备任何其他内容之前，你需要知道你正在规划正确的拓扑，以用于部署Skype for Business Server。 首先需要确定的是，是要部署 Skype for Business Server 本地部署，还是要将其与混合部署中的 Skype for Business Server Online 部署相结合。 无论采用哪种方式，您都想进一步阅读，因为我们将在此处详细介绍本地拓扑，但混合详细信息记录在其自己的部分中。
+在准备任何其他内容之前，你会想要知道你正在规划正确的拓扑，以用于部署Skype for Business Server。 首先需要确定的是，是进行 Skype for Business Server 本地部署，还是要将其与混合部署中的 Skype for Business Server Online 部署相结合。 无论采用哪种方式，您都想进一步阅读，因为我们将在此处详细介绍本地拓扑，但混合详细信息记录在其自己的部分中。
 
 You can also see some example topologies in [Reference topologies for Skype for Business Server](reference-topologies.md).
 
 ## <a name="sites"></a>网站
 
-在Skype for Business Server中，定义网络上包含这些组件Skype for Business Server站点。 站点是一组由高速度、低延迟网络（例如，单个局域网 (LAN) 或由高速光纤网络连接的两个网络）完美连接的计算机。 请注意，Skype for Business Server是一个独立于 Active Directory 域服务站点和 Microsoft Exchange Server概念。 您的Skype for Business Server站点无需与 Active Directory 站点对应。
+在Skype for Business Server中，定义网络上包含这些组件Skype for Business Server站点。 站点是一组由高速度、低延迟网络（例如，单个局域网 (LAN) 或由高速光纤网络连接的两个网络）完美连接的计算机。 请注意，Skype for Business Server站点是 Active Directory 域服务站点和 active Directory 域服务站点Microsoft Exchange Server概念。 您的Skype for Business Server站点无需与 Active Directory 站点对应。
 
-Skype for Business Server支持根据高可用性和位置要求进行缩放的一个或多个站点本地部署。
+Skype for Business Server支持一个或多个网站本地部署，这些站点可根据高可用性和位置要求进行扩展。
 
-您的部署将具有至少一个中央站点 (也称为数据中心，这是位于) 中所有服务器的数据中心，并且部署中的每个中央站点将具有一台 Standard Edition 服务器或至少一个 Enterprise Edition 前端池。 您可以在以下每个选项中查看差异：
+您的部署将至少有一个中央站点 (也称为数据中心，这是位于) 中所有服务器的数据中心，部署中的每个中央站点将具有一台 Standard Edition 服务器或至少一个 Enterprise Edition 前端池。 您可以在以下每个选项中查看差异：
 
 - Standard Edition服务器包括并SQL Server Express数据库。
 
 - Enterprise Edition前端池包括：
 
-  - 一个或多个前端服务器 (至少三台，用于实现可伸缩性) ，最多为 12 台。 多个服务器需要负载平衡。
+  - 一个或多个前端服务器 (至少三台，用于可伸缩性) ，最多 12 台。 多个服务器需要负载平衡。
 
   - 单独的后端服务器。
 
@@ -67,17 +67,17 @@ Skype for Business Server支持根据高可用性和位置要求进行缩放的�
 
 - 多个 Standard Edition 服务器。
 
-- OfficeWeb Apps Server，与 Office Web Apps 一Skype for Business Server共享和呈现PowerPoint演示文稿。
+- OfficeWeb Apps Server，与 Office Web Apps Skype for Business Server共享和呈现PowerPoint演示文稿。
 
-- 外围网络中 (边缘服务器或边缘) 。 如果希望部署支持联盟伙伴、公共 IM 连接、可扩展消息传递和状态协议 (XMPP) 网关和远程用户访问，则需要此配置。 可以在边缘服务器规划文档中找到更多详细信息。
+- 边缘服务器或边缘 (位于外围网络中) 。 如果希望部署支持联盟伙伴、公共 IM 连接、可扩展消息传递和状态协议 (XMPP) 网关和远程用户访问，则需要此配置。 可以在边缘服务器规划文档中找到更多详细信息。
 
 - 持久聊天服务器。 如果你希望用户能够参与基于主题的多方对话，这种对话会持续一段时间，则非常有用。 有关详细信息，请参阅规划持久聊天服务器主题。
 
-- 监视。 用于支持对部署中的 企业语音 和 A/V 会议的音频/视频 (A/V) 用户体验质量 (QoE) 和呼叫详细信息记录 (CDR) 进行数据收集。 我们将在规划监控主题中详细讨论此内容。
+- 监视。 用于支持为部署中的 企业语音 和 A/V 会议的音频/视频 (A/V) 用户体验质量 (QoE) 和呼叫详细信息记录 (CDR) 。 我们将在规划监控主题中详细讨论此内容。
 
-- 控制器或控制器池。 不是必需的，但如果您希望提高复原能力并启用用户请求Skype for Business用户请求重定向到用户主池，则非常有用。 如果要部署控制器，则每个池最多支持 10 个控制器。 如果需要这样做，一定要继续阅读规划控制器主题。
+- 控制器或控制器池。 不是必需的，但如果您希望提高恢复能力并启用用户请求Skype for Business用户请求重定向到用户主池，则非常有用。 如果要部署控制器，则每个池最多支持 10 个控制器。 如果需要这样做，一定要继续阅读规划控制器主题。
 
-- 反向代理。 这不是 Skype for Business Server 组件，但是如果您想要支持联盟用户共享 Web 内容，如果您打算支持移动流量，如果您的远程用户想要使用通讯簿、加入会议等，则这是您希望在环境中拥有的内容。 有一个设置反向代理服务器主题，可以在准备就绪时查看更多详细信息。
+- 反向代理。 这不是 Skype for Business Server 组件，但是如果您想要支持联盟用户共享 Web 内容，如果您打算支持移动通信，如果您的远程用户想要使用通讯簿、加入会议等，则这是您希望在环境中拥有的内容。 有一个设置反向代理服务器主题，可以在准备就绪时查看更多详细信息。
 
 有关这些服务器并置的其他信息，请参阅下文。
 
@@ -88,7 +88,7 @@ Skype for Business Server支持根据高可用性和位置要求进行缩放的�
 |控制器或控制器池  <br/> |独立的中介服务器或中介服务器池  <br/> |Office Web Apps Server  <br/> |
 |边缘服务器或边缘池  <br/> |持久聊天服务器或持久聊天服务器池  <br/> |监控  <br/> |
 
-在此列表中Exchange统一消息 (UM) 服务器位于何处？ 如果你希望与 Exchange UM 集成，当然可以将其与 Skype for Business Server 一起使用，但它不是 Skype for Business Server 网站的一个组件，因此此处未提及它。
+在此列表中Exchange统一 (UM) 服务器位于何处？ 如果你希望与 Exchange UM 集成，则当然可以将其与 Skype for Business Server 一起使用，但它不是 Skype for Business Server 网站的一个组件，因此此处未提及它。
 
 您可能计划具有多个中央站点，如果是这样，它们可以共享以下服务器和角色（如果它们部署在中央站点上）：
 
@@ -103,12 +103,12 @@ Skype for Business Server支持根据高可用性和位置要求进行缩放的�
 
 |||||
 |:-----|:-----|:-----|:-----|
-|防火墙  <br/> |PSTN 网关 (部署时企业语音  <br/> |Exchange如果要与 (UM 服务器集成，EXCHANGE UM)   <br/> |DNS 负载平衡  <br/> |
+|防火墙  <br/> |PSTN 网关 (部署时企业语音  <br/> |Exchange如果要 (UM 服务器集成，EXCHANGE UM)   <br/> |DNS 负载平衡  <br/> |
 |硬件负载平衡器  <br/> |SQL Server 数据库  <br/> |文件共享  <br/> ||
 
 ## <a name="server-roles"></a>服务器角色
 
-每台运行 Skype for Business Server运行一个或多个服务器角色。 服务器角色是由该服务器Skype for Business Server定义的一组角色功能。 无需在网络中部署所有可用的服务器角色。 只安装包含您想要的功能的服务器角色。
+每台运行 Skype for Business Server运行一个或多个服务器角色。 服务器角色是由该服务器Skype for Business Server定义的一组服务功能。 无需在网络中部署所有可用的服务器角色。 只安装包含您想要的功能的服务器角色。
 
 对于大多数的服务器角色，要获得可伸缩性和高可用性，可部署全部运行同一服务器角色的多台服务器的“池”。 池中的每台服务器必须运行一个或多个相同的服务器角色。 对于池中的大多数Skype for Business Server，您必须部署负载平衡器以在池中的各个服务器之间分布流量。 Skype for Business Server域名系统 (DNS) 负载平衡和硬件负载平衡器。
 
@@ -128,11 +128,11 @@ Skype for Business Server支持根据高可用性和位置要求进行缩放的�
 
 - IM 功能，包括多方 IM 会议。
 
-- 如果已部署 Web 会议、PSTN 电话拨入式会议和 A/V (，) 。
+- Web 会议、PSTN 电话拨入式会议和 A/V 会议 (部署) 。
 
 - 应用程序承载，对于应用程序中包含的两Skype for Business Server (，例如会议助理响应组应用程序) 应用程序，以及第三方应用程序。
 
-- （可选）监控功能，用于以呼叫详细记录 (CDR) 和呼叫错误记录 (CER) 形式收集使用信息。 此信息提供有关媒体与音频和视频 (以及) 呼叫和 A/V 会议企业语音质量的指标。
+- （可选）监控功能，用于以呼叫详细记录 (CDR) 和呼叫错误记录 (CER) 形式收集使用信息。 此信息提供有关通过网络进行 (通话和 A/V) 的媒体企业语音质量的指标。
 
 - 用于支持基于 Web 的任务的 Web 组件，如 Web 计划程序和联接启动器。
 
@@ -146,19 +146,19 @@ Skype for Business Server支持根据高可用性和位置要求进行缩放的�
 
 此外，部署中的一台前端服务器还运行中央管理服务器，中央管理服务器管理基本配置数据，Skype for Business Server。 中央管理服务器还提供 Lync Server 命令行管理程序和文件传输功能。
 
-后端服务器是运行数据库Microsoft SQL Server为前端池提供数据库服务的数据库服务器。 后端服务器用作池的用户和会议数据的备份存储，是其他数据库（如响应组数据库）的主存储。 可以有一台后端服务器，但建议Skype for Business Server[后端服务器](../high-availability-and-disaster-recovery/back-end-server.md)高可用性。 后端服务器不会运行任何Skype for Business Server软件。
+后端服务器是运行数据库Microsoft SQL Server为前端池提供数据库服务的数据库服务器。 后端服务器用作池的用户和会议数据的备份存储，是其他数据库（如响应组数据库）的主存储。 您可以拥有一台后端服务器，但建议Skype for Business Server[后端服务器](../high-availability-and-disaster-recovery/back-end-server.md)高可用性。 后端服务器不会运行任何Skype for Business Server软件。
 
 > [!IMPORTANT]
 > 建议不要将数据库与其他Skype for Business Server并并。 如果您这样做，可能会影响可用性和性能。
 
 > [!NOTE]
-> SQL镜像在 Skype for Business Server 2015 中可用，但在 2019 年 2 月不再Skype for Business Server支持。 AlwaysOn 可用性组、AlwaysOn 故障转移群集实例 (FCI) 和 SQL 故障转移群集方法在 Skype for Business Server 2019 中Skype for Business Server首选。
+> SQL镜像在 Skype for Business Server 2015 中可用，但在 Skype for Business Server 2019 中不再受支持。 AlwaysOn 可用性组、AlwaysOn 故障转移群集实例 (FCI) 和 SQL 故障转移群集方法在 Skype for Business Server 2019 中Skype for Business Server首选。
 
 存储在后端服务器数据库中的信息包括状态信息、用户的联系人列表、包含所有当前会议状态相关的永久数据的会议数据，以及会议安排数据。
 
 ### <a name="edge-server"></a>边缘服务器
 
-边缘服务器使用户可以与组织防火墙之外的用户进行通信和协作。 这些外部用户可以包括当前在外部工作的组织内部用户、来自联盟伙伴组织的用户以及受邀加入 Skype for Business Server 部署上承载的会议的外部用户。
+边缘服务器使用户可以与组织防火墙之外的用户进行通信和协作。 这些外部用户可以包括组织自己的当前在外工作的用户、来自联盟伙伴组织的用户以及受邀加入 Skype for Business Server 部署上承载的会议的外部用户。
 
 部署边缘服务器还将启用移动服务，此服务支持移动设备上的 Lync 功能。 用户可以使用受支持的 Apple iOS、Android、Windows Phone 或 Nokia 移动设备来执行发送和接收即时消息、查看联系人和查看状态等活动。 此外，移动设备还支持某些企业语音功能，例如，“单击加入会议”、“单位电话呼叫”、“一号通”、“语音邮件”和“错过的呼叫”。 移动功能还支持针对不支持在后台运行的应用程序的移动设备的推送通知。 推送通知是一类发送给移动设备的有关当移动设备处于不活动状态时发生的事件的通知。
 
@@ -175,7 +175,7 @@ Skype for Business Server支持根据高可用性和位置要求进行缩放的�
 
 ### <a name="video-interop-server"></a>视频互操作服务器
 
-视频互操作服务器是自 2015 年 2015 Skype for Business Server一个新角色。 它使您能够将你的 Skype for Business Server 部署与某些第三方 VTC (视频电话会议系统) 解决方案。 VIS 充当第三方电话会议系统和会议部署之间的Skype for Business Server中介。 对于此版本，VIS 侧重于与 Cisco/Tandberg 视频系统的互操作性。
+视频互操作服务器是自 2015 年 2015 Skype for Business Server一个新角色。 它使您能够将你的 Skype for Business Server 部署与某些第三方 VTC (视频电话会议系统) 解决方案。 VIS 充当第三方电话会议系统和远程电话会议部署之间的Skype for Business Server中介。 对于此版本，VIS 侧重于与 Cisco/Tandberg 视频系统的互操作性。
 
 有关详细信息，请参阅 Plan [for Video Interop Server in Skype for Business Server](../../plan-your-deployment/video-interop-server.md)。
 
@@ -186,13 +186,13 @@ Skype for Business Server支持根据高可用性和位置要求进行缩放的�
 ### <a name="persistent-chat-server-roles"></a>持久聊天服务器角色
 
 > [!NOTE]
-> 持久聊天在 2015 Skype for Business Server可用，但在 2019 年 2 月不再Skype for Business Server支持。 相同的功能在 Teams。 有关详细信息，请参阅[开始升级Microsoft Teams升级](/microsoftteams/upgrade-start-here)。 如果您需要使用持久聊天，您的选择是将需要此功能的用户迁移到 Teams，或者继续使用 Skype for Business Server 2015。
+> 持久聊天在 Skype for Business Server 2015 中可用，但在 2019 年 2 Skype for Business Server不再受支持。 相同的功能在 Teams。 有关详细信息，请参阅[开始升级Microsoft Teams升级](/microsoftteams/upgrade-start-here)。 如果您需要使用持久聊天，则选择将需要此功能的用户迁移到 Teams，或者继续使用 Skype for Business Server 2015。
 
 利用持久聊天，用户可以参加持续进行的、基于主题的多方对话。持久聊天前端服务器可运行持久聊天服务。持久聊天后端服务器可存储聊天历史记录数据以及有关类别和聊天室的信息。可选持久聊天合规性后端服务器可存储聊天内容和合规性事件以实现合规性。
 
 运行 Skype for Business Server Standard Edition 还可以运行在同一台服务器上并插的持久聊天。 不能将持久聊天前端服务器与 Enterprise Edition前端服务器并排。
 
-有关详细信息，请参阅[Plan for Persistent Chat Server in Skype for Business Server 2015。](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+有关详细信息，请参阅[Plan for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)。
 
 ## <a name="high-availability-and-disaster-recovery-support"></a>高可用性和灾难恢复支持
 
@@ -212,9 +212,9 @@ Skype for Business Server还支持用于后端服务器高可用性的几个选�
 
 有关池配对和后端服务器高可用性的详细信息，请参阅 Plan [for high availability and disaster recovery in Skype for Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)。
 
-## <a name="server-collocation-in-skype-for-business-server"></a>服务器中的服务器并置Skype for Business Server
+## <a name="server-collocation-in-skype-for-business-server"></a>服务器中的服务器并Skype for Business Server
 
-我们已使用并集术语，但这意味着什么？ Skype for Business Server 使您可以在同一台服务器（并置）或不同服务器上查找某些服务器角色和功能，但当您开始部署时，以及执行 Standard Edition 还是 Enterprise Edition 服务器部署 (它们各自都有各自的规则) ，这一点可能会令人困惑。 为了帮助您进行规划，我们将服务器并置包括在 Standard Edition 服务器部署和 Enterprise Edition 前端池部署 (在大多数情况下，此信息是相同的，并且信息不同的地方，我们专门) 。
+我们已使用并集术语，但这意味着什么？ Skype for Business Server 允许您在同一台服务器（并置）或不同服务器上查找一些服务器角色和功能，但当您开始部署时，以及执行 Standard Edition 还是 Enterprise Edition 服务器部署时，可能会感到困惑 (它们各自具有自己的规则) 。 为了帮助进行规划，我们将服务器并置包括在 Standard Edition 服务器部署和 Enterprise Edition 前端池部署 (在大多数情况下，此信息是相同的，如果该信息不同，请专门调用) 。
 
 ### <a name="collocation-of-server-roles"></a>服务器角色并置
 
@@ -238,12 +238,12 @@ Standard Edition 服务器具有以下角色并 (通过) 需要其他配置，�
 
 #### <a name="standard"></a>标准
 
-由于SQL Server Express并Standard Edition服务器上，并且无法移动，因此这非常简单。 此外，如果您在 Standard Edition 服务器上部署持久聊天服务器，则还可以在 Standard Edition 服务器上并并持久聊天和持久聊天合规性数据库，但不必这样。
+由于SQL Server Express并Standard Edition服务器上，并且无法移动，因此这非常简单。 此外，如果在 Standard Edition 服务器上部署持久聊天服务器，则还可以在 Standard Edition 服务器上并并持久聊天和持久聊天合规性数据库，但不必这样。
 
 > [!NOTE]
-> 持久聊天在 2015 Skype for Business Server可用，但在 2019 年 2 月不再Skype for Business Server支持。 相同的功能在 Teams。 有关详细信息，请参阅[开始升级Microsoft Teams升级](/microsoftteams/upgrade-start-here)。 如果您需要使用持久聊天，您的选择是将需要此功能的用户迁移到 Teams，或者继续使用 Skype for Business Server 2015。
+> 持久聊天在 Skype for Business Server 2015 中可用，但在 2019 年 2 Skype for Business Server不再受支持。 相同的功能在 Teams。 有关详细信息，请参阅[开始升级Microsoft Teams升级](/microsoftteams/upgrade-start-here)。 如果您需要使用持久聊天，则选择将需要此功能的用户迁移到 Teams，或者继续使用 Skype for Business Server 2015。
 
-这些服务器不能并Standard Edition服务器，但可以单独数据库服务器服务器：
+这些服务器不能并Standard Edition服务器，但可以单独数据库服务器一个服务器：
 
 - 监控数据库
 
@@ -271,10 +271,10 @@ Standard Edition 服务器具有以下角色并 (通过) 需要其他配置，�
 
 - 每个 SQL 实例只能包含一个 Enterprise Edition 前端池的后端数据库、一个监控数据库、一个存档数据库、一个持久聊天数据库和一个持久聊天合规性数据库。
 
-- 数据库服务器 不能支持多个 Enterprise Edition 前端池、一台存档服务器、一台监控服务器、一个持久聊天数据库和一个持久聊天合规性数据库，但它可以支持其中一个，无论数据库是使用相同的 SQL Server 实例还是使用 SQL Server 的单独实例。
+- 数据库服务器 不能支持多个 Enterprise Edition 前端池、一台存档服务器、一台运行监控的服务器、一个持久聊天数据库和一个持久聊天合规性数据库，但它可以支持其中一个，无论数据库是使用相同的 SQL Server 实例还是使用 SQL Server 的单独实例。
 
     > [!NOTE]
-    > 持久聊天在 2015 Skype for Business Server可用，但在 2019 年 2 月不再Skype for Business Server支持。 相同的功能在 Teams。 有关详细信息，请参阅[开始升级Microsoft Teams升级](/microsoftteams/upgrade-start-here)。 如果您需要使用持久聊天，您的选择是将需要此功能的用户迁移到 Teams，或者继续使用 Skype for Business Server 2015。
+    > 持久聊天在 Skype for Business Server 2015 中可用，但在 2019 年 2 Skype for Business Server不再受支持。 相同的功能在 Teams。 有关详细信息，请参阅[开始升级Microsoft Teams升级](/microsoftteams/upgrade-start-here)。 如果您需要使用持久聊天，则选择将需要此功能的用户迁移到 Teams，或者继续使用 Skype for Business Server 2015。
 
 ### <a name="file-shares"></a>文件共享
 
@@ -297,8 +297,8 @@ Standard Edition 服务器具有以下角色并 (通过) 需要其他配置，�
 
 - 不能并并反向代理服务器，该服务器不是Skype for Business Server组件，甚至可能不在拓扑中。 如果您希望支持联盟用户共享 Web 内容，除其他很多内容外，您还需要反向代理。 如果需要，请继续操作，通过配置组织中已有的正由其他应用程序使用的现有反向代理服务器，为 Skype for Business Server 实现反向代理支持。
 
-- 不能将任何 UM 组件Exchange或SharePoint服务器组件与任何Skype for Business Server并。
+- 不能将任何 UM 组件Exchange或SharePoint服务器组件与任何角色Skype for Business Server并。
 
 ## <a name="see-also"></a>另请参阅
 
-[Skype for Business Server](reference-topologies.md)
+[参考拓扑Skype for Business Server](reference-topologies.md)

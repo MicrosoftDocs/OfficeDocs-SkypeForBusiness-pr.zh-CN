@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddEdgeMachineInternalIpPage2010
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 31b0ac1d-f320-4677-bd0f-b4b0dc84a6a2
 description: 使用此页指定边缘服务器的内部 IP 地址和内部完全限定域名 (FQDN)。
-ms.openlocfilehash: 9d48bcb61f1c600b92830d00030338ae1323575773192e37a7e4ba34f35393f2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6e8b055889175a46c7b3846fd45a60819b963a9f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303864"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58587378"
 ---
 # <a name="add-edge-machine-internal-ip-2010"></a>添加边缘计算机内部 IP 2010
 
@@ -28,6 +28,6 @@ ms.locfileid: "54303864"
 
 - 在 **"内部 IPv4** 地址"中，键入要添加到池中的边缘服务器的 IP 地址。
 
-- 在 **"内部 FQDN"** 中，键入 (要添加到池) 服务器 FQDN 的完全限定域名。
+- 在 **"内部 FQDN"** 中，键入要 (池) 边缘服务器的完全限定域名和 FQDN。
 
 指定的 FQDN 必须与在服务器上配置的计算机名称相同。 默认情况下，未加入域的计算机的计算机名称为短名称，而不是 FQDN。 拓扑生成器使用 FQDN，而不是短名称。 因此，必须在要部署为未加入域的边缘服务器的计算机名称上配置域名系统 (DNS) 后缀。 有关向计算机名称添加 DNS 后缀的详细信息，请参阅[Configure DNS for Edge Support](/previous-versions/office/lync-server-2013/lync-server-2013-configure-dns-for-edge-support)。

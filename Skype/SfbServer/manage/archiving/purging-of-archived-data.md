@@ -9,19 +9,19 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 14c2b4fd-f612-4909-808d-09c655fc9f8a
 description: 摘要：了解如何管理存档数据的清除Skype for Business Server。
-ms.openlocfilehash: f6eafbacedc715dc3684a16eb17cd5e1b1ae59923046af5cf180e92bbf6a2266
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b071a464ab6c31d64441f06d73493c2bdbbf607a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54307073"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58587204"
 ---
 # <a name="manage-purging-of-archived-data-in-skype-for-business-server"></a>管理存档数据的清除Skype for Business Server
 
-**摘要：** 了解如何管理存档数据的清除以用于Skype for Business Server。
+**摘要：** 了解如何管理存档数据的清除操作Skype for Business Server。
   
 存档数据库不用于长期保留，Skype for Business Server 不提供存档数据的电子发现 (搜索) 解决方案，因此需要将数据移动到其他存储。 Skype for Business Server提供了可用于将存档数据导出到可搜索脚本的会话导出工具。 您需要定义何时清除存档和导出的数据。 
   
@@ -49,7 +49,7 @@ ms.locfileid: "54307073"
     
 5. 单击“提交”。
     
-## <a name="manage-purging-of-data-by-using-windows-powershell"></a>使用数据清除管理Windows PowerShell
+## <a name="manage-purging-of-data-by-using-windows-powershell"></a>使用数据管理数据清除Windows PowerShell
 
 您可以使用以下 cmdlet 管理存档数据的清除Windows PowerShell cmdlet：
   
@@ -77,7 +77,7 @@ Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True -Purg
 Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $False
 ```
 
-以下示例使用 **Invoke-CsArchivingDatabasePurge** cmdlet 从 atl-sql-001.contoso.com 上的存档数据库中清除所有超过 24 小时的记录。 为确保删除所有记录（包括尚未导出的记录），PurgeExportedArchivesOnly 参数设置为 False ($False) ：
+以下示例使用 **Invoke-CsArchivingDatabasePurge** cmdlet 清除存档数据库中 24 小时之前的所有记录 atl-sql-001.contoso.com。 为确保删除所有记录（包括尚未导出的记录），PurgeExportedArchivesOnly 参数设置为 False ($False) ：
   
 ```PowerShell
 Invoke-CsArchivingDatabasePurge -Identity "service:ArchivingDatabase:atl-sql-001.contoso.com" -PurgeArchivingDataOlderThanHours 24 -PurgeExportedArchivesOnly $False

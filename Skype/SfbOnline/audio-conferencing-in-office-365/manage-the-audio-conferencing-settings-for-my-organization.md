@@ -15,18 +15,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
 description: '请参阅Skype for Business向用户和许多其他电话拨入式会议设置分配电话拨入式会议许可证和会议 ID 的联机步骤。 '
-ms.openlocfilehash: 0bed95f9f5b8429dce52333046cd8c732c4bc0e9d94539d92c1e96f2d3284172
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f011dc05f027ad8ec6ef33665050505432a3547e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306235"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586172"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-skype-for-business-online"></a>在 Skype for Business Online 中管理我的组织的音频会议设置
 
@@ -41,7 +41,7 @@ ms.locfileid: "54306235"
 ## <a name="assign-an-audio-conferencing-license"></a>分配音频会议许可证
 
 > [!NOTE]
-> 你不能使用管理中心 分配Skype for Business **许可证**。 必须使用Microsoft 365 管理中心。 请参阅[分配 Skype for Business 许可证](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)。
+> 你无法使用管理中心 Skype for Business **许可证**。 必须使用Microsoft 365 管理中心。 请参阅[分配 Skype for Business 许可证](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)。
 
  **为用户分配许可证**
 
@@ -121,7 +121,7 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 4. 在"**重置会议 ID？"** 窗口中，单击"**是"。** 如果启用了将电子邮件发送给用户，将自动创建会议 ID 并使用新的会议 ID 向用户发送邮件。 默认情况下启用它。
 
     > [!IMPORTANT]
-    >  [!重要信息] 创建新会议 ID 后，呼叫者不能再使用旧会议 ID。 应通知用户重新安排其现有会议邀请，从而确保将新会议 ID 添加到邀请中。 用户可以使用会议Skype for Business工具来更新其现有会议。 若要了解如何下载、安装和运行 Skype for Business 会议更新工具，请参阅：适用于 Skype for Business 和[Lync](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4)的会议更新工具、Skype for Business Online、会议迁移工具[ (64](https://go.microsoft.com/fwlink/?LinkID=626047)位) 和 Skype for Business Online 会议迁移工具[ (32](https://www.microsoft.com/download/details.aspx?id=54079)位) 。
+    >  [!重要信息] 创建新会议 ID 后，呼叫者不能再使用旧会议 ID。 应通知用户重新安排其现有会议邀请，从而确保将新会议 ID 添加到邀请中。 用户可以使用会议Skype for Business工具来更新其现有会议。 若要了解如何下载、安装和运行 Skype for Business 会议更新工具，请参阅：适用于 Skype for Business 和[Lync](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4)的会议更新工具、Skype for Business Online、会议迁移工具[ (64](https://go.microsoft.com/fwlink/?LinkID=626047)位) 和 Skype for Business Online 会议迁移工具 ([32](https://www.microsoft.com/download/details.aspx?id=54079)位) 。
 
 请参阅[重置用户的会议 ID](reset-a-conference-id-for-a-user.md)。
 
@@ -181,13 +181,13 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 
 2. 转到管理中心 **> Skype for Business。**
 
-3. 在 **Skype for Business管理** 中心的 左侧导航中，转到"**音频会议**  >  **Microsoft 网桥设置"。**
+3. 在 **Skype for Business管理** 中心的 左侧导航中，转到"音频 **会议**  >  **""Microsoft 网桥设置"。**
 
 4. 在 **"会议加入体验"** 下，选择以下操作：
 
    - " **启用会议进入和退出通知**"此选项默认情况下选中。 如果清除此复选框，则默认情况下已加入会议的用户在有人进入或离开会议时不会收到通知。
 
-     当用户使用 Skype for Business 应用加入会议，并修改会议"Skype 会议 **选项"菜单中** 的"何时进入或离开时通知"设置时，可以基于会议进行此设置。
+     当用户使用 Skype for Business 应用加入会议并修改会议"Skype 会议 选项"菜单中的"何时进入或离开时 **通知"设置** 时，可以基于会议进行此设置。
 
    - " **要求呼叫者在加入会议之前录制其名称**"此选项默认情况下选中。 如果清除此复选框，呼叫者在加入会议之前不会要求他们录制其姓名。
 
@@ -201,7 +201,7 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 
 2. 转到管理中心 **> Skype for Business。**
 
-3. 在 **Skype for Business管理** 中心的 左侧导航中，转到"**音频会议**  >  **Microsoft 网桥设置"。**
+3. 在 Skype for Business **管理** 中心的 左侧导航中，转到"**音频会议**  >  **Microsoft 网桥设置"。**
 
 4. 在 **"安全性**"下，在"PIN 长度"列表中输入 PIN的位数，然后单击"保存 **"。**
 
@@ -219,13 +219,13 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 
 4. 单击“**保存**”。
 
-    您还可以使用音频会议设置向用户发送电子邮件，方法是：访问用户的音频会议属性，然后单击"**通过电子邮件发送会议信息"。**
+    您还可以使用音频会议设置向用户发送电子邮件，方法是：访问用户的音频会议属性，然后单击"通过电子邮件发送 **会议信息"。**
 
     如果执行此操作，则将发送仅包括会议 ID 和会议电话号码的电子邮件，但不包括 PIN。
 
     请参阅[对其音频会议信息的用户发送电子邮件](send-an-email-to-a-user-with-their-dial-in-information.md)。
 
-## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>在音频会议网桥上 () 辅助 (和) 语言的主要语言
+## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>在音频会议网桥上查看 (和) 辅助 () 和备用语言
 
 
 1. 使用工作或学校帐户登录。
@@ -248,7 +248,7 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
  
 3. 在 **Skype for Business管理** 中心的 左侧导航中，转到音频会议 Microsoft  >  **网桥**。 可在此处：
 
-   - 查看由音频会议Microsoft 365 Office 365设置的电话号码。
+   - 查看由音频会议Microsoft 365或Office 365设置的电话号码。
 
    - 查看音频会议自动助理使用的位置以及主要和辅助语言。
 
@@ -264,7 +264,7 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 
 2. 转到管理中心 **> Skype for Business。**
 
-3. 在 **Skype for Business管理** 中心的 左侧导航中，转到"音频会议">"用户 **"。** 
+3. 在 **Skype for Business 管理** 中心的 左侧导航中，转到"音频会议">"用户 **"。** 
 
 请参阅[请参阅启用了音频会议的用户列表](see-a-list-of-users-that-are-enabled-for-audio-conferencing.md)。
 
@@ -317,13 +317,13 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
   ```
 
   ## <a name="want-to-know-more-about-windows-powershell"></a>想要了解有关Windows PowerShell
-- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用Windows PowerShell，可以使用Microsoft 365管理Office 365管理点，在有多个任务需要执行时简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
+- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用Windows PowerShell，Microsoft 365 Office 365单点管理来管理任务或任务，可在有多个任务需要执行时简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
 
   - [为何需要将 Microsoft 365 或 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
-  - [使用 Microsoft 365 Office 365 管理Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [使用 Microsoft 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 
-- Windows PowerShell管理中心相比，在速度、简单性和工作效率方面具有许多优势，例如，一次为许多用户更改设置时。 请在以下主题中了解这些优点：
+- Windows PowerShell管理中心相比，Windows PowerShell在速度、简单性和工作效率方面具有许多优势，例如，一次为许多用户更改设置时。 请在以下主题中了解这些优点：
 
   - [Windows PowerShell 和 Skype for Business Online 简介](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
 

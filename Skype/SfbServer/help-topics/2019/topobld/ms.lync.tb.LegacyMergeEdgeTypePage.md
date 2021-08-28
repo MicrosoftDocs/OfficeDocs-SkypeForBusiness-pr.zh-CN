@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.LegacyMergeEdgeTypePage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 47bedf17-25cb-4fc2-9e23-be695bd86fd0
 ROBOTS: NOINDEX, NOFOLLOW
 description: 对于“单个边缘服务器”或“负载平衡合并边缘”服务器，单击“下一步”以指定配置信息。 对于"扩展边缘"，必须先将每个服务器的配置更改为合并边缘配置，然后才能合并它。
-ms.openlocfilehash: b09875d5ece5c0cc19984ed800a2c868ca5bc0df75e5991cac84f2414b355799
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bba4ee2776a87084858c2a32d1e3f05d7536457b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323294"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631786"
 ---
 # <a name="legacy-merge-edge-type"></a>旧版合并边缘类型
  

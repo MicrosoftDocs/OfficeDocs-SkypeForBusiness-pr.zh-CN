@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.NcsSiteEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 091aea61-22c2-4363-acd0-ccbc193755dd
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: 97326985253bd2b505502af98026c64add081be6e2cbc386383bf205392c1c08
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4a0a9b2aa07be22085afd57507a8ab53a5fe4bc9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298372"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609439"
 ---
 # <a name="configure-a-network-site-create-new-or-edit-existing"></a>配置网络站点：创建新的或编辑现有的
 
@@ -28,4 +28,4 @@ ms.locfileid: "54298372"
 
 - [配置网络站点](/previous-versions/office/lync-server-2013/lync-server-2013-creating-or-modifying-network-sites)
 
-有关可以使用控制面板执行的不同过程的详细信息，Skype for Business Server Manage [Skype for Business Server 2015](../../manage/manage.md)。
+有关可以使用控制面板执行的不同过程的详细信息，请参阅 Manage [Skype for Business Server Skype for Business Server 2015](../../manage/manage.md)。

@@ -10,22 +10,22 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 93f42230-24a2-418d-9770-bf4670a9d78f
 description: 若要运行 Skype for Business Server 2015 压力和性能工具，你需要能够管理用户、联系人和用户配置文件，配置该工具以运行，然后查看该工具产生的输出或结果。
-ms.openlocfilehash: c80f623476bcfd33979256185d87786e2cf92d6b48bc0467dc61c1773569e0fe
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6db23c259aa19e8ec9e590218ff233461c677aa0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54283264"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586874"
 ---
 # <a name="using-the-skype-for-business-server-2015-stress-and-performance-tool"></a>使用 Skype for Business Server 2015 压力和性能工具
  
 若要运行 Skype for Business Server 2015 压力和性能工具，你需要能够管理用户、联系人和用户配置文件，配置该工具以运行，然后查看该工具产生的输出或结果。
   
-运行 2015 Skype for Business Server和性能工具涉及四个方面 (可执行文件LyncPerfTool.exe) ：
+运行 2015 Stress and Performance Tool Skype for Business Server涉及四个方面 (可执行文件LyncPerfTool.exe) ：
   
 - [创建用户和联系人](using-the-tool.md#BKMK_CreateUsersAndContacts)
     
@@ -42,15 +42,15 @@ ms.locfileid: "54283264"
   
 这是在阅读以下主题时可能有用的有用术语列表：
   
-- **组织单位** - Active Directory 域服务 (AD DS) OU (单位) 。
+- **组织单位** - Active Directory 域服务 (AD DS) 组织单位 (OU) 。
     
-- **联盟/跨池** - 可以与其他即时消息和 IM 服务 (用户) 的用户。
+- **联盟/跨池** - 可以与其他即时消息和 IM 服务中的 (通信) 用户。
     
 - **通讯组列表** - 或 DLL。 这些是 AD DS 中包含 AD DS 用户列表的对象。 它们用于促进各组人员之间的通信。
     
-- **位置信息** 服务 - Skype for Business Server 2015 服务，如果按电话启用和配置该服务，则允许检索增强型 911 (E911) 服务的物理位置。
+- **位置信息** 服务 - Skype for Business Server 2015 服务，在按电话启用和配置该服务时，允许检索增强型 911 (E911) 服务的物理位置。
     
-- **美国** 电话号码 - 分配给用户的 电话 号码，以及用于在反向号码查找 RNL) 中路由入站和出站呼叫的 SIP URI (号码。
+- **美国** 电话号码 - 分配给用户的 电话 号码，以及用于在反向号码查找 RNL) 中路由入站和出站呼叫的 SIP URI (。
     
 ### <a name="create-users-and-contacts-by-using-userprovisioningtoolexe"></a>使用"用户"和"联系人"UserProvisioningTool.exe
 
@@ -59,7 +59,7 @@ ms.locfileid: "54283264"
   
 您必须使用 Skype for Business Server设置工具创建用户和联系人进行负载模拟。
   
-the **Skype for Business Server User Provisioning Tool** is installed with the Skype for Business Server Stress and Performance **Tool** package. 请确保程序包安装程序 (CapacityPlanningTool.msi) 已在前端服务器或要测试Standard Edition服务器上运行。
+The **Skype for Business Server User Provisioning Tool** is installed with the Skype for Business Server Stress and Performance **Tool** package. 请确保程序包安装程序 (CapacityPlanningTool.msi) 已在前端服务器或要测试的 Standard Edition 服务器上运行。
   
 可以通过在前端服务器或 Standard Edition 服务器上运行位于 %InstalledDirectory%LyncStressAndPerfTool\LyncStress) 中的文件 UserProvisioningTool.exe (来启动 Skype for Business Server 用户设置工具。
   
@@ -74,29 +74,29 @@ the **Skype for Business Server User Provisioning Tool** is installed with the S
   
 ### <a name="to-configure-server-options"></a>配置服务器选项：
 
-1. 在"前端池 **FQDN"** 字段中，键入要承载用户的 Standard Edition 服务器或前端池的完全限定域名 (FQDN) 。
+1. 在"前端池 **FQDN"** 字段中，键入要承载用户的 Standard Edition 服务器的完全限定域名 (FQDN) 或前端池。
     
-2. 在 **"用户名前缀** "字段中，键入要用于为测试目的 (用户名的前缀，例如"TestUser") 。
+2. 在 **"用户名前缀** "字段中，键入要用于为测试目的对用户名进行 (例如"TestUser") 。
     
 3. 在 **"密码** "字段中，键入将用于所有测试用户帐户的密码。
     
-4. 在 **"帐户域** "字段中，键入当前 AD 域的域名 (要创建测试用户的域名) 。
+4. 在 **"帐户域** "字段中，键入当前 AD 域 (要创建测试用户的域的域名) 。
     
 5. 在 **"组织单位"** 字段中，键入要创建这些测试用户的 AD 域的名称。  (如果 OU 不存在，系统将会为用户创建) 。
     
 6. 在 **"电话区** 号"字段中，键入要在所有测试用户帐户中使用的三位数区号。 确保你选择的区号不会与 AD 中其他用户的区号发生冲突。
     
-7. 如果要 **为测试用户** 启用语音，请单击选中"启用语音企业语音。
+7. 如果要 **为测试用户** 启用语音功能，请单击选中"启用语音企业语音。
     
 8. 在 **"用户数"** 字段中，提供要创建的测试用户的总数。
     
-9. 在" **开始** 索引"字段中，指定将用作用户名前缀 (前缀后缀的起始号码，例如，前缀为"TestUser"，在下面的示例中，名字以"0"结尾。) 
+9. 在" **开始** 索引"字段中，为用作用户名前缀 (前缀的后缀提供起始号码，例如，前缀为"TestUser"，在下面的示例中，第一个名称以"0"结尾。) 
     
      ![显示用户创建选项卡的用户预配工具。](../../media/591d8280-8979-4a8c-83bc-af126e87bf29.png)
   
 #### <a name="create-users-button"></a>"创建用户"按钮
 
-单击"创建 **用户"** 按钮时，将验证已输入的输入参数。 如果存在任何验证错误，系统将提示你修复错误。 或者，如果所有值都正确，用户将开始显示在 AD (您指定的任何 OU 中) 。 在工具运行时，你将在工具底部看到一个进度栏。 当进度栏处于活动状态时，不要关闭应用程序。
+单击"创建 **用户"** 按钮时，将验证已输入的输入参数。 如果存在任何验证错误，系统将提示你修复错误。 或者，如果所有值都正确，用户将开始显示在 AD (您指定的 OU 中) 。 在工具运行时，你将在工具底部看到一个进度栏。 当进度栏处于活动状态时，不要关闭应用程序。
   
 用户创建需要时间，因此请进行相应的规划。 对于少数用户，此过程可能需要几分钟，而对于大量用户，此过程可能需要几个小时。
   
@@ -110,7 +110,7 @@ the **Skype for Business Server User Provisioning Tool** is installed with the S
 单击"删除 **用户"** 按钮时，将验证选项卡的输入参数。 如果存在验证错误，系统将提示你修复错误，如果输入值正确，指定的测试用户将被禁用，并且将从 Active Directory 中删除。 同样，进度栏将显示在此选项卡的底部，并且不应在进度栏处于活动状态时关闭应用程序。
   
 > [!NOTE]
-> 仅支持美国格式的电话号码。 电话号码始终分配给用户，默认情况下，UserProvisioningTool.exe创建的所有用户企业语音用户。 使用电话号码的任何方案（如会议自动助理 UC-PSTN 呼叫）使用此电话号码正确路由呼叫。 因此，  *每个用户都必须*  有唯 *一的电话号码*  。
+> 仅支持美国格式的电话号码。 电话号码始终分配给用户，默认情况下，UserProvisioningTool.exe创建的所有用户企业语音用户。 使用电话号码的任何方案（如会议自动助理 UC-PSTN 呼叫）使用此电话号码可以正确路由呼叫。 因此，  *每个用户都必须*  有唯 *一的电话号码*  。
   
 > [!NOTE]
 > **如果您必须创建两次用户，则该命令将失败，除非您使用不同的区号，或者之前的用户已使用 Disable-CsUser cmdlet 禁用。**
@@ -119,7 +119,7 @@ the **Skype for Business Server User Provisioning Tool** is installed with the S
 > 创建联系人之前，首先需要完成用户 (从"用户"选项卡) 。 
   
 > [!IMPORTANT]
-> 如果刚刚创建了用户，则需要等到复制完成Skype for Business Server并在数据库中填充用户帐户。 **如果用户尚未完成复制，你将看到一个错误。** 如果 Skype for Business Server 2015 前端服务已启动，或者在您指定的总数的最后一个用户上成功运行 Get-CsUser cmdlet，您将知道用户何时完成复制。
+> 如果刚刚创建了用户，则需要等到复制完成Skype for Business Server并在数据库中填充用户帐户。 **如果用户尚未完成复制，你将看到一个错误。** 如果 Skype for Business Server 2015 前端服务已启动，或者在您指定的总数的最后一个用户上成功运行 Get-CsUser cmdlet，则您将知道用户何时完成复制。
   
 #### <a name="contacts-creation-tab"></a>"联系人创建"选项卡
 
@@ -150,15 +150,15 @@ the **Skype for Business Server User Provisioning Tool** is installed with the S
   
 #### <a name="distribution-list"></a>通讯组列表
 
-2015 Skype for Business Server 2015 压力和性能工具可以在 Skype for Business 2015 客户端中模拟通讯组列表 (DL) 扩展功能。 如果您不打算在用户设置工具中启用 DL 扩展，可以跳过此步骤。
+The Skype for Business Server 2015 Stress and Performance Tool can simulate the Distribution List (DL) expansion feature in the Skype for Business 2015 client. 如果您不打算在用户设置工具中启用 DL 扩展，可以跳过此步骤。
   
 ![显示"创建通讯组列表"选项卡的用户设置工具。](../../media/4b689306-70c4-4569-9842-15c73f038eb6.png)
   
-"通讯组列表"选项卡允许您创建"压力和性能工具"用于通讯组列表扩展功能的 DLL。 在创建 DLL 之前，Skype for Business Server部署 2015，包括运行 ForestPrep。 如果不这样做，则 AD 架构中将不存在 DL 属性，因此该工具无法创建 DLL。
+"通讯组列表"选项卡允许您创建压力和性能工具用于通讯组列表扩展功能的 DLL。 在创建 DLL 之前，Skype for Business Server部署 2015，包括运行 ForestPrep。 如果不这样做，则 AD 架构中将不存在 DL 属性，因此该工具无法创建 DLL。
   
 ### <a name="to-configure-distribution-lists"></a>配置通讯组列表：
 
-1. 在"通讯组列表数"字段中，提供要创建的 (建议从一个值开始，该值是用户数的两倍。) 。
+1. 在"通讯组列表数"字段中，提供要创建的 (建议从一个值开始，该值是拥有的用户数的两倍。) 。
     
 2. 在" **通讯组列表前缀** "字段中，输入您创建的所有 DLL 都将具有的前缀，例如 *testDL*  。 这意味着，在 100 个 DLL 下，DLL 名称将如下所示：testDL0、testDL1，最多为 testDL99。
     
@@ -168,15 +168,15 @@ the **Skype for Business Server User Provisioning Tool** is installed with the S
     
 #### <a name="create-distribution-lists-button"></a>"创建通讯组列表"按钮
 
-单击"创建通讯组列表"按钮时，该工具会查询 Active Directory，以查看是否已存在匹配前缀和号码的通讯组列表。 该工具将创建任何不存在的 DLL。 向这些新创建的通讯组列表添加成员时，它将从"用户创建"选项卡上指定的范围中选择用户。
+单击"创建通讯组列表"按钮时，该工具会查询 Active Directory，以查看是否存在与前缀和号码匹配的通讯组列表。 该工具将创建任何不存在的 DLL。 向这些新创建的通讯组列表添加成员时，它将从"用户创建"选项卡上指定的范围中选择用户。
   
 #### <a name="location-info-service-config-tab"></a>"位置信息服务配置"选项卡
 
-The Skype for Business Server 2015 Stress and Performance Tool can also generate 虚拟 configuration files for the Location Information Service. 请注意，位置信息服务通常不会对服务器产生明显的性能影响。 
+The Skype for Business Server 2015 Stress and Performance Tool can also generate 虚拟 configuration files for the Location Information Service. 请注意，位置信息服务通常对服务器没有明显的性能影响。 
   
 ![显示"位置信息服务配置"选项卡的用户预配工具。](../../media/227662a2-e0c3-4e34-ab54-5f1459344f30.png)
   
-如果选择测试此功能，请填写表单中的值，然后单击"生成 LIS 配置文件"按钮，这将创建.CSV文件：
+如果选择测试此功能，请填写表单中的值，然后单击"生成 LIS 配置文件"按钮，这将创建名为.CSV文件：
   
 - LIS_Subnet.csv
     
@@ -199,11 +199,11 @@ The Skype for Business Server 2015 Stress and Performance Tool can also generate
 ## <a name="configure-user-profile"></a>配置用户配置文件
 <a name="BKMK_UserProfile"> </a>
 
-通过用户创建工具 (用户创建工具) 可以使用 Skype for Business Server 2015 Load Configuration 工具配置 (UserProfileGenerator.exe) 。
+通过用户创建工具 (创建用户) 可以使用 Skype for Business Server 2015 Load Configuration 工具配置 (UserProfileGenerator.exe) 。
   
 ### <a name="running-the-skype-for-business-server-2015-load-configuration-tool"></a>运行 Skype for Business Server 2015 Load Configuration 工具
 
-启动"加载配置" (UserProfileGenerator.exe) 并填写选项卡。 此工具为运行模拟所需的每台客户端计算机创建一个目录。 每个客户端目录都附带一个脚本，用于启动 Skype for Business Server 2015 Stress and Performance 工具 (LyncPerfTool.exe) 。 以下各节将举例说明如何在 Skype for Business Server 2015 Load Configuration 工具的每个选项卡上填写字段。
+启动"加载配置" (UserProfileGenerator.exe) 并填写选项卡。 此工具为运行模拟所需的每台客户端计算机创建一个目录。 每个客户端目录都附带一个脚本，用于启动 Skype for Business Server 2015 压力和性能工具 (LyncPerfTool.exe) 。 以下各节将举例说明如何填写"Skype for Business Server 2015 Load Configuration"工具的每个选项卡上的字段。
   
 > [!IMPORTANT]
 > "负载配置"工具 (UserProfileGenerator.exe) 中使用的用户特定值必须与池的 Skype for Business Server 2015 用户创建工具 (UserProvisioningTool.exe) 指定的值匹配。 
@@ -214,7 +214,7 @@ The Skype for Business Server 2015 Stress and Performance Tool can also generate
   
 ![显示"通用配置"选项卡的"用户设置"选项卡。](../../media/c25df343-3550-47fb-88e0-29194338fee2.png)
   
-1. 在 **"可用计算机数** "字段中，键入要用于运行"压力和性能"工具的计算机 (LyncPerfTool.exe) 。 我们建议您为要模拟的每 4500 个用户拥有一台计算机，但如果您减少负载级别，或者仅使用工具的可用功能的子集 ("负载级别"在"常规方案"选项卡) 上设置，此数字可能会有所不同。
+1. 在 **"可用计算机数** "字段中，键入要用于运行"压力和性能"工具的计算机 (LyncPerfTool.exe) 。 我们建议你每 4500 个用户有一台计算机进行模拟，但是如果你减少负载级别，或者仅在"常规方案"选项卡上设置一部分工具的可用功能 () "负载级别"，此数字可能会有所不同。
     
 2. 在" **用户名前缀"** 字段中，为所有用户的用户名字段输入前缀。 要登录到统一资源标识符 (URI) 将为 *：UserPrefix[用户启动索引... (用户-1) 数量]@User 域*  ，例如 myUser009@Contoso.com。
     
@@ -232,9 +232,9 @@ The Skype for Business Server 2015 Stress and Performance Tool can also generate
     
 9. 在"每个实例登录每秒登录数"字段中 **(并发**) 数。 这是您的用户的最大登录数，建议是每秒小于/等于 2 的速率 (<=2) 。
     
-10. 在" **访问代理或池 FQDN"** 字段中，输入希望 (连接到) 的服务器的 FQDN 的完全限定域名。 如果用户在外部登录，则需要键入访问代理。 如果用户为内部用户，则提供其 Enterprise 池或Standard Edition的 FQDN。
+10. 在" **访问代理"或"池 FQDN"** 字段中，输入希望 (连接到) 服务器的完全限定域名"FQDN"。 如果用户在外部登录，则需要键入访问代理。 如果用户为内部用户，则提供其 Enterprise 池或Standard Edition的 FQDN。
     
-11. 在 **"端口** "字段中，输入希望用户用于 SIP (默认设置为 5061) 。
+11. 在 **"端口** "字段中，输入希望用户用于 SIP 的端口 (此处的默认值为 5061) 。
     
 12. 对于"**外部网络服务器设置，** 请为"访问代理"或"池 FQDN"提供"端口 **"。** 这些设置仅用于外部终结点负载模拟。
     
@@ -264,7 +264,7 @@ The Skype for Business Server 2015 Stress and Performance Tool can also generate
 - **位置信息服务 -** 选择"已启用"或"已禁用"的加载级别。
     
 > [!NOTE]
-> 每个方案旁边都有一个"高级"按钮和一组复选框，这些复选框支持默认设置的变体。 
+> 每个方案旁边都有一个"高级"按钮，以及一组启用默认设置变体的复选框。 
   
 - 选择  *"临时*  "将允许工具生成将在整个一小时内创建的会议的模拟。
     
@@ -274,9 +274,9 @@ The Skype for Business Server 2015 Stress and Performance Tool can also generate
     
 这些按钮和复选框是特定于每个方案的额外值，将更改压力和性能工具的行为，并可能进行自定义。
   
-对于"常规方案"选项卡上的每个方案 (位置信息服务) 除外，如果"负载级别"的值为 **"** 自定义"，则会话速率将使用"高级"对话框中的相应字段计算。 字段名称可能会有所不同，具体取决于方案，但字段说明将状态：注意 只有在从下拉菜单中选择了"自定义"时，才能使用  *此数字*  。
+对于"常规方案"选项卡上的每个方案 (位置信息服务) 除外，如果"负载级别"的值为 **"** 自定义"，则使用"高级"对话框中的相应字段计算对话速率。 字段名称可能会有所不同，具体取决于方案，但字段说明将状态：注意 只有在从下拉菜单中选择了"自定义"时，才能使用  *此数字*  。
   
-值 **High、Medium** 和 **Low** 将按照用户模型（即平衡所有方案的用户模型）来更改每个形式的对话速率。  如果由于预期使用量不同而需要更改每个形式负载级别，请使用自定义对话速率。
+值 **High、Medium** 和 **Low** 将按照用户模型（即平衡所有方案的用户模型）来更改每个形式的对话速率。  如果由于预期使用量不同而需要更改每个模态的负载级别，请使用自定义对话速率。
   
 #### <a name="voice-scenarios-tab"></a>"语音方案"选项卡
 
@@ -306,7 +306,7 @@ The Skype for Business Server 2015 Stress and Performance Tool can also generate
 
 !["加载配置"工具，"Web 应用"选项卡。](../../media/505b54ef-8140-4dec-a43e-08091f592b34.png)
   
-Web App 支持通过安装在前端服务器上 (UCWA) 统一通信 Web API 和 UCWA 会议方案。 使用"Web 应用"选项卡配置所有与 Web 应用相关的方案。 选项有：
+Web App 支持通过安装在前端服务器上 (UCWA) 统一通信 Web API 会议方案。 使用"Web 应用"选项卡配置所有与 Web 应用相关的方案。 选项有：
   
 - **常规 Web App 设置 -** 单击 **"设置"** 按钮，将 **ReachTargetServerUrl** 设置为前端池 VIP 的目录池虚拟 IP (VIP) 。
     
@@ -334,7 +334,7 @@ Web App 支持通过安装在前端服务器上 (UCWA) 统一通信 Web API 和 
 - **状态和 P2P 即时消息/音频 -** 选择"负载级别"的值以启用移动模拟。
     
 > [!NOTE]
-> 每个方案旁边都有一个 **"** 高级"按钮。 高级对话框包含特定于每个方案的值，这些值将更改压力和性能工具的行为并启用自定义。> 对于每种移动方案，如果"负载级别"为 **"** 自定义"，则使用 **ConversationsPerHour** 字段中指定的值，而不是默认值。
+> 每个方案旁边都有一个 **"** 高级"按钮。 高级对话框包含特定于每个方案的值，这些值将更改压力和性能工具的行为并启用自定义。> 对于每个移动方案，如果"负载级别"为 **"** 自定义"，则使用 **ConversationsPerHour** 字段中指定的值，而不是默认值。
   
 #### <a name="summary-tab"></a>"摘要"选项卡
 
@@ -355,11 +355,11 @@ Check **(RunClient.bat) Add sign-in delay when starting** in order to include de
 ## <a name="run-lyncperftool"></a>运行 LyncPerfTool
 <a name="BKMK_RunTool"> </a>
 
-在运行 2015 Stress and Performance Tool Skype for Business Server之前，你需要创建用户、联系人和 (LyncPerfTool.exe) 。 有关使用工具执行这些操作的详细信息，[请参阅本文前面](using-the-tool.md#BKMK_CreateUsersAndContacts)介绍的创建用户和联系人和[](using-the-tool.md#BKMK_UserProfile)配置用户配置文件。 运行这些工具还会生成一个文件，该文件将随 Stress and Performance 工具一起运行，作为包含所需参数的批处理文件的一部分。
+在运行 2015 Stress and Performance Tool Skype for Business Server 之前，你需要创建用户、联系人和 (LyncPerfTool.exe) 。 有关使用工具执行这些操作的详细信息，[请参阅本文前面](using-the-tool.md#BKMK_CreateUsersAndContacts)介绍的创建用户和联系人和[](using-the-tool.md#BKMK_UserProfile)配置用户配置文件。 运行这些工具还会生成一个文件，该文件将随 Stress and Performance 工具一起运行，作为包含所需参数的批处理文件的一部分。
   
 ### <a name="running-the-skype-for-business-server-2015-stress-and-performance-tool"></a>运行 Skype for Business Server 2015 压力和性能工具
 
-Load Configuration 工具 (UserProfileGenerator.exe) 创建一个批处理文件，该文件使您能够通过注册性能计数器和加载 XML 配置文件来运行压力和性能工具 (LyncPerfTool.exe) 。 批处理文件将运行每个配置文件LyncPerfTool.exe一个数据库实例。 若要运行批处理文件，请按照以下步骤操作：
+Load Configuration (UserProfileGenerator.exe) 创建一个批处理文件，该文件通过注册性能计数器和加载 XML 配置文件 (LyncPerfTool.exe) 运行 Stress and Performance tool (LyncPerfTool.exe) 。 批处理文件将运行每个配置文件LyncPerfTool.exe一个数据库实例。 若要运行批处理文件，请按照以下步骤操作：
   
 ### <a name="run-the-stress-and-performance-test"></a>运行压力和性能测试
 
@@ -371,7 +371,7 @@ Load Configuration 工具 (UserProfileGenerator.exe) 创建一个批处理文件
    RunClient0.bat "C:\Program Files\Skype for Business Server 2015\LyncStressAndPerfTool\LyncStress" 
    ```
 
-若要直接运行压力和性能工具，请打开命令提示符，在命令行 (键入以下命令。首次执行此操作时，请确保注册性能计数器，如本主题稍后的注释  `regsvr32 /i /n /s LyncPerfToolPerf.dll`) ：
+若要直接运行 Stress and Performance 工具，请打开命令提示符，在命令行 (并首次执行此操作时，请确保注册性能计数器，如本主题稍后的注释  `regsvr32 /i /n /s LyncPerfToolPerf.dll`) ：
   
 ```console
 LyncPerfTool.exe /file:IM_client0.xml
@@ -391,7 +391,7 @@ LyncPerfTool.exe /file:IM_client0.xml /displayfile
 > [!NOTE]
 > 你启动的"压力和性能"工具的每一个实例将立即开始登录用户，通常以每秒一个用户的速度登录。 
   
-池的用户登录峰值速率大约是每秒 12 个。 这意味着在用户仍在登录时，不应同时启动 LyncPerfTool.exe 12 个实例。 1，000 个用户大约需要 20 分钟才能以每秒一个的速度完全登录。
+池的用户登录峰值速率大约是每秒 12 个。 这意味着，当用户仍在登录时，不应同时启动 LyncPerfTool.exe 12 个实例。 1，000 个用户大约需要 20 分钟才能以每秒一个的速度完全登录。
   
 ## <a name="interpreting-the-results"></a>解释结果
 <a name="BKMK_Interpret"> </a>
@@ -452,7 +452,7 @@ The Skype for Business Server 2015 Stress and Performance Tool has many counters
 
   
 > [!NOTE]
-> 以下列出的性能计数器报告启用这些方案时所有 IP 语音 (VoIP) 呼叫（包括中介服务器、A/V 会议服务器、边缘服务器、响应组应用程序和会议 自动助理 的呼叫）的号码。 
+> 下面列出的性能计数器报告启用这些方案时所有 IP 语音 (VoIP) 呼叫（包括中介服务器、A/V 会议服务器、边缘服务器、响应组应用程序和会议 自动助理 的呼叫）的号码。 
   
 **VoIP 基本信息**
 
@@ -498,7 +498,7 @@ The Skype for Business Server 2015 Stress and Performance Tool has many counters
 
 |**性能计数器**|**说明**|
 |:-----|:-----|
-|呼叫活动  <br/> |当前正在进行的 PSTN 呼叫的传入/传出 (电话) 呼叫总数。  <br/> |
+|呼叫活动  <br/> |当前正在进行的 PSTN 呼叫的传入/传出公用 (电话) 呼叫总数。  <br/> |
 |已终止呼叫  <br/> |已终止的传入/传出 PSTN 呼叫总数。  <br/> |
 |已尝试传入/传出呼叫  <br/> |尝试传入/传出 PSTN 呼叫的总数。  <br/> |
 |建立的传入/传出呼叫  <br/> |建立的传入/传出 PSTN 呼叫总数。  <br/> |
@@ -508,7 +508,7 @@ The Skype for Business Server 2015 Stress and Performance Tool has many counters
 |**性能计数器**|**说明**|
 |:-----|:-----|
 |活动即时消息会议  <br/> |正在进行的即时消息会议总数。  <br/> |
-|活动音频/视频会议  <br/> |A/V 会议持续 (/视频) 总数。  <br/> |
+|活动音频/视频会议  <br/> |A/V 会议持续 (音频/视频) 总数。  <br/> |
 |活动应用程序共享会议  <br/> |正在进行的应用程序共享会议的总数。  <br/> |
 |参与者数量  <br/> |当前连接到会议的参与者总数。  <br/> |
 |会议计划失败  <br/> |尝试安排会议时的总失败次数。  <br/> |

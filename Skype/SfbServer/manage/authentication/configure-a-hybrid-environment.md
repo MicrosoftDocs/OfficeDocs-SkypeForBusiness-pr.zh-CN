@@ -9,22 +9,22 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 700639ec-5264-4449-a8a6-d7386fad8719
 description: 摘要：为混合环境配置Skype for Business Server身份验证。
-ms.openlocfilehash: 0a5060f9f40b7887de0b9afefa0b8f43f65f76120d430db01eaf32095af66f84
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1da99f335e5d26523bb29ef6e11251019e2020c8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315718"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58587194"
 ---
 # <a name="configure-server-to-server-authentication-for-a-skype-for-business-server-hybrid-environment"></a>为混合环境配置Skype for Business Server身份验证。
 
 **摘要：** 为混合环境配置Skype for Business Server身份验证。
 
-在混合配置中，某些用户位于本地安装的 Skype for Business Server 中，而其他用户则位于 Microsoft 365 或 Office 365 版本的 Skype for Business Server。 为了在混合环境中配置服务器到服务器身份验证，必须先配置内部部署 Skype for Business Server以信任授权服务器。 可以通过运行以下命令行管理程序脚本执行此过程Skype for Business Server步骤：
+在混合配置中，您的一些用户位于 Skype for Business Server 本地安装中，而其他用户则位于 Microsoft 365 或 Office 365 版本的 Skype for Business Server。 为了在混合环境中配置服务器到服务器身份验证，您必须先配置内部部署 Skype for Business Server信任授权服务器。 此过程的初始步骤可通过运行以下命令行管理程序脚本Skype for Business Server执行：
 
 ```PowerShell
 $TenantID = (Get-CsTenant -Filter {DisplayName -eq "Fabrikam.com"}).TenantId
@@ -72,14 +72,14 @@ Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000
 $TenantID = (Get-CsTenant -Filter {DisplayName -eq "Fabrikam.com"}).TenantId
 ```
 
-若要执行此脚本，必须已安装 Skype for Business Online PowerShell 模块，并包含此模块连接到租户。 如果未安装这些 cmdlet，脚本将失败，Get-CsTenant cmdlet 不可用。 脚本完成后，您必须在 Skype for Business Server 和授权服务器之间配置信任关系，以及 Exchange 2013/2016 和授权服务器之间的第二个信任关系。 只能通过 Microsoft Online Services cmdlet 做到这一点。
+若要执行此脚本，必须已安装 Skype for Business Online PowerShell 模块，并连接到包含此模块的租户。 如果尚未安装这些 cmdlet，脚本将失败，Get-CsTenant cmdlet 不可用。 脚本完成后，您必须在 Skype for Business Server 和授权服务器之间配置信任关系，以及 Exchange 2013/2016 和授权服务器之间的第二个信任关系。 只能通过 Microsoft Online Services cmdlet 做到这一点。
 
 > [!NOTE]
-> 如果尚未安装 Microsoft Online Services cmdlet，则需要使用 cmdlet 从 PowerShell 存储库安装 `install-module MSOnline` 它。 有关安装和使用 Microsoft Online Services 模块的详细信息，请参阅 Microsoft 365 网站。 这些说明还将告诉你如何在 active Directory 或 Microsoft 365 Office 365配置单一登录、联合和同步。 
+> 如果您尚未安装 Microsoft Online Services cmdlet，则需要使用 cmdlet 从 PowerShell 存储库安装 `install-module MSOnline` 它。 有关安装和使用 Microsoft Online Services 模块的详细信息，请参阅 Microsoft 365 网站。 这些说明还将告诉你如何在 active Directory 或 Microsoft 365 Office 365配置单一登录、联合和同步。 
 
 
 
-配置 Microsoft 365 或 Office 365 后，为 Skype for Business Server 和 Exchange 2013 创建 Microsoft 365 或 Office 365 服务主体后，您需要向这些服务主体注册凭据。 为此，必须先获取另存为 的 X.509 Base64 证书。CER 文件。 然后，此证书将应用于 Microsoft 365 或 Office 365 服务主体。
+配置 Microsoft 365 或 Office 365，为 Skype for Business Server 和 Exchange 2013 创建 Microsoft 365 或 Office 365 服务主体后，您需要向这些服务主体注册凭据。 为此，必须先获取另存为 的 X.509 Base64 证书。CER 文件。 然后，此证书将应用于 Microsoft 365 或 Office 365 服务主体。
 
 获取 X.509 证书后，打开 PowerShell 控制台并导入包含可用于管理服务主体的 cmdlet 的 Microsoft Online Windows PowerShell 模块：
 
@@ -123,7 +123,7 @@ $binaryValue = $certificate.GetRawCertData()
 $credentialsValue = [System.Convert]::ToBase64String($binaryValue) 
 ```
 
-导入和编码证书后，您可以将证书分配给您的 Microsoft 365 或 Office 365 服务主体。 为此，首先使用 Get-MsolServicePrincipal 检索 Skype for Business Server 和 Microsoft Exchange 服务主体的 AppPrincipalId 属性的值;AppPrincipalId 属性的值将用于标识要分配证书的服务主体。 使用 AppPrincipalId 属性值Skype for Business Server，使用以下命令将证书分配给 Skype For Business Online 版本：
+导入并编码证书后，可以将证书分配给您的证书Microsoft 365或Office 365服务主体。 为此，首先使用 Get-MsolServicePrincipal 检索 Skype for Business Server 和 Microsoft Exchange 服务主体的 AppPrincipalId 属性的值;AppPrincipalId 属性的值将用于标识要分配证书的服务主体。 使用 AppPrincipalId 属性值Skype for Business Server，使用以下命令将证书分配给 Skype For Business Online 版本：
 
 ```PowerShell
 New-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000 -Type Asymmetric -Usage Verify -Value $credentialsValue 

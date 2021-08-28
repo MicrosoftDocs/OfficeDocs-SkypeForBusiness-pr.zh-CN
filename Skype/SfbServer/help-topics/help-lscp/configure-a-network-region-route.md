@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.NcsRegionRouteMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 35c1511f-8143-4893-a91c-5bc7c18ec0bf
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: db56f7a5d60d54906ae41963a175fa6d1ec2075e05542b192921494eed0f2ad6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d87cfef2202948c70d179698bf2192e4fda75d73
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323154"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609489"
 ---
 # <a name="configure-a-network-region-route"></a>配置网络区域路由
 
@@ -28,4 +28,4 @@ ms.locfileid: "54323154"
 
 - [配置网络区域路由](/previous-versions/office/lync-server-2013/lync-server-2013-creating-or-modifying-network-region-routes)
 
-有关可以使用控制面板执行的不同过程的详细信息，Skype for Business Server Manage [Skype for Business Server 2015](../../manage/manage.md)。
+有关可以使用控制面板执行的不同过程的详细信息，请参阅 Manage [Skype for Business Server Skype for Business Server 2015](../../manage/manage.md)。

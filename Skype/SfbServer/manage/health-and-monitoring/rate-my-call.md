@@ -1,5 +1,5 @@
 ---
-title: 在呼叫中评价我的Skype for Business Server
+title: 在呼叫中评价Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -9,29 +9,29 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c4e0c905-33a1-49d8-9276-1b338f94d085
 description: Summary： Learn about the Rate My Call feature in Skype for Business Server.
-ms.openlocfilehash: 6623729dced8128e010ac0a61dfd2fccd95f1c558deda1342b0db92936f0b31f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0d084e80c94928fc11af099dbef5ad6cca6537b7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54326428"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586976"
 ---
-# <a name="rate-my-call-in-skype-for-business-server"></a>在呼叫中评价我的Skype for Business Server
+# <a name="rate-my-call-in-skype-for-business-server"></a>在呼叫中评价Skype for Business Server
 
 **摘要：** 了解呼叫者中的"评价我的呼叫Skype for Business Server。
 
 评价我的呼叫是 Windows 上的 Skype for Business 2015 和 2016 客户端中的一项新功能，可为企业提供一种从最终用户获取反馈的方法。
 
-"评价我的呼叫"窗口提供"星形"评级系统和用于音频和视频呼叫的预定义令牌。 此外，管理员可以启用自定义字段以提供反馈。
+"评价我的呼叫"窗口为音频和视频呼叫提供"星形"评级系统和预定义令牌。 此外，管理员可以启用自定义字段以提供反馈。
 
 收集的"评价我的呼叫"数据当前未包含在任何现有监控报告中，但具有单独的监控报告。 数据收集在SQL查询可以访问的SQL表中。
 
 ## <a name="rate-my-call-prerequisites"></a>评价我的呼叫先决条件
 
-必须先部署和配置Skype for Business Server组组件，然后您的部署中的用户可以访问"评价我的呼叫"功能：
+必须先部署和配置Skype for Business Server组组件，然后你的部署中的用户才能访问"评价我的呼叫"功能：
 
 -  必须安装Skype for Business Server 9160 (更高版本的) 。
 
@@ -39,7 +39,7 @@ ms.locfileid: "54326428"
 
 - 用户必须位于前端Skype for Business Server上。
 
-- 您必须已部署Skype for Business Server监控数据库并关联到您的Skype for Business Server数据库。
+- 您必须已部署Skype for Business Server监控数据库，并与其关联Skype for Business Server数据库。
 
 - 我们建议在 CQD (部署呼叫质量) 。
 
@@ -69,9 +69,9 @@ Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 -R
 
 |||
 |:-----|:-----|
-|1  <br/> |DistortedSpeech  <br/> |
-|2  <br/> | ElectronicFeedback <br/> |
-|3  <br/> | BackgroundNoise <br/> |
+|1   <br/> |DistortedSpeech  <br/> |
+|2   <br/> | ElectronicFeedback <br/> |
+|3   <br/> | BackgroundNoise <br/> |
 |4   <br/> |MuffledSpeech  <br/> |
 |5   <br/> |回声  <br/> |
 | 21  <br/> | FrozenVideo <br/> |
@@ -110,7 +110,7 @@ Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 -R
 
  **[QoeMetrics]。[dbo]。[CallQualityFeedback]** 此表包含"星形"投票的轮询结果和客户反馈（如果已启用）。
 
-通过使用 [Table.Name] 查询中的 select 或 **\* Microsoft SQL Server Management Studio，** 可以调用表中的Microsoft SQL Server Management Studio。
+通过使用 [Table.Name] 查询中的 select 或 **\* Microsoft SQL Server Management Studio，** 可以调用表中的数据。
 
 可以使用SQL查询：
 
@@ -190,7 +190,7 @@ SELECT
 
 ## <a name="updating-token-definitions"></a>更新令牌定义
 
-最新Skype for Business客户端报告的新问题令牌 ID (\> 100) [QoeMetrics].[dbo]。[CallQualityFeedbackTokenDef] 表。 若要使用最新的令牌定义更新数据库表，可以使用以下 SQL 命令在监控数据库上Microsoft SQL Server Management Studio。 此命令将替换 [QoeMetrics] 中的所有条目。[dbo]。[CallQualityFeedbackTokenDef] 表。
+最新Skype for Business报告的新问题令牌 ID (\> 100) [QoeMetrics].[dbo]。[CallQualityFeedbackTokenDef] 表。 若要使用最新的令牌定义更新数据库表，可以使用以下 SQL 命令在监控数据库上Microsoft SQL Server Management Studio。 此命令将替换 [QoeMetrics] 中的所有条目。[dbo]。[CallQualityFeedbackTokenDef] 表。
 
 ```SQL
 DELETE FROM [CallQualityFeedbackTokenDef];

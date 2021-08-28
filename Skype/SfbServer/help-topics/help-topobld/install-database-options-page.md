@@ -12,26 +12,26 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.InstallDatabaseOptionPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 926c47a0-3957-4892-b61a-7a4b569552c3
-description: 配置用于将数据库和日志文件放置到数据库的高级SQL Server。 可用的选项有：
-ms.openlocfilehash: 6b9ad2dc1dd91eeb0834c43394f00221d687d0d66058c5037e6d90c83cd10bad
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 配置用于将数据库和日志文件放置到数据库和日志文件的高级SQL Server。 可用的选项有：
+ms.openlocfilehash: c8b26656f894fbf2c27b2321f30c174fe10472b3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321714"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58587336"
 ---
 # <a name="install-database-options-page"></a>安装数据库选项页
 
-配置用于将数据库和日志文件放置到数据库的高级SQL Server。 可用的选项有：
+配置用于将数据库和日志文件放置到数据库和日志文件的高级SQL Server。 可用的选项有：
 
 > [!IMPORTANT]
-> 选择最符合与数据和策略相关的要求和策略的选项，日志文件计算机上SQL Server位置。
+> 选择最符合与数据和策略相关的要求和策略的选项，日志文件计算机上的SQL Server位置。
 
  **自动确定数据库文件位置**：默认选项使用一种算法来确定数据库SQL Server并分发数据库和日志文件以实现最佳性能。
 
- **使用SQL Server** 实例默认值：选择此选项可基于实例设置将数据库文件和日志文件放在SQL Server。 这些选项通常由数据库管理员管理和配置。
+ **Use SQL Server instance defaults**： Select this option to place database file and log files based on the instance settings at SQL Server. 这些选项通常由数据库管理员管理和配置。
 
  目标 SQL Server 上的这些路径：选择此选项，通过键入要放置数据库和日志文件的驱动器和文件夹的完整路径，为 SQL Server 数据库和日志文件定义你自己的路径。
 

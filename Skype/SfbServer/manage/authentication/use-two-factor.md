@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d4136e61-c3ab-4b26-85c8-c1b2c24f5ee3
 description: 摘要：将双重身份验证与 Skype for Business Server 和 Skype for Business。
-ms.openlocfilehash: deb5e3333c3138138a7bb3889ff515cfc1092576c1174082ef6b5553a1ec7540
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5b1003c78020e1181112a0ccadaf66a7d1dd4da4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315678"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58587120"
 ---
 # <a name="use-two-factor-authentication-with-skype-for-business-client-and-skype-for-business-server"></a>在客户端和客户端Skype for Business双重Skype for Business Server
  
@@ -26,7 +26,7 @@ ms.locfileid: "54315678"
   
 ## <a name="sign-in-to-skype-for-business-for-the-first-time"></a>首次Skype for Business登录
 
-安装登录信息后，通常会自动Skype for Business登录信息。 但是，第一次Skype for Business时，可能需要手动启动客户端。
+安装登录信息时，通常会自动Skype for Business登录信息。 但是第一次Skype for Business时，可能需要手动启动客户端。
   
 ### <a name="to-sign-in-for-the-first-time"></a>首次登录
 
@@ -38,7 +38,7 @@ ms.locfileid: "54315678"
     
     - 如果已填写登录地址框，请确认显示的地址正确。
     
-    - 如果不正确，或者框为空，请输入登录地址 (该地址通常与电子邮件地址地址) 。
+    - 如果不正确，或者框为空，请输入你的登录地址 (该地址通常与电子邮件地址) 。
     
     - 如果显示一个空密码框，请添加您的密码。
     
@@ -46,13 +46,13 @@ ms.locfileid: "54315678"
     
 ## <a name="sign-out-of-skype-for-business"></a>注销Skype for Business
 
-当你使用完Skype for Business后，你可以关闭屏幕、注销会话或退出程序，所有这些操作都从"文件"菜单中完成。 下表说明了这些选项之间的差异。
+当你使用完Skype for Business，你可以关闭屏幕、注销会话或退出程序，所有这些操作都从"文件"菜单中完成。 下表说明了这些选项之间的差异。
   
 |**选项**|**功能**|**如何执行**|
 |:-----|:-----|:-----|
-|关闭  <br/> |关闭显示，但允许Skype for Business ID 标识的会话继续运行。 这样，你可以继续获取通知并与他人交互。 <br/> <br/> 通过单击任务栏上的"Skype for Business图标或屏幕底部的通知区域，你随时都可以重新显示屏幕。  <br/> | 在Skype for Business窗口上，执行下列操作之一： <br/> 1. 选择"**选项"** 按钮，**然后选择"文件** 关闭  >  **"。**  <br/> 2. 单击 **窗口** () 右上角的"关闭"按钮。 <br/> |
+|关闭  <br/> |关闭屏幕，但允许Skype for Business标识的用户 ID 的会话继续运行。 这样，你可以继续获取通知并与他人交互。 <br/> <br/> 通过单击任务栏或屏幕底部的通知区域上的 Skype for Business 图标，你随时都可以重新显示屏幕。  <br/> | 在Skype for Business窗口上，执行下列操作之一： <br/> 1. 选择"**选项"** 按钮，**然后选择"文件** 关闭  >  **"。**  <br/> 2. 单击 **窗口** () 右上角的 X 窗口的"关闭"按钮。 <br/> |
 |注销  <br/> |结束与用户 ID 关联的会话，Skype for Business继续在后台运行。 注销时，将显示登录窗口。  <br/> **提示：** 选择 **"注销时** 删除我的登录信息"，从计算机中删除登录 ID 和密码记录。 这样做可能会让支持人员更轻松地排查登录问题。 它还可以帮助确保你的登录信息更安全，因为未经授权的用户很难使用你的凭据登录。 <br/> |在"Skype for Business"主窗口中，选择"**选项**"按钮，然后选择"**文件**  >  **注销"。**  <br/> |
-|Exit  <br/> |结束Skype for Business会话，并Skype for Business关闭计算机。 退出后，如果要重新启动，请选择"开始  >  **所有** 程序"> Skype for Business。 <br/> |在"Skype for Business"主窗口中，选择"**选项**"按钮，然后选择"文件 **退出**  >  **"。**  <br/> |
+|Exit  <br/> |结束Skype for Business会话，并Skype for Business关闭计算机。 退出后，如果要重新启动，请选择"开始  >  **所有** 程序"> Skype for Business。 <br/> |在主Skype for Business上，选择"**选项**"按钮，然后选择"文件 **退出**  >  **"。**  <br/> |
    
 ## <a name="sign-in-to-skype-for-business-with-a-smart-card"></a>登录以Skype for Business智能卡登录
 
@@ -60,14 +60,14 @@ ms.locfileid: "54315678"
   
 - **物理** 关于信用卡大小。 登录时将其插入智能卡读卡器。
     
-- **虚拟** 不是物理对象，而是写入到计算机上特殊芯片的电子标识符，这实际上将智能卡生成到计算机中。 仅适用于包含 TPM Windows 8受信任的平台模块 (芯片的) 计算机。
+- **虚拟** 不是物理对象，而是写入到计算机上特殊芯片的电子标识符，这实际上将智能卡生成到计算机中。 仅可用于包含 TPM Windows 8受信任的平台模块或芯片 () 计算机。
     
 ### <a name="enroll-your-smart-card"></a>注册智能卡
 
 在可以使用智能卡登录之前，该卡必须"已注册"，即用户凭据必须用卡标识。 这是卡片是物理卡还是虚拟卡的情况。 此过程可能已经由您的管理员Skype for Business Server执行。 如果您不确定是否已完成操作，请与他们核实。
   
 > [!NOTE]
-> 由于每个虚拟智能卡仅与其安装的设备关联，因此需要为使用的每张虚拟Windows 8一张卡。 
+> 由于每个虚拟智能卡仅与其安装的设备关联，因此需要为使用的每台计算机注册Windows 8卡。 
   
 ### <a name="to-manually-enroll-your-smart-card"></a>手动注册智能卡
 
@@ -78,7 +78,7 @@ ms.locfileid: "54315678"
     如果Skype for Business Server此资源的 Web 地址，请咨询管理员。 URL 将如下所示 https://MyCA ：.[yourcompanyname].com/certsrv。
     
     > [!NOTE]
-    > 如果你使用的是 Internet Explorer 10，你可能需要在兼容模式下查看此网站。 
+    > 如果你使用的是 Internet Explorer 10，可能需要在兼容模式下查看此网站。 
   
 3. 当系统提示你登录到认证页面时，使用域帐户登录 (而不是以计算机管理员) 。
     
@@ -88,7 +88,7 @@ ms.locfileid: "54315678"
     
 6. 选择 **"创建并提交对此 CA 的请求"，** 然后单击"下一 **步"。**
     
-7. 现在，你将看到一个称为智能卡注册站的页面。 批准安装证书ActiveX，然后完成"高级证书申请"表单，如下所示：
+7. 现在，你将看到一个称为智能卡注册站的页面。 批准安装证书ActiveX，然后完成"高级证书请求"表单，如下所示：
     
     a. 从 **"证书模板** " **下拉列表中选择** "智能卡用户"。
     
@@ -104,7 +104,7 @@ ms.locfileid: "54315678"
     
 8. 现在，将空白智能卡插入连接到注册站的读卡器中，**然后单击注册。**
     
-9. 当系统提示时，输入你的个人标识号 (PIN) ，然后单击 **确定。**
+9. 当系统提示时，输入你的个人标识号 (PIN) ，然后单击"确定 **"。**
     
     > [!NOTE]
     > 如果技术支持人员未提供用于注册智能卡的特殊 PIN，请使用默认智能卡 PIN 值，该值12345678。 
@@ -113,7 +113,7 @@ ms.locfileid: "54315678"
     
 11. 现在，将空白智能卡插入连接到注册站的读卡器中，**然后单击注册。**
     
-12. 当系统提示时，输入你的个人标识号 (PIN) ，然后单击 **确定。**
+12. 当系统提示时，输入你的个人标识号 (PIN) ，然后单击"确定 **"。**
     
     > [!NOTE]
     > 如果技术支持人员未提供用于注册智能卡的特殊 PIN，请使用默认智能卡 PIN 值，该值12345678。 
@@ -126,17 +126,17 @@ ms.locfileid: "54315678"
     
 ### <a name="sign-in-to-skype-for-business-with-your-smart-card-credentials"></a>登录以Skype for Business智能卡凭据登录
 
-在首次使用智能卡之前，建议在"登录"页面上单击"删除我的Skype for Business信息"。 这样做可清除存储在您的计算机上的任何登录凭据，并消除可能的错误源。
+在首次使用智能卡之前，建议在登录页面上单击"删除我的登录Skype for Business信息。  这样做可清除存储在您的计算机上的任何登录凭据，并消除可能的错误源。
   
 ### <a name="to-sign-in-to-skype-for-business-with-your-smart-card-credentials"></a>使用智能卡Skype for Business登录
 
 1. 启动 Skype for Business 客户端。
     
-2. 在"登录"屏幕上，在"登录地址"框中键入你的登录用户帐户名，然后单击"**登录"。**
+2. 在"登录"屏幕上，在"登录地址"框中键入你的登录用户帐户名称，然后单击"**登录"。**
     
 3. 如果使用的是虚拟智能卡，请跳过此步骤。
     
-    如果使用的是物理智能卡，请将智能卡插入智能卡读卡器并提示你这样做，然后在检测到智能卡时单击"确定"。 
+    如果使用的是物理智能卡，请将智能卡插入智能卡读卡器，并提示你这样做，然后在检测到智能卡时单击"确定"。 
     
 4. 键入智能卡的 PIN 号，然后单击"确定 **"。**
     

@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 创建 2019 Skype for Business Server时，将使用与旧安装关联的中央管理存储。 因第一次使用而启动拓扑生成器并随后编辑会话时，系统会提示您要使拓扑生成器加载当前配置文档的位置。 因为已定义拓扑并建立了中央管理存储，所以应该选择从现有部署下载拓扑。 拓扑生成器将读取数据库并检索当前的定义。
-ms.openlocfilehash: e20b6fbf8c65d7b59678c0061eee45b21a8e4130132da320494c0d230fffcb1d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 124a1bbb09307edc50842bb5ce6461766e151114
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339330"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586246"
 ---
 # <a name="download-topology-from-existing-deployment"></a>从现有部署下载拓扑
 

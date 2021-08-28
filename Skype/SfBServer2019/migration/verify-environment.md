@@ -9,18 +9,18 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
-description: 在以共存Skype for Business Server部署 2019 之前，需要验证旧版服务已配置和启动。 在部署 2019 试点池之前，必须确定旧环境中Skype for Business Server和功能。 在将 Microsoft Skype for Business Server 2019 XMPP 与旧版 XMPP 部署共存状态部署之前，需要验证旧版 XMPP 服务已配置并启动，并确定旧版 XMPP 配置支持的联盟伙伴。
-ms.openlocfilehash: 67583f875a8da0e58cc2c380352a0e1a96415003a9f493ee4f3172f8942972ec
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.localizationpriority: medium
+description: 在以共存Skype for Business Server部署 2019 之前，需要验证旧版服务已配置和启动。 在部署 2019 试点池之前，必须确定旧环境中Skype for Business Server和功能。 在将 Microsoft Skype for Business Server 2019 XMPP 与旧版 XMPP 部署共存状态部署之前，需要验证旧版 XMPP 服务已配置和启动，并确定旧版 XMPP 配置所支持的联盟伙伴。
+ms.openlocfilehash: c81686f77d42f855f61699d3f141ffcaa463bc9a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54277647"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586236"
 ---
 # <a name="verify-the-legacy-environment"></a>验证旧环境
 
-在以共存Skype for Business Server部署 2019 之前，需要验证旧版服务已配置和启动。 在部署 2019 试点池之前，必须确定旧环境中Skype for Business Server和功能。 在将 Microsoft Skype for Business Server 2019 XMPP 与旧 XMPP 部署共存状态部署之前，需要验证旧版 XMPP 服务已配置并启动，并确定旧版 XMPP 配置所支持的联盟伙伴。 验证旧部署需要执行以下操作：
+在以共存Skype for Business Server部署 2019 之前，需要验证旧版服务已配置和启动。 在部署 2019 试点池之前，必须确定旧环境中Skype for Business Server和功能。 在将 Microsoft Skype for Business Server 2019 XMPP 与旧版 XMPP 部署共存状态部署之前，需要验证旧版 XMPP 服务已配置并启动，并确定旧版 XMPP 配置所支持的联盟伙伴。 验证旧部署需要执行以下操作：
   
 - 验证旧服务是否已启动
     
@@ -48,7 +48,7 @@ ms.locfileid: "54277647"
     
      ![控制面板拓扑页](../media/migration_lyncserver_2010_topology.JPG)
   
-## <a name="review-legacy-users-in-skype-for-business-server-control-panel"></a>在控制面板中查看Skype for Business Server用户
+## <a name="review-legacy-users-in-skype-for-business-server-control-panel"></a>在"控制面板"中Skype for Business Server旧用户
 
 1. 打开"Skype for Business Server控制面板"。
     
