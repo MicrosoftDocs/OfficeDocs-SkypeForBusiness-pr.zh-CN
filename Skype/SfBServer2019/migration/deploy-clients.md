@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 有关详细信息，请参阅部署文档中的 Deploying clients and devices in Skype for Business Server 2019。
-ms.openlocfilehash: 017ec5d35a48dea07251d5e070c64fea1dab21740435b0997c2bba8458c1f93c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 98a91e5b69c8c13da2f048ee18ffcacfc26acb6b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295999"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623144"
 ---
 # <a name="deploy-skype-for-business-server-clients"></a>部署Skype for Business Server客户端
 

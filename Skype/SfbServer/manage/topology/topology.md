@@ -9,21 +9,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b2f8ce22-938e-4e22-8a1a-c829a1366b27
 description: 摘要：了解在部署中管理拓扑Skype for Business Server。
-ms.openlocfilehash: 7738d7ad662a1d06c9536e016456d91882c775a030857c9c839fd04a55d0da76
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9b617104a1dfe45f867376f49fd4ac24900f6510
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54290270"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599947"
 ---
 # <a name="manage-your-topology-in-skype-for-business-server"></a>在部署中管理Skype for Business Server 
  
 **摘要：** 了解在部署中管理拓扑Skype for Business Server。
   
-以下主题提供有关管理部署拓扑和前端服务器Skype for Business Server任务的分步说明。
+以下主题提供有关管理 Skype for Business Server 拓扑和前端服务器所涉及的任务的分步说明。
   
 - [管理前端服务器](manage-front-end-servers.md)
     

@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0277b988-e12e-4786-9001-9c212495cb89
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: 257a67c057f31e7ef97eb42adf1aa77b41fbbe304a38adca11a0f4546c07e090
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 349cdaee95a1ab42081702e6d44cabbeb92ddee6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335622"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599477"
 ---
 # <a name="configure-a-network-region-create-new-or-edit-existing"></a>配置网络区域：创建新的或编辑现有的
 

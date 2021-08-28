@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 70d2151e-9382-485d-ab14-758597571a74
-description: 摘要：了解如何在 Skype for Business Server 中规划即时消息和Skype for Business Server。
-ms.openlocfilehash: c58cfbfdc7fbfbdff01b1a122ad5cd94ee6a991ab90b52bf86bb62894e4b72a5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Summary： Learn how to plan for instant messaging and presence in Skype for Business Server.
+ms.openlocfilehash: 8498526c97794dce29d791318b025321e932081b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284632"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599887"
 ---
 # <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>规划即时消息和即时消息中的Skype for Business Server
  
@@ -27,15 +27,15 @@ ms.locfileid: "54284632"
   
 ## <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>规划即时消息和即时消息中的Skype for Business Server
 
-前端服务器提供核心Skype for Business Server功能，如即时消息 (IM) 和状态，并包含在每个Skype for Business Server部署中。 有两个版本可用：Skype for Business Server Enterprise Edition（主要面向大型组织）和 Skype for Business Server Standard Edition（主要针对需要较小硬件投资且不需要完整高可用性选项的较小组织设计）。 这两个版本都支持Skype for Business Server工作负载，包括 IM、状态、会议和企业语音。
+前端服务器提供了核心Skype for Business Server功能，如即时消息 (IM) 和状态，并且包含在每个Skype for Business Server部署中。 有两个版本可用：Skype for Business Server Enterprise Edition（主要面向大型组织）和 Skype for Business Server Standard Edition（主要针对需要较小硬件投资且不需要完整高可用性选项的较小组织设计）。 这两个版本都支持Skype for Business Server工作负载，包括 IM、状态、会议和企业语音。
   
 通过即时消息 (IM)，用户可以在其计算机上使用基于文本的消息进行实时通信。支持双方和多方之间的 IM 会话。双方 IM 对话中的一方可以随时将第三方参与者加入对话中。发生这种情况时，对话窗口会做出相应改变以支持会议功能。
   
-状态会为用户提供有关网络上其他人的状态的信息。 用户的状态信息可帮助其他人决定是否应尝试与用户联系以及是使用即时消息、电话还是电子邮件。 只要有可能，状态就会敦促进行即时通信；但状态也提供关于用户是否在开会或外出的信息，表明这种情况下不能进行即时通信。 此状态在 Skype for Business 和其他状态感知应用程序中显示为状态图标，包括 Microsoft Outlook 消息和协作客户端、Microsoft SharePoint 技术和 Microsoft Office。 状态图标表示用户的当前可用性和通信愿意。 
+状态为用户提供有关网络上其他人的状态的信息。 用户的状态信息可帮助其他人决定是否应尝试与用户联系以及是使用即时消息、电话还是电子邮件。 只要有可能，状态就会敦促进行即时通信；但状态也提供关于用户是否在开会或外出的信息，表明这种情况下不能进行即时通信。 此状态在 Skype for Business 和其他状态感知应用程序中显示为状态图标，包括 Microsoft Outlook 消息和协作客户端、Microsoft SharePoint 技术和 Microsoft Office。 状态图标表示用户的当前可用性和通信愿意。 
   
 ### <a name="technical-requirements"></a>技术要求
 
-即时消息 (IM) 和状态始终Enterprise Edition前端池和Standard Edition运行。 有关支持的硬件、操作系统和数据库软件的信息，请参阅 Certified [Gateways、Requirements](../../SfbPartnerCertification/certification/infra-gateways.md) [for your Skype for Business 2015 environment](requirements-for-your-environment/requirements-for-your-environment.md)和 Infrastructure requirements for Skype for Business Server [2019。](../../SfBServer2019/plan/system-requirements.md)
+即时消息 (IM) 和状态始终Enterprise Edition前端池和Standard Edition运行。 有关支持的硬件、操作系统和数据库软件的信息，请参阅认证网关[、Skype for Business 2015](requirements-for-your-environment/requirements-for-your-environment.md)环境的要求和[Skype for Business Server 2019](../../SfBServer2019/plan/system-requirements.md)的基础结构要求。 [](../../SfbPartnerCertification/certification/infra-gateways.md)
   
 ### <a name="enabling-communication-with-external-users"></a>启用与外部用户的通信
 
@@ -51,7 +51,7 @@ ms.locfileid: "54284632"
 > 不再支持 AOL、Yahoo 和 Google Talk。 
   
 > [!NOTE]
-> 若要启用任意或所有这些方案，您需要部署边缘服务器以帮助启用部署和外部用户Skype for Business Server通信。 贵组织的远程用户和联盟组织的用户将能够查看彼此的存在状态以及使用 IM 进行通信。 
+> 若要启用任意或所有这些方案，需要部署边缘服务器以帮助启用部署和外部Skype for Business Server安全通信。 贵组织的远程用户和联盟组织的用户将能够查看彼此的存在状态以及使用 IM 进行通信。 
   
 > [!NOTE]
 > 可扩展消息传递和状态协议 (XMPP) 仅支持统一功能协作平台 (UCCP) 联合互操作性测试命令 (JITC) 认证方案。 

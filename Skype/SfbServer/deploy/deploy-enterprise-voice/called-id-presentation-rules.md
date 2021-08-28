@@ -1,5 +1,5 @@
 ---
-title: 创建或修改名为 ID 演示文稿的转换规则Skype for Business Server
+title: 在演示文稿中为名为 ID 演示文稿的转换规则Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -9,21 +9,21 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ba112df8-3bb4-48e4-a353-4bf9110ccd71
 description: Summary： Learn how to define a translation rule by using the Build a Translation Rule tool in Skype for Business Server.
-ms.openlocfilehash: 0f8f511996c8d3a578087c9f4252492fa03ef4237688bcaf68a04f09ed944116
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2d920f7706514df56c1814b5a61f40e0182412d5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281285"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597276"
 ---
-# <a name="create-or-modify-a-translation-rule-for-called-id-presentation-in-skype-for-business-server"></a>创建或修改名为 ID 演示文稿的转换规则Skype for Business Server
+# <a name="create-or-modify-a-translation-rule-for-called-id-presentation-in-skype-for-business-server"></a>在演示文稿中为名为 ID 演示文稿的转换规则Skype for Business Server
 
 **摘要：** 了解如何使用"创建转换规则"工具定义转换规则Skype for Business Server。
 
@@ -33,7 +33,7 @@ ms.locfileid: "54281285"
 
 1. 打开Skype for Business Server控制面板"。
 
-2. 要开始定义转换规则，请按照在[Skype for Business Server](configure-trunk-with-media-bypass.md)中配置具有媒体旁路的中继中的步骤执行，或者按照步骤 9 中的配置没有媒体旁路Skype for Business Server中的步骤操作。 [](configure-trunk-without-media-bypass.md)
+2. 要开始定义转换规则，请按照在 Skype for Business Server 中配置具有媒体旁路的中继中的步骤执行，或者按照步骤[](configure-trunk-without-media-bypass.md)[9](configure-trunk-with-media-bypass.md)中的配置没有媒体旁路Skype for Business Server中的步骤操作。
 
 3. 在“新建转换规则”或“编辑转换规则”页上的“名称”下，键入描述要转换的号码模式的名称。
 
@@ -76,7 +76,7 @@ ms.locfileid: "54281285"
 
 1. 打开Skype for Business Server控制面板
 
-2. 要开始定义转换规则，请按照在[Skype for Business Server](configure-trunk-with-media-bypass.md)中配置具有媒体旁路的中继中的步骤执行，或者按照步骤 9 中的配置没有媒体旁路Skype for Business Server中的步骤操作。 [](configure-trunk-without-media-bypass.md)
+2. 要开始定义转换规则，请按照在 Skype for Business Server 中配置具有媒体旁路的中继中的步骤执行，或者按照步骤[](configure-trunk-without-media-bypass.md)[9](configure-trunk-with-media-bypass.md)中的配置没有媒体旁路Skype for Business Server中的步骤操作。
 
 3. 在“新建转换规则”或“编辑转换规则”页上的“名称”字段中，键入描述要转换的号码模式的名称。
 

@@ -10,16 +10,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ab2e0d93-cf52-4a4e-b5a4-fd545df7a1a9
-description: 如何为综合事务配置测试用户帐户和观察Skype for Business Server设置。
-ms.openlocfilehash: e5ae16702ca5659cc196086a108f65acb03d032a2901344afc1f3e2238211b2f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 如何为综合事务配置测试用户帐户和观察程序Skype for Business Server设置。
+ms.openlocfilehash: 7e7c318f6e9176c46a7dbbab6c8d1833f74911e9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54283244"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599937"
 ---
 # <a name="how-to-configure-watcher-node-test-users-and-settings"></a>如何配置观察程序节点测试用户和设置
  
@@ -34,7 +34,7 @@ ms.locfileid: "54283244"
 ## <a name="configure-test-user-accounts"></a>配置测试用户帐户
 <a name="testuser"> </a>
 
-测试帐户不需要表示实际人员，但它们必须是有效的 Active Directory 帐户。 此外，必须为这些帐户启用 Skype for Business Server，它们必须具有有效的 SIP 地址，并且应启用这些帐户企业语音 (以使用 Test-CsPstnPeerToPeerCall 综合事务) 。 
+测试帐户不需要表示实际人员，但它们必须是有效的 Active Directory 帐户。 此外，必须为这些帐户启用Skype for Business Server，它们必须具有有效的 SIP 地址，并且应启用这些帐户企业语音 (以使用 Test-CsPstnPeerToPeerCall 事务) 。 
   
 如果使用 TrustedServer 身份验证方法，只需确保这些帐户存在并按说明进行配置。 为每个要测试的池分配至少两个测试用户。 如果使用 Negotiate 身份验证方法，还必须使用 Set-CsTestUserCredential cmdlet 和 Skype for Business Server 命令行管理程序使这些测试帐户能够处理综合事务。 为此，运行与以下命令类似的命令 (这些命令假定已创建两个 Active Directory 用户帐户，并且这些帐户已启用Skype for Business Server) ：
   
@@ -76,14 +76,14 @@ New-CsWatcherNodeConfiguration -UseAutoDiscovery $true -TargetFqdn "atl-cs-001.l
 
 ### <a name="configuring-extended-tests"></a>配置扩展的测试
 
-如果要启用 PSTN 测试（用于验证与公用电话交换网的连接），则需要在设置观察程序节点时执行一些额外的配置。 首先，必须通过从命令行管理程序运行与此类似的命令，将测试用户与 PSTN 测试Skype for Business Server关联：
+如果要启用 PSTN 测试（用于验证与公用电话交换网的连接），则需要在设置观察程序节点时执行一些额外的配置。 首先，必须通过从命令行管理程序运行类似Skype for Business Server PSTN 测试类型：
   
 ```PowerShell
 $pstnTest = New-CsExtendedTest -TestUsers "sip:watcher1@litwareinc.com", "sip:watcher2@litwareinc.com" -Name "Contoso Provider Test" -TestType PSTN
 ```
 
 > [!NOTE]
-> 此命令的结果必须存储在变量中。 本示例中，变量名为 $pstnTest。 
+> 此命令的结果必须存储在变量中。 本示例将变量命名为 $pstnTest。 
   
 接下来，您可以使用 **New-CsWatcherNodeConfiguration** cmdlet 将变量 (中存储的测试类型 $pstnTest) 关联到Skype for Business Server池。 例如，以下命令为池池创建新的观察程序节点 atl-cs-001.litwareinc.com，添加之前创建的两个测试用户，并添加 PSTN 测试类型：
   
@@ -157,7 +157,7 @@ Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Ad
 Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Add="PersistentChatMessage","DataConference","UnifiedContactStore"}
 ```
 
-如果其中一个或多个测试（例如，dataConference (已在观察程序节点上启用) ，将发生错误。 在这种情况下，您将收到与以下类似的错误消息：
+如果其中一个或多个测试已启动， (例如，已在观察程序节点上启用 dataConference) ，将发生错误。 在这种情况下，您将收到与以下类似的错误消息：
   
 Set-CsWatcherNodeConfiguration："urn：schema：Microsoft.Rtc.Management"存在重复键序列"DataConference"。设置。WatcherNode.2010：TestName 的键或唯一标识约束。
   
@@ -169,7 +169,7 @@ Set-CsWatcherNodeConfiguration："urn：schema：Microsoft.Rtc.Management"存在
 Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Remove="ABWQ"}
 ```
 
-可以使用 Replace 方法将当前启用的所有测试替换为一个或多个新测试。 例如，如果希望观察程序节点仅运行 IM 测试，可以使用以下命令进行配置：
+可以使用 Replace 方法将当前启用的所有测试替换为一个或多个新测试。 例如，如果希望观察程序节点仅运行 IM 测试，可以使用此命令进行配置：
   
 ```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Replace="IM"}
@@ -251,9 +251,9 @@ Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -Enabl
 Remove-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com"
 ```
 
-该命令从指定计算机中删除所有观察程序节点配置设置，从而阻止该计算机自动运行综合事务。 但是，该命令不会卸载System Center代理文件或Skype for Business Server文件。
+该命令将删除指定计算机的所有观察程序节点配置设置，从而阻止该计算机自动运行综合事务。 但是，该命令不会卸载System Center代理文件或Skype for Business Server文件。
   
-默认情况下，观察程序节点在进行测试时使用组织的外部 Web URL。 但是，还可以将观察程序节点配置为使用组织的内部 Web URL。 这使管理员可验证位于外围网络内的用户的 URL 访问权限。 若要将观察程序节点配置为使用内部 URL 而不是外部 URL，可以将 UseInternalWebURls 属性设置为 True ($True) ：
+默认情况下，观察程序节点在进行测试时使用组织的外部 Web URL。 但是，还可以将观察程序节点配置为使用组织的内部 Web URL。 这使管理员可验证位于外围网络内的用户的 URL 访问权限。 若要将观察程序节点配置为使用内部 URL 而不是外部 URL，请设置 UseInternalWebURls 属性为 True ($True) ：
   
 ```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -UseInternalWebUrls $True
@@ -272,7 +272,7 @@ Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -UseIn
   
 ### <a name="data-conferencing-synthetic-transaction"></a>数据会议综合事务
 
-如果观察程序节点计算机位于外围网络外部，则可能无法运行数据会议综合事务，除非您首先通过完成以下步骤禁用网络服务帐户的 Windows Internet Explorer® Internet 浏览器代理设置：
+如果观察程序节点计算机位于外围网络外部，则可能无法运行数据会议综合事务，除非首先通过完成以下步骤禁用网络服务帐户的 Windows Internet Explorer® Internet 浏览器代理设置：
   
 1. 在观察程序节点计算机上，依次单击“开始”、“所有程序”、“附件”，右键单击“命令提示符”，然后单击“以管理员身份运行”。
     
@@ -296,7 +296,7 @@ Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -UseIn
   
 ### <a name="exchange-unified-messaging-synthetic-transaction"></a>Exchange统一消息综合事务
 
-统Exchange统一消息 (综合) 验证测试用户能否连接到 um 中Exchange。
+统Exchange统一消息 (统) 综合事务验证测试用户能否连接到邮箱中Exchange。
   
 测试用户将需要预配置语音邮件帐户。 
   
@@ -315,17 +315,17 @@ Test-CsPersistentChatMessage -TargetFqdn pool0.contoso.com -SenderSipAddress sip
 
 必须从企业内部运行此安装任务：
   
-- 如果从非服务器计算机运行，则执行 cmdlet 的用户必须是 Role-Based Access Control (RBAC) 的 CsPersistentChatAdministrators 角色的成员。
+- 如果从非服务器计算机运行，则执行该 cmdlet 的用户必须是 Role-Based Access Control (RBAC) 的 CsPersistentChatAdministrators 角色的成员。
     
 - 如果从服务器本身运行，则执行 cmdlet 的用户必须是 RTCUniversalServerAdmins 组的成员。
     
 ### <a name="pstn-peer-to-peer-call-synthetic-transaction"></a>PSTN 对等呼叫综合事务
 
-该Test-CsPstnPeerToPeerCall事务验证能否通过公用电话交换网和 PSTN (接收) 。
+该Test-CsPstnPeerToPeerCall事务验证通过公用电话交换网和 PSTN 电话交换 (呼叫) 。
   
 若要运行此综合事务，必须配置：
   
-- 两个启用 UC 的测试 (呼叫方和一个接收器) 。
+- 两个启用 UC 的测试用户 (呼叫方和一个接收器) 。
     
 - 为每个用户帐户配置外线直拨分机 (DID) 号码。
     
@@ -359,7 +359,7 @@ Test-CsUnifiedContactStore -TargetFqdn pool0.contoso.com -UserSipAddress sip:tes
   
 ### <a name="xmpp-synthetic-transaction"></a>XMPP 综合事务
 
-XMPP (IM) 事务中的可扩展消息传递和状态协议要求使用一个或多个联盟域配置 XMPP 功能。
+XMPP (可扩展消息传递和状态) IM 综合事务要求使用一个或多个联盟域配置 XMPP 功能。
   
 若要启用 XMPP 综合事务，您必须提供 XmppTestReceiverMailAddress 参数以及可路由 XMPP 域中的用户帐户。 例如：
   
@@ -370,13 +370,13 @@ Set-CsWatcherNodeConfiguration -Identity pool0.contoso.com -Tests @{Add="XmppIM"
 本示例中，需要Skype for Business Server规则，以将邮件路由 litwareinc.com XMPP 网关。
 
 > [!NOTE]
-> XMPP Gateways and proxies are available in Skype for Business Server 2015 but are no longer supported in Skype for Business Server 2019. 有关详细信息，请参阅迁移 [XMPP 联盟](../../../SfBServer2019/migration/migrating-xmpp-federation.md)。
+> XMPP 网关和代理在 Skype for Business Server 2015 中可用，但在 Skype for Business Server 2019 中不再受支持。 有关详细信息，请参阅迁移 [XMPP 联盟](../../../SfBServer2019/migration/migrating-xmpp-federation.md)。
   
 ### <a name="video-interop-server-vis-synthetic-transaction"></a>视频互操作服务器 (VIS) 综合事务
 
-视频互操作服务器 (VIS) 综合事务需要您下载并安装 (VISSTSupportPackage.msi[) 。](https://www.microsoft.com/download/details.aspx?id=46921) 
+VIS 服务 (互操作服务器) 综合事务需要您下载并安装[ (VISSTSupportPackage.msi) 。](https://www.microsoft.com/download/details.aspx?id=46921) 
   
-若要安装VISSTSupportPackage.msi请确保已安装 (msi 的系统) 要求"下的依赖项。 运行VISSTSupportPackage.msi以执行简单安装。 The .msi installs all the files in the following path： "%ProgramFiles%\VIS Synthetic Transaction Support Package".
+若要安装VISSTSupportPackage.msi请确保已安装 (msi 的系统) 要求"下的依赖关系。 运行VISSTSupportPackage.msi以执行简单安装。 The .msi installs all the files in the following path： "%ProgramFiles%\VIS Synthetic Transaction Support Package".
   
 若要详细了解如何运行 VIS 综合事务，请参阅 [Test-CsP2PVideoInteropServerSipTrunkAV](/powershell/module/skype/Test-CsP2PVideoInteropServerSipTrunkAV) cmdlet 的文档。
   
@@ -389,7 +389,7 @@ Set-CsWatcherNodeConfiguration -Identity pool0.contoso.com -Tests @{Add="XmppIM"
   
 若要更改综合事务运行的频率，请按照以下步骤操作：
   
-1. 打开 System Center Operations Manager。 单击"创作"部分。 单击"创作 (下的规则) 。
+1. 打开System Center Operations Manager。 单击"创作"部分。 单击"创作 (下的规则部分) 。
     
 2. 在"规则"部分，查找名称为"主综合事务运行程序性能收集规则"的规则。
     
@@ -429,7 +429,7 @@ Test-CsRegistration -TargetFqdn atl-cs-001.litwareinc.com -OutLoggerVariable Reg
 ```
 
 > [!NOTE]
-> 变量名称不要以 $ 字符开头。 使用一个变量名称，如 RegistrationTest (，$RegistrationTest) 。 
+> 变量名称不要以 $ 字符开头。 使用变量名称，如 RegistrationTest (，$RegistrationTest) 。 
   
 运行此命令时，将看到类似以下的输出：
   
@@ -447,9 +447,9 @@ $RegistrationTest.ToHTML() | Out-File C:\Logs\Registration.html
 $RegistrationTest.ToXML() | Out-File C:\Logs\Registration.xml
 ```
 
-您可以通过使用可打开 HTML/XML Windows Internet Explorer Microsoft Visual Studio应用程序查看这些文件。
+您可以使用可打开 HTML/XML Windows Internet Explorer Microsoft Visual Studio应用程序查看这些文件。
   
-从 Operations Manager 内部运行System Center事务将自动生成这些日志文件以用于失败。 如果在 PowerShell 能够加载和运行综合事务Skype for Business Server执行失败，将不会生成这些日志。 
+从内部运行的综合事务System Center Operations Manager 将自动生成这些日志文件以用于失败。 如果在 PowerShell 能够加载和运行综合事务Skype for Business Server执行失败，将不会生成这些日志。 
   
 > [!IMPORTANT]
 > 默认情况下，Skype for Business Server将日志文件保存到未共享的文件夹。 若要使这些日志易于访问，应共享此文件夹。 例如 \\ ：atl-watcher-001.litwareinc.com\WatcherNode。

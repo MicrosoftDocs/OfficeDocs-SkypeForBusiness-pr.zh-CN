@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 142abc98-608d-40c7-ab4d-66acc010426b
-description: 摘要：如何安装和测试适用于 iOS Skype for Business应用。
-ms.openlocfilehash: 28f91bccd32421c2442bfedb12eb5181311ed0ed990ebf4f3174898ddefff610
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 摘要：如何安装和测试 iOS Skype for Business应用。
+ms.openlocfilehash: ff2e2789f733a77ab0d332225a85aca33eb69bc1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332014"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623014"
 ---
 # <a name="install-and-test-skype-for-business-for-ios"></a>安装和测试 Skype for Business for iOS
  
@@ -35,7 +35,7 @@ iOS Skype for Business为 iOS 设备Skype for Business状态、即时消息 (IM)
     
 ## <a name="verifying-mobile-client-installation"></a>验证移动客户端安装
 
-成功登录后，使用以下测试验证你的 Skype for Business在 iOS 设备上是否正常工作。 
+成功登录后，使用以下测试验证你的 Skype for Business安装是否在你的 iOS 设备上正常工作。 
   
 ### <a name="search-for-a-contact-in-the-corporate-directory"></a>搜索企业目录中的联系人
 
@@ -61,7 +61,7 @@ iOS Skype for Business为 iOS 设备Skype for Business状态、即时消息 (IM)
     
 ### <a name="test-push-notifications"></a>测试推送通知
 
-1. 在用户 A 的移动设备上，登录Skype for Business A 的帐户登录。 
+1. 在用户 A 的移动设备上，Skype for Business A 的帐户登录。 
     
 2. 在移动设备上打开其他应用程序。 
     

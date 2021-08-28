@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于瑞典Microsoft 365 Office 365和Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: 52fdebc33f561cfb8921dc1f1d0371997c856050c138b3f5fb97fb4fe97e5b7b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d825ccafac9dee90ce1b30d2a477977f9beb163b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54279749"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623334"
 ---
 # <a name="availability-in-sweden"></a>在瑞典的可用性
 
@@ -43,7 +43,7 @@ ms.locfileid: "54279749"
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
-|是否会为音频会议自动分配电话号码？  <br/> |是，适用于： <br/><ul><li> 瑞典</ul>如果需要专用电话号码，请参阅获取 [服务电话号码](../getting-service-phone-numbers.md)。  <br/> |
+|是否会为音频会议自动分配电话号码？  <br/> |是，适用于： <br/><ul><li> 瑞典</ul>如果需要专用电话号码，请参阅 [获取服务电话号码](../getting-service-phone-numbers.md)。  <br/> |
 |使用“呼叫我”功能的拨出功能  <br/> |可用  <br/> |
    
 ## <a name="phone-system"></a>电话系统

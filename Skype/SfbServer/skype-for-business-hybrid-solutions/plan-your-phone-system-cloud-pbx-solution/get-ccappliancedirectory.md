@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c2fda202-db2f-4122-b630-7df11a697c5f
-description: 此Get-CcApplianceDirectory cmdlet 检索主机服务器上Skype for Business 云连接器版本目录。 所有部署文件都存储在此目录中。
-ms.openlocfilehash: 9be21029aaf582ce080b85af87b8d3f02be11ffea3b615f2b003bb6aeb29002d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 此Get-CcApplianceDirectory cmdlet 检索主服务器上Skype for Business 云连接器版本目录。 所有部署文件都存储在此目录中。
+ms.openlocfilehash: 9b049b0227f923518ae682415df48afeb044c3c3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347587"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599857"
 ---
 # <a name="get-ccappliancedirectory"></a>Get-CcApplianceDirectory
  
-此Get-CcApplianceDirectory cmdlet 检索主机服务器上Skype for Business 云连接器版本目录。 所有部署文件都存储在此目录中。 
+此Get-CcApplianceDirectory cmdlet 检索主服务器上Skype for Business 云连接器版本目录。 所有部署文件都存储在此目录中。 
   
 此 cmdlet 适用于 Skype for Business 云连接器版本 1.4.1、1.4.2。
   

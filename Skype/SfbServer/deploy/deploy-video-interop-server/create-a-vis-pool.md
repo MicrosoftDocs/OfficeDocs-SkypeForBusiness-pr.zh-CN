@@ -9,16 +9,16 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: abd8c4f7-057f-4360-8e3e-ec29b58f16a8
 description: 摘要：使用拓扑生成器在 Skype for Business Server创建视频互操作服务器池。
-ms.openlocfilehash: 91a1ed8b5b8d5ce728a666be507a1c1026b0c88460d9ba33b519f1f3d3825aa8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9a417c48ca52b04d12361e39ed10a6ea39ec3795
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54283574"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624384"
 ---
 # <a name="create-a-vis-pool-in-skype-for-business-server"></a>在池中创建 VIS Skype for Business Server
  
@@ -36,7 +36,7 @@ ms.locfileid: "54283574"
     
    - 下一页的"定义此池中的计算机"项中，在文本字段中输入池中每个服务器的计算机 **FQDN，** 然后单击"添加 **"。** 重复此步骤以向池中添加另一个视频互操作服务器。 定义池中的所有计算机后，按"下一 **步"。**
     
-     如果因为不需要高可用性而只想在池中部署一个视频互操作服务器，请选择"此池有 **一** 台服务器"，然后按"下一 **步"。**
+     如果因为不需要高可用性而只想在池中部署一个视频互操作服务器，请选择"此池有 **一** 台服务器"并按"下一 **步"。**
     
 3. 从下拉列表中选择下一个跃点池/FE，然后按"下一 **步"。**
     
@@ -71,4 +71,4 @@ ms.locfileid: "54283574"
 
 [规划视频互操作服务器Skype for Business Server](../../plan-your-deployment/video-interop-server.md)
   
-[在 Skype for Business Server 2015 中创建新拓扑](../../deploy/install/create-and-publish-new-topology.md)
+[在 2015 年 10 月Skype for Business Server拓扑](../../deploy/install/create-and-publish-new-topology.md)

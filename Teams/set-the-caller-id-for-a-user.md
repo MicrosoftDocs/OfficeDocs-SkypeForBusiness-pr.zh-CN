@@ -15,23 +15,23 @@ audience: Admin
 appliesto:
 - Skype for Business Online
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: 了解Microsoft 365 Office 365呼叫者 ID (用户分配的电话号码) 呼叫线路 ID。 可以更改或阻止用户的来电显示。
-ms.openlocfilehash: ea3d9676caf0984c19137abe286f792aacfcceca393fd4ccfeff9117edef9011
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 了解Microsoft 365 Office 365呼叫者 ID (用户分配的电话号码的默认呼叫) ，也称为呼叫线路 ID。 可以更改或阻止用户的来电显示。
+ms.openlocfilehash: 9a69cf864cbf57d7ebf82ae079f88a888d3fc9f0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54275948"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613581"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>为用户设置来电显示
 
-电话系统中Microsoft 365提供默认呼叫者 ID，即用户分配的电话号码。 你可以为用户更改或阻止来电显示（也称为主叫号码）。 可以通过访问"如何在组织中使用来电显示"，详细了解如何在组织中 [使用来电显示](how-can-caller-id-be-used-in-your-organization.md)。
+电话系统中Microsoft 365提供默认呼叫者 ID，即用户分配的电话号码。 你可以为用户更改或阻止来电显示（也称为主叫号码）。 可以通过访问"如何在组织中使用来电显示"，了解有关如何在组织中使用来电[显示功能。](how-can-caller-id-be-used-in-your-organization.md)
   
 默认情况下，以下来电显示设置 **已关闭**。 这意味着，Teams呼叫 PSTN 电话时，可以看到该用户的电话号码。 可以更改这些设置，如下所示：
   
@@ -39,13 +39,13 @@ ms.locfileid: "54275948"
     
   > [!NOTE]
   > 若要使用 Service *参数，* 必须指定有效的服务编号。
-  > 如果资源帐户号在下拉列表中不可见，则需要在 Teams PowerShell 模块 2.3.1 或更高版本中将 PowerShell cmdlet New-CsCallingLineIdentity 或 Set-CsCallingLineIdentity 用于资源帐户编号。
+  > 如果资源帐户编号在下拉列表中不可见，则需要使用 Teams PowerShell 模块 2.3.1 或更高版本中的 PowerShell cmdlet New-CsCallingLineIdentity 或 Set-CsCallingLineIdentity。
   
 - **阻止出站来电显示。** 你可以阻止传出呼叫者 ID 在用户的传出 PSTN 呼叫上发送。 执行此操作将阻止其电话号码显示在被呼叫者的电话上。
     
 - **阻止传入来电显示。** 你可以阻止用户接收任何传入 PSTN 呼叫的来电显示。
 
-- **将"呼叫方名称" (CNAM) 。** 对于您的Microsoft Teams用户可以在出站 PSTN 呼叫上发送 CNAM。
+- **将"呼叫方名称" (CNAM) 。** 对于你的Microsoft Teams，可以在出站 PSTN 呼叫上发送 CNAM。
     
 > [!IMPORTANT]
 > [!重要信息] 紧急呼叫始终发送用户的电话号码（来电显示号码）。 
@@ -59,7 +59,7 @@ ms.locfileid: "54275948"
 > [!NOTE]
 > 若要将呼叫方 ID 设置为资源帐户电话号码并设置呼叫方名称，请使用 Teams PowerShell 模块 2.3.1 或更高版本中的 PowerShell cmdlet New-CsCallingLineIdentity 或 Set-CsCallingLineIdentity。  (管理中心.) 中目前Microsoft Teams这些选项不可用 
 
-打开Windows PowerShell命令提示符并运行以下命令：
+打开 Windows PowerShell 命令提示符并运行以下命令：
 
 ```PowerShell
 # When using Teams PowerShell Module
@@ -117,7 +117,7 @@ Connect-MicrosoftTeams -Credential $credential
    New-CsCallingLineIdentity  -Identity DKCQ -CallingIDSubstitute Resource -EnableUserOverride $false -ResourceAccount $ObjId -CompanyName "Contoso"
    ```
 
-如果已创建策略，可以使用 [Set-CsCallingLineIdentity](/powershell/module/skype/Set-CsCallingLineIdentity) cmdlet 更改现有策略，然后使用 [Grant-CsCallingLineIdentity](/powershell/module/skype/Grant-CsCallingLineIdentity) cmdlet 将设置应用到用户。
+如果已创建策略，可以使用 [Set-CsCallingLineIdentity](/powershell/module/skype/Set-CsCallingLineIdentity) cmdlet 更改现有策略，然后使用 [Grant-CsCallingLineIdentity](/powershell/module/skype/Grant-CsCallingLineIdentity) cmdlet 将设置应用于用户。
     
 ### <a name="remove-a-policy-setting"></a>删除策略设置
 
@@ -133,13 +133,13 @@ Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName $nul
 ```
 ## <a name="want-to-know-more-about-windows-powershell"></a>想要了解有关 Windows PowerShell 的详细信息？
 
-Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用Windows PowerShell，Microsoft 365单点管理来管理任务，从而简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
+Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用Windows PowerShell，可以使用Microsoft 365单点管理来管理任务，从而简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
     
 - [Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
     
-- [你可能想要使用 Windows PowerShell 管理Microsoft 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+- [可能想要使用 Windows PowerShell 管理Microsoft 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-- Windows PowerShell比仅使用 Microsoft 365 管理中心（例如，一次为许多用户进行设置更改时）在速度、简单性和工作效率方面具有许多优势。 通过以下主题了解这些优势：
+- Windows PowerShell比仅使用 Microsoft 365 管理中心（例如，一次对许多用户进行设置更改时）在速度、简单性和工作效率方面具有许多优势。 通过以下主题了解这些优势：
     
 - [使用 Microsoft 365 管理Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     

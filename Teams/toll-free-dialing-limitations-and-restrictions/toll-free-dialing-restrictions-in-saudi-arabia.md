@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 了解如何在沙特阿拉伯拨打免费电话号码，包括可用性、有线/固定线路和移动网络可用性以及限制。
-ms.openlocfilehash: 881b973dfb6496d9d9009f431d8e0d53d4cce34ebbe5ccb0f42dcfe51b6fd83c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 69c2fca52ae2eaae1d95eff35502b8a580043d36
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300818"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623184"
 ---
 # <a name="toll-free-dialing-restrictions-in-saudi-arabia"></a>沙特阿拉伯的免费拨号限制
 

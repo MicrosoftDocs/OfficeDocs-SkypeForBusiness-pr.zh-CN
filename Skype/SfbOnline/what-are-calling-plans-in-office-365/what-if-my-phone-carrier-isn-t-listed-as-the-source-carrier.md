@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
@@ -22,18 +22,18 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.PortOrderDetailPanelWhois
 description: '了解如果你的运营商未列在Skype for Business。 '
-ms.openlocfilehash: 263e8584179a523934ab76083b601854527bb995bc9f0297bf9bab34a012dd41
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c9916c38496365884e75e8777f42958c45bb0e59
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320965"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599617"
 ---
 # <a name="what-if-my-phone-carrier-isnt-listed-as-the-source-carrier"></a>如果我的电话运营商未列为源运营商，该做什么？
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]?
 
-当你看到运营商的名称未列出时，这有点令人困惑。 在大多数情况下，如果服务提供商或运营商不同，则你转移的电话号码可能由不同的服务提供商或运营商拥有。 有时列出的服务提供商或运营商可能不同于当前服务提供商，因为当前服务提供商可能正在与第三方服务提供商合作。 
+当你看到运营商的名称未列出时，这有点令人困惑。 在大多数情况下，如果服务提供商或运营商不同，则你转移的电话号码可能由不同的服务提供商或运营商拥有。 有时列出的服务提供商或运营商可能不同于当前服务提供商，因为你的当前服务提供商可能正在与第三方服务提供商合作。 
   
 示例：
   

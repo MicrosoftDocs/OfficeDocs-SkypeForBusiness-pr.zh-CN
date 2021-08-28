@@ -9,19 +9,19 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: ''
-ms.openlocfilehash: d62a3af74607c3f4868ed1d808160556a765844f298ec889b37137b3133d8a30
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2ac97c784f2286a2231a5f20f54aa00daf646384
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54294209"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600007"
 ---
 # <a name="preventing-new-connections-to-skype-for-business-server-for-server-maintenance"></a>阻止与服务器Skype for Business Server新连接
 
 
-Skype for Business Server使服务器脱机 (例如，将软件或硬件升级) 用户不会丢失任何服务。
+Skype for Business Server使服务器脱机， (例如，将软件或硬件升级) 用户不会丢失任何服务。
 
 如果指定阻止对池中服务器的新连接或新呼叫的选项，则一旦实现此选项，服务器将停止接收任何新连接和呼叫。这些新的连接和呼叫将通过池中的其他服务器进行路由。阻止新连接的服务器允许其现有连接上的会话继续进行，直至会话自然结束。所有现有会话都结束后，即可将服务器置于脱机状态。
 
@@ -39,7 +39,7 @@ Skype for Business Server使服务器脱机 (例如，将软件或硬件升级) 
 
 有关 DNS 负载平衡的详细信息，请参阅 [负载平衡要求](../../plan-your-deployment/network-requirements/load-balancing.md)。
 
-除了阻止运行 Skype for Business Server 的服务器上所有服务的新连接之外，您还可以阻止单个 Skype for Business Server 服务的新连接。 例如，在需要应用不需要关闭整个服务器的 Skype for Business Server 更新时，此方法非常有用。 请注意，阻止一项服务的连时，必须选择 Windows 服务列表中所属和显示的服务。 例如，Skype for Business Server Front-End 服务和监控数据收集代理是单独的 Skype for Business Server 服务，但在 Windows 服务列表中，它们合并显示为 Skype for Business Server 前端服务。 您可以阻止前端服务的新Skype for Business Server，但不能分别阻止这两个单独的基础 Skype for Business Server连接。
+除了阻止运行 Skype for Business Server 的服务器上所有服务的新连接之外，您还可以阻止单个 Skype for Business Server 服务的新连接。 例如，在需要应用不需要关闭整个服务器的 Skype for Business Server 更新时，此方法非常有用。 请注意，阻止一项服务的连时，必须选择 Windows 服务列表中所属和显示的服务。 例如，Skype for Business Server Front-End 服务和监控的数据收集代理是单独的 Skype for Business Server 服务，但在 Windows 服务列表中，它们合并显示为 Skype for Business Server 前端服务。 您可以阻止前端服务的新Skype for Business Server，但不能分别阻止这两个单独的基础Skype for Business Server连接。
 
 > [!IMPORTANT]
 > 如果将某台服务器设置为阻止新连接，然后重新启动该服务器，则默认情况下，该服务器启动后将立即开始接受新连接。要防止此情况发生，请在重新启动服务器之前，将其设置为仅手动暂停和恢复。
@@ -50,7 +50,7 @@ Skype for Business Server使服务器脱机 (例如，将软件或硬件升级) 
 
 2.  打开服务管理单元控制台：单击"开始"，指向"**所有** 程序"，指向"**管理工具**"，然后单击"服务 **"。**
 
-3.  在列表中，双击Skype for Business Server Windows阻止新连接的服务。
+3.  在列表中，双击要Skype for Business Server Windows新连接的服务。
 
 4.  在“属性”对话框的“服务状态: 已启动”下，单击“暂停”。
 

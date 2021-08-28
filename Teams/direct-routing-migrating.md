@@ -7,7 +7,7 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: msteams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-voice
@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 从 Skype for Business Online 和 Teams 配置角度了解迁移到直接路由所需的内容。
-ms.openlocfilehash: bcc31554428c847fc9eb3c45804be42e850b30f943fadcc3ef6e245d07c9d4fb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 71776c18dc6ec802c19f9dfc94c51b2b714bc210
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301997"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599747"
 ---
 # <a name="migrate-to-direct-routing"></a>迁移到直接路由
 
@@ -29,7 +29,7 @@ ms.locfileid: "54301997"
  
 - 电话系统 Online (呼叫Teams Skype for Business套餐)  
 - 电话系统 Skype for Business Server (Online 中的本地 PSTN Skype for Business连接)   
-- 电话系统适用于 Skype for Business Online 的 Cloud Connector Edition (与本地 PSTN 连接) 
+- 电话系统适用于 Skype for Business Online 的 Cloud Connector Edition (Skype for Business PSTN 连接) 
 
 
 除了这些配置步骤外，还需要在会话边界控制器 (SBC) 上进行配置，才能将通话转接到新的路由。 那超出了本文档的范畴。 有关详细信息，请参阅 SBC 供应商文档。  

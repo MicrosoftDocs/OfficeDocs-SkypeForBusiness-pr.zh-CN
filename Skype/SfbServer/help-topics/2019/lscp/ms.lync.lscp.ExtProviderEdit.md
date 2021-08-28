@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bf967ad7-c36b-4a8b-8e78-eb11f9365a47
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: 669ae27ef5fa6dc6e902c458ed3a8bcc6a1014146231f2d499808e55f1220789
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5e05918f87c2a318947f2c219ec3f2251b475c40
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300158"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599507"
 ---
 # <a name="sip-federated-providers-create-new-or-edit-existing"></a>SIP 联盟提供程序：创建新的或编辑现有的
 

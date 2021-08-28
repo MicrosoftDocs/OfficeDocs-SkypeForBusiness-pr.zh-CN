@@ -10,21 +10,21 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e5862480-95f8-4d76-a2b5-940cd995e93c
 description: 摘要：阅读本主题，了解如何在 Skype for Business Server 2015 中为持久聊天服务器创建初始用户策略。 持久聊天用户策略确定是否允许用户访问聊天室。
-ms.openlocfilehash: fc0033eee8886ddccbe00ff3b3a7014a22eca2a9d19359c18cea46b9c9bdf6af
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0cf0bb4f241e6186dcf63c3678e36e11e65b0956
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54283614"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624394"
 ---
 # <a name="configure-persistent-chat-user-policies-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中配置持久聊天用户策略
  
 **摘要：** 阅读本主题，了解如何在 Skype for Business Server 2015 中为持久聊天服务器创建初始用户策略。 持久聊天用户策略确定是否允许用户访问聊天室。
   
-您可以在以下级别管理持久聊天服务器用户策略：全局、站点或用户。 最初，配置全局策略以启用部署中所有用户的持久聊天设置，然后创建其他用户和站点策略以控制是否为特定用户和站点启用持久聊天。
+您可以在以下级别管理持久聊天服务器用户策略：全局、站点或用户。 最初，将全局策略配置为为部署中的所有用户启用持久聊天设置，然后创建其他用户和站点策略以控制是否对特定用户和站点启用持久聊天。
   
 本主题包含以下各部分：
   
@@ -37,7 +37,7 @@ ms.locfileid: "54283614"
 - 将策略应用于用户或用户组
     
 > [!NOTE] 
-> 持久聊天在 2015 Skype for Business Server可用，但在 2019 年 2 月不再Skype for Business Server支持。 相同的功能在 Teams。 有关详细信息，请参阅[开始升级Microsoft Teams升级](/microsoftteams/upgrade-start-here)。 如果您需要使用持久聊天，您的选择是将需要此功能的用户迁移到 Teams，或者继续使用 Skype for Business Server 2015。
+> 持久聊天在 Skype for Business Server 2015 中可用，但在 2019 年 2 Skype for Business Server不再受支持。 相同的功能在 Teams。 有关详细信息，请参阅[开始升级Microsoft Teams升级](/microsoftteams/upgrade-start-here)。 如果您需要使用持久聊天，则选择将需要此功能的用户迁移到 Teams，或者继续使用 Skype for Business Server 2015。
 
 ## <a name="configure-the-global-policy"></a>配置全局策略
 
@@ -47,7 +47,7 @@ ms.locfileid: "54283614"
     
 2. 从"**开始**"菜单中，Skype for Business Server控制面板或打开浏览器窗口，然后输入管理 URL。
     
-3. 在Skype for Business Server控制面板中，单击"**持久聊天**"，然后单击"**持久聊天策略"。**
+3. 在Skype for Business Server控制面板"中，单击"**持久聊天**"，然后单击"**持久聊天策略"。**
     
 4. 单击策略列表中的“全局”，再单击“编辑”，然后单击“显示详细信息”。
     
@@ -109,7 +109,7 @@ ms.locfileid: "54283614"
     
 ## <a name="apply-a-policy-to-a-user-account"></a>将策略应用于用户帐户
 
-创建策略后，可以按如下方式将它们应用到用户帐户：
+创建策略后，可以将其应用到用户帐户，如下所示：
   
 1. 使用分配给 CsPersistentChatAdministrator、CsAdministrator 或 CsUserAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
     
@@ -119,7 +119,7 @@ ms.locfileid: "54283614"
     
 4. 在列出搜索结果的表中，单击相应的用户帐户，再单击“编辑”，然后单击“显示详细信息”。
     
-5. 在 **"Skype for Business Server** 聊天策略"下的"编辑用户 **"** 中，选择要应用持久聊天用户策略。
+5. 在 **"编辑Skype for Business Server** 用户"中的"**持久聊天策略"下**，选择要应用持久聊天用户策略。
     
     > [!NOTE]
     > 设置 **\<Automatic\>** 将应用默认的有效策略。 服务器将自动应用这些设置。

@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
 description: 阅读本主题，了解使用云连接器版本 2.0 版及更高版本部署媒体旁路的步骤。
-ms.openlocfilehash: 6ce46df02295810367556e735897cd9ce912b4c7e8aa15f6db5ffb66d38d4574
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: edc00467d878f0f2ae137c86f179f864bb2ca53f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54289430"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613772"
 ---
 # <a name="deploy-media-bypass-in-cloud-connector-edition"></a>在云连接器版本中部署媒体旁路
  
@@ -34,7 +34,7 @@ ms.locfileid: "54289430"
   
 ## <a name="enable-media-bypass"></a>启用媒体旁路
 
-若要启用媒体旁路，必须配置媒体旁路 Web 服务的 DNS 名称，并启用租户配置中的媒体旁路。 媒体旁路 Web 服务会在每个中介服务器上自动部署。 租户管理员必须为混合语音服务选择一个 (站点) ，并且此名称应来自为混合语音注册的 SIP 域。 无论客户端位置如何，服务名称在所有云连接器设备和所有 PSTN 站点中都应相同。 Web 服务应仅在网络内部可用。
+若要启用媒体旁路，必须配置媒体旁路 Web 服务的 DNS 名称，并启用租户配置中的媒体旁路。 媒体旁路 Web 服务会在每个中介服务器上自动部署。 租户管理员必须为混合语音服务的名称 (站点) ，并且此名称应来自为混合语音注册的 SIP 域。 无论客户端位置如何，服务名称在所有云连接器设备和所有 PSTN 站点中都应相同。 Web 服务应仅在网络内部可用。
   
 租户管理员必须在内部生产 Active Directory 中配置 DNS A 记录。 如果您具有复杂的多站点环境，请参阅示例：复杂多站点环境中媒体旁路网站 [DNS 记录中的示例](deploy-media-bypass-in-cloud-connector.md#Example)。 DNS 记录应仅为内部网络客户端解析;它不应解析为外部网络客户端。
   
@@ -50,7 +50,7 @@ Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
 
 启用媒体旁路是一个两步过程。 此New-CsNetworkMedia cmdlet 不会立即保存新配置;它仅在内存中创建设置。 此 cmdlet 创建的对象必须保存到变量中，然后分配给网络配置的 MediaBypassSettings 属性。 有关详细信息，请参阅 [示例：复杂](deploy-media-bypass-in-cloud-connector.md#Example)多站点环境中媒体旁路网站 DNS 记录。
   
-内部部署组件和联机组件之间的复制最多可能需要 24 小时，因此 Microsoft 建议您先运行必要的命令，然后再启用用户。
+内部部署组件和联机组件之间的复制最多可能需要 24 小时，因此 Microsoft 建议您在启用用户之前运行必要的命令。
   
 ## <a name="confirm-media-bypass-settings"></a>确认媒体旁路设置
 
@@ -122,7 +122,7 @@ Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
   
 Fore more information about Windows 2016 DNS Policies， see [Use DNS Policy for Geo-Location Based Traffic Management with Primary Servers](/windows-server/networking/dns/deploy/primary-geo-location).
   
-下面是使用基于流量管理的 Windows 2016 DNS 策略Geo-Location公司的配置示例。
+下面是使用基于流量管理的 Windows 2016 DNS 策略Geo-Location配置的示例。
   
 绕过服务的名称为"hybridvoice.adatum.biz"。
   

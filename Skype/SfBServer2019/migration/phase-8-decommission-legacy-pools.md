@@ -9,21 +9,21 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom: httpsfix
 description: 以下主题提供有关更新 DNS 条目、移动内容管理服务器、停用池以及从旧部署停用和删除服务器和池的指南。 并非本节中列出的所有过程都是必需的。 请阅读本文档并确定要使用的停用过程。
-ms.openlocfilehash: 7b96639b07ee8788f109a08f38265f4c0c27e0f035b1a7729488d4064ec31208
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7285ffd7c4d4087dba3b9fe9bf7ff2fadba2b62e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54285512"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613301"
 ---
 # <a name="phase-8-decommission-legacy-pools"></a>第 8 阶段：停用旧池
 
 以下主题提供有关更新 DNS 条目、移动内容管理服务器、停用池以及从旧部署停用和删除服务器和池的指南。 并非本节中列出的所有过程都是必需的。 请阅读本文档并确定要使用的停用过程。 
   
-有关删除服务器和服务器角色的一篇不日期但详尽的文章，以及停用部署的分步指南，请下载卸载 Microsoft Lync Server 和 [删除服务器角色](https://go.microsoft.com/fwlink/p/?linkId=246227)。 
+有关删除服务器和服务器角色的过时但详尽的文章，以及停用部署的分步指南，请下载卸载 Microsoft Lync Server 和 [删除服务器角色](https://go.microsoft.com/fwlink/p/?linkId=246227)。 
   
 > [!IMPORTANT]
 > 有关迁移和升级 Microsoft 统一通信托管 API (UCMA) 应用程序的信息，在停用旧环境之前，请参阅 [UCMA 应用程序：共存](/previous-versions/office/jj728782(v=office.15))、迁移和升级方案。

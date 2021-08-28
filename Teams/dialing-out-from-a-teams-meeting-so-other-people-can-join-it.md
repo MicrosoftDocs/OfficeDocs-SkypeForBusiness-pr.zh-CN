@@ -15,23 +15,23 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: 会议组织者可以了解如何使用 Teams 应用拨出，以允许其他人使用其电话加入同一会议。
-ms.openlocfilehash: 95370afe0c9c0a4d03f8296ada4f7438e2abc4e6a746a5d21d63f3ee9551ee08
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: db6d900a5892753eee60c3a150579cffb4dbd258
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282695"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623314"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>从 Microsoft Teams 会议拨出，以便其他人可以加入会议
 
-作为会议组织者，您可以使用会议Teams拨出，让其他人使用其电话加入同一会议。
+作为会议组织者，您可以使用 Teams 应用拨出，让其他人使用其电话加入同一会议。
 
 当你向某人拨出时，我们建议你使用其完整电话号码 (包括国家/地区代码 - E.164 格式) 。
   
@@ -53,11 +53,11 @@ ms.locfileid: "54282695"
     
 ## <a name="supported-countries-and-regions"></a>支持的国家和地区
 
-拨出功能仅适用于某些国家/地区。 有关完整列表，请参阅音频会议和通话计划的"国家[/地区"和"区域可用性"。](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+拨出功能仅适用于某些国家/地区。 有关完整列表，请参阅音频会议和呼叫计划的"[国家/地区"和"区域可用性"。](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
 ## <a name="allow-users-to-dial-in"></a>允许用户拨入
 
-如果你正在寻找有关如何让用户拨入 Teams 会议的说明，请参阅 Microsoft Teams 中的音频电话[号码](phone-numbers-for-audio-conferencing-in-teams.md)。
+如果你正在寻找有关如何让用户拨入 Teams 会议的说明，请参阅 电话 中的音频[Microsoft Teams。](phone-numbers-for-audio-conferencing-in-teams.md)
 
 ## <a name="want-to-know-more-about-audio-conferencing"></a>想要了解有关音频会议更多信息？
 

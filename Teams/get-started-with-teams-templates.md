@@ -7,11 +7,11 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: phlouie
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: 了解如何使用 Microsoft Graph中的团队模板创建包含不同主题的频道的协作空间，并预安装应用以提供内容和服务。
+description: 了解如何使用 Microsoft Graph 中的团队模板创建包含不同主题的频道的协作空间，并预安装应用以提供内容和服务。
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,19 +19,19 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8bee4379eb82d577104d2d69ff2e11c168f2de62d3e903fcff196d45293c2365
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e8005d17debce7a0187ac8411a8054071c754566
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322554"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599737"
 ---
 # <a name="get-started-with-team-templates-using-microsoft-graph"></a>开始使用 Microsoft Graph 的团队模板
 
 > [!NOTE]
 > 团队模板当前不支持创建专用频道。 专用通道创建不包括在模板定义中。
 
-团队模板是围绕业务需求或项目设计的团队结构的预构建定义。 可以在 [管理控制台 中创建自己的模板](get-started-with-teams-templates-in-the-admin-console.md)。 使用 Microsoft Graph，可以使用预建的模板 。 可以使用团队模板通过不同主题的频道快速创建丰富的协作空间，并预安装应用以拉取任务关键型内容和服务。 团队模板提供预定义的团队结构，可帮助你在整个组织中轻松创建一致的团队。
+团队模板是围绕业务需求或项目设计的团队结构的预构建定义。 可以在 [管理控制台 中创建自己的模板](get-started-with-teams-templates-in-the-admin-console.md)。 使用 Microsoft Graph，可以使用预建模板 。 可以使用团队模板通过不同主题的频道快速创建丰富的协作空间，并预安装应用以拉取任务关键型内容和服务。 团队模板提供预定义的团队结构，可帮助你在整个组织中轻松创建一致的团队。
 
 本文介绍可在模板中定义的属性、基本模板类型，以及如何使用几个示例请求从模板创建团队。
 
@@ -42,7 +42,7 @@ ms.locfileid: "54322554"
 
 ## <a name="team-template-capabilities"></a>团队模板功能
 
-模板包含并支持团队中的大多数属性。 但是，目前不支持一些属性和功能。 下表提供了团队模板中包含的内容以及不包含的内容的快速摘要。
+模板包含并支持团队中的大多数属性。 但是，目前不支持一些属性和功能。 下表提供了包含的内容和团队模板中不包含的内容的快速摘要。
 
 | **团队模板支持的团队属性** | **团队模板尚不支持的团队属性** |
 | ------------------------------------------------ | -------------------------------------------------------- |
@@ -69,8 +69,8 @@ ms.locfileid: "54322554"
 | 基本模板类型 | baseTemplateId | 此基本模板包含的属性 |
 | ------------------ | -------------- | ----------------------------------------------------- |
 | Standard | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('standard')` | 无其他应用和属性 |
-| 教育 -<br>课堂团队 | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationClass')` | 应用：<ul><li>OneNote课堂笔记本 (固定到"**常规"选项卡**)  </li><li>作业应用 (固定到" **常规"选项卡**) </li></ul> 团队属性：<ul><li>团队可见性设置为 **HiddenMembership (** 无法重写) </li></ul> |
-| 教育 -<br>教职员工团队 | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationStaff')` | 应用：<ul><li>OneNote教职 (笔记本已固定到"**常规"** 选项卡) </li></ul> |
+| 教育 -<br>课堂团队 | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationClass')` | 应用：<ul><li>OneNote课堂笔记本 (固定到"**常规"选项卡**)  </li><li>作业应用 (固定到"常规 **"选项卡**) </li></ul> 团队属性：<ul><li>团队可见性设置为 **HiddenMembership (** 无法重写) </li></ul> |
+| 教育 -<br>教职员工团队 | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationStaff')` | 应用：<ul><li>OneNote教职 (笔记本已固定到"**常规"选项卡**) </li></ul> |
 |教育 -<br>PLC 团队 |`https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | 应用：<ul><li>OneNotePLC Notebook (固定到"**常规"选项卡**) </ul></li>|
 | 零售 -<br>商店 | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('retailStore')` | 频道：<ul><li>换班</li><li>学习</li></ul>团队属性<ul><li>团队可见性设置为“公共”</li></ul>成员权限<ul><li>防止成员创建、更新或删除频道</li><li>防止成员添加或删除应用</li><li>防止成员创建、更新或删除连接器</li></ul> |
 | 零售 -<br>管理器协作 | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('retailManagerCollaboration')` | 频道：<ul><li>学习</li><li>运营</li></ul>团队属性：<ul><li>团队可见性设置为“专用”</li></ul>成员权限：<ul><li>防止成员创建、更新或删除频道</li><li>防止成员添加或删除应用</li><li>防止成员创建、更新或删除连接器</li></ul>|

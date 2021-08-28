@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 通常，通讯簿会随拓扑的其余部分一起迁移。 但是，如果您在旧环境中自定义了以下内容，您可能需要执行一些迁移后步骤：
-ms.openlocfilehash: 19ff3b0ca389832cfb2b1739aeb85738c30238576143d3542388fd1ef97a6498
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0ef965ef67393604e257049681a64ffb3c5b8fb1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306215"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599717"
 ---
 # <a name="migrate-address-book"></a>迁移通讯簿
 
@@ -43,11 +43,11 @@ ms.locfileid: "54306215"
 1. 在 Company_Phone_Number_Normalization_Rules.txt 共享文件夹的根目录下查找通讯簿文件，并复制到 Skype for Business Server 2019 试点池中通讯簿共享文件夹的根目录。
 
     > [!NOTE]
-    > 示例“通讯簿服务”规范化规则已安装在您的 ABS Web 组件文件目录中。 路径为 **$installedDriveLetter：\Program Files\Microsoft Skype for Business Server 2019\Web Components\Address Book Files\Files\ Sample_Company_Phone_Number_Normalization_Rules.txt**。 此文件可以复制并重命名为Company_Phone_Number_Normalization_Rules.txt共享文件夹的根目录。 例如，在 $serverX **中共享的** 通讯簿的路径将类似于 **\\ ：$serverX \SkypeForBusiness-FileShare\2-WebServices-1\ABFiles**。 
+    > 示例“通讯簿服务”规范化规则已安装在您的 ABS Web 组件文件目录中。 路径为 **$installedDriveLetter：\Program Files\Microsoft Skype for Business Server 2019\Web Components\Address Book Files\Files\ Sample_Company_Phone_Number_Normalization_Rules.txt**。 可以将此文件复制并重命名为Company_Phone_Number_Normalization_Rules.txt通讯簿共享文件夹的根目录。 例如，在 $serverX **中共享的** 通讯簿的路径将类似于： **\\ $serverX \SkypeForBusiness-FileShare\2-WebServices-1\ABFiles**。 
 
 2. 使用文本编辑器（如“记事本”）打开 Company_Phone_Number_Normalization_Rules.txt 文件。
 
-3. 某些类型的条目在 2019 年 3 月Skype for Business Server正常运行。 请在文件中查找该步骤中所述的这些条目类型，根据需要编辑它们，并将更改保存到试点池中的通讯簿共享文件夹。
+3. 某些类型的条目在 2019 年 2 月Skype for Business Server正常运行。 请在文件中查找该步骤中所述的这些条目类型，根据需要编辑它们，并将更改保存到试点池中的通讯簿共享文件夹。
 
     包含必要空格或标点的字符串会导致规范化规则失败，因为系统会将这些字符从输入到规范化规则的字符串中删除。如果您有包含必要空格或标点的字符串，则需要修改这些字符串。例如，以下字符串将导致规范化规则失败：
 

@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3ee3f595-947a-41c4-acb8-036336b4f17e
 ROBOTS: NOINDEX, NOFOLLOW
 description: “联机证书请求状态”页面将返回证书的当前状态。如果证书仍处于等待证书颁发机构管理员批准的状态，即尚未获得批准，状态将指示证书仍在处理中。
-ms.openlocfilehash: 90e5a7fad323319faf837af2112334e230196648fe3ac24310fabc115390dc89
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 65a97828988a59cb45005423c00288dc9b566bfe
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54291790"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599517"
 ---
 # <a name="pending-certificate-returned"></a>待处理的证书请求（已返回）
  
