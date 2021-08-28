@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: stbyer
 description: 详细了解 Microsoft Teams 反馈隐私。
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e209c0886ad8366b6d2e80c058301a14faa051b9b87a4c4e5a7abad108df573b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 55d6564c11139f31da8100a7699d822c0caf7f1d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276158"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58637058"
 ---
 # <a name="microsoft-teams-feedback-privacy"></a>Microsoft Teams 反馈隐私
 

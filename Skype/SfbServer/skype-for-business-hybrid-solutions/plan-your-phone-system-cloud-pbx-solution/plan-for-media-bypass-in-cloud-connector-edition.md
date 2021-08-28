@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: e69ac58c-e8fe-40bc-a4c8-f0a0190fbaa7
 description: 阅读本主题，查看使用云连接器版本 2.0 版和更高版本实现媒体旁路的规划注意事项。 有关部署媒体旁路的信息，请参阅在云连接器版本中部署媒体旁路。
-ms.openlocfilehash: 622bb6cbc4acf5987d28a2c4823bdfd0e495445cba84ed01762423c8e65de576
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 659b735502b6efaabd9167a4b0d820828232f5dd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339888"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626404"
 ---
 # <a name="plan-for-media-bypass-in-cloud-connector-edition"></a>云连接器版本中的媒体旁路规划
  
@@ -29,7 +29,7 @@ ms.locfileid: "54339888"
   
 媒体旁路允许客户端将媒体直接发送到公用电话交换网 (PSTN) 下一个跃点（网关或会话边界控制器 (SBC) ）并消除媒体路径中的云连接器版本组件。
   
-媒体旁路功能可以通过降低延迟、丢失数据包的可能性以及潜在的故障点数来提高语音质量。 消除旁路呼叫的媒体处理可以减少云连接器上的负载，从而增加并发呼叫数，并可以改进可伸缩性。 
+媒体旁路功能可以通过降低延迟、可能的数据包丢失和潜在的故障点数来提高语音质量。 消除旁路呼叫的媒体处理可以减少云连接器上的负载，从而增加并发呼叫数，并可以改进可伸缩性。 
   
  从媒体处理任务中释放云连接器可能会减少基础结构所需的云连接器设备的数量，因此应尽可能启用媒体旁路。
   
@@ -37,13 +37,13 @@ ms.locfileid: "54339888"
 
 虽然信号采用相同路径（带或不带媒体旁路功能）时，媒体流将有所不同。 下图显示了具有和没有媒体旁路的拓扑中的媒体和信号路径。 
   
-例如，在下列拓扑（没有使用媒体旁路）中，Skype for Business 客户端向外部号码发出 PSTN 呼叫，SIP 信号将转到 Microsoft 365 或 Office 365，根据最终用户语音策略将信号流量引导到该拓扑。 对于云连接器用户，语音策略将信号通信路由到云连接器边缘服务器，然后该服务器通过云连接器中介服务器将信号通信路由到 PSTN 会话边界控制器 (SBC) 或网关。 媒体从 Skype for Business 客户端流到云连接器中介服务器，然后流到 SBC 或网关，如下图所示：
+例如，在下列没有使用媒体旁路的拓扑中，Skype for Business 客户端向外部号码发出 PSTN 呼叫，SIP 信号将转到 Microsoft 365 或 Office 365，这将根据最终用户语音策略来引导信号流量。 对于云连接器用户，语音策略将信号流量路由到云连接器边缘服务器，然后该服务器通过云连接器中介服务器将信号通信路由到 PSTN 会话边界控制器 (SBC) 或网关。 媒体从 Skype for Business 客户端流到云连接器中介服务器，然后流到 SBC 或网关，如下图所示：
   
 **没有媒体旁路的媒体和信号路径**
 
 ![无媒体旁路功能的信号](../../media/5cd7e3bf-2565-4bd9-ad5a-f03e13c01060.png)
   
-来自 PSTN 的入站呼叫在相反方向使用相同的信号路径。 对于内部用户，媒体最终仍将在 Skype for Business 客户端与云连接器中介服务器之间流动，然后流至 SBC 或网关。
+来自 PSTN 的入站呼叫在相反方向使用相同的信号路径。 对于内部用户，媒体最终仍将在 Skype for Business 客户端和云连接器中介服务器之间流动，然后流至 SBC 或网关。
   
 在采用媒体旁路的下一个拓扑中，信号采用相同的路径，但媒体直接在 Skype for Business 客户端和 SBC 或网关之间流动，如下图所示：
   
@@ -59,7 +59,7 @@ ms.locfileid: "54339888"
 
 ![云连接器多站点示例](../../media/ace8dc3c-1082-46a2-b8b4-98cbf678620e.png)
   
-1. SIP 流量从苏黎世的用户流向Microsoft 365 Office 365。
+1. SIP 流量从苏黎世的用户流向Microsoft 365或Office 365。
     
 2. 然后，流量将路由到位于阿姆斯特丹的云连接器设备，如用户语音路由策略中指定。
     
@@ -75,14 +75,14 @@ ms.locfileid: "54339888"
   
 ## <a name="supported-clients-for-media-bypass"></a>支持媒体旁路的客户端
 
-对于第一个版本的媒体旁路，唯一受支持的客户端是 Skype for Business 2016 Windows 客户端，它是 Microsoft 365 企业应用版 版本 16.0.7870.2020 或更高的一部分。 客户可以使用任何频道：Current、Deferred 或 First Release Deferred。 
+对于第一个版本的媒体旁路，唯一受支持的客户端是 Skype for Business 2016 Windows 客户端，它是 Microsoft 365 企业应用版 版本 16.0.7870.2020 或更大版本的一部分。 客户可以使用任何频道：Current、Deferred 或 First Release Deferred。 
   
 > [!NOTE]
 > 如果结合使用客户端 VPN 解决方案和 Skype for Business，则只有 VPN 拆分隧道配置才支持媒体旁路。 
   
-有关发布频道的信息，请参阅更新频道概述[Microsoft 365 企业应用版。](https://support.office.com/article/Overview-of-update-channels-for-Office-365-ProPlus-9ccf0f13-28ff-4975-9bd2-7e4ea2fefef4?ui=en-US&amp;rs=en-US&amp;ad=US)
+有关发布频道详细信息，请参阅更新频道[概述Microsoft 365 企业应用版。](https://support.office.com/article/Overview-of-update-channels-for-Office-365-ProPlus-9ccf0f13-28ff-4975-9bd2-7e4ea2fefef4?ui=en-US&amp;rs=en-US&amp;ad=US)
   
-有关不同渠道中客户端的当前版本，请参阅发布更新信息以[Microsoft 365 企业应用版。](/officeupdates/release-notes-office365-proplus) 
+有关不同渠道中客户端的当前发布版本，请参阅发布[更新](/officeupdates/release-notes-office365-proplus)信息以Microsoft 365 企业应用版。 
   
 ## <a name="cloud-connector-capacity-considerations-with-media-bypass"></a>媒体旁路的云连接器容量注意事项
 
@@ -107,7 +107,7 @@ ms.locfileid: "54339888"
 ![云连接器容量](../../media/efb2269b-d44f-474e-aea8-c5158e729cfe.png)
   
 > [!NOTE]
-> 如果来自阿姆斯特丹的用户出差到西雅图办事处，并且你想要使用内部网络在出差的用户和位于欧洲 (的网关之间传递媒体流量，而不是通过 Internet) ，则必须确保西雅图办事处和欧洲 SDC 或网关所在的阿姆斯特丹办事处符合连接条件。 
+> 如果来自阿姆斯特丹的用户出差到西雅图办事处，并且你想要使用内部网络在旅行用户与欧洲 (的网关之间传递媒体流量，而不是通过 Internet) ，则必须确保西雅图办事处和欧洲 SDC 或网关所在的阿姆斯特丹办事处符合条件且连接良好。 
   
 ## <a name="codecs-used-in-media-bypass"></a>媒体旁路中使用的编解码器
 

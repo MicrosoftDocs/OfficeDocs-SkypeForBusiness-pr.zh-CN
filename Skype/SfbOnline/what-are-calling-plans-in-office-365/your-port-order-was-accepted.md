@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
@@ -22,18 +22,18 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.PortOrderQuickViewPanelTransferAccepted
 description: 'What it means when your port order has been accepted, and what you need to do next to finish your Skype for Business set up. '
-ms.openlocfilehash: 78c10a340fd1b00fb29a1c28c638e2421adc4713809a73933a33611ef17c71ef
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c99c1feef78e4f28b6edff5e0cbf232c02ce15b5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54334404"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611381"
 ---
 # <a name="your-port-order-was-accepted"></a>已接受你的移植订单
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-你的移植订单已获批准！ 在管理中心语音Skype for Business  >  **中查找** 电话  >  **号码**。
+你的移植订单已获批准！ 在管理中心语音中心中查找Skype for Business  >  **语音** 电话  >  **号码**。
   
  **重要提示** ：若要在 Skype for Business 管理中心的左侧导航中显示" **语音**"选项，必须先购买至少一个 **企业版 E5 许可证**、一个 **电话系统** 附加设备许可证，或一个 **音频会议** 附加设备许可证。
   
@@ -41,7 +41,7 @@ ms.locfileid: "54334404"
   
 - 请确保你[Skype for Business Microsoft Teams附加许可 。](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md) 你需要一个 **电话系统****国内呼叫计划** 或 **国际呼叫计划**。
     
-- 为 [组织](/MicrosoftTeams/add-change-remove-emergency-location-organization) 创建"添加或删除紧急地址"，如果需要，在一些国家/地区为组织[ (](/MicrosoftTeams/add-change-remove-emergency-place-organization) 添加、更改或删除紧急位置，你获得一个紧急地址以及电话号码) 。
+- 为 [组织](/MicrosoftTeams/add-change-remove-emergency-location-organization) 创建"添加或删除紧急地址"，如果需要，在一些国家/地区为组织[ (](/MicrosoftTeams/add-change-remove-emergency-place-organization) 添加、更改或删除紧急位置，你可获取电话号码为) 的紧急地址。
     
 - 继续操作，为用户分配、 [更改或删除电话号码](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)。
 

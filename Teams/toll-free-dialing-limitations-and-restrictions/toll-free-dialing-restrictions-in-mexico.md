@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 了解如何拨打墨西哥的免费电话号码，包括可用性、有线/固定线路和移动网络可用性，以及限制。
-ms.openlocfilehash: bce8f3f008f8639f51cd1e0a9cacf52784c2d3f2b9fc3f6714b806ac801eaeeb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5b9ffcc08b92fe83c2d8228faac50b109698a275
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54330846"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592156"
 ---
 # <a name="toll-free-dialing-restrictions-in-mexico"></a>墨西哥的免费拨号限制
 
@@ -40,7 +40,7 @@ ms.locfileid: "54330846"
 |是否提供免费呼叫？  <br/> |是  <br/> |
 |拨号格式 ()   <br/> | 844<br/>833<br/>855<br/>800<br/>866<br/>877<br/>888<br/>|
 |国家/地区 ISO 代码  <br/> |MX  <br/> |
-|涵盖的岛屿/区域  <br/> |美属萨摩亚、列支敦士登、百里达、英属维尔京群岛、加拿大、列支敦士登、多米尼加、多米尼加共和国、格林纳塔、萨摩亚、斐济、北马里亚纳群岛、波多黎各、圣基茨和尼维斯、圣基茨、圣文森和格林纳丁斯、圣文森特、特立尼达和多巴哥、特克斯和凯科斯群岛、美国、美属维尔京群岛 <br/> |
+|涵盖的岛屿/区域  <br/> |美属萨摩亚、列支敦士登、特立尼达和多巴哥、列支敦士登、百慕大、英属维尔京群岛、加拿大、列支敦士登、多米尼加、多米尼加共和国、格林纳塔、萨摩亚、斐济、北马里亚纳群岛、波多黎各、圣基茨和尼维斯、圣基茨、圣文森和格林纳丁斯、圣文森特、特立尼达和多巴哥、特克斯和凯科斯群岛、美国、美属维尔京群岛 <br/> |
 |有线/固定线路可用性  <br/> |是  <br/> |
 |移动网络可用性  <br/> |是  <br/> |
 |注释、限制和访问问题  <br/> |无  <br/> |

@@ -9,19 +9,19 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9739f9f0-7a37-4844-91d5-f089d2011013
 description: 摘要：了解呼叫列表中用于Skype for Business Server。
-ms.openlocfilehash: 301ace0e4d9af8b2635f95f6c3a750c859ca1300f6f3cc277870bdac2c8cc989
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1e07eab0251218eaa66434dac6f15a6a782e10cc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338120"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599001"
 ---
 # <a name="call-list-report-in-skype-for-business-server"></a>呼叫列表中的呼叫Skype for Business Server
  
-**摘要：** 了解用于呼叫列表报告Skype for Business Server。
+**摘要：** 了解呼叫列表报告中使用的Skype for Business Server。
   
 呼叫列表报告提供了针对您组织中发出和接收的单个呼叫的用户体验质量 (QoE) 指标。 请注意，报告的实际指标将取决于您访问呼叫列表报告的方式。 例如，如果在[Skype for Business Server](device-report.md)中打开设备报告中的报告，你将看到诸如以下的指标，设备报告中也报告了这些指标：
   
@@ -35,7 +35,7 @@ ms.locfileid: "54338120"
     
 - 语音切换时间比率 
     
-但是，如果您从 Skype for Business Server[中的位置](location-report.md)报告中打开呼叫列表报告，将看不到任何这些指标;相反，你将看到类似以下的指标：
+但是，如果您从呼叫列表中的位置报告中打开呼叫列表[](location-report.md)Skype for Business Server，将看不到任何这些指标;相反，你将看到类似以下的指标：
   
 - 来回行程(毫秒)
     
@@ -51,15 +51,15 @@ ms.locfileid: "54338120"
 
 可从以下任一报告访问呼叫列表报告：
   
-- 通过[单击"呼叫量Skype for Business Server (](location-report.md)质量欠佳的呼叫百分比"指标来查看呼叫报告中) 
+- 通过[单击"呼叫量Skype for Business Server (](location-report.md)质量欠佳的呼叫百分比"指标，可单击"呼叫量"或"质量欠佳的呼叫百分比"指标) 
     
-- 通过[单击"呼叫Skype for Business Server (](device-report.md)质量欠佳的呼叫百分比"指标来显示呼叫报告中的设备) 
+- 通过[单击"呼叫量Skype for Business Server (](device-report.md)质量欠佳的呼叫百分比"指标来显示呼叫报告中的设备) 
     
-- 通过[单击"呼叫量"](summary.md)或"质量欠佳的呼叫百分比"指标Skype for Business Server (中的媒体质量摘要报告) 
+- 通过[单击呼叫量](summary.md)或质量欠佳的呼叫百分比Skype for Business Server (报告中的媒体质量摘要报告) 
     
-- 通过[单击"呼叫量"](server-performance.md)或"质量欠佳的呼叫百分比"指标Skype for Business Server (中的服务器性能报告) 
+- 通过[单击呼叫量](server-performance.md)或质量欠佳的呼叫百分比Skype for Business Server (中的服务器性能报告) 
     
-在呼叫列表报告中，可以通过单击"详细信息"指标[Skype for Business Server报告中的](call-detail-report.md)呼叫详细信息报告。
+从呼叫列表报告中，可以通过单击"详细信息"指标[Skype for Business Server报告中的](call-detail-report.md)呼叫详细信息报告。
   
 ## <a name="making-the-best-use-of-the-call-list-report"></a>最充分地利用呼叫列表报告
 
@@ -77,7 +77,7 @@ ms.locfileid: "54338120"
 
 |**名称**|**是否可按此项排序？**|**说明**|
 |:-----|:-----|:-----|
-|**详细信息** <br/> |否  <br/> |单击此项时，报告将显示有关呼叫的其他信息。  <br/> |
+|**Details** <br/> |否  <br/> |单击此项时，报告将显示有关呼叫的其他信息。  <br/> |
 |**Caller** <br/> |是  <br/> |发起呼叫的人的 SIP 地址。  <br/> |
 |**被叫方** <br/> |是  <br/> |被呼叫的人的 SIP 地址。  <br/> |
 |**开始时间** <br/> |是  <br/> |呼叫开始的日期和时间。  <br/> |

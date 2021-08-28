@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua, shalenc
 audience: admin
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.contentsharing
 - seo-marvel-apr2020
 description: 了解如何在用于内容共享的Teams管理会议策略设置。
-ms.openlocfilehash: 6fc70359c8ef2dc06c02b68ce35977e5e45ef686cd8b44de558a1868ce7cb47e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8a44d7cf9d28f67d14d60388e729db0c060a625b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54285821"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592226"
 ---
 # <a name="meeting-policy-settings---content-sharing"></a>会议策略设置 - 内容共享
 
@@ -41,7 +41,7 @@ ms.locfileid: "54285821"
 
 ## <a name="screen-sharing-mode"></a>屏幕共享模式
 
-此设置是按组织者策略和按用户策略的组合。 此设置控制是否在用户的会议中允许桌面和窗口共享。 未分配任何策略的会议参与者 (例如，匿名、嘉宾、B2B和联合参与者) 继承会议组织者的策略。
+此设置是按组织者和按用户策略的组合。 此设置控制是否在用户的会议中允许桌面和窗口共享。 未分配任何策略的会议参与者 (例如，匿名、嘉宾、B2B和联合参与者) 继承会议组织者的策略。
 
 |设置值 |行为  |
 |---------|---------|

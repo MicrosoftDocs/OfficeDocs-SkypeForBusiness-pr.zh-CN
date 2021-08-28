@@ -10,23 +10,23 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 474a5e4a-9479-4e86-8607-b9f41a0fa648
-description: 阅读本主题，了解如何在 2015 年 11 月累积更新的 Skype for Business Server 2015 (SLA) 部署共享线路外观。 SLA 是一项功能，用于处理对称为共享号码的特定号码的多个呼叫。
-ms.openlocfilehash: de0b0d54fed0b76c1e20b67b743dfef2c4f784589b2eb3867529201493242e32
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 阅读本主题，了解如何在 2015 年 11 月累积更新 (2015 年 Skype for Business Server SLA) 部署共享线路外观。 SLA 是一项功能，用于处理对称为共享号码的特定号码的多个呼叫。
+ms.openlocfilehash: 43c792f7a63d3d58c734036e949250a85a621438
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314908"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591906"
 ---
 # <a name="deploy-shared-line-appearance-in-skype-for-business-server-2015"></a>Deploy Shared Line Appearance in Skype for Business Server 2015
 
-阅读本主题，了解如何在 2015 年 11 月累积更新的 Skype for Business Server 2015 (SLA) 部署共享线路外观。 SLA 是一项功能，用于处理对称为共享号码的特定号码的多个呼叫。
+阅读本主题，了解如何在 2015 年 11 月累积更新 (2015 年 Skype for Business Server SLA) 部署共享线路外观。 SLA 是一项功能，用于处理对称为共享号码的特定号码的多个呼叫。
 
 有关此功能详细信息，请参阅 Plan [for Shared Line Appearance in Skype for Business Server 2015。](../../plan-your-deployment/enterprise-voice-solution/shared-line-appearance.md)
 
@@ -52,7 +52,7 @@ ms.locfileid: "54314908"
    Update-CsAdminRole
    ```
 
-    c. 在安装和启用 SLA 的所有池中 (RTCSRV) 所有前端服务器：
+    c. 重新启动安装和启用 SLA 的所有池中 (RTCSRV) 所有前端服务器：
 
    ```powershell
    Stop-CsWindowsService RTCSRV Start-CsWindowsService RTCSRV
@@ -68,7 +68,7 @@ ms.locfileid: "54314908"
 
     此Set-CsSlaConfiguration cmdlet 将企业语音 SLAGroup1 帐户标记为 SLA 实体，并且 SLAGroup1 的数量将成为 SLA 组的数量。 对 SLAGroup1 的所有调用都将拨打整个 SLA 组。
 
-    以下示例为现有用户 SLAGroup1 企业语音 SLA 组，并使用为 SLAGroup1 分配的号码作为 SLA 主线号码。
+    以下示例为现有服务用户 SLAGroup1 企业语音 SLA 组，并使用为 SLAGroup1 分配的号码作为 SLA 主线号码。
 
     此命令将新 SLA 组的最大并发呼叫数设置为 3，超过此数目的呼叫将听到繁忙信号：
 

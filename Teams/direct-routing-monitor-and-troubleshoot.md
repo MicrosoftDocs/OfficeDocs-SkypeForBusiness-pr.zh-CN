@@ -7,7 +7,7 @@ manager: serdars
 audience: ITPro
 ms.topic: troubleshooting
 ms.service: msteams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-voice
@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 了解如何监视和排查直接路由配置问题，包括会话边界控制器、直接路由组件和电信中继。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 534634beb302a5c7027b26a8fdaa305b824cf4efd3930d81f3c6b4d08559c32c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 537df3fb87386914b88da34dcdd5717cfd5700dc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54302003"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618498"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>对直接路由进行监视和故障排除
 
@@ -60,13 +60,13 @@ Microsoft 正在努力提供更多用于故障排除和监视的工具。 请定
 
 直接路由采用常规间隔选项三次 (常规间隔为一分钟) 。 如果在过去三分钟内发送了选项，则 SBC 被视为正常。
 
-如果示例中的 SBC 在上午 11：12 到上午 11：15 之间的任意时间段发送了选项 (则调用) ，则被视为正常。 如果没有，SBC 将从路由降级。 
+如果示例中的 SBC 在 11：12 AM 到 11：15 AM 之间的任意时间段发送了选项 (则调用) 被视为正常。 如果没有，SBC 将从路由降级。 
 
-降级意味着不会先尝试 SBC。 例如，我们有一 sbc1.contoso.com sbc2.contoso.com 优先级的优先级。  
+降级意味着不会先尝试 SBC。 例如，我们 sbc1.contoso.com sbc2.contoso.com 优先级的优先级。  
 
 如果 sbc1.contoso.com 如前文所述定期发送 SIP 选项，则将其降级。 接下来，sbc2.contoso.com 尝试进行调用。 如果 sbc2.contoso.con 无法传递调用，则 sbc1.contoso.com (降级) 重试，然后再生成失败。 
 
-如果一 (两个或多个) SDC 被视为正常且相等，Fisher-Yates随机执行以在 SDC 之间分配调用。
+如果一个 (两个或多个) SDC 被视为正常且相等，Fisher-Yates随机执行以在 SDC 之间分配调用。
 
 ## <a name="monitor-call-quality-analytics-dashboard-and-sbc-logs"></a>监视呼叫质量分析仪表板和 SBC 日志 
  
@@ -77,9 +77,9 @@ Microsoft 正在努力提供更多用于故障排除和监视的工具。 请定
 - 呼叫质量仪表板 
 - SBC 日志 
 
-直接路由服务向调用分析或 SBC 日志报告非常描述性的错误代码。 
+直接路由服务具有向调用分析或 SBC 日志报告的非常描述性的错误代码。 
 
-呼叫质量仪表板提供有关呼叫质量和可靠性的信息。 若要详细了解如何使用呼叫分析排查问题，请参阅为 Microsoft Teams 和[Skype for Business Online](/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard)启用和使用呼叫质量仪表板和使用呼叫分析来排查呼叫[质量不佳的问题](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality)。 
+呼叫质量仪表板提供有关呼叫质量和可靠性的信息。 若要详细了解如何使用呼叫分析排查问题，请参阅为 Microsoft Teams 和[Skype for Business Online](/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard)启用和使用呼叫质量仪表板和使用呼叫分析来排查呼叫质量[不佳的问题](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality)。 
 
 在呼叫失败时，呼叫分析提供标准 SIP 代码来帮助进行故障排除。 
 

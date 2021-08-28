@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: sonua
 audience: admin
 search.appverid: MET150
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
@@ -22,24 +22,24 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 604f33720b62d6ea675b7dc4604c3c493f88341be5a24e76c1474f6e06025b66
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f8eccc6e885cef67d4f6240483d3995df88d7cfc
+ms.sourcegitcommit: 25fd720c008dcf1573344e50d736131a20c3ac7d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332374"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58683303"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>在 Microsoft Teams 中配置实时事件设置
 
-使用Teams事件设置来配置组织中保存实时事件的设置。 可以设置支持 URL 并配置第三方视频分发提供商。 这些设置适用于在组织中创建的所有实时事件。
+使用Teams事件设置来配置组织中举行实时事件的设置。 可以设置支持 URL 并配置第三方视频分发提供商。 这些设置适用于在组织中创建的所有实时事件。
 
 可以在管理中心内轻松Microsoft Teams这些设置。 在左侧导航栏中，转到"**会议**  >  **实时事件设置"。**
 
-![实时事件Teams屏幕截图](../media/teams-live-events-settings.png "可在 Teams 管理中心配置的事件实时Microsoft Teams屏幕截图")
+![实时事件Teams屏幕截图](../media/teams-live-events-settings.png "屏幕截图Teams管理中心中配置的直播事件Microsoft Teams设置")
 
 ## <a name="set-up-event-support-url"></a>设置事件支持 URL
 
-此 URL 显示给实时事件与会者。 为组织添加支持 URL，让与会者在直播活动期间联系支持人员。
+此 URL 显示给实时事件与会者。 为组织添加支持 URL，为与会者提供一种在实时活动期间联系支持人员的方法。
 
 ### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![显示 Microsoft Teams 徽标的图标](../media/teams-logo-30x30.png) 使用 Microsoft Teams 管理中心
 
@@ -90,6 +90,10 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 **Ramp** 
 ```PowerShell
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName ramp -SdnRuntimeConfiguration "{Configuration provided by RAMP}"
+```
+**Peer5**
+```PowerShell
+Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName peer5 -SdnLicenseId {peer5CustomerId}
 ```
 
 有关详细信息，请参阅[Set-CsTeamsMeetingBroadcastConfiguration。](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps)

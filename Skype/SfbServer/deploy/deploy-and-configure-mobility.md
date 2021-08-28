@@ -9,21 +9,21 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8ec6197a-3d1e-4b42-9465-564044cdab1a
 description: 本文将介绍配置现有 Skype for Business Server 安装以使用 Mobility Service 的步骤，以便移动设备能够利用 Skype for Business Server 移动功能。
-ms.openlocfilehash: 4e2cbb49d74347082bf3db02bba4a01de7f31ca187867b8e95474e88ec01fcbb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c0b8a3e2902a8605f952683d6a3629af9e075798
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306034"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611331"
 ---
 # <a name="deploy-and-configure-mobility-for-skype-for-business-server"></a>部署和配置移动Skype for Business Server  
  
 本文将介绍配置现有 Skype for Business Server 安装以使用 Mobility Service 的步骤，以便移动设备能够利用 Skype for Business Server 移动功能。
   
-阅读了规划移动[](../plan-your-deployment/mobility.md)Skype for Business Server文章后，您应该已准备好继续执行以下步骤以将移动功能部署到Skype for Business Server环境中。 步骤如下， (在此表中包括权限列表) ：
+阅读了规划移动[](../plan-your-deployment/mobility.md)Skype for Business Server文章后，您应该已准备好继续执行以下步骤，以将移动功能部署到Skype for Business Server环境中。 具体步骤如下 (我们在此表中包括权限列表) ：
   
 |**阶段**|**权限**|
 |:-----|:-----|
@@ -38,12 +38,12 @@ ms.locfileid: "54306034"
 以下所有部分都包含假定你已阅读规划主题的步骤。 如果有任何令人困惑的事情，请随时查看相关信息。
 
 > [!NOTE]
-> MCX (Mobility Service) 2019 年不再提供对旧版移动客户端Skype for Business Server支持。 所有当前Skype for Business客户端已使用统一通信 Web API (UCWA) 来支持即时消息 (IM) 、状态和联系人。 使用 MCX 的旧客户端的用户将需要升级到当前客户端。
+> MCX (Mobility Service) 2019 年不再提供对旧版移动客户端Skype for Business Server支持。 所有当前Skype for Business客户端已使用统一通信 Web API (UCWA) 支持即时消息 (IM) 、状态和联系人。 使用 MCX 的旧客户端的用户将需要升级到当前客户端。
   
 ## <a name="create-dns-records"></a>创建 DNS 记录
 <a name="CreateDNSRec"> </a>
 
-您可能已经拥有这些记录作为 Skype for Business Server 环境的一部分，但需要创建以下记录，使自动发现正常工作：
+您可能已经拥有这些记录作为 Skype for Business Server 环境的一部分，但需要创建以下记录，自动发现功能可以正常工作：
   
 - 内部 DNS 记录，用于支持从组织网络内部进行连接的移动用户。
     
@@ -55,13 +55,13 @@ ms.locfileid: "54306034"
 
 1. 在作为 **Domain Admins** 组或 **DnsAdmins** 组的成员的网络中登录到 DNS 服务器。
     
-2. 单击 **"** 开始"， (**可能需要** 搜索管理工具（如果它不是"开始"菜单) 选项），然后单击 **"DNS"** 打开 DNS 管理管理单元。
+2. 单击 **"** 开始"，**选择"** 管理工具" (可能需要搜索它（如果它不是 "开始"菜单) 选项）然后单击 **"DNS"** 以打开 DNS 管理管理单元。
     
-3. 在控制台窗口的左侧窗格中，你需要转到 Skype for Business Server 前端服务器所位于的域，然后展开"前向查找 **区域"。**
+3. 在控制台窗口的左侧窗格中，你需要转到 Skype for Business Server 前端服务器的主域，然后展开"向前查找 **区域"。**
     
 4. 花一点时间查看你拥有以下哪项：
     
-   - 前端服务器或前端池的任何主机 A 或 AAAA 记录 (Standard Enterprise) 或前端池 (记录) 。
+   - 前端服务器或前端池的任何主机 A 或 AAAA (Standard Enterprise) 或前端池 (A 或 AAAA) 。
     
    - 控制器或控制器池的任何主机 A 或 AAAA 记录 (部署策略中可能具有的可选) 。
     
@@ -81,7 +81,7 @@ ms.locfileid: "54306034"
     
 3. 花一点时间查看你拥有以下哪项：
     
-   - 前端服务器或前端池的任何主机 A 或 AAAA 记录 (Standard Enterprise) 或前端池 (记录) 。
+   - 前端服务器或前端池的任何主机 A 或 AAAA (Standard Enterprise) 或前端池 (A 或 AAAA) 。
     
    - 控制器或控制器池的任何主机 A 或 AAAA 记录 (部署策略中可能具有的可选) 。
     
@@ -89,21 +89,21 @@ ms.locfileid: "54306034"
     
 5. 现在您应该能够输入别名，您需要在此处输入 lyncdiscover 作为外部自动发现服务 URL。
     
-6. 接下来，应该有一个要输入目标主机 **的 FQDN** 的区域，这应该是前端池 (或单台前端服务器的 FQDN，或上面步骤 3 中标识的控制器池或控制器) 。
+6. 接下来，应该有一个要输入目标主机 **的 FQDN** 的区域，这应该是前端池 (或单个前端服务器的 FQDN，或上面步骤 3 中标识的控制器池或控制器) 。
     
-7. 您可能需要在此处保存，或者如果您需要在 Skype for Business Server 环境中每个 SIP 域的向前查找区域中创建其他 CNAME 记录，您应这样做，但在准备就绪后，请保存您的工作。
+7. 您可能需要在此处保存，或者如果您需要在 Skype for Business Server 环境中每个 SIP 域的向前查找区域中创建其他 CNAME 记录，您应这样做，但一旦准备就绪，请保存您的工作。
     
 ### <a name="create-an-internal-dns-a-record"></a>创建内部 DNS A 记录
 
 1. 在作为 **Domain Admins** 组或 **DnsAdmins** 组的成员的网络中登录到 DNS 服务器。
     
-2. 单击 **"** 开始"， (**可能需要** 搜索管理工具（如果它不是"开始"菜单) 选项），然后单击 **"DNS"** 打开 DNS 管理管理单元。
+2. 单击 **"** 开始"，**选择"** 管理工具" (可能需要搜索它（如果它不是 "开始"菜单) 选项）然后单击 **"DNS"** 以打开 DNS 管理管理单元。
     
-3. 在控制台窗口的左侧窗格中，你需要转到 Skype for Business Server 前端服务器所位于的域，然后展开"前向查找 **区域"。**
+3. 在控制台窗口的左侧窗格中，你需要转到 Skype for Business Server 前端服务器的主域，然后展开"向前查找 **区域"。**
     
 4. 花一点时间查看你拥有以下哪项：
     
-   - 前端服务器或前端池的任何主机 A 或 AAAA 记录 (Standard Enterprise) 或前端池 (记录) 。
+   - 前端服务器或前端池的任何主机 A 或 AAAA (Standard Enterprise) 或前端池 (A 或 AAAA) 。
     
    - 控制器或控制器池的任何主机 A 或 AAAA 记录 (部署策略中可能具有的可选) 。
     
@@ -115,7 +115,7 @@ ms.locfileid: "54306034"
     
 8. 完成此操作后，单击 **"添加主机**"，然后单击"确定 **"。**
     
-9. 您需要在前向查找区域中为支持的每个 SIP 域创建新的自动发现 A 或 AAAA Skype for Business Server记录。 为此，请根据需要多次重复步骤 6-8。
+9. 您需要在前向查找区域中为受支持环境支持的每个 SIP 域创建新的自动发现 A 或 AAAA Skype for Business Server记录。 为此，请根据需要多次重复步骤 6-8。
     
 10. 完成后，单击 **完成。**
     
@@ -127,7 +127,7 @@ ms.locfileid: "54306034"
     
 3. 花一点时间查看你拥有以下哪项：
     
-   - 前端服务器或前端池的任何主机 A 或 AAAA 记录 (Standard Enterprise) 或前端池 (记录) 。
+   - 前端服务器或前端池的任何主机 A 或 AAAA (Standard Enterprise) 或前端池 (A 或 AAAA) 。
     
    - 控制器或控制器池的任何主机 A 或 AAAA 记录 (部署策略中可能具有的可选) 。
     
@@ -135,14 +135,14 @@ ms.locfileid: "54306034"
     
 5. 现在，您应该能够输入 **Name，** 您需要在此处输入 lyncdiscover 作为外部自动发现服务 URL。
     
-6. 接下来，应该有一个要输入 IP 地址的区域，这应该是前端池 (或单个前端服务器的 **IP、** 控制器池或控制器) ，如上面的步骤 3 所示。
+6. 接下来，应该有一个要输入 IP 地址的区域，这应该是前端池 (或单个前端服务器的 **IP，** 或上面步骤 3 中确定的控制器池或控制器) 。
     
 7. 您可能需要在此处保存，或者如果您需要在 Skype for Business Server 环境的每个 SIP 域的向前查找区域中创建其他 A 或 AAAA 记录，您应这样做，但在准备就绪后，请保存您的工作。
     
 ## <a name="modify-certificates"></a>修改证书
 <a name="ModCerts"> </a>
 
-如果您对规划证书有疑问，我们已在规划移动功能 for [Skype for Business Server文章中记录了](../plan-your-deployment/mobility.md)这一点。 查看后，我们将演练以下内容：
+如果您对规划证书有疑问，我们已在规划移动功能 for [Skype for Business Server](../plan-your-deployment/mobility.md)文章中记录了这一点。 查看后，我们将演练以下内容：
   
 - 是否需要新证书？
     
@@ -154,9 +154,9 @@ ms.locfileid: "54306034"
     
 ### <a name="do-i-need-new-certificates"></a>是否需要新证书？
 
-1. 首先，你可能需要检查并查看哪些证书已就位，以及它们是否有所需的条目。 为此，你需要使用作为本地管理员Skype for Business Server登录帐户。 此帐户可能还需要对 CA 证书颁发机构 (，) 执行其中一些步骤。
+1. 首先，你可能需要检查并查看哪些证书已就位，以及它们是否有所需的条目。 为此，你需要使用作为本地管理员Skype for Business Server登录帐户。 对于其中一些步骤，此帐户可能还需要对 CA (颁发机构) 拥有权限。
     
-2. 打开Skype for Business Server命令行管理程序 ("开始"菜单，如果尚未将命令行管理程序固定到"管理程序"或任务栏) 。。
+2. 打开Skype for Business Server命令行管理程序 ("开始"菜单，如果你未将命令行管理程序固定到你的命令行管理程序或任务栏) 。
     
 3. 在尝试添加更新的证书之前，了解已分配哪些证书至关重要。 因此，在命令中键入：
     
@@ -166,11 +166,11 @@ ms.locfileid: "54306034"
 
 4. 步骤 3 中的信息将是唯一的。 你需要查看它以确定你是否拥有一个已分配用于多个项的证书，或者您是否为需要它们的不同组件分配了不同的证书。 **Use** 参数将告知您证书的使用方式 **，Thumbprint** 参数将告知您证书是全部相同的证书还是多个证书。
     
-5. 如果您的规划部分中推荐了 SAN 条目，则没有问题。 如果没有，则需要请求新证书或多个证书 (证书颁发机构) 配置。
+5. 如果你已建议在规划部分使用 SAN 条目，则没有问题。 如果没有，则需要请求新证书，或请求多个证书 (证书颁发机构) 配置。
     
-### <a name="request-a-new-certificate-or-certificates-from-your-certificate-authority-ca"></a>从 CA 证书颁发机构请求新证书 (证书) 
+### <a name="request-a-new-certificate-or-certificates-from-your-certificate-authority-ca"></a>从 CA 证书颁发机构请求 (证书) 
 
-1. 检查了具有哪些 SAN 条目后，通过上述 **)** 步骤检查后，即知道您拥有单个证书 (，并且你知道您没有所需的全部条目。 需要向 CA 提出新的证书请求。 打开 powerShell Skype for Business Server PowerShell：
+1. 在查看你拥有哪些 SAN 条目后，在通过上述 **)** 步骤检查后，你知道你有一个证书 (，并且你了解了没有所需的全部条目。 需要向 CA 提出新的证书请求。 打开 PowerShell Skype for Business Server PowerShell：
     
    - 对于缺少的自动发现服务 SAN (将 -Ca 参数替换为你自己的证书颁发机构路径) ：
     
@@ -178,13 +178,13 @@ ms.locfileid: "54306034"
    Request-CsCertificate -New -Type Default,WebServicesInternal,WebServicesExternal -Ca dc\myca -AllSipDomain -verbose
    ```
 
-   - 现在，如果您有多个 SIP 域，则不能像上面的示例一样使用 AllSipDomain 参数。 您需要改为使用 DomainName 参数。 使用 DomainName 参数时，必须定义 lyncdiscoverinternal 和 lyncdiscover 记录的 FQDN。 例如， (-Ca 参数替换为您自己的证书颁发机构路径) ：
+   - 现在，如果您有多个 SIP 域，则不能像上面的示例一样使用 AllSipDomain 参数。 您需要改为使用 DomainName 参数。 使用 DomainName 参数时，必须定义 lyncdiscoverinternal 和 lyncdiscover 记录的 FQDN。 例如，将 (-Ca 参数替换为您自己的证书颁发机构路径) ：
     
    ```powershell
    Request-CsCertificate -New -Type Default,WebServicesInternal,WebServicesExternal -Ca dc\myca -DomainName "LyncdiscoverInternal.contoso.com, LyncdiscoverInternal.contoso.net" -verbose
    ```
 
-2. 或者，在查看你拥有哪些 SAN 条目后，发现你拥有多个证书，这些证书没有所需的全部条目。 需要向 CA 提出新的证书请求。 打开 powerShell Skype for Business Server PowerShell：
+2. 或者，查看你拥有哪些 SAN 条目后，发现你拥有多个证书，这些证书没有所需的全部条目。 需要向 CA 提出新的证书请求。 打开 PowerShell Skype for Business Server PowerShell：
     
    - 对于缺少的自动发现服务 SAN (将 -Ca 参数替换为你自己的证书颁发机构路径) ：
     
@@ -214,7 +214,7 @@ ms.locfileid: "54306034"
   Set-CsCertificate -Type <certificate(s) from the Use parameter> -Thumbprint <unique identifier>
   ```
 
-  - 如果你有不同的证书，但指纹 (都是不同的) ，请改为运行以下代码：
+  - 如果你已针对指纹不同 (证书，请) 运行以下代码：
     
   ```powershell
   Set-CsCertificate -Type Default -Thumbprint <certificate thumbprint>
@@ -222,11 +222,11 @@ ms.locfileid: "54306034"
   Set-CsCertificate -Type WebServicesExternal -Thumbprint <certificate thumbprint>
   ```
 
-### <a name="viewing-certificates-in-the-microsoft-management-console-mmc"></a>在 MICROSOFT 管理控制台中查看 (MMC) 
+### <a name="viewing-certificates-in-the-microsoft-management-console-mmc"></a>在 Microsoft 管理控制台中查看 (MMC) 
 
 1. 可以选择使用 MMC 的"证书"管理单元查看证书。 只需在搜索中键入 MMC，它应作为应用程序选项弹出。
     
-2. 若要添加证书管理单元，你需要单击文件，然后添加/删除管理单元 **...** (或键盘快捷方式 **Ctrl+M** 也将) 。 **证书** 将是左侧窗格中的一个选项，选择它，然后在弹出窗口中，然后选择下一步的计算机 **帐户**。
+2. 若要添加证书管理单元，你需要单击文件，然后添加/删除管理单元 **... (** 或键盘快捷方式 **Ctrl+M** 也将) 。 **证书** 将是左侧窗格中的一个选项，选择它，然后在弹出窗口中，然后选择下一步的计算机 **帐户**。
     
 3. 仍在弹出窗口中，你很可能正在位于需要查看的证书的主页上执行此操作，因此，如果位于本地计算机上，请保留选择。  如果正在远程计算机上工作，将单选按钮更改为"其他计算机"，然后输入该计算机的 FQDN 或使用"浏览"按钮通过AD 搜索该计算机。  选择计算机后，你需要在准备就绪时单击"完成"，然后单击"确定"以将管理单元添加到 MMC。
     
@@ -255,18 +255,18 @@ ms.locfileid: "54306034"
     
 8. 因此，如果您找到 lyncdiscover。\<sipdomain\> 和 lyncdiscoverinternal。\<sipdomain\> 记录，你已对此进行配置。 你可以关闭 MMC。
     
-9. 如果未分配证书，你将需要提出上述 (列出的新证书请求) 或者需要安装它们请求后 (我们建议针对该证书的 powerShell 进行以下) 。
+9. 如果未分配证书，你将需要提出上述 (概述的新证书请求) 或者需要安装它们请求后 (我们建议针对该证书的 powerShell 进行以下) 。
     
 ## <a name="configure-the-reverse-proxy"></a>配置反向代理
 <a name="ConfigRP"> </a>
 
-不应完全遵循以下步骤。 这是因为在该产品的以前版本中，我们已演示了配置威胁管理网关 (TMG) 例如，如果未使用该配置，则需要从该版本创建自己的版本。
+不应完全遵循以下步骤。 这是因为在该产品的以前版本中，我们已演示了配置威胁管理网关 (TMG) 例如，如果未使用该网关，则需要从该版本创建自己的版本。
   
 TMG 不再由 Microsoft 作为产品提供，如果您仍然需要对其进行配置，您可以查看 [Lync Server 2013 步骤](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-the-reverse-proxy-for-mobility)。 但是，以下信息更普遍有用，即使我们无法为上述每个反向代理提供特定的演练步骤。
   
 我们需要考虑两个主要问题：
   
-- 是否打算通过 HTTPS 服务器执行初始自动发现 (建议) ？
+- 是否打算通过 HTTPS 服务执行初始自动发现 (建议) ？
     
   - 如果你有 Web 发布规则，则需要对其进行修改。
     
@@ -275,7 +275,7 @@ TMG 不再由 Microsoft 作为产品提供，如果您仍然需要对其进行�
 - 如果通过 HTTP 执行初始自动发现请求，则还需要创建或修改该规则。
     
 > [!NOTE]
-> **重要** 代理的退出值是因部署而异的数值。 您应监视部署并修改值，以获得最佳客户端体验。 你可以将该值设置为低至 200。 如果要在环境中支持 Lync 移动客户端，则应当将值设置为 960，以允许从 Office 365 发送推送通知的退出时间，其退出值为 900。 很可能您必须增加退出值以避免在值太低时客户端断开连接，或者，如果通过代理的连接没有断开连接但在客户端断开连接后清除，则减少此数目。 监视和确定环境常规情况是确定此值的适当设置的唯一准确方法。
+> **重要** 代理的退出值是因部署而异的数值。 您应监视部署并修改值，以获得最佳客户端体验。 你可以将该值设置为低至 200。 如果要在环境中支持 Lync 移动客户端，则应当将值设置为 960，以允许从 Office 365 发送推送通知的退出时间，其退出值为 900。 很可能您必须增加退出值以避免在值太低时客户端断开连接，或者，如果通过代理的连接没有断开连接，但在客户端断开连接后清除，则减少此数目。 监视和确定环境常规情况是确定此值的适当设置的唯一准确方法。
   
 ### <a name="modify-the-existing-web-publishing-rule-for-your-external-autodiscover-san-and-url"></a>修改外部自动发现 SAN 和 URL 的现有 Web 发布规则
 
@@ -285,7 +285,7 @@ TMG 不再由 Microsoft 作为产品提供，如果您仍然需要对其进行�
     
 3. 应存在一个指出此 Web 发布规则所应用到的内容的区域。 您需要修改传入网站或网站请求的此规则。 你将添加新条目。 
     
-4. 键入自动发现站点的名称 (我们将使用的示例是 lyncdiscover.contoso.com) ，并单击"确定"或"保存"，具体取决于反向代理的格式。 
+4. 键入自动发现站点的名称 (我们将使用的示例是 lyncdiscover.contoso.com) ，然后单击"确定"或"保存"，具体取决于反向代理的格式。  
     
 5. 你可能有一个新证书，该证书中具有自动发现 SAN 条目。 这也需要进行安装，并配置为根据反向代理的设置使用。 确保在配置完成后保存所有内容。
     
@@ -327,7 +327,7 @@ TMG 不再由 Microsoft 作为产品提供，如果您仍然需要对其进行�
     
    - 该规则应设置为 **所有用户**。
     
-   - 这应该是创建此规则所需的全部信息，并允许您继续操作。
+   - 这应该是创建此规则并允许您继续操作所需的全部信息。
     
 4. 你将需要确保转发原始 **主机** 头。
     
@@ -373,7 +373,7 @@ TMG 不再由 Microsoft 作为产品提供，如果您仍然需要对其进行�
     
    - 该规则应设置为 **所有用户**。
     
-   - 这应该是创建此规则所需的全部信息，并允许您继续操作。
+   - 这应该是创建此规则并允许您继续操作所需的全部信息。
     
 4. **需要设置 Web** 服务器端口，需要执行以下操作：
     
@@ -386,11 +386,11 @@ TMG 不再由 Microsoft 作为产品提供，如果您仍然需要对其进行�
 ## <a name="configure-autodiscover-for-mobility-with-hybrid-deployments"></a>使用混合部署配置移动性自动发现
 <a name="ConfigAutoD"> </a>
 
-混合环境中Skype for Business Server是组合本地和 O365 环境的环境。 在混合Skype for Business Server工作后，自动发现服务需要能够从这些环境之一查找用户。
+混合环境中Skype for Business Server是组合本地和 O365 环境的环境。 如果已Skype for Business Server混合环境中工作，则自动发现服务需要能够从其中任一环境中查找用户。
   
 若要让移动客户端发现用户所在的位置，需要将自动发现服务配置为使用新的统一资源定位器 (URL) 。 步骤如下：
   
-1. 打开Skype for Business Server命令行管理程序"。
+1. 打开 Skype for Business Server 命令行管理程序。
     
 2. 运行以下代码，获取环境属性 **ProxyFQDN** Skype for Business Server值：
     
@@ -409,18 +409,18 @@ TMG 不再由 Microsoft 作为产品提供，如果您仍然需要对其进行�
 ## <a name="test-your-mobility-deployment"></a>测试移动部署
 <a name="TestMobility"> </a>
 
-在部署 Skype for Business Server Mobility Service 和 Skype for Business Server 自动发现服务后，您需要运行测试事务，以确保部署正常工作。 可以运行 **Test-CsUcwaConference** 来测试两个用户创建、加入会议以及参加会议进行通信的能力。 你需要两个用户 (真实或测试) 及其完整凭据来执行此测试。 此命令适用于 lync Server 2013 Skype for Business客户端和 Lync Server 2013 客户端。
+在部署 Skype for Business Server Mobility Service 和 Skype for Business Server 自动发现服务后，需要运行测试事务，以确保部署正常工作。 可以运行 **Test-CsUcwaConference** 来测试两个用户创建、加入会议以及参加会议进行通信的能力。 你需要两个用户 (或测试) 及其完整凭据来执行此测试。 此命令适用于 lync Server 2013 Skype for Business客户端和 Lync Server 2013 客户端。
   
 对于 2015 Skype for Business Server Lync Server 2010 客户端，您需要运行 **Test-CsMcxP2PIM** 进行测试。 Lync Server 2010 用户仍将是实际用户或预定义的测试用户，并且您需要其密码凭据。
 
 > [!NOTE]
-> MCX (Mobility Service) 2019 年不再提供对旧版移动客户端Skype for Business Server支持。 所有当前Skype for Business客户端已使用统一通信 Web API (UCWA) 来支持即时消息 (IM) 、状态和联系人。 使用 MCX 的旧客户端的用户将需要升级到当前客户端。
+> MCX (Mobility Service) 2019 年不再提供对旧版移动客户端Skype for Business Server支持。 所有当前Skype for Business客户端已使用统一通信 Web API (UCWA) 支持即时消息 (IM) 、状态和联系人。 使用 MCX 的旧客户端的用户将需要升级到当前客户端。
   
 ### <a name="test-conferencing-for-skype-for-business-and-lync-2013-mobile-clients"></a>测试 Skype for Business 和 Lync 2013 移动客户端的会议
 
 1. 在安装了命令行管理程序和 **Ocscore** 的任何计算机上以 **CsAdministrator** Skype for Business Server成员登录。 
     
-2. 启动Skype for Business Server **命令行管理** 程序 (您可以在搜索中键入名称，或转到"所有程序"并选择它) 。 
+2. 启动Skype for Business Server **命令行** 管理程序 (您可以在搜索中键入名称，或转到"所有程序"并选择它) 。 
     
 3. 在命令行中输入：
     
@@ -441,11 +441,11 @@ TMG 不再由 Microsoft 作为产品提供，如果您仍然需要对其进行�
 ### <a name="test-conferencing-for-lync-2010-mobile-clients"></a>测试 Lync 2010 移动客户端的会议
 
 > [!NOTE]
-> MCX (Mobility Service) 2019 年不再提供对旧版移动客户端Skype for Business Server支持。 所有当前Skype for Business客户端已使用统一通信 Web API (UCWA) 来支持即时消息 (IM) 、状态和联系人。 使用 MCX 的旧客户端的用户将需要升级到当前客户端。
+> MCX (Mobility Service) 2019 年不再提供对旧版移动客户端Skype for Business Server支持。 所有当前Skype for Business客户端已使用统一通信 Web API (UCWA) 支持即时消息 (IM) 、状态和联系人。 使用 MCX 的旧客户端的用户将需要升级到当前客户端。
 
 1. 在安装了命令行管理程序和 **Ocscore** 的任何计算机上以 **CsAdministrator** Skype for Business Server成员登录。 
     
-2. 启动Skype for Business Server **命令行管理** 程序 (您可以在搜索中键入名称，或转到"所有程序"并选择它) 。 
+2. 启动Skype for Business Server **命令行** 管理程序 (您可以在搜索中键入名称，或转到"所有程序"并选择它) 。 
     
 3. 在命令行中输入：
     
@@ -497,7 +497,7 @@ Lync Server 2013 中的此功能未更改，但如果您Skype for Business Serve
    ```
 
     > [!NOTE]
-    > 不能与单个宿主提供商建立多个联盟关系。 因此，如果你已设置与 sipfed.online.lync.com 建立联盟关系的宿主提供商，请不要为它添加其他宿主提供商，即使宿主提供商的标识不是 SkypeOnline。 
+    > 不能与单个宿主提供商建立多个联盟关系。 因此，如果你已经设置了与 sipfed.online.lync.com 建立联盟关系的宿主提供商，请不要为它添加其他宿主提供商，即使宿主提供商的标识不是 SkypeOnline。 
   
 4. 在 Skype for Business Online 上设置组织与推送通知服务之间的宿主Skype for Business联盟。 在命令行中，你需要键入：
     
@@ -556,9 +556,9 @@ Lync Server 2013 中的此功能未更改，但如果您Skype for Business Serve
 ## <a name="configure-mobility-policy"></a>配置移动策略
 <a name="ConfigMob"> </a>
 
-你能够使用 Skype for Business Server 来确定谁可以使用你的移动服务、通过工位呼叫、IP 语音 (VoIP) 或视频，以及 VoIP 或视频是否需要 WiFi。 通过工号呼叫可让移动用户在拨打和接听电话时使用工作电话号码，而不是其移动电话号码。 线路另一端的用户不会看到移动用户的移动电话号码，这样移动用户就不会产生传出呼叫费用。 设置 VoIP 和视频后，用户可以接听并拨打 VoIP 电话和视频。 WiFi 使用情况的设置确定是否需要用户的移动设备才能通过手机数据网络使用 WiFi 网络。
+可以使用 Skype for Business Server 确定谁可以使用你的移动服务、通过工名呼叫、IP 语音 (VoIP) 或视频，以及 VoIP 或视频是否需要 WiFi。 通过工号呼叫可让移动用户在拨打和接听电话时使用工作电话号码，而不是其移动电话号码。 线路另一端的用户不会看到移动用户的移动电话号码，这样移动用户就不会产生传出呼叫费用。 设置 VoIP 和视频后，用户可以接听并拨打 VoIP 电话和视频。 WiFi 使用情况的设置确定是否需要用户的移动设备才能通过手机数据网络使用 WiFi 网络。
   
-默认情况下，移动功能、通过工电话呼叫以及 VoIP 和视频功能全部启用。 禁用 VoIP 和视频需要 WiFi 的设置。 管理员能够全局、按站点或按用户更改此内容。
+默认情况下，移动功能、通过工位呼叫以及 VoIP 和视频功能全部启用。 禁用 VoIP 和视频需要 WiFi 的设置。 管理员能够全局、按站点或按用户更改此内容。
   
 为了能够使用移动功能和通过工位呼叫功能，用户需要：
   
@@ -570,12 +570,12 @@ Lync Server 2013 中的此功能未更改，但如果您Skype for Business Serve
     
 若要使用户能够使用通过工位呼叫功能，他们还需要：
   
-- 分配了已选中"启用 **电话同时响铃"选项的** 语音策略。
+- 分配了已选中"启用电话同时响铃" **选项的** 语音策略。
     
 - 分配了 **EnableOutsideVoice** 设置为 True 的移动 **策略**。
     
 > [!NOTE]
-> 未启用 企业语音 的用户可以使用其移动设备拨打 Skype 到 Skype VoIP 呼叫，或者，如果为与其关联的语音策略设置了适当的选项，则用户可以在移动设备上使用"单击以加入"链接加入会议。 规划主题中更详细地介绍。 
+> 未启用 企业语音 的用户可以使用其移动设备拨打 Skype 到 Skype VoIP 电话，或在移动设备上使用"单击加入"链接加入会议（如果为与其关联的语音策略设置了适当的选项）。 规划主题中更详细地介绍。 
   
 ### <a name="modify-global-mobility-policy"></a>修改全局移动策略
 
@@ -590,7 +590,7 @@ Lync Server 2013 中的此功能未更改，但如果您Skype for Business Serve
    ```
 
     > [!NOTE]
-    > 你可以关闭通过工电话呼叫功能，而无需关闭对移动功能的访问。 但是，如果不同时关闭通过工位呼叫，你无法关闭移动功能。 
+    > 可以关闭通过工电话呼叫功能，而无需关闭对移动功能的访问。 但是，如果不同时关闭通过工位呼叫，你无法关闭移动功能。 
   
     有关详细信息，请查看 [Set-CsMobilityPolicy](/powershell/module/skype/set-csmobilitypolicy?view=skype-ps)。
     
@@ -629,4 +629,4 @@ Lync Server 2013 中的此功能未更改，但如果您Skype for Business Serve
    ```
 
     > [!NOTE]
-    > 你可以关闭通过工电话呼叫功能，而无需关闭对移动功能的访问。 但是，如果不同时关闭通过工位呼叫，你无法关闭移动功能。 
+    > 可以关闭通过工电话呼叫功能，而无需关闭对移动功能的访问。 但是，如果不同时关闭通过工位呼叫，你无法关闭移动功能。 

@@ -9,23 +9,23 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d189057d-cc9d-4622-9d10-f5385d703faf
-description: 摘要：了解如何使用"Skype for Business Server"控制面板Skype for Business Server语音路由。
-ms.openlocfilehash: a9ae7d0e1cff6f4fa49346b67c08253c108e026ec352606cf4f73fc0dc6a7640
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 摘要：了解如何使用"Skype for Business Server控制面板"创建或修改Skype for Business Server路由。
+ms.openlocfilehash: 8b1ca3dc6120fb4e8432736672ee4821e894da56
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54279340"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611237"
 ---
 # <a name="create-or-modify-a-voice-route-in-skype-for-business"></a>Create or modify a voice route in Skype for Business
  
-**摘要：** 了解如何使用"控制面板"在 Skype for Business Server 创建或修改Skype for Business Server路由。
+**摘要：** 了解如何使用"控制面板"在 Skype for Business Server创建或修改Skype for Business Server路由。
   
 ### <a name="to-create-a-voice-route-by-using-the-skype-for-business-server-control-panel"></a>使用"控制面板"Skype for Business Server语音路由
 
@@ -41,7 +41,7 @@ ms.locfileid: "54279340"
     
 6. 在 **"名称**"中，键入语音路由的描述性名称。
     
-7.  (可选) 在 **"** 说明"中，键入语音路由的其他描述性信息。
+7.  (可选) 在 **"说明**"中，键入语音路由的其他描述性信息。
     
 8. 若要指定希望此路由满足的模式，可以使用"生成匹配的模式"工具生成正则表达式，也可以手动编写正则表达式。
     
@@ -65,7 +65,7 @@ ms.locfileid: "54279340"
 12. 排列 PSTN 用法记录以获得最佳性能。 若要更改记录在列表中的位置，请突出显示记录名称，然后单击向上箭头或向下箭头。
     
     > [!NOTE]
-    > 与语音策略（PSTN 用法记录的列出顺序非常重要）相反，PSTN 用法记录在语音路由中的列出顺序无关紧要。 但是，建议您按使用频率组织列表。 例如：RedmondLocal、RedmondLongDist、RedmondInternational、RedmondBackup。  (Skype for Business Server从上到下遍历列表。)  
+    > 与语音策略（其中 PSTN 用法记录的列出顺序非常重要）相反，PSTN 用法记录在语音路由中的列出顺序无关紧要。 但是，建议您按使用频率组织列表。 例如：RedmondLocal、RedmondLongDist、RedmondInternational、RedmondBackup。  (Skype for Business Server从上到下遍历列表。)  
   
 13. （可选）在 **“输入转换后的号码以进行测试”** 字段中键入一个值，然后单击 **“执行”**。测试结果将显示在该字段下面。
     
@@ -107,12 +107,12 @@ ms.locfileid: "54279340"
 9. 若要将一个或多个 PSTN 用法与语音路由关联，请单击"选择"，然后从为部署定义的 PSTN 用法记录列表中选择企业语音记录。
     
     > [!NOTE]
-    > 若要查看每个可用的 PSTN 用法记录的属性，请参阅查看[PSTN 用法](view-pstn-usage-records.md)记录Skype for Business。 >若要创建或编辑 PSTN 用法记录，请参阅创建或修改语音策略和配置[PSTN 用法记录Skype for Business。](voice-policy-and-pstn-usage-records.md) 
+    > 若要查看每个可用的 PSTN 用法记录的属性，请参阅查看[PSTN 用法](view-pstn-usage-records.md)记录Skype for Business。 >创建或编辑 PSTN 用法记录，请参阅创建或修改语音策略和配置[PSTN 用法记录Skype for Business。](voice-policy-and-pstn-usage-records.md) 
   
 10. 排列 PSTN 用法记录以获得最佳性能。 若要更改记录在列表中的位置，请突出显示记录名称，然后单击向上箭头或向下箭头。
     
     > [!NOTE]
-    > 与 PSTN 用法记录的列出顺序很重要的语音策略相反，语音路由中 PSTN 用法记录的顺序无关紧要。 但是，建议您按使用频率组织该列表，例如：RedmondLocal、RedmondLongDist、RedmondInternational 和 RedmondBackup。  (Skype for Business Server从上到下遍历列表。)  
+    > 与 PSTN 用法记录的列出顺序很重要的语音策略相反，语音路由中 PSTN 用法记录的顺序无关紧要。 但是，建议您按使用频率组织该列表，例如：RedmondLocal、RedmondLongDist、RedmondInternational、RedmondBackup。  (Skype for Business Server从上到下遍历列表。)  
   
 11. （可选）在 **“输入转换后的号码以进行测试”** 字段中键入一个值，然后单击 **“执行”**。测试结果将显示在该字段下面。
     
@@ -121,7 +121,7 @@ ms.locfileid: "54279340"
 13. 在 **“路由”** 页上，单击 **“提交”**，然后单击 **“全部提交”**。 
     
     > [!NOTE]
-    > 任何时候创建或修改语音路由，都必须运行 **"全部提交** "命令以发布配置更改。 有关详细信息，请参阅操作[文档中](voice-route-config-changes.md)的 Publish pending changes to the voice routing configuration in Skype for Business in the Operations documentation。
+    > 任何时候创建或修改语音路由，都必须运行 **"全部提交** "命令以发布配置更改。 有关详细信息，请参阅操作[文档中的](voice-route-config-changes.md)Publish pending changes to the voice routing configuration in Skype for Business in the Operations documentation。
   
 ## <a name="see-also"></a>另请参阅
 

@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: landerl
 audience: admin
 description: 本文将帮助你开始从 Skype for Business 升级到 Microsoft Teams。
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.custom:
 - Teams-upgrade-guidance
@@ -30,12 +30,12 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 34eb3ed6f6979535e82ac85769011bcd9273c8f8293fa5dfcd7d9f0e1308b73e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b581f509655327c944876306cee666f39e07ef6c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345161"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589408"
 ---
 # <a name="get-started-on-your-upgrade-from-skype-for-business-to-microsoft-teams"></a>开始从 Skype for Business 升级到 Microsoft Teams
 
@@ -53,7 +53,7 @@ Microsoft Teams 扩展了 Skype for Business 的功能，将聊天、会议、�
 
 ## <a name="when-should-my-organization-migrate-to-teams"></a>我的组织何时应迁移到Teams？
 
-虽然 Skype for Business Online 服务将在 2021 年 7 月 31 日之前完全正常运行，但我们强烈建议你立即开始Teams升级。 从今天开始升级，你有足够的时间在停用日期之前完成升级。 可以选择使用重叠功能方法Teams"群岛模式" (或 select capabilities 方法) 升级。 有关这些方法的信息，请参阅选择从一个到[Skype for Business Teams。](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+虽然 Skype for Business Online 服务将于 2021 年 7 月 31 日完全正常运行，但我们强烈建议立即开始升级，Teams升级。 从今天开始升级，你有足够的时间在停用日期之前完成升级。 可以选择使用重叠功能方法Teams"岛屿模式 (或 select capabilities 方法) 升级。 有关这些方法的信息，请参阅从"选择[升级旅程"Skype for Business到Teams"。](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 ## <a name="can-we-continue-to-use-skype-for-business-online-as-we-prepare-for-and-execute-our-upgrade-to-teams"></a>在准备和执行 Teams 升级时，可以继续使用 Skype for Business Online 吗？
 
@@ -61,11 +61,11 @@ Microsoft Teams 扩展了 Skype for Business 的功能，将聊天、会议、�
 
 ## <a name="is-phone-system-available-for-teams-users"></a>电话系统用户是否Teams？
 
-是。 电话系统 TeamsOnly 模式后，Teams所有用户都可用。  此外，Microsoft 还提供用于连接到 PSTN 公用电话交换 (网络) 以便用户可以拨打全球任何地方的电话。 有关详细信息，请参阅语音[- 电话系统 和 PSTN 连接](cloud-voice-landing-page.md)。
+是。 电话系统 TeamsOnly 模式后Teams所有用户都可用。  此外，Microsoft 还提供用于连接到 PSTN 公用电话交换 (网络) 以便用户可以拨打全球任何地方的电话。 有关详细信息，请参阅语音[- 电话系统和 PSTN 连接](cloud-voice-landing-page.md)。
 
 ## <a name="can-we-continue-to-use-our-on-premises-telephony-infrastructure"></a>我们能否继续使用本地电话基础结构？
 
-是。 使用电话系统直接路由，可以将 电话系统与几乎任何电话运营商一同使用。 使用直接路由，可将自己的会话边界控制器 (SBC) 直接连接到电话系统。 有关详细信息，请参阅直接[电话系统路由](direct-routing-landing-page.md)。
+是。 借助电话系统直接路由，可以将 电话系统几乎与任何电话运营商一起使用。 使用直接路由，可将自己的会话边界控制器 (SBC) 直接连接到电话系统。 有关详细信息，请参阅 电话系统[直接路由](direct-routing-landing-page.md)。
 
 ## <a name="how-is-microsoft-helping-customers-with-their-migration-to-teams"></a>Microsoft 如何帮助客户迁移到 Teams？
 
@@ -73,9 +73,9 @@ Microsoft 致力于帮助你成功从 Skype for Business 过渡到 Teams。 Micr
 
 为了帮助促进升级规划和实施，Microsoft 举办免费的交互式升级规划研讨会，旨在帮助你熟悉我们的升级框架，分享有关用户准备升级的见解，并确定组织在 Teams 之旅中的正确路径。 参与我们的升级规划概述会话：[https://aka.ms/SkypeToTeamsPlanning](./upgrade-workshops-landing-page.yml)。
 
-使用 Skype for Business Online 的组织可能有资格使用 Microsoft 协助的升级到 Teams，以帮助在 2021 年 7 月 31 日停用服务之前从 Skype for Business Online 成功过渡。 辅助升级可减少客户所需的技术任务数量，并可以更专注于组织准备、用户认知和Teams培训。
+使用 Skype for Business Online 的组织可能有资格使用 Microsoft 协助的升级到 Teams，以帮助在 2021 年 7 月 31 日停用服务之前从 Skype for Business Online 成功过渡。 辅助升级可减少客户所需的技术任务数量，并可以更好地关注组织准备、用户认知Teams培训。
 
-计划进行辅助升级的客户将在升级日期Teams三个月之前在 Microsoft 365 消息中心接收通知。 有关详细信息，请参阅从联机到 Skype for Business[的辅助Microsoft Teams。](upgrade-assisted.md)
+计划进行辅助升级的客户将在升级日期Teams三个月之前在 Microsoft 365 消息中心接收通知。 有关详细信息，请参阅从 Skype for Business [Online 辅助升级Microsoft Teams。](upgrade-assisted.md)
 
 ## <a name="why-do-i-need-upgrade-guidance-cant-i-just-deletedecommission-skype-for-business"></a>为何需要使用升级指南？ 我不能仅删除/停用 Skype for Business 吗？
 

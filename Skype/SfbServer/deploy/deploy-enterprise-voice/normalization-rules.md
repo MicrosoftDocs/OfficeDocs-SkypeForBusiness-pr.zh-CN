@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: e8547d7b-f74d-4a73-9a7d-df20d7a87fcd
 description: 摘要：了解如何在规则中定义、创建和修改Skype for Business Server。
-ms.openlocfilehash: e491c58951be9c5341927a4edc949f7d119145533d77b9f2cb65d9e6a1a3cc4f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3e06aa9821761803c033255c4da3f636ba296dda
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320844"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626204"
 ---
 # <a name="create-or-modify-a-normalization-rule-in-skype-for-business"></a>创建或修改规范化规则Skype for Business
 
@@ -33,7 +33,7 @@ ms.locfileid: "54320844"
 
 1. 打开Skype for Business Server控制面板
 
-2.  (可选) 按照步骤 11 中的Skype for Business Server[](dial-plans.md)创建或修改拨号计划"或"修改拨号计划"中的步骤操作，完成步骤[](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-dial-plan)10。
+2.  (可选) 按照在[Skype for Business Server](dial-plans.md)中创建或修改拨号计划中的步骤操作，或按照步骤 10 中的修改拨号计划中的[](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-dial-plan)步骤操作。
 
 3. 在 **"新建****规范化规则**"或"编辑规范化规则"中，键入描述正在规范化的号码模式 **的名称 (例如**，5DigitExtension) 。
 
@@ -41,11 +41,11 @@ ms.locfileid: "54320844"
 
 5. 在“建立规范化规则”的以下字段中输入值：
 
-   - **起始数字** (可选) 指定希望模式匹配的拨打号码的前导数字。 例如，如果希望模式与以 425 开头的拨打号码匹配，请键入 425。
+   - **起始 (** 可选) 指定希望模式匹配的拨打号码的前导数字。 例如，如果希望模式与以 425 开头的拨打号码匹配，请键入 425。
 
-   - **长度** 指定匹配模式中的数字位数，并选择是希望模式完全匹配此长度、匹配至少包含此长度的拨打号码，还是匹配任意长度的拨打号码。
+   - **长度** 指定匹配模式中的数字位数，然后选择是希望模式完全匹配此长度、匹配至少包含此长度的拨打号码，还是匹配任意长度的拨打号码。
 
-   - **要删除的数字** (可选) 指定要从希望模式匹配的拨打号码中删除的起始位数。
+   - **要删除的** (可选) 指定要从希望模式匹配的拨打号码中删除的起始位数。
 
    - **要添加的数字** (可选) 指定要添加到希望模式匹配的拨打号码的数字。
 
@@ -55,9 +55,9 @@ ms.locfileid: "54320844"
 
 6. 在“转换规则”中，指定转换后的 E.164 电话号码格式的模式，如下所示：
 
-   - 代表匹配模式中指定的号码位数的值。 例如，如果匹配模式为 ^ (\d) $ ，则转换规则中的 {7} $1 表示 7 位拨打号码。
+   - 代表匹配模式中指定的号码位数的值。 例如，如果匹配模式为 ^ (\d) $ ，则转换规则中的 {7} $1 表示 7 位拨打的号码。
 
-   -  (可选) 在"要添加的数字"字段中键入一个值，以指定要预置在转换号码 (例如，+1425) 。
+   -  (可选) 在"要添加的数字"字段中键入一个值，以指定要预置在转换号码之前的数字 (例如，+1425) 。
 
      例如，如果"要匹配的模式"包含^ (\d) $ 作为拨打号码的模式，而转换规则包含 {7} +1425$1 作为 E.164 电话号码的模式，则规则将 5550100 规范化为 +14255550100。 
 
@@ -83,7 +83,7 @@ ms.locfileid: "54320844"
 
 2.  (可选) 按照创建[或修改](dial-plans.md)拨号计划中的步骤操作Skype for Business Server。
 
-3. 在 **"新建** 规范化规则"或"编辑规范化规则"中，在"**名称" (** 中键入描述要规范化的号码模式的名称，例如，将规范化规则5DigitExtension) 。
+3. 在 **"新建** 规范化规则"或"编辑规范化规则"中，键入描述要规范化的号码模式 **的名称 (例如**，将规范化规则5DigitExtension) 。
 
 4. （可选）在“说明”字段中，键入规范化规则的说明（例如，“Translates 5-digit extensions”）。
 

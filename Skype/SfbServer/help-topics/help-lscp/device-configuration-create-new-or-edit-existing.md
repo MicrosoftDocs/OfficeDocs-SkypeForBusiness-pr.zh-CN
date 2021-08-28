@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.ClientPhoneCfgEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: aac152bf-80e9-408a-9dbb-60d0843484ab
 description: 在"新建设备配置"或"编辑设备配置"页上，可以创建或修改用于管理 Skype for Business 电话 Edition 的设置集合。 通过这些设置，您可以配置以下内容：所需的安全性模式、设备日志记录级别、语音服务质量 (QoS) 设置以及在指定的非活动时间后电话是否应自动锁住。
-ms.openlocfilehash: 826f20dcd28002f293ebcf227a954f9bfd61c28f36fd4dd23414e2be59ef4f62
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bcd0cccbb0bba00d40a25e6683baf2d12b6f54c5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54302706"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588724"
 ---
 # <a name="device-configuration-create-new-or-edit-existing"></a>设备配置：创建新的或编辑现有的
  

@@ -9,16 +9,16 @@ ms.topic: reference
 ms.prod: skype-for-business-server
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: 在一个地方查找和管理 Skype for Business Server 2015/2019 和 Lync 2013 的更新。 单击此页面上的链接可以详细了解并下载这些更新。
-ms.openlocfilehash: 615efffd595120f7833c3c51d585a381b46f5cc856f11620d60da532dca37334
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2101e8ca02d227837aef0b9c49ce0d2e8d1144bb
+ms.sourcegitcommit: 25fd720c008dcf1573344e50d736131a20c3ac7d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341517"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58683316"
 ---
 # <a name="skype-for-business-server-updates"></a>Skype for Business Server 更新
 
@@ -32,11 +32,11 @@ KB 4470124是 Skype for Business Server 2019 的主 KB，具有已发布的所�
 
 |程序包名称|KB 编号|发布日期|
 |:--- |:--- |:--- |
-|Skype for Business Server 2019 累积更新 4 |[KB 4470124](https://support.microsoft.com/kb/4470124)| 2020 年 9 月 |
-|Skype for Business Server 2019 年累积更新 3 修补程序 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| 2020 年 7 月 |
+|Skype for Business Server 2019 累积更新 4 |[KB 4470124](https://support.microsoft.com/kb/4470124)| 2020 年 9  |
+|Skype for Business Server 2019 累积更新 3 修补程序 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| 2020 年 7 月 |
 |Skype for Business Server 2019 累积更新 3 |[KB 4470124](https://support.microsoft.com/kb/4470124)| 2020 年 3 月 |
 |Skype for Business Server 2019 累积更新 2 |[KB 4470124](https://support.microsoft.com/kb/4470124)| 2019 年 12 月 |
-|Skype for Business Server 2019 累积更新 1 修补程序 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| 2019年九月 |
+|Skype for Business Server 2019 累积更新 1 修补程序 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| 2019 年 9 月 |
 |Skype for Business Server 2019 累积更新 1|[KB 4470124](https://support.microsoft.com/kb/4470124)| 2019 年 7 月 |
 | | | |
 
@@ -56,11 +56,12 @@ KB 4470124是 Skype for Business Server 2019 的主 KB，具有已发布的所�
 
 |程序包名称|KB 编号|发布日期|
 |:--- |:--- |:--- |
+|Skype for Business Server 2015 累积更新 11|[KB 3061064](https://support.microsoft.com/kb/3061064)| 2021 年 8 月 |
 |Skype for Business Server 2015 累积更新 11 修补程序 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| 2020 年 7 月 |
 |Skype for Business Server 2015 累积更新 11|[KB 3061064](https://support.microsoft.com/kb/3061064)| 2020 年 5 月 13 日 |
 |Skype for Business Server 2015 累积更新 10 修补程序 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| 2019 年 8 月 |
 |Skype for Business Server 2015 累积更新 10 |[KB 3061064](https://support.microsoft.com/kb/3061064)| 2019 年 7 月 |
-|Web Components Server 2015 Skype for Business Server累积更新 9|[KB 4487981](https://support.microsoft.com/kb/4487981)| 2019 年 5 月 |
+|Skype for Business Server 2015 Web Components Server 累积更新 9|[KB 4487981](https://support.microsoft.com/kb/4487981)| 2019 年 5 月 |
 |Skype for Business Server 2015 前端服务器和边缘服务器的累积更新 8|[KB 4464355](https://support.microsoft.com/kb/4464355)|2019 年 1 月|
 |Skype for Business Server 2015 前端服务器和边缘服务器的累积更新 7 |[KB 4340904](https://support.microsoft.com/kb/4340904) |2018 年 7 月 |
 |Skype for Business Server 2015 前端服务器和边缘服务器的累积更新 6 修补程序 2 |[KB 4086059](https://support.microsoft.com/kb/4086059) |2018 年 3 月 |
@@ -92,7 +93,7 @@ KB 4470124是 Skype for Business Server 2019 的主 KB，具有已发布的所�
 |程序包名称|KB 编号|发布日期|
 |:--- |:--- |:--- |
 |Lync Server 2013 累积更新 10 修补程序 4 |[KB 4515509](https://support.microsoft.com/kb/4515509)|2020 年 7 月|
-|Lync Server 2013 累积更新 10 修补程序 3 |[KB 4515509](https://support.microsoft.com/kb/4515509)|2019年九月|
+|Lync Server 2013 累积更新 10 修补程序 3 |[KB 4515509](https://support.microsoft.com/kb/4515509)|2019 年 9 月|
 |Lync Server 2013 累积更新 10 修补程序 2 |[KB 4501392](https://support.microsoft.com/kb/4501392)|2019 年 6 月|
 |Lync Server 2013 累积更新 10 修补程序 1 |[KB 4458772](https://support.microsoft.com/kb/4458772)|2019 年 1 月|
 |Lync Server 2013 累积更新 10 |[KB 4295703](https://support.microsoft.com/kb/4295703)|2018 年 7 月 |
@@ -136,7 +137,7 @@ KB 4470124是 Skype for Business Server 2019 的主 KB，具有已发布的所�
 
 #### <a name="pre-configured-vhds"></a>预配置的 VHD
 
-完整拓扑包含 7 个虚拟机，通过这些虚拟机，您可以完全评估 Microsoft Lync 2013、Microsoft Exchange 2013、SharePoint 2013 和 UC 开发人员平台 API (包括 Microsoft Lync 2013 SDK、Exchange Web Services Managed API 2.0、Microsoft Lync Server 2013 SDK 和 Microsoft Unified Communications Managed API 4.0) 。
+完整的拓扑包含 7 个虚拟机，通过这些虚拟机，您可以完全评估 Microsoft Lync 2013、Microsoft Exchange 2013、SharePoint 2013 和 UC 开发人员平台 API (包括 Microsoft Lync 2013 SDK、Exchange Web 服务托管 API 2.0、Microsoft Lync Server 2013 SDK 和 Microsoft 统一通信托管 API 4.0) 。
 
 程序包名称 |发布日期|
 |:--- |:--- |
@@ -270,4 +271,5 @@ KB 4470124是 Skype for Business Server 2019 的主 KB，具有已发布的所�
 
 - [Install Skype for Business Server 2015](./deploy/install/install.md)
 - [升级到 Skype for Business Server 2015](./deploy/upgrade-to-skype-for-business-server.md)
-- [使用 MSI Skype for Business Windows Installer (的) ](sfb-client-updates.md)
+- [使用 MSI 安装程序Skype for Business安装程序Windows版本的 (最新) ](sfb-client-updates.md)
+- 

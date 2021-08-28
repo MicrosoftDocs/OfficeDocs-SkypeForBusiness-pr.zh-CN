@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
 description: 'Learn to save time, support calls and increase satisfaction by setting up test accounts and computers, and testing dial-in conferencing, online features such as person-to-person calls, conferencing, and sign in and out. '
-ms.openlocfilehash: 5afc5ec98e12ac0a30e6bf7974e17b1cb4552e90322a894407decbde4c94ca17
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 12622339c6a09c5bd651a712ff5210df92d04e52
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310141"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611461"
 ---
 # <a name="test-your-skype-for-business-online-installation"></a>设置 Skype for Business Online 安装
 
@@ -34,7 +34,7 @@ ms.locfileid: "54310141"
 
 以下是您需要的内容：
 
-- 至少三Microsoft 365或Office 365帐户 (帐户，以及至少两个其他帐户) 。
+- 至少三Microsoft 365或Office 365帐户 (帐户以及至少两个其他帐户) 。
 
 - 每个测试帐户一台计算机。就像您的组织中的常用计算机一样设置它们。
 
@@ -53,7 +53,7 @@ ms.locfileid: "54310141"
 ## <a name="set-up-test-accounts"></a>设置测试帐户
 <a name="__toc328126910"> </a>
 
-1. 转到"**管理员**  >  **Microsoft 365** 或Office 365和组"，然后选择"添加  >   ![ " ](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) 并输入所需信息。
+1. 转到"**管理员**  >  **Microsoft 365** 或 **Office 365** 和组"，然后选择"  >  添加 ![ " ](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) 并输入所需信息。
 
 2. 执行步骤 4（电子邮件）时，输入你自己的电子邮件地址。这样，就有新用户的名称和密码记录。
 
@@ -116,7 +116,7 @@ ms.locfileid: "54310141"
 |[在 Skype for Business 中发送即时消息](https://support.office.com/article/b3aefb9b-dec8-4be8-a1ee-1eab12144d05) <br/> |Skype for Business 对话窗口显示，你键入内容，并且你从联系的人员收到响应。  <br/> |
 |[在 Skype for Business 中发送即时消息](https://support.office.com/article/b3aefb9b-dec8-4be8-a1ee-1eab12144d05) <br/> |Skype for Business 对话窗口显示，你键入内容，对话中的每个人都做出响应。  <br/> |
 |[使用名字或姓氏搜索联系人](https://support.office.live.com/article/29fa2061-f679-4e0d-902d-736b67774c8b#BKMK_ContactsFAQ) <br/> |一旦您开始键入，您的搜索结果开始显示。  <br/> |
-|[有关 Lync for Microsoft 365 的常见问题解答](https://support.office.com/article/29fa2061-f679-4e0d-902d-736b67774c8b.aspx#BKMK_ContactsFAQ) <br/> |您添加的联系人显示在您选择的联系人组中。  <br/> |
+|[有关 Lync for Microsoft 365 的常见问题](https://support.office.com/article/29fa2061-f679-4e0d-902d-736b67774c8b.aspx#BKMK_ContactsFAQ) <br/> |您添加的联系人显示在您选择的联系人组中。  <br/> |
 |[在 Lync 中更改状态](https://support.office.com/article/ef8998cc-7801-4b62-81ba-9a2c1630f9e5) <br/> |新的状态反映在其他人的联系人列表中。  <br/> |
 |[使用联系人卡片](https://support.office.com/article/19870880-FC90-46B0-9C60-C398518E9FBC) <br/> |该联系人的联系人卡片显示其名称附近。  <br/> |
 

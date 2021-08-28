@@ -9,7 +9,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: pawa
 description: 为 IT 管理员提供 Microsoft Teams 安装、配置和维护方面的安全建议和经验。
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -20,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a59589d848e7eb3a6ab938305386a7ef83089fa1951dc2672f37287abc4a2ec9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7aaf996d32b67a85ec5fd7146dd29cc0f998e743
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54348597"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592196"
 ---
 # <a name="security-and-microsoft-teams"></a>安全性与 Microsoft Teams
 
