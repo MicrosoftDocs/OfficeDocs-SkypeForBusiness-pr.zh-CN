@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3affebfebdfb34923fbdff37a71f652077d7aa7b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b6a8323c2d8dfd6023a9e27de9a6f0d47c87ae67
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596326"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730891"
 ---
 # <a name="microsoft-teams-deployment-overview"></a>Microsoft Teams 部署概述
 
@@ -32,7 +32,7 @@ ms.locfileid: "58596326"
 
 由于 Teams 支持大量组织类型和起点，因此设置选项不止一种。 为助你查找所需信息，我们将部分文章拆为两类受众： **小型企业**（用户数少于 50 人）和 **中型企业**（用户数超过 50 人）。 阅读文章时，请选择最适合组织的受众选项卡。 选项卡如下所示：
 
-:::image type="content" source="media/small-large-tabs-example.png" alt-text="显示包含在部分文章中的中小型受众选项卡的示例":::
+:::image type="content" source="media/small-large-tabs-example.png" alt-text="显示包含在部分文章中的中小型受众选项卡的示例。":::
 
 以下是可从 **入门** 部分选择的“部分”列表，及各部分的简短说明。
 

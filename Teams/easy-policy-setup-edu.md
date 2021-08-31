@@ -15,14 +15,14 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 了解如何使用 Teams 教育版 策略向导轻松为学生和教师应用策略，确保学习环境安全。
+description: 了解如何使用 Teams 教育版 策略向导轻松应用学生和教师的策略，确保学习环境的安全。
 f1keywords: ''
-ms.openlocfilehash: d7e2959b5b824d8b053d9b912d0450c2209b4b1b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 54a5371ce0fe0aaca86f57d4004525e3fb9959d0
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604591"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733861"
 ---
 # <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>使用Teams 教育版向导轻松应用安全学习环境的策略
 
@@ -32,16 +32,16 @@ ms.locfileid: "58604591"
 
 使用Teams策略可以控制Teams的行为方式，以及哪些功能可供用户使用。 例如，有呼叫策略、会议策略和消息传递策略，例如，可以自定义每个策略区域以满足组织的需求。
 
-若要维护安全且集中的学习环境，必须设置策略来控制学生可在Teams。 例如，可以使用策略来控制谁可以使用私人聊天和私人通话、谁可以安排会议，以及哪些内容类型可以共享。 还可使用策略来启用Teams丰富学习体验的新功能。
+若要维护安全且专注的学习环境，必须设置策略来控制学生可在Teams。 例如，可以使用策略来控制谁可以使用私人聊天和私人通话、谁可以安排会议，以及哪些内容类型可以共享。 还可使用策略来启用Teams丰富学习体验的新功能。
 
 必须为学生和教师调整策略，确保学习体验安全。 学生的策略需要更严格，以减少其接收不当访问级别的风险。 教师和教职员工需要一组单独的策略，这些策略可以更宽松，以便他们获得成功。 例如，允许教师安排会议并限制学生这样做。
 
-:::image type="content" source="media/easy-policy-setup-institution-type.png" alt-text="向导的屏幕截图":::
+:::image type="content" source="media/easy-policy-setup-institution-type.png" alt-text="向导的屏幕截图。":::
 
 本文逐步介绍如何运行向导。
 
 > [!IMPORTANT]
-> 向导应用的策略将满足大多数客户Teams 教育版的需求。 该向导使用建议用于学生 (的设置调整一组核心策略的全局策略) 组织范围的默认策略定义，并应用于学生。 该向导还会创建一组自定义策略并将其分配给教师和教职员工。 大多数Teams 教育版客户在运行此向导后不需要使用其他策略分配方法。 只有在希望 *手动为学生* 、教师和教职员工创建和管理策略时，才使用其他策略分配方法。
+> 向导应用的策略将满足大多数客户Teams 教育版的需求。 该向导使用 (安全建议的设置来调整) 组核心策略的全局范围默认策略定义，并应用于学生。 该向导还会创建一组自定义策略并将其分配给教师和教职员工。 大多数Teams 教育版客户在运行此向导后不需要使用其他策略分配方法。 只有在希望 *手动为学生* 、教师和教职员工创建和管理策略时，才使用其他策略分配方法。
 
 ## <a name="teams-for-education-policy-wizard"></a>Teams 教育版策略向导
 
@@ -51,10 +51,10 @@ ms.locfileid: "58604591"
 
 该向导基于教育机构类型设置策略， (或 **中等或****) 。** 选择机构类型，向导将执行以下操作：
 
-- **学生**：向导使用适合保护学生安全的新默认设置来调整 (组织范围内每个策略区域的默认) 策略定义。 这可确保当前学生和所有新学生获得限制性最强的策略集。
+- **学生**：向导使用适合保护学生安全的新默认设置来调整向导涵盖的每个策略 (组织范围内的默认) 策略定义。 这可确保当前学生和所有新学生获得限制性最强的策略集。
 - **教师和教** 职员工：该向导为向导涵盖的每个策略区域创建一组自定义策略定义，其设置专门针对教师和教职员工的需求。 然后，它将策略定义分配给你选择的教师和教职员工组。 这样，教师和教职员工可以获取一组更宽松的策略，帮助他们获得成功。
 
-只需运行向导一次。 新学生会自动获取向导 (组织范围的默认) 策略定义，并自动为添加到所选组的教职员工分配自定义策略。
+只需运行向导一次。 新学生会自动获取 (应用到组织范围的默认) 策略定义，并自动为添加到所选组的新教职员工分配自定义策略。
 
 此外，每当向 Teams 添加新功能时，该功能的策略的相关 EDU 相关默认值将自动添加到全局 (组织范围的默认值) 而无需任何管理员干预。 这有助于确保制定正确的策略，确保学生的安全和参与。
 
@@ -69,26 +69,26 @@ ms.locfileid: "58604591"
 
 请按照以下步骤运行向导。
 
-1. 如果你是新用户，Teams向导会自动启动。 否则，你随时都可以从仪表板启动向导。 在管理中心的左侧导航Microsoft Teams，转到"仪表板 **"，然后在**"安全学习环境轻松策略设置"磁贴中，选择"**快速设置"。**
+1. 如果你是新用户，Teams向导会自动启动。 否则，你随时都可以从仪表板启动向导。 在 Microsoft Teams 管理中心的左侧导航中，转到"仪表板"，然后在"安全学习环境简易策略设置"磁贴中，选择"快速 **设置"。**
 
-    :::image type="content" source="media/easy-policy-setup-quick-setup.png" alt-text="仪表板中向导的屏幕截图":::
+    :::image type="content" source="media/easy-policy-setup-quick-setup.png" alt-text="仪表板中向导的屏幕截图。":::
 
-2. 选择你的教育机构类型" (大专院校或) "，然后选择"下一步 **"。**
+2. 选择你的教育机构类型" (大专院校或) ，然后选择"下一步 **"。**
 
-    :::image type="content" source="media/easy-policy-setup-institution-type.png" alt-text="向导中用于选择机构类型的页面的屏幕截图":::
+    :::image type="content" source="media/easy-policy-setup-institution-type.png" alt-text="向导中用于选择机构类型的页面的屏幕截图。":::
 
 3. 搜索并选择包含教师和教职员工的组，然后选择"下一步 **"。** 如果尚未为教师和教职员工设置任何组，请创建一个组 [，然后](/microsoft-365/admin/create-groups/create-groups)重新运行向导。 <br/><br/>目前只能选择一个组。 将为你选择的小组中的教师和教职员工分配一[](#policies-applied-by-the-wizard)组定制的自定义策略。 请记住，这组策略与应用于学生的策略是分开的。
 
-    :::image type="content" source="media/easy-policy-setup-group.png" alt-text="向导中用于选择教师和教职员工组的页面的屏幕截图":::
+    :::image type="content" source="media/easy-policy-setup-group.png" alt-text="向导中用于选择教师和教职员工组的页面的屏幕截图。":::
 
 4. 查看你的选择。
 
-    :::image type="content" source="media/easy-policy-setup-review-selections.png" alt-text="向导中查看所选内容的页面的屏幕截图":::
+    :::image type="content" source="media/easy-policy-setup-review-selections.png" alt-text="向导中查看所选内容的页面的屏幕截图。":::
 
 5. 选择 **"应用** "以应用更改。 这可能需要几分钟才能完成。<br/><br/>全局 (组织范围内的默认) 策略定义会立即应用到学生。 对于教师和教职员工，可能需要几个小时才能将自定义策略分配给所选的组的每个成员，具体取决于组的大小。 在成功完成此步骤后，会在后台发生此情况。
 6. 你已上路，但尚未完成！ 还有一些需要考虑的方面。 接下来，请查看本文运行向导 [后](#what-to-do-after-running-the-wizard) 要执行的步骤部分的步骤。
 
-    :::image type="content" source="media/easy-policy-setup-on-way.png" alt-text="向导中用于执行下一步骤的页面的屏幕截图":::
+    :::image type="content" source="media/easy-policy-setup-on-way.png" alt-text="向导中用于执行下一步骤的页面的屏幕截图。":::
 
 ## <a name="what-to-do-after-running-the-wizard"></a>运行向导后要执行什么操作
 
@@ -109,7 +109,7 @@ ms.locfileid: "58604591"
 
 |用户的策略分配|生效的策略 |
 |---------|---------|
-|分配到组的策略：否<br/>直接分配给用户的策略：否    |全局 (组织范围的) 默认策略      |
+|分配到组的策略：否<br/>直接分配给用户的策略：否    |全局 (组织范围内的) 默认策略      |
 |分配到组的策略：否<br/>直接分配给用户的策略：是    |直接分配给用户的策略         |
 |分配到组的策略：是<br/>直接分配给用户的策略：是     |直接分配给用户的策略         |
 |分配到组的策略：是<br/>直接分配给用户的策略：否     |分配到组的策略<br/><br/>如果用户是多个组的成员，并且为每个组分配了同一策略区域的策略，则具有最高组分配排名 [的策略](assign-policies.md#group-assignment-ranking) 将生效。       |
@@ -118,12 +118,12 @@ ms.locfileid: "58604591"
 
 对于 [向导应用的每个策略区域](#policies-applied-by-the-wizard)，请执行下列操作：
 
-- 删除学生的所有现有直接作业和组作业，使向导 (的"全局") "默认作业"策略定义生效。
+- 从学生中删除所有现有的直接作业和组作业，使向导 (组织范围的全局) 策略定义生效。
 - 删除教师和教职员工的任何冲突直接分配，使向导创建的自定义策略定义生效。 使用上表确定适用于你的方案。 <br/><br/>请记住，向导使用组作业排名 1（排名最高）向教师和[](assign-policies.md#group-assignment-ranking)教职员工组分配策略。 如果教师和教职员工组的现有策略分配了相同的策略区域，则现有策略将移动到较低的排名，向导分配的策略将生效。
 
 [详细了解](batch-group-policy-assignment-edu.md#remove-a-policy-that-was-directly-assigned-to-users) 如何删除直接分配给用户的策略。
 
-例如，你直接向教师分配了会议策略，并且你的学生具有"全局 (组织范围内的默认) 策略。 在这种情况下，请删除直接分配给教师的会议策略，以便向导创建的会议策略的自定义策略定义生效。 你无需使用现有的全局会议组织 (默认会议策略为学生) ，因为任何其他会议策略都没有任何冲突。
+例如，你直接为教师分配了会议策略，并且你的学生具有"全局 (组织范围的默认会议) 策略。 在这种情况下，请删除直接分配给教师的会议策略，以便向导创建的会议策略的自定义策略定义生效。 你无需使用组织范围内现有的全局会议 (会议策略) ，因为任何其他会议策略都不存在冲突。
 
 <a name="polwiz_addmeasures"> </a>
 
@@ -137,9 +137,9 @@ ms.locfileid: "58604591"
 
 ### <a name="step-3-check-message-center-for-policy-updates"></a>步骤 3：检查消息中心的策略更新
 
-目前，该向导在运行时应用我们建议的策略。 必须知道，当新策略在 Teams 中可用时，向导会自动更新全局 (组织范围的) 默认) 设置。 
+目前，该向导在运行时应用我们建议的策略。 必须知道，当新策略在 Teams 中可用时，) 向导会自动更新全局 (组织范围的默认) 设置。 
 
-但是，请经常[](https://admin.microsoft.com/AdminPortal/Home?#/MessageCenter)检查消息 (中心Microsoft 365 管理中心) ，随时了解新功能及其策略和策略设置，Teams。 
+但是，请经常[](https://admin.microsoft.com/AdminPortal/Home?#/MessageCenter)检查消息 (中心Microsoft 365 管理中心) ，以随时了解新功能及其策略和策略Teams。 
 
 ## <a name="make-changes-in-the-wizard"></a>在向导中进行更改
 
@@ -147,7 +147,7 @@ ms.locfileid: "58604591"
 
 如果在运行向导后需要进行更改，可以重新运行该向导并更改选择。
 
-1. 在 Microsoft Teams 管理中心的左侧导航中，转到"仪表板"，然后在"安全学习环境的简易策略设置"磁贴中，选择"更改 **"。** 
+1. 在管理中心的左侧导航Microsoft Teams，转到"仪表板 **"，然后在**"安全学习 **环境** 轻松策略设置"磁贴中，选择"更改 **"。**
 2. 从此处继续浏览向导的每个页面以进行更改。 您可以更改机构类型、要为其分配策略的教师和教职员工组，或者同时更改两者。
 
 下表总结了在向导中更改时发生的情况。
@@ -164,7 +164,7 @@ ms.locfileid: "58604591"
 
 ### <a name="policy-areas"></a>策略区域
 
-下面是向导涵盖的策略区域以及相应的策略名称。 若要查找这些策略，请转到Microsoft Teams管理中心，然后在左侧导航中，转到每个策略区域页面。
+下面是向导涵盖的策略区域以及相应的策略名称。 若要查找这些策略，请转到Microsoft Teams中心，然后在左侧导航栏中转到每个策略区域页面。
 
 #### <a name="students"></a>[**学生**](#tab/students/)
 
@@ -247,7 +247,7 @@ ms.locfileid: "58604591"
 |  |       |创建语音消息         |在聊天和频道中允许         |在聊天和频道中允许|
 |  |       |在移动设备上，显示最近聊天上方的收藏频道     |已启用         |已启用|
 |  |       |从群组聊天中删除用户         |关闭         |开|
-|应用权限策略  |       |Microsoft 应用         |阻止特定应用并允许所有其他应用> Walkie Talkie 阻止         |允许所有应用|
+|应用权限策略  |       |Microsoft 应用         |阻止特定应用并允许所有其他> Walkie Talkie 阻止         |允许所有应用|
 |  |       |第三方应用         |允许所有应用         |允许所有应用|
 |  |       |自定义应用         |允许所有应用         |允许所有应用|
 |应用设置策略  |           |Upload自定义应用           |关闭         |关闭|
@@ -300,7 +300,7 @@ ms.locfileid: "58604591"
 |实时事件策略  |       |允许安排         |开         |开|
 |  |       |允许与会者转录          |开       |开|
 |  |       |可以加入已计划实时事件的用户        |组织中的每个人        |组织中的每个人|
-|  |       |Who可以录制事件         |始终记录         |始终记录|
+|  |       |Who记录事件         |始终记录         |始终记录|
 |消息传递策略  |       |所有者可以删除已发送的消息         |开|开|
 |  |       |删除已发送的消息         |开         |开|
 |  |       |编辑已发送的消息         |开         |开|

@@ -17,25 +17,25 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: 有关如何在停用本地部署环境时管理 DNS Skype for Business说明。
-ms.openlocfilehash: a69b99f8adf5cf520f08ebef5f08de82426d5723
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 70255314ecf87d55ef578a4daa0390b46179349c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636778"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58735319"
 ---
 # <a name="update-dns-entries-to-enable-your-organization-to-be-all-teams-only"></a>更新 DNS 条目，使组织能够仅Teams DNS
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-以前具有本地部署 Skype for Business Server 或 Lync Server 的组织可能仍具有指向本地部署部署Skype for Business条目。 如果组织包括本地用户，则这些记录Skype for Business用户。 但是，一旦组织不再具有任何本地 Skype for Business 或 Lync Server 用户，本地部署不再需要这些原始记录，并且必须将这些 DNS 条目更新为指向 Microsoft 365 (，或在某些情况下，在从本地迁移到 Teams Only 时删除 **) 。** *Microsoft 无法代表你更新这些 DNS 记录。*
+以前具有本地部署 Skype for Business Server Lync Server 的组织可能仍具有指向本地部署部署Skype for Business条目。 如果组织包括本地用户，则这些记录Skype for Business要求。 但是，一旦组织不再具有任何本地 Skype for Business 或 Lync Server 用户，本地部署不再需要这些原始记录，并且这些 DNS 条目必须更新为指向 Microsoft 365 (，或者在某些情况下，作为从本地迁移到 Teams Only 的一部分删除 **) 。** *Microsoft 无法代表你更新这些 DNS 记录。*
 
-尝试将 TeamsOnly 授予整个租户时，Teams将检查 DNS 以确定下面列出的任何 DNS 记录是否存在于组织Microsoft 365验证的域中。 如果找到任何记录，并且它们指向 Microsoft 365，尝试将租户共存模式更改为 TeamsOnly 将按设计失败。 这样可以防止具有本地用户的混合组织错误地将 TeamsOnly 模式应用到租户，因为这样做会破坏组织中所有本地 Skype for Business 用户的联盟 (无论使用 Teams 还是 Skype for Business) 。
+尝试将 TeamsOnly 授予整个租户时，Teams将检查 DNS 以确定下面列出的任何 DNS 记录是否存在于组织的每个 Microsoft 365 验证域中。 如果找到任何记录，并且它们指向 Microsoft 365，尝试将租户共存模式更改为 TeamsOnly 将按设计失败。 这样可以防止具有本地用户的混合组织错误地将 TeamsOnly 模式应用于租户，因为这样做会破坏组织中所有本地 Skype for Business 用户的联盟 (无论使用 Teams 还是 Skype for Business) 。
 
 
 ## <a name="how-to-identify-stale-dns-records"></a>如何识别过时的 DNS 记录
 
-要标识任何阻止组织成为仅 Teams DNS 记录，可以使用 Teams 管理中心将共存模式更改为 TeamsOnly。 转到"**组织范围的设置Teams**  ->  **升级"。** 任何阻止组织成为Teams仅 DNS 记录都将包含在错误消息中。  如果未找到 DNS 记录，组织的共存模式将更改为 TeamsOnly。   
+若要标识任何阻止组织成为仅Teams DNS 记录，可以使用 Teams 管理中心将共存模式更改为 TeamsOnly。 转到"**组织范围的设置Teams**  ->  **升级"。** 任何阻止组织成为"仅Teams DNS 记录都将包含在错误消息中。  如果未找到 DNS 记录，组织的共存模式将更改为 TeamsOnly。   
 
 或者，您可以使用 Teams PowerShell 执行相同的操作，如下所示：
 
@@ -47,7 +47,7 @@ ms.locfileid: "58636778"
 
 如果您的组织不再有任何用户托管在本地 Skype for Business Server Lync Server 中，则必须执行以下操作：
 
-- 更新Skype for Business DNS 记录列表，以指向Microsoft 365 (而不是本地部署) 。 如果您具有多个 SIP 域，则必须为已验证的每个 SIP 域Microsoft 365 SIP 域。
+- 将Skype for Business DNS 记录列表更新为指向Microsoft 365 (，而不是本地部署) 。 如果具有多个 SIP 域，则必须为已验证的每个 SIP 域Microsoft 365 SIP 域。
 
 - 如果Skype for Business SIP 域，请删除 DNS 记录。 
 
@@ -55,13 +55,13 @@ ms.locfileid: "58636778"
 
 | 记录类型 | 名称 | TTL | 优先级 | 粗细 | 端口 | 值 |
 | :-----| :-----| :---- | :-----| :-----| :-----| :-----|
-| SRV | _sipfederationtls.tcp | 3600 |  100 | 1  | 5061  | sipfed.online.lync.com |
-| SRV | _sip.tls | 3600  | 100 |    1    | 443   | sipdir.online.lync.com |
+| SRV | _sipfederationtls._tcp |    3600 |  100 | 1 | 5061  | sipfed.online.lync.com |
+| SRV | _sip._tls | 3600     | 100 |    1   | 443   | sipdir.online.lync.com |
 | CNAME | lyncdiscover |    3600 |  不适用 |   不适用 |   不适用 |   webdir.online.lync.com |
 | CNAME |   sip | 3600 |    不适用 |   不适用  | 不适用 |    sipdir.online.lync.com |
 |||||||
 
-此外，会议或拨入的 CNAME (如果存在) 可以删除。 最后，应删除Skype for Business网络的任何 DNS 记录。
+此外，还可以删除会议或拨入 (（如果存在) CNAME 记录）。 最后，应删除Skype for Business网络的任何 DNS 记录。
 
 > [!Note] 
 > 在极少数情况下，将组织的 DNS 从本地指向Microsoft 365可能会导致与其他一些组织的联盟停止工作，直到其他组织更新其联盟配置：

@@ -20,22 +20,22 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b4bb596cd7903ec7ff9afdecac1436b4b4e2653c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2edea426fbc9ad0a7c6de026af2a9b5ecf893e1a
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633936"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733921"
 ---
 # <a name="quality-of-experience-review-guide"></a>体验质量检查指南
 
-![突出显示升级旅程的操作优化阶段的示意图](media/upgrade-banner-op-excellence.png "升级旅程的阶段，着重强调&quot;运营优化&quot;阶段")
+![突出显示升级旅程的操作优化阶段的示意图。](media/upgrade-banner-op-excellence.png "升级旅程的阶段，着重强调&quot;运营优化&quot;阶段")
 
 本文是升级过程的操作优化阶段的一部分，一旦完成从 Skype for Business 到 Teams。
 
 ## <a name="improve-and-monitor-call-quality"></a>改进和监视呼叫质量
 
-[改进和](monitor-call-quality-qos.md)监视Teams包括一组活动，这些活动在对改善用户体验影响最大的关键领域进行评估和提供补救指导，如下图所示。
+[改进和](monitor-call-quality-qos.md)监视Teams包括一组活动，这些活动在对改善用户体验影响最大的关键领域进行评估和提供修正指导，如下图所示。
 
 ![说明在评审期间要检查的关键区域。](media/plan-my-service-management-image2.png "在体验质量评审期间要检查的关键方面：音频、可靠性和用户测试结果。")
 
@@ -53,7 +53,7 @@ ms.locfileid: "58633936"
 
 - 子网或网络设备存在问题
 
-改进和监视[Teams](monitor-call-quality-qos.md)的呼叫质量中提供的指南侧重于使用呼叫质量仪表板 (CQD) Online 作为主要工具来报告并调查所述的每个领域，并侧重于音频，以最大限度地提高采用和影响。 为了改进音频体验而对网络所做的任何优化也将会直接带来视频和桌面共享的改进。
+改进和监视[Teams](monitor-call-quality-qos.md)的呼叫质量中提供的指南侧重于使用呼叫质量仪表板 (CQD) Online 作为主要工具来报告并调查所述的每个领域，并侧重于音频，以最大程度地提高采用和影响。 为了改进音频体验而对网络所做的任何优化也将会直接带来视频和桌面共享的改进。
 
 我们强烈建议你尽早提名质量冠军。 获得提名后，他们应开始熟悉改进和监视呼叫质量中的内容，以便[Teams。](monitor-call-quality-qos.md)
 

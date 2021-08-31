@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e999bb144a16ffb8963a7a03458fefb98311423b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2551d0de27bd945dfda1ba943462b33489d7cd42
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627274"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733981"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>了解 Microsoft Teams 中的团队和频道
 
@@ -36,7 +36,7 @@ ms.locfileid: "58627274"
 
 - 频道是团队中完成实际工作的协作空间。 
 
-若要详细了解团队和频道，请参阅团队和频道概述[Microsoft Teams。](teams-channels-overview.md) 有关全面Teams采用指南，请获取Teams[采用指南。](https://aka.ms/teamstoolkit) 若要了解有关组Teams Microsoft 365，请参阅Microsoft 365[组](office-365-groups.md)Microsoft Teams和了解有关组[Microsoft 365。](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)
+若要详细了解团队和频道，请参阅团队和频道概述[Microsoft Teams。](teams-channels-overview.md) 有关全面Teams采用指南，请获取Teams[采用指南。](https://aka.ms/teamstoolkit) 若要详细了解组Teams组Microsoft 365组，请参阅Microsoft 365[组](office-365-groups.md)Microsoft Teams和了解有关组[Microsoft 365。](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)
 
 
 | &nbsp; |&nbsp;  |
@@ -55,10 +55,10 @@ ms.locfileid: "58627274"
 
 使用团队改进跨组织协作是最佳做法，许多项目都适合此模型。 此外，组织内部领导或部门可能希望为他们自己的人员提供专用团队。 请考虑下图中所示的组织模型和项目模型。
 
-![组织和项目模型](media/teams-adoption-organization-project.png)
+![组织和项目模型。](media/teams-adoption-organization-project.png)
 
-在左侧 (显示的组织团队) ，可能会共享有关组织运营方式、团队活动、核心策略和其他运营信息（如业务评审）的关键信息。 对于右侧显示的团队，地区信息将细分为表示该团队正在完成的工作类别的频道。 此团队的成员可以或可能不会向同一个人报告，但他们都参与推动地区结果。
+在组织 (左侧) 中，可能会共享有关组织运营方式、团队活动、核心策略和其他运营信息（如业务评审）的关键信息。 对于右侧显示的团队，地区信息将细分为表示该团队正在完成的工作类别的频道。 此团队的成员可以或可能不会向同一个人报告，但他们都参与推动地区结果。
   
 你将在实施的第 [2](teams-adoption-phase2-experiment.md) 阶段进一步处理团队的结构。
 
-![一个图标，描述下一 ](media/teams-adoption-next-icon.png) 步骤"下 [一步：创建第一个团队"](teams-adoption-your-first-teams.md)
+![一个描述下一步骤的图标。](media/teams-adoption-next-icon.png) 下一 [步：创建你的第一个团队](teams-adoption-your-first-teams.md)

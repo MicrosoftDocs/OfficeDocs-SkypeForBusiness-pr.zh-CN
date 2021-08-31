@@ -19,16 +19,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: bb35bc5a035c03080ce44fa19fa3ecf5a5c674a6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6c60f0f3bcf5fc683a15c5b22cc7b98aa384d477
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580286"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733361"
 ---
 # <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>直接从 Teams 回答自动助理和呼叫队列
 
-Teams用户可以直接从云自动助理接收和接听来自云自动助理的呼叫，并直接从其Teams呼叫队列。
+Teams用户可以直接从云自动助理接收和接听来自云自动助理的呼叫，并直接从其Teams队列。
 
 ## <a name="what-are-auto-attendants-and-call-queues"></a>什么是自动助理和呼叫队列？
 
@@ -42,7 +42,7 @@ Teams用户可以直接从云自动助理接收和接听来自云自动助理的
 
 下图显示了来自自动助理或呼叫队列的传入呼叫如何向用户显示。
 
-![传入呼叫通知的屏幕截图](media/answer-auto-attendant-and-call-queue-calls-image1.png)
+![传入呼叫通知的屏幕截图。](media/answer-auto-attendant-and-call-queue-calls-image1.png)
 
 应答自动助理或呼叫队列呼叫后，用户可以像处理任何其他呼叫一样处理呼叫&#x2014;他们可在其他用户中添加或会议，或者将呼叫转接到另一方。 此外，自动助理呼叫将基于用户的配置进行转发。
 
@@ -60,11 +60,11 @@ Teams用户可以直接从云自动助理接收和接听来自云自动助理的
 -    Microsoft Teams iPhone 应用
 -    Microsoft Teams Android 应用
 
-仅Teams共存模式（仅支持 ）支持 Teams[客户端](/microsoftteams/setting-your-coexistence-and-upgrade-settings)。
+只有 Teams 共存模式才支持 Teams[客户端](/microsoftteams/setting-your-coexistence-and-upgrade-settings)。
 
-## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>为呼叫配置自动助理和呼叫队列Microsoft Teams
+## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>为用户配置自动助理和呼叫Microsoft Teams
 
-若要在客户端上接收自动助理和Microsoft Teams呼叫，需要配置互操作性策略和升级策略。 请查看[将应用程序与 Skype for Business 一起Teams迁移和Skype for Business。](migration-interop-guidance-for-teams-with-skype.md) 如果没有配置自动助理和/或呼叫队列，并且希望这样做，请参阅设置云自动[助理和](create-a-phone-system-auto-attendant.md)[创建云呼叫队列](create-a-phone-system-call-queue.md)。
+若要在客户端上接收自动助理和Microsoft Teams呼叫，需要配置互操作性策略和升级策略。 请查看将 Teams 与 Skype for Business[一起用于组织的迁移和Skype for Business。](migration-interop-guidance-for-teams-with-skype.md) 如果没有配置自动助理和/或呼叫队列，并且希望这样做，请参阅设置云自动[助理和](create-a-phone-system-auto-attendant.md)[创建云呼叫队列](create-a-phone-system-call-queue.md)。
 
 ## <a name="known-issues"></a>已知问题
 
@@ -73,7 +73,7 @@ Teams用户可以直接从云自动助理接收和接听来自云自动助理的
 
 ## <a name="related-topics"></a>相关主题
 
--    [电话系统或Microsoft 365中Office 365](what-is-phone-system-in-office-365.md)
+-    [电话系统或Microsoft 365 Office 365](what-is-phone-system-in-office-365.md)
 -    [创建云呼叫队列](create-a-phone-system-call-queue.md)
 -    [什么是云自动助理？](what-are-phone-system-auto-attendants.md)
 -    [设置云自动助理](create-a-phone-system-auto-attendant.md)

@@ -19,12 +19,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: 如何使用加拿大的 IP 中继帐户。
-ms.openlocfilehash: cf8d63dddea1d26e6fcdf6ffd8701745d50d7385
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 18b6f356f6d90b4e6a962ef1b7709cb3cf39253c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618258"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730971"
 ---
 # <a name="ip-relay-in-canada---user-guide"></a>加拿大 IP 中继 - 用户指南
 
@@ -70,7 +70,7 @@ https://aka.ms/IPRelay
 ### <a name="how-to-place-a-911-call"></a>如何拨打 911 电话：
 如果遇到紧急情况，可以选择位于屏幕底部的相应紧急 (，如下所示) 。
 
-![紧急按钮](../images/ip-relay-emergency-buttons.png)
+!["紧急"按钮。](../images/ip-relay-emergency-buttons.png)
 
 IP 消息中继操作员将联系 911，确认你的地址，并联系各种紧急中心进行翻译，直到不再需要他/她，并且相应的部门已分派到你的位置。
 

@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 了解如何在 Microsoft Teams 中使用和管理私人频道。
-ms.openlocfilehash: 30fafae99505c685a4042a4a79a6a30ff084d8f3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b9f0accb9436ade4bb084b825662ec92453bba24
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579608"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58734171"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft Teams 中的私人频道
 
@@ -40,7 +40,7 @@ Microsoft Teams 中的私人频道创建专用空间供团队展开协作。 仅
 
 创建私人频道后，它将链接到父团队，并且无法移动到其他团队。 此外，不能将私人频道转换为标准频道，反之亦然。
 
-![团队中的私人频道的屏幕截图](media/private-channels-in-teams.png)
+![团队中专用频道的屏幕截图。](media/private-channels-in-teams.png)
 
 ## <a name="private-channel-creation"></a>私有频道创建
 
@@ -66,7 +66,7 @@ Microsoft Teams 中的私人频道创建专用空间供团队展开协作。 仅
 
 私人频道所有者可以单击“**管理频道**”，然后使用“**成员**”和“**设置**”选项卡来添加或删除成员以及编辑设置。
 
-![私人频道设置的屏幕截图](media/private-channels-in-teams-channel-settings.png)
+![专用频道设置的屏幕截图。](media/private-channels-in-teams-channel-settings.png)
 
 ## <a name="private-channel-owner-and-member-actions"></a>专用频道所有者和成员操作
 

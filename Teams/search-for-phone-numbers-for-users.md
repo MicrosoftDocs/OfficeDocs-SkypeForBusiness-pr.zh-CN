@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 了解如何按国家/地区或城市搜索可分配给用户的电话号码，并指定所需的号码数量。
-ms.openlocfilehash: 4fcc5d43ec232d57437cabdc09d38a75910b03f8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 31815ff2877cc487f090600560fe9203c840fe58
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602107"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733561"
 ---
 # <a name="search-for-phone-numbers-for-users"></a>为用户搜索电话号码
 
@@ -40,7 +40,7 @@ ms.locfileid: "58602107"
 
 **搜索用户的电话号码**
 
-![一个图标，显示Teams ](media/teams-logo-30x30.png) **徽标使用 Microsoft Teams管理中心**
+![一个图标，显示Teams徽标。](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
   
 1. 转到 **"Microsoft Teams管理中心"。**
 

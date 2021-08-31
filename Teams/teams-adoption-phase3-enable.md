@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 阅读概述需要学习的步骤，以支持为组织实现Teams大规模支持。
+description: 阅读概述，了解为组织支持大规模Teams支持所需的步骤。
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bced37aba08ca807e6b83091aa85f16a5c99ea22
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 86de4726585f067235c578353a30e0f5ad86574d
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586504"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733721"
 ---
 # <a name="microsoft-teams-adoption-phase-3---scale"></a>Microsoft Teams 采用第 3 阶段 - 扩展
 
-在此阶段，你将使用学习经验、有才能的项目团队，以及与利益干系人、支持者和早期采用者之间的关系，为组织实现广泛的Teams支持。 在准备就组织使用资源进行持续业务参与时，将完成Microsoft Teams：
+在此阶段，你将使用学习经验、有才能的项目团队，以及与利益干系人、支持者和早期采用者之间的关系，为组织实现广泛的Teams支持。 准备在组织中持续进行业务参与时，将完成以下步骤Microsoft Teams：
 
 1. 定义结果和成功度量。
 2. 选择服务策略。
@@ -41,4 +41,4 @@ ms.locfileid: "58586504"
 7. 为持续的业务参与做准备。
 8. 准备正在进行的服务运行状况&采用评审。
 
-![表示下一步"下一步 ](media/teams-adoption-next-icon.png) ： [定义结果和成功"的图标](teams-adoption-define-outcomes.md)
+![表示下一步骤的图标。](media/teams-adoption-next-icon.png) 下一 [步：定义结果和成功](teams-adoption-define-outcomes.md)

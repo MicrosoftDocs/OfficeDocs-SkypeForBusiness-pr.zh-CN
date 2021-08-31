@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
 description: 设计并创建响应组工作流，Skype for Business Server 企业语音。 涵盖搜寻组工作流和互动工作流。
-ms.openlocfilehash: 63069268621ff7f5e2b3783a661e163ff6fe6416
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fe5efd7b5ba851055803298dd077009c238fd1f1
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603112"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730951"
 ---
 # <a name="designing-and-creating-response-group-workflows-in-skype-for-business"></a>在工作流中设计和创建响应组Skype for Business
 
@@ -68,7 +68,7 @@ ms.locfileid: "58603112"
     > 全局外部访问策略适用于响应组应用程序。 可以使用 Skype for Business Server 控制面板或 **Set-CsExternalAccessPolicy** cmdlet 将 EnableOutsideAccess 参数设置为 True，为响应组联盟配置全局策略。 请记住，除非为全局策略设置分配站点或用户策略，否则这些设置适用于所有用户。 因此，在针对响应组更改此设置之前，请确保联盟设置满足您的组织的要求。 有关策略如何适用于用户的详细信息，请参阅[Manage External Access Policy for Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-manage-external-access-policy-for-your-organization)。 有关联合设置的详细信息，请参阅 [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy?view=skype-ps)。
 
     > [!NOTE]
-    > 托管在 Skype for Business Online 中的用户无法呼叫本地部署中托管的响应组。 这一点在混合部署和本地部署与 Skype for Business Online 部署联合时均如此。
+    > 在 Skype for Business Online 中托管的用户无法呼叫本地部署中托管的响应组。 这一点在混合部署和本地部署与 Skype for Business Online 部署联合时均如此。
 
 9. 要在呼叫过程中隐藏代理身份，请选中“启用代理匿名”复选框。
 
@@ -89,7 +89,7 @@ ms.locfileid: "58603112"
 
 13. 在“显示号码”中，键入希望显示的响应组号码（例如，+1 (425) 555-0165）。
 
-14.  (可选) 在"说明"中，键入工作流的说明，因为它显示在联系人卡片中的Skype for Business。
+14.  (可选) 在"说明"中，键入工作流的说明，因为您希望工作流显示在联系人卡片中的Skype for Business。
 
 15. 如果工作流将由响应组管理员进行管理，则在“工作流类型”中，选择“受管理”。 执行以下操作可向工作流分配响应组管理员：
 
@@ -158,7 +158,7 @@ ms.locfileid: "58603112"
 
     - 要将呼叫转接到另一个用户，请单击“转接到 SIP URI”，然后键入该用户的地址。 用户地址的格式为 _\<username\>_ @ _\<domainName\>_ 。
 
-    - 要将呼叫转接到另一个电话号码，请单击“转接到电话号码”，然后键入该电话号码。 电话号码的格式是 *\<number\>* @ *\<domainName\>* + (例如+14255550121@contoso.com) 。 域名可用来将呼叫者路由至正确的目标。
+    - 要将呼叫转接到另一个电话号码，请单击“转接到电话号码”，然后键入该电话号码。 电话号码的格式为 (*\<number\>* @ *\<domainName\>* 例如，+14255550121@contoso.com) 。 域名可用来将呼叫者路由至正确的目标。
 
 24. 在“步骤 5 指定您的假日”下，单击定义响应组停止营业日期的一个或多个假日集对应的复选框。
 
@@ -185,7 +185,7 @@ ms.locfileid: "58603112"
 
     - 要将呼叫转接到另一个用户，请单击“转接到 SIP URI”，然后键入该用户的地址。 用户地址的格式为 _\<username\>_ @ _\<domainName\>_ 。
 
-    - 要将呼叫转接到另一个电话号码，请单击“转接到电话号码”，然后键入该电话号码。 电话号码的格式是 *\<number\>* @ *\<domainName\>* + (例如+14255550121@contoso.com) 。 域名用于将呼叫者路由至正确的目标。
+    - 要将呼叫转接到另一个电话号码，请单击“转接到电话号码”，然后键入该电话号码。 电话号码的格式为 (*\<number\>* @ *\<domainName\>* 例如，+14255550121@contoso.com) 。 域名用于将呼叫者路由至正确的目标。
 
 27. 在“步骤 6 配置队列”下的“选择将接收呼叫的队列”中，选择在出现可以应答的代理之前，使呼叫者处于保持状态的队列。
 
@@ -317,7 +317,7 @@ ms.locfileid: "58603112"
 
  **单级互动呼叫流**
 
-![使用互动语音存储库设计呼叫流](../../media/Ops_OCS_RGS_IVRLevel1.jpg)
+![使用互动语音存储库设计呼叫流。](../../media/Ops_OCS_RGS_IVRLevel1.jpg)
 
 #### <a name="ivr-with-two-levels-of-questions"></a>含有两级问题的 IVR
 
@@ -349,7 +349,7 @@ ms.locfileid: "58603112"
 
  **两级互动呼叫流**
 
-![使用互动语音存储库设计呼叫流](../../media/Ops_OCS_RGS_IVRLevel2.jpg)
+![使用互动语音存储库设计呼叫流。](../../media/Ops_OCS_RGS_IVRLevel2.jpg)
 
 ### <a name="best-practices"></a>最佳做法
 
@@ -413,7 +413,7 @@ ms.locfileid: "58603112"
 11. 在“显示名称”中，键入希望显示的工作流名称（例如，销售 IVR 响应组）。
 
     > [!NOTE]
-    > 请勿将" \<" or "\> "字符包括在显示名称。 请勿使用以下保留的显示名称 **：RGS Presence Watcher** 或 Announcement **Service。**
+    > 请勿将" \<" or "\> " 字符包括在显示名称。 请勿使用以下保留的显示名称 **：RGS Presence Watcher** 或 Announcement **Service。**
 
 12. 在“电话号码”中，键入响应组的线路 URI（例如，+14255550165）。
 
@@ -485,12 +485,12 @@ ms.locfileid: "58603112"
 
     - 要将呼叫转接到另一个用户，请单击“转接到 SIP URI”，然后键入该用户的地址。 用户地址的格式为 _\<username\>_ @ _\<domainname\>_ 。
 
-    - 要将呼叫转接到另一个电话号码，请单击“转接到电话号码”，然后键入该电话号码。 电话号码的格式是 *\<number\>* @ *\<domainname\>* + (例如+14255550121@contoso.com) 。 域名可用来将呼叫者路由至正确的目标。
+    - 要将呼叫转接到另一个电话号码，请单击“转接到电话号码”，然后键入该电话号码。 电话号码的格式为 (*\<number\>* @ *\<domainname\>* 例如，+14255550121@contoso.com) 。 域名可用来将呼叫者路由至正确的目标。
 
 24. 在“步骤 5 指定您的假日”下，单击定义响应组停止营业日期的一个或多个假日集对应的复选框。
 
     > [!NOTE]
-    > 配置工作流之前，您需要先定义假日和假日集。 使用 **New-CsRgsHoliday** 和 **New-CsRgsHolidaySet** cmdlet 可定义假日和假日集。 有关详细信息，请参阅可选[ (在) 定义响应组假日Skype for Business。](optional-define-response-group-holiday-sets.md)
+    > 配置工作流之前，您需要先定义假日和假日集。 使用 **New-CsRgsHoliday** 和 **New-CsRgsHolidaySet** cmdlet 可定义假日和假日集。 有关详细信息，请参阅可选 ([在) 定义响应组假日Skype for Business。](optional-define-response-group-holiday-sets.md)
 
 25. 如果要在假日播放消息，请选中“假期播放消息”复选框，然后通过执行以下操作之一指定要播放的消息：
 
@@ -512,7 +512,7 @@ ms.locfileid: "58603112"
 
     - 要将呼叫转接到另一个用户，请单击“转接到 SIP URI”，然后键入该用户的地址。 用户地址的格式为 _\<username\>_ @ _\<domainname\>_ 。
 
-    - 要将呼叫转接到另一个电话号码，请单击“转接到电话号码”，然后键入该电话号码。 电话号码的格式是 *\<number\>* @ *\<domainname\>* + (例如+14255550121@contoso.com) 。 域名可用来将呼叫者路由至正确的目标。
+    - 要将呼叫转接到另一个电话号码，请单击“转接到电话号码”，然后键入该电话号码。 电话号码的格式为 (*\<number\>* @ *\<domainname\>* 例如，+14255550121@contoso.com) 。 域名可用来将呼叫者路由至正确的目标。
 
 27. 在“步骤 6 配置保持音乐”下，执行以下操作之一，选择希望呼叫者在等待代理时听到的音乐：
 
@@ -533,7 +533,7 @@ ms.locfileid: "58603112"
     > [!NOTE]
     > 文本到语音转换引擎会将符号“#”转换为“号码”这个词。 如果需要指代 # 键，则应该在提示语中使用键名代替符号。 例如，“要与销售人员交谈，请按井号键”。
 
-    - 若要使用包含问题的预先录制的音频文件，请单击"选择录音"，然后单击"**录音**"链接以上载该文件。 In the new browser window， click **Browse**， select the audio file， and then click **Open**. 单击 **Upload"** 以加载文件，然后可以选择在文本框中键入问题 (这样将问题以及呼叫者的响应转发给响应代理) 。
+    - 若要使用包含问题的预先录制的音频文件，请单击"选择录音"，然后单击"**录音**"链接以上载该文件。 In the new browser window， click **Browse**， select the audio file， and then click **Open**. 单击 **Upload** 加载文件，然后可以选择在文本框中键入问题 (这样将问题以及呼叫者的响应转发给响应代理) 。
 
       > [!NOTE]
       > 用户提供的所有音频文件都必须满足特定要求。有关支持的文件格式的详细信息，请参阅[Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group)。

@@ -16,16 +16,16 @@ description: 了解如何使用 Teams 管理中心中的 Microsoft Teams 监视�
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 844dddfc04e1dc29311a237c3fc4f7ac41a1ce7f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b44b564da4e772fb3e385b03d61be6874baf11c5
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636757"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58735349"
 ---
 # <a name="microsoft-teams-device-health-monitoring"></a>Microsoft Teams设备运行状况监视
 
-使用 Microsoft Teams 管理中心中的设备运行状况监视，可以主动监视各种设备Teams运行状况。 监视设备的脱机状态，在组织中受监视的设备脱机时实时接收警报。  
+使用管理中心Microsoft Teams运行状况监视，可以主动监视各种设备Teams运行状况。 监视设备的脱机状态，在组织中受监视的设备脱机时实时接收警报。  
 
 在启动之前，需要租户中的团队/频道创建权限。 [了解更多](/microsoft-365/solutions/manage-creation-of-groups?view=o365-worldwide)。
 
@@ -33,7 +33,7 @@ ms.locfileid: "58636757"
 
 1. 在管理中心的左侧导航Microsoft Teams，选择"通知&**警报**  >  **规则"。**
 
-   ![管理中心中的"规则"部分](../media/select-rules.png)
+   ![管理中心中的"规则"部分。](../media/select-rules.png)
 
 2. 在"**规则"** 页中，选择 **"设备状态规则"。**
 

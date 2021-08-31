@@ -22,16 +22,16 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
-description: 了解如何使用呼叫质量仪表板Power BI报表来查看自动助理和呼叫队列历史数据。
-ms.openlocfilehash: 57cd28fef4a1e24ecc4f29344a6ec91af5e2dbec
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 了解如何使用呼叫质量仪表板Power BI报表来查看自动助理呼叫队列历史数据。
+ms.openlocfilehash: 73ffd8e993a3dacd0412123d49e19c704df0cb8c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593286"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731381"
 ---
 # <a name="what-are-the-requirements"></a>要求是什么？ 
-需要安装Power BI Desktop。 可以从 Microsoft store [Windows安装](https://aka.ms/pbidesktopstore)它。
+需要安装Power BI Desktop。 可以从 Microsoft Store [Windows安装](https://aka.ms/pbidesktopstore)它。
 
 可以使用免费版本的 Power BI Desktop。 最低兼容版本为 2020 年 9 月 (2.85.681.0) 。
 
@@ -39,7 +39,7 @@ ms.locfileid: "58593286"
 用于查看 AA & CQ Analytics 历史报告的帐户需要具有访问 CQD 数据管道的权限。 有关详细信息，请参阅 [CQD](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd) 访问角色。
 
 ## <a name="installation"></a>安装 
-以下步骤假定已在计算机上安装Power BI Desktop，并且帐户具有访问 CQD 数据管道所需的权限。
+以下步骤假定你已在计算机上Power BI Desktop应用程序，并且帐户具有访问 CQD 数据管道所需的权限。
 
 请执行以下步骤：
 - 下载[CQD Teams 自动助理 &队列历史报告模板](./aa-cq-cqd-historical-reports.md)，并将其保存到计算机的目录。
@@ -48,7 +48,7 @@ ms.locfileid: "58593286"
 
 - 系统会提示选择 CQD 数据管道区域。 选择租户所在的区域。
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="管理中心中"呼叫质量仪表板"按钮Teams屏幕截图":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="管理中心内"呼叫质量仪表板"按钮Teams屏幕截图。":::
 
  - 可以使用 Get-CsTenant Skype for Business Online PS cmdlet (查看) 。ServiceInstance 输出。 
  区域将显示在 / 之后，如以下示例所示： 
@@ -59,11 +59,11 @@ ms.locfileid: "58593286"
  
  - 若要查看自己的数据，请单击"开始"选项卡中"查询"下的"Power BI Desktop"。
 
-   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="管理中心中"呼叫质量仪表板"按钮Teams屏幕截图":::
+   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="管理中心内"呼叫质量仪表板"按钮Teams屏幕截图。":::
 
 - 然后，系统会提示你登录。 选择 **"组织帐户**"，然后选择"**登录"。**
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="管理中心中"呼叫质量仪表板"按钮Teams屏幕截图":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="管理中心内"呼叫质量仪表板"按钮Teams屏幕截图。":::
 
 - 选择 **连接** 并观看数据刷新。
 
@@ -83,11 +83,11 @@ ms.locfileid: "58593286"
 请执行以下步骤：
 - 选择 **功能区上的** "视图"选项卡。
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="管理中心中"呼叫质量仪表板"按钮Teams屏幕截图":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="管理中心内"呼叫质量仪表板"按钮Teams屏幕截图。":::
 
 - 从下拉列表中选择颜色架构。
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="管理中心中"呼叫质量仪表板"按钮Teams屏幕截图":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="管理中心内"呼叫质量仪表板"按钮Teams屏幕截图。":::
 
 
 ## <a name="cqd-fields-description"></a>CQD 字段说明
@@ -98,7 +98,7 @@ ms.locfileid: "58593286"
 |自动助理链开始时间         |datetime                 |AA 链开始时间                    |
 |自动助理目录搜索方法  |string                   |最后一个通讯簿搜索方法        |
 |自动助理传输操作          |string                   |呼叫转接目标类型<br>可能的值：<br>§ unknown - 未指定实体类型<br>§ user - 用户实体<br>§ orgaa - 自动助理实体<br>§ hunt_group - 调用队列实体<br>§ 应用程序 - 语音应用程序实体<br>§ external_pstn - 外部 PSTN 实体<br>§ shared_voicemail - 共享语音邮件实体|
-|自动助理通话结果              |string                   |调用结果：<br>§ 未知 - 调用设置或传输失败，服务未收到任何有意义的失败原因 <br>§ transferred_to_user - 通过"按名字/分机号码拨叫"或配置的"菜单选项"将呼叫转接到用户 <br>§ transferred_to_operator - 呼叫已转接到配置的操作员，例如，如果为 AA 配置了接线员数小时 <br>§ failover_to_operator - 传输失败或三次尝试后名称识别不起作用时回退到运算符<br>§ user_terminated - 调用方已终止呼叫 <br>§ service_declined - 按服务拒绝的调用，如果服务无法提取自动助理配置，则可能会发生这种情况 <br>§ service_terminated - 后端服务终止了调用，如果目标传输失败且未将任何运算符配置为回退， <br>§ failed_to_establish_media - 调用方和服务之间的媒体建立失败 <br>§ terminated_no_operator - 名称识别在三次尝试后失败，并且未配置运算符 <br>§ terminated_transfer_failed - 转移到目标失败且未配置运算符 <br>§ terminated_automatic_selection - 如果未在数小时或几小时后配置任何操作，则调用将默认终止 <br>§ transferred_to_shared_voicemail - 已转接到共享语音邮件的呼叫（如果已配置为目标） <br>§ oaa_chain_too_long - 当自动助理连续超过五个自动助理时，呼叫将终止以避免可能的呼叫循环 <br>§ oaa_session_too_long - 调用超出了允许的最大会话长度并且已退出 |
+|自动助理通话结果              |string                   |调用结果：<br>§ 未知 - 调用设置或传输失败，服务未收到任何有意义的失败原因 <br>§ transferred_to_user - 通过"按名字/分机拨叫"或配置的"菜单选项"将呼叫转接到用户 <br>§ transferred_to_operator - 呼叫已转接到配置的接线员，例如，如果为 AA 配置了接线员数小时 <br>§ failover_to_operator - 传输失败或名称识别在三次尝试后不起作用时回退到运算符<br>§ user_terminated - 调用方已终止呼叫 <br>§ service_declined - 按服务拒绝的调用，如果服务无法提取自动助理可能会发生这种情况 <br>§ service_terminated - 后端服务终止了调用，如果目标传输失败且未将操作员配置为回退， <br>§ failed_to_establish_media - 调用方和服务之间的媒体建立失败 <br>§ terminated_no_operator - 名称识别在三次尝试后失败，并且未配置运算符 <br>§ terminated_transfer_failed - 转移到目标失败且未配置运算符 <br>§ terminated_automatic_selection - 如果未在几个小时内或之后配置任何操作，则调用将默认终止 <br>§ transferred_to_shared_voicemail - 将呼叫转接到共享语音邮件（如果已配置为目标） <br>§ oaa_chain_too_long - 当自动助理连续超过五个自动助理时，呼叫将终止以避免可能的呼叫循环 <br>§ oaa_session_too_long - 调用超出了允许的最大会话长度并且已退出 |
 |自动助理呼叫Flow                |string                   |封装调用的不同自动助理状态<br>§ abs_search<br>§ call_termination<br>§ call_transfer<br>§ main_menu<br>§ user_selection<br>§ speech_input_confirmation<br>§ first_level_menu<br>§ automatic_menu<br>§ 公告|
 |是否自动助理涉及              |Boolean                  |指示 AA 是否参与呼叫 |
 |自动助理调用方操作计数      |int                      |调用方使用的操作计数         |
@@ -121,7 +121,7 @@ ms.locfileid: "58593286"
 |AA 名称                                   |string                   |自动助理 ID (资源帐户 ID)  |
 |AACallFlow                              |string                   |封装调用的不同自动助理状态<br>§ abs_search<br>§ call_termination<br>§ call_transfer<br>§ main_menu<br>§ user_selection<br>§ speech_input_confirmation<br>§ first_level_menu<br>§ automatic_menu<br>公告 |
 |AACallResult                            |string                   |调用自动助理结果：<br>§ unknown<br>§ transferred_to_user<br>§ transferred_to_operator<br>§ failover_to_operator<br>§ user_terminated<br>§ service_declined – AA 配置错误<br>§ service_terminated – 内部 AA 错误<br>§ failed_to_establish_media<br> terminated_no_operator<br>§ terminated_transfer_failed<br>§ terminated_automatic_selection<br>§ transferred_to_shared_voicemail<br>§ oaa_chain_too_long<br>§ oaa_session_too_long          |
-|AAChainDuration                         |string                   |调用自动助理持续时间（以秒数）  |
+|AAChainDuration                         |string                   |呼叫自动助理持续时间（以秒数）  |
 |AACount                                 |string                   |涉及自动助理的数         |
 |AADirectorySearchMethod                 |string                   |调用中使用的搜索方法：<br>§ abs_search_dtmf<br>§ abs_search_extension<br>§ abs_search_name|
 |AAStartTime                             |string                   |呼叫时间（UTC）                            |
@@ -163,7 +163,7 @@ ms.locfileid: "58593286"
 |传入呼叫源                    |按内部/外部呼叫源分布呼叫         |
 |呼叫量                             |按呼叫队列分布的呼叫                            |
 |调用方结果                           |按通话结果分布的呼叫                            |
-|超时/溢出调用总数操作      |未转发的已放弃 (的) 结果分布   |
+|超时/溢出调用总数操作      |未转发的已放弃 (的) 按调用结果分布   |
 |转移/转发目标总计          |按呼叫结果转发的呼叫分布                  |
 |已放弃的通话比率                   |成功与放弃的呼叫计数的比率                    |
 |平均会话长度 (秒)         |按放弃/成功调用分组的呼叫长度（以秒数表示）   |
@@ -175,8 +175,8 @@ ms.locfileid: "58593286"
 |名称                                                      |描述                            |
 |:-------------------------------------------------------|:--------------------------------------|
 |代理调用的个次                                        |按呼叫队列和代理分布呼叫                 |
-|代理和 (队列) 的总呼叫持续时间   |代理 (呼叫队列) 的总持续时间（秒）     |
-|按代理名称 (平均) 秒数            |代理 (呼叫) 的平均持续时间) 秒数                  |
+|代理和 (呼叫队列) 总呼叫持续时间   |代理和 (队列) 的总持续时间（秒）     |
+|按代理名称 (平均) 秒数            |代理调用 (的平均) 秒数                  |
 
 
 

@@ -18,29 +18,29 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何使用和管理呼叫者 ID 策略Microsoft Teams更改或阻止组织中Teams用户的来电显示。
-ms.openlocfilehash: ee663a627e89d7ea2a569496a899d2d68b8366ef
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 455bf7e6f2b0e29824188dab3c14ff6cc6b51c91
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619628"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731221"
 ---
 # <a name="manage-caller-id-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理呼叫方 ID 策略
 
 > [!NOTE]
 > 若要将呼叫方 ID 设置为资源帐户电话号码并设置呼叫方名称，请使用 Teams PowerShell 模块 2.3.1 或更高版本中的 PowerShell cmdlet New-CsCallingLineIdentity 或 Set-CsCallingLineIdentity。  (管理中心.) 中目前Microsoft Teams这些选项不可用 
 
-默认情况下，当Teams呼叫 PSTN 电话时，用户的电话号码Teams可见。 同样，当 PSTN 呼叫方呼叫Teams呼叫用户时，PSTN 呼叫者的电话号码将可见。
+默认情况下，当Teams呼叫 PSTN 电话时，用户的电话号码Teams可见。 同样，当 PSTN 呼叫者呼叫Teams呼叫用户时，PSTN 呼叫者的电话号码将可见。
 
-作为管理员，可以使用呼叫方 ID 策略更改或阻止呼叫者 ID (也称为呼叫线路 ID) 。 您可以使用呼叫方 ID 策略显示组织中 Teams 用户的备用电话号码、阻止出站电话号码、阻止显示传入号码，或者将呼叫方名称设置为 CNAM (CNAM) 。 例如，当用户进行呼叫时，你可以更改呼叫者 ID 以显示组织的主要电话号码和公司名称，而不是用户的电话号码。
+作为管理员，可以使用呼叫方 ID 策略更改或阻止呼叫者 ID (也称为呼叫线路 ID) 。 您可以使用呼叫方 ID 策略显示组织中 Teams 用户的备用电话号码、阻止出站电话号码、阻止显示传入号码，或设置呼叫方名称 (CNAM) 。 例如，当用户进行呼叫时，你可以更改呼叫者 ID 以显示组织的主要电话号码和公司名称，而不是用户的电话号码。
 
-通过访问呼叫者管理中心中的"**语音** 呼叫者  >  **ID"Microsoft Teams** 管理呼叫者 ID 策略。 可以使用全局（组织范围内的默认）策略，也可以创建并分配自定义策略。 除非你创建并分配自定义策略，否则你组织中的用户将自动获取全局策略。
+通过访问管理中心中的"**语音** 呼叫者  >  **ID"** 策略，Microsoft Teams呼叫方 ID 策略。 可以使用全局（组织范围内的默认）策略，也可以创建并分配自定义策略。 除非你创建并分配自定义策略，否则你组织中的用户将自动获取全局策略。
 
 ## <a name="create-a-custom-caller-id-policy"></a>创建自定义来电显示策略
 
-1. 在管理中心左侧导航Microsoft Teams，转到"**语音呼叫**  >  **者 ID 策略"。**
+1. 在管理中心的左侧导航Microsoft Teams，转到 **"语音呼叫**  >  **者 ID 策略"。**
 2. 单击“**添加**”。 <br>
-![管理中心中新来电显示策略页面的屏幕截图](media/caller-id-policies-add-policy.png)
+![管理中心中新来电显示策略页面的屏幕截图。](media/caller-id-policies-add-policy.png)
 3. 输入策略的名称和说明。
 4. 从此处选择想要的设置：
 
@@ -60,7 +60,7 @@ ms.locfileid: "58619628"
 
 可以编辑全局策略或创建的任何自定义策略。 
 
-1. 在管理中心左侧导航Microsoft Teams，转到"**语音呼叫**  >  **者 ID 策略"。**
+1. 在管理中心的左侧导航Microsoft Teams，转到 **"语音呼叫**  >  **者 ID 策略"。**
 2. 单击策略名称的左侧以选择用户，然后单击“**编辑**”。
 3. 更改想要的设置，然后单击"保存 **"。**
 

@@ -26,12 +26,12 @@ description: 了解 Microsoft Teams 括号、EHR 集成、第一线工作者系�
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: b88edf016ae59eab6f2d92b1671c39996cb38464
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bfa67a90a2d6938d6bc2db9d65833c03450b6172
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627564"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730671"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>适用于医疗保健组织的 Teams 入门
 
@@ -72,7 +72,7 @@ Microsoft Teams 提供对医疗保健和其他医疗保健组织有用的许多�
 - 如果你的组织已使用电子健康记录（EHR）和 Microsoft Teams，你可以集成 Microsoft Teams 以更加无缝的体验。 借助 Microsoft Teams 电子健康记录 (EHR) 连接器，临床医生可轻松地直接从 EHR 系统直接向 Teams 中的其他提供商发起虚拟患者访视或咨询。 有关详细信息，请参阅 [Teams 的虚拟访问 - 集成到 EHR](ehr-admin.md)。
 - 如果使用的不是受支持的 EHR，可以在 Teams 中使用 Microsoft Bookings 和 Bookings 应用。 有关详细信息，请参阅 [Bookings 应用和 Microsoft Teams](../../bookings-app-admin.md)。
 
-![使用 Microsoft Teams 进行虚拟访问](../../media/virtual-visits-teams.png)
+![使用虚拟访问Microsoft Teams。](../../media/virtual-visits-teams.png)
 
 ## <a name="teams-policy-packages"></a>Teams 策略包
 
@@ -105,7 +105,7 @@ Microsoft Teams 提供对医疗保健和其他医疗保健组织有用的许多�
 
 请您的健康团队聚在一起，以与 Microsoft Teams 协调护理并协作。
 
-![医疗保健：在 Teams 中与运行状况团队协作](../../media/teams-healthcare-collaborate-in-teams.png)
+![医疗保健：与健康团队在Teams。](../../media/teams-healthcare-collaborate-in-teams.png)
 
 Microsoft Teams 提供 Microsoft Teams 中包含的协作功能，使医师、医师和其他人员能够高效协作，例如：
 
@@ -134,7 +134,7 @@ Teams 中的列表应用可帮助团队跟踪信息和组织工作。 该应用�
 
 下面是为患者舍入而设置的示例列表。
 
-:::image type="content" source="../../media/lists-patients-example.png" alt-text="用于患者四角的示例列表的屏幕截图":::
+:::image type="content" source="../../media/lists-patients-example.png" alt-text="患者舍入示例列表的屏幕截图。":::
 
 有关详细信息，请参阅 [Teams](../../manage-lists-app.md)中为组织管理列表。
 

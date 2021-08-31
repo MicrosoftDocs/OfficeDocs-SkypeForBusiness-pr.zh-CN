@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f887916da6db1cb2412f8baa6ffacf6f74d3c5e5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0fbbc32c1a22fb5a2144231964b8498291ca009d
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635086"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730721"
 ---
 # <a name="evaluate-my-environment"></a>评估环境
 
@@ -32,7 +32,7 @@ ms.locfileid: "58635086"
 
 ## <a name="introduction-to-evaluating-your-environment"></a>环境评估简介
 
-为了在 OKR (目标) ，你之前做出过关键服务决策。 下一步是执行环境发现，评估与 IT 和电话基础结构、网络和操作相关的所有方面，以确认组织已准备好实施解决方案。
+为了实现目标关键结果 (OKR) ，您以前做出过关键服务决策。 下一步是执行环境发现，评估与 IT 和电话基础结构、网络和操作相关的所有方面，以确认组织已准备好实施解决方案。
 
 环境发现必须包含网络准备情况评估，以确保你的网络可以支持音频会议或电话系统呼叫计划服务的实现。
 
@@ -43,10 +43,10 @@ ms.locfileid: "58635086"
 
 ## <a name="current-environment"></a>当前环境
 
-作为环境发现的一部分，包括与最终用户计算相关的所有事项，例如电脑和移动设备的准备情况评估，以支持音频会议和 电话系统 呼叫计划业务用例，从硬件要求到软件要求。
+作为环境发现的一部分，包括与最终用户计算相关的所有事项，例如电脑和移动设备的准备情况评估，以支持音频会议和 电话系统 与呼叫计划业务用例（从硬件要求到软件要求）。
 
 环境发现还可以发现是否需要将[电话号码转移到 Microsoft。](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)
-了解此信息有助于组织相应地调整其项目计划，并为号码移植准备必要的信息。 可以使用环境[发现来Microsoft Teams环境](environmental-discovery-for-microsoft-teams-rollout.md)发现。
+了解此信息有助于组织相应地调整其项目计划，并为号码移植准备必要的信息。 可以使用环境发现[来Microsoft Teams环境](environmental-discovery-for-microsoft-teams-rollout.md)发现。
 
 <table>
 <tr><td>标题</td><td>描述</td></tr>
@@ -68,7 +68,7 @@ ms.locfileid: "58635086"
 
 <table>
 <tr><td>标题</td><td>描述</td></tr>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>用户以前是否成功采用软件或服务？</li><li>能否跟踪使用情况上升？</li><li>你是否拥有资源来设计和管理初始的和正在进行的采用活动 (认知、培训和 &mdash; &mdash; 支持) ？</li><li>您是否有专门的用户采用/更改管理团队，或者您是否可以投资这些资源以确保业务成果？</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>用户以前是否成功采用软件或服务？</li><li>能否跟踪使用情况上升？</li><li>你是否拥有资源来设计和管理初始和持续采用活动， (认知、培训和 &mdash; &mdash; 支持) ？</li><li>您是否有专门的用户采用/更改管理团队，或者您是否可以投资这些资源以确保业务成果？</li></ol></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>如果上述所有人员都回答了"是"，请确定适当的用户变更管理利益干系人 &quot; &quot; 并开始用户准备情况规划。</li><li>如果你对上述部分或所有内容都回答了"否"，请考虑利用外部资源来帮助推动组织变更管理和采用 &quot; &quot; 相关的活动。</li></ol></td></tr>
 </table>
 
@@ -79,7 +79,7 @@ ms.locfileid: "58635086"
 
 Teams音频和视频技术 (编) 编解码器，这些编解码器可以适应大多数网络条件，因此在大部分网络条件下性能更佳。 为了确保最佳性能和一致性能，应为网络准备Teams。
 
-![描述质量的三个要素的示意图](media/evaluate-my-environment-image1.png "描述质量的三个组件以及服务管理如何与这三个组件重叠的示意图。将焦点放在网络上。")
+![描述质量的三个要素的示意图。](media/evaluate-my-environment-image1.png "描述质量的三个组件以及服务管理如何与这三个组件重叠的示意图。将焦点放在网络上。")
 
 ## <a name="key-takeaways"></a>要点
 
@@ -105,7 +105,7 @@ Teams音频和视频技术 (编) 编解码器，这些编解码器可以适应�
 -   网络障碍，例如抖动和数据包丢失
 
 下面的步骤可帮助确定部署是否可能受上述任何因素影响，并有助于解决问题。
-无法准备网络可能会导致用户不满意，并需要临时修复费用。 通过为网络和组织准备Teams，可以大幅提高成功的机会。
+无法准备网络可能会导致用户不满意，并需要临时修复费用。 通过为网络和组织准备Teams，可以大幅提高成功的可能性。
 
 <!--ENDOFSECTION-->
 
@@ -117,22 +117,22 @@ Teams音频和视频技术 (编) 编解码器，这些编解码器可以适应�
 
 许多网络设计为使用中心和辐射型拓扑。 在此拓扑中，Internet 流量通常先穿过 WAN 到达中心数据库，然后再向外传输（流出）到 Internet。 通常，这么做事为了集中网络安全设备，目的是降低总成本。
 
-经过 WAN 的回程流量会造成延迟增加，并对质量和用户体验产生负面影响。 由于Microsoft Teams在 Microsoft 的大型全球网络上运行，因此通常存在靠近用户的网络对等位置。 用户通过从其所在位置附近的本地 Internet 点流出并尽快进入我们的语言优化网络，很可能会获得更佳的性能。 对于某些工作负荷，使用 DNS 请求向最近的前端服务器发送流量。 在这种情况下，使用本地出口点时，必须搭配使用本地 DNS 解析。
+经过 WAN 的回程流量会造成延迟增加，并对质量和用户体验产生负面影响。 由于Microsoft Teams Microsoft 的大型全球网络上运行，因此通常存在靠近用户的网络对等位置。 用户通过从其所在位置附近的本地 Internet 点流出并尽快进入我们的语言优化网络，很可能会获得更佳的性能。 对于某些工作负荷，使用 DNS 请求向最近的前端服务器发送流量。 在这种情况下，使用本地出口点时，必须搭配使用本地 DNS 解析。
 
 优化 Microsoft 全球网络的网络路径将提高性能，并最终为用户提供最佳体验。 有关更多详细信息，请参阅博客文章 [Getting the best connectivity and performance in Office 365](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694)（在 Office 365 中获取最佳连接性和性能）。
 
 ### <a name="vpn"></a>VPN
 
-VPN 为许多组织提供很有用的服务。 遗憾的是，它们通常未设计为或配置为支持实时媒体。 一些 VPN 可能还不支持 UDP。 VPN 还会在已加密的媒体流量之上额外引入一层加密。 此外，由于通过 VPN Teams发固定流量，与 Teams 服务的连接可能不太高效。
+VPN 为许多组织提供很有用的服务。 遗憾的是，它们通常未设计为或配置为支持实时媒体。 一些 VPN 可能还不支持 UDP。 VPN 还会在已加密的媒体流量之上额外引入一层加密。 此外，由于通过 VPN 设备Teams发固定流量，连接到 Teams 服务可能没有效率。
 此外，它们不一定从容量角度设计，以适应预期负载，Teams需求。
 
-建议提供一个备用路径，以便 Teams 流量绕过 VPN。 这通常称为 *拆分隧道 VPN。* 拆分隧道意味着Microsoft 365或Office 365流量不会遍历 VPN，而是直接Microsoft 365或Office 365。 此更改将对质量产生积极的影响，但也提供从 VPN 设备和组织网络减少负载的次要优势。
+建议提供一个备用路径，以便 Teams 流量绕过 VPN。 这通常称为 *拆分隧道 VPN。* 拆分隧道意味着 Microsoft 365 或 Office 365 的流量不会遍历 VPN，而是直接Microsoft 365或Office 365。 此更改将对质量产生积极的影响，但也提供从 VPN 设备和组织网络减少负载的次要优势。
 
 要实施拆分通道，请咨询 VPN 供应商了解配置详细信息。
 
 ### <a name="wi-fi"></a>Wi-Fi
 
-与 VPN 一Wi-Fi，不一定设计或配置网络来支持实时媒体。 规划或优化Wi-Fi网络Teams是高质量部署的一个重要考虑因素。
+与 VPN 一Wi-Fi，网络不一定设计为或配置为支持实时媒体。 规划或优化Wi-Fi网络以支持Teams是高质量部署的一个重要考虑因素。
 
 优化网络网络有几个因素Wi-Fi因素：
 
@@ -155,7 +155,7 @@ Microsoft Teams连接到 Microsoft Online Services并且需要 Internet 连接�
 
 打开这些端口对于可靠的部署Teams至关重要。 阻止这些端口不受支持，并且将影响媒体质量。
 
-如果组织要求指定要打开这些端口的确切 IP 地址范围和域，可以限制这些端口的目标 IP 范围和域。 有关确切端口、协议和 IP 范围的列表，请参阅Microsoft 365或Office 365 [URL 和 IP 地址范围](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams)。
+如果组织要求指定要打开这些端口的确切 IP 地址范围和域，可以限制这些端口的目标 IP 范围和域。 有关确切端口、协议和 IP 范围的列表，请参阅 Microsoft 365 或 Office 365 URL 和[IP 地址范围](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams)。
 如果选择限制目标 IP 地址范围和域，必须确保端口和范围列表保持最新，因为它们可能会更改。 您可以订阅此 [RSS 源](https://go.microsoft.com/fwlink/p/?linkid=236301) ，以在发生更改时进行更新。 此外，通过定期运行 Skype for Business 评估工具来测试[是否](https://www.microsoft.com/download/details.aspx?id=53885)打开所有端口也是一个不错的做法。 可以在下一部分中详细了解此工具的功能。
 
 部署代理服务器时，建议针对所有服务绕过Teams服务器。 尽管使用代理可能正常工作，但由于媒体被强制使用 TCP 而不是 UDP，质量很可能降低。 有关代理服务器和绕过操作详细信息，请参阅Microsoft 365或Office 365 [URL 和 IP 地址范围](./office-365-urls-ip-address-ranges.md)。
@@ -164,11 +164,11 @@ Microsoft Teams连接到 Microsoft Online Services并且需要 Internet 连接�
 
 ## <a name="test-the-network"></a>测试网络
 
-完成规划和网络准备（包括升级带宽和在防火墙中打开端口）后，应测试网络的性能。 此测试的结果将更清晰地显示音频会议或通话计划实现成功电话系统修正所需的任何网络优化或修正。
+完成规划和网络准备（包括升级带宽和在防火墙中打开端口）后，应测试网络的性能。 此测试的结果将更清晰地显示音频会议或通话计划实现电话系统所需的任何网络优化或修正。
 
 可以下载Skype for Business[评估工具](https://www.microsoft.com/download/details.aspx?id=53885)，以测试网络是否已准备好Teams。 该工具提供双重功能：它可以测试是否已打开所有正确的端口，并且可以测试网络障碍。
 
-下载并安装该工具后，可以在 C： Program Files Microsoft Skype for Business Network Assessment Tool（程序文件 Microsoft 网络 \\ \\ 评估工具）找到它。 该目录中包含有关如何使用该工具的详细Usage.docx，例如，
+下载并安装该工具后，可在 C： Program Files Microsoft Skype for Business Network Assessment Tool（程序文件 Microsoft 网络 \\ \\ 评估工具）找到它。 该目录中包含有关如何使用该工具的详细Usage.docx，例如，
 
 ### <a name="test-for-opened-ports"></a>测试打开的端口
 
@@ -182,7 +182,7 @@ Microsoft Teams连接到 Microsoft Online Services并且需要 Internet 连接�
 ### <a name="test-for-network-impairments"></a>网络障碍测试
 
 若要提高用户满意度，应限制网络的任何障碍。
-最常见的网络障碍是延迟 (延迟) 、数据包丢失和抖动：
+最常见的网络障碍是延迟 (延迟) 丢包和抖动：
 
 -   **延迟：** 这是从网络上的点 A 到点 B 获取 IP 数据包所花的时间。 此网络传播延迟实质上与两个点之间的物理距离和光速有关，包括介于两者之间的各种路由器所增加的开销。
     延迟以单向或往返时间度量。
@@ -194,11 +194,11 @@ Microsoft Teams连接到 Microsoft Online Services并且需要 Internet 连接�
 媒体质量和网络连接性能中介绍了这些障碍 [的最大值](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance)。
 在测试这些障碍时，我们会区分两个单独的段：
 
--   *边缘段* 是路由器所位于的网段。 这是连接到每个位置的 Internet 的最近逻辑网络段。 在大多数情况下，这是路由器的连接点，也可能是外围网络 (外围网络，也称为 *外围* 网络、外围安全区域以及屏蔽) 。   此网段和 Internet 之间不应出现影响路由器外的其他设备的流量。
+-   *边缘段* 是路由器所位于的网段。 这是连接到每个位置的 Internet 的最近逻辑网络段。 在大多数情况下，这是路由器的连接点，或者可能是外围网络 (外围网络，也称为 *外围* 网络、外围安全区域以及屏蔽子网) 。   此网段和 Internet 之间不应出现影响路由器外的其他设备的流量。
 
 -   客户端 *段* 是客户端所在的逻辑网络段。
 
-应该使用网络评估工具测试这两个段。 若要测试段，请导航到目录，并在命令 **networkassessmenttool.exe** 输入" 结果将写入名为 Results.tsv 的文件，你可以将它们与 [每个段的要求](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance) 进行比较。
+应该使用网络评估工具测试这两个段。 若要测试段，请导航到目录，并在命令 **networkassessmenttool.exe** 输入命令。 结果将写入名为 Results.tsv 的文件，你可以将它们与 [每个段的要求](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance) 进行比较。
 
 请注意，这两个段必须满足高质量部署的要求。 建议直接在一小时内多次运行该工具，以良好地指示网络性能。
 

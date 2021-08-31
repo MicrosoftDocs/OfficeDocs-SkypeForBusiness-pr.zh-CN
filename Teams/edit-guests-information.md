@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-apr2020
-ms.openlocfilehash: da5e5e5a19aa36a0633c9826426cdc16fbc5e7cc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7fdb76abe4a262b1c4ef9c8577902ccfff36e9eb
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604571"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730701"
 ---
 # <a name="edit-guest-information"></a>编辑来宾信息
 
@@ -34,16 +34,16 @@ ms.locfileid: "58604571"
 
 1. 若要编辑来宾信息，[请选择](https://admin.microsoft.com)Microsoft 365 管理中心 **来宾**  >  **用户"。**
 
-   ![正在编辑的来宾用户信息](media/access-guest-user.png)
+   ![正在编辑的来宾用户信息。](media/access-guest-user.png)
 
 2. 从"来宾用户 **"中选择用户**。
 
 3. 在"来宾用户信息"中，选择 **"管理联系人信息"。**
 
-   ![管理联系人信息 ](media/guest-user-data1.png)
+   ![管理联系人信息。](media/guest-user-data1.png)
 
 4. 编辑除"管理联系人信息"中的"显示名称"之外选择的任何 **字段**，然后选择"保存 **更改"。**
 
-   ![编辑来宾用户联系信息](media/manage-guest-contact.png)
+   ![编辑来宾用户联系信息。](media/manage-guest-contact.png)
 
 还可以从门户 编辑[Azure Active Directory来宾](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/UsersManagementMenuBlade/MsGraphUsers)。

@@ -21,13 +21,13 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
-description: 了解如何向用户发送包含其音频会议信息的电子邮件，Microsoft Teams。
-ms.openlocfilehash: 7b92cfd6b030dab4dcf823abc17baeb048a0dc42
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 了解如何向用户发送包含其音频会议信息的电子邮件Microsoft Teams。
+ms.openlocfilehash: 20050f2e4c0e2c8905b552e914c39b72de63c439
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594494"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733231"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>在 Microsoft Teams 中向用户发送包含其音频会议信息的电子邮件
 
@@ -40,14 +40,14 @@ ms.locfileid: "58594494"
    
 下面是发送的电子邮件示例：
   
-![电话拨入式会议电子邮件的示例](media/teams-send-email-to-user-with-audio-conferencing-image1.png)
+![电话拨入式会议电子邮件的示例。](media/teams-send-email-to-user-with-audio-conferencing-image1.png)
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>向用户发送包含音频会议信息的电子邮件
 
-### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) 使用 Microsoft Teams 管理中心
+### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![一个图标，显示Microsoft Teams徽标。](media/teams-logo-30x30.png) 使用 Microsoft Teams 管理中心
 
 1. 在左侧导航栏中， **单击"用户**"，然后从可用用户列表中选择用户。
 

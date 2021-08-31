@@ -19,12 +19,12 @@ MS.collection:
 - microsoftcloud-healthcare
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 41fa4ea8b32b3c8a1b427f95afbc25317933b5cd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 875aeeee6d283a97325ef5aa66402b2c112c4bbd
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586556"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730631"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中为组织管理 Tasks 应用
 
@@ -35,7 +35,7 @@ Tasks 应用为 Microsoft Teams 带来紧密的任务管理体验，通过[微�
 > [!NOTE]
 > 我们正在推出 Teams 桌面客户端上的 Tasks 体验，应用会首先显示为 **Planner**。 然后，此名称会暂时更改为 **Tasks by Planner 和微软代办**，之后会重命名为 **Tasks**。 在 Teams 移动客户端上，用户会始终看到应用名为 **Tasks**。 桌面体验可用后，移动体验的可用性可能会有短暂的延迟。
 
-   ![Teams 列表中任务列表视图截图](media/manage-tasks-app-tasks.png)
+   ![任务列表列表视图的屏幕截图Teams列表。](media/manage-tasks-app-tasks.png)
 
 对于想要简化对前线工作者任务管理的组织，Tasks 也有在前线工作人员中大规模确定目标、发布以及跟踪任务的功能。 比如，企业和地区领导可以创建并发布面向相关地区的任务列表，例如具体的零售店，并通过实时报告跟踪进度。 管理者可以分配任务给员工和地区内的直接活动，前线工作者会在手机和桌面上收到分配任务的优先级清单。 要启用[任务发布](#task-publishing)，你需要首先为组织设置团队目标层次结构，定义结构中的所有团队彼此间的关系。
 
@@ -90,12 +90,12 @@ Tasks 在你的组织中默认为所有 Teams 用户启用。 你可以在 Micro
 通过发布任务，你的组织可以发布在组织内针对特定地点（团队）的任务列表，来定义并共享需要在那些地点完成的工作计划。
 
 - 在发布团队的人员，例如企业或地区领导，可以创建任务列表并发布给特定团队。<br>
-    ![发布任务的屏幕截图](media/manage-tasks-app-publish.png)
+    ![任务发布屏幕截图。](media/manage-tasks-app-publish.png)
 - 收件团队的管理者可以检查发布的任务列表并分配个人任务给团队成员。<br>
-    ![分配任务的屏幕截图](media/manage-tasks-app-assign.png)
+    ![分配任务的屏幕截图。](media/manage-tasks-app-assign.png)
 - 前线工作者有查看已分配任务的简便移动体验。 他们可以在适当的时候附加照片来展示工作并标记任务为已完成。
 - 发布者和管理者可以查看报告来了解各个级别的任务分配和完成状态，包括以地点（团队）、任务列表以及个人任务查看。<br>
-    ![移动端已分配任务的屏幕截图](media/manage-tasks-app-reporting.png)
+    ![移动设备上已分配任务的屏幕截图。](media/manage-tasks-app-reporting.png)
 
 用户在 Tasks 应用中的 **已发布列表** 选项卡创建、管理以及发布任务列表。 此选项卡只在组织已经[设置团队目标层次结构](#set-up-your-team-targeting-hierarchy)并且用户所在团队在该结构中时显示。 此层次结构决定用户是否能够发布或接收任务列表并查看已接收列表的报告。
 

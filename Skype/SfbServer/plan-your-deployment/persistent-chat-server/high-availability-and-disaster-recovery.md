@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d9aa622a-95a3-4d8e-8d49-cbfe183f25bf
 description: 摘要：阅读本主题，了解如何在 Skype for Business Server 2015 中规划持久聊天服务器的高可用性和灾难恢复。
-ms.openlocfilehash: beb1bf01748d9ebb7336238d3ba2d3f1379e7b0f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2a07b9e84e390f8d012308895229eb0da369107c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607969"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731431"
 ---
 # <a name="plan-for-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Plan for high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015
  
@@ -30,7 +30,7 @@ ms.locfileid: "58607969"
 > 不支持SQL持久聊天服务器数据库使用 AlwaysOn 可用性组。 
 
 > [!NOTE] 
-> 持久聊天在 Skype for Business Server 2015 中可用，但在 2019 年 2 Skype for Business Server不再受支持。 相同的功能在 Teams 中可用。 有关详细信息，请参阅[开始升级Microsoft Teams升级](/microsoftteams/upgrade-start-here)。 如果您需要使用持久聊天，您的选择是迁移需要此功能的用户以Teams或继续使用 Skype for Business Server 2015。 
+> 持久聊天在 2015 Skype for Business Server可用，但在 2019 年 2 月不再Skype for Business Server支持。 相同的功能在 Teams。 有关详细信息，请参阅[开始升级Microsoft Teams升级](/microsoftteams/upgrade-start-here)。 如果您需要使用持久聊天，您的选择是迁移需要此功能的用户以Teams，或者继续使用 Skype for Business Server 2015。 
   
 ## <a name="resource-requirements"></a>资源要求
 
@@ -42,7 +42,7 @@ ms.locfileid: "58607969"
     
 - 一个专用数据库实例，用作SQL Server数据库的镜像。 （可选）将SQL Server服务器的其他服务器指定为镜像见证。 它们都必须位于辅助数据库所在的同一物理数据中心。
     
-- 如果启用了持久聊天服务器合规性，则还需要另外三个专用数据库实例。 它们的分布与之前为持久聊天数据库概述的分布相同。 尽管合规性数据库可以与持久聊天数据库共享SQL Server实例，但建议使用高可用性和灾难恢复的独立实例。
+- 如果启用了持久聊天服务器合规性，则还需要另外三个专用数据库实例。 它们的分布与之前为持久聊天数据库概述的分布相同。 尽管合规性数据库可以与持久SQL Server共享同一实例，但建议使用高可用性和灾难恢复的独立实例。
     
 - 必须为日志传输事务日志创建和SQL Server文件共享。 两SQL持久聊天数据库的两个数据中心内的所有服务器都必须对此文件共享具有读/写访问权限。 此共享不会定义为 FileStore 角色的一部分。
     
@@ -50,11 +50,11 @@ ms.locfileid: "58607969"
     
 ## <a name="disaster-recovery-and-high-availability-solutions"></a>灾难恢复和高可用性解决方案
 
-Skype for Business Server支持多种模式的后端服务器高可用性，包括数据库镜像。 有关详细信息，请参阅[Plan for high availability and disaster recovery in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)。 
+Skype for Business Server后端服务器支持多种高可用性模式，包括数据库镜像。 有关详细信息，请参阅[Plan for high availability and disaster recovery in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)。 
   
 本主题中介绍的持久聊天服务器的灾难恢复解决方案是在拉伸的持久聊天服务器池上构建的。 VLAN 部署不需要扩展的虚拟 (网络) 。 通过拉伸持久聊天服务器池，可以逻辑地在拓扑中配置一个池，但实际将池中的服务器放在两个不同的数据中心。 您可以SQL Server配置数据库的镜像，并在同一数据中心部署数据库和镜像。 需要在辅助数据中心中配置一个备份数据库（在灾难恢复期间，用可选镜像来提供高可用性）。 这是在灾难恢复期间用于故障转移的备份数据库。 
   
-若要详细了解如何为持久聊天服务器配置高可用性和灾难恢复，请参阅在 Skype for Business Server [2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)中为持久聊天服务器配置高可用性和灾难恢复。 
+若要详细了解如何为持久聊天服务器配置高可用性和灾难恢复，请参阅 Configure [high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015。](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md) 
   
 下图显示了如何在两个不同的扩展池拓扑中配置持久聊天服务器池：
   
@@ -68,7 +68,7 @@ Skype for Business Server支持多种模式的后端服务器高可用性，包�
     
   - 站点 1 和站点 2 中的持久聊天池，包含服务器 1 到服务器 8。
     
-  - 前端服务器池、持久聊天数据库、镜像数据库以及见证数据库（可选） (未显示在图) 物理上驻留在站点 1 上。 
+  - 前端服务器池、持久聊天数据库、镜像数据库以及见证数据库（可选） (未显示在) 1 物理上的位置。 
     
   - 物理上驻留在站点 2 上的第二个前端服务器池和备份数据库。
     
@@ -80,11 +80,11 @@ Skype for Business Server支持多种模式的后端服务器高可用性，包�
     
   - 前端服务器池、持久聊天数据库、镜像数据库以及见证数据库（可选） (图 1 上未) 显示。
     
-  - 站点 2 上的前端服务器池和备份数据库SQL日志寄送目标。
+  - 站点 2 上的前端服务器池和备份数据库（SQL日志寄送目标）。
     
 **数据中心地理位置时扩展的持久聊天服务器池（高带宽/低延迟）**
 
-![具有高带宽/低延迟的持久聊天拉伸池](../../media/55cf3d4b-5f51-4d2f-84ca-b4a13dc5eba3.png)
+![持久聊天拉伸池，具有高带宽/低延迟。](../../media/55cf3d4b-5f51-4d2f-84ca-b4a13dc5eba3.png)
   
 图 2 显示了数据中心按地理位置的扩展持久聊天服务器池拓扑，低带宽/高延迟。
   
@@ -92,7 +92,7 @@ Skype for Business Server支持多种模式的后端服务器高可用性，包�
     
   - 站点 1 和站点 2 中的持久聊天池，包含服务器 1 到服务器 8。
     
-  - 前端服务器池、持久聊天数据库、镜像数据库以及见证数据库（可选） (未显示在图) 物理上驻留在站点 1 上。 
+  - 前端服务器池、持久聊天数据库、镜像数据库以及见证数据库（可选） (未显示在) 1 物理上的位置。 
     
   - 物理上驻留在站点 2 上的第二个前端服务器池和备份数据库。
     
@@ -104,10 +104,10 @@ Skype for Business Server支持多种模式的后端服务器高可用性，包�
     
   - 前端服务器池、持久聊天数据库、镜像数据库以及见证数据库（可选） (图 1 上未) 显示。
     
-  - 站点 2 上的前端服务器池和备份数据库（SQL日志寄送目标）。
+  - 站点 2 上的前端服务器池和备份数据库SQL日志寄送目标。
     
 **数据中心位于地理位置时扩展的持久聊天服务器池，低带宽/高延迟**
 
-![持久聊天拉伸池，低带宽/高延迟](../../media/40cbd902-57b8-4d57-a61c-cde4e0bd47f0.png)
+![持久聊天拉伸池，具有低带宽/高延迟。](../../media/40cbd902-57b8-4d57-a61c-cde4e0bd47f0.png)
   
 

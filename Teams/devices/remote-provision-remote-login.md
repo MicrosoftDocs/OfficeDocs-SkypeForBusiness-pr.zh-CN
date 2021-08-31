@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何在 Android 设备上远程预配Teams登录
-ms.openlocfilehash: 31a247f7716d1e97ed3ed1e4b9b7f8d20d0881f8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 668e50eab20d96f28ff7a6be49a0ddcac872b393
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632196"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733311"
 ---
 # <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Android 设备的远程预配Teams登录
 
@@ -70,7 +70,7 @@ IT 管理员可以远程预配并登录到 Teams Android 设备。 若要远程�
 
 1. 在"**正在等待激活"选项卡中**，选择"**添加 MAC ID"。**
 
-   ![手动添加设备 mac 地址](../media/remote-provision-6.png)
+   ![手动添加设备 mac 地址。](../media/remote-provision-6.png)
 
 1. 输入 MAC ID。
 1. 输入一个位置，帮助技术人员确定安装设备的位置。
@@ -96,17 +96,17 @@ IT 管理员可以远程预配并登录到 Teams Android 设备。 若要远程�
 
 当设备接通电源并连接到网络时，技术人员将设置设备。 这些步骤在设备上Teams完成。
 
-1. 技术人员从"设备 **"列表中选择**"预配 **设置"。**  
+1. 技术人员从"设备 **"中选择**"预配 **设置"。**  
 
-   !["操作"选项卡中的"预配新设备"选项](../media/provision-device1.png)
+   !["操作"选项卡中的"预配新设备"选项。](../media/provision-device1.png)
   
 2. 技术人员在提供的输入字段中输入特定于设备的验证码。
 
-   ![预配新设备验证](../media/provision-device-verification1.png)
+   ![预配新设备验证。](../media/provision-device-verification1.png)
 
    成功预配设备后，租户名称会显示在登录页上。
 
-   ![登录页上的租户名称](../media/provision-code.png)
+   ![登录页上的租户名称。](../media/provision-code.png)
 
 ## <a name="sign-in-remotely"></a>远程登录
 
@@ -118,9 +118,9 @@ IT 管理员可以远程预配并登录到 Teams Android 设备。 若要远程�
 
 2. 按照"登录 **用户"中的说明操作**，然后选择"关闭 **"。**
 
-   ![单个设备的"登录用户"窗口](../media/sign-in-user.png)
+   ![单个设备的"登录用户"窗口。](../media/sign-in-user.png)
 
 ## <a name="related-article"></a>相关文章
 
 - [在 Teams 中管理设备](device-management.md)
-- [远程Teams更新设备](remote-update.md)
+- [远程Teams设备](remote-update.md)

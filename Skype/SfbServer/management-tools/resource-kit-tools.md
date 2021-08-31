@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
 description: 本文介绍 Skype for Business Server 2015 资源工具包中的工具，包括每个工具的用途及其使用示例。 2015 Skype for Business Server 2015 资源工具包可帮助部署和管理 2015 年 Skype for Business Server IT 管理员更轻松地执行常规任务。 例如，Web Conf Data 工具可用于轻松控制用户在联机会议期间上载的数据。 SEFAUtil 工具可用于为用户设置代理人呼叫转发和应答。 我们鼓励 IT 管理员使用这些工具更有效地管理 Skype for Business Server 2015。
-ms.openlocfilehash: fe281a83790d42cbb08e4f8b12e07d8f5ffcfcbc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b12a09a2b69c3ee11aa9f773e0663a8d67b63063
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612101"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730781"
 ---
 # <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>Skype for Business Server 2015 资源工具包工具文档
 
@@ -36,7 +36,7 @@ ms.locfileid: "58612101"
 
 ## <a name="resource-kit-tools-overview"></a>资源工具包工具概述
 
-以下是 2015 年 2015 资源工具包中Skype for Business Server的列表。 以下各节介绍了每个工具的说明，包括要求和示例用法。
+下面是 2015 年 2 月资源工具包中Skype for Business Server的列表。 以下各节介绍了每个工具的说明，包括要求和示例用法。
 
 - [ABSConfig](resource-kit-tools.md#ABSConfig)
 
@@ -71,7 +71,7 @@ ms.locfileid: "58612101"
 ## <a name="absconfig"></a>ABSConfig
 <a name="ABSConfig"> </a>
 
-ABSConfig (的通讯簿服务配置工具) 一种管理工具，可帮助管理员自定义 Skype for Business Server 2015 中的通讯簿服务配置。 此工具还允许 Skype for Business Server 2015 管理员还原默认通讯簿服务设置。
+通讯簿服务配置工具 (ABSConfig) 是一个管理工具，可帮助管理员自定义 Skype for Business Server 2015 中的通讯簿服务配置。 此工具还允许 Skype for Business Server 2015 管理员还原默认通讯簿服务设置。
 
 ### <a name="description"></a>说明
 
@@ -85,7 +85,7 @@ ABSConfig 是一个图形用户界面应用程序，使管理员能够配置与�
 
 - 若要使管理员能够还原，请默认设置通讯簿服务。
 
-可以使用 ABSConfig 文件启动 ABSConfig ABSConfig.exe文件。 该工具将打开到"**配置属性"** 选项卡。此表包含用于将 Active Directory 域服务属性映射到 Skype for Business Server 2015 的属性字段以及根据特定属性筛选器指定在通讯簿服务文件中包括或排除哪些用户的选项。 它还具有自定义要包含在通讯簿文件中的电话号码值的选项。 通过 **"还原默认值** "选项，管理员可以将通讯簿服务设置还原为默认值。
+可以使用 ABSConfig 文件启动 ABSConfig ABSConfig.exe文件。 该工具将打开到"**配置属性"** 选项卡。此表包含一些选项，用于将 Active Directory 域服务属性映射到 Skype for Business Server 2015 的属性字段，并基于特定属性筛选器指定在通讯簿服务文件中要包含或排除哪些用户。 它还具有自定义要包含在通讯簿文件中的电话号码值的选项。 通过 **"还原默认值** "选项，管理员可以将通讯簿服务设置还原为默认值。
 
 > [!NOTE]
 > AD 属性到不同 OC 字段名称的重新映射仅适用于通讯簿文件下载，并且不受通讯簿 Web 查询支持。
@@ -106,11 +106,11 @@ ABSConfig 提供了一种快速而轻松地自定义 Skype for Business Server 2
 
 #### <a name="computer"></a>计算机
 
-ABSConfig 只能从安装了 2015 Skype for Business Server加入域的计算机运行。 对于 Skype for Business Server 2015 Enterprise Edition，此工具可以在安装期间启用了通讯簿服务的任何 Front-End 服务器上运行。
+ABSConfig 只能从安装了 2015 的已加入域Skype for Business Server运行。 对于 Skype for Business Server 2015 Enterprise Edition，此工具可以在安装期间启用了通讯簿服务的任何 Front-End 服务器上运行。
 
 #### <a name="network"></a>网络
 
-计算机应能够连接到Front-End池和后端数据库。
+计算机应能够连接到 Front-End 池和后端数据库。
 
 #### <a name="software"></a>软件
 
@@ -137,7 +137,7 @@ ABSConfig 工具为管理员提供了一个快速且易于使用的工具来自�
 
 带宽策略服务监视器工具用于允许管理员查看以下项的列表：
 
-1. 拓扑中配置的所有 Skype for Business Server 2015 带宽 (身份验证) 核心策略服务
+1. 拓扑中配置的所有 Skype for Business Server 2015 带宽策略 (身份验证) 核心策略服务
 
 2. 每个服务与其他带宽策略服务和边缘服务器的连接
 
@@ -229,14 +229,14 @@ ABSConfig 工具为管理员提供了一个快速且易于使用的工具来自�
 
 - 收集日志，这些日志使用 WanLinkLogCollector.exe
 
-- 自定义报告，BandwidthUtilizationAnalyzer.xls使用 m
+- 自定义报告，这些报表使用 BandwidthUtilizationAnalyzer.xlsm
 
     > [!IMPORTANT]
-    > 强烈建议最终用户BandwidthUtilizationAnalyzer.xls手动启动此模式。
+    > 我们强烈建议BandwidthUtilizationAnalyzer.xls不要由最终用户手动启动。
 
 #### <a name="starting-bandwidth-utilization-analyzer"></a>启动带宽利用率分析器
 
-在WanLinkLogCollector.exe提示符或资源管理器Windows启动命令。
+在WanLinkLogCollector.exe或通过使用资源管理器Windows启动命令。
 
  **使用 WanLinkLogCollector.exe**
 
@@ -256,7 +256,7 @@ ABSConfig 工具为管理员提供了一个快速且易于使用的工具来自�
 
 2. **结束日期** 这是要生成报告的日程表的结束日期;例如，2010 年 9 月 30 日。
 
-     ![带宽利用率 A 中的开始日期和结束日期](../media/Reskit_2012_Tools_Documentation_Image4.jpg)
+     ![带宽利用率 A 中的开始日期和结束日期。](../media/Reskit_2012_Tools_Documentation_Image4.jpg)
 
 #### <a name="step-2---specify-the-file-directories"></a>步骤 2 - 指定文件目录
 
@@ -266,7 +266,7 @@ ABSConfig 工具为管理员提供了一个快速且易于使用的工具来自�
 
 - **临时文件存储位置** 生成报告时存储中间文件的临时文件位置。
 
-    ![带宽利用率 Anal 中的文件目录](../media/Reskit_2012_Tools_Documentation_Image5.jpg)
+    ![带宽利用率 Anal 中的文件目录。](../media/Reskit_2012_Tools_Documentation_Image5.jpg)
 
     > [!NOTE]
     > 确保向工具用户提供了对服务器日志和临时文件存储文件夹的足够文件访问权限。
@@ -275,22 +275,22 @@ ABSConfig 工具为管理员提供了一个快速且易于使用的工具来自�
 
 若要收集日志并启动报告查看器， **请单击"执行** "，如下所示。 此步骤收集所需的数据。
 
-![在带宽利用率分析中收集数据](../media/Reskit_2012_Tools_Documentation_Image6.jpg)
+![在带宽利用率分析中收集数据。](../media/Reskit_2012_Tools_Documentation_Image6.jpg)
 
 输入验证成功后，将显示如下所示的消息。
 
-![记录带宽 Utili 中收集的通知](../media/Reskit_2012_Tools_Documentation_Image7.jpg)
+![记录带宽 Utili 中收集的通知。](../media/Reskit_2012_Tools_Documentation_Image7.jpg)
 
-单击“**确定**”。 BandwidthUtilizationAnalyzer.xlsm 将自动启动。 按照消息框中的说明操作。 有关详细信息，请参阅下一 **BandwidthUtilizationAnalyzer.xls使用** m。
+单击“确定”。 BandwidthUtilizationAnalyzer.xlsm 将自动启动。 按照消息框中的说明操作。 有关详细信息，请参阅下一 **BandwidthUtilizationAnalyzer.xls使用** m。
 
 
 ### <a name="using-bandwidthutilizationanalyzerxlsm"></a>使用 BandwidthUtilizationAnalyzer.xlsm
 
 1. 当BandwidthUtilizationAnalyzer.xlsm 时，请单击" **刷新** "，如下所示。
 
-     ![BandwidthUtilizationAnalyzer.xlsm](../media/Reskit_2012_Tools_Documentation_Image8.jpg)
+     ![BandwidthUtilizationAnalyzer.xlsm.](../media/Reskit_2012_Tools_Documentation_Image8.jpg)
 
-2. 打开文件文件夹后，consolidated.csv在消息框中指定的位置选择"文件"，如下所示。 它还以 **C：\Temp** 显示位置。
+2. 打开文件文件夹时，consolidated.csv在消息框中指定的位置选择一个文件夹，如下所示。 它还以 **C：\Temp** 显示位置。
 
      ![在 BandwidthUtilizationAnalyzer 中打开文件夹。](../media/Reskit_2012_Tools_Documentation_Image9.jpg)
 
@@ -373,7 +373,7 @@ ABSConfig 工具为管理员提供了一个快速且易于使用的工具来自�
 
 ### <a name="description"></a>说明
 
-呼叫 Parkometer 是跟踪当前已呼叫的一种工具。 它还收集有关通道和呼叫管理服务器或 CPS (使用情况) 统计信息。 此命令行工具提供从本地或远程连接的计算机对 CPS 通道数据库SQL Server读写访问权限。
+呼叫 Parkometer 是跟踪当前已呼叫的一种工具。 它还收集有关通道和呼叫 (CPS 使用情况) 统计信息。 此命令行工具提供从本地或远程连接的计算机对 CPS 通道数据库SQL Server读写访问权限。
 
 所有选项都是互斥的。 命令行语法如下所示：
 
@@ -409,7 +409,7 @@ ABSConfig 工具为管理员提供了一个快速且易于使用的工具来自�
 
 - Currently parked calls
 
-- 可用通道中的 () 数
+- 可用通道 (可用) 数量
 
 - 最近接听的呼叫
 
@@ -467,9 +467,9 @@ Currently parked calls： the -n parameter lists all currently used orbits on th
 
 ### <a name="description"></a>说明
 
-DBAnalyze 是一个命令行工具，可帮助管理员收集有关 2015 Skype for Business Server分析报告。 DBAnalyze 具有以下模式：诊断、用户数据、会议、MCUS 和磁盘碎片：
+DBAnalyze 是一个命令行工具，可帮助管理员收集有关 Skype for Business Server 2015 数据库的分析报告。 DBAnalyze 具有以下模式：诊断、用户数据、会议、MCUS 和磁盘碎片：
 
-- **诊断模式** 创建一个报告，其中包含有关表 (记录数的信息， 碎片、数据大小和索引大小) 、数据和 日志文件 大小、上次备份时间、运行 Microsoft Office Communications Server 的服务器之间的联系人分布、平均权限数、联系人、容器、订阅、出版物、每个用户的终结点、任何未正确拥有的用户、无法路由的用户、每个用户组织的会议的平均数量、计划的会议、活动会议以及数据库版本。
+- **诊断模式** 创建一个报告，其中包含有关表 (记录数的信息， 碎片、数据大小和索引大小) 、数据和 日志文件 大小、上次备份时间、运行 Microsoft Office Communications Server 的服务器之间的联系人分布、平均权限数、联系人、容器、订阅、出版物、每个用户的终结点、任何未正确设置的用户、无法路由的用户、每个用户组织的会议的平均数量、计划的会议、活动会议以及数据库版本。
 
     > [!NOTE]
     > 运行诊断模式可能会影响服务器性能。
@@ -504,11 +504,11 @@ DBAnalyze 是一个命令行工具，可帮助管理员收集有关 2015 Skype f
 
  **网络** 计算机应能够连接到后端数据库。
 
- **必须先** Skype for Business Server 2015 软件组件，然后才能运行 DBAnalyze。
+ **在** Skype for Business Server DBAnalyze 之前，必须安装 2015 软件组件和软件组件。
 
- **用户** 下表显示具有访问 2015 数据库所需的Skype for Business Server管理员。
+ **用户** 下表显示了具有访问 2015 数据库所需的Skype for Business Server管理员。
 
-![Permissions table for Dbanalyze.exe.](../media/Reskit_2012_Tools_Documentation_Image36.JPG)
+![权限表Dbanalyze.exe。](../media/Reskit_2012_Tools_Documentation_Image36.JPG)
 
 > [!NOTE]
 > **/report：disk** 模式需要本地管理员帐户。
@@ -533,7 +533,7 @@ DBAnalyzer 为管理员提供了快速、轻松地分析 Skype for Business Serv
 ## <a name="import-storage-service-data"></a>导入存储服务数据
 <a name="Issd"> </a>
 
-ImportStorageServiceData 资源工具包工具允许重新导入从 存储 Service (LYSS) 刷新回 存储 服务的队列和终结点数据。
+ImportStorageServiceData 资源工具包工具允许重新导入从 存储 服务 (LYSS) 刷新到 存储 服务的队列和终结点数据。
 
 ### <a name="description"></a>说明
 
@@ -541,17 +541,17 @@ ImportStorageServiceData 资源工具包工具允许重新导入从 存储 Servi
 
  **方案 1：** 在池故障转移期间，可能会从每个前端的存储服务中刷新文件。 故障转移完成后，应运行该工具以重新导入数据。
 
- 方案 **2：** 数据每天自动刷新，或为了响应超过特定大小阈值的 存储 服务数据库 (例如 60%、80%、90%) 。 此自动刷新的数据应定期由管理员重新导入。 在以上情况下，如果未部署监控 SCOM 包，则 Skype for Business Server 存储 Service 将发生与从 存储 服务刷新的数据相关的事件。 ) 启动 32075 (完全刷新操作的事件 ID，已完成) 、32 (082 (维护级别刷新已启动) 、32083 (维护级别刷新完成) 、32089 (刷新（由于填充数据库) ）。 请注意，这些事件 ID 对应于 RTM 版本。 当管理员看到这些事件时，这意味着存在已刷新的文件。应定期使用此工具重新导入此数据，例如每周一次。
+ 方案 **2：** 数据每天自动刷新，或为了响应超过特定大小阈值的 存储 服务数据库 (例如 60%、80%、90%) 。 此自动刷新的数据应定期由管理员重新导入。 在以上情况下，如果未部署监控 SCOM 包，则 Skype for Business Server 存储 Service 将发生与从 存储 服务刷新的数据相关的事件。 ) 启动 32075 (完全刷新操作的事件 ID，32076 (已完成) 、32082 (维护级别刷新开始) 、32083 (维护级别刷新完成) 、32089 (刷新由于填充数据库) 而发生。 请注意，这些事件 ID 对应于 RTM 版本。 当管理员看到这些事件时，这意味着存在已刷新的文件。应定期使用此工具重新导入此数据，例如每周一次。
 
-对于联机服务版本，如果部署了适用于 Skype for Business Server 的运行状况监控 SCOM 包，则可能会引发新的警报，要求管理员将刷新的数据重新导入回 存储 服务。 在触发警报的服务器上，事件日志中Front-End事件。 该事件将说明刷新的数据文件所在的父路径，以及有多少文件符合警报条件。 警报条件是特定父路径下存在至少为 Y 天 (其中 X 和 Y 在 StorageService 中预设，但可通过更改 APPCONFIG 文件替代。) 下面显示了两个可触发运行状况警报的事件示例，区别在于它们的父路径不同。 一种可能位于 Web 服务文件共享下，另一种可能就是每个前端的本地应用程序数据目录。  (c：\ProgramData\Microsoft\Skype for Business Server 2015\StorageService) 。 然后，管理员将运行此 reskit 工具。
+对于联机服务版本，如果部署了适用于 Skype for Business Server 的运行状况监视 SCOM 包，则可能会引发新的警报，要求管理员将刷新的数据重新导入回 存储 服务。 在触发警报的服务器上，事件日志中Front-End事件。 该事件将说明刷新的数据文件所在的父路径，以及有多少文件符合警报条件。 警报条件是特定父路径下存在至少为 Y 天 (其中 X 和 Y 在 StorageService 中预设，但可通过更改 APPCONFIG 文件替代。) 下面显示了两个可触发运行状况警报的事件示例，其中差异是它们的父路径。 一种可能位于 Web 服务文件共享下，另一种可能就是每个前端的本地应用程序数据目录。  (c：\ProgramData\Microsoft\Skype for Business Server 2015\StorageService) 。 然后，管理员将运行此 reskit 工具。
 
-如果运行此工具的前端不拥有数据，则此工具将增加它所运行的前端和其他前端上的 CPU 和 IO 负载。 建议在前端不占用大量 CPU 和 IO 负载时（例如，在高峰时段之外）运行此工具。 其次，此工具可以 2 到 3 分钟导入一个数据文件。 在估计工具将运行的时间时，请记住这一点。 默认情况下，日志文件生成的详细文件将显示在文件存储中。 如果没有报告错误，请将其删除，因为日志文件数十 MB 或更多。
+如果运行该工具的前端不拥有数据，则此工具将增加它所运行的前端和其他前端上的 CPU 和 IO 负载。 建议在前端不占用大量 CPU 和 IO 负载时（例如，在高峰时段之外）运行此工具。 其次，此工具可以 2 到 3 分钟导入一个数据文件。 在估计工具将运行的时间时，请记住这一点。 默认情况下，日志文件生成的详细内容将显示在文件存储中。 如果没有报告错误，请将其删除，因为日志文件数十 MB 或更多。
 
 ![示例 存储 Server 事件日志事件。](../media/Reskit_2012_Tools_Documentation_Image1.jpg)
 
 ### <a name="requirements"></a>要求
 
-安装 Skype for Business Server 2015 资源工具包工具。 该工具在已加入域的计算机上安装Skype for Business Server命令行Skype for Business Server命令行管理程序。 该工具使用命令行管理程序中的 cmdlet 标识池中Front-End服务器。 其次，必须从池中安装了 **RtcLocal** 数据库的计算机执行该工具。 该工具使用该数据库检索池的 WEBSERVICE 文件共享的位置。 此外，在使用该工具之前，每台 Front-End 服务器必须先在每个 Front-End 服务器上以及从其中执行该工具的计算机上使用 **Enable-PSRemoting** 启用 Windows PowerShell 远程处理。 否则，Windows PowerShell的远程命令将失败。 Windows PowerShell完成后，可以在池中的所有Front-End服务器上关闭远程。 最后，调用该工具的帐户或凭据必须具有对正在执行此工具的池的 webservice 文件共享的读/写权限。 否则，该工具将失败，出现 IO 权限错误。
+安装 Skype for Business Server 2015 资源工具包工具。 该工具在安装了命令行管理程序Skype for Business Server Skype for Business Server加入域的计算机运行。 该工具使用命令行管理程序中的 cmdlet 标识Front-End服务器。 其次，必须从池中安装了 **RtcLocal** 数据库的计算机执行该工具。 该工具使用该数据库检索池的 WEBSERVICE 文件共享的位置。 此外，在使用该工具之前，每台 Front-End 服务器必须先在每个 Front-End 服务器上以及从其中执行该工具的计算机上使用 **Enable-PSRemoting** 启用 Windows PowerShell 远程处理。 否则，Windows PowerShell中的远程命令将失败。 Windows PowerShell完成后，可以在池中的所有Front-End服务器上关闭远程。 最后，调用该工具的帐户或凭据必须具有对正在执行此工具的池的 webservice 文件共享的读/写权限。 否则，该工具将失败，出现 IO 权限错误。
 
 > [!NOTE]
 > 默认情况下Windows Server 2012，Windows PowerShell启用远程处理，但不在 Windows Server 2008 操作系统上启用远程。
@@ -736,7 +736,7 @@ LookupUserConsole 工具显示有关Skype for Business Server的内部路由信�
 
 ### <a name="description"></a>说明
 
- 执行LookupUserConsole.exe将打开一个命令提示符，该命令提示符接受 SIP 地址并尝试显示Skype for Business Server的内部路由信息。 键入 **exit** 以退出 LookupUserConsole 工具。
+ 执行LookupUserConsole.exe将打开一个命令提示符，该命令提示符接受 SIP 地址，并尝试显示Skype for Business Server的内部路由信息。 键入 **exit** 以退出 LookupUserConsole 工具。
 
 ### <a name="requirements"></a>要求
 
@@ -799,13 +799,13 @@ MSTurnPing 工具允许 Skype for Business Server 2015 通信软件的管理员�
 
    - 验证 Skype for Business Server/视频身份验证服务是否已启动，并可以发出正确的凭据。
 
-   - 验证Skype for Business Server/视频边缘服务是否已启动，并可以成功分配外部边缘上的资源。
+   - 验证音频Skype for Business Server/视频边缘服务是否已启动，并可以成功分配外部边缘上的资源。
 
 2. 带宽策略服务测试：该工具通过执行以下操作，对在拓扑中运行带宽策略服务的所有服务器执行测试：
 
    - 验证已Skype for Business Server带宽策略服务 (身份验证) ，并可以发出正确的凭据。
 
-   - 验证已Skype for Business Server核心 (策略) ，并可以成功执行带宽检查。
+   - 验证是否已Skype for Business Server核心 (策略) ，并可以成功执行带宽检查。
 
 必须从属于拓扑一部分并且安装了本地存储的计算机运行此工具。
 
@@ -823,7 +823,7 @@ MSTurnPing 工具允许 Skype for Business Server 2015 通信软件的管理员�
 
   - 在拓扑中提供 Skype for Business Server 2015 带宽策略服务 (身份验证) 计算机的测试结果
 
-  - 在拓扑中提供 Skype for Business Server 2015 带宽策略服务 (核心) 测试结果
+  - 在拓扑中提供 Skype for Business Server 2015 带宽策略服务 (核心) 计算机的测试结果
 
 ### <a name="requirements"></a>要求
 
@@ -876,7 +876,7 @@ Skype for Business Server 2015 通信软件管理员可以使用网络配置查�
 
 ### <a name="examples"></a>示例
 
- 以图形格式从 **Skype for Business Server 2015** 部署加载和查看 CAC 网络拓扑：Skype for Business Server 2015 管理员可以使用"下载网络配置"选项在任何 Skype for Business Server 2015 计算机上加载和查看 CAC 网络拓扑配置，如下图所示。 在未连接到 Skype for Business Server 2015 配置存储的计算机上部署该工具时，将无法下载或查看此类配置。
+ 以图形格式从 **Skype for Business Server 2015** 部署加载和查看 CAC 网络拓扑：Skype for Business Server 2015 管理员可以使用下图所示的"下载网络配置"选项在任何 Skype for Business Server 2015 计算机上加载和查看 CAC 网络拓扑配置。  在未连接到 Skype for Business Server 2015 配置存储的计算机上部署该工具时，将无法下载或查看此类配置。
 
 ![下载网络配置。](../media/Reskit_2012_Tools_Documentation_Image23.jpg)
 
@@ -884,7 +884,7 @@ Skype for Business Server 2015 通信软件管理员可以使用网络配置查�
 
 ![打开带宽策略服务器日志文件。](../media/Reskit_2012_Tools_Documentation_Image24.jpg)
 
-以 XML 格式在磁盘上保存和存储 CAC 网络拓扑：Skype for Business Server 2015 管理员可以使用如下所示的"保存网络配置的副本"选项以 XML 格式保存 CAC网络拓扑配置文件。 然后，可以将保存的配置文件脱机用于图形查看目的。
+在磁盘上以 XML 格式保存和存储 CAC 网络拓扑：Skype for Business Server 2015 管理员可以使用"保存网络配置的副本"选项以 XML 格式保存 CAC网络拓扑配置文件，如下所示。 然后，可以将保存的配置文件脱机用于图形查看目的。
 
 ![将网络配置另存为 XML 文件。](../media/Reskit_2012_Tools_Documentation_Image25.jpg)
 
@@ -892,17 +892,17 @@ Skype for Business Server 2015 通信软件管理员可以使用网络配置查�
 
 ![将网络配置保存为图片。](../media/Reskit_2012_Tools_Documentation_Image26.jpg)
 
- <strong>查看 CAC</strong>网络拓扑配置数据：Skype for Business Server 2015 管理员可以使用如下所示的"查看网络配置数据"选项，以文本格式查看相关的网络配置数据，如网络区域、网络站点、带宽配置文件和站点子网 IP 地址。
+ <strong>View CAC network topology configuration data：</strong>Skype for Business Server 2015 administrators can view related network configuration data such as network regions， network sites， bandwidth profiles， and site subnet IP addresses in a textual format by using the View Network Configuration data option as shown below.
 
 ![查看网络配置数据。](../media/Reskit_2012_Tools_Documentation_Image27.jpg)
 
- 以树视图样式查看 CAC 网络拓扑 **：Skype for Business Server** 2015 管理员可以使用工具窗口左侧的控制面板，以图形树视图样式查看相关的网络配置数据，如下所示。
+ 以树视图样式查看 CAC 网络拓扑 **：Skype for Business Server** 2015 管理员可以使用工具窗口左侧的控制面板以图形树视图样式查看相关的网络配置数据，如下所示。
 
 ![在树视图中查看网络配置数据。](../media/Reskit_2012_Tools_Documentation_Image28.jpg)
 
- 为 CAC 网络拓扑链接定义自定义连接器 (例如站点到区域、区域到区域以及站点到站点链接 **) ：Skype for Business Server** 2015 管理员可以使用如下所示的 设置 选项为 CAC 网络配置 WAN 链接定义自定义图形连接器。 这有助于区分在网络配置中预配的各种类型的网络链接。
+ 定义 CAC 网络拓扑链接的自定义连接器 (例如站点到区域、区域到区域以及站点到站点链接 **) ：Skype for Business Server** 2015 管理员可以使用如下所示的 设置 选项为 CAC 网络配置 WAN 链接定义自定义图形连接器。 这有助于区分在网络配置中预配的各种类型的网络链接。
 
-![工具](../media/Reskit_2012_Tools_Documentation_Image29.jpg)
+![工具。](../media/Reskit_2012_Tools_Documentation_Image29.jpg)
 
  **查看 CAC 网络拓扑站点** 信息、区域信息和已设置带宽策略：Skype for Business Server 2015 管理员可以使用如下所示的选项查看相关的 CAC 网络区域信息、站点信息和 CAC 带宽设置信息。  (例如，单击 **网络区域或** 网络站点对象中的"信息"。) 
 
@@ -910,7 +910,7 @@ Skype for Business Server 2015 通信软件管理员可以使用网络配置查�
 
 ### <a name="summary"></a>摘要
 
-此工具对于希望以图形格式Skype for Business Server CAC 网络拓扑的 2015 管理员来说，可能是一项有价值的资源。
+此工具对于希望以图形格式查看部署的 CAC Skype for Business Server 2015 管理员来说，可能是一项有价值的资源。
 
 ## <a name="response-group-agent-live"></a>响应组代理实时
 <a name="RGAL"> </a>
@@ -919,7 +919,7 @@ Skype for Business Server 2015 通信软件管理员可以使用网络配置查�
 
 ### <a name="description"></a>说明
 
-响应组代理 Live 是一个 Windows 应用程序，提供登录和注销功能以及一些实时信息 (如组成员身份和当前呼叫数) 响应组代理。 它应该是"代理组"页的增强版本 (可从Skype for Business。
+响应组代理 Live 是一个 Windows 应用程序，它提供登录和注销功能以及一些实时信息 (如组成员身份和当前呼叫数) 响应组代理。 它应该是"代理组"页的增强版本， (访问Skype for Business。
 
 ### <a name="purpose"></a>用途
 
@@ -927,7 +927,7 @@ Skype for Business Server 2015 通信软件管理员可以使用网络配置查�
 
 #### <a name="features"></a>功能
 
-响应组代理实时工具基于响应组服务和 Skype for Business Server 2015 SDK 构建。 它向响应组代理提供响应组服务服务 (例如组成员身份、其他代理的存在以及等待呼叫数) 。
+响应组代理实时工具基于响应组服务和 Skype for Business Server 2015 SDK 构建。 它向响应组代理提供响应组服务服务 (例如组成员身份、其他代理的存在以及等待呼叫数等) 。
 
 下图说明了响应组代理 Live 的主要接口。
 
@@ -943,7 +943,7 @@ Skype for Business Server 2015 通信软件管理员可以使用网络配置查�
 
   - 使用可配置的键盘快捷方式。
 
-- **组成员身份：** 选择代理组后，"响应组代理实时"会在右窗格中显示该组中的代理列表。 如果Skype for Business Server应用程序在同一计算机上运行 2015，则状态信息和联系人卡片将显示在响应组代理 Live 中。 代理可以直接从该发送 IM 或呼叫其他代理。
+- **组成员身份：** 选择代理组后，"响应组代理实时"会在右窗格中显示该组中的代理列表。 如果Skype for Business Server应用程序在同一计算机上运行 2015，状态信息和联系人卡片将显示在响应组代理实时中。 代理可以直接从该发送 IM 或呼叫其他代理。
 
 - **实时统计信息：** 响应组代理实时提供所有代理组实时统计信息。 更新频率为一分钟。 响应组应答呼叫时，组名称旁边会添加一个可视指示器，其中显示当前排队呼叫数。 在组上暂停指针还会显示最长的等待时间。
 
@@ -961,11 +961,11 @@ Skype for Business Server 2015 通信软件管理员可以使用网络配置查�
 
 可以在响应组代理实时配置中自定义以下三个不同的设置：
 
-- 主机地址：这通常是属于代理主池的 Web 池 FQDN。 确切的响应组服务地址在后台自动派生自此信息 (在主机更新后追加正确的) 。
+- 主机地址：这通常是属于代理主池的 Web 池 FQDN。 确切的响应组服务地址在后台自动派生自此信息 (主机更新后追加正确的) 。
 
-- 快捷方式：可以自定义登录/注销的确切快捷方式。 唯一的限制是，这两个快捷方式必须包含"Windows 徽标" (以及至少另一个) 。
+- 快捷方式：可以自定义登录/注销的确切快捷方式。 唯一的限制是，这两个快捷方式必须包含"徽标Windows徽标" (除了至少另一个键) 。
 
-- 首先Windows：应用程序可以配置为自动启动Windows。
+- 首先Windows：可以将应用程序配置为自动启动Windows。
 
 ### <a name="examples"></a>示例
 
@@ -984,7 +984,7 @@ Skype for Business Server 2015 通信软件管理员可以使用网络配置查�
 ## <a name="sefautil"></a>SEFAUtil
 <a name="SEFAUtil"> </a>
 
-SEFAUtil (辅助扩展功能激活) 是一个命令行工具，使 Skype for Business Server 2015 通信软件管理员和技术支持代理能够代表 Skype for Business Server 2015 用户配置委派响铃、呼叫转发、同时响铃、团队呼叫设置和组呼叫接听。 该工具还允许管理员查询为特定用户发布的呼叫路由设置。 SEFAUtil 工具允许管理员代表用户启用/禁用/修改呼叫转发或同时响铃。 管理员可以以 SIP URI (指定目标) 或使用用户已发布的目标。 此工具还允许管理员代表用户添加或删除代理人或团队呼叫组的成员。 此工具基于 Microsoft 统一通信托管 API (UCMA) 3.0，要求管理员在 SEFAUtil 的中央管理存储中创建受信任的应用程序。
+SEFAUtil (辅助扩展功能激活) 是一个命令行工具，使 Skype for Business Server 2015 通信软件管理员和技术支持代理能够代表 Skype for Business Server 2015 用户配置委派响铃、呼叫转发、同时响铃、团队呼叫设置和组呼叫接听。 该工具还允许管理员查询为特定用户发布的呼叫路由设置。 SEFAUtil 工具允许管理员代表用户启用/禁用/修改呼叫转发或同时响铃。 管理员可以以 SIP URI (指定目标) 或使用用户已发布的目标。 此工具还允许管理员代表用户添加或删除代理人或团队呼叫组的成员。 此工具基于 Microsoft 统一通信托管 API (UCMA) 3.0 构建，要求管理员在 SEFAUtil 的中央管理存储中创建受信任的应用程序。
 
 SEFAUtil (辅助扩展功能激活) 使 Skype for Business Server 2015 管理员和技术支持代理可以代表 Skype for Business Server 2015 用户配置委派响铃、呼叫转发、同时响铃、团队呼叫设置和组呼叫接听。 此工具还允许管理员查询为特定用户发布的呼叫路由设置。
 
@@ -1029,7 +1029,7 @@ SEFAUtil (辅助扩展功能激活) 使 Skype for Business Server 2015 管理员
 
 以下是可能使用此工具的一些关键方案：
 
-- Bob 是一名主管，已Skype for Business Server电话服务。 他对现有 PBX 系统具有委派。 作为移动到 Skype for Business Server 2015 的一部分，管理员能够配置 Bob 的路由以反映其预先存在的委派配置。
+- Bob 是一名主管，已移至Skype for Business Server电话服务。 他对现有 PBX 系统具有委派。 作为移动到 Skype for Business Server 2015 的一部分，管理员能够配置 Bob 的路由以反映其预先存在的委派配置。
 
 - Alice 正在出差，意识到她需要一位客户发来重要电话。 但是，她位于酒店中，无法访问计算机。 她呼叫支持人员，请求他们将拨打她的工作电话号码的所有呼叫转发到其移动电话号码。 支持人员可以代表她执行配置。
 
@@ -1054,7 +1054,7 @@ SEFAUtil 工具只能在属于受信任应用程序池一部分的计算机上�
     > [!NOTE]
     > UCMA 3.0 必须安装在将用于运行 SEFAUtil 工具的任何计算机上。
 
-2. 需要在 SEFAUtil 工具的拓扑中定义受信任应用程序。 若要将 SEFAUtil 定义为新的受信任应用程序，请使用 Skype for Business Server 命令行管理程序并执行以下 cmdlet：
+2. 需要在 SEFAUtil 工具的拓扑中定义受信任应用程序。 若要将 SEFAUtil 定义为新的受信任应用程序，Skype for Business Server命令行管理程序并执行以下 cmdlet：
 
    ```powershell
    New-CsTrustedApplication -ApplicationId sefautil -TrustedApplicationPoolFqdn <Pool FQDN> -Port 7489
@@ -1065,7 +1065,7 @@ SEFAUtil 工具只能在属于受信任应用程序池一部分的计算机上�
     
     > [!NOTE]
     > 池 FQDN：将承载 SEFAUtil 应用程序的服务器或池的 FQDN (通常是 Skype for Business 前端服务器>池) 。
-    > 池注册器 FQDN：与Skype for Business关联的前端服务器或池的 FQDN 应用程序池。
+    > 池注册器 FQDN：Skype for Business前端服务器或池的 FQDN 应用程序池。
     > 池站点：此池所位于的站点的站点 ID。
 
 3. 需要启用拓扑更改。 可通过命令行管理程序通过Skype for Business Server cmdlet 启用拓扑更改：
@@ -1223,7 +1223,7 @@ Call Forward No Answer to: voicemail
 
 #### <a name="add-a-delegate-and-set-up-the-call-forward-to-delegates-rule"></a>添加代理和设置Call-Forward委派规则
 
-本示例添加一个代理人，并设置代理的呼叫转发规则。
+本示例添加一个代理，并设置呼叫转发给代理人规则。
 
 ```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /adddelegate:anders@contoso.com /fwdtodelegates
@@ -1278,7 +1278,7 @@ User Ring time: 00:00:30
 Call Forward No Answer to: voicemail
 ```
 
-#### <a name="add-a-team-member-for-team-call-and-set-up-simultaneous-ringing-to-the-team-call-members-group"></a>为用户添加Team-Call并设置同时响铃到Team-Call成员组
+#### <a name="add-a-team-member-for-team-call-and-set-up-simultaneous-ringing-to-the-team-call-members-group"></a>为用户添加团队成员Team-Call将同时响铃设置为Team-Call成员组
 
 本示例向用户的团队呼叫组添加团队成员，并启用团队呼叫组同时响铃。
 
@@ -1319,7 +1319,7 @@ User Ring time: 00:00:30
 Call Forward No Answer to: voicemail
 ```
 
-#### <a name="set-the-delayed-ring-to-the-team-call-group"></a>将延迟圈设置为Team-Call组
+#### <a name="set-the-delayed-ring-to-the-team-call-group"></a>将延迟响铃设置为Team-Call组
 
 此示例将延迟响铃更改为团队呼叫组时间设置。
 
@@ -1422,7 +1422,7 @@ SYSPrep.ps1是一Windows PowerShell脚本，它将在 Skype for Business Server 
 
 - Skype for Business Server 2015 核心文件
 
-  虽然脚本名称类似于 Microsoft Windows的系统准备工具，但二者有所不同。 此脚本将仅安装 2015 年 Skype for Business Server必备组件。 安装这些必备组件后，Windows SYSPrep 工具创建服务器映像。
+  虽然脚本名称类似于 Microsoft Windows System Preparation Tool，但二者有所不同。 此脚本将仅安装 2015 年 Skype for Business Server必备组件。 安装这些必备组件后，Windows SYSPrep 工具创建服务器映像。
 
 ### <a name="requirements"></a>要求
 
@@ -1437,7 +1437,7 @@ SYSPrep.ps1是一Windows PowerShell脚本，它将在 Skype for Business Server 
 | Visual C++ 2010 可再发行组件  <br/>          | <https://www.microsoft.com/download/details.aspx?id=5555>  <br/>  |
 | Internet Information Server 更新  <br/>      | <https://www.microsoft.com/download/details.aspx?id=34869>  <br/> |
 | Windows Identity Foundation  <br/>              | <https://www.microsoft.com/download/details.aspx?id=17331>  <br/> |
-| 2015 Skype for Business Server Setup.exe  <br/> | 从 2015 Skype for Business Server复制  <br/>                   |
+| Skype for Business Server 2015 Setup.exe  <br/> | 从 2015 Skype for Business Server复制  <br/>                   |
 
 ### <a name="parameter"></a>参数
 
@@ -1465,7 +1465,7 @@ SYSPrep.ps1是一Windows PowerShell脚本，它将在 Skype for Business Server 
 1. 将源服务器或池中承载的公告应用程序的未分配号码通知使用的所有音频文件移动到目标服务器或池的文件存储中。
 
     > [!NOTE]
-    > 将音频文件复制到目标池后，将从源池中删除它们。
+    > 音频文件复制到目标池后，将从源池中删除。
 
 2. 将为源服务器或池中承载的公告应用程序配置的所有未分配号码通知移动到目标服务器或池。
 
@@ -1485,15 +1485,15 @@ SYSPrep.ps1是一Windows PowerShell脚本，它将在 Skype for Business Server 
 
 - **将配置设置迁移到新版本的 Skype for Business Server：** Contoso 正在迁移到 Skype for Business Server 2015，作为迁移过程的一部分，Skype for Business Server 管理员希望将通知应用程序服务的未分配号码配置从 Lync Server 2013 部署移动到新的 Skype for Business Server 2015 部署。 若要移动配置设置，Skype for Business Server使用未分配号码通知迁移工具。
 
-- **将部署从 Skype for Business Server 2015 回滚到 Lync Server 2013：** 由于意外因素，Contoso 必须回滚到新的 Skype for Business Server 2015 部署。 为了最大限度地减少服务中断，Skype for Business Server 管理员使用未分配号码通知迁移工具将配置从 Skype for Business Server 2015 部署回滚到 Lync Server 2013 部署。
+- **将部署从 Skype for Business Server 2015 回滚到 Lync Server 2013：** 由于意外因素，Contoso 必须回滚到新 Skype for Business Server 2015 部署的迁移。 为了最大限度地减少服务中断，Skype for Business Server 管理员使用未分配号码通知迁移工具将配置从 Skype for Business Server 2015 部署回滚到 Lync Server 2013 部署。
 
-- **在部署之间移动数据：** Contoso 正在将一个池的所有服务器替换为较新的服务器。 其策略是，在 2015 Skype for Business Server新池，将旧池的所有数据移动到新池，然后弃用旧池。 部署新池后，使用未分配号码通知迁移工具将配置从旧池移动到新池。
+- **在部署之间移动数据：** Contoso 正在将一个池的所有服务器替换为较新的服务器。 其策略是部署新的 Skype for Business Server 2015 池，将旧池的所有数据移动到新池，然后弃用旧池。 部署新池后，使用未分配号码通知迁移工具将配置从旧池移动到新池。
 
 #### <a name="requirements"></a>要求
 
 以下是成功运行该工具所需的主要要求：
 
-1. 必须从已安装命令行管理程序的计算机Skype for Business Server脚本。
+1. 必须从安装了命令行管理程序的计算机Skype for Business Server脚本。
 
 2. 通知应用程序必须成功部署到源和目标服务器Skype for Business池中。
 
@@ -1515,7 +1515,7 @@ Move-CsAnnouncementConfiguration.ps1 -Source LS2013Pool.contoso.com -Destination
 
 #### <a name="moving-the-unassigned-number-announcements-configuration-from-a-skype-for-business-server-2015-pool-to-a-lync-server-2013-pool"></a>将未分配号码通知配置从 Skype for Business Server 2015 池移动到 Lync Server 2013 池
 
-此示例将未分配号码通知从源池 (Skype for Business Server 2015) 移动到目标池 (Lync Server 2013) 。
+此示例将未分配号码通知从源池 (Skype for Business Server 2015) 到目标池 (Lync Server 2013) 。
 
 ```powershell
 Move-CsAnnouncementConfiguration.ps1 -Source SfBS2015Pool.contoso.com -Destination LS2013Pool.contoso.com
@@ -1524,7 +1524,7 @@ Move-CsAnnouncementConfiguration.ps1 -Source SfBS2015Pool.contoso.com -Destinati
 ## <a name="web-conf-data"></a>Web Conf 数据
 <a name="WebConfData"> </a>
 
-Web Conf Data Tool 允许 Skype for Business Server 2015 通信软件的管理员对与组织者的 Web 会议关联的数据进行更多控制。 方案包括基于时间戳条件删除特定用户的会议数据的能力。
+Web Conf Data Tool 允许 Skype for Business Server 2015 通信软件的管理员对与组织者的 Web 会议关联的数据进行更多控制。 方案包括能够基于时间戳条件删除特定用户的会议数据。
 
 ### <a name="description"></a>说明
 

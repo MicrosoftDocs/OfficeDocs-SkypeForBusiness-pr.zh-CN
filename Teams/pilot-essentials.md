@@ -18,16 +18,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6164d1db4117550519c170b982cc8285196203a2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 521e5eb81d2688c924e3f2c76a25c86f6645b02d
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613611"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733291"
 ---
 # <a name="conduct-a-user-pilot"></a>执行用户试点
 
-![升级过程图，突出显示"部署和实现"](media/upgrade-banner-deployment.png "升级旅程的阶段，着重强调部署和实施阶段")
+![升级过程图，突出显示"部署和实现"。](media/upgrade-banner-deployment.png "升级旅程的阶段，着重强调部署和实施阶段")
 
 本文是升级旅程的部署和实施阶段的一部分，分享有关运行有效试点的见解。 在继续之前，请确认已经完成了以下活动:
 
@@ -44,8 +44,8 @@ ms.locfileid: "58613611"
 
 | | |
 |---|---|
-| ![描述决策点的图标](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>如何使用试点来通知项目方向？</li></ul> |
-| ![描述后续步骤的图标](media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>使用以下指南设计和执行正式试点。</li></ul>|
+| ![描述决策点的图标。](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>如何使用试点来通知项目方向？</li></ul> |
+| ![一个描述下一步骤的图标。](media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>使用以下指南设计和执行正式试点。</li></ul>|
 
 > [!Tip]
 > 使用示例 [试点资源](https://aka.ms/UpgradeSuccessKit) 来帮助设计通信、测试计划和反馈调查。
@@ -58,10 +58,10 @@ ms.locfileid: "58613611"
 
 ## <a name="2-select-your-pilot-participants-and-test-scenarios"></a>2. 选择试点参与者和测试方案
 
-试点计划最重要的任务之一是仔细选择参与者。 请记住，Teams团队协作进行了优化，因此请确保不仅基于角色或角色选择试点参与者，而且还要基于其项目和跨团队工作选择试点参与者。 一个很好的起点是让利益干系人与部门经理了解可在项目内验证的实际Teams。 基于角色的项目的一个示例可能是将 Teams 用于销售组织，以确保现场代表可以轻松访问所需的资源，并与其他现场成员共享见解。 基于项目的工作的一个示例可能是将产品发布活动与营销、培训、公共关系和事件规划团队协调。 无论选择哪种方案，试点都应扩展到 IT、培训和支持人员中的关键人员，以便你可以全面验证解决方案，同时完全优化项目管理资源。
+试点计划最重要的任务之一是仔细选择参与者。 请记住，Teams团队协作进行了优化，因此，请确保不仅基于角色或角色选择试点参与者，而且还要基于其项目和跨团队工作选择试点参与者。 一个很好的起点是要求利益干系人与部门经理提供可在项目内验证Teams。 基于角色的项目的一个示例可能是将 Teams 用于销售组织，以确保现场代表可以轻松访问所需的资源，并与其他现场成员共享见解。 基于项目的工作的一个示例可能是将产品发布活动与营销、培训、公共关系和事件规划团队协调。 无论选择哪种方案，试点都应扩展到 IT、培训和支持人员中的关键人员，以便你可以全面验证解决方案，同时完全优化项目管理资源。
 
 > [!Tip]
-> 在选择Teams试点组参与者时，请确保包括最热门Skype for Business。 请与这些用户核实，了解他们当前Skype for Business，然后制定测试计划来验证Teams满足其当前需求。
+> 在选择Teams试点组参与者时，请确保包括最热门Skype for Business。 请与这些用户核实以了解他们当前Skype for Business，然后制定测试计划来验证Teams满足其当前需求。
 
 ## <a name="3-design-your-test-plan-and-feedback-survey"></a>3. 设计测试计划和反馈调查
 
@@ -80,7 +80,7 @@ ms.locfileid: "58613611"
 
 准备好所有物流后，即可开始试点。 试点包括与用户通信、监视网络和使用情况以确保网络性能和呼叫质量保持正常、从参与者收集反馈，以及查看支持人员票证中与 Teams。
 
-### <a name="tips-for-pilot-success"></a>使用技巧试点成功的计划
+### <a name="tips-for-pilot-success"></a>使用技巧试运行成功的基础
 
 以下提示有助于确保试点成功：
 
@@ -106,11 +106,11 @@ ms.locfileid: "58613611"
 
 如果结果指示：
 
-- **你的试点 (** 例如，用户满意度和网络质量) 已实现，你应准备好继续进行下一阶段的推出。 根据项目的目标，这可能是下列其中一项：
+- **你的试点 (，** 例如，用户满意度和网络质量) 已实现，你应准备好继续进行下一阶段的推出。 根据项目的目标，这可能是下列其中一项：
   - 将试点扩展到其他参与者
   - [为Teams或 **Skype for Business (启用)** 群岛模式"](./setting-your-coexistence-and-upgrade-settings.md)
-  - [将用户从 Skype for Business 升级到 Teams (Teams **仅**) 部分或所有组织使用模式](./setting-your-coexistence-and-upgrade-settings.md)
+  - [将用户从 Skype for Business 升级到 Teams (Teams **仅**) 或全组织使用模式](./setting-your-coexistence-and-upgrade-settings.md)
 - **试运行未达到** 预期效果，例如 (满意度和网络质量) ，请花些时间对计划进行适当的调整，然后重新访问试点。
 
 > [!Tip]
-> 将试点参与者作为对等支持者加入，以帮助宣传新用户并加入Teams。 对等支持者可以轻松地与其他用户关联、分享其自己的体验和学习，以及向同事提供支持和指导。 详细了解冠军 [以及如何](https://go.microsoft.com/fwlink/?linkid=859068) 在你自己的推出中使用它们。
+> 将试点参与者登记为对等支持者，帮助宣传新用户并加入Teams。 对等支持者可以轻松地与其他用户关联、分享其自己的体验和学习，以及向同事提供支持和指导。 详细了解冠军 [以及如何](https://go.microsoft.com/fwlink/?linkid=859068) 在你自己的推出中使用它们。

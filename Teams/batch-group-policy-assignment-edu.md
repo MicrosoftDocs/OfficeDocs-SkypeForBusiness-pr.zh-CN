@@ -15,25 +15,25 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 了解如何根据组成员身份或直接通过远程学校、远程学校 (批量分配为教育机构中的大量用户) 策略。
+description: 了解如何根据组成员身份或直接通过远程学校、远程学校 (批量分配，为教育机构中的大量用户分配) 策略。
 f1keywords: ''
-ms.openlocfilehash: 29e32229462d9ac9e256c3c8ece0ab3f02312631
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8d7eed80375b87eb09cbad803e99d35578c5bbc8
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619648"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731371"
 ---
 # <a name="assign-policies-to-large-sets-of-users-in-your-school"></a>为学校中的大量用户分配策略
 
 [!INCLUDE [policy-wizard-edu](includes/policy-wizard-edu.md)]
 
 > [!NOTE]
-> 有关在管理中分配策略的较大Microsoft Teams，请参阅在 Teams[中向用户分配Teams。](assign-policies.md)
+> 有关在服务中分配策略的较大Microsoft Teams，请参阅在 Teams 中[为用户分配策略](assign-policies.md)。
 
 ## <a name="overview"></a>概述
 
-你是否需要为学生和教师提供对应用内不同功能Microsoft Teams？ 可以按许可证类型快速标识组织中用户，然后为其分配适当的策略。 本教程介绍如何向学校中的大量用户分配会议策略。 可以使用管理中心和 PowerShell Microsoft Teams策略，我们将展示这两种方法。
+你是否需要为学生和教师提供对应用内不同功能Microsoft Teams？ 可以按许可证类型快速标识组织中用户，然后为其分配适当的策略。 本教程介绍如何向学校中的大量用户分配会议策略。 可以使用管理中心Microsoft Teams PowerShell 分配策略，我们将展示这两种方法。
 
 可以将会议策略分配给用户作为成员的安全组，或者直接通过批处理策略分配大规模地将会议策略分配给用户。 你将了解以下内容：
 
@@ -51,7 +51,7 @@ ms.locfileid: "58619648"
 
 在本教程中，学生将获取全局会议策略，我们将为教职员工和教师分配名为"教师""MeetingPolicy"的自定义会议策略。 我们假定你已编辑全局策略，为学生定制会议设置，并创建了一个[](policy-packages-edu.md)自定义策略，用于定义教职员工和教师的会议体验。
 
-![管理中心内"会议策略"Teams屏幕截图](media/batch-group-policy-assignment-edu-meeting-policies.png)
+![管理中心内"会议策略"Teams屏幕截图。](media/batch-group-policy-assignment-edu-meeting-policies.png)
 
 ## <a name="assign-a-policy-to-a-group"></a>向组分配策略
 
@@ -60,7 +60,7 @@ ms.locfileid: "58619648"
 ### <a name="before-you-get-started"></a>开始之前
 
 > [!IMPORTANT]
-> 将策略分配到组时，策略分配将按照优先级规则传播到该组的成员。 例如，如果直接为用户分配了一个策略 (单独分配或批处理分配) ，则该策略优先于从组继承的策略。 这也意味着，如果用户具有直接分配给他们的会议策略，则你必须从该用户中删除该会议策略，然后他们才能从安全组继承会议策略。
+> 将策略分配到组时，策略分配将按照优先级规则传播到该组的成员。 例如，如果直接为用户分配了策略 (单独分配或批处理分配) ，则该策略优先于从组继承的策略。 这也意味着，如果用户具有直接分配给他们的会议策略，则你必须从该用户中删除该会议策略，然后他们才能从安全组继承会议策略。
 
 在开始使用之前，必须了解优先级[规则和](assign-policies.md#precedence-rules)[组分配排名](assign-policies.md#group-assignment-ranking)。 **请确保阅读并了解有关组的策略分配的信息 [中的概念](assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups)**。
 
@@ -89,7 +89,7 @@ ms.locfileid: "58619648"
 2. 选择" **组策略分配"** 选项卡。
 3. 选择 **"添加组**"，然后在" **将策略分配到组"窗格中** 执行以下操作：
 
-    !["编辑设置"窗格的屏幕截图，显示会议策略](media/batch-group-policy-assignment-edu-group.png)
+    !["编辑设置"窗格的屏幕截图，显示会议策略。](media/batch-group-policy-assignment-edu-group.png)
     1. 在 **"选择组"** 框中，搜索并添加包含教职员工和教师的安全组。
     2. 在"**选择排名"** 框中，输入 **1。**
     3. 在"**选择策略"框中**，选择 **"教师""MeetingPolicy"。**
@@ -130,7 +130,7 @@ New-CsGroupPolicyAssignment -GroupId staff-faculty@contoso.com -PolicyType Teams
 
 ### <a name="remove-a-policy-that-was-directly-assigned-to-users"></a>删除直接分配给用户的策略
 
-请记住，如果直接为用户分配了一个策略 (单独分配或通过批处理分配) ，该策略优先。 这意味着，如果用户具有直接分配给他们的会议策略，则你必须从该用户中删除该会议策略，然后才能从安全组继承会议策略。
+请记住，如果直接为用户分配了策略 (单独分配或批处理分配) ，则该策略优先。 这意味着，如果用户具有直接分配给他们的会议策略，则你必须从该用户中删除该会议策略，然后才能从安全组继承会议策略。
 
 若要了解有关详细信息， [请参阅有关向组分配策略的需知信息](assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups)。
 
@@ -195,11 +195,11 @@ Get-CsUserPolicyAssignment -Identity reda@contoso.com
 
 #### <a name="connect-to-the-azure-ad-powershell-for-graph-module-and-the-teams-powershell-module"></a>连接 Azure AD PowerShell for Graph 模块和 Teams PowerShell 模块
 
-执行本文中的步骤之前，需要安装并连接到 Azure AD PowerShell for Graph 模块 (，以通过用户分配的许可证) 和 Microsoft Teams PowerShell 模块 (来标识用户，以将策略分配给这些) 。
+执行本文中的步骤之前，需要安装并连接到 Azure AD PowerShell for Graph 模块 (，以通过用户分配的许可证) 和 Microsoft Teams PowerShell 模块 (来标识用户，以将策略分配给这些用户) 。
 
 ##### <a name="install-and-connect-to-the-azure-ad-powershell-for-graph-module"></a>安装并连接到 Azure AD PowerShell for Graph 模块
 
-打开提升的 Windows PowerShell 命令提示符 (以管理员 Windows PowerShell 运行) ，然后运行以下命令来安装 Azure Active Directory PowerShell for Graph 模块。
+打开提升的 Windows PowerShell 命令提示符 (以 Windows PowerShell 管理员) 运行) ，然后运行以下命令来安装 Azure Active Directory PowerShell for Graph 模块。
 
 ```powershell
 Install-Module -Name AzureAD
@@ -213,7 +213,7 @@ Connect-AzureAD
 
 系统提示时，使用管理员凭据登录。
 
-若要了解有关详细信息，请参阅[连接 PowerShell for Azure Active Directory 模块Graph。](/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)
+若要了解有关详细信息，请参阅连接[PowerShell for Azure Active Directory 模块Graph。](/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)
 
 ##### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>安装并连接到 Microsoft Teams PowerShell 模块
 
@@ -314,7 +314,7 @@ Get-CsUserPolicyAssignment -Identity hannah@contoso.com
 
 **我不熟悉 PowerShell for Teams。在哪里可以了解更多信息？**
 
-有关使用 PowerShell 管理应用程序Teams，请参阅[powerShell](teams-powershell-overview.md)Teams概述。 有关本文中使用的 cmdlet 详细信息，请参阅：
+有关使用 PowerShell 管理应用程序Teams的Teams [PowerShell 概述](teams-powershell-overview.md)。 有关本文中使用的 cmdlet 详细信息，请参阅：
 
 - [New-CsGroupPolicyAssignment](/powershell/module/teams/new-csgrouppolicyassignment)
 - [Get-CsGroupPolicyAssignment](/powershell/module/teams/get-csgrouppolicyassignment)

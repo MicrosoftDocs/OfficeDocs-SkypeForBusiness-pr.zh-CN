@@ -1,5 +1,5 @@
 ---
-title: 呼叫允许控制的组件和Skype for Business
+title: 呼叫允许控制的组件和拓扑Skype for Business
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0beec6be-2431-4255-a3d2-512dd030e66a
-description: 规划呼叫允许控制 (CAC) （如果您有 MPLS 网络、SIP 中继或第三方 PSTN 网关或 PBX）。 适用于Skype for Business Server 企业语音。
-ms.openlocfilehash: 42fa61908ff13b6323215f2760b113e5d104553d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 规划呼叫允许控制 (CAC) ，如果您有 MPLS 网络、SIP 中继或第三方 PSTN 网关或 PBX。 适用于Skype for Business Server 企业语音。
+ms.openlocfilehash: 6964d57af7f4b1218e502e1b7b8ffc6afee3f5d5
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631636"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730901"
 ---
-# <a name="components-and-topologies-for-call-admission-control-in-skype-for-business"></a>呼叫允许控制的组件和Skype for Business
+# <a name="components-and-topologies-for-call-admission-control-in-skype-for-business"></a>呼叫允许控制的组件和拓扑Skype for Business
 
-规划呼叫允许控制 (CAC) （如果您有 MPLS 网络、SIP 中继或第三方 PSTN 网关或 PBX）。 适用于Skype for Business Server 企业语音。
+规划呼叫允许控制 (CAC) ，如果您有 MPLS 网络、SIP 中继或第三方 PSTN 网关或 PBX。 适用于Skype for Business Server 企业语音。
 
 本节中的主题提供了有关通过各种类型的网络拓扑部署呼叫允许控制 (CAC) 的特殊注意事项的信息。
 
@@ -35,13 +35,13 @@ ms.locfileid: "58631636"
 
 **MPLS 网络示例**
 
-![CAC 与 MPLS](../../media/CAC_MPLS_1.jpg)
+![CAC 与 MPLS。](../../media/CAC_MPLS_1.jpg)
 
 要在 MPLS 网络中部署呼叫允许控制 (CAC)，需创建代表 MPLS 云的网络区域，以及代表每个 MPLS 分支站点的网络站点。下图说明如何配置代表上图中的示例 MPLS 网络的网络区域和网络站点。之后，总体带宽限制和带宽会话限制将取决于从每个网络站点连接到代表 MPLS 云的网络区域的 WAN 链路容量。
 
 **MPLS 网络的网络区域和网络站点**
 
-![呼叫允许控制 (CAC) MPLS 图](../../media/CAC_MPLS_2.jpg)
+![呼叫允许控制 (CAC) MPLS 图。](../../media/CAC_MPLS_2.jpg)
 
 ## <a name="call-admission-control-on-a-sip-trunk"></a>SIP 中继上的呼叫允许控制
 
@@ -51,7 +51,7 @@ ms.locfileid: "58631636"
 
 **SIP 中继上的 CAC 配置**
 
-![呼叫允许控制 SIP 中继图](../../media/CAC_SIP_trunk_1.jpg)
+![呼叫允许控制 SIP 中继图。](../../media/CAC_SIP_trunk_1.jpg)
 
 要在 SIP 中继上配置 CAC，必须在 CAC 部署过程中执行以下任务：
 
@@ -74,7 +74,7 @@ ms.locfileid: "58631636"
 
 **案例 1：中介服务器和 PSTN 网关之间的 CAC**
 
-![案例 1：中介服务器 PSTN 网关之间的 CAC](../../media/CAC_gateways_1.jpg)
+![案例 1：中介服务器 PSTN 网关之间的 CAC。](../../media/CAC_gateways_1.jpg)
 
 本示例在中介服务器和 PSTN 网关之间应用 CAC。 如果网络Skype for Business站点 1 上的客户端用户通过网络站点 2 中的 PSTN 网关进行 PSTN 呼叫，则媒体将流经 WAN 链路。 因此，将针对每个 PSTN 会话执行两个 CAC 检查：
 
@@ -99,9 +99,9 @@ ms.locfileid: "58631636"
 
 **案例 2：中介服务器与具有 MTP 的第三方 PBX 之间的 CAC**
 
-![案例 2：中介服务器 PBX 与 MTP 之间的 CAC](../../media/CAC_gateways_2.jpg)
+![用例 2：中介服务器 PBX 与 MTP 之间的 CAC。](../../media/CAC_gateways_2.jpg)
 
-本示例在中介服务器和 PBX/MTP 之间应用 CAC。 如果网络Skype for Business站点 1 上的客户端用户通过位于网络站点 2 中的 PBX/MTP 进行 PSTN 呼叫，则媒体将流经 WAN 链路。 因此，对于每个 PSTN 会话，将执行两个 CAC 检查：
+本示例在中介服务器和 PBX/MTP 之间应用 CAC。 如果网络Skype for Business 1 上的客户端用户通过位于网络站点 2 中的 PBX/MTP 进行 PSTN 呼叫，则媒体将流经 WAN 链路。 因此，对于每个 PSTN 会话，将执行两个 CAC 检查：
 
 - 在 Skype for Business 客户端应用程序和中介服务器之间
 
@@ -124,9 +124,9 @@ ms.locfileid: "58631636"
 
 **案例 3：中介服务器与没有 MTP 的第三方 PBX 之间的 CAC**
 
-![案例 3：中介服务器 PBX 之间没有 MTP 的 CAC](../../media/CAC_gateways_3.jpg)
+![用例 3：中介服务器 PBX 之间没有 MTP 的 CAC。](../../media/CAC_gateways_3.jpg)
 
-此示例中，如果网络站点 1 的 Skype for Business 客户端用户通过 PBX 向用户发送呼叫，则中介服务器只能对 Skype for Business 客户端应用程序和中介服务器) 之间的代理代理 (执行 CAC 检查。 由于在请求会话时中介服务器没有有关终结点设备的信息，因此在呼叫建立之前，无法在中介服务器和第三方终结点) 之间的 WAN 链接 (上执行 CAC 检查。 但是，建立会话后，中介服务器可便于计算中继上使用的带宽。
+在此例中，如果网络站点 1 的 Skype for Business 客户端用户通过 PBX 呼叫用户，则中介服务器只能对 Skype for Business 客户端应用程序和中介服务器) 之间的代理代理 (执行 CAC 检查。 由于在请求会话时中介服务器没有有关终结点设备的信息，因此在呼叫建立之前，无法在中介服务器和第三方终结点 (之间的 WAN 链路) 上执行 CAC 检查。 但是，建立会话后，中介服务器可便于计算中继上使用的带宽。
 
 对于来自第三方终结点的呼叫，有关该终结点设备的信息在会话请求时可用，并且 CAC 检查可在中介服务器的两侧执行。
 

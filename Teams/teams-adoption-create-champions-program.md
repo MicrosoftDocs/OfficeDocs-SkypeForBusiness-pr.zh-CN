@@ -18,15 +18,15 @@ ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 了解如何培训一个支持团队，通过Teams提高认知、采用率和教育，促进用户采用。
+description: 了解如何通过提高组织的认知度、采用Teams教育，培训一支支持团队，以提升用户采用率。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 216323b34d2f0f2778844b901964d56a85d25716
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f9a6c9c81b1f36655d99b9fdfeecacda406bab6f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612911"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731181"
 ---
 # <a name="create-your-champions-program-for-microsoft-teams"></a>为 Microsoft Teams 创建支持者计划
 
@@ -34,7 +34,7 @@ ms.locfileid: "58612911"
 
 支持者会以多种方式参与总体发布计划，如下所示。
 
-!["冠军"发布计划插图](media/teams-adoption-champions.png)
+!["冠军"发布计划插图。](media/teams-adoption-champions.png)
 
 冠军应：
 
@@ -60,5 +60,5 @@ ms.locfileid: "58612911"
 
 - 提前经常培训冠军：你的计划启动和每月会议可用于在冠军社区中培养技能。 利用这些机会让他们上台、进行初始培训、鼓励他们参加我们的课程，并确保他们已准备好在试验阶段继续工作，为员工提供支持。  
 
-![表示下一步"下一步 ](media/teams-adoption-next-icon.png) ： [完成治理快速入门"的图标](teams-adoption-governance-quick-start.md)
+![表示下一步骤的图标。](media/teams-adoption-next-icon.png) 下一 [步：完成治理快速入门](teams-adoption-governance-quick-start.md)
 
