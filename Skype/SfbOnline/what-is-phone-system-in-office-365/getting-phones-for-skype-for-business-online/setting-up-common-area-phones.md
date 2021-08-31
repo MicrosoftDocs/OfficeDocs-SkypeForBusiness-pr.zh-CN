@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 了解部署步骤，获取正确的固件、根据需要更新固件、分配许可证以及配置公用区域电话的设置。
-ms.openlocfilehash: 14c7a76ed8f0aa319049d4352c1cdc6ce4c4ce98
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cbf1c5f211eba09ee90a0358b175332fa64de4e2
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607419"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726971"
 ---
 # <a name="set-up-common-area-phones"></a>设置公共区域电话
 
@@ -54,7 +54,7 @@ ms.locfileid: "58607419"
 ### <a name="step-1---buy-the-licenses"></a>第 1 步 - 购买许可证
 1. 在管理中心中，转到"**计费**  >  **购买服务"，** 并添加"**其他计划"。**
 
-    !["常用区域"电话屏幕截图](../../images/cap-license.png)
+    !["常用区域"电话屏幕截图。](../../images/cap-license.png)
 2. 在 **结账** 页面上点击 >  **公共区域电话****** 立即购买，点击 **立即购买** 。
 3. 点击展开 **外接程序订阅**，然后点击购买通话套餐。 选择"国内 **呼叫计划"或****"国内和国际呼叫计划"。**
 
@@ -75,7 +75,7 @@ ms.locfileid: "58607419"
 
      许可证的分配将如下所示：
 
-     ![TurnOnCapLicense.png](../../images/cap-license-turn-on.png)
+     ![TurnOnCapLicense.png。](../../images/cap-license-turn-on.png)
 
      > [!Note]
      > 如你所知，Skype for Business 套餐 2 包含在 **公共区域电话** 许可证中。
@@ -84,7 +84,7 @@ ms.locfileid: "58607419"
 
 ### <a name="step-3---assign-a-phone-number-to-the-common-area-phone-user-account"></a>第 3 步 - 将电话号码分配给公共区域电话用户帐户
 
-![一个图标，Skype for Business徽标使用管理中心 ](../../images/sfb-logo-30x30.png) 向用户分配Skype for Business **电话号码**
+![一个图标，显示Skype for Business徽标。](../../images/sfb-logo-30x30.png) 使用管理中心向用户 **Skype for Business电话号码**
 
 1. 在管理中心内>**管理中心Skype for Business。**  >  
 2. 在 **Skype for Business 管理中心** >  **语音** > **电话号码**。
@@ -93,14 +93,14 @@ ms.locfileid: "58607419"
 5. 此时你还需要添加一个紧急联系地址。 开始搜索时，在 **选择紧急联系地址** 下选择一个合适的地址。
 6. 点击 **保存**，你的用户将显示如下：
 
-    ![用户电话号码的屏幕截图](../../images/cap-user-number.png)
+    ![用户电话号码的屏幕截图。](../../images/cap-user-number.png)
 
    > [!Note]
    > 用户只有应用了一个 **电话系统** 许可证，才会显示。 如果你刚执行了该操作，用户可能需要经过一段时间才能在列表中显示。
 
 有关更多内容，请参阅[为用户获取电话号码](/microsoftteams/getting-phone-numbers-for-your-users)。
 
-如果您想知道，您也可以将您拥有的电话号码与另一个运营商 *和"端口*"一起转移，或者将其转移到 Microsoft 365 或 Office 365。 请参阅[将电话号码转移到 Teams。](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams)
+如果想知道，也可以将你拥有的电话号码与另一家运营商联系并"转Microsoft 365或Office 365。 请参阅[将电话号码转移到 Teams。](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams)
 
 ### <a name="step-4---setting-up-your-phone"></a>第 4 步 - 设置电话
 

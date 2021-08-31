@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f4fe6a61dd4891f457656e0659243c75c372142
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fb5f7574bd5e07598c412cd7d17f02625de2f095
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598536"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729911"
 ---
 # <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>为Microsoft Teams工作区设置会议加载项
 
@@ -33,7 +33,7 @@ Microsoft Teams管理员必须启用 Google Workspace 的 Teams 会议加载项�
 
 ## <a name="enable-or-disable-microsoft-teams-meeting-add-on-for-google-workspace-in-the-azure-portal"></a>在 Azure Microsoft Teams中为 Google Workspace 启用或禁用会议加载项
 
-作为租户管理员，可以使用 Azure Microsoft Teams从组织的管理员帐户为 Google Workspace 启用或禁用会议加载项。
+作为租户管理员，可以使用 Azure 门户Microsoft Teams组织的管理员帐户为 Google Workspace 启用或禁用 Google Workspace 会议加载项。
 
 默认情况下，该加载项已启用。
 
@@ -43,13 +43,13 @@ Microsoft Teams管理员必须启用 Google Workspace 的 Teams 会议加载项�
 
 3. 搜索Microsoft Teams **工作区的会议加载项**。
 
-   ![显示所有应用程序的 Azure 门户](media/aad-add-google-workspace.png)
+   ![显示所有应用程序的 Azure 门户。](media/aad-add-google-workspace.png)
 
 4. 选择"**是"。**
 
-   ![显示 Google 工作区属性的 Azure 门户](media/google-workspace-properties.png)
+   ![显示 google 工作区属性的 Azure 门户。](media/google-workspace-properties.png)
 
-5.  (可选) 禁用加载项，请在步骤 4 中选择"否"而不是"是"。 
+5.  (可选) 若要禁用加载项，请在步骤 4 中选择"否"而不是"是"。
 
 ## <a name="disable-microsoft-teams-meeting-add-on-for-google-workspace-using-powershell"></a>使用 PowerShell Microsoft Teams Google Workspace 禁用会议加载项
 

@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解应用中的自定义Microsoft Teams。
-ms.openlocfilehash: 12893fc0a424fc85b0bb72dd58da3008c2ba5085
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 06663505a173d7fa1a5d53957fbf2df8fdd232d0
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584656"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728901"
 ---
 # <a name="custom-apps-store-in-microsoft-teams"></a>自定义应用存储在 Microsoft Teams
 
@@ -32,9 +32,9 @@ ms.locfileid: "58584656"
 > [!Note]
 > 品牌更改需要 24 小时才能生效。
 
-通过选择"自定义应用商店"应用，Teams **管理中心**  >  **中的自定义存储**。
+通过选择"自定义应用商店"应用，Teams **管理** 中心  >  **中的自定义存储**。
 
-  ![管理员控制台突出显示自定义应用商店功能](media/customize-app-store.png)
+  ![管理员控制台突出显示自定义应用商店功能。](media/customize-app-store.png)
 
 本文介绍自定义应用存储功能及其使用方法。
 
@@ -44,7 +44,7 @@ ms.locfileid: "58584656"
 <a name="orglogo"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-可在此处上传组织徽标。 所选徽标将显示在"为租户Teams **应用**  >  **"页面中的"应用"客户端** 中。
+可在此处上传组织徽标。 所选徽标将显示在"为租户Teams **应用"**  >  **页面中的客户端中**。
 
 选择" **选择图片"选项** 时，可以上传选择的文件。 徽标应为 240x60，否则将缩放到该大小。 它不应大于 5 MB。 支持的格式包括：
 
@@ -60,7 +60,7 @@ ms.locfileid: "58584656"
 <a name="orglogomark"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-组织徽标标记或小徽标是表示组织品牌的图像或符号，不包括公司名称。 lovemark 可帮助团队成员识别应用应用商店。 所选徽标将显示在应用页Teams客户端中。
+组织徽标标记或小徽标是表示组织品牌的图像或符号，不包括公司名称。 lovemark 可帮助团队成员识别应用应用商店。 所选徽标将显示在"应用"页Teams客户端中。
 
 选择" **选择图片"选项** 时，可以上传选择的文件。 徽标标记应为 32x32 像素，否则将缩放到该大小。 它不应大于 5 MB。 支持的格式包括：
 
@@ -99,17 +99,17 @@ ms.locfileid: "58584656"
 
 选择" **选择自定义颜色"时**，将打开颜色选择器。 通过调整颜色选择器的规模来选择想要的颜色。
 
- ![颜色选择器](media/choose-a-custom-color.png)
+ ![颜色选择器。](media/choose-a-custom-color.png)
 
 ## <a name="complete-the-customization-of-your-team-apps-store"></a>完成团队应用应用商店的自定义
 
 自定义完应用应用商店后，请务必选择 **"保存"** 以保存更改。
 若要预览更改，请选择 **"预览应用应用商店** "以查看自定义应用应用商店的表示形式。
 
-![自定义应用应用商店预览](media/PowerAppsInStore650w.png)
+![自定义应用应用商店预览。](media/PowerAppsInStore650w.png)
 
 > [!Note]
-> 表示形式可能与自定义应用存储的最终版本不同，因为某些默认颜色基于用户对客户端Teams版本。
+> 表示形式可能与自定义应用存储的最终版本不同，因为某些默认颜色基于用户Teams版本。
 
 ## <a name="related-article"></a>相关文章
 

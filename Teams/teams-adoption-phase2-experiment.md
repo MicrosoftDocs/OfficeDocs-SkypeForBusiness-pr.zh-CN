@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a169208d5e59044e4ce8de63098428f9d4e8f085
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9cd56875378d7e38660fd1dfd7a4228e7ce5a7e8
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636646"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726741"
 ---
 # <a name="microsoft-teams-adoption-phase-2---experiment"></a>Microsoft Teams 采用第 2 阶段 - 试验
 
-现在，你已拥有出色的项目团队和有关组织的关键信息，并且已准备好体验Teams。 我们建议在一个组中试验 2 到 3 个实际项目，这些项目由您与之具有积极关系的利益干系人领导，并且在其组织中有足够的早期采用者来提供有意义的反馈。 无论你的组织是大还是小，我们建议完成此阶段，深入了解Teams除了使用聊天和文件存储功能之外，如何改进你的协作。  
+现在，你已拥有出色的项目团队和有关组织的关键信息，并且已准备好试验Teams。 我们建议在一个组中试验 2 到 3 个实际项目，这些项目由您与之具有积极关系的利益干系人领导，并且在其组织中有足够的早期采用者来提供有意义的反馈。 无论你的组织是大还是小，我们建议完成此阶段，深入了解Teams除了使用聊天和文件存储功能之外，如何改进你的协作。  
 
 在此阶段中，将完成以下步骤：
 
@@ -41,4 +41,4 @@ ms.locfileid: "58636646"
 5. [设置反馈渠道](teams-adoption-onboard-early-adopters.md#gather-feedback)。
 6. [让支持人员上车](teams-adoption-onboard-support.md)。
 
-![表示下一步"下一步 ](media/teams-adoption-next-icon.png) ： [创建你的冠军计划"的图标](teams-adoption-create-champions-program.md)
+![表示下一步骤的图标。](media/teams-adoption-next-icon.png) 下一 [步：创建你的冠军计划](teams-adoption-create-champions-program.md)

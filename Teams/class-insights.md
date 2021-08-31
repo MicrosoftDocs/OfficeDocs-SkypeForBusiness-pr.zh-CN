@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 76254b414bd282f75a01decc5016e5ae476a0f21
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b09b6c6e42fcdd150d5aa95ebd56c9eaec36e01c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607839"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726661"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Microsoft Teams 教育版见解 IT 管理员指南
 
@@ -96,11 +96,11 @@ ms.locfileid: "58607839"
 * 搜索“**见解**”并选择它。
 * 此时将打开说明屏幕。 单击“**添加**”。
 
-:::image type="content" source="media/insights-add-personal-app.png" alt-text="向 Teams 添加见解":::
+:::image type="content" source="media/insights-add-personal-app.png" alt-text="向 Teams 添加 Insights。":::
 
-* 右键单击“见解”图标，然后选择“**固定**”。
+* 右键单击 Insights 图标，然后选择“**固定**”。
 
-:::image type="content" source="media/insights-pin-app.png" alt-text="固定见解应用":::
+:::image type="content" source="media/insights-pin-app.png" alt-text="固定 Insights 应用。":::
 
 > [!TIP]
 > 还可通过此链接查找 Insights 应用：[https://aka.ms/addInsights](https://aka.ms/addInsights)
@@ -112,7 +112,7 @@ ms.locfileid: "58607839"
 *   与学生和学校社区 **讨论** 调查结果，以加强人际关系、设定目标、执行自我评估、激发协作并改善成果。
 *   **采取行动** 以制定干预措施、提供有关发展领域的反馈、修改教学策略并确定所需的其他支持。
 
-:::image type="content" source="media/insights-learning-cycle.png" alt-text="见解在整个学习周期中为学习社区提供支持":::
+:::image type="content" source="media/insights-learning-cycle.png" alt-text="Insights 在整个学习周期中为学习社区提供支持。":::
 
 ## <a name="how-insights-works"></a>见解如何工作？
 Insights 可生成强大的分析，以帮助教师提高学习成果。为此，它会分析 Teams 中的学生活动，并选择性地利用你提供的学生信息系统 (SIS) 数据来帮助将该活动置于上下文中考虑并进行分组。 

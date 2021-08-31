@@ -17,18 +17,18 @@ description: 从 Teams 内部获取会议出席情况报告。 此报告是对 T
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 233a76bf8c3ae2d3cd71aeddd487f606dcdbaea6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 93aad3cdee1c3819ee0d524a8538608dbeba1b0c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592182"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726371"
 ---
 # <a name="microsoft-teams-meeting-attendance-report"></a>Microsoft Teams 会议出席情况报告
 
 会议组织者可以查看和下载会议出席情况报告。 单击下载箭头（如下所示），在会议的“**参与者**”窗格中查找此报告。 可以将报告下载为 .CSV 文件（文本格式）。
 
-:::image type="content" source="../media/meetings-attendance-download.JPG" alt-text="控制在 Microsoft Teams 中下载会议出席情况报告":::
+:::image type="content" source="../media/meetings-attendance-download.JPG" alt-text="在 Microsoft Teams 中下载会议出席情况报告的控件。":::
 
 对于教育租户，此报告可用于跟踪学生在在线课程中的出席情况。 例如，教师可以在课程开始时下载出席情况报告，以此简单地执行“滚动呼叫”。 若要了解详细信息，请阅读[在 Teams 中下载出席情况报告](https://support.office.com/article/download-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310)。
 

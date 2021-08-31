@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.audioconferencing.bridgesettings
 - seo-marvel-mar2020
 description: 更改音频会议网桥设置，包括进入和退出通知、播放姓名或电话号码、音调，以及提示呼叫者录制其姓名。
-ms.openlocfilehash: 434142eb0e7d8cd4759eec180e903eaecad47525
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 413cd4eeb54785f32e0916b5872c477095318cda
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607849"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729091"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>更改音频会议网桥的设置
 
@@ -38,12 +38,12 @@ ms.locfileid: "58607849"
 会议网桥应答呼叫，然后使用会议自动助理通过语音提示提示呼叫者，然后根据你的设置，它可以播放通知、让呼叫者录制其姓名并控制 PIN 设置。 PIN 被赋予给会议组织者，以便他们在没有使用应用或Skype for Business时Microsoft Teams会议。
 
   > [!IMPORTANT]
-  > 只有当会议组织者尚未启动会议时Skype for Business或Microsoft Teams用户才需要 PIN。 如果每个人都拨入会议，会议组织者需要 PIN 才能启动会议。 
+  > 只有当会议组织者尚未启动会议时，Skype for Business或Microsoft Teams用户才需要 PIN。 如果每个人都拨入会议，会议组织者需要 PIN 才能启动会议。 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-## <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) 使用 Microsoft Teams 管理中心
+## <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![一个图标，显示Microsoft Teams徽标。](media/teams-logo-30x30.png) 使用 Microsoft Teams 管理中心
 
 1. 在左侧导航栏中，转到"**会议**  >  **会议网桥"。** 
 
@@ -63,7 +63,7 @@ ms.locfileid: "58607849"
 4. 若要设置会议的 PIN 长度，请在"PIN 长度"列表中选择 PIN **的位数** 。
 
 5. 若要指定是否向用户发送电子邮件，请启用或禁用"如果用户的音频会议配置发生更改时自动 **向用户发送电子邮件"。**
-    有关详细信息[，请参阅](emails-sent-to-users-when-their-settings-change-in-teams.md)当用户的音频会议设置在 Microsoft Teams 中更改时自动发送给用户的电子邮件，或当用户在[Skype for Business Online 中设置更改时发送给](/SkypeForBusiness/audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change)用户的电子邮件。
+    有关详细信息[，请参阅](emails-sent-to-users-when-their-settings-change-in-teams.md)当用户的音频会议设置在 Microsoft Teams 中更改时自动发送给用户的电子邮件，或当用户设置在[Skype for Business Online 中更改时发送给](/SkypeForBusiness/audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change)用户的电子邮件。
  
 6. 单击“**保存**”。 
 
@@ -71,13 +71,13 @@ ms.locfileid: "58607849"
 
 - 若要节省时间或自动执行此过程，可以使用 [Set-CsDialinConferencingBridge](/powershell/module/skype/Set-CsOnlineDialInConferencingBridge) cmdlet。
     
-- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用Windows PowerShell，Microsoft 365 Office 365单点管理来管理任务或任务，可在有多个任务需要执行时简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
+- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用Windows PowerShell，可以使用Microsoft 365管理Office 365管理点来管理任务或任务，当您有多个任务需要执行时，可以简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
     
   - [为什么要使用 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [使用 Microsoft 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [使用 Office 365 管理Microsoft 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-- Windows PowerShell相比于仅使用 Microsoft 365 管理中心，在速度、简单性和工作效率方面具有许多优势，例如，一次为许多用户更改设置时。 请在以下主题中了解这些优点： 
+- Windows PowerShell比仅使用 Microsoft 365 管理中心 在速度、简单性和工作效率方面具有许多优势，例如，一次为许多用户更改设置时。 请在以下主题中了解这些优点： 
     
   - [Windows PowerShell 和 Skype for Business Online 简介](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
     

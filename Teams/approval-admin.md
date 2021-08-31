@@ -18,23 +18,23 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f50a5f766740d3d5d8fa9effc0b49ec495c361cd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6f3b1942e1d9b6e93d78694c2b02027bf32c5d7d
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593186"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726211"
 ---
 # <a name="teams-approvals-app-availability"></a>Teams“审批”应用可用性
 
 “审批”应用可作为个人应用提供给所有 Microsoft Teams 用户。
 “审批”应用提供了一种在 Teams 中将审核、合规性、责任和工作流引入结构化审批和非结构化审批的简单方法。
 
- ![显示“审批”应用](media/approvals-selection.png)
+ ![显示审批应用。](media/approvals-selection.png)
 
 用户可以固定“审批”应用以将其保存到菜单栏。
 
- ![显示“审批”应用以及固定选项](media/approvalApp-pin.png)
+ ![显示具有固定选项的审批应用。](media/approvalApp-pin.png)
 
 从“审批”应用创建的第一个审批将触发在默认 Common Data Service (CDS) 环境中设置审批解决方案。 从“审批”应用创建的审批将存储在默认 CDS 环境中。
 
@@ -57,7 +57,7 @@ ms.locfileid: "58593186"
 
 - 用户需要 Microsoft Forms 许可证才能设置新的审批模板。
 
-若要使用"审批"应用，需要一个许可证Power Automate，你的帐户将在第一次审批分配时自动添加到目标环境中"审批用户"角色。
+若要使用"审批"应用，你需要一个许可证Power Automate，你的帐户将在第一次审批分配时自动添加到目标环境中"审批用户"角色。
 
 ## <a name="storage-with-cds"></a>通过 CDS 进行存储
 
@@ -114,13 +114,13 @@ Common Data Model (CDM) 是业务和分析应用程序在 CDS 中使用的共享
 
   3. 搜索“审批”应用。
 
-     ![显示管理中心导航，突出显示“Teams 应用”>“管理应用”](media/manage-approval-apps.png)
+     ![显示管理中心导航，Teams应用>"管理应用"。](media/manage-approval-apps.png)
 
   4. 选择“审批”。
 
   5. 选择切换开关以为你的组织禁用该应用。
 
-     ![显示“审批”应用的详细信息](media/approvals-details.png)
+     ![显示"审批"应用的详细信息。](media/approvals-details.png)
 
 ## <a name="retention-policy"></a>保留策略
 
@@ -203,10 +203,10 @@ Common Data Model (CDM) 是业务和分析应用程序在 CDS 中使用的共享
 
 - 你选择使用的特定电子签名提供商的许可证。 若要获取组织的许可证，您需要转到提供商的网站。
 
-对于"审批电子签名"功能，第三方签名合作伙伴默认显示在"Teams审批"应用中。 可以通过访问管理中心中的应用设置来禁用Teams签名提供程序。
+对于"审批电子签名"功能，第三方签名合作伙伴默认显示在Teams审批"应用中。 可以通过访问管理中心中的应用设置来禁用Teams签名提供程序。
 
-1. 在Teams管理中心的"**管理应用"下**，选择"审批 **"应用并选择****"设置"。**
+1. 在Teams管理中心的"**管理应用"下**，选择"审批 **"** 应用并选择 **"设置"。**
 
-2. 默认情况下，每个电子签名提供商旁边都有一个开关，该开关位于 (右侧) 位置。 向左滑动切换开关以禁用特定的电子签名提供程序。 如果Teams管理员禁用了提供商，则最终用户在创建审批时不会看到提供商。 最终用户也无法查看通过该提供商提出的任何电子签名请求。
+2. 默认情况下，每个电子签名提供程序旁边都有一个开关，该开关位于 (右侧) 位置。 向左滑动切换开关以禁用特定的电子签名提供程序。 如果Teams管理员禁用了提供商，则最终用户在创建审批时不会看到提供商。 最终用户也无法查看通过该提供商提出的任何电子签名请求。
 
 从"审批"应用创建的电子签名审批存储在所选提供商的云中。 因此，您需要转到提供商的网站才能导出有关电子签名的任何数据。 请参阅提供商的文档，了解这些协议的导出和保留。

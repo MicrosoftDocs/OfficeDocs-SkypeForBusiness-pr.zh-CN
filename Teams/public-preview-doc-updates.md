@@ -18,12 +18,12 @@ description: 了解 Microsoft Teams 中的公共预览版。尝试新增功能�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 84e37bc76fe6c9f52aedae95c3ef01bb49e00cf0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 79d5467bd57900dfe62006a09d5f5cafaf662640
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586546"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726831"
 ---
 # <a name="microsoft-teams-public-preview"></a>Microsoft Teams 公共预览版
 
@@ -54,7 +54,7 @@ Microsoft Teams 公共预览版提供对 Teams 中未发布的功能的早期访
  
    - **未启用**: 最终用户将无法使用 Teams 公共预览版功能。
 
-    ![显示预览版设置对话](media/public-preview-policy.png)  
+    ![显示预览版设置对话。](media/public-preview-policy.png)  
 
 还可以同时使用 PowerShell `Set-CsTeamsUpdateManagementPolicy` cmdlet 和 `-AllowPublicPreview` 参数以设置策略。
 

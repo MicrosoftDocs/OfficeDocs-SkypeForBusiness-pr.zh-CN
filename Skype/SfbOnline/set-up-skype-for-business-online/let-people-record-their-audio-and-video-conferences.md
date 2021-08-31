@@ -20,12 +20,12 @@ ms.custom:
 - Setup
 - O365P_RecordingDesc
 description: "How to turn on recording for audio and video conferences, and learn what is and isn't included in recordings. "
-ms.openlocfilehash: 8aee8991161364eaab29459ae305e6ba4cf37b50
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a3e4db64b7703ef4f7373c5607838a707767db78
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625734"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729921"
 ---
 # <a name="let-people-record-their-audio-and-video-conferences"></a>让人员可以录制其音频和视频会议
 
@@ -33,7 +33,7 @@ ms.locfileid: "58625734"
 
 ## <a name="choose-the-default-recording-setting-for-a-single-user-or-everyone-in-your-organization"></a>为你的组织中的单个用户或所有人选择默认录制设置
 
-![显示 Skype for Business 徽标的图标](../images/sfb-logo-30x30.png) **使用 Skype for Business 管理中心**
+![一个图标，显示Skype for Business徽标。](../images/sfb-logo-30x30.png) **使用 Skype for Business 管理中心**
 
 1. 转到管理中心 **> Skype for Business，** 然后单击"用户 **"。**
     

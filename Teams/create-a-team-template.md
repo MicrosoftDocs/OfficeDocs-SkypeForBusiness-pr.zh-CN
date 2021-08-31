@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: 了解如何在 Microsoft Teams 中创建自定义团队Microsoft Teams。
+description: 了解如何在 Microsoft Teams 中创建自定义团队模板。
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e8733dde289cfc595d8db7b56652cb28dcc646b8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c3c388ab19d74370612531e3ac998ff3e928e0d3
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58589766"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726891"
 ---
 # <a name="create-a-custom-team-template-in-microsoft-teams"></a>在 Microsoft Teams 中创建自定义团队模板
 
@@ -86,17 +86,17 @@ ms.locfileid: "58589766"
 
 3. 在" **为此模板添加应用"部分中** ，添加"网站"应用。
 
-    ![为此模板选项添加应用](media/add-an-app-template.png)
+    ![为此模板选项添加应用。](media/add-an-app-template.png)
 
 4. 选择编辑图标并输入选择的 URL。
 
-    ![添加应用 URL](media/add-url-app-template.png)
+    ![添加应用 URL。](media/add-url-app-template.png)
 
 5. 为 **选项卡** 应用编辑选择"保存"，然后选择 **"应用"** 以保存更改。
 
 ## <a name="known-issues"></a>已知问题
 
-**问题**：如果已基于包含其他自定义选项卡的自定义模板创建了团队，则可能会看到空白选项卡，用于使用自定义选项卡应用。 您的默认选项卡 ("文章"、"文件"和 **"Wiki**) 按预期显示。 
+**问题**：如果已基于包含其他自定义选项卡的自定义模板创建了团队，则可能会看到空白选项卡，用于使用自定义选项卡应用。 您的默认选项卡 (如"帖子"、"文件"和 **"Wiki**) 将按预期显示。 
 
 **解决方案**：若要解决此问题，请删除自定义选项卡，并使用相同的应用添加新选项卡。 如果无权删除自定义选项卡并添加新选项卡，请联系团队所有者寻求帮助。
 
@@ -104,9 +104,9 @@ ms.locfileid: "58589766"
 
 **问题**：在浏览器中Teams时，某些网站不支持在"网站"选项卡Teams呈现。
 
-![浏览器错误消息](media/browser-error-message.png)
+![浏览器错误消息。](media/browser-error-message.png)
 
-解决方案：如果查看网站选项卡的内容时遇到问题，将重定向到在单独的网页中打开该选项卡，或者改为在桌面应用中打开 Teams 以查看网站选项卡应用。
+解决方案：如果您在查看网站选项卡的内容时遇到问题，您将重定向到在单独的网页中打开该选项卡，或者改为在桌面应用中打开 Teams 以查看您的网站选项卡应用。
 
 ## <a name="related-topics"></a>相关主题
 

@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04c96412e93029858c5444d662e7db3e65224a21
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1e6bd14eabadc96084973d3e998291a577dbbfc7
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578346"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729811"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>开始使用 Microsoft Teams 进行远程学习
 
@@ -158,7 +158,7 @@ SDS 以两个步骤创建团队。 第一步在 Azure Active Directory (Azure AD
 
 这种混合方法允许你使用 SDS 为每个课程创建组（推荐），或者使用[Graph API](/graph/api/educationroot-post-classes)自己创建组。 在课堂组准备好之后，教育者可以使用建议的 **班级图标** 将他们的群组转换成小组。
 
-:::image type="content" source="media/class-teams-edu-suggested-classes.png" alt-text="显示建议课堂图标的屏幕截图":::
+:::image type="content" source="media/class-teams-edu-suggested-classes.png" alt-text="显示建议课堂图标的屏幕截图。":::
 
 ##### <a name="benefits"></a>优点
 

@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 3d00e8f4-e599-4094-a4a1-34fd6e8a5580
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要编辑或修改 SIP 中继的设置，请执行下列操作：
-ms.openlocfilehash: 32b25ceae180fd252a0b7cba64124c45d2e330a0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d9484dd6ab7a9589507808045f8516f0cd9ce70f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579156"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729261"
 ---
 # <a name="trunk-settings-expander"></a>中继设置扩展器
 
@@ -41,7 +41,7 @@ ms.locfileid: "58579156"
 
  **关联的中介服务器端口**：一个必需值，设置为中介服务器配置为侦听的值。
 
-![中继设置扩展器](../../../media/Trunk_Settings_Expander.jpg)
+![中继设置扩展器。](../../../media/Trunk_Settings_Expander.jpg)
 
 ## <a name="see-also"></a>另请参阅
 

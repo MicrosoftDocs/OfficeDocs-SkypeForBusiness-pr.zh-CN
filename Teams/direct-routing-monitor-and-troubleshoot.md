@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 了解如何监视和排查直接路由配置问题，包括会话边界控制器、直接路由组件和电信中继。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 537df3fb87386914b88da34dcdd5717cfd5700dc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: aeff22bf3558c64111f0d1b66c2fd76288f81477
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618498"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726881"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>对直接路由进行监视和故障排除
 
@@ -46,7 +46,7 @@ Microsoft 正在努力提供更多用于故障排除和监视的工具。 请定
 
 下图显示了配置的示例： 
 
-![SIP 选项配置示例](media/sip-options-config-example.png)
+![SIP 选项配置示例。](media/sip-options-config-example.png)
 
 当用户调用号码 +1 425 时 \<any seven digits> ，直接路由将评估路由。 路由中有两个 SDC：sbc1.contoso.com 和 sbc2.contoso.com。 这两个 SDC 在路由中具有相同的优先级。 在选取 SBC 之前，路由机制根据 SBC 上次发送 SIP 选项的时间评估 SBC 的运行状况。 
 
@@ -60,13 +60,13 @@ Microsoft 正在努力提供更多用于故障排除和监视的工具。 请定
 
 直接路由采用常规间隔选项三次 (常规间隔为一分钟) 。 如果在过去三分钟内发送了选项，则 SBC 被视为正常。
 
-如果示例中的 SBC 在 11：12 AM 到 11：15 AM 之间的任意时间段发送了选项 (则调用) 被视为正常。 如果没有，SBC 将从路由降级。 
+如果示例中的 SBC 在上午 11：12 和上午 11：15 之间的任意时间段发送了选项 (则调用) 被视为正常。 如果没有，SBC 将从路由降级。 
 
-降级意味着不会先尝试 SBC。 例如，我们 sbc1.contoso.com sbc2.contoso.com 优先级的优先级。  
+降级意味着不会先尝试 SBC。 例如，我们有一 sbc1.contoso.com sbc2.contoso.com 优先级的优先级。  
 
 如果 sbc1.contoso.com 如前文所述定期发送 SIP 选项，则将其降级。 接下来，sbc2.contoso.com 尝试进行调用。 如果 sbc2.contoso.con 无法传递调用，则 sbc1.contoso.com (降级) 重试，然后再生成失败。 
 
-如果一个 (两个或多个) SDC 被视为正常且相等，Fisher-Yates随机执行以在 SDC 之间分配调用。
+如果一个 (两) 个 SDC 被视为正常且相等，Fisher-Yates随机执行以在 SDC 之间分配调用。
 
 ## <a name="monitor-call-quality-analytics-dashboard-and-sbc-logs"></a>监视呼叫质量分析仪表板和 SBC 日志 
  
@@ -83,6 +83,6 @@ Microsoft 正在努力提供更多用于故障排除和监视的工具。 请定
 
 在呼叫失败时，呼叫分析提供标准 SIP 代码来帮助进行故障排除。 
 
-![呼叫失败的示例 SIP 代码](media/failed-response-code.png)
+![调用失败的示例 SIP 代码。](media/failed-response-code.png)
 
 但是，只有当调用到达直接路由的内部组件并失败时，调用分析才能提供帮助。 如果 SBC 配对问题或 SIP"邀请"被拒绝的问题 (例如，中继 FQDN 的名称未正确配置) ，呼叫分析将无用。 在这种情况下，请参阅 SBC 日志。 直接路由向 SDC 发送问题的详细说明;这些问题可以从 SBC 日志中读取。

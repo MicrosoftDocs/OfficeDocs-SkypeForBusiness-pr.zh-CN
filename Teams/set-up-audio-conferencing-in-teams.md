@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: '了解如何为业务中需要使用电话加入电话会议的人员设置拨号或音频会议。 '
-ms.openlocfilehash: 13cbbf8b8295886cec937091abd3b5a0d378f05e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bc8a29e5a312d4a5a77b98929330ee9770e5543c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615208"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729581"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>设置 Microsoft Teams 的音频会议
 
@@ -78,7 +78,7 @@ ms.locfileid: "58615208"
 
 按照下列步骤将新的电话号码分配给音频会议网桥。
 
-![显示 Skype for Business 徽标的图标](media/sfb-logo-30x30.png) **使用 Skype for Business 管理中心：**
+![一个图标，显示Skype for Business徽标。](media/sfb-logo-30x30.png) **使用Skype for Business管理中心：**
 
  1. 转到 **Microsoft 365 管理中心** > **管理中心** > **Teams** > **旧版门户**。
  2. 选择“**语音**” > “**电话号码**”。
@@ -89,7 +89,7 @@ ms.locfileid: "58615208"
 ## <a name="step-5-set-the-default-and-alternate-languages-for-a-conferencing-bridge"></a>步骤 5：为会议桥设置默认和备用语言
 <a name="__top"> </a> 接下来，需要[在 Microsoft 团队中为音频会议设置自动助理语言](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)， 会议自动助理在拨入电话号码进行音频会议时欢迎主叫方。 
 
-![显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**：
+![一个图标，显示Microsoft Teams徽标。](media/teams-logo-30x30.png) **使用 Microsoft Teams管理中心**：
 
 1. 从仪表板中，转到 **会议** > **会议网桥**。
 2. 选择会议网桥电话号码，单击“**编辑**”，然后选择默认语言。
@@ -99,7 +99,7 @@ ms.locfileid: "58615208"
     
 设置你的会议网桥之后，请验证默认设置，如进入/退出通知和 PIN 长度是想要使用；如果不是，你可以更改它们。 
 
-![显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**：
+![一个图标，显示Microsoft Teams徽标。](media/teams-logo-30x30.png) **使用 Microsoft Teams管理中心**：
 
 1. 从仪表板中，转到 **会议** > **会议网桥**。
 2. 选择“**网桥设置**”。 这将打开 **网桥设置** 窗格。 
@@ -112,7 +112,7 @@ ms.locfileid: "58615208"
 
 你需要为在组织中主持或安排会议的所有人员执行此操作。 
 
-![显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**：
+![一个图标，显示Microsoft Teams徽标。](media/teams-logo-30x30.png) **使用 Microsoft Teams管理中心**：
 
 1. 在仪表板上，单击“**用户**”，从列表中选择用户，然后选择“**编辑**”。
 2. 选择“**音频会议**”旁边的“**编辑**”，然后在“**音频会议**”窗格中，在“**收费电话号码**”和“**免费**”电话号码列表中选择一个号码。

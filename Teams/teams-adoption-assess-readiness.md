@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2bd70c0b46d48333552a862ab26a763cfe5473d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: dd526f78a04bc71b2992aa8f3f0bcd15b3b77df0
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613561"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726761"
 ---
 # <a name="how-ready-is-your-organization-for-microsoft-teams"></a>贵组织为 Microsoft Teams 准备到什么程度？
 
-现在，项目团队已汇集在一起，并且您开始Teams为您的组织执行哪些工作，因此，必须评估组织是否准备好进行Teams过渡。 若要评估准备情况，需要：
+现在，项目团队已汇集在一起，并且您开始Teams可以为组织执行哪些工作，因此，必须评估组织是否准备好Teams过渡。 若要评估准备情况，需要：
 
 1. 评估利益干系人。
 2. 确定早期采用者。
@@ -44,11 +44,11 @@ ms.locfileid: "58613561"
 2. 评价此领导对当前技术的满意度。
 3. 此领导是否愿意使用未经批准的技术来加速结果或为团队成员创造更好的体验？
 4. 此领导者在提供关键业务结果方面是否承受了巨大压力？ 
-5. 此领导愿意宣传他/她使用新Teams来帮助进行过渡吗？
+5. 此领导愿意宣传他/她与Teams，以帮助进行过渡？
 6. 此主管是否与现有项目团队的关键成员具有积极的关系？
 7. 此领导是否希望被视为组织内部的"更改代理"？  
 
-可以添加与组织相关的其他问题。 对于启动 (试验) 的初始两个阶段，你将看到领导，他们很友好，对当前技术有些不满意，并且你具有良好的关系。 这些领导应作为业务顾问进入核心项目团队，并且可能有项目对于试验阶段至关重要。 必须选择要试验的具有影响力的真实情况，并避免初始试验的高风险项目。
+可以添加与组织相关的其他问题。 对于启动和 (试验) 的初始两个阶段，你将看到领导，他们很友好，对当前技术有些不满意，并且你具有良好的关系。 这些领导应作为业务顾问进入核心项目团队，并且可能有项目对于试验阶段至关重要。 必须选择要试验的具有影响力的真实情况，并避免初始试验的高风险项目。
    
 > [!NOTE]
 > 虽然可以为此类型的调查问卷分配分数，以最大程度地降低组织中关系的人性元素的影响，但推动变化取决于团队的化学程度以及其技术技能或业务才能。 在选择项目和人员以用于后续阶段时，与团队成员一起查看此列表，讨论各种领导对此项目的"适合性"。 
@@ -72,7 +72,7 @@ ms.locfileid: "58613561"
 
 更改是一个人工过程，与技术无关。 存在行为相信和认知科学，它向我们宣传了对变化的自然障碍。 若要使更改可接受，请务必预测用户的需求，表达你了解其情况，并创建可改善这种情况的解决方案。 即使这样做，也会遇到自然的变化障碍。  
 
-![Graph改变的耐性](media/teams-adoption-resistance.png)
+![Graph改变的耐性。](media/teams-adoption-resistance.png)
 
 每个组织的方法根据区域、工作风格、职业配置文件和组织的其他元素而异。 若要评估组织的准备情况，请参阅 [评估组织变更就绪情况](upgrade-org-change-readiness.md)。 使用指南回答以下问题：
 
@@ -104,4 +104,4 @@ ms.locfileid: "58613561"
 
 可以使用内部支持者来解决不同更改类型的问题。 在这里，反馈是成功的关键：鼓励人们分享其挑战和需求。 在试验期间，通过为这些个人或组提供座位来利用干扰者和破坏者。 此最佳做法将为协作改进的更顺利广泛部署铺平了道路。  
 
-![一个图标，表示下 ](media/teams-adoption-next-icon.png) 一步骤"[下一Microsoft Teams采用阶段 2：试验](teams-adoption-phase2-experiment.md)" 
+![表示下一步骤的图标。](media/teams-adoption-next-icon.png) 下一[Microsoft Teams采用阶段 2：试验](teams-adoption-phase2-experiment.md) 

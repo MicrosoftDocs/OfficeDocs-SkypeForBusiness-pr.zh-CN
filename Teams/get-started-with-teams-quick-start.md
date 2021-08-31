@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 124908362a762a9940f87713dd4e699459443e85
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 041ae19360e5dfc1fbf3ff1158c7f7cfe6cdaaae
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630206"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729221"
 ---
 # <a name="get-started-with-microsoft-teams"></a>开始使用 Microsoft Teams
 
@@ -43,7 +43,7 @@ ms.locfileid: "58630206"
 - [会议](deploy-meetings-microsoft-teams-landing-page.md)
 - [云语音](cloud-voice-landing-page.md)
 
-![说明 Teams 部署途径的图示](media/get-started-with-teams-quick-start-pathways.png)
+![说明 Teams 部署途径的关系图。](media/get-started-with-teams-quick-start-pathways.png)
 
 如果你有一个中等或大型组织， [使用 Teams 顾问帮助你推出 Microsoft Teams](use-advisor-teams-roll-out.md) ，以帮助你计划在组织中推出这些工作负载。 顾问使用 Teams 本身创建计划任务并将其分配给所有者、共享文档，并可实现整个部署团队的讨论。
 

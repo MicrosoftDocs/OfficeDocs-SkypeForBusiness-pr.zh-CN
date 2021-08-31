@@ -12,16 +12,16 @@ ms.collection:
 ms.reviewer: chhavib, vaibhava
 search.appverid: MET150
 f1keywords: ''
-description: 了解如何在 Microsoft Teams 管理中心购买适用于 Teams 的第三方应用。
+description: 了解如何在管理中心内购买第三Teams应用Microsoft Teams应用。
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: da917d2c58282554e3e2a68464cea1f2249bd324
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 05b280a789a6d41e459e2b8598606e1a7f11226f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616178"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726801"
 ---
 # <a name="purchase-third-party-apps-for-teams"></a>为应用购买第三方Teams
 
@@ -34,7 +34,7 @@ Teams应用可免费安装，一些应用可能需要购买服务订阅，以体
 
 在此处，还可以购买第三方应用为组织用户提供的服务的许可证。 表中的 **"** 许可证"列指示应用是否提供 SaaS 订阅进行购买。
 
-:::image type="content" source="media/purchase-third-party-apps-list.png" alt-text="显示具有 SaaS 订阅的第三方应用的屏幕截图":::
+:::image type="content" source="media/purchase-third-party-apps-list.png" alt-text="显示具有 SaaS 订阅的第三方应用的屏幕截图。":::
 
 ## <a name="search-for-and-purchase-services-for-a-third-party-app"></a>搜索并购买第三方应用的服务
 
@@ -44,9 +44,9 @@ Teams应用可免费安装，一些应用可能需要购买服务订阅，以体
     - **已** 购买：该应用提供 SaaS 订阅，并且你已购买其许可证。
     - **- -**：应用未提供 SaaS 订阅。
 3. 找到应用时，单击"立即 **购买** "转到应用详细信息 **页的** "计划和定价"选项卡。 查看应用的 SaaS 套餐的计划和定价信息。 如果你需要更多信息，请单击" **了解详细信息"** 链接以转到 [AppSource](https://appsource.microsoft.com/)上的应用页面。  
-4. 若要购买计划，请单击"立即 **购买"。** 将重定向到与应用关联的产品/Teams体验。 可在此完成对服务或 SaaS 产品/服务的购买。
+4. 若要购买计划，请单击"立即 **购买"。** 你将重定向到与应用应用关联的产品/Teams体验。 可在此完成对服务或 SaaS 产品/服务的购买。
 5. 选择想要的计划。 如果 SaaS 产品/服务包括多个计划，请单击" **更改** "以查看可用计划列表。
-6. 选择你的计费 **(每月或** 每年) ，然后输入要购买的用户许可证数量。
+6. 选择计费 **(每月或** 每年) ，然后输入要购买的用户许可证数。
 7. 输入你的付款方式。
 8. 准备就绪后，选择"下 **单"。**
 9. 单击 **"立即** 配置"，在发布者的网站上激活订阅。
@@ -56,15 +56,15 @@ Teams应用可免费安装，一些应用可能需要购买服务订阅，以体
 - **许可证激活日期**：激活许可证的日期。 如果你的帐户尚未设置，这将显示为"订阅挂起 **激活"。**
 - **许可证**：购买的许可证数。
 
-:::image type="content" source="media/purchase-third-party-apps-details-page.png" alt-text="应用详细信息页的计划和定价选项卡的屏幕截图":::
+:::image type="content" source="media/purchase-third-party-apps-details-page.png" alt-text="应用详细信息页的计划和定价选项卡的屏幕截图。":::
 
 选择 **"管理** 许可证"转到Microsoft 365 管理中心以查看和管理购买的许可证以及管理用户的许可证分配。
 
-全局管理员可以查看组织中任何人的购买，Teams管理员只能查看自己购买的购买。  
+全局管理员可以查看组织中任何人的购买，而Teams管理员只能查看自己购买的购买。  
 
-## <a name="have-a-saas-offer-for-a-teams-app-that-you-want-to-list-and-sell-in-the-microsoft-teams-admin-center-and-appsource"></a>对于想要在 Microsoft Teams 和 AppSource 中列出和销售的 Teams 应用，有 SaaS 产品/服务？
+## <a name="have-a-saas-offer-for-a-teams-app-that-you-want-to-list-and-sell-in-the-microsoft-teams-admin-center-and-appsource"></a>有一个 SaaS Teams应用，想要在管理中心和 AppSource 中列出Microsoft Teams销售？
 
-开发人员可以创建与其应用应用关联的 SaaS Teams产品/服务。 这些产品/服务通过[合作伙伴中心发布](https://partner.microsoft.com)，可供组织通过[AppSource](https://appsource.microsoft.com/)和 Microsoft Teams管理中心购买。
+开发人员可以创建与其应用应用关联的 SaaS Teams产品/服务。 这些产品/服务通过[合作伙伴中心发布](https://partner.microsoft.com)，可供组织通过[AppSource](https://appsource.microsoft.com/)和 Microsoft Teams购买。
  
 第三方应用开发人员可以转到 [创建 SaaS 产品/](/azure/marketplace/partner-center-portal/create-new-saas-offer) 服务了解详细信息。
 

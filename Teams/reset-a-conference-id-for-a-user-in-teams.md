@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 了解重置用户会议 ID 的步骤，Microsoft Teams会议更新和迁移工具的链接。
-ms.openlocfilehash: a4a57fb2f52ce2541e4e30794d78c05eb376a853
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6ef5bd8fed266990e5a21edc34e874c218199e87
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627194"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728881"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-microsoft-teams"></a>在 Microsoft Teams 中重置用户的会议 ID
 
@@ -37,7 +37,7 @@ ms.locfileid: "58627194"
 
 ## <a name="resetting-the-conference-id-for-a-user"></a>重置用户的会议 ID
 
-![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
+![一个图标，显示Microsoft Teams徽标。](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
 
 1. 在左侧导航栏中， **单击"用户**"，然后从可用用户列表中选择用户。
 
@@ -49,7 +49,7 @@ ms.locfileid: "58627194"
 
     
 > [!NOTE]
-> [!注释] 重置会议 ID 后，会向用户发送包含新会议 ID 的电子邮件。 在许多情况下，此电子邮件将发送到主电子邮件地址，包括Microsoft 365 Office 365邮箱。 电子邮件包含新的会议 ID、默认拨入电话号码 (以及) 现有会议的说明。 
+> [!注释] 重置会议 ID 后，会向用户发送包含新会议 ID 的电子邮件。 此电子邮件将发送到主电子邮件地址，在许多情况下，会发送到Microsoft 365或Office 365邮箱。 电子邮件包含新的会议 ID、默认拨入电话号码 (以及) 现有会议的说明。 
   
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -58,7 +58,7 @@ ms.locfileid: "58627194"
 
 - 您可以通过在"音频会议"部分中单击"在电子邮件中为用户发送会议信息"，在包含会议 ID 和拨入电话号码的电子邮件中向用户发送 **所有会议** 信息。 它不会发送 PIN。
     
-- 由服务创建一个 7-9 位数Teams ID。 不能更改其长度。
+- 7- 9 位数的会议 ID 由 Teams服务创建。 不能更改其长度。
     
 - 重置之后，你可以看到新会议 ID 列在" **会议 ID**"下方。
     
@@ -66,11 +66,11 @@ ms.locfileid: "58627194"
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>想要了解有关 Windows PowerShell 的详细信息？
 
-Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用Windows PowerShell，Microsoft 365 Office 365单点管理来管理任务或任务，可在有多个任务需要执行时简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
+Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用Windows PowerShell，可以使用Microsoft 365管理Office 365管理点来管理任务或任务，当您有多个任务需要执行时，可以简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
     
   - [为什么要使用 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [使用 Microsoft 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [使用 Microsoft 365 Office 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
 有关 Windows PowerShell 的详细信息，请参阅 [Microsoft Teams PowerShell 参考](/powershell/module/teams/?view=teams-ps)了解详细信息。
     

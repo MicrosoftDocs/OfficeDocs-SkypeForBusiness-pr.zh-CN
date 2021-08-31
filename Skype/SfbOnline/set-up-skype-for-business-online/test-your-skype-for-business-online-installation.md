@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Learn to save time, support calls and increase satisfaction by setting up test accounts and computers, and testing dial-in conferencing, online features such as person-to-person calls, conferencing, and sign in and out. '
-ms.openlocfilehash: 12622339c6a09c5bd651a712ff5210df92d04e52
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a022ad3db1890a71016d5ebffeccb0aaf30441ca
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611461"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729901"
 ---
 # <a name="test-your-skype-for-business-online-installation"></a>设置 Skype for Business Online 安装
 
@@ -53,7 +53,7 @@ ms.locfileid: "58611461"
 ## <a name="set-up-test-accounts"></a>设置测试帐户
 <a name="__toc328126910"> </a>
 
-1. 转到"**管理员**  >  **Microsoft 365** 或 **Office 365** 和组"，然后选择"  >  添加 ![ " ](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) 并输入所需信息。
+1. 转到"**管理员**  >  **Microsoft 365** 或 **Office 365**  >  **和组**"，然后选择"添加 ![ "。](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) 并输入所需信息。
 
 2. 执行步骤 4（电子邮件）时，输入你自己的电子邮件地址。这样，就有新用户的名称和密码记录。
 
@@ -66,7 +66,7 @@ ms.locfileid: "58611461"
 
 1. 转到Microsoft 365或Office 365，然后使用其中一个测试帐户的凭据登录。
 
-2. 转至" **设置**"![设置：更新配置文件，安装软件和将其连接到云](../images/4b83e9cb-c7e4-46c8-b3d1-cfee017123ae.png)，然后单击" **安装软件并将其连接到云**"。
+2. 转到 **设置设置：** 更新配置文件，安装软件，将其连接到云。，然后单击"安装软件"，将其 ![ ](../images/4b83e9cb-c7e4-46c8-b3d1-cfee017123ae.png) **连接到云**。
 
 ## <a name="set-up-audio-conferencing"></a>设置音频会议
 <a name="__toc328126912"> </a>
@@ -83,7 +83,7 @@ ms.locfileid: "58611461"
 
 1. 单击 **"音频会议用户**  >  **"。**
 
-2. 单击要设置拨入式会议的用户姓名，然后单击" **编辑**"![编辑](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png)。
+2. 单击要设置为电话拨入式会议的用户的姓名，然后单击"编辑 **编辑** ![ ](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png) "。
 
 3. 选择您的音频会议提供商，键入请求的信息，然后单击" **保存**"。
 

@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams
+title: 数据中的信息Microsoft Teams
 description: 本文介绍数据中的信息屏障Microsoft Teams如何影响Teams。
 author: robmazz
 ms.author: robmazz
@@ -16,30 +16,30 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0ee333cd789b908851358f537e940c77543210e48feb86b2174cb9e289a2d160
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a1cdb474bfab7d6f8f6cb54c4d93a225e844e1b3
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304894"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729151"
 ---
-# <a name="information-barriers-in-microsoft-teams"></a>Microsoft Teams
+# <a name="information-barriers-in-microsoft-teams"></a>数据中的信息Microsoft Teams
 
-IB (信息) 是管理员可以配置的策略，以防止个人或组相互通信。 例如，如果一个部门正在处理不应与其他部门共享的信息，则 IB 非常有用。 当需要隔离或阻止组与该组外部的任何人通信时，数据库也很有用。
+信息屏障 (数据库) 管理员可以配置策略，以防止个人或组相互通信。 例如，如果一个部门正在处理不应与其他部门共享的信息，则 IB 非常有用。 当需要隔离或阻止组与该组外部的任何人通信时，数据库也很有用。
 
 >[!NOTE]
->- 无法 (IB) 组的信息屏障。
->- 版本 1 Azure Active Directory (不支持使用机器人Azure Active Directory (Azure AD) 应用、用于发送活动源通知的 API 以及用于添加用户的一些 API。
+>- 无法跨 (创建 IB) 组的信息屏障。
+>- 版本 1 Azure Active Directory (不支持Azure Active Directory (Azure AD) 应用、用于发送活动源通知的 API 以及用于添加用户的一些 API。
 >- 专用通道符合配置的 IB 策略。
->- 新增：有关对连接到 SharePoint 网站的支持屏障Teams，请参阅与网站关联的[Microsoft Teams段](/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites)。
+>- 新增：有关对连接到SharePoint网站的支持屏障Teams，请参阅与网站关联的Microsoft Teams[段](/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites)。
 
-IB 策略还会阻止查找和发现。 如果您尝试与不应通信的某人进行通信，您将在人员选取器中找不到该用户。
+IB 策略还会阻止查找和发现。 如果您尝试与不应通信的人进行通信，您将在人员选取器中找不到该用户。
 
 ## <a name="background"></a>背景
 
 IB 的主要驱动因素来自金融服务行业。 金融行业监管局 ([FINRA]( https://www.finra.org)) 评审成员公司内部的数据库和利益冲突，并提供有关管理此类冲突的指导 (FINRA 2241，债务研究法规通知[15-31。](https://www.finra.org/sites/default/files/Regulatory-Notice-15-31_0.pdf)
 
-但是，自引入 IB 以来，许多其他领域发现它们很有用。 其他常见方案包括：
+但是，自引入数据库以来，许多其他领域发现它们很有用。 其他常见方案包括：
 
 - 教育：一个学校的学生无法查找其他学校学生的联系人详细信息。
 
@@ -51,7 +51,7 @@ IB 的主要驱动因素来自金融服务行业。 金融行业监管局 ([FINR
 
 例如，Enrico 属于银行段，Pradeep 属于财务顾问段。 Enrico 和 Pradeep 无法相互通信，因为组织的 IB 策略阻止这两个段之间的通信和协作。 但是，Enrico 和 Pradeep 可以在 HR 中与 Lee 通信。
 
-![显示阻止段之间通信的信息屏障的示例](media/information-barriers-example.png)
+![显示阻止段之间通信的信息屏障的示例。](media/information-barriers-example.png)
 
 ## <a name="when-to-use-information-barriers"></a>何时使用信息屏障
 
@@ -64,14 +64,14 @@ IB 的主要驱动因素来自金融服务行业。 金融行业监管局 ([FINR
 
 ## <a name="managing-information-barrier-policies"></a>管理信息屏障策略
 
-IB 策略使用 PowerShell cmdlet Microsoft 365合规性 (SCC) 管理。 有关详细信息，请参阅 [定义信息屏障的策略](/office365/securitycompliance/information-barriers-policies)。
+IB 策略在 Microsoft 365 合规性中心 (SCC) PowerShell cmdlet 进行管理。 有关详细信息，请参阅 [定义信息屏障的策略](/office365/securitycompliance/information-barriers-policies)。
 
 > [!IMPORTANT]
-> 在设置或定义策略之前，必须在目录中启用范围目录Microsoft Teams。 启用范围目录搜索后，请至少等待几个小时，然后设置或定义信息屏障的策略。 有关详细信息，请参阅定义 [信息屏障策略](/office365/securitycompliance/information-barriers-policies#prerequisites)。
+> 在设置或定义策略之前，必须在目录中启用范围目录Microsoft Teams。 启用作用域目录搜索后，请至少等待几个小时，然后设置或定义信息屏障的策略。 有关详细信息，请参阅 [定义信息屏障策略](/office365/securitycompliance/information-barriers-policies#prerequisites)。
 
 ## <a name="information-barriers-administrator-role"></a>信息屏障管理员角色
 
-IB 合规性管理角色负责管理 IB 策略。 有关此角色详细信息，请参阅合规性中心[中Microsoft 365权限](/office365/securitycompliance/permissions-in-the-security-and-compliance-center)。
+IB 合规性管理角色负责管理 IB 策略。 有关此角色详细信息，请参阅安全合规Microsoft 365[中的权限](/office365/securitycompliance/permissions-in-the-security-and-compliance-center)。
 
 ## <a name="information-barrier-triggers"></a>信息屏障触发器
 
@@ -79,35 +79,35 @@ IB 合规性管理角色负责管理 IB 策略。 有关此角色详细信息，
 
 - **将成员添加到团队** - 每当将用户添加到团队时，都必须根据其他团队成员的 IB 策略评估用户策略。 成功添加用户后，用户无需进一步检查即可在团队中执行所有功能。 如果用户的策略阻止他们添加到团队，该用户不会显示在搜索中。
 
-    ![屏幕截图：搜索要添加到团队的新功能并查找任何匹配项](media/information-barriers-add-members.png)
+    ![屏幕截图：搜索要添加到团队的新功能，并查找任何匹配项。](media/information-barriers-add-members.png)
 
 - **请求新的** 聊天 - 每次用户请求与一个或多个其他用户进行新聊天时，会评估聊天以确保它未违反任何 IB 策略。 如果聊天违反 IB 策略，则聊天不会启动。
 
     下面是一对一聊天的示例。
 
     > [!div class="mx-imgBorder"]
-    > ![显示 1：1 聊天中阻止通信的屏幕截图](media/information-barriers-one-one-chat.png)
+    > ![显示 1：1 聊天中阻止通信的屏幕截图。](media/information-barriers-one-one-chat.png)
 
     下面是群组聊天的示例。
 
     > [!div class="mx-imgBorder"]
-    > ![显示群组聊天的屏幕截图](media/information-barriers-group-chat.png)
+    > ![显示群组聊天的屏幕截图。](media/information-barriers-group-chat.png)
 
 - **邀请用户** 加入会议 - 当邀请用户加入会议时，将针对适用于其他团队成员的 IB 策略评估适用于该用户的 IB 策略。 如果存在冲突，则不允许用户加入会议。
 
-    ![显示用户被阻止参加会议的屏幕截图](media/information-barriers-meeting.png)
+    ![显示用户被阻止参加会议的屏幕截图。](media/information-barriers-meeting.png)
 
 - **屏幕在两个或多个** 用户之间共享 - 当用户与其他用户共享屏幕时，必须评估共享以确保它不会违反其他用户的 IB 策略。 如果违反 IB 策略，则不允许屏幕共享。
 
     下面是应用策略之前屏幕共享的示例。
 
     > [!div class="mx-imgBorder"]
-    > ![显示用户聊天的屏幕截图](media/ib-before-screen-share-policy.png)
+    > ![显示用户聊天的屏幕截图。](media/ib-before-screen-share-policy.png)
 
     下面是应用策略后屏幕共享的示例。 屏幕共享和呼叫图标不可见。
 
     > [!div class="mx-imgBorder"]
-    > ![显示具有阻止设置的用户字符的屏幕截图](media/ib-after-screen-share-policy.png)
+    > ![显示具有阻止设置的用户字符的屏幕截图。](media/ib-after-screen-share-policy.png)
 
 - 用户在 **Teams** 中发起电话呼叫 - 每当用户通过 VOIP) 向其他用户或用户组发起语音呼叫 (时，都会评估该呼叫，以确保它不会违反其他团队成员的 IB 策略。 如果存在任何冲突，语音呼叫将被阻止。
 
@@ -119,27 +119,27 @@ IB 合规性管理角色负责管理 IB 策略。 有关此角色详细信息，
 
 如果用户之间存在现有聊天或其他通信，并且设置了新策略或更改了现有策略，该服务将评估现有通信，以确保仍允许通信发生。 
 
-- **1：1** 聊天 - 如果由于向阻止通信的策略的一个或两个用户应用了 (，不再允许两个用户之间的通信，) 进一步通信。 他们现有的聊天对话将变为只读。
+- **1：1** 聊天 - 如果由于向阻止通信的策略的一个或两个用户应用了 (，因此不再允许两个用户之间的通信，) 进一步通信。 他们现有的聊天对话将变为只读。
 
     下面是显示聊天可见的示例。
 
     > [!div class="mx-imgBorder"]
-    > ![显示可用用户聊天的屏幕截图](media/ib-before-1-1chat-policy.png)
+    > ![显示可用用户聊天的屏幕截图。](media/ib-before-1-1chat-policy.png)
 
     以下示例显示聊天已禁用。
 
     > [!div class="mx-imgBorder"]
-    > ![显示用户聊天已禁用的屏幕截图](media/ib-after-1-1chat-policy.png)
+    > ![显示用户聊天已禁用的屏幕截图。](media/ib-after-1-1chat-policy.png)
 
-- 群组聊天 **-** 如果不再允许从一个用户到组的通信 (例如，由于用户更改了作业) ，则该用户及其参与违反策略的其他用户可能会从群组聊天中删除，并且不允许与组进一步通信。 用户仍可以看到旧对话，但无法查看或参与与组的任何新对话。 如果阻止通信的新策略或已更改策略应用于多个用户，则受该策略影响的用户可能会从群组聊天中删除。 他们仍可以看到旧对话。
+- 群组聊天 **-** 如果不再允许从一个用户到组的通信 (例如，由于用户更改了作业) ，则用户及其参与违反策略的其他用户可能会从群组聊天中删除，并且不允许与组进一步通信。 用户仍可以看到旧对话，但无法查看或参与与组的任何新对话。 如果阻止通信的新策略或已更改策略应用于多个用户，则受该策略影响的用户可能会从群组聊天中删除。 他们仍可以看到旧对话。
 
   此示例中，Enrico 已移至组织内部的不同部门，已从群组聊天中删除。
 
-  ![已从中删除用户的群组聊天的屏幕截图](media/information-barriers-user-changes-job.png)
+  ![已从中删除用户的群组聊天的屏幕截图。](media/information-barriers-user-changes-job.png)
 
   Enrico 无法再向群组聊天发送消息。
 
-  ![由于用户已从组中删除，无法向群组聊天发送消息的屏幕截图](media/information-barriers-user-changes-job-2.png)
+  ![由于用户已从组中删除，无法向群组聊天发送消息的屏幕截图。](media/information-barriers-user-changes-job-2.png)
 
 - **团队** - 已从组中删除的任何用户将从团队中删除，并且无法查看或参与现有或新对话。
 
@@ -151,14 +151,14 @@ IB 合规性管理角色负责管理 IB 策略。 有关此角色详细信息，
 
 - **人员选取** 器 - 被阻止的用户在人员选取器中不可见。
 
-    ![屏幕截图Teams警告用户策略阻止显示其他用户的信息](media/information-barriers-people-picker.png)
+    ![屏幕截图Teams警告用户策略阻止显示其他用户的信息。](media/information-barriers-people-picker.png)
 
 - **"活动**"选项卡 - 如果用户访问被阻止用户的"活动"选项卡，则不显示任何帖子。 **("活动**"选项卡仅显示频道帖子，并且两个用户之间将不存在常见的) 
 
     下面是被阻止的活动选项卡视图的示例。
 
     > [!div class="mx-imgBorder"]
-    > ![显示被阻止的活动选项卡的屏幕截图](media/ib-after-activity-tab-policy.png)
+    > ![显示被阻止的活动选项卡的屏幕截图。](media/ib-after-activity-tab-policy.png)
 
 - **组织结构图** - 如果用户访问显示被阻止用户的组织结构图，则被阻止的用户不会显示在组织结构图上。 而是会显示一条错误消息。
 
@@ -173,22 +173,22 @@ IB 合规性管理角色负责管理 IB 策略。 有关此角色详细信息，
     下面是通话联系人列表中被阻止的用户的示例。
 
     > [!div class="mx-imgBorder"]
-    > ![显示用户用户聊天的屏幕截图](media/ib-before-chat-contacts-policy.png)
+    > ![显示用户用户聊天的屏幕截图。](media/ib-before-chat-contacts-policy.png)
 
     下面是在通话内容列表中为用户禁用聊天的示例。
 
     > [!div class="mx-imgBorder"]
-    > ![显示阻止用户聊天的屏幕截图](media/ib-after-chat-contacts-policy.png)
+    > ![显示阻止聊天的用户的屏幕截图。](media/ib-after-chat-contacts-policy.png)
 
 - **Skype** 迁移Teams - 从 Skype for Business 迁移到 Teams 期间，所有用户（即使是被 IB 策略阻止的用户）都将迁移到 Teams。 然后，如上所述处理这些用户。
 
 ## <a name="teams-policies-and-sharepoint-sites"></a>Teams策略和SharePoint网站
 
-创建团队时，将预配SharePoint网站，并关联Microsoft Teams体验。 默认情况下，此网站和SharePoint不执行信息屏障策略。 若要在 SharePoint 和 OneDrive 中启用信息屏障，请遵循将信息屏障与 SharePoint 主题中的指导[和](/sharepoint/information-barriers#enable-sharepoint-and-onedrive-information-barriers-in-your-organization)步骤。
+创建团队时，将预配SharePoint网站，并关联Microsoft Teams文件体验。 默认情况下，此信息屏障策略不SharePoint网站和文件。 若要在 SharePoint 和 OneDrive 中启用信息屏障，请遵循将信息屏障与 SharePoint 主题中的[指导和](/sharepoint/information-barriers#enable-sharepoint-and-onedrive-information-barriers-in-your-organization)步骤。
 
 ## <a name="required-licenses-and-permissions"></a>所需的许可证和权限
 
-有关许可证和权限（包括计划和定价）的详细信息，请参阅Microsoft 365安全与合规[&指南](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)。
+有关许可证和权限的详细信息，包括计划和定价，请参阅Microsoft 365安全与合规[&指南](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)。
 
 ## <a name="known-issues"></a>已知问题
 

@@ -13,16 +13,16 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: 了解如何使用 Teams 管理中心中的实时Microsoft Teams报告，大致了解Teams实时事件活动。
+description: 了解如何使用 Microsoft Teams 管理中心Teams实时事件使用情况报告，大致了解Teams实时事件活动。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ea415e849f4255b38432d227a9d26452b3fc9275
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0d9f11e64daf1b530704d79c512e5741cda18a48
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631206"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729551"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Microsoft Teams实时事件使用情况报告
 
@@ -30,12 +30,12 @@ Teams管理中心中的实时Microsoft Teams报表显示组织中举行实时事
 
 ## <a name="view-the-live-event-usage-report"></a>查看实时事件使用情况报告
 
-1. 在管理中心的左侧导航Microsoft Teams，单击 **"分析&报告**  >  **使用情况报告"。** 在"**查看报表"** 选项卡上的"报表 **"** 下，Teams **实时事件使用情况"。**
+1. 在管理中心的左侧导航Microsoft Teams，单击 **"分析&报告**  >  **"。** 在"**查看报表"** 选项卡上的"报表 **"** 下，Teams **实时事件使用情况"。**
 2. 在 **"日期范围**"下，选择预定义区域或设置自定义范围。 您可以设置一个范围以显示一年的数据，即当前日期之前和之后六个月。
 3.  (") "下，您可以选择只显示由特定用户组织的实时事件。
 4. 单击"**运行报表"。**  
 
-    ![屏幕截图：Teams管理中心内具有标注Teams实时事件使用情况报表](../media/teams-live-event-usage-report-with-callouts.png "屏幕截图：Teams管理中心内具有标注Teams实时事件使用情况报表")
+    ![屏幕截图：Teams管理中心内具有标注Teams实时事件使用情况报表。](../media/teams-live-event-usage-report-with-callouts.png "屏幕截图：Teams管理中心内具有标注Teams实时事件使用情况报表")
 
 ## <a name="interpret-the-report"></a>解释报告
 
@@ -54,7 +54,7 @@ Teams管理中心中的实时Microsoft Teams报表显示组织中举行实时事
 
 实时事件详细信息页提供实时事件详细信息的摘要，并列出与事件关联的所有文件，包括脚本和录制。 单击文件名以查看或下载文件。
 
-![显示实时事件详细信息的屏幕截图](../media/teams-live-event-usage-report-event-detail.png)
+![显示实时事件详细信息的屏幕截图。](../media/teams-live-event-usage-report-event-detail.png)
 
 如果您的组织已启用 [Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/) eCDN 或 [Kollective](https://kollective.com) eCDN，您可以通过单击合作伙伴报告链接获取其他与会者分析。
 

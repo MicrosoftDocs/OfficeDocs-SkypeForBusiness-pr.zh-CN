@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
 description: 了解如何使用外部访问（联盟）和来宾访问在 Microsoft Teams 中与组织外部的人员进行通话和聊天以及查找和添加这些人员。
-ms.openlocfilehash: b2a8b7a4fb7042596b5f96ab8ac59b65c5b2df58
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8b4665c17559f94152279e86a82bb44c3c73f016
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582406"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729861"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>使用来宾访问权限和外部访问权限与组织外部的人员进行协作
 
@@ -40,7 +40,7 @@ ms.locfileid: "58582406"
 
 默认情况下，将针对所有域启用外部访问。 你可以通过允许或阻止特定域或者通过关闭该设置来限制外部访问。
 
-![外部访问设置的屏幕截图](media/external-access-federation-settings.png)
+![外部访问设置的屏幕截图。](media/external-access-federation-settings.png)
 
 若要配置外部访问，请参阅[管理外部访问](manage-external-access.md)。 
 

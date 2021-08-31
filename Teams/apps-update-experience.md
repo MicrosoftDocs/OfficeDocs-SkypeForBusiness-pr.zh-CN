@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何在应用中更新Microsoft Teams。
-ms.openlocfilehash: 156bafa45fe51884d6697bb4121143fad98fc7cd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0755c505a25d4c858afd104331d193edd8b2b27c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593166"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726201"
 ---
 # <a name="update-apps-in-microsoft-teams"></a>更新应用中Microsoft Teams
 
@@ -37,9 +37,9 @@ ms.locfileid: "58593166"
 * 添加了一个新连接器
 * "webApplicationInfo"中的属性已更改
 
-![可用的新版本](media/manage-your-custom-apps-update1.png)
+![新版本可用。](media/manage-your-custom-apps-update1.png)
 
-![应用的升级选项](media/manage-your-custom-apps-update2.png)
+![应用的升级选项。](media/manage-your-custom-apps-update2.png)
 
 > [!NOTE] 
 > 更新过程适用于 Microsoft 应用、自定义应用和第三方应用的所有应用更新。 

@@ -12,22 +12,22 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: edf4a04c-d4c9-4c05-aacc-9e084618bb55
-description: 阅读本主题，了解如何使用 Microsoft Operations Management Suite 和 OMS (监控云连接器 2.1 版) 。
-ms.openlocfilehash: 43ebfe689e113daa063a2ef2ed0d9b68a9d9d66a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 阅读本主题，了解如何使用 Microsoft Operations Management Suite (OMS) 监控云连接器版本 2.1 和更高版本) 。
+ms.openlocfilehash: 0589df251fedb8d60ba115920e76b3aa1b327334
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627724"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729021"
 ---
 # <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>使用 Operations Management Suite (OMS) 监视云连接器
 
 > [!Important]
-> 云连接器版本将于 2021 年 7 月 31 日与 Skype for Business Online 一起停用。 一旦组织升级到 Teams，了解如何使用直接路由将本地电话Teams[连接到呼叫。](/MicrosoftTeams/direct-routing-landing-page)
+> 云连接器版本将于 2021 年 7 月 31 日与 Skype for Business Online 一起停用。 一旦组织升级到 Teams，了解如何使用直接路由将本地电话网络Teams[到呼叫。](/MicrosoftTeams/direct-routing-landing-page)
 
-阅读本主题，了解如何使用 Microsoft Operations Management Suite 和 OMS (监控云连接器 2.1 版) 。
+阅读本主题，了解如何使用 Microsoft Operations Management Suite (OMS) 监控云连接器版本 2.1 和更高版本) 。
 
-现在，可以使用 Microsoft 云 IT 管理解决方案 Operations Management Suite (OMS) 监控云连接器 2.1 版和更高版本的部署。 利用 OMS Log Analytics，可以监视和分析资源（包括物理和虚拟机）的可用性和性能。 有关 OMS 和 Log Analytics 详细信息，请参阅 [什么是 Operations Management Suite (OMS) ？](/azure/operations-management-suite/operations-management-suite-overview)
+现在，可以使用 Operations Management Suite (OMS) （Microsoft 云 IT 管理解决方案）监控云连接器 2.1 版和更高版本的部署。 利用 OMS Log Analytics，可以监视和分析资源（包括物理和虚拟机）的可用性和性能。 有关 OMS 和 Log Analytics 详细信息，请参阅 [什么是 Operations Management Suite (OMS) ？](/azure/operations-management-suite/operations-management-suite-overview)
 
 本主题包含以下各部分：
 
@@ -53,9 +53,9 @@ ms.locfileid: "58627724"
 
 ## <a name="configure-cloud-connector-to-use-oms"></a>配置云连接器以使用 OMS
 
-你需要将云连接器本地环境配置为使用 OMS。 为此，您需要 OMS 工作区 ID 和密钥，可通过使用 OMS 门户找到，如下所示：设置 -- 连接源 \> -- Windows \> 服务器：
+你需要将云连接器本地环境配置为使用 OMS。 为此，您需要 OMS 工作区 ID 和密钥，可通过使用 OMS 门户找到，如下所示：设置 -- 连接源 -- Windows \> \> 服务器：
 
-![云连接器 OMS 的屏幕截图](../../media/a4bb0a96-c940-435e-a3f5-5ef3062dea83.png)
+![云连接器 OMS 的屏幕截图。](../../media/a4bb0a96-c940-435e-a3f5-5ef3062dea83.png)
 
 配置云连接器以使用 OMS 的方式取决于你的方案：
 
@@ -65,7 +65,7 @@ ms.locfileid: "58627724"
 
         每次部署或升级云连接器时，它都会尝试将 OMS 代理自动安装到 VM 上。 启用此功能，以便 OMS 代理可以保存云连接器自动更新。
 
-    2. 若要配置 OMS ID 和密钥，请运行 Set-CcCredential -AccountType OMSWorkspace。 
+    2. 若要配置 OMS ID 和密钥，请Set-CcCredential -AccountType OMSWorkspace。 
 
 - **如果要将 OMS 代理安装到现有云连接器设备**，请按照以下步骤操作：
 
@@ -80,7 +80,7 @@ ms.locfileid: "58627724"
 
 - **如果要更新已安装 OMS 代理的云连接器设备中的 OMS 工作区 ID 或密钥：**
 
-    1. 若要配置 OMS ID 和密钥，请运行 Set-CcCredential -AccountType OMSWorkspace。 
+    1. 若要配置 OMS ID 和密钥，请Set-CcCredential -AccountType OMSWorkspace。 
 
     2. 若要应用更新，请运行 Install-CcOMSAgent。 
 
@@ -100,18 +100,18 @@ ms.locfileid: "58627724"
 
 在 OMS 门户中，必须指定有关事件日志和性能计数器的信息，如下所示：
 
-1. 转到设置 - \> 数据 - \> Windows事件日志，并添加事件日志： 
+1. 转到设置 - 数据 \> - \> Windows事件日志，并添加事件日志： 
 
    - Lync Server
 
-   - 应用程序
+   - Application
 
      > [!NOTE]
      > 您必须在文本框中手动输入 Lync Server。 它不会显示为下拉列表中的选项。 
 
      有关详细信息，请参阅 log [Analytics Windows事件日志数据源](/azure/log-analytics/log-analytics-data-sources-windows-events)
 
-2. 转到设置- \> 数据 \> Windows性能计数器，并添加性能计数器： 
+2. 转到设置- \> 数据Windows \> 性能计数器，并添加性能计数器： 
 
    - **操作系统级别计数器**。 您可以添加操作系统级别计数器（如处理器使用率、内存使用率、网络使用情况）或使用现有解决方案（如容量和性能、网络性能监视器）而无需显式添加计数器。 无论你决定如何监视它们，Microsoft 都建议您监视这些操作系统计数器。
 

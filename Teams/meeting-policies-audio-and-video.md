@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.audioandvideo
 - seo-marvel-apr2020
 description: 了解如何在音频和视频Teams管理会议策略设置。
-ms.openlocfilehash: 2fcfb2525abf935cc8d26e7fe330fa4edff48f90
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4f8de802fd2ddf90555a34ac0b8d66d2d7021f79
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578356"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726561"
 ---
 # <a name="meeting-policy-settings-for-audio--video"></a>音频和视频的会议&设置
 
@@ -46,7 +46,7 @@ ms.locfileid: "58578356"
 
 这是按组织者和按用户策略的组合。 此设置控制播放会议录制内容期间是否提供字幕和转录功能。 如果将其关闭，则在播放会议录制内容期间“**搜索**”和“**CC**”选项将不可用。 启动录制的人员需要打开此设置，以便录制内容也包含脚本。
 
-请注意，录制的会议的听录功能目前仅支持语言设置为英语Teams在会议中使用英语的用户。
+请注意，录制的会议的听录目前仅支持将语言设置为英语Teams在会议中使用英语的用户。
 
 ### <a name="allow-cloud-recording"></a>允许云录制
 
@@ -54,7 +54,7 @@ ms.locfileid: "58578356"
 
 组织之外的人员，如联合和匿名用户，无法启动录制。 来宾用户无法启动或停止录制。
 
-![显示录制选项的屏幕截图](media/meeting-policies-recording.png)
+![显示录制选项的屏幕截图。](media/meeting-policies-recording.png)
 
 查看以下示例。
 
@@ -116,7 +116,7 @@ ms.locfileid: "58578356"
 
 | Teams 桌面和 Web 客户端 |Teams 移动客户端  |
 |:-------:|:-------:|
-|![截图截图显示在桌面上通过音频/视频设置加入会议的画面](media/meeting-policies-audio-video-settings.png)    |![屏幕截图显示在移动设备上通过音频/视频设置加入会议的画面](media/meeting-policies-mobile-join.png)          |
+|![显示桌面音频/视频设置的会议加入的屏幕截图。](media/meeting-policies-audio-video-settings.png)    |![屏幕截图显示在移动设备上通过音频/视频设置加入会议的画面](media/meeting-policies-mobile-join.png)          |
 
 查看以下示例。
 
@@ -161,7 +161,7 @@ ms.locfileid: "58578356"
 
 #### <a name="teams-mobile-clients"></a>Teams 移动设备客户端
 
-对于Teams客户端上的用户，会议期间共享照片和视频的能力也取决于"允许 **IP** 视频"或 **"IP 视频模式"** 设置。 根据策略设置优先，将无法使用分享视频和照片的功能。 这不会影响屏幕共享，可以使用单独的 [屏幕共享模式](meeting-policies-content-sharing.md#screen-sharing-mode) 设置进行配置。 此外，还可以设置 [Teams 移动性策略](/powershell/module/skype/new-csteamsmobilitypolicy)，防止移动用户通过蜂窝连接使用 IP 视频，这意味着他们必须使用 WiFi 连接。
+对于使用Teams客户端的用户，会议期间共享照片和视频的能力也取决于"允许 **IP** 视频"或 **"IP 视频模式"** 设置。 根据策略设置优先，将无法使用分享视频和照片的功能。 这不会影响屏幕共享，可以使用单独的 [屏幕共享模式](meeting-policies-content-sharing.md#screen-sharing-mode) 设置进行配置。 此外，还可以设置 [Teams 移动性策略](/powershell/module/skype/new-csteamsmobilitypolicy)，防止移动用户通过蜂窝连接使用 IP 视频，这意味着他们必须使用 WiFi 连接。
 
 ### <a name="media-bit-rate-kbs"></a>媒体位率 (Kbs)
 
@@ -199,7 +199,7 @@ ms.locfileid: "58578356"
 
 2. 选择 **"会议策略**  >  **自定义会议图像"。**
 
-   ![会议策略选择，突出显示"自定义会议图像"按钮](media/custom-background-image-button.png)
+   ![会议策略选择，突出显示"自定义会议图像"按钮。](media/custom-background-image-button.png)
 
 3. 从 **"组织范围****的背景图像"中选择"打开"。**
 

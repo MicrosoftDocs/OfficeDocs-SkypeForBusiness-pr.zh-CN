@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 了解如何在 Microsoft Teams 中为大型组织设置呼叫队列，该队列提供问候消息、保留音乐、呼叫重定向和其他功能。
-ms.openlocfilehash: 2d8f2e0eefd3e600b57f1a5fdeafc0a813dc4c22
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e7696878ba84942c2dcc88a1df3d5fc29144f883
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595096"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728731"
 ---
 # <a name="create-a-call-queue"></a>创建呼叫队列
 
@@ -42,9 +42,9 @@ ms.locfileid: "58595096"
 
 - 问候消息。
 
-- 音乐等待队列中等待时，
+- 音乐在等待队列中等待时，
 
-- 呼叫路由 - 在 *"先到* 先出" (FIFO) 顺序 - 到代理。
+- 呼叫路由 - 在 *"先* 到先出" (FIFO) 顺序 - 到代理。
 
 - 处理队列溢出和超时的选项。
 
@@ -52,29 +52,29 @@ ms.locfileid: "58595096"
 
 ## <a name="video-demonstration"></a>视频演示
 
-此视频展示了如何在 Teams 创建呼叫队列的基本示例。
+此视频演示了如何在呼叫队列中创建呼叫队列的基本Teams。
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWCF23?autoplay=false]
 
 ## <a name="create-the-call-queue"></a>创建呼叫队列
 
-要设置呼叫队列，请在Teams中心展开 **"** 语音"，单击"呼叫 **队列**"，然后单击"添加 **"。**
+若要设置呼叫队列，请在Teams中心展开 **"** 语音"，单击"呼叫 **队列**"，然后单击"添加 **"。**
 
 键入呼叫队列的名称。
 
 ## <a name="resource-accounts"></a>资源帐户
 
-![资源帐户设置的屏幕截图](media/call-queue-name-language.png)
+![资源帐户设置的屏幕截图。](media/call-queue-name-language.png)
 
-单击 **"添加** 帐户"，搜索要用于此呼叫队列的资源帐户，单击"添加 **"，然后单击**"添加 **"。**  (代理收到传入呼叫时，会看到资源帐户名称。) 
+单击 **"添加** 帐户"，搜索要用于此呼叫队列的资源帐户，单击"添加 **"，然后单击**"添加 **"。**  (代理收到传入呼叫时会看到资源帐户名称。) 
 
 有关详细信息[，Teams管理](manage-resource-accounts.md)资源帐户。
 
 ### <a name="assign-calling-id"></a>分配呼叫 ID
 
-![调用 ID 设置的屏幕截图](media/call-queue-assign-calling-id.png)
+![调用 ID 设置的屏幕截图。](media/call-queue-assign-calling-id.png)
 
-如果计划为呼叫代理使用 Teams通道，可以通过指定一个或多个具有电话号码的资源帐户来为代理分配出站呼叫者 ID 号码。
+如果计划为呼叫Teams一个呼叫通道，可以通过指定一个或多个具有电话号码的资源帐户，为代理分配出站呼叫者 ID 号码。
 
 单击 **"** 添加"，在进行出站调用时搜索要允许代理调用 ID 的资源帐户，单击"添加 **"，然后单击**"添加 **"。**
 
@@ -82,30 +82,30 @@ ms.locfileid: "58595096"
 
 ## <a name="language"></a>语言
 
-![语言设置的屏幕截图](media/call-queue-language.png)
+![语言设置的屏幕截图。](media/call-queue-language.png)
 
-选择 [受支持的语言](create-a-phone-system-call-queue-languages.md)。 如果启用系统生成的语音提示和语音邮件听录， (此语言) 。
+选择 [受支持的语言](create-a-phone-system-call-queue-languages.md)。 如果启用语音提示和语音听录，此语言 (系统生成的语音提示) 。
 
 ## <a name="greetings-and-music-on-hold-in-queue"></a>队列中保留的问候语和音乐
 
-![队列设置中保持的问候语和音乐的屏幕截图](media/call-queue-greetings-music.png)
+![队列设置中保持的问候语和音乐的屏幕截图。](media/call-queue-greetings-music.png)
 
 指定是否要在呼叫者到达队列时播放问候语。 必须上传包含要播放的问候语的 MP3、WAV 或 WMA 文件。 上传的录制内容不能大于 5 MB。
 
 Teams在队列中保持时向呼叫者提供默认音乐。 呼叫队列中提供的默认Teams不收取组织支付的任何版权费。 如果要播放特定音频文件，请选择"播放音频文件 **"并** 上传 MP3、WAV 或 WMA 文件。
 
 > [!NOTE]
-> 你负责独立清除和保护使用任何音乐或音频文件的一切必要Microsoft Teams权限， 其中可能包括来自所有相关权利持有者的任何音乐、声音效果、音频、品牌、名称和其他内容中的知识产权和其他权利，其中可能包括艺术家、执行者、执行者、艺术家、歌曲作者、作曲者、录制标签、音乐发布者、联盟、团体、权利代理人、集体管理组织以及拥有、控制或许可音乐版权、音效、音频和其他知识产权的其他任何方。
+> 你负责独立清除和保护在服务中使用任何音乐或音频文件的Microsoft Teams权限， 其中可能包括来自所有相关权利持有者的任何音乐、声音效果、音频、品牌、名称和其他内容中的知识产权和其他权利，其中可能包括艺术家、执行者、执行者、艺术家、歌曲作者、作曲者、录制标签、音乐发布者、联盟、团体、权利代理人、集体管理组织以及拥有、控制或许可音乐版权、音效、音频和其他知识产权的其他任何方。
 
 ## <a name="call-agents"></a>呼叫代理
 
 查看 [将代理添加到呼叫队列的先决条件](plan-auto-attendant-call-queue.md#prerequisites)。
 
-![呼叫队列的用户和组设置的屏幕截图](media/call-queue-users-groups.png)
+![呼叫队列的用户和组设置的屏幕截图。](media/call-queue-users-groups.png)
 
 ##### <a name="teams-channel"></a>Teams频道
 
-可以通过一个客户端通道添加多达 200 Teams代理。
+可以通过一个客户端通道最多添加 200 Teams代理。
 
 如果要使用 [频道管理Teams，](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)请选择"**选择团队"选项，** 然后单击"**添加频道"。** 搜索想要使用的团队，将其选中，然后单击"添加 **"。** 选择想要使用的频道， (仅支持标准) 然后单击"应用 **"。** 您必须是团队的成员、频道的创建者或所有者。
 
@@ -115,7 +115,7 @@ Teams在队列中保持时向呼叫者提供默认音乐。 呼叫队列中提�
   - Microsoft Teams Mac 客户端
 
 > [!NOTE]
-> 如果使用此选项，则呼叫队列可能需要 24 小时才能完全正常运行。
+> 如果使用此选项，则呼叫队列可能需要多达 24 小时才能完全正常运行。
 
 ##### <a name="users-and-groups"></a>用户和组
 
@@ -125,18 +125,18 @@ Teams在队列中保持时向呼叫者提供默认音乐。 呼叫队列中提�
 
 若要将用户添加到队列，请单击"**添加** 用户"，搜索该用户，单击"添加 **"，然后单击**"添加 **"。**
 
-若要将组添加到队列，请单击 **"添加组**"，搜索该组，单击"添加 **"，然后单击**"添加 **"。** 可以使用通讯组列表、安全组和Microsoft 365组Microsoft Teams团队。
+若要将组添加到队列，请单击 **"添加组**"，搜索该组，单击"添加 **"，然后单击**"添加 **"。** 可以使用通讯组列表、安全组和Microsoft 365组或Microsoft Teams团队。
 
 > [!NOTE]
 > 添加到组的新用户最多可能需要八个小时才能进行第一次呼叫。
 
 ## <a name="call-routing"></a>呼叫路由
 
-![会议模式和路由方法设置的屏幕截图](media/call-queue-conference-mode-routing-method.png)
+![会议模式和路由方法设置的屏幕截图。](media/call-queue-conference-mode-routing-method.png)
 
 **在** 代理接受呼叫后，会议模式可显著减少呼叫者连接到代理所花的时间。 若要使会议模式正常工作，呼叫队列中的代理必须使用以下客户端之一：
 
-  - 最新版本的桌面Microsoft Teams Android 应用或 iOS 应用
+  - 最新版本的 Microsoft Teams 桌面客户端、Android 应用或 iOS 应用
   - Microsoft Teams 1449/1.0.94.2020051601 或更高版本
   
 代理Teams帐户需要设置为Teams模式。 不符合要求的代理不包括在呼叫路由列表中。 如果代理都使用兼容的客户端，建议为呼叫队列启用会议模式。
@@ -160,7 +160,7 @@ Teams在队列中保持时向呼叫者提供默认音乐。 呼叫队列中提�
 > [!TIP]
 > 建议 **将路由方法****设置为轮循机制****或** 最长空闲时间。
 
-![路由、选择退出和警报时间设置的屏幕截图](media/call-queue-presence-agents-time.png)
+![路由、选择退出和警报时间设置的屏幕截图。](media/call-queue-presence-agents-time.png)
 
 **基于状态的路由** 使用呼叫代理的可用性状态来确定是否应在所选路由方法的呼叫路由列表中包含代理。 其可用性状态设置为"可用 **"** 的呼叫代理包含在呼叫路由列表中，可以接收呼叫。 其可用性状态设置为任何其他状态的代理从呼叫路由列表中排除，并且不会接收呼叫，直到其可用性状态更改回"可用 **"。** 
 
@@ -185,7 +185,7 @@ Teams在队列中保持时向呼叫者提供默认音乐。 呼叫队列中提�
 
 ## <a name="call-overflow-handling"></a>调用溢出处理
 
-![呼叫溢出设置的屏幕截图](media/call-queue-overflow-handling.png)
+![呼叫溢出设置的屏幕截图。](media/call-queue-overflow-handling.png)
 
 **队列中的最大调用** 数指定在任意给定时间可在队列中等待的最大调用数。 默认值为 50，但范围为 0 到 200。 达到此限制时，按"达到最大调用数时"设置指定 **处理调用** 。
 
@@ -196,7 +196,7 @@ Teams在队列中保持时向呼叫者提供默认音乐。 呼叫队列中提�
 
 ## <a name="call-timeout-handling"></a>调用超时处理
 
-![通话超时设置的屏幕截图](media/call-queue-timeout-handling.png)
+![调用超时设置的屏幕截图。](media/call-queue-timeout-handling.png)
 
 **调用超时：最长等待时间** 指定在重定向或断开连接之前，呼叫在队列中可以保持的最大时间。 可以指定一个从 0 秒到 45 分钟的值。
 
@@ -218,13 +218,13 @@ Teams在队列中保持时向呼叫者提供默认音乐。 呼叫队列中提�
 呼叫队列中的呼叫代理支持以下客户端：
 
   - Skype for Business桌面客户端 2016 (32 位和 64 位版本) 
-  - Lync 桌面客户端 2013 (32 位和 64 位版本) 
+  - Lync 桌面客户端 2013 (32 位和 64 位) 
   - 支持所有 IP 电话型号Microsoft Teams。 请参阅[获取适用于 Skype for Business Online 的电话](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online)。
   - Mac Skype for Business 客户端（版本 16.8.196 及更高版本）
   - Android Skype for Business 客户端（版本 6.16.0.9 及更高版本）
   - iPhone Skype for Business 客户端（版本 6.16.0 及更高版本）
   - iPad Skype for Business 客户端（版本 6.16.0 及更高版本）
-  - Microsoft Teams Windows客户端 (32 位和 64 位版本) 
+  - Microsoft Teams Windows客户端 (32 位和 64 位) 
   - Microsoft Teams Mac 客户端
   - Microsoft Teams[虚拟桌面、Citrix](/microsoftteams/teams-for-vdi)和 VMware (Windows虚拟桌面基础结构) 
   - Microsoft Teams iPhone 应用

@@ -20,13 +20,13 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: '请参阅Skype for Business向用户和许多其他电话拨入式会议设置分配电话拨入式会议许可证和会议 ID 的联机步骤。 '
-ms.openlocfilehash: f011dc05f027ad8ec6ef33665050505432a3547e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: '请参阅Skype for Business联机步骤向用户和许多其他电话拨入式会议设置分配电话拨入式会议许可证和会议 ID。 '
+ms.openlocfilehash: 68deefd4092d05081ffe8a7aac9a1dc92ea36940
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586172"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726461"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-skype-for-business-online"></a>在 Skype for Business Online 中管理我的组织的音频会议设置
 
@@ -61,11 +61,11 @@ ms.locfileid: "58586172"
 
 ## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>启用或禁用发送给音频会议用户的电子邮件
 
-![显示 Skype for Business 徽标的图标](../images/sfb-logo-30x30.png) **使用 Skype for Business 管理中心**
+![一个图标，显示Skype for Business徽标。](../images/sfb-logo-30x30.png) **使用 Skype for Business 管理中心**
 
 1. 使用工作或学校帐户登录。
 
-2. 转到管理中心 **> Skype for Business** 导航中，单击"音频 **会议"。**
+2. 转到管理中心 **> Skype for Business，** 在左侧导航栏中，单击"**音频会议"。**
 
 3. 在 **Microsoft 网桥的设置** 页上，选中或清除 **自动向用户发送电子邮件，如果他们的音频会议设置更改**　。
 
@@ -132,7 +132,7 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 
 1. 使用工作或学校帐户登录。
 
-2. 转到管理中心 **> Skype for Business** 导航中，单击"音频 **会议"。**
+2. 转到管理中心 **> Skype for Business，** 在左侧导航栏中，单击"**音频会议"。**
 
 3. 单击 **"** 用户"，然后选择要重置其 PIN 的用户。
 
@@ -146,7 +146,7 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 
 1. 使用工作或学校帐户登录。
 
-2. 转到管理中心 **> Skype for Business** 导航中，单击"音频 **会议"。**
+2. 转到管理中心 **> Skype for Business，** 在左侧导航栏中，单击"**音频会议"。**
 
 3. 单击 **"** 用户"，然后选择要重置其 PIN 的用户。
 
@@ -187,7 +187,7 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 
    - " **启用会议进入和退出通知**"此选项默认情况下选中。 如果清除此复选框，则默认情况下已加入会议的用户在有人进入或离开会议时不会收到通知。
 
-     当用户使用 Skype for Business 应用加入会议并修改会议"Skype 会议 选项"菜单中的"何时进入或离开时 **通知"设置** 时，可以基于会议进行此设置。
+     当用户使用 Skype for Business 应用加入会议并修改会议"Skype 会议 选项"菜单中的"何时进入或离开时 **通知"设置** 时，可以按会议进行此设置。
 
    - " **要求呼叫者在加入会议之前录制其名称**"此选项默认情况下选中。 如果清除此复选框，呼叫者在加入会议之前不会要求他们录制其姓名。
 
@@ -201,7 +201,7 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 
 2. 转到管理中心 **> Skype for Business。**
 
-3. 在 Skype for Business **管理** 中心的 左侧导航中，转到"**音频会议**  >  **Microsoft 网桥设置"。**
+3. 在 **Skype for Business管理** 中心的 左侧导航中，转到"音频 **会议**  >  **""Microsoft 网桥设置"。**
 
 4. 在 **"安全性**"下，在"PIN 长度"列表中输入 PIN的位数，然后单击"保存 **"。**
 
@@ -225,14 +225,14 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 
     请参阅[对其音频会议信息的用户发送电子邮件](send-an-email-to-a-user-with-their-dial-in-information.md)。
 
-## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>在音频会议网桥上查看 (和) 辅助 () 和备用语言
+## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>在音频会议网桥上查看 (和) 辅助 (备用) 和辅助语言
 
 
 1. 使用工作或学校帐户登录。
 
 2. 转到管理中心 **> Skype for Business。**
 
-3. 在 **Skype for Business管理** 中心的 左侧导航中，转到"音频 **会议**"，然后单击 **"Microsoft 网桥"。**
+3. 在 Skype for Business **管理** 中心的 左侧导航中，转到"音频 **会议**"，然后单击 **"Microsoft 网桥"。**
 
 4. 从列表中选择一个电话号码，单击"操作"窗格中的"设置语言"，然后在"设置语言"页上，单击"使用主要语言"列表查看受支持语言的完整列表。 
 
@@ -246,7 +246,7 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 
 2. 转到管理中心 **> Skype for Business。**
  
-3. 在 **Skype for Business管理** 中心的 左侧导航中，转到音频会议 Microsoft  >  **网桥**。 可在此处：
+3. 在 **Skype for Business管理** 中心的 左侧导航中，转到"**音频会议**  >  **Microsoft 网桥"。** 可在此处：
 
    - 查看由音频会议Microsoft 365或Office 365设置的电话号码。
 
@@ -264,7 +264,7 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 
 2. 转到管理中心 **> Skype for Business。**
 
-3. 在 **Skype for Business 管理** 中心的 左侧导航中，转到"音频会议">"用户 **"。** 
+3. 在 **Skype for Business管理** 中心的 左侧导航中，转到"音频会议">"用户 **"。** 
 
 请参阅[请参阅启用了音频会议的用户列表](see-a-list-of-users-that-are-enabled-for-audio-conferencing.md)。
 
@@ -317,11 +317,11 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
   ```
 
   ## <a name="want-to-know-more-about-windows-powershell"></a>想要了解有关Windows PowerShell
-- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用Windows PowerShell，Microsoft 365 Office 365单点管理来管理任务或任务，可在有多个任务需要执行时简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
+- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用Windows PowerShell，可以使用Microsoft 365管理Office 365管理点来管理任务或任务，当您有多个任务需要执行时，可以简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
 
   - [为何需要将 Microsoft 365 或 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
-  - [使用 Microsoft 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [使用 Microsoft 365 Office 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 
 - Windows PowerShell管理中心相比，Windows PowerShell在速度、简单性和工作效率方面具有许多优势，例如，一次为许多用户更改设置时。 请在以下主题中了解这些优点：
 

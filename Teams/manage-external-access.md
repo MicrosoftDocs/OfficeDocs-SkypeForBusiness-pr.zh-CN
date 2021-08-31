@@ -21,12 +21,12 @@ description: 你的 Teams 管理员或 IT 管理员可以为其他域配置外�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 255b714980db3ac63e9251c8db7af243d91dc72d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2739f1b7f97e39617471ecf292ecf9424a7ac396
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610299"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726861"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>在 Microsoft Teams 中管理外部访问
 
@@ -70,13 +70,13 @@ ms.locfileid: "58610299"
 
 ### <a name="step-1---enable-your-organization-to-communicate-with-another-teams-or-skype-for-business-organizations"></a>步骤 1 - 使组织能够与其他团队或 Skype for Business 组织进行通信
 
-![显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png)  **使用 Microsoft Teams 管理中心**
+![显示 Microsoft Teams 徽标的图标。](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
 
 1. 在左侧导航栏中，转到“**组织范围的设置**” > “**外部访问**”。
 
 2. 启用“**用户可以与其他 Skype for Business 和 Teams 用户通信**”设置。
 
-     ![已启用“用户可以与其他 Skype for Business 和 Teams 用户通信”设置的屏幕截图](media/manage-external-access-2.png).
+     ![已启用“用户可以与其他 Skype for Business 和 Teams 用户通信”设置的屏幕截图。](media/manage-external-access-2.png).
 
 3. 如果想要允许所有 Teams 组织与你组织中的用户进行通信，请跳到步骤 5。
 
@@ -109,13 +109,13 @@ ms.locfileid: "58610299"
 
 请按照以下步骤，让你组织中的 Teams 用户与 Skype 用户聊天和通话。 然后，Teams 用户可以搜索和启动与 Skype 用户之间的一次性文本对话或音频/视频通话，以及反向操作。
 
-![显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png)  **使用 Microsoft Teams 管理中心**
+![显示 Microsoft Teams 徽标的图标。](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
 
 1. 在左侧导航栏中，转到“**组织范围的设置**” > “**外部访问**”。
 
 2. 启用“**用户可与 Skype 用户通信**”设置。
 
-    ![已启用“用户可与 Skype 用户通信”设置的屏幕截图](media/manage-external-access-5.png).
+    ![已启用“用户可与 Skype 用户通信”设置的屏幕截图。](media/manage-external-access-5.png).
 
 若要深入了解 Teams 用户和 Skype 用户之间的通信方式（包括适用的限制），请参阅 [Teams 和 Skype 的互操作性](teams-skype-interop.md)。
 

@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.contentsharing
 - seo-marvel-apr2020
 description: 了解如何在用于内容共享的Teams管理会议策略设置。
-ms.openlocfilehash: 8a44d7cf9d28f67d14d60388e729db0c060a625b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f1fe77b2a8be552e2c156fda8d0b1bd89fa83d4c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592226"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726501"
 ---
 # <a name="meeting-policy-settings---content-sharing"></a>会议策略设置 - 内容共享
 
@@ -66,11 +66,11 @@ ms.locfileid: "58592226"
 
 如果为用户开启此设置，则在共享会话中的顶部栏中会显示 **“授予控制”** 选项。
 
-![显示 “授予控制” 选项的屏幕截图](media/meeting-policies-give-control.png)
+![显示"授予控制权"选项的屏幕截图。](media/meeting-policies-give-control.png)
 
 如果已关闭用户的设置，则无法使用 **“授予控制”** 选项。
 
-![显示“授予控制”选项不可用的屏幕截图](media/meeting-policies-give-control-not-available.png)
+![显示"授予控制权"选项不可用的屏幕截图。](media/meeting-policies-give-control-not-available.png)
 
 查看以下示例。
 

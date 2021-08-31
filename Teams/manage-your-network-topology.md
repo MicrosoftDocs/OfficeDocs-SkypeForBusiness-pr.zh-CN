@@ -18,13 +18,13 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 了解如何在云语音中配置云语音功能的网络Microsoft Teams。
-ms.openlocfilehash: 7ed9837b676197b588669ae95db77c9e834371dc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 了解如何为云语音功能配置网络设置Microsoft Teams。
+ms.openlocfilehash: 701e3900980b628f66d9d62d3dade987fee821fe
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598416"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726571"
 ---
 # <a name="manage-your-network-topology-for-cloud-voice-features-in-microsoft-teams"></a>管理云语音功能的网络拓扑Microsoft Teams
 
@@ -32,7 +32,7 @@ ms.locfileid: "58598416"
 
 在管理中心的"网络 **拓扑**"页上Microsoft Teams配置网络设置，或者使用 Windows PowerShell。
 
-## <a name="configure-network-settings-in-the-microsoft-teams-admin-center"></a>在管理中心Microsoft Teams设置
+## <a name="configure-network-settings-in-the-microsoft-teams-admin-center"></a>在管理中心Microsoft Teams网络设置
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
@@ -40,24 +40,24 @@ ms.locfileid: "58598416"
 
 #### <a name="add-and-configure-a-network-site"></a>添加和配置网络站点
 
-1. 在管理中心的左侧导航Microsoft Teams，转到"位置  >  **""网络拓扑**"，然后单击"网络 **站点"** 选项卡。
+1. 在管理中心的左侧导航Microsoft Teams，转到"位置""网络  >  **拓扑**"，然后单击"网络 **站点"** 选项卡。
 2. 单击 **"** 添加"，然后输入网站的名称和说明。
 
-    !["添加网络站点"页的屏幕截图](media/manage-network-topology-add-site.png)
+    !["添加网络站点"页的屏幕截图。](media/manage-network-topology-add-site.png)
 
 3. 若要将站点与网络区域关联，请单击"添加网络区域"，选择现有区域或单击"添加"以添加区域，然后单击"链接 **"。**  
 4. 若要为Location-Based启用"基于位置的路由"，请启用 **"基于位置的路由"。**
 5. 若要向网站分配紧急服务策略，请执行下列一项或两项操作：
 
     - 如果你的组织使用"呼叫计划"或电话系统直接路由"，请在"紧急呼叫策略"下选择想要的策略。
-    - 如果组织已电话系统直接路由，**请在"紧急** 呼叫路由策略"下选择想要的策略。
+    - 如果组织已电话系统直接路由，请在"**紧急呼叫路由** 策略"下选择想要的策略。
 
 6. 若要将子网关联到站点，请在 **"子网"下** 单击"**添加子网"。** 指定 IP 版本、IP 地址、网络范围，添加说明，并单击"应用 **"。** 每个子网必须与特定站点相关联。
 7. 单击“**保存**”。
 
 #### <a name="modify-a-network-site"></a>修改网络站点
 
-1. 在管理中心的左侧导航Microsoft Teams，转到"位置  >  **""网络拓扑**"，然后单击"网络 **站点"** 选项卡。
+1. 在管理中心的左侧导航Microsoft Teams，转到"位置""网络  >  **拓扑**"，然后单击"网络 **站点"** 选项卡。
 2. 单击网站名称左侧选择网站，然后单击"编辑 **"。**
 3. 进行您需要的更改，然后单击"保存 **"。**
 
@@ -71,7 +71,7 @@ ms.locfileid: "58598416"
 2. 单击“新建”。
 3. 在"**添加受信任的 IP 地址**"窗格中，指定 IP 版本、IP 地址、网络范围，添加说明，并单击"应用 **"。**
 
-    !["添加受信任的 IP 地址"窗格的屏幕截图](media/manage-network-topology-add-trusted-ip.png)
+    !["添加受信任的 IP 地址"窗格的屏幕截图。](media/manage-network-topology-add-trusted-ip.png)
 
 #### <a name="edit-a-trusted-ip-address"></a>编辑受信任的 IP 地址
 

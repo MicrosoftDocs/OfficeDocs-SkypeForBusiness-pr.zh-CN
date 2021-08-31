@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: fa5d9c3f1c74133b96eda81d7c56c3f353265b99
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9b8d593d4f3238bb588159290655f1aa241beffc
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615338"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727001"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中为组织管理 Lists 应用
 
@@ -37,11 +37,11 @@ Microsoft Teams 中的 Lists 应用帮助组织中的用户跟踪信息、整理
 
 在 Teams 中，用户以选项卡形式在频道中访问 Lists。  点击 **+** 来打开选项卡库并添加一个新的 Lists 应用选项卡实例到频道，就可以开始了。
 
-![选项卡库中的 Lists 应用](media/lists-tab.png)
+![列出选项卡库中的应用。](media/lists-tab.png)
 
 用户可以在相同的团队或有权限的另一个 SharePoint 站点中创建新列表或固定现有列表。 新列表可以从头创建，或根据内置模版、基于现有列表的结构或从 Excel 工作簿导入数据创建。 Lists 应用在 Teams 桌面、web 以及移动客户端均可用。
 
-![如何在 Lists 应用中创建列表](media/lists-create-list.png)
+![如何在"列表"应用中创建列表。](media/lists-create-list.png)
 
 ## <a name="templates"></a>模板
 

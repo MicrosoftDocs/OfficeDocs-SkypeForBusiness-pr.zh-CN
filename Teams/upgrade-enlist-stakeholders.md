@@ -1,5 +1,5 @@
 ---
-title: 让利益干系人|Skype for Business Teams计划
+title: 将利益干系人|Skype for Business Teams升级规划
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: 了解如何组织利益干系人的结构，以确保Microsoft Teams成功。
+description: 了解如何组织利益干系人的结构，以确保Microsoft Teams升级成功。
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -20,18 +20,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 21e08060c61e78919e514a099413f6d70380cf11
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 56a0c236b1fcbae2765c28ddcff424009b57b099
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600917"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729434"
 ---
 # <a name="enlist-your-project-stakeholders"></a>登记项目干系人
 
-![显示升级旅程的利益干系人状态插图](media/upgrade-banner-stakeholders.png "升级旅程的阶段，强调集合项目利益干系人团队")
+![显示升级过程的利益干系人状态插图。](media/upgrade-banner-stakeholders.png "升级旅程的阶段，强调集合项目利益干系人团队")
 
-本文是升级Project利益干系人阶段的一部分，这是您为项目成功完成的第一个也是最重要的活动。
+本文是升级Project利益干系人阶段的一部分，这是为项目成功完成的第一个也是最重要的活动。
 
 从实施项目可交付结果到推动责任制，利益干系人掌握项目成功的关键。 你需要分配两组利益干系人： (1) 一个赞助联盟，其中包括对项目成功具有既得兴趣并影响项目的主管和项目发起人; (2) 项目团队，由负责确保技术和用户就绪性的人组成，他们将完成项目计划中的各个任务。 这两个组之间的常见线程是项目经理，他致力于确保项目任务按计划完成，并报告项目状态回联盟。
 
@@ -42,8 +42,8 @@ ms.locfileid: "58600917"
 
 |&nbsp; |&nbsp; |
 |---|---|
-| ![描述决策点的图标](media/audio_conferencing_image7.png) <br/>决策点 | <ul><li>Who是适合充当此项目利益干系人团队的人？</li></ul> |
-| ![描述后续步骤的图标](media/audio_conferencing_image9.png)<br/>后续步骤 | <ul><li>考虑项目范围并分配相关利益干系人。</li><li>请使用下表作为指南，但请注意，此列表并不全面。<br><strong>提示</strong><br>构建一个责任负责的、咨询有根据的 [ (RACI) ](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) 矩阵，以进一步区分那些将负责的人与只是需要及时了解项目特定领域信息的人。</li> |
+| ![描述决策点的图标。](media/audio_conferencing_image7.png) <br/>决策点 | <ul><li>Who适合充当此项目利益干系人团队的人吗？</li></ul> |
+| ![一个图标，描述接下来的步骤。](media/audio_conferencing_image9.png)<br/>后续步骤 | <ul><li>考虑项目范围并分配相关利益干系人。</li><li>请使用下表作为指南，但请注意，此列表并不全面。<br><strong>提示</strong><br>构建一个责任负责、咨询 ([ RACI) ](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) 矩阵，以进一步区分那些将负责的人与只需在项目的特定领域保持通知的人。</li> |
 | <li>决定是否创建一个指导委员会，并在适当的时候分配角色。</li></ul> | |
 
 | 角色 | 责任 |

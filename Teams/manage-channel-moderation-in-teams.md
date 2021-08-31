@@ -18,12 +18,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何在频道中设置审核Microsoft Teams，包括如何将团队成员添加为频道审阅人。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: bb709d8e618b68fad2bc87dc658eb6f67853e891
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5e1a58f7f09c94ae5178add3897b84e3571eef03
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593026"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726131"
 ---
 # <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>在视频中设置和管理Microsoft Teams
 
@@ -44,7 +44,7 @@ ms.locfileid: "58593026"
 
 ## <a name="scenarios"></a>方案
 
-下面是一些示例，说明您的组织如何在 Teams 中使用频道审核。
+下面是一些示例，说明您的组织如何在 Teams。
 
 ### <a name="use-a-channel-as-an-announcement-channel"></a>使用频道作为公告频道
 
@@ -66,7 +66,7 @@ ms.locfileid: "58593026"
 
 [!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
 
-![管理频道-审核-团队中的首选项](media/manage-channel-moderation-in-teams-preferences.png)
+![管理频道-审核-团队中的首选项。](media/manage-channel-moderation-in-teams-preferences.png)
 
 ### <a name="turn-on-or-turn-off-moderation-for-a-channel"></a>打开或关闭频道审核
 
@@ -76,7 +76,7 @@ ms.locfileid: "58593026"
 
 ### <a name="add-or-remove-channel-moderators"></a>添加或删除频道审查器
 
-在 **Who审阅人**？"下，单击 **"管理**"，然后添加或删除作为审阅人的团队成员。 团队所有者和审阅人可以添加和删除其他审阅人。  
+在 **Who审阅人？"** 下，单击 **"管理**"，然后添加或删除作为审阅人的团队成员。 团队所有者和审阅人可以添加和删除其他审阅人。  
 
 ### <a name="set-team-member-permissions"></a>设置团队成员权限
 

@@ -23,16 +23,16 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: 使用 Microsoft Teams 设置虚拟就诊系统
-ms.openlocfilehash: 5dd103651c4cd368b5304d4d33d753b5d13ab73d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 46f29649665521b2bc59c2a4a73db617398bcf37
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596196"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726631"
 ---
 # <a name="virtual-visits-with-teams---integration-into-ehr"></a>通过 Teams 进行虚拟就诊 - 集成到 EHR
 
-Microsoft Teams借助 EHR (EHR) 连接器，医生可以直接从 EHR 系统启动虚拟患者访问或咨询 Teams提供商。 Microsoft Teams 基于 Microsoft 365 云进行构建，可在支持 HIPAA、HITECH 认证等合规性要求的单个中心内通过聊天、视频、语音和医疗保健工具，实现简单、安全的协作和沟通。
+Microsoft Teams借助 EHR (EHR) 连接器，医生可以轻松直接从 EHR 系统启动虚拟患者访问或咨询 Teams提供商。 Microsoft Teams 基于 Microsoft 365 云进行构建，可在支持 HIPAA、HITECH 认证等合规性要求的单个中心内通过聊天、视频、语音和医疗保健工具，实现简单、安全的协作和沟通。
 利用 Teams 的沟通和协作平台，临床医生可轻松解决零碎的体制问题，从而腾出更多时间提供最好的医治。 Microsoft TeamsEHR (EHR) 连接器可以：
 
 - 从Teams EHR 系统通过集成的医疗工作流启动虚拟访问。
@@ -79,7 +79,7 @@ Microsoft Teams借助 EHR (EHR) 连接器，医生可以直接从 EHR 系统启�
 
 ### <a name="launch-the-ehr-connector-configuration-portal"></a>[启动 EHR 连接器配置门户](#launch-the-ehr-connector-configuration-portal)
 
-通过启动 EHR 连接器配置门户Microsoft Teams医疗保健组织启动虚拟访问。 可配置一个或多个组织来测试集成。 在配置门户中配置测试和生产 URL。 在投入生产之前，请从 Epic 的测试环境测试集成。
+通过启动 EHR 连接器配置门户，将医疗保健组织配置为Microsoft Teams虚拟访问。 可配置一个或多个组织来测试集成。 在配置门户中配置测试和生产 URL。 在投入生产之前，请从 Epic 的测试环境测试集成。
   
 - EHR 连接器配置 URL：[https://ehrconnector.teams.microsoft.com](https://ehrconnector.teams.microsoft.com)
 
@@ -148,7 +148,7 @@ Microsoft Teams借助 EHR (EHR) 连接器，医生可以直接从 EHR 系统启�
 
 - 提供商可以查看给定预约的参与者连接和断开连接实时更新。 提供商可以查看患者何时连接到虚拟就诊。
 
-  ![有患者的虚拟就诊提供商体验](../../media/ehc-provider-experience-6.png)
+  ![与患者进行虚拟访问的提供商体验。](../../media/ehc-provider-experience-6.png)
 
 ### <a name="patient-experience"></a>患者体验
 
@@ -166,7 +166,7 @@ Microsoft Teams借助 EHR (EHR) 连接器，医生可以直接从 EHR 系统启�
 
 - 加入虚拟就诊之前，可在大厅中测试视频和麦克风。
 
-  ![虚拟就诊患者体验](../../media/ehc-virtual-visit-5.png)
+  ![虚拟访问患者体验。](../../media/ehc-virtual-visit-5.png)
 
 > [!Note]
 > Epic、MyChart、Haiku 和 Canto 是 Epic Systems Corporation 的商标。

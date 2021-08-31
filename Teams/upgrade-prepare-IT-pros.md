@@ -19,16 +19,16 @@ ms.collection:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 53e0e8e57a7948947878fe93bcf358c83adeac52
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b9aad81e00b90a5a87df363a4257ed0c68e08977
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618328"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729311"
 ---
 # <a name="prepare-your-it-staff-for-microsoft-teams"></a>准备 IT 人员以Microsoft Teams
 
-![升级过程图，强调技术准备阶段](media/upgrade-banner-tech-readiness.png "升级过程阶段，着重强调技术准备阶段")
+![升级过程图，强调技术准备阶段。](media/upgrade-banner-tech-readiness.png "升级过程阶段，着重强调技术准备阶段")
 
 本文是升级过程的技术准备阶段（与用户准备阶段并行完成的活动）的一部分。 在继续之前，请确认已完成之前阶段中的这些活动：
 
@@ -50,7 +50,7 @@ ms.locfileid: "58618328"
 
 |&nbsp; |&nbsp; |
 |---|---|
-| ![描述决策点的图标](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>是否涉及可能参与部署和支持所有支持人员Teams？</li><li>你已制定培训计划，以在升级过程中培训其他员工？</li></ul> |
-| ![描述后续步骤的图标](media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>验证 IT 人员是否具有他们所需的信息。</li><li>新功能发布后，请重新访问培训和准备计划。</li></ul>|
+| ![描述决策点的图标。](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>是否涉及可能参与部署和支持所有支持人员Teams？</li><li>你已制定培训计划，以在升级过程中培训其他员工？</li></ul> |
+| ![一个图标，描述接下来的步骤。](media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>验证 IT 人员是否具有他们所需的信息。</li><li>新功能发布后，请重新访问培训和准备计划。</li></ul>|
 
 准备好 IT 人员进行配置Teams，请验证环境是否满足所有[先决条件](upgrade-plan-journey-prerequisites.md)。
