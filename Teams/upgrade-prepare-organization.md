@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bf2faf2c70fb06efe67e2b108d44612fb2d4b430
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7438b1b4e1625e4c3e0cabed77af517eff3cb7b3
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634786"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731581"
 ---
 # <a name="prepare-your-organization"></a>准备组织
 
-![升级过程阶段，着重强调用户准备阶段](media/upgrade-banner-user-readiness.png "升级旅程的阶段，着重强调用户准备阶段")
+![升级旅程的阶段，侧重于用户准备阶段。](media/upgrade-banner-user-readiness.png "升级旅程的阶段，着重强调用户准备阶段")
 
 本文是升级过程的用户准备阶段（与技术准备阶段并行完成的活动）的一部分。 在继续之前，请确认已完成之前阶段中的这些活动：
 

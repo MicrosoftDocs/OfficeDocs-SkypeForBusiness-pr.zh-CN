@@ -20,13 +20,13 @@ f1.keywords:
 ms.custom:
 - Setup
 - ms.lync.lac.TenantInMigration
-description: '了解在将服务迁移到其他 Microsoft 数据中心时，Skype for Business管理中心和其他功能中可以使用的功能。 '
-ms.openlocfilehash: e131e3c1013b496a6e3ad8581832c628ee2057ce
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: '了解在将服务迁移到其他 Microsoft 数据中心时，Skype for Business管理中心的功能和其他功能。 '
+ms.openlocfilehash: 81badc1ab12a767ab106222ebf28fff4c54867e6
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581956"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731691"
 ---
 # <a name="why-cant-i-use-the-skype-for-business-online-admin-center-right-now"></a>为什么我当前无法使用 Skype for Business Online 管理中心？
 
@@ -52,13 +52,13 @@ ms.locfileid: "58581956"
     
 - **关联 ID** 你可能在刚刚收到的邮件中看到了此内容。 Microsoft 支持工程师使用此信息来帮助你排查错误。 如果联系 Microsoft 支持部门，系统可能会要求你提供相关 ID。
     
-因此，这意味着我们正在将你的所有联机Skype for Business和服务设置移动到离你更近的另一个位置。 越接近越好。 好消息是，经过这一短暂的一段时间后，Skype for Business联机服务将会改善。
+因此，这意味着我们正在将你的所有 Skype for Business Online 用户和服务设置移动到离你更近的另一个位置。 越接近越好。 好消息是，在经过这一短暂的一段时间后，Skype for Business联机服务将会改善。
   
-![服务迁移Microsoft 365或Office 365](../images/77502071-36fe-4833-a5ff-3b9ca7676542.png)
+![服务迁移Microsoft 365或Office 365。](../images/77502071-36fe-4833-a5ff-3b9ca7676542.png)
   
 ## <a name="what-skype-for-business-online-features-will-still-work"></a>哪些Skype for Business Online 功能仍可使用？
 
-虽然无法访问 Skype for Business Online 管理中心，但以下 Skype for Business Online 功能在迁移过程中仍然正常工作：
+虽然无法访问 Skype for Business Online 管理中心，但以下 Skype for Business Online 功能在迁移期间仍正常工作：
   
 - 联机会议
     
@@ -66,7 +66,7 @@ ms.locfileid: "58581956"
     
 ## <a name="can-i-get-other-work-done"></a>我能否完成其他工作？
 
-当然可以。 在迁移 Skype for Business Online 服务时，仍可以使用 Microsoft 365 (中的其他管理中心，例如 Microsoft 365 Exchange 管理) 。 但是，除了 Skype for Business Online 管理中心，在迁移过程中Skype for Business远程 PowerShell cmdlet。 
+当然可以。 在迁移 Skype for Business Online 服务时，仍可以使用 Microsoft 365 (中的其他管理中心，例如 Microsoft 365 Exchange 管理) 。 但是，除了 Skype for Business Online 管理中心外，在迁移过程中Skype for Business远程 PowerShell cmdlet。 
   
 ## <a name="related-topics"></a>相关主题
 [设置 Skype for Business Online](set-up-skype-for-business-online.md)

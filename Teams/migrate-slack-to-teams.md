@@ -18,12 +18,12 @@ ms.localizationpriority: high
 f1.keywords:
 - NOCSH
 description: 从 Slack 迁移到 Microsoft Teams 的完整指南。
-ms.openlocfilehash: 2c30b8f34c44c8b41309e796ffa44cedc61d8768
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6877c0daf7d2d86924eefe989b458c671c37f628
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617258"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731601"
 ---
 # <a name="migrate-from-slack-to-microsoft-teams"></a>从 Slack 迁移到 Microsoft Teams
 
@@ -33,7 +33,7 @@ ms.locfileid: "58617258"
 
 下图简单展示了 Slack 架构。
 
-![简单展示 Slack 架构的图像](media/migrate-slack-to-teams-image1.png)
+![在高级别上展示 Slack 体系结构的图像。](media/migrate-slack-to-teams-image1.png)
 
 ## <a name="plan-your-migration-from-slack"></a>制定从 Slack 迁移的计划
 ### <a name="what-you-can-and-cant-migrate"></a>可以迁移和无法迁移的内容

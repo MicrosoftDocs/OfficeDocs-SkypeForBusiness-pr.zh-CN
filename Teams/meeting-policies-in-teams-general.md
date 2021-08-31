@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - seo-marvel-apr2020
 description: 了解如何在会议环境中管理常规会议Teams。
-ms.openlocfilehash: 72cfbc77b6abcf264ddf96f66d3726031a2e31cb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: be28acd1a343988fef94546f405a1f7a3684d4ce
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58589674"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731661"
 ---
 # <a name="meeting-policy-settings---general"></a>会议策略设置 - 常规
 
@@ -45,15 +45,15 @@ ms.locfileid: "58589674"
 
 ## <a name="allow-meet-now-in-channels"></a>允许在频道中立即开会
 
-这是按用户政策，在会议开始前适用。 此设置控制用户是否可以在频道中启动临时Teams会议。 如果启用此功能，用户可以单击"会议"按钮以在频道中启动临时会议或安排会议。 默认值为 True。
+这是按用户政策，在会议开始前适用。 此设置控制用户是否可以在频道中启动Teams会议。 如果启用此功能，用户可以单击"会议"按钮以在频道中启动临时会议或安排会议。 默认值为 True。
 
-[![显示消息下方的"现在开会"图标的屏幕截图 ](media/meeting-policies-meet-now.png)](media/meeting-policies-meet-now.png#lightbox)
+[![显示消息下方的"现在开会"图标的屏幕截图。 ](media/meeting-policies-meet-now.png)](media/meeting-policies-meet-now.png#lightbox)
 
 ## <a name="allow-the-outlook-add-in"></a>允许 Outlook 加载项
 
 这是按用户政策，在会议开始前适用。 此设置控制是否可以从 Outlook (Windows、Mac、Web和移动设备) 内安排 Teams 会议。
 
-![截图显示了安排新会议的能力](media/meeting-policies-outlook-add-in.png)
+![显示安排新会议的能力的屏幕截图。](media/meeting-policies-outlook-add-in.png)
 
 如果关闭此功能，用户在Teams会议时无法安排Outlook。 例如，在 Windows 上的 Outlook 中，**“新 Teams 会议”** 选项不会显示在功能区中。
 
@@ -65,7 +65,7 @@ ms.locfileid: "58589674"
 
 将禁用会议日程安排。
 
-![显示"安排会议"选项的屏幕截图Teams](media/schedule-meeting-option.png)
+![显示"安排会议"选项的屏幕截图Teams。](media/schedule-meeting-option.png)
 
 将禁用“频道选择”。
 
@@ -124,7 +124,7 @@ ms.locfileid: "58589674"
 
 这是按用户策略。 此设置控制会议组织者是否可以下载 [会议出席报告](teams-analytics-and-reports/meeting-attendance-report.md)。
 
-此策略默认为关闭状态，允许组织者查看谁注册并参加他们设置的会议和网络研讨会。 若要在管理中心Teams，请转到"会议会议策略  >  "，将策略设置为"已启用 **"。**
+此策略默认为关闭状态，允许组织者查看谁注册并参加他们设置的会议和网络研讨会。 若要在管理中心Teams启用此功能，请转到"**会议**  >  **会议** 策略"，将策略设置为"已启用 **"。**
 
 可以使用 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet 编辑现有的 Teams 会议策略。 或者，使用 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet 创建一个新的 Teams 会议策略，并将其分配给用户。
 
@@ -151,7 +151,7 @@ ms.locfileid: "58589674"
 - 如果希望 **Who包括** 匿名用户在内的所有人注册并参加组织中用户设置的网络研讨会，请设置"可注册到每个人"。
 - 如果希望 **Who** 注册并参加网络研讨会，请设置"可注册到组织中所有人"。
 
-默认情况下 **，"Who注册**"设置为"每个人 **"。** 若要在管理中心内编辑Teams策略，请转到 **"会议**  >  **会议策略"。**
+默认情况下 **，"Who注册**"设置为"**每个人"。** 若要在管理中心内编辑Teams策略，请转到 **"会议**  >  **会议策略"。**
 
 可以使用 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet 编辑现有的 Teams 会议策略。 或者，使用 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet 创建一个新的 Teams 会议策略，并将其分配给用户。
 
