@@ -21,21 +21,21 @@ f1.keywords:
 ms.custom:
 - Security
 description: Skype for Business Online 安全指南 <add description>
-ms.openlocfilehash: 9eeaa4aec19a3113013ca93c76dfc686eb85b270
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 85084e3bc675aaadf190b2c486bfe3d6adcb684c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619288"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728437"
 ---
-# <a name="security-and-skype-for-business-online"></a>安全和Skype for Business Online
+# <a name="security-and-skype-for-business-online"></a>安全和 Skype for Business Online
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Skype for Business联机 (SfBO) 作为 Microsoft 365 和 Office 365 服务的一部分，遵循所有安全最佳做法和过程，例如通过深层防御的服务级别安全性、服务中的客户控制、安全强化和操作最佳做法。 有关完整详细信息，请参阅 Microsoft 信任中心 https://microsoft.com/trustcenter) (。
+Skype for Business联机 (SfBO) 作为 Microsoft 365 和 Office 365 服务的一部分，遵循所有安全最佳做法和过程，例如通过深层防御实现服务级别安全性、服务中的客户控制、安全强化和操作最佳做法。 有关完整详细信息，请参阅 Microsoft 信任中心 https://microsoft.com/trustcenter) (。
 
 ## <a name="trustworthy-by-design"></a>设计上可信任
-Skype for Business Online 的设计和开发符合 Microsoft 可信计算安全开发生命周期 (SDL) 的要求（https://www.microsoft.com/sdl/default.aspx 有具体说明）。 创建更安全的统一通信系统的第一步是设计威胁模型，并按每项功能的设计要求对其进行测试。 多个与安全相关的改进功能内置在编码过程和实践中。 生成时工具会在将代码签入到最终产品之前检测缓冲区溢出和其他潜在安全威胁。 当然，针对所有未知安全威胁进行设计是不可能的。 没有任何系统会保证完全的安全。 但是，由于产品开发从一开始就采用安全设计原则，Skype for Business Online 将行业标准安全技术作为体系结构的基础部分。 
+Skype for Business Online 的设计和开发符合 Microsoft 可信计算安全开发生命周期 (SDL) 的要求（https://www.microsoft.com/sdl/default.aspx 有具体说明）。 创建更安全的统一通信系统的第一步是设计威胁模型，并按每项功能的设计要求对其进行测试。 多个与安全相关的改进功能内置在编码过程和实践中。 生成时工具会在将代码签入到最终产品之前检测缓冲区溢出和其他潜在安全威胁。 当然，针对所有未知安全威胁进行设计是不可能的。 没有任何系统会保证完全的安全。 但是，由于产品开发从一开始就采用安全的设计原则，Skype for Business Online 将行业标准安全技术作为体系结构的基本部分。 
 
 ## <a name="trustworthy-by-default"></a>默认可信任
 Skype for Business Online 中的网络通信默认进行加密。 要求所有服务器使用证书，并使用 OAUTH、TLS、安全 Real-Time 传输协议 (SRTP) 和其他行业标准加密技术（包括 256 位高级加密标准 (AES) 加密）保护所有 Skype for Business Online 数据。
@@ -46,7 +46,7 @@ Skype for Business Online 中的网络通信默认进行加密。 要求所有�
 ### <a name="compromised-key-attack"></a>破解密钥攻击
 密钥是用于加密、解密或验证机密信息的机密代码或数字。 在公钥基础设施 (PKI) 中使用的敏感密钥有两个必须考虑的因素：每个证书持有者拥有的私钥以及在通信伙伴成功识别和会话密钥交换后使用的会话密钥。 破解密钥攻击是指攻击者破解私钥或会话密钥的行为。 攻击者在成功破解密钥之后，可以使用此密钥对已加密的数据进行解密，而数据的发送者对此毫不知情。
 
-Skype for BusinessOnline 使用 Windows Server 操作系统中的 PKI 功能保护用于传输层安全加密的密钥数据， (TLS) 连接。 用于媒体加密的密钥是通过 TLS 连接进行交换。 
+Skype for BusinessOnline 使用 Windows Server 操作系统中的 PKI 功能保护用于传输层安全性加密的密钥数据 (TLS) 连接。 用于媒体加密的密钥是通过 TLS 连接进行交换。 
 
 ### <a name="network-denial-of-service-attack"></a>网络拒绝服务攻击
 如果攻击者阻止有效用户正常使用网络和正常工作，就会发生拒绝服务攻击。 利用拒绝服务攻击，攻击者可以：
@@ -124,7 +124,7 @@ SfBO 有可能通过可能链接到个人的公共网络披露信息。 这些�
 ## <a name="security-framework-for-sfbo"></a>SfBO 的安全框架
 本部分概述构成 Microsoft SfBO 安全框架的基本元素。 这些要素如下所示：
 - Azure Active Directory (AAD) 为用户帐户提供单个受信任的后端存储库。 
-- PKI (基础结构) 使用受信任的证书颁发机构颁发的证书 (CA) 服务器进行身份验证并确保数据完整性。
+- PKI (PKI) 使用受信任的证书颁发机构颁发的证书 (CA) 服务器进行身份验证并确保数据完整性。
 - 传输层安全性 (TLS)、HTTPS over SSL (HTTPS) 和相互 TLS (MTLS) 可实现终结点身份验证和 IM 加密。 点对点音频、视频和应用程序共享流是使用安全实时传输协议 (SRTP) 进行加密和完整性检查。
 - 用于用户身份验证的行业标准协议，如果可能。
 
@@ -135,7 +135,7 @@ Azure Active Directory 充当 Microsoft 365 和 Office 365 的目录服务。 �
 
 ### <a name="public-key-infrastructure-for-sfbo"></a>SfBO 的公钥基础架构
 SfBO 服务依赖证书进行服务器身份验证，并在不同的服务器角色之间建立客户端与服务器之间的信任链。 Windows Server 公钥基础架构 (PKI) 为建立和验证此信任链提供了基础架构。
-证书是数字 ID。 它们通过名称来标识某台服务器并指定其属性。 为确保证书上的信息有效，证书必须由证书颁发机构 (CA) 颁发，该证书受客户端或连接到服务器的其他服务器信任。 如果服务器仅与专用网络中的其他客户端和服务器建立连接，则 CA 可以是企业 CA。 如果服务器与专用网络外部的实体进行交互，则可能需要公共 CA。
+证书是数字 ID。 它们通过名称来标识某台服务器并指定其属性。 为了确保证书上的信息有效，证书必须由证书颁发机构 (CA) 颁发，该证书受连接到服务器的客户端或其他服务器的信任。 如果服务器仅与专用网络中的其他客户端和服务器建立连接，则 CA 可以是企业 CA。 如果服务器与专用网络外部的实体进行交互，则可能需要公共 CA。
 
 即使证书上的信息是有效的，也必须通过某些方法来确认提供证书的服务器实际上就是证书所代表的服务器。 在这种情况下可以使用 Windows PKI。
 每个证书都链接到一个公钥。 证书上指明的服务器持有一个只有它自己知道的对应的私钥。 连接的客户端或服务器使用公钥对随机的信息段进行加密并将其发送到该服务器。 如果该服务器将此信息解密并以纯文本形式返回此信息，则连接的实体就可以确定该服务器持有证书的私钥，因此该服务器即是证书上指明的服务器。
@@ -193,7 +193,7 @@ SfBO 使用符合 FIPS（联邦信息处理标准）的算法进行加密密钥�
 
 身份验证是向受信任的服务器或服务提供用户凭据的过程。 SfBO 根据用户的状态和位置，使用以下身份验证协议。
 - **现代身份验证** 是 Microsoft 为实现客户端到服务器的通信而实施 OAUTH 2.0 的过程。 它启用安全功能，例如基于证书的身份验证、多重身份验证和条件访问。 为使用 MA，在线租户和客户端都需要启用 MA。 2017 年 5 月之后创建的 SfBO 租户默认启用 MA。 此时间之前创建的租户，请按照此处的说明予以启用。 以下客户端均支持 MA：Skype for Business 2015 或 2016 客户端、Skype for Business Mac、Lync 2013 客户端、3PIP IP 电话、iOS 和 Android。 
-- **在** 未启用新式验证或不可用时 (组织 ID) 。
+- **在** 未启用新式验证或 (或不可用时，使用) 。
 - **摘要式协议** - 用于所谓的匿名用户。匿名用户是指满足以下条件的外部用户：这些用户虽然不具备认可的 Active Directory 凭据，但已被邀请参与内部会议并且拥有有效的会议密钥。摘要式身份验证不用于其他客户端交互。
 
 SfBO 身份验证包括两个阶段：
@@ -212,7 +212,7 @@ SfBO 身份验证包括两个阶段：
 在 SfBO 中，IT 管理员可以通过 O365 管理门户或使用 Tenant Remote PowerShell（TRPS）管理他们的服务。 租户管理员使用新式验证对 TRPS 进行身份验证。
 
 ### <a name="configuring-access-to-sfbo-at-your-internet-boundary"></a>在 Internet 边界配置对 SfBO 的访问
-若要使 SfBO (能够加入会议等 ) ，客户需要配置其 Internet 访问，以便允许 SfBO 云中服务的出站 UDP 和 TCP 流量。 有关详细信息，请参阅此处： https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_lyo 
+若要使 SfBO (能够加入会议等 ) ，客户需要配置其 Internet 访问，以便允许发到 SfBO 云中服务的出站 UDP 和 TCP 流量。 有关详细信息，请参阅此处： https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_lyo 
 
 ### <a name="udp-3478-3481-and-tcp-443"></a>UDP 3478-3481 和 TCP 443
 
@@ -227,7 +227,7 @@ TCP 50,000 出站用于 SfBO，包括应用程序和桌面共享以及文件传�
 如要让外部用户和内部用户能够交换媒体，则需访问边缘服务来处理建立和 终结会话所需的 SIP 信号。 此外还需要 A/V 边缘服务充当媒体传输的中继。 呼叫顺序如下图所示。
 
 
-![在会议加入中的呼叫顺序](media/sfbo-call-sequence-security.png) 
+![会议加入中的呼叫顺序。](media/sfbo-call-sequence-security.png) 
 
 1. 用户收到一封电子邮件，其中包含加入 SfBO 会议的邀请。 该电子邮件包含会议密钥和基于 HTTP 的会议链接 URL。 密钥和网址对于特定会议而言都是唯一的。<p>用户单击电子邮件中的会议 URL，此操作将启动用户计算机上的客户端检测流程，以便让用户加入会议。 如果检测到客户端，则启动该客户端。 否则，用户将重定向到 Web 客户端。<p/>
 2. SfBO 客户端发送包含用户证书的 SIP INVITE。 联合用户或远程用户使用其企业凭据加入会议。 对于联合用户，SIP INVITE 首先会发送到他或她的家庭服务器，后者对用户进行身份验证并将 INVITE 转发给 SfBO。 匿名用户需通过摘要式身份验证。<p>SfBO 对远程或匿名用户进行身份验证，并通知客户端。 如步骤 2 所述，加入会议的联合用户由他们的企业进行身份验证。<p/>
@@ -289,7 +289,7 @@ SfBO 让企业用户能够创建和加入实时 Web 会议。 Enterprise用户�
 会议组织者决定参与者是否可以在会议期间演示。 每个会议都可以设置为将演示者限制为以下任何一种情况：
 - **仅组织者** &nbsp; &nbsp;只有会议组织者可以出席。
 - **我公司人员** &nbsp; &nbsp;所有内部用户都可以存在。
-- **每个人（包括公司外部人员）** &nbsp; &nbsp;没有 (加入会议) 可以参加会议的任何人。
+- **每个人（包括公司外部人员）** &nbsp; &nbsp;没有 (加入会议) 限制的每个人都可以参加会议。
 - **我选择的人** &nbsp; &nbsp;会议组织者通过将它们添加到演示者列表来指定哪些用户可以演示。
 
 ## <a name="related-topics"></a>相关主题

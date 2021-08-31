@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 189ceea1b1b3450968610bef5034a97114b40085
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fd7f42efd4b3c605f31bb7788fb6dbc5f097f764
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625914"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729931"
 ---
 # <a name="define-usage-scenarios-for-microsoft-teams"></a>为 Microsoft Teams 定义使用方案
 
@@ -36,7 +36,7 @@ ms.locfileid: "58625914"
 - 现代项目管理
 - 现代会议
 
-![三个核心方案的插图](media/teams-adoption-modernizing-core-scenarios.png)
+![三个核心方案的插图。](media/teams-adoption-modernizing-core-scenarios.png)
 
 要考虑的其他方案包括：
 
@@ -45,9 +45,9 @@ ms.locfileid: "58625914"
 - 提高销售效率并增加收入
 - 简化业务评审
 
-![每种Teams用例的图示](media/teams-adoption-use-cases.png)
+![每种Teams用例的图示。](media/teams-adoption-use-cases.png)
 
-将此方案现代化运动视为一个累积过程 – 通过更基本的方案来使用这种新工作方式创建热情、熟悉和信誉。 然后，前进到更具影响力的更具有影响力的区域。 随着向业务Microsoft Teams展示对项目的影响，他们中的更多人将参与，并发展动力。 对于我们的许多客户来说，一旦他们完成此过程，他们发现业务利益干系人在了解同事如何从公司获得价值后Microsoft Teams。
+将此方案现代化运动视为一个累积过程 – 通过更基本的方案来使用这种新工作方式创建热情、熟悉和信誉。 然后，前进到更具影响力的更具有影响力的区域。 随着向业务Microsoft Teams展示对项目的影响，他们中的更多人将参与，并发展动力。 对于我们的许多客户，一旦他们完成此过程，他们发现业务利益干系人在了解同事如何从公司获得价值后Microsoft Teams。
 
 ## <a name="interview-business-stakeholders"></a>与业务利益干系人进行访谈
 
@@ -63,13 +63,13 @@ ms.locfileid: "58625914"
 
 要确保获得有关业务方案的信息，请考虑从完成工作的员工和流程的业务所有者的角度，使用以下格式来记录方案。 需要这两个视角才能创建成功的路径。
 
-![用于识别方案的框架插图](media/teams-adoption-identify-scenarios.png)
+![用于识别方案的框架插图。](media/teams-adoption-identify-scenarios.png)
 
 与一个或多个业务利益干系人沟通后，你可以根据影响与难度确定方案的优先级。  (你的方案可能除了我们上面建议的方案之外。) 适合试验阶段的候选者应具有更高的影响和低到中等的难度。 这可确保在能够显示工作价值之前，项目不会受范围缓慢或技术难题的影响。 下面显示了一个示例图表。
 
-![显示方案影响与难度的插图](media/teams-adoption-impact-difficulty.png)
+![显示方案影响与难度的插图。](media/teams-adoption-impact-difficulty.png)
 
 > [!Note]
-> 我们一直希望了解我们的客户如何以新的Teams方式使用产品。 在推动采用#TeamsStories [论坛中与我们分享你的应用](https://techcommunity.microsoft.com/t5/driving-adoption/ct-p/DrivingAdoption)。 在 **帖子中#TeamsStories** 井号标签。 我们始终关注你在你的组织中Teams信息。
+> 我们一直希望了解我们的客户如何以新的Teams方式使用产品。 在推动采用#TeamsStories[论坛中与我们分享你的应用。](https://techcommunity.microsoft.com/t5/driving-adoption/ct-p/DrivingAdoption) 在 **帖子中#TeamsStories** 井号标签。 我们始终关注你在你的组织中Teams信息。
 
-![表示下一步"下一步 ](media/teams-adoption-next-icon.png) ： [加入早期采用者并收集反馈"的图标](teams-adoption-onboard-early-adopters.md)。
+![表示下一步骤的图标。](media/teams-adoption-next-icon.png) 下一步 [：加入早期采用者并收集反馈](teams-adoption-onboard-early-adopters.md)。

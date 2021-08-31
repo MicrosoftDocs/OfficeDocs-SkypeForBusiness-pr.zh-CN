@@ -17,12 +17,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a5c5040ba402a14f87ead8156569552c510db63c
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: ce4bf4f19aa9bee13aa41a1a7090172e41cb5851
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233467"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730111"
 ---
 # <a name="teams-for-healthcare"></a>适用于医疗保健业的 Teams
 
@@ -30,6 +30,6 @@ Teams为健康团队和医疗保健专业人员提供安全通信、协调患者
 
 |    &nbsp;           |         &nbsp;      |
 | ------------- | ------------- |
-| ![手的屏幕截图，用手指指向箭头图标](../media/get-started-teams.svg)  |  [适用于医疗保健组织的 Teams 入门](./healthcare/teams-in-hc.md) |
-| ![地图图标的屏幕截图](../media/walkthrough-map-teams.svg) | [适用于医疗保健组织的 Teams 模板入门](./healthcare/healthcare-templates-admin-console.md) |
-| ![对话框气泡图标的屏幕截图](../media/chat.svg)  |  [适用于医疗保健组织的安全邮件入门](./healthcare/messaging-policies-hc.md) |
+| ![手的屏幕截图，用手指指向箭头图标。](../media/get-started-teams.svg)  |  [适用于医疗保健组织的 Teams 入门](./healthcare/teams-in-hc.md) |
+| ![地图图标的屏幕截图。](../media/walkthrough-map-teams.svg) | [适用于医疗保健组织的 Teams 模板入门](./healthcare/healthcare-templates-admin-console.md) |
+| ![对话框气泡图标的屏幕截图。](../media/chat.svg)  |  [适用于医疗保健组织的安全邮件入门](./healthcare/messaging-policies-hc.md) |

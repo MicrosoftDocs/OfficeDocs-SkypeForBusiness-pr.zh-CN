@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6bb4eb1c1c681e0c2089ec1258f7729727fdb77f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b2af0ae753357497be6ea54b89534f2220b7cbf6
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586296"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732291"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Teams 仅查看会议体验
 
@@ -33,14 +33,14 @@ ms.locfileid: "58586296"
 
 Microsoft Teams 允许最多 10,000 名与会者加入一个 Teams 会议。 达到主会议容量后 (1000 个用户进入会议) ，其他与会者将加入仅查看体验。
 
-首先加入会议的与会者（最多为主会议的容量）将获得完整的Teams体验。 他们可以共享音频和视频、查看共享视频、并参与会议聊天。
+首先加入会议的与会者（最多是主会议的容量）将获得完整的Teams体验。 他们可以共享音频和视频、查看共享视频、并参与会议聊天。
 
 在达到主会场容量后加入的与会者将有仅查看体验。
 
-与会者可以通过 Android 和 iOS Teams桌面、Web 和 Teams (加入) 。
+与会者可以通过 Android 和 iOS 桌面版、Web 版和 Teams 版移动设备 (仅查看) 。
 
 > [!Note]
-> "主会议"（即完全交互用户）的当前容量限制为 1000，包括GCC网络研讨会。
+> "主会议"的当前限制容量（换句话说，完全交互式用户数）为 1000，包括GCC和网络研讨会。
 
 ## <a name="teams-view-only-experience-controls"></a>Teams仅查看体验控件
 
@@ -65,7 +65,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled
 Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled
 ```
 
-将来，你将能够在管理中心启用或禁用仅Teams体验。
+将来，你将能够在管理中心启用或禁用Teams体验。
 
 ## <a name="impact-to-users"></a>对用户的影响
 
@@ -78,11 +78,11 @@ Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled
 
 当达到主会议的容量时，会议组织者和演示者将看到一个横幅，通知他们新与会者将作为仅查看的与会者加入。
 
-  ![为组织者和演讲者提供 Teams 客户端和横幅信息](media/chat-and-banner-message.png)
+  ![Teams和演示者发送的客户端和横幅消息。](media/chat-and-banner-message.png)
 
 当达到主会议的容量时，会议平台会在预加入界面上通知他们以仅查看模式加入。
 
-  ![Teams 预加入屏幕和告诉参与者他们将以纯视图模式加入的信息](media/view-only-pre-join-screen.png)
+  ![Teams加入前屏幕以及参与者的消息，告知他们将在仅查看模式下加入。](media/view-only-pre-join-screen.png)
 
 如果有空间，用户将始终加入主会议。 如果主会场达到容纳量，有一名或多名与会者离开主会场，则主会场有可用容量。 加入 (或重新加入) 会议的与会者将加入主会议，直到会议再次达到饱和。 具有仅查看体验的与会者不会自动提升为主会议，并且无法手动提升为主会议。
 
@@ -111,11 +111,11 @@ Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled
 
 - 如果与会者没有根据设定的大厅政策或选项绕过大厅的权限，加入会议。
 - 使用音频会议加入仅查看会议室。
-- 在 CVI 服务中，Microsoft Teams 会议室使用云视频互操作 (仅) 聊天室。
+- 在 CVI 服务中Microsoft Teams 会议室云视频互操作 (仅查看) 聊天室。
 - 共享他们的音频或视频。
 - 查看或参与会议聊天。
 - 除非与会者是主动发言的人，否则可以看到会议参与者的视频源。
-- 请参阅PowerPoint Live 功能或单个应用程序共享共享PowerPoint桌面或屏幕共享功能共享 (桌面或屏幕共享) 。
+- 请参阅PowerPoint Live 功能或单个应用程序共享PowerPoint桌面或屏幕共享功能共享 (共享的文件) 。
 - 在会议中举手。
 - 发送或查看回应。
 - 与集成到会议会议的任何 3P Teams交互，包括投票。

@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '了解 Skype 在 pin 或默认会议数等设置发生更改时如何启用或禁用向用户发送的电子邮件。 '
-ms.openlocfilehash: 7bcbfc305ce250abb5f11aa1498a18802dde066c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2f322f9cfc9ba7daa60d030c043bdfda4d511d2c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58589204"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728021"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-skype-for-business-online"></a>Skype for Business Online 中的音频会议设置更改时启用或禁用发送电子邮件
 
@@ -41,7 +41,7 @@ ms.locfileid: "58589204"
   
 下面是为用户启用音频会议时发送给用户的电子邮件示例：
   
-![音频会议电子邮件](../images/audio-conferencing-user-enabled.png)
+![音频会议电子邮件。](../images/audio-conferencing-user-enabled.png)
   
 ## <a name="when-are-emails-being-sent-to-your-users"></a>什么时候向用户发送电子邮件？
 
@@ -65,9 +65,9 @@ ms.locfileid: "58589204"
 可以使用管理Skype for Business或Windows PowerShell来启用或禁用发送给用户的电子邮件。
 
  
-![显示 Skype for Business 徽标的图标](../images/sfb-logo-30x30.png) **使用 Skype for Business 管理中心**
+![一个图标，显示Skype for Business徽标。](../images/sfb-logo-30x30.png) **使用 Skype for Business 管理中心**
     
-1. 在 Skype for Business **管理** 中心的 左侧导航中，单击"**音频会议"。**
+1. 在 Skype for Business **管理中心的** 左侧导航中，单击"**音频会议"。**
     
 2. 在 **Microsoft 网桥的设置** 页上，选中或清除 **自动向用户发送电子邮件，如果他们的音频会议设置更改**　。
     
@@ -91,7 +91,7 @@ ms.locfileid: "58589204"
     
 ## <a name="what-else-should-you-know"></a>你还需了解哪些信息？
 
-- 禁用自动电子邮件后，仍可以使用会议管理中心手动触发Skype for Business会议 ID 和电话号码的电子邮件。 但是，如果这样做，不会包含 PIN。 如果要重置音频会议 PIN 并禁用发送电子邮件，则需要以其他方式将其发送给用户。
+- 禁用自动电子邮件后，仍可以使用管理中心手动触发Skype for Business会议 ID 和电话号码的电子邮件。 但是，如果这样做，不会包含 PIN。 如果要重置音频会议 PIN 并禁用发送电子邮件，则需要以其他方式将其发送给用户。
     
 - 可以使用 Skype for Business 管理中心或 Windows PowerShell 禁用向用户发送电子邮件。
     
@@ -107,13 +107,13 @@ ms.locfileid: "58589204"
     
   - [Get-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/Get-CsOnlineDialInConferencingTenantSettings)
     
-- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用Windows PowerShell，Microsoft 365 Office 365单点管理来管理任务或任务，可在有多个任务需要执行时简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
+- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用Windows PowerShell，可以使用Microsoft 365管理Office 365管理点来管理任务或任务，当您有多个任务需要执行时，可以简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
     
   - [为何需要将 Microsoft 365 或 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [使用 Microsoft 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [使用 Microsoft 365 Office 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-- Windows PowerShell相比于仅使用 Microsoft 365 管理中心，在速度、简单性和工作效率方面具有许多优势，例如，一次为许多用户更改设置时。 请在以下主题中了解这些优点： 
+- Windows PowerShell比仅使用 Microsoft 365 管理中心 在速度、简单性和工作效率方面具有许多优势，例如，一次为许多用户更改设置时。 请在以下主题中了解这些优点： 
     
   - [Windows PowerShell 和 Skype for Business Online 简介](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     

@@ -18,16 +18,16 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何在应用中自定义Microsoft Teams。
-ms.openlocfilehash: 0a3a6b21b34fba7c45ca272f5eefd3eb047a1f7c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 00dbb1105805b524f72ba5925abff7d36e61851b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634056"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730221"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>自定义应用中Microsoft Teams
 
- Microsoft Teams应用自定义来增强Teams体验。 某些应用开发人员允许应用由管理员Teams自定义。管理员可以使用管理中心"管理应用"页，根据组织需求自定义或Teams **品牌**。 可以自定义的详细信息包括：
+ Microsoft Teams提供应用自定义，以增强Teams体验。 某些应用开发人员允许由管理员自定义Teams应用。管理员可以使用管理中心"管理应用"页，根据组织需求自定义或Teams **品牌**。 可以自定义的详细信息包括：
 
 - 短名称
 - 简短说明
@@ -42,8 +42,8 @@ ms.locfileid: "58634056"
 有关[可Teams](/microsoftteams/platform/resources/schema/manifest-schema)字段的详细信息，请参阅清单架构。
 
 > [!NOTE]
-> 目前，DoD 政府社区云高 (GCCH) 或国防部 (不支持) 应用。
-> 目前，此功能不适用于旁加载Microsoft Teams应用。
+> 目前，政府社区云高 (GCCH) 或国防部 (DoD) 不支持自定义应用。
+> 目前，此功能不适用于旁加载的应用Microsoft Teams应用。
 
 ## <a name="customize-the-apps-details"></a>自定义应用的详细信息
 
@@ -53,21 +53,21 @@ ms.locfileid: "58634056"
 2. 展开 **Teams应用"，** 然后选择"**管理应用"。**
 3. 检查 **应用列表** 的"可自定义"列，并按可自定义的应用进行排序。
 
-   ![已排序的自定义列](media/customize-column.png)
+   ![已排序的自定义列。](media/customize-column.png)
 
    有三个入口点可以访问自定义功能：
 
    - 选择要自定义的应用旁边的 ，然后选择"自定义 **"。**
 
-     ![自定义选择选项 1](media/select-app-to-customize1.png)
+     ![自定义选择选项 1.](media/select-app-to-customize1.png)
 
    - 选择应用名称，然后选择"可 **自定义"。**
 
-     ![自定义选择选项 2](media/app-details-customizable.png)
+     ![自定义选择选项 2.](media/app-details-customizable.png)
 
    - 选择应用名称，然后从"操作 **"** 下拉列表中选择 **"自定义** "。
 
-     ![自定义选择选项 3](media/customize-action-menu.png)
+     ![自定义选择选项 3.](media/customize-action-menu.png)
 
 4. 展开" **详细信息** "部分并自定义以下字段：
 
@@ -78,7 +78,7 @@ ms.locfileid: "58634056"
     - 隐私策略 URL
     - 使用条款 URL
 
-   ![自定义设置](media/customize-settings.png)
+   ![自定义设置。](media/customize-settings.png)
 
 > [!Note]
 > 只有应用开发人员已分配为可自定义的字段将可见。
@@ -87,11 +87,11 @@ ms.locfileid: "58634056"
 
    a. Upload图标。 使用一个全色图标 (192x192) PNG 格式的像素。
 
-   b. 选择图标轮廓颜色。 使用一个 32x32 (32x32) PNG 格式的透明轮廓。
+   b. 选择图标轮廓颜色。 使用一个透明 (32x32) PNG 格式的像素。
 
    c. 选择与图标匹配的应用主题色。
 
-    ![自定义图标面板颜色选项](media/customize-app-colors.png)
+    ![自定义图标面板颜色选项。](media/customize-app-colors.png)
 
 6. 自定义应用后，选择"应用 **"。**
 
@@ -99,9 +99,9 @@ ms.locfileid: "58634056"
 
    自定义应用现在列在"管理应用 **"页** 中。 你将只有一个版本的应用，因为自定义应用功能不会创建应用的副本。
 
-现在Teams最终用户可以打开其 Teams 客户端以查看自定义应用。
+现在Teams最终用户可以打开其Teams客户端以查看自定义应用。
 
-   ![客户端中的Teams应用](media/contoso-app.png)
+   ![客户端中的Teams应用。](media/contoso-app.png)
 
 ### <a name="special-considerations-for-customizing-an-app"></a>自定义应用的特殊注意事项
 
@@ -127,7 +127,7 @@ ms.locfileid: "58634056"
 
 4. 查看应用详细信息，包括原始应用名称 **发布者的短名称**。
 
-   ![自定义图标面板应用名称](media/original-app-version.png)
+   ![自定义图标面板应用名称。](media/original-app-version.png)
 
    只有在 **你更改了** 应用的短名称时，发布者的短名称字段才可见。
 
@@ -143,13 +143,13 @@ ms.locfileid: "58634056"
 
 4. 从 **"操作"下拉列表中选择****"重置** 为默认值"。
 
-   ![选择"重置为默认"突出显示](media/select-reset.png)
+   ![选择"重置"以突出显示默认值。](media/select-reset.png)
 
 ## <a name="frequently-asked-questions"></a>常见问题解答
 
 **我的用户需要多久来查看自定义应用？**
 
-虽然管理员可以立即在管理中心Teams更改，但最终用户最多可能需要 24 小时才能看到更改。  
+虽然管理员可以在管理中心Teams更改，但最终用户最多可能需要 24 小时才能看到更改。  
 
 **应用提供商是否可为客户自定义应用？**
 

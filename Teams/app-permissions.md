@@ -19,12 +19,12 @@ ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e2766da88fee53124d43b4e2b66c9c104ea41b8e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 15892a4eb3996923f7a0129805e2bb542cdc8d7c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610419"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731781"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Microsoft Teams 应用权限和考虑事项
 
@@ -42,10 +42,10 @@ Microsoft Teams应用是一种将一个或多个功能聚合到可安装、升�
 
 | 标题   | 描述    |
 |-----------|------------|
-| ![描述决策点的图标](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>使用下表作为指南，了解正在调查的应用正在请求哪些权限。</li></ul> |
-| ![描述后续步骤的图标](media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>研究应用或服务本身，确定是否允许在组织中访问它。 例如，机器人发送和接收来自用户的消息，并且（企业自定义机器人除外）位于符合性边界之外。 因此，包含机器人的任何应用都需要这些权限，并且至少具有该风险配置文件。 </li></ul>|
+| ![描述决策点的图标。](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>使用下表作为指南，了解正在调查的应用正在请求哪些权限。</li></ul> |
+| ![一个描述下一步骤的图标。](media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>研究应用或服务本身，确定是否允许在组织中访问它。 例如，机器人发送和接收来自用户的消息，并且（企业自定义机器人除外）位于符合性边界之外。 因此，包含机器人的任何应用都需要这些权限，并且至少具有该风险配置文件。 </li></ul>|
 
-另请参阅["请求设备权限"选项卡 Microsoft Teams设备权限](/microsoftteams/platform/concepts/device-capabilities/native-device-permissions)。
+另请参阅["请求设备权限"选项卡 Microsoft Teams。](/microsoftteams/platform/concepts/device-capabilities/native-device-permissions)
 
 ## <a name="global-app-permissions-and-considerations"></a>全局应用权限和注意事项
 
@@ -81,13 +81,13 @@ Microsoft Teams应用是一种将一个或多个功能聚合到可安装、升�
 
 - POST_MESSAGE_TEAM。 允许应用的机器人随时向任何团队成员 (主动) 消息，即使用户以前从未与机器人交谈。
 
-- 以下不是显式权限，但由 RECEIVE_MESSAGE 和 REPLYTO_MESSAGE 以及可以使用机器人的范围（在清单中声明）所暗示：
+- 以下不是显式权限，但由清单中声明RECEIVE_MESSAGE REPLYTO_MESSAGE以及可以使用机器人的范围所暗示：
  
     - RECEIVE_MESSAGE_PERSONAL、REPLYTO_MESSAGE_PERSONAL
     - RECEIVE_MESSAGE_GROUPCHAT、REPLYTO_MESSAGE_GROUPCHAT
     - RECEIVE_MESSAGE_TEAM、REPLYTO_MESSAGE_TEAM
 
-- SEND_FILES，RECEIVE_FILES。<sup>2</sup> 控制机器人是否可以在个人聊天中发送和接收文件， (聊天或聊天通道) 。
+- SEND_FILES，RECEIVE_FILES。<sup>2</sup> 控制机器人是否可以在个人聊天中发送和接收文件 (尚不支持群组聊天或频道聊天) 。
 
 ### <a name="considerations"></a>注意事项
 
@@ -101,9 +101,9 @@ Microsoft Teams应用是一种将一个或多个功能聚合到可安装、升�
 
 - 从理论上讲，机器人消息可以包含指向钓鱼或恶意软件网站的链接，但用户、租户管理员或 Microsoft 可以全局阻止机器人。
 
-- 机器人可以检索 (，并) 应用添加到的团队成员或在个人或群组聊天中为单个用户存储非常基本的标识信息。 若要获取有关这些用户的进一步信息，机器人必须要求他们登录到 Azure Active Directory (Azure AD) 。
+- 机器人可以检索 (，并) 应用添加到的团队成员或者个人或群组聊天中单个用户的非常基本的标识信息。 若要获取有关这些用户的进一步信息，机器人必须要求他们登录到 Azure Active Directory (Azure AD) 。
 
-- 机器人可以检索 (，并) 存储在团队中的频道列表中;此数据会离开企业网络。
+- 机器人可以检索 (，并) 团队中的频道列表;此数据会离开企业网络。
 
 - 将文件发送到机器人时，该文件会离开企业网络。 发送和接收文件需要用户批准每个文件。 
 
@@ -115,11 +115,11 @@ Microsoft Teams应用是一种将一个或多个功能聚合到可安装、升�
 
 - 另一方面，消息传送扩展会查看用户的 IP 地址和引用网站信息。
 
-- 应用 (和我们的 AppSource 评审) 要求自行决定是否出于有效目的 (用户POST_MESSAGE_TEAM) 个人聊天消息。 如果滥用，用户可以阻止机器人，租户管理员可以阻止应用，并且 Microsoft 可以在必要时集中阻止机器人。
+- 应用 (以及我们的 AppSource 评审) 需要自行决定是否出于有效目的 (用户POST_MESSAGE_TEAM) 个人聊天消息。 如果滥用，用户可以阻止机器人，租户管理员可以阻止应用，并且 Microsoft 可以在必要时集中阻止机器人。
 
-<sup>1</sup> 某些机器人仅向用户 (POST_MESSAGE_USER) 。 它们称为"仅通知"机器人，但术语不是指允许或不允许机器人执行什么操作，这意味着机器人不希望公开聊天体验。 Teams此字段禁用通常启用的 UI 中的功能;与公开聊天体验的机器人相比，机器人在允许执行哪些操作方面没有限制。
+<sup>1</sup> 某些机器人仅向 (POST_MESSAGE_USER) 。 它们称为"仅通知"机器人，但术语不是指允许或不允许机器人执行什么操作，这意味着机器人不希望公开聊天体验。 Teams此字段禁用通常启用的 UI 中的功能;与公开聊天体验的机器人相比，机器人在允许执行哪些操作方面没有限制。
 
-<sup>2</sup> 受应用的文件的 manifest.js对象上的 supportsFiles Boolean 属性控制。
+<sup>2</sup> 由应用的文件上的机器人对象上的 supportsFiles 布尔manifest.js控制。
 
 > [!NOTE]
 > 如果机器人有其自己的登录，则用户首次登录时，会经历另一种不同的许可体验。
@@ -142,7 +142,7 @@ SEND_AND_RECEIVE_WEB_DATA
 
 - 选项卡的风险配置文件几乎与在浏览器选项卡中运行的同一网站相同。 
 
-- 选项卡还会获取其运行上下文，包括当前用户的登录名和 UPN、当前用户的 Azure AD 对象 ID、 (组所在的 Microsoft 365 (（如果是团队) ）的 ID、租户 ID 和用户的当前区域设置。 但是，若要将这些 ID 映射到用户的信息，该选项卡必须让用户登录到 Azure AD。
+- 选项卡还会获取其运行上下文，包括当前用户的登录名和 UPN、当前用户的 Azure AD 对象 ID、Microsoft 365 组的 ID（如果是团队) ，则驻留在 (、租户 ID 和用户的当前区域设置）。 但是，若要将这些 ID 映射到用户的信息，该选项卡必须让用户登录到 Azure AD。
 
 ## <a name="connectors"></a>连接器
 
@@ -154,7 +154,7 @@ POST_MESSAGE_CHANNEL
 
 ### <a name="optional-permissions"></a>可选权限
 
-REPLYTO_CONNECTOR_MESSAGE。 某些连接器支持可操作的消息，允许用户向连接器消息发布目标回复，例如，通过向 GitHub 问题添加响应或向 Trello 卡添加日期。
+REPLYTO_CONNECTOR_MESSAGE。 某些连接器支持可操作的消息，允许用户向连接器消息发布定向回复，例如，通过将响应添加到 GitHub 问题或向 Trello 卡添加日期。
 
 ### <a name="considerations"></a>注意事项
 

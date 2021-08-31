@@ -21,12 +21,12 @@ searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
 description: 了解如何使用和管理适用于医疗保健组织的 Teams 策略包。
-ms.openlocfilehash: e81741e40928ec92717b686773078781b51b73be
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d71945508055ddc7b6f6661d93e8918879d59d23
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608839"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731961"
 ---
 # <a name="teams-policy-packages-for-healthcare"></a>Teams 医疗保健策略包
 
@@ -52,11 +52,11 @@ Teams 当前包括以下医疗保健策略包。
 |医疗保健信息工作者  |医疗保健组织的信息工作者 |创建一组策略和策略设置，以使信息工作者（例如 IT 人员、信息学人员、财务人员和合规专员）可以完全访问聊天、通话和会议。|
 |医疗保健病房  |病房设备|创建一组适用于医疗保健组织中病房的策略和策略设置。|
 
-![医疗保健策略包的屏幕截图](media/policy-packages-healthcare.png)
+![医疗保健策略包的屏幕截图。](media/policy-packages-healthcare.png)
 
 将为每个单独的策略提供策略包的名称，以便你可以轻松识别链接到该策略包的策略。 例如，当你将医疗保健临床工作者策略包分配给组织中的临床医师时，系统将为该策略包中的每个策略创建一个名为 Healthcare_ClinicalWorker 的策略。
 
-![医疗保健临床工作者策略包中策略的屏幕截图](media/policy-packages-healthcare-clinical-worker.png)
+![医疗保健患者包中策略的屏幕截图。](media/policy-packages-healthcare-clinical-worker.png)
 
 ## <a name="get-started-with-policy-packages"></a>开始使用策略包
 
@@ -93,7 +93,7 @@ Teams 当前包括以下医疗保健策略包。
 
 若要将策略包分配给一个或多个用户，请在 Microsoft Teams 管理中心的左侧导航中，转到 **策略包**，然后选择 **管理用户**。  
 
-![有关如何在管理中心分配策略包的屏幕截图](media/policy-packages-healthcare-assign.png)
+![如何在管理中心分配策略包的屏幕截图。](media/policy-packages-healthcare-assign.png)
 
 若要了解详细信息，请参阅[分配策略包](manage-policy-packages.md#assign-a-policy-package)。
 

@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 了解你需要做些什么以及会议组织者可以如何使用 Skype for Business 拨叫其他人。
-ms.openlocfilehash: 295c3ee75718faad070a2e4e9eb26d3c9bfdae7e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7fe8102db8306e4651de532b6e00de88ddb46247
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581976"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732381"
 ---
 # <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>从会议拨出Skype for Business以便其他人可以加入会议
 
@@ -41,7 +41,7 @@ ms.locfileid: "58581976"
     
 - 你作为会议组织者已启用音频会议。
 
-若要通过拨出功能将其他参与者添加到组织的会议中，至少需要与组织者 (相同的组织中至少一个经过身份验证的用户) 您的组织) 才能允许通过拨出添加其他参与者。 
+若要通过拨出功能将其他参与者添加到组织的会议中，至少需要与组织者 (组织) 相同的组织中至少有一个经过身份验证的用户参加会议，以便允许通过拨出添加其他参与者。 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -52,7 +52,7 @@ ms.locfileid: "58581976"
   
  **步骤 2：** 在框中输入完整的电话号码，包括国家/地区代码。
   
-![Dial-out phone number in Skype for Business](../images/084b4fb5-21eb-4f10-9a1a-c92b919084b9.png)
+![拨出电话号码（Skype for Business）。](../images/084b4fb5-21eb-4f10-9a1a-c92b919084b9.png)
   
 ## <a name="supported-countries-and-regions"></a>支持的国家和地区
 

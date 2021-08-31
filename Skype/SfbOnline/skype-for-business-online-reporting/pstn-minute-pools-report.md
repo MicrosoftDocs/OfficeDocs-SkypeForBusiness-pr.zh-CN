@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: 新的Skype for Business管理中心报告"区域显示你组织的呼叫和音频会议活动。 它使你能够深入了解报表，从而更细致地了解每个用户的活动。 例如，可以使用 PSTN Skype for Business报告查看组织内部当月使用的分钟数。
-ms.openlocfilehash: 3c9999a642480442f25dddad9daca503ade7851a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d3b75fd81628e4cfcd49b7b120ceed3e3f327bdc
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592896"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727991"
 ---
 # <a name="pstn-minute-pools-report"></a>PSTN 分钟池报告
 
@@ -40,11 +40,11 @@ ms.locfileid: "58592896"
 此报表以及其他Skype for Business一起提供有关整个组织活动的详细信息。 在调查、规划和为组织做出其他业务决策以及设置通信信用额度时，这些详细信息非常有用[](/microsoftteams/what-are-communications-credits)
   
 > [!NOTE]
-> 以管理员登录 Skype for Business时，可以看到所有报告Microsoft 365 管理中心。 
+> 以管理员角色登录到 Skype for Business时，可以看到所有Microsoft 365 管理中心。 
   
 ## <a name="how-to-get-to-the-skype-for-business-pstn-minute-pools-report"></a>如何访问 PSTN Skype for Business报告
 
-![显示 Skype for Business 徽标的图标](../images/sfb-logo-30x30.png) **使用 Skype for Business 管理中心**
+![一个图标，显示Skype for Business徽标。](../images/sfb-logo-30x30.png) **使用 Skype for Business 管理中心**
 
 - 转到管理中心>**管理Skype for Business**  >  **报告**  >    >  **PSTN 分钟池**。
     
@@ -57,12 +57,12 @@ ms.locfileid: "58592896"
   
 以下是此报告的外观。
 
-![Skype for BusinessPSTN 分钟池报告](../images/f5da5ca9-3466-4234-8f33-ab50ac5eb781.png)
+![Skype for BusinessPSTN 分钟池报告。](../images/f5da5ca9-3466-4234-8f33-ab50ac5eb781.png)
   
 ***
-![第一](../images/sfbcallout1.png)<br/>下表按许可证和使用位置 (分钟) 池。 
+![数字 1。](../images/sfbcallout1.png)<br/>下表按许可证和使用位置 (分钟) 池。 
 *    **功能** 是用于调用的许可证/服务计划。 可以在此报告中看到的许可证/服务计划包括：
-     * MCOPSTN1 - 国内呼叫 (3000 分钟 US/1200 分钟欧盟计划
+     * MCOPSTN1 - 国内呼叫 (3000 分钟美国/1200 分钟欧盟计划
      * MCOPSTN2 - 国内 & 国际呼叫计划，你将看到国内池 (3000 分钟美国/加拿大/PR、1200 分钟的欧洲国家/地区) 以及一个 600 分钟的国际池 () 。 只要在日历月达到国内 -OR- 国际上限，就会达到分钟数上限。 
      * MCOPSTN5 - 国内呼叫 (120 分钟的呼叫计划) 
      * MCOPSTN6 - 国内呼叫 (240 分钟呼叫计划) 
@@ -73,9 +73,9 @@ ms.locfileid: "58592896"
 *    **总分钟** 数是当月可用的总分钟数。 
 *    **"已** 用百分比"表示当月使用的分钟数百分比。 
 ***
-![第二](../images/sfbcallout2.png)<br/>如果你希望创建将一列或多列中的所有数据进行分组的视图，请单击某个列并将其拖动到" **若要按特定列进行分组，请将列标题拖至此处**"。 
+![数字 2。](../images/sfbcallout2.png)<br/>如果你希望创建将一列或多列中的所有数据进行分组的视图，请单击某个列并将其拖动到" **若要按特定列进行分组，请将列标题拖至此处**"。 
 ***
-![第三](../images/sfbcallout3.png)<br/>你还可以单击或点击" **导出到 Excel**"按钮，将报告数据导出到 Excel .csv 文件中。 <br/><br/> 此操作会导出所有用户数据并允许你执行简单的排序和筛选以进行更详细的分析。 如果用户数少于 2000，可以在报表本身的表中进行排序和筛选。 如果拥有的用户超过 2000 人，你需要导出数据进行筛选和排序。
+![数字 3。](../images/sfbcallout3.png)<br/>你还可以单击或点击" **导出到 Excel**"按钮，将报告数据导出到 Excel .csv 文件中。 <br/><br/> 此操作会导出所有用户数据并允许你执行简单的排序和筛选以进行更详细的分析。 如果用户数少于 2000，可以在报表本身的表中进行排序和筛选。 如果拥有的用户超过 2000 人，你需要导出数据进行筛选和排序。
    
 ## <a name="want-to-see-other-skype-for-business-reports"></a>想要查看其他 Skype for Business 报告？
 
@@ -83,7 +83,7 @@ ms.locfileid: "58592896"
     
 - [Skype for Business设备使用情况报告](device-usage-report.md)你可以查看设备，包括Windows操作系统和移动设备，这些设备已安装Skype for Business应用，并使用它进行即时消息和会议。
     
-- [Skype for Business组织者活动报告](conference-organizer-activity-report.md)可以看到有多少用户正在组织使用即时消息、音频/视频、应用程序共享、Web、/拨出 - 第三方和 /dial out - Microsoft 的会议。
+- [Skype for Business会议组织者活动报告](conference-organizer-activity-report.md)可以看到有多少用户正在组织使用即时消息、音频/视频、应用程序共享、Web、/拨出 - 第三方和 /dial out - Microsoft 的会议。
     
 - [Skype for Business参与者活动报告](conference-participant-activity-report.md)可以看到正在参与多少个即时消息、音频/视频、应用程序共享、Web 和拨出音频会议。
     

@@ -19,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c11ccbac11b546aa53e6d66625f12b12f86483b5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5975bfc6f0e93580ebdee3ce7f564efa9c380d99
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608959"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729951"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>获取 Microsoft Teams 的客户端
 
@@ -207,8 +207,8 @@ Microsoft Teams 移动应用的支持移动平台如下：
 
 | | | |
 |---|---|---|
-|![描述决策点的图标](media/Get_clients_for_Microsoft_Teams_image4.png)|决策点|是否存在阻止用户在其设备上安装合适 Microsoft Teams 客户端的任何限制？|
-|![描述后续步骤的图标](media/Get_clients_for_Microsoft_Teams_image5.png)|后续步骤|如果贵组织限制软件安装，请确保 Microsoft Teams 不会受到阻止。 注意：PC 客户端安装不需要管理权限，但在 Mac 上安装需要。|
+|![描述决策点的图标。](media/Get_clients_for_Microsoft_Teams_image4.png)|决策点|是否存在阻止用户在其设备上安装合适 Microsoft Teams 客户端的任何限制？|
+|![描述后续步骤的图标。](media/Get_clients_for_Microsoft_Teams_image5.png)|后续步骤|如果贵组织限制软件安装，请确保 Microsoft Teams 不会受到阻止。 注意：PC 客户端安装不需要管理权限，但在 Mac 上安装需要。|
 |
 
 ## <a name="client-update-management"></a>客户端更新管理

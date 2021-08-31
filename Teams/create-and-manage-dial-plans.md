@@ -20,13 +20,13 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
-description: 了解如何使用 PSTN Microsoft Teams中心或Windows PowerShell PSTN 呼叫拨号 (创建和管理拨号) 。
-ms.openlocfilehash: e6cc5e751efa412c24eb13f182ab5967360c677e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 了解如何使用 PSTN Microsoft Teams中心或Windows PowerShell PSTN 呼叫拨号 (创建和管理) 。
+ms.openlocfilehash: 44ecabfb04d8919ac289067818e736e170e6d181
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628374"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728701"
 ---
 # <a name="create-and-manage-dial-plans"></a>创建并管理拨号计划
 
@@ -38,8 +38,8 @@ ms.locfileid: "58628374"
 
 1. 在管理中心的左侧导航Microsoft Teams，转到"**语音**  >  **拨号计划"。**
 2. 单击 **"** 添加"，然后输入拨号计划的名称和说明。
-    ![显示用于创建拨号计划的"添加"页面的屏幕截图](media/create-dial-plan.png)
-3. 在 **"拨号计划详细信息**"下，指定外部拨号前缀（如果用户需要拨打一个或多个前导 (例如，9) 才能获取外部线路。 要执行此操作：
+    ![显示用于创建拨号计划的"添加"页面的屏幕截图。](media/create-dial-plan.png)
+3. 在 **"拨号计划详细信息**"下，指定外部拨号前缀（如果用户需要拨打一个或多个前导 (，例如，9) 才能获取外部线路。 要执行此操作：
     1. 在" **外部拨号前缀** "框中，输入外部拨号前缀。 前缀可以是最多四个字符 (#、*和 0-9) 。
     2. 打开 **"优化设备拨号"。** 如果指定外部拨号前缀，则还必须启用此设置才能应用前缀，以便可以在组织外部进行呼叫。
 4. 在 **"规范化规则**"下，为 [拨号计划配置](what-are-dial-plans.md#normalization-rules) 和关联一个或多个规范化规则。 每个拨号计划必须至少有一个与之关联的规范化规则。  为此，请执行以下一项或多项操作：
@@ -187,14 +187,14 @@ Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{remove=$nr1
 Get-CsOnlineUser | Where-Object {$_.TenantDialPlan -eq "RedmondDialPlan"}
 ```
 
-运行此操作，从具有托管主机的 HostingProvider 的所有用户中删除任何分配的 TenantDialPlan sipfed.online.lync.com。
+运行此操作，从具有托管主机的所有用户中删除任何分配的 TenantDialPlan sipfed.online.lync.com。
 ```PowerShell
 Get-CsOnlineUser -Filter {HostingProvider -eq "sipfed.online.lync.com"} | Grant-CsTenantDialPlan -policyname $null
 ```
 
 运行这些脚本可为你的组织将名为 OPDP1 的本地拨号计划添加为租户拨号计划。 首先需要将本地拨号计划保存到 .xml 文件，然后使用它创建新的租户拨号计划。
   
-运行此操作，将本地拨号计划保存到 .xml 文件。
+运行此操作，将本地拨号计划保存到.xml文件。
   
 ```PowerShell
 $DPName = "OPDP1"

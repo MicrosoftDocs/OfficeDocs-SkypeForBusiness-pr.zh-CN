@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: '此报告以及其他Skype for Business一起提供有关活动的详细信息，包括整个组织的 PSTN 使用情况。 '
-ms.openlocfilehash: f2708512dfb1cf03e367af09abb288e62329eaf0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c88614d4ca7745f972f42b9fcf19a2858a1c6992
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606721"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732281"
 ---
 # <a name="users-blocked-report"></a>阻止的用户报告
 
@@ -39,7 +39,7 @@ ms.locfileid: "58606721"
   
 ## <a name="how-to-get-to-the-skype-for-business-users-blocked-report"></a>如何访问用户Skype for Business报告
 
-![显示 Skype for Business 徽标的图标](../images/sfb-logo-30x30.png) **使用 Skype for Business 管理中心**
+![一个图标，显示Skype for Business徽标。](../images/sfb-logo-30x30.png) **使用 Skype for Business 管理中心**
 
 - 转到管理中心>**管理Skype for Business**  >  **报告**  >    >  **用户被阻止**。
     
@@ -49,21 +49,21 @@ ms.locfileid: "58606721"
   
 以下是此报告的外观。 
   
-![被阻止的用户报告](../images/df50a413-7a51-4340-a59b-3f83de941762.png)
+![被阻止的用户报告。](../images/df50a413-7a51-4340-a59b-3f83de941762.png)
 
 下表显示了被阻止进行呼叫的所有用户的细分。 这将显示分配有电话系统音频会议的所有用户。 你可以添加/删除表格的列。
 ***
-![第一](../images/sfbcallout1.png)
+![数字 1。](../images/sfbcallout1.png)
 *   **用户 ID** 是用户的登录。
 *   **电话数字** 是分配给用户的数量。 
 *   **阻止操作时间** 是 (UTC) 阻止用户进行呼叫的时间。
 *   **阻止** 操作是阻止用户时采取的操作类型。
 *   **阻止操作** 原因是阻止用户进行调用的原因。
 ***
-![第二](../images/sfbcallout2.png)<br/>
+![数字 2。](../images/sfbcallout2.png)<br/>
 如果你希望创建将一列或多列中的所有数据进行分组的视图，请单击某个列并将其拖动到" **若要按特定列进行分组，请将列标题拖至此处**"。
 ***
-![第三](../images/sfbcallout3.png)<br/>
+![数字 3。](../images/sfbcallout3.png)<br/>
 你还可以单击或点击" **导出到 Excel**"按钮，将报告数据导出到 Excel .csv 文件中。
 
 此操作会导出所有用户数据并允许你执行简单的排序和筛选以进行更详细的分析。 如果用户数少于 2000，可以在报表本身的表中进行排序和筛选。 如果拥有的用户超过 2000 人，你需要导出数据进行筛选和排序。
@@ -73,9 +73,9 @@ ms.locfileid: "58606721"
 
 - [Skype for Business活动报告](activity-report.md)你可以看到你的用户使用对等会议会话、组织会议会话和参与会议会话的用户数。
     
-- [Skype for Business设备使用情况报告](device-usage-report.md)你可以查看设备，包括Windows操作系统和移动设备，这些设备已安装Skype for Business应用并使用它进行即时消息和会议。
+- [Skype for Business设备使用情况报告](device-usage-report.md)你可以查看设备，包括Windows操作系统和移动设备，这些设备已安装Skype for Business应用，并使用它进行即时消息和会议。
     
-- [Skype for Business组织者活动报告](conference-organizer-activity-report.md)你可以看到有多少用户正在组织使用即时消息、音频/视频、应用程序共享、Web、拨入/拨出 - 第三方和拨入/拨出 -Microsoft 的会议。
+- [Skype for Business会议组织者活动报告](conference-organizer-activity-report.md)你可以看到有多少用户正在组织使用即时消息、音频/视频、应用程序共享、Web、拨入/拨出 - 第三方和拨入/拨出 -Microsoft 的会议。
     
 - [Skype for Business参与者活动报告](conference-participant-activity-report.md)你可以看到正在参与多少个即时消息、音频/视频、应用程序共享、Web 和电话拨入/拨出式会议。
     

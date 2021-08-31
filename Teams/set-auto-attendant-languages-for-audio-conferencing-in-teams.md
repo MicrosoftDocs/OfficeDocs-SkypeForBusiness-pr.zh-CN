@@ -21,13 +21,13 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: 了解如何为音频会议号码选择音频会议自动助理语言，Microsoft Teams。
-ms.openlocfilehash: 427510e5026a5812ab14db21a7410c4d9c3e2a8f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 了解如何为音频会议号码选择音频会议自动助理语言Microsoft Teams。
+ms.openlocfilehash: e96ebaff3c14dc9c7f09ceea63de7bec2d409758
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630054"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731971"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>在 Microsoft Teams 中设置音频会议自动助理语言
 
@@ -43,7 +43,7 @@ ms.locfileid: "58630054"
   
 ## <a name="set-the-conferencing-auto-attendant-languages"></a>设置会议自动助理语言
 
-![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
+![一个图标，显示Microsoft Teams徽标。](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
 
 1. 在左侧导航中，转到“**会议**” > “**会议网桥**”。
 
@@ -63,7 +63,7 @@ ms.locfileid: "58630054"
     
 - 语言可以设置为专用，但不能设置为共享电话号码。
     
-- 若要查看使用 Microsoft 作为提供商的 Microsoft 365 或 Office 365 提供音频会议的国家/地区列表，请参阅音频电话[的电话号码](phone-numbers-for-audio-conferencing-in-teams.md)。
+- 若要查看使用 Microsoft 作为提供商的 Microsoft 365 或 Office 365 提供音频会议的国家/地区列表，请参阅音频电话[号码](phone-numbers-for-audio-conferencing-in-teams.md)。
     
 ## <a name="want-to-use-windows-powershell"></a>想要使用 Windows PowerShell？
 

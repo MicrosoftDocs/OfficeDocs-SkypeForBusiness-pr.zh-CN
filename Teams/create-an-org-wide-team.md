@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a6faac9e0c04f71bddb69b0a8bd7748072699edb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5a3322c55e61fc674be6647b192aff86e4412975
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58589746"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728201"
 ---
 # <a name="create-an-organization-wide-team-in-microsoft-teams"></a>在 Microsoft Teams
 
@@ -34,7 +34,7 @@ ms.locfileid: "58589746"
 
 只有全局管理员可以创建组织范围的团队。 目前，组织范围内的团队仅限于用户数不超过 10，000 的组织。 每个租户还有 5 个组织范围的团队的限制。 创建团队时，如果满足这些要求，全局管理员在选择"从头开始构建团队"时，将看到"组织范围"**作为选项**。 
 
-![用于创建组织范围的团队的"组织范围"选项的屏幕截图](media/create-org-wide-team.png "用于创建组织范围的团队的&quot;组织范围&quot;选项的屏幕截图")
+![用于创建组织范围的团队的"组织范围"选项的屏幕截图。](media/create-org-wide-team.png "用于创建组织范围的团队的&quot;组织范围&quot;选项的屏幕截图")
 
 创建组织范围的团队时，所有全局管理员Teams服务管理员添加为团队所有者，所有活动用户都添加为团队成员。 未经授权的用户也将添加到团队。 未授权用户首次登录 Teams时，会为该用户分配Microsoft Teams探索许可证。 若要详细了解探索许可证，请查看管理 Microsoft Teams[探索许可证](teams-exploratory.md)。 
 
@@ -78,7 +78,7 @@ ms.locfileid: "58589746"
 
 ### <a name="set-up-channel-moderation"></a>设置频道审阅
 
-考虑设置频道审阅并向某些团队成员提供审阅人功能。  (设置审核时，将自动为团队所有者提供审阅者功能。) 审查器可以：
+考虑设置频道审阅并向某些团队成员提供审阅人功能。  (设置审查时，将自动为团队所有者提供审阅者功能。) 审查器可以：
 
 - 控制谁可以在频道中启动新帖子
 - 添加和删除审阅人

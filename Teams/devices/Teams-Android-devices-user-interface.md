@@ -12,13 +12,13 @@ ms.service: msteams
 ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
-description: 了解如何在 Android 设备上Teams用户界面。
-ms.openlocfilehash: 07d8b42de16c71a63efe7a3c18955e457577d60c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 了解如何在 Android 设备上设置Teams界面。
+ms.openlocfilehash: 4d17158a6d76dd0d735392c8a441ca184968897a
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58637078"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732451"
 ---
 # <a name="set-microsoft-teams-android-devices-user-interface"></a>设置Microsoft Teams Android 设备用户界面
 
@@ -30,19 +30,19 @@ Android 设备上有三种类型的用户界面Teams：
 2. 公用区域
 3. 会议
 
-如果将[用户](/microsoftteams/user-access)许可证分配给帐户（如 E3 或 E5 许可证）时，Teams 设备会显示默认最终用户接口，该界面已针对大多数用户方案提供完整功能。 但是，如果设备正在执行特定功能，例如公用区域电话或会议室，则这些用法有特定的用户界面。
+如果将[用户](/microsoftteams/user-access)许可证分配给帐户（如 E3 或 E5 许可证），Teams 设备将显示默认最终用户接口，该界面已针对大多数用户方案提供完整功能。 但是，如果设备正在执行特定功能，例如公用区域电话或会议室，则这些用法有特定的用户界面。
 
 以下三个图像显示了用户界面如何根据分配给用户帐户的许可证进行更改。 第一个图像为用户帐户分配了一个 E5 许可证。 这是用户许可证，因此设备会显示默认的最终用户接口：
 
-:::image type="content" source="../media/TeamsAndroidDevices-UserMode1.jpg" alt-text="用户界面":::
+:::image type="content" source="../media/TeamsAndroidDevices-UserMode1.jpg" alt-text="用户界面。":::
 
 在此图像中，为用户帐户分配了一个 [公用区域电话许可证](/microsoftteams/set-up-common-area-phones)。 公用区域电话主要用于拨打和接听电话。 因此，拨号盘显示在显示器上：
 
-:::image type="content" source="../media/TeamsAndroidDevices-CAP1.jpg" alt-text="公用区域电话接口":::
+:::image type="content" source="../media/TeamsAndroidDevices-CAP1.jpg" alt-text="公用区域电话接口。":::
 
 最后，此图显示了分配有标准Microsoft Teams 会议室[用户帐户](/MicrosoftTeams/rooms/rooms-licensing)。 Teams 会议室许可证用于会议室或共享空间，因此用户界面会更改，以便通过显示日历视图轻松加入会议：
 
-:::image type="content" source="../media/TeamsAndroidDevices-Meeting.jpg" alt-text="会议界面":::
+:::image type="content" source="../media/TeamsAndroidDevices-Meeting.jpg" alt-text="会议界面。":::
 
 > [!NOTE]
 > 更改用户界面不会影响你使用其他许可功能的能力。 例如，即使团队聊天室许可证的默认视图是日历视图，如果帐户获得正确许可并配置，您仍然可以拨打和接听公用电话交换电话网络 (PSTN) 电话呼叫。

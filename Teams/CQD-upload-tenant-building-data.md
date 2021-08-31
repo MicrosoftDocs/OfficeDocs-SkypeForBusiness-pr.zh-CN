@@ -20,30 +20,30 @@ f1.keywords:
 ms.custom:
 - Reporting
 - seo-marvel-apr2020
-description: 了解如何在 CQD 仪表板的呼叫质量仪表板 (租户和) 。
-ms.openlocfilehash: 847abe5aeb18f7cb19bdad9213334f119c101e20
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 了解如何在 CQD 仪表板的"呼叫质量仪表板" (租户和) 。
+ms.openlocfilehash: 02984b413418fff22da44d4edd4349a1bf980ed7
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583696"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733131"
 ---
 # <a name="upload-tenant-and-building-data-in-call-quality-dashboard-cqd"></a>Upload CQD 仪表板中的"呼叫质量仪表板" (租户和) 
 
 
-若要在 CQD (质量仪表板) ，建议上传租户和建筑物数据。 有 2 种类型的租户数据文件，[即"生成"和"](#upload-building-data-file)[终结点"。](#endpoint-data-file)
+若要在 CQD 仪表板中 (质量仪表板) ，建议上传租户和建筑物数据。 有 2 种类型的租户数据文件，[即"生成"和"](#upload-building-data-file)[终结点"。](#endpoint-data-file)
 
 可以在此处下载示例租户数据 [模板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true)。 有关建筑物映射的帮助，请阅读 [为 CQD 创建建筑地图](CQD-building-mapping.md)。
 
-在 CQD 摘要报表仪表板中，从 CQD 设置 菜单中选择"租户数据Upload"， (CQD 报表顶部的齿轮图标) 。 在这里，管理员可以上传其组织的建筑物和终结点信息，例如 IP 地址和地理信息映射、映射每个无线接入点及其 MAC 地址，等等。
+在"CQD 摘要报表"仪表板中，从 CQ **Upload D** 设置菜单中选择"租户数据" (CQD 报表顶部的齿轮图标) 。 在这里，管理员可以上传其组织的建筑物和终结点信息，例如 IP 地址和地理信息映射、映射每个无线接入点及其 MAC 地址，等等。
 
-1. 从 Teams 管理中心或) 打开 CQD (，然后选择右上角的齿轮图标，然后从"摘要报表"页Upload"租户数据"。 [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com)  
+1. 从 Teams 管理中心或) 打开 CQD (，然后选择右上角的齿轮图标，然后从"摘要报表"页中选择"租户数据 [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) Upload"。  
 
-   ![上传数据时出现的对话框的屏幕截图](media/qerguide-image-tenantdataupload.png)
+   ![上传数据时出现的对话框的屏幕截图。](media/qerguide-image-tenantdataupload.png)
     
-2. 或者，如果这是您第一次访问 CQD，将要求您上传建筑物数据。 可以选择 **"Upload"** 以快速导航到"租户数据 **Upload页。**
+2. 或者，如果这是您第一次访问 CQD，将要求您上传建筑物数据。 可以选择 **"Upload"** 以快速导航到"租户 **数据Upload页**。
 
-   ![通知用户上传建筑物数据的横幅屏幕截图](media/qerguide-image-buildingdatauploadbanner.png)
+   ![通知用户上传建筑物数据的横幅的屏幕截图。](media/qerguide-image-buildingdatauploadbanner.png)
 
 3. 在"**租户数据Upload** 页上，选择 **"浏览**"以选择数据文件。
 
@@ -51,7 +51,7 @@ ms.locfileid: "58583696"
 
 5. 选择"**开始日期"** 后 **，Upload** 文件上传到 CQD。 <br><br>在上传文件之前，会验证该文件。 如果验证失败，则会显示一条错误消息，要求更正文件。 下图显示了当数据文件中的列数不正确时发生的错误。
 
-   ![显示建筑物数据上传错误的对话框示例](media/qerguide-image-buildingdatauploaderror.png)
+   ![显示建筑物数据上传错误的对话框示例。](media/qerguide-image-buildingdatauploaderror.png)
  
 6. 如果在验证期间未发生错误，文件上传会成功。 然后，可以在"我的上传"表中查看上传的数据文件，其中显示页面底部的当前租户的所有已上传文件的完整列表。
 
@@ -63,7 +63,7 @@ ms.locfileid: "58583696"
 
 CQD 中第一种类型的租户数据文件是 **建筑物** 数据文件。 通过展开"Network+NetworkRange"列，然后将"子网"列联接到呼叫记录的"第一个子网"或"第二个子网"列以显示"建筑物、城市、国家/地区"或"区域"信息，派生子网列。 上传的数据文件的格式必须满足以下条件，才能在上传前通过验证检查：
   
-- 该文件必须是 .tsv 文件， (列由 Tab 键分隔) 或 .csv 文件 (以逗号分隔) 。
+- 该文件必须是 .tsv 文件， (列由 TAB) 分隔，或者 .csv 文件 (以逗号分隔) 。
 
 - 数据文件不包括表标题行。 数据文件的第一行应该是实际数据，而不是标头标签（如"网络"）。
 
@@ -73,7 +73,7 @@ CQD 中第一种类型的租户数据文件是 **建筑物** 数据文件。 通
 
 - 每个租户数据文件有 1，000，000 个扩展行限制。
 
-- 每行必须包含 15 列，每一列必须具有相应的 数据类型，列必须按照下表中列出的顺序（逗号或制表符 (分隔) ：
+- 每行必须包含 15 列，每一列必须具有相应的 数据类型，列必须按照下表中列出的顺序（逗号或制表符分隔 () ）：
 
   **构建数据文件格式**
   
@@ -106,7 +106,7 @@ CQD 中第一种类型的租户数据文件是 **建筑物** 数据文件。 通
   `192.168.1.0,USA/Seattle/SEATTLE-SEA-1,26,SEATTLE-SEA-1,Contoso,IT Termination,Engineering,Seattle,98001,US,WA,MSUS,1,0,0`
 
 > [!IMPORTANT]
-> 网络范围可用于表示具有单个路由前缀的 (子网的超网络) 。 所有新建筑物上载都将检查是否有重叠的范围。 如果以前上传过一个建筑物文件，应下载当前文件，然后重新上传该文件，以识别任何重叠，并修复问题，然后再重新上传。 以前上传的文件的任何重叠都可能导致报告中子网与建筑物之间的映射错误。 某些 VPN 实现无法准确报告子网信息。 
+> 网络范围可用于表示具有单个路由前缀 (多个子网的超网络) 。 所有新建筑物上载都将检查是否有重叠的范围。 如果以前上传过一个建筑物文件，应下载当前文件，然后重新上传该文件，以识别任何重叠，并修复问题，然后再重新上传。 以前上传的文件的任何重叠都可能导致报告中子网与建筑物之间的映射错误。 某些 VPN 实现无法准确报告子网信息。 
 >
 > VPN 列是可选的，默认为 0。 如果 VPN 列的值设置为 1，则该行表示的子网将完全展开，以匹配子网内的所有 IP 地址。 请尽量少用，仅对 VPN 子网使用，因为完全扩展这些子网会对涉及生成数据的查询的查询时间产生负面影响。 如果子网的扩展导致超出 1，000，000 的扩展行限制，则不接受生成文件。
 
@@ -146,11 +146,11 @@ QoE (质量) 客户端发送到 Microsoft 365 或 Office 365 的数据（CQD 数
 
 - 在 VPN **子网的** 此字段中输入"VPN"，定义网络名称。
 
-  ![显示使用网络名称的 VPN 的 QCD 报告屏幕截图](media/qerguide-image-vpnnetworkname.png)
+  ![显示使用网络名称的 VPN 的 QCD 报告屏幕截图。](media/qerguide-image-vpnnetworkname.png)
 
 - 在 VPN **子网的** 此字段中输入"VPN"，定义建筑物名称。
 
-  ![显示使用建筑物名称的 VPN 的 QCD 报告屏幕截图](media/qerguide-image-vpnbuildingname.png)
+  ![显示使用建筑物名称的 VPN 的 QCD 报告屏幕截图。](media/qerguide-image-vpnbuildingname.png)
 
 > [!NOTE]
 > VPN 连接已知在基础连接为无线时将网络连接类型错误识别为有线。 通过 VPN 连接查看质量时，无法假定已准确标识连接类型。
@@ -159,7 +159,7 @@ QoE (质量) 客户端发送到 Microsoft 365 或 Office 365 的数据（CQD 数
 
 另一种类型的 CQD 租户数据文件是 **终结点** 数据文件。 列值用于调用记录的"第一个客户端终结点名称"或"第二个客户端终结点名称"列中，以显示终结点制造、模型或类型信息。 上传的数据文件的格式必须满足以下条件，才能在上传前通过验证检查：
 
-- 该文件必须是 .tsv 文件， (列由 Tab 键分隔) 或 .csv 文件 (以逗号分隔) 。
+- 该文件必须是 .tsv 文件， (列由 TAB) 分隔，或者 .csv 文件 (以逗号分隔) 。
 
 - 数据文件的内容不包括表标题。 数据文件的第一行应该是实际数据，而不是标头标签（如"EndpointName"）。
 
@@ -206,7 +206,7 @@ QoE (质量) 客户端发送到 Microsoft 365 或 Office 365 的数据（CQD 数
 
 上传托管网络的建筑物信息后，每个托管网络都应具有建筑物关联。 但是，情况并非总是如此;通常，会遗漏几个子网。 若要查找这些缺失的网络，请查看CQD 中"体验质量报告 **"页上的**"缺少子网报告"。 这会向所有子网显示 10 个或多个音频流，这些音频流未在建筑物数据文件中定义，并且被标记为外部。 请确保此列表中没有托管网络。 如果缺少子网，请使用以下过程更新原始建筑物数据文件，并将其重新上传到 CQD。
 
-1. 转到 CQD **Upload** 租户数据"页。
+1. 转到 CQD **中的"Upload** 数据"页。
 
 1. 下载原始文件（如果还没有最新副本）。
 
@@ -232,7 +232,7 @@ QoE (质量) 客户端发送到 Microsoft 365 或 Office 365 的数据（CQD 数
 
 [什么是 CQD？](CQD-what-is-call-quality-dashboard.md)
 
-[设置 CQD (呼叫质量) ](turning-on-and-using-call-quality-dashboard.md)
+[使用 CQD (设置呼叫质量) ](turning-on-and-using-call-quality-dashboard.md)
 
 [CQD 数据和报表](CQD-data-and-reports.md)
 

@@ -13,15 +13,15 @@ ms.localizationpriority: medium
 search.appverid: MET150
 MS.collection:
 - M365-collaboration
-description: 了解 Teams 中的跨团队分析、每团队分析和每频道分析，让用户查看他们参与的团队或频道的使用情况数据。
+description: 了解 Teams 中的跨团队分析、每团队分析和按频道分析，让用户查看他们参与的团队或频道的使用情况数据。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0aa140482188436a08732638196af64402e6ed15
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 54abc3545ca6d2935a78e3924cbd62e948c02bf1
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606995"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731731"
 ---
 # <a name="view-analytics-in-teams"></a>在分析中查看Teams
 
@@ -35,11 +35,11 @@ ms.locfileid: "58606995"
 
 ## <a name="view-cross-team-analytics"></a>查看跨团队分析
 
-1. 在Teams团队列表底部的"加入或创建团队"旁边，单击"**管理团队"。**
+1. 在Teams团队列表底部的"加入或创建团队"旁边，单击"**管理团队"。** 
 2. 单击" **分析"** 选项卡。
 3. 选择一个日期范围以显示你作为成员或所有者的所有团队的使用情况数据。
 
-    ![跨团队分析视图的屏幕截图](../media/view-analytics-cross-team.png)
+    ![跨团队分析视图的屏幕截图。](../media/view-analytics-cross-team.png)
 
     |项目 |说明  |
     |--------|-------------|
@@ -53,11 +53,11 @@ ms.locfileid: "58606995"
 
 ## <a name="view-per-team-analytics"></a>查看每个团队的分析
 
-1. 在Teams中，转到想要的团队，单击"更多选项 **" (...) "，** 然后单击"**管理团队"。**
+1. 在Teams中，转到要添加的团队，单击"更多选项 **" (...) "，** 然后单击"**管理团队"。**
 2. 单击" **分析"** 选项卡。
 4. 选择一个日期范围以显示团队的使用情况数据。  
 
-    ![按团队分析视图的屏幕截图](../media/view-analytics-per-team.png)
+    ![每团队分析视图的屏幕截图。](../media/view-analytics-per-team.png)
 
     |项目 |说明  |
     |--------|-------------|
@@ -76,7 +76,7 @@ ms.locfileid: "58606995"
 2. 单击" **分析"** 选项卡。
 3. 选择一个日期范围以显示频道的使用情况数据。  
 
-    ![按通道分析视图的屏幕截图](../media/view-analytics-per-channel.png)
+    ![每通道分析视图的屏幕截图。](../media/view-analytics-per-channel.png)
 
     |项目 |说明  |
     |--------|-------------|

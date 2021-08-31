@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 了解如何在 Teams 中管理会议策略设置。 使用策略设置来控制用户安排会议参与者可用的功能。
-ms.openlocfilehash: 7f981ed6d4397d07dc0aae5bffc6174983e12e52
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4809fab0976eda2b109620f2a2716ccb10e80318
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629364"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728416"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>管理 Teams 中的会议策略
 
@@ -119,13 +119,13 @@ ms.locfileid: "58629364"
 
 允许 **立即开会** 是按用户策略，在会议开始之前适用。 此设置可控制用户是否可以在 Teams 频道中启动非计划会议。 如果打开此设置，用户可以选择 **“会议”** 按钮开始非计划的会议或在频道中安排会议。 默认值为 True。
 
-![截图显示消息下方的 “立即开会” 图标](media/meeting-policies-meet-now.png)
+![显示邮件下方立即开会图标的屏幕截图。](media/meeting-policies-meet-now.png)
 
 ### <a name="allow-the-outlook-add-in"></a>允许 Outlook 加载项
 
 允许 Outlook 加载项是按用户的策略，在会议开始前适用。 此设置控制是否可以从 Outlook (Windows、Mac、Web和移动设备) 内安排 Teams 会议。
 
-![截图显示了安排新会议的能力](media/meeting-policies-outlook-add-in.png)
+![显示安排新会议的功能的屏幕截图。](media/meeting-policies-outlook-add-in.png)
 
 如果关闭此功能，用户将无法进行日程安排。 当他们在 Outlook 中创建一个新会议时进行 Teams 会议。 例如，在 Windows 上的 Outlook 中，**“新 Teams 会议”** 选项不会显示在功能区中。
 
@@ -137,7 +137,7 @@ ms.locfileid: "58629364"
 
 将禁用会议日程安排。
 
- ![Teams 中的 “安排会议” 选项](media/schedule-meeting-option.png)
+ ![Teams 中的“安排会议”选项。](media/schedule-meeting-option.png)
 
 将禁用“频道选择”。
 
@@ -146,15 +146,15 @@ ms.locfileid: "58629364"
 在频道公告页面上，将禁用以下功能:
 
 - 在频道回复撰写框中的 **“安排会议”** 按钮。
-  ![“安排会议”按钮回复撰写框](media/schedule-meeting-disabled-in-chat2.png)
+  ![“安排会议”按钮回复撰写框。](media/schedule-meeting-disabled-in-chat2.png)
   
-- 频道标题上的 **“安排会议”** 按钮。
-  ![频道标题中的“安排会议”按钮](media/schedule-now-in-header.png)
+- 频道标题上的“**安排会议**”按钮。
+  ![频道标题中的“安排会议”按钮。](media/schedule-now-in-header.png)
 
 在频道日历中:
 
 - 将禁用频道日历标题上的 **“添加新事件”** 按钮。
-  ![已禁用频道日历标题上的按钮](media/add-new-event-disabled.png)
+  ![已禁用频道日历标题上的按钮。](media/add-new-event-disabled.png)
 
 - 用户无法在频道日历上拖动和选择时间块来创建频道会议。
 
@@ -164,7 +164,7 @@ ms.locfileid: "58629364"
 
 频道日历应用将显示在应用权限策略页面的 **Microsoft 应用** 部分。
 
- ![Teams 管理中心中的应用权限策略](media/manage-microsoft-apps-policy.png)
+ ![Teams 管理中心中的应用权限策略。](media/manage-microsoft-apps-policy.png)
 
 ### <a name="allow-scheduling-private-meetings"></a>允许安排私人会议
 
@@ -191,7 +191,7 @@ ms.locfileid: "58629364"
 
 此策略将启用实时转录功能。 允许转录是按用户的策略。 此设置控制是否可以转录这个特定团队的会议。
 
-![会议策略中的转录选项](media/live-transcription.png)
+![会议策略中的转录选项。](media/live-transcription.png)
 
 实时转录在团队会议期间以近乎实时的方式显示口语内容的语音转文本。 文字与会议视频一起出现，包括演示者的姓名和时间戳。 有关详细信息，请参阅 [Teams 会议中的实时转录](https://support.microsoft.com/office/view-live-transcription-in-a-teams-meeting-dc1a8f23-2e20-4684-885e-2152e06a4a8b)。
 
@@ -212,7 +212,7 @@ ms.locfileid: "58629364"
 
 组织之外的人员，如联合和匿名用户，无法启动录制。 来宾用户无法启动或停止录制。
 
-![录制选项](media/meeting-policies-recording.png)
+![录制选项。](media/meeting-policies-recording.png)
 
 若要了解有关云会议记录的更多信息，请参阅 [Teams 云会议录制](cloud-recording.md)。
 
@@ -264,7 +264,7 @@ IP 视频的模式是按用户策略。 此设置控制是否可以在会议和�
 
 | Teams 桌面和 Web 客户端 |Teams 移动客户端  |
 |:-------:|:-------:|
-|![截图截图显示在桌面上通过音频/视频设置加入会议的画面](media/meeting-policies-audio-video-settings.png)    |![屏幕截图显示在移动设备上通过音频/视频设置加入会议的画面](media/meeting-policies-mobile-join.png)          |
+|![显示在桌面上通过音频/视频设置加入会议的屏幕截图。](media/meeting-policies-audio-video-settings.png)    |![屏幕截图显示在移动设备上通过音频/视频设置加入会议的画面](media/meeting-policies-mobile-join.png)          |
 
 查看以下示例。
 
@@ -358,11 +358,11 @@ IP 视频的模式是按用户策略。 此设置控制是否可以在会议和�
 
 如果为用户开启此设置，则在共享会话中的顶部栏中会显示 **“授予控制”** 选项。
 
-![显示 “授予控制” 选项的屏幕截图](media/meeting-policies-give-control.png)
+![显示“授予控制”选项的屏幕截图。](media/meeting-policies-give-control.png)
 
-如果已关闭用户的设置，则无法使用 **“授予控制”** 选项。
+如果已关闭用户的设置，则“**授予控制**”选项将不可用。
 
-![显示“授予控制”选项不可用的屏幕截图](media/meeting-policies-give-control-not-available.png)
+![显示“授予控制”选项不可用的屏幕截图。](media/meeting-policies-give-control-not-available.png)
 
 查看以下示例。
 
@@ -459,7 +459,7 @@ Daniela 可以在 Amanda 的会议上做笔记，而 Amanda 不能在任何会�
 
 这是按组织者的策略。 此设置可以控制人员是直接加入会议还是在大厅里等待，直到受认证的用户入场。 此设置不适用于拨入用户。
 
-![屏幕截图显示在大厅里与用户见面的画面](media/meeting-policies-lobby.png)
+![显示在大厅里会见用户的屏幕截图。](media/meeting-policies-lobby.png)
 
  会议组织者可以在会议邀请中选择 **“会议选项”**，为他们安排的每次会议更改此设置。
 
@@ -489,7 +489,7 @@ Daniela 可以在 Amanda 的会议上做笔记，而 Amanda 不能在任何会�
 
 这是按用户策略，在会议期间适用。 此设置控制 **开启实时字幕** 选项是否可以让用户在参加的会议中开启和关闭实时字幕。  
 
-![显示开启实时字幕选项的屏幕截图](media/meeting-policies-live-captions.png)
+![显示启用辅助字幕选项的屏幕截图。](media/meeting-policies-live-captions.png)
 
 |设置值 |行为  |
 |---------|---------|
@@ -520,7 +520,7 @@ Daniela 可以在 Amanda 的会议上做笔记，而 Amanda 不能在任何会�
 
 此外，还可以在 Teams 管理中心编辑此策略。
 
-![Teams 管理中心的屏幕截图](media/designated-presenter-role.png)
+![Teams 管理中心的屏幕截图。](media/designated-presenter-role.png)
 
 请记住，在设置默认值后，会议组织者仍然可以在 Teams 中更改此设置，并选择谁可以在他们安排的会议中演示。
 

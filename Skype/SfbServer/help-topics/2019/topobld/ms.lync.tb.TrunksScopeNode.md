@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 4ee527fa-ebec-40a9-a6bf-0cabd098aaa9
 ROBOTS: NOINDEX, NOFOLLOW
 description: 右键单击拓扑生成器中的"Trunks"以执行下列操作：
-ms.openlocfilehash: 7a52c89c9ac2647a99a5da87848f8725f0a6657f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8e12ed1aa93bc1b5a2ea9db5c3dd734fe5ca938c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601667"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729991"
 ---
 # <a name="trunks-scope-node"></a>中继范围节点
  
@@ -30,7 +30,7 @@ ms.locfileid: "58601667"
     
 除了“新建 Trunk”选项之外，还可以执行以下常规任务：
   
-![中继范围节点](../../../media/Trunks_Scope_Node.jpg)
+![中继范围节点。](../../../media/Trunks_Scope_Node.jpg)
   
 - **拓扑**。 可以使用此选项来定义新的拓扑、打开现有拓扑、下载当前拓扑、保存拓扑副本、发布拓扑、安装数据库、合并以前版本的组件或删除部署。
     

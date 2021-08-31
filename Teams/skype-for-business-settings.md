@@ -22,12 +22,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何在管理中心管理Skype for Business功能Microsoft Teams设置。
-ms.openlocfilehash: e3679f80057349b60af9bc11b2aa43c3ceb6a431
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a21ea4d51902fc755f1a36e58e3faf0f70fa837b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636436"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731737"
 ---
 # <a name="manage-skype-for-business-settings-in-the-microsoft-teams-admin-center"></a>管理Skype for Business管理中心Microsoft Teams设置
 
@@ -35,18 +35,18 @@ ms.locfileid: "58636436"
 <a name="sfb-settings"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-作为管理员，Microsoft Teams管理中心是管理组织中Skype for Business用户Skype for Business功能的地方。 可以在用户详细信息[页面的](#manage-skype-for-business-settings-for-your-organization)"Skype for Business"选项卡上管理组织的设置，以及Skype for Business[](#manage-skype-for-business-settings-for-individual-users)用户的设置。 
+作为管理员，Microsoft Teams管理中心是管理组织中Skype for Business用户Skype for Business功能的地方。 可以在用户详细信息[页面的](#manage-skype-for-business-settings-for-your-organization)"Skype for Business"选项卡上管理组织的设置以及Skype for Business用户的[](#manage-skype-for-business-settings-for-individual-users)设置。 
 
-如果组织的共存 **Skype for Business** 未设置为仅 ，你将只能看到Teams **页面**。 同样，如果用户的共存模式Skype for Business，则只会看到用户的"Teams **选项卡**。 若要详细了解共存模式，请参阅了解Teams Skype for Business和互操作性以及设置[共存和升级设置](setting-your-coexistence-and-upgrade-settings.md)。 [](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+如果组织的共存 **Skype for Business** 未设置为仅 ，你将只能看到Teams **页面**。 同样，如果用户的共存模式Skype for Business，则只会看到用户的"Teams **选项卡**。 若要详细了解共存模式，请参阅了解Teams Skype for Business[和](teams-and-skypeforbusiness-coexistence-and-interoperability.md)互操作性以及设置[共存和升级设置](setting-your-coexistence-and-upgrade-settings.md)。
 
 > [!NOTE]
-> Skype for Business之前在旧版门户中 **，Microsoft Teams** 管理中心。 旧门户停用后，我们已将设置迁移到 Teams 管理中心中的这些新Skype for Business位置。
+> Skype for Business之前在旧版门户中 **，Microsoft Teams** 管理中心。 旧门户停用后，我们已将设置迁移到 Teams 管理中心中的Skype for Business位置。
 
 必须分配全局管理员的[Azure AD](/azure/active-directory/roles/permissions-reference)管理员角色或Skype for Business管理员来管理 Skype for Business 中心Microsoft Teams功能。
 
-## <a name="manage-skype-for-business-settings-for-your-organization"></a>管理Skype for Business组织设置
+## <a name="manage-skype-for-business-settings-for-your-organization"></a>管理Skype for Business设置
 
-在管理中心的左侧导航Microsoft Teams，转到"**组织范围的设置"Skype for Business。**  >   在这里，您可以为组织Skype 会议用户配置和管理Skype for Business、状态隐私和移动设备通知。
+在管理中心的左侧导航Microsoft Teams，转到"**组织范围的设置"Skype for Business。**  >   在这里，你可以为组织Skype 会议用户配置和管理直播、状态隐私和移动设备Skype for Business通知。
 
 ### <a name="skype-meeting-broadcast"></a>Skype 会议直播
 
@@ -56,12 +56,12 @@ ms.locfileid: "58636436"
 
 使用以下设置管理Skype 会议[广播](https://support.microsoft.com/office/what-is-a-skype-meeting-broadcast-c472c76b-21f1-4e4b-ab58-329a6c33757d)。
 
-:::image type="content" source="media/skype-for-business-settings-meeting-broadcast.png" alt-text="管理中心Skype 会议广播设置的屏幕截图":::
+:::image type="content" source="media/skype-for-business-settings-meeting-broadcast.png" alt-text="管理中心Skype 会议广播设置的屏幕截图。":::
 
-- **Skype 会议广播**：打开此选项，为Skype 会议启用直播。 启用此功能后，需要为"广播"设置[Skype 会议网络](/skypeforbusiness/set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast)。
+- **Skype 会议广播**：启用此选项，为Skype 会议启用直播。 启用此功能后，需要为"广播"设置[Skype 会议网络](/skypeforbusiness/set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast)。
 - **请参阅预览功能**：启用此功能可提前访问新功能。
 - **组织者可以安排匿名会议**：如果希望组织者创建允许组织外部任何人无需登录即可加入的直播活动，请启用此功能。 
-- **录制Skype 会议** 直播会议：启用此功能以允许组织者和演示者录制会议。  
+- **录制Skype 会议直播** 会议：启用此功能以允许组织者和演示者录制会议。  
 - **与会者的支持 URL：** 输入组织的支持 URL，与会者在会议期间需要帮助时可以使用该 URL。
 
 ### <a name="presence-and-mobile-notifications"></a>状态和移动通知
@@ -73,14 +73,14 @@ ms.locfileid: "58636436"
 
 使用以下设置管理Skype for Business状态隐私和移动通知。
 
-:::image type="content" source="media/skype-for-business-settings-presence-mobile.png" alt-text="管理中心中状态设置的屏幕截图":::
+:::image type="content" source="media/skype-for-business-settings-presence-mobile.png" alt-text="管理中心中状态设置的屏幕截图。":::
 
 #### <a name="presence"></a>状态
 
-默认情况下，Skype for Business中的用户可以看到其他 (用户的状态，例如") "或"离开Skype for Business状态。 选择下列选项之一，设置谁可以看到你的Skype for Business状态。
+默认情况下，Skype for Business用户可以看到其他 (用户的状态，例如" (、忙碌) 离开Skype for Business状态。 选择下列选项之一，设置谁可以看到你的Skype for Business状态。
 
 - **自动显示状态信息**：Skype for Business未添加到用户的"外部"或"阻止"列表中的任何用户都可以看到该用户的显示状态。 
-- 仅向 **用户的** 联系人显示状态信息：用户的联系人列表中未添加到"外部"或"阻止"列表中的任何 Skype for Business 用户都可以看到该用户的显示状态。   用户可以在"工具选项"Skype for Business中设置  >  **此设置**  >  。
+- 仅向 **用户的** 联系人显示状态信息：用户的联系人列表中未添加到"外部"或"阻止"列表中的任何 Skype for Business 用户都可以看到该用户的显示状态。   用户可以在"工具选项"Skype for Business中设置  >    >  **此设置**。
 
 #### <a name="mobile-notifications"></a>移动通知
 
@@ -88,7 +88,7 @@ ms.locfileid: "58636436"
 
 注意以下几项：
 
-- 如果关闭推送通知，用户在下次在移动设备上启动推送通知Skype for Business收到所有警报。
+- 如果关闭推送通知，用户在下次开始在移动设备上Skype for Business收到所有警报。
 - 默认情况下，推送通知已打开。 单个用户可以在移动设备上Skype for Business关闭它们。
 - 当关闭推送通知时，用户将无法再打开推送通知。 
 
@@ -101,9 +101,9 @@ ms.locfileid: "58636436"
 <a name="sfb-user-settings"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-若要管理Skype for Business用户的 Skype for Business 设置，请在 Teams 管理中心的左侧导航栏中，转到"用户"，单击用户的显示名称 以打开用户详细信息页面，然后选择 **"Skype for Business 设置"选项卡**。在这里，您可以为用户配置外部访问和会议设置。
+若要Skype for Business用户设置，请在 Teams 管理中心的左侧导航栏中，转到"用户"，单击用户的 显示名称以打开用户详细信息页，然后选择 **"Skype for Business 设置"选项卡**。在这里，您可以为用户配置外部访问和会议设置。
 
-:::image type="content" source="media/skype-for-business-settings-user.png" alt-text="用户详细信息Skype for Business选项卡的屏幕截图":::
+:::image type="content" source="media/skype-for-business-settings-user.png" alt-text="用户详细信息Skype for Business选项卡的屏幕截图。":::
 
 ### <a name="external-access-settings"></a>外部访问设置
 

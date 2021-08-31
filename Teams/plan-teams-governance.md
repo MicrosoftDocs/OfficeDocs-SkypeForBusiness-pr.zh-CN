@@ -17,19 +17,19 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 96052f270bb0b4a9c5a9da94131e55abf314fbf4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ca020de2f2ce96daa3fe213b7b5c0d80b720165b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631276"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728621"
 ---
 # <a name="plan-for-governance-in-teams"></a>在 Teams 中规划管理
 
 Teams提供了一组丰富的工具，用于实现组织可能需要的任何管理功能。 本文指导 IT 专业人员提出正确的问题，以确定其监管要求以及如何满足这些要求。 
 
 > [!Tip] 
-> 观看以下会话，详细了解治理[Microsoft Teams：治理](https://aka.ms/teams-governance)、管理和Microsoft Teams
+> 观看以下会话，详细了解治理Microsoft Teams：治理、管理和[Microsoft Teams](https://aka.ms/teams-governance)
 
 ## <a name="group-and-team-creation-naming-classification-and-guest-access"></a>组和团队创建、命名、分类和来宾访问
 
@@ -40,13 +40,13 @@ Teams提供了一组丰富的工具，用于实现组织可能需要的任何管
 |-        |-        |-        |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" alt= "An icon depicting decision points"/>  |决策点|<ul><li>组织是否需要团队的特定命名约定？</li><li>团队创建者是否需要能够将组织特定的分类分配给团队？</li><li>是否需要限制按团队将来宾添加到团队的能力？</li><li>组织是否需要限制可以创建团队的人？</li></ul>|
-|<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next steps"/>|后续步骤|<ul><li>记录组织对团队创建、命名、分类和来宾访问的要求。</li><li>计划实施这些要求作为实施计划的一Teams部分。</li><li>传达并发布策略Teams告知用户预期的行为。</li></ul>|
+|<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next steps"/>|后续步骤|<ul><li>记录组织对团队创建、命名、分类和来宾访问的要求。</li><li>计划实施这些要求，作为实施计划的一Teams部分。</li><li>传达并发布策略Teams告知用户预期的行为。</li></ul>|
 
 > [!NOTE]
 > 为帮助你提前规划， [请详细了解如何设置这些策略及其需要哪些许可证](/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings)。
 > 
 > [!NOTE]
-> 限制组和团队创建可能会降低用户的工作效率，因为许多 Microsoft 365 Office 365 服务需要创建组才能让服务正常运行。 有关其他信息，请导航到 并展开["为什么控制谁创建组Microsoft 365组"。](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why)
+> 限制组和团队创建可能会降低用户的工作效率，因为许多 Microsoft 365 Office 365 服务需要创建组才能让服务正常运行。 有关其他信息，请访问在 中[规划Teams。](/microsoft-365/solutions/manage-creation-of-groups)
 
 
 #### <a name="additional-information"></a>其他信息
@@ -61,7 +61,7 @@ Teams提供了一组丰富的工具，用于实现组织可能需要的任何管
 
 - [使用敏感度标签保护网站Microsoft Teams、Microsoft 365组SharePoint内容](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)
 
-- [组、团队和团队的生命周期结束Yammer](/microsoft-365/solutions/end-life-cycle-groups-teams-sites-yammer)
+- [组、团队和团队的生命周期结束选项Yammer](/microsoft-365/solutions/end-life-cycle-groups-teams-sites-yammer)
 
 ## <a name="group-and-team-expiration-retention-and-archiving"></a>组和团队过期、保留和存档
 
@@ -69,8 +69,8 @@ Teams提供了一组丰富的工具，用于实现组织可能需要的任何管
 
 |-          |-           |
 |-----------|------------|
-| ![描述决策点的图标](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>组织是否需要为团队指定到期日期？</li><li>组织是否需要对团队应用特定的数据保留策略？</li><li>您的组织是否期望能够存档非活动团队，以将内容保留为只读状态？</li></ul>|
-| ![描述后续步骤的图标](media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>记录组织对团队过期、数据保留和存档的要求。</li><li>在推出新计划过程中，计划Teams这些要求。</li><li>传达并发布策略Teams告知用户预期的行为。</li></ul>|
+| ![描述决策点的图标。](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>组织是否需要为团队指定到期日期？</li><li>组织是否需要对团队应用特定的数据保留策略？</li><li>您的组织是否期望能够存档非活动团队，以将内容保留为只读状态？</li></ul>|
+| ![一个图标，描述接下来的步骤。](media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>记录组织对团队过期、数据保留和存档的要求。</li><li>在推出新计划过程中，计划Teams这些要求。</li><li>传达并发布策略Teams告知用户预期的行为。</li></ul>|
 
 > [!TIP]
 > 使用下表捕获组织的要求。
@@ -78,11 +78,11 @@ Teams提供了一组丰富的工具，用于实现组织可能需要的任何管
 |功能 |详细信息 |Azure AD Premium许可证 |决定 |
 |---------|---------|---------|---------|
 |过期策略 |通过设置过期Microsoft 365管理组生命周期。 |P1 |TBD|
-|保留策略 |在安全与合规中心中为数据设置保留策略，Teams或删除&数据。 **注意**：使用此功能需要 E3 Microsoft 365 Office 365 企业版许可。 |否 |TBD |
+|保留策略 |在安全与合规中心中为数据设置保留策略，Teams或删除&数据。 **注意**：使用此功能需要获得 E3 Microsoft 365或Office 365 企业版许可。 |否 |TBD |
 |存档和还原 |当团队不再处于活动状态，但你想要保留该团队供参考或将来重新激活时，请将其存档。 |否 |TBD |
 
 > [!Note]
-> 组过期是一项Azure AD Premium功能。 若要提供此功能，租户必须具有订阅，Azure AD Premium设置和受影响组成员的管理员的许可证和许可证。
+> 组过期是一项Azure AD Premium功能。 若要提供此功能，租户必须具有订阅，Azure AD Premium设置和受影响组成员的管理员拥有许可证和许可证。
 
 #### <a name="additional-information"></a>其他信息
 
@@ -103,7 +103,7 @@ Teams提供了一组丰富的工具，用于实现组织可能需要的任何管
 |-|-|-|
 |:-|:-|:-|
 |<img src="media/audio_conferencing_image7.png" alt= "An icon depicting decision points"/>  | 决策点 | 组织是否需要一致的流程来管理一个或多个团队的成员身份？ <br> 组织是否需要所有者或成员本身定期证明他们持续成为一个或多个团队的成员身份的理由？ <br> 组织是否需要用户和来宾批准，以请求访问团队、组、SharePoint和应用等资源？ |
-|<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next steps"/>| 下一步？ | 记录每个团队或特定团队的成员资格到期的组织要求。<br>规划组织如何将团队、组、SharePoint网站和应用捆绑在访问包中。<br>规划哪些人员（例如请求者经理、项目经理、已连接组织的发起人或组织中安全主管）需要批准或拒绝访问请求。 |
+|<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next steps"/>| 下一步？ | 记录每个团队或特定团队的成员资格到期的组织要求。<br>规划组织如何在访问包中将团队、SharePoint、网站和应用捆绑在一起。<br>规划哪些人员（例如请求者经理、项目经理、已连接组织的发起人或组织中安全主管）需要批准或拒绝访问请求。 |
 
 > [!TIP]
 > 使用下表捕获组织的要求。
@@ -130,8 +130,8 @@ Teams提供了一组丰富的工具，用于实现组织可能需要的任何管
 
 |-        |-        |
 |---------|---------|
-| ![描述决策点的图标](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>组织是否需要限制Teams租户的功能？</li><li>组织是否需要限制Teams特定用户的功能？</li></ul>|
-| ![描述后续步骤的图标](media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>记录组织在租户和用户Teams限制功能的要求。</li><li>计划在推出计划过程中实现特定Teams要求。</li><li>传达并发布策略Teams告知用户预期的行为。</li></ul>|
+| ![描述决策点的图标。](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>组织是否需要限制Teams租户的功能？</li><li>组织是否需要限制Teams特定用户的功能？</li></ul>|
+| ![一个图标，描述接下来的步骤。](media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>记录组织在租户和用户Teams限制功能的要求。</li><li>计划在推出计划过程中实现Teams要求。</li><li>传达并发布策略Teams告知用户预期的行为。</li></ul>|
 
 ### <a name="teams-feature-management-focus-areas"></a>Teams管理重点区域
 
@@ -153,7 +153,7 @@ Teams策略提供精细的功能来控制消息传递、会议、呼叫和实时
 Teams基于 Microsoft 365 和 Office 365 的高级安全性和符合性功能，并支持审核和报告、符合性内容搜索、电子发现、法定保留和保留策略。
 
 > [!Important]
-> 如果组织有合规性和安全性要求，请查看有关本主题的深入内容，该文章的安全性和符合性在[Microsoft Teams。](security-compliance-overview.md)
+> 如果组织有合规性和安全性要求，请查看安全与合规性概述一文（在安全与合规方面概述）[中](security-compliance-overview.md)提供的有关Microsoft Teams。
 
 ## <a name="related-topics"></a>相关主题
 

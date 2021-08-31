@@ -16,16 +16,16 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 了解如何使用运行状况仪表板监视会话边界控制器和直接路由之间的连接。
-ms.openlocfilehash: aec8a0bb37af02f6103714a26c9d35e18879985c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4927f6473e74a6fc14add9105022fc8efbade260
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592336"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728211"
 ---
 # <a name="health-dashboard-for-direct-routing"></a>直接路由的运行状况仪表板
 
-使用直接路由的运行状况仪表板可以监视会话边界控制器与 SBC () 与直接路由接口之间的连接。  使用运行状况仪表板，可以监视有关 SBC、电话服务和 SBC 与直接路由接口之间的网络参数的信息。 此信息可帮助你识别问题，包括通话中断的原因。 例如，如果 SBC 上的证书已过期或存在网络问题，SBC 可能会停止发送调用。 请参阅 [管理员角色](using-admin-roles.md) ，了解谁有权访问运行状况仪表板。
+使用直接路由的运行状况仪表板可以监视会话边界控制器与 SBC (与) 路由接口之间的连接。  使用运行状况仪表板，可以监视有关 SBC、电话服务和 SBC 与直接路由接口之间的网络参数的信息。 此信息可帮助你识别问题，包括通话中断的原因。 例如，如果 SBC 上的证书已过期或存在网络问题，SBC 可能会停止发送调用。 请参阅 [管理员角色](using-admin-roles.md) ，了解谁有权访问运行状况仪表板。
 
 运行状况仪表板监视两个级别的信息：
 
@@ -38,13 +38,13 @@ ms.locfileid: "58592336"
 
 运行状况仪表板提供与连接的 SDC 的总体运行状况相关的以下信息：
 
- ![显示运行状况仪表板统计信息](media/direct-routing-dashboard-stats1.png)
+ ![显示运行状况仪表板统计信息。](media/direct-routing-dashboard-stats1.png)
 
 - **直接路由摘要** - 显示系统中注册的 SDC 总数。 注册意味着租户管理员使用 New-CsOnlinePSTNGateway 添加了 SBC。 如果 SBC 已添加到 PowerShell 中，但从未连接，则运行状况仪表板会显示它处于不正常状态。
 
 - **SBC** - 已配对 SBC 的 FQDN。
 
-- **网络有效性 (NER)** - NER 通过测量发送的呼叫数与发送给收件人的呼叫数来测量网络传送呼叫的能力。  
+- **网络有效性 (NER)** - NER 通过测量已发送呼叫数与发送给收件人的呼叫数来测量网络传送呼叫的能力。  
 
    NER 度量网络向远端终端传送调用的能力，不包括导致呼叫拒绝的用户操作。  如果收件人拒绝了呼叫或将呼叫发送到语音邮件，该呼叫将计为成功的送达。 这意味着，应答消息、繁忙信号或没有应答的铃声都被视为成功的呼叫。
   
@@ -72,7 +72,7 @@ ms.locfileid: "58592336"
 
     - 活动 - SBC 处于活动状态 -- Microsoft Direct Routing 服务会定期看到选项流动。
 
-    - 警告，没有 SIP 选项 - 会话边界控制器存在于数据库中 (管理员使用 New-CsOnlinePSTNGateway 命令创建) 。 它配置为发送 SIP 选项，但直接路由服务从未看到从此 SBC 返回的 SIP 选项。
+    - 警告，没有 SIP 选项 - 会话边界控制器存在于 (管理员使用 New-CsOnlinePSTNGateway 命令创建) 。 它配置为发送 SIP 选项，但直接路由服务从未看到从此 SBC 返回的 SIP 选项。
 
     - 警告，未配置 SIP 消息 - 未打开使用 SIP 选项的中继监视。 Microsoft 呼叫系统使用 SIP 选项和传输层安全性 (TLS) 握手监视来检测应用程序级别连接的会话边界控制器 (SDC) 运行状况。 如果可以通过 ping) 在网络级别访问此 (，但证书已过期或 SIP 堆栈不起作用，则你将遇到问题。 为了帮助尽早识别此类问题，Microsoft 建议启用发送 SIP 选项。 请查看 SBC 制造商文档以配置发送 SIP 选项。
 
@@ -82,7 +82,7 @@ ms.locfileid: "58592336"
 
 还可以查看特定 SBC 的详细信息，如以下屏幕截图所示：
 
-![运行状况仪表板 SBC 详细信息](media/direct-routing-dashboard-SBC-detail1.png)
+![运行状况仪表板 SBC 详细信息。](media/direct-routing-dashboard-SBC-detail1.png)
 
 详细视图显示以下附加参数：
 
@@ -96,16 +96,16 @@ ms.locfileid: "58592336"
 
 - **SBC 状态** - 基于所有受监视参数的 SBC 总体状态。
 
-- **并发调用**- 显示 SBC 处理的并发调用数。 此信息可用于预测所需的并发通道数并查看趋势。 可以按天数滑动数据，并按入站/出 (/所有流的呼叫) 。
+- **并发调用**- 显示 SBC 处理的并发调用数。 此信息可用于预测所需的并发通道数并查看趋势。 可以按天数滑动数据，并按入站/ (/所有流滑动) 。
 
-- **网络参数** - 从直接路由接口到会话边界控制器测量所有网络参数。 有关建议值的信息，请参阅[准备](./prepare-network.md)组织的网络以Microsoft Teams，并查看 Customer Edge Microsoft Edge值。
+- **网络参数** - 从直接路由接口到会话边界控制器测量所有网络参数。 有关建议值的信息，请参阅[准备](./prepare-network.md)组织的网络Microsoft Teams，并查看 Customer Edge Microsoft Edge值。
 
    - 抖动 - 是使用 RTCP 和 RTP 控制协议在两个终结点之间计算的网络传播延迟 (毫秒) 。
 
    - 数据包丢失 – 是未能到达的数据包的度量值;它是在两个终结点之间计算的。
 
-   - 延迟 - (往返时间) 是发送信号所花的时间长度加上接收该信号的确认所花的时间长度。 此时间延迟由信号的两个点之间的传播时间组成。
+   - 延迟 - (往返时间) 是发送信号所花的时间长度加上确认接收该信号所花的时间长度。 此时间延迟由信号的两个点之间的传播时间组成。
 
-   可以按天数滑动数据，并按入站/出 (/所有流的呼叫) 。
+   可以按天数滑动数据，并按入站/ (/所有流滑动) 。
 
 **网络有效性比率** - 此参数与"总体运行状况"仪表板上显示的参数相同，但可以选择按时序或调用方向对数据进行切片。

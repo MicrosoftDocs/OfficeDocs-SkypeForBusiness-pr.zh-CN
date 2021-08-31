@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: 根据当前部署确定Microsoft Teams升级Skype for Business路径。
+description: 根据当前部署确定Microsoft Teams升级路径Skype for Business路径。
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 726355c7edf145dec6eeaf9ec1904119c15a3275
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2501c113eb3589ba26d4a9a6932e103f913c9239
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616128"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730151"
 ---
 # <a name="overview-of-implementing-your-upgrade"></a>实现升级的概述
 
-![升级旅程的阶段，着重强调部署和实施阶段](media/upgrade-banner-deployment.png "升级旅程的阶段，着重强调部署和实施阶段")
+![升级旅程的阶段，侧重于部署和实施阶段。](media/upgrade-banner-deployment.png "升级旅程的阶段，着重强调部署和实施阶段")
 
 本文是升级旅程的部署和实施阶段的一部分。 
 

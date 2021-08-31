@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 22d480ea-cd64-4d09-99fe-96e997570844
 description: 管理员报告是有关部署和操作的详细信息。 报告基于"设计网站"中标记的选择生成。 设计师可通过编辑网络图，并为服务器、池和负载平衡器定义完整的 IP 地址和完全限定域名 (FQDN)，来进一步向管理报告中添加值。
-ms.openlocfilehash: 31639b124826368a1da11d359249bc6d08f64c8d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fe2d14856a1d884dc04ff8cf2de4ebba41eb95eb
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58591006"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730391"
 ---
 # <a name="review-the-administrator-reports-in-skype-for-business-server-2015"></a>查看 2015 年 Skype for Business Server 中的管理员报告
 
@@ -40,9 +40,9 @@ ms.locfileid: "58591006"
 
 The Skype for Business Administrator Report is the first of four valuable reports that document your design in detail. 此报告和其他三个相关报告中的信息对信息技术Teams：
 
-![一般摘要管理报告](../../media/General_Summary_Report_Admin_Report.png)
+![常规摘要管理报告。](../../media/General_Summary_Report_Admin_Report.png)
 
-摘要报告列出了与边缘网络关联的常规配置信息。 记录了位置、完全限定域名 (FQDN) IP 地址、网络类型和特定于给定角色的注释。
+摘要报告列出了与边缘网络关联的常规配置信息。 记录了位置、完全限定 (FQDN) IP 地址、网络类型以及特定于给定角色的注释。
 
 将部署、管理和维护基础结构的设计人员和每个团队应查看摘要报告的准确性并确保错误最少。
 
@@ -57,13 +57,13 @@ The Skype for Business Administrator Report is the first of four valuable report
 ## <a name="review-the-certificates-report"></a>查看证书报告
 <a name="Certificates_Report"> </a>
 
-证书报告包含 2015 年 10 月建议部署中Skype for Business Server所有证书。 规划工具会考虑输入的主题名称和主题替代名称。 对于负责请求和颁发证书的团队，未编辑的默认文本可能会带来潜在的挑战。 证书信息还包含通常可以从何处颁发证书的信息。 如果基础结构中没有内部公钥基础结构 (PKI)，则可以通过公共证书提供商请求所有证书。 该报告中的“扩展密钥用法 (EKU)”和“分配给”字段非常有助于理解每个证书应有的用途和应处的位置。
+证书报告包含推荐的 2015 年 2015 Skype for Business Server所需的所有证书。 规划工具会考虑输入的主题名称和主题替代名称。 对于负责请求和颁发证书的团队，未编辑的默认文本可能会带来潜在的挑战。 证书信息还包含通常可以从何处颁发证书的信息。 如果基础结构中没有内部公钥基础结构 (PKI)，则可以通过公共证书提供商请求所有证书。 该报告中的“扩展密钥用法 (EKU)”和“分配给”字段非常有助于理解每个证书应有的用途和应处的位置。
 
-![证书管理员报告](../../media/Certificates_Report_Admin_Report.png)
+![证书管理员报告。](../../media/Certificates_Report_Admin_Report.png)
 
 仔细检查部署中每个证书的用途和用途，并确保了解。 如果对证书执行哪些操作存在疑问，请确定与哪些服务器或服务通信。 2015 Skype for Business Server中的证书主要用于两个目的：
 
-- 相互传输层安全性 (MTLS) - 参与通信的每台计算机都提供向另一台计算机证明其身份的证书。 这称为服务器身份验证。 在每个计算机信任另一台计算机的标识之前，通信无法开始。
+- 相互传输层安全性 (MTLS) - 参与通信的计算机各自都向另一台计算机提供证明其身份的证书。 这称为服务器身份验证。 在每个计算机信任另一台计算机的标识之前，通信无法开始。
 
 - 加密 - 加密 (安全套接字层、SSL、传输层安全性或 TLS) 是帮助保护通信、帮助确保隐私以及创建受信任的通信和协作系统的关键方法。
 
@@ -74,14 +74,14 @@ Skype for Business Server 2015 具有一组可能很复杂的防火墙规则。 
 
 从防火墙管理的角度来看，应仔细查看报告，以确保与退出防火墙规则没有冲突，并且不会违反任何策略或过程。
 
-![防火墙管理员报告](../../media/Firewall_Report_Admin_Report.png)
+![防火墙管理员报告。](../../media/Firewall_Report_Admin_Report.png)
 
 ## <a name="review-the-dns-report"></a>查看 DNS 报告
 <a name="DNS_Report"> </a>
 
-DNS 报告是管理员报告的一部分，其中详细说明了内部、外围和外部网络中域名系统 (DNS) 的所有推荐条目和已知条目。 如果设计师已完成对网络图的编辑，并且所有 IP 地址和完全限定域名 (FQDN) 都定义为生产值，则 DNS 报告将提供出色的配置资源。 此报告还可以作为可操作的疑难解答文档。
+DNS 报告是管理员报告的一部分，其中详细说明了内部、外围和外部网络中域名系统 (DNS) 的所有推荐条目和已知条目。 如果设计师已完成对网络图的编辑，并且所有 IP 地址和完全限定域名 (FQDN) 都定义为其生产值，则 DNS 报告将提供出色的配置资源。 此报告还可以作为可操作的疑难解答文档。
 
-![DNS 管理员报告](../../media/DNS_Report_Admin_Report.png)
+![DNS 管理员报告。](../../media/DNS_Report_Admin_Report.png)
 
 您应该让 DNS 管理团队全面查看 DNS 报告，以确保没有任何错误可能导致部署过程中出现困难或使疑难解答会话复杂化。
 

@@ -14,16 +14,16 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1eaf8cdf-3dcd-4d6e-ae68-b6f6f9431ad8
 description: 摘要：了解如何在 2015 年 10 月 (CLS) 记录器Skype for Business Server日志记录服务。
-ms.openlocfilehash: d811fb1f331cb680f1c9645dec669bd7c81db192
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e35375dd1715f2d9b2e64cc42339af7247d098d4
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628614"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730231"
 ---
 # <a name="cls-logger-for-skype-for-business-server-2015"></a>Skype for Business Server 2015 的 CLS 日志记录程序
  
-**摘要：** 了解如何在 2015 年 (集中日志记录服务) CLS Skype for Business Server记录器。
+**摘要：** 了解如何在 2015 年使用集中日志记录服务 (CLS) 记录Skype for Business Server记录器。
   
 CLS 日志记录器是一种可帮助您管理由集中日志记录服务生成的日志的工具。
   
@@ -31,7 +31,7 @@ CLS 日志记录器是一种可帮助您管理由集中日志记录服务生成�
 
 若要成功使用 CLS 记录器，需要确保以下各项为真：
   
-- 在作为运行集中日志记录服务或 CLS (的域) 使用该工具。 远程 PowerShell 会话中当前不支持该工具。
+- 在作为运行集中日志记录服务或 CLS (域的成员的计算机上) 该工具。 远程 PowerShell 会话中当前不支持该工具。
     
 - 跟踪文件夹中的 Default.tmx 文件 (捕获 CLS) 和 Snooper 的跟踪数据的文件夹必须复制到安装 CLS 记录器工具的同一文件夹中。
     
@@ -71,7 +71,7 @@ CLS 日志记录器是一种可帮助您管理由集中日志记录服务生成�
     
 4. 一旦方案停止，用户界面将再次启用，操作的详细信息还将显示在 PowerShell 命令输出区域中。
     
-![CLS 日志记录器启动和停止](../../media/2c4a36c2-b5db-4550-a3b3-41f18e0e2f0c.png)
+![CLS 日志记录器开始和停止。](../../media/2c4a36c2-b5db-4550-a3b3-41f18e0e2f0c.png)
   
 ## <a name="search-for-logs"></a>搜索日志
 
@@ -109,7 +109,7 @@ CLS 日志记录器是一种可帮助您管理由集中日志记录服务生成�
 > 
 > **跳过网络日志** 如果选中，则跳过搜索任何网络日志。
     
-![CLS 记录器搜索日志](../../media/5793ea3c-6f5f-40ef-8b53-100da831eedf.png)
+![CLS 记录器搜索日志。](../../media/5793ea3c-6f5f-40ef-8b53-100da831eedf.png)
   
 ## <a name="create-a-scenario"></a>创建方案
 
@@ -124,7 +124,7 @@ CLS 日志记录器是一种可帮助您管理由集中日志记录服务生成�
     
 ## <a name="modify-a-scenario"></a>修改方案
 
-![CLS 记录器屏幕截图、编辑方案](../../media/abbbcac0-8a2e-48af-a22f-4fee0283a29f.png)
+![CLS 记录器屏幕截图，编辑方案。](../../media/abbbcac0-8a2e-48af-a22f-4fee0283a29f.png)
   
 1. 在 **"编辑方案"** 选项卡中，找到要修改的所需方案。
     

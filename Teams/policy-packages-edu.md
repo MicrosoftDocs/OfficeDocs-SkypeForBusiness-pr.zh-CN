@@ -21,12 +21,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 ms.localizationpriority: high
 search.appverid: MET150
 description: 了解教育或 EDU 设置中的策略，以及如何在 Microsoft Teams 中使用和管理策略包。
-ms.openlocfilehash: 8120000599f2e0406d80a7e61b2e5720ffe2fd71
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bda6341afa03e4bfebb2e9a619a42ad0a0b879e3
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608859"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728161"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>用于教育的 Teams 策略和策略包
 
@@ -148,7 +148,7 @@ Microsoft Teams 当前包含以下策略包：
 
 将为每个单独的策略提供策略包的名称，以便你识别链接到该策略包的策略。 例如，当你将 Education_Teacher 策略包分配给教育机构中的教师时，将为包中的每个策略创建一个名为 Education_Teacher 的策略。
 
-![Education_Teacher 策略包的屏幕截图](media/policy-packages-education_teacher.png)
+![Education_Teacher 策略包的屏幕截图。](media/policy-packages-education_teacher.png)
 
 > [!NOTE]
 > 如果确定教师和管理支持人员需要不同的策略，则可以重新调整现有包：识别当前不使用的包，并更改设置以适合该组。 你可能需要自己记录哪个小组拥有哪个包，但这是重新调整包的唯一障碍。
@@ -178,7 +178,7 @@ Microsoft Teams 当前包含以下策略包：
 
 若要将策略包分配给一个或多个用户，请在 Microsoft Teams 管理中心的左侧导航中，转到 **策略包**，然后选择 **管理用户**。  
 
-![有关如何在管理中心分配策略包的屏幕截图](media/policy-packages-healthcare-assign.png)
+![如何在管理中心分配策略包的屏幕截图。](media/policy-packages-healthcare-assign.png)
 
 若要了解详细信息，请参阅[分配策略包](manage-policy-packages.md#assign-a-policy-package)。
 

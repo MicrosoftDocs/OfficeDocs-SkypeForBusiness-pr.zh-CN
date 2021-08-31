@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 了解如何在参与者和来宾的Teams管理会议策略设置。
-ms.openlocfilehash: 54a209756db16788e6f46f3b34a4367277ca8354
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b377c1c391f1fb3a82976db6d58e84c9eb2f9b94
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635656"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728631"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>会议策略设置 - 参与者和来宾
 
@@ -52,7 +52,7 @@ ms.locfileid: "58635656"
 
 这是按组织者的策略。 此设置可以控制人员是直接加入会议还是在大厅里等待，直到受认证的用户入场。 此设置不适用于拨入用户。
 
-![屏幕截图显示在大厅里与用户见面的画面](media/meeting-policies-lobby.png)
+![显示与大厅中用户的会议的屏幕截图。](media/meeting-policies-lobby.png)
 
  会议组织者可以单击 **会议邀请** 中的"会议选项"，更改他们计划的每个会议的此设置。
 
@@ -65,7 +65,7 @@ ms.locfileid: "58635656"
 |**组织中用户和来宾**     |组织中经过身份验证的用户（包括来宾用户）可以直接加入会议，无需在大厅中等待。 来自受信任组织和匿名用户的用户在大厅中等待。 这是默认设置。    |
 |**我的组织中人员、受信任的组织和来宾**     |组织内经过认证的用户，包括嘉宾用户和来自可信组织的用户，直接加入会议，无需在大厅等待。  匿名用户在大厅里等待。   |
 |**我的组织中人员**    |组织中经过身份验证的用户直接加入会议，无需在大厅中等待。  来自受信任组织、来宾用户和匿名用户的用户在大厅中等待。          |
-|**仅管理器**    |只有会议组织者才能直接参加会议，无需在大厅等待。 其他所有人（包括组织中经过身份验证的用户、来宾用户、来自受信任组织的用户和匿名用户）必须在大厅中等待。 在"Teams客户端会议选项"页面上，它显示为"仅我"。          |
+|**仅管理器**    |只有会议组织者才能直接参加会议，无需在大厅等待。 其他所有人（包括组织中经过身份验证的用户、来宾用户、来自受信任组织的用户和匿名用户）必须在大厅中等待。 在Teams会议选项"页面上，它显示为"仅我"。          |
 |**仅受邀用户**    |只有受邀用户和会议组织者可以直接加入会议，而无需在大厅中等待。 其他所有人（包括组织中经过身份验证的用户、来宾用户、来自受信任组织的用户和匿名用户）必须在大厅中等待。 在"Teams客户端会议选项"页面上，它显示为"我邀请的人"。          |
 
 ## <a name="allow-dial-in-users-to-bypass-the-lobby"></a>允许拨入用户绕过大厅
@@ -79,7 +79,7 @@ ms.locfileid: "58635656"
 
 此设置是按用户的策略，在会议期间适用。 此设置控制 **开启实时字幕** 选项是否可以让用户在参加的会议中开启和关闭实时字幕。  
 
-![显示开启实时字幕选项的屏幕截图](media/meeting-policies-live-captions.png)
+![显示"启用实时字幕"选项的屏幕截图。](media/meeting-policies-live-captions.png)
 
 |设置值 |行为  |
 |---------|---------|

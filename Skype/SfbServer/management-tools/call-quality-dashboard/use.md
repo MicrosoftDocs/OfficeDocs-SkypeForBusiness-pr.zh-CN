@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
 description: 摘要：了解如何使用呼叫质量仪表板。 通话质量仪表板是一种用于Skype for Business Server。
-ms.openlocfilehash: 398550c80e77950d27be9160dd4f45c2f04acfff
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b3bc40cb6b6519b47134fd609854911a2e969655
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634236"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728261"
 ---
 # <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>使用呼叫质量仪表板进行Skype for Business Server
 
@@ -28,7 +28,7 @@ ms.locfileid: "58634236"
 
 ## <a name="call-quality-dashboard-user-guide"></a>呼叫质量仪表板用户指南
 
-CQD 是一个 Web 门户， (用于根据用户体验质量或 QoE) 数据快速创建和组织报告。 CQD 部署 SSAS 多维数据集以聚合 QoE 指标数据库中的数据，使管理员能够创建和修改报告或实时进行调查。 虽然可以使用 Excel直接连接到多维数据集，但门户已针对涉及 QoE 数据的几个工作流进行了优化。 数据包括：
+CQD 是一个 Web 门户， (用于根据用户体验质量和 QoE) 数据快速创建和组织报告。 CQD 部署 SSAS 多维数据集以聚合 QoE 指标数据库中的数据，使管理员能够创建和修改报告或实时进行调查。 虽然可以使用 Excel直接连接到多维数据集，但门户已针对涉及 QoE 数据的几个工作流进行了优化。 数据包括：
 
 - 用于快速访问的缓存报表数据
 - 用于信息共享和发布的报告页面的深层链接
@@ -40,7 +40,7 @@ CQD 是一个 Web 门户， (用于根据用户体验质量或 QoE) 数据快速
 
 当您访问呼叫质量仪表板时，将看到以下屏幕：
 
-![使用 CQD](../../media/1e061858-db6f-452b-9ae4-eab507220371.png)
+![使用 CQD。](../../media/1e061858-db6f-452b-9ae4-eab507220371.png)
 
 1. "摘要窗格"是位于右侧"报告集" (的上下文) 位置。
 2. 单击摘要窗格报表中的"编辑"以设置级别属性 (包括 Y 轴高度) 。
@@ -63,7 +63,7 @@ CQD 是一个 Web 门户， (用于根据用户体验质量或 QoE) 数据快速
 
 单击报表的操作菜单中的"编辑"以查看报告编辑器。 每个报表都由多维数据集中的查询进行备份。 报表是查询返回的数据的可视化。 报表编辑器可帮助您编辑这些查询和报表的显示选项。 打开报告编辑器时，可以看到：
 
-![使用 CQD](../../media/e8969625-e6f9-4d67-873f-93e78dd12b35.png)
+![使用 CQD。](../../media/e8969625-e6f9-4d67-873f-93e78dd12b35.png)
 
 1. 在左窗格中选择维度、度量和筛选器。 将鼠标悬停在其中一个现有值上可显示允许删除该值的"x"按钮。 单击标题旁边的"加号"按钮，打开可在其中添加新维度、度量或筛选器的对话框。
 2. 图表自定义选项显示在顶部。
@@ -74,7 +74,7 @@ CQD 是一个 Web 门户， (用于根据用户体验质量或 QoE) 数据快速
 
 将 StartDate.Month 添加为维度并且数据以表格形式呈现为趋势时，条形图和迷你图可以在表格单元格内显示。 将鼠标指针移到条形图和迷你图上，以显示单个月份的值。
 
-![使用 CQD](../../media/fe6b18d7-b8cf-472a-9c93-0f7703f5a700.png)
+![使用 CQD。](../../media/fe6b18d7-b8cf-472a-9c93-0f7703f5a700.png)
 
 为了显示条形图和迷你图，必须选中报表编辑器顶部的"显示迷你图"复选框。 这将选择"趋势"选项，将"月"向下移动为最后一个维度，这也可通过单击"月"，然后使用向上和向下箭头向上或向下移动 StartDate.Month 来完成。
 
@@ -82,7 +82,7 @@ CQD 是一个 Web 门户， (用于根据用户体验质量或 QoE) 数据快速
 
 "设置"菜单包含指向有用页面（如"系统运行状况"和"关于"页面）的链接，并且位于仪表板的右上角。
 
-![使用 CQD](../../media/0e9ae123-e231-4fea-94e1-5788e8f3e1d3.png)
+![使用 CQD。](../../media/0e9ae123-e231-4fea-94e1-5788e8f3e1d3.png)
 
 是否显示说明和时间戳由单个用户决定，并且这些设置仅影响个人版本的仪表板，并且不会修改报告集或其他用户看到的信息。 清除缓存会导致所有查询从多维数据集重新加载其数据，而还原默认值会删除用户创建或修改的所有报告，并重新创建系统报告集 - 用户首次登录时会看到的内容。
 
@@ -90,7 +90,7 @@ CQD 是一个 Web 门户， (用于根据用户体验质量或 QoE) 数据快速
 
 ### <a name="supplying-subnet-information"></a>提供子网信息
 
-如果将特定于站点的信息输入到存档数据库中以提供子网到建筑物的映射信息 (例如，通过构建子网到建筑物的有线/无线呼叫质量) 。
+如果将特定于站点的信息输入到存档数据库中以提供子网到建筑物的映射信息 (例如，通过构建网络网络来提供有线/无线呼叫质量) 。
 
 至少应填写下表以创建这些报告：
 
@@ -118,7 +118,7 @@ CQD 是一个 Web 门户， (用于根据用户体验质量或 QoE) 数据快速
 |StateProvinceCode |varchar (3)  |是 |大楼所在的省/市/市/县的三字母缩写。 |
 |InsideCorp |bit |是 |Bit 指示建筑物是否是企业网络的一部分。 |
 |BuildingOfficeType |nvarchar (150)  |是 |大楼办公类型的说明。 |
-|地区 |varchar (25)  |是 |大楼所在的区域。 |
+|区域 |varchar (25)  |是 |大楼所在的区域。 |
 |||||
 
 **CqdNetwork**
@@ -142,7 +142,7 @@ CQD 是一个 Web 门户， (用于根据用户体验质量或 QoE) 数据快速
 |BuildingTypeDesc |char (18)  |否 |大楼类型说明。 |
 |||||
 
-默认情况下，此下一个表具有一 (0、"Unknown"、0 和 null) 。
+默认情况下，此下一个表具有一 (0、"Unknown"、0、null) 。
 
 **CqdBuildingOwnershipType**
 
@@ -194,7 +194,7 @@ JPDR 定义 = 质量欠佳的呼叫定义减去 RatioConcealedSamplesAvg
 
 CQD 不使用呼叫方/被叫方字段，而是使用"First"和"Second"，因为呼叫者与被叫方之间存在干预步骤。
 
- **First** 如果流中涉及服务器 (AV MCU 或中介服务器) ，则始终为 Server 终结点。
+ **First** 如果流中涉及 (AV MCU 或中介服务器) ，则始终为 Server 终结点。
 
  **Second** 始终为客户端终结点，除非它是Server-Server流。
 
@@ -236,7 +236,7 @@ Union 允许您使用 AND 运算符筛选条件。 在某些情况下，可以�
 
 如果无线是在内部管理的，可以在托管存储桶中重新创建无线报告。
 
-![CQD 报告细分](../../media/658b8568-0d68-4f5f-83e8-5abc63a85c1d.png)
+![CQD 报告细分。](../../media/658b8568-0d68-4f5f-83e8-5abc63a85c1d.png)
 
 ## <a name="operational-processes"></a>操作过程
 

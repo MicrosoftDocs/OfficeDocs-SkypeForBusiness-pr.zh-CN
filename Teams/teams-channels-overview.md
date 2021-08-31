@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b760d5fad3a694fd0dd41c34116d09297d25dd22
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6002534362126c2cc16954c7e82c865166776c0b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579576"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731941"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams 中的团队和频道概述
 
@@ -92,7 +92,7 @@ Teams 中有两个主要角色：
 
 Teams 的特点在于打破组织界限及推动跨职能团队，因此，鼓励用户考虑职能团队而不是组织界限。
 
-|团队类型  |可能的频道  |应用（选项卡 ![描述包含选项卡的文件夹的图标](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image2.png)/连接器 ![描述连接块的图标](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image3.png)/机器人 ![描述小机器人的图标](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image4.png))  |
+|团队类型  |可能的频道  |应用（选项卡 ![描述包含选项卡的文件夹的图标。](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image2.png)/连接器 ![描述连接块的图标](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image3.png)/机器人 ![描述小机器人的图标](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image4.png))  |
 |---------|---------|---------|
 |销售     |年度销售会议<br></br> 季度业务回顾<br></br> 月度销售渠道回顾<br></br> 销售战术 |Power BI<br></br>Trello<br></br>CRM<br></br>汇总聊天机器人         |
 |公共关系     |新闻发布<br></br>新闻和更新<br></br>核实         |RSS 源<br></br>Twitter         |

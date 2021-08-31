@@ -1,5 +1,5 @@
 ---
-title: 使用呼叫分析排查通话质量不佳的问题
+title: 使用通话分析来排查通话质量不良问题
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -21,45 +21,45 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.callanalytics
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
-description: 使用有关设备、网络和连接的按用户呼叫分析详细信息来排查用户Microsoft Teams和会议的问题。
-ms.openlocfilehash: 32dccd0f02c44e0da54e1c303cccfeca3fd6c624
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 使用有关设备、网络和连接的用户呼叫分析详细信息来排查用户Microsoft Teams和会议的问题。
+ms.openlocfilehash: 9f61796d83977c9d0782957fe3bafe787f60403b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611501"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731931"
 ---
-# <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>使用呼叫分析排查通话质量不佳的问题
+# <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>使用通话分析来排查通话质量不良问题
 
-本文介绍如何使用呼叫分析来排查单个用户的 Microsoft Teams 通话或会议质量不佳的问题（如果你是 Teams 管理员或 Teams 通信支持专家或工程师）。
+本文介绍如何使用呼叫分析对担任 Teams 管理员、Teams 通信支持专家或 Teams 通信支持工程师角色的用户的 Microsoft Teams 呼叫或会议质量不佳进行故障排除。
 
 ## <a name="call-analytics-permissions"></a>调用分析权限
 
-本文假定你已设置呼叫分析。 如果尚未创建，请阅读为 Teams[设置呼叫Teams。](set-up-call-analytics.md)
+本文假定你已设置呼叫分析。 如果没有，请阅读为 Teams[设置调用Teams。](set-up-call-analytics.md)
 
 ## <a name="introduction-to-call-analytics"></a>调用分析简介
 
-呼叫分析显示有关Teams帐户中每个用户的呼叫和Office 365的详细信息。 它包括有关设备、网络、连接和呼叫质量的信息 (其中任何一项都可能是导致呼叫或会议质量不佳) 。 如果上载建筑物、网站和租户信息，则每次呼叫和会议也会显示此信息。 使用呼叫分析帮助您找出用户通话或会议体验不佳的原因。
+"呼叫分析"显示有关Teams帐户每个用户的通话和Office 365的详细信息。 它包括有关设备、网络、连接和呼叫质量的信息 (其中任何一项都可能是导致呼叫或会议质量不佳) 。 如果上载建筑物、网站和租户信息，则每次呼叫和会议也会显示此信息。 使用呼叫分析可帮助你了解用户通话或会议体验不佳的原因。
 
 呼叫分析显示呼叫或会议的每一段 - 例如，从一个参与者到另一个参与者。 通过分析这些详细信息，Teams管理员可以隔离问题区域并确定质量不佳的根本原因。
 
-作为Teams管理员，你可以完全访问每个用户的所有调用分析数据。 此外，还可以为Azure Active Directory人员分配其他角色。 若要详细了解这些角色，请阅读 [授予支持和支持人员的权限](set-up-call-analytics.md#give-permission-to-support-and-helpdesk-staff)。 请勿错过下面[每个Teams角色的作用是什么？](#what-does-each-teams-support-role-do)
+作为Teams管理员，你可以完全访问每个用户的所有呼叫分析数据。 此外，还可以为Azure Active Directory人员分配其他角色。 若要详细了解这些角色，请阅读 [授予支持和支持人员的权限](set-up-call-analytics.md#give-permission-to-support-and-helpdesk-staff)。 不要错过下面的[每个Teams角色的作用？](#what-does-each-teams-support-role-do)
 
-## <a name="where-to-find-per-user-call-analytics"></a>在何处查找按用户调用分析
+## <a name="where-to-find-per-user-call-analytics"></a>在何处查找每用户呼叫分析
 
 若要查看用户的所有呼叫信息和数据，请转到 Teams[管理中心](https://admin.teams.microsoft.com)。 在 **"用户**"下，选择一个用户， **然后打开&** 个人资料页上的"会议"选项卡。 可在此处找到该用户过去 30 天的所有呼叫和会议。
 
-![所有分析用户数据的屏幕截图](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image1.png)
+![所有分析用户数据的屏幕截图。](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image1.png)
 
 若要获取有关给定会话的其他信息，包括详细的媒体和网络统计信息，请单击会话以查看详细信息。
 
-![调用分析用户会话数据的屏幕截图](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image2.png)
+![调用分析用户会话数据的屏幕截图。](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image2.png)
 
 ## <a name="what-does-each-teams-support-role-do"></a>每个支持Teams的作用是什么？
 
-第 **Teams 1** 层 (通信支持专家) 基本呼叫质量问题。 它们不调查会议问题。 相反，他们收集相关信息，然后上报给通信支持工程师。
+第 **1** 层Teams通信 (专家) 处理基本呼叫质量问题。 它们不调查会议问题。 相反，他们收集相关信息，然后上报给Teams支持工程师。
 
-第 **2** 层Teams通信 (工程师在详细呼叫日志中) 信息，这些日志与 Teams支持专家隐藏。 下表列出了每个通信支持角色Teams的信息。
+第 **2** 层Teams通信 (工程师在详细的) 日志中查看信息，这些日志与 Teams支持专家隐藏。 下表列出了每个通信支持角色Teams的信息。
 
 下表显示了每个通信支持角色可用的每用户信息。
 
@@ -76,9 +76,12 @@ ms.locfileid: "58611501"
 ||会话详细信息|显示异常的会话详细信息。 只显示代理搜索的用户名。 标识为内部用户或外部用户的其他参与者。 电话号码的最后三位数字，用星号符号进行模糊处理。|显示会话详细信息。 显示用户名和会话详细信息。 电话号码的最后三位数字，用星号符号进行模糊处理。|
 ||||
 
+> [!NOTE]
+> "调试"选项卡中包含的信息包含用于协助 Microsoft 支持工程师的遥测和服务诊断数据。 如果没有可用于支持工程师的其他数据的上下文，这些数据可能看起来多余、不准确或令人困惑。 尽管我们为在解决呼叫问题中寻找另一级别详细信息的高级用户提供此功能，但不建议在没有 Microsoft 支持的情况下基于此数据做出判断。
+
 ## <a name="troubleshoot-user-call-quality-problems"></a>排查用户呼叫质量问题
 
-1. 打开 Teams 管理 () ，然后使用 Teams <https://admin.teams.microsoft.com> 通信支持或 Teams 管理员凭据登录。
+1. 打开 Teams 管理 () ，然后使用 Teams <https://admin.teams.microsoft.com> 通信支持或Teams管理员凭据登录。
 
 2. 在 **仪表板** 上的"用户 **搜索**"中，开始键入要排查其呼叫问题的用户的姓名或 SIP 地址，或选择"查看用户"以查看用户列表。
 
@@ -97,7 +100,7 @@ ms.locfileid: "58611501"
 |问题|区域|说明|
 |---|---|---|
 |呼叫设置|会话|错误代码 Ms-diag 20-29 指示调用设置失败。 用户无法加入呼叫或会议。|
-|被分类为差的音频网络通话|会话|遇到网络质量 (，例如数据包丢失、抖动、NMOS 降级、RTT 或) 比率。|
+|被分类为差的音频网络通话|会话|遇到数据包 (抖动、NMOS 降级、RTT 或隐藏比率等网络) 问题。|
 |设备无法正常工作|Device|设备无法正常工作。 设备不正常运行的比率包括： <p> DeviceRenderNotFunctioningEventRatio >= 0.005 <br>  DeviceCaptureNotFunctioningEventRatio >= 0.005|
 ||||
 

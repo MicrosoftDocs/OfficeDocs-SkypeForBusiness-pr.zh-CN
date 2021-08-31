@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 33b6e23a5259c81612a392b6befd7b7e6d256287
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: dd03d8de8d5b5d8f9f7223b8b04671559edfcec6
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623154"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728451"
 ---
 # <a name="plan-for-your-upgrade"></a>规划升级
 
-![升级Teams示意图](media/upgrade-banner-main.png "确保项目已设置好，以与合适的项目团队一起获得成功。定义项目范围、目标和日程表。确认技术和用户就绪性。执行推出计划。保持动力以最大化结果。")
+![升级Teams示意图。](media/upgrade-banner-main.png "确保项目已设置好，以与合适的项目团队一起获得成功。定义项目范围、目标和日程表。确认技术和用户就绪性。执行推出计划。保持动力以最大化结果。")
 
 良好的技术环境、持续采用用户以及实现业务目标都从适当的规划开始。 可靠的计划为升级项目提供了一个框架，并确保所有利益干系人都致力于实现相同的目标。 通过花时间正确定义成功，可以在部署进行时测量结果，并验证是否实现了想要的结果。 规划旅程包括：
 

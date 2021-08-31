@@ -1,5 +1,5 @@
 ---
-title: 规划媒体中的媒体旁路Skype for Business
+title: 规划媒体旁路Skype for Business
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -16,14 +16,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9ea090b3-f607-46f7-97dd-2510052524e5
 description: 规划媒体中媒体旁路Skype for Business Server 企业语音。 包括与 CAC 呼叫允许控制 (的) 。
-ms.openlocfilehash: 7bf6be9a279d5b5f90da0274b8d271767be87f36
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b931d2415e0ac7563735181e76f539723330fe92
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630436"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733141"
 ---
-# <a name="plan-for-media-bypass-in-skype-for-business"></a>规划媒体中的媒体旁路Skype for Business
+# <a name="plan-for-media-bypass-in-skype-for-business"></a>规划媒体旁路Skype for Business
 
 规划媒体中媒体旁路Skype for Business Server 企业语音。 包括与 CAC 呼叫允许控制 (的) 。
 
@@ -33,13 +33,13 @@ ms.locfileid: "58630436"
 
  在没有中介服务器的分支站点通过具有限定带宽的一个或多个 WAN 链路连接到中央站点时，媒体旁路功能通过允许来自分支站点的客户端的媒体直接流动到其本地网关来降低带宽要求，而不必首先通过 WAN 链路流至中央站点上的中介服务器并流回。
 
-通过使中介服务器避免进行媒体处理，媒体旁路还可以减少中介基础结构所需的企业语音数量。 一般而言，应尽可能启用媒体旁路。
+通过使中介服务器避免进行媒体处理，媒体旁路还可以减少中介基础结构所需的企业语音服务器的数量。 一般而言，应尽可能启用媒体旁路。
 
 下图显示了具有和没有媒体旁路功能的拓扑中的基本媒体和信号路径。
 
 **具有和没有媒体旁路功能的媒体和信号路径**
 
-![语音 CAC 媒体旁路连接强制](../../media/Plan_CS_VoiceCAC_enforcementofconnectionstoPSTN.jpg)
+![语音 CAC 媒体旁路连接强制。](../../media/Plan_CS_VoiceCAC_enforcementofconnectionstoPSTN.jpg)
 
 如果希望将部署的中介服务器数目降至最低，媒体绕过非常有用。 通常会在中央站点部署中介服务器池，中介服务器池将控制分支站点的网关。 启用媒体旁路后，来自分支站点中客户端的公用电话交换网 (PSTN) 呼叫的媒体可直接通过这些站点中的网关流动。 Skype for Business Server配置出站呼叫路由和企业语音策略，以便来自分支站点客户端的 PSTN 呼叫路由到相应的网关。
 
@@ -102,7 +102,7 @@ Wi-Fi 网络通常会比有线网络丢失更多的数据包。通常网关无�
 
     在启用“使用站点和区域信息”的配置中，绕过确定基本上以相同方式工作，不论是否启用 CAC。 也就是说，对于任何给定的 PSTN 呼叫，客户端的子网将映射到特定站点，并提取该子网的绕过 ID。 同样，网关的子网将映射到特定站点，并提取该子网的绕过 ID。 仅当两个绕过 ID 相同时，才会对呼叫执行绕过。 如果不同，将不会发生媒体旁路。
 
-    如果要使用站点和区域配置控制绕过决定，那么即使在全局范围内禁用 CAC，也需要为每个站点和链接定义带宽策略。 带宽实际值形式的方式并不重要。 最终目标是让系统自动计算不同的绕过 ID，以便与连接不佳的不同区域设置关联。 根据定义，定义带宽限制是指链接连接不佳。
+    如果要使用站点和区域配置控制绕过决定，那么即使在全局范围内禁用 CAC，也需要为每个站点和链接定义带宽策略。 带宽实际值形式如何并不重要。 最终目标是让系统自动计算不同的绕过 ID，以便与连接不佳的不同区域设置关联。 根据定义，定义带宽限制是指链接连接不佳。
 
 - 启用 CAC，但未启用媒体旁路。该配置仅适用于所有网关和 IP-PBX 均连接不佳，或不满足媒体旁路的其他要求的情况。有关媒体旁路的要求的详细信息，请参阅[Requirements for Media Bypass](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-media-bypass)。
 
@@ -112,7 +112,7 @@ Wi-Fi 网络通常会比有线网络丢失更多的数据包。通常网关无�
 
 当满足以下要求时，可采用媒体旁路功能：
 
-- 中介服务器对等方必须支持媒体旁路的必要功能，最重要的是处理称为"早期对话" (分叉响应) 。 与网关、PBX 制造商或 ITSP 联系，以获取网关、PBX 或 SBC 可接受的最大早期对话数的值。
+- 中介服务器对等方必须支持媒体旁路的必要功能，最重要的是处理称为"早期对话" (多个分叉响应) 。 与网关、PBX 制造商或 ITSP 联系，以获取网关、PBX 或 SBC 可接受的最大早期对话数的值。
 
 - 中介服务器对等方必须直接接受来自Skype for Business流量。 许多 ITSP 仅允许其 SBC 接收来自中介服务器的流量。 与您的 ITSP 联系，以确定其 SBC 是否接受直接来自Skype for Business流量。
 

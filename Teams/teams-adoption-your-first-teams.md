@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 了解如何使用 Teams 管理 Microsoft 365 或 Office 365 部署Teams，包括如何将关键资源固定为相应通道中的选项卡。
+description: 了解如何使用 Teams 管理 Microsoft 365 或 Office 365 部署，Teams推动采用，包括如何将关键资源固定为相应频道中的选项卡。
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 18a9d5f7adac8c2f3fd615085b3f03d2b3733142
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ce16e1cf59f720402c2b5f1628c268aed927d145
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628254"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732401"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>在 Microsoft Teams 中创建首批团体
 
@@ -38,9 +38,9 @@ ms.locfileid: "58628254"
 | Microsoft Teams实现 | 常规 <br/> 认知和采用 <br/> Business Engagement <br/> 早期采用者计划 <br/> 反馈Insights <br/> 安全性和符合性 <br/> 策略和规划 <br/> 服务运行状况和事件 <br/> 培训 <br/> Watercooler Chat |
 | Teamwork 冠军 | 常规 <br/> 最佳做法、培训和操作方法 <br/> 冠军角 <br/> 反馈和支持 <br/> 计划潜在顾客 <br/> 社交中心 |
 
-在 Microsoft Teams 中，[](/microsoftteams/platform/concepts/tabs/tabs-overview)通过选项卡库可以访问管理员Microsoft 365 Office 365的所有应用或第三方应用。 为了从产品获得最大价值，我们建议在每个相应的频道中将关键资源固定为选项卡。 请参阅以下示例。
+在 Microsoft Teams 中，选项卡[](/microsoftteams/platform/concepts/tabs/tabs-overview)库可让你访问管理员Microsoft 365 Office 365的所有应用或第三方应用。 为了从产品获得最大价值，我们建议在每个相应的频道中将关键资源固定为选项卡。 请参阅以下示例。
 
-![显示默认和自定义选项卡的屏幕截图](media/teams-adoption-tab-example.png)
+![显示默认和自定义选项卡的屏幕截图。](media/teams-adoption-tab-example.png)
 
 在初始团队中，我们建议固定以下项目，方便在团队频道中参考。 这些资产是笔记本分区OneNote资源。 如果你正在与我们的团队FastTrack，他们将帮助你配置这些第一个团队。 
 
@@ -51,7 +51,7 @@ ms.locfileid: "58628254"
 | 认知和采用 | [Teams采用中心](https://aka.ms/DriveTeamsAdoption)<br/>[Microsoft Teams Customer Success Kit](https://aka.ms/TeamsCustomerSuccess)|
 | 业务参与 | Wiki - 参与指南<br/>表单 - 咨询Teams请求<br/>列表 - Engagement 请求 |
 |早期采用者 | 固定的反馈社区 <br/> OneNote常见问题解答和常见主题 |
-| 反馈和报告 | 固定Microsoft 365或Office 365使用情况 (报表Microsoft 365 Office 365管理员)  |
+| 反馈和报告 | 仅Microsoft 365管理员 Office 365 Microsoft 365 (或Microsoft 365 Office 365固定)  |
 | 安全性和合规性 | Microsoft 信任门户 <br/> [安全性和符合性文档](/office365/securitycompliance/index)<br/> [路线图](/office365/securitycompliance/security-roadmap) |
 | 策略和规划 | 协作 North Star PowerPoint <br/> 服务采用Project计划 |
 | 培训 | 自定义学习培训门户 <br/> [Teams 联机培训](https://aka.ms/TeamsTraining) |
@@ -64,6 +64,6 @@ ms.locfileid: "58628254"
 
 ## <a name="making-the-switch-to-microsoft-teams"></a>切换到 Microsoft Teams
 
-当您开始使用 Teams 时，您和项目团队的其余部分必须承诺使用 Teams 聊天、频道和资源来运行项目。 您自己的应用Teams采用项目的质量至关重要。 我们建议你继续通过电子邮件与核心项目团队对话，以抵御项目碎片化。 通过切换到Teams，你将为最终希望员工接受的行为建模。 设置语气，首先开始将项目信息放在一个地方！  
+当您开始使用 Teams时，您和项目团队的其余部分必须承诺使用 Teams 聊天、频道和资源来运行项目。 您自己的应用Teams采用项目的质量至关重要。 我们建议你继续通过电子邮件与核心项目团队对话，以抵御项目碎片化。 通过切换到Teams您将为最终希望员工接受的行为建模。 设置语气，首先开始将项目信息放在一个地方！  
 
-![一个图标，描述下一步骤"下一步：你的组织对下一步 ](media/teams-adoption-next-icon.png) [Microsoft Teams？](teams-adoption-assess-readiness.md)
+![一个描述下一步骤的图标。](media/teams-adoption-next-icon.png) 下[一步：组织准备使用Microsoft Teams？](teams-adoption-assess-readiness.md)

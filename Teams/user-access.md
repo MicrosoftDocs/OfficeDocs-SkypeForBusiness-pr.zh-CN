@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6fab726d5c9e25664259addf726436358d294ac18e9c6cd24a150725e8255744
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e4a83d0da32c11406f76b9bc355ceb666d4ea308
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328797"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728061"
 ---
 # <a name="manage-user-access-to-teams"></a>管理对 Teams 的用户访问
 
@@ -54,7 +54,7 @@ Teams 用户级别许可证是直接通过 Microsoft 365 管理中心用户管�
 
 |&nbsp;|&nbsp;|
 |---------|---------|
-|![为用户启用Teams许可证的屏幕截图 1](media/assign-teams-licenses-1.png)    | ![为用户Teams许可证的屏幕截图 2](media/assign-teams-licenses-2.png)        |
+|![为用户启用Teams许可证的屏幕截图 1。](media/assign-teams-licenses-1.png)    | ![为用户启用Teams许可证的屏幕截图 2](media/assign-teams-licenses-2.png)        |
 
 ### <a name="remove-a-teams-license"></a>删除 Teams 许可证
 
@@ -65,7 +65,7 @@ Teams 用户级别许可证是直接通过 Microsoft 365 管理中心用户管�
 
 |&nbsp;|&nbsp;|
 |---------|---------|
-|![用户禁用Teams许可证的屏幕截图 1](media/remove-teams-licenses-1.png)    | ![用户禁用Teams许可证的屏幕截图 2](media/remove-teams-licenses-2.png)        |
+|![用户禁用Teams许可证的屏幕截图 1。](media/remove-teams-licenses-1.png)    | ![用户禁用Teams许可证的屏幕截图 2](media/remove-teams-licenses-2.png)        |
 
 ## <a name="using-powershell"></a>使用 PowerShell
 

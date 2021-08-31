@@ -1,6 +1,6 @@
 ---
 title: 使用资源帐户创建Microsoft 365 管理中心
-description: 如果希望使用图形用户界面，可以使用 Microsoft Teams 会议室 中心为Microsoft Teams和协作Microsoft 365 管理帐户。
+description: 如果希望使用图形用户界面，可以使用 Microsoft 365 管理 中心为 Microsoft Teams 会议室 和协作栏Microsoft Teams资源帐户。
 ms.reviewer: payurevi
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ author: flinchbot
 ms.author: mitressl
 ms.topic: article
 ms.localizationpriority: medium
-ms.openlocfilehash: 014c51182213ec17e940f466ddd5fa0cc13185be561e3670277430ce78a054c2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5107521b6b3c3cb69ccb33df1a895edc5fe8b7d9
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314088"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732011"
 ---
 # <a name="create-a-microsoft-365-resource-account-using-the-microsoft-365-admin-center"></a>使用Microsoft 365创建一个资源Microsoft 365 管理中心
 
@@ -28,22 +28,22 @@ Microsoft 365资源帐户是Teams资源（如会议室、投影仪等）的邮�
 
 ## <a name="licensing"></a>许可
 
-创建资源Microsoft 365之前，请检查它所需的许可证类型。 如果您仅使用资源帐户预订资源 (即邀请资源加入您的会议，并自动接受或拒绝邀请) ，则无需向资源帐户分配许可证。 在以下情况中，需要向资源帐户分配许可证：
+创建资源Microsoft 365，请检查它所需的许可证类型。 如果您仅使用资源帐户预订资源 (，请邀请该资源加入您的会议，并自动接受或拒绝邀请) ，则无需向资源帐户分配许可证。 在以下情况中，需要向资源帐户分配许可证：
 
-- **Teams会议** 如果希望 (（如 Microsoft Teams 会议室 控制台、协作栏等）) 加入 Teams 会议，以便与会者可以使用它通过它演示视频和音频，则需要 会议室 许可证。 
-- **PSTN 呼叫** 如果您希望资源拨打或接听外部电话号码（称为公用电话交换网 (PSTN 呼叫) ）的呼叫，则需要 Microsoft 365 电话系统 或 Microsoft 365 商务语音 许可证。
+- **Teams会议** 如果希望资源 (（如 Microsoft Teams 会议室 控制台、协作栏等）) 加入 Teams 会议，以便与会者可以使用它通过它演示视频和音频，则需要 会议室 许可证。 
+- **PSTN 呼叫** 如果希望资源拨打或接听外部电话号码的呼叫 (称为公用电话交换网或 PSTN 呼叫) ，则需要 Microsoft 365 电话系统 或 Microsoft 365 商务语音 许可证。
 
-有关用户、会议室电话系统和 Business Voice 许可证[Microsoft Teams，请参阅附加许可证](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+有关附加会议室电话系统和 Business Voice 许可证，请参阅Microsoft Teams[附加许可证](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 
 ## <a name="create-a-resource-account-in-the-microsoft-365-admin-center"></a><a href="" id="create-device-acct-m365-admin-ctr"></a>在资源中心创建Microsoft 365 管理中心
 
 1. 通过访问 Microsoft 365登录到https://admin.microsoft.com
 2. 为租户提供管理员Microsoft 365凭据。 这会将你带至Microsoft 365 管理中心。
 
-:::image type="content" source="../media/collaboration-bar-m365-admin-center.png" alt-text="Microsoft 365 管理中心":::
+:::image type="content" source="../media/collaboration-bar-m365-admin-center.png" alt-text="Microsoft 365 管理中心。":::
 3. 在管理中心中，导航到左侧面板中的"资源 (可能需要选择"显示所有第一) "，然后选择"会议室&**设备"。** 
 
-:::image type="content" source="../media/collaboration-bar-m365-resources-rooms.png" alt-text="Microsoft 365 管理中心 - 资源":::
+:::image type="content" source="../media/collaboration-bar-m365-resources-rooms.png" alt-text="Microsoft 365 管理中心 - 资源。":::
 4. 选择 **"添加资源邮箱** "以创建新的聊天室帐户。 输入帐户显示名称电子邮件地址，选择"**添加"，** 然后选择"关闭 **"。** 建议标准化所有资源帐户的命名约定。
 
 > [!NOTE]
@@ -55,16 +55,16 @@ Microsoft 365资源帐户是Teams资源（如会议室、投影仪等）的邮�
 >   - 最长持续时间 (小时) ：24
 > - 自动接受会议请求
 
-:::image type="content" source="../media/collaboration-bars-admin-resources.png" alt-text="Microsoft 365 管理中心 - 添加资源":::
+:::image type="content" source="../media/collaboration-bars-admin-resources.png" alt-text="Microsoft 365 管理中心 - 添加资源。":::
 5. 导航到 **管理中心** 中的"用户"部分，在" **活动** 用户"列表中，你将看到刚创建的聊天室。
 
-:::image type="content" source="../media/collaboration-bars-M3565-admin-active-users.png" alt-text="Microsoft 365 管理中心 - 查看活动用户":::
+:::image type="content" source="../media/collaboration-bars-M3565-admin-active-users.png" alt-text="Microsoft 365 管理中心 - 查看活动用户。":::
 6. 选择聊天室的名称，右侧会显示帐户属性面板。
 
-:::image type="content" source="../media/collaboration-bar-m365-admin-center-active-user-settings.png" alt-text="Microsoft 365 管理中心 - 用户属性":::
+:::image type="content" source="../media/collaboration-bar-m365-admin-center-active-user-settings.png" alt-text="Microsoft 365 管理中心 - 用户属性。":::
 7. 现在，需要为资源帐户分配密码。 在面板中，可以看到帐户属性和多个可选操作。 选择 **用户名下的** "重置密码密钥"图标以更改密码。 取消选择 **"要求此用户在首次登录时更改其密码"。** 无法通过设备登录过程更改密码。 选择"**重置"。**
 
-:::image type="content" source="../media/collaboration-bar-m365-admin-center-active-user-password.png" alt-text="Microsoft 365 管理中心 - 重置密码":::
+:::image type="content" source="../media/collaboration-bar-m365-admin-center-active-user-password.png" alt-text="Microsoft 365 管理中心 - 重置密码。":::
 8. 在" **许可证和应用"** 部分中 **，将"** 选择位置"设置为要安装设备的国家/地区。 向下滚动并选中要分配的许可证旁边的框（例如"会议室"，然后选择"保存 **更改"。** 许可证可能因组织而异。
 
-:::image type="content" source="../media/collaboration-bar-m365-admin-center-active-user-assign-license.png" alt-text="Microsoft 365 管理中心 - 分配许可证":::
+:::image type="content" source="../media/collaboration-bar-m365-admin-center-active-user-assign-license.png" alt-text="Microsoft 365 管理中心 - 分配许可证。":::

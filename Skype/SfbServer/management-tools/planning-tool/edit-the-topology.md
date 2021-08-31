@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 47425ab1-5645-4d6f-b202-64bcce43e3ef
 description: 完成初始访谈问题后，可以编辑站点的 FQDN (FQDN) IP 地址的完全限定域名。 要执行此操作，请在“全局拓扑”页上双击要编辑的站点。
-ms.openlocfilehash: 6c18b980f7dca770de46a8eaeed01e7c508486b2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 75eadc6234c9ac6e4e8a869df2da4d246b60f9ed
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626594"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732321"
 ---
 # <a name="edit-the-topology-in-skype-for-business-server-2015"></a>在 2015 年 Skype for Business Server中编辑拓扑
 
@@ -27,7 +27,7 @@ ms.locfileid: "58626594"
 
 规划工具显示所选站点的站点拓扑。 在站点页面的底部有四个选项卡：
 
-![规划工具站点拓扑](../../media/Planning_Tool_Site_Topology.png)
+![规划工具站点拓扑。](../../media/Planning_Tool_Site_Topology.png)
 
 - 站点拓扑 - 当前显示的页面，其中直观概述了建议拓扑。
 
@@ -35,7 +35,7 @@ ms.locfileid: "58626594"
 
 - 边缘管理员报告 - 边缘管理员报告共包含四个报告：
 
-     !["边缘管理员报告"页](../../media/Planning_Tool_Summary_Report.png)
+     !["边缘管理员报告"页。](../../media/Planning_Tool_Summary_Report.png)
 
   - 摘要报告 - 边缘网络配置的常规设置报告。 如果将"边缘网络图"页上的值编辑为将在实际部署中使用的拓扑 TCP/IP 和 FQDN 值，则此处将表示这些地址和名称。 否则，将显示默认文本。
 
@@ -55,7 +55,7 @@ ms.locfileid: "58626594"
 
 设计师在 Skype for Business Server 2015 规划工具中执行大部分工作包括定义网络图上条目的 IP 地址和完全限定域名 (FQDN) 条目。 在此页上输入的信息将进入报告以及规划工具中包含的其他信息。
 
-![规划工具网络图](../../media/Planning_Tool_Network_Diagram.png)
+![规划工具网络图。](../../media/Planning_Tool_Network_Diagram.png)
 
 规划工具为 IP 地址和 FQDN 创建一个包含默认文本的网络图。
 

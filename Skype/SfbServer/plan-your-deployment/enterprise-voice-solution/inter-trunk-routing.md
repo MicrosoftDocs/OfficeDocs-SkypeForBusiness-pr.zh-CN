@@ -1,5 +1,5 @@
 ---
-title: 关于服务器中的中继间Skype for Business Server
+title: 关于路由中的中继Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f687a548-1f2e-48ed-9745-a13dc1f3698f
 description: 了解如何Skype for Business Server 企业语音中继间路由。
-ms.openlocfilehash: e7b70ead822f9e80abf5a85a741492ec5608e8b3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5a44f9e269985312e31d827254dd7bbfae10bcfd
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593576"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731811"
 ---
 # <a name="about-inter-trunk-routing-in-skype-for-business-server"></a>关于服务器中的中继间Skype for Business Server
  
@@ -31,10 +31,10 @@ Skype for Business Server通过支持内部路由提供基本会话管理。 这
   
 下图说明了如何Skype for Business Server PSTN 网关和 IP-PBX 之间的互连性。
   
-![Lync Server 连接 PSTN 网关/IP-PBX 图](../../media/inter_trunk01.jpg)
+![Lync Server 连接 PSTN 网关/IP-PBX 图表。](../../media/inter_trunk01.jpg)
   
 下图说明了如何连接Skype for Business Server IP-PBX 系统。
   
-![Lync Server 互连 IP-PAX 系统图](../../media/inter_trunk02.jpg)
+![Lync Server 互连 IP-PAX 系统图。](../../media/inter_trunk02.jpg)
   
 

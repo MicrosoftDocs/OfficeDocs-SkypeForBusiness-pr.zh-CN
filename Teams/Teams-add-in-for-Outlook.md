@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bb1898d5c172c6f0ebc4f56cf9059bbb5986077b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 493d31189c4136799075554343aaddd694922b30
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586748"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728221"
 ---
 # <a name="use-the-teams-meeting-add-in-in-outlook"></a>在 Outlook 中使用 Teams 会议外接程序
 
@@ -34,7 +34,7 @@ ms.locfileid: "58586748"
 
 对于在其 Windows 电脑上安装了 Microsoft Teams 和 Office 2013、Office 2016 或 Office 2019 的用户，会自动安装 Teams 会议加载项。用户将在 Outlook 日历功能区看到 Teams 会议插件。
 
-![Outlook 功能区中的 Teams 会议加载项屏幕截图](media/Teams-add-in-for-Outlook.png)
+![Outlook 功能区中的 Teams 会议加载项屏幕截图。](media/Teams-add-in-for-Outlook.png)
 
 > [!NOTE]
 > - **没有链接到 Teams 加载项的直接 URL**。
@@ -53,7 +53,7 @@ ms.locfileid: "58586748"
 
 若用户在使用新 Outlook 网页版的早期版本，Outlook Web App 中的“Teams 会议”按钮将作为新事件创建的一部分显示。 若要了解用户如何试用新 Outlook 网页版的早期版本，请参阅 [Outlook 博客](https://techcommunity.microsoft.com/t5/Outlook-Blog/Designed-to-be-fast-The-Outlook-on-the-web-user-experience-gets/ba-p/234909?utm_source=t.co&utm_medium=referral)。
 
-![Outlook Web App 中的 Teams 会议加载项屏幕截图](media/teams-meeting-add-in-web.png)
+![Outlook Web App 中的 Teams 会议加载项屏幕截图。](media/teams-meeting-add-in-web.png)
 
 用户单击“发送”后，会议协调（Teams 联接链接和拨入号码）将添加到会议邀请。  
 
@@ -61,7 +61,7 @@ ms.locfileid: "58586748"
 
 “Teams 会议”按钮会在 Outlook iOS 和 Android 应用的最新版本中显示。
 
-![Outlook 移动版中的 Teams 会议加载项屏幕截图](media/teams-meeting-add-in-mobile.png)
+![Outlook 移动版中的 Teams 会议加载项屏幕截图。](media/teams-meeting-add-in-mobile.png)
 
 用户单击“发送”后，会议协调（Teams 联接链接和拨入号码）将添加到会议邀请。  
 

@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad66efadda775c11ab653cbe1bc46b2c5a4ab3c3a80edf77265dddabbb71c4a1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 973ed6056ae8e73b79d7596b2f325cda8cdc48b1
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347277"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732311"
 ---
 # <a name="configure-desktop-sharing-in-microsoft-teams"></a>在 Microsoft Teams 中配置桌面共享
 
@@ -39,11 +39,11 @@ ms.locfileid: "54347277"
 
 1. 选择“**会议**” > “**会议策略**”。
 
-    ![选择的会议策略](media/configure-desktop-sharing-image1.png)
+    ![已选择会议策略。](media/configure-desktop-sharing-image1.png)
 
 2. 在"**会议策略"** 页面上，选择"**添加"。**
 
-    !["会议策略"消息](media/addMeeting.png)
+    !["会议策略"消息。](media/addMeeting.png)
 
 3. 为策略提供唯一的标题，并输入简要说明。
 
@@ -53,10 +53,10 @@ ms.locfileid: "54347277"
    - **单个应用程序** - 允许用户将屏幕共享限制为单个活动的应用程序。
    - **已禁用** - 关闭屏幕共享。
 
-    ![共享模式选项](media/configure-desktop-sharing-image3.png)
+    ![共享模式选项。](media/configure-desktop-sharing-image3.png)
 
   > [!Note]
-  > 你不必启用呼叫策略，用户就可使用聊天中的屏幕共享。 但是，他们的音频将关闭，直到他们自行取消静音。 此外，共享屏幕的用户可以单击" **添加音频"** 以启用音频。 如果呼叫策略被禁用，用户将无法从聊天会话将音频添加到屏幕共享。
+  > 你不必启用呼叫策略，用户就可使用聊天中的屏幕共享。 但是，在取消静音之前，他们的音频将关闭。 此外，共享屏幕的用户可以单击" **添加音频"** 以启用音频。 如果呼叫策略被禁用，用户将无法从聊天会话将音频添加到屏幕共享。
 
 5. 打开或关闭以下设置：
 
