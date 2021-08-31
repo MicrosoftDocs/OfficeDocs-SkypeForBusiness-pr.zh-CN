@@ -20,26 +20,26 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dedac139aa4831b61a25bd6b65b6520288238d6d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4cb617c1d3d73e38ce1d66c4c261f9b0e74e845b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606963"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732841"
 ---
 # <a name="teams-client-experience-and-conformance-to-coexistence-modes"></a>Teams 客户端体验和共存模式的一致性
 
 <a name="about-upgrade-basic"></a>
 
-Skype for Business 共存模式 (SfBOnly、SfBWithTeamsCollab、SfBWithTeamsCollabAndMeetings) 的目的是在组织从 Skype for Business 过渡到 Teams 时为最终用户提供简单且可预测的体验。  对于迁移到 Teams 的组织，Teams 仅模式是每个用户的最终目标，尽管并非所有用户都需要同时分配 Teams **(** 或其他任何模式) 。  在用户进入 TeamsOnly 模式之前，组织可以使用任何 Skype for Business 共存模式来确保仅拥有 Teams **用户** 与尚未登录的用户之间的通信可预测。 
+Skype for Business 共存模式 (SfBOnly、SfBWithTeamsCollab、SfBWithTeamsCollabAndMeetings) 的目的是在组织从 Skype for Business 过渡到 Teams 时为最终用户提供简单且可预测的体验。  对于迁移到 Teams 的组织，Teams 仅模式是每个用户的最终目标，尽管并非所有用户都需要同时分配 Teams **(** 或其他任何模式) 。  在用户进入 TeamsOnly 模式之前，组织可以使用任何 Skype for Business 共存模式来确保只有 Teams 用户与尚未登录的用户之间的通信可预测。 
 
-当用户位于任何聊天Skype for Business时，所有传入聊天和呼叫将路由到用户的Skype for Business客户端。 为了避免最终用户混淆并确保正确的路由，当用户处于任何模式时，Teams客户端中的呼叫和聊天Skype for Business禁用。 同样，当用户处于 SfBOnly 或 SfBWithTeamsCollab 模式时，显式禁用 Teams 中的会议计划，当用户处于 SfBWithTeamsCollabAndMeetings 模式时显式启用会议计划。
+当用户在任何聊天模式下Skype for Business，所有传入聊天和呼叫将路由到用户的Skype for Business客户端。 为了避免最终用户混淆并确保正确的路由，当用户处于任何模式时，Teams客户端中的呼叫和聊天Skype for Business禁用。 同样，当用户处于 SfBOnly 或 SfBWithTeamsCollab 模式时，显式禁用 Teams 中的会议计划，当用户处于 SfBWithTeamsCollabAndMeetings 模式时显式启用会议计划。
 
 由于状态通过聊天和呼叫指示可联系性，因此当禁用聊天和呼叫时，Teams (中的自我状态，即用户的图片) 中在 Teams 客户端中显示自己的状态也会隐藏。 
 
 ## <a name="how-the-available-functionality-in-teams-client-changes-based-on-mode"></a>客户端中的可用功能Teams模式变化
 
-Teams中的可用功能取决于 TeamsUpgradePolicy 设置的用户共存模式。 下表汇总了行为：
+Teams中的可用功能取决于 TeamsUpgradePolicy 设置的共存模式。 下表汇总了行为：
 
 |用户的有效模式|客户端Teams体验|
 |---|---|
@@ -48,13 +48,13 @@ Teams中的可用功能取决于 TeamsUpgradePolicy 设置的用户共存模式�
 |SfBWithTeamsCollab 或 SfBOnly<sup>1</sup>|会议计划不可用|
 |||
 
-以下屏幕截图演示了"仅Teams **或** 群岛模式与所有其他模式的区别。 请注意，聊天和通话图标默认可用于"仅 Teams"或"群岛模式" (屏幕截图) ，但不适用于其他模式 (屏幕截图) ：  
+以下屏幕截图演示了"仅Teams或群岛模式 **与** 所有其他模式的区别。 请注意，聊天和通话图标默认可用于"仅Teams"或"岛屿"模式 (屏幕截图) ，但不适用于其他模式 (屏幕截图) ：
 
-![对两种模式进行并Teams比较](media/teams-mode-comparison.png)
+![并行比较不同模式Teams比较。](media/teams-mode-comparison.png)
 
 此外，自我状态在其他模式下不可用，如下所示。
 
-!["会议第一"中的自我存在的屏幕截图](media/meetings-first-no-self-presence-general.png)
+!["会议第一"中的自我存在的屏幕截图。](media/meetings-first-no-self-presence-general.png)
  
 **注意：** 
 <sup>1</sup>目前，SfBwithTeamsCollab 和 SfBOnly 的行为相同，但 SfBOnly 模式的目的是在 Teams 中禁用通道和文件功能。 在过渡期间，可以使用应用权限策略隐藏通道。

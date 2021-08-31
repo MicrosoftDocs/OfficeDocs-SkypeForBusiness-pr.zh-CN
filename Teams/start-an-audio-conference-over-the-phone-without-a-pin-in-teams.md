@@ -22,27 +22,27 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: '了解如何启用或禁用匿名呼叫者从管理中心加入Teams会议。 '
-ms.openlocfilehash: 7b67cf357b9230b4dfd2448d84d4ce007149efe9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5a2abd84514e46a19f3f698650d3acf1ec931410
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604401"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732741"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-microsoft-teams"></a>在 Microsoft Teams 中在没有 PIN 的情况下通过电话启动音频会议
 
-拨入会议的用户在会议大厅中收听音乐可能让人沮丧，因为会议组织者Microsoft Teams会议尚未启动。 
+拨入会议的用户在会议大厅中收听音乐可能令人沮丧，Microsoft Teams会议组织者尚未启动会议。 
   
 默认情况下，如果会议组织者呼叫呼叫会议，则启动会议需要 PIN。 您可以设置它，以便任何人都可以拨入会议，并且系统不会提示输入 PIN 以启动会议。 可以使用管理中心为单个用户启用或禁用此设置。
   
-如果有人从应用启动会议，会议组织者不需要 PIN Microsoft Teams PIN。 只有当会议组织者通过电话加入会议时，才需要 PIN。 为音频用户分配音频会议许可证并启用音频会议时，会议 PIN将发送给音频用户。 请参阅 [向用户发送](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md) 包含其音频会议信息的电子邮件，以及当用户的音频会议设置更改时 [自动发送给用户的电子邮件](emails-sent-to-users-when-their-settings-change-in-teams.md)。
+如果有人从会议组织者的应用启动会议，会议组织者Microsoft Teams PIN。 只有当会议组织者通过电话加入会议时，才需要 PIN。 为音频用户分配音频会议许可证并启用音频会议时，会议 PIN将发送给音频用户。 请参阅 [向用户发送](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md) 包含其音频会议信息的电子邮件，以及当用户的音频会议设置更改时 [自动发送给用户的电子邮件](emails-sent-to-users-when-their-settings-change-in-teams.md)。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
 ## <a name="enable-or-disable-anonymous-callers-from-joining-a-meeting"></a>启用或禁用匿名呼叫者加入会议
 
-![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
+![一个图标，显示Microsoft Teams徽标。](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
 
 1. 在左侧导航栏中，单击"用户 **"。** 
 
@@ -80,7 +80,7 @@ Windows PowerShell Office 365 的功能是管理用户以及允许或不允许�
     
   - [为什么要使用 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [使用 Microsoft 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [使用 Microsoft 365 Office 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
 有关 Windows PowerShell 的详细信息，请参阅 [Microsoft Teams PowerShell 参考](/powershell/module/teams/?view=teams-ps)了解详细信息。
   

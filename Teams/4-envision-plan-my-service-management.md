@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: df7d051f6ea140ab74532904994ea3ed5914d066
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1c52409d8487462aeab900bc9f0565285ab094e5
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624864"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732971"
 ---
 # <a name="plan-my-service-management"></a>规划服务管理
 
@@ -35,10 +35,10 @@ ms.locfileid: "58624864"
 
 对于大多数组织而言，服务管理概念很可能不是一个新概念。 你可能已经实施了与现有服务关联的流程和任务。 尽管如此，当你现在规划服务管理以在将来支持 Microsoft Teams 时，你可能会扩大已实施的方面。
 
-服务管理包含管理 Microsoft Teams 端到端时涉及的所有活动和流程。 服务管理的某些组件（Microsoft 365 或 Office 365 服务本身包含的基础结构组件）由 Microsoft 负责，而客户对其用户负责管理 Teams、网络和他们提供的终结点的各个方面。
+服务管理包含管理 Microsoft Teams 端到端时涉及的所有活动和流程。 服务管理的一些组件（Microsoft 365 或 Office 365 服务本身包含的基础结构组件）由 Microsoft 负责，而客户对其用户负责管理其提供的 Teams、网络和终结点的各个方面。
 有关客户对服务管理的责任Teams及其与影响用户体验质量的关键组件之间的关联，请参阅服务管理和质量[规划](./prepare-network.md)。
 
-![质量的三个组件示意图](media/plan-my-service-management-image1.png "质量的三个组件（Microsoft 365或Office 365、网络和终结点）的示意图，以及服务管理如何与这三个组件重叠。")
+![质量的三个要素的示意图。](media/plan-my-service-management-image1.png "质量的三个组件（Microsoft 365或Office 365、网络和终结点）的示意图，以及服务管理如何与这三个组件重叠。")
 
 <!--ENDOFSECTION-->
 
@@ -93,7 +93,7 @@ ms.locfileid: "58624864"
 
 质量体验评审指南具有一组活动，评估对改善用户体验影响最大的主要领域并提供修正指南，如下图所示。
 
-![说明在质量体验评审过程中要检查的关键问题](media/plan-my-service-management-image2.png "在质量体验评审期间要检查的关键问题：音频、可靠性和用户测试结果。")
+![说明在质量体验评审期间要检查的关键问题。](media/plan-my-service-management-image2.png "在质量体验评审期间要检查的关键问题：音频、可靠性和用户测试结果。")
 
 通过持续评估并修正本文档中所述的方面，你可以降低其对用户体验的潜在负面影响。 在部署中遇到的大多数用户体验问题可以分为以下类别：
 

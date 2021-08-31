@@ -25,34 +25,34 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 了解如何设置呼叫计划，包括查看你地区可用的计划、购买&许可证、获取电话号码，以及向&地址。
-ms.openlocfilehash: 0e44c9ec30efef26840bcb79582186ed5e0e3678
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b7593155711597ae94d2db97573c6b6ba7afcc18
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618478"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725721"
 ---
 # <a name="set-up-calling-plans"></a>设置通话套餐
 
 呼叫Teams呼叫是免费的，但如果您希望用户能够拨打企业外部的电话，请通过 Microsoft 365 或 Office 365 获取国内呼叫计划或国际呼叫计划。 可轻松为业务设置呼叫计划。  有关呼叫计划的信息，请参阅[哪个呼叫计划适合你？。](calling-plan-landing-page.md)
 
 ## <a name="step-1-find-out-if-calling-plans-are-available-in-your-countryregion"></a>步骤 1：了解通话套餐在你的国家/地区是否可用
-转到音频[](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)会议和呼叫计划的"国家/地区"和"区域可用性"，选择你的国家/地区，获取有关呼叫计划的可用性信息，以及音频会议、电话系统、收费和免费号码以及通信积分的信息。
+转到音频[](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)会议和呼叫计划的"国家/地区可用性"，选择你的国家/地区，获取有关呼叫计划的可用性信息，以及音频会议、电话系统、收费和免费号码以及通信积分的信息。
 
-如果呼叫计划不适用于你的国家/地区，请考虑使用直接路由将本地电话基础结构连接到电话系统。  有关详细信息，请参阅 电话系统[直接路由](direct-routing-landing-page.md)。
+如果呼叫计划不适用于你的国家/地区，请考虑使用直接路由将本地电话基础结构连接到电话系统。  有关详细信息，请参阅直接[电话系统路由](direct-routing-landing-page.md)。
   
 ## <a name="step-2-buy-and-assign-licenses"></a>步骤 2：购买和分配许可证
-1. 如果电话系统或计划不包括Microsoft 365 Office 365，可能需要购买电话系统许可证。  拥有许可证 **电话系统，** 请购买适用于 Microsoft 365 [或 Office 365 的呼叫Office 365。](calling-plans-for-office-365.md) 请参阅[Microsoft Teams附加许可，](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)并购买许可证和计划。 
+1. 如果电话系统或计划不包括Microsoft 365 Office 365，可能需要购买电话系统许可证。  拥有许可证 **后电话系统** 购买适用于 [Microsoft 365 或 Office 365 的呼叫Office 365。](calling-plans-for-office-365.md) 请参阅[Microsoft Teams附加许可"，](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)并购买许可证和计划。 
     
     > [!TIP]
-    > **电话系统** 套餐或Microsoft 365套餐Office 365，因此，若要查看购买呼叫计划的选项，必须先获得 **电话系统许可证。**
+    > **电话系统** 套餐或Microsoft 365套餐Office 365，因此，若要查看购买通话套餐的选项，必须先获得 **电话系统许可证。**
   
 2. 首先分配许可证，然后将呼叫计划分配给组织中人员。 请参阅[分配Microsoft Teams许可证。](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
     
 ## <a name="step-3-get-phone-numbers"></a>步骤 3：获取电话号码
 有三种方法，以获得新的用户数：
 
-- **使用Teams管理中心。** 对于一些国家/地区，可以使用 Teams 管理中心获取用户的电话号码，请参阅获取[用户的电话号码](getting-phone-numbers-for-your-users.md)。
+- **使用Teams管理中心。** 对于一些国家/地区，可以使用 Teams 管理中心为用户获取号码，请参阅获取[用户的电话号码](getting-phone-numbers-for-your-users.md)。
     
 - **转网现有的号码。** 您可以将现有号码从当前服务提供商或电话运营商转Microsoft 365或Office 365。 有关详细信息，请参阅[将电话号码转移到](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)Teams或[管理组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。 
   
@@ -78,7 +78,7 @@ Microsoft 建议发送邮件，或者使用企业的首选通信方法向用户�
  
 在 **Microsoft Teams** 中，用户通过单击左侧导航窗格中的 **呼叫**，可以看到他们的电话号码。 电话号码显示在拨号板上方。
 
-![单击"呼叫"后可用的选项的屏幕截图](media/teams-phone-number.png)
+![单击"呼叫"后可用的选项的屏幕截图。](media/teams-phone-number.png)
 
 
 ## <a name="do-you-want-to-automate-assigning-phone-numbers"></a>想要自动分配电话号码？

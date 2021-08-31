@@ -19,21 +19,21 @@ ms.custom:
 - seo-marvel-apr2020
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 了解如何在管理用户组的策略时Microsoft Teams管理策略包，以简化、简化和帮助提供一致性。
-ms.openlocfilehash: 2db3b926a7e241a83ab46de4285cc4b7ef0882e2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 了解如何在管理用户组的策略时，Microsoft Teams和管理策略包，以简化、简化和帮助提供一致性。
+ms.openlocfilehash: 7a9e7c8a83d7700840a49febdf0ab88104a7e2d9
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58637068"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58750032"
 ---
 # <a name="microsoft-teams-manage-policy-packages"></a>Microsoft Teams：管理策略包
 
 Microsoft Teams 中的策略包是一组预定义的策略和策略设置，你可以将其分配给组织中具有类似角色的用户。 我们构建了策略包，用于简化、简化和帮助在管理组织中用户组的策略时提供一致性。  
 
-可以使用包含在[策略包中的Teams](#policy-packages-included-in-teams)[或创建自己的自定义策略包](#custom-policy-packages)。
+可以使用包含在[策略包中的策略Teams](#policy-packages-included-in-teams)[或创建自己的自定义策略包](#custom-policy-packages)。
 
-:::image type="content" source="media/policy-packages-admin-center.png" alt-text="管理中心中"策略包"页的屏幕截图":::
+:::image type="content" source="media/policy-packages-admin-center.png" alt-text="管理中心中"策略包"页的屏幕截图。":::
 
 可以自定义策略包中策略的设置以满足用户的需求。 更改包中的策略设置时，分配到该包的所有用户将获取更新的设置。 可以使用管理中心或 PowerShell Microsoft Teams策略包。
 
@@ -42,7 +42,7 @@ Microsoft Teams 中的策略包是一组预定义的策略和策略设置，你�
 
 ## <a name="what-is-a-policy-package"></a>什么是策略包？
 
-使用策略包Teams要允许或限制的特定人员集的一些功能。 每个策略包Teams用户角色设计，包括预定义的策略和策略设置，这些策略和策略设置支持该角色的典型协作和通信活动。
+使用策略包Teams要允许或限制的特定人员集的功能。 每个策略包Teams用户角色设计，包括预定义的策略和策略设置，这些策略和策略设置支持该角色的典型协作和通信活动。
 
 策略包支持以下Teams策略类型：
 
@@ -62,14 +62,14 @@ Teams包括以下策略包。
 |教育 (中学生)    |创建一组适用于主要学生的策略和策略设置。|
 |教育 (中学生)     |创建一组适用于学生的策略和策略设置。         |
 |教育 (教师)     |创建一组适用于教师的策略和策略设置。      |
-|使用 (远程学习的教师教育)     |创建一组适用于主要教师的策略，在远程学习中最大化学生的安全和协作。      |
-|使用 (远程学习工具的中学生)     |创建一组适用于主要学生的策略，在远程学习中最大化学生的安全和协作。      |
+|使用 (远程学习工具的教师)     |创建一组适用于主要教师的策略，在远程学习中最大化学生的安全和协作。      |
+|使用 (远程学习的中学生)     |创建一组适用于主要学生的策略，在远程学习中最大化学生的安全和协作。      |
 |前端管理器 |创建一组策略，将这些设置应用于组织的一线经理。 |
 |一线辅助角色 |创建一组策略，将这些设置应用到组织的一线员工。 |
 |医疗保健临床工作者  |创建一组策略和策略设置，以使临床工作者（例如注册护士、护士长、医师和社会工作者）可以完全访问聊天、通话、轮班管理和会议。 |
 |医疗保健信息工作者  |创建一组策略和策略设置，以使信息工作者（例如 IT 人员、信息学人员、财务人员和合规专员）可以完全访问聊天、通话和会议。|
 |医疗保健病房  |创建一组适用于医疗保健组织中病房的策略和策略设置。|
-|小型企业和中型企业用户 (Business Voice)  |创建一个应用设置策略，其中包含用于业务语音体验的应用。|
+|小型企业用户和商业 (语音)  |创建一个应用设置策略，其中包含用于业务语音体验的应用。|
 |没有 Business Voice (的中小型企业)  |创建与中小型企业用户相关的应用设置策略Teams用户 (非业务语音体验) 。
 |公共安全人员   |创建一组适用于组织中公共安全人员的策略和策略设置。|
 
@@ -79,7 +79,7 @@ Teams包括以下策略包。
 将为每个单独的策略提供策略包的名称，以便你可以轻松识别链接到该策略包的策略。
 例如，将教育 (教师) 策略包分配给学校中的教师时，将为每个策略创建名为 Education_Teacher 的策略。
 
-![教育教师教师 (策略) 屏幕截图](media/policy-packages-education_teacher.png)
+![教育教师教师 (策略) 屏幕截图。](media/policy-packages-education_teacher.png)
 
 ## <a name="custom-policy-packages"></a>自定义策略包
 
@@ -89,13 +89,13 @@ Teams包括以下策略包。
 
 创建新的自定义策略包：
 
-1. 在管理中心左侧导航Microsoft Teams，选择"**策略包**"，然后单击"添加 **"。**
+1. 在管理中心的左侧导航Microsoft Teams，选择"**策略包**"，然后单击"添加 **"。**
 
-    :::image type="content" source="media/policy-packages-add.png" alt-text="管理中心"策略包"页面上的"添加"按钮的屏幕截图":::
+    :::image type="content" source="media/policy-packages-add.png" alt-text="管理中心中"策略包"页面上的"添加"按钮的屏幕截图。":::
 
 2. 输入包的名称和说明。
 
-    :::image type="content" source="media/policy-packages-add-custom.png" alt-text="添加新的自定义策略包的屏幕截图":::
+    :::image type="content" source="media/policy-packages-add-custom.png" alt-text="添加新的自定义策略包的屏幕截图。":::
 
 3. 选择要包括在包中的策略类型和策略名称。
 
@@ -105,7 +105,7 @@ Teams包括以下策略包。
 
 下面概述了如何在组织中使用策略包。
 
-![如何使用策略包的概述](media/manage-policy-packages-overview.png)
+![有关如何使用策略包的概述。](media/manage-policy-packages-overview.png)
 
 - **[视图](#view-the-settings-of-a-policy-in-a-policy-package)**：查看策略包中的策略。 然后，在分配包之前，查看包中每个策略的设置。 请确保了解每个设置。 根据组织的需求，确定预定义值是否适合组织，或者是否需要更改这些值，以更严格或宽松。
 

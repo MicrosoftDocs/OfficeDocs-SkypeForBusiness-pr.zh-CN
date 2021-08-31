@@ -24,29 +24,29 @@ ms.custom:
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
 description: 了解如何在组织中使用和管理团队策略来控制用户可在团队和频道中执行哪些操作。
-ms.openlocfilehash: de5558fbecddff0c4437cf3205aa676d664867f6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 92b49a31a4ae8cdedb9243293547c42699fed919
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629974"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725491"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>管理团队中的Microsoft Teams
 
 作为管理员，可以使用团队策略Microsoft Teams控制组织中用户可在团队和频道中执行哪些操作。 例如，可以设置是否允许用户创建专用通道。
 
-若要管理团队策略，Teams Teams  >  **管理中心Microsoft Teams** 策略。 可以使用全局（组织范围内的默认）策略，也可以创建并分配自定义策略。 除非你创建并分配自定义策略，否则你组织中的用户将自动获取全局策略。
+若要管理团队策略 **，Teams Teams**  >  **管理中心Microsoft Teams** 策略。 可以使用全局（组织范围内的默认）策略，也可以创建并分配自定义策略。 除非你创建并分配自定义策略，否则你组织中的用户将自动获取全局策略。
 
 可以编辑全局策略，也可以创建和分配自定义策略。 编辑全局策略或分配策略后，可能需要几个小时更改才能生效。
 
 ## <a name="create-a-custom-teams-policy"></a>创建自定义团队策略
 
-1. 在管理中心的左侧导航Microsoft Teams，转到 **"Teams Teams**  >  **策略"。**
+1. 在管理中心左侧导航Microsoft Teams，转到 **"Teams Teams**  >  **策略"。**
 2. 单击“**添加**”。
 3. 输入策略的名称和说明。
 
-    ![团队策略设置的屏幕截图](media/teams-policies.png)
-4. 打开或关闭 **"创建专用通道**<a name="createchannels"></a>"，具体取决于是否要允许用户创建专用频道。
+    ![团队策略设置的屏幕截图。](media/teams-policies.png)
+4. 打开或关闭 **"创建专用频道**<a name="createchannels"></a>"，具体取决于是否要允许用户创建专用频道。
 
 5. 单击“**保存**”。
 
@@ -54,7 +54,7 @@ ms.locfileid: "58629974"
 
 可以编辑全局策略或创建的任何自定义策略。
 
-1. 在管理中心的左侧导航Microsoft Teams，转到 **"Teams Teams**  >  **策略"。**
+1. 在管理中心左侧导航Microsoft Teams，转到 **"Teams Teams**  >  **策略"。**
 2. 单击策略名称的左侧以选择用户，然后单击“**编辑**”。
 3. 打开或关闭想要的设置，然后单击"保存 **"。**
 

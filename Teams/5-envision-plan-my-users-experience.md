@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f6482baa6738d4f7c3495085f86ae9b9a054d0eb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5176f40886bdc086df43a130cb9d8414bd8f40a3
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624834"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732961"
 ---
 # <a name="plan-my-users-experience"></a>规划我的用户体验
 
@@ -31,7 +31,7 @@ ms.locfileid: "58624834"
 
 ## <a name="client-deployment"></a>客户端部署
 
-Microsoft Teams客户端可用于 Web、桌面 (Windows和 Mac) ，以及 Android (和 iOS) 。 有关如何安装桌面客户端 (Windows Mac) 和移动客户端的其他详细信息，请参阅获取适用于 Microsoft Teams 的[客户端](./get-clients.md)。
+Microsoft Teams客户端可用于 Web、桌面 (Windows和 Mac) ，以及 Android (和 iOS) 。 有关如何安装桌面客户端 (Windows Mac) 和移动客户端的其他详细信息，请参阅获取[适用于 Microsoft Teams。](./get-clients.md)
 
 ## <a name="client-updates"></a>客户端更新
 
@@ -43,7 +43,7 @@ Microsoft Teams客户端可用于 Web、桌面 (Windows和 Mac) ，以及 Androi
 
 如下图所示，终结点是为用户提供优质体验的重要构建基块。
 
-![描述质量的三个要素的示意图](media/plan-my-users-experience-image1.png "描述质量的三个组件以及服务管理如何与这三个组件重叠的示意图。将焦点放在终结点上。")
+![描述质量的三个要素的示意图。](media/plan-my-users-experience-image1.png "描述质量的三个组件以及服务管理如何与这三个组件重叠的示意图。将焦点放在终结点上。")
 
 Teams终结点可在许多设备上运行，包括电脑、Mac、平板电脑和移动设备。 部分体验不仅包括设备，还包括用户如何连接到设备，例如，使用设备的内置麦克风/扬声器、耳机或优化耳机。 使用优化耳机可以丰富整体用户体验。
 
@@ -51,9 +51,9 @@ Teams终结点可在许多设备上运行，包括电脑、Mac、平板电脑和
 
 ## <a name="endpoint-capability"></a>终结点功能
 
-规划的第一部分是确保组织内的所有电脑和其他设备都可以运行Teams。 这不仅要查看硬件要求，而且还要了解 PC 在后台执行的其他操作。 许多组织会运行其他软件，包括入侵检测系统和反恶意软件，这些软件会影响设备的基础性能。
+规划的第一部分是确保组织的所有电脑和其他设备都可以运行Teams。 这不仅要查看硬件要求，而且还要了解 PC 在后台执行的其他操作。 许多组织会运行其他软件，包括入侵检测系统和反恶意软件，这些软件会影响设备的基础性能。
 
-有关 Web、桌面Teams移动 (平台上客户端的软件要求) ，请参阅获取客户端[Microsoft Teams。](./get-clients.md)
+有关 Web、桌面Teams移动 (平台上客户端的软件要求) ，请参阅获取适用于 Microsoft Teams[的客户端](./get-clients.md)。
 
 ## <a name="endpoint-firewalls"></a>终结点防火墙
 
@@ -65,11 +65,11 @@ Teams终结点可在许多设备上运行，包括电脑、Mac、平板电脑和
 
 ## <a name="wi-fi-recommendations-for-endpoints"></a>针对终结点的 Wi-Fi 建议
 
-需要大量规划来部署优化Wi-Fi网络，以支持实时工作负荷Microsoft Teams。 以下部分提供了一些常规指南，可帮助你在规划终结点时避免常见错误。
+需要大量规划来部署优化Wi-Fi网络，以支持 Microsoft Teams 中的实时工作负荷。 以下部分提供了一些常规指南，可帮助你在规划终结点时避免常见错误。
 
 ### <a name="wi-fi-drivers"></a>Wi-Fi 驱动程序
 
-某些Wi-Fi驱动程序可能会出现问题。 例如，某个驱动程序可能存在在接入点之间进行非常积极的漫游行为，从而导致通话质量较差。
+某些Wi-Fi驱动程序可能存在问题。 例如，某个驱动程序可能存在在接入点之间进行非常积极的漫游行为，从而导致通话质量较差。
 这不是常见情况，但必须确保在部署Wi-Fi更新和测试电脑上的驱动程序。
 
 ### <a name="wi-fi-bands"></a>Wi-Fi 频带
@@ -87,7 +87,7 @@ Teams终结点可在许多设备上运行，包括电脑、Mac、平板电脑和
 
 ### <a name="80211-power-save-protocol"></a>802.11 电源保存协议
 
-如果你的组织使用不支持 802.11 Power Save 协议的无线接入点或路由器，你可能会在 Windows 设备上运行的 Microsoft Teams 中遇到呼叫中断或呼叫质量不佳的问题。 如果无法升级你的无线接入点或路由器，则应在使用电池的设备上更新 Windows 电源计划设置。 以下[支持文章](https://support.microsoft.com/help/928152/you-may-experience-connectivity-issues-or-performance-issues-when-you)中提供了进一步的详细信息和配置指导。
+如果你的组织使用不支持 802.11 Power Save 协议的无线接入点或路由器，你可能会在 Microsoft Teams 设备上运行的 Microsoft Teams Windows 中遇到呼叫中断或呼叫质量不佳的问题。 如果无法升级你的无线接入点或路由器，则应在使用电池的设备上更新 Windows 电源计划设置。 以下[支持文章](https://support.microsoft.com/help/928152/you-may-experience-connectivity-issues-or-performance-issues-when-you)中提供了进一步的详细信息和配置指导。
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>组织中Teams哪些客户端？</li><li>最初如何向用户Teams客户端？</li><li>Who负责评估终结点和设备，以验证它们是否满足Teams体验的要求？</li></ul></td></tr>
@@ -108,7 +108,7 @@ Microsoft Teams 可以用于会议或用作电话系统。 在使用这些功能
 选择了设备后，将其包含在试点测试计划中以便进行最终验证。 应在试点期间利用调查来收集反馈，以确保你的设备策略是最佳的。
 
 > [!NOTE]
-> 目前，建议使用通过 Skype for Business 认证计划认证的音频设备。 若要查找通过此计划认证的设备，请参阅[Microsoft Teams设备和](https://products.office.com/microsoft-teams/across-devices/devices)USB[音频和视频设备](/SkypeForBusiness/certification/devices-usb-devices)。
+> 目前，建议使用通过 Skype for Business 认证计划认证的音频设备。 若要查找通过此计划认证的设备，请参阅[Microsoft Teams设备以及](https://products.office.com/microsoft-teams/across-devices/devices)USB[音频和视频设备](/SkypeForBusiness/certification/devices-usb-devices)。
 
 
 

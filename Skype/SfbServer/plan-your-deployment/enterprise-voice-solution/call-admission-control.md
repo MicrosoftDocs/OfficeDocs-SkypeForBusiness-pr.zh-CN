@@ -16,17 +16,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 6fda0195-4c89-4dea-82e8-624f03e3d062
-description: 了解呼叫允许控制，如果呼叫的媒体质量较差，该控制可防止呼叫Skype for Business Server 企业语音。
-ms.openlocfilehash: 16b134e6d775d84be3fff97698d2f03ce7497c87
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 了解呼叫允许控制，如果呼叫的媒体质量较差，它可以阻止呼叫Skype for Business Server 企业语音。
+ms.openlocfilehash: b57d9f4d6a26acb33b03ab1befb9132ffebc9a20
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623594"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725961"
 ---
 # <a name="plan-for-call-admission-control-in-skype-for-business-server"></a>规划呼叫允许控制Skype for Business Server
 
-了解呼叫允许控制，如果呼叫的媒体质量较差，该控制可防止呼叫Skype for Business Server 企业语音。
+了解呼叫允许控制，如果呼叫的媒体质量较差，它可以阻止呼叫Skype for Business Server 企业语音。
 
 对于电话、视频和应用程序共享等基于 IP 的应用程序，通常不会将企业网络的可用带宽视为 LAN 环境中的限制因素。 但是，在相互连接站点的 WAN 链路中，可以限制网络带宽。
 
@@ -37,7 +37,7 @@ ms.locfileid: "58623594"
 本节介绍了呼叫允许控制功能，并解释了如何规划 CAC。
 
 > [!NOTE]
-> Skype for Business Server三个高级 企业语音 功能：呼叫允许控制 (CAC) 、紧急服务 (E9-1-1) 和媒体旁路。 有关这三项功能共同的规划信息的概述，请参阅 企业语音[中的](network-settings-for-advanced-features.md)高级Skype for Business Server。
+> Skype for Business Server三个高级 企业语音 功能：呼叫允许控制 (CAC) 、紧急服务 (E9-1-1) 和媒体旁路。 有关这三项功能共同的规划信息的概述，请参阅 Skype for Business Server 中高级 企业语音[功能的网络Skype for Business Server。](network-settings-for-advanced-features.md)
 
 CAC 设计中Skype for Business Server四个主要属性：
 
@@ -53,7 +53,7 @@ CAC 设计中Skype for Business Server四个主要属性：
 
 CAC 仅控制实时语音和视频流量，不控制数据流量。
 
-管理员定义 CAC 策略，这些策略由与每个前端池一起安装的带宽策略服务强制实施。 CAC 设置会自动传播到Skype for Business Server中所有前端服务器。
+管理员定义 CAC 策略，这些策略由与每个前端池一起安装的带宽策略服务强制实施。 CAC 设置会自动传播到Skype for Business Server服务器的所有前端服务器。
 
 对于因 CAC 策略而失败的呼叫，重新路由呼叫的优先顺序如下：
 
@@ -86,11 +86,11 @@ CAC 仅控制实时语音和视频流量，不控制数据流量。
 
 ### <a name="call-admission-control-of-outside-users"></a>外部用户的呼叫允许控制
 
-未超出组织限制强制执行呼叫允许Skype for Business Server控制。 CAC 不能应用于通过 Internet 的媒体流量，该流量不由 Skype for Business Server。 如果被叫的终结点属于组织，并且边缘服务器已添加到网络配置，则对通过企业网络的呼叫部分执行 CAC 检查，如呼叫允许控制部署[：Skype for Business Server](../../deploy/deploy-enterprise-voice/final-checklist.md)的最终检查表中所述。 如果被叫终结点不属于组织，如联盟或 PIC 用户，则不执行带宽策略检查，传出呼叫将忽略任何 CAC 限制。
+未超过组织限制强制执行呼叫允许Skype for Business Server控制。 CAC 不能应用于通过 Internet 的媒体流量，该流量不由 Skype for Business Server。 如果被叫终结点属于组织，并且边缘服务器已添加到网络配置中，则对通过企业网络的呼叫部分执行 CAC 检查，如呼叫允许控制部署[：Skype for Business Server 的最终检查表](../../deploy/deploy-enterprise-voice/final-checklist.md)中所述。 如果被叫终结点不属于组织，如联盟或 PIC 用户，则不执行带宽策略检查，传出呼叫将忽略任何 CAC 限制。
 
 ### <a name="call-admission-control-of-pstn-connections"></a>PSTN 连接的呼叫允许控制
 
-无论呼叫允许控制是连接到 IP/PBX、PSTN 网关还是 SIP 中继，呼叫允许控制都可以在中介服务器上实施。 由于中介服务器是 B2BUA (的) 代理，因此它将终止媒体。 它具有两个连接端：连接到 Skype for Business Server 的一端和一个连接到 PSTN 网关、IP/PBX 或 SIP 中继的网关端。 有关 PSTN 连接的详细信息，请参阅 Plan [for PSTN connectivity in Skype for Business Server](pstn-connectivity-0.md)。
+无论呼叫允许控制是连接到 IP/PBX、PSTN 网关还是 SIP 中继，呼叫允许控制都可以在中介服务器上实施。 由于中介服务器是 B2BUA (的) 代理，因此它将终止媒体。 它具有两个连接端：连接到 Skype for Business Server 的一侧和一个连接到 PSTN 网关、IP/PBX 或 SIP 中继的网关端。 有关 PSTN 连接的详细信息，请参阅 Plan [for PSTN connectivity in Skype for Business Server](pstn-connectivity-0.md)。
 
 除非启用了媒体旁路功能，否则可以在中介服务器的两侧强制实施 CAC。 如果启用媒体旁路，则媒体流量不会遍历中介服务器，而是直接在 Skype for Business 和网关之间流动。 在这种情况下，不需要使用 CAC。 有关详细信息，请参阅规划[媒体旁路Skype for Business。](media-bypass.md)
 
@@ -98,7 +98,7 @@ CAC 仅控制实时语音和视频流量，不控制数据流量。
 
 **在 PSTN 连接上实施呼叫允许控制**
 
-![语音 CAC 媒体旁路连接强制](../../media/Plan_CS_VoiceCAC_enforcementofconnectionstoPSTN.jpg)
+![语音 CAC 媒体旁路连接强制。](../../media/Plan_CS_VoiceCAC_enforcementofconnectionstoPSTN.jpg)
 
 ## <a name="defining-your-requirements-for-call-admission-control"></a>定义呼叫允许控制要求
 
@@ -121,7 +121,7 @@ CAC 仅控制实时语音和视频流量，不控制数据流量。
 
 **呼叫允许控制的示例拓扑**
 
-![Litware Inc. 网络拓扑示例](../../media/Plan_CS_VoiceCAC_Litwarenetworktopo.jpg)
+![Litware Inc. 网络拓扑示例。](../../media/Plan_CS_VoiceCAC_Litwarenetworktopo.jpg)
 
 > [!NOTE]
 > 所有网络站点都与一个网络区域关联。 例如，波特兰、里诺和阿尔伯克基包含在北美区域。 在此图中，只显示应用了 CAC 策略的 WAN 链路，但具有带宽限制。 芝加哥、纽约和底特律的网络站点显示在北美区域椭圆内，因为它们不受带宽限制，因此不需要 CAC 策略。
@@ -141,7 +141,7 @@ CAC 仅控制实时语音和视频流量，不控制数据流量。
 CAC 要求Skype for Business Server网络区域定义一个中央站点。 选择中央站点时，将具有与该网络区域内所有其他站点的最佳网络连接和最高带宽。 前面的网络拓扑示例显示了三个网络区域，每个网络区域都有一个管理 CAC 决策的中央站点。 上例中显示了相应的关联，如下表所示。
 
 > [!NOTE]
-> 中央站点不一定与网络站点对应。 在本文档的示例中，某些中央站点（芝加哥、伦敦和北京）与网络站点同名。 但是，即使中央站点和网络站点共享同一名称，中央站点也是 Skype for Business Server 拓扑的元素，而网络站点是 Skype for Business Server 拓扑所在的整个网络的一部分。
+> 中央站点不一定与网络站点对应。 在本文档的示例中，某些中央站点（芝加哥、伦敦和北京）与网络站点同名。 但是，即使中央站点和网络站点共享同一名称，中央站点也是 Skype for Business Server 拓扑的一个元素，而网络站点是 Skype for Business Server 拓扑所在的整个网络的一部分。
 
 **网络区域、中央站点和网络站点**
 
@@ -185,7 +185,7 @@ CAC 带宽策略可以定义以下任意或全部：
 > 所有 CAC 带宽值都表示最大  *单向带宽*  限制。
 
 > [!NOTE]
-> 通过Skype for Business Server语音策略功能，可以覆盖带宽策略检查，以检查用户 (的传入呼叫，而不是用户呼叫者拨打的传出) 。 建立会话后，将准确计算带宽消耗。 应慎用此设置。 有关详细信息，请参阅部署文档中的 Create [or modify a voice policy and configure PSTN usage records in Skype for Business](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md) or Modify a Voice Policy and Configure [PSTN Usage Records。](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records)
+> 通过Skype for Business Server语音策略功能，可以覆盖带宽策略检查，以检查到用户的传入呼叫 (而不是覆盖用户呼叫者拨打的传出) 。 建立会话后，将准确计算带宽消耗。 应慎用此设置。 有关详细信息，请参阅部署文档中的创建或修改语音策略和配置[PSTN](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)用法Skype for Business或修改语音策略和配置[PSTN 用法](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records)记录。
 
 若要基于每个会话优化带宽利用率，请考虑将使用的音频和视频编解码器的类型。 特别是，要避免为预期经常使用的编解码器分配带宽不足。 相反，如果要阻止媒体使用要求更多带宽的编解码器，则应该将每个会话的最大带宽设置为足够低以阻止此类使用。 对于音频，并非每个编解码器都适用于每个方案。 例如：
 
@@ -224,7 +224,7 @@ Siren 编解码器用于Skype for Business Server的情况：
 
 **按方案表示的带宽利用率**
 
-|**应用场景**|**针对数量优化的带宽 (kbps)**|**平衡模式带宽要求 (kbps)**|**针对质量优化的带宽 (kbps)**|
+|**应用场景**|**针对数量 (kbps)**|**平衡模式带宽要求 (kbps)**|**针对质量优化的带宽 (kbps)**|
 |:-----|:-----|:-----|:-----|
 |对等音频呼叫  <br/> |45 kbps  <br/> |62 kbps  <br/> |91 kbps  <br/> |
 |电话会议  <br/> |53 kbps  <br/> |101 kbps  <br/> |165 kbps  <br/> |
@@ -240,7 +240,7 @@ Siren 编解码器用于Skype for Business Server的情况：
 在我们的示例中，为北美地区的纽约站点分配了以下 IP 子网：172.29.80.0/23、157.57.216.0/25、172.29.91.0/23、172.29.81.0/24。 假设通常在底特律工作的 Bob 出差到纽约办事处接受培训。 打开计算机并连接到网络时，他的计算机将获取为纽约保留的四个范围之一中的 IP 地址，例如 172.29.80.103。
 
 > [!CAUTION]
-> 在服务器上进行网络配置期间指定的 IP 子网必须与客户端计算机提供的格式相匹配，才能正确用于媒体旁路。 客户端Skype for Business其本地 IP 地址，并屏蔽具有关联子网掩码的 IP 地址。 在确定与每个客户端关联的绕过 ID 时，注册器将比较与每个网络站点关联的 IP 子网列表和客户端提供的子网，以确定完全匹配。 因此，在服务器上进行网络配置期间输入的子网是实际子网而不是虚拟子网，这一点很重要。  (如果部署呼叫允许控制，但不部署媒体旁路 ) ， 即使配置虚拟子网，呼叫允许控制也会正常工作。例如，如果客户端登录 IP 地址为 172.29.81.57 的计算机上 IP 子网掩码为 255.255.255.0，Skype for Business 将请求与子网 172.29.81.0 关联的绕过 ID。 如果子网定义为 172.29.0.0/16，那么即使客户端属于虚拟子网，注册器也不会将此看做匹配，因为注册器会专门查找子网 172.29.81.0。 因此，管理员必须完全按照 Skype for Business 客户端提供的子网输入 (这些客户端在网络配置期间静态或由 DHCP.) 
+> 在服务器上进行网络配置期间指定的 IP 子网必须与客户端计算机提供的格式相匹配，才能正确用于媒体旁路。 Skype for Business客户端采用其本地 IP 地址，并屏蔽具有关联子网掩码的 IP 地址。 在确定与每个客户端关联的绕过 ID 时，注册器将比较与每个网络站点关联的 IP 子网列表和客户端提供的子网，以确定完全匹配。 因此，在服务器上进行网络配置期间输入的子网是实际子网而不是虚拟子网，这一点很重要。  (如果部署呼叫允许控制 ) ， 但不是媒体旁路，即使配置了虚拟子网，呼叫允许控制也会正常工作。例如，如果客户端登录 IP 地址为 172.29.81.57 的计算机上 IP 子网掩码为 255.255.255.0，Skype for Business 将请求与子网 172.29.81.0 关联的绕过 ID。 如果子网定义为 172.29.0.0/16，那么即使客户端属于虚拟子网，注册器也不会将此看做匹配，因为注册器会专门查找子网 172.29.81.0。 因此，管理员必须完全按照 Skype for Business 客户端提供的子网输入子网 (这些客户端在网络配置期间静态或由 DHCP.) 
 
 ## <a name="best-practices-for-call-admission-control"></a>呼叫允许控制最佳做法
 

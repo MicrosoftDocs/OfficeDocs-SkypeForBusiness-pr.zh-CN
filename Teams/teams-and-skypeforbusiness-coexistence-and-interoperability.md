@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d06a49069e04b9c2bce05c0ede214f9cbd8fec12
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 69a197d75f3b229f32117e7923a390691e8c4fa5
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627494"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727381"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>了解 Microsoft Teams 和 Skype for Business 的共存和互操作性
 
-![升级过程图，强调"项目定义"阶段](media/upgrade-banner-project-definition.png "升级过程的各个阶段，重点是项目定义阶段")
+![升级过程图，强调Project阶段。](media/upgrade-banner-project-definition.png "升级过程的各个阶段，重点是项目定义阶段")
 
 本文是升级历程中“项目定义”阶段的一部分。 在创建赞助联盟和项目团队并确定项目范围、目标和计划后完成。 在继续之前，请确认已经完成了以下活动:
 
@@ -87,7 +87,7 @@ ms.locfileid: "58627494"
 
 有关移动到 **Teams Only** 模式的额外注意事项，请参阅 [Teams Only 模式注意事项](teams-only-mode-considerations.md)。
 
-![Teams 确认消息的屏幕截图](media/teams-and-skypeforbusiness-coexistence-and-interop-image1.png "用户升级为 Teams-Only 用户后，Skype for Business 客户端以特殊模式运行")
+![确认消息Teams屏幕截图。](media/teams-and-skypeforbusiness-coexistence-and-interop-image1.png "用户升级为 Teams-Only 用户后，Skype for Business 客户端以特殊模式运行")
 
 ### <a name="skype-for-business-only"></a>仅 Skype for Business
 
@@ -155,11 +155,11 @@ ms.locfileid: "58627494"
 
 Skype for Business 用户可以与 Teams 用户一对一聊天，反之亦然。 互操作聊天需要通过一个互操作网关，该网关是 Teams 云服务的一部分 (因此只存在于线上)。 互操作聊天是纯文本: 不支持多信息文本和表情符号。 会通知 Teams 和 Skype for Business 中的用户该对话是互操作对话。
 
-<!--![Screen shot of Interop chat experience from Teams](media/Interop_chat_experience_from_Teams.png "Interop chat experience from Teams")-->
+<!--![Screen shot of Interop chat experience from Teams.](media/Interop_chat_experience_from_Teams.png "Interop chat experience from Teams")-->
 
 Skype for Business 用户可以与 Teams 用户进行一对一的语音和视频通话，Teams 用户也可以进行同样的通话。
 
-<!--![Screen shot of Interop calling experience from Teams](media/Interop_calling_experience_from_Teams.png "Interop calling experience from Teams")-->
+<!--![Screen shot of Interop calling experience from Teams.](media/Interop_calling_experience_from_Teams.png "Interop calling experience from Teams")-->
 
 > [!Important]
 > 本地部署 Skype for Business 的互操作体验要求本地环境与 Microsoft 365 或 Office 365 Skype for Business 处于混合模式。 详情请参见[迁移和互操作性指南](./migration-interop-guidance-for-teams-with-skype.md)。
@@ -200,11 +200,11 @@ Skype for Business 用户可以与 Teams 用户进行一对一的语音和视频
 
 为了防止这些误报，当对方是 **Teams Only** 实际用户时，状态服务现在会通知 Skype for Business 客户端。 这使得 Skype for Business 能够意识到它需要在创建互操作对话之前就创建一个互操作对话，并将对话窗口指定为互操作。
 
-![与 Skype for Business 用户创建互操作对话的 Teams 消息截图](media/teams-and-skypeforbusiness-coexistence-and-interop-create-conversation-with-skype-user.png)
+![用于创建与Teams用户互操作对话的Skype for Business屏幕截图。](media/teams-and-skypeforbusiness-coexistence-and-interop-create-conversation-with-skype-user.png)
 
 例如，如果 Skype for Business 用户想要共享他们的桌面，将告知他们我们将开始一个会议，并指导他们完成步骤。
 
-![开始与 Teams 用户开会的 Teams 消息截图](media/teams-and-skypeforbusiness-coexistence-and-interop-start-meeting-with-teams-user.png)
+![要与Teams用户开始会议的消息的屏幕截图Teams屏幕截图。](media/teams-and-skypeforbusiness-coexistence-and-interop-start-meeting-with-teams-user.png)
 
 同时，Teams 用户会收到一条带有会议链接的聊天信息，并引导其加入。
 
@@ -220,7 +220,7 @@ Windows 版 Teams桌面客户端、Mac 版 Teams 桌面客户端以及支持内�
 
 如果用户正在通话中，菜单还会提醒他们在 Teams 和 Skype for Business 之间进行的当前通话将在他们进入 Teams 会议后终止。 如果他们选择，他们可以在接受之前警告 Skype for Business 用户。
 
-![与 Skype for Business 用户共享会议的 Teams 消息截图](media/teams-and-skypeforbusiness-coexistence-and-interop-share-meeting-with-skype-user.png)
+![与Teams共享会议的消息的Skype for Business屏幕截图。](media/teams-and-skypeforbusiness-coexistence-and-interop-share-meeting-with-skype-user.png)
 
 接受后，他们将进入 Teams 会议；必须从会议中的共享托盘开始共享。
 
@@ -287,15 +287,15 @@ Windows 版 Teams桌面客户端、Mac 版 Teams 桌面客户端以及支持内�
 
 与用户 G3 测试的本机 Teams-to-Teams 对话
 
-![显示本机 Teams-to-Teams 对话图表](media/teams-upgrade-native-thread.png)
+![显示本机Teams对话的Teams图。](media/teams-upgrade-native-thread.png)
 
 与同一用户 G3 测试互操作对话
 
-![互操作 Teams-to-Teams 对话示意图](media/teams-upgrade-interop-thread.png)
+![显示互操作Teams会话的Teams图。](media/teams-upgrade-interop-thread.png)
 
 对话线程一旦创建，其类型就不会改变。 创建后，Teams 中的互操作线程将始终路由到目标用户的 Skype for Business 客户端。 本机线程将始终路由到目标用户的 Teams 客户端。  如果收件人用户的模式发生变化，现有的指向该用户的 Teams 线程将不再发挥作用，并且会在该聊天上显示一条带有开始新的本地对话的链接的备注，如下截图所示。
 
-![显示与升级后的 Skype for Business 用户聊天的图表](media/teams-upgrade-chat-with-upgraded-sfb-user.png)
+![显示已升级用户的聊天Skype for Business图表。](media/teams-upgrade-chat-with-upgraded-sfb-user.png)
 
 ### <a name="presence"></a>状态
 

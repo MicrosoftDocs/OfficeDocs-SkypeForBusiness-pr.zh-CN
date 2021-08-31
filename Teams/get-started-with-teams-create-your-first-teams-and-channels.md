@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a452a4370d980403d9ae82a30b993c7f20e1aca0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5a81df4161e0d9d7d9631338e6a159629fc3df75
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607699"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725461"
 ---
 # <a name="create-your-first-teams-and-channels-in-microsoft-teams"></a>在 Microsoft Teams 中创建首批团队和频道
 
@@ -65,7 +65,7 @@ ms.locfileid: "58607699"
 
 创建团队后，邀请人加入其中。 可以添加单个用户、 组，甚至可添加整个联系人组 （以前称为“通讯组列表”）。 
 
-![示例团队的屏幕截图，显示团队名称和说明](media/get-started-with-teams-create-team.png "“了解 Teams”示例团队的屏幕截图，显示团队名称和说明") 
+![示例团队的屏幕截图，其中显示了团队名称和说明。](media/get-started-with-teams-create-team.png "“了解 Teams”示例团队的屏幕截图，显示团队名称和说明") 
 
 ### <a name="add-a-team-owner"></a>添加团队所有者
 找到你创建的团队，单击“**更多选项˙˙˙**” > “**管理团队**”。 然后转到“**成员**”选项卡。找到想要指定为团队所有者的人。 在“**角色**”下，单击“**所有者**”。
@@ -73,7 +73,7 @@ ms.locfileid: "58607699"
 ### <a name="create-a-channel-in-a-team"></a>在团队中创建频道
 找到你创建的团队，单击“**更多选项˙˙˙**” > “**添加频道**”。 也可以单击“**管理团队**”，并在“**频道**”选项卡中添加频道。 
 
-![打击“更多选项”时可用的选项的屏幕截图](media/get-started-with-teams-add-channel.png "在团队上单击“更多选项”时可用的“添加频道”选项、“管理团队”选项和其他选项的屏幕截图") 
+![单击“更多选项”时可用选项的屏幕截图。](media/get-started-with-teams-add-channel.png "在团队上单击“更多选项”时可用的“添加频道”选项、“管理团队”选项和其他选项的屏幕截图") 
 
 为频道指定一个描述性名称，让用户能够更轻松地了解该频道的用途。 
 
@@ -81,7 +81,7 @@ ms.locfileid: "58607699"
 
 下面是“了解 Teams”团队中的“如何”频道的示例，显示链接到 Teams 网页的固定选项卡 &ndash; Teams 视频培训、Teams 帮助中心和 Teams 下载链接。 
 
-![固定到示例团队的选项卡的屏幕截图](media/get-started-with-teams-add-tabs.png "固定到“了解 Teams”示例团队的选项卡的屏幕截图。") 
+![固定到示例团队的选项卡的屏幕截图。](media/get-started-with-teams-add-tabs.png "固定到“了解 Teams”示例团队的选项卡的屏幕截图。") 
 
 ## <a name="next-steps"></a>后续步骤
 转到[为早期采用者上线产品](get-started-with-teams-onboard-early-adopters.md)。

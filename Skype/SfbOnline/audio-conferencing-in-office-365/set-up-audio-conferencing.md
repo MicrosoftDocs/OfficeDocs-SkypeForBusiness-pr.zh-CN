@@ -23,18 +23,18 @@ ms.custom:
 - LIL_Placement
 - O365P_DialInConfDesc
 description: '了解如何为业务中需要使用电话加入电话会议的人员设置拨号或音频会议。 '
-ms.openlocfilehash: 72abf99895924e70f3a57ae0f8d1e1cd8c0f9bcd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d38adf5e1f5d363cb04aa9eb43109ca2ed394a65
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580046"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725971"
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business"></a>为会议设置音频Skype for Business
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-有时，组织中的人员需要使用电话拨入会议。 Skype for Business音频会议功能， 用户可以通过电话Skype for Business呼叫参加会议，而不是在Skype for Business或电脑上使用会议应用。 
+有时，组织中的人员需要使用电话拨入会议。 Skype for Business音频会议功能， 用户可以通过电话Skype for Business会议，而不是在移动设备或电脑上Skype for Business应用。 
   
 你只需为打算安排或主持会议的人设置音频会议。 拨入会议与会者不需要分配给他们或其他安装程序的许可证。
   
@@ -52,7 +52,7 @@ ms.locfileid: "58580046"
     >[!NOTE] 
     > Office 365 企业版 E5 许可证中包含音频会议，并用作加载项。
         
-2. 购买的音频会议许可证后，你需要将其分配给组织中打算安排或主持会议的那些人员。 请参阅[为组织中计划或Microsoft 365 商业应用版](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)的人分配或删除您购买的许可证。
+2. 购买的音频会议许可证后，你需要将其分配给组织中打算安排或主持会议的那些人员。 请参阅[为组织中计划或Microsoft 365 商业应用版](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)会议的用户分配或删除您购买的许可证。
     
 3. 我们还建议你将通信点数许可证（它们不值什么钱）分配给你在上一步骤中分配到许可证的相同人员。 若要了解如何设置通信点数，请参阅[为你的组织设置通信点数](/microsoftteams/set-up-communications-credits-for-your-organization)。
     
@@ -77,7 +77,7 @@ ms.locfileid: "58580046"
 
 将新的电话号码分配给音频会议网桥：
 
-![显示 Skype for Business 徽标的图标](../images/sfb-logo-30x30.png) **使用 Skype for Business 管理中心：**
+![一个图标，显示Skype for Business徽标。](../images/sfb-logo-30x30.png) **使用Skype for Business管理中心：**
 
  1. 转到 **Microsoft 365 管理中心** > **管理中心** > **Teams** > **旧版门户**。
  2. 选择“**语音**” > “**电话号码**”。
@@ -90,14 +90,14 @@ ms.locfileid: "58580046"
 
 接下来，你想要为音频[](../audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing.md)会议设置自动助理语言，会议自动助理在呼叫者拨入音频会议的电话号码时，使用这些语言问候呼叫者。 
 
-![显示 Microsoft Teams 徽标的图标](../images/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**：
+![一个图标，显示Microsoft Teams徽标。](../images/teams-logo-30x30.png) **使用 Microsoft Teams管理中心**：
 
 1. 从仪表板中，转到 **会议** > **会议网桥**。
 2. 选择会议网桥电话号码，单击“**编辑**”，然后选择默认语言。
 
-![一个图标，显示Skype for Business ](../images/sfb-logo-30x30.png) **徽标使用Skype for Business管理中心：**
+![一个图标，显示Skype for Business徽标。](../images/sfb-logo-30x30.png) **使用 Skype for Business管理中心**：
 
-1. 转到旧版门户 中的管理>**管理**  >  **Teams**  >  **中心。**
+1. 转到管理中心，>**管理中心Teams**  >    >  **旧版门户 。**
 2. 选择 **"音频会议**  >  **""Microsoft 网桥"。** 
 3. 选择会议网桥电话号码，选择 **"设置语言**"，然后选择默认语言。
 
@@ -106,14 +106,14 @@ ms.locfileid: "58580046"
     
 设置你的会议网桥之后，请验证默认设置，如进入/退出通知和 PIN 长度是想要使用；如果不是，你可以更改它们。 
 
-![显示 Microsoft Teams 徽标的图标](../images/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**：
+![一个图标，显示Microsoft Teams徽标。](../images/teams-logo-30x30.png) **使用 Microsoft Teams管理中心**：
 
 1. 从仪表板中，转到 **会议** > **会议网桥**。
 2. 选择“**网桥设置**”。 这将打开 **网桥设置** 窗格。 
 
 有关详细信息，请参阅[更改音频会议网桥的设置](/MicrosoftTeams/change-the-settings-for-an-audio-conferencing-bridge)。
 
-![显示 Skype for Business 徽标的图标](../images/sfb-logo-30x30.png) **使用 Skype for Business 管理中心：**
+![一个图标，显示Skype for Business徽标。](../images/sfb-logo-30x30.png) **使用Skype for Business管理中心：**
 
 1. 转到 **Microsoft 365 管理中心** > **管理中心** > **Teams** > **旧版门户**。
 2. 选择 **"音频会议**  >  **""Microsoft 网桥设置"。** 这将打开 **Microsoft 网桥设置** 页。 
@@ -126,12 +126,12 @@ ms.locfileid: "58580046"
 
 你需要为在组织中主持或安排会议的所有人员执行此操作。 
 
-![显示 Microsoft Teams 徽标的图标](../images/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**：
+![一个图标，显示Microsoft Teams徽标。](../images/teams-logo-30x30.png) **使用 Microsoft Teams管理中心**：
 
 1. 在仪表板上，单击“**用户**”，从列表中选择用户，然后选择“**编辑**”。
 2. 选择“**音频会议**”旁边的“**编辑**”，然后在“**音频会议**”窗格中，在“**收费电话号码**”和“**免费**”电话号码列表中选择一个号码。
 
-![显示 Skype for Business 徽标的图标](../images/sfb-logo-30x30.png) **使用 Skype for Business 管理中心：**
+![一个图标，显示Skype for Business徽标。](../images/sfb-logo-30x30.png) **使用Skype for Business管理中心：**
 
 1. 转到旧  >  **Microsoft 365 管理中心Teams**  >  **门户 。**
 2. 选择 **"音频会议**  >  **用户**"，然后从列表中选择用户，然后单击"编辑 **"。** 

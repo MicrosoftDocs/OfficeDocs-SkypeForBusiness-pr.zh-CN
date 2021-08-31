@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7590d2041ed64f62765b33c291414abb618d1699
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b1c4c31687e5812c14b4a62deacb16fdd3550969
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625864"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725531"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>为 Microsoft Teams 推动认知并开展培训
 
@@ -45,7 +45,7 @@ ms.locfileid: "58625864"
 
 完成初始试点后，可以扩展上述工作，以覆盖整个组织。 根据你的大小，这可能需要一些时间，并按区域、用户配置文件或组织分阶段处理。 在此大规模推出期间，鼓励组织中通信者的参与。 我们建议这些人员尽早参与，并且通常使用可用的采用材料或设计自己的材料。
 
-如果您的公司有一个中央 Intranet 门户用于新闻、信息或支持，您可以使用它作为中心来了解此推出的信息。提供广泛可用的自助信息、培训和书面指南可让用户快速上手。 许多用户只需在可用Teams就跳入，我们鼓励这样做。 我们还知道，每个人都以不同方式学习;中心信息门户可以支持组织内的所有学习风格。
+如果您的公司有一个中央 Intranet 门户用于新闻、信息或支持，您可以使用它作为中心来了解此推出的信息。提供广泛可用的自助信息、培训和书面指南可让用户快速上手。 一旦可用，许多Teams就会跳入，我们鼓励这样做。 我们还知道，每个人都以不同方式学习;中心信息门户可以支持组织内的所有学习风格。
 
 ## <a name="implement-end-user-training"></a>实施最终用户培训
 
@@ -54,7 +54,7 @@ ms.locfileid: "58625864"
 - [教师引导型最终用户培训Teams](instructor-led-training-teams-landing-page.yml)
 - [管理员培训Teams](itadmin-readiness.md)
 - [在线最终用户视频培训](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
-- [云中咖啡在线培训，为& IT 专业人员](https://aka.ms/CoffeeintheCloud) 
+- [云中咖啡在线培训，& IT 专业人员](https://aka.ms/CoffeeintheCloud) 
 - [采用工具](https://aka.ms/O365AdoptionTools)
 
 ## <a name="measure-and-share-success"></a>度量和分享成功
@@ -71,4 +71,4 @@ ms.locfileid: "58625864"
 
 [若要详细了解Microsoft Teams使用情况报告，请Microsoft 365 管理中心。](teams-activity-reports.md)
 
-![一个图标，描述下一 ](media/teams-adoption-next-icon.png) 步骤"下 [一步：计划服务运行状况评审"](teams-adoption-schedule-service-health-reviews.md)
+![一个图标，描述接下来的步骤。](media/teams-adoption-next-icon.png) 下一 [步：计划服务运行状况评审](teams-adoption-schedule-service-health-reviews.md)

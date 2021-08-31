@@ -16,24 +16,24 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9973df9bc36319cfcac465363875398bb3e87aeeb6324e6e550c3356be9ace54
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: fe74237f1f1cfd93d92e0de01a01d3b576a82ec2
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347257"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727621"
 ---
 # <a name="configure-the-skype-meetings-app-to-work-with-teams"></a>将 Skype 会议应用配置为与 Teams 配合使用
 
-将用户升级到 Microsoft Teams后，管理员可以使用 Microsoft Teams 管理中心指定用户将用于加入会议的首选Skype for Business应用。
+将用户升级到 Microsoft Teams后，管理员可以使用 Microsoft Teams 管理中心指定用户用于加入会议的首选Skype for Business应用。
 
 若要将Skype应用的应用指定为首选应用，
 
 1. 登录到 Microsoft Teams 管理中心。
 2. 在左窗格中的"**组织范围的设置"下**，选择"Teams **升级"。**
-3. 在Teams页面的"应用首选项"下，从"首选Skype中选择"会议应用"，以便用户Skype for Business **会议** 下拉列表。
+3. 在Teams页面的"应用首选项"下，从"首选Skype中选择"会议应用"，以便Skype for Business **会议** 下拉列表。
 
-    ![为用户选择"首选应用"以Skype for Business会议](media/teams-configure-skype-meetings-app-to-work-with-teams-image1.png)
+    ![为要加入会议的用户选择Skype for Business应用。](media/teams-configure-skype-meetings-app-to-work-with-teams-image1.png)
 
 ## <a name="known-limitations"></a>已知限制
 

@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 8761008f-b239-4b95-bcd8-1011198dd070
 description: 启动拓扑生成器以配置 Microsoft Lync Server 2013 部署的属性和配置。 启动时，拓扑生成器显示一个对话框，询问拓扑文档的源是什么。 选择三个选项之一：
-ms.openlocfilehash: 6a856bec579ddbc551a4bf11e83fa754bc29adda
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 79684328510afb702c99967646725b35c7776bfd
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58587234"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727651"
 ---
 # <a name="topology-builder-startup-dialog"></a>拓扑生成器启动对话框
 
@@ -32,7 +32,7 @@ ms.locfileid: "58587234"
 
 - **新建拓扑** 选择此选项以开始新拓扑文档的配置。此选项打开您配置为满足要配置部署的要求的新拓扑文档。
 
-![拓扑生成器启动对话框](../../media/Topology_Builder_Startup_Dialog.jpg)
+![拓扑生成器启动对话框。](../../media/Topology_Builder_Startup_Dialog.jpg)
 
 ## <a name="see-also"></a>另请参阅
 

@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 8ca9bf7a-2d6f-48d5-a821-531009726525
 description: 摘要：查看通话质量仪表板的教程和开发示例。 通话质量仪表板是一种用于Skype for Business Server。
-ms.openlocfilehash: 83fdfdee2b7b55cb9ba0ef0651f8e1994bb182df
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3d6c813ea8df6a1b1c9b6c991767c45c85f9fb34
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603871"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727511"
 ---
 # <a name="cqd-development-samples"></a>CQD 开发示例
 
@@ -34,15 +34,15 @@ ms.locfileid: "58603871"
 
 通过 CQD，可以快速、轻松地访问本地部署和部署的Skype for Business Server信息。 CQD 由三个组件组成：QoE 存档数据库、多维数据集和门户。 门户是主要表示层，可以进一步划分为以下三个组件：
 
-1. 数据服务，可通过呼叫质量仪表板的数据 API 访问数据服务[ (CQD) CQD](data-api.md)Skype for Business Server。
+1. 数据服务，通过呼叫质量仪表板的数据 API 访问数据服务[ (CQD) CQD](data-api.md)Skype for Business Server。
 
-2. 存储库服务，通过 (中的呼叫质量仪表板 ([CQD) 存储库 API，](repository-api.md)经过身份验证Skype for Business Server。
+2. 存储库服务，通过 Skype for Business Server 中的呼叫质量仪表板 ([CQD](repository-api.md)) 存储库 API 供经过身份验证Skype for Business Server。
 
 3. Web 门户，它是 CQD 用户查看并与之交互的基于 HTML5 的界面。 这可由经过身份验证的用户访问。
 
 Web 门户上显示的报告分为"报告集"。 该图显示了一个报告集，其中具有两个报告。 以下仪表板中的每个报告显示了应用了各种筛选器的几个月内良好呼叫数、质量欠佳的呼叫和较差呼叫百分比的查询结果。 
 
-![CQD 示例报告](../../media/9e0723f7-f850-4d11-9ecd-7e8e013a8bed.png)
+![CQD 示例报告。](../../media/9e0723f7-f850-4d11-9ecd-7e8e013a8bed.png)
 
 CQD 是按照CQM (方法) 创建的，因此默认报告集旨在与 CQM 引入的调查流程保持一致。 用户还可以灵活地编辑或创建自定义报告以满足其需求。 但是，由于有多种可视化数据的方法，CQD 提供的可视化可能无法完全满足每个用户的需求。 在这种情况下，用户可以利用数据 API 和存储库 API 创建自定义报告页面。 我们将在本教程中介绍一系列示例。
 
@@ -52,17 +52,17 @@ CQD 是按照CQM (方法) 创建的，因此默认报告集旨在与 CQM 引入�
 
 ### <a name="building-customized-reports"></a>生成自定义报告
 
-CQD 在自定义报告方面已经具有很大的灵活性，但在某些情况下，用户可能希望跨 CQD 中创建的多个报告聚合数据。 例如，可能需要创建一个报告，该报告显示表中所有可能组合的有线呼叫的较差呼叫百分比， (结果类似下图) ：
+CQD 在自定义报告方面已经具有很大的灵活性，但在某些情况下，用户可能希望跨 CQD 中创建的多个报告聚合数据。 例如，可能需要创建一个报告，该报告显示表中有线呼叫的所有可能组合的较差呼叫百分比 (结果如下所示，如下所示) ：
 
-![CQD 表](../../media/ef19d535-5da6-44a9-91f6-1ed3f30b96f1.png)
+![CQD 表。](../../media/ef19d535-5da6-44a9-91f6-1ed3f30b96f1.png)
 
-使用 CQD 提供的门户，用户必须导航到多个报告，以提取和记录每个报告质量欠佳的呼叫百分比，如果有许多需要收集的数据点，这将非常费时。 数据 API 为用户提供了一种编程方式来完成此操作，方法为从数据服务应用程序检索数据 (例如，通过 AJAX) 。 
+使用 CQD 提供的门户，用户必须导航到多个报告，以提取和记录每个报告质量欠佳的呼叫百分比，如果有许多需要收集的数据点，这将非常费时。 数据 API 通过从数据服务应用程序检索数据（例如，通过 AJAX (）检索数据，为用户提供了一种编程方式) 。 
 
  **示例 1：简单报告示例**
 
 让我们首先看一个简单的示例。 如果我们希望在类似下图的 HTML 页面上显示 2015 年 2 月的音频良好流和音频错误流计数：
 
-![CQD 示例报告](../../media/f0e4e61f-1fa5-4d69-b192-f19e9612bf1c.png)
+![CQD 示例报告。](../../media/f0e4e61f-1fa5-4d69-b192-f19e9612bf1c.png)
 
 我们需要使用正确的参数向数据服务发送调用，并将查询结果显示在 HTML 表中。 下面是 JavaScript 代码的示例：
 
@@ -100,7 +100,7 @@ $($.fn.freeFormReport = function (queries, urlApi, presentation) {
 
 本示例可以进一步解构为三个步骤：
 
-1. 构造查询 (示例中，这是在变量"query") 。 查询定义为 JSON 对象，其中包含以下数据：
+1. 构造查询 (在"query"变量中定义) 。 查询定义为 JSON 对象，其中包含以下数据：
 
    a. 零个或多个维度。 每个维度由 DataModelName 指示。
 
@@ -120,15 +120,15 @@ $($.fn.freeFormReport = function (queries, urlApi, presentation) {
 
    b. data (这是在"query"变量变量中定义的 JSON 对象的字符串) 。 数据服务将返回查询结果，作为成功调用回叫函数的参数。
 
-   c. type (For QoEDataService， RunQuery only accepts 'POST' requests) .
+   c. type (QoEDataService，RunQuery 仅接受"POST") 。
 
-   d. async (一个标志，指示 AJAX 调用是同步调用还是异步调用) 。
+   d. async (一个标志，指示 AJAX 调用是同步调用还是异步) 。
 
    e. contentType (应为"application/json") 。
 
    f. success (AJAX 调用成功完成时调用的) 。
 
-   g. 错误 (AJAX 调用失败时的错误处理) 。
+   g. error (AJAX 调用失败时的错误处理) 。
 
 3. 在代码中的示例中，将数据放入 HTML (div 元素中，这是在 AJAX 请求成功完成之后通过匿名函数调用) 。
 
@@ -199,7 +199,7 @@ $($.fn.freeFormReport = function (queries, urlApi, presentation) {
 
 本示例将创建一个网页，如图所示，用户可以输入任何现有报告集 (或报表) 的 ID，并在此网页上显示报告集或报告的定义。 然后，用户可以将每个报告的 JSON 字符串插入类似于示例 1 中显示的代码，并构造用户期望的任何自定义报告。 
 
-![CQD 示例](../../media/01c45c23-c4d2-47b8-819f-0888cf71260f.png)
+![CQD 示例。](../../media/01c45c23-c4d2-47b8-819f-0888cf71260f.png)
 
 若要创建报告定义查看器工具，我们需要向存储库服务发送调用，以检索所需的每个报告集定义的 JSON 字符串表示形式。 存储库 API 将基于给定的报告集 ID 返回报告集定义。 
 
@@ -312,7 +312,7 @@ $($.fn.freeFormReport = function (queries, urlApi, presentation) {
 </html>
 ```
 
-上述内容将导致网页（如图 1 所示） (首次访问网站时没有) 。 从 CQD 门户获取报告集 ID (它在"/#/"登录 CQD 门户 URL 之后 (例如 第一个图的报告集 ID 为 3024) ，并在此网页的输入部分放入此报告集 ID。 按"load"按钮，查看有关 (、维度、筛选器列表) 报告集的完整定义。
+上述内容将导致网页（如图 1 所示） (首次访问网站时没有) 。 从 CQD 门户获取报告集 ID (在"/#/"登录 CQD 门户 URL 之后，例如 (ID。 第一个图的报告集 ID 为 3024) ，并在此网页的输入部分放入此报告集 ID。 按"load"按钮，查看报告 (、维度、筛选器) 的完整定义。
 
 总之，为了快速获取报告/报告集的完整定义。 步骤如下：
 
@@ -349,14 +349,14 @@ $($.fn.freeFormReport = function (queries, urlApi, presentation) {
    ],
    ```
 
-   此处的维度  `[Scenarios].[ScenarioPair]` 设置为等于 `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]` 。 `[Scenario.][ScenarioPair]`是创建以简化报告创建的特殊维度。 它的六个值对应于 `[FirstIsServer], [SecondIsServer], [FirstInside], [SecondIsServer], [FirstConnectionType], [SecondConnectionType]` 。 因此，我们只需要使用 1 个筛选器，而不是使用 6 个筛选器的组合来定义方案。 在我们的示例中，值转换为以下方案：第一个为服务器，第二个为非服务器，第一个为内部，第一个连接类型为有线，第二个连接类型为有线，这是  `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]` "Server-Client-Inside Wired"的确切定义。
+   此处的维度  `[Scenarios].[ScenarioPair]` 设置为等于 `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]` 。 `[Scenario.][ScenarioPair]`是创建以简化报告创建的特殊维度。 它的六个值对应于 `[FirstIsServer], [SecondIsServer], [FirstInside], [SecondIsServer], [FirstConnectionType], [SecondConnectionType]` 。 因此，我们只需要使用 1 个筛选器，而不是使用 6 个筛选器的组合来定义方案。 在我们的示例中，值转换为以下方案：第一个为服务器，第二为非服务器，第一个为内部，第一个连接类型为有线，第二个连接类型为有线，这是  `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]` "Server-Client-Inside Wired"的确切定义。
 
-3. 每个方案创建一个筛选器集。 在图中，记分卡的每一行表示不同的方案，即不同的筛选器 (而维度和度量保持不变) 。 
+3. 每个方案创建一个筛选器集。 图中记分卡的每一行表示不同的方案，该方案将为不同的筛选器 (而维度和度量保持不变) 。 
 
 4. 分析来自 AJAX 调用的结果，然后将它们放在表的正确位置。 由于这主要是 HTML 和 JavaScript 操作，因此我们不会在此处详细介绍。 相反，代码在附录 A 中提供。
 
     > [!NOTE]
-    >  如果启用跨源资源 (CORS) ，则用户可能会遇到"请求的资源上不存在'Access-Control-Allow-Origin'标头等错误。 因此，不允许访问源"null"。 若要解决此问题，将 HTML 文件放在默认情况下安装门户 (文件夹下，该文件应为 `%SystemDrive%\Program Files\Skype for Business 2015 CQD\CQD)` 。 然后，通过具有 URL 的任何浏览器访问  `http://<servername>/cqd/<html_file_name>` html。  (本地 CQD 仪表板的默认 URL  `http://<servername>/cqd.`)  
+    >  如果启用跨源资源 (CORS) ，用户可能会遇到"请求的资源上不存在'访问控制-允许-来源'标头等错误。 因此，不允许访问源"null"。 若要解决此问题，将 HTML 文件放在默认情况下安装门户 (文件夹下，该文件应为 `%SystemDrive%\Program Files\Skype for Business 2015 CQD\CQD)` 。 然后，通过具有 URL 的任何浏览器访问  `http://<servername>/cqd/<html_file_name>` html。  (本地 CQD 仪表板的默认 URL 为  `http://<servername>/cqd.`)  
 
 ### <a name="appendix-a"></a>附录 A
 

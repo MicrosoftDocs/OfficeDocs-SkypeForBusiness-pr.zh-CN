@@ -1,5 +1,5 @@
 ---
-title: 规划会议会议Skype for Business Server
+title: 规划会议拓扑Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,18 +12,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 7392dfa7-791a-4723-88ff-0ef8a9ef11c8
 description: 摘要：阅读本主题，了解如何在 Skype for Business Server 中规划会议Skype for Business Server。
-ms.openlocfilehash: d5a048603e68b020f0aba750a4dd34cfd334f182
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 09d793a75ab72ef96d3ded85156c99a7590e087d
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599907"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732631"
 ---
-# <a name="plan-your-conferencing-topology-for-skype-for-business-server"></a>规划会议会议Skype for Business Server
+# <a name="plan-your-conferencing-topology-for-skype-for-business-server"></a>规划会议拓扑Skype for Business Server
  
 **摘要：** 阅读本主题，了解如何在 Skype for Business Server 中规划会议Skype for Business Server。
   
-本主题介绍会议拓扑结构Skype for Business Server：
+本主题介绍用于会议的基本Skype for Business Server：
   
 - 受支持的拓扑
     
@@ -45,13 +45,13 @@ ms.locfileid: "58599907"
     
 - Skype for Business Server Enterprise Edition
     
-- 有或没有企业语音
+- 具有或不带企业语音
     
 ## <a name="dial-in-conferencing-considerations"></a>电话拨入式会议注意事项
 
 如果要部署电话拨入式会议，则必须考虑以下事项：
   
-- 电话拨入式会议需要中介服务器在 Skype for Business Server 和 PSTN 网关之间的某些配置) 中转换信号 (和媒体，需要 PSTN 网关在中介服务器和 PSTN 网关之间转换信号和媒体。
+- 电话拨入式会议需要中介服务器在 Skype for Business Server 与 PSTN 网关之间的某些配置) 中转换信号 (和媒体，需要 PSTN 网关在中介服务器和 PSTN 网关之间转换信号和媒体。
     
    在配置电话拨入式会议之前，您需要部署 企业语音 或中介服务器以及至少以下其中一项：
     
@@ -61,9 +61,9 @@ ms.locfileid: "58599907"
     
   - 会话边界控制器 (SBC)（用于通过配置 SIP 中继进行连接的 Internet 电话服务提供商）
     
-- 可以在中央站点中会议助理应用程序应用程序服务会议公告应用程序应用程序服务，但不能在分支站点部署应用程序服务。
+- 可以在中央站点中会议助理应用程序应用程序服务会议公告应用程序应用程序服务，但不能在分支站点中部署应用程序服务。
     
-- 必须在部署电话拨入式会议的每一个池中部署Skype for Business Server会议。 无需在每个池中分配访问号码，但必须在每个池中部署电话拨入式会议功能。 当用户从一个池中呼叫访问号码以加入另一个池中Skype for Business Server会议时，此要求支持记录的名称功能。 
+- 必须在部署电话拨入式会议的每一个池中部署Skype for Business Server会议。 无需在每个池中分配访问号码，但必须在每个池中部署电话拨入式会议功能。 当用户从一个池中呼叫访问号码以加入另一个池中的 Skype for Business Server 会议时，此要求支持记录的名称功能。 
     
 有关详细信息，请参阅 Plan [for dial-in conferencing in Skype for Business Server](dial-in-conferencing.md)。
   
@@ -80,17 +80,17 @@ Web 会议需要以下各项：
   
 Skype for Business Server提供了以下配置 Web Apps Office/Office Online Server。 根据您的需要，可以：
   
-- **在Skype for Business Server Office网络Office Online Server安装 Web Apps Server/Office Web Apps Server/Office Online Server Web Apps Server/web Apps Server/Web** 借助此拓扑，Office反向代理服务器Office Online Server Web Apps Server/Office Online Server 外部访问。 理想情况下，您应Office Web Apps Server/Office Online Server Web Apps Server/Skype for Business Server。
+- **在Skype for Business Server Office网络Office Online Server安装 Web Apps Server/Office Web Apps Server/Office Online Server Web Apps Server/web Apps Server/Web** 借助此拓扑，Office反向代理服务器Office Online Server Web Apps Server/Office Online Server外部访问。 理想情况下，您应Office Web Apps Server/Office Online Server Web Apps Server/Skype for Business Server。
     
     外部 Skype for Business 客户端可以使用反向代理服务器连接到 Skype for Business Server 和 Office Web Apps Server/Office Online Server，反向代理服务器是一台从 Internet 接受请求并转发到内部网络的服务器。  (内部客户端不需要使用反向代理服务器，因为它们可以直接连接到 Office Web Apps Server/Office Online Server。) 如果要使用仅由 Skype for Business Server 使用的专用 Office Web Apps Server/Office Online Server 场，则此拓扑最有效。
     
-- **使用 Web Apps Server/Office外部部署Office Online Server。** 在此拓扑中，Skype for Business Server本地部署，并使用 Office Web Apps Server/Office Online Server，该服务器部署在 Skype for Business Server 网络区域之外。 当 Office Web Apps Server/Office Online Server 跨公司中的多个应用程序共享，并且部署在要求 Skype for Business Server 使用 Office Web Apps Server/Office Online Server 外部接口的网络中时，可能会发生这种情况，反之亦然。
+- **使用 Web Apps Server/Office外部部署Office Online Server。** 在此拓扑中，Skype for Business Server内部部署，并使用 Office Web Apps Server/Office Online Server，该服务器部署在 Skype for Business Server 网络区域之外。 当 Office Web Apps Server/Office Online Server 跨公司中的多个应用程序共享，并且部署在要求 Skype for Business Server 使用 Office Web Apps Server/Office Online Server 外部接口的网络中时，可能会发生这种情况，反之亦然。
     
-    无需安装反向代理服务器;相反，来自 Office Web Apps Server/Office Online Server Skype for Business Server的所有请求都通过边缘服务器进行路由。 内部和外部客户端都Skype for Business外部 URL 连接到 Office Web Apps Server/Office Online Server Web Apps Server/Office Online Server。
+    无需安装反向代理服务器;相反，来自 Office Web Apps Server/Office Online Server 的所有Skype for Business Server都通过边缘服务器进行路由。 内部客户端和外部 Skype for Business客户端都Office外部 URL Office Online Server Web Apps Server/Office Online Server Web Apps 服务器。
     
-    如果 Office Web Apps Server/Office Online Server 部署在内部防火墙之外，则选择选项 **"Office Web Apps 服务器** 部署在外部网络 (中，即拓扑生成器中的外围/Internet) "。
+    如果 Office Web Apps Server/Office Online Server 部署在内部防火墙之外，则选择"在外部网络 (中部署 **Office Web Apps 服务器**"选项，即拓扑生成器中的外围/Internet) 。
     
-有关详细信息，请参阅 Configure [integration with Office Web Apps Server in Skype for Business Server。](../../deploy/deploy-conferencing/office-web-app-server.md) 
+有关详细信息，请参阅 Configure [integration with Office Web Apps Server in Skype for Business Server](../../deploy/deploy-conferencing/office-web-app-server.md)。 
   
 无论您选择什么拓扑，打开正确的防火墙端口至关重要。 必须确保 Office Web Apps Server/Office Online Server、负载平衡器或 Skype for Business Server 上的防火墙不会阻止 DNS 名称、IP 地址和端口。
   
@@ -103,7 +103,7 @@ Skype for Business Server提供了以下配置 Web Apps Office/Office Online Ser
   
 **大型会议拓扑**
 
-![大型会议拓扑](../../media/06858900-a262-4a47-96d0-51abd6827064.png)
+![大型会议拓扑。](../../media/06858900-a262-4a47-96d0-51abd6827064.png)
   
 主持大型会议的用户必须将其用户帐户托管在前端池中。 但是，建议您不要在此池中承载其他用户帐户。 相反，请仅对大型会议使用它。 最佳做法是在此池中创建一个仅用于主持大型会议的特殊用户帐户。 由于大型会议设置已针对性能进行了优化，因此作为普通用户使用它可能会遇到一些问题，例如当涉及 PSTN 终结点时无法将 P2P 会话提升为会议。
   
@@ -115,8 +115,8 @@ Skype for Business Server提供了以下配置 Web Apps Office/Office Online Ser
   
 - 文件共享是存储会议内容以及存档服务器（如果已部署并启用存档服务器）存储存档文件所需的。 文件共享可专用于池，也可以是已部署该池的站点中的另一个池所使用的同一文件共享。 有关配置文件共享的详细信息，请参阅 Create [a file share in Skype for Business Server 2015](../../deploy/install/create-a-file-share.md)。
     
-- 需要Office Web Apps Server/Office Online Server，才能在大型会议中PowerPoint演示文稿功能。 Office Web Apps Server/Office Online Server 可以专用于大型会议池，也可以与部署专用池的站点的其他池使用的 Office Web Apps Server/Office Online Server 相同。 有关详细信息，请参阅 Configure [integration with Office Web Apps Server in Skype for Business Server。](../../deploy/deploy-conferencing/office-web-app-server.md) 
+- 需要Office Web Apps Server/Office Online Server，才能在大型会议中PowerPoint演示文稿功能。 Office Web Apps Server/Office Online Server 可以专用于大型会议池，也可以与部署专用池的站点的其他池使用的 Office Web Apps Server/Office Online Server 相同。 有关详细信息，请参阅 Configure [integration with Office Web Apps Server in Skype for Business Server](../../deploy/deploy-conferencing/office-web-app-server.md)。 
     
-- 前端服务器的负载平衡要求对 HTTP 流量进行硬件负载平衡 (如会议内容下载) 。 建议对 SIP 流量实现 DNS 负载平衡。 有关详细信息，请参阅[Load balancing requirements for Skype for Business](../../plan-your-deployment/network-requirements/load-balancing.md)。 
+- 前端服务器的负载平衡需要对 HTTP 流量进行硬件负载平衡 (如会议内容下载) 。 建议对 SIP 流量实现 DNS 负载平衡。 有关详细信息，请参阅[Load balancing requirements for Skype for Business](../../plan-your-deployment/network-requirements/load-balancing.md)。 
     
 - 如果要将监控服务器用于专用大型会议池，我们建议使用监控服务器及其数据库，这些数据库在部署中跨所有前端服务器池Skype for Business Server共享。 有关详细信息，请参阅 Plan [for monitoring in Skype for Business Server](../../plan-your-deployment/monitoring.md)。

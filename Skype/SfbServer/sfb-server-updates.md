@@ -13,16 +13,16 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: 在一个地方查找和管理 Skype for Business Server 2015/2019 和 Lync 2013 的更新。 单击此页面上的链接可以详细了解并下载这些更新。
-ms.openlocfilehash: 6071dabddebcce05c3dffee7578a432217a0f6cd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: aa9ae8c2b3b28790028635a9604687995549e6eb
+ms.sourcegitcommit: 22328f851153f3768175321b8b128a672d6adc50
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590946"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "58807445"
 ---
 # <a name="skype-for-business-server-updates"></a>Skype for Business Server 更新
 
-在一个地方查找和管理[Skype for Business Server 2019、Skype for Business Server 2015、Lync](#skype-for-business-server-2019-update-history) [Server 2013](#lync-server-2013-update-history)和[Lync Server 2010](#lync-server-2010-update-history)的更新。 [](#skype-for-business-server-2015-update-history) 单击此页面上的链接可以详细了解并下载这些更新。
+在一个地方查找和管理[Skype for Business Server 2019、Skype for Business Server](#skype-for-business-server-2019-update-history) [2015、Lync](#skype-for-business-server-2015-update-history) [Server 2013](#lync-server-2013-update-history)和[Lync Server 2010](#lync-server-2010-update-history)的更新。 单击此页面上的链接可以详细了解并下载这些更新。
 
 有关最新 Skype for Business Online Microsoft 365更新，请参阅 Microsoft 365[路线图](https://go.microsoft.com/fwlink/p/?linkid=529454)。
 
@@ -56,6 +56,7 @@ KB 4470124是 Skype for Business Server 2019 的主 KB，具有已发布的所�
 
 |程序包名称|KB 编号|发布日期|
 |:--- |:--- |:--- |
+|Skype for Business Server 2015 累积更新 12|[KB 3061064](https://support.microsoft.com/kb/3061064)| 2021 年 8 月 |
 |Skype for Business Server 2015 累积更新 11 修补程序 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| 2020 年 7 月 |
 |Skype for Business Server 2015 累积更新 11|[KB 3061064](https://support.microsoft.com/kb/3061064)| 2020 年 5 月 13 日 |
 |Skype for Business Server 2015 累积更新 10 修补程序 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| 2019 年 8 月 |
@@ -161,7 +162,7 @@ KB 4470124是 Skype for Business Server 2019 的主 KB，具有已发布的所�
 | Lync Server 2013 白板存档查看器 |2013 年 2 月 |
 |[Lync VDI 2013 插件 (32 位) ](https://www.microsoft.com/download/details.aspx?id=35457) |2012 年 10 月 |
 |[Lync VDI 2013 插件 (64 位) ](https://www.microsoft.com/download/details.aspx?id=35454) |2012 年 10 月 |
-|[新Office Visio模具](https://www.microsoft.com/download/details.aspx?id=35772) |2016 年 7 月 |
+|[新建Office Visio模具](https://www.microsoft.com/download/details.aspx?id=35772) |2016 年 7 月 |
 
 ### <a name="lync-2013-downloadable-documentation"></a>Lync 2013 可下载文档
 
@@ -268,6 +269,7 @@ KB 4470124是 Skype for Business Server 2019 的主 KB，具有已发布的所�
 
 ## <a name="related-topics"></a>相关主题
 
-- [Install Skype for Business Server 2015](./deploy/install/install.md)
+- [安装 Skype for Business Server 2015](./deploy/install/install.md)
 - [升级到 Skype for Business Server 2015](./deploy/upgrade-to-skype-for-business-server.md)
-- [使用 MSI 安装程序Skype for Business安装程序Windows版本的 (最新) ](sfb-client-updates.md)
+- [使用 WINDOWS Installer Skype for Business MSI (的) ](sfb-client-updates.md)
+- 

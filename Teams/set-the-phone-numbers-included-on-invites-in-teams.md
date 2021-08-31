@@ -21,13 +21,13 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: 按照以下步骤创建默认电话号码，让呼叫者Microsoft Teams会议。
-ms.openlocfilehash: 34fd1592729e18978e1bf5c3aa65e29659092cab
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 按照以下步骤创建默认电话号码，让呼叫者加入Microsoft Teams会议。
+ms.openlocfilehash: 4c740147e551dade443852a98c5cdafac047815f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608799"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732711"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>在 Microsoft Teams 中设置包含在邀请中的电话号码
 
@@ -51,7 +51,7 @@ ms.locfileid: "58608799"
 
 ## <a name="set-or-change-the-default-audio-conferencing-phone-number-for-a-meeting-organizer-or-user"></a>设置或更改会议组织者或用户的默认音频会议电话号码
 
-![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
+![一个图标，显示Microsoft Teams徽标。](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
 
 必须是 Teams 服务管理员才能管理这些策略。 请参阅 [Teams 管理员角色管理 Teams](./using-admin-roles.md) ，了解管理员角色和权限。
 
@@ -59,13 +59,13 @@ ms.locfileid: "58608799"
 
 2. 在左侧导航栏中，单击"用户 **"。**
 
-    ![显示在管理中心Microsoft Teams用户](media/Admin-users.png)
+    ![显示在管理中心Microsoft Teams用户。](media/Admin-users.png)
 
 3. 从可用用户列表中单击用户名。
 
 4. 在 **音频会议** 旁边，单击 **编辑**。
 
-    ![单击"音频会议"旁边的"编辑"](media/teams-set-phone-numbers-on-invites-image3.png)
+    ![单击"音频会议"旁边的"编辑"。](media/teams-set-phone-numbers-on-invites-image3.png)
 
 5. 使用 **"收费电话号码** " **或"免费** 电话号码"字段输入用户号码。
 
@@ -74,11 +74,11 @@ ms.locfileid: "58608799"
 
 ## <a name="want-to-use-windows-powershell"></a>想要使用Windows PowerShell
 
-Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用 Windows PowerShell，Microsoft 365或Office 365单点管理，可在有多个任务需要执行时简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
+Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用Windows PowerShell，Microsoft 365管理Office 365单点管理，可在有多个任务需要执行时简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
 
 - [为什么要使用 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
-- [使用 Microsoft 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+- [使用 Microsoft 365 Office 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 
 若要使用 [Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps)为会议组织者或用户设置或更改默认音频会议电话号码，将 **`ServiceNumber`** **`TollFreeServiceNumber`** [Set-CsOnlineDialInConferencingUser](/powershell/module/skype/set-CsOnlineDialInConferencingUser?view=skype-ps) cmdlet 的 或 参数设置为可用号码之一。
 

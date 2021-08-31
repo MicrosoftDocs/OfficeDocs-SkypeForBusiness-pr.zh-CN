@@ -18,12 +18,12 @@ description: 了解向用户和组中用户和组分配策略包Microsoft Teams�
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 711e0fd321dd9eff16ad37d0f662c9f72159a955
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fb7d402ab8a280a724562eec7820f1cad06ea52f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601197"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727191"
 ---
 # <a name="assign-policy-packages-to-users-and-groups"></a>将策略包分配给用户和组
 
@@ -38,11 +38,11 @@ Teams策略包是预定义的策略和策略设置的集合，可以分配给组
 
 ### <a name="assign-a-policy-package-to-one-user"></a>将策略包分配给一个用户
 
-1. 在管理中心的左侧导航Microsoft Teams，转到"**用户"，** 然后选择该用户。
+1. 在管理中心的左侧导航Microsoft Teams，转到"**用户"，** 然后选择用户。
 2. 在用户的页面上，选择"策略 **"，** 然后在"策略包"**旁边** 选择"编辑 **"。**
 3. 在"**分配策略包"** 窗格中，选择要分配的包，然后选择"保存 **"。**
 
-![Teams用户的策略包分配的管理中心屏幕截图](media/assign-policypackages-user.png)
+![Teams管理中心屏幕截图，显示向用户分配策略包。](media/assign-policypackages-user.png)
 
 ### <a name="assign-a-policy-package-to-multiple-users"></a>将策略包分配给多个用户
 
@@ -51,7 +51,7 @@ Teams策略包是预定义的策略和策略设置的集合，可以分配给组
 3. 在“**管理用户**”窗格中，按显示名称或用户名搜索用户，选择用户名，然后选择“**添加**”。 对想要添加的每一个用户重复此步骤。
 4. 添加完用户后，选择"保存 **"。**
 
-![Teams多个用户的策略包分配管理中心屏幕截图](media/assign-policypackages-multipleusers.png)
+![Teams多个用户的策略包分配的管理中心屏幕截图。](media/assign-policypackages-multipleusers.png)
 
 ## <a name="assign-a-policy-package-to-a-group"></a>将策略包分配给组。
 
@@ -62,7 +62,7 @@ Teams策略包是预定义的策略和策略设置的集合，可以分配给组
 分配策略包时，会立即将其分配给组。 但是，将策略分配传播到组的成员以后台操作方式执行，可能需要一些时间，具体取决于组的大小。 从组取消分配策略时，或者将成员添加到组或从组中删除成员时，也是如此。
 
 > [!IMPORTANT]
-> 在开始使用之前，必须了解 (规则)  ([组分配) 。](assign-policies-users-and-groups.md#group-assignment-ranking) [](assign-policies-users-and-groups.md#precedence-rules) 请务必阅读并了解本文前面 (组的策略分配) 了解的概念[](assign-policies-users-and-groups.md#what-you-need-to-know-about-policy-assignment-to-groups)。
+> 在开始使用之前，必须了解 (规则)  ([组分配) 。](assign-policies-users-and-groups.md#group-assignment-ranking) [](assign-policies-users-and-groups.md#precedence-rules) 请确保阅读并了解本文 (组的策略分配) 了解。 [](assign-policies-users-and-groups.md#what-you-need-to-know-about-policy-assignment-to-groups)
 
 ### <a name="assign-a-policy-package-to-a-group-of-users-in-the-admin-center"></a>将策略包分配给管理中心中的一组用户
 
@@ -79,7 +79,7 @@ Teams策略包是预定义的策略和策略设置的集合，可以分配给组
 
     d. 选择"**应用"。**
 
-![显示组策略分配](media/group-pkg-assignment.png)
+![显示组策略分配。](media/group-pkg-assignment.png)
 
 5. 若要管理特定策略类型的排名，请导航到特定策略页。
 6. 若要将策略包重新分配到组，请首先删除组策略分配。 然后，按照上述步骤将策略包分配到组。
@@ -92,7 +92,7 @@ Teams策略包是预定义的策略和策略设置的集合，可以分配给组
 
 #### <a name="assign-a-policy-package-to-a-group-of-users"></a>将策略包分配给一组用户
 
-使用 [Grant-CsGroupPolicyPackageAssignment](/powershell/module/teams/grant-csgrouppolicypackageassignment) cmdlet 将策略包分配给组。 可以使用对象 ID、SIP 地址或电子邮件地址指定组。 分配策略包时，请为策略包 ([策略) ](assign-policies-users-and-groups.md#group-assignment-ranking) 指定组分配排名。
+使用 [Grant-CsGroupPolicyPackageAssignment](/powershell/module/teams/grant-csgrouppolicypackageassignment) cmdlet 将策略包分配给组。 可以使用对象 ID、SIP 地址或电子邮件地址指定组。 分配策略包时，请 ([策略包) ](assign-policies-users-and-groups.md#group-assignment-ranking) 策略类型的组分配排名。
 
 本示例将 Education_Teacher 策略包分配给一个组，TeamsAppSetupPolicy 和 TeamsMeetingBroadcastPolicy 的分配排名为 1，TeamsMeetingPolicy 的排名为 2。
 
@@ -104,13 +104,13 @@ Grant-CsGroupPolicyPackageAssignment -GroupId "dae90bb4-120f-4a3e-a15d-30f142e79
 
 使用批处理策略包分配，可以一次向大量用户分配策略包，而无需使用脚本。 使用 [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) cmdlet 提交一批用户和要分配的策略包。 作业将作为后台操作处理，并为每个批处理生成操作 ID。 然后，可以使用 [Get-CsBatchPolicyAssignmentOperation](/powershell/module/teams/get-csbatchpolicyassignmentoperation) cmdlet 跟踪批处理中分配的进度和状态。
 
-根据用户的对象 ID 或会话启动协议 (SIP) 地址。 用户的 SIP 地址通常具有与 UPN 用户主体名称 (UPN) 相同的值，但这不是必需的。 如果用户是使用其 UPN 或电子邮件指定的，但其值不同于其 SIP 地址，则策略分配将失败。 如果批处理包含重复用户，则在处理之前将从批处理中删除重复项，并且只会为批中剩余的唯一用户提供状态。
+根据用户的对象 ID 或会话启动协议 (SIP) 地址。 用户的 SIP 地址通常具有与 UPN (或电子邮件地址) "用户主体名称"相同的值，但这不是必需的。 如果用户是使用其 UPN 或电子邮件指定的，但其值不同于其 SIP 地址，则策略分配将失败。 如果批处理包含重复用户，则在处理之前将从批处理中删除重复项，并且只会为批中剩余的唯一用户提供状态。
 
 一个批最多包含 5，000 个用户。 为获得最佳结果，不要一次提交多个批次。 允许批处理在提交更多批之前完成处理。
 
 ### <a name="use-the-teams-powershell-module"></a>使用 Teams PowerShell 模块
 
-如果尚未安装[PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) Microsoft Teams，请 (运行以下代码来安装) 。 请确保安装版本 1.0.5 或更高版本。
+如果尚未安装[PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) Microsoft Teams， (运行以下代码) 。 请确保安装版本 1.0.5 或更高版本。
 
 ```powershell
 Install-Module -Name MicrosoftTeams
@@ -126,7 +126,7 @@ Connect-MicrosoftTeams
 
 ### <a name="assign-policy-packages-to-a-batch-of-users"></a>将策略包分配给一批用户
 
-本示例使用 [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) cmdlet 将Education_PrimaryStudent策略包分配给一批用户。
+本示例使用 [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) cmdlet 将 Education_PrimaryStudent 策略包分配给一批用户。
 
 ```powershell
 New-CsBatchPolicyPackageAssignmentOperation -Identity 1bc0b35f-095a-4a37-a24c-c4b6049816ab,user1@econtoso.com,user2@contoso.com -PackageName Education_PrimaryStudent

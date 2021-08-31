@@ -15,13 +15,13 @@ ms.collection:
 - M365-voice
 search.appverid: MET150
 ms.localizationpriority: medium
-description: 本文提供有关如何使用面板Teams的指导。
-ms.openlocfilehash: 0fccd3e733cdeec2cfe84b721cbade5834b05b03
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 本文提供有关如何使用面板Teams指南。
+ms.openlocfilehash: a172eab55e8e9b16432da5ce2f26b39cf71886d3
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626264"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732701"
 ---
 # <a name="how-to-use-microsoft-teams-panels"></a>如何使用Microsoft Teams面板
 
@@ -31,9 +31,9 @@ Teams面板设备预安装有 Microsoft Teams，并显示通过日历或日历Ou
 
 本文为最终用户和管理员提供有关如何使用 Teams设备的指南。 它还提供有关使用这些 [设备的](#frequently-asked-questions) 常见问题的解答。
 
-有关面板设备的概述，以及有关如何在组织中计划、传送和管理它们的指导，请参阅部署Microsoft Teams[面板](teams-panels.md)。
+有关面板设备的概述，以及如何在组织中计划、传送和管理它们的指导，请参阅部署Microsoft Teams[面板](teams-panels.md)。
 
-有关快速入门，请查看[开始使用Teams面板](https://support.microsoft.com/office/get-started-with-teams-panels-fa5e85d1-7ff3-4f11-b0b0-277e2302c8be)。
+有关快速入门，请查看仪表板[Teams入门。](https://support.microsoft.com/office/get-started-with-teams-panels-fa5e85d1-7ff3-4f11-b0b0-277e2302c8be)
 
 ## <a name="teams-panels-end-user-experience"></a>Teams面板最终用户体验
 
@@ -46,15 +46,15 @@ Teams面板设备预安装有 Microsoft Teams，并显示通过日历或日历Ou
 - [报告问题](#report-a-problem)
 - [查看或更新设备设置](#view-or-update-a-device-setting)
 
-## <a name="explore-teams-panels-home-screen"></a>浏览Teams主屏幕
+## <a name="explore-teams-panels-home-screen"></a>浏览Teams"主屏幕"
 
-主屏幕是仪表板设备的主要可视Teams界面。  
+主屏幕是主机面板设备Teams界面。  
 
 在主屏幕中，可以查看位置和会议详细信息、预留空间、查看即将到来的预订，以及确定当前可用性状态。
 
-以下屏幕截图显示了"主页"面板上的Teams或磁贴：
+以下屏幕截图显示"主页"面板上的Teams或磁贴：
 
-:::image type="content" source="../media/panels-home-screen-explanation.png" alt-text="此屏幕截图显示主屏幕上的Teams区域":::
+:::image type="content" source="../media/panels-home-screen-explanation.png" alt-text="此屏幕截图显示"开始"面板Teams上的不同区域。":::
 
 请参阅下表，了解每个磁贴的说明：
 
@@ -71,9 +71,9 @@ Teams面板设备预安装有 Microsoft Teams，并显示通过日历或日历Ou
 
 #### <a name="meeting-space-is-reserved-for-a-scheduled-meeting"></a>为计划的会议保留会议空间
 
-对于为通过会议或会议计划的会议 (保留的会议空间，磁贴Outlook紫色Teams) 。 它以醒目文本显示会议标题、会议开始时间和结束时间以及会议组织者的姓名。 对于Teams会议，还会Teams徽标。 在突出显示会议详细信息后，与会者可以轻松确认他们位于正确的会议空间、适当的时间以及合适的会议。
+该磁贴显示为紫色，用于为通过会议或会议 (安排的会议Outlook会议Teams) 。 它以醒目文本显示会议标题、会议开始时间和结束时间以及会议组织者的姓名。 对于Teams会议，还会Teams徽标。 在突出显示会议详细信息后，与会者可以轻松确认他们位于正确的会议空间、适当的时间以及合适的会议。
 
-:::image type="content" source="../media/panels-right-tile-scheduled-meeting.png" alt-text="Teams面板主屏幕，显示会议空间已预留给计划的会议":::
+:::image type="content" source="../media/panels-right-tile-scheduled-meeting.png" alt-text="Teams面板主屏幕，显示会议空间已预留给计划会议。":::
 
 > [!NOTE]
 >
@@ -84,17 +84,17 @@ Teams面板设备预安装有 Microsoft Teams，并显示通过日历或日历Ou
 
 为临时会议保留的会议空间的磁贴显示为 [紫色](#reserve-meeting-spaces-for-ad-hoc-meetings)。 它以 **醒目** 文本显示"保留"以及会议开始时间和结束时间。 临时会议自动安排为Teams会议，因此Teams徽标始终显示在屏幕上。
 
-:::image type="content" source="../media/panels-right-tile-reserved-adhoc.png" alt-text="Teams面板主屏幕，显示为临时会议保留了会议空间":::
+:::image type="content" source="../media/panels-right-tile-reserved-adhoc.png" alt-text="Teams面板主屏幕，显示为临时会议保留了会议空间。":::
 
 #### <a name="meeting-space-is-available"></a>会议空间可用
 
-该磁贴以绿色显示，表示可用的会议空间。 它以 **醒目** 的文本显示"可用"，并且还会显示"保留"按钮，您可以点击来为临时 [会议保留会议空间](#reserve-meeting-spaces-for-ad-hoc-meetings)。 可以在右下 (磁贴中) 会议空间的即将到来的日历，以决定临时会议结束时间。
+该磁贴以绿色显示，表示可用的会议空间。 它以 **醒目** 的文本显示"可用"，并且还会显示"保留"按钮，您可以点击来为临时 [会议保留会议空间](#reserve-meeting-spaces-for-ad-hoc-meetings)。 可以在右下 (磁贴中查看即将) 日历，以决定临时会议结束时间。
 
-:::image type="content" source="../media/panels-right-tile-available-status.png" alt-text="此屏幕截图显示Teams可用会议空间时"主屏幕"的显示方式":::
+:::image type="content" source="../media/panels-right-tile-available-status.png" alt-text="此屏幕截图显示Teams可用时"主屏幕"的显示方式。":::
 
 ## <a name="reserve-meeting-spaces-for-ad-hoc-meetings"></a>为临时会议保留会议空间
 
-可以直接从 [临时会议](#meeting-space-is-available) 面板中保留可用的会议空间。 所有临时会议都自动安排为Teams会议。 但是，一旦保留，你无法通过面板释放或取消保留该会议空间。 只有设备资源帐户的管理员可以通过 (或 Outlook 日历Teams取消) 临时会议) 来取消预订空间。
+可以直接从 [临时会议](#meeting-space-is-available) 面板中保留可用的会议空间。 所有临时会议都自动安排为Teams会议。 但是，一旦保留，你无法通过面板释放或取消保留该会议空间。 只有设备资源帐户的管理员可以通过 (或 Outlook 日历Teams取消) 临时会议) 来取消空间。
 
 对于直接从面板预订的临时会议：
 
@@ -104,10 +104,10 @@ Teams面板设备预安装有 Microsoft Teams，并显示通过日历或日历Ou
 为临时会议保留可用的会议空间：
 
 1. 在"主页"屏幕上，点击" **保留"** 按钮。
-    :::image type="content" source="../media/panels-reserve.png" alt-text="Teams显示"保留"按钮的主屏幕":::
+    :::image type="content" source="../media/panels-reserve.png" alt-text="Teams显示"保留"按钮的主屏幕。":::
 2. 在 **临时会议屏幕** 中，查看可用的结束时间选项。 可以使用向右或向左箭头浏览可用的结束时间选项。
 
-    :::image type="content" source="../media/panels-reserve-endtime.png" alt-text="显示结束时间槽位的临时会议屏幕":::
+    :::image type="content" source="../media/panels-reserve-endtime.png" alt-text="显示结束时间槽位的临时会议屏幕。":::
 
     > [!Note]
     >
@@ -118,19 +118,19 @@ Teams面板设备预安装有 Microsoft Teams，并显示通过日历或日历Ou
 3. 点击所需的结束时间间隔，然后点击"保留 **"。**
 
     将显示一个确认窗口，显示一个缩略图，显示表情符号、会议开始时间和结束时间以及会议空间名称。
-    :::image type="content" source="../media/panels-reserve-confirmation.png" alt-text="临时会议确认消息":::
+    :::image type="content" source="../media/panels-reserve-confirmation.png" alt-text="临时会议确认消息。":::
 "开始"屏幕上的右磁贴现在以紫色显示，并显示保留文本和Teams徽标。 这表示现在为临时临时会议保留Teams空间。
   
-    :::image type="content" source="../media/panels-right-tile-reserved-adhoc.png" alt-text="显示为临时会议保留会议空间的主屏幕":::
+    :::image type="content" source="../media/panels-right-tile-reserved-adhoc.png" alt-text="显示为临时会议保留会议空间的主屏幕。":::
 
     > [!NOTE]
-    > 如果会议空间是Microsoft Teams会议室，您可以使用会议室Teams会议室或Microsoft Teams加入Surface Hub会议。
+    > 如果会议室是会议室Microsoft Teams，您可以使用会议室Teams会议室或Microsoft Teams加入Surface Hub会议。
 
 ### <a name="report-a-problem"></a>报告问题
 
 若要报告设备或会议空间的问题、请求功能更新或提供任何反馈，请使用主屏幕上的"设置"图标。 
 
-1. 点击 **"设置"** 屏幕上的"齿轮"图标。
+1. 点击 **设置** 屏幕上的齿轮图标。
 
 2. 点击" **报告问题"** 选项。
 
@@ -170,7 +170,7 @@ Teams面板设备预安装有 Microsoft Teams，并显示通过日历或日历Ou
 
 ### <a name="access-panels-app-settings"></a>访问面板应用设置
 
-可以使用管理员 **设置** 下的"面板应用"设置 **访问"** 面板"应用特定的设置。 访问面板 **应用** 设置的步骤可能因设备的 OEM 不同而不同。
+可以使用管理员 **设置下的**"面板应用"设置 **访问"** 面板"应用特定的设置。 访问面板 **应用** 设置的步骤可能因设备的 OEM 不同而不同。
 
 若要访问 **"面板应用"设置** 选项：
 
@@ -182,10 +182,10 @@ Teams面板设备预安装有 Microsoft Teams，并显示通过日历或日历Ou
     > 根据设备的 OEM，你可能需要现在或下一步后输入设备管理员密码。
 
 4. 向下滚动找到"面板 **应用"设置** 选项。 点击它。
-5. 点击 **右侧屏幕上的"设置** 应用"按钮。
+5. 点击右侧 **屏幕上的"设置** 应用"按钮。
     将显示具有可用 **面板应用设置的** 屏幕。
 
-    :::image type="content" source="../media/panels-app-settings-screen.png" alt-text="此屏幕截图显示具有可用"面板"应用设置的屏幕":::
+    :::image type="content" source="../media/panels-app-settings-screen.png" alt-text="此屏幕截图显示具有可用"面板"应用设置的屏幕。":::
 
     使用此屏幕更新设备的 **以下面板** 应用设置：
 
@@ -199,7 +199,7 @@ Teams面板设备预安装有 Microsoft Teams，并显示通过日历或日历Ou
 1. [访问 **面板应用设置。**](#access-panels-app-settings)
 2. 点击 **"壁纸"。**
 3. 从 **"选择图像**"中，选择要设置为主屏幕背景图像的图像。 预览"背景"下的 **所选图像**。
-:::image type="content" source="../media/panels-wallpapers-setting.png" alt-text="此屏幕截图显示壁纸设置屏幕":::
+:::image type="content" source="../media/panels-wallpapers-setting.png" alt-text="此屏幕截图显示壁纸设置屏幕。":::
 4. 返回到主屏幕，验证壁纸已更新。
 
 #### <a name="change-the-busy-state-led-color"></a>更改繁忙状态 LED 颜色
@@ -209,7 +209,7 @@ Teams面板设备预安装有 Microsoft Teams，并显示通过日历或日历Ou
 1. [访问 **面板应用设置。**](#access-panels-app-settings)
 2. 点击 **"LED 设置"。**
 3. 从 **"选择 LED 颜色"** 中，选择所需的颜色。
-:::image type="content" source="../media/panels-led-settings.png" alt-text="此屏幕截图显示 LED 颜色忙状态设置":::
+:::image type="content" source="../media/panels-led-settings.png" alt-text="此屏幕截图显示 LED 颜色忙状态设置。":::
 4. 返回到主屏幕，验证是否更新了忙态的 LED 颜色。 如果会议空间当前可用，请尝试安排一个测试会议来验证忙状态 LED 颜色的变化。
 
 ## <a name="frequently-asked-questions"></a>常见问题解答
@@ -217,9 +217,9 @@ Teams面板设备预安装有 Microsoft Teams，并显示通过日历或日历Ou
 查找有关面板设备Teams问题的答案。
 
 **我可以在将来的多远时间查看会议空间的计划详细信息？**  
-在主屏幕 (右下角) "即将到来的日历"磁贴中，可以看到从当前小时开始最多 24 小时的会议空间的计划详细信息。
+在"开始"屏幕 (右下角) "即将到来的日历"磁贴中，你可以看到从当前小时开始最多 24 小时的会议空间的计划详细信息。
 
-**我能否从仪表板设备为将来的Teams空间？**  
+**能否从仪表板设备为将来的Teams空间？**  
 否，不能从面板保留将来的会议空间。 开始时间始终是从面板安排临时会议的当前时间。
 
 **我可以为临时会议保留可用会议空间多久？**  

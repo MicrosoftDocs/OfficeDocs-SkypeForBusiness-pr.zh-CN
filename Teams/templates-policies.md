@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何在管理中心中管理团队模板
-ms.openlocfilehash: 8acff1891c112ef9db8fbc9d652949786a524550
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c154cdf60b887d5c934e4f63634691c4b9bfcdbd
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578186"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732821"
 ---
 # <a name="manage-team-templates-in-the-admin-center"></a>管理中心中的管理团队模板
 
@@ -38,11 +38,11 @@ ms.locfileid: "58578186"
 
 1. 登录到 Teams 管理中心。
 
-2. 展开 **Teams**  >  **模板策略"。**
+2. 展开 **"Teams**  >  **模板策略"。**
 
 3. 选择“**添加**”。
 
-    ![已选择模板策略，并突出显示"添加"](media/template-policies-1.png)
+    ![将选择模板策略，并突出显示"添加"。](media/template-policies-1.png)
 
 1. 在"**模板策略设置** 部分中，完成以下字段：
 
@@ -52,7 +52,7 @@ ms.locfileid: "58578186"
 
 2. 在"**可查看的模板"** 表中，选择要隐藏的模板，然后选择"隐藏 **"。**
 
-    ![突出显示"隐藏"的所选模板](media/template-policies-2.png)
+    ![突出显示"隐藏"的所选模板。](media/template-policies-2.png)
 
     可以在"隐藏模板"表中查看已选择 **隐藏的模板。**
 
@@ -60,7 +60,7 @@ ms.locfileid: "58578186"
 
 2. 选择要取消隐藏模板，然后选择"显示 **"。**
 
-   ![未隐藏的所选模板](media/template-policies-3.png)
+   ![未隐藏的所选模板。](media/template-policies-3.png)
 
    所选模板将显示在"可查看的模板 **"** 表中。
 3. 选择“**保存**”。
@@ -75,7 +75,7 @@ ms.locfileid: "58578186"
 
 2. 键入要分配到此策略的用户。
 
-   ![将用户分配到模板策略](media/template-policies-4.png)
+   ![将用户分配到模板策略。](media/template-policies-4.png)
 
 3. 选择"**应用"。**
 
@@ -122,7 +122,7 @@ ms.locfileid: "58578186"
 2. 在"用户"列表表中选择筛选器，并筛选团队模板策略。
 3. 选择"**应用"。**
 
-![所选模板策略和查看用户](media/template-policies-5.png)
+![所选模板策略和查看用户。](media/template-policies-5.png)
 
 **问：能否通过 PowerShell 管理模板策略？**
 

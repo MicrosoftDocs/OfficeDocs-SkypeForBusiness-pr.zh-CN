@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 选择早期采用者作为试验阶段的Teams采用，然后收集项目的反馈。
+description: 选择早期采用者作为试验阶段Teams采用，然后收集项目的反馈。
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dbc7deee746679b4e82b34dae8a0dd89b07ed37d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4b62032ac94bed2c8f393e36724249abd4c9bb81
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583576"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727781"
 ---
 # <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>为早期采用者上线 Microsoft Teams 并收集反馈
 
-返回到对早期采用者计划感兴趣的员工列表。 确定这些个体中应参与初始试验的哪一Teams。 它可能是所有或部分感兴趣的人员。 即使你未为这些初始项目选择它们，也请继续与它们沟通，以便他们保持兴趣并愿意参与将来的项目。 根据与业务利益干系人、技术团队的讨论以及上面所示的优先级工作，他们将是所选项目的载入过程的一部分。 
+返回到对早期采用者计划感兴趣的员工列表。 决定这些个体中应该使用哪一个参与初始Teams。 它可能是所有或部分感兴趣的人员。 即使你未为这些初始项目选择它们，也请继续与它们沟通，以便他们保持兴趣并愿意参与将来的项目。 根据与业务利益干系人、技术团队的讨论以及上面所示的优先级工作，他们将是所选项目的载入过程的一部分。 
 
 使用这些早期采用者完成以下步骤：
 
@@ -43,10 +43,10 @@ ms.locfileid: "58583576"
 
 使用项目Microsoft 365组件Office 365收集项目反馈。
   
-![代表决策点的图标](media/teams-adoption-decision-icon.png) 决策：如果你的组织已在一个虚拟网络Yammer投资，你可以使用它作为早期采用者计划的反馈论坛。 如果没有，并且早期采用者计划的成员少于 5000 人，请Teams团队来收集反馈并提供培训。
+![表示决策点的图标。](media/teams-adoption-decision-icon.png) 决策：如果你的组织已在一个虚拟网络Yammer投资，你可以使用它作为早期采用者计划的反馈论坛。 如果没有，并且早期采用者计划的成员少于 5000 人，请Teams团队来收集反馈并提供培训。
   
 > [!Note]
 > 某些组织将早期采用者反馈的渠道合并到团队协作团队中。 这是一个不错的方法，因为许多早期采用者将来可能会成为支持者，并且它将构建更强大的社区。 
 
 
-![表示下一步"下一步 ](media/teams-adoption-next-icon.png) ： [载入支持"的图标](teams-adoption-onboard-support.md)。
+![表示下一步骤的图标。](media/teams-adoption-next-icon.png) 下一步 [：载入支持](teams-adoption-onboard-support.md)。

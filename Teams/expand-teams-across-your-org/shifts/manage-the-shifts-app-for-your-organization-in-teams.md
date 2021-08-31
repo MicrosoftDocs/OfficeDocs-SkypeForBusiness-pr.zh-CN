@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 8c2e8a8e976e6c92355bc894447353f436b706bc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7e58b7452ec3e89ded6f24da17490cf476885d72
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608969"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727831"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中为组织管理“班次”应用
 
@@ -36,7 +36,7 @@ ms.locfileid: "58608969"
 
 ## <a name="overview-of-shifts"></a>“班次”概述
 
-应用中的 Shifts Microsoft Teams一线员工保持连接和同步。它首先构建为移动版，用于快速高效的时间管理和团队通信。 排班可让一线员工及其经理使用其移动设备管理日程安排并保持联系。
+应用中的 Shifts 应用Microsoft Teams一线工作人员保持连接和同步。它首先构建为移动版，用于快速高效的时间管理和团队通信。 排班可让一线员工及其经理使用其移动设备管理日程安排并保持联系。
 
 - 经理可创建、更新和管理团队的班次安排。 他们可以向一个人（“地板上洒了水”）或整个团队（“区域总经理将在 20 分钟后到达”）发送消息。 他们还可以发送政策文档、新闻公告和视频。
 - 员工可查看即将到来的排班、查看当天还有谁的排班、申请调班或转班以及申请请假。
@@ -74,11 +74,11 @@ Teams 可用的所有企业 SKU 中均提供“班次”。
 
 利用应用设置策略，你可自定义 Teams 来突出显示组织中对用户最重要的应用。 在策略中设置的应用会固定到应用栏（&mdash;Teams 桌面客户端的边栏以及 Teams 移动客户端的底栏&mdash;），用户可以快速方便地访问。
  
-Teams包括内置 FirstLineWorker 应用设置策略，可将其分配给组织的一线员工。 默认情况下，该策略包括“活动”、“班次”、“聊天”和“通话”应用。
+Teams包括内置 FirstLineWorker 应用设置策略，可将其分配给组织的一线工作人员。 默认情况下，该策略包括“活动”、“班次”、“聊天”和“通话”应用。
 
 若要查看 FirstLineWorker 策略，在 Microsoft Teams 管理中心的左侧导航栏中，转到"Teams  >  **应用设置策略"。**
 
-![FirstLineWorker 应用设置策略的屏幕截图](../../media/firstline-worker-app-setup-policy.png "用户管理中心中 FirstLineWorker 应用Microsoft Teams的屏幕截图")
+![FirstLineWorker 应用设置策略的屏幕截图。](../../media/firstline-worker-app-setup-policy.png "用户管理中心中 FirstLineWorker 应用Microsoft Teams的屏幕截图")
 
 #### <a name="assign-the-firstlineworker-app-setup-policy-to-users"></a>将 FirstLineWorker 应用设置策略分配给用户
 

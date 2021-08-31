@@ -15,16 +15,16 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: 使用会议室中的内容Microsoft Teams相机，该相机与图像处理软件交互，允许演示者在模拟白板上绘图。
-ms.openlocfilehash: e24a90e65a5d844a5431951283153a5de2406498
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ae919e50e7e38394e3e9af70a927d5bcdd959f50
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613001"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726011"
 ---
 # <a name="content-cameras"></a>内容照相机
 
-现在，您可以将内容相机与 Microsoft Teams 会议室系统一起使用。 内容相机与特殊的图像处理软件和白板交互，允许演示者在模拟白板上绘图并与远程参与者共享内容。
+现在，您可以将内容相机与会议室Microsoft Teams一起使用。 内容相机与特殊的图像处理软件和白板交互，允许演示者在模拟白板上绘图并与远程参与者共享内容。
 
 有关内容相机功能的示例，请参阅以下视频。
 
@@ -37,18 +37,18 @@ ms.locfileid: "58613001"
 
 用于共享的白板大小会影响相机的位置。 板大小建议包括：
 
-- 3-6 ft. (0.9–1.8 m) - 支持
+- 3-6 ft. (0.9–1.8 m) 宽 - 支持
 - 6-9 ft. (1.8–2.7 m) 宽 — 推荐
-- 9-12 ft. (2.7–3.6 m) - 支持
+- 9-12 ft. (2.7–3.6 m) 宽 - 支持
 - 在 12 ft. (3.6 m) 宽 - 相机覆盖 9-12 ft. (2.7–3.6 m) 并覆盖其余部分。
 
 ## <a name="camera-location"></a>相机位置
 
 内容相机的理想位置在白板上垂直和水平居中。 本地建筑物代码可能有高度限制，要求相机提升高于白板的顶部。
 
-可以安装最多 6 个摄像头。  (152 mm) 高于白板顶部，居中显示在白板上，如下所示。 请确保相机图像至少包含 6 个 in。  (两侧) 152 毫米的边框。 可以在应用内使用相机预览Microsoft Teams 会议室确定相机的最终位置。
+可以安装最多 6 个摄像头。  (152 mm) 高于白板顶部，居中显示在白板上，如下所示。 请确保相机图像至少包含 6 个 in。  (两侧) 152 毫米的边框。 可以在相机应用中使用相机预览Microsoft Teams 会议室确定相机的最终位置。
 
-![内容相机放置图](../media/Magic-whiteboard.png)
+![内容相机放置图。](../media/Magic-whiteboard.png)
 
 ### <a name="camera-distances"></a>相机距离
 
@@ -67,9 +67,9 @@ ms.locfileid: "58613001"
 | 120°        | 0.87 ft. (0.26 m) | 1.73 ft. (0.52 m)    | 2.60 ft. (0.79 m)    |3.46 ft. (1.05 m)    |3.64 ft. (1.10 m)  |
 |             |               |                  |                  |        |                    |                  |
 
-内容相机与白板装载的墙壁之间的距离取决于该型号相机的 HFoV，该型号因不同而异。 安装 HFoV 大于 120 度 (例如，) 靠近墙壁的相机，以及距离墙壁较窄的 HFoV 的相机。 在开始安装所选相机之前，请检查 HFoV。
+内容相机与白板装载的墙壁之间的距离取决于该型号相机的 HFoV，该型号因不同而异。 安装 HFoV (120 度（例如，) 靠近墙壁）的相机，以及距离墙壁较窄的 HFoV 的相机。 在开始安装所选相机之前，请检查 HFoV。
 
-如果你的白板大于 12 ft. ( (3.65 m) 或者没有角落 (如满墙白板) ，你可以将相机放在中间的任意位置。 如果找不到白板角落，增强软件会选择中间的某个区域。
+如果你的白板大于 12 英尺 (3.65 米) 或者没有角落 (如满墙白板) ，可以将相机放在中间的任意位置。 如果找不到白板角落，增强软件会选择中间的某个区域。
 
 > [!NOTE]
 > 可以使用深色磁带或其他项目在全屏白板上创建定义的内容相机区域。
@@ -82,24 +82,24 @@ ms.locfileid: "58613001"
 
 若要确定是否可以将相机用作内容相机，请参阅 USB 音频和视频外围设备的认证 [固件版本](requirements.md#certified-firmware-versions-for-usb-audio-and-video-peripherals)。
 
-或者，有关受支持的Microsoft Teams工具包，请参阅[aka.ms/teamsdevices。](https://aka.ms/teamsdevices)
+或者，有关受支持的内容Microsoft Teams工具包，请参阅[aka.ms/teamsdevices。](https://aka.ms/teamsdevices)
 
 ## <a name="camera-settings"></a>相机设置
 
 在房间中安装摄像机后，在房间的主机上Microsoft Teams 会议室摄像机：
 
-1. 选择 ![ ](../media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) 设置设置"图标，以"管理员"登录，然后选择"**设备设置"。**
+1. 选择 **设置设置** ![ ](../media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) 图标。，以管理员角色登录，然后选择"**设备设置"。**
 2. 在" **相机默认值"** 部分中，选择内容相机并确保选中"内容 **增强"** 选项。
-3.  (可选) 如果由于相机从天花板安装而倒置安装了相机，请选中"旋转内容相机 **180°"** 选项。
+3.  (可选) 如果由于相机从天花板安装而倒置安装相机，请选中"旋转内容相机 **180°"** 选项。
 4. 选择 **"保存并退出"。**
 
-![内容相机设置](../media/content-camera.png)
+![内容相机设置。](../media/content-camera.png)
 
 也可使用 XML 配置文件远程调整 [这些设置](xml-config-file.md)。
 
 ## <a name="see-also"></a>另请参阅
 
-[使用 XML Microsoft Teams 会议室远程管理主机设置](xml-config-file.md)
+[使用MICROSOFT TEAMS 会议室远程管理主机设置](xml-config-file.md)
 
 [Microsoft Teams 会议室要求](requirements.md)
 

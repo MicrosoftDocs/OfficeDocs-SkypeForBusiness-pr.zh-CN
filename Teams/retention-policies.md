@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1385f190c0bcf35c89576695911853c88ef7d1d1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f1dbd1d7c586c989484fa71b1e0b0e3d1fb47550
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634836"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727401"
 ---
 # <a name="manage-retention-policies-for-microsoft-teams"></a>管理 Microsoft Teams 的保留策略
 
@@ -67,13 +67,13 @@ Teams 支持聊天和频道消息中的保留策略。因此，作为管理员�
 
 - 对于私人聊天，请 (1：1 或 1：) 聊天、来自标准通道的消息或来自专用通道的消息制定单独的保留策略。
 
-- 将策略仅应用于组织的特定用户或团队。 对于Teams和专用频道，可以选择策略适用于哪些用户。 对于 Teams 频道消息，可选择要为其应用策略的团队。
+- 将策略仅应用于组织的特定用户或团队。 对于Teams和专用频道，可以选择策略所应用到的用户。 对于 Teams 频道消息，可选择要为其应用策略的团队。
 
 例如，对于标准频道消息：为组织中特定团队创建保留策略，并配置该策略，在 1 年后执行删除操作。 然后为所有其他团队的标准频道消息创建另一个保留策略，然后在 3 年后通过删除操作配置该策略。
 
 ## <a name="create-and-manage-retention-policies-for-teams"></a>在 Teams 创建并管理保留策略：
 
-若要为邮件创建或编辑Teams策略，请使用保留策略中的说明[Teams位置](/microsoft-365/compliance/create-retention-policies#retention-policy-for-teams-locations)。
+若要为邮件创建或编辑Teams策略，请使用保留策略[中的说明Teams位置](/microsoft-365/compliance/create-retention-policies#retention-policy-for-teams-locations)。
 
 该页包含为 Microsoft 365 中其他工作负荷创建和管理保留策略的补充信息。 例如，你可能还想要为 Microsoft 365 组创建保留策略，以保留和删除可通过 Teams 访问并存储在 OneDrive 或 SharePoint 中的文件。  
 
@@ -81,16 +81,16 @@ Teams 支持聊天和频道消息中的保留策略。因此，作为管理员�
 
 对于私人聊天（1：1 聊天）或群组聊天，用户将看到早于保留策略配置的聊天被删除，并在尚未删除的消息顶部看到一条自动生成的消息：“鉴于你所在组织的保留策略，我们删除了较旧的消息”。 例如：
 
-:::image type="content" source="media/retention-policies-image1.png" alt-text="用户在 Teams 中被告知，由于 Teams 的保留策略，聊天消息被删除":::
+:::image type="content" source="media/retention-policies-image1.png" alt-text="用户已Teams，指出聊天消息由于保留策略Teams删除。":::
 
 
-:::image type="content" source="media/retention-policies-image2.png" alt-text="用户在 Teams 中解释，消息由于 Teams 保留政策而被删除":::
+:::image type="content" source="media/retention-policies-image2.png" alt-text="由于Teams保留策略，Teams用户。":::
 
 对于频道消息来说，用户（频道成员）将在消息过期后看到已删除消息从视图中消失。 如果已删除的消息是线程会话的父消息，则父消息将由一条消息取代：“由于保留策略，此消息已被删除”。 例如：
 
-:::image type="content" source="media/retention-policies-image3.png" alt-text="保留前的频道屏幕截图":::
+:::image type="content" source="media/retention-policies-image3.png" alt-text="保留前通道的屏幕截图。":::
 
-:::image type="content" source="media/retention-policies-image4.png" alt-text="保留后的频道屏幕截图":::
+:::image type="content" source="media/retention-policies-image4.png" alt-text="保留后通道的屏幕截图。":::
 
 > [!NOTE]
 > 此时，无法配置用户看到的由于删除消息而显示的消息。

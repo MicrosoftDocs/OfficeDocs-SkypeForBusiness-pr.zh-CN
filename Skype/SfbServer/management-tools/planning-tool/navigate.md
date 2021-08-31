@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 01d28e07-7fdc-41f9-9b6d-75dad8c14f6a
 description: You navigate the Skype for Business Server Skype for Business Server Planning Tool by using a combination of a toolbar， page-specific buttons and links， and context-specific panes. 特定于上下文的窗格提供与特定页面上的选择选项相关的规划和容量的设计信息。
-ms.openlocfilehash: 33cf2875b12726cd054beb75911981a1ff2334cb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 37a5a3e9ba2934422ef9a89ef7c0cb3df25f1a4a
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583926"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725701"
 ---
 # <a name="navigate-the-planning-tool-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中导航规划工具
 
@@ -27,23 +27,23 @@ You navigate the Skype for Business Server Skype for Business Server Planning To
 
 在启动规划工具时，设计人员首先会看到"欢迎使用 **规划工具 2015 Skype for Business Server"** 页。
 
-![规划工具欢迎页面](../../media/Planning_Tool_Welcome.png)
+![规划工具欢迎页面。](../../media/Planning_Tool_Welcome.png)
 
 在"欢迎"页上，设计人员选择 **"入门、****设计站点**"或"**显示"。** 有关详细信息，请参阅[Create the initial topology design for Skype for Business Server 2015](create-the-initial-design.md)。
 
 规划工具的顶部是一个工具栏，可轻松访问常用函数。 此处显示的工具栏仅供参考，相关主题中将讨论每个函数。
 
-![规划工具工具栏](../../media/Planning_Tool_Toolbar_Annotated.jpg)
+![规划工具工具栏。](../../media/Planning_Tool_Toolbar_Annotated.jpg)
 
-规划工具的左侧有一个"外部链接"部分。 在此处，设计师可轻松访问规划和部署信息，以及其他技术资源（如培训、技术博客、论坛及其他可下载的资源）。 此外，"外部链接"部分还包括指向 Skype for Business Server 2015 规划工具团队的反馈链接。
+规划工具的左侧有一个"外部链接"部分。 在此处，设计师可轻松访问规划和部署信息，以及其他技术资源（如培训、技术博客、论坛及其他可下载的资源）。 此外，"外部链接"部分是指向 Skype for Business Server 2015 规划工具团队的反馈链接。
 
-!["规划工具外部链接"对话框](../../media/Planning_Tool_External_Links_Dialog.jpg)
+!["规划工具外部链接"对话框。](../../media/Planning_Tool_External_Links_Dialog.jpg)
 
 规划工具中的许多页面上都显示一个上下文相关操作窗格。 利用"操作"窗格，设计人员可以轻松访问拓扑的主要部分。 "操作"窗格中提供的链接根据拓扑中的详细信息级别更改。 完成访谈问题并显示拓扑后，"操作"窗格可用。 "操作"窗格包含"概述"部分，其中显示设计师在访谈过程中输入的数字。 概览内容与显示的信息上下文相关。
 
 此外，“操作”窗格下的概览中还显示硬件信息。硬件配置显示当前拓扑推荐的硬件要求列表。
 
-![规划工具操作窗格](../../media/Planning_Tool_Actions_Pane.jpg)
+![规划工具操作窗格。](../../media/Planning_Tool_Actions_Pane.jpg)
 
 ## <a name="see-also"></a>另请参阅
 

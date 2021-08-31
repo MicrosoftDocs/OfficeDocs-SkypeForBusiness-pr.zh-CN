@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 30a844f0ecd619e609a61500ac1b845cfbbad553
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cd7c41070e867b96d9238ba280d828a3081352f5
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623384"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725681"
 ---
 # <a name="prepare-my-users"></a>准备用户
 
@@ -46,9 +46,9 @@ ms.locfileid: "58623384"
 
 通过设置项目愿景，关键利益干系人可以看到全局。 这通常等同于成本节省、运营效率和工作效率提升等业务驱动因素，并与之前在项目中 &mdash; &mdash; 设定的目标保持一致。 对于用户，可能会认为同一项目会破坏熟悉的工具、生产力中断，以及管理层缺乏灵活性。 请花些时间将自己放在用户的脚上，将项目愿景转换为吸引他们的价值声明。 在通信和训练活动中使用此值声明，使用户能够查看Teams可如何工作。
 
-下图是客户从 Skype for Business 升级到 Teams 的视觉到价值声明示例。
+下图是客户从目标到价值声明的一个示例，该声明适用于从 Skype for Business 升级到 Teams。
 
-![显示视觉和值的两列表](media/prepare-my-users-new-image1.png "包含视觉的两列表 - 我们为什么要这样做？ (左侧) "组织级别"和"价值 - 我有什么价值？" (右侧) 用户级别")
+![显示视觉和值的两列表。](media/prepare-my-users-new-image1.png "包含视觉的两列表 - 我们为什么要这样做？ (左侧) "组织级别"和"价值 - 我有什么价值？" (右侧) 用户级别")
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>您是否以让用户购买此新解决方案的方式向用户表述了好处和价值？</li></ul></td></tr>
@@ -59,7 +59,7 @@ ms.locfileid: "58623384"
 
 ## <a name="determine-organizational-change-readiness"></a>确定组织变更准备情况
 
-组织就绪性可帮助确定 (用户) 更改其工作方式的不一定程度。 了解用户对变化的反应方式使组织能够主动解决关注问题、调整推出计划以获得最佳接收效果，以及确定可以成为你的支持者或代表以帮助推动更改的用户。
+组织就绪性可帮助确定用户 (或) 用户更改工作方式的方式。 了解用户对变化的反应方式使组织能够主动解决关注问题、调整推出计划以获得最佳接收效果，以及确定可以成为你的支持者或代表以帮助推动更改的用户。
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>用户是否已准备好并愿意更改到新解决方案？</li><li>用户是否具有促进更改的能力或能力？</li></ul></td></tr>
@@ -92,7 +92,7 @@ ms.locfileid: "58623384"
 
  
 > [!TIP]
-> Learning不是一全其美。 通过了解用户的最佳学习方式，可以创建一个可靠的培训计划来帮助加快其学习速度。 如果许多用户都是自我激励的，则链接到视频和用户指南可能就足够了。 对于需要专门关注的用户，请务必安排一对一，或召集你的支持人员来帮助这些用户完成 &mdash; 学习曲线。
+> Learning并非一全其美。 通过了解用户的最佳学习方式，可以创建一个可靠的培训计划来帮助加快其学习速度。 如果许多用户都是自我激励的，则链接到视频和用户指南可能就足够了。 对于需要专门关注的用户，请务必安排一对一，或召集你的支持人员来帮助这些用户完成 &mdash; 学习曲线。
 
 <!--ENDOFSECTION-->
 
@@ -102,13 +102,13 @@ ms.locfileid: "58623384"
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>某些用户或队列是否依赖于此解决方案才能有效地执行其作业？</li><li>是否有可以通过使用此新解决方案促进的特定用例？</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>映射用户角色。 首先，将用户群细分为人员/队列组 (主管、道路运输人员、协作工作者、零售等) 。 为易于管理，请列出不超过八个组。  (有关示例对话入门，请参阅下文。) 使用你的发现来进一步设计用户准备活动，并细分试点用户与可能受益于以后升级的用户。
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>映射用户角色。 首先，将用户群细分为人员/队列组 (主管、道路运输人员、协作工作者、零售等) 。 为易于管理，请列出不超过八个组。  (有关示例对话入门，请参阅下文。) 使用你的发现进一步设计用户准备活动，将试点用户与可能受益于以后升级的用户进行细分。
 </li><li>映射用例。 确定将受益于此新技术的核心用户组后，请考虑一般用户群体。 通过了解跨团队用例和方案，可以将使用此新技术的组织可视化。 此外，向通信和培训计划添加用例示例确实有助于使其与用户相关。</li></ul></td></tr>
 </table>
 
 对于每个人员组，与项目团队讨论以下内容：
 
--   此组的核心特征是什么 (，也就是说，典型的"生活一天"是什么) ？
+-   此组的核心特征是什么 (，也就是说，典型的"一天"是) ？
 
 -   此组如何受益于新解决方案？ 它们需要哪些特性和功能有效？
 
@@ -124,11 +124,11 @@ ms.locfileid: "58623384"
 
     -   支持 (自助服务、支持人员、支持) ？  
 
--   此组是试点或早期采用者计划的良好候选者吗？ 如果是这样，请制定一个计划，让这些用户进行购买以参与试点。 有关实施成功的试点计划的信息，请参阅与 Teams[一起Skype for Business。](pilot-essentials.md)
+-   此组是试点或早期采用者计划的良好候选者吗？ 如果是这样，请制定一个计划，让这些用户进行购买以参与试点。 有关实施成功的试点计划的信息，请参阅试验计划Teams[与Skype for Business。](pilot-essentials.md)
 
 下图是一个人物表示例。
 
-![列出人员详细信息的值表](media/prepare-my-users-image2.png "列出角色及其常见角色以及通信和协作解决方案依赖项的表。突出显示了高层形象，并详细介绍了 (一天的个人资料) 功能、设备和培训高层需求。")
+![列出人员详细信息的值表。](media/prepare-my-users-image2.png "列出角色及其常见角色以及通信和协作解决方案依赖项的表。突出显示了高层形象，并详细介绍了 (一天) 以及功能、设备和培训高层需求的详细信息。")
 
 对于每个用例，请与您的项目团队讨论以下内容：
 

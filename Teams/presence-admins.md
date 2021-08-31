@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66c3aec34baa10dc0cda644d84611800a8e9d97a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 450decb455b35018c2dc4c02951ee542ab212371
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597666"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725821"
 ---
 # <a name="user-presence-in-teams"></a>Teams 中的用户状态
 
@@ -38,21 +38,21 @@ ms.locfileid: "58597666"
 
 |用户配置|应用配置|
 |:--- |:---|
-| ![实心绿色复选标记，表示在线状态](media/Presence_Available.png) 在线|![实心绿色复选标记，表示在线状态](media/Presence_Available.png) 在线|
-|| ![空心绿色复选标记，表示在线但外出](media/Presence_Available_OOF.png) 在线但外出。 注意：在用户设置“自动答复”的时间段内，将自动设置“外出”。 如果用户在这段时间内使用应用，则可能会显示双重状态，例如“在线但外出”。 |
-|  ![实心红色圆圈，表示忙碌](media/Presence_Busy.png) 忙碌 |  ![实心红色圆圈，表示忙碌](media/Presence_Busy.png) 忙碌  |
-|| ![实心红色圆圈，表示通话忙](media/Presence_Busy.png) 通话中|
-|| ![实心红色圆圈，表示开会忙](media/Presence_Busy.png) 会议中 |
-|| ![空心红色圆圈，表示忙碌](media/Presence_Busy_OOF.png) 通话中但外出|
-|  ![带白线的红色圆圈，表示请勿打扰](media/Presence_DND.png) 请勿打扰 ||
-|| ![带白线的红色圆圈，表示正在演示](media/Presence_DND.png) 正在演示|
-|| ![带白线的红色圆圈，表示专注](media/Presence_DND.png) 专注。当用户在日历的 MyAnalytics/Insights 中安排专注时间时，就会发生专注。|
-| ![黄色时钟图标，表示离开](media/Presence_Away.png) 离开| ![黄色时钟图标，表示离开](media/Presence_Away.png) 离开|
+| ![实心绿色复选标记，表示在线状态。](media/Presence_Available.png) 在线|![实心绿色复选标记，表示在线状态](media/Presence_Available.png) 在线|
+|| ![空心绿色复选标记，表示在线但外出。](media/Presence_Available_OOF.png) 在线但外出。 注意：在用户设置“自动答复”的时间段内，将自动设置“外出”。 如果用户在这段时间内使用应用，则可能会显示双重状态，例如“在线但外出”。 |
+|  ![实心红色圆圈，表示忙碌。](media/Presence_Busy.png) 忙碌 |  ![实心红色圆圈，表示忙碌](media/Presence_Busy.png) 忙碌  |
+|| ![实心红色圆圈，表示通话忙。](media/Presence_Busy.png) 正在通话|
+|| ![实心红色圆圈，表示开会忙。](media/Presence_Busy.png) 正在开会 |
+|| ![空心红色圆圈，表示忙碌。](media/Presence_Busy_OOF.png) 正在通话，外出|
+|  ![带白线的红色圆圈，表示请勿打扰。](media/Presence_DND.png) 请勿打扰 ||
+|| ![带白线的红色圆圈，表示正在演示。](media/Presence_DND.png) 正在演示|
+|| ![带白线的红色圆圈，表示正在专注。](media/Presence_DND.png) 正在专注。当用户在日历的 MyAnalytics/Insights 中安排专注时间后，就会发生专注。|
+| ![黄色时钟图标，表示离开。](media/Presence_Away.png) Away - 离开| ![黄色时钟图标，表示离开。](media/Presence_Away.png) 离开|
 || ![黄色时钟图标，表示离开](media/Presence_Away.png)上次上线 *时间* 离开|
-|![黄色时钟图标，表示离开但马上回来](media/Presence_Away.png) 马上回来| |
-|![带 x 的灰色圆圈，表示脱机](media/Presence_Offline.png) 显示为脱机|![带 x 的灰色圆圈，表示脱机](media/Presence_Offline.png) 脱机。如果用户在几分钟内未登录其任何设备，则将显示为脱机。 | |
-|| ![空心灰色圆圈，表示未知状态](media/Presence_Unknown.png) 未知状态|
-|| ![带箭头的紫色圆圈，表示外出](media/Presence_OOF.png) 外出。设置自动答复后，将使用外出。 |
+|![黄色时钟图标，表示离开但马上回来。](media/Presence_Away.png) 马上回来| |
+|![带 x 的灰色圆圈，表示脱机。](media/Presence_Offline.png) 显示为脱机|![带 x 的灰色圆圈，表示脱机](media/Presence_Offline.png) 脱机。如果用户在几分钟内未登录其任何设备，则将显示为脱机。 | |
+|| ![空心灰色圆圈，表示未知状态。](media/Presence_Unknown.png) 未知状态|
+|| ![带箭头的紫色圆圈，表示外出。](media/Presence_OOF.png) 外出。设置自动答复后，将使用外出。 |
 |||
  > [!NOTE]
  > 对于将邮箱托管到本地的用户，预期存在一个小时（上限）的状态延迟。

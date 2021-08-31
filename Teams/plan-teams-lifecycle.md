@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: df39e778998d01b31b08ec0f537d4a35905a2ce2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 082657f5d114a7228f5b95e39390a87ccf6d0dcb
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622000"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727821"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>在 Teams 中规划生命周期管理
 
@@ -153,8 +153,8 @@ _团队_ 是包含人员、内容和促进协作的工具的集合。 团队规�
 
 |    |     |
 |-----------|------------|
-| ![描述决策点的图标](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>团队的目的是什么？</li><li>哪些人属于团队？</li><li>团队是私人团队还是公共团队？</li><li>新成员是否可以添加自己，或由团队所有者添加新成员？</li><li>哪些人有权创建频道或添加选项卡、聊天机器人和连接器？</li></ul> |
-| ![描述后续步骤的图标](media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>创建团队。</li><li>规划频道。</li></ul>|
+| ![描述决策点的图标。](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>团队的目的是什么？</li><li>哪些人属于团队？</li><li>团队是私人团队还是公共团队？</li><li>新成员是否可以添加自己，或由团队所有者添加新成员？</li><li>哪些人有权创建频道或添加选项卡、聊天机器人和连接器？</li></ul> |
+| ![描述后续步骤的图标。](media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>创建团队。</li><li>规划频道。</li></ul>|
 
 
 #### <a name="set-up-channels"></a>设置频道
@@ -167,8 +167,8 @@ _团队_ 是包含人员、内容和促进协作的工具的集合。 团队规�
 
 |    |     |
 |-----------|------------|
-| ![描述决策点的图标](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>哪些初始频道将会添加到团队？</li><li>将会提供哪些有关添加新频道的指导（如果有）？ （它们将按项目、按主题或按其他内容进行设置？）</li></ul> |
-| ![描述后续步骤的图标](media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>创建初始频道</li><li>发布欢迎消息。</li><li>开始协作。</li></ul>|
+| ![描述决策点的图标。](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>哪些初始频道将会添加到团队？</li><li>将会提供哪些有关添加新频道的指导（如果有）？ （它们将按项目、按主题或按其他内容进行设置？）</li></ul> |
+| ![描述后续步骤的图标。](media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>创建初始频道</li><li>发布欢迎消息。</li><li>开始协作。</li></ul>|
 
 ### <a name="stage-2-middle"></a>第 2 阶段：中间
 
@@ -188,8 +188,8 @@ _团队_ 是包含人员、内容和促进协作的工具的集合。 团队规�
 
 |    |     |
 |-----------|------------|
-| ![描述决策点的图标](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>将由谁监控使用情况以发现问题？</li><li>将使用哪些指标来确定团队运行是否正常？</li><li>确定已达到其有效期限终点的任何团队。</li><li>确定仍在用于某个目的但需要增强活力的不正常团队。</li></ul> |
-| ![描述后续步骤的图标](media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>实施流程以监控各个团队运行状况。</li></ul>|
+| ![描述决策点的图标。](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>将由谁监控使用情况以发现问题？</li><li>将使用哪些指标来确定团队运行是否正常？</li><li>确定已达到其有效期限终点的任何团队。</li><li>确定仍在用于某个目的但需要增强活力的不正常团队。</li></ul> |
+| ![描述下一步的图标。](media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>实施流程以监控各个团队运行状况。</li></ul>|
 
 ### <a name="stage-3-end"></a>第 3 阶段：结束
 
@@ -205,8 +205,8 @@ _团队_ 是包含人员、内容和促进协作的工具的集合。 团队规�
 
 |    |     |
 |-----------|------------|
-| ![描述决策点的图标](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>定义团队到达其期限终点时的情况。</li><li>决定是否使团队的内容保留可用，以及保留多长时间。</li></ul> |
-| ![描述后续步骤的图标](media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>记录最佳做法以及经验与教训。</li><li>存档数据（如果需要）。</li></ul>|
+| ![描述决策点的图标。](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>定义团队到达其期限终点时的情况。</li><li>决定是否使团队的内容保留可用，以及保留多长时间。</li></ul> |
+| ![描述后续步骤的图标。](media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>记录最佳做法以及经验与教训。</li><li>存档数据（如果需要）。</li></ul>|
 
 ## <a name="related-topics"></a>相关主题
 

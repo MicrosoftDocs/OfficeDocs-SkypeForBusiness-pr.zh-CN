@@ -22,16 +22,16 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 了解如何为音频会议、自动助理和呼叫队列获取新电话号码和转 (号码) 号码Teams。
-ms.openlocfilehash: 0122b75bbe698154f3966bb0352522c5335e4da6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fb0025796ad9bbb91c5172cf2cb551de6ecf619b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598546"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732911"
 ---
 # <a name="getting-service-phone-numbers"></a>获取服务电话号码
 
-除了为用户[](./getting-phone-numbers-for-your-users.md)获取电话号码外，还可以获取音频会议 (for conference bridges) 、自动助理和呼叫队列等服务的收费或免费电话号码 (也称为服务号码) 。 服务电话号码具有比用户或订阅者电话号码更高的并发呼叫容量。 例如，服务号码可以同时处理数百个呼叫，而用户的电话号码只能同时处理几个呼叫。
+除了为用户[](./getting-phone-numbers-for-your-users.md)获取电话号码外，还可以获取音频会议 (（用于会议网桥) 、自动助理和呼叫队列）等服务的收费或免费电话号码 (也称为服务号码) 。 服务电话号码具有比用户或订阅者电话号码更高的并发呼叫容量。 例如，服务号码可以同时处理数百个呼叫，而用户的电话号码只能同时处理几个呼叫。
   
 > [!NOTE]
 > 首先必须设置通信信用额度，才能获取免费电话号码。 有关详细信息，请参阅 [为组织设置通信信用额度](./set-up-communications-credits-for-your-organization.md)。
@@ -49,7 +49,7 @@ ms.locfileid: "58598546"
   
 ## <a name="get-new-service-numbers"></a>获取新服务号码
 
-![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
+![一个图标，显示Microsoft Teams徽标。](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
 
 1. 在左侧导航栏中，**转到"语音**  >  **电话"，** 然后单击"添加 **"。**
 2. 输入订单的名称并添加说明。
@@ -64,16 +64,16 @@ ms.locfileid: "58598546"
 
 ## <a name="port-or-transfer-existing-service-numbers"></a>转网或转移现有服务号码
 
-若要将电话号码从当前服务提供商或运营商Teams，可以在管理中心使用Microsoft Teams向导。 按照将电话号码[转移到 Teams](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md)中的步骤。
+若要将你的电话号码从当前服务提供商或运营商Teams，可以在管理中心使用Microsoft Teams向导。 按照将电话号码[转移到 Teams](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md)中的步骤。
 
-如果移植向导中未列出你的国家/地区，可以手动提交转寄订单[](phone-number-calling-plans/manually-submit-port-order.md)或转到"管理组织的电话号码"，选择[](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)你的国家/地区，然后下载授权书 (LOA) 。 必须针对每种类型的服务号码提交单独的转站订单 (例如，使用 LOA 转移的收费和免费) 收费和免费服务。 在 LOA 中，必须选择正确的服务编号类型。 请确保指定要转移服务号码 (而不是用户或订阅者号码) ，否则并发呼叫容量可能不足以处理呼叫量。  
+如果移植向导中未列出你的国家/地区，可以手动提交转寄订单[](phone-number-calling-plans/manually-submit-port-order.md)或转到"管理组织的电话号码"，选择[](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)你的国家/地区，然后下载授权书 (LOA) 。 必须针对每种类型的服务号码提交单独的转站订单 (例如，使用 LOA 转移的收费和免费) 收费与免费服务。 在 LOA 中，必须选择正确的服务编号类型。 请确保指定要转移服务号码 (而不是用户或订阅者号码) ，否则并发呼叫容量可能不足以处理呼叫量。  
 
 > [!NOTE]
 > 如果需要获取的电话号码超过此数目，请联系 [PSTN 服务台](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)。
 
 ## <a name="view-the-phone-numbers-for-your-organization"></a>查看组织的电话号码
 
-![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心** 
+![一个图标，显示Microsoft Teams徽标。](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心** 
 
 在左侧导航中，转到"语音电话以查看组织号码，包括位置、  >  号码类型和状态信息。
 

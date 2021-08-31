@@ -18,53 +18,53 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 摘要：了解如何迁移用户设置以及将用户移动到Teams。
-ms.openlocfilehash: ef1de7002bd3c757a9a08f3cbf8414a9cd4c32d9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2206c9b155c26a8559dd32346e1d9ad9e0e54978
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58614966"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725481"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>将用户从本地移至团队
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-当用户从本地移动到 Teams Only 时，用户的 Skype for Business 主页从本地移动到联机，并且该用户分配有 mode=TeamsOnly 的 TeamsUpgradePolicy。  将用户从本地移动到 TeamsOnly 模式后：
+当用户从本地移动到 Teams Only 时，用户的 Skype for Business 家庭版从本地移动到联机，并且为该用户分配 TeamsUpgradePolicy mode=TeamsOnly。  将用户从本地移动到 TeamsOnly 模式后：
 
-- 来自其他用户的所有传入呼叫 (无论是从 Skype for Business 还是 Teams) 发送，都将进入用户的 Teams 客户端。
-- 无论联机还是本地部署，用户都将能够与使用 Skype for Business (的其他用户进行) 。
+- 来自其他用户的所有传入呼叫 (无论是从 Skype for Business 还是 Teams) 发送，都将登录用户的 Teams 客户端。
+- 用户将能够与使用联机或本地部署Skype for Business (的其他用户进行) 。
 - 用户将能够与联盟组织的用户通信。
 - 该用户安排的新会议将Teams会议。
 - 用户仍可加入任何Skype for Business会议。
 - 为将来安排的用户预先存在的会议将从本地迁移到Teams。
-- 本地存在的联系人在用户首次Teams登录后，可立即在联系人中访问。
-- 用户无法从会议发起Skype for Business聊天，也无法在会议期间安排Skype for Business。 如果他们尝试打开 Skype for Business 客户端，他们将被重定向以使用Teams如下所示。 如果未Teams客户端，它们将被定向到 web 版本的 Teams使用其浏览器。<br><br>
-    ![将用户重定向到用户Teams](../media/go-to-teams-page.png)
+- 本地存在的联系人在用户首次Teams登录后，将可在该联系人中访问。
+- 用户无法从会议发起Skype for Business聊天，也无法在 Skype for Business 中安排新Skype for Business。 如果他们尝试打开 Skype for Business 客户端，他们将被重定向以使用Teams如下所示。 如果未Teams客户端，它们将被定向到 web 版本的 Teams使用其浏览器。<br><br>
+    ![将用户重定向到邮件Teams。](../media/go-to-teams-page.png)
 
-在移动任何用户之前，请务必查看 [将](move-users-between-on-premises-and-cloud.md#prerequisites) 用户迁移到云的先决条件。 此外，请务必查看迁移和互操作性指南，以指导组织将 Teams 与 Skype for Business 一[Skype for Business。](/microsoftteams/migration-interop-guidance-for-teams-with-skype)
+在移动任何用户之前，请务必查看 [将](move-users-between-on-premises-and-cloud.md#prerequisites) 用户迁移到云的先决条件。 此外，请务必查看迁移和互操作性指南，以指导组织将 Teams[与 Skype for Business。](/microsoftteams/migration-interop-guidance-for-teams-with-skype)
 
 
 > [!NOTE]
-> 应禁用统一联系人存储，以将联系人移动到统一联系人Teams。
+> 对于要移动到用户位置的联系人，应在 on-prem SfB 帐户上禁用统一联系人Teams。
 
 > [!IMPORTANT]
->使用 Move-CsUser 将用户从本地迁移到云时，现在会自动为用户分配 TeamsOnly 模式，其从本地会议将自动转换为 Teams 会议，而不管是否实际指定了切换。 `-MoveToTeams`  (其中包括从 Lync Server 2013 迁移，Lync Server 2013 从未具有 switch.) 如果未指定此开关，则用户从本地 Skype for Business Server 迁移到 Skype for Business Online，其模式保持不变。 `-MoveToTeams` 最近进行了更改，以准备停用 Skype for Business Online。
+>使用 Move-CsUser 将用户从本地迁移到云时，现在会自动为用户分配 TeamsOnly 模式，其从本地会议将自动转换为 Teams 会议，而不管是否实际指定了切换。 `-MoveToTeams`  (这包括从 Lync Server 2013 迁移，Lync Server 2013 从未具有 switch.) 如果未指定此开关，则用户从本地 Skype for Business Server 迁移到 Skype for Business Online，其模式保持不变。 `-MoveToTeams` 最近进行了更改，以准备停用 Skype for Business Online。
 
 
-## <a name="move-a-user-directly-from-skype-for-business-on-premises-to-teams-only"></a>将用户直接从本地Skype for Business移动到仅Teams用户
+## <a name="move-a-user-directly-from-skype-for-business-on-premises-to-teams-only"></a>将用户直接从本地Skype for Business移动到仅Teams
 
-Skype for Business Server 和 Lync Server 2013 中的本地管理工具使您能够使用 PowerShell 中的 Move-CsUser cmdlet 或 Skype for Business Server 控制面板，通过单个步骤将用户从本地移动到 TeamsOnly 模式，如下所述。 不再需要指定开关以及直接从内部部署移动到 Teams 无论使用哪个版本的 Skype for Business Server 或 Lync Server，现在仅自动 `-MoveToTeams` 执行。 
+利用 Skype for Business Server 和 Lync Server 2013 中的本地管理工具，您可以使用 PowerShell 中的 Move-CsUser cmdlet 或 Skype for Business Server 控制面板，在单个步骤中将用户从本地移动到 TeamsOnly 模式，如下所述。 不再需要指定开关以及直接从内部部署移动到 Teams 现在，无论使用哪个版本的 Skype for Business Server 或 Lync Server，都自动执行 Only `-MoveToTeams` 操作。 
 
-你必须在本地环境和云服务或云环境中 (Microsoft 365或Office 365) 足够的权限，如所需的管理[凭据中所述](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)。 您可以在这两个环境中使用具有特权的单个帐户，或者可以使用本地凭据启动本地 Skype for Business Server 命令行管理程序窗口，并使用 参数指定具有所需 管理角色 Microsoft 365 `-Credential` 的凭据。
+你必须在本地环境和云服务中拥有足够的权限 (Microsoft 365或Office 365) ，如所需的管理[凭据中所述](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)。 您可以在这两个环境中使用具有特权的单个帐户，或者可以使用本地凭据启动本地 Skype for Business Server 命令行管理程序窗口，并使用 参数指定具有所需 管理角色 的 `-Credential` Microsoft 365 的凭据。
 
 此外，必须确保用户已被授予 Teams (许可证，Skype for Business Online) 。 不要禁用 Skype for Business Online 许可证。
 
 ### <a name="move-to-teams-using-move-csuser"></a>使用Teams移动到Move-CsUser
 
-Move-CsUser本地命令行管理程序 PowerShell Skype for Business Server或 Lync Server 命令行管理程序 PowerShell 窗口中提供。 若要使用 Move-CsUser 将用户移动到 TeamsOnly 模式：
+Move-CsUser命令行管理程序 PowerShell Skype for Business Server或 Lync Server 命令行管理程序 PowerShell 窗口中提供。 若要使用 Move-CsUser 将用户移动到 TeamsOnly 模式：
 - 使用 参数指定要移动 `Identity` 的用户。
 - 指定 `-Target` 值为"sipfed.online.lync"的参数。 <span>com"。
-- 如果您没有一个同时在本地和云服务服务中具有足够权限 (Microsoft 365) ，请使用 参数在 Microsoft 365 中为帐户 `-credential` 提供足够权限。
+- 如果您没有一个同时在本地和云服务服务中具有足够权限的帐户 (Microsoft 365) ，请使用 参数在 Microsoft 365 中为帐户 `-credential` 提供足够权限。
 - 如果具有权限的帐户Microsoft 365以"onmicrosoft"结尾。 <span>com"， you must specify the `-HostedMigrationOverrideUrl` parameter， with the correct value as described in [Required administrative credentials](move-users-between-on-premises-and-cloud.md#required-administrative-credentials).
 
 以下 cmdlet 序列可用于将用户移动到 TeamsOnly，并假定 Microsoft 365 凭据是一个单独的帐户，并作为 Get-Credential 提示的输入提供。 无论指定开关还是不 `-MoveToTeams` 指定开关，行为都是相同的。
@@ -82,7 +82,7 @@ Move-CsUser本地命令行管理程序 PowerShell Skype for Business Server或 L
 Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -UseOAuth -HostedMigrationOverrideUrl $url
 ```
 
-### <a name="move-to-teams-using-skype-for-business-server-control-panel"></a>使用Teams控制面板Skype for Business Server移动到
+### <a name="move-to-teams-using-skype-for-business-server-control-panel"></a>使用"Teams控制面板Skype for Business Server移动到"
 
 1. 打开Skype for Business Server控制面板"应用。
 2. 在左侧导航栏中，选择"**用户"。**
@@ -96,14 +96,14 @@ Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -UseOA
     
 ## <a name="notify-your-skype-for-business-on-premises-users-of-the-upcoming-move-to-teams"></a>通知Skype for Business本地用户即将移动到Teams
 
-Skype for Business Server 2015 CU8 和 Skype for Business Server 2019 中的本地管理工具让你能够通知本地 Skype for Business 用户他们即将移动到 Teams。 启用这些通知后，用户将在其 Skype for Business 客户端 (Win32、Mac、Web 和移动) 通知，如下所示。 如果用户单击"**试用**"按钮，Teams客户端安装后将启动该客户端;否则，用户将在浏览器中导航到 Teams Web 版本。 默认情况下，当启用通知时，Win32 Skype for Business客户端以静默方式下载 Teams 客户端，以便丰富客户端在将用户移动到 TeamsOnly 模式之前可用;但是，您也可以禁用此行为。  通知使用 本地版本进行配置，Win32 客户端的无提示下载通过本地 `TeamsUpgradePolicy` `TeamsUpgradeConfiguration` cmdlet 控制。
+Skype for Business Server 2015 CU8 和 Skype for Business Server 2019 中的本地管理工具让你能够通知本地 Skype for Business 用户他们即将移动到 Teams。 启用这些通知后，用户将在 Skype for Business 客户端 (Win32、Mac、Web 和移动) 通知，如下所示。 如果用户 **单击"试用**"按钮，Teams客户端安装后将启动;否则，用户将在浏览器中导航到 Teams Web 版本。 默认情况下，当启用通知时，Win32 Skype for Business客户端会以静默方式下载 Teams 客户端，以便丰富客户端在将用户移动到 TeamsOnly 模式之前可用;但是，您也可以禁用此行为。  通知使用 本地版本进行配置，Win32 客户端的无提示下载通过本地 `TeamsUpgradePolicy` `TeamsUpgradeConfiguration` cmdlet 控制。
 
 > [!TIP]
 > 某些服务器可能需要重新启动才能在 2015 CU8 Skype for Business中工作。
 
-![有关即将移动到 Teams](../media/teams-upgrade-notification.png)
+![有关即将移动到 Teams 的通知。](../media/teams-upgrade-notification.png)
 
-若要通知本地用户他们即将升级到 Teams，请创建一个 NotifySfBUsers=true 的 TeamsUpgradePolicy 实例。 然后，通过直接向用户分配策略或在站点、池或全局级别设置策略，将策略分配给要通知的用户。 以下 cmdlet 可创建并授予用户级别的策略：
+若要通知本地用户他们即将升级到 Teams，请创建一个 NotifySfBUsers=true 的 TeamsUpgradePolicy 新实例。 然后，通过直接向用户分配策略或在站点、池或全局级别设置策略，将策略分配给要通知的用户。 以下 cmdlet 可创建并授予用户级别的策略：
 
 ```powershell
 New-CsTeamsUpgradePolicy -Identity EnableNotifications -NotifySfbUser $true
