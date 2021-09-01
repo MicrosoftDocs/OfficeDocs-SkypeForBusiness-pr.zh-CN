@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: df894e5ece2b75bc2168c02d4005b3e522bacab5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 82e1ba3c58dca1326cb942726efa7d0006aa622f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617548"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731231"
 ---
 # <a name="check-your-internet-connection-for-business-voice"></a>检查用于企业语音的 Internet 连接
 
@@ -64,22 +64,22 @@ ms.locfileid: "58617548"
 2. 打开“**计划**”，然后选择“**网络规划器**”。
 3. 在“**网络计划**”下，选择“**添加**”。 输入计划的名称，然后选择“**应用**”。 网络计划应如下所示：
 
-    ![网络规划器主屏幕](../media/network-planner-main.png)
+    ![网络规划器主屏幕。](../media/network-planner-main.png)
 1. 选择网络计划的名称。 （即上图中的 **主要办公室**。）
 2. 在下一页上，选择“**网络站点**”选项卡上的“**添加网络站点**”。
 3. 仅填写以下屏幕截图中所示的字段，然后选择“**保存**”。 将此屏幕上的其他字段留空，不要选择“**ExpressRoute**”或“**已连接到 WAN**”选项。
 
-    ![网络规划器站点信息](../media/network-planner-site-info.png)
+    ![网络规划器网站信息。](../media/network-planner-site-info.png)
 1. 在“**报告**”选项卡上，选择“**启动报告**”。
 1. 输入以下信息，然后选择“**生成报告**”，从而创建一份显示 Teams 带宽要求的报告。 我们将在下一节中介绍如何阅读该报告。
 
-    ![网络规划器报告信息](../media/network-planner-report-info.png)
+    ![网络规划器报告信息。](../media/network-planner-report-info.png)
 
 ### <a name="find-your-minimum-internet-connection-speed"></a>查找最低的 Internet 连接速度
 
 选择“**生成报告**”时，Microsoft 365 或 Office 365 将创建如下所示的报告：
 
-![网络规划器报告详细信息](../media/network-planner-report.png)
+![网络规划器报告详细信息。](../media/network-planner-report.png)
 
 突出显示的数字显示了 Teams 和企业语音将使用的 Internet 连接带宽。 建议该数字不超过 Internet 总连接速度的 30%。 例如，如果 Internet 连接速度是 60 Mbps，则 Teams 和企业语音的使用量不应超过 18 Mbps。
 
@@ -87,7 +87,7 @@ ms.locfileid: "58617548"
 
 如果 Teams 和企业语音的使用量将超过 Internet 总连接速度的 30%，则突出显示的数字将显示为红色。 在这种情况下，可能需要升级 Internet 连接。
 
-![连接速度警告](../media/network-planner-report-speed-warning.png)
+![连接速度警告。](../media/network-planner-report-speed-warning.png)
 
 ## <a name="make-sure-the-computers-and-devices-on-your-network-can-reach-microsoft-365"></a>确保网络上的计算机和设备可以访问 Microsoft 365
 

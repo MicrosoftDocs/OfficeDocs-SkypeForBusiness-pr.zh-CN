@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae8cfa1ea62472255825684d2e168be1411bb643
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 314e393b3faf0d5b74d25f3a545277dbba64c566
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604531"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730681"
 ---
 # <a name="manage-user-access-to-education-insights"></a>管理用户对 Education Insights 的访问权限
 
@@ -62,14 +62,14 @@ ms.locfileid: "58604531"
 
   你将看到教育组织中的角色列表、每个角色的层次结构中的级别、获得某角色的用户数以及角色的权限级别。 
   
-  :::image type="content" source="media/insights-role-based-permissions.png" alt-text="基于角色的权限":::
+  :::image type="content" source="media/insights-role-based-permissions.png" alt-text="基于角色的权限。":::
   
   如果某个角色位于多个组织级别，则该角色会出现多次，每个级别显示一次。 在屏幕截图中，学校和学区级别都有主体，因此“主体”有两行。
   
 * 对于每个角色，请单击铅笔图标以选择权限级别。 默认情况下，角色无权查看见解。
 * 选择权限级别–**查看其组织的数据** 或 **无**。
 
-  :::image type="content" source="media/insights-role-based-permissions-panel.png" alt-text="基于角色的权限面板":::
+  :::image type="content" source="media/insights-role-based-permissions-panel.png" alt-text="基于角色的权限面板。":::
   
   如果在列表中看到需要更细微权限级别的用户，请在 [从 SIS 导入的数据](education-insights-sis-data-sync.md) 中调整其角色和/或组织，并 [向他们授予个人权限](#grant-individual-permission-to-a-user)（如果需要）。
 
@@ -86,7 +86,7 @@ ms.locfileid: "58604531"
   
   你将会看到教育组织中被授予了单个权限的用户。 
   
-  :::image type="content" source="media/insights-individual-permissions.png" alt-text="单个权限":::
+  :::image type="content" source="media/insights-individual-permissions.png" alt-text="单个权限。":::
   
 ### <a name="grant-individual-permission-to-a-user"></a>向用户授予个人权限
 * 单击屏幕左上角的 **授予单个权限**。
@@ -103,6 +103,6 @@ ms.locfileid: "58604531"
   * **特定组织** 意味着用户会看到所选组织单位及其下的所有组织单位。 开始键入并从列表中选择组织单位。
   * **无** 表示用户只能看到由其角色自动分配的组织单位（如果有）。
   
-  :::image type="content" source="media/insights-individual-permissions-panel.png" alt-text="个人权限面板":::
+  :::image type="content" source="media/insights-individual-permissions-panel.png" alt-text="个人权限面板。":::
 
 * 单击 **保存更改** 来保存。

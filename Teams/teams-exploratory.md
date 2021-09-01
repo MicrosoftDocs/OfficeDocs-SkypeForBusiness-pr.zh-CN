@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8edeb3180710dede90df8cd2bd5ba54c7f2996bd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 057ac60f2033336df024b8a26daa6dff963dafa7
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627064"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58734091"
 ---
 # <a name="manage-the-microsoft-teams-exploratory-license"></a>管理 Microsoft Teams Exploratory 许可证
 
@@ -92,11 +92,11 @@ Teams Exploratory 体验自带 Exchange Online 许可证，但在管理员分配
 
 1. 从 Microsoft 365 管理中心，转到“**设置**” > “**组织设置**”，选择“**服务**”，然后选择“**用户自有应用和服务**”。
 
-    ![管理中心中“服务”页面的屏幕截图](media/iw-trial-services.png)
+    ![管理中心中的“服务”页面。](media/iw-trial-services.png)
 
 2. 清除“**允许用户安装试用版应用和服务**”的复选标记。
 
-    ![管理中心中的“用户自有应用和服务”页面](media/iw-trial-user-owned-apps-services.png)
+    ![管理中心中的“用户自有应用和服务”页面。](media/iw-trial-user-owned-apps-services.png)
 
     > [!NOTE]
     > 如果你的组织不符合获取 Teams 探索体验的条件，你将看不到“**允许用户安装试用版应用和服务**”选项。

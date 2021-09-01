@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 577060d46bea2196c17a42d82827bdcad7062285
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 89f31f586fc7b3839dd5820089528f91dfad7e93
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632036"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733832"
 ---
 # <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 管理中心中管理团队
 
@@ -45,7 +45,7 @@ ms.locfileid: "58632036"
 
 团队管理工具位于 Microsoft Teams 管理中心的“**团队**”节点下。 （在管理中心，选择“**团队**” > “**管理团队**”。）每个团队都由 Microsoft 365 组提供支持，此节点提供了组织中已启用 Microsoft Teams 的组视图。
 
-![Teams 概述网格屏幕截图](media/manage-teams-in-modern-portal-grid.png)  
+![Teams 概述网格屏幕截图。](media/manage-teams-in-modern-portal-grid.png)  
 
 网格显示以下属性：
 
@@ -94,7 +94,7 @@ ms.locfileid: "58632036"
 - 添加或删除频道（请注意，不能删除常规频道）。
 - 更改团队和组设置。
  
-![示例团队个人资料屏幕截图](media/manage-teams-in-modern-portal-team-profile-page.png)
+![示例团队个人资料屏幕截图。](media/manage-teams-in-modern-portal-team-profile-page.png)
 
 ## <a name="making-changes-to-teams"></a>对团队进行更改
 

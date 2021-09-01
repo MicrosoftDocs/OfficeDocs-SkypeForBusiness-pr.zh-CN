@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f314d7d9a1a53e47e4e2c9bed02626f229f3f2c9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2def0aef8c7cd90319549b82ef591c42ecf09dbc
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580136"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732001"
 ---
 # <a name="monitor-usage-and-feedback-in-microsoft-teams"></a>在 Microsoft Teams 中监视使用情况和反馈
 了解用户使用 Teams 的情况以及他们对 Teams 的体验非常重要。 使用情况报告可以帮助你更好地了解使用模式，并且连同用户反馈一起，为你提供相关见解来了解更广泛的部署以及在何处设置培训和通信工作的优先级。
@@ -43,14 +43,14 @@ Microsoft Teams 管理中心中的 Teams 报告能让你了解组织中 Teams �
 
 - **Teams 使用情况报告**：此报告提供 Teams 中使用情况活动的概览，其中包括活跃用户和频道总数，以及每个团队中活跃用户和频道、来宾和消息的数量。 
 
-    ![Teams 使用情况报告的屏幕截图](media/teams-reports-teams-usage.png "Microsoft Teams 管理中心内 Teams 使用情况报告的屏幕截图")     
+    ![Teams 使用情况报告的屏幕截图。](media/teams-reports-teams-usage.png "Microsoft Teams 管理中心内 Teams 使用情况报告的屏幕截图")     
 - **Teams 用户活动报告**：此报告使你能深入了解用户参与的活动类型，例如多少人通过一对一通话、频道消息和私人聊天消息进行通信。 
 
-    ![Teams 用户活动报告的屏幕截图](media/teams-reports-user-activity.png "Microsoft Teams 管理中心内 Teams 用户活动报告的屏幕截图") 
+    ![Teams 用户活动报告的屏幕截图。](media/teams-reports-user-activity.png "Microsoft Teams 管理中心内 Teams 用户活动报告的屏幕截图") 
 `
 - **Teams 设备使用情况报告**：此报告显示用户连接到 Teams 的方式，包括有多少人在外出时在其移动设备上使用 Teams。 
 
-    ![Teams 设备使用情况报告的屏幕截图](media/teams-reports-device-usage.png "Microsoft Teams 管理中心内 Teams 设备使用情况报告的屏幕截图")
+    ![Teams 设备使用情况报告的屏幕截图。](media/teams-reports-device-usage.png "Microsoft Teams 管理中心内 Teams 设备使用情况报告的屏幕截图")
 
 若要了解详细信息，请参阅 [Teams 分析和报告](teams-analytics-and-reports/teams-reporting-reference.md)。 
 

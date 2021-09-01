@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 在中国获取下载 Microsoft Teams for Android 的链接。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3f9d6dfef0d319f7878ec4138860aa3ab52ffd89
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: be9edd2cc5147becf360bc7a1b6ad33294c1acdf
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633286"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733771"
 ---
 # <a name="get-microsoft-teams-for-android-in-china"></a>在中国获取 Microsoft Teams for Android
 
@@ -29,10 +29,10 @@ ms.locfileid: "58633286"
 
 |应用商店  |QR 码  |
 |---------|---------|
-| 联想：https://aka.ms/TeamsLenovo      | ![联想应用商店中的 Android 版 Teams 的 QR 码](media/get-teams-android-in-china-lenovo.png)        |
-| 小米：https://aka.ms/TeamsXiaomi     |![小米应用商店中的 Android 版 Teams 的 QR 码](media/get-teams-android-in-china-xiaomi.png)         |
-|华为：https://aka.ms/TeamsHuawei     | ![华为应用商店中的 Android 版 Teams 的 QR 码](media/get-teams-android-in-china-huawei.png)        |
-|Oppo：在 Oppo 应用商店中搜索“Teams”     | ![Oppo 应用商店中的 Android 版 Teams 的 QR 码](media/get-teams-android-in-china-oppo.png)        |
-|百度：https://aka.ms/teams_baidu_direct_dl     | ![百度应用商店中的 Android 版 Teams 的 QR 码](media/get-teams-android-in-china-baidu.png)        |
+| 联想：https://aka.ms/TeamsLenovo      | ![联想应用商店中 Android 版 Teams 的 QR 码。](media/get-teams-android-in-china-lenovo.png)        |
+| 小米：https://aka.ms/TeamsXiaomi     |![小米应用商店中 Android 版 Teams 的 QR 码。](media/get-teams-android-in-china-xiaomi.png)         |
+|华为：https://aka.ms/TeamsHuawei     | ![华为应用商店中 Android 版 Teams 的 QR 码。](media/get-teams-android-in-china-huawei.png)        |
+|Oppo：在 Oppo 应用商店中搜索“Teams”     | ![Oppo 应用商店中 Android 版 Teams 的 QR 码。](media/get-teams-android-in-china-oppo.png)        |
+|百度：https://aka.ms/teams_baidu_direct_dl     | ![百度应用商店中 Android 版 Teams 的 QR 码。](media/get-teams-android-in-china-baidu.png)        |
 
 有关获取其他移动平台 Teams 客户端的信息，请参阅[获取 Teams 客户端](get-clients.md#mobile-clients)。

@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e50c0c3b7051ec713fff72058a53bd261ab650c3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0237ff7d32a677eab1efd8b804b7dc00ca5e4184
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607689"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733431"
 ---
 # <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>如何为一线工作人员大规模预配 Teams
 
@@ -216,11 +216,11 @@ Connect-MicrosoftTeams -Credential $teams_cred
 1. 在 Microsoft Teams 管理中心的左侧导航中，转到“ **Teams 应用**” >“ **设置策略**”。
 2. 单击“ **添加**”。  
 3. 输入策略的名称和说明。 例如，一线管理人员应用设置策略图像。
-    :::image type="content" source="media/flw-flm-app-setup-policy.png" alt-text="屏幕截图：一线管理人员应用设置策略的示例名称和说明":::
+    :::image type="content" source="media/flw-flm-app-setup-policy.png" alt-text="一线管理人员应用设置策略示例名称和说明的屏幕截图。":::
 
 4. 关闭“**上载自定义应用**”。
 5. 关闭“**允许用户固定**”。
-    :::image type="content" source="media/flw-allow-user-pinning.png" alt-text="屏幕截图：允许用户固定设置":::
+    :::image type="content" source="media/flw-allow-user-pinning.png" alt-text="允许用户固定设置的屏幕截图。":::
 
 6. 如果尚未列出 **班次** 应用，请添加。 有关班次的详细信息，请单击[此处](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)。
     :::image type="content" source="media/flw-add-pinned-apps.png" alt-text="屏幕截图：“添加固定的应用”屏幕，显示班次应用。“班次”应用的“添加”按钮":::
@@ -234,7 +234,7 @@ Connect-MicrosoftTeams -Credential $teams_cred
     - 日历
     - 班次
 
-    :::image type="content" source="media/flw-manager-pinned-apps.png" alt-text="屏幕截图：按顺序列出的一线管理人员的应用":::
+    :::image type="content" source="media/flw-manager-pinned-apps.png" alt-text="按顺序列出的一线管理人员的应用屏幕截图。":::
 
 #### <a name="create-the-frontline-worker-app-setup-policy"></a>创建一线工作人员应用设置策略
 
@@ -243,11 +243,11 @@ Connect-MicrosoftTeams -Credential $teams_cred
 1. 在 Microsoft Teams 管理中心的左侧导航中，转到“ **Teams 应用**” >“ **设置策略**”。
 2. 单击“ **添加**”。
 3. 输入策略的名称和说明。 例如，一线工作人员应用设置策略。
-    :::image type="content" source="media/flw-flw-app-setup-policy.png" alt-text="屏幕截图：一线工作人员应用设置策略的示例名称和说明":::
+    :::image type="content" source="media/flw-flw-app-setup-policy.png" alt-text="一线员工应用设置策略示例名称和说明的屏幕截图。":::
 
 4. 关闭“**上载自定义应用**”。
 5. 关闭“**允许用户固定**”。
-    :::image type="content" source="media/flw-allow-user-pinning.png" alt-text="屏幕截图：允许用户固定设置":::
+    :::image type="content" source="media/flw-allow-user-pinning.png" alt-text="允许用户固定设置的屏幕截图。":::
 
 6. 如果尚未列出 **班次** 应用，请添加。 有关班次的详细信息，请单击[此处](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)。
 
@@ -260,7 +260,7 @@ Connect-MicrosoftTeams -Credential $teams_cred
     - Teams
     - 班次
 
-    :::image type="content" source="media/flw-worker-pinned-apps.png" alt-text="屏幕截图：按顺序列出的一线工作人员的应用":::
+    :::image type="content" source="media/flw-worker-pinned-apps.png" alt-text="按顺序列出的一线员工的应用屏幕截图。":::
 
 ### <a name="create-teams-app-permission-policies"></a>创建 Teams 应用权限策略
 
@@ -275,7 +275,7 @@ Connect-MicrosoftTeams -Credential $teams_cred
 1. 在 Microsoft Teams 管理中心的左侧导航中，转到“ **Teams 应用**” >“ **权限策略**”。
 2. 单击“ **添加**”。
 
-    :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="屏幕截图：添加应用权限策略页面":::
+    :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="添加应用权限策略页面的屏幕截图。":::
 
 3. 输入策略的名称和说明。 例如，一线管理人员应用权限策略。
 4. 在  **Microsoft 应用** 下，选择“**允许所有应用**”。
@@ -290,7 +290,7 @@ Connect-MicrosoftTeams -Credential $teams_cred
 1. 在 Microsoft Teams 管理中心的左侧导航中，转到“ **Teams 应用**” >“ **权限策略**”。
 2. 单击“ **添加**”。
 
-    :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="屏幕截图：添加应用权限策略页面":::
+    :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="添加应用权限策略页面的屏幕截图。":::
 
 3. 输入策略的名称和说明。 例如，一线员工应用权限策略。
 4. 在  **Microsoft 应用** 下，选择“**允许所有应用**”。
