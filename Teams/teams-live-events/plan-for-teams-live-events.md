@@ -20,12 +20,12 @@ description: 在本文中，你将了解在 Microsoft Teams 中设置实时事�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4ff8f1ca2da0fee1f6d2e4b2418b8c66ab0d34bc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8996c796d6ab5a2e98c636a115707e6bb2249c6e
+ms.sourcegitcommit: 65964d5079120c900abdba24c08d4cc18d2fde7a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590706"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "58883750"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中规划实时事件
 
@@ -106,7 +106,7 @@ ms.locfileid: "58590706"
 > [!IMPORTANT]
 > **Microsoft 365 实时事件限制的增加**
 >
-> **若要继续支持客户的需求，直至 2021 年 12 月 31 日，我们将扩展现场活动的临时增加限额，包括**：
+> **为了继续支持客户的需求，在 2022 年 1 月 31 日前，我们将延长直播活动的临时限制增加，包括**：
 >
 >- 可为多达20,000名与会者提供活动支持
 >- 一个租户可同时举办50场活动
