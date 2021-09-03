@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 314e393b3faf0d5b74d25f3a545277dbba64c566
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: b69f885eee0b96b87b5f22d04abbd16d0389b904
+ms.sourcegitcommit: e5e6c6c99296db8005451bcb08d727469f0ac984
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730681"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58864192"
 ---
 # <a name="manage-user-access-to-education-insights"></a>管理用户对 Education Insights 的访问权限
 
@@ -64,7 +64,7 @@ ms.locfileid: "58730681"
   
   :::image type="content" source="media/insights-role-based-permissions.png" alt-text="基于角色的权限。":::
   
-  如果某个角色位于多个组织级别，则该角色会出现多次，每个级别显示一次。 在屏幕截图中，学校和学区级别都有主体，因此“主体”有两行。
+  如果某个角色位于多个组织级别，则该角色会出现多次，每个级别显示一次。 在屏幕截图中，在学校、学区和部门级别都有主体，因此“主题”有三行。
   
 * 对于每个角色，请单击铅笔图标以选择权限级别。 默认情况下，角色无权查看见解。
 * 选择权限级别–**查看其组织的数据** 或 **无**。
