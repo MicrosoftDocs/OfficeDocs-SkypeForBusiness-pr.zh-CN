@@ -12,12 +12,12 @@ ms.collection:
 description: 了解如何从 Skype for Business Online 连接器移动到 Teams PowerShell 模块以管理Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9dd03b414eba2ebc10dcfdbbb4e0ea2712fff73ca2cb0eb643aa132936ab1470
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cdd6460e6a17a15193104a0871a57fa6dbff8105
+ms.sourcegitcommit: 70c07a6b1be81681eec32a89872e2218d70c514d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54299002"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58866354"
 ---
 # <a name="migrating-from-skype-for-business-online-connector-to-the-teams-powershell-module"></a>从 Skype for Business Online 连接器迁移到 Teams PowerShell 模块
 
@@ -26,10 +26,7 @@ TeamsPowerShell 模块提供一组完整的 cmdlet，用于Teams PowerShell 命�
 > [!NOTE]
 > Teams 2021 年 3 月 16 日 (MC244740 消息中心发布消息通知管理员;MC250940，日期为 2021 年 4 月 16) 此更改。
 >
-> TeamsPowerShell 模块使用新式身份验证，Windows远程管理 (WinRM) 客户端配置为允许基本身份验证。 有关如何启用 WinRM for Basic[身份验证的说明](/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-windows-powershell-5-1)，请参阅下载并安装 Windows PowerShell。
-
-> [!WARNING]
-> Skype for Business从 2021 年 5 月 17 日开始，将拒绝联机连接器连接。 有关迁移到 PowerShell 模块的帮助和支持，请与 Microsoft Teams联系。
+> TeamsPowerShell 模块使用新式身份验证，Windows WinRM (客户端) 基础远程管理"，以允许基本身份验证。 有关如何[启用](/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-windows-powershell-5-1)WinRM Windows PowerShell身份验证的说明，请参阅下载并安装。
 
 ## <a name="how-to-migrate"></a>如何迁移
 
@@ -75,20 +72,6 @@ TeamsPowerShell 模块提供一组完整的 cmdlet，用于Teams PowerShell 命�
          # Disconnecting and closing the Session  
          Disconnect-MicrosoftTeams
     ```
-
-## <a name="online-support"></a>联机支持
-
-通过联机启动服务请求来节省时间。 我们将帮助你找到解决方案或联系技术支持人员。
-
-1.  转到 的管理中心 [https://admin.microsoft.com](https://admin.microsoft.com) 。 如果你收到一条消息，表明你无权访问此页面或执行此操作，那么你不是管理员。我Who拥有管理员权限？
-
-2.  选择" **需要帮助？"** 按钮。
-
-3.  在" **需要帮助？"** 窗格，告诉我们需要帮助的内容，然后按 Enter。
-
-4.  如果结果没有帮助，请选择"**联系支持人员"。**
-
-5.  输入问题说明，确认联系人号码和电子邮件地址，选择首选联系方式，然后选择"**与我联系"。** "需要帮助？" 中指示了预期的等待时间。窗格。
 
 ## <a name="related-topics"></a>相关主题
 
