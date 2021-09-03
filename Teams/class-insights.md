@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b09b6c6e42fcdd150d5aa95ebd56c9eaec36e01c
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ec523475d109c5658a3e30d679b2f06425e4ced8
+ms.sourcegitcommit: 70c07a6b1be81681eec32a89872e2218d70c514d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726661"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58866404"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Microsoft Teams 教育版见解 IT 管理员指南
 
@@ -171,6 +171,8 @@ Microsoft 已从零开始构建见解以确保数据得到保护。 我们意识
 
 ### <a name="licensing"></a>许可
 若要访问见解，用户必须具有 Microsoft 365 的 A1、A3 或 A5 教职员工许可证。
+
+*教育版 Insights Premium* 是一种付费升级，为教育领导者提供组织层面的教育版 Insights 数据视图，并为教育者提供对历史数据视图的扩展访问。 符合条件的教育机构可以通过教育解决方案注册 (EES)、云服务提供商 (CSP) 和 Microsoft 365 管理中心 (web direct) 购买 *教育版 Insights Premium* 附加许可证。
 
 ## <a name="student-information-system-sis-integration"></a>学生信息系统 (SIS) 集成
 向见解提供的数据越多，教师就越能更好地为学生提供支持，并且教育领导者也可以为教师提供更好的支持。
