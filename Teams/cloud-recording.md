@@ -19,12 +19,12 @@ description: 在 Teams 中部署云语音功能的实用指南，用于记录 Te
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4024ca2b061f6fb2db463b2eebf5951da2f19304
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4f88345045a24fc664458e3c67eb71243a663287
+ms.sourcegitcommit: 8ea133b6ac867496930efb933e84531e5617fb37
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620698"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "58924076"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 云会议录制
 
@@ -263,7 +263,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 > 
 > 我们将提供此功能将来工作原理的信息，以便能够为此更改作出计划，并提前修改 Teams 策略设置。 
 >
-> 在 Teams 中预先更改 MeetingExpirationDays 设置的 CMD (Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays) 尚不可设置。  当该设置可供修改时，我们将发布更新的消息中心帖子。
+> 在 Teams 中抢先更改 MeetingExpirationDays 设置的 CMD 尚不可用。  当该设置可供修改时，我们将发布更新的消息中心帖子。
 >
 >
 
@@ -309,7 +309,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 **管理员如何更改到期日？**
   
-在此功能发布之前，管理员将能够在 PowerShell (Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays) 或 Teams 管理中心更改默认过期设置。 此设置尚不可修改。 当设置可供修改时，我们将发布更新的消息中心帖子。 当启动功能时，管理员可以在 Teams 管理中心更改此设置。 更改到期设置只会影响从该时间点开始新建的 TMR。 这不会影响在该日期之前进行的任何录制。 
+在功能发布之前，管理员将能够在 PowerShell 或 Teams 管理中心更改默认过期设置。 此设置尚不可修改。 当设置可供修改时，我们将发布更新的消息中心帖子。 当启动功能时，管理员可以在 Teams 管理中心更改此设置。 更改到期设置只会影响从该时间点开始新建的 TMR。 这不会影响在该日期之前进行的任何录制。 
 
 过期天数值可设置如下：
   
@@ -320,7 +320,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
   
 **管理员能否将 TMR 设置为永不过期？**
   
- 可以，管理员可以通过以下 PowerShell cmdlet 将 TMR 设置为永不过期： (Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays -1) 
+ 可以，管理员可以将 TMR 设置为永不过期。
   
 **播放录制内容会更改过期日期吗?**
 
@@ -332,17 +332,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
   
 **如果将 TMR 复制或移动到其他位置或站点，会发生什么?**
 
-仅为移动的 TMR 文件保留日期。 复制文件不会具有过期日期，就像重新上传的 TMR 一样。
-  
-  示例 PowerShell 命令： 
-  
-  ```powershell
-  Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays 50
-  ```
-  
-**管理策略的控制范围是什么？**
-  
-会议和通话都将由相同的 `CsTeamsMeetingPolicy` 设置控制， `MeetingRecordingExpirationDays`。 
+仅为移动的 TMR 文件保留日期。 复制文件不会具有过期日期，就像重新上传的 TMR 一样。 
   
 **最终用户如何修改特定 TMR 文件的到期日？**
   
