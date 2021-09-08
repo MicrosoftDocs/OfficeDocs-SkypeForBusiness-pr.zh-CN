@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Microsoft Teams 和使用 Bookings 应用进行虚拟访问
-ms.openlocfilehash: be3b4b60f7f4c3860d909757f2be6cdc75bc8491
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cf6154099db5b6c6b52b9d82b4e58cd6c00c07b3
+ms.sourcegitcommit: 1c2364fbefd95151f0847a35e8bc7c4c1b3892f5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631416"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "58935858"
 ---
 # <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>使用 Microsoft Teams 和 Bookings 应用进行虚拟访问
 
@@ -97,6 +97,8 @@ Set-Mailbox -identity business@domain.onmicrosoft.com -WindowsEmailAddress busin
 要发送反馈，请单击 Teams 左侧导航栏底部附近的“**帮助**”按钮，然后就“**全部**”问题单击“**报告问题**”。 请在反馈报告的开头注明你发送的是有关“Bookings”的反馈，这样我们可以方便地识别 Bookings 问题。
 
 ## <a name="related-topics"></a>相关主题
+
+[管理移动浏览器上Teams虚拟访问的加入体验](expand-teams-across-your-org/mobile-browser-join.md)
 
 
   [适用最终用户的 Bookings 文档](https://support.office.com/en-us/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?ui=en-US&rs=en-US&ad=US#PickTab=Bookings)
