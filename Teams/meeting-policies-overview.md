@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.overview
 - seo-marvel-apr2020
 description: 了解如何在会议中管理会议策略Teams并使用它们来控制可供会议参与者用于用户安排的会议的功能。
-ms.openlocfilehash: f471d9513995a13eb32eaacd118cd2f3874cda7c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: dc2a57daccd9f252abe912892f0475a38859007f
+ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627334"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "58973040"
 ---
 # <a name="manage-meeting-policies-in-microsoft-teams"></a>管理会议Microsoft Teams
 
@@ -100,12 +100,12 @@ ms.locfileid: "58627334"
 
 - [常规](meeting-policies-in-teams-general.md)
 - [音频和视频](meeting-policies-audio-and-video.md)
+- [录制&听录](meetings-policies-recording-and-transcription.md)
 - [内容共享](meeting-policies-content-sharing.md)
 - [参与者和来宾](meeting-policies-participants-and-guests.md)
-
 
 ## <a name="related-topics"></a>相关主题
 
 - [Teams PowerShell 概览](teams-powershell-overview.md)
-- [向 Teams 中的用户分配策略](assign-policies.md)
+- [向 Teams 中的用户分配策略](policy-assignment-overview.md)
 - [从用户删除 RestrictedAnonymousAccess Teams 会议策略](meeting-policies-restricted-anonymous-access.md)

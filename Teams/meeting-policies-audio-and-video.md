@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.audioandvideo
 - seo-marvel-apr2020
 description: 了解如何在音频和视频Teams管理会议策略设置。
-ms.openlocfilehash: 4f8de802fd2ddf90555a34ac0b8d66d2d7021f79
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 9b7c2fd2ac98237383b8aaa1dff8fa764c6df2be
+ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726561"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "58973030"
 ---
 # <a name="meeting-policy-settings-for-audio--video"></a>音频和视频的会议&设置
 
@@ -33,40 +33,12 @@ ms.locfileid: "58726561"
 
 本文介绍特定于音频和视频的会议策略设置。 其中包括以下内容：
 
-- [允许转录](#allow-transcription)
-- [允许云录制](#allow-cloud-recording)
 - [IP 音频模式](#mode-for-ip-audio)
 - [IP 视频模式](#mode-for-ip-video)
 - [允许 IP 视频](#allow-ip-video)
 - [媒体位率 (Kbs)](#media-bit-rate-kbs)
 - [视频筛选器模式](#video-filters-mode)
 - [允许自定义背景设置](#allow-custom-background-settings)
-
-### <a name="allow-transcription"></a>允许转录
-
-这是按组织者和按用户策略的组合。 此设置控制播放会议录制内容期间是否提供字幕和转录功能。 如果将其关闭，则在播放会议录制内容期间“**搜索**”和“**CC**”选项将不可用。 启动录制的人员需要打开此设置，以便录制内容也包含脚本。
-
-请注意，录制的会议的听录目前仅支持将语言设置为英语Teams在会议中使用英语的用户。
-
-### <a name="allow-cloud-recording"></a>允许云录制
-
-这是按组织者和按用户策略的组合。 此设置控制是否可以录制此用户的会议。 如果为参与者打开策略设置，并且他们是同一组织的经过身份验证的用户，则会议组织者或其他会议参与者可以启动录制。
-
-组织之外的人员，如联合和匿名用户，无法启动录制。 来宾用户无法启动或停止录制。
-
-![显示录制选项的屏幕截图。](media/meeting-policies-recording.png)
-
-查看以下示例。
-
-|用户 |会议策略  |允许云录制 |
-|---------|---------|---------|
-|Daniela | 全局   | 关闭 |
-|Amanda | Location1MeetingPolicy | 开|
-|John (外部用户) | 不适用 | 不适用|
-
-无法录制由 Daniela 组织的会议，已启用策略设置的 Amanda 无法录制 Daniela 组织的会议。 可以录制由 Amanda 组织的会议，但禁用了策略设置的 Daniela 和外部用户的 John 无法录制 Amanda 组织的会议。
-
-若要了解有关云会议记录的更多信息，请参阅 [Teams 云会议录制](cloud-recording.md)。
 
 ### <a name="mode-for-ip-audio"></a>IP 音频模式
 
@@ -77,7 +49,7 @@ ms.locfileid: "58726561"
 |**已启用传出和传入音频**    |会议允许传出和传入音频。这是默认设置。 |
 |**禁用**     |传出和传入音频在会议中已关闭。     |
 
-如果用户设置为 **"已** 禁用"，该用户仍可以安排和组织会议，但他们不能使用音频。 要加入会议，他们必须通过 PSTN 公用电话交换网 (PSTN) 或通过电话拨入会议呼叫并加入会议。 没有指定任何策略的会议参与者 (例如，匿名参与者) 将此设置为默认 **启用传出和传入音频**。 在 Teams 移动客户端上，如果禁用此设置，用户必须通过 PSTN 拨入会议。
+如果用户设置为 **"已** 禁用"，该用户仍可以安排和组织会议，但他们不能使用音频。 若要加入会议，他们必须通过 PSTN 公用电话交换网 (PSTN) 或通过电话拨入会议呼叫并加入会议。 没有指定任何策略的会议参与者 (例如，匿名参与者) 将此设置为默认 **启用传出和传入音频**。 在 Teams 移动客户端上，如果禁用此设置，用户必须通过 PSTN 拨入会议。
 
 此设置不适用于 1:1 呼叫。 若要限制 1:1 通话，请配置 Teams [通话策略](teams-calling-policy.md) 并关闭 **“进行私人通话”** 设置。 此设置也不适用于 Surface Hub 和 Microsoft Teams 会议室设备等会议室设备。
 
@@ -116,7 +88,7 @@ ms.locfileid: "58726561"
 
 | Teams 桌面和 Web 客户端 |Teams 移动客户端  |
 |:-------:|:-------:|
-|![显示桌面音频/视频设置的会议加入的屏幕截图。](media/meeting-policies-audio-video-settings.png)    |![屏幕截图显示在移动设备上通过音频/视频设置加入会议的画面](media/meeting-policies-mobile-join.png)          |
+|![显示在桌面上通过音频/视频设置加入会议的屏幕截图。](media/meeting-policies-audio-video-settings.png)    |![屏幕截图显示在移动设备上通过音频/视频设置加入会议的画面](media/meeting-policies-mobile-join.png)          |
 
 查看以下示例。
 
@@ -161,7 +133,7 @@ ms.locfileid: "58726561"
 
 #### <a name="teams-mobile-clients"></a>Teams 移动设备客户端
 
-对于使用Teams客户端的用户，会议期间共享照片和视频的能力也取决于"允许 **IP** 视频"或 **"IP 视频模式"** 设置。 根据策略设置优先，将无法使用分享视频和照片的功能。 这不会影响屏幕共享，可以使用单独的 [屏幕共享模式](meeting-policies-content-sharing.md#screen-sharing-mode) 设置进行配置。 此外，还可以设置 [Teams 移动性策略](/powershell/module/skype/new-csteamsmobilitypolicy)，防止移动用户通过蜂窝连接使用 IP 视频，这意味着他们必须使用 WiFi 连接。
+对于Teams客户端上的用户，会议期间共享照片和视频的能力也取决于"允许 **IP** 视频"或 **"IP 视频模式"** 设置。 根据策略设置优先，将无法使用分享视频和照片的功能。 这不会影响屏幕共享，可以使用单独的 [屏幕共享模式](meeting-policies-content-sharing.md#screen-sharing-mode) 设置进行配置。 此外，还可以设置 [Teams 移动性策略](/powershell/module/skype/new-csteamsmobilitypolicy)，防止移动用户通过蜂窝连接使用 IP 视频，这意味着他们必须使用 WiFi 连接。
 
 ### <a name="media-bit-rate-kbs"></a>媒体位率 (Kbs)
 
@@ -228,4 +200,4 @@ ms.locfileid: "58726561"
 ## <a name="related-topics"></a>相关主题
 
 - [Teams PowerShell 概览](teams-powershell-overview.md)
-- [向 Teams 中的用户分配策略](assign-policies.md)
+- [向 Teams 中的用户分配策略](policy-assignment-overview.md)

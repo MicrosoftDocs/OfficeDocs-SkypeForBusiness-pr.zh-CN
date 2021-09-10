@@ -26,12 +26,12 @@ description: 了解 Microsoft Teams 括号、EHR 集成、第一线工作者系�
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: bfa67a90a2d6938d6bc2db9d65833c03450b6172
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 0fa0976c4e69f205feda03a4047a6bbcb26b1183
+ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730671"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "58972900"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>适用于医疗保健组织的 Teams 入门
 
@@ -70,7 +70,7 @@ Microsoft Teams 提供对医疗保健和其他医疗保健组织有用的许多�
 使用 Microsoft Teams 中完整的会议平台来安排、管理和与患者进行虚拟访问。
 
 - 如果你的组织已使用电子健康记录（EHR）和 Microsoft Teams，你可以集成 Microsoft Teams 以更加无缝的体验。 借助 Microsoft Teams 电子健康记录 (EHR) 连接器，临床医生可轻松地直接从 EHR 系统直接向 Teams 中的其他提供商发起虚拟患者访视或咨询。 有关详细信息，请参阅 [Teams 的虚拟访问 - 集成到 EHR](ehr-admin.md)。
-- 如果使用的不是受支持的 EHR，可以在 Teams 中使用 Microsoft Bookings 和 Bookings 应用。 有关详细信息，请参阅 [Bookings 应用和 Microsoft Teams](../../bookings-app-admin.md)。
+- 如果使用的不是受支持的 EHR，可以在 Teams 中使用 Microsoft Bookings 和 Bookings 应用。 若要了解详情，请参阅使用[Teams 和 Bookings](../bookings-virtual-visits.md)应用进行虚拟访问。
 
 ![使用虚拟访问Microsoft Teams。](../../media/virtual-visits-teams.png)
 
