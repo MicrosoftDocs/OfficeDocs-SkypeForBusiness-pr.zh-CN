@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
 - seo-marvel-may2020
-ms.openlocfilehash: e7ebfeea83a34bec241c5de29f8d8445410a97d1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 19296d5def314bdd54af25c27401a9bbd0972cf2
+ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617448"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "58973010"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams 中的聊天、团队、频道和应用
 
@@ -102,7 +102,7 @@ Teams 提供了一组可用于为组织管理 Teams 的自定义管理员角色�
 
 ### <a name="guest-access"></a>来宾访问权限
 
-Teams 中的来宾访问可让组织外部的个人访问团队和频道。可以使用来宾访问设置来控制来宾用户能够使用或无法使用哪些功能。默认情况下会关闭来宾访问。若要了解详细信息，请参阅 [Teams 中的来宾访问](./guest-access.md)。
+Teams 中的来宾访问可让组织外部的个人访问团队和频道。 可以使用来宾访问设置来控制来宾可以或不能使用的功能。 默认情况下，来宾访问处于打开状态。 若要了解详细信息，请参阅 [Teams 中的来宾访问](./guest-access.md)。
 
 > [!NOTE]
 > 有关外部访问和来宾访问的详细信息，请参阅此处 — [与 Microsoft Teams 中其他组织的用户通信](communicate-with-users-from-other-organizations.md)

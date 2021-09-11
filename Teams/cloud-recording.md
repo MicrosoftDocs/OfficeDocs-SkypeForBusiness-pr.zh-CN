@@ -19,12 +19,12 @@ description: 在 Teams 中部署云语音功能的实用指南，用于记录 Te
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 333afdd88313a34b7331617220fa335237a8fbbb
-ms.sourcegitcommit: 1c2364fbefd95151f0847a35e8bc7c4c1b3892f5
+ms.openlocfilehash: c1e8bc4836cab206389fcc011e4d7a41d2b54f74
+ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "58935878"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "58973060"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 云会议录制
 
@@ -39,13 +39,13 @@ ms.locfileid: "58935878"
 - 添加到 Microsoft 365 的各种文件列表：与我共享、office.com、推荐、最近使用等。
 - 为 Microsoft 365 搜索编制索引
 
-相关：[Teams 会议录制最终用户文档](https://aka.ms/recordmeeting)
+相关：[Teams 会议录制最终用户文档](https://support.microsoft.com/en-us/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24)
 
 >[!Note]
 > 从使用 Microsoft Stream（经典）到 OneDrive for Business 和 SharePoint Online 进行会议录制的更改将于 2021 年 8 月自动发生。 有关详细信息，请参阅 [使用 OneDrive for Business 和 SharePoint Online 或 Stream 进行会议录制](tmr-meeting-recording-change.md)。
 
 > [!NOTE]
-> 有关在 Teams 会议中使用角色以及如何更改用户角色的信息，请参阅 [Teams 会议中的角色](https://support.microsoft.com/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us)。 有关实时事件录制选项，请参阅 [Teams 中的实时事件录制策略](teams-live-events/live-events-recording-policies.md)。
+> 有关在 Teams 会议中使用角色以及如何更改用户角色的信息，请参阅 [Teams 会议中的角色](https://support.microsoft.com/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019)。 有关实时事件录制选项，请参阅 [Teams 中的实时事件录制策略](teams-live-events/live-events-recording-policies.md)。
 
 ## <a name="prerequisites-for-teams-cloud-meeting-recording"></a>Teams 云会议录制的先决条件
 
@@ -73,20 +73,20 @@ ms.locfileid: "58935878"
 
 ## <a name="set-up-teams-cloud-meeting-recording-for-users-in-your-organization"></a>为组织中的用户设置 Teams 云会议录制
 
-本部分介绍如何通过 [Teams 会议策略](./assign-policies.md) 设置和计划录制 Teams 会议。
+本部分介绍如何通过 [Teams 会议策略](policy-assignment-overview.md) 设置和计划录制 Teams 会议。
 
 ### <a name="turn-on-or-turn-off-cloud-recording"></a>打开或关闭云录制
 
 你可以使用 Microsoft Teams 管理中心或 PowerShell 来设置 Teams 会议策略，以控制是否可以录制用户的会议。
 
-在 Microsoft Teams 管理中心中，打开或关闭会议策略中的“**允许云录制**”设置。 要了解详细信息，请参阅 [音频和视频的会议策略设置](meeting-policies-audio-and-video.md#allow-cloud-recording)。
+在 Microsoft Teams 管理中心中，打开或关闭会议策略中的“**允许云录制**”设置。 要了解详细信息，请参阅 [音频和视频的会议策略设置](meetings-policies-recording-and-transcription.md#allow-cloud-recording)。
 
 借助 PowerShell，你可以配置 TeamsMeetingPolicy 中的 AllowCloudRecording 设置。 若要了解详细信息，请参阅[New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) 和 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)。
 
 请注意，会议组织者和录制发起人均需具有录制会议所需的录制权限。 除非已向用户分配了自定义策略，否则用户将获得默认已启用 AllowCloudRecording 的全局策略。
 
 > [!NOTE]
-> 有关使用 Teams 角色配置具有录制会议权限的用户的详细信息，请参阅 [Teams 会议中的角色](https://support.microsoft.com/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us)。
+> 有关使用 Teams 角色配置具有录制会议权限的用户的详细信息，请参阅 [Teams 会议中的角色](https://support.microsoft.com/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019)。
 
 若要让用户回退到全局策略，请使用以下 cmdlet 删除用户的特定策略分配：
 
@@ -111,7 +111,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $true
 <a name="bd-channel"></a>
 ### <a name="block-or-allow-download-of-channel-meeting-recordings"></a>阻止或允许下载频道会议录制内容
 
-此设置控制频道会议是否保存到频道中的“录制内容”文件夹或“录制内容\仅供查看”文件夹。 此设置适用于选择频道会议记录用户的策略。 
+此设置控制频道会议是否保存到频道中的“录制内容”文件夹或“录制内容\仅供查看”文件夹。 此设置适用于选择频道会议记录用户的策略。
 
 此设置的两个值为：
 
@@ -151,7 +151,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -ChannelRecordingDownload Block
 
 你可以使用 Microsoft Teams 管理中心或 PowerShell 来设置 Teams 会议策略，以控制录制发起人是否可以选择转录会议录制。
 
-在 Microsoft Teams 管理中心中，打开或关闭会议策略中的“**允许转录**”设置。 要了解详细信息，请参阅 [音频和视频的会议策略设置](meeting-policies-audio-and-video.md#allow-transcription)。
+在 Microsoft Teams 管理中心中，打开或关闭会议策略中的“**允许转录**”设置。 要了解详细信息，请参阅 [音频和视频的会议策略设置](meetings-policies-recording-and-transcription.md#allow-transcription)。
 
 借助 PowerShell，你可以配置 TeamsMeetingPolicy 中的 AllowTranscription 设置。 若要了解详细信息，请参阅[New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) 和 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)。
 
@@ -200,7 +200,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 如果将 `Set-CsTeamsMeetingPolicy -ChannelRecordingDownload` 设置为允许（默认值），则：
 
-- 录制内容存储在 Teams 网站文档库中名为 **录制内容** 的文件夹中。 
+- 录制内容存储在 Teams 网站文档库中名为 **录制内容** 的文件夹中。
 
   示例：<i>Teams 名称 - 频道名称</i>/**文档**/**录制内容**
 
@@ -257,31 +257,31 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
  <a name="auto-expiration"></a>
 ### <a name="auto-expiration-of-teams-meeting-recordings"></a>Teams 会议录制的自动到期时间： 
 
-> [!IMPORTANT] 
+> [!IMPORTANT]
 >
-> 本文中讨论的自动到期功能尚未启动。 有关传送日期的详细信息，请参阅 [路线图（功能 ID： 84580）](https://www.microsoft.com/microsoft-365/roadmap?searchterms=82057&filters=&searchterms=84580) 。 
+> 本文中讨论的自动到期功能尚未启动。 有关传送日期的详细信息，请参阅 [路线图（功能 ID： 84580）](https://www.microsoft.com/microsoft-365/roadmap?searchterms=82057&filters=&searchterms=84580) 。
 > 
-> 我们将提供此功能将来工作原理的信息，以便能够为此更改作出计划，并提前修改 Teams 策略设置。 
+> 我们将提供此功能将来工作原理的信息，以便能够为此更改作出计划，并提前修改 Teams 策略设置。
 >
 > 在 Teams 中用来预先更改默认过期设置的 CMD 尚不可设置。  当该设置可供修改时，我们将发布更新的消息中心帖子。
 >
 >
 
-请参阅面向管理员和最终用户的常见问题，以深入了解 Teams 会议录制的自动到期如何工作、现在可以采取哪些操作，以及在功能启动后可以采取哪些操作。 
+请参阅面向管理员和最终用户的常见问题，以深入了解 Teams 会议录制的自动到期如何工作、现在可以采取哪些操作，以及在功能启动后可以采取哪些操作。
   
 ## <a name="frequently-asked-questions"></a>常见问题解答
 
 **具体更改了什么？**
   
-将为所有新创建的 Teams 会议录制 （TMR） 引入默认的 60 天到期设置。 这表示在默认情况下，启用此功能后创建的所有 TMR 将在创建日期 60 后删除。 如果管理员希望会议录制早于或晚于默认到期时间，可以修改到期设置。 OneDrive 和 SharePoint 系统将监视所有会议录制设置的到期日期，并会在到期时间自动将其移动到回收站。 
+将为所有新创建的 Teams 会议录制 （TMR） 引入默认的 60 天到期设置。 这表示在默认情况下，启用此功能后创建的所有 TMR 将在创建日期 60 后删除。 如果管理员希望会议录制早于或晚于默认到期时间，可以修改到期设置。 OneDrive 和 SharePoint 系统将监视所有会议录制设置的到期日期，并会在到期时间自动将其移动到回收站。
 
 **对谁有影响？**
   
-在 OneDrive 或 SharePoint 中存储 Teams 会议录制（非频道、频道或临时会议）的任何人。 
+在 OneDrive 或 SharePoint 中存储 Teams 会议录制（非频道、频道或临时会议）的任何人。
 
 **为什么使用此功能？**
   
-使用此功能限制 Teams 会议录制使用的 OneDrive 或 SharePoint 存储空间（注意：通常每小时会使用大约 400 MB 的录制）。 
+使用此功能限制 Teams 会议录制使用的 OneDrive 或 SharePoint 存储空间（注意：通常每小时会使用大约 400 MB 的录制）。
   
 **我们为什么要进行此更改？**
   
@@ -289,11 +289,11 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
   
 **为什么默认启用此功能？**
   
-我们认为，通过删除 60 天后可能永远不会重新播放的录制内容，几乎所有客户都从租户的存储负载降低中获益。 我们的目标是在默认情况下为所有客户提供尽可能无干扰的体验。 
+我们认为，通过删除 60 天后可能永远不会重新播放的录制内容，几乎所有客户都从租户的存储负载降低中获益。 我们的目标是在默认情况下为所有客户提供尽可能无干扰的体验。
   
 **即使访问或下载了数据，也会自动删除数据吗？**
   
-访问文件不会更改过期日期。 
+访问文件不会更改过期日期。
   
 **过期日期作为列表中的列可见吗?**
 
@@ -301,22 +301,22 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
   
 **如何计算到期日期？**
   
-到期日的计算为创建会议录制的日期加上管理员在 Teams 设置中设置的默认天数。 
+到期日的计算为创建会议录制的日期加上管理员在 Teams 设置中设置的默认天数。
   
 **能否更改每个 TMR 的过期日期，例如数据 A 过期日期为 30 天，数据 B 过期日期为 60 天?**
 
 是，到期日期按每个文件设置。用户可以在 OneDrive 或 SharePoint 中所选文件的详细信息窗格中修改到期日期。
 
-**管理员如何更改到期日？**
+**管理员如何更改到期日期？**
   
-在功能发布之前，管理员将能够在 PowerShell 或 Teams 管理中心更改默认过期设置。 此设置尚不可修改。 当设置可供修改时，我们将发布更新的消息中心帖子。 当启动功能时，管理员可以在 Teams 管理中心更改此设置。 更改到期设置只会影响从该时间点开始新建的 TMR。 这不会影响在该日期之前进行的任何录制。 
+在功能发布之前，管理员将能够在 PowerShell 或 Teams 管理中心更改默认过期设置。 此设置尚不可修改。 当设置可供修改时，我们将发布更新的消息中心帖子。 当启动功能时，管理员可以在 Teams 管理中心更改此设置。 更改到期设置只会影响从该时间点开始新建的 TMR。 这不会影响在该日期之前进行的任何录制。
 
 过期天数值可设置如下：
   
-- 该值可以是 1 到 99999 (最大值为 273 年) 。
-- 该值也可以为 -1，以将 TMR 设置为永不过期。 
- 
-在发布此功能之前，管理员无法更改已上传到 OneDrive 或 SharePoint 的现有 TMR 的到期日。 这将保护拥有 TMR 用户的意图。 
+- 该值可以是 1 到 99999 天（最多 273 年）。
+- 该值也可以为 -1，以将 TMR 设置为永不过期。
+
+在发布此功能前，管理员无法更改已上传到 OneDrive 或 SharePoint 的现有 TMR 的过期日期。 这将保护拥有 TMR 用户的意图。
   
 **管理员能否将 TMR 设置为永不过期？**
   
@@ -332,38 +332,38 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
   
 **如果将 TMR 复制或移动到其他位置或站点，会发生什么?**
 
-仅为移动的 TMR 文件保留日期。 复制文件不会具有过期日期，就像重新上传的 TMR 一样。 
+仅为移动的 TMR 文件保留日期。 复制文件不会具有过期日期，就像重新上传的 TMR 一样。
   
 **最终用户如何修改特定 TMR 文件的到期日？**
   
-任何对 TMR 具有编辑和删除权限的人都可以在 OneDrive 或 SharePoint 的文件详细信息窗格中修改到期日。 
+任何对 TMR 具有编辑和删除权限的人都可以在 OneDrive 或 SharePoint 的文件详细信息窗格中修改到期日。
 
-用户可以将到期时间推迟 14 天、30 天或 60 天，或者可以选择将来的特定日期，也可以选择文件永不到期。 
+用户可以将到期时间推迟 14 天、30 天或 60 天，或者可以选择将来的特定日期，也可以选择文件永不到期。
   
 **管理员是否应依赖此功能严格遵守安全性和合规性？**
   
-否，管理员不应依赖此功能获得法律保护，因为最终用户可以修改他们控制的任何录制到期日。 
+否，管理员不应依赖此功能获得法律保护，因为最终用户可以修改他们控制的任何录制到期日。
   
 **此功能是否会强制文件进行保留？**
   
 否，由于此功能或其设置，文件将不会保留。 如果具有删除权限的用户尝试删除有到期设置的 TMR，则将执行该用户的删除操作。
- 
+
 **在安全与合规性 （S+C） 中心设置的保留和/或删除策略是否会替代 TMR 到期设置？**
   
-是，在 S+C 中心设置的任何策略都将优先执行。例如： 
+是，在 S+C 中心设置的任何策略都将优先执行。例如：
   
 - 如果有一个策略，指出网站中的所有文件必须保留 100 天，并且 TMR 的到期设置为 30 天，则录制文件将保留 100 天。  
-- 如果有一个删除策略，指出所有 TMR 将在 5 天后删除，并且录制文件的到期设置为 30 天，则该文件将在 5 天后删除。 
+- 如果有一个删除策略，指出所有 TMR 将在 5 天后删除，并且录制文件的到期设置为 30 天，则该文件将在 5 天后删除。
 
 **TMR 到期后会怎样？**
   
-在到期日，TMR 将移到 OneDrive 或 SharePoint 回收站中，到期日期字段将清除。 系统执行的此操作与用户删除文件时完全相同。 回收站生命周期随后将遵循正常路径。 如果用户从回收站恢复 TMR，则此功能不会再次删除 TMR，因为到期日已清除，除非最终用户为文件设置新的到期日。 
+在到期日，TMR 将移到 OneDrive 或 SharePoint 回收站中，到期日期字段将清除。 系统执行的此操作与用户删除文件时完全相同。 回收站生命周期随后将遵循正常路径。 如果用户从回收站恢复 TMR，则此功能不会再次删除 TMR，因为到期日已清除，除非最终用户为文件设置新的到期日。
   
 **如何通知文件到期？**
   
-有视图访问权限的人都将在 Teams 聊天窗口的录制文件中看到有关到期日的通知。 
+有视图访问权限的人都将在 Teams 聊天窗口的录制文件中看到有关到期日的通知。
   
-在文件到期前 14 天，有视图访问权限的人都将在 OneDrive 或 SharePoint 文件夹中的文件旁看到红色图标。 
+在文件到期前 14 天，有视图访问权限的人都将在 OneDrive 或 SharePoint 文件夹中的文件旁看到红色图标。
   
 当 TMR 到期时，文件所有者将收到电子邮件通知，并且将转到回收站恢复 TMR（如果需要）。
   
@@ -373,17 +373,17 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
   
 **文件到期是否是一项已审核事件，我能否在审核日志中看到它？**
   
-是的，文件到期将在审核日志中显示为系统删除事件。 
+是的，文件到期将在审核日志中显示为系统删除事件。
   
 **如果希望管理员完全控制 TMR 的生命周期，并且不希望最终用户能够覆盖到期日，该怎么办？**
   
-建议使用作为 E5 合规性 SKU 一部分的 S+C 保留和/或删除策略。 该产品/服务旨在解决复杂的策略和 SLA 驱动的行政法律问题。 
+建议使用作为 E5 合规性 SKU 一部分的 S+C 保留和/或删除策略。 该产品/服务旨在解决复杂的策略和 SLA 驱动的行政法律问题。
 
-此功能仅用作轻型的内务管理机制，以减少冷 TMR 所产生的存储杂乱。 
+此功能仅用作轻型的内务管理机制，以减少冷 TMR 所产生的存储杂乱。
   
 **文件何时删除？**
   
-文件将在到期日后的 5 天内删除，但这不是绝对。 
+文件将在到期日后的 5 天内删除，但这不是绝对。
   
 **发布此功能后，从经典流迁移的 TMR 将来是否也会应用自动到期？**
   
