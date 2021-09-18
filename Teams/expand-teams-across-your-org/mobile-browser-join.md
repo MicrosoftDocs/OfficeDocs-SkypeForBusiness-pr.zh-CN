@@ -1,5 +1,5 @@
 ---
-title: 管理移动浏览器上Teams虚拟访问的加入体验
+title: 管理在移动浏览器中Teams虚拟访问的加入体验
 author: lanachin
 ms.author: v-lanachin
 manager: samanro
@@ -19,16 +19,16 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: hafarmer
 description: 了解在移动浏览器中Teams虚拟访问的加入体验。
-ms.openlocfilehash: 4017947d53078b33ce2a4195a6ace9af92adc85c
-ms.sourcegitcommit: 1c2364fbefd95151f0847a35e8bc7c4c1b3892f5
+ms.openlocfilehash: 6183fccce1c455ac46f4eb7c166530535d5dbbe8
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "58936140"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432684"
 ---
-# <a name="manage-the-join-experience-for-teams-virtual-visits-on-mobile-browsers"></a>管理移动浏览器上Teams虚拟访问的加入体验
+# <a name="manage-the-join-experience-for-teams-virtual-visits-on-mobile-browsers"></a>管理在移动浏览器中Teams虚拟访问的加入体验
 
-Microsoft Teams，用户无需下载约会即可在移动设备上加入Teams。 为获得更无缝的体验，与会者可以通过移动浏览器加入约会，例如医疗保健访问、财务咨询、教师办公时间等。 与会者无需在 Android Teams iOS 移动设备上安装该应用。
+Microsoft Teams，用户无需下载约会即可在移动设备上加入Teams。 为获得更无缝的体验，与会者可以通过移动浏览器加入约会，例如医疗保健访问、财务咨询、教师办公时间等。 与会者无需在 Android 或 iOS 移动设备上Teams移动应用。
 
 使用移动浏览器加入时，当与会者从移动设备加入约会时，系统不会提示他们下载Teams。 相反，Teams在移动浏览器中打开，与会者可以在其中选择"立即 **加入**"以加入。 使用此功能时，请记住，如果Teams安装在与会者的移动设备上，Teams浏览器中打开，而不是在应用中打开。
 
@@ -43,7 +43,7 @@ Microsoft Teams，用户无需下载约会即可在移动设备上加入Teams。
 
 您的组织中的计划人员可以在 Bookings 应用中为特定约会类型和单个约会启用此功能。
 
-启用此功能后，发送给与会者的确认电子邮件或短信文本将包含在移动浏览器中打开Teams加入链接。 在 Android 移动设备上，Teams Chrome 中打开。 在 iOS 移动设备上，Teams Safari 中打开。
+启用此功能后，发送给与会者的确认电子邮件或短信将包含在移动浏览器中打开Teams加入链接。 在 Android 移动设备上，Teams Chrome 中打开。 在 iOS 移动设备上，Teams Safari 中打开。
 
 #### <a name="turn-on-mobile-browser-join-for-an-appointment-type"></a>为约会类型启用移动浏览器加入
 
@@ -78,11 +78,11 @@ Microsoft Teams，用户无需下载约会即可在移动设备上加入Teams。
 &sup2;需要 Safari 14+ 和 macOS 11+ 才能支持传出视频。
 
 > [!NOTE]
-> 我们将在将来的 Teams 版本中向会议加入体验添加更多功能，因此请返回查看最新信息。 若要随时了解即将推出的Teams功能，请查看"Microsoft 365[路线图"。](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams)
+> 我们将在将来的会议加入体验中添加更多功能Teams，因此请返回查看最新信息。 若要随时了解即将推出的Teams功能，请查看"Microsoft 365[路线图"。](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams)
 
 ## <a name="related-articles"></a>相关文章
 
-- [使用 Teams 和 Bookings 应用进行虚拟访问](../bookings-app-admin.md)
+- [使用 Teams 和 Bookings 应用进行虚拟访问](bookings-virtual-visits.md)
 - [创建 Bookings 约会类型](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887)
 - [作为与会者加入 Bookings 约会](https://support.microsoft.com/office/join-a-bookings-appointment-as-an-attendee-95cea12d-2220-421f-a663-6efb20913c7f)
 - [通过 Teams 进行虚拟就诊 - 集成到 EHR](healthcare/ehr-admin.md)

@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - seo-marvel-mar2020
 description: 了解为使用 Microsoft 批量许可的组织启用音频会议功能的按分钟付费选项。
-ms.openlocfilehash: ef741bfba6667711c03bd90d2018d7da2093eac8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fcad09e00c106b38ad5f5a42add2e01b011c04ed
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593156"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432674"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>音频会议按分钟付费
 
@@ -52,19 +52,19 @@ ms.locfileid: "58593156"
 - 从组织的会议内拨打外部电话号码的出站呼叫。
     
 > [!NOTE]
-> 您可以通过在音频会议 中查看"查看要呼叫位置的费率"部分，找到与这些类型的呼叫相关联的拨入和拨出[费率](https://products.office.com/microsoft-teams/online-meeting-solutions#Rates)。
+> 通过查看音频会议 中的"音频会议费率"部分，可以找到与这些类型的呼叫相关联的拨入和[拨出费率](https://www.microsoft.com/microsoft-teams/audio-conferencing)。 
   
   
-按分钟付费要求组织设置 [通信](what-are-communications-credits.md) 信用额度。 如果需要更多详细信息，请参阅[为](set-up-communications-credits-for-your-organization.md)组织设置通信信用额度和/[或Microsoft Teams附加许可](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)。
+按分钟付费要求组织设置 [通信](what-are-communications-credits.md) 信用额度。 如果需要更多详细信息，请参阅为组织设置[通信](set-up-communications-credits-for-your-organization.md)信用额度和/[或Microsoft Teams附加许可](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)。
 
   
-若要为贵组织的用户启用"音频会议每分钟付费"，请参阅试用或购买音频会议[（Microsoft Office 365 Office 365）。](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
+若要为贵组织的用户启用音频会议每分钟付费，请参阅试用或购买音频会议（Microsoft Office 365[或Office 365）。](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
 
 ## <a name="why-is-it-best-for-you"></a>为什么它最适合你？
 
-- 对于每个与会者在计划会议期间拨打的每个入站或出站呼叫，将仅按分钟付费 (费率因收费或免费呼叫和目标) 而异，而不是在移动设备或电脑上使用 Skype for Business 或 Teams 应用程序。
+- 对于每个与会者在计划会议期间拨打的每个入站或出站呼叫，将按分钟付费 (费率因收费或免费呼叫和目标) 而异，而不是在移动设备或电脑上使用 Skype for Business 或 Teams 应用程序。
 
-- 能够管理成本，因为管理员可以控制限制 (国际和国内) 的拨出类型，这可以通过组织者的会议完成。 请参阅[音频会议和用户 PSTN](./outbound-calling-restriction-policies.md)呼叫的出站呼叫限制策略
+- 管理成本的功能，因为管理员可以控制限制 (国际和国内) 的拨出类型，这可以通过组织者的会议完成。 请参阅[音频会议和用户 PSTN](./outbound-calling-restriction-policies.md)呼叫的出站呼叫限制策略
 
 - 如果你有按分钟付费的音频会议许可证，无需专门为使用音频会议而将通信点数许可证单独分配给每个用户（对于其他服务，可能仍然需要对其进行分配）。
 

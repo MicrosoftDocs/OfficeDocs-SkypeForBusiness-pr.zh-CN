@@ -1,5 +1,5 @@
 ---
-title: 用于呼叫计划的电话号码类型
+title: 用于呼叫的电话号码Teams
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -21,17 +21,19 @@ ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.numbertype
 - seo-marvel-apr2020
-description: 本文介绍用于呼叫计划Microsoft Teams的电话号码类型。
-ms.openlocfilehash: a565ee1cffd9943ee419907c97ef333b9485451d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 本文介绍你使用的不同电话号码Microsoft Teams类型。
+ms.openlocfilehash: 0aa75c9052e269d6e45054cdf5b6cf73042c55ac
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619508"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432644"
 ---
-# <a name="different-kinds-of-phone-numbers-used-for-calling-plans"></a>用于通话套餐的不同类型的电话号码
+# <a name="types-of-phone-numbers"></a>电话号码类型
 
-Microsoft Teams电话号码的用途，使用不同的电话号码类型。 Teams **用户** 号码（可分配给组织中用户）和服务号码（分配给音频会议、自动助理或呼叫队列等服务）。 服务电话号码的并发 *呼叫容量高于*  用户号码。 服务电话号码可用，但因国家/地区以及号码类型而异 (无论它是收费号码还是免费电话号码) 。 如果你需要其他号码类型或其他号码类型，而不是在 Microsoft Teams 管理中心看到的电话号码类型，你可以向[PSTN](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)服务台帮助 提交电话号码请求。
+Microsoft Teams电话号码的用途，使用不同的电话号码类型。 
+
+Teams **用户** 号码（可分配给组织中用户）和服务号码（分配给音频会议、自动助理或呼叫队列等服务）。 服务电话号码的并发 *呼叫容量高于*  用户号码。 服务电话号码可用，但根据国家/地区以及号码类型 (无论它是收费号码还是免费电话号码，都会) 。 如果你需要其他号码类型或其他号码类型（Microsoft Teams管理中心中显示的数字类型外，你可以向 PSTN 服务台提交[电话号码请求](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)。
   
 - **用户编号**
     
@@ -61,9 +63,7 @@ Microsoft Teams电话号码的用途，使用不同的电话号码类型。 Team
 
 ## <a name="related-topics"></a>相关主题
 
-[关于转移电话号码的常见问题](./phone-number-calling-plans/port-order-overview.md)
-
-[管理你的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[管理你的组织的电话号码](manage-phone-numbers-landing-page.md)
 
 [紧急呼叫条款和条件](emergency-calling-terms-and-conditions.md)
 

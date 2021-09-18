@@ -1,7 +1,7 @@
 ---
 title: 在管理中心内Microsoft Teams应用
-author: cichur
-ms.author: v-cichur
+author: KarliStites
+ms.author: kastites
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -13,20 +13,31 @@ ms.reviewer: vaibhava
 search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.manageapps.overview
-description: 了解如何在 Teams 管理中心的"管理应用"页上管理Microsoft Teams应用
+description: 了解如何在 Teams 管理中心的"管理应用"页上管理Microsoft Teams应用。
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 2541f23342613b585622577b3c5ebe2d3a8c97c0
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 76b647e5c01d45eac3e634ccbc7e929eccd3dfba
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728641"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432664"
 ---
 # <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>在管理中心内Microsoft Teams应用
 
-作为管理员，在 Microsoft Teams 管理中心中的"管理应用"页面是查看和管理Teams应用的地方。 在这里，可以查看应用的组织级状态和属性、批准新的自定义应用或将其上载到组织的应用商店、在组织级别阻止或允许应用、将应用添加到团队、购买第三方应用的服务、查看应用请求的权限、向应用授予管理员许可，以及管理组织范围内的应用设置。
+作为管理员，可以查看和管理组织Teams应用。 在管理中心的"管理Teams页面上，可以：
+
+- [在组织级别允许或阻止应用](#allow-and-block-apps)
+- [发布者阻止的应用](#apps-blocked-by-publishers)
+- [将应用添加到团队](#add-an-app-to-a-team)
+- [批准新的自定义应用或将其上传到组织的应用商店](#publish-a-custom-app-to-your-organizations-app-store)
+- [查看应用请求的权限](#view-resource-specific-consent-permissions)
+- [向应用授予许可](#grant-admin-consent-to-apps)
+- [第三方应用的购买服务](#purchase-services-for-third-party-apps)
+- [请参阅应用组织级状态和属性](#view-apps)
+- [管理组织范围内的应用设置](#manage-org-wide-app-settings)
+- [查看认证应用的安全Microsoft 365信息](#view-security-and-compliance-information-for-microsoft-365-certified-apps)
 
 "管理应用"页面提供所有可用应用的视图，为你提供确定在整个组织中允许或阻止哪些应用时需要的信息。 然后，可以使用 [应用权限策略](teams-app-permission-policies.md)、 [应用设置策略](teams-app-setup-policies.md)和自定义应用策略 [和](teams-custom-app-policies-and-settings.md) 设置为组织中特定用户配置应用体验。
 
@@ -45,16 +56,17 @@ ms.locfileid: "58728641"
 
   ![应用的应用详细信息页的屏幕截图。](media/manage-apps-app-details.png)
   
-- **认证**：如果应用已通过认证，你将看到 **Microsoft 365认证Publisher****认证**。 选择链接以查看应用的认证详细信息。 如果看到 **--** ""，则我们没有应用的认证信息。 若要详细了解应用中的认证Teams，请阅读Microsoft 365[认证计划。](/teams-app-certification/all-apps)  
+- **认证**：如果应用已通过认证，你将看到 **Microsoft 365认证Publisher****认证。** 选择链接以查看应用的认证详细信息。 如果看到 **--** ""，则我们没有应用的认证信息。 若要详细了解应用中的认证Teams，请阅读Microsoft 365[认证计划。](/teams-app-certification/all-apps)  
 - **Publisher：** 发布者的名称。
 - **发布状态**：自定义应用的发布状态。
 - **状态**：组织级别的应用状态，可以是下列其中一项：
-- **允许**：该应用可供你组织的所有用户使用。
-- **已** 阻止：应用被阻止，并且不适用于组织的任何用户。
-- **阻止组织范围**：应用在组织范围内的应用设置中受阻。
+    - **允许**：该应用可供你组织的所有用户使用。
+    - **已** 阻止：应用被阻止，并且不适用于组织的任何用户。
+    - **发布者阻止**：应用被发布者阻止，默认情况下对最终用户隐藏。 使用发布者的指导设置应用后，可以允许或阻止该应用，使其可供最终用户使用。
+    - **阻止组织范围**：应用在组织范围内的应用设置中受阻。
       必须知道，此列表示以前位于" **组织** 范围的设置"窗格的应用的允许和阻止状态。 现在，您可以在"管理应用"页面上的组织范围内查看、阻止和 **允许应用** 。
 - **许可证**：指示应用是否提供软件即服务 (SaaS) 订阅进行购买。 此列仅适用于第三方应用。 每个第三方应用将具有以下值之一：
-- **现在购买**：该应用提供 SaaS 订阅并可供购买。  
+- **购买**：该应用提供 SaaS 订阅，可供购买。  
 - **已** 购买：该应用提供 SaaS 订阅，并且你已购买其许可证。
 - **- -**：应用未提供 SaaS 订阅。
 - **自定义应用**：应用是否是自定义应用。
@@ -63,7 +75,7 @@ ms.locfileid: "58728641"
 - **-**： 应用没有需要许可的权限。
 - **类别**：适用于应用的类别。
 - **版本**：应用版本。
-- **管理员可以在会议中安装**：指示管理员是否可以在团队会议中安装应用。 [了解更多信息](teams-app-setup-policies.md#install-apps)
+- **管理员可以在会议中安装**：指示管理员是否可以在团队会议中安装应用。 [了解详细信息](teams-app-setup-policies.md#install-apps)
 
 若要在表中查看信息，请选择右上角的"编辑列"，向表中添加或删除列。
 
@@ -71,14 +83,14 @@ ms.locfileid: "58728641"
 
 使用"管理应用"页发布专为组织构建的应用。 发布自定义应用后，该应用可供组织应用商店中的用户使用。 有两种方法将自定义应用发布到组织的应用商店。 你使用的方式取决于你获取应用的方式。
 
-- [批准自定义应用](#approve-a-custom-app)：如果开发人员使用应用提交 API 将应用直接提交到"管理应用"Teams使用此方法。 然后，你可以直接从应用详细信息 (查看) 或拒绝应用。
+- [批准自定义应用](#approve-a-custom-app)：如果开发人员使用应用提交 API 将应用直接提交到"管理应用"Teams使用此方法。 然后，你可以直接从应用 (查看) 或拒绝应用。
 - [Upload应用包](#upload-an-app-package)：如果开发人员以其他格式将应用包发送给你，.zip使用此方法。 通过上传应用包发布应用。
 
 ### <a name="approve-a-custom-app"></a>批准自定义应用
 
-当 **开发人员使用** 应用提交 API 提交应用时，"管理应用"页上的"待Teams小组件会通知你。 新提交的应用将列出，其发布状态 **为"** 已 **提交**"，"**状态"** 为"已 **阻止"。** 转到应用详细信息页以查看有关应用的详细信息，然后发布它，将"发布状态"**设置为**"发布 **"。**
+当 **开发人员使用** 应用提交 API 提交应用时，"管理应用"页面上的"挂起审批"小组件Teams通知你。 新提交的应用将列出，其发布状态 **为"** 已 **提交**"，"**状态"** 为"已 **阻止"。** 转到应用详细信息页以查看有关应用的详细信息，然后发布它，将"发布状态"**设置为**"发布 **"。**
 
-开发人员将更新提交到自定义应用时，也会收到通知。 然后，你可以查看和发布 (或拒绝) 应用详细信息页面上的更新。 对于更新的应用，所有应用权限策略和应用设置策略仍然强制实施。
+开发人员将更新提交到自定义应用时，也会收到通知。 然后，可以在应用详细信息 (查看) 或拒绝更新。 对于更新的应用，所有应用权限策略和应用设置策略仍然强制实施。
 
 若要了解有关详细信息，请参阅[发布通过应用提交 API Teams提交的自定义应用](submit-approve-custom-apps.md)。
 
@@ -94,14 +106,22 @@ ms.locfileid: "58728641"
 
 ## <a name="allow-and-block-apps"></a>允许和阻止应用
 
-"管理应用"页面是组织级别允许或阻止单个应用的地方。 它显示每个可用的应用及其当前的组织级应用状态。  (组织级别的阻止和允许应用已从" **组织范围** 的应用设置"窗格移动到此处。) 
+"管理应用"页面是组织级别允许或阻止单个应用的地方。 它显示每个可用的应用及其当前的组织级应用状态。  (组织级别的阻止和允许应用已从" **组织范围** 应用设置"窗格移动到此处。) 
 
 若要允许或阻止应用，请选择它，然后选择"允许 **"或**"阻止 **"。** 当你阻止应用时，将禁用与该应用的所有交互，并且该应用不会显示在你Teams的用户的应用中。
 
-在"管理应用"页面上阻止或允许应用时，将阻止或允许组织中所有用户使用该应用。  在应用权限策略中阻止或Teams应用时，会阻止或允许分配有该策略的用户使用。 若要使用户能够安装任何应用并与之交互，必须在"管理应用"页面和分配给用户的应用权限策略中允许组织级别的应用。
+在"管理应用"页面上阻止或允许应用时，将阻止或允许组织中所有用户使用该应用。  当你阻止或允许应用Teams应用权限策略时，已分配该策略的用户将被阻止或允许。 若要使用户能够安装任何应用并与之交互，必须在"管理应用"页面和分配给用户的应用权限策略中允许组织级别的应用。
 
  > [!NOTE]
  > 若要卸载应用，请右键单击该应用，然后单击左侧的"卸载或使用更多应用"菜单。
+
+## <a name="apps-blocked-by-publishers"></a>发布者阻止的应用
+
+当 ISV 将应用发布到全局应用商店时，可能需要管理员来配置或自定义应用体验。 完全设置应用后，管理员可以使其可供最终用户使用。
+
+例如，Contoso Electronics 是一个 ISV，它为 Microsoft Teams。 Contoso Electronics 希望其客户设置应用的某些属性，以便当用户与该应用交互时，该应用可以如期运行。 在管理员允许或阻止应用程序之前，该应用程序在 Teams 管理中心中将显示为"被发布者阻止"，并且默认情况下会向最终用户隐藏。 按照发布者的指导设置应用后，可以通过将 状态更改为"允许"，或者将状态更改为"已阻止"来阻止用户使用该应用，以便用户 **能够使用该应用**。
+
+![Teams 管理中心中按发布者状态阻止的屏幕截图。](media/blocked-by-publisher.png)
 
 ## <a name="add-an-app-to-a-team"></a>向团队添加应用
 
@@ -119,7 +139,7 @@ ms.locfileid: "58728641"
 
 ## <a name="purchase-services-for-third-party-apps"></a>购买第三方应用的服务
 
-可以直接从"管理应用"页面搜索并购买第三方应用为组织用户提供的服务的许可证。 表中的 **"** 许可证"列指示应用是否提供付费 SaaS 订阅。 选择 **"立即** 购买"，查看计划和定价信息，并购买用户的许可证。 有关详细信息，请参阅 Teams在 Microsoft Teams 管理中心中购买第三Microsoft Teams[服务](purchase-third-party-apps.md)。
+可以直接从"管理应用"页面搜索并购买第三方应用为组织用户提供的服务的许可证。 表中的 **"** 许可证"列指示应用是否提供付费 SaaS 订阅。 选择 **"立即** 购买"，查看计划和定价信息，并购买用户的许可证。 有关详细信息，请参阅在 Teams 管理中心中购买第三Microsoft Teams[服务](purchase-third-party-apps.md)。
 
 ## <a name="grant-admin-consent-to-apps"></a>向应用授予管理员许可
 
@@ -134,7 +154,7 @@ RSC (资源) 允许团队所有者授予应用访问和修改团队数据的许�
 使用组织范围的应用设置来控制用户是否可以安装第三方应用，以及用户是否可以上载或与组织中的自定义应用进行交互。 组织范围的应用设置可控制所有用户的行为，并且可覆盖分配给用户的任何其他应用权限策略。 你可以使用它们控制恶意应用或有问题的应用。
 
 > [!NOTE]
-> 若要了解如何使用 Microsoft 365 政府 - 政府社区云 高 GCCH 和国防部 (DoD) Teams 部署中的组织范围应用设置，请参阅在 Teams 中[管理应用权限策略](teams-app-permission-policies.md)。
+> 若要了解如何在 Teams 的 Microsoft 365 政府 - 政府社区云 高 GCCH 和国防部 (DoD) 部署中使用组织范围内的应用设置，请参阅在 Teams 中[管理应用权限策略](teams-app-permission-policies.md)。
 
 1. 在"管理应用"页上，选择 **"组织范围的应用设置"。** 然后，你可以在面板中配置所需的设置。
 
@@ -164,7 +184,7 @@ RSC (资源) 允许团队所有者授予应用访问和修改团队数据的许�
 
 若要访问 MCAS 信息，请执行以下步骤：
 
-1. 在 Teams 管理中心，选择 **"管理应用"下的****"Teams应用"。**
+1. 在"Teams管理中心"中，选择"**管理应用"Teams****应用"。**
 1. 选择 **"** 认证"以对应用进行排序，Microsoft 365认证应用推送到表格顶部。
 1. 选择一Microsoft 365认证应用。
 1. 选择" **安全性和符合性"** 选项卡。

@@ -1,7 +1,7 @@
 ---
-title: 管理团队中的Microsoft Teams
-author: cichur
-ms.author: v-cichur
+title: 管理频道策略Microsoft Teams
+author: MikePlumleyMSFT
+ms.author: mikeplum
 manager: serdars
 ms.reviewer: jastark
 ms.topic: article
@@ -23,19 +23,19 @@ ms.custom:
 - ms.teamsadmincenter.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
-description: 了解如何在组织中使用和管理团队策略来控制用户可在团队和频道中执行哪些操作。
-ms.openlocfilehash: 92b49a31a4ae8cdedb9243293547c42699fed919
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: 了解如何使用和管理组织中团队频道策略来控制用户可在团队和频道中执行哪些操作。
+ms.openlocfilehash: 727bb8b133d5119cd396c79561dde453281206f0
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725491"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432264"
 ---
-# <a name="manage-teams-policies-in-microsoft-teams"></a>管理团队中的Microsoft Teams
+# <a name="manage-channel-policies-in-microsoft-teams"></a>管理频道策略Microsoft Teams
 
 作为管理员，可以使用团队策略Microsoft Teams控制组织中用户可在团队和频道中执行哪些操作。 例如，可以设置是否允许用户创建专用通道。
 
-若要管理团队策略 **，Teams Teams**  >  **管理中心Microsoft Teams** 策略。 可以使用全局（组织范围内的默认）策略，也可以创建并分配自定义策略。 除非你创建并分配自定义策略，否则你组织中的用户将自动获取全局策略。
+若要管理团队策略，Teams Teams  >  **管理中心Microsoft Teams** 策略。 可以使用全局（组织范围内的默认）策略，也可以创建并分配自定义策略。 除非你创建并分配自定义策略，否则你组织中的用户将自动获取全局策略。
 
 可以编辑全局策略，也可以创建和分配自定义策略。 编辑全局策略或分配策略后，可能需要几个小时更改才能生效。
 

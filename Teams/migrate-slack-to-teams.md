@@ -18,12 +18,12 @@ ms.localizationpriority: high
 f1.keywords:
 - NOCSH
 description: 从 Slack 迁移到 Microsoft Teams 的完整指南。
-ms.openlocfilehash: 6877c0daf7d2d86924eefe989b458c671c37f628
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 508224759ccfe741a4d7c6810a3edb4748f9cfa7
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731601"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432634"
 ---
 # <a name="migrate-from-slack-to-microsoft-teams"></a>从 Slack 迁移到 Microsoft Teams
 
@@ -55,7 +55,7 @@ Slack 服务计划将明确可以迁移和无法迁移的内容。例如，某�
 ### <a name="assess-your-slack-workspaces"></a>评估你的 Slack 工作区
 在制定组织迁移计划之前，你需要综合分析 Slack 工作区的某些信息。 了解 Slack 工作区的使用方式有助于确定迁移的范围。 例如，你要迁移多少个工作区？ 这些工作区由某个特定部门、多个部门还是整个组织使用？
 
-如果你是要迁移的 Slack 工作区的成员，可以转至 *<your Slack workspace>.slack.com/stats* 自行分析使用情况。查看“频道”和“成员”选项卡，了解使用模式。 确定要迁移的工作区（和要保留的工作区）。 
+如果你是要迁移的 Slack 工作区的成员，可以转至 *\<your Slack workspace\>.slack.com/stats* 自行分析使用情况。查看“频道”和“成员”选项卡，了解使用模式。 确定要迁移的工作区（和要保留的工作区）。 
 
 > [!NOTE]
 > 如果你无权访问统计信息页面，则说明你不是管理员或所有者。 
@@ -64,7 +64,7 @@ Slack 服务计划将明确可以迁移和无法迁移的内容。例如，某�
 
 在 Slack 中，用户会加入作为 Slack 工作区的一部分的频道，而在 Teams 中，用户则是加入作为频道集合的团队。 我们建议你使用 Slack 分析功能了解每个频道的活动量，以确定要迁移的频道。 你可以根据生成的列表确定如何将 Slack 频道划分成 Teams 中的团队，并确定每个团队的成员。
 
-如果你有 Slack 付费服务计划（任何非免费内容），可以使用 Slack 分析功能 (<your Slack workspace>.slack.com/admin/stats#channels) 了解频道的活跃程度、上次使用时间以及频道成员数量。 这些信息有助于确定是否要迁移相关频道。 默认情况下，可以导出公共频道内容（消息和文件）。 可导出的内容取决于你的 Slack 服务计划，以及你是否请求从 Slack 导出专用频道和直接消息。
+如果你有 Slack 付费服务计划（任何非免费内容），可以使用 Slack 分析功能 (\<your Slack workspace\>.slack.com/admin/stats#channels) 了解频道的活跃程度、上次使用时间以及频道成员数量。 这些信息有助于确定是否要迁移相关频道。 默认情况下，可以导出公共频道内容（消息和文件）。 可导出的内容取决于你的 Slack 服务计划，以及你是否请求从 Slack 导出专用频道和直接消息。
 
 若要详细了解 Slack 导出选项，请转至 Slack 网站：https://get.slack.help/hc/articles/204897248-Guide-to-Slack-import-and-export-tools 
 
@@ -80,14 +80,14 @@ Slack 服务计划将明确可以迁移和无法迁移的内容。例如，某�
 
 Slack 中的应用与 Teams 中的应用相差无几。获得工作区中的应用及其配置的列表后，可以在 Teams 应用商店中进行搜索，看看这些应用是否适用于 Teams*。 
 
-转至 <your Slack workspace>.slack.com/apps/manage，获取应用和自定义集成的列表。 此页面还显示了使用每个应用的配置数目。 自定义集成的“迁移能力”各不相同。 如果是 Webhook，你通常可以将其发送到 Microsoft 365 或 Office 365 连接器，将工作流转入 Teams。 逐个评估机器人和其他应用，做好将其迁移到 Teams 的规划。
+转至 \<your Slack workspace\>.slack.com/apps/manage，获取应用和自定义集成的列表。 此页面还显示了使用每个应用的配置数目。 自定义集成的“迁移能力”各不相同。 如果是 Webhook，你通常可以将其发送到 Microsoft 365 或 Office 365 连接器，将工作流转入 Teams。 逐个评估机器人和其他应用，做好将其迁移到 Teams 的规划。
 
 \* 如果管理员限制了应用使用，则你可能无法查看可用应用的完整列表。
 
 ### <a name="users"></a>用户
 你在 Slack 中使用的身份方案可能不会直接映射到 Microsoft 365 或 Office 365。 例如，Slack 用户的电子邮件地址可能不会映射到 Microsoft 365 或 Office 365 的工作或学校帐户。 开始规划 Teams 部署之前，你应创建用户 ID 映射。
 
-如果你使用的是 Slack 付费服务计划，可以转至 *<your Slack workspace>.slack.com/admin/stats#members*，获取每位用户的电子邮件地址和帐户类型等成员详细信息（例如，单频道来宾还是多频道来宾）。
+如果你使用的是 Slack 付费服务计划，可以转至 *\<your Slack workspace\>.slack.com/admin/stats#members*，获取每位用户的电子邮件地址和帐户类型等成员详细信息（例如，单频道来宾还是多频道来宾）。
 
 你可以使用下面的脚本，将从 Slack 导出的电子邮件地址与 Azure AD 中的内容进行对比，以解决名称不明确的问题。 此外，它还会报告是否为用户启用了 Teams。 如需 PowerShell 方面的帮助，请参阅 [Azure PowerShell 入门](/powershell/azure/get-started-azureps)。
 
@@ -181,7 +181,7 @@ Write-Host "`n $(Get-Timestamp) Generated SlackToAzureADIdentityMapping.csv. Exi
 一个 Slack 工作区可能代表一个团队、多个团队或整个组织。 确定结构时，了解工作区的范围非常重要。 Slack 中最接近 Teams 团队的就是工作区，工作区包含频道集合。 下图显示了 3 种不同的 Slack 到 Teams 映射，以及为每个工作区选取适当映射的指南。
 
 
-|Slack 到 Teams 映射 |  |
+|Slack 到 Teams 映射 | 说明 |
 |---------|---------|
 |1 个 Slack 工作区 :arrow_right: 1 个团队   | 适用于需要 200 个以内频道的较小 Slack 工作区<br>包含针对增长和专用频道规划的缓冲区  |
 |1 个 Slack 工作区 :arrow_right: 多个团队     | 使用 Slack 工作区分析数据创建逻辑频道分组，这将成为团队的基础        |
@@ -193,7 +193,7 @@ Write-Host "`n $(Get-Timestamp) Generated SlackToAzureADIdentityMapping.csv. Exi
 > 只保留你的方法所需的内容，以便确定要在 Teams 中重新创建哪些频道。 若要了解详细信息，请阅读[团队和频道概述](teams-channels-overview.md)。 
 
 #### <a name="team-planning"></a>团队规划
-使用你在上面的“规划”部分编译的频道清单，并与 Slack 所有者和管理员共同确定哪些频道应成为团队，以及哪些频道应成为团队中的频道。 利用 Excel 或 PowerBI 来进行这项分析 - 这两种工具都可提供更多见解，帮助推动就要保留哪些频道展开讨论。
+使用你在上面的“规划”部分编译的频道清单，并与 Slack 所有者和管理员共同确定哪些频道应成为团队，以及哪些频道应成为团队中的频道。 使用 Excel 或 Power BI 来进行这项分析 - 这两种工具都可提供更多见解，帮助推动就要保留哪些频道展开讨论。
 
 > [!TIP]
 > Teams 目前规定每个团队不能超过 200 个频道。如果频道列表接近该限制，则应想办法将其拆分为两个单独的团队。
