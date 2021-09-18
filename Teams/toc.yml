@@ -901,6 +901,8 @@ items:
             href: shared-line-appearance.md
           - name: 拨号盘配置
             href: dial-pad-configuration.md
+          - name: 等候音乐
+            href: music-on-hold.md
       - name: PSTN 连接选项
         items:
           - name: 概述
@@ -1000,33 +1002,39 @@ items:
       - name: 电话号码
         items:
           - name: 管理组织的电话号码
-            href: manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md
-          - name: 通话套餐的电话号码类型
-            href: different-kinds-of-phone-numbers-used-for-calling-plans.md
-          - name: 为用户获取电话号码
-            href: getting-phone-numbers-for-your-users.md
+            href: manage-phone-numbers-landing-page.md
           - name: 可以获得多少个电话号码？
             href: how-many-phone-numbers-can-you-get.md
           - name: 为用户搜索电话号码
             href: search-for-phone-numbers-for-users.md
           - name: 查看组织中的电话号码列表
             href: see-a-list-of-phone-numbers-in-your-organization.md
-          - name: 为用户分配、更改或删除电话号码
-            href: assign-change-or-remove-a-phone-number-for-a-user.md
-          - name: 获取服务电话号码
-            href: getting-service-phone-numbers.md
-          - name: 转接电话号码
+          - name: 管理通话套餐的电话号码
             items:
-              - name: 什么是转网订单？
-                href: phone-number-calling-plans/port-order-overview.md
-              - name: 将电话号码转接到 Teams
-                href: phone-number-calling-plans/transfer-phone-numbers-to-teams.md
-              - name: 手动提交转网订单
-                href: phone-number-calling-plans/manually-submit-port-order.md
-              - name: 你的转网订单的状态是什么？
-                href: phone-number-calling-plans/port-order-status.md
-          - name: 受支持的费率中心和覆盖范围
-            href: phone-number-calling-plans/supported-rate-centers-coverage-matrix.md
+              - name: 概述
+                href: manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md
+              - name: 为用户获取电话号码
+                href: getting-phone-numbers-for-your-users.md
+              - name: 为用户分配、更改或删除电话号码
+                href: assign-change-or-remove-a-phone-number-for-a-user.md
+              - name: 获取服务电话号码
+                href: getting-service-phone-numbers.md
+              - name: 转接电话号码
+                items:
+                  - name: 什么是转网订单？
+                    href: phone-number-calling-plans/port-order-overview.md
+                  - name: 将电话号码转接到 Teams
+                    href: phone-number-calling-plans/transfer-phone-numbers-to-teams.md
+                  - name: 手动提交转网订单
+                    href: phone-number-calling-plans/manually-submit-port-order.md
+                  - name: 你的转网订单的状态是什么？
+                    href: phone-number-calling-plans/port-order-status.md
+              - name: 受支持的费率中心和覆盖范围
+                href: phone-number-calling-plans/supported-rate-centers-coverage-matrix.md
+          - name: 管理运营商连接的电话号码
+            href: operator-connect-configure.md#set-up-phone-numbers
+          - name: 管理直接路由的电话号码
+            href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail-online
       - name: 语音路由
         items:
           - name: 什么是拨号计划？
