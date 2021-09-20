@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 082657f5d114a7228f5b95e39390a87ccf6d0dcb
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: fa4d2cfa493ae6bec4429db9c3d01319d889288e
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727821"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456372"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>在 Teams 中规划生命周期管理
 
@@ -65,49 +65,7 @@ _团队_ 是包含人员、内容和促进协作的工具的集合。 团队规�
 > [!Note]
 > 有关团队所有者和团队成员功能的详细信息，请参阅[在 Microsoft Teams 中分配角色和权限](assign-roles-permissions.md)一文。
 
-团队管理员角色确定每个管理员角色拥有者可以使用的功能。 下表对此进行了介绍。
-
-<table>
- <thead>
-  <tr>
-    <th width="0.5%"></th>
-    <th width="15.5%">角色&nbsp;&nbsp;</th>
-    <th width="25%">说明</th>
-    <th width="60%">可以执行的任务（使用备注的工具）</th>
-  </tr>
-</thead>
-<tbody>
-   <tr>
-    <td valign="top" colspan="2">Teams 管理员</td>
-    <td valign="top">管理 Teams 服务，创建和管理 Microsoft 365 组</td>
-    <td valign="top">管理会议，包括会议策略、配置和会议网桥<sup>1</sup><br><br>管理语音，包括通话策略、电话号码存量和分配、呼叫队列以及自动助理<sup>1</sup><br><br>管理消息，包括消息策略<sup>1</sup><br><br>管理组织范围的所有设置，包括联合、Teams 升级和 Teams 客户端设置<sup>1</sup><br><br>管理组织中的团队及其关联的设置，包括成员身份<sup>2</sup><br><br>查看用户配置文件页面，以及使用高级故障排除工具集解决用户通话质量问题<sup>3</sup></td>
-</tr>
-<tr>
-<td valign="top" colspan="2">Teams 通信管理员</td>
-<td valign="top">在 Microsoft Teams 服务中管理通话和会议功能</td>
-<td valign="top">管理会议，包括会议策略、配置和会议网桥<sup>1</sup><br><br>管理语音，包括通话策略、电话号码存量和分配、呼叫队列以及自动助理<sup>1</sup><br><br>查看用户配置文件页面，以及使用高级故障排除工具集解决用户通话质量问题<sup>1</sup></td>
-</tr>
-<tr>
-<td valign="top" colspan="2">Teams 通信专家</td>
-<td valign="top">使用基本工具解决 Teams 中的通信问题</td>
-<td valign="top">访问用户配置文件页面以对通话分析中的通话进行故障排除。 只能查看搜索的特定用户的用户信息。<sup>3</sup></td>
-</tr>
-<tr>
-<td valign="top" colspan="2">Teams 通信支持工程师</td>
-<td valign="top">使用高级工具解决 Teams 中的通信问题</td>
-<td valign="top">访问用户配置文件页面以对通话分析中的通话进行故障排除。 可以查看完整的通话记录信息。<sup>3</sup></td>
-</tr>
-<tr>
-</tbody>
-<tfoot>
-<tr><td align="right"><sup>1</sup></td><td colspan="3"><a href="/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell
-">PowerShell—Skype for Business 模块</a>或 <a href="/microsoftteams/manage-teams-skypeforbusiness-admin-center">Microsoft Teams 管理中心</a></td></tr>
-<tr><td align="right"><sup>2</sup></td><td colspan="3"><a href="https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.3">PowerShell—Microsoft Teams 模块</a>或 <a href="/microsoftteams/manage-teams-skypeforbusiness-admin-center">Microsoft Teams 管理中心</a></td></tr>
-<tr><td align="right"><sup>3</sup></td><td colspan="3">仅 <a href="/microsoftteams/manage-teams-skypeforbusiness-admin-center">Microsoft Teams 管理中心</a></td>
-</tr>
-</tfoot>
-</table>
-
+团队管理员角色确定每个管理员角色拥有者可以使用的功能。 以下文章介绍了这些内容： [使用 Microsoft Teams 管理员角色管理 Teams](using-admin-roles.md)。
 
 ## <a name="it-decisions-to-make-before-getting-started"></a>开始之前要做出的 IT 决策
 

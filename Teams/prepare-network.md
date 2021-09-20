@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 13bc12d5df1139bc76afa48751e7a7cb3c6197c0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f9e11a089c75f1060e509dc9895e97176fc30345
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621964"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456342"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>为 Microsoft Teams 准备组织网络 
 
@@ -153,7 +153,7 @@ Teams 旨在不受网络条件限制，提供最佳音频、视频和内容共�
       **形态**
    :::column-end:::
    :::column span="3":::
-      **带宽要求（比特率 KB/s 向上/向下）**
+      **带宽要求（比特率 Kb/s 向上/向下）**
    :::column-end:::
 :::row-end:::
 :::row:::

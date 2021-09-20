@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: '了解如何为业务中需要使用电话加入电话会议的人员设置拨号或音频会议。 '
-ms.openlocfilehash: bc8a29e5a312d4a5a77b98929330ee9770e5543c
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: db4b2eecbc6620c8f6d76a4ee4b80fd68eebc268
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729581"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456512"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>设置 Microsoft Teams 的音频会议
 
@@ -57,8 +57,8 @@ ms.locfileid: "58729581"
     
 3. 我们还建议你将通信点数许可证（它们不值什么钱）分配给你在上一步骤中分配到许可证的相同人员。 若要了解如何设置通信点数，请参阅[为你的组织设置通信点数](set-up-communications-credits-for-your-organization.md)。
     
-> [!NOTE]
-> 你还可以设置[按分钟付费的音频会议](audio-conferencing-pay-per-minute.md)。
+   > [!NOTE]
+   > 你还可以设置[按分钟付费的音频会议](audio-conferencing-pay-per-minute.md)。
 
 ## <a name="step-3-get-service-numbers-for-your-conferencing-bridges"></a>第 3 步：获取会议网桥服务号码
 <a name="__top"> </a>
@@ -91,7 +91,7 @@ ms.locfileid: "58729581"
 
 ![一个图标，显示Microsoft Teams徽标。](media/teams-logo-30x30.png) **使用 Microsoft Teams管理中心**：
 
-1. 从仪表板中，转到 **会议** > **会议网桥**。
+1. 从主页转到"**会议**  >  **网桥"。**
 2. 选择会议网桥电话号码，单击“**编辑**”，然后选择默认语言。
 
 ## <a name="step-6-set-your-conferencing-bridge-settings"></a>第 6 步：设置你的会议网桥设置
@@ -101,7 +101,7 @@ ms.locfileid: "58729581"
 
 ![一个图标，显示Microsoft Teams徽标。](media/teams-logo-30x30.png) **使用 Microsoft Teams管理中心**：
 
-1. 从仪表板中，转到 **会议** > **会议网桥**。
+1. 从主页转到"**会议**  >  **网桥"。**
 2. 选择“**网桥设置**”。 这将打开 **网桥设置** 窗格。 
 
 有关详细信息，请参阅[更改音频会议网桥的设置](change-the-settings-for-an-audio-conferencing-bridge.md)。
@@ -114,7 +114,7 @@ ms.locfileid: "58729581"
 
 ![一个图标，显示Microsoft Teams徽标。](media/teams-logo-30x30.png) **使用 Microsoft Teams管理中心**：
 
-1. 在仪表板上，单击“**用户**”，从列表中选择用户，然后选择“**编辑**”。
+1. 在"主页"中 **，单击"用户**"，从列表中选择用户，然后选择"编辑 **"。**
 2. 选择“**音频会议**”旁边的“**编辑**”，然后在“**音频会议**”窗格中，在“**收费电话号码**”和“**免费**”电话号码列表中选择一个号码。
 
 如果需要更多详细信息，请参阅[将 Microsoft 指定为音频会议提供商](/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)。

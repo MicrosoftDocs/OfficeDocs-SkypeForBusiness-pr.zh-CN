@@ -13,15 +13,15 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 search.appverid: MET150
-description: 了解调试、媒体和桌面日志Microsoft Teams、日志的查找位置，以及它们如何帮助进行监视和故障排除。
+description: 了解调试、媒体和桌面日志Microsoft Teams、可在何处找到它们，以及它们如何帮助进行监视和故障排除。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a39078371ffa30caab6ee43df90bc825c4c081a3
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: a82b2e9fe2db41e0609b7483bded813eae29cf92
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235317"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456522"
 ---
 # <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>使用日志文件监视和排查Microsoft Teams
 
@@ -46,16 +46,28 @@ Windows：右键单击系统任务栏Teams图标，然后选择"收集 **支持�
 
 Mac：选择"帮助"菜单，然后选择"**收集支持文件"。**
 
+
 调试、桌面和媒体日志将收集到一个文件夹中，其名称为 MSTeams 诊断日志 <local data and time> 。 向 Microsoft 支持人员提出支持请求时，可以压缩和共享此文件夹。 该文件夹将包含桌面、会议 (媒体) 和调试 (Web) 。 可以使用以下键盘快捷方式收集文件：
 
 Windows：Ctrl + Alt + Shift + 1
 
 Mac：Option + Command + Shift + 1
 
-默认情况下，媒体日志记录已关闭。 若要启用媒体日志记录，用户必须在客户端中Teams选项。 转到 **"设置**  >  **常规**"，然后选择"为会议诊断启用日志记录 **(重启Teams) 。** 必须Teams客户端才能开始日志记录。
+
+默认情况下，媒体日志记录已关闭。 若要启用媒体日志记录，用户必须在客户端中启用Teams选项。 转到 **"设置** 常规"，然后选择"为会议诊断启用日志记录 ( >  **重启Teams) 。** 必须Teams客户端才能开始日志记录。
+
+如果特定会议或实时事件出现问题，将 URL 与会议关联会很有帮助。 这提供了其他信息，以帮助查明日志中的确切会议或实时事件。 此信息可以从会议的任何参与者或直播活动的演示者或制作人收集。 可以通过将鼠标悬停在联接 URL 上并选择"复制超链接"**来捕获此 URL。**
 
 > [!NOTE]
 > 如果启用了媒体日志记录，"会议"文件夹中将包含其他文件，这些文件是调查音频和视频问题所必需的。 如果未启用媒体日志记录，则可用日志数有限。
+  
+> [!NOTE]
+> 调试日志以前是使用以下键盘快捷方式收集的。 这些日志仍正常工作，并且将完成与"收集支持文件 **"选项相同的日志** 捕获。
+
+> Windows：Crtl + Alt + Shift + 1
+
+> Mac：Option + Command + Shift + 1
+
 
 下表概述了各种客户端及其关联的日志。 日志文件存储在特定于客户端和操作系统的位置。
 
@@ -73,7 +85,7 @@ Mac：Option + Command + Shift + 1
 
 ## <a name="debug-logs"></a>调试日志
 
-请参阅 _收集和启用日志记录_ 部分，了解 Windows 和 Mac 的说明。 调试日志由 Windows 和 Mac 桌面客户端以及基于浏览器的客户端生成。 日志基于文本，从下而上读取。 可以使用任何基于文本的编辑器读取这些日志，并且登录到客户端时会创建新日志。
+请参阅 _收集和启用日志记录_ 部分，Windows和 Mac 说明。 调试日志由 Windows Mac 桌面客户端以及基于浏览器的客户端生成。 日志基于文本，从下而上读取。 可以使用任何基于文本的编辑器读取这些日志，并且登录到客户端时会创建新日志。
 
 调试日志显示以下数据流：
 
@@ -89,9 +101,9 @@ Mac：Option + Command + Shift + 1
 
 ## <a name="media-logs"></a>媒体日志
 
-请参阅 _收集和启用日志记录_ 部分，了解 Windows 和 Mac 的说明。 媒体日志包含有关会议中音频、视频和屏幕共享的Teams数据。 它们对于链接到呼叫相关问题的支持案例是必需的。
+请参阅 _收集和启用日志记录_ 部分，Windows和 Mac 说明。 媒体日志包含有关会议中音频、视频和屏幕共享的Teams数据。 它们对于链接到呼叫相关问题的支持案例是必需的。
 
-默认情况下，媒体日志记录已关闭。 若要记录会议Teams数据，用户必须在客户端中打开Teams选项。 转到 **"设置** 常规"，选中"为会议诊断启用日志记录 (Teams) "复选框，重启Teams并重现  >  问题。  
+默认情况下，媒体日志记录已关闭。 若要记录会议Teams数据，用户必须在客户端中打开Teams选项。 转到 **"设置** 常规"，选中"为会议诊断启用日志记录 ("Teams) "复选框  >  ，重新启动Teams并重现问题。  
 
 将日志文件发送给 Microsoft 支持人员时，请验证日志文件的时间戳，确保日志涵盖重现问题的时间范围。
 
@@ -101,7 +113,7 @@ Mac：Option + Command + Shift + 1
 
 |日志文件名  |说明  |
 |---------|---------|
-|Teams.msrtc-0-s1039525249.blog     | 包含与媒体堆栈有关的信息。 这包括通道状态，例如分辨率、使用的解码器、编码器、已发送和接收的帧数，以及基于相机和视频的屏幕共享 (VBSS) 状态。         |
+|Teams.msrtc-0-s1039525249.blog     | 包含与媒体堆栈有关的信息。 这包括通道状态，例如分辨率、使用的解码器、编码器，以及发送和接收的帧数，以及基于相机和视频的屏幕共享 (VBSS) 状态。         |
 |rtmcontrol.msrtc-0-2415069487.blog      |记录与远程控制操作相关的信息，例如提供控件时时间戳和鼠标指针信息。          |
 |Teams_MediaStackETW-2-U-xr-U.etl      |记录媒体堆栈跟踪事件。         |
 |Debug-0-s2790420889.blog    | 包含与媒体代理有关的信息，包括呈现质量。          |
@@ -109,9 +121,9 @@ Mac：Option + Command + Shift + 1
 
 ## <a name="desktop-logs"></a>桌面日志
 
-请参阅 _收集和启用日志记录_ 部分，了解 Windows 和 Mac 的说明。 桌面日志也称为启动程序日志，包含桌面客户端与浏览器之间发生的日志数据。 与媒体日志一样，仅当 Microsoft 要求时，才需要这些日志。 日志基于文本，可以使用任何基于文本的编辑器以自上而下的格式读取。
+请参阅 _收集和启用日志记录_ 部分，Windows和 Mac 说明。 桌面日志也称为启动程序日志，包含桌面客户端与浏览器之间发生的日志数据。 与媒体日志一样，仅当 Microsoft 要求时，才需要这些日志。 日志基于文本，可以使用任何基于文本的编辑器以自上而下的格式读取。
 
-若要收集 Linux 的日志：单击Microsoft Teams任务栏中的"日志"图标，然后选择"获取 **日志"。**
+若要收集 Linux 的日志：单击系统Microsoft Teams中的"日志"图标，然后选择"获取 **日志"。**
 这些文件将在 ~/.config/Microsoft/Microsoft Teams/logs.txt 中提供。  
 
 ## <a name="browser-trace"></a>浏览器跟踪
@@ -134,13 +146,13 @@ Mac：Option + Command + Shift + 1
 > 在步骤中，将 Azure 门户的所有引用替换为 Teams 客户端。
   
 ## <a name="webrtc-logs-in-browsers"></a>浏览器中的 WebRTC 日志
-WebRTC 日志可以通过为音频和视频呼叫提供连接详细信息来帮助 Microsoft 支持。 按照步骤访问 Edge (Chromium) 或 Chrome 中的 WebRTC 日志： 
+WebRTC 日志可以通过为音频和视频呼叫提供连接详细信息来帮助 Microsoft 支持。 按照步骤在 Edge 应用或 Chrome 中访问 WebRTC (Chromium) ： 
   
 1.  打开新选项卡并转到以下 URL 之一：
     -   Edge (Chromium) ："edge://webrtc-internals/"
     -   Chrome："chrome://webrtc-internals/"
   
-2.  打开 Teams Web 应用程序并重现问题。
+2.  打开Teams Web 应用程序并重现问题。
   
 3.  返回到步骤 1 中访问的选项卡，你将看到至少两个选项卡：
     -   GetUserMedia 请求

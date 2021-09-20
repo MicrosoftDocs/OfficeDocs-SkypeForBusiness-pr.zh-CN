@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 了解哪些会话边界控制器 (SBC) 已通过直接路由认证。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1c2214b13eacbb58d3c8b3fff3b544afcba009b6
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: b02bd27f15b6db4fed2835513d043c7f6561a681
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432654"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456532"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>经认证可用于直接路由的会话边界控制器
 
@@ -75,11 +75,11 @@ Microsoft 与每个供应商合作：
 |                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   &#10004;   |  &#10004;  |
 |                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      支持的 3.20（推荐 4.0）        |  &#10004;    |  &#10004;   |
 |                     [Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta SBC        |     &#10004;   | &#10004; |      4.7（4.9 支持媒体旁路）      | &#10004; | &#10004; |  
-|                     [Cisco](https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd13d.html)                               |     适用于 1000 系列集成服务路由器的 Cisco 统一边界元素 (CUBE)        |     &#10004;   | &#10004; |      支持的 IOS XE 阿姆斯特丹 17.2.1r（推荐 17.3.2）         |    &#10004;     |   |  
-|                                   |     适用于 4000 系列集成服务路由器的 Cisco 统一边界元素 (CUBE)        |     &#10004;   | &#10004; |   支持的 IOS XE 阿姆斯特丹 17.2.1r（推荐 17.3.2）         |   &#10004;      |    |  
-|                                   |     适用于 1000V 系列云服务路由器的 Cisco 统一边界元素 (CUBE)       |     &#10004;   | &#10004; |      支持的 IOS XE 阿姆斯特丹 17.2.1r（推荐 17.3.2）         |    &#10004;     |    |  
-|                                 |     适用于 1000 系列聚合服务路由器的 Cisco 统一边界元素 (CUBE)      |     &#10004;   | &#10004; |      支持的 IOS XE 阿姆斯特丹 17.2.1r（推荐 17.3.2）         |    &#10004;     |    |
-|                                 |     适用于 Catalyst 8000 Edge 平台的 Cisco 统一边框元素 (CUBE)      |     &#10004;   | &#10004; |      IOS XE 阿姆斯特丹 17.3.2      |    &#10004;     |    |
+|                     [Cisco](https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd13d.html)                               |     适用于 1000 系列集成服务路由器的 Cisco 统一边界元素 (CUBE)        |     &#10004;   | &#10004; |      支持的 IOS XE 阿姆斯特丹 17.2.1r（推荐的 17.6.1a）         |    &#10004;     |   |  
+|                                   |     适用于 4000 系列集成服务路由器的 Cisco 统一边界元素 (CUBE)        |     &#10004;   | &#10004; |   支持的 IOS XE 阿姆斯特丹 17.2.1r（推荐的 17.6.1a）         |   &#10004;      |    |  
+|                                   |     适用于 1000V 系列云服务路由器的 Cisco 统一边界元素 (CUBE)       |     &#10004;   | &#10004; |      支持的 IOS XE 阿姆斯特丹 17.2.1r（推荐的 17.3.3）         |    &#10004;     |    |  
+|                                 |     适用于 1000 系列聚合服务路由器的 Cisco 统一边界元素 (CUBE)      |     &#10004;   | &#10004; |      支持的 IOS XE 阿姆斯特丹 17.2.1r（推荐的 17.6.1a）         |    &#10004;     |    |
+|                                 |     适用于 Catalyst 8000 Edge 平台的 Cisco 统一边框元素 (CUBE)      |     &#10004;   | &#10004; |      支持的 IOS XE 阿姆斯特丹 17.3.2（推荐的 17.6.1a）      |    &#10004;     |    |
 |                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    Avaya 会话边界控制器企业版 (ASBCE)    |     &#10004;     |       &#10004;     |       8.1.1 版本（8.1.2 支持媒体旁路）      |     |    |
 |                     [诺基亚](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    诺基亚会话边界控制器。    |     &#10004;     |           |       19.5 (1908)       |     |    |
 |                     |    诺基亚会话边界控制器。    |     &#10004;     |           |       20.8       |      &#10004;        |    |

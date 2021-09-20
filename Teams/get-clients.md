@@ -19,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5975bfc6f0e93580ebdee3ce7f564efa9c380d99
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: c33ad827e5d2674f9ecf15b3229979e4bd46ad71
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729951"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456382"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>获取 Microsoft Teams 的客户端
 
@@ -61,7 +61,7 @@ IT 管理员可以选择其首选方法将安装文件分发到其组织中的�
 适用于 Windows 的 Microsoft Teams 安装提供 32 位和 64 位体系结构的可下载安装程序。
 
 > [!NOTE]
-> 安装的 Windows 和 Office 的体系结构不限制 Microsoft Teams 的体系结构（32 位和 64 位）。
+> 安装的 Windows 和 Office 的体系结构不限制 Microsoft Teams 的体系结构（32 位和 64 位）。 建议在 64 位系统上使用 64 位版本的 Microsoft Teams。
 
 Windows 客户端部署到位于用户配置文件中的 AppData 文件夹中。 部署到用户的本地配置文件后，无需提升的权限即可安装客户端。 Windows 客户端会利用以下位置：
 

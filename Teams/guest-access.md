@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 利用 Microsoft Teams 中的来宾访问功能，贵组织中的团队可以通过为贵组织外的人员授予访问团队和频道的权限来与其协作。
-ms.openlocfilehash: 83ad01ef738cc8e68d0cfdf41ea082493eb7c7b1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: aa14fc3a59d893b152f96d31a20c46119f8a71f9
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603391"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456332"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams 中的来宾访问
 
@@ -53,7 +53,7 @@ Teams 中的来宾访问需要在 Microsoft 365 中配置其他设置，包括 A
 - 若要为 Teams 配置来宾访问以供一般使用，请参阅[在团队中与来宾协作](/microsoft-365/solutions/collaborate-as-team)。
 - 若要与使用 Azure Active Directory 的合作伙伴组织进行协作，并允许来宾自行注册以实现团队访问，请参阅[创建托管有来宾的 B2B 外联网](/microsoft-365/solutions/b2b-extranet)。
 
-Teams 中的来宾访问是一种组织范围的设置，默认情况下处于关闭状态。 可使用[敏感度标签](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)控制来宾对各个团队的访问。
+Teams 中的来宾访问是组织范围的设置，默认情况下处于打开状态。 可使用[敏感度标签](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)控制来宾对各个团队的访问。
 
 ### <a name="turning-guest-access-off"></a>关闭来宾访问权限
 
