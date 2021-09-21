@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 了解调试、媒体和桌面日志Microsoft Teams、可在何处找到它们，以及它们如何帮助进行监视和故障排除。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a82b2e9fe2db41e0609b7483bded813eae29cf92
-ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
+ms.openlocfilehash: 8f29271485024445d3494c0b2ee7213253bd64ca
+ms.sourcegitcommit: f16e8f51559a46db86fe489075426f05084bb44e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "59456522"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "59460641"
 ---
 # <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>使用日志文件监视和排查Microsoft Teams
 
@@ -46,8 +46,7 @@ Windows：右键单击系统任务栏Teams图标，然后选择"收集 **支持�
 
 Mac：选择"帮助"菜单，然后选择"**收集支持文件"。**
 
-
-调试、桌面和媒体日志将收集到一个文件夹中，其名称为 MSTeams 诊断日志 <local data and time> 。 向 Microsoft 支持人员提出支持请求时，可以压缩和共享此文件夹。 该文件夹将包含桌面、会议 (媒体) 和调试 (Web) 。 可以使用以下键盘快捷方式收集文件：
+调试、桌面和媒体日志将收集到一个文件夹中，其名称为 _MSTeams 诊断日志 \<local data and time\>_。 向 Microsoft 支持人员提出支持请求时，可以压缩和共享此文件夹。 该文件夹将包含桌面、会议 (媒体) 和调试 (Web) 。 可以使用以下键盘快捷方式收集文件：
 
 Windows：Ctrl + Alt + Shift + 1
 
@@ -103,7 +102,7 @@ Mac：Option + Command + Shift + 1
 
 请参阅 _收集和启用日志记录_ 部分，Windows和 Mac 说明。 媒体日志包含有关会议中音频、视频和屏幕共享的Teams数据。 它们对于链接到呼叫相关问题的支持案例是必需的。
 
-默认情况下，媒体日志记录已关闭。 若要记录会议Teams数据，用户必须在客户端中打开Teams选项。 转到 **"设置** 常规"，选中"为会议诊断启用日志记录 ("Teams) "复选框  >  ，重新启动Teams并重现问题。  
+默认情况下，媒体日志记录已关闭。 若要记录会议Teams数据，用户必须在客户端中打开Teams选项。 转到 **设置** 常规"，选中"为会议诊断启用日志记录 (需要重启 Teams  >  ) "复选框，重新启动Teams并重现问题。  
 
 将日志文件发送给 Microsoft 支持人员时，请验证日志文件的时间戳，确保日志涵盖重现问题的时间范围。
 
@@ -113,7 +112,7 @@ Mac：Option + Command + Shift + 1
 
 |日志文件名  |说明  |
 |---------|---------|
-|Teams.msrtc-0-s1039525249.blog     | 包含与媒体堆栈有关的信息。 这包括通道状态，例如分辨率、使用的解码器、编码器，以及发送和接收的帧数，以及基于相机和视频的屏幕共享 (VBSS) 状态。         |
+|Teams.msrtc-0-s1039525249.blog     | 包含与媒体堆栈有关的信息。 这包括通道状态，例如分辨率、使用的解码器、编码器、已发送和接收的帧数，以及基于相机和视频的屏幕共享 (VBSS) 会话状态。         |
 |rtmcontrol.msrtc-0-2415069487.blog      |记录与远程控制操作相关的信息，例如提供控件时时间戳和鼠标指针信息。          |
 |Teams_MediaStackETW-2-U-xr-U.etl      |记录媒体堆栈跟踪事件。         |
 |Debug-0-s2790420889.blog    | 包含与媒体代理有关的信息，包括呈现质量。          |
