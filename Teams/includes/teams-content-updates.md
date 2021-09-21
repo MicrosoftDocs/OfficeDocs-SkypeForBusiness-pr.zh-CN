@@ -3,6 +3,37 @@
 
 
 
+## <a name="week-of-september-13-2021"></a>2021 年 9 月 13 日周
+
+
+| 发布日期 |主题标题 | 更改 |
+|------|------------|--------|
+| 9/13/2021 | [有关Teams会议呼叫的基于策略的录制&简介](/MicrosoftTeams/teams-recording-policy) | 修改内容 |
+| 9/13/2021 | [Microsoft Teams 教育版见解 IT 管理员指南](/MicrosoftTeams/class-insights) | 修改内容 |
+| 9/13/2021 | [经认证可用于直接路由的会话边界控制器](/MicrosoftTeams/direct-routing-border-controllers) | 修改内容 |
+| 9/13/2021 | [在管理中心内Microsoft Teams应用](/MicrosoftTeams/manage-apps) | 修改内容 |
+| 9/14/2021 | [经认证可用于直接路由的会话边界控制器](/MicrosoftTeams/direct-routing-border-controllers) | 修改内容 |
+| 9/14/2021 | [Microsoft Teams 会议室要求](/MicrosoftTeams/rooms/requirements) | 修改内容 |
+| 9/15/2021 | [管理在移动浏览器中Teams虚拟访问的加入体验](/MicrosoftTeams/expand-teams-across-your-org/mobile-browser-join) | 修改内容 |
+| 9/16/2021 | [国家/地区可用性 - 音频会议、呼叫计划](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) | 修改内容 |
+| 9/16/2021 | [Teams：管理会议策略](/MicrosoftTeams/meeting-policies-in-teams) | 修改内容 |
+| 9/17/2021 | [音频会议按分钟付费](/MicrosoftTeams/audio-conferencing-pay-per-minute) | 修改内容 |
+| 9/17/2021 | [Teams 云会议录制](/MicrosoftTeams/cloud-recording) | 修改内容 |
+| 9/17/2021 | [国家/地区可用性 - 音频会议、呼叫计划](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) | 修改内容 |
+| 9/17/2021 | [Teams：管理会议策略](/MicrosoftTeams/meeting-policies-in-teams) | 修改内容 |
+| 9/17/2021 | [快速入门 - 会议、网络研讨会和直播活动](/MicrosoftTeams/quick-start-meetings-live-events) | 修改内容 |
+| 9/17/2021 | [查看音频会议号码列表](/MicrosoftTeams/see-a-list-of-audio-conferencing-numbers-in-teams) | 修改内容 |
+| 9/17/2021 | [在 Microsoft Teams 中为实时事件进行设置](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | 修改内容 |
+| 9/17/2021 | [管理组织的电话号码](/MicrosoftTeams/manage-phone-numbers-landing-page) | 添加内容 |
+| 9/17/2021 | [获取呼叫套餐的服务电话号码](/MicrosoftTeams/getting-service-phone-numbers) | 修改内容 |
+| 9/17/2021 | [你可以获取多少个电话号码？](/MicrosoftTeams/how-many-phone-numbers-can-you-get) | 修改内容 |
+| 9/17/2021 | [管理呼叫计划的电话号码](/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization) | 修改内容 |
+| 9/17/2021 | [从 Slack 迁移到 Microsoft Teams](/MicrosoftTeams/migrate-slack-to-teams) | 修改内容 |
+| 9/17/2021 | [Microsoft Teams 会议室](/MicrosoftTeams/rooms/index) | 修改内容 |
+| 9/17/2021 | [搜索用户的电话号码](/MicrosoftTeams/search-for-phone-numbers-for-users) | 修改内容 |
+| 9/17/2021 | [查看组织中电话号码的列表](/MicrosoftTeams/see-a-list-of-phone-numbers-in-your-organization) | 修改内容 |
+
+
 ## <a name="week-of-september-06-2021"></a>2021 年 9 月 6 日周
 
 
@@ -30,7 +61,7 @@
 | 9/9/2021 | [使用 Microsoft Teams 和 Bookings 应用进行虚拟访问](/MicrosoftTeams/expand-teams-across-your-org/bookings-virtual-visits) | 添加内容 |
 | 9/9/2021 | [在 Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | 修改内容 |
 | 9/9/2021 | [医疗保健Teams入门](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | 修改内容 |
-| 9/10/2021 | [音乐保留](/MicrosoftTeams/music-on-hold) | 添加内容 |
+| 9/10/2021 | [音乐保持状态](/MicrosoftTeams/music-on-hold) | 添加内容 |
 | 9/10/2021 | [为服务配置 ServiceNow Teams 会议室](/MicrosoftTeams/rooms/microsoft-teams-rooms-configure-servicenow) | 修改内容 |
 | 9/10/2021 | [Microsoft Teams 会议室要求](/MicrosoftTeams/rooms/requirements) | 修改内容 |
 | 9/10/2021 | [管理频道策略Microsoft Teams](/MicrosoftTeams/teams-policies) | 修改内容 |
