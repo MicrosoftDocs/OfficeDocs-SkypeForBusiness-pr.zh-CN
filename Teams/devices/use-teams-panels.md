@@ -54,7 +54,7 @@ Teams面板设备预安装有 Microsoft Teams，并显示通过日历或日历Ou
 
 以下屏幕截图显示"主页"面板上的Teams或磁贴：
 
-:::image type="content" source="../media/panels-home-screen-explanation.png" alt-text="此屏幕截图显示"开始"面板Teams上的不同区域。":::
+:::image type="content" source="../media/panels-home-screen-explanation.png" alt-text="此屏幕截图显示开始面板Teams上的不同区域。":::
 
 请参阅下表，了解每个磁贴的说明：
 
@@ -90,7 +90,7 @@ Teams面板设备预安装有 Microsoft Teams，并显示通过日历或日历Ou
 
 该磁贴以绿色显示，表示可用的会议空间。 它以 **醒目** 的文本显示"可用"，并且还会显示"保留"按钮，您可以点击来为临时 [会议保留会议空间](#reserve-meeting-spaces-for-ad-hoc-meetings)。 可以在右下 (磁贴中查看即将) 日历，以决定临时会议结束时间。
 
-:::image type="content" source="../media/panels-right-tile-available-status.png" alt-text="此屏幕截图显示Teams可用时"主屏幕"的显示方式。":::
+:::image type="content" source="../media/panels-right-tile-available-status.png" alt-text="此屏幕截图显示Teams可用时主屏幕的显示方式。":::
 
 ## <a name="reserve-meeting-spaces-for-ad-hoc-meetings"></a>为临时会议保留会议空间
 
@@ -104,7 +104,7 @@ Teams面板设备预安装有 Microsoft Teams，并显示通过日历或日历Ou
 为临时会议保留可用的会议空间：
 
 1. 在"主页"屏幕上，点击" **保留"** 按钮。
-    :::image type="content" source="../media/panels-reserve.png" alt-text="Teams显示"保留"按钮的主屏幕。":::
+    :::image type="content" source="../media/panels-reserve.png" alt-text="Teams显示保留按钮的主屏幕。":::
 2. 在 **临时会议屏幕** 中，查看可用的结束时间选项。 可以使用向右或向左箭头浏览可用的结束时间选项。
 
     :::image type="content" source="../media/panels-reserve-endtime.png" alt-text="显示结束时间槽位的临时会议屏幕。":::
@@ -185,7 +185,7 @@ Teams面板设备预安装有 Microsoft Teams，并显示通过日历或日历Ou
 5. 点击右侧 **屏幕上的"设置** 应用"按钮。
     将显示具有可用 **面板应用设置的** 屏幕。
 
-    :::image type="content" source="../media/panels-app-settings-screen.png" alt-text="此屏幕截图显示具有可用"面板"应用设置的屏幕。":::
+    :::image type="content" source="../media/panels-app-settings-screen.png" alt-text="此屏幕截图显示具有可用面板应用设置的屏幕。":::
 
     使用此屏幕更新设备的 **以下面板** 应用设置：
 

@@ -48,7 +48,7 @@ ms.locfileid: "58731381"
 
 - 系统会提示选择 CQD 数据管道区域。 选择租户所在的区域。
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="管理中心内"呼叫质量仪表板"按钮Teams屏幕截图。":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="管理中心内呼叫质量仪表板按钮Teams屏幕截图。":::
 
  - 可以使用 Get-CsTenant Skype for Business Online PS cmdlet (查看) 。ServiceInstance 输出。 
  区域将显示在 / 之后，如以下示例所示： 
@@ -59,11 +59,11 @@ ms.locfileid: "58731381"
  
  - 若要查看自己的数据，请单击"开始"选项卡中"查询"下的"Power BI Desktop"。
 
-   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="管理中心内"呼叫质量仪表板"按钮Teams屏幕截图。":::
+   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="管理中心内呼叫质量仪表板按钮Teams屏幕截图。":::
 
 - 然后，系统会提示你登录。 选择 **"组织帐户**"，然后选择"**登录"。**
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="管理中心内"呼叫质量仪表板"按钮Teams屏幕截图。":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="管理中心内呼叫质量仪表板按钮Teams屏幕截图。":::
 
 - 选择 **连接** 并观看数据刷新。
 
@@ -83,11 +83,11 @@ ms.locfileid: "58731381"
 请执行以下步骤：
 - 选择 **功能区上的** "视图"选项卡。
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="管理中心内"呼叫质量仪表板"按钮Teams屏幕截图。":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="管理中心内呼叫质量仪表板按钮Teams屏幕截图。":::
 
 - 从下拉列表中选择颜色架构。
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="管理中心内"呼叫质量仪表板"按钮Teams屏幕截图。":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="管理中心内呼叫质量仪表板按钮Teams屏幕截图。":::
 
 
 ## <a name="cqd-fields-description"></a>CQD 字段说明

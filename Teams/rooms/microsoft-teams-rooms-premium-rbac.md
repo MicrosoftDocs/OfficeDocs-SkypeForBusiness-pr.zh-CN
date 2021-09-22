@@ -85,7 +85,7 @@ ms.locfileid: "58728071"
 2. 选择要分配的角色。
 3. 在角色窗格中，选择"分配 **添加**  >  **"。**
 
-    :::image type="content" source="../media/microsoft-teams-rooms-premium-role-assignments.png" alt-text="用于添加角色的"添加"选项的屏幕截图。":::
+    :::image type="content" source="../media/microsoft-teams-rooms-premium-role-assignments.png" alt-text="用于添加角色的添加选项的屏幕截图。":::
 
 4. 在" **常规设置"** 页上的" **工作分配属性**"下，输入此作业的名称。 说明是可选的。 选择"下 **一步"。**
 5. 在 **"成员**"页面上的"搜索用户或安全组"框中，输入要授予权限的租户中用户或安全组的名称，然后完成选择。 选择"下 **一步"。** 

@@ -108,7 +108,7 @@ CQD Teams 自动助理 &队列历史报告模板Power BI提供以下三个报告
 执行以下步骤：
 - 选择 **功能区上的** "视图"选项卡。
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="选择"视图"选项卡以更改配色方案屏幕截图。":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="选择视图选项卡以更改配色方案屏幕截图。":::
 
 - 从下拉列表中选择颜色架构。
 

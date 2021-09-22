@@ -32,11 +32,11 @@ Teams管理中心中的"Microsoft Teams应用使用情况"报表提供有关用�
 
 1.  在管理中心的左侧导航栏中，单击" <https://admin.teams.microsoft.com> **分析**"& \> **报告"使用情况报告"。** 在"**查看报表"选项卡上的**"报表 **"下**，选择"**应用使用情况"。**
 
-     :::image type="content" source="media/app-usage-report1.png" alt-text=""使用情况报告"菜单项的屏幕截图。":::
+     :::image type="content" source="media/app-usage-report1.png" alt-text="使用情况报告菜单项的屏幕截图。":::
 
 2.  在“**数据范围**”下，选择一个范围，然后单击“**运行报告**”。
 
-      :::image type="content" source="media/app-usage-report2.png" alt-text=""应用使用情况"报表的屏幕截图。":::
+      :::image type="content" source="media/app-usage-report2.png" alt-text="应用使用情况报表的屏幕截图。":::
 
 ## <a name="interpret-the-report"></a>解释报告
 

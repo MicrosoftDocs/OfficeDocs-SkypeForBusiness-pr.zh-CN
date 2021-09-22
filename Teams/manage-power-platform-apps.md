@@ -39,7 +39,7 @@ ms.locfileid: "58730661"
 
 创建或共享 Microsoft Power Platform 应用后，用户可以在"应用"页面上查看并安装该应用，**** 其方式为"为同事构建的组织名称  >  **生成"。**  (创建或共享应用后，可能需要几分钟时间，应用才能在此处显示。) 
 
-:::image type="content" source="media/manage-power-platform-apps-apps-page.png" alt-text=""应用"页的屏幕截图，显示"由同事构建"中列出的 Microsoft Power Platform 应用":::
+:::image type="content" source="media/manage-power-platform-apps-apps-page.png" alt-text="应用页的屏幕截图，显示由同事构建中列出的 Microsoft Power Platform 应用":::
 
 如果应用满足 **以下条件之** 一，用户将看到同事生成的应用。
 
@@ -69,7 +69,7 @@ ms.locfileid: "58730661"
 1. 在 Microsoft Teams 管理中心的左侧导航中，转到“**Teams 应用**” > “**管理应用**”。 只有全局管理员或Teams才能访问页面。
 2. 在应用列表中，执行下列操作之一。
 
-    :::image type="content" source="media/manage-power-platform-apps-manage-apps.png" alt-text=""管理应用"页面的屏幕截图，显示共享的 Microsoft Power Platform 应用":::
+    :::image type="content" source="media/manage-power-platform-apps-manage-apps.png" alt-text="管理应用页面的屏幕截图，显示共享的 Microsoft Power Platform 应用":::
 
     - 若要阻止在 Power Apps 或 Power Virtual Agents 中创建的应用，请搜索"共享 Power Apps"**或"共享 Power Virtual Agent** 应用 **"，** 将其选中，然后单击"阻止 **"。**
     - 若要允许在 Power Apps 或 Power Virtual Agents 中创建的应用，请搜索"共享 **Power Apps"或"共享 Power Virtual Agent** 应用 **"，** 将其选中，然后单击"允许 **"。**

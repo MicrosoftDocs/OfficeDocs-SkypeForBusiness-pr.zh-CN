@@ -34,7 +34,7 @@ ms.locfileid: "58750031"
 
 使用管理员凭据 (登录时) CQD (Microsoft 呼叫 [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) 质量仪表板) 。 或者转到管理Teams，然后选择"呼叫 **质量仪表板"。** 
 
-:::image type="content" source="media/turning-on-and-using-call-quality-dashboard3.png" alt-text="管理中心内"呼叫质量仪表板"按钮Teams屏幕截图。":::
+:::image type="content" source="media/turning-on-and-using-call-quality-dashboard3.png" alt-text="管理中心内呼叫质量仪表板按钮Teams屏幕截图。":::
 
 在打开的页面上，单击 **"登录"并** 输入全局管理员帐户或Microsoft Teams管理员帐户信息。 首次登录后，CQD 将开始收集和处理数据。 请记住，可能需要一小时或几小时才能处理足够的数据，才能在报告中显示有意义的结果。
 
