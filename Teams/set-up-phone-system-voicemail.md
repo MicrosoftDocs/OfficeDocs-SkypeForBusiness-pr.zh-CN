@@ -21,17 +21,17 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: '了解如何为云语音邮件设置帐户。 '
-ms.openlocfilehash: c9e073a61501143c478d78b9184602f4eebe9264
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: '了解如何为用户云语音邮件帐户。 '
+ms.openlocfilehash: 37cf89d4c728cab491d0312762a2c845bb711dcd
+ms.sourcegitcommit: 5f19df90443810e027085f8b38d22218e4123a16
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590726"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59482416"
 ---
 # <a name="set-up-cloud-voicemail"></a>设置云语音邮件
 
-本文适用于Microsoft 365或Office 365管理员，如关于想要为企业中的云语音邮件设置管理员角色中所述[](/microsoft-365/admin/add-users/about-admin-roles)。
+本文适用于Microsoft 365或Office 365管理员，如想要为业务中的云语音邮件设置管理员角色中所述[](/microsoft-365/admin/add-users/about-admin-roles)。
 
 > [!NOTE]
 > 云语音邮件仅支持将语音邮件Exchange邮箱中，并且不支持任何第三方电子邮件系统。 
@@ -43,13 +43,13 @@ ms.locfileid: "58590726"
 
 对于Teams用户，云语音邮件自动设置和预配。 请注意，电话系统不需要许可证云语音邮件。 
 
-## <a name="set-up-cloud-voicemail-for-exchange-server-mailbox-users"></a>为云语音邮件用户设置Exchange Server组
+## <a name="set-up-cloud-voicemail-for-exchange-server-mailbox-users"></a>为云语音邮件用户Exchange Server邮箱
 
-以下信息将有关配置云语音邮件，以便与联机电话系统但邮箱位于Exchange Server。 
+以下信息有关配置 云语音邮件，以便与联机进行登录但邮箱位于电话系统的用户Exchange Server。 
   
 1. 语音邮件通过 SMTP Exchange发送到用户的邮箱Exchange Online Protection。 若要成功传递这些消息，请确保在 Exchange 服务器和服务器之间正确Exchange连接器Exchange Online Protection;[使用连接器配置邮件Flow。](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow) 
 
-2. 若要启用语音邮件功能，例如自定义 Skype for Business 客户端中的问候语和可视语音邮件，需要从 Microsoft 365 或 Office 365 通过 Exchange Web 服务连接到 Exchange 服务器邮箱。 若要启用此连接，必须配置在 Exchange 和 Exchange Online 组织之间配置[OAuth](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)身份验证中所述的新 Exchange Oauth 身份验证协议，或者从 Exchange 2013 CU5 或更高版运行 Exchange 混合向导。 此外，必须在 Skype for Business Online 和 Exchange 服务器之间配置集成和 Oauth，如在 Skype for Business Online 和 Exchange Server[之间配置集成和 OAuth 中所述](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)。 
+2. 若要启用语音邮件功能，例如自定义 Skype for Business 客户端中的问候语和可视语音邮件，需要通过 Exchange Web 服务从 Microsoft 365 或 Office 365 连接到 Exchange 服务器邮箱。 若要启用此连接，必须配置在 Exchange 与 Exchange Online 组织之间配置[OAuth](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)身份验证中所述的新 Exchange Oauth 身份验证协议，或者从 Exchange 2013 CU5 或更高版运行 Exchange 混合向导。 此外，必须在 Skype for Business Online 和 Exchange 服务器之间配置集成和 Oauth，如在 Skype for Business Online 和 Exchange Server[之间配置集成和 OAuth 中所述](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)。 
 
 ## <a name="set-up-cloud-voicemail-for-skype-for-business-server-users"></a>为云语音邮件用户Skype for Business Server组
 
@@ -61,29 +61,33 @@ ms.locfileid: "58590726"
 
 有关邮件加密的信息，请参阅 [电子邮件加密](/microsoft-365/compliance/email-encryption?view=o365-worldwide)。
 
+
 若要设置受保护的语音邮件，请执行下列操作：
 
 1. 转到 https://admin.microsoft.com ，使用具有全局管理员权限的帐户登录。
 2. 选择 **"全部显示**"，然后转到"管理 **中心**  >  **Exchange"。**
 3. 在"Exchange管理中心"中，选择"**邮件流规则**  >  **"。**
 4. 选择 **+** **"添加**"，然后选择 **"Office 365 邮件加密和权限保护"。**
-5. 提供新邮件流规则的名称，然后在"如果应用此规则 **"** 下选择"邮件 **属性**  >  **包括邮件类型**  >  **"语音邮件"。** 选择"**确定"。**
-6. 在 **"执行下列操作"** 下，选择 **"Office 365 邮件加密邮件应用权限保护**"，然后选择"选择 **一个"。** 在 **"RMS 模板"** 下，选择 **"不转发"。** 选择 **"确定**"，然后选择"**保存"。**
+5. 提供新邮件流规则的名称，然后在"如果应用此规则 **"** 下，选择"邮件 **属性**  >  **包括邮件类型**  >  **""语音邮件"。** 选择"**确定"。**
+6. 在 **"执行下列操作"** 下，选择"对Office 365 邮件加密应用权限 **保护"，** 然后选择"选择 **一个"。** 在 **"RMS 模板"** 下，选择 **"不转发"。** 选择 **"确定**"，然后选择"**保存"。**
     > [!NOTE]
     > 如果 **RMS 模板** 列表为空，则需要设置消息加密。 有关设置消息加密的信息，请参阅以下文章：
     > - [设置新的消息加密功能](/microsoft-365/compliance/set-up-new-message-encryption-capabilities?view=o365-worldwide)
     > - [配置和管理 Azure 信息保护的模板](/information-protection/deploy-use/configure-policy-templates)
     > - [电子邮件的"不转发"选项](/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails)
 
+    > [!NOTE]
+    > 需要为希望显示语音邮件表单的用户、企业和组织设置以下注册表项：[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\Outlook\Addins] "AllowVoicemailForm"=dword：00000001                           
+
 ## <a name="help-your-users-learn-teams-voicemail-features"></a>帮助用户了解Teams功能
 
-我们针对你的用户提供有关管理其语音邮件设置的信息以及其他呼叫功能，Teams：
+我们为用户提供了以下信息，以便管理其语音邮件设置以及其他呼叫Teams：
 
 - [在 中管理Teams。](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f) 本文介绍如何管理所有最终用户和Teams功能。 
 
 ## <a name="help-your-users-learn-skype-for-business-voicemail-features"></a>帮助你的用户了解 Skype for Business 语音邮件的功能
 
-我们提供培训信息和文章来帮助用户成功使用语音邮件Skype for Business。 指示他们访问以下文章：
+我们提供培训信息和文章，帮助用户使用语音邮件Skype for Business。 指示他们访问以下文章：
 
 - [检查Skype for Business](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8)和选项：本文介绍如何在 Skype for Business 中收听语音邮件、更改语音邮件问候语、更改语音邮件设置以及以不同速度收听语音邮件。
 
