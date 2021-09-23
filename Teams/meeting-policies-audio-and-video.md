@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.audioandvideo
 - seo-marvel-apr2020
 description: 了解如何在音频和视频Teams管理会议策略设置。
-ms.openlocfilehash: 9b7c2fd2ac98237383b8aaa1dff8fa764c6df2be
-ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
+ms.openlocfilehash: 7dcd3f73d29dcbe635793d4a67db602b8e4c8a1c
+ms.sourcegitcommit: 5f19df90443810e027085f8b38d22218e4123a16
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "58973030"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59482386"
 ---
 # <a name="meeting-policy-settings-for-audio--video"></a>音频和视频的会议&设置
 
@@ -49,7 +49,7 @@ ms.locfileid: "58973030"
 |**已启用传出和传入音频**    |会议允许传出和传入音频。这是默认设置。 |
 |**禁用**     |传出和传入音频在会议中已关闭。     |
 
-如果用户设置为 **"已** 禁用"，该用户仍可以安排和组织会议，但他们不能使用音频。 若要加入会议，他们必须通过 PSTN 公用电话交换网 (PSTN) 或通过电话拨入会议呼叫并加入会议。 没有指定任何策略的会议参与者 (例如，匿名参与者) 将此设置为默认 **启用传出和传入音频**。 在 Teams 移动客户端上，如果禁用此设置，用户必须通过 PSTN 拨入会议。
+如果用户设置为 **"已** 禁用"，该用户仍可以安排和组织会议，但他们不能使用音频。 要加入会议，他们必须通过 PSTN 公用电话交换网 (电话) 或通过电话拨入会议呼叫并加入会议。 没有指定任何策略的会议参与者 (例如，匿名参与者) 将此设置为默认 **启用传出和传入音频**。 在 Teams 移动客户端上，如果禁用此设置，用户必须通过 PSTN 拨入会议。
 
 此设置不适用于 1:1 呼叫。 若要限制 1:1 通话，请配置 Teams [通话策略](teams-calling-policy.md) 并关闭 **“进行私人通话”** 设置。 此设置也不适用于 Surface Hub 和 Microsoft Teams 会议室设备等会议室设备。
 
@@ -149,16 +149,16 @@ ms.locfileid: "58973030"
 
 这是每用户策略。此设置控制用户是否可以自定义他们在会议中的视频背景。
 
-目前，只能使用 PowerShell 来设置该策略。 可以使用 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet 编辑现有的 Teams 会议策略。 或者，使用 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet 创建一个新的 Teams 会议策略，然后将该策略分配给用户。
+可以使用管理中心Teams PowerShell 设置此策略。 可以使用 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet 编辑现有的 Teams 会议策略。 或者，使用 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet 创建一个新的 Teams 会议策略，然后将该策略分配给用户。
 
-要指定用户是否可以在会议中自定义视频背景，请按以下方式设置 **VideoFiltersMode** 参数:
+若要指定用户是否可以在会议中自定义其视频背景，请在 Teams 管理中心中设置 **VideoFiltersMode** 参数 (选择视频筛选器设置) 如下所示： 
 
-|在 PowerShell 中设置值 |行为  |
-|---------|---------|
-|**NoFilters**     |用户无法自定义其视频背景。|
-|**BlurOnly**     |用户可以选择模糊其视频背景。 |
-|**BlurandDefaultBackgrounds**     |用户可以选择模糊显示视频背景或选择从默认的图像集作为他们的背景。 |
-|**AllFilters**     |使用 可以选择模糊其视频背景、从默认图像集选择或上传自定义图像以用作背景。 |
+|在 PowerShell 中设置值|在管理中心Teams值 |行为  |
+|---------|---------|---------|
+|**NoFilters** |**无筛选器**    |用户无法自定义其视频背景。|
+|**BlurOnly**     |**仅背景模糊**|用户可以选择模糊其视频背景。 |
+|**BlurandDefaultBackgrounds**|**背景模糊和默认图像**     |用户可以选择模糊显示视频背景或选择从默认的图像集作为他们的背景。 |
+|**AllFilters**|**所有筛选器**     |用户可以选择模糊显示视频背景、从默认的图像集选择、或上传自定义图像作为他们的背景。 |
 
 > [!NOTE]
 > 用户上传的图片不会经过 Teams 的筛选。 当使用 **AllFilters** 设置时，应该制定内部组织政策，以防止用户上传攻击性或不适当的图像，或组织无权用于 Teams 会议背景的图像。
