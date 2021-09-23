@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何使用敏感度标签来保护团队Microsoft Teams。
-ms.openlocfilehash: 5337f623a8535a840f1eead45c53506fb8f3fee7
-ms.sourcegitcommit: 1c2364fbefd95151f0847a35e8bc7c4c1b3892f5
+ms.openlocfilehash: 135049e80d6a8c0e008886ca924cca64b5943695
+ms.sourcegitcommit: 9fd9cfe3683503f3c35ad5591324396e2532caef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "58935838"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59496689"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>用于检测的敏感度Microsoft Teams
 
@@ -30,13 +30,13 @@ ms.locfileid: "58935838"
 
 对于使用教育 SKUS 的客户，课堂团队目前不支持Teams标签。 若要详细了解许可，请参阅Microsoft Teams[说明](/office365/servicedescriptions/teams-service-description)。
 
-## <a name="whats-the-difference-between-sensitivity-labels-and-teams-classification-labels"></a>敏感度标签与分类标签Teams区别？
+## <a name="whats-the-difference-between-sensitivity-labels-and-teams-classification"></a>敏感度标签与分类分类Teams区别？
 
-敏感度标签不同于分类标签，也称为 Azure AD 组分类。 分类标签是文本字符串，可以与Microsoft 365组相关联，但没有任何与之关联的实际策略。 使用分类标签作为元数据，然后必须使用其他方法（例如内部工具和脚本）强制实施策略。
+敏感度标签不同于Teams分类，也称为 Azure AD 组分类。 分类是文本字符串，可以与Microsoft 365组相关联，但没有任何与之关联的实际策略。 使用分类作为元数据，然后必须使用其他方法（例如内部工具和脚本）来强制实施策略。
 
 使用敏感度标签的好处是，通过 Microsoft 365 Groups 平台、合规性中心和标准服务的组合，可自动Teams策略。 敏感度标签提供强大的基础结构支持，用于保护组织的敏感数据并确保符合内部策略或法规。
 
-如果当前使用分类标签，请参阅以下文档，详细了解如何将它们迁移到敏感度标签： [经典 Azure AD 组分类](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites#classic-azure-ad-group-classification)。
+如果当前使用Teams分类，请参阅以下文档，详细了解如何将这些值转换为敏感度标签：[经典 Azure AD 组分类](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites#classic-azure-ad-group-classification)。
 
 ## <a name="example-scenarios-for-sensitivity-labels"></a>敏感度标签的示例方案
 
@@ -59,10 +59,7 @@ ms.locfileid: "58935838"
 
 ![常规敏感度标签的屏幕截图。](media/sensitivity-labels-general-example.png)
 
-创建团队时，敏感度标签显示在团队中频道的右上角。 
-
-> [!NOTE]
-> 如果使用分层父子标签（如"Confidential\Finance"），则频道标头中只会显示父标签。
+创建团队时，敏感度标签对团队中频道右上角的用户可见。 
 
 ![团队频道中敏感度标签的屏幕截图。](media/sensitivity-labels-channel.png)
 
@@ -72,11 +69,11 @@ ms.locfileid: "58935838"
 
 ### <a name="control-guest-access-to-teams"></a>控制来宾对团队的访问
 
-可以使用敏感度标签来控制来宾对团队的访问。 Teams不允许来宾访问的标签创建的用户仅对组织中用户可用。 无法将组织外部人员添加到团队。
+可以使用敏感度标签来控制来宾对团队的访问。 Teams不允许来宾访问的标签创建的用户仅对您的组织中的用户可用。 无法将组织外部人员添加到团队。
 
 ## <a name="microsoft-teams-admin-center"></a>Microsoft Teams管理中心
 
-可以在管理中心内创建或编辑团队时应用Microsoft Teams标签。 
+在管理中心内创建或编辑团队时，可以应用Microsoft Teams标签。 
 
 敏感度标签在团队属性中以及管理中心的"管理团队"页面上的"分类"Microsoft Teams可见。
 
@@ -84,22 +81,18 @@ ms.locfileid: "58935838"
 
 在将敏感度标签用于Teams，请注意以下限制：
 
-- **子标签不显示父标签名称**
-    
-    Teams支持子标签，但不显示父标签的名称。 例如，"**机密** \\ **所有员工"** 显示为"**所有员工"。**
-
 - **API、PowerShell cmdlet 和模板Teams Graph敏感度标签**
     
-    用户无法通过 Teams Graph API、Teams PowerShell cmdlet 和 Teams 模板创建团队时指定敏感度标签。 但是，新式Graph API 和 PowerShell cmdlet 允许创建具有标签的组。 因此，用户可以首先使用"组"Graph API 或 PowerShell cmdlet 创建带标签的组，然后将这些组转换为Teams。
+    用户无法通过 Teams Graph API、powerShell cmdlet 和 Teams 模板直接创建Teams标签。 但是，新式Graph API 和 PowerShell cmdlet 允许创建具有标签的组。 因此，用户可以首先使用组或 powerShell cmdlet Graph组标签创建组，然后将这些组转换为Teams。
 
 - **支持专用频道**
     
     在团队中创建的专用频道将继承应用于团队的敏感度标签。 该标签会自动应用于专用SharePoint网站集上。
     
-    但是，如果用户直接更改专用通道SharePoint网站的敏感度标签，该标签更改不会反映在客户端Teams中。 在此方案中，用户继续在专用频道标题中看到应用于团队的原始敏感度标签。
+    但是，如果用户直接在专用通道的 SharePoint 网站上更改敏感度标签，该标签更改不会反映在 Teams 客户端中。 在此方案中，用户继续在专用频道标题中看到应用于团队的原始敏感度标签。
 
 ## <a name="how-to-create-and-configure-sensitivity-labels-for-teams"></a>如何为用户创建和配置敏感度Teams
 
-按照以下文档Microsoft 365创建和配置敏感度标签，Teams： 
+根据以下文档Microsoft 365创建和配置敏感度标签，Teams： 
 
 - [使用敏感度标签保护网站](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)Microsoft Teams、Microsoft 365组SharePoint的内容。
