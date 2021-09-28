@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: 为组织获取电话号码或端口（转接）号码时，可能需要在 PSTN 服务台获取帮助和支持。
-ms.openlocfilehash: 01c54f1b6c5592626349841dea0dd4ec197d7488
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 65ebe954fb9a8b101489c9add7739b24bdd529bc
+ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598466"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59941855"
 ---
 # <a name="pstn-service-desk"></a>PSTN 服务台 
 
@@ -61,7 +61,6 @@ ms.locfileid: "58598466"
 - **[提供反馈](#view-and-manage-existing-cases)**– 与我们分享你的反馈。 
 
 - **[你的姓名]** – 更新配置文件页面。 
-
 
 ## <a name="create-a-new-case"></a>新建案例
 

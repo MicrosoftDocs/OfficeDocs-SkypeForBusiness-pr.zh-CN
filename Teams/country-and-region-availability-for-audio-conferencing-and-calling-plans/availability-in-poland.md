@@ -1,9 +1,9 @@
 ---
 title: 在波兰的可用性
-ms.author: crowe
-author: CarolynRowe
+ms.author: czawideh
+author: cazawideh
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: ''
 ms.topic: reference
 ms.assetid: c5dcb36b-9700-46c8-8499-d5cadb218a37
 ms.tgt.pltfrm: cloud
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是适用于波兰Microsoft 365 Office 365 Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: 93296a036a1c5f145267e508dacd6f43b147838e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 以下是适用于波兰Microsoft 365 Office 365和Skype for Business Microsoft Teams服务。
+ms.openlocfilehash: 88cfb406eba215b8c0134c0c479532bf50870ad4
+ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617528"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59941835"
 ---
 # <a name="availability-in-poland"></a>在波兰的可用性
 
 [查找其他国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或详细了解可以在哪些国家/地区使用音频会议和通话套餐。
 
-以下是适用于波兰Microsoft 365 Office 365 Skype for Business Microsoft Teams服务。
+以下是适用于波兰Microsoft 365 Office 365和Skype for Business Microsoft Teams服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 
@@ -57,15 +57,12 @@ ms.locfileid: "58617528"
    
 ## <a name="calling-plans"></a>通话套餐
 
-> [!IMPORTANT]
-> 我们目前在波兰面临新的电话号码订单和移植订单的意外延迟。 您可以继续下单，但请注意，我们预计此延迟将在 9 月之前解决，届时所有待处理订单都将完成。
-
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买通话套餐？  <br/> |是  <br/> |
-|通话套餐可用的分钟数。 |每个日历月有四个可用的计划选项： <ul><li>120 分钟国内呼叫计划 </li><li>240 分钟国内呼叫计划</li></li><li>1200 分钟国内呼叫计划 </li></li><li>国内和国际呼叫计划：国内 1200 分钟 -OR- 600 分钟国际呼叫 (以日历月份中首次达到者为准) </li></li></ul>|
+|通话套餐可用的分钟数。 |每个日历月有四个可用的计划选项： <ul><li>120 分钟国内呼叫计划 </li><li>240 分钟国内呼叫计划</li></li><li>1200 分钟国内呼叫计划 </li></li><li>国内和国际呼叫计划：国内 1200 分钟 -或 600 分钟国际呼叫 (以日历月份中首次达到者为准) </li></li></ul>|
 |能否对高级号码进行出站呼叫？  <br/> | 目前不支持。 <br/> |
-|是否可以拨打呼出电话？  <br/> | 可向 196 国家/地区（包括[这些国家/地区](users-can-make-outbound-calls-to-these-countries-and-regions.md)）拨打。<br/> |
+|是否可以拨打呼出电话？  <br/> | 到 196 个国家和地区， [包括这些](users-can-make-outbound-calls-to-these-countries-and-regions.md)。<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服务的收费和免费电话号码
 

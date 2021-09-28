@@ -29,13 +29,13 @@ ms.custom:
 - O365P_SFBVoiceCredit
 - O365P_SFBVoiceCreditAether
 - Licensing
-description: '了解如何为 PSTN (PSTN) 支付Skype for Business费用，并查看为用户提供持续电话系统访问的计划。 '
-ms.openlocfilehash: fe3b80e41c6fdc411304ec43eebb0ab560063033
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: '了解如何为 PSTN (服务 (PSTN) 支付Skype for Business，并查看为用户提供持续电话系统访问的计划。 '
+ms.openlocfilehash: 3d2b6eb0a1f487794cc93f9639e49e9557ca4fcd
+ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617608"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59942045"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>添加资金并管理通信点数
 
@@ -45,7 +45,7 @@ ms.locfileid: "58617608"
 
 - 从音频会议拨出以添加世界上任何位置的其他人。
 
-- 从音频会议会议拨出到安装了 Skype for Business 或 Microsoft Teams 应用的移动电话。
+- 从音频会议会议拨出到安装了音频会议Skype for Business Microsoft Teams移动电话。
 
 - 当你拥有国内呼叫计划时， **拨打任何国际电话号码**。
 
@@ -60,10 +60,10 @@ ms.locfileid: "58617608"
   
 你可以随时更新你的付款选项。 在" **订阅"** 页上，选择 **"通信信用额度**"，然后进行更新。
   
-使用服务时，资金将仅应用于 Microsoft 发布的通信信用额度。 在购买日期的 12 (12) 内未使用的任何资金都将过期并失去。
+使用服务时，资金将仅应用于 Microsoft 发布的通信信用额度。 自购买之日起的 12 个月内未使用的任何资金将过期并丢失。
   
 > [!TIP]
-> 当通过自动充值添加资金、自动充值失败时 (例如，当信用卡) 到期以及余额低于零时，我们将向您发送电子邮件通知。
+> 当通过自动充值添加资金、自动充值失败时 (例如，当信用卡于) 到期以及余额达到零时，我们将向您发送电子邮件通知。
   
 有关详细信息，请参阅 [什么是通信信用额度？](what-are-communications-credits.md)
   
@@ -79,7 +79,7 @@ ms.locfileid: "58617608"
 
 也可通过登录订阅并访问"计费订阅Microsoft 365 管理中心"添加订阅"来  >    >  **查看信息**。
   
-若要查看包含每个功能所需的许可证的表，请参阅Microsoft Teams[许可证。](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+若要查看包含每个功能所需的许可证的表，请参阅Microsoft Teams[许可证](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
   
 ## <a name="related-topics"></a>相关主题
 

@@ -1,9 +1,9 @@
 ---
 title: 在立陶宛的可用性
-ms.author: crowe
-author: CarolynRowe
+ms.author: czawideh
+author: cazawideh
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: ''
 ms.topic: reference
 ms.assetid: c3a51334-fff3-4b31-9618-c150adb53a0c
 ms.tgt.pltfrm: cloud
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是适用于立陶宛Microsoft 365 Office 365 Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: b61d09f9e6045580de9161bcca82b0bb811c2ce9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 以下是适用于Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
+ms.openlocfilehash: 0eb3979986546f9b99437bba568a1d9cd9e69460
+ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603521"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59942065"
 ---
 # <a name="availability-in-lithuania"></a>在立陶宛的可用性
 
 [查找其他国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或详细了解可以在哪些国家/地区使用音频会议和通话套餐。
 
-以下是适用于立陶宛Microsoft 365 Office 365 Skype for Business Microsoft Teams服务。
+以下是适用于Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 
@@ -59,11 +59,10 @@ ms.locfileid: "58603521"
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|是否可购买通话套餐？  <br/> |否  <br/> |
-|通话套餐的可用分钟数  <br/> |不适用  <br/> |
-|是否可以拨打呼出电话？  <br/> |不适用  <br/> |
-
-如果通话套餐不可购买，不妨使用[电话系统直接路由](../direct-routing-landing-page.md)。 使用直接路由，可以结合使用电话系统与几乎任何电话运营商。
+|是否可购买通话套餐？  <br/> |是  <br/> |
+|通话套餐可用的分钟数。 |每个日历月有四个可用的计划选项： <ul><li>120 分钟国内呼叫计划 </li><li>240 分钟国内呼叫计划</li></li><li>1200 分钟国内呼叫计划 </li></li><li>国内和国际呼叫计划：国内 1200 分钟 -或 600 分钟国际呼叫 (以日历月份中首次达到者为准) </li></li></ul>|
+|能否对高级号码进行出站呼叫？  <br/> | 目前不支持。 <br/> |
+|是否可以拨打呼出电话？  <br/> | 到 196 个国家和地区， [包括这些](users-can-make-outbound-calls-to-these-countries-and-regions.md)。<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服务的收费和免费电话号码
 
@@ -71,7 +70,7 @@ ms.locfileid: "58603521"
 |:-----|:-----|
 |你可以获取哪些首都或大城市的收费电话号码？  <br/> |维尔纽斯  <br/> |
 |是否提供收费电话号码？  <br/> |是  <br/> |
-|是否提供免费电话号码？  <br/> |否  <br/> |
+|是否提供免费电话号码？  <br/> |弱  <br/> |
    
  如果你想要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../getting-service-phone-numbers.md)。
   

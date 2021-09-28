@@ -1,7 +1,7 @@
 ---
 title: 管理反馈策略Microsoft Teams
-author: cichur
-ms.author: v-cichur
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: heprecel
 ms.topic: article
@@ -17,27 +17,35 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何使用反馈策略来控制Teams用户是否可以向 Microsoft Teams反馈。
-ms.openlocfilehash: 5aa828a68de40ec369a6b19bf57f065ab1f483a6
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 582c5e39fca8dc37cefe8b480b2ff886779f6fa0
+ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733111"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59942097"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>管理反馈策略Microsoft Teams
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-您的组织中的用户可以直接从桌面Teams Web 客户端内部向 Microsoft 发送有关Teams的反馈。 我们正在不断改进用户体验，Teams反馈来改进Teams体验。
+您的组织中的用户可以发送有关Microsoft Teams的反馈，让我们知道我们直接从桌面、web 客户端和Teams内部进行的工作。 我们正在不断改进用户体验，Teams反馈来改进Teams体验。
 
 > [!NOTE]
 > 反馈策略在高级、GCC GCC DOD 部署中不可用。
 
-**"提供反馈"功能**
+**" **提供反馈"** 功能**
 
-用户可以通过访问"帮助"在 Teams 中提供反馈，  >  **向我们** 发送有关Teams。 通过"**提供反馈**"发送的数据Microsoft 365或Office 365协议下的"支持数据"，包括否则被视为"客户数据"或"个人数据"的信息。
+用户可以通过在桌面和 web Teams帮助提供反馈，向我们发送Teams  >  和建议。
 
-!["提供反馈"选项的屏幕截图Teams。](media/manage-feedback-policies-in-teams-give-feedback.png)
+
+![在"反馈"中提供Teams](media/manage-feedback-policies-in-teams-give-feedback.png)
+
+在移动设备上使用"帮助  >  **"设置"&"发送**  >  **反馈"。**
+
+![在移动设备上提供Teams反馈选项](media/feedback3.jpg)
+
+ 通过"提供反馈"和"发送反馈"发送的数据在 Microsoft 365 或 Office 365 协议下被视为"支持数据"，包括否则被视为"客户数据"或"个人数据"的信息。
+
 
 **调查**
 
@@ -47,19 +55,20 @@ ms.locfileid: "58733111"
 
 ## <a name="set-whether-users-can-send-feedback-about-teams-to-microsoft"></a>设置用户是否可以向 Microsoft Teams反馈
 
-作为管理员，您可以控制您的组织中的用户是否可以通过"提供反馈"Teams向 Microsoft 发送有关用户反馈，以及他们是否收到调查。 默认情况下，将自动为组织中的所有用户分配全局 (组织范围的默认) 策略，并且"提供反馈"功能与调查在策略中启用。 例外情况是Teams 教育版，其中为教师启用和禁用了学生的功能。
+作为管理员，你可以控制你组织中用户是否可以向 Microsoft 发送有关Teams的反馈，以及他们是否收到调查。 默认情况下，将自动为组织中的所有用户分配全局 (组织范围的默认) 策略，并且反馈功能与调查在策略中启用。 例外情况是Teams 教育版，其中为教师启用和禁用了学生的功能。
 
 可以编辑全局策略，也可以创建和分配自定义策略。 编辑全局策略或分配自定义策略后，可能需要几个小时更改才能生效。
 
-例如，您希望允许组织中的所有用户通过提供反馈发送反馈并接收调查，但培训中的新员工除外。 在此方案中，请创建自定义策略来关闭这两项功能，并将其分配给新员工。 组织中所有其他用户在启用功能后获取全局策略。  
+例如，您希望允许您的组织中的所有用户发送反馈和接收调查，但培训中的新员工除外。 在此方案中，请创建自定义策略来关闭这两项功能，并将其分配给新员工。 组织中所有其他用户在启用功能后获取全局策略。  
 
-使用 PowerShell 管理反馈策略。 使用 **New-CsTeamsFeedbackPolicy** cmdlet（可在此处找到）创建自定义策略。 *[](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)* 使用 **Grant-CsTeamsFeedbackPolicy** cmdlet 将其分配给一个或多个用户或用户组，例如安全组或通讯组。 使用 **Set-CsTeamsFeedbackPolicy** 设置特定标志。
+使用 PowerShell 管理反馈策略。 使用 [**New-CsTeamsFeedbackPolicy** cmdlet](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) 创建自定义策略。 使用 **Grant-CsTeamsFeedbackPolicy** cmdlet 将其分配给一个或多个用户或用户组，例如安全组或通讯组。 使用 **Set-CsTeamsFeedbackPolicy** 设置特定标志。
 
 若要关闭并打开功能，请设置以下参数：
 
  - **提供反馈**：将 **userInitiatedMode** 参数设置为 **"启用** "，以允许分配有策略的用户提供反馈。 将 参数 **设置为 disabled** 会关闭该功能，并且分配有策略的用户没有提供反馈的选项。
- - **Surveys：** 将 **receiveSurveysMode** 参数设置为 **已启用** ，以允许分配了策略的用户接收调查。 若要让用户接收调查并允许他们选择退出，将 参数设置为 **enabledUserOverride**。 在Teams中，用户可以转到"设置隐私"并选择是否要  >  参与调查。 将 参数 **设置为 disabled** 会关闭该功能，分配有策略的用户不会收到调查。
+ - **Surveys：** 将 **receiveSurveysMode** 参数设置为 **已启用** ，以允许分配了策略的用户接收调查。 若要让用户接收调查并允许他们选择退出，将 参数设置为 **enabledUserOverride**。 在Teams中，用户可以转到"设置  >  **隐私**"并选择是否要参与调查。 将 参数 **设置为 disabled** 会关闭该功能，分配有策略的用户不会收到调查。
  - **电子邮件**：使用 **AllowEmailCollection** 标志添加电子邮件字段。
+ - **日志收集**：使用 **AllowLogCollection** 标志为用户添加日志收集选择加入。 目前仅在移动设备上启用日志收集。 有关通过日志共享哪些数据的更多详细信息， [请了解详细信息](https://go.microsoft.com/fwlink/?linkid=2168178)。
 
 ## <a name="create-a-custom-feedback-policy"></a>创建自定义反馈策略
 

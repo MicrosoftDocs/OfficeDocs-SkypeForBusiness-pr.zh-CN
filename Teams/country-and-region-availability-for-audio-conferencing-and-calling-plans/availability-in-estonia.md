@@ -1,9 +1,9 @@
 ---
 title: 在爱沙尼亚的可用性
-ms.author: crowe
-author: CarolynRowe
+ms.author: czawideh
+author: cazawideh
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: ''
 ms.topic: reference
 ms.assetid: 2c244640-e20a-44fa-a153-515ace1f015b
 ms.tgt.pltfrm: cloud
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于爱沙尼亚Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: d1e6b2caa54b2782e30b7e2d845469ce8eb0eb62
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 29f36d9dd98a6a65216029d81d82d1b124b348ea
+ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634996"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59942537"
 ---
 # <a name="availability-in-estonia"></a>在爱沙尼亚的可用性
 
@@ -59,11 +59,10 @@ ms.locfileid: "58634996"
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|是否可购买通话套餐？  <br/> |否  <br/> |
-|通话套餐的可用分钟数  <br/> |不适用  <br/> |
-|是否可以拨打呼出电话？  <br/> |不适用  <br/> |
-
-如果通话套餐不可购买，不妨使用[电话系统直接路由](../direct-routing-landing-page.md)。 使用直接路由，可以结合使用电话系统与几乎任何电话运营商。
+|是否可购买通话套餐？  <br/> |是  <br/> |
+|通话套餐可用的分钟数。 |每个日历月有四个可用的计划选项： <ul><li>120 分钟国内呼叫计划 </li><li>240 分钟国内呼叫计划</li></li><li>1200 分钟国内呼叫计划 </li></li><li>国内和国际呼叫计划：国内 1200 分钟 -或 600 分钟国际呼叫 (以日历月份中首次达到者为准) </li></li></ul>|
+|能否对高级号码进行出站呼叫？  <br/> | 目前不支持。 <br/> |
+|是否可以拨打呼出电话？  <br/> | 到 196 个国家和地区， [包括这些](users-can-make-outbound-calls-to-these-countries-and-regions.md)。<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服务的收费和免费电话号码
 

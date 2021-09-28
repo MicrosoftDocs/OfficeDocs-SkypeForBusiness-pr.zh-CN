@@ -1,9 +1,8 @@
 ---
 title: 管理呼叫计划的电话号码
-author: CarolynRowe
-ms.author: crowe
+author: cazawideh
+ms.author: czawideh
 manager: serdars
-ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: conceptual
 ms.assetid: 6b61cb3c-361c-48a8-a9ef-d81bddde27bb
 ms.tgt.pltfrm: cloud
@@ -27,21 +26,21 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: 了解如何为组织获取和管理 (订阅) 服务 (收费) 免费Microsoft Teams电话号码。
-ms.openlocfilehash: cc36fbd39ea470aa9e4175a13af574134d7ec42a
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: 05228657489d2e76dee1b08f630b056606c5a83a
+ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432524"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59942335"
 ---
 # <a name="manage-phone-numbers-for-calling-plan"></a>管理呼叫计划的电话号码
 
 有四种方法可让用户 (付费) 套餐 (和免费) 电话号码：
 
-- [在管理中心获取Microsoft Teams电话号码](../getting-phone-numbers-for-your-users.md#get-new-phone-numbers-for-your-users)。
+- [在管理中心 获取Microsoft Teams电话号码](../getting-phone-numbers-for-your-users.md#get-new-phone-numbers-for-your-users)。
 - [在管理中心获取Microsoft Teams电话号码](../getting-service-phone-numbers.md#get-new-service-numbers)。
 - [通过我们转移或转出现有电话号码](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md#create-a-port-order-and-transfer-your-phone-numbers-to-teams)。
-- 对未在管理中心中列出的新电话号码使用Microsoft Teams表单。
+- 对于未在管理中心中列出的新电话号码，请使用Microsoft Teams表单。
 
 > [!IMPORTANT]
 > 在澳大利亚的新电话号码，请参阅[Telstra 语音服务](https://aka.ms/TelstraVoicePlan)。 有关日本的新电话号码，请参阅 [SoftBank Voice Services](https://aka.ms/SoftBankVoicePlan)。
@@ -56,8 +55,10 @@ ms.locfileid: "59432524"
 > - [Austria（奥地利）](phone-number-management-for-austria.md)
 > - [Belgium（比利时）](phone-number-management-for-belgium.md)
 > - [加拿大](phone-number-management-for-canada.md)
+> - [Croatia（克罗地亚）](phone-number-management-for-croatia.md)
 > - [捷克共和国](phone-number-management-for-czech-republic.md)
 > - [丹麦](phone-number-management-for-denmark.md)
+> - [爱沙尼亚](phone-number-management-for-estonia.md)
 > - [Finland（芬兰）](phone-number-management-for-finland.md)
 > - [France（法国）](phone-number-management-for-france.md)
 > - [Germany（德国）](phone-number-management-for-germany.md)
@@ -65,6 +66,8 @@ ms.locfileid: "59432524"
 > - [爱尔兰](phone-number-management-for-ireland.md)
 > - [意大利](phone-number-management-for-italy.md)
 > - [日本](phone-number-management-for-japan.md)
+> - [拉脱维亚](phone-number-management-for-latvia.md)
+> - [Lithuania（立陶宛）](phone-number-management-for-lithuania.md)
 > - [卢森堡](phone-number-management-for-luxembourg.md)
 > - [新西兰](phone-number-management-for-new-zealand.md)
 > - [挪威](phone-number-management-for-norway.md)
@@ -73,6 +76,7 @@ ms.locfileid: "59432524"
 > - [罗马尼亚](phone-number-management-for-romania.md)
 > - [新加坡](phone-number-management-for-singapore.md)
 > - [斯洛伐克](phone-number-management-for-slovakia.md)
+> - [斯洛文尼亚](phone-number-management-for-slovenia.md)
 > - [西班牙](phone-number-management-for-spain.md)
 > - [瑞典](phone-number-management-for-sweden.md)
 > - [Switzerland（瑞士）](phone-number-management-for-switzerland.md)
@@ -88,9 +92,9 @@ ms.locfileid: "59432524"
 
 ### <a name="request-forms-for-new-phone-numbers"></a>新电话号码的申请表
 
-每个国家/地区有不同的说明、不同类型的电话号码 (地理/非地理和服务 (收费/免费) ) ，以及用于获取电话号码以便可在 Microsoft Teams 中使用的规则/法规。
+每个国家/地区具有不同的说明、不同类型的电话号码 (地理/非地理和服务 (收费/免费) ) 以及用于获取电话号码以便可在 Microsoft Teams 中使用的规则/法规。
 
-有时 () 你将无法使用 Microsoft Teams 管理中心获取新用户 (订阅者) 或服务 (收费或免费) 电话号码，或者可能需要特定的电话号码 (虚请求) _或特定_ 区号。 
+有时 (根据你的国家/地区) 你将无法使用 Microsoft Teams 管理中心获取新用户 (订阅者) 或服务 (收费或免费) 电话号码，或者你可能需要特定的电话号码 (虚请求) _或特定_ 区号。 
 
 如果是这样，则需要下载正确的 PDF LOA 表单， (国家/地区以及电话号码类型) 并将其发回给我们。 我们的服务台会从该服务台继续处理你的请求。
 
