@@ -1,5 +1,5 @@
 ---
-title: 在 Android Microsoft Teams 会议室部署应用程序
+title: 在 Android Microsoft Teams 会议室部署应用
 ms.author: mitressl
 author: flinchbot
 manager: serdars
@@ -15,22 +15,22 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: 阅读本文，了解如何在 Android Microsoft Teams 会议室部署。
-ms.openlocfilehash: 472ccc8c71f05510101b9b0549b454d2f04e71f6
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 2f513bdd8d286c256de97e00373bf8e392080b33
+ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728661"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59984567"
 ---
-# <a name="deploy-microsoft-teams-rooms-on-android"></a>在 Android Microsoft Teams 会议室部署应用程序
+# <a name="deploy-microsoft-teams-rooms-on-android"></a>在 Android Microsoft Teams 会议室部署应用
 
 在 Android Microsoft Teams 会议室部署机器人可以分为以下阶段：
 
-- **网站就绪性** 确认会议室中的 (位置) 满足部署要求。
-- **服务就绪性** 创建资源帐户并将其分配给设备 ([请参阅使用](resource-account-ui.md)资源Microsoft 365 管理中心) 。 尽管建议使用专用聊天室许可证，但获得适当许可的最终用户帐户也可以登录到 android Teams 会议室帐户。
+- **网站就绪性** 确认部署位置 (会议室) 满足部署要求。
+- **服务就绪性** 创建资源帐户并将其分配给设备 ([请参阅使用](resource-account-ui.md)资源Microsoft 365 管理中心) 。 尽管建议使用专用聊天室许可证，但获得适当许可的最终用户帐户也可以登录到 Android Teams 会议室帐户。
 - **配置和部署** 设置Teams 会议室连接所需的外围设备 (请参阅制造商的文档，了解) 。
 
-若要Teams 会议室，需要是全局管理员、Teams管理员或Teams设备管理员。有关管理员角色详细信息，请参阅使用 Microsoft Teams[管理员角色管理Teams。](../using-admin-roles.md)
+若要管理Teams 会议室，需要是全局管理员、Teams服务管理员或Teams设备管理员。有关管理员角色详细信息，请参阅使用 Microsoft Teams[管理员角色管理Teams。](../using-admin-roles.md)
 
 ## <a name="site-readiness"></a>网站就绪
 
@@ -42,14 +42,14 @@ ms.locfileid: "58728661"
 - 专用资源帐户
 - 支持触摸的显示器
 - 以太网布线
-- 网络上为 (媒体) 服务质量 QoS Microsoft Teams
+- 为媒体 (网络上) QoS Microsoft Teams服务质量
 
 有关物理安装注意事项，请参阅制造商的文档，如果有，在安装和装载屏幕并运行布线之前，请利用音频视觉团队的经验。
 
 > [!TIP]
-> 请务必[查看准备网络](../prepare-network.md)Teams，以规划带宽并评估网络是否适合实时流量。
+> 请务必查看为网络准备[Teams，](../prepare-network.md)以规划带宽并评估网络是否适合实时流量。
 >
-> 我们不建议在设备与Teams之间放置代理服务器。 有关代理服务器和客户端Teams，请查看[适用于 Teams](../proxy-servers-for-skype-for-business-online.md)的代理服务器。
+> 不建议在设备和 Internet Teams代理服务器。 有关代理服务器和客户端Teams，请查看[适用于 Teams](../proxy-servers-for-skype-for-business-online.md)的代理服务器。
 
 |    |     |
 |-----------|------------|
@@ -58,13 +58,13 @@ ms.locfileid: "58728661"
 
 ## <a name="service-readiness"></a>服务就绪
 
-在部署Teams 会议室，需要确定它们是使用Microsoft 365帐户、最终用户帐户还是两者混合使用。 Microsoft 365资源帐户是Teams资源（如会议室、投影仪等）的邮箱帐户和专用帐户。 这些资源帐户可以使用创建会议邀请时定义的规则自动响应会议邀请。 除非Teams 会议室专用于特定个人供其专用，否则建议Microsoft 365资源帐户。
+在部署Teams 会议室，需要确定它们是使用资源Microsoft 365还是两者混合使用。 Microsoft 365资源帐户是Teams资源（如会议室、投影仪等）的邮箱帐户和专用帐户。 这些资源帐户可以使用创建会议邀请时定义的规则自动响应会议邀请。 除非Teams 会议室专用于特定个人供其专用，否则建议Microsoft 365资源帐户。
 
 ### <a name="using-a-resource-account"></a>使用资源帐户
 
-如果决定设置资源Microsoft 365帐户，则需要为它购买会议室许可证。 该会议室许可证包含一个资源邮箱，使您的组织中的人员可以通过 Outlook 或 Teams。 该许可证还支持视频和音频会议以及会议参与者之间的屏幕共享。
+如果决定设置资源Microsoft 365帐户，则需要购买一个会议室许可证。 "会议室许可证"包括一个资源邮箱，使您的组织中的人员可以通过会议室或Outlook Teams。 该许可证还支持视频和音频会议以及会议参与者之间的屏幕共享。
 
-如果需要接收或呼叫外部电话号码，可能需要呼叫计划或Microsoft 365 商务语音[许可证](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md?tabs=small-business)。 如果组织中已启用直接路由，则只需会议室 SKU。
+如果需要接收或拨打外部电话号码，可能需要使用呼叫计划或Microsoft 365 商务语音[附加许可证](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md?tabs=small-business)。 如果在组织中启用了直接路由，则只需会议室 SKU。
 
 创建资源帐户时，可以选择是否允许帐户自动接受或拒绝会议请求、允许定期会议、指定用户可以提前预订资源多远，等等。
 
@@ -89,12 +89,12 @@ ms.locfileid: "58728661"
 
 ### <a name="account-provisioning"></a>帐户设置
 
-如果计划使用 Microsoft 365 资源帐户来允许用户预订协作栏，请按照使用[Microsoft 365 管理中心](resource-account-ui.md)创建资源帐户中的说明为每个需要协作栏的 Microsoft 365 资源帐户。 这也是需要向资源帐户添加 会议室 许可证的地方，如果要拨打或接听外部电话号码的呼叫，请添加呼叫计划或商务语音许可证（如果组织没有使用直接路由）。
+如果计划使用 Microsoft 365 资源帐户来允许用户预订协作栏[，请按照](resource-account-ui.md)使用 Microsoft 365 管理中心 创建资源帐户中的说明为需要协作栏的每个协作栏创建 Microsoft 365 资源帐户。 这也是需要向资源帐户添加 会议室 许可证的地方，如果要拨打或接听来自外部电话号码的呼叫，请添加呼叫计划或商务语音许可证（如果你的组织未使用直接路由）。
 
 如果要将帐户Teams 会议室供个人用户使用，则不需要设置任何其他帐户。 用户可以使用个人帐户登录到协作栏。
 
 > [!TIP]
-> 使资源帐户的显示名称Microsoft 365描述性且易于理解。 这些名称是用户在搜索会议内容以及向会议添加Teams 会议室的名称。 可以使用网站会议室名称 (最大会议室容量) 等约定，例如，伦敦 4 人会议室的 Curie 可能拥有 - 显示名称 LON-CURIE (4) 。 
+> 使资源帐户的显示Microsoft 365描述性且易于理解。 这些名称是用户在搜索会议内容以及向会议添加Teams 会议室的名称。 可以使用网站会议室名称 (最大会议室容量) 等约定，例如，伦敦 4 人会议室的 Curie 可能拥有 - 显示名称 LON-CURIE (4) 。 
 
 |    |     |
 |-----------|------------|
@@ -112,9 +112,9 @@ ms.locfileid: "58728661"
 
 ### <a name="testing"></a>测试
 
-在部署Teams 会议室，应测试它们。 登录到 Teams 会议室检查预期功能是否正常工作。 强烈建议验证它们是否显示在管理中心的"设备"选项卡下的"协作Microsoft Teams部分。  还必须进行大量测试呼叫和会议，以检查质量和性能。
+在部署Teams 会议室，应测试它们。 登录到 Teams 会议室检查预期功能是否正常工作。 强烈建议验证它们是否显示在管理中心的"Teams **设备**"选项卡下的"协作Microsoft Teams部分。 还必须进行大量测试呼叫和会议，以检查质量和性能。
 
-我们建议，作为常规 Microsoft Teams的一部分，请为呼叫质量仪表板 (CQD) 配置生成文件，监视质量趋势，并参与体验质量评审过程。 有关详细信息，请参阅 [体验质量评审指南](../quality-of-experience-review-guide.md)。
+我们建议，作为常规 Microsoft Teams 的一部分，请为呼叫质量仪表板 (CQD) 配置生成文件，监视质量趋势，并参与体验质量评审过程。 有关详细信息，请参阅 [体验质量评审指南](../quality-of-experience-review-guide.md)。
 
 ### <a name="asset-management"></a>资产管理
 
@@ -122,6 +122,6 @@ ms.locfileid: "58728661"
 
 ## <a name="related-topics"></a>相关主题
 
-[使用 Microsoft Teams 会议室 管理中心Microsoft Teams帐户](resource-account-ui.md)
+[使用管理Microsoft Teams 会议室配置Microsoft Teams帐户](resource-account-ui.md)
 
 <!-- [Configure accounts for collaboration bars for Microsoft Teams using PowerShell](resource-account-ps.md) -->

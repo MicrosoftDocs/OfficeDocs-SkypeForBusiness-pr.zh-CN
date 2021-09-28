@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.audioandvideo
 - seo-marvel-apr2020
 description: 了解如何在音频和视频Teams管理会议策略设置。
-ms.openlocfilehash: 7dcd3f73d29dcbe635793d4a67db602b8e4c8a1c
-ms.sourcegitcommit: 5f19df90443810e027085f8b38d22218e4123a16
+ms.openlocfilehash: 27153896065d3358927755d3cd1b303c2b1141a0
+ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59482386"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59984617"
 ---
 # <a name="meeting-policy-settings-for-audio--video"></a>音频和视频的会议&设置
 
@@ -49,7 +49,7 @@ ms.locfileid: "59482386"
 |**已启用传出和传入音频**    |会议允许传出和传入音频。这是默认设置。 |
 |**禁用**     |传出和传入音频在会议中已关闭。     |
 
-如果用户设置为 **"已** 禁用"，该用户仍可以安排和组织会议，但他们不能使用音频。 要加入会议，他们必须通过 PSTN 公用电话交换网 (电话) 或通过电话拨入会议呼叫并加入会议。 没有指定任何策略的会议参与者 (例如，匿名参与者) 将此设置为默认 **启用传出和传入音频**。 在 Teams 移动客户端上，如果禁用此设置，用户必须通过 PSTN 拨入会议。
+如果用户设置为 **"已** 禁用"，该用户仍可以安排和组织会议，但他们不能使用音频。 若要加入会议，他们必须通过 PSTN 公用电话交换网 (PSTN) 或通过电话拨入会议呼叫并加入。 没有指定任何策略的会议参与者 (例如，匿名参与者) 将此设置为默认 **启用传出和传入音频**。 在 Teams 移动客户端上，如果禁用此设置，用户必须通过 PSTN 拨入会议。
 
 此设置不适用于 1:1 呼叫。 若要限制 1:1 通话，请配置 Teams [通话策略](teams-calling-policy.md) 并关闭 **“进行私人通话”** 设置。 此设置也不适用于 Surface Hub 和 Microsoft Teams 会议室设备等会议室设备。
 
@@ -169,7 +169,7 @@ ms.locfileid: "59482386"
 
 1. 登录到 Teams 管理中心。
 
-2. 选择 **"会议策略**  >  **自定义会议图像"。**
+2. 选择 **"会议**  >  **会议策略**  >  **""自定义会议图像"。**
 
    ![会议策略选择，突出显示"自定义会议图像"按钮。](media/custom-background-image-button.png)
 

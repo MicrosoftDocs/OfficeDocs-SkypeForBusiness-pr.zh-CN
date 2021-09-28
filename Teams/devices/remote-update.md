@@ -12,17 +12,17 @@ ms.collection:
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-description: 使用 Microsoft Teams 管理中心Teams远程更新手机、Teams面板和协作栏
-ms.openlocfilehash: c35fc24be2456c4ee1583e7a073a7c4dcf8e7214
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: 使用 Microsoft Teams 管理Teams远程更新手机、Teams面板和 Teams协作栏
+ms.openlocfilehash: 68abf87a0e7e84f3fe5b9e6d7e4f57db55c63450
+ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727461"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59984727"
 ---
 # <a name="update-microsoft-teams-devices-remotely"></a>远程Microsoft Teams更新设备
 
-使用 Microsoft Teams 管理中心，可以远程更新 Teams 设备，例如 Teams 电话、Teams 面板和协作栏，还可以选择设备固件自动更新行为。 可以使用管理中心在设备上Teams以下内容：
+使用 Microsoft Teams 管理中心，可以远程更新 Teams 设备，例如 Teams 电话、Teams 面板和协作栏，还可以选择设备固件自动更新行为。 可以使用管理中心在设备上更新Teams：
 
 - Teams应用和 Teams 管理员代理
 - 公司门户应用
@@ -32,13 +32,13 @@ ms.locfileid: "58727461"
 可以自动应用设备固件更新，也可以计划在将来的日期和时间进行更新。 其他可用的设备更新不会自动应用，但可以手动应用或计划在将来的日期和时间。
 
 > [!NOTE]
-> 虽然可以计划设备固件更新，但如果计划的日期和时间低于配置的最长 30 天或 90 天延迟，则当达到最大延迟时，将应用固件更新。 将忽略计划的日期和时间。 此外，Microsoft Teams远程更新设备是美国政府云租户 (GCC一项) 。
+> 虽然可以计划设备固件更新，但如果计划的日期和时间低于配置的最长 30 天或 90 天延迟，则当达到最大延迟时，将应用固件更新。 将忽略计划的日期和时间。 此外，Microsoft Teams远程更新设备是美国政府云租户 (GCC高) 。
 
 若要管理设备，需要是全局管理员、Teams管理员或Teams管理员。有关管理员角色详细信息，请参阅使用 Microsoft Teams[管理员角色管理Teams。](../using-admin-roles.md)
 
 ## <a name="choose-automatic-device-firmware-update-behavior"></a>选择自动设备固件更新行为
 
-将自动应用设备固件更新。 可以决定是否在发布更新后应用更新 (如果选择此选项，更新将在更新发布后的第一个周末（) 日或更新发布后的 30 或 90 天）应用。 默认情况下，设备固件更新在发布后 30 天内应用。
+将自动应用设备固件更新。 如果选择此选项，您可以决定是否在 (发布更新后应用更新，更新将在更新发布后的第一个周末应用) 或更新发布后的 30 或 90 天。 默认情况下，设备固件更新在发布后 30 天内应用。
 
 > [!IMPORTANT]
 > 最新的固件更新版本不会应用到Teams设备上。 相反，在设备上自动应用的更新会延迟一个版本。 例如，假设设备应用了版本"10"，并且发布了版本"11"。 版本"11"尚未应用。 而是仅在发布版本"12"后将设备更新到版本"11"。
@@ -49,7 +49,7 @@ ms.locfileid: "58727461"
 若要选择设备的自动更新行为，请执行下列操作：
 
 1. 通过访问 Microsoft Teams登录到管理中心 https://admin.teams.microsoft.com 。
-2. 在 **设备**  >  **IP 电话或****协作栏或** Teams **导航**。
+2. 导航 **Teams**  >  **设备 IP 电话**、**协作栏** 或 **Teams面板。**
 3. 选择一个或多个设备，然后选择"更新 **"。**
 4. 在 **"固件自动更新"** 下，选择下列选项之一：
     - **一旦可用** 最新设备固件更新在最新更新发布后的第一个周末应用。
@@ -66,7 +66,7 @@ ms.locfileid: "58727461"
 若要手动更新远程设备，请执行下列操作：
 
 1. 通过访问 Microsoft Teams登录到管理中心 https://admin.teams.microsoft.com 。
-2. 导航 **设备**  >  **IP 电话** 或 **协作栏或****Teams面板**。
+2. 导航 **Teams**  >  **设备 IP 电话**、**协作栏** 或 **Teams面板。**
 3. 选择一个或多个设备，然后选择"更新 **"。**
 4. 在 **"手动更新**" **下** ，如果要将更新计划为将来的日期和时间，请选择"计划"。 更新在时区 中选定的时区中的 **日期和时间应用**。
 

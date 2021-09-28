@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0c85019878305764477d6d5902e49d8b69376e0
-ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
+ms.openlocfilehash: cc74480316bca0c958d5badc7168ce6d1651e581
+ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "59456302"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59984717"
 ---
 # <a name="teams-approvals-app-availability"></a>Teams“审批”应用可用性
 
@@ -41,7 +41,7 @@ ms.locfileid: "59456302"
 本文介绍了“审批”应用要求和角色。
 
 > [!NOTE]
-> 此功能尚未向 政府社区云 (GCC) 、政府社区云 高 (GCCH) 和国防部 (DOD) 发布。
+> 此功能尚未向 政府社区云 (GCC) 、政府社区云 High (GCCH) 和国防部 (DOD) 发布。
 
 ## <a name="required-permissions-and-licenses"></a>所需权限和许可证
 
@@ -57,7 +57,7 @@ ms.locfileid: "59456302"
 
 - 用户需要 Microsoft Forms 许可证才能设置新的审批模板。
 
-若要使用"审批"应用，需要一个Power Automate许可证，你的帐户将在第一次审批分配时自动添加到目标环境中"审批用户"角色。
+若要使用"审批"应用，需要一个许可证Power Automate，你的帐户将在第一次审批分配时自动添加到目标环境中"审批用户"角色。
 
 ## <a name="storage-with-cds"></a>通过 CDS 进行存储
 
@@ -102,7 +102,7 @@ Common Data Model (CDM) 是业务和分析应用程序在 CDS 中使用的共享
 - 当管理员首次为整个组织创建模板时，它会自动为租户的所有管理员（包括全局管理员和团队服务管理员）创建新的 Teams 团队。 这些管理员将被添加为团队的所有者，以便他们可以共同管理组织模板。 创建团队后，组织中新增的管理员需要手动添加为团队所有者，以便他们具有相同的权限来管理组织范围的模板。
 
 > [!Note]
-> 如果管理员删除了团队，则你有一个月时间在 AAD 门户Azure Active Directory (还原) 还原所有相关的数据。 一个月后，或者如果管理员在回收站中删除此团队，您将丢失所有相关的数据。
+> 如果管理员删除了团队，则你有一个月在 AAD 门户Azure Active Directory (还原) 还原所有相关的数据。 一个月后，或者如果管理员在回收站中删除此团队，您将丢失所有相关的数据。
 
 ## <a name="disable-the-approvals-app"></a>禁用“审批”应用
 
@@ -114,13 +114,13 @@ Common Data Model (CDM) 是业务和分析应用程序在 CDS 中使用的共享
 
   3. 搜索“审批”应用。
 
-     ![显示管理中心导航，突出显示Teams应用>"管理应用"。](media/manage-approval-apps.png)
+     ![显示管理中心导航，Teams应用>"管理应用"。](media/manage-approval-apps.png)
 
   4. 选择“审批”。
 
   5. 选择切换开关以为你的组织禁用该应用。
 
-     ![显示"审批"应用的详细信息。](media/approvals-details.png)
+     ![显示"审批"应用的详细信息。](media/approvals-details-new.png)
 
 ## <a name="retention-policy"></a>保留策略
 
@@ -203,9 +203,9 @@ Common Data Model (CDM) 是业务和分析应用程序在 CDS 中使用的共享
 
 - 你选择使用的特定电子签名提供商的许可证。 若要获取组织的许可证，您需要转到提供商的网站。
 
-对于"审批电子签名"功能，默认情况下，第三方签名合作伙伴Teams审批"应用中。 可以通过访问管理中心中的应用设置来禁用Teams签名提供程序。
+对于"审批电子签名"功能，第三方签名合作伙伴默认显示在"Teams审批"应用中。 可以通过访问管理中心中的应用设置来禁用Teams签名提供程序。
 
-1. 在Teams管理中心的"**管理应用"下**，选择"审批 **"** 应用并选择 **"设置"。**
+1. 在Teams管理中心的"**管理应用"下**，选择"审批 **"** 应用，然后选择 **"设置"。**
 
 2. 默认情况下，每个电子签名提供商旁边都有一个开关，该开关位于 (右侧) 位置。 向左滑动切换开关以禁用特定的电子签名提供程序。 如果Teams管理员禁用了提供商，则最终用户在创建审批时不会看到提供商。 最终用户也无法查看通过该提供商提出的任何电子签名请求。
 

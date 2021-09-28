@@ -17,13 +17,13 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 了解如何在 Android 设备上远程预配Teams登录
-ms.openlocfilehash: 668e50eab20d96f28ff7a6be49a0ddcac872b393
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: 了解如何对 Android 设备进行远程预配Teams登录
+ms.openlocfilehash: 20eae8534d06c6f9431b9e9fcb1458812e34cacd
+ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733311"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59984737"
 ---
 # <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Android 设备的远程预配Teams登录
 
@@ -44,24 +44,24 @@ IT 管理员可以远程预配并登录到 Teams Android 设备。 若要远程�
 |Teams手机|  CCX400/CCX500/CCX600    |7.0.2.1072|
 |Teams手机|  音频代码 C448HD/C450HD/C470HD|   1.10.120|
 |Teams面板|  Crestron 770/1070|  1.004.0115|
-|Teams 会议室 Android 上的应用|Logitech Rally Bar Mini|1.2.982|
-|Teams 会议室 Android 上的应用|Logitech Rally Bar|1.2.982|
-|Teams 会议室 Android 上的应用|AudioCodes RXV80|1.13.361|
-|Teams 会议室 Android 上的应用|EPOS EXPAND Vision 3T|1.2.2.21182.10|
-|Teams 会议室 Android 上的应用|Yealink MeetingBar A30|133.15.0.60|
-|Teams 会议室 Android 上的应用|Yealink MeetingBar A20|133.15.0.60|
-|Teams 会议室 Android 上的应用|Yealink CTP18 触摸控制台|137.15.0.37|
-|Teams 会议室 Android 上的应用|Poly Studio X30|3.5.0.344025|
-|Teams 会议室 Android 上的应用|Poly Studio X50|3.5.0.344025|
-|Teams 会议室 Android 上的应用|Poly TC8 触摸控制台 |3.5.0.210489|
-|Teams 会议室 Android 上的应用|Yealink VC210|118.15.0.54|
+|Teams 会议室 Android 上的|Logitech Rally Bar Mini|1.2.982|
+|Teams 会议室 Android 上的|Logitech Rally Bar|1.2.982|
+|Teams 会议室 Android 上的|AudioCodes RXV80|1.13.361|
+|Teams 会议室 Android 上的|EPOS EXPAND Vision 3T|1.2.2.21182.10|
+|Teams 会议室 Android 上的|Yealink MeetingBar A30|133.15.0.60|
+|Teams 会议室 Android 上的|Yealink MeetingBar A20|133.15.0.60|
+|Teams 会议室 Android 上的|Yealink CTP18 触摸控制台|137.15.0.37|
+|Teams 会议室 Android 上的|Poly Studio X30|3.5.0.344025|
+|Teams 会议室 Android 上的|Poly Studio X50|3.5.0.344025|
+|Teams 会议室 Android 上的|Poly TC8 触摸控制台 |3.5.0.210489|
+|Teams 会议室 Android 上的|Yealink VC210|118.15.0.54|
 
 ## <a name="add-a-device-mac-address"></a>添加设备 MAC 地址
 
 完成以下步骤以预配新设备。
 
 1. 登录到 Teams 管理中心。
-2. 展开 **"设备"。**
+2. 展开 **Teams设备"。**
 3. 从 **"操作"选项卡中选择** "预配 **新设备** "。
 
 在 **"预配新设备** "窗口中，可以手动添加 MAC 地址或上传文件。
@@ -96,7 +96,7 @@ IT 管理员可以远程预配并登录到 Teams Android 设备。 若要远程�
 
 当设备接通电源并连接到网络时，技术人员将设置设备。 这些步骤在设备上Teams完成。
 
-1. 技术人员从"设备 **"中选择**"预配 **设置"。**  
+1. 技术人员从"设备 **"列表中选择**"预配 **设置"。**  
 
    !["操作"选项卡中的"预配新设备"选项。](../media/provision-device1.png)
   
@@ -123,4 +123,4 @@ IT 管理员可以远程预配并登录到 Teams Android 设备。 若要远程�
 ## <a name="related-article"></a>相关文章
 
 - [在 Teams 中管理设备](device-management.md)
-- [远程Teams设备](remote-update.md)
+- [远程Teams更新设备](remote-update.md)
