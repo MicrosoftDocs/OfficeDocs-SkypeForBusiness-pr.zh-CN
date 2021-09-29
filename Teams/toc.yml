@@ -1548,7 +1548,7 @@ items:
       - name: 适用于零售业的 Teams
         href: expand-teams-across-your-org/teams-for-retail-landing-page.md
         items:
-          - name: 零售版团队模板入门
+          - name: 使用零售团队模板
             href: get-started-with-retail-teams-templates.md
       - name: Teams 政府版
         href: expand-teams-across-your-org/teams-for-government-landing-page.md
