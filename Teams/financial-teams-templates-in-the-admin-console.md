@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9273f8519fd7aeea90ff35f49ca0d6986afa2d59
-ms.sourcegitcommit: 6a65e318d49d8990f2b3409ff7bb2c61ea1f2525
+ms.openlocfilehash: 19c6676bb742deacf97afae54f29b369d551b9ae
+ms.sourcegitcommit: 5eb5acd7910724f7f4a598ecc28b003e5bbe5ea5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/29/2021
-ms.locfileid: "59991101"
+ms.locfileid: "60007762"
 ---
 # <a name="use-financial-team-templates"></a>使用财务团队模板
 
@@ -38,7 +38,7 @@ Teams 包括专为金融服务组织设计的模板。 使用这些预建模板�
 
 |如果是： | 然后，可以： |
 | ---- | --------- |
-| 管理人员或 IT 专业人员 |[管理 Teams 管理中心的团队模板](#manage-team-templates-in-the-teams-admin-center)。 查看团队模板，并应用模板策略，确定员工可以在 Teams 中使用哪些模板来创建团队。 |
+| 管理人员或 IT 专业人员 |[管理中心的 Teams 模板](#manage-team-templates-in-the-teams-admin-center)。 查看团队模板，并应用模板策略，确定员工可以在 Teams 中使用哪些模板来创建团队。 |
 | 开发人员 | [使用 Microsoft Graph ](#use-team-templates-with-microsoft-graph) 从团队模板中创建团队。 |
 
 ## <a name="manage-team-templates-in-the-teams-admin-center"></a>Teams 管理中心的管理团队模板
@@ -72,4 +72,4 @@ Teams 包括专为金融服务组织设计的模板。 使用这些预建模板�
 ||||
 
 > [!NOTE]
-> 有关适用于金融服务组织的其他模板，请参阅[ Microsoft Graph中为中小型企业构建的团队模板](smb-templates.md)。
+> 有关适用于金融服务组织的其他模板，请参阅[在 Microsoft Graph 中为中小型企业构建团队模板](smb-templates.md)。

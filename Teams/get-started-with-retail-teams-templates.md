@@ -19,16 +19,16 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 073d9ee391b42a476b0657dbf910f8d019699358
-ms.sourcegitcommit: 6a65e318d49d8990f2b3409ff7bb2c61ea1f2525
+ms.openlocfilehash: 2c2bda6467bf819bdf9cf82713c24e8e9cd18d9d
+ms.sourcegitcommit: 5eb5acd7910724f7f4a598ecc28b003e5bbe5ea5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/29/2021
-ms.locfileid: "59991201"
+ms.locfileid: "60007792"
 ---
 # <a name="use-retail-team-templates"></a>使用零售团队模板
 
-通过提供预定义设置、频道和预安装的应用模板，Microsoft Teams 模板让你能够快速轻松地创建团队。
+通过提供预定义的设置、频道和预安装的应用模板，Microsoft Treams 模板让你能够快速轻松地创建团队。
 
 对于零售商，团队模板可能特别强大，因为它们可帮助你在整个组织中快速部署一致的团队。 模板还可帮助员工了解如何有效地使用Teams。
 
@@ -74,7 +74,7 @@ Teams 包括专为零售商需求设计的模板。 使用这些预建模板快�
 
 开发人员可以使用 Microsoft Graph 从预先构建的团队模板中创建团队。 若要详细了解如何将团队模板与Microsoft Graph 配合使用，请参阅[使用 Microsoft Graph 团队模板入门](get-started-with-teams-templates.md)， [ Microsoft Teams API 概述](/graph/teams-concept-overview?view=graph-rest-1.0)，[teamsTemplate 资源类型](/graph/api/resources/teamstemplate?view=graph-rest-1.0)。
 
-下面是预建的零售团队模板。
+下面是预建的医疗保健团队模板。
 
 ### <a name="store"></a>应用商店
 
