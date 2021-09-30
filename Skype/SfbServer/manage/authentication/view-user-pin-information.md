@@ -12,19 +12,19 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 59e38117-8112-4851-82ac-a746ffa0f89d
-description: 摘要：查看用户SKYPE FOR BUSINESS SERVER。
-ms.openlocfilehash: eb30ae22f5a80835e73962f0e2441633fdc1d46e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 摘要：在用户视图中查看用户 PIN Skype for Business Server。
+ms.openlocfilehash: a77dbc71a186ff20b0136b3391f5ce33dcda1134
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622374"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014186"
 ---
 # <a name="view-user-pin-information-in-skype-for-business-server"></a>在用户视图中查看用户 PIN Skype for Business Server
  
 **摘要：** 在用户视图中查看Skype for Business Server。
   
-要以经过身份验证的用户身份加入电话拨入式会议，具有 Active Directory 域服务 (AD DS) 凭据的 Skype for Business Server 用户需要个人标识号 (PIN) 。 You can view a user's PIN information from Skype for Business Server Control Panel.
+若要以经过身份验证的用户身份加入电话拨入式会议，具有 Active Directory 域服务 (AD DS) 凭据的 Skype for Business Server 用户需要个人标识号 (PIN) 。 You can view a user's PIN information from Skype for Business Server Control Panel.
   
 > [!NOTE]
 > 您可以查看 PIN 状态信息（如是否已设置 PIN 或上次更改 PIN 的时间），但无法通过查看 PIN 状态来查看当前 PIN。 如果用户丢失了 PIN，可以按照"设置用户的电话拨入式会议[PIN"](set-a-user-s-dial-in-conferencing-pin.md)中的过程重置Skype for Business Server
@@ -65,7 +65,7 @@ ms.locfileid: "58622374"
     
 ## <a name="viewing-user-pin-information-by-using-windows-powershell-cmdlets"></a>使用 cmdlet 查看Windows PowerShell PIN 信息
 
-您可以使用 Get-CsClientPinInfo cmdlet 查看用户 PIN 信息。 可以从命令行管理程序或 Skype for Business Server远程会话中运行此 cmdlet Windows PowerShell。 有关使用远程 Windows PowerShell连接到 Skype for Business Server 的详细信息，请参阅博客文章"快速入门：使用远程[PowerShell 管理 Microsoft Lync Server 2010"。](https://go.microsoft.com/fwlink/p/?linkId=255876) 此过程在 Skype for Business Server 中Skype for Business Server。
+您可以使用 Get-CsClientPinInfo cmdlet 查看用户 PIN 信息。 可以从命令行管理程序或 Skype for Business Server远程会话运行此 cmdlet Windows PowerShell。 有关使用远程 powerShell Windows PowerShell连接到Skype for Business Server的详细信息，请参阅 Microsoft Lync [Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 此过程在Skype for Business Server。
   
 ### <a name="to-view-user-pin-information"></a>查看用户 PIN 信息
 

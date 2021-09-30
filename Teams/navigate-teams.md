@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 search.appverid: ''
 ms.collection: ''
 ms.custom: ''
-ms.openlocfilehash: 9b8b3c057ae5748f135d9085a5a3caf8b26e7f72
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b5e9c92d977cc7ca5d61a4cf35fd00288e6151a5
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617218"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014816"
 ---
 # <a name="navigate-microsoft-teams"></a>导航Microsoft Teams
 
@@ -26,23 +26,23 @@ ms.locfileid: "58617218"
 
 ## <a name="getting-started"></a>入门
 
-使用入门指南，从Kaizala Teams入门比以往任何时候都更容易。 若要详细了解如何开始Microsoft Teams旅程，请参阅[Teams](https://support.microsoft.com/office/start-and-pin-chats-a864b052-5e4b-4ccf-b046-2e26f40e21b5?wt.mc_id=otc_microsoft_teams&ui=en-us&rs=en-us&ad=us)入门。
+通过入门指南，从Kaizala Teams入门比以往任何时候都更容易。 若要详细了解如何开始Microsoft Teams旅程，请参阅[Teams](https://support.microsoft.com/office/start-and-pin-chats-a864b052-5e4b-4ccf-b046-2e26f40e21b5?wt.mc_id=otc_microsoft_teams&ui=en-us&rs=en-us&ad=us)入门。
 
 ## <a name="starting-new-chats-11-audio-and-video-calls"></a>开始新聊天，1：1 音频和视频通话
 
-创建 1：1 或群组聊天，以与较小的群组协作或在群组内进行私人Teams。 你可以固定聊天并保存消息以便快速访问。 若要开始使用格式文本格式、表情符号和 gif 聊天，请参阅在[Teams。](https://support.microsoft.com/office/start-and-pin-chats-a864b052-5e4b-4ccf-b046-2e26f40e21b5?wt.mc_id=otc_microsoft_teams&ui=en-us&rs=en-us&ad=us)
+创建 1：1 或群组聊天，以与较小的群组协作或在群组内进行Teams。 你可以固定聊天并保存消息以便快速访问。 若要开始使用格式文本格式、表情符号和 gif 进行聊天，请参阅在[Teams。](https://support.microsoft.com/office/start-and-pin-chats-a864b052-5e4b-4ccf-b046-2e26f40e21b5?wt.mc_id=otc_microsoft_teams&ui=en-us&rs=en-us&ad=us)
 
 通过开始 1：1 或群组通话与组织中任何人进行高效沟通。 使用Teams，你可以灵活地进行音频和视频呼叫。  若要开始，请参阅 [进行调用](https://www.microsoft.com/videoplayer/embed/RE4rxv0?pid=ocpVideo0-innerdiv-oneplayer&postJsllMsg=true&maskLevel=20&market=en-us)。
 
 ## <a name="getting-work-done"></a>完成工作
 
-操作卡Kaizala目前存在于Microsoft Teams。 就完成工作来说，正确的工具可以提高效率。 现在有 300 多个外部应用程序在 Microsoft Teams。 请继续阅读，了解如何使用应用和模板创建会议邀请、[](https://support.microsoft.com/office/meetings-in-teams-e0b0ae21-53ee-4462-a50d-ca9b9e217b67)公告和精确位置签入，以在整个组织中保持连接。
+操作卡Kaizala当前存在于Microsoft Teams。 就完成工作来说，正确的工具可以提高效率。 现在有 300 多个外部应用程序可用于 Microsoft Teams。 请继续阅读，了解如何使用应用和模板创建会议邀请、[](https://support.microsoft.com/office/meetings-in-teams-e0b0ae21-53ee-4462-a50d-ca9b9e217b67)公告和精确位置签入，以在整个组织中保持连接。
 
 ### <a name="announcements"></a>公告
 
 可以在 "通知"中与员工共享重要更新[Teams。](https://support.microsoft.com/office/send-an-announcement-to-a-channel-8f244ea6-235a-4dcc-9143-9c5b801b4992)
 
-通过与公司 [communicator](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates#company-communicator) 应用聊天，创建和发送面向多个团队或大量员工的消息。 它的简单界面允许指定用户以目标方式创建、预览、协作和发送消息。 使用直接与管理决策相关的见解生成自定义目标通信功能，例如自定义遥测，了解多少用户已确认或与消息进行交互。
+通过与公司 [communicator](/microsoftteams/platform/samples/app-templates#company-communicator) 应用聊天，创建和发送面向多个团队或大量员工的消息。 它的简单界面允许指定用户以目标方式创建、预览、协作和发送消息。 使用直接与管理决策相关的见解生成自定义目标通信功能，例如自定义遥测，了解多少用户已确认或与消息进行交互。
 
 ### <a name="check-ins"></a>签入
 
@@ -62,11 +62,11 @@ ms.locfileid: "58617218"
 
 管理员可以管理整个 Teams 工作负荷，或者他们具有用于解决呼叫质量问题或管理组织电话需求的委派权限。
 
-若要导航管理中心，请访问 Microsoft Teams[管理中心](https://admin.teams.microsoft.com/)。
+若要导航管理中心，请访问管理[Microsoft Teams中心 。](https://admin.teams.microsoft.com/)
 
-可以使用安全中心和安全中心监视Microsoft 365[的安全Microsoft 365](/microsoft-365/compliance/microsoft-365-compliance-center)[合规性](/microsoft-365/security/defender/overview-security-center)。
+可以使用安全中心和安全中心监视Microsoft 365的安全Microsoft 365[合规性](/microsoft-365/security/defender/overview-security-center)。 [](/microsoft-365/compliance/microsoft-365-compliance-center)
 
-保护业务，在 Azure Active Directory 管理中心[](https://aad.portal.azure.com/#@microsoft.onmicrosoft.com/dashboard/private/c7736064-7b28-4f3d-b366-2740a8d48020)内为用户提供权限，可在其中查看跨域的组、标识、许可证Microsoft 365。
+保护业务，在 Azure Active Directory 管理中心[](https://aad.portal.azure.com/#@microsoft.onmicrosoft.com/dashboard/private/c7736064-7b28-4f3d-b366-2740a8d48020)内为用户提供权限，可在其中查看组、标识、许可证和跨 Microsoft 365。
 
 ### <a name="end-users"></a>最终用户
 
@@ -78,7 +78,7 @@ ms.locfileid: "58617218"
 
 若要 [在团队](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions) 中启用扩展，请对需要连接器的任何 (...) 菜单中的"连接器"选项。
 
-若要查看使用情况、活动和总体采用情况报告，团队所有者可以通过导航菜单" (...) 访问团队报告，以便>分析。
+若要查看使用情况、活动和整体采用情况报告，团队所有者可以通过导航菜单" (...) 访问团队报告>分析。
 
 ## <a name="kaizala-group-dissolution"></a>Kaizala组成员
 
@@ -92,7 +92,7 @@ ms.locfileid: "58617218"
 
 ## <a name="kaizala-tenant-data-export"></a>Kaizala租户数据导出
 
-使用 Teams 时，仍可在 Kaizala 中保持对公司数据的Kaizala。 有关详细信息，请参阅 [从管理门户导出租户数据](/office365/kaizala/export-or-delete-your-data)。
+使用 Teams 时，仍可在 Kaizala 中控制企业Kaizala。 有关详细信息，请参阅 [从管理门户导出租户数据](/office365/kaizala/export-or-delete-your-data)。
 
 ## <a name="collaborating-with-external-usersvendorssupplierspartners"></a>与外部用户 (供应商/合作伙伴) 
 
@@ -110,7 +110,7 @@ ms.locfileid: "58617218"
 
 来宾是不是员工或组织成员的人。 他们在你的组织中没有工作帐户。 例如，来宾可以包括合作伙伴、供应商、提供商或顾问。
 
-任何不是组织成员的人[都可以作为来宾](/MicrosoftTeams/guest-access#how-a-guest-becomes-a-member-of-a-team)添加到 Teams。 这意味着拥有业务帐户 (即 Azure Active Directory 帐户) 或消费者电子邮件帐户 (（例如 outlook.com、gmail.com 等）的任何人都可以作为) 中的来宾参与 Teams，并有权访问团队和频道体验。
+任何不是组织成员的人都可以在 Teams 中添加为[来宾](/MicrosoftTeams/guest-access#how-a-guest-becomes-a-member-of-a-team)。 这意味着拥有业务帐户 (即 Azure Active Directory 帐户) 或使用者电子邮件帐户 (（例如 outlook.com、) gmail.com 等）的任何人都可以作为来宾参与 Teams，并有权访问团队和频道体验。
 
 >[!NOTE]
 > 来宾必须先由管理员在团队中启用来宾访问，来宾才能加入Teams。

@@ -13,24 +13,24 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f3f04d81-8a1f-427f-bd0f-fb659024e096
 description: 摘要：管理 Web 服务配置设置Skype for Business Server。
-ms.openlocfilehash: f007a93eb71fc015f71ddef51011008315de82e9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 875993a006cf175432984dc78fc37a34b45e92ee
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633606"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60015166"
 ---
 # <a name="manage-web-service-configuration-settings-in-skype-for-business-server"></a>管理 Web 服务配置设置Skype for Business Server
  
 **摘要：** 管理 Web 服务配置设置Skype for Business Server。
   
-您可以使用 **"Web 服务**"页来配置用于访问相关 Web 服务器Skype for Business Server Web 服务的身份验证方法。
+您可以使用 **"Web 服务**"页配置用于访问相关 Web 服务器Skype for Business Server Web 服务的身份验证方法。
   
 按照以下步骤创建新的 Web 服务策略。
   
 ### <a name="to-create-new-web-service-configuration-settings"></a>创建新的 Web 服务配置设置
 
-1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署了 Skype for Business Server 的网络内的任何计算机。
+1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 的用户帐户，或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署 Skype for Business Server 的网络内的任何计算机。
     
 2. 打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。  
     
@@ -56,13 +56,13 @@ ms.locfileid: "58633606"
     
 ## <a name="modify-existing-web-service-configuration-settings"></a>修改现有 Web 服务配置设置
 
-您可以使用 **"Web 服务**"页来配置用于访问相关 Web 服务器Skype for Business Server Web 服务的身份验证方法。
+您可以使用 **"Web 服务**"页配置用于访问相关 Web 服务器Skype for Business Server Web 服务的身份验证方法。
   
 按照以下步骤修改现有的 Web 服务策略。
   
 ### <a name="to-modify-existing-web-service-configuration-settings"></a>修改现有 Web 服务配置设置
 
-1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署了 Skype for Business Server 的网络内的任何计算机。
+1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 的用户帐户，或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署 Skype for Business Server 的网络内的任何计算机。
     
 2. 打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。  
     
@@ -88,7 +88,7 @@ ms.locfileid: "58633606"
   
 ### <a name="to-delete-web-service-configuration-settings"></a>删除 Web 服务配置设置
 
-1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署了 Skype for Business Server 的网络内的任何计算机。
+1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 的用户帐户，或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署 Skype for Business Server 的网络内的任何计算机。
     
 2. 打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。  
     
@@ -102,7 +102,7 @@ ms.locfileid: "58633606"
     
 ## <a name="deleting-web-service-configuration-settings-by-using-windows-powershell-cmdlets"></a>使用 Cmdlet 设置 Web 服务Windows PowerShell配置
 
-可以通过使用 Windows PowerShell **和 Remove-CsWebServiceConfiguration** cmdlet 删除 Web 服务配置设置。 还可从 Skype for Business Server Management Shell 或 Windows PowerShell 远程会话运行此 cmdlet。 有关使用远程 Windows PowerShell连接到 Skype for Business Server 的详细信息，请参阅博客文章"快速入门：使用远程 PowerShell 管理[Microsoft Lync Server 2010"。](https://go.microsoft.com/fwlink/p/?linkId=255876) 此过程在Skype for Business Server。
+可以使用 Windows PowerShell **和 Remove-CsWebServiceConfiguration** cmdlet 删除 Web 服务配置设置。 还可从 Skype for Business Server Management Shell 或 Windows PowerShell 远程会话运行此 cmdlet。 有关使用远程 powerShell Windows PowerShell连接到Skype for Business Server的详细信息，请参阅 Microsoft Lync [Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 此过程在Skype for Business Server。
   
 ### <a name="to-delete-a-specific-collection-of-web-service-configuration-settings"></a>删除特定的 Web 服务配置设置集合
 

@@ -14,20 +14,20 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 17f49365-8778-4962-a41b-f96faf6902f1
 description: 摘要：配置 SharePoint Server 以搜索由 Exchange Server 和 Skype for Business Server 存档的数据。
-ms.openlocfilehash: 8a27bb170f0e089d702417a32d93eee96c7c6299
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 081b32ad57d97a793867e56f85ad36d62424bacb
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604201"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013566"
 ---
 # <a name="configure-sharepoint-server-to-search-for-archived-skype-for-business-data"></a>配置 SharePoint Server 以搜索存档Skype for Business数据
  
 **摘要：** 配置 SharePoint Server 以搜索由 Exchange Server 2016 或 Exchange Server 2013 和 Skype for Business Server 存档Skype for Business Server。
   
-在 Exchange Server 而非 Skype for Business Server 中存储即时消息和 Web 会议脚本的主要好处之一是，在同一位置存储数据使管理员可以使用单个工具来搜索存档的 Exchange 数据和/或存档的 Skype for Business Server 数据。 由于所有数据存储在同一位置 (Exchange) 因此任何可搜索已存档数据Exchange也可以搜索已存档Skype for Business Server数据。
+在 Exchange Server 而不是 Skype for Business Server 中存储即时消息和 Web 会议脚本的主要优势之一是，在同一位置存储数据使管理员能够使用单个工具来搜索存档的 Exchange 数据和/或存档的 Skype for Business Server 数据。 由于所有数据存储在同一位置 (Exchange) 任何可搜索已存档数据的工具Exchange还可以搜索已存档Skype for Business Server数据。
   
-2013 年 10 月提供了一种可轻松搜索存档数据Microsoft SharePoint Server工具。 如果要使用 SharePoint 搜索 Skype for Business Server 数据，则必须先完成在 Skype for Business Server 中配置存档Exchange涉及的所有步骤。 在Exchange Server Skype for Business Server集成后，必须在 SharePoint 服务器上安装 Exchange Web 服务托管[API。](https://go.microsoft.com/fwlink/p/?LinkId=258305) 下载的文件 (EWSManagedAPI.msi) 可以保存到 SharePoint 服务器上的任何文件夹。
+2013 年 10 月提供了一种可轻松搜索存档数据Microsoft SharePoint Server工具。 如果要使用 SharePoint 搜索 Skype for Business Server 数据，则必须先完成在 Skype for Business Server 中配置 Exchange 存档所涉及的Skype for Business Server。 在Exchange Server和Skype for Business Server集成后，您必须在 Exchange Server 上安装 SharePoint Web 服务托管[API。](https://go.microsoft.com/fwlink/p/?LinkId=258305) 下载的文件 (EWSManagedAPI.msi) 可以保存到 SharePoint 服务器上的任何文件夹。
   
 下载文件后，在 SharePoint 服务器上完成以下过程：
   
@@ -51,7 +51,7 @@ ms.locfileid: "58604201"
    iisreset
    ```
 
-安装Exchange Web 服务后，必须在服务器与服务器之间配置服务器SharePoint身份验证Exchange Server。 为此，请首先打开命令行SharePoint命令行管理程序并运行以下命令集：
+安装Exchange Web 服务后，您必须在 SharePoint Server 和 Exchange Server 之间配置服务器到服务器身份验证。 为此，请首先打开命令行SharePoint命令行管理程序并运行以下命令集：
   
 ```powershell
 New-SPTrustedSecurityTokenIssuer -Name "Exchange" -MetadataEndPoint "https://autodiscover.litwareinc.com/autodiscover/metadata/json/1"
@@ -65,7 +65,7 @@ $service.Update()
 > [!NOTE]
 > 务必要使用自动发现服务的 URI。 请勿使用示例 https://autodiscover.litwareinc.com/autodiscover/metadata/json/1 URI。 
   
-创建令牌颁发者并配置令牌服务后，运行以下命令，确保将 SharePoint 网站的 URL 替换为示例 URLhttp://atl-sharepoint-001:
+创建令牌颁发者并配置令牌服务后，运行以下命令，确保将 SharePoint 网站的 URL 替换为示例 `http://atl-sharepoint-001` URL：
   
 ```powershell
 $exchange = Get-SPTrustedSecurityTokenIssuer "Exchange"
@@ -74,7 +74,7 @@ $site = Get-SPSite  "https://atl-sharepoint-001"
 Set-SPAppPrincipalPermission -AppPrincipal $app -Site $site.RootWeb -Scope "SiteSubscription" -Right "FullControl" -EnableAppOnlyPolicy
 ```
 
-若要为 Exchange Server 配置服务器到服务器身份验证，请打开 Exchange 命令行管理程序，并运行与此 (类似的命令（假定 Exchange 已安装在驱动器 C： 上，并使用默认文件夹路径) ：
+若要为 Exchange Server 配置服务器到服务器身份验证，请打开 Exchange 命令行管理程序，并运行与此 (类似的命令，假定 Exchange 已安装在驱动器 C： 上，并且它使用默认文件夹路径) ：
   
 ```powershell
 "C:\Program Files\Microsoft\Exchange Server\V15\Scripts\Configure-EnterprisePartnerApplication.ps1 -AuthMetaDataUrl 'https://atl-sharepoint-001/_layouts/15/metadata/json/1' -ApplicationType SharePoint"
@@ -88,7 +88,7 @@ iisreset atl-exchange-001
 
 此命令可以从命令行管理程序Exchange运行，也可以从任何其他命令窗口运行。
   
-接下来，运行与以下内容类似的命令，该命令 (，kenmyer 有权) 用户进行发现Exchange：
+接下来，运行类似如下的命令，该命令 (，kenmyer 有权) 用户进行发现Exchange：
   
 ```powershell
 Add-RoleGroupMember "Discovery Management" -Member "kenmyer"
@@ -104,7 +104,7 @@ New-SPSite -Url "https://atl-sharepoint-001/sites/discovery" -OwnerAlias "kenmye
 > [!NOTE]
 > “eDiscovery”是“electronic discovery”（电子发现）的缩写，通常表示浏览可在法院“合理计算为可导致可靠证据”的项目的电子存档的过程。 
   
-新网站准备就绪后，下一步是配置Exchange Server用作网站结果SharePoint。 为此，可以从"管理中心"页SharePoint过程：
+新网站准备就绪后，下一步是配置Exchange Server用作网站结果SharePoint。 为此，可以从"管理中心"页SharePoint以下过程：
   
 1. 在“管理中心”页上，单击“管理服务应用程序”，然后单击“Search Service 应用程序”。
     
@@ -112,17 +112,17 @@ New-SPSite -Url "https://atl-sharepoint-001/sites/discovery" -OwnerAlias "kenmye
     
 3. 在“新建结果源”窗格中，在“名称”框中输入新结果源的名称（例如，“Microsoft Exchange”）。 选择 **Exchange** 协议"作为结果源 **，** 然后在"源 URL"框中输入 Exchange 服务器的 Web Exchange **URL。** 该源 URL 应类似如下：
     
-    https://atl-exchange-001.litwareinc.com/ews/exchange.asmx
+    `https://atl-exchange-001.litwareinc.com/ews/exchange.asmx`
     
 4. 确保未选择“使用自动发现”，然后单击“确定”。
     
-最后，SharePoint 通过从发现站点网站中完成以下过程，创建新的电子数据展示 (电子数据展示集，例如，https://atl-sharepoint-001/sites/discovery):
+最后，通过从 SharePoint 发现站点中完成以下过程来创建新的电子数据展示案例和新的电子数据展示 (例如 `https://atl-sharepoint-001/sites/discovery` ，) ：
   
 1. 在“网站内容”页上，单击“创建新的案例”。
     
 2. 在“网站内容: 新建 SharePoint 网站”页上，在“标题”框中输入用户的电子邮件别名（例如，“kenmyer”），然后将同一 URL 添加至“网站地址”框中。这将产生一个类似如下的 URL：
     
-    https://atl-sharepoint-001/sites/eDiscovery/kenmyer
+    `https://atl-sharepoint-001/sites/eDiscovery/kenmyer`
     
 3. 单击“创建”。
     
@@ -136,6 +136,6 @@ New-SPSite -Url "https://atl-sharepoint-001/sites/discovery" -OwnerAlias "kenmye
     
 8. 在“电子数据展示集”页上，单击“保存”，以保存新的电子数据展示集。
     
-此时，您可以在 kenmy) er (和/或启用 In-Place 搜索指定的邮箱，其保留方式与搜索任何其他内容SharePoint源的方式相同。
+此时，您可以在 kenmy) er (和/或启用 In-Place 搜索指定的邮箱，SharePoint内容或结果源的保留方式相同。
   
 

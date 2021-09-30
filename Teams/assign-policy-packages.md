@@ -18,16 +18,16 @@ description: 了解向用户和组中用户和组分配策略包Microsoft Teams�
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: fb7d402ab8a280a724562eec7820f1cad06ea52f
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 553e30fa694403b2ad5e2edfd86b53fe8231eed3
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727191"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60015066"
 ---
 # <a name="assign-policy-packages-to-users-and-groups"></a>将策略包分配给用户和组
 
-本文介绍向用户和组中用户和组分配策略包Microsoft Teams。 在阅读之前，请确保已阅读在 Teams[中分配策略 - 入门](policy-assignment-overview.md)。
+本文介绍向用户和组中用户和组分配策略包Microsoft Teams。 在阅读之前，请确保已阅读"在 Teams[中分配策略 - 入门。](policy-assignment-overview.md)
 
 > [!NOTE]
 > 为了接受自定义策略包分配，每位用户都需要高级通信加载附加产品。 有关详细信息，请参阅 [Microsoft Teams 高级通信附加产品](/microsoftteams/teams-add-on-licensing/advanced-communications)。
@@ -39,19 +39,26 @@ Teams策略包是预定义的策略和策略设置的集合，可以分配给组
 ### <a name="assign-a-policy-package-to-one-user"></a>将策略包分配给一个用户
 
 1. 在管理中心的左侧导航Microsoft Teams，转到"**用户"，** 然后选择用户。
+
 2. 在用户的页面上，选择"策略 **"，** 然后在"策略包"**旁边** 选择"编辑 **"。**
+
 3. 在"**分配策略包"** 窗格中，选择要分配的包，然后选择"保存 **"。**
 
-![Teams管理中心屏幕截图，显示向用户分配策略包。](media/assign-policypackages-user.png)
+![Teams用户的策略包分配的管理中心屏幕截图。](media/assign-policypackages-user.png)
 
 ### <a name="assign-a-policy-package-to-multiple-users"></a>将策略包分配给多个用户
 
-1. 在管理中心Microsoft Teams导航中，转到"策略包"，然后单击程序包名称左侧的 ，选择要分配的策略包。
+1. 在管理Microsoft Teams左侧导航中，转到"策略包"，然后单击程序包名称左侧，选择要分配的策略包。
+
 2. 选择“管理用户”。
+
 3. 在“**管理用户**”窗格中，按显示名称或用户名搜索用户，选择用户名，然后选择“**添加**”。 对想要添加的每一个用户重复此步骤。
+
 4. 添加完用户后，选择"保存 **"。**
 
+
 ![Teams多个用户的策略包分配的管理中心屏幕截图。](media/assign-policypackages-multipleusers.png)
+
 
 ## <a name="assign-a-policy-package-to-a-group"></a>将策略包分配给组。
 
@@ -62,26 +69,31 @@ Teams策略包是预定义的策略和策略设置的集合，可以分配给组
 分配策略包时，会立即将其分配给组。 但是，将策略分配传播到组的成员以后台操作方式执行，可能需要一些时间，具体取决于组的大小。 从组取消分配策略时，或者将成员添加到组或从组中删除成员时，也是如此。
 
 > [!IMPORTANT]
-> 在开始使用之前，必须了解 (规则)  ([组分配) 。](assign-policies-users-and-groups.md#group-assignment-ranking) [](assign-policies-users-and-groups.md#precedence-rules) 请确保阅读并了解本文 (组的策略分配) 了解。 [](assign-policies-users-and-groups.md#what-you-need-to-know-about-policy-assignment-to-groups)
+> 在开始使用之前，必须了解 (规则)  ([组分配) 。](assign-policies-users-and-groups.md#group-assignment-ranking) [](assign-policies-users-and-groups.md#precedence-rules) 请务必阅读并了解本文前面 (组的策略分配) 了解。 [](assign-policies-users-and-groups.md#what-you-need-to-know-about-policy-assignment-to-groups)
 
 ### <a name="assign-a-policy-package-to-a-group-of-users-in-the-admin-center"></a>将策略包分配给管理中心中的一组用户
 
 1. 登录到 Teams 管理中心。
+
 2. 在左侧导航栏中，转到策略包页。
+
 3. 选择"组策略分配"选项卡。
+
 4. 选择 **"添加组**"，然后在"将策略包分配到组"窗格中执行以下操作：
 
-    a. 搜索并添加要为其分配策略包的组。
+    1. 搜索并添加要为其分配策略包的组。
 
-    b. 选择策略包。
+    1. 选择策略包。
 
-    c. 设置每个策略类型的排名。
+    1. 设置每个策略类型的排名。
 
-    d. 选择"**应用"。**
+    1. 选择"**应用"。**
 
-![显示组策略分配。](media/group-pkg-assignment.png)
+
+       ![显示组策略分配。](media/group-pkg-assignment.png)
 
 5. 若要管理特定策略类型的排名，请导航到特定策略页。
+
 6. 若要将策略包重新分配到组，请首先删除组策略分配。 然后，按照上述步骤将策略包分配到组。
 
 ### <a name="work-with-powershell"></a>使用 PowerShell
@@ -92,7 +104,7 @@ Teams策略包是预定义的策略和策略设置的集合，可以分配给组
 
 #### <a name="assign-a-policy-package-to-a-group-of-users"></a>将策略包分配给一组用户
 
-使用 [Grant-CsGroupPolicyPackageAssignment](/powershell/module/teams/grant-csgrouppolicypackageassignment) cmdlet 将策略包分配给组。 可以使用对象 ID、SIP 地址或电子邮件地址指定组。 分配策略包时，请 ([策略包) ](assign-policies-users-and-groups.md#group-assignment-ranking) 策略类型的组分配排名。
+使用 [Grant-CsGroupPolicyPackageAssignment](/powershell/module/teams/grant-csgrouppolicypackageassignment) cmdlet 将策略包分配给组。 可以使用对象 ID、SIP 地址或电子邮件地址指定组。 分配策略包时， (策略包 [) ](assign-policies-users-and-groups.md#group-assignment-ranking) 策略类型的组分配排名。
 
 本示例将 Education_Teacher 策略包分配给一个组，TeamsAppSetupPolicy 和 TeamsMeetingBroadcastPolicy 的分配排名为 1，TeamsMeetingPolicy 的排名为 2。
 
@@ -110,7 +122,7 @@ Grant-CsGroupPolicyPackageAssignment -GroupId "dae90bb4-120f-4a3e-a15d-30f142e79
 
 ### <a name="use-the-teams-powershell-module"></a>使用 Teams PowerShell 模块
 
-如果尚未安装[PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) Microsoft Teams， (运行以下代码) 。 请确保安装版本 1.0.5 或更高版本。
+如果尚未安装[PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) Microsoft Teams， (运行以下代码来安装) 。 请确保安装版本 1.0.5 或更高版本。
 
 ```powershell
 Install-Module -Name MicrosoftTeams
@@ -134,13 +146,13 @@ New-CsBatchPolicyPackageAssignmentOperation -Identity 1bc0b35f-095a-4a37-a24c-c4
 
 ### <a name="see-the-status-of-a-batch-assignment"></a>查看批处理分配的状态
 
-运行以下代码获取批处理分配的状态，其中 OperationId 是 cmdlet 为给定批返回的操作 ```New-CsBatchPolicyAssignmentOperation``` ID。
+运行以下代码获取批处理分配的状态，其中 OperationId 是 cmdlet 为给定批返回的操作 `New-CsBatchPolicyAssignmentOperation` ID。
 
 ```powershell
 $Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | fl
 ```
 
-如果输出显示发生错误，请运行以下命令，获取有关 属性中的错误 ```UserState``` 的详细信息。
+如果输出显示发生错误，请运行以下命令，获取有关 属性中的错误 `UserState` 的详细信息。
 
 ```powershell
 Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | Select -ExpandProperty UserState

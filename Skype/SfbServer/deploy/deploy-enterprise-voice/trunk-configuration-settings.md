@@ -1,5 +1,5 @@
 ---
-title: 在服务器中创建新的中继配置设置Skype for Business Server
+title: Skype for Business Server：创建新的中继配置设置集合
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -16,14 +16,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4ebd710c-38cd-4cff-9a45-df029d424580
 description: 摘要：了解如何使用"控制面板"创建新的中继配置Skype for Business Server集合。
-ms.openlocfilehash: 74a1b9b88adcce3164cd8bebc761d9868e8b0f1f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a538ad2ff5e19c21ba36afaf928144c7d255e8e2
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594090"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012326"
 ---
-# <a name="create-a-new-collection-of-trunk-configuration-settings-in-skype-for-business-server"></a>在服务器中创建新的中继配置设置Skype for Business Server 
+# <a name="skype-for-business-server-create-a-new-collection-of-trunk-configuration-settings"></a>Skype for Business Server：创建新的中继配置设置集合
 
 **摘要：** 了解如何使用"安全"控制面板创建新的中继配置Skype for Business Server集合。
   
@@ -44,7 +44,7 @@ SIP 中继配置设置定义中介服务器与服务提供商的公用电话交�
 |名称  <br/> |标识  <br/> |集合的唯一标识符。此属性为只读；您无法更改中继配置设置集合的标识。  <br/> |
 |说明  <br/> |说明  <br/> |为管理员提供了存储有关设置的附加信息（例如，中继配置的用途）的方法。  <br/> |
 |支持的最大早期对话数  <br/> |MaxEarlyDialogs  <br/> |服务提供商的 PSTN 网关、IP-PBX 或 SBC 可以接收的分叉响应的最大数目，这些响应是针对发送到中介服务器的邀请的。  <br/> |
-|加密支持级别  <br/> |SRTPMode  <br/> | 指示用于保护中介服务器与服务提供商的 PSTN 网关、IP-PBX 或 SBC 之间的媒体流量的支持级别。 对于媒体旁路情况，该值必须与媒体配置中的 EncryptionLevel 设置兼容。 媒体配置是使用 [New-CsMediaConfiguration](/powershell/module/skype/new-csmediaconfiguration?view=skype-ps) 和 [Set-CsMediaConfiguration](/powershell/module/skype/set-csmediaconfiguration?view=skype-ps) cmdlet 设置的。 <br/>  允许的值包括： <br/>  Required：必须使用 SRTP 加密。 <br/>  Optional：如果网关支持 SRTP，将使用 SRTP。 <br/>  Not Supported：SRTP 加密不受支持，因此不使用该功能。 <br/>  仅当网关配置为使用传输层安全性 (TLS) 时，才会使用 SRTPMode。如果将网关配置为使用传输控制协议 (TCP)，则 SRTPMode 会在内部设置为“Not Supported”。<br/> |
+|加密支持级别  <br/> |SRTPMode  <br/> | 指示用于保护中介服务器与服务提供商的 PSTN 网关、IP-PBX 或 SBC 之间的媒体流量的支持级别。 对于媒体旁路情况，该值必须与媒体配置中的 EncryptionLevel 设置兼容。 媒体配置是使用 [New-CsMediaConfiguration](/powershell/module/skype/new-csmediaconfiguration) 和 [Set-CsMediaConfiguration](/powershell/module/skype/set-csmediaconfiguration) cmdlet 设置的。 <br/>  允许的值包括： <br/>  Required：必须使用 SRTP 加密。 <br/>  Optional：如果网关支持 SRTP，将使用 SRTP。 <br/>  Not Supported：SRTP 加密不受支持，因此不使用该功能。 <br/>  仅当网关配置为使用传输层安全性 (TLS) 时，才会使用 SRTPMode。如果将网关配置为使用传输控制协议 (TCP)，则 SRTPMode 会在内部设置为“Not Supported”。<br/> |
 |引用支持  <br/> |Enable3pccRefer  <br/> EnableReferSupport  <br/> |如果设置为“允许将引用发送到网关”，则指示中继支持接收来自中介服务器的引用请求。  <br/> 如果设置为“允许使用第三方呼叫控制的引用”，则指示 3pcc 协议可用于允许转接的呼叫绕过宿主网站。3pcc 也称为“第三方协议”，当使用第三方连接一对呼叫者时将会出现（例如，运营商发出从人员 A 到人员 B 的呼叫）。<br/> |
 |启用媒体旁路  <br/> |EnableBypass  <br/> |指示是否为此中继启用媒体旁路。仅当启用了“集中式媒体处理”时才能启用媒体旁路。<br/> |
 |集中式媒体处理  <br/> |Topology  <br/> |指示是否有已知的媒体终结点。（例如，PSTN 网关就是一个已知的媒体端点，其中媒体终端与信号终端具有相同的 IP。）  <br/> |
@@ -61,7 +61,7 @@ SIP 中继配置设置定义中介服务器与服务提供商的公用电话交�
 |被叫号码  <br/> |不适用  <br/> |指示要测试的电话号码是被呼叫的人员的电话号码。  <br/> |
    
 > [!NOTE]
-> CsTrunkConfiguration cmdlet Skype for Business Server支持控制面板中未Skype for Business Server属性。 有关详细信息，请参阅 [New-CsTrunkConfiguration](/powershell/module/skype/new-cstrunkconfiguration?view=skype-ps) cmdlet 的帮助主题。
+> CsTrunkConfiguration cmdlet Skype for Business Server支持控制面板中未Skype for Business Server属性。 有关详细信息，请参阅 [New-CsTrunkConfiguration](/powershell/module/skype/new-cstrunkconfiguration) cmdlet 的帮助主题。
   
 ### <a name="to-create-new-trunk-configuration-settings-by-using-skype-for-business-server-control-panel"></a>使用控制面板创建新的中继Skype for Business Server设置
 
@@ -77,4 +77,4 @@ SIP 中继配置设置定义中介服务器与服务提供商的公用电话交�
     
 6. 在“未提交的语音配置设置”对话框中，单击“确定”。
     
-7. 在 **"Skype for Business Server控制面板**"对话框中，单击"确定 **"。**
+7. 在 **"Skype for Business Server控制面板"** 对话框中，单击"确定 **"。**

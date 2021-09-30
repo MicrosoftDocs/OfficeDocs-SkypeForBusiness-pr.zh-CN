@@ -20,16 +20,16 @@ ms.localizationpriority: medium
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2baa4755f63bbb5867a1e259c9edc9a3aeca0718
-ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
+ms.openlocfilehash: c53dc5fb9188cbfa8f32ddacae5486dd62f6a5fc
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "59993174"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60015983"
 ---
-# <a name="manage-your-devices-in-microsoft-teams"></a>在 Microsoft Teams 中管理设备
+# <a name="microsoft-teams-managing-your-devices"></a>Microsoft Teams：管理设备 
 
-可以从管理中心管理Microsoft Teams组织中用于Microsoft Teams设备。 可以查看和管理组织的设备清单，以及执行更新、重启和监视设备的诊断等任务。 还可以创建配置文件并将其分配到设备或设备组。
+可以从管理中心管理Microsoft Teams组织中用于Microsoft Teams的设备。 可以查看和管理组织的设备清单，以及执行更新、重启和监视设备的诊断等任务。 还可以创建配置文件并将其分配到设备或设备组。
 
 若要管理设备，例如更改设备配置、重启设备、管理更新或查看设备和外围设备运行状况，需要分配以下Microsoft 365角色之一：
 
@@ -37,7 +37,7 @@ ms.locfileid: "59993174"
 - Teams服务管理员
 - Teams设备管理员
 
-有关管理中管理员角色Teams，请参阅使用 Teams[管理员角色管理Teams。](../using-admin-roles.md)
+有关管理员角色在Teams，请参阅使用 Teams[管理员角色管理Teams。](../using-admin-roles.md)
 
 ## <a name="what-devices-can-you-manage"></a>可以管理哪些设备？
 
@@ -47,18 +47,18 @@ ms.locfileid: "59993174"
 - [会议电话](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=73)
 - [桌面电话](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=34)
 - [Microsoft Teams 会议室](https://www.microsoft.com/microsoft-365/microsoft-teams/across-devices/devices/category?devicetype=20)
-- [Teams显示器](https://www.microsoft.com/microsoft-365/microsoft-teams/across-devices/devices/category?devicetype=34)
+- [Teams显示](https://www.microsoft.com/microsoft-365/microsoft-teams/across-devices/devices/category?devicetype=34)
 - [Teams面板](teams-panels.md)
 
 若要管理设备，请在 Microsoft Teams 管理中心的左侧 [](https://admin.teams.microsoft.com)导航栏中，转到"Teams **设备**"，然后选择设备类型。 每种类型的设备都有自己的相应部分，可让你单独管理它们。
 
 ## <a name="manage-teams-rooms-devices"></a>管理Teams 会议室设备
 
-可以使用 Teams 管理中心查看和远程管理Teams 会议室设备。 使用 Teams 管理中心可以轻松一目了然地查看哪些设备运行状况良好以及哪些设备需要关注，并让你专注于特定设备以查看有关设备运行状况、会议性能、呼叫质量和外围设备的详细信息。 
+可以使用 Teams 管理中心查看和远程Teams 会议室整个组织的设备。 使用 Teams 管理中心可以轻松一目了然地查看哪些设备正常以及哪些需要关注，并让你专注于特定设备以查看有关设备运行状况、会议性能、呼叫质量和外围设备的详细信息。 
 
 下面是一些可用于管理设备Teams 会议室操作。 Teams 会议室设备"下Microsoft Teams [管理中心](https://admin.teams.microsoft.com)Teams **设备**  >  **Teams 会议室。**
 
-若要详细了解如何管理 Teams 会议室设备，请参阅[管理Microsoft Teams 会议室。](../rooms/rooms-manage.md)
+若要详细了解如何管理设备Teams 会议室，请参阅[管理Microsoft Teams 会议室。](../rooms/rooms-manage.md)
 
 | 为此...                          | 执行此操作                                                                                                                                                                                                                                                                                                                                                                          |
 |----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -81,20 +81,20 @@ ms.locfileid: "59993174"
 | 管理软件更新                 | 选择设备>**更新"。** 可以查看适用于设备的软件和固件更新列表，并选择要安装的更新。 有关更新设备的信息，请参阅远程[Teams设备](remote-update.md)                                                          |
 | 将Teams手机升级到Teams显示器  | 在 **"IP 电话"** 页上，选择一个或多个Teams">**升级"。** 此选项仅适用于支持升级到显示器Teams手机。 若要了解有关详细信息，请参阅[将Teams升级到 Teams 显示](upgrade-phones-to-displays.md)。                                                      |
 | 分配或更改配置策略 | 选择一个或多个设备>**分配配置"。**                                                                                                                                                                                                                                                       |
-| 添加或删除设备标记               | 选择一个或多个设备>**管理标记"。** 有关设备标记详细信息，请参阅[管理Teams标记](manage-device-tags.md)。                                                                                                                                                                 |
+| 添加或删除设备标记               | 选择"管理标记"> **一个或多个设备**。 有关设备标记详细信息，请参阅[管理Teams标记](manage-device-tags.md)。                                                                                                                                                                 |
 | 重启设备                         | 选择一个或多个设备>**重启"。**                                                                                                                                                                                                                                                                    |
 | 使用设备标记筛选设备        | 选择筛选器图标，选择"**标记"** 字段，指定要筛选的设备标记，然后选择"应用 **"。** 有关使用设备标记筛选设备的信息，请参阅使用筛选器返回 [具有特定标记的设备](manage-device-tags.md#use-filters-to-return-devices-with-a-specific-tag)。 |
 | 查看设备历史记录和诊断     | 在"**历史记录"** 列下，单击设备的"查看"链接以查看其更新历史记录和诊断详细信息。                                                                                                                                                                                         |
 
 ### <a name="use-configuration-profiles-in-teams"></a>使用 Teams 中的配置文件
 
-使用配置文件管理组织中不同 Teams 设备的设置和功能，包括协作栏、Teams显示器、Teams手机Teams面板。 可以创建或上传配置文件以包含要启用或禁用的设置和功能，然后将配置文件分配给设备或设备集。 
+使用配置文件管理组织中不同 Teams 设备的设置和功能，包括协作栏、Teams、Teams和Teams面板。 可以创建或上传配置文件以包含要启用或禁用的设置和功能，然后将配置文件分配给设备或设备集。 
 
 #### <a name="create-a-configuration-profile"></a>创建配置文件
 
 若要为设备类型创建Teams配置文件：
 
-1. 在左侧导航栏中，转到 **"Teams设备**">选择Teams配置配置文件>**设备类型**。 例如，选择 **"Teams"Teams"** 配置文件"，为这些面板创建新的  >    >  配置文件Teams配置文件。
+1. 在左侧导航栏中，转到"Teams **设备**">选择Teams配置配置文件>**设备类型。** 例如，选择 **"Teams"Teams"** 配置文件"，为这些面板创建新的  >    >  配置文件Teams配置文件。
 2. 单击“**添加**”。
 3. 输入配置文件的名称，并选择性地添加友好说明。
 4. 指定配置文件的设置，然后单击"保存 **"。**

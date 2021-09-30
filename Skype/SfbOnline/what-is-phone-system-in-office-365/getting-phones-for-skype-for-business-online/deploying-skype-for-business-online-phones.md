@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 了解部署步骤，获取正确的固件、根据需要更新固件、分配许可证以及配置在线电话Skype for Business设置
-ms.openlocfilehash: d67badf0bd5ff27466315a5731c2ac9a2117f74e
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: b9724677a3217b73b727a72343f35ebe51a4de09
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728011"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011896"
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>部署 Skype for Business Online 电话
 
@@ -34,7 +34,7 @@ ms.locfileid: "58728011"
 
 本部署指南将帮助你部署 Skype for Business Online IP 电话。
   
-在所有类型的业务中，拥有电话号码允许用户拨打和接听语音呼叫，这是一项重要的业务要求。 拥有电话号码的用户将能够跨所有 Skype for Business设备（包括 IP 电话、电脑和移动设备）进行语音呼叫。 有关 IP 电话Skype for Business，可阅读[获取适用于 Skype for Business Online 的电话](getting-phones-for-skype-for-business-online.md)。
+在所有类型的业务中，拥有电话号码允许用户拨打和接听语音呼叫，这是一项重要的业务要求。 拥有电话号码的用户将能够跨所有 Skype for Business设备进行语音呼叫，包括 IP 电话、电脑和移动设备。 有关 IP 电话Skype for Business，可阅读[获取适用于 Skype for Business Online 的电话](getting-phones-for-skype-for-business-online.md)。
   
 ## <a name="deployment-steps-for-ip-phones"></a>部署 IP 电话的步骤
 
@@ -44,7 +44,7 @@ ms.locfileid: "58728011"
   
 - 对于 Polycom 电话，请参阅 [Poly 文档库](https://documents.polycom.com/category/voice)。
     
-- 对于 Yealink 手机，请参阅[Yealink Skype for Business HD SIP 电话解决方案](http://www.yealink.com/products_top_2.html)。
+- 有关 Yealink 电话，请参阅[Yealink Skype for Business HD SIP 电话解决方案](http://www.yealink.com/products_top_2.html)。
     
 - 对于 AudioCodes 电话，请参阅 [Audiocodes 配置管理指南](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/ip-phones-room-solutions)。
     
@@ -70,7 +70,7 @@ ms.locfileid: "58728011"
 ### <a name="step-4---device-update-considerations"></a>第 4 步 - 设备更新注意事项
 
 > [!NOTE]
-> 5.5.1.X 之前的 Polycom 固件具有特定于制造商的设备锁定机制，该机制已替换为 Skype for Business 实现"电话-Lock"。 将使用"Device-Lock"保护的手机从 5.4.X.X 升级到具有"电话-Lock"的 5.5.1.X 不会从"Device-Lock"继承 PIN 码，因此手机可能不安全。 已激活"Device-Lock"的用户需要启用以下 Polycom 设备配置文件参数，以便用户控制 (lync.deviceUpdate.popUpSK.enabled=1) 的升级时间。 
+> 5.5.1.X 之前的 Polycom 固件具有特定于制造商的设备锁机制，该机制已替换为 Skype for Business 实现"电话-Lock"。 将使用"Device-Lock"保护的手机从 5.4.X.X 升级到具有"电话-Lock"的 5.5.1.X 不会从"Device-Lock"继承 PIN 码，因此手机可能不安全。 已激活"Device-Lock"的用户需要启用以下 Polycom 设备配置文件参数，以便用户控制 (lync.deviceUpdate.popUpSK.enabled=1) 的升级时间。 
   
 固件更新由 Skype for Business 服务管理。 每个通过 Skype for Business 认证的电话固件都上传到 Skype for Business 更新服务器，并且默认情况下在所有电话上启用设备更新。 根据电话的非活动时间和轮训间隔，电话将自动下载并安装最新认证的内部版本。 可以使用 [Set-CsIPPhonePolicy](/powershell/module/skype/Set-CsIPPhonePolicy) cmdlet 将 _EnableDeviceUpdate_ 参数设置为 来禁用设备更新设置 `false` 。
   
@@ -120,7 +120,7 @@ ms.locfileid: "58728011"
     > [!NOTE]
     > [!注释] Skype for Business Online 不支持对 LPE 和合作伙伴 IP 电话进行 PIN 身份验证。 
   
-- **使用电脑** 在用户的电脑上安装并 (BToE) 软件后，用户可以使用其 Windows Skype for Business 应用的身份验证窗口登录到其手机。 请参阅 [步骤 7 (可选 ](deploying-skype-for-business-online-phones.md#BK_BTOE)) - 如果你有设备配对，请参阅 BToE ("通过以太网更好地) 连接"了解其他信息。
+- **使用电脑** 在用户的电脑上安装并 (BToE) 软件后，用户可以使用其 Windows Skype for Business 应用中的身份验证窗口登录到其手机。 有关[其他信息，Skype Operations Framework (SOF) Skype Academy？。](https://techcommunity.microsoft.com/t5/skype-for-business-blog/what-is-skype-operations-framework-sof-and-skype-academy/ba-p/30506)
     
   > [!NOTE]
   > [!注释] 用户需要使用其组织的用户名和密码登录电话。例如，他们应使用类似  <em>amosm@contoso.com</em>  的 UPN 格式作为其用户名。
@@ -155,7 +155,7 @@ ms.locfileid: "58728011"
     
      ![显示登录屏幕上的输入代码的屏幕截图。](../../images/d6b88016-35d2-41d1-a0da-81fef34521d4.png)
   
-    验证站点是否显示"[电话制造商名称] Skype for Business **认证** 电话"，然后单击"继续 **"。**
+    验证站点是否显示"[电话制造商名称] **Skype for Business认证** 电话"，然后单击"继续 **"。**
     
      ![显示名称验证的屏幕截图。](../../images/a8252b37-4ff5-4ece-9e2a-3e05bf928299.png)
   
@@ -171,36 +171,38 @@ ms.locfileid: "58728011"
     > [!注释] 适用于 Skype for Business Online 的 LPE 电话仅支持通过 USB 数据连线登录。 
   
 - **支持的部署** 下表显示了当前支持的部署模式所支持的身份验证类型，包括 Exchange 集成、使用多因素身份验证 (MFA) 的新式验证以及 Skype for Business Online 和本地部署。
-    
-|||||||
+
+  
+ 
+ 
+|Skype for Business |Exchange |电话登录方法 |Skype for Business访问权限 |禁用新式验证和 MFA 的 Exchange 访问 |启用新式验证和 MFA 的 Exchange 访问 |
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|**Skype for Business** <br/> |**交换** <br/> |**电话登录方法** <br/> |**Skype for Business访问权限** <br/> |**禁用新式验证和 MFA 的 Exchange 访问** <br/> |**启用新式验证和 MFA 的 Exchange 访问** <br/> |
-|Online  <br/> |Online  <br/> |Web 登录  <br/> |是  <br/> |是  <br/> |是  <br/> |
-|Online  <br/> |Online  <br/> |用户名/密码  <br/> |是  <br/> |是  <br/> |否  <br/> |
-|Online  <br/> |本地部署  <br/> |Web 登录  <br/> |是  <br/> |否  <br/> |否  <br/> |
-|Online  <br/> |本地部署  <br/> |用户名/密码  <br/> |是  <br/> |是  <br/> |否  <br/> |
-|本地部署  <br/> |Online/本地部署  <br/> |PIN 身份验证  <br/> |是  <br/> |否  <br/> |否  <br/> |
-|本地部署  <br/> |Online/本地部署  <br/> |用户名/密码  <br/> |是  <br/> |是  <br/> |不适用  <br/> |
-|本地部署  <br/> |Online/本地部署  <br/> |通过 PC 登录 (BTOE)  <br/> |是  <br/> |是  <br/> |不适用  <br/> |
+|Online   |Online   |Web 登录   |是   |是   |是   |
+|Online   |Online   |用户名/密码   |是   |是   |否   |
+|Online   |本地部署   |Web 登录   |是   |否   |否   |
+|Online   |本地部署   |用户名/密码   |是   |是   |否   |
+|本地部署   |Online/本地部署   |PIN 身份验证   |是   |否   |否   |
+|本地部署   |Online/本地部署   |用户名/密码   |是   |是   |不适用   |
+|本地部署   |Online/本地部署   |通过 PC 登录 (BTOE)  |是   |是   |不适用   |
    
 - **电话功能** 根据 IP 电话合作伙伴，功能集可能会略有不同。 有关完整功能集和各电话制造商的功能的详细信息，请参阅[获取适用于 Skype for Business Online 的电话](getting-phones-for-skype-for-business-online.md)。
     
 - **电话锁定** Skype for Business 认证电话新近引入的用于保护电话的功能。 如果启用，用户将被要求在身份验证成功后创建一个 PIN。 一旦创建，当定义的空闲超时过期、 用户手动锁定其电话或使用电话配使其电话锁定与其 PC 锁定同步时，电话将锁定。 如果多次输错电话锁定 PIN，电话会将此用户注销或要求输入管理员的代码才能解锁电话，但不同电话合作伙伴在这方面的要求有所差异。 用户的 PIN 应为 6-15 位数字。
     
-    你可以为Phone-Lock (禁用默认启用的) ，更改空闲超时，并选择用户是否可以在锁定时进行电话呼叫，或者使用带内设置。 有关[这些设置的更多详细信息，请参阅 Set-CsUCPhoneConfiguration。](/powershell/module/skype/set-csucphoneconfiguration?view=skype-ps)
+    你可以为Phone-Lock禁用 (默认启用的) ，更改空闲超时，并选择用户是否可以在锁定时进行电话呼叫或不使用带内设置。 有关[这些设置的更多详细信息，请参阅 Set-CsUCPhoneConfiguration。](/powershell/module/skype/set-csucphoneconfiguration?view=skype-ps)
     
 ## <a name="step-7-optional---if-you-have-device-pairing-and-better-together-over-ethernet-btoe"></a>第 7 步（可选）- 如果拥有设备配对和 Better Together over Ethernet (BToE)
 <a name="BK_BTOE"> </a>
 
-BToE 是合作伙伴 IP 电话的电话处理机制，用于将用户的手机与用户的应用Windows Skype for Business配对。 利用 BToE，用户可以：
+BToE 是合作伙伴 IP 电话的一种电话处理机制，用于将用户的手机与他们的 Windows Skype for Business 应用配对。 利用 BToE，用户可以：
   
-- 使用桌面应用的桌面应用Skype for Business其 IP (电脑) 
+- 使用电脑设备通过 Skype for Business 桌面应用 (登录到其 IP) 
     
 - 将Phone-Lock电脑锁同步
     
 - 单击以呼叫
     
-BToE 可以配置为在两种模式下运行：自动 (默认) *手动*。 也可以为使用 Skype for Business 带内设置的用户启用（默认）/禁用此功能。 采用 *手动*  模式运行时，用户还必须执行其他步骤，以便将其电话与其 Windows 应用配对。
+BToE 可以配置为在两种模式下运行：自动 (默认) *手动。* 也可以为使用 Skype for Business 带内设置的用户启用（默认）/禁用此功能。 采用 *手动*  模式运行时，用户还必须执行其他步骤，以便将其电话与其 Windows 应用配对。
   
  **将 BToE 部署到用户**
   
@@ -208,7 +210,7 @@ BToE 可以配置为在两种模式下运行：自动 (默认) *手动*。 也�
     
      ![显示与电脑连接的屏幕截图。](../../images/e21d76c7-867c-4fe6-95c6-fc40c608ed0c.png)
   
-2. 从制造商网站（链接如下所示）下载并安装最新的 BToE 软件。 若要获得更好的用户体验，可以使用管理员分发解决方案（如 Microsoft Endpoint Configuration Manager）分发和安装 BToE 软件。 有关使用 Configuration Manager 的帮助，请参阅 Configuration [Manager 中的包和程序](/configmgr/apps/deploy-use/packages-and-programs)。
+2. 从制造商网站（链接如下所示）下载并安装最新的 BToE 软件。 若要获得更好的用户体验，可以使用管理员分发解决方案（如 Microsoft 终结点配置管理器）分发和安装 BToE 软件。 有关使用 Configuration Manager 的帮助，请参阅 Configuration [Manager 中的包和程序](/configmgr/apps/deploy-use/packages-and-programs)。
     
    - [Polycom BToE 软件下载站点](https://www.polycom.com/voice-conferencing-solutions/microsoft-phones.html)
     
@@ -228,4 +230,3 @@ BToE 可以配置为在两种模式下运行：自动 (默认) *手动*。 也�
 
 [音频会议和通话套餐的国家/地区可用性](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 
-  

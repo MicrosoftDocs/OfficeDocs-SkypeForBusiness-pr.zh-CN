@@ -1,5 +1,5 @@
 ---
-title: 使用呼叫质量仪表板进行Skype for Business Server
+title: 使用 Skype for Business Server 的呼叫质量仪表板
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,23 +12,23 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
-description: 摘要：了解如何使用呼叫质量仪表板。 通话质量仪表板是一种用于Skype for Business Server。
-ms.openlocfilehash: b3bc40cb6b6519b47134fd609854911a2e969655
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: 摘要：了解如何使用呼叫质量仪表板。 呼叫质量仪表板是 Skype for Business Server 的工具。
+ms.openlocfilehash: 8bd18b7be66c4ea9b3a69cd81d4c72fb641603eb
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728261"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60015076"
 ---
-# <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>使用呼叫质量仪表板进行Skype for Business Server
+# <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>使用 Skype for Business Server 的呼叫质量仪表板
 
-**摘要：** 了解如何使用呼叫质量仪表板。 通话质量仪表板是一种用于Skype for Business Server。
+**摘要：** 了解如何使用呼叫质量仪表板。 呼叫质量仪表板是 Skype for Business Server 的工具。
 
 呼叫质量仪表板 (CQD) 使 IT 专业人员可以使用聚合数据，通过比较用户组的统计信息来确定趋势和模式，从而发现产生媒体质量问题的问题。 CQD 并非专注于解决单个呼叫问题，而是侧重于识别适用于许多用户的问题和解决方案。
 
 ## <a name="call-quality-dashboard-user-guide"></a>呼叫质量仪表板用户指南
 
-CQD 是一个 Web 门户， (用于根据用户体验质量和 QoE) 数据快速创建和组织报告。 CQD 部署 SSAS 多维数据集以聚合 QoE 指标数据库中的数据，使管理员能够创建和修改报告或实时进行调查。 虽然可以使用 Excel直接连接到多维数据集，但门户已针对涉及 QoE 数据的几个工作流进行了优化。 数据包括：
+CQD 是一个 Web 门户，用于根据用户体验质量 (QoE) 报告。 CQD 部署 SSAS 多维数据集以聚合 QoE 指标数据库中的数据，使管理员能够创建和修改报告或实时进行调查。 虽然可以使用 Excel 直接连接到多维数据集，但门户针对涉及 QoE 数据的多个工作流进行了优化。 数据包括：
 
 - 用于快速访问的缓存报表数据
 - 用于信息共享和发布的报告页面的深层链接
@@ -55,7 +55,7 @@ CQD 是一个 Web 门户， (用于根据用户体验质量和 QoE) 数据快速
 
 在顶层，"音频流每月趋势"报告显示所有音频流的每月趋势。 将鼠标移动到条形图中的条形图上，以显示条形图所代表的数据的更详细的视图。 单击"音频流每月趋势"报告的标题以导航到"托管音频流与非托管音频流"报告，其中报告在托管呼叫和非托管呼叫之间拆分。 托管呼叫是在公司防火墙内通过有线连接拨打的呼叫。 非托管呼叫包括从公司防火墙外拨打的呼叫，以及通过 WI-Fi 进行的所有呼叫。
 
-另一个顶级报告称为"用户报告的呼叫质量分级直方图"。 呼叫质量评级是呼叫结束时Skype for Business用户给出的号码，用于指示呼叫质量。 评分数字范围为 1 到 5，1 表示最差，5 表示最佳。 直方图显示一个月内评级为指示的音频呼叫数。
+另一个顶级报告称为"用户报告的呼叫质量分级直方图"。 通话质量评级是 Skype for Business 用户在呼叫结束时提供的数字，用于指示呼叫质量。 评分数字范围为 1 到 5，1 表示最差，5 表示最佳。 直方图显示一个月内评级为指示的音频呼叫数。
 
 单击任何报告的标题以导航到具有更多数据筛选器的报告。 在系统报告中，每个子报告都显示其父报告中可用数据的子集。 问题解决模型很简单：调查建议问题被限制到的数据或趋势的子报告，并逐渐缩小问题空间。 创建子报表的能力允许您调查自己对特定数据趋势的原因的猜测。
 
@@ -90,7 +90,7 @@ CQD 是一个 Web 门户， (用于根据用户体验质量和 QoE) 数据快速
 
 ### <a name="supplying-subnet-information"></a>提供子网信息
 
-如果将特定于站点的信息输入到存档数据库中以提供子网到建筑物的映射信息 (例如，通过构建网络网络来提供有线/无线呼叫质量) 。
+如果将特定于站点的信息输入到存档数据库中，以提供子网到建筑物的映射信息 (例如，通过构建子网到建筑物的有线/无线呼叫质量) 。
 
 至少应填写下表以创建这些报告：
 
@@ -103,7 +103,7 @@ CQD 是一个 Web 门户， (用于根据用户体验质量和 QoE) 数据快速
 
 **CqdBuilding**
 
-|列|数据类型|是否允许 Null？|详细信息|
+|Column|数据类型|是否允许 Null？|详细信息|
 |:-----|:-----|:-----|:-----|
 |BuildingKey |int |否 |CqdBuilding 表的主键。 |
 |BuildingName |varchar (80)  |否 |大楼名称。 |
@@ -119,53 +119,53 @@ CQD 是一个 Web 门户， (用于根据用户体验质量和 QoE) 数据快速
 |InsideCorp |bit |是 |Bit 指示建筑物是否是企业网络的一部分。 |
 |BuildingOfficeType |nvarchar (150)  |是 |大楼办公类型的说明。 |
 |区域 |varchar (25)  |是 |大楼所在的区域。 |
-|||||
+
 
 **CqdNetwork**
 
-|列|数据类型|是否允许 Null？|详细信息|
+|Column|数据类型|是否允许 Null？|详细信息|
 |:-----|:-----|:-----|:-----|
 |网络 |varchar (25)  |否 |子网地址。 |
 |NetworkRange |tinyint |是 |子网掩码。 |
 |NetworkNameID |int |是 |（可选）映射到 CqdNetworkName 表中的行。 |
 |BuildingKey |int |是 |外键，与 CqdBuilding 表中的条目之一匹配。 |
 |UpdatedDate |datetime |否 |上次更新条目的日期/时间。 |
-||||||
+
 
 默认情况下，此下一个表具有一个 (0，"未知") 。
 
 **CqdBuildingType**
 
-|列|数据类型|是否允许 Null？|详细信息|
+|Column|数据类型|是否允许 Null？|详细信息|
 |:-----|:-----|:-----|:-----|
 |BuildingTypeId |int |否 |CqdBuildingType 表的主键。 |
 |BuildingTypeDesc |char (18)  |否 |大楼类型说明。 |
-|||||
+
 
 默认情况下，此下一个表具有一 (0、"Unknown"、0、null) 。
 
 **CqdBuildingOwnershipType**
 
-|列|数据类型|是否允许 Null？|详细信息|
+|Column|数据类型|是否允许 Null？|详细信息|
 |:-----|:-----|:-----|:-----|
 |OwnershipTypeId |int |否 |CqdBuildingOwnershipType 表的主键。 |
 |OwnershipTypeDesc |varchar (25)  |否 |所有权类型说明。 |
 |LeaseInd |tinyint |是 |引用 CqdBuildingOwnershipType 表中另一行的索引，用于标识租用的大楼。 |
 |所有者 |varchar (50)  |是 |大楼所有者。 |
-|||||
+
 
 默认情况下，此下一个表具有一 (0、"Unknown"、0 和 null) 。
 
 **CqdBssid**
 
-|列|数据类型|是否允许 Null？|详细信息|
+|Column|数据类型|是否允许 Null？|详细信息|
 |:-----|:-----|:-----|:-----|
 |bss |nvarchar(50) |否 |CqdBssid 表的主键。 是 WiFi 接入点的 BSSID。 |
 |ess |nvarchar(50) |是 |Wifi 接入点控制器信息。 |
 |phy |nvarchar(50) |是 |Phy 信息。 |
 |ap |nvarchar(50) |是 |Wifi 接入点名称。 |
 |生成 |nvarchar (500)  |是 |WiFi 访问点所在的建筑物名称。 |
-||||
+
 
 ## <a name="cqd-streams"></a>CQD 流
 
@@ -173,7 +173,7 @@ CQD 流被视为良好、较差或未经分类。 CQM 1.5 现在使用下面的 
 
 - 质量欠佳的流是超出阈值的差呼叫指标的任意组合。
 - 当呼叫中的一个流较差时，呼叫的两个流将被标记为差。 在会议中，每个参与者均算作唯一呼叫，并独立于所有其他参与者进行报告。
-- 未分类流是无质量指标 (，即综合事务或短时间) 。
+- 未分类流是无质量指标 (，即综合事务或短时间呼叫) 。
 - 有效流 = 非移动客户端
 - 无法修改分类器
 
@@ -186,7 +186,7 @@ CQD 流被视为良好、较差或未经分类。 CQM 1.5 现在使用下面的 
 |PacketLossRate |大于 0.1 (10%)  |
 |JitterInterArrival |大于 30 |
 |RatioConcealedSamplesAvg |大于 0.07 |
-|||
+
 
 JPDR 定义 = 质量欠佳的呼叫定义减去 RatioConcealedSamplesAvg
 
@@ -205,7 +205,7 @@ CQD 不使用呼叫方/被叫方字段，而是使用"First"和"Second"，因为
 |2 (AVMCU)  |4 (Skype for Business)  |终结点 1 |终结点 2 |
 |2 (AVMCU)  |1 (mMediationServer)  |终结点 2 |终结点 1 |
 |4 (Skype for Business)  |4 (Skype for Business)  |MediaLine 中的呼叫者 |MMediaLine 中的被叫方 |
-|||||
+
 
 如果两个终结点的类型相同，则 CQD 将"呼叫者"条目"第一个"和"被叫方第二个"。 有关终结点名称详细信息，请参阅 [此博客](/archive/blogs/jenstr/call-quality-dashboard-tips-and-tricks)。
 
@@ -213,7 +213,7 @@ CQD 不使用呼叫方/被叫方字段，而是使用"First"和"Second"，因为
 
 如果已知 VPN 解决方案能够准确设置 VPN 标志，则你已全部设置。 否则，请使用下列方法之一：
 
-- 创建名为 VPN 网络类型 (首选) ，然后将 VPN 子网与这一新的 VPN NetworkType 关联。
+- 创建名为 VPN 网络类型 (首选) ，然后将 VPN 子网与这个新 VPN NetworkType 关联。
 - 创建一个称为 VPN 的建筑物，然后将 VPN 子网与该建筑物关联。
 
 ## <a name="query-fundamentals"></a>查询基础
@@ -222,7 +222,7 @@ CQD 不使用呼叫方/被叫方字段，而是使用"First"和"Second"，因为
 
 - 度量
 - Dimension
-- 筛选
+- 筛选器
 
 一个格式良好的查询示例为"按子网 [Dimension] 显示质量欠佳的流 [度量]，以生成 6 [筛选器]"。
 

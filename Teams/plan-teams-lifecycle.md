@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fa4d2cfa493ae6bec4429db9c3d01319d889288e
-ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
+ms.openlocfilehash: 539597393f34f2f02734c57df57097281a4d7839
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "59456372"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012816"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>在 Teams 中规划生命周期管理
 
@@ -109,7 +109,7 @@ _团队_ 是包含人员、内容和促进协作的工具的集合。 团队规�
 -   [部署云语音](cloud-voice-landing-page.md)
 
 
-|    |     |
+|&nbsp;|&nbsp;|
 |-----------|------------|
 | ![描述决策点的图标。](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>团队的目的是什么？</li><li>哪些人属于团队？</li><li>团队是私人团队还是公共团队？</li><li>新成员是否可以添加自己，或由团队所有者添加新成员？</li><li>哪些人有权创建频道或添加选项卡、聊天机器人和连接器？</li></ul> |
 | ![描述后续步骤的图标。](media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>创建团队。</li><li>规划频道。</li></ul>|
@@ -123,7 +123,7 @@ _团队_ 是包含人员、内容和促进协作的工具的集合。 团队规�
 
 在创建频道名称之前，请先考虑频道名称，因为在团队中重命名频道不会重命名 SharePoint 文档库中的相应文件夹，这可能导致最终用户混淆。 
 
-|    |     |
+|&nbsp;|&nbsp;|
 |-----------|------------|
 | ![描述决策点的图标。](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>哪些初始频道将会添加到团队？</li><li>将会提供哪些有关添加新频道的指导（如果有）？ （它们将按项目、按主题或按其他内容进行设置？）</li></ul> |
 | ![描述后续步骤的图标。](media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>创建初始频道</li><li>发布欢迎消息。</li><li>开始协作。</li></ul>|
@@ -144,7 +144,7 @@ _团队_ 是包含人员、内容和促进协作的工具的集合。 团队规�
 - 尝试使用不同的频道协作，例如，频道会议或围绕文档展开的选项卡对话。
 - 使用 Microsoft Teams 移动应用来提高参与度。
 
-|    |     |
+|&nbsp;|&nbsp;|
 |-----------|------------|
 | ![描述决策点的图标。](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>将由谁监控使用情况以发现问题？</li><li>将使用哪些指标来确定团队运行是否正常？</li><li>确定已达到其有效期限终点的任何团队。</li><li>确定仍在用于某个目的但需要增强活力的不正常团队。</li></ul> |
 | ![描述下一步的图标。](media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>实施流程以监控各个团队运行状况。</li></ul>|
@@ -161,7 +161,7 @@ _团队_ 是包含人员、内容和促进协作的工具的集合。 团队规�
 
 有关设置过期和保留策略的信息，请参阅 [Microsoft Teams 中的安全性和合规性概述](security-compliance-overview.md)。
 
-|    |     |
+|&nbsp;|&nbsp;|
 |-----------|------------|
 | ![描述决策点的图标。](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>定义团队到达其期限终点时的情况。</li><li>决定是否使团队的内容保留可用，以及保留多长时间。</li></ul> |
 | ![描述后续步骤的图标。](media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>记录最佳做法以及经验与教训。</li><li>存档数据（如果需要）。</li></ul>|

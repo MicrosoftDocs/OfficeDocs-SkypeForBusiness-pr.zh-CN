@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: '了解附加许可证、你将使用哪些功能、如何为产品购买它们以及如何将现有运营商与它们一起使用。 可以获取有关 Office 365 的定价信息和套餐详情、通信点数和通话套餐的信息。 '
-ms.openlocfilehash: 60684102e563e23e99ea5ea18a16bcf51f6d82db
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 92205ce6c4acd66759e782c6cfdf4fc0fc59ed77
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624524"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014756"
 ---
 # <a name="skype-for-business-add-on-licensing"></a>Skype for Business 附加许可
 
@@ -46,24 +46,24 @@ Skype for Business 许可旨在为你提供最大的灵活性。 例如，使用
 
 成本的详细信息，请参阅 [如何查看价格和购买加载项许可证](skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_how) 或下列选项之一：
 
-- [音频会议的定价](https://products.office.com/skype-for-business/audio-conferencing)
+- [音频会议的定价](https://www.microsoft.com/microsoft-teams/audio-conferencing)
 
 - [电话系统定价](https://products.office.com/skype-for-business/phone-system)
 
-- [通话套餐的定价](https://products.office.com/skype-for-business/calling-plans)
+- [通话套餐的定价](https://docs.microsoft.com/microsoftteams/set-up-audio-conferencing-in-team)
 
 ## <a name="what-features-can-i-get-with-add-on-licenses"></a>通过附加许可证可获得哪些功能？
 
 根据已有的方案，你可以购买以下 Skype for Business 功能的附加许可证：
 
-|||
+
+|功能 |说明 |
 |:-----|:-----|
-|**功能** <br/> |**说明** <br/> |
-|**音频会议** <br/> |有时，您的组织中的人员将需要使用电话来呼叫Skype for Business会议，而不是使用其计算机。 在此情况下可使用音频会议功能。  <br/> 要了解你所在国家或地区是否提供视频会议，请参阅 [音频会议和通话套餐的国家/地区可用情况](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)。 <br/> 如果要查找它的价格，请参阅 [音频会议的要求](https://products.office.com/skype-for-business/audio-conferencing#requirements)。  <br/> |
-|**用于拨入会议的免费电话号码，以及通过呼叫世界各地的任何电话号码从会议拨出以添加其他人的功能** <br/> |如果要添加音频会议，我们建议你 [设置通信点数](/microsoftteams/set-up-communications-credits-for-your-organization)。 <br/> |
-|**电话系统** <br/> |PBX 是一个企业电话系统。 电话系统是一种托管电话服务。 它为你提供了传统和创新的 PBX 功能，但不带复杂和昂贵的设备。 [下面是使用 电话系统。](/MicrosoftTeams/here-s-what-you-get-with-phone-system)  <br/> 如果要查找它的价格，请参阅 [电话系统的要求](https://products.office.com/skype-for-business/cloud-pbx#requirements)。  <br/> |
-|**通话套餐** <br/> |呼叫其他Skype for Business是免费的，但如果希望用户能够拨打企业外部的任何电话号码，请获取呼叫[计划](/MicrosoftTeams/calling-plans-for-office-365)。 有国内呼叫计划以及国内和国际呼叫计划。  <br/> 如果要查找它的的价格，请参阅 [通话套餐的要求](https://products.office.com/skype-for-business/pstn-calling-plans#requirements)。  <br/> |
-|**Microsoft Teams 会议室** <br/> |这不是附加设备，而是一种将视频、音频和内容共享带入会议室的功能。 请参阅 [Microsoft Teams 会议室](/MicrosoftTeams/rooms/rooms-licensing)。  <br/> |
+|**音频会议**  |有时，您的组织中的人员将需要使用电话来呼叫Skype for Business会议，而不是使用其计算机。 在此情况下可使用音频会议功能。  <br/> 要了解你所在国家或地区是否提供视频会议，请参阅 [音频会议和通话套餐的国家/地区可用情况](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)。 <br/> 如果要查找它的价格，请参阅 [音频会议的要求](https://products.office.com/skype-for-business/audio-conferencing#requirements)。   |
+|**用于拨入会议的免费电话号码，以及通过呼叫世界各地的任何电话号码从会议拨出以添加其他人的功能**  |如果要添加音频会议，我们建议你 [设置通信点数](/microsoftteams/set-up-communications-credits-for-your-organization)。  |
+|**电话系统**  |PBX 是一个企业电话系统。 电话系统是一种托管电话服务。 它为你提供了传统和创新的 PBX 功能，但不带复杂和昂贵的设备。 [下面是使用 电话系统。](/MicrosoftTeams/here-s-what-you-get-with-phone-system)  <br/> 如果要查找它的价格，请参阅 [电话系统的要求](https://products.office.com/skype-for-business/cloud-pbx#requirements)。   |
+|**通话套餐**  |呼叫其他Skype for Business是免费的，但如果希望用户能够拨打企业外部的任何电话号码，请获取呼叫[计划](/MicrosoftTeams/calling-plans-for-office-365)。 有国内呼叫计划以及国内和国际呼叫计划。  <br/> 如果要查找它的的价格，请参阅 [通话套餐的要求](https://products.office.com/skype-for-business/pstn-calling-plans#requirements)。   |
+|**Microsoft Teams 会议室**  |这不是附加设备，而是一种将视频、音频和内容共享带入会议室的功能。 请参阅 [Microsoft Teams 会议室](/MicrosoftTeams/rooms/rooms-licensing)。   |
 
 需要向其他人介绍所有附加选项吗？ [联系商业产品的支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
 
@@ -84,7 +84,7 @@ Skype for Business 许可旨在为你提供最大的灵活性。 例如，使用
 ## <a name="how-to-see-prices-and-buy-add-on-licenses"></a>如何查看价格和购买附加许可证
 <a name="bkmk_how"> </a>
 
- **购买购买Microsoft 365计划** 后，你将看到价格并通过"购买"Microsoft 365 管理中心。
+ **购买附加Microsoft 365计划** 后，你将看到价格并通过"购买"Microsoft 365 管理中心。
 
 根据你所需要的附加许可证，我们建议你[比较一下更改为已经包含这些功能的某项计划是否更加划算](https://go.microsoft.com/fwlink/?linkid=844053)。
 

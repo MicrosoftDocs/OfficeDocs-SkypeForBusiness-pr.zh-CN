@@ -1,5 +1,5 @@
 ---
-title: 在 Skype for Business Online 中向用户发送包含其音频Skype for Business的电子邮件
+title: 在 Skype for Business Online 中使用其音频会议向用户发送电子邮件
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,22 +20,22 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: 在 Skype for Business Online 中向用户发送包含其音频会议Skype for Business电子邮件。
-ms.openlocfilehash: 428ff78fe501200ef9607a03d76c034007517cf0
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: 在 Skype for Business Online 中向用户发送包含其音频会议信息的电子邮件。
+ms.openlocfilehash: 8576417588571fcc76461a635f00cb3095410b86
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727671"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012346"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-skype-for-business-online"></a>在 Skype for Business Online 中向用户发送包含其音频会议信息的电子邮件
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!Note]
-> 有关向用户发送音频会议Microsoft Teams，请参阅在[Microsoft Teasms](/MicrosoftTeams/send-an-email-to-a-user-with-their-dial-in-information-in-teams)中向用户发送包含其音频会议信息的电子邮件。
+> 有关向 Microsoft Teams 中的用户发送音频会议信息的信息，请参阅在 [Microsoft Teasms](/MicrosoftTeams/send-an-email-to-a-user-with-their-dial-in-information-in-teams)中向用户发送包含其音频会议信息的电子邮件。
 
-有时Skype for Business用户可能需要你向用户发送其音频会议信息。 为此，可以使用 Skype for Business **管理中心，然后单击** 用户属性下的"通过电子邮件发送会议信息"。 当你发送此电子邮件时，它将包含所有音频会议信息，包括：
+有时 Skype for Business 用户可能需要你向用户发送其音频会议信息。 为此，可以使用 Skype for Business 管理 **中心，** 然后单击用户属性下的"通过电子邮件发送会议信息"。 当你发送此电子邮件时，它将包含所有音频会议信息，包括：
   
 - 用户的会议电话或拨入电话号码。
     
@@ -59,7 +59,7 @@ ms.locfileid: "58727671"
 
 1. 使用工作或学校帐户登录。
     
-2. 转到管理中心 **> Skype for Business，** 在左侧导航中，单击"**音频会议"。**
+2. 转到 Skype **for Business**>管理中心，在左侧导航中，单击"**音频会议"。**
     
 3. 单击 **"用户**"，然后选择用户。
     
@@ -84,13 +84,13 @@ ms.locfileid: "58727671"
     
   - 当用户的音频会议提供商更改为 Microsoft 时。
     
-- 默认情况下，电子邮件的发件人来自 Microsoft 365 或 Office 365，但您可以使用 Windows PowerShell 和[Set-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/Set-CsOnlineDialInConferencingTenantSettings) cmdlet 更改电子邮件地址和 显示名称。 若要更改向用户发送电子邮件的电子邮件地址，必须：
+- 默认情况下，电子邮件的发件人来自 Microsoft 365 或 Office 365，但您可以使用 Windows PowerShell 和 [Set-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/Set-CsOnlineDialInConferencingTenantSettings) cmdlet 更改电子邮件地址和 显示名称。 若要更改向用户发送电子邮件的电子邮件地址，必须：
     
   - 在 SendEmailFromAddress 参数中输入电子邮件地址。
     
   - 将SendEmailOverride参数设置为 True。
     
-  - 在 SendEmailFromDisplayName 显示名称中输入电子邮件名称。
+  - 在 SendEmailFromDisplayName 显示名称输入电子邮件名称。
     
      `Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailFromAddress amos.marble@contoso.com -SendEmailFromDisplayName "Amos Marble"`
     
@@ -107,13 +107,13 @@ ms.locfileid: "58727671"
   Set-CsOnlineDialInConferencingUser -id amos.marble@contoso.com  -SendEmail
   ```
 
-- 对于 Windows PowerShell，Skype for Business Online 的功能是管理用户以及允许或不允许用户执行的操作。 使用Windows PowerShell，可以使用Microsoft 365管理Office 365管理点来管理任务或任务，当您有多个任务需要执行时，可以简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
+- 对于 Windows PowerShell，Skype for Business Online 的功能是管理用户以及允许或不允许用户执行的操作。 使用Windows PowerShell，您可以使用单点管理来管理 Microsoft 365 或 Office 365，当您有多个任务需要执行时，可以简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
     
-  - [为何需要将 Microsoft 365 或 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [为何需要使用 Microsoft 365 或 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [使用 Microsoft 365 Office 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [使用 Office 365 管理 Microsoft 365 或 Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-- Windows PowerShell比仅使用 Microsoft 365 管理中心 在速度、简单性和工作效率方面具有许多优势，例如，一次为许多用户更改设置时。 请在以下主题中了解这些优点： 
+- Windows PowerShell使用 Microsoft 365 管理中心相比，在速度、简单性和工作效率方面具有许多优势，例如，一次对多个用户进行设置更改时。 请在以下主题中了解这些优点： 
     
   - [Windows PowerShell 和 Skype for Business Online 简介](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
@@ -122,8 +122,8 @@ ms.locfileid: "58727671"
   - [使用 Windows PowerShell 执行常见的 Skype for Business Online 管理任务](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
     > [!NOTE]
-    > [!注释] 使用适用于 Skype for Business Online 的 Windows PowerShell 模块，你可以创建连接到 Skype for Business Online 的远程 Windows PowerShell 会话。此模块仅在 64 位计算机上受支持，可以从 Microsoft 下载中心的[适用于 Skype for Business Online 的 Windows PowerShell 模块](https://go.microsoft.com/fwlink/?LinkId=294688)下载。
+    > [!注释] 使用适用于 Skype for Business Online 的 Windows PowerShell 模块，你可以创建连接到 Skype for Business Online 的远程 Windows PowerShell 会话。 此模块仅在 64 位计算机上受支持，可从 Microsoft 下载中心下载并安装 Teams [PowerShell 模块](../set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector.md)。
   
 ## <a name="related-topics"></a>相关主题
 
-[尝试或购买音频会议Microsoft 365或Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[在 Microsoft 365 或 Office 365 中试用或购买音频会议](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

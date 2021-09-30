@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: c8bb3c67-b324-4d94-8158-00c792c7ac42
-description: 摘要：了解如何在 Skype for Business Server 中 (QoE) 用户体验质量。
-ms.openlocfilehash: 5865417582f2676525e955efd800684647d9a191
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 摘要：了解如何在 (中) QoE Skype for Business Server。
+ms.openlocfilehash: 3edd7aa136499dcc4b1fd423a1369dcff33f0968
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580586"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014746"
 ---
 # <a name="enable-quality-of-experience-in-skype-for-business-server"></a>启用用户体验质量Skype for Business Server
 
-**摘要：了解如何** 在 Skype for Business Server 中 (QoE) 用户体验质量Skype for Business Server。
+**摘要：了解如何** 在 (中) QoE Skype for Business Server 用户体验质量。
 
 用户体验质量 (QoE) 记录指示媒体质量以及有关呼叫和会话中所涉及参与者、设备名称、驱动程序、IP 地址和终结点类型的信息的数值型数据。有关详细信息，请参阅规划文档中的[Planning for Monitoring](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-monitoring)。
 
@@ -42,7 +42,7 @@ ms.locfileid: "58580586"
 
 ## <a name="enabling-qoe-by-using-windows-powershell-cmdlets"></a>使用 Cmdlet 启用 qoE Windows PowerShell Cmdlet
 
-可以使用 Windows PowerShell **和 Set-CsQoEConfiguration** cmdlet 启用 QoE。 可以从命令行管理程序或 Skype for Business Server远程会话中运行此 cmdlet Windows PowerShell。 有关使用远程 Windows PowerShell连接到 Skype for Business Server 的详细信息，请参阅博客文章"快速入门：使用远程[PowerShell 管理 Microsoft Lync Server 2010"。](https://go.microsoft.com/fwlink/p/?linkId=255876) 此过程在Skype for Business Server。
+可以使用 Windows PowerShell **和 Set-CsQoEConfiguration** cmdlet 启用 QoE。 可以从命令行管理程序或 Skype for Business Server远程会话中运行此 cmdlet Windows PowerShell。 有关使用远程 powerShell Windows PowerShell连接到Skype for Business Server的详细信息，请参阅[Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 此过程在Skype for Business Server。
 
 ### <a name="to-enable-qoe-for-a-single-location"></a>对单个位置启用 QoE
 

@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 450decb455b35018c2dc4c02951ee542ab212371
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 8a928b532dcfb87a866f25502f4523078ce9cd48
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725821"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012956"
 ---
 # <a name="user-presence-in-teams"></a>Teams 中的用户状态
 
@@ -33,6 +33,7 @@ ms.locfileid: "58725821"
 
  > [!NOTE]
  > Teams 尊重你的隐私配置，因此如果已启用隐私模式，外部用户将看不到你的状态。
+
 ## <a name="presence-states-in-teams"></a>Teams 中的状态
 
 
@@ -50,10 +51,10 @@ ms.locfileid: "58725821"
 | ![黄色时钟图标，表示离开。](media/Presence_Away.png) Away - 离开| ![黄色时钟图标，表示离开。](media/Presence_Away.png) 离开|
 || ![黄色时钟图标，表示离开](media/Presence_Away.png)上次上线 *时间* 离开|
 |![黄色时钟图标，表示离开但马上回来。](media/Presence_Away.png) 马上回来| |
-|![带 x 的灰色圆圈，表示脱机。](media/Presence_Offline.png) 显示为脱机|![带 x 的灰色圆圈，表示脱机](media/Presence_Offline.png) 脱机。如果用户在几分钟内未登录其任何设备，则将显示为脱机。 | |
+|![带 x 的灰色圆圈，表示脱机。](media/Presence_Offline.png) 显示为脱机|![带 x 的灰色圆圈，表示脱机](media/Presence_Offline.png) 脱机。如果用户在几分钟内未登录其任何设备，则将显示为脱机。 |
 || ![空心灰色圆圈，表示未知状态。](media/Presence_Unknown.png) 未知状态|
 || ![带箭头的紫色圆圈，表示外出。](media/Presence_OOF.png) 外出。设置自动答复后，将使用外出。 |
-|||
+
  > [!NOTE]
  > 对于将邮箱托管到本地的用户，预期存在一个小时（上限）的状态延迟。
 
@@ -82,7 +83,6 @@ ms.locfileid: "58725821"
 | 忙碌|1 天|
 | 请勿打扰|1 天|
 | 其他|7 天|
-|||
 
 > [!NOTE]
 > 用户还可以手动配置其状态的持续时间。 例如，用户可以将自己设置为“显示为脱机”，直到明天早上。

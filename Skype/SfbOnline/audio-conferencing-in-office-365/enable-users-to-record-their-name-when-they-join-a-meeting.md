@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 了解如何启用或禁用用户在加入 Skype for Business Online 会议时是否可以录制其姓名。
-ms.openlocfilehash: cad0f5a904fbec064fd07080b43af7ee6a8a9671
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6f1c6c5d582665f411eaa17b76e7c1922ee9e468
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626254"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012946"
 ---
 # <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-skype-for-business-online"></a>允许用户在 Skype for Business Online 中加入会议时录制其姓名
 
@@ -41,7 +41,7 @@ ms.locfileid: "58626254"
 
 ## <a name="set-whether-callers-should-record-their-name"></a>设置呼叫者是否应录制其姓名
     
-1. 在 Skype for Business **管理** 中心的 左侧导航中，转到"**音频会议**  >  **Microsoft 网桥设置"。**
+1. 在 **Skype for Business管理** 中心的 左侧导航中，转到"**音频会议**  >  **""Microsoft 网桥设置"。**
     
 2. 在 **会议的与会体验** 中，请参阅标记为 **打开启用会议加入和退出通知** 的复选框。
     
@@ -58,13 +58,13 @@ ms.locfileid: "58626254"
 
 - 为节省时间或自动执行此操作，可以使用 [Set-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/Set-CsOnlineDialInConferencingTenantSettings) cmdlet。
     
-- Windows PowerShell管理用户以及允许用户执行哪些操作。 使用Windows PowerShell，Microsoft 365 Office 365单点管理来管理任务或任务，可在有多个任务需要执行时简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
+- Windows PowerShell管理用户以及允许用户执行哪些操作。 使用Windows PowerShell，可以使用Microsoft 365管理Office 365管理点来管理任务或任务，当您有多个任务需要执行时，可以简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
     
   - [为何需要将 Microsoft 365 或 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [使用 Microsoft 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [使用 Microsoft 365 Office 365管理Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-- Windows PowerShell相比于仅使用 Microsoft 365 管理中心，在速度、简单性和工作效率方面具有许多优势，例如，一次为许多用户更改设置时。 请在以下主题中了解这些优点： 
+- Windows PowerShell相比于仅使用 Microsoft 365 管理中心，在速度、简单性和工作效率方面具有许多优势，例如，一次对许多用户进行设置更改时。 请在以下主题中了解这些优点： 
     
   - [Windows PowerShell 和 Skype for Business Online 简介](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
@@ -73,7 +73,7 @@ ms.locfileid: "58626254"
   - [使用 Windows PowerShell 执行常见的 Skype for Business Online 管理任务](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
     > [!NOTE]
-    > [!注释] 使用适用于 Skype for Business Online 的 Windows PowerShell 模块，你可以创建连接到 Skype for Business Online 的远程 Windows PowerShell 会话。此模块仅在 64 位计算机上受支持，可以从 Microsoft 下载中心的[适用于 Skype for Business Online 的 Windows PowerShell 模块](https://go.microsoft.com/fwlink/?LinkId=294688)下载。
+    > [!注释] 使用适用于 Skype for Business Online 的 Windows PowerShell 模块，你可以创建连接到 Skype for Business Online 的远程 Windows PowerShell 会话。 此模块仅在 64 位计算机上受支持，可从 Microsoft 下载中心下载并安装 Teams [PowerShell 模块](../set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector.md)。
   
 ## <a name="related-topics"></a>相关主题
 

@@ -19,37 +19,37 @@ f1.keywords:
 ms.custom:
 - Legal
 hideEdit: true
-description: 2021 年 7 月 31 日，生命周期计划结束，将 Skype for Business 与第三方音频会议提供商 (ACP) 。
-ms.openlocfilehash: 75ee6616634b4670c633fe24d1c623bbe3d39499
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 2021 年 7 月 31 日，结束生命周期计划后，Skype for Business 将第三方音频会议提供商 (第三方 ACP) 。
+ms.openlocfilehash: c159d201a284b683237df22688878ef268c442b1
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609989"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014376"
 ---
 # <a name="end-of-life-program-for-the-integration-of-skype-for-business-with-third-party-audio-conferencing-providers"></a>用于将会议与第三Skype for Business音频会议提供商集成的生命周期计划 
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Microsoft 已宣布开始终止生命周期计划，以将 Skype for Business 与第三方音频会议提供商 (AAP) 。 
+Microsoft 已宣布终止生命周期计划，以将 Skype for Business 与第三方音频会议提供商 (ACP) 。 
 
-生命周期结束于 2021 年 7 月 31 日结束。 计划结束时，Skype for Business第三方音频会议提供商的集成将停止工作，并且将在 2021 年 7 月 31 日 (观察到以下) ：
+生命周期结束于 2021 年 7 月 31 日结束。 计划结束时，Skype for Business第三方音频会议提供商的集成将停止工作，并且将在 2021 年 7 月 31 日 (看到以下) ：
 
-- 尝试通过第三Skype for Business ACP 服务提供的拨入号码加入任何会议的参与者将不再连接到 Skype for Business 会议。
+- 尝试通过第三方 ACP Skype for Business拨入号码加入任何会议的参与者将不再连接到 Skype for Business 会议。
  
-- 为第三方 ACP 服务启用的用户将不再自动将拨入信息包含在任何新的会议Skype for Business邀请中。
+- 为第三方 ACP 服务启用的用户将不再具有其拨入信息自动包含在任何新的会议Skype for Business邀请中。
 
 作为生命周期结束计划开始公告的一部分，以下更改已生效，并且将继续实施，直到生命周期计划结束： 
 
 - 没有用户Skype for Business配置为使用第三方 ACP 服务的客户将无法将任何用户配置为使用第三方 ACP 服务。
 
-- 如果现有Skype for Business配置为使用第三方 ACP 服务，则现有客户能够在生命周期结束时继续添加新用户。 请注意，不建议将其他 Skype for Business 用户设置为使用第三方 ACP 服务，因为将于 2021 年 7 月 31 日生效的更改也适用于他们。
+- 现有客户Skype for Business配置为使用第三方 ACP 服务的现有客户能够在生命周期结束时继续添加新用户。 请注意，我们不建议将其他 Skype for Business 用户设置为使用第三方 ACP 服务，因为将于 2021 年 7 月 31 日生效的更改也适用于他们。
 
 ## <a name="preparing-for-this-change"></a>准备进行此更改
 
 为准备进行此更改，我们鼓励受影响的组织在 2021 年 7 月 31 日之前通知其已启用此计划更新的用户。 
 
-2021 年 7 月 31 日之后，用户可以继续使用 Skype for Business，不会中断其联机会议;但是，如果组织要求使用电话拨入式音频会议或会议，则组织将需要为 Microsoft 提供的音频Skype for Business Microsoft Teams。 若要详细了解 Microsoft 音频会议，请参阅 [音频会议](https://products.office.com/skype-for-business/audio-conferencing)。 
+2021 年 7 月 31 日之后，用户可以继续使用 Skype for Business，不会中断其联机会议;但是，如果组织要求使用电话拨入式音频会议或会议，则组织需要为 Microsoft 提供的音频Skype for Business Microsoft Teams。 若要详细了解 Microsoft 音频会议，请参阅 [音频会议](https://www.microsoft.com/microsoft-teams/audio-conferencing)。 
 
 根据组织的所需结束状态，可以遵循三种路径：
 
@@ -87,7 +87,7 @@ Microsoft 已宣布开始终止生命周期计划，以将 Skype for Business �
 
 决定在 2021 年 7 月 31 日及之后继续使用第三方 ACP 的组织将遇到服务影响，因为第三方 ACP 拨入信息将不再能够用于加入 Skype for Business 会议的音频部分。 
 
-若要防止某些参与者通过 VoIP 加入会议或通过第三方 ACP 加入其他参与者，以防止 Skype for Business 会议中出现音频碎片，建议这些组织禁止在用户的会议中使用 VoIP。 这样，所有参与者都需要使用第三方 ACP 加入会议的音频部分，并且会议 (的所有其他工作负荷（例如聊天或屏幕共享) ）可以通过 Skype for Business 继续受支持。 
+为了防止某些参与者通过 VoIP 加入会议或通过第三方 ACP 加入其他参与者，以防止 Skype for Business 会议中出现音频碎片，建议这些组织禁止在用户的会议中使用 VoIP。 这样，所有参与者都需要使用第三方 ACP 加入会议的音频部分以及会议 (的所有其他工作负荷（例如聊天或屏幕共享) ）可以通过 Skype for Business 继续受支持。 
 
 - 若要从给定组织者的所有会议禁用 VoIP，请通过 Set-CsConferencingPolicy cmdlet 将其会议策略的 AllowIPAudio 参数设置为 false。 有关其他信息，请参阅[Set-CsConferencingPolicy。](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)
  
@@ -115,7 +115,7 @@ Microsoft 已宣布开始终止生命周期计划，以将 Skype for Business �
 
 ### <a name="path-3-stop-using-dial-in-conferencing-altogether"></a>路径#3：完全停止使用电话拨入式会议
 
-决定停止使用电话拨入式会议的组织完全 (Microsoft 和第三方 ACP) 都可以完全依赖 VoIP 来支持 Skype for Business 会议的音频部分。 
+决定完全停止使用电话拨入式会议的组织 (Microsoft 和第三方 ACP) 都可以完全依赖 VoIP 来支持 Skype for Business 会议的音频部分。 
 
 这些组织需要禁止其用户使用第三方音频会议提供商，并且使用会议迁移服务自动重新安排其会议以删除其电话拨入式会议信息。 
 

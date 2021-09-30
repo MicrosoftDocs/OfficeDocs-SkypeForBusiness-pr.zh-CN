@@ -20,23 +20,23 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a3013b89ab384ca3f66c04bee06ccbbaf57445ff
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: a55c7440b7d3183e93391ecc0e4f8781ba7b690f
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727601"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013296"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>规划Microsoft 365政府 - GCC部署
 
-本指南适用于在美国联邦、州、地方、部落或政府实体或其他处理受政府法规和要求（使用 Microsoft 365 政府版 - GCC）适合满足这些要求的实体中部署 Microsoft 365 的 IT 专业人员。 2020 年 3 月 26 日新版：不要错过可下载的快速[入门](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Quick-Start-Guide-for-GCC.pdf?raw=true)指南GCC。
+本指南适用于在美国联邦、州、地方、部落或主权政府实体或处理受政府法规和要求处理数据的其他实体中驱动 Microsoft 365 部署的 IT 专业人员，如果适合使用 Microsoft 365 政府版 - GCC 来满足这些要求。 2020 年 3 月 26 日新版：不要错过可下载的快速[入门](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Quick-Start-Guide-for-GCC.pdf?raw=true)指南GCC。
 
 > [!IMPORTANT]
-> Microsoft Teams COVID-19 由于 COVID-19 的 (，在线呼叫和音频/视频会议) 高峰。<br/>
+> Microsoft Teams由于 COVID-19 的 corona (，在线呼叫和音频/视频会议) 高峰。<br/>
 > 
 >为了应对呼叫的前所未有的增加，为了确保连续性和可用性，Microsoft 允许 Microsoft Teams GCC 音频/视频服务器在我们的商业数据中心以及政府数据中心利用处理能力。<br/>
 > 
->这些音频/视频服务器驻留在美国Microsoft Azure FedRAMP 高认证边界服务器内，不存储任何客户内容。 但是，这些服务器正在处理呼叫和会议的音频和视频，并且在此过渡期间在我们的商业人员下操作。<br/>
+>这些音频/视频服务器驻留在美国Microsoft Azure FedRAMP 高认证边界服务器中，不存储任何客户内容。 但是，这些服务器正在处理呼叫和会议的音频和视频，并且在此过渡期间在我们的商业人员下操作。<br/>
 > 
 >合格、经筛选的人员通过查看这些服务器的任何交互式登录来监视这些服务器，以可能访问客户数据。 合格人员GCC访问客户内容的要求。 有关筛选要求的详细信息，请参阅GCC[说明](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc)。<br/>
 > 
@@ -44,32 +44,32 @@ ms.locfileid: "58727601"
 
 
 > [!NOTE]
-> 如果你的组织已满足 Microsoft 365 政府 - GCC资格要求，并且已申请并接受该计划，你可以跳过步骤 1 和 2 并直接转到步骤 3。 
+> 如果你的组织已满足 Microsoft 365 政府 - GCC资格要求，并且已申请并接受该计划，则你可以跳过步骤 1 和 2 并直接转到步骤 3。 
 
 ## <a name="step-1-determine-whether-your-organization-needs-microsoft-365-government---gcc-and-meets-eligibility-requirements"></a>第 1 步 确定组织是否需要Microsoft 365政府 - GCC并满足资格要求。 
 
 Microsoft 365 政府 - GCC 环境符合美国政府对云服务（包括 FedRAMP 中等）的要求，以及适用于犯罪和联邦税务信息系统的要求 (CJI 和 FTI 数据类型) 。
 
-除了享受服务的功能Microsoft 365，组织还受益于政府 - Microsoft 365独有的GCC：
+除了享受企业功能Microsoft 365，组织还受益于以下政府 - Microsoft 365独有的GCC：
 
 -   组织的客户内容在逻辑上与 Microsoft 商业Microsoft 365内容分开。
 -   组织的客户内容存储在美国。
 -   对组织的客户内容的访问仅限于已筛选的 Microsoft 人员。
 -   Microsoft 365政府 - GCC符合美国公共服务部门客户所需的认证和认证。
 
-有关美国政府 - Microsoft 365 产品/服务GCC，请参阅政府Microsoft 365计划，[包括](https://products.office.com/government/compare-office-365-government-plans)[资格要求](https://products.office.com/government/compare-office-365-government-plans#EligibilityRequirements)。
+有关美国政府 - 美国政府Microsoft 365产品/服务GCC，请参阅政府Microsoft 365计划，[包括](https://products.office.com/government/compare-office-365-government-plans)[资格要求](https://products.office.com/government/compare-office-365-government-plans#EligibilityRequirements)。
 
-本[Microsoft 365美国政府](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government)服务说明介绍了平台的好处，其中心内容是满足美国内部的合规性要求。
+本[Microsoft 365美国政府](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government)服务说明介绍了该平台的好处，其中心内容是满足美国内部的合规性要求。
 
 > [!Tip]
-> 您可能希望将服务说明中的信息表转移到 Excel 工作簿并添加两列：与我的组织 **相关 Y/N** 和满足我的组织 **Y/N 的需求**。 然后，可以与同事一起查看此列表，确认此服务满足组织的需求。
+> 您可能希望将服务说明中的信息表转移到 Excel 工作簿并添加两列：与我的组织 **Y/N** 相关和满足我的组织 **Y/N 的需求**。 然后，可以与同事一起查看此列表，确认此服务满足组织的需求。
 
-|    |     |
+|&nbsp;|&nbsp;|
 |-----------|------------|
 | ![描述决策点的图标。](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>确定Microsoft 365政府 - GCC是否适合组织。</li><li>确认组织满足资格要求。</li></ul> |
 
 > [!Note]
-> Microsoft 365政府 - GCC仅适用于美国。 非美国政府客户可以从多个政府[Microsoft 365中选择](https://products.office.com/en/government/compare-office-365-government-plans)。
+> Microsoft 365政府 - GCC仅适用于美国。 非美国政府客户可以从多个政府Microsoft 365[中选择](https://products.office.com/en/government/compare-office-365-government-plans)。
 
 
 ## <a name="step-2-apply-for-microsoft-365-government---gcc"></a>第 2 步 申请政府Microsoft 365 - GCC
@@ -80,9 +80,9 @@ Microsoft 365 政府 - GCC 环境符合美国政府对云服务（包括 FedRAMP
 
 建议在修改管理员和安全设置之前，先仔细[](enable-features-office-365.md)查看这些设置，并考虑对合规性的影响，然后再对默认安全设置进行更改。
 
-|    |     |
+|&nbsp;|&nbsp;|
 |-----------|------------|
-| ![描述决策点的图标。](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>决定是否要修改任何默认Microsoft 365政府 - GCC设置，首先了解可能进行的任何更改的影响。</li></ul> |
+| ![描述决策点的图标。](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>决定是否要修改任何默认的政府Microsoft 365 - GCC安全设置，以首先了解可能做出的任何更改的影响。</li></ul> |
 
 ## <a name="step-4-understand-which-capabilities-are-currently-unavailable-or-disabled-by-default"></a>第 4 步 了解默认情况下哪些功能当前不可用或已禁用。
 
@@ -94,23 +94,23 @@ Microsoft 365 政府 - GCC 环境符合美国政府对云服务（包括 FedRAMP
 > 其他工作负荷在云GCC完全可用后，当所有其他集成工作Teams，这些工作负荷将在云中可用。
 
 
-|    |     |
+|&nbsp;|&nbsp;|
 |-----------|------------|
 | ![描述决策点的图标。](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>确定Teams功能集是否满足组织的需求。</li></ul> |
 
 ## <a name="step-5-plan-for-governance"></a>第 5 步 规划治理
 
-确定监管要求以及如何满足这些要求。 有关详细信息[，请转到规划](plan-teams-governance.md)Teams治理。
+确定监管要求以及如何满足这些要求。 有关详细信息[，请转到Teams](plan-teams-governance.md)规划治理。
 
-|    |     |
+|&nbsp;|&nbsp;|
 |-----------|------------|
-| ![描述决策点的图标。](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>按照在管理中规划治理中的准则，确定[并](plan-teams-governance.md)记录Teams。</li></ul> |
+| ![描述决策点的图标。](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>按照规划中治理中的指导原则，确定并记录治理[Teams。](plan-teams-governance.md)</li></ul> |
 
 ## <a name="step-6-deploy-teams-for-collaboration"></a>第 6 步 部署Teams进行协作
 
-在加入政府 - Microsoft 365后，GCC按照如何推出 Microsoft Teams 中概述的建议[部署路径](./deploy-overview.md)。 请务必与采用和更改管理团队和Teams合作。
+在加入政府 - Microsoft 365后，GCC按照如何推出部署中概述的建议[部署Microsoft Teams。](./deploy-overview.md) 请务必与采用和更改管理团队互动，并Teams者。
 
-还可以与合作伙伴或[FastTrack](https://www.microsoft.com/fasttrack)合作来载入服务。
+还可以与合作伙伴或[FastTrack](https://www.microsoft.com/fasttrack)合作伙伴合作，加入该服务。
 
 ## <a name="step-7-deploy-teams-for-meetings-and-voice"></a>第 7 步 为Teams和语音部署语音
 

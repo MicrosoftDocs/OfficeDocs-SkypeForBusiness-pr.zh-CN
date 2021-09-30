@@ -12,18 +12,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 38d9f168-80b8-46f2-a1c0-becd84e58e73
 description: 摘要：阅读本主题，了解如何在 Skype for Business Server 中配置电话拨入式Skype for Business Server。
-ms.openlocfilehash: a9d48b5232a446f81de1acf14cddfa054f74d488
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3533220dc84f131b02f180bb863883b371cbf365
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609949"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013786"
 ---
 # <a name="configure-dial-in-conferencing-in-skype-for-business-server"></a>配置电话拨入式会议Skype for Business Server
  
 **摘要：** 阅读本主题，了解如何在 Skype for Business Server 中配置电话拨入式Skype for Business Server。
   
-创建包含会议工作负荷和所选电话拨入式会议拓扑后，必须执行其他步骤来配置电话拨入式会议。 在阅读本主题之前，请确保已阅读[Skype for Business Server](../../plan-your-deployment/conferencing/dial-in-conferencing.md)中的电话拨入式会议计划[、Skype for Business Server](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)中的会议硬件和软件要求以及电话拨入式会议部署[流程](deploy-conferencing.md#deployment-flowchart-and-checklist-for-dial-in-conferencing)图和清单。 
+创建包含会议工作负荷和所选电话拨入式会议拓扑后，必须执行其他步骤来配置电话拨入式会议。 在阅读本主题之前，请确保已阅读[规划 Skype for Business Server](../../plan-your-deployment/conferencing/dial-in-conferencing.md)中的电话拨入式会议[、Skype for Business Server](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)中的会议硬件和软件要求以及电话拨入式会议部署[流程](deploy-conferencing.md#deployment-flowchart-and-checklist-for-dial-in-conferencing)图和清单。 
   
 要配置电话拨入式会议，必须执行以下任务：
   
@@ -60,11 +60,11 @@ ms.locfileid: "58609949"
   
 设置电话拨入式会议拨号计划：
   
-- 不论您是否企业语音，修改全局拨号计划以添加电话拨入式会议区域，并确保规范化规则准确转换您的拨入访问号码。 有关详细说明，请参阅 Create [or modify a dial plan in Skype for Business Server](../../deploy/deploy-enterprise-voice/dial-plans.md)。
+- 不论您是否企业语音，修改全局拨号计划以添加电话拨入式会议区域，并确保规范化规则准确转换拨入访问号码。 有关详细说明，请参阅 Create [or modify a dial plan in Skype for Business Server](../../deploy/deploy-enterprise-voice/dial-plans.md)。
     
 - 如果未部署企业语音，请为电话拨入式会议访问号码创建拨号计划。 确保其中包含电话拨入式会议区域。 有关详细说明，请参阅 Create [or modify a dial plan in Skype for Business Server](../../deploy/deploy-enterprise-voice/dial-plans.md)。
     
-- 如果已部署企业语音，企业语音修改拨号计划以包含区域，并针对拨入访问号码使用相应的规范化规则。 还可以创建仅用于拨入访问号码的专用拨号计划。 有关详细说明，请参阅 Create [or modify a dial plan in Skype for Business Server](../../deploy/deploy-enterprise-voice/dial-plans.md)。
+- 如果部署了企业语音，企业语音修改拨号计划以包含区域，并使用相应的规范化规则处理拨入访问号码。 还可以创建仅用于拨入访问号码的专用拨号计划。 有关详细说明，请参阅 Create [or modify a dial plan in Skype for Business Server](../../deploy/deploy-enterprise-voice/dial-plans.md)。
     
 有关创建规范化规则的详细信息，请参阅 Create [or modify a normalization rule in Skype for Business](../../deploy/deploy-enterprise-voice/normalization-rules.md)。
   
@@ -75,7 +75,7 @@ ms.locfileid: "58609949"
   
 由于必须指定所有拨号计划的区域，因此建议您验证所有拨号计划是否都有会议区域。 
   
-若要验证是否针对所有电话拨入式会议拨号计划设置了区域，请使用 **Get-CsDialPlan** cmdlet。 如果拨号计划中缺少区域，可使用 **Set-CsDialPlan** cmdlet 设置区域。 您还可以使用Skype for Business Server控制面板更新现有拨号计划中的区域。 有关使用 Skype for Business Server 控制面板的详细信息，请参阅 Create [or modify a dial plan in Skype for Business Server](../../deploy/deploy-enterprise-voice/dial-plans.md)。
+若要验证是否针对所有电话拨入式会议拨号计划设置了区域，请使用 **Get-CsDialPlan** cmdlet。 如果拨号计划中缺少区域，可使用 **Set-CsDialPlan** cmdlet 设置区域。 您还可以使用Skype for Business Server控制面板更新现有拨号计划中的区域。 有关使用控制面板Skype for Business Server的详细信息，请参阅 Create [or modify a dial plan in Skype for Business Server](../../deploy/deploy-enterprise-voice/dial-plans.md)。
   
 ### <a name="to-verify-whether-dial-plans-have-the-region-property-set"></a>验证拨号计划是否设置了 region 属性
 
@@ -128,7 +128,7 @@ ms.locfileid: "58609949"
 
 部署电话拨入式会议时，需要设置用户可从公用电话交换网 (PSTN) 拨打的电话号码，以加入会议的音频部分。 这些拨入访问号码显示在会议邀请和电话拨入式会议设置网页。
   
-必须先规划电话拨入式会议区域，然后使用区域配置拨号计划，然后才能创建拨入访问号码。 有关区域的详细信息，请参阅 Plan [for dial-in conferencing in Skype for Business Server](../../plan-your-deployment/conferencing/dial-in-conferencing.md)。 有关为电话拨入式会议配置拨号计划的详细信息，请参阅 Create [or modify a dial plan in Skype for Business Server](../../deploy/deploy-enterprise-voice/dial-plans.md)。
+必须先规划电话拨入式会议区域，然后使用区域配置拨号计划，然后才能创建拨入访问号码。 有关区域的详细信息，请参阅 Plan [for dial-in conferencing in Skype for Business Server](../../plan-your-deployment/conferencing/dial-in-conferencing.md)。 有关配置电话拨入式会议拨号计划的详细信息，请参阅 Create [or modify a dial plan in Skype for Business Server](../../deploy/deploy-enterprise-voice/dial-plans.md)。
   
 > [!NOTE]
 > 在 Active Directory 域服务 (AD DS) 完成该访问号码的复制之前，不能使用新的拨入访问号码。 复制可能需要几个小时才能完成。 
@@ -153,11 +153,11 @@ ms.locfileid: "58609949"
      > [!NOTE]
      > 使用搜索字段搜索拨入访问号码列表中列的内容可能不会获得预期的结果。 相反，按关注列对列表进行排序，以标识要查看或更改的拨入访问号码。 
   
-5. 在 **"显示** 号码"中，键入公用电话交换网 (PSTN) 电话用户为加入会议而拨打的电话号码。 此号码显示在会议邀请和电话拨入式会议设置网页中。
+5. 在 **"显示** 号码"中，键入公用电话交换网 (PSTN) 电话用户为加入会议而拨打的电话号码。 此号码显示在会议邀请和电话拨入式会议设置网页上。
     
 6. 在 **"显示** 名称"中，键入拨入访问号码的说明。 这是与搜索结果中的拨入访问号码Skype for Business的名称。 当用户呼叫访问号码时，此名称将显示在客户端中。 
     
-7. 在 **"线路 URI"** 中，以 TEL URI 格式键入拨入访问号码的 E.164 号码，包括号码前的 + 符号和不包括空格。 例如，tel：+14255550200。
+7. 在 **"线路 URI"** 中，以 TEL URI 格式键入拨入访问号码的 E.164 号码，包括号码前的 + 符号和不包括空格。 例如，`tel:+14255550200`。
     
     > [!NOTE]
     > 同一线路 URI 不能由另一个电话拨入式会议访问号码重复使用。 
@@ -178,9 +178,9 @@ ms.locfileid: "58609949"
   
 10. 在 **"主要** 语言"中，单击为此拨入访问号码播放提示的语言。 
     
-    主要语言是呼叫会议助理语言。 支持的语言显示在电话拨入式会议网页中每个访问设置旁边。
+    主要语言是呼叫会议助理语言。 支持的语言与电话拨入式会议网页上的每个访问电话号码设置一。
     
-11.  (可选) 在辅助语言 (最多四) 中，单击"添加 **"，** 选择要为此拨入访问号码的呼叫者支持的一种或多种语言，然后单击"确定 **"。**  
+11.  (可选) 在辅助语言 (最多四) 中，单击"添加 **"，** 选择要为此拨入访问号码的呼叫者支持的一种或多种语言，然后单击"确定 **"。** 
     
     对于每个拨入访问号码，你最多可以选择四种辅助语言。 用户在拨入会议时，可以在输入会议 ID 之前选择辅助语言。
     
@@ -200,7 +200,7 @@ ms.locfileid: "58609949"
 ## <a name="assign-a-line-uri-to-a-user-account"></a>为用户帐户分配线路 URI
 <a name="BKMK_AssignaLineURI"> </a>
 
-拨入用户输入其电话号码或分机号和 PIN，即可以经过身份验证的用户身份加入会议。 身份验证需要用户帐户上Skype for Business Server线路 **URI。**
+拨入用户输入其电话号码或分机号和 PIN，即可以经过身份验证的用户身份加入会议。 身份验证需要Skype for Business Server用户帐户上指定的电话线路 **URI。**
   
 本主题中的过程介绍如何为单个用户帐户分配“线路 URI”。 如果需要为多个用户帐户分配“线路 URI”，则可以创建使用 **Set-CsUser** cmdlet 的脚本。 有关使用示例脚本将线路 **URI** 分配给多个用户帐户的详细信息，请参阅将线路 [URI 分配给多个用户](https://go.microsoft.com/fwlink/p/?linkId=196945)。
   
@@ -217,6 +217,6 @@ ms.locfileid: "58609949"
 6. 在 **“电话”** 下的 **“线路 URI”** 字段中，键入唯一的规范化电话号码（例如，tel:+14255550200）。
     
     > [!NOTE]
-    > 只有当电话设置为仅 PC 到PC、企业语音、远程呼叫控制或远程呼叫控制 **时，你** 才能指定线路 **URI。**  
+    > 只有当电话设置为仅 PC 到PC、企业语音、远程呼叫控制或远程呼叫控制时，你 **才能** 指定线路 **URI。**  
   
 7. 单击“提交”。

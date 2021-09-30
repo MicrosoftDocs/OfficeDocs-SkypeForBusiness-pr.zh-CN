@@ -11,7 +11,7 @@
 | 9/20/2021 | [在管理中心的活动日志中查看Microsoft Teams分配](/MicrosoftTeams/activity-log) | 修改内容 |
 | 9/20/2021 | [Teams 中的“审批”应用程序可用性](/MicrosoftTeams/approval-admin) | 修改内容 |
 | 9/20/2021 | [向 Microsoft Teams 中的用户分配策略](/MicrosoftTeams/assign-policies) | 修改内容 |
-| 9/20/2021 | [经认证可用于直接路由的会话边界控制器](/MicrosoftTeams/direct-routing-border-controllers) | 修改内容 |
+| 9/20/2021 | [经认证可用于直接路由的会话边界控制器列表](/MicrosoftTeams/direct-routing-border-controllers) | 修改内容 |
 | 9/20/2021 | [Teams 教育版策略向导：轻松应用策略以安全学习](/MicrosoftTeams/easy-policy-setup-edu) | 修改内容 |
 | 9/20/2021 | [获取 Microsoft Teams 客户端](/MicrosoftTeams/get-clients) | 修改内容 |
 | 9/20/2021 | [Microsoft Teams 中的来宾访问](/MicrosoftTeams/guest-access) | 修改内容 |
@@ -47,7 +47,7 @@
 | 9/13/2021 | [Microsoft Teams 教育版见解 IT 管理员指南](/MicrosoftTeams/class-insights) | 修改内容 |
 | 9/13/2021 | [经认证可用于直接路由的会话边界控制器](/MicrosoftTeams/direct-routing-border-controllers) | 修改内容 |
 | 9/13/2021 | [在管理中心内Microsoft Teams应用](/MicrosoftTeams/manage-apps) | 修改内容 |
-| 9/14/2021 | [经认证可用于直接路由的会话边界控制器](/MicrosoftTeams/direct-routing-border-controllers) | 修改内容 |
+| 9/14/2021 | [经认证可用于直接路由的会话边界控制器列表](/MicrosoftTeams/direct-routing-border-controllers) | 修改内容 |
 | 9/14/2021 | [Microsoft Teams 会议室要求](/MicrosoftTeams/rooms/requirements) | 修改内容 |
 | 9/15/2021 | [管理在移动浏览器中Teams虚拟访问的加入体验](/MicrosoftTeams/expand-teams-across-your-org/mobile-browser-join) | 修改内容 |
 | 9/16/2021 | [国家/地区可用性 - 音频会议、呼叫计划](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) | 修改内容 |
@@ -85,18 +85,18 @@
 | 9/8/2021 | [将OneDrive for Business和SharePoint用于会议录制](/MicrosoftTeams/tmr-meeting-recording-change) | 修改内容 |
 | 9/9/2021 | [管理用于录制和听录的会议策略](/MicrosoftTeams/meetings-policies-recording-and-transcription) | 添加内容 |
 | 9/9/2021 | [配置 ServiceNow Teams 会议室](/MicrosoftTeams/rooms/microsoft-teams-rooms-configure-servicenow) | 添加内容 |
-| 9/9/2021 | [会议会议室指南Teams](/MicrosoftTeams/teams-meeting-room-guidance) | 添加内容 |
+| 9/9/2021 | [Teams 的会议室指南](/MicrosoftTeams/teams-meeting-room-guidance) | 添加内容 |
 | 9/9/2021 | [管理音频和视频的会议策略](/MicrosoftTeams/meeting-policies-audio-and-video) | 修改内容 |
-| 9/9/2021 | [管理会议Microsoft Teams](/MicrosoftTeams/meeting-policies-overview) | 修改内容 |
+| 9/9/2021 | [在 Microsoft Teams 中管理会议策略](/MicrosoftTeams/meeting-policies-overview) | 修改内容 |
 | 9/9/2021 | [在 Teams 中管理消息传递策略](/MicrosoftTeams/messaging-policies-in-teams) | 修改内容 |
 | 9/9/2021 | [Microsoft Teams 中的聊天、团队、频道和应用](/MicrosoftTeams/deploy-chat-teams-channels-microsoft-teams-landing-page) | 修改日期 |
-| 9/9/2021 | [手机和设备Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | 修改内容 |
+| 9/9/2021 | [适用于 Microsoft Teams 的电话和设备](/MicrosoftTeams/devices/usb-devices) | 修改内容 |
 | 9/9/2021 | [Microsoft Teams 会议室要求](/MicrosoftTeams/rooms/requirements) | 修改内容 |
 | 9/9/2021 | [Microsoft Teams 隐私](/MicrosoftTeams/teams-privacy) | 修改内容 |
 | 9/9/2021 | [使用 Microsoft Teams 和 Bookings 应用进行虚拟访问](/MicrosoftTeams/expand-teams-across-your-org/bookings-virtual-visits) | 添加内容 |
-| 9/9/2021 | [在 Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | 修改内容 |
-| 9/9/2021 | [医疗保健Teams入门](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | 修改内容 |
+| 9/9/2021 | [在 Microsoft Teams 创建呼叫队列](/MicrosoftTeams/create-a-phone-system-call-queue) | 修改内容 |
+| 9/9/2021 | [医疗保健组织的 Teams 入门](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | 修改内容 |
 | 9/10/2021 | [音乐保持状态](/MicrosoftTeams/music-on-hold) | 添加内容 |
-| 9/10/2021 | [配置 ServiceNow Teams 会议室](/MicrosoftTeams/rooms/microsoft-teams-rooms-configure-servicenow) | 修改内容 |
+| 9/10/2021 | [为 Teams 会议室配置 ServiceNow](/MicrosoftTeams/rooms/microsoft-teams-rooms-configure-servicenow) | 修改内容 |
 | 9/10/2021 | [Microsoft Teams 会议室要求](/MicrosoftTeams/rooms/requirements) | 修改内容 |
-| 9/10/2021 | [管理频道策略Microsoft Teams](/MicrosoftTeams/teams-policies) | 修改内容 |
+| 9/10/2021 | [在 Microsoft Teams 中管理频道策略](/MicrosoftTeams/teams-policies) | 修改内容 |

@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 737c8a25-23e9-4494-ab76-5a7b729b44ca
 description: Skype for Business Server证书进行服务器身份验证，并在不同的服务器角色之间建立信任链。 Windows Server 2012 R2、Windows Server 2012、Windows Server 2008 R2 和 Windows Server 2008 公钥基础结构 (PKI) 提供了用于建立和验证此信任链的基础结构。
-ms.openlocfilehash: 733b1bb946147edd184a7b0fecb16ffab2adba51
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b1e9e7844641fae3c864f9ae15e7a639cdeb8724
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627924"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014696"
 ---
 # <a name="public-key-infrastructure-for-skype-for-business-server"></a>用于基础结构的公钥Skype for Business Server
  
@@ -31,14 +31,14 @@ Skype for Business Server证书进行服务器身份验证，并在不同的服�
 每个证书都链接到一个公钥。证书上指明的服务器持有一个只有它自己知道的对应的私钥。连接的客户端或服务器使用公钥对随机的信息段进行加密并将其发送到该服务器。如果该服务器将此信息解密并以纯文本形式返回此信息，则连接的实体就可以确定该服务器持有证书的私钥，因此该服务器即是证书上指明的服务器。
   
 > [!NOTE]
-> 并非所有公共 CA 都符合证书Skype for Business Server要求。 建议您参考经认证的公共 CA 供应商的列表以满足您使用公共证书的需要。 有关详细信息，请参阅 Unified [Communications Certificate Partners。](https://go.microsoft.com/fwlink/p/?LinkId=140898) 
+> 并非所有公共 CA 都符合证书Skype for Business Server要求。 建议您参考经认证的公共 CA 供应商的列表以满足您使用公共证书的需要。 
   
 ## <a name="crl-distribution-points"></a>CRL 分发点
 
-Skype for Business Server要求所有服务器证书在 CRL 分发点中包含一 (证书吊销) 列表。 可从 CRL 分发点 (CDP) 下载 CRL，以便确认证书自颁发以来未被吊销且仍处于有效期内。 CRL 分发点在证书的属性中标记为一个 URL，它通常是安全 HTTP。
+Skype for Business Server要求所有服务器证书在 CRL 分发点中包含一 (一) 证书吊销列表。 可从 CRL 分发点 (CDP) 下载 CRL，以便确认证书自颁发以来未被吊销且仍处于有效期内。 CRL 分发点在证书的属性中标记为一个 URL，它通常是安全 HTTP。
   
 ## <a name="enhanced-key-usage"></a>增强型密钥使用
 
-Skype for Business Server要求所有服务器证书支持增强型密钥 (EKU) 实现服务器身份验证。 配置用于服务器身份验证的 EKU 字段意味着证书可以对服务器进行身份验证。 此 EKU 对 MTLS 至关重要。 EKU 中可能存在多个条目以允许将证书用于多个目的。
+Skype for Business Server要求所有服务器证书都支持增强型密钥 (EKU) 实现服务器身份验证。 配置用于服务器身份验证的 EKU 字段意味着证书可以对服务器进行身份验证。 此 EKU 对 MTLS 至关重要。 EKU 中可能存在多个条目以允许将证书用于多个目的。
   
 

@@ -13,18 +13,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 4252b5a5-4267-4513-b18e-0253a8d66f72
 description: 摘要：设置用户的电话拨入式会议 PIN Skype for Business Server。
-ms.openlocfilehash: d3871fe99de89bdd1430e2b870f5ddd36be188ed
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0532a5972a373bd92d9fb72d0883d6c40542a91e
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58614212"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012316"
 ---
 # <a name="set-a-users-dial-in-conferencing-pin-in-skype-for-business-server"></a>设置用户电话拨入式会议 PIN Skype for Business Server
  
 **摘要：** 设置用户的电话拨入式会议 PIN Skype for Business Server。
   
-若要以经过身份验证的用户身份加入电话拨入式会议，具有 Active Directory 域服务 (AD DS) 凭据的 Skype for Business Server 用户需要个人标识号 (PIN) 。 如果用户忘记了电话拨入式会议 PIN 或尚未使用 Skype for Business Server 设置 PIN，可以从"控制面板"Skype for Business Server用户的 PIN。 可以自动生成 PIN，或手动创建 PIN。
+若要以经过身份验证的用户身份加入电话拨入式会议，具有 Active Directory 域服务 (AD DS) 凭据的 Skype for Business Server 用户需要个人标识号 (PIN) 。 如果用户忘记了电话拨入式会议 PIN 或尚未使用 Skype for Business Server 设置 PIN，可以从"控制面板"中Skype for Business Server PIN。 可以自动生成 PIN，或手动创建 PIN。
   
 > [!NOTE]
 > 可以将 PIN 的具体特征（如 PIN 的最小长度）配置为策略。 除了全局策略，您还可以为各个站点或用户配置 PIN 策略。 
@@ -81,7 +81,7 @@ ms.locfileid: "58614212"
     
 ## <a name="assigning-a-user-pin-by-using-windows-powershell-cmdlets"></a>使用 Cmdlet 分配Windows PowerShell PIN
 
-您还可以使用 cmdlet 分配 PIN Set-CsClientPin号码。 可以从命令行管理程序或 Skype for Business Server远程会话中运行此 cmdlet Windows PowerShell。 有关使用远程 Windows PowerShell连接到 Skype for Business Server 的详细信息，请参阅博客文章"快速入门：使用远程[PowerShell 管理 Microsoft Lync Server 2010"。](https://go.microsoft.com/fwlink/p/?linkId=255876) 此过程在Skype for Business Server。 
+您还可以使用 cmdlet 分配 PIN Set-CsClientPin号码。 可以从命令行管理程序或 Skype for Business Server远程会话中运行此 cmdlet Windows PowerShell。 有关使用远程 powerShell Windows PowerShell连接到Skype for Business Server的详细信息，请参阅 Microsoft Lync [Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 
   
 ### <a name="to-auto-assign-a-pin-number-to-a-user"></a>向用户自动分配 PIN 号码
 

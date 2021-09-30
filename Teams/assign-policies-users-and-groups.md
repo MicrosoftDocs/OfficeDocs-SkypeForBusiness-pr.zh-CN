@@ -18,16 +18,16 @@ description: 了解向用户和组中用户和组分配策略Microsoft Teams。
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: a8182e1fe9058a5b7b7e8c88d0fdbac4070d48b7
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: b896e823339b1b40ff31036c0e53308bbbe1107b
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732074"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011496"
 ---
 # <a name="assign-policies-to-users-and-groups"></a>将策略分配给用户和组
 
-本文介绍向用户和组中用户和组分配策略Microsoft Teams。 在阅读之前，请确保已阅读在 Teams[中分配策略 - 入门](policy-assignment-overview.md)。
+本文介绍向用户和组中用户和组分配策略Microsoft Teams。 在阅读之前，请确保已阅读"在 Teams[中分配策略 - 入门。](policy-assignment-overview.md)
 
 ## <a name="assign-a-policy-to-individual-users"></a>向单个用户分配策略
 
@@ -37,7 +37,7 @@ ms.locfileid: "58732074"
 
 将策略分配给用户：
 
-1. 在管理中心的左侧导航Microsoft Teams，转到"**用户"，** 然后选择该用户。
+1. 在管理中心的左侧导航Microsoft Teams，转到"**用户"，** 然后选择用户。
 2. 单击用户名左侧选择用户，然后选择"编辑 **设置"。**
 3. 选择要分配的策略，然后选择"应用 **"。**
 
@@ -55,14 +55,14 @@ ms.locfileid: "58732074"
 
 ### <a name="use-powershell"></a>使用 PowerShell
 
-每个策略类型都有其自己的一组 cmdlet 用于管理它。 使用 ```Grant-``` 给定策略类型的 cmdlet 分配策略。 例如，使用 ```Grant-CsTeamsMeetingPolicy``` cmdlet 向用户Teams会议策略。 这些 cmdlet 包含在 powerShell Teams中，并记录在 Skype for Business [cmdlet 参考 中](/powershell/skype)。
+每个策略类型都有其自己的一组 cmdlet 用于管理它。 使用 `Grant-` 给定策略类型的 cmdlet 分配策略。 例如，使用 `Grant-CsTeamsMeetingPolicy` cmdlet 向用户Teams会议策略。 这些 cmdlet 包含在 Teams PowerShell 模块中，并记录在 Skype for Business [cmdlet 参考 中](/powershell/skype)。
 
- 下载并Teams [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) (（如果尚未安装) ，然后运行以下代码进行连接。
+ 下载并安装[Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)公共 (（如果尚未) ，然后运行以下连接。
 
 > [!NOTE]
 > Skype for Business Online 连接器目前是最新 Teams PowerShell 模块的一部分。
 >
-> 如果使用最新的[PowerShell Teams，](https://www.powershellgallery.com/packages/MicrosoftTeams/)则无需安装 Skype for Business Online 连接器。
+> 如果使用最新的[PowerShell Teams](https://www.powershellgallery.com/packages/MicrosoftTeams/)版本，则无需安装 Skype for Business Online 连接器。
 
 ```powershell
   # When using Teams PowerShell Module
@@ -100,7 +100,7 @@ Grant-CsTeamsMeetingPolicy -Identity reda@contoso.com -PolicyName "Student Meeti
 
 - 直接分配给用户的策略优先于分配给组的相同类型的其他任何策略。 换言之，如果直接为用户分配了给定类型的策略，该用户将不会从组继承相同类型的策略。 这也意味着，如果用户具有直接分配给他们的给定类型的策略，则你必须从用户中删除该策略，然后才能从组继承相同类型的策略。
 - 如果用户没有直接为其分配策略，并且是两个或多个组的成员，并且每个组分配了相同类型的策略，则用户将继承排名最高的组分配策略。
-- 如果用户不是分配有策略的任何组的成员，则适用于该策略类型的全局 (组织范围默认) 策略将应用于该用户。
+- 如果用户不是分配有策略的任何组的成员，则 (组织范围的全局默认) 策略适用于该用户。
 
 根据以下规则更新用户的有效策略：
 
@@ -225,7 +225,7 @@ Set-CsGroupPolicyAssignment -GroupId 566b8d39-5c5c-4aaa-bc07-4f36278a1b38 -Polic
 
 以下示例演示了如何更改直接分配了策略的用户的有效策略。
 
-首先，我们将[Get-CsUserPolicyAssignment cmdlet](/powershell/module/teams/get-csuserpolicyassignment)与 参数一起用于获取与用户关联的 ```PolicySource``` Teams 会议直播策略的详细信息。
+首先，我们将[Get-CsUserPolicyAssignment cmdlet](/powershell/module/teams/get-csuserpolicyassignment)与 参数一起用于获取与用户关联的 `PolicySource` Teams 会议直播策略的详细信息。
 
 ```powershell
 Get-CsUserPolicyAssignment -Identity daniel@contoso.com -PolicyType TeamsMeetingBroadcastPolicy | select -ExpandProperty PolicySource
@@ -248,7 +248,7 @@ Group          Vendor Live Events 566b8d39-5c5c-4aaa-bc07-4f36278a1b38
 Grant-CsTeamsMeetingBroadcastPolicy -Identity daniel@contoso.com -PolicyName $null
 ```
 
-在 PowerShell 模块Teams以下 cmdlet，通过批处理策略分配（其中 $users是指定的用户列表）大规模地完成此操作。
+在 PowerShell 模块Teams以下 cmdlet 通过批处理策略分配（其中 $users是指定的用户列表）大规模地执行此操作。
 
 ```powershell
 New-CsBatchPolicyAssignmentOperation -OperationName "Assigning null at bulk" -PolicyType TeamsMeetingBroadcastPolicy -PolicyName $null -Identity $users  
@@ -265,16 +265,16 @@ New-CsBatchPolicyAssignmentOperation -OperationName "Assigning null at bulk" -Po
 3. 在 **&#x2713;**（复选标记）列，选择用户。 若要选择所有用户，请单击表格顶部的 &#x2713;（复选标记）。
 4. 选择 **"编辑** 设置"，进行您需要的更改，然后选择"应用 **"。**
 
-若要查看策略分配的状态，请在选择"应用"以提交策略分配后，在"用户"页面顶部出现的横幅中，选择"活动 **日志"。** 或者，在管理中心的左侧导航Microsoft Teams，转到"仪表板 **"，然后在**"活动日志"下，选择"查看 **详细信息"。** "活动日志"显示过去 30 天内通过 Microsoft Teams管理中心向超过 20 名用户的批次分配策略。 有关详细信息，请参阅 [在活动日志中查看策略分配](activity-log.md)。
+若要查看策略分配的状态，请在选择"应用"以提交策略分配后，在"用户"页面顶部出现的横幅中，选择"活动 **日志"。** 或者，在管理中心的左侧导航Microsoft Teams，转到"仪表板 **"，然后在**"活动日志"下，选择"查看 **详细信息"。** "活动日志"显示过去 30 天内通过 Microsoft Teams管理中心向超过 20 个用户进行的策略分配。 有关详细信息，请参阅 [在活动日志中查看策略分配](activity-log.md)。
 
 ### <a name="use-powershell-method"></a>使用 PowerShell 方法
 
 > [!NOTE]
-> 目前，使用 PowerShell 的批处理策略分配不可用于所有 Teams策略类型。 有关[支持的策略类型列表，请参阅 New-CsBatchPolicyAssignmentOperation。](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
+> 目前，并非所有策略类型都支持使用 PowerShell 的批处理Teams分配。 有关[支持的策略类型列表，请参阅 New-CsBatchPolicyAssignmentOperation。](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
 
 使用批处理策略分配，可以一次向大量用户分配策略，而无需使用脚本。 使用 [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) cmdlet 提交一批用户和要分配的策略。 作业将作为后台操作处理，并为每个批处理生成操作 ID。 然后，可以使用 [Get-CsBatchPolicyAssignmentOperation](/powershell/module/teams/get-csbatchpolicyassignmentoperation) cmdlet 跟踪批处理中分配的进度和状态。
 
-根据用户的对象 ID 或会话启动协议 (SIP) 地址。 用户的 SIP 地址通常与 UPN 或电子邮件地址 (用户主体名称) 相同，但这不是必需的。 如果用户是使用其 UPN 或电子邮件指定的，但其值不同于其 SIP 地址，则策略分配将失败。 如果批处理包含重复用户，则在处理之前将从批处理中删除重复项，并且只会为批中剩余的唯一用户提供状态。
+根据用户的对象 ID 或会话启动协议 (SIP) 地址。 用户的 SIP 地址通常与 UPN (或电子邮件地址) "用户主体名称"的值相同，但这不是必需的。 如果用户是使用其 UPN 或电子邮件指定的，但其值不同于其 SIP 地址，则策略分配将失败。 如果批处理包含重复用户，则在处理之前将从批处理中删除重复项，并且只会为批中剩余的唯一用户提供状态。
 
 批处理最多可包含 5,000 个用户。 为获得最佳结果，不要一次提交多个批次。 允许批处理在提交更多批之前完成处理。
 
@@ -296,7 +296,7 @@ Connect-MicrosoftTeams
 
 #### <a name="install-and-connect-to-the-azure-ad-powershell-for-graph-module-optional"></a>安装并连接到 Azure AD PowerShell for Graph 模块 (可选) 
 
-如果尚未安装 Azure [AD PowerShell for Graph](/powershell/azure/active-directory/install-adv2)模块 (，可能还需要下载并) 并连接到 Azure AD，以便检索组织中用户的列表。
+如果尚未安装[Azure AD PowerShell for Graph](/powershell/azure/active-directory/install-adv2)模块 (，可能还需要下载并安装) 并连接到 Azure AD，以便可以检索组织中用户的列表。
 
 运行以下代码以连接到 Azure AD。
 
@@ -325,13 +325,13 @@ New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMessagingPolicy -PolicyNam
 
 #### <a name="get-the-status-of-a-batch-assignment"></a>获取批处理分配的状态
 
-运行以下代码获取批处理分配的状态，其中 OperationId 是 cmdlet 为给定批返回的操作 ```New-CsBatchPolicyAssignmentOperation``` ID。
+运行以下代码获取批处理分配的状态，其中 OperationId 是 cmdlet 为给定批返回的操作 `New-CsBatchPolicyAssignmentOperation` ID。
 
 ```powershell
 $Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | fl
 ```
 
-如果输出显示发生错误，请运行以下命令，获取有关 属性中的错误 ```UserState``` 的详细信息。
+如果输出显示发生错误，请运行以下命令，获取有关 属性中的错误 `UserState` 的详细信息。
 
 ```powershell
 Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | Select -ExpandProperty UserState

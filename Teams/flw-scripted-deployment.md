@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0237ff7d32a677eab1efd8b804b7dc00ca5e4184
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: d7eac555d5b48bb704e2699c99eff7c1a2969cc3
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733431"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012756"
 ---
 # <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>如何为一线工作人员大规模预配 Teams
 
@@ -203,7 +203,7 @@ Connect-MicrosoftTeams -Credential $teams_cred
 
 将应用钉在应用程序栏上。这是在 Teams 桌面客户端的侧面和 Teams 移动客户端 (iOS 和 Android) 的底部的栏。
 
-|Teams 桌面客户端  |         |Teams 移动客户端  |
+|Teams 桌面客户端  | &nbsp; |Teams 移动客户端  |
 |---------|---------|---------|
 |![Teams 桌面客户端的屏幕截图，其中应用已固定到底栏。](media/flw-teams-desktop-client.png)         |         |![Teams 手机客户端的屏幕截图，其中应用已固定到底栏。](media/flw-teams-mobile-client.png) |
 

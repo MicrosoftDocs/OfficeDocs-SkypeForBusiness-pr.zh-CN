@@ -1,5 +1,5 @@
 ---
-title: 试用或购买适用于 Microsoft 365 online Office 365 音频Skype for Business会议
+title: 试用或购买适用于 Microsoft 365 Online Office 365 音频Skype for Business会议
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,14 +21,14 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '请参阅“如何试用或购买 Office 365 中音频会议 （PSTN 会议）许可证”，以设置人员可以拨入的会议电话。 '
-ms.openlocfilehash: 80b3dafce07298d2ca84cec94aa0c8a54020d9d3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c8830457873ee5555e503e88a27151d15233e217
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597426"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012336"
 ---
-# <a name="try-or-purchase-audio-conferencing-in-microsoft-365-or-office-365-for-skype-for-business-online"></a>试用或购买适用于 Microsoft 365 online Office 365 音频Skype for Business会议
+# <a name="try-or-purchase-audio-conferencing-in-microsoft-365-or-office-365-for-skype-for-business-online"></a>试用或购买适用于 Microsoft 365 Online Office 365 音频Skype for Business会议
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
@@ -40,7 +40,7 @@ ms.locfileid: "58597426"
 
 你只需为计划安排或引导会议的人设置音频会议。 呼入会议的与会者不需要向其分配任何许可证，也不需要其他设置。
 
-如需了解有关定价信息，请参阅[音频会议定价](https://products.office.com/skype-for-business/audio-conferencing#Requirements)。
+有关定价信息，请参阅 [音频会议](https://www.microsoft.com/microsoft-teams/audio-conferencing)。
 
 ## <a name="step-1-buy-and-assign-audio-conferencing-licenses"></a>步骤 1：购买和分配音频会议许可证
 
@@ -94,7 +94,7 @@ ms.locfileid: "58597426"
 
 
 > [!NOTE]
-> 使用由世纪Microsoft 365世纪Office 365的客户尚不可以使用此功能。 有关详细信息，请参阅[了解由世纪Microsoft 365运营Office 365或运营的云。](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE)
+> 此功能尚不适用于使用世纪Microsoft 365世纪Office 365运营的客户。 有关详细信息，请参阅了解世纪Microsoft 365[运营Office 365或运营的云](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE)。
 
 ## <a name="related-topics"></a>相关主题
 

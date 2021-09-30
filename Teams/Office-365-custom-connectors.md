@@ -1,5 +1,5 @@
 ---
-title: 使用Microsoft 365连接器和自定义连接器
+title: 使用 Microsoft 365 和自定义连接器
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -17,20 +17,20 @@ description: 连接器可将内容和更新从你经常使用的服务直接传�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 63dc00716afebf7e9789430b339c6a32e7d414f95852b832168370e12a86628f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e3cc7bcd060caf737b23193e006dad20e316eec7
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318601"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011766"
 ---
-# <a name="use-microsoft-365-and-custom-connectors-in-microsoft-teams"></a>在 Microsoft 365 中使用 Microsoft Teams 和自定义连接器
+# <a name="use-microsoft-365-and-custom-connectors-in-microsoft-teams"></a>在 Microsoft 365 和自定义连接器Microsoft Teams 
 
-连接器将常用内容和服务更新直接交付到频道，使团队保持最新状态。 使用连接器，Microsoft Teams用户可以在其团队的聊天流中接收来自常用服务（如 Trello、奇妙清单、GitHub 和 Azure DevOps Services）的更新。
+连接器将常用内容和服务更新直接交付到频道，使团队保持最新状态。 使用连接器，Microsoft Teams用户可以从常用服务（例如 Trello、奇妙清单、GitHub 和 Azure DevOps Services）在其团队的聊天流中接收更新。 
 
 如果团队权限允许，团队的任何成员都可以使用连接器将其团队连接到热门云服务，并通知所有团队成员该服务的活动。 即使最初设置连接器的成员已离开，连接器仍将正常运行。 任何有权添加\删除的团队成员都可以修改其他成员设置的连接器。
 
-Microsoft 365连接器可以与 Microsoft Teams Microsoft 365 组一起使用，使所有成员可以更轻松地保持同步并快速接收相关信息。 Microsoft Teams 和 Exchange 使用相同的连接器模型，这样，你可以在两个平台中使用相同的连接器。 但值得注意的是，禁用团队所依赖的 Microsoft 365 组的连接器也会禁用为该团队创建连接器的能力。
+Microsoft 365连接器可以同时与 Microsoft Teams Microsoft 365 组一起使用，使所有成员可以更轻松地保持同步并快速接收相关信息。 Microsoft Teams 和 Exchange 使用相同的连接器模型，这样，你可以在两个平台中使用相同的连接器。 但值得注意的是，为团队所依赖的 Microsoft 365 组禁用连接器也会禁用为该团队创建连接器的能力。
 
 > [!NOTE]
 > 在政府云环境环境中，连接器Community (GCC) 禁用。 如果需要启用它们，请设置 ConnectorsEnabled 或 ConnectorsEnabledForTeams 参数$true SetOrganizationConfig cmdlet。 需要连接到[PowerShell Exchange Online。](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps)
@@ -39,10 +39,10 @@ Microsoft 365连接器可以与 Microsoft Teams Microsoft 365 组一起使用，
 
 目前，可以使用桌面和 Web 客户端Microsoft Teams连接器。 但是，可以在所有客户端（包括移动客户端）中查看这些连接器 **发布** 的信息。
 
-1. 若要将连接器添加到通道，请单击 **(...)** 的省略号，在通道名称的右侧，然后单击"**连接器"。**
+1. 若要向通道添加连接器，请单击 **(...)** 的省略号，在频道名称的右侧单击"连接器 **"。**
 
     > [!div class="mx-imgBorder"]
-    > !["连接Teams"选项的"连接线"界面的屏幕截图。](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image1.png)
+    > !["连接Teams选项的"连接线"接口的屏幕截图。](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image1.png)
 
 2. 可以从各种可用的连接器中选择，然后单击"添加 **"。**
 

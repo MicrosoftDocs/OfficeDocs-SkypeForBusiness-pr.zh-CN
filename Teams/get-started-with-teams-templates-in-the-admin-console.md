@@ -1,5 +1,5 @@
 ---
-title: 在管理中心内开始使用Teams模板
+title: 在管理中心内开始使用 Teams 模板
 author: LanaChin
 ms.author: v-lanachin
 manager: samanro
@@ -18,14 +18,14 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 19333badf3df580129ab7a805cf27c670748d299
-ms.sourcegitcommit: 6a65e318d49d8990f2b3409ff7bb2c61ea1f2525
+ms.openlocfilehash: 30d2ef7baf485e617ac5d703659a79d6f57e7f76
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "59991141"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011776"
 ---
-# <a name="get-started-with-team-templates-in-the-teams-admin-center"></a>在管理中心内开始使用Teams模板
+# <a name="get-started-with-team-templates-in-the-teams-admin-center"></a>在管理中心内开始使用 Teams 模板
 
 **EDU 客户尚不支持创建自定义模板。**
 
@@ -41,7 +41,7 @@ Microsoft Teams模板是围绕业务需求或项目设计的团队结构的定�
 本文概述了在管理中心内使用Teams模板。 你将了解模板支持的属性、我们提供的预建模板、模板大小限制、如何创建和管理模板等。
 
 > [!NOTE]
-> 用户可以通过[预建或自定义团队模板](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c)在 Teams 创建团队。 开发人员还可使用 Microsoft Graph 以编程方式从预建的团队模板创建团队。 若要了解有关详细信息，请参阅[开始使用 Microsoft Graph 的团队模板](get-started-with-teams-templates.md)。
+> 用户可以通过[预建的或自定义的团队](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c)模板在 Teams 创建团队。 开发人员还可使用 Microsoft Graph 以编程方式从预建的团队模板创建团队。 有关详细信息，请参阅开始使用 Microsoft Graph[的团队模板](get-started-with-teams-templates.md)。
 
 ## <a name="team-template-capabilities"></a>团队模板功能
 
@@ -67,7 +67,7 @@ Microsoft Teams模板是围绕业务需求或项目设计的团队结构的定�
 
 可以复制预构建的模板，但不能编辑它们。 如果要更改预构建模板中的属性，可以从现有模板创建新模板，然后添加或删除需要的属性。 请记住，某些模板中的某些属性无法更改。
 
-| 模板类型 | TemplateId | 此模板提供的属性 |
+| 模板类型 | TemplateId | 此基本模板包含的属性 |
 | ------------------ | -------------- | ----------------------------------------------------- |
 | 采用Office 365 |`com.microsoft.teams.template.AdoptOffice365`|  频道： <ul><li>常规</li> <li>公告</li> <li>冠军角</li> <li>团队表单</li><li>日历</li></ul> 应用： <ul><li>Wiki</li>  <li>频道日历</li> <li>里程碑</li><li>公告</li></ul>|
 | 管理项目 |`com.microsoft.teams.template.ManageAProject`| 频道： <ul><li>常规</li> <li>公告</li> <li>资源</li> <li>规划</li></ul> 应用：<ul><li>Wiki</li><li>OneNote</li><li>任务</li><li>列表</li><li>Power Automate</li></ul> |
@@ -76,10 +76,10 @@ Microsoft Teams模板是围绕业务需求或项目设计的团队结构的定�
 |组织技术支持| `com.microsoft.teams.template.OrganizeHelpDesk`|频道：<ul><li>常规</li><li>公告</li><li>常见问题</li></ul>应用：<ul><li>Wiki</li><li>OneNote</li><li>任务 </li><li>表扬</li><li>问题发布者</li><li>Power Automate</li><li>公告</li></ul> |
 | 患者护理| `com.microsoft.teams.template.healthcareWard`| 频道：<ul><li>常规</li><li>公告</li><li>小型会议室</li><li>循环配置</li><li>人员配备</li><li>培训</li></ul> 应用： <ul><li>Wiki</li><li>列表  </li><li>审批</li><li>公告</li><li>检查</li></ul>|
 | 应对问题沟通 |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| 频道： <ul><li>常规<li>公告</li><li>世界新闻</li><li>内部通信</li><li>外部通信</li><li>审批请求</li><li>客户升级</li><li>高管更新</li><li>规划</li><li>后勤工作</li></ul>应用： <ul><li>网站</li><li>任务</li><li>问题发布者</li><li>审批</li><li>公告</li><li>OneNote</li><li>Power Automate</li><li>SharePoint</li></ul>|
-|银行分支机构| `com.microsoft.teams.template.CollaborateWithinABankBranch`|频道： <ul><li>常规<li>公告</li><li>小型会议室</li><li>客户会议</li><li>审批请求 </li><li>指导</li><li>技能开发</li><li>贷款处理</li><li>客户投诉</li><li>Kudos</li><li>有趣的内容</li><li>合规性</li></ul>应用：<ul><li>表扬 </li><li>问题发布者</li><li>Wiki</li><li>日历</li><li>审批</li><li>公告</li><li>创意</li></ul>|
+|银行分支机构| `com.microsoft.teams.template.CollaborateWithinABankBranch`|频道： <ul><li>常规<li>公告</li><li>小型会议室</li><li>客户会议</li><li>审批请求 </li><li>指导</li><li>技能开发</li><li>贷款处理</li><li>客户投诉</li><li>称赞</li><li>有趣的内容</li><li>合规性</li></ul>应用：<ul><li>表扬 </li><li>问题发布者</li><li>Wiki</li><li>日历</li><li>审批</li><li>公告</li><li>想法</li></ul>|
 |事件响应| `com.microsoft.teams.template.CoordinateIncidentResponse`|频道： <ul><li>常规<li>公告</li><li>后勤工作</li><li>规划</li><li>恢复</li><li>紧急</li></ul> 应用： <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>任务</li> <li>审批</li> <li>检查</li> <li>Power Automate</li><li>公告</li><li>里程碑</li></ul>|
-|医院| `com.microsoft.teams.template.healthcareHospital` |频道： <ul><li>常规</li><li>公告</li><li>合规性</li><li>保管</li><li>人力资源</li><li>药房</li></ul> 应用： <ul><li>Wiki</li><li>列表</li><li>任务</li><li>审批</li><li>班次</li><li>公告</li><li>检查</li><li>创意</li></ul>|
-|组织商店| `com.microsoft.teams.template.retailStore` |频道： <ul><li>常规<li>换班</li><li>应用商店就绪性</li><li>学习</li></ul> 应用： <ul><li>Wiki</li><li>任务</li><li>班次</li><li>检查</li></ul>|
+|医院| `com.microsoft.teams.template.healthcareHospital` |频道： <ul><li>常规</li><li>公告</li><li>合规性</li><li>保管</li><li>人力资源</li><li>药房</li></ul> 应用： <ul><li>Wiki</li><li>列表</li><li>任务</li><li>审批</li><li>排班</li><li>公告</li><li>检查</li><li>想法</li></ul>|
+|组织商店| `com.microsoft.teams.template.retailStore` |频道： <ul><li>常规<li>换班</li><li>应用商店就绪性</li><li>学习</li></ul> 应用： <ul><li>Wiki</li><li>任务</li><li>排班</li><li>检查</li></ul>|
 |适用于经理的零售| `com.microsoft.teams.template.retailManagerCollaboration` |频道： <ul><li>常规<li>运营</li><li>学习</li></ul> 应用： <ul><li>Wiki</li><li>任务</li><li>检查</li></ul>|
 |质量和安全 |`com.microsoft.teams.template.QualitySafety`|频道： <ul><li>常规<li>公告</li><li>领导</li><li>维护</li><li>生产线 1</li><li>生产线 2</li><li>生产线 3</li><li>运行状况和安全性</li><li>培训</li><li>有趣的内容</li></ul> 应用： <ul><li>Wiki</li><li>任务</li> <li>问题发布者</li> <li>检查</li> </ul>|
 
@@ -112,7 +112,7 @@ Microsoft Teams模板是围绕业务需求或项目设计的团队结构的定�
 
 ## <a name="manage-team-templates"></a>管理团队模板
 
-### <a name="manage-team-templates-in-the-teams-admin-center"></a>管理中心中的Teams模板
+### <a name="manage-team-templates-in-the-teams-admin-center"></a>Teams 管理中心的管理团队模板
 
 #### <a name="view-team-templates"></a>查看团队模板
 
@@ -128,16 +128,16 @@ Microsoft Teams模板是围绕业务需求或项目设计的团队结构的定�
 
 #### <a name="apply-team-template-policies"></a>应用团队模板策略
 
-若要控制用户在创建团队时Teams模板，可以设置模板策略并将其分配给组织的用户和组。 若要了解有关详细信息，请参阅管理中心[中的Teams模板](templates-policies.md)。
+若要控制用户在创建团队时Teams模板，可以设置模板策略并将其分配给组织的用户和组。 若要了解有关详细信息，请参阅管理中心 中的[Teams模板](templates-policies.md)。
 
 ### <a name="manage-team-templates-using-powershell"></a>使用 PowerShell 管理团队模板
 
 使用以下 cmdlet 在 PowerShell 中管理模板。
 
-- [Get-CsTeamTemplate](/powershell/module/teams/get-csteamtemplate?view=teams-ps) 
+- [Get-CsTeamTemplate](/powershell/module/teams/get-csteamtemplate?view=teams-ps)
 - [Get-CsTeamTemplateList](/powershell/module/teams/get-csteamtemplatelist?view=teams-ps)
 - [New-CsTeamTemplate](/powershell/module/teams/new-csteamtemplate?view=teams-ps)
-- [Remove-CsTeamTemplate](/powershell/module/teams/remove-csteamtemplate?view=teams-ps) 
+- [Remove-CsTeamTemplate](/powershell/module/teams/remove-csteamtemplate?view=teams-ps)
 - [Update-CsTeamTemplate](/powershell/module/teams/update-csteamtemplate?view=teams-ps)
 
 ## <a name="related-articles"></a>相关文章

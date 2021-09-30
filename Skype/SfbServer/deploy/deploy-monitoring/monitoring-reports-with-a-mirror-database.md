@@ -11,13 +11,13 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 42b797c6-8db8-4ad7-886e-8ddf8deb06f9
-description: 摘要：了解如何将监控报告与监控服务器使用的镜像Skype for Business Server。
-ms.openlocfilehash: 723d01f732259098c714eaac330eeaf8c686acac
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 摘要：了解如何将监控报告与服务器使用的镜像Skype for Business Server。
+ms.openlocfilehash: ecdf630f6839fa65bf163715e473a3a37cdbcece
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600657"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014396"
 ---
 # <a name="associate-monitoring-reports-with-a-mirror-database-in-skype-for-business-server"></a>将监控报告与数据库中的镜像数据库Skype for Business Server 
  
@@ -33,17 +33,17 @@ ms.locfileid: "58600657"
     
    - **http：** 前缀。
     
-   - 安装 Reporting Services 的计算机的完全限定 (FQDN) ，例如 (，atl-sql-001.litwareinc.com) 。 
+   - 安装 Reporting Services 的计算机的完全限定 (FQDN (FQ) DN， `atl-sql-001.litwareinc.com` 例如) 。
     
    - 字符串 **/Reports_**。
     
    - 安装监控报告的数据库实例的名称 (，例如 **archinst**) 。
     
-     例如，如果在SQL Server Reporting Services计算机上安装了 atl-sql-001.litwareinc.com 监控报告使用数据库实例 archinst，则主页 URL 将如下所示：
+     例如，如果SQL Server Reporting Services，并且监控报告使用数据库实例 `atl-sql-001.litwareinc.com` archinst，则主页 URL 将如下所示：
     
-     **http://atl-sql-001.litwareinc.com/Reports_archinst**
+     `http://atl-sql-001.litwareinc.com/Reports_archinst`
     
-2. 访问 Reporting Services 主页后，单击 **"ServerReports"，** 然后单击 **"Reports_Content"。** 您将访问"**监控Reports_Content的** Skype for Business Server页。
+2. 访问 Reporting Services 主页后，单击 **"ServerReports"，** 然后单击 **"Reports_Content"。** 您将访问"监控 **Reports_Content** 的"Skype for Business Server页。
     
 3. 在 **"Reports_Content"** 页上，单击 **"CDRDB"** 数据源。
     
@@ -63,7 +63,7 @@ ms.locfileid: "58600657"
     
 7. 在 **"CDRDB"** 页上，单击 **"Reports_Content** 链接。 单击 **QMSDB** 数据源，然后编辑 QoE 数据库的连接字符串。 例如：
     
-    Data source= (local) \archinst;故障转移 Partner=atl-mirror-001\archinst;initial catalog=QoEMetrics
+    `Data source=(local)\archinst;Failover Partner=atl-mirror-001\archinst;initial catalog=QoEMetrics`
     
 8. 单击“**应用**”。
     
@@ -71,4 +71,4 @@ ms.locfileid: "58600657"
 
 [安装监控报告Skype for Business Server](install-monitoring-reports.md)
   
-[使用监控报告中Skype for Business Server](../../manage/health-and-monitoring/monitoring-reports.md)
+[使用监控报告Skype for Business Server](../../manage/health-and-monitoring/monitoring-reports.md)

@@ -23,16 +23,16 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 了解如何设置Microsoft Teams Skype for Business语言以使用组织的默认语音邮件问候语。
-ms.openlocfilehash: f204cdfca0be7eab5964b2c9c50c57f306af94ff
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4c509edf6efa2fe660a59772f3266e6d49be8d31
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607869"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014416"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>更改问候语和电子邮件的默认语言
 
-如果你是全局[管理员](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)，你可以设置Skype for Business以使用另一种语言播放其默认语音邮件问候语。 默认系统问候语类似于“请给 John Smith 留言。 听到提示音之后，请录制你的消息。 完成录制后，挂断电话，或者按井号键了解更多选项。”
+如果你是全局[管理员](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)，你可以设置Skype for Business语言播放其默认语音邮件问候语。 默认系统问候语类似于“请给 John Smith 留言。 听到提示音之后，请录制你的消息。 完成录制后，挂断电话，或者按井号键了解更多选项。”
   
  **首先，请阅读以下重要信息：**
   
@@ -55,7 +55,7 @@ ms.locfileid: "58607869"
 
 2. 在"Microsoft 365 管理中心"中  >  **，设置设置"**  >  **组织配置文件"。**
 
-     ![显示选择"设置"，然后选择"组织配置文件"的屏幕截图。](media/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
+     ![显示选择"组织设置，然后选择"组织配置文件"的屏幕截图。](media/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
   
 3. 选择" **编辑**"。
 
@@ -71,7 +71,7 @@ ms.locfileid: "58607869"
 
 - [设置通话套餐](set-up-calling-plans.md)
 
-- [在电话系统 PSTN Microsoft 365 Office 365本地 PSTN 连接中计划Skype for Business Server](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)
+- [在电话系统 PSTN 连接Microsoft 365或Office 365中计划本地 PSTN Skype for Business Server](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)
 
 ## <a name="related-topics"></a>相关主题
 

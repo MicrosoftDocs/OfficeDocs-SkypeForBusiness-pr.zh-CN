@@ -12,18 +12,18 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 52d44a51-f79b-4d27-9541-21737b798027
-ms.openlocfilehash: 77f3dc8b0d57da5afbaf5156b2b1e98ac975edbe
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4639ce49969d9606ce9c063814d175aeec9a15b8
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621018"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011536"
 ---
 # <a name="planning-tool-ui-reference"></a>规划工具 UI 参考
  
 ## <a name="in-this-section"></a>本节内容
 
-这些主题记录了 Microsoft 下载中心提供的规划 [工具的界面](https://go.microsoft.com/fwlink/p/?LinkID=282725)。 
+这些主题记录了规划工具的界面。
   
 - [音频视频会议 (规划工具) ](../../help-topics/help-planning/audio-video-conferencing.md)
     
@@ -41,7 +41,7 @@ ms.locfileid: "58621018"
     
 - [持久聊天 (规划工具) ](../../help-topics/help-planning/persistent-chat.md)
     
-- [移动 (规划工具) ](../../help-topics/help-planning/mobility.md)
+- [Mobility (Planning Tool) ](../../help-topics/help-planning/mobility.md)
     
 - [联合 (规划工具) ](../../help-topics/help-planning/federation.md)
     

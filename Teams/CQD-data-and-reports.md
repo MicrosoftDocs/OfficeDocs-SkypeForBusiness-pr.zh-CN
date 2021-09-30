@@ -1,5 +1,5 @@
 ---
-title: 'CQD 呼叫质量仪表板 (数据和) '
+title: '呼叫质量仪表板和 CQD (中的数据和) '
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -22,14 +22,14 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: 了解 Microsoft 呼叫质量仪表板和 CQD (提供的数据) 。
-ms.openlocfilehash: e184137c927361b1a557973d4ac8e55ea49cf1ea
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 0f54b6c3c69d65b12aa248f7180dec3617273857
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731801"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014616"
 ---
-# <a name="data-and-reports-in-call-quality-dashboard-cqd"></a>CQD 呼叫质量仪表板 (数据和) 
+# <a name="data-and-reports-in-call-quality-dashboard-cqd"></a>呼叫质量仪表板和 CQD (中的数据和) 
 
 Microsoft 呼叫质量仪表板 (CQD) 使用近实时的 NRT (NRT) 数据源。 呼叫记录在通话结束后 30 分钟内在 CQD 中可用。 NRT 管道中的呼叫记录仅在从数据集中删除前几个月才可用。 
 
@@ -38,16 +38,16 @@ Microsoft 呼叫质量仪表板 (CQD) 使用近实时的 NRT (NRT) 数据源。 
 
 可以通过几种不同的途径访问 CQD 数据。 选择最能满足你需求的一个：
 
-|  |  |
+|&nbsp;|&nbsp;|
 |---------|---------|
 |Teams管理中心[ (https://admin.teams.microsoft.com) ](https://admin.teams.microsoft.com)    | CQD 数据包含在 Teams管理中心的"用户"页面上，以易于阅读的格式显示所需的最常见数据。 不能自定义在"用户"下找到的 CQD **数据**。  |
 |CQD 门户[ (https://cqd.teams.microsoft.com) ](https://cqd.teams.microsoft.com)     | 使用钻取筛选功能，提供满足大多数需求的可靠的摘要和详细报表。 还可以在 CQD 门户中自定义报表。 <br><br>获取两 [个 CQD 报表](#import-the-cqd-report-templates) 模板，以帮助在 CQD 门户中分析数据。       |
-|Power BI     | 使用直接查询，使用可自定义的 Power BI 模板在 Power BI [CQD 数据](CQD-Power-BI-query-templates.md)。 [下载Power BI CQD 的查询模板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)。<br><br>也可使用[REST API 通过数据库访问 CQD](/skypeforbusiness/management-tools/call-quality-dashboard/data-api) Power BI。 如果要下载 CQD 数据以便脱机处理，请使用此方法。 使用此方法的好处是性能更好，对于联机时陷入Power BI的大型数据集尤其有用。       |
-|Graph API     | 使用 Graph [API 自己Graph数据](/graph/api/resources/callrecords-api-overview?view=graph-rest-beta)。 这是最复杂的方法，但它在分析呼叫质量数据方面提供了最大的控制和灵活性。 例如，如果需要将其与组织的其他数据联接，可以使用 Graph API 创建数据模型并合并调用质量数据。        |
+|Power BI     | 使用直接查询，使用可自定义的 Power BI 模板在 Power BI中[查看 CQD 数据](CQD-Power-BI-query-templates.md)。 [下载Power BI CQD 的查询模板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)。<br><br>也可使用[REST API 通过数据库访问 CQD](/skypeforbusiness/management-tools/call-quality-dashboard/data-api) Power BI。 如果要下载 CQD 数据以便脱机处理，请使用此方法。 使用此方法的好处是性能更好，对于联机时陷入Power BI的大型数据集尤其有用。       |
+|Graph API     | 使用 Graph [API 自己Graph质量数据](/graph/api/resources/callrecords-api-overview?view=graph-rest-beta)。 这是最复杂的方法，但它在分析呼叫质量数据方面提供了最大的控制和灵活性。 例如，如果需要将其与组织的其他数据联接，可以使用 Graph API 创建数据模型并合并呼叫质量数据。        |
 
 ## <a name="import-the-cqd-report-templates"></a>导入 CQD 报表模板
 
-在所有 [网络和托管网络](https://aka.ms/qertemplates) (下载两个特) CQD 报表模板，以帮助你快速了解 CQD。 "所有网络"模板尽管经过优化，可用于处理建筑物数据文件，但可在收集建筑物信息并将其上传到 CQD 时使用，如下一部分所述。
+从 ["所有网络和](https://aka.ms/qertemplates) 托管网络" (下载两个特) CQD 报表模板，以帮助你快速了解 CQD。 "所有网络"模板尽管经过优化，可用于处理建筑物数据文件，但可在收集建筑物信息并将其上传到 CQD 时使用，如下一部分所述。
 
 **若要导入模板， (。CQDX) into CQD**
 
@@ -70,12 +70,12 @@ Microsoft 呼叫质量仪表板 (CQD) 使用近实时的 NRT (NRT) 数据源。 
 
 - 完整的 IP 地址
 - MAC 媒体访问控制 (MAC) 地址
-- 基本服务集标识符 (BSSID) 
+- BSSID (的基本服务集) 
 - 会话启动协议 (SIP) URI (Skype for Business仅) 
 - 用户主体名称 (UPN)
 - 计算机终结点名称
 - 用户详细反馈
-- 对象 ID (终结点用户帐户的 Active Directory 对象 ID) 
+- 对象 ID (终结点的用户帐户的 Active Directory 对象 ID) 
 
 ### <a name="admin-roles-with-and-without-euii-access"></a>具有和没有 EUII 访问权限的管理员角色
 
@@ -118,7 +118,7 @@ URL Date 参数接受"天"字段。 滚动日期报表使用以 YYYY-MM-DD 格�
 
 管理组织通话质量时，可能需要使用默认摘要和详细的 CQD 报告。如果需要，可以 [创建自定义报表](#create-custom-detailed-reports)。 
 
-如果要使用 Power BI 分析 CQD 数据，请阅读使用 Power BI 分析[CQD 数据Teams。](CQD-Power-BI-query-templates.md)
+如果要使用 Power BI分析 CQD 数据，请阅读使用 Power BI 分析[CQD 数据Teams。](CQD-Power-BI-query-templates.md)
 
 |功能|摘要报告|详细报告|
 |:--- |:--- |:--- |
@@ -146,7 +146,7 @@ URL Date 参数接受"天"字段。 滚动日期报表使用以 YYYY-MM-DD 格�
 > [!div class="mx-imgBorder"]
 > ![屏幕截图：显示"产品筛选器"控件选项。](media/206ad818-0f72-4c8e-b25e-3cc8fcfbef05.png)
   
-在"详细报表"中，可以使用"Is **Teams"** 维度筛选数据以Microsoft Teams或Skype for Business Online 数据。
+在"详细报表"中，可以使用"Is **Teams"** 维度来筛选数据以Microsoft Teams或Skype for Business Online 数据。
 
 ## <a name="summary-reports"></a>摘要报告
 
@@ -197,7 +197,7 @@ URL Date 参数接受"天"字段。 滚动日期报表使用以 YYYY-MM-DD 格�
 - WiFi 内部
 - 外部 WiFi
 
-同样，"Client-Client选项卡包含五个可折叠部分：
+同样，"Client-Client选项卡包含五个可折叠的部分：
 
 - 内部有线 - 内部有线
 - 内部有线 - 外部有线
@@ -209,7 +209,7 @@ URL Date 参数接受"天"字段。 滚动日期报表使用以 YYYY-MM-DD 格�
 
 CQD 使用建筑物信息将流分类为"内部"或"外部"（如果存在）。 每个流的终结点与子网地址相关联。 如果子网位于上传的建筑物信息中标记为 InsideCorp 的子网列表中，则它被视为"内部 *"。* 如果尚未上传生成信息，则"内部测试"始终将流分类为"外部 *"。* 
 
-针对客户端方案的Server-Client测试仅考虑客户端终结点。 由于从用户的角度来看，服务器始终位于外部，因此在测试中未考虑到这一点。
+应用场景的内部测试Server-Client仅考虑客户端终结点。 由于从用户的角度来看，服务器始终位于外部，因此在测试中未考虑到这一点。
   
 #### <a name="wired-versus-wifi"></a>有线与 WiFi
 
@@ -221,7 +221,7 @@ CQD 使用建筑物信息将流分类为"内部"或"外部"（如果存在）。
   
 ## <a name="tenant-data-information"></a>租户数据信息
 
-CQD 摘要报表仪表板 **包括** 租户数据Upload页，该页面通过从右上角的设置菜单中选择"租户数据"Upload访问。 此页用于管理员上传其自己的信息，例如：
+CQD 摘要报表仪表板包括一个租户Upload页，通过从右上角的设置菜单中选择"租户数据"Upload访问该页面。 此页用于管理员上传其自己的信息，例如：
 
 - IP 地址和地理信息的地图。
 - 每个无线 AP 及其 MAC 地址的地图。
@@ -252,7 +252,7 @@ CQD 摘要报表仪表板 **包括** 租户数据Upload页，该页面通过从�
 从在登录时显示的屏幕顶部的报表的下拉列表中，选择"摘要报表"屏幕，选择"详细报表"，然后选择 \(  \) "**新建"。**  单击 **报告中** 的"编辑"，查看查询编辑器。 每个报告都可以通过对多维数据集进行查询得到。 报告是其查询返回的数据的可视化形式。 查询编辑器可帮助编辑这些查询和报表的显示选项。
 
 > [!IMPORTANT]
-> 网络范围可用于表示具有单个路由前缀 (多个子网的超网络) 。 所有新建筑物上载都将检查是否有重叠的范围。 如果以前上传过一个建筑物文件，应下载当前文件，然后重新上传该文件，以识别任何重叠，并修复问题，然后再重新上传。 以前上传的文件的任何重叠都可能导致报告中子网与建筑物之间的映射错误。 某些 VPN 实现无法准确报告子网信息。 建议在将 VPN 子网添加到生成文件时，不要为子网添加一个条目，而是将 VPN 子网中每个地址的单独条目添加为单独的 32 位网络。 每行可以具有相同的建筑物元数据。 例如，对于 172.16.18.0/24，应该有 256 行，每个地址各有一行，介于 172.16.18.0/32 和 172.16.18.255/32 之间（含）。
+> 网络范围可用于表示具有单个路由前缀的 (子网的超网络) 。 所有新建筑物上载都将检查是否有重叠的范围。 如果以前上传过一个建筑物文件，应下载当前文件，然后重新上传该文件，以识别任何重叠，并修复问题，然后再重新上传。 以前上传的文件的任何重叠都可能导致报告中子网与建筑物之间的映射错误。 某些 VPN 实现无法准确报告子网信息。 建议在将 VPN 子网添加到生成文件时，不要为子网添加一个条目，而是将 VPN 子网中每个地址的单独条目添加为单独的 32 位网络。 每行可以具有相同的建筑物元数据。 例如，对于 172.16.18.0/24，应该有 256 行，每个地址各有一行，介于 172.16.18.0/32 和 172.16.18.255/32 之间（含）。
 >
 > VPN 列是可选的，默认为 0。  如果 VPN 列的值设置为 1，则该行表示的子网将完全展开，以匹配子网内的所有 IP 地址。  请尽量少用，仅对 VPN 子网使用，因为完全扩展这些子网会对涉及生成数据的查询的查询时间产生负面影响。
 
@@ -311,7 +311,7 @@ CQD 报告具有多个向下钻取筛选器，这些筛选器是缩小通话质�
 
 ![添加多选筛选器的屏幕截图。](media/qerguide-image-addmultiselectfilter.png)
 
-然后单击" **搜索 (** 新筛选器旁边的放大镜) 。 你将看到一个文本字段和一些选项，包括 **"全选**"和 **"反转"。** 输入值，然后单击 **该字段旁边的"** 搜索"进行搜索。 或者，将文本字段留空，然后单击"搜索"查看最多前 100 个选项。
+然后单击" **搜索** (新筛选器"旁边的放大镜) 。 你将看到一个文本字段和一些选项，包括 **"全选**"和 **"反转"。** 输入值，然后单击 **该字段旁边的"** 搜索"进行搜索。 或者，将文本字段留空，然后单击"搜索"查看最多前 100 个选项。
 
 ```powershell
 /filter/[AllStreams].[Second Tenant Id]\|[YOUR TENANT ID HERE]
@@ -369,7 +369,7 @@ CQD 支持向 URL 添加筛选器。 这样，可以轻松共享 CQD 查询或�
 |----------------|----------------------|-------------------------------|
 | 无空值   | 某些筛选器没有用于筛选空值的选项。 若要手动筛选空值，请使用空白表达式，并根据需要将筛选器设置为"等于"或"不等于"。      | Second Building Name \<\> \^ \\ s\*\$                       |
 | 排除常见子网 | 如果没有有效的建筑物文件来将托管网络与非托管网络分开，则报告中将包含家庭网络。 这些主子网不在 IT 控制的范围之内，可以快速从报告中排除。 本文中定义的常见子网为 10.0.0.0、192.168.1.0 和 192.168.0.0。 | Second Subnet \<\> 10.0.0.0 \| 192.168.0.0 \| 192.168.1.0 |
-| 仅在内部查看  | 用于筛选报表，以筛选 (外部) 托管 (托管) 。 托管的 CQD 模板已预配置了这些筛选器。       | Second Inside Corp = Inside        |
+| 仅在内部查看  | 用于筛选报表，以在外部 (托管) 托管 (托管) 。 托管的 CQD 模板已预配置了这些筛选器。       | Second Inside Corp = Inside        |
 
 
 #### <a name="how-to-find-your-tenant-id"></a>如何查找租户 ID
@@ -392,9 +392,9 @@ Login-AzureRmAccount
 
 查看数据时，可能会发现数据与数据Teams Skype for Business。 一些原因：
 - 确保性能和可靠性的机制差异：
-  - Teams自动重新连接和快速漫游。 Skype for Business不会。
+  - Teams具有自动重新连接和快速漫游。 Skype for Business不会。
   - Teams具有动态带宽管理。 Skype for Business不会。
-- IP 地址[范围在](Office-365-URLs-IP-address-ranges.md)Teams 和 Skype for Business。 TEAMS IP 范围较新，这可能会导致防火墙出现连接问题。
+- IP 地址[范围在 Teams](Office-365-URLs-IP-address-ranges.md)和 Skype for Business。 TEAMS IP 范围较新，这可能会导致防火墙出现连接问题。
 
 
 

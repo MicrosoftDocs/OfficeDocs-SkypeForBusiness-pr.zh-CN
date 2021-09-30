@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '了解 Skype 在 pin 或默认会议数等设置发生更改时如何启用或禁用向用户发送的电子邮件。 '
-ms.openlocfilehash: 2f322f9cfc9ba7daa60d030c043bdfda4d511d2c
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 9deb04e418d00171375aec34ca873a89c8a31cdf
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728021"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011726"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-skype-for-business-online"></a>Skype for Business Online 中的音频会议设置更改时启用或禁用发送电子邮件
 
@@ -91,7 +91,7 @@ ms.locfileid: "58728021"
     
 ## <a name="what-else-should-you-know"></a>你还需了解哪些信息？
 
-- 禁用自动电子邮件后，仍可以使用管理中心手动触发Skype for Business会议 ID 和电话号码的电子邮件。 但是，如果这样做，不会包含 PIN。 如果要重置音频会议 PIN 并禁用发送电子邮件，则需要以其他方式将其发送给用户。
+- 禁用自动电子邮件后，仍可以使用会议管理中心手动触发Skype for Business会议 ID 和电话号码的电子邮件。 但是，如果这样做，不会包含 PIN。 如果要重置音频会议 PIN 并禁用发送电子邮件，则需要以其他方式将其发送给用户。
     
 - 可以使用 Skype for Business 管理中心或 Windows PowerShell 禁用向用户发送电子邮件。
     
@@ -107,13 +107,13 @@ ms.locfileid: "58728021"
     
   - [Get-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/Get-CsOnlineDialInConferencingTenantSettings)
     
-- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用Windows PowerShell，可以使用Microsoft 365管理Office 365管理点来管理任务或任务，当您有多个任务需要执行时，可以简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
+- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用Windows PowerShell，Microsoft 365管理Office 365管理点，可在有多个任务需要执行时简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
     
   - [为何需要将 Microsoft 365 或 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [使用 Microsoft 365 Office 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [使用 Microsoft 365 Office 365 管理Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-- Windows PowerShell比仅使用 Microsoft 365 管理中心 在速度、简单性和工作效率方面具有许多优势，例如，一次为许多用户更改设置时。 请在以下主题中了解这些优点： 
+- Windows PowerShell比仅使用 Microsoft 365 管理中心 具有许多速度、简单性和工作效率优势，例如，一次对许多用户进行设置更改时。 请在以下主题中了解这些优点： 
     
   - [Windows PowerShell 和 Skype for Business Online 简介](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
@@ -122,7 +122,7 @@ ms.locfileid: "58728021"
   - [使用 Windows PowerShell 执行常见的 Skype for Business Online 管理任务](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
     > [!NOTE]
-    > [!注释] 使用适用于 Skype for Business Online 的 Windows PowerShell 模块，你可以创建连接到 Skype for Business Online 的远程 Windows PowerShell 会话。此模块仅在 64 位计算机上受支持，可以从 Microsoft 下载中心的[适用于 Skype for Business Online 的 Windows PowerShell 模块](https://go.microsoft.com/fwlink/?LinkId=294688)下载。
+    > [!注释] 使用适用于 Skype for Business Online 的 Windows PowerShell 模块，你可以创建连接到 Skype for Business Online 的远程 Windows PowerShell 会话。 此模块仅在 64 位计算机上受支持，可从 Microsoft 下载中心下载并安装 Teams [PowerShell](https://go.microsoft.com/fwlink/?LinkId=294688)模块 (。/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector.md) 。
   
 ## <a name="related-topics"></a>相关主题
 

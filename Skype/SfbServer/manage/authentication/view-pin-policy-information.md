@@ -13,18 +13,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1d48b060-d77f-44ee-b70f-3ce128aedac4
 description: 摘要：查看用户的 PIN 策略信息，了解Skype for Business Server。
-ms.openlocfilehash: 735833208a3e8194224dd234f551ae346cca11fe
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fca606d00507f199e09d84604d60cc8004ad9a9b
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622404"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013726"
 ---
 # <a name="view-pin-policy-information-in-skype-for-business-server"></a>在管理中查看 PIN 策略Skype for Business Server
  
 **摘要：** 查看用户的 PIN 策略信息，了解Skype for Business Server。
   
-可以使用 **"PIN** 策略"选项卡查看个人标识号 (PIN) IP 电话Skype for Business用户的身份验证。 要使用 PIN 身份验证，请确保在 Web 服务设置中选中“启用 PIN 身份验证”。
+可以使用 **"PIN 策略**"选项卡查看个人标识号 (PIN) IP 电话Skype for Business身份验证。 要使用 PIN 身份验证，请确保在 Web 服务设置中选中“启用 PIN 身份验证”。
   
 按照以下步骤修改用户级别或站点级别的 PIN 策略。 
   
@@ -40,7 +40,7 @@ ms.locfileid: "58622404"
     
 ## <a name="viewing-pin-policies-by-using-windows-powershell-cmdlets"></a>使用 cmdlet Windows PowerShell PIN 策略
 
-您还可以通过使用 cmdlet 和 Windows PowerShell cmdlet 来Get-CsPinPolicy PIN 策略。 此 cmdlet 可以从命令行管理程序Skype for Business Server或远程会话运行Windows PowerShell。 有关使用远程 Windows PowerShell连接到 Skype for Business Server 的详细信息，请参阅博客文章"快速入门：使用远程[PowerShell 管理 Microsoft Lync Server 2010"。](https://go.microsoft.com/fwlink/p/?linkId=255876) 此过程在Skype for Business Server。
+您还可以使用 cmdlet 和 Windows PowerShell cmdlet Get-CsPinPolicy PIN 策略。 可以从命令行管理程序或 Skype for Business Server远程会话运行此 cmdlet Windows PowerShell。 有关使用远程 powerShell Windows PowerShell连接到Skype for Business Server的详细信息，请参阅 Microsoft Lync [Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 此过程在Skype for Business Server。
   
 ### <a name="to-view-pin-policies"></a>查看 PIN 策略
 

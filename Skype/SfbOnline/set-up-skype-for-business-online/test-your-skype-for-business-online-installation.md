@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Learn to save time, support calls and increase satisfaction by setting up test accounts and computers, and testing dial-in conferencing, online features such as person-to-person calls, conferencing, and sign in and out. '
-ms.openlocfilehash: a022ad3db1890a71016d5ebffeccb0aaf30441ca
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: a8efe71507b6270181fb0451f06f10a80c7a578b
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729901"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014566"
 ---
 # <a name="test-your-skype-for-business-online-installation"></a>设置 Skype for Business Online 安装
 
@@ -107,7 +107,7 @@ ms.locfileid: "58729901"
 |[登录和注销 Lync Online](https://support.office.com/article/1f0fb5f3-102e-4397-a5c4-f878cc0009d6) <br/> |显示 Skype for Business 登录屏幕  <br/> |
 |[登录和注销 Lync Online](https://support.office.com/article/1f0fb5f3-102e-4397-a5c4-f878cc0009d6) <br/> |Skype for Business 窗口关闭，Skype for Business 图标不再显示在 Windows 通知区域中。  <br/> |
 
-无法登录？请参阅[如何解决 Skype for Business Online 中的登录问题](https://support.microsoft.com/kb/2541980)。
+无法登录？ 请参阅[排Skype for Business用户登录疑难解答](/skypeforbusiness/troubleshoot/online-sign-in/troubleshoot-sign-in-issues-for-users)。
 
  **联系人、状态和即时消息**
 

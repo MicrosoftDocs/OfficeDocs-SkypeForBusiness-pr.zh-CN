@@ -12,20 +12,20 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: edf4a04c-d4c9-4c05-aacc-9e084618bb55
-description: 阅读本主题，了解如何使用 Microsoft Operations Management Suite (OMS) 监控云连接器版本 2.1 和更高版本) 。
-ms.openlocfilehash: 0589df251fedb8d60ba115920e76b3aa1b327334
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: 阅读本主题，了解如何使用 Microsoft Operations Management Suite (OMS) 。
+ms.openlocfilehash: cf8a79b9b504b5a98592a169d3a507eb938353b9
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729021"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012306"
 ---
 # <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>使用 Operations Management Suite (OMS) 监视云连接器
 
 > [!Important]
-> 云连接器版本将于 2021 年 7 月 31 日与 Skype for Business Online 一起停用。 一旦组织升级到 Teams，了解如何使用直接路由将本地电话网络Teams[到呼叫。](/MicrosoftTeams/direct-routing-landing-page)
+> 云连接器版本将于 2021 年 7 月 31 日与 Skype for Business Online 一起停用。 组织升级到 Teams 后，了解如何使用直接路由将本地电话网络连接到[Teams。](/MicrosoftTeams/direct-routing-landing-page)
 
-阅读本主题，了解如何使用 Microsoft Operations Management Suite (OMS) 监控云连接器版本 2.1 和更高版本) 。
+阅读本主题，了解如何使用 Microsoft Operations Management Suite (OMS) 。
 
 现在，可以使用 Operations Management Suite (OMS) （Microsoft 云 IT 管理解决方案）监控云连接器 2.1 版和更高版本的部署。 利用 OMS Log Analytics，可以监视和分析资源（包括物理和虚拟机）的可用性和性能。 有关 OMS 和 Log Analytics 详细信息，请参阅 [什么是 Operations Management Suite (OMS) ？](/azure/operations-management-suite/operations-management-suite-overview)
 
@@ -53,7 +53,7 @@ ms.locfileid: "58729021"
 
 ## <a name="configure-cloud-connector-to-use-oms"></a>配置云连接器以使用 OMS
 
-你需要将云连接器本地环境配置为使用 OMS。 为此，您需要 OMS 工作区 ID 和密钥，可通过使用 OMS 门户找到，如下所示：设置 -- 连接源 -- Windows \> \> 服务器：
+你需要将云连接器本地环境配置为使用 OMS。 为此，您需要 OMS 工作区 ID 和密钥，可通过使用 OMS 门户找到，如下所示：设置 -- 连接源 \> -- \> Windows 服务器：
 
 ![云连接器 OMS 的屏幕截图。](../../media/a4bb0a96-c940-435e-a3f5-5ef3062dea83.png)
 
@@ -86,7 +86,7 @@ ms.locfileid: "58729021"
 
 - **对于所有方案，验证代理是否按如下方式连接：**
 
-    在 OMS 门户中，转到"设置 - 连接 \> 源 - \> Windows服务器"。 你将看到已连接计算机的列表。 
+    在 OMS 门户中，转到设置 - \> 连接源 - \> Windows 服务器。 你将看到已连接计算机的列表。 
 
 ## <a name="configure-oms"></a>配置 OMS
 
@@ -100,7 +100,7 @@ ms.locfileid: "58729021"
 
 在 OMS 门户中，必须指定有关事件日志和性能计数器的信息，如下所示：
 
-1. 转到设置 - 数据 \> - \> Windows事件日志，并添加事件日志： 
+1. 转到设置 - \> 数据 - Windows \> 事件日志，并添加事件日志： 
 
    - Lync Server
 
@@ -109,13 +109,13 @@ ms.locfileid: "58729021"
      > [!NOTE]
      > 您必须在文本框中手动输入 Lync Server。 它不会显示为下拉列表中的选项。 
 
-     有关详细信息，请参阅 log [Analytics Windows事件日志数据源](/azure/log-analytics/log-analytics-data-sources-windows-events)
+     有关详细信息，请参阅 Log [Analytics 中的 Windows 事件日志数据源](/azure/log-analytics/log-analytics-data-sources-windows-events)
 
-2. 转到设置- \> 数据Windows \> 性能计数器，并添加性能计数器： 
+2. 转到设置 - \> 数据 - Windows 性能计数器，并 \> 添加性能计数器： 
 
    - **操作系统级别计数器**。 您可以添加操作系统级别计数器（如处理器使用率、内存使用率、网络使用情况）或使用现有解决方案（如容量和性能、网络性能监视器）而无需显式添加计数器。 无论你决定如何监视它们，Microsoft 都建议您监视这些操作系统计数器。
 
-   - **Skype for Business计数器**。 系统提供了许多计数器Skype for Business。 通过登录到任何中介服务器并打开性能监视器，可以找到这些计数器。 这些计数器以"LS："开始。 Microsoft 建议你至少从以下容量计数器开始，并添加感兴趣的其他计数器：
+   - **Skype for Business 计数器**。 Skype for Business 提供了许多计数器。 通过登录到任何中介服务器并打开性能监视器，可以找到这些计数器。 这些计数器以"LS："开始。 Microsoft 建议你至少从以下容量计数器开始，并添加感兴趣的其他计数器：
 
      总活动呼叫：
 
@@ -132,7 +132,7 @@ ms.locfileid: "58729021"
      > [!NOTE]
      > 您必须手动在文本框中输入性能计数器。 它们不会显示为下拉列表中的选项。 
 
-     有关详细信息，请参阅[Log Analytics Windows](/azure/log-analytics/log-analytics-data-sources-performance-counters)和 Linux 性能数据源
+     有关详细信息，请参阅 Log Analytics 中的 [Windows 和 Linux 性能数据源](/azure/log-analytics/log-analytics-data-sources-performance-counters)
 
 ### <a name="create-alerts"></a>创建警报
 
@@ -164,7 +164,7 @@ OMS 中有两种类型的警报：结果警报数和指标度量警报。 有关
 
     查询使用计算机筛选器，*其中 Computer 包含"MediationServer"。* 筛选器仅选择其名称包含字符串"MediationServer"的计算机。
 
-     可以使用自己的计算机筛选器替换筛选器，或者直接将其删除。 可以创建不带正则表达式的复杂字符串筛选器。 有关详细信息，请参阅字符串 [运算符](https://docs.loganalytics.io/docs/Language-Reference/Scalar-operators/String-operators)。 您还可以选择使用正则表达式。 此外，您可以通过保存搜索查询，以及将该组用作警报查询中的计算机筛选器来创建计算机组。 有关详细信息，请参阅 Log [Analytics 日志搜索中的计算机组](/azure/log-analytics/log-analytics-computer-groups)。
+     可以使用自己的计算机筛选器替换筛选器，或者直接将其删除。 可以创建不带正则表达式的复杂字符串筛选器。 您还可以选择使用正则表达式。 此外，您可以通过保存搜索查询，以及将该组用作警报查询中的计算机筛选器来创建计算机组。 有关详细信息，请参阅 Log [Analytics 日志搜索中的计算机组](/azure/log-analytics/log-analytics-computer-groups)。
 
     对于每个计算机，错误查询将获取 RTCMEDSRV 服务启动和服务停止的最后一个事件日志。 如果最后一个事件是服务停止事件，它将返回一个日志;如果最后一个事件是服务启动事件，它将不返回任何值。 简而言之，查询将返回其 RTCMEDSRV 在时间窗口中停止的服务器的列表。 
 
@@ -252,8 +252,6 @@ search *| where Computer contains "MediationServer" | where (Type == "Perf" or T
 
 - [使用日志搜索在 Log Analytics 中查找数据](/azure/log-analytics/log-analytics-log-searches)
 
-- [Azure Log Analytics 语言参考](https://docs.loganalytics.io/docs/Language-Reference)
-
 - [了解 Log Analytics 中的警报](/azure/log-analytics/log-analytics-alerts)
 
-- [连接 Windows计算机登录到 Azure 中的 Log Analytics 服务](/azure/log-analytics/log-analytics-windows-agents)
+- [将 Windows 计算机连接到 Azure 中的 Log Analytics 服务](/azure/log-analytics/log-analytics-windows-agents)

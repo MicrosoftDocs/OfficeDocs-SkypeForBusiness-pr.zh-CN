@@ -22,18 +22,18 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: '了解哪些电话可从 Polycom、HP 和 Mitel 使用 Skype for Business，以及需要的许可证。 '
-ms.openlocfilehash: c2ada9df24a30a3acecf51d8d01377d117667ee9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4b4a5e48a531a694b006126221ddc7fcba40e1c3
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607429"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013146"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>获取适用于 Skype for Business Online 的电话
 
 [!INCLUDE [sfbo-retirement](../../../Hub/includes/sfbo-retirement.md)]
 
-Skype for Business对于想要使用传统手机体验而不是使用手机应用的用户，Online 限定并支持Skype for Business电话。 本主题介绍支持在 Skype for Business Online 中使用的电话和固件版本，以及当您在组织中设置电话时可提供帮助的其他信息。
+Skype for Business对于想要使用传统手机体验而不是使用桌面手机应用的用户，Online 限定并支持Skype for Business电话。 本主题介绍支持在 Skype for Business Online 中使用的电话和固件版本，以及当您在组织中设置电话时可提供帮助的其他信息。
 
 > [!NOTE]
 > SkypeFor Business 将缓慢地被 Microsoft Teams 替换为 Microsoft 365 和 Office 365。  有关详细信息[，请参阅](https://www.microsoft.com/microsoft-365/blog/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/)Office 365 智能通信的新愿景。
@@ -44,14 +44,13 @@ Skype for Business对于想要使用传统手机体验而不是使用手机应�
   
 Microsoft 与 Polycom、Yealink 和 AudioCodes 密切合作，通过适用于 电话系统 的合作伙伴 IP 电话 计划 (PIP) 开发和认证各种设备。
   
-为手机订购Skype for Business时，必须购买具有正确 *产品 ID 的手机*。 这些产品 ID 将确保你收到的电话已安装Skype for Business在线限定版本。
+为手机订购Skype for Business时，必须购买具有正确 *产品 ID 的电话*。 这些产品 ID 将确保你收到的电话已安装Skype for Business在线限定版本。
   
-|||
+|电话合作伙伴  |Skype for Business 特定产品 ID  |
 |:-----|:-----|
-|**电话合作伙伴** <br/> |**Skype for Business 特定产品 ID** <br/> |
-|Polycom  <br/> |产品 ID -019  <br/> |
-|Yealink  <br/> |SIP-TXXG Skype for Business Edition  <br/> |
-|AudioCodes  <br/> |UCXXXHDEG (SfB)  <br/> |
+|Polycom   |产品 ID -019   |
+|Yealink   |SIP-TXXG Skype for Business Edition   |
+|AudioCodes   |UCXXXHDEG (SfB)   |
    
 有关 Polycom 电话的更多详细信息，请参阅 [Poly 文档库](https://documents.polycom.com/category/voice)。
   
@@ -68,13 +67,13 @@ Microsoft 与 Polycom、Yealink 和 AudioCodes 密切合作，通过适用于 �
 
 这是受支持的电话使用以下设备所需的最低软件版本电话系统：
   
-||||
+
+|电话类型 |最低固件 |发布日期 |
 |:-----|:-----|:-----|
-|**电话类型** <br/> |**最低固件** <br/> |**发布日期** <br/> |
-|优化 (Lync Phone Edition)  <br/> |4.0.7577.4463  <br/> |2015 年 5 月  <br/> |
-|已认证的 Polycom VVX 系列  <br/> |5.4.0A  <br/> |2015 年 12 月  <br/> |
-|Yealink  <br/> |X.8.1.52  <br/> |2017 年 2 月  <br/> |
-|AudioCodes  <br/> |3.0.0.459.1  <br/> |2016 年 12 月  <br/> |
+|优化 (Lync Phone Edition)   |4.0.7577.4463   |2015 年 5 月   |
+|已认证的 Polycom VVX 系列   |5.4.0A   |2015 年 12 月   |
+|Yealink   |X.8.1.52   |2017 年 2 月   |
+|AudioCodes   |3.0.0.459.1   |2016 年 12 月   |
 
 有关当前认证的固件版本的更多详细信息，请参阅 Skype for Business [IP 电话](../../../SfbPartnerCertification/certification/devices-ip-phones.md)。
 
@@ -91,29 +90,29 @@ Skype for Business除用户许可证外，Online 不需要任何其他 Microsoft
 
 有关完整的设备特性和功能，请查看制造商用户指南。
   
-||||||
+
+|功能  |Polycom 3PIP  |Yealink 3PIP |AudioCodes 3PIP |LPE |
 |:-----|:-----|:-----|:-----|:-----|
-|**功能** <br/> |**Polycom 3PIP** <br/> |**Yealink 3PIP** <br/> |**AudioCodes 3PIP** <br/> |**LPE** <br/> |
-|使用用户凭据登录  <br/> |是  <br/> |是  <br/> |是  <br/> |否  <br/> |
-|通过 PC（配对）登录，仅限 Windows  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
-|使用（Web 登录）登录  <br/>  <br/> **注意：** 查看部署指南中的可支持性矩阵。           |是  <br/> |是  <br/> |是  <br/> |否  <br/> |
-|通过单击加入会议  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
-|单击拨号（配对）  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
-|会议控制  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
-|可视语音邮件  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
-|电话锁定  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
-|设备更新  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
-|带内配置  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
-|QoE  <br/> |是  <br/> |是  <br/> |是  <br/> |否  <br/> |
-|日志上传  <br/> <br/> **注意：** 目前，所有日志仅上传到 Microsoft 支持团队;客户对电话日志的访问尚不可用。           |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
-|现代化身份验证  <br/> |是  <br/> |是  <br/> |是  <br/> |否  <br/> |
-|多个紧急号码  <br/> |是  <br/> |否  <br/> |否  <br/> |是  <br/> |
-|Exchange 日历集成*  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> <br/> **注意：** 需要电脑连接           |
-|状态集成  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
-|公司目录  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
-|委派  <br/> |是  <br/> |是  <br/> |是  <br/> |否  <br/> |
-|联系人图片集成  <br/> |否  <br/> |是  <br/> |否  <br/> |是  <br/> |
-||||||
+|使用用户凭据登录   |是  |是   |是   |否   |
+|通过 PC（配对）登录，仅限 Windows   |是   |是   |是   |是   |
+|使用（Web 登录）登录  <br/>  <br/> **注意：** 查看部署指南中的可支持性矩阵。  |是   |是   |是   |否   |
+|通过单击加入会议   |是   |是   |是   |是   |
+|单击拨号（配对）   |是   |是   |是   |是> |
+|会议控制   |是   |是   |是   |是   |
+|可视语音邮件   |是   |是   |是   |是   |
+|电话锁定   |是   |是   |是   |是   |
+|设备更新   |是   |是   |是   |是   |
+|带内配置   |是   |是   |是   |是   |
+|QoE   |是   |是   |是   |否  |
+|日志上传  <br/> <br/> **注意：** 目前，所有日志仅上传到 Microsoft 支持团队;客户对电话日志的访问尚不可用。           |是   |是   |是   |是   |
+|现代化身份验证   |是   |是   |是   |否   |
+|多个紧急号码   |是   |否   |否   |是   |
+|Exchange 日历集成*   |是   |是   |是   |是  <br/> <br/> **注意：** 需要电脑连接           |
+|状态集成   |是   |是   |是   |是   |
+|公司目录   |是   |是   |是   |是   |
+|委派   |是   |是   |是   |否   |
+|联系人图片集成   |否   |是  |否   |是   |
+
 
      
 > [!NOTE]

@@ -21,23 +21,23 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '了解应该了解的 PIN 以及如何在 Skype for Business Online 中重置它们。 '
-ms.openlocfilehash: 22a95c12f1ffe05899194fa357fe33e619f337d3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c3e33655a5d92dbc24522611a1551c4240c4c228
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594282"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011926"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-skype-for-business-online"></a>在 Skype for Business Online 中重置音频Skype for Business PIN
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!Note]
-> 有关重置音频会议 PIN 的信息Microsoft Teams，请参阅在 Microsoft Teams 中重置[音频会议 PIN。](/MicrosoftTeams/reset-the-audio-conferencing-pin-in-teams)
+> 有关重置音频会议 PIN 的信息，Microsoft Teams中重置音频会议 PIN [Microsoft Teams。](/MicrosoftTeams/reset-the-audio-conferencing-pin-in-teams)
 
 PIN 是由为启用了音频会议的每个Skype for Business创建的数字的代码。 音频会议 PIN 由会议组织者用来标识他们是会议组织者并允许他们通过电话启动会议。 如果他们使用Skype for Business启动会议，则不需要 PIN。 如果用户忘记了 PIN，在启用音频会议时发送给他们的电子邮件中找不到 PIN，则管理员可以重置其 PIN，也可以重置自己的 PIN。
   
-当经过身份验证的用户使用 Skype for Business 加入时，或者当组织者通过电话使用其 PIN 加入时，可以启动会议。 如果会议要求提供 PIN 才能启动，则通过电话加入会议的所有用户都将进入会议厅并将收听保持音乐，直至会议启动。 如果会议组织者不需要 PIN 来通过电话启动会议，则当呼叫者加入会议时，系统不会要求他们提供 PIN。
+当经过身份验证的用户使用 Skype for Business 应用加入时，或者当组织者通过电话使用其 PIN 加入时，可以启动会议。 如果会议要求提供 PIN 才能启动，则通过电话加入会议的所有用户都将进入会议厅并将收听保持音乐，直至会议启动。 如果会议组织者不需要 PIN 来通过电话启动会议，则当呼叫者加入会议时，系统不会要求他们提供 PIN。
   
 ## <a name="reset-a-users-pin"></a>重置用户的 PIN
 
@@ -58,11 +58,11 @@ PIN 是由为启用了音频会议的每个Skype for Business创建的数字的�
 
 * 在浏览器中，转到 [https://mysettings.lync.com/pstncalling](https://mysettings.lync.com/pstncalling) 。
 * 在Skype for Business，单击"选项"旁边的"显示菜单"箭头 **，然后单击**"工具  >  **""电话拨入式设置"。**
-* 在Skype for Business，单击"**选项**"，单击左侧菜单中的"呼叫呼叫转发"，**然后在**"其他呼叫设置部分中，单击"联机 **编辑设置"。** 
+* 在Skype for Business，单击"选项"，单击左侧菜单中的"呼叫呼叫转发"，**然后在**"更多呼叫设置部分中，单击"联机 **编辑设置"。**  
 
 ## <a name="what-else-should-you-know-about-pins"></a>你还应该知道有关 PIN 的哪些信息？
 
-- 出于安全考虑，PIN 仅在重置时向管理员显示一次。 管理员重置 PIN 后，PIN 将在 Skype for Business 管理中心列出为 **************，在 Windows PowerShell 中使用这些 PIN 时，也会在Get-CsCsOnlineDialInConfencingUser中列出。 
+- 出于安全考虑，PIN 仅在重置时向管理员显示一次。 管理员重置 PIN 后，PIN 将在 Skype for Business 管理中心列出为 **************，在 Windows PowerShell 中Get-CsCsOnlineDialInConfencingUser结果中列出。 
     
 - 默认情况下，自动向用户发送电子邮件已启用，并且当用户启用音频会议或重置 PIN 时，将收到一封包含其 PIN 的电子邮件。 但是，如果已禁用自动发送电子邮件，则 PIN 重置电子邮件不会发送给用户，您必须手动将 PIN 信息发送给用户。
     
@@ -88,13 +88,13 @@ PIN 是由为启用了音频会议的每个Skype for Business创建的数字的�
   Set-CsOnlineDialInConferencingUser -id amos.marble@contoso.com -ResetLeaderPIN
   ```
 
-- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用Windows PowerShell，Microsoft 365 Office 365单点管理来管理任务或任务，可在有多个任务需要执行时简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
+- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用Windows PowerShell，Microsoft 365管理Office 365管理点，可在有多个任务需要执行时简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
     
   - [为何需要将 Microsoft 365 或 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
   - [使用 Microsoft 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-- Windows PowerShell比仅使用 Microsoft 365 管理中心 具有许多速度、简单性和工作效率优势，例如，一次为许多用户更改设置时。 请在以下主题中了解这些优点：
+- Windows PowerShell相比于仅使用 Microsoft 365 管理中心，在速度、简单性和工作效率方面具有许多优势，例如，一次为许多用户更改设置时。 请在以下主题中了解这些优点：
     
   - [Windows PowerShell 和 Skype for Business Online 简介](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
@@ -103,7 +103,7 @@ PIN 是由为启用了音频会议的每个Skype for Business创建的数字的�
   - [使用 Windows PowerShell 执行常见的 Skype for Business Online 管理任务](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
     > [!NOTE]
-    > [!注释] 使用适用于 Skype for Business Online 的 Windows PowerShell 模块，你可以创建连接到 Skype for Business Online 的远程 Windows PowerShell 会话。此模块仅在 64 位计算机上受支持，可以从 Microsoft 下载中心的[适用于 Skype for Business Online 的 Windows PowerShell 模块](https://go.microsoft.com/fwlink/?LinkId=294688)下载。
+    > [!注释] 使用适用于 Skype for Business Online 的 Windows PowerShell 模块，你可以创建连接到 Skype for Business Online 的远程 Windows PowerShell 会话。 此模块仅在 64 位计算机上受支持，可从 Microsoft 下载中心下载并安装 Teams [PowerShell 模块](../set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector.md)。
   
 ## <a name="related-topics"></a>相关主题
 

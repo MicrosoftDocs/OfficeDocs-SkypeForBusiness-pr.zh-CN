@@ -1,5 +1,5 @@
 ---
-title: 管理云语音功能的网络拓扑Microsoft Teams
+title: 在 Microsoft Teams 中管理云语音功能的网络拓扑
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -18,21 +18,21 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 了解如何为云语音功能配置网络设置Microsoft Teams。
-ms.openlocfilehash: 701e3900980b628f66d9d62d3dade987fee821fe
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: 了解如何在 Microsoft Teams 中配置云语音功能的网络设置。
+ms.openlocfilehash: 571b2e2f4c502a41604b5e2660d7e59990dd49bb
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726571"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60015336"
 ---
-# <a name="manage-your-network-topology-for-cloud-voice-features-in-microsoft-teams"></a>管理云语音功能的网络拓扑Microsoft Teams
+# <a name="manage-your-network-topology-for-cloud-voice-features-in-microsoft-teams"></a>在 Microsoft Teams 中管理云语音功能的网络拓扑
 
-如果组织为直接路由或[](location-based-routing-plan.md)动态紧急呼叫部署基于位置的路由[](configure-dynamic-emergency-calling.md)，则必须配置网络设置，以在 Microsoft Teams 中使用这些云语音功能。 网络设置用于确定客户端Teams，包括网络区域、网络站点、子网和受信任的 IP 地址。 根据要部署的云语音功能，可以配置其中一些或所有设置。 若要详细了解这些条款，请参阅 [云语音功能的网络设置](cloud-voice-network-settings.md)。
+如果组织为直接路由或[](location-based-routing-plan.md)动态紧急呼叫部署基于位置的路由[](configure-dynamic-emergency-calling.md)，则必须配置网络设置，以用于 Microsoft Teams 中的这些云语音功能。 网络设置用于确定 Teams 客户端的位置，包括网络区域、网络站点、子网和受信任的 IP 地址。 根据要部署的云语音功能，可以配置其中一些或所有设置。 若要详细了解这些条款，请参阅 [云语音功能的网络设置](cloud-voice-network-settings.md)。
 
-在管理中心的"网络 **拓扑**"页上Microsoft Teams配置网络设置，或者使用 Windows PowerShell。
+在 Microsoft Teams 管理中心的"网络 **拓扑** "页上配置网络设置，或者使用 Windows PowerShell。
 
-## <a name="configure-network-settings-in-the-microsoft-teams-admin-center"></a>在管理中心Microsoft Teams网络设置
+## <a name="configure-network-settings-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 管理中心配置网络设置
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
@@ -40,34 +40,34 @@ ms.locfileid: "58726571"
 
 #### <a name="add-and-configure-a-network-site"></a>添加和配置网络站点
 
-1. 在管理中心的左侧导航Microsoft Teams，转到"位置""网络  >  **拓扑**"，然后单击"网络 **站点"** 选项卡。
+1. 在 Microsoft Teams 管理中心的左侧导航栏中，转到"位置""  >  **网络拓扑**"，然后单击"网络 **网站"** 选项卡。
 2. 单击 **"** 添加"，然后输入网站的名称和说明。
 
     !["添加网络站点"页的屏幕截图。](media/manage-network-topology-add-site.png)
 
 3. 若要将站点与网络区域关联，请单击"添加网络区域"，选择现有区域或单击"添加"以添加区域，然后单击"链接 **"。**  
-4. 若要为Location-Based启用"基于位置的路由"，请启用 **"基于位置的路由"。**
+4. 若要为Location-Based启用基于位置的路由，请启用 **基于位置的路由**。
 5. 若要向网站分配紧急服务策略，请执行下列一项或两项操作：
 
-    - 如果你的组织使用"呼叫计划"或电话系统直接路由"，请在"紧急呼叫策略"下选择想要的策略。
-    - 如果组织已电话系统直接路由，请在"**紧急呼叫路由** 策略"下选择想要的策略。
+    - 如果你的组织使用呼叫计划或已部署的电话系统直接路由，请在"紧急 **呼叫** 策略"下选择你需要的策略。
+    - 如果组织部署了电话系统直接路由，请在 **"紧急呼叫** 路由策略"下选择想要的策略。
 
 6. 若要将子网关联到站点，请在 **"子网"下** 单击"**添加子网"。** 指定 IP 版本、IP 地址、网络范围，添加说明，并单击"应用 **"。** 每个子网必须与特定站点相关联。
 7. 单击“**保存**”。
 
 #### <a name="modify-a-network-site"></a>修改网络站点
 
-1. 在管理中心的左侧导航Microsoft Teams，转到"位置""网络  >  **拓扑**"，然后单击"网络 **站点"** 选项卡。
+1. 在 Microsoft Teams 管理中心的左侧导航栏中，转到"位置""  >  **网络拓扑**"，然后单击"网络 **网站"** 选项卡。
 2. 单击网站名称左侧选择网站，然后单击"编辑 **"。**
 3. 进行您需要的更改，然后单击"保存 **"。**
 
 ### <a name="manage-external-trusted-ip-addresses"></a>管理外部受信任的 IP 地址
 
-在管理中心的"网络拓扑"页上的"受信任的 IP"选项卡上管理Microsoft Teams IP 地址。 可以添加无限数量的外部受信任 IP 地址。
+在 Microsoft Teams 管理中心的"网络拓扑"页上的"受信任的 **IP"** 选项卡上管理外部受信任的 IP 地址。 可以添加无限数量的外部受信任 IP 地址。
 
 #### <a name="add-a-trusted-ip-address"></a>添加受信任的 IP 地址
 
-1. 在管理中心的左侧导航Microsoft Teams，转到"位置""网络拓扑"，然后单击"受信任的  >  **IP"** 选项卡。
+1. 在 Microsoft Teams 管理中心的左侧导航栏中，转到"位置""网络拓扑  >  "，然后单击"**受信任的 IP"** 选项卡。
 2. 单击“新建”。
 3. 在"**添加受信任的 IP 地址**"窗格中，指定 IP 版本、IP 地址、网络范围，添加说明，并单击"应用 **"。**
 
@@ -75,13 +75,13 @@ ms.locfileid: "58726571"
 
 #### <a name="edit-a-trusted-ip-address"></a>编辑受信任的 IP 地址
 
-1. 在管理中心的左侧导航Microsoft Teams，转到"位置""网络拓扑"，然后单击"受信任的  >  **IP"** 选项卡。
+1. 在 Microsoft Teams 管理中心的左侧导航栏中，转到"位置""网络拓扑  >  "，然后单击"**受信任的 IP"** 选项卡。
 2. 单击 IP 地址的左侧，选择该 IP 地址，然后单击"编辑 **"。**
 3. 在 **"编辑受信任的 IP 地址**"窗格中，进行想要的更改，然后单击"应用 **"。**
 
 ## <a name="configure-network-settings-using-powershell"></a>使用 PowerShell 配置网络设置
 
-若要完成本部分中的步骤，需要熟悉 PowerShell cmdlet。 有关详细信息，请参阅[PowerShell Teams概述](teams-powershell-overview.md)。
+若要完成本部分中的步骤，需要熟悉 PowerShell cmdlet。 有关详细信息，请参阅 [Teams PowerShell 概述](teams-powershell-overview.md)。
 
 ### <a name="define-network-regions"></a>定义网络区域
 
@@ -116,7 +116,7 @@ New-CsTenantNetworkSite -NetworkSiteID "Hyderabad" -NetworkRegionID "India"
 
 下表显示了本示例中定义的网络站点。
 
-||站点 1 |站点 2 |
+|&nbsp;|站点 1 |站点 2 |
 |---------|---------|---------|
 |站点 ID    |    网站 1 (里尼)      |  Site 2 (Hyderabad)        |
 |区域 ID  |     印度 (区域 1)     |   印度 (区域 1)       |
@@ -140,11 +140,11 @@ New-CsTenantNetworkSubnet -SubnetID "2001:4898:e8:25:844e:926f:85ad:dd8e" -MaskB
 
 下表显示了本示例中定义的子网。
 
-||站点 1 |站点 2 |
+|&nbsp;|站点 1 |站点 2 |
 |---------|---------|---------|
 |子网 ID   |    192.168.0.0     |  2001：4898：e8：25：844e：926f：85ad：dd8e     |
 |Mask  |     24    |   120      |
-|站点 ID  | Site (一)  | Site 2 (Hyderabad)  |
+|站点 ID  | 网站 (里尼)  | Site 2 (Hyderabad)  |
 
 对于多个子网，可以使用如下脚本导入 CSV 文件。
 
@@ -184,4 +184,4 @@ New-CsTenantTrustedIPAddress -IPAddress 198.51.100.0 -MaskBits 30 -Description "
 
 ## <a name="related-topics"></a>相关主题
 
-- [云语音功能的网络设置Teams](cloud-voice-network-settings.md)
+- [Teams 中云语音功能的网络设置](cloud-voice-network-settings.md)

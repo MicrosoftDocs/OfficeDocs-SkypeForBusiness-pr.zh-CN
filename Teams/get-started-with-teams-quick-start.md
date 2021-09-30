@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 041ae19360e5dfc1fbf3ff1158c7f7cfe6cdaaae
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: db18448960d2a2106005d292ebe6f232327fad2f
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729221"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014236"
 ---
 # <a name="get-started-with-microsoft-teams"></a>开始使用 Microsoft Teams
 
@@ -44,6 +44,7 @@ ms.locfileid: "58729221"
 - [云语音](cloud-voice-landing-page.md)
 
 ![说明 Teams 部署途径的关系图。](media/get-started-with-teams-quick-start-pathways.png)
+
 
 如果你有一个中等或大型组织， [使用 Teams 顾问帮助你推出 Microsoft Teams](use-advisor-teams-roll-out.md) ，以帮助你计划在组织中推出这些工作负载。 顾问使用 Teams 本身创建计划任务并将其分配给所有者、共享文档，并可实现整个部署团队的讨论。
 
@@ -76,8 +77,8 @@ ms.locfileid: "58729221"
 
 如果是从 Skype for Business（在线或本地）转换到 Teams，或者需要混合配置，而你仍然希望按照上面推荐的路径进行 Teams 部署，首先你需要做一些额外的规划。首先查看下表中适用于你的组织概况的指导。
 
-|  |贵组织的情况|指引  |
+|&nbsp;|贵组织的情况|指引  |
 |---------|---------|---------|
-|<IMG src="https://docs.microsoft.com/office/media/icons/migration-teams.svg" alt="Migration arrow symbol" height="50" width="50">|我当前正在使用 Skype for Business Online，并准备转移到 Teams。 |转到[升级到 Teams](upgrade-start-here.md)。        |
-|<IMG SRC="https://docs.microsoft.com/office/media/icons/hybrid-teams.svg" alt="Hybrid symbol" height="50" width="50">|我的组织正在运行 Skype for Business Server，并且我想要部署 Teams。 |要全面推广 Teams，首先需要配置预置环境和 Microsoft 365 之间的混合连接。从阅读[ Skype for Business Server 与 Microsoft 365或Office 365之间的混合连接计划](/skypeforbusiness/hybrid/plan-hybrid-connectivity)开始。<br><br>你还应查看[升级到 Teams](upgrade-start-here.md)。   |
-|<IMG src="https://docs.microsoft.com/office/media/icons/on-premises-teams.svg" alt="On premises symbol" height="50" width="50">|我没有 Skype for Business 服务器，但我有本地的公用电话交换网 (PSTN) 解决方案。我想推出 Teams，但我想保留我的本地 PSTN 解决方案。 |按照本文中的建议推出 Teams。<br><br>然后阅读[规划直接路由](direct-routing-plan.md)，了解如何使用电话系统直接路由将本地 PSTN 解决方案连接到 Teams。|
+|<IMG src="/office/media/icons/migration-teams.svg" alt="Migration arrow symbol" height="50" width="50">|我当前正在使用 Skype for Business Online，并准备转移到 Teams。 |转到[升级到 Teams](upgrade-start-here.md)。 |
+|<IMG SRC="/office/media/icons/hybrid-teams.svg" alt="Hybrid symbol" height="50" width="50">|我的组织正在运行 Skype for Business Server，并且我想要部署 Teams。 |要全面推广 Teams，首先需要配置预置环境和 Microsoft 365 之间的混合连接。从阅读[ Skype for Business Server 与 Microsoft 365或Office 365之间的混合连接计划](/skypeforbusiness/hybrid/plan-hybrid-connectivity)开始。<br><br>你还应查看[升级到 Teams](upgrade-start-here.md)。   |
+|<IMG src="/office/media/icons/on-premises-teams.svg" alt="On premises symbol" height="50" width="50">|我没有 Skype for Business 服务器，但我有本地的公用电话交换网 (PSTN) 解决方案。我想推出 Teams，但我想保留我的本地 PSTN 解决方案。 |按照本文中的建议推出 Teams。<br><br>然后阅读[规划直接路由](direct-routing-plan.md)，了解如何使用电话系统直接路由将本地 PSTN 解决方案连接到 Teams。|

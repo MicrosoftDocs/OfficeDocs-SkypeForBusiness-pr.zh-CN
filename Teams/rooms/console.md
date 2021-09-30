@@ -15,18 +15,18 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: 本文介绍如何设置和配置主机Microsoft Teams 会议室及其外围设备。
-ms.openlocfilehash: 81da06df24dc98e0cde2bc18c081ff46b54e07b6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0acd5449c97f1a42f1a1c015b74df8f7cdaf3e4c
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629304"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011556"
 ---
 # <a name="configure-a-microsoft-teams-rooms-console"></a>配置 Microsoft Teams 会议室控制台
 
 本文介绍如何设置主机Microsoft Teams 会议室及其外围设备。
   
-只有在已根据部署 Microsoft Teams 中所述创建Skype for Business Exchange帐户并测试帐户时，才应[执行Microsoft Teams 会议室。](rooms-deploy.md) 需要满足以下要求中所述的[Microsoft Teams 会议室软件](requirements.md)。 本主题包括以下部分：
+只有在已根据部署 Microsoft Teams 会议室 中所述创建Microsoft Teams Skype for Business Exchange帐户并测试帐户时，才[应执行Microsoft Teams 会议室。](rooms-deploy.md) 需要满足以下要求中所述的[Microsoft Teams 会议室软件](requirements.md)。 本主题包括以下部分：
   
 - [准备安装媒体](console.md#Prep_Media)
 - [在主机上安装专用 CA 证书](console.md#Certs)
@@ -35,12 +35,12 @@ ms.locfileid: "58629304"
 - [Microsoft Teams 会议室部署清单](console.md#Checklist)
 
 > [!NOTE]
-> Microsoft Teams 会议室仅在正确配置的 Microsoft Teams 或 Skype for Business 环境中工作，其中正确设置了设备帐户，如部署[Microsoft Teams 会议室。](rooms-deploy.md)
+> Microsoft Teams 会议室仅在正确配置的 Microsoft Teams 或 Skype for Business 环境中工作，其中设备帐户已正确设置，如部署 Microsoft Teams 会议室[中所述](rooms-deploy.md)。
   
 ## <a name="prepare-the-installation-media"></a>准备安装媒体
 <a name="Prep_Media"> </a>
 
-安装 Microsoft Teams 会议室 主机应用需要至少具有 32GB 容量的 USB 存储设备。 设备上不应存在任何其他文件;USB 存储上的任何现有文件都将丢失。
+安装 Microsoft Teams 会议室主机应用需要至少具有 32GB 容量的 USB 存储设备。 设备上不应存在任何其他文件;USB 存储上的任何现有文件都将丢失。
   
 > [!NOTE]
 > 根据这些说明Microsoft Teams 会议室安装媒体可能会导致意外行为。
@@ -49,7 +49,7 @@ ms.locfileid: "58629304"
 > 下面的过程用于创建安装媒体，以在设备上Microsoft Teams 会议室映像。 默认情况下，现有设备会从应用商店Windows更新Windows更新。
 
 > [!IMPORTANT]
-> 用于创建Windows 10安装媒体Microsoft Teams 会议室计算机必须位于目标安装媒体Windows或更高版本的安装媒体上。
+> 用于创建Windows 10安装媒体Microsoft Teams 会议室计算机必须与目标安装媒体Windows版本相同或更高版本。
   
 1. 下载 [CreateSrsMedia.ps1 脚本](https://go.microsoft.com/fwlink/?linkid=867842)。
 2. 在 Windows 10 计算机上，在提升的提示符下运行 CreateSrsMedia.ps1 脚本。
@@ -61,7 +61,7 @@ ms.locfileid: "58629304"
 
 脚本CreateSrsMedia.ps1自动执行以下任务：
 
-1. 下载适用于 Microsoft Teams 会议室 的最新 MSI 安装程序。
+1. 下载最新的 MSI 安装程序Microsoft Teams 会议室。
 2. 确定用户Windows的生成。 最近发布的版本可能受测试，也可能不会受支持用于Microsoft Teams 会议室设备。
 3. 下载必要的支持组件。
 4. 在安装媒体上组装所需的组件。
@@ -74,7 +74,7 @@ ms.locfileid: "58629304"
 ## <a name="install-windows-10-and-the-microsoft-teams-rooms-console-app"></a>安装 Windows 10 和 Microsoft Teams 会议室 控制台应用
 <a name="Reimage"> </a>
 
-现在需要应用已创建的设置媒体。 目标设备将作为设备运行，默认用户将设置为仅运行Microsoft Teams 会议室应用。
+现在需要应用已创建的设置媒体。 目标设备将作为设备运行，默认用户将设置为仅运行Microsoft Teams 会议室控制台应用。
 
 1. 如果目标设备将安装在扩展坞 (例如，Surface Pro) ，请将其与扩展坞断开连接。
 
@@ -86,7 +86,7 @@ ms.locfileid: "58629304"
 
 5. 启动到 USB 安装磁盘。 请参阅制造商说明。 如果目标设备是Surface Pro，请使用以下步骤启动到 USB 安装磁盘：
 
-    a. 按并继续按下" ("按钮) 音量。
+    a. 按并继续按" (按钮) 音量。
 
     b. 按下并松开电源按钮。
 
@@ -101,10 +101,10 @@ ms.locfileid: "58629304"
 
 ### <a name="selecting-a-language"></a>选择语言 
 
-在创意者的更新中，你需要在隐式语言选择未为用户提供他们想要的实际应用程序语言的情况下使用 ApplyCurrentRegionAndLanguage.ps1 脚本 (例如，他们希望控制台应用以法语显示，但它以英语) 提供。
+在创意者的更新中，你需要在隐式语言选择未为用户提供他们想要的实际应用程序语言的情况下使用 ApplyCurrentRegionAndLanguage.ps1 脚本 (例如，他们希望控制台应用以法语显示，但会以英语) 显示。
   
 > [!NOTE]
-> 以下说明仅适用于使用创建者更新Windows创建的主机。 尚未将媒体与新预配系统一起设置的旧式/市场内系统将不能使用这些说明，但不应受到需要此手动干预的初始问题的影响 (周年版允许作为设置) 的一部分显式选择应用语言。
+> 以下说明仅适用于使用创建者更新Windows创建的主机。 尚未将媒体与新预配系统一起设置的旧式/市场内系统将不能使用这些说明，但不应遭受需要此手动干预的初始问题 (周年版允许作为设置) 的一部分显式选取应用语言。
   
 ### <a name="to-apply-your-desired-language"></a>应用你需要的语言
 
@@ -145,13 +145,13 @@ ms.locfileid: "58629304"
 ## <a name="initial-set-up-of-the-console"></a>主机的初始设置
 <a name="Initial"> </a>
 
-安装Windows后，Microsoft Teams 会议室应用将在下一次启动时或选择 /reboot 选项时进入其初始安装过程。
+安装Windows后，Microsoft Teams 会议室应用将在下次启动时或选择 /reboot 选项时进入其初始安装过程。
   
 1. 将显示“用户帐户”屏幕。 输入Skype主机 (的user@domain) 帐户的登录地址。
     
 2. 输入会议室帐户的密码，再重新输入以进行确认。
     
-3. 在"配置域"下，设置域的 FQDN Skype for Business Server。 如果Skype for Business SIP 域与用户Exchange域不同，请在此字段中Exchange域。
+3. 在"配置域"下，设置域的 FQDN Skype for Business Server。 如果Skype for Business SIP 域不同于Exchange的域，请在此字段Exchange域。
     
 4. 单击" **下一步**"。
     
@@ -167,10 +167,10 @@ ms.locfileid: "58629304"
     
 6. 单击“**完成**”。
     
-Microsoft Teams 会议室控制台应用应该立即开始使用上面输入的Skype for Business Server登录 Skype for Business Server，并且还应使用这些相同的凭据开始将日历与 Exchange同步。 有关使用控制台应用的详细信息，请参阅 Microsoft Teams 会议室[帮助](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)。
+Microsoft Teams 会议室控制台应用应该立即开始使用上面输入的凭据Skype for Business Server登录 Skype for Business Server，并且还应使用这些相同的凭据开始将日历与 Exchange同步。 有关使用控制台应用的详细信息，请参阅 Microsoft Teams 会议室[帮助](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)。
   
 > [!IMPORTANT]
-> Microsoft Teams 会议室取决于是否存在经过认证的主机硬件。 即使正确创建的映像包含主机Microsoft Teams 会议室，除非检测到主机硬件，否则不会启动初始设置过程。 对于Surface Pro的解决方案，Surface Pro必须连接到其随附的扩展坞硬件，以通过此检查。
+> Microsoft Teams 会议室依赖于存在经过认证的主机硬件。 即使正确创建的映像包含 Microsoft Teams 会议室，除非检测到主机硬件，否则不会启动初始设置过程。 对于Surface Pro的解决方案，Surface Pro必须连接到其随附的扩展坞硬件，以通过此检查。
   
 > [!NOTE]
 > 如果触摸键盘不支持符号，某些非英语用户可能需要在初始设置期间连接到主机的物理键盘。
@@ -203,7 +203,7 @@ Microsoft Teams 会议室主机需要信任它所连接到的服务器使用的�
   
 ### <a name="to-join-microsoft-teams-rooms-to-a-domain"></a>将Microsoft Teams 会议室加入域
 
-1. 从管理员帐户登录主机， ([管理模式和设备管理) 。](rooms-operations.md#AdminMode)
+1. 从管理员帐户登录到主机， ([管理模式和设备管理) 。](rooms-operations.md#AdminMode)
     
 2. 启动提升的 Powershell 命令提示符。
     
@@ -228,34 +228,36 @@ Add-Computer -DomainName redmond.corp.microsoft.com -OUPath "OU=Microsoft_Teams_
   
 **应用程序设置**
 
-|||
-|:-----|:-----|
-|☐  <br/> |在控制台屏幕的右上方正确显示会议室帐户名称和电话号码（如果已启用 PSTN）  <br/> |
-|☐  <br/> |已正确设置 Windows 计算机名称（对于远程管理很有用）  <br/> |
-|☐  <br/> |已设置并验证管理员帐户密码  <br/> |
-|☐  <br/> |已应用所有固件更新  <br/> |
+|已完成 |检查 |
+|:-----:|:-----|
+|☐   |在控制台屏幕的右上方正确显示会议室帐户名称和电话号码（如果已启用 PSTN）   |
+|☐   |已正确设置 Windows 计算机名称（对于远程管理很有用）   |
+|☐   |已设置并验证管理员帐户密码   |
+|☐   |已应用所有固件更新   |
    
 **音频/视频外围设备**
 
-|||
-|:-----|:-----|
-|☐  <br/> |摄像头外围设备固件版本正确（如果适用）  <br/> |
-|☐  <br/> |以最佳方式定位相机的功能和位置  <br/> |
-|☐  <br/> |将用于播放默认设备和播放默认通信设备的设置设为预期的音频外围设备  <br/> |
-|☐  <br/> |将用于录制默认通信设备的设置设为预期的音频外围设备  <br/> |
-|☐  <br/> |音频外围设备固件版本正确（如果适用）  <br/> |
-|☐  <br/> |音频输入设备工作正常且位置最佳  <br/> |
-|☐  <br/> |音频输出设备工作正常且位置最佳  <br/> |
-   
+|已完成 |检查 |
+|:-----:|:-----|
+|☐   |摄像头外围设备固件版本正确（如果适用）   |
+|☐   |以最佳方式定位相机的功能和位置   |
+|☐   |将用于播放默认设备和播放默认通信设备的设置设为预期的音频外围设备   |
+|☐   |将用于录制默认通信设备的设置设为预期的音频外围设备   |
+|☐   |音频外围设备固件版本正确（如果适用）   |
+|☐   |音频输入设备工作正常且位置最佳   |
+|☐   |音频输出设备工作正常且位置最佳   |
+
 **扩展坞**
 
-|||
-|:-----|:-----|
-|☐  <br/> |电缆是安全的且未收缩  <br/> |
-|☐  <br/> |通过 HDMI 进行的音频采集工作正常  <br/> |
-|☐  <br/> |通过 HDMI 进行的视频采集工作正常  <br/> |
-|☐  <br/> |扩展坞可以自由旋转  <br/> |
-|☐  <br/> |显示亮度对于环境而言可接受  <br/> |
+|已完成 |检查 |
+|:-----:|:-----|
+|☐   |电缆是安全的且未收缩   |
+|☐   |通过 HDMI 进行的音频采集工作正常   |
+|☐   |通过 HDMI 进行的视频采集工作正常   |
+|☐   |扩展坞可以自由旋转   |
+|☐   |显示亮度对于环境而言可接受   |
+
+
    
 ## <a name="see-also"></a>另请参阅
 <a name="Checklist"> </a>

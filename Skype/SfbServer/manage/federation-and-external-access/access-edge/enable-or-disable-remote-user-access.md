@@ -14,17 +14,17 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-description: 如果为远程用户启用远程用户访问，则受支持的远程用户通过 Internet 连接，并且不需要使用 VPN 进行连接，以便使用 Skype for Business Server 与内部用户进行协作。
-ms.openlocfilehash: c20f6891b463f44fdcd424ca870fbba0826d33bd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 如果为远程用户启用远程用户访问，则受支持的远程用户通过 Internet 进行连接，并且不需要使用 VPN 进行连接，以便使用 Skype for Business Server 与内部用户进行协作。
+ms.openlocfilehash: 743ec476cc1541fa4163a838f333419280779611
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608189"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014526"
 ---
 # <a name="enable-or-disable-remote-user-access-in-skype-for-business-server"></a>启用或禁用远程用户访问Skype for Business Server
 
-远程用户是组织内拥有持久 Active Directory 标识的用户。 当远程用户未连接到Skype for Business Server网络时，他们通常使用虚拟专用网络 (VPN) 从网络外部登录。 远程用户包括在家或在路上工作的员工以及其他远程工作者，如已被授予企业凭据的受信任供应商。 如果为远程用户启用远程用户访问，则受支持的远程用户通过 Internet 连接，并且不需要使用 VPN 进行连接，以便使用 Skype for Business Server 与内部用户进行协作。
+远程用户是组织内拥有持久 Active Directory 标识的用户。 当远程用户未连接到Skype for Business Server网络时，他们通常使用虚拟专用网络 (VPN) 从网络外部登录。 远程用户包括在家或在路上工作的员工以及其他远程工作者，如已被授予企业凭据的受信任供应商。 如果为远程用户启用远程用户访问，则受支持的远程用户通过 Internet 进行连接，并且不需要使用 VPN 进行连接，以便使用 Skype for Business Server 与内部用户进行协作。
 
 要支持远程用户访问，必须启用远程用户访问。启用远程用户访问即为整个组织启用。如果稍后要暂时或永久阻止远程用户访问，可以为组织将其禁用。可以使用本节中的步骤为组织启用或禁用远程用户访问。
 
@@ -45,9 +45,9 @@ ms.locfileid: "58608189"
 
 5.  在“编辑访问边缘配置”中，执行下列操作之一：
     
-      - 要为组织启用远程用户访问，请选中“启用远程用户访问”复选框。
+    - 要为组织启用远程用户访问，请选中“启用远程用户访问”复选框。
     
-      - 要为组织禁用远程用户访问，请清除“启用远程用户访问”复选框。
+    - 要为组织禁用远程用户访问，请清除“启用远程用户访问”复选框。
 
 6.  单击“提交”。
 
@@ -60,14 +60,16 @@ ms.locfileid: "58608189"
 
 ## <a name="to-enable-remote-user-access"></a>启用远程用户访问
 
-  - 要启用远程用户访问，请将 **AllowOutsideUsers** 属性的值设置为 True ($True)：
-    
-        Set-CsAccessEdgeConfiguration -AllowOutsideUsers $True
+要启用远程用户访问，请将 **AllowOutsideUsers** 属性的值设置为 True ($True)：
+
+```powershell
+Set-CsAccessEdgeConfiguration -AllowOutsideUsers $True
+```
 
 ## <a name="to-disable-remote-user-access"></a>禁用远程用户访问
 
-  - 要禁用远程用户访问，请将 **AllowOutsideUsers** 属性的值设置为 False ($False)：
-    
-        Set-CsAccessEdgeConfiguration -AllowOutsideUsers $False
+要禁用远程用户访问，请将 **AllowOutsideUsers** 属性的值设置为 False ($False)：
 
-
+```powershell
+Set-CsAccessEdgeConfiguration -AllowOutsideUsers $False
+```

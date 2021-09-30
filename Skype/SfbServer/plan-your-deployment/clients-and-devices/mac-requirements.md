@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 790d3e89-2b68-411b-b282-38de5d34dd10
 description: 阅读本主题，了解在 Mac 上运行 Skype for Business 的硬件、软件和基础结构要求。
-ms.openlocfilehash: dd7dc17c4166838a76b11d9905335575205f4b2b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e25995173b44cf4f5892c1a34f77529042125c58
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604771"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014466"
 ---
 # <a name="skype-for-business-on-mac-client-requirements"></a>Skype for Business Mac 客户端要求
  
@@ -31,7 +31,7 @@ Mac [Skype for Business上的](https://products.office.com/skype-for-business/do
   
 ## <a name="hardware-and-software-requirements-for-skype-for-business-on-mac"></a>Mac 上 Skype for Business 的硬件和软件要求
 
-Mac Skype for Business客户端上的客户端需要 Mac OS X El Capitan 及更高版本，并且至少使用 100MB 的磁盘空间。 我们支持使用所有内置音频和视频设备。 外部设备必须Skype for Business[解决方案目录中](https://partnersolutions.skypeforbusiness.com/solutionscatalog)。 
+Mac Skype for Business客户端上的客户端需要 Mac OS X El 一级和更高版本，并且至少使用 100MB 的磁盘空间。 我们支持使用所有内置音频和视频设备。 外部设备必须在设备 中[Microsoft Teams列出](https://www.microsoft.com/microsoft-teams/across-devices/devices)。 
   
 > [!NOTE]
 > 此列表是初步列表，某些设备可能限定为 Lync，但在 Mac 上的 Skype for Business上不受支持。 请参阅 [所需的最低硬件](https://products.office.com/office-system-requirements) 的系统要求。
@@ -40,7 +40,7 @@ Mac Skype for Business客户端上的客户端需要 Mac OS X El Capitan 及更�
 
 Skype for Business Server 2015 还支持运行 Mac OS 10.5.8 或最新 Service Pack 或基于 (Intel 的) 操作系统版本 (Mac OS 10.9 操作系统的计算机上以下旧版客户端) 。 有关支持的功能的详细信息，请参阅桌面客户端[功能比较Skype for Business。](desktop-feature-comparison.md)
   
-- Microsoft Lync for Mac 2011 (Lync [for Mac 2011 部署指南](/previous-versions/office/office-for-mac-2011/jj984275(v=office.14))) 
+- Microsoft Lync for Mac 2011 (请参阅[Lync for Mac 2011 部署指南) ](/previous-versions/office/office-for-mac-2011/jj984275(v=office.14))
     
 - Microsoft Communicator for Mac 2011 (请参阅 Communicator [for Mac 2011 部署指南](/previous-versions/office/office-for-mac-2011/jj984270(v=office.14))) 
  

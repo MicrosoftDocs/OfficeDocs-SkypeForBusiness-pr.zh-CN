@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '了解当用户的电话拨入式会议设置在 Skype for Business Online 中更改时，将通过电子邮件自动向用户发送哪些信息。 '
-ms.openlocfilehash: b33fc6176d4103125432ebe0896ccab34e8fe269
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: cb456b9345d8dce1aa7a1d619371f8a2f65eab36
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728031"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011946"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-skype-for-business-online"></a>当用户的设置在 Skype for Business Online 中更改时发送给用户的电子邮件
 
@@ -41,7 +41,7 @@ ms.locfileid: "58728031"
   
 - **音频会议许可证分配给他们，或者当你将音频会议提供商更改到 Microsoft 时。**
     
-     此电子邮件包括会议 ID、会议的默认会议电话号码、用户的音频会议 PIN，以及使用 Skype for Business Online 会议更新工具（用于更新用户的现有会议）的说明和链接。 请参阅[分配Skype for Business许可证](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)[或将 Microsoft 分配为音频会议提供商](assign-microsoft-as-the-audio-conferencing-provider.md)。
+     此电子邮件包括会议 ID、会议的默认会议电话号码、用户的音频会议 PIN，以及使用用于更新用户现有会议的 Skype for Business Online 会议更新工具的说明和链接。 请参阅[分配Skype for Business许可证](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)[或将 Microsoft 分配为音频会议提供商](assign-microsoft-as-the-audio-conferencing-provider.md)。
     
     > [!NOTE]
     > [!注释] 如果你的组织已启用动态会议 ID，用户安排的所有会议将具有唯一的会议 ID。 可以在组织中[设置音频会议动态 ID。](./reset-a-conference-id-for-a-user.md) 
@@ -89,7 +89,7 @@ ms.locfileid: "58728031"
 
 ## <a name="make-changes-to-the-email-messages-that-are-sent-to-them"></a>更改发送给用户的电子邮件
 
-您可以更改自动发送给用户的电子邮件，包括电子邮件地址和显示名称"联系人信息"*中包含的电子邮件。* 默认情况下，电子邮件的发件人来自 Microsoft 365 或 Office 365，但您可以使用 Windows PowerShell 和[Set-CsOnlineDialInConferencingTenantSettings](/previous-versions//mt228132(v=technet.10)) cmdlet 更改电子邮件地址和 显示名称。 若要更改向用户发送电子邮件的电子邮件地址，必须：
+您可以更改自动发送给用户的电子邮件，包括电子邮件地址和显示名称"联系人信息"*中包含的邮件。* 默认情况下，电子邮件的发件人来自 Microsoft 365 或 Office 365，但您可以使用 Windows PowerShell 和[Set-CsOnlineDialInConferencingTenantSettings](/previous-versions//mt228132(v=technet.10)) cmdlet 更改电子邮件地址和 显示名称。 若要更改向用户发送电子邮件的电子邮件地址，必须：
   
 - 在  _SendEmailFromAddress_ 参数中输入电子邮件地址。
     
@@ -116,7 +116,7 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
  
 ![一个图标，显示Skype for Business徽标。](../images/sfb-logo-30x30.png)  **使用 Skype for Business 管理中心**
     
-1. 在 **Skype for Business管理** 中心的 左侧导航中，转到"音频 **会议**  >  **""Microsoft 网桥设置"。**
+1. 在 **Skype for Business管理** 中心的 左侧导航中，转到"**音频会议**  >  **""Microsoft 网桥设置"。**
     
 2. 在 **"Microsoft 网桥设置"** 页面上，选择或清除"如果用户的音频会议设置更改，则自动 **向用户发送电子邮件"。** 
     
@@ -149,13 +149,13 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
 
 - 默认情况下，电子邮件的发件人来自 Microsoft 365 或 Office 365，但您可以使用 Windows PowerShell 和[Set-CsOnlineDialInConferencingTenantSettings](/previous-versions//mt228132(v=technet.10)) cmdlet 更改电子邮件地址和 显示名称。
     
-- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用Windows PowerShell，可以使用Microsoft 365管理Office 365管理点来管理任务或任务，当您有多个任务需要执行时，可以简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
+- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用Windows PowerShell，Microsoft 365管理Office 365管理点，可在有多个任务需要执行时简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
     
   - [为何需要将 Microsoft 365 或 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [使用 Microsoft 365 Office 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [使用 Microsoft 365 Office 365 管理Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-- Windows PowerShell比仅使用 Microsoft 365 管理中心 在速度、简单性和工作效率方面具有许多优势，例如，一次为许多用户更改设置时。 请在以下主题中了解这些优点： 
+- Windows PowerShell比仅使用 Microsoft 365 管理中心 具有许多速度、简单性和工作效率优势，例如，一次对许多用户进行设置更改时。 请在以下主题中了解这些优点： 
     
   - [Windows PowerShell 和 Skype for Business Online 简介](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
@@ -164,7 +164,7 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
   - [使用 Windows PowerShell 执行常见的 Skype for Business Online 管理任务](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
     > [!NOTE]
-    > [!注释] 使用适用于 Skype for Business Online 的 Windows PowerShell 模块，你可以创建连接到 Skype for Business Online 的远程 Windows PowerShell 会话。此模块仅在 64 位计算机上受支持，可以从 Microsoft 下载中心的[适用于 Skype for Business Online 的 Windows PowerShell 模块](https://go.microsoft.com/fwlink/?LinkId=294688)下载。
+    > [!注释] 使用适用于 Skype for Business Online 的 Windows PowerShell 模块，你可以创建连接到 Skype for Business Online 的远程 Windows PowerShell 会话。 此模块仅在 64 位计算机上受支持，可从 Microsoft 下载中心下载：[下载并安装 Teams PowerShell 模块][帮助](../set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector.md) (/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector) 。
   
 ## <a name="related-topics"></a>相关主题
 

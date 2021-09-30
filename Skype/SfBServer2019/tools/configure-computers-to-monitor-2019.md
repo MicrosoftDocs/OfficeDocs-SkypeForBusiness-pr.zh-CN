@@ -13,25 +13,25 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 摘要：在要监视的 Skype for Business Server 2019 计算机上安装 Operations Manager 代理文件，将计算机配置为充当 System Center 代理。
-ms.openlocfilehash: 06d44ec8ec46ceff07955eea8615bb00ed46c01c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bb8dce9edf44557632fc4e84188606152c76d646
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605741"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012176"
 ---
 # <a name="configure-the-skype-for-business-server-computers-to-monitore"></a>配置要Skype for Business Server的计算机
 
-**摘要：** 在要监视的 Skype for Business Server 2019 计算机上安装 Operations Manager 代理文件，将计算机配置为充当System Center代理。
+**摘要：** 在要监视的 Skype for Business Server 2019 计算机上安装 Operations Manager 代理文件，将计算机配置为充当 System Center 代理。
 
 要Skype for Business Server的每台 2019 计算机必须能够自行向管理服务器报告其是否存在。 若要启用此过程，必须在要监视的每台计算机上安装 Operations Manager 代理文件。 安装代理文件后，必须将计算机配置为充当代理System Center代理。 在执行这些过程之前，请确保首先在这些Skype for Business Server安装和配置这些计算机。
 
 ## <a name="installing-a-certificate-on-a-watcher-node-located-outside-the-perimeter-network"></a>在位于外围网络外的观察程序节点上安装证书
 <a name="watcher_node_outside"> </a>
 
-System Center在外围网络 (如 Skype for Business Server 边缘服务器) 、企业 (外部（如外部综合事务观察程序节点) ）或跨 Active Directory 信任边界运行的 Operations Manager 代理可能需要配置 System Center Operations Manager 网关服务器。 此服务器角色使与根管理服务器没有信任关系的代理能够发出警报。 有关详细信息，请参阅[Managing Gateway Servers in Operations Manager 2012。](/previous-versions/system-center/system-center-2012-R2/hh212823(v=sc.12))
+System Center在外围网络 (如 Skype for Business Server 边缘服务器) 、企业 (外部（如外部综合事务观察程序节点) ）或跨 Active Directory 信任边界运行的操作管理器代理可能需要配置 System Center Operations Manager 网关服务器。 此服务器角色使与根管理服务器没有信任关系的代理能够发出警报。 有关详细信息，请参阅[Managing Gateway Servers in Operations Manager 2012。](/previous-versions/system-center/system-center-2012-R2/hh212823(v=sc.12))
 
-如果您在这些位置之一部署代理，则还需要请求并配置证书，使观察程序节点能够向 Operations Manager System Center警报。 为了简化此过程，Operations Manager 团队创建了一系列实用程序，使您能在观察程序节点计算机上请求和安装正确类型的证书。 有关详细信息和下载这些实用工具，请参阅获取证书为未加入域的代理轻松使用证书生成 [向导](https://go.microsoft.com/fwlink/p/?LinkID=267421&amp;amp;clcid=0x409)。
+如果您在这些位置之一部署代理，则还需要请求并配置证书，使观察程序节点能够向 Operations Manager System Center警报。 为了简化此过程，Operations Manager 团队创建了一系列实用程序，使您能在观察程序节点计算机上请求和安装正确类型的证书。 有关详细信息，并下载这些实用工具，请参阅使用证书生成向导轻松获取未加入域的代理 [的证书](https://techcommunity.microsoft.com/t5/system-center-blog/obtaining-certificates-for-non-domain-joined-agents-made-easy/ba-p/340467)。
 
 ### <a name="installing-the-operation-manager-agent-files"></a>安装 Operation Manager 代理文件
 
@@ -57,7 +57,7 @@ System Center在外围网络 (如 Skype for Business Server 边缘服务器) 、
 
 11. 单击“退出”。
 
-对于 System Center 2012，可以通过单击"开始"，单击"所有程序"，再单击System Center Operations **Manager 2012，** 然后单击 **"Operations 2012 Manager Shell"** 来验证代理已创建。  在Operations Manager 外壳中，键入以下 Windows PowerShell 命令，然后按 Enter：
+For System Center 2012， you can verify that the agent has been created by clicking **Start**， clicking **All Programs**， clicking System Center Operations **Manager 2012**， and then clicking **Operations 2012 Manager Shell**. 在Operations Manager 外壳中，键入以下Windows PowerShell命令，然后按 Enter：
 ```PowerShell
 Get-SCOMAgent
 ```
@@ -66,7 +66,7 @@ Get-SCOMAgent
 ## <a name="configuring-the-skype-for-business-server-computer-to-participate-in-system-center-discovery"></a>配置Skype for Business Server计算机以参与System Center发现
 <a name="watcher_node_outside"> </a>
 
-若要确保新的 Skype for Business Server 代理参与 System Center Operations Manager 的发现过程，必须在安装了 System Center Operations Manager 控制台的每台计算机中完成以下过程：
+要确保新的 Skype for Business Server 代理参与 System Center Operations Manager 的发现过程，必须在安装了 System Center Operations Manager 控制台的每台计算机中完成以下过程：
 
 1. 在"管理"选项卡上，单击"**代理托管"。**
 

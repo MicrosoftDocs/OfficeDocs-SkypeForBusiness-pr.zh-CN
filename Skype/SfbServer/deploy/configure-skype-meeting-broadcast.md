@@ -17,16 +17,16 @@ ms.collection:
 - IT_Skype4B_Hybrid
 ms.assetid: 2979802e-fc6b-4555-bc43-7cd48f6a1d88
 description: 摘要：了解为本地部署和混合部署Skype 会议广播Skype for Business Server的步骤。
-ms.openlocfilehash: 92e09820d5c2634041ac91a84e97c90dec243a93
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 99ba1733dc8c353dc17f9a4c9a51a9ed00410d27
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596026"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013706"
 ---
 # <a name="configure-your-on-premises-deployment-for-skype-meeting-broadcast"></a>为本地广播配置Skype 会议部署
  
-**摘要：** 了解为本地部署和混合部署Skype 会议广播所需的Skype for Business Server步骤。
+**摘要：** 了解为本地部署和混合部署Skype 会议广播Skype for Business Server的步骤。
   
 Skype 会议广播是联机服务的一部分，Office 365。 如果要在本地Skype for Business Server广播，并且想要Skype 会议广播，则需要遵循本主题中的配置步骤。 开始之前，需要将环境配置为与 Skype for Business Online 混合。 有关详细信息，请参阅 Plan [hybrid connectivity between Skype for Business Server and Skype for Business Online](../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json)和 Deploy hybrid connectivity between Skype for Business Server and Skype for Business [Online。](../../SfbHybrid/hybrid/configure-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json)
   
@@ -42,18 +42,16 @@ Skype 会议广播是联机服务的一部分，Office 365。 如果要在本地
 
 若要启用与 Skype for Business Online 资源的联盟，您需要为 SIP 联盟提供程序配置外部访问。 为此，请Skype for Business Server控制面板执行以下步骤：
   
-1. 启动"Skype for Business Server控制面板"，然后选择 **左侧的"外部** 访问"。
+1. 启动Skype for Business Server控制面板，然后选择 **左侧的"外部** 访问"。
     
 2. 选择 **"SIP 联盟提供程序"，** 然后单击"新建 **"。**
     
 3. 使用下列设置配置新提供程序：
     
-|||
-|:-----|:-----|
-|**启用与此提供商的通信：** <br/> |已选中  <br/> |
-|**提供程序名称：** <br/> |LyncOnlineResources  <br/> |
-|**访问边缘服务 (FQDN) ：** <br/> |sipfed.resources.lync.com  <br/> |
-|**默认验证级别：** <br/> |允许用户使用此提供程序与所有人通信。  <br/> |
+   - **启用与此提供商的通信：** 已选择
+   - **提供程序名称：** LyncOnlineResources
+   - **访问边缘服务 (FQDN) ：sipfed.resources.lync.com**
+   - **默认验证级别：** 允许用户使用此提供程序与所有人通信。 
    
 您还可以通过运行命令行管理Skype for Business中的以下 cmdlet 来启用与 Skype for Business Server Online 资源的联盟：
   
@@ -65,7 +63,7 @@ New-CsHostingProvider -Identity LyncOnlineResources -ProxyFqdn sipfed.resources.
 
 接下来，您需要将 SIP 联盟域添加到允许的域列表中。 对列出的每个域重复这些步骤，创建 4 个新的 SIP 联盟域。 这些域包括用于 Skype for Business Online 中使用的区域数据中心。
   
-1. 启动"Skype for Business Server控制面板"，然后选择 **左侧的"外部** 访问"。
+1. 启动Skype for Business Server控制面板，然后选择 **左侧的"外部** 访问"。
     
 2. 选择 **"SIP 联盟域"，** 然后单击"新建 **"。**
     

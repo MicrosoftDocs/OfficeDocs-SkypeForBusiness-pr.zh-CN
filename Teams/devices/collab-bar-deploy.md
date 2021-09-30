@@ -1,5 +1,5 @@
 ---
-title: 在 Android Microsoft Teams 会议室部署应用
+title: 在 Android Microsoft Teams 会议室部署应用程序
 ms.author: mitressl
 author: flinchbot
 manager: serdars
@@ -15,22 +15,22 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: 阅读本文，了解如何在 Android Microsoft Teams 会议室部署。
-ms.openlocfilehash: 2f513bdd8d286c256de97e00373bf8e392080b33
-ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
+ms.openlocfilehash: 4ac068e008b53882dceba5f4ceef6e730a47b3f3
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "59984567"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011706"
 ---
-# <a name="deploy-microsoft-teams-rooms-on-android"></a>在 Android Microsoft Teams 会议室部署应用
+# <a name="deploy-microsoft-teams-rooms-on-android"></a>在 Android Microsoft Teams 会议室部署应用程序
 
 在 Android Microsoft Teams 会议室部署机器人可以分为以下阶段：
 
-- **网站就绪性** 确认部署位置 (会议室) 满足部署要求。
-- **服务就绪性** 创建资源帐户并将其分配给设备 ([请参阅使用](resource-account-ui.md)资源Microsoft 365 管理中心) 。 尽管建议使用专用聊天室许可证，但获得适当许可的最终用户帐户也可以登录到 Android Teams 会议室帐户。
+- **网站就绪性** 确认会议室中的 (位置) 满足部署要求。
+- **服务就绪性** 创建资源帐户并将其分配给设备 (请参阅使用资源帐户创建资源 [Microsoft 365 管理中心) 。](resource-account-ui.md) 尽管我们建议使用专用聊天室许可证，但获得适当许可的最终用户帐户也可以登录到 android Teams 会议室帐户。
 - **配置和部署** 设置Teams 会议室连接所需的外围设备 (请参阅制造商的文档，了解) 。
 
-若要管理Teams 会议室，需要是全局管理员、Teams服务管理员或Teams设备管理员。有关管理员角色详细信息，请参阅使用 Microsoft Teams[管理员角色管理Teams。](../using-admin-roles.md)
+若要管理Teams 会议室，需要是全局管理员、Teams管理员或Teams设备管理员。有关管理员角色详细信息，请参阅使用 Microsoft Teams[管理员角色管理Teams。](../using-admin-roles.md)
 
 ## <a name="site-readiness"></a>网站就绪
 
@@ -49,16 +49,16 @@ ms.locfileid: "59984567"
 > [!TIP]
 > 请务必查看为网络准备[Teams，](../prepare-network.md)以规划带宽并评估网络是否适合实时流量。
 >
-> 不建议在设备和 Internet Teams代理服务器。 有关代理服务器和客户端Teams，请查看[适用于 Teams](../proxy-servers-for-skype-for-business-online.md)的代理服务器。
+> 我们不建议在设备与Teams之间放置代理服务器。 有关代理服务器和客户端Teams，请查看[适用于 Teams](../proxy-servers-for-skype-for-business-online.md)的代理服务器。
 
-|    |     |
+|&nbsp;|&nbsp;|
 |-----------|------------|
 | ![描述决策点的图标。](../media/audio_conferencing_image7.png) <br/>决策点|<ul><li>确认您的网站满足协作栏的网站就绪性要求，以便Microsoft Teams。</li><li>请确认为每个网站提供了足够的带宽。</li></ul>|
 | ![一个描述下一步骤的图标。](../media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>开始规划协作栏部署和配置。</li></ul>|
 
 ## <a name="service-readiness"></a>服务就绪
 
-在部署Teams 会议室，需要确定它们是使用资源Microsoft 365还是两者混合使用。 Microsoft 365资源帐户是Teams资源（如会议室、投影仪等）的邮箱帐户和专用帐户。 这些资源帐户可以使用创建会议邀请时定义的规则自动响应会议邀请。 除非Teams 会议室专用于特定个人供其专用，否则建议Microsoft 365资源帐户。
+在部署Teams 会议室，需要确定它们是使用Microsoft 365帐户、最终用户帐户还是两者混合使用。 Microsoft 365资源帐户是专用于Teams资源（如会议室、投影仪等）的邮箱帐户和邮箱帐户。 这些资源帐户可以使用创建会议邀请时定义的规则自动响应会议邀请。 除非Teams 会议室专用于特定个人供其专用，否则我们建议Microsoft 365资源帐户。
 
 ### <a name="using-a-resource-account"></a>使用资源帐户
 
@@ -72,7 +72,7 @@ ms.locfileid: "59984567"
 
 有关资源帐户Microsoft 365，请参阅使用 资源[帐户创建Microsoft 365 管理中心。](resource-account-ui.md)
 
-|    |     |
+|&nbsp;|&nbsp;|
 |-----------|------------|
 | ![描述决策点的图标。](../media/audio_conferencing_image7.png) <br/>决策点|<ul><li>决定是拨打还是接听外部电话呼叫，并确定资源帐户的许可要求。</li></ul>|
 | ![一个描述下一步骤的图标。](../media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>准备资源帐户。</li></ul>|
@@ -96,7 +96,7 @@ ms.locfileid: "59984567"
 > [!TIP]
 > 使资源帐户的显示Microsoft 365描述性且易于理解。 这些名称是用户在搜索会议内容以及向会议添加Teams 会议室的名称。 可以使用网站会议室名称 (最大会议室容量) 等约定，例如，伦敦 4 人会议室的 Curie 可能拥有 - 显示名称 LON-CURIE (4) 。 
 
-|    |     |
+|&nbsp;|&nbsp;|
 |-----------|------------|
 | ![描述决策点的图标。](../media/audio_conferencing_image7.png) <br/>决策点|<ul><li>确定专用资源帐户的命名约定。</li><li>决定是创建单个帐户还是使用批量预配脚本。</li></ul>|
 | ![一个描述下一步骤的图标。](../media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>开始计划设备部署。</li></ul>|
@@ -105,7 +105,7 @@ ms.locfileid: "59984567"
 
 接下来，需要创建计划，将设备及其分配的外围设备交付到会议室，然后继续进行安装和配置。
 
-|    |     |
+|&nbsp;|&nbsp;|
 |-----------|------------|
 | ![描述决策点的图标。](../media/audio_conferencing_image7.png) <br/>决策点|<ul><li>决定管理站点到站点部署的人员。</li><li> 确定将现场安装Teams 会议室执行配置和测试的资源。</li></ul>|
 | ![一个描述下一步骤的图标。](../media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>开始设备测试.</li></ul>|
