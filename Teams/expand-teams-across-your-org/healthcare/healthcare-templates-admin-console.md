@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: yinchang
 description: 了解如何管理和使用 Teams 管理中心和 Microsoft Graph 中的医疗保健团队模板，以快速轻松地为医疗保健组织创建团队。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 00da42e4e573306a3737b1d35e89292b04df4fa4
-ms.sourcegitcommit: 6a65e318d49d8990f2b3409ff7bb2c61ea1f2525
+ms.openlocfilehash: 5345f5e9886bbcb9e4a2274d21d2aabb0be373c6
+ms.sourcegitcommit: 5eb5acd7910724f7f4a598ecc28b003e5bbe5ea5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/29/2021
-ms.locfileid: "59991121"
+ms.locfileid: "60007802"
 ---
 # <a name="use-healthcare-team-templates"></a>使用医疗保健团队模板
 
@@ -41,7 +41,7 @@ Teams 包括专为医疗保健组织设计的模板。 使用这些预建模板�
 
 |如果是： | 然后，可以： |
 | ---- | --------- |
-| 管理人员或 IT 专业人员 |[管理中心的 Teams 模板](#manage-team-templates-in-the-teams-admin-center)。 查看团队模板，并应用模板策略，控制你的员工可以在 Teams 中使用哪些模板来创建团队。 |
+| 管理人员或 IT 专业人员 |[管理中心的 Teams 模板](#manage-team-templates-in-the-teams-admin-center)。 查看团队模板，并应用模板策略，确定员工可以在 Teams 中使用哪些模板来创建团队。 |
 | 开发人员 | [使用 Microsoft Graph ](#use-team-templates-with-microsoft-graph) 从团队模板中创建团队。 |
 
 ## <a name="manage-team-templates-in-the-teams-admin-center"></a>Teams 管理中心的管理团队模板
