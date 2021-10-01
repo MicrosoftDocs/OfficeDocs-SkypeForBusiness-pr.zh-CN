@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cd80e9bf911287800443a29c4a21674d11014d58
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 056e2e8d626e8993577b945a38b560cc41a1e90b
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727041"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045538"
 ---
 # <a name="prepare-your-service-for-upgrading-to-teams"></a>准备服务以升级到 Teams
 
@@ -38,7 +38,7 @@ ms.locfileid: "58727041"
 - [了解两者共存Skype for Business互操作性Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [选择了升级旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-本文概述了为组织准备使用云语音服务进行协作和云语音服务Teams。 通过正确准备，你可以确保已准备好向组织提供这些功能。
+本文概述了为组织准备使用云语音服务进行协作和云语音Teams。 通过正确准备，你可以确保已准备好向组织提供这些功能。
 
 ## <a name="onboarding-checklists-and-landing-pages-for-microsoft-teams-rollout"></a>载入清单和登陆页面Microsoft Teams推出
 
@@ -61,12 +61,12 @@ ms.locfileid: "58727041"
 
 使用提供的清单跟踪每个单独活动和任务的状态，并确保未跳过任何关键步骤。 每个活动包含所需操作的详细说明，并引用可用于完成该活动的其他信息。
 
-尽管我们建议按顺序遵循清单，但确切顺序取决于部署范围和环境的配置和复杂性。 组织它们以支持"绿地"Teams部署 (之前没有 Skype for Business Online 状态) 或者从 Skype for Business Online 升级到 Teams。 如果要从 Skype for Business Online 升级，则你可能已完成其中一些活动，现在可以忽略这些活动。
+尽管我们建议按顺序遵循清单，但确切顺序取决于部署范围和环境的配置和复杂性。 组织它们以支持"绿地"部署Teams部署 (之前没有 Skype for Business Online 状态) 或者从 Skype for Business Online 升级到 Teams。 如果要从 Skype for Business Online 升级，则你可能已完成其中一些活动，现在可以忽略这些活动。
 
-当您按网站载入用户时，强烈建议使用 [适用于 Voice (Playbook ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) 的站点启用 Playbook) 作为这些清单的补充指南。
+当您按网站载入用户时，强烈建议使用 [适用于 Voice (Playbook ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)) 的网站启用 Playbook 作为这些清单的补充指南。
 
 >[!NOTE]
->大多数配置设置在 Teams 和 Skype for Business Online 之间很常见。 可以使用 Microsoft Teams 管理中心配置这些设置。
+> 大多数配置设置在 Teams 和 Skype for Business Online 之间很常见。 可以使用 Microsoft Teams 管理中心配置这些设置。
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>决策点</td><td><ul><li>Who将负责监督登记清单的完成情况？</li></ul></td></tr>
@@ -79,7 +79,7 @@ ms.locfileid: "58727041"
 
 完成此清单后，继续执行下一步： [进行用户试点](pilot-essentials.md)
 
-[//]: # (@Turgay，我注释掉下一段，因为它是特定于云语音的。)
+[//]: # (@Turgay，我注释掉下一段落，因为它是特定于云语音的。)
 <!--
 As the next step, use the [Site Enablement Playbook for Voice (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) to help you onboard your users on each site to cloud voice, and help ensure that you plan and execute important site-specific activities.
 -->

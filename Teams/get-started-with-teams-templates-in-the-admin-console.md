@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 30d2ef7baf485e617ac5d703659a79d6f57e7f76
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 636cd41a6107f8fb43b42a6118b8ead9d2b754ef
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60011776"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045568"
 ---
 # <a name="get-started-with-team-templates-in-the-teams-admin-center"></a>在管理中心内开始使用 Teams 模板
 
@@ -41,7 +41,7 @@ Microsoft Teams模板是围绕业务需求或项目设计的团队结构的定�
 本文概述了在管理中心内使用Teams模板。 你将了解模板支持的属性、我们提供的预建模板、模板大小限制、如何创建和管理模板等。
 
 > [!NOTE]
-> 用户可以通过[预建的或自定义的团队](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c)模板在 Teams 创建团队。 开发人员还可使用 Microsoft Graph 以编程方式从预建的团队模板创建团队。 有关详细信息，请参阅开始使用 Microsoft Graph[的团队模板](get-started-with-teams-templates.md)。
+> 用户可以从[应用内预建或自定义](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c)团队模板创建Teams团队。 开发人员还可使用 Microsoft Graph 通过预先构建的团队模板以编程方式创建团队。 有关详细信息，请参阅开始使用 Microsoft Graph[的团队模板](get-started-with-teams-templates.md)。
 
 ## <a name="team-template-capabilities"></a>团队模板功能
 
@@ -61,7 +61,7 @@ Microsoft Teams模板是围绕业务需求或项目设计的团队结构的定�
 > [!NOTE]
 > 我们将在将来的 Microsoft Teams 版本中添加更多模板功能，因此请返回查看有关受支持属性的最新版本信息。
 
-## <a name="pre-built-team-templates-in-the-teams-admin-center"></a>管理中心内预建Teams模板
+## <a name="pre-built-team-templates-in-the-teams-admin-center"></a>在管理中心内预先构建Teams模板
 
 下面是在管理中心内提供的预建Teams模板。 预构建模板是我们为特定行业创建的模板。 若要查看这些模板，在管理中心左侧导航Teams，转到"Teams  >  **模板"。**
 
@@ -79,7 +79,7 @@ Microsoft Teams模板是围绕业务需求或项目设计的团队结构的定�
 |银行分支机构| `com.microsoft.teams.template.CollaborateWithinABankBranch`|频道： <ul><li>常规<li>公告</li><li>小型会议室</li><li>客户会议</li><li>审批请求 </li><li>指导</li><li>技能开发</li><li>贷款处理</li><li>客户投诉</li><li>称赞</li><li>有趣的内容</li><li>合规性</li></ul>应用：<ul><li>表扬 </li><li>问题发布者</li><li>Wiki</li><li>日历</li><li>审批</li><li>公告</li><li>想法</li></ul>|
 |事件响应| `com.microsoft.teams.template.CoordinateIncidentResponse`|频道： <ul><li>常规<li>公告</li><li>后勤工作</li><li>规划</li><li>恢复</li><li>紧急</li></ul> 应用： <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>任务</li> <li>审批</li> <li>检查</li> <li>Power Automate</li><li>公告</li><li>里程碑</li></ul>|
 |医院| `com.microsoft.teams.template.healthcareHospital` |频道： <ul><li>常规</li><li>公告</li><li>合规性</li><li>保管</li><li>人力资源</li><li>药房</li></ul> 应用： <ul><li>Wiki</li><li>列表</li><li>任务</li><li>审批</li><li>排班</li><li>公告</li><li>检查</li><li>想法</li></ul>|
-|组织商店| `com.microsoft.teams.template.retailStore` |频道： <ul><li>常规<li>换班</li><li>应用商店就绪性</li><li>学习</li></ul> 应用： <ul><li>Wiki</li><li>任务</li><li>排班</li><li>检查</li></ul>|
+|组织商店| `com.microsoft.teams.template.retailStore` |频道： <ul><li>常规<li>换班</li><li>应用商店准备就绪</li><li>学习</li></ul> 应用： <ul><li>Wiki</li><li>任务</li><li>排班</li><li>检查</li></ul>|
 |适用于经理的零售| `com.microsoft.teams.template.retailManagerCollaboration` |频道： <ul><li>常规<li>运营</li><li>学习</li></ul> 应用： <ul><li>Wiki</li><li>任务</li><li>检查</li></ul>|
 |质量和安全 |`com.microsoft.teams.template.QualitySafety`|频道： <ul><li>常规<li>公告</li><li>领导</li><li>维护</li><li>生产线 1</li><li>生产线 2</li><li>生产线 3</li><li>运行状况和安全性</li><li>培训</li><li>有趣的内容</li></ul> 应用： <ul><li>Wiki</li><li>任务</li> <li>问题发布者</li> <li>检查</li> </ul>|
 
@@ -128,7 +128,7 @@ Microsoft Teams模板是围绕业务需求或项目设计的团队结构的定�
 
 #### <a name="apply-team-template-policies"></a>应用团队模板策略
 
-若要控制用户在创建团队时Teams模板，可以设置模板策略并将其分配给组织的用户和组。 若要了解有关详细信息，请参阅管理中心 中的[Teams模板](templates-policies.md)。
+若要控制用户在创建团队时Teams模板，可以设置模板策略并将其[](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)分配给组织的用户和组。 若要了解有关详细信息，请参阅管理中心 中的[Teams模板](templates-policies.md)。
 
 ### <a name="manage-team-templates-using-powershell"></a>使用 PowerShell 管理团队模板
 
@@ -142,5 +142,5 @@ Microsoft Teams模板是围绕业务需求或项目设计的团队结构的定�
 
 ## <a name="related-articles"></a>相关文章
 
-- [从模板创建团队](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c)
-- [开始使用 Microsoft Graph 的团队模板](get-started-with-teams-templates.md) 
+- [从模板创建团队](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)
+- [开始使用 Microsoft Graph 的团队模板](get-started-with-teams-templates.md)

@@ -1,7 +1,7 @@
 ---
 title: 在 Microsoft Teams 中配置实时事件设置
-author: cichur
-ms.author: v-cichur
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 ms.date: 03/11/2019
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dc4321adbbb8073b3ba290ab3236c543ae6bd320
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: d1d1608bda574e504e6985ee55c8f06607f710a4
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733571"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60046038"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>在 Microsoft Teams 中配置实时事件设置
 
@@ -35,7 +35,7 @@ ms.locfileid: "58733571"
 
 可以在管理中心内轻松Microsoft Teams这些设置。 在左侧导航栏中，转到"**会议**  >  **实时事件设置"。**
 
-![实时事件Teams屏幕截图。](../media/teams-live-events-settings.png "可在 Teams 管理中心配置的事件实时Microsoft Teams屏幕截图")
+![实时事件Teams屏幕截图。](../media/teams-live-events-settings-new.png "可在 Teams 管理中心配置的事件实时Microsoft Teams屏幕截图")
 
 ## <a name="set-up-event-support-url"></a>设置事件支持 URL
 
@@ -55,23 +55,22 @@ ms.locfileid: "58733571"
 ```PowerShell
 Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}”
 ```
-有关详细信息，请参阅[Set-CsTeamsMeetingBroadcastConfiguration。](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps)
+有关详细信息，请参阅[Set-CsTeamsMeetingBroadcastConfiguration。](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps&preserve-view=true)
 ## <a name="configure-a-third-party-video-distribution-provider"></a>配置第三方视频分发提供商 
 
 如果通过 Microsoft 视频交付合作伙伴购买并设置软件定义的网络 (SDN) 解决方案或企业内容交付网络 (eCDN) 解决方案，请为 Teams 中的实时事件配置提供商。 
 
-### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![一个图标，显示Microsoft Teams徽标。](../media/teams-logo-30x30.png) 使用 Microsoft Teams 管理中心
+### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![一个图标，显示Microsoft Teams徽标。](../media/teams-logo-30x30.png) 使用Microsoft Teams管理中心，
 
 1. 在左侧导航栏中，转到"**会议**  >  **实时事件设置&quot;。**
 2. 在 **&quot;第三方视频分发提供商&quot;下**，完成以下操作： 
 
-    ![管理中心内的第三方视频分发提供商设置。](../media/teams-live-events-settings-distribution-provider.png &quot;实时事件的第三方视频分发提供商设置的屏幕截图")
+    ![管理中心内的第三方视频分发提供商设置。](../media/teams-live-events-settings-distribution-provider-new.png &quot;实时事件的第三方视频分发提供商设置的屏幕截图")
 
-    - **使用第三方分发提供商** 启用此选项以启用第三方视频分发提供商。
+    - **使用第三方分发提供商** 启用此选项可启用第三方视频分发提供商。
     - **SDN 提供程序名称** 选择你使用的提供商。
-    - **提供程序许可证密钥** 输入从提供商联系人获取的许可证 ID。
-    - **SDN API 模板 URL** 输入从提供商联系人获取的 API 模板 URL。
-
+    - **SDN 配置** 输入 SDN 配置详细信息。
+        
 ### <a name="using-windows-powershell"></a>使用 Windows PowerShell
 从提供程序联系人获取许可证 ID 或 API 令牌和 API 模板，然后根据使用的提供程序运行下列操作之一：
 
@@ -96,7 +95,7 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName peer5 -SdnLicenseId {peer5CustomerId}
 ```
 
-有关详细信息，请参阅[Set-CsTeamsMeetingBroadcastConfiguration。](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps)
+有关详细信息，请参阅[Set-CsTeamsMeetingBroadcastConfiguration。](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps&preserve-view=true)
 
 > [!NOTE]
 > 如果计划使用外部应用或设备创建实时事件，则还需要使用 Microsoft Stream 配置 [eCDN 提供程序](/stream/network-caching)。 

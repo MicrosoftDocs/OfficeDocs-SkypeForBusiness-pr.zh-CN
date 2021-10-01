@@ -1,7 +1,7 @@
 ---
 title: 为组织管理“班次”应用
-author: cichur
-ms.author: v-cichur
+author: serdarsoysal
+ms.author: serdars
 ms.reviewer: lisawu,gumariam
 manager: serdars
 ms.topic: article
@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 7e58b7452ec3e89ded6f24da17490cf476885d72
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: d7c1bdde4764b56e8c45a8ad9356437525f00b56
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727831"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045718"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中为组织管理“班次”应用
 
@@ -36,12 +36,12 @@ ms.locfileid: "58727831"
 
 ## <a name="overview-of-shifts"></a>“班次”概述
 
-应用中的 Shifts 应用Microsoft Teams一线工作人员保持连接和同步。它首先构建为移动版，用于快速高效的时间管理和团队通信。 排班可让一线员工及其经理使用其移动设备管理日程安排并保持联系。
+应用中的 Shifts Microsoft Teams一线员工保持连接和同步。它首先构建为移动版，用于快速高效的时间管理和团队通信。 轮班允许一线员工及其经理使用其移动设备管理日程安排并保持联系。
 
 - 经理可创建、更新和管理团队的班次安排。 他们可以向一个人（“地板上洒了水”）或整个团队（“区域总经理将在 20 分钟后到达”）发送消息。 他们还可以发送政策文档、新闻公告和视频。
 - 员工可查看即将到来的排班、查看当天还有谁的排班、申请调班或转班以及申请请假。
 
-必须知道，Shifts 当前不支持来宾。 这意味着在 Teams 中启用来宾访问时，无法将团队中的来宾添加到排班计划，他们也无法使用排班计划。 
+必须知道 Shifts 目前不支持来宾。 这意味着在 Teams 中启用来宾访问时，无法将团队中的来宾添加到排班计划，他们也无法使用排班计划。 
 
 > [!Note]
 > 有关不同平台上的“班次”功能的详细信息，请参阅 [Teams 功能（按平台）](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
@@ -74,11 +74,11 @@ Teams 可用的所有企业 SKU 中均提供“班次”。
 
 利用应用设置策略，你可自定义 Teams 来突出显示组织中对用户最重要的应用。 在策略中设置的应用会固定到应用栏（&mdash;Teams 桌面客户端的边栏以及 Teams 移动客户端的底栏&mdash;），用户可以快速方便地访问。
  
-Teams包括内置 FirstLineWorker 应用设置策略，可将其分配给组织的一线工作人员。 默认情况下，该策略包括“活动”、“班次”、“聊天”和“通话”应用。
+Teams包括内置 FirstLineWorker 应用设置策略，可将其分配给组织的一线员工。 默认情况下，该策略包括“活动”、“班次”、“聊天”和“通话”应用。
 
-若要查看 FirstLineWorker 策略，在 Microsoft Teams 管理中心的左侧导航栏中，转到"Teams  >  **应用设置策略"。**
+若要查看 FirstLineWorker 策略，在 Microsoft Teams 管理中心的左侧导航栏中，转到"Teams **设置**  >  **策略"。**
 
-![FirstLineWorker 应用设置策略的屏幕截图。](../../media/firstline-worker-app-setup-policy.png "用户管理中心中 FirstLineWorker 应用Microsoft Teams的屏幕截图")
+:::image type="content" source="../../media/firstline-worker-app-setup-policy-new.png" alt-text="用户管理中心中 FirstLineWorker 应用设置Microsoft Teams屏幕截图" lightbox="../../media/firstline-worker-app-setup-policy-new.png":::
 
 #### <a name="assign-the-firstlineworker-app-setup-policy-to-users"></a>将 FirstLineWorker 应用设置策略分配给用户
 

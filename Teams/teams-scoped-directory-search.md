@@ -19,21 +19,21 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 844681b4941ef19db21d90e9e1bbc9ed7ee1dde9
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: f69a4d94743e443fd20f53f5eb35d26b6d69e3b3
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733071"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60046228"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>使用 Microsoft Teams 范围目录搜索
 
-Microsoft Teams范围的目录搜索允许组织创建虚拟边界，控制用户如何查找和与组织中其他用户进行通信。 
+Microsoft Teams范围目录搜索允许组织创建虚拟边界，控制用户如何查找和与组织中其他用户通信。 
 
 Microsoft Teams允许组织向用户提供目录的自定义视图。 Microsoft Teams信息[屏障策略来支持](/microsoft-365/compliance/information-barriers)这些自定义视图。 启用策略后，将搜索其他用户返回的结果 (例如，启动聊天或将成员添加到团队) 将按照配置的策略进行范围设置。 当范围搜索生效时，用户将无法搜索或发现任何团队，但这些团队中的现有成员可以添加用户，这是活动信息屏障策略所允许的。
 
 > [!NOTE]
-> 在Exchange混合环境中，此功能仅适用于Exchange Online邮箱，而与本地邮箱不同。
+> 在Exchange环境中，此功能仅适用于Exchange Online邮箱，而与本地邮箱不同。
 
 另请参阅[中的通讯簿Exchange Online。](/exchange/address-books/address-book-policies/address-book-policies)
 
@@ -55,10 +55,9 @@ Microsoft Teams允许组织向用户提供目录的自定义视图。 Microsoft 
 
 2. 在Microsoft Teams管理中心，选择 **"组织范围的设置"Teams**  >  **设置"。**
 
-3. 在 **"搜索**"下，Teams ABP Exchange地址簿策略 (范围目录搜索 **) "，** 将开关 **打开**。
+3. 在 **"搜索**"下，使用 ABP Teams地址簿策略Exchange范围目录搜索 **(，)** 开关"打开 **"。**
 
     ![在管理中心中Microsoft Teams目录搜索。](media/teams-scoped-directory-search-image1.png)
-
 
 > [!IMPORTANT]
 > 此更改可能需要几个小时才能复制。

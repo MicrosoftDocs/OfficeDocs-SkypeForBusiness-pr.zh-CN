@@ -16,25 +16,26 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 851d04b3e0d24af7a31b820c812046c55fad21f1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 202303954ed2a730589f965bb4e81e663605b005
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582186"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045798"
 ---
 # <a name="data-transfers-between-carriers-and-microsoft-for-operator-connect"></a>运营商与 Microsoft for Operator 连接
 
-## <a name="provisioned-and-assigned-numbers"></a>已预配和已分配号码
+Microsoft 是它处理与 Operator 连接 有关的个人数据的连接。 客户必须通知其最终用户以下信息：
 
-为了确保运营商 连接 计划正常运行，Microsoft 会通过 API 通知每个参与运营商，该 API 在 Teams 管理中心内分配了哪一个运营商的电话号码，以及该电话号码的 SIP URI (会话启动协议统一资源标识符) 。
+- Microsoft 的接线员连接功能Microsoft Teams最终用户Teams通过呼叫网络与其他用户通信，Microsoft Teams。
+- 当你的组织启用此功能时，Microsoft 会与组织的通信服务运营商（每个运营商 (运营商）共享信息) 以确保服务正常运行以及进行故障排除。
 
-## <a name="call-detail-records-and-quality-data"></a>呼叫详细记录和质量数据
+使用运算符时，Microsoft 与操作员共享的信息连接包括：
 
-Microsoft 会通过 API 向每个参与运营商提供呼叫详细信息记录和质量数据。 这是 Microsoft 和运营商执行故障排除并确保服务正常运行所必需的。
+- 您的电话号码以及分配给您的电话号码的 Microsoft 分配的 SIP URI (会话启动协议统一) 标识符;
+- 呼叫详细信息和呼叫质量数据，例如呼叫方和呼叫收件人电话号码;呼叫邀请和结束时间;某些调用方标识符;通话持续时间;和有关服务 (的信息，例如，调用方和呼叫接收者的 IP 地址和) ;和
+- 紧急呼叫位置信息。
 
-## <a name="call-duration-data"></a>通话持续时间数据
+操作员将能够导出和下载上面列出的信息。
 
-每个运营商都将通过 API 向 Microsoft 提供客户使用 Microsoft Teams。 Microsoft 将使用这些记录为客户提供使用情况信息，并确保我们的记录与运营商的记录一致。 Microsoft 将按照适用的法律和法规以及 Microsoft 隐私声明存储和处理这些记录。
-
-有关详细信息：[购买、配置和启用职业指导Microsoft Teams](career-coach.md)
+此信息将由操作员根据操作员的隐私惯例进行处理。 有关详细信息，请参阅运营商的隐私策略和使用条款。 有关 Microsoft 隐私惯例的信息，请参阅适用于此链接Teams [Microsoft 隐私声明](https://go.microsoft.com/fwlink/?LinkId=521839)。

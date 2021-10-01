@@ -1,5 +1,5 @@
 ---
-title: 设置公共区域电话许可证
+title: 设置"公共区域"电话许可证
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: '了解如何为大厅、接收区和会议室设置公用区域电话 '
-ms.openlocfilehash: ad38f753b109aefd0e7628efe3e61472e7149597
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: e2d81c047f4bf26d43da4fd8f9fc31c0702c28d8
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733751"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045558"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>为 Microsoft Teams 设置公共区域电话许可证
 > [!NOTE]
@@ -34,7 +34,7 @@ ms.locfileid: "58733751"
 
 公用区域电话通常放置在大厅等区域，或者供许多人进行呼叫的另一区域;例如，前台区域、大厅或会议电话。 常用区域电话使用与公用区域服务许可证绑定电话登录。 还必须适当设置 TeamsIPPhone 策略，使手机具有共同的区域用户体验。
 
-在以下步骤中，我们将帮助你设置一个帐户电话系统为组织部署公用区域电话。 为获得更完整的会议室体验（包括音频会议），请考虑购买具有会议室设备的专用会议许可证。 
+在以下步骤中，我们将帮助你设置一个帐户电话系统为组织部署公用区域电话。 为获得更完整的会议室体验（包括音频会议），请考虑购买具有会议室会议室专用会议许可证。 
 
 首先，需要购买公共区域电话 (CAP) 许可证，并确保拥有经过认证的电话。 若要搜索并了解有关认证电话的信息，请转到["Microsoft Teams设备"。](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1) 
 
@@ -58,7 +58,7 @@ ms.locfileid: "58733751"
 
 有关许可证详细信息，请参阅Microsoft Teams[附加许可。](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 
-公共区域电话支持： 
+Common Area 电话 许可证支持： 
 
 
 | &nbsp;  |  公共区域电话  |
@@ -90,7 +90,7 @@ ms.locfileid: "58733751"
 
 5. 对于公用区域电话，你可能希望手动设置密码，或者拥有所有公用区域电话的相同密码。 此外，还可以考虑清除" **让此用户在首次登录时更改** 其密码"复选框。
 
-6. 将许可证分配给用户。 在同一页面上，点击展开 **产品许可证**。 打开"公用区域"电话选择"国内呼叫计划 **"或"****国内和国际呼叫计划"。** 
+6. 将许可证分配给用户。 在同一页面上，点击展开 **产品许可证**。 打开"公用区域"电话选择国内 **呼叫计划或****国内和国际呼叫计划**。 
 
     ![显示许可证分配的屏幕截图，其中突出显示了国内呼叫计划以及国内和国际计划选项。](media/set-up-common-area-phone-image2.png)
 
@@ -105,19 +105,19 @@ ms.locfileid: "58733751"
 
 1. 在"Teams管理中心"中，选择 **"语音**  >  **电话号码"。**
 
-3.    从电话号码列表中选择一个号码，然后点击 **分配**。
+3. 从电话号码列表中选择一个号码，然后点击 **分配**。
 
 4. 在 **"分配** "页面上的"语音用户"框中，键入将使用该电话的用户名，然后在"选择语音用户" **下拉列表中选择该用户** 。
 
-5. 接下来，需要添加紧急地址。 从 **下拉列表中选择**"按城市搜索、按说明搜索"或"按位置搜索"，然后在文本框中输入城市、说明或位置。 搜索后，在" **选择紧急地址"** 下查找以选择正确的地址。
+5. 接下来，需要添加紧急地址。 从 **下拉列表中选择**"按城市搜索、按说明搜索"或"按位置搜索"，然后在文本框中输入城市、说明或位置。 搜索后，在" **选择紧急地址"** 下查找，选择适当的地址。
 
 6. 点击 **保存**，你的用户将显示如下：
 
    ![屏幕截图显示示例用户许可证分配。](media/set-up-common-area-phone-image3.png)
 
 > [!NOTE]
-> 用户只有在应用了许可证后才能电话系统显示。 如果你刚执行了该操作，用户可能需要经过一段时间才能在列表中显示。
+> 用户只有在应用了许可证后电话系统显示。 如果你刚执行了该操作，用户可能需要经过一段时间才能在列表中显示。
 
 有关详细信息，请参阅 [获取用户的电话号码](getting-phone-numbers-for-your-users.md)。
 
-您也可以将您拥有的电话号码转至其他运营商并"转Microsoft 365或Office 365。 请参阅[将电话号码转移到 Teams。](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)
+您也可以将您拥有的电话号码与另一家运营商联系并"转Microsoft 365或Office 365。 请参阅[将电话号码转移到 Teams。](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)

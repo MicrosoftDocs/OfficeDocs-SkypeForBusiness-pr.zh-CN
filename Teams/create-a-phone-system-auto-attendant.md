@@ -21,13 +21,13 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: 了解如何为公司中的大型组织设置和测试Microsoft Teams。
-ms.openlocfilehash: 59d12bc7d7bde68be6c42aff4e415713d641679f
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: 了解如何在 Microsoft Teams 中为大型组织设置和测试自动Microsoft Teams。
+ms.openlocfilehash: 29e746c9db2da970d4709da126297b6cc38b6c81
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729081"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60046028"
 ---
 # <a name="set-up-an-auto-attendant"></a>设置自动助理
 
@@ -36,7 +36,7 @@ ms.locfileid: "58729081"
 > [!TIP]
 > 本文适用于大型组织。 如果你的组织是小型企业，请改为阅读 [设置自动助理 - 小型企业教程](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb) 。
 
-在按照本文中[的过程操作之前](plan-auto-attendant-call-queue.md)，请确保已Teams自动助理和呼叫队列的计划并按照入门步骤[](plan-auto-attendant-call-queue.md#getting-started)操作。
+请确保已阅读自动[助理Teams](plan-auto-attendant-call-queue.md)呼叫队列的计划，并按照入门步骤操作，然后按照本文中的[](plan-auto-attendant-call-queue.md#getting-started)步骤操作。
 
 自动助理可以基于呼叫者的输入将呼叫引导到以下目标之一： <a name="call-routing-options" ></a>
 
@@ -54,7 +54,7 @@ ms.locfileid: "58729081"
 
 ## <a name="video-demonstration"></a>视频演示
 
-此视频演示了如何在 Teams 中创建自动助理的基本示例。
+此视频演示了如何在 Teams 创建自动助理的基本示例。
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWEnCG?autoplay=false]
 
@@ -83,9 +83,9 @@ ms.locfileid: "58729081"
 
 选择当自动助理应答呼叫时是否要播放问候语。
 
-如果选择"**播放音频文件"，** 可以使用"Upload"按钮上传在 中保存为音频的录制问候消息。WAV、.MP3 或 。WMA 格式。 录制内容不能大于 5 MB。
+如果选择"**播放音频文件"，** 可以使用"Upload"按钮上传在 中另存为音频的录制问候消息。WAV、.MP3 或 。WMA 格式。 录制内容不能大于 5 MB。
 
-如果选择" **键入** 问候消息"，系统将在自动助理应答呼叫时 (键入的文本) 最多 1000 个字符。
+如果选择" **键入** 问候消息"，系统将在自动助理应答呼叫时 (最多 1000 个字符) 键入的文本。
 
 ![呼叫路由设置的屏幕截图。](media/auto-attendant-call-flow-route-call-message.png)
 
@@ -123,9 +123,9 @@ ms.locfileid: "58729081"
 
 **按姓名** 拨叫 - 如果启用此选项，呼叫者可以说出用户的姓名或在电话键盘上键入用户名。 任何联机用户或任何使用 Skype for Business Server 本地托管的用户都是符合条件的用户，可以使用"按姓名拨叫"找到。  (你可以设置"拨号范围"页上的目录中包括和不包括哪些人) [](#dial-scope)
 
-**按分机号码** 拨叫 - 如果启用此选项，呼叫者可以通过拨打其电话分机来与贵组织的用户联系。 任何联机用户或任何使用 Skype for Business Server 本地托管的用户，都是符合条件的用户，可通过"按分机号拨叫 **"找到**。  (你可以设置"拨号范围"页上的目录中包括和不包括哪些人) [](#dial-scope)
+**按分机号码** 拨叫 - 如果启用此选项，呼叫者可以通过拨打其电话分机来与贵组织的用户联系。 任何联机用户或任何使用 Skype for Business Server 本地托管的用户都是符合条件的用户，可通过"按分机号拨叫 **"找到**。  (你可以设置"拨号范围"页上的目录中包括和不包括哪些人) [](#dial-scope)
 
-要使其可用于"拨号分机"的用户需要具有指定为 Active Directory 中定义的以下电话属性之一的一部分的扩展Azure Active Directory (请参阅单独或批量添加用户了解详细信息[](/microsoft-365/admin/add-users/add-users)。) 
+要使其可用于"按分机号码"的用户需要具有指定为 Active Directory 中定义的以下电话属性之一的一部分的扩展Azure Active Directory (请参阅单独或批量添加用户了解[](/microsoft-365/admin/add-users/add-users)详细信息。) 
 
 - OfficePhone
 - HomePhone
@@ -196,14 +196,14 @@ ms.locfileid: "58729081"
 
 ![拨号范围包括和排除选项的屏幕截图。](media/auto-attendant-dial-scope.png)
 
-拨号 *范围* 定义当呼叫者使用按名称拨叫或按分机拨叫时，哪些用户在目录中可用。 默认情况下 **，"所有联机用户**"包括组织中使用"联机"用户或本地托管的所有用户Skype for Business Server。
+拨号 *范围* 定义当呼叫者使用按名称拨叫或按分机拨叫时，哪些用户在目录中可用。 "所有 **联机用户"** 的默认值包括组织中使用"联机"用户或本地托管的所有用户Skype for Business Server。
 
 可以通过在"包括"或"排除"下选择"自定义用户组"，并选择一个或多个Microsoft 365组、通讯组列表或安全组，来包括或排除特定用户。  例如，你可能希望从拨号目录中排除组织中高层。  (如果用户同时在两个列表中，则他们将被排除在 directory.) 
 
 > [!NOTE]
 > 新用户可能需要最多 36 小时才能在目录中列出其名称。
 
-设置完拨号范围后，选择"下一步 **"。**
+设置完拨号范围后，选择"下一 **步"。**
 
 ## <a name="resource-accounts"></a>资源帐户
 
@@ -223,18 +223,18 @@ ms.locfileid: "58729081"
 
 若要允许 [自动助理](plan-auto-attendant-call-queue.md#prerequisites) 在外部转移呼叫，请参阅先决条件。  另外：
 
-- 对于具有呼叫 [计划](calling-plans-for-office-365.md)许可证的资源帐户，必须以 E.164 格式输入外部转移电话号码 (+[国家/地区代码][区号][电话号码]) 。
+- 对于具有呼叫计划许可证或[](calling-plans-for-office-365.md)运营商[连接](operator-connect-plan.md)号码的资源帐户，必须以 E.164 格式输入外部转移电话号码 (+[国家/地区代码][区号][电话号码]) 。
 
-- 对于具有 电话系统 许可证和直接路由联机语音路由策略的资源帐户，外部转移电话号码格式取决于会话边界控制器 ([SBC) ](direct-routing-connect-the-sbc.md)设置。
+- 对于具有 电话系统 许可证和直接路由联机语音路由策略的资源帐户，外部转移电话号码格式取决于会话边界控制器 ([SBC](direct-routing-connect-the-sbc.md)) 设置。
 
 显示的出站电话号码按如下所示确定：
 
-  - 对于"呼叫计划号码"，将显示原始呼叫者的电话号码。
+  - 对于呼叫计划和连接号码，将显示原始呼叫者的电话号码。
   - 对于直接路由号码，发送的数字基于 SBC 上的 P-Asserted-Identity (PAI) 设置，如下所示：
     - 如果设置为"已禁用"，将显示原始呼叫者的电话号码。 这是默认设置，也是建议的设置。
     - 如果设置为"已启用"，将显示资源帐户电话号码。
 
-在Skype for Business环境中，若要将自动助理呼叫转接到 PSTN，请创建呼叫转接设置为 PSTN 号码的新本地用户。 必须为用户启用语音企业语音并分配语音策略。 有关详细信息，请参阅自动[助理呼叫转接到 PSTN。](/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn)
+在Skype for Business混合环境中，若要将自动助理呼叫转接到 PSTN，请创建呼叫转接设置为 PSTN 号码的新本地用户。 必须为用户启用语音企业语音并分配有语音策略。 有关详细信息，请参阅自动[助理呼叫转接到 PSTN。](/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn)
 
 ### <a name="create-an-auto-attendant-with-powershell"></a>使用 PowerShell 创建自动助理
 

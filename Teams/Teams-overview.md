@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d16047b643ee8312a250156cbb5abcd083b01bc2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d94c67e4fa00ea5b0206e67963da486ed9b16832
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603641"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045788"
 ---
 # <a name="welcome-to-microsoft-teams"></a>欢迎使用 Microsoft Teams
 如果你是贵组织的 Microsoft Teams 管理员，本文正适合你。 准备好使用 Teams 时，请从 [如何推出 Teams](./deploy-overview.md) 和 [设置与 Microsoft 365 和 Microsoft Teams 的安全协作](/microsoft-365/solutions/setup-secure-collaboration-with-teams) 开始。
@@ -35,7 +35,7 @@ ms.locfileid: "58603641"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE47cdp]
 
-若要获取最终用户 Teams 帮助，请单击应用左侧的“帮助”，或转到 [Microsoft Teams 帮助中心](https://support.office.com/teams)。 有关培训，请访问 [Microsoft Teams 培训](training-microsoft-teams-landing-page.md)。 
+若要获取最终用户 Teams 帮助，请单击应用左侧的“**帮助**”，或转到 [Microsoft Teams 帮助中心](https://support.office.com/teams)。若要获取培训，请转到 [Microsoft Teams 培训](training-microsoft-teams-landing-page.md)。 
 
 ## <a name="teams-architecture"></a>Teams 体系结构
 
@@ -57,7 +57,6 @@ Teams 基于 Microsoft 365 组、Microsoft Graph 以及与其余 Microsoft 365 �
 > [!TIP]
 > 如需深入了解 Teams 体系结构，请观看 [Teams Platform Academy](https://aka.ms/TeamsPlatformAcademy) 中的视频。
 
-
 ## <a name="managing-teams"></a>管理团队
 
 作为管理员，你将通过 Microsoft Teams 管理中心来管理团队。 要快速定位，请观看“使用 Teams 管理中心管理 Teams”视频（3:03 分钟）：
@@ -76,7 +75,7 @@ Teams 基于 Microsoft 365 组、Microsoft Graph 以及与其余 Microsoft 365 �
 ## <a name="upgrade-from-skype-for-business-to-teams"></a>从 Skype for Business 升级到 Teams
 Teams 是 Microsoft 365 和 Office 365 中的主要智能通信客户端，它最终将取代 Skype for Business Online。 若要了解要添加到 Teams 的新功能，请参阅 [Microsoft 365 路线图](https://aka.ms/O365Roadmap)。 为了补充持久聊天和消息传递功能，Teams 通过完全集成的内置语音和视频功能提供全面的会议和通话体验。 请查看 Microsoft Teams 博客中的 [Teams 现在是完整的会议和通话解决方案](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-is-now-a-complete-meeting-and-calling-solution/ba-p/236042)。
 
-如果你正在运行 Skype for Business 并准备升级到 Teams，或者你正在同时运行 Skype for Business 和 Teams 并准备完全转为运行 Teams，我们提供了工具、提示和指导，以帮助你成功完成过渡。 若要了解详细信息，请参阅[升级到 Teams](upgrade-start-here.md)。
+如果你正在运行 Skype for Business 并准备升级到 Teams，或者你正在同时运行 Skype for Business 和 Teams 并准备完全转为运行 Teams，我们提供了工具、提示和指导，以帮助你成功完成过渡。若要了解详细信息，请参阅[升级到 Teams](upgrade-start-here.md)。
 
 ## <a name="teamwork"></a>团队合作
 每个团队都是不同的，协作没有一刀切的方法。Microsoft 365 和 Office 365 旨在满足每个团队的独特需求，从而使大家能够通过专用的集成应用进行交流、协作以及取得更大的成就。
@@ -89,7 +88,7 @@ Teams 是 Microsoft 365 和 Office 365 中的主要智能通信客户端，它�
 
 - **SharePoint** 用于网站和门户、智能内容服务、业务流程自动化和企业搜索。 SharePoint 将内容保留在团队合作的中心位置，从而使所有类型的内容可在团队之间轻松共享和访问。 通过与 Outlook、Yammer 和 Teams 紧密集成，可在对话体验中实现无缝内容协作。
 
-- **OneDrive for Business** 用于存储文件以及与用户邀请的人员共享这些文件。 用户保存到 OneDrive for Business 的内容在本人与其他人共享之前一直是私人的，因此 OneDrive for Business 非常适合存储不打算共享或未准备好共享的个人文档和草稿文档。
+- **OneDrive for Business** 用于存储文件并与用户邀请的人员共享文件。用户保存到 OneDrive for Business 的内容在本人与其他人共享之前一直是私人的，因此 OneDrive for Business 非常适合存储不打算共享或未准备好共享的个人文档和草稿文档。
 
 - **Yammer** 用于整个组织中的人员进行联系。 可推动公司范围的计划、共享最佳做法以及就共同的兴趣、领域或做法主题进行交流。 可汇聚众人的想法来提倡整个公司的人员进行开放式讨论。
 

@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 19c6676bb742deacf97afae54f29b369d551b9ae
-ms.sourcegitcommit: 5eb5acd7910724f7f4a598ecc28b003e5bbe5ea5
+ms.openlocfilehash: 51ec855bc9065bb65c0f6eae14a3e41683cfbc6f
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "60007762"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60046128"
 ---
 # <a name="use-financial-team-templates"></a>使用财务团队模板
 
@@ -38,12 +38,12 @@ Teams 包括专为金融服务组织设计的模板。 使用这些预建模板�
 
 |如果是： | 然后，可以： |
 | ---- | --------- |
-| 管理人员或 IT 专业人员 |[管理中心的 Teams 模板](#manage-team-templates-in-the-teams-admin-center)。 查看团队模板，并应用模板策略，确定员工可以在 Teams 中使用哪些模板来创建团队。 |
+| 管理人员或 IT 专业人员 |[在 Teams 管理中心中管理团队模板](#manage-team-templates-in-the-teams-admin-center)。查看团队模板，并应用模板策略，以控制员工可以在 Teams 中使用哪些模板来创建团队。 |
 | 开发人员 | [使用 Microsoft Graph ](#use-team-templates-with-microsoft-graph) 从团队模板中创建团队。 |
 
 ## <a name="manage-team-templates-in-the-teams-admin-center"></a>Teams 管理中心的管理团队模板
 
-作为管理人员，你可以在 Microsoft Teams 管理中心内管理团队模板。 可在此处查看有关每个模板的详细信息。 还可以[创建模板策略](templates-policies.md)并将其分配给员工，以确定在 Teams 中使用哪些模板来[创建团队](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c)。
+作为管理人员，你可以在 Microsoft Teams 管理中心内管理团队模板。 可在此处查看有关每个模板的详细信息。 还可以[创建模板策略](templates-policies.md)并将其分配给员工，以确定在 Teams 中使用哪些模板来[创建团队](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)。
 
 若要了解有关团队模板的详细信息，请参阅[管理中心的 Teams 模板入门](get-started-with-teams-templates-in-the-admin-console.md)。
 
@@ -60,7 +60,7 @@ Teams 包括专为金融服务组织设计的模板。 使用这些预建模板�
 
 ## <a name="use-team-templates-with-microsoft-graph"></a>将 Teams 模板与 Microsoft Graph 一起使用
 
-开发人员可以使用 Microsoft Graph 从预先构建的团队模板中创建团队。 若要详细了解如何将团队模板与Microsoft Graph 配合使用，请参阅[使用 Microsoft Graph 团队模板入门](get-started-with-teams-templates.md)， [ Microsoft Teams API 概述](/graph/teams-concept-overview?view=graph-rest-1.0)，[teamsTemplate 资源类型](/graph/api/resources/teamstemplate?view=graph-rest-1.0)。
+开发人员可以使用 Microsoft Graph 基于预建的团队模板创建团队。若要详细了解如何将团队模板与 Microsoft Graph 配合使用，请参阅[使用 Microsoft Graph 团队模板入门](get-started-with-teams-templates.md)，[Microsoft Teams API 概述](/graph/teams-concept-overview?view=graph-rest-1.0)，[teamsTemplate 资源类型](/graph/api/resources/teamstemplate?view=graph-rest-1.0)。
 
 ### <a name="bank-branch"></a>银行分支机构
 
@@ -73,3 +73,9 @@ Teams 包括专为金融服务组织设计的模板。 使用这些预建模板�
 
 > [!NOTE]
 > 有关适用于金融服务组织的其他模板，请参阅[在 Microsoft Graph 中为中小型企业构建团队模板](smb-templates.md)。
+
+## <a name="related-articles"></a>相关文章
+
+- [在管理中心内开始使用 Teams 模板](get-started-with-teams-templates-in-the-admin-console.md)
+- [基于模板创建团队](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)
+- [开始使用 Microsoft Graph 的团队模板](get-started-with-teams-templates.md)

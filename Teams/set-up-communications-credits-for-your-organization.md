@@ -23,16 +23,16 @@ ms.custom:
 - Licensing
 - seo-marvel-apr2020
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: 6c66556cdcd32bb99b29bd66291d47bad28d44fd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2fc412627bc211d3ec3290d2cb4c64698e0bca9b
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608769"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045889"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>设置组织的通信点数
 
-您需要设置通信点数，如果您想要使用 Skype for Business 和 Microsoft Teams 的免费电话号码。 此外，我们建议你为需要拨出到任何目的地的呼叫计划 (或国际) 和音频会议用户设置通信 **积分**。 包括许多国家/地区，但某些目的地可能不包含在呼叫计划或音频会议订阅中。 如果未设置通信信用额度计费并将通信信用额度许可证分配给用户，并且你的组织 (根据你的呼叫计划或音频会议计划在你的国家/地区) 中用完了分钟数，则这些用户将无法进行呼叫或从音频会议会议拨出。 可以通过阅读什么是通信信用额度，获取更多信息，包括建议 [的金额？](what-are-communications-credits.md)
+您需要设置通信点数，如果您想要使用 Skype for Business 和 Microsoft Teams 的免费电话号码。 此外，我们建议你为需要拨出到任何目的地的呼叫计划 (或国际电话) 音频会议用户设置通信 **积分**。 包括许多国家/地区，但某些目的地可能不包含在呼叫计划或音频会议订阅中。 如果未设置通信信用额度计费并将通信信用额度许可证分配给用户，并且你的组织 (根据你的呼叫计划或音频会议计划在你的国家/地区) 中用完了分钟数，则这些用户将无法进行呼叫或从音频会议会议拨出。 可以通过阅读什么是通信信用额度，获取更多信息，包括建议 [的金额？](what-are-communications-credits.md)
   
 > [!NOTE]
 > 若要找出它的费用， [请参阅下面的价格](https://go.microsoft.com/fwlink/p/?LinkId=799523 )  。 
@@ -43,18 +43,18 @@ ms.locfileid: "58608769"
   
 为此，**你需要为用户分配** 音频电话系统许可证。
   
-- 为 **用户分配** 音频会议许可证。 请参阅[分配Microsoft Teams许可证。](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+- 为 **用户分配** 音频会议许可证。 请参阅[分配Microsoft Teams许可证](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
     
     分配此许可证后，需要设置音频会议。 有关分步说明，请参阅尝试或购买音频会议（在 Microsoft 365[或 Office 365）。](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
     
-- 为 **电话系统** 分配国内 **或** 国内和国际呼叫计划许可证。 请参阅[分配Microsoft Teams许可证。](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+- 为 **电话系统** 分配国内 **或** 国内和国际呼叫计划许可证。 请参阅[分配Microsoft Teams许可证](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
     
     > [!NOTE]
     > 虽然通信积分不需要，但您仍然需要分配国内呼叫计划或 **国内和国际呼叫计划** 许可证。 
   
     分配这些许可证后，你需要获得贵组织的电话号码，然后将这些号码分配给组织中的人员。 有关分步说明，请参阅 [设置呼叫计划](set-up-calling-plans.md)。
     
-有关详细信息，请参阅Microsoft Teams[附加许可](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+有关详细信息，请参阅[Microsoft Teams附加许可](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
 ## <a name="step-2-set-up-communications-credits-for-your-organization"></a>步骤 2：为组织设置通信信用额度
 
@@ -70,7 +70,7 @@ ms.locfileid: "58608769"
     
    - **自动充值**：启用自动充值将在余额低于你设置的阈值时自动补充你的帐户余额。
     
-     建议你使用自动充值设置，以免在通信信用额度余额达到 0 或零时 (中断) 。 充值交易成功、充值交易失败（例如 (信用卡) ）以及通信积分余额达到 0 (零) 时，将发送一封电子邮件。
+     建议你使用自动充值设置，以免在通信信用额度余额达到 0 或零时发生任何 (中断) 。 充值交易成功、充值交易失败（例如 (信用卡) ）以及通信信用额度余额达到 0 (零) 时，将发送一封电子邮件。
     
    - **充值金额** 在"充值金额 **"** 框中输入在达到以下触发金额后要添加到帐户的金额。
     
@@ -79,31 +79,31 @@ ms.locfileid: "58608769"
       > [!NOTE]
      > 使用服务时，资金将仅应用于 Microsoft 发布的通信信用额度。 自购买之日起的 12 个月内未使用的任何资金将过期并丢失。 
      > 
-     > 使用自动充值功能时，当达到触发金额并处理充值交易时，将生成通信积分的开票。 通信信用额度以先出先出的方式使用。 若要了解如何检查每月使用情况，请阅读[pstN Skype for Business报告](/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report)
+     > 使用自动充值功能时，当达到触发金额并处理充值交易时，将生成通信积分的开票。 通信信用额度以先出先出的方式使用。 若要了解如何检查每月使用情况，请阅读[PSTN Skype for Business报告](/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report)
     
 5. 输入您的付款信息并单击 **下订单** 。
     >[!IMPORTANT]
     >如果您是批量授权客户，则可以选择您的企业协议编号进行付款。 如果您有多个企业协议编号，您将能够选择要用于付款的企业协议。 您还将获得一个机会，指定要与企业协议编号关联的采购订单编号 （如果适用）。
     
-每个组织都会考虑不同的呼叫计划数量和费率使用情况。 You will need to get this type of usage data from your current service provider. 已使用 Skype for Business Online 的组织可以通过在管理中心报告 PSTN 使用情况详细信息报告中查看Microsoft Teams  >    >  **获取使用情况** 数据。
+每个组织都会考虑不同的呼叫计划数量和费率使用情况。 You will need to get this type of usage data from your current service provider. 已使用 Skype for Business Online 作为服务提供商的组织可以通过在 **Microsoft Teams** 管理中心  >  **Analytics &** 报告使用情况报告  >    >  **PSTN** 和 SMS (预览版) 使用情况报告中查看这些数据，获取使用情况数据。
   
-设置通信信用额度时，需要调查组织的呼叫使用情况，以确定所需的金额。 你可以通过查看" **PSTN 使用详细信息**"报告获取呼叫使用信息。 如果需要存储数据或创建自定义报表，Excel导出呼叫数据记录。 若要了解如何查看使用情况，请阅读 [PSTN 使用情况报告](/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report)。
+设置通信信用额度时，需要调查组织的呼叫使用情况，以确定所需的金额。 您可以通过查看 PSTN 和 SMS (预览版) **呼叫使用情况** 信息。 如果需要存储数据或创建自定义报表，Excel导出呼叫数据记录。 若要了解如何查看使用情况，请阅读 [PSTN 使用情况报告](/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report)。
   
 ## <a name="step-3-assign-a-communications-credits-license-to-users"></a>步骤 3：向用户分配通信信用额度许可证
 
 1. 使用工作[或Microsoft 365 管理中心](https://portal.office.com/Adminportal)登录帐户。
     
-2. 在左侧导航栏中Microsoft 365 管理中心，转到"**用户**  >  **""活动用户**"，然后从列表中选择一个用户。
+2. 在左侧导航栏中Microsoft 365 管理中心，转到"**用户**  >  **""活动** 用户"，然后从列表中选择一个用户。
     
 3. 选择 **"许可证和应用"。**
     
 4. 将 **"通信信用额度"** 切换 **为"打开**"以分配此许可证，然后选择"保存 **"。**
     
     > [!NOTE]
-    > 即使你的用户分配了一个 Enterprise **E5** 许可证，仍建议你这样做。
+    > 即使为用户分配了 Enterprise **E5** 许可证，仍建议你这样做。
 
     > [!TIP]
-    > 可以使用 [Powershell 通过](/powershell/module/skype/?view=skype-ps) 一个命令将许可证和应用分配给多个用户。
+    > 可以使用 [Powershell 通过](/powershell/module/skype/?view=skype-ps&preserve-view=true) 一个命令将许可证和应用分配给多个用户。
   
 ## <a name="want-to-know-about-plans-and-pricing"></a>想要了解计划和定价？
 
@@ -115,7 +115,7 @@ ms.locfileid: "58608769"
     
 - [电话系统计划](https://go.microsoft.com/fwlink/?LinkId=799763)
     
-也可通过登录订阅并访问"计费订阅Microsoft 365 管理中心"添加订阅 ["来](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)  >    >  **查看信息**。
+也可通过登录订阅并访问"计费订阅"Microsoft 365 管理中心"添加订阅 ["来](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)  >    >  **查看信息**。
   
 若要查看包含每个功能所需的许可证的表，请参阅Microsoft Teams[许可证。](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
@@ -125,7 +125,7 @@ ms.locfileid: "58608769"
     
 - [设置云语音邮件 - 管理员帮助](set-up-phone-system-voicemail.md)
     
-- [为呼叫或](set-up-calling-plans.md)通话[设置Microsoft 365和Office 365](calling-plans-for-office-365.md)
+- [为呼叫或](set-up-calling-plans.md)通话[设置Microsoft 365 Office 365](calling-plans-for-office-365.md)
     
 - [添加资金并管理通信点数](add-funds-and-manage-communications-credits.md)
     
