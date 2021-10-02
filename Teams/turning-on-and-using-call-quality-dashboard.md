@@ -1,5 +1,5 @@
 ---
-title: '设置 CQD (呼叫质量) '
+title: '使用 CQD (设置呼叫质量) '
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -23,22 +23,22 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: 了解如何打开和使用呼叫质量仪表板，并获取呼叫质量的摘要报告。
-ms.openlocfilehash: 292fa240b9298bd60715d812ec95d8e53403c489
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 5a220ac01965623417354df35a9052648652f607
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58750031"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60081609"
 ---
-# <a name="how-to-set-up-call-quality-dashboard"></a>如何设置呼叫质量仪表板
+# <a name="set-up-call-quality-dashboard"></a>设置呼叫质量仪表板
 
-使用管理员凭据 (登录时) CQD (Microsoft 呼叫 [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) 质量仪表板) 。 或者转到管理Teams，然后选择"呼叫 **质量仪表板"。** 
+使用管理员凭据 (登录时) CQD (Microsoft 呼叫质量 [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) 仪表板) 。 或者转到管理Teams并选择 **"分析"&"呼叫**  >  **质量仪表板"。**
 
-:::image type="content" source="media/turning-on-and-using-call-quality-dashboard3.png" alt-text="管理中心内呼叫质量仪表板按钮Teams屏幕截图。":::
+:::image type="content" source="media/turning-on-and-using-call-quality-dashboard3.png" alt-text="管理中心内"呼叫质量仪表板"按钮Teams屏幕截图。":::
 
-在打开的页面上，单击 **"登录"并** 输入全局管理员帐户或Microsoft Teams管理员帐户信息。 首次登录后，CQD 将开始收集和处理数据。 请记住，可能需要一小时或几小时才能处理足够的数据，才能在报告中显示有意义的结果。
+在打开的页面上，单击 **"登录**"并输入全局管理员帐户或Microsoft Teams管理员帐户信息。 首次登录后，CQD 将开始收集和处理数据。 请记住，可能需要一小时或几小时才能处理足够的数据，才能在报告中显示有意义的结果。
 
-CQD 显示 2019 年 Microsoft Teams、Skype for Business Online 和 Skype for Business Server 级别的呼叫和会议质量。 
+CQD 显示 2019 年 1 月 Microsoft Teams、Skype for Business Online 和 Skype for Business Server 级别的呼叫和会议质量。 
 
 > [!IMPORTANT]
 > 若要在 2019 Skype for Business Server CQD，必须[配置呼叫数据连接器](/skypeforbusiness/hybrid/configure-call-data-connector)。 在 [启动之前，请参阅规划](/skypeforbusiness/hybrid/plan-call-data-connector) 呼叫数据连接器。
@@ -62,25 +62,21 @@ CQD 显示 2019 年 Microsoft Teams、Skype for Business Online 和 Skype for Bu
 |全局阅读器 |是         |是         |是         |否         |
 |报表读者<sup>1</sup>     |是         |否         |是         |否         |
 
-<sup>1</sup>除了阅读 CQD 报告外，报表读者还可以查看管理[](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263)中心内的所有活动报告以及来自"采用情况"内容包Microsoft 365[报告](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)。
+<sup>1</sup>除了阅读 CQD 报告外，报告读者还可以查看管理[](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263)中心内的所有活动报告和来自"采用情况"内容[包Microsoft 365报告](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)。
 
 > [!NOTE]
-> 如果未看到 [EUII (](CQD-data-and-reports.md#euii-data) 最终用户可识别信息) 并且具有允许查看此信息的角色之一，请记住，CQD 仅保留 EUII 28 天。 将删除超过 28 天。
+> 如果未看到 [EUII ](CQD-data-and-reports.md#euii-data) (最终用户可识别信息) 并且具有允许查看此信息的角色之一，请记住，CQD 仅保留 EUII 28 天。 将删除超过 28 天。
 
-有关这些角色的信息，请参阅[关于Office 365角色。](/office365/admin/add-users/about-admin-roles)
+有关这些角色的信息，请参阅[关于Office 365角色](/office365/admin/add-users/about-admin-roles)。
 
 
 首次登录后，CQD 将开始收集和处理数据。
-
-
-
 
 ## <a name="use-power-bi-to-analyze-cqd-data"></a>使用Power BI分析 CQD 数据
 
 2020 年 1 月新增功能[：Power BI CQD 的查询模板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)。 可Power BI模板，可用于分析和报告 CQD 数据。
 
 请参阅[使用Power BI分析 CQD 数据](CQD-Power-BI-query-templates.md)以了解更多信息。
-
 
 ## <a name="related-topics"></a>相关主题
 

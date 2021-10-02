@@ -19,21 +19,21 @@ ms.custom:
 - seo-marvel-apr2020
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 了解如何在管理用户组的策略时，Microsoft Teams和管理策略包，以简化、简化和帮助提供一致性。
-ms.openlocfilehash: 7a9e7c8a83d7700840a49febdf0ab88104a7e2d9
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: 了解如何在管理用户组的策略时Microsoft Teams管理策略包，以简化、简化和帮助提供一致性。
+ms.openlocfilehash: 3ea2a0b88b5c412cde4b4b6cbd3da6e1d7282e94
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58750032"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60081608"
 ---
 # <a name="microsoft-teams-manage-policy-packages"></a>Microsoft Teams：管理策略包
 
 Microsoft Teams 中的策略包是一组预定义的策略和策略设置，你可以将其分配给组织中具有类似角色的用户。 我们构建了策略包，用于简化、简化和帮助在管理组织中用户组的策略时提供一致性。  
 
-可以使用包含在[策略包中的策略Teams](#policy-packages-included-in-teams)[或创建自己的自定义策略包](#custom-policy-packages)。
+可以使用应用程序[中包含的策略包Teams](#policy-packages-included-in-teams)[或创建自己的自定义策略包](#custom-policy-packages)。
 
-:::image type="content" source="media/policy-packages-admin-center.png" alt-text="管理中心中策略包页的屏幕截图。":::
+:::image type="content" source="media/policy-packages-admin-center.png" alt-text="管理中心中"策略包"页的屏幕截图。":::
 
 可以自定义策略包中策略的设置以满足用户的需求。 更改包中的策略设置时，分配到该包的所有用户将获取更新的设置。 可以使用管理中心或 PowerShell Microsoft Teams策略包。
 
@@ -62,36 +62,34 @@ Teams包括以下策略包。
 |教育 (中学生)    |创建一组适用于主要学生的策略和策略设置。|
 |教育 (中学生)     |创建一组适用于学生的策略和策略设置。         |
 |教育 (教师)     |创建一组适用于教师的策略和策略设置。      |
-|使用 (远程学习工具的教师)     |创建一组适用于主要教师的策略，在远程学习中最大化学生的安全和协作。      |
+|使用 (远程学习的教师教育)     |创建一组适用于主要教师的策略，在远程学习中最大化学生的安全和协作。      |
 |使用 (远程学习的中学生)     |创建一组适用于主要学生的策略，在远程学习中最大化学生的安全和协作。      |
 |前端管理器 |创建一组策略，将这些设置应用于组织的一线经理。 |
 |一线辅助角色 |创建一组策略，将这些设置应用到组织的一线员工。 |
 |医疗保健临床工作者  |创建一组策略和策略设置，以使临床工作者（例如注册护士、护士长、医师和社会工作者）可以完全访问聊天、通话、轮班管理和会议。 |
 |医疗保健信息工作者  |创建一组策略和策略设置，以使信息工作者（例如 IT 人员、信息学人员、财务人员和合规专员）可以完全访问聊天、通话和会议。|
 |医疗保健病房  |创建一组适用于医疗保健组织中病房的策略和策略设置。|
-|小型企业用户和商业 (语音)  |创建一个应用设置策略，其中包含用于业务语音体验的应用。|
-|没有 Business Voice (的中小型企业)  |创建与中小型企业用户相关的应用设置策略Teams用户 (非业务语音体验) 。
+|小型企业和中型企业用户 (Business Voice)  |创建一个应用设置策略，其中包含用于业务语音体验的应用。|
+|没有 Business Voice (的中小型企业)  |为具有非业务语音体验的用户创建与中小型企业Teams应用 (策略) 。
 |公共安全人员   |创建一组适用于组织中公共安全人员的策略和策略设置。|
 
 > [!NOTE]
 > 我们将在将来的 Teams 版本中添加更多策略包，因此请返回查看最新信息。  
 
 将为每个单独的策略提供策略包的名称，以便你可以轻松识别链接到该策略包的策略。
-例如，将教育 (教师) 策略包分配给学校中的教师时，将为每个策略创建名为 Education_Teacher 的策略。
+例如，将教育 (教师) 策略包分配给学校中的教师时，会为包中的每个策略创建名为 Education_Teacher 的策略。
 
 ![教育教师教师 (策略) 屏幕截图。](media/policy-packages-education_teacher.png)
 
 ## <a name="custom-policy-packages"></a>自定义策略包
 
-**自定义策略包尚不可用于政府社区云 (GCC)**
-
 自定义策略包允许为组织中具有类似角色的用户捆绑自己的策略集。 通过添加所需的策略类型和策略创建自己的策略包。
 
 创建新的自定义策略包：
 
-1. 在管理中心的左侧导航Microsoft Teams，选择"**策略包**"，然后单击"添加 **"。**
+1. 在管理中心左侧导航Microsoft Teams，选择"**策略包**"，然后单击"添加 **"。**
 
-    :::image type="content" source="media/policy-packages-add.png" alt-text="管理中心中策略包页面上的添加按钮的屏幕截图。":::
+    :::image type="content" source="media/policy-packages-add.png" alt-text="管理中心中"策略包"页面上的"添加"按钮的屏幕截图。":::
 
 2. 输入包的名称和说明。
 
@@ -122,7 +120,7 @@ Teams包括以下策略包。
 
 ### <a name="view-the-settings-of-a-policy-in-a-policy-package"></a>查看策略包中的策略设置
 
-1. 在管理中心的左侧导航Microsoft Teams，选择"策略包 **"，然后单击** 包名称左侧选择策略包。
+1. 在管理中心的左侧导航Microsoft Teams，选择"策略包 **"，然后单击** 程序包名称左侧选择策略包。
 
 2. 单击要查看的策略。
 
