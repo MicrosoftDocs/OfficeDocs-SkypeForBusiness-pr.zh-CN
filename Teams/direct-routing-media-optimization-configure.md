@@ -16,12 +16,12 @@ f1.keywords:
 description: 为直接路由配置本地媒体优化
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 49ed6df64957eea2f68a35554d0569ec1e6efaa0
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 3e383a9d0435dde2c17a38d8a1879b3bf3fb6e4d
+ms.sourcegitcommit: 99503baa8b5183972caa8fe61e92a362213599d9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730311"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "60127399"
 ---
 # <a name="configure-local-media-optimization-for-direct-routing"></a>为直接路由配置本地媒体优化
 
@@ -36,7 +36,8 @@ ms.locfileid: "58730311"
 
 下图显示了本文中示例中使用的网络设置。
 
-![显示示例网络设置的示意图。](media/direct-routing-media-op-9.png "示例的网络设置")
+> [!div class="mx-imgBorder"]
+> ![显示示例网络设置的示意图。](media/direct-routing-media-op-9.png "示例的网络设置")
 
 
 ## <a name="configure-the-user-and-the-sbc-sites"></a>配置用户和 SBC 站点
@@ -47,16 +48,24 @@ ms.locfileid: "58730311"
 
 2. [通过配置网络区域](#define-the-network-topology) 、网络站点和网络子网来定义网络拓扑。
 
-3. [通过使用相关模式和](#define-the-virtual-network-topology) 代理 SBC (将 SBC) 分配到站点 () 定义虚拟网络拓扑。
+3. [通过使用相关模式和](#define-the-virtual-network-topology) 代理 SBC (将 SBC) 分配到 () 定义虚拟网络拓扑。
+
+> [!NOTE]
+> 本地媒体优化逻辑依赖于配置为外部或内部（相对于企业网络）的客户端地址，这些地址通过 SBC (SBC) 直接路由认证。 客户端 (内部/外部) ，通过观察用于访问传输中继的地址，在每个调用的处理过程中确定。
+> 
+> 在可以通过 ISP 访问中继的拆分隧道 VPN 方案中，客户端最佳路由逻辑首选本地接口默认路由 (例如公共 WiFi) 。 这会导致 Microsoft 向 SBC 发出信号，指出客户端是外部的，即使它可以访问客户的直接路由 SBC 的内部接口。 使用本地媒体优化的直接路由客户可能遇到长时间的呼叫设置时间，在某些情况下，当从 PSTN 接收呼叫时没有音频。
+> 
+> 为了避免这种情况，VPN 管理员必须阻止远程 VPN 用户与直接路由 SBC 内部接口之间的访问。
 
 
-## <a name="configure-sbcs-for-local-media-optimization-according-to-the-sbc-vendor-specification"></a>根据 SBC (规范) SBC 优化的 SBC 配置
+
+## <a name="configure-sbcs-for-local-media-optimization-according-to-the-sbc-vendor-specification"></a>根据 SBC () 配置 SBC 优化的 SBC 配置
 
 本文介绍 Microsoft 组件的配置。 有关 SBC 配置的信息，请参阅 SBC 供应商文档。 有关哪些 SBC 供应商支持本地媒体优化的信息，请参阅为直接路由 [认证的会话边界控制器](direct-routing-border-controllers.md)。
 
 ## <a name="manage-external-trusted-ip-addresses"></a>管理外部受信任的 IP 地址
 
-外部受信任的 IP 是企业网络的 Internet 外部 IP。 这些 IP 是客户端连接到 Microsoft Teams 使用的 IP Microsoft 365。 您需要为用户使用本地媒体优化的每个站点添加这些外部 IP。
+外部受信任的 IP 是企业网络的 Internet 外部 IP。 这些 IP 是客户端连接到 Microsoft Teams 使用的 IP Microsoft 365。 你需要为用户使用本地媒体优化的每个站点添加这些外部 IP。
 
 若要添加每个站点的公共 IP 地址，请使用 New-CsTenantTrustedIPAddress cmdlet。 可以定义租户的无限数量的受信任 IP 地址。 如果用户看到的外部 IP Microsoft 365 IPv4 和 IPv6 地址，则需要添加这两种类型的 IP 地址。 对于 IPv4，请使用掩码 32。 对于 IPv6，请使用掩码 128。 可以通过在 cmdlet 上指定不同的 MaskBits 来添加单个外部 IP 地址和外部 IP 子网。
 
@@ -84,13 +93,13 @@ New-CsTenantTrustedIPAddress -IPAddress 172.16.240.130 -MaskBits 32 -Description
 
 若要定义网络区域，请使用 New-CsTenantNetworkRegion cmdlet。 RegionID 参数是一个逻辑名称，表示区域地理位置，没有依赖关系或限制。 CentralSite `<site ID>` 参数是可选的。
 
-```
+```powershell
 New-CsTenantNetworkRegion -NetworkRegionID <region ID>  
 ```
 
 以下示例创建名为 APAC 的网络区域：
 
-```
+```powershell
 New-CsTenantNetworkRegion -NetworkRegionID "APAC"  
 ```
 
@@ -98,13 +107,13 @@ New-CsTenantNetworkRegion -NetworkRegionID "APAC"
 
 若要定义网络站点，请使用 New-CsTenantNetworkSite cmdlet。 每个网络站点必须与网络区域相关联。
 
-```
+```powershell
 New-CsTenantNetworkSite -NetworkSiteID <site ID> -NetworkRegionID <region ID>
 ```
 
 以下示例在 APAC 区域创建三个新的网络站点：越南、印度尼西亚和新加坡：
 
-```
+```powershell
 New-CsTenantNetworkSite -NetworkSiteID "Vietnam" -NetworkRegionID "APAC"
 New-CsTenantNetworkSite -NetworkSiteID "Indonesia" -NetworkRegionID "APAC"
 New-CsTenantNetworkSite -NetworkSiteID "Singapore" -NetworkRegionID "APAC"
@@ -114,13 +123,13 @@ New-CsTenantNetworkSite -NetworkSiteID "Singapore" -NetworkRegionID "APAC"
 
 若要定义网络子网并将其关联到网络站点，请使用 New-CsTenantNetworkSubnet cmdlet。 每个网络子网只能与一个站点相关联。 
 
-```
+```powershell
 New-CsTenantNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmask> -NetworkSiteID <site ID>
 ```
 
 以下示例定义三个网络子网，并使它们与三个网络站点（越南、印度尼西亚和新加坡）关联：
 
-```
+```powershell
 New-CsTenantNetworkSubnet -SubnetID 192.168.1.0 -MaskBits 24 -NetworkSiteID “Vietnam”
 New-CsTenantNetworkSubnet -SubnetID 192.168.2.0 -MaskBits 24 -NetworkSiteID “Indonesia”
 New-CsTenantNetworkSubnet -SubnetID 192.168.3.0 -MaskBits 24 -NetworkSiteID “Singapore”
@@ -131,19 +140,19 @@ New-CsTenantNetworkSubnet -SubnetID 192.168.3.0 -MaskBits 24 -NetworkSiteID “S
 首先，租户管理员使用 New-CsOnlinePSTNGateway cmdlet 为每个相关的 SBC 创建新的 SBC 配置。
 租户管理员通过使用 Set-CsOnlinePSTNGateway cmdlet 为 PSTN 网关对象指定网络站点来定义虚拟网络拓扑：
 
-```
+```powershell
 PS C:\> Set-CsOnlinePSTNGateway -Identity <Identity> -GatewaySiteID <site ID> -MediaBypass <true/false> -BypassMode <Always/OnlyForLocalUsers> -ProxySBC  <proxy SBC FQDN or $null>
 ```
 
 请注意以下事项： 
-   - 如果客户具有单个 SBC，则 -ProxySBC 参数必须是具有集中式中继方案的 $null 或 SBC FQDN 值 (Central SBC。) 。
+   - 如果客户具有单个 SBC，则 -ProxySBC 参数必须是具有集中式中继方案的 $null 或 SBC FQDN 值 (Central SBC) 。
    - -MediaBypass 参数必须设置为 $true 以支持本地媒体优化。
    - 如果 SBC 未设置 -BypassMode 参数，将不会发送 X-MS 标头。 
-   - 所有参数都区分大小写，因此需确保使用的大小写与设置期间使用的大小写相同。   (例如，GatewaySiteID 值"越南"和"越南"将视为不同的站点。) 
+   - 所有参数都区分大小写，因此需确保使用与设置期间使用的大小写相同的大小写。   (例如，GatewaySiteID 值"越南"和"越南"将视为不同的站点。) 
 
 以下示例使用"始终绕过"模式将三个 SDC 添加到 APAC 区域的网络站点越南、印度尼西亚和新加坡：
 
-```
+```powershell
 Set-CSOnlinePSTNGateway -Identity “proxysbc.contoso.com” -GatewaySiteID “Singapore” -MediaBypass $true -BypassMode “Always” -ProxySBC $null
 
 Set-CSOnlinePSTNGateway -Identity “VNsbc.contoso.com” -GatewaySiteID “Vietnam” -MediaBypass $true -BypassMode “Always” -ProxySBC “proxysbc.contoso.com”
@@ -151,7 +160,8 @@ Set-CSOnlinePSTNGateway -Identity “VNsbc.contoso.com” -GatewaySiteID “Viet
 Set-CSOnlinePSTNGateway -Identity “IDsbc.contoso.com” -GatewaySiteID “Indonesia” -MediaBypass $true -BypassMode “Always” -ProxySBC “proxysbc.contoso.com”
 ```
 
-注意：若要确保在同时配置本地媒体优化和 Location-Based 路由 (LBR) 时不间断操作，必须通过将 GatewaySiteLbrEnabled 参数设置为每个下游 SBC 的 $true 来为 LBR 启用下游 SBC。  (代理 SBC.) 
+> [!NOTE]
+> 若要确保在同时配置本地媒体优化和 Location-Based 路由 (LBR) 时不间断操作，必须通过将每个下游 SBC 的 GatewaySiteLbrEnabled 参数设置为 $true 来为 LBR 启用下游 SBC。  (代理 SBC.) 
 
 根据上述信息，直接路由将包括三个专有的 SIP 标头到 SIP 邀请和重新邀请，如下表所示。
 
@@ -207,7 +217,8 @@ Set-CSOnlinePSTNGateway -Identity “IDsbc.contoso.com” -GatewaySiteID “Indo
 
 下图显示了始终绕过模式的出站呼叫的 SIP 阶梯，以及与 SBC 位于同一位置的用户。
 
-![显示出站呼叫的示意图。](media/direct-routing-media-op-10.png "出站调用")
+> [!div class="mx-imgBorder"]
+> ![显示出站呼叫的示意图。](media/direct-routing-media-op-10.png "出站调用")
 
 下表显示了直接路由发送的 X-MS 标头：
 
@@ -226,14 +237,15 @@ Set-CSOnlinePSTNGateway -Identity “IDsbc.contoso.com” -GatewaySiteID “Indo
 | AlwaysBypass |    内部 | 与 SBC 相同的站点 | 入站 |
 
 
-在入站呼叫中，用户的位置未知，SBC 必须猜测用户的位置。 如果猜测不正确，需要重新邀请。 此情况假定用户是内部用户，媒体可以直接流动，在重新邀请用户 (不需要进一步) 。
-连接到直接路由服务的 SBC 通过提供"直接路由"和"联系人"Record-Route报告原始 SBC 位置。 根据这些字段，媒体路径由直接路由计算。
+在入站呼叫中，用户的位置未知，SBC 必须猜测用户的位置。 如果猜测不正确，需要重新邀请。 此情况假定用户为内部用户，媒体可以直接流动，在重新邀请用户 (无需进一步) 。
+连接到直接路由服务的 SBC 通过提供"直接路由"和"Record-Route报告原始 SBC 位置。 根据这些字段，媒体路径由直接路由计算。
 
 注意：如果用户可以有多个终结点，则不能支持 183。 在这种情况下，直接路由始终使用 180 响铃。 
 
 下图显示了使用 AlwaysBypass 模式的入站呼叫中的 SIP 阶梯，并且用户与 SBC 位于同一位置。
 
-![显示 SIP 阶梯的示意图。](media/direct-routing-media-op-11.png)
+> [!div class="mx-imgBorder"]
+> ![显示 SIP 阶梯的示意图。](media/direct-routing-media-op-11.png)
 
 
 #### <a name="outbound-calls-and-the-user-is-external-with-always-bypass"></a>出站呼叫和用户是外部的始终绕过
@@ -245,7 +257,8 @@ AlwaysBypass |  外部 |  不适用 | 出站 |
 
 下图显示了使用 AlwaysBypass 模式的出站呼叫的 SIP 阶梯，用户是外部用户：
 
-![关系图显示 SIP 阶梯。](media/direct-routing-media-op-12.png)
+> [!div class="mx-imgBorder"]
+> ![关系图显示 SIP 阶梯。](media/direct-routing-media-op-12.png)
 
 下表显示了直接路由服务发送的 X-MS 标头：
 
@@ -261,11 +274,12 @@ AlwaysBypass |  外部 |  不适用 | 出站 |
 |:------------|:-------|:-------|:-------|
 AlwaysBypass |  外部 |  不适用 |   入站 |
 
-对于入站呼叫，连接到直接路由的 SBC 需要默认发送重新邀请 (，如果用户的位置为外部，则始终提供本地媒体候选) 。  X-MediaPath 基于指定的 Record-Route SBC 用户计算。
+对于入站呼叫，连接到直接路由的 SBC 需要默认发送重新邀请 (，如果用户的位置在外部，则始终提供本地媒体候选) 。  X-MediaPath 基于指定的 Record-Route SBC 用户计算。
 
 下图显示了具有 AlwaysBypass 模式的入站呼叫的 SIP 阶梯，并且用户是外部用户。
 
-![再次显示 SIP 阶梯的图表。](media/direct-routing-media-op-13.png)
+> [!div class="mx-imgBorder"]
+> ![再次显示 SIP 阶梯的图表。](media/direct-routing-media-op-13.png)
 
 
 ### <a name="only-for-local-users-mode"></a>仅适用于本地用户模式
@@ -285,15 +299,16 @@ AlwaysBypass |  外部 |  不适用 |   入站 |
 |:------------|:-------|:-------|:-------|:-------|
 | 越南 | +84 4 3926 3000 |  +84 4 5555 5555 | 优先级 1：^ \+ 84 (\d {9}) $ -VNsbc.contoso.com <br> 优先级 2：.* - proxysbc.contoso.com | VNsbc.contoso.com – OnlyForLocalUsers Proxysbc.contoso.com – 始终绕过 |
 
-#### <a name="outbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-only-for-local-users"></a>出站呼叫和用户与 SBC 位于同一位置，仅针对本地用户
+#### <a name="outbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-only-for-local-users"></a>出站呼叫和用户位于 SBC 的同一位置，仅针对本地用户
 
 | 模式 | 用户 | 站点 | 呼叫方向 |
 |:------------|:-------|:-------|:-------|
 | OnlyForLocalUsers |   内部 |与 SBC 相同   | 出站 |
 
-下图显示了具有 OnlyForLocalUsers 模式的出站调用，并且用户与 SBC 位于同一位置。 当用户与 SBC 位于同一位置时，这是出站调用 [中显示的同一流](#outbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-always-bypass)。
+下图显示了具有 OnlyForLocalUsers 模式的出站调用，并且用户与 SBC 位于同一位置。 当用户与 SBC 位于同一位置时，此流显示在出站 [调用中](#outbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-always-bypass)。
 
-![图表再次显示 SIP 阶梯。](media/direct-routing-media-op-14.png)
+> [!div class="mx-imgBorder"]
+> ![图表再次显示 SIP 阶梯。](media/direct-routing-media-op-14.png)
 
 
 #### <a name="inbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-only-for-local-users"></a>入站呼叫和用户位于 SBC 的同一位置，仅针对本地用户
@@ -304,7 +319,8 @@ AlwaysBypass |  外部 |  不适用 |   入站 |
 
 下图显示了具有 OnlyForLocalUsers 模式的入站调用，并且用户与 SBC 位于同一位置。 当用户与 SBC 位于同一位置时，此流与入站调用 [中所示的流相同](#inbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-always-bypass)。
 
-![另一个显示 SIP 阶梯的图表。](media/direct-routing-media-op-15.png)
+> [!div class="mx-imgBorder"]
+> ![另一个显示 SIP 阶梯的图表。](media/direct-routing-media-op-15.png)
 
 
 #### <a name="user-is-not-at-the-same-location-as-the-sbc-but-is-in-the-corporate-network-with-only-for-local-users"></a>用户不与 SBC 位于同一位置，而是位于企业网络中，仅针对本地用户
@@ -318,7 +334,8 @@ AlwaysBypass |  外部 |  不适用 |   入站 |
 
 下图显示了具有 OnlyForLocalUsers 模式的出站调用，以及与 SBC 不在同一位置的内部用户。
 
-![另一张图显示了 SIP 阶梯。](media/direct-routing-media-op-16.png)
+> [!div class="mx-imgBorder"]
+> ![另一张图显示了 SIP 阶梯。](media/direct-routing-media-op-16.png)
 
 
 #### <a name="inbound-call-and-the-user-is-internal-but-is-not-at-the-same-location-as-the-sbc-with-only-for-local-users"></a>入站呼叫和用户是内部用户，但不与仅针对本地用户的 SBC 位于同一位置
@@ -327,15 +344,8 @@ AlwaysBypass |  外部 |  不适用 |   入站 |
 |:------------|:-------|:-------|:-------|
 | OnlyForLocalUsers | 内部 |    不同于 SBC |    入站 |
 
-下图显示了具有 OnlyForLocalUsers 模式的入站调用，以及与 SBC 不在同一位置的内部用户。
+下图显示了具有 OnlyForLocalUsers 模式的入站呼叫，以及与 SBC 不在同一位置的内部用户。
 
-![另一张显示 SIP 阶梯的图表。](media/direct-routing-media-op-17.png)
-
-
-
-
-
-
-
-
+> [!div class="mx-imgBorder"]
+> ![另一张显示 SIP 阶梯的图表。](media/direct-routing-media-op-17.png)
 

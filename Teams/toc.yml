@@ -111,8 +111,6 @@ items:
                 href: teams-for-vdi.md
               - name: 远程桌面环境 (RDP) Teams
                 href: teams-on-rdp.md
-              - name: 为 Surface Hub 部署 Teams
-                href: teams-surface-hub.md
               - name: Teams 客户端更新
                 href: teams-client-update.md
               - name: 解决安装和更新问题
@@ -645,6 +643,8 @@ items:
                 href: cloud-video-interop.md
               - name: 仅查看会议体验
                 href: view-only-meeting-experience.md
+              - name: 流式传输 Teams 会议
+                href: stream-teams-meetings.md
           - name: 设置会议迁移服务 （MMS）
             href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
           - name: 在 Microsoft Teams 中为网络研讨会进行设置
@@ -1666,8 +1666,6 @@ items:
             href: alerts/device-health-status.md
           - name: Teams 设备和外围设备
             href: teams-device-health.md
-          - name: 设备管理的管理单元功能
-            href: administrative-unit.md
       - name: Teams PowerShell
         items:
           - name: 概述
