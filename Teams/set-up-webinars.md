@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 了解如何管理会议网络研讨会Teams策略。
-ms.openlocfilehash: 78c81e25d246dc450ffcd821d22148c330d38f23
-ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
+ms.openlocfilehash: 35c0cc2ab6c05d123aae45bc0c375cf815db36b4
+ms.sourcegitcommit: 74d3ab35c344d70b2399bc46a6ced3ab2762a470
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "59456312"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60138208"
 ---
 # <a name="set-up-for-webinars-in-microsoft-teams"></a>在 Microsoft Teams 中为网络研讨会进行设置
 
@@ -36,6 +36,9 @@ ms.locfileid: "59456312"
 
 在组织中设置网络研讨会后，用户可以安排网络研讨会并向与会者开放注册。 与包含许多讨论和任务分配的传统会议不同，网络研讨会适用于交互式演示文稿，并提供用于与会者分析的工具。
 
+> [!IMPORTANT]
+> 若要让用户设置网络研讨会，Microsoft Lists通过启用个人列表SharePoint在用户中配置网络研讨会。 若要了解有关详细信息，请参阅控件[的控件Microsoft Lists。](/sharepoint/control-lists)
+
 ## <a name="allow-users-to-schedule-webinars-in-the-teams-admin-center"></a>允许用户在管理中心内Teams网络研讨会
 
 可以使用 Teams 管理中心为组织设置网络研讨会。 您将在会议管理中心的"会议Teams下找到设置 **网络**  >  **研讨会的策略**。
@@ -45,14 +48,14 @@ ms.locfileid: "59456312"
 如果启用此功能，用户可以安排网络研讨会。 默认情况下，此选项已打开。 如果要关闭会议注册，请将其策略设置为"关闭 **"。**
 
 > [!IMPORTANT]
-> **必须打开允许安排** 私人会议，以便会议注册正常工作。 默认情况下，此策略在管理中心Teams打开。 对于教育租户中的学生，此策略默认已关闭。 若要详细了解如何为学生启用私人会议计划，请参阅Teams 教育版[策略和策略包](policy-packages-edu.md)。
+> **必须打开允许安排** 私人会议，以便会议注册正常工作。 默认情况下，此策略在管理中心Teams启用。 对于教育租户中的学生，此策略默认已关闭。 若要详细了解如何为学生启用私人会议计划，请参阅Teams 教育版[策略和策略包](policy-packages-edu.md)。
 
 ### <a name="who-can-register"></a>Who注册
 
 如果选择" **每个人"，** 则所有用户（包括匿名用户）都可以注册并参加网络研讨会。 如果选择" **组织中所有人"，** 则只有你组织中用户可以注册网络研讨会。 如果会议注册已关闭，此选项将不可用，并且没有人可以注册网络研讨会。
 
 > [!NOTE]
-> 可注册的Who **默认值** 是 **组织中教育** 租户中的每个人。 有关详细信息，请参阅策略[Teams 教育版向导](easy-policy-setup-edu.md)。
+> 可注册Who的 **默认值****是组织中教育** 租户中的每个人。 有关详细信息，请参阅策略[Teams 教育版向导](easy-policy-setup-edu.md)。
 
 ### <a name="allow-engagement-report"></a>允许参与报告
 
@@ -60,7 +63,7 @@ ms.locfileid: "59456312"
 
 ## <a name="allow-users-to-schedule-webinars-using-powershell"></a>允许用户使用 PowerShell 安排网络研讨会
 
-可以在 **Set-CsTeamsMeetingPolicy** cmdlet Windows PowerShell 中使用以下属性为 Teams 中的网络研讨会设置。
+可以在 Windows PowerShell **Set-CsTeamsMeetingPolicy** cmdlet 中使用以下属性为 Teams。
 
 - AllowMeetingRegistration
 - WhoCanRegister
@@ -76,7 +79,7 @@ ms.locfileid: "59456312"
 可以将注册限制为仅组织内部用户，或者向租户内外的每个人开放注册。 默认情况下 **，"WhoCanRegister"** 已启用，并设置为"全局管理员 **" ("组织范围的**"默认) 策略。 如果要关闭会议注册，将 **AllowMeetingRegistration 设置为** **False。**
 
 > [!IMPORTANT]
-> **AllowPrivateMeetingScheduling** 必须设置为True，AllowMeetingRegistration **正常工作**。 此外，Microsoft Lists中设置SharePoint。 若要了解有关详细信息，请参阅控件[的控件Microsoft Lists。](/sharepoint/control-lists)
+> **AllowPrivateMeetingScheduling** 必须设置为True，AllowMeetingRegistration **正常工作**。
 
 1. 打开会议注册
 

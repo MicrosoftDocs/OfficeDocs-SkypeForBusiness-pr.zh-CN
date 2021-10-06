@@ -22,19 +22,19 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: 使用包含设备、网络和连接详细信息实时遥测，排查用户与Microsoft Teams的问题。
-ms.openlocfilehash: 2730cb41267e8d02572f72d4d9ed7f154e021d9d
-ms.sourcegitcommit: 26ce61afcb743c8b9e06b4fa048ad93ab70c31c5
+ms.openlocfilehash: 94b303687995ac3bcd765991dbfeb41c6f1459e7
+ms.sourcegitcommit: 74d3ab35c344d70b2399bc46a6ced3ab2762a470
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "60082952"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60138358"
 ---
 # <a name="use-real-time-telemetry-to-troubleshoot-poor-meeting-quality"></a>使用实时遥测排查会议质量不佳的问题
 
 > [!NOTE]
 > 此功能目前以公共预览版提供，直到 2021 年底。 此后，想要实时查看其遥测数据的每个用户Microsoft Teams高级通信加载项。 有关详细信息，请参阅 [Microsoft Teams 高级通信附加产品](/MicrosoftTeams/teams-add-on-licensing/advanced-communications)。
 
-本文介绍如何使用 Real-Time Analytics (RTA) 排查Microsoft Teams用户会议质量不佳的问题。 如果有以下Real-Time，可以访问 Real-Time Analytics：
+本文介绍如何使用 Real-Time Analytics (RTA) 排查Microsoft Teams用户会议质量不佳的问题。 如果具有以下Real-Time之一，可以访问 Real-Time Analytics：
 
 - Teams 管理员
 - Teams通信支持专家
@@ -66,6 +66,19 @@ Real-Time Analytics 显示有关Teams帐户中每个用户的会议的详细信�
 
 ![调用分析用户会话数据的屏幕截图。](media/real-time-telemetry.png)
 
+## <a name="measures-available-in-real-time-analytics"></a>Real-Time Analytics 中可用的度量值
+
+|衡量指标名称 |单位 |良好阈值 |说明 |
+|:---|:---|:---|:---|
+|抖动 |毫秒 |小于 30 毫秒 |抖动是数据流数据包延迟变化的度量值。 如果此数据过高，音频可能会变得不稳定。 | 
+|丢包 |百分比 |小于 5% |数据包无法到达其目标时，会发生数据包丢失。 丢包百分比取决于发送的数据包总数。 |
+|往返行程时间 |毫秒 |小于 500 毫秒 |往返时间是单个数据包从客户端到达远程终结点并返回到客户端所花的时间。 往返时间长可能会导致流播放延迟。 例如，由于延迟，会议中的两个人无意中相互说话。 |
+|音频 (比特率)  |Kbps 每秒千 (kbps)  |大于 24 Kbps |以千位/秒表示的音频流的吞吐量。 |
+|比特 (视频&应用共享)  |每秒兆位 (Mbps)  | 仅信息 |以兆位/秒表示的视频流的吞吐量。 |
+|帧速率 (视频)  |帧/秒 |360p 或更佳：25-30 FPS <br/> 270p 或更低：7-15 FPS |对于出站视频流，帧速率 (FPS) 是客户端正在发送的视频的每秒帧数。 低于此处的预期值可能表明系统资源约束、网络带宽不足或视频捕获设备行为不当。 不同的分辨率具有不同的可接受的 FPS 范围。 |
+|帧速率 (应用共享)  |每秒帧数 (FPS)  |仅信息 |对于应用共享，帧速率是内容感知的，以确保根据需要发送多个帧，以确保获得良好的体验，同时避免在不需要发送帧时发送帧。 例如，在屏幕上共享文本文档只需要每秒 1 帧才能产生良好的体验，而共享具有更多活动的视频或内容将每秒帧数增加至最多 30 FPS，以产生更流畅的体验。 |
+
+
 ## <a name="client-platforms-supported-for-real-time-telemetry"></a>实时遥测支持的客户端平台
 
 - Windows
@@ -86,7 +99,7 @@ Real-Time Analytics 显示有关Teams帐户中每个用户的会议的详细信�
 - 实时遥测仅适用于计划的会议。 对于临时会议，例如"现在开会"、PSTN、1：1 呼叫和群组呼叫，实时遥测不可用。
 - 实时遥测仅适用于计划实时事件的演示者。 它当前不可用于实时事件与会者。
 - 在会议结束后的 24 小时内，实时遥测数据可用于"最近会议"下的会议。 24 小时后，你无法访问数据，会议将移至"**过去的会议"。** 如果会议超过 3 小时，则实时遥测仅可用于过去 *3 小时*。
-- 使用较旧版本的遥测数据时，无法实时Teams。 如果没有可用的遥测数据，请尝试更新客户端。
+- 使用较旧版本的遥测功能时，无法实时Teams。 如果没有可用的遥测数据，请尝试更新客户端。
 - 如果外部参与者或匿名用户加入会议，其显示名称 **将显示为无法** 保留跨租户隐私。
 
 ## <a name="related-topics"></a>相关主题
