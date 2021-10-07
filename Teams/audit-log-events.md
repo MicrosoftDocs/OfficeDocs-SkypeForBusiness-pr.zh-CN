@@ -12,22 +12,22 @@ f1.keywords:
 - NOCSH
 ms.reviewer: anwara
 search.appverid: MET150
-description: 了解如何从Microsoft Teams中检索审核日志数据Microsoft 365 合规中心。
+description: 了解如何从Microsoft Teams中的审核日志检索Microsoft 365 合规中心。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b6c3b90906fe5a65d0c4fab2fdc20aeb69099743
-ms.sourcegitcommit: 74d3ab35c344d70b2399bc46a6ced3ab2762a470
+ms.openlocfilehash: 5d19e29734f8e62b77a0a355c366c2bdc7a6bbde
+ms.sourcegitcommit: 7b704ba3c9d2db9740c4aad9e5a75a830bbbb63b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/06/2021
-ms.locfileid: "60138268"
+ms.locfileid: "60148903"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>在 Microsoft Teams 中搜索事件的审核日志
 
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-此审核日志可帮助你调查不同服务Microsoft 365活动。 对于Microsoft Teams，以下是一些已审核的活动：
+此审核日志可帮助你调查不同服务Microsoft 365活动。 对于Microsoft Teams，以下是审核的一些活动：
 
 - 团队创建
 - 团队删除
@@ -42,40 +42,41 @@ ms.locfileid: "60138268"
 
 ## <a name="turn-on-auditing-in-teams"></a>在 Teams 中启用审核
 
-在查看审核数据之前，首先在安全与合规中心& [审核](https://protection.office.com)。 有关启用审核的帮助，请阅读 [打开审核日志打开或关闭搜索](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014)。
+在查看审核数据之前，首先必须启用审核Microsoft 365 合规中心。 有关详细信息，请参阅 [打开或关闭审核](/microsoft-365/compliance/turn-audit-log-search-on-or-off)。
 
 > [!IMPORTANT]
 > 只有启用审核时，审核数据才可用。
 
 ## <a name="retrieve-teams-data-from-the-audit-log"></a>从审核日志检索 Teams 数据
 
-1. 要检索审核日志，请转到[安全与合规中心](https://go.microsoft.com/fwlink/?linkid=855775)。 在"**搜索"** 下，**选择"审核日志搜索"。**
+1. 若要检索活动审核Teams日志，请转到并选择 <https://compliance.microsoft.com> "审核 **"。**
 
-2. 使用“**搜索**”按活动、日期和你要审核的用户进行筛选。
+2. 在 **"搜索** "页上，筛选要审核的活动、日期和用户。
 
 3. 将结果导出到 Excel 以供进一步分析。
 
+有关分步说明，请参阅[在合规性审核日志搜索搜索。](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#search-the-audit-log)
+
 > [!IMPORTANT]
-> 审核数据仅在启用审核审核日志才显示在"审核"中。
+> 审核数据仅在启用审核审核日志在审核中可见。
 
-在 审核日志 中保留和搜索审核记录的时间长度取决于 Microsoft 365 或 Office 365 订阅，特别是分配给用户的许可证类型。 有关详细信息，请参阅安全与& [中心服务说明](/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center)。
+审核记录在 审核日志 中保留和搜索的时间长度取决于 Microsoft 365 或 Office 365 订阅，特别是分配给用户的许可证类型。 有关详细信息，请参阅安全与& [中心服务说明](/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center)。
 
-## <a name="tips-for-searching-the-audit-log"></a>使用技巧搜索审核日志
+## <a name="tips-for-searching-the-audit-log"></a>使用技巧搜索搜索审核日志
 
 下面是在活动Teams搜索活动审核日志。
 
-![审核日志页的屏幕截图](media/audit-log-search-page.png)
+![合规性中心审核日志搜索页面的屏幕截图](media/audit-log-search-page.png)
 
+- 可以通过单击一个或多个活动旁边的复选框选择要搜索的特定活动。 如果选择了某个活动，可以单击它以取消选择。 您也可以使用搜索框显示包含您键入的关键字的活动。
 
-- 可以通过单击活动名称选择要搜索的特定活动。 或者，可以通过单击组名称来搜索组 (组的所有活动，例如) 和文件夹活动。 如果选择了某个活动，可以单击它以取消选择。 您也可以使用搜索框显示包含所键入关键字的活动。
+  ![搜索页面上的活动下拉列表审核日志屏幕截图](media/audit-log-search.png)
 
-  ![审核日志搜索活动列表的屏幕截图](media/audit-log-search.png)
+- 若要显示使用 cmdlet 运行的活动的事件，请在"活动"列表中选择"显示所有活动 **的结果**"。 如果你知道这些活动的操作名称，请在搜索框中键入它以显示活动，然后选择它。
 
-- 若要显示使用 cmdlet 运行的活动的事件，请在"活动"列表中选择"显示所有活动 **的结果**"。 如果知道这些活动的操作名称，请搜索所有活动，然后在"活动"列中的框中键入操作 **的名称来筛选** 结果。 若要了解有关详细信息，请参阅 [步骤 3：筛选搜索结果](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#step-3-filter-the-search-results)。
+- 若要清除当前搜索条件，请单击"**全部清除"。** 日期范围将返回到过去七天的默认值。
 
-- 若要清除当前搜索条件，请单击"清除 **"。** 日期范围将返回到过去七天的默认值。 还可以单击"全部 **清除"以显示所有活动的结果，** 以取消所有选定的活动。
-
-- 如果找到 5，000 个结果，可能假设有 5，000 多个事件满足搜索条件。 可以优化搜索条件并重新运行搜索以返回更少的结果，或者可以通过选择"导出下载所有结果"导出  >  **所有搜索结果**。
+- 如果找到 5，000 个结果，可能假设有 5，000 多个事件满足搜索条件。 可以优化搜索条件并重新运行搜索以返回更少的结果，或者可以通过选择"导出下载所有结果"导出  >  **所有搜索结果**。 有关导出审核日志的分步说明，请参阅 [将搜索结果导出到文件](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#step-3-export-the-search-results-to-a-file)。
 
 观看 [此视频，](https://www.youtube.com/embed/UBxaRySAxyE) 了解使用音频日志搜索。 加入 Ansuman Acharya，Teams，他演示如何执行搜索审核日志搜索Teams。
 
@@ -87,11 +88,11 @@ ms.locfileid: "60138268"
 
 ### <a name="external-user-scenario"></a>外部用户方案
 
-你可能希望从业务角度关注一个方案，即将外部用户Teams环境。 如果启用了外部用户，则监视其状态是个不错的主意。  可以使用[云应用安全识别](/cloud-app-security/what-is-cloud-app-security)潜在威胁。
+你可能希望从业务角度关注一个方案，即将外部用户Teams环境。 如果启用了外部用户，则监视其状态是个不错的主意。  可以使用[云应用安全来](/cloud-app-security/what-is-cloud-app-security)识别潜在威胁。
 
 ![用于监视添加外部用户的策略。](media/TeamsExternalUserAddPolicy.png)
 
-用于监视添加外部用户的此策略的屏幕截图允许您命名策略、根据业务需求设置严重性、将严重性设置为 (（本例中为) 单个活动）并创建参数，以便专门监视非内部用户的添加，然后将此活动限制为 Teams。
+此策略的屏幕截图用于监视添加外部用户，允许命名策略、根据业务需求设置严重性、将严重性设置为 (（本例中为) 单个活动）并创建专门监视非内部用户的添加的参数，然后将此活动限制为 Teams。
 
 可以在活动日志中查看此策略的结果：
 
@@ -130,7 +131,7 @@ ms.locfileid: "60138268"
 |添加了连接器  |ConnectorAdded          |用户向通道添加连接器。        |
 |添加了成员    |MemberAdded         |团队所有者将成员添加到团队、频道或群组聊天。         |
 |"已添加"选项卡    |TabAdded         |用户向频道添加选项卡。        |
-|更改了频道设置    |ChannelSettingChanged         |当团队成员执行以下活动时，将记录 ChannelSettingChanged 操作。 对于上述每个活动，更改的设置的说明 (显示在搜索结果的"项"列中审核日志括号中。  <ul><li>更改团队频道的名称 (**频道名称)**</li><li>更改团队频道的说明 (**频道说明)**</li> </ul>      |
+|更改了频道设置    |ChannelSettingChanged         |当团队成员执行以下活动时，将记录 ChannelSettingChanged 操作。 对于上述每个活动，更改的设置的说明 (显示在搜索结果的"项"列中审核日志显示。  <ul><li>更改团队频道的名称 (**频道名称)**</li><li>更改团队频道的说明 (**频道说明)**</li> </ul>      |
 |已更改组织设置   |TeamsTenantSettingChanged         |当 TeamsTenantSettingChanged 操作由全局管理员在云中执行以下活动时Microsoft 365 管理中心。 这些活动会影响组织范围的Teams设置。 有关详细信息，请参阅[管理Teams组织设置](enable-features-office-365.md)。 <br>对于上述每个活动， (搜索结果中的"项"列中) 审核日志显示已更改的设置的说明。 <ul><li>为组织Teams启用或禁用 **(Microsoft Teams) 。**</li><li>为组织启用或禁用Microsoft Teams Skype for Business之间的互操作性 (Skype for Business **互操作性) 。**</li><li>在"组织结构图"视图中启用或禁用 **Microsoft Teams" ("组织结构图) 。**</li><li>启用或禁用团队成员安排私人会议 (**私人会议计划**) 。</li><li>启用或禁用团队成员安排频道会议 (**频道会议计划) 。**</li><li>为会议启用或禁用Teams会议 (**视频Skype会议) 。**</li><li>为组织的会议Microsoft Teams启用或禁用 (屏幕共享Skype **会议**) 。</li><li>启用或禁用添加名为 Giphys (动画图像) Teams动态 (**对话**) 。</li><li>更改组织的内容分级设置 (**内容分级) 。** 内容分级限制可在对话中显示的动画图像类型。</li><li>启用或禁用团队成员将自定义图像（称为 (meme) 从 Internet 添加到团队对话 (Internet 中的可自定义图像) 。 </li><li>允许或禁用团队成员向团队对话添加可编辑图像 (贴纸)  (可编辑) 。 </li><li>启用或禁用团队成员在组织范围内聊天Microsoft Teams和频道中 (机器人 **) 。**</li><li>为机器人启用特定Microsoft Teams。 这不包括 T-Bot，这是Teams为组织启用机器人时可用的帮助机器人， (**机器人) 。**</li><li>启用或禁用团队成员在"扩展"或选项卡 (**扩展或选项卡) 。**</li><li>启用或禁用专有机器人的旁加载，Microsoft Teams (机器人的旁加载 **) 。**</li><li>启用或禁用用户向频道或频道电子邮件Microsoft Teams (**发送电子邮件) 。**</li></ul>|
 |更改了团队成员在团队中的角色    |MemberRoleChanged         |团队所有者更改了团队中成员的角色。 以下值指示分配给用户的角色类型。 <br><br>**1** - 指示成员角色。<br>**2** - 指示"所有者"角色。<br>**3** - 指示来宾角色。<br><br>"成员"属性还包括组织名称和成员的电子邮件地址。        |
 |已更改团队设置    |TeamSettingChanged        |团队所有者执行以下活动时，将记录 TeamSettingChanged 操作。 对于上述每个活动， (搜索结果中的"项"列中) 审核日志显示已更改的设置的说明。 <ul><li>更改团队的访问类型。 Teams可设置为专用或公用 (**团队访问类型) 。** 当团队是专用 (默认设置) ，用户只能通过邀请访问该团队。 当团队公开时，任何人都可以发现它。</li><li>更改团队分类和团队 (**的信息) 。** 例如，可以将团队数据分类为高业务影响、中等业务影响或低业务影响。</li><li>将团队名称 (**团队名称) 。**</li><li>将团队说明 (**团队说明) 。**</li><li>对团队设置所做的更改。 若要访问这些设置，团队所有者可以右键单击某个团队，选择"管理团队 **"，** 然后单击"设置选项卡。对于这些活动，更改的设置的名称会显示在搜索结果的"项"审核日志列中。 </li></ul>         |
@@ -172,7 +173,7 @@ ms.locfileid: "60138268"
 
 
 > [!NOTE]
-> <sup>1</sup>仅在通过调用 Microsoft Graph API 执行该操作时，才记录此事件的审核记录。 如果在客户端中Teams操作，将不会记录审核记录<br/><br/><sup>2</sup> 此事件仅在"高级审核"中可用。 这意味着，必须先为用户分配适当的许可证，然后才能将这些事件记录到审核日志。 有关仅在"高级审核"中提供的活动详细信息，请参阅"高级审核[Microsoft 365"。](/microsoft-365/compliance/advanced-audit#advanced-audit-events) 有关高级审核许可要求，请参阅中的[审核Microsoft 365。](/microsoft-365/compliance/auditing-solutions-overview#licensing-requirements)
+> <sup>1</sup>只有在通过调用 Microsoft Graph API 执行该操作时，才记录此事件的审核记录。 如果在客户端中Teams，将不会记录审核记录<br/><br/><sup>2</sup> 此事件仅在"高级审核"中可用。 这意味着，必须先为用户分配适当的许可证，然后才能将这些事件记录到审核日志。 有关仅在"高级审核"中提供的活动详细信息，请参阅"高级审核[Microsoft 365"。](/microsoft-365/compliance/advanced-audit#advanced-audit-events) 有关高级审核许可要求，请参阅中的[审核Microsoft 365。](/microsoft-365/compliance/auditing-solutions-overview#licensing-requirements)
 
 ## <a name="shifts-in-teams-activities"></a>活动Teams班次
 
@@ -208,11 +209,11 @@ ms.locfileid: "60138268"
 |取消的班次请求         |RequestCancelled               |用户取消了班次请求。          |
 |更改了计划设置      |ScheduleSettingChanged          |用户更改 Shifts 设置中的设置。         |
 |添加了员工集成      |WorkforceIntegrationAdded                  | Shifts 应用与第三方系统集成。         |
-|接受调班消息         |OffShiftDialogAccepted          |用户确认非班次消息，以在轮Teams访问。           |
+|接受调班消息         |OffShiftDialogAccepted          |用户确认轮班消息，以在Teams后访问。           |
 
 ## <a name="office-365-management-activity-api"></a>Office 365管理活动 API
 
-可以使用管理Office 365 API 检索有关事件Teams的信息。 若要详细了解用于存储的管理活动 API 架构Teams，请参阅Teams[架构](/office/office-365-management-api/office-365-management-activity-api-schema#microsoft-teams-schema)。
+可以使用 Office 365 管理活动 API 检索有关Teams的信息。 若要详细了解用于存储的管理活动 API 架构Teams，请参阅Teams[架构](/office/office-365-management-api/office-365-management-activity-api-schema#microsoft-teams-schema)。
 
 ## <a name="attribution-in-teams-audit-logs"></a>审核日志中Teams属性
 
