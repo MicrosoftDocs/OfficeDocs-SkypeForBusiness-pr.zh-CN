@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: 了解如何Microsoft 电话系统直接路由将受支持的客户提供的会话边界控制器 (SBC) 连接到 Microsoft 电话 系统。
-ms.openlocfilehash: a0fe8cc7604e34fabb4c68ecb00c9a7a448afea4
-ms.sourcegitcommit: 99503baa8b5183972caa8fe61e92a362213599d9
+ms.openlocfilehash: d2069b7811b570bfa711e6d6c641c1ca9340c7bc
+ms.sourcegitcommit: d67617d5042d25ed0bf36c66c3a0605c3d4d233e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "60127389"
+ms.lasthandoff: 10/07/2021
+ms.locfileid: "60224835"
 ---
 # <a name="plan-direct-routing"></a>规划直接路由
 
@@ -53,7 +53,7 @@ Microsoft 还提供云中所有语音解决方案，例如呼叫计划。 但是
 
 直接路由还支持具有 Microsoft 呼叫计划附加许可证的用户。 有关详细信息，请参阅"电话系统[和通话套餐"。](calling-plan-landing-page.md) 
 
-使用直接路由时，当用户参与计划的会议时，拨入号码由需要适当许可的 Microsoft 音频会议服务提供。  拨出时，Microsoft 音频会议服务使用需要适当许可的在线呼叫功能进行呼叫。  (注意如果用户没有 Microsoft 音频会议许可证，则呼叫通过直接路由路由。) 有关详细信息，请参阅使用 Teams 联机[会议](https://products.office.com/microsoft-teams/online-meeting-solutions)。 
+使用直接路由，当用户参与计划的会议时，拨入号码由需要适当许可的 Microsoft 音频会议服务提供。  拨出时，Microsoft 音频会议服务使用需要适当许可的在线呼叫功能进行呼叫。  (注意如果用户没有 Microsoft 音频会议许可证，则呼叫通过直接路由.) 有关详细信息，请参阅使用 Teams 的[联机会议](https://products.office.com/microsoft-teams/online-meeting-solutions)。 
  
 规划直接路由的部署是成功实现的关键。 本文介绍基础结构和许可要求，并提供有关 SBC 连接的信息： 
 
@@ -76,7 +76,7 @@ Microsoft 还提供云中所有语音解决方案，例如呼叫计划。 但是
 |会话边界控制器 (SBC) |支持的 SBC。 有关详细信息，请参阅支持的[SDC。](#supported-session-border-controllers-sbcs)|
 |连接到 SBC 的电话中继|连接到 SBC 的一个或多个电话中继。 在一端，SBC 通过直接路由Microsoft 电话系统。 SBC 还可以连接到第三方电话实体，例如 PBX、模拟电话适配器等。 连接到 SBC 的任何 PSTN 连接选项都将正常工作。  (有关将 PSTN 中继配置到 SBC 的信息，请参阅 SBC 供应商或中继提供商) |
 |Microsoft 365或Office 365组织|用于Microsoft 365或Office 365用户，以及配置Microsoft Teams SBC 的连接的组织。|
-|用户注册机构|用户必须归到Microsoft 365 Office 365。<br/>如果您的公司具有与 Microsoft 365 或 Office 365 的混合Skype for Business或 Lync 环境，则您无法为本地用户启用 Teams 中的语音。<br/><br/>若要检查用户的注册机构，请使用以下 Skype for Business Online PowerShell cmdlet：<br/><code>Get-CsOnlineUser -Identity \<user> \| fl HostingProvider</code> <br/><br/>cmdlet 的输出应显示：<br/><code>HostingProvider : sipfed.online.lync.com</code>|
+|用户注册机构|用户必须Microsoft 365或Office 365。<br/>如果您的公司具有与 Microsoft 365 或 Office 365 的混合Skype for Business或 Lync 环境，则您无法为本地用户启用 Teams 语音。<br/><br/>若要检查用户的注册机构，请使用以下 Skype for Business Online PowerShell cmdlet：<br/><code>Get-CsOnlineUser -Identity \<user> \| fl HostingProvider</code> <br/><br/>cmdlet 的输出应显示：<br/><code>HostingProvider : sipfed.online.lync.com</code>|
 |域|添加到组织或组织的一个或多个Microsoft 365 Office 365域。<br/><br/>请注意，不能使用为租户自动 onmicrosoft.com \* 的默认域 .onmicrosoft.com。<br/><br/>若要查看域，可以使用以下 Skype for Business Online PowerShell cmdlet：<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>有关域和域或Microsoft 365组织Office 365，请参阅[域常见问题解答](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a)。|
 |SBC 的公共 IP 地址|可用于连接到 SBC 的公共 IP 地址。 根据 SBC 的类型，SBC 可以使用 NAT。|
 |SBC 的 FQDN (完全) 域名|SBC 的 FQDN，其中 FQDN 的域部分是组织或Microsoft 365注册Office 365之一。 有关详细信息，请参阅 [SBC 域名](#sbc-domain-names)。|
@@ -149,10 +149,10 @@ SBC 域名必须来自在租户的"域"中注册的名称之一。 不能将 \* 
 contoso.com|是|**有效名称：**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.com<br/>europe.contoso.com|
 |contoso.onmicrosoft.com|否|SBC onmicrosoft.com 不支持使用 *.onmicrosoft.com 域
 
-假设要使用新的域名。 例如，租户已 contoso.com 作为在租户中注册的域名，并且想要使用 sbc1.sip.contoso.com。 在将 SBC 与名称 sbc1.sip.contoso.com 之前，必须在租户 sip.contoso.com 域中注册域名。 如果在注册域名之前尝试将 SBC 与 sbc1.sip.contoso.com 配对，则收到以下错误："无法使用"sbc1.sip.contoso.com"域，因为它未为此租户配置。"
+假设要使用新的域名。 例如，租户已 contoso.com 在租户中注册的域名，并且想要使用 sbc1.sip.contoso.com。 在将 SBC 与名称 sbc1.sip.contoso.com 之前，必须在租户 sip.contoso.com 域中注册域名。 如果在注册域名之前尝试将 SBC 与 sbc1.sip.contoso.com 配对，则收到以下错误："无法使用"sbc1.sip.contoso.com"域，因为它未为此租户配置。"
 添加域名后，还需要使用 UPN 帐户创建用户 user@sip.contoso.com 分配Teams许可证。 将域名添加到租户的"域"后，可能需要最多 24 小时才能完全预配该域名，将创建具有新名称的用户，并将许可证分配给该用户。 
 
-公司可能在一个租户中具有多个 SIP 地址空间。 例如，公司可能 contoso.com SIP 地址空间，fabrikam.com 第二个 SIP 地址空间。 一些用户具有 user@contoso.com，一些用户具有 user@fabrikam.com。 
+公司可能在一个租户中具有多个 SIP 地址空间。 例如，公司可能 contoso.com SIP 地址空间，fabrikam.com 作为第二个 SIP 地址空间。 一些用户具有 user@contoso.com，一些用户具有地址 user@fabrikam.com。 
 
 SBC 只需要一个 FQDN，可以从配对租户的任何地址空间为用户提供服务。 例如，名称为 sbc1.contoso.com 的 SBC 可以接收和发送地址为 user@contoso.com 和 user@fabrikam.com 的用户的 PSTN 流量，只要这些 SIP 地址空间注册在同一租户中。  
 
@@ -163,7 +163,7 @@ Microsoft 建议通过生成认证签名请求来请求 SBC 的证书， (CSR) �
   > [!NOTE]
   > 大多数证书颁发 (CA) 要求私钥大小至少为 2048。 生成 CSR 时，请记住这一点。
 
-证书需要将 SBC FQDN 作为 CN (公用) 或 SAN (可选) 名称。 证书应直接从证书颁发机构颁发，而不是从中间提供商颁发。
+证书需要将 SBC FQDN 作为 CN 证书 (公用) 或 SAN (可选) 名称。 证书应直接从证书颁发机构颁发，而不是从中间提供商颁发。
 
 或者，直接路由支持 CN 和/或 SAN 中的通配符，并且通配符需要符合标准的[RFC HTTP over TLS。](https://tools.ietf.org/html/rfc2818#section-3.1) 例如，使用 .contoso.com 与 SBC FQDN sbc.contoso.com 匹配，但不与 \* sbc.test.contoso.com。
 
@@ -203,7 +203,7 @@ Microsoft 建议通过生成认证签名请求来请求 SBC 的证书， (CSR) �
 - DigiCert 高保障 EV 根 CA
 
 > [!NOTE]
-> *如果为 SBC 上的 Teams 连接启用了相互 TLS (MTLS) 支持，则必须在 Teams TLS 上下文的 SBC 受信任的根存储中安装 Baltimore CyberTrust 根证书。  (这是因为 Microsoft 服务证书使用 Baltimore 根证书。) 若要下载 Baltimore 根证书，请参阅 Office 365[加密链](/microsoft-365/compliance/encryption-office-365-certificate-chains)。
+> *如果为 SBC 上的 Teams 连接启用了相互 TLS (MTLS) 支持，则必须在 Teams TLS 上下文的 SBC 受信任的根存储中安装 Baltimore CyberTrust 根证书。  (这是因为 Microsoft 服务证书使用 Baltimore 根证书。) 若要下载 Baltimore 根证书，请参阅加密[Office 365链](/microsoft-365/compliance/encryption-office-365-certificate-chains)。
 
 Microsoft 正在努力根据客户请求添加其他证书颁发机构。 
 
@@ -243,7 +243,7 @@ FQNS（sip.pstnhub.microsoft.com、sip2.pstnhub.microsoft.com 和 sip3.pstnhub.m
 
 **sip.pstnhub.dod.teams.microsoft.us** - 全局 FQDN。 由于Office 365 DoD 环境仅存在于美国数据中心，因此没有辅助和第三级 FQD。
 
-FQDN sip.pstnhub.dod.teams.microsoft.us 解析为以下子网中的 IP 地址：
+FQDN sip.pstnhub.dod.teams.microsoft.us 将解析为以下子网中的 IP 地址：
 
 - 52.127.64.0/21
 
@@ -255,7 +255,7 @@ FQDN sip.pstnhub.dod.teams.microsoft.us 解析为以下子网中的 IP 地址：
 
 **sip.pstnhub.gov.teams.microsoft.us** - 全局 FQDN。 由于GCC高环境仅存在于美国数据中心，因此没有辅助和第三级 FQDN。
 
-FQDN sip.pstnhub.gov.teams.microsoft.us 解析为以下子网中的 IP 地址：
+FQDN sip.pstnhub.gov.teams.microsoft.us 将解析为以下子网中的 IP 地址：
 
 - 52.127.88.0/21
 
@@ -271,7 +271,7 @@ FQDN sip.pstnhub.gov.teams.microsoft.us 解析为以下子网中的 IP 地址：
 
 |流量|从|到|源端口|目标端口|
 |:--- |:--- |:--- |:--- |:--- |
-|SIP/TLS|SIP 代理|SBC|1024 – 65535|在 SBC 端口 (为Office 365 GCC/DoD，必须使用端口 5061) |
+|SIP/TLS|SIP 代理|SBC|1024 – 65535|在 SBC 端口 (为Office 365 GCC/DoD，只能使用端口 5061) |
 SIP/TLS|SBC|SIP 代理|在 SBC 上定义|5061|
 ||||||
 
@@ -323,11 +323,13 @@ SBC 会进行 DNS 查询来解析 sip.pstnhub.microsoft.com。 根据 SBC 位置
 
 媒体流量通过称为媒体处理器的组件流动。 媒体处理器放置在与 SIP 代理相同的数据中心：
 
-- 美国 (美国西部和东部数据中心有两个) 
-- 欧洲 (阿姆斯特丹和都柏林数据中心) 
+- NOAM (美国中南部，两个位于美国西部，两个位于美国东部数据中心) 
+- 欧洲 (英国南部、法国中部、阿姆斯特丹和都柏林数据中心) 
 - 亚洲 (新加坡数据中心) 
 - 日本 (日本东部和西部数据中心) 
 - 澳大利亚 (澳大利亚东部和东南部数据中心) 
+- 巴西 (的 LATAM) 
+- 非洲 (南非北部) 
 
 ## <a name="media-traffic-codecs"></a>媒体流量：编解码器
 
