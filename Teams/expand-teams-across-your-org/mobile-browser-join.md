@@ -19,16 +19,16 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: hafarmer
 description: 了解在移动浏览器中Teams虚拟访问的加入体验。
-ms.openlocfilehash: 6183fccce1c455ac46f4eb7c166530535d5dbbe8
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: a0c7bc626414280a8cba5ea55aaa9062ef190ca3
+ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432684"
+ms.lasthandoff: 10/09/2021
+ms.locfileid: "60249754"
 ---
 # <a name="manage-the-join-experience-for-teams-virtual-visits-on-mobile-browsers"></a>管理在移动浏览器中Teams虚拟访问的加入体验
 
-Microsoft Teams，用户无需下载约会即可在移动设备上加入Teams。 为获得更无缝的体验，与会者可以通过移动浏览器加入约会，例如医疗保健访问、财务咨询、教师办公时间等。 与会者无需在 Android 或 iOS 移动设备上Teams移动应用。
+Microsoft Teams，用户无需下载约会即可在移动设备上加入Teams。 为获得更无缝的体验，与会者可以从移动浏览器加入约会，例如医疗保健访问、财务咨询、教师办公时间等。 与会者无需在 Android 或 iOS 移动设备上Teams移动应用。
 
 使用移动浏览器加入时，当与会者从移动设备加入约会时，系统不会提示他们下载Teams。 相反，Teams在移动浏览器中打开，与会者可以在其中选择"立即 **加入**"以加入。 使用此功能时，请记住，如果Teams安装在与会者的移动设备上，Teams浏览器中打开，而不是在应用中打开。
 
@@ -49,13 +49,13 @@ Microsoft Teams，用户无需下载约会即可在移动设备上加入Teams。
 
 在 Bookings 中，设置"约会类型"，选择约会类型，然后打开"允许与会者从  >  **移动浏览器加入"。** [](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887) 这样做可让移动浏览器加入此类型的所有约会。
 
-:::image type="content" source="../media/mobile-browser-join-bookings-appointment-type.png" alt-text="Bookings 应用中约会类型的允许与会者从移动浏览器加入设置的屏幕截图":::
+:::image type="content" source="../media/mobile-browser-join-bookings-appointment-type.png" alt-text="Bookings 应用中约会类型的"允许与会者从移动浏览器加入"设置的屏幕截图":::
 
 #### <a name="turn-on-mobile-browser-join-for-an-individual-appointment"></a>为单个约会启用移动浏览器加入
 
 在 Bookings 中，选择"新建 **预订**"，然后打开"允许与会者 **从移动浏览器加入"。**
 
-:::image type="content" source="../media/mobile-browser-join-bookings-form.png" alt-text="Bookings 应用中新预订表单上的允许与会者从移动浏览器加入设置的屏幕截图":::
+:::image type="content" source="../media/mobile-browser-join-bookings-form.png" alt-text="Bookings 应用中新预订表单上的"允许与会者从移动浏览器加入"设置的屏幕截图":::
 
 ### <a name="appointments-scheduled-through-the-teams-ehr-connector"></a>通过 EHR 连接器Teams约会
 
@@ -77,8 +77,12 @@ Microsoft Teams，用户无需下载约会即可在移动设备上加入Teams。
 
 &sup2;需要 Safari 14+ 和 macOS 11+ 才能支持传出视频。
 
+## <a name="things-to-consider"></a>要考虑的问题
+
+执行虚拟访问的职员可以从桌面、移动Teams客户端与从移动浏览器加入的与会者共享其屏幕。 但是，与会者无法从移动浏览器共享其屏幕。
+
 > [!NOTE]
-> 我们将在将来的会议加入体验中添加更多功能Teams，因此请返回查看最新信息。 若要随时了解即将推出的Teams功能，请查看"Microsoft 365[路线图"。](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams)
+> 我们将在将来发布的 Teams 版本中向会议加入体验添加更多功能，因此请返回查看最新信息。 若要随时了解即将推出的Teams功能，请查看"Microsoft 365[路线图"。](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams)
 
 ## <a name="related-articles"></a>相关文章
 

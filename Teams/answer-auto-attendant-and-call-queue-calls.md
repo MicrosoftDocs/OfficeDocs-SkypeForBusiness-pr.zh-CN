@@ -1,8 +1,8 @@
 ---
 title: 应答自动助理和呼叫队列呼叫
 ms.reviewer: colongma
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 audience: ITPro
 ms.date: 09/20/2018
@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6c60f0f3bcf5fc683a15c5b22cc7b98aa384d477
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 83659cba18674e04daa0f9d181b9ac5acf53b146
+ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733361"
+ms.lasthandoff: 10/09/2021
+ms.locfileid: "60249484"
 ---
 # <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>直接从 Teams 回答自动助理和呼叫队列
 
@@ -60,11 +60,11 @@ Teams用户可以直接从云自动助理接收和接听来自云自动助理的
 -    Microsoft Teams iPhone 应用
 -    Microsoft Teams Android 应用
 
-只有 Teams 共存模式才支持 Teams[客户端](/microsoftteams/setting-your-coexistence-and-upgrade-settings)。
+只有Teams共存模式才支持 Teams[客户端](/microsoftteams/setting-your-coexistence-and-upgrade-settings)。
 
-## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>为用户配置自动助理和呼叫Microsoft Teams
+## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>为用户配置自动助理和呼叫队列Microsoft Teams
 
-若要在客户端上接收自动助理和Microsoft Teams呼叫，需要配置互操作性策略和升级策略。 请查看将 Teams 与 Skype for Business[一起用于组织的迁移和Skype for Business。](migration-interop-guidance-for-teams-with-skype.md) 如果没有配置自动助理和/或呼叫队列，并且希望这样做，请参阅设置云自动[助理和](create-a-phone-system-auto-attendant.md)[创建云呼叫队列](create-a-phone-system-call-queue.md)。
+若要在客户端上接收自动助理和Microsoft Teams呼叫，需要配置互操作性策略和升级策略。 请查看将 Teams 与[Skype for Business 一起用于组织的迁移和Skype for Business。](migration-interop-guidance-for-teams-with-skype.md) 如果没有配置自动助理和/或呼叫队列，并且希望这样做，请参阅设置云自动[助理和](create-a-phone-system-auto-attendant.md)[创建云呼叫队列](create-a-phone-system-call-queue.md)。
 
 ## <a name="known-issues"></a>已知问题
 
@@ -73,8 +73,9 @@ Teams用户可以直接从云自动助理接收和接听来自云自动助理的
 
 ## <a name="related-topics"></a>相关主题
 
--    [电话系统或Microsoft 365 Office 365](what-is-phone-system-in-office-365.md)
--    [创建云呼叫队列](create-a-phone-system-call-queue.md)
--    [什么是云自动助理？](what-are-phone-system-auto-attendants.md)
--    [设置云自动助理](create-a-phone-system-auto-attendant.md)
+[创建云呼叫队列](create-a-phone-system-call-queue.md)
+
+[什么是云自动助理？](what-are-phone-system-auto-attendants.md)
+
+[设置云自动助理](create-a-phone-system-auto-attendant.md)
 

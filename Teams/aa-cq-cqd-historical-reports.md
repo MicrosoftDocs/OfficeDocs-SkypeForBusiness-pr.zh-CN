@@ -1,7 +1,7 @@
 ---
 title: 自动助理 &队列历史报告
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -21,17 +21,17 @@ ms.custom:
 - Reporting
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
-description: 了解如何使用呼叫质量仪表板Power BI报表来查看自动助理呼叫队列历史数据。
-ms.openlocfilehash: a474b2f8e4acc89a92edcc0b20f1414d8cf38fde
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: 了解如何使用呼叫质量仪表板Power BI报表来查看自动助理和呼叫队列历史数据。
+ms.openlocfilehash: 4594a673225a167e762bcfee63067f70e7fe10b4
+ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732731"
+ms.lasthandoff: 10/09/2021
+ms.locfileid: "60249554"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>自动助理 &队列历史报告
 
-CQD Teams 自动助理 &队列历史报告模板Power BI提供以下三个报告：
+CQD Teams 自动助理 &调用队列历史Power BI模板提供以下三个报告：
 
 - [自动助理](media/cqd-teams-aa-cq-historical-report-sample-aa.png) - 显示对进入自动助理的呼叫的分析。
 - [呼叫队列](media/cqd-teams-aa-cq-historical-report-sample-cq.png) - 显示对进入呼叫队列的呼叫的分析。
@@ -108,7 +108,7 @@ CQD Teams 自动助理 &队列历史报告模板Power BI提供以下三个报告
 执行以下步骤：
 - 选择 **功能区上的** "视图"选项卡。
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="选择视图选项卡以更改配色方案屏幕截图。":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="选择"视图"选项卡以更改配色方案屏幕截图。":::
 
 - 从下拉列表中选择颜色架构。
 
@@ -116,7 +116,7 @@ CQD Teams 自动助理 &队列历史报告模板Power BI提供以下三个报告
   
 ## <a name="auto-attendant-and-call-queue-historical-reports-definitions"></a>自动助理和调用队列历史报告定义
 
-### <a name="cloud-auto-attendant-analytics"></a>Cloud 自动助理 Analytics
+### <a name="cloud-auto-attendant-analytics"></a>云自动助理分析
 
 #### <a name="report-description"></a>报表说明
 
@@ -167,7 +167,7 @@ CQD Teams 自动助理 &队列历史报告模板Power BI提供以下三个报告
 |AACount                                 |text                     |呼叫中涉及的自动助理数                               |
 |AADirectorySearchMethod                 |text                     |最后一种通讯簿搜索方法 - 可能的值：<br><br>§ abs_search_dtmf<br>§ abs_search_extension_x<br>§ abs_search_name |
 |AAStartTime                             |日期/时间                |自动助理通话开始时间                                           |
-|AATransferAction                        |text                     |呼叫转接目标类型 - 可能的值：<br><br>***§ 应用程序 - 语音应用程序实体**_<br> § <br> external_pstn_§ hunt_group - 调用 *_队列实体_* _<br>_ * _§ orgaa - 组织自动助理实体_**<br>§ shared_voicemail<br>§ unknown<br>§ user |
+|AATransferAction                        |text                     |呼叫转接目标类型 - 可能的值：<br><br>***§ 应用程序 - 语音应用程序实体**_<br> § <br> external_pstn_§ hunt_group - 调用 *_队列实体_* _<br>_ * _§ orgaa - 自动助理 实体_**<br>§ shared_voicemail<br>§ unknown<br>§ user |
 |呼叫类型<sup>1</sup>                   |text                     |调用类型 - 可能的值：<br><br>§ 外部<br>§ 内部         |
 |IsAAInvolved                            |text                     |始终为 1                                                                 |
 |PSTNMinutes                             |全数             |汇总：总和<br>总分钟使用量                                     |
@@ -183,7 +183,7 @@ CQD Teams 自动助理 &队列历史报告模板Power BI提供以下三个报告
 |传入呼叫源<sup>1</sup>        |按内部/外部呼叫源分布呼叫              |
 |呼叫量                             |按呼叫队列分布的呼叫                                |
 |调用方结果                           |按通话结果分布的呼叫                                |
-|超时/溢出调用总数操作      |未转发的 (已) 结果的已放弃呼叫的分布       |
+|超时/溢出调用总数操作      |未转发的 (已) 结果的呼叫分布       |
 |转移/转发目标总计          |按呼叫结果转发的呼叫分布                      |
 |已放弃的通话比率                   |成功与放弃的呼叫计数的比率                        |
 |平均会话长度 (秒)         |按放弃/成功调用分组的呼叫长度（以秒数表示）       |
@@ -201,7 +201,7 @@ CQD Teams 自动助理 &队列历史报告模板Power BI提供以下三个报告
 |fCallQueueAnalytics          |CallQueueAnalytics           |无             |
 |fCallQueueFinalStateAction   |CallQueueFinalStateAction    |无             |
 
-|报表部分                      |表 -> 字段 (字段) 已用                |应用的筛选器       |
+|报表部分                      |表 -> 字段 () 已用                |应用的筛选器       |
 |:-----------------------------------|:-------------------------------------|:---------------------|
 |日期选择器                       |Dates -> DateTime                     |无                  |
 |调用队列标识                 |dCQ-CQIdentity ->调用队列标识 |无                  |
@@ -209,9 +209,9 @@ CQD Teams 自动助理 &队列历史报告模板Power BI提供以下三个报告
 |平均等待时间                    |fCallQueueFinalStateAction ->平均呼叫持续时间 (秒)  |转接之前：呼叫队列呼叫结果agent_joined_conference或transferred_to_agent<br>挂断之前：呼叫队列呼叫结果agent_joined_conference或transferred_to_agent |
 |通话结果                         |fCallQueueAnalytics ->呼叫计数<br>fCallQueueAnalytics ->呼叫队列呼叫结果 | 无 |
 |超时/溢出调用总数操作 |fCallQueueFinalStateAction ->调用计数<br>fCallQueueFinalStateAction ->调用队列最终状态操作 |调用队列最终状态操作未转发 |
-|传输/Forard 目标总计       |fCallQueueAnalytics ->呼叫计数<br>fCallQueueAnalytics ->调用队列目标类型 |无 |
+|传输/Forard 目标总计       |fCallQueueAnalytics ->呼叫计数<br>fCallQueueAnalytics ->队列目标类型 |无 |
 |呼叫量                        |fCallQueueAnalytics ->呼叫计数<br>fCallQueueAnalytics ->调用队列标识<br>fCallQueueAnalytics -> Date |无 |
-|已放弃的呼叫                     |fCallQueueAnalytics -> %Abandoned 调用<br>fCallQueueAnalytics ->呼叫计数<br>fCallQueueAnalytics -> Date<br>fCallQueueAnalytics -> IsAbandoned |IsAbandoned 为 True |
+|已放弃的呼叫                     |fCallQueueAnalytics -> %已放弃的调用<br>fCallQueueAnalytics ->呼叫计数<br>fCallQueueAnalytics -> Date<br>fCallQueueAnalytics -> IsAbandoned |IsAbandoned 为 True |
 |平均会话长度 (秒)     |fCallQueueFinalStateAction ->平均呼叫持续时间<br>fCallQueueFinalStateAction -> Date<br>fCallQueueFinalStateAction -> IsAbandoned |无 |
 
 #### <a name="dcq-cqidenity-cqd-fields-description"></a>dCQ-CQIdenity CQD 字段说明
@@ -250,8 +250,8 @@ CQD Teams 自动助理 &队列历史报告模板Power BI提供以下三个报告
 |呼叫计数                              |全数             |汇总：总和<br>通话的数量                  |
 |呼叫队列呼叫结果                  |text                     |调用队列调用最终状态 - 可能的值：<br><br>§ agent_joined_conference<br>§ 已拒绝<br>§ disconnected<br>§ 错误<br>§ 失败<br>§ 无效<br>§ overflown<br>§ timed_out<br>§ transferred_to_agent |
 |调用队列最终状态操作           |text                     |调用队列最终操作 - 可能的值：<br><br>§ disconnect<br>§ disconnect_with_busy<br>§ failed_to_accept_call<br>§ forward<br>§ shared_voicemail<br>§ other<br>§ 语音邮件 |
-|调用队列标识                     |text                     |附加到呼叫队列的资源帐户的名称<br><br>如果为完整的资源帐户名称 **cq_test@microsoft.com** 则此值为 **：cq_test** |
-|日期                                    |日期/时间                |呼叫队列呼叫开始日期和时间 (utc)  (utc)    |
+|调用队列标识                     |text                     |附加到呼叫队列的资源帐户的名称<br><br>如果完整资源帐户名称 cq_test@microsoft.com则此值为 **：cq_test** |
+|日期                                    |日期/时间                |呼叫队列呼叫开始日期和时间 (utc)  (UTC)    |
 |IsAbandoned                             |true/false               |如果代理未应答调用，则为 True           |
 
 
@@ -262,8 +262,8 @@ CQD Teams 自动助理 &队列历史报告模板Power BI提供以下三个报告
 |报表部分                                          |说明                                                  |
 |:-------------------------------------------------------|:------------------------------------------------------------|
 |代理调用的个次                                        |按呼叫队列和代理分布呼叫                 |
-|代理和 (队列) 总呼叫持续时间   |代理 (呼叫队列) 的总持续时间（秒）     |
-|按代理名称 (平均) 秒数           |代理 (呼叫的平均) 秒数                  |
+|代理和 (队列) 总呼叫持续时间   |代理 (呼叫) 呼叫的总持续时间（秒）     |
+|按代理名称 (平均) 秒数           |代理 (呼叫) 的平均持续时间) 秒数                  |
 
 #### <a name="report-to-cqd-table-and-field-mapping"></a>报告到 CQD 表和字段映射
 
@@ -273,7 +273,7 @@ CQD Teams 自动助理 &队列历史报告模板Power BI提供以下三个报告
  
 |报表表名称            |源表名称            |正在处理       |
 |:----------------------------|:----------------------------|:----------------|
-|fAgentTimelineAnalytics      |AgentTimelineAnalytics       |Source = AgentTimelineAnalytics， <br>#"Changed Type" = Table.TransformColumnTypes (Source，{{"Call Count"， Int64.Type}， {"Call Duration (Minute) "， Int64.Type}， {"Average Call Duration (Second) "， type number}， {"Date"， type date}}) |
+|fAgentTimelineAnalytics      |AgentTimelineAnalytics       |Source = AgentTimelineAnalytics， <br>#"Changed Type" = Table.TransformColumnTypes (Source，{{"Call Count"， Int64.Type}， {"Call Duration (Minute) "， Int64.Type}， {"Average Call Duration (Second) "， type number}， {"Date"， type date}}}) |
 
 |报表部分                                |已 (字段) 字段                         |应用的筛选器       |
 |:---------------------------------------------|:-------------------------------------|:---------------------|
@@ -288,11 +288,11 @@ CQD Teams 自动助理 &队列历史报告模板Power BI提供以下三个报告
 
 |名称                                    |数据类型                |说明                                         |
 |:---------------------------------------|:------------------------|:---------------------------------------------------|
-|代理名称                              |text                     |用户 UPN<br>如果输入完整的用户名 **user@microsoft.com** 则此值为 **：user** |
+|代理名称                              |text                     |用户 UPN<br>如果输入 **完整的用户名** user@microsoft.com 则此值为 **：user** |
 |平均呼叫持续时间 (秒)           |十进制数           |汇总：总和<br>呼叫队列调用的平均持续时间（以秒数） |
 |呼叫计数                              |全数             |汇总：总和<br>代理处理的调用数                    |
 |通话持续时间 (分钟)                   |全数             |汇总：总和<br>呼叫队列呼叫的总呼叫持续时间（分钟）  |
-|呼叫队列名称                         |text                     |附加到呼叫队列的资源帐户的名称<br><br>如果为完整的资源帐户名称 **cq_test@microsoft.com** 则此值为 **：cq_test** |
+|呼叫队列名称                         |text                     |附加到呼叫队列的资源帐户的名称<br><br>如果完整资源帐户名称 cq_test@microsoft.com则此值为 **：cq_test** |
 |日期                                    |date                     |                                                    |
 
 

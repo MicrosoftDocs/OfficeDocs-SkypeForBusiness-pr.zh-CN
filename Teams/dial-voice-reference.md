@@ -1,7 +1,7 @@
 ---
 title: 自动助理和呼叫队列拨号和语音识别参考
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 了解自动助理和呼叫队列拨号和语音识别选项，Teams。
-ms.openlocfilehash: 8201389c39dc58f80596a6055c927ecfbbf86e38
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: acd3202a3f27beaf40af09422687be490f0695c5
+ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605781"
+ms.lasthandoff: 10/09/2021
+ms.locfileid: "60249684"
 ---
 # <a name="auto-attendant-and-call-queue-dialing-and-voice-recognition-reference"></a>自动助理和呼叫队列拨号和语音识别参考
 
@@ -35,9 +35,9 @@ ms.locfileid: "58605781"
 
 ## <a name="searching-for-users"></a>搜索用户
 
-希望使用"按姓名拨叫"定位和联系的用户无需具有电话号码或为其分配了呼叫计划，但必须为企业语音启用Skype for Business Server **用户**。 "按名称拨叫"甚至能够查找和转接Microsoft Teams在多个国家/地区为多个国家/地区托管的所有用户。 根据相关先决条件，在自动助理中显式启用"按姓名拨叫"。
+希望使用"按姓名拨叫"定位和联系的用户不需要拥有电话号码或为其分配了呼叫计划，但必须为 企业语音 用户启用 **Skype for Business Server。** "按名称拨叫"甚至能够查找和Microsoft Teams在不同国家/地区为多个国家/地区托管的所有用户的呼叫。 根据相关先决条件，在自动助理中显式启用"按姓名拨叫"。
 
-"按分机号拨叫"是自动助理的一项功能，也是目录搜索的一部分。 它使呼叫自动助理的用户能够使用语音 (语音识别) 或电话键盘 (DTMF) 响应输入他们尝试联系的用户的电话分机，然后将呼叫转接给他们。 希望使用"按分机拨叫"定位和联系的用户不需要拥有电话号码或为其分配了呼叫计划，但必须为 企业语音 用户启用 **Skype for Business Server。** 还需要为用户配置适当的拨号计划。 通过分机拨叫甚至能够查找和转接Microsoft Teams在多个国家/地区为多个国家/地区托管的用户。 根据相关先决条件，在自动助理中显式启用"按分机拨叫"。
+"按分机号拨叫"是自动助理的一项功能，也是目录搜索的一部分。 它使呼叫自动助理的用户能够使用语音 (语音识别) 或电话键盘 (DTMF) 响应输入他们尝试联系的用户的电话分机，然后将呼叫转接给他们。 希望使用"按分机拨叫"定位和联系的用户不需要拥有电话号码或为其分配了呼叫计划，但必须为 企业语音 用户启用 **Skype for Business Server。** 还需要为用户配置适当的拨号计划。 通过分机拨叫甚至能够查找和转移呼叫Microsoft Teams在多个国家/地区为多个国家/地区托管的所有用户。 根据相关先决条件，在自动助理中显式启用"按分机拨叫"。
 
 ### <a name="maximum-directory-size"></a>目录最大大小
 
@@ -80,7 +80,7 @@ ms.locfileid: "58605781"
 
 用户可以使用语音和语音识别功能搜索 (组织中) 。 他们还可以通过说出要查找的人的完整或部分姓名来联系 Active Directory 中的任何人。 使用语音输入可以识别各种格式的名称，包括名字、姓氏、名字 + 姓氏或姓氏 + 名字。
   
-你可以为自动助理启用语音识别，但未禁用 (DTMF) 键盘输入。 电话自动助理上启用了语音识别，也随时都可以使用键盘输入。
+你可以为自动助理启用语音识别，但是未禁用 (DTMF) 键盘输入。 电话自动助理上启用了语音识别，也随时都可以使用键盘输入。
   
 与电话键盘输入一样，如果找到多个姓名，呼叫者将听到要选择的姓名列表。
   
@@ -108,7 +108,7 @@ ms.locfileid: "58605781"
 |语音命令| 对应于 |
 |:-----|:-----|
 |是 | 按 1 表示"是"。 |
-|否 | 按 2 表示"否"。 |
+|不支持 | 按 2 表示"否"。 |
 |重复 |重复选项列表。 按键盘上的 *重复选项列表。 |
 |接线员 | 按 0 表示"运算符" |
 |主菜单  |为呼叫者返回到自动助理的主菜单。 |
@@ -124,8 +124,6 @@ ms.locfileid: "58605781"
 |九  |按 9。|
 
 ## <a name="related-topics"></a>相关主题
-
-[电话系统的功能](here-s-what-you-get-with-phone-system.md)
 
 [获取 Skype for Business 和 Microsoft Teams 的服务电话号码](./getting-service-phone-numbers.md)
 

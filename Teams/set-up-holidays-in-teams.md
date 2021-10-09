@@ -1,7 +1,7 @@
 ---
 title: 在 Microsoft Teams 中设置假日
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.holidays.overview
 - seo-marvel-apr2020
 description: 了解如何在自动助理Microsoft Teams设置假日。
-ms.openlocfilehash: b72eec8778577454c55d9b3e2e999900fcb70143
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: b9c86f28b855b7f92d7e4f5d850c2d97baa2a106
+ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733201"
+ms.lasthandoff: 10/09/2021
+ms.locfileid: "60249494"
 ---
 # <a name="set-up-holidays-in-microsoft-teams"></a>在 Microsoft Teams 中设置假日
 
@@ -54,7 +54,7 @@ ms.locfileid: "58733201"
 8. 使用下拉列表选择假日的结束时间。 结束 **时间** 必须比开始时间 **之后**。  
 
    > [!NOTE]
-   > 如果假日为一整天 (即 24 小时制) ，则结束时间应设置为第二天，时间应设置为上午 12：00。 例如，如果您的组织在 1 月 1 日因元年而关闭，则将"开始时间"设置为 1 月 1 日12：00 AM，将"结束时间"设置为 1 月 2 日 @ 12：00 AM。
+   > 如果假日为一整天 (即 24 小时期限) ，则结束时间应设置为第二天，时间应设置为上午 12：00。 例如，如果您的组织在 1 月 1 日因元年而关闭，则将"开始时间"设置为 1 月 1 日12：00 AM，将"结束时间"设置为 1 月 2 日 @ 12：00 AM。
 
 9. （可选）为定期假日添加更多日期。
 

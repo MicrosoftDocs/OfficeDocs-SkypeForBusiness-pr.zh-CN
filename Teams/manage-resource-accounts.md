@@ -1,7 +1,7 @@
 ---
 title: 在 Teams 中管理资源帐户
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: jastark, wasseemh
 ms.topic: article
@@ -21,18 +21,18 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: 本文将了解如何在 Microsoft Teams 中创建、编辑和管理资源帐户。
-ms.openlocfilehash: 915547fea13a9d5b240e92b7d0a37515a271ebf9
-ms.sourcegitcommit: 74d3ab35c344d70b2399bc46a6ced3ab2762a470
+ms.openlocfilehash: 84ca7a68cfc620c5f62dbdd6308c1862a7e7bda7
+ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60138248"
+ms.lasthandoff: 10/09/2021
+ms.locfileid: "60249464"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>在 Microsoft Teams 中管理资源帐户
 
 资源帐户是 Azure AD 中已禁用的用户对象，通常可用于表示资源。 例如，资源帐户可用于Exchange会议室，并允许它们具有电话号码和日历。 可以使用 2019 年 Microsoft 365 将资源帐户Skype for Business Server本地。
 
-在Microsoft Teams，每个自动助理或呼叫队列都需要一个资源帐户。 还可以为资源帐户分配服务电话号码。 这是将电话号码分配给自动助理和呼叫队列，允许来自外部呼叫Teams呼叫者进入自动助理或呼叫队列。
+在Microsoft Teams，每个自动助理或呼叫队列都需要一个资源帐户。 还可以为资源帐户分配服务电话号码。 这是向自动助理和呼叫队列分配电话号码，使呼叫者Teams自动助理或呼叫队列。
 
 本文介绍如何创建资源帐户并准备好它们以用于自动助理和呼叫队列。
 
@@ -57,7 +57,7 @@ ms.locfileid: "60138248"
 
 若要获取新的服务号码，请参阅 [获取服务电话号码](getting-service-phone-numbers.md)。
 
-若要转转其他运营商的号码，请参阅[将电话号码转Teams。](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)
+若要转转其他运营商的号码，请参阅[将电话号码转移到Teams。](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)
 
 ## <a name="create-a-resource-account"></a>创建资源帐户
 
@@ -65,7 +65,7 @@ ms.locfileid: "60138248"
 
 ![添加资源帐户用户界面的屏幕截图。](media/resource-account-add.png)
 
-1. 在Teams中心，展开 **"语音"，** 然后单击"**资源帐户"。**
+1. 在Teams中心，展开"**语音"，** 然后单击"**资源帐户"。**
 
 2. 单击“**添加**”。
 
@@ -77,7 +77,7 @@ ms.locfileid: "60138248"
 
 ## <a name="assign-a-license"></a>分配许可证
 
-对于每个资源帐户，必须分配一个Microsoft 365 电话系统 *- 虚拟用户* 许可证或 *电话系统* 许可证。
+对于每个资源帐户，必须分配一个Microsoft 365 电话系统 *- 虚拟用户**许可证或电话系统* 许可证。
 
 !["许可证分配"用户界面的屏幕截图Microsoft 365 管理中心。](media/resource-account-assign-virtual-user-license.png)
 
@@ -93,7 +93,7 @@ ms.locfileid: "60138248"
 
 ![分配服务编号用户界面的屏幕截图。](media/resource-account-assign-phone-number.png)
 
-1. 在Teams管理中心的"资源帐户"页上，选择要为其分配服务编号的资源帐户，然后单击"**分配/取消分配"。**
+1. 在 Teams管理中心的"资源帐户"页上，选择要为其分配服务编号的资源帐户，然后单击"**分配/取消分配"。**
 
 2. 在 **电话类型**"下拉列表中，选择想要使用的编号类型。
 
@@ -127,7 +127,7 @@ ms.locfileid: "60138248"
 
 ## <a name="skype-for-business-server-2019"></a>SkypeFor Business Server 2019
 
-对于托管在 Skype For Business Server 2019 上且可用于云呼叫队列和云自动助理的资源帐户，请参阅规划[云呼叫队列](/SkypeforBusiness/hybrid/plan-call-queue)或[计划云自动助理](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant)。 使用本地 (2019 服务器上[New-CsHybridApplicationEndpoint](/powershell/module/skype/new-cshybridapplicationendpoint) cmdlet 配置位于直接路由) 上的混合实现Skype for Business Server数字。
+对于托管在 Skype For Business Server 2019 上且可用于云呼叫队列和云自动助理的资源帐户，请参阅计划[云呼叫队列](/SkypeforBusiness/hybrid/plan-call-queue)或[计划云自动助理](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant)。 使用本地 (2019 服务器上[New-CsHybridApplicationEndpoint](/powershell/module/skype/new-cshybridapplicationendpoint) cmdlet 配置混合实现) 直接路由 Skype for Business Server 编号。
 
 创建应用程序实例时需要使用的应用程序 ID 为：
 
@@ -150,7 +150,7 @@ ms.locfileid: "60138248"
 
 在删除电话号码之前，请确保从资源帐户取消关联电话号码，以避免服务号码停滞在挂起模式。
 
-执行该操作后，可以在"用户"选项卡下的"Microsoft 365 管理中心中删除资源帐户。
+执行该操作后，可以在"用户"选项卡下Microsoft 365 管理中心资源帐户。
 
 若要取消关联资源帐户的直接路由电话号码，请使用以下 cmdlet：
 

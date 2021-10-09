@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams队列支持的语言
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Microsoft Teams队列支持的语言
-ms.openlocfilehash: 775b8c01f2638ffb2e13c25edf265f9abdd65989
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 54d9a49dc3671a2b7148ba964c20dcb50def0622
+ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634856"
+ms.lasthandoff: 10/09/2021
+ms.locfileid: "60249544"
 ---
 # <a name="microsoft-teams-call-queue-supported-languages"></a>Microsoft Teams队列支持的语言
 
@@ -36,13 +36,13 @@ ms.locfileid: "58634856"
 |:---------------------------------------|
 |阿拉伯 (埃及)                           |
 |加泰罗尼亚语 (加泰罗尼亚语)                        |
-|简 (简体中文，中国)                |
+|简 (简体中文)                |
 |繁 (繁体中文、香港特别行政区)         |
-|繁体中文 (，台湾)            |
+|繁 (繁体中文，台湾)            |
 |克罗地亚 (克罗地亚)                       |
 |捷克共和国 (捷克共和国)                   |
 |丹麦 (丹麦)                         |
-|荷兰 (荷兰语)                      |
+|荷兰语 (荷兰)                      |
 |澳大利亚 (英语)                      |
 |加拿大 (英语)                         |
 |印度 (英语)                          |
@@ -66,7 +66,7 @@ ms.locfileid: "58634856"
 |俄罗斯 (俄罗斯)                         |
 |斯洛伐克 (斯洛伐克)                        |
 |斯洛文尼亚 (斯洛文尼亚)                     |
-|西班牙语 (墨西哥)                         |
+|墨西哥 (西班牙语)                         |
 |西班牙语 (西班牙、国际)           |
 |瑞典语 (瑞典)                         |
 |泰国 (泰国)                          |
