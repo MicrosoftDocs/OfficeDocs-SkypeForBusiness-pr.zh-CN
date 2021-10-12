@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 了解哪些会话边界控制器 (SBC) 已通过直接路由认证。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1d9859b15b881d53a2f1b3c5b39442331e51be2e
-ms.sourcegitcommit: 74d3ab35c344d70b2399bc46a6ced3ab2762a470
+ms.openlocfilehash: e5aeecf93146a628c897e22868dc6b4f6ed7b795
+ms.sourcegitcommit: 428eda4236bd063f44e2571563dd96bd6ed1749a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60138218"
+ms.lasthandoff: 10/11/2021
+ms.locfileid: "60268276"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>经认证可用于直接路由的会话边界控制器
 
@@ -38,10 +38,14 @@ Microsoft 与每个供应商合作：
 
   > [!NOTE]
   > Microsoft 仅在通过直接路由连接一个或多个获得认证的设备时支持电话系统。 Microsoft 保留在非认证设备通过直接路由连接电话系统的情况下拒绝提供支持的权利。 如果 Microsoft 确定客户的直接路由问题与供应商的 SBC 设备有关，则客户需要与 SBC 供应商联系以获得支持。
+  > 认证将授予特定的 SBC 固件版本。 下面介绍的任何 SBC 固件版本都经过认证且受支持。 只要 major.minor 版本相同，就支持高于所述内容的固件版本。
+  > 示例：受支持的 6.10.258，在这种情况下，我们还支持固件版本 6.10. (258 或更高版本) 推荐 6.20.100 - 在这种情况下，我们还建议固件版本 6.20. (100 或更高版本) 有关特定版本的可支持性问题，请联系 SBC 供应商。
 
 下表列出了经认证可用于直接路由的设备。 （如需了解哪些 SBC 供应商支持本地媒体优化的信息，请参阅[为直接路由配置本地媒体优化](direct-routing-media-optimization-configure.md)。）
 
-[了解更多关于“直接路由”的信息](https://aka.ms/dr)。如果对直接路由的 SBC 认证计划有任何疑问，请发送电子邮件至 drsbccertification@microsoft.com。<br/>
+[详细了解直接路由](https://aka.ms/dr)。
+如果你对直接路由的 SBC 认证计划有任何疑问，请发送电子邮件至 drsbccertification@microsoft.com。 请注意：在进一步通知之前，我们不接受新的认证提名。
+<br/>
 
 ## <a name="certified-sbc-vendors"></a>认证的 SBC 供应商
 
