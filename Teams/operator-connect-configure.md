@@ -15,18 +15,18 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 - ms.teamsadmincenter.directrouting.overview
-description: 详细了解如何配置操作员连接。
+description: 详细了解如何配置运算符连接。
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 47ed8fc4f8ca36a1d987456ff393a1b771c6fb10
-ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
+ms.openlocfilehash: 6c19981f4cc7edb556b245da2aac0b320705cc64
+ms.sourcegitcommit: 99bf220249723e954cf5295df3418d93fec80db6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2021
-ms.locfileid: "60249674"
+ms.lasthandoff: 10/12/2021
+ms.locfileid: "60275566"
 ---
 # <a name="configure-operator-connect"></a>配置运算符连接
 
@@ -42,7 +42,7 @@ ms.locfileid: "60249674"
 
 2. **选择国家/地区。** 在 **"操作员设置**"下，选择要通过所选操作员启用的国家/地区。
 
-3. **提供联系信息** 您的联系信息（包括您的全名和电子邮件地址）将自动与您的运营商共享。 稍后可以更改此信息。 此外，你需要提供公司大小，并且可以选择提供电话号码。 操作员将使用此信息来联系你，了解有关接线员连接。
+3. **提供联系信息** 您的联系信息（包括您的全名和电子邮件地址）将自动与您的运营商共享。 稍后可以更改此信息。 此外，你需要提供公司大小，并且可以选择提供电话号码。 操作员将使用此信息来联系你，了解有关接线员和连接。
 
 4. 接受数据传输通知。
 
@@ -54,7 +54,7 @@ ms.locfileid: "60249674"
 
 - 如果需要获取新用户的电话号码，请参阅[获取新用户Teams号码](#acquire-numbers-for-new-teams-users)。
 
-- 如果要将现有号码从"呼叫计划"移动到"接线员连接，请参阅将号码从"呼叫套餐"移动到"接线[员连接"。](#move-numbers-from-calling-plans-to-operator-connect)
+- 如果要将现有号码从"呼叫套餐"移动到"接线员连接，请参阅将号码从"呼叫套餐"移动到"接线[员连接"。](#move-numbers-from-calling-plans-to-operator-connect)
 
 - 如果要将现有号码从"直接路由"移动到"操作员连接，请参阅将数字从"直接路由"移动到["连接"。](#move-numbers-from-direct-routing-to-operator-connect)
 
@@ -64,11 +64,11 @@ ms.locfileid: "60249674"
 
 1. **分配电话系统许可证。** 可以从应用程序电话系统 PowerShell 为用户Microsoft 365 管理中心许可证。 有关详细信息，请参阅[将Teams许可证分配给用户](teams-add-on-licensing/assign-teams-add-on-licenses.md)。
 
-2. 使用接线员许可证获得的电话号码分配连接需要位于 TeamsOnly 模式下。 如果组织在 TeamsOnly 模式下，则所有用户都使用 TeamsOnly 模式。 若要检查此状态，Teams管理中心，转到"组织范围的设置"，> Teams **升级"。** 如果你的组织在群岛模式下，请检查特定用户是否位于 TeamsOnly 模式下。 转到" **用户** "并选择用户帐户。 在"**帐户"****选项卡的Teams** 下，共存模式应设置为"TeamsOnly"。
+2. 使用接线员服务获取的电话号码分配连接需要位于 TeamsOnly 模式下。 如果组织在 TeamsOnly 模式下，则所有用户都使用 TeamsOnly 模式。 若要检查此状态，Teams管理中心，转到"组织范围的设置"，> Teams **升级"。** 如果你的组织在群岛模式下，请检查特定用户是否位于 TeamsOnly 模式下。 转到" **用户** "并选择用户帐户。 在"**帐户"** 选项卡的 **"Teams"** 下，共存模式应设置为"TeamsOnly"。
 
 3. **获取数字。** 转到接线员的网站以订购和获取电话号码。 有关操作员网站的列表，请转到"Microsoft 365[运算符连接目录](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory)。 需要提供租户 ID。 如果不知道租户 ID，请参阅查找租户Microsoft 365 [ID](/onedrive/find-your-office-365-tenant-id)了解详细信息。
 
-4. **分配数字。** 操作员完成订单后，会向租户上传号码。 可以通过在"语音"Teams管理中心查看号码和> 电话 **提供商**。 从管理中心或Teams PowerShell 向用户分配号码。 有关详细信息，请参阅 [分配号码](#assign-numbers)。
+4. **分配数字。** 操作员完成订单后，会向租户上传号码。 可以通过在管理中心内通过语音Teams号码来查看号码> 电话 **提供商**。 从管理中心或Teams PowerShell 向用户分配号码。 有关详细信息，请参阅 [分配号码](#assign-numbers)。
 
 > [!NOTE]
 > 除了为用户 [](getting-phone-numbers-for-your-users.md)获取电话号码外，还可以获取音频会议 (（用于会议网桥) 、自动助理和呼叫队列 (也称为服务号码) ）的收费或免费电话号码。 服务电话号码具有比用户或订阅者电话号码更高的并发呼叫容量。 例如，服务号码可以同时处理数百个呼叫，而用户的电话号码只能同时处理几个呼叫。 若要获取服务号码，请联系操作员。
@@ -81,15 +81,15 @@ ms.locfileid: "60249674"
 
 - 接线员为电话号码分配紧急地址，并允许你稍后在管理中心Teams地址。
 
-- 接线员不会分配地址，并允许你将紧急地址分配给管理中心内Teams电话号码。
+- 接线员不会分配地址，并允许你将紧急地址分配给管理中心Teams电话号码。
 
 - 接线员为电话号码分配紧急地址，不允许你更改紧急地址。 在这种情况下，你需要联系你的接线员以更改电话号码及其分配的紧急地址。
 
 有关紧急呼叫详细信息，请参阅 [管理紧急呼叫](what-are-emergency-locations-addresses-and-call-routing.md) 和 [计划和配置动态紧急呼叫](configure-dynamic-emergency-calling.md)。
 
-### <a name="move-numbers-from-calling-plans-to-operator-connect"></a>将号码从"通话套餐"移动到"接线员连接
+### <a name="move-numbers-from-calling-plans-to-operator-connect"></a>将号码从通话套餐移动到接线员连接
 
-1. 联系接线员将号码移植到接线员连接。 请参阅[Microsoft 365操作员连接](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory)目录以查找您的运营商的网站。
+1. 联系接线员将号码移植到接线员连接。 请参阅[Microsoft 365"连接"](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory)目录以查找您的运营商的网站。
 
 2. 运营商完成移植订单后，可以取消分配用户的"呼叫计划"电话号码，并删除"呼叫计划许可证"。 然后，操作员可以将数字上传到租户。
 
@@ -108,14 +108,14 @@ ms.locfileid: "60249674"
    通过运行以下 PowerShell 命令删除 On-prem Line URI：  
 
    ```
-   Set-CsUser -identity <user> - OnPremLineURI $null 
+   Set-CsUser -Identity <user> -OnPremLineURI $null 
    ```
 
 2. 删除与用户关联的任何 PSTNUsage，否则呼叫将路由到 PSTN 使用中指定的网关。 若要了解如何删除 PSTN 使用情况，请参阅[Set-CsOnlinePstnUsage。](/powershell/module/skype/set-csonlinepstnusage?view=skype-ps)
 
 3. 转到接线员的网站以订购和获取电话号码。 若要查找操作员网站，请参阅 Microsoft 365[运算符连接目录](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory)。 需要提供租户 ID。 如果不知道租户 ID，请参阅查找租户Microsoft 365 [ID](/onedrive/find-your-office-365-tenant-id)了解详细信息。
 
-4. 操作员完成订单后，会向租户上传号码。 可以通过在"语音"Teams管理中心查看号码和> 电话 **提供商**。 使用 连接管理中心或 PowerShell Teams为用户分配运算符编号。 有关详细信息，请参阅 [分配号码](#assign-numbers)。
+4. 操作员完成订单后，会向租户上传号码。 可以通过在管理中心内通过语音Teams号码来查看号码> 电话 **提供商**。 使用 连接管理中心或 PowerShell Teams为用户分配运算符编号。 有关详细信息，请参阅 [分配号码](#assign-numbers)。
 
 ### <a name="assign-numbers"></a>分配数字
 
