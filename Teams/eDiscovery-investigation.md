@@ -17,16 +17,16 @@ description: 了解需要执行电子数据展示（例如，需要提交所有�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 95f284211f76017ee4dca85fbbf03c8a454aaa26
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 6fd0a7b8108ef0c8d56a814558ae0bd055dc8ef5
+ms.sourcegitcommit: 31da77589ac82c43a89a9c53f2a2de5ab52f93c0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733881"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "60356480"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>在 Microsoft Teams 中对内容进行电子数据展示调查
 
-大型企业通常面临高处罚诉讼，这些诉讼要求提交所有电子存储信息 (ESI) 。 Microsoft Teams电子数据展示调查期间搜索和使用内容。
+大型企业经常面临高处罚诉讼，这些诉讼要求提交所有电子存储信息 (ESI) 。 Microsoft Teams电子数据展示调查期间搜索和使用内容。
 
 ## <a name="overview"></a>概述
 
@@ -34,30 +34,30 @@ ms.locfileid: "58733881"
 
 在专用通道中电子数据展示消息和[](private-channels.md)文件的工作方式与在标准通道中的工作方式不同。 若要了解有关详细信息，请参阅 [专用频道的电子数据展示](#ediscovery-of-private-channels)。
 
-并非所有Teams内容都是可电子数据展示的。 下表显示了可以使用 Microsoft 电子数据展示工具搜索的内容类型：
+并非所有Teams都是可电子数据展示的。 下表显示了可以使用 Microsoft 电子数据展示工具搜索的内容类型：
 
 | 内容类型 | 电子数据展示 | 注释 |
 |:--- | :--- |:--- |
-|录音 | 否 | |
+|录音 | 不支持 | |
 |卡片内容|是|有关详细信息 [，请参阅搜索](#search-for-card-content) 卡片内容。|
 |聊天链接 | 是 | |
-|聊天消息 | 是 |这包括来自Teams、1：1 聊天、1：N 群组聊天以及与来宾用户参与者聊天的内容。  |
+|聊天消息 | 是 |这包括以下Teams中的内容、1：1 聊天、1：N 群组聊天，以及与来宾用户参与者的聊天。  |
 |代码片段 | 否 | |
 |已编辑的消息 | 是 | 如果用户保持保留状态，也会保留以前版本的已编辑消息。 |
 |表情符号、GIF 和贴纸 | 是 | |
 |内联图像 | 是 | |
 |会议 IM 对话 | 是 | |
 |会议元数据<sup>1</sup> | 是 |  |
-|频道名称 | 否 | |
+|频道名称 | 不支持 | |
 |专用频道消息 | 是 | |
 |引号 | 是 | 引用的内容可搜索。 但是，搜索结果并不指示内容已引用。 |
-|反应 (，如点点子、心声和其他反应)  | 否 | |
+|反应 (，如喜欢、心声和其他反应)  | 不支持 | |
 |主题 | 是 | |
 |表 | 是 | |
-|源通知 | 否 | |
+|源通知 | 不支持 | |
 |||
 
-<sup>1</sup> 会议 (和) 元数据包括以下内容：
+<sup>1</sup> 会议 (呼叫) 元数据包括以下内容：
 
 - 会议开始时间和结束时间以及持续时间
 - 每个参与者的会议加入和离开事件
@@ -80,7 +80,7 @@ ms.locfileid: "58733881"
 
 有关执行电子数据展示调查的信息，请参阅核心 [电子数据展示入门](/microsoft-365/compliance/get-started-core-ediscovery)。
 
-Microsoft Teams电子数据展示导出输出中，Excel IM 或对话。 导出邮件 `.pst` 后，Outlook打开文件以查看这些邮件。
+Microsoft Teams电子数据展示导出输出中，数据Excel IM 或对话。 导出邮件 `.pst` 后，Outlook打开文件以查看这些邮件。
 
 查看团队的 .pst 文件时，所有对话都位于"对话历史记录"下的"团队聊天"文件夹中。 消息的标题包含团队名称和频道名称。 例如，下图显示了 Bob 发来的消息，他向制造规范Project 7 标准频道发送消息。
 
@@ -92,7 +92,7 @@ Microsoft Teams电子数据展示导出输出中，Excel IM 或对话。 导出�
 
 在私人频道中发送的消息记录将传递到所有私人频道成员的邮箱，而不是传递到组邮箱。 记录的标题已格式化为指示它们是从哪个私人频道发送的。
 
-由于每个专用频道都有自己的SharePoint网站，与父团队网站分开，因此专用频道中的文件独立于父团队进行管理。
+由于每个专用频道都有自己的SharePoint网站，独立于父团队网站，因此专用频道中的文件独立于父团队进行管理。
 
 Teams不支持对团队中的单个频道进行电子数据展示搜索，因此必须搜索整个团队。 若要在专用频道中对内容执行电子数据展示搜索，请在整个团队中搜索与专用频道关联的网站集 (以包含文件) ，以及专用频道成员 (的邮箱以包含消息) 。
 
@@ -102,26 +102,28 @@ Teams不支持对团队中的单个频道进行电子数据展示搜索，因此
 
 执行这些步骤之前，请安装[SharePoint Online 命令行管理程序并连接到 SharePoint Online。](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
 
-1. 运行以下代码，获取与SharePoint频道关联的所有网站集的列表。
+1. 运行以下代码，获取与SharePoint专用频道关联的所有网站集的列表。
 
     ```PowerShell
     Get-SPOSite
     ```
 
-2. 运行以下 PowerShell 脚本，获取与团队中专用SharePoint关联的所有网站集 URL 的列表，以及父团队组 ID。
+2. 运行以下 PowerShell 脚本，获取与SharePoint专用频道关联的所有网站集 URL 的列表，以及父团队组 ID。
 
     ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
     foreach ($site in $sites) {$x= get-sposite -identity $site.url -detail; $x.relatedgroupID; $x.url}
     ```
 
-3. 对于每个团队或组 ID，请运行以下 PowerShell 脚本来标识所有相关的专用频道网站，其中$groupID是团队的组 ID。
+3. 对于每个团队或组 ID，请运行以下 PowerShell 脚本来标识所有相关的专用频道网站，其中 `$groupID` 是团队的组 ID。
 
     ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
     $groupID = "e8195240-4a70-4830-9106-80193cf717cb"
     foreach ($site in $sites) {$x= Get-SpoSite -Identity $site.url -Detail; if ($x.RelatedGroupId -eq $groupID) {$x.RelatedGroupId;$x.url}}
     ```
+> [!NOTE]
+> SharePoint 2021 年 6 月 28 日之后创建的专用频道的网站使用值 `teamchannel#1` 作为自定义模板 ID。 因此，对于在此日期之后创建的专用通道，在运行前两个脚本时 `teamchannel#1` 请使用 值。
 
 ### <a name="include-private-channel-messages-in-an-ediscovery-search"></a>在电子数据展示搜索中包括私人频道消息
 
@@ -143,13 +145,13 @@ Teams不支持对团队中的单个频道进行电子数据展示搜索，因此
 
 ## <a name="search-for-content-for-guest-users"></a>搜索来宾用户的内容
 
-可以使用电子数据展示工具搜索Teams来宾用户的相关内容。 Teams与来宾用户关联的聊天内容保存在基于云的存储位置，并且可以使用电子数据展示进行搜索。 这包括在 1：1 和 1：N 聊天对话中搜索内容，其中来宾用户是组织中其他用户的参与者。 还可以搜索来宾用户是参与者的私人频道消息，并搜索来宾 *：* 来宾聊天对话中仅参与者是来宾用户的内容。
+可以使用电子数据展示工具搜索Teams来宾用户相关的内容。 Teams与来宾用户关联的聊天内容将保留在基于云的存储位置，并且可以使用电子数据展示进行搜索。 这包括在 1：1 和 1：N 聊天对话中搜索内容，其中来宾用户是组织中其他用户的参与者。 还可以搜索来宾用户是参与者的私人频道消息，并搜索来宾 *：* 来宾聊天对话中仅参与者是来宾用户的内容。
 
 搜索来宾用户的内容：
 
-1. 连接 Azure AD PowerShell。 有关说明，请参阅使用[PowerShell](/microsoft-365/enterprise/connect-to-microsoft-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)连接"Azure Active Directory PowerShell 连接"Microsoft 365部分。 请务必完成上一主题中的步骤 1 和步骤 2。
+1. 连接 PowerShell Azure AD。 有关说明，请参阅连接 PowerShell Azure Active Directory中的"连接[powerShell](/microsoft-365/enterprise/connect-to-microsoft-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)Microsoft 365部分。 请务必完成上一主题中的步骤 1 和步骤 2。
 
-2. 成功连接到 Azure AD PowerShell 后，运行以下命令，显示组织中所有来宾 (UPN) 用户名称。 在步骤 4 创建搜索时，必须使用来宾用户的 UPN。
+2. 成功连接到 powerShell Azure AD，请运行以下命令，显示组织中所有来宾用户 (UPN) 用户主体名称。 在步骤 4 创建搜索时，必须使用来宾用户的 UPN。
 
    ```powershell
    Get-AzureADUser -Filter "userType eq 'Guest'" -All $true | FL UserPrincipalName
@@ -158,7 +160,7 @@ Teams不支持对团队中的单个频道进行电子数据展示搜索，因此
    > [!TIP]
    > 可以将命令的输出重定向到文本文件，而不是在计算机屏幕上显示用户主体名称列表。 为此，可以追加到上 `> filename.txt` 一命令。 包含用户主体名称的文本文件将保存到当前文件夹。
 
-3. 在"安全Windows PowerShell窗口中，连接到安全&中心 PowerShell。 有关说明，请参阅连接[安全&中心 PowerShell。](/powershell/exchange/connect-to-scc-powershell) 可以使用或无需使用多重身份验证进行连接。
+3. 在不同的安全Windows PowerShell，连接到安全&中心 PowerShell。 有关说明，请参阅连接[安全&中心 PowerShell。](/powershell/exchange/connect-to-scc-powershell) 可以使用或无需使用多重身份验证进行连接。
 
 4. 通过运行以下命令，创建内容搜索 (搜索所有内容，例如聊天消息) 指定来宾用户是参与者的电子邮件。
 
@@ -198,9 +200,9 @@ Teams不支持对团队中的单个频道进行电子数据展示搜索，因此
 
 与其他Teams一样，卡内容的存储位置取决于卡的使用位置。 在组邮箱中Teams卡片的内容存储在Teams邮箱中。 1：1 和 1xN 聊天的卡内容存储在聊天参与者的邮箱中。
 
-若要搜索卡片内容，可以使用 `kind:microsoftteams` 或 `itemclass:IPM.SkypeTeams.Message` 搜索条件。 查看搜索结果时，Teams 通道中机器人生成的卡内容将发件人 **/** 作者电子邮件属性作为 ，其中 是生成卡内容 `<appname>@teams.microsoft.com` `appname` 的应用的名称。 如果卡内容是由用户生成的，则"发件人/作者 **"的值将** 标识该用户。
+若要搜索卡片内容，可以使用 `kind:microsoftteams` 或 `itemclass:IPM.SkypeTeams.Message` 搜索条件。 查看搜索结果时，Teams 通道中的机器人生成的卡内容将发件人 **/** 作者电子邮件属性作为 ，其中 是生成卡内容 `<appname>@teams.microsoft.com` `appname` 的应用的名称。 如果卡内容是由用户生成的，则"发件人/作者 **"的值将** 标识该用户。
 
-在内容搜索结果中查看卡片内容时，内容显示为邮件的附件。 附件名为 `appname.html` ，其中 `appname` 是生成卡内容的应用的名称。 以下屏幕截图显示名为 Asana (应用的卡内容) 显示在Teams和搜索结果中。
+在内容搜索结果中查看卡片内容时，内容显示为邮件的附件。 附件名为 `appname.html` ，其中 `appname` 是生成卡内容的应用的名称。 以下屏幕截图显示名为 Asana (应用的卡片内容) 显示在Teams和搜索结果中。
 
 **卡片内容Teams**
 
