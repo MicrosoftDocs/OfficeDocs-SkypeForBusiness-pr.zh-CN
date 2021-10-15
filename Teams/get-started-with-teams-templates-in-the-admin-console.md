@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 636cd41a6107f8fb43b42a6118b8ead9d2b754ef
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: 1f51c262e26613cf29a7dd2883afbf1cc6871b26
+ms.sourcegitcommit: d23185cf6caeeeb055c36609e7c788a2b2e8d07d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60045568"
+ms.lasthandoff: 10/15/2021
+ms.locfileid: "60367514"
 ---
 # <a name="get-started-with-team-templates-in-the-teams-admin-center"></a>在管理中心内开始使用 Teams 模板
 
@@ -41,7 +41,7 @@ Microsoft Teams模板是围绕业务需求或项目设计的团队结构的定�
 本文概述了在管理中心内使用Teams模板。 你将了解模板支持的属性、我们提供的预建模板、模板大小限制、如何创建和管理模板等。
 
 > [!NOTE]
-> 用户可以从[应用内预建或自定义](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c)团队模板创建Teams团队。 开发人员还可使用 Microsoft Graph 通过预先构建的团队模板以编程方式创建团队。 有关详细信息，请参阅开始使用 Microsoft Graph[的团队模板](get-started-with-teams-templates.md)。
+> 用户可以通过[预建的或自定义的团队模板](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c)在 Teams创建团队。 开发人员还可使用 Microsoft Graph 以编程方式从预建的团队模板创建团队。 若要了解有关详细信息，请参阅[开始使用 Microsoft Graph 的团队模板](get-started-with-teams-templates.md)。
 
 ## <a name="team-template-capabilities"></a>团队模板功能
 
@@ -61,9 +61,9 @@ Microsoft Teams模板是围绕业务需求或项目设计的团队结构的定�
 > [!NOTE]
 > 我们将在将来的 Microsoft Teams 版本中添加更多模板功能，因此请返回查看有关受支持属性的最新版本信息。
 
-## <a name="pre-built-team-templates-in-the-teams-admin-center"></a>在管理中心内预先构建Teams模板
+## <a name="pre-built-team-templates-in-the-teams-admin-center"></a>在管理中心内预构建Teams模板
 
-下面是在管理中心内提供的预建Teams模板。 预构建模板是我们为特定行业创建的模板。 若要查看这些模板，在管理中心左侧导航Teams，转到"Teams  >  **模板"。**
+以下是在管理中心内提供的预建Teams模板。 预构建模板是我们为特定行业创建的模板。 若要查看这些模板，在管理中心左侧导航Teams，转到"Teams  >  **模板"。**
 
 可以复制预构建的模板，但不能编辑它们。 如果要更改预构建模板中的属性，可以从现有模板创建新模板，然后添加或删除需要的属性。 请记住，某些模板中的某些属性无法更改。
 
@@ -108,7 +108,7 @@ Microsoft Teams模板是围绕业务需求或项目设计的团队结构的定�
 |每个模板的应用数 | 50|
 |||
 
-有关详细信息，请参阅限制[和Teams。](limits-specifications-teams.md)
+有关详细信息，请参阅 Teams 的限制[和Teams。](limits-specifications-teams.md)
 
 ## <a name="manage-team-templates"></a>管理团队模板
 
@@ -128,7 +128,7 @@ Microsoft Teams模板是围绕业务需求或项目设计的团队结构的定�
 
 #### <a name="apply-team-template-policies"></a>应用团队模板策略
 
-若要控制用户在创建团队时Teams模板，可以设置模板策略并将其[](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)分配给组织的用户和组。 若要了解有关详细信息，请参阅管理中心 中的[Teams模板](templates-policies.md)。
+若要控制用户在创建团队时Teams模板，可以设置模板策略并将其[](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)分配给组织的用户和组。 若要了解有关详细信息，请参阅管理中心[中的Teams模板](templates-policies.md)。
 
 ### <a name="manage-team-templates-using-powershell"></a>使用 PowerShell 管理团队模板
 
@@ -142,5 +142,6 @@ Microsoft Teams模板是围绕业务需求或项目设计的团队结构的定�
 
 ## <a name="related-articles"></a>相关文章
 
-- [从模板创建团队](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)
+- [基于模板创建团队](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)
 - [开始使用 Microsoft Graph 的团队模板](get-started-with-teams-templates.md)
+- [克隆团队](/graph/api/team-clone?view=graph-rest-1.0&tabs=http)
