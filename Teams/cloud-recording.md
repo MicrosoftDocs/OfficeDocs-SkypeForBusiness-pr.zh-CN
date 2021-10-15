@@ -19,12 +19,12 @@ description: 在 Teams 中部署云语音功能的实用指南，用于记录 Te
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 22d57e349d22deb6d40227ba15d73a7958bad894
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: 9bdf14874765a8cd67f0ea7ffcfdcb05358b061b
+ms.sourcegitcommit: 31da77589ac82c43a89a9c53f2a2de5ab52f93c0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432434"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "60356446"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 云会议录制
 
@@ -147,7 +147,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -ChannelRecordingDownload Block
 此设置控制播放会议录制内容期间是否提供字幕和转录功能。 如果将其关闭，则在播放会议录制内容期间“**搜索**”和“**CC**”选项将不可用。 启动录制的人员需要打开此设置，以便录制内容也包含脚本。
 
 > [!NOTE]
-> 录制会议转录功能目前仅支持在 Teams 中语言设置为英语，以及在会议中使用英语的用户。 它们与会议录制内容一起存储在 OneDrive for Business 和 SharePoint Online 云存储中。
+> 录制会议的转录目前仅支持英语（美国）、英语（加拿大）、英语（印度）、英语（英国）、英语（澳大利亚）、英语（新西兰）、德语（德国）、葡萄牙语（巴西）、荷兰语（荷兰）、荷兰语（比利时）、法语（法国）、西班牙语（西班牙）、日语（日本）、法语（加拿大）、中文（粤语、繁体）、中文（普通话、简体）、印地语（印度）、意大利语（意大利）、韩语（韩国）、西班牙语（墨西哥）、瑞典语（瑞典）、波兰语（波兰）、阿拉伯语（阿拉伯联合酋长国）、阿拉伯语（沙特阿拉伯）、丹麦语（丹麦）、芬兰语（芬兰）、挪威语（挪威）和俄语（俄罗斯）。 它们与会议录制内容一起存储在 OneDrive for Business 和 SharePoint Online 云存储中。
 
 你可以使用 Microsoft Teams 管理中心或 PowerShell 来设置 Teams 会议策略，以控制录制发起人是否可以选择转录会议录制。
 
@@ -309,7 +309,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 **管理员如何更改到期日期？**
   
-在此功能发布之前，管理员将能够在 PowerShell (Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays) 或 Teams 管理中心更改默认过期设置。 **该设置尚不可修改**。 当设置可供修改时，我们将发布更新的消息中心帖子。 当启动功能时，管理员可以在 Teams 管理中心更改此设置。 更改到期设置只会影响从该时间点开始新建的 TMR。 这不会影响在该日期之前进行的任何录制。 
+在功能发布之前，管理员将能够在 PowerShell 或 Teams 管理中心更改默认过期设置。 **该设置尚不可修改**。 当设置可供修改时，我们将发布更新的消息中心帖子。 当启动功能时，管理员可以在 Teams 管理中心更改此设置。 更改到期设置只会影响从该时间点开始新建的 TMR。 这不会影响在该日期之前进行的任何录制。 
 
 过期天数值可设置如下：
   
@@ -411,7 +411,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 将来对 Teams 中脚本和录制内容之间的链接所做的任何更改都将在此处和消息中心通知中进行阐明。 如果将来进行任何更改，我们将确保录制时间 不到 60 天的录制文件可以将会议的脚本显示为字幕。
 
 > [!NOTE]
-> 将提供仅限英语的隐藏式字幕（会议听录在 GCC 中尚不可用）。
+> 会议转录在 GCC 中尚不可用。
 
 ## <a name="ediscovery-and-compliance-for-meeting-recordings"></a>会议录制的电子数据展示和合规性
 
