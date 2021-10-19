@@ -15,16 +15,16 @@ ms.collection:
 - M365-collaboration
 description: 了解如何开发和执行持续维护和操作，以确保Microsoft Teams 会议室系统可供用户使用。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4ee508c923b3241be3ecf6b9fc3234f934153888
-ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
+ms.openlocfilehash: 406f083f41b0d07f6cafff273de071f11d0f2e94
+ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "59984667"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60462306"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>管理 Microsoft Teams 会议室
 
-如果组织中Microsoft Teams 会议室设备，则有灵活的管理选项。  可以在管理所有 Teams 解决方案（Microsoft Teams 管理中心）的同一中心位置自己管理设备，或者可以使用 Microsoft Teams 会议室 托管服务 将管理责任[转移给Microsoft Teams 会议室专家](https://portal.rooms.microsoft.com)。  还可以将管理访问权限委派给所选择的合作伙伴，以选择任一选项。
+如果组织中Microsoft Teams 会议室设备，则有灵活的管理选项。  可以在管理所有解决方案Teams管理中心Microsoft Teams的同一中心位置自己管理设备，或者可以使用 Microsoft Teams 会议室 托管服务 将管理责任转移[给Microsoft Teams 会议室专家](https://portal.rooms.microsoft.com)。  还可以将管理访问权限委派给所选择的合作伙伴，以选择任一选项。
 
 使用Microsoft Teams管理中心，可以：
 
@@ -34,7 +34,7 @@ ms.locfileid: "59984667"
 - 查看当前和过去的会议活动 (，例如有关呼叫质量、网络运行状况和连接的详细信息，以及会议参与者) 
 - 查看连接到 (会议室设备) 摄像头Microsoft Teams投影仪等外围设备
 
-若要管理Teams 会议室，请打开 Microsoft Teams [管理中心，](https://admin.teams.microsoft.com)并转到"Teams **设备**  >  **Teams 会议室"**。
+若要管理Teams 会议室，请打开 Microsoft Teams [管理中心并](https://admin.teams.microsoft.com)转到"Teams **设备Teams 会议室"**  >  。
 
 :::image type="content" source="../media/teams-rooms-summary.png" alt-text="Teams 会议室管理中心Teams摘要页面。":::
 
@@ -61,11 +61,11 @@ ms.locfileid: "59984667"
 | 设置                                                      | 接受的值                                        | 支持批量编辑 |
 |--------------------------------------------------------------|--------------------------------------------------------|--------------------|
 | *帐户*                                                    |                                                        |                    |
-| **电子邮件**                                                    | 电子邮件地址                                          | 弱                 |
+| **电子邮件**                                                    | 电子邮件地址                                          | 否                 |
 | **支持的会议模式**                                   | Skype for Business (默认) Microsoft Teams<br>Skype for Business和Microsoft Teams (默认) <br>Skype for Business仅|是|
 | **新式身份验证**                                    | 开<br>关闭                                              | 是                |
-| **Exchange地址**                                         | 电子邮件地址                                          | 弱                 |
-| **域\用户名 (可选)**                               | 帐户域和用户名                           | 弱                 |
+| **Exchange地址**                                         | 电子邮件地址                                          | 否                 |
+| **域\用户名 (可选)**                               | 帐户域和用户名                           | 否                 |
 | **配置域**                                         | 逗号分隔列表                                   | 是                |
 | *会议*                                                   |                                                        |                    |
 | **自动屏幕共享**                                 | 开<br>关闭                                              | 是                |
@@ -78,16 +78,38 @@ ms.locfileid: "59984667"
 | **发送有反馈的日志**                                  | 开<br>关闭                                              | 是                |
 | **日志和反馈的电子邮件地址**                      | 电子邮件地址                                          | 是                |
 | *外围设备*                                                |                                                        |                    |
-| **会议麦克风**                                  | 可用麦克风列表                          | 弱                 |
-| **会议发言人**                                     | 可用发言人列表                             | 弱                 |
-| **默认卷**                                           | 0-100                                                  | 弱                 |
-| **默认扬声器**                                          | 可用发言人列表                             | 弱                 |
-| **默认卷**                                           | 0-100                                                  | 弱                 |
-| **内容相机**                                           | 可用相机列表                              | 弱                 |
-| **内容相机增强功能**                              | 开<br>关闭                                              | 弱                 |
-| **将内容相机旋转 180 度**                        | 开<br>关闭                                              | 弱                 |
+| **会议麦克风**                                  | 可用麦克风列表                          | 否                 |
+| **会议发言人**                                     | 可用发言人列表                             | 否                 |
+| **默认卷**                                           | 0-100                                                  | 否                 |
+| **默认扬声器**                                          | 可用发言人列表                             | 否                 |
+| **默认卷**                                           | 0-100                                                  | 否                 |
+| **内容相机**                                           | 可用相机列表                              | 否                 |
+| **内容相机增强功能**                              | 开<br>关闭                                              | 否                 |
+| **将内容相机旋转 180 度**                        | 开<br>关闭                                              | 否                 |
 | *"进行"。*                                                    |                                                        |                    |
 |                                                              | 默认值<br>无主题<br>自定义<br>内置主题列表   | 是                |
+
+## <a name="cortana-settings"></a>Cortana设置 
+可以使用 PowerShell 为Cortana或每个设备分别启用语音激活或推送交谈功能。 
+-   在组织和组级别，必须使用 PowerShell。
+-   在设备级别，有几个选项。 可以使用 PowerShell、编辑 XML 配置文件或更改管理中心Teams设置。 
+
+若要了解有关使用 PowerShell 配置 Cortana，请参阅管理控件和 Cortana [Teams。](/microsoftteams/cortana-in-teams#admin-control-and-limitations)
+
+若要详细了解如何配置使用 XML 配置文件的设备，请参阅使用 XML 配置文件Microsoft Teams 会议室[远程管理主机设置](/microsoftteams/rooms/xml-config-file#manage-console-settings-with-an-xml-configuration-file)。
+
+在设备级别，可以配置Cortana以下操作：
+- _使用_ PowerShell 进行推送交谈  
+  - 如何打开它：Cortana为使用区域设置的所有设备启用"推送到交谈"功能，而不考虑地理区域
+  - 如何将其关闭：使用 Powershell。 
+- _使用_ XML 配置文件或管理中心Teams语音激活。
+  - 如何打开它：在 `<CortanaWakeWord>true</>` XML 配置文件中设置或使用管理中心Teams设置
+  - 如何将其关闭：Cortana语音激活关闭 
+  
+  请记住，必须满足三个条件，Cortana _语音_ 激活：
+    1. 组织必须已启用Cortana
+    2. 设备必须设置以下区域设置之一：en-au、en-ca、en-gb、en-in、en-us
+    3. 您必须有一个Cortana设备连接到您的 Teams 会议室[了解更多信息](/microsoftteams/cortana-in-teams)   
 
 ### <a name="device-restart-options"></a>设备重启选项
 
@@ -118,17 +140,17 @@ ms.locfileid: "59984667"
 
 若要将日志从Teams 会议室下载到计算机，请执行下列操作：
 
-1. 转到 **Teams设备**  >  **Teams 会议室，** 然后选择想要从其中下载日志的设备的名称。
+1. 转到 **Teams设备**  >  **Teams 会议室，** 选择要从其中下载日志的设备的名称。
 1. 选择 **"下载设备日志"。** 设备日志可能需要几分钟才能可用。
 1. 选择" **历史记录"** 选项卡，然后选择日志文件文件 **下的"历史记录"链接**。 包含设备的诊断日志文件的 zip 文件将下载到浏览器的默认 Downloads 文件夹。
 
 ## <a name="view-device-information"></a>查看设备信息
 
-在Teams管理中心中，可以查看组织中所有设备的总体状态，并单独查看每个设备的详细信息。
+从Teams管理中心，可以查看组织中所有设备的总体状态，并单独查看每个设备的详细信息。
 
 ### <a name="teams-rooms-system-dashboard"></a>Teams 会议室系统仪表板
 
-"Teams 会议室"系统仪表板一目了然地显示所有设备的状态和运行状况。
+系统Teams 会议室仪表板一目了然地显示所有设备的状态和运行状况。
 
 ### <a name="device-details-view"></a>设备详细信息视图
 
@@ -136,8 +158,8 @@ ms.locfileid: "59984667"
 
 - **运行状况** 显示会议室设备Teams运行状况。 运行状况状态可以是"正常 **"或**"**不正常"。**
 - **脱机，因为** 显示上次Microsoft 365设备通信的时间。
-- **设备状态** 显示设备的当前状态：空闲、Teams、Skype **会议** 或 **"正在"。** 
-- **外围设备** 显示连接到会议室设备Teams外围设备及其运行状况。 运行状况状态可以是"已连接 **"或**"已 **断开连接"。**
+- **设备状态** 显示设备的当前状态：**空闲****、Teams、Skype****会议** 或 **"正在"。**
+- **外围设备** 显示连接到您的会议室Teams外围设备及其运行状况。 运行状况状态可以是"已连接 **"或**"已 **断开连接"。**
 - **运行状况** 显示有关连接到您的 Teams 会议室设备、网络连接、所需服务的登录状态和软件版本信息的详细信息。
 - **详细信息** 显示制造商信息、网络 IP 地址和Teams设备串行/MAC 地址。
 - **活动** 显示过去的会议详细信息，包括会议日期和时间、参与者数、持续时间和音频质量。 有关会议详细信息的详细信息， [请参阅本文稍后](#meeting-activity-details) 的"会议活动详细信息"部分。
@@ -145,7 +167,7 @@ ms.locfileid: "59984667"
 
 #### <a name="meeting-activity-details"></a>会议活动详细信息
 
-"**会议室** Teams详细信息中的"活动"选项卡显示有关设备随着时间的推移参与的所有会议的高级别和详细信息。 在 **"活动** "选项卡中，可以看到会议举行时间、与会者数以及会议期间的音频质量。
+"**会议室** Teams详细信息中的"活动"选项卡显示设备随着时间的推移参与的所有会议的高级别和详细信息。 在 **"活动** "选项卡中，可以看到会议举行时间、与会者数以及会议期间的音频质量。
 
 :::image type="content" source="../media/teams-rooms-meeting-activity-summary.png" alt-text="Teams会议室设备活动摘要列表。":::
 
@@ -159,6 +181,6 @@ ms.locfileid: "59984667"
 
 ##### <a name="participant-details"></a>参与者详细信息
 
-参与者详细信息页显示该参与者会话的端到端诊断信息。 如下图所示，为参与者和设备提供了设备、系统和Teams 会议室信息。  **此外**，还提供了参与者与Teams 会议室之间的网络诊断信息。 选择要了解详细信息的上下文的图标。 有关其他诊断信息，请选择"高级 **"** 选项卡。
+参与者详细信息页显示该参与者会话的端到端诊断信息。 如下图所示，**为** 参与者和设备提供了设备、系统和Teams 会议室信息。 **此外**，还提供了参与者与Teams 会议室之间的网络诊断信息。 选择要了解详细信息的上下文的图标。 有关其他诊断信息，请选择"高级 **"** 选项卡。
 
 :::image type="content" source="../media/teams-rooms-meeting-activity-participant-details.png" alt-text="Teams会议室设备呼叫详细信息。":::

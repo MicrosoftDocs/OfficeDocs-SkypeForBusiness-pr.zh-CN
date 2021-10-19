@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 了解如何监视和排查直接路由配置问题，包括会话边界控制器、直接路由组件和电信中继。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: aeff22bf3558c64111f0d1b66c2fd76288f81477
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 97bc8afb3645fca4e06b859b765dfbf1e3fe1859
+ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726881"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60462316"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>对直接路由进行监视和故障排除
 
@@ -37,6 +37,19 @@ ms.locfileid: "58726881"
 如果难以排查问题，可以与 SBC 供应商或 Microsoft 建立支持案例。 
 
 Microsoft 正在努力提供更多用于故障排除和监视的工具。 请定期查看文档了解更新。 
+
+## <a name="direct-routing-diagnostic-tool"></a>直接路由诊断工具
+
+如果你是管理员，可以使用以下诊断工具验证是否正确为用户配置了直接路由：
+
+1. 选择 **下面的"** 运行测试"，这将在 Microsoft 365 管理 中填充诊断。 
+
+   > [!div class="nextstepaction"]
+   > [运行测试：直接路由](https://aka.ms/TeamsDirectRoutingDiag)
+
+2. 在"运行诊断"窗格中，在"用户名"或"电子邮件"字段中输入要测试的用户的电子邮件，然后选择"**运行测试"。**
+
+3. 测试将返回解决任何租户、用户或策略配置的最佳下一步，以验证用户是否正确配置了直接路由Microsoft Teams。
 
 ## <a name="monitoring-availability-of-session-border-controllers-using-session-initiation-protocol-sip-options-messages"></a>使用会话启动协议监视会话边界控制器的可用性 (SIP) 选项消息
 
@@ -60,13 +73,13 @@ Microsoft 正在努力提供更多用于故障排除和监视的工具。 请定
 
 直接路由采用常规间隔选项三次 (常规间隔为一分钟) 。 如果在过去三分钟内发送了选项，则 SBC 被视为正常。
 
-如果示例中的 SBC 在上午 11：12 和上午 11：15 之间的任意时间段发送了选项 (则调用) 被视为正常。 如果没有，SBC 将从路由降级。 
+如果示例中的 SBC 在上午 11：12 到上午 11：15 之间发送了选项 (则调用) 被视为正常。 如果没有，SBC 将从路由降级。 
 
 降级意味着不会先尝试 SBC。 例如，我们有一 sbc1.contoso.com sbc2.contoso.com 优先级的优先级。  
 
-如果 sbc1.contoso.com 如前文所述定期发送 SIP 选项，则将其降级。 接下来，sbc2.contoso.com 尝试进行调用。 如果 sbc2.contoso.con 无法传递调用，则 sbc1.contoso.com (降级) 重试，然后再生成失败。 
+如果 sbc1.contoso.com 如前面所述定期发送 SIP 选项，则将其降级。 接下来，sbc2.contoso.com 尝试进行调用。 如果 sbc2.contoso.con 无法传递调用，sbc1.contoso.com (降级) 重试，然后再生成失败。 
 
-如果一个 (两) 个 SDC 被视为正常且相等，Fisher-Yates随机执行以在 SDC 之间分配调用。
+如果一 (两) 个 SDC 被视为正常且相等，Fisher-Yates随机选择以在 SDC 之间分配调用。
 
 ## <a name="monitor-call-quality-analytics-dashboard-and-sbc-logs"></a>监视呼叫质量分析仪表板和 SBC 日志 
  

@@ -16,20 +16,18 @@ appliesto:
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
-description: 了解如何在管理中心为组织添加、更改或删除紧急Microsoft Teams位置。
+description: 了解如何在管理中心内为组织添加、更改或删除紧急Microsoft Teams位置。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 0f61a16caa40a1470031ec5f680d529522d49c1d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2bf3e2fad1ee0f0182e2b3a25f2be78f5ef68823
+ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629374"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60465962"
 ---
 # <a name="add-change-or-remove-a-place-for-an-emergency-location-in-your-organization"></a>在组织中添加、更改或删除紧急位置的地点
 
 根据组织中物理位置的数量，您可以为建筑物、楼层和办公室添加位置，以创建更具体的紧急位置。 有关详细信息 [，请参阅管理](what-are-emergency-locations-addresses-and-call-routing.md) 紧急呼叫。
-  
-若要了解如何获取通话套餐及其费用，请参阅Teams[附加许可。](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 
 在安全管理中心或 PowerShell 中Microsoft Teams组织的紧急位置。
   

@@ -1,5 +1,5 @@
 ---
-title: 数据中的信息Microsoft Teams
+title: 数据中Microsoft Teams
 description: 本文介绍数据中的信息屏障Microsoft Teams如何影响Teams。
 author: robmazz
 ms.author: robmazz
@@ -16,16 +16,16 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e829cb078ee334c36c69aa489c9dec6f3c5eaa10
-ms.sourcegitcommit: 5eb5acd7910724f7f4a598ecc28b003e5bbe5ea5
+ms.openlocfilehash: b0843ce2adf400dca9cf426789adc6180daf3f57
+ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "60007782"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60465842"
 ---
-# <a name="information-barriers-in-microsoft-teams"></a>数据中的信息Microsoft Teams
+# <a name="information-barriers-in-microsoft-teams"></a>数据中Microsoft Teams
 
-信息屏障 (数据库) 管理员可以配置策略，以防止个人或组相互通信。 例如，如果一个部门正在处理不应与其他部门共享的信息，则 IB 非常有用。 当需要隔离或阻止组与该组外部的任何人通信时，数据库也很有用。
+IB (信息) 是管理员可以配置的策略，以防止个人或组相互通信。 例如，如果一个部门正在处理不应与其他部门共享的信息，则 IB 非常有用。 当需要隔离或阻止组与该组外部的任何人通信时，数据库也很有用。
 
 例如Microsoft Teams，信息屏障可以确定并阻止以下类型的未经授权的协作：
 
@@ -37,7 +37,7 @@ ms.locfileid: "60007782"
 
 >[!NOTE]
 >- 无法跨租户创建信息屏障组。
->- 版本 1 Azure Active Directory (不支持使用Azure Active Directory (Azure AD) 应用、用于发送活动源通知的 API 以及用于添加用户的一些 API。
+>- 版本 1 不支持Azure Active Directory (Azure AD) 机器人、应用、API 发送活动源通知，以及用于添加用户的一些 API。
 >- 专用通道符合配置的信息屏障策略。
 >- 有关对连接到SharePoint网站的支持屏障Teams，请参阅与网站关联的[Microsoft Teams段](/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites)。
 
@@ -67,14 +67,14 @@ IB 的主要驱动因素来自金融服务行业。 金融行业监管局 ([FINR
 
 ## <a name="managing-information-barrier-policies"></a>管理信息屏障策略
 
-IB 策略在标准合规Microsoft 365 SCC (SCC) PowerShell cmdlet 进行管理。 有关详细信息，请参阅 [定义信息屏障的策略](/office365/securitycompliance/information-barriers-policies)。
+IB 策略使用 PowerShell cmdlet Microsoft 365 SCC (SCC) 管理。 有关详细信息，请参阅 [定义信息屏障的策略](/office365/securitycompliance/information-barriers-policies)。
 
 >[!IMPORTANT]
 >在设置或定义策略之前，必须在目录中启用范围目录Microsoft Teams。 启用作用域目录搜索后，请至少等待几个小时，然后设置或定义信息屏障的策略。 有关详细信息，请参阅 [定义信息屏障策略](/office365/securitycompliance/information-barriers-policies#prerequisites)。
 
 ## <a name="information-barriers-administrator-role"></a>信息屏障管理员角色
 
-IB 合规性管理角色负责管理 IB 策略。 有关此角色的信息，请参阅合规性中心[中Microsoft 365权限](/office365/securitycompliance/permissions-in-the-security-and-compliance-center)。
+IB 合规性管理角色负责管理 IB 策略。 有关此角色详细信息，请参阅安全合规Microsoft 365[中的权限](/office365/securitycompliance/permissions-in-the-security-and-compliance-center)。
 
 ## <a name="information-barrier-triggers"></a>信息屏障触发器
 
@@ -108,9 +108,9 @@ IB 合规性管理角色负责管理 IB 策略。 有关此角色的信息，请
 
     ![显示具有阻止设置的用户字符的屏幕截图。](media/ib-after-screen-share-policy.png)
 
-- 用户在 **Teams** 中发起电话呼叫：每当用户通过 VOIP) 向其他用户或用户组发起语音呼叫 (时，都会评估该呼叫，以确保它不会违反其他团队成员的 IB 策略。 如果存在任何冲突，语音呼叫将被阻止。
+- 用户在 **Teams** 中发起电话呼叫：每当用户通过 VOIP) 向另一个用户或用户组发起语音呼叫 (时，将评估该呼叫以确保它不会违反其他团队成员的 IB 策略。 如果存在任何冲突，语音呼叫将被阻止。
 
-- **来宾Teams：IB** 策略也适用于Teams中的来宾。 如果需要在组织的全局地址列表中发现来宾，请参阅管理组Microsoft 365[访问](/microsoft-365/admin/create-groups/manage-guest-access-in-groups)。 来宾可发现后，可以定义 [IB 策略](/office365/securitycompliance/information-barriers-policies)。
+- **来宾Teams：IB** 策略也适用于 Teams 中的来宾。 如果需要在组织的全局地址列表中发现来宾，请参阅在组Microsoft 365[访问](/microsoft-365/admin/create-groups/manage-guest-access-in-groups)。 来宾可发现后，可以定义 [IB 策略](/office365/securitycompliance/information-barriers-policies)。
 
 ## <a name="how-policy-changes-impact-existing-chats"></a>策略更改如何影响现有聊天
 
@@ -118,7 +118,7 @@ IB 合规性管理角色负责管理 IB 策略。 有关此角色的信息，请
 
 如果用户之间存在现有聊天或其他通信，并且设置了新策略或更改了现有策略，该服务将评估现有通信，以确保仍允许通信发生。 
 
-- **1：1** 聊天：如果由于向阻止通信的策略的一个或多个用户 (两个用户而不再允许两个用户之间的通信，则进一) 通信将被阻止。 他们现有的聊天对话将变为只读。
+- **1：1** 聊天：如果由于向阻止通信的策略的一个或两个用户应用了 (两个用户，因此不再允许两个用户之间的通信) 进一步通信将被阻止。 他们现有的聊天对话将变为只读。
 
     下面是显示聊天可见的示例。
 
@@ -150,7 +150,7 @@ IB 合规性管理角色负责管理 IB 策略。 有关此角色的信息，请
 
     ![屏幕截图Teams警告用户策略阻止显示其他用户的信息。](media/information-barriers-people-picker.png)
 
-- **"活动**"选项卡：如果用户访问被阻止用户的"活动"选项卡，则不显示任何帖子。 **("活动**"选项卡仅显示频道帖子，并且两个用户之间将不存在常见的) 
+- **"活动**"选项卡：如果用户访问被阻止用户的"活动"选项卡，则不显示任何帖子。 **("活动**"选项卡仅显示频道帖子，并且两个用户之间没有常见的频道。) 
 
     下面是被阻止的活动选项卡视图的示例。
 
@@ -180,9 +180,9 @@ IB 合规性管理角色负责管理 IB 策略。 有关此角色的信息，请
 
 ## <a name="teams-policies-and-sharepoint-sites"></a>Teams策略和SharePoint网站
 
-创建团队时，将预配SharePoint网站，并关联Microsoft Teams体验。 默认情况下，此信息屏障策略不SharePoint网站和文件。 若要在 SharePoint 和 OneDrive 中启用信息屏障，请遵循将信息屏障与 SharePoint[一文的指导和](/sharepoint/information-barriers#enable-sharepoint-and-onedrive-information-barriers-in-your-organization)步骤。
+创建团队时，将预配SharePoint网站，并关联Microsoft Teams体验。 默认情况下，此网站和文件SharePoint信息屏障策略。 若要在 SharePoint 和OneDrive中启用信息屏障，请遵循将信息屏障与 SharePoint 一文的指导[和](/sharepoint/information-barriers#enable-sharepoint-and-onedrive-information-barriers-in-your-organization)步骤。
 
-## <a name="information--barrier-modes-and-teams"></a>信息屏障模式Teams
+## <a name="information--barrier-modes-and-teams"></a>信息屏障模式和Teams
 
 信息屏障模式有助于增强可添加到团队或从团队中删除哪些人。 将信息屏障与 Teams时，支持以下 IB 模式：
 
@@ -191,7 +191,7 @@ IB 合规性管理角色负责管理 IB 策略。 有关此角色的信息，请
 
 Microsoft 365默认情况下，激活信息屏障策略之前创建的组会自动设置为 *"打开* 模式"。 在租户上激活 IB 策略后，需要更新模式，重新评估组和网站，导致不合规的用户自动从这些组和网站中删除。 如果需要更改现有已连接Teams 的组的开放模式配置以满足组织的合规性要求，则需要更新连接到 Teams 团队的 SharePoint 网站的[IB](/sharepoint/information-barriers.md#view-and-manage-IB-mode-as-an-administrator-with-SharePoint-PowerShell)模式。
 
-将 *Set-UnifiedGroup* cmdlet 与 *InformationBarrierMode* 参数一起使用，该参数对应于要用于段的模式。 *InformationBarrierMode* 参数的允许值列表为 *Open 和* *Implicit。*
+将 [Set-UnifiedGroup](/powershell/module/exchange/set-unifiedgroup) cmdlet 与 *InformationBarrierMode* 参数一起使用，该参数对应于要用于段的模式。 *InformationBarrierMode* 参数的允许值列表为 *Open 和* *Implicit。*
 
 例如，若要为组配置隐式Microsoft 365，请使用以下 PowerShell 命令：
 
@@ -200,13 +200,13 @@ Set-UnifiedGroup -InformationBarrierMode Implicit
 ```
 
 >[!NOTE]
->如果全局管理员将连接到 Microsoft Teams 隐式的现有 Microsoft 365 组的 IB 模式更新为 *隐式*，请确保将已连接Teams的 IB 模式更新为 *隐式*。 有关详细信息，请参阅 [信息屏障](/microsoft-365/compliance-information-barriers.md#information-barriers-modes-preview)入门 ]
+>如果全局管理员将连接到隐式 Microsoft 365 的现有 Microsoft 365 组的 IB 模式更新为 *"* 隐式"Microsoft Teams，请确保将已连接站点Teams IB 模式更新为 *"隐式"。* 有关详细信息，请参阅 [信息屏障](/microsoft-365/compliance-information-barriers.md#information-barriers-modes-preview)入门 ]
 
 有关用户如何自动从组中删除的详细信息，请参阅信息屏障合规性助手 ([预览版) ](/sharepoint/information-barriers-compliance-assistant) 文章。
 
 ## <a name="required-licenses-and-permissions"></a>所需的许可证和权限
 
-有关许可证和权限、计划和定价的详细信息，请参阅安全Microsoft 365安全许可&[指南](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)。
+有关许可证和权限、计划和定价的详细信息，请参阅Microsoft 365安全与合规[&指南](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)。
 
 ## <a name="known-issues"></a>已知问题
 
@@ -224,4 +224,4 @@ Set-UnifiedGroup -InformationBarrierMode Implicit
 ## <a name="availability"></a>可用性
 
 - 此功能在我们的公有云中可用;2021 年 1 月，我们在云中推出了GCC屏障。
-- 此功能尚未在云 - 高GCC DOD 云中提供。
+- 此功能尚未在云- 高GCC DOD 云中提供。

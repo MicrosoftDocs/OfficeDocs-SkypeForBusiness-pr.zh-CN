@@ -1,7 +1,7 @@
 ---
 title: 为用户分配或更改紧急位置
-author: cichur
-ms.author: v-cichur
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: jastark, roykuntz
 ms.topic: article
@@ -18,26 +18,32 @@ f1.keywords:
 - NOCSH
 description: 本文介绍了如何为组织中用户分配或更改紧急位置。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 36be65ef14cfe0fc97ce49dfa9227fe50daa18f1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5395c74bfab124cb1036d696dd3613c920bed1e9
+ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58588374"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60465782"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>为用户分配或更改紧急位置
 
-设置呼叫计划时，需要为每个电话号码或用户分配紧急位置。 在欧洲国家/地区，从 Microsoft 365 或 Office 365 获取电话号码时，或者将电话号码转移到 Microsoft 365 或 Office 365 时，紧急位置与电话号码相关联。 在美国，紧急位置与分配给用户的电话号码相关联。 如果分配紧急地址的用户移动到新位置，则紧急地址可能会更改。 有关紧急地址和位置的信息，请参阅什么是紧急位置、地点和[呼叫路由？。](./what-are-emergency-locations-addresses-and-call-routing.md)
-  
-若要了解如何获取通话套餐及其费用，请参阅Teams[附加许可。](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+**以下各项是否适用于所有 3 项？**
+
+**需要将紧急位置分配给每个电话号码或用户。有关紧急地址和位置详细信息，请参阅什么是紧急位置、地点和 [呼叫路由？。](./what-are-emergency-locations-addresses-and-call-routing.md)**
+
+**对于 Microsoft 呼叫计划，在其他国家/地区，紧急位置与电话号码相关联（从 Microsoft 365 或将电话号码转移到 Microsoft 365）。在美国，紧急位置与分配给用户的电话号码相关联。如果分配紧急地址的用户移动到新位置，则紧急地址可能会更改。**
+
+**对于运算符连接，...**
+
+**对于直接路由,...**
   
 可以在管理中心或 PowerShell 中为Microsoft Teams分配或更改紧急位置。
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 管理中心
 
-1. 在管理中心的左侧导航Microsoft Teams，单击 **"语音电话**  >  **号码"。**
+1. 在管理中心左侧导航Microsoft Teams，单击 **"语音电话**  >  **号码"。**
 
-2. 在 **"电话"页上**，单击"数字"选项卡，在列表中选择用户编号，然后单击"编辑 **"。**
+2. 在 **"电话"页面上**，单击"数字"选项卡，在列表中选择用户编号，然后单击"编辑 **"。**
 
 3. 在" **编辑** "窗格的 **"紧急位置"下**，执行下列操作之一：
 

@@ -18,22 +18,29 @@ f1.keywords:
 - NOCSH
 description: '了解如何在管理中心为组织添加、更改或删除紧急Microsoft Teams位置。 '
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 62604fc26f91baa77bd205869bbe4251d1a46a8a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e6523a3a3f19b2c3145bb6e89f47029c4d982ab1
+ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602297"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60465788"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>添加、 更改或删除您的组织紧急地点
 
-紧急位置必须与电话号码相关联，但发生这种情况时可能因国家和地区而异。 例如，在美国，你需要在将电话号码分配给用户时关联紧急位置。 在英国，当从 Microsoft 365 或 Office 365 获取电话号码或者从当前服务提供商转移电话号码时，需要将紧急位置与电话号码关联。
+**无论选择 [哪个 PSTN](pstn-connectivity.md)连接选项（Microsoft 呼叫计划、连接或直接路由）都可以将紧急位置与电话号码相关联。但是，根据 PSTN 连接选项，位置要求可能会有所不同。**
 
+**对于呼叫计划** ，紧急位置必须与电话号码相关联，但发生这种情况时，可能会因国家和地区而异。 例如，在美国，你需要在将电话号码分配给用户时关联紧急位置。 在英国，当你从你的提供商处获取电话号码或转移来自当前服务提供商的电话号码时Microsoft 365紧急位置与电话号码关联。
+
+**对于运算符连接，...**
+
+**对于直接路由...**
+
+**这是否适用于所有 3 个？**
 无论你位于哪个国家/地区，都可以向紧急位置添加位置并删除紧急位置。 根据组织中物理位置的数量，你可以为建筑物、楼层和办公室创建位置。 请参阅 [管理紧急呼叫](what-are-emergency-locations-addresses-and-call-routing.md)。
-  
-若要了解如何获取通话套餐及其费用，请参阅Teams[附加许可。](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 
-在管理中心或 PowerShell 中Microsoft Teams组织的紧急位置。
+在安全管理中心或 PowerShell 中Microsoft Teams组织的紧急位置。
+
+**要分配紧急位置，用户、电话号码和紧急位置全部需要位于同一国家/地区。**  有关详细信息，请参阅 [为用户分配或更改紧急位置](assign-change-emergency-location-user.md)。
   
 ## <a name="add-an-emergency-location"></a>添加紧急位置
 
@@ -45,7 +52,7 @@ ms.locfileid: "58602297"
 4. 选择国家/地区，然后输入地址。
 
    > [!NOTE]
-   > 在比利时、法国、德国、爱尔兰、荷兰以及西班牙，必须了解，若要在 Microsoft 365 或 Office 365 中成功激活电话号码，紧急位置中设置的地址（用于获取号码）必须与电话号码的区号匹配。
+   > 在比利时、法国、德国、爱尔兰、荷兰以及西班牙，必须了解，若要在 Microsoft 365 中成功激活电话号码，在紧急位置设置的地址（用于获取号码）必须与电话号码的区号匹配。
 
 5. 如果找不到地址，并且你想要手动编辑地址，请打开"手动 **编辑地址"。**
 6. 单击“**保存**”。

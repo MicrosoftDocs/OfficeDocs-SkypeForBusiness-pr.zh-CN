@@ -23,13 +23,13 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 - seo-marvel-apr2020
-description: 了解如何在 Microsoft Teams 中为大型组织设置呼叫队列，该队列提供问候消息、保留音乐、呼叫重定向和其他功能。
-ms.openlocfilehash: 073f1fa2fbc96ed78cddb6e16201476df2cafa96
-ms.sourcegitcommit: 99bf220249723e954cf5295df3418d93fec80db6
+description: 了解如何在 Microsoft Teams 中为大型组织设置呼叫队列，这些队列提供问候消息、保留音乐、呼叫重定向和其他功能。
+ms.openlocfilehash: 40dd229a94a92dde70cf50c0a2a3018dab19a9a0
+ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/12/2021
-ms.locfileid: "60275606"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60462347"
 ---
 # <a name="create-a-call-queue"></a>创建呼叫队列
 
@@ -58,7 +58,7 @@ ms.locfileid: "60275606"
 
 ## <a name="create-the-call-queue"></a>创建呼叫队列
 
-要设置呼叫队列，请在管理中心Teams"**语音**"，单击"呼叫 **队列**"，然后单击"添加 **"。**
+要设置呼叫队列，请在"Teams管理中心"中展开"语音"，单击"呼叫 **队列**"，然后单击"添加 **"。** 
 
 键入呼叫队列的名称。
 
@@ -66,7 +66,7 @@ ms.locfileid: "60275606"
 
 ![资源帐户设置的屏幕截图。](media/call-queue-name-language.png)
 
-单击 **"添加** 帐户"，搜索要用于此呼叫队列的资源帐户，单击"添加 **"，然后单击**"添加 **"。**  (代理收到传入呼叫时，会看到资源帐户名称。) 
+单击 **"添加** 帐户"，搜索要用于此呼叫队列的资源帐户，单击"添加 **"，然后单击**"添加 **"。**  (代理收到传入呼叫时会看到资源帐户名称。) 
 
 有关详细信息[，Teams管理](manage-resource-accounts.md)资源帐户。
 
@@ -105,9 +105,9 @@ Teams在队列中保持时向呼叫者提供默认音乐。 呼叫队列中提�
 
 ##### <a name="teams-channel"></a>Teams频道
 
-可以通过一个客户端通道添加多达 200 Teams代理。 请注意，您必须是团队的成员或频道的创建者或所有者，以将频道添加到队列。
+可以通过一个客户端通道最多添加 200 Teams代理。 请注意，您必须是团队的成员或频道的创建者或所有者，以将频道添加到队列。
 
-如果要使用 [频道管理Teams，](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)请选择"**选择团队"选项，** 然后单击"**添加频道"。** 搜索想要使用的团队，将其选中，然后单击"添加 **"。** 选择想要使用的频道， (仅支持标准) 然后单击"应用 **"。** 
+如果要使用 [频道管理Teams，](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)请选择"选择团队 **"选项，** 然后单击"**添加频道"。** 搜索想要使用的团队，将其选中，然后单击"添加 **"。** 选择想要使用的频道， (仅支持标准通道，然后单击) **应用"。** 
 
 使用呼叫队列的 Teams支持以下客户端： 
 
@@ -125,7 +125,7 @@ Teams在队列中保持时向呼叫者提供默认音乐。 呼叫队列中提�
 
 若要将用户添加到队列，请单击"**添加** 用户"，搜索该用户，单击"添加 **"，然后单击**"添加 **"。**
 
-若要将组添加到队列，请单击 **"添加组**"，搜索该组，单击"添加 **"，然后单击**"添加 **"。** 可以使用通讯组列表、安全组和Microsoft 365组或Microsoft Teams团队。
+若要将组添加到队列，请单击 **"添加组**"，搜索该组，单击"添加 **"，然后单击**"添加 **"。** 可以使用通讯组列表、安全组和Microsoft 365组Microsoft Teams团队。
 
 > [!NOTE]
 > 添加到组的新用户最多可能需要八个小时才能进行第一次呼叫。
@@ -136,7 +136,7 @@ Teams在队列中保持时向呼叫者提供默认音乐。 呼叫队列中提�
 
 **在** 代理接受呼叫后，会议模式可显著减少呼叫者连接到代理所花的时间。 若要使会议模式正常工作，呼叫队列中的代理必须使用以下客户端之一：
 
-  - 最新版本的 Microsoft Teams 桌面客户端、Android 应用或 iOS 应用
+  - 最新版本的桌面Microsoft Teams Android 应用或 iOS 应用
   - Microsoft Teams 电话版本 1449/1.0.94.2020051601 或更高版本
   
 代理Teams帐户需要设置为Teams模式。 不符合要求的代理不包括在呼叫路由列表中。 如果代理都使用兼容的客户端，建议为呼叫队列启用会议模式。
@@ -178,7 +178,7 @@ Teams在队列中保持时向呼叫者提供默认音乐。 呼叫队列中提�
 >
 > 如果未启用基于状态的路由，并且队列中有多个调用，系统将同时向代理显示这些调用，而不管代理的状态如何。 这会导致向代理发送多个呼叫通知，尤其是当某些代理不应答发送给代理的初始呼叫时。
 > 
-> 启用基于Skype for Business的路由时，使用客户端的代理不会包含在呼叫路由列表中。 如果代理使用 Skype for Business，请不要启用基于状态的呼叫路由。
+> 启用基于Skype for Business路由时，使用客户端的代理不会包含在呼叫路由列表中。 如果代理使用 Skype for Business，请不要启用基于状态的呼叫路由。
 
 > [!TIP]
 > 建议 **将基于状态路由设置为****"** 打开"。
@@ -229,7 +229,7 @@ Teams在队列中保持时向呼叫者提供默认音乐。 呼叫队列中提�
   - Android Skype for Business 客户端（版本 6.16.0.9 及更高版本）
   - iPhone Skype for Business 客户端（版本 6.16.0 及更高版本）
   - iPad Skype for Business 客户端（版本 6.16.0 及更高版本）
-  - Microsoft Teams Windows客户端 (32 位和 64 位) 
+  - Microsoft Teams Windows客户端 (32 位和 64 位版本) 
   - Microsoft Teams Mac 客户端
   - Microsoft Teams[虚拟桌面、Citrix](/microsoftteams/teams-for-vdi)和 VMware (Windows虚拟桌面基础结构) 
   - Microsoft Teams iPhone 应用
@@ -249,6 +249,19 @@ Teams在队列中保持时向呼叫者提供默认音乐。 呼叫队列中提�
 - [Get-CsCallQueue](/powershell/module/skype/get-CsCallQueue)
 
 - [Remove-CsCallQueue](/powershell/module/skype/remove-CsCallQueue)
+
+## <a name="call-queue-diagnostic-tool"></a>调用队列诊断工具
+
+如果你是管理员，可以使用以下诊断工具来验证呼叫队列是否能够接收呼叫：
+
+1. 选择 **下面的"** 运行测试"，这将在 Microsoft 365 管理 中填充诊断。 
+
+   > [!div class="nextstepaction"]
+   > [运行测试：Teams调用队列](https://aka.ms/TeamsCallQueueDiag)
+
+2. 在"运行诊断"窗格中的"用户名"或"电子邮件"字段中输入"资源 **帐户**"，然后选择"**运行测试"。**
+
+3. 测试将返回解决任何租户、策略和资源帐户配置的最佳下一步，以验证呼叫队列能够接收呼叫。
 
 ## <a name="related-topics"></a>相关主题
 
