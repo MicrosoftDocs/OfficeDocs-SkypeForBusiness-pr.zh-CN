@@ -21,12 +21,12 @@ description: Teams 或 IT 管理员可以为其他域 (联合身份验证) 配�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 0fac6c236fba7b8cc17af2bc4c21211a5160d06e
-ms.sourcegitcommit: 99503baa8b5183972caa8fe61e92a362213599d9
+ms.openlocfilehash: 207c46d37503989dddd8039ccdd0c4cd71d6b276
+ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "60127369"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60462326"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>在 Microsoft Teams 中管理外部访问
 
@@ -163,6 +163,20 @@ ms.locfileid: "60127369"
 
 > [!IMPORTANT]
 > 你无需添加任何 **Skype 域** 作为允许的域，就可以使 Teams 或 Skype for Business Online 用户与你组织内部或外部的 Skype 用户进行通信。已允许所有 **Skype 域**。
+
+## <a name="federation-diagnostic-tool"></a>联合诊断工具
+
+如果你是管理员，则可以使用以下诊断工具来验证 Teams 用户是否可以与联合 Teams 用户进行通信:
+
+1. 选择下面 **运行测试**，这将在 Microsoft 365 管理中心中弹出诊断结果。 
+
+   > [!div class="nextstepaction"]
+   > [运行测试: Teams 联盟](https://aka.ms/TeamsFederationDiag)
+
+2. 在“运行”诊断窗格中，输入 **会话初始协议 (SIP) 地址** 和 **联合租户的域名**，然后选择 **运行测试**。
+
+3. 测试将返回最佳后续步骤，以解决阻止与联合用户通信的任何租户或策略配置的问题。
+
 
 ## <a name="related-topics"></a>相关主题
 
