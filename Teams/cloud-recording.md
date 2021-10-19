@@ -19,12 +19,12 @@ description: 在 Teams 中部署云语音功能的实用指南，用于记录 Te
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9bdf14874765a8cd67f0ea7ffcfdcb05358b061b
-ms.sourcegitcommit: 31da77589ac82c43a89a9c53f2a2de5ab52f93c0
+ms.openlocfilehash: 2d84d42849667c1cd87a90f9cd8b3480b5ed8bbd
+ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/14/2021
-ms.locfileid: "60356446"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60462386"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 云会议录制
 
@@ -147,7 +147,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -ChannelRecordingDownload Block
 此设置控制播放会议录制内容期间是否提供字幕和转录功能。 如果将其关闭，则在播放会议录制内容期间“**搜索**”和“**CC**”选项将不可用。 启动录制的人员需要打开此设置，以便录制内容也包含脚本。
 
 > [!NOTE]
-> 录制会议的转录目前仅支持英语（美国）、英语（加拿大）、英语（印度）、英语（英国）、英语（澳大利亚）、英语（新西兰）、德语（德国）、葡萄牙语（巴西）、荷兰语（荷兰）、荷兰语（比利时）、法语（法国）、西班牙语（西班牙）、日语（日本）、法语（加拿大）、中文（粤语、繁体）、中文（普通话、简体）、印地语（印度）、意大利语（意大利）、韩语（韩国）、西班牙语（墨西哥）、瑞典语（瑞典）、波兰语（波兰）、阿拉伯语（阿拉伯联合酋长国）、阿拉伯语（沙特阿拉伯）、丹麦语（丹麦）、芬兰语（芬兰）、挪威语（挪威）和俄语（俄罗斯）。 它们与会议录制内容一起存储在 OneDrive for Business 和 SharePoint Online 云存储中。
+> 录制会议的转录目前仅支持英语 (美国)、英语 (加拿大)、英语 (印度)、英语 (英国)、英语 (澳大利亚)、英语 (新西兰)、德语 (德国)、葡萄牙语 (巴西)、荷兰语 (荷兰)、荷兰语 (比利时)、法语 (法国)、西班牙语 (西班牙)、日语 (日本)、法语 (加拿大)、中文 (粤语、繁体)、中文 (普通话、简体)、印地语 (印度)、意大利语 (意大利)、韩语 (韩国)、西班牙语 (墨西哥)、瑞典语 (瑞典)、波兰语 (波兰)、阿拉伯语 (阿拉伯联合酋长国)、阿拉伯语 (沙特阿拉伯)、丹麦语 (丹麦)、芬兰语 (芬兰)、挪威语 (挪威)和俄语 (俄罗斯)。它们会与会议录音一起存储在 OneDrive for Business 和 SharePoint Online 云存储中。
 
 你可以使用 Microsoft Teams 管理中心或 PowerShell 来设置 Teams 会议策略，以控制录制发起人是否可以选择转录会议录制。
 
@@ -435,6 +435,33 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 - 值 = *Media.Meeting*
 
 要了解有关 DLP 的详细信息，请参阅文章 [了解数据丢失防护](/microsoft-365/compliance/dlp-learn-about-dlp)
+
+## <a name="meeting-recording-diagnostic-tools"></a>会议录制诊断工具
+  ### <a name="user-cannot-record-meetings"></a>用户无法录制会议
+
+如果你是管理员，则可以使用以下诊断工具来验证用户是否已正确配置为在 Teams 中录制会议:
+
+1. 选择下面 **运行测试**，这将在 Microsoft 365 管理中心中弹出诊断结果。 
+
+   > [!div class="nextstepaction"]
+   > [运行测试: 会议录制](https://aka.ms/MeetingRecordingDiag)
+
+2. 在“运行”诊断窗格中，输入无法在 **用户名或 Email** 字段中录制会议的用户电子邮件，然后选择 **运行测试**。
+
+3. 测试将返回解决任何租户或策略配置的最佳后续步骤，以验证用户是否已正确配置为在 Teams 中录制会议。
+  
+  ### <a name="meeting-record-is-missing"></a>缺少会议记录
+
+如果你是管理员，则可以使用以下诊断工具来验证会议录制是否已成功完成，并根据会议 ID 和录制开始时间将其上传到 Stream 或 OneDrive:
+
+1. 选择下面 **运行测试**，这将在 Microsoft 365 管理中心中弹出诊断结果。 
+
+   > [!div class="nextstepaction"]
+   > [运行测试: 缺少会议录制](https://aka.ms/MissingRecordingDiag)
+
+2. 在“运行”诊断窗格中，在 **录制的会议 URL** 字段 (通常在会议邀请中找到) 中输入会议的 URL 以及“**何时记录的会议?”中输入会议的日期 ** 字段，然后选择 **运行测试**。
+
+3. 测试将验证会议录制是否已成功完成，并且已上传到 Stream 或 OneDrive。
 
 ## <a name="related-topics"></a>相关主题
 
