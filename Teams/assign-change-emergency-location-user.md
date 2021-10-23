@@ -18,24 +18,18 @@ f1.keywords:
 - NOCSH
 description: 本文介绍了如何为组织中用户分配或更改紧急位置。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5395c74bfab124cb1036d696dd3613c920bed1e9
-ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
+ms.openlocfilehash: 905e0e66555f908e98368d592905e98b54db059a
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60465782"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60537283"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>为用户分配或更改紧急位置
 
-**以下各项是否适用于所有 3 项？**
+需要将紧急位置分配给每个电话号码或用户。 有关紧急地址和位置详细信息，请参阅什么是紧急位置、地点和[呼叫路由？。](./what-are-emergency-locations-addresses-and-call-routing.md)
 
-**需要将紧急位置分配给每个电话号码或用户。有关紧急地址和位置详细信息，请参阅什么是紧急位置、地点和 [呼叫路由？。](./what-are-emergency-locations-addresses-and-call-routing.md)**
-
-**对于 Microsoft 呼叫计划，在其他国家/地区，紧急位置与电话号码相关联（从 Microsoft 365 或将电话号码转移到 Microsoft 365）。在美国，紧急位置与分配给用户的电话号码相关联。如果分配紧急地址的用户移动到新位置，则紧急地址可能会更改。**
-
-**对于运算符连接，...**
-
-**对于直接路由,...**
+对于 Microsoft 呼叫计划，在其他国家/地区，紧急位置与电话号码相关联（从 Microsoft 365 或将电话号码转移到 Microsoft 365）。 在美国，紧急位置与分配给用户的电话号码相关联。 如果分配紧急地址的用户移动到新位置，则紧急地址可能会更改。
   
 可以在管理中心或 PowerShell 中为Microsoft Teams分配或更改紧急位置。
 
@@ -43,7 +37,7 @@ ms.locfileid: "60465782"
 
 1. 在管理中心左侧导航Microsoft Teams，单击 **"语音电话**  >  **号码"。**
 
-2. 在 **"电话"页面上**，单击"数字"选项卡，在列表中选择用户编号，然后单击"编辑 **"。**
+2. 在 **"电话"页上**，单击"数字"选项卡，在列表中选择用户编号，然后单击"编辑 **"。**
 
 3. 在" **编辑** "窗格的 **"紧急位置"下**，执行下列操作之一：
 

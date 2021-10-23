@@ -359,8 +359,6 @@ items:
             items:
               - name: 关于来宾访问权限
                 href: guest-access.md
-              - name: 来宾访问清单
-                href: /microsoft-365/solutions/collaborate-as-team
               - name: 来宾体验
                 href: guest-experience.md
               - name: 打开来宾访问或关闭

@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams设备监视和警报
-author: cichur
-ms.author: v-cichur
+author: cazawideh
+ms.author: czawideh
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -12,16 +12,16 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
-description: 了解如何使用 Teams 管理中心中的 Microsoft Teams 监视和警报功能主动监视 Teams 设备的运行状况
+description: 了解如何使用 Teams 管理中心中的 Microsoft Teams 监视和警报功能主动监视设备Teams状态
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: b44b564da4e772fb3e385b03d61be6874baf11c5
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ac8ace461e2fb2f5ca8c163a5972fa575baec21d
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58735349"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536913"
 ---
 # <a name="microsoft-teams-device-health-monitoring"></a>Microsoft Teams设备运行状况监视
 
@@ -72,7 +72,7 @@ ms.locfileid: "58735349"
 
 ## <a name="notifications-in-teams-client"></a>客户端Teams通知
 
-通知在管理员警报和通知团队的自动创建的 **MonitoringAlerts** 通道 **中** 传递。
+通知在管理员警报和通知团队的自动创建的 **MonitoringAlerts** 通道 **中** 传递。 你将在设备脱机后 15 分钟内收到警报。 
 
 设备脱机通知可以包含以下信息：
 

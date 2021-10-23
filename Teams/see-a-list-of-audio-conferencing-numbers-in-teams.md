@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: 了解如何从会议内部查找可用于音频会议Microsoft Teams。
-ms.openlocfilehash: a65db16f0472c9d743d956baf18f7f1d20028837
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: 09eef2b2aac4bd6bd0b1eb7ea3d4f9cb3296008c
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432254"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536683"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>在 Microsoft Teams 中查看音频会议号码列表
 
@@ -44,7 +44,7 @@ ms.locfileid: "59432254"
 
 ## <a name="to-view-your-audio-conferencing-phone-numbers"></a>查看音频会议电话号码
 
-![显示 Microsoft Teams 徽标的图标。](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
+ **使用 Microsoft Teams 管理中心**
 
 1. 在左侧导航栏中，转到"**会议**  >  **会议网桥"。** 
 2. 查看可用于音频会议的电话号码。
@@ -57,7 +57,7 @@ Windows PowerShell Office 365 的功能是管理用户以及允许或不允许�
     
   - [为什么要使用 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [使用 Microsoft 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [使用 Microsoft 365 Office 365 管理Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
 有关 Windows PowerShell 的详细信息，请参阅 [Microsoft Teams PowerShell 参考](/powershell/module/teams/?view=teams-ps)了解详细信息。
   

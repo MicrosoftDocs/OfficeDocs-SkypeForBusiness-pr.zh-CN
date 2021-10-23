@@ -21,19 +21,19 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ee0e8e7da6410b26f9c4fc256a12c563f15e9bed1562823792bda73c1c29d70
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8c25299a0f0df6863bcb1fbaa4627b891a6e860a
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282665"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536753"
 ---
-# <a name="survivable-branch-appliance-sba-for-direct-routing"></a>用于直接路由 (SBA) 的可生存分支设备
+# <a name="survivable-branch-appliance-sba-for-direct-routing"></a>用于直接路由的 (分支设备) SBA 设备
 
 
 有时，使用直接路由连接到 Microsoft 电话 系统的客户站点可能会遇到 Internet 中断。
 
-假设客户站点（称为分支）暂时无法通过直接路由连接到 Microsoft 云。 但是，该分支内的 Intranet 仍完全正常运行，用户可以连接到提供 PSTN 连接的 SBC (会话) 控制器。
+假设客户站点（称为分支）暂时无法通过直接路由连接到 Microsoft 云。 但是，分支内的 Intranet 仍完全正常运行，用户可以连接到提供 PSTN 连接的 SBC (会话) 控制器。
 
 本文介绍如何使用可生存分支设备 (SBA) 使 Microsoft 电话 系统在服务中断时继续拨打和接听公用电话交换网 (PSTN) 呼叫。
 
@@ -41,11 +41,16 @@ ms.locfileid: "54282665"
 
 SBA 是 Microsoft 提供给 SBC 供应商的可分发代码，这些供应商随后将代码嵌入其固件或单独分发，让 SBA 在单独的 VM 或硬件上运行。 
 
-若要获取具有嵌入式 Survivable 分支设备的最新会话边界控制器固件，请联系 SBC 供应商。 此外，需要以下各项：
+若要使用嵌入式 Survivable 分支设备获取最新的会话边界控制器固件，请联系 SBC 供应商。 此外，需要以下各项：
 
-- 需要为"媒体旁路"配置 SBC，以确保分支Microsoft Teams客户端中的媒体可以直接流向 SBC。 
+- 需要为"媒体旁路"配置 SBC，以确保分支Microsoft Teams客户端中的媒体可以直接与 SBC 流动。 
 
 - 应在 SBA VM OS 上启用 TLS1.2。
+- Microsoft SBA 服务器使用端口 3443、4444 和 8443 来与 Teams 客户端通信，防火墙应允许端口 3443、4444 和 8443。 
+- 端口 5061 (或在 SBC) 上配置的端口 5061 由 Microsoft SBA 服务器用来与 SBC 通信，防火墙应允许端口 5061。 
+- Microsoft SBA 服务器使用 UDP 端口 123 与 NTP 服务器通信，防火墙应允许此端口。
+- Microsoft SBA 服务器使用端口 443 Microsoft 365防火墙上应允许端口 443。
+- 应该根据以下所述的准则定义公有云的 Azure IP 范围和服务标记： https://www.microsoft.com/download/details.aspx?id=56519
 
 ## <a name="supported-teams-clients"></a>支持Teams客户端
 
@@ -57,7 +62,7 @@ SBA 是 Microsoft 提供给 SBC 供应商的可分发代码，这些供应商随
 
 ## <a name="how-it-works"></a>运作方式
 
-在 Internet 中断期间，Teams客户端应自动切换到 SBA，并且正在进行的调用应继续且不会中断。 用户无需执行任何操作。 当客户端Teams Internet 已启动且所有传出调用完成时，客户端将回退到正常运行模式并连接到其他 Teams 服务。 SBA 将收集的呼叫数据记录上传到云，呼叫历史记录将更新，以便租户管理员查看此信息。 
+在 Internet 中断期间，Teams客户端应自动切换到 SBA，并且正在进行的调用应继续进行且不会中断。 用户无需执行任何操作。 客户端检测到Teams Internet 并完成任何传出调用后，客户端将回退到正常运行模式并连接到其他 Teams 服务。 SBA 将收集的呼叫数据记录上传到云，呼叫历史记录将更新，以便租户管理员查看此信息。 
 
 当Microsoft Teams客户端处于脱机模式时，可以使用以下与调用相关的功能： 
 
@@ -102,14 +107,14 @@ Site        :
 Description : SBA 1 
 ```
 
-### <a name="create-the-teams-branch-survivability-policy"></a>创建 Teams 分支可生存性策略 
+### <a name="create-the-teams-branch-survivability-policy"></a>创建 Teams 分支生存能力策略 
 
 若要创建策略，请使用 New-CsTeamsSurvivableBranchAppliancePolicy cmdlet。 此 cmdlet 具有以下参数。 请注意，策略可以包含一个或多个 SBA。
 
 | 参数| 说明 |
 | :------------|:-------|
 | Identity | 策略的标识 |
-| BranchApplianceFqdns  | 站点中 SBA () FQDN |
+| BranchApplianceFqdns  | 站点中 SBA () 的 FQDN |
 ||
 
 例如：
@@ -143,7 +148,7 @@ Set-CsTeamsSurvivableBranchAppliancePolicy -Identity CPH -BranchApplianceFqdns @
 C:\> Grant-CsTeamsSurvivableBranchAppliancePolicy -PolicyName CPH -Identity user@contoso.com 
 ```
 
-可以通过向用户授予策略$Null策略，如下例所示：
+可以通过向用户授予策略$Null策略，如下一示例所示：
 
 ``` powershell
 C:\> Grant-CsTeamsSurvivableBranchAppliancePolicy -PolicyName $Null -Identity user@contoso.com 
@@ -151,11 +156,11 @@ C:\> Grant-CsTeamsSurvivableBranchAppliancePolicy -PolicyName $Null -Identity us
 
 ### <a name="register-an-application-for-the-sba-with-azure-active-directory"></a>使用应用程序注册 SBA Azure Active Directory
 
-若要允许租户中使用的不同 SBA 从 Microsoft 365 读取所需数据，需要向 Azure Active Directory 注册 SBA 的应用程序。 
+若要允许租户中使用的不同 SBA 从 Microsoft 365 读取所需数据，需要向 Azure Active Directory 注册 SBA 应用程序。 
 
 有关应用程序注册详细信息，请参阅以下内容：
 
-- [开发适用于企业的业务线Azure Active Directory](/azure/active-directory/manage-apps/developer-guidance-for-integrating-applications)
+- [开发适用于云的业务线Azure Active Directory](/azure/active-directory/manage-apps/developer-guidance-for-integrating-applications)
 
 - [将应用程序注册到 Microsoft 标识平台。](/azure/active-directory/develop/quickstart-register-app)  
 
@@ -207,7 +212,7 @@ C:\> Grant-CsTeamsSurvivableBranchAppliancePolicy -PolicyName $Null -Identity us
 
 - 将可生存分支设备策略分配给用户时，可能需要一些时间，SBA 才能显示在 Get-CsOnlineUser 的输出中。 
 
-- 不会针对 Azure AD 联系人执行反向数字查找。 
+- 不针对联系人Azure AD反向数字查找。 
 
 - SBA 不支持呼叫转发设置。 
 

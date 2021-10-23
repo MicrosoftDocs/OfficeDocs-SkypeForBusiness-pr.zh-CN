@@ -23,18 +23,18 @@ ms.custom:
 - LIL_Placement
 - O365P_DialInConfDesc
 description: '了解如何为业务中需要使用电话加入电话会议的人员设置拨号或音频会议。 '
-ms.openlocfilehash: 55edb015df6e0faf77eb644246677f637b7bace7
-ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
+ms.openlocfilehash: 965fc0ca2bea2d0026f94f692688aeced8e57e42
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "59456552"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60537263"
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business"></a>为会议设置音频Skype for Business
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-有时，组织中的人员需要使用电话拨入会议。 Skype for Business包括音频会议功能， 用户可以通过电话Skype for Business会议，而不是在移动设备或电脑上使用 Skype for Business 应用。 
+有时，组织中的人员需要使用电话拨入会议。 Skype for Business音频会议功能， 用户可以通过电话Skype for Business会议，而不是在移动设备或电脑上Skype for Business应用。 
   
 你只需为打算安排或主持会议的人设置音频会议。 拨入会议与会者不需要分配给他们或其他安装程序的许可证。
   
@@ -52,7 +52,7 @@ ms.locfileid: "59456552"
     >[!NOTE] 
     > Office 365 企业版 E5 许可证中包含音频会议，并用作加载项。
         
-2. 购买的音频会议许可证后，你需要将其分配给组织中打算安排或主持会议的那些人员。 请参阅[分配或删除Microsoft 365 商业应用版](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)组织中要安排或领导会议的人购买的用户的许可证。
+2. 购买的音频会议许可证后，你需要将其分配给组织中打算安排或主持会议的那些人员。 请参阅[为组织中计划或Microsoft 365 商业应用版](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)的人分配或删除您购买的许可证。
     
 3. 我们还建议你将通信点数许可证（它们不值什么钱）分配给你在上一步骤中分配到许可证的相同人员。 若要了解如何设置通信点数，请参阅[为你的组织设置通信点数](/microsoftteams/set-up-communications-credits-for-your-organization)。
     
@@ -90,7 +90,7 @@ ms.locfileid: "59456552"
 
 接下来，你想要为音频[](../audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing.md)会议设置自动助理语言，会议自动助理在呼叫者拨入音频会议的电话号码时，使用这些语言问候呼叫者。 
 
-![一个图标，显示Microsoft Teams徽标。](../images/teams-logo-30x30.png) **使用 Microsoft Teams管理中心**：
+ **使用 Microsoft Teams管理中心**：
 
 1. 从"开始"转到 **"会议**  >  **网桥"。**
 2. 选择会议网桥电话号码，单击“**编辑**”，然后选择默认语言。
@@ -106,7 +106,7 @@ ms.locfileid: "59456552"
     
 设置你的会议网桥之后，请验证默认设置，如进入/退出通知和 PIN 长度是想要使用；如果不是，你可以更改它们。 
 
-![一个图标，显示Microsoft Teams徽标。](../images/teams-logo-30x30.png) **使用 Microsoft Teams管理中心**：
+ **使用 Microsoft Teams管理中心**：
 
 1. 从"开始"转到 **"会议**  >  **网桥"。**
 2. 选择“**网桥设置**”。 这将打开 **网桥设置** 窗格。 
@@ -126,7 +126,7 @@ ms.locfileid: "59456552"
 
 你需要为在组织中主持或安排会议的所有人员执行此操作。 
 
-![一个图标，显示Microsoft Teams徽标。](../images/teams-logo-30x30.png) **使用 Microsoft Teams管理中心**：
+ **使用 Microsoft Teams管理中心**：
 
 1. 从"开始"中 **，单击**"用户"，从列表中选择用户，然后选择"编辑 **"。**
 2. 选择“**音频会议**”旁边的“**编辑**”，然后在“**音频会议**”窗格中，在“**收费电话号码**”和“**免费**”电话号码列表中选择一个号码。

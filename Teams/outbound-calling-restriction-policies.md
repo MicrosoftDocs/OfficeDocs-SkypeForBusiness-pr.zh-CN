@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 管理员可以控制用户可以拨打的音频会议和最终用户 PSTN 呼叫的类型。
-ms.openlocfilehash: fe63a29bf4cde46ee881d7a425839073ed4b4b7f
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 93f219feea677afe83c1c1dc031d6b878b219a45
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730321"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536873"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>音频会议和用户 PSTN 通话的出站通话限制策略
 
@@ -49,7 +49,7 @@ ms.locfileid: "58730321"
 
 ## <a name="restrict-audio-conferencing-outbound-calls"></a>限制音频会议出站呼叫
 
-![Microsoft Teams徽标。](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
+**使用 Microsoft Teams 管理中心**
 
 1. 在左侧导航栏中， **选择"用户**"，显示名称可用用户列表中选择该用户的用户名。
 
@@ -59,20 +59,6 @@ ms.locfileid: "58730321"
 
 5. 选择“**保存**”。
 
-![一个图标，显示Skype for Business徽标。](media/sfb-logo-30x30.png) **使用 Skype for Business 管理中心**
-
-1. 在 **Skype for Business** 管理中心的 左侧导航中，转到"音频会议用户"，然后从可用  >  用户列表中选择用户。
-
-2. 在"操作"窗格中，选择"编辑 **"。**
-
-3.  在 **限制此用户从会议拨出** 下，选择所需的拨出限制选项。
-
-      !["拨出限制"选项。](media/restrictions-to-dial-outs.png)
-
-4. 选择“**保存**”。
-
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
 **使用 PowerShell**
 
@@ -80,15 +66,15 @@ ms.locfileid: "58730321"
 
 可以使用 Get-CSOnlineDialOutPolicy cmdlet 查看出站调用策略，并使用以下命令进行设置。
 
-**使用以下 cmdlet 在每个用户级别设置策略**。  (Grant cmdlet 不包含"联机"一词，就像 Get cmdlet 一样) 
+**使用以下 cmdlet 在每个用户级别设置策略**。  (Get cmdlet 不包含"联机"一词，就像 Get cmdlet 一样) 
 
-```
+```powershell
 Grant-CsDialoutPolicy -Identity <username> -PolicyName <policy name>    
 ```
 
 **使用以下 cmdlet 在租户级别设置策略**。
 
-```
+```powershell
 Grant-CsDialoutPolicy  -Tenant <guid> -PolicyName <policy name>  -Global 
 ```
 

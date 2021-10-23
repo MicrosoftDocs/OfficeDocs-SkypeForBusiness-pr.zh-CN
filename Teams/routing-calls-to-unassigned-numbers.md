@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 了解如何将呼叫路由到组织中未分配号码。
-ms.openlocfilehash: 630ee818113cfb69bc25eb893ab384d186ff4137
-ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
+ms.openlocfilehash: 2574a0ac734ed6caee1eadf5a5ee006111713055
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60466033"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536993"
 ---
 # <a name="routing-calls-to-unassigned-numbers"></a>将呼叫路由到未分配号码
 
@@ -39,7 +39,7 @@ ms.locfileid: "60466033"
 
 - 将所有调用路由到给定的未分配号码到主切换板。
 
-可以将对未分配号码的调用路由到用户、与 自动助理 或呼叫队列关联的资源帐户，或者路由到将为呼叫者播放自定义音频文件的公告服务。 音频文件将重复播放，直到呼叫者挂断。
+可以将对未分配号码的呼叫路由到用户、与 自动助理 或呼叫队列关联的资源帐户，或者将呼叫路由到将为呼叫者播放自定义音频文件的公告服务。
 
 ## <a name="configuration"></a>配置
 
@@ -51,10 +51,10 @@ ms.locfileid: "60466033"
 $RAObjectId = (Get-CsOnlineApplicationInstance -Identity aa@contoso.com).ObjectId
 
 
-New-CsTeamsUnassignedNumberTreatment -Identity MainAA -Pattern "^\+15552223333$" -TargetType ResourceAccount -Target $RAObjectId -Priority 1
+New-CsTeamsUnassignedNumberTreatment -Identity MainAA -Pattern "^\+15552223333$" -TargetType ResourceAccount -Target $RAObjectId -TreatmentPriority 1
 ```
 
-下一个示例指定对号码范围 +1 (555) 333-0000 到 +1 (555) 333-9999 的所有调用都将路由到公告服务，它将音频文件 MainAnnouncement.wav 播放给调用方。
+下一个示例指定对号码范围 +1 (555) 333-0000 到 +1 (555) 333-9999 的所有调用都将路由到通知服务，它将向调用方播放音频文件 MainAnnouncement.wav。
 
 ```PowerShell
 $Content = Get-Content "C:\Media\MainAnnoucement.wav" -Encoding byte -ReadCount 0
@@ -63,7 +63,7 @@ $AudioFile = Import-CsOnlineAudioFile -FileName "MainAnnouncement.wav" -Content 
 
 $fid = [System.Guid]::Parse($AudioFile.Id)
 
-New-CsTeamsUnassignedNumberTreatment -Identity TR1 -Pattern "^\+1555333\d{4}$" -TargetType Announcement -Target $fid.Guid -Priority 2
+New-CsTeamsUnassignedNumberTreatment -Identity TR1 -Pattern "^\+1555333\d{4}$" -TargetType Announcement -Target $fid.Guid -TreatmentPriority 2
 ```
 
 ## <a name="notes"></a>注释

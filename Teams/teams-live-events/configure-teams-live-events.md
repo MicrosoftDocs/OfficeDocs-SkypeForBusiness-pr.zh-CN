@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d1d1608bda574e504e6985ee55c8f06607f710a4
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: a1c25ed5b00adf162ceb5d75d9207e43e489f3c6
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60046038"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536523"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>在 Microsoft Teams 中配置实时事件设置
 
@@ -35,18 +35,18 @@ ms.locfileid: "60046038"
 
 可以在管理中心内轻松Microsoft Teams这些设置。 在左侧导航栏中，转到"**会议**  >  **实时事件设置"。**
 
-![实时事件Teams屏幕截图。](../media/teams-live-events-settings-new.png "可在 Teams 管理中心配置的事件实时Microsoft Teams屏幕截图")
+![实时事件Teams屏幕截图。](../media/teams-live-events-settings-new.png "屏幕截图Teams管理中心中配置的直播事件Microsoft Teams设置")
 
 ## <a name="set-up-event-support-url"></a>设置事件支持 URL
 
 此 URL 显示给实时事件与会者。 为组织添加支持 URL，为与会者提供一种在实时活动期间联系支持人员的方法。
 
-### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![一个图标，显示Microsoft Teams徽标。](../media/teams-logo-30x30.png) 使用 Microsoft Teams 管理中心
+### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 管理中心
 
-1. 在左侧导航栏中，转到"**会议**  >  **实时事件设置&quot;。**
-2. 在 **&quot;支持 URL&quot;** 下，输入组织的支持 URL。
+1. 在左侧导航栏中，转到"**会议**  >  **实时事件设置"。**
+2. 在 **"支持 URL"** 下，输入组织的支持 URL。
 
-    ![管理中心内实时事件的支持 URL 设置。](../media/teams-live-events-settings-supporturl.png &quot;实时事件的支持 URL Teams屏幕截图")
+    ![管理中心内实时事件的支持 URL 设置。](../media/teams-live-events-settings-supporturl.png "实时事件的支持 URL Teams屏幕截图")
 
 ### <a name="using-windows-powershell"></a>使用 Windows PowerShell
 
@@ -60,12 +60,12 @@ Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}”
 
 如果通过 Microsoft 视频交付合作伙伴购买并设置软件定义的网络 (SDN) 解决方案或企业内容交付网络 (eCDN) 解决方案，请为 Teams 中的实时事件配置提供商。 
 
-### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![一个图标，显示Microsoft Teams徽标。](../media/teams-logo-30x30.png) 使用Microsoft Teams管理中心，
+### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 管理中心
 
-1. 在左侧导航栏中，转到"**会议**  >  **实时事件设置&quot;。**
-2. 在 **&quot;第三方视频分发提供商&quot;下**，完成以下操作： 
+1. 在左侧导航栏中，转到"**会议**  >  **实时事件设置"。**
+2. 在 **"第三方视频分发提供商"下**，完成以下操作： 
 
-    ![管理中心内的第三方视频分发提供商设置。](../media/teams-live-events-settings-distribution-provider-new.png &quot;实时事件的第三方视频分发提供商设置的屏幕截图")
+    ![管理中心内的第三方视频分发提供商设置。](../media/teams-live-events-settings-distribution-provider-new.png "实时事件的第三方视频分发提供商设置的屏幕截图")
 
     - **使用第三方分发提供商** 启用此选项可启用第三方视频分发提供商。
     - **SDN 提供程序名称** 选择你使用的提供商。

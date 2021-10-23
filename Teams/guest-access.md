@@ -19,16 +19,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 利用 Microsoft Teams 中的来宾访问功能，贵组织中的团队可以通过为贵组织外的人员授予访问团队和频道的权限来与其协作。
-ms.openlocfilehash: 2064ca1fdd816f1948af1f0efcda3021a1c7d2cb
-ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
+ms.openlocfilehash: 80c1fcb9012efbc1809b1d1d4252c9801d148ba9
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60462336"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60537083"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams 中的来宾访问
 
-借助来宾访问，可以为组织外部的人员提供对团队、频道中的文档、资源、聊天和应用程序的访问，同时保持对公司数据的控制。请参阅 [使用 Microsoft 365 和 Microsoft Teams 设置安全协作](/microsoft-365/solutions/setup-secure-collaboration-with-teams)。
+借助来宾访问，你可以为组织外部的人员提供对团队、频道中的文档、资源、聊天和应用程序的访问，同时保持对公司数据的控制。 请参阅 [设置与 Microsoft 365 和 Microsoft Teams 的安全协作](/microsoft-365/solutions/setup-secure-collaboration-with-teams)。 Teams 中的来宾访问是组织范围的设置，默认情况下处于打开状态。 可使用[敏感度标签](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)控制来宾对各个团队的访问。
 
 > [!NOTE]
 > 如果只希望查找、通话、聊天以及安排与其他组织人员的会议，请使用[外部访问](manage-external-access.md)。
@@ -52,8 +52,6 @@ Teams 中的来宾访问需要在 Microsoft 365 中配置其他设置，包括 A
 
 - 若要为 Teams 配置来宾访问以供一般使用，请参阅[在团队中与来宾协作](/microsoft-365/solutions/collaborate-as-team)。
 - 若要与使用 Azure Active Directory 的合作伙伴组织进行协作，并允许来宾自行注册以实现团队访问，请参阅[创建托管有来宾的 B2B 外联网](/microsoft-365/solutions/b2b-extranet)。
-
-Teams 中的来宾访问是组织范围的设置，默认情况下处于打开状态。 可使用[敏感度标签](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)控制来宾对各个团队的访问。
 
 > [!NOTE]
 > 如果你是管理员，并且在 Microsoft Teams 中遇到来宾访问问题，请在下面选择 **运行测试**，这将在 Microsoft 365 管理中心弹出来宾访问诊断。 这些测试将检查你的配置，并快速建议后续步骤，以便为租户启用来宾访问。

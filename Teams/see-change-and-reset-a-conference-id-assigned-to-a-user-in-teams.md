@@ -20,13 +20,13 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
-description: 了解如何向用户分配会议 ID Microsoft Teams会议 ID 参数应该是什么。
-ms.openlocfilehash: 62cbb281af4db60db15676b109b2573c03eb7552
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: 了解如何向用户分配会议 ID Microsoft Teams会议 ID 参数应是什么。
+ms.openlocfilehash: 74e43f6dcb5599039007f784ad7ebdd5a053251e
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733251"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536863"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-microsoft-teams"></a>查看和重置分配给用户的会议 ID Microsoft Teams
 
@@ -34,7 +34,7 @@ ms.locfileid: "58733251"
   
 尽管会议 ID 将自动创建并分配给用户，但有时用户可能不想使用此 ID，而你想要将其设置为特定号码，或者用户记不起来或已丢失其会议 ID。 您可以使用Microsoft Teams中心或Windows PowerShell查看、更改和重置其会议 ID。
   
-电子邮件将发送到有会议 ID 的用户和默认音频会议电话号码，或者，如果重置的会议 ID，将发送一封不同的电子邮件，其将包括会议 ID，但没有 PIN。 若要[详细了解如何重置会议组织者的 PIN，请参阅](reset-a-conference-id-for-a-user-in-teams.md)重置 Microsoft Teams 中的用户的会议 ID。 
+电子邮件将发送到有会议 ID 的用户和默认音频会议电话号码，或者，如果重置的会议 ID，将发送一封不同的电子邮件，其将包括会议 ID，但没有 PIN。 若要[详细了解如何重置会议组织者的 PIN，](reset-a-conference-id-for-a-user-in-teams.md)请参阅Microsoft Teams重置用户的会议 ID。 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -43,7 +43,7 @@ ms.locfileid: "58733251"
 
 ### <a name="to-view-the-conference-id"></a>查看会议 ID
 
-![一个图标，显示Microsoft Teams徽标。](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
+ **使用 Microsoft Teams 管理中心**
 
 1. 在左侧导航栏中， **单击"用户**"，然后从可用用户列表中选择用户。
 
@@ -63,7 +63,7 @@ ms.locfileid: "58733251"
 
 例如，如果用户忘记了密码，你可以为其重置会议 ID。
   
-![一个图标，显示Microsoft Teams徽标。](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
+ **使用 Microsoft Teams 管理中心**
 
 1. 在左侧导航栏中， **单击"用户**"，然后从可用用户列表中选择用户。
 
@@ -93,7 +93,7 @@ Windows PowerShell Office 365 的功能是管理用户以及允许或不允许�
     
   - [为什么要使用 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [使用 Microsoft 365 Office 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [使用 Microsoft 365 Office 365 管理Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
 有关 Windows PowerShell 的详细信息，请参阅 [Microsoft Teams PowerShell 参考](/powershell/module/teams/?view=teams-ps)了解详细信息。
     

@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: '了解如何为业务中需要使用电话加入电话会议的人员设置拨号或音频会议。 '
-ms.openlocfilehash: f520d9c77fb04a27dbb43194edb24f1080627a51
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: b61e03301f7d45cabd846c96097aee4cb971b635
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60046298"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60537023"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>设置 Microsoft Teams 的音频会议
 
@@ -78,18 +78,17 @@ ms.locfileid: "60046298"
 
 按照下列步骤将新的电话号码分配给音频会议网桥。
 
-![一个图标，显示Skype for Business徽标。](media/sfb-logo-30x30.png) **使用Skype for Business管理中心：**
+ **使用 Microsoft Teams管理中心**：
 
- 1. 转到 **Microsoft 365 管理中心** > **管理中心** > **Teams** > **旧版门户**。
- 2. 选择“**语音**” > “**电话号码**”。
- 3. 选择电话号码，然后单击“**分配**”。
+ 1. 从"开始"，转到 **"语音**  >  **电话号码"**。
+ 2. 选择电话号码，然后单击“**分配**”。
 
 有关详细信息，参见[更改音频会议网桥中的电话号码](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)。
 
 ## <a name="step-5-set-the-default-and-alternate-languages-for-a-conferencing-bridge"></a>步骤 5：为会议桥设置默认和备用语言
 <a name="__top"> </a> 接下来，需要[在 Microsoft 团队中为音频会议设置自动助理语言](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)， 会议自动助理在拨入电话号码进行音频会议时欢迎主叫方。 
 
-![一个图标，显示Microsoft Teams徽标。](media/teams-logo-30x30.png) **使用 Microsoft Teams管理中心**：
+ **使用 Microsoft Teams管理中心**：
 
 1. 从主页转到"**会议**  >  **网桥"。**
 2. 选择会议网桥电话号码，单击“**编辑**”，然后选择默认语言。
@@ -99,7 +98,7 @@ ms.locfileid: "60046298"
     
 设置你的会议网桥之后，请验证默认设置，如进入/退出通知和 PIN 长度是想要使用；如果不是，你可以更改它们。 
 
-![一个图标，显示Microsoft Teams徽标。](media/teams-logo-30x30.png) **使用 Microsoft Teams管理中心**：
+ **使用 Microsoft Teams管理中心**：
 
 1. 从主页转到"**会议**  >  **网桥"。**
 2. 选择“**网桥设置**”。 这将打开 **网桥设置** 窗格。 
@@ -112,7 +111,7 @@ ms.locfileid: "60046298"
 
 你需要为在组织中主持或安排会议的所有人员执行此操作。 
 
-![一个图标，显示Microsoft Teams徽标。](media/teams-logo-30x30.png) **使用 Microsoft Teams管理中心**：
+ **使用 Microsoft Teams管理中心**：
 
 1. 在"主页"中 **，单击"用户**"，从列表中选择用户，然后选择"编辑 **"。**
 2. 选择“**音频会议**”旁边的“**编辑**”，然后在“**音频会议**”窗格中，在“**收费电话号码**”和“**免费**”电话号码列表中选择一个号码。

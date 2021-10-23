@@ -22,13 +22,13 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: '请参阅Microsoft Teams为用户和许多其他电话拨入式会议设置分配电话拨入式会议许可证和会议 ID 的步骤。 '
-ms.openlocfilehash: df2dc849424eed7b6c72cf4a63496a73deb53035
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: '请参阅Microsoft Teams将电话拨入式会议许可证和会议 ID 分配给用户和许多其他电话拨入式会议设置的步骤。 '
+ms.openlocfilehash: 24133a85a306aef673660d5b1d7a6dde61ecb23c
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731351"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60537013"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中管理贵组织的音频会议设置
 
@@ -40,13 +40,13 @@ ms.locfileid: "58731351"
 ## <a name="assign-an-audio-conferencing-license"></a>分配音频会议许可证
 
 > [!NOTE]
-> 你不能使用许可证分配Teams。 必须使用Microsoft 365 管理中心。 请参阅[分配Microsoft Teams许可证](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。 
+> 你不能使用许可证分配Teams。 必须使用Microsoft 365 管理中心。 请参阅[分配Microsoft Teams附加许可证。](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md) 
   
  **为用户分配许可证**
   
-1. 登录以Microsoft 365工作或学校帐户登录。
+1. 使用工作Microsoft 365登录帐户。
     
-2. 在左侧导航Microsoft 365 管理中心，转到"用户  >  **""活动** 用户"，然后从可用用户列表中选择用户。
+2. 在左侧导航栏中Microsoft 365 管理中心，转到"用户  >  **""活动** 用户"，然后从可用用户列表中选择用户。
     
     > [!NOTE]
     > [!注释] 如果要同时向多达 20 个用户分配许可证，则可以使用" **选择视图**"下拉列表，然后选择其中一个选项或创建你自己的视图。 然后单击" **编辑**"，单击 **下一步** 两次，然后选择许可证并单击" **提交**"。  
@@ -60,7 +60,7 @@ ms.locfileid: "58731351"
   
 ## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>启用或禁用发送给音频会议用户的电子邮件
 
-![一个图标，显示Microsoft Teams徽标。](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
+ **使用 Microsoft Teams 管理中心**
 
 1. 在左侧导航中，转到“**会议**” > “**会议网桥**”。 
 
@@ -77,7 +77,7 @@ ms.locfileid: "58731351"
   
 ## <a name="reset-the-meeting-conference-id"></a>重置会议 ID
 
-![一个图标，显示Teams徽标。](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
+**使用 Microsoft Teams 管理中心**
 
 1. 在左侧导航栏中， **单击"用户**"，然后从可用用户列表中选择用户。
 
@@ -91,7 +91,7 @@ ms.locfileid: "58731351"
 
 用户安排的每次会议将分配到一个唯一的会议 ID。 尽管会议 ID 将自动创建并分配给用户，但有时用户可能不想使用此 ID，而您想要将其设置为特定号码，或者您的用户无法记住或已丢失其会议 ID。 
 
-![一个图标，显示Microsoft Teams徽标。](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
+ **使用 Microsoft Teams 管理中心**
 
 1. 在左侧导航栏中， **单击"用户**"，然后从可用用户列表中选择用户。
 
@@ -103,7 +103,7 @@ ms.locfileid: "58731351"
   
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>向用户发送包含音频会议信息的电子邮件
 
-![一个图标，显示Microsoft Teams徽标。](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
+ **使用 Microsoft Teams 管理中心**
 
 1. 在左侧导航栏中， **单击"用户**"，然后从可用用户列表中选择用户。
 
@@ -116,7 +116,7 @@ ms.locfileid: "58731351"
   
 ## <a name="set-the-phone-numbers-included-on-invites"></a>设置包含在邀请中的电话号码
 
-![一个图标，显示Microsoft Teams徽标。](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
+ **使用 Microsoft Teams 管理中心**
 
 1. 在左侧导航栏中， **单击"用户**"，然后从可用用户列表中选择用户。
 
@@ -133,7 +133,7 @@ ms.locfileid: "58731351"
 
 **当呼叫者加入会议时设置会议体验**
 
-![一个图标，显示Microsoft Teams徽标。](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
+ **使用 Microsoft Teams 管理中心**
 
 1. 在左侧导航中，转到“**会议**” > “**会议网桥**”。 
 
@@ -184,15 +184,15 @@ ms.locfileid: "58731351"
 
 请参阅[对其音频会议信息的用户发送电子邮件](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)。
     
-## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>在音频会议网桥上查看 (和) 辅助 (备用) 和辅助语言
+## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>在音频会议网桥上 () 辅助 (和) 语言的主要语言
 
-![一个图标，显示Microsoft Teams徽标。](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
+ **使用 Microsoft Teams 管理中心**
 
 1. 在左侧导航中，转到“**会议**” > “**会议网桥**”。 
 
 2. 从列表中选择一个电话号码，然后单击"编辑 **"。**
 
-3. 在"默认语言"和"备用语言"**下选择** (**可选) 。**
+3. 在"默认语言"和"备用语言 **"下选择** (**可选) 。**
 
 4. 单击“**保存**”。
 
@@ -201,7 +201,7 @@ ms.locfileid: "58731351"
   
 ## <a name="see-audio-conferencing-dial-in-numbers"></a>请参阅音频会议拨入号码
 
-![一个图标，显示Microsoft Teams徽标。](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
+ **使用 Microsoft Teams 管理中心**
 
 1. 在左侧导航中，转到“**会议**” > “**会议网桥**”。 
 
@@ -217,11 +217,11 @@ ms.locfileid: "58731351"
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>想要了解有关 Windows PowerShell 的详细信息？
 
-Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用Windows PowerShell，可以使用Microsoft 365管理Office 365管理点来管理任务或任务，当您有多个任务需要执行时，可以简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
+Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用Windows PowerShell，Microsoft 365 Office 365单点管理来管理任务或任务，可在有多个任务需要执行时简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
     
   - [为何需要将 Microsoft 365 或 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [使用 Office 365 管理Microsoft 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [使用 Microsoft 365 Office 365 管理Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
 有关 Windows PowerShell 的详细信息，请参阅 [Microsoft Teams PowerShell 参考](/powershell/module/teams/?view=teams-ps)了解详细信息。
   

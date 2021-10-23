@@ -16,22 +16,20 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 了解如何使用和管理紧急呼叫Microsoft Teams，以定义当Teams用户进行紧急呼叫时会发生什么情况。
+description: 了解如何在呼叫中心内使用和管理Microsoft Teams呼叫策略，以定义当Teams用户进行紧急呼叫时会发生什么情况。
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.voice.emergencycallingpolicies.overview
-ms.openlocfilehash: d4b44cf8ae822a3ab390e4247396ff326eb39501
-ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
+ms.openlocfilehash: 842fa95be2c9aecaa14b1902ed5b3feb4ca0da7a
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60465982"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536543"
 ---
 # <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>管理紧急呼叫策略Microsoft Teams
 
-**如果您的组织使用 Microsoft 呼叫计划、运营商 连接 或直接路由作为 [PSTN](pstn-connectivity.md)连接选项，您可以使用 Microsoft Teams 中的紧急呼叫策略来定义当您的组织中的 Teams 用户拨打紧急呼叫时会发生什么情况。**
-
-**以下所有内容都适用于所有 3 个？**
+如果您的组织使用 Microsoft 呼叫计划、接线员 连接 或直接路由作为[PSTN](pstn-connectivity.md)连接选项，您可以使用 Microsoft Teams 中的紧急呼叫策略来定义当您的组织中的 Teams 用户进行紧急呼叫时会发生什么情况。
 
 可以设置在分配有策略的用户呼叫紧急服务时要通知哪些人以及如何通知他们。 例如，可以将策略设置配置为自动通知组织的安全服务台，让他们侦听紧急呼叫。  
 
@@ -50,7 +48,7 @@ ms.locfileid: "60465982"
 3. 输入策略的名称和说明。
 4. 设置在拨打紧急呼叫时希望如何通知组织内部人员（通常是安全服务台）。 为此，请在"通知 **模式"下** 选择下列选项之一：
     - **仅发送通知**：Teams用户和组发送聊天消息。
-    - 已 **静音** 且无法取消静音的会议：Teams 聊天消息将发送给你指定的用户和组，他们可以侦听 (但不能参与) 与呼叫方和 PSAP 操作员之间的对话。
+    - 已 **静音** 且无法取消静音的会议：Teams 聊天消息将发送给你指定的用户和组，他们可以侦听 (但不能参与呼叫方与 PSAP 操作员之间的) 对话。
     - 已 **静音** 但能够取消静音的会议：Teams 聊天消息将发送给你指定的用户和组，他们可以取消静音以收听和参与呼叫方与 PSAP 操作员之间的对话。
 5.  如果在静音通知模式下选择了任一会议，可在"拨打紧急呼叫通知号码"框中输入要呼叫和加入紧急呼叫的用户或组的 PSTN 电话号码。 例如，输入组织安全服务台的号码，当进行紧急呼叫时，谁将收到呼叫，然后可以侦听呼叫。 PSTN 电话无法取消静音，即使模式设置为静音会议，但 **能够取消静音**。
 6. 搜索并选择一个或多个用户或组（例如组织的安全服务台）以在拨打紧急呼叫时通知。  通知可以发送到用户、通讯组和安全组的电子邮件地址。 最多可以通知 50 个用户。
@@ -92,7 +90,7 @@ Set-CsTenantNetworkSite -identity "site1" -EmergencyCallingPolicy "Contoso Emerg
 
 ## <a name="related-topics"></a>相关主题
 
-[管理呼叫中心中的紧急呼叫Teams](manage-emergency-call-routing-policies.md)
+[在呼叫中心内管理紧急呼叫Teams](manage-emergency-call-routing-policies.md)
 
 [Teams PowerShell 概览](teams-powershell-overview.md)
 
