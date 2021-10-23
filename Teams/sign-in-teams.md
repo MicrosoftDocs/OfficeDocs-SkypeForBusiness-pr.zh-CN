@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c28a79ddd3608e2e10d3e722577fc9e8d49334cb
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 716a18efda2c2c7f55adf68314dae4b1e07e387b
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727811"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60537052"
 ---
 # <a name="sign-in-to-microsoft-teams"></a>登录 Microsoft Teams
 
@@ -119,7 +119,7 @@ Windows 和 MacOS 上的 Teams 应用将支持限制登录到组织的设备策�
 >1. 策略仅限制登录，不会限制将用户邀请为其他 Azure AD 租户中的来宾，或切换到其他租户（其中已将用户邀请为来宾）的功能。
 >2. 该策略要求 Teams for Windows 版本1.3.00.30866 或更高版本以及Teams for MacOS 版本1.3.00.30882 （发布时间为 2020 年 11 月中）。
 
-**Windows** 管理模板文件 （ADMX/ADML） 策略从 [下载中心](https://www.microsoft.com/download/details.aspx?id=49030) 提供（管理模板文件中的策略设置说明性名称是"限制登录到特定租户中的 Teams 的帐户"）。 另外，你可以在 Windows 注册表中手动设置密钥：
+**Windows** 管理模板文件 （ADMX/ADML） 策略从 [下载中心](https://www.microsoft.com/download/details.aspx?id=49030) 提供（管理模板文件中的策略设置描述性名称是"限制登录到特定租户中的 Teams 的帐户"）。此外，还可以在 Windows 注册表中手动设置密钥：
 
 - 值名称： RestrictTeamsSignInToAccountsFromTenantList
 - 值类型：字符串
@@ -145,10 +145,8 @@ Windows 和 MacOS 上的 Teams 应用将支持限制登录到组织的设备策�
 
 ## <a name="urls-and-ip-address-ranges"></a>URL 和 IP 地址范围
 
-Teams 需要连接到 Internet。 若要了解在 Office 365 计划、政府版和其他云中使用 Teams 的客户应该可以访问的终结点，请阅读 [Office 365 URL 和 IP 地址范围](/office365/enterprise/urls-and-ip-address-ranges)。
+Teams 需要连接到 Internet。若要了解在 Office 365 计划、政府云和其他云中使用 Teams 的客户应该可以访问的终结点，请阅读 [Office 365 URL 和 IP 地址范围](/office365/enterprise/urls-and-ip-address-ranges)。
 
-> [!IMPORTANT]
-> 目前，Teams 要求所有用户都能访问（TCP 端口 443）Google ssl.gstatic.com 服务（即使你不使用 Gstatic，也是如此）。 Teams 将很快取消此要求（2020 年初），届时我们将相应地更新此文章。
 
 ## <a name="related-topics"></a>相关主题
 

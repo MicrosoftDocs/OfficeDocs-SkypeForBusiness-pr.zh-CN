@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6002534362126c2cc16954c7e82c865166776c0b
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 34c255dab5f2f231735abeba9a03ed091d10c205
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731941"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536563"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams 中的团队和频道概述
 
@@ -73,11 +73,11 @@ Teams 中有两个主要角色：
 
 **团队设置** 
 
-团队所有者可以直接在 Teams 中管理团队范围设置。 设置包括能够添加团队图片、跨团队成员设置创建标准和[专用频道](private-channels.md)、添加选项卡和连接器、@提及整个团队或频道，以及使用 GIF、贴纸和 Meme。
+团队所有者可以在 Teams 中直接管理团队范围的设置。设置包括以下能力：添加团队图片、设置所有团队成员创建标准和[专用频道](private-channels.md)的权限、添加选项卡和连接器、@提及整个团队或频道，以及使用 GIF、贴纸和 Meme。
 
 如果是 Microsoft 365 中的 Teams 管理员，则可以在 Teams 管理中心访问系统范围的设置。 这些设置可能会影响团队所有者在团队设置下看到的选项和默认设置。 例如，可以为团队范围的公告、讨论和资源启用默认频道“常规”，它将在所有团队中显示。
 
-默认情况下，所有用户都有权创建团队。 若要修改此设置，请参阅[在 Teams 中分配角色和权限](assign-roles-permissions.md)。
+默认情况下，所有用户都有权创建团队。若要对此进行修改，请参阅[在 Teams 中分配角色和权限](assign-roles-permissions.md)。
 
 吸引用户使用 Teams 的一项关键早期计划活动是帮助人们考虑和了解 Teams 如何在其日常生活中增强协作。 与其他用户交谈，帮助他们选择当前以分散方式协作的业务场景。 将他们带入具有可帮助他们完成工作的相关选项卡的频道。 Teams 最强大的用例之一是任何跨组织流程。
 
@@ -111,7 +111,7 @@ Teams 的特点在于打破组织界限及推动跨职能团队，因此，鼓�
 
 ## <a name="org-wide-teams"></a>组织范围的团队
 
-如果贵组织的用户数不超过 5,000 个，则可以创建组织范围的团队。 组织范围的团队为组织中的每个人提供了自动加入单个协作团队的方法。 有关详细信息（包括创建和管理组织范围团队的最佳做法），请参阅[在 Microsoft Teams 中创建组织范围的团队](create-an-org-wide-team.md)。
+如果组织的用户数不超过 10,000 个，则可以创建组织范围的团队。 组织范围的团队为组织中的每个人提供了自动加入单个协作团队的方法。 有关详细信息（包括创建和管理组织范围团队的最佳做法），请参阅[在 Microsoft Teams 中创建组织范围的团队](create-an-org-wide-team.md)。
 
 ## <a name="next-steps"></a>后续步骤
 

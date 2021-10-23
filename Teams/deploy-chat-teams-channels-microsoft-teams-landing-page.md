@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
 - seo-marvel-may2020
-ms.openlocfilehash: 19296d5def314bdd54af25c27401a9bbd0972cf2
-ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
+ms.openlocfilehash: ed307d811322d2c217a117d192731cf5d42edcb7
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "58973010"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536703"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams 中的聊天、团队、频道和应用
 
@@ -34,11 +34,11 @@ Teams 为组织提供了现成的出色协作体验，并且大多数组织发�
 
 首先，请观看我们的“Teams 聊天、团队和频道”短视频（4 分 30 秒）：
 
+<br/>
+
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE476Yj]
 
-*2019年11月新增功能*
- - 现在可[使用 Advisor for Teams（预览版）帮助你推出 Microsoft Teams](use-advisor-teams-roll-out.md)。Advisor for Teams（预览版）为你提供 Teams 推出的分步指导。它将评估 Microsoft 365 或 Office 365 环境并确定更新或修改所需的最常用配置，帮助你成功推出 Teams。
- - [Microsoft YouTube 频道 IT 团队基础知识](https://aka.ms/MicrosoftTeamsforIT)，包括简短（8-10 分钟）的视频，显示如何推出、配置和管理团队。
+现在可[使用 Advisor for Teams 帮助你推出 Microsoft Teams](use-advisor-teams-roll-out.md)。Advisor for Teams 将指导你完成 Teams 推出。它将评估 Microsoft 365 或 Office 365 环境，并确定更新或修改所需的最常用配置，帮助你成功推出 Teams。
 
 > [!TIP]
 > 我们建议你在 Teams 的初步部署中加入特别推荐的应用 - 例如 Planner。在推动 Teams 采用的过程中添加其他[应用、聊天机器人和连接器](deploy-apps-microsoft-teams-landing-page.md)。
@@ -102,7 +102,7 @@ Teams 提供了一组可用于为组织管理 Teams 的自定义管理员角色�
 
 ### <a name="guest-access"></a>来宾访问权限
 
-Teams 中的来宾访问可让组织外部的个人访问团队和频道。 可以使用来宾访问设置来控制来宾可以或不能使用的功能。 默认情况下，来宾访问处于打开状态。 若要了解详细信息，请参阅 [Teams 中的来宾访问](./guest-access.md)。
+Teams 中的来宾访问可让组织外部的个人访问团队和频道。可以使用来宾访问设置来控制来宾用户能够使用或无法使用哪些功能。默认情况下会关闭来宾访问。若要了解详细信息，请参阅 [Teams 中的来宾访问](./guest-access.md)。
 
 > [!NOTE]
 > 有关外部访问和来宾访问的详细信息，请参阅此处 — [与 Microsoft Teams 中其他组织的用户通信](communicate-with-users-from-other-organizations.md)

@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 了解如何在 Microsoft Teams 中使用和管理私人频道。
-ms.openlocfilehash: 5d942e268639e30a95878485a931cf1af5be87d5
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: 1f86ceba18a234d7b3a1f41ebdbfe58c777beedf
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60045688"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536553"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft Teams 中的私人频道
 
@@ -56,7 +56,7 @@ Microsoft Teams 中的私人频道创建专用空间供团队展开协作。 仅
 
 如果私人频道所有者是一个或多个私人频道的最后一个所有者，则无法通过 Teams 客户端将其删除。
 
-如果专用频道所有者离开组织，或者从与团队关联的 Microsoft 365 组中删除他们，将自动提升为专用频道所有者。
+如果专用频道所有者离开组织，或者从与团队关联的 Microsoft 365 组中被删除，将自动提升一位专用频道成员成为专用频道所有者。
 
 如果团队成员离开团队或从团队中删除成员，则该用户也将从团队中的所有私人频道中离开或删除。 如果将用户添加回团队，则必须将其添加回团队中的私人频道。
 
@@ -93,7 +93,6 @@ Microsoft Teams 中的私人频道创建专用空间供团队展开协作。 仅
 
 > [!NOTE]
 > 只有拥有在 Microsoft Teams 中授予的所有者或成员权限的用户才能访问专用频道网站中的内容。
-> 新 SharePoint 管理中心的活动网站页面中不包括专用频道 SharePoint 网站。
 > 在 2021 年 6 月 28 日之后创建的专用频道 SharePoint 网站将具有自定义模板 ID TEAMCHANNEL#1。
 
 专用频道网站同步数据分类，并继承父团队网站的来宾访问权限。 网站集所有者和成员组的成员资格将与 Teams 中私人频道的成员资格保持同步。 无法通过 SharePoint 独立管理专用频道网站的网站权限。 

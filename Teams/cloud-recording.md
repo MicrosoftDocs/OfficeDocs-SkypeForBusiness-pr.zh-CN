@@ -19,12 +19,12 @@ description: 在 Teams 中部署云语音功能的实用指南，用于记录 Te
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2d84d42849667c1cd87a90f9cd8b3480b5ed8bbd
-ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
+ms.openlocfilehash: a4008aa9f69f525e3fbbeb6fd7596822d7ac9be8
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60462386"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536893"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 云会议录制
 
@@ -261,9 +261,9 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 >
 > 本文中讨论的自动到期功能尚未启动。 有关传送日期的详细信息，请参阅 [路线图（功能 ID： 84580）](https://www.microsoft.com/microsoft-365/roadmap?searchterms=82057&filters=&searchterms=84580) 。
 > 
-> 我们将提供此功能将来工作原理的信息，以便能够为此更改作出计划，并提前修改 Teams 策略设置。
+> 我们将提供此功能未来工作原理的信息，以便能够为此更改作出计划，并提前修改 Teams 策略设置。
 >
-> 在 Teams 中用来预先更改默认过期设置的 CMD 尚不可设置。  当该设置可供修改时，我们将发布更新的消息中心帖子。
+> 在 Teams 中用于提前更改默认到期设置的命令正在部署中，用户可以在 PowerShell 中查看属性。 该设置当前在 Teams 管理中心可用。 至少在启动该功能前 30 天，这些设置将在消息中心的帖子中提供和传达。
 >
 >
 
@@ -309,14 +309,20 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 **管理员如何更改到期日期？**
   
-在功能发布之前，管理员将能够在 PowerShell 或 Teams 管理中心更改默认过期设置。 **该设置尚不可修改**。 当设置可供修改时，我们将发布更新的消息中心帖子。 当启动功能时，管理员可以在 Teams 管理中心更改此设置。 更改到期设置只会影响从该时间点开始新建的 TMR。 这不会影响在该日期之前进行的任何录制。 
+在功能发布之前，管理员将能够在 PowerShell 或 Teams 管理中心更改默认到期设置。 更改到期设置只会影响从该时间点开始新建的 TMR。 这不会影响在该日期之前进行的任何录制。 即使可以在发布之前设置策略属性，新录制不会在功能发布之前自动过期。
 
-过期天数值可设置如下：
+到期天数值可设置如下：
   
 - 该值可以是 1 到 9,999。
 - 该值也可以为 -1，以将 TMR 设置为永不过期。 
  
 在发布此功能前，管理员无法更改已上传到 OneDrive 或 SharePoint 的现有 TMR 的过期日期。 这将保护拥有 TMR 用户的意图。
+  
+若要更改租户的默认自动到期行为，请修改 PowerShell 中的以下属性。 本示例将默认值更改为 50 天。
+ 
+Set-CsTeamsMeetingPolicy -Identity Global -**New** MeetingRecordingExpirationDays 50
+
+在 Teams 管理中心更改默认设置将在以后部署，至少在我们默认启用自动到期功能之前 30 天。
   
 **管理员能否将 TMR 设置为永不过期？**
   
@@ -459,7 +465,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
    > [!div class="nextstepaction"]
    > [运行测试: 缺少会议录制](https://aka.ms/MissingRecordingDiag)
 
-2. 在“运行”诊断窗格中，在 **录制的会议 URL** 字段 (通常在会议邀请中找到) 中输入会议的 URL 以及“**何时记录的会议?”中输入会议的日期 ** 字段，然后选择 **运行测试**。
+2. 在“运行”诊断窗格中，在 **录制的会议 URL** 字段 (通常在会议邀请中找到) 中输入会议的 URL 以及“**何时记录的会议?**”字段中输入会议的日期，然后选择 **运行测试**。
 
 3. 测试将验证会议录制是否已成功完成，并且已上传到 Stream 或 OneDrive。
 
