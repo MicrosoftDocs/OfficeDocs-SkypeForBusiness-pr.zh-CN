@@ -1,5 +1,5 @@
 ---
-title: 购买第三方应用Teams
+title: 购买适用于 Teams 的第三方Teams
 author: KarliStites
 ms.author: kastites
 manager: serdars
@@ -12,20 +12,20 @@ ms.collection:
 ms.reviewer: chhavib, vaibhava
 search.appverid: MET150
 f1keywords: ''
-description: 了解如何在 Microsoft Teams 管理中心Teams第三方应用。
+description: 了解如何在管理中心购买第三方Teams应用Microsoft Teams应用。
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 6d7a6e1a38327cef327a9de119321127b58909fb
-ms.sourcegitcommit: d23185cf6caeeeb055c36609e7c788a2b2e8d07d
+ms.openlocfilehash: 19403d35ad2e7263ad6f0d5a2c7a2b22d4249664
+ms.sourcegitcommit: c7a6079c9592c28d8b082ff92004ae4706cea76e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "60367530"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "60600216"
 ---
-# <a name="purchase-third-party-apps-for-teams"></a>购买第三方应用Teams
+# <a name="purchase-third-party-apps-for-teams"></a>购买适用于 Teams 的第三方Teams
 
-Teams应用可免费安装，某些应用可能需要购买服务订阅，以体验应用的完整功能和范围。 这些服务订阅称为软件即服务 (SaaS) 产品/服务，现在可以通过[AppSource](https://appsource.microsoft.com/)购买，现在Microsoft Teams中心购买。
+Teams应用可免费安装，某些应用可能需要购买服务订阅，以体验应用的完整功能和范围。 这些服务订阅称为软件即服务 (SaaS) 产品/服务，可以通过[AppSource](https://appsource.microsoft.com/)购买，现在可以通过 Microsoft Teams 管理中心购买。
 
 管理[中心](manage-apps.md)中的"Microsoft Teams"页面是查看和管理组织Teams应用的地方。 例如，可以看到应用的组织级状态和属性、将新的自定义应用上载到组织的应用商店、在组织级别阻止或允许应用，以及管理组织范围内的应用设置。
 
@@ -36,9 +36,9 @@ Teams应用可免费安装，某些应用可能需要购买服务订阅，以体
 ## <a name="purchase-apps-in-the-teams-admin-center"></a>在管理中心Teams应用
 
 > [!IMPORTANT]
-> 如果你希望阻止你的用户通过应用商店购买Teams，你必须阻止该应用。 若要详细了解如何阻止应用，请参阅 [管理](app-policies.md) 应用策略或了解如何在组织 [级别阻止应用](manage-apps.md#allow-and-block-apps)。
+> 如果你希望阻止用户通过应用商店购买Teams，你必须阻止该应用。 若要详细了解如何阻止应用，请参阅 [管理](app-policies.md) 应用策略或了解如何在组织 [级别阻止应用](manage-apps.md#allow-and-block-apps)。
 
-1. 在 Microsoft Teams 管理中心的左侧导航中，转到“**Teams 应用**” > “**管理应用**”。 必须是全局管理员或Teams管理员才能访问页面。
+1. 在 Microsoft Teams 管理中心的左侧导航中，转到“**Teams 应用**” > “**管理应用**”。 只有全局管理员或Teams才能访问页面。
 2. 搜索你需要的应用。 若要识别具有付费 SaaS 订阅的应用，请查找"许可证 **"** 列。 每个应用将具有以下值之一：
     - **购买**：该应用提供 SaaS 订阅，可供购买。  
     - **已** 购买：该应用提供 SaaS 订阅，并且你已购买其许可证。
@@ -55,11 +55,7 @@ Teams应用可免费安装，某些应用可能需要购买服务订阅，以体
 > [!NOTE]
 > 只有全局管理员才能添加新的计费帐户。
 
-7. 检查是否选择了正确的计费配置文件。 如果还没有，请通过选择"添加新" **来添加新的**。 可以选择使用信用卡、借记卡或发票计费付款。 计费配置文件还允许您添加采购订单编号，以便以后标识订单。 有关计费配置文件详细信息，请参阅 [了解计费配置文件](/microsoft-365/commerce/billing-and-payments/manage-billing-profiles)。
-
-> [!NOTE]
-> 发票计费仅适用于超过 500 美元的交易。
-
+7. 检查是否选择了正确的计费配置文件。 如果还没有，请通过选择"添加新" **来添加新的**。 可以选择使用信用卡、借记卡或发票 [计费 进行支付](#invoice-billing)。 计费配置文件还允许您添加采购订单编号，以便以后标识订单。 有关计费配置文件详细信息，请参阅 [了解计费配置文件](/microsoft-365/commerce/billing-and-payments/manage-billing-profiles)。
 8. 选择 **"下单"。**
 9. 选择 **"设置** "以在发布者的网站上激活订阅。 如果在购买后没有设置订阅，可以在以后选择"管理许可证 **"来设置订阅**。
 
@@ -76,6 +72,13 @@ Teams应用可免费安装，某些应用可能需要购买服务订阅，以体
 
 > [!NOTE]
 > 如果全局管理员想要管理由另一个全局管理员购买的订阅，则需要在同一计费帐户中。 可以通过选择订阅中的应用，为另一个全局管理员授予对所购买的订阅Microsoft 365 管理中心。 从该页转到"**查看计费配置文件"**  >  **选择计费帐户**  >  **""分配角色**  >  **""添加其他全局管理员"。**
+
+### <a name="invoice-billing"></a>发票计费
+
+- 发票计费作为一些事务的支付选项提供。
+- 首次使用发票计费时需要信用审核，审批最多需要 24 到 48 小时。 在信用检查完成之前，发票计费不可用。 可以使用信用卡下单，或稍后在信用审核获得批准后重试。
+- 发票计费仅适用于全局管理员或同时具有Teams管理员和计费管理员权限的管理员。
+- 购买具有 30 天免费试用版的计划时，无法通过发票计费。
 
 ## <a name="have-a-saas-offer-for-a-teams-app-that-you-want-to-list-and-sell-in-the-microsoft-teams-admin-center-and-appsource"></a>在管理中心和 AppSource 中Teams销售的 SaaS 产品/Microsoft Teams SaaS 产品/服务？
 
