@@ -4,7 +4,7 @@ ms.reviewer: gothambi
 author: BrandBer
 ms.author: gothambi
 manager: naanur
-ms.date: 08/31/2021
+ms.date: 10/25/2021
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
@@ -13,31 +13,32 @@ ms.collection:
 description: 了解 PowerShell 中的最新Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 55d9ec2ab188d478e3488d5272dd964c2e018418
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 232a41dce111b0d913c3888c0e00140bf2b904c0
+ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536733"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60579612"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft TeamsPowerShell 发行说明
 
-本页提供适用于Teams公共预览版的最新 PowerShell 更改日志。
+本页提供适用于公开Teams预览版的最新 PowerShell 更改日志。
 
 ## <a name="release-notes"></a>发行说明
 
 > [!NOTE]
-> **-preview** 在下面的版本列中表示 PowerShell Teams更新。
+> **以下版本** 列中的 -preview 表示 PowerShell Teams更新。
 
 | 日期 | 版本 | 更新 |
 |------- | -------------------- | ------------------------------ |
-| 2021 年 9 月 | [2.6.0](https://www.powershellgallery.com/packages/MicrosoftTeams/2.6.0) |<li>修复了当 MicrosoftTeams 模块查找成为另一个自定义 PowerShell 模块的嵌套模块时失败的 bug。 现在，MicrosoftTeams cmdlet 可用，即使它是另一模块的嵌套模块。</li><li>Releases [获取 \| 新的 \| 完整 \| 清除]-CsOnlineTelephoneNumberOrder cmdlet。</li><li>发布 Get-CsOnlineTelephoneNumberCountry Get-CsOnlineTelephoneNumberType cmdlet。</li><li>发布这些 cmdlet 的新参数：Get-CsOnlineApplicationInstance、New-CsExternalAccessPolicy、New-CsTeamsAppSetupPolicy、New-CsTeamsCallingPolicy、New-CsTeamsCallParkPolicy、New-CsTeamsMeetingPolicy、New-CsTeamsMessagingPolicy、 Set-CsTeamsAppSetupPolicy、Set-CsTeamsCallParkPolicy、Set-CsTeamsGuestMessagingConfiguration、Set-CsTeamsMeetingPolicy、Set-CsTenantFederationConfiguration、Set-CsExternalAccessPolicy、Set-CsTeamsCallingPolicy。</li><li>修复了在尝试登录错误后重试登录Connect-MicrosoftTeams登录时发生的失败。</li><li>更新，使模块的发行说明在每个新版本的 PowerShell 库中可用。</li>
-| 2021 年 9 月 | [2.5.2](https://www.powershellgallery.com/packages/MicrosoftTeams/2.5.2) |<li>注意：从此版本开始，发行说明也将随模块本身一起在 PowerShell 库中发布，以减少发行说明的延迟。</li><li>Releases [Get \| Set \| Grant New \| \| Remove]-CsTeamsEnhancedEncryptionPolicy cmdlets。</li><li>删除 [获取 \| 设置 \| 新 \| 删除]-CsTenantBlockedNumberExceptionPattern cmdlet。</li><li>修复了以下 bug：Microsoft Teams模块查找失败（如果它是另一个自定义 PowerShell 模块的嵌套模块）。 现在，Microsoft Teams cmdlet 可用，即使它是另一模块的嵌套模块。</li><li>Releases [获取 \| 新的 \| 完整 \| 清除]-CsOnlineTelephoneNumberOrder cmdlet。</li><li>发布 Get-CsOnlineTelephoneNumberCountry Get-CsOnlineTelephoneNumberType cmdlet。</li><li>修复了在尝试登录错误Connect-MicrosoftTeams重试登录时发生的失败。</li><li>修复Add-TeamChannelUserRemove-TeamChannelUser通道的故障和故障。</li>
-| 2021 年 8 月 | [2.5.1](https://www.powershellgallery.com/packages/MicrosoftTeams/2.5.1) |<li>现在，Connect-MicrosoftTeams的访问令牌登录使用统一的令牌数组，而不是每个特定于资源的令牌的单独参数。 可在此处找到 [更多详细信息](/powershell/module/teams/connect-microsoftteams)。</li><li>修复了 Cloudshell 中Connect-MicrosoftTeams登录失败的问题。 现在默认使用用户的登录标识，而不是提示重新身份验证。</li><li>TeamsUnassignedNumberTreatment cmdlet 现已可用。</li><li>Get-CsOnlineDialInConferencingBridge Set-CsOnlineDialInConferencingBridge cmdlet 现已从较旧的实现迁移到较新的 API。</li><li>仅已发布带 -identity Get-CsTenant Get-CsOnlineUser (的) 和更新版本。 与它们的远程处理对应对象相比，它们不再发出已弃用的属性，并且有一些格式更改。</li><li>注意：New-Team相关的更新已从 2.5.0 还原，并且已提供以前的版本以避免任何中断性更改。</li>|
+| 2021 年 10 月 | [2.6.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.6.1-preview) |<li>Releases [Set \| Remove]-CsPhoneNumberAssignment cmdlets。 这些 cmdlet 将逐渐推出。因此，某些租户将收到一条错误消息，指出他们可以使用现有的 cmdlet， (推出完成) 。</li><li>发布 Get-CsOnlineTelephoneNumberCountry Get-CsOnlineTelephoneNumberType cmdlet。</li><li>为 [Set \| New]-CsTeamsEmergencyCallingPolicy cmdlet 发布新参数 EnhancedEmergencyServiceDisclaimer。</li><li>Get-CsUserCallingSettings cmdlet。 此 cmdlet 最终会在 GA 模块中发布。 在预览版模块中发布试用版。</li>
+| 2021 年 9 月 | [2.6.0](https://www.powershellgallery.com/packages/MicrosoftTeams/2.6.0) |<li>修复了当 MicrosoftTeams 模块查找成为另一个自定义 PowerShell 模块的嵌套模块时失败的 bug。 现在，MicrosoftTeams cmdlet 可用，即使它是另一模块的嵌套模块。</li><li>Releases [获取 \| 全新 \| 完整 \| 清除]-CsOnlineTelephoneNumberOrder cmdlet。</li><li>发布 Get-CsOnlineTelephoneNumberCountry Get-CsOnlineTelephoneNumberType cmdlet。</li><li>发布这些 cmdlet 的新参数：Get-CsOnlineApplicationInstance、New-CsExternalAccessPolicy、New-CsTeamsAppSetupPolicy、New-CsTeamsCallingPolicy、New-CsTeamsCallParkPolicy、New-CsTeamsMeetingPolicy、New-CsTeamsMessagingPolicy、 Set-CsTeamsAppSetupPolicy、Set-CsTeamsCallParkPolicy、Set-CsTeamsGuestMessagingConfiguration、Set-CsTeamsMeetingPolicy、Set-CsTenantFederationConfiguration、Set-CsExternalAccessPolicy、Set-CsTeamsCallingPolicy。</li><li>修复了在尝试登录错误后重试登录Connect-MicrosoftTeams登录时发生的失败。</li><li>更新，使模块的发行说明在每个新版本的 PowerShell 库中可用。</li>
+| 2021 年 9 月 | [2.5.2-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.5.2-preview) |<li>注意：从此版本开始，发行说明也将随模块本身一起在 PowerShell 库中发布，以减少发行说明的延迟。</li><li>Releases [Get \| Set \| Grant New \| \| Remove]-CsTeamsEnhancedEncryptionPolicy cmdlets。</li><li>删除 [获取 \| 设置 \| 新 \| 删除]-CsTenantBlockedNumberExceptionPattern cmdlet。</li><li>修复了以下 bug：Microsoft Teams模块查找失败（如果它是另一个自定义 PowerShell 模块的嵌套模块）。 现在，Microsoft Teams cmdlet 可用，即使它是另一模块的嵌套模块。</li><li>Releases [获取 \| 全新 \| 完整 \| 清除]-CsOnlineTelephoneNumberOrder cmdlet。</li><li>发布 Get-CsOnlineTelephoneNumberCountry Get-CsOnlineTelephoneNumberType cmdlet。</li><li>修复了在尝试登录错误Connect-MicrosoftTeams重试登录时发生的失败。</li><li>修复Add-TeamChannelUser和Remove-TeamChannelUser通道失败的问题。</li>
+| 2021 年 8 月 | [2.5.1](https://www.powershellgallery.com/packages/MicrosoftTeams/2.5.1) |<li>现在，Connect-MicrosoftTeams的访问令牌登录使用统一的令牌数组，而不是每个特定于资源的令牌的单独参数。 可在此处找到 [更多详细信息](/powershell/module/teams/connect-microsoftteams)。</li><li>修复了 Cloudshell 中Connect-MicrosoftTeams登录失败的问题。 现在默认使用用户的登录标识，而不是提示重新身份验证。</li><li>TeamsUnassignedNumberTreatment cmdlet 现已可用。</li><li>Get-CsOnlineDialInConferencingBridge Set-CsOnlineDialInConferencingBridge cmdlet 现已从旧实现迁移到较新的 API。</li><li>仅已发布带 -identity Get-CsTenant Get-CsOnlineUser (的) 和更新版本。 与它们的远程处理对应对象相比，它们不再发出已弃用的属性，并且有一些格式更改。</li><li>注意：New-Team相关的更新从 2.5.0 恢复，并且已提供以前的版本以避免任何中断性更改。</li>|
 | 2021 年 7 月 | [2.4.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.4.1-preview) |<li>现在可以授予 cmdlet 更改。</li><li>发布了新的语音相关 cmdlet。</li><li>删除 -Cs* cmdlet 的证书指纹身份验证。</li><li>所有 cmdlet 的日志记录文件的日志记录修复。</li><li>修复了 *TeamChannelUser cmdlet 的问题。</li>|
-| 2021 年 6 月 | [2.4.0-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.4.0-preview) |<li>仅预览版 Get-CsTenant、Get-CsOnlineUser (且仅具有 -identity 参数的) 、Get-CsOnlineDialInConferencingLanguagesSupported 和 Import-CsOnlineAudioFile。</li><li>现代版本的 Get-CsOnlineDialInConferencingLanguagesSupported Import-CsOnlineAudioFile 预期与远程处理版本类似/相同。</li><li>使用 -identity 参数Get-CsTenant Get-CsOnlineUser (时，) 和属性的已现代化版本不会发出弃用的属性。</li><li>使用 -identity 参数 Get-CsTenant Get-CsOnlineUser (时，) 和远程处理计数器部分) 更改了一些格式。</li><li>Releases [Get \| Set \| Grant New \| \| Remove]-CsTeamsAudioConferencingPolicy cmdlets。</li><li>发布 Get-CsOnlineAudioFile Remove-CsOnlineAudioFile cmdlet。</li><li>Set-TeamTargetingHierarchy、Remove-TeamTargetingHierarchy Get-TeamTargetingHierarchyStatus现在可供GCC使用。</li><li>修复了 Get-TeamTargetingHierarchyStatus 调用的终结点。</li>|
+| 2021 年 6 月 | [2.4.0-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.4.0-preview) |<li>仅预览版 Get-CsTenant、Get-CsOnlineUser (且仅包含 -identity 参数的) 、Get-CsOnlineDialInConferencingLanguagesSupported 和 Import-CsOnlineAudioFile。</li><li>现代化版本的 Get-CsOnlineDialInConferencingLanguagesSupported Import-CsOnlineAudioFile 预期与远程处理版本类似/相同。</li><li>使用 -identity 参数Get-CsTenant Get-CsOnlineUser (时，) 和属性的已现代化版本不会发出弃用的属性。</li><li>使用 -identity 参数Get-CsTenant Get-CsOnlineUser (时，) 和远程处理计数器部分) 更改了一些格式更改。</li><li>Releases [Get \| Set \| Grant New \| \| Remove]-CsTeamsAudioConferencingPolicy cmdlets。</li><li>发布 Get-CsOnlineAudioFile Remove-CsOnlineAudioFile cmdlet。</li><li>Set-TeamTargetingHierarchy、Remove-TeamTargetingHierarchy Get-TeamTargetingHierarchyStatus现在可用于GCC客户。</li><li>修复了 Get-TeamTargetingHierarchyStatus 调用的终结点。</li>|
 | 2021 年 5 月 | [2.3.2-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.3.2-preview) |<li>支持使用 连接-MicrosoftTeams 进行 AccessToken 登录。 添加了接受令牌数组的 -AccessTokens 参数。 使用 AccessTokens Teams需要 MSGraph 和 Teams 资源令牌。</li><li>删除了 AadAccessToken 和 MsAccessToken 参数。</li>|
-| 2021 年 5 月 | [2.3.1](https://www.powershellgallery.com/packages/MicrosoftTeams/2.3.1) |<li>从 更新。NETCore 2.1 到 3.1</li><li>添加了 cmdlet，用于获取用户和组的多地域区域</li><li>修复了集成 Windows 身份验证，以将 -AccountId 与 Connect-MicrosoftTeams</li><li>TeamsCallHoldPolicy cmdlet 现已可用</li><li>更新了许多命令的输入参数和输出格式</li><li>修复了远程处理命令时出现的大型延迟问题</li><li>GA 自定义程序包功能</li>|
+| 2021 年 5 月 | [2.3.1](https://www.powershellgallery.com/packages/MicrosoftTeams/2.3.1) |<li>从 更新。NETCore 2.1 到 3.1</li><li>添加了 cmdlet，用于获取用户和组的多地域区域</li><li>修复了集成 Windows 身份验证以将 -AccountId 与 Connect-MicrosoftTeams</li><li>TeamsCallHoldPolicy cmdlet 现已可用</li><li>更新了许多命令的输入参数和输出格式</li><li>修复了远程处理命令时出现的大型延迟问题</li><li>GA 自定义程序包功能</li>|
 | 2021 年 4 月 | [2.2.0-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.2.0-preview) | <li>修复了集成身份验证Windows -AccountId 与 连接-MicrosoftTeams 的集成身份验证。</li><li>添加了 cmdlet，用于获取可发送给用户的总更改通知事件的详细信息。</li><li>添加了 cmdlet，用于获取用户和组的多地域区域。</li><li>处理传递给 TeamsEnvironment 名称的值区分大小写。 这已修复。</li><li>模块内远程会话管理的主要重构，以便于单元测试。 租户管理员不应有功能更改。</li>|
 | 2021 年 4 月 | [2.1.0-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.1.0-preview) | <li>修复了某些远程处理 cmdlet (例如 Get-CsTeamsNetworkRoamingPolicy、Get-CsTeamsMeetingPolicy、Get-CsTeamsMessagingPolicy 等) 的输出格式。</li><li>更新了策略管理 cmdlet 的参数列表。</li>|
 | 2021 年 3 月 | [2.0.0](https://www.powershellgallery.com/packages/MicrosoftTeams/2.0.0) | <li>使用 MSAL 进行身份验证&授权</li> <li>Connect-MicrosoftTeams是所有 cmdlet 的入口点。</li><li>New-csOnlineSession 不再可用。 已替换为 连接-MicrosoftTeams。</li><li>不再需要 Enable-csonlinesessionforreconnection。 该功能已在 PowerShell 模块中Teams实现。</li> <li>重构策略包 cmdlet 并添加组包分配</li><li>Get-Team cmdlet 的重要性能增强</li> <li>改进了现有 cmdlet 的日志记录和调试选项 </li> <li>添加了模板管理 cmdlet</li> <li>弃用New-CsOnlineSession</li>|

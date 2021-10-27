@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft Teams 管理中心中管理 Microsoft Teams
+title: 在 Microsoft Teams 管理中心中管理团队
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 89f31f586fc7b3839dd5820089528f91dfad7e93
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: b84957e7451b75b804d2c279e160a260dabfbea8
+ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733832"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60579532"
 ---
 # <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 管理中心中管理团队
 
@@ -117,7 +117,7 @@ ms.locfileid: "58733832"
 
 Teams 概述网格中的团队列表中缺少一些团队。
 
-**原因**：当系统错误（或尚未）分析团队时会出现此问题，这可能导致团队缺少属性，无法被识别。
+**原因**：当团队未 (或尚未) 经系统正确分析时，会出现此问题，这可能会导致缺少属性，从而无法识别它。
 
 **解决方法：通过 MS Graph 手动将属性设置为正确的值**
 

@@ -257,6 +257,8 @@ items:
         items:
           - name: 安全指南
             href: teams-security-guide.md
+          - name: 端到端加密
+            href: teams-end-to-end-encryption.md
           - name: Azure Sentinel 和 Teams
             href: teams-sentinel-guide.md
           - name: 标识模式和身份验证
@@ -325,7 +327,7 @@ items:
         href: manage-teams-overview.md
       - name: 管理员角色
         href: using-admin-roles.md
-      - name: 在 Microsoft Teams 管理中心中管理 Teams
+      - name: 在 Teams 管理中心中管理团队
         href: manage-teams-in-modern-portal.md
       - name: 为你的组织管理 Teams 设置
         href: enable-features-office-365.md
