@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bdb699ffba3c0d5e1af49477d597d8730c440ce1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 45918358ac6e0419b65a0359bdcc8e500a1187bc
+ms.sourcegitcommit: c7a6079c9592c28d8b082ff92004ae4706cea76e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602237"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "60600226"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Microsoft Teams 的硬件要求
 
@@ -40,7 +40,7 @@ ms.locfileid: "58602237"
 |硬盘    | 3.0 GB 可用磁盘空间        |
 |显示器    |   1024 x 768 屏幕分辨率 |
 |图形硬件 |  Windows OS：图形硬件加速要求 DirectX 9 或更高版本，对于 Windows 10 具有 WDDM 2.0 或更高版本（或针对 Windows 10 Fall Creators 更新，即 WDDM 1.3 或更高版本）
-|操作系统  |    Windows 10（不包括 Windows 10 LTSC）、Windows 10 on ARM、Windows 8.1、Windows Server 2019、Windows Server 2016、Windows Server 2012 R2。 注意：建议使用最新的 Windows 版本和可用的安全修补程序。|
+|操作系统  |    Windows 11、Windows 10（不包括 Windows 10 LTSC）、Windows 10 on ARM、Windows 8.1、Windows Server 2019、Windows Server 2016、Windows Server 2012 R2。 注意：建议使用最新的 Windows 版本和可用的安全修补程序。|
 |.NET 版本    |  需要 .NET 4.5 CLR 或更高版本       |
 |视频    |  USB 2.0 视频摄像头       |
 |设备    |   标准笔记本电脑摄像头、麦克风和扬声器    |
