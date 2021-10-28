@@ -18,13 +18,13 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
-description: 了解如何在 Teams 中管理参与者和来宾的会议策略设置。
-ms.openlocfilehash: 2ca320db9c4020c6b79f38af86ed5083ae17fb89
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+description: 了解如何在参与者和来宾的Teams管理会议策略设置。
+ms.openlocfilehash: 5a277aeb5ccdef5bc3ec98d849cd9f9ec5271e2b
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014536"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605408"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>会议策略设置 - 参与者和来宾
 
@@ -46,7 +46,7 @@ ms.locfileid: "60014536"
 此设置是一个按组织者的策略，允许召开无领导电话拨入式会议。 此设置控制拨入用户是否可以在没有组织中经过身份验证的用户出席的情况下加入会议。 默认情况下，此设置已关闭，这意味着拨入用户将在大厅中等待，直到组织中经过身份验证的用户加入会议。
 
 > [!NOTE]
-> 如果此设置已关闭，并且拨入用户先加入会议并放置在大厅中，则组织用户必须通过 Teams 客户端加入会议，以允许用户从大厅访问。 拨号用户没有大厅控制功能。
+> 如果此设置已关闭，并且拨入用户先加入会议并放置在大厅中，则组织用户必须使用 Teams 客户端加入会议，以允许该用户从大厅进入。 拨号用户没有大厅控制功能。
 
 ## <a name="automatically-admit-people"></a>自动允许人员
 
@@ -65,8 +65,8 @@ ms.locfileid: "60014536"
 |**组织中用户和来宾**     |组织中经过身份验证的用户（包括来宾用户）可以直接加入会议，无需在大厅中等待。 来自受信任组织和匿名用户的用户在大厅中等待。 这是默认设置。    |
 |**我的组织中人员、受信任的组织和来宾**     |组织内经过认证的用户，包括嘉宾用户和来自可信组织的用户，直接加入会议，无需在大厅等待。  匿名用户在大厅里等待。   |
 |**我的组织中人员**    |组织中经过身份验证的用户直接加入会议，无需在大厅中等待。  来自受信任组织、来宾用户和匿名用户的用户在大厅中等待。          |
-|**仅管理器**    |只有会议组织者才能直接参加会议，无需在大厅等待。 其他所有人（包括组织中经过身份验证的用户、来宾用户、来自受信任组织的用户和匿名用户）必须在大厅中等待。 在 Teams 客户端会议选项页面上，它显示为"仅我"。          |
-|**仅受邀用户**    |只有受邀用户和会议组织者可以直接加入会议，而无需在大厅中等待。 其他所有人（包括组织中经过身份验证的用户、来宾用户、来自受信任组织的用户和匿名用户）必须在大厅中等待。 在 Teams 客户端会议选项页面上，它显示为"我邀请的人"。          |
+|**仅管理器**    |只有会议组织者才能直接参加会议，无需在大厅等待。 其他所有人（包括组织中经过身份验证的用户、来宾用户、来自受信任组织的用户和匿名用户）必须在大厅中等待。 在Teams会议选项"页面上，它显示为"仅我"。          |
+|**仅受邀用户**    |只有受邀用户和会议组织者可以直接加入会议，而无需在大厅中等待。 其他所有人（包括组织中经过身份验证的用户、来宾用户、来自受信任组织的用户和匿名用户）必须在大厅中等待。 在"Teams客户端会议选项"页面上，它显示为"我邀请的人"。          |
 
 ## <a name="allow-dial-in-users-to-bypass-the-lobby"></a>允许拨入用户绕过大厅
 
@@ -99,5 +99,5 @@ ms.locfileid: "60014536"
 ## <a name="related-topics"></a>相关主题
 
 - [Teams PowerShell 概览](teams-powershell-overview.md)
-- [向 Teams 中的用户分配策略](assign-policies.md)
+- [向 Teams 中的用户分配策略](policy-assignment-overview.md)
 - [从用户删除 RestrictedAnonymousAccess Teams 会议策略](meeting-policies-restricted-anonymous-access.md)

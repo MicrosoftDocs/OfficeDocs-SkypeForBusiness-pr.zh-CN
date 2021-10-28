@@ -20,12 +20,12 @@ metadata:
   - Teams_ITAdmin_RemoteWorkers
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 87533fdff4905866a121ae4a6149333b6e8a62b6
-  ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+  ms.openlocfilehash: bfdb7ceab9e4a3d3ffebf903b073c5ec707e7bc6
+  ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 08/26/2021
-  ms.locfileid: "58620728"
+  ms.lasthandoff: 10/28/2021
+  ms.locfileid: "60605598"
 items:
 - durationInMinutes: 1
   content: >
@@ -82,7 +82,7 @@ items:
   content: "\n### <a name=\"licensing\"></a>许可\n尽管你无需任何附加许可证即可举行会议（只需具有 Microsoft Teams 许可证），但有些方案需要附加许可。\n\n允许参与者从普通电话加入 Teams 会议的音频会议需要附加许可证。 这将在关于音频会议的专门培训中进行介绍。\n\n有关详细信息，请参阅 [Microsoft Teams 服务说明](/office365/servicedescriptions/teams-service-description)。\n\n### <a name=\"bandwidth-and-media-flow\"></a>带宽和媒体流\n在 Teams 中，有两种方法可以启动实时通讯：\n-   用户可以直接给其他用户打电话\n-   用户可以创建会议（临时会议或安排的会议） 对于通话，媒体（音频、视频或者桌面或应用程序共享）尽可能直接传输。 例如，如果两个用户之间没有防火墙（例如，两个用户位于同一个网络内），媒体流量将直接从一个用户传输到另一个用户。 如果有防火墙阻止流量在用户之间直接传输，流量将通过中继发送。\n\n对于会议，所有流量均首先发送到托管在 Office 365 中的会议服务。 音频流量在发回之前在其中收集和混合；将会接收视频流量和应用程序或桌面共享并将其分发给与会者。\n\n<strong>重要说明！</strong>\n在新型冠状肺炎（COVID-19） 爆发期间，建议用户通过单击“<strong>加入团队会议</strong>”按钮来加入会议，而不是使用 PSTN 会议号码或 <strong>给我打电话</strong>。 这主要是由于新型冠状病毒（COVID-19）所影响国家/地区的电话基础设施拥堵而导致。 通过避免 PSTN 通话，您可能会体验到更好的音频质量。 \n\n此培训中未涵盖规划带宽，但它对用户体验至关重要。\n\n有关详细信息，请参阅[为 Microsoft Teams 准备好组织的网络](./prepare-network.md)。\n\n### <a name=\"exchange-dependencies\"></a>Exchange 依赖项\n\n对于使用本地 Exchange Server 的客户，在从 Teams 客户端创建和查看会议时以及合规性方面可能存在限制，具体取决于 Exchange Server 的版本。\n查看 [Exchange 与 Microsoft Teams 如何交互](./exchange-teams-interact.md)（预计阅读时间为 3 分钟）以了解可能的限制。\n\n### <a name=\"end-meetings-for-all-participants\"></a>为所有参与者结束会议\n\n会议组织者可以通过单击会议中的“**结束会议**”，为 Teams 中所有会议参与者结束会议。 此功能在下列场景会有用：\n-   教师可在下课后防止学生不受监督地留在会议中。\n-   对于录像的会议，比如视频研讨会，会议组织方可以确保录像在会议结束时结束。  \n\n了解更多，请参阅[为所有与会者结束 Teams 会议](https://support.office.com/article/end-a-teams-meeting-for-everyone-in-attendance-5051fa72-8470-4a38-99e4-014535208971)。\n\n### <a name=\"change-participant-settings-for-a-meeting\"></a>更改会议的参与者设置\n\n会议组织者可以在 **会议选项** 中更改具体某个会议的默认参与者设置。 有三种方法更改：\n-   转到 Teams 中的日历，选择一个会议，然后选择 **会议选项**。 \n-   在会议邀请中，选择 **会议选项**。\n-   选择 **显示参与者** 打开 **人员** 窗格，然后选择 **管理权限**。 \n\n要了解更多信息，请参阅[更改 Teams 会议的参与者设置](https://support.microsoft.com/article/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e)。\n"
 - title: 会议配置选项
   durationInMinutes: 20
-  content: "\n作为 IT 管理员，你可以设置会议策略和设置以定义会议体验。\n\n### <a name=\"meeting-policies\"></a>会议策略\n\n使用 Teams 会议策略控制由组织中用户安排的会议中对会议参与者可用的功能。 若要了解详细信息，请参阅[管理 Teams 中的会议策略](./meeting-policies-in-teams.md)（预计阅读时长 16 分钟）。 \n\n### <a name=\"meeting-settings\"></a>会议设置\n\n使用 Teams 会议设置来控制匿名用户是否可以加入 Teams 会议、自定义会议邀请，并在想要启用服务质量 (QoS) 的情况下设置实时流量端口范围。 这些设置适用于用户在组织中安排的所有 Teams 会议。 若要了解详细信息，请参阅[管理 Teams 中的会议策略](./meeting-settings-in-teams.md)。\n（预计阅读时间 4 分钟）。\n"
+  content: "\n作为 IT 管理员，你可以设置会议策略和设置以定义会议体验。\n\n### <a name=\"meeting-policies\"></a>会议策略\n\n使用 Teams 会议策略控制由组织中用户安排的会议中对会议参与者可用的功能。 若要了解详细信息，请参阅[管理 Teams 中的会议策略](meeting-policies-overview.md)（预计阅读时长 16 分钟）。 \n\n### <a name=\"meeting-settings\"></a>会议设置\n\n使用 Teams 会议设置来控制匿名用户是否可以加入 Teams 会议、自定义会议邀请，并在想要启用服务质量 (QoS) 的情况下设置实时流量端口范围。 这些设置适用于用户在组织中安排的所有 Teams 会议。 若要了解详细信息，请参阅[管理 Teams 中的会议策略](./meeting-settings-in-teams.md)。\n（预计阅读时间 4 分钟）。\n"
 - title: 练习 - 配置会议
   durationInMinutes: 20
   content: "\n在本练习中，你将有机会测试 Teams 中的会议。 尽管我们未介绍如何执行每个操作，但我们推荐了一些可尝试的方案。\n\n### <a name=\"requirements\"></a>要求\n-   具有适当的 Teams 许可证的 Office 365 组织\n    -   强烈建议你使用专用的测试租户。\n    -   如果你没有测试许可证，可以在此处注册试用版租户：[Office 365 企业版 E5 试用版](https://go.microsoft.com/fwlink/p/?LinkID=698279)。\n    -   请勿在生产环境中运行任何测试。 更改设置或策略可能会对所有用户造成负面影响，并可能会影响其用户体验。\n-   至少两个端点\n   -   这可以是两台 PC，但你还可以在移动电话上使用该客户端。\n\n### <a name=\"suggested-scenarios-to-test\"></a>建议进行测试的方案\n-   从 Teams 客户端内安排不同的会议类型：频道会议、临时会议、私人会议。\n-   使用 [Outlook 外接程序](./teams-add-in-for-outlook.md)安排会议。\n-   对于已安排的会议，请在会议开始前启动聊天（例如讨论议程）。\n-   加入会议并测试不同的方案和工作负荷：例如，仅音频、视频、桌面共享。\n-   在不登录租户的前提下，从浏览器加入会议（你可能需要使用“InPrivate”浏览），以查看以匿名方式加入会议是什么样。\n-   登录到管理员门户并更改会议的某些设置（例如，禁止安排私人会议）。 这对用户体验有何影响？\n-   作为会议组织者，为所有与会者退出会议。    \n"

@@ -1,7 +1,7 @@
 ---
 title: 管理中心中的管理团队模板
 author: cichur
-ms.author: v-cichur
+ms.author: serdars
 manager: serdars
 ms.reviewer: yinchang
 ms.topic: article
@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何在管理中心中管理团队模板
-ms.openlocfilehash: c154cdf60b887d5c934e4f63634691c4b9bfcdbd
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: c8b9926290e58fe190d2351820e2bb63560c8c8c
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732821"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605368"
 ---
 # <a name="manage-team-templates-in-the-admin-center"></a>管理中心中的管理团队模板
 
@@ -90,7 +90,7 @@ ms.locfileid: "58732821"
 
 **问：能否批量将用户分配到团队模板策略？**
   
-答：是的，我们支持在 PowerShell 中对模板策略进行批处理分配。 此操作的策略类型是 TeamsTemplatePermissionPolicy。 [了解更多信息](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
+答：是的，我们支持在 PowerShell 中对模板策略进行批处理分配。 此操作的策略类型是 TeamsTemplatePermissionPolicy。 [了解详细信息](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
 
 **问：能否将组分配到团队模板策略？**
 
@@ -111,8 +111,7 @@ ms.locfileid: "58732821"
 1. 在管理中心，转到"用户 **"。**
 1. 在"用户"列表表中，选择要分配到特定模板策略的用户。
 1. 选择"编辑设置"，并更改"模板策略"字段。
-1. 选择"应用"。
-   在 Microsoft [ \| Docs 中详细了解如何Microsoft Teams用户Microsoft Teams策略](./assign-policies.md#assign-a-policy-to-a-batch-of-users)。
+1. 选择"应用"。 [了解详细信息](./assign-policies-users-and-groups.md#assign-a-policy-to-a-batch-of-users)。
 
 **问：如何查看分配到特定策略的所有用户？**
 
@@ -142,6 +141,6 @@ ms.locfileid: "58732821"
 
 - [从现有团队模板创建团队模板](./create-template-from-existing-template.md)
 
-- [在 Microsoft Docs 中Microsoft Teams用户Microsoft Teams \| 策略](./assign-policies.md)
+- [在 Microsoft Docs 中Microsoft Teams用户Microsoft Teams \| 策略](./policy-assignment-overview.md)
 
 - [将用户批量分配到策略](/powershell/module/teams/new-csbatchpolicyassignmentoperation)

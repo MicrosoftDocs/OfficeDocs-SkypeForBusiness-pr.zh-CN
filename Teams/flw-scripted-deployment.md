@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d7eac555d5b48bb704e2699c99eff7c1a2969cc3
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 1505d8e9bd385d2dce35cb0c7dad24b5988bf0cc
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012756"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605808"
 ---
 # <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>如何为一线工作人员大规模预配 Teams
 
@@ -387,7 +387,7 @@ Microsoft 付费的云服务（如 Microsoft 365、Office 365、企业移动性 
 
 ## <a name="further-reading"></a>延伸阅读
 
-- [新建团队频道 (Powershell)](/powershell/module/teams/new-teamchannel?view=teams-ps)
-- [新建团队消息传递策略 (Powershell)](/powershell/module/skype/new-csteamsmessagingpolicy?view=skype-ps)
-- [向 Microsoft Teams 中的用户分配策略](assign-policies.md#install-and-connect-to-the-microsoft-teams-powershell-module)
+- [新建团队频道 (Powershell)](/powershell/module/teams/new-teamchannel)
+- [新建团队消息传递策略 (Powershell)](/powershell/module/skype/new-csteamsmessagingpolicy)
+- [向 Microsoft Teams 中的用户分配策略](policy-assignment-overview.md)
 - [使用 Office 365 PowerShell 分配许可证和用户帐户](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)

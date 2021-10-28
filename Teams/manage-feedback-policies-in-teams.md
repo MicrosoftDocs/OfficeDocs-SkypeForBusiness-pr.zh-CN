@@ -17,46 +17,46 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何使用反馈策略来控制Teams用户是否可以向 Microsoft Teams反馈。
-ms.openlocfilehash: 2357af358dad4407fd401b08ff75dfc2560593a2
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 4cb8914a793ddb6342b047caada087006da8f670
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60013006"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605768"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>管理反馈策略Microsoft Teams
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-您的组织中的用户可以发送有关Microsoft Teams的反馈，以让我们了解我们直接从桌面、web 客户端和Teams内部进行的工作。 我们正在不断改进用户体验，Teams反馈来改进Teams体验。
+您的组织中的用户可以发送有关Microsoft Teams的反馈，让我们知道我们直接从桌面、web 客户端和Teams内部进行的工作。 我们正在不断改进Teams体验，并使用此反馈来改进Teams体验。
 
 > [!NOTE]
 > 反馈策略在高级、GCC GCC DOD 部署中不可用。
 
 **" **提供反馈"** 功能**
 
-用户可以通过在桌面和 Web 上Teams帮助提供反馈，向我们发送有关Teams  >  和建议。
+用户可以通过在桌面和 web 上Teams帮助提供反馈，向我们发送Teams  >  和建议。
 
 
 ![在"反馈"中提供Teams](media/manage-feedback-policies-in-teams-give-feedback.png)
 
-使用"帮助 **"或**"&"发送设置  >  **在移动设备上**  >  **访问反馈**。
+使用"帮助 **"或设置**  >  **在移动设备上&反馈**  >  **发送反馈。**
 
 ![在移动设备上提供Teams反馈选项](media/feedback3.jpg)
 
- 通过提供 **反馈** 和 **发送** 反馈发送的数据被视为您的 Microsoft 365 或 Office 365 协议下的"支持数据"，包括否则被视为"客户数据"或"个人数据"的信息。
+ 通过"**提供** 反馈"和"发送反馈"发送的数据在 Microsoft 365 或 Office 365 协议下被视为"支持数据"，包括可能被视为"客户数据"或"个人数据"的信息。
 
 
 
 **调查**
 
-用户还可以评价他们使用 Teams并向我们发送他们给出的分级的详细信息。 此弹出式调查会实时向用户显示Teams。 当用户在通知 **中选择"提供** 反馈"时，将显示调查供其完成。
+用户还可以评价他们使用Teams并向我们发送他们给出的分级的详细信息。 此弹出式调查会实时向用户显示Teams。 当用户在通知 **中选择"提供** 反馈"时，将显示调查供其完成。
 
 ![调查通知和表单Teams。](media/manage-feedback-policies-in-teams-survey.png)
 
 ## <a name="set-whether-users-can-send-feedback-about-teams-to-microsoft"></a>设置用户是否可以向 Microsoft Teams反馈
 
-作为管理员，你可以控制你组织中用户是否可以向 Microsoft 发送有关Teams的反馈，以及他们是否收到调查。 默认情况下，将自动为组织中的所有用户分配全局 (组织范围的默认) 策略，并且会在策略中启用反馈功能与调查。 例外情况是Teams 教育版，其中为教师启用和禁用了学生的功能。
+作为管理员，您可以控制您的组织中的用户是否可以向 Microsoft 发送有关Teams的反馈，以及他们是否收到调查。 默认情况下，将自动为组织中的所有用户分配全局 (组织范围的默认) 策略，并且反馈功能与调查在策略中启用。 例外情况是Teams 教育版，其中为教师启用功能，学生禁用这些功能。
 
 可以编辑全局策略，也可以创建和分配自定义策略。 编辑全局策略或分配自定义策略后，可能需要几个小时更改才能生效。
 
@@ -94,4 +94,4 @@ Grant-CsTeamsFeedbackPolicy -Identity user1@contoso.com -PolicyName "New Hire Fe
 ## <a name="related-topics"></a>相关主题
 
 - [Teams PowerShell 概览](teams-powershell-overview.md)
-- [向 Teams 中的用户分配策略](assign-policies.md)
+- [向 Teams 中的用户分配策略](policy-assignment-overview.md)

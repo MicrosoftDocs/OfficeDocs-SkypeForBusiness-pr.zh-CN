@@ -1,14 +1,14 @@
 ---
 title: 在管理中心的活动日志中查看Microsoft Teams分配
 author: cichur
-ms.author: v-cichur
+ms.author: serdars
 ms.reviewer: jastark
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: 了解如何在管理中心的活动日志中查看Microsoft Teams活动。
+description: 了解如何在管理中心的"活动"日志中查看Microsoft Teams活动。
 ms.localizationpriority: medium
 f1.keywords:
 - CSH
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5735d69d45785e63cefbbea646a1780dc3aa4ecf
-ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
+ms.openlocfilehash: 0c1ce06f8c74570a7d5da5056b89772d5446562b
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "59456492"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605638"
 ---
 # <a name="view-your-policy-assignments-in-the-activity-log"></a>在活动日志中查看策略分配
 
@@ -35,7 +35,7 @@ ms.locfileid: "59456492"
 
 在活动日志中查看策略分配：
 
-1. 在管理中心的左侧导航Microsoft Teams，转到"开始 **"，然后在**"活动日志"**下选择"** 查看 **详细信息"。**
+1. 在管理中心的左侧导航Microsoft Teams，转到"主页 **"，然后在**"活动日志"**下选择"** 查看 **详细信息"。**
 2. 可以查看所有策略分配或按状态筛选列表，以只显示未启动、正在进行或 **已完成的分配**。  你将看到有关每个作业的以下信息：
     - **名称**：策略分配的名称。 单击该链接可查看更多详细信息。 这包括策略分配到的用户数，以及已完成、进行中和未启动的分配数。 还将看到批处理中的用户列表，以及每个用户的状态和结果。 下面是一个示例：
 
@@ -51,4 +51,4 @@ ms.locfileid: "59456492"
 
 ## <a name="related-topics"></a>相关主题
 
-- [向用户分配策略](assign-policies.md)
+- [向用户分配策略](policy-assignment-overview.md)

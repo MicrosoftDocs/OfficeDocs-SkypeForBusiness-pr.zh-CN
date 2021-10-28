@@ -18,23 +18,23 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何使用和管理呼叫者 ID 策略Microsoft Teams更改或阻止组织中Teams用户的来电显示。
-ms.openlocfilehash: 455bf7e6f2b0e29824188dab3c14ff6cc6b51c91
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: a511e86efcaba8ec5dd81718bf768cc45fbf2ad0
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731221"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605428"
 ---
 # <a name="manage-caller-id-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理呼叫方 ID 策略
 
 > [!NOTE]
-> 若要将呼叫方 ID 设置为资源帐户电话号码并设置呼叫方名称，请使用 Teams PowerShell 模块 2.3.1 或更高版本中的 PowerShell cmdlet New-CsCallingLineIdentity 或 Set-CsCallingLineIdentity。  (管理中心.) 中目前Microsoft Teams这些选项不可用 
+> 若要将呼叫方 ID 设置为资源帐户电话号码并设置呼叫方名称，请使用 Teams PowerShell 模块 2.3.1 或更高版本中的 PowerShell cmdlet New-CsCallingLineIdentity 或 Set-CsCallingLineIdentity。  (在管理中心.Microsoft Teams中目前)  
 
-默认情况下，当Teams呼叫 PSTN 电话时，用户的电话号码Teams可见。 同样，当 PSTN 呼叫者呼叫Teams呼叫用户时，PSTN 呼叫者的电话号码将可见。
+默认情况下，当Teams呼叫 PSTN 电话时，用户的电话号码Teams可见。 同样，当 PSTN 呼叫者呼叫Teams用户时，PSTN 呼叫者的电话号码将可见。
 
 作为管理员，可以使用呼叫方 ID 策略更改或阻止呼叫者 ID (也称为呼叫线路 ID) 。 您可以使用呼叫方 ID 策略显示组织中 Teams 用户的备用电话号码、阻止出站电话号码、阻止显示传入号码，或设置呼叫方名称 (CNAM) 。 例如，当用户进行呼叫时，你可以更改呼叫者 ID 以显示组织的主要电话号码和公司名称，而不是用户的电话号码。
 
-通过访问管理中心中的"**语音** 呼叫者  >  **ID"** 策略，Microsoft Teams呼叫方 ID 策略。 可以使用全局（组织范围内的默认）策略，也可以创建并分配自定义策略。 除非你创建并分配自定义策略，否则你组织中的用户将自动获取全局策略。
+通过访问管理中心中的"语音呼叫者  >  **ID"** 策略Microsoft Teams呼叫者 ID 策略。 可以使用全局（组织范围内的默认）策略，也可以创建并分配自定义策略。 除非你创建并分配自定义策略，否则你组织中的用户将自动获取全局策略。
 
 ## <a name="create-a-custom-caller-id-policy"></a>创建自定义来电显示策略
 
@@ -70,8 +70,8 @@ ms.locfileid: "58731221"
 
 ## <a name="related-topics"></a>相关主题
 
-[New-CsCallingLineIdentity](/powershell/module/skype/new-cscallinglineidentity?view=skype-ps)
+[New-CsCallingLineIdentity](/powershell/module/skype/new-cscallinglineidentity)
 
-[Set-CsCallingLineIdentity](/powershell/module/skype/set-cscallinglineidentity?view=skype-ps)
+[Set-CsCallingLineIdentity](/powershell/module/skype/set-cscallinglineidentity)
 
-[向 Teams 中的用户分配策略](assign-policies.md)
+[向 Teams 中的用户分配策略](policy-assignment-overview.md)

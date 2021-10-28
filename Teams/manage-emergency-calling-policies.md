@@ -16,20 +16,20 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 了解如何在呼叫中心内使用和管理Microsoft Teams呼叫策略，以定义当Teams用户进行紧急呼叫时会发生什么情况。
+description: 了解如何使用和管理紧急呼叫Microsoft Teams，以定义当Teams用户进行紧急呼叫时会发生什么情况。
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.voice.emergencycallingpolicies.overview
-ms.openlocfilehash: 842fa95be2c9aecaa14b1902ed5b3feb4ca0da7a
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 1d4bfe0305939e287c262848dd25665898ba79a6
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536543"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605448"
 ---
 # <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>管理紧急呼叫策略Microsoft Teams
 
-如果您的组织使用 Microsoft 呼叫计划、接线员 连接 或直接路由作为[PSTN](pstn-connectivity.md)连接选项，您可以使用 Microsoft Teams 中的紧急呼叫策略来定义当您的组织中的 Teams 用户进行紧急呼叫时会发生什么情况。
+如果您的组织使用 Microsoft 呼叫计划、接线员 连接 或直接路由作为[PSTN](pstn-connectivity.md)连接选项，您可以使用 Microsoft Teams 中的紧急呼叫策略来定义当您的组织中的 Teams 用户拨打紧急呼叫时会发生什么情况。
 
 可以设置在分配有策略的用户呼叫紧急服务时要通知哪些人以及如何通知他们。 例如，可以将策略设置配置为自动通知组织的安全服务台，让他们侦听紧急呼叫。  
 
@@ -43,12 +43,12 @@ ms.locfileid: "60536543"
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 管理中心
 
-1. 在管理中心的左侧导航Microsoft Teams，转到"**语音** 紧急策略  >  "，然后单击"呼叫 **策略"** 选项卡。
+1. 在管理中心左侧导航Microsoft Teams，转到"**语音** 紧急策略  >  "，然后单击"呼叫 **策略"** 选项卡。
 2. 单击“**添加**”。
 3. 输入策略的名称和说明。
 4. 设置在拨打紧急呼叫时希望如何通知组织内部人员（通常是安全服务台）。 为此，请在"通知 **模式"下** 选择下列选项之一：
-    - **仅发送通知**：Teams用户和组发送聊天消息。
-    - 已 **静音** 且无法取消静音的会议：Teams 聊天消息将发送给你指定的用户和组，他们可以侦听 (但不能参与呼叫方与 PSAP 操作员之间的) 对话。
+    - **仅发送通知**：Teams用户和组发送一条聊天消息。
+    - 已 **静音** 且无法取消静音的会议：Teams 聊天消息将发送给你指定的用户和组，他们可以侦听 (但不能参与) 与 PSAP 操作员之间的对话。
     - 已 **静音** 但能够取消静音的会议：Teams 聊天消息将发送给你指定的用户和组，他们可以取消静音以收听和参与呼叫方与 PSAP 操作员之间的对话。
 5.  如果在静音通知模式下选择了任一会议，可在"拨打紧急呼叫通知号码"框中输入要呼叫和加入紧急呼叫的用户或组的 PSTN 电话号码。 例如，输入组织安全服务台的号码，当进行紧急呼叫时，谁将收到呼叫，然后可以侦听呼叫。 PSTN 电话无法取消静音，即使模式设置为静音会议，但 **能够取消静音**。
 6. 搜索并选择一个或多个用户或组（例如组织的安全服务台）以在拨打紧急呼叫时通知。  通知可以发送到用户、通讯组和安全组的电子邮件地址。 最多可以通知 50 个用户。
@@ -64,7 +64,7 @@ ms.locfileid: "60536543"
 
 可以编辑全局策略或创建的任何自定义策略。
 
-1. 在管理中心的左侧导航Microsoft Teams，转到"**语音** 紧急策略  >  "，然后单击"呼叫 **策略"** 选项卡。
+1. 在管理中心左侧导航Microsoft Teams，转到"**语音** 紧急策略  >  "，然后单击"呼叫 **策略"** 选项卡。
 2. 单击策略名称的左侧以选择用户，然后单击“**编辑**”。
 3. 进行你需要的更改，然后单击"应用 **"。**
 
@@ -90,8 +90,8 @@ Set-CsTenantNetworkSite -identity "site1" -EmergencyCallingPolicy "Contoso Emerg
 
 ## <a name="related-topics"></a>相关主题
 
-[在呼叫中心内管理紧急呼叫Teams](manage-emergency-call-routing-policies.md)
+[管理呼叫中心中的紧急呼叫Teams](manage-emergency-call-routing-policies.md)
 
 [Teams PowerShell 概览](teams-powershell-overview.md)
 
-[向 Teams 中的用户分配策略](assign-policies.md)
+[向 Teams 中的用户分配策略](policy-assignment-overview.md)

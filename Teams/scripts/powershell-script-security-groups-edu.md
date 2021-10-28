@@ -1,13 +1,13 @@
 ---
 title: PowerShell 脚本示例 - 为学校中的教师和学生创建安全组
 author: cichur
-ms.author: v-cichur
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.reviewer: angch
 ms.service: msteams
 audience: admin
-description: 使用此 PowerShell 脚本创建管理学校教师和学生Teams策略所需的安全组。
+description: 使用此 PowerShell 脚本创建管理学校教师和Teams策略所需的安全组。
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -17,16 +17,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 3cb1f40d79c25b7e0832c5d1576427b83ba980b2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 05b94c3c5deedcaf0cc375685eb00555288c3b24
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58577806"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605158"
 ---
 # <a name="powershell-script-sample---create-security-groups-for-educators-and-students-in-your-school"></a>PowerShell 脚本示例 - 为学校中的教师和学生创建安全组
 
-使用此 PowerShell 脚本创建管理学校策略Microsoft Teams安全组。 将[策略分配到组](../assign-policies.md#assign-a-policy-to-a-group)功能Teams向一组用户（例如安全组）分配策略。 根据优先级规则，将策略分配传播到组中的成员。 将成员添加到组或从组中删除成员时，将相应更新其继承的策略分配。
+使用此 PowerShell 脚本创建管理学校策略Microsoft Teams安全组。 将[策略分配到组](../assign-policies-users-and-groups.md#assign-a-policy-to-a-group)功能Teams向一组用户（例如安全组）分配策略。 根据优先级规则，将策略分配传播到组中的成员。 将成员添加到组或从组中删除成员时，将相应更新其继承的策略分配。
 
 此 PowerShell 脚本基于许可证类型创建两个安全组，一个组用于教职员工和教师，另一个组用于学校中的学生。 然后，可以将策略分配到创建的安全组。 有关使用此脚本的信息，请参阅 [向学校中的大量用户分配策略](../batch-group-policy-assignment-edu.md)。
 
@@ -39,7 +39,7 @@ ms.locfileid: "58577806"
 需要定期运行此脚本，使安全组保持最新状态。
 
 > [!IMPORTANT]
-> 将策略 [分配到组时](../assign-policies.md#precedence-rules) ，必须了解优先级 [规则和组](../assign-policies.md#group-assignment-ranking) 分配排名。 请确保阅读并了解有关组的策略分配的信息 [中的概念](../assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups)。
+> 将策略 [分配到组时](../assign-policies-users-and-groups.md#precedence-rules) ，必须了解优先级 [规则和组](../assign-policies-users-and-groups.md#group-assignment-ranking) 分配排名。 请确保阅读并了解有关组的策略分配的信息 [中的概念](../assign-policies-users-and-groups.md#what-you-need-to-know-about-policy-assignment-to-groups)。
 
 ## <a name="before-you-start"></a>开始前
 
@@ -275,4 +275,4 @@ Stop-Transcript
 
 ## <a name="related-topics"></a>相关主题
 
-[向 Teams 中的用户分配策略](../assign-policies.md)
+[向 Teams 中的用户分配策略](../policy-assignment-overview.md)

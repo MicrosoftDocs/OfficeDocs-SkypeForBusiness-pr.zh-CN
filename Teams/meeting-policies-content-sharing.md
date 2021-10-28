@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.contentsharing
 - seo-marvel-apr2020
 description: 了解如何在用于内容共享的Teams管理会议策略设置。
-ms.openlocfilehash: f1fe77b2a8be552e2c156fda8d0b1bd89fa83d4c
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 2bd3a4274a147cad8548d0abf84a312ee7f6f259
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726501"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605618"
 ---
 # <a name="meeting-policy-settings---content-sharing"></a>会议策略设置 - 内容共享
 
@@ -66,11 +66,11 @@ ms.locfileid: "58726501"
 
 如果为用户开启此设置，则在共享会话中的顶部栏中会显示 **“授予控制”** 选项。
 
-![显示"授予控制权"选项的屏幕截图。](media/meeting-policies-give-control.png)
+![显示“授予控制”选项的屏幕截图。](media/meeting-policies-give-control.png)
 
-如果已关闭用户的设置，则无法使用 **“授予控制”** 选项。
+如果已关闭用户的设置，则“**授予控制**”选项将不可用。
 
-![显示"授予控制权"选项不可用的屏幕截图。](media/meeting-policies-give-control-not-available.png)
+![显示“授予控制”选项不可用的屏幕截图。](media/meeting-policies-give-control-not-available.png)
 
 查看以下示例。
 
@@ -144,5 +144,5 @@ Daniela 可以在 Amanda 的会议上做笔记，而 Amanda 不能在任何会�
 ## <a name="related-topics"></a>相关主题
 
 - [Teams PowerShell 概览](teams-powershell-overview.md)
-- [向 Teams 中的用户分配策略](assign-policies.md)
+- [向 Teams 中的用户分配策略](policy-assignment-overview.md)
 - [从用户删除 RestrictedAnonymousAccess Teams 会议策略](meeting-policies-restricted-anonymous-access.md)

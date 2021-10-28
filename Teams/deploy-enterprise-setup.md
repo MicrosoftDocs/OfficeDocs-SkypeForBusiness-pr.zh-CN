@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9d67dbb494a0bde5212d405e5710a7c2730734e9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f05616de4f315cee115ee9767a52eea09297dfcf
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584626"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605818"
 ---
 # <a name="set-up-microsoft-teams-in-your-enterprise"></a>在你的 Office 365 组织中设置 Microsoft Teams
 
@@ -95,7 +95,7 @@ ms.locfileid: "58584626"
 | 决定 | 说明 |
 |--|--|
 | 应应用组织范围的会议设置| 会议策略控制哪些会议功能可供会议组织者和参与者使用。 可以控制匿名参与者是否可以加入会议、自定义会议邀请、控制处理实时媒体的方式等。 对这些设置进行更改时，这些设置将应用于组织内的所有会议。 <p>[在 Microsoft Teams 中管理会议设置](meeting-settings-in-teams.md)|
-| 应该应用哪些会议策略？ | 会议策略Meeting policies用于控制组织中用户安排的会议的与会者可用的功能。 你可以控制用户是否可以安排私人会议、启用"现在召开会议"选项、允许录制会议等。 Teams 具有适用于所有人的全球策略。<p> 如果希望对所有人应用相同的策略，只需对此全局策略进行更改（例如，关闭会议录制）。 <p>如果希望对不同人员组使用不同的策略（例如，一个针对办公室工作人员的策略，而另一个策略针对主管人员），可以创建和分配策略。 将策略分配给用户时，全局策略不再适用。<p> [管理 Teams 中的会议策略](meeting-policies-in-teams.md)|
+| 应该应用哪些会议策略？ | 会议策略Meeting policies用于控制组织中用户安排的会议的与会者可用的功能。 你可以控制用户是否可以安排私人会议、启用"现在召开会议"选项、允许录制会议等。 Teams 具有适用于所有人的全球策略。<p> 如果希望对所有人应用相同的策略，只需对此全局策略进行更改（例如，关闭会议录制）。 <p>如果希望对不同人员组使用不同的策略（例如，一个针对办公室工作人员的策略，而另一个策略针对主管人员），可以创建和分配策略。 将策略分配给用户时，全局策略不再适用。<p> [管理 Teams 中的会议策略](meeting-policies-overview.md)|
 | 是否想要允许会议录制和存档？| 会议组织者可在云中录制和存档会议。 可以使用会议策略打开或关闭会议录制和存档。<p> [Teams 云会议录制](cloud-recording.md) |
 
 ### <a name="audio-conferencing"></a>音频会议
@@ -145,12 +145,12 @@ Teams 和 Microsoft 365 提供了许多工具，可帮助你符合公司及其�
 | [通信合规性](communication-compliance.md)| 通过识别并针对攻击性、攻击性、专业性以及宣传语言采取行动，帮助降低通信风险;和 Gory 图像;以及共享敏感信息。 |
 | [呼叫和会议基于策略的录制](teams-recording-policy.md)| 允许控制何时或是否在何时自动存储和存储呼叫和会议，供以后处理、保留或分析。|
 | [敏感度标签](sensitivity-labels.md)| 通过创建实施所选隐私选项的标签，帮助保护和控制对敏感信息的访问。|
-| [数据丢失防护](/microsoft-365/compliance/dlp-microsoft-teams?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json&view=o365-worldwide)| 让你创建规则来确定如何处理某些信息，如社会保险号码、信用卡号等。 可阻止发送特定信息、阻止其离开组织等。|
+| [数据丢失防护](/microsoft-365/compliance/dlp-microsoft-teams?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)| 让你创建规则来确定如何处理某些信息，如社会保险号码、信用卡号等。 可阻止发送特定信息、阻止其离开组织等。|
 | [电子数据展示](eDiscovery-investigation.md)| 当您的组织在法律诉讼中收到发现要求时，帮助您搜索和检索您组织的内容。 |
 | [法定保留](legal-hold.md)| 帮助您在法律诉讼过程中需要时保留您组织的信息，即使用户将其删除，在电子数据展示调查期间也可以发现这些信息。 |
 | [内容搜索](content-search.md)| 提供查询查询 Exchange、SharePoint Online 和 OneDrive for Business 的 Teams 信息的方法。|
 | [Auditing](audit-log-events.md)| 让你能够查看有关指定操作的信息，包括执行该操作的人、执行的操作时间、使用的 IP 地址等。 操作包括创建或删除团队、创建频道、在 Teams 中更改设置等。|
-| [客户密钥](/microsoft-365/compliance/customer-key-tenant-level?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json&view=o365-worldwide)| 让你能够使用你提供的加密密钥创建数据加密策略。|
+| [客户密钥](/microsoft-365/compliance/customer-key-tenant-level?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)| 让你能够使用你提供的加密密钥创建数据加密策略。|
 
 ## <a name="clients"></a>客户端
 

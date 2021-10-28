@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d7c1bdde4764b56e8c45a8ad9356437525f00b56
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: 87389dfaba68de8cfe02f3291e03d593bb9de75b
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60045718"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605828"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中为组织管理“班次”应用
 
@@ -36,7 +36,7 @@ ms.locfileid: "60045718"
 
 ## <a name="overview-of-shifts"></a>“班次”概述
 
-应用中的 Shifts Microsoft Teams一线员工保持连接和同步。它首先构建为移动版，用于快速高效的时间管理和团队通信。 轮班允许一线员工及其经理使用其移动设备管理日程安排并保持联系。
+应用中的 Shifts 应用Microsoft Teams一线员工保持连接和同步。它首先构建为移动版，用于快速高效的时间管理和团队通信。 轮班允许一线员工及其经理使用其移动设备管理日程安排并保持联系。
 
 - 经理可创建、更新和管理团队的班次安排。 他们可以向一个人（“地板上洒了水”）或整个团队（“区域总经理将在 20 分钟后到达”）发送消息。 他们还可以发送政策文档、新闻公告和视频。
 - 员工可查看即将到来的排班、查看当天还有谁的排班、申请调班或转班以及申请请假。
@@ -76,7 +76,7 @@ Teams 可用的所有企业 SKU 中均提供“班次”。
  
 Teams包括内置 FirstLineWorker 应用设置策略，可将其分配给组织的一线员工。 默认情况下，该策略包括“活动”、“班次”、“聊天”和“通话”应用。
 
-若要查看 FirstLineWorker 策略，在 Microsoft Teams 管理中心的左侧导航栏中，转到"Teams **设置**  >  **策略"。**
+若要查看 FirstLineWorker 策略，在 Microsoft Teams 管理中心的左侧导航中，转到"Teams **设置**  >  **策略"。**
 
 :::image type="content" source="../../media/firstline-worker-app-setup-policy-new.png" alt-text="用户管理中心中 FirstLineWorker 应用设置Microsoft Teams屏幕截图" lightbox="../../media/firstline-worker-app-setup-policy-new.png":::
 
@@ -95,4 +95,4 @@ Teams包括内置 FirstLineWorker 应用设置策略，可将其分配给组织�
 ## <a name="related-topics"></a>相关主题
 
 - [一线员工排班帮助](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
-- [向 Teams 中的用户分配策略](../../assign-policies.md)
+- [向 Teams 中的用户分配策略](../../policy-assignment-overview.md)

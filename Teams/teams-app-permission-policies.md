@@ -1,7 +1,7 @@
 ---
 title: 在 Microsoft Teams 中管理应用权限策略
 author: cichur
-ms.author: v-cichur
+ms.author: serdars
 manager: serdars
 ms.reviewer: rarang
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: b3cacf0ef5305ac1e7bc32ba1f0c8c91ab8ec723
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 2f29678b53171772bf905e2b5dfaddf3131016d9
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730831"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605248"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理应用权限策略
 
@@ -86,7 +86,7 @@ ms.locfileid: "58730831"
 
 ## <a name="manage-org-wide-app-settings-for-microsoft-365-government"></a>管理 Microsoft 365 政府版的组织范围的应用设置  
 
-在 Microsoft 365 政府 - GCCH 和 DoD Teams 中，必须了解以下内容，了解 GCCH 和 DoD 独有的第三方应用设置。
+在 Microsoft 365 政府 - GCCH 和 DoD 部署 Teams 中，必须了解以下第三方应用设置，这些设置对于 GCCH 和 DoD 是唯一的。
 
 在 GCCH 和 DoD 中，默认情况下会阻止所有第三方应用。 此外，你将在 Microsoft Teams 管理中心的“应用权限策略”页面上看到以下有关管理第三方应用的备注。
 
@@ -100,7 +100,7 @@ ms.locfileid: "58730831"
     
 2. 在“**第三方应用**”下，关闭或打开这些设置以控制对第三方应用的访问权限：
 
-    - **允许第三方应用**：控制用户是否可以使用第三方应用。 如果关闭此设置，则你的用户将不能安装或使用任何第三方应用。 在 Microsoft 365 政府 - GCCH 和 DoD Teams中，此设置默认为关闭。
+    - **允许第三方应用**：控制用户是否可以使用第三方应用。 如果关闭此设置，则你的用户将不能安装或使用任何第三方应用。 在 Microsoft 365 政府 - GCCH Teams DoD 部署中，此设置默认为关闭。
     - **默认情况下，允许发布到应用商店的所有新的第三方应用**：控制发布到 Teams 应用商店的新第三方应用是否在 Teams 中自动可用。 仅在允许第三方应用时才能设置此选项。
 
 3. 在“**阻止的应用**”下，添加要在整个组织内阻止的应用。 在 Microsoft 365 政府 - GCCH 和 DoD Teams中，所有第三方应用默认添加到此列表。 对于想要在组织中允许的任何第三方应用，请从此阻止的应用列表中移除该应用。 当你在组织范围内阻止某个应用时，无论是否在任何应用权限策略中允许此应用，系统都会自动为所有用户阻止该应用。
@@ -155,4 +155,4 @@ ms.locfileid: "58730831"
 
 [Teams 中应用的管理设置](admin-settings.md)
 
-[向 Teams 中的用户分配策略](assign-policies.md)
+[向 Teams 中的用户分配策略](policy-assignment-overview.md)

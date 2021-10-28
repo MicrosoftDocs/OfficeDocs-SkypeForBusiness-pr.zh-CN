@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: 本文将了解如何规划在 Teams 中实现治理功能。
+description: 本文介绍了如何规划在 Teams 中实现治理功能。
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -17,41 +17,41 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ca020de2f2ce96daa3fe213b7b5c0d80b720165b
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 947ced749db6922d756400e99fb61035c5a86600
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728621"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605648"
 ---
 # <a name="plan-for-governance-in-teams"></a>在 Teams 中规划管理
 
 Teams提供了一组丰富的工具，用于实现组织可能需要的任何管理功能。 本文指导 IT 专业人员提出正确的问题，以确定其监管要求以及如何满足这些要求。 
 
 > [!Tip] 
-> 观看以下会话，详细了解治理Microsoft Teams：治理、管理和[Microsoft Teams](https://aka.ms/teams-governance)
+> 观看以下会话，详细了解治理在[Microsoft Teams：治理](https://aka.ms/teams-governance)、管理和Microsoft Teams
 
 ## <a name="group-and-team-creation-naming-classification-and-guest-access"></a>组和团队创建、命名、分类和来宾访问
 
-组织可能要求对团队的命名和分类方式、来宾是否可以添加为团队成员以及可以创建团队的严格控制。 可以使用 Azure AD Azure Active Directory (和敏感度) 配置这些区域。 
+组织可能要求对团队的命名和分类方式、来宾是否可以添加为团队成员以及可以创建团队的严格控制。 可以使用敏感度标签和敏感度Azure Active Directory (Azure AD) 这些区域。 
 
 <br>
 
 |-        |-        |-        |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" alt= "An icon depicting decision points"/>  |决策点|<ul><li>组织是否需要团队的特定命名约定？</li><li>团队创建者是否需要能够将组织特定的分类分配给团队？</li><li>是否需要限制按团队将来宾添加到团队的能力？</li><li>组织是否需要限制可以创建团队的人？</li></ul>|
-|<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next steps"/>|后续步骤|<ul><li>记录组织对团队创建、命名、分类和来宾访问的要求。</li><li>计划实施这些要求，作为实施计划的一Teams部分。</li><li>传达并发布策略Teams告知用户预期的行为。</li></ul>|
+|<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next steps"/>|后续步骤|<ul><li>记录组织对团队创建、命名、分类和来宾访问的要求。</li><li>计划实施这些要求作为实施计划的一Teams部分。</li><li>传达并发布策略Teams告知用户预期的行为。</li></ul>|
 
 > [!NOTE]
 > 为帮助你提前规划， [请详细了解如何设置这些策略及其需要哪些许可证](/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings)。
 > 
 > [!NOTE]
-> 限制组和团队创建可能会降低用户的工作效率，因为许多 Microsoft 365 Office 365 服务需要创建组才能让服务正常运行。 有关其他信息，请访问在 中[规划Teams。](/microsoft-365/solutions/manage-creation-of-groups)
+> 限制组和团队创建可能会降低用户的工作效率，因为许多 Microsoft 365 Office 365 服务需要创建组才能让服务正常运行。 有关其他信息，请访问[在 中规划Teams。](/microsoft-365/solutions/manage-creation-of-groups)
 
 
 #### <a name="additional-information"></a>其他信息
 
-确定要求后，可以使用 Azure AD 控件实现它们。 有关如何实现这些设置的技术指南，请参阅：
+确定要求后，可以使用其他控件Azure AD这些要求。 有关如何实现这些设置的技术指南，请参阅：
 
 - [Azure Active Directory用于配置组设置的 cmdlet](/azure/active-directory/users-groups-roles/groups-settings-cmdlets)
 
@@ -61,7 +61,7 @@ Teams提供了一组丰富的工具，用于实现组织可能需要的任何管
 
 - [使用敏感度标签保护网站Microsoft Teams、Microsoft 365组SharePoint内容](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)
 
-- [组、团队和团队的生命周期结束选项Yammer](/microsoft-365/solutions/end-life-cycle-groups-teams-sites-yammer)
+- [组、团队和团队的生命周期结束Yammer](/microsoft-365/solutions/end-life-cycle-groups-teams-sites-yammer)
 
 ## <a name="group-and-team-expiration-retention-and-archiving"></a>组和团队过期、保留和存档
 
@@ -70,7 +70,7 @@ Teams提供了一组丰富的工具，用于实现组织可能需要的任何管
 |-          |-           |
 |-----------|------------|
 | ![描述决策点的图标。](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>组织是否需要为团队指定到期日期？</li><li>组织是否需要对团队应用特定的数据保留策略？</li><li>您的组织是否期望能够存档非活动团队，以将内容保留为只读状态？</li></ul>|
-| ![一个图标，描述接下来的步骤。](media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>记录组织对团队过期、数据保留和存档的要求。</li><li>在推出新计划过程中，计划Teams这些要求。</li><li>传达并发布策略Teams告知用户预期的行为。</li></ul>|
+| ![描述后续步骤的图标。](media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>记录组织对团队过期、数据保留和存档的要求。</li><li>计划实施这些要求，作为实施计划的一Teams部分。</li><li>传达并发布策略Teams告知用户预期的行为。</li></ul>|
 
 > [!TIP]
 > 使用下表捕获组织的要求。
@@ -78,7 +78,7 @@ Teams提供了一组丰富的工具，用于实现组织可能需要的任何管
 |功能 |详细信息 |Azure AD Premium许可证 |决定 |
 |---------|---------|---------|---------|
 |过期策略 |通过设置过期Microsoft 365管理组生命周期。 |P1 |TBD|
-|保留策略 |在安全与合规中心中为数据设置保留策略，Teams或删除&数据。 **注意**：使用此功能需要获得 E3 Microsoft 365或Office 365 企业版许可。 |否 |TBD |
+|保留策略 |在安全与合规中心中设置保留策略，Teams保留或删除&数据。 **注意**：使用此功能需要 E3 Microsoft 365 Office 365 企业版许可。 |否 |TBD |
 |存档和还原 |当团队不再处于活动状态，但你想要保留该团队供参考或将来重新激活时，请将其存档。 |否 |TBD |
 
 > [!Note]
@@ -130,8 +130,8 @@ Teams提供了一组丰富的工具，用于实现组织可能需要的任何管
 
 |-        |-        |
 |---------|---------|
-| ![描述决策点的图标。](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>组织是否需要限制Teams租户的功能？</li><li>组织是否需要限制Teams特定用户的功能？</li></ul>|
-| ![一个图标，描述接下来的步骤。](media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>记录组织在租户和用户Teams限制功能的要求。</li><li>计划在推出计划过程中实现Teams要求。</li><li>传达并发布策略Teams告知用户预期的行为。</li></ul>|
+| ![描述决策点的图标。](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>组织是否需要限制Teams租户的功能？</li><li>组织是否需要限制Teams用户的功能？</li></ul>|
+| ![描述后续步骤的图标。](media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>记录组织在租户和用户Teams限制功能的要求。</li><li>计划在推出计划过程中实现Teams要求。</li><li>传达并发布策略Teams告知用户预期的行为。</li></ul>|
 
 ### <a name="teams-feature-management-focus-areas"></a>Teams管理重点区域
 
@@ -142,7 +142,7 @@ Teams策略提供精细的功能来控制消息传递、会议、呼叫和实时
 - [为你的组织管理 Microsoft Teams 设置](enable-features-office-365.md)
 - [在过渡到全新的 Microsoft Teams 管理中心期间管理 Teams](manage-teams-skypeforbusiness-admin-center.md)
 - [Microsoft Teams 中的私人频道](private-channels.md)
-- [管理 Teams 中的会议策略](meeting-policies-in-teams.md)
+- [管理 Teams 中的会议策略](meeting-policies-overview.md)
 - [在 Teams 中管理消息传递策略](messaging-policies-in-teams.md)
 - [在管理中心内Microsoft Teams应用](manage-apps.md)
 
@@ -153,7 +153,7 @@ Teams策略提供精细的功能来控制消息传递、会议、呼叫和实时
 Teams基于 Microsoft 365 和 Office 365 的高级安全性和符合性功能，并支持审核和报告、符合性内容搜索、电子发现、法定保留和保留策略。
 
 > [!Important]
-> 如果组织有合规性和安全性要求，请查看安全与合规性概述一文（在安全与合规方面概述）[中](security-compliance-overview.md)提供的有关Microsoft Teams。
+> 如果组织有合规性和安全性要求，请查看安全与合规性概述一文（在安全与合规方面概述）中提供的有关[Microsoft Teams。](security-compliance-overview.md)
 
 ## <a name="related-topics"></a>相关主题
 

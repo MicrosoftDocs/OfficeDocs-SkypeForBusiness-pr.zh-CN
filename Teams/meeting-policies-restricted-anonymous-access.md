@@ -1,7 +1,7 @@
 ---
 title: 从用户删除 RestrictedAnonymousAccess Teams 会议策略
 author: cichur
-ms.author: v-cichur
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -16,26 +16,26 @@ appliesto:
 f1.keywords: ''
 ms.custom: ''
 description: 了解如何从组织中用户Teams RestrictedAnonymousAccess 会议策略。
-ms.openlocfilehash: fbb34974c435db12880ab68b7af4372a17a6b63b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3ba00e8d68a4c30a31ca929e1a41e07cc0fbc104
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590776"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605758"
 ---
 # <a name="remove-the-restrictedanonymousaccess-teams-meeting-policy-from-users"></a>从用户删除 RestrictedAnonymousAccess Teams 会议策略
 
-[会议](meeting-policies-in-teams.md)Microsoft Teams用于控制组织中用户安排的会议的会议参与者可用的功能。 
+[会议](meeting-policies-overview.md)Microsoft Teams用于控制组织中用户安排的会议的会议参与者可用的功能。 
 
 Teams包括名为 RestrictedAnonymousAccess 的内置策略，其中包含预定义的设置，其中包括限制匿名用户启动会议。  (匿名用户是尚未经过身份验证的用户。) 管理员无法编辑或更改会议策略中的预定义设置。
 
-本文演示如何使用 PowerShell 从分配了此策略的用户中删除 RestrictedAnonymousAccess 会议策略。 若要详细了解如何使用 PowerShell Teams，请参阅[powerShell](teams-powershell-overview.md)Teams概述 。
+本文演示如何使用 PowerShell 从分配了此策略的用户中删除 RestrictedAnonymousAccess 会议策略。 若要详细了解如何使用 PowerShell 管理Teams，请参阅[PowerShell](teams-powershell-overview.md)Teams概述。
 
 ## <a name="before-you-start"></a>开始前
 
 安装并连接到[Skype for Business PowerShell 模块](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)。 有关分步指南，请参阅安装[Microsoft Teams PowerShell。](teams-powershell-install.md)
 
-## <a name="get-the-teams-meeting-policy-assignments-for-your-organization"></a>获取Teams组织的会议策略分配
+## <a name="get-the-teams-meeting-policy-assignments-for-your-organization"></a>获取Teams的会议策略分配
 
 运行以下代码，Teams组织的会议策略分配。
 
@@ -55,9 +55,9 @@ Count  Name                               Group
 
 ## <a name="unassign-the-restrictedanonymous-meeting-policy-from-users"></a>从用户取消分配 RestrictedAnonymous 会议策略
 
-若要从用户中删除 RestrictedAnonymous 会议策略，可以使用 [Grant-CSTeamsMeetingPolicy](/powershell/module/skype/grant-csteamsmeetingpolicy) cmdlet（如果用户数较少 (例如，少于 100 个用户) ）。 如果有大量用户 (例如，超过 100 个用户) ，则使用  [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps) cmdlet 提交批处理操作会更有效。
+若要从用户中删除 RestrictedAnonymous 会议策略，可以使用 [Grant-CSTeamsMeetingPolicy](/powershell/module/skype/grant-csteamsmeetingpolicy) cmdlet（如果用户数较少 (例如，用户数少于 100) ）。 如果有大量用户 (例如，超过 100 个用户) ，则使用  [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) cmdlet 提交批处理操作会更有效。
 
-### <a name="use-the-grant-csteamsmeeting-policy-cmdlet"></a>使用 Grant-CsTeamsMeeting Policy cmdlet
+### <a name="use-the-grant-csteamsmeeting-policy-cmdlet"></a>使用 Grant-CsTeamsMeeting 策略 cmdlet
 
 运行以下操作，从用户中删除 RestrictedAnonymous 会议策略。
 
@@ -67,10 +67,10 @@ Get-CsOnlineUser |? TeamsMeetingPolicy -eq "RestrictedAnonymousAccess" | Select-
 
 ### <a name="use-the-new-csbatchpolicyassignmentoperation-cmdlet"></a>使用 New-CsBatchPolicyAssignmentOperation cmdlet
 
-使用 [批处理策略分配](assign-policies.md#assign-a-policy-to-a-batch-of-users)时，可以删除或更新策略的最大用户数是一次 5，000。 例如，如果用户数超过 5，000，则需要提交多个批次。 为获得最佳结果，请勿一次提交多个批。 允许批处理在提交更多批之前完成处理。
+使用 [批处理策略分配](assign-policies-users-and-groups.md#assign-a-policy-to-a-batch-of-users)时，可以删除或更新策略的最大用户数是一次 5，000。 例如，如果用户数超过 5，000，则需要提交多个批次。 为获得最佳结果，请勿一次提交多个批。 允许批处理在提交更多批之前完成处理。
 
 > [!NOTE]
-> [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps) cmdlet 位于 powerShell Teams中。 在按照这些步骤操作之前，请安装并连接到 Teams [PowerShell 模块](https://www.powershellgallery.com/packages/MicrosoftTeams)。 有关分步指南，请参阅安装[Microsoft Teams PowerShell。](teams-powershell-install.md)
+> [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) cmdlet 位于 powerShell Teams中。 在按照这些步骤操作之前，请安装并连接到[Teams PowerShell 模块](https://www.powershellgallery.com/packages/MicrosoftTeams)。 有关分步指南，请参阅安装[Microsoft Teams PowerShell。](teams-powershell-install.md)
 
 运行以下命令，从一批用户中删除 RestrictedAnonymousAccess 会议策略。
 
@@ -94,6 +94,6 @@ Get-CsBatchPolicyAssignmentOperation -OperationId 62557b78-e734-42d6-952f-41a454
 
 ## <a name="related-topics"></a>相关主题
 
-- [管理 Teams 中的会议策略](meeting-policies-in-teams.md)
+- [管理 Teams 中的会议策略](meeting-policies-overview.md)
 - [Teams PowerShell 概览](teams-powershell-overview.md)
-- [向 Teams 中的用户分配策略](assign-policies.md)
+- [向 Teams 中的用户分配策略](policy-assignment-overview.md)

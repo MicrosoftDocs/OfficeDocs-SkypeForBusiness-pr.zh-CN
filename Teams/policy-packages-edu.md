@@ -21,19 +21,19 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 ms.localizationpriority: high
 search.appverid: MET150
 description: 了解教育或 EDU 设置中的策略，以及如何在 Microsoft Teams 中使用和管理策略包。
-ms.openlocfilehash: bda6341afa03e4bfebb2e9a619a42ad0a0b879e3
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 80e4b7becb720a6e4e89740ce7bf8c1c49e33af9
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728161"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605378"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>用于教育的 Teams 策略和策略包
 
 [!INCLUDE [policy-wizard-edu](includes/policy-wizard-edu.md)]
 
 > [!NOTE]
-> 有关 Microsoft Teams 中策略的更多信息，请查看[向 Microsoft Teams 中的用户分配策略](assign-policies.md)。
+> 有关 Microsoft Teams 中策略的更多信息，请查看[向 Microsoft Teams 中的用户分配策略](policy-assignment-overview.md)。
 
 ## <a name="admins-getting-started-with-microsoft-teams-policy-management"></a>管理员：Microsoft Teams 策略管理入门
 
@@ -41,7 +41,7 @@ Microsoft Teams 让用户能够执行诸如参加在线会议或实时事件、�
 
 下面是你将在 Microsoft Teams 中找到的主要策略区域列表。 若要详细了解每个区域中的策略及其控制的功能，请使用下面的链接：
 
-- [会议](meeting-policies-in-teams.md)
+- [会议](meeting-policies-overview.md)
 - [实时事件](teams-live-events/configure-teams-live-events.md)
 - [通话](teams-calling-policy.md) 
 - [消息传递](messaging-policies-in-teams.md)
@@ -121,7 +121,7 @@ Teams 中的策略包将收集预定义策略和上述策略设置，并将其�
 
 一般情况下，教育机构的许多用户有其独特的需求，部分取决于学生的年龄和成熟度。 例如，你可能想要授予教师和教职员工对 Microsoft Teams 的完全访问权限，但想要对学生限制 Microsoft Teams 功能，以便鼓励营造安全且专注的学习环境。 可使用策略包根据教育机构社区中不同群体的需求来定制设置。
 
-> [!IMPORTANT] 
+> [!IMPORTANT]
 > 我们主要建议为学生使用全局（组织范围内的默认设置）策略定义，而不是策略包。 这可确保组织中的新用户始终具有适用于学生的最严格的策略集。 如果此建议不符合机构的需求，下面的一个学生策略包可能是一个不错的选择。 
 
 就像本文前面的策略列表一样，策略包预定义以下各项的策略：
@@ -180,7 +180,7 @@ Microsoft Teams 当前包含以下策略包：
 
 ![如何在管理中心分配策略包的屏幕截图。](media/policy-packages-healthcare-assign.png)
 
-若要了解详细信息，请参阅[分配策略包](manage-policy-packages.md#assign-a-policy-package)。
+若要了解详细信息，请参阅[分配策略包](assign-policy-packages.md)。
 
 如果用户已分配策略，稍后又分配了另一个策略，则最近分配的优先级将会更高。
 
@@ -190,13 +190,13 @@ Microsoft Teams 当前包含以下策略包：
 
 通过将策略包分配到组，可将多个策略分配给一组用户，例如安全组或通讯组列表。 根据优先级规则，将策略分配传播到组中的成员。 将成员添加到组或从组中删除成员时，将相应更新其继承的策略分配。 建议将此方法用于最多 50,000 个用户的组，但也可使用更大的组。
 
-若要了解详细信息，请参阅[将策略包分配到组](assign-policies.md#assign-a-policy-package-to-a-group)。
+若要了解详细信息，请参阅[将策略包分配到组](assign-policy-packages.md#assign-a-policy-package-to-a-group)。
 
 #### <a name="assign-a-policy-package-to-a-large-set-batch-of-users"></a>向大型组（批处理）分配策略包
 
 使用批处理策略包分配，每次向大型用户组分配策略包。 使用 [New-CsBatchPolicyPackageAssignmentOperation](/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) cmdlet 提交要分配的一批用户和策略包。 作业将作为后台操作处理，并为每个批处理生成操作 ID。
 
-批处理最多可包含 5,000 个用户。 可通过对象 Id、UPN、SIP 地址或电子邮件地址指定用户。 若要了解详细信息，请参阅[将策略包分配给批次用户](assign-policies.md#assign-a-policy-package-to-a-batch-of-users)。
+批处理最多可包含 5,000 个用户。 可通过对象 Id、UPN、SIP 地址或电子邮件地址指定用户。 若要了解详细信息，请参阅[将策略包分配给批次用户](assign-policy-packages.md#assign-a-policy-package-to-a-batch-of-users)。
 
 ## <a name="policies-that-should-be-assigned-for-student-safety"></a>应为学生安全分配的策略
 
