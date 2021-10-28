@@ -1,5 +1,5 @@
 ---
-title: 数据中Microsoft Teams
+title: Microsoft Teams
 description: 本文介绍数据中的信息屏障Microsoft Teams如何影响Teams。
 author: robmazz
 ms.author: robmazz
@@ -16,28 +16,28 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b0843ce2adf400dca9cf426789adc6180daf3f57
-ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
+ms.openlocfilehash: 2d0452ff05b368e00875f31c365db59ec13d0ec7
+ms.sourcegitcommit: 9033c0c998c95ff37d0afd13c5c3ba598d58feb6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60465842"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60607396"
 ---
-# <a name="information-barriers-in-microsoft-teams"></a>数据中Microsoft Teams
+# <a name="information-barriers-in-microsoft-teams"></a>Microsoft Teams
 
-IB (信息) 是管理员可以配置的策略，以防止个人或组相互通信。 例如，如果一个部门正在处理不应与其他部门共享的信息，则 IB 非常有用。 当需要隔离或阻止组与该组外部的任何人通信时，数据库也很有用。
+IB (信息) 管理员可以配置策略，以防止个人或组相互通信。 例如，如果一个部门正在处理不应与其他部门共享的信息，则 IB 非常有用。 当需要隔离或阻止组与该组外部的任何人通信时，数据库也很有用。
 
-例如Microsoft Teams，信息屏障可以确定并阻止以下类型的未经授权的协作：
+对于Microsoft Teams，信息屏障可以确定并阻止以下种类的未经授权的协作：
 
 - 将用户添加到团队或频道
 - 用户访问团队或频道内容
 - 用户访问 1：1 和群组聊天
 - 用户对会议的访问权限
-- 阻止查找和发现，用户不会显示在人员选取器中。
+- 阻止查找和发现，用户不会在人员选取器中显示。
 
 >[!NOTE]
 >- 无法跨租户创建信息屏障组。
->- 版本 1 不支持Azure Active Directory (Azure AD) 机器人、应用、API 发送活动源通知，以及用于添加用户的一些 API。
+>- 版本 1 不支持Azure Active Directory (Azure AD) 机器人、应用、API 来发送活动源通知，以及用于添加用户的一些 API。
 >- 专用通道符合配置的信息屏障策略。
 >- 有关对连接到SharePoint网站的支持屏障Teams，请参阅与网站关联的[Microsoft Teams段](/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites)。
 
@@ -74,7 +74,7 @@ IB 策略使用 PowerShell cmdlet Microsoft 365 SCC (SCC) 管理。 有关详细
 
 ## <a name="information-barriers-administrator-role"></a>信息屏障管理员角色
 
-IB 合规性管理角色负责管理 IB 策略。 有关此角色详细信息，请参阅安全合规Microsoft 365[中的权限](/office365/securitycompliance/permissions-in-the-security-and-compliance-center)。
+IB 合规性管理角色负责管理 IB 策略。 有关此角色详细信息，请参阅合规性中心[中Microsoft 365的权限](/office365/securitycompliance/permissions-in-the-security-and-compliance-center)。
 
 ## <a name="information-barrier-triggers"></a>信息屏障触发器
 
@@ -82,7 +82,7 @@ IB 合规性管理角色负责管理 IB 策略。 有关此角色详细信息，
 
 - **将成员添加到团队**：每当将用户添加到团队时，都必须根据其他团队成员的 IB 策略评估用户策略。 成功添加用户后，用户无需进一步检查即可在团队中执行所有功能。 如果用户的策略阻止他们添加到团队，该用户不会显示在搜索中。
 
-    ![屏幕截图：搜索要添加到团队的新功能，并查找任何匹配项。](media/information-barriers-add-members.png)
+    ![屏幕截图：搜索要添加到团队的新功能并查找任何匹配项。](media/information-barriers-add-members.png)
 
 - **请求新的聊天**：每次用户请求与一个或多个其他用户进行新聊天时，会评估聊天以确保它未违反任何 IB 策略。 如果聊天违反 IB 策略，则聊天不会启动。
 
@@ -108,9 +108,9 @@ IB 合规性管理角色负责管理 IB 策略。 有关此角色详细信息，
 
     ![显示具有阻止设置的用户字符的屏幕截图。](media/ib-after-screen-share-policy.png)
 
-- 用户在 **Teams** 中发起电话呼叫：每当用户通过 VOIP) 向另一个用户或用户组发起语音呼叫 (时，将评估该呼叫以确保它不会违反其他团队成员的 IB 策略。 如果存在任何冲突，语音呼叫将被阻止。
+- 用户在 **Teams** 中发起电话呼叫：每当用户通过 VOIP) 向其他用户或用户组发起语音呼叫 (时，都会评估该呼叫，以确保它不会违反其他团队成员的 IB 策略。 如果存在任何冲突，语音呼叫将被阻止。
 
-- **来宾Teams：IB** 策略也适用于 Teams 中的来宾。 如果需要在组织的全局地址列表中发现来宾，请参阅在组Microsoft 365[访问](/microsoft-365/admin/create-groups/manage-guest-access-in-groups)。 来宾可发现后，可以定义 [IB 策略](/office365/securitycompliance/information-barriers-policies)。
+- **来宾Teams：IB** 策略也适用于Teams中的来宾。 如果需要在组织的全局地址列表中发现来宾，请参阅管理组Microsoft 365[访问](/microsoft-365/admin/create-groups/manage-guest-access-in-groups)。 来宾可发现后，可以定义 [IB 策略](/office365/securitycompliance/information-barriers-policies)。
 
 ## <a name="how-policy-changes-impact-existing-chats"></a>策略更改如何影响现有聊天
 
@@ -118,7 +118,7 @@ IB 合规性管理角色负责管理 IB 策略。 有关此角色详细信息，
 
 如果用户之间存在现有聊天或其他通信，并且设置了新策略或更改了现有策略，该服务将评估现有通信，以确保仍允许通信发生。 
 
-- **1：1** 聊天：如果由于向阻止通信的策略的一个或两个用户应用了 (两个用户，因此不再允许两个用户之间的通信) 进一步通信将被阻止。 他们现有的聊天对话将变为只读。
+- **1：1** 聊天：如果由于向阻止通信的策略的一个或两个用户 (两个用户之间的通信，则进一步通信) 阻止。 他们现有的聊天对话将变为只读。
 
     下面是显示聊天可见的示例。
 
@@ -150,7 +150,7 @@ IB 合规性管理角色负责管理 IB 策略。 有关此角色详细信息，
 
     ![屏幕截图Teams警告用户策略阻止显示其他用户的信息。](media/information-barriers-people-picker.png)
 
-- **"活动**"选项卡：如果用户访问被阻止用户的"活动"选项卡，则不显示任何帖子。 **("活动**"选项卡仅显示频道帖子，并且两个用户之间没有常见的频道。) 
+- **"活动**"选项卡：如果用户访问被阻止用户的"活动"选项卡，则不显示任何帖子。 **("活动**"选项卡仅显示频道帖子，并且两个用户之间将不存在常见的) 
 
     下面是被阻止的活动选项卡视图的示例。
 
@@ -158,7 +158,7 @@ IB 合规性管理角色负责管理 IB 策略。 有关此角色详细信息，
 
 - **组织结构图**：如果用户访问显示被阻止用户的组织结构图，则被阻止的用户不会显示在组织结构图上。 而是会显示一条错误消息。
 
-- **人员** 卡片：如果用户参与对话后被阻止，其他用户将鼠标悬停在被阻止用户的姓名上时，会看到一条错误消息，而不是人员卡片。 卡上列出的操作 (例如通话和聊天) 将不可用。
+- **人员** 卡片：如果用户参与对话后被阻止，其他用户将鼠标悬停在被阻止用户的姓名上时，会看到一条错误消息，而不是人员卡片。 卡上列出的操作 (通话和聊天) 将不可用。
 
 - **建议的联系人**：被阻止的用户不会显示在建议联系人列表中， (新用户显示的初始联系人列表) 。
 
@@ -180,16 +180,16 @@ IB 合规性管理角色负责管理 IB 策略。 有关此角色详细信息，
 
 ## <a name="teams-policies-and-sharepoint-sites"></a>Teams策略和SharePoint网站
 
-创建团队时，将预配SharePoint网站，并关联Microsoft Teams体验。 默认情况下，此网站和文件SharePoint信息屏障策略。 若要在 SharePoint 和OneDrive中启用信息屏障，请遵循将信息屏障与 SharePoint 一文的指导[和](/sharepoint/information-barriers#enable-sharepoint-and-onedrive-information-barriers-in-your-organization)步骤。
+创建团队时，将预配SharePoint网站，并关联Microsoft Teams体验。 默认情况下，此网站和SharePoint不执行信息屏障策略。 若要在 SharePoint 和 OneDrive 中启用信息屏障，请遵循将信息屏障与 SharePoint[一文的指导和](/sharepoint/information-barriers#enable-sharepoint-and-onedrive-information-barriers-in-your-organization)步骤。
 
-## <a name="information--barrier-modes-and-teams"></a>信息屏障模式和Teams
+## <a name="information--barrier-modes-and-teams"></a>信息屏障模式Teams
 
-信息屏障模式有助于增强可添加到团队或从团队中删除哪些人。 将信息屏障与 Teams时，支持以下 IB 模式：
+信息屏障模式有助于增强可添加到团队或从团队中删除哪些人。 将信息屏障与Teams时，支持以下 IB 模式：
 
 - **打开**：此配置是启用信息屏障之前预配的所有现有组的默认 IB 模式。 在此模式下，没有适用的 IB 策略。
 - **隐式**：启用信息屏障后预配团队时，此配置是默认的 IB 模式。 隐式模式允许添加组内的所有兼容用户。
 
-Microsoft 365默认情况下，激活信息屏障策略之前创建的组会自动设置为 *"打开* 模式"。 在租户上激活 IB 策略后，需要更新模式，重新评估组和网站，导致不合规的用户自动从这些组和网站中删除。 如果需要更改现有已连接Teams 的组的开放模式配置以满足组织的合规性要求，则需要更新连接到 Teams 团队的 SharePoint 网站的[IB](/sharepoint/information-barriers.md#view-and-manage-IB-mode-as-an-administrator-with-SharePoint-PowerShell)模式。
+Microsoft 365默认情况下，激活信息屏障策略之前创建的组会自动设置为 *"打开* 模式"。 在租户上激活 IB 策略后，需要更新模式，重新评估组和网站，导致不合规的用户自动从这些组和网站中删除。 如果需要更改现有连接 Teams的组的开放模式配置以满足组织的合规性要求，则需要更新连接到 Teams 团队的 SharePoint 网站的[IB](/sharepoint/information-barriers.md#view-and-manage-IB-mode-as-an-administrator-with-SharePoint-PowerShell)模式。
 
 将 [Set-UnifiedGroup](/powershell/module/exchange/set-unifiedgroup) cmdlet 与 *InformationBarrierMode* 参数一起使用，该参数对应于要用于段的模式。 *InformationBarrierMode* 参数的允许值列表为 *Open 和* *Implicit。*
 
@@ -199,19 +199,16 @@ Microsoft 365默认情况下，激活信息屏障策略之前创建的组会自�
 Set-UnifiedGroup -InformationBarrierMode Implicit
 ```
 
->[!NOTE]
->如果全局管理员将连接到隐式 Microsoft 365 的现有 Microsoft 365 组的 IB 模式更新为 *"* 隐式"Microsoft Teams，请确保将已连接站点Teams IB 模式更新为 *"隐式"。* 有关详细信息，请参阅 [信息屏障](/microsoft-365/compliance-information-barriers.md#information-barriers-modes-preview)入门 ]
-
 有关用户如何自动从组中删除的详细信息，请参阅信息屏障合规性助手 ([预览版) ](/sharepoint/information-barriers-compliance-assistant) 文章。
 
 ## <a name="required-licenses-and-permissions"></a>所需的许可证和权限
 
-有关许可证和权限、计划和定价的详细信息，请参阅Microsoft 365安全与合规[&指南](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)。
+有关许可证和权限、计划和定价的详细信息，请参阅安全Microsoft 365安全许可&[指南](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)。
 
 ## <a name="known-issues"></a>已知问题
 
-- **用户无法** 加入临时会议：如果启用了 IB 策略，则如果会议花名册的大小大于会议出席限制，则不允许用户 [加入会议](limits-specifications-teams.md)。 根本原因是 IB 检查依赖于是否可以将用户添加到会议聊天名单，并且只有当用户可以添加到花名册时，才允许他们加入会议。 加入会议一次的用户会将该用户添加到名单;因此对于定期会议，花名册可以快速填满。 聊天名单达到会议 [出席限制后](limits-specifications-teams.md)，无法将其他用户添加到会议。 如果为组织启用了 IB 并且会议聊天花名册已满，则新用户 (那些未加入花名册的用户) 不允许加入会议。 但是，如果未为组织启用 IB 且会议聊天名单已满，则新用户 (那些尚未加入花名册) 的用户可以加入会议，但他们在会议中看不到聊天选项。 短期解决方案是从会议聊天名单中删除非活动成员，为新用户提供空间。 但是，我们将在以后增加会议聊天花名册的大小。
-- **用户无法加入频道会议**：如果启用了 IB 策略，则如果用户不是团队的成员，则不允许他们加入频道会议。 根本原因是 IB 检查依赖于是否可以将用户添加到会议聊天名单，并且只有当用户可以添加到花名册时，才允许他们加入会议。 频道会议中的聊天线程仅适用于团队/频道成员，非成员无法查看或访问聊天线程。 如果为组织启用了 IB，并且非团队成员尝试加入频道会议，则不允许该用户加入会议。 但是，如果未为组织启用 IB，并且非团队成员尝试加入频道会议，则用户可以加入会议，但他们在会议中看不到聊天选项。
+- **用户无法** 加入临时会议：如果启用了 IB 策略，则如果会议花名册的大小大于会议出席限制，则不允许用户 [加入会议](limits-specifications-teams.md)。 根本原因是 IB 检查依赖于是否可以将用户添加到会议聊天名单，并且只有当用户可以添加到名单时，他们才能加入会议。 加入会议一次的用户会将该用户添加到名单;因此对于定期会议，花名册可以快速填满。 聊天名单达到会议 [出席限制后](limits-specifications-teams.md)，无法将其他用户添加到会议。 如果为组织启用了 IB 并且会议聊天花名册已满，则新用户 (那些未加入花名册的用户) 不允许加入会议。 但是，如果未为组织启用 IB 且会议聊天名单已满，则新用户 (那些尚未加入花名册的用户) 可以加入会议，但他们在会议中看不到聊天选项。 短期解决方案是从会议聊天名单中删除非活动成员，为新用户提供空间。 但是，我们将在以后增加会议聊天花名册的大小。
+- **用户无法加入频道会议**：如果启用了 IB 策略，则如果用户不是团队的成员，则不允许他们加入频道会议。 根本原因是 IB 检查依赖于是否可以将用户添加到会议聊天名单，并且只有当用户可以添加到名单时，他们才能加入会议。 频道会议中的聊天线程仅适用于团队/频道成员，非成员无法查看或访问聊天线程。 如果为组织启用了 IB，并且非团队成员尝试加入频道会议，则不允许该用户加入会议。 但是，如果未为组织启用 IB，并且非团队成员尝试加入频道会议，则用户可以加入会议，但他们在会议中看不到聊天选项。
 - **组织允许的最大段数**：每个组织在配置 IB 策略时最多可以设置 100 个段。 可以配置的策略数量没有限制。
 - **IB 策略对** 联合用户不起作用：如果允许与外部组织联合，则这些组织的用户不受 IB 策略的限制。 如果组织的用户加入由外部联合用户组织的聊天或会议，则 IB 策略也不会限制组织用户之间的通信。
 
@@ -223,5 +220,5 @@ Set-UnifiedGroup -InformationBarrierMode Implicit
 
 ## <a name="availability"></a>可用性
 
-- 此功能在我们的公有云中可用;2021 年 1 月，我们在云中推出了GCC屏障。
-- 此功能尚未在云- 高GCC DOD 云中提供。
+- 此功能在我们的公有云中可用;我们于 2021 年 1 月推出了云中GCC屏障。
+- 此功能尚未在云 - 高GCC DOD 云中提供。
