@@ -20,24 +20,24 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 16749fa21176622bdd68bcd2034eb94c99773f9e
-ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
+ms.openlocfilehash: 60a6f78d99f6481f2c10db5467f3e7e7bad9f7fb
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "60596865"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60606951"
 ---
 # <a name="calling-and-call-forwarding-in-teams"></a>在 Teams 中调用和呼叫Teams
 
-在Microsoft Teams中，调用策略控制哪些呼叫和呼叫转发功能可供用户使用。 呼叫策略确定用户是否可以进行私人呼叫、使用呼叫转发或同时拨打其他用户或外部电话号码、将呼叫路由到语音邮件、将呼叫发送到呼叫组、对入站和出站呼叫使用委派，等等。
+在Microsoft Teams，调用策略控制哪些呼叫和呼叫转发功能可供用户使用。 呼叫策略确定用户是否可以进行私人呼叫、使用呼叫转发或同时拨打其他用户或外部电话号码、将呼叫路由到语音邮件、将呼叫发送到呼叫组、对入站和出站呼叫使用委派，等等。
 
-可以使用全局策略 (组织范围的默认) 自动创建的策略，或者创建和分配自定义策略。
+可以使用自动创建的 (组织范围的) 策略，或者创建和分配自定义策略。
 
 ## <a name="create-a-custom-calling-policy"></a>创建自定义调用策略
 
 按照以下步骤创建自定义调用策略。
 
-1. 在管理中心左侧导航Microsoft Teams，转到"**语音**  >  **呼叫策略"。**
+1. 在管理中心左侧导航Microsoft Teams，转到 **"语音**  >  **呼叫策略"。**
 2. 选择“**添加**”。
 3. 打开或关闭要用于呼叫策略的功能。
 4. 若要控制用户是否可以将入站呼叫路由到语音邮件，请选择"**已启用"或**"**用户控制"。** 若要阻止路由到语音邮件，请选择"已 **禁用"。**
@@ -47,7 +47,7 @@ ms.locfileid: "60596865"
 
 按照以下步骤编辑现有的调用策略。
 
-1. 在管理中心的左侧导航Microsoft Teams，选择 **"语音**  >  **呼叫策略"。**
+1. 在管理中心左侧导航Microsoft Teams，选择"**语音**  >  **呼叫策略"。**
 2. 单击要修改的策略旁边的 ，然后选择"编辑 **"。**
 3. 进行您需要的更改，然后单击"保存 **"。**
 
@@ -85,11 +85,11 @@ ms.locfileid: "60596865"
 
 ### <a name="delegation-for-inbound-and-outbound-calls"></a>入站和出站呼叫的委派
 
-此设置允许将入站呼叫路由到代理人，从而允许代理人代表其具有委派权限的用户进行出站呼叫。 有关详细信息，请参阅 [与代理人共享电话线](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8)。
+此设置允许将入站呼叫路由到代理人，从而允许代理人代表他们具有委派权限的用户进行出站呼叫。 有关详细信息，请参阅 [与代理人共享电话线](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8)。
 
-### <a name="prevent-toll-bypass-and-send-calls-through-the-pstn"></a>防止收费绕过并通过 PSTN 发送呼叫 
+### <a name="prevent-toll-bypass-and-send-calls-through-the-pstn"></a>防止收费绕过并通过 PSTN 发送呼叫
 
-将此设置 **设置为"开** "会通过 PSTN 发送呼叫并产生费用，而不是通过网络发送呼叫和绕过收费。
+将此设置 **设置为"开** "将通过 PSTN 发送呼叫并产生费用，而不是通过网络发送呼叫和绕过收费。
 
 ### <a name="busy-on-busy-is-available-when-in-a-call"></a>在通话中忙碌时可用
 
@@ -97,7 +97,7 @@ ms.locfileid: "60596865"
 
 ### <a name="web-pstn-calling"></a>Web PSTN 呼叫
 
-此设置允许用户使用 Web 客户端Teams PSTN 号码。
+此设置允许用户使用客户端客户端呼叫 PSTN Teams PSTN 号码。
 
 ### <a name="incoming-meeting-invites-are-automatically-answered"></a>自动应答传入会议邀请
 
@@ -111,4 +111,4 @@ ms.locfileid: "60596865"
 
 [Set-CSTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
 
-[向 Teams 中的用户分配策略](assign-policies.md)
+[向 Teams 中的用户分配策略](policy-assignment-overview.md)
