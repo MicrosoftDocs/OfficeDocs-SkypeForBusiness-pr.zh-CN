@@ -17,26 +17,26 @@ f1.keywords:
 description: 直接路由协议
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e0b4f3c19ed82362a066044ff9dd1c695b6690e2
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 01748c0e344cbadf2d771d2ab4bf6ad1f9b14dfb
+ms.sourcegitcommit: 813f1e44bd094bd997dd7423cda7e685ff61498f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729671"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "60633518"
 ---
 # <a name="direct-routing---sip-protocol"></a>直接路由 - SIP 协议
 
-本文介绍直接路由如何将会话启动协议 (SIP) 。 若要在会话边界控制器与 SBC (SBC) 之间正确路由流量，某些 SIP 参数必须具有特定值。 本文适用于负责配置本地 SBC 与 SIP 代理服务之间的连接的语音管理员。
+本文介绍直接路由如何在 SIP 中实现会话 (协议) 。 若要在会话边界控制器与 SBC (SBC) 之间正确路由流量，某些 SIP 参数必须具有特定值。 本文适用于负责配置本地 SBC 与 SIP 代理服务之间的连接的语音管理员。
 
 ## <a name="processing-the-incoming-request-finding-the-tenant-and-user"></a>处理传入请求：查找租户和用户
 
-在可以处理传入或出站呼叫之前，在 SIP 代理和 SBC 之间交换 OPTIONS 消息。 这些 OPTIONS 消息允许 SIP 代理向 SBC 提供允许的功能。 必须成功通过 OPTIONS 协商 (200OK) ，从而在 SBC 和 SIP 代理之间进一步通信以建立呼叫。 下面提供了一个示例，在发送到 SIP 代理的 OPTIONS 消息中提供 SIP 标头：
+处理传入或出站呼叫之前，在 SIP 代理和 SBC 之间交换 OPTIONS 消息。 这些 OPTIONS 消息允许 SIP 代理向 SBC 提供允许的功能。 必须成功通过 OPTIONS 协商 (200OK) ，从而在 SBC 和 SIP 代理之间进一步通信以建立呼叫。 下面提供了一个示例，在发送到 SIP 代理的 OPTIONS 消息中提供 SIP 标头：
 
 | 参数名称 | 值的示例 | 
 | :---------------------  |:---------------------- |
 | Request-URI | OPTIONS sip：sip.pstnhub.microsoft.com：5061 SIP /2.0 |
 | 通过标头 | 通过：SIP/2.0/TLS sbc1.adatum.biz：5058;alias;branch=z9hG4bKac2121518978 | 
-| Max-Forwards标头 | 最大转发数：68 |
+| Max-Forwards 标头 | 最大转发数：68 |
 | 从标头 | From Header From： <sip:sbc1.adatum.biz:5058> |
 | To Header | 自： <sip:sip.pstnhub.microsoft.com:5061> |
 | CSeq 标头 | CSeq：1 INVITE | 
@@ -45,7 +45,7 @@ ms.locfileid: "58729671"
 > [!NOTE]
 > SIP 标头在使用的 SIP URI 中不包含 userinfo。 根据 [RFC 3261 第 19.1.1](https://tools.ietf.org/html/rfc3261#section-19.1.1)节，URI 的 userinfo 部分是可选的，当目标主机没有用户概念或当主机本身是标识的资源时，可能会不存在。 如果 SIP URI 中存在 @ 符号，则用户字段不得为空。
 
-在传入呼叫中，SIP 代理需要查找呼叫目标为的租户，并查找此租户中的特定用户。 租户管理员可以在多个租户中配置非 DID 号码，例如 +1001。 因此，必须查找要执行数字查找的特定租户，因为非 DID 数字可能在多个组织或Microsoft 365 Office 365相同。  
+在传入呼叫中，SIP 代理需要查找呼叫目标为的租户，并在此租户中查找特定用户。 租户管理员可以在多个租户中配置非 DID 号码，例如 +1001。 因此，必须查找要执行数字查找的特定租户，因为非 DID 数字可能在多个组织或组织Microsoft 365相同Office 365。  
 
 本部分介绍 SIP 代理如何查找租户和用户，以及如何对传入连接执行 SBC 身份验证。
 
@@ -55,11 +55,11 @@ ms.locfileid: "58729671"
 | :---------------------  |:---------------------- |
 | Request-URI | 邀请 sip:+18338006777@sip.pstnhub.microsoft.com SIP /2.0 |
 | 通过标头 | 通过：SIP/2.0/TLS sbc1.adatum.biz：5058;alias;branch=z9hG4bKac2121518978 | 
-| Max-Forwards标头 | 最大转发数：68 |
-| 从标头 | 从头文件来源：<sip：7168712781@sbc1.adatum.biz;transport=udp;tag=1c747237679 |
+| Max-Forwards 标头 | 最大转发数：68 |
+| 从标头 | 从头文件来源：<sip：+17168712781@sbc1.adatum.biz;transport=udp;tag=1c747237679 |
 | To Header | To： sip:+183338006777@sbc1.adatum.biz | 
 | CSeq 标头 | CSeq：1 INVITE | 
-| 联系人头 | 联系人：<sip： 68712781@sbc1.adatum.biz：5058;transport=tls> | 
+| 联系人头 | 联系人：<sip：68712781@sbc1.adatum.biz：5058;transport=tls> | 
 
 在收到邀请时，SIP 代理将执行以下步骤：
 
@@ -67,11 +67,11 @@ ms.locfileid: "58729671"
 
    - 选项 1. Contact 标头中提供的完整 FQDN 名称必须与所呈现证书的公用名称/主题可选名称匹配。  
 
-   - 选项 2. 联系人标头 (中呈现的 FQDN 名称的域部分（例如 FQDN 名称 sbc1.adatum.biz) 的 adatum.biz）必须与公用名称/主题可选名称 (例如 *.adatum.biz) 中的通配符值匹配。
+   - 选项 2. 联系人标头 (例如 FQDN 名称 sbc1.adatum.biz) 的 adatum.biz 中呈现的 FQDN 名称的域部分必须与公用名称/主题可选名称 (例如 *.adatum.biz) 中的通配符值匹配。
 
 2. 尝试使用 Contact 标头中提供的完整 FQDN 名称查找租户。  
 
-   检查联系人标头中的 FQDN 名称 (sbc1.adatum.biz) 注册为组织或组织Microsoft 365 DNS Office 365名称。 如果找到，在 SBC FQDN 已注册为域名的租户中执行用户的查找。 如果未找到，则步骤 3 适用。   
+   检查联系人标头中的 FQDN 名称 (sbc1.adatum.biz) 注册为任何组织或组织Microsoft 365 DNS Office 365名称。 如果找到，在 SBC FQDN 已注册为域名的租户中执行用户的查找。 如果未找到，则步骤 3 适用。   
 
 3. 步骤 3 仅适用于步骤 2 失败的情况。 
 
@@ -109,12 +109,21 @@ RFC [2818 第 3.1 部分介绍了对通配符的支持](https://tools.ietf.org/h
 
 #### <a name="request-uri"></a>Request-URI 
 
-对于所有传入呼叫，Request-URI 用于将电话号码与用户匹配。   
+对于所有传入呼叫，使用 Request-URI 将电话号码与用户匹配。   
 
 目前电话号码必须包含加号 (+) 如以下示例所示。 
 
 ```console
 INVITE sip:+18338006777@sip.pstnhub.microsoft.com SIP /2.0
+```
+#### <a name="from-header"></a>从标头
+
+对于所有传入呼叫，"从标头"用于将呼叫者的电话号码与被呼叫者的阻止电话号码列表匹配。
+
+电话号码必须包含 +，如以下示例所示。
+
+```console
+From: <sip:+17168712781@sbc1.adatum.biz;transport=udp;tag=1c747237679
 ```
 
 ## <a name="contact-and-record-route-headers-considerations"></a>联系人Record-Route头注意事项
@@ -125,21 +134,21 @@ SIP 代理需要计算新对话客户端事务的下一跃点 FQDN (例如 Bye �
 
 如果未使用代理 SBC，Microsoft 建议仅使用 Contact 标头：
 
-- 根据 [RFC 3261，](https://tools.ietf.org/html/rfc3261#section-20.30)如果代理想要停留在对话中未来请求的路径，则使用 Record-Route第 20.30 节 ，如果没有配置代理 SBC，则使用这一点，因为所有流量在 Microsoft SIP 代理和配对的 SBC 之间移动。 
+- 根据 [RFC 3261，](https://tools.ietf.org/html/rfc3261#section-20.30)如果代理想要停留在对话中未来请求的路径上，则使用第 20.30 节 Record-Route，如果没有配置代理 SBC，因为所有流量在 Microsoft SIP 代理和配对的 SBC 之间移动，则这不是必要的。 
 
-- Microsoft SIP 代理仅使用 Contact 标头 (而不是 Record-Route) 发送出站 ping 选项时确定下一跃点。 在 Contact (配置一个参数) 而不是两个 (Contact 和 Record-Route) 简化了在不使用代理 SBC 时的管理。 
+- Microsoft SIP 代理仅使用 Contact 标头 (而不是 Record-Route) 发送出站 ping 选项时确定下一跃点。 如果代理 SBC (，) Contact (和 Record-Route) 仅配置一个参数，可简化管理。 
 
 若要计算下一跃点，SIP 代理使用：
 
 - 优先级 1. 顶级记录路由。 如果顶级Record-Route包含 FQDN 名称，则 FQDN 名称用于建立出站对话内连接。
 
-- 优先级 2. 联系人头。 如果Record-Route不存在，SIP 代理将查找 Contact 标头的值以建立出站连接。  (这是建议的 configuration.) 
+- 优先级 2. 联系人头。 如果Record-Route，SIP 代理将查找 Contact 标头的值以建立出站连接。  (这是建议的配置.) 
 
 如果使用 Contact 和 Record-Route，SBC 管理员必须保持其值相同，这会造成管理开销。 
 
 ### <a name="use-of-fqdn-name-in-contact-or-record-route"></a>在联系人或联系人中使用 FQDN Record-Route
 
-在"联系人"或"联系人"中都Record-Route IP 地址。 唯一支持的选项是 FQDN，它必须与证书中 SBC 证书的公用名称或 (可选名称匹配，) 。
+在"联系人"或"联系人"中Record-Route IP 地址。 唯一支持的选项是 FQDN，它必须匹配 SBC 证书的公用名称或主题可选名称， (证书中的通配符值) 。
 
 - 如果"记录路由"或"联系人"中显示 IP 地址，证书检查会失败，调用会失败。
 
@@ -162,7 +171,7 @@ SIP 代理需要计算新对话客户端事务的下一跃点 FQDN (例如 Bye �
 
 -   呼叫进度 - 由 SIP 代理转换为 SIP 消息 180。 收到消息 180 时，SBC 必须生成本地响铃。
 
--   媒体应答 - 由 SIP 代理转换为消息 183，在"会话说明协议" (SDP) 。 收到消息 183 时，SBC 需要连接到在 SDP 消息中收到的媒体候选项。 
+-   媒体应答 - 由 SIP 代理转换为消息 183，在"会话说明协议"中将媒体候选项 (SDP) 。 收到消息 183 时，SBC 需要连接到在 SDP 消息中收到的媒体候选项。 
 
     > [!NOTE]
     > 在某些情况下，媒体应答可能未生成，并且最终点可能使用"已接受呼叫"消息进行应答。
@@ -180,7 +189,7 @@ SIP 代理需要计算新对话客户端事务的下一跃点 FQDN (例如 Bye �
 
 3.  对于从客户端收到的每个呼叫进度消息，SIP 代理将呼叫进度消息转换为 SIP 消息"SIP/2.0 180 正在尝试"。 发送此类消息的间隔由从调用控制器接收消息的间隔定义。 下图显示了 SIP 代理生成的两条 180 条消息。 这些消息来自用户的Teams终结点。 每个客户端都有唯一的标记 ID。  来自不同终结点的每条消息都是单独的会话 ("收件人"字段中的参数"tag"与) 。 但是，终结点可能不会立即生成消息 180 并发送消息 183，如下图所示。
 
-4.  终结点使用终结点的媒体候选项的 IP 地址生成媒体应答消息后，SIP 代理会将收到的消息转换为"SIP 183 会话进度"消息，并将来自客户端的 SDP 替换为来自媒体处理器的 SDP。 下图中，分叉 2 中的终结点应答了调用。 如果中继未绕过，则仅生成 183 SIP 消息一次 (机器人或客户端) 。 183 可能位于现有分叉上或启动新分叉。
+4.  终结点使用终结点的媒体候选项的 IP 地址生成媒体应答消息后，SIP 代理会将收到的消息转换为"SIP 183 会话进度"消息，并将来自客户端的 SDP 替换为来自媒体处理器的 SDP。 下图中，分叉 2 中的终结点应答了调用。 如果未绕过中继，则仅生成 183 SIP 消息一次 (机器人或客户端) 。 183 可能位于现有分叉上或启动新分叉。
 
 5.  "呼叫接受"消息与接受呼叫的终结点的最终候选项一起发送。 呼叫接受消息将转换为 SIP 消息 200。 
 
@@ -202,7 +211,7 @@ SIP 代理需要计算新对话客户端事务的下一跃点 FQDN (例如 Bye �
 
 ### <a name="media-bypass-flow"></a>媒体旁路流
 
-媒体旁路 (100 尝试、180、183) 相同的消息。 
+在媒体旁路方案中 (100 尝试、180、183) 相同的消息。 
 
 下面的架构显示了绕过调用流的一个示例。 
 
@@ -220,7 +229,7 @@ SBC 必须支持"使用替换邀请"。
 
 直接路由接口可能会发送超过 1，500 字节的 SIP 消息。  SDP 的大小主要会导致这种情况。 但是，如果 SBC 后面有 UDP 中继，如果消息从 Microsoft SIP 代理转发到未修改的中继，则可能会拒绝该消息。 Microsoft 建议在将消息发送到 UDP 中继时，去除 SBC 上的 SDP 中的某些值。 例如，可以删除 ICE 候选项或未使用的编解码器。
 
-## <a name="call-transfer"></a>呼叫转接
+## <a name="call-transfer"></a>呼叫转移
 
 直接路由支持两种调用传输方法：
 
@@ -241,7 +250,7 @@ SIP 代理根据 SBC 报告的功能选择方法。 如果 SBC 指示它支持"�
 ALLOW: INVITE, OPTIONS, INFO, BYE, CANCEL, ACK, PRACK, UPDATE, REFER, SUBSCRIBE, NOTIFY
 ```
 
-如果 SBC 未指示引用为受支持的方法，则直接路由将使用选项 1， (SIP 代理充当) 。 SBC 还必须发出信号，表明它支持 Notify 方法：
+如果 SBC 未指示"引用为受支持的方法"，则直接路由将使用选项 1 (SIP 代理充当"下属) "。 SBC 还必须发出信号，表明它支持 Notify 方法：
 
 指示不支持 Refer 方法的 SBC 示例：
 
@@ -253,7 +262,7 @@ ALLOW: INVITE, ACK, CANCEL, BYE, INFO, NOTIFY, PRACK, UPDATE, OPTIONS
 
 如果 SBC 指示不支持 Refer 方法，则 SIP 代理将充当一个代理人。 
 
-来自客户端的"引用"请求将在 SIP 代理上终止。  (下图中，来自客户端的"转接"请求显示为"呼叫 Dave"。  有关详细信息，请参阅 [RFC 3892 的第 7.1 部分](https://www.ietf.org/rfc/rfc3892.txt)。 
+来自客户端的"引用"请求将在 SIP 代理上终止。  (图中，来自客户端的"转接"请求显示为"呼叫 Dave"。  有关详细信息，请参阅 [RFC 3892 的第 7.1 部分](https://www.ietf.org/rfc/rfc3892.txt)。 
 
 > [!div class="mx-imgBorder"]
 > ![显示多个终结点在临时应答中响铃的示意图。](media/direct-routing-protocols-4.png)
@@ -272,8 +281,8 @@ RFC 5589 的第 6 部分介绍了标准。 相关的 RFC 包括：
 
 此选项假定 SIP 代理充当传输程序，并将"参考"消息发送到 SBC。 SBC 充当受让方，并处理"引用"以生成要转移的新产品/服务。 有两种可能的情况：
 
-- 呼叫转接到外部 PSTN 参与者。 
-- 该调用通过 SBC Teams同一租户Teams另一个用户。 
+- 呼叫将转接到外部 PSTN 参与者。 
+- 该调用通过 SBC 从一Teams用户转移到Teams租户中的另一个用户。 
 
 如果呼叫通过 SBC 从一个 Teams 用户转移到另一个用户，则 SBC 应发出新的邀请 (使用"参考"消息中收到的信息为 Teams) 用户 (启动新的对话) 。 
 
@@ -309,13 +318,13 @@ SIP 代理分析 Request-URI，如果存在参数 user=phone，服务将处理�
 
 Microsoft 建议始终应用 user=phone 参数以简化呼叫设置过程。
 
-## <a name="history-info-header"></a>History-Info标头
+## <a name="history-info-header"></a>History-Info 标头
 
-History-Info 标头用于重新定位 SIP 请求，并且"为 () 提供捕获请求历史记录信息的标准机制，为网络和最终用户启用各种服务。" 有关详细信息，请参阅 [RFC 4244 – 第 1.1 部分](http://www.ietf.org/rfc/rfc4244.txt)。 对于Microsoft 电话系统，此标头用于 Simulring 和呼叫转发方案。  
+History-Info 标头用于重新定位 SIP 请求，"提供 (s) 用于捕获请求历史记录信息的标准机制，为网络和最终用户启用各种服务。" 有关详细信息，请参阅 [RFC 4244 – 第 1.1 部分](http://www.ietf.org/rfc/rfc4244.txt)。 对于Microsoft 电话系统，此标头用于 Simulring 和呼叫转发方案。  
 
-如果发送，History-Info如下启用：
+如果发送，History-Info如下所示：
 
-- SIP 代理将在构成发送到 PSTN 控制器的 History-Info 标头的单个 History-Info 中插入包含关联电话号码的参数。  仅使用具有电话号码参数的条目，PSTN 控制器将重新生成新的 History-Info 标头，并通过 SIP 代理将标头传递给 SIP 中继提供程序。
+- SIP 代理将在组成发送到 PSTN 控制器的 History-Info 标头的单个 History-Info 中插入包含关联电话号码的参数。  仅使用具有电话号码参数的条目，PSTN 控制器将重新生成新的 History-Info 标头，并通过 SIP 代理将标头传递给 SIP 中继提供程序。
 
 - History-Info同时拨打和呼叫转发案例添加标头。
 
@@ -324,9 +333,9 @@ History-Info 标头用于重新定位 SIP 请求，并且"为 () 提供捕获请
 - 重新构造的 History-Info 标头中的单个历史记录条目将具有提供的电话号码参数与直接路由 FQDN (sip.pstnhub.microsoft.com) 设置为 URI 的主机部分;"user=phone"的参数将添加为 SIP URI 的一部分。  与原始 History-Info 标头关联的任何其他参数（手机上下文参数除外）将在重新构造的 History-Info 标头中传递。  
 
   > [!NOTE]
-  > RFC 4244) 的第 3.3 节中定义的机制确定为专用端口的条目将按如下方式转发，因为 SIP 中继提供程序是受信任的对等方。 (
+  > RFC 4244) 第 3.3 节中定义的机制确定为专用端口的条目将按如下方式转发，因为 SIP 中继提供程序是受信任的对等方。 (
 
-- 入站History-Info忽略。
+- 将History-Info入站流量。
 
 下面是 SIP 代理发送的 History-info 标头的格式：
 
@@ -355,12 +364,12 @@ History-info:
 
 如果直接路由数据中心正忙，服务可以将一Retry-After一秒时间间隔的消息发送到 SBC。 当 SBC 收到包含 Retry-After 标头的 503 消息以响应 INVITE 时，SBC 必须终止该连接并尝试下一个可用的 Microsoft 数据中心。
 
-## <a name="handling-retries-603-response"></a>处理 603 (的重试) 
+## <a name="handling-retries-603-response"></a>处理重试 (603 响应) 
 如果最终用户在拒绝传入呼叫后发现一次呼叫多次未接来电，这意味着 SBC 或 PSTN 中继提供商的重试机制配置不正确。 必须重新配置 SBC，以停止针对 603 响应的重试工作。
 
 ## <a name="ice-restart-media-bypass-call-transferred-to-an-endpoint-that-does-not-support-media-bypass"></a>ICE 重启：转移到不支持媒体旁路的终结点的媒体旁路呼叫
 
-SBC 必须支持 [RFC 5245 第 9.1.1.1](https://tools.ietf.org/html/rfc5245#section-9.1.1.1)部分中所述的 ICE 重启。
+SBC 必须支持 [RFC 5245 第 9.1.1.1 部分](https://tools.ietf.org/html/rfc5245#section-9.1.1.1)中所述的 ICE 重启。
 
 直接路由中的重启根据 RFC 的以下段落实现：
 
@@ -368,4 +377,4 @@ SBC 必须支持 [RFC 5245 第 9.1.1.1](https://tools.ietf.org/html/rfc5245#sect
 
 *代理为此媒体流设置 SDP 中的其余字段，就像在此媒体流的初始产品/服务中一样 (请参阅第 4.3 部分) 。 因此，候选项集"可以"包括该流的部分、无或所有以前的候选项，而"可以"包含一组完全新的候选项，如第 4.1.1 节中所述。*
 
-如果呼叫最初是使用媒体旁路建立的，并且呼叫转接到 Skype for Business 客户端，则直接路由需要插入媒体处理器 -这是因为直接路由不能与具有媒体旁路的 Skype for Business 客户端一同使用。 直接路由通过更改 ice-pwd 和 ice-ufrag，在重新邀请中提供新的媒体候选项来启动 ICE 重启过程。
+如果呼叫最初是使用媒体旁路建立的，并且呼叫转移到 Skype for Business 客户端，则直接路由需要插入媒体处理器 -这是因为直接路由不能与具有媒体旁路的 Skype for Business 客户端一同使用。 直接路由通过更改 ice-pwd 和 ice-ufrag，在重新邀请中提供新的媒体候选项来启动 ICE 重启过程。
