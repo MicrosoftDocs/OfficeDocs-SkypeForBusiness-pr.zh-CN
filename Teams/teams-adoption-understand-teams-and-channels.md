@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2551d0de27bd945dfda1ba943462b33489d7cd42
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 6ba80c74e905fa80f42095afd7a524d202661f21
+ms.sourcegitcommit: 1957a06d4bae3d42b4e3b6d4bd8ff2752a19d377
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733981"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60641192"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>了解 Microsoft Teams 中的团队和频道
 
@@ -36,12 +36,12 @@ ms.locfileid: "58733981"
 
 - 频道是团队中完成实际工作的协作空间。 
 
-若要详细了解团队和频道，请参阅团队和频道概述[Microsoft Teams。](teams-channels-overview.md) 有关全面Teams采用指南，请获取Teams[采用指南。](https://aka.ms/teamstoolkit) 若要详细了解组Teams组Microsoft 365组，请参阅Microsoft 365[组](office-365-groups.md)Microsoft Teams和了解有关组[Microsoft 365。](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)
+若要详细了解团队和频道，请参阅团队和频道概述[Microsoft Teams。](teams-channels-overview.md) 有关全面Teams采用指南，请获取Teams[采用指南。](https://aka.ms/teamstoolkit) 若要详细了解组Teams Microsoft 365组，请参阅Microsoft 365[组](office-365-groups.md)Microsoft Teams和了解有关组[Microsoft 365。](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)
 
 
 | &nbsp; |&nbsp;  |
 |---------|---------|
-| 观看此简短视频   | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   |
+| 观看此简短视频   | <iframe width="350" height="200" src="https://youtu.be/WkAVgNKn0hs" frameborder="0" allowfullscreen></iframe>   |
 
 
 
@@ -61,4 +61,4 @@ ms.locfileid: "58733981"
   
 你将在实施的第 [2](teams-adoption-phase2-experiment.md) 阶段进一步处理团队的结构。
 
-![一个描述下一步骤的图标。](media/teams-adoption-next-icon.png) 下一 [步：创建你的第一个团队](teams-adoption-your-first-teams.md)
+![描述下一步的图标。](media/teams-adoption-next-icon.png) 下一 [步：创建你的第一个团队](teams-adoption-your-first-teams.md)

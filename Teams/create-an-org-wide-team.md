@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5a3322c55e61fc674be6647b192aff86e4412975
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 058aa530508c03587eae3ff6a55e218bc109bbd2
+ms.sourcegitcommit: 1957a06d4bae3d42b4e3b6d4bd8ff2752a19d377
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728201"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60641172"
 ---
 # <a name="create-an-organization-wide-team-in-microsoft-teams"></a>在 Microsoft Teams
 
@@ -36,7 +36,7 @@ ms.locfileid: "58728201"
 
 ![用于创建组织范围的团队的"组织范围"选项的屏幕截图。](media/create-org-wide-team.png "用于创建组织范围的团队的&quot;组织范围&quot;选项的屏幕截图")
 
-创建组织范围的团队时，所有全局管理员Teams服务管理员添加为团队所有者，所有活动用户都添加为团队成员。 未经授权的用户也将添加到团队。 未授权用户首次登录 Teams时，会为该用户分配Microsoft Teams探索许可证。 若要详细了解探索许可证，请查看管理 Microsoft Teams[探索许可证](teams-exploratory.md)。 
+创建组织范围的团队后，所有全局管理员Teams服务管理员添加为团队所有者，所有活动用户都添加为团队成员。 未经授权的用户也将添加到团队。 未授权用户首次登录 Teams时，会为该用户分配Microsoft Teams探索许可证。 若要详细了解探索许可证，请查看管理 Microsoft Teams[探索许可证](teams-exploratory.md)。 
 
 以下类型的帐户不会添加到组织范围的团队：
 
@@ -46,13 +46,13 @@ ms.locfileid: "58728201"
 - 会议室或设备帐户
 - 共享邮箱支持的帐户
 
-随着组织的目录更新为包含新的活动用户或禁用不再在公司工作的用户帐户，更改将自动同步，并且会添加或删除团队中的用户。 团队成员不能离开组织范围内的团队。 作为团队所有者，你可以根据需要手动添加或删除用户。
+当组织的目录更新为包含新的活动用户或禁用不再在公司工作的用户帐户时，将自动同步更改，并且会向团队添加或删除用户。 团队成员不能离开组织范围内的团队。 作为团队所有者，你可以根据需要手动添加或删除用户。
 
 > [!NOTE]
-> - 如果在创建团队时看不到"组织范围"选项，并且你是全局管理员，则你可能已达到组织范围的五个团队限制，或者你的组织可能超过当前 10，000 个成员的大小限制。 我们想要在未来增加此限制。 对于 Teams 教育版，组织范围的团队不可用。
+> - 如果在创建团队时看不到"组织范围"选项，并且你是全局管理员，则你可能已达到组织范围的五个团队限制，或者你的组织可能超过 10，000 个成员的当前大小限制。 我们想要在未来增加此限制。 对于 Teams 教育版，组织范围的团队不可用。
 > - 非会议室列表、设备和资源帐户的一部分可能会添加或同步到组织范围的团队。 团队所有者可轻松从团队中删除这些帐户。
 > - 系统添加或删除成员的所有操作均发布在常规频道中。 该频道还将在 Teams 客户端中标记为具有新活动。
-> - 如果您的组织是新用户，并且用户数不超过 5，000 Teams，我们将自动为您的组织创建组织范围的团队。 团队名称将反映租户名称，并且具有常规频道。 全局管理员可像任何其他团队一样编辑此团队。
+> - 如果你的组织是新用户且用户数不超过 5，000 Teams，我们会自动为组织创建组织范围的团队。 团队名称将反映租户名称，并且具有常规频道。 全局管理员可像任何其他团队一样编辑此团队。
 
 ## <a name="best-practices"></a>最佳做法
 
@@ -93,9 +93,9 @@ ms.locfileid: "58728201"
 
 ## <a name="faq"></a>常见问题
 
-### <a name="is-there-a-way-to-create-an-organization-wide-team-other-than-using-the-teams-client"></a>除了使用客户端外，是否还有一种方法可以创建组织范围的Teams？
+### <a name="is-there-a-way-to-create-an-organization-wide-team-other-than-using-the-teams-client"></a>除了使用应用程序客户端，是否还有创建组织范围的Teams的方法？
 
-全局管理员只能使用客户端创建组织范围的Teams团队。 如果贵组织将创建团队限制为使用 PowerShell，则建议的解决方法是将全局管理员添加到可以创建团队的用户安全组中。
+只有全局管理员可以使用全局客户端创建组织范围的Teams团队。 如果贵组织将创建团队限制为使用 PowerShell，则建议的解决方法是将全局管理员添加到可以创建团队的用户安全组中。
 
 有关详细信息，请参阅 [管理可以创建组的人](/microsoft-365/admin/create-groups/manage-creation-of-groups)。
 

@@ -20,12 +20,12 @@ description: 在本文中，你将了解在 Microsoft Teams 中设置实时事�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8996c796d6ab5a2e98c636a115707e6bb2249c6e
-ms.sourcegitcommit: 65964d5079120c900abdba24c08d4cc18d2fde7a
+ms.openlocfilehash: b66ef3032f5048cdde377b6a907ce4e8eee739a9
+ms.sourcegitcommit: 1957a06d4bae3d42b4e3b6d4bd8ff2752a19d377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "58883750"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60641222"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中规划实时事件
 
@@ -164,6 +164,7 @@ ms.locfileid: "58883750"
 **以下国家/地区（支持）的数据位置**
 
 - 澳大利亚
+- 巴西
 - 加拿大
 - 法国
 - 德国
@@ -177,7 +178,6 @@ ms.locfileid: "58883750"
 
 **不支持这些国家/地区和云**
 
-- 巴西
 - 挪威
 - 政府社区云 (GCC)-H
 - 国防部 (DOD)

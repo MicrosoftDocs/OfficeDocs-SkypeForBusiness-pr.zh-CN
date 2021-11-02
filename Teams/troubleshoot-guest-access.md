@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5b539116fb5e81156a56c5f73146b92eea898765
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c8d54e236583211c2a8169987bf03ceba756facf
+ms.sourcegitcommit: 1957a06d4bae3d42b4e3b6d4bd8ff2752a19d377
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600927"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60641212"
 ---
 # <a name="troubleshoot-problems-with-guest-access-in-microsoft-teams"></a>排查 Microsoft Teams 中的来宾访问问题
 
@@ -39,16 +39,12 @@ ms.locfileid: "58600927"
 Teams 中的来宾访问功能使用 Azure Active Directory (Azure AD) 企业对企业 (B2B) 及其许可模式。 所有 Microsoft 365 商业标准版、Office 365 企业版和 Office 365 教育版订阅均包含来宾访问功能。 无需额外的 Microsoft 365 或 Office 365 许可证。
 
 > [!NOTE]
-> Teams来宾的住宅租户上启用订阅，来宾才能登录，并使用 Teams 作为另一资源租户 () 租户。
+> Teams来宾家庭租户上启用订阅，来宾才能在另一个资源租户Teams登录并使用 () 。
 
-如果看到许可错误，请务必阅读 [Azure AD](/azure/active-directory/external-identities/external-identities-pricing) 外部标识的计费模型，以确定满足组织中来宾访问需求的许可要求。
+如果看到许可错误，请务必阅读 Azure AD[外部](/azure/active-directory/external-identities/external-identities-pricing)标识的计费模型，以确定满足组织中来宾访问需求的许可要求。
 
 - 来宾许可证计入邀请组织。 在计算所需的许可证数量时，请注意这一点。
-- 无论是受邀来宾来自另一个组织Microsoft 365还是使用其个人电子邮件地址，许可证都计入组织。
-
-## <a name="support-for-b2b-user-types"></a>支持 B2B 用户类型
-
-目前，Teams 只支持 [Azure B2B 定义的](/azure/active-directory/b2b/user-properties)状态 1 和状态 2 类型来宾用户。
+- 无论是受邀来宾来自另一个组织Microsoft 365还是使用其个人电子邮件地址，许可证都计入您的组织。
 
 ## <a name="related-topics"></a>相关主题
 
