@@ -20,12 +20,12 @@ f1.keywords:
 - NOCSH
 description: 了解如何配置Microsoft 电话直接路由，将本地电话基础结构连接到 Microsoft Teams。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f2e0277afeb7fefc3715aef00138fab3b3ff62bc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 05e3152c13b0cf6559964d3926d7c66e7cf376e8
+ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582356"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60634891"
 ---
 # <a name="configure-direct-routing"></a>配置直接路由
 
@@ -36,14 +36,14 @@ Microsoft 电话使用系统直接路由可将本地电话基础结构连接到 
 > [!Tip]
 > 还可以观看以下会话，了解直接路由的好处、如何规划它以及如何部署[它：直接](https://aka.ms/teams-direct-routing)路由在 Microsoft Teams。
 
-若要完成本文中介绍的步骤，管理员需要熟悉 PowerShell cmdlet。 有关使用 PowerShell 的信息，请参阅为计算机设置[Windows PowerShell。](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) 
+若要完成本文中介绍的步骤，管理员需要熟悉 PowerShell cmdlet。 有关使用 PowerShell 的信息，请参阅[为计算机设置 Windows PowerShell。](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) 
 
 在执行这些文章中的步骤之前，Microsoft 建议确认 SBC 已根据 SBC 供应商的建议进行配置： 
 
 - [AudioCodes 部署文档](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams)
 - [Oracle 部署文档](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)
 - [功能区通信部署文档](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions/direct-routing-microsoft-teams-calling)
-- [TE-Systems (部署) 节点](https://www.anynode.de/anynode-and-microsoft-teams/)
+- [TE-Systems (anynode) 部署文档](https://www.anynode.de/anynode-and-microsoft-teams/)
 - [Metaswitch 部署文档](https://www.metaswitch.com/products/core-network/perimeta-sbc)
 
 有关受支持的 SDC 的完整列表，请参阅通过直接路由 认证的 [会话边界控制器列表](direct-routing-border-controllers.md)。
@@ -52,7 +52,7 @@ Microsoft 电话使用系统直接路由可将本地电话基础结构连接到 
 
 - **第 1 步** [连接系统Microsoft 电话 SBC 并验证连接](direct-routing-connect-the-sbc.md)
 - **第 2 步** [为用户启用直接路由、语音和语音邮件](direct-routing-enable-users.md)
-- **第 3 步** [配置语音路由](direct-routing-voice-routing.md)
+- **第 3 步** [配置呼叫路由](direct-routing-voice-routing.md)
 - **第 4 步** [将数字转换为备用格式](direct-routing-translate-numbers.md) 
 
 如果要为多个租户配置 SBC，则还需要阅读为多个租户[配置 SBC。](direct-routing-sbc-multiple-tenants.md)

@@ -16,18 +16,24 @@ appliesto:
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
-description: 了解如何在管理中心为组织添加、更改或删除紧急Microsoft Teams位置。
+description: 了解如何为组织添加、更改或删除紧急位置的位置。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 98135be7b74583ad01718d19796889bdc9a467d1
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: fec188634377b04cb4149d3680acc07eef797149
+ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60537213"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60634871"
 ---
 # <a name="add-change-or-remove-a-place-for-an-emergency-location-in-your-organization"></a>在组织中添加、更改或删除紧急位置的地点
 
-根据组织中物理位置的数量，您可以为建筑物、楼层和办公室添加位置，以创建更具体的紧急位置。 有关详细信息 [，请参阅管理](what-are-emergency-locations-addresses-and-call-routing.md) 紧急呼叫。
+根据组织中物理位置的数量，您可以为建筑物、楼层和办公室添加位置，以创建更具体的紧急位置。
+
+但是，根据 PSTN 连接选项，管理紧急位置和位置要求可能有所不同。 有关详细信息，请参阅 [管理紧急呼叫](what-are-emergency-locations-addresses-and-call-routing.md)。
+
+本文介绍如何为组织添加、更改或删除紧急位置的位置。 
+
+本文适用于 Microsoft 呼叫计划、连接和直接路由。
 
 在安全管理中心或 PowerShell 中Microsoft Teams组织的紧急位置。
   
@@ -71,6 +77,7 @@ ms.locfileid: "60537213"
     
 ## <a name="related-topics"></a>相关主题
 
-- [在组织中添加、更改或删除紧急位置的地点](add-change-remove-emergency-place-organization.md)
+- [管理紧急呼叫](what-are-emergency-locations-addresses-and-call-routing.md)
+- [为你的组织添加、更改或删除紧急位置](add-change-remove-emergency-location-organization.md)
 - [管理你的组织的电话号码](/microsoftteams/manage-phone-numbers-for-your-organization)
 - [紧急呼叫条款和条件](./emergency-calling-terms-and-conditions.md)

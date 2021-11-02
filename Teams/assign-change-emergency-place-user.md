@@ -1,5 +1,5 @@
 ---
-title: 为用户分配、更改紧急位置的位置
+title: 为用户分配或更改紧急位置的位置
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -18,26 +18,28 @@ f1.keywords:
 - NOCSH
 description: 本文介绍了如何为贵组织的用户分配或更改紧急位置。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8cb8d51f35799ddb8610e7b3b36b43bf7f1fb890
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 9bd69356be22954ee1b1b44b2dcc1a52c1e72507
+ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60537203"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60634881"
 ---
 # <a name="assign-or-change-the-place-for-an-emergency-location-for-a-user"></a>为用户分配或更改紧急位置的位置
 
-将电话号码分配给用户时，每个活动电话号码必须具有关联的紧急位置。 当您在云中获取电话号码时Microsoft 365、将电话号码转接到 Microsoft 365或者从提供商获取电话号码时，您将关联该地址。
+无论选择"Microsoft 呼叫计划"、"接线员连接"还是"直接路由"，都需要将紧急位置分配给每个电话号码或用户，而不考虑[PSTN](pstn-connectivity.md) &mdash; &mdash; 连接选项。
 
-将号码与紧急位置关联时，还可以添加一个位置，在物理位置中提供更精确的位置。 一个地方可以是用户所在的楼层、建筑侧或办公室号码。 对于给定的紧急位置，你可以有无限数量的地点，并且如果用户移动到其他办公室或建筑物，你可以更改位置。 例如，如果用户从 34 楼移到 35 楼。
-  
-可以在管理中心内或通过使用 PowerShell 为Microsoft Teams位置分配或更改紧急位置。
+但是，你为用户管理和分配紧急位置可能有所不同，具体取决于 PSTN 连接选项。 有关详细信息，请参阅 [管理紧急呼叫](what-are-emergency-locations-addresses-and-call-routing.md)。
+
+本文介绍如何使用 PowerShell 为用户分配或更改紧急Microsoft Teams位置。
+
+本文适用于呼叫计划和运营商连接。
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 管理中心
 
-1. 在管理中心左侧导航Microsoft Teams，单击 **"语音电话**  >  **号码"。**
+1. 在管理中心的左侧导航Microsoft Teams，单击 **"语音电话**  >  **号码"。**
 
-2. 在 **"电话"页上**，单击"数字"选项卡，在列表中选择用户编号，然后单击"编辑 **"。**
+2. 在 **"电话"** 页上，单击"数字"选项卡，在列表中选择用户编号，然后单击"编辑 **"。**
 
 3. 在" **编辑** "窗格的 **"紧急位置"下**，执行下列操作之一：
 
@@ -56,8 +58,8 @@ ms.locfileid: "60537203"
 ## <a name="related-topics"></a>相关主题
 
 - [管理紧急呼叫](what-are-emergency-locations-addresses-and-call-routing.md)
+- [为用户分配或更改紧急位置](assign-change-emergency-location-user.md)
 - [为你的组织添加、更改或删除紧急位置](add-change-remove-emergency-location-organization.md)
 - [在组织中添加、更改或删除紧急位置的地点](add-change-remove-emergency-place-organization.md)
-- [为用户分配或更改紧急位置](assign-change-emergency-location-user.md)
 - [管理你的组织的电话号码](/microsoftteams/manage-phone-numbers-for-your-organization)
 - [紧急呼叫条款和条件](./emergency-calling-terms-and-conditions.md)

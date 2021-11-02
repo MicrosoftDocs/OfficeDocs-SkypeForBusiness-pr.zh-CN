@@ -18,26 +18,30 @@ f1.keywords:
 - NOCSH
 description: 本文介绍了如何为组织中用户分配或更改紧急位置。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 905e0e66555f908e98368d592905e98b54db059a
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: efe6b81961a4f7ca4eeb39e3f10b0c117cba7d6e
+ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60537283"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60634901"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>为用户分配或更改紧急位置
 
-需要将紧急位置分配给每个电话号码或用户。 有关紧急地址和位置详细信息，请参阅什么是紧急位置、地点和[呼叫路由？。](./what-are-emergency-locations-addresses-and-call-routing.md)
+无论选择"Microsoft 呼叫计划["、"](pstn-connectivity.md)接线员连接"还是"直接路由"，都需要将紧急位置分配给每个电话号码或用户，而不考虑 PSTN &mdash; &mdash; 连接选项。
 
-对于 Microsoft 呼叫计划，在其他国家/地区，紧急位置与电话号码相关联（从 Microsoft 365 或将电话号码转移到 Microsoft 365）。 在美国，紧急位置与分配给用户的电话号码相关联。 如果分配紧急地址的用户移动到新位置，则紧急地址可能会更改。
+但是，你为用户管理和分配紧急位置可能有所不同，具体取决于 PSTN 连接选项。 有关详细信息，请参阅 [管理紧急呼叫](what-are-emergency-locations-addresses-and-call-routing.md)。
+
+本文介绍如何为用户分配或更改紧急位置。 
+
+本文适用于呼叫计划和运营商连接。
   
 可以在管理中心或 PowerShell 中为Microsoft Teams分配或更改紧急位置。
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 管理中心
 
-1. 在管理中心左侧导航Microsoft Teams，单击 **"语音电话**  >  **号码"。**
+1. 在管理中心的左侧导航Microsoft Teams，单击 **"语音电话**  >  **号码"。**
 
-2. 在 **"电话"页上**，单击"数字"选项卡，在列表中选择用户编号，然后单击"编辑 **"。**
+2. 在 **"电话"** 页上，单击"数字"选项卡，在列表中选择用户编号，然后单击"编辑 **"。**
 
 3. 在" **编辑** "窗格的 **"紧急位置"下**，执行下列操作之一：
 
@@ -58,8 +62,7 @@ ms.locfileid: "60537283"
 
 - [管理紧急呼叫](what-are-emergency-locations-addresses-and-call-routing.md)
 - [为你的组织添加、更改或删除紧急位置](add-change-remove-emergency-location-organization.md)
-- [在组织中添加、更改或删除紧急位置的地点](add-change-remove-emergency-place-organization.md)
 - [为用户分配或更改紧急位置的地点](assign-change-emergency-place-user.md)
+- [在组织中添加、更改或删除紧急位置的地点](add-change-remove-emergency-place-organization.md)
 - [管理你的组织的电话号码](/microsoftteams/manage-phone-numbers-for-your-organization)
 - [紧急呼叫条款和条件](./emergency-calling-terms-and-conditions.md)
-- [Teams PowerShell 概览](teams-powershell-overview.md)
