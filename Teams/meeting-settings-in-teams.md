@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 了解如何管理用户在组织中安排的 Teams 会议的设置。
-ms.openlocfilehash: dea6c465600229414dba30c0b0adecc7e5a5caad
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 731ed3aa7b9cb7b2511d7ffa1614bdf06522ac0e
+ms.sourcegitcommit: 1957a06d4bae3d42b4e3b6d4bd8ff2752a19d377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60537093"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60641232"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理会议设置
 
@@ -109,6 +109,14 @@ ms.locfileid: "60537093"
 如果使用服务质量 （QoS） 确定网络流量的优先顺序，可启用 QoS 标记，并设置每种类型的媒体流量的端口范围。 为不同流量类型设置端口范围只是处理实时媒体的其中一个步骤；有关详细信息，请参阅 [Teams 中的服务质量 (QoS)](qos-in-teams.md)。
 
 > [!IMPORTANT]
+> 基于 Apple 的系统：据我们所知，基于 Apple 的设备确实会设置 DSCP 值的唯一情况是以下所有条件都满足：
+> - iOS。
+> - WiFi 网络。
+> - Cisco 交换机。
+> - 网络管理员已将应用添加到批准的列表中。
+>
+> 基于 Android 的系统：没有已知限制。
+>
 > 如果为 Teams 服务在 Microsoft Teams 管理中心启用 QoS 或更改设置，还需要 [将匹配设置应用到所有用户设备](QoS-in-Teams-clients.md) 以及所有内部网络设备，以在 Teams 中完全实施 QoS 更改。
 
   **使用 Microsoft Teams 管理中心**
@@ -119,6 +127,10 @@ ms.locfileid: "60537093"
     ![管理中心内会议的网络设置的屏幕截图。](media/meeting-settings-network.png "Microsoft Teams 管理中心 Teams 会议的网络设置的屏幕截图")
 
     - 要允许对 QoS 使用 DSCP 标记，请打开 **插入实时媒体流量的服务质量 (QoS) 标记**。 你只能选择是否使用标记；不能为每种流量类型设置自定义标记。 有关 DSCP 标记的更多信息，请参阅[选择 QoS 实施方法](QoS-in-Teams.md#select-a-qos-implementation-method)。
+
+        > [!IMPORTANT]
+        > 请注意，仅在终结点上启用 QoS 以标记离开客户端的数据包。 我们仍然建议在所有内部网络设备上对传入流量应用匹配的 QoS 规则。
+        
         > [!NOTE]
         > DSCP 标记通常通过源端口完成，UDP 通信流将默认通过目标端口 3478 路由到传输中继。 如果你的公司要求在目标端口上标记，请联系支持人员以启用与 UDP 端口 3479（音频）、3480（视频）和 3481（共享）的传输中继通信。
     - 要指定端口范围，请在 **选择每种媒体实时流量的端口范围** 旁选择 **指定端口范围**，然后输入音频、视频和屏幕共享的起始和结束端口。选择该选项是实现 QoS 的必要条件。 
