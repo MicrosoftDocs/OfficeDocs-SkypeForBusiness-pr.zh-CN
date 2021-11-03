@@ -945,7 +945,7 @@ items:
                     href: direct-routing-connect-the-sbc.md
                   - name: 第 2 步：启用用户
                     href: direct-routing-enable-users.md
-                  - name: 第 3 步：配置语音路由
+                  - name: 第 3 步：配置呼叫路由
                     href: direct-routing-voice-routing.md
                   - name: 第 4 步：转换电话号码
                     href: direct-routing-translate-numbers.md
@@ -953,7 +953,7 @@ items:
                     href: direct-routing-sbc-multiple-tenants.md
                   - name: 如何将模拟设备与直接路由结合使用
                     href: direct-routing-analog-devices.md
-                  - name: 管理语音路由策略
+                  - name: 管理呼叫路由策略
                     href: manage-voice-routing-policies.md
                   - name: 管理呼叫通知
                     href: direct-routing-call-notifications.md
@@ -1077,7 +1077,7 @@ items:
                 href: emergency-calling-labels.md
           - name: 管理紧急呼叫策略
             href: manage-emergency-calling-policies.md
-          - name: 管理直接路由的紧急语音路由策略
+          - name: 管理直接路由的紧急呼叫路由策略
             href: manage-emergency-call-routing-policies.md
       - name: 在 Teams 中管理语音和呼叫策略
         href: voice-and-calling-policies.md
