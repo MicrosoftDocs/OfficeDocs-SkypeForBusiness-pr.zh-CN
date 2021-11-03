@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: 5a61ded32ca4563a3825d893f671332fa30bb996
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9468da224b7f5079f091125cb0d2841c4bd79290
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611731"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733063"
 ---
 # <a name="availability-in-india"></a>在印度的可用性
 
@@ -69,7 +69,7 @@ ms.locfileid: "58611731"
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|你可以获取哪些首都或大城市的收费电话号码？  <br/> |<ul><li>金奈</li><li>孟买<li>请求的其他 [城市](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)</ul> |
+|你可以获取哪些首都或大城市的收费电话号码？  <br/> |<ul><li>金奈</li><li>孟买<li>请求的其他 [城市](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)</ul> |
 |是否提供收费电话号码？  <br/> |是  <br/> |
 |是否提供免费电话号码？  <br/> |是  <br/> |
 

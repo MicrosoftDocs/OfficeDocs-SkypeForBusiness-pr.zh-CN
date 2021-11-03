@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.voice.phonenumbers.porting.moreinfo
 description: 获取将电话号码移植到 Microsoft Teams。
-ms.openlocfilehash: 5ed15432517ae6ba5709e699c89c341dc86f30f2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bdfe677a4a76128343382373d027abd5061bd8fc
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598386"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733313"
 ---
 # <a name="more-information-about-porting"></a>有关移植的信息
 
@@ -32,7 +32,7 @@ ms.locfileid: "58598386"
 
 有关完整的分步说明，请参阅[将电话号码转移到 Teams。](transfer-phone-numbers-to-teams.md)
 
-如果你需要帮助或需要获取更多电话号码，请联系 [PSTN 服务台帮助](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)。
+如果需要帮助或需要获取更多电话号码，请联系 [TNS 服务台帮助](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)。
 
 ## <a name="port-order-account-information"></a>移植订单帐户信息
 
@@ -58,7 +58,7 @@ ms.locfileid: "58598386"
   
 若要轻松提交移植订单并避免错误，请确保执行以下操作：
   
-- 删除与 (相关联的任何功能，) "寻道组"。 确保这些电话号码上未启用高级呼叫控制功能，例如"呼叫寻线"或"独特圈"。
+- 删除与 (相关联的任何功能，) "寻线组"。 确保这些电话号码上未启用高级呼叫控制功能，例如"呼叫寻线"或"独特圈"。
     
 - 确保尚未下任何新的服务订单或与当前服务提供商断开连接。
     
@@ -74,11 +74,11 @@ ms.locfileid: "58598386"
 在移植向导中，必须输入有权对服务提供商或运营商的帐户进行更改的人员的姓名。 该名称不用于处理移植订单，但用于争议，或者当号码移植时存在错误的情况。 此人负责处理转 (LOA) 授权书。
   
 > [!NOTE]
-> 此框限制为 15 个字符， (空格) 。 框中没有完整名称不会延迟或取消移植订单。
+> 此框限制为 15 个字符 (包括空格) 。 框中没有完整名称不会延迟或取消移植订单。
   
 ## <a name="whats-my-billing-telephone-number"></a>我的付费电话号码是什么？
 
-BTN (收费电话号码) 包含在帐单上且由服务提供商或运营商计费的主电话号码。 如果要从只有一个电话号码的帐户转移电话号码，则需要输入此电话号码。 如果要从具有多个帐户转移电话号码，可以查看帐单或联系服务提供商或运营商，确定您的帐户的 BTN 是什么。
+按 BTN (收费) 是帐单中包含的主电话号码，由服务提供商或运营商计费。 如果要从只有一个电话号码的帐户转移电话号码，则需要输入此电话号码。 如果要从具有多个帐户转移电话号码，可以查看帐单或联系服务提供商或运营商，确定您的帐户的 BTN 是什么。
 
 ## <a name="what-should-i-put-in-for-the-account-number"></a>我应该为帐号放入什么？
 

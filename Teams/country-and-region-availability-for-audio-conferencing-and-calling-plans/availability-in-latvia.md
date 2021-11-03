@@ -24,13 +24,13 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Microsoft 365适用于Office 365拉脱维亚Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: 3004aa00132e60b1136be24426ed3ed80d72c6c6
-ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
+description: Microsoft 365 Office 365适用于拉脱维亚Skype for Business Microsoft Teams服务。
+ms.openlocfilehash: dac4a1294020414e01c901d2593180d16beacfb3
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "59942397"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733043"
 ---
 # <a name="availability-in-latvia"></a>在拉脱维亚的可用性
 
@@ -60,7 +60,7 @@ ms.locfileid: "59942397"
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买通话套餐？  <br/> |是  <br/> |
-|通话套餐可用的分钟数。 |每个日历月有四个可用的计划选项： <ul><li>120 分钟国内呼叫计划 </li><li>240 分钟国内呼叫计划</li></li><li>1200 分钟国内呼叫计划 </li></li><li>国内和国际呼叫计划：国内 1200 分钟 -或 600 分钟国际呼叫 (以日历月份中首次达到者为准) </li></li></ul>|
+|通话套餐可用的分钟数。 |每个日历月有四个可用的计划选项： <ul><li>120 分钟国内呼叫计划 </li><li>240 分钟国内呼叫计划</li></li><li>1200 分钟国内呼叫计划 </li></li><li>国内和国际呼叫计划：国内 1200 分钟 -OR- 600 分钟国际呼叫 (以日历月份中首次达到者为准) </li></li></ul>|
 |能否对高级号码进行出站呼叫？  <br/> | 目前不支持。 <br/> |
 |是否可以拨打呼出电话？  <br/> | [到 196 个国家和地区](users-can-make-outbound-calls-to-these-countries-and-regions.md)。<br/> |
    
@@ -68,9 +68,9 @@ ms.locfileid: "59942397"
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|你可以获取哪些首都或大城市的收费电话号码？  <br/> |请求 ([Riiga) ](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) <br/> |
+|你可以获取哪些首都或大城市的收费电话号码？  <br/> |请求 ([Riiga) ](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) <br/> |
 |是否提供收费电话号码？  <br/> |是  <br/> |
-|是否提供免费电话号码？  <br/> |是（[应要求](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)） <br/> |
+|是否提供免费电话号码？  <br/> |是（[应要求](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)） <br/> |
    
 若要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅获取电话和[Skype for Business Microsoft Teams。](../getting-service-phone-numbers.md)
   

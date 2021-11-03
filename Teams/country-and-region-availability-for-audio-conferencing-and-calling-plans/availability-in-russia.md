@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是适用于俄罗斯Microsoft 365 Office 365和Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: cad4334c71a3b704dacdd68845fb565e4cde84db
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 以下是适用于俄罗斯Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
+ms.openlocfilehash: ac85b5d1a19716a8f5e8d0b16cd0283b59fa8868
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626334"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733053"
 ---
 # <a name="availability-in-russia"></a>在俄罗斯的可用性
 
 [查找其他国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或详细了解可以在哪些国家/地区使用音频会议和通话套餐。
 
-以下是适用于俄罗斯Microsoft 365 Office 365和Skype for Business Microsoft Teams服务。
+以下是适用于俄罗斯Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 
@@ -69,7 +69,7 @@ ms.locfileid: "58626334"
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|你可以获取哪些首都或大城市的收费电话号码？  <br/> |<ul><li>俄罗斯 <li>根据请求 ([圣](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) </ul>|
+|你可以获取哪些首都或大城市的收费电话号码？  <br/> |<ul><li>俄罗斯 <li>根据请求 ([圣](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)) </ul>|
 |是否提供收费电话号码？  <br/> |是  <br/> |
 |是否提供免费电话号码？  <br/> |否  <br/> |
    

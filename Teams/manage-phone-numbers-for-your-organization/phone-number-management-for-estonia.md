@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 使用此表查找有关在爱沙尼亚获取和管理电话号码的信息，Microsoft Teams。
-ms.openlocfilehash: 8a9f7752d2ebb3ecc63b1f4d1d9912ef92137e58
-ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
+ms.openlocfilehash: eacb29f37297589971c3f5193cbde5afbf1aeae2
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "59944481"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60732913"
 ---
 # <a name="phone-number-management-for-estonia"></a>电话爱沙尼亚的号码管理
 
@@ -34,11 +34,11 @@ ms.locfileid: "59944481"
   
 |**你要做什么？**|**下载正确的表单**|
 |:-----|:-----|
-|获取未在管理中心中列出的新用户Microsoft Teams电话号码。 |在爱沙尼亚，可以使用管理中心获取Microsoft Teams电话号码。 您也可以通过下载表单提交新的电话号码请求，并 [联系 PTSN 服务台以请求说明](contact-pstn-service-desk.md)。<br/><br/> [适用于爱沙尼亚的新电话号码请求 (v.1.0) 。 ](<https://download.microsoft.com/download/4/2/c/42c560b3-c108-4f99-966f-674f19f7073a/New phone number request for Estonia (v.1.0) (en-us).pdf>) <br/><br/>新订单可能需要 1 到 4 周来填充此市场，具体取决于我们是否拥有特定区域的数量股票。 |
-|获取转接给我们的电话号码。 | 下载此表单。 <br/><br/>[适用于爱沙尼亚 (LOA) 授权书 ()  (v.1.0) ](<https://download.microsoft.com/download/0/a/c/0ac70736-9dbd-4cd9-a195-d98ee5c5ae35/Estonia LOA.pdf>)<br/><br/>填写它并 [联系 PTSN 服务台，了解说明](contact-pstn-service-desk.md)。 还必须包含要转移号码的企业地址中的实用工具帐单。<br/><br/>转移号码可能需要 3 周才能在此市场中完成。 这些号码目前不能用于会议。|
-|发布/取消发布 () 国内电话目录中的电话号码。  <br/> |有关要发布/取消发布的电话号码列表的说明，请联系[PTSN](contact-pstn-service-desk.md)服务台。 <br/> |
-|将用户号码更改为服务号码。  <br/> |[有关要转换为](contact-pstn-service-desk.md) 服务号码的用户号码列表的说明，请联系 PTSN 服务台。 <br/> |
-|更新目录服务以呼叫队列或自动助理号码|若要添加或更改呼叫队列或自动助理号码，请联系 [PSTN 服务台，获得说明](contact-pstn-service-desk.md)。 |
+|获取未在管理中心中列出的新用户Microsoft Teams电话号码。 |在爱沙尼亚，可以使用管理中心获取组织Microsoft Teams电话号码。 您也可以通过下载表单提交新的电话号码请求，并 [联系 TNS 服务台以请求说明](contact-tns-service-desk.md)。<br/><br/> [适用于爱沙尼亚的新电话号码请求 (v.1.0) 。 ](<https://download.microsoft.com/download/4/2/c/42c560b3-c108-4f99-966f-674f19f7073a/New phone number request for Estonia (v.1.0) (en-us).pdf>) <br/><br/>新订单可能需要 1 到 4 周来填充此市场，具体取决于我们是否拥有特定区域的数量股票。 |
+|获取转接给我们的电话号码。 | 下载此表单。 <br/><br/>[适用于爱沙尼亚 (LOA) 授权书 (v.1.0)  (所有) ](<https://download.microsoft.com/download/0/a/c/0ac70736-9dbd-4cd9-a195-d98ee5c5ae35/Estonia LOA.pdf>)<br/><br/>填写它并 [联系 TNS 服务台，了解说明](contact-tns-service-desk.md)。 还必须包含要转移号码的企业地址中的实用工具帐单。<br/><br/>转移号码可能需要 3 周才能在此市场中完成。 这些号码目前不能用于会议。|
+|发布/取消发布 () 国内电话目录中的电话号码。  <br/> |[有关要](contact-tns-service-desk.md) 发布/取消发布的电话号码列表的说明，请联系 TNS 服务台。 <br/> |
+|将用户号码更改为服务号码。  <br/> |[有关要转换为](contact-tns-service-desk.md) 服务号码的用户号码列表的说明，请联系 TNS 服务台。 <br/> |
+|更新目录服务以呼叫队列或自动助理号码|若要添加或更改呼叫队列或自动助理号码，请联系 [TNS 服务台，获得说明](contact-tns-service-desk.md)。 |
    
 ## <a name="related-topics"></a>相关主题
 

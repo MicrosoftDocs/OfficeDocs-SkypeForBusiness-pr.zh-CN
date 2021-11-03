@@ -20,13 +20,13 @@ f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
-description: 了解如何获取新号码、转网号码或转移现有号码Teams以及如何向用户显示更改。
-ms.openlocfilehash: 11824043bc8ddd50c1e0c47ee15d22a5f3cc0c97
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+description: 了解如何获取新号码、转网或转移现有号码Teams以及如何向用户显示更改。
+ms.openlocfilehash: 8fdc0e2341bd48afb0635f554d7d25b3e4244cf1
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60537073"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733293"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>为用户获取电话号码
 
@@ -34,7 +34,7 @@ ms.locfileid: "60537073"
   
 有三种方法可获取用户编号：
 
-- **使用Microsoft Teams管理中心。** 对于一些国家和地区，可以使用管理中心获取Microsoft Teams号码。 请参阅 [为用户获取新电话号码](#get-new-phone-numbers-for-your-users)。
+- **使用 Microsoft Teams 管理中心。** 对于一些国家和地区，可以使用管理中心获取Microsoft Teams号码。 请参阅 [为用户获取新电话号码](#get-new-phone-numbers-for-your-users)。
 
 - **转网现有的号码。** 可以从当前服务提供商或电话运营商转转现有号码。 如需获取有助于执行此操作的详细信息，请参阅[将电话号码转接到 Teams](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md) 或[管理你的组织的电话号码](/microsoftteams/manage-phone-numbers-for-your-organization)。  
   
@@ -51,7 +51,7 @@ ms.locfileid: "60537073"
 
 1. 转到"Microsoft Teams管理中心"。
 
-2. 在左侧导航栏中，**转到"语音**  >  **电话数字"，** 然后单击"添加 **"。**
+2. 在左侧导航栏中，**转到"语音**  >  **电话"，** 然后单击"添加 **"。**
 
 3. 输入订单的名称并添加说明。
 
@@ -73,13 +73,13 @@ ms.locfileid: "60537073"
   
 - 如果你的用户需要的电话号码数少于 999 个，请使用管理中心Microsoft Teams向导。 按照将电话号码[转移到 Teams。](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md) 如果移植向导中未列出你的国家/地区，可以手动提交转寄订单[](phone-number-calling-plans/manually-submit-port-order.md)，或参阅管理组织的电话号码以下载[](/microsoftteams/manage-phone-numbers-for-your-organization)正确的授权书 (LOA) 。
 
-- 如果需要转网超过 999 个电话号码，可以手动提交[](phone-number-calling-plans/manually-submit-port-order.md)转网订单或参阅管理组织的电话号码[](/microsoftteams/manage-phone-numbers-for-your-organization)以下载正确的授权书 (LOA) ，然后将它发送到[PSTN](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)服务台以转移所有号码。
+- 如果需要转网超过 999 个电话号码，可以手动提交[](phone-number-calling-plans/manually-submit-port-order.md)转网订单，或参阅管理组织[](/microsoftteams/manage-phone-numbers-for-your-organization)的电话号码以下载正确的授权书 (LOA) 并将其发送到[TNS](manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)服务台以转移所有号码。
 
 ## <a name="view-the-phone-numbers-for-your-organization"></a>查看组织的电话号码
 
  **使用 Microsoft Teams 管理中心**
 
-在管理中心的左侧导航中，转到"语音电话号码以查看组织号码，包括位置、号码类型和  >  状态信息。
+在管理中心的左侧导航中，转到"语音电话号码"以查看组织号码，包括位置、号码类型和  >  状态信息。
   
 ## <a name="assign-phone-numbers-to-users"></a>向用户分配电话号码
 

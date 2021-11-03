@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于越南Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: 029fa5629bd4d81b94b9aac29868222eef51dc1a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8992019aa20a6c72dd16dd1b5d0588202e40ab1f
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620668"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733713"
 ---
 # <a name="availability-in-vietnam"></a>在越南的可用性
 
@@ -69,8 +69,8 @@ ms.locfileid: "58620668"
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|你可以获取哪些首都或大城市的收费电话号码？  <br/> |<ul><li>Request (的一[) ](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)<li>根据请求 ([何) ](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)</ul>  <br/> |
-|是否提供收费电话号码？  <br/> |是（[应要求](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)） <br/> |
+|你可以获取哪些首都或大城市的收费电话号码？  <br/> |<ul><li>在请求 ([一时进行) ](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)<li>根据请求 (Ho Chi Minh [) ](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)</ul>  <br/> |
+|是否提供收费电话号码？  <br/> |是（[应要求](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)） <br/> |
 |是否提供免费电话号码？  <br/> |是  <br/> |
    
  如果你想要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../getting-service-phone-numbers.md)。

@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: 6cb407c2377087d55bf1350d4028c900cc6784b2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7b76169fb05f3ee1d853eea536302e2827d0c071
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598596"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733663"
 ---
 # <a name="availability-in-jordan"></a>在约旦的可用性
 
@@ -69,8 +69,8 @@ ms.locfileid: "58598596"
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|你可以获取哪些首都或大城市的收费电话号码？  <br/> |Amman ([请求请求) ](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)  <br/> |
-|是否提供收费电话号码？  <br/> |是（[应要求](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)）  <br/> |
+|你可以获取哪些首都或大城市的收费电话号码？  <br/> |Amman ([请求) ](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)  <br/> |
+|是否提供收费电话号码？  <br/> |是（[应要求](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)）  <br/> |
 |是否提供免费电话号码？  <br/> |否  <br/> |
    
  如果你想要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../getting-service-phone-numbers.md)。

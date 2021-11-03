@@ -21,13 +21,13 @@ f1.keywords:
 ms.custom:
 - Phone System
 - seo-marvel-mar2020
-description: 了解如何为音频会议、自动助理和呼叫队列获取新电话号码和转 (号码) 号码Teams。
-ms.openlocfilehash: abb313a169c3f9b3626e219f64810e6333e6147b
-ms.sourcegitcommit: b2566e64e02cb51d18836630d3aa9b6f27b924da
+description: 了解如何为音频会议、自动助理和呼叫队列获取新电话号码和转 (号码) 转接Teams。
+ms.openlocfilehash: 34ff296ce94afa4888e8fd4b0ad23c00d0402468
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59491722"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733303"
 ---
 # <a name="service-phone-numbers-for-calling-plans"></a>呼叫计划的服务电话号码
 
@@ -45,13 +45,13 @@ ms.locfileid: "59491722"
 - **使用新号码的请求表单。** 有时 (你的国家/地区或地区) 你将无法使用 Microsoft Teams 管理中心获取新电话号码，或者你需要特定的电话号码或区号。 如果是这样，则需要下载一个表单并将其发回给我们。 有关详细信息，请参阅[管理你的组织的电话号码](/microsoftteams/manage-phone-numbers-for-your-organization)。
   
 > [!NOTE]
-> 需要服务号码，以便可以获取特定号码的更高的并发调用容量。 将号码转移给我们时，可以联系 [PSTN](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) 服务台，确保要转移的服务号码具有较高的并发呼叫容量。
+> 需要服务号码，以便可以获取特定号码的更高的并发调用容量。 将号码转移给我们时，可以联系 [TNS](manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) 服务台，确保要转移的服务号码具有较高的并发呼叫容量。
   
 ## <a name="get-new-service-numbers"></a>获取新服务号码
 
 若要获取新的服务号码，Teams管理中心：
 
-1. 在左侧导航栏中，转到"语音  >  **电话数字"，** 然后单击"添加 **"。**
+1. 在左侧导航栏中，**转到"语音**  >  **电话"，** 然后单击"添加 **"。**
 
 2. 输入订单的名称并添加说明。
 
@@ -68,12 +68,12 @@ ms.locfileid: "59491722"
 
 ## <a name="port-or-transfer-existing-service-numbers"></a>转网或转移现有服务号码
 
-若要将你的电话号码从当前服务提供商或运营商Teams，可以在管理中心使用Microsoft Teams向导。 按照将电话号码[转移到 Teams](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md)中的步骤。
+若要将电话号码从当前服务提供商或运营商Teams，可以在管理中心使用Microsoft Teams向导。 按照将电话号码[转移到 Teams。](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md)
 
 如果移植向导中未列出你的国家/地区，可以手动提交转寄订单[](phone-number-calling-plans/manually-submit-port-order.md)或转到"管理组织的电话号码"，选择[](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)你的国家/地区，然后下载授权书 (LOA) 。 必须针对每种类型的服务号码提交单独的转站订单 (例如，使用 LOA 转移的收费和免费) 。 在 LOA 中，必须选择正确的服务编号类型。 请确保指定要转移服务号码 (而不是用户或订阅者号码) ，否则并发呼叫容量可能不足以处理呼叫量。  
 
 > [!NOTE]
-> 如果需要获取的电话号码超过此数目，请联系 [PSTN 服务台](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)。
+> 如果需要获取的电话号码超过此数目， [请联系 TNS 服务台](manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)。
 
 ## <a name="view-the-phone-numbers-for-your-organization"></a>查看组织的电话号码
 

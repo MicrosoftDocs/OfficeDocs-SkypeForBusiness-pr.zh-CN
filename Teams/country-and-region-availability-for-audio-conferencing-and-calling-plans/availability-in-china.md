@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 本文列出了在中国使用 Skype for Business 和 Microsoft Teams 时可以使用的 Microsoft 365 和 Office 365 服务。
-ms.openlocfilehash: 52d62a5f4c5835debf5784ed40c646451d831531
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2013769f13cd94330ccc64422d5ea874d55155f2
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584776"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733683"
 ---
 # <a name="availability-in-china"></a>在中国可用的服务
 
@@ -71,7 +71,7 @@ ms.locfileid: "58584776"
 |:-----|:-----|
 |你可以获取哪些首都或大城市的收费电话号码？  <br/> |北京  <br/> |
 |是否提供收费电话号码？  <br/> |是  <br/> |
-|是否提供免费电话号码？  <br/> |是（[按要求提供](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)），但在中国购买服务的客户除外。 在中国购买服务的客户不可使用免费电话号码。 <br/> |
+|是否提供免费电话号码？  <br/> |是（[按要求提供](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)），但在中国购买服务的客户除外。 在中国购买服务的客户不可使用免费电话号码。 <br/> |
    
  如果你想要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../getting-service-phone-numbers.md)。
   

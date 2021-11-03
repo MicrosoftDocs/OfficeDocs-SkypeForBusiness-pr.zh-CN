@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 使用此表查找有关在拉脱维亚获取和管理拉脱维亚语电话号码的信息，Microsoft Teams。
-ms.openlocfilehash: f13ec7b0c65c848d753de5151ed92e74c314ba80
-ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
+ms.openlocfilehash: e582c3a546ef7bb0ddfe6b9debb193549b8b12ca
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "59944478"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733113"
 ---
 # <a name="phone-number-management-for-latvia"></a>电话拉脱维亚的号码管理
 
@@ -34,11 +34,11 @@ ms.locfileid: "59944478"
   
 |**你要做什么？**|**下载正确的表单**|
 |:-----|:-----|
-|获取未在管理中心中列出的新用户Microsoft Teams电话号码。 |在拉脱维亚，可以使用国家/地区管理中心获取Microsoft Teams电话号码。 您也可以通过下载表单提交新的电话号码请求，并 [联系 PTSN 服务台以请求说明](contact-pstn-service-desk.md)。<br/><br/>[拉脱维亚语 v.1.0 (的新电话号码) 。 ](<https://download.microsoft.com/download/7/4/7/7477191d-1b6d-4d6b-a97f-c958ae204db5/New phone number request for Latvia (v.1.0) (en-us).pdf>) <br/><br/> 在将电话号码分配给你之前，必须下载"了解你的客户"[](<https://download.microsoft.com/download/1/8/d/18d3c082-984f-4271-ba23-80225904c5e2/Latvia - Know Your Customer.pdf>)表单，将其完整填写并发送给我们。<br/><br/>新订单可能需要 1 到 4 周来填充此市场，具体取决于我们是否拥有特定区域的数量股票。 |
-|获取转接给我们的电话号码。 | 下载此表单。 <br/><br/>[拉脱维亚语 (LOA) 授权书 (v.1.0)  (所有) ](<https://download.microsoft.com/download/d/d/6/dd67eefd-1886-44fd-a845-127e5cadc1ee/Latvia LOA.pdf>) <br/><br/>填写它并 [联系 PTSN 服务台，了解说明](contact-pstn-service-desk.md)。 还必须包含要转移号码的企业地址中的实用工具帐单。<br/><br/>转移号码可能需要 3 周才能在此市场中完成。 这些号码目前不能用于会议。|
-|发布/取消发布 () 国内电话目录中的电话号码。  <br/> |有关要发布/取消发布的电话号码列表的说明，请联系[PTSN](contact-pstn-service-desk.md)服务台。 <br/> |
-|将用户号码更改为服务号码。  <br/> |[有关要转换为](contact-pstn-service-desk.md) 服务号码的用户号码列表的说明，请联系 PTSN 服务台。 <br/> |
-|更新目录服务以呼叫队列或自动助理号码|若要添加或更改呼叫队列或自动助理号码，请联系 [PSTN 服务台，获得说明](contact-pstn-service-desk.md)。 |
+|获取未在管理中心中列出的新用户Microsoft Teams电话号码。 |在拉脱维亚，可以使用国家/地区管理中心获取Microsoft Teams电话号码。 您也可以通过下载表单提交新的电话号码请求，并 [联系 TNS 服务台以请求说明](contact-tns-service-desk.md)。<br/><br/>[拉脱维亚语 v.1.0 (](<https://download.microsoft.com/download/7/4/7/7477191d-1b6d-4d6b-a97f-c958ae204db5/New phone number request for Latvia (v.1.0) (en-us).pdf>)的新电话号码) 。 <br/><br/> 在将电话号码分配给你之前，必须下载"了解你的客户"[](<https://download.microsoft.com/download/1/8/d/18d3c082-984f-4271-ba23-80225904c5e2/Latvia - Know Your Customer.pdf>)表单，将其完整填写并发送给我们。<br/><br/>新订单可能需要 1 到 4 周来填充此市场，具体取决于我们是否拥有特定区域的数量股票。 |
+|获取转接给我们的电话号码。 | 下载此表单。 <br/><br/>[拉脱维亚语 (LOA) 授权书 (v.1.0)  (所有) ](<https://download.microsoft.com/download/d/d/6/dd67eefd-1886-44fd-a845-127e5cadc1ee/Latvia LOA.pdf>) <br/><br/>填写它并 [联系 TNS 服务台，了解说明](contact-tns-service-desk.md)。 还必须包含要转移号码的企业地址中的实用工具帐单。<br/><br/>转移号码可能需要 3 周才能在此市场中完成。 这些号码目前不能用于会议。|
+|发布/取消发布 () 国内电话目录中的电话号码。  <br/> |[有关要](contact-tns-service-desk.md) 发布/取消发布的电话号码列表的说明，请联系 TNS 服务台。 <br/> |
+|将用户号码更改为服务号码。  <br/> |[有关要转换为](contact-tns-service-desk.md) 服务号码的用户号码列表的说明，请联系 TNS 服务台。 <br/> |
+|更新目录服务以呼叫队列或自动助理号码|若要添加或更改呼叫队列或自动助理号码，请联系 [TNS 服务台，获得说明](contact-tns-service-desk.md)。 |
    
 ## <a name="related-topics"></a>相关主题
 

@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是适用于乌拉圭Microsoft 365 Office 365和Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: c6575df81607b534b0b3d22c76890d91ec7b7ffd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 以下是适用于乌拉圭Microsoft 365 Office 365 Skype for Business Microsoft Teams服务。
+ms.openlocfilehash: 056ec9181042faa0463c83fa09fe304071ba7c09
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620678"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733453"
 ---
 # <a name="availability-in-uruguay"></a>在乌拉圭的可用性
 
 [查找其他国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或详细了解可以在哪些国家/地区使用音频会议和通话套餐。
 
-以下是适用于乌拉圭Microsoft 365 Office 365和Skype for Business Microsoft Teams服务。
+以下是适用于乌拉圭Microsoft 365 Office 365 Skype for Business Microsoft Teams服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 
@@ -69,8 +69,8 @@ ms.locfileid: "58620678"
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|你可以获取哪些首都或大城市的收费电话号码？  <br/> | 根据请求 (蒙得维的[亚) ](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) <br/> |
-|是否提供收费电话号码？  <br/> |是（[应要求](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)）  <br/> |
+|你可以获取哪些首都或大城市的收费电话号码？  <br/> | 根据请求 (蒙得维的[亚) ](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) <br/> |
+|是否提供收费电话号码？  <br/> |是（[应要求](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)）  <br/> |
 |是否提供免费电话号码？  <br/> |是  <br/> |
    
  如果你想要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../getting-service-phone-numbers.md)。

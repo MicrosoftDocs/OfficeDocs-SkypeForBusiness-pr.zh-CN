@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: 6954f5a708f624637f338aedbb1c2971c430ca44
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d289a6283d5854e427a35dcf7cac9fd11fbbec29
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598586"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733643"
 ---
 # <a name="availability-in-nicaragua"></a>在洪都拉斯的可用性
 
@@ -68,8 +68,8 @@ ms.locfileid: "58598586"
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|你可以获取哪些首都或大城市的收费电话号码？   | 根据请求 ([Managua) ](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) <br/> |
-|是否提供收费电话号码？  <br/> |是（[应要求](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)） <br/> |
+|你可以获取哪些首都或大城市的收费电话号码？   | 根据请求 ([Managua) ](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) <br/> |
+|是否提供收费电话号码？  <br/> |是（[应要求](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)） <br/> |
 |免费电话号码是否可用？  <br/> |否  <br/> |
    
  如果要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅获取电话和[Skype for Business Microsoft Teams。](../getting-service-phone-numbers.md)

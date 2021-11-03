@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是适用于Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: 148eb72fd906398cb7ed7b12c083d1ec5f4c68a3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 以下是适用于 Microsoft 365 Office 365 的 Skype for Business Microsoft Teams 服务。
+ms.openlocfilehash: e9950242a6d3658f9fe49c04b188f03202bea585
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58589866"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733283"
 ---
 # <a name="availability-in-kazakhstan"></a>在哈萨克斯坦的可用性
 
 [查找其他国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或详细了解可以在哪些国家/地区使用音频会议和通话套餐。
 
-以下是适用于Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
+以下是适用于 Microsoft 365 Office 365 的 Skype for Business Microsoft Teams 服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 
@@ -68,8 +68,8 @@ ms.locfileid: "58589866"
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|你可以获取哪些首都或大城市的收费电话号码？   | 请求 ([时进行) ](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)<br/> |
-|是否提供收费电话号码？  <br/> |是（[应要求](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)） <br/> |
+|你可以获取哪些首都或大城市的收费电话号码？   | 在请求 ([时进行) ](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)<br/> |
+|是否提供收费电话号码？  <br/> |是（[应要求](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)） <br/> |
 |免费电话号码是否可用？  <br/> |否  <br/> |
    
  如果要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅获取电话和[Skype for Business Microsoft Teams。](../getting-service-phone-numbers.md)

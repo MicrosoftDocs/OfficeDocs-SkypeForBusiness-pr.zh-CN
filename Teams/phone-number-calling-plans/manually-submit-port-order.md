@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 了解如何手动提交移植订单请求。
-ms.openlocfilehash: 2a372ee26b9cb7b52b72c635c90a6e0435b7c729
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: 221f35bf300ed9ab33ab3088f18e154ecbecc5e3
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60045868"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733493"
 ---
 # <a name="manually-submit-a-port-order"></a>手动提交转网订单
 
@@ -33,11 +33,11 @@ ms.locfileid: "60045868"
 
 ## <a name="manually-submit-a-new-port-order-request"></a>手动提交新的移植订单请求
 
-若要手动提交新的转网订单，请将已完成的授权书 (LOA) 直接发送到您地区的 PSTN 服务台。
+若要手动提交新的转网订单，请将已完成的授权书 (LOA) 直接发送到你地区的 TNS 服务台。
 
 1. 下载适用于你的国家/地区或地区的[LOA。](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 2. 完成表单。
-3. 将其发送到 [你地区的 PSTN](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) 服务台。
+3. 将其发送到 [你地区的 TNS](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) 服务台。
 
 ## <a name="what-else-should-you-know-about-number-porting"></a>你还应该知道有关号码移植的哪些信息
 

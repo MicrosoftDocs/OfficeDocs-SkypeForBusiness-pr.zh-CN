@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 使用此表查找有关在澳大利亚获取和管理电话号码的信息，Microsoft Teams。
-ms.openlocfilehash: 156fe90556f63aaadc298b2b7c4340f5e9aa1c33
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 282c52a16cb632b15c3c0aa5d07d9a8cf1a4a07c
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630144"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733533"
 ---
 # <a name="phone-number-management-for-australia"></a>澳大利亚的电话号码管理
 
@@ -39,13 +39,13 @@ ms.locfileid: "58630144"
 |**你要做什么？**|**执行下列步骤并下载正确的表单**|
 |:-----|:-----|
 |获取澳大利亚通话计划的新用户电话号码。   <br/> |请联系 [Telstra Calling，](https://aka.ms/TelstraVoicePlan) 为用户提供新电话号码。 然后，他们将这些号码添加到你的组织，以便你可以将其分配给你的用户。 <br/>
-|如果你使用 Telstra 呼叫，你可能会获得可用于云自动助理的新服务电话号码，以及来自 Telstra 的澳大利亚呼叫队列。 <br/> |有关 [新电话号码，请联系 Telstra](https://aka.ms/TelstraVoicePlan) Calling。 然后，他们将这些号码添加到你的组织，以便你可以将其分配给自动助理和呼叫队列。 如果不 **使用** Telstra Calling，可以联系我们的 Microsoft 号码管理服务台从 Microsoft 获取服务号码。 [有关说明，请联系 PSTN](contact-pstn-service-desk.md) 服务台，我们将尽快提供帮助。 <br/>|
-|获取新的澳大利亚音频会议服务电话号码。   <br/> |[请联系 PSTN 服务台](contact-pstn-service-desk.md)。|
-|获取转移到用户、Microsoft 365 Office 365呼叫队列的电话号码或号码。  <br/> | 请联系 [Telstra Calling](https://aka.ms/TelstraVoicePlan) 转移电话号码。 然后，他们将向组织添加这些数字。  <br/> |
-|将电话号码转接到Microsoft 365或Office 365音频会议使用。  |[有关说明，请联系 PSTN 服务台](contact-pstn-service-desk.md) |
+|如果你使用 Telstra 呼叫，你可能会获得可用于云自动助理的新服务电话号码，以及来自 Telstra 的澳大利亚呼叫队列。 <br/> |有关 [新电话号码，请联系 Telstra](https://aka.ms/TelstraVoicePlan) Calling。 然后，他们将这些号码添加到你的组织，以便你可以将其分配给自动助理和呼叫队列。 如果不 **使用** Telstra Calling，可以联系我们的 Microsoft 号码管理服务台从 Microsoft 获取服务号码。 [有关说明，请联系 TNS](contact-TNS-Service-Desk.md) 服务台，我们将尽快提供帮助。 <br/>|
+|获取新的澳大利亚音频会议服务电话号码。   <br/> |[请联系 TNS 服务台](contact-TNS-Service-Desk.md)。|
+|为用户、自动助理和呼叫Microsoft 365或Office 365转接的电话号码。  <br/> | 请联系 [Telstra Calling](https://aka.ms/TelstraVoicePlan) 转移电话号码。 然后，他们将向组织添加这些数字。  <br/> |
+|将电话号码转移到Microsoft 365或Office 365音频会议使用。  |[有关说明，请联系 TNS 服务台](contact-TNS-Service-Desk.md) |
 |更改已分配给加入呼叫计划电话号码的用户的紧急呼叫地址。 |请联系 [Telstra Calling](https://aka.ms/TelstraVoicePlan) 以更改紧急地址。 他们可以为您更新相关信息。|
 |将用户号码更改为服务号码。 |使用 Telstra 呼叫时支持。|
-|更新目录服务以呼叫队列或自动助理号码|若要添加或更改呼叫队列或自动助理号码，请联系 [PSTN 服务台，获得说明](contact-pstn-service-desk.md)。 |
+|更新目录服务以呼叫队列或自动助理号码|若要添加或更改呼叫队列或自动助理号码，请联系 [TNS 服务台，获得说明](contact-TNS-Service-Desk.md)。 |
 
 ## <a name="related-topics"></a>相关主题
 

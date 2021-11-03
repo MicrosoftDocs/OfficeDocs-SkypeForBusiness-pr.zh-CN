@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: 5fa7b189ecb0eec3807e5b382a6ff063edb1b11f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 38632bc3f6d6a6c0fb7b6b81a67ff3016bd228e1
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632616"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733273"
 ---
 # <a name="availability-in-bangladesh"></a>在孟加拉的可用性
 
@@ -69,7 +69,7 @@ ms.locfileid: "58632616"
 |**功能**|**详细信息**|
 |:-----|:-----|
 |你可以获取哪些首都或大城市的收费电话号码？   | 非地区号码。 电话号码没有关联到特定城市或位置。 <br/> |
-|是否提供收费电话号码？  <br/> |请求时 ([地理) ](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) <br/> |
+|是否提供收费电话号码？  <br/> |请求时 ([地理) ](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) <br/> |
 |免费电话号码是否可用？  <br/> |否  <br/> |
    
  如果要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅获取电话和[Skype for Business Microsoft Teams。](../getting-service-phone-numbers.md)
