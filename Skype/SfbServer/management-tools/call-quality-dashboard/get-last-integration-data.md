@@ -1,7 +1,7 @@
 ---
 title: 获取最后一个集成数据
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: e7967dd9-0d6a-4a80-8b59-b8fc2e5615f8
 description: 摘要：了解"获取最后一次集成数据"操作，这是通话质量仪表板的数据 API 的一部分。 通话质量仪表板是一种用于Skype for Business Server。
-ms.openlocfilehash: 495a3b3f281e8f10c46372c774098aef573d6a3e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7b55b54686ed34406ea6a716d07886a2fb794898
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604781"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766430"
 ---
 # <a name="get-last-integration-data"></a>获取最后一个集成数据
  

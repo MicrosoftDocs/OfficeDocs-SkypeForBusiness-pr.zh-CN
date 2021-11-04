@@ -1,7 +1,7 @@
 ---
 title: 选择代理
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: b5cf912b-8273-4c2c-a1e5-f25530b264d0
 ROBOTS: NOINDEX, NOFOLLOW
 description: 代理是指定应答响应组呼叫的用户。 响应组必须具有一个分配的代理组来识别可接收针对响应组的呼叫的代理。 创建代理组的一种方法就是通过选择合格用户来定义自定义组。 符合条件的用户已启用Skype for Business Server企业语音。
-ms.openlocfilehash: 0751bfc3e5b4c836a2be52f45844a0ce38cd5019
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6d1aaa217589ec2448e5a176dbe94dcf78cf5fed
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579776"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778732"
 ---
 # <a name="select-agents"></a>选择代理
 

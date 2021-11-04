@@ -1,7 +1,7 @@
 ---
 title: 管理中心中的管理团队模板
-author: cichur
-ms.author: serdars
+author: serdars
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: yinchang
 ms.topic: article
@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何在管理中心中管理团队模板
-ms.openlocfilehash: c8b9926290e58fe190d2351820e2bb63560c8c8c
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: 0ab167cc66a897c0f89679cd2a403a385b2b1b01
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605368"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766060"
 ---
 # <a name="manage-team-templates-in-the-admin-center"></a>管理中心中的管理团队模板
 

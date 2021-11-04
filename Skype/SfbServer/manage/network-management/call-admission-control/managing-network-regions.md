@@ -1,7 +1,7 @@
 ---
 title: 管理网络区域
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 网络区域* 是呼叫允许控制、E9-1-1 和媒体旁路配置中使用的网络中心或网络中枢。
-ms.openlocfilehash: 0fc7b1cdc41f73535aef83e6ec46f9bd4622da48
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5bfe3051404b41cd6a1d96bfac240e83070bbdbc
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630576"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759734"
 ---
 # <a name="managing-network-regions-in-skype-for-business-server"></a>在 Skype for Business Server 中管理网络区域
 
@@ -82,7 +82,7 @@ ms.locfileid: "58630576"
 
 4.  在"区域 **"页上**，单击"新建 **"。**
 
-5.  在" **新建区域"** 页的"名称"字段中 **键入** 值。 此值在部署中必须Skype for Business Server唯一。
+5.  在" **新建区域"** 页的"名称"字段中 **键入** 值。 此值在部署中必须Skype for Business Server。
 
 6.  从 **中央站点** 下拉列表中，选择此网络区域的中央站点。
 
@@ -90,7 +90,7 @@ ms.locfileid: "58630576"
 
 8.  默认情况下 **选中"** 启用视频备用路径"复选框。 如果主路径中不存在足够的带宽，此字段确定是否将通过备用路径路由视频呼叫。 仅在需要关闭卸载到 Internet 时清除此复选框。 如果任何呼叫将是 Internet 呼叫，则必须选中此复选框，而不考虑带宽设置。
 
-9.   (可选) 在"说明"字段中键入值，以提供无法单独用名称表示的此区域详细信息。
+9.   (可选) 在"说明"字段中键入一个值，以提供无法单独用名称表示的此区域详细信息。
 
 10. 单击“提交”。
 
@@ -108,7 +108,7 @@ ms.locfileid: "58630576"
 
 5.  在“编辑”菜单上，单击“显示详细信息”。
 
-6.  在"编辑区域"页上，可以修改用于启用和禁用音频和视频备用路径的设置，并更改说明 (了解详细信息，请参阅本主题前面介绍的"创建网络区域"部分。
+6.  在"编辑区域"页上，您可以修改用于启用和禁用音频和视频备用路径的设置，并更改说明 (了解详细信息，请参阅本主题前面介绍的"创建网络区域"部分。
 
 7.  单击“提交”。
 

@@ -1,7 +1,7 @@
 ---
 title: 响应组工作流
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: e4ee8abb-e1e5-413c-919d-cd3fb7193840
 ROBOTS: NOINDEX, NOFOLLOW
 description: 响应组由代理组、队列和工作流组成。 响应组工作流定义响应组应用程序收到电话呼叫时采取的操作。
-ms.openlocfilehash: 0a8e5db160dc12a881e5984d3b8103e36e997467
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 02afed95a80cdffed22e2ef1a09a34bb6ca180f9
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579246"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742688"
 ---
 # <a name="response-groups-workflow"></a>响应组工作流
 
@@ -60,4 +60,4 @@ ms.locfileid: "58579246"
 
 - **已启用** 指示是否激活工作流以接收呼叫。
 
-有关响应组特性和功能的详细信息，请参阅规划文档中Skype for Business Server[中的规划](../../../plan-your-deployment/enterprise-voice-solution/response-group.md)响应组应用程序。 有关使用响应组工作流的详细信息，请参阅操作文档中的[Managing Response Group Workflows。](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-workflows)
+有关响应组特性和功能的详细信息，请参阅规划文档中的规划[Skype for Business Server中的规划](../../../plan-your-deployment/enterprise-voice-solution/response-group.md)响应组应用程序。 有关使用响应组工作流的详细信息，请参阅操作文档中的[Managing Response Group Workflows。](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-workflows)

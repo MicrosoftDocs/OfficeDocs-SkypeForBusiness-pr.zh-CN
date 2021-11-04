@@ -1,7 +1,7 @@
 ---
 title: 验证域中的复制
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/26/2015
@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4846b787-d55e-4364-bdcd-2dee33f0251c
-description: 要验证"步骤 1： 准备架构"中完成的域准备的复制，需要从命令行管理程序 Lync Server 命令行管理程序 运行 cmdlet Skype for Business Server Cmdlet。 要运行 Windows PowerShell cmdlet，请以 Domain Admins 组成员的身份登录到作为已准备的域成员的计算机。 请执行以下操作：
-ms.openlocfilehash: 1715ef902b4c0812b98ff6e37c8ea31eab5489ec
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 若要验证"步骤 1： 准备架构"中完成的域准备的复制，需要从命令行管理程序 Lync Server 命令行管理程序 运行 cmdlet Skype for Business Server Cmdlet。 要运行 Windows PowerShell cmdlet，请以 Domain Admins 组成员的身份登录到作为已准备的域成员的计算机。 请执行以下操作：
+ms.openlocfilehash: 195fff7628f9c0cdd52efe7dada2fc94d4e16cfe
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596916"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60772568"
 ---
 # <a name="verify-replication-in-the-domain"></a>验证域中的复制
  
-要验证"步骤 **1：** 准备架构"中完成的域准备的复制，需要从命令行管理程序 Lync Server 命令行管理程序 中Skype for Business Server cmdlet。 要运行 Windows PowerShell cmdlet，请以 Domain Admins 组成员的身份登录到作为已准备的域成员的计算机。 请执行以下操作：
+若要验证在步骤 **1：** 准备架构中完成的域准备的复制，需要从命令行管理程序 Lync Server 命令行管理程序 运行 cmdlet Skype for Business Server cmdlet。 要运行 Windows PowerShell cmdlet，请以 Domain Admins 组成员的身份登录到作为已准备的域成员的计算机。 请执行以下操作：
   
 1. 启动命令行Skype for Business Server：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击"Skype for Business Server **命令行管理程序"。**
     

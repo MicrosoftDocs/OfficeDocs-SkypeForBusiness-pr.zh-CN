@@ -1,7 +1,7 @@
 ---
 title: 选择转换规则
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 55776a94-4888-4436-a3b6-0e6f8252e392
 ROBOTS: NOINDEX, NOFOLLOW
 description: 企业语音需要将所有拨号串规范化为 E.164 格式，以便执行 RNL (反向号码) 。 中继对等方（即，关联网关、PBX 或 SIP 中继）可能要求号码采用本地拨号格式。 要将 E.164 格式的号码转换为本地拨号格式，可以在将其路由至中继对等方之前，选择定义一个或多个转换规则以处理请求 URI。 例如，可以编写用于删除拨号串开头的 +44 并将其替换为 0144 的转换规则。
-ms.openlocfilehash: fa41f3f67289f5929c34e410191e69e7fc25c2d4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 41c037a80d5d32737b33373a5549a662311438a9
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607191"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760105"
 ---
 # <a name="select-translation-rules"></a>选择转换规则
  

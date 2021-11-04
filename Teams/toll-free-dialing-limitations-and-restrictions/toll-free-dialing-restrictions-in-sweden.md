@@ -1,6 +1,6 @@
 ---
 title: 瑞典的免费拨号限制
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.reviewer: davlick, krkilaru
@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 这将帮助你了解如何拨打每个国家/地区的免费电话号码。 选择国家/地区后，将进入特定国家/地区页面，其中包含提供免费服务的免费服务可用性的特定详细信息、限制和限制。 拨号格式或格式将显示每个国家/地区拨打免费电话号码所需的访问代码。
-ms.openlocfilehash: a0a6cd375c06fa352ac351daf11de54d91f6625f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e6990fcfca9b7b8cfbc5ab0e38c36bebce8e6940
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631916"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753843"
 ---
 # <a name="toll-free-dialing-restrictions-in-sweden"></a>瑞典的免费拨号限制
 

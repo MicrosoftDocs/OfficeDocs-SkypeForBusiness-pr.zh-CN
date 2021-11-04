@@ -1,7 +1,7 @@
 ---
 title: 在池中创建 VIS Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: abd8c4f7-057f-4360-8e3e-ec29b58f16a8
 description: 摘要：使用拓扑生成器在 Skype for Business Server创建视频互操作服务器池。
-ms.openlocfilehash: 9a417c48ca52b04d12361e39ed10a6ea39ec3795
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e622c6510b23148617ad180ecc61480503a79a8a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624384"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748798"
 ---
 # <a name="create-a-vis-pool-in-skype-for-business-server"></a>在池中创建 VIS Skype for Business Server
  
@@ -57,7 +57,7 @@ ms.locfileid: "58624384"
 10. 完成上述步骤后，会添加相应的 SIP 视频中继。 右键单击 SIP 视频中继，然后选择刚刚添加的中继。 视频 SIP 中继名称、关联的视频互操作服务器、SIP 传输协议和端口都可以更改。 
     
     > [!NOTE]
-    >  视频互操作服务器支持 1：N 中继。 因此，可以添加多个中继，这些中继与一个视频互操作服务器相关联，其中每个中继终止在不同的视频网关上。 该限制是，特定视频网关具有一个且只有一个可定义到部署Skype for Business Server中继。
+    >  视频互操作服务器支持 1：N 中继。 因此，可以添加多个中继，这些中继与一个视频互操作服务器关联，其中每个中继终止在不同的视频网关上。 限制是，特定视频网关具有一个且唯一一个可定义到该部署Skype for Business Server中继。
   
 11. 发布拓扑文档，如 Create [and publish new topology in Skype for Business Server 2015](../../deploy/install/create-and-publish-new-topology.md)中所述。
     
@@ -71,4 +71,4 @@ ms.locfileid: "58624384"
 
 [规划视频互操作服务器Skype for Business Server](../../plan-your-deployment/video-interop-server.md)
   
-[在 2015 年 10 月Skype for Business Server拓扑](../../deploy/install/create-and-publish-new-topology.md)
+[在 Skype for Business Server 2015 中创建新拓扑](../../deploy/install/create-and-publish-new-topology.md)

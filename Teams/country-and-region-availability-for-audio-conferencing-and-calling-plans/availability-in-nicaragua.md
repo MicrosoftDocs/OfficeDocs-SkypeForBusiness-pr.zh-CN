@@ -1,7 +1,7 @@
 ---
 title: 在洪都拉斯的可用性
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: d289a6283d5854e427a35dcf7cac9fd11fbbec29
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+ms.openlocfilehash: e1b3681cf859f668b366e1ee920da24ba05e944c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733643"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60743028"
 ---
 # <a name="availability-in-nicaragua"></a>在洪都拉斯的可用性
 

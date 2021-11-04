@@ -1,7 +1,7 @@
 ---
 title: 提高认识度并实施培训
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 11/09/2018
 audience: Admin
@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b1c4c31687e5812c14b4a62deacb16fdd3550969
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 9d3ba97744998014d0cfb6199aac71d63590a41f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725531"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753883"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>为 Microsoft Teams 推动认知并开展培训
 
-认知和培训是总体采用策略的市场营销和通信部分。 这将确保员工了解服务应用的新功能Microsoft Teams其基础Microsoft 365或Office 365应用。
+认知和培训是总体采用策略的市场营销和通信部分。 这将确保你的员工了解 Microsoft Teams 的新功能及其基础Microsoft 365或Office 365应用。
    
 对于初始试点和最终公司范围内的部署，内部沟通都应该是一个优先事项。 它们应包括：
 
@@ -45,7 +45,7 @@ ms.locfileid: "58725531"
 
 完成初始试点后，可以扩展上述工作，以覆盖整个组织。 根据你的大小，这可能需要一些时间，并按区域、用户配置文件或组织分阶段处理。 在此大规模推出期间，鼓励组织中通信者的参与。 我们建议这些人员尽早参与，并且通常使用可用的采用材料或设计自己的材料。
 
-如果您的公司有一个中央 Intranet 门户用于新闻、信息或支持，您可以使用它作为中心来了解此推出的信息。提供广泛可用的自助信息、培训和书面指南可让用户快速上手。 一旦可用，许多Teams就会跳入，我们鼓励这样做。 我们还知道，每个人都以不同方式学习;中心信息门户可以支持组织内的所有学习风格。
+如果您的公司有一个中央 Intranet 门户用于新闻、信息或支持，您可以使用它作为中心来了解此推出的信息。提供广泛可用的自助信息、培训和书面指导可让用户快速上手。 许多用户只需在可用Teams就跳入，我们鼓励这样做。 我们还知道，每个人都以不同方式学习;中心信息门户可以支持组织内的所有学习风格。
 
 ## <a name="implement-end-user-training"></a>实施最终用户培训
 
@@ -67,8 +67,8 @@ ms.locfileid: "58725531"
 - 你的培训视频查看数
 - 学习活动的出席人数
 
-使用井号标签共享从反馈渠道获取的见解#TeamsStories方便检索。 在 Intranet 上每月共享 #TeamsStory 以重点介绍支持变更以提高工作效率和增强环境协作的员工。 此外，在 Microsoft Technical Community 上的推动采用论坛中与我们分享它们。 在您自己的公司内共享这些实际示例对于实现用户社区随着时间的推移持续变化非常有用。
+使用井号标签共享从反馈渠道获取的见解#TeamsStories方便检索。 在 Intranet 上每月共享 #TeamsStory 以重点介绍支持变更以提高工作效率和增强环境协作的员工。 此外，在 Microsoft Technical Community 上的推动采用论坛中与我们分享。 在您自己的公司内共享这些实际示例对于实现用户社区随着时间的推移持续变化非常有用。
 
-[若要详细了解Microsoft Teams使用情况报告，请Microsoft 365 管理中心。](teams-activity-reports.md)
+[详细了解Microsoft Teams使用情况报表Microsoft 365 管理中心。](teams-activity-reports.md)
 
-![一个图标，描述接下来的步骤。](media/teams-adoption-next-icon.png) 下一 [步：计划服务运行状况评审](teams-adoption-schedule-service-health-reviews.md)
+![描述后续步骤的图标。](media/teams-adoption-next-icon.png) 下一 [步：计划服务运行状况评审](teams-adoption-schedule-service-health-reviews.md)

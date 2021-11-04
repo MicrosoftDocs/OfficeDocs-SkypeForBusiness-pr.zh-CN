@@ -1,7 +1,7 @@
 ---
 title: 验证林准备的复制
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 94e87632-7c28-43df-9238-f5a47c1c43c0
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要确认在林准备期间已成功复制全局编录和创建对象，请执行下列操作：
-ms.openlocfilehash: d07f047d7ee5923ef9ae23d7a265e3080ec96f52
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 31164e51cd3de60ce25313f726fc9c7ba086f299
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626034"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60738538"
 ---
 # <a name="verify-replication-of-forest-preparation"></a>验证林准备的复制
  
@@ -30,7 +30,7 @@ ms.locfileid: "58626034"
     
 2. 在 **“Active Directory 用户和计算机”** 中，展开林或子域的域名。
     
-3. 单击左侧 **窗格** 上的"用户"容器，在右侧窗格中查找通用组 CsAdministrator。 如果 CsAdministrator (以 Cs) 开头的其他八个新通用组之间，则林准备复制已成功完成。
+3. 单击左侧 **窗格** 上的"用户"容器，在右侧窗格中查找通用组 CsAdministrator。 如果 CsAdministrator (以 Cs) 开头的其他八个新通用组，则林准备复制已成功完成。
     
 4. 如果未显示这些组，可以强制复制或等待 15 分钟后再刷新右侧窗格。显示组后，表明复制完成。
     

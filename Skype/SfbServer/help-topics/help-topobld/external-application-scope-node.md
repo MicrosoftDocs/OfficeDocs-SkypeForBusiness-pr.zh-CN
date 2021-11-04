@@ -1,7 +1,7 @@
 ---
 title: 外部应用程序范围节点
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/25/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: dfd21945-331a-4058-97b6-d17690353702
 description: 此节点显示此受信任应用程序池的池完全限定域名 (FQDN)、复制设置和下一跃点池。可以执行以下操作：
-ms.openlocfilehash: 0a3073b636dbf4680a36f6194a5d514dd11a2fa8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 407c3421cec9b8cba602e76390c67aa27da5261a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600267"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765760"
 ---
 # <a name="external-application-scope-node"></a>外部应用程序范围节点
  

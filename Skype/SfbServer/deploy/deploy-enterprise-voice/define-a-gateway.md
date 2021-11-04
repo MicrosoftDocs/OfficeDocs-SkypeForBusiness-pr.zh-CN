@@ -1,7 +1,7 @@
 ---
 title: 在拓扑生成器中定义Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 456e5a96-d9f6-42a6-862c-a69464391628
 description: 摘要：了解如何在拓扑生成器中定义 PSTN Skype for Business Server。
-ms.openlocfilehash: fe570a849a9a63199eddce63280741c39a8a65eb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c3ea9b02f39b3ef93c7c725735599a3940f33641
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625614"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753603"
 ---
 # <a name="define-a-gateway-in-topology-builder-in-skype-for-business-server"></a>在拓扑生成器中定义Skype for Business Server
  
@@ -49,7 +49,7 @@ ms.locfileid: "58625614"
     
      - 在删除关联的 PSTN 网关之前，无法删除根中继。
     
-6. 在 **"IP/PSTN** 网关的侦听端口"下，键入网关、PBX 或 SBC 用于来自中介服务器的 SIP 消息的侦听端口，这些 SIP 消息将与该 PSTN 网关的根中继相关联。  (默认情况下，PSTN 网关、PBX 或 SBC 上的传输控制协议 (TCP) 的端口为 5066，传输层安全性 (TLS) 的端口为 5067。 在分支站点的 Survivable Branch Appliance 上，TCP 的默认端口为 5081，TLS.) 
+6. 在 **"IP/PSTN** 网关的侦听端口"下，键入网关、PBX 或 SBC 用于来自中介服务器的 SIP 消息的侦听端口，这些 SIP 消息将与该 PSTN 网关的根中继相关联。  (默认情况下，PSTN 网关、PBX 或 SBC 上的传输控制协议 (TCP) 的端口为 5066，传输层安全性 (TLS) 端口为 5067。 在分支站点的 Survivable Branch Appliance 上，TCP 的默认端口为 5081，TLS.) 
     
 7. 在“SIP 传输协议”下，单击对等方使用的传输类型，然后单击“确定”。
     

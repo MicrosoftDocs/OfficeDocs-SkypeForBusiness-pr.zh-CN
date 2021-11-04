@@ -1,7 +1,7 @@
 ---
-title: 在部署中配置辅助位置信息Skype for Business Server
+title: 在站点中配置辅助位置信息Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 083ffbc6-7c18-4141-85f9-8825b62c3d10
-description: 在 Skype for Business Server 企业语音 中为 E9-1-1 (SL) S 数据库配置辅助位置Skype for Business Server 企业语音。
-ms.openlocfilehash: b2db211ec9c1bc7d2459ad2dbc8cada4b87afa6e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 在 SKYPE FOR BUSINESS SERVER 企业语音 中为 E9-1-1 (SLS) 数据库配置辅助位置源。
+ms.openlocfilehash: 6d42375ddc127bd19a73d64782f4f6840a373b87
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618108"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753449"
 ---
-# <a name="configure-a-secondary-location-information-service-in-skype-for-business-server"></a>在部署中配置辅助位置信息Skype for Business Server
+# <a name="configure-a-secondary-location-information-service-in-skype-for-business-server"></a>在站点中配置辅助位置信息Skype for Business Server
  
-在 Skype for Business Server 企业语音 中为 E9-1-1 (SL) S 数据库配置辅助位置Skype for Business Server 企业语音。 
+在 SKYPE FOR BUSINESS SERVER 企业语音 中为 E9-1-1 (SLS) 数据库配置辅助位置源。 
   
 Skype for Business Server提供了一个 Web 服务接口，可用于将位置信息服务指向 SLS 数据库 (辅助) 源。 连接到 SLS 数据库的 Web 服务接口必须符合位置信息服务 WSDL。 如果同时配置了位置数据库和辅助位置数据库，则位置信息服务将首先查询位置数据库，如果未找到匹配项，则从客户端向 SLS 数据库发送位置请求。 如果位置存在于 SLS 中，则位置信息服务会向客户端发送回该位置。 
   

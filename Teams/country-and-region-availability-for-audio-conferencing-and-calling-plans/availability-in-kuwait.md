@@ -1,7 +1,7 @@
 ---
 title: 在沙特阿拉伯的可用性
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是适用于 Microsoft 365 Office 365 的 Skype for Business Microsoft Teams 服务。
-ms.openlocfilehash: b85d8189bdfeb4dd975fa5d782340d35b619bdcc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 以下是适用于Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
+ms.openlocfilehash: 2067077acba0c3604c83bbc46483b6bd8ee6dc22
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601127"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766190"
 ---
 # <a name="availability-in-kuwait"></a>在沙特阿拉伯的可用性
 
 [查找其他国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或详细了解可以在哪些国家/地区使用音频会议和通话套餐。
 
-以下是适用于 Microsoft 365 Office 365 的 Skype for Business Microsoft Teams 服务。
+以下是适用于Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 

@@ -1,7 +1,7 @@
 ---
 title: 了解 Microsoft Teams 中的团队和频道
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 10/29/2018
 audience: Admin
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6ba80c74e905fa80f42095afd7a524d202661f21
-ms.sourcegitcommit: 1957a06d4bae3d42b4e3b6d4bd8ff2752a19d377
+ms.openlocfilehash: 7af581966c2822e88ce439d5c590331f220cef7a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60641192"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766070"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>了解 Microsoft Teams 中的团队和频道
 
@@ -36,7 +36,7 @@ ms.locfileid: "60641192"
 
 - 频道是团队中完成实际工作的协作空间。 
 
-若要详细了解团队和频道，请参阅团队和频道概述[Microsoft Teams。](teams-channels-overview.md) 有关全面Teams采用指南，请获取Teams[采用指南。](https://aka.ms/teamstoolkit) 若要详细了解组Teams Microsoft 365组，请参阅Microsoft 365[组](office-365-groups.md)Microsoft Teams和了解有关组[Microsoft 365。](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)
+若要详细了解团队和频道，请参阅团队和频道概述[Microsoft Teams。](teams-channels-overview.md) 有关全面Teams采用指南，请获取Teams[采用指南。](https://aka.ms/teamstoolkit) 若要了解有关组Teams Microsoft 365，请参阅Microsoft 365[组](office-365-groups.md)Microsoft Teams和了解有关组[Microsoft 365。](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)
 
 
 | &nbsp; |&nbsp;  |
@@ -57,7 +57,7 @@ ms.locfileid: "60641192"
 
 ![组织和项目模型。](media/teams-adoption-organization-project.png)
 
-在组织 (左侧) 中，可能会共享有关组织运营方式、团队活动、核心策略和其他运营信息（如业务评审）的关键信息。 对于右侧显示的团队，地区信息将细分为表示该团队正在完成的工作类别的频道。 此团队的成员可以或可能不会向同一个人报告，但他们都参与推动地区结果。
+在左侧 (显示的组织) 中，可能会共享有关组织运营方式、团队活动、核心策略和其他操作信息（如业务评审）的关键信息。 对于右侧显示的团队，地区信息将细分为表示该团队正在完成的工作类别的频道。 此团队的成员可以或可能不会向同一个人报告，但他们都参与推动地区结果。
   
 你将在实施的第 [2](teams-adoption-phase2-experiment.md) 阶段进一步处理团队的结构。
 

@@ -1,7 +1,7 @@
 ---
 title: " (可选) 定义响应组工作时间Skype for Business"
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,17 +12,17 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d62551b2-1847-4e1b-abe8-683b72aa94d5
-description: 创建或修改响应组工作时间（以Skype for Business Server 企业语音）。
-ms.openlocfilehash: 8cceee13e18e8b4a44ba1cffcca68be7c5fd3bf7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 创建或修改响应组工作时间（以Skype for Business Server 企业语音。
+ms.openlocfilehash: 0afdd3c5f21b947d2c20ba79e9ae8296c582060e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579976"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753573"
 ---
 # <a name="optional-define-response-group-business-hours-in-skype-for-business"></a> (可选) 定义响应组工作时间Skype for Business 
  
-创建或修改响应组工作时间（以Skype for Business Server 企业语音）。
+创建或修改响应组工作时间（以Skype for Business Server 企业语音。
   
 ## <a name="defining-business-hours"></a>定义工作时间
 

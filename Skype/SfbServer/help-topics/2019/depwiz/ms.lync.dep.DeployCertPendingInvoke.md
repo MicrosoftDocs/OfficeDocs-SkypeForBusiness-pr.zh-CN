@@ -1,7 +1,7 @@
 ---
 title: 待处理的证书（调用）
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: adb5e0f3-17a6-40c2-9c95-c9cd2b558b54
 ROBOTS: NOINDEX, NOFOLLOW
 description: “执行命令”页显示正在检索待处理证书的命令的状态。完成此任务后，“检索待处理证书”日志文件将可用。单击“查看日志”以查看处理情况和任务完成状态。单击“下一步”继续。
-ms.openlocfilehash: e23ee50958462716c77f3f1f3bf8476adea75777
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 878995a346ceb149b650c6ac974ef9c29286e47a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58587782"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765770"
 ---
 # <a name="pending-certificate-invoke"></a>待处理的证书（调用）
  

@@ -1,6 +1,6 @@
 ---
 title: 系统要求Windows Phone版Skype for Business
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.reviewer: PhillipGarding
 manager: serdars
@@ -17,17 +17,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c4bc0e45-7877-466c-b187-2c35c851a98d
 description: 摘要：在规划客户端系统设备要求时，检查Skype for Business Server。
-ms.openlocfilehash: b31ece4f8a3f67c55da7b8195a811ec992b7f5fa
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 90b5f577b7056396e6f3227444ee3c8b5e1efe07
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58614042"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60754538"
 ---
 # <a name="system-requirements-for-skype-for-business-for-windows-phone"></a>系统要求Windows Phone版Skype for Business
  
  
-Microsoft Windows Phone版Skype for Business 为通过智能手机或) 移动设备进行连接的组织用户提供即时消息 (IM) Windows Professional、增强状态和电话服务。 利用移动设备，用户可以扩展移动设备Skype for Business。 本主题介绍规划规划注意事项Windows Phone版Skype for Business包括确定先决条件和技术要求、所需组件和部署指南。
+Microsoft Windows Phone版Skype for Business 为通过智能手机或) 移动设备进行连接的组织用户提供即时消息 (Windows Professional IM) 、增强状态和电话服务。 利用移动设备，用户可以扩展移动设备Skype for Business。 本主题介绍规划规划注意事项Windows Phone版Skype for Business包括确定先决条件和技术要求、所需组件和部署指南。
   
 ## <a name="skype-for-business-for-windows-phone-prerequisites"></a>Windows Phone版Skype for Business先决条件
 

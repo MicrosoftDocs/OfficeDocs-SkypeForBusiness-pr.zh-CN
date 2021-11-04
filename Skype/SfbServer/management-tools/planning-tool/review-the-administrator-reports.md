@@ -1,7 +1,7 @@
 ---
-title: 查看 2015 年 Skype for Business Server 中的管理员报告
+title: 查看 2015 Skype for Business Server中的管理员报告
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/5/2016
@@ -14,14 +14,14 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 22d480ea-cd64-4d09-99fe-96e997570844
 description: 管理员报告是有关部署和操作的详细信息。 报告基于"设计网站"中标记的选择生成。 设计师可通过编辑网络图，并为服务器、池和负载平衡器定义完整的 IP 地址和完全限定域名 (FQDN)，来进一步向管理报告中添加值。
-ms.openlocfilehash: fe2d14856a1d884dc04ff8cf2de4ebba41eb95eb
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: e2a30e27b5b1928dacc36e5592033090484f065a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730391"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766290"
 ---
-# <a name="review-the-administrator-reports-in-skype-for-business-server-2015"></a>查看 2015 年 Skype for Business Server 中的管理员报告
+# <a name="review-the-administrator-reports-in-skype-for-business-server-2015"></a>查看 2015 Skype for Business Server中的管理员报告
 
 管理员报告是有关部署和操作的详细信息。 报告是基于"设计网站"中标记 **的选择生成的**。 设计师可通过编辑网络图，并为服务器、池和负载平衡器定义完整的 IP 地址和完全限定域名 (FQDN)，来进一步向管理报告中添加值。
 
@@ -57,13 +57,13 @@ The Skype for Business Administrator Report is the first of four valuable report
 ## <a name="review-the-certificates-report"></a>查看证书报告
 <a name="Certificates_Report"> </a>
 
-证书报告包含推荐的 2015 年 2015 Skype for Business Server所需的所有证书。 规划工具会考虑输入的主题名称和主题替代名称。 对于负责请求和颁发证书的团队，未编辑的默认文本可能会带来潜在的挑战。 证书信息还包含通常可以从何处颁发证书的信息。 如果基础结构中没有内部公钥基础结构 (PKI)，则可以通过公共证书提供商请求所有证书。 该报告中的“扩展密钥用法 (EKU)”和“分配给”字段非常有助于理解每个证书应有的用途和应处的位置。
+证书报告包含推荐的 2015 年 Skype for Business Server中所需的所有证书。 规划工具会考虑输入的主题名称和主题替代名称。 对于负责请求和颁发证书的团队，未编辑的默认文本可能会带来潜在的挑战。 证书信息还包含通常可以从何处颁发证书的信息。 如果基础结构中没有内部公钥基础结构 (PKI)，则可以通过公共证书提供商请求所有证书。 该报告中的“扩展密钥用法 (EKU)”和“分配给”字段非常有助于理解每个证书应有的用途和应处的位置。
 
 ![证书管理员报告。](../../media/Certificates_Report_Admin_Report.png)
 
 仔细检查部署中每个证书的用途和用途，并确保了解。 如果对证书执行哪些操作存在疑问，请确定与哪些服务器或服务通信。 2015 Skype for Business Server中的证书主要用于两个目的：
 
-- 相互传输层安全性 (MTLS) - 参与通信的计算机各自都向另一台计算机提供证明其身份的证书。 这称为服务器身份验证。 在每个计算机信任另一台计算机的标识之前，通信无法开始。
+- 相互传输层安全性 (MTLS) - 参与通信的每台计算机都提供向另一台计算机证明其身份的证书。 这称为服务器身份验证。 在每个计算机信任另一台计算机的标识之前，通信无法开始。
 
 - 加密 - 加密 (安全套接字层、SSL、传输层安全性或 TLS) 是帮助保护通信、帮助确保隐私以及创建受信任的通信和协作系统的关键方法。
 

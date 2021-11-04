@@ -1,7 +1,7 @@
 ---
 title: 'Exchange统一消息 (规划工具) '
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,17 +16,17 @@ ms.localizationpriority: medium
 ms.assetid: cb767f83-2684-4006-a1f2-c6f0adf50f62
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype for Business Server 2015 支持与 Exchange 统一消息 (UM) 集成，以将语音邮件和电子邮件合并到单个邮件基础结构中。
-ms.openlocfilehash: ed3ecf579e7b57c64f88946afd4500d7d759a9f5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5fcff1051fc90e63ff409845fb5e26b826668a3f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580976"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760115"
 ---
-# <a name="exchange-unified-messaging-planning-tool-in-skype-for-business-2015"></a>Exchange2015 年 (统一) 规划Skype for Business工具
+# <a name="exchange-unified-messaging-planning-tool-in-skype-for-business-2015"></a>Exchange2015 (统一) 规划Skype for Business工具
 
 > [!NOTE]
-> Exchange以前已知的统一消息在 Exchange 2019 中不再可用，但仍可以使用 电话系统 录制语音邮件，然后在用户的 Exchange 邮箱中保留录制。 有关详细信息[，云语音邮件](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)规划服务。
+> Exchange以前已知的统一消息在 Exchange 2019 中不再可用，但您仍可以使用 电话系统 录制语音邮件，然后在用户的 Exchange 邮箱中保留录制。 有关详细信息[，请参阅云语音邮件](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)服务。
 
 Skype for Business Server 2015 支持与 Exchange 统一消息 (UM) 集成，以将语音邮件和电子邮件合并到单个邮件基础结构中。
 

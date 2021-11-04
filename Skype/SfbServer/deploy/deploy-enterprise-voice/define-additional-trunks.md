@@ -1,7 +1,7 @@
 ---
 title: 在拓扑生成器中定义其他中继Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,16 +16,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e68b8377-50a2-452a-bf5c-910929e34236
 description: 摘要：了解如何在拓扑生成器中的中介服务器和网关对等方之间定义Skype for Business Server。
-ms.openlocfilehash: 42f435079a66f7dba6c325ad8afbb1b28a3e3753
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a3a1094bdc9d0f92eba5cfa1ace87f14db0011de
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585851"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748868"
 ---
 # <a name="define-additional-trunks-in-topology-builder-in-skype-for-business-server"></a>在拓扑生成器中定义其他中继Skype for Business Server
  
-**摘要：** 了解如何在拓扑生成器中的中介服务器和网关对等方之间定义Skype for Business Server。
+**摘要：** 了解如何在 Skype for Business Server 拓扑生成器中定义中介服务器和对等网关之间的其他中继。
   
 按照以下步骤定义可以将对等方与中介服务器关联的其他中继。 对等方为启用了呼叫企业语音 PSTN 电话交换网 (连接) 。 对等方可以是用于 Internet 电话服务提供商电话服务提供商 (ITSP) 的 PSTN 网关、IP-PBX 或会话边界控制器 (SBC)。
   
@@ -36,9 +36,9 @@ ms.locfileid: "58585851"
   
 ### <a name="to-define-an-additional-trunk-between-a-mediation-server-and-a-gateway-peer"></a>在中介服务器和网关对等方之间定义其他中继
 
-1. 启动拓扑生成器：单击"开始"，单击 **"所有程序**"，Skype for Business Server"2015"，然后单击"Skype for Business Server **2015Topology Builder"。** 
+1. 启动拓扑生成器：单击"开始"，单击"所有程序"，Skype for Business Server **2015"，** 然后单击"Skype for Business Server **2015Topology Builder"。**
     
-2. 在Skype for Business Server"下，单击站点名称 **"共享** 组件"，右键单击 **"Trunks"** 节点，然后单击"新建 **中继"。**
+2. 在Skype for Business Server名称"**共享** 组件"下，右键单击 **"Trunks"** 节点，然后单击"新建 **中继"。**
    1. 在“定义新的 Trunk”中，指定唯一标识中继的友好名称。您不得有两个具有相同名称的中继。
     
       > [!NOTE]
@@ -57,7 +57,7 @@ ms.locfileid: "58585851"
 6. 在 **"关联的中介服务器端口**"下，键入中介服务器从对等方接收 SIP 消息的侦听端口。
     
     > [!NOTE]
-    > 如果支持多个中继Skype for Business Server，则不能使用相同的关联中介 **服务器** 端口和 **IP/PSTN** 网关的侦听端口配置两个具有不同的中继名称的中继
+    > 如果支持多个中继Skype for Business Server，则不能使用相同的关联中介服务器端口和 **IP/PSTN** 网关的侦听端口配置两个具有不同的中继名称的中继
   
     > [!NOTE]
     > 如果支持多个中继Skype for Business Server，可以在中介服务器上定义多个 SIP 信号端口，用于与多个对等方通信。 定义中继时，关联的中介 **服务器端口** 号必须在中介服务器允许的各自协议的侦听端口范围内。 此端口范围在"Skype for Business Server和中介服务器池"下定义。 右键单击相关的中介服务器池，然后选择"编辑 **属性"。** 在“侦听端口”字段中指定端口范围。

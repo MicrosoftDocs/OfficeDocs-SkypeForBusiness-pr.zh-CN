@@ -1,7 +1,7 @@
 ---
 title: PIN 设置成功
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: c6e210d1-bcac-4527-adc6-691a5723270c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要使用电子邮件向用户发送 PIN，请单击“打开我的电子邮件应用程序以将新 PIN 发送给用户”。要将 PIN 复制到电子邮件中，请选择“显示 PIN”。
-ms.openlocfilehash: ef31f10dfdcdb53bd3bb30ead93d985b52515000
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 19f1615fc2e0080263fb5a49ca13de7c60e63825
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600517"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760145"
 ---
 # <a name="pin-set-successfully"></a>PIN 设置成功
  

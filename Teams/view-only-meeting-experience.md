@@ -1,7 +1,7 @@
 ---
 title: 仅查看会议体验
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 ms.reviewer: christi.balaki
 manager: serdars
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b2af0ae753357497be6ea54b89534f2220b7cbf6
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
-ms.translationtype: HT
+ms.openlocfilehash: 6e56f1722d75c8126e8f19ac297e301dfc4e8706
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732291"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766030"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Teams 仅查看会议体验
 
@@ -128,7 +128,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled
 - 仅查看的与会者不会列入出席报告中。
 - 仅查看的与会者将有单一的视频体验。 他们可以看到活动发言人或共享的内容，但不能两者同时看到。
 - 我们当前不支持 **库**、**大型库** 或仅供与会者浏览的 **同框场景模式**。
-- 仅限查看的与会者仅受以下大厅政策的支持：“仅限您”、“我组织中的人员和来宾”、“我组织中的人员和受信任组织中的人员以及来宾”和“所有人”。 如果你使用的大厅策略不支持仅限查看与会者，则该会议将拒绝仅限查看与会者加入会议。 
+- 仅查看与会者仅受以下大厅策略支持："我的组织人员"、"我的组织成员和来宾"、"我的组织人员、受信任组织和来宾"和"每个人"。 如果你使用的大厅策略不支持仅限查看与会者，则该会议将拒绝仅限查看与会者加入会议。 
 - 仅限查看与会者的延迟时间与普通与会者的延迟时间不同。<sup>1</sup>
 
   <sup>1</sup> 仅查看的与会者将在会议上有 30 秒的视频和音频延迟。  

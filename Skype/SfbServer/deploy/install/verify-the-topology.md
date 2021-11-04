@@ -1,7 +1,7 @@
 ---
 title: 验证拓扑Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 7/14/2018
@@ -16,13 +16,13 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a4f4bad1-fc59-47ce-a3ea-b1b893769db6
-description: 摘要：了解如何验证Skype for Business Server和 Active Directory 服务器是否按预期工作。 从 Microsoft 评估Skype for Business Server下载免费试用版 https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server ：。
-ms.openlocfilehash: 0d8bc0a8ead8d435acf23965c461b57dab93edc2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 摘要：了解如何验证 Skype for Business Server和 Active Directory 服务器是否按预期工作。 从 Microsoft 评估Skype for Business Server下载免费试用版 https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server ：。
+ms.openlocfilehash: ba098dd808fec192cc944ed3796d5e11b0d8af31
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605521"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753235"
 ---
 # <a name="verify-the-topology-in-skype-for-business-server"></a>验证拓扑Skype for Business Server
  
@@ -38,10 +38,10 @@ ms.locfileid: "58605521"
   
 ### <a name="add-users-and-verify-client-connectivity"></a>添加用户并验证客户端连接
 
-1. 使用 Active Directory 计算机和用户将 Skype for Business Server 部署 (的管理员角色的 Active Directory 用户对象添加到 **CSAdministrator** 组Skype for Business Server控制面板) 。
+1. 使用 Active Directory 计算机和用户将 Skype for Business Server 部署 (的管理员角色的 Active Directory 用户对象添加到 **CSAdministrator** 组中Skype for Business Server控制面板) 。
     
     > [!IMPORTANT]
-    > 如果未将相应的用户和组添加到 CsAdministors 组，则当您打开 Skype for Business Server 控制面板时，将收到一个错误，显示"未授权：由于基于角色的访问控制 (RBAC) 授权失败，访问被拒绝"。 
+    > 如果未将适当的用户和组添加到 CsAdministors 组，则当您打开 Skype for Business Server 控制面板时，将收到一个错误，显示"未授权：由于基于角色的访问控制 (RBAC) 授权失败，访问被拒绝"。 
   
 2. 如果用户对象当前已登录，则注销后重新登录，以注册新的组分配。
     
@@ -50,9 +50,9 @@ ms.locfileid: "58605521"
   
 3. 使用管理帐户登录到安装了控制面板Skype for Business Server的计算机。
     
-4. 启动Skype for Business Server控制面板"，然后提供凭据（如果系统提示）。 Skype for Business Server控制面板显示部署信息。
+4. 启动Skype for Business Server控制面板"，然后在系统提示时提供凭据。 Skype for Business Server控制面板显示部署信息。
     
-5. 在左侧导航栏中，单击"拓扑"，然后确认服务状态显示具有绿色箭头的计算机，并且每个已部署并联机的 Skype for Business Server 角色旁边都有一个表示复制状态的绿色选中标记。 
+5. 在左侧导航栏中，单击"拓扑"，然后确认服务状态显示有绿色箭头的计算机，并且每个已部署并联机的 Skype for Business Server 角色旁边都有一个表示复制状态的绿色选中标记。 
     
 6. 在左侧导航栏中，单击"**用户"，** 然后单击"**启用用户"。** 
     
@@ -90,12 +90,12 @@ ms.locfileid: "58605521"
     
      ![在"控制面板"中启用用户。](../../media/7ee8717d-9a1f-4864-8f45-71071c88878f.png)
   
-11. 将显示一个摘要页，在"已启用"列中显示一个选中标记，以指示用户已设置。 **"SIP 地址**"列显示用户登录配置所需的地址。
+11. 将显示一个摘要页，该页在"已启用"列中显示一个选中标记，以指示用户已设置。 **"SIP 地址**"列显示用户登录配置所需的地址。
     
      ![添加到控制面板Skype for Business Server用户。](../../media/8960548a-8d6d-44c5-bc01-6f9fb11b7588.png)
   
 12. 将一个用户登录到加入域的计算机，另一个用户登录到域中的另一台计算机。
     
-13. 在两Skype for Business计算机上安装客户端，然后验证这两个用户能否登录 Skype for Business Server并可以相互发送即时消息。
+13. 在Skype for Business两台客户端计算机上安装客户端，然后验证这两个用户能否登录 Skype for Business Server并可以相互发送即时消息。
     
 

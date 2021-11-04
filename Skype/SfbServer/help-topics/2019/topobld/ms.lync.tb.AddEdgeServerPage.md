@@ -1,7 +1,7 @@
 ---
 title: 添加边缘服务器
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 9bd9c2b2-8329-4b31-a937-e462f5cc7293
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要在拓扑设计中引入边缘服务器或边缘服务器池，需指定要在其上部署边缘服务器或边缘服务器池的服务器的完全限定的域名 (FQDN)。 在发布包含边缘服务器或边缘服务器池的拓扑并安装Skype for Business Server之前，您应已完成部署外部用户访问的所有先决条件。 有关这些先决条件的详细信息，请参阅部署文档中的Preparing for Installation of Servers in the Perimeter Network。
-ms.openlocfilehash: 242d0ee9225dd93c799d1b629351deb05056f01f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5c4fa2c6930b576995357ef86d5ca409b9bb15c6
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597126"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742458"
 ---
 # <a name="add-edge-server"></a>添加边缘服务器
 

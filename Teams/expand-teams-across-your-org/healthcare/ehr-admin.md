@@ -1,7 +1,7 @@
 ---
 title: Teams 虚拟就诊
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -23,21 +23,21 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: 使用 Microsoft Teams 设置虚拟就诊系统
-ms.openlocfilehash: a5b04befbd3c4cf5d1730432a2c5dcad97e63675
-ms.sourcegitcommit: 1c2364fbefd95151f0847a35e8bc7c4c1b3892f5
+ms.openlocfilehash: 40772326d2767e7815a73ad9feca2e4853c762fc
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "58935848"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60743038"
 ---
 # <a name="virtual-visits-with-teams---integration-into-ehr"></a>通过 Teams 进行虚拟就诊 - 集成到 EHR
 
-Microsoft Teams借助 EHR (EHR) 连接器，医生可以轻松直接从 EHR 系统启动虚拟患者访问或咨询 Teams提供商。 Microsoft Teams 基于 Microsoft 365 云进行构建，可在支持 HIPAA、HITECH 认证等合规性要求的单个中心内通过聊天、视频、语音和医疗保健工具，实现简单、安全的协作和沟通。
+Microsoft Teams使用 EHR (EHR) 连接器，让医生能够轻松地直接从 EHR 系统启动虚拟患者访问或咨询Teams其他提供商。 Microsoft Teams 基于 Microsoft 365 云进行构建，可在支持 HIPAA、HITECH 认证等合规性要求的单个中心内通过聊天、视频、语音和医疗保健工具，实现简单、安全的协作和沟通。
 利用 Teams 的沟通和协作平台，临床医生可轻松解决零碎的体制问题，从而腾出更多时间提供最好的医治。 Microsoft TeamsEHR (EHR) 连接器可以：
 
-- 启动Teams EHR 系统的虚拟访问和集成的医疗工作流。
+- 从Teams EHR 系统中通过集成的医疗工作流启动虚拟访问。
 - 使患者能够从患者Teams内加入虚拟访问。
-- 将有关虚拟访问的元数据写回到 EHR 系统Teams与会者连接和断开连接时进行记录，并启用自动审核和记录保留。
+- 将有关虚拟访问的元数据写回到 EHR 系统Teams与会者连接和断开连接时记录，并启用自动审核和记录保留。
 
   请观看此视频，了解如何从 EHR 门户管理虚拟就诊。
 
@@ -126,7 +126,7 @@ Microsoft Teams借助 EHR (EHR) 连接器，医生可以轻松直接从 EHR 系�
 
 ## <a name="launch-teams-virtual-visits"></a>启动 Teams 虚拟就诊
 
-完成 EHR 连接器步骤和"长篇大作"配置后，组织已准备好使用 Microsoft Teams 支持视频访问。
+完成 EHR 连接器步骤和长篇大作配置后，组织就可以使用视频访问来支持视频Microsoft Teams。
 
 ### <a name="virtual-visit-prerequisites"></a>虚拟就诊先决条件
 

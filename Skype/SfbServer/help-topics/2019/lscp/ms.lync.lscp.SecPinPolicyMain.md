@@ -1,7 +1,7 @@
 ---
 title: PIN 策略
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,18 +15,18 @@ ms.localizationpriority: medium
 ms.assetid: 16e5b03c-c313-4792-9353-65f33b5e775a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: 857fb1513dd9bb0be07113a6aa2a13f91795898d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6bb3cc48843ba2032925d72a9184fb622bacdd61
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585236"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742628"
 ---
 # <a name="pin-policy"></a>PIN 策略
 
 要执行什么操作？ 单击要执行的任务的链接。
 
- **使用 IP 电话的 PIN 策略** 此个人标识号 (PIN) 策略支持对使用 IP 电话连接到Skype for Business Server的用户进行身份验证。
+ **使用 IP 电话的 PIN 策略** 此个人标识号 (PIN) 策略支持使用 IP 电话Skype for Business Server用户进行身份验证。
 - [在"密码"中创建新的 PIN Skype for Business Server](../../../manage/authentication/create-a-new-pin-policy.md)
 
 - [修改现有 PIN 策略Skype for Business Server](../../../manage/authentication/modify-an-existing-pin-policy.md)

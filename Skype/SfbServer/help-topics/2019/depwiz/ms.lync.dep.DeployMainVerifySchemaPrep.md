@@ -1,7 +1,7 @@
 ---
 title: 验证架构分区的复制
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,18 +15,18 @@ ms.localizationpriority: medium
 ms.assetid: 0357f230-6d0c-41f1-942c-e14f76e55d31
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要验证已在 Active Directory 域服务林中成功复制架构扩展，请执行下列操作：
-ms.openlocfilehash: eb0239df900547158cd670a43cdb6fc9e82dc377
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3cbe7b856e257528bf9610ff1733c963775e648a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621574"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60738548"
 ---
 # <a name="verify-replication-of-schema-partition"></a>验证架构分区的复制
  
 若要验证已在 Active Directory 域服务林中成功复制架构扩展，请执行下列操作：
   
-1. 登录到域控制器 (除在 Active Directory 域服务林中保留架构主机角色) 的域控制器外，其中架构扩展已作为 Enterprise Admins 组的成员应用。
+1. 登录到域控制器 (而不是在 Active Directory 域服务林中保留架构主机角色) 的域控制器，其中架构扩展是作为 Enterprise Admins 组的成员应用的。
     
 2. 打开 ADSI Edit：依次单击“开始”、“管理工具”和“ADSI Edit”。
     

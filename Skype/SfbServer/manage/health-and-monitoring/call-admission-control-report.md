@@ -1,7 +1,7 @@
 ---
-title: 呼叫允许控制报告Skype for Business Server
+title: 呼叫允许控制报告中Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ea4b0c9f-7f93-4b8a-b901-01e1636c44fb
 description: 摘要：了解呼叫允许控制报告Skype for Business Server。
-ms.openlocfilehash: a48e7aed8c18823a6bae279a1f1484f5f981d279
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 83259ed107113d5a013aa3a239ce9ef1eeab833b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606191"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60754763"
 ---
-# <a name="call-admission-control-report-in-skype-for-business-server"></a>呼叫允许控制报告Skype for Business Server
+# <a name="call-admission-control-report-in-skype-for-business-server"></a>呼叫允许控制报告中Skype for Business Server
  
-**摘要：** 了解呼叫允许控制报告在呼叫Skype for Business Server。
+**摘要：** 了解会议中使用的呼叫允许控制Skype for Business Server。
   
 呼叫允许控制报告提供有关点对点和由呼叫允许控制设置限制下举行的会议会话的信息。 呼叫允许控制为管理员提供了一种根据带宽 (允许) 通信会话的方法。 例如，管理员可创建对可用于语音和视频呼叫的带宽量施加限制的策略。 如果已达到该带宽限制，则可进行新的语音和视频呼叫，直到其中的一个当前呼叫结束并释放所需的网络资源为止。
   
@@ -98,7 +98,7 @@ ms.locfileid: "58606191"
 |:-----|:-----|:-----|
 |**角色** <br/> |否  <br/> |会议参与者扮演的角色（例如“演示者”）。  <br/> |
 |**参与者** <br/> |否  <br/> |会议参与者的 SIP 地址。  <br/> |
-|**连接** <br/> |否  <br/> |参与者的网络连接（通常为“来自内部”或“来自外部”）。  <br/> |
+|**连接性** <br/> |否  <br/> |参与者的网络连接（通常为“来自内部”或“来自外部”）。  <br/> |
 |**形式** <br/> |否  <br/> |会议类型（例如 A/V 会议）。  <br/> |
 |**加入时间** <br/> |否  <br/> |参与者加入会议的日期和时间。  <br/> |
 |**离开时间** <br/> |否  <br/> |参与者离开会议的日期和时间。  <br/> |

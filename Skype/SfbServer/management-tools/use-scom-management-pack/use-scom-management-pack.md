@@ -1,7 +1,7 @@
 ---
 title: 使用 SCOM Skype for Business Server包管理 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/13/2018
@@ -14,28 +14,28 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ca03f9ab-a227-4903-85a8-427df6a0a5bb
 description: 摘要：了解如何配置 Skype for Business Server 2015 基础结构以使用 System Center Operations Manager。
-ms.openlocfilehash: 0349949afe27c5351f9eefda7a5cc5f44a0a072d
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 43fba4fa3672621052d51314e1d39ead5f4d568b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014936"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766270"
 ---
 # <a name="manage-skype-for-business-server-2015-using-scom-management-pack"></a>使用 SCOM Skype for Business Server包管理 2015
  
 **摘要：** 了解如何配置 Skype for Business Server 2015 基础结构以使用 System Center Operations Manager。
   
-在理想世界，2015 年Skype for Business Server问题。 但是，Skype for Business Server受外部因素影响，例如网络崩溃和硬件故障。 通过使用 Skype for Business Server 2015 管理包，您可以主动识别和解决潜在问题。 这样，Skype for Business Server 2015 管理包扩展了 System Center Operations Manager 的功能。
+在理想世界，在 2015 年 10 月Skype for Business Server问题。 但是，Skype for Business Server受外部因素影响，例如网络崩溃和硬件故障。 通过使用 Skype for Business Server 2015 管理包，您可以主动识别和解决潜在问题。 这样一来，Skype for Business Server 2015 管理包扩展了 operations Manager System Center的功能。
   
-此信息是基于 2015 年 2015 年 10 月通信Skype for Business Server 9319.0 版编写的。
+此信息是基于 2015 年 2015 通信软件监视包的 9319.0 Skype for Business Server编写的。
   
 ## <a name="configuration-overview"></a>配置概述
 
- 若要将 Skype for Business Server 2015 基础结构配置为与 System Center Operations Manager 一起运行，您必须执行三项操作：
+ 若要将 Skype for Business Server 2015 基础结构配置为与 operations Manager System Center一起运行，您必须执行三项操作：
   
 标识和  [配置主管理服务器](configure-the-primary.md)。 为此，您必须安装 Operations Manager 2012 SP1 System Center R2。 
   
- 标识[和配置Skype for Business Server的计算机。](configure-computers-to-monitor.md) 若要使用 Skype for Business Server Operations Manager 监视 System Center 计算机，必须安装 System Center Operations Manager 代理文件，并配置每台服务器以充当代理。 
+ 标识[和配置Skype for Business Server监控的计算机](configure-computers-to-monitor.md)。 若要使用 Skype for Business Server Operations Manager 监视 System Center 计算机，必须安装 System Center Operations Manager 代理文件，并配置每台服务器以充当代理。 
   
  标识和 [安装和配置观察程序节点](watcher-nodes.md)。 观察程序节点是定期运行 Skype for Business Server 综合事务的计算机 -Windows PowerShell cmdlet，用于验证关键 Skype for Business Server 组件（如登录到系统的能力或交换即时消息的能力）是否正常工作。 
   
@@ -45,14 +45,14 @@ ms.locfileid: "60014936"
   
 |配置|是否支持？|
 |:-----|:-----|
-|Windows Server 2008 R2 操作系统  <br/> Windows Server 2012R2 操作系统   |是。 在 Skype for Business Server 2015 服务器和综合事务观察程序节点上。   |
+|Windows Server 2008 R2 操作系统  <br/> Windows Server 2012R2 操作系统   |是的。 两者Skype for Business Server 2015 服务器和综合事务观察程序节点。   |
 |群集服务器   |不支持。   |
 |无代理监视   |不支持。   |
-|虚拟环境   |是。   |
-|加入域的服务器角色   |所有内部Skype for Business Server 2015 服务器角色都必须加入域。   |
+|虚拟环境   |是的。   |
+|加入域的服务器角色   |所有内部 Skype for Business Server 2015 服务器角色都必须加入域。   |
 |独立服务器角色   |Skype for Business Server 2015 边缘服务器无需加入域。   |
 |拓扑限制   |必须从同一 Operations Manager 管理组监视部署中所有服务器角色。   |
-|综合事务观察程序节点   |支持使用综合事务观察程序节点监视方案可用性 (所需的其他) 。 观察程序节点不需要加入域。   |
+|综合事务观察程序节点   |支持使用综合事务观察程序节点监视方案可用性， (所需的其他) 。 观察程序节点不需要加入域。   |
    
 下表显示了综合事务观察程序节点的容量和操作系统要求：
   
@@ -71,11 +71,11 @@ ms.locfileid: "60014936"
     
 -  Microsoft .NET Framework 4.5
     
-- Skype for Business Server UCMA (OcsCore.msi) 和统一通信托管 API (版本)  (核心安装文件必须与 Skype for Business Server WatcherNode.msi 版本) 
+- Skype for Business Server UCMA ( (UCMA)  (版本必须匹配核心安装文件 (OcsCore.msi) 和统一通信托管 API Skype for Business Server WatcherNode.msi版本) 
     
 ## <a name="files-in-this-monitoring-pack"></a>此监视包中的文件
 
-2015 Skype for Business Server监视包包括以下文件：
+Skype for Business Server 2015 的监视包包括以下文件：
   
 - Microsoft.LS.2015.Monitoring.ActiveMonitoring.mp
     
@@ -85,7 +85,7 @@ ms.locfileid: "60014936"
     
 ## <a name="whats-new"></a>新增功能
 
-以下功能是 2015 Skype for Business Server包的新增功能。
+2015 管理包Skype for Business Server新增了以下功能。
 
 - **[2019 年 9 月更新中的更改](https://www.microsoft.com/en-in/download/details.aspx?id=47364)** 某些警报已删除特殊字符。 在某些情况下，特殊字符会干扰 SCOM 命令通道通知功能。
 
@@ -93,18 +93,18 @@ ms.locfileid: "60014936"
     
 - **自定义的综合事务运行间隔** 为了简化观察程序节点的设置过程，综合事务可以共享用户帐户。 这会降低测试运行的频率，因为测试被序列化以避免冲突。 默认情况下，综合事务每 15 分钟运行一次，以确保所有测试都有时间运行。 选择使用更多用户或更少每个用户的测试的管理员现在也可以缩短运行间隔。
     
-- **视频互操作服务综合事务** 从其他供应商解决方案迁移到 Skype for Business Server 2015 的客户通常希望继续使用来自这些其他供应商的视频电话会议 (VTC) 视频电话会议设备。 视频互操作服务器是一种新的 Skype for Business Server 2015 服务器角色，使客户可以通过视频 SIP 中继连接到 Cisco CUCM，从而在会议室中继续使用 Cisco VTC。 此功能还添加了综合事务，以帮助验证视频互操作服务器是否启动，并可以处理通过视频 SIP 中继传入的连接。
+- **视频互操作服务综合事务** 从其他供应商解决方案迁移到 Skype for Business Server 2015 的客户通常希望继续使用来自这些供应商的视频电话会议设备 (VTC) VTC。 视频互操作服务器是一种新的 Skype for Business Server 2015 服务器角色，使客户可以通过视频 SIP 中继连接到 Cisco CUCM，从而在会议室中继续使用 Cisco VTC。 此功能还添加了综合事务，以帮助验证视频互操作服务器是否启动，并可以处理通过视频 SIP 中继传入的连接。
     
 - **应用程序共享会议综合事务** 现在支持应用程序共享会议的端到端方案验证。
     
 ## <a name="monitoring-scenarios"></a>监视方案
 
-The Skype for Business Server 2015 Management Pack leverages a variety of features to help you detect and diagnose issues. 这些功能提供对 2015 年 2015 Skype for Business Server状态实时可见性。
+the Skype for Business Server 2015 Management Pack leverages a variety of features to help you detect and diagnose issues. 这些功能提供对 2015 年 2015 Skype for Business Server运行状况实时可见性。
   
 |监视方案|说明|
 |:-----|:-----|
 |综合事务   | Windows PowerShell cmdlet 测试并帮助确保用户登录、状态、IM 和会议等方案的高可用性。 <br/> 综合事务可以从任何地理位置运行，包括企业内部、企业外部和分支机构。  <br/> 当综合事务失败时，将创建 HTML 日志以帮助确定失败的确切性质。 这包括了解哪些操作失败、每个操作延迟、用于运行测试的命令行以及发生的特定错误。   |
-|呼叫可靠性警报   | (2015 服务器) 呼叫详细信息记录SKYPE FOR BUSINESS SERVER CDR 反映了用户能否连接到呼叫或呼叫终止的原因。 呼叫可靠性警报查询 CDR 数据库以生成警报，指示大量用户何时遇到对等呼叫或基本会议功能的连接问题。  <br/> 方案覆盖包括音频呼叫、对等即时消息 (IM) 和其他会议功能。   |
+|呼叫可靠性警报   | (2015 服务器) 呼叫详细信息记录 CDR Skype for Business Server反映用户能否连接到呼叫或呼叫终止的原因。 呼叫可靠性警报查询 CDR 数据库以生成警报，指示大量用户何时遇到对等呼叫或基本会议功能的连接问题。  <br/> 方案覆盖包括音频呼叫、对等即时消息 (IM) 和其他会议功能。   |
 |媒体质量警报   |查看每个呼叫结束时由 Skype for Business Server 2015 客户端发布的用户体验质量 (QoE) 报告的数据库查询。 这些查询会生成警报，准确指出用户最有可能在呼叫和会议期间遇到媒体质量受损的情况。 数据是在数据包延迟和丢失等关键指标（直接影响用户体验质量）上构建的。   |
 |组件运行状况警报   |各个服务器组件通过事件日志和性能计数器发出警报，以指示可能显著影响用户方案的故障情况。 这些警报指示各种情况，例如服务未运行、高故障率、高消息延迟或连接问题。   |
 |依赖关系运行状况监视   |Skype for Business Server各种外部原因导致失败。 管理包监视并收集可指示关键问题的关键外部依赖项的数据。 这些依赖关系Internet Information Services (IIS) 可用性，以及用于部署服务器的 CPU Skype for Business Server。   |
@@ -114,9 +114,9 @@ The Skype for Business Server 2015 Management Pack leverages a variety of featur
 
 警报分为以下类别： 
   
- **高优先级警报：** 这些警报指示导致大型用户组的服务中断的条件，需要立即采取措施。 综合事务 (和脱机服务（如Skype for Business Server/视频会议Skype for Business Server）检测到的中断) 高优先级警报。 相比之下，单台计算机的组件故障不是高优先级警报。 Skype for Business Server 2015 具有针对这些情况的内置高可用性功能，例如，负载平衡器后面的多个前端服务器。
+ **高优先级警报：** 这些警报指示导致大型用户组的服务中断的条件，需要立即采取措施。 综合事务和脱机服务（如 (/视频会议Skype for Business Server）检测到) 中断限定为高优先级警报。 相比之下，单台计算机的组件故障不是高优先级警报。 Skype for Business Server 2015 具有针对这些情况的内置高可用性功能，例如，负载平衡器后面的多个前端服务器。
   
- **中等优先级警报：** 这些警报指示影响用户子集或指示呼叫质量问题的条件，例如组件故障、呼叫建立延迟或通话中音频质量降低。 此类别的警报是有状态 (即，警报的性质根据网络连接的状态而更改。例如) 如果呼叫建立时间指示延迟，但之后又返回到正常阈值，则此中等优先级警报将在 System Center Operations Manager 中自动解决，管理员无需采取措施。 无法自动解决的警报通常由管理员在同一工作天解决。
+ **中等优先级警报：** 这些警报指示影响用户子集或指示呼叫质量问题的条件，例如组件故障、呼叫建立延迟或通话中音频质量降低。 此类别的警报是有状态 (即，警报的性质根据网络连接的状态而更改。) 例如，如果呼叫建立时间指示延迟，但随后又返回到正常阈值，则此中等优先级警报将在 System Center Operations Manager 中自动解决，管理员无需采取措施。 无法自动解决的警报通常由管理员在同一工作天解决。
   
  **其他警报：** 这些警报由可能影响特定用户或部分用户的组件生成。 例如，典型的警报是通讯簿服务无法分析用户的 Active Directory® 域服务 (AD DS) 条目：testuser@contoso.com。 管理员可以在有可用时间时处理这些警报。
   
@@ -129,7 +129,7 @@ Skype for Business Server 2015 管理包通过综合事务增加了警报的覆�
 |支持的注册、状态和联系人综合事务|&nbsp;|&nbsp;|
 |:-----|:-----|:-----|
 |1   |注册 (用户登录)    |可用的 Lync Server 2010 及以后版本   |
-|2   |通讯簿服务 (文件下载)    |可用的 Lync Server 2010 及以后版本   |
+|2   |通讯簿服务 (下载)    |可用的 Lync Server 2010 及以后版本   |
 |3   |通讯簿 Web 查询   |可用的 Lync Server 2010 及以后版本   |
 |4    |状态   |可用的 Lync Server 2010 及以后版本   |
 |5   |统一联系人存储   |可用的 Lync Server 2013 及以后版本   |
@@ -173,12 +173,12 @@ Skype for Business Server 2015 管理包通过综合事务增加了警报的覆�
   
 |管理包对象|说明|
 |:-----|:-----|
-|Skype for Business Server部署   |表示组织中 Skype for Business Server 2015 的部署。   |
+|Skype for Business Server部署   |表示在组织中部署 Skype for Business Server 2015。   |
 |Skype for Business Server网站   |表示部署服务的不同地理位置。   |
 |Skype for Business Server池   |站点 (中的池) ，它为用户提供即时消息和会议等通信服务。 适用于前端池、边缘池和控制器池，即使给定池中只有一台计算机。   |
 |Skype for Business Server角色   |托管服务的服务器Skype for Business Server角色。   |
 |Skype for Business Server服务   |表示特定计算机上部署的功能 (例如，fp01.contoso.com) 。   |
-|Skype for Business Server组件   |例如，Service (组件，通讯簿下载组件是 Web 服务包的一) 。   |
+|Skype for Business Server组件   |例如，Service (组件是 Web 服务包的一) 。   |
 |Skype for Business Server池观察程序   |对一个池运行的综合事务的实例。   |
 |Skype for Business Server注册器观察程序   |对一个注册器池运行的综合事务的实例。   |
 |Skype for Business Server用户服务池观察程序   |对一个用户服务池运行的综合事务的实例。   |
@@ -188,9 +188,9 @@ Skype for Business Server 2015 管理包通过综合事务增加了警报的覆�
    
 ![SCOM 汇总。](../../media/de16195d-3aed-412e-9def-07a481d2ff0f.png)
   
-一Skype for Business Server池可包含多个具有多个Skype for Business Server角色 (Skype for Business Server角色、Skype for Business Server和Skype for Business Server组件) 。 因此，单个服务器或组件的故障对 Skype for Business Server 池的整体运行状况不太关键，因为同一池中的其他服务器可以为客户端提供应用程序服务。 运行状况将按百分比级别汇总到Skype for Business Server池。 
+一Skype for Business Server池可包含多个具有多个Skype for Business Server角色 (、Skype for Business Server角色、Skype for Business Server服务以及Skype for Business Server组件) 。 因此，单个服务器或组件的故障对 Skype for Business Server 池的整体运行状况不太关键，因为同一池中的其他服务器可以为客户端提供应用程序服务。 运行状况将按百分比级别汇总到Skype for Business Server池。 
   
-池Skype for Business Server对池执行综合Skype for Business Server事务。 一个或多个综合事务连续失败 (称为连续轮询间隔) 的进程将严重运行状况汇总到池级别 (任何综合事务) 最差的情况，如下图所示。 
+该Skype for Business Server池观察程序对一个池Skype for Business Server事务。 一个或多个综合事务连续失败 (称为连续轮询间隔) 的进程将严重运行状况汇总到池级别 (任何综合事务) 最差，如下图所示。 
   
 ![SCOM 汇总连续轮询。](../../media/655de542-cca7-4eda-8052-9a7703ecd0e9.png)
   

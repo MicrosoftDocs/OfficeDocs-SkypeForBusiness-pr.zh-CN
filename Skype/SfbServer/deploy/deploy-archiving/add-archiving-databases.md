@@ -1,7 +1,7 @@
 ---
 title: 将存档数据库添加到现有部署中的Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3b67df85-181d-45ca-ba48-bb74a439f242
 description: 摘要：阅读本主题，了解如何将存档数据库添加到您的Skype for Business Server部署。
-ms.openlocfilehash: 36d825ef79befa430edfd126bd9cd5a5d840b2f1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d7174919ef34cd77bf7da316d23808ea1cfaff7f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611321"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778932"
 ---
 # <a name="add-archiving-databases-to-an-existing-deployment-in-skype-for-business-server"></a>将存档数据库添加到现有部署中的Skype for Business Server
  
@@ -30,11 +30,11 @@ ms.locfileid: "58611321"
 - 发布更新的拓扑以将存档数据库添加到您的Skype for Business Server部署。
     
 > [!NOTE]
-> 如果要使用 Microsoft Exchange 集成在 Exchange 服务器上为部署中的所有用户存储存档数据和文件，请不要指定存档 **SQL Server** 存储或使用 **SQL Server Store 镜像** 信息。
+> 如果要使用 Microsoft Exchange 集成在 Exchange 服务器上为部署中的所有用户存储存档数据和文件，请不要指定存档 **SQL Server** 存储或使用 **SQL Server Store** 镜像信息。
   
 ### <a name="add-an-archiving-database-to-your-topology"></a>向拓扑中添加存档数据库
 
-1. 在运行 Skype for Business Server 或安装了 Skype for Business Server 管理工具的计算机上，使用作为本地 Users 组 (成员的帐户或具有同等用户权限的帐户) 登录。
+1. 在运行 Skype for Business Server 或安装了 Skype for Business Server 管理工具的计算机上，使用作为本地 Users 组 (成员的帐户或具有同等用户权限的帐户) 。
     
 2. 启动拓扑生成器。
     
@@ -50,11 +50,11 @@ ms.locfileid: "58611321"
     
 8. 在 **"SQL Server存储"下，** 执行下列操作之一：
     
-   - 若要使用现有 SQL Server 存储，请在下拉列表框中，单击要使用的 SQL Server 存储的名称。 如果您的所有用户都位于 Microsoft Exchange Server 2013 或Microsoft Exchange Server，您可以在 Skype for Business 中为所有用户存档 Exchange。 在这种情况下，无需配置存档SQL Server存档。
+   - 若要使用现有 SQL Server 存储，请在下拉列表框中，单击要使用的 SQL Server 存储的名称。 如果您的所有用户都位于 Microsoft Exchange Server 2013 或Microsoft Exchange Server，您可以在 Exchange 中为所有用户存档 Skype for Business 通信。 在这种情况下，无需配置存档SQL Server存档。
     
-   - 若要指定新的SQL Server，请单击"新建"，然后在"定义新的SQL Server **应用商店**"对话框中，执行以下操作：
+   - 若要指定新的SQL Server，请单击"新建"，然后在"定义新的 SQL Server **应用商店"对话框中**，执行以下操作：
     
-   - 在 **SQL Server FQDN"** 中，指定要创建新的数据库存储的服务器的 FQDN SQL Server存储。
+   - 在 **SQL Server FQDN** 中，指定要创建新的数据库存储SQL Server FQDN。
     
    - 单击“默认实例”以使用默认的实例，或者，若要指定其他实例，请单击“命名实例”，然后指定要使用的实例。
     
@@ -64,7 +64,7 @@ ms.locfileid: "58611321"
     
    - 若要将现有 SQL Server 存储用于镜像，请在"存档 **SQL Server** 存储镜像"下拉列表框中，单击要用于镜像的 SQL Server 存储的名称。
     
-   - 若要指定新的SQL Server存储进行镜像，请单击"新建"，然后在"定义新的 SQL Server **存储**"对话框中，执行下列操作之一：
+   - 若要指定新的 SQL Server 存储进行镜像，请单击"新建"，然后在"定义新的 SQL Server **存储**"对话框中，执行下列操作之一： 
     
      a. 在 **SQL Server FQDN** 中，指定要SQL Server存储的 FQDN。SQL Server FQDN。
     
@@ -72,7 +72,7 @@ ms.locfileid: "58611321"
     
      c. 如果指定的SQL Server实例位于镜像关系中，请选中"此 **SQL 实例** 位于镜像关系中"复选框，然后在"镜像端口号"中指定端口号。 
     
-   - 如果启用 SQL Server 镜像，并且希望包括一个 SQL Server 镜像见证 (第三个单独的 SQL Server 实例，该实例可以检测主 SQL Server 和镜像实例) 的运行状况，请选中"使用 **SQL Server** 镜像见证启用自动故障转移"复选框，然后执行下列操作之一：
+   - 如果启用 SQL Server 镜像，并且希望包括一个 SQL Server 镜像见证 (第三个单独的 SQL Server 实例，可以检测主 SQL Server 和镜像实例) 的运行状况，请选中"使用 **SQL Server** 镜像见证启用自动故障转移"复选框，然后执行一个 以下各项之一：
     
      a. 在 **SQL Server FQDN** 中，指定要创建新的镜像见证服务器SQL Server FQDN。
     
@@ -87,11 +87,11 @@ ms.locfileid: "58611321"
 1. 在运行 Skype for Business Server 或安装了 Skype for Business Server 管理工具的计算机上，使用作为本地 Users 组 (成员的帐户或具有同等用户权限) 的帐户登录。
     
     > [!NOTE]
-    > 可以使用作为本地 Users 组的成员的帐户定义拓扑，但要发布拓扑（向拓扑中添加服务器需要此拓扑， 必须使用作为 **Domain Admins** 组和 **RTCUniversalServerAdmins** 组的成员的帐户，并且该帐户对要用于 Skype for Business Server 文件存储 (的文件共享具有完全控制权限 (读取、写入和修改) ，以便拓扑生成器可以配置所需的任意访问控制列表 (DACLs) 或具有同等权限的帐户。
+    > 您可以使用作为本地 Users 组的成员的帐户来定义拓扑，但若要发布拓扑（向拓扑中添加服务器是必需的）必须使用 Domain **Admins** 组和 **RTCUniversalServerAdmins** 组的成员且具有完全控制权限的帐户 (读取、 对要用于 Skype for Business Server 文件存储 (的文件共享上写入和修改) ，以便拓扑生成器可以配置所需的随意访问控制列表 (DACLs) 或具有同等权限的帐户。
   
 2. 使用拓扑生成器打开在上一部分中创建的拓扑。
     
-3. 在控制台树中，右 **键单击**"Skype for Business Server"，然后单击"发布 **拓扑"。**
+3. 在控制台树中，**右键单击**"Skype for Business Server"，然后单击"发布 **拓扑"。**
     
 4. 在“发布拓扑”页上，单击“下一步”。
     
@@ -103,6 +103,6 @@ ms.locfileid: "58611321"
 6. 在 **“发布向导完成”** 页上，确认已成功发布拓扑，然后单击 **“完成”**。
     
     > [!IMPORTANT]
-    > 发布拓扑后，必须配置存档选项和策略，然后才能存档任何内容。 有关详细信息，请参阅 Configure [archiving options for Skype for Business Server](configure-archiving-options.md) and Configure archiving policies for [Skype for Business Server](configure-archiving-policies.md)。 
+    > 发布拓扑后，必须配置存档选项和策略，然后才能存档任何内容。 有关详细信息，请参阅 Configure [archiving options for Skype for Business Server](configure-archiving-options.md)和 Configure archiving policies for [Skype for Business Server](configure-archiving-policies.md)。 
   
 

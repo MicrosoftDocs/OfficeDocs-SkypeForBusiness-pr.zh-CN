@@ -1,7 +1,7 @@
 ---
 title: Skype for Business Server 2015 压力和性能工具
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.date: 4/6/2016
 manager: serdars
@@ -13,30 +13,30 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f2f7d19b-18c8-4a41-9b17-80d35b73d742
-description: Skype for Business Server 2015 Stress and Performance Tool is used during capacity planning and performance tuning in non-production or test environments.
-ms.openlocfilehash: 0ce2c4f4a608f6ecba980d7f8fe77fbc2863d81d
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+description: 在Skype for Business Server环境或测试环境中的容量规划和性能调整过程中，使用 2015 压力和性能工具。
+ms.openlocfilehash: 565f868ae81915b6bcb595f13c2d184d82db62b8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012366"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766260"
 ---
 # <a name="skype-for-business-server-2015-stress-and-performance-tool"></a>Skype for Business Server 2015 压力和性能工具
  
-Skype for Business Server 2015 Stress and Performance Tool is used during capacity planning and performance tuning in non-production or test environments.
+在Skype for Business Server环境或测试环境中的容量规划和性能调整过程中，使用 2015 压力和性能工具。
   
-Skype for Business Server 2015 压力和性能工具包括可简化 Skype for Business Server 2015 容量规划的工具。 Skype for Business Server 2015 压力和性能工具将帮助你：
+The Skype for Business Server 2015 Stress and Performance Tool includes tools that will simplify your capacity planning for Skype for Business Server 2015. The Skype for Business Server 2015 Stress and Performance Tool will help you to：
   
-- 简化 Skype for Business Server 的硬件规划
+- 简化硬件规划Skype for Business Server
     
 - 为性能调整提供增强的知识和最佳做法
     
-- 测量 Skype for Business Server 部署的性能
+- 测量部署Skype for Business Server性能
     
-通常，使用 [Skype for Business Server 2015](../../management-tools/planning-tool/planning-tool.md) 规划工具设计拓扑，并使用 Skype for Business Server [2015](../../management-tools/capacity-planning-calculator.md)容量规划计算器精简拓扑后，通常使用此工具。 
+通常，使用[Skype for Business Server 2015 规划](../../management-tools/planning-tool/planning-tool.md)工具设计拓扑，并使用[Skype for Business Server 2015](../../management-tools/capacity-planning-calculator.md)容量规划计算器精简拓扑后，通常使用此工具。 
 
 > [!NOTE]
-> 此工具不会针对 Skype for Business Server 2019 进行更新。
+> 此工具不会在 2019 Skype for Business Server更新。
   
 ## <a name="tests"></a>测试
 
@@ -52,32 +52,32 @@ Skype for Business Server 2015 压力和性能工具包括可简化 Skype for Bu
 |MultiView   |数据协作   |
 |移动性   ||
    
-## <a name="applications-and-files-included-with-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Skype for Business Server 2015 Stress and Performance Tool 中包含的应用程序和文件
+## <a name="applications-and-files-included-with-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Skype for Business Server 2015 压力和性能工具中包含的应用程序和文件
 
-这些应用程序是 Skype for Business Server 压力和性能工具的一部分：
+这些应用程序是"压力和性能Skype for Business Server的一部分：
   
 |工具|说明|
 |:-----|:-----|
 |UserProvisioningTool.exe   |此工具用于创建用户和联系人。   |
 |UserProfileGenerator.exe   |用于配置要模拟的用户负载的特征。   |
 |LyncPerfTool.exe   |模拟用户加载的工具。   |
-|Default.tmx   |需要使用 Skype for Business Server 2015 日志记录工具。   |
+|Default.tmx   |使用 Skype for Business Server 2015 日志记录工具是必需的。   |
 |预配脚本示例   |用于根据特定方案配置用于运行负载测试的拓扑。 你可能需要修改它们，使其与特定环境相关。   |
    
 ## <a name="topics-in-this-section"></a>本节中的主题
 
 如果需要了解更多信息，应查看以下文章：
   
-- [Skype for Busines 压力和性能工具的先决条件和设置](prerequisites-and-setup.md)
+- [总线压力和性能Skype组件的先决条件和设置](prerequisites-and-setup.md)
     
 - [Skype for Business Server 2015 压力和性能工具的性能方案](scenarios.md)
     
   - [设置拓扑以在压力和性能方案中运行负载](provisioning-the-topology-to-run-load.md)
     
-  - [为 Skype for Business Server 2015 压力和性能工具配置策略](configuring-policies.md)
+  - [Configuring policies for the Skype for Business Server 2015 Stress and Performance Tool](configuring-policies.md)
     
 - [使用 Skype for Business Server 2015 压力和性能工具](using-the-tool.md)
     
-- [Skype for Business Server 2015 压力和性能工具常见问题解答](faq.md)
+- [Skype for Business Server 2015 压力和性能工具的常见问题解答](faq.md)
     
 

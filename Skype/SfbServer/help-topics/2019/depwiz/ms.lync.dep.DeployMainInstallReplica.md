@@ -1,7 +1,7 @@
 ---
 title: 安装本地配置存储
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: d9c4bcc2-11a7-4d4d-858d-224db217ad32
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要开始安装新的 Skype for Business Server 角色服务器，必须先安装将SQL Server本地配置存储的本地服务器。 本地配置存储将充当 CMS 管理中心Skype for Business Server管理 (只读) 。
-ms.openlocfilehash: 2b5ce85cbcfe907ed56c855929ed534bc755ec3e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 993eaa4e07a1b14e1ddeef11c80a15b4869b7719
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621624"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60738658"
 ---
 # <a name="install-local-configuration-store"></a>安装本地配置存储
 
@@ -28,11 +28,11 @@ ms.locfileid: "58621624"
 
 开始安装：
 
-1. 在"Skype for Business Server"页上，单击"步骤 **1： 安装本地配置存储"** 旁边的"运行 **"。**
+1. 在"Skype for Business Server"页上的"步骤 **1： 安装本地配置存储"旁边，** 单击"运行 **"。**
 
 2. 在"**本地服务器配置"** 页上，确保选中"从中央管理存储自动检索配置"选项，然后单击"下一步 **"。**
 
 3. 完成本地服务器配置安装后，单击 **“完成”**。
 
 > [!NOTE]
-> 安装本地SQL Server可能需要一些时间。 在安装更新时，你将不会在安装摘要屏幕SQL Server更新。 如果要监视安装进度，请使用任务管理器来监视SQL Server设置。
+> 安装本地SQL Server可能需要一些时间。 在安装更新时，安装摘要屏幕中不会SQL Server更新。 如果要监视安装进度，请使用任务管理器来监视SQL Server设置。

@@ -1,7 +1,7 @@
 ---
 title: 部署向导Windows更新
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: c6a280cb-1428-40b6-b761-cb649b9ff7df
 ROBOTS: NOINDEX, NOFOLLOW
 description: 有关使用部署向导安装 Skype for Business Server的详细信息，请参阅安装Skype for Business Server。
-ms.openlocfilehash: 258ce6736580f51ea70958b420b198007a8404e4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cbbf9684b3f170ffcd4daf586c75702489a6dd8b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598076"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60738498"
 ---
 # <a name="deployment-wizard-windows-update"></a>部署向导：Windows 更新
  

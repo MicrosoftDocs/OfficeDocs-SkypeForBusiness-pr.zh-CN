@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 管理培训
 ms.reviewer: ''
-description: 获取管理组织中用户所需的管理员Microsoft Teams和支持。
+description: 获取管理组织中用户所需的管理员Microsoft Teams支持。
 author: cichur
 manager: serdars
 audience: admin
@@ -19,13 +19,13 @@ f1.keywords:
 - NOCSH
 search.appverid: MET150
 ms.topic: landing-page
-ms.author: v-cichur
-ms.openlocfilehash: 4f2d6e2b096e5220c0dffd6f04103ea65fd9ce0aa77eef6f845f0b99f306b9cf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.author: v-mahoffman
+ms.openlocfilehash: a7260b3d522a3a7b06deef73eb3e262b892307b7
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54299042"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60743008"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams 管理培训
 
@@ -43,7 +43,7 @@ ms.locfileid: "54299042"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>新建：教师指导培训Teams</h3>
+                        <h3>新增：教师指导培训Teams</h3>
                     </div>
                 </div>
             </div>

@@ -1,7 +1,7 @@
 ---
 title: 客户端版本策略
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 4f84bc0f-e1df-4acb-b8ef-57f165b0153b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 可以指定环境中支持的客户端版本。 当两个不同版本的客户端交互时，其中一个客户端的可用功能会受到另一个客户端的功能的限制。
-ms.openlocfilehash: ea1fbc01f389fa76564693e959ba933ae2d2ad6f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f1ce36eacbf5ae34be1906d9105ab0adc205530a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581766"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60738458"
 ---
 # <a name="client-version-policy"></a>客户端版本策略
 

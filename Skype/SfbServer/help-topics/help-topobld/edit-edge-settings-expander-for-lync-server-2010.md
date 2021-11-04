@@ -1,7 +1,7 @@
 ---
 title: 编辑 Lync Server 2010 的边缘设置扩展器
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 74a66817-7092-4b2f-a2af-bc1a2c9e5fed
 description: 通过配置以下属性编辑边缘服务器或边缘池的设置：
-ms.openlocfilehash: b7784e15d7446a51dfa9aed03dd1154bba157485
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bb94c152fae183af3198f3fae99501ee33759bca
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635326"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765776"
 ---
 # <a name="edit-edge-settings-expander-for-lync-server-2010"></a>编辑适合于 Lync Server 2010 的边缘设置扩展器
  
@@ -35,7 +35,7 @@ ms.locfileid: "58635326"
     > [!IMPORTANT]
     > 只能为联盟主动定义一个边缘服务器或边缘池。 关联的屏幕截图中显示的配置指示已针对联盟配置了其他边缘服务器或边缘池。 联合身份验证的外部 DNS SRV 记录 (_sipfederationtls._tcp。 \<external domain name\>) 将指向联盟的边缘服务器或边缘池。 
   
-- 默认情况下 **，TCP** 端口 4443 中的内部配置复制端口 (HTTPS) 是本地 (（即中央管理存储的边缘服务器) 副本的本地）的端口。 中央管理存储的本地副本位于每台计算机的 SQL Server **RTCLOCAL** 数据库中。 复制是单向的，从中央管理服务器 (或将中央管理服务器角色) 保留到边缘服务器的前端服务器或前端池启动，是内部接口端口。
+- 默认情况下 **，TCP** 端口 4443 中的内部配置复制端口 (HTTPS) 是复制中央管理存储的边缘服务器) 副本的本地 (的端口。 中央管理存储的本地副本位于每台计算机的 SQL Server **RTCLOCAL** 数据库中。 复制是单向复制，从中央管理服务器 (或将中央管理服务器角色) 保留到边缘服务器的前端服务器或前端池启动，是内部接口端口。
     
   **下一个跃点选择**
   
@@ -53,13 +53,13 @@ ms.locfileid: "58635326"
     > [!NOTE]
     > 如果选择不选中该复选框，则必须为每个边缘服务使用单独的端口。 每个边缘服务将共享为访问边缘服务定义的 FQDN，因此将使用相同的 IP 地址。 每个边缘服务都必须通过一个不同的 IP 地址和相同的端口，或相同的 IP 地址和唯一的端口值进行唯一标识。 
   
-- 如果要 **将 A/ (V** 边缘服务配置为使用将在网络地址转换设备或 NAT) 设备隐藏的专用地址或其他地址，请选择"A/V 边缘服务已启用 NAT"。
+- 如果要将 A/V 边缘服务配置为使用将在网络地址转换 (NAT) 设备隐藏的专用地址或其他地址，请选择 **"A/V** 边缘服务已启用 NAT"。
     
 - 若要编辑访问边缘服务，请定义访问边缘服务的池 **FQDN，** 如 DNS 中由主机 (A 定义，如果使用 IPv6，则定义 AAAA（如果使用 IPv6) 记录和端口值）
     
-- 若要编辑 **Web** 会议边缘服务，请为 WEB 会议边缘服务定义一个池 **FQDN，** 如 DNS 中由主机 (A 定义，如果使用 IPv6，则定义 AAAA（如果使用) 记录和端口值）
+- 若要编辑 **Web** 会议边缘服务，请为 Web 会议边缘服务定义一个池 **FQDN，** 如 DNS 中由主机 (A 定义，如果使用 IPv6，则定义 AAAA（如果使用) 记录和端口值）
     
-- 若要编辑 **A/V** 边缘服务，请为 A/V 边缘服务定义池 **FQDN，** 如 DNS 中由主机 (A 定义，如果使用 IPv6，则定义 AAAA（如果使用 IPv6) 记录和端口值）
+- 若要编辑 **A/V** 边缘服务，请为 A/V 边缘服务定义池 **FQDN，** 如 DNS 中由主机 (A 定义，如果使用 IPv6，则定义 AAAA（如果使用) 记录和端口值）
     
     > [!IMPORTANT]
     > 如果选中了"为 Web 会议和 A/V 启用单独的 **FQDN** 和 IP 地址"复选框，则只有访问边缘服务池 FQDN 可用于编辑。 为三个边缘服务各自分配不同的端口。

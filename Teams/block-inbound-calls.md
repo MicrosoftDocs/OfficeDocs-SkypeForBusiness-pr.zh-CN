@@ -1,6 +1,6 @@
 ---
 title: 阻止传入Microsoft Teams
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.topic: article
@@ -14,16 +14,16 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 ms.custom: Learn how to use PowerShell to manage inbound call blocking.
-ms.openlocfilehash: 6388c65e5f2c8600c263153b1a943bf485670fe4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4e7e6d40173bb5917a6cf540481257b21253eeaa
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631426"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766220"
 ---
 # <a name="block-inbound-calls"></a>阻止入站呼叫
 
-Microsoft 呼叫计划、直接路由和接线员连接都支持阻止来自 PSTN 呼叫的公共 (电话) 。 此功能允许管理员在租户全局级别定义号码模式列表，以便可以针对列表检查每个传入到租户的 PSTN 呼叫的来电显示是否匹配。 如果进行了匹配，则拒绝传入呼叫。
+Microsoft 呼叫计划、直接路由和接线员连接都支持阻止来自 PSTN 呼叫的公共 (呼叫) 。 此功能允许管理员在租户全局级别定义号码模式列表，以便可以针对列表检查每个传入到租户的 PSTN 呼叫的来电显示是否匹配。 如果进行了匹配，则拒绝传入呼叫。
 
 此入站呼叫阻止功能仅适用于源自 PSTN 的入站呼叫，并且仅适用于租户全局级别。 单个Teams用户无法操作此列表。 客户端Teams允许单个用户阻止 PSTN 呼叫。 有关最终用户如何实现呼叫阻止的信息，请参阅在 Teams 中[管理呼叫设置](https://support.microsoft.com/office/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)。
 
@@ -38,7 +38,7 @@ Microsoft 呼叫计划、直接路由和接线员连接都支持阻止来自 PST
 
 使用 New-、Get-、Set-和 **Remove-CsInboundBlockedNumberPattern** cmdlet 管理数字模式。   可以使用这些 cmdlet 管理给定的模式，包括切换给定模式的激活。
 
-- [Get-CsInboundBlockedNumberPattern](/powershell/module/skype/get-csinboundblockednumberpattern) 返回添加到租户列表的所有阻止数字模式的列表，包括每个模式的名称、说明、已启用的 (True/False) 和 Pattern。
+- [Get-CsInboundBlockedNumberPattern](/powershell/module/skype/get-csinboundblockednumberpattern) 返回添加到租户列表的所有阻止数字模式的列表，包括名称、说明、已启用的 (True/False) 和每个模式。
 - [New-CsInboundBlockedNumberPattern](/powershell/module/skype/new-csinboundblockednumberpattern) 将阻止的编号模式添加到租户列表。
 - [Remove-CsInboundBlockedNumberPattern](/powershell/module/skype/remove-csinboundblockednumberpattern) 从租户列表中删除阻止的编号模式。
 - [Set-CsInboundBlockedNumberPattern](/powershell/module/skype/set-csinboundblockednumberpattern) 修改租户列表中的阻止数字模式的一个或多个参数。
@@ -52,13 +52,13 @@ Microsoft 呼叫计划、直接路由和接线员连接都支持阻止来自 PST
 
 #### <a name="block-a-number"></a>阻止号码
 
-在下面的示例中，租户管理员希望阻止来自号码范围 1 (312) 555-0000 到 1 (312) 555-9999 的所有调用。 创建数字模式，以便匹配范围中带 + 前缀的数字和范围中不带 + 前缀的数字。 无需在电话号码中包括符号和 () ，因为系统在匹配之前会剥离这些符号。  若要启用数字模式，Enabled **参数设置为** True。 若要禁用此特定数字模式，将 参数设置为 False。
+在下面的示例中，租户管理员希望阻止来自号码范围 1 (312) 555-0000 到 1 (312) 555-9999 的所有调用。 创建数字模式，以便匹配范围中带 + 前缀的数字和范围中不带 + 前缀的数字。 你不需要在电话号码中包括符号 - 和 () ，因为系统在匹配之前会剥离这些符号。  若要启用数字模式，Enabled **参数设置为** True。 若要禁用此特定数字模式，将 参数设置为 False。
 
 ```PowerShell
 New-CsInboundBlockedNumberPattern -Name "BlockRange1" -Enabled $True -Description "Block Contoso" -Pattern "^\+?1312555\d{4}$"
 ```
 
-下一示例中，租户管理员想要阻止来自 555-1234 (412) 1 的所有调用。 若要启用数字模式，Enabled **参数设置为** True。
+下一示例中，租户管理员希望阻止来自 555-1234 (412) 1 的所有调用。 若要启用数字模式，Enabled **参数设置为** True。
 
 ```PowerShell
 New-CsInboundBlockedNumberPattern -Name "BlockNumber1" -Enabled $True -Description "Block Fabrikam" -Pattern "^\+?14125551234$"
@@ -68,13 +68,13 @@ New-CsInboundBlockedNumberPattern -Name "BlockNumber1" -Enabled $True -Descripti
 
 我们建议提供一个有意义的名称，以便轻松了解添加模式的原因。 如果只是阻止垃圾邮件号码，请考虑将规则命名为与匹配的数字模式相同的规则，并根据需要在说明中添加其他信息。
 
-使用正则表达式和正则表达式 (正则表达式) 。 有关详细信息，请参阅 [使用正则表达式](#using-regex)。
+模式使用正则表达式和正则表达式 (正则表达式) 。 有关详细信息，请参阅 [使用正则表达式](#using-regex)。
 
 在测试和验证之前，请留出时间进行复制。 
 
 #### <a name="allow-a-number"></a>允许数字
 
-您可以通过删除阻止的号码模式来允许呼叫号码。 在下面的示例中，租户管理员希望允许 1 (412) 555-1234 再次进行呼叫。
+您可以通过删除阻止的号码模式来允许呼叫号码。 在下面的示例中，租户管理员希望允许 1 (412) 555-1234 再次进行调用。
 
 ```PowerShell
 Remove-CsInboundBlockedNumberPattern -Identity "BlockNumber1"
@@ -158,7 +158,7 @@ Remove-CsInboundExemptNumberPattern -Identity "AllowContoso1"
 
 使用 **Test-CsInboundBlockedNumberPattern** cmdlet 验证是否在租户中阻止了数字。
  
-**PhoneNumber** 参数是必需的，应是不带任何其他字符的数字字符串，例如 +、- 或 () 。 如果租户中阻止了该数字，则生成的 **IsNumberBlocked** 参数返回值 True;参数返回 False（如果未阻止）。
+**PhoneNumber** 参数是必需的，应为不带任何其他字符的数字字符串，例如 +、- 或 () 。 如果租户中阻止了该数字，则生成的 **IsNumberBlocked** 参数返回值 True;参数返回 False（如果未阻止）。
 
 ```powershell
 Test-CsInboundBlockedNumberPattern –Tenant <GUID> -PhoneNumber <String>

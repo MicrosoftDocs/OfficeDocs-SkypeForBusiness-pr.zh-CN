@@ -1,7 +1,7 @@
 ---
 title: 将监控存储与池中的前端池Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,17 +12,17 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d3a20d5e-3f24-4cff-bc9b-4f84fea30e6b
 description: 摘要：了解如何将前端池与前端池使用的监控Skype for Business Server。
-ms.openlocfilehash: cff7c2d7bc85916e7e79f4f78005c81f798bcbf7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7261f86e86bc06426afd0cac8ca9142ab4398fe5
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601887"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778902"
 ---
 # <a name="associate-a-monitoring-store-with-a-front-end-pool-in-skype-for-business-server"></a>将监控存储与池中的前端池Skype for Business Server 
 **摘要：** 了解如何将前端池与前端池使用的监控Skype for Business Server。
   
-在Skype for Business Server中，只能在与监控存储关联的前端池上收集监控数据，此任务通常在拓扑生成器中定义前端池时执行。
+在Skype for Business Server中，只能在与监控存储关联的前端池（通常在拓扑生成器中定义前端池时执行）上收集监控数据。
   
 ## <a name="associate-a-monitoring-store-with-a-front-end-pool"></a>将监控存储与前端池关联
 
@@ -62,7 +62,7 @@ Install-CsDatabase -LocalDatabases
 
 运行上述命令时，Install-CsDatabase将读取当前的 Skype for Business Server 拓扑，确定哪些数据库需要安装在本地计算机上，然后自动安装和配置其中每个数据库。
   
-要在远程计算机（即，没有运行命令行管理程序的计算机）上安装数据库，必须包含至少两个参数：ConfiguredDatabases 参数和 SqlServerFqdn 参数。 这些参数Install-CsDatabase cmdlet 检索 Skype for Business Server 拓扑，然后在 SqlServerFqdn 参数指定的计算机上安装和配置所需的数据库。 SqlServerFqdn 参数使用的参数值必须表示要安装数据库的计算机的完全限定域名。
+要在远程计算机（即，没有运行命令行管理程序的计算机）上安装数据库，必须包含至少两个参数：ConfiguredDatabases 参数和 SqlServerFqdn 参数。 这些参数告知 Install-CsDatabase cmdlet 检索 Skype for Business Server 拓扑，然后在 SqlServerFqdn 参数指定的计算机上安装和配置所需的数据库。 SqlServerFqdn 参数使用的参数值必须表示要安装数据库的计算机的完全限定域名。
   
 例如，以下命令在计算机 atl-sql-001.litwareinc.com 上安装监控数据库：
   
@@ -70,7 +70,7 @@ Install-CsDatabase -LocalDatabases
 Install-CsDatabase -ConfiguredDatabases -SqlServerFqdn atl-sql-001.litwareinc.com
 ```
 
-或者，您可以通过在将承载监控存储的计算机上运行 Skype for Business Server 部署向导来安装监控数据库。 为此，请登录到相应的计算机并完成以下过程：
+或者，您可以通过在将承载监控存储的计算机上运行 Skype for Business Server部署向导来安装监控数据库。 为此，请登录到相应的计算机并完成以下过程：
   
 1. 单击 **"开始**"，单击 **"所有程序**"，Skype for Business Server **2015"，** 然后单击"Skype for Business Server **部署向导"。**
     
@@ -78,7 +78,7 @@ Install-CsDatabase -ConfiguredDatabases -SqlServerFqdn atl-sql-001.litwareinc.co
     
 3. 在"**部署"** 页上的"**步骤 2： 安装或删除Skype for Business Server组件"下**，单击"**再次运行"。**
     
-4. 在"安装程序Skype for Business Server组件"向导的"安装程序 **Skype for Business Server组件"** 页上，单击"下一 **步"。**
+4. 在"安装程序Skype for Business Server组件"向导中的"安装程序 **Skype for Business Server组件"** 页上，单击"下一 **步"。**
     
 5. 在"**指定 MSIs** 的路径"页上，键入文件的路径Ocscore.msi (您的 Skype for Business Server 安装媒体中包含的文件，然后单击) 下一 **步"。**
     

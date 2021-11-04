@@ -1,7 +1,7 @@
 ---
 title: 将服务器到服务器身份验证证书分配给Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c7413954-2504-47f4-a073-44548aff1c0c
 description: 摘要：为用户分配服务器到服务器身份验证Skype for Business Server。
-ms.openlocfilehash: 67e9b618e882a257047a4569e790d96c73bf386b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b36db3956dc801d4874a13033bba60917b7112af
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621078"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60754875"
 ---
 # <a name="assign-a-server-to-server-authentication-certificate-to-skype-for-business-server"></a>将服务器到服务器身份验证证书分配给Skype for Business Server
 **摘要：** 为用户分配服务器到服务器身份验证Skype for Business Server。
@@ -46,7 +46,7 @@ $x = (Get-CsCertificate -Type Default).Thumbprint
 Set-CsCertificate -Identity global -Type OAuthTokenIssuer -Thumbprint $x
 ```
 
-在上述命令中，所检索的证书配置为用作全局服务器到服务器身份验证证书；这意味着该证书将被复制到所有前端服务器并被这些服务器使用。 再强调一次，此命令只应在其中一台前端服务器上运行一次。 尽管所有前端服务器都必须使用相同证书，但您不应在每台前端服务器上都配置 OAuthTokenIssuer 证书。 相反，配置证书一次，然后让Skype for Business Server复制服务器负责将证书复制到每台服务器。
+在上述命令中，所检索的证书配置为用作全局服务器到服务器身份验证证书；这意味着该证书将被复制到所有前端服务器并被这些服务器使用。 再强调一次，此命令只应在其中一台前端服务器上运行一次。 尽管所有前端服务器都必须使用相同证书，但您不应在每台前端服务器上都配置 OAuthTokenIssuer 证书。 相反，配置证书一次，然后让Skype for Business Server复制服务器负责将证书复制到每个服务器。
   
 该Set-CsCertificate cmdlet 获取该证书并立即配置该证书以用作当前的 OAuthTokenIssuer 证书。  (Skype for Business Server保留证书类型的两个副本：当前证书和上一个证书。) 如果需要新证书立即开始用作 OAuthTokenIssuer 证书，则应该使用 Set-CsCertificate cmdlet。
   
@@ -70,7 +70,7 @@ Set-CsCertificate -Identity global -Type OAuthTokenIssuer -Thumbprint $x -Effect
     
 2. 在部署向导中，单击 **"安装或更新Skype for Business Server系统"。**
     
-3. 在"Skype for Business Server页上，单击"步骤 3： 请求、安装或分配证书"标题 **下的"运行"按钮**。   (注意：如果已在此计算机上安装证书，则 **"** 运行"按钮将标记为"再次运行 **.)**
+3. 在"Skype for Business Server页上，单击"步骤3： 请求、安装或分配证书"标题 **下的"运行"按钮**。  (注意：如果已在此计算机上安装证书，则 **"** 运行"按钮将标记为"再次运行 **.)**
     
 4. 在证书向导中，选择 OAuthTokenIssuer 证书，然后单击“分配”。
     

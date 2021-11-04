@@ -1,7 +1,7 @@
 ---
-title: 在安全与配置中企业语音先决条件Skype for Business Server
+title: 在部署中企业语音和Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,16 +16,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 15354abe-733e-466b-bcd4-a6cfbf58caf8
 description: Summary： Learn about the security and configuration prerequisites for 企业语音 in Skype for Business Server.
-ms.openlocfilehash: 0f46de6fa8b8c2027a3828df67a0330212392e45
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 48cb415208008441f306dd0384c494149f65c4e4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617018"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778912"
 ---
-# <a name="security-and-configuration-prerequisites-for-enterprise-voice-in-skype-for-business-server"></a>在安全与配置中企业语音先决条件Skype for Business Server
+# <a name="security-and-configuration-prerequisites-for-enterprise-voice-in-skype-for-business-server"></a>在部署中企业语音和Skype for Business Server
  
-**摘要：** 了解 企业语音 中的安全Skype for Business Server。
+**摘要：** 了解 Skype for Business Server 中用于企业语音和配置Skype for Business Server。
   
 在部署企业语音，请验证基础结构是否满足以下安全性、用户配置和特定于方案的硬件先决条件。 
   
@@ -50,7 +50,7 @@ ms.locfileid: "58617018"
   
 ## <a name="user-configuration"></a>用户配置
 
-如果在前端部署期间将中介服务器与每台前端池或 Standard Edition 服务器并并，则安装这些服务器角色的文件时会自动配置 企业语音 所需的用户设置。
+如果在前端部署期间将中介服务器与每台前端池或 Standard Edition 服务器并并，则 企业语音 所需的用户设置将在安装这些服务器角色的文件期间自动配置。
   
 如果此时要执行全新的企业语音工作负荷部署，则在开始部署过程之前，为计划要对其启用企业语音的每个用户指定一个主电话号码。 作为管理员，应确保此号码是唯一的。 实施之前，所有主要电话号码都必须 (格式正确) 控制面板复制到每个用户的"线路 **URI"Skype for Business Server** 属性。
   

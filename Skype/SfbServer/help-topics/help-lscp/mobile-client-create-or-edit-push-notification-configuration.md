@@ -1,7 +1,7 @@
 ---
 title: 移动客户端创建或编辑推送通知配置
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/24/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: fb39af60-c999-42fb-9538-0bd87098f508
 description: 推送通知和推送通知交换所 (PNCH) 移动功能的主要组成部分。 推送通知是将消息发送到 PNCH 的过程。 消息将保留在此处，直到它能发往移动客户端或超时段过期为止。
-ms.openlocfilehash: eecd164c26e1787f6efb81f5b435dbadea94b550
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: af9658627f47b790e632a3af8ffbeb37ce58e73a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631746"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759754"
 ---
 # <a name="mobile-client-create-or-edit-push-notification-configuration"></a>移动客户端：创建或编辑推送通知配置
  
@@ -34,13 +34,13 @@ ms.locfileid: "58631746"
 1. **范围：** 记下此策略的范围。 它可以是 **全局**，它适用于此部署中的所有用户，或站点 **，它** 是唯一分配给指定站点中的主服务器的用户。
     
     > [!IMPORTANT]
-    > 在一个策略级别应用的策略设置可覆盖在其他策略级别应用的设置。 策略优先级为：用户策略 (影响) 站点策略，然后站点策略覆盖全局策略， (影响最小) 。 这意味着，策略设置越接近策略影响的对象，它对对象的影响就越大。 
+    > 在一个策略级别应用的策略设置可覆盖在其他策略级别应用的设置。 策略优先级为：用户策略 (站点策略) ，站点策略覆盖全局策略， (影响最小) 。 这意味着，策略设置越接近策略影响的对象，它对对象的影响就越大。 
   
 2. 通过单击以下复选框选择您要启用的推送通知服务：
     
-   - **启用 Microsoft 推送通知** 将启用推送通知到基于云的 PNCH，以便Windows Phone应用Skype for Business PNCH
+   - **启用 Microsoft 推送通知** 将启用推送通知到基于云的 PNCH，Windows Phone使用 Skype for Business 应用
     
-   - **启用 Apple 推送通知** 将为运行 Apple iOS (（例如，iPhone、iPad) 和使用 apple Skype for Business 应用）的 Apple PNCH 启用推送通知
+   - **启用 Apple** 推送通知将为运行 Apple iOS (（例如，iPhone、iPad) 和使用 apple Skype for Business 应用）的 Apple PNCH 启用推送通知
     
 3. 完成策略编辑后，单击“提交”可保存更改。如果需要删除所做的更改，请选择“取消”。将不会保存对策略的任何更改。
     

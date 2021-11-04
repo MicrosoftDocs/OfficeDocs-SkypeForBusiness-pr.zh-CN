@@ -1,7 +1,7 @@
 ---
 title: 修改现有 PIN 策略Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 517caaee-3349-4fa6-8d86-e4da3258a445
 description: 摘要：修改现有 PIN 策略Skype for Business Server。
-ms.openlocfilehash: 11ee46e092295bb43cfa54d873de8fe26fbdc0c6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: dac6540407ed019fe9147d86bc119426a6679574
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626654"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60754865"
 ---
 # <a name="modify-an-existing-pin-policy-in-skype-for-business-server"></a>修改现有 PIN 策略Skype for Business Server
  
@@ -30,7 +30,7 @@ ms.locfileid: "58626654"
   
 ### <a name="to-modify-an-existing-pin-policy"></a>修改现有 PIN 策略
 
-1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署了 Skype for Business Server 的网络内的任何计算机。
+1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 的用户帐户，或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署 Skype for Business Server 的网络内的任何计算机。
     
 2. 打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。 
     

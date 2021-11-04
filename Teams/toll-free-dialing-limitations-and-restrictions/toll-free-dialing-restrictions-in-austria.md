@@ -1,6 +1,6 @@
 ---
 title: 奥地利的免费拨号限制
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.reviewer: davlick, krkilaru
@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 这将帮助你了解如何拨打每个国家/地区的免费电话号码。 选择国家/地区后，将进入特定国家/地区页面，其中包含提供免费服务的免费服务可用性的特定详细信息、限制和限制。 拨号格式或格式显示拨打免费电话号码所需的每个国家/地区内所需的访问代码。
-ms.openlocfilehash: 873077344d366b8887fa109a86cc85af267821c0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cc658d961624bd719f2f2d1d0868c8783ce48c05
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604371"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766050"
 ---
 # <a name="toll-free-dialing-restrictions-in-austria"></a>奥地利的免费拨号限制
 
