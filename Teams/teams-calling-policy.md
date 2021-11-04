@@ -20,24 +20,24 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 60a6f78d99f6481f2c10db5467f3e7e7bad9f7fb
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: e1ed56a843fc0582c903d7b8b549ab1b97eb050a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60606951"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60783030"
 ---
 # <a name="calling-and-call-forwarding-in-teams"></a>在 Teams 中调用和呼叫Teams
 
 在Microsoft Teams，调用策略控制哪些呼叫和呼叫转发功能可供用户使用。 呼叫策略确定用户是否可以进行私人呼叫、使用呼叫转发或同时拨打其他用户或外部电话号码、将呼叫路由到语音邮件、将呼叫发送到呼叫组、对入站和出站呼叫使用委派，等等。
 
-可以使用自动创建的 (组织范围的) 策略，或者创建和分配自定义策略。
+可以使用全局策略 (组织范围的默认) 自动创建的策略，或者创建和分配自定义策略。
 
 ## <a name="create-a-custom-calling-policy"></a>创建自定义调用策略
 
 按照以下步骤创建自定义调用策略。
 
-1. 在管理中心左侧导航Microsoft Teams，转到 **"语音**  >  **呼叫策略"。**
+1. 在管理中心左侧导航Microsoft Teams，转到"**语音**  >  **呼叫策略"。**
 2. 选择“**添加**”。
 3. 打开或关闭要用于呼叫策略的功能。
 4. 若要控制用户是否可以将入站呼叫路由到语音邮件，请选择"**已启用"或**"**用户控制"。** 若要阻止路由到语音邮件，请选择"已 **禁用"。**
@@ -61,7 +61,7 @@ ms.locfileid: "60606951"
 
 ### <a name="make-private-calls"></a>拨打私人电话
 
-此设置控制所有调用Teams。 关闭此选项可关闭所有呼叫Teams。
+此设置控制 Teams 中的所有调用Teams。 关闭此选项可关闭所有呼叫Teams。
 
 ### <a name="call-forwarding-and-simultaneous-ringing-to-people-in-your-organization"></a>呼叫转发和同时拨打给您的组织中的人员
 
