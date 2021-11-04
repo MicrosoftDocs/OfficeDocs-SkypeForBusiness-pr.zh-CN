@@ -1,7 +1,7 @@
 ---
 title: 添加带有单个 FQDN 的边缘服务器页面
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,17 +15,17 @@ ms.localizationpriority: medium
 ms.assetid: 44d98453-cb41-49cd-99cb-52b6ebd2d559
 ROBOTS: NOINDEX, NOFOLLOW
 description: 边缘服务器单一 FQDN 页上的信息。
-ms.openlocfilehash: 68d7aa7ec48713818c934b88b499915a3555243a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f09f3b16fdbaca04ea1644272030d7a1b1f21669
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58614720"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745048"
 ---
 # <a name="add-edge-server-with-single-fqdn-page"></a>添加带有单个 FQDN 的边缘服务器页面
  
 边缘服务器单一 FQDN 页上的信息。
   
-有关边缘部署的信息，请参阅部署边缘[服务器Skype for Business Server](../../../deploy/deploy-edge-server/deploy-edge-server.md)
+有关边缘部署的信息，请参阅在边缘部署[中部署Skype for Business Server](../../../deploy/deploy-edge-server/deploy-edge-server.md)
   
 

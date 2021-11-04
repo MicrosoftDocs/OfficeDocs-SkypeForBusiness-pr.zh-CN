@@ -1,7 +1,7 @@
 ---
 title: 转换规则 创建新的或编辑现有的
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,18 +15,18 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: ff701979-9ea9-4ae8-a2da-91c4e1d97c25
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: a5a601dd1f1960bf2aa42d60469007920b66f515
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2e4539cc0118d279d41488942087e0bdb792dbb8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58614302"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60758374"
 ---
 # <a name="translation-rule-create-new-or-edit-existing"></a>转换规则：创建新的或编辑现有的
 
 要执行什么操作？ 单击要执行的任务的链接。
 
-- [在 2015 年 10 月创建或修改名为 ID 演示文稿Skype for Business Server规则](../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
+- [Create or modify a translation rule for called ID presentation in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
 
 - [手动创建或修改转换规则](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-translation-rule-manually)
 

@@ -1,7 +1,7 @@
 ---
 title: 在摩洛哥的可用性
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: 2e4fd12107fbca1e0d10c40b282ccb2e425b160d
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+ms.openlocfilehash: 370a31dcca0528dd3768f025c1ad090f2a20941b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60732713"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777712"
 ---
 # <a name="availability-in-algeria"></a>在摩洛哥的可用性
 
@@ -69,7 +69,7 @@ ms.locfileid: "60732713"
 |**功能**|**详细信息**|
 |:-----|:-----|
 |你可以获取哪些首都或大城市的收费电话号码？   | 非地区号码。 电话号码没有关联到特定城市或位置。 <br/> |
-|是否提供收费电话号码？  <br/> |请求请求 ([地理) ](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) <br/> |
+|是否提供收费电话号码？  <br/> |请求时 ([地理) ](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) <br/> |
 |免费电话号码是否可用？  <br/> |否  <br/> |
    
  如果要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅获取电话和[Skype for Business Microsoft Teams。](../getting-service-phone-numbers.md)

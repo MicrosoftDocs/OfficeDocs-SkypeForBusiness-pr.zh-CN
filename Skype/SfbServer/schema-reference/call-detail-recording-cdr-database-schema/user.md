@@ -1,7 +1,7 @@
 ---
 title: 用户视图
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 796f77e6-1da6-4969-b18b-3537209a1fe4
 description: 用户视图存储有关数据库中记录的呼叫或会话所涉及的用户的信息。 此视图在 Microsoft Lync Server 2013 中引入。
-ms.openlocfilehash: 59b7371336ec900d6474016bb366407d4ffb7c14
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6508bac1b40ca88429cc0504982ed9d2464ee5d2
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616378"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777732"
 ---
 # <a name="user-view"></a>用户视图
  
 用户视图存储有关数据库中记录的呼叫或会话所涉及的用户的信息。 此视图在 Microsoft Lync Server 2013 中引入。
   
-|**列**|**数据类型**|**Details**|
+|**列**|**数据类型**|**详细信息**|
 |:-----|:-----|:-----|
 |UserID  <br/> |int  <br/> |用于标识此用户的唯一编号。  <br/> |
 |UserUri  <br/> |nvarchar (450)   <br/> |用户的 URI。  <br/> |

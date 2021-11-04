@@ -1,7 +1,7 @@
 ---
 title: Skype for Business Server：修改 SIP 中继配置设置
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7d68b09c-9ea0-43bd-997c-df887869d607
 description: 摘要：了解如何使用"sip 中继"控制面板Skype for Business Server SIP 中继配置设置。
-ms.openlocfilehash: 370e6522d07461276c881798d094fa31fb71e9bb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 83cad666b07c011b2b0a23ad4d51532e52a623c5
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620118"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745348"
 ---
 # <a name="skype-for-business-server-modify-sip-trunk-configuration-settings"></a>Skype for Business Server：修改 SIP 中继配置设置 
  
@@ -63,7 +63,7 @@ SIP 中继配置设置定义中介服务器与服务提供商的公用电话交�
 > [!NOTE]
 > Lync Server CsTrunkConfiguration cmdlet 支持 Lync Server 控制面板中未显示的其他属性。 有关详细信息，请参阅 [Set-CsTrunkConfiguration](/powershell/module/skype/set-cstrunkconfiguration) cmdlet 的帮助主题。
   
-### <a name="to-modify-sip-trunk-configuration-settings-by-using-skype-for-business-server-control-panel"></a>使用控制面板修改 SIP 中继Skype for Business Server设置
+### <a name="to-modify-sip-trunk-configuration-settings-by-using-skype-for-business-server-control-panel"></a>使用"控制面板"Skype for Business Server SIP 中继配置设置
 
 1. 在Skype for Business Server控制面板"中，单击"**语音路由**"，然后单击"**中继配置"。**
     

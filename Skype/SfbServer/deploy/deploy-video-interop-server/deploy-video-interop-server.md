@@ -1,7 +1,7 @@
 ---
-title: 在部署视频互操作服务器Skype for Business Server
+title: 部署视频互操作服务器Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,19 +12,19 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: bb7d2abd-d033-4d7d-b588-6d9228c3eccf
-description: 摘要：在部署中部署 VIS Skype for Business Server。
-ms.openlocfilehash: 28461a7edc238aaa1ab671cb025151fbeff4c8db
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 摘要：在部署中部署 VIS 服务器Skype for Business Server。
+ms.openlocfilehash: 31c6638eda9ded797babf96115580d5565a1a375
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624374"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745278"
 ---
-# <a name="deploy-video-interop-server-in-skype-for-business-server"></a>在部署视频互操作服务器Skype for Business Server
+# <a name="deploy-video-interop-server-in-skype-for-business-server"></a>部署视频互操作服务器Skype for Business Server
  
 **摘要：** 部署 VIS 服务器角色Skype for Business Server。
   
-Skype for Business Server现在可以直接与 Cisco 电话会议系统 (VTC) 如 Cisco C60 或 Cisco MX300 集成。 这需要引入名为视频互操作服务器 (VIS) 的新服务器角色，并正确配置 VIS 及其将进行互操作的设备。 VTC 向现有的 Cisco 基础结构（如 Cisco 统一通信管理器 (CUCM) ）注册，在 CUCM 和 VIS 池之间使用视频 SIP 中继。
+Skype for Business Server现在可以直接与 Cisco 电话会议系统 (VTC) 如 Cisco C60 或 Cisco MX300 集成。 这需要引入名为视频互操作服务器 (VIS) 的新服务器角色，并正确配置 VIS 及其将进行互操作的设备。 VTC 向现有 Cisco 基础结构（如 Cisco 统一通信管理器 (CUCM) ）注册，在 CUCM 和 VIS 池之间使用视频 SIP 中继。
   
 ## <a name="in-this-section"></a>本节内容
 
@@ -34,13 +34,13 @@ Skype for Business Server现在可以直接与 Cisco 电话会议系统 (VTC) �
     
 - [部署 VIS 服务器角色Skype for Business Server](deploy-the-vis-server-role.md)
     
-- [配置视频互操作服务器Skype for Business Server](configure-the-vis.md)
+- [在服务器中配置视频互操作Skype for Business Server](configure-the-vis.md)
     
 - [配置 CUCM 以与 Skype for Business Server](configure-cucm-for-interoperation.md)
     
 - [配置 VTC 以与 Skype for Business Server](configure-a-vtc-for-interoperation.md)
     
-## <a name="related-sections"></a>相关章节
+## <a name="related-sections"></a>相关部分
 
 [规划视频互操作服务器Skype for Business Server](../../plan-your-deployment/video-interop-server.md)
   

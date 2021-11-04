@@ -1,7 +1,7 @@
 ---
 title: CodecDescription 表
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 3598acb8-7ea6-4748-8417-149c971c32a2
 description: CodecDescription 表可将唯一编解码器标识符映射到其相应的编解码器。 编解码器用于对传输和广播的数字信号进行编码，然后解码这些信号以进行播放。 此表在 Microsoft Lync Server 2013 中引入
-ms.openlocfilehash: cfd0953322f9cc34d90947c0d9be7ecb13cd3c33
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0f5601847458f7ce59e0cd691b573ec77605b667
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609169"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763240"
 ---
 # <a name="codecdescription-table"></a>CodecDescription 表
  
 CodecDescription 表可将唯一编解码器标识符映射到其相应的编解码器。 编解码器用于对传输和广播的数字信号进行编码，然后解码这些信号以进行播放。 此表在 Microsoft Lync Server 2013 中引入
   
-|**列**|**数据类型**|**键/索引**|**Details**|
+|**列**|**数据类型**|**键/索引**|**详细信息**|
 |:-----|:-----|:-----|:-----|
 |**CodecDescriptionKey** <br/> |smallint  <br/> |主  <br/> |分配给编解码器的唯一标识符。  <br/> |
 |**CodecDescription** <br/> |varchar (256)   <br/> |独特  <br/> |与 CodecDescriptionKey 对应的编解码器的唯一说明。  <br/> |

@@ -1,7 +1,7 @@
 ---
 title: 导入证书（简介）
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 474fac52-0b11-45dd-a211-fd2f1727238b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要导入证书，必须提供证书文件的路径。在“选择证书文件”文本框中，可以键入完整路径和文件名，也可以单击“浏览”按钮并导航到相应的路径位置和文件名（通常为 .p7b、.pfx 或 .cer 文件）。
-ms.openlocfilehash: 7d3e360ee61d1262aaec8d228c5f8833d6abd3e6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 112a8239d9bc1f48404ac0806ec176ead9480e3d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616958"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740058"
 ---
 # <a name="import-certificate-intro"></a>导入证书（简介）
  

@@ -1,7 +1,7 @@
 ---
 title: 准备架构（调用）
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -14,13 +14,13 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: f031eb6d-0749-4247-842c-c1e701027ffb
 ROBOTS: NOINDEX, NOFOLLOW
-description: "\"正在执行命令\"页显示为扩展应用程序架构而发出的Skype for Business Server。"
-ms.openlocfilehash: d02d891307c969852f6fd1f5e1dceab126383669
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: "\"正在执行命令\"页显示为扩展数据库的架构而发出的Skype for Business Server。"
+ms.openlocfilehash: 379f0890dbb9795a60a3d643f3a228fdb517c969
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598066"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60755171"
 ---
 # <a name="prepare-schema-invoke"></a>准备架构（调用）
  

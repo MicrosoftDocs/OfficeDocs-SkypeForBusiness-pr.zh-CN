@@ -5,7 +5,7 @@ ms:assetid: 736fcaad-9f95-4896-b767-e199d86a00a4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398551(v=OCS.15)
 ms:contentKeyID: 48184483
 mtps_version: v=OCS.15
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -14,17 +14,17 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-description: 如果用户已启用 Skype for Business Server，则可以通过向特定用户应用适当的策略，在 Skype for Business Server 控制面板中配置 SIP 联盟、远程用户访问和公共即时消息 (IM) 连接。
-ms.openlocfilehash: 4a5f6bfe13c27360c535957cefcfd4093b6a1bad
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 如果用户已启用 Skype for Business Server，则可以通过将相应的策略应用于特定用户，在 Skype for Business Server 控制面板中配置 SIP 联盟、远程用户访问和公共即时消息 (IM) 连接。
+ms.openlocfilehash: e0e1fd7c1597200f576ff329433eb106f1c425da
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58587016"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762460"
 ---
 # <a name="assign-an-external-user-access-policy-to-a-skype-for-business-enabled-user"></a>将外部用户访问策略分配给Skype for Business用户
 
-如果用户已启用 Skype for Business Server，则可以通过向特定用户应用适当的策略，在 Skype for Business Server 控制面板中配置 SIP 联盟、远程用户访问和公共即时消息 (IM) 连接。 例如，如果创建了支持远程用户访问的策略，则必须将其应用于用户，然后用户才能从远程位置连接到 Skype for Business Server 并与远程位置的内部用户进行协作。
+如果用户已启用 Skype for Business Server，则可以通过将相应的策略应用于特定用户，在 Skype for Business Server 控制面板中配置 SIP 联盟、远程用户访问和公共即时消息 (IM) 连接。 例如，如果创建了支持远程用户访问的策略，则必须将其应用于用户，然后用户才能从远程位置连接到 Skype for Business Server 并与远程位置的内部用户进行协作。
 
 
 > [!NOTE]  
@@ -50,9 +50,9 @@ ms.locfileid: "58587016"
 > 这些设置 **\<Automatic>** 将应用默认服务器或全局策略设置。
 
 
-## <a name="assigning-per-user-external-access-policies-by-using-windows-powershell-cmdlets"></a>使用 Per-User Cmdlet 分配Windows PowerShell外部访问策略
+## <a name="assigning-per-user-external-access-policies-by-using-windows-powershell-cmdlets"></a>使用 Per-User Cmdlet 分配外部Windows PowerShell策略
 
-每用户外部访问策略可以使用 Windows PowerShell cmdlet Grant-CsExternalAccessPolicy分配。 可以从命令行管理程序或 Skype for Business Server远程会话中运行此 cmdlet Windows PowerShell。 
+每用户外部访问策略可以使用 Windows PowerShell 和 Grant-CsExternalAccessPolicy cmdlet 进行分配。 可以从命令行管理程序或 Skype for Business Server远程会话运行此 cmdlet Windows PowerShell。 
 
 ## <a name="to-assign-a-per-user-external-access-policy-to-a-single-user"></a>将每用户外部访问策略分配给单个用户
 

@@ -1,6 +1,6 @@
 ---
 title: Skype会议室系统迁移注意事项
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: df9f33b6-0360-4354-b651-bd35da533e33
 description: 阅读本主题，了解如何在具有多个 Skype Lync Server 版本的环境中部署会议室Skype for Business Server系统。
-ms.openlocfilehash: 5a158c3f0797bb3d0377762ea2876dbe5b9d26bb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f3a26b630873bad0d3c8585486c91c7250f452e3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598156"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769730"
 ---
 # <a name="skype-room-system-migration-considerations"></a>Skype会议室系统迁移注意事项
  
@@ -25,7 +25,7 @@ ms.locfileid: "58598156"
   
 ## <a name="migration-considerations"></a>迁移注意事项
 
-如果您要在包含不同版本 Skype Lync Server 的多池环境中部署会议室系统，本节Skype for Business Server指南。 
+如果要在包含不同版本的 Skype 或 Lync Server 的多池环境中部署会议室系统，本节Skype for Business Server指南。 
   
 Lync Server 中的用户 (UR) 组件从 Active Directory 获取用户对象，然后将它们放入 Lync Server 后端 SQL Server 数据库。 只有 Lync Server 2013 中的 UR 可以Skype会议室系统对象。 以前版本的 Lync Server 和 Office Communications Server 中的 UR 不会检测指定 LRS 对象的 Active Directory 属性，因此不知道这些属性。 
   
@@ -35,7 +35,7 @@ Lync Server 中的用户 (UR) 组件从 Active Directory 获取用户对象，�
   
 - 将自动发现 SRV 记录指向 (_sipinternaltls._tcp.contoso.com) Lync Server 2013 池。
     
-- 如果第一个选项不可行，则必须手动配置 LRS，并直接在会议室系统控制台应用程序中Skype Lync Server 2013 池地址。 
+- 如果第一个选项不可行，则必须手动配置 LRS，并直接在会议室系统控制台应用程序中配置 Lync Server 2013 池地址Skype Lync Server 2013 池地址。 
     
 - 如果Skype会议室系统部署在企业网络外部，并且 Lync 边缘服务器已部署并配置为指向旧池或控制器，则需要指向 Lync Server 2013 池的辅助边缘服务器站点。 有关部署辅助边缘服务器的信息，请参阅边缘服务器部署文档。 
     
@@ -49,7 +49,7 @@ Lync Server 中的用户 (UR) 组件从 Active Directory 获取用户对象，�
     
 - 如果Skype系统客户端是演示者，则不能对参与者应用视频锁定。
     
-- Skype会议室系统无法在入站或 (出站) 显示 1080p 视频分辨率，即使 Lync Server 2013 会议策略允许，原因如下： 
+- Skype会议室系统无法显示 1080p 视频分辨率 (入站或出站) ，即使 Lync Server 2013 会议策略允许该分辨率，原因如下： 
     
   - Lync Server 2010 不支持 1080p 分辨率。
     
@@ -59,6 +59,6 @@ Lync Server 中的用户 (UR) 组件从 Active Directory 获取用户对象，�
     
 - Lync Server 2010 上托管的会议的桌面共享性能存在限制。
     
-- 用户将无法加入在 Lync 2010 上 (会议室) 的专用会议Skype会议。
+- 用户将无法通过会议室系统 (Lync 2010) 会议加入Skype会议。
     
 

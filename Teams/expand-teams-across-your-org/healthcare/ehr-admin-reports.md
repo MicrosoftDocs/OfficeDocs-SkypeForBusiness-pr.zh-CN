@@ -1,7 +1,7 @@
 ---
 title: Teams虚拟访问 - 管理员报告
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -23,18 +23,18 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: 查看 EHR 连接器Teams管理员报告
-ms.openlocfilehash: fd1b7577079c65d12fa85cc4098702cb26b2a1da
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 3a7514dec687fdd5d82928e4a2a8986b3add4eee
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730191"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769860"
 ---
 # <a name="microsoft-teams-ehr-connector-admin-reports"></a>Microsoft TeamsEHR 连接器管理员报告
 
-"Microsoft Teams EHR (连接器) 管理报告"对话框提供了使用数据的快速易读视图。
+"Microsoft Teams EHR (连接器) "管理报告"对话框提供了使用数据的快速易读视图。
 
-可以通过访问"Microsoft Teams管理中心"仪表板并查看该对话框Microsoft Teams EHR 连接器管理员报告。
+可以通过访问"Microsoft Teams管理中心"仪表板并查看Microsoft Teams查看 EHR 连接器管理员报告。
 
 从管理中心仪表板Microsoft Teams报表。
 

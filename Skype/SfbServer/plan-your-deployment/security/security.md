@@ -1,7 +1,7 @@
 ---
-title: Plan for security in Skype For Business Server
+title: 在 Skype For Business Server 中规划安全性
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,24 +13,24 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: cbc800db-35f6-45c0-b9f6-d8cee0c7e922
 description: Skype for Business Server安全内容。
-ms.openlocfilehash: 8b5aad37f50b1ea106c2dead8e2443a30c893bf2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 023ef4cb652b727e84a1130f358cdce6506931ab
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627874"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60744078"
 ---
-# <a name="plan-for-security-in-skype-for-business-server"></a>Plan for security in Skype For Business Server 
+# <a name="plan-for-security-in-skype-for-business-server"></a>在 Skype For Business Server 中规划安全性 
  
 Skype for Business Server安全内容。 
   
-此内容与安全Skype for Business Server相关。 安全性是一个非常广泛的主题。 安全性可覆盖生态系统Skype for Business Server功能以及数据库、服务和硬件。 此内容是对与安全相关的特定安全主题Skype for Business Server。
+此内容与安全Skype for Business Server相关。 安全性是一个非常广泛的主题。 安全性可覆盖生态系统Skype for Business Server数据库、服务和硬件的每种功能。 此内容是有关安全主题的特定安全主题Skype for Business Server。
   
 ## <a name="in-this-section"></a>本部分内容
 
 - [防病毒扫描排除项Skype for Business Server](antivirus.md)
     
-- [Skype for Business Server](key-security.md)
+- [安全与安全Skype for Business Server](key-security.md)
     
 - [现代日常计算中的常见安全威胁](common-threats.md)
     

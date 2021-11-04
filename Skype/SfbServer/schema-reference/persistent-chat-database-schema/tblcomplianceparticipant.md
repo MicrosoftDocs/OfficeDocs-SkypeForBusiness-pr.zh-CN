@@ -1,7 +1,7 @@
 ---
 title: tblComplianceParticipant
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 5d7e0dea-74f7-46d1-badf-b94abc8f066d
 description: tblComplianceParticipant 包含每个通道和每台服务器的当前参与者。
-ms.openlocfilehash: 8c94aab78c7f0cc9a04e849a2ad798134ff38e42
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5fbd22de596de45664ce3340e9d85ee935ba07e3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627764"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763270"
 ---
 # <a name="tblcomplianceparticipant"></a>tblComplianceParticipant
  

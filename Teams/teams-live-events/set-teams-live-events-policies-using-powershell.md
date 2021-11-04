@@ -1,7 +1,7 @@
 ---
 title: 使用 PowerShell 设置实时事件策略
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 07/10/2019
 ms.topic: article
@@ -14,20 +14,20 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
-description: 如何使用 PowerShell 在 Teams 中设置策略以控制哪些人可以在组织中保存实时事件以及事件可用功能的示例。
+description: 如何使用 PowerShell 在 Teams中设置策略的示例，以控制谁可以在组织中保存实时事件以及事件可用的功能。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: dd408ab17d91a826b0d85a6c2515e8f21013242a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0c167d29811008718b7de080e79b62da1117d118
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629174"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769790"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>使用 PowerShell 在 Microsoft Teams 中设置实时事件策略
 
-可以使用以下 cmdlet Windows PowerShell为实时事件设置和分配策略Teams： 
+可以使用以下 cmdlet Windows PowerShell为实时事件设置和分配策略设置，Teams： 
 - [Get-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/get-csteamsmeetingbroadcastpolicy?view=skype-ps)
 - [Set-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy?view=skype-ps)
 - [New-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/new-csteamsmeetingbroadcastpolicy?view=skype-ps)
@@ -146,5 +146,5 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription 
 ```
 
 ### <a name="related-topics"></a>相关主题
-- [设置 Teams 直播活动](set-up-for-teams-live-events.md)
+- [设置 Teams 实时事件](set-up-for-teams-live-events.md)
 - [Teams PowerShell 概览](../teams-powershell-overview.md)

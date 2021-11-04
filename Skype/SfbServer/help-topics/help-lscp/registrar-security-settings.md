@@ -1,7 +1,7 @@
 ---
 title: 注册器安全设置
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,18 +15,18 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: dd3c9b37-607e-445f-9e15-b6c92adcfb87
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: f613ded46091af962bdf86940a9af825753fb4d1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1542aedb161f528ad3ebabc9bf24b63045bb2807
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621348"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60744538"
 ---
 # <a name="registrar-security-settings"></a>注册器安全设置
 
 要执行什么操作？ 单击要执行的任务的链接。
 
-- [Manage Registrar configuration settings in Skype for Business Server 2015](../../manage/authentication/registrar-configuration-settings.md)
+- [在 Skype for Business Server 2015 中管理注册器配置设置](../../manage/authentication/registrar-configuration-settings.md)
 
 - [修改现有注册器](/previous-versions/office/lync-server-2013/lync-server-2013-modify-existing-registrar-configuration-settings)
 

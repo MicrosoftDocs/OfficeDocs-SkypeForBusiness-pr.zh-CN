@@ -1,7 +1,7 @@
 ---
 title: 响应组队列创建新的或编辑现有的
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: cbdde536-8668-4a08-9862-8615e8691fd7
 ROBOTS: NOINDEX, NOFOLLOW
 description: 响应组队列保留对响应组的呼叫，直到代理应答呼叫。
-ms.openlocfilehash: 194fd2f0660c4aaf8447ff692bf964719ad0b2e7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 995a2ec25184f451fe28a7f32ac9335b1b7248e3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58587716"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745218"
 ---
 # <a name="response-groups-queue-create-new-or-edit-existing"></a>响应组队列：创建新的或编辑现有的
 
@@ -40,13 +40,13 @@ ms.locfileid: "58587716"
 
 - **启用队列退出** 选中此复选框可指定呼叫者在代理应答呼叫之前等待等待的最长时段。 如果选择此选项，则还需要指定以下内容：
 
-  - **时间段的 (秒)** 选择或键入呼叫者在代理应答呼叫之前可以等待的最大秒数。
+  - **时间段（ (秒)** 选择或键入呼叫者在代理应答呼叫之前可以等待的最大秒数。
 
   - **呼叫操作** 选择在呼叫退出时发生的操作。你的选择是：
 
   - **Disconnect**
 
-  - **转发到语音邮件** 如果选择此选项，请在 **"SIP** 地址"中，键入格式为 sip： <username> @ <domainname> (例如，sip:bob@contoso.com) 。
+  - **转发到语音邮件** 如果选择此选项，请在 **"SIP** 地址"中，键入格式为 sip： 的语音邮件 (<username> @ <domainname> 例如，sip:bob@contoso.com) 。
 
   - **转发到电话号码** 如果选择此选项，请在 **"SIP** 地址"中，键入格式为 sip： (<number> @ <domainname> 例如，sip:+14255550121@contoso.com) 。
 
@@ -64,7 +64,7 @@ ms.locfileid: "58587716"
 
   - **Disconnect**
 
-  - **转发到语音邮件** 如果选择此选项，请在 **"SIP** 地址"中，键入格式为 sip： <username> @ <domainname> (例如，sip:bob@contoso.com) 。
+  - **转发到语音邮件** 如果选择此选项，请在 **"SIP** 地址"中，键入格式为 sip： 的语音邮件 (<username> @ <domainname> 例如，sip:bob@contoso.com) 。
 
   - **转发到电话号码** 如果选择此选项，请在 **"SIP** 地址"中，键入格式为 sip： (<number> @ <domainname> 例如，sip:+14255550121@contoso.com) 。
 

@@ -1,7 +1,7 @@
 ---
 title: 证书请求（SIP 域）
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/26/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 1af294a0-5aa1-40a4-b460-231dd4b2f3dc
 description: 如果基础结构和部署满足列出的条件，则应在“使用者备用名称(SAN)的 SIP 域设置”页上，选中主会话初始协议 (SIP) 域和其他任何 SIP 域对应的复选框。
-ms.openlocfilehash: 66aa84d56e16739615210660ba58617b6a088056
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6fee8a1374ef75797ae208f7f692bc6aab957d3b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596936"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60744888"
 ---
 # <a name="certificate-request-sip-domains"></a>证书请求（SIP 域）
  

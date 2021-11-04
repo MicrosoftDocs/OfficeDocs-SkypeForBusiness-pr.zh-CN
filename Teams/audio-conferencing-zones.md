@@ -1,6 +1,6 @@
 ---
 title: 音频会议的国家/地区与区域
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.reviewer: tonysmit
@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - seo-marvel-mar2020
 description: 列出音频会议的区域以及每个区域中的国家和地区。
-ms.openlocfilehash: 4723ca8cd6a0f9dc1488f2e587fa1929db8cc2a9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ed4897b00a4596d962493b58f3a1cdcb8f5964fe
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578416"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763060"
 ---
 # <a name="country-and-region-zones-for-audio-conferencing"></a>音频会议的国家/地区与区域
 

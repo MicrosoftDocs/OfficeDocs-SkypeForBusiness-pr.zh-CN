@@ -1,7 +1,7 @@
 ---
 title: 为 Microsoft Teams 采用安排服务运行状况检查
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 11/09/2018
 audience: Admin
@@ -20,16 +20,16 @@ ms.collection:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8c203096f10f3263c8e0b16a62d0d7ede004adde
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8fefb34068d85dce1d0333ff0998fe03662ebe3d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594474"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745428"
 ---
 # <a name="schedule-service-health-reviews-for-your-microsoft-teams-adoption"></a>为 Microsoft Teams 采用安排服务运行状况检查
 
-在技术实施团队的配合下，计划每月举行一次服务运行状况评审，Teams。 在这些评论中，你将分享有关以下措施的见解：
+在技术实施团队的配合下，计划每月举行一次服务运行状况Teams。 在这些评论中，你将分享有关以下措施的见解：
 
 - **服务使用情况**- 活动使用情况数据，可能包括有关服务已弃用或由于迁移到服务而减少Teams。 通常由协作服务的服务经理或产品所有者领导。
 - **服务运行状况** - 呼叫质量、会议运行状况和总体服务运行状况。 查看任何支持事件和支持人员票证级别。 安全和治理主题。 通常由信息保护和支持团队领导。 

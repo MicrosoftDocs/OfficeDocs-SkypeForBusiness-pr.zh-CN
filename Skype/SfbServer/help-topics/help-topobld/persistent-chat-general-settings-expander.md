@@ -1,7 +1,7 @@
 ---
 title: 持久聊天常规设置扩展器
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/27/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 275ee1ae-ca58-4963-bc95-523319f90d96
 description: 通过配置或定义以下属性编辑持久聊天服务器或持久聊天服务器池的常规设置：
-ms.openlocfilehash: 25208b2d4c7e4bc04e648998254406ff4e299d4f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4de31f3fd6af4dfea023d490ea849f5b58963085
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610759"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762540"
 ---
 # <a name="persistent-chat-general-settings-expander"></a>持久聊天常规设置扩展器
  
@@ -42,7 +42,7 @@ ms.locfileid: "58610759"
     
     单击“新建”以定义一个新的 SQL Server 存储和可选实例。
     
-- 如果要 **为SQL Server** 存储启用镜像，请选中"启用存储镜像SQL Server复选框。
+- 如果要 **为主SQL Server** 启用镜像，请选中"启用存储镜像SQL Server复选框。
     
     如果选择启用存储SQL Server，请从"镜像和存储"列表中选择SQL Server **实例**。
     
@@ -60,7 +60,7 @@ ms.locfileid: "58610759"
     
     单击“新建”以定义一个新的 SQL Server 存储和可选实例。
     
-- 如果要 **为SQL Server** 镜像存储启用镜像，请选中"启用SQL Server镜像"复选框。
+- 如果要 **为备份SQL Server** 镜像存储启用镜像，请选中"启用SQL Server镜像"复选框。
     
     如果选择启用备份和SQL Server镜像，请从"备份和存储镜像"列表中选择SQL Server **和实例**。
     
@@ -80,11 +80,11 @@ ms.locfileid: "58610759"
     
 - 如果要 **为合规性SQL Server** 启用镜像，请选中"启用SQL Server镜像"复选框。
     
-    如果选择启用合规性和SQL Server镜像，请从"合规性和存储镜像"SQL Server **存储和实例**。
+    如果选择启用合规性和SQL Server镜像，请从"合规性和存储镜像"列表中选择SQL Server **实例**。
     
     单击“新建”以定义一个新的 SQL Server 存储和可选实例。
     
-- 如果您希望 **合规性SQL Server** 自动故障转移，请选中"使用SQL Server镜像见证启用自动 SQL Server故障转移"复选框。
+- 如果您希望 **合规性SQL Server** 自动故障转移，请选中"使用镜像见证启用自动故障转移SQL Server复选框。
     
     如果选择启用存储镜像SQL Server启用自动故障转移，请从列表中选择存储和实例。
     
@@ -96,11 +96,11 @@ ms.locfileid: "58610759"
     
 - 如果要 **为合规性SQL Server** 启用镜像，请选中"启用SQL Server镜像"复选框。
     
-    如果选择启用合规性和SQL Server镜像，请从"备份合规性和存储镜像"列表中选择SQL Server **和实例**。
+    如果选择启用合规性和SQL Server镜像，请从"备份合规性和存储镜像"列表中选择SQL Server **实例**。
     
     单击“新建”以定义一个新的 SQL Server 存储和可选实例。
     
-- 如果您希望 **备份合规性SQL Server** 自动故障转移，请选中"使用SQL Server镜像见证启用自动 SQL Server故障转移"复选框。
+- 如果您希望 **备份合规性SQL Server** 自动故障转移，请选中"使用镜像见证启用自动故障转移SQL Server复选框。
     
     如果选择启用存储镜像SQL Server启用自动故障转移，请从列表中选择存储和实例。
     
@@ -120,4 +120,4 @@ ms.locfileid: "58610759"
   
 [将持久聊天服务器添加到 Skype for Business Server 2015 拓扑](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
   
-[在 2015 年 10 月为持久聊天服务器Skype for Business Server灾难恢复](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)
+[在 2015 年 10 月为持久聊天服务器Skype for Business Server和灾难恢复](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)

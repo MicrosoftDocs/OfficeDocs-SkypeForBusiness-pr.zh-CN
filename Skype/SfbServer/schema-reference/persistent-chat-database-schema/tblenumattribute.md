@@ -1,7 +1,7 @@
 ---
 title: tblEnumAttribute
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 17f8b87e-36a6-4f6a-8630-7c76b61a7595
 description: tblEnumAttribute 是一个硬编码表，包含用于节点表的 Visibility 和 Behavior 属性。
-ms.openlocfilehash: 7f55d99a028a7af7979394321bb543db11bb1933
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7e96b953cd7d53756dd184ae9b0e9190e9a529e0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628544"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763260"
 ---
 # <a name="tblenumattribute"></a>tblEnumAttribute
  
@@ -41,8 +41,8 @@ tblEnumAttribute 是一个硬编码表，包含用于节点表的 Visibility 和
 
 |**attributeID**|**attributeName**|
 |:-----|:-----|
-|1   <br/> |可见性。  <br/> |
-|2   <br/> |行为。  <br/> |
+|1  <br/> |可见性。  <br/> |
+|2  <br/> |行为。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

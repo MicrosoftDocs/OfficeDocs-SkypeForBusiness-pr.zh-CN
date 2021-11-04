@@ -1,7 +1,7 @@
 ---
 title: 用户或Teams反馈Skype for Business
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 03/31/2018
 ms.topic: article
@@ -16,20 +16,20 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f08760e7af5b40a063f0dd43c1b728444884bb9d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e98ec763d93609d0b5b4a37cf6fa02b71c478def
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594514"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773432"
 ---
 # <a name="user-feedback-surveys"></a>用户反馈调查 
 
-使用反馈调查捕获部署后的用户体验和见解。 问题应引起有关用户更改的及时性、培训资源有效性、支持计划就绪程度以及用户总体体验的反馈。 评估调查响应，以根据在项目 (定义的、可测量的、可实现的、相关的、有时限的 SMART) 目标进行衡量，并确定所需的任何其他操作。
+使用反馈调查捕获部署后的用户体验和见解。 问题应引起有关用户更改的及时性、培训资源有效性、支持计划就绪程度以及用户总体体验的反馈。 评估调查响应 (在项目规划期间定义的 SMART (特定、可测量、可实现、相关、有时限的) 目标，并确定所需的任何其他操作。
 
-自定义以下问题，然后将它们转移到调查工具（例如SharePoint，便于分发和分析。
+自定义以下问题，然后将它们转移到调查工具（如SharePoint，便于分发和分析。
 
-对于这些调查，*除了* 媒体电话或移动电话等设备外，新电话系统Microsoft Teams或 Skype for Business 中的呼叫功能。 对这些调查Microsoft Teams的所有引用也适用于Skype for Business。
+对于这些调查，*除了* 媒体电话或移动电话等设备外，新的电话系统Microsoft Teams或 Skype for Business 中的呼叫功能。 对这些调查Microsoft Teams的所有引用也适用于Skype for Business。
 
 指示你同意以下语句的级别，因为它与将 Teams作为手机相关。 
 

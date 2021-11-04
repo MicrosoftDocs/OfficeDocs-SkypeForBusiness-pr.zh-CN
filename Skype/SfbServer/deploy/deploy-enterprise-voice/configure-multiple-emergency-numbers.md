@@ -1,7 +1,7 @@
 ---
 title: 在呼叫中配置多个Skype for Business
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2e869df0-5fdb-4e70-bd81-cb012556eb1a
 description: 阅读本主题，了解如何在呼叫中配置多个Skype for Business Server。
-ms.openlocfilehash: 4063545f4d535d04b31291a6ad36eb5a1da971d6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c8776ed65de04e19525d1b220022f47bee58754e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612761"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769670"
 ---
 # <a name="configure-multiple-emergency-numbers-in-skype-for-business"></a>在呼叫中配置多个Skype for Business
 

@@ -1,7 +1,7 @@
 ---
 title: 云语音功能的网络设置
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: conceptual
 ms.reviewer: roykuntz
@@ -18,16 +18,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 425f453e5e1b7f90b1486aa35d09f7919e0c33b4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2165ea1e4e9732f0e840b4f0949b230f5243121d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580216"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769940"
 ---
 # <a name="network-settings-for-cloud-voice-features-in-microsoft-teams"></a>云语音功能的网络设置Microsoft Teams
 
-了解网络区域、网络站点、网络子网和受信任的 IP 地址。 这些术语和概念将在整个云语音文档中用于 [直接](location-based-routing-plan.md) 路由和动态紧急呼叫的基于位置 [的路由](configure-dynamic-emergency-calling.md)。 如果要在组织中部署这些云功能，则必须配置网络设置，以与 Microsoft Teams 中的这些功能一Microsoft Teams。
+了解网络区域、网络站点、网络子网和受信任的 IP 地址。 这些术语和概念将在整个云语音文档中用于 [直接](location-based-routing-plan.md) 路由和动态紧急呼叫的基于位置 [的路由](configure-dynamic-emergency-calling.md)。 如果要在组织中部署这些云功能，则必须配置网络设置，以在 Microsoft Teams 中使用这些Microsoft Teams。
 
 本文概述了路由和动态紧急呼叫Location-Based网络设置。 根据要部署的云语音功能，可以配置其中一些或所有设置。 有关配置这些设置的步骤，请参阅[管理](manage-your-network-topology.md)云功能的网络拓扑Teams。
 
@@ -52,7 +52,7 @@ ms.locfileid: "58580216"
 
 子网信息用于确定启动新会话时终结点所在的网络站点。 当知道会话中每一方的位置时，云语音功能可以应用该信息来确定如何处理呼叫设置或路由。
 
-对于每个网络站点，请与网络管理员合作，确定哪些 IP 子网分配给每个网络站点。 例如，可为北美区域中的纽约站点分配以下 IP 子网：172.29.80.0/23、157.57.216.0/25、172.29.91.0/23、172.29.81.0/24。 如果常在 Office 中工作的 Bob 前往纽约办公室接受培训，打开他的计算机并连接到网络，则他的计算机将获取分配给纽约四个范围之一的 IP 地址，例如 172.29.80.103。
+对于每个网络站点，请与网络管理员合作，确定哪些 IP 子网分配给每个网络站点。 例如，可为北美区域中的纽约站点分配以下 IP 子网：172.29.80.0/23、157.57.216.0/25、172.29.91.0/23、172.29.81.0/24。 如果常在 Office 中工作的 Bob 前往纽约办公室接受培训，打开他的计算机并连接到网络，则他的计算机将在分配给纽约四个范围之一（例如 172.29.80.103）中获取 IP 地址。
 
 ## <a name="trusted-ip-address"></a>受信任的 IP 地址
 

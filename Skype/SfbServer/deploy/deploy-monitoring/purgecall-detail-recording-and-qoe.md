@@ -1,7 +1,7 @@
 ---
 title: 手动清除呼叫详细信息记录和用户体验质量数据库中的Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,13 +11,13 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 3a3a965b-b861-41a4-b9a8-27184d622c17
-description: 摘要：了解如何手动清除 CDR 和 QoE 数据库中记录，Skype for Business Server。
-ms.openlocfilehash: 0307d1e11ef7b3ced4122687099be67301b00e04
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 摘要：了解如何手动清除 CDR 和用户使用的 QoE 数据库中的Skype for Business Server。
+ms.openlocfilehash: cc5cf41351992715f59e45d86d7965f256aaf8cc
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600597"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740088"
 ---
 # <a name="manually-purge-the-call-detail-recording-and-quality-of-experience-databases-in-skype-for-business-server"></a>手动清除呼叫详细信息记录和用户体验质量数据库中的Skype for Business Server
  

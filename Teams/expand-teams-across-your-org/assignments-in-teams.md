@@ -1,7 +1,7 @@
 ---
 title: Teams 的分配
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,16 +17,16 @@ ms.custom:
 - ms.teamsadmincenter.assignments.tooltip.emaildigest
 - ms.teamsadmincenter.assignments.tooltip.makecode
 - ms.teamsadmincenter.assignments.tooltip.turnitin
-description: 了解如何在 Microsoft Teams 管理中心内管理Teams 教育版。
+description: 了解如何在 Teams 教育版 Microsoft Teams 管理中心内管理Teams 教育版。
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef615924a4c449a3b2b408d929cf3d2678e4a1e6
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 1c2dbc67fdbc55c9ff2a7b2e16cb0957886de3dd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728671"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60758304"
 ---
 # <a name="assignments-in-teams-for-education"></a>Teams 教育版中的分配
 
@@ -39,22 +39,22 @@ ms.locfileid: "58728671"
 
 ## <a name="assignments-integrations-in-the-microsoft-teams-admin-center"></a>作业管理中心Microsoft Teams集成
 
-使用管理中心内的Microsoft Teams设置，您可以为您的组织内的教师及其学生打开或关闭功能。 下面是与分配相关的设置：
+使用管理中心内的Microsoft Teams设置，你可以为组织内部教师及其学生启用或关闭功能。 下面是与分配相关的设置：
 
 <a name="#bkemaildigest"> </a>
 ### <a name="weekly-guardian-email-digest"></a>每周监护人电子邮件摘要
 
 
-每个周末向家长或监护人发送监护人电子邮件。 电子邮件包含有关前一周和即将到来的一周的作业的信息。 可以使用 以下方法设置家长和监护人[学校数据同步。](/schooldatasync/parent-contact-sync)
+每个周末向家长或监护人发送监护人电子邮件。 电子邮件包含有关前一周和即将到来的一周的作业的信息。 可以使用以下方法设置家长和监护人[学校数据同步。](/schooldatasync/parent-contact-sync)
 
 1. 在 SDS 中通过家长和监护人同步导入家长联系信息。 有关如何启用家长和监护人同步的说明，请参阅 [启用家长和监护人同步](/schooldatasync/parent-contact-sync#enabling-parent-and-guardian-sync)。
 
 2. 在管理中心中Microsoft Teams"守护者设置"，因为此设置默认已关闭。 这样，教师可以每周发送摘要。
 
    > [!NOTE]
-   > 教师可以通过取消选择他们自己的个人课堂团队中的设置来选择退出摘要 (作业设置 >**家长/** 监护人电子邮件) 。
+   > 教师可以通过取消选择他们自己的个人课堂团队中的设置来选择退出摘要 ("设置 >**家长/** 监护人电子邮件") 。
 
-若要验证家长是否收到电子邮件，以下三项必须成立：
+若要验证家长是否收到电子邮件，以下三项必须为 true：
 
  - 附加到 SDS 中学生个人资料并标记为家长 _或_ 监护人 _的电子邮件地址_。 有关详细信息，请参阅 [家长和监护人同步文件格式](/schooldatasync/parent-contact-sync-file-format)。
 
@@ -111,6 +111,6 @@ MakeCode 是 Microsoft 产品，受 Microsoft[使用条款和](https://go.micros
 ### <a name="removing-assignments-and-grades"></a>删除作业和成绩
 可以使用策略Teams删除特定用户或整个租户的作业和成绩。 
 
-若要删除单个用户的作业和成绩，请转到 Teams **管理中心并** 导航到"Teams应用 **>"权限策略**"以创建新的应用权限策略定义。  创建新的策略定义时，将 Microsoft **应用** 策略设置为"阻止特定应用"并允许其他所有应用，并添加 **"** 分配"到阻止的应用程序列表。 保存新策略定义后，将其分配给相应的用户。
+若要删除单个用户的作业和成绩，请转到 Teams **管理** 中心并导航到"Teams应用 **">"权限策略**"以创建新的应用权限策略定义。  创建新的策略定义时，将 Microsoft **应用** 策略设置为"阻止特定应用"并允许其他所有应用，并添加 **"** 分配"到阻止的应用程序列表。 保存新策略定义后，将其分配给相应的用户。
 
-若要删除整个租户的作业和成绩，请转到 Teams管理中心，导航到 Teams **应用>管理应用**"，然后从应用程序列表中搜索并选择"作业"。  将"分配应用程序设置"页中的状态设置更改为 _"已阻止"。_ 
+若要删除整个租户的作业和成绩，请转到 Teams管理中心，导航到 Teams **应用>"管理应用"，** 然后从应用程序列表中搜索并选择"作业"。  将"分配应用程序设置"页中的状态设置更改为 _"已阻止"。_ 

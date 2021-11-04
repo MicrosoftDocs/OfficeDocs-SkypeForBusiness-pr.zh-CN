@@ -1,7 +1,7 @@
 ---
-title: 在邮件中删除 PIN Skype for Business Server
+title: 删除 PIN 策略Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,14 +13,14 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7c378927-2e41-418e-9721-327021bd2e45
 description: 摘要：删除用户的电话拨入式会议 PIN Skype for Business Server。
-ms.openlocfilehash: 7f2616c847787001f9b661704ef77f7c8dc08cec
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 5cc487f5d8f9e66193446922d51c4c62d94143a9
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014356"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762520"
 ---
-# <a name="delete-a-pin-policy-in-skype-for-business-server"></a>在邮件中删除 PIN Skype for Business Server
+# <a name="delete-a-pin-policy-in-skype-for-business-server"></a>删除 PIN 策略Skype for Business Server
  
 **摘要：** 删除用户的电话拨入式会议 PIN Skype for Business Server。
   
@@ -31,7 +31,7 @@ ms.locfileid: "60014356"
   
 ### <a name="to-delete-a-pin-policy-in-skype-for-business-server-control-panel"></a>在控制面板中删除 PIN Skype for Business Server
 
-1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 的用户帐户，或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署 Skype for Business Server 的网络中的任何计算机。
+1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 的用户帐户，或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署 Skype for Business Server 的网络内的任何计算机。
     
 2. 打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。  
     

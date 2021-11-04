@@ -1,7 +1,7 @@
 ---
 title: 拨号计划
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: eeb31bd9-688e-4767-a47d-6fda1a55f094
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: 9ba3b74ac35b104a3fec7f9bb172dbac35e7931c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ebcc1e248fda8447b0502ad956ae63375bcf2f4b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633786"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739628"
 ---
 # <a name="dial-plan"></a>拨号计划
 

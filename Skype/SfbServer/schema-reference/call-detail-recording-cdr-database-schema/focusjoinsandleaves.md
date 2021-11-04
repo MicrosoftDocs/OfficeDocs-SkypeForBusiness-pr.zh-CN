@@ -1,7 +1,7 @@
 ---
 title: Skype for Business Server 2015 中的 FocusJoinsAndLeaves 表
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 7/15/2015
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e6f0212c-67e9-4061-8720-d0296e855991
 description: 此表中的每条记录都包含有关一个用户加入和离开一个会议的 CDR 信息。 每次用户加入和离开会议时，此表中每个会议都由一条记录表示。
-ms.openlocfilehash: 80f4d9f93b840b4c76e28c295356ebd85cc88979
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ca5ba1776478566c57d8e5992b86db2dd300613b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632666"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777782"
 ---
 # <a name="focusjoinsandleaves-table-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的 FocusJoinsAndLeaves 表
  
 此表中的每条记录都包含有关一个用户加入和离开一个会议的 CDR 信息。 每次用户加入和离开会议时，此表中每个会议都由一条记录表示。
   
-|**列**|**数据类型**|**键/索引**|**Details**|
+|**列**|**数据类型**|**键/索引**|**详细信息**|
 |:-----|:-----|:-----|:-----|
 |**SessionIdTime** <br/> |datetime  <br/> |主、外  <br/> |会议实例的时间。 与 **SessionIdSeq** 结合使用来唯一地标识会议实例。 有关详细信息[，请参阅 Skype for Business Server 2015](conferences.md)中的 Conferences 表。 <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |主、外  <br/> |用于标识会议实例的 ID 号。 与 **SessionIdTime 结合使用** 来唯一地标识会议实例。 有关详细信息[，请参阅 Skype for Business Server 2015](conferences.md)中的 Conferences 表。 <br/> |
@@ -37,7 +37,7 @@ ms.locfileid: "58632666"
 |**UserJoinTime** <br/> |datetime  <br/> | <br/> |此用户加入会议的时间。  <br/> |
 |**UserLeaveTime** <br/> |datetime  <br/> | <br/> |此用户离开会议的时间。  <br/> |
 |**ClientVerId** <br/> |int  <br/> |Foreign  <br/> |[2015](clientversions.md)年 10 月中引用了 ClientVersions 表的用户Skype for Business Server的版本。  <br/> |
-|**UserEndpointId** <br/> |uniqueIdentifier  <br/> ||会议中使用的 (GUID) 全局唯一标识符。  <br/> 此字段在 Microsoft Lync Server 2013 中引入。  <br/> |
+|**UserEndpointId** <br/> |uniqueIdentifier  <br/> ||全局唯 (标识符) 会议中使用的终结点的 GUID。  <br/> 此字段在 Microsoft Lync Server 2013 中引入。  <br/> |
 |**LastModifiedTime** <br/> |Datetime  <br/> ||供监控服务内部使用。  <br/> 此字段是在 2015 年 Skype for Business Server引入的。  <br/> |
    
 

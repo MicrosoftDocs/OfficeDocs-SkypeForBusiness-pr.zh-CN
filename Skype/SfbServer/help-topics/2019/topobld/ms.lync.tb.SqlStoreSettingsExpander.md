@@ -1,7 +1,7 @@
 ---
 title: SQL 存储设置扩展器
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -14,23 +14,23 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: bd269d52-6f87-4433-b9b0-2b543fea845d
 ROBOTS: NOINDEX, NOFOLLOW
-description: 若要编辑数据库SQL Server属性，必须更改SQL Server数据库实例。 无法使用“编辑属性”对话框执行诸如将存档服务器数据库从一台计算机移到另一台计算机等任务。 此外，不能使用"编辑属性"对话框更改承载中央管理存储SQL Server服务器的实例。
-ms.openlocfilehash: 46fc03549c4ced4f0a3c44882eab3fcfc03e7df5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 若要编辑数据库SQL Server，必须更改SQL Server数据库实例。 无法使用“编辑属性”对话框执行诸如将存档服务器数据库从一台计算机移到另一台计算机等任务。 此外，不能使用"编辑属性"对话框更改承载中央SQL Server存储的组的实例。
+ms.openlocfilehash: 53d0092b634e102f7fd2511ff57d32fe575e886e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625374"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739688"
 ---
 # <a name="sql-store-settings-expander"></a>SQL 存储设置扩展器
  
-若要编辑数据库SQL Server属性，必须更改SQL Server数据库实例。 无法使用“编辑属性”对话框执行诸如将存档服务器数据库从一台计算机移到另一台计算机等任务。 此外，不能使用"**编辑属性"** 对话框来更改SQL Server中央管理存储的组的实例。
+若要编辑数据库SQL Server，必须更改SQL Server数据库实例。 无法使用“编辑属性”对话框执行诸如将存档服务器数据库从一台计算机移到另一台计算机等任务。 此外，不能使用"**编辑属性"** 对话框来更改SQL Server中央管理存储的组的实例。
   
 ## <a name="editing-the-properties-of-a-sql-server-database"></a>编辑数据库SQL Server属性
 
-若要更改中央SQL Server存储外的任何数据库使用的数据库的实例，请完成拓扑生成器中的以下过程：
+若要更改中央SQL Server数据库（中央管理存储）使用的数据库的实例，请完成拓扑生成器中的以下过程：
   
-### <a name="to-modify-an-instance-of-sql-server"></a>修改应用程序SQL Server
+### <a name="to-modify-an-instance-of-sql-server"></a>修改 SQL Server
 
 1. 在“SQL 存储”节点下选择相应的数据库，然后单击“编辑属性”。
     

@@ -1,7 +1,7 @@
 ---
 title: 使用 Teams 安装Microsoft Endpoint Configuration Manager
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -18,17 +18,17 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ba488c259b93b50c1acdaa835420d715455039c0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9d8344c0b8a40f39816ce3a14dc79fb66d3fd965
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607139"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60758274"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>使用 Microsoft Endpoint Configuration Manager 安装 Microsoft Teams
 
 > [!Tip]
-> 观看以下会话，了解 Windows 桌面客户端的好处、如何规划它以及如何部署它：Teams Windows[桌面客户端](https://aka.ms/teams-clients)。
+> 观看以下会话，了解 Windows 桌面客户端的好处、如何规划它以及如何部署它：Teams Windows[客户端](https://aka.ms/teams-clients)。
 
 为了使用 Microsoft Endpoint Configuration Manager 或组策略或任何第三方分发机制以进行广泛部署，Microsoft 提供了 MSI 文件（32 位和 64 位），供管理员用于将 Teams 批量部署至选定的用户或计算机。 管理员可以使用这些文件远程部署 Teams，使用户无需手动下载 Teams 应用。 部署后，对于登录至计算机上的所有用户，Teams 将会自动启用。 （你可以在安装此应用之后禁用自动启用。 [请参阅下面的](#disable-auto-launch-for-the-msi-installer)。）建议你将程序包部署至计算机，以便该计算机上的所有新用户均可从此部署中受益。
 
@@ -43,13 +43,13 @@ ms.locfileid: "58607139"
 
 **若要确保部署成功，请注意以下事项：**
 
-- 在 64 位操作系统Teams 64 位版本的操作系统。 如果尝试在 32 位操作系统上安装 64 位版本的 Teams，安装不会成功，并且当前不会收到错误消息。
+- 在 64 位操作系统Teams 64 位版本的操作系统。 如果尝试在 32 位操作系统上安装 64 位版本的 Teams，则安装不会成功，并且当前不会收到错误消息。
 
-- 如果客户租户位于 GCCH 或 DoD 云上，客户应在注册表中通过将 **CloudType** 值添加到注册表中的HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Teams密钥 **来设置** 初始终结点。 **CloudType** 的类型为 **DWORD，** 值为 (0 = 未设置，1 = 商业，2 = GCC，3 = GCCH，4 = DOD) 。 使用注册表项设置终结点会Teams连接到正确的云终结点，以与 Teams。
+- 如果客户租户位于 GCCH 或 DoD 云上，客户应在注册表中通过将 **CloudType** 值添加到注册表中的HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Teams密钥 **来设置** 初始终结点。 **CloudType** 的类型为 **DWORD，** 值为 (0 = 未设置，1 = 商业，2 = GCC，3 = GCCH，4 = DOD) 。 使用注册表项设置终结点会Teams连接到正确的云终结点，从而与 Teams。
 
 - Teams部署中也可以包含Microsoft 365 企业应用版。 有关详细信息，请参阅使用 Microsoft Teams[部署Microsoft 365 企业应用版。](/deployoffice/teams-install)
 
-- 若要详细了解如何[Microsoft Endpoint Configuration Manager，请参阅什么是 Configuration Manager？](/configmgr/core/understand/introduction)
+- 若要详细了解如何[Microsoft Endpoint Configuration Manager，请参阅什么是配置管理器？](/configmgr/core/understand/introduction)
 
 ## <a name="deployment-procedure-recommended"></a>部署过程（推荐）
 
@@ -66,7 +66,7 @@ Teams MSI 会将安装程序放置在“Program Files”中。 无论用户何�
 请勿使用 MSI 部署更新，因为当客户端从服务中检测到可用的新版本时将会自动更新。 要冲虚部署最新的安装程序，请使用下述重新部署 MSI 流程。 如果部署的是旧版的 MSI 程序包，则除了在 VDI 环境中以外，客户端将为用户自动更新（如可能）。 如果部署的是非常旧的版本，则在用户能够使用 Teams 之前，MSI 将会触发应用更新。
 
 > [!IMPORTANT]
-> 默认位置为 C：\Program Files (x86) \Teams Installer on 64 位操作系统，C：\Program Files\Teams Installer on 32 位操作系统。
+> 默认位置为 64 位操作系统上的 C：\Program Files (x86) \Teams Installer，以及 32 位操作系统上的 C：\Program Files\Teams Installer。
 > 不建议更改默认安装位置，因为这可能会中断更新流。 版本太旧最终会阻止用户访问服务。
 
 #### <a name="target-computer-requirements"></a>目标计算机要求
@@ -128,7 +128,7 @@ msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true" ALLUSERS=1
 
 当用户登录 Windows 时，Teams 已通过 MSI 安装并且启动 Teams 的快捷方式已添加至用户桌面。 在用户手动启动 Teams 之前，它不会启动。 用户手动启动 Teams 之后，无论用户何时登录，Teams 均会自动启动。
 
-请注意，这些示例还使用 **ALLUSERS=1** 参数。 设置此参数时，Teams Machine-Wide安装程序会显示在"控制面板"中的"程序和功能"中，&"应用"Windows 设置计算机所有用户的"应用和功能"中。 然后，如果所有用户Teams管理员凭据，则他们可以卸载密码。
+请注意，这些示例还使用 **ALLUSERS=1** 参数。 设置此参数时，Teams Machine-Wide"安装程序"会显示在"控制面板"中的"程序和功能"中，&的"应用"Windows 设置"功能"中显示。 然后，如果用户Teams管理员凭据，则所有用户都可以卸载密码。
 
 > [!Note]
 > 如果手动运行 MSI，请确保使用已提升的权限运行它。 即便以管理员身份而不是使用已提升的权限运行 MSI，安装程序也无法将选项配置为禁用自动启动。

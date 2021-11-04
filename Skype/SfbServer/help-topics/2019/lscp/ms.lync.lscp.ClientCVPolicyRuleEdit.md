@@ -1,7 +1,7 @@
 ---
 title: 客户端版本规则
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 6e7e94c2-1475-4334-b8da-716b24a4c255
 ROBOTS: NOINDEX, NOFOLLOW
 description: 客户端版本策略由一组客户端版本规则组成。这些规则定义在用户尝试使用特定客户端和客户端版本登录时应采取的操作。
-ms.openlocfilehash: 44f47f0281d03e63a87ce0e56ecfa1c77c516f27
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e24921156470b1a91dc9f7421913c1fa6da1ef35
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597176"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769530"
 ---
 # <a name="client-version-rule"></a>客户端版本规则
 
@@ -83,20 +83,20 @@ ms.locfileid: "58597176"
 
   - **更低或相同**
 
-- **操作** 可以指定在满足前面步骤中的条件时要执行的操作。 可以使用以下操作：
+- **操作** 可以指定在满足前面步骤中的条件时要执行的操作。 提供了以下选项：
 
   - **允许** 允许客户端登录。
 
-  - **允许和升级** 允许客户端登录并接收来自 Windows Server Update Service 或 Microsoft Update 的更新。 仅当选中用户代理“OC”时，才能进行此操作。
+  - **允许和升级** 允许客户端登录并接收来自 Windows 服务器更新服务或 Microsoft Update 的更新。 仅当选中用户代理“OC”时，才能进行此操作。
 
     > [!NOTE]
-    > 选择此操作将导致用户在下次登录时显示Skype for Business。 该通知指出有可用更新，即使更新尚未发布到 Windows Server Update Service 或 Microsoft Update。 为了避免混淆，您只应在更新可用后选择此操作。
+    > 选择此操作会导致用户在下次登录登录时显示Skype for Business。 该通知指出有可用更新，即使更新尚未发布到 Windows Server Update Service 或 Microsoft Update。 为了避免混淆，您只应在更新可用后选择此操作。
 
   - **允许使用 URL** 允许客户端登录并显示有关下载其他客户端版本位置的消息。 可以在“URL”字段中指定 URL。
 
   - **阻止** 阻止客户端登录。
 
-  - **阻止和升级** 阻止客户端登录并允许客户端接收来自 Windows Update Service 或 Microsoft Update 的更新。 仅当选中用户代理“OC”时，才能进行此操作。
+  - **阻止和升级** 阻止客户端登录并允许客户端接收来自 Windows Service 或 Microsoft Update 的更新。 仅当选中用户代理“OC”时，才能进行此操作。
 
   - **使用 URL 阻止**   阻止客户端登录并显示有关下载其他客户端版本的位置的消息。可以在“URL”字段中指定 URL。
 

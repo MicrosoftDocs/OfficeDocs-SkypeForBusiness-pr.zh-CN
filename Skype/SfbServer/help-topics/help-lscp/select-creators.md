@@ -1,7 +1,7 @@
 ---
 title: 选择创建者
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/24/2015
@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: f8d9ed6f-22ba-470e-b0b4-0da3cea5e961
-description: 正确使用类别可更轻松地创建和管理持久聊天室。 持久聊天管理员可以为每个类别定义 AllowedMembers 和 Creators，还可以定义将应用于在类别中创建的所有聊天室的默认聊天室设置和行为。 持久聊天管理员使用控制面板或 Skype for Business Server cmdlet 创建Windows PowerShell类别。
-ms.openlocfilehash: 742ec61eca055e9bf6c8d0578023da2b6553cb84
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 正确使用类别可更轻松地创建和管理持久聊天室。 持久聊天管理员可以为每个类别定义 AllowedMembers 和 Creators，还可以定义将应用于在类别中创建的所有聊天室的默认聊天室设置和行为。 持久聊天管理员使用控制面板或 Skype for Business Server cmdlet 创建和管理Windows PowerShell类别。
+ms.openlocfilehash: e3494f80864b14a3aae457f3a2c808690df52c77
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609399"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739518"
 ---
 # <a name="select-creators"></a>选择创建者
 
-正确使用类别可更轻松地创建和管理持久聊天室。 持久聊天管理员可以为每个类别定义 **AllowedMembers** 和 **Creators，** 还可以定义将应用于在类别中创建的所有聊天室的默认聊天室设置和行为。 持久聊天管理员使用控制面板或 Skype for Business Server cmdlet 创建Windows PowerShell类别。
+正确使用类别可更轻松地创建和管理持久聊天室。 持久聊天管理员可以为每个类别定义 **AllowedMembers** 和 **Creators，** 还可以定义将应用于在类别中创建的所有聊天室的默认聊天室设置和行为。 持久聊天管理员使用控制面板或 Skype for Business Server cmdlet 创建和管理Windows PowerShell类别。
 
 ## <a name="tasks-that-you-can-perform"></a>可执行的任务
 

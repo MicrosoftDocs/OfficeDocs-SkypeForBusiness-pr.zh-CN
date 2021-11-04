@@ -1,7 +1,7 @@
 ---
 title: 客户端版本规则
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/23/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 6e7e94c2-1475-4334-b8da-716b24a4c255
 description: 客户端版本策略由一组客户端版本规则组成。这些规则定义在用户尝试使用特定客户端和客户端版本登录时应采取的操作。
-ms.openlocfilehash: 5f952c1a1c04e98a2635876d3746e828a086daf9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 91026c625e2fde1bafe99a1b3ffd8a669130fc70
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609539"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60758504"
 ---
 # <a name="client-version-rule"></a>客户端版本规则
 
@@ -83,7 +83,7 @@ ms.locfileid: "58609539"
 
   - **更低或相同**
 
-- **操作** 可以指定在满足前面步骤中的条件时要执行的操作。 可以使用以下操作：
+- **操作** 可以指定在满足前面步骤中的条件时要执行的操作。 提供了以下选项：
 
   - **允许** 允许客户端登录。
 
@@ -96,7 +96,7 @@ ms.locfileid: "58609539"
 
   - **阻止** 阻止客户端登录。
 
-  - **阻止和升级** 阻止客户端登录并允许客户端接收来自 Windows Update Service 或 Microsoft Update 的更新。 仅当选中用户代理“OC”时，才能进行此操作。
+  - **阻止和升级** 阻止客户端登录并允许客户端接收来自 Windows Service 或 Microsoft Update 的更新。 仅当选中用户代理“OC”时，才能进行此操作。
 
   - **使用 URL 阻止**   阻止客户端登录并显示有关下载其他客户端版本的位置的消息。可以在“URL”字段中指定 URL。
 
