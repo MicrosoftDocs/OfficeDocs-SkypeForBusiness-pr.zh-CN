@@ -1,7 +1,7 @@
 ---
 title: 在 Skype for Business Server 中的后端服务器上部署 Always On 可用性Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,16 +13,16 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c93c01e6-626c-40ad-92dd-373b0fe9189f
 description: 部署 (部署) 部署中的 Always On 可用性Skype for Business Server组。
-ms.openlocfilehash: 72bd60e102bfa121e2b8f7704032f54242aee202
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 69a7627850da06a2a120c0c37fbf83f87c17c277
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620478"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60755641"
 ---
 # <a name="deploy-an-always-on-availability-group-on-a-back-end-server-in-skype-for-business-server"></a>在 Skype for Business Server 中的后端服务器上部署 Always On 可用性Skype for Business Server
  
-部署 (部署) 部署中的 Always On 可用性 (AG) 安装Skype for Business Server。
+在 (部署) Always On 可用性组 (AG) 部署Skype for Business Server安装。
   
 如何部署 AG 取决于是将其部署到新池、使用镜像的现有池还是当前对后端数据库没有高可用性的现有池。
   
@@ -76,7 +76,7 @@ ms.locfileid: "58620478"
     
 4. 建议您将群集仲裁设置配置为使用文件共享见证。 为此，请使用以下步骤：
     
-   - 右键单击群集名称，单击"更多 **操作**"，然后单击"配置群集 **仲裁设置"。**
+   - 右键单击群集名称，单击"更多 **操作**"，然后单击"配置群集仲裁 **设置"。**
     
    - 在"**选择仲裁配置选项"页** 中，单击 **"选择仲裁见证"。**
     
@@ -86,13 +86,13 @@ ms.locfileid: "58620478"
     
    - 在" **确认**"页上单击" **下一步**"。
     
-5. 在群集中的每台服务器上，在 SQL Server 配置管理器 中启用 AG 功能。
+5. 在群集中的每台服务器上，在群集中启用 AG SQL Server 配置管理器。
     
    - 打开 SQL Server 配置管理器。 在屏幕左侧的树中，单击"SQL Server **服务"，** 然后双击"SQL Server服务"。 
     
    - 在" **属性"** 框中，选择 **"AlwaysOn 高可用性"** 选项卡。选中" **启用 AlwaysOn 可用性组** "复选框。 当系统SQL Server重新启动服务。
    
-6. 使用拓扑生成器创建前端池，如在拓扑结构创建和发布[Skype for Business Server。](../../deploy/install/create-and-publish-new-topology.md) 这样做时，请指定 AG SQL池的存储区。
+6. 使用拓扑生成器创建前端池，如在拓扑中创建新拓扑[Skype for Business Server。](../../deploy/install/create-and-publish-new-topology.md) 这样做时，请指定 AG SQL池的存储区。
     
 7. 创建可用性组。
     
@@ -106,7 +106,7 @@ ms.locfileid: "58620478"
     
    - 在"选择数据库"页中，选择要包括在 AlwaysOn 可用性组的数据库。 然后单击 **下一步**。
     
-     不要将 **ReportServer、ReportServerTempDB** 或持久聊天数据库包括在 AlwaysOn 可用性组中，因为此方案不支持这些数据库。  可以将所有其他数据库Skype for Business Server AlwaysOn 可用性组中。
+     请勿将 **ReportServer、ReportServerTempDB** 或持久聊天数据库包括在 AlwaysOn 可用性组中，因为此方案不支持这些数据库。  可以将所有其他数据库Skype for Business Server AlwaysOn 可用性组中。
     
    - 在"**指定副本"** 页中，单击 **"副本"** 选项卡。然后单击"**添加副本**"按钮，并连接到作为 SQL 服务器故障转移群集的节点加入的其他 Windows 实例。
     
@@ -118,7 +118,7 @@ ms.locfileid: "58620478"
     
    - 单击 **"添加**"，然后在 **"IPv4** 地址"框中，提供首选的虚拟 IP 地址，然后单击"确定 **"。**
     
-   - 在"**选择初始** 数据同步"页中，选择"完全"，并指定副本可访问的文件夹，并且这两个副本使用的 SQL Server 服务帐户具有其写入权限。 然后单击 **下一步**。
+   - 在"**选择初始** 数据同步"页中，选择"完全"，并指定副本可访问的文件夹，以及这两个副本使用的 SQL Server 服务帐户具有其写入权限的文件夹。 然后单击 **下一步**。
     
      初始化数据库时，将临时使用此文件共享。 如果要处理大型数据库，建议您手动初始化它们，以防网络带宽无法容纳数据库备份的大小。
     
@@ -130,27 +130,27 @@ ms.locfileid: "58620478"
     
    - 打开拓扑生成器，选择 **"从现有部署下载拓扑"，** 然后单击"确定 **"。**
     
-   - 展开Skype for Business Server、展开拓扑和SQL Server **Stores"。** 右键单击SQL AlwaysOn 可用性组的新存储，然后单击编辑 **属性**。
+   - 展开Skype for Business Server，展开拓扑，然后展开SQL Server **存储"。** 右键单击SQL AlwaysOn 可用性组的新存储，然后单击编辑 **属性**。
     
-     - 在页面底部的 **"FQDN SQL Server"** 框中，将值更改为 AG 的侦听器的 FQDN。
+     - 在页面底部的 **"FQDN SQL Server，** 将值更改为 AG 的侦听器的 FQDN。
     
    - 发布拓扑。 从"**操作"菜单中**，单击 **"拓扑"，** 然后单击"**发布"。** 然后在确认页中，单击"下一 **步"。** 然后等待几分钟，以便复制新拓扑。
     
    - 打开SQL Server Management Studio，然后导航到 AG。 故障转移到辅助副本。
     
-   - 打开Skype for Business Server命令行管理程序并键入以下 cmdlet 以在此SQL上创建登录名：
+   - 打开Skype for Business Server命令行管理程序，并键入以下 cmdlet 以在此SQL上创建登录名：
     
    ```powershell
    Install-CsDatabase -Update
    ```
 
-   - 重复上述两个步骤 (将组故障转移到辅助副本，然后对) 中每个  `Install-CsDatabase -Update` 副本使用上述步骤。
+   - 重复上述两个步骤 (将组故障转移到辅助副本，然后对) 副本使用  `Install-CsDatabase -Update` 上述步骤。
     
 ## <a name="deploy-an-always-on-availability-group-on-an-existing-pool-that-uses-database-mirroring"></a>在使用数据库镜像的现有池上部署 Always On 可用性组
 <a name="BKMK_MirroredPool_CreateAlwaysOnGroup"> </a>
 
 > [!NOTE]
-> 如果要升级到 AG 的池承载组织的中央管理存储，则必须先将 CMS 移动到另一个池，然后才能升级此池。 使用 Move-CsManagementServer cmdlet 移动池。 如果组织中没有其他池，可以在将池升级到 AG 之前Standard Edition部署一台 Standard Edition 服务器，将 CMS 移动到该服务器。 
+> 如果要升级到 AG 的池承载组织的中央管理存储，则必须先将 CMS 移动到另一个池，然后才能升级此池。 使用 Move-CsManagementServer cmdlet 移动池。 如果组织中没有其他池，可以在将池升级到 AG 之前临时部署 Standard Edition 服务器，将 CMS 移动到该服务器。 
   
 1. 通过打开命令行管理程序并键入以下 cmdlet，将镜像Skype for Business Server故障转移到主体节点。
     
@@ -166,9 +166,9 @@ ms.locfileid: "58620478"
 
 2. 使用拓扑生成器从池中删除数据库镜像。
     
-   - 打开拓扑生成器。 在拓扑中，展开Enterprise Edition前端 **池"，** 右键单击池的名称，然后单击"编辑 **属性"。**
+   - 打开拓扑生成器。 在拓扑中，展开Enterprise Edition前端池 **"，** 右键单击池的名称，然后单击"编辑 **属性"。**
     
-   - 对于池中的SQL类型的存储，清除"启用SQL **存储镜像**"复选框。
+   - 对于池中的SQL类型，清除"启用SQL **存储镜像**"复选框。
     
 3. 发布更改的拓扑。 从"**操作"菜单中**，单击 **"拓扑"，** 然后单击"**发布"。** 然后在确认页中，单击"下 **一步"**
     
@@ -202,7 +202,7 @@ ms.locfileid: "58620478"
     
      向导可能会报告多个警告，尤其是在您没有使用共享存储时。 无需使用共享存储。 但是，如果看到任何 **错误消息** ，则必须修复这些问题，然后才能继续。
     
-7. 创建 Windows 服务器故障转移群集。
+7. 创建Windows服务器故障转移群集。
     
    - 在故障转移 **群集管理向导** 中，右键单击 **故障转移群集管理**，然后单击创建 **群集**。
     
@@ -226,7 +226,7 @@ ms.locfileid: "58620478"
     
    - 在" **确认**"页上单击" **下一步**"。
     
-9. 在群集中的每台服务器上，在 SQL Server 配置管理器 中启用 AG 功能。
+9. 在群集中的每台服务器上，在群集中启用 AG SQL Server 配置管理器。
     
    - 打开 SQL Server 配置管理器。 在屏幕左侧的树中，单击"SQL Server **服务"，** 然后双击"SQL Server服务"。 
     
@@ -244,7 +244,7 @@ ms.locfileid: "58620478"
     
     - 在"选择数据库"页中，选择要包括在 AlwaysOn 可用性组的数据库。 然后单击 **下一步**。
     
-    不要将 **ReportServer、ReportServerTempDB** 或持久聊天数据库包括在 AlwaysOn 可用性组中，因为此方案不支持这些数据库。  可以将所有其他数据库Skype for Business Server AlwaysOn 可用性组中。
+    请勿将 **ReportServer、ReportServerTempDB** 或持久聊天数据库包括在 AlwaysOn 可用性组中，因为此方案不支持这些数据库。  可以将所有其他数据库Skype for Business Server AlwaysOn 可用性组中。
     
     - 在"**指定副本"** 页中，单击 **"副本"** 选项卡。然后单击"**添加副本**"按钮，并连接到作为 SQL 服务器故障转移群集的节点加入的其他 Windows 实例。
     
@@ -256,7 +256,7 @@ ms.locfileid: "58620478"
     
     - 单击 **"添加**"，然后在 **"IPv4** 地址"框中，提供首选的虚拟 IP 地址，然后单击"确定 **"。**
     
-    - 在"**选择初始** 数据同步"页中，选择"完全"，并指定副本可访问的文件夹，并且这两个副本使用的 SQL Server 服务帐户具有其写入权限。 然后单击 **下一步**。
+    - 在"**选择初始** 数据同步"页中，选择"完全"，并指定副本可访问的文件夹，并且两个副本使用的 SQL Server 服务帐户具有其写入权限。 然后单击 **下一步**。
     
     初始化数据库时，将临时使用此文件共享。 如果要处理大型数据库，建议您手动初始化它们，以防网络带宽无法容纳数据库备份的大小。
     
@@ -266,7 +266,7 @@ ms.locfileid: "58620478"
     
 11. 创建一个新存储，指定 AG 侦听器，并指定旧镜像的主体作为 AG 的主节点。
     
-    - 打开拓扑生成器。 在拓扑中，展开"**共享组件**"，右键单击SQL Server **存储"，** 然后单击"新建SQL Server **存储"。**
+    - 打开拓扑生成器。 在拓扑中，展开"**共享组件**"，右键SQL Server **存储"，** 然后单击"新建SQL Server **存储"。**
     
     - 在"**定义** SQL存储"页中，首先选中"高可用性设置"复选框，然后确保"SQL AlwaysOn 可用性组"出现在下拉框中。 
     
@@ -278,17 +278,17 @@ ms.locfileid: "58620478"
     
     - 在拓扑生成器中，右键单击要与 AG 关联的池，然后单击"编辑 **属性"。**
     
-    - 在 **"关联"** 下的"SQL Server **应用商店"** 框中，选择 AG。 为池中要移动到 AG 的其他任何数据库选择同一组。
+    - 在 **"关联"** 下的 **"SQL Server应用商店"** 框中，选择 AG。 为池中要移动到 AG 的其他任何数据库选择同一组。
     
     - 当您确定所有所需的数据库都设置为 AG 时，单击"确定 **"。**
     
 13. 发布拓扑。 从"**操作"菜单中**，单击 **"拓扑"，** 然后单击"**发布"。** 然后在确认页中，单击"下一 **步"。**
     
-14. 执行一些最终步骤，以确保SQL登录名位于 AlwaysOn 可用性组的每个副本上。
+14. 执行最后一些步骤，确保SQL登录名位于 AlwaysOn 可用性组的每个副本上。
     
     - 打开拓扑生成器，选择 **"从现有部署下载拓扑"，** 然后单击"确定 **"。**
     
-    - 展开Skype for Business Server，展开拓扑，然后展开SQL Server **Stores"**。 右键单击SQL AG 的应用商店，然后单击"**编辑属性"。**
+    - 展开Skype for Business Server，展开拓扑，然后展开SQL Server **Stores"**。 右键单击SQL AG 的应用商店，然后单击"编辑 **属性"。**
     
     - 在页面底部的 **"FQDN SQL Server"** 框中，将值更改为 AG 的侦听器的 FQDN。
     
@@ -302,13 +302,13 @@ ms.locfileid: "58620478"
     Install-CsDatabase -Update
     ```
 
-    - 重复上述两个步骤 (将组故障转移到辅助副本，然后对) 中每个  `Install-CsDatabase -Update` 副本使用上述步骤。
+    - 重复上述两个步骤 (将组故障转移到辅助副本，然后对) 副本使用  `Install-CsDatabase -Update` 上述步骤。
     
 ## <a name="deploy-an-always-on-availability-group-on-an-existing-pool-that-does-not-use-database-mirroring"></a>在不使用数据库镜像的现有池上部署 Always On 可用性组
 <a name="BKMK_NoHAPool_CreateAlwaysOnGroup"> </a>
 
 > [!NOTE]
-> 如果要升级到 AG 的池承载组织的中央管理存储，则必须先将 CMS 移动到另一个池，然后才能升级此池。 使用 Move-CsManagementServer cmdlet 移动池。 如果组织中没有其他池，可以在将池升级到 AG 之前Standard Edition部署一台 Standard Edition 服务器，将 CMS 移动到该服务器。 
+> 如果要升级到 AG 的池承载组织的中央管理存储，则必须先将 CMS 移动到另一个池，然后才能升级此池。 使用 Move-CsManagementServer cmdlet 移动池。 如果组织中没有其他池，可以在将池升级到 AG 之前临时部署 Standard Edition 服务器，将 CMS 移动到该服务器。 
   
 1. 在将成为 AG 一部分的所有数据库服务器上设置故障转移群集功能。 在每台服务器上，执行以下操作
     
@@ -336,7 +336,7 @@ ms.locfileid: "58620478"
     
 3. 使用 WSFC Windows创建 (服务器故障转移) 。
     
-   - 在故障转移 **群集管理向导** 中，右键单击 **故障转移群集管理**，然后单击创建 **群集**。
+   - 在"**故障转移群集管理**"向导中，右键单击"**故障转移群集管理"，** 然后单击"**创建群集"。**
     
    - 在“开始之前”页中，单击“下一步”。
     
@@ -348,7 +348,7 @@ ms.locfileid: "58620478"
     
 4. 建议您将群集仲裁设置配置为使用文件共享见证。 为此，请使用以下步骤：
     
-   - 右键单击群集名称，单击"更多 **操作**"，然后单击"配置群集 **仲裁设置"。**
+   - 右键单击群集名称，单击"更多 **操作**"，然后单击"配置群集仲裁 **设置"。**
     
    - 在"**选择仲裁配置选项"页** 中，单击 **"选择仲裁见证"。**
     
@@ -388,7 +388,7 @@ ms.locfileid: "58620478"
     
    - 单击 **"添加**"，然后在 **"IPv4** 地址"框中，提供首选的虚拟 IP 地址，然后单击"确定 **"。**
     
-   - 在"**选择初始** 数据同步"页中，选择"完全"，并指定副本可访问的文件夹，并且这两个副本使用的 SQL Server 服务帐户具有其写入权限。 然后单击 **下一步**。
+   - 在"**选择初始** 数据同步"页中，选择"完全"，并指定副本可访问的文件夹，并且两个副本使用的 SQL Server 服务帐户具有其写入权限。 然后单击 **下一步**。
     
      初始化数据库时，将临时使用此文件共享。 如果要处理大型数据库，建议您手动初始化它们，以防网络带宽无法容纳数据库备份的大小。
     
@@ -398,7 +398,7 @@ ms.locfileid: "58620478"
     
 7. 创建指定 AG 侦听器的新存储区。
     
-   - 打开拓扑生成器。 在拓扑中，展开"**共享组件**"，右键单击SQL Server **存储"，** 然后单击"新建SQL Server **存储"。**
+   - 打开拓扑生成器。 在拓扑中，展开"**共享组件**"，右键SQL Server **存储"，** 然后单击"新建SQL Server **存储"。**
     
    - 在"**定义** SQL存储"页中，首先选中"高可用性设置"复选框，然后确保"SQL AlwaysOn 可用性组"出现在下拉框中。 
     
@@ -410,17 +410,17 @@ ms.locfileid: "58620478"
     
    - 在拓扑生成器中，右键单击要与 AG 关联的池，然后单击"编辑 **属性"。**
     
-   - 在 **"关联"** 下的"SQL Server **应用商店"** 框中，选择 AG。 为池中要移动到 AG 的其他任何数据库选择同一组。
+   - 在 **"关联"****下的"SQL Server应用商店"** 框中，选择 AG。 为池中要移动到 AG 的其他任何数据库选择同一组。
     
    - 当您确定所有所需的数据库都设置为 AG 时，单击"确定 **"。**
     
 9. 发布拓扑。 从"**操作"菜单中**，单击 **"拓扑"，** 然后单击"**发布"。** 然后在确认页中，单击"下一 **步"。**
     
-10. 执行最后一些步骤，确保SQL登录名位于 AG 的每个副本上。
+10. 执行最后一些步骤，确保SQL登录名位于 AG 中的每个副本上。
     
     - 打开拓扑生成器，选择 **"从现有部署下载拓扑"，** 然后单击"确定 **"。**
     
-    - 展开Skype for Business Server，展开拓扑，然后展开SQL Server **Stores"**。 右键单击SQL AG 的应用商店，然后单击"**编辑属性"。**
+    - 展开Skype for Business Server、展开拓扑和SQL Server **存储"。** 右键单击SQL AG 的应用商店，然后单击"编辑 **属性"。**
     
     - 在页面底部的 **"FQDN SQL Server"** 框中，将值更改为 AG 的侦听器的 FQDN。
     
@@ -434,4 +434,4 @@ ms.locfileid: "58620478"
       Install-CsDatabase -Update
       ```
 
-      - 重复上述两个步骤 (将组故障转移到辅助副本，然后对) 中每个  `Install-CsDatabase -Update` 副本使用上述步骤。
+      - 重复上述两个步骤 (将组故障转移到辅助副本，然后对) 副本使用  `Install-CsDatabase -Update` 上述步骤。

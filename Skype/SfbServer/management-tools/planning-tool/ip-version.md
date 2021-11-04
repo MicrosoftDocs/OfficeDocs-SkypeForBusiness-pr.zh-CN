@@ -1,7 +1,7 @@
 ---
 title: IP 版本规划工具
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/6/2016
@@ -13,13 +13,13 @@ f1.keywords:
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: df92d228-de60-4025-b249-ad957130ef7b
-description: 在 Skype for Business Server 2015 中配置 IP 地址时，有三个选项：可以将 Skype for Business Server 2015 配置为仅支持 IP 版本 4 (IPv4) 、仅支持 IP 版本 6 (IPv6)  (或支持两者的组合（称为双协议栈) ）。
-ms.openlocfilehash: 0140abac90377c9658ca6de29a8429ca1296539e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 在 Skype for Business Server 2015 中配置 IP 地址时，有三个选项：可以将 Skype for Business Server 2015 配置为仅支持 IP 版本 4 (IPv4) 、仅支持 IP 版本 6 (IPv6) 或支持两种 (的组合（称为双协议栈) ）。
+ms.openlocfilehash: c239858aef79c648a8dca45cc488978d02da65c2
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617758"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60756859"
 ---
 # <a name="ip-version-planning-tool"></a>IP 版本规划工具
  

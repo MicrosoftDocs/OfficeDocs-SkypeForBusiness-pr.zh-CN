@@ -1,7 +1,7 @@
 ---
 title: 前端常规设置扩展器
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 8a5f21d0-f6c8-4907-9958-5ca36f702542
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要编辑现有前端池或 Standard Edition Server 的设置，可参考以下各节内容：
-ms.openlocfilehash: 2501ad035950582b67167089972c7d84f25be052
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 655ee2e4bd49e63aaeade7b0c0bfab5f244adae9
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628994"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748518"
 ---
 # <a name="front-end-general-settings-expander"></a>前端常规设置扩展器
 
@@ -103,7 +103,7 @@ ms.locfileid: "58628994"
 对于“内部 Web 服务”，请指定以下内容：
 
 > [!CAUTION]
-> 如果您具有多个前端池或前端服务器，则外部 Web 服务 FQDN 必须是唯一的。 例如，如果将前端服务器的外部 Web 服务 FQDN 定义为 **pool01.contoso.com，** 则不能将 **pool01.contoso.com** 用于另一个前端池或前端服务器。 如果还要部署控制器，则为任何控制器或控制器池定义的外部 Web 服务 FQDN 必须与任何其他控制器或控制器池以及任何前端池或前端服务器具有唯一性。 如果您决定使用自定义的 FQDN 覆盖内部 Web 服务，则每个 FQDN 都必须与任何其他前端池、控制器或控制器池是唯一的。
+> 如果您具有多个前端池或前端服务器，则外部 Web 服务 FQDN 必须是唯一的。 例如，如果将前端服务器的外部 Web 服务 FQDN 定义为 **pool01.contoso.com，** 则不能将 pool01.contoso.com 用于另一个前端池或前端服务器。 如果还要部署控制器，则为任何控制器或控制器池定义的外部 Web 服务 FQDN 必须与任何其他控制器或控制器池以及任何前端池或前端服务器具有唯一性。 如果您决定使用自定义的 FQDN 覆盖内部 Web 服务，则每个 FQDN 都必须与任何其他前端池、控制器或控制器池是唯一的。
 
 - 如果选择“覆盖 FQDN”，则可以为池上的“内部 Web 服务”标识指定不同的 FQDN。默认情况下，该设置是为前端池定义的当前池名称。
 

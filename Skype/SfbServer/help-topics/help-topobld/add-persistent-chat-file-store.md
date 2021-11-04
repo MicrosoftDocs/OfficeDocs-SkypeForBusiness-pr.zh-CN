@@ -1,7 +1,7 @@
 ---
 title: 添加持久聊天文件存储
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/8/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e1068706-ff61-4a98-8e51-4202111d936a
 description: 必须为 Standard Edition Server 或 Enterprise Edition 前端池指定用作文件存储的文件共享。可以将现有的文件共享用作文件存储，也可以通过指定文件共享所在的文件服务器的完全限定域名 (FQDN) 和新文件共享的文件夹名称来指定新的文件共享。
-ms.openlocfilehash: 17ef0ff681b3a583c9423c5ea693f88b35db904d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d061ff6e3bd084fef4ebf80c84c5e14a127afa91
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615738"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60747828"
 ---
 # <a name="add-persistent-chat-file-store"></a>添加持久聊天文件存储
  

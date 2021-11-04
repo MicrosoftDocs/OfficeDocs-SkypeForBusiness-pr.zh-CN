@@ -1,7 +1,7 @@
 ---
 title: 部署配对的前端池，以在 Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 2f12467c-8b90-43e6-831b-a0b096427f17
 description: 您可以决定使用配对的前端池来提供灾难恢复保护，但这不是一项要求。
-ms.openlocfilehash: 9c56ad7a0af5b50f4843a84205c48a11a9177a47
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9aec106905b2d8628e30461dce130f301aef1b25
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608569"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741328"
 ---
 # <a name="deploy-paired-front-end-pools-for-disaster-recovery-in-skype-for-business-server"></a>部署配对的前端池，以在 Skype for Business Server
  

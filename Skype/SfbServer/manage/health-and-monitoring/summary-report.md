@@ -1,7 +1,7 @@
 ---
 title: 呼叫诊断摘要报告Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9091de56-13e6-440e-9353-f57c10c906fe
 description: 摘要：了解呼叫诊断摘要报告Skype for Business Server。
-ms.openlocfilehash: b3da3315566db66876329ab257ff6fa8d78f81b3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 88537a3f52679883fb5cf051a28d2c0c42294d16
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585076"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60757294"
 ---
 # <a name="call-diagnostic-summary-report-in-skype-for-business-server"></a>呼叫诊断摘要报告Skype for Business Server
  
-**摘要：** 了解呼叫诊断摘要报告在 Skype for Business Server。
+**摘要：** 了解呼叫诊断摘要报告Skype for Business Server。
   
 呼叫诊断摘要报告提供失败的点对点会话和会议会话的整体情况。该报告显示了两种类型的会话的整体故障率，并按以下会话形式类型进一步为故障信息分类：
   
@@ -37,7 +37,7 @@ ms.locfileid: "58585076"
     
 ## <a name="accessing-the-call-diagnostic-summary-report"></a>访问呼叫诊断摘要报告
 
-呼叫诊断摘要报告是从监控报告主页访问的。 从呼叫诊断摘要报告中，可以通过单击报告的点对点会话摘要部分下的故障率指标来访问[Skype for Business Server](peer-to-peer-activity-diagnostic-report.md)中的点对点活动诊断报告。 您还可以通过单击以下任[](conference-diagnostic-report.md)一会议Skype for Business Server访问会议诊断报告：
+呼叫诊断摘要报告是从监控报告主页访问的。 从呼叫诊断摘要报告中，可以通过单击报告的点对点会话摘要部分下的故障率指标来访问[Skype for Business Server](peer-to-peer-activity-diagnostic-report.md)中的点对点活动诊断报告。 您还可以通过单击以下任一会议指标[Skype for Business Server](conference-diagnostic-report.md)会议诊断报告：
   
 - 总体会话故障率
     

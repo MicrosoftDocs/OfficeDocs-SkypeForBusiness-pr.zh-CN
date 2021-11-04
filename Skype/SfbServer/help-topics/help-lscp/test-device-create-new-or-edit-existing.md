@@ -1,7 +1,7 @@
 ---
 title: 测试设备创建新的或编辑现有的
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/23/2015
@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 8f9125dd-04b3-4a6d-9f41-4f19ddaf7a2d
-description: 测试设备功能与设备更新功能结合使用。 可将测试设备添加到“测试设备”页，然后使用此设备验证新更新的功能，之后再将更新部署到生产设备。 可以在整个环境中或单个站点 (全局测试设备) 测试设备。 可通过测试设备的媒体访问控制 (MAC) 地址或序列号标识测试设备。 添加设备时，它将显示在控制面板的"测试设备"Skype for Business Server列表中。
-ms.openlocfilehash: ed5628cf4040b0b64c1c459df41f7773589c2ba6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 测试设备功能与设备更新功能结合使用。 可将测试设备添加到“测试设备”页，然后使用此设备验证新更新的功能，之后再将更新部署到生产设备。 可以在整个环境中或单个站点 (全局测试) 测试设备。 可通过测试设备的媒体访问控制 (MAC) 地址或序列号标识测试设备。 添加设备时，它将显示在控制面板的"测试设备"Skype for Business Server列表中。
+ms.openlocfilehash: 23d2c1a8e06a0c7030c7daec07c89b3bfde25bb3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593756"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748078"
 ---
 # <a name="test-device-create-new-or-edit-existing"></a>测试设备：创建新的或编辑现有的
 
-测试设备功能与设备更新功能结合使用。 可将测试设备添加到“测试设备”页，然后使用此设备验证新更新的功能，之后再将更新部署到生产设备。 可以在整个环境中或单个站点 (全局测试设备) 测试设备。 可通过测试设备的媒体访问控制 (MAC) 地址或序列号标识测试设备。 添加设备时，它将显示在控制面板的"测试设备 **"Skype for Business Server列表中**。
+测试设备功能与设备更新功能结合使用。 可将测试设备添加到“测试设备”页，然后使用此设备验证新更新的功能，之后再将更新部署到生产设备。 可以在整个环境中或单个站点 (全局测试) 测试设备。 可通过测试设备的媒体访问控制 (MAC) 地址或序列号标识测试设备。 添加设备时，它将显示在控制面板的"测试设备 **"Skype for Business Server列表中**。
 
 ## <a name="tasks-you-can-perform"></a>可执行的任务
 

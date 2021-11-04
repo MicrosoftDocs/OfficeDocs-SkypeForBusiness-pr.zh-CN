@@ -1,7 +1,7 @@
 ---
 title: PurgeSettings 表
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 10/20/2015
@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 9ff2c8fc-4ae8-4f22-96a8-1f4d5eecbf2d
-description: PurgeSettings 表包括用于指定是否（以及何时）自动从 CDR 数据库中删除过时的呼叫详细信息记录的信息。 请注意，还可通过运行以下命令从 Skype for Business Server 2015 中获取清除相关信息：
-ms.openlocfilehash: 3f1f596bd6e8d61c491c93c3664e1f4d110ccf8b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: PurgeSettings 表包括用于指定是否（以及何时）自动从 CDR 数据库中删除过时的呼叫详细信息记录的信息。 请注意，通过运行以下命令，也可以从 Skype for Business Server 2015 内获取清除相关信息：
+ms.openlocfilehash: a2b5bc874f6145a121cfb8a43702ab55ab0a5e1d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623464"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763310"
 ---
 # <a name="purgesettings-table"></a>PurgeSettings 表
  
-PurgeSettings 表包括用于指定是否（以及何时）自动从 CDR 数据库中删除过时的呼叫详细信息记录的信息。 请注意，还可通过运行以下命令从 Skype for Business Server 2015 中获取清除相关信息：
+PurgeSettings 表包括用于指定是否（以及何时）自动从 CDR 数据库中删除过时的呼叫详细信息记录的信息。 请注意，通过运行以下命令，也可以从 Skype for Business Server 2015 内获取清除相关信息：
   
 ```PowerShell
 Get-CsCdrConfiguration
@@ -32,7 +32,7 @@ Get-CsCdrConfiguration
   
 此表在 Microsoft Lync Server 2013 中引入。
   
-|**列**|**数据类型**|**键/索引**|**Details**|
+|**列**|**数据类型**|**键/索引**|**详细信息**|
 |:-----|:-----|:-----|:-----|
 |**Id** <br/> |int  <br/> |主  <br/> |CDR 清除设置集的唯一标识符。  <br/> |
 |**EnablePurge** <br/> |bit  <br/> ||设置为 True 时 (1) Skype for Business Server 2015 将定期清除 CDR 数据库中的过时记录。 将每天在 PurgeHour 设置所指定的时间执行清除。 如果设置为 False (0)，则不会从数据库中自动清除记录。 默认值为 True。  <br/> |

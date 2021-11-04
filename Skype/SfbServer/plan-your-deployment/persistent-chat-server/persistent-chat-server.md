@@ -1,7 +1,7 @@
 ---
 title: Plan for Persistent Chat Server in Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 8/17/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9e652487-a123-40c0-ae61-47fb8ecc4a20
 description: 摘要：阅读本主题，了解如何在 Skype for Business Server 2015 中规划持久聊天服务器。
-ms.openlocfilehash: cb584fc1b618794d9956c2d91c004b8ecc008aa0
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: a697337570dfbf66e752234435d1335661638c54
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731091"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763460"
 ---
 # <a name="plan-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Plan for Persistent Chat Server in Skype for Business Server 2015
  
@@ -39,7 +39,7 @@ ms.locfileid: "58731091"
 - 通过选择性地部署持久聊天合规性服务来遵守合规性法规
 
 > [!NOTE] 
-> 持久聊天在 Skype for Business Server 2015 中可用，但在 2019 年 2 月不再Skype for Business Server支持。 相同的功能在 Teams。 有关详细信息，请参阅[开始升级Microsoft Teams升级](/microsoftteams/upgrade-start-here)。 如果您需要使用持久聊天，您的选择是迁移需要此功能的用户以Teams，或者继续使用 Skype for Business Server 2015。 
+> 持久聊天在 2015 Skype for Business Server可用，但在 2019 年 2 月不再Skype for Business Server支持。 相同的功能在 Teams。 有关详细信息，请参阅开始[升级Microsoft Teams升级](/microsoftteams/upgrade-start-here)。 如果您需要使用持久聊天，您的选择是迁移需要此功能的用户以Teams或继续使用 Skype for Business Server 2015。 
     
 ## <a name="persistent-chat-server-high-level-architecture"></a>持久聊天服务器高级体系结构
 
@@ -47,11 +47,11 @@ ms.locfileid: "58731091"
   
 ![持久聊天服务器High-Level体系结构。](../../media/0344f6e2-0c6d-4391-b4b3-ec31062b1576.png)
   
-持久聊天包含一个前端服务器角色，该角色提供持久聊天服务以及后端SQL数据库组件。 前端和后端组件都包含在专用的持久聊天池中。 承载持久聊天服务器的每台计算机都必须有权访问现有 Skype for Business Server 2015 拓扑。 在此图中，有一个持久聊天服务器池 (A) ，该池依赖于Skype for Business Server池 A 来将消息路由到该池。
+持久聊天包含一个前端服务器角色，该角色提供持久聊天服务以及一个后端SQL数据库组件。 前端和后端组件都包含在专用的持久聊天池中。 承载持久聊天服务器的每台计算机都必须有权访问现有 Skype for Business Server 2015 拓扑。 在此图中，有一个持久聊天服务器池 (A) ，该池依赖于Skype for Business Server池 A 来将消息路由到该池。
   
 您可以部署一个或多个持久聊天服务器池，每个池最多具有四个活动持久聊天服务器，支持多达 8 万个并发用户。
   
-Skype for Business Server 2015 使用会话初始协议 (SIP) 注册和可扩展聊天通信通过 SIP 协议 (XCCOS) 进行聊天，与持久聊天服务进行通信。 
+Skype for Business Server 2015 使用会话初始协议 (SIP) 注册和 XCCOS) （通过 SIP 协议扩展聊天通信）与持久聊天服务进行通信 (用于聊天。 
   
 ## <a name="persistent-chat-services"></a>持久聊天服务
 
@@ -71,7 +71,7 @@ Skype for Business Server 2015 使用会话初始协议 (SIP) 注册和可扩展
     
 - 实现通道管理、聊天室邀请、搜索和新内容通知的逻辑
     
-持久聊天服务使用持久聊天存储 (聊天室内容和其他系统元数据) 规则等。 该服务将上载到聊天室的文件存储在持久聊天文件存储中。
+持久聊天服务使用持久聊天存储存储和访问聊天室内容 (授权规则等) 等。 该服务将上载到聊天室的文件存储在持久聊天文件存储中。
   
 ### <a name="compliance-service"></a>合规性服务
 
@@ -79,7 +79,7 @@ Skype for Business Server 2015 使用会话初始协议 (SIP) 注册和可扩展
   
 ### <a name="web-services"></a>Web 服务
 
-持久聊天 Web 服务在前端Skype for Business运行。 Web 服务依赖于 IIS Internet Information Services (IIS) ，并作为 Web 组件实现：
+持久聊天 Web 服务在前端Skype for Business服务器上运行。 Web 服务依赖于 IIS Internet Information Services (，) 实现为 Web 组件：
   
 - 用于文件上载和下载的持久聊天 Web 服务负责发布和检索聊天室中的文件。
     
@@ -101,9 +101,9 @@ Skype for Business Server 2015 使用会话初始协议 (SIP) 注册和可扩展
     
 - 您希望如何创建聊天室？ 持久聊天服务器提供用于创建和管理聊天室的基于 Web 的功能。 可以从客户端启动Skype for Business启动。 可以选择定义实现业务需求和工作流的客户解决方案，并配置持久聊天服务器以将用户引导到自定义解决方案。
     
-- 您希望设置哪一类外接程序？ 外接程序利用客户端中的可扩展性窗格来提供与聊天室相关的上下文，从而Skype for Business聊天室内体验。 您可以选择可能最有用的常规外接程序（例如，您的公司网站、内部协作文档等）。 聊天室管理员可选择某个注册的外接程序并将该外接程序与其聊天室关联（如果需要）。 
+- 您希望设置哪一类外接程序？ 外接程序利用客户端中的可扩展性窗格来提供与聊天室相关的Skype for Business，从而增强聊天室内体验。 您可以选择可能最有用的常规外接程序（例如，您的公司网站、内部协作文档等）。 聊天室管理员可选择某个注册的外接程序并将该外接程序与其聊天室关联（如果需要）。 
     
-- 您具有哪一类高可用性和灾难恢复要求？ 持久聊天服务器SQL Server镜像和SQL Server群集实现高可用性。 对于灾难恢复，持久聊天服务器支持最多 8 台服务器 (4 个活动服务器和 4 个备用) 扩展池中具有SQL Server日志。 
+- 您具有哪一类高可用性和灾难恢复要求？ 持久聊天服务器SQL Server镜像和SQL Server群集实现高可用性。 对于灾难恢复，持久聊天服务器在具有日志 (扩展池中最多支持 8 (4 台活动服务器和 4) 备用SQL Server服务器。 
     
 - 是否有管理要求？ 如果您的公司位于需要将数据保存在该国家/地区的一个或多个区域，您可能需要部署多个持久聊天服务器池，每个池都位于特定地理位置。 聊天室、类别或外接程序不会跨越池-它仅属于一个持久聊天服务器池。 
     
@@ -116,6 +116,6 @@ Skype for Business Server 2015 使用会话初始协议 (SIP) 注册和可扩展
   
 - 若要详细了解如何部署持久聊天服务器，请参阅[Deploy Persistent Chat Server in Skype for Business Server 2015。](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md) 
     
-- 若要详细了解如何在持久聊天服务器上配置设置，请参阅 Manage Persistent [Chat Server in Skype for Business Server 2015。](../../manage/persistent-chat/persistent-chat.md)
+- 若要详细了解如何在持久聊天服务器部署上配置设置，请参阅 Manage [Persistent Chat Server in Skype for Business Server 2015。](../../manage/persistent-chat/persistent-chat.md)
     
 

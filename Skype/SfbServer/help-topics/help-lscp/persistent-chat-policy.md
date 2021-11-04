@@ -1,7 +1,7 @@
 ---
 title: 持久聊天策略
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/27/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: eb9e95b9-f69d-4545-970f-9dfdd93b0eff
 description: 您可以使用持久聊天组的"持久聊天策略"页来管理全局、池、站点或用户级别的策略，包括配置默认全局策略和为部署创建一个或多个其他用户和站点策略。 如果策略为用户启用了持久聊天服务器，则持久聊天服务器环境将显示在其客户端中。
-ms.openlocfilehash: 6145740717ca4e240cde767535c91040c336cb90
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5736f0fc41f86331662e88c0f980c19c89be72c4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621388"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748188"
 ---
 # <a name="persistent-chat-policy"></a>持久聊天策略
  
@@ -85,7 +85,7 @@ ms.locfileid: "58621388"
     
 ## <a name="to-create-a-user-policy-for-persistent-chat"></a>为持久聊天创建用户策略
 
-在Skype for Business Server控制面板中，定义可分配给 Users 中的用户 **的用户策略**。
+在Skype for Business Server控制面板中，定义可在"用户"中分配给用户 **的用户策略**。
   
 用户策略将覆盖全局策略和站点策略，但仅适用于分配了该用户策略的特定用户。
   
@@ -109,7 +109,7 @@ ms.locfileid: "58621388"
     
 ## <a name="to-apply-a-persistent-chat-user-policy-to-a-user-account"></a>将持久聊天用户策略应用于用户帐户
 
-如果为用户启用了Skype for Business Server，您可以将相应的策略应用于特定用户，以启用或禁用持久聊天服务器。
+如果为用户启用了Skype for Business Server，您可以将相应的策略应用于特定用户，以对持久聊天服务器启用或禁用这些策略。
   
 使用本主题中的过程将以前创建的持久聊天用户策略应用于一个或多个用户帐户或用户组。
   

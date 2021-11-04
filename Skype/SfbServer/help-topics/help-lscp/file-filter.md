@@ -1,7 +1,7 @@
 ---
 title: 文件筛选器
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 6178d9e5-a919-4a7d-9633-d5f155556306
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: a75cbe412a396d56239312322964291de5298315
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ac51e53db60dbdcd04a246c1db6dc476fd549837
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605191"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740888"
 ---
 # <a name="file-filter"></a>文件筛选器
 

@@ -1,7 +1,7 @@
 ---
 title: 会议详细信息报告Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 1d61cd81-dcfe-40b4-9a41-a73b038bc216
 description: 摘要：了解会议详细信息报告中Skype for Business Server。
-ms.openlocfilehash: 9b5dbbaf4ab1312d187b4e3c02882c26066c3db5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 56fafff71f1700667a2ad982f56db099cb60c45e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615698"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737798"
 ---
 # <a name="conference-detail-report-in-skype-for-business-server"></a>会议详细信息报告Skype for Business Server
 
@@ -31,7 +31,7 @@ ms.locfileid: "58615698"
 
 - 通过 [单击](call-admission-control-report.md) 会议 (详细信息指标，呼叫允许控制报告) 
 
-- 故障 [列表报告](failure-list-report.md) (会议指标列表) 
+- 故障 [列表报告](failure-list-report.md) ("会议"指标) 
 
 - 用户 [活动报告](call-diagnostic-reports-per-user.md) (会议 URI 指标) 
 
@@ -64,7 +64,7 @@ ms.locfileid: "58615698"
 |:-----|:-----|
 |**用户** <br/> |参与会议的用户的 SIP 地址。  <br/> |
 |**角色** <br/> |会议参与者扮演的角色（例如“演示者”）。  <br/> |
-|**连接** <br/> |参与者的网络连接（通常为“来自内部”或“来自外部”）。  <br/> |
+|**连接性** <br/> |参与者的网络连接（通常为“来自内部”或“来自外部”）。  <br/> |
 |**加入时间** <br/> |参与者加入会议的日期和时间。  <br/> |
 |**离开时间** <br/> |参与者离开会议的日期和时间。  <br/> |
 |**用户代理** <br/> |参与者终结点使用的软件的标识符。  <br/> |

@@ -1,7 +1,7 @@
 ---
 title: 修补或更新后端服务器或Standard Edition服务器Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: f95f8d3a-e039-484e-97bd-d727db21a12b
 description: 摘要：了解如何在 Skype for Business Server 中的后端服务器上安装更新或Skype for Business Server。
-ms.openlocfilehash: 2b7292b71f57d7396c5b90bce3746b73b98f6f43
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6c2a03358f5fc5f1253f65d1ff2bc202871da678
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619748"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737778"
 ---
 # <a name="patch-or-update-a-back-end-server-or-standard-edition-server-in-skype-for-business-server"></a>修补或更新后端服务器或Standard Edition服务器Skype for Business Server
  
@@ -33,7 +33,7 @@ ms.locfileid: "58619748"
     
 2. 下载更新并将其提取到本地硬盘。
     
-3. 启动命令行Skype for Business Server：单击"开始"，单击"所有程序 **"，Skype for Business"，** 然后单击"Skype for Business Server **命令行管理程序**"。 
+3. 启动命令行Skype for Business Server：单击"开始"，单击"所有程序"，Skype for Business"，然后单击"Skype for Business Server **命令行管理程序**"。 
     
 4. 停止Skype for Business Server服务。 在命令行中键入：
     

@@ -1,7 +1,7 @@
 ---
 title: 安装数据库创建镜像数据库页
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 6f729574-944e-4968-bdb8-eb483ff0ca88
 description: 这是初步文档，可能会更改。 空白主题作为占位符包含在内。
-ms.openlocfilehash: c8f346101e9724a777d67d24a43a3bf90a8073c3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a2683614753160cc4ff79d90e73cec48f933297b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58588604"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60770441"
 ---
 # <a name="install-database-create-mirror-database-page"></a>安装数据库创建镜像数据库页
  

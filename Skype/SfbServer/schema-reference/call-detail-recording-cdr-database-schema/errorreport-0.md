@@ -1,7 +1,7 @@
 ---
 title: ErrorReport 视图
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ca873f7e-b18b-4eaf-8db0-5f9d5a9b60a1
 description: ErrorReport 视图存储有关已报告的错误的信息。 每条记录代表发生一次错误。 错误由在前端服务器上运行的 CDR 代理捕获或发送自客户端。 此视图在 Microsoft Lync Server 2013 中引入。
-ms.openlocfilehash: b1461b8ee8657033802763cfa9d38b94448f93ea
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1937c463696be5b45534e9145b1a91bde80b7114
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613852"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763390"
 ---
 # <a name="errorreport-view"></a>ErrorReport 视图
  
 ErrorReport 视图存储有关已报告的错误的信息。 每条记录代表发生一次错误。 错误由在前端服务器上运行的 CDR 代理捕获或发送自客户端。 此视图在 Microsoft Lync Server 2013 中引入。
   
-|**列**|**数据类型**|**Details**|
+|**列**|**数据类型**|**详细信息**|
 |:-----|:-----|:-----|
 |**ErrorTime** <br/> |datetime  <br/> |发生错误的时间。与 ErrorReportSeq 结合使用来唯一地标识错误。  <br/> |
 |**ErrorReportSeq** <br/> |int  <br/> |用于标识错误的 ID 号。与 ErrorTime 结合使用来唯一地标识错误。  <br/> |

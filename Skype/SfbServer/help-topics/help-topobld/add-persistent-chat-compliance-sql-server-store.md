@@ -1,7 +1,7 @@
 ---
 title: 添加持久聊天合规性 SQL Server 存储
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/27/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: b9771b53-e19a-4a12-bf01-24bae6f7e482
 description: 配置将为持久SQL Server持久聊天服务器或持久聊天服务器合规性功能提供数据库的合规性存储。
-ms.openlocfilehash: 09138c2e6a5fb23b6745a5594c231d29c13b911b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e6db005c44606a7d79f25e5999630cc805ed5f54
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615758"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60747838"
 ---
 # <a name="add-persistent-chat-compliance-sql-server-store"></a>添加持久聊天合规性 SQL Server 存储
  
@@ -32,17 +32,17 @@ ms.locfileid: "58615758"
   
 选中"**启用SQL Server存储镜像**"复选框以配置将为持久聊天合规性数据提供镜像数据库的 SQL Server 数据库和可选实例。
   
-从"镜像"列表 **SQL Server** 存储SQL Server和可选实例以用作持久SQL Server合规性策略的SQL Server。
+从列表"**镜像"SQL Server** 存储SQL Server和可选实例以用作持久聊天合规性SQL Server的镜像SQL Server。
   
 单击 **"** 新建"以定义SQL Server持久聊天策略镜像的新实例SQL Server实例。
   
-从“使用 SQL Server 镜像见证启用自动故障转移”列表选择一个 SQL Server，用作故障转移情况下的见证服务器。 见证服务器不镜像或承载持久聊天服务器的数据，但确保镜像配置中SQL Server一个服务器是活动SQL Server处于活动状态。
+从“使用 SQL Server 镜像见证启用自动故障转移”列表选择一个 SQL Server，用作故障转移情况下的见证服务器。 见证服务器不镜像或承载持久聊天服务器的数据，但确保镜像配置中SQL Server一个服务器是SQL Server活动服务器。
   
 单击 **"** 新建"以定义SQL Server见证持久聊天合规性实例（可选）SQL Server见证。
   
 单击“上一步”以回到上一个池定义对话框。
   
-完成 **为此** 池的备份池配置输入SQL Server单击"下一步"，然后继续进行持久聊天服务器池定义。
+完成 **为此** 池的备份和存储配置输入SQL Server单击"下一步"，然后继续进行持久聊天服务器池定义。
   
 单击“取消”以放弃所有更改并退出“定义新的持久聊天池”向导。
   
@@ -56,4 +56,4 @@ ms.locfileid: "58615758"
   
 [Skype for Business Server 2015 中的持久聊天服务器的硬件和软件要求](../../plan-your-deployment/persistent-chat-server/hardware-and-software-requirements.md)
   
-[在 2015 年 10 月为持久聊天Skype for Business Server合规性服务](../../manage/persistent-chat/configure-compliance.md)
+[在 2015 年 10 月为持久聊天服务器Skype for Business Server合规性服务](../../manage/persistent-chat/configure-compliance.md)

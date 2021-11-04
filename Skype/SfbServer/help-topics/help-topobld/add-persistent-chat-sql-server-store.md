@@ -1,7 +1,7 @@
 ---
 title: 添加持久聊天 SQL Server 存储
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/27/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: c8e6064a-8127-4c25-8685-06f49d8bbfce
 description: 配置将为SQL Server持久聊天服务器或持久聊天服务器池提供数据库的聊天存储。
-ms.openlocfilehash: 7d3f9754e402c6049c4d0fd8cec9dd97758b5d32
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 27063ed9a2858714e6fd26db9fad98db1c47f95e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630836"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763940"
 ---
 # <a name="add-persistent-chat-sql-server-store"></a>添加持久聊天 SQL Server 存储
  
@@ -28,17 +28,17 @@ ms.locfileid: "58630836"
   
  **SQL Server存储**：选择现有SQL Server和可选的持久聊天实例。
   
-单击 **"** 新建"定义SQL Server持久聊天数据的新实例（可选）。
+单击 **"** 新建"以定义SQL Server持久聊天数据的新实例（可选）。
   
-选中"**启用SQL Server存储镜像**"复选框以配置将为持久聊天数据提供镜像数据库的 SQL Server 数据库和可选实例。
+选中"**启用SQL Server存储镜像**"复选框以配置将为持久SQL Server数据提供镜像数据库的自定义数据库和可选实例。
   
-从"镜像"列表中 **SQL Server** 存储SQL Server和可选实例以用作持久聊天SQL Server的镜像SQL Server。
+从列表"**镜像"SQL Server** 存储SQL Server和可选实例以用作持久聊天SQL Server的镜像SQL Server。
   
 单击 **"** 新建"以定义SQL Server持久聊天策略镜像的新实例SQL Server实例。
   
-从“使用 SQL Server 镜像见证启用自动故障转移”列表选择一个 SQL Server，用作故障转移情况下的见证服务器。 见证服务器不镜像或承载持久聊天服务器的数据，但确保镜像配置中SQL Server一个服务器是活动SQL Server处于活动状态。
+从“使用 SQL Server 镜像见证启用自动故障转移”列表选择一个 SQL Server，用作故障转移情况下的见证服务器。 见证服务器不镜像或承载持久聊天服务器的数据，但确保镜像配置中SQL Server一个服务器是SQL Server活动服务器。
   
-单击 **"** 新建"以定义SQL Server持久聊天和镜像见证的SQL Server实例。
+单击 **"** 新建"以定义SQL Server见证持久聊天和镜像见证SQL Server实例。
   
 单击“上一步”以回到上一个池定义对话框。
   
@@ -60,4 +60,4 @@ ms.locfileid: "58630836"
   
 [Skype for Business Server 2015 的拓扑基础知识](../../plan-your-deployment/topology-basics/topology-basics.md)
   
-[在 2015 年 10 月为持久聊天服务器Skype for Business Server灾难恢复](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)
+[在 2015 年 6 月为持久聊天服务器Skype for Business Server灾难恢复](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)

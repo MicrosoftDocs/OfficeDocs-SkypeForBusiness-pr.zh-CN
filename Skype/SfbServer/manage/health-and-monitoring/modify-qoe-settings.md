@@ -1,7 +1,7 @@
 ---
 title: 修改用户体验质量Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: a6b41de2-1466-4240-8a70-14ce6f0f3ddc
 description: 摘要：了解如何指定 QoE 数据的保留时间Skype for Business Server。
-ms.openlocfilehash: c8480b5deb8007c050968c399ee20eb14755e6ba
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 38bc88866e4bd8b677873b2d502e9268305ccf49
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60013946"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60770240"
 ---
 # <a name="modify-quality-of-experience-settings-in-skype-for-business-server"></a>修改用户体验质量Skype for Business Server
 
@@ -46,9 +46,9 @@ ms.locfileid: "60013946"
 
 7. 单击“提交”。
 
-## <a name="specifying-qoe-retention-by-using-windows-powershell-cmdlets"></a>使用 Cmdlet 指定 QoE 保留Windows PowerShell Cmdlet
+## <a name="specifying-qoe-retention-by-using-windows-powershell-cmdlets"></a>使用 Cmdlet 指定 QoE Windows PowerShell保留
 
-可以使用 Windows PowerShell **和 Set-CsQoEConfiguration** cmdlet 创建 QoE 保留设置。 可以从命令行管理程序或 Skype for Business Server远程会话中运行此 cmdlet Windows PowerShell。 有关使用远程 powerShell Windows PowerShell连接到Skype for Business Server的详细信息，请参阅 Microsoft Lync [Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 此过程在Skype for Business Server。
+可以使用 Windows PowerShell **和 Set-CsQoEConfiguration** cmdlet 创建 QoE 保留设置。 可以从命令行管理程序或 Skype for Business Server远程会话中运行此 cmdlet Windows PowerShell。 有关使用远程 powerShell Windows PowerShell连接到Skype for Business Server的详细信息，请参阅 Microsoft [Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 此过程在Skype for Business Server。
 
 ### <a name="to-specify-qoe-retention-for-a-specific-location"></a>为特定位置指定 QoE 保留
 

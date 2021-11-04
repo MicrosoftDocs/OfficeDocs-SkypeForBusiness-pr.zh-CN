@@ -1,7 +1,7 @@
 ---
 title: 控制面板 - 已更新用户搜索
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 5/21/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 50feb75f-92a1-4916-b92e-c039e1290c52
 description: 您可以使用搜索查询的结果为用户配置Skype for Business Server。 可以按照显示名称、名字、姓氏、安全帐户管理器 (SAM) 帐户名、SIP 地址或线路统一资源标识符 (URI) 搜索用户。 您还可以使用 Lync Server 控制面板或 Active Directory 用户和计算机管理单元搜索用户。
-ms.openlocfilehash: 2333a92d95a3d93ef9e10c0db89eba0c77c9f809
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ee155a1c81ffe45007d813d64fb8cc4586ba268e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608229"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740898"
 ---
 # <a name="control-panel---updated-user-search"></a>控制面板 - 已更新：用户搜索
 
@@ -76,13 +76,13 @@ ms.locfileid: "58608229"
 
 ### <a name="search-results-menus"></a>搜索结果菜单
 
-- **启用用户** 单击以打开"[用户： 新建 Lync Server](users-new-lync-server-user.md)用户"对话框，可在其中添加新用户以Skype for Business Server。
+- **启用用户** 单击以打开"[用户： 新建 Lync Server](users-new-lync-server-user.md)用户"对话框，可在其中添加新Skype for Business Server。
 
     若要添加新联系人，请单击向下箭头，然后选择"启用 **联系人** "以打开"用户： [新建联系人对象"](users-new-contact-objects.md) 对话框。
 
 - **编辑** 单击 **"** 编辑"，然后单击"显示详细信息"以显示所选用户的详细信息，或单击"选择所有搜索结果"以选择结果表中显示的所有用户。
 
-- **操作** 单击 **"** 操作"，然后在搜索结果中选择要为所选用户执行的操作。 可以使用以下操作：
+- **操作** 单击 **"** 操作"，然后在搜索结果中选择要为所选用户执行的操作。 提供了以下选项：
 
   - **重新启用 Lync Server** 在临时禁用所选用户帐户后启用该帐户。
 

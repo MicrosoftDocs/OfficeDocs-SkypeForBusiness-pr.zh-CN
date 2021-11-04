@@ -1,7 +1,7 @@
 ---
 title: 测试设备
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/23/2015
@@ -14,13 +14,13 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: a1ea564c-f403-4f61-a36b-5a429708e7ca
-description: 可将测试设备添加到“测试设备”页，然后使用此设备验证新更新的功能，之后再将更新部署到生产设备。 可以在整个环境中或单个站点 (全局测试) 测试设备。 可通过测试设备的媒体访问控制 (MAC) 地址或序列号标识测试设备。 添加设备时，它将显示在控制面板的"测试设备"Skype for Business Server列表中。
-ms.openlocfilehash: 5e2d3be8ca9b010e97020004c3cb46c732d1ebc1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 可将测试设备添加到“测试设备”页，然后使用此设备验证新更新的功能，之后再将更新部署到生产设备。 可以在整个环境中或单个站点 (全局测试) 测试设备。 可通过测试设备的媒体访问控制 (MAC) 地址或序列号标识测试设备。 添加设备时，它将显示在"控制面板"的"测试设备"Skype for Business Server列表中。
+ms.openlocfilehash: 96e9c12444293f6fa7aa0c12f538fae0241474d3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631706"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748058"
 ---
 # <a name="test-device"></a>测试设备
 
@@ -42,7 +42,7 @@ ms.locfileid: "58631706"
 
   - 全球
 
-  - 网站
+  - Site
 
 - **编辑** 你可以更改列表中的测试设备选项。 使用此选项，可以执行以下操作：
 

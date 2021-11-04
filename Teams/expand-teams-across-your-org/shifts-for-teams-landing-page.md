@@ -3,7 +3,7 @@ title: Teams 中的排班
 description: 获取设置和管理日程安排管理工具 Shifts 所需的管理员Teams。
 ms.topic: conceptual
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 audience: admin
 manager: serdars
 f1.keywords:
@@ -21,16 +21,16 @@ searchScope:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 07f31d3f37cc1ebf68c9337afab6605ff894fe9b
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 5e8de5e2c43751c1578678bff9e1f6e9099c4a6a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012546"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60756093"
 ---
 # <a name="shifts-for-teams"></a>Teams 中的排班
 
-Teams为组织中一线员工提供有效沟通和协作所需的工具。 请参阅以下资源，详细了解如何设置和管理 Shifts（计划管理工具，Teams）。
+Teams为组织中一线员工提供有效通信和协作所需的工具。 请参阅以下资源，详细了解如何设置和管理班次（Teams）。
 
 ### <a name="set-up-and-manage-shifts-for-your-organization"></a>为组织设置和管理班次
 
@@ -42,8 +42,8 @@ Teams为组织中一线员工提供有效沟通和协作所需的工具。 请�
 
 |&nbsp;|&nbsp;|
 | ------------- | ------------- |
-| ![api。](../media/api-small.svg) | **[Shift Graph API](/graph/api/resources/shift?view=graph-rest-1.0)** 使用 Graph API，可以将 Shifts 数据与外部员工管理系统集成。 可以灵活地在后端生成自定义 Shifts 体验，同时为用户提供丰富的前端体验，Teams。             |
-| ![api。](../media/api-small.svg) | **[员工管理集成](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors)** 如果使用第三方员工管理系统（如 Kronos 和 JDA）进行日程安排、时间和出席，则可以通过 Shifts Graph API 和 SDK 与开源集成直接集成 Shifts。 |
+| ![api。](../media/api-small.svg) | **[Shift Graph API](/graph/api/resources/shift?view=graph-rest-1.0)** 使用 Graph API，可以将 Shifts 数据与外部员工管理系统集成。 你可以灵活地在后端生成自定义 Shifts 体验，同时为用户提供丰富的前端体验Teams。             |
+| ![api。](../media/api-small.svg) | **[员工管理集成](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors)** 如果使用 Kronos 和 JDA 等第三方员工管理系统进行日程安排、时间和出席，可以通过 Shifts Graph API 和 SDK 与开源集成直接集成 Shifts。 |
 | ![api。](../media/process-flow-teams-small.svg) | **[Shifts + Power Automate](https://github.com/OfficeDev/Microsoft-Teams-Shifts-Power-Automate-Templates)** Shifts + Power Automate允许你从 Shifts 获取信息，并与其他应用一起创建自定义工作流，并大规模执行操作。 使用很少的代码或无代码自动执行关键过程。 触发器和模板支持多种方案，例如，在不需要经理批准时为轮班请求启用自动审批。 |
 
 ## <a name="featured-training"></a>特色培训

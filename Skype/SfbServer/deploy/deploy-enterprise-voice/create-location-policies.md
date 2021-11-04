@@ -1,7 +1,7 @@
 ---
 title: 在 Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,24 +15,24 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f1878194-c756-4794-8fa1-15dd2118b4b3
-description: 阅读本主题，了解如何配置增强型紧急服务 (E9-1-1) 中的位置Skype for Business Server 企业语音。
-ms.openlocfilehash: d601fddcb66fd5b963ab24caf3a7289a2188628b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 阅读本主题，了解如何在 Skype for Business Server 企业语音 中配置增强型紧急服务 (E9-1-1) E9-1 Skype for Business Server 企业语音。
+ms.openlocfilehash: 889a20e0b48955be1ce0ba8c891d6c4825b79dab
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594736"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741438"
 ---
 # <a name="create-location-policies-in-skype-for-business-server"></a>在 Skype for Business Server
 
-阅读本主题，了解如何配置增强型紧急服务 (E9-1-1) 中的位置Skype for Business Server 企业语音。 
+阅读本主题，了解如何在 Skype for Business Server 企业语音 中配置增强型紧急服务 (E9-1-1) E9-1 Skype for Business Server 企业语音。 
 
-Skype for Business Server在客户端注册期间，使用Skype for Business为 E9-1-1 启用客户端。 位置策略包含定义 E9-1-1 实现方式的设置。 有关详细信息，请参阅 Plan [location policies for Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/location-policies.md)。
+Skype for Business Server在客户端注册期间使用位置策略Skype for Business E9-1-1 的客户端。 位置策略包含定义 E9-1-1 实现方式的设置。 有关详细信息，请参阅 Plan [location policies for Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/location-policies.md)。
 
-使用控制面板或[New-CsLocationPolicy](/powershell/module/skype/new-cslocationpolicy?view=skype-ps) cmdlet Skype for Business定义位置策略。
+可以使用"控制面板"或Skype for Business [New-CsLocationPolicy](/powershell/module/skype/new-cslocationpolicy?view=skype-ps) cmdlet 定义位置策略。
 
 > [!NOTE]
-> Skype for Business Server现在支持为客户端配置多个紧急号码。 如果要配置多个紧急号码，则必须按照在呼叫中规划多个紧急号码[](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md)和Skype for Business Server中的配置多个紧急号码[Skype for Business。](configure-multiple-emergency-numbers.md) 
+> Skype for Business Server现在支持为客户端配置多个紧急号码。 如果要配置多个紧急号码，则必须按照在 Skype for Business Server 中规划多个[](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md)紧急号码和在 Skype for Business 中配置多个紧急[号码中Skype for Business。](configure-multiple-emergency-numbers.md) 
 
 可以编辑全局位置策略，并创建新的带标记的位置策略。客户端所在的子网没有关联位置策略，或没有直接为客户端分配位置策略时，客户端会获取全局策略。向子网或用户分配带标记的策略。 
 

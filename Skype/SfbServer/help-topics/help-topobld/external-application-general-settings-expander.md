@@ -1,7 +1,7 @@
 ---
 title: 外部应用程序常规设置扩展器
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: aa7268ac-b9e3-4d25-bff4-e59d305120f2
 description: 若要编辑已定义的受信任应用程序服务器的属性，请遵循以下说明。
-ms.openlocfilehash: 1bcb822ee6a48383f45a10f5ee3db1f5222c00a5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 21f7fa671690852953a49c91e657f6be8db3437d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606321"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737848"
 ---
 # <a name="external-application-general-settings-expander"></a>外部应用程序常规设置扩展器
  
@@ -40,7 +40,7 @@ ms.locfileid: "58606321"
   
 ## <a name="next-hop-settings"></a>下一跃点设置
 
-通过从下拉列表 Enterprise Edition中选择定义的前端池或Standard Edition前端服务器，可以指定受信任应用程序服务器池的下一个跃点服务器。 控制器或控制器池不是受信任应用程序服务器下一跃点的有效选择，不会显示在列表中。
+通过从下拉列表中选择定义的 Enterprise Edition 前端池或 Standard Edition 前端服务器，可以指定受信任应用程序服务器池的下一个跃点服务器。 控制器或控制器池不是受信任应用程序服务器下一跃点的有效选择，不会显示在列表中。
   
 
 

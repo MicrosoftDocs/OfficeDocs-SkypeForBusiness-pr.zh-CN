@@ -1,7 +1,7 @@
 ---
 title: 媒体视图
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 1a7b2e59-082e-4188-98ae-48ae9bd3494a
 description: “媒体”视图存储有关在对等会话中使用的一种媒体类型的信息。 如果使用多个媒体类型，则一个会话由表中的多条记录表示。 此视图在 Microsoft Lync Server 2013 中引入。
-ms.openlocfilehash: 7297e3c0e4d8839fc820334ee4dabb7412242245
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 110f41e88fedd216641d67f975c1b19aa9da4770
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617678"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60770030"
 ---
 # <a name="media-view"></a>媒体视图
  
@@ -29,7 +29,7 @@ ms.locfileid: "58617678"
   
 媒体视图包含 [SessionDetails](sessiondetails-0.md) 视图中的所有列以及下面列出的列。
   
-|**列**|**数据类型**|**Details**|
+|**列**|**数据类型**|**详细信息**|
 |:-----|:-----|:-----|
 |**Media** <br/> |nvarchar (256)   <br/> |媒体类型。 有关详细信息， [请参阅 MediaList](medialist.md) 表。 <br/> |
 |**MediaStartTime** <br/> |datetime  <br/> |发出媒体请求的时间。  <br/> |

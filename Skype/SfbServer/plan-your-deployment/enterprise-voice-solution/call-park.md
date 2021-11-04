@@ -1,7 +1,7 @@
 ---
 title: Plan for Call Park in Skype for Business
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,27 +15,27 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 985dc326-0aef-4308-b98b-c1d0069311e7
-description: 规划呼叫呼叫Skype for Business Server 企业语音，从而允许将呼叫置于保持状态以及将呼叫转接到部门。 包括容量规划、支持的呼叫和支持的客户端。
-ms.openlocfilehash: 8bc69bedfd3abf7745ce25133ae8ac32d1eda032
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 规划呼叫呼叫Skype for Business Server 企业语音，从而将呼叫置于保持状态以及将呼叫转接到部门。 包括容量规划、支持的呼叫和支持的客户端。
+ms.openlocfilehash: 1cba225d966f835e59f75c359cee49ab183d21eb
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625174"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60770180"
 ---
 # <a name="plan-for-call-park-in-skype-for-business"></a>Plan for Call Park in Skype for Business
  
-规划呼叫呼叫Skype for Business Server 企业语音，从而允许将呼叫置于保持状态以及将呼叫转接到部门。 包括容量规划、支持的呼叫和支持的客户端。
+规划呼叫呼叫Skype for Business Server 企业语音，从而将呼叫置于保持状态以及将呼叫转接到部门。 包括容量规划、支持的呼叫和支持的客户端。
   
 通过呼叫企业语音用户可以执行以下操作：
   
 - 将呼叫置于保持状态，然后从同一电话或其他电话检索呼叫。
     
-- 将呼叫置于保持状态，以将呼叫转接到部门或常规 (例如，转接到销售部门或具有公用区域电话的) 。
+- 将呼叫置于保持状态，以将呼叫转接到部门或常规 (例如，将呼叫转接到销售部门或具有公用区域电话的) 。
     
 - 将呼叫置于保持状态，并保持原始应答电话对于其他呼叫是免费的。
     
-当用户取回呼叫时，Skype for Business Server呼叫转接到一个称为通道的临时号码，在此通道中，呼叫将一直持续到取回或时间过长。Skype for Business Server呼叫的用户发送通道。 要检索已呼叫，用户可以拨打通道号码，或单击"对话"窗口中的通道链接或按钮。 
+当用户等待呼叫时，Skype for Business Server呼叫转接到一个称为通道的临时号码，在此通道中，呼叫将一直持续到取回或时间过长。Skype for Business Server呼叫的用户发送通道。 要检索已呼叫，用户可以拨打通道号码，或单击"对话"窗口中的通道链接或按钮。 
   
 已呼叫的用户可通知某人使用外部机制（如即时消息 (IM) 或分页系统）检索呼叫，以将通道号码告知其他人。 在取回呼叫时，将呼叫保留为"对话"窗口打开以接收通知。
   
@@ -48,15 +48,15 @@ ms.locfileid: "58625174"
 > [!NOTE]
 > 呼叫保留的自定义保持音乐文件不会作为 Skype for Business Server 灾难恢复过程的一部分进行备份，如果上载到池的文件已损坏、损坏或擦除，将丢失。 请始终保留为呼叫保留上载的自定义保持音乐文件的单独备份副本。 
   
-呼叫管理应用程序是呼叫企业语音。 部署呼叫企业语音，将自动安装并激活呼叫管理应用程序。 但是，在可以使用呼叫企业语音，管理员必须通过语音策略配置呼叫企业语音为用户启用呼叫等待。
+呼叫呼叫管理应用程序是呼叫企业语音。 在部署企业语音时，会自动安装并激活呼叫管理应用程序。 但是，在可以使用呼叫企业语音，管理员必须通过语音策略配置呼叫企业语音为用户启用呼叫等待。
   
 ## <a name="deployment-and-requirements"></a>部署和要求
 
-部署呼叫管理中心时，会自动安装呼叫企业语音。 通过配置语音策略启用呼叫管理。
+在部署呼叫管理中心时，会自动安装企业语音。 通过配置语音策略启用呼叫管理。
   
 ### <a name="software-requirements"></a>软件要求
 
-部署了呼叫库的所有前端服务器和 Standard Edition 服务器必须为运行 Windows Server 2008 R2 的服务器安装 Windows Media Format Runtime，或为运行 Windows Server 2012 或 Windows Server 2012 R2 的服务器安装 Microsoft Media Foundation。 对于 Windows Server 2008 R2，Windows Media Format Runtime 作为桌面体验的一Windows安装。 Windows媒体格式运行时或 Microsoft Media Foundation 是呼叫Windows播放保持音乐 (.wma) 文件所需的媒体格式运行时或 Microsoft Media Foundation。
+部署了呼叫库的所有前端服务器和 Standard Edition 服务器必须为运行 Windows Server 2008 R2 的服务器安装 Windows Media Format Runtime，或为运行 Windows Server 2012 或 Windows Server 2012 R2 的服务器安装 Microsoft Media Foundation. 对于 Windows Server 2008 R2，Windows Media Format Runtime 作为桌面体验的一Windows安装。 Windows媒体格式运行时或 Microsoft Media Foundation 是呼叫Windows播放保持音乐 (.wma) 需要媒体格式运行时或 Microsoft Media Foundation。
   
 ### <a name="port-requirements"></a>端口要求
 
@@ -67,7 +67,7 @@ ms.locfileid: "58625174"
   
 ### <a name="audio-file-requirements"></a>音频文件要求
 
-呼叫保留应用程序仅支持Windows媒体 (.wma) 保留音乐。 您可以使用 Microsoft Expression Encoder 4 来自定义用作保持音乐的文件。 若要下载 Expression Encoder 4，请参阅["Expression Encoder 4"。](https://go.microsoft.com/fwlink/p/?linkId=202843) 使用此工具将文件转换为 .wma 格式。 呼叫寄存保持音乐文件的建议格式为 Media Audio 9，44 kHz，16 位，单声道，CBR，32 kbps。
+呼叫保留应用程序仅支持Windows媒体音频 (.wma) 保留音乐。 您可以使用 Microsoft Expression Encoder 4 来自定义用作保持音乐的文件。 若要下载 Expression Encoder 4，请参阅["Expression Encoder 4"。](https://go.microsoft.com/fwlink/p/?linkId=202843) 使用此工具将文件转换为 .wma 格式。 呼叫寄存保持音乐文件的建议格式为 Media Audio 9，44 kHz，16 位，单声道，CBR，32 kbps。
   
 > [!NOTE]
 > 转换后的文件仅以 16 KHz 在电话上播放，即使录制时采用 44 KHz 也是如此。 

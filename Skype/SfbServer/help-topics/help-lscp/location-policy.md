@@ -1,7 +1,7 @@
 ---
 title: 位置策略
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/24/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 5530cf17-4520-40b5-ba70-c62692685048
 description: 位置策略确定是否启用增强型 9-1-1 (E9-1-1) 和如何使用它，以及如何将位置信息用于用户和联系人。
-ms.openlocfilehash: 15e1117c9279872e9ec28ec28834ade68d36463f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7077d10a834fbc42aba6ddd9da3aa64a65b1bebd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633096"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60757378"
 ---
 # <a name="location-policy"></a>位置策略
 
@@ -78,4 +78,4 @@ ms.locfileid: "58633096"
 
 - **E9-1-1 掩码** 指定用户拨打的、然后转换为紧急拨号号码的号码。
 
-有关紧急企业语音功能的详细信息，请参阅规划文档中的 Overview of [E9-1-1。](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-e9-1-1) 有关使用位置策略的详细信息，请参阅操作文档中的[Configuring Location Policy](/previous-versions/office/lync-server-2013/lync-server-2013-viewing-location-policy-information)。
+有关紧急企业语音功能的详细信息，请参阅规划文档中的[Overview of E9-1-1。](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-e9-1-1) 有关使用位置策略的详细信息，请参阅操作文档中的[Configuring Location Policy](/previous-versions/office/lync-server-2013/lync-server-2013-viewing-location-policy-information)。

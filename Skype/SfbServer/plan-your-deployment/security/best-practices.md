@@ -1,7 +1,7 @@
 ---
 title: 适用于企业核心基础结构的Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 44aff88d-536c-4613-a81e-5398c9c6a648
-description: 您可能已经着手设计系统容错能力了，做法有：确保硬件冗余，防止断电，例行安装安全更新和防病毒措施，以及监控服务器活动等。 这些做法不仅对基础结构Skype for Business Server，而且对整个网络都大有益处。 如果您尚未实施这些做法，我们建议您在部署 Skype for Business Server。
-ms.openlocfilehash: c1fe367921344fb62440ce804a8bde4287bfb381
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 您可能已经着手设计系统容错能力了，做法有：确保硬件冗余，防止断电，例行安装安全更新和防病毒措施，以及监控服务器活动等。 这些做法不仅对基础结构Skype for Business Server，而且对整个网络都大有益处。 如果您尚未实施这些做法，我们建议您在部署这些做法之前Skype for Business Server。
+ms.openlocfilehash: c3f07914f69881f4a9ce0c1f7d4451809b06f8e4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584906"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737628"
 ---
 # <a name="best-practices-for-your-core-infrastructure-in-skype-for-business-server"></a>适用于企业核心基础结构的Skype for Business Server
  
-您可能已经着手设计系统容错能力了，做法有：确保硬件冗余，防止断电，例行安装安全更新和防病毒措施，以及监控服务器活动等。 这些做法不仅对基础结构Skype for Business Server，而且对整个网络都大有益处。 如果您尚未实施这些做法，我们建议您在部署 Skype for Business Server。
+您可能已经着手设计系统容错能力了，做法有：确保硬件冗余，防止断电，例行安装安全更新和防病毒措施，以及监控服务器活动等。 这些做法不仅对基础结构Skype for Business Server，而且对整个网络都大有益处。 如果您尚未实施这些做法，我们建议您在部署这些做法之前Skype for Business Server。
   
 为了帮助保护部署中的服务器Skype for Business Server可能导致停机的意外或故意损害，请采取以下预防措施：
   
@@ -31,7 +31,7 @@ ms.locfileid: "58584906"
     
 - 将服务器部署在可防止未授权访问的物理环境中。确保在所有服务器上安装适当的防病毒软件。使用最新的病毒特征文件使软件保持最新。使用防病毒应用程序的自动更新功能使病毒特征保持最新。
     
-- 建议您在安装 Windows 的计算机上禁用不需要的 Windows Server 操作系统Skype for Business Server。
+- 建议您在安装 Windows 的计算机上禁用不需要的 Skype for Business Server。
     
 - 除非可以确保实现连续完整的服务器控制、完全物理隔离以及正确安全地停用更换的或有故障的磁盘驱动器，否则使用全卷加密系统对操作系统和存储数据的磁盘驱动器加密。
     

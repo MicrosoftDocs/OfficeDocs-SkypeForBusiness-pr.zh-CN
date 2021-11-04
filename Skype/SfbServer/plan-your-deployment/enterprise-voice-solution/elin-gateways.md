@@ -1,7 +1,7 @@
 ---
 title: 管理 ELIN 网关在Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ced79c13-4e7e-4034-95cd-6fc913f4f222
 description: 规划使用 ELIN 网关的 E9-1-1 部署的位置信息数据库或类似外部数据库所必需的决策Skype for Business Server 企业语音。
-ms.openlocfilehash: bb0656909866a793bc8d64635b17785020dd646d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f8440e4e125773e91850b890bb2a02c7d1312fde
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596502"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60756519"
 ---
 # <a name="manage-locations-for-elin-gateways-in-skype-for-business-server"></a>管理 ELIN 网关在Skype for Business Server
 
@@ -38,7 +38,7 @@ ms.locfileid: "58596502"
 有关如何执行这些任务的详细信息，请参阅部署文档中的[Configure the Location Database](/previous-versions/office/lync-server-2013/lync-server-2013-configure-the-location-database)。
 
 > [!NOTE]
-> 添加到中央位置数据库的位置在通过使用 Skype for Business Server 命令行管理程序命令发布并复制到池的本地存储之前，对客户端不可用。 有关详细信息，请参阅部署文档中的[Publishing the Location Database](/previous-versions/office/lync-server-2013/lync-server-2013-publish-the-location-database)。
+> 在使用 Skype for Business Server 命令行管理程序命令发布添加到中央位置数据库的位置并复制到池的本地存储之前，这些位置对客户端不可用。 有关详细信息，请参阅部署文档中的[Publishing the Location Database](/previous-versions/office/lync-server-2013/lync-server-2013-publish-the-location-database)。
 
 此部分介绍在您计划更新和维护位置数据库时应考虑的事项。
 
@@ -54,7 +54,7 @@ ms.locfileid: "58596502"
 
 - 一个位置标识符，可帮助用户轻松查看其客户端选取了正确的位置。 客户端Skype for Business连接并在其标头中显示发现的 **Location** 和 **City** 字段。 一个好的做法是将建筑物的街道地址添加到每个位置标识符 (例如，"1st <street number> Floor") 。 如果没有街道地址，那么通用的位置标识符（例如“1st Floor”）可以适用于城市中的所有建筑。
 
-- 如果位置是近似值，因为它由无线接入点决定，您可能需要添加 **单词 [Near]** (例如，"Near 1st Floor 1234") 。
+- 如果位置是近似值，因为它由无线访问点确定，您可能需要添加 **单词 [Near]** (例如，"Near 1st Floor 1234") 。
 
 ### <a name="planning-elins"></a>规划 ELIN
 
@@ -62,11 +62,11 @@ ms.locfileid: "58596502"
 
 **位置和 ELIN 分配示例**
 
-|**建筑区域**|**Location**|**ELIN**|
+|**建筑区域**|**位置**|**ELIN**|
 |:-----|:-----|:-----|
-|第 1 层  <br/> |1   <br/> |425-555-0100  <br/> |
-|第 2 层  <br/> |2   <br/> |425-555-0111  <br/> |
-|第 3 层  <br/> |3   <br/> |425-555-0123  <br/> |
+|第 1 层  <br/> |1  <br/> |425-555-0100  <br/> |
+|第 2 层  <br/> |2  <br/> |425-555-0111  <br/> |
+|第 3 层  <br/> |3  <br/> |425-555-0123  <br/> |
 
 您定义的位置应满足以下要求：
 
@@ -84,9 +84,9 @@ ms.locfileid: "58596502"
 
  **是否具有已包含位置映射的第三方数据库？**
 
-通过使用辅助位置信息服务选项连接到第三方数据库，您可以使用脱机平台对位置进行分组和管理。 此方案的优势在于除了将位置与网络标识符关联外，还可以将位置与用户关联。 这意味着位置信息服务可以将来自辅助位置信息服务的多个地址返回给一个Skype for Business客户端。 然后用户可以选择最合适的位置。
+通过使用辅助位置信息服务选项连接到第三方数据库，您可以使用脱机平台对位置进行分组和管理。 此方案的优势在于除了将位置与网络标识符关联外，还可以将位置与用户关联。 这意味着，位置信息服务可以将来自辅助位置信息服务的多个地址返回到一个Skype for Business客户端。 然后用户可以选择最合适的位置。
 
-若要与位置信息服务集成，第三方数据库必须遵循Skype for Business Server请求/响应架构。 有关详细信息，请参阅[Web Service for E911 Support Protocol。](/openspecs/office_protocols/ms-e911ws/ab5d7449-2c15-434b-bf65-fdf38b8ffabd) 有关部署辅助位置信息服务的详细信息，请参阅部署文档中Skype for Business Server配置辅助[位置](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md)信息服务。
+若要与位置信息服务集成，第三方数据库必须遵循Skype for Business Server请求/响应架构。 有关详细信息，请参阅[Web Service for E911 Support Protocol。](/openspecs/office_protocols/ms-e911ws/ab5d7449-2c15-434b-bf65-fdf38b8ffabd) 有关部署辅助位置信息服务的详细信息，请参阅部署文档中Skype for Business Server配置[](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md)辅助位置信息服务。
 
 有关填充位置数据库的详细信息，请参阅部署文档中的 Configure [the Location Database。](/previous-versions/office/lync-server-2013/lync-server-2013-configure-the-location-database)
 

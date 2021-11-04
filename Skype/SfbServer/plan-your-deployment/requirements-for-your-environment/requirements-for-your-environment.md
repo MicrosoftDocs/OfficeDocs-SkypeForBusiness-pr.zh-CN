@@ -1,7 +1,7 @@
 ---
 title: 测试环境Skype for Business要求
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 8/17/2015
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 306d3397-f305-4919-bdb1-aa7bb7b5c534
 description: 摘要：2015 年 3 月的系统要求、网络或基础结构Skype for Business Server概述。 如果需要安装或配置任何内容作为在 2015 中安装和部署 Skype for Business Server的先决条件，它将在此处。
-ms.openlocfilehash: fef1ea11641ad6e5732781e264dc369fa34f042d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a74b9d19be63769567f710ceb78cba304a53a759
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601307"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60756499"
 ---
 # <a name="requirements-for-your-skype-for-business-2015-environment"></a>2015 Skype for Business的要求
  
@@ -32,7 +32,7 @@ ms.locfileid: "58601307"
   
 ## <a name="whats-in-this-topic"></a>本主题中的内容
 
-环境要求部分中的两篇文章概述了在组织服务器环境中成功部署或升级到 Skype for Business Server 2015 之前需要拥有和/或配置的内容。
+环境要求部分中的两篇文章概述了在贵组织的服务器环境中成功部署或升级到 Skype for Business Server 2015 之前需要拥有和/或配置的内容。
   
 ### <a name="server-requirements"></a>服务器要求
 
@@ -40,6 +40,6 @@ ms.locfileid: "58601307"
   
 ### <a name="environmental-requirements"></a>环境要求
 
-[Skype for Business Server 2015](environmental-requirements.md)的环境要求是，在部署 2015 年 10 月之前，基础结构中需要准备好的Skype for Business Server范围。
+[在部署 Skype for Business Server 2015](environmental-requirements.md)之前，针对 Skype for Business Server 2015 的环境要求是基础结构中需要准备的更广泛的Skype for Business Server要求。
   
 

@@ -1,7 +1,7 @@
 ---
-title: UCWA 事件Skype for Business Server
+title: UCWA 事件在Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 26cb409d-f4e4-43c7-873f-b694702d491d
-description: 摘要：了解统一通信 Web API (UCWA) 中Skype for Business Server。
-ms.openlocfilehash: 9fb052e1494354bc62f097152704bec1888e6523
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 摘要：了解统一通信 Web API (UCWA) Skype for Business Server。
+ms.openlocfilehash: 32022d44635e9560e28723812c1247fda38cf00d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598812"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763620"
 ---
-# <a name="ucwa-events-in-skype-for-business-server"></a>UCWA 事件Skype for Business Server
+# <a name="ucwa-events-in-skype-for-business-server"></a>UCWA 事件在Skype for Business Server
  
-**摘要：** 了解统一通信 Web API (UCWA) Skype for Business Server。
+**摘要：** 了解统一通信 Web API (UCWA) 中Skype for Business Server。
   
 Skype for Business Server UCWA (统一通信 Web API) 用于许多目的，从访问 Microsoft Exchange 进行联系人搜索到更新移动客户端状态。
   

@@ -1,7 +1,7 @@
 ---
 title: TraceRoute 表
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b9493cef-6ece-4f13-bf68-dbf132aab4f4
 description: TraceRoute 表包含来自呼叫的路由信息。 此表在 Microsoft Lync Server 2013 中引入。
-ms.openlocfilehash: 2cecfb0fe941404668d6eedd7c146fdc92aaadd1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9b06b312abf00bcec5726741cfc7d5dc8eeb4520
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578556"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60756113"
 ---
 # <a name="traceroute-table"></a>TraceRoute 表
  
 TraceRoute 表包含来自呼叫的路由信息。 此表在 Microsoft Lync Server 2013 中引入。
   
-|**列**|**数据类型**|**键/索引**|**Details**|
+|**列**|**数据类型**|**键/索引**|**详细信息**|
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |datetime  <br/> |主、外  <br/> |呼叫开始的日期和时间。  <br/> |
 |**SessionSeq** <br/> |int  <br/> |主、外  <br/> |用来区分可能在相同日期和相同时间开始的多个呼叫的唯一标识符。  <br/> |

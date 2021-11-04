@@ -1,7 +1,7 @@
 ---
-title: 在 2015 年 10 月为持久聊天服务器Skype for Business Server灾难恢复
+title: 在 2015 年 6 月为持久聊天服务器Skype for Business Server灾难恢复
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/7/2018
@@ -13,26 +13,26 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 5fb5b189-56c1-49cf-92c8-e4fd6e2fdd5c
 description: 摘要：阅读本主题，了解如何在 Skype for Business Server 2015 中为持久聊天服务器配置高可用性和灾难恢复。
-ms.openlocfilehash: 265065a5b4ff52dc65dccb4b0e045e3d9e21c452
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b4377d2151adfccd591bb7c59d7d8854f03e453b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601877"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60755631"
 ---
-# <a name="configure-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>在 2015 年 10 月为持久聊天服务器Skype for Business Server灾难恢复
+# <a name="configure-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>在 2015 年 6 月为持久聊天服务器Skype for Business Server灾难恢复
  
 **摘要：** 阅读本主题，了解如何在 Skype for Business Server 2015 中为持久聊天服务器配置高可用性和灾难恢复。
   
-Skype for Business Server支持多种模式的后端服务器高可用性，包括数据库镜像。 有关详细信息，请参阅[Plan for high availability and disaster recovery in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)。
+Skype for Business Server后端服务器支持多种高可用性模式，包括数据库镜像。 有关详细信息，请参阅[Plan for high availability and disaster recovery in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)。
   
 > [!NOTE]
 > 持久聊天服务器不支持 AlwaysOn 可用性组。 
 
 > [!NOTE] 
-> 持久聊天在 Skype for Business Server 2015 中可用，但在 2019 年 2 Skype for Business Server不再受支持。 相同的功能在 Teams 中可用。 有关详细信息，请参阅[开始升级Microsoft Teams升级](/microsoftteams/upgrade-start-here)。 如果您需要使用持久聊天，您的选择是迁移需要此功能的用户以Teams或继续使用 Skype for Business Server 2015。
+> 持久聊天在 2015 Skype for Business Server可用，但在 2019 年 2 月不再Skype for Business Server支持。 相同的功能在 Teams 中可用。 有关详细信息，请参阅开始[升级Microsoft Teams升级](/microsoftteams/upgrade-start-here)。 如果您需要使用持久聊天，您的选择是迁移需要此功能的用户以Teams或继续使用 Skype for Business Server 2015。
   
-在将持久聊天部署配置为高可用性和灾难恢复之前，请确保您熟悉在[Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md)中规划持久聊天服务器的高可用性和灾难恢复中的概念。 这些主题中介绍的持久聊天服务器的灾难恢复解决方案是在拉伸的持久聊天服务器池上构建的。 规划内容介绍了资源要求，以及支持持久聊天服务器的高可用性和灾难恢复的扩展池拓扑，包括使用 SQL Server 镜像实现高可用性和实现灾难恢复的 SQL Server 日志。
+在配置持久聊天部署实现高可用性和灾难恢复之前，请确保您熟悉在[Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md)中规划持久聊天服务器的高可用性和灾难恢复中的概念。 这些主题中介绍的持久聊天服务器的灾难恢复解决方案是在拉伸的持久聊天服务器池上构建的。 规划内容介绍了资源要求以及支持持久聊天服务器的高可用性和灾难恢复的扩展池拓扑，包括使用 SQL Server 镜像实现高可用性和实现灾难恢复的 SQL Server 日志。
   
 ## <a name="use-topology-builder-to-configure-high-availability-and-disaster-recovery"></a>使用拓扑生成器配置高可用性和灾难恢复
 
@@ -81,11 +81,11 @@ Skype for Business Server支持多种模式的后端服务器高可用性，包�
     
 10. 在“辅助服务器实例和数据库”下，单击“添加”。
     
-11. 单击 **连接** 并连接到SQL Server配置为辅助服务器的客户端实例。
+11. 单击 **连接** 并连接到SQL Server配置为辅助服务器的服务器实例。
     
 12. 在“辅助数据库”框中，从列表中选择“mgc”数据库。
     
-13. 在"**初始化** 辅助数据库"选项卡上，选择选项"是，生成主数据库的完整备份，并还原到辅助数据库 (如果辅助数据库不存在 **) "。**
+13. 在"**初始化** 辅助数据库"选项卡上，选择选项"是，生成主数据库的完整备份，并还原到辅助数据库 (如果辅助数据库 **) "。**
     
 14. 在“复制文件”选项卡上的“复制文件的目标文件夹”框中，键入应将事务日志备份复制到的文件夹的路径。此文件夹通常位于辅助服务器上。
     
@@ -97,7 +97,7 @@ Skype for Business Server支持多种模式的后端服务器高可用性，包�
     
 18. 在“在以下时间内没有执行还原时报警”下选择报警阈值。
     
-19. 查看“还原作业”下的“计划”框中列出的还原计划。 若要自定义安装计划，请单击"计划"，根据需要SQL Server"代理计划"，然后单击"确定 **"。**  此计划应与备份计划大致相同。
+19. 查看“还原作业”下的“计划”框中列出的还原计划。 若要自定义安装计划，请单击"计划"，根据需要SQL Server代理计划"，然后单击"确定 **"。**  此计划应与备份计划大致相同。
     
 20. 在“数据库属性”对话框中，单击“确定”开始配置过程。
     

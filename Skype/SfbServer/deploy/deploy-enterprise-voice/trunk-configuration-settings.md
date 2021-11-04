@@ -1,7 +1,7 @@
 ---
 title: Skype for Business Server：创建新的中继配置设置集合
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4ebd710c-38cd-4cff-9a45-df029d424580
-description: 摘要：了解如何使用"控制面板"创建新的中继配置Skype for Business Server集合。
-ms.openlocfilehash: a538ad2ff5e19c21ba36afaf928144c7d255e8e2
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+description: 摘要：了解如何使用"安全"控制面板创建新的中继配置Skype for Business Server集合。
+ms.openlocfilehash: 95eae0c14aad532b3f3f80e01c2acc0918751496
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012326"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60755651"
 ---
 # <a name="skype-for-business-server-create-a-new-collection-of-trunk-configuration-settings"></a>Skype for Business Server：创建新的中继配置设置集合
 
-**摘要：** 了解如何使用"安全"控制面板创建新的中继配置Skype for Business Server集合。
+**摘要：** 了解如何使用"管理"控制面板创建新的中继配置Skype for Business Server集合。
   
 SIP 中继配置设置定义中介服务器与服务提供商的公用电话交换网 (PSTN) 网关、IP-Public Branch eXchange (PBX) 或会话边界控制器 (SBC) 之间的关系和功能。 这些设置按下面的指示执行此类操作：
   
@@ -77,4 +77,4 @@ SIP 中继配置设置定义中介服务器与服务提供商的公用电话交�
     
 6. 在“未提交的语音配置设置”对话框中，单击“确定”。
     
-7. 在 **"Skype for Business Server控制面板"** 对话框中，单击"确定 **"。**
+7. 在 **"Skype for Business Server控制面板**"对话框中，单击"确定 **"。**

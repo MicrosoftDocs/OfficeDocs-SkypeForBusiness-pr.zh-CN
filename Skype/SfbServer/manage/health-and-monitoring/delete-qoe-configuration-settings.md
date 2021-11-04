@@ -1,7 +1,7 @@
 ---
-title: 删除用户体验质量配置设置Skype for Business Server
+title: 删除"体验质量"配置设置Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: fd0c4c2f-3bfb-42cb-9b6a-f0f8d5aa9e81
-description: 摘要：了解如何在 Skype for Business Server 中删除 QoE (QoE) 用户体验质量Skype for Business Server。
-ms.openlocfilehash: e82e844fb217f8c2e71ecb21a6d70e26c4b90ade
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+description: 摘要：了解如何删除 (QoE) QoE Skype for Business Server。
+ms.openlocfilehash: 036944af245b608ccae9836670133f99f8004068
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014496"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763660"
 ---
-# <a name="delete-quality-of-experience-configuration-settings-in-skype-for-business-server"></a>删除用户体验质量配置设置Skype for Business Server
+# <a name="delete-quality-of-experience-configuration-settings-in-skype-for-business-server"></a>删除"体验质量"配置设置Skype for Business Server
  
-**摘要：** 了解如何在 Skype for Business Server 中删除 QoE (QoE) 用户体验质量Skype for Business Server。
+**摘要：** 了解如何删除 (QoE) 中的用户体验质量Skype for Business Server。
   
 用户体验质量 (QoE) 指标跟踪组织中发出的语音和视频呼叫的质量，包括网络数据包丢失数目、背景噪音、“抖动”量（数据包延迟的差异）等。这些指标与其他数据（如呼叫详细信息记录）分开存储在一个数据库中，这样您就可以独立于其他数据记录启用和禁用 QoE。
   
@@ -45,7 +45,7 @@ ms.locfileid: "60014496"
     
 ## <a name="removing-qoe-configuration-settings-by-using-windows-powershell-cmdlets"></a>使用 cmdlet 设置 QoE 配置Windows PowerShell QoE 配置
 
-可以通过使用 Windows PowerShell **和 Remove-CsQoEConfiguration** cmdlet 删除 QoE 配置设置。 可以从命令行管理程序或 Skype for Business Server远程会话中运行此 cmdlet Windows PowerShell。 有关使用远程 powerShell Windows PowerShell连接到Skype for Business Server的详细信息，请参阅 Microsoft Lync [Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 此过程在Skype for Business Server。
+可以使用 Windows PowerShell **和 Remove-CsQoEConfiguration** cmdlet 删除 QoE 配置设置。 可以从命令行管理程序或 Skype for Business Server远程会话中运行此 cmdlet Windows PowerShell。 有关使用远程 powerShell Windows PowerShell连接到Skype for Business Server的详细信息，请参阅 Microsoft Lync [Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 此过程在Skype for Business Server。
   
 ### <a name="to-remove-a-specified-collection-of-qoe-configuration-settings"></a>删除 QoE 配置设置的指定的集合
 

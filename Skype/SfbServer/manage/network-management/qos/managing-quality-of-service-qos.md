@@ -1,11 +1,11 @@
 ---
-title: 'Managing Quality of Service (QoS) '
+title: '管理服务质量 (QoS) '
 ms.reviewer: ''
 ms:assetid: ab1051c3-8380-4d72-86df-37a61b1e4a41
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg405409(v=OCS.15)
 ms:contentKeyID: 48185049
 mtps_version: v=OCS.15
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -14,15 +14,15 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-description: 服务质量 (QoS) 是一种网络技术，在某些组织中用于帮助为音频和视频通信提供最佳最终用户体验。
-ms.openlocfilehash: 33c580e61be0dcd2a5a193a654294a5ea9087d12
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: QoS (QoS) 是一种网络技术，在某些组织中用于帮助为音频和视频通信提供最佳最终用户体验。
+ms.openlocfilehash: 646d06e7fbd710b8c623b2d54dae773192227d91
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612161"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60757257"
 ---
-# <a name="managing-quality-of-service-qos-in-skype-for-business-server"></a>管理服务质量 (QoS) 中Skype for Business Server
+# <a name="managing-quality-of-service-qos-in-skype-for-business-server"></a>Managing Quality of Service (QoS) in Skype for Business Server
 
 
 服务质量 (QoS) 是某些组织中所使用的一种网络技术，目的是有助于针对音频和视频通信提供最佳的最终用户体验。QoS 最常用于带宽有限的网络上：其中大量的网络数据包争用相对数量较小的可用带宽。服务质量为管理员提供一种为承载音频或视频数据的数据包分配较高优先级的方法。通过为这些数据包提供较高的优先级，与涉及诸如文件传输、Web 浏览或数据库备份等内容的网络会话相比，音频和视频通信可能会以更快的速度完成，并且发生更少的中断。这是因为针对用于文件传输或数据库备份的网络数据包分配了“最佳效果”优先级。
@@ -33,7 +33,7 @@ ms.locfileid: "58612161"
 
 Skype for Business Server不需要服务质量;如果当前不使用 QoS，则不需要在安装 QoS 之前安装Skype for Business Server。 如果在您的网络上发生大量的数据包丢失，建议用来缓解此问题的方法是添加额外的带宽。 如果无法添加更多的带宽，您可能想要改为实施服务质量。
 
-Skype for Business Server提供对服务质量的完全支持：这意味着已使用 QoS 的组织可以轻松Skype for Business Server集成到其现有网络基础结构中。 为执行此操作，您必须执行以下任务：
+Skype for Business Server提供对服务质量的完全支持：这意味着已使用 QoS 的组织可以轻松将 Skype for Business Server集成到其现有网络基础结构中。 为执行此操作，您必须执行以下任务：
 
   - [为不基于 Windows 的设备启用 QoS。](enabling-qos-for-devices-that-are-not-based-on-windows.md) 默认情况下，会针对运行其他操作系统的计算机和其他设备（如 iPhone）禁用 QoS。 尽管可以使用Skype for Business Server启用和禁用设备的服务质量，但通常无法使用该产品修改这些设备使用的 DSCP 代码。
 
@@ -41,6 +41,6 @@ Skype for Business Server提供对服务质量的完全支持：这意味着已�
 
   - [为边缘服务器配置端口范围和服务质量策略](configuring-port-ranges-for-your-edge-servers.md)。 虽然不需要，但是可以将您的边缘服务器配置为与其他服务器使用相同的端口范围。 配置服务质量策略只应为边缘服务器的内部端执行。 原因是服务质量设计用于内部网络而不是 Internet 上。
 
-- [在客户端中为客户端](configuring-port-ranges-for-your-skype-clients.md)配置端口范围Skype for Business Server 这些端口范围仅适用于客户端计算机，并且通常不同于服务器上配置的端口范围。 请注意，Skype for Business Server不支持 QoS Windows操作系统，而不支持其他Windows 10。
+- 在 Skype for Business Server 中为客户端配置端口范围和[服务质量Skype for Business Server](configuring-port-ranges-for-your-skype-clients.md) 这些端口范围仅适用于客户端计算机，并且通常不同于服务器上配置的端口范围。 请注意，Skype for Business Server不支持 QoS Windows操作系统，而不支持 qoS Windows 10。
 
 

@@ -1,7 +1,7 @@
 ---
 title: 为早期采用者上线 Microsoft Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 11/06/2018
 ms.topic: article
@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c415b4e16a75c6acac91e9cae526364c6f65acb1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 45ffd7a36d128e8b64ecc2726e4562b96e42fbfb
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632156"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777512"
 ---
 # <a name="onboard-early-adopters-to-microsoft-teams"></a>为早期采用者上线 Microsoft Teams
 

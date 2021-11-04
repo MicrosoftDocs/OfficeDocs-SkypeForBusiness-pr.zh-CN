@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 采用第 1 阶段 - 开始
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 10/29/2018
 audience: Admin
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 72bdeb6307970676de1b242738ec2d50789fa7c2
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 4cf809a665a008adf7b7e613a58f4ff274c6a708
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728081"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741528"
 ---
 # <a name="microsoft-teams-adoption-phase-1---start"></a>Microsoft Teams 采用第 1 阶段 - 开始
 
@@ -54,7 +54,7 @@ ms.locfileid: "58728081"
 | 成功所有者<sup>1</sup> | 确保业务目标从新的部署Teams实现。 | 任何部门 |
 | 项目经理<sup>1</sup> | 监督整个Teams启动执行和推出过程。 | IT |
 | 冠军<sup>1</sup> | 帮助宣传Teams，支持技能构建，并提供使用情况见解。 | 多个部门 |
-| 培训主管 | 管理和传达有关Teams。 | IT 或其他 |
+| 培训主管 | 管理和传达有关 Teams 的培训Teams。 | IT 或其他 |
 | 部门主管 (利益干系人) <sup>2</sup> | 确定特定部门如何使用Teams并鼓励参与。 | 任何部门 (管理)  |
 | IT 专家<sup>1</sup> | 监督实施的所有技术方面，包括集成。 | IT |
 | 通信主管<sup>2</sup> | 监督公司范围内有关Teams。 | 公司通信、IT 或其他 |
@@ -69,7 +69,7 @@ ms.locfileid: "58728081"
 
 [Microsoft Technical Community](https://aka.ms/TechCommunity)提供对等提供的见解，了解许多应用和Microsoft 365产品的Office 365问题。 建议加入以下社区：
 
-- [Microsoft Teams技术Community](https://aka.ms/TeamsCommunity) - 获取产品问题解答，向其他 Teams 客户学习，并关注我们的博客，随时了解适用于 Teams 的新功能和用例。 
+- [Microsoft Teams技术Community](https://aka.ms/TeamsCommunity) - 获取产品问题解答，向其他 Teams 客户学习，并关注我们的博客，随时了解 Teams 的新功能和用例。 
 - [支持计划](https://aka.ms/O365Champions)与推动采用社区 - 向同行学习如何最好地推动 Microsoft 365 或 Office 365 工作负荷（如 Teams、SharePoint、Yammer 和其他产品的采用）。 向 IT 专业人员、业务用户、"意外"开发人员以及有兴趣推动采用云服务的任何人开放。  
 
 

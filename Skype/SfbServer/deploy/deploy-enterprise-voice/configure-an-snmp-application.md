@@ -1,7 +1,7 @@
 ---
 title: 在服务器中配置 SNMP Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c4b4a736-3b2e-45b9-a965-19d22161ad57
 description: 将 SNMP 应用程序配置为在 Skype for Business Server 企业语音 中与 E9-1-1 一Skype for Business Server 企业语音。
-ms.openlocfilehash: ec93aa572b2acf80afa104bba3b5fd1f9573f985
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b033a25d16e5f9ffae47111dbd0929441a735796
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597756"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741448"
 ---
 # <a name="configure-an-snmp-application-in-skype-for-business-server"></a>在服务器中配置 SNMP Skype for Business Server
  
 将 SNMP 应用程序配置为在 Skype for Business Server 企业语音 中与 E9-1-1 一Skype for Business Server 企业语音。 
   
-Skype for Business Server包括一个标准的 Web 服务接口，您可以使用该接口将位置信息服务连接到与 MAC 地址与端口和交换机信息匹配的简单网络管理协议 (SNMP) 应用程序。 
+Skype for Business Server包括一个标准的 Web 服务接口，可用于将位置信息服务连接到与 MAC 地址与端口和交换机信息匹配的简单网络管理协议 (SNMP) 应用程序。 
   
 如果安装了 SNMP 应用程序，而位置信息服务在位置数据库中找不到匹配项，则位置信息服务将自动使用客户端提供的 MAC 地址查询该应用程序。 然后，位置信息服务使用 SNMP 应用程序返回的端口和交换机信息再次查询位置数据库。
   

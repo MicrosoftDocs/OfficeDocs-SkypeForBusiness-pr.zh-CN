@@ -1,7 +1,7 @@
 ---
 title: '电话拨入式会议 (规划工具) '
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 ms.assetid: c1f79a05-165c-47ec-8593-0bb3d43ee16f
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype for Business Server电话拨入式会议使用户可以使用公用电话交换网 (PSTN) 电话加入 Skype for Business Server 会议的音频部分，而无需第三方音频会议提供商。
-ms.openlocfilehash: bf45b8b19e09131ddc3bf5c32cb3a80808b797fe
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6857c230852ee99df46f34034c2f333acf19a49d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583026"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748598"
 ---
 # <a name="dial-in-conferencing-planning-tool"></a>电话拨入式会议 (规划工具) 
  

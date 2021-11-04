@@ -1,7 +1,7 @@
 ---
 title: 用户查看或配置客户端版本策略
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 446915b6-462e-4cc1-8584-9f59f7eb8cc8
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: 8e0ea0d233363dc81f852d1e83d7432d13576461
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0129f53e6a864cf26efe740514a1cd4057a391bb
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602983"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748698"
 ---
 # <a name="users-view-or-configure-client-version-policy"></a>用户：查看或配置客户端版本策略
 

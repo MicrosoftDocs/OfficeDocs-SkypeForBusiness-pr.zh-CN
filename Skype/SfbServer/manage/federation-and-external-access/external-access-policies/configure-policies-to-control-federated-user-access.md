@@ -5,7 +5,7 @@ ms:assetid: 5485e208-81e4-4e59-9aeb-1232c11dd8a2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398359(v=OCS.15)
 ms:contentKeyID: 48184180
 mtps_version: v=OCS.15
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: '如果将策略配置为支持与联盟伙伴进行通信，则策略将适用于联盟域用户。 '
-ms.openlocfilehash: 86d3988df429b3bc9ef2972aa27e0a6ed03ceb72
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 892ba1207f0c3426b3577364f19652514e8e2110
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58588584"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763750"
 ---
 # <a name="configure-policies-to-control-federated-user-access-in-skype-for-business-server"></a>配置策略以控制联盟用户访问Skype for Business Server
 
@@ -63,11 +63,11 @@ ms.locfileid: "58588584"
 
 如果这是一个用户策略，则还必须将此策略应用于希望其可以与联盟用户进行协作的用户。 有关详细信息，请参阅 [分配外部用户访问策略](assign-an-external-user-access-policy.md)。
 
-## <a name="to-configure-an-existing-policy-using-windows-powershell-to-support-access-by-users-of-federated-domains"></a>使用域配置现有Windows PowerShell以支持联盟域用户访问
+## <a name="to-configure-an-existing-policy-using-windows-powershell-to-support-access-by-users-of-federated-domains"></a>使用 Windows PowerShell配置现有策略以支持联盟域用户访问
 
 1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
 
-2.  Start the Skype for Busines Server Management Shell： Click **Start**， click **All Programs，** click **Skype for Business Server**， and then click Skype for Business Server **Management Shell**.
+2.  Start the Skype for Busines Server Management Shell： Click **Start**， click **All Programs，** click **Skype for Business Server，** and then click **Skype for Business Server Management Shell**.
 
 3.  在命令行管理程序Skype for Business Server以下内容：
     
@@ -84,7 +84,7 @@ ms.locfileid: "58588584"
 
 1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
 
-2.  启动命令行Skype for Business Server：单击"开始"，单击"所有程序"，单击 **"Microsoft Skype for Business Server"，** 然后单击"Skype for Business Server **命令行管理程序"。** 
+2.  启动命令行Skype for Business Server：单击"开始"，单击"所有程序 **"，单击****"Microsoft Skype for Business Server"，** 然后单击"Skype for Business Server **命令行管理程序"。**
 
 3.  在命令行管理程序Skype for Business Server以下内容：
     
@@ -99,7 +99,7 @@ ms.locfileid: "58588584"
     ```
 
 
-## <a name="to-delete-or-reset-a-policy-using-windows-powershell-to-support-access-by-users-of-federated-domains"></a>使用策略删除或重置Windows PowerShell以支持联盟域用户访问
+## <a name="to-delete-or-reset-a-policy-using-windows-powershell-to-support-access-by-users-of-federated-domains"></a>使用 Windows PowerShell 删除或重置策略以支持联盟域用户访问
 
 1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
 

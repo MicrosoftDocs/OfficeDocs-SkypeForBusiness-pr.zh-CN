@@ -1,7 +1,7 @@
 ---
 title: 用户编辑用户
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e687e12e-efae-4b8c-a716-c29c41ee7b75
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: edec3292e5495f299160887d703fe52cce1d9deb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d422529b896fcf4543e49d2eca4e3ca9ab012c2a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596756"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748038"
 ---
 # <a name="users-edit-user"></a>用户：编辑用户
 

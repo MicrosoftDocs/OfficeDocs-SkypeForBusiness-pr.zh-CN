@@ -1,7 +1,7 @@
 ---
 title: 用于在线电话系统推广的用户通知电子邮件模板
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 03/31/2018
 ms.topic: article
@@ -16,12 +16,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 34e15e3b9fccd466905572e6cd234da2f498216b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 28cd5ad822863876527877ca0bf633577e21914d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617198"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737488"
 ---
 # <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>帮助用户采用新的在线电话系统
 

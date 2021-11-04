@@ -1,7 +1,7 @@
 ---
 title: UserStatistics 表
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: cfaf803b-1679-4169-92d3-533fad3e56ed
 description: UserStatistics 表是一个支持表。 表中的每条记录都存储有关单个用户对系统的使用情况的信息。 此表在 Microsoft Lync Server 2013 中引入。
-ms.openlocfilehash: c05277c5999866ea7ba63befeef9e1198436642c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 01f002e1cba20200334f8696f9fb2c20c98e82c1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609179"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60756445"
 ---
 # <a name="userstatistics-table"></a>UserStatistics 表
  
 UserStatistics 表是一个支持表。 表中的每条记录都存储有关单个用户对系统的使用情况的信息。 此表在 Microsoft Lync Server 2013 中引入。
   
-|**列**|**数据类型**|**键/索引**|**Details**|
+|**列**|**数据类型**|**键/索引**|**详细信息**|
 |:-----|:-----|:-----|:-----|
 |**UserId** <br/> |int  <br/> |主  <br/> |用于标识此用户的唯一编号。  <br/> |
 |**LastLogInTime** <br/> |datetime  <br/> ||用户上次登录时间。  <br/> |

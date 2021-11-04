@@ -2,7 +2,7 @@
 title: 管理灾难恢复、高可用性和备份服务
 ms.reviewer: ''
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 了解灾难恢复操作以及维护备份服务的过程，备份服务同步配对前端池中的数据。
-ms.openlocfilehash: b8635728710efbd2c820b6ca57333f77b56d04e5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 962f595dffb56f36ce8d6008db62308c352706cd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612261"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763700"
 ---
 # <a name="managing-skype-for-business-server-disaster-recovery-high-availability-and-backup-service"></a>管理Skype for Business Server灾难恢复、高可用性和备份服务
 

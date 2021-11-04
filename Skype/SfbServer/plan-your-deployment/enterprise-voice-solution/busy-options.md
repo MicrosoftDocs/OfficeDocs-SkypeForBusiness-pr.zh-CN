@@ -1,7 +1,7 @@
 ---
 title: 规划忙碌选项Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5f85c6bc-a962-4283-971c-4380d83b3a66
 description: 阅读有关"忙碌选项"功能的信息Skype for Business Server。
-ms.openlocfilehash: c43a5a0cae0a798f3c38c62b4a1c7895d9704fbb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d47b31c53b5357a520f6aa0b3a6c0a02c18df8f2
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583876"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60756539"
 ---
 # <a name="plan-for-busy-options-for-skype-for-business-server"></a>规划忙碌选项Skype for Business Server
  
@@ -28,7 +28,7 @@ ms.locfileid: "58583876"
   
 忙碌选项是 2016 年 7 月累积更新中引入的新语音策略，允许你配置在用户已接听电话或参加会议或将呼叫置于保持状态时如何处理传入呼叫。 可以使用繁忙信号拒绝新呼叫或传入呼叫，也可以将新呼叫或传入呼叫转发到语音邮件。 
   
-SBS 服务器上配对的前端池和 Survivable Branch Servers 支持故障转移和灾难恢复的忙碌选项 (SBS) 。
+在 SBS 服务器上配对的前端池和 Survivable Branch Servers 上支持故障转移和灾难恢复 (策略) 。
   
 本主题介绍忙碌选项的功能。 若要了解如何安装和配置忙碌选项，请参阅安装和配置忙碌选项[Skype for Business Server。](../../deploy/deploy-enterprise-voice/install-and-configure-busy-options.md)
   
@@ -40,13 +40,13 @@ SBS 服务器上配对的前端池和 Survivable Branch Servers 支持故障转�
     
 - Busy 上的语音邮件 - 在用户忙碌时，新传入呼叫将转发到语音邮件。
     
-忙碌选项功能提供故障转移功能。 如果出现问题且用户故障转移到其他前端服务器或 Skype for Business Server中的另一个池，将保留其忙碌选项设置。
+忙碌选项功能提供故障转移功能。 如果出现问题，并且用户故障转移到其他前端服务器或 Skype for Business Server中的另一个池，将保留其忙碌选项设置。
   
 无论用户如何配置忙碌选项，呼叫或会议中的用户或呼叫保持的用户不会阻止发起新呼叫或会议。 
   
 配置后，忙碌选项设置将作用于用户的所有呼叫Skype for Business和客户端。 根据用户的忙碌选项设置，被拒绝或发送到语音邮件的呼叫不会在用户登录的任何呼叫设备（包括 Macintosh、Windows 桌面、移动客户端或 IP 电话）上响铃。 
   
-用户将在自己的客户端和设备上Skype for Business未接来电通知，并且也会收到电子邮件通知。 呼叫因忙碌而被拒绝的呼叫的呼叫者将在其 Skype for Business 客户端中看到一条通知，指出他们尝试联系的用户正在进行另一个呼叫。
+用户将在其客户端和设备上Skype for Business未接来电通知，并且也会收到电子邮件通知。 呼叫因忙碌而被拒绝的呼叫的呼叫者将在其 Skype for Business 客户端中看到一条通知，指出他们尝试联系的用户正在进行另一个呼叫。
   
 可以使用 PowerShell cmdlet 配置忙碌选项Skype for Business以下项：
   

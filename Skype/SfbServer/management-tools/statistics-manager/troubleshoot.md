@@ -1,7 +1,7 @@
 ---
 title: 对 Skype for Business Server 的统计信息管理器进行故障排除
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 946189fa-521f-455c-9762-904e7e41b791
 description: 摘要：阅读本主题，解决统计信息管理器部署问题Skype for Business Server。
-ms.openlocfilehash: 622e3fdecc9cbe0def1f87a623692cb93889bb00
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3f3bade7c7696e7361b63dc2f539534b6072d34a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612051"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777302"
 ---
 # <a name="troubleshoot-statistics-manager-for-skype-for-business-server"></a>对 Skype for Business Server 的统计信息管理器进行故障排除
  
@@ -37,9 +37,9 @@ ms.locfileid: "58612051"
 
 - **1000** — 无法为作业对象设置 (限制) — 未知原因
     
-- **1001** - 在作业对象模型内 (进程上不允许进程) 
+- **1001** — 在作业对象模型内 (进程上不允许进程) 
     
-    代理在作业对象Windows自动限制其内存占用。 如果代理不会启动，并且这些事件条目存在于事件日志中，则不能在服务器上实例化作业对象。 若要处理此情况，可以通过更改以下项中的值来删除配置文件：
+    代理在作业对象Windows自动限制其内存占用。 如果代理不会启动，并且这些事件条目存在于事件日志中，则不能在服务器上实例化作业对象。 若要处理此情况，可以通过更改以下项中的值来配置文件：
     
   ```console
   C:\Program Files\Skype for Business Server StatsMan Agent\PerfAgent.exe.config
@@ -66,7 +66,7 @@ ms.locfileid: "58612051"
         
     2. 使用 telnet 等连接工具验证从代理计算机到正确端口上的侦听器的连接。
         
-        如果没有，请确保在侦听器计算机上为侦听器计算机连接到专用/公共/域 (类型的网络类型启用传入防火墙) 。 如果侦听器计算机未加入域，则网络可能列为公共网络，在这种情况下，随统计信息管理器一起安装的防火墙规则在默认情况下不适用。
+        如果没有，请确保在侦听器计算机上为侦听器计算机连接到专用/公共/域或域 (类型的网络类型启用传入防火墙) 。 如果侦听器计算机未加入域，则网络可能列为公共网络，在这种情况下，随统计信息管理器一起安装的防火墙规则在默认情况下不适用。
     
 - **4000** - 无法从侦听器下载服务器信息 (未知原因) 
     
@@ -76,7 +76,7 @@ ms.locfileid: "58612051"
     
   - 确保按照导入拓扑的说明进行操作。 请参阅 [导入拓扑](deploy.md#BKMK_ImportTopology)。 
     
-  - 如果代理位于拓扑中未列出的服务器上 (例如 SQL AlwaysOn 群集) 中的节点，则需要按照导入拓扑中的说明手动添加[代理](deploy.md#BKMK_ImportTopology)。
+  - 如果代理位于拓扑 (未列出的服务器上，例如 SQL AlwaysOn 群集) 中的节点，则需要按照导入拓扑中的说明手动添加[代理](deploy.md#BKMK_ImportTopology)。
     
   - **4002** — 侦听器密码无效
     
@@ -105,7 +105,7 @@ ms.locfileid: "58612051"
     
   - **10001** — 配置问题
     
-    通常，当 [listener_install_location]\PerfAgentListener.exe.config文件已手动修改并且应用程序无法读取时，将会发生这种情况。
+    通常，当 [listener_install_location]\PerfAgentListener.exe.config文件已手动修改且无法由应用程序读取时，将会发生这种情况。
     
   - **10002** — HTTP 侦听器初始化错误
     
@@ -113,7 +113,7 @@ ms.locfileid: "58612051"
     
   - **10003** — Redis 失败
     
-  - **10004** — Caching基础结构故障
+  - **10004** - Caching基础结构故障
     
   - **10007** - 设置 (redis) 
     
@@ -125,7 +125,7 @@ ms.locfileid: "58612051"
     
 - **10100** — Redis PING 中断
     
-  - **10101** — Redis PING 每隔 60 (60 秒继续中断) 
+  - **10101** — Redis PING 每隔 60 (60 秒持续中断) 
     
   - **30100** — Redis PING 中断还原
     
@@ -145,9 +145,9 @@ ms.locfileid: "58612051"
     
 - **22000** — 统计信息管理器代理初始化成功。
     
-- **23000** - EventLogQueryManager 的初始化 (或失败后成功) 
+- **23000** - EventLogQueryManager 的初始化在首次 (或失败后成功) 
     
-- **24000** - serverinfo 的初始化 (或失败后成功) 
+- **24000** - 第一次 (或失败后，serverinfo 的初始化) 
     
 - **25000** - 侦听器在未能发布或首次成功发布 (后重新联机) 
     
@@ -166,7 +166,7 @@ ms.locfileid: "58612051"
     
   - 右键单击StatsManHubWebSite.dll并查看其属性。
     
-  - 如果在 KHI 横向视图或计数器详细信息视图中找不到计算机，请确保它是站点和池的成员。 如果不是，将不会显示在这些视图中。 有关为拓扑中的服务器定义站点和池的信息，请参阅 [导入拓扑](deploy.md#BKMK_ImportTopology)。
+  - 如果在 KHI 横向视图或计数器详细信息视图中找不到计算机，请确保它是站点和池的成员。 如果不是，将不会显示在这些视图中。 有关为拓扑中的服务器定义站点和池的信息，请参阅导入 [拓扑](deploy.md#BKMK_ImportTopology)。
     
   - 产品版本将显示在"说明详细信息"中。
     

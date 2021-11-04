@@ -1,7 +1,7 @@
 ---
 title: 定义在用户位置中手动获取位置的Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d37f67d3-e248-483b-b64c-3986559ef357
 description: 在 E9-1-1 部署中规划使用 SIP 中继提供商的漫游Skype for Business Server 企业语音。
-ms.openlocfilehash: 8ca43e8d81d16068806c3416687f73c090a3cbae
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 263c2e79e340492b27d196f73373505f7c1e4f66
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602377"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60770110"
 ---
 # <a name="define-the-user-experience-for-manually-acquiring-a-location-in-skype-for-business-server"></a>定义在用户位置中手动获取位置的Skype for Business Server
  
@@ -35,7 +35,7 @@ ms.locfileid: "58602377"
     
 可以在位置策略中配置“所需位置”设置，从而定义客户端行为。将该值设为“否”表示不会提示用户输入位置。将该值设为“是”表示将提示用户输入位置，但可以消除提示。将该值设为“免责声明”表示将提示用户输入位置，并在用户试图消除提示时显示免责声明。在所有情况下，用户均可以像往常一样继续使用客户端。
     
-当用户手动输入位置时，该位置将映射到客户端网络的默认网关的 MAC 地址，并存储在位于客户端上的每用户表中。 当用户返回之前存储的任何位置时，Skype for Business自动将自身设置到该位置。 
+当用户手动输入位置时，该位置将映射到客户端网络的默认网关的 MAC 地址，并存储在位于客户端上的每用户表中。 当用户返回到之前存储的任何位置时，Skype for Business客户端会自动将自身设置到该位置。 
   
 > [!NOTE]
 > 只能修改客户端的当前位置，但也可以删除本地用户表中存储的任何位置。 

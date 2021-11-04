@@ -1,7 +1,7 @@
 ---
 title: VideoStreamDetail 视图
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ec8c45e1-307d-40ec-a75e-6083306105f2
 description: VideoStreamDetail 视图存储有关每个数据库中视频流的信息。 此视图在 Microsoft Lync Server 2013 中引入。
-ms.openlocfilehash: 465684ed4cfc857ede340d960f82d8be13031808
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1fc778060163047b80ad7c523e2ca93414a23e25
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609089"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60756053"
 ---
 # <a name="videostreamdetail-view"></a>VideoStreamDetail 视图
  
@@ -39,10 +39,10 @@ VideoStreamDetail 视图存储有关每个数据库中视频流的信息。 此�
 |被叫方  <br/> |nvarchar (450)   <br/> |被叫方 URI。  <br/> |
 |CallerUserAgent  <br/> |nvarchar (256)   <br/> |呼叫者的用户代理字符串。  <br/> |
 |CallerUserAgentType  <br/> |smallint  <br/> |呼叫者的用户代理的类型。 有关详细信息， [请参阅 UserAgent](useragent.md) 表。 <br/> |
-|CallerUserAgentCategory  <br/> |nvarchar (64)   <br/> |呼叫者的用户代理的类别。 有关详细信息，请参阅 [QoE (UserAgentDef) ](useragentdef-qoe.md) 表。 <br/> |
+|CallerUserAgentCategory  <br/> |nvarchar (64)   <br/> |呼叫者的用户代理的类别。 有关详细信息，请参阅[QoE (UserAgentDef) 。](useragentdef-qoe.md) <br/> |
 |CalleeUserAgent  <br/> |nvarchar (256)   <br/> |被叫方的用户代理字符串。  <br/> |
 |CalleeUserAgentType  <br/> |smallint  <br/> |被叫方的用户代理的类型。 有关信息 [，请参阅 UserAgent](useragent.md) 表。 <br/> |
-|CalleeUserAgentCategory  <br/> |nvarchar (64)   <br/> |被叫方的用户代理的类别。 有关信息，请参阅[QoE (UserAgentDef) 。](useragentdef-qoe.md) <br/> |
+|CalleeUserAgentCategory  <br/> |nvarchar (64)   <br/> |被叫方的用户代理的类别。 有关信息，请参阅 [QoE (UserAgentDef) ](useragentdef-qoe.md) 表。 <br/> |
 |CallerEndpoint  <br/> |nvarchar (256)   <br/> |呼叫者的终结点名称。  <br/> |
 |CalleeEndpoint  <br/> |nvarchar (256)   <br/> |被叫方终结点名称。  <br/> |
 |CallerOS  <br/> |nvarchar (128)   <br/> |操作系统 (操作系统) 终结点的操作系统。  <br/> |

@@ -1,7 +1,7 @@
 ---
 title: 负载平衡器规划工具
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/8/2016
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3bf7f2c7-b79b-4b37-bb32-72324a94ac99
 description: 如果您有前端池、控制器池或边缘服务器池，则需要为这些池部署负载平衡。 负载平衡会将流量分配到池中的各台服务器上。
-ms.openlocfilehash: e3652f1a3ee3a04b45e8b328a52168a39f396822
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 519e06c4152d064ba1445d01dc20bd0f2259a278
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616498"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60756849"
 ---
 # <a name="load-balancer-planning-tool"></a>负载平衡器规划工具
  

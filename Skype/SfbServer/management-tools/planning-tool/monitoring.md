@@ -1,7 +1,7 @@
 ---
 title: 监视规划工具
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/6/2016
@@ -13,13 +13,13 @@ f1.keywords:
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 9bbe86d0-b51a-4787-9029-d59e73c7906a
-description: 在 Skype for Business Server 2015 中，监控会收集使用信息和用户体验质量 (QoE) 有关用户通信会话的数据。
-ms.openlocfilehash: c5299c9f143cb294d790bdb41ec82c55808d2985
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 在 Skype for Business Server 2015 中，监控会收集使用情况信息和用户体验质量 (QoE) 有关用户通信会话的数据。
+ms.openlocfilehash: f0e85725590584f98d08bcb33517e22bea4f8487
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58591036"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60756573"
 ---
 # <a name="monitoring-planning-tool"></a>监视规划工具
 

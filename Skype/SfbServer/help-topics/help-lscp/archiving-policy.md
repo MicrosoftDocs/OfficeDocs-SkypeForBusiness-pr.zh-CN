@@ -1,7 +1,7 @@
 ---
 title: 存档策略
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/27/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 9b69f1fa-8f3b-450e-aa89-91fd462f198d
 description: 使用存档策略启用和禁用位于存档Skype for Business Server。 在每个存档策略中，您可以对以下任一项或者两项启用或禁用存档：
-ms.openlocfilehash: dd0bd831aeb408862ee16b9f09e2c5247f205e82
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 37452d6bc5274aad19508522bef60ec23e363fe4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58591576"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60757534"
 ---
 # <a name="archiving-policy"></a>存档策略
  
@@ -39,7 +39,7 @@ ms.locfileid: "58591576"
 - **用户策略 (可选)** 可以指定一个或多个用户存档策略，您可将每个存档策略分别配置为启用和禁用对特定用户或用户组的内部或外部通信的存档。 用户策略会覆盖全局策略和站点策略，但仅限于分配了用户级别存档策略的用户和用户组。 可以编辑或删除用户策略。
     
 > [!NOTE]
-> 存档策略仅适用于位于存档Skype for Business Server。 如果您使用 Exchange 集成在 Microsoft Exchange 中存储存档数据，Exchange 2013 策略将控制 2013 年 2013 Exchange存档。 若要为这些用户启用存档，必须将用户的邮箱置于In-Place保留状态。 
+> 存档策略仅适用于用户Skype for Business Server。 如果使用 Exchange 集成在 Microsoft Exchange 中存储存档数据，Exchange 2013 策略将控制 2013 年 2013 年 Exchange 存档。 若要为这些用户启用存档，必须将用户的邮箱置于In-Place保留状态。 
   
 “存档策略”页将列出为部署配置的每个存档策略。该页还将显示策略名称、范围（全局、站点或用户）以及为每个存档策略启用的存档选项。在“存档策略”页上，您有以下选项：
 - **新建** 可以添加以下一个或多个可选的存档策略：
@@ -68,5 +68,5 @@ ms.locfileid: "58591576"
     
 - **刷新** 可以刷新" **存档策略"** 页以验证所有存档策略的选项状态。
     
-有关存档特性和功能（包括 Exchange 集成）的详细信息，请参阅 Plan [for archiving in Skype for Business Server 2015、Deploy](../../plan-your-deployment/archiving/archiving.md)archiving for Skype for Business Server [2015](../../deploy/deploy-archiving/deploy-archiving.md)和[Manage archiving in Skype for Business Server 2015。](../../manage/archiving/archiving.md)
+有关存档特性和功能（包括 Exchange 集成）的详细信息，请参阅 Plan [for archiving in Skype for Business Server 2015、Deploy](../../plan-your-deployment/archiving/archiving.md) [archiving for Skype for Business Server 2015](../../deploy/deploy-archiving/deploy-archiving.md)和[Manage archiving in Skype for Business Server 2015。](../../manage/archiving/archiving.md)
 

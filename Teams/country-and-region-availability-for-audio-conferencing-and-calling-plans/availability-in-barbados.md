@@ -1,7 +1,7 @@
 ---
 title: 在巴哈马的可用性
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: 4d23b504bb2483f19e7ccee8f7536d805732137e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1f81e5896cf138babe93feaa10c5288675b58af8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601147"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777602"
 ---
 # <a name="availability-in-barbados"></a>在巴哈马的可用性
 

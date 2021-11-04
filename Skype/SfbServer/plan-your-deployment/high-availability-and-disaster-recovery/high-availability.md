@@ -1,7 +1,7 @@
 ---
 title: 前端池高可用性和管理
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,25 +13,25 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 965041b7-3136-49f2-89c1-8b30417cb8ea
 description: 了解池中的前端池Skype for Business Server，包括管理池、仲裁丢失和仅包含两台前端服务器的池的特殊步骤。
-ms.openlocfilehash: 2eabc5e32937b88de4a3c4bbd474e20e132c1984
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5d9eef2a027131db960b05508ece28cf95b992dc
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585006"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737678"
 ---
 # <a name="front-end-pool-high-availability-and-management"></a>前端池高可用性和管理
  
 了解池中的前端池Skype for Business Server，包括管理池、仲裁丢失和仅包含两台前端服务器的池的特殊步骤。
   
-在Skype for Business Server中，前端池的体系结构使用分布式系统模型，每个用户的数据将保存在池中的三个前端服务器上。 我们建议您的所有前端Enterprise Edition池至少包含三台前端服务器。
+在Skype for Business Server中，前端池的体系结构使用分布式系统模型，每个用户的数据在池中的三个前端服务器上保留。 建议您的所有前端Enterprise Edition池至少包含三台前端服务器。
 
 > [!NOTE]
-> Skype for Business Server 2019 不支持Enterprise Edition两台前端服务器的前端池，并且不允许在该方案中发布拓扑。
+> Skype for Business Server 2019 Enterprise Edition两台前端服务器的前端池，并且不允许在该方案中发布拓扑。
   
 ## <a name="planning-for-the-management-of-front-end-pools"></a>规划前端池的管理
 
- Skype for Business Server基于系统模型使用分布式Windows Fabric。 在此模型中，每个用户和会议的重要数据存储在前端池中的三台前端服务器上。 这三个存储特定数据集的服务器称为replicas。
+ Skype for Business Server基于分布式系统模型Windows Fabric。 在此模型中，每个用户和会议的重要数据存储在前端池中的三台前端服务器上。 这三个存储特定数据集的服务器称为replicas。
   
 使用前端池的分布式模型，必须运行一定数量的池服务器，池正常运行。 池有两种丢失模式。
   
@@ -41,26 +41,26 @@ ms.locfileid: "58585006"
     
 ### <a name="routing-group-level-quorum-loss"></a>路由组级别仲裁丢失
 
-首次启动新的前端池时，85% 的服务器必须启动并运行，如下表所示。 如果正在运行的服务器较少，则服务可能卡在启动状态，并且池可能无法启动。
+首次启动新的前端池时，85% 的服务器必须启动并运行，如下表所示。 如果正在运行的服务器较少，则服务可能卡在起始状态，并且池可能无法启动。
   
 |池中的服务器总数  <br/> |首次启动池时必须运行的服务器数  <br/> |
 |:-----|:-----|
-|2   <br/> |1   <br/> |
-|3   <br/> |3   <br/> |
-|4   <br/> |3   <br/> |
-|5   <br/> |4   <br/> |
-|6   <br/> |5   <br/> |
-|7   <br/> |5   <br/> |
+|2  <br/> |1  <br/> |
+|3  <br/> |3  <br/> |
+|4   <br/> |3  <br/> |
+|5  <br/> |4   <br/> |
+|6   <br/> |5  <br/> |
+|7   <br/> |5  <br/> |
 |8   <br/> |6   <br/> |
 |9   <br/> |7   <br/> |
 |10   <br/> |8   <br/> |
-|11   <br/> |9   <br/> |
+|11  <br/> |9   <br/> |
 |12   <br/> |10   <br/> |
-|16 **For Skype for Business Server For 2019** <br/> |12   <br/> |
+|16 **For Skype for Business Server 2019** <br/> |12   <br/> |
 
 
    
-每次启动池时，都应启动 85% 的服务器 (如上表所示) 。 如果无法启动此数量的服务器 (但可以启动足够的服务器，以便您不在池级别的仲裁丢失) 中，您可以使用 cmdlet 使池从此路由组级别仲裁丢失中恢复并推进。 `Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery` 有关如何使用此 cmdlet 的信息，请参阅 [Reset-CsPoolRegistrarState](/powershell/module/skype/reset-cspoolregistrarstate?view=skype-ps)。 
+每次启动池时，都应启动 85% 的服务器 (如上表所示) 。 如果无法启动此数量的服务器 (但可以启动足够的服务器，以便您不在池级别仲裁丢失) ，您可以使用 cmdlet 使池从此路由组级别仲裁丢失中恢复并推进。 `Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery` 有关如何使用此 cmdlet 的信息，请参阅 [Reset-CsPoolRegistrarState](/powershell/module/skype/reset-cspoolregistrarstate?view=skype-ps)。 
   
 > [!NOTE]
 > 在服务器数为等数的池中，Skype for Business Server主SQL数据库作为见证。 在此类池中，如果关闭主数据库并切换到镜像副本，并关闭足够的前端服务器，以便根据上表运行不足，整个池将停机。 有关详细信息，请参阅数据库 [镜像见证](/sql/database-engine/database-mirroring/database-mirroring-witness)。 
@@ -71,7 +71,7 @@ ms.locfileid: "58585006"
   
 |池中的前端服务器总数  <br/> |要使池正常工作所必须运行的服务器的数目  <br/> |
 |:-----|:-----|
-|2   <br/> |1   <br/> |
+|2  <br/> |1  <br/> |
 |3-4  <br/> |任意 2 个  <br/> |
 |5-6  <br/> |任意 3 个  <br/> |
 |7   <br/> |任意 4 个  <br/> |
@@ -94,7 +94,7 @@ ms.locfileid: "58585006"
     
 ## <a name="front-end-pool-with-two-front-end-servers"></a>具有两台前端服务器的前端池
 
-建议不要部署仅包含两台前端服务器的前端池。 此小型池不会像大型池那样提供可靠的高可用性解决方案，并且需要额外注意管理。 此外，如果双服务器池的后端服务器关闭，则整个池本身可能很快也会关闭。 如果要仅部署一台或两台运行 Skype for Business Server，建议将它们部署为Standard Edition服务器。
+建议不要部署仅包含两台前端服务器的前端池。 此小型池不会像大型池那样提供可靠的高可用性解决方案，并且需要额外注意管理。 此外，如果双服务器池的后端服务器关闭，则整个池本身可能很快也会关闭。 如果要仅部署一台或两台运行 Skype for Business Server，建议将其部署为Standard Edition服务器。
   
 如果您曾经需要部署具有两台前端服务器的池，请遵循以下指南：
   

@@ -1,7 +1,7 @@
 ---
-title: Skype for Business Server 2015 中的 Conferences 表
+title: 2015 年 Skype for Business Server 中的 Conferences 表
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 7/15/2015
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c3da6271-b3c6-4898-894f-10456ec794d0
 description: 此表中的每条记录都包含有关一个会议的呼叫详细信息。
-ms.openlocfilehash: dfc1c12908e60c7a5b205c154e30175168871ceb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 22d394ca447852a32d8028770d7ceefea7adbcf1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635206"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763410"
 ---
-# <a name="conferences-table-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的 Conferences 表
+# <a name="conferences-table-in-skype-for-business-server-2015"></a>2015 年 Skype for Business Server 中的 Conferences 表
  
 此表中的每条记录都包含有关一个会议的呼叫详细信息。
   
-|**列**|**数据类型**|**键/索引**|**Details**|
+|**列**|**数据类型**|**键/索引**|**详细信息**|
 |:-----|:-----|:-----|:-----|
 |**SessionIdTime** <br/> |datetime  <br/> |主  <br/> |CDR 代理捕获会议请求的时间。 仅用于唯一标识会议实例的主键。  <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |主  <br/> |用于标识会话的 ID 号。 与 **SessionIdTime 结合使用** 来唯一地标识会议实例。 * <br/> |

@@ -1,7 +1,7 @@
 ---
 title: 电话意大利的号码管理
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: davlick,krkilaru
 ms.topic: reference
@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 使用此表查找有关获取和管理意大利用户的电话号码Microsoft Teams。
-ms.openlocfilehash: f1a664882f0bb17590f83686efd6afaf86bcdd59
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+ms.openlocfilehash: 1b74b96e37fdb4bbe98c68567e619d146e20fa06
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733263"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737518"
 ---
 # <a name="phone-number-management-for-italy"></a>电话意大利的号码管理
 
@@ -34,11 +34,11 @@ ms.locfileid: "60733263"
   
 |**你要做什么？**|**下载正确的表单并发送给我们**|
 |:-----|:-----|
-|获取未在管理中心中列出的新用户Microsoft Teams电话号码。   <br/> |下载这些表单之一。 <br>  [针对意大利 v.5.0 (新的电话号码)  (it-it-it) ](https://download.microsoft.com/download/7/2/7/727217df-80e4-4ff5-b9ed-65b84cdceba6/new-phone-number-request-for-italy-(v.5.0)-(it-it).pdf) <br/>  [针对意大利 5.5.0 (5.0)  (的新电话号码) ](https://download.microsoft.com/download/4/1/7/417d2578-3686-4530-87ea-e9f36e8653c1/new-phone-number-request-for-italy-(v.5.0)-(en-us).pdf)<br/>  <br/>填写它， [并联系 TNS 了解说明](contact-tns-service-desk.md)。 |
+|获取未在管理中心中列出的新用户Microsoft Teams电话号码。   <br/> |下载这些表单之一。 <br>  [意大利新电话号码请求 (v.5.0)  (it-it) ](https://download.microsoft.com/download/7/2/7/727217df-80e4-4ff5-b9ed-65b84cdceba6/new-phone-number-request-for-italy-(v.5.0)-(it-it).pdf) <br/>  [针对意大利的 v.5.)  (0 (5.0) 的新电话号码请求 ](https://download.microsoft.com/download/4/1/7/417d2578-3686-4530-87ea-e9f36e8653c1/new-phone-number-request-for-italy-(v.5.0)-(en-us).pdf)<br/>  <br/>填写它， [并联系 TNS 了解说明](contact-tns-service-desk.md)。 |
 |获取转接给我们的电话号码。  <br/> | 下载此表单。 <br/>[意大利的 (LOA) 授权书 ()  (v.6.0)  (it-it) ](https://download.microsoft.com/download/e/8/a/e8a20665-cbea-4f15-a50c-b8e1f6ef352d/letter-of-authorization-(loa)-for-italy-(all-numbers)-(v.6.0)-(it-it).pdf) <br/> <br/>填写它并 [联系 TNS 服务台，了解说明](contact-tns-service-desk.md)。 |
 |发布/取消发布 () 国内电话目录中的电话号码。  <br/> |[有关要](contact-tns-service-desk.md) 发布/取消发布的电话号码列表的说明，请联系 TNS 服务台。      <br/> |
 |将用户号码更改为服务号码。  <br/> |[有关要转换为](contact-tns-service-desk.md) 服务号码的用户号码列表的说明，请联系 TNS 服务台。 <br/> |
-|更新目录服务以呼叫队列或自动助理号码|若要添加或更改呼叫队列或自动助理号码，请下载此适用于 [意大利 (v.1.0)  (it-it) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/directory-services-form-for-italy-(v.1.0)-(it-it).pdf?raw=true)的目录服务表单，填写它并联系 [TNS](contact-tns-service-desk.md)了解说明。 |
+|更新目录服务以呼叫队列或自动助理号码|若要添加或更改呼叫队列或自动助理号码，请下载此适用于 [意大利 (v.1.0)  (it-it) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/directory-services-form-for-italy-(v.1.0)-(it-it).pdf?raw=true)的目录服务表单，填写并联系 [TNS](contact-tns-service-desk.md)了解说明。 |
 |查看服务条款| 下载并阅读意大利服务 ([v.1.0)  (it-it) 。 ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/charter-of-services-for-italy-(v.1.0)-(it-it).pdf?raw=true) |
 
 ## <a name="related-topics"></a>相关主题

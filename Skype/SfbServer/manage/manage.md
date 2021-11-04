@@ -1,7 +1,7 @@
 ---
 title: 管理Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 603ccdfd-9985-41d8-a526-8570ba9b1b76
 description: 摘要：浏览这些链接，了解如何管理和维护Skype for Business Server。
-ms.openlocfilehash: 550e05fdfefb5f3743452b2ecf080b9835297b45
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 23312383a68b05de6d93e52b68f3b5c4c36192dd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012516"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763596"
 ---
 # <a name="manage-skype-for-business-server"></a>管理Skype for Business Server 
 
@@ -37,17 +37,17 @@ Skype for Business Server提供即时消息 (IM) 、状态、会议、视频和�
 |![技术图表图标。](../media/87de0d09-77fd-46f2-b9f6-99a7998fd332.png)|[技术图表Skype for Business Server](../technical-diagrams.md)  |大致了解这些大型图表中的体系结构选项。   |
 |![视频图标。](../media/143e0d86-1c68-482a-9bf9-93e7966acca0.png)|视频演示和培训 -  *即将推出！*   |发现视频演示和培训Skype for Business Server。   |
    
-##  <a name="articles-about-managing-skype-for-business-server"></a>有关管理Skype for Business Server
+##  <a name="articles-about-managing-skype-for-business-server"></a>有关管理管理Skype for Business Server
 
-可在线查看以下有关配置、监视Skype for Business Server维护策略的文章。 
+可在线查看以下有关配置、监视和维护Skype for Business Server的文章。 
   
 |&nbsp;|内容|说明|
 |:-----|:-----|:-----|
-|![数字显示图标。](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[在部署中管理Skype for Business Server](topology/topology.md)  |本节中的主题提供了使用控制面板和命令行管理程序升级、更新、添加和删除服务器的Skype for Business Server过程Skype for Business Server过程。   |
-|![数字显示图标。](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[在管理中管理运行状况Skype for Business Server](health-and-monitoring/health-and-monitoring.md)  |本节中的主题提供了使用控制面板和命令行管理程序Skype for Business Server监视和运行状况配置任务的Skype for Business Server过程。   |
-|![数字显示图标。](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[管理存档Skype for Business Server](archiving/archiving.md)  |本节中的主题提供了使用命令行管理程序配置存档选项和用户策略的Skype for Business Server Skype for Business Server命令行管理Skype for Business Server过程。   |
+|![数字显示图标。](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[在部署中管理Skype for Business Server](topology/topology.md)  |本节中的主题提供了使用 Skype for Business Server 控制面板和命令行管理程序升级、更新、添加和删除服务器的Skype for Business Server过程。   |
+|![数字显示图标。](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[在管理中管理运行状况Skype for Business Server](health-and-monitoring/health-and-monitoring.md)  |本节中的主题提供了监视和运行状况配置任务的分步过程，您可以使用"控制面板"和"Skype for Business Server命令行管理程序Skype for Business Server任务。   |
+|![数字显示图标。](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[管理存档Skype for Business Server](archiving/archiving.md)  |本节中的主题提供了使用 Skype for Business Server 控制面板和命令行管理程序为 Skype for Business Server 配置存档选项Skype for Business Server分Skype for Business Server过程。   |
 |![数字显示图标。](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Manage Persistent Chat Server in Skype for Business Server 2015](persistent-chat/persistent-chat.md)  |本节中的主题提供了使用控制面板和命令行管理程序管理持久Skype for Business Server服务器的Skype for Business Server过程。  <br/> **注意：** 这仅适用于 Skype for Business 2015。|
-|![数字显示图标。](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Skype for Business Server 命令行管理程序](management-shell.md) <br/> |本节中的主题介绍如何使用命令行管理Skype for Business Server命令行管理Skype for Business Server管理程序。  <br/> |
+|![数字显示图标。](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Skype for Business Server 命令行管理程序](management-shell.md) <br/> |本节中的主题介绍如何使用命令行Skype for Business Server命令行管理Skype for Business Server管理程序。  <br/> |
    
 ## <a name="additional-resources-about-planning-for-skype-for-business-server"></a>有关规划规划的Skype for Business Server
 

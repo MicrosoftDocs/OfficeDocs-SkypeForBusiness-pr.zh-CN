@@ -1,7 +1,7 @@
 ---
 title: 高可用性平移工具
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/8/2016
@@ -14,27 +14,27 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 14a897b3-2406-46c7-b08f-490085b3d048
 description: Skype for Business Server 2015 中大多数服务器角色的主要高可用性方案基于通过池实现的服务器冗余。 如果运行特定服务器角色的服务器出现故障，则池中运行相同角色的其他服务器将承担该服务器的负载。
-ms.openlocfilehash: e39a49b5cef508b5858c564636b575c20f48ac75
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e8fbc679d4711ae41306a60d6a9c40114fab5f29
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630446"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60756913"
 ---
 # <a name="high-availability-planning-tool"></a>高可用性规划工具
  
 Skype for Business Server 2015 中大多数服务器角色的主要高可用性方案基于通过池实现的服务器冗余。 如果运行特定服务器角色的服务器发生故障，那么池中运行同一角色的其他服务器将接纳该服务器的负荷。
   
-Skype for Business Server 2015 需要至少两台前端服务器才能实现高可用性。 规划工具使用下列条件来确定它是否将添加额外的服务器以支持高可用性：
+Skype for Business Server 2015 至少需要两台前端服务器才能实现高可用性。 规划工具使用下列条件来确定它是否将添加额外的服务器以支持高可用性：
   
 - 如果部署包含两台或多台前端服务器，则规划工具不会添加额外的服务器。
     
 - 如果部署包含边缘服务器，则添加另一台服务器。 
     
-- 如果部署包含持久聊天，则规划工具将添加一台额外的服务器，但不增加池数量。 例如，如果部署已包含四台服务器，规划工具将建议添加另一台服务器 (，以总共五台服务器) 维护一个池。 
+- 如果部署包含持久聊天，则规划工具将添加一台额外的服务器，但不增加池数量。 例如，如果部署中已包含四台服务器，规划工具将建议添加另一台服务器 (，以总共五台服务器) 维护一个池。 
     
-规划工具还会添加所有SQL数据库的镜像数据库。 例如，如果有一个前端 SQL Server 数据库，规划工具将添加另一个数据库作为此数据库的镜像数据库，并将其名称为"前端镜像SQL数据库。
+规划工具还会添加一个SQL数据库的镜像数据库。 例如，如果有一个前端 SQL Server 数据库，则规划工具将另一个数据库添加为此数据库的镜像数据库，并将其名称为"前端镜像SQL数据库。
   
-有关为高可用性准备环境的信息，请参阅 Plan for [high availability and disaster recovery in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)。
+有关为高可用性准备环境的信息，请参阅 Plan for [high availability and disaster recovery in Skype for Business Server 2015。](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)
   
 

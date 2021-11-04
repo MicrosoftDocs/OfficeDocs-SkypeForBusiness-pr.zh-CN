@@ -1,7 +1,7 @@
 ---
 title: 在工作流中设计和创建响应组Skype for Business
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
 description: 设计并创建响应组工作流，Skype for Business Server 企业语音。 涵盖搜寻组工作流和互动工作流。
-ms.openlocfilehash: fe5efd7b5ba851055803298dd077009c238fd1f1
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 842cbf321dc4e4f54ff244e9e809517807a6686c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730951"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60755755"
 ---
 # <a name="designing-and-creating-response-group-workflows-in-skype-for-business"></a>在工作流中设计和创建响应组Skype for Business
 
@@ -68,7 +68,7 @@ ms.locfileid: "58730951"
     > 全局外部访问策略适用于响应组应用程序。 可以使用 Skype for Business Server 控制面板或 **Set-CsExternalAccessPolicy** cmdlet 将 EnableOutsideAccess 参数设置为 True，为响应组联盟配置全局策略。 请记住，除非为全局策略设置分配站点或用户策略，否则这些设置适用于所有用户。 因此，在针对响应组更改此设置之前，请确保联盟设置满足您的组织的要求。 有关策略如何适用于用户的详细信息，请参阅[Manage External Access Policy for Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-manage-external-access-policy-for-your-organization)。 有关联合设置的详细信息，请参阅 [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy?view=skype-ps)。
 
     > [!NOTE]
-    > 在 Skype for Business Online 中托管的用户无法呼叫本地部署中托管的响应组。 这一点在混合部署和本地部署与 Skype for Business Online 部署联合时均如此。
+    > 托管在 Skype for Business Online 中的用户无法呼叫本地部署中托管的响应组。 这一点在混合部署和本地部署与 Skype for Business Online 部署联合时均如此。
 
 9. 要在呼叫过程中隐藏代理身份，请选中“启用代理匿名”复选框。
 
@@ -89,7 +89,7 @@ ms.locfileid: "58730951"
 
 13. 在“显示号码”中，键入希望显示的响应组号码（例如，+1 (425) 555-0165）。
 
-14.  (可选) 在"说明"中，键入工作流的说明，因为您希望工作流显示在联系人卡片中的Skype for Business。
+14.  (可选) 在"说明"中，键入工作流的说明，因为您希望工作流显示在联系人卡片中的 Skype for Business。
 
 15. 如果工作流将由响应组管理员进行管理，则在“工作流类型”中，选择“受管理”。 执行以下操作可向工作流分配响应组管理员：
 
@@ -163,7 +163,7 @@ ms.locfileid: "58730951"
 24. 在“步骤 5 指定您的假日”下，单击定义响应组停止营业日期的一个或多个假日集对应的复选框。
 
     > [!NOTE]
-    > 配置工作流之前，您需要先定义假日和假日集。 使用 **New-CsRgsHoliday** 和 **New-CsRgsHolidaySet** cmdlet 可定义假日和假日集。 有关详细信息，请参阅可选[ (在) 定义响应组假日Skype for Business。](optional-define-response-group-holiday-sets.md)
+    > 配置工作流之前，您需要先定义假日和假日集。 使用 **New-CsRgsHoliday** 和 **New-CsRgsHolidaySet** cmdlet 可定义假日和假日集。 有关详细信息，请参阅 ([中) 定义响应组假日集的可选Skype for Business。](optional-define-response-group-holiday-sets.md)
 
 25. 如果要在假日播放消息，请选中“假期播放消息”复选框，然后通过执行以下操作之一指定要播放的消息：
 
@@ -413,7 +413,7 @@ ms.locfileid: "58730951"
 11. 在“显示名称”中，键入希望显示的工作流名称（例如，销售 IVR 响应组）。
 
     > [!NOTE]
-    > 请勿将" \<" or "\> " 字符包括在显示名称。 请勿使用以下保留的显示名称 **：RGS Presence Watcher** 或 Announcement **Service。**
+    > 请勿将" \<" or "\> "字符包括在显示名称。 请勿使用以下保留的显示名称 **：RGS Presence Watcher** 或 Announcement **Service。**
 
 12. 在“电话号码”中，键入响应组的线路 URI（例如，+14255550165）。
 
@@ -490,7 +490,7 @@ ms.locfileid: "58730951"
 24. 在“步骤 5 指定您的假日”下，单击定义响应组停止营业日期的一个或多个假日集对应的复选框。
 
     > [!NOTE]
-    > 配置工作流之前，您需要先定义假日和假日集。 使用 **New-CsRgsHoliday** 和 **New-CsRgsHolidaySet** cmdlet 可定义假日和假日集。 有关详细信息，请参阅可选 ([在) 定义响应组假日Skype for Business。](optional-define-response-group-holiday-sets.md)
+    > 配置工作流之前，您需要先定义假日和假日集。 使用 **New-CsRgsHoliday** 和 **New-CsRgsHolidaySet** cmdlet 可定义假日和假日集。 有关详细信息，请参阅 ([中) 定义响应组假日集的可选Skype for Business。](optional-define-response-group-holiday-sets.md)
 
 25. 如果要在假日播放消息，请选中“假期播放消息”复选框，然后通过执行以下操作之一指定要播放的消息：
 
@@ -533,7 +533,7 @@ ms.locfileid: "58730951"
     > [!NOTE]
     > 文本到语音转换引擎会将符号“#”转换为“号码”这个词。 如果需要指代 # 键，则应该在提示语中使用键名代替符号。 例如，“要与销售人员交谈，请按井号键”。
 
-    - 若要使用包含问题的预先录制的音频文件，请单击"选择录音"，然后单击"**录音**"链接以上载该文件。 In the new browser window， click **Browse**， select the audio file， and then click **Open**. 单击 **Upload** 加载文件，然后可以选择在文本框中键入问题 (这样将问题以及呼叫者的响应转发给响应代理) 。
+    - 若要使用包含问题的预先录制的音频文件，请单击"选择录音"，然后单击"**录音**"链接以上载该文件。 In the new browser window， click **Browse**， select the audio file， and then click **Open**. 单击 **Upload"** 以加载文件，然后可以选择在文本框中键入问题 (这样将问题以及呼叫者的响应转发给响应代理) 。
 
       > [!NOTE]
       > 用户提供的所有音频文件都必须满足特定要求。有关支持的文件格式的详细信息，请参阅[Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group)。
@@ -648,7 +648,7 @@ ms.locfileid: "58730951"
 
 [ (在) 定义响应组假日集的可选Skype for Business](optional-define-response-group-holiday-sets.md)
 
-[ (可选) 定义响应组工作时间（以Skype for Business](optional-define-response-group-business-hours.md)
+[ (可选) 定义响应组工作时间的可选Skype for Business](optional-define-response-group-business-hours.md)
 
 [New-CsRgsWorkflow](/powershell/module/skype/new-csrgsworkflow?view=skype-ps)
 

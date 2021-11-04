@@ -1,9 +1,9 @@
 ---
 title: 在组织中推广 Microsoft Teams
-description: 了解在标准部署部署Teams的资源，以帮助你根据特定组织Teams资源。
+description: 了解可用于在标准部署Teams的资源，以帮助你根据特定的组织类型Teams资源。
 ms.topic: conceptual
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 audience: admin
 f1.keywords:
@@ -15,16 +15,16 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 830dd622dea5dda014b4aaf86047be923b0a0307
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 03bb7b1d8d7cf2a30fd4ee2d80ceec71f4e05fdd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60015316"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777552"
 ---
 # <a name="expand-microsoft-teams-across-your-organization"></a>在组织中推广 Microsoft Teams
 
-这些资源基于标准部署Teams，旨在帮助你根据特定的组织类型Teams资源。 如果尚未部署Teams，请参阅如何Teams中的建议[路径](../deploy-overview.md)Microsoft Teams。
+这些资源基于标准Teams部署指南，旨在帮助你根据特定的组织类型Teams资源。 如果尚未部署Teams，请参阅如何Teams中的建议[Microsoft Teams。](../deploy-overview.md)
 
 |&nbsp; |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;| 
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 

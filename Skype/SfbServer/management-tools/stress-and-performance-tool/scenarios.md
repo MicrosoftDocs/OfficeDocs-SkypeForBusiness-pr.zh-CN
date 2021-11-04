@@ -1,7 +1,7 @@
 ---
 title: Skype for Business Server 2015 压力和性能工具的性能方案
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.date: 12/17/2015
 manager: serdars
@@ -14,21 +14,21 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d972382f-971e-4fa7-b7ee-8ab9d3a5c11d
 description: 您需要执行的任务将 Skype for Business Server 2015 配置为使用 Stress and Performance Tool 执行性能和负载测试。
-ms.openlocfilehash: 212a6fa1adc49508982e996ecdf61afc183d186b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a56e2ec12547937ef44973932ef79d3405573039
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611901"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777252"
 ---
 # <a name="performance-scenarios-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Skype for Business Server 2015 压力和性能工具的性能方案
  
 您需要执行的任务将 Skype for Business Server 2015 配置为使用 Stress and Performance Tool 执行性能和负载测试。
   
-若要运行 Skype for Business Server 2015 Stress and Performance Tool (LyncPerfTool) ，必须先针对相关方案配置 Skype for Business Server 2015 拓扑。 如果未Skype for Business Server 2015，或配置不正确，则您的负载模拟很可能失败。 使用 Skype for Business Server 2015 压力和性能工具，我们提供了示例 Skype for Business Server 命令行管理程序脚本和基本资源文件作为工具下载的一[部分](https://www.microsoft.com/download/details.aspx?id=50367)。 这些配置可以用作配置部署部署Skype for Business Server起点。 本文介绍Windows PowerShell示例。
+若要运行 Skype for Business Server 2015 Stress and Performance Tool (LyncPerfTool) ，必须先针对相关方案配置 Skype for Business Server 2015 拓扑。 如果未Skype for Business Server 2015，或配置不正确，则您的负载模拟很可能失败。 使用 Skype for Business Server 2015 Stress and Performance Tool，我们将提供示例 Skype for Business Server 命令行管理程序脚本和基本资源文件作为工具下载的一[部分](https://www.microsoft.com/download/details.aspx?id=50367)。 这些配置可以用作配置部署部署Skype for Business Server起点。 本文介绍Windows PowerShell示例。
   
 > [!NOTE]
-> 本主题通常不会帮助您介绍如何配置 Skype for Business Server 2015，我们还有其他有关规划和部署的主题。 有关在 Windows PowerShell 2015 中Skype for Business Server命令行管理程序Skype for Business Server请参阅插入简介 HERE 中的命令行管理程序文档。 
+> 本主题通常不会帮助您介绍如何配置 Skype for Business Server 2015，我们还有其他有关规划和部署的主题。 有关在 Windows PowerShell 2015 中Skype for Business Server命令行管理程序Skype for Business Server请参阅在此处插入简介中的命令行管理程序文档。 
   
 ## <a name="about-running-skype-for-business-server-management-shell-scripts"></a>关于运行Skype for Business Server命令行管理程序脚本
 
@@ -41,13 +41,13 @@ ms.locfileid: "58611901"
 
 如果之前更改了默认值的设置，可能需要配置客户端版本检查策略。 如果你不确定这一点，请查看客户端 [版本检查文档](/previous-versions/office/lync-server-2013/lync-server-2013-view-client-version-policy-rules)。
   
-与 2015 版本通信时，压力和性能工具默认Skype for Business Server版本：
+与 2015 版本通信时，压力和性能工具默认使用下列Skype for Business Server版本：
   
 - LSPT/15.0.0.0 (Skype for Business Server 2015 压力和性能工具) 
     
 - OCPHONE/.0.522
     
-对于 LyncPerfTool (移动) UCWA 客户端：
+对于 LyncPerfTool 中的 mobility (UCWA) 客户端：
   
 - UCWA Perf 工具/Web 会议
     

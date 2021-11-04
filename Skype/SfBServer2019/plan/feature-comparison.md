@@ -1,6 +1,6 @@
 ---
 title: Skype for Business Server 2019 的桌面客户端功能比较
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.reviewer: PhillipGarding
 manager: serdars
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 摘要：Skype for Business Server 2019 或 Skype for Business Online 管理员可以使用这些表了解哪些客户端支持哪些功能。
-ms.openlocfilehash: 5cfe72bbb680a6b127505b57456de2d513fd41bd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 556b88bfe587d1d5a5a1c78461863f0ae8f8fbbf
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592946"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777402"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2019"></a>Skype for Business Server 2019 的桌面客户端功能比较
 
@@ -29,16 +29,16 @@ ms.locfileid: "58592946"
 
  在部署或升级到 Skype for Business Server，请检查组织中已在使用哪些客户端。 使用下表可了解功能支持对客户端的影响。 这可以帮助您将更改传达给用户、调整推出过程的速度，并完全了解升级到最新客户端的好处。
 
-Skype for Business Server 2019 中提供某些功能在 Skype for Business Online 中不可用;请参阅[联机或混合用户帐户限制](feature-comparison.md#Online-Hybrid)了解具体信息。 Skype for Business在线管理员可能需要参阅 Skype for Business [Online 服务说明](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description)，了解他们可用的不同计划。
+Skype for Business Server 2019 中提供某些功能在 Skype for Business Online 中不可用;请参阅[联机或混合用户帐户限制](feature-comparison.md#Online-Hybrid)了解具体信息。 Skype for Business在线管理员可能希望参考 Skype for Business [Online 服务说明](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description)，了解他们可用的不同计划。
 
-下表显示了适用于 2019 或 Skype for Business Server Online 的每个客户端Skype for Business的功能。 您可能还需要参考移动客户端功能[比较，Skype for Business](../../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md)智能手机和平板电脑客户端功能比较。 组织购买的客户端访问许可证或用户订阅许可证还会影响哪些功能可供用户使用。 是向用户部署完整客户端还是基本客户端取决于组织选择购买的许可证或计划。 有关详细信息 [，请参阅许可](https://products.office.com/skype-for-business/it-pros) 指南。
+下表显示了与 Skype for Business Server 2019 或 Skype for Business Online 一起提供的功能。 您可能还需要参考移动客户端功能[比较，了解](../../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md)Skype for Business和平板电脑客户端功能比较。 组织购买的客户端访问许可证或用户订阅许可证还会影响哪些功能可供用户使用。 是向用户部署完整客户端还是基本客户端取决于组织选择购买的许可证或计划。 有关详细信息 [，请参阅许可](https://products.office.com/skype-for-business/it-pros) 指南。
 
 > [!IMPORTANT]
 > Skype for Business Server 2019 和 Skype for Business Online 支持之前发布的以下客户端：Lync 2013、Skype for Business 2015 和 Skype for Business 2016 以及 Skype for Business 2019 客户端。 有关与其他服务器一同使用的这些客户端的信息，请参阅[Client comparison tables for Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-desktop-client-comparison-tables)和 Desktop client feature comparison for Skype for Business [2015。](../../SfbServer/plan-your-deployment/clients-and-devices/desktop-feature-comparison.md) 
 
 
 > [!NOTE]
-> 会议Skype for Business Web应用客户端和Skype会议应用Windows 10仅提供[会议支持](feature-comparison.md#BKMK_Conferencing)。 有关这些[客户端 (请参阅 Plan for Meetings clients (Web App and Meetings App) 。](../../SfbServer/plan-your-deployment/clients-and-devices/meetings-clients.md)
+> 会议Skype for Business Web应用客户端和Skype会议应用Windows 10仅提供[会议支持](feature-comparison.md#BKMK_Conferencing)。 请参阅 [Plan for Meetings clients (Web App and Meetings App) ](../../SfbServer/plan-your-deployment/clients-and-devices/meetings-clients.md) 了解有关这些客户端的信息。
 
 ## <a name="enhanced-presence-support"></a>增强状态支持
 <a name="BKMK_EnhancedPresence"> </a>
@@ -90,11 +90,11 @@ Skype for Business Server 2019 中提供某些功能在 Skype for Business Onlin
 |:-----|:-----|:-----|:-----|  
 |与联系人发起 IM 或向联系人发送电子邮件  |&#x2714;|&#x2714;|&#x2714;|  
 |在多个 IM 对话之间导航/在单个选项卡式窗口中跟踪多个对话   |&#x2714;|&#x2714;|&#x2714;| 
-|在 Outlook 中记录 IM 对话  |&#x2714;|&#x2714; 如果启用服务器端对话历史记录   |&#x2714;|   
+|在 Outlook 中记录 IM 对话  |&#x2714;|&#x2714; 如果服务器端对话历史记录已打开   |&#x2714;|   
 |检查拼写 |&#x2714;|&#x2714;||   
 |技能搜索 (服务器SharePoint集成)   <br/>  (技能Skype for Business Server 2013 SharePoint本地部署和本地)   |&#x2714;||&#x2714;|
-|持久聊天 (群聊) 集成  <br/>  (Online Skype for Business) |&#x2714;||&#x2714;|  
-|单击一下即可将持久聊天室Skype for Business会议升级为会议  <br/>  (Online Skype for Business)  |&#x2714;||&#x2714;| 
+|持久聊天 (群聊) 集成  <br/>  (Online Skype for Business不可用) |&#x2714;||&#x2714;|  
+|单击一下即可将持久聊天室Skype for Business会议升级为会议  <br/>  (Online Skype for Business不可用)  |&#x2714;||&#x2714;| 
 |IM 窗口中发件人和接收方的内联图片 |&#x2714;||&#x2714;| 
 |接收墨迹消息 |&#x2714;||&#x2714;| 
 |将 IM 消息设置为高重要性 |&#x2714;||&#x2714;|
@@ -108,7 +108,7 @@ Skype for Business Server 2019 中提供某些功能在 Skype for Business Onlin
 >  Skype for Business Online 独立计划 1 中Skype for Business会议功能。  计划 1 即将 [停用](../../SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-for-business-online-plan-1-retirement.md
 )。
 
-在Skype到 Skype 会话中，Skype for Business Online 计划 1 用户可以在受有权访问共享功能的用户邀请时参与桌面共享和应用程序共享。
+在Skype到 Skype 会话中，如果 Skype for Business Online 计划 1 用户受邀访问共享功能，则他们可以参与桌面共享和应用程序共享。
 有关详细信息，请参阅 Skype for Business [Online 服务说明](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description)。 
 
 |功能 | Skype for Business 2016 客户端 | Mac 版 Skype for Business | Skype for Business Web 应用 | Skype for Business 2015 客户端 | Lync 2013 客户端 | 
@@ -127,11 +127,11 @@ Skype for Business Server 2019 中提供某些功能在 Skype for Business Onlin
 |启动"立即开会"会议|&#x2714;|&#x2714;||&#x2714;|&#x2714;|  
 |添加并演示 Microsoft PowerPoint 文件 |&#x2714;| &#x2778;批注不可用   |&#x2714;|&#x2714;|&#x2714;| 
 |导航 Microsoft PowerPoint文件 |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;| 
-|添加和编辑OneNote会议记录  |&#x2714;||仅编辑 (添加)   |&#x2714;|&#x2714;|
+|添加和编辑OneNote会议笔记  |&#x2714;||仅编辑 (添加)   |&#x2714;|&#x2714;|
 |使用白板 |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |发起投票 |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
-|Upload与其他人共享的文件 |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|安排会议 |Outlook 或 Skype for Business Web计划程序  |Outlook 或 Skype for Business Web计划程序 |Skype for Business Web计划程序 |Outlook 或 Skype for Business Web计划程序   |Outlook Lync Web 计划程序 |  
+|Upload文件与其他人共享 |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|安排会议 |Outlook 或 Skype for Business Web计划程序  |Outlook 或 Skype for Business Web计划程序 |Skype for Business Web计划程序 |Outlook 或 Skype for Business Web计划程序   |Outlook 或 Lync Web 计划程序 |  
 |问答 &amp; 管理器 |&#x2714;|||||
 |禁用与会者视频 |&#x2714;||&#x2714;|||
 |禁用会议 IM |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
@@ -147,7 +147,7 @@ Skype for Business Server 2019 中提供某些功能在 Skype for Business Onlin
 
  &#x2777; 对于 Skype for Business Online，此功能需要 Microsoft PSTN 会议、Exchange统一消息或第三方音频会议提供商。
 
- &#x2778; Lync for Mac 2011 客户端无法查看 Microsoft Office 2013 PowerPoint演示文稿（如果已由 Skype for Business Web应用 在会议中共享）。
+ &#x2778; Lync for Mac 2011 客户端Microsoft Office在会议PowerPoint共享 2013 Skype for Business Web应用。
 
 &#x2779;对于 Skype for Business 2016 应用，必须使用即点即用版本 16.0.4227 或更高版本。
 
@@ -171,7 +171,7 @@ Skype for Business Server 2019 中提供某些功能在 Skype for Business Onlin
 |管理代理 |&#x2714;|&#x2714;   |&#x2714; &#x2776; |
 |向响应组发起呼叫|&#x2714;||&#x2714; &#x2776; |
 |支持 E-911 (紧急)  |&#x2714;|&#x2714; |&#x2714; &#x2776; |
-|针对 E-911 (SIP URI) IM 通知 |&#x2714;|&#x2714;|&#x2714;|
+|针对 E-911 呼叫 (SIP URI) IM 通知 |&#x2714;|&#x2714;|&#x2714;|
 |向通讯组列表发送 E-911 呼叫的 IM 通知|&#x2714;|&#x2714;|&#x2714;|
 |连接语音邮件，设置或更改问候语 |&#x2714;|&#x2714;|&#x2714; &#x2776; | 
 |未接来电通知 |&#x2714;|&#x2714;|&#x2714; &#x2776; | 
@@ -209,7 +209,7 @@ Skype for Business Server 2019 中提供某些功能在 Skype for Business Onlin
 
  &#x2776;联机独立计划的某些Skype for Business录制不可用。 录制需要完全Skype for Business客户端权限。
 
- &#x2777;联机中OneNote记录文件传输、共享PowerPoint和Skype for Business批注。
+ &#x2777;联机版中OneNote文件传输、共享PowerPoint和Skype for Business记录。
 
 ## <a name="modern-authentication"></a>新式验证
 <a name="BKMK_Recording"> </a>
@@ -234,12 +234,12 @@ Skype for Business Server 2019 中提供某些功能在 Skype for Business Onlin
 
  | 功能 | Skype for Business 2015、2016 或 2019 客户端 | Mac 版 Skype for Business | Lync 2013 客户端 |  
 |:-----|:-----|:-----|:-----|  
-|在对话历史记录中存档OUTLOOK IM 对话|&#x2714; &#x2776; |&#x2714; 如果启用服务器端对话历史记录  |&#x2714; &#x2776; | 
+|在对话历史记录中存档OUTLOOK IM 对话|&#x2714; &#x2776; |&#x2714; 如果服务器端对话历史记录已打开  |&#x2714; &#x2776; | 
 |音频、视频、应用程序共享、桌面共享和上载内容的客户端存档  |&#x2714; &#x2776; ||&#x2714; &#x2776; |
-|客户端存档文件传输、共享OneNote页面和PowerPoint批注 (在 Skype for Business Online)   |&#x2714;||&#x2714;|
+|客户端存档文件传输、共享OneNote页面PowerPoint注释 (在 Skype for Business Online)   |&#x2714;||&#x2714;|
 |从任务栏中的"Skype for Business"图标访问登录日志 |&#x2714;||&#x2714;|
 
- &#x2776; 对于 Skype for Business Online 用户，此功能Exchange Online由用户的"保留"Exchange邮箱In-Place控制。
+ &#x2776; 对于 Skype for Business Online 用户，此功能Exchange Online由用户的 Exchange 邮箱和保留In-Place控制。
 
 ## <a name="client-limitations"></a>客户端限制
 <a name="Types"> </a>
@@ -287,4 +287,4 @@ Skype for Business Server 2019 中提供某些功能在 Skype for Business Onlin
 
 [规划客户端和设备](../../SfbServer/plan-your-deployment/clients-and-devices/clients-and-devices.md)
 
-[使用 MSI 安装程序Skype for Business安装程序Windows版本的 (最新) ](../../SfbServer/sfb-client-updates.md)
+[使用 MSI 安装程序Skype for Business安装程序Windows版本的 (更新) ](../../SfbServer/sfb-client-updates.md)

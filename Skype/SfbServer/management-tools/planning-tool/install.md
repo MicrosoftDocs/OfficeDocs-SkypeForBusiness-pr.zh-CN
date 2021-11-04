@@ -1,7 +1,7 @@
 ---
-title: 在 2015 年 Skype for Business Server安装规划工具
+title: 在 Skype for Business Server 2015 中安装规划工具
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/5/2016
@@ -13,17 +13,17 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b95b3301-fa1e-4b96-9af4-05b43d39db8d
-description: 在使用 Skype for Business Server 2015 规划工具开始设计和规划 Skype for Business Server 2015 基础结构之前，必须先安装规划工具。 规划工具无需部署到工作站或服务器，该工作站或服务器是计划安装 2015 年 Skype for Business Server 的一部分。 规划工具随附的自述文件详细介绍了有关安装和使用该工具的重要信息。 为明确起见，此处复述了自述文件中的某些信息。
-ms.openlocfilehash: 2cfa5e67d567c108d46db1bc52b5426971aa8ca8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 在使用 Skype for Business Server 2015 规划工具开始设计和规划 Skype for Business Server 2015 基础结构之前，必须先安装规划工具。 规划工具无需部署到工作站或服务器，该工作站或服务器是计划安装 2015 年 Skype for Business Server的一部分。 规划工具随附的自述文件详细介绍了有关安装和使用该工具的重要信息。 为明确起见，此处复述了自述文件中的某些信息。
+ms.openlocfilehash: b476d5d39515fe14d3f13a3ee9dc0c5b5298fdc1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616508"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60756881"
 ---
-# <a name="install-the-planning-tool-in-skype-for-business-server-2015"></a>在 2015 年 Skype for Business Server安装规划工具
+# <a name="install-the-planning-tool-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中安装规划工具
 
-在使用 Skype for Business Server 2015 规划工具开始设计和规划 Skype for Business Server 2015 基础结构之前，必须先安装规划工具。 规划工具无需部署到工作站或服务器，该工作站或服务器是计划安装 2015 年 Skype for Business Server 的一部分。 规划工具随附的自述文件详细介绍了有关安装和使用该工具的重要信息。 为明确起见，此处复述了自述文件中的某些信息。
+在使用 Skype for Business Server 2015 规划工具开始设计和规划 Skype for Business Server 2015 基础结构之前，必须先安装规划工具。 规划工具无需部署到工作站或服务器，该工作站或服务器是计划安装 2015 年 Skype for Business Server的一部分。 规划工具随附的自述文件详细介绍了有关安装和使用该工具的重要信息。 为明确起见，此处复述了自述文件中的某些信息。
 
 > [!IMPORTANT]
 > 规划工具要求具有管理员权限的用户在要安装该工具的计算机上进行安装。
@@ -46,7 +46,7 @@ ms.locfileid: "58616508"
 
 - Windows Server 2008 R2，使用 WOW
 
-此外，规划工具需要 Microsoft .NET Framework 4.5。
+此外，规划工具还需要 Microsoft .NET Framework 4.5。
 
 满足预安装要求后，可以安装规划工具。
 
@@ -60,7 +60,7 @@ ms.locfileid: "58616508"
 
 3. 找到SkypeForBusinessPlanningTool.msi。 在Windows资源管理器"中，双击该文件。 在命令窗口中，键入文件的名称，然后按 **Enter** 运行该文件。
 
-4. 在 **2015 Skype for Business Server"** 规划工具安装向导"的"欢迎"页上，单击"下一 **步"。**
+4. 在 **"2015** 规划工具Skype for Business Server向导的"欢迎"页上，单击"下一 **步"。**
 
 5. 查看 **“最终用户许可协议”**，如果选择接受许可协议中的使用条款，则选择 **“我接受许可协议中的条款”**，然后单击 **“下一步”**。
 
@@ -97,10 +97,10 @@ The Skype for Business Server 2015 Planning Tool is designed to export to Micros
 
 ### <a name="microsoft-visio"></a>Microsoft Visio
 
-将设计导出到 Microsoft Visio会创建一个图表，用于所配置拓扑和基础结构的文档目的。 可以编辑和重新排列导入的图表以满足文档需求。 典型的Visio包括：
+将设计导出到 Microsoft Visio可创建一个图表，以用于配置的拓扑和基础结构的文档目的。 可以编辑和重新排列导入的图表以满足文档需求。 典型的Visio包括：
 
 > [!NOTE]
-> 如果您的设计足够大，需要三台以上前端服务器，将为前端池、前端服务器、运行 SQL Server 的计算机、IP 地址和 FQDN 创建一个附加页面。
+> 如果设计足够大，需要三台以上前端服务器，将为前端池、前端服务器、运行 SQL Server 的计算机、IP 地址和 FQDN 创建其他页面。
 
 - 全局拓扑 - 2015 Skype for Business Server配置图。
 

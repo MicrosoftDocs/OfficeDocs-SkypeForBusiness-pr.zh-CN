@@ -1,7 +1,7 @@
 ---
-title: 配置媒体旁路全局Skype for Business Server以使用站点和地区信息
+title: 将媒体旁路全局Skype for Business Server配置为使用站点和地区信息
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0a21cdf1-f350-49da-b346-70806f256bea
 description: 将媒体旁路配置为仅用于 Skype for Business Server 企业语音 中的某些站点和Skype for Business Server 企业语音。
-ms.openlocfilehash: d90393c19dffaac425025379258a0ceae24da9cf
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2d1c10ce06421635783a50bf97286c8d752f478b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58588984"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741348"
 ---
-# <a name="configure-media-bypass-global-settings-in-skype-for-business-server-to-use-site-and-region-information"></a>配置媒体旁路全局Skype for Business Server以使用站点和地区信息
+# <a name="configure-media-bypass-global-settings-in-skype-for-business-server-to-use-site-and-region-information"></a>将媒体旁路全局Skype for Business Server配置为使用站点和地区信息
  
 将媒体旁路配置为仅用于 Skype for Business Server 企业语音 中的某些站点和Skype for Business Server 企业语音。 
   
- 如果使用本主题中的步骤配置媒体旁路的全局设置，则假定前提是所有 Skype for Business 终结点与在中继连接上配置了媒体旁路的任何对等方之间的连接都不正确。
+ 如果使用本主题中的步骤配置媒体旁路的全局设置，则假定前提是所有 Skype for Business 终结点与在中继连接上配置了媒体旁路的任何对等方之间的连接性良好。
   
 > [!NOTE]
 > 启用呼叫允许控制和媒体旁路高级企业语音功能后，会在两者之间共享网络区域和网络站点信息。因此，如果您已配置了呼叫允许控制，则不需要使用以下过程专门为媒体旁路编辑站点和区域信息。如果尚未为呼叫允许控制配置网络区域和站点，并且想要更改媒体旁路设置，请按照该过程中的步骤进行操作。 
