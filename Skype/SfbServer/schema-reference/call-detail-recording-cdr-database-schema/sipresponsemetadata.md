@@ -1,7 +1,7 @@
 ---
 title: SIPResponseMetaData 表
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 10/20/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: cf723737-4a75-4352-829b-f4954aa59716
 description: SIPResponseMetaDataTable 包含 SIP 响应代码的列表以及每种代码的分类和定义。在响应影响 SIP 设备和 SIP 通信会话的事件时生成这些代码；例如，当某个 SIP 设备发出请求，但服务器拒绝服从该请求时，将生成响应代码 403。
-ms.openlocfilehash: 9fb5921b2ff0c371dc8771ce8627bdae23f651dc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b0da53bded9f748643514a8235991d1124762ff9
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630346"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761960"
 ---
 # <a name="sipresponsemetadata-table"></a>SIPResponseMetaData 表
  
@@ -26,7 +26,7 @@ SIPResponseMetaDataTable 包含 SIP 响应代码的列表以及每种代码的�
   
 此表是在 2015 年 Skype for Business Server引入的。
   
-|**列**|**数据类型**|**键/索引**|**Details**|
+|**列**|**数据类型**|**键/索引**|**详细信息**|
 |:-----|:-----|:-----|:-----|
 |**ResponseCode** <br/> |int  <br/> |主  <br/> |表示 SIP 响应代码的数字值。  <br/> |
 |**类** <br/> |int  <br/> || 响应代码的常规分类。分类包括： <br/>  1 - 信息性响应 <br/>  2 - 成功响应 <br/>  3 - 重定向响应 <br/>  4 - 客户端故障响应 <br/>  5 -- 服务器故障响应 <br/>  6 - 全局故障响应 <br/> |

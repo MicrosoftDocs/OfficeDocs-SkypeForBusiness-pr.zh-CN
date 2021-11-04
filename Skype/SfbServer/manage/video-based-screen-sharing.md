@@ -1,7 +1,7 @@
 ---
 title: 适用于 Skype for Business Server 的基于视频的屏幕共享
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.date: 2/20/2018
 manager: serdars
@@ -12,23 +12,23 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
-description: 'Skype for Business Server基于视频的屏幕共享和 VbSS (的规划和配置) '
-ms.openlocfilehash: d4f7b7d9cee9cb87c24c8c78da8e6bf92eac039c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 'Skype for Business Server基于视频的屏幕共享和 VbSS (规划和配置) '
+ms.openlocfilehash: 2921330887b4e52aee5069d2bd1f97992a015ba9
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58591126"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762330"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>适用于 Skype for Business Server 的基于视频的屏幕共享 
  
-Skype For Business Server 2015 中基于视频的屏幕共享 (VbSS) 现已可供下载[：Skype for Business Server 2015 累积更新 KB3061064。](https://www.microsoft.com/download/details.aspx?id=47690) VbSS 包含在 Skype for Business Server 2019 中。
+Skype For Business Server 2015 中基于视频的屏幕共享 (VbSS) 现已可供下载[：Skype for Business Server 2015 累积更新 KB3061064。](https://www.microsoft.com/download/details.aspx?id=47690) VbSS 包含在 2019 Skype for Business Server中。
   
-基于视频的屏幕共享（即 VbSS）退出 Lync 屏幕共享。 VbSS 与传统屏幕共享的区别与所使用的基础协议及其擅长内容有关。 屏幕共享使用远程桌面协议 (RDP) ，它非常能够创建用户计算机之间的数千个一对一会话。 较新的技术 VbSS 将使用用户数据报协议 (UDP) 。
+基于视频的屏幕共享（即 VbSS）退出 Lync 屏幕共享。 VbSS 与传统屏幕共享的区别与所使用的基础协议及其擅长内容有关。 屏幕共享使用远程桌面协议 (RDP) ，这非常能够创建数千个在用户计算机之间的一对一会话。 较新的技术 VbSS 将使用用户数据报协议 (UDP) 。
   
-Skype for Business Server改进人们一对一及其一对多的多方 (对话和) 体验。 VbSS 利用媒体平台 (它依赖于 UDP 作为基础协议) ，目的是改进视频开始时间、观看 (尤其是当你正在观看的内容快速移动) 时，以及整体可靠性。
+Skype for Business Server改进人们一对一及其一对多的多方 (对话和) 体验。 VbSS 利用媒体平台 (它依赖于 UDP 作为基础协议) ，目的是改善视频开始时间、观看 (尤其是当你正在观看的内容快速移动) 以及整体可靠性时。
   
-改进屏幕共享的一部分是，在 VbSS 和 RDP 之间实现尽可能无缝的转换。 由于 VbSS 是针对 Skype for Business Server 的屏幕共享中使用的基础技术的更新，因此，除非正在查看网络流量中的 SIP 详细信息，或者您共享快速移动或三维内容，否则可能很难检测您利用的技术。 例如，如果工作区中有许多旧版客户端，RDP 仍将作为会议和对话的故障安全。 Skype for Business Server使用内部逻辑决定在客户端连接 (VbSS 或传统屏幕共享) 应用哪一种方法。 RDP 可以且将替换为 VbSS（当情况需要它时）以便你的查看体验不会中断。
+改进屏幕共享的一部分是，在 VbSS 和 RDP 之间实现尽可能无缝的转换。 由于 VbSS 是针对 Skype for Business Server 的屏幕共享中使用的基础技术的更新，因此很难检测您利用的技术，除非您正在查看网络流量中的 SIP 详细信息，或者您共享的是快速移动的内容或三维内容。 例如，如果工作区中有许多旧版客户端，RDP 仍将作为会议和对话的故障安全。 Skype for Business Server使用内部逻辑来决定在客户端连接时 (VbSS 或传统屏幕) 应用哪一种方法。 RDP 可以且将替换为 VbSS（当情况需要它时）以便你的查看体验不会中断。
   
 ## <a name="planning"></a>规划
 
@@ -36,7 +36,7 @@ Skype for Business Server改进人们一对一及其一对多的多方 (对话�
 
 切换到 VbSS 旨在进行三项关键改进：
   
-1. 使屏幕共享 (与 RDP 相比) 5% 的可靠性。
+1. 使屏幕共享功能 (RDP 相比) 5% 的可靠性。
 
 2. 使会话设置和视频体验比仅 RDP 快一 (一半时间进行设置，每秒帧数提高 6：1) 。
 
@@ -68,7 +68,7 @@ Skype for Business Server改进人们一对一及其一对多的多方 (对话�
   
 **应用程序服务器 QoS/VbSS 所需设置**
 
-|**Property**|**端口值**|**协议**|
+|**属性**|**端口值**|**协议**|
 |:-----|:-----|:-----|
 |AudioPortStart  <br/> |49152  <br/> |UDP  <br/> |
 |AudioPortCount  <br/> |8348  <br/> |UDP  <br/> |
@@ -81,7 +81,7 @@ Skype for Business Server改进人们一对一及其一对多的多方 (对话�
 
 运行 Skype for Business Server 2015 累积更新 2 (CU2) 或更高版本的每个前端服务器最多支持 375 个参与者使用 RDP (但每个会议仅支持 250 个) 。 引入和使用 VbSS 时，此容量在 CU3 后不会更改。
   
-也就是说，我们已在实验室中完成性能和压力测试，并且还应根据使用情况考虑以下 (测量，当然) 。
+也就是说，我们已在实验室中完成性能和压力测试，也应当根据你的部署环境考虑以下 (测量，当然) 。
   
 假定：
   
@@ -89,7 +89,7 @@ Skype for Business Server改进人们一对一及其一对多的多方 (对话�
     
 - 用户环境中所有用户的Skype for Business Server分辨率高于 1920x1080。
     
-达到完整容量时 (如上所述，每个前端服务器总共有 375 个屏幕共享参与者，尽管每个会议) 只有 250 个参与者，但前端服务器可能使用大约 1 GB 网卡的 89%。 这是因为 Skype for Business Server CU2 (RDP) 中的现有屏幕共享技术以演示者电脑的本机分辨率传输屏幕内容。 因此，在考虑更高的屏幕分辨率后，你可能已经遇到与 Skype for Business Server CU2 进行屏幕共享的网络瓶颈。
+达到完整容量 (如上所述，每个前端服务器总共有 375 个屏幕共享参与者，尽管每个会议) 只有 250 个参与者，但前端服务器可能使用大约 1 GB 网卡的 89%。 这是因为 Skype for Business Server CU2 (RDP) 中的现有屏幕共享技术以演示者电脑的本机分辨率传输屏幕内容。 因此，如果考虑更高的屏幕分辨率，你可能已经遇到使用 Skype for Business Server 2015 CU2 进行屏幕共享的网络瓶颈。
   
 若要缓解这种情况，以下一个或多个选项可能会有所帮助：
   
@@ -97,7 +97,7 @@ Skype for Business Server改进人们一对一及其一对多的多方 (对话�
 
 - 增加前端服务器的数量以对流量进行负载平衡。
 
-- 通过为 VbSS (RDP) 最大带宽设置上限，限制用于 VbSS 和 RDP 的带宽比特率。
+- 限制用于 VbSS () RDP (的带宽比特率，方法为任一通道使用的最大带宽设置上限。
     
 此表中的数字受各个网络和共享内容的影响。 请进行测试，为网络建立基线。
   
@@ -117,18 +117,18 @@ VbSS 带宽为：
    
 ## <a name="clients-and-servers-support"></a>客户端和服务器支持
 
-基于视频的屏幕共享需要 Skype for Business Server 2015 CU3 或更高版本，以及 Mobile client feature comparison [for Skype for Business and](../plan-your-deployment/clients-and-devices/mobile-feature-comparison.md) Meetings support 中列出的支持客户端[的当前版本](../plan-your-deployment/clients-and-devices/desktop-feature-comparison.md#BKMK_Conferencing)。 
+基于视频的屏幕共享需要 Skype for Business Server 2015 CU3 或更高版本，以及 Skype for Business 和会议支持的移动客户端功能[](../plan-your-deployment/clients-and-devices/mobile-feature-comparison.md)比较中列出的支持客户端[的当前版本](../plan-your-deployment/clients-and-devices/desktop-feature-comparison.md#BKMK_Conferencing)。 
   
 在某些情况下，屏幕共享将转换为 RDP，如下所示：
   
 - 如果你的帐户托管在 ASMCU 不满足支持 VbSS 的最低内部版本的环境中。
-- 如果使用较旧版本的 Skype for Business 客户端的人加入会话，例如使用低于 16.0.6330.1000、Skype for Business 会议室系统设备或 Skype for Business 移动应用的任何 Windows 客户端版本的任何人。 
+- 如果使用早期版本的 Skype for Business 客户端的人加入会话，例如使用低于 16.0.6330.1000、Skype for Business 会议室系统设备或 Skype for Business 移动应用的任何 Windows 客户端版本的任何人。 
 - 如果用户正在从网站Skype for Business Web应用。
-- 如果某人使用的是 Mac Skype for Business，并且未在 Skype for Business Online 或 Skype for Business Server 2015 上使用 2018 年 7 月版累积更新 (或更高版本) 。
+- 如果某人使用的是 Mac Skype for Business，但并非在 Skype for Business Online 或 Skype for Business Server 2015 上（包含 2018 年 7 月或更高版本的 2018 年 7 月累积更新 (或更高版本) ）。
 - 如果有人启动任何计划/Windows共享。
 - 如果有人开始录制会话。
 - 如果有人在会话期间调用远程屏幕控制。 
-- 参与者超过 250 人的会议 (当前不支持 VbSS 的会议) 。
+- 参与者超过 250 人的会议 (目前不支持 VbSS) 。
 
 请注意，会话转换到 RDP 后，将不会转换回 VbSS。 同样，从 VbSS 进行转换是无缝的，并且希望在大多数情况下都很难检测到。
     
@@ -168,7 +168,7 @@ VbSS 带宽为：
   
 ### <a name="how-to-enable-users-to-use-vbss"></a>如何允许用户使用 VbSS
 
-- 可以通过在 Skype for Business 管理控制台 (中运行此 cmdlet，为需要使用 VbSS 的任何用户分配允许 VbSS 的特定用户策略 (将 [PolicyName] 替换为针对) 执行此操作的策略：
+- 您可以通过在 Skype for Business 管理控制台 (中运行此 cmdlet，为需要使用 VbSS 的任何用户分配允许 VbSS 的特定用户策略，将 [PolicyName] 替换为针对) 执行此操作的策略：
     
   ```PowerShell
   Set-CsConferencingPolicy -Identity [PolicyName] -ApplicationSharingMode VideoWithFallback

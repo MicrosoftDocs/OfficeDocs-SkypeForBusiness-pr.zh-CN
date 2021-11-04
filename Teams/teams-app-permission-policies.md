@@ -1,7 +1,7 @@
 ---
 title: 在 Microsoft Teams 中管理应用权限策略
-author: cichur
-ms.author: serdars
+author: serdars
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: rarang
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 2f29678b53171772bf905e2b5dfaddf3131016d9
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: b407d0c96e5aa9cbf84277285ab717a1950a9f17
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605248"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761690"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理应用权限策略
 
@@ -86,7 +86,7 @@ ms.locfileid: "60605248"
 
 ## <a name="manage-org-wide-app-settings-for-microsoft-365-government"></a>管理 Microsoft 365 政府版的组织范围的应用设置  
 
-在 Microsoft 365 政府 - GCCH 和 DoD 部署 Teams 中，必须了解以下第三方应用设置，这些设置对于 GCCH 和 DoD 是唯一的。
+在 Microsoft 365 政府 - GCCH 和 DoD Teams 中，必须了解以下内容，了解 GCCH 和 DoD 独有的第三方应用设置。
 
 在 GCCH 和 DoD 中，默认情况下会阻止所有第三方应用。 此外，你将在 Microsoft Teams 管理中心的“应用权限策略”页面上看到以下有关管理第三方应用的备注。
 

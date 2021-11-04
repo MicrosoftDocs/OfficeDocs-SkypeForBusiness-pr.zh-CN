@@ -1,7 +1,7 @@
 ---
 title: 教育 SKU 参考
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: karsmith
 ms.topic: article
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 列出教育教职员工和学生许可计划和 SKU ID。
 f1keywords: ''
-ms.openlocfilehash: b0fd67dd27a497712e48cb0664712963a61d678c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8f6c4a1821488b14bd95bdaab670788a880b109f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627074"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774372"
 ---
 # <a name="education-sku-reference"></a>教育 SKU 参考
 
@@ -59,7 +59,7 @@ ms.locfileid: "58627074"
 |Microsoft 365 教育版适用于学生的 A3 使用权益       |M365EDU_A3_STUUSEBNFT         |18250162-5d87-4436-a834-d795c15c80f3         |
 |Microsoft 365 教育版A5（学生）        |M365EDU_A5_STUDENT       |46c119d4-0379-4a9d-85e4-97c66d3f909e        |
 |Microsoft 365 A5学生使用权益     |M365EDU_A5_STUUSEBNFT         |31d57bc7-3a05-4867-ab53-97a17835a411         |
-|Microsoft 365 A5学生音频会议      |M365EDU_A5_NOPSTNCONF_STUDENT         |a25c01ce-bab1-47e9-a6d0-ebe939b99ff9         |
+|Microsoft 365 A5没有音频会议的学生      |M365EDU_A5_NOPSTNCONF_STUDENT         |a25c01ce-bab1-47e9-a6d0-ebe939b99ff9         |
 |Microsoft 365 A5音频会议的学生使用权益    |M365EDU_A5_NOPSTNCONF_STUUSEBNFT         |81441ae1-0b31-4185-a6c0-32b6b84d419f         |
 |Office 365 A3学生     |ENTERPRISEPACKPLUS_STUDENT         |98b6e773-24d4-4c0d-a968-6e787a1f8204         |
 |Office 365 A3学生使用权益     |ENTERPRISEPACKPLUS_STUUSEBNFT         |476aad1e-7a7f-473c-9d20-35665a5cbd4f         |

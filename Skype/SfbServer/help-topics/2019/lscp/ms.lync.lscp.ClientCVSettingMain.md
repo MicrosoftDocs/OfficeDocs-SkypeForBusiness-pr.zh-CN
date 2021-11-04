@@ -1,7 +1,7 @@
 ---
 title: 客户端版本配置
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: cb17314e-b89e-4821-8855-12f8fd2edc9b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 除了指定希望在环境中支持的客户端版本之外，还可以指定尚未定义版本策略的客户端的默认操作。这样可以限制在环境中使用的客户端版本，从而帮助您控制与支持多个客户端版本相关的成本。
-ms.openlocfilehash: e60e9a0225da3dbb2379f31eba3043a00c4e9144
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 57a999b9300947fc74091852f0729aea91739eae
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592776"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761400"
 ---
 # <a name="client-version-configuration"></a>客户端版本配置
 
@@ -30,7 +30,7 @@ ms.locfileid: "58592776"
 
 您可以在“客户端版本配置”页上执行以下任务：
 
-- 编辑默认的全局 **()** 客户端版本配置。
+- 编辑全局 ( **客户端**) 配置的默认选项。
 
 - 为特定站点创建客户端版本配置。
 

@@ -1,7 +1,7 @@
 ---
 title: Active Directory 架构扩展名、类和属性
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2016
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 579bfa5a-9443-46dd-9a8e-07d00ba2824d
 description: 本参考部分包括以下信息：
-ms.openlocfilehash: 92b361a493bdb090cb216fa5c65dff4787db3c5f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 55ab4d185f2fb00159185cbb69ff1998db9d6f1b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618748"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762080"
 ---
 # <a name="active-directory-schema-extensions-classes-and-attributes"></a>Active Directory 架构扩展名、类和属性
  
@@ -30,7 +30,7 @@ ms.locfileid: "58618748"
     
 - 由 Skype for Business Server 使用的所有类，并包含每个类的说明
     
-- 网站使用的所有Skype for Business Server，并分别描述每个属性
+- 网站使用的所有Skype for Business Server，并分别说明每个属性
     
 - 由用户使用的类Skype for Business Server，其中每个类可能包含的属性
     
@@ -56,8 +56,8 @@ ms.locfileid: "58618748"
     
 - [域中的域准备所做的更改Skype for Business Server](changes-made-by-domain-preparation.md)
     
-- [由Grant-CsSetupPermission所做的更改Skype for Business Server](changes-made-by-grant-cssetuppermission.md)
+- [由 Grant-CsSetupPermission 中Skype for Business Server](changes-made-by-grant-cssetuppermission.md)
     
-- [由Grant-CsOUPermission所做的更改Skype for Business Server](changes-made-by-grant-csoupermission.md)
+- [由 Grant-CsOUPermission 中Skype for Business Server](changes-made-by-grant-csoupermission.md)
     
 

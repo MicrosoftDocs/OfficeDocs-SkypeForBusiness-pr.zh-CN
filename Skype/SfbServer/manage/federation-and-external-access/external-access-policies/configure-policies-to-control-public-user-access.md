@@ -5,7 +5,7 @@ ms:assetid: 090aea0f-ef0b-49da-9c80-02d9279f2fa6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520946(v=OCS.15)
 ms:contentKeyID: 48183343
 mtps_version: v=OCS.15
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 通过公共即时消息 (IM) 连接，您的组织中的用户可以使用 IM 与公共 IM 服务提供商提供的 IM 服务的用户进行通信。
-ms.openlocfilehash: 13ef277693c219436e37fc2b9ddee8b78ff5ebc0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2482270d27843b546246e11fb1bcadcc45c900da
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625194"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774952"
 ---
 # <a name="configure-policies-to-control-public-user-access-in-skype-for-business-server"></a>配置策略以控制公共用户访问Skype for Business Server
 
@@ -33,7 +33,7 @@ ms.locfileid: "58625194"
 
 
 > [!NOTE]  
-> 即使没有为组织启用联盟，也可以配置控制公共用户访问的策略。 但是，只有为组织启用联盟后，配置的策略才会生效。 有关启用联盟的详细信息，请参阅 [启用或禁用远程用户访问](../access-edge/enable-or-disable-remote-user-access.md)。 此外，如果指定用于控制公共用户访问的用户策略，则此策略仅适用于启用了该策略Skype for Business Server配置为使用该策略的用户。 有关指定可登录到 Skype for Business Server 用户的详细信息，请参阅分配[外部用户访问策略](assign-an-external-user-access-policy.md)。
+> 即使没有为组织启用联盟，也可以配置控制公共用户访问的策略。 但是，只有为组织启用联盟后，配置的策略才会生效。 有关启用联盟的详细信息，请参阅 [启用或禁用远程用户访问](../access-edge/enable-or-disable-remote-user-access.md)。 此外，如果指定用于控制公共用户访问的用户策略，则此策略仅适用于启用了 Skype for Business Server并配置为使用该策略的用户。 有关指定可登录到 Skype for Business Server 用户的详细信息，请参阅分配[外部用户访问策略](assign-an-external-user-access-policy.md)。
 
 
 使用以下过程来配置策略，以支持一个或多个公共 IM 提供商的用户进行访问。

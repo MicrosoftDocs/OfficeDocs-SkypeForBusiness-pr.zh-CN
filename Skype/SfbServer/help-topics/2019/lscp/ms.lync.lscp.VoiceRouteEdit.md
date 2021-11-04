@@ -1,7 +1,7 @@
 ---
 title: 语音路由 创建新的或编辑现有的
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 9235bfa4-1697-4375-81e6-37a7403d13af
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: cbb17b472c805bd26524f94f05fee1c7e33e3078
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 51b21a45b1955795c059a535d35d4b1770e396db
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597686"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775562"
 ---
 # <a name="voice-route-create-new-or-edit-existing"></a>语音路由：创建新的或编辑现有的
 

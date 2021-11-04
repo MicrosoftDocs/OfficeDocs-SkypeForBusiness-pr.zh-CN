@@ -1,7 +1,7 @@
 ---
 title: 在部署中部署 SEFAUtil Skype for Business
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,21 +16,21 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb556e50-88dd-4404-a3d5-be36f5ba41e6
 description: 在 Skype for Business Server 中部署 SEFAUtil Skype for Business Server。
-ms.openlocfilehash: 4848bc2c73cbcfc132bd996622a25512dedc2bf1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 40f35f227a2e1753f3362cd01b29883e06e1b893
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612751"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761530"
 ---
 # <a name="deploy-the-sefautil-tool-in-skype-for-business"></a>在部署中部署 SEFAUtil Skype for Business
  
 在 Skype for Business Server 中部署 SEFAUtil Skype for Business Server。
   
-若要部署和管理组呼叫接听，你需要使用 Skype for Business Server SEFAUtil 工具的版本。 
+若要部署和管理组呼叫接听，你需要使用 Skype for Business Server SEFAUtil 工具。 
   
 > [!IMPORTANT]
-> 必须在计划运行 SEFAUtil 工具 (安装 Microsoft 统一通信托管 API) UCMA) 5 运行时。 在此处下载 [：Unified Communications Managed API 5.0 Runtime](https://www.microsoft.com/download/details.aspx?id=47344)。 也可以在此处下载 UCMA 5 SDK，其中包括运行时[：UCMA 5.0 SDK。](https://www.microsoft.com/download/details.aspx?id=47345)
+> 必须在计划运行 SEFAUtil (的任何计算机上安装 Microsoft 统一通信托管 API) UCMA) 5 运行时。 在此处下载 [：Unified Communications Managed API 5.0 Runtime](https://www.microsoft.com/download/details.aspx?id=47344)。 也可以在此处下载 UCMA 5 SDK，其中包括运行时[：UCMA 5.0 SDK。](https://www.microsoft.com/download/details.aspx?id=47345)
   
 可以在部署的任何前端池中运行 SEFAUtil 工具。 若要运行 SEFAUtil 工具，必须在受信任应用程序计算机上从 Skype for Business 部署向导运行步骤 1、2 和 3。 SEFAUtil 要求存在本地配置存储以及证书。
   
@@ -39,11 +39,11 @@ ms.locfileid: "58612751"
   
 ### <a name="to-deploy-sefautil"></a>部署 SEFAUtil
 
-1. 以 RTCUniversalServerAdmins 组的成员或必要的用户权限（如D委托安装权限中所述）登录到安装了命令行管理程序Skype for Business Server **的计算机。**
+1. 以 RTCUniversalServerAdmins 组的成员或委派安装权限中所述的必要用户权限登录到安装了 Skype for Business Server 命令行管理程序 **的计算机**。
     
 2. 启动命令行Skype for Business Server：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击"Skype for Business Server **命令行管理程序"。**
     
-3. SEFAUtil 工具只能在作为受信任证书的一部分的计算机上应用程序池。 如果需要，请为应用程序池 SEFAUtil 的前端池定义受信任池。 在命令行中运行：
+3. SEFAUtil 工具只能在属于受信任应用程序一部分的计算机上应用程序池。 如果需要，请为应用程序池 SEFAUtil 的前端池定义受信任池。 在命令行中运行：
     
    ```powershell
    New-CsTrustedApplicationPool -id <Pool FQDN> -Registrar <Pool Registrar FQDN> -site Site:<Pool Site>
@@ -68,7 +68,7 @@ ms.locfileid: "58612751"
    Enable-CsTopology
    ```
 
-6. 如果尚未下载，请从此位置下载 Skype for Business Server 版本的 SEFAUtil 工具，并[](https://www.microsoft.com/download/details.aspx?id=52631)安装在步骤 3 中创建应用程序池受信任的证书上。
+6. 如果尚未下载，请从此位置下载 Skype for Business Server 版本的 SEFAUtil 工具，应用程序池步骤[](https://www.microsoft.com/download/details.aspx?id=52631)3 中创建的受信任版本。
     
 7. 验证 SEFAUtil 工具是否正常运行，如下所示： 
     

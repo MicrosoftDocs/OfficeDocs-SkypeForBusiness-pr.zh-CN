@@ -1,7 +1,7 @@
 ---
-title: 规划企业语音中的Skype for Business Server
+title: 规划企业语音Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fd8d5867-0ac9-47f8-94f0-1c3ee5e25575
-description: 企业语音中规划Skype for Business Server，包括站点、区域、站点之间的网络链接以及估计语音使用流量。
-ms.openlocfilehash: bfd7d4b1491b83c6ad3ab65836777e805689c21f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 企业语音规划基础知识Skype for Business Server，包括站点、区域、站点之间的网络链接和估计语音使用流量。
+ms.openlocfilehash: 60b762d2e9ef49d912dc00407d7b12d44ec334c0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618808"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762140"
 ---
-# <a name="plan-for-enterprise-voice-in-skype-for-business-server"></a>规划企业语音中的Skype for Business Server
+# <a name="plan-for-enterprise-voice-in-skype-for-business-server"></a>规划企业语音Skype for Business Server
  
-企业语音中规划Skype for Business Server，包括站点、区域、站点之间的网络链接以及估计语音使用流量。
+企业语音规划基础知识Skype for Business Server，包括站点、区域、站点之间的网络链接和估计语音使用流量。
   
 企业语音部署过程取决于现有拓扑、基础结构和企业语音支持的功能。 所需过程将取决于您选择的功能，但还有另一些规划注意事项需要您重点关注。
   
@@ -33,11 +33,11 @@ ms.locfileid: "58618808"
   
 ## <a name="sites-and-regions"></a>站点和地区
 
-首先，确定拓扑中要部署企业语音的站点以及这些站点所属的网络区域。 特别是，考虑如何将公用电话交换网 (PSTN) 连接到每个站点。 由于可管理性和物流方面的原因，这些站点所属的区域可能是一个决定性因素。 决定将在本地部署网关、部署 Survivable Branch Appliances (SBA) 以及在本地或中央站点配置 SIP 中继 (或在本地或在中央站点配置 SIP 中继) 到 Internet 电话服务提供商 (ITSP) 。
+首先，确定拓扑中要部署企业语音的站点以及这些站点所属的网络区域。 特别是，考虑如何将公用电话交换网 (PSTN) 连接到每个站点。 由于可管理性和物流方面的原因，这些站点所属的区域可能是一个决定性因素。 决定将在本地部署网关、部署 Survivable Branch Appliances (SBA) 以及在本地或在中央站点 (配置 SIP 中继) 到 Internet 电话服务提供商 (ITSP) 的地方。
   
 ## <a name="network-links-between-sites"></a>站点之间的网络链接
 
-您还需要考虑中央站点及其分支站点之间的网络链路上期望的带宽使用量。 如果您有或计划部署站点之间的可恢复 WAN 链路，我们建议您在每个分支站点部署网关，为这些站点中的用户提供本地外线直拨 (DID) 终止。 如果具有可恢复 WAN 链路，但 WAN 链路上的带宽可能被限定，则需要为该链路配置呼叫允许控制。 如果您没有可恢复的 WAN 链路，分支站点上承载的用户数少于 1000，并且没有可用的本地经过培训的 Skype for Business Server 管理员，我们建议您在分支站点部署 Survivable Branch Appliance。 如果您在分支站点承载 1000 到 5000 个用户，缺少可恢复的 WAN 连接，并且具有经过培训的 Skype for Business Server 管理员，我们建议您在分支站点部署具有小型网关的 Survivable Branch Server。 如果具有支持媒体旁路功能的对等网关，则也可以考虑在限定链路上启用媒体旁路功能。
+您还需要考虑中央站点及其分支站点之间的网络链路上期望的带宽使用量。 如果您有或计划部署站点之间的可恢复 WAN 链路，我们建议您在每个分支站点部署网关，为这些站点中的用户提供本地外线直拨 (DID) 终止。 如果具有可恢复 WAN 链路，但 WAN 链路上的带宽可能被限定，则需要为该链路配置呼叫允许控制。 如果您没有可恢复的 WAN 链路，分支站点上承载的用户少于 1000，并且没有经过培训的本地 Skype for Business Server 管理员，我们建议您在分支站点部署 Survivable Branch Appliance。 如果您在分支站点承载 1000 到 5000 个用户，缺少可恢复的 WAN 连接，并且具有经过培训的 Skype for Business Server 管理员，我们建议您在分支站点部署具有小型网关的 Survivable Branch Server。 如果具有支持媒体旁路功能的对等网关，则也可以考虑在限定链路上启用媒体旁路功能。
   
 ## <a name="estimating-voice-usage-and-traffic"></a>估计语音使用和流量
 
@@ -49,7 +49,7 @@ Microsoft Lync Server 2013 规划工具使用下列指标估计每个站点上�
 > 
 > 对于 **高流量**（每个用户每小时 3 个或更多 PSTN 呼叫），每个端口对应 5 个用户。
     
-端口数反过来决定所需的中介服务器和网关的数量。 公用电话交换网 (PSTN) 网关，大多数组织认为部署范围从 2 个端口到最多 960 个端口。  (还有更大的网关，但这些网关主要由电话服务提供商) 
+端口数反过来决定所需的中介服务器和网关的数量。 公用电话交换网 (PSTN) 网关，大多数组织考虑部署大小范围从 2 个端口到最多 960 个端口。  (还有更大的网关，但这些网关主要由电话服务提供商) 
   
 例如，具有 10,000 个用户和中等流量的组织将需要 1000 个端口。所需的网关数等于所需的端口总数，由网关的总容量决定。
   
@@ -57,7 +57,7 @@ Microsoft Lync Server 2013 规划工具使用下列指标估计每个站点上�
 
 有关规划部署部署企业语音部分。
   
-- [在应用程序企业语音所需的Skype for Business Server](components-required-for-enterprise-voice.md)
+- [企业语音中Skype for Business Server](components-required-for-enterprise-voice.md)
     
 - [规划 PSTN 连接Skype for Business Server](pstn-connectivity-0.md)
     

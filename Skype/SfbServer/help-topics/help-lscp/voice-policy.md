@@ -1,7 +1,7 @@
 ---
 title: 语音策略
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,18 +15,18 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 5c0bfce3-2ba0-4006-b5f2-415e03e54dbe
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: 199cf500095c8c1080a01d6fa6d85736aac7d14e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a770bd89db91dc321c15306695a578bc38618142
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602717"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768940"
 ---
 # <a name="voice-policy"></a>语音策略
 
 要执行什么操作？ 单击要执行的任务的链接。
 
-- [Create or modify a voice policy and configure PSTN usage records in Skype for Business 2015](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)
+- [在 2015 年 3 月创建或修改语音策略和配置 PSTN 用法Skype for Business记录](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)
 
 - [修改语音策略和配置 PSTN 用法记录](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records)
 

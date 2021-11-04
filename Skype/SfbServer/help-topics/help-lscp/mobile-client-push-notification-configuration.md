@@ -1,7 +1,7 @@
 ---
 title: 移动客户端推送通知配置
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: b7a85d75-9d36-4980-b669-2a009799d905
 description: 若要配置“Microsoft 推送通知”和“Apple 推送通知”，您必须创建一个定义所需推送通知类型的策略。
-ms.openlocfilehash: 20b7602abc518f68b0ecb7866b99025fca8cb543
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 48bc4dd4c218797719d4ad9884bc6c3870c9d688
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595826"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60764130"
 ---
 # <a name="mobile-client-push-notification-configuration"></a>移动客户端：推送通知配置
  
@@ -29,7 +29,7 @@ ms.locfileid: "58595826"
 在主配置屏幕上，单击“刷新”可刷新并重新填充策略列表。利用搜索框可缩小所显示策略的列表。当您键入要搜索的名称时，策略列表会自动缩小。
   
 > [!IMPORTANT]
-> 在一个策略级别应用的策略设置可覆盖在其他策略级别应用的设置。 策略优先级为：用户策略 (站点策略) ，站点策略覆盖全局策略， (影响最小) 。 这意味着，策略设置越接近策略影响的对象，它对对象的影响就越大。 
+> 在一个策略级别应用的策略设置可覆盖在其他策略级别应用的设置。 策略优先级为：用户策略 (影响) 站点策略，站点策略覆盖全局策略， (影响最小) 。 这意味着，策略设置越接近策略影响的对象，它对对象的影响就越大。 
   
 有两个选项可用于策略创建和编辑：
   

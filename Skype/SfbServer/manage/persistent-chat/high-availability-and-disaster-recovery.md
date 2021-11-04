@@ -1,7 +1,7 @@
 ---
 title: Manage high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 1/31/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 4346e70b-ac48-4ab9-853e-3cdd6dcfe678
 description: 摘要：了解如何在 Skype for Business Server 2015 中管理持久聊天服务器高可用性和灾难恢复。
-ms.openlocfilehash: 5383a5bc1cb61e4886dcbe2087c6fb319ec4701e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3b45f38f1a530e91b75693196c5e64e206b10121
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580566"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774762"
 ---
 # <a name="manage-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Manage high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015
  
@@ -27,7 +27,7 @@ ms.locfileid: "58580566"
 本主题介绍如何对持久聊天服务器进行故障转移和故障回复。 在阅读本主题之前，请务必阅读在[Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md)中规划持久聊天服务器的高可用性和灾难恢复和在[Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)中为持久聊天服务器配置高可用性和灾难恢复。
 
 > [!NOTE]
-> 持久聊天在 Skype for Business Server 2015 中可用，但在 2019 年 2 Skype for Business Server不再受支持。 相同的功能在 Teams。 有关详细信息，请参阅[开始升级Microsoft Teams升级](/microsoftteams/upgrade-start-here)。 如果您需要使用持久聊天，则选择将需要此功能的用户迁移到 Teams，或者继续使用 Skype for Business Server 2015。 
+> 持久聊天在 2015 Skype for Business Server可用，但在 2019 年 2 月不再Skype for Business Server支持。 相同的功能在 Teams 中可用。 有关详细信息，请参阅开始[升级Microsoft Teams升级](/microsoftteams/upgrade-start-here)。 如果您需要使用持久聊天，您的选择是迁移需要此功能的用户以Teams或继续使用 Skype for Business Server 2015。 
   
 ## <a name="fail-over-persistent-chat-server"></a>故障转移持久聊天服务器
 
@@ -45,7 +45,7 @@ ms.locfileid: "58580566"
     
 - 建立新的主数据库的镜像。
     
-未对 mgccomp (持久) 合规性数据库。 此数据库的内容具有临时性并将在合规性适配器处理数据时被清除。 作为持久聊天管理员，您有责任正确管理适配器输出以避免数据丢失。
+未进行 (mgccomp) 持久聊天合规性数据库。 此数据库的内容具有临时性并将在合规性适配器处理数据时被清除。 作为持久聊天管理员，您有责任正确管理适配器输出以避免数据丢失。
   
 对持久聊天服务器进行故障转移：
   
@@ -163,7 +163,7 @@ ms.locfileid: "58580566"
     
    - 单击“确定”开始还原过程。
     
-5. 配置SQL Server数据库的日志日志寄送。 按照在[Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)中为持久聊天服务器配置高可用性和灾难恢复中的过程，为主 mgc 数据库建立日志寄送。
+5. 配置SQL Server数据库的日志寄送。 按照在[Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)中为持久聊天服务器配置高可用性和灾难恢复中的过程，为主 mgc 数据库建立日志寄送。
     
 6. 设置持久聊天服务器活动服务器。 在命令行Skype for Business Server命令行管理程序中，使用 **Set-CsPersistentChatActiveServer** cmdlet 设置活动服务器的列表。
     

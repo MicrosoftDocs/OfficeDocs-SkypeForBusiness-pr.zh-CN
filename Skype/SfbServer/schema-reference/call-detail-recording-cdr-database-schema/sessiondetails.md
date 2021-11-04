@@ -1,7 +1,7 @@
 ---
 title: SessionDetails 表
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -12,13 +12,13 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 783d2508-e31f-4b54-be0c-63aa5ec21c04
-description: 每条记录表示一个点对点会话，它可以是 VoIP-VoIP 电话呼叫、双方 IM 会话或其他类型的会话。 你可以对 Media 表执行表联接，以查找此会话中涉及的每个媒体的详细信息。
-ms.openlocfilehash: 830e6e2266d77487848c4e49daeaa8462460c2dc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 每条记录表示一个点对点会话，它可以是 VoIP-VoIP 电话呼叫、双方 IM 会话或其他类型的会话。 你可以对 Media 表执行表加入，以查找此会话中涉及的每个媒体的详细信息。
+ms.openlocfilehash: 2dee827e93da94378e529964b2911ff1f79793ef
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615508"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762020"
 ---
 # <a name="sessiondetails-table"></a>SessionDetails 表
  
@@ -26,7 +26,7 @@ ms.locfileid: "58615508"
   
 请注意，IsUser1IntegratedWithDeskPhone 和 IsUser2IntegratedWithDeskPhone 字段已从 Skype for Business Server 2015 中使用的 SessionDetails 表中删除。
   
-|**列**|**数据类型**|**键/索引**|**Details**|
+|**列**|**数据类型**|**键/索引**|**详细信息**|
 |:-----|:-----|:-----|:-----|
 |**SessionIdTime** <br/> |datetime  <br/> |主、外  <br/> |会话请求的时间。 与 **SessionIdSeq** 结合使用来唯一地标识会话。 有关详细信息，请参阅[Skype for Business Server 2015](dialogs.md)中的 Dialogs 表。 <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |主、外  <br/> |用于标识会话的 ID 号。 与 **SessionIdTime** 结合使用来唯一地标识会话。* 有关详细信息，请参阅 [Skype for Business Server 2015](dialogs.md)中的 Dialogs 表。 <br/> |

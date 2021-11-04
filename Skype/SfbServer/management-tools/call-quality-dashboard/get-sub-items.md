@@ -1,7 +1,7 @@
 ---
 title: 获取子项
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,19 +12,19 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 0542eba9-3dda-40de-bba8-095d22825e4e
-description: 摘要：了解 Get Sub-Items 操作，该操作是项服务的一部分。 项目服务是通话质量仪表板存储库 API 的一部分。 通话质量仪表板是一种用于Skype for Business Server。
-ms.openlocfilehash: 0fb1421d604cce450d28077558f2d00f20c2ff01
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 摘要：了解 Get Sub-Items 操作，这是项目服务的一部分。 项目服务是通话质量仪表板存储库 API 的一部分。 通话质量仪表板是一种用于Skype for Business Server。
+ms.openlocfilehash: 3d17ab46ece202ea36dce45b6266a1cd3de74928
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58591116"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774642"
 ---
 # <a name="get-sub-items"></a>获取子项
  
 **摘要：** 了解 Get Sub-Items 操作，这是项服务的一部分。 项目服务是通话质量仪表板存储库 API 的一部分。 通话质量仪表板是一种用于Skype for Business Server。
   
-Get Sub-Items 操作是呼叫质量仪表板存储库 API 中的项目服务的一部分。
+Get Sub-Items 操作是呼叫质量仪表板的存储库 API 中的项目服务的一部分。
   
 ## <a name="get-sub-items"></a>获取子项
 

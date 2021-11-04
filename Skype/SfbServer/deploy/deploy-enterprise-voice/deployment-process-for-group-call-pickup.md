@@ -1,7 +1,7 @@
 ---
 title: 组中组内呼叫接听的Skype for Business
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 082daeac-e667-4e2d-b78d-8e0901f9f0e9
 description: 组中组内呼叫接听的部署过程Skype for Business Server 企业语音。
-ms.openlocfilehash: bd3f299e8121483cf8a6a7b332c806923a386c66
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0694975515286920344ce2f21ef7ad1f0ab64242
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601917"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775762"
 ---
 # <a name="deployment-process-for-group-call-pickup-in-skype-for-business"></a>组中组内呼叫接听的Skype for Business
  
@@ -29,7 +29,7 @@ ms.locfileid: "58601917"
   
 通过组内呼叫应答，用户可以从自己的电话应答传入呼叫。 
   
- 部署呼叫分拣时，会在前端服务器或 Standard Edition服务器上自动安装并启用组呼叫企业语音。 但是，必须先使用以下步骤配置组内呼叫接听，然后才能供用户使用。
+ 部署呼叫分拣时，会在前端服务器或 Standard Edition服务器上自动安装并启用企业语音。 但是，必须先使用以下步骤配置组内呼叫接听，然后才能供用户使用。
   
 **组内呼叫接听部署过程**
 

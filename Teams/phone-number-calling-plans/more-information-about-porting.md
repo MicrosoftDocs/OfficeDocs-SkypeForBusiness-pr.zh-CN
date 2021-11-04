@@ -1,7 +1,7 @@
 ---
 title: 有关移植的信息
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: tonysmit,jastark
 ms.topic: article
@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.voice.phonenumbers.porting.moreinfo
 description: 获取将电话号码移植到 Microsoft Teams。
-ms.openlocfilehash: bdfe677a4a76128343382373d027abd5061bd8fc
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+ms.openlocfilehash: 02023cc88fbab5b1063ed2734db500aa3c14aa9c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733313"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761750"
 ---
 # <a name="more-information-about-porting"></a>有关移植的信息
 
@@ -58,7 +58,7 @@ ms.locfileid: "60733313"
   
 若要轻松提交移植订单并避免错误，请确保执行以下操作：
   
-- 删除与 (相关联的任何功能，) "寻线组"。 确保这些电话号码上未启用高级呼叫控制功能，例如"呼叫寻线"或"独特圈"。
+- 删除与 (相关联的任何功能，) "寻线组"。 请确保这些电话号码上未启用高级呼叫控制功能，例如"呼叫寻线"或"独特圈"。
     
 - 确保尚未下任何新的服务订单或与当前服务提供商断开连接。
     

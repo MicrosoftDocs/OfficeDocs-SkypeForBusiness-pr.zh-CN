@@ -1,7 +1,7 @@
 ---
 title: 边缘服务器 FQDN 设置扩展器
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -14,13 +14,13 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 9e4e9445-0147-4dd6-84f0-b41de142b332
 ROBOTS: NOINDEX, NOFOLLOW
-description: 若要编辑或指定边缘服务器的外部 设置，首先必须确定是否对会话初始协议 (SIP) 访问、Web 会议边缘服务和音频/视频边缘服务使用单独的 IP 地址。
-ms.openlocfilehash: 9d75c2154f1c8bc40cc1298052bdf0a095dd199e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 若要为边缘服务器编辑或指定外部 设置，首先必须确定是否对会话初始协议 (SIP) 访问、Web 会议边缘服务和音频/视频边缘服务使用单独的 IP 地址。
+ms.openlocfilehash: 98169166a684cbd42b3d17cd2962024b26d59680
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620038"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769310"
 ---
 # <a name="edge-server-fqdns-settings-expander"></a>边缘服务器 FQDN 设置扩展器
 

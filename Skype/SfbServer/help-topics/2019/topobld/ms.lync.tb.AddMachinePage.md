@@ -1,7 +1,7 @@
 ---
 title: 添加服务器
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 61647eac-9062-4381-9c80-3cbf70b7db33
 ROBOTS: NOINDEX, NOFOLLOW
 description: 向现有服务器池添加新的服务器，其中池为以下几项之一：
-ms.openlocfilehash: 51e83db9382bd28308c60e57d952a33249f98344
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 46316cf480a0a91b7f50a80825de5930a03154fc
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621585"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775412"
 ---
 # <a name="add-server"></a>添加服务器
  

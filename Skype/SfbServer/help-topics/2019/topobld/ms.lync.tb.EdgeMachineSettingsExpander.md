@@ -1,7 +1,7 @@
 ---
 title: 边缘计算机设置扩展器
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 747456dd-d237-44e6-9e64-63b0e7212a08
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要编辑边缘服务器池中的服务器的属性，请执行以下操作：
-ms.openlocfilehash: d297de5e4e503932387c1ba207959261cd19024c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fead19d6ca15228783e2c1f2ad8864dda35907dd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579186"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769270"
 ---
 # <a name="edge-machine-settings-expander"></a>边缘计算机设置扩展器
  

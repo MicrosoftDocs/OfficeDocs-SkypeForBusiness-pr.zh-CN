@@ -1,7 +1,7 @@
 ---
 title: 将电话号码转移到Microsoft Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: tonysmit
 ms.topic: article
@@ -19,16 +19,16 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何使用移植向导将电话号码从当前服务提供商转移到Microsoft Teams。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: b8c2b96da4750ec31616fa577063f58b57a17986
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+ms.openlocfilehash: 2b86210d5e8ac7fe70db0e3774ee7483aad9236a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733073"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761740"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>将电话号码转移到Microsoft Teams
 
-使用 Microsoft Teams 管理中心中的移植向导，将电话号码从当前服务提供商转移到Teams。 将电话号码移植到 Teams，Microsoft 将成为服务提供商，并针对这些电话号码计费。
+使用管理中心中的Microsoft Teams向导将电话号码从当前服务提供商转移到Teams。 将电话号码移植到 Teams，Microsoft 将成为服务提供商，并针对这些电话号码计费。
 
 在启动之前，建议查看什么是移植 [订单？](port-order-overview.md) 如果你有电话拨入式会议网桥的服务号码、自动助理或其他服务号码、免费电话号码，或者你需要将超过 999 个用户 (订阅者) 电话号码转移到 Teams，请参阅管理贵组织的电话号码以下载正确的表单并将其发送给我们。 [](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
@@ -62,7 +62,7 @@ ms.locfileid: "60733073"
     - **请求详细信息的人**  
         - 你的组织名称和请求转移的联系人详细信息。
     - **当前提供商的详细信息**
-        - **按 BTN (计费**) ：采用 E.164 格式的 BTN，需要加号以在号码前加号。 例如，对于北美号码，请使用 +1XXXYYYZZZZ 格式。
+        - **按 BTN (计费**) ：采用 E.164 格式的 BTN，要求在号码前加一个 + 号。 例如，对于北美号码，请使用 +1XXXYYYZZZZ 格式。
         - 其他详细信息，包括当前服务提供商的名称、帐户号码和服务地址。
             
 5. 在"**添加号码**"页上，单击"选择文件"，浏览到并选择包含要转移的电话号码的 CSV 文件，然后单击"下一步 **"。**  
@@ -77,7 +77,7 @@ ms.locfileid: "60733073"
     1. 单击 **"下载模板** "，下载适用于你的国家/地区或地区的 LOA。 
     2. 打印 LOA。
     3. 让有权更改帐户的人员签署 LOA。
-    4. 扫描签名的 LOA，并单击 **Upload签名的授权** 书进行上传。
+    4. 扫描签名的 LOA，并单击 **Upload签名** 的授权书进行上传。
 
     > [!NOTE]
     > 上传 LOA 后，提交订单。 仅上传 LOA 是不够的。 还必须提交订单才能进行处理。

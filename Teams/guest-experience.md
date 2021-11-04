@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 description: 本文介绍Microsoft Teams来宾可用的高级功能。
-ms.openlocfilehash: 2d8c3656abe6f1749251574ab01368a46984cee9
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: c58e70896c14719e9aa0289ef0cf6d636393d09d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729611"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774572"
 ---
 # <a name="guest-experience-in-teams"></a>来宾体验Teams
 
@@ -32,17 +32,17 @@ ms.locfileid: "58729611"
     
 ![显示欢迎电子邮件示例的屏幕截图。](media/guest-experience-image1.png)
     
-所有团队成员将在频道线索中看到一条消息，告知团队所有者添加了来宾并提供该来宾的姓名。 团队中的所有人都可以轻松识别谁是来宾。 频道线程右上角的标记指示团队中的来宾数， (来宾 **) 每个来宾** 的姓名旁边显示一个来宾标签。
+所有团队成员将在频道线索中看到一条消息，告知团队所有者添加了来宾并提供该来宾的姓名。 团队中的所有人都可以轻松识别谁是来宾。 频道线程右上角的标记指示团队中的来宾数， (来宾 **) 每个来宾** 的姓名旁边显示一个"来宾"标签。
 
 ![显示标记的屏幕截图，指示团队中的来宾数。](media/guest-experience-image2.png)
 
-查看以下有关以下来宾体验的视频：Teams：
+请查看以下视频，了解以下视频中的来宾Teams：
 - [作为来宾加入团队](https://support.office.com/article/join-a-team-as-a-guest-928d1eef-61e2-49ec-b754-c2fe86b34824)
 - [与Teams加入会议](https://support.office.com/article/join-a-company-meeting-a120c282-063d-46b8-b973-851197ab75d8)
 
 ## <a name="comparison-of-team-member-and-guest-capabilities"></a>团队成员和来宾功能的比较
 
-下表比较Teams团队成员及其来宾可用的活动功能。 Teams管理员控制来宾可用的功能。
+下表比较了Teams团队成员及其来宾可用的活动功能。 Teams管理员控制来宾可用的功能。
 
 | Teams 中的功能 | 组织中的 Teams 用户 | 来宾 |
 |:-----|:-----|:-----|
@@ -100,7 +100,7 @@ ms.locfileid: "58729611"
 <sup>1</sup>即将推出此功能。
 
 > [!NOTE]
-> Azure AD **门户** 中的Azure Active Directory (访问) 策略确定目录中来宾的权限。 有三种政策选择。
+> 目录中 **的来宾用户访问限制** Azure Active Directory (Azure AD) 确定目录中来宾的权限。 有三种政策选择。
 >  - "**来宾用户拥有与成员（最包容）相同的访问权限**"设置表示来宾与目录中的普通用户一样具有相同的目录数据访问权限。
 >  - "**来宾用户对目录对象的属性和成员身份拥有有限的访问权限** "设置表示来宾对某些目录任务没有权限，如枚举用户、组或其他使用 Microsoft Graph的目录资源。
 >  - "**来宾用户访问权限仅限于其自己的目录对象属性和成员身份（最严格）**"设置表示来宾仅可访问自己的目录对象。
@@ -110,3 +110,5 @@ ms.locfileid: "58729611"
 ## <a name="related-topics"></a>相关主题
 
 [将组织保留为来宾](/azure/active-directory/b2b/leave-the-organization)
+
+[使用来宾访问权限和外部访问权限与组织外部的人员进行协作](communicate-with-users-from-other-organizations.md)

@@ -1,7 +1,7 @@
 ---
 title: 响应组中响应组使用情况Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 3248b320-a552-400a-8485-6891af4eb0f3
 description: 摘要：了解应用程序中的响应组Skype for Business Server。
-ms.openlocfilehash: 6d065f8313a770ce05b10925c9c854cec7e256e5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7b26114e81141e4e77bc3fd6b3887ab109526f50
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623624"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768720"
 ---
 # <a name="response-group-usage-report-in-skype-for-business-server"></a>响应组中响应组使用情况Skype for Business Server
 
@@ -64,13 +64,13 @@ ms.locfileid: "58623624"
 响应组使用情况报告的值得关注的用途之一可能不是显而易见的：能够检索单个响应组工作流的使用情况信息。
 
 > [!CAUTION]
-> 响应组工作流基本上是一组说明，用于确定Skype for Business Server拨打特定电话号码时执行哪些操作。 为此，每个工作流都唯一地与一个电话号码关联。 当有人呼叫该号码时，工作流将确定如何处理该呼叫。 例如，工作流可能会导致呼叫路由到一系列互动语音响应 (IVR) 问题，这些问题提示呼叫者输入其他信息 (按 1 获取硬件支持。 按 2 以获取软件支持”）。 或者，工作流可能导致呼叫置于队列中，呼叫者将置于呼叫等待状态，直到代理可以应答呼叫。 工作流也可指示是否有代理能够应答呼叫：工作流用于配置工作时间（代理在一周中的哪几天、一天中的哪些时段能够应答呼叫）和假日（代理无法应答呼叫的日期）。 拨打属于响应组应用程序的电话号码时，实际上是在调用响应组工作流。 
+> 响应组工作流基本上是一组说明，用于确定Skype for Business Server拨打特定电话号码时执行哪些操作。 为此，每个工作流都唯一地与一个电话号码关联。 当有人呼叫该号码时，工作流将确定如何处理该呼叫。 例如，工作流可能会导致将呼叫路由到一系列互动语音响应 (IVR) 问题，这些问题会提示呼叫者输入其他信息 (按 1 获取硬件支持。 按 2 以获取软件支持”）。 或者，工作流可能导致呼叫置于队列中，呼叫者将置于呼叫等待状态，直到代理可以应答呼叫。 工作流也可指示是否有代理能够应答呼叫：工作流用于配置工作时间（代理在一周中的哪几天、一天中的哪些时段能够应答呼叫）和假日（代理无法应答呼叫的日期）。 拨打属于响应组应用程序的电话号码时，实际上是在调用响应组工作流。 
 
 虽然工作流 URI 不显示在响应组使用情况报告中，但仍可以查看单个工作流的使用情况统计信息，这通常极其有用。例如，假定您最近开展了一项新的广告活动并很想知道人们是否通过电话询问该产品。如果您已将响应组工作流与广告活动中提供的电话号码相关联，则可以轻松地查看有多少人（如果有）呼叫了该号码。
 
 您可能还使用类似的方法来测量内部技术支持或客户服务部门处理的呼叫数。
 
-若要查看特定工作流的使用情况统计信息，请在“工作流 URI”框中输入工作流 URI。 当然，正如上文所述，工作流 URI（与工作流关联的 SIP 地址）不显示在报告上。 这意味着您需要查找某种其他方法来确定工作流的 URI。 为此，一种方式是使用 Windows PowerShell 命令行Skype for Business Server命令行管理程序。 例如，以下命令返回您的所有响应组工作流的 URI：
+若要查看特定工作流的使用情况统计信息，请在“工作流 URI”框中输入工作流 URI。 当然，正如上文所述，工作流 URI（与工作流关联的 SIP 地址）不显示在报告上。 这意味着您需要查找某种其他方法来确定工作流的 URI。 这样做的一种方式是使用命令行Windows PowerShell命令行Skype for Business Server命令行管理程序。 例如，以下命令返回您的所有响应组工作流的 URI：
 
 ```PowerShell
 Get-CsRgsWorkflow | Select-Object Name, PrimaryUri

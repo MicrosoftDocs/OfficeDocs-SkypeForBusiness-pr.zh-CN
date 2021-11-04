@@ -1,7 +1,7 @@
 ---
 title: 在呼叫中评价我的Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c4e0c905-33a1-49d8-9276-1b338f94d085
 description: Summary： Learn about the Rate My Call feature in Skype for Business Server.
-ms.openlocfilehash: 73a08b0acb32651c42de4ddda9fe12c7ae9f9655
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 7786a5e3cb41918c34e5413259b27a01e3f94aaf
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014136"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768750"
 ---
 # <a name="rate-my-call-in-skype-for-business-server"></a>在呼叫中评价我的Skype for Business Server
 
@@ -31,17 +31,17 @@ ms.locfileid: "60014136"
 
 ## <a name="rate-my-call-prerequisites"></a>评价我的呼叫先决条件
 
-必须先部署和配置Skype for Business Server组组件，然后你的部署中的用户才能访问"评价我的呼叫"功能：
+必须先部署和配置Skype for Business Server组组件，然后您的部署中的用户才能访问"评价我的呼叫"功能：
 
--  必须已安装Skype for Business Server 9160 (更高版本的) 。
+-  必须安装Skype for Business Server 9160 (更高版本的) 。
 
 - 让用户安装和更新最新版本的 Skype for Business并让他们使用 Skype for Business UI。
 
 - 用户必须位于前端Skype for Business Server上。
 
-- 您必须已部署Skype for Business Server监控数据库，并与其关联Skype for Business Server数据库。
+- 您必须已部署Skype for Business Server监控数据库并关联到您的Skype for Business Server数据库。
 
-- 我们建议将通话质量仪表板 (CQD) 。
+- 我们建议在 CQD (部署呼叫质量) 。
 
 ## <a name="configure-rate-my-call"></a>配置"评价我的呼叫"
 
@@ -190,7 +190,7 @@ SELECT
 
 ## <a name="updating-token-definitions"></a>更新令牌定义
 
-最新Skype for Business报告新问题令牌 ID (\> 100) [QoeMetrics].[dbo]。[CallQualityFeedbackTokenDef] 表。 若要使用最新的令牌定义更新数据库表，可以使用以下 SQL 命令在监控数据库上Microsoft SQL Server Management Studio。 此命令将替换 [QoeMetrics] 中的所有条目。[dbo]。[CallQualityFeedbackTokenDef] 表。
+最新Skype for Business客户端报告的新问题令牌 ID (\> 100) [QoeMetrics]中可能不存在。dbo]。[CallQualityFeedbackTokenDef] 表。 若要使用最新的令牌定义更新数据库表，可以使用以下 SQL 命令在监控数据库上Microsoft SQL Server Management Studio。 此命令将替换 [QoeMetrics] 中的所有条目。[dbo]。[CallQualityFeedbackTokenDef] 表。
 
 ```SQL
 DELETE FROM [CallQualityFeedbackTokenDef];

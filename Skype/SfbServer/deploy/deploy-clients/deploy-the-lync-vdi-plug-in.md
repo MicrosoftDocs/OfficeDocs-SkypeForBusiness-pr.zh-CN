@@ -1,6 +1,6 @@
 ---
 title: 将 Lync VDI 插件与 Skype for Business Server
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.reviewer: krishra
@@ -12,27 +12,27 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 11d3bd5d-6dd3-471c-b842-b072fa197714
 description: 本主题讨论在连接到远程虚拟桌面Skype for Business部署过程。
-ms.openlocfilehash: 9d745321a398828d6ec31a55528008b467ddea47
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 64bbe73f1a0a4a1d2bde59cd86f1cf3a0f5d911e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608609"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775832"
 ---
 # <a name="deploy-the-lync-vdi-plug-in-with-skype-for-business-server"></a>将 Lync VDI 插件与 Skype for Business Server
  
-本主题讨论在连接到远程虚拟桌面Skype for Business部署过程。 规划注意事项位于[Plan for Skype for Business in VDI environments](../../plan-your-deployment/clients-and-devices/vdi-environments.md)中。
+本主题讨论在连接到远程虚拟桌面Skype for Business部署过程。 规划注意事项位于[Plan for Skype for Business in VDI environments](../../plan-your-deployment/clients-and-devices/vdi-environments.md)。
   
 虚拟桌面基础结构 (VDI) 环境用于一些安全与合规性问题特别敏感的组织。 他们的用户位于本地Windows计算机上，并且使用虚拟桌面上的客户端。 在Skype for Business这样的连接上使用 VDI 插件软件。
   
 有两个解决方案可用于 VDI 插件组件 - 一个由 Microsoft 提供，另一个由 Citrix 提供。 Microsoft 建议在新的部署中使用新的 HDX RealTime Optimization Pack 解决方案，但在其剩余的生命周期内将继续支持原始 Lync VDI 插件。 
   
-本主题提供有关部署 Microsoft Lync VDI 插件的详细信息，该插件仅在 Windows 7 和 Windows 8 或 Windows Server 2008 上受支持，并且仅支持 Lync 2013 或 Skype for Business 客户端。 没有计划更新此插件，但适用于 Skype for Business 的[Citrix HDX RealTime Optimization](../../plan-your-deployment/clients-and-devices/vdi-environments.md#Citrix_RT) Pack 将根据需要进行更新。
+本主题提供有关部署 Microsoft Lync VDI 插件的详细信息，该插件仅在 Windows 7 和 Windows 8 或 Windows Server 2008 上受支持，并且仅支持 Lync 2013 或 Skype for Business 客户端。 没有计划更新此插件，但[Citrix HDX RealTime Optimization Pack](../../plan-your-deployment/clients-and-devices/vdi-environments.md#Citrix_RT) for Skype for Business将根据需要进行更新。
   
 ## <a name="prepare-your-environment-for-the-lync-vdi-plug-in"></a>为 Lync VDI 插件准备环境
 <a name="Prepare_vdi"> </a>
 
-1. 在Skype for Business Server中，确保针对所有 Lync VDI 插件用户将 EnableMediaRedirection 设置为 TRUE。 有关详细信息，请参阅 [New-CsClientPolicy](/powershell/module/skype/new-csclientpolicy?view=skype-ps) cmdlet 和 [Set-CsClientPolicy](/powershell/module/skype/set-csclientpolicy?view=skype-ps) cmdlet 的帮助主题。
+1. 在Skype for Business Server中，请确保所有 Lync VDI 插件用户的 EnableMediaRedirection 都设置为 TRUE。 有关详细信息，请参阅 [New-CsClientPolicy](/powershell/module/skype/new-csclientpolicy?view=skype-ps) cmdlet 和 [Set-CsClientPolicy](/powershell/module/skype/set-csclientpolicy?view=skype-ps) cmdlet 的帮助主题。
     
 2. 在数据中心服务器上，在所有虚拟Skype for Business安装客户端。
     
@@ -45,7 +45,7 @@ ms.locfileid: "58608609"
 
 若要为 Lync VDI 插件准备远程桌面连接，请在本地计算机上执行以下步骤：
   
-1. 如果本地计算机正在运行Windows 8，请跳过此步骤。 如果本地计算机运行 sp1 Windows 7，请安装Windows 8桌面服务客户端的[最新版本](/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients)。
+1. 如果本地计算机正在运行Windows 8，请跳过此步骤。 如果本地计算机在 sp1 Windows 7 上运行，请安装Windows 8桌面服务客户端[的最新版本](/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients)。
     
 2. 通过单击"开始"，然后单击" **远程桌面** 连接"启动 **远程桌面服务客户端**。
     
@@ -63,7 +63,7 @@ ms.locfileid: "58608609"
     
 6. 单击"**常规"** 选项卡。在 **"计算机**"中，键入虚拟桌面的名称，然后单击 **"连接"。** 
     
-## <a name="sign-in-and-use-skype-for-business-on-the-virtual-desktop"></a>登录并使用虚拟Skype for Business上的客户端
+## <a name="sign-in-and-use-skype-for-business-on-the-virtual-desktop"></a>登录并使用虚拟Skype for Business上的登录名
 <a name="SfB_signin"> </a>
 
 启用 Lync VDI 插件后，用户在登录虚拟桌面时Skype for Business以下步骤。
@@ -95,11 +95,11 @@ ms.locfileid: "58608609"
   
 - **用户在登录期间输入错误凭据。**
     
-    用户应注销Skype for Business使用正确的凭据重新登录。 配对对话框将重新出现，并显示配对是否成功。
+    用户应注销Skype for Business，然后使用正确的凭据重新登录。 配对对话框将重新出现，并显示配对是否成功。
     
 - **另一个远程桌面客户端的实例正在运行。**
     
-    如果用户在远程桌面连接Windows，用户应执行以下操作：
+    如果用户在远程桌面连接Windows，则用户应执行以下操作：
     
 1. 启动任务管理器：按“Alt+Ctrl+Delete”，然后单击“启动任务管理器”。
     

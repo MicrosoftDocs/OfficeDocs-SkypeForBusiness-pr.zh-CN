@@ -1,7 +1,7 @@
 ---
 title: 面向管理员的 Microsoft 教育版管理常见问题解答
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9739b33f061f06420dfc194aaa12a12162adf808
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1e9af313bc24919f96008d7f1ff5bf7383df3260
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579606"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774442"
 ---
 # <a name="microsoft-education-governance-faq-for-admins"></a>面向管理员的 Microsoft 教育版管理常见问题解答
 
@@ -33,12 +33,12 @@ ms.locfileid: "58579606"
 
 若要避免不恰当或误导性的名称，或只是为了提供团队命名方式的更多结构，可以使用当前处于预览状态Microsoft 365组 (策略) ：
 
--   **前缀后缀命名策略** 可以使用前缀或后缀来定义团队和 (组的命名) 约定，**例如，GRP_US_My Group_Engineering。** 前缀和后缀可以是固定字符串或用户属性 (例如 **[Department]**) ，根据创建团队的用户添加到名称中。
+-   **前缀后缀命名策略** 可以使用前缀或后缀来定义团队和组 (的) 约定，例如 **，GRP_US_My Group_Engineering。** 前缀和后缀可以是固定字符串或用户属性 (例如 **[department]**) ，根据创建团队的用户添加到名称中。
 -   **自定义阻止字词** 可以上传一组字词，阻止特定组织的用户使用他们创建的团队的名称。 例如，可以阻止 **将"CEO、****工资** 单"和 **"HR"** 术语用于不应用于的组的团队名称中。
 -   **分类** 可以创建组织中用户在创建组时可以设置的Microsoft 365分类。 
 
 > [!IMPORTANT]
-> 使用 Microsoft 365 组命名策略要求Azure Active Directory Premium P1一个或多个组的成员的每个唯一用户拥有 Azure Active Directory Premium P1 或 Azure AD Basic ED Microsoft 365 U 许可证。
+> 使用 Microsoft 365 组命名策略要求Azure Active Directory Premium P1组Azure AD一个或多个组的成员的每个唯一用户拥有 Azure Active Directory Premium P1 或基本 EDU Microsoft 365许可证。
 
 有关详细说明，请参阅Office[命名策略](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552)。
 
@@ -53,32 +53,32 @@ ms.locfileid: "58579606"
 
 一般情况下，我们建议防止任何人创建团队。 如果每个人都可以创建团队，Teams被广泛采用。 教职员工、教师或学生可以使用Teams创建学习组或特殊兴趣组。 这有助于Teams课堂内外接受。
 
-在我们的体验中，用户教育有助于确保Teams使用情况。 一旦用户了解创建团队不是匿名的，他们就会理解不小心创建团队的影响，并且倾向于远离使用工具的错误。
+在我们的体验中，用户教育有助于确保Teams使用情况。 一旦用户了解创建团队不是匿名的，他们就会理解不小心创建团队的影响，并倾向于远离滥用工具。
 
-如果确定要控制可以创建团队的人，请参阅管理可以创建团队Microsoft 365[组"](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618)。
+如果确定要控制可以创建团队的人，请参阅管理可以创建团队Microsoft 365[组"。](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618)
 
 ## <a name="how-do-i-automatically-create-a-team-for-each-course-at-the-beginning-of-the-semester-or-quarter"></a>在学年或季度开始时，如何自动为每个课程创建团队？
 
-在每个学年或季度开始时，你需要一些新团队。 采用自动化方法自动创建这些团队、使用适当的用户填充这些团队并设置适当的权限可能很有意义：
+在每个学年或季度开始时，你需要一些新团队。 采用自动方法自动创建这些团队、使用适当的用户填充这些团队并设置适当的权限可能很有意义：
 
--   学校数据同步可以创建 Exchange Online 和 SharePoint Online 的 Microsoft 365 组、Microsoft Teams 和 OneNote 课堂笔记本的课堂团队、Intune 教育版学校组，以及适用于许多其他第三方应用程序的花名册和单一登录 (SSO) 集成。 有关详细信息，请[从 学校数据同步。](/schooldatasync/overview-of-school-data-sync)
+-   学校数据同步可创建 Exchange Online 和 SharePoint Online 的 Microsoft 365 组、Microsoft Teams 和 OneNote 课堂笔记本的课堂团队、Intune 教育版学校组以及名单和单一登录 (SSO) 集成许多其他第三方应用程序。 有关详细信息，[请通过 学校数据同步。](/schooldatasync/overview-of-school-data-sync)
 -   使用 PowerShell 可以创建团队和频道，并自动配置设置。 有关详细信息[，Microsoft Teams PowerShell。](/powershell/module/teams/?view=teams-ps)
--   可以使用 Microsoft Graph API (beta 版) 创建、配置、克隆和存档团队。 有关详细信息[，请参阅](/graph/api/resources/teams-api-overview)使用 Microsoft Graph API 处理 Microsoft Teams。
+-   可以使用 Microsoft Graph API (beta 版) 创建、配置、克隆和存档团队。 有关详细信息[，](/graph/api/resources/teams-api-overview)请参阅使用 Microsoft Graph API Microsoft Teams应用程序。
 
 > [!TIP]
-> 学校数据同步为Microsoft 365创建一个组，并启用隐藏的组成员身份，以便只有课堂中的[](https://techcommunity.microsoft.com/t5/School-Data-Sync/HiddenGroupMembershipEnabled-SDS-setting/td-p/159945)教师和学生可以看到该课堂的成员。 如果使用不同的过程创建类组，请使用 New-UnifiedGroup cmdlet 的 HiddenGroupMembershipEnabled 参数来满足相同的隐私要求。
+> 学校数据同步为每个Microsoft 365创建一个组，并启用隐藏的组成员身份，以便只有课堂[](https://techcommunity.microsoft.com/t5/School-Data-Sync/HiddenGroupMembershipEnabled-SDS-setting/td-p/159945)中的教师和学生可以看到该课堂的成员。 如果使用不同的过程创建类组，请使用 New-UnifiedGroup cmdlet 的 HiddenGroupMembershipEnabled 参数来满足相同的隐私要求。
 
 ## <a name="how-do-i-deal-with-teams-when-the-semester-or-quarter-ends"></a>当季度或季度结束后，如何处理团队？
 
-建议你首先考虑在学校Teams或季度结束后如何处理这些学生的数据：是删除数据，还是让学生即使在完成课程后也能够使用这些数据。 你需要记住学校日历，这样你设置的任何策略都不要与假日冲突。 可以使用以下工具实现策略：
+建议你首先考虑当学校Teams或季度结束后如何处理这些数据：是删除数据，还是让学生即使在完成课程后也能够使用这些数据。 你需要记住学校日历，这样你设置的任何策略都不要与假日冲突。 可以使用以下工具实现策略：
 
--   **保留策略：** 使用此功能删除超过指定年龄的所有数据，以确保从聊天中删除旧数据， (或部分用户的聊天) 频道。 还可以将Teams配置为保留内容，以便无法删除内容。 有关详细信息，请参阅适用于[Microsoft Teams 的保留策略](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Retention-policies-for-Microsoft-Teams/ba-p/178011)。
--   **过期策略：** 将团队配置为在特定天数后过期。 在过期前 30 天，团队的所有所有者都将收到通知，告知其团队需要续订，否则将被删除 (但管理员可额外恢复已删除的团队 30 天) 。 此设置对于确保未使用的团队已禁用非常有用。 有关详细信息，请Microsoft 365[过期策略 。](https://support.office.com/article/office-365-group-expiration-policy-8d253fe5-0e09-4b3c-8b5e-f48def064733)
+-   **保留策略：** 使用此功能删除超过指定年龄的所有数据，以确保从聊天中删除旧数据， (或部分用户) 频道。 还可以将Teams配置为保留内容，以便无法将其删除。 有关详细信息，请参阅[适用于的保留策略Microsoft Teams。](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Retention-policies-for-Microsoft-Teams/ba-p/178011)
+-   **过期策略：** 将团队配置为在特定天数后过期。 在过期前 30 天，团队的所有所有者都将收到通知，告知其团队需要续订，否则将被删除 (但管理员可额外恢复已删除的团队 30 天) 。 此设置对于确保未使用的团队已禁用非常有用。 有关详细信息，Microsoft 365[组过期策略 。](https://support.office.com/article/office-365-group-expiration-policy-8d253fe5-0e09-4b3c-8b5e-f48def064733)
 
 -   **存档团队：** 此设置将团队置于只读模式。 它们仍然可以浏览和搜索，但没有人可以添加任何新文章。 [存档或还原团队](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7)介绍了团队所有者如何存档团队;团队所有者还可使用 Graph API ([beta](/graph/api/resources/teams-api-overview)) 存档或还原团队。
  
 > [!IMPORTANT]
-> 使用Microsoft 365组过期策略Azure Active Directory Premium P1组的成员的每个唯一用户的许可证Microsoft 365许可证。
+> 使用Microsoft 365组过期策略Azure Active Directory Premium P1一个或多个组的成员的每个唯一用户的许可证Microsoft 365许可证。
 
 ## <a name="are-there-team-templates-for-my-faculty-members-to-use-when-creating-a-team"></a>创建团队时，是否有供教职员工使用的团队模板？
 
@@ -108,21 +108,21 @@ ms.locfileid: "58579606"
 -   删除团队。
 
 > [!TIP]
-> Graph API 和 PowerShell cmdlet 不断添加功能。 请确保经常查看[Microsoft Graph API (和](/graph/api/resources/teams-api-overview) [PowerShell](/powershell/module/teams/?view=teams-ps)) 了解功能增强功能。  
+> Graph API 和 PowerShell cmdlet 不断添加功能。 请务必经常查看[Microsoft Graph API (Beta](/graph/api/resources/teams-api-overview)版) [PowerShell](/powershell/module/teams/?view=teams-ps)文章，了解功能增强功能。  
 
 
 ## <a name="can-i-control-what-teams-features-my-faculty-and-students-have-access-to"></a>我能否控制Teams和学生有权访问哪些功能？
 
 是。 可以使用策略来控制用户有权访问的特定消息传递、会议、呼叫和实时事件功能。 可以使用租户范围的设置将相同的设置应用到所有设置，或应用用户级策略（如果需要）。 
 
-有关策略Teams的详细信息，请参阅[管理Microsoft Teams组织的设置](enable-features-office-365.md)。
+有关策略的Teams，请参阅[管理Microsoft Teams组织的设置](enable-features-office-365.md)。
  
 ## <a name="can-i-control-what-external-parties-my-faculty-and-students-collaborate-with"></a>我能否控制教职员工和学生与哪些外部方协作？
 
 可以使用来宾访问权限邀请租户外部的用户，这可用于研究协作或来宾讲座：
 
 -   使用域允许列表根据来宾的域允许或阻止来宾。
--   为特定组和团队启用Microsoft 365来宾访问权限，控制哪些团队可以 (哪些团队) 邀请来宾。
+-   为特定组和团队启用Microsoft 365来宾访问，控制哪些团队可以 (哪些团队) 邀请来宾。
 -   使用审核日志查看向受邀来宾发送了哪些警报。
 
 有关详细信息，请参阅组[中的来宾Microsoft 365访问](https://support.office.com/article/Guest-access-in-Office-365-Groups-bfc7a840-868f-4fd6-a390-f347bf51aff6#PickTab=Manage)。
@@ -131,7 +131,7 @@ ms.locfileid: "58579606"
 
 可以检查审核日志以查看：
 
--   Who受邀作为来宾加入哪个团队。
+-   Who邀请你作为来宾加入哪个团队。
 -   Who创建了哪个团队。
 
 有关详细信息，请参阅在 审核日志[中搜索Microsoft Teams。](audit-log-events.md)

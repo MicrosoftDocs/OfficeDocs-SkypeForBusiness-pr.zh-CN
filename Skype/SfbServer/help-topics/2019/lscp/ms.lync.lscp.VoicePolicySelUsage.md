@@ -1,7 +1,7 @@
 ---
 title: 选择 PSTN 用法记录
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 80a5b130-2b36-4318-9870-f5176c8d8f62
 ROBOTS: NOINDEX, NOFOLLOW
 description: 使用“选择 PSTN 用法记录”对话框查找可以使用的现有公用电话交换网 (PSTN) 用法记录。
-ms.openlocfilehash: 55ca82a2774298262548b195e0ba5fd4312c639e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f643129e794bb2b08af528828830f3cff9f99f23
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599277"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761330"
 ---
 # <a name="select-pstn-usage-record"></a>选择 PSTN 用法记录
  

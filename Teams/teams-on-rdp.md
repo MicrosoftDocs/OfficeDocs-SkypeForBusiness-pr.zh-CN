@@ -1,7 +1,7 @@
 ---
 title: 将Teams与远程桌面服务一起使用
-author: cichur
-ms.author: serdars
+author: serdars
+ms.author: v-mahoffman
 ms.reviewer: alivano
 manager: serdars
 ms.topic: article
@@ -17,37 +17,37 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8250991790b6fc2e326a31829e8afc3f8659df74
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: 063ded4b2e2963ab30126c5af967017bf4981cef
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605568"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774362"
 ---
-# <a name="teams-in-remote-desktop-services"></a>Teams桌面服务中的设置
+# <a name="teams-in-remote-desktop-services"></a>Teams桌面服务中的
 
-本文介绍在 RDS Microsoft Teams远程桌面服务中 () 的要求和限制。
+本文介绍在 RDS Microsoft Teams远程桌面服务 (应用程序) 要求和限制。
 
 ## <a name="what-is-rds"></a>什么是 RDS？
 
 远程桌面 (RDS) 是构建虚拟化解决方案，满足每个最终客户需求的首选平台。 RDS 允许交付单个虚拟化应用程序，提供安全的移动和远程桌面访问，并为最终用户提供从云中运行其应用程序和桌面的能力。
 
-RDS 提供部署灵活性、成本效益和可扩展性。 RDS 通过各种部署选项提供，包括Windows Server 2016部署方案、Microsoft Azure部署解决方案以及一系列可靠的合作伙伴解决方案。
+RDS 提供部署灵活性、成本效益和可扩展性。 RDS 通过各种部署选项提供，包括Windows Server 2016部署、Microsoft Azure部署解决方案以及一系列可靠的合作伙伴解决方案。
 根据环境和首选项，可以将 RDS 解决方案设置为基于会话的虚拟化，作为 VDI (虚拟) 
 
 目前Teams桌面服务环境中提供协作和聊天功能支持。 若要确保获得最佳用户体验，请遵循本文中的指导。
 
 ## <a name="teams-on-rds-with-chat-and-collaboration"></a>Teams聊天和协作在 RDS 上聊天
 
-如果你的组织只想使用 Teams 中的聊天和协作功能，你可以设置用户级策略以关闭呼叫和会议Teams。
+如果你的组织希望仅使用 Teams 中的聊天和协作功能，你可以设置用户级策略，以在 Teams 中关闭呼叫和Teams。
 
 ### <a name="set-policies-to-turn-off-calling-and-meeting-functionality"></a>设置策略以关闭呼叫和会议功能
 
-可以使用管理中心或 PowerShell Microsoft Teams策略。 可能需要一些时间 (几个小时) 策略更改才能传播。 如果未立即看到给定帐户的更改，请在几小时后重试。
+可以使用管理中心或 PowerShell Microsoft Teams策略。 传播策略更改 (可能需要) 几个小时。 如果未立即看到给定帐户的更改，请在几小时后重试。
 
-[**调用策略**](teams-calling-policy.md)：Teams包括内置的 DisallowCalling 调用策略，其中所有调用功能都已关闭。 将 DisallowCalling 策略分配给组织中在虚拟化环境中使用Teams的所有用户。
+[**调用策略**](teams-calling-policy.md)：Teams包括内置的 DisallowCalling 调用策略，其中所有调用功能都已关闭。 将 DisallowCalling 策略分配给组织中在虚拟化环境中Teams用户。
 
-[**会议策略**](meeting-policies-overview.md)：Teams包括内置的 AllOff 会议策略，其中所有会议功能都已关闭。 将 AllOff 策略分配给组织中在虚拟化环境中使用Teams的所有用户。
+[**会议策略**](meeting-policies-overview.md)：Teams包括内置的 AllOff 会议策略，其中所有会议功能都已关闭。 将 AllOff 策略分配给组织中在虚拟化环境中Teams的所有用户。
 
 #### <a name="assign-policies-using-the-microsoft-teams-admin-center"></a>使用管理中心Microsoft Teams策略
 
@@ -66,7 +66,7 @@ RDS 提供部署灵活性、成本效益和可扩展性。 RDS 通过各种部�
 若要一次向多个用户分配策略，请执行以下操作：
 
 1. 在 Microsoft Teams 管理中心的左侧导航栏中，转到“**用户**”，然后搜索用户或筛选视图，以显示所需的用户。
-2. 在 **&#x2713;**（复选标记）列，选择用户。 若要选择所有用户，请选择&#x2713; (表) "复选框。
+2. 在 **&#x2713;**（复选标记）列，选择用户。 若要选择所有用户，请选择&#x2713; (顶部的) "复选框。
 3. 选择 **"编辑** 设置"，进行您需要的更改，然后选择"应用 **"。**
 
 或者，也可以执行以下步骤：

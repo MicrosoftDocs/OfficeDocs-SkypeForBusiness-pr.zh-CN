@@ -1,7 +1,7 @@
 ---
 title: 呼叫列表中的呼叫Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9739f9f0-7a37-4844-91d5-f089d2011013
 description: 摘要：了解呼叫列表中用于Skype for Business Server。
-ms.openlocfilehash: 1e07eab0251218eaa66434dac6f15a6a782e10cc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7fe1a638bda3c830a7593f4a9048f7c4fc178229
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599001"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762410"
 ---
 # <a name="call-list-report-in-skype-for-business-server"></a>呼叫列表中的呼叫Skype for Business Server
  
@@ -35,7 +35,7 @@ ms.locfileid: "58599001"
     
 - 语音切换时间比率 
     
-但是，如果您从呼叫列表中的位置报告中打开呼叫列表[](location-report.md)Skype for Business Server，将看不到任何这些指标;相反，你将看到类似以下的指标：
+但是，如果您从 Skype for Business Server[中的位置](location-report.md)报告打开呼叫列表报告，将看不到任何这些指标;相反，你将看到类似以下的指标：
   
 - 来回行程(毫秒)
     
@@ -53,11 +53,11 @@ ms.locfileid: "58599001"
   
 - 通过[单击"呼叫量Skype for Business Server (](location-report.md)质量欠佳的呼叫百分比"指标，可单击"呼叫量"或"质量欠佳的呼叫百分比"指标) 
     
-- 通过[单击"呼叫量Skype for Business Server (](device-report.md)质量欠佳的呼叫百分比"指标来显示呼叫报告中的设备) 
+- 设备[报告中的设备Skype for Business Server (](device-report.md)呼叫量或质量欠佳的呼叫百分比指标) 
     
-- 通过[单击呼叫量](summary.md)或质量欠佳的呼叫百分比Skype for Business Server (报告中的媒体质量摘要报告) 
+- 通过[单击"呼叫量"](summary.md)或"质量欠佳的呼叫百分比"指标Skype for Business Server (中的媒体质量摘要报告) 
     
-- 通过[单击呼叫量](server-performance.md)或质量欠佳的呼叫百分比Skype for Business Server (中的服务器性能报告) 
+- 通过[单击"呼叫量"](server-performance.md)或"质量欠佳的呼叫百分比"指标Skype for Business Server (中的服务器性能报告) 
     
 从呼叫列表报告中，可以通过单击"详细信息"指标[Skype for Business Server报告中的](call-detail-report.md)呼叫详细信息报告。
   
@@ -77,7 +77,7 @@ ms.locfileid: "58599001"
 
 |**名称**|**是否可按此项排序？**|**说明**|
 |:-----|:-----|:-----|
-|**Details** <br/> |否  <br/> |单击此项时，报告将显示有关呼叫的其他信息。  <br/> |
+|**详细信息** <br/> |否  <br/> |单击此项时，报告将显示有关呼叫的其他信息。  <br/> |
 |**Caller** <br/> |是  <br/> |发起呼叫的人的 SIP 地址。  <br/> |
 |**被叫方** <br/> |是  <br/> |被呼叫的人的 SIP 地址。  <br/> |
 |**开始时间** <br/> |是  <br/> |呼叫开始的日期和时间。  <br/> |
@@ -91,6 +91,6 @@ ms.locfileid: "58599001"
 |**修复程序隐藏比率** <br/> |是  <br/> |隐藏的音频样本与样本总数的平均比率。（隐藏的音频样本是一项技术，用于消除通常由丢弃的网络数据包造成的意外转换。）高值指示数据包丢失或抖动造成的显著的丢失隐藏级别，从而导致音频失真或丢失。  <br/> |
 |**修复程序拉伸比率** <br/> |是  <br/> |拉伸的音频样本数与样本总数的平均比率。（拉伸的音频是一类已扩展的音频，可在检测到丢弃的网络数据包时帮助保持呼叫质量。）高值指示抖动造成的显著的样本拉伸级别，从而导致音频听起来很机械或失真。  <br/> |
 |**修复程序压缩比率** <br/> |是  <br/> |压缩的音频样本与样本总数的平均比率。（压缩的音频是一类已压缩的音频，可在检测到丢弃的网络数据包时帮助保持呼叫质量。）高值指示抖动造成的显著的样本压缩级别，从而导致音频听起来像是已加速或失真。  <br/> |
-|**连接** <br/> |是  <br/> | 无线通信链路的类型。通常，这是以下选项之一： <br/>  中继 <br/>  直接 <br/> |
+|**连接性** <br/> |是  <br/> | 无线通信链路的类型。通常，这是以下选项之一： <br/>  中继 <br/>  直接 <br/> |
    
 

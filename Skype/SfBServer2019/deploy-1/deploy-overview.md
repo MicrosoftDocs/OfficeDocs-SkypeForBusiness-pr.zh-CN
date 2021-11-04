@@ -1,7 +1,7 @@
 ---
 title: Deploy Skype for Business Server 2019
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 7/9/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: 摘要：浏览这些链接，了解如何安装和配置 Skype for Business Server 2019。
-ms.openlocfilehash: 44f1b932451d1e9da3bdf52066ad91d553f86b2b
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: defa81886e5ae2cda536776b35722d3c08e9700e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012136"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761616"
 ---
 # <a name="deploy-skype-for-business-server-2019"></a>Deploy Skype for Business Server 2019
  
@@ -38,15 +38,15 @@ Skype for Business Server提供即时消息 (IM) 、状态、会议、视频和�
   
 |&nbsp;|内容|说明|
 |:-----|:-----|:-----|
-|![文档图标。](/office/media/icons/paragraph-writing-blue.svg)|[2019 年 Skype for Business Server 的系统要求](../plan/system-requirements.md)   |了解服务器和环境要求Skype for Business Server。   |
+|![文档图标。](/office/media/icons/paragraph-writing-blue.svg)|[2019 Skype for Business Server的系统要求](../plan/system-requirements.md)   |了解服务器和环境要求Skype for Business Server。   |
 |![文档图标。](/office/media/icons/paragraph-writing-blue.svg)|[拓扑结构Skype for Business Server](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md)  |了解用于部署服务器的拓扑选项和Skype for Business Server。   |
 |![数字显示图标。](/office/media/icons/list-123-blue.svg)|[安装 Skype for Business Server](../../SfbServer/deploy/install/install.md) |了解如何在物理Skype for Business Server虚拟环境中在各种拓扑中安装服务器。   |
 |![数字显示图标。](/office/media/icons/list-123-blue.svg)| [迁移到 Skype for Business Server 2019](../migration/migration-to-skype-for-business-server-2019.md)  |了解如何从早期版本的 Skype for Business Lync Server 迁移。   |
 |![数字显示图标。](/office/media/icons/list-123-blue.svg)|[使用客户端配置客户端Skype for Business](../../SfbServer/deploy/deploy-clients/configure-the-client-experience.md)  |了解如何配置客户端体验。   |
-|![数字显示图标。](/office/media/icons/list-123-blue.svg)| [配置 Skype for Business Server 和 Skype for Business Online 之间的混合连接](../../SfbHybrid/hybrid/configure-hybrid-connectivity.md)  |了解如何配置混合部署的先决条件，然后配置部署以管理本地Skype for Business Server与 Skype for Business Online 之间的用户。   |
+|![数字显示图标。](/office/media/icons/list-123-blue.svg)| [配置 Skype for Business Server 和 Skype for Business Online 之间的混合连接](../../SfbHybrid/hybrid/configure-hybrid-connectivity.md)  |了解如何配置混合部署的先决条件，然后配置部署以管理本地部署Skype for Business Server与 Skype for Business Online 之间的用户。   |
 |![数字显示图标。](/office/media/icons/list-123-blue.svg)| [部署边缘服务器Skype for Business Server](../../SfbServer/deploy/deploy-edge-server/deploy-edge-servers.md)  |如果贵组织的用户与未登录到内部网络的外部用户通信，则您需要部署边缘服务器。   |
 |![数字显示图标。](/office/media/icons/list-123-blue.svg)| [在企业语音部署Skype for Business Server](../../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md)  |了解如何部署完整的 IP 语音 (VoIP) 企业语音解决方案，提供与 Outlook 和 Exchange 的丰富集成，以及许多强大的功能，如响应组、呼叫群、团队呼叫、组内呼叫应答和增强型紧急 E9-1-1 支持。   |
-| ![数字显示图标。](/office/media/icons/list-123-blue.svg)| [在部署中部署视频互操作Skype for Business Server](../../SfbServer/deploy/deploy-video-interop-server/deploy-video-interop-server.md)  |如果要支持视频互操作，请阅读如何在 VIS (部署视频互操作) 。   |
+| ![数字显示图标。](/office/media/icons/list-123-blue.svg)| [部署视频互操作服务器Skype for Business Server](../../SfbServer/deploy/deploy-video-interop-server/deploy-video-interop-server.md)  |如果要支持视频互操作，请阅读了解如何在 VIS (部署视频互操作) 。   |
    
 ## <a name="additional-resources-about-planning-for-skype-for-business-server"></a>有关规划规划的Skype for Business Server
 

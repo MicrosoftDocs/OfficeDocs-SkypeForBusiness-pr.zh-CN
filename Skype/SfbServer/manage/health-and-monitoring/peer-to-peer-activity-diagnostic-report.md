@@ -1,7 +1,7 @@
 ---
 title: Skype for Business Server 中的对等活动诊断Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,18 +12,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 025e8ab4-2e64-4a6b-8f52-caf756a5cac3
 description: 摘要：了解 Skype for Business Server 中的对等活动诊断报告。
-ms.openlocfilehash: de0bbd43b12209cacac319952040afc526556db6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 703592939b5f90311a4b9da551a6ebfe28989c31
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622284"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774832"
 ---
 # <a name="peer-to-peer-activity-diagnostic-report-in-skype-for-business-server"></a>Skype for Business Server 中的对等活动诊断Skype for Business Server
  
-**摘要：** 了解 Skype for Business Server 中的对等活动诊断报告。
+**摘要：** 了解 Skype for Business Server 中的对等活动诊断Skype for Business Server。
   
-点对点活动诊断报告提供有关成功和失败的点对点通信会话的信息。 请注意Skype for Business Server区分不同类型的失败：
+点对点活动诊断报告提供有关成功和失败的点对点通信会话的信息。 请注意，Skype for Business Server区分不同类型的失败：
   
 - **预期失败**。 预期失败通常指纯技术意义上的失败。 例如，假设您呼叫某人，但他或她不在办公室，因此无法接听电话。 此呼叫未应答，因而在技术上视为失败。 另一方面，这是预期失败：Skype for Business Server无法接听电话，则不要接听电话。 同样地，如果您尝试发送一条即时消息给某人，而对方处于脱机状态，或者对方只登录到不支持即时消息的电话时，也会发生预期失败。
     
@@ -33,13 +33,13 @@ ms.locfileid: "58622284"
   
 |**成功**|**预期失败**|**意外失败**|**会话总数**|
 |:-----|:-----|:-----|:-----|
-|2024  <br/> |469  <br/> |16   <br/> |2521  <br/> |
+|2024  <br/> |469  <br/> |16  <br/> |2521  <br/> |
    
 2024 + 469 + 16 将获得总共 2,509 个会话，而“会话总数”列显示总共 2,521 个会话。 “丢失的”12 个会话是系统无法归类为是成功还是失败的会话。 有时，当第三方产品引入不熟悉新诊断代码时，就会Skype for Business Server。 这时，使用该产品并报告该诊断代码的呼叫并非总是能归类为“成功”、“预期失败”或“意外失败”。
   
 ## <a name="accessing-the-peer-to-peer-activity-diagnostic-report"></a>访问点对点活动诊断报告
 
-可以从“监控报告”主页访问点对点诊断报告。 可以通过单击下列任一[指标Skype for Business Server](failure-distribution-report.md)报告中的故障分布报告：
+可以从“监控报告”主页访问点对点诊断报告。 可以通过单击下列任一指标[Skype for Business Server](failure-distribution-report.md)报告中的故障分布报告：
   
 - 意外失败量
     
@@ -61,7 +61,7 @@ ms.locfileid: "58622284"
 |:-----|:-----|
 |**From** <br/> |时间范围的开始日期/时间。若要按小时查看数据，请输入开始日期和时间，如下所示：  <br/> 7/7/2015 1：00 PM  <br/> 如果您未输入开始时间，该报告会自动将某个特定日的上午 12:00 作为开始时间。若要按日查看数据，请只输入日期：  <br/> 7/7/2015  <br/> 若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：  <br/> 7/3/2015  <br/> 一周始终是从星期日开始至星期六结束。  <br/> |
 |**To** <br/> |时间范围的结束日期/时间。若要按小时查看数据，请输入结束日期和时间，如下所示：  <br/> 7/7/2015 1：00 PM  <br/> 如果您未输入结束时间，该报告会自动将某个特定日的上午 12:00 作为结束时间。若要按日查看数据，请只输入日期：  <br/> 7/7/2015  <br/> 若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：  <br/> 7/3/2015  <br/> 一周始终是从星期日开始至星期六结束。  <br/> |
-|**Interval** <br/> | 时间间隔。选择下列选项之一： <br/>  每小时（最多可显示 25 个小时） <br/>  每天（最多可显示 31 天） <br/>  每周（最多可显示 12 周） <br/>  每月（最多可显示 12 个月） <br/>  如果开始日期和结束日期超出了所选间隔允许的最长时间，则仅显示最长时间（从开始日期开始）。 例如，如果您选择开始日期为 2015/7/7 和结束日期为 2015/2/28 的"每天"间隔， 显示 2015 年 8 月 7 日上午 12：00 到 2015 年 9 月 7 日上午 12：00 (即总共 31 天的数据) 。 <br/> |
+|**Interval** <br/> | 时间间隔。选择下列选项之一： <br/>  每小时（最多可显示 25 个小时） <br/>  每天（最多可显示 31 天） <br/>  每周（最多可显示 12 周） <br/>  每月（最多可显示 12 个月） <br/>  如果开始日期和结束日期超出了所选间隔允许的最长时间，则仅显示最长时间（从开始日期开始）。 例如， 如果您选择开始日期为 2015/7/7、结束日期为 2015/2/28 的"每天"间隔，则会显示从 2015 年 8 月 7 日上午 12：00 到 2015 年 9 月 7 日上午 12：00 (即总共 31 天的数据) 。 <br/> |
 |**Pool** <br/> |注册器池或边缘服务器的完全限定域名 (FQDN)。可以选择单个池，也可以单击“[所有]”查看所有池的数据。系统根据数据库中的记录自动为您填充该下拉列表。<br/> |
 |**形式** <br/> | 指示发生的通信活动的类型。选择下列选项之一： <br/>  [All] <br/>  即时消息 <br/>  文件传输 <br/>  应用程序共享 <br/>  音频 <br/>  视频 <br/> |
    

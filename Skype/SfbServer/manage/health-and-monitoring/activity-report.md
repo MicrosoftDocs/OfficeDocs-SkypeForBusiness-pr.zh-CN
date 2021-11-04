@@ -1,7 +1,7 @@
 ---
 title: 会议活动报告中Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,18 +12,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 22ddb509-af16-4fc8-9b98-6f58caa6f37e
 description: 摘要：了解会议活动报告中Skype for Business Server。
-ms.openlocfilehash: d422f86789c8a488f6a1bbe954689a3e422e990f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fcbe28d031abc7803cd8b84a67c3baeef42eff08
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612221"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774942"
 ---
 # <a name="conference-activity-report-in-skype-for-business-server"></a>会议活动报告中Skype for Business Server
  
-**摘要：** 了解会议活动报告中用于Skype for Business Server。
+**摘要：** 了解会议活动报告在会议Skype for Business Server。
   
-会议活动报告使你能够轻松回答类似以下问题：每天要召开多少场会议，以及何时召开这些会议？ 这样的信息不仅对自身有用，而且用作疑难解答工具。 例如，假设用户抱怨在一天中网络看上去特别慢。 快速浏览会议活动报告可能会建议一个可能的原因：在上午 10：00 到下午 2：00 之间安排的会议将远超过任何其他时间。
+会议活动报告使你能够轻松回答类似这样的问题：每天要召开多少场会议，以及何时召开这些会议？ 这样的信息不仅对自身有用，而且用作疑难解答工具。 例如，假设用户抱怨在一天中网络看上去特别慢。 快速浏览会议活动报告可能会建议一个可能的原因：在上午 10：00 到下午 2：00 之间安排的会议将远超过任何其他时间。
   
 如果因网速慢而导致出现问题，您可以鼓励用户将他们的一些会议重新安排在一天中流量较少的时段。
   

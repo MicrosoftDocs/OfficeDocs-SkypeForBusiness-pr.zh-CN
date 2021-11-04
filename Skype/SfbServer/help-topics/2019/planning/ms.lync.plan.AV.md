@@ -1,7 +1,7 @@
 ---
 title: '音频视频会议 (规划工具) '
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 ms.assetid: 466f5d2e-0e70-434c-8318-dfdefe679a31
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype for Business Server音频/ (A/V) 会议使用户能够参与实时音频或视频会议。
-ms.openlocfilehash: b4313bc3961f1f752180ff253341bce7bed1df17
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 23de9f3c88811c1b9251fb67145bf39bdb7925d0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597476"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761300"
 ---
 # <a name="audio-video-conferencing-planning-tool"></a>音频视频会议 (规划工具) 
  

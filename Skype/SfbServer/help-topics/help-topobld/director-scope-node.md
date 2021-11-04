@@ -1,7 +1,7 @@
 ---
 title: 控制器范围节点
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/25/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 790396f1-9821-45cd-906d-80c1f170f5ef
 description: 此节点显示该控制器池的完全限定域名 (FQDN)、端口和关联的文件存储。可以执行以下操作：
-ms.openlocfilehash: b0cde48402995e1e6d259d87df8d33f2a2289b02
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7ec55200b971da96163c6403444f1d1289ffce0b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604981"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775122"
 ---
 # <a name="director-scope-node"></a>控制器范围节点
  

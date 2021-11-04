@@ -1,7 +1,7 @@
 ---
 title: AudioSignal 表
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 0013c8c6-cdf9-4d70-bc2a-cddd1560f66b
 description: 每条记录表示一个终结点的音频信号指标。 通常，每个呼叫有两条记录，一条用于呼叫者，一条用于被叫方。
-ms.openlocfilehash: 0f021b438fe31bf180ee06ce83dad86e01c04070
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1e4f7bf92448d4f2efefe3bfad4e1ca556ad44b8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592396"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761780"
 ---
 # <a name="audiosignal-table"></a>AudioSignal 表
  
 每条记录表示一个终结点的音频信号指标。 通常，每个呼叫有两条记录，一条用于呼叫者，一条用于被叫方。 
   
-|**列**|**数据类型**|**键/索引**|**Details**|
+|**列**|**数据类型**|**键/索引**|**详细信息**|
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |datetime  <br/> |主  <br/> |从 [MediaLine 表引用](medialine-0.md)。  <br/> |
 |**SessionSeq** <br/> |int  <br/> |主  <br/> |从 [MediaLine 表引用](medialine-0.md)。  <br/> |
@@ -48,11 +48,11 @@ ms.locfileid: "58592396"
 |**RxAGCSignalLevel** <br/> |int  <br/> | <br/> |从网关接收中介服务器的信号级别;这仅适用于中介服务器。 此指标的单位为 dBoV。 为获得良好的质量，可接受的范围应为 [-30 至 -18] dBoV。  <br/> |
 |**RxAGCNoiseLevel** <br/> |int  <br/> | <br/> |从网关接收中介服务器的信号级别。 这仅适用于中介服务器。 此指标的单位为 dBoV。 为保证良好的质量，可接受的范围应小于 -50 dBoV。  <br/> |
 |**RxAvgAGCGain** <br/> |int  <br/> | <br/> |自动增益控制 (中介) AGC 服务器。  <br/> |
-|**InitialSignalLevelRMS** <br/> |float  <br/> | <br/> |根平均值 (RMS) 呼叫前 30 秒传入信号的平均值。  <br/> |
+|**InitialSignalLevelRMS** <br/> |float  <br/> | <br/> |根平均 (RMS) 呼叫前 30 秒传入信号的平均值。  <br/> |
 |**RecvSignalLevelCh1** <br/> |int  <br/> ||通道 1 上接收的信号级别。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
 |**RecvSignalLevelCh2** <br/> |int  <br/> ||通道 2 上接收的信号级别。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
 |**RecvNoiseLevelCh1** <br/> |int  <br/> ||通道 1 上接收到的噪音级别。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
-|**RecvNoiseLevelCh2** <br/> |int  <br/> ||通道 2 上收到的噪音级别。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
+|**RecvNoiseLevelCh2** <br/> |int  <br/> ||通道 2 上接收到的噪音级别。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
 |**SendSignalLevelCh1** <br/> |int  <br/> ||通道 1 上发送的信号级别。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
 |**SendSignalLevelCh2** <br/> |int  <br/> ||通道 2 上发送的信号级别。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
 |**SendNoiseLevelCh1** <br/> |int  <br/> ||通道 1 上发送的噪音级别。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
