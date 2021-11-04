@@ -1,7 +1,7 @@
 ---
 title: 为学校中的大量用户分配策略
-author: serdars
-ms.author: serdars
+author: HowlinWolf-92
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: karsmith, angch, cebulnes
 ms.topic: article
@@ -17,19 +17,19 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何根据组成员身份或直接通过远程学校、远程学校 (批量分配，为教育机构中的大量用户分配) 策略。
 f1keywords: ''
-ms.openlocfilehash: 3cd0bfd791d2416de31d998c693002cce87f6fcd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7a2321a42910eee77ef9dff3c3aba3165cba156a
+ms.sourcegitcommit: 6da1531dda6a0a3eecdca40e682783cc81c0d3e0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745698"
+ms.locfileid: "60785075"
 ---
 # <a name="assign-policies-to-large-sets-of-users-in-your-school"></a>为学校中的大量用户分配策略
 
 [!INCLUDE [policy-wizard-edu](includes/policy-wizard-edu.md)]
 
 > [!NOTE]
-> 有关在服务中分配策略的较大Microsoft Teams，请参阅在 Teams[中向用户分配策略](policy-assignment-overview.md)。
+> 有关在服务中分配策略的较大Microsoft Teams，请参阅在 Teams 中[向用户分配策略](policy-assignment-overview.md)。
 
 ## <a name="overview"></a>概述
 
@@ -41,7 +41,7 @@ ms.locfileid: "60745698"
 
 - **使用 [批处理策略分配](assign-policies-users-and-groups.md#assign-a-policy-to-a-batch-of-users) 将会议策略直接批量分配给用户**。 一次最多为 5，000 个用户分配策略。 如果用户数超过 5，000，可以提交多个批次。 使用此方法时，当有新用户时，需要重新运行批处理分配，以将策略分配给这些新用户。
 
-请记住，Teams用户会自动获取 Teams 策略类型的全局 (组织范围默认) 策略，除非创建并分配自定义策略。 由于学生群体通常是最大的一组用户，他们通常会收到限制性最严格的设置，因此建议执行以下操作：
+请记住，Teams用户会自动获取 (Teams 策略类型的全局 (组织范围默认) 策略，除非创建并分配自定义策略。 由于学生群体通常是最大的一组用户，他们通常会收到限制性最严格的设置，因此建议执行以下操作：
 
 - 创建自定义策略，允许私人聊天和会议计划等核心功能，并将该策略分配给教职员工和教师。
 - 将自定义策略分配给教职员工和教师。
@@ -60,7 +60,7 @@ ms.locfileid: "60745698"
 ### <a name="before-you-get-started"></a>开始之前
 
 > [!IMPORTANT]
-> 将策略分配到组时，策略分配根据优先级规则传播到该组的成员。 例如，如果直接为用户分配了一个策略 (单独分配或批处理分配) ，则该策略优先于从组继承的策略。 这也意味着，如果用户具有直接分配给他们的会议策略，则你必须从该用户中删除该会议策略，然后才能从安全组继承会议策略。
+> 将策略分配到组时，策略分配根据优先级规则传播到该组的成员。 例如，如果直接为用户分配了策略 (单独分配或批处理分配) ，则该策略优先于从组继承的策略。 这也意味着，如果用户具有直接分配给他们的会议策略，则你必须从该用户中删除该会议策略，然后才能从安全组继承会议策略。
 
 在开始使用之前，必须了解优先级[规则和](policy-assignment-overview.md#which-policy-takes-precedence)[组分配排名](assign-policies-users-and-groups.md#group-assignment-ranking)。 **请确保阅读并了解有关组的策略分配的信息 [中的概念](assign-policies-users-and-groups.md#what-you-need-to-know-about-policy-assignment-to-groups)**。
 
@@ -106,7 +106,7 @@ ms.locfileid: "60745698"
 
 ##### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>安装并连接到 Microsoft Teams PowerShell 模块
 
-运行以下代码，Teams [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams)模块 (（如果尚未) ）。 请确保安装版本 1.0.5 或更高版本。
+运行以下代码，Teams [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams)模块 (（如果尚未在) ）。 请确保安装版本 1.0.5 或更高版本。
 
 ```powershell
 Install-Module -Name MicrosoftTeams
@@ -130,7 +130,7 @@ New-CsGroupPolicyAssignment -GroupId staff-faculty@contoso.com -PolicyType Teams
 
 ### <a name="remove-a-policy-that-was-directly-assigned-to-users"></a>删除直接分配给用户的策略
 
-请记住，如果直接为用户分配了一个策略 (单独分配或通过批处理分配) ，该策略优先。 这意味着，如果用户具有直接分配给他们的会议策略，则你必须从该用户中删除该会议策略，然后才能从安全组继承会议策略。
+请记住，如果直接为用户分配了一个策略 (单独分配或通过批处理分配) ，则该策略优先。 这意味着，如果用户具有直接分配给他们的会议策略，则你必须从该用户中删除该会议策略，然后才能从安全组继承会议策略。
 
 若要了解有关详细信息， [请参阅有关向组分配策略的需知信息](assign-policies-users-and-groups.md#what-you-need-to-know-about-policy-assignment-to-groups)。
 
@@ -138,7 +138,7 @@ New-CsGroupPolicyAssignment -GroupId staff-faculty@contoso.com -PolicyType Teams
 
 #### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>安装并连接到 Microsoft Teams PowerShell 模块
 
-运行以下代码，Teams [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams)模块 (（如果尚未) ）。 请确保安装版本 1.0.5 或更高版本。
+运行以下代码，Teams [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams)模块 (（如果尚未在) ）。 请确保安装版本 1.0.5 或更高版本。
 
 ```powershell
 Install-Module -Name MicrosoftTeams
@@ -314,7 +314,7 @@ Get-CsUserPolicyAssignment -Identity hannah@contoso.com
 
 **我不熟悉 PowerShell for Teams。在哪里可以了解更多信息？**
 
-有关使用 PowerShell 管理 Teams 的Teams，请参阅[PowerShell 概述](teams-powershell-overview.md)。 有关本文中使用的 cmdlet 详细信息，请参阅：
+有关使用 PowerShell 管理应用程序Teams的概述，Teams [PowerShell 概述](teams-powershell-overview.md)。 有关本文中使用的 cmdlet 详细信息，请参阅：
 
 - [New-CsGroupPolicyAssignment](/powershell/module/teams/new-csgrouppolicyassignment)
 - [Get-CsGroupPolicyAssignment](/powershell/module/teams/get-csgrouppolicyassignment)

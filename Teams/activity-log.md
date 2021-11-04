@@ -1,14 +1,14 @@
 ---
 title: 在管理中心的活动日志中查看Microsoft Teams分配
-author: serdars
-ms.author: serdars
+author: HowlinWolf-92
+ms.author: v-mahoffman
 ms.reviewer: jastark
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: 了解如何在管理中心的活动日志中查看Microsoft Teams活动。
+description: 了解如何在管理中心的"活动"日志中查看Microsoft Teams活动。
 ms.localizationpriority: medium
 f1.keywords:
 - CSH
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 21caf6d694c201b12527b4be3f33856b887d177b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9c48e6b8ea08419b96384be5e19ba1a7d5275dea
+ms.sourcegitcommit: 6da1531dda6a0a3eecdca40e682783cc81c0d3e0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 11/04/2021
-ms.locfileid: "60743078"
+ms.locfileid: "60785065"
 ---
 # <a name="view-your-policy-assignments-in-the-activity-log"></a>在活动日志中查看策略分配
 
