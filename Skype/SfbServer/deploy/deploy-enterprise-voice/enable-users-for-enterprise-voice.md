@@ -1,7 +1,7 @@
 ---
-title: 在 Skype for Business Server 中企业语音用户Skype for Business Server
+title: 在用户企业语音中Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,21 +16,21 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f252b23b-9641-4160-aa81-bf06dc2eced3
 description: 摘要：了解如何在 Skype for Business Server 中通过使用 企业语音 和 Skype for Business Server。
-ms.openlocfilehash: 04533245348672afedfac113f3fd64188a2efba2
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 27c60b7532411c50d6613635a28a638a5cfbc97d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012766"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749363"
 ---
-# <a name="enable-users-for-enterprise-voice-in-skype-for-business-server"></a>在 Skype for Business Server 中企业语音用户Skype for Business Server
+# <a name="enable-users-for-enterprise-voice-in-skype-for-business-server"></a>在用户企业语音中Skype for Business Server
  
-**摘要：** 了解如何使用户能够通过使用 企业语音 中的 Skype for Business Server 来拨打和接听Skype for Business Server。
+**摘要：** 了解如何使用户能够通过使用 Skype for Business Server 中的 企业语音 拨打和接听Skype for Business Server。
   
 在部署企业语音或通过工电话呼叫后，可以使用以下过程使用户可以通过使用 企业语音：
   
 > [!NOTE]
-> 在下列过程中，只有第一个过程可以使用"控制面板"Skype for Business Server执行。 对于其余过程，只能使用命令行管理Skype for Business Server命令行管理程序。 
+> 在下列过程中，只有第一个过程可以使用"控制面板Skype for Business Server执行。 对于其余过程，只能使用命令行Skype for Business Server命令行管理程序。 
   
 - 为用户帐户启用企业语音。
     
@@ -61,7 +61,7 @@ ms.locfileid: "60012766"
 要完成为用户启用 企业语音，请确保为该用户分配了语音策略和拨号计划，无论默认情况下 (全局) 还是特定于用户。默认情况下，会为所有用户分配全局语音策略和拨号计划。 如果语音策略或拨号计划的站点级别与承载用户帐户的站点相同，则这些站点策略将自动应用于用户。 要对用户应用每用户语音策略或拨号计划，您必须运行 **Grant-CsVoicePolicy** 和 **Grant-CsDialPlan** cmdlet。 有关详细信息，请参阅本主题中的以下过程。
 ## <a name="voice-policy-assignment"></a>语音策略分配
 
-全局和站点级别的语音策略将自动分配给所有启用此企业语音。 还可以创建适用于特定的用户或组的语音策略。 必须将这些每用户策略显式分配给用户或组。 如果要对已启用 企业语音 的所有用户使用全局或站点语音策略，可以跳过此部分并继续本主题稍后介绍的"拨号计划分配"部分[](enable-users-for-enterprise-voice.md#BKMK_DialPlanAssignment)。
+全局和站点级别的语音策略将自动分配给所有启用此企业语音。 还可以创建适用于特定的用户或组的语音策略。 必须将这些每用户策略显式分配给用户或组。 如果要对已启用 企业语音 的所有用户使用全局或站点语音策略，可以跳过此部分并继续本主题稍后介绍的"拨号[计划](enable-users-for-enterprise-voice.md#BKMK_DialPlanAssignment)分配"部分。
   
 ### <a name="to-assign-a-user-specific-voice-policy"></a>分配特定于用户的语音策略
 
@@ -81,12 +81,12 @@ ms.locfileid: "60012766"
    Grant-CsVoicePolicy -Identity "Bob Kelly" -PolicyName VoicePolicyJapan
    ```
 
-    在此例中，为具有 显示名称 Bob Kelly 的用户分配了名称 **为 VoicePolicyJapan 的语音策略**。
+    在此例中，为具有 显示名称 Bob Kelly 的用户分配了名称为 **VoicePolicyJapan 的语音策略**。
     
 ## <a name="dial-plan-assignment"></a>拨号计划分配
 <a name="BKMK_DialPlanAssignment"> </a>
 
-要完成企业语音用户或电话拨入式会议用户的用户帐户配置，必须为用户分配拨号计划。 如果没有显式分配现有每用户拨号计划，则用户帐户将自动使用全局拨号计划或站点级别拨号计划（如果存在）。 如果要为启用了全局或站点拨号计划的所有用户使用企业语音，可以跳过此部分。
+要完成企业语音用户或电话拨入式会议用户的用户帐户配置，必须为用户分配拨号计划。 如果没有显式分配现有每用户拨号计划，则用户帐户将自动使用全局拨号计划或站点级别拨号计划（如果存在）。 如果要为已启用呼叫的所有用户使用全局或站点拨号企业语音，可以跳过此部分。
   
 ### <a name="to-assign-a-user-specific-dial-plan"></a>分配特定于用户的拨号计划
 

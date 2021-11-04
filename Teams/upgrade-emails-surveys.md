@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams转换电子邮件和调查|基本升级
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c23c2818c791915aa2a8e6c772510c6a50094c1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4bda42ca439268a4d1e14c8b10d26e0dcea38332
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583466"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760360"
 ---
 # <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>升级基本通信的示例电子邮件和调查
 
@@ -84,7 +84,7 @@ If you have questions or need help, please reach out to <<insert company support
 
 ### <a name="remind-users-email-for-step-6"></a>提醒用户有关步骤 6 的电子邮件
 
-主题行：提醒：准备好升级到 Teams
+主题行：提醒：准备好升级到Teams
 
 ```
 ACTION REQUIRED: Host your next online meeting in Teams
@@ -207,7 +207,7 @@ Should you have questions, contact <<insert alias or contact info>>.
 |---|---|---|---|---|---|---|---|---|---|---|
 | 使用Teams其他人进行即时消息/聊天 | | | | | | | | | | |
 | 使用Teams联机会议 | | | | | | | | | | |
-| 使用Teams团队 (频道进行协作)  | | | | | | | | | | |
+| 使用Teams团队和频道 (协作)  | | | | | | | | | | |
 | 在Teams设备上使用 | | | | | | | | | | |
 
 | **什么（如果有）阻止你使用Microsoft Teams？** | **选择所有适用项** |

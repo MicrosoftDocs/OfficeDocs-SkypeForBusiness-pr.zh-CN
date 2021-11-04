@@ -1,7 +1,7 @@
 ---
 title: 会议策略
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 90eaa64e-369e-448d-bac4-2574c7c598b8
 ROBOTS: NOINDEX, NOFOLLOW
 description: 会议策略定义会议期间用户可以使用的各种功能。
-ms.openlocfilehash: f5b0b7e4f4d5198b824f917336ab56a96f11cc64
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 885efa5a8f172106939517d44431ded71fbc5e24
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608459"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767070"
 ---
 # <a name="conferencing-policy"></a>会议策略
 

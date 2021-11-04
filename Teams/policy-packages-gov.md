@@ -1,7 +1,7 @@
 ---
 title: Teams政府部署策略包
-author: cichur
-ms.author: serdars
+author: serdars
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: aaglick
 ms.topic: article
@@ -17,17 +17,17 @@ ms.custom: ''
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何使用和管理Teams组织的策略包。
-ms.openlocfilehash: 745957168c221caf566d04a795e378c642b8ae9a
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: 02680b18d32e62a8a559ac6d2a30708e5aa05497
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605438"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749591"
 ---
 # <a name="teams-policy-packages-for-government"></a>Teams政府部署策略包
 
 > [!NOTE]
-> 在政府高级部署或 DoD Microsoft 365中GCC策略包。
+> 在政府高级部署或 DoD Microsoft 365中GCC策略包目前不可用。
 
 ## <a name="overview"></a>概述
 
@@ -41,7 +41,7 @@ Microsoft Teams 中的[策略包](manage-policy-packages.md)是一组预定义�
 - 应用设置
 - 实时事件
 
-Teams包括以下政府策略包。
+Teams目前包括以下政府策略包。
 
 |Microsoft Teams 管理中心中的策略包名称|最适合用于|说明 |
 |---------|---------|---------|
@@ -51,7 +51,7 @@ Teams包括以下政府策略包。
 
 ![医疗保健策略包的屏幕截图。](media/policy-packages-gov.png)
 
-将为每个单独的策略提供策略包的名称，以便你可以轻松识别链接到该策略包的策略。 例如，将"公共安全人员"策略包分配给组织中用户时，PublicSafety_Officer包中每个策略创建名为 PublicSafety_Officer 的策略。
+将为每个单独的策略提供策略包的名称，以便你可以轻松识别链接到该策略包的策略。 例如，向组织中用户分配"公共安全人员"策略包时，PublicSafety_Officer包中每个策略创建一个名为 PublicSafety_Officer 的策略。
 
 ![医疗保健患者包中策略的屏幕截图。](media/policy-packages-public-safety-officer.png)
 

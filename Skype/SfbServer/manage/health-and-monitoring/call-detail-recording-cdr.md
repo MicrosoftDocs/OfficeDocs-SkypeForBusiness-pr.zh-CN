@@ -1,7 +1,7 @@
 ---
 title: 呼叫详细信息记录 (CDR) 中Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,18 +12,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 67726075-c77c-4191-a64f-a1cf5c7bcbb2
 description: 摘要：了解呼叫详细信息记录 (CDR) 中使用的 CDR Skype for Business Server。
-ms.openlocfilehash: 0453bbe4e8bbd4a9bf8c2fe06b33599375171280
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 93085e0078456cfe371eafe1103bd54ae8006802
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610649"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767760"
 ---
 # <a name="call-detail-recording-cdr-in-skype-for-business-server"></a>呼叫详细信息记录 (CDR) 中Skype for Business Server
  
 **摘要：** 了解呼叫详细信息记录 (CDR) 中使用的 CDR Skype for Business Server。
   
-呼叫详细信息记录 (CDR) 记录了有关对等活动（包括即时消息、IP 语音 (VoIP) 呼叫、应用程序共享、文件传输和会议）的使用和诊断信息。 使用数据可以用于计算投资回报率 (ROI)，诊断数据可以用于解决对等活动和会议中遇到的问题。 在安装Skype for Business Server时，还将安装 CDR 的全局配置设置的预定义集合。 使用本节中的过程可配置 CDR。
+呼叫详细信息记录 (CDR) 记录了有关对等活动（包括即时消息、IP 语音 (VoIP) 呼叫、应用程序共享、文件传输和会议）的使用和诊断信息。 使用数据可以用于计算投资回报率 (ROI)，诊断数据可以用于解决对等活动和会议中遇到的问题。 安装 CDR Skype for Business Server，还将安装 CDR 的全局配置设置的预定义集合。 使用本节中的过程可配置 CDR。
   
 ## <a name="in-this-section"></a>本节内容
 

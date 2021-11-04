@@ -1,7 +1,7 @@
 ---
 title: 添加前端监控存储页
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,22 +15,22 @@ ms.localizationpriority: medium
 ms.assetid: 48e8587d-a9d2-4fc5-acc5-2bf0abf133c6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 通过配置以下属性“定义监视 SQL Server 存储”：
-ms.openlocfilehash: caaf519fd65e4262b48eddcec335a06539684eb3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 074d7aefa6e5b724d7266fbfb9d2b05dd558e4fc
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601747"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766920"
 ---
 # <a name="add-front-end-monitoring-store-page"></a>添加前端监控存储页
  
 通过配置以下属性“定义监视 SQL Server 存储”：
   
-- **监视SQL Server存储**：选择SQL Server完全限定的域名 (（可选）从列表中选择) 实例。
+- **监视SQL Server存储**：选择SQL Server完全限定的域名 (（可选）从) 实例。
     
     单击 **"** 新建"以SQL Server FQDN 定义和监控服务器存储的实例名称（可选）。
     
-- 如果要 **为监控SQL Server** 数据库镜像，请选中"启用存储镜像"复选框。
+- 如果要 **为SQL Server** 服务器添加数据库镜像，请选中"启用存储镜像"复选框。
     
     从列表选择一个现有的“监控 SQL Server 存储镜像”。
     

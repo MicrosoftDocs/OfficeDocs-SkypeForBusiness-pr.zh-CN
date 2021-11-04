@@ -1,7 +1,7 @@
 ---
 title: 配置网络设置 - 基于位置的路由
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.reviewer: roykuntz
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: aa696a0058c34be9b3b67746c8a215f6532c2f0f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f3c487828ea3b19bcd3c99604aac473c53d9e46e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584506"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749048"
 ---
 # <a name="configure-network-settings-for-location-based-routing"></a>为基于位置的路由配置网络设置
 
@@ -38,19 +38,19 @@ ms.locfileid: "58584506"
 
 网络网站表示组织具有物理场所的位置，例如办公室、一组建筑物或校园。 必须将拓扑中的每个网络站点与网络区域关联。 有关如何配置网络站点的步骤，请参阅[管理](manage-your-network-topology.md)云功能的网络拓扑Teams。
 
-路由路由Location-Based为每个具有唯一 PSTN 连接的位置创建单独的站点。 可以创建为路由启用的站点Location-Based未启用路由路由Location-Based站点。 例如，你可能想要创建未启用 Location-Based 路由的网站，以允许启用了 Location-Based 路由的用户在漫游到该网站时进行 PSTN 呼叫。
+路由路由Location-Based为每个具有唯一 PSTN 连接的位置创建单独的站点。 可以创建为路由启用Location-Based站点，或者创建未启用路由Location-Based站点。 例如，你可能想要创建未为 Location-Based 路由启用的网站，以允许启用了 Location-Based 路由的用户在漫游到该网站时进行 PSTN 呼叫。
 
 ## <a name="define-network-subnets"></a>定义网络子网
 
-每个子网必须与特定的网络站点相关联。 可以将多个子网与同一网络站点关联，但不能将多个站点与同一子网关联。 有关配置网络子网的步骤，请转到管理云功能的网络拓扑[，Teams。](manage-your-network-topology.md)
+每个子网必须与特定的网络站点相关联。 可以将多个子网与同一网络站点关联，但不能将多个站点与同一子网关联。 有关配置网络子网的步骤，请转到管理云功能的网络拓扑[Teams。](manage-your-network-topology.md)
 
-对于Location-Based路由，必须定义终结点Teams位置的 IP 子网，并关联到定义的网络，以强制绕过收费。 子网的这种关联Location-Based路由在地理上查找终结点，确定是否应允许给定的 PSTN 呼叫。 支持 IPv6 和 IPv4 子网。 当确定Teams终结点是否位于站点时，Location-Based路由首先检查匹配的 IPv6 地址。 如果不存在 IPv6 地址，Location-Based路由检查 IPv4 地址。
+对于Location-Based路由，必须定义终结点Teams可连接到网络的位置的 IP 子网，并关联到定义的网络，以强制绕过收费。 子网的这种关联Location-Based路由在地理上查找终结点，确定是否应允许给定的 PSTN 呼叫。 支持 IPv6 和 IPv4 子网。 确定终结点是否Teams位于站点时，Location-Based路由首先检查匹配的 IPv6 地址。 如果不存在 IPv6 地址，Location-Based路由检查 IPv4 地址。
 
 ## <a name="define-trusted-ip-addresses-external-subnets"></a>定义外部子网 (受信任的 IP) 
 
 受信任的 IP 地址是企业网络的 Internet 外部 IP 地址，用于确定用户的终结点是否在企业网络中。 若要了解如何配置受信任的 IP 地址，请转到管理云功能的网络[](manage-your-network-topology.md)拓扑，Teams。
 
-如果用户的外部 IP 地址与受信任的 IP 地址列表中的 IP 地址匹配，Location-Based路由检查以确定用户终结点所在的内部子网。 如果用户的外部 IP 地址与受信任的 IP 地址列表中定义的任何 IP 地址不匹配，则终结点被分类为位于未知位置，并且阻止与启用了 Location-Based 路由的用户之间的任何 PSTN 呼叫。
+如果用户的外部 IP 地址与受信任的 IP 地址列表中的 IP 地址匹配，Location-Based 路由检查以确定用户终结点所在的内部子网。 如果用户的外部 IP 地址与受信任的 IP 地址列表中定义的任何 IP 地址不匹配，则终结点被分类为位于未知位置，并且阻止与启用了 Location-Based 路由的用户之间的任何 PSTN 呼叫。
 
 ## <a name="next-steps"></a>后续步骤
 

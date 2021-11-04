@@ -1,7 +1,7 @@
 ---
 title: 配置网络区域链接 创建新的或编辑现有的
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 4c4225d4-3a51-4f54-a6cb-c262e07c51fd
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: 78813cf22452f8ec337ed154f970ae6dc64e33b9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9ce19db736c2272ac7b4ce4822582ea04559cfe3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600537"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60758894"
 ---
 # <a name="configure-a-network-region-link-create-new-or-edit-existing"></a>配置网络区域链接：创建新的或编辑现有的
 

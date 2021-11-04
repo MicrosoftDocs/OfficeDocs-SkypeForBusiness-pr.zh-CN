@@ -1,7 +1,7 @@
 ---
 title: 分支机构范围节点
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/25/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 116d317c-8df0-45a0-83d4-eb10cf525d70
 description: “分支站点”节点列出了与此中央站点关联的分支站点。可以执行以下操作：
-ms.openlocfilehash: f63bc042f311ba866d198b2f2ac63a5ab6293115
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2d95ea4e01d8d7b60455540bed69c7e02a320506
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582776"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760810"
 ---
 # <a name="branch-offices-scope-node"></a>分支机构范围节点
  

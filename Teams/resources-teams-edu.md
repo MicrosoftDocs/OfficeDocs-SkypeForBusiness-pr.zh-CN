@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams：教育管理员的资源
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: reference
 ms.service: msteams
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9cf78332ea9ed37a7d91d7ab2e038329b7e7c1fb
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 2342f68403120f04e865203c304c2c4e14d41c0a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727431"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767190"
 ---
 # <a name="microsoft-teams-resources-for-education-admins"></a>面向教育版管理员的 Microsoft Teams 资源
 
@@ -32,7 +32,7 @@ ms.locfileid: "58727431"
 
 ## <a name="adoption-content"></a>采用内容
 
-通过现在Microsoft Teams的电子邮件、海报、讲义和更多资源，让学校感到兴奋。 还可使用填充了横幅、GIF 和视频的新数字工具包在线和跨校园接触学生。 从今天开始！
+现在，学校Microsoft Teams电子邮件、海报、讲义和其他资源，让学校感到兴奋。 还可使用填充了横幅、GIF 和视频的新数字工具包在线和跨校园接触学生。 从今天开始！
 
 在使用这些 [材料之前，](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/license_agreement_teams_for_education.pdf?raw=true) 请阅读条款和条件。
 
@@ -57,7 +57,7 @@ ms.locfileid: "58727431"
 ## <a name="call-to-action"></a>行动号召
 
 - 访问[Teams 教育版](https://www.microsoft.com/en-us/education/products/teams/default.aspx)页面，查看培训、视频和交互式演示
-- 在Teams中打开[Microsoft 365 管理中心 (](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns)管理员Office 365登录) 
+- 在Teams中打开[Microsoft 365 管理中心 (](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns)以管理员Office 365登录) 
 - 下载 Teams 客户端：[在所有设备上获取 Teams](https://teams.microsoft.com/downloads)
 - 在[教育版帮助中心](https://support.office.com/education)了解关于 Office 365 教育版的详细信息
 

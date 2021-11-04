@@ -1,7 +1,7 @@
 ---
 title: Subnet 表
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 76f5c995-96c8-4aa3-bc30-1d74991d7c42
 description: Subnet 表是一个支持表。每条记录均表示网络配置设置中定义的一个子网。
-ms.openlocfilehash: e7fd43963414b24ed684d8f1efa59c7e634839bd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b0c10fae89fe76c184e3aaffec4e1166c4cdb94c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613792"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768310"
 ---
 # <a name="subnet-table"></a>Subnet 表
  
 Subnet 表是一个支持表。每条记录均表示网络配置设置中定义的一个子网。
   
-|**列**|**数据类型**|**键/索引**|**Details**|
+|**列**|**数据类型**|**键/索引**|**详细信息**|
 |:-----|:-----|:-----|:-----|
 |**SubnetIP** <br/> |int  <br/> |主、外  <br/> |子网 IP 的整数表示形式。  <br/> |
 |**SubnetMask** <br/> |int  <br/> ||子网掩码。  <br/> |

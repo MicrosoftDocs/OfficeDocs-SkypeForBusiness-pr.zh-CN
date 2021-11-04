@@ -1,7 +1,7 @@
 ---
 title: 持久聊天下一跃点设置扩展器
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/27/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 91423153-746a-4f8a-9c7f-4102d3fdbb8a
 description: 通过从列表中选择前端服务器或前端池来配置持久聊天下一跃点池。
-ms.openlocfilehash: c5fe79178b9008c1805d6a0a09430ec988b9c7f4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b7a67c893b7f87798ef87f9d70c93f7c21458774
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623784"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768070"
 ---
 # <a name="persistent-chat-next-hop-settings-expander"></a>持久聊天下一跃点设置扩展器
  

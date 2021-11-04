@@ -1,7 +1,7 @@
 ---
 title: 在拨号计划中创建或修改Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d2fef3d0-7e78-4591-b712-d62ac71d71a5
 description: 摘要：了解如何使用"控制面板"Skype for Business Server拨号计划。
-ms.openlocfilehash: e5e7f7cc0fc2edf0707025ed4b5e901c0a199021
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b5d2e7fa5c91dfbbfe87f68bed258960167990bb
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607629"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749373"
 ---
 # <a name="create-or-modify-a-dial-plan-in-skype-for-business-server"></a>在拨号计划中创建或修改Skype for Business Server
 
@@ -47,12 +47,12 @@ ms.locfileid: "58607629"
 4. 如果要创建用户拨号计划，请在“新建拨号计划”对话框的“名称”字段中输入描述性名称。保存此名称后，就无法更改。
 
     > [!NOTE]
-    > 对于站点拨号计划，"名称"字段会使用站点名称预先填充，并且无法更改。>对于池拨号计划，"名称"字段会使用PSTN 网关或注册器名称预先填充，并且不能更改。
+    > 对于站点拨号计划，"名称"字段会使用站点名称预先填充，并且不能更改。> 对于池拨号计划，"名称"字段会使用PSTN 网关或注册器名称预先填充，并且不能更改。
 
 5. “简单名称”字段会使用与“名称”字段中显示的相同名称预先填充。您可以选择编辑该字段来指定描述性更强的名称，以反映应用该拨号计划的站点、服务或用户。
 
    > [!IMPORTANT]
-   > 简单 **名称** 在部署的所有拨号计划中必须是唯一的。 它不能超过 256 个 Unicode 字符，每个 Unicode 字符可以是字母或数字字符、连字符 (-) 、周期 (.) 或下划线字符 (_) .>**不支持的字符** 包括空格和保留字符，如 RFC 3966 () 中的定义。 <http://www.ietf.org/rfc/rfc3966.txt> "简单名称" **中** 不支持的保留字符 **包括** ：>";""/" "?"":" "@" "&amp;" "=" "+" "$" ","
+   > 简单 **名称** 在部署的所有拨号计划中必须是唯一的。 它不能超过 256 个 Unicode 字符，其中每个 Unicode 字符可以是字母或数字字符、连字符 (-) 、周期 (.) 或下划线字符 (_) .> 不支持的字符包括空格和保留字符，如 RFC 3966 ( <http://www.ietf.org/rfc/rfc3966.txt>) 中的定义。 "简单名称" **中** 不支持的保留字符 **包括** ：>";""/" "?"":" "@" "&amp;" "=" "+" "$" ","
 
 6. （可选）在“说明”字段中，您可以键入有关拨号计划的其他描述性信息。
 
@@ -84,7 +84,7 @@ ms.locfileid: "58607629"
 10. 验证拨号计划的规范化规则是否按正确的顺序排列。 若要更改规则在列表中的位置，请突出显示规则名称，然后单击向上箭头或向下箭头。
 
     > [!IMPORTANT]
-    > Skype for Business Server从上到下遍历规范化规则列表，并使用第一个与拨打号码相匹配的规则。 如果要配置拨号计划以使拨打号码可以匹配多个规范化规则，请确保限制较严格的规则排在限制较宽松的规则上方。 >默认的"全部保留 **"** 规范化规则^ (\d) {11} $ 匹配任何 11 位数字。 例如，如果添加与以 1425 开头的 11 位数字相匹配的规范化规则，请确保"全部保留"排序在限制性较严格的^ (1425\d) $ 规则 {7} 下。
+    > Skype for Business Server从上到下遍历规范化规则列表，并使用第一个匹配拨打号码的规则。 如果要配置拨号计划以使拨打号码可以匹配多个规范化规则，请确保限制较严格的规则排在限制较宽松的规则上方。 >默认的"全部保留 **"** 规范化规则^ (\d) $ 匹配任何 {11} 11 位数字。 例如，如果添加与以 1425 开头的 11 位数字相匹配的规范化规则，请确保"全部保留"排序在限制性较严格的^ (1425\d) $ 规则 {7} 下。
 
 11. （可选）输入一个号码来测试拨号计划，然后单击“执行”。测试结果会显示在“输入要测试的号码”下。
 
@@ -93,7 +93,7 @@ ms.locfileid: "58607629"
 13. 在“拨号计划”页上，单击“提交”，然后单击“全部提交”。
 
     > [!NOTE]
-    > 任何时候创建拨号计划，都必须运行“全部提交”命令以发布配置更改。 有关详细信息，请参阅操作[文档中](voice-route-config-changes.md)的 Publish pending changes to the voice routing configuration in Skype for Business in the Operations documentation。
+    > 任何时候创建拨号计划，都必须运行“全部提交”命令以发布配置更改。 有关详细信息，请参阅操作[文档中的](voice-route-config-changes.md)Publish pending changes to the voice routing configuration in Skype for Business in the Operations documentation。
 
 ### <a name="to-modify-a-dial-plan"></a>修改拨号计划
 
@@ -143,7 +143,7 @@ ms.locfileid: "58607629"
 10. 验证拨号计划的规范化规则是否按正确的顺序排列。 若要更改规则在列表中的位置，请突出显示规则名称，然后单击向上箭头或向下箭头。
 
     > [!IMPORTANT]
-    > Skype for Business Server从上到下遍历规范化规则列表，并使用第一个与拨打号码相匹配的规则。 如果要配置拨号计划以使拨打号码可以匹配多个规范化规则，请确保限制较严格的规则排在限制较宽松的规则上方。 >默认的"全部保留 **"** 规范化规则^ (\d) {11} $ 匹配任何 11 位数字。 例如，如果添加与以 1425 开头的 11 位数字相匹配的规范化规则，请确保"全部保留"排序在限制性较严格的^ (1425\d) $ 规则 {7} 下。
+    > Skype for Business Server从上到下遍历规范化规则列表，并使用第一个匹配拨打号码的规则。 如果要配置拨号计划以使拨打号码可以匹配多个规范化规则，请确保限制较严格的规则排在限制较宽松的规则上方。 >默认的"全部保留 **"** 规范化规则^ (\d) $ 匹配任何 {11} 11 位数字。 例如，如果添加与以 1425 开头的 11 位数字相匹配的规范化规则，请确保"全部保留"排序在限制性较严格的^ (1425\d) $ 规则 {7} 下。
 
 11. （可选）输入一个号码来测试拨号计划，然后单击“执行”。测试结果会显示在“输入要测试的号码”下。
 
@@ -155,7 +155,7 @@ ms.locfileid: "58607629"
 13. 在“拨号计划”页上，单击“提交”，然后单击“全部提交”。
 
     > [!NOTE]
-    > 任何时候创建或修改拨号计划，都必须运行“全部提交”命令以发布配置更改。 有关详细信息，请参阅操作[文档中](voice-route-config-changes.md)的 Publish pending changes to the voice routing configuration in Skype for Business in the Operations documentation。
+    > 任何时候创建或修改拨号计划，都必须运行“全部提交”命令以发布配置更改。 有关详细信息，请参阅操作[文档中的](voice-route-config-changes.md)Publish pending changes to the voice routing configuration in Skype for Business in the Operations documentation。
 
 ## <a name="see-also"></a>另请参阅
 

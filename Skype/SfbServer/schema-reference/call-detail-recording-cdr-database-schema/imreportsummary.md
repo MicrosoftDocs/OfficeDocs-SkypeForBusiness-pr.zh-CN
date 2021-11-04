@@ -1,7 +1,7 @@
 ---
 title: Skype for Business Server 2015 中的 IMReportSummary 表
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 27ff9453-53f2-4fae-b637-70a086c9df96
 description: IMReportSummaryTable 提供有关组织中进行的即时消息会话的总体报告。 此表在 Microsoft Lync Server 2013 中引入。
-ms.openlocfilehash: 539afa3a743ec391273a3023ac592f98c9157a58
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 41856ffd49029f627fd9af93c5bbe296cddd429a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635196"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746668"
 ---
 # <a name="imreportsummary-table-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的 IMReportSummary 表
  
 IMReportSummaryTable 提供有关组织中进行的即时消息会话的总体报告。 此表在 Microsoft Lync Server 2013 中引入。
   
-|**列**|**数据类型**|**键/索引**|**Details**|
+|**列**|**数据类型**|**键/索引**|**详细信息**|
 |:-----|:-----|:-----|:-----|
 |**StartTime** <br/> |datetime  <br/> |主  <br/> |即时消息会话开始的日期和时间。  <br/> |
 |**TimePeriod** <br/> |char (1)   <br/> |主  <br/> ||

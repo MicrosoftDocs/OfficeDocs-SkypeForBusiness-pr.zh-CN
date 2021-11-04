@@ -1,7 +1,7 @@
 ---
 title: 呼叫允许控制设置扩展器
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: dc94f75e-9abe-4e02-b835-3c845b317d65
 ROBOTS: NOINDEX, NOFOLLOW
 description: 呼叫允许控制 (CAC) 是区域、站点和子网的网络，通过它可基于可用带宽对音频和视频传输设置限制。为 CAC 配置网络后，必须启用 CAC 以强制实施带宽限制。
-ms.openlocfilehash: d60bda383db4c1bdedcd125d3f206a5c8a8eee70
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 43e5fe0926c94977c2d19a7e5deccf83cb914799
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579176"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60752371"
 ---
 # <a name="call-admission-control-settings-expander"></a>呼叫允许控制设置扩展器
  
@@ -31,7 +31,7 @@ ms.locfileid: "58579176"
   
 在站点的 **“编辑属性”** 对话框的 **“呼叫允许控制设置”** 部分中，可以更改以下设置：
   
-- **启用呼叫允许控制** 选择此设置可启用 CAC。 清除此设置可禁用整个网络的 CAC。 若要启用 CAC，必须为 CAC 配置网络。 有关详细信息，请参阅部署[文档中Skype for Business Server](../../../deploy/deploy-enterprise-voice/deploy-call-admission-control.md)中的部署呼叫允许控制。
+- **启用呼叫允许控制** 选择此设置可启用 CAC。 清除此设置可禁用整个网络的 CAC。 若要启用 CAC，必须为 CAC 配置网络。 有关详细信息，请参阅部署[文档中Skype for Business Server](../../../deploy/deploy-enterprise-voice/deploy-call-admission-control.md)部署呼叫允许控制。
     
 - **运行呼叫允许控制的前端池** 如果启用 CAC，可以更改运行它的池。 从下拉列表中选择池。
     

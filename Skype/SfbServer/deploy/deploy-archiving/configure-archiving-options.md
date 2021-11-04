@@ -1,7 +1,7 @@
 ---
 title: 配置存档的存档Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,20 +12,20 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 2f534697-ac7f-45b7-8cdc-ba67f052223b
 description: 摘要：阅读本主题，了解如何配置用于存档Skype for Business Server。 您最初在部署存档时设置存档配置，但您可以在部署后更改、添加和删除配置。
-ms.openlocfilehash: 186c6f656931b4ef5c1ad04363bc8bef132f1108
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b27a6bdd85b935b0751abf3da2bac94488234cdb
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611301"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749511"
 ---
 # <a name="configure-archiving-options-for-skype-for-business-server"></a>配置存档的存档Skype for Business Server
  
-**摘要：** 阅读本主题，了解如何为存档配置初始存档Skype for Business Server。 您最初在部署存档时设置存档配置，但您可以在部署后更改、添加和删除配置。
+**摘要：** 阅读本主题，了解如何为存档配置初始Skype for Business Server。 您最初在部署存档时设置存档配置，但您可以在部署后更改、添加和删除配置。
   
 若要配置初始存档配置，Skype for Business Server控制面板指定以下内容：
   
-- 在部署数据库时默认创建的全局Skype for Business Server
+- 部署数据库时默认创建的全局Skype for Business Server
     
 - 指定如何为特定站点实施存档的可选站点级别配置
     
@@ -48,11 +48,11 @@ ms.locfileid: "58611301"
 > [!NOTE]
 > 在启用存档之前，应指定所有适当的选项。 
   
-有关如何实施存档配置（包括可以指定哪些选项以及存档配置的层次结构）的详细信息，请参阅 Plan [for archiving in Skype for Business Server](../../plan-your-deployment/archiving/archiving.md)。 有关如何使用控制面板或 Windows PowerShell 部署后管理配置的详细信息，请参阅管理 Skype for Business Server 中的[存档选项](../../manage/archiving/options.md)。
+有关如何实施存档配置（包括可以指定哪些选项以及存档配置的层次结构）的详细信息，请参阅 Plan [for archiving in Skype for Business Server](../../plan-your-deployment/archiving/archiving.md)。 有关如何使用控制面板或部署后管理配置的详细信息，请参阅管理Windows PowerShell中的存档[Skype for Business Server。](../../manage/archiving/options.md)
   
 ## <a name="configure-global-level-archiving-options"></a>配置全局级别存档选项
 
-向拓扑中添加存档并发布拓扑时，Skype for Business Server创建存档的全局配置。 默认情况下，全局配置中不启用任何存档选项。 除非您自己设置站点或池配置（这将重写全局配置），否则全局配置将控制要为整个部署启用的选项。
+向拓扑中添加存档并发布拓扑时，Skype for Business Server创建用于存档的全局配置。 默认情况下，全局配置中不启用任何存档选项。 除非您自己设置站点或池配置（这将重写全局配置），否则全局配置将控制要为整个部署启用的选项。
   
 在全局级别配置存档选项：
   

@@ -1,7 +1,7 @@
 ---
-title: 更改存档数据库中的存档Skype for Business Server
+title: 更改存档数据库中的Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,31 +12,31 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: dbebaa0a-f3a2-4dbd-b64e-07a62370f899
 description: 摘要：了解如何更改存档数据库的存档Skype for Business Server。
-ms.openlocfilehash: 6fecfb4a10020c031ccd2b6ccebda1b016fd24ba
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 240d590b7f22e4756351939be6ecab55ea108b79
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580696"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767930"
 ---
-# <a name="change-archiving-database-options-in-skype-for-business-server"></a>更改存档数据库中的存档Skype for Business Server
+# <a name="change-archiving-database-options-in-skype-for-business-server"></a>更改存档数据库中的Skype for Business Server
 
 **摘要：** 了解如何更改存档数据库的存档Skype for Business Server。
   
-如果使用存档存储SQL Server部署存档，以便为任何用户存档存储，您可以进行以下数据库存储更改：
+如果使用存档存储为SQL Server部署存档，您可以进行以下数据库存储更改：
   
 - 使用不同的数据库SQL Server存档存储。 这包括主存档数据库和用于镜像SQL Server数据库。
     
-- 切换到 Microsoft Exchange集成以将存档数据和文件存储在Exchange服务器上。 如果您的所有用户都位于 Exchange 服务器上，并且您希望对部署中的所有用户使用 Microsoft Exchange 存储，您应从拓扑中删除 SQL Server 存储数据库。 
+- 切换到 Microsoft Exchange集成，以将存档数据和文件存储在Exchange服务器上。 如果您的所有用户都位于 Exchange 服务器上，并且您希望对部署中的所有用户使用 Microsoft Exchange 存储，您应该从拓扑中删除 SQL Server 存储数据库。 
     
-若要进行上述任一更改，必须运行拓扑生成器，进行更改，然后再次发布拓扑。 不要指定存档 **SQL Server存储** 或启用SQL Server存储 **镜像** 信息，除非Skype for Business这些用户未Exchange服务器。
+若要进行上述任一更改，必须运行拓扑生成器，进行更改，然后再次发布拓扑。 不要指定存档 **SQL Server存储** 或启用SQL Server存储 **镜像** 信息，Skype for Business这些用户未位于Exchange服务器上。
   
 ## <a name="change-archiving-database-options"></a>更改存档数据库选项
 
-1. 在运行 Skype for Business Server 或安装了 Skype for Business Server 管理工具的计算机上，使用作为本地 Users 组 (成员的帐户或具有同等用户权限的帐户) 登录。
+1. 在运行 Skype for Business Server 或安装了 Skype for Business Server 管理工具的计算机上，使用作为本地 Users 组 (成员的帐户或具有同等用户权限) 的帐户登录。
     
     > [!NOTE]
-    > 可以使用作为本地 Users 组的成员的帐户定义拓扑，但要发布拓扑（向拓扑中添加组件需要此拓扑， 您必须使用作为 **Domain Admins** 组和 **RTCUniversalServerAdmins** 组的成员，并且对要用于 Skype for Business Server 文件存储 (的文件共享具有完全控制权限 (即读取、写入和修改) 的帐户，以便拓扑生成器可以配置所需的任意访问控制列表 (DACLs) 或具有同等权限的帐户。
+    > 您可以使用作为本地 Users 组的成员的帐户来定义拓扑，但若要发布拓扑（向拓扑中添加组件是必需的）必须使用 Domain **Admins** 组和 **RTCUniversalServerAdmins** 组的成员且具有完全控制权限的帐户 (即， 读取、写入和修改用于 Skype for Business Server 文件存储 (的文件共享上的) ，以便拓扑生成器可以配置所需的随意访问控制列表 (DACLs) ，或具有同等权限的帐户。
   
 2. 启动拓扑生成器。
     
@@ -58,13 +58,13 @@ ms.locfileid: "58580696"
     
      - 若要使用现有 SQL Server 存储，请在下拉列表框中，单击要使用的 SQL Server 存储的名称。
     
-     - 若要指定新的SQL Server，请单击"新建"，然后在"定义新的SQL Server **应用商店**"对话框中，执行以下操作：
+     - 若要指定新的SQL Server，请单击"新建"，然后在"定义新的 SQL Server **应用商店**"对话框中，执行以下操作：
     
        - 在 **SQL Server FQDN** 中，指定要创建新的数据库存储SQL Server FQDN。
     
        - 单击“默认实例”以使用默认的实例，或者，若要指定其他实例，请单击“命名实例”，然后指定要使用的实例。
     
-       - 如果指定的SQL Server实例位于镜像关系中，请选中"此 **SQL** 实例位于镜像关系中"复选框，然后在"镜像端口号"中指定端口号。 
+       - 如果指定的SQL Server实例位于镜像关系中，请选中"此 **SQL 实例** 位于镜像关系中"复选框，然后在"镜像端口号"中指定端口号。 
     
    - 若要添加用于镜像的 SQL Server 存储或将其他现有 SQL Server 存储用于 SQL Server 存储镜像，请选择“启用 SQL Server 存储镜像”，然后执行下列操作：
     
@@ -76,15 +76,15 @@ ms.locfileid: "58580696"
     
        b. 单击“默认实例”以使用默认的实例，或者，若要指定其他实例，请单击“命名实例”，然后指定要使用的实例。
     
-       c. 如果指定的SQL Server实例位于镜像关系中，请选中"此 **SQL** 实例位于镜像关系中"复选框，然后在"镜像端口号"中指定端口号。 
+       c. 如果指定的SQL Server实例位于镜像关系中，请选中"此 **SQL 实例** 位于镜像关系中"复选框，然后在"镜像端口号"中指定端口号。 
     
-   - 如果启用 SQL Server 镜像，并且要添加或更改 SQL Server 镜像见证 (第三个单独的 SQL Server 实例，可以检测主 SQL Server 服务器和镜像实例) 的运行状况，请选中"使用 **SQL Server** 镜像见证启用自动故障转移"复选框，然后执行下列操作之一：
+   - 如果启用 SQL Server 镜像，并且希望添加或更改 SQL Server 镜像见证 (第三个单独的 SQL Server 实例，该实例可以检测主 SQL Server 服务器和镜像实例) 的运行状况，请选中"使用 **SQL Server** 镜像见证启用自动故障转移"复选框，d 然后执行下列操作之一：
     
-      a. 在 **SQL Server FQDN** 中，指定要创建新的镜像见证服务器SQL Server FQDN。
+      a. 在 **SQL Server FQDN"** 中，指定要创建新的镜像见证服务器SQL Server FQDN。
     
       b. 单击“默认实例”以使用默认的实例，或者，若要指定其他实例，请单击“命名实例”，然后指定要用于镜像见证的实例。
     
-      c. 如果指定的SQL Server实例位于镜像关系中，请选中"此 **SQL** 实例位于镜像关系中"复选框，然后在"镜像端口号"中指定端口号。 
+      c. 如果指定的SQL Server实例位于镜像关系中，请选中"此 **SQL 实例** 位于镜像关系中"复选框，然后在"镜像端口号"中指定端口号。 
     
    - 若要切换到 Microsoft Exchange 集成以将存档数据和文件存储在 Exchange 服务器上 (如果部署中的所有用户都位于 Exchange 服务器上) ，请删除存档数据库的所有信息。
     
@@ -94,7 +94,7 @@ ms.locfileid: "58580696"
 8. 若要保存配置，请单击“确定”。
     
     > [!IMPORTANT]
-    > 在发布新拓扑之前，在拓扑生成器中所做的更改不会生效。 有关详细信息，请参阅 Add [archiving databases to an existing deployment in Skype for Business Server。](../../deploy/deploy-archiving/add-archiving-databases.md) 
+    > 在发布新拓扑之前，在拓扑生成器中所做的更改不会生效。 有关详细信息，请参阅 Add [archiving databases to an existing deployment in Skype for Business Server](../../deploy/deploy-archiving/add-archiving-databases.md)。 
   
 ## <a name="change-the-location-of-the-archiving-database-by-using-windows-powershell"></a>使用"存档"选项更改存档数据库Windows PowerShell
 

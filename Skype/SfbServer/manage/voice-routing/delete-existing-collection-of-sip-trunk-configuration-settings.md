@@ -1,7 +1,7 @@
 ---
 title: Skype for Business Server - 删除 SIP 中继配置设置的现有集合
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 'SIP 中继配置设置定义了中介服务器和服务提供商的公用电话交换网 (PSTN) 网关、IP 公用交换机 (PBX) 或会话边界控制器 (SBC) 之间的关系和功能。 '
-ms.openlocfilehash: 8e69d1582238800e58c354c961037954c2757e06
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 09e51dd54401b761c448872545111e8bebf01599
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593596"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760610"
 ---
 # <a name="skype-for-business-server---delete-an-existing-collection-of-sip-trunk-configuration-settings"></a>Skype for Business Server - 删除 SIP 中继配置设置的现有集合
 
@@ -33,7 +33,7 @@ SIP 中继配置设置定义了中介服务器和服务提供商的公用电话�
 - 如果删除了服务作用域设置，由这些设置管理的 SIP 中继将由应用于这些站点的设置（如果存在）管理。如果站点设置不存在，这些中继随后会由中继配置设置的全局集合管理。
 - 如果删除了站点作用域设置，由这些设置管理的任何 SIP 中继都将立即由中继配置设置的全局集合管理。
 
-**使用"控制面板"删除Skype for Business Server配置设置** 
+**使用控制面板删除中继Skype for Business Server设置** 
 
 1. 在"Skype for Business Server控制面板"中，单击"**语音路由**"，然后单击"**中继配置"。**
 2. 在 **"Trunk 配置"** 选项卡上，选择要删除的 SIP 中继配置设置的集合，单击"编辑"，然后单击"删除 **"。** 若要在同一操作中删除多个集合，请单击第一个要删除的集合，然后按住 Ctrl 键并单击任何其他要删除的集合。

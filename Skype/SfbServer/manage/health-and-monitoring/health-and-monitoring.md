@@ -1,7 +1,7 @@
 ---
 title: 在管理中管理运行状况Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 0b9b44c4-06ad-4b89-b87d-62448f936ab8
 description: 摘要：了解 Skype for Business Server 中的监视和运行状况配置任务。
-ms.openlocfilehash: 563cda294cc3091f5d233e932623bc544b4e95cd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7484d28a3cf1ba457cf297d89c97fcb21e387be5
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581366"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767680"
 ---
 # <a name="manage-health-and-monitoring-in-skype-for-business-server"></a>在管理中管理运行状况Skype for Business Server
 
@@ -31,7 +31,7 @@ ms.locfileid: "58581366"
 
 - [ (QoE) 用户体验质量Skype for Business Server](quality-of-experience.md)
 
-- [监视移动功能，以在Skype for Business Server](monitor-mobility-performance.md)
+- [监视移动性能以Skype for Business Server](monitor-mobility-performance.md)
 
 - [使用监控报告中Skype for Business Server](monitoring-reports.md)
 

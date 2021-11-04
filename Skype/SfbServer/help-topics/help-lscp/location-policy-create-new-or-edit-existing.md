@@ -1,7 +1,7 @@
 ---
 title: 位置策略 创建新的或编辑现有的
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/24/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: d9b30b3b-570b-49a6-b2b4-46b0cf490153
 description: 可以配置位置策略以确定增强型 9-1-1 (E9-1-1) 是否已启用，如何使用它，以及如何将位置信息用于用户和联系人。
-ms.openlocfilehash: 53af748db0c5a3ea2a8df8fe0aa19e58cb39e7d7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1a52d74a6131ee22a47d3e59cdff4c220a3d86cb
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582916"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760890"
 ---
 # <a name="location-policy-create-new-or-edit-existing"></a>位置策略：创建新的或编辑现有的
 
@@ -49,11 +49,11 @@ ms.locfileid: "58582916"
 
 - **仅对 E9-1-1 使用位置** 如果位置信息仅用于紧急呼叫，请选中此复选框。
 
-- **PSTN 用法** 选择公用电话交换网 (PSTN) 用法，该用法将用于确定哪个语音路由将用于路由来自使用此配置文件的客户端的紧急呼叫。 与此用法关联的路由应指向专用于紧急呼叫的 SIP 中继或紧急位置标识号 (ELIN) 网关，该网关将紧急呼叫路由到最近的公共安全应答点 (PSAP) 。 选项有 **Internal、Local** 或 **Long distance。** 
+- **PSTN 用法** 选择公用电话交换网 (PSTN) 用法，该用法将用于确定将使用哪个语音路由来自使用此配置文件的客户端的紧急呼叫。 与此用法关联的路由应指向专用于紧急呼叫的 SIP 中继或紧急位置标识号 (ELIN) 网关，该网关将紧急呼叫路由到最近的公共安全应答点 (PSAP) 。 选项有 **Internal、Local** 或 **Long distance。** 
 
 - **E9-1-1 拨号号码** 指定为获得紧急服务而拨打的号码。
 
-- **E9-1-1 拨号掩码** 指定用户拨打的号码，然后转换为紧急拨号号码。 例如，在此字段中输入值 212，以便用户可以拨打 212 来访问紧急服务。 这样，可以拨打备用紧急号码，并且仍可将呼叫联系紧急服务 (例如，来自具有不同紧急号码的某个国家/地区或地区的用户尝试拨打该国家/地区的号码，而不是当前位于) 中的某个国家/地区的号码。 您可以通过使用分号分隔值来定义多个紧急拨号掩码。 例如，212;414。 字符串的最大长度为 100 个字符。 每个字符都必须为 0 到 9 的数字。
+- **E9-1-1 拨号掩码** 指定用户拨打的号码，然后转换为紧急拨号号码。 例如，在此字段中输入值 212，以便用户可以拨打 212 来访问紧急服务。 这样，可以拨打备用紧急号码，但仍使呼叫到达紧急服务 (例如，如果来自具有不同紧急号码的某个国家/地区或地区的某人尝试拨打该国家/地区的号码，而不是当前位于) 中的某个国家/地区的号码。 您可以通过使用分号分隔值来定义多个紧急拨号掩码。 例如，212;414。 字符串的最大长度为 100 个字符。 每个字符都必须为 0 到 9 的数字。
 
     > [!IMPORTANT]
     > 确保拨号掩码与呼叫号码范围中的号码不同，因为呼叫呼叫停止路由优先于紧急拨号字符串转换。 To see the Call Park number ranges， click **Voice Features** in the left navigation bar， and then click **Call Park**.
@@ -68,4 +68,4 @@ ms.locfileid: "58582916"
 
   - **双向** 指定第三方可以参与呼叫者与 PSAP 接线员之间的呼叫。
 
-有关紧急企业语音功能的详细信息，请参阅规划文档中的 Overview of [E9-1-1。](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-e9-1-1) 有关使用位置策略的详细信息，请参阅操作文档中的[Configuring Location Policy](/previous-versions/office/lync-server-2013/lync-server-2013-viewing-location-policy-information)。
+有关紧急企业语音功能的详细信息，请参阅规划文档中的[Overview of E9-1-1。](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-e9-1-1) 有关使用位置策略的详细信息，请参阅操作文档中的[Configuring Location Policy](/previous-versions/office/lync-server-2013/lync-server-2013-viewing-location-policy-information)。

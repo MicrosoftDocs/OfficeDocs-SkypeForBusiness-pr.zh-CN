@@ -1,7 +1,7 @@
 ---
 title: 证书请求（证书颁发机构帐户）
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 6251322d-ac36-4760-b467-bcd543af22aa
 ROBOTS: NOINDEX, NOFOLLOW
 description: 为了提交请求，证书颁发机构 (CA) 可能需要与当前登录的用户身份不同的凭据。
-ms.openlocfilehash: 494ca750bf0ac6ba505f04c8c4ee594272c10670
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f538914f4ca755bd7f7db4ba4e264ce9135da292
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58588934"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749323"
 ---
 # <a name="certificate-request-certificate-authority-account"></a>证书请求（证书颁发机构帐户）
  

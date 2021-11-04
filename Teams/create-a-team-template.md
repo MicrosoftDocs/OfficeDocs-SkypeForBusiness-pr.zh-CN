@@ -1,7 +1,7 @@
 ---
 title: 在 Microsoft Teams 中创建自定义团队模板
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 ms.reviewer: aaglick
 manager: serdars
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c3c388ab19d74370612531e3ac998ff3e928e0d3
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: b7f3574121bb056208748be522af0b9a5f744846
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726891"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749691"
 ---
 # <a name="create-a-custom-team-template-in-microsoft-teams"></a>在 Microsoft Teams 中创建自定义团队模板
 
@@ -56,7 +56,7 @@ ms.locfileid: "58726891"
 6. 在 **"频道、选项卡** 和应用"部分中，添加团队所需的任何频道和应用。
 
     1. 在"**频道"部分中**，选择"**添加"。**
-    2. 在" **添加"** 对话框中，为通道命名。
+    2. 在" **添加"** 对话框中，为频道命名。
     3. 添加说明。
     4. 确定是否默认应显示通道。
     5. 搜索要添加到通道的应用名称。
@@ -106,7 +106,7 @@ ms.locfileid: "58726891"
 
 ![浏览器错误消息。](media/browser-error-message.png)
 
-解决方案：如果您在查看网站选项卡的内容时遇到问题，您将重定向到在单独的网页中打开该选项卡，或者改为在桌面应用中打开 Teams 以查看您的网站选项卡应用。
+解决方案：如果查看网站选项卡的内容时遇到问题，将重定向到在单独的网页中打开该选项卡，或者改为在桌面应用中打开 Teams 以查看网站选项卡应用。
 
 ## <a name="related-topics"></a>相关主题
 

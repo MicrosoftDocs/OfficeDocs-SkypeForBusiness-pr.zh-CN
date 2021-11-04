@@ -1,7 +1,7 @@
 ---
 title: Skype for Business Server：配置无媒体旁路的中继
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3422e93e-7bd2-4470-968c-dc38345b18ca
 description: 摘要：配置未启用媒体旁路功能的中继Skype for Business Server。
-ms.openlocfilehash: 2f6edcf34f7da82da53ca10b523468b4ba794209
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 09d178cf2deeb27ec47c39090f7dcc233af3cbb0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590576"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759114"
 ---
 # <a name="skype-for-business-server-configure-a-trunk-without-media-bypass"></a>Skype for Business Server：配置无媒体旁路的中继
 
@@ -48,11 +48,11 @@ ms.locfileid: "58590576"
    - **池 Trunk**：在“选择服务”中选择此中继配置应用于的中继的名称，然后单击“确定”。 此中继可以是根中继，或者是拓扑生成器中定义的任何附加中继。 请注意，如果已经为特定中继创建了中继配置，则该中继不会显示在“选择服务”中。
 
      > [!NOTE]
-     > 选择中继配置的作用域后，无法对其进行更改。 **>"名称**"字段会使用中继配置的关联站点或服务的名称预先填充，并且无法更改。
+     > 选择中继配置的作用域后，无法对其进行更改。 >" **名称** "字段会使用中继配置的关联站点或服务的名称预先填充，并且无法更改。
 
 4. 选择以下“加密支持级别”选项之一：
 
-   - **必需**：必须使用安全实时传输协议 (SRTP) 加密来帮助保护中介服务器与网关或专用交换机与 PBX (之间的通信) 。
+   - **必需**：必须使用安全实时传输协议 (SRTP) 加密来帮助保护中介服务器与网关或专用交换机 PBX (之间的通信) 。
 
    - **可选**：如果服务提供商或设备制造商支持 SRTP，则使用 SRTP 加密。
 
@@ -66,7 +66,7 @@ ms.locfileid: "58590576"
 
 8. （可选）若要启用中继间路由，请对此中继配置关联和配置 PSTN 用法记录。 与此中继配置关联的 PSTN 用法将应用于通过并非来自 Skype for Business Server 终结点的中继的所有传入呼叫。 若要管理与中继配置关联的 PSTN 用法记录，请使用以下方法之一：
 
-   - 若要从部署中提供的所有 PSTN 用法记录列表中选择一个或多个企业语音，请单击"选择 **"。** 突出显示要与此中继配置关联的记录，然后单击“确定”。
+   - 若要从部署中提供的所有 PSTN 用法记录列表中选择一个或多个企业语音，请单击"**选择"。** 突出显示要与此中继配置关联的记录，然后单击“确定”。
 
    - 要删除此中继配置中的某个 PSTN 用法记录，请选择相应的记录，然后单击“删除”。
 
@@ -81,7 +81,7 @@ ms.locfileid: "58590576"
 
      c. 使用以下方法之一为此 PSTN 用法记录关联和配置路由：
 
-     - 若要从部署中所有可用路由列表中选择一个或多个路由企业语音，请单击"选择 **"。** 突出显示要与此 PSTN 用法记录相关联的路由，然后单击“确定”。
+     - 若要从部署中所有可用路由列表中选择一个或多个企业语音，请单击"选择 **"。** 突出显示要与此 PSTN 用法记录相关联的路由，然后单击“确定”。
 
      - 要删除 PSTN 用法记录中的某个路由，请选择相应的路由，然后单击“删除”。
 
@@ -97,7 +97,7 @@ ms.locfileid: "58590576"
 
      b. 使用以下方法之一为此 PSTN 用法记录关联和配置路由：
 
-     - 若要从部署中所有可用路由列表中选择一个或多个路由企业语音，请单击"选择 **"。** 突出显示要与此 PSTN 用法记录相关联的路由，然后单击“确定”。
+     - 若要从部署中所有可用路由列表中选择一个或多个企业语音，请单击"选择 **"。** 突出显示要与此 PSTN 用法记录相关联的路由，然后单击“确定”。
 
      - 要删除 PSTN 用法记录中的某个路由，请选择相应的路由，然后单击“删除”。
 
@@ -119,15 +119,15 @@ ms.locfileid: "58590576"
 
 11. **应选择"** 启用前向呼叫历史记录"以允许将呼叫历史记录信息发送到中介服务器的对等网关。
 
-12. 应选择"启用转发 **P-Asserted-Identity** 数据"，以使 PAI 呼叫发起方信息可以在中介服务器端和网关端 (（如果) ）转发。
+12. 应选择"启用转发 **P-Asserted-Identity** 数据"，以使 PAI 呼叫发起方信息可以在中介服务器端和网关端 (（如果) ）进行转发。
 
 13. 应选择“启用出站路由故障转移计时器”以支持快速故障转移。 与此中继关联的网关可以在 10 秒内发出正在处理出站呼叫的通知。 如果中介服务器未收到此通知，将重新路由到另一个中继。 在延迟设置可能延迟响应时间或网关需要 10 秒以上时间进行响应的网络中，应禁用快速故障转移。
 
 14. （可选）关联和配置中继的“呼叫号码转换规则”。这些转换规则适用于出站呼叫的呼叫号码
 
-    - 若要从您的部署中提供的所有转换规则列表中选择一个或多个企业语音，请单击"选择 **"。** 在“选择转换规则”中，单击要与中继关联的规则，然后单击“确定”。
+    - 若要从您的部署中提供的所有转换规则列表中选择一个或多个企业语音，请单击"**选择"。** 在“选择转换规则”中，单击要与中继关联的规则，然后单击“确定”。
 
-    - 要定义新的转换规则并将其与中继关联，请单击“新建”。 有关转换规则的详细信息，请参阅 Translation [rules in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md)。
+    - 要定义新的转换规则并将其与中继关联，请单击“新建”。 有关转换规则的详细信息，请参阅 translation [rules in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md)。
 
     - 要编辑已经与中继关联的转换规则，请单击相应的规则名称，然后单击“显示详细信息”。
 
@@ -140,9 +140,9 @@ ms.locfileid: "58590576"
 
 15. （可选）关联和配置中继的“已呼叫号码转换规则”。这些转换规则适用于出站呼叫中的已呼叫号码。
 
-    - 若要从您的部署中提供的所有转换规则列表中选择一个或多个企业语音，请单击"选择 **"。** 在“选择转换规则”中，单击要与中继关联的规则，然后单击“确定”。
+    - 若要从您的部署中提供的所有转换规则列表中选择一个或多个企业语音，请单击"**选择"。** 在“选择转换规则”中，单击要与中继关联的规则，然后单击“确定”。
 
-    - 要定义新的转换规则并将其与中继关联，请单击“新建”。 有关转换规则的详细信息，请参阅 Translation [rules in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md)。
+    - 要定义新的转换规则并将其与中继关联，请单击“新建”。 有关转换规则的详细信息，请参阅 translation [rules in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md)。
 
     - 要编辑已经与中继关联的转换规则，请单击相应的规则名称，然后单击“显示详细信息”。
 

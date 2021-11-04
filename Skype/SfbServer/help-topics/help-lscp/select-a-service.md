@@ -1,7 +1,7 @@
 ---
 title: 选择一个服务
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/24/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: b6086162-8a41-4e75-afa3-7d1889ffdc90
 description: 使用"选择服务"对话框查找环境中可用的服务。 要使用现有服务，请单击列表中的某个服务，然后单击“确定”。
-ms.openlocfilehash: c56da3540ba7a7563092bee8275f67f4401192ec
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fc4f3f7c52bc1cb97b4f67c999fa0b417c71d053
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595766"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60752151"
 ---
 # <a name="select-a-service"></a>选择一个服务
 
@@ -42,7 +42,7 @@ ms.locfileid: "58595766"
 
 ## <a name="to-configure-categories-for-chat-rooms"></a>配置聊天室的类别
 
-在 **"选择服务**"中，选择与需要创建类别的持久聊天服务器池对应的服务。 该服务是持久聊天服务器池，持久聊天 (客户端) 该类别所属的池。 类别只能属于一个持久聊天服务器池，并且不能移动到另一个池，也不能与另一个池共享。
+在 **"选择服务**"中，选择与需要创建类别的持久聊天服务器池对应的服务。 该服务是持久聊天服务器池，持久聊天 (客户端) 用于标识类别所属的池。 类别只能属于一个持久聊天服务器池，并且不能移动到另一个池，也不能与另一个池共享。
 
 ## <a name="to-configure-add-ins-for-chat-rooms"></a>配置聊天室外接程序
 

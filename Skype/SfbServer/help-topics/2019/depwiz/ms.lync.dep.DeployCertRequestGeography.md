@@ -1,7 +1,7 @@
 ---
 title: C证书请求（地理位置）
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: aef0110c-b4b0-453c-a2dd-602372e64952
 ROBOTS: NOINDEX, NOFOLLOW
 description: “地理信息”页要求提供证书请求的其他信息。在此页上，选择“国家/地区”，然后在文本框中键入“省/市/自治区”和“市/县”。请注意，应避免使用缩写，并拼写出省/市/自治区和市/县的完整名称。
-ms.openlocfilehash: 87c5445a0b41452b1c641f88c13e4d65da2d49bf
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 270e92d16c4b38dd0aed1a95e5169e1b1556ae52
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58588894"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749303"
 ---
 # <a name="certificate-request-geography"></a>证书请求（地理位置）
  

@@ -1,7 +1,7 @@
 ---
 title: 贵组织为 Microsoft Teams 准备到什么程度？
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dd526f78a04bc71b2992aa8f3f0bcd15b3b77df0
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 24f52433e3b52b728873d13eb06db65d8ecbaa60
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726761"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760410"
 ---
 # <a name="how-ready-is-your-organization-for-microsoft-teams"></a>贵组织为 Microsoft Teams 准备到什么程度？
 
@@ -44,7 +44,7 @@ ms.locfileid: "58726761"
 2. 评价此领导对当前技术的满意度。
 3. 此领导是否愿意使用未经批准的技术来加速结果或为团队成员创造更好的体验？
 4. 此领导者在提供关键业务结果方面是否承受了巨大压力？ 
-5. 此领导愿意宣传他/她与Teams，以帮助进行过渡？
+5. 此领导愿意宣传他/她在Teams的经验来帮助进行过渡吗？
 6. 此主管是否与现有项目团队的关键成员具有积极的关系？
 7. 此领导是否希望被视为组织内部的"更改代理"？  
 
@@ -70,11 +70,11 @@ ms.locfileid: "58726761"
  
 ## <a name="assess-your-organizations-readiness-for-change"></a>评估组织的更改准备情况
 
-更改是一个人工过程，与技术无关。 存在行为相信和认知科学，它向我们宣传了对变化的自然障碍。 若要使更改可接受，请务必预测用户的需求，表达你了解其情况，并创建可改善这种情况的解决方案。 即使这样做，也会遇到自然的变化障碍。  
+更改是一个人工过程，与技术无关。 存在行为相信和认知科学，可让我们了解改变的自然障碍。 若要使更改可接受，请务必预测用户的需求，表达你了解其情况，并创建可改善这种情况的解决方案。 即使这样做，也会遇到自然的变化障碍。  
 
 ![Graph改变的耐性。](media/teams-adoption-resistance.png)
 
-每个组织的方法根据区域、工作风格、职业配置文件和组织的其他元素而异。 若要评估组织的准备情况，请参阅 [评估组织变更就绪情况](upgrade-org-change-readiness.md)。 使用指南回答以下问题：
+每个组织的方法各不相同，具体取决于区域、工作风格、职业配置文件和组织的其他元素。 若要评估组织的准备情况，请参阅 [评估组织变更就绪情况](upgrade-org-change-readiness.md)。 使用指南回答以下问题：
 
 1. 每个存储桶中的用户占什么百分比？  (*抗更改)*
     - **早期采用者**：在解决方案可用之前请求解决方案。

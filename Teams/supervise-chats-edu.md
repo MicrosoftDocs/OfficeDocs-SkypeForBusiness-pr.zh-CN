@@ -1,7 +1,7 @@
 ---
 title: 使用监督聊天
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: angch
 ms.topic: article
@@ -15,12 +15,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解会议中监督Microsoft Teams聊天。
-ms.openlocfilehash: fcf2a14b2c05f657a3342c6a0a193b841df4ce27
-ms.sourcegitcommit: 689387de6a07e3f50b3ea65b33bda6960cf30356
+ms.openlocfilehash: 0d2b727ab28577e8d7d9ed6d935afeab38560d94
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/07/2021
-ms.locfileid: "60216010"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748998"
 ---
 # <a name="supervised-chats-in-microsoft-teams"></a>在对话中监督Microsoft Teams
 
@@ -28,7 +28,7 @@ ms.locfileid: "60216010"
 
 监督式聊天允许指定的教师发起与学生的聊天，并阻止学生开始新聊天，除非有合适的教师。 启用聊天监督后，主管不允许离开聊天，不允许其他参与者删除聊天，从而确保涉及学生的聊天受到适当的监督。
 
-这些限制仅适用于在完全启用监督聊天后创建的新私人聊天。 它们不适用于现有私人聊天、会议聊天或频道。 若要了解有关会议聊天、频道安全和确保学生安全方面最佳做法，请观看使用视频时确保学生[Teams。](https://support.microsoft.com/topic/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8?ui=en-us&rs=en-us&ad=us#ID0EBBAAA=For_educators&ID0EDD=For_educators)
+这些限制仅适用于在完全启用监督聊天后创建的新私人聊天。 它们不适用于现有私人聊天、会议聊天或频道。 若要详细了解会议聊天、频道安全和确保学生安全[的最佳](https://support.microsoft.com/topic/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8?ui=en-us&rs=en-us&ad=us#ID0EBBAAA=For_educators&ID0EDD=For_educators)做法，请观看使用视频时确保学生Teams。
 
 > [!Note]
 > 监督聊天保护在强制实施该功能后创建的新聊天。  它不会保护现有聊天。
@@ -62,7 +62,7 @@ ms.locfileid: "60216010"
 
 若要设置用户的聊天权限角色，请使用管理员门户中消息策略选项内找到的聊天权限Teams策略。 可以使用 PowerShell 通过 ChatPermissionRole 策略定义角色，其值为 Full、Limited 或 Restricted。 此策略位于 CsTeamsMessagingPolicy 下。
 
-详细了解设置。 Teams策略，Teams适用于教育的策略和策略包和向大量用户分配策略指南。
+详细了解设置。 Teams策略请参阅Teams教育的策略和策略包和向大量用户分配策略指南。
 
 无法将角色分配给租户中的来宾。 为来宾分配受限角色。
 
@@ -86,4 +86,4 @@ ms.locfileid: "60216010"
 
 ## <a name="related-topics"></a>相关主题
 
-[在教育中Teams监督聊天](https://support.microsoft.com/topic/supervised-chats-in-microsoft-teams-for-education-ad3aaafc-c85a-416f-95f9-d691f419cbb8?storagetype=live)
+[针对教育Teams教师的监督聊天](https://support.microsoft.com/topic/supervised-chats-in-microsoft-teams-for-education-ad3aaafc-c85a-416f-95f9-d691f419cbb8?storagetype=live)

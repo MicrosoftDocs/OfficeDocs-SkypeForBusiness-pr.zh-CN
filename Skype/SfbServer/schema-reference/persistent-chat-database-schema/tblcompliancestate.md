@@ -1,7 +1,7 @@
 ---
 title: tblComplianceState
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ea82e56c-3cca-4d89-b4e6-6bcaeb1f2830
 description: tblComplianceState 包含池范围的合规性状态信息。
-ms.openlocfilehash: c96f43c27179d5dd933aeba7f1483be3e1f7ee7e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6b7f2af97ab25fc7ad2320921941cc7b1828aa1e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580396"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746518"
 ---
 # <a name="tblcompliancestate"></a>tblComplianceState
  

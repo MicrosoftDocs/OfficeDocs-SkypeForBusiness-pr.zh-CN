@@ -1,7 +1,7 @@
 ---
 title: 配置主管理服务器
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -12,21 +12,21 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
-description: 摘要：为 Skype for Business Server 2019 配置主管理服务器、安装 System Center Operations Manager 和导入管理包。
-ms.openlocfilehash: e5bbe28afbc3b579700686b1fab1af3f420dd83e
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+description: 摘要：为 2019 System Center主管理服务器、System Center Operations Skype for Business Server Manager 和导入管理包。
+ms.openlocfilehash: 8dd5b3ff94f393ccce88dd5a27bd8133810b4c1c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012536"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760340"
 ---
 # <a name="skype-for-business-server-configure-the-primary-management-server"></a>Skype for Business Server：配置主管理服务器
 
-**摘要：** 为 Skype for Business Server 2019 配置主管理服务器、安装 System Center Operations Manager 和导入管理包。
+**摘要：** 配置主管理服务器、System Center Operations Manager 和导入 2019 Skype for Business Server包。
 
-若要充分利用 Skype for Business Server 2019 中包含的新运行状况监视功能，必须先指定一台计算机作为主管理服务器。 然后必须在该计算机上安装 System Center Operations Manager 2012 SP1 或 R2 或 System Center Operations Manager 2007 R2。 此外，您必须先安装受支持的 SQL Server，以用作 Operations Manager 后端数据库。
+若要充分利用 Skype for Business Server 2019 中包含的新运行状况监视功能，必须先指定一台计算机作为主管理服务器。 然后，您必须System Center计算机上安装 Operations Manager 2012 SP1、R2 或 System Center Operations Manager 2007 R2。 此外，您必须先安装受支持的 SQL Server，以用作 Operations Manager 后端数据库。
 
-安装 System Center Operations Manager 时，将需要安装该产品的所有组件，包括：
+在 Operations Manager System Center时，需要安装该产品的所有组件，包括：
 
 - 操作数据库
 
@@ -38,46 +38,46 @@ ms.locfileid: "60012536"
 
 - Web 控制台
 
-- 报表
+- Reporting
 
 - 数据仓库
 
 > [!IMPORTANT]
-> 安装 System Center Operations Manager 2012 之前，必须安装 Microsoft Report Viewer 2010 可再发行软件包。
+> 必须先Microsoft Report Viewer 2010 可再发行软件包，然后才能System Center Operations Manager 2012。
 
-有关这些产品及其安装的详细信息，请参阅 System [Center Operations Manager 2012](/previous-versions/system-center/system-center-2012-R2/hh205987(v=sc.12))
+有关这些产品及其安装的详细信息，请参阅 System Center [Operations Manager 2012](/previous-versions/system-center/system-center-2012-R2/hh205987(v=sc.12))
 
-请记住，每个 Skype for Business Server 部署只能有一个根管理服务器。
+请记住，每个部署只能有一个根Skype for Business Server服务器。
 
 ## <a name="importing-the-skype-for-business-server-2019-management-packs"></a>导入 Skype for Business Server 2019 管理包
 
-可以通过安装管理包（指示 System Center Operations Manager 可以监视的项目、应监视这些项目以及触发和报告警报方式的软件）来扩展 System Center Operations Manager 的功能。 Skype for Business Server 2019 包括两个 System Center Operations Manager 管理包，它们提供以下功能：
+您可以通过安装管理包（指示 System Center Operations Manager 可以监视哪些项目、应监视这些项目以及如何触发和报告警报的软件）来扩展 System Center Operations Manager 的功能。 Skype for Business Server 2019 System Center两个 Operations Manager 管理包，它们提供以下功能：
 
-- 组件 **和** 用户管理包 (Microsoft.LS.2019.Monitoring.ComponentAndUser.mp) 跟踪事件日志中记录的 Skype for Business Server 问题、由性能计数器注册的问题，或记录在呼叫详细信息记录 (CDR) 或用户体验质量 (QoE) 数据库中的问题。 对于关键问题，可以将 System Center Operations Manager 配置为立即通过电子邮件、即时消息或短信通知管理员。  (短信服务是一种用于将短信从一个移动设备发送到另一个移动设备的技术。) 
+- 组件和用户管理包 **(Microsoft.LS.2019.Monitoring.ComponentAndUser.mp)** 跟踪事件日志中记录的 Skype for Business Server 问题、由性能计数器注册的问题，或记录在呼叫详细信息记录 (CDR) 或用户体验质量 (QoE) 数据库中的问题。 对于关键问题，System Center Operations Manager，以通过电子邮件、即时消息或短信立即通知管理员。  (短信服务是一种用于将短信从一个移动设备发送到另一个移动设备的技术。) 
 
     > [!NOTE]
     >  有关配置 Operations Manager 通知的详细信息，请参阅 [配置通知](/previous-versions/system-center/operations-manager-2007-r2/dd440890(v=technet.10))。
 
-- **Active Monitoring Management Pack** (Microsoft.LS.2019.Monitoring.ActiveMonitoring.mp) 主动测试关键的 Skype for Business Server 组件，例如登录系统、交换即时消息或呼叫位于公用电话交换网 (PSTN) 上的电话。 这些测试使用 Skype for Business Server 综合事务 cmdlet 执行。 例如，**Test-CsIM** cmdlet 可用来模拟一对测试用户之间的即时消息对话。 如果此模拟对话失败，将生成警报。
+- **Active Monitoring Management Pack** (Microsoft.LS.2019.Monitoring.ActiveMonitoring.mp) 可主动测试关键的 Skype for Business Server 组件，例如登录系统、交换即时消息或呼叫位于公用电话交换网 (PSTN) 上的电话。 这些测试通过使用综合事务 cmdlet Skype for Business Server执行。 例如，**Test-CsIM** cmdlet 可用来模拟一对测试用户之间的即时消息对话。 如果此模拟对话失败，将生成警报。
 
-导入管理包是一个关键步骤。 如果未导入管理包，你将不能使用 Operations Manager 监视 Skype for Business Server 事件或运行 Skype for Business Server 综合事务。
+导入管理包是一个关键步骤。 如果未导入管理包，则将无法使用 Operations Manager 监视事件Skype for Business Server或运行Skype for Business Server事务。
 
-组件和用户管理包仅用于监视 Skype for Business Server 2019。 如果同时安装了 Skype for Business Server 2019 和 Skype for Business Server 2015 的共存方案，你应该继续使用 Skype for Business Server 2015 计算机 Skype for Business Server 2015 管理包。
+Component and User Management Pack is used to monitor only Skype for Business Server 2019. 如果您同时安装了 Skype for Business Server 2019 和 Skype for Business Server 2015 的共存方案，您应该继续使用 Skype for Business Server 2015 计算机的 Skype for Business Server 2015 管理包。
 
 > [!NOTE]
 > Skype for Business Server 2019 的管理包包括 Skype for Business Server 2019 组件和用户管理包以及 Skype for Business Server 2019 Active Monitoring Management Pack。
 
 可使用下列任一工具导入管理包：
 
-- **System Center Operations Manager** 使用此方法，可使用 Operations Manager 为 Skype for Business Server 添加监视。
+- **System Center Operations Manager** 使用此方法，可使用 Operations Manager 添加对 Skype for Business Server。
 
-- **Operations Manager Shell** 可以使用 Operations Manager Shell 直接导入，或使用 System Center Operations Manager 控制台对导入管理包时遇到的任何问题进行故障排除。
+- **Operations Manager 外壳** 可以使用此Operations Manager 外壳直接导入，或解决在使用 Operations Manager 控制台导入管理包时System Center遇到的问题。
 
-### <a name="importing-the-management-packs-by-using-system-center-operations-manager"></a>使用 System Center Operations Manager 导入管理包
+### <a name="importing-the-management-packs-by-using-system-center-operations-manager"></a>使用 Operations Manager 导入System Center包
 
 1. 从 microsoft SkypeForBusiness2019ManagementPacks.msi下载下载文件，然后安装 msi。
 
-2. 在 System Center Operations Manager 中，单击"管理 **"。**
+2. 在System Center管理器中，单击"管理 **"。**
 
 3. 在"管理"窗格中，右键单击"**管理包"，** 然后单击"**导入管理包"。**
 
@@ -91,13 +91,13 @@ ms.locfileid: "60012536"
 
 8. 在“选择管理包”对话框中，单击“关闭”。 导入和安装过程可能需要几分钟才能完成。
 
-## <a name="importing-the-management-packs-by-using-the-operations-manager-shell"></a>使用 Operations Manager Shell 导入管理包
+## <a name="importing-the-management-packs-by-using-the-operations-manager-shell"></a>使用管理包导入Operations Manager 外壳
 
-通常，使用 Operations Manager 控制台导入管理包会更容易。 但是，如果发生错误并且导入失败，则控制台不会始终提供足够的错误报告。 相比之下，Operations Manager Shell 提供了详细信息。 如果使用 Operations Manager，并且导入管理包时遇到问题，则使用 Operations Manager 命令行管理程序导入该包。 Operations Manager Shell 提供的信息可以帮助您确定导入失败的原因。
+通常，使用 Operations Manager 控制台导入管理包会更容易。 但是，如果发生错误并且导入失败，则控制台不会始终提供足够的错误报告。 相比之下，Operations Manager 外壳提供了详细信息。 如果使用的是 Operations Manager，但导入管理包时遇到问题，则使用 Operations Manager 外壳。 该测试Operations Manager 外壳可帮助您确定导入失败的原因。
 
-1. 单击 **"开始**"，**单击"** 所有程序"，Microsoft System Center 2012，单击 **"Operations Manager"，** 然后单击 **"Operations Manager Shell"。** 
+1. 单击 **"开始**"，单击"**所有** 程序"，System Center **Microsoft System Center 2012"，** 单击 **"Operations** **Manager"，然后单击"Operations Manager 外壳"。**
 
-2. 在 Operations Manager 命令行管理程序 中，在命令提示符下键入以下命令，使用文件副本的实际路径 Microsoft.LS.2019.Monitoring.ActiveMonitoring.mp，然后按 Enter：
+2. 在Operations Manager 外壳，使用文件副本的实际路径在命令提示符下键入以下 Microsoft.LS.2019.Monitoring.ActiveMonitoring.mp，然后按 Enter：
 
    ```PowerShell
    Import-SCOMManagementPack -FullName "D:\MP\Microsoft.LS.2019.Monitoring.ActiveMonitoring.mp"

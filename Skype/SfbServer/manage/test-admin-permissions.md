@@ -1,7 +1,7 @@
 ---
-title: 测试管理员权限Skype for Business Server
+title: 在管理中心中测试Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,25 +11,25 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 如何测试管理员权限Skype for Business Server
-ms.openlocfilehash: 08721b556de6e7b162eb76fbed953dae422b33b7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 80971dab292252775f9a58cbf822d746326c8abf
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580556"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760690"
 ---
-# <a name="testing-admin-permissions-in-skype-for-business-server"></a>测试管理员权限Skype for Business Server
+# <a name="testing-admin-permissions-in-skype-for-business-server"></a>在管理中心中测试Skype for Business Server
 
 |&nbsp; |&nbsp; |
 |--|--|
-|验证计划|初始部署Skype for Business Server部署之后。 如果需要，出现与权限相关的问题。|
+|验证计划|初始部署Skype for Business Server之后。 如果需要，出现与权限相关的问题。|
 |测试工具|Windows PowerShell|
-|所需的权限|使用命令行管理程序Skype for Business Server运行时，用户必须是 RTCUniversalServerAdmins 安全组的成员。<br><br/>在使用远程 cmdlet Windows PowerShell运行时，必须为用户分配 RBAC 角色，该角色具有运行 Test-CsOUPermission cmdlet 的权限。 To see a list of all RBAC roles that can use this cmdlet， run the following command from the Windows PowerShell prompt：<br/><br/>Get-CsAdminRoleWhere-Object \| {$_.Cmdlet -match "Test-CsOUPermission"}|
+|所需的权限|使用命令行管理程序Skype for Business Server本地运行时，用户必须是 RTCUniversalServerAdmins 安全组的成员。<br><br/>在使用远程 cmdlet Windows PowerShell运行时，必须为用户分配具有运行 Test-CsOUPermission cmdlet 的权限的 RBAC 角色。 To see a list of all RBAC roles that can use this cmdlet， run the following command from the Windows PowerShell prompt：<br/><br/>Get-CsAdminRoleWhere-Object \| {$_.Cmdlet -match "Test-CsOUPermission"}|
 |||
 
 ## <a name="description"></a>说明
 
-安装 Skype for Business Server 时，安装程序执行的任务之一为 RTCUniversalUserAdmins 组提供管理用户、计算机、联系人、应用程序联系人和 InetOrg 人员所需的 Active Directory 权限。 如果已禁用 Active Directory 中的权限继承，则安装程序将无法分配这些权限。 因此，RTCUniversalUserAdmins 组的成员将无法管理Skype for Business Server实体。 这些管理权限将仅对域管理员可用。 
+安装 Skype for Business Server 时，安装程序执行的任务之一会为 RTCUniversalUserAdmins 组提供管理用户、计算机、联系人、应用程序联系人和 InetOrg 人员所需的 Active Directory 权限。 如果已禁用 Active Directory 中的权限继承，则安装程序将无法分配这些权限。 因此，RTCUniversalUserAdmins 组的成员将无法管理Skype for Business Server实体。 这些管理权限将仅对域管理员可用。 
 
 此Test-CsOUPermission cmdlet 验证在 Active Directory 容器中是否设置了管理用户、计算机和其他对象所需的权限。 如果未设置这些权限，您可以通过运行 [Grant-CsOUPermission cmdlet](/powershell/module/skype/Grant-CsOUPermission)来解决此问题。 
 
@@ -52,13 +52,13 @@ ms.locfileid: "58580556"
 
 如果已设置所需的权限，Test-CsOUPermission返回一个词的响应：
 
-正确
+True
 
 如果未设置所需的权限，Test-CsOUPermission返回值 False。 您可能需要搜索一些时间以查找此值。 它通常嵌入在附带的多个警告内。 例如：
 
 警告：ACE (ACE) atl-cs-001\RTCUniversalUserReadOnlyGroup;allow;ReadProperty;ContainerInherit;后代;bf967aba-0de6-11d0-00aa003049e2;d819615a-3b9b-4738-b47e-f1bd8ee3aea4 
 
-警告：对象"OU=NorthAmerica，DC=atl-cs-001\DC=litwareinc，DC=com"上的访问控制项 (AES) ）未准备好。 
+警告：对象"OU=NorthAmerica，DC=atl-cs-001\DC=litwareinc，DC=com"上的访问控制项 (AES) 未准备好。 
 
 错误 
 
@@ -68,7 +68,7 @@ ms.locfileid: "58580556"
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>测试失败的原因
 
-如果Test-CsOUPermission失败，则通常意味着尚未将指定权限分配给 RTCUniversalUserAdmins 组。 您可以通过使用 cmdlet 来解决此问题并分配Grant-CsOUPermission权限。 例如，此命令为 RTCUniversalUserAdmins 组的用户、联系人和 inetOrgPersons 提供 OU 权限：
+如果Test-CsOUPermission失败，这通常意味着尚未将指定权限分配给 RTCUniversalUserAdmins 组。 可以通过使用 cmdlet 来解决此问题并分配Grant-CsOUPermission权限。 例如，此命令为 RTCUniversalUserAdmins 组的用户、联系人和 inetOrgPersons 提供 OU 权限：
 
 `Grant-CsOUPermission -OU "ou=Redmond,dc=litwareinc,dc=com" -ObjectType "user", "contact", "inetOrgPerson"`
 

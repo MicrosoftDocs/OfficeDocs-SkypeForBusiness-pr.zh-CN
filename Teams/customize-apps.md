@@ -1,7 +1,7 @@
 ---
 title: 自定义应用中Microsoft Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: v-tbasra
 ms.topic: article
@@ -18,16 +18,16 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何在应用中自定义Microsoft Teams。
-ms.openlocfilehash: c5e42bd498c1332d2b36c03ec661ae488fcf16aa
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 21baefe7a75c869ed8d401d19f948526b31d615c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60015016"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749621"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>自定义应用中Microsoft Teams
 
- Microsoft Teams应用自定义来增强Teams体验。 某些应用开发人员允许应用由管理员Teams自定义。管理员可以使用管理中心"管理应用"页，根据组织需求自定义或Teams **品牌**。 可以自定义的详细信息包括：
+ Microsoft Teams提供应用自定义，以增强Teams体验。 某些应用开发人员允许应用由管理员Teams自定义。管理员可以使用管理中心"管理应用"页，根据组织需求自定义或Teams **品牌**。 可以自定义的详细信息包括：
 
 - 短名称
 - 简短说明
@@ -42,7 +42,7 @@ ms.locfileid: "60015016"
 有关[可Teams](/microsoftteams/platform/resources/schema/manifest-schema)字段的详细信息，请参阅清单架构。
 
 > [!NOTE]
-> 目前，DoD 政府社区云高 (GCCH) 或国防部 (不支持) 应用。
+> 目前，政府社区云高 (GCCH) 或国防部 (DoD) 不支持自定义应用。
 > 目前，此功能不适用于旁加载Microsoft Teams应用。
 
 ## <a name="customize-the-apps-details"></a>自定义应用的详细信息
@@ -87,7 +87,7 @@ ms.locfileid: "60015016"
 
 5. 展开" **图标"** 部分。
 
-   1. Upload图标。 使用一个全色图标 (192x192) PNG 格式的像素。
+   1. Upload图标。 使用一个全颜色图标 (192x192) PNG 格式的像素。
 
    1. 选择图标轮廓颜色。 使用一个透明 (32x32) PNG 格式的像素。
 
@@ -101,7 +101,7 @@ ms.locfileid: "60015016"
 
    自定义应用现在列在"管理应用 **"页** 中。 你将只有一个版本的应用，因为自定义应用功能不会创建应用的副本。
 
-现在Teams最终用户可以打开其 Teams 客户端以查看自定义应用。
+现在Teams最终用户可以打开其Teams客户端以查看自定义应用。
 
    ![客户端中的Teams应用。](media/contoso-app.png)
 
@@ -127,7 +127,7 @@ ms.locfileid: "60015016"
 
 3. 选择应用名称。
 
-4. 查看应用详细信息，包括原始应用名称 **发布者的短名称**。
+4. 查看应用详细信息，包括发布者提供的原始应用名称 **"短名称"。**
 
    ![自定义图标面板应用名称。](media/original-app-version.png)
 
@@ -155,7 +155,7 @@ ms.locfileid: "60015016"
 
 **应用提供商是否可为客户自定义应用？**
 
- 否，租户的管理员需要使用管理中心为租户Teams应用。
+ 否，租户管理员需要使用管理中心为租户Teams应用。
 
 **自定义应用会自动部署以替换租户中的当前自定义应用吗？**
 

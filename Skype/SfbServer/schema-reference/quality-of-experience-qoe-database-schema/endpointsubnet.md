@@ -1,7 +1,7 @@
 ---
 title: EndpointSubnet 表
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d62e51d6-2117-4c41-adce-08f8d9d75ce0
 description: EndpointSubnet 表是一个支持表。每个记录代表从终结点捕获的一个子网。
-ms.openlocfilehash: 7d42985800af17a1cf73ac81a81990308537e04a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cfc987fffdeac0d6a55a3cbf98054ac033131e36
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634126"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749721"
 ---
 # <a name="endpointsubnet-table"></a>EndpointSubnet 表
  
 EndpointSubnet 表是一个支持表。每个记录代表从终结点捕获的一个子网。 
   
-|**列**|**数据类型**|**键/索引**|**Details**|
+|**列**|**数据类型**|**键/索引**|**详细信息**|
 |:-----|:-----|:-----|:-----|
 |**SubnetIP** <br/> |int  <br/> |主、外  <br/> |子网的整数表示形式。  <br/> |
 |**NextUpdateTS** <br/> |datetime  <br/> ||仅供内部使用。  <br/> |

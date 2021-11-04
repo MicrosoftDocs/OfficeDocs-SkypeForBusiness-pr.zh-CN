@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 采用快速入门清单
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 11/09/2018
 audience: Admin
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 使用此快速入门清单确保在组织开始采用新计划时Microsoft Teams。
+description: 使用此快速入门清单，确保组织开始采用新的Microsoft Teams。
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1eff8d3f830cda65e932a0884354c08e32b07ceb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b54f7b06cc9e2ad8da5717ba03377eddc59691f1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594484"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767110"
 ---
 # <a name="microsoft-teams-adoption-quick-start-checklist"></a>Microsoft Teams 采用快速入门清单
 

@@ -1,7 +1,7 @@
 ---
 title: 配置网络区域
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 1d3fe1f6-e987-4b21-aafd-4ceaf523027a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: 5b464c82e1896a5eca10b88123ecb9eeb17fba05
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5a722d80fa6b52c57d1971bc97c1c5e0c54c948a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581746"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760192"
 ---
 # <a name="configure-a-network-region"></a>配置网络区域
 

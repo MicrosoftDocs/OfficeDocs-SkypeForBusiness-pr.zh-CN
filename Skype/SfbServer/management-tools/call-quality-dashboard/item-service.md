@@ -1,7 +1,7 @@
 ---
-title: '呼叫质量仪表板项目服务 (CQD) '
+title: '通话质量仪表板项目服务 (CQD) '
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,14 +13,14 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b6d7b02a-a34e-4fef-986c-ca442e18fa0c
 description: 摘要：了解项目服务，它是通话质量仪表板存储库 API 的一部分。 通话质量仪表板是一种用于Skype for Business Server。
-ms.openlocfilehash: 3be67c2455a299c6643238b966c9cb04545bc5d6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a0a6ddc923ebf55e5b11ea794398286ca1d19728
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628664"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760600"
 ---
-# <a name="item-service-for-call-quality-dashboard-cqd"></a>呼叫质量仪表板项目服务 (CQD) 
+# <a name="item-service-for-call-quality-dashboard-cqd"></a>通话质量仪表板项目服务 (CQD) 
  
 **摘要：** 了解项目服务，它是通话质量仪表板存储库 API 的一部分。 通话质量仪表板是一种用于Skype for Business Server。
   

@@ -1,7 +1,7 @@
 ---
 title: AudioClientEvent 表
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: fef73d8f-7261-4e5b-9769-82435b007979
 description: 每条记录都包含音频呼叫中一个终结点的客户端事件。 通常，一个呼叫有两条记录，一条用于呼叫者，一条用于被叫方。
-ms.openlocfilehash: 65897c03f44cac5fd10a0e2c56e78bb5751ae7e3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a7e5e481fd9398532212f4bda767bab83815250c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583756"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767310"
 ---
 # <a name="audioclientevent-table"></a>AudioClientEvent 表
  
 每条记录都包含音频呼叫中一个终结点的客户端事件。 通常，一个呼叫有两条记录，一条用于呼叫者，一条用于被叫方。
   
-|**列**|**数据类型**|**键/索引**|**Details**|
+|**列**|**数据类型**|**键/索引**|**详细信息**|
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |datetime  <br/> |主  <br/> |从 [MediaLine 表引用](medialine-0.md)。  <br/> |
 |**SessionSeq** <br/> |int  <br/> |主  <br/> |从 [MediaLine 表引用](medialine-0.md)。  <br/> |
@@ -38,7 +38,7 @@ ms.locfileid: "58583756"
 |**DeviceHalfDuplexAECEventRatio** <br/> |decimal (5，2)   <br/> | <br/> |为"Bad"状态触发 DeviceHalfDuplexAEC 事件的会话百分比。 为了防止回声，系统已进入半双工。  <br/> |
 |**DeviceRenderNotFunctioningEventRatio** <br/> |decimal (5，2)   <br/> | <br/> |为"Bad"状态触发 DeviceRenderNotFunctioning 事件的会话百分比。 当前正用于会话的呈现设备无法正常工作。 这可能会导致单向音频问题。  <br/> |
 |**DeviceCaptureNotFunctioningEventRatio** <br/> |decimal (5，2)   <br/> | <br/> |为"Bad"状态触发 DeviceCaptureNotFunctioning 事件的会话百分比。 当前用于会话的捕获设备无法正常工作。 这可能会导致单向音频问题。  <br/> |
-|**DeviceGlitchesEventRatio** <br/> |decimal (5，2)   <br/> | <br/> |为"Bad"状态触发 DeviceGlitches 事件的会话百分比。 音频呈现存在严重故障，从而导致失真。 这些故障可能是由驱动程序问题、DPC (延迟) 和大量 (驱动程序) 高 CPU 使用率造成的。  <br/> |
+|**DeviceGlitchesEventRatio** <br/> |decimal (5，2)   <br/> | <br/> |为"Bad"状态触发 DeviceGlitches 事件的会话百分比。 音频呈现存在严重故障，从而导致失真。 这些故障可能是由驱动程序问题、DPC (延迟过程调用) 大量 (驱动程序) 高 CPU 使用率造成的。  <br/> |
 |**DeviceLowSNREventRatio** <br/> |decimal (5，2)   <br/> | <br/> |为"Bad"状态触发 DeviceLowSNR 事件的会话百分比。 捕获质量非常差，非常干扰或用户离麦克风太远了。 这可能会导致失真。  <br/> |
 |**DeviceLowSpeechLevelEventRatio** <br/> |decimal (5，2)   <br/> | <br/> |为"Bad"状态触发 DeviceLowSpeechLevel 事件的会话百分比。 用户的语音级别太低，系统无法进一步增加语音级别。 这可能会导致失真或被感知为单向音频。  <br/> |
 |**DeviceClippingEventRatio** <br/> |十 (5，2)   <br/> | <br/> |为"Bad"状态触发 DeviceClipping 事件的会话百分比。  <br/> 当近端语音剪辑麦克风时，远端会听到由于剪裁而失真。 避免近端麦克风剪辑很重要。  <br/> |

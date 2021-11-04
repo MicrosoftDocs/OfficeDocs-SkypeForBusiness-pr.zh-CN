@@ -1,7 +1,7 @@
 ---
 title: 持久聊天类别
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/27/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 6875d930-7502-4e47-bdb3-45eaeb065350
 description: 您可以使用"持久聊天"页的"类别"部分来配置类别。 持久聊天室类别是组织聊天室的逻辑结构。 类别定义一组默认的访问控制列表 (ACL)，以便控制可以创建或加入聊天室的用户和用户组。 您还可以使用类别强制在组织中不同部门之间使用信息隔离墙。
-ms.openlocfilehash: be326978d25039e095e8d679b40194f7468f7a8e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 57e97faa0dd7c3cb80d75f9a06a8f5d2602ba162
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630966"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760840"
 ---
 # <a name="persistent-chat-category"></a>持久聊天类别
  
@@ -52,7 +52,7 @@ ms.locfileid: "58630966"
     
 4. 在“类别”页上，单击“新建”或“编辑”。
     
-5. 在 **"选择服务**"中，选择与需要创建类别的持久聊天服务器池对应的服务。 该服务是持久聊天服务器池， (客户端) 该类别所属的池。 类别只能属于一个持久聊天服务器池，并且不能移动到另一个池，也不能与另一个池共享。
+5. 在 **"选择服务**"中，选择与需要创建类别的持久聊天服务器池对应的服务。 该服务是持久聊天服务器池，持久聊天 (客户端) 用于标识类别所属的池。 类别只能属于一个持久聊天服务器池，并且不能移动到另一个池，也不能与另一个池共享。
     
 6. 在“新建类别”中，执行下列操作：
     
@@ -81,6 +81,6 @@ ms.locfileid: "58630966"
     
 ## <a name="see-also"></a>另请参阅
 
-有关持久聊天服务器特性和功能的详细信息，请参阅在[Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)中规划持久聊天服务器、在[Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)中部署持久聊天服务器和在[Skype for Business Server 2015](../../manage/persistent-chat/persistent-chat.md)中管理持久聊天服务器。
+有关持久聊天服务器特性和功能的详细信息，请参阅 Plan [for Persistent Chat Server in Skype for Business Server 2015、Deploy](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md) [Persistent Chat Server in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)和 Manage Persistent Chat Server in [Skype for Business Server2015](../../manage/persistent-chat/persistent-chat.md)。
   
 

@@ -1,7 +1,7 @@
 ---
 title: 文件共享高可用性Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,17 +12,17 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b8c8d5ec-9397-4128-8d1e-8ec6c30fade7
-description: 了解如何使用 DFS 确保文件共享在 Skype for Business Server 高可用性。
-ms.openlocfilehash: 6abdf9656ddca5148c9b04c6dbe11cdc5da7e840
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 了解如何使用 DFS 确保文件共享在Skype for Business Server高可用性。
+ms.openlocfilehash: bd51464aa1588f672134c0d9ce5b2c8fc3faa97f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603811"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767520"
 ---
 # <a name="file-sharing-high-availability-in-skype-for-business-server"></a>文件共享高可用性Skype for Business Server
  
-了解如何使用 DFS 确保文件共享在 Skype for Business Server 高可用性。
+了解如何使用 DFS 确保文件共享在Skype for Business Server高可用性。
   
 若要确保文件共享在部署中的高可用性Skype for Business Server，可以使用分布式文件系统 (DFS) 。 DFS 支持同一个数据中心内从一个文件服务器到另一个文件服务器的故障转移。 对于大型部署，建议您使用通过 DFS 配对的专用文件服务器。 有关 DFS 中 DFS Windows Server 2012，请参阅 [https://go.microsoft.com/fwlink/?LinkId=524384](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj127250(v=ws.11)) 。 有关 Windows Server 2008 上的 DFS 的信息，请参阅 [https://go.microsoft.com/fwlink/p/?LinkId=524385](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753479(v=ws.10)) 。
   

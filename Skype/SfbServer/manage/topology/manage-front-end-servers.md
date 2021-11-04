@@ -1,7 +1,7 @@
 ---
-title: 管理部署中的前端Skype for Business Server
+title: 管理前端服务器Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,15 +11,15 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
-description: 摘要：了解如何在前端服务器中添加、删除、修补或更新Skype for Business Server。
-ms.openlocfilehash: 4a58eb7ab54102d1287a61a9f736b9d0c1a87108
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 摘要：了解如何在客户端部署中添加、删除、修补或更新Skype for Business Server。
+ms.openlocfilehash: 4322d9456488201f029a80d3f91aaa94c9a2d3d0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578786"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760640"
 ---
-# <a name="manage-front-end-servers-in-skype-for-business-server"></a>管理部署中的前端Skype for Business Server
+# <a name="manage-front-end-servers-in-skype-for-business-server"></a>管理前端服务器Skype for Business Server
  
 本文介绍如何添加或删除前端服务器以及如何将升级或修补程序应用到前端服务器。
 
@@ -31,12 +31,12 @@ ms.locfileid: "58578786"
 将前端服务器添加到池，或者从池中删除前端服务器时，您需要重新启动池。 
   
 > [!IMPORTANT]
-> 当您向拓扑中的池添加或删除服务器，然后发布更新的拓扑时，将导致池中的所有服务器同时重新启动。 当服务器重新启动池时，该池处于脱机状态，这将中断连接到该池的用户的服务。 为了防止给用户服务中断，请计划在非营业时间发布包含池中新服务器的拓扑。 
+> 在拓扑中的池中添加或删除服务器，然后发布更新的拓扑时，将导致池中的所有服务器同时重新启动。 当服务器重新启动池时，该池处于脱机状态，这将中断连接到该池的用户的服务。 为了防止给用户服务中断，请计划在非营业时间发布包含池中新服务器的拓扑。 
   
 添加或删除前端服务器时，可以使用以下过程。
   
 > [!NOTE]
-> 如果要向池中添加新服务器，请更新新池服务器，以与池中的现有服务器处于相同的累积更新级别。 
+> 如果要向池中添加新服务器，请更新新的池服务器，以与池中的现有服务器处于相同的累积更新级别。 
   
 ### <a name="to-add-or-remove-front-end-servers"></a>添加或删除前端服务器
 
@@ -51,12 +51,12 @@ ms.locfileid: "58578786"
 3. 发布拓扑。
     
     > [!IMPORTANT]
-    > 当您向拓扑中的池添加或删除服务器，然后发布更新的拓扑时，将导致池中的所有服务器同时重新启动。 当服务器重新启动池时，该池处于脱机状态，这将中断连接到该池的用户的服务。 为了防止给用户服务中断，请计划在非营业时间发布包含池中新服务器的拓扑。 
+    > 在拓扑中的池中添加或删除服务器，然后发布更新的拓扑时，将导致池中的所有服务器同时重新启动。 当服务器重新启动池时，该池处于脱机状态，这将中断连接到该池的用户的服务。 为了防止给用户服务中断，请计划在非营业时间发布包含池中新服务器的拓扑。 
   
   > [!NOTE]
 > 此外，在池中添加或删除服务器时，必须在添加或删除的每台计算机中运行 Skype for Business Server 部署向导，有关详细信息，请参阅在拓扑中的服务器上安装[Skype for Business Server](../../deploy/install/install-skype-for-business-server.md)
   
-4. 如果您通过以下任一方式更改了前端池中的服务器数量，则通过键入以下 cmdlet 重置池：Reset-CsPoolRegistrarState -ResetType FullReset -PoolFqdn 
+4. 如果通过以下任一方式更改了前端池中的服务器数量，请通过键入以下 cmdlet 重置池：Reset-CsPoolRegistrarState -ResetType FullReset -PoolFqdn 
     
    ```PowerShell
     Reset-CsPoolRegistrarState -ResetType FullReset -PoolFqdn  <PoolFQDN>

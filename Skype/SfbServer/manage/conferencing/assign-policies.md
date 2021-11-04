@@ -1,7 +1,7 @@
 ---
 title: 在会议部署中分配Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,18 +12,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: f384d19b-0950-4ec6-9d93-2c5958b83e71
 description: 摘要：了解如何在 Skype for Business Server 中分配会议策略。
-ms.openlocfilehash: 3ae21518cf53aad48d4fc9b6963d0e5402007db9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e63e59f806bcef14a50f75924527aa0f8733799b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635276"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767830"
 ---
 # <a name="assign-conferencing-policies-in-skype-for-business-server"></a>在会议部署中分配Skype for Business Server
  
 **摘要：** 了解如何在会议部署中分配Skype for Business Server。
   
-可以使用命令行管理程序和 **Grant-CsConferencingPolicy** cmdlet 将Skype for Business Server策略分配给用户。
+可以使用命令行管理程序和 **Grant-CsConferencingPolicy** cmdlet 将会议策略Skype for Business Server分配给用户。
   
 ## <a name="assign-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>使用命令行管理程序分配Skype for Business Server策略
 

@@ -1,7 +1,7 @@
 ---
 title: Skype for Business Server 2015 中的 CDR 表列表
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 031843fd-c7ff-4534-9b02-8847aad70807
 description: 呼叫详细信息记录 (CDR) 数据库架构由以下表组成。
-ms.openlocfilehash: acc509fc895c015ec213bd18560986b3f6d12aa7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1e8c76080089005977154c3e23d924a4b98dc6b5
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635126"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746658"
 ---
 # <a name="list-of-cdr-tables-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的 CDR 表列表
  
@@ -63,7 +63,7 @@ ms.locfileid: "58635126"
 
 |**Table**|**说明**|
 |:-----|:-----|
-|[Skype for Business Server 2015 中的 Conferences 表](conferences.md) <br/> |存储有关已存档的或已记录其详细信息的所有会议的信息，包括 ConferenceURI 以及开始时间和结束时间。  <br/> |
+|[2015 年 Skype for Business Server 中的 Conferences 表](conferences.md) <br/> |存储有关已存档的或已记录其详细信息的所有会议的信息，包括 ConferenceURI 以及开始时间和结束时间。  <br/> |
 |[ConferenceSessionDetails table in Skype for Business Server 2015](conferencesessiondetails-0.md) <br/> |存储有关每个基于 SIP 的会议会话的信息，包括每个会话的开始时间和结束时间、用户 ID、响应代码以及诊断 ID。  <br/> |
 |[Skype for Business Server 2015 中的 FocusJoinsAndLeaves 表](focusjoinsandleaves.md) <br/> |存储有关会议加入和离开的信息，包括用户的角色和客户端版本。  <br/> |
 |[Skype for Business Server 2015 中的 McuJoinsAndLeaves 表](mcujoinsandleaves.md) <br/> |存储有关会议涉及的 A/V 会议服务器以及用户加入和离开时间的信息。  <br/> |
@@ -112,7 +112,7 @@ ms.locfileid: "58635126"
 |[Skype for Business Server 2015 中的 ErrorReport 表](errorreport.md) <br/> |存储有关发生的错误的信息。  <br/> |
 |[ProgressReport 表](progressreport.md) <br/> |存储有关 2015 年 2015 过程中涉及Skype for Business Server进度报告的信息。  <br/> |
    
-下表中的表在 2015 年 10 月Skype for Business Server内部使用。 本文档不介绍其详细信息。
+下表中的表由 2015 年 10 月Skype for Business Server内部使用。 本文档不介绍其详细信息。
   
 ## <a name="tables-for-internal-use-by-lync-server"></a>供 Lync Server 内部使用的表
 

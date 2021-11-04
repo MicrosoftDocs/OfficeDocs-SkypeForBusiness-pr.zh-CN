@@ -1,7 +1,7 @@
 ---
 title: 注册器设置扩展器
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: c7486ab3-61fd-45c6-9edc-a15535f273ff
 ROBOTS: NOINDEX, NOFOLLOW
 description: 复原为注册器池提供了高可用性和灾难恢复。它提供了备份注册器，当主注册器发生故障时，备份注册器可以接管发生故障的注册器，允许用户登录和进行通信。用户可能会发现功能降低，具体取决于哪些系统的主注册器发生故障。
-ms.openlocfilehash: 8888c6df1aaa9da6c81e418123627199a6654893
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b1a7085ce3681d960bb73594547b8693f8f9c463
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593826"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766870"
 ---
 # <a name="registrar-settings-expander"></a>注册器设置扩展器
  
@@ -28,7 +28,7 @@ ms.locfileid: "58593826"
   
 在 Survivable Branch Appliance 或 Survivable Branch Server 的“编辑属性”对话框的“复原”部分，可以更改以下设置：
   
-- **关联的用户服务和备份注册器池** 在下拉列表中，选择充当 Survivable Branch Appliance 或 Survivable Branch Server 的Enterprise Edition前端池或 Standard Edition 前端服务器。
+- **关联的用户服务和备份注册器池** 在下拉列表中，选择 Enterprise Edition 前端池或 Standard Edition 前端服务器，充当 Survivable Branch Appliance 或 Survivable Branch Server 的备份注册器。
     
 - **启用故障转移和故障回复** 选择此设置可自动检测发生故障的注册器，并自动确定主注册器已备份并准备好恢复注册器进程。
     

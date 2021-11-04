@@ -1,7 +1,7 @@
 ---
 title: 定义持久聊天池的属性和选项
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/27/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: f4914a44-2113-48f1-8299-4645fc7011b6
 description: 通过定义以下属性配置持久聊天服务器或持久聊天服务器池的选项：
-ms.openlocfilehash: 242490ebe6be0f68e8c25e0c01b77088c15836d8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 11b4731228f3690ce0fbe2675b5cef35faa3378e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622434"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760800"
 ---
 # <a name="define-properties-and-options-for-persistent-chat-pool"></a>定义持久聊天池的属性和选项
  
@@ -32,7 +32,7 @@ ms.locfileid: "58622434"
   
  **启用合规性**：如果计划部署和实施可选的持久聊天合规性功能及数据库，请选中此复选框。
   
- 使用SQL Server存储启用灾难恢复：如果计划从另一个存储上配置的备份存储集部署和实施持久聊天 SQL Server 存储的灾难恢复，请选中此SQL Server。 有关详细信息，请参阅 Configure [high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)。
+ 使用SQL Server存储启用灾难恢复：如果计划从另一个存储上配置的备份存储集部署和实施持久聊天 SQL Server 存储的灾难恢复，请选中此复选框SQL Server。 有关详细信息，请参阅在[Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)中为持久聊天服务器配置高可用性和灾难恢复。
   
 > [!NOTE]
 > 此选项仅适用于具有多台服务器的池。 
