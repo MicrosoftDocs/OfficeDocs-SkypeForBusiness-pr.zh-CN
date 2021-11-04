@@ -5,7 +5,7 @@ ms:assetid: 6f0ae442-6624-4e3f-849a-5b9e387fb8cf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204996(v=OCS.15)
 ms:contentKeyID: 48184469
 mtps_version: v=OCS.15
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 本文介绍如何为边缘服务器配置端口范围以及如何为 A/V 边缘服务器配置服务质量策略。
-ms.openlocfilehash: 9e9ec2e3f6aff938866655f3534b2a45ab77f726
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1f455ab417ed111a34134e3581806b4ce2a4bd57
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634276"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778302"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-edge-servers-in-skype-for-business-server"></a>为部署中的边缘服务器配置端口范围和服务质量Skype for Business Server
 
@@ -68,7 +68,7 @@ ms.locfileid: "58634276"
 </table>
 
 
-可以看到，音频、视频和应用程序共享的端口范围从端口 40803 开始，包含共 24732 个端口。 如果愿意，可以通过从命令行管理程序内运行与此类似的命令，将给定边缘服务器配置为使用这些Skype for Business Server值：
+可以看到，音频、视频和应用程序共享的端口范围从端口 40803 开始，包含共 24732 个端口。 如果愿意，可以通过从命令行管理程序内运行类似以下命令的命令，将给定边缘服务器配置为使用这些Skype for Business Server值：
 
   **Set-CsEdgeServer -Identity EdgeServer：atl-edge-001.litwareinc.com -MediaCommunicationPortStart 40803 -MediaCommunicationPortCount 24730**
 
@@ -98,7 +98,7 @@ ms.locfileid: "58634276"
 
 2.  右键单击相应的容器，然后单击"在此域中创建 **GPO"，并在此处链接** 它。
 
-3.  在"**新建 GPO"** 对话框中，在"名称"框中键入新组策略对象的名称 (例如，Skype for Business Server **音频**) ，然后单击"确定 **"。**
+3.  在"**新建 GPO"** 对话框中，在"名称"框中键入新组策略对象的名称 (例如，Skype for Business Server **音频) ，** 然后单击"确定 **"。**
 
 4.  右键单击新创建的策略，然后单击"编辑 **"。**
 
@@ -106,7 +106,7 @@ ms.locfileid: "58634276"
 
 1.  在组策略管理编辑器或本地组策略编辑器中，依次展开“计算机配置”、“策略”和“Windows 设置”，右键单击“基于策略的 QoS”，然后单击“新建策略”。
 
-2.  在"基于策略 **的 QoS"** 对话框的打开页上，键入新策略的名称 (例如，在"名称"框中Skype for Business Server音频) "  。  选择“指定 DSCP 值”，并将该值设置为“46”。 将“指定出站调节率”保留为未选中状态，然后单击“下一步”。
+2.  在"基于策略 **的 QoS"** 对话框的打开页上，键入新策略的名称 (例如，在"名称"框中键入Skype for Business Server **音频**) **名称**。 选择“指定 DSCP 值”，并将该值设置为“46”。 将“指定出站调节率”保留为未选中状态，然后单击“下一步”。
 
 3.  On the next page， make sure that **All applications** is selected， and then click **Next**. 此设置指示该网络查看 DSCP 标记为 46 的所有数据包，不只是由特定应用程序创建的数据包。
 
@@ -118,7 +118,7 @@ ms.locfileid: "58634276"
 
 为音频流量创建 QoS 策略后，应为视频流量创建第二个策略。 要为视频创建策略，请按照您创建音频策略时遵循的相同基本过程，进行下列替换项：
 
-  - 使用不同的 (和唯) 策略 (例如，Skype for Business Server **视频**) 。
+  - 使用不同的 (和) 策略名称 (例如，Skype for Business Server **视频**) 。
 
   - 将 DSCP 值设置为“34”而不是 46。（注意，不一定要使用 DSCP 值 34。唯一的要求是对视频使用与用于音频的 DSCP 值不同的 DSCP 值。）
 
@@ -126,7 +126,7 @@ ms.locfileid: "58634276"
 
 如果决定创建用于管理应用程序共享通信的策略，则必须创建第三个策略，进行以下替换：
 
-  - 使用不同的策略 (和) 策略名称 (例如，Skype for Business Server **应用程序共享**) 。
+  - 使用不同的策略 (和唯) 策略 (例如，Skype for Business Server **应用程序共享**) 。
 
   - 将 DSCP 值设置为“24”而不是 46。（同样，不一定要使用 DSCP 值 24。唯一的要求是对应用程序共享使用与用于音频或视频的 DSCP 值不同的 DSCP 值。）
 

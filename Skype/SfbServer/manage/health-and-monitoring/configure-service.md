@@ -1,7 +1,7 @@
 ---
 title: 配置 Mobility Service 以在 Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c2b8aadb-cffb-49f0-ba7a-e8541a1ff475
 description: 摘要：了解 Skype for Business Server 中的 Mobility Service。
-ms.openlocfilehash: da2685faae6bf44fee212132dba6a0f7e0fe2e76
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ddf976d6adde4a8214a1a7ae1cc40930df421fd6
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621028"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746984"
 ---
 # <a name="configure-mobility-service-for-high-performance-in-skype-for-business-server"></a>配置 Mobility Service 以在 Skype for Business Server
  
@@ -36,7 +36,7 @@ ms.locfileid: "58621028"
     
 2. **maxConcurrentRequestsPerCPU** 设置为零 (0) 。
     
-3. ASP.NET IIS 7.5 (设置为"自动配置") 。
+3. ASP.NET 仅针对 IIS 7.5 (自动配置进程) 。
     
 4. HTTP.sys默认将队列限制设置为 1，000 (1，000) 。
     

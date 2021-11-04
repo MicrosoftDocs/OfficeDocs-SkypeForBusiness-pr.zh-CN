@@ -1,7 +1,7 @@
 ---
 title: 总线压力和性能Skype组件的先决条件和设置
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.date: 12/20/2018
 manager: serdars
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 948c176c-75ce-418d-891a-a68427d61e40
 description: Skype for Business Server 2015 压力和性能工具的要求或先决条件。 如何安装或设置压力和性能工具。
-ms.openlocfilehash: 5d86dbc085929bfcb9bd52dd7d25f46f92fda8fb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 87c42d63e394c6beea68c23b8e1d7cff7b07266c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611921"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771918"
 ---
 # <a name="prerequisites-and-setup-for-the-skype-for-busines-stress-and-performance-tool"></a>总线压力和性能Skype组件的先决条件和设置
  
@@ -33,7 +33,7 @@ Skype for Business Server 2015 压力和性能工具的要求或先决条件。 
     
 - [配置要求](prerequisites-and-setup.md#ConfigReqs)
     
-此外，我们在下面还有一个部分用于安装[Skype for Business Server 2015 压力和性能工具](prerequisites-and-setup.md#Installing)
+此外，我们还在下面提供了一个部分，用于安装[Skype for Business Server 2015 压力和性能工具](prerequisites-and-setup.md#Installing)
   
 ## <a name="client-hardware-requirements"></a>客户端硬件要求
 <a name="ClientHardwareReqs"> </a>
@@ -72,7 +72,7 @@ Skype for Business Server 2015 压力和性能工具的要求或先决条件。 
   
 - 您需要以 Domain 或 Local Administrator 的组的成员登录到服务器。
     
-- You can't install the Skype for Business Server user Creation tool (UserProvisioningTool.exe) on any Front End Server or Standard Edition server where the user accounts will reside.
+- 不能将 Skype for Business Server 2015 用户创建工具 (UserProvisioningTool.exe) 安装在用户帐户将驻留的任何前端服务器或 Standard Edition 服务器上。
     
 - 多次运行用户创建工具时，启用了 Microsoft 统一通信的每个用户都需要有唯一的电话号码。
     
@@ -83,6 +83,6 @@ Skype for Business Server 2015 压力和性能工具的要求或先决条件。 
 
 安装非常简单。 您需要在要用于模拟用户流量的每个客户端计算机以及您将创建用户和联系人的每个池中的前端服务器上运行 Windows Installer 文件 **CapacityPlanningTool.msi。**
   
-若要下载.msi脚本以及其他文章中提及的示例脚本，请转到下载中心链接[：Skype for Business Server 2015，](https://www.microsoft.com/download/details.aspx?id=50367)压力和性能工具。
+若要下载 .msi，以及我们的其他文章中提及的示例脚本，请转到下载中心链接[：Skype for Business Server 2015，压力和性能工具](https://www.microsoft.com/download/details.aspx?id=50367)。
   
 

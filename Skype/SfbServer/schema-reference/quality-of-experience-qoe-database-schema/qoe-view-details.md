@@ -1,7 +1,7 @@
 ---
 title: QoE 视图列表
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6a658318-a317-4546-a44c-a9c473d8e86a
 description: 视图涉及有关从 QoE SQL 数据库返回数据的最常见方案。 建议将视图用于生成自定义报表，而不是直接访问数据库表;这是因为视图更有可能保持与未来版本的向后兼容性。
-ms.openlocfilehash: 7bed72ae4fe5a9468d6ac2b18148f62fe9aa0196
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5e0a4b4c83d6cc2b04eb2075e8f6248a0061cbdb
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578586"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741768"
 ---
 # <a name="qoe-view-details"></a>QoE 视图列表
  

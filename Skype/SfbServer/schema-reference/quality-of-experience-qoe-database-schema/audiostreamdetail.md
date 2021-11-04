@@ -1,7 +1,7 @@
 ---
 title: AudioStreamDetail 视图
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 10/20/2015
@@ -13,25 +13,25 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b6a435b3-103c-41c4-96ed-33c3784534c0
 description: AudioStreamDetail 视图存储有关数据库中每个音频流的信息。 此视图在 Microsoft Lync Server 2013 中引入。
-ms.openlocfilehash: fa3d65c5c4f42bb0ecfe32447b9d8dcab5a10c55
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3485ac8e8f2f38e7440ef723dfa40b3530589fc8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583746"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741858"
 ---
 # <a name="audiostreamdetail-view"></a>AudioStreamDetail 视图
  
 AudioStreamDetail 视图存储有关数据库中每个音频流的信息。 此视图在 Microsoft Lync Server 2013 中引入。
   
-|**列**|**数据类型**|**Details**|
+|**列**|**数据类型**|**详细信息**|
 |:-----|:-----|:-----|
 |SessionTime  <br/> |datetime  <br/> |从 [MediaLine 表引用](medialine-0.md)。  <br/> |
 |SessionSeq  <br/> |int  <br/> |从 [MediaLine 表引用](medialine-0.md)。  <br/> |
 |StreamId  <br/> |int  <br/> |媒体行中的唯一 ID。  <br/> |
 |StartTime  <br/> |datetime  <br/> |会话的开始时间。  <br/> |
 |EndTime  <br/> |datetime  <br/> |会话的结束时间。  <br/> |
-|DialogCategory  <br/> |bit  <br/> |对话框类别：0 是Skype for Business Server的类别;1 是中介服务器到 PSTN 网关的通道。  <br/> |
+|DialogCategory  <br/> |bit  <br/> |对话框类别：0 是Skype for Business Server中介服务器段;1 是中介服务器到 PSTN 网关的通道。  <br/> |
 |MediationServerBypassFlag  <br/> |bit  <br/> |指示是否绕过呼叫的标志。  <br/> |
 |MediaBypassWarningFlag  <br/> |int  <br/> |如果存在，则指示为何即使绕过 ID 匹配，也未绕过呼叫。 只定义了一个值：  <br/> 0x0001 - 默认网络适配器的未知绕过 ID。  <br/> |
 |CallPriority  <br/> |int  <br/> |呼叫的优先级。  <br/> |
@@ -41,13 +41,13 @@ AudioStreamDetail 视图存储有关数据库中每个音频流的信息。 此�
 |被叫方  <br/> |nvarchar (450)   <br/> |被叫方 URI。  <br/> |
 |CallerUserAgent  <br/> |nvarchar (256)   <br/> |呼叫者的用户代理字符串。  <br/> |
 |CallerUserAgentType  <br/> |smallint  <br/> |呼叫者的用户代理的类型。 有关详细信息， [请参阅 UserAgent](useragent.md) 表。 <br/> |
-|CallerUserAgentCategory  <br/> |nvarchar (64)   <br/> |呼叫者的用户代理的类别。 有关详细信息，请参阅 [QoE (UserAgentDef) ](useragentdef-qoe.md) 表。 <br/> |
+|CallerUserAgentCategory  <br/> |nvarchar (64)   <br/> |呼叫者的用户代理的类别。 有关详细信息，请参阅[QoE (UserAgentDef) 。](useragentdef-qoe.md) <br/> |
 |CalleeUserAgent  <br/> |nvarchar (256)   <br/> |被叫方的用户代理字符串。  <br/> |
 |CalleeUserAgentType  <br/> |smallint  <br/> |被叫方的用户代理的类型。 有关信息 [，请参阅 UserAgent](useragent.md) 表。 <br/> |
-|CalleeUserAgentCategory  <br/> |nvarchar (64)   <br/> |被叫方的用户代理的类别。 有关信息，请参阅[QoE (UserAgentDef) 。](useragentdef-qoe.md) <br/> |
+|CalleeUserAgentCategory  <br/> |nvarchar (64)   <br/> |被叫方的用户代理的类别。 有关信息，请参阅 [QoE (UserAgentDef) ](useragentdef-qoe.md) 表。 <br/> |
 |CallerEndpoint  <br/> |nvarchar (256)   <br/> |呼叫者的终结点名称。  <br/> |
 |CalleeEndpoint  <br/> |nvarchar (256)   <br/> |被叫方终结点名称。  <br/> |
-|CallerOS  <br/> |nvarchar (128)   <br/> |操作系统 (操作系统) 终结点的操作系统。  <br/> |
+|CallerOS  <br/> |nvarchar (128)   <br/> |操作系统 () 终结点的操作系统。  <br/> |
 |CalleeOS  <br/> |nvarchar (128)   <br/> |操作系统 (被) 终结点的操作系统。  <br/> |
 |CallerCPUName  <br/> |nvarchar (128)   <br/> |呼叫者的终结点的 CPU 名称。  <br/> |
 |CalleeCPUName  <br/> |nvarchar (128)   <br/> |被叫方终结点的 CPU 名称。  <br/> |
@@ -125,7 +125,7 @@ AudioStreamDetail 视图存储有关数据库中每个音频流的信息。 此�
 |CallerEchoPercentSend  <br/> |decimal (5，2)   <br/> |在呼叫者的发送流中检测到回声的时间百分比。 发送流的高回声百分比表示回声泄漏。  <br/> |
 |CallerRxAGCSignalLevel  <br/> |int  <br/> |从网关接收来自呼叫者音频的中介服务器的信号级别;这仅适用于中介服务器。 此指标的单位为 dBoV。 为获得良好的质量，可接受的范围应为 -30 到 -18 dBoV。  <br/> |
 |CallerRxAGCNoiseLevel  <br/> |int  <br/> |从网关接收来自呼叫者音频的中介服务器的信号级别。 这仅适用于中介服务器。 此指标的单位为 dBoV。 为保证良好的质量，可接受的范围应小于 -50 dBoV。  <br/> |
-|CallerRxAGCGain  <br/> |int  <br/> |自动增益 (应用于) 音频的中介服务器端的 AGC 控制。  <br/> |
+|CallerRxAGCGain  <br/> |int  <br/> |自动增益 (应用于) 音频的中介服务器端的 AGC 设置。  <br/> |
 |CallerInitialSignalLevelRMS  <br/> |float  <br/> |呼叫前 (30) 传入信号的根平均值平方和 RMS 值。  <br/> |
 |CalleeSendSignalLevel  <br/> |int  <br/> |表示被叫方发送的音频的模拟后增益控制音频信号级别。 此指标的单位为 dBmo。 对于可接受的质量，它应至少为 30 dBmo。 A/V 会议服务器或 IP 电话不报告此指标。  <br/> |
 |CalleeRecvSignalLevel  <br/> |int  <br/> |被叫方接收的音频的音频信号级别。 此指标的单位为 dBmo。 对于可接受的质量，它应至少为 30 dBmo。 A/V 会议服务器或 IP 电话不报告此指标。  <br/> |
@@ -144,7 +144,7 @@ AudioStreamDetail 视图存储有关数据库中每个音频流的信息。 此�
 |CalleeEchoPercentSend  <br/> |decimal (5，2)   <br/> |在被叫方发送的流中检测到回声的时间百分比。 发送流的高回声百分比表示回声泄漏。  <br/> |
 |CalleeRxAGCSignalLevel  <br/> |int  <br/> |从网关接收来自被叫方音频的中介服务器的信号级别;这仅适用于中介服务器。 此指标的单位为 dBoV。 为获得良好的质量，可接受的范围应为 [-30 至 -18] dBoV。  <br/> |
 |CalleeRxAGCNoiseLevel  <br/> |int  <br/> |从网关接收来自被叫方音频的中介服务器的信号级别。 这仅适用于中介服务器。 此指标的单位为 dBoV。 为保证良好的质量，可接受的范围应小于 -50 dBoV。  <br/> |
-|CalleeRxAGCGain  <br/> |int  <br/> |自动增益 (应用到) 音频的中介服务器端的 AGC 设置。  <br/> |
+|CalleeRxAGCGain  <br/> |int  <br/> |自动增益 (应用于) 音频的中介服务器端的 AGC 控制。  <br/> |
 |CalleeInitialSignalLevelRMS  <br/> |float  <br/> |呼叫前 (30) 传入信号的根平均值平方和 RMS 值。  <br/> |
 |RatioConcealedSamplesAvg  <br/> |decimal (5，2)   <br/> |音频修复生成的隐藏样本与典型样本的平均比率。  <br/> |
 |RatioStretchedSamplesAvg  <br/> |decimal (5，2)   <br/> |音频处理生成的拉伸样本与典型样本的平均比率。  <br/> |

@@ -1,7 +1,7 @@
 ---
 title: 启用或禁用存档Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d5aed328-e89d-4a7b-b603-15ae5c33c5dd
 description: 摘要：了解如何在存档中启用或禁用Skype for Business Server。
-ms.openlocfilehash: 8384c751cbcd7d5d357ca2bdefbb8821b7e282d0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ad59cd2f8bf22ae0f4ac8b8ba08c84b40fbeffb4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621088"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60747328"
 ---
 # <a name="enable-or-disable-archiving-in-skype-for-business-server"></a>启用或禁用存档Skype for Business Server
 
@@ -41,7 +41,7 @@ ms.locfileid: "58621088"
     
 5. 单击“提交”。
     
-## <a name="enable-or-disable-archiving-by-using-windows-powershell"></a>使用存档启用或禁用Windows PowerShell
+## <a name="enable-or-disable-archiving-by-using-windows-powershell"></a>使用管理程序启用或禁用Windows PowerShell
 
 您还可以使用 **Set-CsArchivingConfiguration** cmdlet 启用或禁用存档。 例如，以下命令修改所有存档配置设置，以便仅存档 IM 会话。 该命令调用不带任何参数的 **Get-CsArchivingConfiguration** cmdlet，以返回组织中当前使用的所有存档配置设置。 然后，将此集合通过管道管道到 **Where-Object** cmdlet，该 cmdlet 将仅选择 EnableArchiving 属性等于 (-eq) "ImAndWebConf"的设置。 然后，将筛选出的集合通过管道通过管道到 **Set-CsArchivingConfiguration** cmdlet，该 cmdlet 将接受集合中的每个项目，然后将 EnableArchiving 的值更改为"ImOnly"：
   

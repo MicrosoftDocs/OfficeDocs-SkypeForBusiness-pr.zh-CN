@@ -1,7 +1,7 @@
 ---
 title: 将存档策略应用于用户Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,13 +11,13 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: bebd45d1-93c3-4e80-8933-755b699b2209
-description: 摘要：了解如何将存档策略分配给用户Skype for Business Server。
-ms.openlocfilehash: e9bd351b30ed31092420722a956e57578e100642
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 摘要：了解如何将存档策略分配给 Skype for Business Server。
+ms.openlocfilehash: 343afcca74947f4a9e40830775c2149adcbc58af
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632986"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765560"
 ---
 # <a name="apply-an-archiving-policy-to-users-in-skype-for-business-server"></a>将存档策略应用于用户Skype for Business Server
 
@@ -26,7 +26,7 @@ ms.locfileid: "58632986"
 如果为位于 Skype for Business Server 上的用户创建了一个或多个用户存档策略，则可以通过向特定用户或用户组应用相应的策略来实现对特定用户的存档支持。 例如，如果创建支持内部通信存档的策略，可以至少将策略应用于一个用户或用户组，以支持存档用户的 Skype for Business Server 通信。
   
 > [!NOTE]
-> 如果为部署启用了 Microsoft Exchange集成，Exchange In-Place 保留策略将控制是否对位于 Exchange 上且其邮箱置于"保留"状态In-Place存档。 有关详细信息，请参阅 Plan [for archiving in Skype for Business Server](../../plan-your-deployment/archiving/archiving.md)和 Configure integration with Exchange storage for [Skype for Business Server](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md)。 
+> 如果为部署启用了 Microsoft Exchange集成，Exchange In-Place 保留策略将控制是否对位于 Exchange 且其邮箱置于"In-Place保留"的用户启用存档。 有关详细信息，请参阅 Plan [for archiving in Skype for Business Server](../../plan-your-deployment/archiving/archiving.md)和 Configure integration with Exchange storage for [Skype for Business Server](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md)。 
   
 ## <a name="apply-a-user-policy-by-using-the-control-panel"></a>使用控制面板应用用户策略
 
@@ -57,7 +57,7 @@ ms.locfileid: "58632986"
 Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName "RedmondArchivingPolicy"
 ```
 
-此命令将每用户存档策略 RedmondArchivingPolicy 分配给在注册器池上拥有帐户的 atl-cs-001.contoso.com。 有关此命令中使用的 Filter 参数的详细信息，请参阅 [Get-CsUser](/powershell/module/skype/get-csuser?view=skype-ps) cmdlet 文档。
+此命令将每用户存档策略 RedmondArchivingPolicy 分配给在注册器池上拥有帐户的所有用户 atl-cs-001.contoso.com。 有关此命令中使用的 Filter 参数的详细信息，请参阅 [Get-CsUser](/powershell/module/skype/get-csuser?view=skype-ps) cmdlet 文档。
   
 ```PowerShell
 Get-CsUser -Filter {RegistrarPool -eq "atl-cs-001.contoso.com"} | Grant-CsArchivingPolicy -PolicyName "RedmondArchivingPolicy"

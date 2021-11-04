@@ -1,7 +1,7 @@
 ---
-title: 通话质量仪表板数据 API (CQD) Skype for Business Server
+title: 通话质量仪表板数据 API (CQD) 中Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,18 +13,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 25c2450a-f7b3-4dd2-987d-64f4246dd019
 description: 摘要：了解通话质量仪表板的数据 API。 通话质量仪表板是一种用于Skype for Business Server。
-ms.openlocfilehash: 2497b978944ec860d7188560ecaf72091df3f626
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3a305ce3c6b4a1bbfcc0fbdedbb575477f76d62c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586914"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742038"
 ---
-# <a name="data-api-for-call-quality-dashboard-cqd-in-skype-for-business-server"></a>通话质量仪表板数据 API (CQD) Skype for Business Server
+# <a name="data-api-for-call-quality-dashboard-cqd-in-skype-for-business-server"></a>通话质量仪表板数据 API (CQD) 中Skype for Business Server
  
 **摘要：** 了解通话质量仪表板的数据 API。 通话质量仪表板是一种用于Skype for Business Server。
   
-数据 API 为通话质量仪表板提供了编程访问，Skype for Business Server。
+数据 API 为通话质量仪表板提供编程访问，Skype for Business Server。
   
 ## <a name="data-api-for-call-quality-dashboard"></a>通话质量仪表板的数据 API
 
@@ -44,13 +44,13 @@ REST 操作包含在下表中。
    
  **跨源资源共享 (CORS) 数据 API 支持**
   
-数据 API 支持跨源资源共享 (CORS) 。 CORS 是一项 HTTP 功能，它使在一个域下运行的 Web 应用程序可以访问另一个域中的资源。 Web 浏览器实现一个称为同源 [策略](https://www.w3.org/Security/wiki/Same_Origin_Policy) 同源策略的安全限制，阻止网页调用其他域中的 API。 CORS 提供了一种安全的方法，允许一个 (源域) 调用另一个域中的 API。 有关 [CORS 的详细信息，请参阅 CORS](https://www.w3.org/TR/cors/) 规范。
+数据 API 支持跨源资源共享 (CORS) 。 CORS 是一项 HTTP 功能，它使在一个域下运行的 Web 应用程序可以访问另一个域中的资源。 Web 浏览器实现一个称为同源 [策略](https://www.w3.org/Security/wiki/Same_Origin_Policy) 同源策略的安全限制，阻止网页调用其他域中的 API。 CORS 提供了一种安全方法，允许源域 (一个) 域中调用 API。 有关 [CORS 的详细信息，请参阅 CORS](https://www.w3.org/TR/cors/) 规范。
   
  **启用 CORS for Data API**
   
- 以下是数据 API 应用程序的摘录，web.config corsTrustedOrigin 应用程序设置中列出的两个域。 从这些服务器加载的脚本提出的所有请求都受数据 API 信任。
+ 下面摘录了数据 API 应用程序，web.config corsTrustedOrigin 应用程序设置中列出的两个域。 从这些服务器加载的脚本提出的所有请求都受数据 API 信任。
   
-请记住包含确切的协议、主机名和端口 (（如果有) ）。 不要将任何正斜杠 (/) 末尾。 可以通过用逗号分隔来指定多个条目。
+请记住包含确切的协议、主机名和端口 (（如果有) ）。 不要将任何正斜杠字符 (/) 末尾。 可以通过用逗号分隔来指定多个条目。
   
 ```xml
 <configuration>

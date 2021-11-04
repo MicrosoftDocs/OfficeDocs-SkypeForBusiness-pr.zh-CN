@@ -1,7 +1,7 @@
 ---
 title: 旧版合并 FQDN
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: d72841ff-3c4d-4233-a933-f3a95d75d89b
 description: 访问边缘池内部 FQDN 用于内部用户与联盟、远程用户访问和公共 IM 连接的外部用户进行通信的各种方案。 如果旧版环境中部署了负载平衡边缘服务器，请输入内部负载平衡器的完全限定域名 (FQDN)。
-ms.openlocfilehash: 5131f6c5cb563e66a0a83f0c4c608d8e7e8895a3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 06bc7f2ea91c499ef33c26ffc734f3e470a3bfbc
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608209"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60772218"
 ---
 # <a name="legacy-merge-fqdn"></a>旧版合并 FQDN
  

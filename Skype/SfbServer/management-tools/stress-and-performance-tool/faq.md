@@ -1,7 +1,7 @@
 ---
 title: Skype for Business Server 2015 压力和性能工具的常见问题解答
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.date: 11/11/2015
 manager: serdars
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ce18db60-5f6b-423d-bc41-91e7c80fb7e3
 description: Skype for Business 2015 压力和性能工具常见问题 (FAQ) ，有助于找出受支持的工具配置、解决工具问题以及阐明在运行压力和性能工具时可能看到的行为。
-ms.openlocfilehash: 42fdf53965e190e98e716df0780eac04565d0767
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7a922293b4e8b938d6ed9c1d3f763a47b70a5c6c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611931"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771938"
 ---
 # <a name="faq-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Skype for Business Server 2015 压力和性能工具的常见问题解答
  
@@ -27,7 +27,7 @@ Skype for Business 2015 压力和性能工具常见问题 (FAQ) ，有助于找�
   
  此常见问题解答涵盖有关 Skype for Business Server 2015 压力和性能工具的一些最常见的问题，并且有助于进行故障排除和工具配置选择。
   
-## <a name="can-i-run-lyncperftoolexe-in-production"></a>能否在生产LyncPerfTool.exe运行产品？
+## <a name="can-i-run-lyncperftoolexe-in-production"></a>能否在生产LyncPerfTool.exe运行应用程序？
 
 不建议 **这样做** 。 该工具会影响生产服务器的性能、安全性和最终用户体验。
   

@@ -1,7 +1,7 @@
 ---
 title: Move File Store Data to a New File Store in Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 8/30/2016
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
 description: 如果需要删除当前充当 Skype for Business Server 2015 部署的文件存储的文件服务器，或者需要进行其他会使当前文件存储不可用的更改，则首先需要创建新的共享。 然后，您需要执行以下步骤：
-ms.openlocfilehash: 10571b398b6e39624c408f0e36baa317212f9b21
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 73e66930f4c47ead3df01e04d30930b0257204e2
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58614252"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778372"
 ---
 # <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server-2015"></a>Move File Store Data to a New File Store in Skype for Business Server 2015
 
@@ -46,7 +46,7 @@ ms.locfileid: "58614252"
 
 5. 以 Domain Admins 组和 RTCUniversalServerAdmins 组成员的身份登录安装了拓扑生成器的计算机。
 
-6. 启动拓扑生成器：单击"开始"，单击 **"所有程序**"，Skype for Business Server"2015"，然后单击"Skype for Business Server **2015Topology Builder"。** 
+6. 启动拓扑生成器：单击"开始"，单击"所有程序"，Skype for Business Server **2015"，** 然后单击"Skype for Business Server **2015Topology Builder"。**
 
 7. 选择使用文件存储的服务器或池，然后执行以下操作：
 
@@ -54,10 +54,10 @@ ms.locfileid: "58614252"
 
 9. 在 **"编辑属性"** 中的 **"关联"下的**"**文件存储"下**，单击"**新建"。**
 
-10. 在 **"定义新文件** 存储"的"文件服务器 **FQDN"** 下，键入文件服务器的 (FQDN) 的完全限定域名。 在 **"文件共享**"下，键入新文件共享的文件夹名称，然后单击"确定 **"。**
+10. 在 **"定义新文件** 存储"的"文件服务器 **FQDN"** 下，键入 (FQDN) 的完全限定域名。 在 **"文件共享**"下，键入新文件共享的文件夹名称，然后单击"确定 **"。**
 
      > [!IMPORTANT]
-     > 此步骤定义用于拓扑生成器的新文件存储。 只定义一次，而不是为每个服务器定义一次。 在发布拓扑之前，您必须在定义的文件服务器上创建定义的文件存储。 有关详细信息，请参阅[Define the File Store for the Front End](/previous-versions/office/communications/gg133895(v=ocs.14))。
+     > 此步骤定义用于拓扑生成器的新文件存储。 只需定义一次，而不是为每个服务器定义一次。 在发布拓扑之前，您必须在定义的文件服务器上创建定义的文件存储。 有关详细信息，请参阅[Define the File Store for the Front End](/previous-versions/office/communications/gg133895(v=ocs.14))。
 
 11. 对于使用文件存储的每个服务器或池，执行以下操作：
 
@@ -67,7 +67,7 @@ ms.locfileid: "58614252"
 
 14. 发布拓扑，检查复制状态，然后根据需要Skype for Business Server部署向导。 有关详细信息，请参阅[Common Procedures for Removing Lync Servers and Components](/previous-versions/office/skype-server-2010/gg195688(v=ocs.14))。
 
-15. 启动命令提示符：单击 **"开始"，** 单击 **"运行**"，然后键入cmd.exe。
+15. 启动命令提示符：单击"开始 **"，** 单击 **"运行**"，然后键入cmd.exe。
 
 16. 在命令行中键入：
 

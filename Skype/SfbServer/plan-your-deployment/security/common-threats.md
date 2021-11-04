@@ -1,7 +1,7 @@
 ---
 title: 现代日常计算中的常见安全威胁
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/22/2016
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 56d22197-e8e2-46b8-b3a3-507bd663700e
 description: 由于Skype for Business Server是企业级通信系统，因此应注意可能会影响其基础结构和通信的常见安全攻击。
-ms.openlocfilehash: 04fa1eb040c1e208781d862da0bd92bc68a77dbd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: dcc889ea43c06c2f8166d588b8d7e5eb7075b52c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629505"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741918"
 ---
 # <a name="common-security-threats-in-modern-day-computing"></a>现代日常计算中的常见安全威胁
  
@@ -27,7 +27,7 @@ ms.locfileid: "58629505"
   
 ## <a name="compromised-key-attack"></a>破解密钥攻击
 
-密钥是用于加密、解密或验证机密信息的机密代码或数字。 在公钥基础结构和 PKI (有两个) ，必须考虑： 
+密钥是用于加密、解密或验证机密信息的机密代码或数字。 在公钥基础结构和 PKI (，) 两个必须注意的敏感密钥： 
   
 - 每个证书持有者具有的私钥
     
@@ -35,7 +35,7 @@ ms.locfileid: "58629505"
     
 破解密钥攻击是指攻击者破解私钥或会话密钥的行为。 攻击者在成功破解密钥之后，可以使用此密钥对已加密的数据进行解密，而数据的发送者对此毫不知情。
   
-Skype for Business Server使用 Windows Server 操作系统中的 PKI 功能来保护用于加密传输层安全性的密钥数据 (TLS) 连接。 用于媒体加密的密钥通过 TLS 连接进行交换。
+Skype for Business Server使用 Windows Server 操作系统中的 PKI 功能来保护用于传输层安全性加密的密钥数据 (TLS) 连接。 用于媒体加密的密钥通过 TLS 连接进行交换。
   
 ## <a name="network-denial-of-service-attack"></a>网络拒绝服务攻击
 
@@ -53,13 +53,13 @@ Skype for Business Server使用 Windows Server 操作系统中的 PKI 功能来�
 
 在攻击者获取对网络中数据路径的访问权并能够监控和读取流量内容时，会发生窃听。窃听也称为监听或窥探。如果流量内容采用纯文本形式，则攻击者在获取路径的访问权之后即可读取流量内容。例如，通过控制数据路径上的路由器进行攻击。 
   
-对于内部流量的默认建议和Skype for Business Server是在受信任服务器 (TLS 之间) TLS 之间使用 MTLS 协议。 这种保护措施会使在给定对话发生期间很难或不可能实现攻击。 TLS 可对各方执行身份验证，并对所有流量内容进行加密。 这样不能阻止窃听，但攻击者不能读取流量内容，除非破坏加密。
+对于内部流量的默认建议和Skype for Business Server是在受信任服务器之间 (TLS) TLS 与从客户端到服务器的 TLS 之间使用相互 TLS 协议。 这种保护措施会使在给定对话发生期间很难或不可能实现攻击。 TLS 可对各方执行身份验证，并对所有流量内容进行加密。 这样不能阻止窃听，但攻击者不能读取流量内容，除非破坏加密。
   
 遍历使用中继 NAT (TURN) 协议不要求加密通信，并且它发送的信息受消息完整性保护。 尽管它会窃听，但它正在发送的信息 (即 IP 地址和端口) 只需查看数据包的源地址和目标地址，就可以直接提取。 A/V 边缘服务通过使用从几个项目（包括从不以纯文本发送的 TURN 密码）派生的密钥检查消息的消息完整性，以确保数据有效。 如果使用安全实时协议 (SRTP) ，则还会加密媒体流量。
   
 ## <a name="identity-spoofing-ip-address-and-caller-id-spoofing"></a>标识欺骗 (IP 地址和来电显示欺骗) 
 
-当攻击者在未获得授权的情况下确定并使用有效用户的电话号码 (呼叫者 ID) 或网络、计算机或网络组件的 IP 地址时，会发生身份欺骗。 成功的攻击使攻击者可以像通常由电话号码（呼叫者 ID 或 IP 地址 (标识) 一样操作。
+当攻击者在未获得授权的情况下确定并使用有效用户的电话号码 (呼叫者 ID) 或网络、计算机或网络组件的 IP 地址时，会发生身份欺骗。 成功的攻击使攻击者可以像通常由电话号码或呼叫者 ID (IP 地址) 一样操作。
 
 在安全Skype for Business Server，只有当管理员已执行以下两项操作时，IP 地址欺骗才生效：
   
@@ -69,11 +69,11 @@ Skype for Business Server使用 Windows Server 操作系统中的 PKI 功能来�
     
 此操作对于传输层安全性 (TLS) 连接而言不成问题，因为 TLS 对所有方进行验证并加密所有通信。 使用 TLS 可防止攻击者对特定连接（例如，相互 TLS 连接）执行 IP 地址欺骗攻击。 但攻击者仍然可能会欺骗用户使用的 DNS Skype for Business Server地址。 但是，由于Skype for Business身份验证是使用证书执行的，因此攻击者将没有欺骗通信中的一方所需的有效证书。
 
-另一方面，在提供商、PSTN 网关或其他 PBX 系统与服务提供商之间建立 SIP 中继后，呼叫者 ID 欺骗Skype for Business Server。 在这些情况下，Skype for Business Server不会提供任何保护来防止呼叫者 ID 欺骗。 这意味着，Skype for Business用户可以通过显示电话号码或 显示名称 (的欺骗性呼叫者 ID 从 SIP 中继接收呼叫，如果反向号码查找适用于另一) 用户Skype for Business呼叫。 应在提供程序端、PSTN 或 PBX 网关上应用对此的保护。
+另一方面，当在提供商、PSTN 网关或其他 PBX 系统与交换机之间建立 SIP 中继时，呼叫者 ID 欺骗Skype for Business Server。 在这些情况下，Skype for Business Server不会提供任何保护以防止呼叫者 ID 欺骗。 这意味着，Skype for Business用户可以通过显示电话号码或 显示名称 (的欺骗呼叫者 ID 接收来自 SIP 中继的呼叫（如果反向号码查找适用于另一) 用户Skype for Business号码）。 应在提供程序端、PSTN 或 PBX 网关上应用对此的保护。
   
 ## <a name="man-in-the-middle-attack"></a>中间人攻击
 
-当攻击者在两个通信用户不知情的情况下通过其计算机重新路由两个用户之间的通信时，会发生中间人攻击。 攻击者可以在将通信内容发送到预期接收人之前监控和读取通信内容。 通信中的每个用户在不知情的情况下向攻击者发送通信和从攻击者接收通信，还以为自己只是在与预期用户进行通信。 如果攻击者可修改 Active Directory 域服务以将他（她）的服务器添加为受信任服务器或修改域名系统 (DNS) 以让客户端在与服务器通信时通过攻击者，则会发生这种情况。 中间人攻击还可能发生在两个客户端之间的媒体流量中。 但是，在Skype for Business Server点音频、视频和应用程序共享中，流使用 SRTP 进行加密，使用在通过 TLS 使用会话初始协议 (SIP) 的对等方之间协商的加密密钥。 诸如 Group Chat 的服务器使用 HTTPS 来增强 Web 通信的安全性。
+当攻击者在两个通信用户不知情的情况下通过其计算机重新路由两个用户之间的通信时，会发生中间人攻击。 攻击者可以在将通信内容发送到预期接收人之前监控和读取通信内容。 通信中的每个用户在不知情的情况下向攻击者发送通信和从攻击者接收通信，还以为自己只是在与预期用户进行通信。 如果攻击者可修改 Active Directory 域服务以将他（她）的服务器添加为受信任服务器或修改域名系统 (DNS) 以让客户端在与服务器通信时通过攻击者，则会发生这种情况。 中间人攻击还可能发生在两个客户端之间的媒体流量中。 但是，在Skype for Business Server点音频、视频和应用程序共享中，流使用 SRTP 进行加密，使用在通过 TLS 的会话初始协议 (SIP) 的对等方之间协商的加密密钥。 诸如 Group Chat 的服务器使用 HTTPS 来增强 Web 通信的安全性。
   
 ## <a name="rtp-replay-attack"></a>RTP 重播攻击
 
@@ -91,7 +91,7 @@ Spim 是主动提供的商业即时消息或状态订阅请求。虽然 Spim 本
 
 Skype for Business Server可能会通过可能链接到个人的公用网络披露信息。 这些信息类型具体可分为两大类：
   
-- **增强状态数据** 增强状态数据是用户可以选择通过指向联盟伙伴的链接或与组织中联系人共享或不共享的信息。 不与公用 IM 网络上的用户共享此数据。 客户端策略和其他客户端配置可能会为系统管理员提供一些控制能力。 在Skype for Business Server中，可以针对单个用户配置增强状态隐私模式Skype for Business以防止不在用户的联系人列表中的用户看到该用户状态信息。 增强状态隐私模式不会阻止 Microsoft Office Communicator 2007 和 Microsoft Office Communicator 2007 R2 的用户看到用户状态信息。 有关部署客户端和状态的详细信息，[请参阅为客户端](../../deploy/deploy-clients/deploy-clients.md)部署Skype for Business Server和在客户端部署中规划即时消息[Skype for Business Server。](../../plan-your-deployment/instant-messaging-and-presence.md)
+- **增强状态数据** 增强状态数据是用户可以选择通过指向联盟伙伴的链接或与组织中联系人共享或不共享的信息。 不与公用 IM 网络上的用户共享此数据。 客户端策略和其他客户端配置可能会为系统管理员提供一些控制能力。 在Skype for Business Server，可以针对单个用户配置增强状态隐私模式Skype for Business以防止不在用户的联系人列表中的用户看到该用户状态信息。 增强状态隐私模式不会阻止 Microsoft Office Communicator 2007 和 Microsoft Office Communicator 2007 R2 的用户看到用户状态信息。 有关部署客户端和状态的详细信息，请参阅为客户端部署[](../../deploy/deploy-clients/deploy-clients.md)Skype for Business Server和在客户端部署中规划即时消息[Skype for Business Server。](../../plan-your-deployment/instant-messaging-and-presence.md)
     
 - **必需数据** 服务器或客户端的正确操作需要必需数据，并且这些数据不在客户端或系统管理的控制之下。 对于路由、状态维护和信号传输而言，此信息是必需的服务器或网络级别信息。
     
@@ -103,7 +103,7 @@ Skype for Business Server可能会通过可能链接到个人的公用网络披�
 |:-----|:-----|
 |个人数据  <br/> |姓名、职务、公司、电子邮件地址、时区  <br/> |
 |电话号码  <br/> |工作电话号码、手机号码、住宅电话号码  <br/> |
-|日历信息  <br/> |闲/忙、外出通知、会议详细信息 (日历联系人查看)   <br/> |
+|日历信息  <br/> |闲/忙、外出通知、会议 (日历会议通知、会议详细信息)   <br/> |
 |状态  <br/> |离开、空闲、忙碌、请勿打扰、脱机  <br/> |
    
 **必需数据**

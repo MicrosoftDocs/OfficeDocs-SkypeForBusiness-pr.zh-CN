@@ -1,7 +1,7 @@
 ---
 title: ClientVersions 视图
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: caf7678f-83a0-46c8-83cc-fee4c3991f52
 description: ClientVersions 视图存储已参与数据库中记录的会话的各种客户端类型和版本的相关信息。 视图中的每条记录都代表一个客户端版本。 此视图在 Microsoft Lync Server 2013 中引入。
-ms.openlocfilehash: bb17827f018919ba7b6088da884904a959bd6398
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 91f206a482803cbecd2704638cffdff1aec5c8c8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593476"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740308"
 ---
 # <a name="clientversions-view"></a>ClientVersions 视图
  
@@ -27,7 +27,7 @@ ClientVersions 视图存储已参与数据库中记录的会话的各种客户�
 > [!NOTE]
 > 某些列可能有多条记录。 
   
-|**列**|**数据类型**|**Details**|
+|**列**|**数据类型**|**详细信息**|
 |:-----|:-----|:-----|
 |**VersionId** <br/> |int  <br/> |标识此客户端类型和版本的唯一编号。  <br/> |
 |**版本** <br/> |nvarchar (256)   <br/> |代表用户代理。  <br/> |

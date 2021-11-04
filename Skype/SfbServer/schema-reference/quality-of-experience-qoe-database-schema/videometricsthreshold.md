@@ -1,7 +1,7 @@
 ---
 title: VideoMetricsThreshold 表
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,19 +13,19 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 2e2f4711-35ba-48c6-b15b-5aba61c4eb75
 description: VideoMetricsThreshold 表包含用于视频呼叫的用户体验质量指标的最佳值和可接受值。
-ms.openlocfilehash: 9ad1be885a9d922b3884192f543e0e8e1c6415e0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 08ebc41fd49fc29583059aa03601f9acc384c822
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586768"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741778"
 ---
 # <a name="videometricsthreshold-table"></a>VideoMetricsThreshold 表
  
 VideoMetricsThreshold 表包含用于视频呼叫的用户体验质量指标的最佳值和可接受值。
   
 
-| **列**                                               | **数据类型**       | **键/索引**  | **Details**                          |
+| **列**                                               | **数据类型**       | **键/索引**  | **详细信息**                          |
 |:---------------------------------------------------------|:--------------------|:---------------|:-------------------------------------|
 | **CallType** <br/>                                       | int  <br/>          | 主  <br/> | 发出的呼叫的类型。  <br/> |
 | **VideoPostFECPLROptimal** <br/>                         | decimal (5，2)   <br/> |                | 默认值为 0.05。  <br/>    |

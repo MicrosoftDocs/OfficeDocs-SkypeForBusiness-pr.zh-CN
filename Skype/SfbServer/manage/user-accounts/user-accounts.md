@@ -1,7 +1,7 @@
 ---
-title: 管理 Skype for Business Server 的用户帐户
+title: 管理用户的用户帐户Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,47 +11,47 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 2fe7e3a7-bc75-4d4b-94af-a8818722b0d3
-description: 本文中的各节介绍如何从 Skype for Business Server 中启用、临时禁用或删除 Active Directory 用户。
-ms.openlocfilehash: 8e33d22c8a4e3359a7fdbbb4c8420f3a0e65f5a4
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+description: 本文中的各节介绍如何启用、临时禁用 Active Directory 用户或删除 active Directory Skype for Business Server。
+ms.openlocfilehash: e079895d80366ecbd6a10be864b78b0d625e495a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60015156"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742078"
 ---
-# <a name="manage-user-accounts-for-skype-for-business-server"></a>管理 Skype for Business Server 的用户帐户
+# <a name="manage-user-accounts-for-skype-for-business-server"></a>管理用户的用户帐户Skype for Business Server
 
-本文中的各节介绍如何从 Skype for Business Server 中启用、临时禁用或删除 Active Directory 用户。
+本文中的各节介绍如何启用、临时禁用 Active Directory 用户或删除 active Directory Skype for Business Server。
 
 若要了解如何启用 Active Directory 用户，请参阅创建新的 [用户帐户](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc732336(v=ws.11))。 若要了解如何删除 Active Directory 用户，请参阅删除 [用户帐户](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753730(v=ws.11))。
 
-这些过程应在 Skype for Business 使用率最低时在维护时段执行。 这是按日计划还是按周完成，这由组织的需求决定。
+这些过程应在维护时段内执行，Skype for Business使用率最低时。 这是按每天还是按周计划完成，取决于组织的需要。
 
 本文包含以下过程：
 
 - [搜索一个或多个用户](user-accounts.md#Search)
 
-- [添加和启用新的 Skype for Business Server 用户](user-accounts.md#Add)
+- [添加和启用新的Skype for Business Server用户](user-accounts.md#Add)
 
-- [禁用或重新启用先前为 Skype for Business Server 启用的用户帐户](user-accounts.md#Disable)
+- [禁用或重新启用以前为用户启用的Skype for Business Server](user-accounts.md#Disable)
 
 - [为用户禁用企业语音](user-accounts.md#Disable_EV)
 
-- [使用 Skype for Business Server 命令行管理程序删除用户帐户](user-accounts.md#Remove)
+- [使用命令行管理程序Skype for Business Server用户帐户](user-accounts.md#Remove)
 
 ## <a name="to-search-for-one-or-more-users"></a>搜索一个或多个用户
 <a name="Search"> </a>
 
-您可以使用搜索查询的结果为 Skype for Business Server 配置 Active Directory 用户。 可以按照显示名称、名字、姓氏、安全帐户管理器 (SAM) 帐户名、SIP 地址或线路统一资源标识符 (URI) 搜索用户。
+您可以使用搜索查询的结果为 Active Directory 用户配置Skype for Business Server。 可以按照显示名称、名字、姓氏、安全帐户管理器 (SAM) 帐户名、SIP 地址或线路统一资源标识符 (URI) 搜索用户。
 
-可以使用 Skype for Business Server 控制面板或 Active Directory 用户和计算机管理单元搜索用户。 以下过程介绍如何使用 Skype for Business Server 控制面板搜索用户。
+可以使用"Active Directory 用户和计算机"Skype for Business Server控制面板或"Active Directory 用户和计算机"管理单元来搜索用户。 以下过程介绍如何使用Skype for Business Server控制面板搜索用户。
 
 > [!NOTE]
 > 在具有中央林拓扑的环境中，当您按用户的电子邮件地址搜索用户时，搜索结果可能不准确。 可以改为通过指定 SIP 地址前缀（例如，sip:name）来搜索用户，然后添加搜索筛选器并选择包含部分电子邮件地址的 SIP 地址，或使用 **Get-CSUser** cmdlet。
 
 1. 使用分配给 CsUserAdministrator 角色或 CsAdministrator 角色的用户帐户登录到内部部署中的任何计算机。
 
-2. 打开浏览器窗口，然后输入管理 URL 以打开 Skype for Business Server 控制面板。
+2. 打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。
 
 3. 在左侧导航栏中，单击“用户”。
 
@@ -69,16 +69,16 @@ ms.locfileid: "60015156"
 
 6. 搜索结果将显示在“搜索结果”下。可以选择列表中的任何或全部用户，并对选择的用户执行配置任务。
 
-## <a name="add-and-enable-a-new-skype-for-business-server-user"></a>添加和启用新的 Skype for Business Server 用户
+## <a name="add-and-enable-a-new-skype-for-business-server-user"></a>添加和启用新的Skype for Business Server用户
 <a name="Add"> </a>
 
-在 Active Directory 用户和计算机中启用用户帐户后，可以使用 Skype for Business Server 控制面板通过向 Skype for Business Server 添加 Active Directory 用户来创建和启用新的 Skype for Business Server 用户帐户。
+在 Active Directory 用户和计算机中启用用户帐户后，可以使用 Skype for Business Server 控制面板创建和启用新的 Skype for Business Server 用户帐户，通过将 Active Directory 用户添加到 Skype for Business Server。
 
 您还可以使用 cmdlet，特别是 [Enable-CsUser](/powershell/module/skype/enable-csuser)。
 
 1. 使用分配给 CsUserAdministrator 角色或 CsAdministrator 角色的用户帐户登录到内部部署中的任何计算机。
 
-2. 打开浏览器窗口，然后输入管理 URL 以打开 Skype for Business Server 控制面板。
+2. 打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。
 
 3. 在左侧导航栏中，单击“用户”。
 
@@ -88,18 +88,18 @@ ms.locfileid: "60015156"
 
 6. 在“搜索用户”框中，键入所需 Active Directory 用户帐户的完整的名称、显示名称、名字、姓氏、安全帐户管理器 (SAM) 帐户名、电子邮件地址、用户主体名称 (UPN) 或电话号码，或这些内容的第一部分，然后单击“查找”。
 
-7. 在表中，选择要添加到 Skype for Business Server 的帐户，然后单击"确定 **"。**
+7. 在表中，选择要添加到Skype for Business Server帐户，然后单击"确定 **"。**
 
 8. 将该用户分配给某个池，指定其他任何详细信息，并向所需用户分配策略，然后单击“启用”。
 
-## <a name="disable-or-re-enable-a-user-account-previously-enabled-for-skype-for-business-server"></a>禁用或重新启用先前为 Skype for Business Server 启用的用户帐户
+## <a name="disable-or-re-enable-a-user-account-previously-enabled-for-skype-for-business-server"></a>禁用或重新启用以前为用户启用的Skype for Business Server
 <a name="Disable"> </a>
 
-可以使用以下过程在 Skype for Business Server 中禁用以前启用的用户帐户，而不会丢失为用户帐户配置的 Skype for Business Server 设置。 由于不会丢失 Skype for Business Server 用户帐户设置，因此可以重新启用以前启用的用户帐户，而无需重新配置用户帐户。
+可以使用以下过程在 Skype for Business Server禁用以前启用的用户帐户Skype for Business Server为用户帐户配置的所有设置。 由于不会丢失Skype for Business Server设置，因此可以重新启用以前启用的用户帐户，而无需重新配置用户帐户。
 
 1. 使用分配给 CsUserAdministrator 角色或 CsAdministrator 角色的用户帐户登录到内部部署中的任何计算机。
 
-2. 打开浏览器窗口，然后输入管理 URL 以打开 Skype for Business Server 控制面板。
+2. 打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。
 
 3. 在左侧导航栏中，单击“用户”。
 
@@ -109,13 +109,13 @@ ms.locfileid: "60015156"
 
 6. 在“操作”菜单上，执行下列操作之一：
 
-   - 若要暂时禁用 Skype for Business Server 的用户帐户，请单击"**暂时禁用 Lync Server"。**
+   - 若要暂时禁用用户的用户帐户Skype for Business Server，请单击"**暂时禁用 Lync Server"。**
 
-   - 若要为 Skype for Business Server 启用用户帐户，请单击"**重新启用 Lync Server"。**
+   - 若要为用户帐户启用Skype for Business Server，请单击 **"重新启用 Lync Server"。**
 
 ### <a name="use-windows-powershell-to-disable-or-re-enable-user-accounts"></a>使用 Windows Powershell 禁用或重新启用用户帐户
 
-可以使用 **Set-CsUser** cmdlet 暂时禁用用户帐户，稍后再重新启用。 可以从 Skype for Business Server 命令行管理程序或远程会话运行此 cmdlet Windows PowerShell。 有关使用远程 powerShell Windows PowerShell Skype for Business Server 的详细信息，请参阅 [Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 此过程在 Skype for Business Server 中是相同的。
+可以使用 **Set-CsUser** cmdlet 暂时禁用用户帐户，稍后再重新启用。 可以从命令行管理程序或 Skype for Business Server远程会话中运行此 cmdlet Windows PowerShell。 有关使用远程 powerShell Windows PowerShell连接到Skype for Business Server的详细信息，请参阅 Microsoft Lync [Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 此过程在 Skype for Business Server 中Skype for Business Server。
 
 ### <a name="to-disable-a-user-account"></a>禁用用户帐户
 
@@ -138,13 +138,13 @@ ms.locfileid: "60015156"
 ## <a name="disable-a-user-for-enterprise-voice"></a>为用户禁用企业语音
 <a name="Disable_EV"> </a>
 
-使用以下过程禁用企业语音 Skype for Business Server 的用户帐户的登录权限。
+使用以下过程禁用企业语音启用的用户帐户Skype for Business Server。
 
 ### <a name="to-disable-a-user-account-for-enterprise-voice"></a>为用户禁用用户帐户企业语音
 
 1. 使用分配给 CsUserAdministrator 角色或 CsAdministrator 角色的用户帐户登录到内部部署中的任何计算机。
 
-2. 打开浏览器窗口，然后输入管理 URL 以打开 Skype for Business Server 控制面板。
+2. 打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。
 
 3. 在左侧导航栏中，单击“用户”。
 
@@ -161,18 +161,18 @@ ms.locfileid: "60015156"
 
 8. 单击“提交”。
 
-用户现在无法使用 企业语音 功能。 相关信息： <br/>[企业语音移动性](/previous-versions/office/lync-server-2013/lync-server-2013-managing-enterprise-voice-for-users)<br/> [在 Skype for Business Server 企业语音用户](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)<br/> [Skype for Business Server 命令行管理程序](../management-shell.md)
-## <a name="remove-a-user-account-with-the-skype-for-business-server-management-shell"></a>使用 Skype for Business Server 命令行管理程序删除用户帐户
+用户现在无法使用 企业语音 功能。 相关信息： <br/>[企业语音移动性](/previous-versions/office/lync-server-2013/lync-server-2013-managing-enterprise-voice-for-users)<br/> [在用户企业语音中Skype for Business Server](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)<br/> [Skype for Business Server 命令行管理程序](../management-shell.md)
+## <a name="remove-a-user-account-with-the-skype-for-business-server-management-shell"></a>使用命令行管理程序Skype for Business Server用户帐户
 <a name="Remove"> </a>
 
-可以使用以下过程删除以前在 Skype for Business Server 中添加的用户帐户。
+可以使用以下过程删除以前在 Skype for Business Server 中添加的Skype for Business Server。
 
 > [!NOTE]
-> 移除用户将导致您丢失为用户帐户配置的所有设置。 如果要临时禁用用户帐户，请参阅禁用或重新启用以前为 Skype for Business Server 启用 [的用户帐户](user-accounts.md#Disable)。
+> 移除用户将导致您丢失为用户帐户配置的所有设置。 如果要改为暂时禁用用户帐户，请参阅禁用或重新启用以前为用户帐户启用[Skype for Business Server。](user-accounts.md#Disable)
 
 1. 使用分配给 CsUserAdministrator 角色或 CsAdministrator 角色的用户帐户登录到内部部署中的任何计算机。
 
-2. 打开浏览器窗口，然后输入管理 URL 以打开 Skype for Business Server 控制面板。
+2. 打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。
 
 3. 在左侧导航栏中，单击“用户”。
 
@@ -184,9 +184,9 @@ ms.locfileid: "60015156"
 
 7. 从该对话框中，选择“确定”来移除该用户。
 
-### <a name="remove-user-accounts-with-windows-powershell-cmdlets"></a>使用 Windows Powershell cmdlet 删除用户帐户
+### <a name="remove-user-accounts-with-windows-powershell-cmdlets"></a>使用 Powershell cmdlet Windows用户帐户
 
-您可以使用 Disable-CsUser cmdlet 删除用户帐户。 可以从 Skype for Business Server 命令行管理程序或远程会话命令行管理程序运行此 cmdlet Windows PowerShell。 有关使用远程 powerShell Windows PowerShell Skype for Business Server 的详细信息，请参阅 [Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 此过程在 Skype for Business Server 中是相同的。
+您可以使用 Disable-CsUser cmdlet 删除用户帐户。 此 cmdlet 可以从命令行管理程序Skype for Business Server远程会话运行Windows PowerShell。 有关使用远程 powerShell Windows PowerShell连接到Skype for Business Server的详细信息，请参阅 Microsoft Lync [Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 此过程在 Skype for Business Server 中Skype for Business Server。
 
 ### <a name="to-remove-a-user-account"></a>删除用户帐户
 若要移除用户帐户，请使用 Disable-CsUser cmdlet。例如：

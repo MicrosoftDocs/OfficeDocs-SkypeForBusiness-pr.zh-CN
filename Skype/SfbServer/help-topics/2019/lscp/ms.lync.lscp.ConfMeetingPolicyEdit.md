@@ -1,7 +1,7 @@
 ---
 title: 会议策略 创建新的或编辑现有的
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -14,17 +14,17 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ebd2f120-b57a-4c94-9509-20e098f4b0f4
 ROBOTS: NOINDEX, NOFOLLOW
-description: 会议策略定义会议期间用户可以使用 (也称为会议) 。
-ms.openlocfilehash: f06ae9e2a23e83ec00fa77acf46d30a0b78fbeab
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 会议策略定义会议期间用户可用的特性和功能 (也称为会议) 。
+ms.openlocfilehash: 9d62ac561252c3cda025f040c2de335c49c12bae
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624354"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753011"
 ---
 # <a name="conferencing-policy-create-new-or-edit-existing"></a>会议策略：创建新的或编辑现有的
 
-会议策略定义会议期间用户可以使用 (也称为会议) 。
+会议策略定义会议期间用户可用的特性和功能 (也称为会议) 。
 
 ## <a name="ui-reference"></a>用户界面参考
 
@@ -59,11 +59,11 @@ ms.locfileid: "58624354"
 
   - **启用 IP 音频/视频** 选择此选项可允许音频和视频。
 
-- **启用 PSTN 电话拨入式会议** 如果在"音频 **/** 视频"中启用了音频，则选中此复选框可允许用户通过使用公用电话交换网或 PSTN (拨入) 。
+- **启用 PSTN 电话拨入式会议** 如果在"音频 **/** 视频"中启用了音频，则选中此复选框可允许用户使用公用电话交换网和 PSTN (拨入) 。
 
-- **允许匿名参与者拨出** 如果允许用户拨入会议，并且希望允许未经身份验证的 (匿名) 用户使用拨出式电话加入会议，请选中此复选框。 通过拨出式电话，会议服务器会呼叫用户，用户接听电话即可加入会议。
+- **允许匿名参与者拨出** 如果你允许用户拨入会议，并且希望允许未经身份验证的 (匿名) 用户使用拨出式电话加入会议，请选中此复选框。 通过拨出式电话，会议服务器会呼叫用户，用户接听电话即可加入会议。
 
-- **允许未启用企业语音进行拨出** 如果在"音频 **/** 视频"中启用了音频，则选中此复选框可允许未启用 企业语音 的用户通过拨出式电话加入会议。 通过拨出式电话，会议服务器会呼叫用户，然后用户接听电话以加入会议。
+- **允许未启用企业语音进行拨出** 如果在"音频 **/** 视频"中启用了音频，则选中此复选框可允许未启用 企业语音 的用户使用拨出式电话加入会议。 通过拨出式电话，会议服务器会呼叫用户，然后用户接听电话以加入会议。
 
 - **允许多个视频流** 如果在"音频/视频"中 **启用了** 视频，请选中此复选框以允许用户使用库视图视频组织会议。 选中此复选框后，此设置允许用户组织发送多个视频流的会议。 未选中此复选框时，用户只能组织发送单个视频流的会议。
 

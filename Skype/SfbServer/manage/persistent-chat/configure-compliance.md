@@ -1,7 +1,7 @@
 ---
-title: 在 2015 年 10 月为持久聊天Skype for Business Server合规性服务
+title: 在 2015 年 10 月为持久聊天服务器Skype for Business Server合规性服务
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 1/31/2018
@@ -13,14 +13,14 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 24e36ea3-fb8a-45a4-b6b7-38c2e256b218
 description: 摘要：了解如何在 Skype for Business Server 2015 中配置持久聊天服务器合规性服务。
-ms.openlocfilehash: 50650c8f5c63d8d407a0660c24e82aab577e5817
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: af574e4b449211f1631c332e7f494fba6c75e750
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602517"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778312"
 ---
-# <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a>在 2015 年 10 月为持久聊天Skype for Business Server合规性服务
+# <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a>在 2015 年 10 月为持久聊天服务器Skype for Business Server合规性服务
 
 **摘要：** 了解如何在 Skype for Business Server 2015 中配置持久聊天服务器合规性服务。
 
@@ -41,7 +41,7 @@ ms.locfileid: "58602517"
 可根据需要从合规性数据库SQL此信息。 
 
 > [!NOTE]
-> 持久聊天在 Skype for Business Server 2015 中可用，但在 2019 年 2 Skype for Business Server不再受支持。 相同的功能在 Teams。 有关详细信息，请参阅[开始升级Microsoft Teams升级](/microsoftteams/upgrade-start-here)。 如果您需要使用持久聊天，则选择将需要此功能的用户迁移到 Teams，或者继续使用 Skype for Business Server 2015。 
+> 持久聊天在 2015 Skype for Business Server可用，但在 2019 年 2 月不再Skype for Business Server支持。 相同的功能在 Teams 中可用。 有关详细信息，请参阅开始[升级Microsoft Teams升级](/microsoftteams/upgrade-start-here)。 如果您需要使用持久聊天，您的选择是迁移需要此功能的用户以Teams或继续使用 Skype for Business Server 2015。 
 
 ## <a name="configure-the-compliance-service-by-using-windows-powershell"></a>使用合规性服务配置Windows PowerShell
 
@@ -51,7 +51,7 @@ ms.locfileid: "58602517"
 Set-CsPersistentChatComplianceConfiguration [-Identity <XdsIdentity>] <COMMON PARAMETERS>
 ```
 
-或
+或者
 
 ```PowerShell
 Set-CsPersistentChatComplianceConfiguration [-Instance <PSObject>] <COMMON PARAMETERS>
@@ -75,7 +75,7 @@ Set-CsPersistentChatComplianceConfiguration [-Instance <PSObject>] <COMMON PARAM
 
 您可以编写自定义适配器，而不是使用与持久聊天服务器一起安装的 XmlAdapter。 若要实现此目的，您必须提供包含实现 **IComplianceAdapter** 接口的公共类的 .NET Framework 程序集。 必须将此程序集放在持久聊天服务器池中每台服务器的持久聊天服务器安装文件夹中。 任一合规性服务器都可以为您的适配器提供合规性数据，但合规性服务器不会为您的适配器的多个实例提供重复的合规性数据。
 
-接口在命名空间 中的 Compliance.dll 程序集中定义  `Microsoft.Rtc.Internal.Chat.Server.Compliance` 。 该接口定义您的自定义适配器必须实现的两个方法。
+接口在命名空间 的 Compliance.dll 程序集中定义  `Microsoft.Rtc.Internal.Chat.Server.Compliance` 。 该接口定义您的自定义适配器必须实现的两个方法。
 
 持久聊天合规性服务器将在适配器首次加载时调用以下方法。 `AdapterConfig`包含与合规性适配器相关的持久聊天合规性配置：
 
@@ -138,7 +138,7 @@ void Translate(ConversationCollection conversations)
 
 |**属性**|**说明**|**可选/必需**|
 |:-----|:-----|:-----|
-|类型  <br/> |指定消息类型。消息类型将在“Message 元素消息类型”表中进行介绍。  <br/> |必需  <br/> |
+|类型  <br/> |指定消息类型。消息类型将在“Message 元素消息类型”表中进行介绍。  <br/> |必填  <br/> |
 |内容  <br/> |包含消息的内容。具有 Join 或 Part 类型的消息不使用此属性。  <br/> |可选  <br/> |
 |ID  <br/> |指定内容的唯一 ID。此属性仅用于具有 Chat 类型的消息。  <br/> |可选  <br/> |
 
@@ -149,10 +149,10 @@ void Translate(ConversationCollection conversations)
 |**属性**|**说明**|**可选/必需**|
 |:-----|:-----|:-----|
 |用户名  <br/> |发送者的名称。  <br/> |可选  <br/> |
-|ID  <br/> |发件人的唯一 ID。  <br/> |必需  <br/> |
+|ID  <br/> |发件人的唯一 ID。  <br/> |必填  <br/> |
 |电子邮件  <br/> |发件人的电子邮件地址。  <br/> |可选  <br/> |
 |内部  <br/> |确定用户是内部用户还是联盟用户。如果值设为 True，则用户为内部用户。  <br/> |可选  <br/> |
-|Uri  <br/> |用户的 SIP URI。  <br/> |必需  <br/> |
+|Uri  <br/> |用户的 SIP URI。  <br/> |必填  <br/> |
 
 以下示例显示 Messages 元素可以包含的消息类型。 它还提供了如何使用每个元素的示例。
 

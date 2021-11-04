@@ -1,7 +1,7 @@
 ---
 title: 使用监控仪表板Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,13 +11,13 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: e00e5783-116f-481f-ad17-3af847d6769a
-description: 摘要：了解 Skype for Business Server 中的监控Skype for Business Server。
-ms.openlocfilehash: 544dfdc37f25fe60418dc190a76467c044a58d65
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Summary： Learn about the Monitoring Dashboard in Skype for Business Server.
+ms.openlocfilehash: b03c85355d2217763066ddce68e55eab65343249
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622344"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60772028"
 ---
 # <a name="using-the-monitoring-dashboard-in-skype-for-business-server"></a>使用监控仪表板Skype for Business Server
  
@@ -25,11 +25,11 @@ ms.locfileid: "58622344"
   
 通过监控仪表板，管理员可以快速概览其Skype for Business Server运行状况和系统使用情况。 仪表板旨在显示关键系统指标的聚合视图，并且通过显示以下任一项来实现此目标：
   
-- 当前天的总计。 请注意，为当天显示的值表示从午夜到当前时间记录的数据 (报告服务器记录的本地时间) 。 这意味着你通常会查看部分日期的数据，而不是 24 小时的数据。 例如，如果服务器的本地时间是上午 8：00，则会看到 8 个小时的数据，因为午夜和当前时间上午 8：00 之间有 8 个小时。
+- 当前天的总计。 请注意，当前天显示的值表示从午夜到当前时间记录的数据 (报告服务器记录的本地时间) 。 这意味着你通常会查看部分日期的数据，而不是 24 小时的数据。 例如，如果服务器的本地时间是上午 8：00，则会看到 8 个小时的数据，因为午夜和当前时间上午 8：00 之间有 8 个小时。
     
 - 一周汇总，以及过去六周的趋势汇总。
     
-- 月份总计和过去六个月的趋势总计 (系统使用情况) 。
+- 当月总计和过去六个月的趋势总计 (系统使用情况) 。
     
 请注意，您可以使用[Get-CsReportingConfiguration](/powershell/module/skype/get-csreportingconfiguration?view=skype-ps) cmdlet 返回用于访问监控报告Skype for Business Server URL：
   
@@ -85,7 +85,7 @@ Get-CsReportingConfiguration
     
 - PSTN 参与者总分钟数
     
-除了"系统使用情况"指标之外，如果选择"周视图) "，则以下指标将显示当天和前六天 (如果选择了"周视图) "，或者如果您选择"每月视图"，则显示当前周和过去六周的总 **时间**。
+除了"系统使用情况"指标之外，如果选择"周视图) "，则以下指标将显示当天和前六天 (的总计;如果选择"按月视图"，则显示当前周和过去六周的总时间。 
   
 ## <a name="per-user-call-diagnostics"></a>Per-User呼叫诊断
 
@@ -149,17 +149,17 @@ Get-CsReportingConfiguration
   
 ## <a name="working-with-the-monitoring-dashboard"></a>使用监控仪表板
 
-如前所述，默认情况下显示本周汇总，并显示过去六周的趋势值。 如果您希望查看当月 (以及) 过去六个月的趋势值，请单击仪表板右上角的"每月视图"链接。  如果你决定查看每月总计，链接文本将更改为每周 **视图**。 可以通过单击该链接切换回每周视图。
+如前所述，默认情况下显示本周汇总，并显示过去六周的趋势值。 如果您希望查看当月 (以及过去六个月) 的趋势值，请单击仪表板右上角的"每月视图"链接。  如果你决定查看每月总计，链接文本将更改为每周 **视图**。 可以通过单击该链接切换回每周视图。
   
 > [!TIP]
-> 监控仪表板限制您查看当前周 (或) 的汇总以及过去六周或 (月的趋势) 。 您不能更改这些日期和时间。 例如，不能使用仪表板查看从 9 个月之前开始的时间段的报告总计。 
+> 监控仪表板限制您查看当前周 (或) 的汇总以及过去六周或)  (的趋势) 。 您不能更改这些日期和时间。 例如，不能使用仪表板查看从 9 个月之前开始的时间段的报告总计。 
   
 The values shown in the **This week**， **This month**， or **Today** columns link you to more detailed information about the item. 请记住，列名称和显示在该列中的值通常因选择的指标以及选择每周视图还是按月视图而不同。 例如，如果单击"唯一用户登录数"指标显示的总计，将看到指定时间段的用户注册报告。 通过单击"仪表板"，您随时都可以返回到监控 **仪表板**。
   
 > [!TIP]
 > 您还可以通过单击仪表板右上角的"报告"链接访问监控服务器报告主页。
   
-" **趋势** "列显示一个简单的直线图，显示过去六周或过去六周的总 (或者根据指标和时间间隔，显示过去六天或过去六个月) 。 这些简单的线图针对每个时间段显示一个未标记的 (例如，过去六周内每个时间段的一个未标记) 。 但是，可以通过将鼠标指针悬停在图形上来检索这些图形的实际值。 在这种情况下，工具提示会显示图形中的最大值和最小值。
+" **趋势** "列显示一个简单的直线图，其中显示过去六周或过去六周的总 (或者，根据指标和时间间隔，显示过去六天或过去六个月的) 。 这些简单的直线图针对每个时间段显示一个未标记的 (例如，过去六周内每个时间段的一个未标记) 。 但是，可以通过将鼠标指针悬停在图形上来检索这些图形的实际值。 在这种情况下，工具提示会显示图形中的最大值和最小值。
   
 ## <a name="exporting-data-from-the-monitoring-dashboard"></a>从监控仪表板导出数据
 
@@ -179,7 +179,7 @@ The values shown in the **This week**， **This month**， or **Today** columns 
     
 - Word
     
-若要导出当前仪表板视图 (及其值) ，请单击所需的导出选项。 Skype for Business Server生成指定格式的报告，然后为您提供打开或保存该报告的选项。 请注意，默认情况下，Skype for Business Server报告的标题设置为"监控仪表板 **"，并** 保存到"下载"文件夹中。 若要为报告指定其他名称或将其存储在不同的文件夹中，请单击"保存"按钮旁边的箭头，然后单击"另 **存为"。** 如果名称监控仪表板和将报告保存在"下载"文件夹中，只需单击"保存 **"** 按钮即可。
+若要导出当前仪表板视图 (及其值) ，请单击所需的导出选项。 Skype for Business Server生成指定格式的报告，然后为您提供打开或保存该报告的选项。 请注意，默认情况下，Skype for Business Server"监控仪表板 **"的标题，** 并保存到"下载"文件夹中。 若要为报告指定其他名称或将其存储在不同的文件夹中，请单击"保存"按钮旁边的箭头，然后单击"另 **存为"。** 如果名称监控仪表板和将报告保存在"下载"文件夹中，只需单击"保存 **"** 按钮即可。
   
 当您尝试导出仪表板数据时，可能会显示"安全警报"对话框以及消息"当前设置不允许下载此文件"。 如果发生这种情况，请执行下列操作：
   
@@ -187,11 +187,11 @@ The values shown in the **This week**， **This month**， or **Today** columns 
     
 - 在 **"Internet 选项**"对话框中的"安全"选项卡上，单击"**受信任的** 站点"，然后单击"站点 **"。**
     
-- 在"**受信任的网站"** 对话框中，单击"添加"以Skype for Business Server报告Skype for Business Server报告"添加到受信任网站的集合。
+- 在"**受信任的网站"** 对话框中，单击"添加"以Skype for Business Server报告Skype for Business Server报告"的网站添加到受信任网站的集合。
     
 - 单击 **"关闭**"，然后单击"确定 **"。**
     
-然后，您需要刷新监控仪表板，更改才能生效。 为此，请按 F5 或单击仪表板工具栏中的 **"** 刷新"图标。 **("刷新"** 图标是一个圆形，其中有一对绿色箭头。) 
+然后，您需要刷新监控仪表板，更改才能生效。 为此，请按 F5 或单击仪表板工具栏中的 **"** 刷新"图标。  (**刷新图标** 是一个圆圈，其中有一对绿色箭头。) 
   
 您还可以创建一个Excel数据馈送的电子表格，其中包含指向最新监控仪表板数据的链接。 若要创建实时数据馈送文件，请单击工具栏中的橙色 **"导出到数据源** "图标。
   

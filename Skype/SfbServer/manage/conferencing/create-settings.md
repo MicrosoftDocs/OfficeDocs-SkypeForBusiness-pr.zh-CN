@@ -1,7 +1,7 @@
 ---
 title: 在会议环境中创建会议Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6d8f9ff8-2a04-4175-9bf0-1ec5d78fd015
 description: 摘要：了解如何在会议环境中创建会议Skype for Business Server。
-ms.openlocfilehash: ad1f4fabf172fa5ff693a91e7994916487c322e7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 03a9194a5b4015d9434641e7946b66c57ff4df77
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595564"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60747148"
 ---
 # <a name="create-meeting-configuration-settings-in-skype-for-business-server"></a>在会议环境中创建会议Skype for Business Server
  
@@ -53,7 +53,7 @@ ms.locfileid: "58595564"
     
 8. 要阻止自动允许匿名（未经身份验证）用户参加会议，请清除 **“默认允许匿名用户”** 复选框。默认情况下，自动允许匿名用户参加会议。
     
-9. 若要自定义发送给参与者的会议邀请，请执行下列操作。 请注意，URL 和自定义页脚文本的最大长度为 1KB。 帮助 **URL** 除外，如果不为自定义项指定值，则它们将不会包含在会议中。 如果不包含自定义帮助 URL，则邀请中将显示Skype for Business的默认帮助 URL。 
+9. 若要自定义发送给参与者的会议邀请，请执行下列操作。 请注意，URL 和自定义页脚文本的最大长度为 1KB。 帮助 **URL** 除外，如果不为自定义项指定值，它们将不会包含在会议中。 如果不包括自定义帮助 URL，则邀请中将显示Skype for Business的默认帮助 URL。 
     
    - 若要自定义会议邀请中出现的徽标，请在"徽标 **URL"** 中输入徽标的位置。 徽标必须是大小为 188 x 30 像素的 GIF 或 JPG 图像。 
     
@@ -75,7 +75,7 @@ ms.locfileid: "58595564"
 New-CsMeetingConfiguration -Identity "site:Redmond"
 ```
 
-由于上述 (中未指定必需的 Identity) 参数，因此新的会议配置设置将使用其所有属性的默认值。
+由于除了 (Identity 参数参数) ，因此新的会议配置设置将在其所有属性中都使用默认值。
   
 要创建使用不同属性值的设置，只需包含相应的参数和参数值。 例如，若要创建默认情况下允许所有人以演示者角色加入会议的会议配置设置集合，请使用类似如下的命令：
   

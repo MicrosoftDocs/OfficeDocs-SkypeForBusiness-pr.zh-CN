@@ -1,7 +1,7 @@
 ---
 title: 选择 E9-1-1 服务提供商进行Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 58bd6284-0bc0-420b-bc08-7035b348c03c
 description: 在部署中为 E9-1-1 部署选择Skype for Business Server 企业语音。
-ms.openlocfilehash: 834e0c730721e17253ac644559fd67c930ccaa02
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5ed65185e8c04855d437013c91ba92678bb4baca
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580496"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746808"
 ---
 # <a name="choose-an-e9-1-1-service-provider-for-skype-for-business-server"></a>选择 E9-1-1 服务提供商进行Skype for Business Server
  

@@ -1,7 +1,7 @@
 ---
 title: 位置策略
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 5530cf17-4520-40b5-ba70-c62692685048
 ROBOTS: NOINDEX, NOFOLLOW
 description: 位置策略确定是否启用增强型 9-1-1 (E9-1-1) 和如何使用它，以及如何将位置信息用于用户和联系人。
-ms.openlocfilehash: 6a985be60453f70cf0cdb47a212f858d74d56032
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6be87514ef98d23ccc0440b55451d40d7f2bc584
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613181"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60752867"
 ---
 # <a name="location-policy"></a>位置策略
 
@@ -30,12 +30,12 @@ ms.locfileid: "58613181"
 
 - **全局策略：** 默认情况下，将创建全局策略。 可以编辑全局策略，但无法将其删除。 如果您尝试删除全局策略，则所有设置将重置为默认值。
 
-- **网站策略 (可选) ：** 可以创建一个或多个站点位置策略，每个策略都适用于特定网站。 站点策略会覆盖全局策略。
+- **站点策略 (可选) ：** 可以创建一个或多个站点位置策略，每个策略都适用于特定网站。 站点策略会覆盖全局策略。
 
 - **用户策略 (可选) ：** 可以创建一个或多个用户位置策略，每个策略都适用于特定用户或用户组。 用户策略会覆盖全局策略和站点策略。
 
 > [!NOTE]
-> 也可以向网络站点（即子网组）分配位置策略。 分配给网络站点的位置策略优先于所有其他用户策略。 有关使用 cmdlet 向网络站点分配位置策略的详细信息，请参阅在 Skype for Business Server 中向[网络站点添加位置策略](../../../deploy/deploy-enterprise-voice/add-a-location-policy-to-a-network-site.md)。 有关使用 Skype for Business Server 控制面板向网络站点分配位置策略的详细信息，请参阅[配置网络站点](/previous-versions/office/lync-server-2013/lync-server-2013-creating-or-modifying-network-sites)。
+> 也可以向网络站点（即子网组）分配位置策略。 分配给网络站点的位置策略优先于所有其他用户策略。 有关使用 cmdlet 向网络站点分配位置策略的详细信息，请参阅在 Skype for Business Server 中向网络站点[添加位置策略](../../../deploy/deploy-enterprise-voice/add-a-location-policy-to-a-network-site.md)。 有关使用 Skype for Business Server 控制面板向网络站点分配位置策略的详细信息，请参阅[配置网络站点](/previous-versions/office/lync-server-2013/lync-server-2013-creating-or-modifying-network-sites)。
 
 “位置策略”页显示一个为组织定义的所有位置策略的列表。
 

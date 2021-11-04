@@ -1,7 +1,7 @@
 ---
-title: 前端池中的Skype for Business Server
+title: 前端池的灾难恢复Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,14 +13,14 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 142caf34-0f20-47f3-9d32-ce25ab622fad
 description: 对于灾难恢复，Skype for Business Server在一个池出现故障时提供与故障转移的池配对。
-ms.openlocfilehash: b6a2c33c123f70850335ce55aba06071ff4104eb
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 6559b5af285027d9f1cb6ea3682304dedbbb4165
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728831"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740428"
 ---
-# <a name="front-end-pool-disaster-recovery-in-skype-for-business-server"></a>前端池中的Skype for Business Server
+# <a name="front-end-pool-disaster-recovery-in-skype-for-business-server"></a>前端池的灾难恢复Skype for Business Server
  
 对于灾难恢复，Skype for Business Server在一个池出现故障时提供与故障转移的池配对。
   
@@ -72,7 +72,7 @@ ms.locfileid: "58728831"
   
 修复灾难后，不需要对中央管理存储进行故障回复。 中央管理存储可以保留在您进行其故障的池中。
   
-中央管理存储故障转移的恢复时间目标 (RTO) 的工程目标为 5 分钟，恢复点目标 (RPO) 。
+中央管理存储故障转移的恢复时间目标 (RTO) 和恢复点目标 (RPO) 的工程目标为 5 分钟。
   
 ## <a name="front-end-pool-pairing-data-security"></a>前端池配对数据安全性
 
@@ -86,7 +86,7 @@ ms.locfileid: "58728831"
   
 ### <a name="mitigating-security-risks"></a>缓解安全风险
 
-您有许多方法可以增强对备份服务流量的安全保护。 这一范围从限制对数据中心的访问到保护两个数据中心之间的 WAN 传输。 在大多数情况下，部署Skype for Business Server企业可能已经拥有所需的安全基础结构。 对于寻求指南的企业，Microsoft 提供了一个解决方案，作为如何构建安全的 IT 基础结构的示例。 有关详细信息，请参阅 [https://go.microsoft.com/fwlink/p/?LinkId=268544](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc725770(v=ws.10)) 。 
+您有许多方法可以增强对备份服务流量的安全保护。 这一范围从限制对数据中心的访问到保护两个数据中心之间的 WAN 传输。 在大多数情况下，部署 Skype for Business Server可能已有所需的安全基础结构。 对于寻求指南的企业，Microsoft 提供了一个解决方案，作为如何构建安全的 IT 基础结构的示例。 有关详细信息，请参阅 [https://go.microsoft.com/fwlink/p/?LinkId=268544](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc725770(v=ws.10)) 。 
   
 我们并不暗示这是唯一的解决方案，也不表示它是解决方案的首选Skype for Business Server。 建议企业客户根据 IT 安全基础结构和要求选择适合其特定需求的解决方案。 示例 Microsoft 解决方案将 IPSec 和组策略用于服务器和域隔离。
   

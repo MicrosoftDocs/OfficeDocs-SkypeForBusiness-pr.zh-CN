@@ -1,6 +1,6 @@
 ---
 title: 什么是转网订单？
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
@@ -17,21 +17,21 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.porting.overview
 - Calling Plans
-description: 大致了解什么是转口订单以及如何将电话号码从服务提供商转移到Teams。
-ms.openlocfilehash: d84db7c5f1ced9c8b0d23ea423d41b18c9e49005
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 大致了解什么是转单，以及如何将电话号码从服务提供商转移到Teams。
+ms.openlocfilehash: 936c915a79f7271ba85830122e374840f1a7050b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598376"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740238"
 ---
 # <a name="whats-a-port-order"></a>什么是转网订单？
 
 如果当前拥有电话服务提供商或运营商，并且已有用户或服务的电话号码，则需要创建"转网订单"以将这些电话号码转移到Microsoft Teams。 当号码经过移植时，你可以为用户和服务分配这些电话号码，例如音频会议 (会议网桥) 、自动助理和呼叫队列。
   
-将电话号码移植到 Teams，Microsoft 将成为您的服务提供商，您可以断开服务与旧服务提供商或运营商之间的连接。
+将电话号码移植到 Teams，Microsoft 将成为服务提供商，你可以断开服务与旧服务提供商或运营商之间的连接。
 
-查看本文中的信息，熟悉号码移植。 之后，应已准备好创建转口订单并转移电话号码。 有关[分步说明，请参阅Teams](transfer-phone-numbers-to-teams.md)电话号码转接到号码。
+查看本文中的信息，以熟悉号码移植。 之后，应已准备好创建转口订单并转移电话号码。 有关[分步说明，请参阅Teams](transfer-phone-numbers-to-teams.md)电话号码转接到号码。
   
 ## <a name="what-countries-or-regions-support-number-porting"></a>哪些国家/地区支持号码移植？
 
@@ -76,7 +76,7 @@ ms.locfileid: "58598376"
 
 - 专用于收发传真的电话号码。
 
-    如果有用于传真的现有专用电话号码，可以将这些号码转移到Teams但传真服务无法继续正常工作。 传真服务不可用于Teams客户，即使你拥有 电话系统、国内呼叫计划或国际呼叫计划的许可证。
+    如果您有用于传真的现有专用电话号码，您可以将这些号码转移到 Teams但是您的传真服务不会继续正常工作。 传真服务不可用于客户Teams，即使你拥有 电话系统、国内呼叫计划或国际呼叫计划的许可证。
 
     如果将电话号码移植到Teams，可以将此电话号码分配给贵组织的用户，而不是将其用于传真。
 
@@ -138,7 +138,7 @@ ms.locfileid: "58598376"
 
 可以。 你只需要提交一个服务请求，在请求中提供你组织的租户 GUID 和你要转换的电话号码。 为此，请参阅 [管理组织的电话号码](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
 
-## <a name="can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier"></a>我能否将号码从 Teams其他电话服务提供商或运营商？
+## <a name="can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier"></a>我能否将我的号码从Teams号码移植到其他电话服务提供商或运营商？
 
 若要将号码从Teams运营商，您必须向新运营商提交请求。 还需要在管理中心设置Microsoft Teams PIN。
 

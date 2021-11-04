@@ -1,7 +1,7 @@
 ---
-title: 转换规则Skype for Business Server
+title: 转换规则中的Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,14 +16,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6e067bd4-4931-4385-81ac-2acae45a16d8
 description: 了解呼叫中的转换规则和拨号字符串Skype for Business Server 企业语音。
-ms.openlocfilehash: 94e5fdf3428694f672622c62b76e81886afe1682
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 535b98c53367689d3b3002fdda14fb8a706a7f3a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606071"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746718"
 ---
-# <a name="translation-rules-in-skype-for-business-server"></a>转换规则Skype for Business Server
+# <a name="translation-rules-in-skype-for-business-server"></a>转换规则中的Skype for Business Server
 
 了解呼叫中的转换规则和拨号字符串Skype for Business Server 企业语音。
 
@@ -32,7 +32,7 @@ ms.locfileid: "58606071"
 通过在服务器上执行出站路由转换，可以降低每个单独中继对等方上的配置要求，以便将电话号码转换为本地拨号格式。 在规划要与特定中介服务器群集关联的网关和网关数时，将具有类似本地拨号要求的中继对等方分组可能很有用。 这可减少所需的转换规则数和编写转换规则所需的时间。
 
 > [!IMPORTANT]
-> 将一个或多个转换规则与企业语音中继配置相关联，作为在中继对等方上配置转换规则的替代方法。 如果在中继对等方上配置了转换规则企业语音，请不要将转换规则与中继配置关联，因为这两个规则可能会发生冲突。
+> 将一个或多个转换规则与企业语音中继配置相关联，作为在中继对等方上配置转换规则的替代方法。 如果在中继对等方上配置了转换规则，则不要将转换规则与企业语音中继配置关联，因为这两个规则可能会发生冲突。
 
 ## <a name="example-translation-rules"></a>示例转换规则
 
@@ -42,5 +42,5 @@ ms.locfileid: "58606071"
 
 |**说明**|**起始数字**|**长度**|**要删除的数字**|**要添加的数字**|**匹配模式**|**翻译**|**示例**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|美国常规长途拨号  <br/>  (去除"+")   <br/> |+1  <br/> |正好 12 位  <br/> |1   <br/> |0  <br/> |^\+ (1\d {10}) $  <br/> |$1  <br/> |+14255551010 变为 14255551010  <br/> |
-|美国国际长途拨号  <br/>  ("+"，然后添加 011)   <br/> |+  <br/> |至少 11 位  <br/> |1   <br/> |011  <br/> |^\+ (\d {9} \d+) $  <br/> |011$1  <br/> |+441235551010 变为 011441235551010  <br/> |
+|美国常规长途拨号  <br/>  (去除"+")   <br/> |+1  <br/> |正好 12 位  <br/> |1  <br/> |0  <br/> |^\+ (1\d {10}) $  <br/> |$1  <br/> |+14255551010 变为 14255551010  <br/> |
+|美国国际长途拨号  <br/>  ("+"并添加 011)   <br/> |+  <br/> |至少 11 位  <br/> |1  <br/> |011  <br/> |^\+ (\d {9} \d+) $  <br/> |011$1  <br/> |+441235551010 变为 011441235551010  <br/> |

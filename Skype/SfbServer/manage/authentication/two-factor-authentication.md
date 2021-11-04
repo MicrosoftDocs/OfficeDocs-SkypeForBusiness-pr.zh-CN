@@ -1,7 +1,7 @@
 ---
 title: 在客户端中管理双重Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,22 +13,22 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 16f08710-8961-4659-acbf-ebb95a198fb4
 description: 摘要：在 Skype for Business Server 中管理双重Skype for Business Server。
-ms.openlocfilehash: 2b354c99b4e02536ff3db2043ec18fcd092d766e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d5d5500cbcab93f53e58626bf5826dcc060903e2
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621098"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60747168"
 ---
 # <a name="manage-two-factor-authentication-in-skype-for-business-server"></a>在客户端中管理双重Skype for Business Server
  
 **摘要：** 在客户端中管理双重Skype for Business Server。
   
-双重身份验证要求用户提供两种形式的身份验证或标识（即用户名/密码组合和令牌或证书）来提高安全性。 这也称为"你拥有的事情，你了解的一些内容"。 
+双重身份验证通过要求用户提供两种形式的身份验证或标识（即用户名/密码组合和令牌或证书）提高了安全性。 这也称为"你拥有的事情，你了解的一些内容"。 
   
-使用证书进行双重身份验证的一个典型示例是使用智能卡。 智能卡包含与用户帐户关联的证书，可以针对服务器上存储的用户和证书信息进行验证。 通过将用户信息和用户名和密码 (与提供的证书) ，服务器将验证凭据并验证用户身份。
+使用证书进行双重身份验证的一个典型示例是使用智能卡。 智能卡包含与用户帐户关联的证书，可以针对服务器上存储的用户和证书信息进行验证。 通过将用户信息和 (用户名和密码) 提供的证书进行比较，服务器将验证凭据并验证用户身份。
   
-在配置支持双重身份验证的 Skype for Business Server环境时，请考虑以下主题。
+在配置支持双重身份验证Skype for Business Server考虑以下主题。
   
 ## <a name="client-support"></a>客户端支持
 
@@ -49,25 +49,25 @@ Lync Server 2013 累积更新：2013 年 7 月桌面客户端和 Skype for Busin
   
 ## <a name="skype-for-business-service-discovery"></a>Skype for Business服务发现
 
-内部和/或外部客户端用于发现 Skype for Business 服务的 DNS 记录应配置为解析为未启用双重身份验证的 Skype for Business 服务器。 通过此配置，Skype for Business 池中未启用双重身份验证的用户无需输入 PIN 进行身份验证，而 Skype for Business 池中启用了双重身份验证的用户需要输入其 PIN 进行身份验证。
+内部和/或外部客户端用来发现 Skype for Business 服务的 DNS 记录应配置为解析为未启用双重Skype for Business身份验证的 Skype for Business 服务器。 通过此配置，Skype for Business 池中未启用双重身份验证的用户无需输入 PIN 进行身份验证，而 Skype for Business 池中启用了双重身份验证的用户需要输入其 PIN 进行身份验证。
   
 ## <a name="exchange-authentication"></a>Exchange身份验证
 
-为 Microsoft 部署双重身份验证Exchange可能会发现客户端中的某些功能不可用。 此行为是设计使Skype for Business，因为客户端不支持对依赖于集成功能的功能进行双重Exchange身份验证。
+为 Microsoft 客户端部署双重身份验证Exchange可能会发现客户端中的某些功能不可用。 此行为是设计使Skype for Business，因为客户端不支持对依赖于集成功能的功能进行双重Exchange身份验证。
   
 ## <a name="contacts"></a>联系人
 
-Skype for Business统一联系人存储功能的用户将在使用双重身份验证登录后发现其联系人不再可用。
+Skype for Business配置为使用统一联系人存储功能的用户将在使用双重身份验证登录后发现其联系人不再可用。
   
-在启用双重身份验证之前，应该使用 **Invoke-CsUcsRollback** cmdlet 从统一联系人存储中删除现有用户联系人，并存储在 Skype for Business Server 中。
+在启用双重身份验证之前，应该使用 **Invoke-CsUcsRollback** cmdlet 从统一联系人存储中删除现有用户联系人，Skype for Business Server中存储这些联系人。
   
 ## <a name="skill-search"></a>技能搜索
 
-在用户环境中配置了技能搜索Skype for Business客户会发现，当启用双重Skype for Business时，此功能不起作用。 这是设计使SharePoint，因为 Microsoft SharePoint目前不支持双重身份验证。
+在用户环境中配置了技能搜索Skype for Business的客户会发现，当启用双重Skype for Business时，此功能不起作用。 这是设计使的，因为 Microsoft SharePoint目前不支持双重身份验证。
   
 ## <a name="credentials"></a>凭据
 
-有许多部署注意事项涉及已保存Skype for Business凭据，这可能会影响配置为使用双重身份验证的用户。
+有许多涉及已保存的Skype for Business的部署注意事项，这可能会影响配置为使用双重身份验证的用户。
   
 ### <a name="deleting-saved-credentials"></a>删除保存的凭据
 
@@ -91,7 +91,7 @@ REG_DWORD：DisableNTCredentials
 
 当用户首次Skype for Business登录时，系统会提示用户保存其密码。 如果选中此选项，则允许用户的客户端证书存储在个人证书存储中，并且用户的 Windows 凭据将存储在本地计算机的凭据管理器中。
   
-将 SavePassword 注册表设置配置为支持双重身份验证Skype for Business应禁用 **SavePassword** 注册表设置。 若要防止用户保存其密码，请在本地工作站上更改以下注册表项或使用 Skype for Business 管理模板，以使用组策略应用于给定池的所有用户：
+将 SavePassword 注册表设置配置为支持双因素Skype for Business应禁用 **SavePassword** 注册表设置。 若要阻止用户保存其密码，请在本地工作站上更改以下注册表项或使用 Skype for Business 管理模板，以使用组策略应用于给定池的所有用户：
   
 HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync
   
@@ -101,7 +101,7 @@ REG_DWORD：SavePassword
   
 ## <a name="ad-fs-20-token-replay"></a>AD FS 2.0 令牌重播
 
-AD FS 2.0 提供了一种称为令牌重播检测的功能，通过该功能，可以检测并丢弃使用同一令牌的多个令牌请求。 启用此功能后，令牌重播检测通过确保从不多次使用同一令牌来保护 WS-Federation 被动配置文件和 SAML WebSSO 配置文件中的身份验证请求的完整性。
+AD FS 2.0 提供了一种称为令牌重播检测的功能，通过此功能，可以检测并丢弃使用同一令牌的多个令牌请求。 启用此功能后，令牌重播检测通过确保从不多次使用同一令牌来保护 WS-Federation 被动配置文件和 SAML WebSSO 配置文件中的身份验证请求的完整性。
   
 在高度关注安全性的情况下（例如使用展台时）应启用此功能。 有关令牌重播检测详细信息，请参阅[Best Practices for Secure Planning and Deployment of AD FS 2.0。](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ff630160(v=ws.10))
   

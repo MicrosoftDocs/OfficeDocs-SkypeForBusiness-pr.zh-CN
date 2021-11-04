@@ -1,7 +1,7 @@
 ---
 title: 设置用户电话拨入式会议 PIN Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,18 +13,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 4252b5a5-4267-4513-b18e-0253a8d66f72
 description: 摘要：设置用户的电话拨入式会议 PIN Skype for Business Server。
-ms.openlocfilehash: 0532a5972a373bd92d9fb72d0883d6c40542a91e
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: e5735c58f6e46d16f55146521ad876cd8990151f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012316"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60772098"
 ---
 # <a name="set-a-users-dial-in-conferencing-pin-in-skype-for-business-server"></a>设置用户电话拨入式会议 PIN Skype for Business Server
  
 **摘要：** 设置用户的电话拨入式会议 PIN Skype for Business Server。
   
-若要以经过身份验证的用户身份加入电话拨入式会议，具有 Active Directory 域服务 (AD DS) 凭据的 Skype for Business Server 用户需要个人标识号 (PIN) 。 如果用户忘记了电话拨入式会议 PIN 或尚未使用 Skype for Business Server 设置 PIN，可以从"控制面板"中Skype for Business Server PIN。 可以自动生成 PIN，或手动创建 PIN。
+要以经过身份验证的用户身份加入电话拨入式会议，具有 Active Directory 域服务 (AD DS) 凭据的 Skype for Business Server 用户需要个人标识号 (PIN) 。 如果用户忘记了电话拨入式会议 PIN 或尚未使用 Skype for Business Server 设置 PIN，可以从"控制面板"Skype for Business Server用户的 PIN。 可以自动生成 PIN，或手动创建 PIN。
   
 > [!NOTE]
 > 可以将 PIN 的具体特征（如 PIN 的最小长度）配置为策略。 除了全局策略，您还可以为各个站点或用户配置 PIN 策略。 

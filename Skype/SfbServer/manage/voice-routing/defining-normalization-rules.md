@@ -1,7 +1,7 @@
 ---
 title: 在规则中定义Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Skype for Business Server规范化规则.NET Framework正则表达式将拨打的电话号码转换为 E.164 格式;换句话说，规范化规则采用用户拨打的电话号码，并将该号码转换为用户内部使用Skype for Business Server。 必须将每个拨号计划分配给一个或多个规范化规则。
-ms.openlocfilehash: 4b78207f90bb013b8be4161b7319cb605ad148e5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e2cf2deaefa18323dcd69e9f09703d6994f101c4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602487"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778282"
 ---
 # <a name="defining-normalization-rules-in-skype-for-business-server"></a>在规则中定义Skype for Business Server
 
@@ -32,20 +32,20 @@ Skype for Business Server规范化规则.NET Framework正则表达式将拨打�
 
 ## <a name="create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule"></a>使用"建立规范化规则"创建或修改规范化规则
 
-如果要在"控制面板"中创建或修改规范化规则，Skype for Business Server以下步骤。 
+如果要在"控制面板"中创建或修改规范化规则，Skype for Business Server步骤。 
 
 **使用“建立规范化规则”定义规则**
 
 1. 以 RTCUniversalServerAdmins 组成员的身份或者以 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。 有关详细信息，请参阅委派 [安装权限](/previous-versions/office/lync-server-2013/lync-server-2013-delegate-setup-permissions)。
 2. 打开浏览器窗口，然后输入管理 URL 以打开控制面板。 有关可用于启动控制面板的不同方法的详细信息，Skype for Business安装[并打开管理工具。](../../management-tools/install-and-open-administrative-tools.md)
-3.  (可选) 按照创建拨号计划中的步骤执行步骤[](../../deploy/deploy-enterprise-voice/dial-plans.md#to-create-a-dial-plan)11 或修改拨号计划到步骤[](../../deploy/deploy-enterprise-voice/dial-plans.md#to-modify-a-dial-plan)10。 
+3.  (可选) 按照创建拨号计划中的步骤执行步骤 11 或修改拨号计划到步骤[](../../deploy/deploy-enterprise-voice/dial-plans.md#to-modify-a-dial-plan)10。 [](../../deploy/deploy-enterprise-voice/dial-plans.md#to-create-a-dial-plan) 
 4. 在“新建规范化规则”或“编辑规范化规则”的“名称”中，键入描述要进行规范化的号码模式的名称（例如，**5DigitExtension**）。
 5. （可选）在“描述”中，键入规范化规则的描述（例如，“Translates 5-digit extensions”）。
 6. 在“建立规范化规则”的以下字段中输入值：
     - **起始数字**： (可选) 指定希望模式匹配的拨打号码的前导数字。 例如，如果要使模式与以 425 开头的拨打号码匹配，则键入 **425**。
     - **长度**：指定匹配模式中的数字位数，并选择是希望模式完全匹配此长度、匹配至少包含此长度的拨打号码，还是匹配任意长度的拨打号码。
     - **要删除** 的数字： (可选) 指定要从希望模式匹配的拨打号码中删除的起始位数。
-    - **要添加的数字**： (可选) 指定要添加到希望模式匹配的拨打号码的数字。
+    - **要添加的数字： (** 可选) 指定要添加到希望模式匹配的拨打号码的数字。
     
     这些字段中输入的值将反映在“要匹配的模式”和“转换规则”中。 例如，如果将"起始数字"留空，请在"长度"字段中键入 **"7"，** 选择"完全匹配"，在"要删除的数字"中指定 **0，** 则"要匹配的模式"中生成的正则表达式 **为：**
 
@@ -76,7 +76,7 @@ Skype for Business Server规范化规则.NET Framework正则表达式将拨打�
 
 1. 以 RTCUniversalServerAdmins 组成员的身份或者以 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。 有关详细信息，请参阅委派 [安装权限](/previous-versions/office/lync-server-2013/lync-server-2013-delegate-setup-permissions)。
 2. 打开浏览器窗口，然后输入管理 URL 以打开控制面板。 有关可用于启动控制面板的不同方法的详细信息，Skype for Business安装[并打开管理工具。](../../management-tools/install-and-open-administrative-tools.md)
-3.  (可选) 按照创建拨号计划中的步骤执行步骤[](GET LINK AFTER MIGRATION)11 或修改拨号计划到步骤[](GET LINK AFTER MIGRATION)10。  
+3.  (可选) 按照创建拨号计划中的步骤执行步骤 11 或修改拨号计划到步骤[](GET LINK AFTER MIGRATION)10。 [](GET LINK AFTER MIGRATION)  
 4. 在“新建规范化规则”或“编辑规范化规则”的“名称”中，键入描述要进行规范化的号码模式的名称（例如，将规范化规则命名为 **5DigitExtension**）。
 5. （可选）在“描述”中，键入规范化规则的描述（例如，“Translates 5-digit extensions”）。
 6. 在“建立规范化规则”中，单击“编辑”。
@@ -84,7 +84,7 @@ Skype for Business Server规范化规则.NET Framework正则表达式将拨打�
     - 在“匹配此模式”中，指定要用于匹配拨打的电话号码的模式。
     - 在“转换规则”中，指定转换后的 E.164 电话号码格式的模式。
 
-    例如，如果在"匹配此 **模式"中输入 ^ {7} (\d) $，** 在"转换规则"中输入 **+1425$1，** 则规则将 5550100 规范化为 +14255550100。  
+    例如，如果在"匹配此模式"中输入 **^ {7} (\d) $，** 在"转换规则"中输入 **+1425$1，** 则规则将 5550100 规范化为 +14255550100。  
 
 8. （可选）如果规范化规则所生成的电话号码为组织内部号码，则选择“内部分机号”。
 9. （可选）输入一个号码以测试规范化规则，然后单击“执行”。测试结果会显示在“输入要测试的号码”下。

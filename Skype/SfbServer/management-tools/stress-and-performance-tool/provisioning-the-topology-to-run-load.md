@@ -1,7 +1,7 @@
 ---
 title: 设置拓扑以在压力和性能方案中运行负载
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.date: 12/17/2015
 manager: serdars
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 143cf9bd-b935-494d-817c-a8b0ccc61eb8
 description: Skype for Business Server 2015 拓扑更改或设置，以允许用户成功运行压力和性能工具。
-ms.openlocfilehash: 224a2c1afde71ce94b69826ee0222dce729d22d4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1967e923bff7ed0321b3b6b59dce763ba4f448bd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611911"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771908"
 ---
 # <a name="provisioning-the-topology-to-run-load-in-stress-and-performance-scenarios"></a>设置拓扑以在压力和性能方案中运行负载
  
@@ -39,7 +39,7 @@ Skype for Business Server 2015 拓扑更改或设置，以允许用户成功运�
    Set-ExecutionPolicy -Unrestricted
    ```
 
-2. 若要有效地Skype for Business Server，您需要：
+2. 若要有效地Skype for Business Server配置配置，您需要：
     
     - 熟悉 Skype for Business Server 2015 拓扑结构 (例如计算机名称、服务实例、站点名称和策略) 。
     
@@ -51,7 +51,7 @@ Skype for Business Server 2015 拓扑更改或设置，以允许用户成功运�
    PowerShell.exe -file <path to the file>
    ```
 
-4. 通常，在此包中运行脚本后，生成的跟踪将存储在运行脚本的同一路径的文件中。 还有一种命名格式 \<scriptname\> ，$h$m$s.txt。 因此，如果你在 12：15 ArchivingPolicy.ps1运行该日志文件，你将看到一个名为 ArchivingPolicy121500.txt。
+4. 通常，在此包中运行脚本后，生成的跟踪将存储在运行脚本的同一路径的文件中。 还有一种命名格式 \<scriptname\> ，$h$m$s.txt。 因此，如果你在 12ArchivingPolicy.ps1 12：15 运行该日志文件，你将看到一个名为 ArchivingPolicy121500.txt。
     
 5. 虽然我们已为服务器配置提供了这些示例，但由你负责修改配置和还原或在运行完负载测试后回滚配置。
     

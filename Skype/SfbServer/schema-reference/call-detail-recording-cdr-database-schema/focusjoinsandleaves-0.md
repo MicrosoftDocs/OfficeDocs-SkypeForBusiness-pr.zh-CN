@@ -1,7 +1,7 @@
 ---
 title: FocusJoinsAndLeaves 视图
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 226460ef-766f-4d61-80cb-f332b65a210d
 description: FocusJoinsAndLeaves 视图存储有关加入和离开某会议的信息。 每个会议在此视图中由一条在每次用户加入和离开该会议时编写的记录表示。 此视图在 Microsoft Lync Server 2013 中引入。
-ms.openlocfilehash: 102e520c9bfdb9988061db64dec621a8683b1b5e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6195558ec7a59e9e7605db4b56f761aec374f831
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628554"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740298"
 ---
 # <a name="focusjoinsandleaves-view"></a>FocusJoinsAndLeaves 视图
  
 FocusJoinsAndLeaves 视图存储有关加入和离开某会议的信息。 每个会议在此视图中由一条在每次用户加入和离开该会议时编写的记录表示。 此视图在 Microsoft Lync Server 2013 中引入。
   
-|**列**|**数据类型**|**Details**|
+|**列**|**数据类型**|**详细信息**|
 |:-----|:-----|:-----|
 |**SessionIdTime** <br/> |datetime  <br/> |会议实例的时间。 与 SessionIdSeq 结合使用来唯一地标识会议实例。 有关详细信息[，请参阅 Skype for Business Server 2015](conferences.md)中的 Conferences 表。 <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |用于标识会议实例的 ID 号。 与 SessionIdTime 结合使用来唯一地标识会议实例。 有关详细信息[，请参阅 Skype for Business Server 2015](conferences.md)中的 Conferences 表。 <br/> |

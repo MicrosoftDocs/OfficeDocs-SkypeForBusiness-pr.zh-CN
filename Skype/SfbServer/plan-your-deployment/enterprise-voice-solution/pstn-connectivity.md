@@ -1,7 +1,7 @@
 ---
 title: PSTN 连接组件Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 6b2a3f7d-760f-4f09-8432-312c98a7e6b7
-description: 了解 sip 中继和 PSTN 网关，企业语音中Skype for Business Server。
-ms.openlocfilehash: 8aa3914eac1a716380b69971b0c576186dbfac17
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 了解 SIP 中继和 PSTN 网关，企业语音中Skype for Business Server。
+ms.openlocfilehash: d0650f4948837fdb169c1c4a3672e25dccb8012f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620968"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746728"
 ---
 # <a name="pstn-connectivity-components-in-skype-for-business-server"></a>PSTN 连接组件Skype for Business Server
  
-了解 sip 中继和 PSTN 网关，企业语音中Skype for Business Server。
+了解 SIP 中继和 PSTN 网关，企业语音中Skype for Business Server。
   
 企业级 VoIP 解决方案必须以始终如一的服务质量 (QoS) 提供来往于公用电话交换网 (PSTN) 的呼叫。此外，用户在发起和接收呼叫时应不必了解底层技术。从用户的角度来看，企业语音基础结构与 PSTN 之间的呼叫应该就像是另一个 SIP 会话。
   
@@ -43,7 +43,7 @@ ms.locfileid: "58620968"
   
 ## <a name="pstn-gateways"></a>PSTN 网关
 
-PSTN 网关是在企业语音基础结构与 PSTN 或 PBX 之间转换信号和媒体的第三方设备。 PSTN 网关与中介服务器配合工作，以向企业语音客户端提交 PSTN 或 PBX 呼叫。 中介服务器还将来自企业语音客户端的呼叫提交到 PSTN 网关，以便路由到 PSTN 或 PBX。 有关与 Microsoft 合作以提供与 Skype for Business Server 合作的设备的合作伙伴列表，请参阅 Microsoft 统一[通信合作伙伴网站](https://go.microsoft.com/fwlink/p/?linkId=202836)。 
+PSTN 网关是在企业语音基础结构与 PSTN 或 PBX 之间转换信号和媒体的第三方设备。 PSTN 网关与中介服务器配合工作，以向企业语音客户端提交 PSTN 或 PBX 呼叫。 中介服务器还将来自企业语音客户端的呼叫提交到 PSTN 网关，以便路由到 PSTN 或 PBX。 有关与 Microsoft 合作以提供与 Skype for Business Server 合作的设备的合作伙伴列表，请参阅[Microsoft 统一通信合作伙伴网站](https://go.microsoft.com/fwlink/p/?linkId=202836)。 
   
 ## <a name="private-branch-exchanges"></a>专用交换机
 

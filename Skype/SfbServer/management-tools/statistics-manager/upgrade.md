@@ -1,7 +1,7 @@
 ---
 title: 更新 Skype for Business Server 的统计信息管理器
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 71f5d0a0-ca81-4ac1-b590-8f854504f21f
 description: 摘要：阅读本主题，了解如何升级统计信息管理器Skype for Business Server。
-ms.openlocfilehash: caa2a5f7576a046c990315b638e618a379dd039e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2196f07d25fb761055df4432f0c2fd930368474d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611981"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771998"
 ---
 # <a name="upgrade-statistics-manager-for-skype-for-business-server"></a>更新 Skype for Business Server 的统计信息管理器
  
@@ -26,7 +26,7 @@ ms.locfileid: "58611981"
   
 本主题介绍如何升级现有安装的统计信息管理器 for Skype for Business Server，这是一种功能强大的工具，Skype for Business Server实时查看统计数据运行状况和性能数据。 你可以每隔几秒钟轮询数百台服务器的性能数据，并立即在统计信息管理器网站上查看结果。 
   
-有关统计信息管理器和 2.0 版中的新功能的信息，请参阅为统计信息[](plan.md)管理器规划 Skype for Business Server 和 部署统计信息管理器[for Skype for Business Server](deploy.md)。
+有关统计信息管理器和 2.0 版中的新功能详细信息，请参阅为统计信息管理器规划[Skype for Business Server](plan.md)和 部署统计信息管理器[for Skype for Business Server](deploy.md)。
   
 有两种升级方法：
   

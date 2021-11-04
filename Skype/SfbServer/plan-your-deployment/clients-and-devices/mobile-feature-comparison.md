@@ -1,6 +1,6 @@
 ---
 title: 移动客户端功能比较Skype for Business
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.reviewer: PhillipGarding
 manager: serdars
@@ -16,13 +16,13 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b2c950c9-76a5-400a-b146-9b1a22790c12
-description: 摘要：在规划移动客户端功能支持的同时，检查Skype for Business Server。
-ms.openlocfilehash: 576947499c506052c5204d4826489ae9a2a60037
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 摘要：在规划移动客户端时查看对移动客户端Skype for Business Server。
+ms.openlocfilehash: 9b619219666a89e40870caf4cea80a683011775c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58614122"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759564"
 ---
 # <a name="mobile-client-feature-comparison-for-skype-for-business"></a>移动客户端功能比较Skype for Business
  
@@ -50,7 +50,7 @@ ms.locfileid: "58614122"
     
 -  新式验证
     
-下表列出了可供 Skype for Business 内部部署中的用户使用的功能Skype for Business Server。 相同的功能也可供 Skype for Business Online Microsoft 365或Office 365使用，除非表脚注中另有说明。
+下表列出了可供 Skype for Business本地部署中的用户使用的功能Skype for Business Server。 相同的功能也可供 Skype for Business Online 和 Microsoft 365 或 Office 365 用户使用，除非表脚注中另有说明。
   
 > [!NOTE]
 > 有关最终用户的联机帮助和资源，请参阅[发现Skype for Business。](https://go.microsoft.com/fwlink/p/?LinkId=528686) 
@@ -79,16 +79,16 @@ ms.locfileid: "58614122"
     
 - 如果用户尚未启用推送通知，Skype for Business离开应用后尽快退出。
     
-在 iOS Skype for Business，由于网络连接中断或其他问题，移动客户端在 10 天内未与服务器联系后，系统会自动退出。
+在 iOS 设备上，Skype for Business由于网络连接中断或其他问题而与服务器联系 10 天后，系统会自动退出。
   
  &#x2777;仅在应用内。
   
- &#x2778;在后台运行时，"通知"可用。
+ &#x2778;应用在后台运行时，"通知"可用。
  
  &#x2779; Google/Android/GCNS 和 Apple/APNS 移动通知服务均使用 HTTPS/TLS 加密传递通知。 通知有效负载在通知提供程序处理时以纯文本处理。
  
--   Android版Skype for Business接收通过 GCNS (传递的简单通知) 无客户数据。
--   Skype for Business iOS 接收通过 APNS (发送的通知) 其中可能包括呼叫或邮件的客户数据。
+-   Android版Skype for Business接收通过 GCNS (传递的简单) 无客户数据。
+-   Skype for Business iOS 接收通过 APNS (发送的通知) 其中可能包含呼叫或邮件的客户数据。
  
   
 ## <a name="enhanced-presence-support"></a>增强状态支持
@@ -125,7 +125,7 @@ ms.locfileid: "58614122"
 |显示或隐藏联系人照片  <br/> |&#x2714;|&#x2714;|||
 |将联系人固定到主屏幕  <br/> ||&#x2714;|||
    
- &#x2776;联机Skype for Business/或Microsoft 365或Office 365用户。
+ &#x2776; Online Skype for Business/或 Microsoft 365 或 Office 365 用户。
   
 ## <a name="instant-messaging-support"></a>即时消息支持
 
@@ -175,13 +175,13 @@ ms.locfileid: "58614122"
 |查看 VbSS 或 RDP (共享桌面或)   <br/> |&#x2714;|&#x2714; &#x2777; |&#x2714; &#x2777; |&#x2714; &#x2777; |
 |查看共享PowerPoint文件  <br/> |&#x2714;|&#x2714; &#x2777; |&#x2714; &#x2777;&#x2778; |&#x2714; &#x2777; &#x2778;|
 |Upload和PowerPoint文件  <br/> |&#x2714;||&#x2714; &#x2777; |&#x2714; &#x2777; |
-|使用会议工具 (白板、进行投票、共享文件)   <br/> |&#x2714;||||
+|使用会议工具 (白板、进行投票、共享)   <br/> |&#x2714;||||
 |导航您的会议列表  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |即使没有帐户，也Skype for Business会议  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |查看有关会议参与者详细信息  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |直接从客户端或设备启动与多个参与者的未计划组对话  <br/> |&#x2714;|&#x2714;|&#x2714;||
    
- &#x2776;对于Microsoft 365用户Office 365，此功能需要企业语音 E5 许可证的一部分。
+ &#x2776;对于Microsoft 365或Office 365用户，此功能企业语音 E5 许可证的一部分。
   
  &#x2777;需要 WiFi 连接。
  
@@ -208,7 +208,7 @@ ms.locfileid: "58614122"
    
  &#x2776; Online Skype for Business/或 Office 365 E5 用户，以及位于 Skype for Business Server 或 Lync Server 2013 上且启用了 企业语音 的用户。
   
- &#x2777; 对于 Skype for Business Online 和/或 Microsoft 365 或 Office 365 用户，Microsoft 合作伙伴支持此功能。
+ &#x2777;对于 Skype for Business Online 和/或 Microsoft 365 或 Office 365 用户，Microsoft 合作伙伴支持此功能。
   
  &#x2778; Windows桌面客户端。
   
@@ -221,7 +221,7 @@ ms.locfileid: "58614122"
 |启动与联盟联系人的 IM  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |进行与外部用户的双方呼叫  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |进行与外部用户的多方呼叫  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|使用通过工号呼叫通过呼叫联盟联系人的已发布工作号码来联系其移动电话上的&#x2776;            <br/> ||&#x2714;|&#x2714;|&#x2714;|
+|使用通过工号呼叫通过拨打已发布的工作电话号码来联系其移动电话上的联盟&#x2776;            <br/> ||&#x2714;|&#x2714;|&#x2714;|
    
  &#x2776;默认情况下，为联盟用户分配"外部联系人"私人关系。 要能够通过呼叫联盟联系人的已发布工作号码来通过移动电话联系联盟联系人，该联盟联系人必须手动分配给您"同事"私人关系。
   
@@ -231,7 +231,7 @@ ms.locfileid: "58614122"
  | 功能  | Skype for Business桌面客户端  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
 |呼叫设备通讯簿联系人  <br/> ||&#x2714;|&#x2714;|&#x2714;|
-|直接从Skype for Business通讯簿对联系人进行呼叫  <br/> ||||&#x2714;|
+|直接从Skype for Business通讯簿呼叫联系人  <br/> ||||&#x2714;|
    
 ## <a name="archiving-and-compliance-support"></a>存档和合规性支持
 
@@ -241,7 +241,7 @@ ms.locfileid: "58614122"
 |提供客户端存档  <br/> |&#x2714;||||
 |提供客户端记录  <br/> |&#x2714; &#x2776; ||||
    
- &#x2776;联机Skype for Business/或Microsoft 365或Office 365用户。
+ &#x2776; Online Skype for Business/或 Microsoft 365 或 Office 365 用户。
   
 ## <a name="modern-authentication"></a>新式验证
 

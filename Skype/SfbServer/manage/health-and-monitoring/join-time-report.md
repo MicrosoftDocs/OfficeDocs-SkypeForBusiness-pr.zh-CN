@@ -1,7 +1,7 @@
 ---
 title: 会议加入时间报告Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: e64dc89a-25e4-4cb8-bcb1-51712e69ba5a
-description: 摘要：了解 Skype for Business Server 中的会议加入时间摘要报告。
-ms.openlocfilehash: 1a7a5ec6b4ed5d5b3c2f9281766cb83079dc2f05
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 摘要：了解会议加入时间摘要报告中Skype for Business Server。
+ms.openlocfilehash: b1208802aa82bfe93951919403882477aa608889
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58591176"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740518"
 ---
 # <a name="conference-join-time-report-in-skype-for-business-server"></a>会议加入时间报告Skype for Business Server
  
 **摘要：** 了解会议加入时间摘要报告中Skype for Business Server。
   
-会议加入时间摘要使您能够确定用户加入会议所花的时间。 该报告显示了 (的平均加入时间（以毫秒) 为单位），并提供了一个细目，让您知道有多少用户在 2 秒或更少时间就能加入会议，有多少用户在 2 到 5 秒之间需要加入会议，等等。
+会议加入时间摘要使您能够确定用户加入会议所花的时间。 报告显示平均加入时间 (毫秒) ，并提供了一个细目，让您知道有多少用户在 2 秒或更少时间就能加入会议，有多少用户在 2 到 5 秒之间需要加入会议，等等。
   
 ## <a name="accessing-the-conference-join-time-report"></a>访问会议加入时间报告
 

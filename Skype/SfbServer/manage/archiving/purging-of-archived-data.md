@@ -1,7 +1,7 @@
 ---
 title: 管理存档数据的清除Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 14c2b4fd-f612-4909-808d-09c655fc9f8a
 description: 摘要：了解如何管理存档数据的清除Skype for Business Server。
-ms.openlocfilehash: b071a464ab6c31d64441f06d73493c2bdbbf607a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e5800711756fcccde90ba9907adbe1e9309a677b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58587204"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778352"
 ---
 # <a name="manage-purging-of-archived-data-in-skype-for-business-server"></a>管理存档数据的清除Skype for Business Server
 
@@ -49,7 +49,7 @@ ms.locfileid: "58587204"
     
 5. 单击“提交”。
     
-## <a name="manage-purging-of-data-by-using-windows-powershell"></a>使用数据管理数据清除Windows PowerShell
+## <a name="manage-purging-of-data-by-using-windows-powershell"></a>使用数据管理清除Windows PowerShell
 
 您可以使用以下 cmdlet 管理存档数据的清除Windows PowerShell cmdlet：
   
@@ -57,13 +57,13 @@ ms.locfileid: "58587204"
     
 - **Invoke-CsArchivingDatabasePurge** 允许您手动清除存档数据库中的记录。
     
-例如，以下命令可启用清除所有存档数据。 运行此命令后，Skype for Business Server将清除所有比 KeepArchivingDataForDays 参数指定的值更旧的存档记录。 
+例如，以下命令可启用清除所有存档数据。 运行此命令后，Skype for Business Server将清除所有超过为 KeepArchivingDataForDays 参数指定的值的存档记录。 
   
 ```PowerShell
 Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True
 ```
 
-以下命令限制使用 **Export-CSArchivingData** cmdlet (导出到数据文件存档记录的清除) 。 还必须将 PurgeExportedArchivesOnly 参数设置为 True ($True) ：
+以下命令限制通过使用 **Export-CSArchivingData** cmdlet (导出到数据文件存档记录的清除) 。 还必须将 PurgeExportedArchivesOnly 参数设置为 True ($True) ：
   
 ```PowerShell
 Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True -PurgeExportedArchivesOnly $True
@@ -77,7 +77,7 @@ Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True -Purg
 Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $False
 ```
 
-以下示例使用 **Invoke-CsArchivingDatabasePurge** cmdlet 清除存档数据库中 24 小时之前的所有记录 atl-sql-001.contoso.com。 为确保删除所有记录（包括尚未导出的记录），PurgeExportedArchivesOnly 参数设置为 False ($False) ：
+以下示例使用 **Invoke-CsArchivingDatabasePurge** cmdlet 清除存档数据库上 24 小时之前的所有记录 atl-sql-001.contoso.com。 为确保删除所有记录（包括尚未导出的记录），PurgeExportedArchivesOnly 参数设置为 False ($False) ：
   
 ```PowerShell
 Invoke-CsArchivingDatabasePurge -Identity "service:ArchivingDatabase:atl-sql-001.contoso.com" -PurgeArchivingDataOlderThanHours 24 -PurgeExportedArchivesOnly $False

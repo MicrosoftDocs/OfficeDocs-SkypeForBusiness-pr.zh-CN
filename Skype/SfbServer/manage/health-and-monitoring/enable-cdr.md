@@ -1,7 +1,7 @@
 ---
 title: 在呼叫记录中启用Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,13 +11,13 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 3b28e432-596f-45a5-a070-577d6fa748d9
-description: 摘要：了解如何在 CDR 记录中 (呼叫) 记录Skype for Business Server。
-ms.openlocfilehash: 51c2dcd1f1ecf77647ded6dbbc41ea9cdc2c13d8
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+description: 摘要：了解如何在 CDR 记录 (启用呼叫) 记录Skype for Business Server。
+ms.openlocfilehash: 7adfc44c97387fc99244b0d2dea1cd7f884b6e6e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014556"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740578"
 ---
 # <a name="enable-call-detail-recording-in-skype-for-business-server"></a>在呼叫记录中启用Skype for Business Server
 
@@ -43,9 +43,9 @@ ms.locfileid: "60014556"
     > [!NOTE]
     > 默认情况下，CDR 处于启用状态。
 
-## <a name="enabling-cdr-by-using-windows-powershell-cmdlets"></a>使用 cmdlet 启用 CDR Windows PowerShell CMdlet
+## <a name="enabling-cdr-by-using-windows-powershell-cmdlets"></a>使用 cmdlet 启用 CDR Windows PowerShell cmdlet
 
-可以使用 **Set-CsCdrConfiguration** cmdlet 和 Windows PowerShell 启用 CDR。 可以从命令行管理程序或 Skype for Business Server远程会话中运行此 cmdlet Windows PowerShell。 有关使用远程 powerShell Windows PowerShell连接到Skype for Business Server的详细信息，请参阅 Microsoft Lync [Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 此过程在Skype for Business Server。
+可以使用 **Set-CsCdrConfiguration** cmdlet Windows PowerShell CDR。 可以从命令行管理程序或 Skype for Business Server远程会话中运行此 cmdlet Windows PowerShell。 有关使用远程 powerShell Windows PowerShell连接到Skype for Business Server的详细信息，请参阅 Microsoft Lync [Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 此过程在Skype for Business Server。
 
 ### <a name="to-enable-cdr-for-a-single-location"></a>在单个位置启用 CDR
 

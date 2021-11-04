@@ -1,7 +1,7 @@
 ---
 title: 自定义应用存储
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: prem
 ms.topic: article
@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解应用中的自定义Microsoft Teams。
-ms.openlocfilehash: 06663505a173d7fa1a5d53957fbf2df8fdd232d0
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 773e2aa7deb0d419ea60e32dc834dee8f730009a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728901"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741658"
 ---
 # <a name="custom-apps-store-in-microsoft-teams"></a>自定义应用存储在 Microsoft Teams
 
@@ -32,7 +32,7 @@ ms.locfileid: "58728901"
 > [!Note]
 > 品牌更改需要 24 小时才能生效。
 
-通过选择"自定义应用商店"应用，Teams **管理** 中心  >  **中的自定义存储**。
+可以通过选择"自定义应用商店"应用来访问管理Teams  >  **应用商店**。
 
   ![管理员控制台突出显示自定义应用商店功能。](media/customize-app-store.png)
 
@@ -44,7 +44,7 @@ ms.locfileid: "58728901"
 <a name="orglogo"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-可在此处上传组织徽标。 所选徽标将显示在"为租户Teams **应用"**  >  **页面中的客户端中**。
+可在此处上传组织徽标。 所选徽标将显示在"为租户Teams **应用**  >  **"页面中的客户端中**。
 
 选择" **选择图片"选项** 时，可以上传选择的文件。 徽标应为 240x60，否则将缩放到该大小。 它不应大于 5 MB。 支持的格式包括：
 
@@ -60,7 +60,7 @@ ms.locfileid: "58728901"
 <a name="orglogomark"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-组织徽标标记或小徽标是表示组织品牌的图像或符号，不包括公司名称。 lovemark 可帮助团队成员识别应用应用商店。 所选徽标将显示在"应用"页Teams客户端中。
+组织徽标标记或小徽标是表示组织品牌的图像或符号，不包括公司名称。 lovemark 可帮助团队成员识别应用应用商店。 所选徽标将显示在应用页Teams客户端中。
 
 选择" **选择图片"选项** 时，可以上传选择的文件。 徽标标记应为 32x32 像素，否则将缩放到该大小。 它不应大于 5 MB。 支持的格式包括：
 
@@ -80,7 +80,7 @@ ms.locfileid: "58728901"
 
 选项如下：
 
-- 使用Teams客户端默认背景主题
+- 使用Teams默认背景主题
 - 选择图片。 选择背景图片时，可以上传选择的文件。 背景应为 1212x100 像素，否则将缩放到该大小。 它不应大于 5 MB。 支持的格式包括：
   - .svg
   - .png
@@ -109,7 +109,7 @@ ms.locfileid: "58728901"
 ![自定义应用应用商店预览。](media/PowerAppsInStore650w.png)
 
 > [!Note]
-> 表示形式可能与自定义应用存储的最终版本不同，因为某些默认颜色基于用户Teams版本。
+> 表示形式可能与自定义应用存储的最终版本不同，因为某些默认颜色基于用户对客户端Teams版本。
 
 ## <a name="related-article"></a>相关文章
 

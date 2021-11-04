@@ -1,7 +1,7 @@
 ---
 title: PowerShell 脚本示例 - 创建&消息传送策略
-author: cichur
-ms.author: serdars
+author: serdars
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.reviewer: ritikag
@@ -17,16 +17,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c76f7441e335532fcacaf3fe41561fc0ef7ef516
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: 922bbd88f8a470a19edf799b737a349043ebfeed
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605188"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741548"
 ---
 # <a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a>PowerShell 脚本示例 - 创建和分配消息传递策略
 
-使用此 PowerShell 脚本在脚本中创建消息Microsoft Teams并将其分配给用户。 
+使用此 PowerShell 脚本在客户端中创建消息Microsoft Teams并将其分配给用户。 
 
 有关使用此 PowerShell 脚本的信息，请参阅[快速入门 - Teams 教育版。](../teams-quick-start-edu.yml)
 
@@ -37,7 +37,7 @@ ms.locfileid: "60605188"
 
 下载并安装[Skype for Business Online PowerShell 模块](https://www.microsoft.com/download/details.aspx?id=39366)，然后在系统提示时重启计算机。
 
-若要了解更多信息，请参阅[使用 Skype for Business PowerShell 管理 Office 365 Online。](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
+若要了解更多内容，请参阅[使用 powerShell Skype for Business Online Office 365管理。](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
 
 ## <a name="sample-script"></a>示例脚本
 
@@ -61,4 +61,4 @@ $dataSetFilePath = "<csv file with user ids for newly provisioned students> "
 ```
 
 > [!NOTE]
-> 也可通过批处理策略分配将消息传递策略直接大规模分配给用户，或者将消息传递策略分配给用户作为其成员的组。 有关详细信息，请参阅[为学校中的大量](../batch-group-policy-assignment-edu.md)用户分配策略和为学校中的用户[分配Teams。](../policy-assignment-overview.md)
+> 也可通过批处理策略分配将消息传递策略直接大规模分配给用户，或者将消息传递策略分配给用户作为其成员的组。 有关详细信息，请参阅[为学校中的大量](../batch-group-policy-assignment-edu.md)用户分配策略和在 Teams 中[分配策略](../policy-assignment-overview.md)。

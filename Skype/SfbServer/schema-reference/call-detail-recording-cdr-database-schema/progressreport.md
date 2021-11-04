@@ -1,7 +1,7 @@
 ---
 title: ProgressReport 表
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 10/20/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 38e5f060-5e9b-4185-87b2-7ef61c4bb75f
 description: 进度报告基于呼叫或会话结束后客户端上载到数据库的数据。 仅针对 2015 年 2015 Skype for Business Server确定可用于诊断目的的呼叫和会话编写进度报告。
-ms.openlocfilehash: 2c744cbf3755118a6d6fbee4837363e80b00ae44
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 666320d64e319816666404dff3afd4f27b7413f4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623524"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740278"
 ---
 # <a name="progressreport-table"></a>ProgressReport 表
  
@@ -26,7 +26,7 @@ ms.locfileid: "58623524"
   
 ErrorTime、ErrorReportSeq 和 ProgressReportSeq 字段不一定指错误，而是指指示呼叫或消息状态的消息。
   
-|**列**|**数据类型**|**键/索引**|**Details**|
+|**列**|**数据类型**|**键/索引**|**详细信息**|
 |:-----|:-----|:-----|:-----|
 |**ErrorTime** <br/> |datetime  <br/> |主、外  <br/> |包含此进度报告的进度错误报告的日期和时间。 有关详细信息，[请参阅 Skype for Business Server 2015 中的 ErrorReport](errorreport.md)表。 <br/> |
 |**ErrorId** <br/> |int  <br/> |主、外  <br/> |与 ErrorTime 和 ProgressReportSeq 结合使用唯一地标识进度报告的 ID 号。 有关详细信息，[请参阅 Skype for Business Server 2015 中的 ErrorReport](errorreport.md)表。 <br/> |

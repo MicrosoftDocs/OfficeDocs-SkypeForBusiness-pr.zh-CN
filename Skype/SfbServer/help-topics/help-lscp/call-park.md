@@ -1,7 +1,7 @@
 ---
 title: 呼叫寄存
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/24/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: b752617d-554d-470e-b17b-387403ac74ed
 description: 当呼叫被取回时，该呼叫将转接到临时号码，呼叫将一直持续到有人取回或它退出。您需要配置一个表，该表包含要为已呼叫预留的分机号码范围。 这些分机需要为虚拟分机（即未向其分配用户或电话的分机）。 每个运行呼叫库应用程序的池都可以有一个或多个扩展范围。 这些范围在部署中必须是全局唯一的。
-ms.openlocfilehash: c054d3814376ca62063dedc5d08db00d22876cef
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cfbe98e0f432fc5be2b27979ab76d0436ae8343f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58588744"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742299"
 ---
 # <a name="call-park"></a>呼叫寄存
 

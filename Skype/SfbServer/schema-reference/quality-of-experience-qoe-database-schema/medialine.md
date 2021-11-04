@@ -1,7 +1,7 @@
 ---
 title: MediaLine 视图
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 132eca13-8913-4218-9eff-4960ced8c3dc
 description: 媒体行视图存储有关数据库中每个媒体行的信息。 一个音频会话通常包含一个音频媒体行。 一个音频与视频 (A/V) 会话通常包含一个音频媒体行和一个视频媒体行；但是，如果使用了会议设备或库视图，则会话可能包含两个视频媒体行。 此视图在 Microsoft Lync Server 2013 中引入。
-ms.openlocfilehash: 778e322f737a80c71a046073611c234071e3f24b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2a8f5ad413bb127e20d82927d804379b5e981636
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582566"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771868"
 ---
 # <a name="medialine-view"></a>MediaLine 视图
  

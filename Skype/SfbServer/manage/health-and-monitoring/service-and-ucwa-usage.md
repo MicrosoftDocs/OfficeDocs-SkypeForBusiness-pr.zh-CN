@@ -1,7 +1,7 @@
 ---
 title: 监视移动服务和 UCWA 在Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8389b37a-ca3e-4047-8b51-85bc07da87e8
 description: 摘要：管理 Mobility Service (Mcx) 和统一通信 Web API (UCWA) 中Skype for Business Server。
-ms.openlocfilehash: a9cc79e523c3ba6671df302d844dc5e05d3bae28
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 370e2e2fb8707f7d893747a0ffbcfe85f2612dd8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608159"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742138"
 ---
 # <a name="monitor-mobility-service-and-ucwa-usage-in-skype-for-business-server"></a>监视移动服务和 UCWA 在Skype for Business Server
  
@@ -30,11 +30,11 @@ ms.locfileid: "58608159"
   
  **对于统一通信 Web API (UCWA) ：**
   
-- **IIS 管理器中的 LyncUcwa** Internet Information Services () 进程。 在“工作进程”窗格中，查看“CPU 百分比”和“专用字节(KB)”（内存）列。
+- IIS Internet Information Services (管理器中的 **LyncUcwa**) 进程。 在“工作进程”窗格中，查看“CPU 百分比”和“专用字节(KB)”（内存）列。
     
 - **CPU** 和 **Processor** 性能计数器。
     
-对于大多数部署，UCWA CPU 平均使用率应低于 15%。 内存使用率应位于监视中服务器内存容量限制中所述的限制[Skype for Business Server。](server-memory-capacity-limits.md)
+对于大多数部署，UCWA CPU 平均使用率应低于 15%。 内存使用量应位于监视服务器内存容量限制中介绍的限制[Skype for Business Server。](server-memory-capacity-limits.md)
   
 除了 CPU 和内存使用率计数器之外，您还可以使用以下性能计数器来帮助确定服务器何时因请求而过载：
   
@@ -51,7 +51,7 @@ ms.locfileid: "58608159"
     
 - **CPU** 和 **Processor** 性能计数器。
     
-对于大多数部署，Mobility Service CPU 平均使用率应低于 15%。 内存使用率应位于监视中服务器内存容量限制中所述的限制[Skype for Business Server。](server-memory-capacity-limits.md)
+对于大多数部署，Mobility Service CPU 平均使用率应低于 15%。 内存使用量应位于监视服务器内存容量限制中介绍的限制[Skype for Business Server。](server-memory-capacity-limits.md)
   
 除 CPU 和内存使用率计数器之外，您可以使用以下 ASP.NET 性能计数器来帮助确定服务器上的请求何时过载：
   
@@ -67,4 +67,4 @@ ms.locfileid: "58608159"
   
 ## <a name="see-also"></a>另请参阅
 
-[Monitor for server memory capacity limits in Skype for Business Server](server-memory-capacity-limits.md)
+[监视服务器内存容量限制Skype for Business Server](server-memory-capacity-limits.md)

@@ -1,7 +1,7 @@
 ---
 title: Configuring policies for the Skype for Business Server 2015 Stress and Performance Tool
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.date: 11/11/2015
 manager: serdars
@@ -13,17 +13,17 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7e1435e2-d073-4265-8067-ebcb5bf28835
-description: Skype for Business Server 2015 压力和性能工具的策略配置。
-ms.openlocfilehash: 9523dff4a2db09b229ef1500e6634674d85c1472
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 适用于 2015 Skype for Business Server和性能工具的策略配置。
+ms.openlocfilehash: ba08b12b94847ac130a5f95770ad9cf4c71e0e8c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611951"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771988"
 ---
 # <a name="configuring-policies-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Configuring policies for the Skype for Business Server 2015 Stress and Performance Tool
  
-Skype for Business Server 2015 压力和性能工具的策略配置。
+适用于 2015 Skype for Business Server和性能工具的策略配置。
   
 在运行压力和性能工具之前，可以在 Skype for Business Server 2015 中配置多个策略和其他区域：
   
@@ -50,7 +50,7 @@ Skype for Business Server 2015 压力和性能工具的策略配置。
 ## <a name="archiving-policy"></a>存档策略
 <a name="ArchivingPolicy"> </a>
 
-如果已部署存档服务器，则Skype for Business Server部署存档ArchivingPolicy.ps1脚本。 如果您需要进一步的帮助，请查看存档和 Web 会议 cmdlet。
+如果在部署存档服务器拓扑中部署了存档Skype for Business Server，则您可查看该ArchivingPolicy.ps1脚本。 如果您需要进一步的帮助，请查看存档和 Web 会议 cmdlet。
   
 ## <a name="conferencing-policy"></a>会议策略
 <a name="ConferencingPolicy"> </a>
@@ -60,7 +60,7 @@ Skype for Business Server 2015 压力和性能工具的策略配置。
 ## <a name="contacts-policy"></a>联系人策略
 <a name="ContactsPolicy"> </a>
 
-ContactsPolicy.ps1脚本将是你需要查看的示例。 如果您需要进一步的引用，IM 和状态 cmdlet 将提供帮助。
+ContactsPolicy.ps1脚本将是需要查看的示例。 如果您需要进一步的引用，IM 和状态 cmdlet 将提供帮助。
   
 ## <a name="federation-policy"></a>联合策略
 <a name="FederationPolicy"> </a>
@@ -75,9 +75,9 @@ ContactsPolicy.ps1脚本将是你需要查看的示例。 如果您需要进一�
 ## <a name="voice-routing-rules"></a>语音路由规则
 <a name="VoiceRoutingRules"> </a>
 
-需要语音路由RoutingRules.ps1示例脚本。 配置这些规则时，请记下电话上下文 (即 /Location Profile 或 /SimpleName) 以及内部/外部区号，以便可以在创建用户时指定它们。 在 LyncPerfTool 配置过程中，您还需要这些 (专用于 PSTN-UC 和 UC-PSTN) 。
+需要语音路由RoutingRules.ps1示例脚本。 配置这些规则时，请记下电话上下文 (即 /Location Profile 或 /SimpleName) 和内部/外部区号，以便可以在创建用户时指定它们。 在 LyncPerfTool 配置过程中，您还需要这些 (专用于 PSTN-UC 和 UC-PSTN) 。
   
-例如，对 RoutingRules.ps1 示例中 **New-CsDialPlan** cmdlet 的调用中的 SimpleName 参数应该用于以下示例图中的 LocationProfile UserProfileGenerator.exe：
+例如，在 RoutingRules.ps1 示例中调用 **New-CsDialPlan** cmdlet 时，SimpleName 参数应该用于以下示例图中的 LocationProfile UserProfileGenerator.exe：
   
 ![Skype for Business加载配置工具、语音方案选项卡、对话的高级设置。](../../media/59f42e4e-8f1e-4d43-9ae2-9e6026191951.png)
   
@@ -102,10 +102,10 @@ ContactsPolicy.ps1脚本将是你需要查看的示例。 如果您需要进一�
 
 你需要执行以下步骤来配置紧急呼叫的压力和性能测试：
   
-1. 为紧急呼叫设置语音路由。 您可以使用此RoutingRules.ps1脚本，并检查注释 **"Route E911 to PSTN"** 下，以了解如何设置此语音路由的示例。
+1. 为紧急呼叫设置语音路由。 您可以使用此RoutingRules.ps1脚本，并检查注释 **"Route E911 to PSTN"** 下，查看如何设置此语音路由的示例。
     
     > [!CAUTION]
-    > 本示例中的示例RoutingRules.ps1包含数字 119 而不是 911 的号码模式。 应避免使用 911 (或实际本地紧急号码) ，以免在负载测试期间意外呼叫本地紧急接线员。 请记住，此配置仅供模拟！ 
+    > 本示例中的示例RoutingRules.ps1包含数字 119 而不是 911 的编号模式。 应避免使用 911 (或实际本地紧急号码) ，以免在负载测试期间意外呼叫本地紧急接线员。 请记住，此配置仅供模拟！ 
   
 2. 通过填写 UserProvisioningTool 中"位置 **信息服务配置** "选项卡上的值来配置地址，如下图所示：
     
@@ -113,7 +113,7 @@ ContactsPolicy.ps1脚本将是你需要查看的示例。 如果您需要进一�
   
 3. 在 UserProvisioningTool 中输入所有内容后，单击"生成 **LIS 配置文件"** 按钮。
     
-4. 现在，将生成端口、子网、交换机和无线访问点 (WAPs) 的 CSV 文件，以及用于"压力和性能"工具的 XML 文件。 在使用 LIS 脚本配置位置信息服务 (，) CSV LisConfiguration.ps1输入。 为此，你需要将Locations0.xml文件移动到与 Stress and Performance Tool 可执行文件相同的 (LyncPerfTool.exe) 。 这将让你在拨号计划或 (配置文件) 配置文件。
+4. 现在，将生成端口、子网、交换机和无线访问点 (WAPs) 的 CSV 文件，以及用于"压力和性能"工具的 XML 文件。 当使用 LIS 脚本配置位置信息服务 (LIS) CSV LisConfiguration.ps1输入。 为此，你需要将 Locations0.xml 文件移动到与 Stress and Performance Tool 可执行 (LyncPerfTool.exe 文件相同的) 。 这将让你在拨号计划 (配置文件) 配置文件。
     
 ## <a name="configuring-response-group-application"></a>配置响应组应用程序
 <a name="ConfigResponseGroupApp"> </a>

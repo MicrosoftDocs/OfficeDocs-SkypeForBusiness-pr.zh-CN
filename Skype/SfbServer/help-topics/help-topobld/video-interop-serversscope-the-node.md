@@ -1,7 +1,7 @@
 ---
 title: 视频互操作服务器 - 范围节点
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/8/2018
@@ -14,13 +14,13 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 963e6693-26bc-439f-b76d-04389e6ebbf9
-description: 在拓扑生成器中定义新的 VIS 或视频网关所需的步骤在 2015 年 10 月创建 VIS 池Skype for Business Server联机说明。
-ms.openlocfilehash: 7187cd85c6a15d38b9734fd0eb4e3c07b6d746be
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 在拓扑生成器中定义新的 VIS 或视频网关所需的步骤在 2015 年 10 月创建 VIS 池Skype for Business Server联机介绍。
+ms.openlocfilehash: 874d9d6fa0bd8885891e531a08ded05662c5f05e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615708"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60747350"
 ---
 # <a name="video-interop-servers---scope-the-node"></a>视频互操作服务器 - 范围节点
  
@@ -28,7 +28,7 @@ ms.locfileid: "58615708"
   
 Deploy [the VIS server role in Skype for Business Server 2015](../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)中联机介绍了使用 Windows PowerShell 在服务器上分配视频互操作服务器角色所需的步骤
   
-有关使用新视频互操作服务器的配置步骤Windows PowerShell在[2015 年 10](../../deploy/deploy-video-interop-server/configure-the-vis.md)月配置视频互操作服务器中在线Skype for Business Server介绍。
+有关使用新视频互操作服务器Windows PowerShell在[2015 年 10](../../deploy/deploy-video-interop-server/configure-the-vis.md)月配置视频互操作服务器中联机Skype for Business Server介绍。
   
  在 Configure [CUCM for Interoperation with Skype for Business Server 2015](../../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md)中联机介绍了需要在 Cisco GUI 中设置用于与 VIS 互操作的视频网关的设置。
   

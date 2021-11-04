@@ -1,7 +1,7 @@
 ---
 title: ConferenceMessageCount 视图
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8ee3ee95-fb78-4d4e-bcdd-6ce5a0a23b44
 description: ConferenceMessageCount 视图存储有关用户已向会议中发送的消息数的信息。 此视图在 Microsoft Lync Server 2013 中引入。
-ms.openlocfilehash: 5b4cadd741eae999a789a51c6adc0400cc8ce45f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6b3c5ffaf8904d6dddcabeee06c7ebf01afd8143
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593426"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740318"
 ---
 # <a name="conferencemessagecount-view"></a>ConferenceMessageCount 视图
  
@@ -27,7 +27,7 @@ ConferenceMessageCount 视图存储有关用户已向会议中发送的消息数
 > [!NOTE]
 > ConferenceMessageCount 视图包含 [ConferenceSessionDetails](conferencesessiondetails.md) 视图中的所有列以及下面列出的列。
   
-|**列**|**数据类型**|**Details**|
+|**列**|**数据类型**|**详细信息**|
 |:-----|:-----|:-----|
 |**UserUri** <br/> |nvarchar (450)   <br/> |发送消息的用户的 URI。  <br/> |
 |**UserUriType** <br/> |nvarchar (256)   <br/> |发送消息的用户的 URI 类型。 有关详细信息， [请参阅 UriTypes](uritypes.md) 表。 <br/> |

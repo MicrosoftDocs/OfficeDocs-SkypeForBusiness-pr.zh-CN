@@ -1,7 +1,7 @@
 ---
 title: Manage chat rooms in Persistent Chat Server in Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 1/31/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 7b2e1302-280c-4efe-9ec8-787687b414da
 description: 摘要：了解如何在 Skype for Business Server 2015 中管理持久聊天服务器聊天室。
-ms.openlocfilehash: 928fef65d63165721957ca0622b959860d82704e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5eb69b3f852ce8e093947cdd04cc00b6bfdc19e3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630566"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746878"
 ---
 # <a name="manage-chat-rooms-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Manage chat rooms in Persistent Chat Server in Skype for Business Server 2015
  
@@ -27,13 +27,13 @@ ms.locfileid: "58630566"
 正确使用类别可更轻松地创建和管理聊天室。 类别定义可以创建或加入聊天室的人。 在尝试管理聊天室之前，请务必阅读[Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md)中的持久聊天类别、聊天室和用户角色和在[Skype for Business Server 2015](categories.md)中管理持久聊天服务器中的类别。
   
 > [!NOTE]
-> 持久聊天在 Skype for Business Server 2015 中可用，但在 2019 年 2 Skype for Business Server不再受支持。 相同的功能在 Teams。 有关详细信息，请参阅[开始升级Microsoft Teams升级](/microsoftteams/upgrade-start-here)。 如果您需要使用持久聊天，则选择将需要此功能的用户迁移到 Teams，或者继续使用 Skype for Business Server 2015。 
+> 持久聊天在 2015 Skype for Business Server可用，但在 2019 年 2 月不再Skype for Business Server支持。 相同的功能在 Teams 中可用。 有关详细信息，请参阅开始[升级Microsoft Teams升级](/microsoftteams/upgrade-start-here)。 如果您需要使用持久聊天，您的选择是迁移需要此功能的用户以Teams或继续使用 Skype for Business Server 2015。 
 
-您可以使用 Windows PowerShell 命令行界面，或者使用 Skype for Business 客户端配置和管理聊天室（如果您是聊天室的成员）。 本主题介绍如何使用命令行界面Windows PowerShell聊天室。 如果要使用客户端管理聊天室Skype for Business，请参阅客户端帮助。 
+您可以使用命令行界面或 Windows PowerShell（如果您是聊天室的成员）使用 Skype for Business 客户端配置和管理聊天室。 本主题介绍如何使用命令行界面Windows PowerShell聊天室。 如果要使用客户端管理聊天室Skype for Business，请参阅客户端帮助。 
   
 聊天室可以是以下两种类型之一：Normal 和 Auditorium。 Normal 聊天室允许所有成员发布和阅读消息。 Auditorium 是一种聊天室，只有演示者可以发布消息，但每个人都可以阅读。
   
-Who聊天室的访问权限取决于用户角色，如下所示：
+Who聊天室的用户角色取决于用户角色，如下所示：
   
 - 用户必须是聊天室的成员才能发布和阅读消息。
     
@@ -71,7 +71,7 @@ Who聊天室的访问权限取决于用户角色，如下所示：
     
 - 加载项。 允许您将以前配置的外接程序与聊天室关联，这样成员可以在参与时查看 URL 内容。
     
-除了上述参数之外 **，Set-CsPersistentChatRoom** cmdlet 还允许您向聊天室分配用户，如下所示：
+除了上述参数之外 **，Set-CsPersistentChatRoom** cmdlet 还允许您将用户分配到聊天室，如下所示：
   
 - 成员。 配置聊天室的成员身份。 通过指定用户的 SIP 地址，可以使用单个 cmdlet 添加或删除单个或多个成员。 若要允许批量添加用户，还可以指定 Active Directory 组织单位或通讯组。
     
@@ -83,7 +83,7 @@ Who聊天室的访问权限取决于用户角色，如下所示：
   
 ## <a name="create-a-new-room"></a>创建新聊天室
 
-您可以使用 **New-CsPersistentChatRoom** cmdlet 创建新聊天室。 例如，以下命令在池池上新建一个名为 ITChatRoom 的 atl-cs-001.contoso.com。 此示例将聊天室添加到 IT 类别：
+您可以使用 **New-CsPersistentChatRoom** cmdlet 创建新聊天室。 例如，以下命令在池池上创建一个名为 ITChatRoom 的新 atl-cs-001.contoso.com。 此示例将聊天室添加到 IT 类别：
   
 ```PowerShell
 New-CsPersistentChatRoom -Name "ITChatRoom" -PersistentChatPoolFqdn "atl-cs-001.contoso.com"-Category "IT"
@@ -123,7 +123,7 @@ Set-CsPersistentChatRoom -PersistentChatPoolFqdn "atl-cs-001.contoso.com\NorthAm
 
 如果持久聊天室的主题不再相关，您可以通过禁用该聊天室来使用户无法使用该聊天室。 禁用聊天室后，所有成员将立即与聊天室断开连接。 禁用聊天室后，用户将无法重新加入该聊天室或在聊天室搜索中查找该聊天室。
   
-如果聊天室的历史记录仍然存在，则禁用该聊天室时将保留该内容。 但是，在聊天室保持禁用状态期间，该内容不会显示在搜索中。 如果稍后启用该聊天室，则用户可以搜索在禁用聊天室之前发布的消息。 有关配置聊天室历史记录的信息，请参阅 Manage [categories in Persistent Chat Server in Skype for Business Server 2015](categories.md)。 
+如果聊天室的历史记录仍然存在，则禁用该聊天室时将保留该内容。 但是，在聊天室保持禁用状态期间，该内容不会显示在搜索中。 如果稍后启用该聊天室，则用户可以搜索在禁用聊天室之前发布的消息。 有关配置聊天室历史记录的信息，请参阅 Manage [categories in Persistent Chat Server in Skype for Business Server 2015。](categories.md) 
   
 禁用某聊天室时，将保留其成员身份列表和其他设置。 作为管理员，您可以启用已禁用的聊天室，并且不需要手动重新创建设置。
   

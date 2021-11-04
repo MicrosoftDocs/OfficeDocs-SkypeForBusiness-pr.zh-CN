@@ -1,7 +1,7 @@
 ---
 title: 在 Microsoft Teams 中为组织管理 Tasks 应用
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -19,12 +19,12 @@ MS.collection:
 - microsoftcloud-healthcare
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 875aeeee6d283a97325ef5aa66402b2c112c4bbd
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 1e59bdcb33d66d240e11ad0e38a41b3b62841815
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730631"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759264"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中为组织管理 Tasks 应用
 
@@ -35,7 +35,7 @@ Tasks 应用为 Microsoft Teams 带来紧密的任务管理体验，通过[微�
 > [!NOTE]
 > 我们正在推出 Teams 桌面客户端上的 Tasks 体验，应用会首先显示为 **Planner**。 然后，此名称会暂时更改为 **Tasks by Planner 和微软代办**，之后会重命名为 **Tasks**。 在 Teams 移动客户端上，用户会始终看到应用名为 **Tasks**。 桌面体验可用后，移动体验的可用性可能会有短暂的延迟。
 
-   ![任务列表列表视图的屏幕截图Teams列表。](media/manage-tasks-app-tasks.png)
+   ![任务列表视图的屏幕截图Teams列表。](media/manage-tasks-app-tasks.png)
 
 对于想要简化对前线工作者任务管理的组织，Tasks 也有在前线工作人员中大规模确定目标、发布以及跟踪任务的功能。 比如，企业和地区领导可以创建并发布面向相关地区的任务列表，例如具体的零售店，并通过实时报告跟踪进度。 管理者可以分配任务给员工和地区内的直接活动，前线工作者会在手机和桌面上收到分配任务的优先级清单。 要启用[任务发布](#task-publishing)，你需要首先为组织设置团队目标层次结构，定义结构中的所有团队彼此间的关系。
 

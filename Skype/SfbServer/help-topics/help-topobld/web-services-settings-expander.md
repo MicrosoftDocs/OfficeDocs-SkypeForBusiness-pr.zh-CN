@@ -1,7 +1,7 @@
 ---
 title: Web 服务设置扩展器
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/25/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: aefc9f51-a171-4a58-be65-7accb470cb2a
 description: 在拓扑生成器中，可以修改用于内部和外部 Web 服务的端口设置。 此外，如果要部署域名系统 (DNS) 负载平衡，可以使用拓扑生成器配置池的完全限定域名 (FQDN) ，该域名解析为池中所有服务器的物理 IP 地址。
-ms.openlocfilehash: 0835e394a10ddedede5191250cf3b4df16daa0f0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0d1f97f7ff44e78c5a117ddd65664a479d63a20f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630706"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765590"
 ---
 # <a name="web-services-settings-expander"></a>Web 服务设置扩展器
  
@@ -33,7 +33,7 @@ ms.locfileid: "58630706"
 2. 在“编辑属性”对话框中，单击“Web 服务”选项卡。
     
     > [!CAUTION]
-    > 如果您具有多个前端池或前端服务器，则外部 Web 服务 FQDN 必须是唯一的。 例如，如果将前端服务器的外部 Web 服务 FQDN 定义为 **pool01.contoso.com，** 则不能将 **pool01.contoso.com** 用于另一个前端池或前端服务器。 如果还要部署控制器，则为任何控制器或控制器池定义的外部 Web 服务 FQDN 必须与任何其他控制器或控制器池以及任何前端池或前端服务器是唯一的。 如果您决定使用自定义的 FQDN 覆盖内部 Web 服务，则每个 FQDN 都必须与任何其他前端池、控制器或控制器池是唯一的。
+    > 如果您具有多个前端池或前端服务器，则外部 Web 服务 FQDN 必须是唯一的。 例如，如果将前端服务器的外部 Web 服务 FQDN 定义为 **pool01.contoso.com，** 则不能将 pool01.contoso.com 用于另一个前端池或前端服务器。 如果还要部署控制器，则为任何控制器或控制器池定义的外部 Web 服务 FQDN 必须与任何其他控制器或控制器池以及任何前端池或前端服务器是唯一的。 如果您决定使用自定义的 FQDN 覆盖内部 Web 服务，则每个 FQDN 都必须与任何其他前端池、控制器或控制器池是唯一的。
   
 3. 如果要编辑 Enterprise Edition 池的属性，则可以选择“覆盖 FQDN”。 仅在使用域名系统 (DNS) 负载平衡时，才能选择此选项。 如果正在使用 DNS 负载平衡，请选择“覆盖 FQDN”，然后在文本框中键入池的 FQDN，该 FQDN 会解析为该池中所有服务器的物理 IP 地址。 如果没有使用 DNS 负载平衡且没有选择“覆盖 FQDN”，则无法更改内部 Web 服务 FQDN。 内部 Web 服务 FQDN 是内部用户用于连接到 Skype for Business Server。
     
