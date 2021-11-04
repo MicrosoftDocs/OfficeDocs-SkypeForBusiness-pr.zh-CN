@@ -1,7 +1,7 @@
 ---
-title: 呼叫允许控制的组件和拓扑Skype for Business
+title: 呼叫允许控制的组件和Skype for Business
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0beec6be-2431-4255-a3d2-512dd030e66a
-description: 规划呼叫允许控制 (CAC) ，如果您有 MPLS 网络、SIP 中继或第三方 PSTN 网关或 PBX。 适用于Skype for Business Server 企业语音。
-ms.openlocfilehash: 6964d57af7f4b1218e502e1b7b8ffc6afee3f5d5
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: 规划呼叫允许控制 (CAC) （如果您有 MPLS 网络、SIP 中继或第三方 PSTN 网关或 PBX）。 适用于Skype for Business Server 企业语音。
+ms.openlocfilehash: 338533fb307625b30ee93377ee24265ae7cca02b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730901"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773532"
 ---
-# <a name="components-and-topologies-for-call-admission-control-in-skype-for-business"></a>呼叫允许控制的组件和拓扑Skype for Business
+# <a name="components-and-topologies-for-call-admission-control-in-skype-for-business"></a>呼叫允许控制的组件和Skype for Business
 
-规划呼叫允许控制 (CAC) ，如果您有 MPLS 网络、SIP 中继或第三方 PSTN 网关或 PBX。 适用于Skype for Business Server 企业语音。
+规划呼叫允许控制 (CAC) （如果您有 MPLS 网络、SIP 中继或第三方 PSTN 网关或 PBX）。 适用于Skype for Business Server 企业语音。
 
 本节中的主题提供了有关通过各种类型的网络拓扑部署呼叫允许控制 (CAC) 的特殊注意事项的信息。
 
@@ -110,7 +110,7 @@ ms.locfileid: "58730901"
 这既适用于网络站点 1 中客户端的传入 PSTN 呼叫，也适用于从网络站点 1 中的客户端发出的传出 PSTN 呼叫。
 
 > [!NOTE]
-> 确保已配置 MTP 所属的 IP 子网，并且该子网与网络站点 2 关联。
+> 确保已配置 MTP 所属的 IP 子网，并且该子网与网络站点 2 相关联。
 
 > [!NOTE]
 > 确保已配置中介服务器的两个接口所属的 IP 子网，并且该子网与网络站点 1 关联。
@@ -126,7 +126,7 @@ ms.locfileid: "58730901"
 
 ![用例 3：中介服务器 PBX 之间没有 MTP 的 CAC。](../../media/CAC_gateways_3.jpg)
 
-在此例中，如果网络站点 1 的 Skype for Business 客户端用户通过 PBX 呼叫用户，则中介服务器只能对 Skype for Business 客户端应用程序和中介服务器) 之间的代理代理 (执行 CAC 检查。 由于在请求会话时中介服务器没有有关终结点设备的信息，因此在呼叫建立之前，无法在中介服务器和第三方终结点 (之间的 WAN 链路) 上执行 CAC 检查。 但是，建立会话后，中介服务器可便于计算中继上使用的带宽。
+本示例中，如果网络站点 1 的 Skype for Business 客户端用户通过 PBX 向用户发送呼叫，则中介服务器只能对 Skype for Business 客户端应用程序和中介服务器) 之间的代理 (执行 CAC 检查。 由于在请求会话时中介服务器没有有关终结点设备的信息，因此在呼叫建立之前，无法在中介服务器和第三方终结点 (之间的 WAN 链接) 上执行 CAC 检查。 但是，建立会话后，中介服务器可便于计算中继上使用的带宽。
 
 对于来自第三方终结点的呼叫，有关该终结点设备的信息在会话请求时可用，并且 CAC 检查可在中介服务器的两侧执行。
 

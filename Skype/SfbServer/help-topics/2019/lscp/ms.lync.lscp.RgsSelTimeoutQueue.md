@@ -1,7 +1,7 @@
 ---
 title: 选择超时队列
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 3ced887e-a8f2-4c77-9093-cdf0afc4cb97
 ROBOTS: NOINDEX, NOFOLLOW
 description: 使用“选择超时队列”对话框可选择呼叫在超时后被转接到的队列。
-ms.openlocfilehash: bfad5e95673f998ed319de50a5345e603ece1a98
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f6c0390b3ada73bd77a6df716fd3e026c7faa0a4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58591766"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769460"
 ---
 # <a name="select-time-out-queue"></a>选择超时队列
  

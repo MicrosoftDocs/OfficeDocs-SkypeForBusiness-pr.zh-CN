@@ -1,7 +1,7 @@
 ---
 title: 响应组中响应组呼叫列表Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: a2d3e08b-511b-4507-abba-8ff71aa27c8e
 description: 摘要：了解应用程序中的响应组Skype for Business Server。
-ms.openlocfilehash: 8d801b15dbcd9c040f2f1bb3d5e3dfb7fa5d198f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 46193159c9cb29f63b3fc4ca9053a3e9dd098d01
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612191"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773612"
 ---
 # <a name="response-group-call-list-report-in-skype-for-business-server"></a>响应组中响应组呼叫列表Skype for Business Server
 
@@ -41,7 +41,7 @@ ms.locfileid: "58612191"
 
 ## <a name="accessing-the-response-group-call-list-report"></a>访问响应组呼叫列表报告
 
-只能通过单击"响应组使用情况报告"中的下列指标之一来访问响应组呼叫列表[Skype for Business Server：](response-group-usage-report.md)
+只有单击以下指标之一，才能访问响应组呼叫列表报告，该指标位于以下[Skype for Business Server：](response-group-usage-report.md)
 
 - 收到的呼叫
 
@@ -57,7 +57,7 @@ ms.locfileid: "58612191"
 
 响应组呼叫列表报告允许您将所显示的数据限制为涉及特定响应组工作流的呼叫。为执行此操作，需要在“工作流 URI”框中输入工作流 URI（工作流的 SIP 地址）。但是，您必须实际上能够看到“工作流 URI”框，才能执行此操作。要显示响应组呼叫列表报告的筛选选项，请单击报告窗口左上部分的“显示/隐藏参数”按钮。
 
-请注意，如果将鼠标停留在其中任一指标上，响应组呼叫列表不会显示有关响应代码或诊断 ID 的信息。 如果您需要更多信息，您可以记下响应代码和/或诊断 ID，然后在"错误"中的"顶级故障报告"[中Skype for Business Server。](top-failures-report.md)
+请注意，如果将鼠标停留在其中任一指标上，响应组呼叫列表不会显示有关响应代码或诊断 ID 的信息。 如果您需要更多信息，您可以记下响应代码和/或诊断 ID，然后在"响应和/或诊断 ID"的"顶级故障报告["中Skype for Business Server。](top-failures-report.md)
 
 对于类似如下的问题：“哪个个别工作流收到的呼叫数最多？”，您可以执行以下操作：
 

@@ -1,7 +1,7 @@
 ---
-title: 管理注册器配置Skype for Business Server
+title: 管理注册器配置设置Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,22 +13,22 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: eddfbdd2-cfd0-4c03-986e-443d6728db7d
 description: 摘要：管理注册器配置Skype for Business Server。
-ms.openlocfilehash: 8413d7d1604a598b8c46cebe753d408d9300d823
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 78a9e2b7af9b01fb5094e6d4286742a4c3147cfb
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60015006"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773732"
 ---
-# <a name="manage-registrar-configuration-settings-in-skype-for-business-server"></a>管理注册器配置Skype for Business Server
+# <a name="manage-registrar-configuration-settings-in-skype-for-business-server"></a>管理注册器配置设置Skype for Business Server
  
-**摘要：** 管理注册器配置Skype for Business Server。
+**摘要：** 管理 Skype for Business Server 的注册器配置Skype for Business Server。
   
 可以使用注册器配置代理服务器身份验证方法。指定的身份验证协议确定池中的服务器向客户端发出的质询类型。可以选择以下协议：
   
 - **Kerberos** 这是可供客户端使用的最强基于密码的身份验证方案，但它通常仅适用于企业客户端，因为它需要客户端连接到密钥发行中心 (Kerberos 域控制器) 。 如果服务器仅对企业客户端进行身份验证，则此设置适用。
     
-- **NTLM** 这是对密码使用质询响应哈希方案的客户可用的基于密码的身份验证。 这是没有连接到 Kerberos 域控制器上密钥发行中心 (客户端（) 用户）的唯一形式的身份验证。 如果服务器仅对远程用户进行身份验证，则应该选择"NTLM"。
+- **NTLM** 这是对密码使用质询响应哈希方案的客户可用的基于密码的身份验证。 这是没有连接到 Kerberos 域控制器上密钥发行中心 (客户端（如) ）的唯一身份验证形式。 如果服务器仅对远程用户进行身份验证，则应该选择"NTLM"。
     
 - **证书身份验证** 当服务器需要从 Lync 电话 Edition 客户端、公用区域电话、Skype for Business和 Lync Windows Store 应用获取证书时，这是新的身份验证方法。 在 Lync 电话 Edition 客户端上，在用户登录并通过提供个人标识号 (PIN) 成功通过身份验证后，Skype for Business Server 然后将 SIP URI 设置到电话，并设置 Skype for Business Server 签名证书或标识 Joe (（例如：SN=joe@contoso.com） 的用户证书。A3 到电话。 此证书用于向注册器和 Web 服务进行身份验证。
     
@@ -39,7 +39,7 @@ ms.locfileid: "60015006"
   
 ### <a name="to-create-new-registrar-configuration-settings"></a>创建新的注册器配置设置
 
-1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 的用户帐户，或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署 Skype for Business Server 的网络中的任何计算机。
+1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 的用户帐户，或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署 Skype for Business Server 的网络内的任何计算机。
     
 2. 打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。  
     
@@ -70,7 +70,7 @@ ms.locfileid: "60015006"
   
 ### <a name="to-modify-existing-registrar-configuration-settings"></a>修改现有注册器配置设置
 
-1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 的用户帐户，或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署 Skype for Business Server 的网络中的任何计算机。
+1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 的用户帐户，或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署 Skype for Business Server 的网络内的任何计算机。
     
 2. 打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。  
     
@@ -90,7 +90,7 @@ ms.locfileid: "60015006"
     
 ### <a name="to-delete-registrar-configuration-settings"></a>删除注册器配置设置
 
-1. 从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 的用户帐户，或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署 Skype for Business Server 的网络中的任何计算机。
+1. 从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 的用户帐户，或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署 Skype for Business Server 的网络内的任何计算机。
     
 2. 打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。 
     
@@ -102,7 +102,7 @@ ms.locfileid: "60015006"
     
 6. 单击“**确定**”。
     
-## <a name="removing-registrar-configuration-settings-by-using-windows-powershell-cmdlets"></a>使用 cmdlet 设置注册器Windows PowerShell配置
+## <a name="removing-registrar-configuration-settings-by-using-windows-powershell-cmdlets"></a>使用 cmdlet 设置注册器配置Windows PowerShell注册器配置
 
 可以使用 Windows PowerShell **和 Remove-CsProxyConfiguration** cmdlet 删除注册器配置设置。 还可从 Skype for Business Server Management Shell 或 Windows PowerShell 远程会话运行此 cmdlet。 有关使用远程 powerShell Windows PowerShell连接到Skype for Business Server的详细信息，请参阅 Microsoft Lync [Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。
   

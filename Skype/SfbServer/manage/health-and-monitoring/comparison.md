@@ -1,7 +1,7 @@
 ---
 title: Skype for Business Server 中的媒体质量比较报告
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c1d0b5a8-98ff-455a-b78b-a05a21cf066d
 description: 摘要：了解 Skype for Business Server 中的媒体质量比较报告。
-ms.openlocfilehash: 9d8c39cd2c416917b8e0cc4dd7d7d911f21ec70c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7814075c59428da25bcdaf4f0f18b0240d63360a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619808"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773602"
 ---
 # <a name="media-quality-comparison-report-in-skype-for-business-server"></a>Skype for Business Server 中的媒体质量比较报告
  
@@ -52,7 +52,7 @@ ms.locfileid: "58619808"
 |**名称**|**是否可按此项排序？**|**说明**|
 |:-----|:-----|:-----|
 |**呼叫量** <br/> |否  <br/> |呼叫总数。  <br/> |
-|**性能降低(MOS)** <br/> |否  <br/> |呼叫过程中 (性能降低) 平均意见得分的 MOS 和平均意见得分。 性能降低值的范围介于 0.0 和 5.0 之间；该值小于或等于 0.5 表示可接受的性能降低。 过去，平均意见得分是通过让用户对呼叫质量进行评分（范围为 1 到 5）得出的。 Skype for Business Server使用一组算法来预测用户如何对呼叫进行评分。  <br/> 高性能降低值可能是由拥塞、带宽不足、无线拥塞/干扰或媒体服务器或终结点超载造成的，从而导致音频失真或丢失。  <br/> |
+|**性能降低(MOS)** <br/> |否  <br/> |呼叫过程中遇到降级 (MOS) 平均意见得分的平均值。 性能降低值的范围介于 0.0 和 5.0 之间；该值小于或等于 0.5 表示可接受的性能降低。 过去，平均意见得分是通过让用户对呼叫质量进行评分（范围为 1 到 5）得出的。 Skype for Business Server使用一组算法来预测用户对呼叫的评分。  <br/> 高性能降低值可能是由拥塞、带宽不足、无线拥塞/干扰或媒体服务器或终结点超载造成的，从而导致音频失真或丢失。  <br/> |
 |**质量欠佳的呼叫百分比** <br/> |否  <br/> |归类为质量欠佳的呼叫的总数。质量欠佳的呼叫是指至少一项测量指标超过允许的值的任何呼叫（例如，信号极不稳定的呼叫）。  <br/> |
 |**来回行程(毫秒)** <br/> |否  <br/> |实时传输协议数据包来往于另一个终结点所需的平均时间量（以毫秒为单位）。来回行程的时间小于或等于 200 毫秒被视为质量可接受。  <br/> 高来回行程时间值可能是由国际呼叫路由、路由配置错误或媒体服务器超载造成的，从而导致双向实时音频对话存在问题。  <br/> |
 |**数据包丢失** <br/> |否  <br/> |平均 RTP 数据包丢失率。（当 RTP 数据包（一项用于在 Internet 中传输音频和视频的协议）无法到达其目标位置时将发生数据包丢失。）高丢失率通常是由拥塞、带宽不足、无线拥塞/干扰或媒体服务器超载造成的，从而导致音频失真或丢失。  <br/> |

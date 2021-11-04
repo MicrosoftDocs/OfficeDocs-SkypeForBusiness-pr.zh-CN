@@ -1,7 +1,7 @@
 ---
 title: 添加 Survivable Branch Appliance PSTN
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/26/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 7c55a43d-2589-48f9-972b-1e48a3dca52a
 description: 若要在分支站点为 Survivable Branch Appliance 定义公用电话交换网 (PSTN) 网关，请指定以下内容：
-ms.openlocfilehash: b79d4959baca97628ce3e712ae91cb3879b617c4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 700839dced629d2821a7411e451e4f013f511a7d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58591536"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773962"
 ---
 # <a name="add-survivable-branch-appliance-pstn"></a>添加 Survivable Branch Appliance PSTN
  

@@ -1,7 +1,7 @@
 ---
 title: 后端服务器高可用性Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,17 +12,17 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c559aacb-4e1d-4e78-9582-41f966ad418d
-description: 了解 Skype for Business Server 中支持的后端服务器高可用性选项，包括 AlwaysOn 可用性组、AlwaysOn 故障转移群集实例、数据库镜像SQL故障转移群集。
-ms.openlocfilehash: ce84429d77b8da426913d873d99d2f70badc4d12
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 了解 Skype for Business Server 中支持的后端服务器高可用性选项，包括 AlwaysOn 可用性组、AlwaysOn 故障转移群集实例、数据库镜像和SQL群集。
+ms.openlocfilehash: 6020f1a474c450da66fcb6fd5249db39fb0c29be
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595480"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773502"
 ---
 # <a name="back-end-server-high-availability-in-skype-for-business-server"></a>后端服务器高可用性Skype for Business Server
  
-了解 Skype for Business Server 中支持的后端服务器高可用性选项，包括 AlwaysOn 可用性组、AlwaysOn 故障转移群集实例、数据库镜像SQL故障转移群集。
+了解 Skype for Business Server 中支持的后端服务器高可用性选项，包括 AlwaysOn 可用性组、AlwaysOn 故障转移群集实例、数据库镜像和SQL群集。
   
 若要增强后端服务器的高可用性，有四个选项：
   
@@ -46,11 +46,11 @@ Skype for Business Server以下数据库软件进行镜像：
   
 - SQL Server 2019 年 10 月，Enterprise Edition 和 Standard Edition
 
-- SQL Server 2017 年 10 月，Enterprise Edition 和 Standard Edition
+- SQL Server 2017 年 10 月，Enterprise Edition和 Standard Edition
 
-- SQL Server 2016 Enterprise Edition和 Standard Edition
+- SQL Server 2016 年，Enterprise Edition 和 Standard Edition
 
-- SQL Server 2014 年 10 月，Enterprise Edition 和 Standard Edition
+- SQL Server 2014 年 10 月，Enterprise Edition和 Standard Edition
     
 - SQL Server 2012 SP2 和 CU2，Enterprise Edition和 Standard Edition
     
@@ -60,7 +60,7 @@ Skype for Business Server以下数据库软件进行镜像：
     
 后端服务器高可用性不支持异步数据库镜像Skype for Business Server。 在本文档的其余部分中，除非另有说明，否则数据库镜像是指同步数据库镜像。 
   
-在前端池中部署数据库镜像时，将镜像池中的所有 Skype for Business Server 数据库，包括中央管理存储（如果它位于此池中）以及响应组 应用数据库 和呼叫库 应用数据库（如果这些应用程序正在池中运行）。 
+在前端池中部署数据库镜像时，将镜像池中的所有 Skype for Business Server 数据库，包括中央管理存储（如果它位于该池中）以及响应组 应用数据库 和呼叫库 应用数据库（如果这些应用程序正在池中运行）。 
   
 使用数据库镜像时，无需对服务器使用共享存储。 每台服务器将其数据库副本保留在本地存储上。 
   
@@ -72,23 +72,23 @@ Skype for Business Server以下数据库软件进行镜像：
 
 通常，在两台具有见证的后端服务器之间设置 SQL 镜像需要满足以下条件：
   
-- 主服务器的版本必须支持SQL Server镜像SQL版本。
+- 主服务器的版本必须支持SQL Server镜像SQL镜像。
     
 - 主、镜像和见证（如果部署）必须具有同一版本的 SQL Server。 
     
 - 主和镜像必须具有同一版本的 SQL Server。见证可以具有不同版本。
     
-有关SQL角色支持哪些版本SQL最佳实践，请参阅 MSDN 库中的"数据库[镜像](/sql/database-engine/database-mirroring/database-mirroring-witness)见证"。
+有关SQL角色支持哪些SQL的最佳实践，请参阅 MSDN 库中的"数据库[镜像](/sql/database-engine/database-mirroring/database-mirroring-witness)见证"。
   
-配置服务器镜像之前，必须先正确设置SQL权限。 有关详细信息，请参阅"为数据库镜像或 AlwaysOn 可用性组设置登录[ (SQL Server) "。](/sql/database-engine/database-mirroring/set-up-login-accounts-database-mirroring-always-on-availability)
+配置服务器镜像之前，必须先正确设置SQL数据库权限。 有关详细信息，请参阅"为数据库镜像或 AlwaysOn 可用性组设置登录[ (SQL Server) "。](/sql/database-engine/database-mirroring/set-up-login-accounts-database-mirroring-always-on-availability)
   
 对于 SQL 镜像，数据库恢复模式始终设置为“完全”，这意味着您必须密切监控事务日志大小并定期备份事务日志以避免后端服务器上的磁盘空间不足。事务日志备份频率取决于日志增长速率，反过来，日志增长速率又取决于前端池上的用户活动所触发的数据库事务数。建议您确定您的 Lync 部署工作负载所需的事务日志增长程度，以便进行适当的规划。下列文章提供了有关 SQL 备份和日志管理的其他信息：
   
 > [!IMPORTANT]
-> 只有在主、镜像和见证 (服务器都属于同一个域时，才支持使用拓扑生成器或 cmdlet 设置和删除) SQL 镜像。 如果您需要在不同域中的服务器之间设置 SQL 镜像，请参阅 SQL Server 文档。 
+> 只有在主服务器、镜像服务器和见证服务器SQL需要时，才支持使用拓扑生成器或 cmdlet 设置和删除 (镜像) 服务器都属于同一个域。 如果您需要在不同域中的服务器之间设置 SQL 镜像，请参阅 SQL Server 文档。 
 
 > [!NOTE]
-> SQL镜像在 Skype for Business Server 2015 中可用，但在 Skype for Business Server 2019 中不再受支持。 AlwaysOn 可用性组、AlwaysOn 故障转移群集实例 (FCI) 和 SQL 故障转移群集方法在 Skype for Business Server 2019 中Skype for Business Server首选。
+> SQL镜像在 Skype for Business Server 2015 中可用，但在 Skype for Business Server 2019 中不再受支持。 AlwaysOn 可用性组、AlwaysOn 故障转移群集实例 (FCI) 和 SQL 故障转移群集方法在 Skype for Business Server 2019 中是首选。
   
 ### <a name="recovery-time-for-automatic-back-end-server-failover-with-database-mirroring"></a>使用数据库镜像进行自动后端服务器故障转移的恢复时间
 
@@ -112,19 +112,19 @@ Skype for Business Server AlwaysOn 可用性组仅支持主动/被动，而非�
 
 Skype for Business Server以下数据库软件支持 AlwaysOn：
 
-- 2019 SQL Server Enterprise Edition
+- SQL Server 2019 Enterprise Edition
 
 - SQL Server 2019 Standard Edition有限制，请参阅下面的说明
 
-- 2017 SQL Server Enterprise Edition
+- SQL Server 2017 Enterprise Edition
 
 - SQL Server 2017 Standard Edition有限制，请参阅下面的说明
 
-- SQL Server 2016 Enterprise Edition
+- 2016 SQL Server Enterprise Edition
 
-- SQL Server 2016 Standard Edition有限制，请参阅下面的说明
+- SQL Server 2016 Standard Edition有限制，请参阅下面的注释
 
-- SQL Server 2014 Enterprise Edition
+- 2014 SQL Server Enterprise Edition
     
 - SQL Server 2012 SP2 和 CU2 Enterprise Edition
 
@@ -137,7 +137,7 @@ Skype for Business Server以下数据库软件支持 AlwaysOn：
 > [!IMPORTANT]
 > 多个 AlwaysOn 可用性组实例的实例名称必须相同。 
   
-有关部署 AlwaysOn 可用性组的步骤，请参阅在 Skype for Business Server 中的后端服务器上部署[AlwaysOn 可用性Skype for Business Server。](../../deploy/deploy-high-availability-and-disaster-recovery/alwayson-availability-group.md)
+有关部署 AlwaysOn 可用性组的步骤，请参阅 Skype for Business Server 中的在后端服务器上部署[AlwaysOn 可用性Skype for Business Server。](../../deploy/deploy-high-availability-and-disaster-recovery/alwayson-availability-group.md)
   
 ## <a name="sql-server-failover-clustering"></a>SQL Server故障转移群集
 
@@ -145,19 +145,19 @@ Skype for Business Server以下SQL Server软件进行故障转移群集：
   
 - SQL Server 2019 年 10 月，Enterprise Edition 和 Standard Edition
 
-- SQL Server 2017 年 10 月，Enterprise Edition 和 Standard Edition
+- SQL Server 2017 年 10 月，Enterprise Edition和 Standard Edition
 
-- SQL Server 2016 Enterprise Edition和 Standard Edition
+- SQL Server 2016 年，Enterprise Edition 和 Standard Edition
 
-- SQL Server 2014 年 10 月，Enterprise Edition 和 Standard Edition
+- SQL Server 2014 年 10 月，Enterprise Edition和 Standard Edition
     
 - SQL Server 2012 SP2 和 CU2，Enterprise Edition和 Standard Edition
 
-若要SQL故障转移群集，应首先设置和配置 SQL Server 群集，然后再部署前端池。 有关 2012 年 3 月故障转移群集的最佳实践SQL Server说明，请参阅 [https://technet.microsoft.com/library/hh231721.aspx](/sql/sql-server/failover-clusters/install/sql-server-failover-cluster-installation) 。
+若要SQL故障转移群集，应首先设置和配置SQL Server群集，然后再部署前端池。 有关 2012 年 SQL Server故障转移群集的最佳实践和设置说明，请参阅 [https://technet.microsoft.com/library/hh231721.aspx](/sql/sql-server/failover-clusters/install/sql-server-failover-cluster-installation) 。
 
 > [!NOTE]
 > SQL Server 2019、2017 和 SQL Server 2016 是唯一受 Skype for Business Server 2019 支持的版本。
     
-若要SQL故障转移群集，应首先设置和配置 SQL Server 群集，然后再部署前端池。 有关在 2014 和 2016 SQL Server故障转移群集的最佳实践和设置说明，请参阅 [https://technet.microsoft.com/library/hh231721.aspx](/sql/sql-server/failover-clusters/install/sql-server-failover-cluster-installation) 。 有关 SQL Server 2008 中的故障转移群集，请参阅 [https://technet.microsoft.com/library/ms189134(v=sql.105).aspx](/previous-versions/sql/sql-server-2008-r2/ms189134(v=sql.105)) 。
+若要SQL故障转移群集，应首先设置和配置SQL Server群集，然后再部署前端池。 有关在 2014 和 2016 SQL Server故障转移群集的最佳实践和设置说明，请参阅 [https://technet.microsoft.com/library/hh231721.aspx](/sql/sql-server/failover-clusters/install/sql-server-failover-cluster-installation) 。 有关 2008 年 SQL Server群集，请参阅 [https://technet.microsoft.com/library/ms189134(v=sql.105).aspx](/previous-versions/sql/sql-server-2008-r2/ms189134(v=sql.105)) 。
   
 安装 SQL Server 时，应安装 SQL Server Management Studio 来管理数据库位置和日志文件位置。 安装 SQL Server 时，SQL Server Management Studio 将作为可选组件安装。
