@@ -533,6 +533,8 @@ items:
             href: general-teams-templates-in-the-admin-console.md
           - name: 制造业类别团队模板
             href: manufacturing-teams-templates-in-the-admin-console.md
+          - name: 非盈利组织类别团队模板
+            href: team-templates-nonprofit.md
           - name: 管理团队模板策略
             href: templates-policies.md
       - name: 与组织外的人员一起工作
@@ -1553,6 +1555,11 @@ items:
             href: flw-realwear.md
           - name: 对讲机
             href: walkie-talkie.md
+      - name: 适用于非营利组织的 Teams
+        href: expand-teams-across-your-org/teams-for-nonprofit-landing-page.md
+        items:
+          - name: 使用非营利组织团队模板
+            href: team-templates-nonprofit.md
       - name: 适用于零售业的 Teams
         href: expand-teams-across-your-org/teams-for-retail-landing-page.md
         items:

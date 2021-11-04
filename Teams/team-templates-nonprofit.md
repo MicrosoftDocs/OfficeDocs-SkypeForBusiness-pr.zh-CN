@@ -19,13 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 07c335797b2092b42cacb8f0daa92947e7a2349a
-ms.sourcegitcommit: 813f1e44bd094bd997dd7423cda7e685ff61498f
+ms.openlocfilehash: 2f0a6218d9843c0ed99c80c517fe9986f41d79b6
+ms.sourcegitcommit: 1957a06d4bae3d42b4e3b6d4bd8ff2752a19d377
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2021
-ms.locfileid: "60633550"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60641342"
 ---
 # <a name="use-nonprofit-team-templates"></a>使用非营利组织团队模板
 
@@ -41,7 +40,7 @@ Teams 包括一个管理志愿者团队模板，旨在简化志愿者管理活�
 
 将员工聚集在一起，就志愿者管理任务和活动进行沟通和协作。
 
-此模板包括旨在简化志愿者管理活动的频道和应用。 员工可以组织和共享加入材料和常用文档、查看报告、及时了解重要团队和活动公告等。 该模板还与志愿者管理（一个属于适用于非营利组织的 Microsoft Cloud 的应用）集成，使员工能够在 Teams 中管理志愿者参与机会。
+此模板包括旨在简化志愿者管理活动的频道和应用。 员工可以组织和共享加入材料和常用文档、查看报告、及时了解重要团队和活动公告等。 该模板还集成了 [Microsoft Cloud for Nonprofit](/industry/nonprofit/) 中的“[自愿者管理](/dynamics365/industry/nonprofit/volunteer-management-use)”应用，使员工能够管理 Microsoft Teams 中的志愿者参与机会。
 
 下面是管理志愿者团队模板附带的频道和应用。
 
@@ -88,3 +87,4 @@ Teams 包括一个管理志愿者团队模板，旨在简化志愿者管理活�
 ## <a name="related-articles"></a>相关文章
 
 - [Teams 帮助文档](https://support.microsoft.com/teams)
+- [Microsoft Cloud for Nonprofit 文档](/industry/nonprofit/)
