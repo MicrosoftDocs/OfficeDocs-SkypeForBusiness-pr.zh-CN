@@ -1,7 +1,7 @@
 ---
 title: 按类分类的架构Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 10/20/2015
@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 72726b43-f1ea-458c-9304-a26e8a12128c
-description: 本节列出了每个类中可包含的架构Skype for Business Server类以及可包含在其他类中的类。 有关所有类及其说明的列表，请参阅架构类和Skype for Business Server。 有关所有属性及其说明的列表，请参阅架构属性和Skype for Business Server。
-ms.openlocfilehash: 55975ac452c4bfde173bfbe75f1c9f0fee642372
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 本节列出了可包含在每个 Skype for Business Server 类中的架构属性以及可包含在其他类中的类。 有关所有类及其说明的列表，请参阅架构类和Skype for Business Server。 有关所有属性及其说明的列表，请参阅架构属性和Skype for Business Server。
+ms.openlocfilehash: e3443155c4dec7d68ab2bb971f5fd9cad024eafe
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578626"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60743298"
 ---
 # <a name="schema-attributes-by-class-in-skype-for-business-server"></a>按类分类的架构Skype for Business Server
  
-本节列出了每个类中可包含的架构Skype for Business Server类以及可包含在其他类中的类。 有关所有类及其说明的列表，请参阅架构[类及其Skype for Business Server。](schema-classes-and-descriptions.md) 有关所有属性及其说明的列表，请参阅架构[属性](schema-attributes-and-descriptions.md)和Skype for Business Server。
+本节列出了可包含在每个 Skype for Business Server 类中的架构属性以及可包含在其他类中的类。 有关所有类及其说明的列表，请参阅架构类和[Skype for Business Server](schema-classes-and-descriptions.md)中的说明。 有关所有属性及其说明的列表，请参阅架构[属性](schema-attributes-and-descriptions.md)和Skype for Business Server。
   
 ## <a name="attributes-by-class"></a>按类分组的属性
 
@@ -57,7 +57,7 @@ ms.locfileid: "58578626"
 |msRTCSIP-TrustedWebComponentsServer  <br/> |msRTCSIP-TrustedWebComponentsServerData  <br/> msRTCSIP-TrustedWebComponentsServerFQDN  <br/> msRTCSIP-TrustedServerVersion  <br/> |
 |msRTCSIP-WebComponentsService  <br/> |msRTCSIP-WebComponentsServers  <br/> |
 |msRTCSIP-WebComponentSettings  <br/> |msRTCSIP-WebComponentsData  <br/> msRTCSIP-WebComponentsPoolAddress  <br/> msRTCSIP-ServerVersion  <br/> |
-|用户  <br/> |msRTCSIP-AcpInfo  <br/> msRTCSIP-ApplicationOptions  <br/> msRTCSIP-ArchivingEnabled  <br/> msRTCSIP-DeploymentLocator  <br/> msRTCSIP-FederationEnabled  <br/> msRTCSIP-GroupingID  <br/> msRTCSIP-InternetAccessEnabled  <br/> msRTCSIP-Line  <br/> msRTCSIP-LineServer  <br/> msRTCSIP-OptionFlags  <br/> msRTCSIP-OriginatorSid  <br/> msRTCSIP-OwnerUrn  <br/> msRTCSIP-PrimaryHomeServer  <br/> msRTCSIP-PrimaryUserAddress  <br/> msRTCSIP-PrivateLine  <br/> msRTCSIP-TargetHomeServer  <br/> msRTCSIP-TargetUserPolicies  <br/> msRTCSIP-TenantId  <br/> msRTCSIP-UserEnabled  <br/> msRTCSIP-UserExtension  <br/> msRTCSIP-UserLocationProfile  <br/> msRTCSIP-UserPolicies  <br/> msRTCSIP-UserPolicy  <br/> msRTCSIP-UserRoutingGroupId  <br/> ProxyAddresses  <br/> |
+|User  <br/> |msRTCSIP-AcpInfo  <br/> msRTCSIP-ApplicationOptions  <br/> msRTCSIP-ArchivingEnabled  <br/> msRTCSIP-DeploymentLocator  <br/> msRTCSIP-FederationEnabled  <br/> msRTCSIP-GroupingID  <br/> msRTCSIP-InternetAccessEnabled  <br/> msRTCSIP-Line  <br/> msRTCSIP-LineServer  <br/> msRTCSIP-OptionFlags  <br/> msRTCSIP-OriginatorSid  <br/> msRTCSIP-OwnerUrn  <br/> msRTCSIP-PrimaryHomeServer  <br/> msRTCSIP-PrimaryUserAddress  <br/> msRTCSIP-PrivateLine  <br/> msRTCSIP-TargetHomeServer  <br/> msRTCSIP-TargetUserPolicies  <br/> msRTCSIP-TenantId  <br/> msRTCSIP-UserEnabled  <br/> msRTCSIP-UserExtension  <br/> msRTCSIP-UserLocationProfile  <br/> msRTCSIP-UserPolicies  <br/> msRTCSIP-UserPolicy  <br/> msRTCSIP-UserRoutingGroupId  <br/> ProxyAddresses  <br/> |
    
 ### <a name="classes-contained-in-other-classes"></a>包含在其他类中的类
 

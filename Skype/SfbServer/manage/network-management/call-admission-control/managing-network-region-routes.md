@@ -1,7 +1,7 @@
 ---
 title: 管理网络区域路由
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 网络区域路由 定义一对网络区域之间的路由。 呼叫允许控制部署中的每对网络区域均需要网络区域路由。
-ms.openlocfilehash: 962fba52ab3c937a7479c690c43f0bc5cfe9756d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 30782564076c5a6bb5961f904fe30b1cfe0d0ef5
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612151"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750191"
 ---
 # <a name="managing-network-region-routes-in-skype-for-business-server"></a>在 Skype for Business Server 中管理网络区域路由
 
@@ -46,11 +46,11 @@ ms.locfileid: "58612151"
 
 ### <a name="viewing-network-region-route-information-by-using-windows-powershell-cmdlets"></a>使用 Cmdlet 查看网络区域Windows PowerShell信息
 
-网络区域路由信息可通过使用 Windows PowerShell 和 Get-CsNetworkInterRegionRoute cmdlet 进行查看。 可以从命令行管理程序或 Skype for Business Server远程会话中运行此 cmdlet Windows PowerShell。 
+网络区域路由信息可以通过使用 Windows PowerShell cmdlet Get-CsNetworkInterRegionRoute查看。 可以从命令行管理程序或 Skype for Business Server远程会话运行此 cmdlet Windows PowerShell。 
 
 ### <a name="to-view-network-region-route-information"></a>查看网络区域路由信息
 
-  - 若要查看有关所有网络区域路由的信息，请在命令行管理程序中键入Skype for Business Server命令，然后按 Enter：
+  - 若要查看有关所有网络区域路由的信息，请在命令行管理程序中Skype for Business Server以下命令，然后按 Enter：
     
     **Get-CsNetworkInterRegionRoute**
     

@@ -1,7 +1,7 @@
 ---
 title: 自 2019 年 10 Skype for Business Server弃用功能
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 摘要：这些功能已从 2019 Skype for Business Server中删除。
-ms.openlocfilehash: cdc7b54f815c324707ee657d8365aa842f28293d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 65229e091d903ca18fee89224e45aedef8c0ca40
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595026"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771721"
 ---
 # <a name="whats-deprecated-from-skype-for-business-server-2019"></a>自 2019 年 10 Skype for Business Server弃用功能
 
-了解 2019 年 10 月弃Skype for Business Server的功能。 有关 Skype for Business Server 2019 中的新功能的信息，请参阅[what's in Skype for Business Server 2019](whats-new.md)。
+了解 2019 年 10 月Skype for Business Server的功能。 有关 Skype for Business Server 2019 中的新功能的信息，请参阅[what's in Skype for Business Server 2019](whats-new.md)。
 
 为了与以前的产品版本兼容，Skype for Business Server 2019 年包含一些有所强调的功能。
 
@@ -29,15 +29,15 @@ ms.locfileid: "58595026"
 
 2019 年 3 月，已弃Skype for Business Server功能。
 
-### <a name="xmpp-gateways-for-skype-for-business-server"></a>用于网关的 XMPP Skype for Business Server
+### <a name="xmpp-gateways-for-skype-for-business-server"></a>适用于网关的 XMPP Skype for Business Server
 
 Skype for Business Server 2015 及其前置版本允许在边缘服务器上配置可扩展消息传递和状态协议 (XMPP) 代理，在前端服务器或前端池上配置 XMPP 网关。 2019 年 10 月Skype for Business Server此功能。
 
 ### <a name="persistent-chat-for-skype-for-business-server"></a>持久聊天Skype for Business Server
 
-持久聊天服务器是一个可选角色，可让贵组织中多个用户参与持久聊天室对话。 2019 年 10 月Skype for Business Server持久聊天。 此服务器角色已从拓扑生成器和代码中删除。 
+持久聊天服务器是一个可选角色，可让贵组织中多个用户参与持久聊天室对话。 2019 年 10 月无法部署持久Skype for Business Server聊天。 此服务器角色已从拓扑生成器和代码中删除。 
 
-相同的功能在 Teams。 有关详细信息，请参阅[开始升级Microsoft Teams升级](/microsoftteams/upgrade-start-here)。
+相同的功能在 Teams 中可用。 有关详细信息，请参阅开始[升级Microsoft Teams升级](/microsoftteams/upgrade-start-here)。
 
 ### <a name="sql-mirroring-for-skype-for-business-server"></a>SQL镜像Skype for Business Server
 
@@ -45,13 +45,13 @@ SQL2019 年 10 月Skype for Business Server镜像。 提供高可用性和灾难
 
 ### <a name="in-place-upgrades"></a>就地升级 
 
-2015 年 2 月Skype for Business Server就地升级，但在 2019 年 2 月不再Skype for Business Server升级。 支持并行升级和共存。 有关详细信息，请参阅 Migration [to Skype for Business Server 2019。](migration/migration-to-skype-for-business-server-2019.md)
+2015 年 3 月Skype for Business Server就地升级，但在 2019 年 2 月不再Skype for Business Server升级。 支持并行升级和共存。 有关详细信息，请参阅 Migration [to Skype for Business Server 2019。](migration/migration-to-skype-for-business-server-2019.md)
 
 ### <a name="mobility-service-mcx"></a>Mobility Service (Mcx) 
 
 所有当前Skype for Business客户端已使用统一通信 Web API (UCWA) 支持即时消息 (IM) 、状态和联系人。 使用 Mcx 的旧客户端的用户将需要升级到当前客户端。
 
-有关更多详细信息，请参阅 Plan [for Mobility for Skype for Business Server](../SfbServer/plan-your-deployment/mobility.md) and Mobile client feature comparison for [Skype for Business](../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md)。
+有关详细信息，请参阅 Plan [for Mobility for Skype for Business Server](../SfbServer/plan-your-deployment/mobility.md) and Mobile client feature comparison for [Skype for Business](../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md)。
 
 ## <a name="tools"></a>工具
 

@@ -1,7 +1,7 @@
 ---
 title: 定义持久聊天池中的计算机
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/27/2015
@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: f87c3abb-d8b4-4e51-af84-9b579e3807c5
-description: 在"计算机 FQDN"中键入完全限定的域名 (FQDN) 定义为持久聊天服务器池一部分的计算机。 这必须是计算机在域名系统 DNS 主机（A 或 AAAA）记录中定义的名称。
-ms.openlocfilehash: f0e17a04d2e7165014adc06ddfeddeccf4ae89b4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 在"计算机 FQDN"中键入完全限定的域名 (FQDN) 定义将成为持久聊天服务器池一部分的计算机。 这必须是计算机在域名系统 DNS 主机（A 或 AAAA）记录中定义的名称。
+ms.openlocfilehash: c739cb8aff3cc95a6fa64b73f28131b4a8d0f77c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622484"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739268"
 ---
 # <a name="define-computers-in-persistent-chat-pool"></a>定义持久聊天池中的计算机
  
-通过键入计算机 **FQDN** 中的完全限定域名和 FQDN (定义将成为持久聊天服务器池一) 的计算机。 这必须是计算机在域名系统 DNS 主机（A 或 AAAA）记录中定义的名称。
+在计算机 **FQDN** 中键入完全限定的域名 (FQDN) 定义将成为持久聊天服务器池一部分的计算机。 这必须是计算机在域名系统 DNS 主机（A 或 AAAA）记录中定义的名称。
   
 单击“添加”将 FQDN 添加到池中的计算机列表。
   

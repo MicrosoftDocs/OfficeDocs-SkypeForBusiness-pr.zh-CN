@@ -1,7 +1,7 @@
 ---
 title: 在策略中分配每用户 PIN Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,18 +13,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d8211c64-0b63-4193-a074-673da7d14287
 description: 摘要：为用户阶段 AV 和 OAuth Skype for Business Server。
-ms.openlocfilehash: 6925b8b042da41f82c505a79afcc5b7678454fbd
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 2ca870ff500c5a963db17f90262c2f128c847d60
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012716"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750351"
 ---
 # <a name="assign-a-per-user-pin-policy-in-skype-for-business-server"></a>在策略中分配每用户 PIN Skype for Business Server
 
 **摘要：** 为用户阶段 AV 和 OAuth Skype for Business Server。
   
-电话拨入式会议个人标识号 (PIN) 策略是用户帐户的单个设置之一，可在"Skype for Business Server控制面板"中配置。
+电话拨入式会议个人标识号 (PIN) 策略是可在"控制面板"中配置的用户帐户Skype for Business Server设置之一。
   
 部署一个或多个每用户 PIN 策略是可选的。还可以只部署一个全局级别的 PIN 策略或站点级别的 PIN 策略。如果要部署每用户策略，则必须将其明确分配给用户、组或联系人对象。未分配特定的站点级别或每用户策略时，用户在电话拨入式会议中使用 PIN 的权限将自动默认为全局级别的 PIN 策略中定义的用户权限。
   
@@ -78,9 +78,9 @@ ms.locfileid: "60012716"
   
 8. 完成后，单击“确定”。
     
-## <a name="assigning-a-per-user-pin-policy-by-using-windows-powershell-cmdlets"></a>使用 Per-User Cmdlet 分配Windows PowerShell PIN 策略
+## <a name="assigning-a-per-user-pin-policy-by-using-windows-powershell-cmdlets"></a>使用 cmdlet Per-User分配Windows PowerShell PIN 策略
 
-可以使用 Windows PowerShell **和 Grant-CsPinPolicy** cmdlet 分配每用户 PIN 策略。 还可从 Skype for Business Server Management Shell 或 Windows PowerShell 远程会话运行此 cmdlet。 有关使用远程 powerShell Windows PowerShell连接到Skype for Business Server的详细信息，请参阅 Microsoft Lync [Remote PowerShell Administration"](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 此过程在Skype for Business Server。
+可以使用 Windows PowerShell **和 Grant-CsPinPolicy** cmdlet 分配每用户 PIN 策略。 还可从 Skype for Business Server Management Shell 或 Windows PowerShell 远程会话运行此 cmdlet。 有关使用远程 powerShell Windows PowerShell连接到Skype for Business Server的详细信息，请参阅[Microsoft Lync Remote PowerShell Administration"](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 此过程在Skype for Business Server。
   
 ### <a name="to-assign-a-per-user-pin-policy-to-a-single-user"></a>为单个用户分配每用户 PIN 策略
 

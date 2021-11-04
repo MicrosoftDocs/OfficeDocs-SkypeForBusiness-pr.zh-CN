@@ -1,7 +1,7 @@
 ---
 title: Create or modify a Group Call Pickup number range in Skype for Business
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4b442b98-df6b-4e50-8254-b3be9cde21dd
 description: Create or modify a Group Call Pickup number range in Skype for Business Server 企业语音.
-ms.openlocfilehash: 65e8cacb3b9ecd55c7411e106aa4dd11d91a32f5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 661efa69d7c7a3264872c4d83b94372d8d9951f1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590566"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60738918"
 ---
 # <a name="create-or-modify-a-group-call-pickup-number-range-in-skype-for-business"></a>Create or modify a Group Call Pickup number range in Skype for Business
 
@@ -34,7 +34,7 @@ Create or modify a Group Call Pickup number range in Skype for Business Server �
 使用以下过程可创建或修改呼叫管理通道表中的呼叫接听组号码范围。
 
 > [!NOTE]
-> 必须使用命令行Skype for Business Server来创建、修改、删除和查看呼叫管理程序通道表中的组内呼叫接听号码范围。 "控制面板"中未提供Skype for Business Server号码范围。
+> 必须使用命令行管理Skype for Business Server来创建、修改、删除和查看呼叫管理程序通道表中的组内呼叫接听号码范围。 组内呼叫接听号码范围在控制面板Skype for Business Server不可用。
 
 呼叫接听组号码范围必须符合以下规则：
 
@@ -46,11 +46,11 @@ Create or modify a Group Call Pickup number range in Skype for Business Server �
 
 - 如果号码范围以字符或 #开头，则范围 \* 必须大于 100。
 
-- 有效值：必须与正则表达式字符串匹配 ([ \\ *|#]？[1-9]\d {0,7}) | ([1-9]\d {0,8}) 。 这意味着该值必须是以字符或 # 或数字 1 到 9 开头的字符串 (第一个字符不能为 \* 零) 。 如果第一个字符是 或 #，则下面的字符必须是 1 到 \* 9 (不能是零) 。 后续字符可以是 0 到 9 之间的任意数字，最多包含七个其他字符 (例如 \* ，"#6000"、"92000"、"95551212"和 \* "915551212") 。 如果第一个字符不是 或 #，则第一个字符必须是数字 1 到 9 (不能为零) 后跟最多八个字符，每个字符从 0 到 9 (例如 \* ，"915551212"、"41212"、"300") 。
+- 有效值：必须与正则表达式字符串匹配 ([ \\ *|#]？[1-9]\d {0,7}) | ([1-9]\d {0,8}) 。 这意味着该值必须是以字符或 # 开头的字符串或 1 到 9 (第一个字符不能为 \* 零) 。 如果第一个字符是 或 #，则下面的字符必须是 1 到 \* 9 (不能是零) 。 后续字符可以是 0 到 9 之间的任意数字，最多附加七个字符 (例如 \* ，"#6000"、"92000"、"95551212"和 \* "915551212") 。 如果第一个字符不是 或 #，则第一个字符必须是 1 到 9 个数字 (不能为零) ，后跟最多八个字符，每个字符从 0 到 \* 9 (例如，"915551212"、"41212"、"300") 。
 
 ### <a name="to-create-or-modify-a-call-pickup-group-range"></a>创建或修改呼叫接听组范围
 
-1. 以 RTCUniversalServerAdmins 组的成员或所需的用户权限（如D delegate **Setup Permissions** 中所述）登录到安装了命令行管理程序Skype for Business Server的计算机。
+1. 以 RTCUniversalServerAdmins 组的成员或委派安装权限中所述的必要用户权限登录到安装了 Skype for Business Server 命令行管理程序 **的计算机**。
 
 2. 启动命令行Skype for Business Server：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击"Skype for Business Server **命令行管理程序"。**
 

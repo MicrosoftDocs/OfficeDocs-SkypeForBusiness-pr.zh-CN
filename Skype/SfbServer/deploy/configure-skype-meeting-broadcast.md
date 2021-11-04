@@ -1,7 +1,7 @@
 ---
 title: 为本地广播配置Skype 会议部署
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -17,18 +17,18 @@ ms.collection:
 - IT_Skype4B_Hybrid
 ms.assetid: 2979802e-fc6b-4555-bc43-7cd48f6a1d88
 description: 摘要：了解为本地部署和混合部署Skype 会议广播Skype for Business Server的步骤。
-ms.openlocfilehash: 99ba1733dc8c353dc17f9a4c9a51a9ed00410d27
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 9d1ccadfc6a8bed52a7f6d4aa72bd72c2a5e94c8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60013706"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771694"
 ---
 # <a name="configure-your-on-premises-deployment-for-skype-meeting-broadcast"></a>为本地广播配置Skype 会议部署
  
 **摘要：** 了解为本地部署和混合部署Skype 会议广播Skype for Business Server的步骤。
   
-Skype 会议广播是联机服务的一部分，Office 365。 如果要在本地Skype for Business Server广播，并且想要Skype 会议广播，则需要遵循本主题中的配置步骤。 开始之前，需要将环境配置为与 Skype for Business Online 混合。 有关详细信息，请参阅 Plan [hybrid connectivity between Skype for Business Server and Skype for Business Online](../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json)和 Deploy hybrid connectivity between Skype for Business Server and Skype for Business [Online。](../../SfbHybrid/hybrid/configure-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json)
+Skype 会议广播是一种联机服务，它是Office 365。 如果要在本地Skype for Business Server广播，并且想要Skype 会议广播，则需要遵循本主题中的配置步骤。 开始之前，需要将环境配置为与 Skype for Business Online 混合。 有关详细信息，请参阅 Plan [hybrid connectivity between Skype for Business Server and Skype for Business Online](../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json)和 Deploy hybrid connectivity between Skype for Business Server and Skype for Business [Online。](../../SfbHybrid/hybrid/configure-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json)
   
 ## <a name="configure-your-hybrid-environment-for-skype-meeting-broadcast"></a>为混合广播配置Skype 会议环境
 
@@ -42,7 +42,7 @@ Skype 会议广播是联机服务的一部分，Office 365。 如果要在本地
 
 若要启用与 Skype for Business Online 资源的联盟，您需要为 SIP 联盟提供程序配置外部访问。 为此，请Skype for Business Server控制面板执行以下步骤：
   
-1. 启动Skype for Business Server控制面板，然后选择 **左侧的"外部** 访问"。
+1. 启动"Skype for Business Server控制面板"，然后选择 **左侧的"外部** 访问"。
     
 2. 选择 **"SIP 联盟提供程序"，** 然后单击"新建 **"。**
     
@@ -63,11 +63,11 @@ New-CsHostingProvider -Identity LyncOnlineResources -ProxyFqdn sipfed.resources.
 
 接下来，您需要将 SIP 联盟域添加到允许的域列表中。 对列出的每个域重复这些步骤，创建 4 个新的 SIP 联盟域。 这些域包括用于 Skype for Business Online 中使用的区域数据中心。
   
-1. 启动Skype for Business Server控制面板，然后选择 **左侧的"外部** 访问"。
+1. 启动"Skype for Business Server控制面板"，然后选择 **左侧的"外部** 访问"。
     
 2. 选择 **"SIP 联盟域"，** 然后单击"新建 **"。**
     
-3. 对于 **"域名 (FQDN) ：**"，输入域，对以下每个域重复此过程：
+3. 对于 **"域名 (FQDN) ：，** 输入域，对以下每个域重复此过程：
     
    - noammeetings.lync.com
     
@@ -86,4 +86,4 @@ New-CsAllowedDomain -Identity "apacmeetings.lync.com"
 New-CsAllowedDomain -Identity "resources.lync.com"
 ```
 
-完成这些配置步骤后，可以在部署中开始使用Skype 会议广播。 有关广播Skype 会议，请参阅什么是Skype 会议[广播？](https://go.microsoft.com/fwlink/?LinkId=617071)和Skype 会议[管理指南](../../SfbOnline/set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md)。
+完成这些配置步骤后，可以在部署中开始使用Skype 会议广播。 有关广播Skype 会议，请参阅什么是Skype 会议[广播？](https://go.microsoft.com/fwlink/?LinkId=617071)和Skype 会议[广播管理指南](../../SfbOnline/set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md)。

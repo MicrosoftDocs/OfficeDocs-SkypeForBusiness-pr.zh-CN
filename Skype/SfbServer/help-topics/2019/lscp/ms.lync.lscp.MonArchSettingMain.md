@@ -1,7 +1,7 @@
 ---
 title: 存档配置
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -14,17 +14,17 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9c2fd164-a9b8-40e6-a1c4-423a7fe34aba
 ROBOTS: NOINDEX, NOFOLLOW
-description: 使用存档配置控制您的Skype for Business Server存档选项，包括启用和禁用以下选项：
-ms.openlocfilehash: 08849f41248d78d28f2feb972bcedcde7a2cc768
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 使用存档配置可控制您的Skype for Business Server的存档选项，包括启用和禁用以下选项：
+ms.openlocfilehash: f67e43d42bb13f0d0c192f7ac9a2710e05578ed5
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622854"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773022"
 ---
 # <a name="archiving-configuration"></a>存档配置
  
-使用存档配置控制您的Skype for Business Server存档选项，包括启用和禁用以下选项：
+使用存档配置可控制您的Skype for Business Server的存档选项，包括启用和禁用以下选项：
   
 - 存档失败时阻止即时消息 (IM) 或会议会话
     
@@ -41,7 +41,7 @@ ms.locfileid: "58622854"
 - **池配置 (可选)** 可以指定一个或多个池存档配置，以控制特定池的存档选项。 池配置会覆盖全局配置和站点配置，但仅限于在存档池配置中指定的池。 可以编辑或删除池配置。
     
 > [!NOTE]
-> 存档配置适用于 Skype for Business Server 上用户;如果使用 Exchange 在 Microsoft Exchange 中存储存档数据，则存档配置适用于位于 Exchange 上的用户，但针对 Exchange 上用户实现的方式略有不同。 将在下节中介绍这些差异。 
+> 存档配置适用于 Skype for Business Server 上用户;如果使用 Exchange 在 Microsoft Exchange 中存储存档数据，则存档配置适用于位于 Exchange 上的用户，但对于 Exchange 上的用户，其实现方式略有不同。 将在下节中介绍这些差异。 
   
 “存档配置”页将列出为部署配置的每个存档策略。该页还将显示策略名称、范围（全局、站点或用户）以及为每个存档配置启用的存档选项。在“存档配置”页上，您有以下选项：
 - **新建** 可以添加以下一个或多个可选的存档配置。
@@ -68,5 +68,5 @@ ms.locfileid: "58622854"
     
 - **刷新** 可以刷新" **存档配置"** 页以验证所有存档配置的选项状态。
     
-有关存档特性和功能（包括 Exchange 集成）的详细信息，请参阅在[Skype for Business Server](../../../plan-your-deployment/archiving/archiving.md)中规划存档、[为](../../../deploy/deploy-archiving/deploy-archiving.md)Skype for Business Server 部署存档和在 Skype for Business Server 中管理[存档](../../../manage/archiving/archiving.md)。
+有关存档特性和功能（包括 Exchange 集成）的详细信息，请参阅在[Skype for Business Server](../../../plan-your-deployment/archiving/archiving.md)中规划存档、为 Skype for Business Server 部署[](../../../deploy/deploy-archiving/deploy-archiving.md)存档和在 Skype for Business Server[中Skype for Business Server。](../../../manage/archiving/archiving.md)
 

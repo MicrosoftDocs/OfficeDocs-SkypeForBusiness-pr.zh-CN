@@ -5,7 +5,7 @@ ms:assetid: c78d7e9b-c496-40c6-9249-06ced9cb87f3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552455(v=OCS.15)
 ms:contentKeyID: 48679566
 mtps_version: v=OCS.15
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 了解如何配置对 SIP 联盟提供程序用户的支持。
-ms.openlocfilehash: 552f0971685dd62dd89a27e03c62d0617b6c01d7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 01284c93043f92df87f28b02e704b8a7deaa41e7
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612301"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60743498"
 ---
 # <a name="manage-sip-federated-providers-for-your-organization-in-skype-for-business-server"></a>在组织中管理组织的 SIP 联盟Skype for Business Server
 
@@ -36,7 +36,7 @@ ms.locfileid: "58612301"
 
 公共即时消息 (IM) 连接使贵组织的用户能够使用 IM 与公共提供商提供的 IM 服务的用户进行通信。
 
-Skype for Business Server具有即时消息的公共提供程序配置。 每个公共提供程序均使用提供程序的边缘服务器完全限定域名和默认验证级别“仅允许用户与其联系人列表中使用此提供程序的人员进行通信”进行配置。
+Skype for Business Server具有用于即时消息的公共提供程序配置。 每个公共提供程序均使用提供程序的边缘服务器完全限定域名和默认验证级别“仅允许用户与其联系人列表中使用此提供程序的人员进行通信”进行配置。
 
 作为默认设置，将不启用任何公共提供程序。 您应先完成许可协议和设置工作，然后再启用公共提供程序。 您可以先启用提供程序，然后再完成许可和设置工作。 在完成首要工作之前，用户将无法与这些提供程序的联系人进行通信。 有关公共提供商的许可和设置的详细信息，请参阅配置 [策略以控制公共用户访问](../external-access-policies/configure-policies-to-control-public-user-access.md)。
 

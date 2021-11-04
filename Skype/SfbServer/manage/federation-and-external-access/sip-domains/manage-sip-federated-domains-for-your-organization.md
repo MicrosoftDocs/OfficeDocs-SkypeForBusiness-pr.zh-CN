@@ -5,7 +5,7 @@ ms:assetid: abc48829-e5cf-4651-bc38-899192f5c3bc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552454(v=OCS.15)
 ms:contentKeyID: 48679565
 mtps_version: v=OCS.15
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 了解如何管理和配置可以联盟的 SIP 域，
-ms.openlocfilehash: b2fc05f6837b48e353693b7d25a8bb469ca9d6b6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 455cac695ead7f073269fe3df0e70ea5b26ccb0e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628724"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60743538"
 ---
 # <a name="manage-sip-federated-domains-for-your-organization-in-skype-for-business-server"></a>在组织中管理组织的 SIP 联盟Skype for Business Server
 
@@ -49,7 +49,7 @@ ms.locfileid: "58628724"
       - 在“域名(或 FQDN)”中，键入联盟伙伴域的名称。       
 
         > [!NOTE]  
-        > 此名称必须是唯一的，并且不能与运行访问边缘服务的服务器的允许域的已有名称相同。该名称的长度不能超过 256 个字符。<BR><br>搜索联盟伙伴域名时执行后缀匹配。例如，如果键入 **contoso.com**，搜索还将返回域 **it.contoso.com**。<BR><br>无法同时阻止和允许联盟合作伙伴域。 Skype for Business Server阻止这种情况发生，这样您就不需要同步列表。
+        > 此名称必须是唯一的，并且不能与运行访问边缘服务的服务器的允许域的已有名称相同。该名称的长度不能超过 256 个字符。<BR><br>搜索联盟伙伴域名时执行后缀匹配。例如，如果键入 **contoso.com**，搜索还将返回域 **it.contoso.com**。<BR><br>无法同时阻止和允许联盟合作伙伴域。 Skype for Business Server阻止这种情况发生，以便你不需要同步列表。
     
       - 如果要将对此联盟域的访问限制为运行访问边缘服务的特定服务器的用户，请在“访问边缘服务(FQDN)”中键入运行访问边缘服务的联盟域的服务器的 FQDN。    
       - 如果要提供其他信息，请在“注释”中键入要与其他系统管理员共享的有关此配置的信息。
@@ -79,7 +79,7 @@ ms.locfileid: "58628724"
       - 在“域名(或 FQDN)”中，键入要阻止的联盟伙伴域的名称。
 
         > [!NOTE]  
-        > 该名称的长度不能超过 256 个字符。<BR><br>搜索联盟伙伴域名时执行后缀匹配。例如，如果键入 **contoso.com**，搜索还将返回域 **it.contoso.com**。<BR><br>无法同时阻止和允许联盟合作伙伴域。 Skype for Business Server阻止这种情况发生，这样您就不需要同步列表。
+        > 该名称的长度不能超过 256 个字符。<BR><br>搜索联盟伙伴域名时执行后缀匹配。例如，如果键入 **contoso.com**，搜索还将返回域 **it.contoso.com**。<BR><br>无法同时阻止和允许联盟合作伙伴域。 Skype for Business Server阻止这种情况发生，以便你不需要同步列表。
    
       - （可选）在“注释”中，键入要与其他系统管理员共享的有关此配置的信息。
 

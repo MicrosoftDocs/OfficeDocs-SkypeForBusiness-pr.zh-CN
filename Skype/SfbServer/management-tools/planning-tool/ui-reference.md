@@ -1,7 +1,7 @@
 ---
 title: 规划工具 UI 参考
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.date: 12/20/2018
 manager: serdars
@@ -12,12 +12,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 52d44a51-f79b-4d27-9541-21737b798027
-ms.openlocfilehash: 4639ce49969d9606ce9c063814d175aeec9a15b8
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 06ac9abc943f9f9914978c5fb59e00bbca416ba4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60011536"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750091"
 ---
 # <a name="planning-tool-ui-reference"></a>规划工具 UI 参考
  
@@ -41,7 +41,7 @@ ms.locfileid: "60011536"
     
 - [持久聊天 (规划工具) ](../../help-topics/help-planning/persistent-chat.md)
     
-- [Mobility (Planning Tool) ](../../help-topics/help-planning/mobility.md)
+- [移动 (规划工具) ](../../help-topics/help-planning/mobility.md)
     
 - [联合 (规划工具) ](../../help-topics/help-planning/federation.md)
     

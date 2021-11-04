@@ -1,7 +1,7 @@
 ---
 title: 添加边缘服务器内部 IP
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 13485e9d-190e-4ece-b997-1cbf45aae77c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 内部 IP 地址是边缘服务器的内部接口的 IP 地址。
-ms.openlocfilehash: dd501f8f6f68160247fa0d0ee3cb03b4231c5b2d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 40b1e3147ce95144ecfed3a7074c0281e7bcf87a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633266"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60764490"
 ---
 # <a name="add-edge-server-internal-ip"></a>添加边缘服务器内部 IP
 

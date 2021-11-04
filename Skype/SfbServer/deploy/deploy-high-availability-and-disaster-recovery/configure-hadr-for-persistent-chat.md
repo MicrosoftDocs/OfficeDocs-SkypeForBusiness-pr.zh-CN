@@ -1,7 +1,7 @@
 ---
 title: Business Server 2015：为持久聊天服务器配置高可用性和灾难恢复
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/7/2018
@@ -13,23 +13,23 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 5fb5b189-56c1-49cf-92c8-e4fd6e2fdd5c
 description: 了解如何在 Skype for Business Server 2015 中为持久聊天服务器配置高可用性和灾难恢复。
-ms.openlocfilehash: 9b7157b0f1bd3d1891edac752310343b7211b961
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ce69159126a134893e03ca97e6ac3c2fc20bfda5
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608579"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60738888"
 ---
 # <a name="business-server-2015-configure-high-availability-and-disaster-recovery-for-persistent-chat-server"></a>Business Server 2015：为持久聊天服务器配置高可用性和灾难恢复
  
 **摘要：** 阅读本主题，了解如何在 Skype for Business Server 2015 中为持久聊天服务器配置高可用性和灾难恢复。
   
-Skype for Business Server支持多种模式的后端服务器高可用性，包括数据库镜像。 有关详细信息，请参阅[Plan for high availability and disaster recovery in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)。
+Skype for Business Server后端服务器支持多种高可用性模式，包括数据库镜像。 有关详细信息，请参阅[Plan for high availability and disaster recovery in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)。
   
 > [!NOTE]
 > 持久聊天服务器不支持 AlwaysOn 可用性组。 
   
-在将持久聊天部署配置为高可用性和灾难恢复之前，请确保您熟悉在[Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md)中规划持久聊天服务器的高可用性和灾难恢复中的概念。 这些主题中介绍的持久聊天服务器的灾难恢复解决方案是在拉伸的持久聊天服务器池上构建的。 规划内容介绍了资源要求，以及支持持久聊天服务器的高可用性和灾难恢复的扩展池拓扑，包括将 SQL Server 镜像用于高可用性和 SQL Server 日志交付以用于灾难恢复。
+在将持久聊天部署配置为高可用性和灾难恢复之前，请确保您熟悉在[Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md)中规划持久聊天服务器的高可用性和灾难恢复中的概念。 这些主题中介绍的持久聊天服务器的灾难恢复解决方案是在拉伸的持久聊天服务器池上构建的。 规划内容介绍了资源要求以及支持持久聊天服务器的高可用性和灾难恢复的扩展池拓扑，包括使用 SQL Server 镜像实现高可用性和实现灾难恢复的 SQL Server 日志。
   
 ## <a name="use-topology-builder-to-configure-high-availability-and-disaster-recovery"></a>使用拓扑生成器配置高可用性和灾难恢复
 
@@ -78,7 +78,7 @@ Skype for Business Server支持多种模式的后端服务器高可用性，包�
     
 10. 在“辅助服务器实例和数据库”下，单击“添加”。
     
-11. 单击 **连接** 并连接到SQL Server配置为辅助服务器的客户端实例。
+11. 单击 **连接** 并连接到SQL Server配置为辅助服务器的服务器实例。
     
 12. 在“辅助数据库”框中，从列表中选择“mgc”数据库。
     
@@ -94,7 +94,7 @@ Skype for Business Server支持多种模式的后端服务器高可用性，包�
     
 18. 在“在以下时间内没有执行还原时报警”下选择报警阈值。
     
-19. 查看“还原作业”下的“计划”框中列出的还原计划。 若要自定义安装计划，请单击"计划"，根据需要SQL Server"代理计划"，然后单击"确定 **"。**  此计划应与备份计划大致相同。
+19. 查看“还原作业”下的“计划”框中列出的还原计划。 若要自定义安装计划，请单击"计划"，根据需要SQL Server代理计划"，然后单击"确定 **"。**  此计划应与备份计划大致相同。
     
 20. 在“数据库属性”对话框中，单击“确定”开始配置过程。
     
@@ -102,7 +102,7 @@ Skype for Business Server支持多种模式的后端服务器高可用性，包�
 
 如果主持久聊天数据库出现故障到其镜像数据库，请执行以下步骤以继续日志寄送。
   
-1. 手动将主持久聊天数据库故障转移到镜像。 这是通过使用命令行管理程序Skype for Business Server **Invoke-CsDatabaseFailover** cmdlet 完成。
+1. 手动将主持久聊天数据库故障转移到镜像。 这是通过使用命令行管理Skype for Business Server **Invoke-CsDatabaseFailover** cmdlet 完成。
     
 2. 使用 SQL Server Management Studio，连接到主持久聊天服务器镜像实例。
     

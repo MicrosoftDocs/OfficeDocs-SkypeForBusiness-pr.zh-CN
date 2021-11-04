@@ -1,7 +1,7 @@
 ---
-title: Skype for Business Server 中简单 URL 的 DNS 要求
+title: 用于简单 URL 的 DNS Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,21 +11,21 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 3a3c9b22-892f-45a7-b05c-539d358a1a86
-description: 摘要：在实施 Skype for Business Server 的 DNS 记录之前，请查看本主题中的简单 URL 注意事项。
-ms.openlocfilehash: cbc8a6f99704f9c450847d0ca3c5173b0066715e
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+description: 摘要：实施 DNS 记录之前，请查看本主题中的简单 URL 注意事项Skype for Business Server。
+ms.openlocfilehash: d638ff2d3d1b89deaad90c054698692e70ffaae7
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60011716"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777912"
 ---
-# <a name="dns-requirements-for-simple-urls-in-skype-for-business-server"></a>Skype for Business Server 中简单 URL 的 DNS 要求
+# <a name="dns-requirements-for-simple-urls-in-skype-for-business-server"></a>用于简单 URL 的 DNS Skype for Business Server
 
-**摘要：** 在实施 Skype for Business Server 的 DNS 记录之前，请查看本主题中的简单 URL 注意事项。
+**摘要：** 实施 DNS 记录之前，请查看本主题中的简单 URL 注意事项Skype for Business Server。
 
-简单 URL 使用户更容易加入会议，使管理员更容易访问 Skype for Business Server 管理工具。 简单 URL 使用其自己的域，该域不能匹配您定义的任何 SIP 域。 
+简单 URL 使用户更容易加入会议，并且使管理员Skype for Business Server访问管理工具。 简单 URL 使用其自己的域，该域不能匹配您定义的任何 SIP 域。 
 
-Skype for Business Server 支持以下三种简单 URL：会议、拨入和管理。您需要设置会议简单 URL 和拨入简单 URL，并且管理简单 URL 是可选的。 支持简单 URL 所需的域名系统 (DNS) 记录取决于定义这些简单 URL 的方式以及是否要对简单 URL 支持灾难恢复。 
+Skype for Business Server以下三个简单的 URL：会议、拨入和管理。您需要设置会议简单 URL 和拨入简单 URL，并且管理简单 URL 是可选的。 支持简单 URL 所需的域名系统 (DNS) 记录取决于定义这些简单 URL 的方式以及是否要对简单 URL 支持灾难恢复。 
 
 ## <a name="simple-url-scope"></a>简单 URL 范围
 
@@ -40,9 +40,9 @@ Skype for Business Server 支持以下三种简单 URL：会议、拨入和管�
 ## <a name="simple-url-naming-and-validation-rules"></a>简单 URL 命名和验证规则
 <a name="BK_Valid"> </a>
 
-拓扑生成器和 Skype for Business Server 命令行管理程序 cmdlet 对简单 URL 强制执行多个验证规则。 您必须设置会议简单 URL 和拨入简单 URL，但可以选择设置管理简单 URL。 每个 SIP 域都必须具有单独的会议简单 URL，但整个组织只需要一个拨入简单 URL 和一个管理简单 URL。
+拓扑生成器和Skype for Business Server命令行管理程序 cmdlet 对简单 URL 强制执行多个验证规则。 您必须设置会议简单 URL 和拨入简单 URL，但可以选择设置管理简单 URL。 每个 SIP 域都必须具有单独的会议简单 URL，但整个组织只需要一个拨入简单 URL 和一个管理简单 URL。
 
-您组织的每个简单 URL 必须具有唯一的名称，并且不能是另一个简单 URL (例如，您不能设置为会议简单 URL 和 Dialin 简单 `SfB2015.contoso.com/Meet` `SfB2015.contoso.com/Meet/Dialin` URL) 。 简单 URL 名称不能包含任何池的 FQDN，或者不允许任何端口 (例如，不允许任何 https://FQDN:88/meet 端口) 。 所有简单 URL 都必须以 https:// 前缀开头。 
+您组织的每个简单 URL 必须具有唯一的名称，并且不能是另一个简单 URL (例如，您不能设置为会议简单 URL 和 Dialin 简单 `SfB2015.contoso.com/Meet` `SfB2015.contoso.com/Meet/Dialin` URL) 。 简单 URL 名称不能包含任何池的 FQDN，也不能包含任何端口 (例如，不允许任何 https://FQDN:88/meet 端口) 。 所有简单 URL 都必须以 https:// 前缀开头。 
 
 简单 URL 只能包含字母数字字符（即，a-z、A-Z、0-9 和圆点 (.)）。如果使用其他字符，则简单 URL 可能不会正常工作。
 

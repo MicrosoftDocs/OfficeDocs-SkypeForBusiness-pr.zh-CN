@@ -1,7 +1,7 @@
 ---
 title: 管理受信任应用程序
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,16 +11,16 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 受信任应用程序是基于 Microsoft 统一通信托管 API (UCMA) 3.0 核心 SDK 的应用程序，受 Skype for Business Server。
-ms.openlocfilehash: ef03aa21b64ec305829ed5da8ef84a0d5b8bfd92
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4164f00b787ac8f234d13ba7c31e54c79cb1efd7
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596556"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750161"
 ---
 # <a name="manage-trusted-applications-in-skype-for-business-server"></a>在应用程序中管理受信任Skype for Business Server
 
-受 *信任* 应用程序是基于 Microsoft 统一通信托管 API (UCMA) 3.0 核心 SDK 的应用程序，受 Skype for Business Server。 有关 UCMA 应用程序的详细信息，请参阅 中的"统一通信托管 API 3.0 核心 SDK 文档 https://go.microsoft.com/fwlink/p/?linkId=210320 "。
+受 *信任应用程序* 是基于 Microsoft 统一通信托管 API (UCMA) 3.0 核心 SDK 的应用程序，受 Skype for Business Server。 有关 UCMA 应用程序的详细信息，请参阅 中的"统一通信托管 API 3.0 核心 SDK 文档 https://go.microsoft.com/fwlink/p/?linkId=210320 "。
 
 若要在添加或删除服务器角色时成功发布、启用或禁用拓扑，应以 RTCUniversalServerAdmins 和 Domain Admins 组成员的用户身份登录。 
 
@@ -30,7 +30,7 @@ ms.locfileid: "58596556"
 
 1.  以 Domain Admins 组和 RTCUniversalServerAdmins 组成员的身份登录安装了拓扑生成器的计算机。
 
-2.  启动拓扑生成器：**单击"开始**"，单击"所有程序"，Skype for Business Server"，然后单击"Skype for Business Server **拓扑生成器"。** 
+2.  启动拓扑生成器：**单击"开始**"，单击"所有程序"，Skype for Business Server"，然后单击"Skype for Business Server **拓扑生成器"。**
 
 3.  选择“从现有部署下载拓扑”，然后单击“确定”。
 
@@ -51,11 +51,11 @@ ms.locfileid: "58596556"
 
 ## <a name="view-a-list-of-trusted-applications"></a>查看受信任应用程序的列表
 
-可以使用"Skype for Business Server控制面板"查看已部署在安全环境中受信任应用程序Skype for Business Server列表。 受信任应用程序是基于 Microsoft 统一通信托管 API (UCMA) 3.0 核心 SDK 的应用程序，受 Skype for Business Server。 以下列表概述了此信任关系：
+可以使用"Skype for Business Server控制面板"查看已部署在安全环境中受信任Skype for Business Server列表。 受信任应用程序是基于 Microsoft 统一通信托管 API (UCMA) 3.0 核心 SDK 的应用程序，受 Skype for Business Server。 以下列表概述了此信任关系：
 
   - 受信任的应用程序不会要求其进行身份验证Skype for Business Server。
 
-  - 对于 SIP 事务、连接Skype for Business Server VoIP 呼叫的传出语音，受信任应用程序 (VoIP) 限制。
+  - 对于 SIP 事务、连接Skype for Business Server VoIP 呼叫的传出语音 (受信任应用程序) 限制。
 
   - 受信任应用程序可模拟任何用户，并能在不出现在名单中的情况下参加会议。
 
@@ -77,19 +77,19 @@ ms.locfileid: "58596556"
 
 ## <a name="view-trusted-application-information"></a>查看受信任应用程序信息
 
-您可以使用 Windows PowerShell 和 **Get-CsTrustedApplication** cmdlet 查看有关受信任应用程序的信息。 此 cmdlet 可以从命令行管理程序Skype for Business Server或远程会话运行Windows PowerShell。 
+您可以使用 Windows PowerShell 和 **Get-CsTrustedApplication** cmdlet 查看有关受信任应用程序的信息。 可以从命令行管理程序或 Skype for Business Server远程会话运行此 cmdlet Windows PowerShell。 
 
 
 ### <a name="to-view-trusted-applications"></a>查看受信任应用程序
 
-若要查看所有受信任应用程序，请在命令行管理程序中Skype for Business Server命令，然后按 Enter：
+若要查看所有受信任应用程序，请在命令行管理程序中键入Skype for Business Server命令，然后按 Enter：
     
    **Get-CsConferenceDisclaimer**
     
    此命令将为每个受信任应用程序返回类似于下面的信息：
     
    标识：CN={5dedf4b0-a590-49b3-80cf-f16f914bbef9}，CN=Application Contacts，CN=RTC Service，CN=Services，CN=Configuration，DC=litware，DC=com<br/>
-   RegistrarPool ：487279971<br/>
+   RegistrarPool ： 487279971<br/>
    HomeServer ： CN=Lc Services，CN=Microsoft，CN=co1：2，CN=Pools，CN=RTC Service，CN=Services，CN=Configuration，DC=litware，DC=com OwnerUrn ： urn：application：helpdesk<br/>
    SipAddress ： sip:RtcApplication-dbf5142f-2bb2-4c4f-9531-b7fea45c5000@litware.com<br/>
    DisplayName ：<br/>

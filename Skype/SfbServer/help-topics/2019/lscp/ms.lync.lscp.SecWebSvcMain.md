@@ -1,7 +1,7 @@
 ---
 title: Web 服务安全设置
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 4ea30583-e5bd-4498-9bd8-38604c61e658
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: af3411f3e024fa292549123bb85a2dd966982472
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ef9e182c9b8b7ce102d09929c99fba0b5f80af2a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608429"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60772982"
 ---
 # <a name="web-service-security-settings"></a>Web 服务安全设置
 

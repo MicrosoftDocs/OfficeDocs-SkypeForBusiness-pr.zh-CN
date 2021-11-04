@@ -1,7 +1,7 @@
 ---
 title: 在演示文稿中为名为 ID 演示文稿的转换规则Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ba112df8-3bb4-48e4-a353-4bf9110ccd71
-description: Summary： Learn how to define a translation rule by using the Build a Translation Rule tool in Skype for Business Server.
-ms.openlocfilehash: 2d920f7706514df56c1814b5a61f40e0182412d5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 摘要：了解如何使用"转换规则"工具定义转换Skype for Business Server。
+ms.openlocfilehash: 780fc46c93d1f183263192edb33999d758b95c8c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597276"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60738938"
 ---
 # <a name="create-or-modify-a-translation-rule-for-called-id-presentation-in-skype-for-business-server"></a>在演示文稿中为名为 ID 演示文稿的转换规则Skype for Business Server
 
-**摘要：** 了解如何使用"创建转换规则"工具定义转换规则Skype for Business Server。
+**摘要：** 了解如何使用转换规则工具定义转换规则Skype for Business Server。
 
 如果要定义转换规则，请按照以下步骤操作：在"生成转换规则"工具中输入一组值，并启用 Skype for Business Server 控制面板来生成相应的匹配模式和转换规则。 或者，可以手动编写正则表达式来定义匹配模式和转换规则。 有关详细信息，请参阅[Create or Modify a Translation Rule Manually](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-translation-rule-manually)。
 
@@ -33,7 +33,7 @@ ms.locfileid: "58597276"
 
 1. 打开Skype for Business Server控制面板"。
 
-2. 要开始定义转换规则，请按照在 Skype for Business Server 中配置具有媒体旁路的中继中的步骤执行，或者按照步骤[](configure-trunk-without-media-bypass.md)[9](configure-trunk-with-media-bypass.md)中的配置没有媒体旁路Skype for Business Server中的步骤操作。
+2. 要开始定义转换规则，请按照在 Skype for Business Server 中配置具有媒体旁路的中继中的步骤执行，或者按照步骤[9](configure-trunk-with-media-bypass.md)中的配置没有媒体旁路Skype for Business Server中的步骤操作。 [](configure-trunk-without-media-bypass.md)
 
 3. 在“新建转换规则”或“编辑转换规则”页上的“名称”下，键入描述要转换的号码模式的名称。
 
@@ -70,17 +70,17 @@ ms.locfileid: "58597276"
 8. 在“Trunk 配置”页上，单击“提交”，然后单击“全部提交”。
 
    > [!NOTE]
-   > 每当创建或修改转换规则时，都必须运行“全部提交”命令以发布配置更改。 有关详细信息，请参阅操作[文档中](voice-route-config-changes.md)的 Publish pending changes to the voice routing configuration in Skype for Business in the Operations documentation。
+   > 每当创建或修改转换规则时，都必须运行“全部提交”命令以发布配置更改。 有关详细信息，请参阅操作[文档中的](voice-route-config-changes.md)Publish pending changes to the voice routing configuration in Skype for Business in the Operations documentation。
 
 ### <a name="to-define-a-translation-rule-manually"></a>手动定义转换规则
 
 1. 打开Skype for Business Server控制面板
 
-2. 要开始定义转换规则，请按照在 Skype for Business Server 中配置具有媒体旁路的中继中的步骤执行，或者按照步骤[](configure-trunk-without-media-bypass.md)[9](configure-trunk-with-media-bypass.md)中的配置没有媒体旁路Skype for Business Server中的步骤操作。
+2. 要开始定义转换规则，请按照在 Skype for Business Server 中配置具有媒体旁路的中继中的步骤执行，或者按照步骤[9](configure-trunk-with-media-bypass.md)中的配置没有媒体旁路Skype for Business Server中的步骤操作。 [](configure-trunk-without-media-bypass.md)
 
 3. 在“新建转换规则”或“编辑转换规则”页上的“名称”字段中，键入描述要转换的号码模式的名称。
 
-4.  (可选) 在"说明"中，键入转换规则的说明，例如美国国际长途拨号。
+4.  (可选) 在 **"** 说明"中，键入转换规则的说明，例如美国国际长途拨号。
 
 5. 单击“构建转换规则”部分底部的“编辑”。
 
@@ -99,7 +99,7 @@ ms.locfileid: "58597276"
 9. 在“Trunk 配置”页上，单击“提交”，然后单击“全部提交”。
 
     > [!NOTE]
-    > 每当创建或修改转换规则时，都必须运行“全部提交”命令以发布配置更改。 有关详细信息，请参阅操作[文档中](voice-route-config-changes.md)的 Publish pending changes to the voice routing configuration in Skype for Business in the Operations documentation。
+    > 每当创建或修改转换规则时，都必须运行“全部提交”命令以发布配置更改。 有关详细信息，请参阅操作[文档中的](voice-route-config-changes.md)Publish pending changes to the voice routing configuration in Skype for Business in the Operations documentation。
 
 ## <a name="see-also"></a>另请参阅
 
@@ -109,4 +109,4 @@ ms.locfileid: "58597276"
 
 [在语音路由配置中发布待处理Skype for Business](voice-route-config-changes.md)
 
-[部署媒体旁路Skype for Business Server](deploy-media-bypass.md)
+[在部署媒体Skype for Business Server](deploy-media-bypass.md)

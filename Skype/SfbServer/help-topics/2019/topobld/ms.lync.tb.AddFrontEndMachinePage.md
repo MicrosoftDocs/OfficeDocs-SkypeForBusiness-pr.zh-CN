@@ -1,7 +1,7 @@
 ---
 title: 添加前端计算机
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: e7fe2522-1bd2-416a-9dbb-51cacea9c6e0
 ROBOTS: NOINDEX, NOFOLLOW
 description: 指定要添加为此池中的前端服务器的每台计算机的完全限定域名 (FQDN)。将计算机添加到列表中后，可以更新计算机的 FQDN 或在发布拓扑前随时将其从池中删除。发布拓扑后，更改 FQDN 要求在拓扑生成器中删除相应的服务器，然后向池中添加具有新 FQDN 的新服务器。有关向拓扑中添加前端池的详细信息，请参阅部署文档中的定义和配置前端池。
-ms.openlocfilehash: f1624a2e8abbba455abf0982c33730d95235e1f4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 356ad03beeda1816747e95801379b7b7ba7c0ab8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625404"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771030"
 ---
 # <a name="add-front-end-machine"></a>添加前端计算机
 

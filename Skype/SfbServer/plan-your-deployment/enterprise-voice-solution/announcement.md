@@ -1,7 +1,7 @@
 ---
 title: Plan for the Announcement application in Skype for Business
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 2abee804-2599-48bb-90b2-15df0bae5e20
-description: 在组织中规划通知Skype for Business Server 企业语音，这将配置对组织中未分配电话号码的电话呼叫执行哪些处理。 包括音频文件要求。
-ms.openlocfilehash: 010e49a8578a6ec2482b454b2fb62ca8718939d6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 在组织中规划通知Skype for Business Server 企业语音，这将配置对组织中未分配电话号码的电话呼叫要执行哪些处理。 包括音频文件要求。
+ms.openlocfilehash: 26dbd9a0bf1513812cb08034216194ca67a92b39
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583906"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778092"
 ---
 # <a name="plan-for-the-announcement-application-in-skype-for-business"></a>Plan for the Announcement application in Skype for Business
 
-在组织中规划通知Skype for Business Server 企业语音，这将配置对组织中未分配电话号码的电话呼叫执行哪些处理。 包括音频文件要求。
+在组织中规划通知Skype for Business Server 企业语音，这将配置对组织中未分配电话号码的电话呼叫要执行哪些处理。 包括音频文件要求。
 
 通过 Skype for Business Server 通知应用程序，您可以配置在拨打的号码对您的组织有效，但没有分配给用户或电话时对传入电话呼叫的处理。 可以将这些呼叫转换到预确定的目标（电话号码、SIP URI 或语音邮件）和/或播放音频通知。 该通知应用程序帮助您可以避免呼叫者拨错号并听到忙音或 SIP 客户端收到错误消息的情况。 本节包括特定于通知应用程序的规划信息
 
@@ -39,14 +39,14 @@ ms.locfileid: "58583906"
 
 ### <a name="software-requirements"></a>软件要求
 
-所有运行通知应用程序的前端服务器或 Standard Edition 服务器必须为运行 Windows Server 2008 R2 的服务器安装 Windows Media Format Runtime，或者为运行 Windows Server 2012 或 Windows Server 2012 R2 的服务器安装 Microsoft Media Foundation。 对于 Windows Server 2008 R2，Windows Media Format Runtime 作为桌面体验的一Windows安装。 Windows通知应用程序播放通知和音乐Windows Media Audio (.wma) 文件需要媒体格式运行时或 Microsoft Media Foundation。
+运行通知应用程序的所有前端服务器或 Standard Edition 服务器必须为运行 Windows Server 2008 R2 的服务器安装 Windows Media Format Runtime，或者为运行 Windows Server 2012 或 Windows Server 2012 R2 的服务器安装 Microsoft Media Foundation。 对于 Windows Server 2008 R2，Windows Media Format Runtime 作为桌面体验的一Windows安装。 Windows通知应用程序播放通知和音乐Windows Media Audio (.wma) 文件需要媒体格式运行时或 Microsoft Media Foundation。
 
 ### <a name="port-requirements"></a>端口要求
 
 通知应用程序将 **端口 5071** 用于 SIP 侦听请求。
 
 > [!NOTE]
-> 此端口是默认设置，可以通过使用 **Set-CsApplicationServer** cmdlet 进行更改。 有关此 cmdlet 的详细信息，请参阅 Skype for Business Server 命令行管理程序文档。
+> 此端口是默认设置，可以通过使用 **Set-CsApplicationServer** cmdlet 进行更改。 有关此 cmdlet 的详细信息，请参阅 Skype for Business Server命令行管理程序文档。
 
 ### <a name="audio-file-requirements"></a>音频文件要求
 

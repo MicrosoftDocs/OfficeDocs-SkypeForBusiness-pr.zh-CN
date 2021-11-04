@@ -1,7 +1,7 @@
 ---
 title: Skype for Business Server边缘网络规划工具
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/8/2016
@@ -15,13 +15,13 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: d7f85abf-2045-4b08-ba29-c6211a3f6ff6
-description: 大多数边缘组件都部署在外围网络中。 这些组件组成外围网络的边缘拓扑。 除非特别说明，否则此处说明的组件属于 Skype for Business Server 2015 中的边缘服务器方案的一部分，并且位于外围网络中。
-ms.openlocfilehash: a1f036c39fe97c960e856bc3371fd555b247051a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 大多数边缘组件都部署在外围网络中。 这些组件组成外围网络的边缘拓扑。 除非特别说明，否则此处说明的组件是 Skype for Business Server 2015 中边缘服务器方案的一部分，并且位于外围网络中。
+ms.openlocfilehash: 5d6a0cc3b982c7f32890454d4e07795c1776f969
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621328"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60743838"
 ---
 # <a name="skype-for-business-server-edge-network-planning-tool"></a>Skype for Business Server边缘网络规划工具
  

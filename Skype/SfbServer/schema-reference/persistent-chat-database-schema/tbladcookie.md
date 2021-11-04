@@ -1,7 +1,7 @@
 ---
 title: tblADCookie
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 0a9102c4-47aa-40ea-8a0d-20e72ab09848
 description: tblADCookie 包含当前轻型目录访问协议 (LDAP) 同步 Cookie。
-ms.openlocfilehash: fbcdb957569535bfd3d451694ae8d346eb60069d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 770900c7ad5e31173a9e62ea3eb5a8c711afca98
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602317"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60743168"
 ---
 # <a name="tbladcookie"></a>tblADCookie
  
@@ -36,7 +36,7 @@ tblADCookie 包含当前轻型目录访问协议 (LDAP) 同步 Cookie。
    
 **Keys**
 
-|**列 ()**|**说明**|
+|**列 (列)**|**说明**|
 |:-----|:-----|
 |prinGuid  <br/> |主键。  <br/> |
 |prinGuid  <br/> |其查找包含在 Principal.prinGuid 表中的外键。  <br/> |

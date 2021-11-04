@@ -1,7 +1,7 @@
 ---
 title: tblPrincipalMemberDifference
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 0b94f555-6888-4fe0-a048-4660a2513276
-description: tblPrincipalMemberDifference 包含组成员身份更改 (添加和删除的成员) ，这些成员尚未由稍后的 Active Directory 域服务同步步骤处理。
-ms.openlocfilehash: c59e99ce43b6e0dfa5a41f4bfc515aa8a95ed958
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: tblPrincipalMemberDifference 包含组成员身份更改 (添加和删除的成员) 这些更改尚未由稍后的 Active Directory 域服务同步步骤处理。
+ms.openlocfilehash: 884f1450b74300ad2915c27b524dc0419c97062d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601277"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60743158"
 ---
 # <a name="tblprincipalmemberdifference"></a>tblPrincipalMemberDifference
  
-tblPrincipalMemberDifference 包含组成员身份更改 (添加和删除的成员) ，这些成员尚未由稍后的 Active Directory 域服务同步步骤处理。
+tblPrincipalMemberDifference 包含组成员身份更改 (添加和删除的成员) 这些更改尚未由稍后的 Active Directory 域服务同步步骤处理。
   
 **列**
 

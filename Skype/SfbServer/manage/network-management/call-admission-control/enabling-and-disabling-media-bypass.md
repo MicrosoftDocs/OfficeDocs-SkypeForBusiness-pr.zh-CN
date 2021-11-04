@@ -1,7 +1,7 @@
 ---
 title: 启用和禁用媒体旁路
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 使用本文中的过程通过控制面板启用或禁用Skype for Business Server旁路。
-ms.openlocfilehash: 6881b1627cf648cc948b5e8b3564fa3b12caa183
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: abbbc6bf77a5fe1aea22de9c5f225ac694cf1d1d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604812"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750281"
 ---
 # <a name="enabling-and-disabling-media-bypass-in-skype-for-business-server"></a>在 Skype for Business Server 中启用和禁用媒体旁路
 
@@ -45,7 +45,7 @@ ms.locfileid: "58604812"
 
 7.  选择下列选项之一：
     
-      - **始终绕过**   选择此选项可尝试在所有呼叫上绕过媒体。 如果启用了 CAC 呼叫允许控制 (，此选项) 不可用。 如果未启用 CAC，请在下列情况下选择此选项：
+      - **始终绕过**   选择此选项可尝试在所有呼叫上绕过媒体。 如果启用了呼叫允许控制 (CAC) 此选项不可用。 如果未启用 CAC，请在下列情况下选择此选项：
         
           - 不需要带宽控制。
         
@@ -53,7 +53,7 @@ ms.locfileid: "58604812"
         
           - 网关和客户端之间具有完全连接。
     
-      - **使用站点和地区配置**   如果启用 CAC，则此选项默认为选中状态且无法更改。 选择此选项后，网络配置站点和地区将用于确定何时可以绕过媒体。 如果选择此选项，您可以选择对未映射的站点启用旁路。 只有在具有一个或多个与没有带宽限制的同一区域（例如，大型中央站点 () ）关联的大型站点，并且还有一些与具有带宽限制的同一区域关联的分支站点时，才单击"为非映射站点启用绕过"复选框。 为非映射站点启用旁路时，配置将简化，因为只指定与分支站点关联的子网，而不需要指定所有与所有站点关联的子网。 如果启用了 CAC，则建议您不要选中"为非映射站点启用绕过"复选框。
+      - **使用站点和地区配置**   如果启用 CAC，则此选项默认为选中状态且无法更改。 选择此选项后，网络配置站点和地区将用于确定何时可以绕过媒体。 如果选择此选项，您可以选择对未映射的站点启用旁路。 只有在具有一个或多个与没有带宽限制的同一区域关联的大型站点（例如，大型中央站点 () ）并且还有一些与具有带宽限制的同一区域关联的分支站点时，才单击"为非映射站点启用绕过"复选框。 为非映射站点启用旁路时，配置将简化，因为只指定与分支站点关联的子网，而不需要指定所有与所有站点关联的子网。 如果启用了 CAC，则建议您不要选中"为非映射站点启用绕过"复选框。
 
 8.  单击 **"提交** "保存更改。
 

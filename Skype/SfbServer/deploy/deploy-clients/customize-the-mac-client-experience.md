@@ -1,6 +1,6 @@
 ---
-title: 在 Skype for Business 中自定义 Mac 客户端Skype for Business
-ms.author: v-cichur
+title: 在客户端中自定义 Mac Skype for Business
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.reviewer: PhillipGarding
@@ -12,20 +12,20 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
 description: 本文介绍了适用于 Mac 客户端上 Skype for Business的客户端首选项和默认值，以及如何从应用外部编辑它们。
-ms.openlocfilehash: 9ece447b7d3bce37784e0f1d0b3f8fe3746fce86
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ed702585e0fb7cdd78bdf318b77b8a2513870498
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578126"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773352"
 ---
-# <a name="customize-the-mac-client-experience-in-skype-for-business"></a>在 Skype for Business 中自定义 Mac 客户端Skype for Business
+# <a name="customize-the-mac-client-experience-in-skype-for-business"></a>在客户端中自定义 Mac Skype for Business
  
 本文介绍了适用于 Mac 客户端上 Skype for Business的客户端首选项和默认值，以及如何从应用外部编辑它们。
   
 ## <a name="skype-for-business-on-mac-client-preference-settings"></a>Skype for Business Mac 客户端首选项设置
 
-Mac 客户端上提供的某些Skype for Business和行为由客户端上的首选项设置确定。 Mac Skype for Business首选项位于已安装以下路径的 Skype for Business 客户端的 Mac 上文件中： 
+Mac 客户端上提供的某些Skype for Business和行为由客户端上的首选项设置确定。 Mac Skype for Business首选项位于 Mac 上安装了以下路径的 Skype for Business 客户端的文件中： 
   
  **~/Library/Containers/com.microsoft.SkypeForBusiness/Data/Library/Preferences/com.microsoft.SkypeForBusiness.plist**
   
@@ -40,18 +40,18 @@ Mac 客户端上提供的某些Skype for Business和行为由客户端上的首�
 |internalAutoDiscoveryURL    |String    |完整自动发现 URL    |内部自动发现 URL    |
 |externalAutoDiscoveryURL    |String    |完整自动发现 URL    |外部自动发现 URL    |
 |httpProxyDomain    |String    ||HTTP 代理域    |
-|httpProxyUserName    |String    ||HTTP 代理用户名    |
+|httpProxyUserName    |字符串    ||HTTP 代理用户名    |
 |httpProxyPassword    |String    ||HTTP 代理密码    |
 |trustedDomainList    |数组    ||HTTP 重定向的受信任域列表。    |
-|autoAcceptTimeout    |帐号    |默认值为 300 (300)     |没有服务器端对话历史记录的用户的自动接受超时。    |
+|autoAcceptTimeout    |数字    |默认值为 300 (300)     |没有服务器端对话历史记录的用户的自动接受超时。    |
 |warnWhenUnknownLocationForE911    |Bool    |0 = 已禁用  <br/> 1 = 已启用    |从未知位置拨打紧急号码时警告用户。    |
-|sipAddress    |String    ||用于登录 (电子邮件) SIP 地址Skype for Business。    |
-|userName    |String    ||UPN (UserName) 用于登录Skype for Business。    |
+|sipAddress    |字符串    ||用于登录 (电子邮件) SIP 地址Skype for Business。    |
+|userName    |String    ||UPN (UserName) 用于登录到 Skype for Business。    |
 |userNameInAdvancedOnly    |Bool    |0 = 在主登录屏幕和"高级属性"对话框中显示"用户名"字段  <br/> 1 = 仅在"高级属性"对话框中显示"用户名"字段 (默认)     |指定登录期间"用户名"字段的显示位置。    |
    
 ### <a name="usage-examples"></a>用法示例
 
-若要将单个域 (Contoso.com) 添加到受信任域列表中，可使用 trustedDomainList 项，如下所示：
+若要将单个域 (Contoso.com) 添加到受信任的域列表中，请使用 trustedDomainList 项，如下所示：
   
 defaults write com.microsoft.SkypeForBusiness trustedDomainList -array-add "Contoso.com"
   

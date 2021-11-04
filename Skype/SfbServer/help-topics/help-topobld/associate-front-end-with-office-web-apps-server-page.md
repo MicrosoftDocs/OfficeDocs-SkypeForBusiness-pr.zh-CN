@@ -1,7 +1,7 @@
 ---
 title: 将前端与 Office Web Apps 服务器关联页面
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/8/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 49dc1a92-970b-4372-a3a2-2c714a52b1c3
 description: Office Web Apps Server 提供的服务类似于演示者上载文档以用于会议，但启用以前版本未启用的其他功能。
-ms.openlocfilehash: 7b45a29e1e65e786492b890050cfa894001989e2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bb6ef049439238c90863d2b3b3b96f1e46e79f99
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634396"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739298"
 ---
 # <a name="associate-front-end-with-office-web-apps-server-page"></a>将前端与 Office Web Apps Server 页面关联
 

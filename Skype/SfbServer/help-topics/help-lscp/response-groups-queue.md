@@ -1,7 +1,7 @@
 ---
 title: 响应组队列
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 29bde940-6107-494f-9bee-b6ebfa135e41
 description: 响应组由代理组、队列和工作流组成。 响应组队列保留对响应组的呼叫，直到代理应答呼叫。
-ms.openlocfilehash: 1343425fd84ad2d0ad8f09513f996dfe5c30cdc3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c421bc858cab3377bff5acd759e97b182920100e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579006"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750411"
 ---
 # <a name="response-groups-queue"></a>响应组队列
 

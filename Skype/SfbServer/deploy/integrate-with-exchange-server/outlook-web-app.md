@@ -1,7 +1,7 @@
 ---
 title: 配置本地部署和Skype for Business Server之间的Outlook Web App
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/7/2016
@@ -14,18 +14,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 95a20117-2064-43c4-94fe-cac892cadb6f
 description: 摘要：集成Skype for Business Server和Outlook Web App。
-ms.openlocfilehash: 9edbd804347cd8eba8db609c73066b9030c73ba7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9555303ad5bcb3ad15702f0cf1768549330e33cd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621754"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60738858"
 ---
 # <a name="configure-integration-between-on-premises-skype-for-business-server-and-outlook-web-app"></a>配置本地部署和Skype for Business Server之间的Outlook Web App
 
-**摘要：** 集成Skype for Business Server和Outlook Web App。
+**摘要：** 集成Skype for Business Server Outlook Web App。
 
-使用本地部署部署Skype for Business Server可以在混合部署Microsoft Outlook Web App Microsoft Exchange Online配置与本地部署中的客户端的互操作性。 互操作性功能包括单一登录和即时消息 (IM) 以及状态与 Outlook Web App 接口集成。 若要启用此集成，必须通过完成以下任务在内部部署Skype for Business Server配置边缘服务器：
+使用本地部署部署Skype for Business Server可以在混合部署Microsoft Outlook Web App Microsoft Exchange Online配置与本地部署的互操作性。 互操作性功能包括单一登录和即时消息 (IM) 以及状态与 Outlook Web App 接口集成。 若要启用此集成，必须通过完成以下任务在内部部署Skype for Business Server配置边缘服务器：
 
 - 配置共享 SIP 地址空间
 
@@ -35,9 +35,9 @@ ms.locfileid: "58621754"
 
 ## <a name="configure-a-shared-sip-address-space"></a>配置共享 SIP 地址空间
 
-若要将内部部署Skype for Business Server与Exchange Online集成，必须配置共享 SIP 地址空间。 同一 SIP 域地址空间受 Skype for Business Server 和 Exchange Online 服务支持。
+若要将本地Skype for Business Server与Exchange Online集成，必须配置共享 SIP 地址空间。 同一 SIP 域地址空间受 Skype for Business Server 和 Exchange Online 服务支持。
 
-使用 Skype for Business Server 命令行管理程序，使用以下示例中显示的参数运行 **Set-CSAccessEdgeConfiguration** cmdlet，为联盟配置边缘服务器：
+使用 Skype for Business Server命令行管理程序，使用以下示例中显示的参数运行 **Set-CSAccessEdgeConfiguration** cmdlet，为联盟配置边缘服务器：
 
 ```powershell
 Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
@@ -45,18 +45,18 @@ Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
 
 - **AllowFederatedUsers** 参数指定是否允许内部用户与联盟域中的用户通信。 此属性还确定内部用户是否可以与共享 SIP 地址空间方案中的用户进行通信，Skype for Business Server Exchange Online。
 
-有关使用命令行管理程序Skype for Business Server，请参阅Skype for Business Server[命令行管理程序。](../../manage/management-shell.md)
+有关使用命令行管理程序Skype for Business Server的详细信息，请参阅 Skype for Business Server[命令行管理程序](../../manage/management-shell.md)。
 
 ## <a name="configure-a-hosting-provider-on-the-edge-server"></a>在边缘服务器上配置宿主提供商
 
-使用 Skype for Business Server命令行管理程序，使用以下示例中的参数运行 **New-CsHostingProvider** cmdlet，在边缘服务器上配置宿主提供商：
+使用 Skype for Business Server 命令行管理程序，使用以下示例中的参数运行 **New-CsHostingProvider** cmdlet，在边缘服务器上配置宿主提供商：
 
 ```powershell
 New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedAddressSpace $True -HostsOCSUsers $False -ProxyFqdn "exap.um.outlook.com" -IsLocal $False -VerificationLevel UseSourceVerification
 ```
 
 > [!NOTE]
-> 如果使用的是由世纪Microsoft 365或 Office 365 在中国运营的 Microsoft 365 或 Office 365，请将此示例中 ProxyFqdn 参数的值替换为由世纪 ("exap.um.outlook.com") 运营的服务的 FQDN："exap.um.partner.outlook.cn"。 如果使用的是 Microsoft 365 或 Office 365 GCC High，请将此示例中 ProxyFqdn 参数的值 ("exap.um.outlook.com") 替换为 GCC High 的 FQDN："exap.um.office365.us"。
+> 如果使用的是由世纪银行在中国运营的 Microsoft 365 或 Office 365，请将此示例中 ProxyFqdn 参数的值 ("exap.um.outlook.com") 替换为由世纪银行运营的服务的 FQDN："exap.um.partner.outlook.cn"。 如果使用 Microsoft 365 或 Office 365 GCC High，请将此示例中 ProxyFqdn 参数的值 ("exap.um.outlook.com") 替换为 GCC High 的 FQDN："exap.um.office365.us"。
 
 - **Identity** 为要创建的宿主提供商指定唯一的字符串值标识符 (例如，"Exchange Online") 。 包含空格的值必须用双引号括起来。
 

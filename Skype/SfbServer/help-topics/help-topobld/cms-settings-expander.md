@@ -1,7 +1,7 @@
 ---
 title: CMS 设置扩展器
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/25/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4b882923-ed6f-44f3-ad9c-aabad5a3bc00
 description: 可以将中央管理服务器从一个定义的前端池更改为另一个定义的前端池。要更改中央管理服务器的位置，请从“要在其上安装中央管理服务器的前端服务器”下的下拉列表中选择前端池。前端服务器可以是 Enterprise Edition 前端池或 Standard Edition 前端服务器。
-ms.openlocfilehash: 85a3397d0a8378d90f50a1e4078a7218d63ea525
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3e36f0e70123c9e3065951d917d2428431774553
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595706"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60743758"
 ---
 # <a name="cms-settings-expander"></a>CMS 设置扩展器
  

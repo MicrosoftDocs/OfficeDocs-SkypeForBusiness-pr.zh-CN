@@ -1,7 +1,7 @@
 ---
 title: 选择通知服务
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 676f4d80-6826-4fa0-9430-4ebdb4b5a03e
 ROBOTS: NOINDEX, NOFOLLOW
 description: 使用“选择通知服务”对话框可选择将处理到未分配号码范围的传入呼叫的通知服务。
-ms.openlocfilehash: 1b67c1564703cd0080b73819e6d09ad0a5e5c412
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9b166b673554702728bf01f3a66fa871f76644a3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613051"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771200"
 ---
 # <a name="select-an-announcement-service"></a>选择通知服务
  

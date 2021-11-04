@@ -1,7 +1,7 @@
 ---
 title: 自定义用户的用户帐户Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 505d9619-adab-4cc4-b054-89286e18a19b
 description: 您可以使用本节中的过程修改单个用户帐户属性。
-ms.openlocfilehash: 9f145b1d1c0abd584a3771950d9960ccea30b85e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 47e1c09e898a023bbebacbeb57f855568a9a0131
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634246"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750151"
 ---
 # <a name="customize-user-account-properties-for-skype-for-business-server"></a>自定义用户的用户帐户Skype for Business Server
  
@@ -44,7 +44,7 @@ Skype for Business Server用户电话选项包括：
     
 - **远程呼叫控制** 用户可以使用 Skype for Business Server 控制桌面电话，还可以进行 PC 到 PC 呼叫。
     
-有关为组织配置电话服务的详细信息，请参阅部署文档中的[](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)在 企业语音 中启用 Skype for Business Server 和 企业语音[in Skype for Business Server](../../deploy/deploy-enterprise-voice/deploy-enterprise-voice.md)部署用户。
+有关为组织配置电话服务的详细信息，请参阅部署文档中的在[Skype for Business Server](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)中为 企业语音 启用 企业语音[](../../deploy/deploy-enterprise-voice/deploy-enterprise-voice.md)和 Skype for Business Server 部署。
   
 1. 使用分配给 CsUserAdministrator 角色或 CsAdministrator 角色的用户帐户登录到内部部署中的任何计算机。
     
@@ -66,12 +66,12 @@ Skype for Business Server用户电话选项包括：
     
    - 若要根据服务策略（包括 PC 到 PC 音频通信）使用 Skype for Business 基础结构路由用户电话呼叫，请单击 **"企业语音"。** 在“线路 URI”中，指定用于企业语音的电话号码。 在“拨号计划策略”和“语音策略”中，为用户指定相应的策略。 要指定用于将用户拨打的电话号码转换为 E.164 格式的规范化规则，请在“位置策略”中选择相应的位置配置文件。
     
-   - 若要启用远程呼叫控制（允许用户控制桌面电话线路从 Skype for Business Server 进行 PC 到 PC 呼叫和 PC 到电话呼叫，请单击"远程 **呼叫控制"。** 在“线路 URI”中，指定用于远程呼叫控制的电话号码。 要进行呼叫路由，用户必须具有桌面电话和专用交换机 (PBX) 连接。
+   - 若要启用远程呼叫控制，从而使用户能够控制其桌面电话线路从 Skype for Business Server 进行 PC 到 PC 呼叫和 PC 到电话呼叫，请单击"远程 **呼叫控制"。** 在“线路 URI”中，指定用于远程呼叫控制的电话号码。 要进行呼叫路由，用户必须具有桌面电话和专用交换机 (PBX) 连接。
     
 ## <a name="move-users-to-another-pool"></a>将用户移动到另一个池
 <a name="Move_Users"> </a>
 
-可以使用"Skype for Business Server"将用户分配到特定服务器或池。
+可以使用"Skype for Business Server控制面板"将用户分配到特定服务器或池。
   
 > [!TIP]
 > 将所有现有用户从运行 Lync Server 2010 或更早的源池移动到复杂 Active Directory 环境中 Skype for Business Server 目标池可能会导致 Active Directory 复制速度变慢。 若要避免这种情况，您可以使用搜索筛选器从单独运行 Lync Server 2010 或更早版本池移动用户，或者可以使用 Skype for Business Server 命令行管理程序通过 cmdlet 移动用户。 此外，筛选器功能还适用于Skype for Business Server用户。 
@@ -144,9 +144,9 @@ Skype for Business Server用户电话选项包括：
   
 ### <a name="to-move-users-from-one-pool-to-another-using-windows-powershell-cmdlets"></a>使用 Powershell cmdlet 将用户从一个池Windows另一个池
 
-1. 根据在本地Windows PowerShell远程 (运行命令) ，您需要以正确管理角色Skype for Business Server成员登录，如下所示：
+1. 根据运行 Windows PowerShell 命令 (（本地或远程) ）的不同，您需要以正确管理角色Skype for Business Server成员登录，如下所示：
     
-   a. 例如，如果要在本地计算机 (上运行命令，请直接登录到前端服务器) ：以 RTCUniversalServerAdmins 组的成员或委派安装权限中所述的必要用户权限登录到安装了 Skype for Business Server 命令行管理程序的计算机。 
+   a. 例如，如果要在本地计算机 (上运行命令，请直接登录到前端服务器) ：以 RTCUniversalServerAdmins 组的成员或具有必要的用户权限（如D delegate **Setup Permissions** 中所述）安装 Skype for Business Server 命令行管理程序的计算机登录。
     
    b. 例如，如果要在另一台计算机 (上远程运行命令，请登录到计算机，在 Standard Edition 前端服务器) 上远程运行这些命令：从分配给 CsUserAdministrator 角色或 CsAdministrator 角色的用户帐户登录到内部部署中的任意计算机。
     

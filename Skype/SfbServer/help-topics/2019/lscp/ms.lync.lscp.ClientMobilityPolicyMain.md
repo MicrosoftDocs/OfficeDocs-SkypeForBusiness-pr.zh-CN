@@ -1,7 +1,7 @@
 ---
 title: 客户端移动策略
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 6ab53530-143d-4f1e-90cd-a92685f98a20
 ROBOTS: NOINDEX, NOFOLLOW
 description: “客户端移动策略”页显示部署中可用的移动策略。
-ms.openlocfilehash: 5afd377b050cdd4062d85a2967a22f70fd526df7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 45882ca5a3c894b95b75d357855647ba2c993df8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607479"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60757974"
 ---
 # <a name="clients-mobility-policy"></a>客户端：移动策略
 

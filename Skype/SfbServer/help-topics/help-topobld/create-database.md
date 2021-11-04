@@ -1,7 +1,7 @@
 ---
 title: 创建数据库
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/26/2015
@@ -15,16 +15,16 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4d391619-1cab-4265-ae8a-2519993705bc
 description: 拓扑生成器提供了一种在数据库存储中安装SQL Server的方法。 当您使用拓扑生成器安装数据库时，应用程序会从拓扑中读取信息，然后在指定的 SQL Server 或 SQL Server 群集中安装所需数据库。 这是唯一可以使用拓扑生成器进行的数据库安装类型。 如果需要在特定的计算机上安装特定数据库，或者必须安装并排的数据库，则必须使用 Windows PowerShell 命令行接口和 Install-CsDatabase cmdlet。
-ms.openlocfilehash: b8c4cc75104093b868d40be18a540eea4019a0b7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1f2bf26626b370e606ce3856f29a2dae2c39ab44
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619888"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739288"
 ---
 # <a name="create-database"></a>创建数据库
  
-拓扑生成器提供了一种在数据库存储中安装SQL Server的方法。 当您使用拓扑生成器安装数据库时，应用程序会从拓扑中读取信息，然后在指定的 SQL Server 或 SQL Server 群集中安装所需数据库。 这是唯一可以使用拓扑生成器进行的数据库安装类型。 如果需要在特定的计算机上安装特定数据库，或者必须安装并排的数据库，则必须改为使用 Windows PowerShell 命令行接口和[Install-CsDatabase](/powershell/module/skype/install-csdatabase?view=skype-ps) cmdlet。
+拓扑生成器提供了一种在数据库存储中安装SQL Server的方法。 当您使用拓扑生成器安装数据库时，应用程序会从拓扑中读取信息，然后在指定的 SQL Server 或 SQL Server 群集中安装所需数据库。 这是唯一可以使用拓扑生成器进行的数据库安装类型。 如果需要在特定的计算机上安装特定数据库，或者必须安装并排的数据库，则必须使用 Windows PowerShell 命令行接口和[Install-CsDatabase](/powershell/module/skype/install-csdatabase?view=skype-ps) cmdlet。
   
 ### <a name="creating-a-database"></a>创建数据库
 

@@ -1,7 +1,7 @@
 ---
 title: 在网络网络中创建网络区域间Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 5555262a-a502-4b01-9593-836dd30064f5
-description: 创建或修改网络区域间路由，这些路由企业语音呼叫允许控制Skype for Business Server。
-ms.openlocfilehash: 0d4e4977cbd2aed82de9c8299f326f301551321a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 创建或修改网络区域间路由，企业语音呼叫允许控制Skype for Business Server。
+ms.openlocfilehash: e74c5bd9630e5171f305cfd22e47a01ea3ea889b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594716"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60758104"
 ---
 # <a name="create-network-interregional-routes-in-skype-for-business-server"></a>在网络网络中创建网络区域间Skype for Business Server
  
-创建或修改网络区域间路由，这些路由企业语音呼叫允许控制Skype for Business Server。 
+创建或修改网络区域间路由，企业语音呼叫允许控制Skype for Business Server。 
   
 网络区域间路由定义一对网络区域之间的路由。 呼叫允许控制部署中的每对网络区域都需要网络区域间路由。 这样部署中的每个网络区域便能够访问任何其他区域。
   
@@ -70,7 +70,7 @@ ms.locfileid: "58594716"
     
 7. 单击“网络区域 #2”，然后在列表中单击要路由到网络区域 #1 的网络区域。
     
-8. 单击 **"** 网络区域 **链接** "字段旁边的"添加"，然后添加将用于网络区域间路由的网络区域链接。
+8. 单击 **"****网络区域链接**"字段旁边的"添加"，然后添加将用于网络区域间路由的网络区域链接。
     
     > [!NOTE]
     > 如果要为彼此之间没有直接网络区域链接的两个网络区域创建路由，则必须添加所有必要的链接来完成路由。 例如，北美/APAC 网络区域间路由需要两个网络区域链接，因为它们之间没有直接网络区域链接。 

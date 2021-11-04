@@ -1,7 +1,7 @@
 ---
 title: Lync Server 2010 的边缘计算机设置扩展器
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: fb72a5b5-70f4-44af-8dfd-c5d32e563882
 description: 若要将边缘服务器计算机的属性编辑为单个边缘服务器或作为边缘池中的成员计算机，请配置服务器名称和 IP 地址配置设置：
-ms.openlocfilehash: 81fb33a2217431cd908156dab95e36cca0675f23
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 215e103cd7fd41ec6d6788f5884ce741170d19cd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604941"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739278"
 ---
 # <a name="edge-machine-settings-expander-for-lync-server-2010"></a>Lync Server 2010 的边缘计算机设置扩展器
  
@@ -42,7 +42,7 @@ ms.locfileid: "58604941"
 - 如果可供编辑，则配置与该计算机关联的“启用 NAT 的公共 IPv4 地址”。
     
     > [!IMPORTANT]
-    > 只有选择为 A/V 边缘服务提供网络地址转换 (NAT) ，启用 NAT 的公共 **IPv4** 地址的配置属性才可供编辑
+    > 只有选择为 A/V 边缘服务提供网络地址转换 (NAT) ，才能编辑启用 NAT 的公共 **IPv4** 地址的配置属性
   
   **确定** 接受更改并通过对话框提交更改。
   

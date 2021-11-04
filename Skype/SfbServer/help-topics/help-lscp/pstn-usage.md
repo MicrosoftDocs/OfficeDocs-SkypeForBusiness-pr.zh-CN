@@ -1,7 +1,7 @@
 ---
 title: PSTN 用法
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 08d7877d-0ef4-4630-b6b0-ee76cbe4ce25
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: 3d04f055cd29a432263b508453447d658af1aec4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8d21946dd89fec3f9b84701d790c393d6dd905b1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592697"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750521"
 ---
 # <a name="pstn-usage"></a>PSTN 用法
 
@@ -28,7 +28,7 @@ ms.locfileid: "58592697"
 
 - [查看 2015 年 Skype for Business PSTN 用法记录](../../deploy/deploy-enterprise-voice/view-pstn-usage-records.md)
 
-- [在 2015 年 10 月创建或修改语音策略和配置 PSTN 用法Skype for Business记录](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)
+- [在 2015 年 3 月创建或修改语音策略和配置 PSTN 用法Skype for Business记录](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)
 
 - [修改语音策略和配置 PSTN 用法记录](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records)
 

@@ -1,7 +1,7 @@
 ---
 title: 为 Skype for Business Server 2015 创建初始拓扑设计
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/5/2016
@@ -13,17 +13,17 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f3131153-de14-41be-b1e6-7d4bb0191af1
-description: 安装完规划工具Skype for Business Server，即可启动规划工具并开始设计建议的 Skype for Business Server 2015 基础结构。
-ms.openlocfilehash: a56bca532ad1eef25a249f1b45f880921d9ead58
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 安装完 Skype for Business Server 规划工具后，即可启动规划工具并开始设计建议的 Skype for Business Server 2015 基础结构。
+ms.openlocfilehash: 0b1b477dffb6547629844268b8ade6ed5620ecbf
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608029"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750141"
 ---
 # <a name="create-the-initial-topology-design-for-skype-for-business-server-2015"></a>为 Skype for Business Server 2015 创建初始拓扑设计
 
-安装完规划工具Skype for Business Server，即可启动规划工具并开始设计建议的 Skype for Business Server 2015 基础结构。
+安装完 Skype for Business Server 规划工具后，即可启动规划工具并开始设计建议的 Skype for Business Server 2015 基础结构。
 
 > [!NOTE]
 >  规划工具是一个向导驱动的工具，具有详细的指南，可告知您设计站点和拓扑时的决策流程。 本主题并不作为详尽指南，而只是为了帮助您开始在设计会话中使用规划工具。
@@ -32,11 +32,11 @@ ms.locfileid: "58608029"
 
 1. 启动 Skype for Business Server 2015 规划工具：单击"开始"，单击"所有程序"，单击 **"Skype for Business Server 2015"，** 然后单击"**规划工具"。**
 
-2. 规划工具启动后，将显示"欢迎使用 **Skype for Business Server 2015 规划工具**"页。 选择以下选项之一开始设计：
+2. 规划工具启动后，将显示"欢迎使用 **Skype for Business Server 2015 规划** 工具"页。 选择以下选项之一开始设计：
 
-   - **选项 1：入门** 单击 **入门** 提供了一系列特定的访谈问题以及相关选择来定义条件。 完成初始的 **访谈入门，** 继续进入设计 **网站** 以定义网站体系结构。 若要完成此选项，请继续执行步骤 3。
+   - **选项 1：入门** 单击 **入门** 可提供一系列特定的访谈问题以及相关选择来定义条件。 完成初始的访谈入门，继续进入设计 **网站** 以定义网站体系结构。 若要完成此选项，请继续执行步骤 3。
 
-   - **选项 2：设计网站** 单击 **"欢迎**"页上的"设计站点"将跳过"欢迎"部分 **入门问题。** 此选项将本该通过回复 入门 **中的访谈** 问题而收集的信息设置为默认值。 通过单击 **"设计站点**"，有经验的设计人员可以绕过初始访谈并根据需要更改中央站点起始页上 **的** 默认值。 若要完成此选项，请跳过步骤 3-5，从步骤 6 开始。
+   - **选项 2：设计网站** 单击 **"欢迎**"页上的"设计站点"将绕过"欢迎"**部分** 入门问题。 此选项将本该通过回复 入门 **中的访谈** 问题而收集的信息设置为默认值。 通过单击 **"设计站点**"，有经验的设计人员可以绕过初始访谈并根据需要更改中央站点起始页上 **的** 默认值。 若要完成此选项，请跳过步骤 3-5，从步骤 6 开始。
 
    - **选项 3：显示保存的拓扑** 如果已使用规划工具完成并保存了拓扑，可以跳过这些步骤中的大多数步骤，首先打开并显示拓扑。 还可以对拓扑进行更改和更新、重新保存，然后将它导出到 Microsoft Excel 或 Microsoft Visio。 若要完成此选项，请跳过步骤 3-12，从步骤 13 开始。
 
@@ -63,7 +63,7 @@ ms.locfileid: "58608029"
 10. 根据需要修改联机协作、用户、语音、其他部署选项或服务器应用程序的选择。
 
     > [!IMPORTANT]
-    > 在设计的这一阶段，只能选择或清除部署选项。 但是，您可以在规划工具的稍后阶段配置更多选项。 还有一些选项不可用且无法清除。 此外，可能必须先清除一个选项后才能清除另一个。 例如，如果清除"语音"下的"企业语音"选项，则"服务器应用程序" (下的响应组、通知和呼叫企业语音) 选项也将清除。 
+    > 在设计的这一阶段，只能选择或清除部署选项。 但是，您可以在规划工具的稍后阶段配置更多选项。 还有一些选项不可用且无法清除。 此外，可能必须先清除一个选项后才能清除另一个。 例如，如果清除"语音"下的"企业语音"选项，则"服务器应用程序"下的"响应组"、"通知"和"呼叫 (所有这些选项都是企业语音) 的功能。  
 
 11. 定义站点名称和用户数量后，单击 **“下一步”**。
 

@@ -1,7 +1,7 @@
 ---
 title: Skype for Business Server 的统计信息管理器
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/19/2016
@@ -13,17 +13,17 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 3b945656-8241-40ed-a34d-0910bd9d3529
-description: 摘要：阅读本主题，了解适用于 Skype for Business Server 的统计信息管理器，这是一种功能强大的工具Skype for Business Server实时查看运行状况和性能数据。
-ms.openlocfilehash: f00f2b52cda23d5a01edb8a3b6d86c3e72280fb5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 摘要：阅读本主题，了解适用于 Skype for Business Server 的统计信息管理器，这是一个功能强大的工具，Skype for Business Server实时查看运行状况和性能数据。
+ms.openlocfilehash: ae3b87d7a30ce120addd363805c5a4513b6a132d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612061"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778122"
 ---
 # <a name="statistics-manager-for-skype-for-business-server"></a>Skype for Business Server 的统计信息管理器
  
-**摘要：** 阅读本主题以了解适用于 Skype for Business Server 的统计信息管理器，这是一款功能强大的工具，Skype for Business Server实时查看运行状况和性能数据。
+**摘要：** 阅读本主题可了解适用于 Skype for Business Server 的统计信息管理器，这是一种Skype for Business Server实时查看运行状况和性能数据的强大工具。
   
 本节包含下列主题：
   

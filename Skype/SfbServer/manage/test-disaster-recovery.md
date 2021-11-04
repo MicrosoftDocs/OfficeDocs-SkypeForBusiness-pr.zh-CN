@@ -1,7 +1,7 @@
 ---
 title: Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -10,13 +10,13 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-description: 对池服务器执行Skype for Business Server恢复，以测试记录灾难恢复过程
-ms.openlocfilehash: a98f2de4d860c4a769526428958ba9b952cfc573
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 对 Skype for Business Server 服务器执行系统恢复，以测试记录灾难恢复过程
+ms.openlocfilehash: 94d4d4d1a832db3bb72a844818675dba04c214b9
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609239"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60743448"
 ---
 # <a name="disaster-recovery-testing-in-skype-for-business-server"></a>Skype for Business Server
 
@@ -42,7 +42,7 @@ ms.locfileid: "58609239"
 
 故障转移过程中的第一步包括强制将用户从生产池移动到灾难恢复池。 这是强制移动，因为生产池将不能接受用户重定位。
 
-除了Skype for Business Server RTC 数据库上的记录更新之外，移动用户过程实际上是对用户帐户对象上的SQL更改。 可以使用标准 SQL Server 还原过程，或者使用第三方备份/还原实用工具，从生产环境中从SQL Server备份转储设备还原此数据。
+除了Skype for Business Server RTC 数据库上的记录更新之外，移动用户过程实际上是对用户帐户对象上的属性SQL更改。 可以使用标准 SQL Server 还原过程，或者使用第三方备份/还原实用工具，从生产环境中从SQL Server备份转储设备还原此数据。
 
 还原此数据后，用户可以有效地连接到灾难恢复池，并像往常一样运行。 若要使用户能够连接到灾难恢复池，需要更改 DNS 记录。
 

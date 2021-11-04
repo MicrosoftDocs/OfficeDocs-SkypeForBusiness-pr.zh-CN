@@ -1,7 +1,7 @@
 ---
 title: 监控范围节点
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,18 +15,18 @@ ms.localizationpriority: medium
 ms.assetid: 05867db5-ad62-41e3-b1ac-f21f43d1e90b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 在拓扑生成器中，可以通过右键单击控制台树中运行监控的服务器、单击工具栏中的"操作"或单击"操作"窗格中的任务，然后单击监控服务器的以下选项之一来执行与监控相关的任务：
-ms.openlocfilehash: e352bdb67fa8957c9d25e9e876f512fce38fc5a1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8bbd3bb046e8628963d6663ebf752a80274ab8bd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622684"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60764350"
 ---
 # <a name="monitoring-scope-node"></a>监控范围节点
  
 在拓扑生成器中，可以通过右键单击控制台树中运行监控的服务器、单击工具栏中的"操作"或单击"操作"窗格中的任务，然后单击监控服务器的以下选项之一来执行与监控相关的任务：
   
-- **编辑属性**。 打开监控 **服务器的**"编辑属性"页，可在其中更改监控服务器或监控数据库 (FQDN) 的完全限定SQL Server名称。
+- **编辑属性**。 打开监控 **服务器的**"编辑属性"页，可在其中更改监控服务器或监控数据库 (的完全限定域名 (FQDN SQL Server FQ) DN。
     
 - **删除**。 从拓扑和监控数据库中删除运行监控SQL Server服务器。
     

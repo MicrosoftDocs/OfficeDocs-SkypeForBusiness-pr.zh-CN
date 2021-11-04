@@ -1,7 +1,7 @@
 ---
-title: 关于路由中的中继Skype for Business Server
+title: 关于服务器中的中继间Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f687a548-1f2e-48ed-9745-a13dc1f3698f
 description: 了解如何Skype for Business Server 企业语音中继间路由。
-ms.openlocfilehash: 5a44f9e269985312e31d827254dd7bbfae10bcfd
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: a1c56277f8e5cffeab5c9ae1af3c1cfcb16af58a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731811"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749941"
 ---
 # <a name="about-inter-trunk-routing-in-skype-for-business-server"></a>关于服务器中的中继间Skype for Business Server
  

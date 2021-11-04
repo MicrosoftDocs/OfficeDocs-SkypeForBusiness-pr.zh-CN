@@ -1,6 +1,6 @@
 ---
 title: Skype会议室系统受信任域
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9fb63ad4-6eda-4724-be63-10bf5e65cb2b
 description: 阅读本主题，了解如何为会议室系统和Skype配置受信任Skype for Business。
-ms.openlocfilehash: fae745d1380e8d75d88e446275d7073e92ae5632
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 68449fcb0c1bf4fb608f7d1172b45776fe109958
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583266"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60738969"
 ---
 # <a name="skype-room-system-trusted-domains"></a>Skype会议室系统受信任域
  
@@ -25,8 +25,8 @@ ms.locfileid: "58583266"
   
 ## <a name="trusted-domains"></a>受信任的域
 
-Skype for Business 客户端显示一个对话框，如果用户登录的用户帐户的 SIP 域与证书上的"使用者"或"使用者替代名称"中提供的名称不同，则用户可以从 Skype for Business Server 接受证书。 如果组织中为 Skype for Business Server 配置的证书在"主题"或"主题替换名称"中没有 Skype 会议室系统帐户的 SIP 域名，则必须在 Skype 会议室系统控制台计算机上"受信任的域"注册表项下配置证书上呈现的这些域。 会议室Skype制造商提供的 Skype 会议室系统管理员指南介绍了如何在 Skype for Business 客户端中添加受信任域。 
+Skype for Business 客户端显示一个对话框，如果用户登录的用户帐户的 SIP 域与证书上的"使用者"或"使用者替代名称"中提供的名称不同，则用户可以接受来自 Skype for Business Server 的证书。 如果组织中为 Skype for Business Server 配置的证书在"主题"或"主题替换名称"中没有 Skype 会议室系统帐户的 SIP 域名，则必须在 Skype 会议室系统控制台计算机上"受信任的域"注册表项下配置证书上呈现的这些域。 会议室Skype制造商提供的Skype会议室系统管理员指南介绍了如何在 Skype for Business 客户端中添加受信任域。 
   
-例如，假定在证书上配置的Skype for Business Server主题/主题替换名称为"CONTOSO"。LOCAL"和分配给用户用于会议室系统登录地址Skype SIP 域之一为"confrm1@contoso.net"。 由于 contoso.net 不在证书中，因此在 Skype 会议室系统计算机上，您需要在注册表中将"contoso.local"配置为受信任的域，如 Skype 会议室系统制造商提供的 Skype Room System Administrator 指南中介绍。 
+例如，假定在证书上配置的证书Skype for Business Server主题/主题替换名称为"CONTOSO"。LOCAL"和分配给用户用于会议室系统登录地址Skype SIP 域之一为"confrm1@contoso.net"。 由于 contoso.net 不在证书中，因此在 Skype 会议室系统计算机上，您需要在注册表中将"contoso.local"配置为受信任的域，如 Skype 会议室系统制造商提供的 Skype Room System Administrator 指南中的说明。 
   
 

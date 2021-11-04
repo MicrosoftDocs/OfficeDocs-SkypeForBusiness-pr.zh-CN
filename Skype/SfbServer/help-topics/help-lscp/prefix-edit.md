@@ -1,7 +1,7 @@
 ---
 title: 前缀编辑
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: a6e63c33-7927-4813-81cc-9624c2098177
 description: 要定义前缀或起始数字，请添加此路由应处理的号码前缀，包括 +（如有必要）。 例如，可以匹配以 +123 开始的所有数字。
-ms.openlocfilehash: f5603b70b35144412446dcc1433c0be6dd8b40cb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2e94dcc8eaf5624560fe7f140a7df46a0d9efc21
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581556"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750511"
 ---
 # <a name="prefix-edit"></a>前缀编辑
  

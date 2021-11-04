@@ -1,7 +1,7 @@
 ---
 title: 在代理组中创建或修改Skype for Business
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,23 +15,23 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f1461fff-51c1-4f4b-9311-8cba02c333fc
-description: 在响应组中创建或修改代理组，Skype for Business Server 企业语音。
-ms.openlocfilehash: 367e8e752042d7b8585fdae918f747aa77085223
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 在响应组内创建或修改代理Skype for Business Server 企业语音。
+ms.openlocfilehash: f17b3839e483f1886e69f84b33980f5384b50066
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58589014"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771557"
 ---
 # <a name="create-or-modify-an-agent-group-in-skype-for-business"></a>在代理组中创建或修改Skype for Business
  
-在响应组中创建或修改代理组，Skype for Business Server 企业语音。
+在响应组内创建或修改代理Skype for Business Server 企业语音。
   
 创建代理组时要选择分配给该组的代理并指定其他组设置，如路由方法以及代理能否登录到组和从组注销。 
   
 必须登录到组和从组注销（与登录或注销组不同）Skype for Business称为正式代理。 正式代理必须登录到组，然后才能接收路由至该组的呼叫。 这对于以兼职形式应答组中的呼叫的代理很有用。 正式代理通过单击 Skype for Business 中的菜单项登录到组和从组中注销Windows Internet Explorer Internet 浏览器并显示网页控制台。
   
-不登录到组或从组注销的代理称为非正式代理。 非正式代理登录组后将自动登录到Skype for Business，并且无法从组注销。
+不登录到组或从组注销的代理称为非正式代理。 非正式代理登录组后将自动登录到组Skype for Business，并且无法从组注销。
   
 只有内部部署用户可以成为代理。如果代理从内部部署移动到联机状态，则不会将响应组呼叫路由到该代理。
   
@@ -74,7 +74,7 @@ ms.locfileid: "58589014"
   
 9. 在“路由方法”中，选择将呼叫路由至组中代理的方法，具体如下：
     
-   - 若要首先向空闲时间最长的代理提供新呼叫 (在 Skype for Business 中处于"空闲"或"非活动"状态) ，请单击"最长空闲时间 **"。** 
+   - 若要首先向空闲时间最长的 (在 Skype for Business 中处于"空闲"或"非活动"状态的代理) "最长空闲时间 **"。**  
     
    - 要将新呼叫同时路由至所有空闲的代理，请单击 **“并行”**。呼叫将发往第一个接受该呼叫的代理。
     
@@ -82,7 +82,7 @@ ms.locfileid: "58589014"
     
    - 要将新呼叫始终按照 **“代理”** 列表中代理的排列顺序路由至代理，请单击 **“串行”**。 
     
-   - 若要将新呼叫同时向登录到 Skype for Business 和响应组应用程序的所有代理提供，无论其当前状态如何，请单击"助理 **"。** 配置为代理的用户可以看到所有正在等待的呼叫，并可以按任意顺序应答等待的呼叫。 呼叫将发送给第一个接受该呼叫的代理，之后其他代理将不再看到该呼叫。
+   - 要同时向登录到 Skype for Business 和响应组应用程序的所有代理提供新呼叫，无论其当前状态如何，请单击"助理 **"。** 配置为代理的用户可以看到所有正在等待的呼叫，并可以按任意顺序应答等待的呼叫。 呼叫将发送给第一个接受该呼叫的代理，之后其他代理将不再看到该呼叫。
     
 10. 在“代理”中，指定创建代理列表要采用的方式：
     
@@ -113,7 +113,7 @@ ms.locfileid: "58589014"
     
      - 如果通讯组列表配置为隐藏成员身份，并且响应组管理员将通讯组列表分配给代理列表，则用户可以呼叫该组来查明成员是谁。 
     
-     - 如果通讯组列表配置为在 Exchange 全局地址列表中隐藏，响应组管理员可能能够看到通讯组列表，如果响应组进程具有相应的用户权限，则即使该管理员没有相应的用户权限，也能够将其分配给代理列表。
+     - 如果通讯组列表配置为在 Exchange 全局地址列表中隐藏，响应组管理员可以查看通讯组列表并将其分配给代理列表（如果响应组进程具有相应的用户权限，即使管理员没有相应的用户权限）。
     
 11. 单击“提交”。
     

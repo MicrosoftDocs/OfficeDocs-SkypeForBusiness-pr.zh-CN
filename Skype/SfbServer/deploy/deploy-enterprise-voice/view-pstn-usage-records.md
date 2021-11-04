@@ -1,7 +1,7 @@
 ---
 title: 查看 PSTN 用法记录Skype for Business
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 65025c78-c263-472c-9ff9-e170588f10b5
 description: 摘要：了解如何使用命令行管理程序或命令行管理程序Skype for Business Server PSTN 用法Skype for Business Server记录。
-ms.openlocfilehash: 7b708a388950424453e833c28d846e6258070ef5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2b09ed19de6ff205ee7d76e7379c8b4c5fc12d06
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626184"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771517"
 ---
 # <a name="view-pstn-usage-records-in-skype-for-business"></a>查看 PSTN 用法记录Skype for Business
 
 **摘要：** 了解如何使用命令行管理程序或命令行管理程序Skype for Business Server PSTN 用法Skype for Business Server记录。
 
-公用电话交换网 (PSTN) 用法记录指定组织中各个用户或用户组可以拨打的呼叫 (（如内部、本地或长途) ）的类别。 有关详细信息，请参阅规划 [文档中的 PSTN](/previous-versions/office/lync-server-2013/lync-server-2013-pstn-usage-records) Usage Records。
+公用电话交换网 (PSTN) 用法记录指定组织中各种用户或用户组可以拨打的呼叫 (类，如内部、本地或长途) 。 有关详细信息，请参阅规划 [文档中的 PSTN](/previous-versions/office/lync-server-2013/lync-server-2013-pstn-usage-records) Usage Records。
 
 ### <a name="to-view-a-pstn-usage-record-by-using-skype-for-business-server-control-panel"></a>使用控制面板查看 PSTN Skype for Business Server记录
 

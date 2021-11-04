@@ -1,7 +1,7 @@
 ---
 title: Skype for Business Server 2015 规划工具
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 12/20/2018
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 2a352f62-c5cb-4ef1-9aa9-7f0c1ab47455
 description: 有关使用 Skype for Business Server 2015 规划工具的指南。
-ms.openlocfilehash: 55c45f4df4a30b223c76fcbdf829357e7410d4b1
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: d7574366fda49ccfa86b1190cfe3ea03e476bc5d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014736"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739068"
 ---
 # <a name="skype-for-business-server-2015-planning-tool"></a>Skype for Business Server 2015 规划工具
  
@@ -35,7 +35,7 @@ the Skype for Business Server 2015 Planning Tool is a wizard driven， interview
   
 规划工具还提供以两种格式导出信息的能力：
   
-- Microsoft Excel (.xml电子表格) 
+- Microsoft Excel (.xml 电子表格) 
     
 - Microsoft Visio (.vdx) 
     
@@ -49,7 +49,7 @@ the Skype for Business Server 2015 Planning Tool is a wizard driven， interview
     
 - [在 Skype for Business Server 2015 中导航规划工具](navigate.md)
     
-- [为 Skype for Business Server 2015 创建初始拓扑设计](create-the-initial-design.md)
+- [为 2015 Skype for Business Server拓扑设计](create-the-initial-design.md)
     
 - [在 Skype for Business Server 2015 中编辑拓扑](edit-the-topology.md)
     
@@ -59,6 +59,6 @@ the Skype for Business Server 2015 Planning Tool is a wizard driven， interview
     
 ## <a name="see-also"></a>另请参阅
 
-[Install Skype for Business Server 2015](../../deploy/install/install.md)
+[安装 Skype for Business Server 2015](../../deploy/install/install.md)
   
 [在 2015 年 10 月Skype for Business Server即时消息和状态](../../plan-your-deployment/instant-messaging-and-presence.md)

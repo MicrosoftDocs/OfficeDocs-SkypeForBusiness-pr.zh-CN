@@ -1,7 +1,7 @@
 ---
 title: 为 Microsoft Teams 上线支持
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 41b145b4741199a133c602caa383277aa24d02e3
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: a0663712bb676519019785d3639fc3712d3f03d0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730861"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771727"
 ---
 # <a name="onboard-support-for-microsoft-teams"></a>为 Microsoft Teams 上线支持
 
@@ -37,4 +37,4 @@ ms.locfileid: "58730861"
 - [已知问题和故障排除](/MicrosoftTeams/troubleshoot/teams-welcome)
 - [Microsoft Teams 培训](./training-microsoft-teams-landing-page.md)
 
-![表示下一步骤的图标。](media/teams-adoption-next-icon.png) 下一[步：Microsoft Teams采用阶段 3：缩放](teams-adoption-phase3-enable.md)。
+![表示下一步骤的图标。](media/teams-adoption-next-icon.png) 接下来[：Microsoft Teams采用阶段 3：缩放](teams-adoption-phase3-enable.md)。

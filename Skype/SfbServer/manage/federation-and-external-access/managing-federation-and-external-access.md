@@ -1,11 +1,11 @@
 ---
-title: Lync Server 2013：管理对 lync Server 2013 的联盟Skype for Business Server
+title: Lync Server 2013：管理对客户端的联盟Skype for Business Server
 ms.reviewer: ''
 ms:assetid: 26f806c1-f284-4637-b06b-06270336c540
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520966(v=OCS.15)
 ms:contentKeyID: 48183665
 mtps_version: v=OCS.15
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,18 +15,18 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 您可以启用和配置外部用户访问，以控制受支持的外部用户是否可以与内部用户Skype for Business Server协作。
-ms.openlocfilehash: aab0a4c5a3613f285b47a886819d524e37480341
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2521d3f4d4134c4edb89904e5a7db4e4026b79e6
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590136"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60743548"
 ---
 # <a name="managing-federation-and-external-access-to-skype-for-business-server"></a>管理对联盟的联盟和外部Skype for Business Server
 
-部署边缘服务器或边缘池是支持外部用户的第一步。 有关部署边缘服务器的详细信息，请参阅部署边缘[Skype for Business Server。](../../deploy/deploy-edge-server/deploy-edge-server.md)
+部署边缘服务器或边缘池是支持外部用户的第一步。 有关部署边缘服务器的详细信息，请参阅在 Skype for Business Server[中部署边缘服务器](../../deploy/deploy-edge-server/deploy-edge-server.md)。
 
-安装和配置 Skype for Business Server 的内部部署后，您组织的内部用户可以与在 Active Directory 域服务 (AD DS) 中拥有 SIP 帐户的其他内部用户进行协作。 协作可包括发送和接收即时消息以及更新当前状态和参与会议（也称为“会议”）。 您可以启用和配置外部用户访问，以控制受支持的外部用户是否可以与内部用户Skype for Business Server协作。 外部用户可以包括部署的远程用户、联盟用户 (包括支持的公共即时消息 (IM) 服务提供商) 的用户以及会议中的匿名参与者。
+安装和配置 Skype for Business Server 的内部部署后，您组织的内部用户可以与在 Active Directory 域服务 (AD DS) 中拥有 SIP 帐户的其他内部用户进行协作。 协作可包括发送和接收即时消息以及更新当前状态和参与会议（也称为“会议”）。 您可以启用和配置外部用户访问，以控制受支持的外部用户是否可以与内部用户Skype for Business Server协作。 外部用户可以包括部署的远程用户、联盟用户 (包括支持的公共即时消息 (IM) 服务提供商) 的用户和会议中的匿名参与者。
 
 如果您的部署包括安装 Skype for Business Server 边缘服务器或边缘池，则可能的通信类型的范围会通过多种外部用户访问、与其他 SIP 联盟域的成员和 SIP 联盟提供程序的通信选项大大扩展。 设置边缘服务器或边缘池后，您可以启用要提供的外部用户访问类型，并配置策略以控制外部访问。 在Skype for Business Server中，根据任务要求，使用 Skype for Business Server 控制面板和/或[Skype for Business Server 命令行](../management-shell.md)管理程序 启用和配置外部用户访问和策略。 
 
@@ -52,7 +52,7 @@ ms.locfileid: "58590136"
 
 **是否要允许匿名用户参加和受邀参加由您的部署中的用户主持的会议？**
 
-配置主题分配会议策略以支持匿名用户[](access-edge/assign-conferencing-policies-to-support-anonymous-users.md)和创建会议策略[中详述的设置](../conferencing/create-policies.md)。
+配置主题分配会议策略以支持匿名用户[](access-edge/assign-conferencing-policies-to-support-anonymous-users.md)和[创建会议策略中详述的设置](../conferencing/create-policies.md)。
 
 **是否要允许用户与 SIP 联盟域联系人通信？**
 
@@ -72,7 +72,7 @@ ms.locfileid: "58590136"
 配置主题配置策略以控制公共用户访问[](external-access-policies/configure-policies-to-control-public-user-access.md)、启用或禁用联盟和公共[IM](access-edge/enable-or-disable-federation-and-public-im-connectivity.md)连接以及创建或编辑公共 SIP[联盟](sip-providers/manage-sip-federated-providers-for-your-organization.md#create-or-edit-public-sip-federated-providers-in-skype-for-business-server)提供程序中详述的设置
 
 
-**是否要允许用户与 SIP 联盟提供商进行通信，SIP 联盟提供商是运行 Microsoft 365 或 Office 365 Skype for Business Online 的托管提供商？**
+**是否要允许用户与 SIP 联盟提供商进行通信，这些提供商是运行 Microsoft 365 或 Office 365 Skype for Business提供商？**
 
 配置设置，如启用或禁用联盟和公共 [IM](access-edge/enable-or-disable-federation-and-public-im-connectivity.md) 连接和创建或编辑托管 [SIP 联盟提供程序这两个主题所详细介绍](sip-providers/manage-sip-federated-providers-for-your-organization.md#create-or-edit-hosted-sip-federated-providers-in-skype-for-business-server)。
 

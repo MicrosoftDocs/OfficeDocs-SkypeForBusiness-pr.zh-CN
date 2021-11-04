@@ -1,7 +1,7 @@
 ---
 title: 规划网络网络Skype for Business
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 35c7bb3f-8e0f-48b7-8a2c-857d4b42a4c4
 description: 摘要：实施前，请查看下面的网络组件Skype for Business Server。
-ms.openlocfilehash: 0441b64014f7754d30f8040d059f2fac15c9cb5d
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: b2b8496b307111261c77f93d45d3332b42ead90d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014666"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777922"
 ---
 # <a name="plan-network-requirements-for-skype-for-business"></a>规划网络网络Skype for Business
 
@@ -48,12 +48,12 @@ Network performance and needs are directly linked to the traffic load placed on 
 ## <a name="audiovideo-network-requirements"></a>音频/视频网络要求
 <a name="AV_req"> </a>
 
- (部署中的音频/视频) A/V Skype for Business Server网络要求包括：
+Skype for Business Server部署中的音频/视频 (A/V) 的网络要求包括：
 
 - 如果要使用 DNS 负载平衡部署单个边缘服务器或边缘池，可以将外部防火墙配置为通过 NAT  (网络) 。 不能将内部 _防火墙配置为_ 执行 NAT。 有关详细信息，请参阅端口 [和防火墙规划](../edge-server-deployments/edge-environmental-requirements.md#port-and-firewall-planning)。
 
     > [!IMPORTANT]
-    > 如果您有边缘池并且正在使用硬件负载平衡器，则必须在边缘服务器上使用公用 IP 地址，并且不能将 NAT 用于服务器或支持 NAT 的设备上的池 (例如防火墙设备或 LAN 交换机。 有关详细信息，请参阅中[的边缘服务器Skype for Business Server。](../edge-server-deployments/scenarios.md)
+    > 如果您有边缘池并且正在使用硬件负载平衡器，则必须在边缘服务器上使用公用 IP 地址，并且不能将 NAT 用于服务器或支持 NAT 的设备上的池 (例如防火墙设备或 LAN 交换机。 有关详细信息，请参阅 Edge [Server scenarios in Skype for Business Server](../edge-server-deployments/scenarios.md)。
 
 - 如果您的组织使用了服务质量 (QoS) 基础结构，则媒体子系统应设计为在此现有基础结构中工作。
 
@@ -61,17 +61,17 @@ Network performance and needs are directly linked to the traffic load placed on 
 
 若要提供最佳媒体质量，请执行下列操作：
 
-- 设置网络链接以支持高峰使用时段内每个音频流 65 千位每秒 (Kbps) 和每个视频流 500 Kbps（如果启用）的吞吐量。 双向音频或视频会话使用两个流，因此简单的音频/电话连接需要 130Kbps 才能覆盖每个流。 同样，视频总共使用 1000 Kbps 进行上游和下游连接。
+- 设置网络链接以支持在高峰使用时段内每秒 65 KBps (Kbps) 和每个视频流 500 Kbps（如果启用）的吞吐量。 双向音频或视频会话使用两个流，因此简单的音频/电话连接需要 130Kbps 才能覆盖每个流。 同样，视频总共使用 1000 Kbps 进行上游和下游连接。
 
-- 为了应对意外的流量峰值和随时间增加的使用量，Skype for Business Server媒体终结点可以适应不断变化的网络条件，并支持音频和视频吞吐量的三倍，同时仍保持可接受的质量。 不要假定在网络预配不足时，这种适适性将掩盖问题。 在预配不足的网络中，Skype for Business Server 媒体终结点动态处理不同网络条件的能力 (例如，临时高数据包丢失) 减少。
+- 为了应对意外的流量峰值和随时间增加的使用量，Skype for Business Server 媒体终结点可以适应不断变化的网络条件，并支持音频和视频吞吐量的三倍，同时仍保持可接受的质量。 不要假定在网络预配不足时，这种适适性将掩盖问题。 在预配不足的网络中，Skype for Business Server 媒体终结点动态处理不同网络条件的能力 (例如，临时的高数据包丢失) 减少。
 
 - 对于设置成本很高且难以进行设置的网络链接，可能需要考虑为较低的流量进行设置。 在此方案中，让媒体终结点的弹性Skype for Business Server流量和高峰流量级别之间的差异，代价是语音质量下降。 此外，可用于吸收流量中的突发峰值的可用空间也会减少。
 
 - 对于在短期内无法正确设置的链接 (例如，使用 WAN 链接非常差) ，请考虑对某些用户禁用视频。
 
-- 设置网络以确保最大端到端延迟延迟 (在高峰负载) 为 150 毫秒 () 毫秒）。 延迟是媒体组件无法Skype for Business Server的一种网络障碍，必须查找并消除这些缺陷。
+- 设置网络以确保最大端到端延迟 (在高峰负载) 为 150 () 毫秒。 延迟是媒体组件无法Skype for Business Server的一种网络障碍，必须查找并消除这些缺陷。
 
-- 对于运行防病毒软件的服务器，在例外列表中Skype for Business Server运行软件的所有服务器，以提供最佳性能和音频质量。
+- 对于运行防病毒软件的服务器，包括所有在例外Skype for Business Server运行软件的服务器，以提供最佳性能和音频质量。
 
 ## <a name="ipsec-exceptions"></a>IPsec 异常
 
@@ -87,8 +87,8 @@ Network performance and needs are directly linked to the traffic load placed on 
 |A/V 边缘服务器外部入站|任何  |A/V 边缘服务器外部|UDP 和 TCP|任何 |任何 |不进行身份验证|
 |A/V 边缘服务器内部出站|A/V 边缘服务器内部  |A/V 边缘服务器外部 |UDP 和 TCP|任何 |任何 |不进行身份验证|
 |A/V 边缘服务器外部出站|A/V 边缘服务器外部 |任何 |UDP 和 TCP|任何 |任何 |不进行身份验证|
-|中介服务器入站|任何  |中介服务器 (服务器)  |UDP 和 TCP|任何 |任何 |不进行身份验证|
-|中介服务器出站|中介服务器 (服务器)   |任何|UDP 和 TCP|任何 |任何 |不进行身份验证|
+|中介服务器入站|任何  |中介 (服务器)  |UDP 和 TCP|任何 |任何 |不进行身份验证|
+|中介服务器出站|中介 (服务器)   |任何|UDP 和 TCP|任何 |任何 |不进行身份验证|
 |会议助理入站|任何  |运行会议助理的前端服务器 |UDP 和 TCP|任何 |任何 |不进行身份验证|
 |会议助理出站|运行会议助理的前端服务器  |任何|UDP 和 TCP|任何 |任何 |不进行身份验证|
 |A/V 会议入站|任何|前端服务器|UDP 和 TCP|任何 |任何 |不进行身份验证|
@@ -114,7 +114,7 @@ Network performance and needs are directly linked to the traffic load placed on 
 ### <a name="media-traffic-network-usage"></a>媒体流量网络使用情况
 <a name="Net_req"> </a>
 
-媒体流量带宽使用量可能由于不同变量（如编解码器使用、分辨率和活动级别）的数量而难于计算。 带宽使用量是使用的编解码器以及流活动的一个功能，因方案而异。 下表列出了通常在音频Skype for Business Server编解码器。
+媒体流量带宽使用量可能由于不同变量（如编解码器使用、分辨率和活动级别）的数量而难于计算。 带宽使用量是使用的编解码器以及流活动的一个功能，因方案而异。 下表列出了通常用于音频编码解码器Skype for Business Server方案。
 
 **音频编解码器带宽**
 
@@ -132,9 +132,9 @@ Network performance and needs are directly linked to the traffic load placed on 
 |一个可宽带/窄带  <br/> |对等  <br/> |13.0  <br/> |29.0  <br/> |41.0  <br/> |54.0  <br/> |
 
 > [!NOTE]
-> 来自客户端的 PSTN Skype for Business通常使用 G.711 编解码器，这需要高带宽。 如果该编解码器没有足够的带宽，则呼叫可能会失败，并出现与媒体日志中类似以下的错误：Atleast 必须启用一个编解码器 **，hr： c0042004**。 媒体日志 A0.blog 文件) 加密，并且仅能由 Microsoft 支持人员解码。
+> 来自客户端的 PSTN Skype for Business通常使用 G.711 编解码器，这需要高带宽。 如果该编解码器没有足够的带宽，则呼叫可能会失败，并出现类似于媒体日志中的以下错误：Atleast 必须启用一个编解码器 **，hr： c0042004**。 媒体日志 A0.blog 文件) 加密，并且只有 Microsoft 支持人员才能对其进行解码。
 
-上表中的带宽数字基于每秒 20 毫秒的分组 (50 数据包) 对于 Siren 和 G.722 编解码器，包括其他安全实时传输协议 (SRTP) 开销（来自会议方案）并假定流为 100% 活动。 如果链接 (数据包丢失) 则动态使用FEC 报告转发错误更正功能，以帮助维护音频流的质量。
+上表中的带宽数字基于每秒) 20 毫秒的分组 (50 个数据包) 对于 Siren 和 G.722 编解码器包括其他安全实时传输协议 (SRTP) 开销（来自会议方案）并假定流为 100% 活动。 当链接 (数据包丢失时，会动态使用FEC) 前向错误更正，以帮助维护音频流的质量。
 
 G.722 编解码器立体声版本由基于 Lync 会议室系统的系统使用，该系统使用一个立体声麦克风或一对单声道麦克风，以便侦听器更好地区分会议室中的多个扬声器。
 
@@ -146,7 +146,7 @@ G.722 编解码器立体声版本由基于 Lync 会议室系统的系统使用�
 |H.264/RTVideo  <br/> |424x240 (16：9)   <br/> 320x240 (4：3)   <br/> |350  <br/> |100  <br/> |
 |H.264  <br/> |480x270 (16：9)   <br/> 424x320 (4：3)   <br/> |450  <br/> |200  <br/> |
 |H.264/RTVideo  <br/> |640x360 (16：9)   <br/> 640x480 (4：3)   <br/> |800  <br/> |300  <br/> |
-|H.264  <br/> |848x480 (16：9)   <br/> |1500  <br/> |400  <br/> |
+|H.264  <br/> |848x480 (16：9)   <br/> |1500  <br/> |30W  <br/> |
 |H.264  <br/> |960x540 (16：9)   <br/> |2000  <br/> |500  <br/> |
 |H.264/RTVideo  <br/> |1280x720 (16：9)   <br/> |2500  <br/> |700  <br/> |
 |H.264  <br/> |1920x1080 (16：9)   <br/> |4000  <br/> |1500  <br/> |
@@ -154,7 +154,7 @@ G.722 编解码器立体声版本由基于 Lync 会议室系统的系统使用�
 |H.264  <br/> |1280x192 (20：3)   <br/> |1000  <br/> |250  <br/> |
 |H.264  <br/> |1920x288 (20：3)   <br/> |2000  <br/> |500  <br/> |
 
-视频的默认编解码器是 H.264/MPEG-4 第 10 部分高级视频编码标准，以及针对临时可伸缩性的可扩展视频编码扩展。 为了维护与旧客户端的互操作性，RTVideo 编解码器仍用于客户端和旧客户端Skype for Business Server对等呼叫。 在使用 Skype for Business Server 和旧客户端的会议会话中，Skype for Business Server 终结点可能同时使用视频编解码器对视频进行编码，并将 H.264 位流发送到 Skype for Business Server 客户端，将 RTVideo 比特流发送到旧客户端。
+视频的默认编解码器是 H.264/MPEG-4 第 10 部分高级视频编码标准，以及针对临时可伸缩性的可扩展视频编码扩展。 为了维护与旧客户端的互操作性，RTVideo 编解码器仍用于在客户端和旧客户端Skype for Business Server对等呼叫。 在使用 Skype for Business Server 和旧客户端的会议会话中，Skype for Business Server 终结点可能同时使用视频编解码器对视频进行编码，并将 H.264 位流发送到 Skype for Business Server 客户端，将 RTVideo 比特流发送到旧客户端。
 
 所需的带宽取决于分辨率、质量、帧速率以及图片中的运动或更改量。 对于每个分辨率，都有两个相关的比特率：
 
@@ -184,7 +184,7 @@ Skype for Business Server支持许多分辨率。 这样，Skype for Business Se
 
 - 如果使用视频，则所有参与者最多将收到 5 个接收视频流和 1 个全景（例如，纵横比 20:3）视频流。 默认情况下，5 个接收视频流是基于当前发言人历史记录的，但用户还可手动选择要从其接收视频流的参与者。 如果启用多视频，则每个视频流的分辨率和带宽要求将更低。
 
-- 打开用户发送视频流的每个参与者将发送一个或多个视频流。 Skype for Business Server发送最多五个视频流，从而优化所有接收客户端的视频质量。 将发送的视频流的实际数量由发送方根据 CPU 容量、可用上行链路带宽和请求特定视频流的接收客户端的数量确定。 最常见的情况是，在旧客户端加入会议的情况下发送 1 个 H.264 和 1 个 RTVideo 视频流。 另一常见方案是，发送若干 H.264 视频流（例如，使用不同视频分辨率）以适应不同的接收方请求。
+- 打开用户发送视频流的每个参与者将发送一个或多个视频流。 Skype for Business Server发送最多五个视频流，以优化所有接收客户端的视频质量。 将发送的视频流的实际数量由发送方根据 CPU 容量、可用上行链路带宽和请求特定视频流的接收客户端的数量确定。 最常见的情况是，在旧客户端加入会议的情况下发送 1 个 H.264 和 1 个 RTVideo 视频流。 另一常见方案是，发送若干 H.264 视频流（例如，使用不同视频分辨率）以适应不同的接收方请求。
 
 除音频和视频媒体的实时传输协议 (RTP) 流量所需的带宽之外，实时传输控制协议 (RTCP) 也需要带宽。 RTCP 用于报告 RTP 流的统计信息和带外控制。 规划时，请使用下表中的带宽数值规划 RTCP 流量。 这些值表示用于 RTCP 的最大带宽，并且因控制数据不同而不同用于音频和视频流
 
@@ -233,7 +233,7 @@ Skype for Business Server支持许多分辨率。 这样，Skype for Business Se
 
 2. 如果有多个流，则动态共享分配的带宽。
 
-对于主视频，典型流带宽是所有接收的视频流的聚合带宽，最大流是所有发送视频流的带宽。 即使具有多个视频流，典型视频带宽也小于对等方案，因为许多视频会议使用的内容共享导致视频窗口更小，因此视频分辨率更小。 对于发送和接收流，支持的最大聚合视频负载带宽为 8000 Kbps，这两个流将 (例如，如果有两个传入的 1920x1080p 视频流) 。 在实际实现中，最大值很少看到。
+对于主视频，典型流带宽是所有接收的视频流的聚合带宽，最大流是所有发送视频流的带宽。 即使具有多个视频流，典型视频带宽也小于对等方案，因为许多视频会议使用的内容共享导致视频窗口更小，因此视频分辨率更小。 对于发送和接收流，支持的最大聚合视频负载带宽为 8000 Kbps，例如，如果有两个传入的 1920x1080p 视频流 (则使用) 。 在实际实现中，最大值很少看到。
 
 构建使用库视图功能的多部分会议时，带宽利用率最初会随着参与者加入而增加，然后随着分辨率的降低而降低，以适应最大值。
 
@@ -249,7 +249,7 @@ Skype for Business Server支持许多分辨率。 这样，Skype for Business Se
 
 |**Media**|**典型的编解码器**|**典型流带宽 (Kbps)**|**不使用 FEC 的最大流带宽**|**使用 FEC 的最大流带宽**|
 |:-----|:-----|:-----|:-----|:-----|
-|音频  <br/> |G.711 (这包括 PSTN 参与者参加)   <br/> |64.8  <br/> |97  <br/> |161  <br/> |
+|音频  <br/> |G.711 (包括 PSTN 参与者参加)   <br/> |64.8  <br/> |97  <br/> |161  <br/> |
 |音频  <br/> |RTAudio 窄带  <br/> |30.9  <br/> |44.8  <br/> |56.6  <br/> |
 
 这些表中的网络带宽数值仅代表单向流量，其中包括分配给每个流的 5 Kbps 的 RTCP 流量开销。
@@ -257,7 +257,7 @@ Skype for Business Server支持许多分辨率。 这样，Skype for Business Se
 ## <a name="managing-quality-of-service"></a>管理服务质量
 <a name="man_QOS"> </a>
 
-QoS (QoS) 是一种网络技术，在某些组织中用于帮助为音频和视频通信提供最佳最终用户体验。 QoS 最常用于带宽受限的网络：由于大量网络数据包与相当少的可用带宽竞争，因此利用 QoS，管理员可以为包含音频或视频数据的数据包分配更高的优先级。 通过为这些数据包提供更高的优先级，与涉及文件传输、Web 浏览或数据库备份等内容的网络会话相比，音频和视频通信完成速度更快且中断更少。 这是因为用于文件传输或数据库备份的网络数据包分配有"最佳"优先级。
+服务质量 (QoS) 是一种网络技术，在某些组织中用于帮助为音频和视频通信提供最佳最终用户体验。 QoS 最常用于带宽受限的网络：由于大量网络数据包与相当少的可用带宽竞争，因此利用 QoS，管理员可以为包含音频或视频数据的数据包分配更高的优先级。 通过为这些数据包提供更高的优先级，与涉及文件传输、Web 浏览或数据库备份等内容的网络会话相比，音频和视频通信完成速度更快且中断更少。 这是因为用于文件传输或数据库备份的网络数据包分配有"最佳"优先级。
 
 > [!NOTE]
 > 一般来说，QoS 仅适用于内部网络的通信会话。 实施 QoS 时，配置服务器和路由器以支持在 Internet 或其他网络上可能不受支持的特定方式的数据包标记。 即使服务质量在其他网络上受支持，也不能保证 QoS 的配置方式与配置该服务的方式完全相同。 如果你使用的是 MPLS，则需要与 MPLS 提供商合作。
@@ -272,13 +272,13 @@ Skype for Business Server QoS 的完全支持：这意味着已使用 QoS 的组
 
 - [为边缘服务器配置端口范围和服务质量策略](../../manage/network-management/qos/configuring-port-ranges-for-your-edge-servers.md)。 虽然不需要，但是可以将您的边缘服务器配置为与其他服务器使用相同的端口范围。 仅为边缘服务器的内部端配置 QoS 策略。 这是因为 QoS 设计用于内部网络而不是 Internet。
 
-- 在 Skype for Business Server 中为客户端配置端口[范围和服务质量Skype for Business Server。](../../manage/network-management/qos/configuring-port-ranges-for-your-skype-clients.md) 这些端口范围仅适用于客户端计算机，并且通常不同于服务器上配置的端口范围。 请注意，Skype for Business Server不支持 QoS Windows操作系统，而不支持 Windows 10。
+- 在 Skype for Business Server 中为客户端配置端口[范围和服务质量Skype for Business Server。](../../manage/network-management/qos/configuring-port-ranges-for-your-skype-clients.md) 这些端口范围仅适用于客户端计算机，并且通常不同于服务器上配置的端口范围。 请注意，Skype for Business Server不支持 QoS 用于 Windows 操作系统，而不支持 Windows 10。
 
 
 > [!NOTE]
-> 如果你使用的是 Windows Server 2012 或 Windows Server 2012 R2，你可能对可用于管理该平台上的 QoS 的新 Windows PowerShell cmdlet 集感兴趣。 有关详细信息，请参阅Windows PowerShell [Cmdlet。](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj717268(v=ws.11))
+> 如果你使用的是 Windows Server 2012 或 Windows Server 2012 R2，你可能对可用于管理该平台上的 QoS 的新 Windows PowerShell cmdlet 集感兴趣。 有关详细信息，请参阅适用于Windows PowerShell [Cmdlet。](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj717268(v=ws.11))
 
-在白皮书 Lync [Server](https://www.microsoft.com/download/details.aspx?id=39084) 的网络规划、监控和疑难解答中也讨论了 QoS，并提供了其他详细信息和深度。 虽然内容明确引用了 Lync 2010 和 Lync 2013，但Skype for Business Server保持不变。
+在白皮书 Lync [Server](https://www.microsoft.com/download/details.aspx?id=39084) 的网络规划、监控和疑难解答中也讨论了 QoS，并提供了其他详细信息和深度。 虽然内容明确引用了 Lync 2010 和 Lync 2013，但Skype for Business Server注意事项保持不变。
 
 ## <a name="see-also"></a>另请参阅
 <a name="man_QOS"> </a>

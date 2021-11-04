@@ -1,7 +1,7 @@
 ---
 title: 在站点部署网络区域、站点和Skype for Business
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,22 +16,22 @@ ms.collection:
 ms.custom: ''
 ms.assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
 description: 创建或修改网络区域、网络站点，并关联网络Skype for Business Server。 所有这些功能都用于高级企业语音功能：媒体旁路、呼叫允许控制和基于位置的路由。
-ms.openlocfilehash: 5c9105dd49afaaeeba1925859357b801cb252cb4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 72c8fcf9bbdeb50df5806a0a8c020fcec4bb0022
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604251"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60738908"
 ---
 # <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business"></a>在站点部署网络区域、站点和Skype for Business
 
 创建或修改网络区域、网络站点，并关联网络Skype for Business Server。 所有这些功能都用于高级企业语音功能：媒体旁路、呼叫允许控制和基于位置的路由。
 
-高级企业语音包括[呼叫允许](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)控制、[媒体旁](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)路、基于位置的[路由](../../plan-your-deployment/enterprise-voice-solution/location-based-routing.md)和[E9-1-1。](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md) 这些功能都要求创建网络区域、网络站点和子网。 例如，所有这些功能都要求拓扑中的每个子网与特定网络站点关联，并且每个网络站点必须与一个网络区域关联。 有关这些术语详细信息，请参阅 network [settings for the advanced 企业语音 features in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md)。
+高级企业语音包括[呼叫允许](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)控制、[媒体旁](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)路、基于位置的[路由](../../plan-your-deployment/enterprise-voice-solution/location-based-routing.md)和[E9-1-1。](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md) 这些功能都要求你创建网络区域、网络站点和子网。 例如，所有这些功能都要求拓扑中的每个子网与特定网络站点关联，并且每个网络站点必须与一个网络区域关联。 有关这些术语详细信息，请参阅 network [settings for the advanced 企业语音 features in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md)。
 
 呼叫允许控制和 E9-1-1 对网络站点具有其他配置要求：
 
-- 呼叫允许控制要求为由 WAN 带宽限制限定的每个站点指定带宽策略配置文件。 如果计划部署呼叫允许控制，则必须在部署网络[](create-bandwidth-policy-profiles.md)站点Skype for Business Server创建带宽策略配置文件。
+- 呼叫允许控制要求为由 WAN 带宽限制限定的每个站点指定带宽策略配置文件。 如果计划部署呼叫允许控制，则必须在部署网络[](create-bandwidth-policy-profiles.md)站点之前Skype for Business Server创建带宽策略配置文件。
 
 - E9-1-1 要求为每个站点指定位置策略。 如果计划部署 E9-1-1，则必须在部署[](create-location-policies.md)网络站点Skype for Business Server创建位置策略。
 
@@ -97,7 +97,7 @@ ms.locfileid: "58604251"
    Set-CsNetworkRegion -Identity NorthAmerica -CentralSite CHICAGO -Description "North American Region"
    ```
 
-    在此示例中，您修改了一个称为"NorthAmerica"的现有网络区域 (使用本主题前面介绍的过程通过更改) 创建的区域。 如果"NorthAmerica"区域存在说明，此命令会用此值覆盖它;如果尚未设置说明，则此命令将设置它。
+    在此例中，您修改了一个称为"NorthAmerica"的现有网络区域 (通过更改说明，使用本主题前面) 创建的网络区域。 如果"NorthAmerica"区域存在说明，此命令会用此值覆盖它;如果尚未设置说明，则此命令将设置它。
 
 3. 要修改其他网络区域，请使用其他区域的设置重复步骤 2。
 
@@ -121,7 +121,7 @@ ms.locfileid: "58604251"
 
 ## <a name="create-or-modify-a-network-site"></a>创建或修改网络站点
 
-如果已针对这些功能之一创建了网络站点，则无需创建新的网络站点;其他高级企业语音功能将使用相同的网络站点。 但是，可能需要修改现有的网络站点定义来应用特定于功能的设置。 例如，如果已为 E9-1-1 创建网络站点，则需要在部署呼叫允许控制的过程中修改该网络站点，以便应用带宽策略配置文件。
+如果已经为这些功能之一创建了网络站点，则无需创建新的网络站点;其他高级企业语音功能将使用相同的网络站点。 但是，可能需要修改现有的网络站点定义来应用特定于功能的设置。 例如，如果已为 E9-1-1 创建网络站点，则需要在部署呼叫允许控制的过程中修改该网络站点，以便应用带宽策略配置文件。
 
 ### <a name="to-create-a-network-site-by-using-skype-for-business-server-management-shell"></a>使用命令行管理程序创建Skype for Business Server站点
 
@@ -220,7 +220,7 @@ ms.locfileid: "58604251"
 ## <a name="associate-a-subnet-with-a-network-site"></a>将子网与网络站点关联
 <a name="BKMK_AssociateSubnets"> </a>
 
-网络内每个子网都必须与特定网络站点关联，因为子网信息用于确定启动新会话时终结点所在的网络站点。 当会话每一方的位置已知时，高级企业语音功能可以应用该信息来确定如何处理呼叫设置或路由。
+网络内每个子网都必须与特定网络站点关联，因为子网信息用于确定启动新会话时终结点所在的网络站点。 当会话每一方的位置已知时，高级 企业语音 功能可以应用该信息来确定如何处理呼叫设置或路由。
 
 必须将部署中音频/视频边缘服务器的所有已配置公共 IP 地址添加到网络配置设置中。 这些 IP 地址是作为掩码为 32 的子网进行添加的。 关联的网络站点应与相应的已配置网络站点相对应。 例如，与中央站点芝加哥的 A/V 边缘服务对应的公用 IP 地址是 NetworkSiteID Chicago。
 
@@ -283,7 +283,7 @@ ms.locfileid: "58604251"
 7. 单击“网络站点 ID”，然后选择要向其中添加此子网的站点的站点 ID。
 
     > [!NOTE]
-    > 如果尚未创建网络站点，该列表将为空。 有关过程的详细信息，请参阅[Create or Modify a Network Site](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-network-site)。 还可以通过运行 **Get-CsNetworkSite** cmdlet 检索部署的站点 ID。 有关详细信息，请参阅 Skype for Business Server命令行管理程序文档。
+    > 如果尚未创建网络站点，该列表将为空。 有关过程的详细信息，请参阅[Create or Modify a Network Site](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-network-site)。 还可以通过运行 **Get-CsNetworkSite** cmdlet 检索部署的站点 ID。 有关详细信息，请参阅命令行Skype for Business Server命令行管理程序文档。
 
 8. （可选）单击“说明”，然后键入其他信息来说明此子网。
 
