@@ -1,7 +1,7 @@
 ---
 title: 在 Skype for Business Server 2015 中配置持久聊天服务器选项
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/28/2016
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 19ced8de-8867-4152-b38a-891f3bc2a5ea
 description: 摘要：了解如何在 2015 年 2 月配置全局、站点或池级别的持久聊天Skype for Business Server选项。
-ms.openlocfilehash: 73ed46368041cab611576f4d8fadb9b586165dfc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 76ad47a45f8883064b712107ec54b20939437dcb
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620108"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751311"
 ---
 # <a name="configure-persistent-chat-server-options-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中配置持久聊天服务器选项
  
@@ -35,7 +35,7 @@ ms.locfileid: "58620108"
 - 聊天室管理 URL。 用于自定义聊天室管理的 URL。 该设置允许使用自定义聊天室管理解决方案。 
    
 > [!NOTE] 
-> 持久聊天在 Skype for Business Server 2015 中可用，但在 2019 年 2 Skype for Business Server不再受支持。 相同的功能在 Teams 中可用。 有关详细信息，请参阅[开始升级Microsoft Teams升级](/microsoftteams/upgrade-start-here)。 如果您需要使用持久聊天，您的选择是迁移需要此功能的用户以Teams或继续使用 Skype for Business Server 2015。
+> 持久聊天在 2015 Skype for Business Server可用，但在 2019 年 2 月不再Skype for Business Server支持。 相同的功能在 Teams 中可用。 有关详细信息，请参阅开始[升级Microsoft Teams升级](/microsoftteams/upgrade-start-here)。 如果您需要使用持久聊天，您的选择是迁移需要此功能的用户以Teams或继续使用 Skype for Business Server 2015。
  
 ## <a name="configure-persistent-chat-server-global-options"></a>配置持久聊天服务器全局选项
 
@@ -69,7 +69,7 @@ ms.locfileid: "58620108"
     
    -  (Optional.) 在 **"聊天室管理 URL"中**，选择聊天室管理 URL。 这是基于 Web 的自定义聊天室管理的 URL。 如果不需要自定义聊天室管理，而只需使用默认设置，则保留此选项为空。 在设置该 URL 后，它将应用为内部和外部聊天室管理 URL。
     
-     如果要自定义聊天室创建体验并包括特定的业务工作流，可以使用持久聊天服务器软件开发工具包 (SDK) 构建自定义聊天室管理解决方案，在某处托管它，并在此处添加 URL。 此 URL 将被发送给客户端，以便用户尝试查看/创建聊天室时将被指引到您的自定义聊天室管理解决方案。
+     如果您想自定义聊天室创建体验并包括您的特定业务工作流，您可以使用持久聊天服务器软件开发工具包 (SDK) 构建一个自定义聊天室管理解决方案，在某处承载该解决方案，然后在此处添加 URL。 此 URL 将被发送给客户端，以便用户尝试查看/创建聊天室时将被指引到您的自定义聊天室管理解决方案。
     
 7. 单击“提交”。
     
@@ -102,7 +102,7 @@ ms.locfileid: "58620108"
     
    - 在“聊天室管理 URL”中，选择聊天室管理 URL。 这是基于 Web 的聊天室管理部署的 URL。 如果不需要自定义聊天室管理，而只需使用默认设置，则保留此选项为空。
     
-     如果要自定义聊天室创建体验并包括特定的业务工作流，可以使用持久聊天服务器软件开发工具包 (SDK) 构建自定义聊天室管理解决方案，在某处托管它，并在此处添加 URL。 此 URL 将被发送给客户端，以便用户在尝试查看/创建聊天室时将被定向到您的自定义聊天室管理解决方案。
+     如果您想自定义聊天室创建体验并包括您的特定业务工作流，您可以使用持久聊天服务器软件开发工具包 (SDK) 构建一个自定义聊天室管理解决方案，在某处承载该解决方案，然后在此处添加 URL。 此 URL 将被发送给客户端，以便用户在尝试查看/创建聊天室时将被定向到您的自定义聊天室管理解决方案。
     
 7. 单击“提交”。
     

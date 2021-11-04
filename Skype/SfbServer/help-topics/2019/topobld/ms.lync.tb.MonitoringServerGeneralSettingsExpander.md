@@ -1,7 +1,7 @@
 ---
 title: 监控服务器常规设置扩展器
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: b45e4b2f-a6e8-4919-979e-1ba74fd46028
 ROBOTS: NOINDEX, NOFOLLOW
 description: 在拓扑生成器中，可以编辑单个监控服务器的属性，方法是右键单击控制台树中的监控服务器，然后单击工具栏中的"操作"，或者单击"操作"窗格中的任务，然后单击"编辑属性"，并更改以下任一选项：
-ms.openlocfilehash: 0b3aec1737d4b36a05ca8f0c01f41cce686f386f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3f4238d253207e2dca28154bc50fc7d806e53c57
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618058"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750711"
 ---
 # <a name="monitoring-server-general-settings-expander"></a>监控服务器常规设置扩展器
  

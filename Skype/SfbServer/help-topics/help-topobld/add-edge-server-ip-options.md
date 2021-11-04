@@ -1,7 +1,7 @@
 ---
 title: 添加边缘服务器 IP 选项
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: f458287f-e7a5-45f2-8393-3e1377be81d9
 description: Microsoft Lync Server 2013 允许您为边缘服务器和边缘池的每个接口配置 IPv4 和 IPv6 地址。 为此，请执行以下操作：
-ms.openlocfilehash: e43bfbdd7ce15e1f93316b46e5a4ee7794f9731c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b26fdd7dccca93f04c5fa5d9ee40e644143f8f9c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630896"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60776372"
 ---
 # <a name="add-edge-server-ip-options"></a>添加边缘服务器 IP 选项
  

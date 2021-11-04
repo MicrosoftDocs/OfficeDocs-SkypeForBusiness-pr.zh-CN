@@ -1,7 +1,7 @@
 ---
 title: '控制器 (规划工具) '
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 ms.assetid: 02795b46-21ec-4a85-9890-959c91d97df3
 ROBOTS: NOINDEX, NOFOLLOW
 description: 控制器是运行通信Skype for Business Server的服务器，可以对用户请求进行身份验证，但不管理任何用户帐户。
-ms.openlocfilehash: 26a6e7e0807f29622214d733b1d848180a3e437c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c8aa280fec1d7b3d57edd0027ebad4cbdb909827
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597136"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750901"
 ---
 # <a name="director-planning-tool"></a>控制器 (规划工具) 
  

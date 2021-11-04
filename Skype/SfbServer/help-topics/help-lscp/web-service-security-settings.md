@@ -1,7 +1,7 @@
 ---
 title: Web 服务安全设置
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4ea30583-e5bd-4498-9bd8-38604c61e658
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: 2dc085f01d69ef4330345c5b290729d4e950342f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: dc5eb9d59c62c6ca7351b105a6ee67bc8512f52d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634516"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746318"
 ---
 # <a name="web-service-security-settings"></a>Web 服务安全设置
 

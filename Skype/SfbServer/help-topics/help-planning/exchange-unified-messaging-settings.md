@@ -1,7 +1,7 @@
 ---
 title: Skype for Business Server Exchange统一消息设置规划工具
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 12/20/2018
@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: d4c4a5d9-1523-49ff-b994-882b037ed46f
 description: Skype for Business Server与统一Exchange集成，以将语音邮件和电子邮件合并到单个邮件基础结构中。
-ms.openlocfilehash: 1bda2e8506836e20b84016f2cd5d0fdea4a13b84
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4e4641d405996a733cc5b77a238fe9d6134262fe
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633706"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746088"
 ---
 # <a name="skype-for-business-server-exchange-unified-messaging-settings-planning-tool"></a>Skype for Business Server Exchange统一消息设置规划工具
 

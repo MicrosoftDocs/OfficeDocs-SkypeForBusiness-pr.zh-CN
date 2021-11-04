@@ -1,7 +1,7 @@
 ---
 title: 管理 SIP 中继服务提供商在Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d9b33b56-66c2-4dee-b056-faaf98925bf2
 description: 规划使用 SIP 中继提供商的 E9-1-1 部署的位置信息数据库或类似外部数据库所必需的决策Skype for Business Server 企业语音。
-ms.openlocfilehash: add2bc3ffea29d6fb61db84b899d3e39ef50fd02
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4bc74933623f1a435288246ac695c9545c8606d1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602427"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751541"
 ---
 # <a name="manage-locations-for-sip-trunk-service-providers-in-skype-for-business-server"></a>管理 SIP 中继服务提供商在Skype for Business Server
 
@@ -29,7 +29,7 @@ ms.locfileid: "58602427"
 
 若要将 Skype for Business Server配置为自动定位网络内的客户端，您需要使用网络线路映射填充位置信息服务数据库并发布位置，或链接到已包含正确映射的外部数据库。 作为此过程的一部分，您需要使用 E9-1-1 服务提供商验证位置的市政地址。 有关详细信息，请参阅[部署文档中的 Configure the Location Database。](/previous-versions/office/lync-server-2013/lync-server-2013-configure-the-location-database)
 
-You populate the Location Information service database with an Emergency Response Location (ERL) ， which consists of a civic address and the specific address within a building. 位置信息服务 **位置** 字段是建筑物内的特定位置，最大长度为 20 个字符， (包括空格) 。 在该有限的长度内，请尝试包括以下内容：
+You populate the Location Information service database with an Emergency Response Location (ERL) ， which consists of a civic address and the specific address within a building. 位置信息服务 **位置** 字段是建筑物内的特定位置，最大长度为 20 个字符， (空格) 。 在该有限的长度内，请尝试包括以下内容：
 
 - 一个易于理解的、指示 911 呼叫者的位置的名称，以帮助确保紧急响应者到达市政地址后能够迅速找到具体位置。此位置名称可能包括楼号、楼层数、侧楼标识、房间号码等等。应避免使用仅员工知晓的昵称，这样可能导致紧急响应者找错位置。
 

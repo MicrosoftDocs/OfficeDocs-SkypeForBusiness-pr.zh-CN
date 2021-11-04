@@ -1,7 +1,7 @@
 ---
 title: 添加前端服务器并置 2010
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4d328bf4-85bc-4870-8d6f-008c0e46520e
 description: 对于 Enterprise Edition 部署，可以将 A/V 会议服务、中介服务器或这两者并置在前端池上，也可以将其分别部署为独立的服务器。对于 Standard Edition Server 部署，如果启用会议，则将始终并置 A/V 会议服务。
-ms.openlocfilehash: c0efab1ee8b388a7d8dfa710c8937f314e83721e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4abf3d4a762ed14d95b7e9f1a4964b50c77a2884
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626644"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60744243"
 ---
 # <a name="add-front-end-server-collocations-2010"></a>添加前端服务器并置 2010
 
@@ -37,4 +37,4 @@ ms.locfileid: "58626644"
 
 可以使用 Microsoft Lync Server 2013 规划工具评估要并并中介服务器的前端池是否可以处理负载。 如果您的环境不能满足这些要求，则必须部署独立的中介服务器池。
 
-通常，如果组织具有高可用性和可伸缩性要求，则不建议并置 A/V 会议服务器或中介服务器。有关在 Enterprise Edition 部署中的前端池中并置这些服务器角色的详细信息，请参阅部署文档中的 Define and [Configure a Front End Pool。](/previous-versions/office/lync-server-2013/lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server) 有关 A/V 会议功能和组件的详细信息，请参阅规划文档中的[Planning for Conferencing](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-conferencing)。 有关中介企业语音组件的详细信息，请参阅规划文档中的 Plan [for 企业语音 in Skype for Business Server 2015。](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
+通常，如果组织具有高可用性和可伸缩性要求，则不建议并置 A/V 会议服务器或中介服务器。有关在 Enterprise Edition 部署中的前端池中并置这些服务器角色的详细信息，请参阅部署文档中的 Define and [Configure a Front End Pool。](/previous-versions/office/lync-server-2013/lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server) 有关 A/V 会议功能和组件的详细信息，请参阅规划文档中的[Planning for Conferencing](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-conferencing)。 有关中介企业语音和组件的详细信息，请参阅规划文档中的 Plan for[企业语音 in Skype for Business Server 2015。](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)

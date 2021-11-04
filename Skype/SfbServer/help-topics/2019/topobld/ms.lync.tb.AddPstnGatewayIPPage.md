@@ -1,7 +1,7 @@
 ---
 title: 定义 IP 或 PSTN 网关的 IP 地址
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 319fdc9f-7ed6-4ed3-8f3f-b78758a0eb42
 ROBOTS: NOINDEX, NOFOLLOW
 description: 通过选择“启用 IPv4”或“启用 IPv6”定义 IP 或电话交换电话网 (PSTN) 网关的 IPv4 或 IPv6 地址。可以选择“使用所有已配置的 IP 地址”或“将服务用途限制为所选 IP 地址”。
-ms.openlocfilehash: 03c1c26a9e320b5e783fb1d6baf2759570ab1b6d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3a88ce03cde7d4da4e4dec4959f84548ebf8288b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600467"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750751"
 ---
 # <a name="define-the-ip-address-of-the-ip-or-pstn-gateway"></a>定义 IP 或 PSTN 网关的 IP 地址
 

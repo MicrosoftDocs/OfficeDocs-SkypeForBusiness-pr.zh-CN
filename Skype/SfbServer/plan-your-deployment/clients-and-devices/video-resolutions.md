@@ -1,7 +1,7 @@
 ---
 title: Skype for Business客户端视频分辨率
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/16/2018
@@ -16,20 +16,20 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8f68f4c2-3194-487c-bd2f-fbe71ba8ad70
 description: 摘要：在规划客户端视频时查看Skype for Business Server。
-ms.openlocfilehash: 75929db21edec514865b6cdc0d48cbda9e21fbbe
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 6a483a67b298f2d1ce9a32fbcd7e89882c0598aa
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014726"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745878"
 ---
 # <a name="skype-for-business-client-video-resolutions"></a>Skype for Business客户端视频分辨率
  
 **摘要：** 在规划客户端视频要求的同时，查看Skype for Business Server。
   
-本文介绍对视频呼叫Skype for Business硬件支持，并介绍如何确定各种计算机、平板电脑和移动设备配置的预期视频质量。 
+本文介绍对视频Skype for Business支持，并介绍如何确定各种计算机、平板电脑和移动设备配置的预期视频质量。 
   
-IT 专业人员会发现此信息在评估其组织中已使用的或正在考虑使用的笔记本电脑的适用性方面非常有用。 他们还可以在Microsoft Teams[设备上](https://www.microsoft.com/microsoft-teams/across-devices/device)搜索特定设备的信息。
+IT 专业人员会发现此信息在评估其组织中已使用的或正在考虑使用的笔记本电脑的适用性方面非常有用。 他们还可以在 Microsoft Teams[设备上](https://www.microsoft.com/microsoft-teams/across-devices/device)搜索特定设备的信息。
   
 ## <a name="windows-desktop-mac-and-tablet-video-requirements-and-capabilities"></a>Windows桌面、Mac 和平板电脑视频要求和功能
 
@@ -42,8 +42,8 @@ Skype for Business H.264/MPEG-4 第 10 部分高级视频编码标准对视频�
 |**功能**|**要求**|
 |:-----|:-----|
 |使用 DirectX 视频加速 (DXVA) 的硬件加速 H.264 解码  <br/> |• 显卡必须支持 DirectX 9.0，并且必须DXVA2_ModeH264_VLD_NoFGT解码模式和 DirectX 9 API。  <br/> • 必须安装最新的显卡驱动程序。  <br/> |
-|硬件加速 H.264 编码：芯片集要求  <br/> |支持以下 Intel 硬件加速视频编码解决方案：  <br/> • 具有集成硬件视频编码器的第二代和第三代 Intel 高清显卡 2000、2500、3000 和 4000 芯片集 (或更高版本) 。 必须安装 Intel 高清显卡驱动程序 15.28.9.2884 或包含以下内容的最新驱动程序：  <br/> • 显示驱动程序 9.17.10.2884 或最新的驱动程序  <br/> • HMFT (HMFT) 3.12.10.31 或最新 HMFT 的硬件媒体基础转换  <br/> 支持以下 AMD 硬件加速视频编码解决方案：  <br/> • AMD 视频编解码器引擎，可在多个离散显卡和 AMD A 系列加速处理器的集成加速处理单元中提供。 必须安装 AMD 视频编解码器引擎驱动程序 9.12.0.0 或更高版本。  <br/> |
-|硬件加速 H.264 编码：摄像机要求  <br/> |具有符合 USB Video Class (UVC) 规格版本 1.5 的集成 H.264 硬件编码器的 USB 视频摄像机。  <br/> **注意：Skype for Business** 支持 UVC 1.5 摄像机Windows 8或Windows 8.1，包括对 UVC 1.5 的支持。 由于Windows 7 不包括对 UVC 1.5 的支持，Skype for Business将 UVC 1.5 摄像机视为没有硬件编码支持的常规相机。 <br/> |
+|硬件加速 H.264 编码：芯片集要求  <br/> |支持以下 Intel 硬件加速视频编码解决方案：  <br/> • 第二代和第三代 Intel 高清显卡 2000、2500、3000 和 4000 芯片集 (或更高版本) 集成硬件视频编码器。 必须安装 Intel 高清显卡驱动程序 15.28.9.2884 或包含以下内容的最新驱动程序：  <br/> • 显示驱动程序 9.17.10.2884 或最新的驱动程序  <br/> • HMFT (HMFT) 3.12.10.31 或最新 HMFT 的硬件媒体基础转换  <br/> 支持以下 AMD 硬件加速视频编码解决方案：  <br/> • AMD 视频编解码器引擎，可在多个离散显卡和 AMD A 系列加速处理器的集成加速处理单元中提供。 必须安装 AMD 视频编解码器引擎驱动程序 9.12.0.0 或更高版本。  <br/> |
+|硬件加速 H.264 编码：摄像机要求  <br/> |具有符合 USB Video Class (UVC) 规格版本 1.5 的集成 H.264 硬件编码器的 USB 视频摄像机。  <br/> **注意：Skype for Business** 支持 UVC 1.5 摄像机Windows 8或Windows 8.1，包括对 UVC 1.5 的支持。 由于Windows 7 不包括对 UVC 1.5 的支持，因此Skype for Business将 UVC 1.5 摄像机视为没有硬件编码支持的常规相机。 <br/> |
    
 ### <a name="determining-h264-video-encoding-and-decoding-capabilities"></a>确定 H.264 视频编码和解码功能
 
@@ -103,7 +103,7 @@ Windows 系统评估工具 (WinSAT) 确定 WEI。在运行 WinSAT 工具时，�
   
 |**功能**|**Windows Phone**|**iPhone**|**iPad**|**Android**|
 |:-----|:-----|:-----|:-----|:-----|
-|H.264 编码最大分辨率  <br/> |VGA  <br/> |QVGA：iPhone 4S  <br/> VGA：iPhone 5  <br/> 720p：iPhone 5S 及更高版本  <br/> |VGA：iPad 2 和更高版本/iPad微型 1 及更高版本  <br/> 720p：iPad Air/iPad 2/iPad Pro 及更高版本  <br/> |最多 VGA 取决于设备型号  <br/> |
-|H.264 解码最大分辨率  <br/> |VGA  <br/> |QVGA：iPhone 4S  <br/> VGA：iPhone 5  <br/> 720p：iPhone 5S 及更高版本  <br/> |VGA：iPad 2 和更高版本/iPad微型 1 及更高版本  <br/> 720p：iPad Air/iPad 2/iPad Pro 及更高版本  <br/> |最多 VGA 取决于设备型号  <br/> |
+|H.264 编码最大分辨率  <br/> |VGA  <br/> |QVGA：iPhone 4S  <br/> VGA：iPhone 5  <br/> 720p：iPhone 5S 及更高版本  <br/> |VGA：iPad 2 及更高版本/iPad微型 1 及更高版本  <br/> 720p：iPad Air/iPad mini 2/iPad Pro 及更高版本  <br/> |最多 VGA 取决于设备型号  <br/> |
+|H.264 解码最大分辨率  <br/> |VGA  <br/> |QVGA：iPhone 4S  <br/> VGA：iPhone 5  <br/> 720p：iPhone 5S 及更高版本  <br/> |VGA：iPad 2 及更高版本/iPad微型 1 及更高版本  <br/> 720p：iPad Air/iPad mini 2/iPad Pro 及更高版本  <br/> |最多 VGA 取决于设备型号  <br/> |
    
 

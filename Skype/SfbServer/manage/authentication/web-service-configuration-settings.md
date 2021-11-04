@@ -1,7 +1,7 @@
 ---
 title: 管理 Web 服务配置设置Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f3f04d81-8a1f-427f-bd0f-fb659024e096
 description: 摘要：管理 Web 服务配置设置Skype for Business Server。
-ms.openlocfilehash: 875993a006cf175432984dc78fc37a34b45e92ee
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 5311609fa1c554364f1b91ea2ddf9643840dea05
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60015166"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745998"
 ---
 # <a name="manage-web-service-configuration-settings-in-skype-for-business-server"></a>管理 Web 服务配置设置Skype for Business Server
  
@@ -100,9 +100,9 @@ ms.locfileid: "60015166"
     
 6. 单击“确定”。
     
-## <a name="deleting-web-service-configuration-settings-by-using-windows-powershell-cmdlets"></a>使用 Cmdlet 设置 Web 服务Windows PowerShell配置
+## <a name="deleting-web-service-configuration-settings-by-using-windows-powershell-cmdlets"></a>使用 cmdlet 设置 Web 服务配置Windows PowerShell Web 服务配置
 
-可以使用 Windows PowerShell **和 Remove-CsWebServiceConfiguration** cmdlet 删除 Web 服务配置设置。 还可从 Skype for Business Server Management Shell 或 Windows PowerShell 远程会话运行此 cmdlet。 有关使用远程 powerShell Windows PowerShell连接到Skype for Business Server的详细信息，请参阅 Microsoft Lync [Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 此过程在Skype for Business Server。
+可以通过使用 Windows PowerShell **和 Remove-CsWebServiceConfiguration** cmdlet 删除 Web 服务配置设置。 还可从 Skype for Business Server Management Shell 或 Windows PowerShell 远程会话运行此 cmdlet。 有关使用远程 powerShell Windows PowerShell连接到Skype for Business Server的详细信息，请参阅 Microsoft Lync [Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 此过程在Skype for Business Server。
   
 ### <a name="to-delete-a-specific-collection-of-web-service-configuration-settings"></a>删除特定的 Web 服务配置设置集合
 

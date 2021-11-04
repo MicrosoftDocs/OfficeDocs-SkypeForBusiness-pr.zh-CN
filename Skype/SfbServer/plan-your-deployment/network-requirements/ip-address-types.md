@@ -1,7 +1,7 @@
 ---
 title: 配置 IP 地址类型Skype for Business
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 17e756c0-6652-4cd5-b185-4b25929e3a42
 description: 摘要：实施 IP 地址前，请查看下面的 IP 地址Skype for Business Server。
-ms.openlocfilehash: cc091a7d075af1f0ad8c48e615baa304ec162072
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 931d0af8dd064ebec854c08442abfe573333bf8e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584956"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765220"
 ---
 # <a name="configure-ip-address-types-in-skype-for-business"></a>配置 IP 地址类型Skype for Business
 
@@ -53,7 +53,7 @@ ms.locfileid: "58584956"
    - **PSTN IP 地址**。在前端服务器上并置中介服务器时定义一个 PSTN IP 地址。该地址必须符合选择的地址类型的格式。
 
 > [!NOTE]
-> 不支持安装其他网络接口卡 (NIC) 以支持 PSTN IP 地址配置 (或因任何其他) 前端服务器上配置 PSTN IP 地址。 有关 Lync Server 2013 支持Skype for Business Server NIC 配置的详细信息，请参阅[Server hardware platforms for Lync Server 2013。](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms)
+> 不支持安装其他网络接口卡 (NIC) 以支持 PSTN IP 地址配置 (或因任何其他) 前端服务器上配置 PSTN IP 地址。 有关 Lync Server 2013 支持的 NIC Skype for Business Server的详细信息，请参阅[Server hardware platforms for Lync Server 2013。](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms)
 
 ## <a name="deploy-ip-address-types-on-a-mediation-server"></a>在中介服务器上部署 IP 地址类型
 

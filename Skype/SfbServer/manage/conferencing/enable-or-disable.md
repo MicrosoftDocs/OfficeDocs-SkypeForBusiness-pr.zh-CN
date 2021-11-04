@@ -1,7 +1,7 @@
 ---
 title: 启用或禁用电话拨入式会议Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,18 +12,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c1f7cf91-8434-42ec-b09d-7d9d01e0b357
 description: 摘要：了解如何使用控制面板或命令行管理程序在 Skype for Business Server 中启用或禁用电话拨入式Skype for Business Server。
-ms.openlocfilehash: ebdc13d94a840b3eaceb37332a6775e5d725bb9a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 45a47d411570d20273c9a3a9ace3536641157fde
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609279"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766570"
 ---
 # <a name="enable-or-disable-dial-in-conferencing-in-skype-for-business-server"></a>启用或禁用电话拨入式会议Skype for Business Server
  
 **摘要：** 了解如何使用控制面板或命令行管理程序在 Skype for Business Server 中启用或禁用电话拨入式Skype for Business Server。
   
-可以使用控制面板或命令行管理程序Skype for Business Server电话拨入式会议Skype for Business Server电话拨入式会议。
+可以使用控制面板或命令行管理程序Skype for Business Server电话拨入式Skype for Business Server会议。
   
 ## <a name="enable-or-disable-dial-in-conferencing-by-using-skype-for-business-server-control-panel"></a>使用控制面板启用或禁用Skype for Business Server电话拨入式会议
 

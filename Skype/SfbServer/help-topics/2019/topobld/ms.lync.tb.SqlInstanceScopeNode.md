@@ -1,7 +1,7 @@
 ---
 title: SQL 实例范围节点
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -14,17 +14,17 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: bd270488-ceb9-4920-bef3-ed9fe8eff36c
 ROBOTS: NOINDEX, NOFOLLOW
-description: 此节点显示此 (的完全限定域名) FQDN Microsoft SQL Server以及该服务器上 SQL Server 的实例以及使用此 SQL Server 的池或服务器。 可以执行以下操作：
-ms.openlocfilehash: 9019c2c7486ab4aa27011cb1df778f01d7625829
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 此节点显示此 (FQDN) 的完全限定域名Microsoft SQL Server以及该服务器上 SQL Server 的实例以及使用此证书的池SQL Server。 可以执行以下操作：
+ms.openlocfilehash: e863b2dd4972eab75f0bfa1d012ff403a3dbc6fa
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626814"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750631"
 ---
 # <a name="sql-instance-scope-node"></a>SQL 实例范围节点
  
-此节点显示此 (的完全限定域名) FQDN Microsoft SQL Server以及该服务器上 SQL Server 的实例以及使用此 SQL Server 的池或服务器。 可以执行以下操作：
+此节点显示此 (FQDN) 的完全限定域名Microsoft SQL Server以及该服务器上 SQL Server 的实例以及使用此证书的池SQL Server。 可以执行以下操作：
   
 - **编辑属性**。 打开此服务器的"编辑属性"页，其中可以更改服务器 (（如果拓扑尚未发布) ）和要使用的 SQL Server 实例。
     

@@ -1,7 +1,7 @@
 ---
 title: Lync Server 2010 分支机构设备常规设置扩展器
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/26/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4a41754a-4653-4845-afb6-4a74b2edfeb4
 description: 若要编辑 Survivable Branch Appliance 或 Survivable Branch Server 的属性，在"常规"下，配置：
-ms.openlocfilehash: 0a0451084067d31c6fc3f45ddd7b8e64a950c32f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f43d0e2cc5a68d8e25143c043aab8ac8faf8bba3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605121"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751941"
 ---
 # <a name="branch-office-appliance-general-settings-expander-for-lync-server-2010"></a>Lync Server 2010 分支机构设备常规设置扩展器
  

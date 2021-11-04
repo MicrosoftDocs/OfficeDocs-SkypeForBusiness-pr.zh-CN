@@ -1,7 +1,7 @@
 ---
 title: 将文件存储数据移动到文件存储中的新Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
 ROBOTS: NOINDEX, NOFOLLOW
 description: 如果需要删除当前充当 Skype for Business Server 部署的文件存储的文件服务器，或者需要进行其他会使当前文件存储不可用的更改，则首先需要创建新的共享。 然后，您需要执行以下步骤：
-ms.openlocfilehash: 423bd9e96658612c46ae5931a1393ceaee391477
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 82916786bfe6fd3f780b409a697320daf8adfbec
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622744"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750891"
 ---
 # <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server"></a>将文件存储数据移动到文件存储中的新Skype for Business Server
 
@@ -54,7 +54,7 @@ ms.locfileid: "58622744"
 
 9. 在 **"编辑属性"** 中的 **"关联"下的**"**文件存储"下**，单击"**新建"。**
 
-10. 在 **"定义新文件** 存储"中的"文件服务器 **FQDN"** 下，键入文件 (FQDN) 的完全限定域名。 在 **"文件共享**"下，键入新文件共享的文件夹名称，然后单击"确定 **"。**
+10. 在 **"定义新** 文件存储"中的"文件服务器 **FQDN"** 下，键入文件 (FQDN) 的完全限定域名。 在 **"文件共享**"下，键入新文件共享的文件夹名称，然后单击"确定 **"。**
 
      > [!IMPORTANT]
      > 此步骤定义用于拓扑生成器的新文件存储。 只定义一次，而不是为每个服务器定义一次。 在发布拓扑之前，您必须在定义的文件服务器上创建定义的文件存储。 有关详细信息，请参阅[Define the File Store for the Front End](/previous-versions/office/communications/gg133895(v=ocs.14))。
@@ -67,7 +67,7 @@ ms.locfileid: "58622744"
 
 14. 发布拓扑，检查复制状态，然后根据需要Skype for Business Server部署向导。 有关详细信息，请参阅[Common Procedures for Removing Lync Servers and Components](/previous-versions/office/skype-server-2010/gg195688(v=ocs.14))。
 
-15. 启动命令提示符：单击 **"开始"，** 单击 **"运行**"，然后键入cmd.exe。
+15. 启动命令提示符：单击 **"开始"，** 单击" **运行**"，然后键入cmd.exe。
 
 16. 在命令行中键入：
 

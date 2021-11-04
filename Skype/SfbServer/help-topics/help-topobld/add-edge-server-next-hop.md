@@ -1,7 +1,7 @@
 ---
 title: 添加边缘服务器下一跃点
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 8ef7235d-626c-4cc9-b6ec-9dfeab495cc0
 description: 边缘池的下一个跃点是前端池（既可以是 Enterprise 池也可以是 Standard Edition Server），或者如果部署中包括控制器，则下一个跃点是控制器。
-ms.openlocfilehash: e629df03bd9ee7d495ac3bdde8bb2f89eb9bc175
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c7554e517d8cf70fc225930c41fe9819504b4c4a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615828"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60776342"
 ---
 # <a name="add-edge-server-next-hop"></a>添加边缘服务器下一跃点
 

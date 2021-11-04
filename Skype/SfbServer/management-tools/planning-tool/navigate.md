@@ -1,7 +1,7 @@
 ---
 title: 在 Skype for Business Server 2015 中导航规划工具
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/5/2016
@@ -13,17 +13,17 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 01d28e07-7fdc-41f9-9b6d-75dad8c14f6a
-description: You navigate the Skype for Business Server Skype for Business Server Planning Tool by using a combination of a toolbar， page-specific buttons and links， and context-specific panes. 特定于上下文的窗格提供与特定页面上的选择选项相关的规划和容量的设计信息。
-ms.openlocfilehash: 37a5a3e9ba2934422ef9a89ef7c0cb3df25f1a4a
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: 您可以结合使用工具栏、特定于页面的按钮和链接以及特定于上下文的窗格，导航 Skype for Business Server 2015 规划工具。 特定于上下文的窗格提供与特定页面上的选择选项相关的规划和容量的设计信息。
+ms.openlocfilehash: 6601b4830c1bee071ea5ad7e9dbaaa533d7d761a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725701"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751591"
 ---
 # <a name="navigate-the-planning-tool-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中导航规划工具
 
-You navigate the Skype for Business Server Skype for Business Server Planning Tool by using a combination of a toolbar， page-specific buttons and links， and context-specific panes. 特定于上下文的窗格提供与特定页面上的选择选项相关的规划和容量的设计信息。
+您可以结合使用工具栏、特定于页面的按钮和链接以及特定于上下文的窗格，导航 Skype for Business Server 2015 规划工具。 特定于上下文的窗格提供与特定页面上的选择选项相关的规划和容量的设计信息。
 
 在启动规划工具时，设计人员首先会看到"欢迎使用 **规划工具 2015 Skype for Business Server"** 页。
 
@@ -35,7 +35,7 @@ You navigate the Skype for Business Server Skype for Business Server Planning To
 
 ![规划工具工具栏。](../../media/Planning_Tool_Toolbar_Annotated.jpg)
 
-规划工具的左侧有一个"外部链接"部分。 在此处，设计师可轻松访问规划和部署信息，以及其他技术资源（如培训、技术博客、论坛及其他可下载的资源）。 此外，"外部链接"部分是指向 Skype for Business Server 2015 规划工具团队的反馈链接。
+规划工具的左侧有一个"外部链接"部分。 在此处，设计师可轻松访问规划和部署信息，以及其他技术资源（如培训、技术博客、论坛及其他可下载的资源）。 此外，"外部链接"部分还包括指向 Skype for Business Server 2015 规划工具团队的反馈链接。
 
 !["规划工具外部链接"对话框。](../../media/Planning_Tool_External_Links_Dialog.jpg)
 
@@ -47,7 +47,7 @@ You navigate the Skype for Business Server Skype for Business Server Planning To
 
 ## <a name="see-also"></a>另请参阅
 
-[为 Skype for Business Server 2015 创建初始拓扑设计](create-the-initial-design.md)
+[为 2015 Skype for Business Server拓扑设计](create-the-initial-design.md)
 
 [编辑设计](/previous-versions/office/lync-server-2013/lync-server-2013-editing-the-design)
 

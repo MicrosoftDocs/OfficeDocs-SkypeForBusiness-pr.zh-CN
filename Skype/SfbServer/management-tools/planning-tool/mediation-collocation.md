@@ -1,7 +1,7 @@
 ---
 title: 中介并置规划工具
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/8/2016
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 5ddc2ad3-9275-408a-a0ab-cc7a2c2d2fdc
 description: 默认情况下，中介服务器与前端服务器并排。 出于性能原因，还可以在独立池中部署中介服务器，或者如果部署 SIP 中继（在这种情况下，建议使用独立池）。 与 Lync Server 2013 Skype for Business Server一样，Skype for Business Server并置功能。 有关详细信息，请参阅下列主题：
-ms.openlocfilehash: 7f2bb68a4369e82fe6ffdf6d095e17b2ae8c0d27
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cb21f4bc47184c056d77d10131ab08f2e6d8ae69
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581346"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765300"
 ---
 # <a name="mediation-collocation-planning-tool"></a>中介并置规划工具
  

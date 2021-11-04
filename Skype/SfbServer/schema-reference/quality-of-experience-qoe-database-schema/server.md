@@ -1,7 +1,7 @@
 ---
 title: 服务器表
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9af89d08-d35a-48e8-b56d-6df292f973cc
 description: Server 表是一个支持表。每个记录表示一台服务器。
-ms.openlocfilehash: 5e8173236122c6127c9e741700a5f0200c311eee
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e2a1007afa545a5b70b60f0e22f69826daebcda0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593356"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60776032"
 ---
 # <a name="server-table"></a>服务器表
  
 Server 表是一个支持表。每个记录表示一台服务器。 
   
-|**列**|**数据类型**|**键/索引**|**Details**|
+|**列**|**数据类型**|**键/索引**|**详细信息**|
 |:-----|:-----|:-----|:-----|
 |**ServerKey** <br/> |int  <br/> |主  <br/> |标识服务器的唯一编号。  <br/> |
 |**FQDNOrIP** <br/> |nvarchar (256)   <br/> |index  <br/> |MAC 地址字符串。  <br/> |

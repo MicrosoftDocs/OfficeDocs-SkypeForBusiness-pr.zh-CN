@@ -1,7 +1,7 @@
 ---
 title: 获取项目上级
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d39b1dbc-1514-43ec-8593-9f23b3fcae62
 description: 摘要：了解作为项目服务的一部分的"获取项目上级"操作。 项目服务是通话质量仪表板存储库 API 的一部分。 通话质量仪表板是一种用于Skype for Business Server。
-ms.openlocfilehash: f6977d1519b487003460e8d4eb5300fe4d98e84f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 96fae0992ed6952d36ff966a559ef74da76e2606
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633616"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765340"
 ---
 # <a name="get-item-ancestors"></a>获取项目上级
  

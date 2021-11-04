@@ -1,7 +1,7 @@
 ---
-title: 呼叫诊断报告 (中每个用户) 报告Skype for Business Server
+title: 呼叫诊断 (中每个用户) 报告Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,15 +11,15 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 9da13470-001e-415f-b8c5-29b1f3b531ba
-description: 摘要：了解用于呼叫诊断报告Skype for Business Server。
-ms.openlocfilehash: c8caf074022514cca1792cedf60f77fae0506dfb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 摘要：了解呼叫诊断报告中使用的每用户Skype for Business Server。
+ms.openlocfilehash: 4bb9adb37b37ea06627ba5f678d32b5bdcb50b00
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623664"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766490"
 ---
-# <a name="call-diagnostic-reports-per-user-in-skype-for-business-server"></a>呼叫诊断报告 (中每个用户) 报告Skype for Business Server
+# <a name="call-diagnostic-reports-per-user-in-skype-for-business-server"></a>呼叫诊断 (中每个用户) 报告Skype for Business Server
   
 呼叫诊断报告提供有关失败的点对点会话和会议会话的每用户信息。 目前只有一个报告，即 **用户活动报告**。
 
@@ -37,20 +37,20 @@ ms.locfileid: "58623664"
 
 - **Ken** nedy@litwareinc.com
 
-为了确保仅返回 Ken Myer 的信息，在搜索框中键入他的完整 URI (Ken.Myer@litwareinc.com) ，或至少键入 Ken 的 URI 类型以将其与组织中其他用户进行唯一区分。 例如：
+若要确保仅返回 Ken Myer 的信息，在搜索框中键入他的完整 URI (Ken.Myer@litwareinc.com) ，或至少键入 Ken 的 URI 类型以将其与组织中其他用户进行唯一区分。 例如：
 
 Ken.my
 
 ## <a name="to-access-the-user-activity-report"></a>访问用户活动报告
 
-用户活动报告是从“监控报告”主页访问的。 您还可以访问用户活动报告，方法是单击 ip 电话 Inventory Report[上的](ip-phone-inventory-report.md)"用户 URI"Skype for Business Server。 在用户活动报告中，单击“会议 URI”（针对会议）会将您转到会议详细信息报告。 同样，单击对等呼叫的"详细信息"指标将进入"对等会话详细信息报告"中的[Skype for Business Server。](peer-to-peer-session-detail-report.md)
+用户活动报告是从“监控报告”主页访问的。 您还可以通过单击 IP 清单报告中的"用户 URI"指标[电话"用户活动Skype for Business Server。](ip-phone-inventory-report.md) 在用户活动报告中，单击“会议 URI”（针对会议）会将您转到会议详细信息报告。 同样，单击对等呼叫的"详细信息"指标，将进入"对等会话详细信息报告"中的[Skype for Business Server。](peer-to-peer-session-detail-report.md)
 
 ## <a name="making-the-best-use-of-the-user-activity-report"></a>充分利用用户活动报告
 
-尽管用户活动报告中有很多有用的信息，但这些信息有时候可能很难找到。 例如，指定期间在组织中进行的所有用户活动都包含在用户活动报告中;这意味着，该报告中隐藏着有关哪些用户实际上Skype for Business Server的信息。
+尽管用户活动报告中有很多有用的信息，但这些信息有时候可能很难找到。 例如，指定期间在组织中进行的所有用户活动都包含在用户活动报告中;这意味着，该报告中隐藏着有关哪些用户实际上以某种Skype for Business Server的信息。
 
 > [!NOTE]
-> 从技术上说，某些用户活动可能未记录：尽管 Skype for Business Server 努力保留有关所有电话呼叫的信息，但可能未将有关该呼叫的信息写入数据库即可进行呼叫。 Skype for Business Server旨在提供非常准确但不一定完美地查看Skype for Business Server使用方式。  (无法保证 100% 的呼叫都记录，这说明了为什么不应将 Skype for Business Server 监控用作计费系统。) 秒，监控报告最多只能显示 1，000 条记录。 根据您具有的用户活动的数量以及您工作的时间段，这意味着您的查询可能无法返回数据库中实际存储的所有数据。 
+> 从技术上说，某些用户活动可能未记录：尽管 Skype for Business Server 努力保留有关所有电话呼叫的信息，但如果没有将有关该呼叫的信息写入数据库，则有可能进行了呼叫。 Skype for Business Server旨在提供非常准确但不一定完美地查看Skype for Business Server使用方式。  (记录的所有呼叫都无法保证 100% 这一事实说明了为什么不应将 Skype for Business Server 监控用作计费系统。) 秒，监控报告最多只能显示 1，000 条记录。 根据您具有的用户活动的数量以及您工作的时间段，这意味着您的查询可能无法返回数据库中实际存储的所有数据。 
 
 - 哪些用户在此时间段内实际上使用了系统？
 
@@ -58,7 +58,7 @@ Ken.my
 
 - 发出电话呼叫最多的用户是否也是参与即时消息会话最多的用户？
 
-如果需要回答类似这样的问题，可以将监控报告检索到的数据导出到Excel电子表格。 然后使用该电子表格和/或逗号分隔值文件以用户活动报告的方式分析数据。 例如，假设您已经将报告数据导出到Excel，然后导出到逗号分隔的值文件中。 此时，可以使用与以下类似的命令.CSV数据Windows PowerShell文件导入数据：
+如果需要回答类似这样的问题，可以将监控报告检索到的数据导出到Excel电子表格。 然后使用该电子表格和/或逗号分隔值文件以用户活动报告的方式分析数据。 例如，假设您已经将报告数据导出到Excel，然后导出到逗号分隔值文件中。 此时，可以使用与以下.CSV类似的命令Windows PowerShell文件导入数据：
 
 ```PowerShell
 $x = Import-Csv -Path "C:\Data\User_Activity_Report.csv"
@@ -167,7 +167,7 @@ $x | Where-Object {$_.Modalities -match "audio"} | Group-Object "From user" | Se
 |:-----|:-----|:-----|
 |**角色** <br/> |否  <br/> |用户的会议角色（例如，演示者）。  <br/> |
 |**参与者** <br/> |否  <br/> |用户的 SIP 地址。  <br/> |
-|**连接** <br/> |否  <br/> |网络连接类型。例如，“来自内部”表示内部连接，“来自 PSTN”表示拨入用户。  <br/> |
+|**连接性** <br/> |否  <br/> |网络连接类型。例如，“来自内部”表示内部连接，“来自 PSTN”表示拨入用户。  <br/> |
 |**加入时间** <br/> |否  <br/> |用户加入会议的日期和时间。  <br/> |
 |**离开时间** <br/> |否  <br/> |用户离开会议的日期和时间。  <br/> |
 |**诊断 ID** <br/> |否  <br/> |附加到 SIP 消息的唯一标识符（采用 ms-diagnostics 标头的形式），提供的信息在排查错误时通常很有帮助。诊断标头是可选的（SIP 会话可以不包含这些标头），并且只对遇到此类问题的会话报告诊断 ID。  <br/> |

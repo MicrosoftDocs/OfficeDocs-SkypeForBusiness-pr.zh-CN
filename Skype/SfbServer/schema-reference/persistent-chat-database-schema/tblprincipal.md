@@ -1,7 +1,7 @@
 ---
 title: tblPrincipal
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 10/20/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 79a24502-b4ce-41f0-8979-8caddf535338
 description: tblPrincipal 包含所有主体，其中包括用户、文件夹和组。
-ms.openlocfilehash: 9a2a48d0cd2dcb6b6ef078fd32625fc022f79c9f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6cd47f3f58d7c68f26b5b8d35eb71db64d4d5131
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635856"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60776132"
 ---
 # <a name="tblprincipal"></a>tblPrincipal
  

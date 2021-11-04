@@ -1,7 +1,7 @@
 ---
-title: 在 2015 年 Skype for Business Server中编辑拓扑
+title: 在 Skype for Business Server 2015 中编辑拓扑
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/5/2016
@@ -14,14 +14,14 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 47425ab1-5645-4d6f-b202-64bcce43e3ef
 description: 完成初始访谈问题后，可以编辑站点的 FQDN (FQDN) IP 地址的完全限定域名。 要执行此操作，请在“全局拓扑”页上双击要编辑的站点。
-ms.openlocfilehash: 75eadc6234c9ac6e4e8a869df2da4d246b60f9ed
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 2276f2959329c77744054976e3a49f5ad72778ae
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732321"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60776162"
 ---
-# <a name="edit-the-topology-in-skype-for-business-server-2015"></a>在 2015 年 Skype for Business Server中编辑拓扑
+# <a name="edit-the-topology-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中编辑拓扑
 
 完成初始访谈问题后，可以编辑站点的 FQDN (FQDN) IP 地址的完全限定域名。 要执行此操作，请在 **“全局拓扑”** 页上双击要编辑的站点。
 
@@ -41,11 +41,11 @@ ms.locfileid: "58732321"
 
   - 证书报告 - 证书报告将列出拓扑所需的证书的主题名称和主题替代名称。
 
-  - 防火墙报告 - 防火墙报告列出了在基础结构中配置外围防火墙所必需的信息。 这包括 IP 地址 (默认值或编辑的值) 、服务器角色、源 IP 和端口、目标 IP 和端口、传输协议、应用程序协议和相关注释。
+  - 防火墙报告 - 防火墙报告列出了在基础结构中配置外围防火墙所必需的信息。 这包括默认或编辑 (IP 地址) 、服务器角色、源 IP 和端口、目标 IP 和端口、传输协议、应用程序协议和相关注释。
 
   - DNS 报告 - DNS 报告列出了您必须创建的 DNS 条目的相关信息。 其中包括相应操作所需的记录类型、FQDN、IP 地址和备注。
 
-- 网站摘要 - 网站摘要概述了通过回答初始访谈式问题或填写"设计网站" **中的值而做出的选择**。 还会显示容量信息。
+- 网站摘要 - 网站摘要概述了通过回答初始访谈式问题或填写"设计网站" **中的值而做出的选择**。 还显示容量信息。
 
     > [!NOTE]
     > “站点摘要”页上的信息可针对每个设计进行自定义，可能不包含此处详细介绍的所有内容或信息。

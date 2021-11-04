@@ -1,7 +1,7 @@
 ---
-title: 在文件创建Skype for Business Server
+title: 在文件中创建Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 12/20/2018
@@ -17,14 +17,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 053076b0-441c-44d9-8dbc-7a36d8ecafe4
 description: 摘要：了解如何在 Windows 安装过程中创建一个 Skype for Business Server。 从 Microsoft 评估Skype for Business Server下载免费试用版 https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server ：。
-ms.openlocfilehash: b7d766a38791a7fc21b4e86844684ed174769e60
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: c14d7a765a4b55e1fe909f33f4e038062427872b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727961"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751171"
 ---
-# <a name="create-a-file-share-in-skype-for-business-server"></a>在文件创建Skype for Business Server
+# <a name="create-a-file-share-in-skype-for-business-server"></a>在文件中创建Skype for Business Server
  
 **摘要：** 了解如何在 Windows 安装过程中创建一个 Skype for Business Server。 从 Microsoft 评估Skype for Business Server下载免费试用版 [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server) ：。
   
@@ -37,7 +37,7 @@ Skype for Business Server需要文件共享，以便整个拓扑中的计算机�
 本节将指导你创建基本的 Windows Server 文件共享。 支持Windows服务器文件共享的基本Skype for Business Server。 但是，它不会明确提供高可用性。 对于高可用性环境，建议使用分布式文件系统 (DFS) 文件共享。 有关高可用性文件共享和 DFS 的信息，请参阅 Plan [for high availability and disaster recovery in Skype for Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)。
   
 > [!NOTE]
-> Windows Server 2012R2 在通过使用 存储 Server 平台 (SAN) 文件共享解决方案方面实现了重大Windows。 与传统的基于 SAN 的设备相比，Windows Server 2012 R2 存储解决方案可以将成本减少一半，对性能的影响很小。 有关 R2 中文件共享选项Windows Server 2012，请参阅可下载的白皮书 Windows Server 2012 [R2 存储。](https://download.microsoft.com/download/9/4/A/94A15682-02D6-47AD-B209-79D6E2758A24/Windows_Server_2012_R2_Storage_White_Paper.pdf) 
+> Windows Server 2012R2 在通过使用 存储 Server 平台 (SAN) 文件共享解决方案方面实现了重大Windows。 与传统的基于 SAN 的设备相比，Windows Server 2012 R2 存储解决方案可以将成本减少一半，对性能的影响最小。 有关 R2 中文件共享选项Windows Server 2012，请参阅可下载的白皮书 Windows Server 2012 [R2 存储。](https://download.microsoft.com/download/9/4/A/94A15682-02D6-47AD-B209-79D6E2758A24/Windows_Server_2012_R2_Storage_White_Paper.pdf) 
   
 观看创建文件共享 **的视频步骤**：
   
@@ -68,9 +68,9 @@ Skype for Business Server需要文件共享，以便整个拓扑中的计算机�
 
 警告：无法访问""的共享 \\ <domain> \<share> 权限。
 
->如果你不是文件服务器的管理员，或者是 DFS 共享中的分布式文件系统， (预期) 。 如果已配置共享权限，可以忽略此警告。 如果是新共享，请参阅文档，详细了解如何手动配置共享权限。
+>如果你不是文件服务器的管理员，或者是 DFS 共享中的分布式文件系统， (此) 。 如果已配置共享权限，可以忽略此警告。 如果是新共享，请参阅文档，详细了解如何手动配置共享权限。
 
->由于无法访问 DFS 共享上的共享权限，Skype for Business Server无法显式设置文件共享上的组。 为了确保Skype for Business Server具有适当权限访问文件共享，请确保除了具有"完全控制"共享权限的本地管理员之外，还添加了以下 RTC 组以及读取和更改级别共享权限。
+>由于无法访问 DFS 共享上的共享权限，Skype for Business Server无法显式设置文件共享上的组。 若要Skype for Business Server具有相应权限访问文件共享，请确保除了具有"完全控制"共享权限的本地管理员之外，还添加了以下 RTC 组以及读取和更改级别共享权限。
 * RTCHSUniversalServices
 * RTCComponentUniversalServices
 * RTCUniversalServerAdmins

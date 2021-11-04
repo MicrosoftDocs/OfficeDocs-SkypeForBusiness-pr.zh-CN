@@ -1,6 +1,6 @@
 ---
 title: 阻止 Skype for Business Online 中的入站呼叫
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.topic: article
@@ -13,12 +13,12 @@ appliesto:
 - Skype for Business
 ms.localizationpriority: medium
 ms.custom: Learn how to use PowerShell to manage inbound call blocking in Skype for Business Online.
-ms.openlocfilehash: 8b4c26fb1f0a34c2dd0b7fb5159398e7eaf54df3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6fa72103448d20d9c659eff32735fa5d14389509
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581126"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751391"
 ---
 # <a name="block-inbound-calls"></a>阻止入站呼叫
 
@@ -40,7 +40,7 @@ Skype for Business联机呼叫计划现在支持阻止来自公共电话交换�
 ## <a name="call-blocking-powershell-commands"></a>调用阻止 PowerShell 命令
 
 数字模式通过命令 ```CsInboundBlockedNumberPattern``` ```New``` ```Get``` 、、 和 ```Set``` 进行管理 ```Remove``` 。 可以使用这些 cmdlet 管理给定的模式，包括切换给定模式的激活。
-- [Get-CsInboundBlockedNumberPattern](/powershell/module/skype/get-csinboundblockednumberpattern) 返回添加到租户列表的所有阻止数字模式的列表，包括每个模式的名称、说明、已启用的 (True/False) 和 Pattern。
+- [Get-CsInboundBlockedNumberPattern](/powershell/module/skype/get-csinboundblockednumberpattern) 返回添加到租户列表的所有阻止数字模式的列表，包括名称、说明、已启用 (True/False) 和每个模式。
 - [New-CsInboundBlockedNumberPattern](/powershell/module/skype/new-csinboundblockednumberpattern) 将阻止的编号模式添加到租户列表。
 - [Remove-CsInboundBlockedNumberPattern](/powershell/module/skype/remove-csinboundblockednumberpattern) 从租户列表中删除阻止的编号模式。
 - [Set-CsInboundBlockedNumberPattern](/powershell/module/skype/set-csinboundblockednumberpattern) 修改租户列表中的阻止数字模式的一个或多个参数。
@@ -64,7 +64,7 @@ New-CsInboundBlockedNumberPattern -Name “<name>” -Enabled $True -Description
 
 我们建议提供一个有意义的名称，以便轻松了解添加模式的原因。 如果只是阻止垃圾邮件号码，请考虑将规则命名为与匹配的数字模式相同的规则，并根据需要在说明中添加其他信息。
 
-使用正则表达式和正则表达式 (正则表达式) 。 在测试和验证之前，请留出时间进行复制。
+模式使用正则表达式和正则表达式 (正则表达式) 。 在测试和验证之前，请留出时间进行复制。
 
 #### <a name="allow-a-number"></a>允许数字
 

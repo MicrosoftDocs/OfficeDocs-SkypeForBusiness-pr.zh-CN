@@ -1,7 +1,7 @@
 ---
-title: 示例 收集呼叫允许控制在 Skype for Business Server
+title: 示例 收集呼叫允许控制在Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,27 +15,27 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 3363ac53-b7c4-4a59-aea1-b2f3ee016ae1
-description: 提供规划呼叫允许控制在 Skype for Business Server 企业语音，包括收集有关网络站点、地区和带宽的信息的详细示例。
-ms.openlocfilehash: 180e62ca2784186c4cd9e646548183ddbcfeac30
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: 提供规划呼叫允许控制的详细示例，Skype for Business Server 企业语音包括收集有关网络站点、地区和带宽的信息。
+ms.openlocfilehash: da270be0af14c74ff44c07b4fc37aa531740a306
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731451"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765270"
 ---
 # <a name="example-gathering-requirements-for-call-admission-control-in-skype-for-business-server"></a>示例：收集呼叫允许控制在Skype for Business Server
 
-提供规划呼叫允许控制在 Skype for Business Server 企业语音，包括收集有关网络站点、地区和带宽的信息的详细示例。
+提供规划呼叫允许控制的详细示例，Skype for Business Server 企业语音包括收集有关网络站点、地区和带宽的信息。
 
 此示例显示如何规划和实现呼叫允许控制 (CAC)。总体来说，包括以下活动：
 
 1. 标识所有网络中心和网络中枢（称为网络区域）。
 
-2. 确定Skype for Business Server区域管理 CAC 的站点中央站点。
+2. 确定Skype for Business Server区域管理 CAC 的一个中央站点。
 
 3. 标识并定义连接到每个网络区域的网络站点。
 
-4. 对于与 WAN 的连接受带宽限制的每个网络站点，描述 WAN 连接的带宽容量，以及网络管理员为 Skype for Business Server 媒体流量设置的带宽限制（如果适用）。 不需要包括与 WAN 的连接不受带宽限制的站点。
+4. 对于与 WAN 的连接受带宽限制的每个网络站点，描述 WAN 连接的带宽容量以及网络管理员为 Skype for Business Server 媒体流量设置的带宽限制（如果适用）。 不需要包括与 WAN 的连接不受带宽限制的站点。
 
 5. 将网络中的每个子网与一个网络站点相关联。
 
@@ -62,7 +62,7 @@ ms.locfileid: "58731451"
     > [!NOTE]
     > 多协议标签交换 (MPLS) 网络应代表一个网络区域，在该网络区域中，每个物理位置都具有一个相应的网络站点。 有关详细信息，请参阅 Skype for Business 中的[呼叫允许控制的组件和Skype for Business。](components-and-topologies.md) 
 
-    在上例网络拓扑中，有三个网络区域，每个网络Skype for Business Server管理 CAC 的中央站点。 按地理距离选择网络区域相应的中央站点。 由于网络区域内的媒体流量最多，按地理距离选择中央站点使网络区域能够独立运行，因此即使其他中央站点不可用，网络区域也可以继续正常工作。 
+    在上例网络拓扑中，有三个网络区域，每个网络Skype for Business Server管理 CAC 的一个中央站点。 按地理距离选择网络区域相应的中央站点。 由于网络区域内的媒体流量最多，按地理距离选择中央站点使网络区域能够独立运行，因此即使其他中央站点不可用，网络区域也可以继续正常工作。 
 
     本示例中，名为Skype for Business芝加哥的部署是北美区域的中央站点。
 
@@ -77,7 +77,7 @@ ms.locfileid: "58731451"
     |APAC  <br/> |北京  <br/> |
 
     > [!NOTE]
-    > 根据您的拓扑Skype for Business Server，可以将同一中央站点分配给多个网络区域。 
+    > 根据您的网络Skype for Business Server，可以将同一中央站点分配给多个网络区域。 
 
 3. 对于每个网络区域，标识其 WAN 连接不受带宽限制的所有网络站点（办公室或位置）。由于这些站点不受带宽限制，因此无需对其应用 CAC 带宽策略。
 
@@ -117,7 +117,7 @@ ms.locfileid: "58731451"
 
    - 要为每个单独的音频会话设置的带宽限制。默认 CAC 带宽限制是 175 kbps，但是管理员可修改该值。
 
-   - 要为所有并发视频会话设置的总体带宽限制。 如果新的视频会话将导致超出此限制，Skype for Business Server不允许该会话启动。
+   - 要为所有并发视频会话设置的总体带宽限制。 如果新的视频会话将导致超出此限制，Skype for Business Server不允许会话启动。
 
    - 要为每个单独的视频会话设置的带宽限制。默认 CAC 带宽限制是 700 kbps，但是管理员可修改该值。
 
@@ -181,7 +181,7 @@ ms.locfileid: "58731451"
 
    - 要为每个单独的音频会话设置的带宽限制。默认 CAC 带宽限制是 175 kbps，但是管理员可修改该值。
 
-   - 要为所有并发视频会话设置的总体带宽限制。 如果新的视频会话将导致超出此限制，Skype for Business Server不允许该会话启动。
+   - 要为所有并发视频会话设置的总体带宽限制。 如果新的视频会话将导致超出此限制，Skype for Business Server不允许会话启动。
 
    - 要为每个单独的视频会话设置的带宽限制。默认 CAC 带宽限制是 700 kbps，但是管理员可修改该值。
 
@@ -238,4 +238,4 @@ ms.locfileid: "58731451"
 收集所需信息后，可以使用命令行管理程序或控制面板Skype for Business Server CAC Skype for Business Server CAC 部署。
 
 > [!NOTE]
-> 虽然可以使用控制面板执行大多数网络配置Skype for Business Server，但若要创建子网和站点间链接，必须使用命令行管理Skype for Business Server命令行管理程序。 有关详细信息，请参阅[New-CsNetworkSubnet](/powershell/module/skype/new-csnetworksubnet?view=skype-ps)和[New-CsNetworkInterSitePolicy。](/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps)
+> 虽然可以使用"控制面板"Skype for Business Server大多数网络配置任务，但若要创建子网和站点间链接，必须使用命令行管理Skype for Business Server命令行管理程序。 有关详细信息，请参阅[New-CsNetworkSubnet](/powershell/module/skype/new-csnetworksubnet?view=skype-ps)和[New-CsNetworkInterSitePolicy。](/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps)

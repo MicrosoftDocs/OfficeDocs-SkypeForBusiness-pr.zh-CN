@@ -1,7 +1,7 @@
 ---
 title: 分支站点 SIP 中继Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c4d9dfcd-8baa-41ea-9677-48b0e429429d
 description: 了解站点中的分支站点中的 SIP Skype for Business Server 企业语音。
-ms.openlocfilehash: bb8fcc1755e73bba6689f07d2f97cc01cc77549d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9fd9bb742b61516ca450082c187fb460bacdf11d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582596"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765290"
 ---
 # <a name="branch-site-sip-trunking-in-skype-for-business-server"></a>分支站点 SIP 中继Skype for Business Server
  
 了解站点中的分支站点中的 SIP Skype for Business Server 企业语音。
   
-在某些情况下，您可能需要在选定的分支站点实施分布式 SIP 中继。 要确定分支站点是否需要 SIP 中继，以及有关在分支站点中部署 SIP 中继的受支持的拓扑选项的详细信息，请参阅 sip [trunking in Skype for Business Server](sip-trunking.md)。
+在某些情况下，您可能需要在选定的分支站点实施分布式 SIP 中继。 要确定分支站点是否需要 SIP 中继，以及有关在分支站点中部署 SIP 中继支持的拓扑选项的详细信息，请参阅 sip [trunking in Skype for Business Server](sip-trunking.md)。
   
 ## <a name="example-branch-site-sip-trunk-requirements-analysis"></a>示例分支站点 SIP 中继要求分析
 

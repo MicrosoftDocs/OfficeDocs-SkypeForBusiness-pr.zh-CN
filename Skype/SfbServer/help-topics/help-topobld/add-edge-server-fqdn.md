@@ -1,7 +1,7 @@
 ---
 title: 添加边缘服务器 FQDN
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,17 +15,17 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 84a9511d-601d-4819-a30c-7b08d96e4d97
 description: 必须指定访问边缘服务的完全限定域名 (FQDN)。 如果未在"选择功能"页上选择"使用单个 FQDN IP 地址"选项，则还必须为 Web 会议边缘服务和 A/V 边缘服务指定 &amp; FQDN。
-ms.openlocfilehash: cbf6f957913fa4c22c5e09236d5a2dc22a99dbb0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 72afc3955f4a50f844b63d356c506bf34cadca2b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633052"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60776412"
 ---
 # <a name="add-edge-server-fqdn"></a>添加边缘服务器 FQDN
  
 必须指定访问边缘服务的完全限定域名 (FQDN)。 如果未在"选择功能"页上选择"使用单个 **FQDN &amp; IP** 地址"选项，则还必须为 Web 会议边缘服务和 A/V 边缘服务指定 FQDN。 
   
-此外，如果选择了"使用单个 **FQDN &amp; IP** 地址"选项，则必须为每个边缘服务 (建议端口设置指定不同的端口号：444 用于访问边缘服务，8057 用于 Web 会议边缘服务，443 用于 A/V 边缘服务) 。 如果未选择此选项，则可以为所有三个服务使用相同的端口号（如 443）。
+此外，如果选择了"使用单个 **FQDN &amp; IP** 地址"选项，则必须为每个边缘服务 (建议端口设置指定不同的端口号：访问边缘服务为 444，Web 会议边缘服务为 8057，A/V 边缘服务) 为 443。 如果未选择此选项，则可以为所有三个服务使用相同的端口号（如 443）。
   
 

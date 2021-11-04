@@ -1,7 +1,7 @@
 ---
 title: Skype for Business Server功能概述规划工具
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/6/2016
@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 description: 有关"Skype for Business Server概述"规划工具的信息。
-ms.openlocfilehash: 74436290cfade5993a466b1e444d81a256e5882e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 44926f016a9b9aabe9981ec66f32638b3a958da6
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618868"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60744398"
 ---
 # <a name="skype-for-business-server-feature-overview-planning-tool"></a>Skype for Business Server功能概述规划工具
  
@@ -87,7 +87,7 @@ Skype for Business Server 2015 规划工具
     
 - **W15 Exchange邮箱**
     
-    Skype for Business Server 2015，您可以在统一消息和 UM Exchange 中存储语音邮件 (语音邮件) ;这些语音邮件随后将在用户的收件箱中显示为电子邮件。
+    Skype for Business Server 2015，您可以在 UM 统一消息Exchange中存储语音邮件 (语音邮件) ;这些语音邮件随后将在用户的收件箱中显示为电子邮件。
     
 ### <a name="voice"></a>语音
 
@@ -99,7 +99,7 @@ Skype for Business Server 2015 规划工具
     
 - **Exchange 统一消息**
     
-    Exchange统一消息 (UM) 将语音邮件和电子邮件合并到单个邮件基础结构中。 Skype for Business Server 2015 Exchange UM 提供呼叫应答、订阅者访问、呼叫通知和自动助理服务。 如果使用这些服务，则需要将 UM 和 Exchange集成Skype for Business Server Active Directory 拓扑中。
+    Exchange统一消息 (UM) 将语音邮件和电子邮件合并到单个邮件基础结构中。 Skype for Business Server 2015 Exchange UM 提供呼叫应答、订阅者访问、呼叫通知和自动助理服务。 如果使用这些服务，则需要将 um 和 Exchange集成Skype for Business Server Active Directory 拓扑中。
     
 ### <a name="additional-deployment-options"></a>其他部署选项
 
@@ -147,11 +147,11 @@ Skype for Business Server 2015 规划工具
     
 - **公告**
     
-    如果计划部署企业语音，可能需要能够配置拨打的号码有效但没有分配给用户公用区域时如何处理电话呼叫。 管理员可以配置通知服务，以便这些呼叫转接到预定 (电话号码或 SIP URI，或) 或同时播放音频通知。 使用通知服务可以避免呼叫者拨错电话并听到忙音或 SIP 客户端收到错误消息的情况。 通知服务功能是典型的 PBX 功能。 
+    如果计划部署企业语音，可能需要能够配置拨打的号码有效但没有分配给用户公用区域时如何处理电话呼叫。 管理员可以配置通知服务，以便这些呼叫转接到预先确定的目标 (电话号码或 SIP URI) 播放音频通知或同时播放两者。 使用通知服务可以避免呼叫者拨错电话并听到忙音或 SIP 客户端收到错误消息的情况。 通知服务功能是典型的 PBX 功能。 
     
 - **呼叫寄存**
     
-    呼叫保留应用程序使呼叫企业语音一部电话将呼叫置于保持状态，然后从另一部电话接收呼叫，而不会使接听该呼叫的电话上的资源增加。 当用户需要转移呼叫，但特定收件人未知时，呼叫呼叫管理应用程序非常有用。 
+    呼叫保留应用程序使呼叫企业语音用户从一部电话将呼叫置于保持状态，然后从另一部电话接收呼叫，而不会使接听该呼叫的电话上的资源增加。 当用户需要转移呼叫，但特定收件人未知时，呼叫呼叫管理应用程序非常有用。 
     
 - **会议助理**
     

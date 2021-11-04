@@ -1,7 +1,7 @@
 ---
 title: 发布拓扑重设池页面
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/27/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: de13aab5-ac3c-44ac-9484-f97cafcf203a
 description: 这是初步文档，可能会更改。 空白主题作为占位符包含在内。
-ms.openlocfilehash: 7e7e4110232dd877f25e99294f868df5255886f4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8a9fc299e38ae3ba94d41a7c75d71a19c9d55067
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601477"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766670"
 ---
 # <a name="publish-topology-reset-pool-page"></a>发布拓扑重设池页面
  
@@ -30,4 +30,4 @@ ms.locfileid: "58601477"
   
 ## <a name="see-also"></a>另请参阅
 
-[在 2015 年 10 月Skype for Business Server拓扑](../../deploy/install/create-and-publish-new-topology.md)
+[在 Skype for Business Server 2015 中创建新拓扑](../../deploy/install/create-and-publish-new-topology.md)

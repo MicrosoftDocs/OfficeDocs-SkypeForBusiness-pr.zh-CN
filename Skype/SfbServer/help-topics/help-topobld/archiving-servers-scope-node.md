@@ -1,7 +1,7 @@
 ---
 title: 存档服务器范围节点
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/25/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 0c5f46c7-67bf-4daa-b7a9-4b59fd7792a0
 description: 在拓扑生成器中，可以通过右键单击控制台树中的存档服务器、单击工具栏中的"操作"或单击"操作"窗格中的任务，然后单击以下存档服务器选项来执行与单个存档服务器相关的任务。
-ms.openlocfilehash: f134aec2155fb574828e4c5389e43ab8569ca874
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 174785f4ddaa47320f5929f1d9bc81f6cad987ee
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603981"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766690"
 ---
 # <a name="archiving-servers-scope-node"></a>存档服务器范围节点
  

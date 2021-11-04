@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 采用第 3 阶段 - 扩展
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 阅读概述，了解为组织支持大规模Teams支持所需的步骤。
+description: 阅读概述需要学习的步骤，以支持为组织Teams大规模支持。
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 86de4726585f067235c578353a30e0f5ad86574d
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: acf0e51436aaad905c1713af7f6131be08b9e704
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733721"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745448"
 ---
 # <a name="microsoft-teams-adoption-phase-3---scale"></a>Microsoft Teams 采用第 3 阶段 - 扩展
 
-在此阶段，你将使用学习经验、有才能的项目团队，以及与利益干系人、支持者和早期采用者之间的关系，为组织实现广泛的Teams支持。 准备在组织中持续进行业务参与时，将完成以下步骤Microsoft Teams：
+在此阶段，你将使用学习经验、有才能的项目团队，以及与利益干系人、支持者和早期采用者之间的关系，为组织实现广泛的Teams支持。 准备持续就组织使用应用程序进行业务参与时，将完成Microsoft Teams：
 
 1. 定义结果和成功度量。
 2. 选择服务策略。

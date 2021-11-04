@@ -1,7 +1,7 @@
 ---
-title: 池中池故障的用户体验Skype for Business Server
+title: 池中池故障期间Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,14 +13,14 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b224b0d0-87e3-4cac-ae87-f45f54fabb49
 description: 了解前端池在 Skype for Business Server 中的灾难恢复期间发生故障或故障Skype for Business Server。
-ms.openlocfilehash: b207fd34bc5eaaf2e02addc8040dc262709b2853
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 568f0bce49379e10da8e64ca1eb4507b9319d250
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609229"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60744158"
 ---
-# <a name="user-experience-during-pool-failure-in-skype-for-business-server"></a>池中池故障的用户体验Skype for Business Server
+# <a name="user-experience-during-pool-failure-in-skype-for-business-server"></a>池中池故障期间Skype for Business Server
  
 了解前端池在 Skype for Business Server 中的灾难恢复期间发生故障或故障Skype for Business Server。
   

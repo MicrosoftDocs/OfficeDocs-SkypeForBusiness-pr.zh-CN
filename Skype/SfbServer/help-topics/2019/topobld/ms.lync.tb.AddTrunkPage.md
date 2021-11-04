@@ -1,7 +1,7 @@
 ---
 title: 定义新的 Trunk
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: e5d97b27-5ae8-41e0-8ee9-0c3f6d5dd123
 ROBOTS: NOINDEX, NOFOLLOW
 description: 通过提供以下信息定义一个新的会话初始协议 (SIP) Trunk：
-ms.openlocfilehash: 9267ae7dc501fd56c7c18a5475ca0dade94bf03d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9b86ef8d130b673cfeda8812cad0628e093ff762
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58587607"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60776762"
 ---
 # <a name="define-a-new-trunk"></a>定义新中继
 

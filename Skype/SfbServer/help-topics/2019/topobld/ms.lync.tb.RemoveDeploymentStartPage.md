@@ -1,7 +1,7 @@
 ---
 title: 删除部署简介
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 8659fefa-97f1-4d4a-9628-5c6dae86b244
 ROBOTS: NOINDEX, NOFOLLOW
 description: 仅当要停用整个部署时才运行“删除部署向导”。该向导创建由单个前端服务器组成的空拓扑。运行该向导并发布空拓扑后，就无法还原到原始拓扑。
-ms.openlocfilehash: e4b56b2e48f50ebfdbb34debb4b98dfcf5fc25f4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6485515eeef5bb9d2d7b0e095c58760ddb83ffea
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593806"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750701"
 ---
 # <a name="remove-deployment-introduction"></a>删除部署简介
  

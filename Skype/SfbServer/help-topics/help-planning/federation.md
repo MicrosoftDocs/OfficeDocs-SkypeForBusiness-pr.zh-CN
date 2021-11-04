@@ -1,7 +1,7 @@
 ---
 title: Lync Server 联盟规划工具
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/8/2016
@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 63ea8a5e-a040-4892-9440-0fdbeef66fc0
 description: 可以将边缘服务器配置为允许内部和外部用户访问合作伙伴组织或服务中的联系人。
-ms.openlocfilehash: 715ce93c75ac913b3eaef009d6637f2e08f96195
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8516b1cbe19592448f7b61324eaf1db0ecb09e99
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636206"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60744374"
 ---
 # <a name="lync-server-federation-planning-tool"></a>Lync Server 联盟规划工具
  

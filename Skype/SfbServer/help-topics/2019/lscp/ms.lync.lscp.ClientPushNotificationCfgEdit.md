@@ -1,7 +1,7 @@
 ---
 title: 移动客户端创建或编辑推送通知配置
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -14,17 +14,17 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: fb39af60-c999-42fb-9538-0bd87098f508
 ROBOTS: NOINDEX, NOFOLLOW
-description: 推送通知和推送通知交换所 (PNCH) 移动功能的主要组成部分。 推送通知是将消息发送到 PNCH 的过程。 消息将保留在此处，直到它能发往移动客户端或超时段过期为止。
-ms.openlocfilehash: 7e148074690f7895a04e2d217b513eac8f7f148c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 推送通知和推送通知交换所 (PNCH) 是移动功能的主要组成部分。 推送通知是将消息发送到 PNCH 的过程。 消息将保留在此处，直到它能发往移动客户端或超时段过期为止。
+ms.openlocfilehash: ebc548658fad03af743acdaa25db4b5307549b4c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583176"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751111"
 ---
 # <a name="mobile-client-create-or-edit-push-notification-configuration"></a>移动客户端：创建或编辑推送通知配置
  
-推送通知和推送通知交换所 (PNCH) 移动功能的主要组成部分。 推送通知是将消息发送到 PNCH 的过程。 消息将保留在此处，直到它能发往移动客户端或超时段过期为止。 
+推送通知和推送通知交换所 (PNCH) 是移动功能的主要组成部分。 推送通知是将消息发送到 PNCH 的过程。 消息将保留在此处，直到它能发往移动客户端或超时段过期为止。 
   
 > [!NOTE]
 > 时间段在推送通知交换所设置，不能由部署的用户或管理员进行配置。 
@@ -38,7 +38,7 @@ ms.locfileid: "58583176"
   
 2. 通过单击以下复选框选择您要启用的推送通知服务：
     
-   - **启用 Microsoft 推送通知** 将启用推送通知到基于云的 PNCH，以便Windows Phone应用Skype for Business PNCH
+   - **启用 Microsoft 推送通知** 将推送通知启用到基于云的 PNCH，以便Windows Phone应用Skype for Business PNCH
     
    - **启用 Apple 推送通知** 将为运行 Apple iOS (（例如，iPhone、iPad) 和使用 apple Skype for Business 应用）的 Apple PNCH 启用推送通知
     

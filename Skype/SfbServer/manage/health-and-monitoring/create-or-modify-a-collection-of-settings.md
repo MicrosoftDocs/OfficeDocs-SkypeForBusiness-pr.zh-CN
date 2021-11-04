@@ -1,7 +1,7 @@
 ---
 title: Create or modify a collection of CDR configuration settings in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,13 +11,13 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: c830be5a-2a82-468d-9c46-d3fec0f79fd0
-description: 摘要：了解呼叫详细信息记录 (CDR) Skype for Business Server。
-ms.openlocfilehash: 1f508df7d139d81d3c91dc1cf9355b61fd028dbc
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+description: 摘要：了解呼叫详细信息记录 (CDR) 中Skype for Business Server。
+ms.openlocfilehash: 9e77cc7782116f317504cbbee98d0731d69ed5e8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60015146"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751741"
 ---
 # <a name="create-or-modify-a-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>Create or modify a collection of CDR configuration settings in Skype for Business Server
  
@@ -25,17 +25,17 @@ ms.locfileid: "60015146"
   
 呼叫详细信息记录 (CDR) 使您可以跟踪对等即时消息会话、Internet 语音 (VoIP) 电话呼叫和会议呼叫等的使用情况。 此使用情况数据包含有关呼叫者、被叫方、呼叫时间及通话时长的信息。
   
-在安装Skype for Business Server将创建一个 CDR 配置设置的全局集合。 管理员还可以选择在站点范围创建自定义设置。 每当使用这些站点范围的设置时，它们优先于全局设置。 例如，如果为 Redmond 站点创建站点作用域设置，则这些设置 (而不是全局设置) 用于管理 Redmond 中的 CDR。
+在安装Skype for Business Server将创建一个 CDR 配置设置的全局集合。 管理员还可以选择在站点范围创建自定义设置。 每当使用这些站点范围的设置时，它们优先于全局设置。 例如，如果为 Redmond 站点创建站点作用域设置，则这些设置 (（而不是全局设置) ）将用于管理 Redmond 中的 CDR。
   
-您可以使用控制面板或[New-CsCdrConfiguration](/powershell/module/skype/new-cscdrconfiguration?view=skype-ps) cmdlet Skype for Business Server CDR 配置设置。 您可以使用控制面板Skype for Business Server [Set-CsCdrConfiguration](/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) cmdlet 修改现有设置。 如果要使用Skype for Business Server控制面板创建或修改设置，可以使用以下选项：
+可以使用控制面板或[New-CsCdrConfiguration](/powershell/module/skype/new-cscdrconfiguration?view=skype-ps) cmdlet Skype for Business Server CDR 配置设置。 您可以使用控制面板Skype for Business Server [Set-CsCdrConfiguration](/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) cmdlet 修改现有设置。 如果要使用Skype for Business Server控制面板创建或修改设置，可以使用以下选项：
   
 |**UI 设置**|**PowerShell 参数**|**说明**|
 |:-----|:-----|:-----|
 |名称  <br/> |标识  <br/> |要创建的 CDR 配置设置的唯一标识符。 只能在站点范围创建这些设置。  <br/> |
 |启用 CDR 监视  <br/> |EnableCDR  <br/> |指示是否启用 CDR。  <br/> |
 |启用 CDR 清除  <br/> |EnablePurging  <br/> |指示是否定期从 CDR 数据库中删除 CDR 记录。  <br/> |
-|CDR 最长保留期限为 (天)   <br/> |KeepCallDetailForDays  <br/> |指示 CDR 记录在 CDR 数据库中保留的天数。 超过指定天数的任何记录将自动删除。  (请注意，只有在启用了清除后，才进行清除)   <br/> |
-|将错误报告数据最长保留 (天)   <br/> |KeepErrorReportForDays  <br/> |指示 CDR 错误报告保留的天数。 超过指定天数的任何报告将自动删除。 CDR 错误报告是由客户端应用程序上载的诊断报告。  <br/> |
+|CDR 最长保留期限为 (天)   <br/> |KeepCallDetailForDays  <br/> |指示 CDR 记录在 CDR 数据库中保留的天数。 超过指定天数的任何记录将自动删除。  (请注意，只有在启用了清除功能后，才进行清除)   <br/> |
+|将错误报告数据保留最长持续时间 (天)   <br/> |KeepErrorReportForDays  <br/> |指示 CDR 错误报告保留的天数。 超过指定天数的任何报告将自动删除。 CDR 错误报告是由客户端应用程序上载的诊断报告。  <br/> |
    
 > [!NOTE]
 > New-CsCdrConfiguration cmdlet Set-CsCdrConfiguration cmdlet 包括"控制面板"中Skype for Business Server选项。 有关详细信息，请参阅 [New-CsCdrConfiguration](/powershell/module/skype/new-cscdrconfiguration?view=skype-ps) [和 Set-CsCdrConfiguration](/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) 帮助主题。

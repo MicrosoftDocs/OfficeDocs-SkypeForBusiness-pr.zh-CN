@@ -1,7 +1,7 @@
 ---
 title: Office 365音频会议延长到美国和加拿大的拨出分钟数
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 39b8bc2aee158ea5992c4255932606cf4f5f81ac
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cd2c1ec4f5a4c96f62b54a9c97cecb003b05e731
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605801"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751521"
 ---
 # <a name="office-365-audio-conferencing-extended-dial-out-minutes-to-us-and-canada"></a>Office 365音频会议延长到美国和加拿大的拨出分钟数
 
@@ -38,7 +38,7 @@ ms.locfileid: "58605801"
 | 此新的附加内容 SKU 将取代音频会议中包含的 60 分钟时间吗？ | 不能。 在租户级别池的每个用户每月 60 分钟的现有音频会议将继续应用于所有区域 A 拨出会议国家/地区。|
 | 频道可用性如何？  | 它在 EA/EAS、EES、CSP 和 Web Direct 上可用。  |
 | 段可用性是什么？ | 它适用于商业 (包括 WW 商业) 、教育、非营利组织以及美国GCC |
-| 如果具有美国/加拿大的延长拨出分钟数的用户位于美国，并出差到另一个国家/Audio-Conferencing销售市场？。 他们的拨出服务能正常工作吗？ | 是。 如果位于美国 (的用户的 Office 365 (许可证已在美国) 分配，则无论呼叫发生在何处，该市场当前不在音频会议) 销售位置，则向美国和加拿大拨打的所有拨出分钟数将继续应用于其美国/加拿大的延长拨出分钟数。 |
+| 如果具有美国/加拿大的延长拨出分钟数的用户位于美国，并出差到另一个国家/Audio-Conferencing销售市场？ 他们的拨出服务能正常工作吗？ | 是。 如果位于美国 (的用户的 Office 365)  (许可证在美国) 被分配，则无论呼叫发生在何处，向美国和加拿大拨打的所有拨出分钟数将继续应用于其美国/加拿大的延长拨出分钟数。 |
 |||
 
 <sup>1</sup> Microsoft 保留在出现异常使用或怀疑用于欺诈目的时限制或终止使用该功能的权利。

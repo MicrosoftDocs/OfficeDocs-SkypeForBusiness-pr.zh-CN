@@ -1,7 +1,7 @@
 ---
 title: 添加边缘服务器选项
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 2405f227-4297-40d0-a117-55427a9e4052
 ROBOTS: NOINDEX, NOFOLLOW
 description: 选择要为边缘池启用的每个功能。 默认情况下，边缘池支持组织中使用虚拟专用网络通过 VPN (从防火墙外部登录) 。 此外，还具有以下边缘池功能选项：
-ms.openlocfilehash: 449520b41a8badf9ce3f2b852314445c6d16aff9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 04b2516e7e9164acb4306af89c88534613b10823
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622714"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60776802"
 ---
 # <a name="add-edge-server-options"></a>添加边缘服务器选项
 

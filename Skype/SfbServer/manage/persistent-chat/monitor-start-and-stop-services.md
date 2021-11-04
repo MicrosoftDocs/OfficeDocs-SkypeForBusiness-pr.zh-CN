@@ -1,7 +1,7 @@
 ---
-title: 在 Skype for Business Server 2015 中监视、启动和停止持久聊天服务
+title: 在 2015 年 10 月中监视、启动和停止Skype for Business Server持久聊天服务
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/28/2016
@@ -13,14 +13,14 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b6b28595-f702-4ecf-8115-e4104b87da89
 description: 摘要：了解如何在 Skype for Business Server 2015 中启动、停止和监视持久聊天服务。
-ms.openlocfilehash: 3bc40e0e338cb2ef30b417482185121b26b8cd34
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f2b2c964659b3de5045d414736bc5c1e5ddadd28
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580546"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766480"
 ---
-# <a name="monitor-start-and-stop-the-persistent-chat-services-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中监视、启动和停止持久聊天服务
+# <a name="monitor-start-and-stop-the-persistent-chat-services-in-skype-for-business-server-2015"></a>在 2015 年 10 月中监视、启动和停止Skype for Business Server持久聊天服务
  
 **摘要：** 了解如何在 2015 年 10 月启动、停止和监视持久Skype for Business Server服务。
   
@@ -33,8 +33,8 @@ ms.locfileid: "58580546"
 |stop-CsWindowsService  <br/> |停止服务。  <br/> |
    
 > [!NOTE]
-> 持久聊天在 Skype for Business Server 2015 中可用，但在 2019 年 2 Skype for Business Server不再受支持。 相同的功能在 Teams 中可用。 有关详细信息，请参阅[开始升级Microsoft Teams升级](/microsoftteams/upgrade-start-here)。 如果您需要使用持久聊天，您的选择是迁移需要此功能的用户以Teams或继续使用 Skype for Business Server 2015。 
+> 持久聊天在 2015 Skype for Business Server可用，但在 2019 年 2 月不再Skype for Business Server支持。 相同的功能在 Teams 中可用。 有关详细信息，请参阅开始[升级Microsoft Teams升级](/microsoftteams/upgrade-start-here)。 如果您需要使用持久聊天，您的选择是迁移需要此功能的用户以Teams或继续使用 Skype for Business Server 2015。 
 
-有关如何使用 cmdlet 的详细信息，请参阅 Skype for Business Server [2015 Management Shell。](../management-shell.md)
+有关如何使用 cmdlet 的详细信息，请参阅 Skype for Business Server [2015 Management Shell](../management-shell.md)。
   
 

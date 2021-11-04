@@ -1,7 +1,7 @@
 ---
 title: 使用 SCOM Skype for Business Server包管理 2019 年 10 月
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 10/26/2018
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 摘要：了解如何配置 Skype for Business Server 2019 基础结构以使用 System Center Operations Manager。
-ms.openlocfilehash: a58b98790b955953d916b26276e8579fb7989028
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 69954c7568702e4e3d6e9618bdd7e37243c61ef6
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60011586"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751491"
 ---
 # <a name="manage-skype-for-business-server-2019-using-scom-management-pack"></a>使用 SCOM Skype for Business Server包管理 2019 年 10 月
  
-**摘要：** 了解如何配置 Skype for Business Server 2019 基础结构以使用 System Center Operations Manager。
+**摘要：** 了解如何配置 Skype for Business Server 2019 基础结构，以使用 System Center Operations Manager。
   
-在理想世界，2019 年 10 月Skype for Business Server问题。 但是，Skype for Business Server受外部因素影响，例如网络崩溃和硬件故障。 通过使用 Skype for Business Server 2019 管理包，您可以主动识别和解决潜在问题。 这样，Skype for Business Server 2019 管理包扩展了 System Center Operations Manager 的功能。
+在理想世界，2019 年 10 月Skype for Business Server问题。 但是，Skype for Business Server受外部因素影响，例如网络崩溃和硬件故障。 通过使用 Skype for Business Server 2019 管理包，您可以主动识别和解决潜在问题。 这样，Skype for Business Server 2019 管理包将扩展 operations Manager System Center功能。
   
 此信息是基于 2019 年 2019 年 10 月通信Skype for Business Server 9319.0 版编写的。
   
@@ -44,14 +44,14 @@ ms.locfileid: "60011586"
   
 |配置|是否支持？|
 |:-----|:-----|
-|Windows Server 2008 R2 操作系统  <br/> Windows Server 2012R2 操作系统   |是。 在 Skype for Business Server 2019 服务器和综合事务观察程序节点上。   |
+|Windows Server 2008 R2 操作系统  <br/> Windows Server 2012R2 操作系统   |是的。 在 Skype for Business Server 2019 服务器和综合事务观察程序节点上。   |
 |群集服务器   |不支持。   |
 |无代理监视   |不支持。   |
-|虚拟环境   |是。   |
+|虚拟环境   |是的。   |
 |加入域的服务器角色   |所有内部 Skype for Business Server 2019 服务器角色都必须加入域。   |
 |独立服务器角色   |Skype for Business Server 2019 边缘服务器无需加入域。   |
 |拓扑限制   |必须从同一 Operations Manager 管理组监视部署中所有服务器角色。   |
-|综合事务观察程序节点   |支持使用综合事务观察程序节点监视方案可用性 (所需的其他) 。 观察程序节点不需要加入域。   |
+|综合事务观察程序节点   |使用综合事务观察程序节点监视方案可用性 (所需的其他) 。 观察程序节点不需要加入域。   |
    
 下表显示了综合事务观察程序节点的容量和操作系统要求：
   
@@ -70,11 +70,11 @@ ms.locfileid: "60011586"
     
 -  Microsoft .NET Framework 4.5
     
-- Skype for Business Server UCMA (OcsCore.msi) 和统一通信托管 API (版本)  (核心安装文件必须与 Skype for Business Server WatcherNode.msi 版本) 
+- Skype for Business Server核心安装文件 (OcsCore.msi) UCMA (UCMA)  (版本必须匹配 Skype for Business Server WatcherNode.msi 版本) 
     
 ## <a name="files-in-this-monitoring-pack"></a>此监视包中的文件
 
-Skype for Business Server 2019 的监视包包括以下文件：
+2019 Skype for Business Server监视包包括以下文件：
   
 - Microsoft.LS.2019.Monitoring.ActiveMonitoring.mp
     
@@ -88,17 +88,17 @@ Skype for Business Server 2019 的监视包包括以下文件：
 
 - **[2019 年 9 月更新中的更改](https://www.microsoft.com/download/details.aspx?id=57511)** 某些警报已删除特殊字符。 在某些情况下，特殊字符会干扰 SCOM 命令通道通知功能。
 
-- **客户端登录的自动发现** 登录到 2019 Skype for Business Server应用程序通常会自动发现要登录的服务器。 综合事务现在支持验证自动发现配置是否正确。
+- **客户端登录的自动发现** 登录到 Skype for Business Server 2019 的客户端应用程序通常会自动发现要登录的服务器。 综合事务现在支持验证自动发现配置是否正确。
     
 - **自定义的综合事务运行间隔** 为了简化观察程序节点的设置过程，综合事务可以共享用户帐户。 这会降低测试运行的频率，因为测试被序列化以避免冲突。 默认情况下，综合事务每 15 分钟运行一次，以确保所有测试都有时间运行。 选择使用更多用户或更少每个用户的测试的管理员现在也可以缩短运行间隔。
     
-- **视频互操作服务综合事务** 从其他供应商解决方案迁移到 Skype for Business Server 2019 的客户通常希望继续使用来自这些供应商的视频电话会议设备 (VTC) 视频电话会议设备。 视频互操作服务器是一种新的 Skype for Business Server 2019 服务器角色，使客户可以通过视频 SIP 中继连接到 Cisco CUCM，从而在会议室中继续使用 Cisco VTC。 此功能还添加了综合事务，以帮助验证视频互操作服务器是否启动，并可以处理通过视频 SIP 中继传入的连接。
+- **视频互操作服务综合事务** 从其他供应商解决方案迁移到 Skype for Business Server 2019 的客户通常希望继续使用来自其他供应商的视频电话会议设备 (VTC) 视频电话会议设备。 视频互操作服务器是一种新的 Skype for Business Server 2019 服务器角色，使客户可以通过视频 SIP 中继连接到 Cisco CUCM，从而在会议室中继续使用 Cisco VTC。 此功能还添加了综合事务，以帮助验证视频互操作服务器是否启动，并可以处理通过视频 SIP 中继传入的连接。
     
 - **应用程序共享会议综合事务** 现在支持应用程序共享会议的端到端方案验证。
     
 ## <a name="monitoring-scenarios"></a>监视方案
 
-The Skype for Business Server 2019 Management Pack leverages a variety of features to help you detect and diagnose issues. 这些功能提供对 2019 年 2019 Skype for Business Server状态实时可见性。
+The Skype for Business Server 2019 Management Pack leverages a variety of features to help you detect and diagnose issues. 这些功能提供对 2019 年 2019 Skype for Business Server运行状况实时可见性。
   
 |监视方案|说明|
 |:-----|:-----|
@@ -112,15 +112,15 @@ The Skype for Business Server 2019 Management Pack leverages a variety of featur
 
 警报分为以下类别： 
   
- **高优先级警报：** 这些警报指示导致大型用户组的服务中断的条件，需要立即采取措施。 综合事务和脱机服务（ (音频/视频会议Skype for Business Server）检测到) 中断限定为高优先级警报。 相比之下，单台计算机的组件故障不是高优先级警报。 Skype for Business Server 2019 具有针对这些情况的内置高可用性功能，例如，负载平衡器后面的多个前端服务器。
+ **高优先级警报：** 这些警报指示导致大型用户组的服务中断的条件，需要立即采取措施。 综合事务和脱机服务（如 (/视频会议Skype for Business Server）检测到) 中断限定为高优先级警报。 相比之下，单台计算机的组件故障不是高优先级警报。 Skype for Business Server 2019 具有针对这些情况的内置高可用性功能，例如，负载平衡器后面的多个前端服务器。
   
- **中等优先级警报：** 这些警报指示影响用户子集或指示呼叫质量问题的条件，例如组件故障、呼叫建立延迟或通话中音频质量降低。 此类别的警报是有状态 (即，警报的性质根据网络连接的状态而更改。例如) 如果呼叫建立时间指示延迟，但之后又返回到正常阈值，则此中等优先级警报将在 System Center Operations Manager 中自动解决，管理员无需采取措施。 无法自动解决的警报通常由管理员在同一工作天解决。
+ **中等优先级警报：** 这些警报指示影响用户子集或指示呼叫质量问题的条件，例如组件故障、呼叫建立延迟或通话中音频质量降低。 此类别的警报是有状态 () 即，警报的性质根据网络连接状态而更改。例如，如果呼叫建立时间指示延迟，但随后又返回到正常阈值，则此中等优先级警报将在 System Center Operations Manager 中自动解决，管理员无需采取措施。 无法自动解决的警报通常由管理员在同一工作天解决。
   
  **其他警报：** 这些警报由可能影响特定用户或部分用户的组件生成。 例如，典型的警报是通讯簿服务无法分析用户的 Active Directory® 域服务 (AD DS) 条目：testuser@contoso.com。 管理员可以在有可用时间时处理这些警报。
   
 ### <a name="synthetic-transactions"></a>综合事务
 
-Skype for Business Server 2019 管理包通过综合事务增加了警报的覆盖范围。 综合事务Windows PowerShell集成到 Operations Manager 管理包中以测试端到端用户方案的 cmdlet。 当指定服务器执行综合事务时，管理包会定期触发这些 cmdlet。 由于综合事务导致的故障将生成有状态警报。 以下是 2019 年 Skype for Business Server支持的综合事务：
+Skype for Business Server 2019 管理包通过综合事务增加了警报的覆盖范围。 综合事务Windows PowerShell集成到 Operations Manager 管理包中以测试端到端用户方案的 cmdlet。 当指定服务器执行综合事务时，管理包会定期触发这些 cmdlet。 由于综合事务导致的故障将生成有状态警报。 以下是 2019 年 2019 年Skype for Business Server综合事务：
   
 **支持的注册、状态和联系人综合事务**
 
@@ -163,7 +163,7 @@ Skype for Business Server 2019 管理包通过综合事务增加了警报的覆�
 |17    |AV 边缘连接   |在 Lync Server 2013 及以后可用   |
 |18    |AV 边缘连接Exchange统一消息连接 (语音邮件)    |在 Lync Server 2013 及以后可用   |
 |19   |PSTN 对等呼叫   |在 Lync Server 2010 及以后可用   |
-|20   |XMPP 即时消息 (联盟)    |在 Lync Server 2013 及以后可用   |
+|20   |XMPP 即时消息 (联合身份验证)    |在 Lync Server 2013 及以后可用   |
 | 21   |视频互操作服务器   |在 2015 Skype for Business Server及以后提供   |
    
 ## <a name="how-health-rolls-up"></a>运行状况的汇总
@@ -187,7 +187,7 @@ Skype for Business Server 2019 管理包通过综合事务增加了警报的覆�
    
 ![SCOM 汇总。](../../SfbServer/media/de16195d-3aed-412e-9def-07a481d2ff0f.png)
   
-一Skype for Business Server池可包含多个具有多个Skype for Business Server角色 (Skype for Business Server角色、Skype for Business Server和Skype for Business Server组件) 。 因此，单个服务器或组件的故障对 Skype for Business Server 池的整体运行状况不太关键，因为同一池中的其他服务器可以为客户端提供应用程序服务。 运行状况将按百分比级别汇总到Skype for Business Server池。 
+一Skype for Business Server池可以包含多个单独的Skype for Business Server系统 (具有多个角色Skype for Business Server、Skype for Business Server服务以及Skype for Business Server组件) 。 因此，单个服务器或组件的故障对 Skype for Business Server 池的整体运行状况不太关键，因为同一池中的其他服务器可以为客户端提供应用程序服务。 运行状况将按百分比级别汇总到Skype for Business Server池。 
   
 池Skype for Business Server对池执行综合Skype for Business Server事务。 一个或多个综合事务连续失败 (称为连续轮询间隔) 的进程将严重运行状况汇总到池级别 (任何综合事务) 最差的情况，如下图所示。 
   
@@ -195,7 +195,7 @@ Skype for Business Server 2019 管理包通过综合事务增加了警报的覆�
   
 ## <a name="best-practice-create-a-management-pack-for-customizations"></a>最佳做法：为自定义项创建管理包
 
-默认情况下，Operations Manager 保存所有自定义项，例如对默认管理包的覆盖。 最佳做法是，应为要自定义的每个封装管理包创建单独的管理包。 
+默认情况下，Operations Manager 保存所有自定义项，例如对默认管理包的覆盖。 最佳做法是，应为要自定义的每个密封管理包创建单独的管理包。 
   
 创建用于存储封装管理包的自定义设置的管理包时，我们建议适当地命名新的管理包，例如"Skype for Business Server 2019 自定义"。
   
@@ -237,7 +237,7 @@ Skype for Business Server 2019 管理包通过综合事务增加了警报的覆�
     
 有关 Operations Manager 和监视包的问题，请参阅 System Center [Operations Manager 社区论坛](https://go.microsoft.com/fwlink/p/?LinkID=179635)。
   
-一个有用的资源是 Operations [Manager](https://opsmgrunleashed.wordpress.com/) System Center博客，其中包含特定监视包的"按示例"文章。
+一个有用的资源是 Operations [Manager System Center](https://opsmgrunleashed.wordpress.com/)博客，其中包含特定监视包的"按示例"文章。
   
 有关 Operations Manager 的其他信息，请参阅以下博客： 
   

@@ -1,7 +1,7 @@
 ---
 title: Skype for Business Server 2015 中的持久聊天类别、聊天室和用户角色
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 8/17/2015
@@ -13,16 +13,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 343a0563-9ca5-4ad0-b4f3-a72f1d7f1a81
 description: 摘要：阅读本主题，了解 Skype for Business Server 2015 中持久聊天服务器的类别、聊天室以及用户和管理员角色。
-ms.openlocfilehash: e3740702f43ae677ef451049bfce2a4497a0b992
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0c468092016fae578e3c96987fed88b37db9d1c0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615558"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765210"
 ---
 # <a name="persistent-chat-categories-chat-rooms-and-user-roles-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的持久聊天类别、聊天室和用户角色
  
-**摘要：** 阅读本主题，了解 2015 年 2015 年持久聊天服务器的类别、聊天室、用户和管理员Skype for Business Server角色。
+**摘要：** 阅读本主题以了解 2015 年 10 月持久聊天服务器的类别、聊天室、用户和管理员Skype for Business Server角色。
   
 您可以通过创建聊天室类别，然后指定对类别中的类别和聊天室的访问权限来控制对聊天室的访问。 还可以指定各种管理员角色。 本主题介绍： 
   
@@ -33,7 +33,7 @@ ms.locfileid: "58615558"
 - 管理员角色
 
 > [!NOTE] 
-> 持久聊天在 Skype for Business Server 2015 中可用，但在 2019 年 2 Skype for Business Server不再受支持。 相同的功能在 Teams。 有关详细信息，请参阅[开始升级Microsoft Teams升级](/microsoftteams/upgrade-start-here)。 如果您需要使用持久聊天，则选择将需要此功能的用户迁移到 Teams，或者继续使用 Skype for Business Server 2015。 
+> 持久聊天在 2015 Skype for Business Server可用，但在 2019 年 2 月不再Skype for Business Server支持。 相同的功能在 Teams 中可用。 有关详细信息，请参阅开始[升级Microsoft Teams升级](/microsoftteams/upgrade-start-here)。 如果您需要使用持久聊天，您的选择是迁移需要此功能的用户以Teams或继续使用 Skype for Business Server 2015。 
     
 ## <a name="categories-for-organizing-chat-rooms"></a>用于组织聊天室的类别
 
@@ -42,7 +42,7 @@ ms.locfileid: "58615558"
 "允许"和"拒绝的成员"概念的主要原理是信息墙。 例如，银行和财务机构通常设立了阻止贸易商和分析师在实施策略和约定时共享通信的信息隔离区域。 若要满足此要求，管理员可以创建相应类别，以便一个类别允许创建聊天室并允许贸易商使用该聊天室，而另一个类别允许创建聊天室并允许分析师使用该聊天室。 如果父类别阻止了用户，则不能将用户添加为聊天室的成员。
   
 > [!IMPORTANT]
-> 类别中允许的成员和拒绝的成员与成员角色不同，该角色适用于持久聊天室。> 搜索显示执行搜索的用户位于其"允许"和"拒绝"成员列表中的所有开放和关闭的聊天室。 不会显示加密聊天室，除非进行搜索的用户是加密聊天室的成员。 用户只能搜索自己已经是其成员的聊天室，或者他们可以请求成员身份的聊天室。 
+> 类别中允许和拒绝的成员与成员角色不同，该角色适用于持久聊天室。> 搜索显示执行搜索的用户位于其"允许"和"拒绝"成员列表中的所有开放和关闭的聊天室。 不会显示加密聊天室，除非进行搜索的用户是加密聊天室的成员。 用户只能搜索自己已经是其成员的聊天室，或者他们可以请求成员身份的聊天室。 
   
 ## <a name="chat-rooms-and-user-roles"></a>聊天室和用户角色
 
@@ -60,7 +60,7 @@ ms.locfileid: "58615558"
     > [!IMPORTANT]
     > 如果该管理员还是其他类别的创建者，则他/她可以更改该类别以使自己有权创建聊天室。 
   
-- **成员**：是聊天室成员的用户。 这些用户可以查看目录中的聊天室 (即使聊天室是机密) ，也可以订阅聊天室 (包括元数据选项（如未读消息、自我筛选器和关键字筛选器) ）并参与聊天室 (可以发布的内容，除非聊天室是只有演示者才能发布、获取内容和搜索) 的大会堂聊天室。 不是聊天室成员的用户可以搜索该聊天室（如果他们位于类别的"允许的成员"列表中，但需要请求访问才能加入这些聊天室来访问内容。  (系统中没有内置的请求访问或审批;这些操作通过电子邮件、电话或其他形式的联系人在外部) 
+- **成员**：是聊天室成员的用户。 这些用户可以查看目录中的聊天室 (即使聊天室是机密) ，也可以订阅聊天室 (包括元数据选项（如未读消息、自我筛选器和关键字筛选器) ）并参与聊天室 (可以发布的信息，除非聊天室是只有演示者可以发布消息的大会堂聊天室， 获取内容和搜索) 。 不是聊天室成员的用户可以搜索该聊天室（如果他们位于类别的"允许的成员"列表中，但需要请求访问才能加入这些聊天室来访问内容。  (系统中没有内置的请求访问或审批;这些操作通过电子邮件、电话或其他形式的联系人在外部) 
     
 - **演示者**：可以在大会堂聊天室发布消息的用户。
     
@@ -70,7 +70,7 @@ ms.locfileid: "58615558"
   
 - **持久** 聊天管理员：持久聊天管理员角色可以管理聊天室 (修改所有属性，包括成员身份、管理员、类别、将聊天室标记为禁用) ，以及创建和管理定义可以创建和访问聊天室的聊天室类别。 管理员还可以将聊天室标记为禁用并清理不再处于活动状态的聊天室。 管理员不会受到“创建者”或“允许的成员”限制的影响。 管理员可以创建任何类型的聊天室以及将自己添加为任何聊天室的成员。 管理员还可以修改和管理持久聊天配置 (池属性、全局设置和合规性配置) 还可以规划和实施从旧群聊服务器部署到 Skype for Business Server 2015 持久聊天服务器的迁移。
     
-    持久聊天管理员能够通过远程使用 Windows PowerShell cmdlet 管理持久聊天 (，即从除持久聊天服务器) 。 持久聊天服务器检查持久聊天管理员是持久聊天服务器前端服务器上 RTC 本地管理员本地组的成员。
+    持久聊天管理员能够通过远程使用 Windows PowerShell cmdlet 管理持久聊天 (，即从除持久聊天服务器外的计算机) 。 持久聊天服务器检查持久聊天管理员是持久聊天服务器前端服务器上 RTC 本地管理员本地组的成员。
     
 - **Skype for Business Server 2015 管理员**：负责部署的 Skype for Business Server 2015 的整体企业管理员。
     

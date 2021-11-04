@@ -1,7 +1,7 @@
 ---
 title: 在语音路由配置中发布待处理Skype for Business
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ff941d0b-fb4b-47d2-b866-6d990ac66b81
-description: 摘要：了解如何使用"Skype for Business Server控制面板"查看、发布或取消Skype for Business Server路由配置更改。
-ms.openlocfilehash: 2873520be0b5f7709fb493912be18afa807884c2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 摘要：了解如何使用"Skype for Business Server控制面板"在 Skype for Business Server中查看、发布或取消语音路由配置更改。
+ms.openlocfilehash: bf859dd7ed31a9a08fcba18af1b65cd1f34e8d16
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583186"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60764850"
 ---
 # <a name="publish-pending-changes-to-the-voice-routing-configuration-in-skype-for-business"></a>在语音路由配置中发布待处理Skype for Business
  
-**摘要：** 了解如何使用控制面板查看、发布或取消 Skype for Business Server 中的语音Skype for Business Server更改。
+**摘要：** 了解如何使用控制面板查看、发布或取消 Skype for Business Server 中的语音Skype for Business Server配置更改。
   
 在“语音路由”组的页面中对任何配置设置做出更改后，执行此过程以查看、发布或取消待处理的更改。
   

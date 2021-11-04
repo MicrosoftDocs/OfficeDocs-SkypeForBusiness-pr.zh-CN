@@ -1,7 +1,7 @@
 ---
 title: 会话视图
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 10/20/2015
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 49e33f5b-45d0-4146-a5a4-76954d895a98
 description: 会话视图存储有关在数据库中具有记录的会话的信息。 此视图在 Microsoft Lync Server 2013 中引入。
-ms.openlocfilehash: e39f6c744280e96a6f0fd33c28125196f90ed7cc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 22ad5fdc02eb7b3dc7531a18f4b40bee0334ce09
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593346"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60776012"
 ---
 # <a name="session-view"></a>会话视图
  
 会话视图存储有关在数据库中具有记录的会话的信息。 此视图在 Microsoft Lync Server 2013 中引入。
   
-|**列**|**数据类型**|**Details**|
+|**列**|**数据类型**|**详细信息**|
 |:-----|:-----|:-----|
 |ConferenceDateTime  <br/> |datetime  <br/> |引用自 MediaLine 表。  <br/> |
 |ConferenceURI  <br/> |nvarchar (450)   <br/> |如果是会议，则是会议 URI；如果是点对点会话，则是 DialogID。  <br/> |
@@ -42,10 +42,10 @@ ms.locfileid: "58593346"
 |CalleeEndpoint  <br/> |nvarchar (256)   <br/> |呼叫者的终结点名称。  <br/> |
 |CallerUserAgent  <br/> |nvarchar (256)   <br/> |呼叫者的用户代理字符串。  <br/> |
 |CallerUserAgentType  <br/> |smallint  <br/> |呼叫者的用户代理的类型。 有关详细信息， [请参阅 UserAgent](useragent.md) 表。 <br/> |
-|CallerUserAgentCategory  <br/> |nvarchar (64)  <br/> |呼叫者的用户代理的类别。 有关详细信息，请参阅 [QoE (UserAgentDef) ](useragentdef-qoe.md) 表。 <br/> |
+|CallerUserAgentCategory  <br/> |nvarchar (64)  <br/> |呼叫者的用户代理的类别。 有关详细信息，请参阅[QoE (UserAgentDef) 。](useragentdef-qoe.md) <br/> |
 |CalleeUserAgent  <br/> |nvarchar (256)   <br/> |被叫方的用户代理字符串。  <br/> |
 |CalleeUserAgentType  <br/> |smallint  <br/> |被叫方的用户代理的类型。 有关详细信息， [请参阅 UserAgent](useragent.md) 表。 <br/> |
-|CalleeUserAgentCategory  <br/> |nvarchar (64)  <br/> |被叫方的用户代理类别。 有关详细信息，请参阅 [QoE (UserAgentDef) ](useragentdef-qoe.md) 表。 <br/> |
+|CalleeUserAgentCategory  <br/> |nvarchar (64)  <br/> |被叫方的用户代理类别。 有关详细信息，请参阅[QoE (UserAgentDef) 。](useragentdef-qoe.md) <br/> |
 |CallerURI  <br/> |nvarchar (450)   <br/> |呼叫者的 URI。  <br/> |
 |CalleeURI  <br/> |nvarchar (450)   <br/> |被叫方 URI。  <br/> |
 |CallPrioirty  <br/> |int  <br/> |呼叫的优先级。  <br/> |

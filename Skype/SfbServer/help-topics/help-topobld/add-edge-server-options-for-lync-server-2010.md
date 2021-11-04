@@ -1,7 +1,7 @@
 ---
 title: 添加 Lync Server 2010 的边缘服务器选项
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 0b059af5-e83f-4564-90b2-d7ebb9e551c2
 description: 定义新的边缘服务器或边缘池，并有机会定义新服务器或池的功能。 可以选择的选项有：
-ms.openlocfilehash: 5e597b4fc7961d0d5d05a21746ce32eac09a5085
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cd32d349921038ef7243eac54066d1afe3f2c010
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602677"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60776322"
 ---
 # <a name="add-edge-server-options-for-lync-server-2010"></a>添加 Lync Server 2010 的边缘服务器选项
 
@@ -33,7 +33,7 @@ ms.locfileid: "58602677"
 
 - **启用联盟(端口 5061)**：如果要与使用会话初始协议 (SIP) 的其他 SIP 联盟、提供程序或托管服务进行联盟，则选中此复选框。
 
-- 此边缘池的外部 IP 地址由 **NAT** 转换：如果将专用 IP 地址用于边缘外部接口，并提供网络地址转换 (NAT) 设备以逻辑方式将边缘服务器或边缘池放在后面，请选中此复选框。
+- 此边缘池的外部 IP 地址由 **NAT** 转换：如果将专用 IP 地址用于边缘外部接口，并且将提供网络地址转换 (NAT) 设备以在逻辑上隐藏边缘服务器或边缘池，请选中此复选框。
 
 ## <a name="see-also"></a>另请参阅
 

@@ -1,7 +1,7 @@
 ---
 title: 会议配置
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/24/2015
@@ -15,16 +15,16 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 24e8f749-d54c-4315-a8fe-bb9303b356ef
 description: 会议配置设置定义会议类型 (也称为会议类型) 用户可以创建会议类型，并控制 (或) 匿名用户和电话拨入式会议用户是否可以加入这些会议。 这些设置仅适用于安排的会议。 它们不适用于通过单击客户端中的"现在开会"选项创建临时会议。
-ms.openlocfilehash: a0b5f10cbf76e90e58723be3ec05a918a2e2e6fc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a54d6d11e2df3554331c407518f93290ae8cc8fb
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610929"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766750"
 ---
 # <a name="meeting-configuration"></a>会议配置
 
-会议配置设置定义 (也称为"会议") 用户可创建的会议类型，并控制 (或) 匿名用户和电话拨入式会议用户是否可以加入这些会议。 这些设置仅适用于安排的会议。 它们不适用于通过单击客户端中的"现在开会"选项创建临时会议。
+会议配置设置定义会议类型 (也称为"会议") 用户可以创建的会议类型，并控制 (或) 匿名用户和电话拨入式会议用户是否可以加入这些会议。 这些设置仅适用于安排的会议。 它们不适用于通过单击客户端中的"现在开会"选项创建临时会议。
 
 在全局级、站点级或池级上应用会议配置：
 

@@ -1,7 +1,7 @@
 ---
 title: 在客户端中配置双重Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,26 +13,26 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c24e0891-e108-4cb6-9902-c6a4c8e68455
 description: 摘要：在部署中配置双重Skype for Business Server。
-ms.openlocfilehash: 447039a5dd137482c330325fcf479dade583f395
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: c1749c6fcd97e10f7e09ddc243059cedc695fb65
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014366"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751791"
 ---
 # <a name="configure-two-factor-authentication-in-skype-for-business-server"></a>在客户端中配置双重Skype for Business Server
 
 **摘要：** 在客户端中配置双重Skype for Business Server。
 
-以下各节介绍为部署配置双重身份验证所需的步骤。 有关双重身份验证详细信息，请参阅[Enabling Office 365 multi-factor authentication for online administrators - Grid User Post](https://go.microsoft.com/fwlink/p/?LinkId=313332)。
+以下各节介绍为部署配置双重身份验证所需的步骤。 有关双重身份验证详细信息，请参阅为联机管理员启用Office 365多重身份验证[- 网格用户帖子](https://go.microsoft.com/fwlink/p/?LinkId=313332)。
 
 ## <a name="configure-an-enterprise-root-certificate-authority-to-support-smart-card-authentication"></a>配置Enterprise根证书颁发机构以支持智能卡身份验证
 
 以下步骤介绍如何配置 Enterprise 根 CA 以支持智能卡身份验证：
 
-若要了解如何安装根 CA Enterprise，请参阅安装 Enterprise[根证书颁发机构](/previous-versions/windows/it-pro/windows-server-2003/cc776709(v=ws.10))。
+若要了解如何安装根 CA Enterprise，请参阅安装Enterprise[根证书颁发机构](/previous-versions/windows/it-pro/windows-server-2003/cc776709(v=ws.10))。
 
-1. 使用域管理员帐户Enterprise CA 计算机登录。
+1. 使用域管理员Enterprise CA 计算机登录。
 
 2. 启动系统管理器，并验证是否安装了证书颁发机构 Web 注册角色。
 
@@ -58,7 +58,7 @@ ms.locfileid: "60014366"
 
     - 使用读取/注册权限添加单个用户 AD (允许) 或
 
-    - 添加一个安全组，其中包含具有读取/注册权限的 (允许) 智能卡用户，或者
+    - 添加包含具有读取/注册权限的智能卡 (允许) 组，或
 
     - 添加具有读取/注册权限的域 (允许) 组
 
@@ -72,13 +72,13 @@ ms.locfileid: "60014366"
 
 1. 使用启用Windows 8的用户的凭据登录到Skype for Business计算机。
 
-2. 在Windows 8开始"屏幕上，将光标移到屏幕右下角。
+2. 在Windows 8屏幕中，将光标移到屏幕右下角。
 
 3. 选择" **搜索"** 选项，然后搜索"命令提示"。
 
 4. 右键单击命令 **提示符**，然后选择以 **管理员角色运行**。
 
-5. 通过运行以下命令 (TPM) 控制台中打开受信任的平台模块：
+5. 通过运行以下命令 (TPM) 管理控制台中打开受信任的平台模块：
 
    ```console
    Tpm.msc
@@ -87,7 +87,7 @@ ms.locfileid: "60014366"
 6. 从 TPM 管理控制台中，验证 TPM 规范版本是否至少为 1.2
 
     > [!NOTE]
-    > 如果收到一个对话框，指出找不到兼容的信任平台模块 (TPM) ，请验证计算机是否具有兼容的 TPM 模块，以及它在系统 BIOS 中是否已启用。
+    > 如果您收到一个对话框，指出找不到兼容信任平台模块 (TPM) ，请验证计算机是否具有兼容的 TPM 模块，以及它在系统 BIOS 中是否已启用。
 
 7. 关闭 TPM 管理控制台
 
@@ -174,7 +174,7 @@ ms.locfileid: "60014366"
     >  如果证书请求失败并出现错误"此 Web 浏览器不支持生成证书请求"，则有三种可能的方法可以解决此问题：
     >- 启用"兼容性视图"Internet Explorer。
     >- 启用"打开 Intranet 设置"选项Internet Explorer。
-    >- 选择"选项"菜单中"安全"选项卡下的"将所有区域重置为默认Internet Explorer设置。
+    >- 选择"选项"菜单中"安全"选项卡下的"将所有区域重置为Internet Explorer设置。
 
 ## <a name="configure-active-directory-federation-services-ad-fs-20"></a>配置 Active Directory 联合身份验证服务 (AD FS 2.0) 
 
@@ -205,7 +205,7 @@ ms.locfileid: "60014366"
 
 6. 展开 **"信任**  >  **关系信赖方信任"。**
 
-7. 验证是否为用户创建了新的信任Skype for Business Server。
+7. 确认已针对您的应用程序创建了Skype for Business Server。
 
 8. 通过运行以下命令，使用 Windows PowerShell为信赖方信任创建和分配颁发授权规则：
 
@@ -242,7 +242,7 @@ ms.locfileid: "60014366"
 
 - 传输层安全性客户端身份验证
 
-使用基于表单的身份验证，您可以开发一个网页，允许用户通过使用其用户名/密码或通过使用其智能卡和 PIN 进行身份验证。 本主题重点介绍如何使用 AD FS 2.0 实现传输层安全客户端身份验证。 有关 AD FS 2.0 身份验证类型的信息，请参阅 [AD FS 2.0：如何更改本地身份验证类型](https://go.microsoft.com/fwlink/p/?LinkId=313384)。
+使用基于表单的身份验证，您可以开发允许用户通过使用其用户名/密码或通过使用其智能卡和 PIN 进行身份验证的网页。 本主题重点介绍如何使用 AD FS 2.0 实现传输层安全客户端身份验证。 有关 AD FS 2.0 身份验证类型的信息，请参阅 [AD FS 2.0：如何更改本地身份验证类型](https://go.microsoft.com/fwlink/p/?LinkId=313384)。
 
 ### <a name="to-configure-ad-fs-20-to-support-client-authentication"></a>配置 AD FS 2.0 以支持客户端身份验证
 
@@ -254,7 +254,7 @@ ms.locfileid: "60014366"
 
 4. 创建现有数据库文件的web.config副本。
 
-5. 使用"web.config打开现有 记事本。
+5. 使用 web.config 打开现有 记事本。
 
 6. 从"菜单"栏中，选择 **"编辑"，** 然后选择"查找 **"。**
 
@@ -276,7 +276,7 @@ ms.locfileid: "60014366"
 
 ## <a name="configuring-skype-for-business-server-passive-authentication"></a>配置Skype for Business Server身份验证
 
-下一节介绍如何配置Skype for Business Server以支持被动身份验证。 启用后，启用了双重身份验证的用户需要使用物理或虚拟智能卡和有效的 PIN 才能使用 Skype for Business 客户端登录。
+下一节介绍如何配置Skype for Business Server以支持被动身份验证。 启用后，启用双重身份验证的用户需要使用物理或虚拟智能卡和有效 PIN 才能使用 Skype for Business 登录。
 
 > [!NOTE]
 > 强烈建议客户在服务级别为注册器和 Web 服务启用被动身份验证。 如果在全局级别为注册器和 Web 服务启用被动身份验证，则可能导致未使用受支持的桌面客户端登录的用户在组织范围内进行身份验证失败。
@@ -291,7 +291,7 @@ ms.locfileid: "60014366"
 
 2. 启动 Skype for Business Server 命令行管理程序。
 
-3. 从 Skype for Business Server 命令行中，通过运行以下命令，为每个将启用被动身份验证的控制器、Enterprise 池和 Standard Edition 服务器创建新的 Web 服务配置：
+3. 从 Skype for Business Server 命令行管理程序命令行中，通过运行以下命令，为每个将启用被动身份验证的控制器、Enterprise 池和 Standard Edition 服务器创建新的 Web 服务配置：
 
   ```PowerShell
   New-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
@@ -306,7 +306,7 @@ ms.locfileid: "60014366"
   Get-CsWebServiceConfiguration -identity "Service:WebServer:SfBPool01.contoso.com" | format-list UseWsFedPassiveAuth, WsFedPassiveMetadataUri
   ```
 
-5. 对于客户端，被动身份验证是 Webticket 身份验证最不首选的身份验证方法。 对于将启用被动身份验证的所有控制器、Enterprise 池和 Standard Edition 服务器，必须通过运行以下 cmdlet 在 Skype for Business Web 服务中禁用所有其他身份验证类型：
+5. 对于客户端，被动身份验证是 Webticket 身份验证最不首选的身份验证方法。 对于将Enterprise被动身份验证的所有控制器、Enterprise 池和 Standard Edition 服务器，必须通过运行以下 cmdlet 在 Skype for Business Web 服务中禁用所有其他身份验证类型：
 
   ```PowerShell
   Set-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" -UseCertificateAuth $false -UsePinAuth $false -UseWindowsAuth NONE
@@ -326,7 +326,7 @@ ms.locfileid: "60014366"
 
 ### <a name="to-create-a-custom-proxy-configuration"></a>创建自定义代理配置
 
-1. 从 Skype for Business Server 命令行管理程序，为每个 Skype for Business Server 边缘池、Enterprise 池和 Standard Edition 服务器创建新的代理配置，这些服务器通过运行以下命令启用被动身份验证命令：
+1. 从 Skype for Business Server 命令行，为每个 Skype for Business Server 边缘池、Enterprise 池和 Standard Edition 服务器创建新的代理配置，这些服务器通过运行以下命令启用被动身份验证命令：
 
   ```PowerShell
   New-CsProxyConfiguration -Identity "Service:EdgeServer:EdgePool01.contoso.com" -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
@@ -336,7 +336,7 @@ ms.locfileid: "60014366"
   New-CsProxyConfiguration -Identity "Service:Registrar:SfBPool01.contoso.com" -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
   ```
 
-2. 通过运行以下命令验证所有其他代理身份验证类型是否成功禁用：
+2. 通过运行以下命令验证是否成功禁用所有其他代理身份验证类型：
 
   ```PowerShell
   Get-CsProxyConfiguration -Identity "Service:Registrar:SfBPool01.contoso.com" | format-list UseKerberosForClientToProxyAuth, UseNtlmForClientToProxyAuth, UseCertifcateForClientToProxyAuth

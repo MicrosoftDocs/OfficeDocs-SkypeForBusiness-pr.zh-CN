@@ -1,6 +1,6 @@
 ---
 title: 为学校中的大量用户分配策略
-author: cichur
+author: serdars
 ms.author: serdars
 manager: serdars
 ms.reviewer: karsmith, angch, cebulnes
@@ -15,14 +15,14 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 了解如何根据组成员身份或直接通过远程学校、远程学校 (批量分配，为教育机构中的大量用户) 策略。
+description: 了解如何根据组成员身份或直接通过远程学校、远程学校 (批量分配，为教育机构中的大量用户分配) 策略。
 f1keywords: ''
-ms.openlocfilehash: 839a66cbaad393f21053ee385017f6a870c60d83
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: 3cd0bfd791d2416de31d998c693002cce87f6fcd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605178"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745698"
 ---
 # <a name="assign-policies-to-large-sets-of-users-in-your-school"></a>为学校中的大量用户分配策略
 
@@ -33,7 +33,7 @@ ms.locfileid: "60605178"
 
 ## <a name="overview"></a>概述
 
-是否需要为学生和教师提供对应用内不同功能Microsoft Teams？ 可以按许可证类型快速标识组织中用户，然后为其分配适当的策略。 本教程介绍如何向学校中的大量用户分配会议策略。 可以使用管理中心Microsoft Teams PowerShell 分配策略，我们将展示这两种方法。
+你是否需要为学生和教师提供对应用内不同功能Microsoft Teams？ 可以按许可证类型快速标识组织中用户，然后为其分配适当的策略。 本教程介绍如何向学校中的大量用户分配会议策略。 可以使用管理中心Microsoft Teams PowerShell 分配策略，我们将展示这两种方法。
 
 可以将会议策略分配给用户作为成员的安全组，或者直接通过批处理策略分配大规模地将会议策略分配给用户。 你将了解以下内容：
 
@@ -60,7 +60,7 @@ ms.locfileid: "60605178"
 ### <a name="before-you-get-started"></a>开始之前
 
 > [!IMPORTANT]
-> 将策略分配到组时，策略分配将按照优先级规则传播到该组的成员。 例如，如果直接为用户分配了一个策略 (单独分配或批处理分配) ，则该策略优先于从组继承的策略。 这也意味着，如果用户具有直接分配给他们的会议策略，则你必须从该用户中删除该会议策略，然后才能从安全组继承会议策略。
+> 将策略分配到组时，策略分配根据优先级规则传播到该组的成员。 例如，如果直接为用户分配了一个策略 (单独分配或批处理分配) ，则该策略优先于从组继承的策略。 这也意味着，如果用户具有直接分配给他们的会议策略，则你必须从该用户中删除该会议策略，然后才能从安全组继承会议策略。
 
 在开始使用之前，必须了解优先级[规则和](policy-assignment-overview.md#which-policy-takes-precedence)[组分配排名](assign-policies-users-and-groups.md#group-assignment-ranking)。 **请确保阅读并了解有关组的策略分配的信息 [中的概念](assign-policies-users-and-groups.md#what-you-need-to-know-about-policy-assignment-to-groups)**。
 
@@ -74,7 +74,7 @@ ms.locfileid: "60605178"
 
 首先，为教职员工和教师创建安全组。
 
-使用[学校数据同步](/SchoolDataSync/) (SDS) ，可以轻松[创建学校教师和学生](/SchoolDataSync/edu-security-groups)的安全组。 建议使用 SDS 创建管理学校策略所需的安全组。
+使用[学校数据同步 (](/SchoolDataSync/) SDS) ，可以轻松[创建学校教师和学生](/SchoolDataSync/edu-security-groups)的安全组。 建议使用 SDS 创建管理学校策略所需的安全组。
 
 如果无法在环境中部署 SDS，请使用此 [PowerShell](scripts/powershell-script-security-groups-edu.md) 脚本创建两个安全组，一个安全组用于分配有教职员工许可证的所有教职员工和教师，另一个安全组用于分配有学生许可证的所有学生。 需要定期运行此脚本，使组保持最新状态。
 
@@ -122,7 +122,7 @@ Connect-MicrosoftTeams
 
 ##### <a name="assign-a-policy-to-a-group"></a>向组分配策略
 
-运行以下代码，将名为"教师""MeetingPolicy"的会议策略分配给包含教职员工和教师的安全组，并将作业排名设置为 1。 可以使用对象 ID、会话启动协议和 SIP (或电子邮件地址) 安全组。 本示例使用电子邮件地址 (staff-faculty@contoso.com) 。
+运行以下代码，将名为"教师""MeetingPolicy"的会议策略分配给包含教职员工和教师的安全组，并将作业排名设置为 1。 可以使用对象 ID、会话启动协议或 SIP (或电子邮件地址) 安全组。 本示例使用电子邮件地址 (staff-faculty@contoso.com) 。
 
 ```powershell
 New-CsGroupPolicyAssignment -GroupId staff-faculty@contoso.com -PolicyType TeamsMeetingPolicy -PolicyName "EducatorMeetingPolicy" -Rank 1
@@ -163,7 +163,7 @@ $users_ids = @("reda@contoso.com", "nikica@contoso.com", "jamie@contoso.com")
 New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName $null -Identity $users_ids -OperationName "Unassign meeting policy"
 ```
 
-本示例将会议策略从名为 user_ids.txt 的文本文件中的用户列表中删除。
+本示例从名为 user_ids.txt 的文本文件中的用户列表中删除会议user_ids.txt。
 
 ```powershell
 $user_ids = Get-Content .\users_ids.txt
@@ -199,7 +199,7 @@ Get-CsUserPolicyAssignment -Identity reda@contoso.com
 
 ##### <a name="install-and-connect-to-the-azure-ad-powershell-for-graph-module"></a>安装并连接到 Azure AD PowerShell for Graph 模块
 
-打开提升的 Windows PowerShell 命令提示符 (以管理员 Windows PowerShell 运行) ，然后运行以下命令来安装 Azure Active Directory PowerShell for Graph 模块。
+打开提升的 Windows PowerShell 命令提示符 (以 Windows PowerShell 管理员) 运行) ，然后运行以下命令来安装 Azure Active Directory PowerShell for Graph 模块。
 
 ```powershell
 Install-Module -Name AzureAD
@@ -294,7 +294,7 @@ Get-CsBatchPolicyAssignmentOperation -OperationId 3964004e-caa8-4eb4-b0d2-7dd2c8
 $faculty.count
 ```
 
-不是提供完整的用户 ID 列表，而是运行以下代码来指定前 5，000 个，然后指定接下来的 5，000 个，以此类比。
+不是提供用户 ID 的整个列表，而是运行以下代码来指定前 5，000 个，然后指定接下来的 5，000 个，以此类比。
 
 ```powershell
 New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName EducatorMeetingPolicy -Identity $faculty[0..19999].ObjectId

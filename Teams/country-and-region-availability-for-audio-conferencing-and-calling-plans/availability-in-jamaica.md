@@ -1,7 +1,7 @@
 ---
 title: 在牙买加的可用性
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: 5a1ad442ad23aaf6fea64b9822feba536339c679
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ecac9baf800bd588d295fd686c14ca748183f407
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607679"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745678"
 ---
 # <a name="availability-in-jamaica"></a>在牙买加的可用性
 

@@ -1,7 +1,7 @@
 ---
 title: 在 Skype for Business 中部署呼叫管理功能
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 1667cfe4-76fa-4e10-91bb-b3efbedbf759
 description: 在 Skype for Business Server 企业语音 中部署呼叫管理功能。
-ms.openlocfilehash: 3d577e1ea74ef3d8a6152a457d82506927a19763
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c2ec7aa07d85bc2765dde5d497ba75e6a2932f81
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610129"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751321"
 ---
 # <a name="deploy-call-management-features-in-skype-for-business"></a>在 Skype for Business 中部署呼叫管理功能
  
@@ -37,7 +37,7 @@ ms.locfileid: "58610129"
     
 - **通知**：向对未分配号码发出的呼叫播放消息，或将其路由至其他位置，或同时执行两者。
     
-本节介绍如何在部署过程中配置这些企业语音功能。
+本节介绍如何在部署期间配置这些呼叫企业语音功能。
   
 ## <a name="in-this-section"></a>本节内容
 

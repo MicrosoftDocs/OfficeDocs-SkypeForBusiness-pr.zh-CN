@@ -1,7 +1,7 @@
 ---
 title: Configure providers for Centralized Logging Service in Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 6a197ecf-b56b-45e0-8e7c-f532ec5164ff
 description: 摘要：了解如何为 Skype for Business Server 2015 中的集中日志记录服务配置方案提供程序。
-ms.openlocfilehash: ef1c728615d34e074ea041e261b4fc5b220e1fdd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a0c15061f209da9389018412322ea705f93b614f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616538"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751661"
 ---
 # <a name="configure-providers-for-centralized-logging-service-in-skype-for-business-server-2015"></a>Configure providers for Centralized Logging Service in Skype for Business Server 2015
  
@@ -39,7 +39,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Skype for Business Server 201
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 ```
 
-本主题的其余部分将重点说明如何定义提供程序、修改提供程序以及提供程序定义为优化您的疑难解答所包含的内容。 有两种方法可以发出集中日志记录服务命令。 默认情况下，您可以使用CLSController.exe C：\Program Files\Common Files\Skype for Business Server 2015\CLSAgent 目录中的目录。 或者，您可以使用命令行管理Skype for Business Server发出Windows PowerShell命令。 通过使用Windows PowerShell，您可以定义用于日志记录会话的新提供程序，并完全控制其创建、收集内容以及收集数据的级别。
+本主题的其余部分将重点说明如何定义提供程序、修改提供程序以及提供程序定义为优化您的疑难解答所包含的内容。 有两种方法可以发出集中日志记录服务命令。 默认情况下，CLSController.exe位于目录 C：\Program Files\Common Files\Skype for Business Server 2015\CLSAgent 中的文件。 或者，您可以使用命令行管理Skype for Business Server发出Windows PowerShell命令。 通过使用 Windows PowerShell，您可以定义用于日志记录会话的新提供程序，并完全控制其创建、收集内容以及收集数据的级别。
   
 > [!IMPORTANT]
 > 如前所述，提供程序的功能十分强大。但是，方案的功能更为强大，因为方案是对提供程序表示的组件进行设置并执行跟踪所需的所有信息的具体体现。由于方案将包含一组提供程序，因此将运行一个包含几百条用于收集大量信息的命令的批处理文件与在命令行中一次性发出几百条命令相比是不受限制的。 
@@ -120,7 +120,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
    $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Info" -Flags "All"
    ```
 
--Level 收集致命消息、错误消息、警告消息和信息消息。 使用的标志都是为 Lyss 提供程序定义的标志，包括 TF_Connection、TF_Diag 和 TF_Protocol。定义变量 $LyssProvider 后，您可以与 **New-CsClsScenario** cmdlet 一起使用它从 Lyss 提供程序收集跟踪。 若要创建提供程序并将其分配给新的方案，请键入：
+-Level 收集致命消息、错误消息、警告消息和信息消息。 使用的标志都是为 Lyss 提供程序定义的标志，包括 TF_Connection、TF_Diag 和 TF_Protocol。定义变量 $LyssProvider 后，可以与 **New-CsClsScenario** cmdlet 一起使用它从 Lyss 提供程序收集跟踪。 若要创建提供程序并将其分配给新的方案，请键入：
 
 ```PowerShell
 New-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider $LyssProvider

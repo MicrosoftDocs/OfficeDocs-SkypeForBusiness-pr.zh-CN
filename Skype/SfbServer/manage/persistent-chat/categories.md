@@ -1,7 +1,7 @@
 ---
 title: Manage categories in Persistent Chat Server in Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 1/31/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b0c834b9-b5c8-41d5-865b-c8b180e76d13
 description: 摘要：了解如何在 Skype for Business Server 2015 中管理持久聊天服务器类别。
-ms.openlocfilehash: a69d8ec3119f9f94f9f5c864ec0e0d2d613b0e20
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e9892f032d5af24d1394fddc6965ead6e769472e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622214"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60776192"
 ---
 # <a name="manage-categories-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Manage categories in Persistent Chat Server in Skype for Business Server 2015
  
@@ -36,12 +36,12 @@ ms.locfileid: "58622214"
     
 标识为 (创建者的用户、组织单位) 和用户组是唯一被允许在类别中创建聊天室的个人和组。 创建类别后，可以从类别的 AllowedMembers 列表中选择用户、US 和用户组作为聊天室管理员和成员来管理和参与聊天室。 
   
-在配置类别之前，请务必阅读 Skype for Business Server [2015](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md)中的持久聊天类别、聊天室和用户角色。
+在配置类别之前，请务必阅读[Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md)中的持久聊天类别、聊天室和用户角色。
   
 可以使用控制面板或 cmdlet 配置和管理Windows PowerShell类别。
 
 > [!NOTE]
-> 持久聊天在 Skype for Business Server 2015 中可用，但在 2019 年 2 Skype for Business Server不再受支持。 相同的功能在 Teams。 有关详细信息，请参阅[开始升级Microsoft Teams升级](/microsoftteams/upgrade-start-here)。 如果您需要使用持久聊天，则选择将需要此功能的用户迁移到 Teams，或者继续使用 Skype for Business Server 2015。 
+> 持久聊天在 2015 Skype for Business Server可用，但在 2019 年 2 月不再Skype for Business Server支持。 相同的功能在 Teams 中可用。 有关详细信息，请参阅开始[升级Microsoft Teams升级](/microsoftteams/upgrade-start-here)。 如果您需要使用持久聊天，您的选择是迁移需要此功能的用户以Teams或继续使用 Skype for Business Server 2015。 
   
 ## <a name="configure-categories-by-using-the-control-panel"></a>使用控制面板配置类别
 

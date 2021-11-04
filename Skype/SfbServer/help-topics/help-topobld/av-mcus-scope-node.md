@@ -1,7 +1,7 @@
 ---
 title: AV MCU 范围节点
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/25/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 76edf3b8-10c6-4c61-bbef-395f56d298ed
 description: “A/V 会议池”节点列出了拓扑中的 A/V 会议池。可以执行以下操作：
-ms.openlocfilehash: 20e3ed5c9e505907e7c4dc73c2c87a46b73aa956
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0819a847c57ed3bc9a8a27961b3492a904a6022c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612411"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751931"
 ---
 # <a name="av-mcus-scope-node"></a>AV MCU 范围节点
  
