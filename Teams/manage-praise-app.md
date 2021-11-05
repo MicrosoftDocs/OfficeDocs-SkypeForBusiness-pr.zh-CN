@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
 description: 了解管理中心内 表扬 应用中的Microsoft Teams设置
-ms.openlocfilehash: a65fae76440a520e4ed0054f9ac039e417c0e60e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c67f70150c2b8635bd317f724004471f4b73e800
+ms.sourcegitcommit: 36761f644b9af5bdef30fe1c3817defc278b965e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763050"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "60793450"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>在 表扬 管理中心Microsoft Teams应用
 
@@ -28,7 +28,7 @@ ms.locfileid: "60763050"
 ![设置应用的"表扬选项卡的屏幕截图。](media/manage-praise-app-settings.png)
 
 > [!NOTE]
-> 表扬应用功能不适用于美国政府云。
+> 表扬应用适用于GCC环境，但不适用于 GCC High 或 DoD。
 
 ## <a name="use-built-in-badge-sets"></a>使用内置锁屏提醒集
 
@@ -87,7 +87,7 @@ ms.locfileid: "60763050"
 
 例如，红色表示的十六进制值是#FF0000因为红色设置为可能的最高值，而绿色和蓝色分别设置为可能的最低值 00。
 
-若要浏览不同颜色及其十六进制值，请查看必应[选取器](https://www.bing.com/search?q=color+picker)。
+若要浏览不同的颜色及其十六进制值，请查看必应[器。](https://www.bing.com/search?q=color+picker)
 
 下面是一系列示例颜色，可让你入门：
 
@@ -108,7 +108,7 @@ ms.locfileid: "60763050"
 
 **选择颜色时，请记住辅助功能。** 某些颜色相加效果更好。  在文本和背景颜色之间创建对比度，使锁屏提醒名称易于阅读。 例如，如果选择深色背景色，请选择浅色文本颜色。
 
-**选择图像时，请记住锁屏提醒尺寸。** 为获得最佳质量，我们建议上传 216 x 216 像素的图像文件 (是图像的最大尺寸) 。 避免拉伸或扭曲图像以适应这些尺寸。
+**选择图像时，请记住锁屏提醒尺寸。** 为获得最佳质量，我们建议上传 216 x 216 像素的图像文件， (尺寸最大) 。 避免拉伸或扭曲图像以适应这些尺寸。
 
 **如果你的锁屏提醒图像不是矩形，请使图像透明。** 在将图像文件上传到其他位置之前，需要表扬。
 
