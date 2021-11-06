@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 了解支持设备的要求Microsoft Teams 会议室，包括选择合适的设备、麦克风、扬声器、摄像头和显示器。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e9c379fd289c1fb7512a15b4d8f36f412279b121
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+ms.openlocfilehash: 8faa67db5187fb2fa28f1241d969ef4e90b031fd
+ms.sourcegitcommit: ae60b65f866c7ca7556ba5b0cf6f1d902c4454fc
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733353"
+ms.lasthandoff: 11/06/2021
+ms.locfileid: "60798485"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams 会议室要求
 
@@ -82,7 +82,7 @@ Microsoft Teams 会议室缩放到不同的房间大小。 Teams 会议室房间
   |[Logitech Tap 和 Lenovo ThinkSmart Tiny](https://www.logitech.com/video-collaboration/partners/lenovo.html)|Core i5|8 GB |128 GB|
   |[Poly G10-T 与 Lenovo ThinkSmart Tiny](https://www.poly.com/us/en/products/video-conferencing/g/g10) |Core i5| 8 GB | 128 GB|
   |将 Poly GC10-T 与 Lenovo Thinksmart Core 一起|Core i5|8 GB|128 GB|
-  |Poly GC10-T 与 Dell 7080|Core i5|8 GB|128 GB|
+  |Poly GC8 Console with Dell Optiplex 7080|Core i5|8 GB|128 GB|
   |[Yealink MVC300 与 Intel NUC](https://www.yealink.com/products_154.html)|Core i5|8 GB |128 GB |
   |[Yealink MVC500 与 Intel NUC](https://www.yealink.com/products_126.html)|Core i5|8 GB |128 GB |
   |[Yealink MVC800 与 Intel NUC](https://www.yealink.com/products_125.html)|Core i5|8 GB|128 GB|
@@ -194,7 +194,7 @@ Microsoft Teams 会议室缩放到不同的房间大小。 Teams 会议室房间
 |[Bose ControlSpace EX-440C DSP + </br> Bose P2600A AmpLink 放大器 + Sennheiser TCC2 Ceiling Microphone + </br> Bose DesignMax DM2C-P Ceiling Speaker](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html)|  Bose DSP：2.290  </br> P2600A：1.160  </br> TCC2：1.4.2  |  |
 |[Bose ControlSpace EX-1280C DSP](https://pro.bose.com/en_us/products/signal_processing_and_networking/controlspace_ex/cs_ex_1280c.html#v=cs_ex_1280c_black) +</br>Bose P2600A AmpLink 开发器 +</br> [Sennheiser TCC2 Ceiling Microphone](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html) +</br> [DesignMax DM2C -LP Ceiling Speaker](https://pro.bose.com/en_us/products/loudspeakers/background_foreground/designmax/designmax_dm2c_lp.html#v=designmax_dm2c_lp_black) | Bose DSP：2.290  </br> P2600A：1.160  </br> TCC2：1.4.2  | 
 |[Bose ControlSpace EX-1280C DSP](https://pro.bose.com/en_us/products/signal_processing_and_networking/controlspace_ex/cs_ex_1280c.html#v=cs_ex_1280c_black) +</br>Bose P2600A AmpLink 一键+</br> [Sennheiser TCC2 Ceiling Microphone](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html) +</br> [EdgeMax EM180 Ceiling Speaker](https://pro.bose.com/en_us/products/loudspeakers/background_foreground/edgemax/edgemax_em180.html#v=edgemax_em180_white) | Bose DSP：2.290  </br> P2600A：1.160  </br> TCC2：1.4.2  |
-|QSC Q-SYS Core ([110f、8](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-110f/) [Flex、Nano](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-nano/)或[NV-32-H](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/nv-32-h-core-capable/)) + [](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-8-flex/) </br> [Sennheiser TCC2 Ceiling Microphone](https://en-us.sennheiser.com/tcc2) + </br> QSC (SPA [系列](https://www.qsc.com/solutions-products/power-amplifiers/installed/non-network/low-power-applications/spa-series/) 或 [CX-Q 系列) ](https://www.qsc.com/solutions-products/power-amplifiers/installed/network/cx-q-series/) + </br> [QSC AcousticDesign 系列扬声器](https://www.qsc.com/solutions-products/loudspeakers/installed/passive/solutions/acousticdesigntm-series-solutions/) + </br> QSC IP 相机 ([PTZ-IP 20x60、PTZ-IP](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/) [12x72](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/)) 可选 + </br> [QSC Q-SYS I/O USB 桥可选](https://www.qsc.com/solutions-products/q-sys-ecosystem/audio-io-peripherals/io-usb-bridge/) | QSC Q-SYS Core、PTZ-IP 相机和 I/O USB 桥：QSC Q-SYS Designer 9.0.1-2104.022 </br> Sennheiser TCC2 Ceiling Microphone： TCC2 - 1.5.1， Dante 1.2.0 </br> QSC 放大器：N/A </br> QSC AcousticDesign 系列扬声器：N/A | 
+|QSC Q-SYS Core ([110f、8](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-110f/) [Flex、Nano](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-nano/)或[NV-32-H](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/nv-32-h-core-capable/)) + [](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-8-flex/) </br> [Sennheiser TCC2 Ceiling Microphone](https://en-us.sennheiser.com/tcc2) + </br> QSC 放大 ([SPA 系列](https://www.qsc.com/solutions-products/power-amplifiers/installed/non-network/low-power-applications/spa-series/) 或 [CX-Q 系列) ](https://www.qsc.com/solutions-products/power-amplifiers/installed/network/cx-q-series/) + </br> [QSC AcousticDesign 系列扬声器](https://www.qsc.com/solutions-products/loudspeakers/installed/passive/solutions/acousticdesigntm-series-solutions/) + </br> QSC IP 相机 ([PTZ-IP 20x60、PTZ-IP](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/) [12x72](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/)) 可选 + </br> [QSC Q-SYS I/O USB 桥可选](https://www.qsc.com/solutions-products/q-sys-ecosystem/audio-io-peripherals/io-usb-bridge/) | QSC Q-SYS Core、PTZ-IP 相机和 I/O USB 桥：QSC Q-SYS Designer 9.0.1-2104.022 </br> Sennheiser TCC2 Ceiling Microphone： TCC2 - 1.5.1， Dante 1.2.0 </br> QSC 放大器：N/A </br> QSC AcousticDesign 系列扬声器：N/A | 
 
 
 &Dagger; 客户可以选择 Biamp/Sennheiser 为此捆绑包推荐的 Dante 界面或网络交换机。
