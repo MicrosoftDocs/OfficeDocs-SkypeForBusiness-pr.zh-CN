@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 69a197d75f3b229f32117e7923a390691e8c4fa5
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: f76fa8a527de5cc56d6ae1d2f6a657bf702d9b35
+ms.sourcegitcommit: eba9fc680233e9e03773a2942f22afe6247eec41
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727381"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60824671"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>了解 Microsoft Teams 和 Skype for Business 的共存和互操作性
 
@@ -49,16 +49,16 @@ ms.locfileid: "58727381"
 
 以下部分介绍了当决定升级到 Teams 时可用的共存模式，以及每个模式提供的功能。 此外，我们还介绍了 Skype-for-Business 客户端上的用户和 Teams 客户端上的用户之间发生的互操作性 (互操作)，以及所选择的共存模式对互操作的影响。
 
- Teams 提供协作功能、聊天、通话和会议功能。 根据所选择部署 Teams 的方式，这些功能可能与 Skype for Business 为特定用户提供的功能相重叠。 默认模式即是同时运行功能重叠的 Skype for Business 与 Teams。 然而，可以分配用户到几种共存模式 (也称为升级模式) 之一中，这些模式的设计是为了确保这些功能对该用户来说不会重叠 (在这种情况下，Teams 和 Skype for Business 之间的互操作性是可用的)。 例如，如果拥有大量的 Skype for Business Server 本地资产，并进行了复杂的企业语音部署，但又希望用户能够尽快享受现代会议，则可能需要评估“[会议优先](meetings-first.md)”作为备选路径。
+Teams 提供协作功能、聊天、通话和会议功能。 根据所选择部署 Teams 的方式，这些功能可能与 Skype for Business 为特定用户提供的功能相重叠。 默认模式即是同时运行功能重叠的 Skype for Business 与 Teams。 然而，可以分配用户到几种共存模式 (也称为升级模式) 之一中，这些模式的设计是为了确保这些功能对该用户来说不会重叠 (在这种情况下，Teams 和 Skype for Business 之间的互操作性是可用的)。 例如，如果拥有大量的 Skype for Business Server 本地资产，并进行了复杂的企业语音部署，但又希望用户能够尽快享受现代会议，则可能需要评估“[会议优先](meetings-first.md)”作为备选路径。
 
 我们建议查看以下共存模式，以帮助确定哪种路径适合你的组织。
 
 > [!Important]
-> 2021 年 7 月 31 日停用 Skype for Business Online 后，共存模式将继续存在，但仅与在本地部署 Skype for Business Server 的组织相关。 在停用之前，可以将本地部署中的用户分配到除 TeamsOnly 外的任何模式。 但是，停用 Skype for Business Online 后，云中的用户只能是 TeamsOnly。
+> 在停用 Skype for Business Online 后，共存模式仍然存在，但在线用户只能具有 TeamsOnly 模式。 无法再将除 TeamsOnly 外的任何模式分配给在线用户。  与停用 Skype for Business Online 之前的情况一样，可以分配本地用户除 *TeamsOnly* 外的任何模式。
 
 ### <a name="islands-mode"></a>“并行”模式
 
-默认情况下，用户可以同时运行 Teams 和 Skype for Business 作为提供相似和重叠功能的两个独立的解决方案。 功能包括状态、聊天、通话和会议。 Teams 用户还可以利用新的协作功能，如团队和渠道，访问 Microsoft 365 或 Office 365 中的文件和应用程序。
+默认情况下，用户可以同时运行 Teams 和 Skype for Business 作为提供相似和重叠功能的两个独立的解决方案。 功能包括状态、聊天、通话和会议。 Teams用户还可以利用新的协作功能，例如团队和频道、访问 Microsoft 365 和应用程序。
 
 在这种称为 “**并行**” 的共存模式中，每个客户端应用程序都作为单独的“小岛”运行。 Skype for Business 与 Skype for Business 交流，Teams 与 Teams 交流。 用户需要始终运行两个客户端，并且可以在开始通信的客户端中进行本地通信。 因此，没有必要在 **并行** 模式下进行互操作。
 
@@ -73,9 +73,6 @@ ms.locfileid: "58727381"
 
 > [!Important]
 > 在“**并行**”模式下，所有来自联合用户 (组织外部人员) 的消息和通话都会传送到 Skype for Business。 升级到 “**Teams Only**” 模式后，所有来自组织外部的消息和呼叫都会传送到 Teams。
-
-> [!Tip]
-> Skype for Business 在线客户推荐的路径是先从默认的 “**并行**” 模式开始，推动组织中的 Teams 采用饱和，然后迅速转向 **Teams Only** 模式。 本地客户和混合客户 (尤其是复杂的客户) 可能会受益于以 **Skype for Business 与 Teams 协作** 模式作为起点，而不是 “**并行**” 模式，然后在适当情况下从该模式发展到 **Skype for Business with Teams 协作和会议** 模式 (即“会议优先”)，如果合适的话，在组织准备好采用 Teams 时发展到 **Teams Only** 模式。
 
 ### <a name="teams-only"></a>Teams Only
 
@@ -162,7 +159,7 @@ Skype for Business 用户可以与 Teams 用户进行一对一的语音和视频
 <!--![Screen shot of Interop calling experience from Teams.](media/Interop_calling_experience_from_Teams.png "Interop calling experience from Teams")-->
 
 > [!Important]
-> 本地部署 Skype for Business 的互操作体验要求本地环境与 Microsoft 365 或 Office 365 Skype for Business 处于混合模式。 详情请参见[迁移和互操作性指南](./migration-interop-guidance-for-teams-with-skype.md)。
+> 本地部署的互操作体验Skype for Business本地环境在混合模式下使用 Teams。 有关详细信息，请参阅[在 Skype for Business Server Microsoft 365 或 Office 365 之间配置混合Office 365。](/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
 
 这些互操作体验适用于指定了以下其中一种共存模式的用户之间使用: **Skype for Business 与 Teams 协作**、**Skype for Business 与 Teams 协作和会议**、 **Skype for Business Only** 或 **Teams Only**。 处于“**并行**”模式的用户没有互操作性。
 
@@ -200,11 +197,11 @@ Skype for Business 用户可以与 Teams 用户进行一对一的语音和视频
 
 为了防止这些误报，当对方是 **Teams Only** 实际用户时，状态服务现在会通知 Skype for Business 客户端。 这使得 Skype for Business 能够意识到它需要在创建互操作对话之前就创建一个互操作对话，并将对话窗口指定为互操作。
 
-![用于创建与Teams用户互操作对话的Skype for Business屏幕截图。](media/teams-and-skypeforbusiness-coexistence-and-interop-create-conversation-with-skype-user.png)
+![用于创建与Teams用户互操作聊天的Skype for Business屏幕截图。](media/teams-and-skypeforbusiness-coexistence-and-interop-create-conversation-with-skype-user.png)
 
 例如，如果 Skype for Business 用户想要共享他们的桌面，将告知他们我们将开始一个会议，并指导他们完成步骤。
 
-![要与Teams用户开始会议的消息的屏幕截图Teams屏幕截图。](media/teams-and-skypeforbusiness-coexistence-and-interop-start-meeting-with-teams-user.png)
+![显示要Teams用户开始会议的消息Teams屏幕截图。](media/teams-and-skypeforbusiness-coexistence-and-interop-start-meeting-with-teams-user.png)
 
 同时，Teams 用户会收到一条带有会议链接的聊天信息，并引导其加入。
 

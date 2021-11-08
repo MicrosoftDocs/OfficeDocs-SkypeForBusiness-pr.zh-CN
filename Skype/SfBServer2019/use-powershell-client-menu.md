@@ -12,13 +12,13 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.collection: ''
-description: 摘要：Skype for Business Server控制面板映射到 Cmdlet。
-ms.openlocfilehash: e4d72aad28167e3be427f203b8e5b80e2305a636
-ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
+description: 摘要：Skype for Business Server"菜单的"控制面板"映射到"Cmdlet"。
+ms.openlocfilehash: 1dc0c3a9638af8fdec90fccb633909b9ccf40405
+ms.sourcegitcommit: eba9fc680233e9e03773a2942f22afe6247eec41
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60579742"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60824650"
 ---
 # <a name="client"></a>Client
 
@@ -38,9 +38,9 @@ ms.locfileid: "60579742"
 
 ## <a name="client-version-policy"></a>客户端版本策略
 
-客户端 **菜单下的"客户端** 版本策略"子菜单项返回有关客户端环境中Skype for Business Server的信息。 通过客户端版本策略，您可以指定可登录到Skype for Business Server客户端。
+客户端 **菜单下的"客户端** 版本策略"子菜单项返回有关客户端环境中Skype for Business Server的信息。 通过客户端版本策略，您可以指定可以登录到系统Skype for Business Server客户端。
 
-让我们考虑用户可在客户端版本策略上执行的各种任务，Skype for Business映射到的 cmdlet。
+让我们考虑用户可在客户端版本策略上执行的各种任务，以及Skype for Business映射到的 cmdlet。
 
 ---
 > **方案 1：** 列出所有客户端版本策略
@@ -177,9 +177,9 @@ ms.locfileid: "60579742"
 
 ## <a name="client-version-configuration"></a>客户端版本配置
 
- "**客户端版本配置**"子菜单项返回有关在客户端环境中Skype for Business Server的信息。
+ "**客户端版本配置**"子菜单项返回有关客户端环境中支持Skype for Business Server的信息。
 
-让我们考虑用户可在 CLIENT **VERSION CONFIGURATION** 上执行的各种任务，以及这些任务Skype for Business cmdlet 的 cmdlet。
+让我们考虑用户可在 CLIENT **VERSION CONFIGURATION** 上执行的各种任务，以及这些任务Skype for Business cmdlet 映射到的 cmdlet。
 
 ---
 > **方案 1：** 列出所有客户端版本配置
@@ -454,9 +454,9 @@ Set-CsTestDevice -Identity site:Redmond/UCPhone -IdentifierType SerialNumber -Id
 
 ## <a name="device-log-configuration"></a>设备日志配置
 
-**"设备日志** 配置"子菜单项可帮助管理设备更新 Web 服务，这是一个 Skype for Business Server 组件，使管理员能够将固件更新分发到电话和其他运行 Skype for Business。
+**"设备日志** 配置"子菜单项有助于管理设备更新 Web 服务，这是一个 Skype for Business Server 组件，使管理员能够将固件更新分发到电话和其他运行 Skype for Business。
 
-让我们考虑用户可在 DEVICE **LOG CONFIGURATION** 上执行的各种任务，以及这些任务Skype for Business映射到的 cmdlet。
+让我们考虑用户可在 DEVICE **LOG CONFIGURATION** 上执行的各种任务，以及Skype for Business映射到的 cmdlet。
 
 ---
 > **方案 1：** 列出所有设备日志配置
@@ -629,7 +629,7 @@ Set-CsDeviceUpdateConfiguration -Identity global -MaxLogFileSize 2048000 -MaxLog
 
 ## <a name="mobility-policy"></a>移动策略
 
-**移动策略** 确定用户是否可以在移动Skype for Business移动。 这些策略还管理用户使用“通过工号拨号”的能力，这是一种使用户能够使用其工 作电话号码而不是其移动电话号码在其移动电话上发起和接收电话呼叫的功能。 移动策略还可用于使Wi-Fi呼叫时要求进行连接。
+**移动策略** 确定用户是否可以在移动Skype for Business移动。 这些策略还管理用户使用“通过工号拨号”的能力，这是一种使用户能够使用其工 作电话号码而不是其移动电话号码在其移动电话上发起和接收电话呼叫的功能。 移动策略还可用于使呼叫Wi-Fi连接成为要求。
 
 让我们考虑用户可在 **MOBILITY POLICY** 上执行的各种任务，以及Skype for Business映射到的 cmdlet。
 
@@ -717,9 +717,9 @@ Set-CsMobilityPolicy -Identity "site:Redmond" -EnableOutsideVoice $False
 
 ## <a name="push-notification-configuration"></a>推送通知配置
 
-推送通知服务 (Apple 推送通知服务和 Microsoft 推送通知服务) 提供了一种将有关事件（如新即时消息或新语音邮件）的通知发送到移动设备（如 iPhone 和 Windows Phones）的方法。 这些通知配置为发送，即使这些Skype for Business上的应用程序当前已暂停或在后台运行。
+Apple 推送通知 (和 Microsoft 推送通知服务) 提供了一种将有关事件（如新即时消息或新语音邮件）的通知发送到移动设备（如 iPhone 和 Windows Phones）的方法。 这些通知配置为发送，即使这些Skype for Business上的应用程序当前已暂停或在后台运行。
 
-让我们考虑用户可在 **PUSH NOTIFICATION CONFIGURATION** 上执行的各种任务，以及这些任务Skype for Business cmdlet 的 cmdlet。
+让我们考虑用户可对 **推送通知** 配置执行的各种任务，以及这些任务Skype for Business cmdlet 映射到的 cmdlet。
 
 ---
 

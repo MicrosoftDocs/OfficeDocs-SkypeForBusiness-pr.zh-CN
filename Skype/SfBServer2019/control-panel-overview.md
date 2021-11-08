@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 本文概述了新的控制面板。
-ms.openlocfilehash: 8a4f8e073b424969951a69c620dd5f65a582fd75
-ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
+ms.openlocfilehash: 77e26b810bfd61effa5d94ec3648c440476a7cbe
+ms.sourcegitcommit: eba9fc680233e9e03773a2942f22afe6247eec41
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60579752"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60824640"
 ---
 # <a name="control-panel"></a>控制面板
 
@@ -33,7 +33,7 @@ ms.locfileid: "60579752"
 
 若要在浏览器中启动新的控制面板，请输入 https:// &lt; 池 FQDN &gt; /macp 或配置的简单 URL。
 
-新的控制面板包括满足组织大部分需求的常用菜单项。 旧版控制面板中的一些菜单项在新的控制面板中不可用。 但是，用户可以选择通过 PowerShell cmdlet 使用这些菜单项中的功能。 有关详细信息，请参阅下表。
+新的控制面板包括满足组织大部分需求的常用菜单项。 旧版控制面板中的一些菜单项在新的"控制面板"中不可用。 但是，用户可以选择通过 PowerShell cmdlet 使用这些菜单项中的功能。 有关详细信息，请参阅下表。
 
 > [!NOTE]
 > 随后将分阶段提供其他菜单项的文档。
@@ -50,3 +50,11 @@ ms.locfileid: "60579752"
 |设备配置         |    [设备配置](use-powershell-client-menu.md#device-configuration)     |
 |移动策略         |    [移动策略](use-powershell-client-menu.md#mobility-policy)     |
 |推送通知配置         |    [推送通知配置](use-powershell-client-menu.md#push-notification-configuration)     |
+
+## <a name="security"></a>安全性
+
+|子菜单  |cmdlet 的信息源  |
+|---------|---------|
+|注册器         |    [注册器](use-powershell-security-menu.md#registrar)     |
+|Web 服务      |  [Web 服务](use-powershell-security-menu.md#web-service)       |
+|PIN 策略    | [PIN 策略](use-powershell-security-menu.md#pin-policy)        |
