@@ -2,7 +2,7 @@
 title: 视频网关范围
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 2071b375-4978-4ff5-ae38-5e4a621bf6a3
 description: 在拓扑生成器中定义新的 VIS 或视频网关所需的步骤在 2015 年 10 月创建 VIS 池Skype for Business Server联机介绍。
-ms.openlocfilehash: fbf37f63763e94d7ef23db2d53446974ac0d85e5
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0b59e0f651a8163c64b4a9608ade410f9ae51c4f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773752"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60839964"
 ---
 # <a name="video-gateway-scope"></a>视频网关范围
  

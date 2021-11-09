@@ -2,7 +2,7 @@
 title: 规划用户的位置Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,19 +16,19 @@ ms.collection:
 ms.custom: ''
 ms.assetid: da3cca7f-f6e5-4b6f-90a1-2008e3dd1ebd
 description: 阅读本主题，了解如何在 Skype for Business Server 企业语音 中为增强型紧急服务规划 (E9-1-1) 部署。
-ms.openlocfilehash: d305d2e453c375616dbba7e077c552372767f2ae
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 661706aa9ae60f87dc60814d71c2b0b8c8dcc2ce
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60762130"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855319"
 ---
 # <a name="plan-location-policies-for-skype-for-business-server"></a>规划用户的位置Skype for Business Server
  
 阅读本主题，了解如何在 Skype for Business Server 企业语音 中为增强型紧急服务规划 (E9-1-1) 部署。 
   
 > [!NOTE]
-> Skype for Business Server现在支持为客户端配置多个紧急号码。 如果要配置多个紧急号码，则必须按照在 Skype for Business Server 中规划多个[](multiple-emergency-numbers.md)紧急号码和在 Skype for Business 中配置多个紧急号码[中Skype for Business。](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md) 
+> Skype for Business Server现在支持为客户端配置多个紧急号码。 如果要配置多个紧急号码，则必须按照在 Skype for Business Server 中规划多个[](multiple-emergency-numbers.md)紧急号码和在 Skype for Business 中配置多个紧急[号码中Skype for Business。](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md) 
   
 通过使用"控制面板"或Skype for Business [New-CsLocationPolicy](/powershell/module/skype/new-cslocationpolicy?view=skype-ps) cmdlet 创建位置策略。 有关详细信息，请参阅 Create [location policies in Skype for Business Server](../../deploy/deploy-enterprise-voice/create-location-policies.md)。
   
@@ -57,12 +57,12 @@ ms.locfileid: "60762130"
   
 此设置指定用户在消除位置提示时看到的免责声明。 在Skype for Business Server中，您可以使用位置策略为不同的区域设置或不同的用户集设置不同的免责声明。
   
- **紧急拨号串 (E9-1-1 拨号号码)**
+ **紧急拨号字符串 (E9-1-1 拨号号码)**
   
 此拨号字符串 (前导"+"，但包括用户的拨号计划) 完成的任何规范化表示呼叫是紧急呼叫。 紧急 **拨号串** 使客户端在呼叫中包括位置和回拨信息。
   
 > [!NOTE]
-> 如果您的组织不使用外部线路访问前缀，则无需创建相应的拨号计划规范化规则，在将呼叫发送到运行 Skype for Business Server 的服务器的出站路由之前，向 911 字符串添加"+";由于位置策略，Skype for Business客户端自动预置"+"。 但是，如果站点使用外部访问前缀，则需要向适用的拨号计划策略添加规范化规则，该策略会去除外部访问前缀并添加"+"。 例如，如果位置使用外部访问前缀 9，而用户拨打 9 911 拨打紧急呼叫，则客户端将使用其拨号计划策略，在呼叫者的位置配置文件中的路由评估拨打的号码之前，将拨打的号码规范化为 +911。 
+> 如果组织不使用外部线路访问前缀，则无需创建相应的拨号计划规范化规则，在将呼叫发送到运行 Skype for Business Server 的服务器的出站路由之前将"+"添加到 911 字符串;由于位置策略，Skype for Business客户端将自动预置"+"。 但是，如果站点使用外部访问前缀，则需要向适用的拨号计划策略添加规范化规则，该策略会去除外部访问前缀并添加"+"。 例如，如果您的位置使用外部访问前缀 9，并且用户拨打 9 911 拨打紧急呼叫，则客户端将使用其拨号计划策略在呼叫者的位置配置文件中的路由评估拨打的号码之前，将呼叫者拨号计划策略规范化为 +911。 
   
  **E9-1-1 拨号 (紧急拨号串掩码)**
   
@@ -81,7 +81,7 @@ PSTN 用法的名称，其中包含确定将转到哪个 SIP 中继、PSTN 网�
   
  **会议 URI**
   
-指定外线直拨 (DID) 号码 (通常是一个安全服务台) ，在拨打紧急呼叫时应参加会议。 
+指定外线直拨 (DID) 号码 (，通常是拨打紧急呼叫时) 应参加会议的安全服务台号码。 
   
  **会议模式**
   
@@ -89,4 +89,4 @@ PSTN 用法的名称，其中包含确定将转到哪个 SIP 中继、PSTN 网�
   
  **位置刷新间隔**
   
-指定从位置信息服务 (位置更新) 客户端请求之间的时间量（以小时表示）。 该值可以设置为 1 到 12 之间的任意值。 默认值为 4。
+指定从位置信息 (位置更新) 客户端请求之间的时间量（以小时表示）。 该值可以设置为 1 到 12 之间的任意值。 默认值为 4。

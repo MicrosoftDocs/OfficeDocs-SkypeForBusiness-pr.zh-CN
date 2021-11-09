@@ -2,7 +2,7 @@
 title: 获取用户
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 87d34baf-4c31-468d-b8f7-4faca0bc7a54
 description: 摘要：了解作为用户服务的一部分的"获取用户"操作。 用户服务是通话质量仪表板存储库 API 的一部分。 通话质量仪表板是一种用于Skype for Business Server。
-ms.openlocfilehash: ecf549dccf73ec6adae7360efbe516ae3710bf17
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 5b2981206965e449fa817c6c40f27bf0daa6ea08
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60739118"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60854276"
 ---
 # <a name="get-users"></a>获取用户
  
@@ -42,7 +42,7 @@ Get Users 返回存储库中的用户列表。
   
  **响应** - 响应包括 HTTP 状态代码和一组响应标头。
   
- **状态代码** - 成功操作返回状态代码 200， (确定) 。
+ **状态代码** - 成功操作返回状态代码 200 (确定) 。
   
  **响应标头** - 无其他标头。
   

@@ -2,7 +2,7 @@
 title: 用户模型中Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,33 +12,33 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c551371c-d740-4372-bada-f0d713ec0d33
-description: 此处介绍的用户模型为容量规划度量和建议提供了基础，如 Capacity planning user model usage for Skype for Business Server。
-ms.openlocfilehash: e72a16668c0247a23ac4d032e0a3f09b06a71cc5
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 此处介绍的用户模型为容量规划度量和建议（如 Capacity planning user model usage for Skype for Business Server）。
+ms.openlocfilehash: 22f5d45c5b8c5f75979e061814c03a5b9ffc3e8d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768630"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846345"
 ---
 # <a name="user-models-in-skype-for-business-server"></a>用户模型中Skype for Business Server
  
-此处介绍的用户模型为容量规划度量和建议提供了在 Capacity [planning user model usage for Skype for Business Server](user-model.md)中介绍的基础。
+此处介绍的用户模型为容量规划度量和建议提供了基础，如 Capacity [planning user model usage for Skype for Business Server](user-model.md)。
   
 ## <a name="skype-for-business-server-user-models"></a>Skype for Business Server用户模型
 
-下表介绍了用户模型，用于注册、联系人、即时消息 (IM) ，以及用户Skype for Business Server。
+下表介绍了用于注册、联系人、即时消息 (IM) 的用户模型Skype for Business Server。
   
 **环境和注册用户模型**
 
 |**类别**|**说明**|
 |:-----|:-----|
 |部署大小和通讯组  <br/> |我们对含有三个中央站点（每个站点有一个前端池）的大型部署进行了建模。  <br/> |
-|Active Directory 用户的百分比  <br/> |假设为组织中 70% 的 Active Directory 用户启用了Skype for Business Server。 这些启用的用户中的 80% 每天Skype for Business Server 80% 并发 (登录) 。 本节下文中的数字都以并发用户为基础。  <br/> |
-|Active Directory 更改  <br/> |假设每周在 Active Directory 中创建和启用 Skype for Business 的用户总数的 0.5%，并且每周从 Active Directory 和 Skype for Business 禁用 0.5% 的用户。 5% 的用户每周至少更改一个 Active Directory 属性。  <br/> |
+|Active Directory 用户的百分比  <br/> |假设为组织中 70% 的 Active Directory 用户启用了Skype for Business Server。 在这些启用的用户中，80% 的用户每天Skype for Business Server 80% (并发) 。 本节下文中的数字都以并发用户为基础。  <br/> |
+|Active Directory 更改  <br/> |假设每周在 Active Directory 中创建和启用 Skype for Business 的用户总数的 0.5%，每周从 Active Directory 和 Skype for Business 中禁用 0.5% 的用户。 5% 的用户每周至少更改一个 Active Directory 属性。  <br/> |
 |Active Directory 通讯组  <br/> |我们假定，组织的 Active Directory 通讯组数是 Active Directory 所有用户数的三倍。通讯组的大小如下：  <br/> • 64% 的用户数为 2-30  <br/> • 13% 的用户数为 31-50  <br/> • 10% 的用户数为 51-100  <br/> • 13% 的用户数为 101-500  <br/> |
 |IP 语音 (VoIP) 用户  <br/> |60% Skype for Business Server用户启用了统一通信 (UC)  (，即其电话号码归用户Skype for Business Server) 。  <br/> |
 |注册的客户端分布  <br/> |65% 的客户端运行 Skype for Business 软件，包括 Skype for Business 和 Lync 电话 Edition。  <br/> 30% 的客户端运行以前版本的 Lync 中的客户端软件。  <br/> 5% 的客户端使用 Skype for Business Web应用。  <br/> 如果启用了移动功能，则假设 40% 的用户同时使用移动功能以及之前引用的其他注册客户端选项。 在这种情况下，MPOP (客户端多点) 比率为 1：1.9。 如果禁用移动，MPOP 比率为1:1.5。  <br/> |
-|远程用户分布  <br/> |70% 的用户从内部连接。  <br/> 30% 的用户通过边缘服务器连接 (也可以在此处选择拥有控制器，但不需要) 。  <br/> |
+|远程用户分布  <br/> |70% 的用户从内部连接。  <br/> 通过边缘服务器进行连接的 30% (也可以在此处选择拥有控制器，但不需要) 。  <br/> |
 |联系人分布  <br/> |一个用户拥有的最大联系人数为 1,000。拥有 1,000 个联系人的用户低于 1%。拥有 100 个或更多联系人的用户低于 25%。  <br/> 使用公共云连接的用户平均拥有 80 个联系人。在这些用户中：  <br/> • 50% 的联系人在组织中。 这些用户中的 10% 为远程用户，从防火墙以外连接。  <br/> • 40% 的联系人是Skype用户。  <br/> • 10% 的联系人来自联盟伙伴。  <br/> 未使用公共云连接的用户平均拥有 50 个联系人。在这些用户中：  <br/> • 80% 的联系人在组织内部。 这些用户中的 10% 为远程用户，从防火墙以外连接。  <br/> • 20% 的联系人来自联盟伙伴。  <br/> 每个用户在其联系人列表中都有一个通讯组。为了进行性能测试，我们假设通讯组始终是展开的。  <br/> |
 |会话时间  <br/> |平均用户登录会话持续 12 个小时。所有用户在会话开始后的 120 分钟内登录。  <br/> |
    
@@ -46,9 +46,9 @@ ms.locfileid: "60768630"
 
 |**类别**|**说明**|
 |:-----|:-----|
-|对等 IM 会话  <br/> |平均每个用户每天发起六个对等 IM 会话。  <br/> 每个会话 10 条即时消息。  <br/> 每个消息由两条 SIP INFO 消息和两条 SIP 200 OK 消息匹配 (状态指示器（如"正在键入") \<Name\>  <br/> |
+|对等 IM 会话  <br/> |平均每个用户每天发起六个对等 IM 会话。  <br/> 每个会话 10 条即时消息。  <br/> 每条消息由两条 SIP INFO 消息匹配，对于状态指示器（如"正在键入" (，将匹配 2 个 SIP 200 \<Name\> OK )   <br/> |
 |组 IM 会话  <br/> |在仅 IM 组会话中发送的平均消息数是每个用户 5 条。  <br/> AV 会议的 IM 部分中发送的平均消息数是每个用户 2 条。  <br/> |
-|状态轮询  <br/> |总体上讲，假设状态轮询为平均每个用户每小时 60 次轮询。对于每个用户，假设平均：  <br/> • 在用户的组织选项卡中每天进行一次用户状态轮询 (但不在联系人列表) 。 用户组织选项卡中的非联系人平均数量为 15 个用户。 每天执行两次联系人卡片查看操作。  <br/> • 每次用户单击其他用户启动对话时进行一次状态轮询，估计为每小时一次。  <br/> • 每小时六次用户搜索。 每次执行搜索时，都会针对搜索结果列表中的每个人发送批轮询。 假设搜索结果的平均大小为 20。 如果搜索结果停留在屏幕上，则每 5 分钟就会刷新一次批轮询；假设每小时将进行两次这样的刷新。  <br/> • 当用户在 Outlook 中打开或预览电子邮件时，电子邮件的 To： 和 CC： 字段中的用户状态轮询，估计为每小时五封电子邮件，每封电子邮件四个用户。  <br/> |
+|状态轮询  <br/> |总体上讲，假设状态轮询为平均每个用户每小时 60 次轮询。对于每个用户，假设平均：  <br/> • 在用户的组织选项卡中每天进行一次用户状态轮询 (但不在联系人列表) 。 用户组织选项卡中的非联系人平均数量为 15 个用户。 每天执行两次联系人卡片查看操作。  <br/> • 每次用户单击其他用户启动对话时进行一次状态轮询，估计为每小时一次。  <br/> • 每小时六次用户搜索。 每次执行搜索时，都会针对搜索结果列表中的每个人发送批轮询。 假设搜索结果的平均大小为 20。 如果搜索结果停留在屏幕上，则每 5 分钟就会刷新一次批轮询；假设每小时将进行两次这样的刷新。  <br/> • 当用户在 Outlook 中打开或预览电子邮件时，电子邮件的"To： "和"CC：" 字段中的用户状态轮询，估计为每小时五封电子邮件，每封电子邮件四个用户。  <br/> |
 |状态订阅  <br/> |当用户将其他用户添加为联系人时，第一个用户将“订阅”第二个用户的五类信息。这些类别的信息的更新会自动发送给第一个用户。 <br/> 针对每个客户端，会发送单个订阅请求以获取平均 40 个联系人状态，以及发送其他 40 个对话以获取联盟联系人状态。  <br/> 扩展通讯组成员的状态可通过持久状态订阅（而非轮询）进行查找，并建模为每个用户每两小时一次扩展。  <br/> 短订阅在用户登录时发生，存在针对所有用户的联系人的批量订阅，然后用户很快注销。 假设每个用户每小时有 6 个短期订阅，其中每个订阅持续 10 分钟。 <br/> |
 |状态发布  <br/> |平均每个用户每小时发布状态 4 次，最多每个用户每小时发布 6 次。  <br/> |
 |状态文档大小  <br/> |假设完整状态文档的平均大小为 4K，最大为 25K。  <br/> |

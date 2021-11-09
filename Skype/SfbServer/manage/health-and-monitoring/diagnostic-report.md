@@ -2,7 +2,7 @@
 title: 诊断报告中Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
 description: 摘要：了解诊断报告中Skype for Business Server。
-ms.openlocfilehash: 84274659a45d33a144324334cec8b9f1b25c471b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6b04dfd74e13568e6d22448ad9160a874dd6f79b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740628"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855529"
 ---
 # <a name="diagnostic-report-in-skype-for-business-server"></a>诊断报告中Skype for Business Server
  
-**摘要：** 了解诊断报告中Skype for Business Server。
+**摘要：** 了解诊断报告中的Skype for Business Server。
   
 诊断报告提供失败的会话的诊断和故障排除信息。 此信息包括在会话失败时所报告的诊断 ID 和诊断标头。 诊断 ID 是附加到 SIP 消息的唯一标识符（采用 ms-diagnostics 标头的形式），而诊断标头提供诊断 ID 的附带说明。 该报告可能还包含报告组件所了解的有价值的故障排除详细信息。 例如：
   

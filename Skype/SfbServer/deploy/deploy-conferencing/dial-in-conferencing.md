@@ -2,7 +2,7 @@
 title: 配置电话拨入式会议Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,18 +12,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 38d9f168-80b8-46f2-a1c0-becd84e58e73
 description: 摘要：阅读本主题，了解如何在 Skype for Business Server 中配置电话拨入式Skype for Business Server。
-ms.openlocfilehash: 8cc3a27e9051d0fd73bff68cc4213020d6658844
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3e7a91b200eb6211a26b379d866608ff31658488
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761560"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845925"
 ---
 # <a name="configure-dial-in-conferencing-in-skype-for-business-server"></a>配置电话拨入式会议Skype for Business Server
  
 **摘要：** 阅读本主题，了解如何在 Skype for Business Server 中配置电话拨入式Skype for Business Server。
   
-创建包含会议工作负荷和所选电话拨入式会议拓扑后，必须执行其他步骤来配置电话拨入式会议。 在阅读本主题之前，请确保已阅读[Skype for Business Server](../../plan-your-deployment/conferencing/dial-in-conferencing.md)中的电话拨入式会议计划[、Skype for Business Server](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)中的会议硬件和软件要求以及电话拨入式会议部署[流程](deploy-conferencing.md#deployment-flowchart-and-checklist-for-dial-in-conferencing)图和清单。 
+创建包含会议工作负荷和所选电话拨入式会议拓扑后，必须执行其他步骤来配置电话拨入式会议。 在阅读本主题之前，请确保已阅读[规划 Skype for Business Server](../../plan-your-deployment/conferencing/dial-in-conferencing.md)中的电话拨入式会议[、Skype for Business Server](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)中的会议硬件和软件要求以及电话拨入式会议部署流程图和[清单。](deploy-conferencing.md#deployment-flowchart-and-checklist-for-dial-in-conferencing) 
   
 要配置电话拨入式会议，必须执行以下任务：
   
@@ -60,11 +60,11 @@ ms.locfileid: "60761560"
   
 设置电话拨入式会议拨号计划：
   
-- 无论你是否部署企业语音，都修改全局拨号计划以添加电话拨入式会议区域，并确保规范化规则准确转换拨入访问号码。 有关详细说明，请参阅 Create [or modify a dial plan in Skype for Business Server](../../deploy/deploy-enterprise-voice/dial-plans.md)。
+- 不论您是否企业语音，修改全局拨号计划以添加电话拨入式会议区域，并确保规范化规则准确转换拨入访问号码。 有关详细说明，请参阅 Create [or modify a dial plan in Skype for Business Server](../../deploy/deploy-enterprise-voice/dial-plans.md)。
     
 - 如果未部署企业语音，请为电话拨入式会议访问号码创建拨号计划。 确保其中包含电话拨入式会议区域。 有关详细说明，请参阅 Create [or modify a dial plan in Skype for Business Server](../../deploy/deploy-enterprise-voice/dial-plans.md)。
     
-- 如果部署了企业语音，企业语音修改拨号计划以包含区域，并使用相应的规范化规则处理拨入访问号码。 还可以创建仅用于拨入访问号码的专用拨号计划。 有关详细说明，请参阅 Create [or modify a dial plan in Skype for Business Server](../../deploy/deploy-enterprise-voice/dial-plans.md)。
+- 如果已部署企业语音，企业语音修改拨号计划以包含区域，并针对拨入访问号码使用相应的规范化规则。 还可以创建仅用于拨入访问号码的专用拨号计划。 有关详细说明，请参阅 Create [or modify a dial plan in Skype for Business Server](../../deploy/deploy-enterprise-voice/dial-plans.md)。
     
 有关创建规范化规则的详细信息，请参阅 Create [or modify a normalization rule in Skype for Business](../../deploy/deploy-enterprise-voice/normalization-rules.md)。
   
@@ -75,7 +75,7 @@ ms.locfileid: "60761560"
   
 由于必须指定所有拨号计划的区域，因此建议您验证所有拨号计划是否都有会议区域。 
   
-若要验证是否针对所有电话拨入式会议拨号计划设置了区域，请使用 **Get-CsDialPlan** cmdlet。 如果拨号计划中缺少区域，可使用 **Set-CsDialPlan** cmdlet 设置区域。 您还可以使用Skype for Business Server控制面板更新现有拨号计划中的区域。 有关使用 Skype for Business Server 控制面板的详细信息，请参阅 Create [or modify a dial plan in Skype for Business Server](../../deploy/deploy-enterprise-voice/dial-plans.md)。
+若要验证是否针对所有电话拨入式会议拨号计划设置了区域，请使用 **Get-CsDialPlan** cmdlet。 如果拨号计划中缺少区域，可使用 **Set-CsDialPlan** cmdlet 设置区域。 您还可以使用Skype for Business Server控制面板更新现有拨号计划中的区域。 有关使用控制面板Skype for Business Server的详细信息，请参阅 Create or [modify a dial plan in Skype for Business Server](../../deploy/deploy-enterprise-voice/dial-plans.md)。
   
 ### <a name="to-verify-whether-dial-plans-have-the-region-property-set"></a>验证拨号计划是否设置了 region 属性
 
@@ -126,9 +126,9 @@ ms.locfileid: "60761560"
 ## <a name="configure-dial-in-access-numbers"></a>配置拨入访问号码
 <a name="BKMK_ConfigureDialInAccessNumbers"> </a>
 
-部署电话拨入式会议时，需要设置用户可以从公用电话交换网 (PSTN) 拨打的电话号码，以加入会议的音频部分。 这些拨入访问号码显示在会议邀请和电话拨入式会议设置网页上。
+部署电话拨入式会议时，需要设置用户可从公用电话交换网 (PSTN) 拨打的电话号码，以加入会议的音频部分。 这些拨入访问号码显示在会议邀请和电话拨入式会议设置网页。
   
-必须先规划电话拨入式会议区域，然后使用区域配置拨号计划，然后才能创建拨入访问号码。 有关区域的详细信息，请参阅 Plan [for dial-in conferencing in Skype for Business Server](../../plan-your-deployment/conferencing/dial-in-conferencing.md)。 有关为电话拨入式会议配置拨号计划的详细信息，请参阅在 Skype for Business Server 中[创建或修改拨号Skype for Business Server。](../../deploy/deploy-enterprise-voice/dial-plans.md)
+必须先规划电话拨入式会议区域，然后使用区域配置拨号计划，然后才能创建拨入访问号码。 有关区域的详细信息，请参阅 Plan [for dial-in conferencing in Skype for Business Server](../../plan-your-deployment/conferencing/dial-in-conferencing.md)。 有关配置电话拨入式会议拨号计划的详细信息，请参阅 Create [or modify a dial plan in Skype for Business Server](../../deploy/deploy-enterprise-voice/dial-plans.md)。
   
 > [!NOTE]
 > 在 Active Directory 域服务 (AD DS) 完成该访问号码的复制之前，不能使用新的拨入访问号码。 复制可能需要几个小时才能完成。 
@@ -153,7 +153,7 @@ ms.locfileid: "60761560"
      > [!NOTE]
      > 使用搜索字段搜索拨入访问号码列表中列的内容可能不会获得预期的结果。 相反，按关注列对列表进行排序，以标识要查看或更改的拨入访问号码。 
   
-5. 在 **"显示** 号码"中，键入公用电话交换网 (PSTN) 电话用户为加入会议而拨打的电话号码。 此号码显示在会议邀请和电话拨入式会议设置网页上。
+5. 在 **"显示** 号码"中，键入公用电话交换网 (PSTN) 电话用户为加入会议而拨打的电话号码。 此号码显示在会议邀请和电话拨入式会议设置网页中。
     
 6. 在 **"显示** 名称"中，键入拨入访问号码的说明。 这是与搜索结果中的拨入访问号码Skype for Business的名称。 当用户呼叫访问号码时，此名称将显示在客户端中。 
     

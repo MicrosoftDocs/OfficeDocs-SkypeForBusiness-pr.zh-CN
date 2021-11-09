@@ -2,7 +2,7 @@
 title: 保存语音路由测试用例信息
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 7874119d-d92b-484e-bbda-62f65241debd
 description: 可以使用“保存语音路由测试用例信息”对话框保存临时语音路由测试用例。在“保存语音路由测试用例信息”的“名称”中，键入要赋予此测试用例的名称，然后单击“确定”。
-ms.openlocfilehash: 073e3795fd483caf6f755d70ddeb6c13b49e4bcf
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9d4121b222f1428a3567de864338bf1be45ef51a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768920"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60854586"
 ---
 # <a name="save-voice-routing-test-case-information"></a>保存语音路由测试用例信息
  

@@ -2,7 +2,7 @@
 title: 为部署环境配置本地合作伙伴Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 696f2b26-e5d0-42b5-9785-a26c2ce25bb7
 description: 摘要：为本地合作伙伴应用程序配置Skype for Business Server。
-ms.openlocfilehash: 65e5d32787b13043d30b6cb03a7d9cdbc047c46a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c922765e81c0507e6eca9e81047cce4dfbb6dd6c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60772118"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846465"
 ---
 # <a name="configure-an-on-premises-partner-application-for-skype-for-business-server"></a>为部署环境配置本地合作伙伴Skype for Business Server
  
@@ -74,7 +74,7 @@ else
 Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000
 ```
 
-复制代码后，使用文件扩展名 .PS1（例如，C:\Scripts\ServerToServerAuth.ps1）保存脚本。 请注意，在运行此脚本之前，您必须分别将元数据 URL 和 `https://atl-exchange-001.litwareinc.com/autodiscover/metadata/json/1` `http://atl-sharepoint-001.litwareinc.com/_layouts/15/metadata/json/1` Exchange 2013 和 SharePoint 服务器使用的元数据 URL。 请参阅 Exchange 2013 和 SharePoint 产品文档，了解如何标识各自的产品的元数据 URL。
+复制代码后，使用文件扩展名 .PS1（例如，C:\Scripts\ServerToServerAuth.ps1）保存脚本。 请注意，在运行此脚本之前，您必须分别将元数据 URL 和 `https://atl-exchange-001.litwareinc.com/autodiscover/metadata/json/1` `http://atl-sharepoint-001.litwareinc.com/_layouts/15/metadata/json/1` Exchange 2013 和 SharePoint 服务器使用的元数据 URL 替换。 请参阅 Exchange 2013 和 SharePoint 产品文档，了解如何标识各自的产品的元数据 URL。
   
 如果查看脚本的最后一行，您将发现 Set-CsOAuthConfiguration cmdlet 是使用以下语法调用的：
   
@@ -88,7 +88,7 @@ Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000
 Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000 -Realm "contoso.com"
 ```
 
-进行这些更改后，可以通过从 Skype for Business Server 命令行管理程序中运行脚本文件来执行脚本，将 Exchange 2013 和 SharePoint 配置为合作伙伴应用程序。 例如：
+进行这些更改后，可以通过从 Skype for Business Server 命令行管理程序中运行脚本文件来执行脚本，然后将 Exchange 2013 和 SharePoint 配置为合作伙伴应用程序。 例如：
   
 ```PowerShell
 C:\Scripts\ServerToServerAuth.ps1
@@ -104,7 +104,7 @@ New-CsPartnerApplication : Cannot bind parameter 'MetadataUrl' to the target. Ex
 
 此错误消息通常指示以下两种情况之一：1) 在脚本中指定的某个 URL 无效（即，某个元数据 URL 不是实际的元数据 URL）；2) 无法联系某个元数据 URL。如果出现此情况，请验证 URL 是否正确且可访问，然后重新运行此脚本。
   
-为 2013 Skype for Business Server合作伙伴应用程序后，Skype for Business Server配置为 2013 Exchange应用程序。 可以通过运行脚本代码为 Exchange 2013 配置Configure-EnterprisePartnerApplication.ps1;你只需指定应用程序的元数据 URL Skype for Business Server并指示Skype for Business Server是新的合作伙伴应用程序。 
+为合作伙伴应用程序创建Skype for Business Server之后，必须将 Skype for Business Server 配置为 Exchange 2013 的合作伙伴应用程序。 可以通过运行脚本代码为 Exchange 2013 配置Configure-EnterprisePartnerApplication.ps1;你只需指定应用程序的元数据 URL Skype for Business Server并指示Skype for Business Server是新的合作伙伴应用程序。 
   
 若要将 Skype for Business Server 配置为 Exchange 的合作伙伴应用程序，Exchange命令行管理程序并运行类似如下的命令
   

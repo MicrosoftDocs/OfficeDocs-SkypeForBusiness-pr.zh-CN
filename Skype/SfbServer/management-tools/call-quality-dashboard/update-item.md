@@ -2,7 +2,7 @@
 title: 更新项目
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b1c15c56-cdae-4f3e-838a-52f0940cf729
 description: 摘要：了解作为项目服务的一部分的"更新项"操作。 项目服务是通话质量仪表板存储库 API 的一部分。 通话质量仪表板是一种用于Skype for Business Server。
-ms.openlocfilehash: ef77a4a73cd83743b718988657dcf4f4eb9fd404
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4140909786c3144dbc043568a5ca6aa2995a0720
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759684"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845395"
 ---
 # <a name="update-item"></a>更新项目
  
@@ -56,7 +56,7 @@ Update Item 操作是呼叫质量仪表板存储库 API 中的项目服务的一
  **状态代码** - 成功操作返回状态代码 204， (内容) 。 如果未找到指定的项目 ID，它将返回状态代码 404 (未找到) 。
   
 > [!IMPORTANT]
-> "无内容"不是错误状态。 它表示响应未在正文中返回任何内容 (相反，200 OK 返回 Body) 。 它指示已成功更新项目。 
+> "无内容"不是错误状态。 它表示响应没有在正文中返回任何内容 (相反，200 OK 返回 Body) 。 它指示已成功更新项目。 
   
  **响应标头** - 无。
   

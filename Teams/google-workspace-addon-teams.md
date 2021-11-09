@@ -1,6 +1,6 @@
 ---
-title: 为Microsoft Teams工作区设置会议加载项
-author: cichur
+title: 设置Microsoft Teams Google Workspace 的会议加载项
+author: HowlinWolf-92
 ms.author: v-mahoffman
 ms.reviewer: aravin
 manager: serdars
@@ -18,22 +18,22 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 05f3c4553e20bb9c02ff99dcf8ad452af05f054e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6116567a14aa55a5295b995336b49b30c7bb56ef
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777202"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846105"
 ---
-# <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>为Microsoft Teams工作区设置会议加载项
+# <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>设置Microsoft Teams Google Workspace 的会议加载项
 
 使用 Microsoft Teams 会议加载项，Google 日历用户可以直接从 Google 工作区Microsoft Teams和加入会议。 用户可以访问Teams会议功能，包括视频和音频会议、屏幕共享、会议聊天、数字白板等。 保持连接并保持井井有条，在工作、学校与生活之间共同完成更多工作。
 
-租户Microsoft Teams访问应用之前，Teams管理员必须启用 Google Workspace 会议加载项。
+Microsoft Teams管理员必须启用 Google Workspace 的 Teams 会议加载项，租户用户才能访问该应用。
 
 ## <a name="enable-or-disable-microsoft-teams-meeting-add-on-for-google-workspace-in-the-azure-portal"></a>在 Azure Microsoft Teams中为 Google Workspace 启用或禁用会议加载项
 
-作为租户管理员，可以使用 Azure Microsoft Teams从组织的管理员帐户为 Google Workspace 启用或禁用会议加载项。
+作为租户管理员，可以使用 Azure 门户Microsoft Teams组织的管理员帐户为 Google Workspace 启用或禁用 Google Workspace 会议加载项。
 
 默认情况下，该加载项已启用。
 
@@ -49,7 +49,7 @@ ms.locfileid: "60777202"
 
    ![显示 google 工作区属性的 Azure 门户。](media/google-workspace-properties.png)
 
-5.  (可选) 若要禁用加载项，请在步骤 4 中选择"否"**而不是**"是"。
+5.  (可选) 禁用加载项，请在步骤 4 中选择"否"而不是"是"。
 
 ## <a name="disable-microsoft-teams-meeting-add-on-for-google-workspace-using-powershell"></a>使用 PowerShell Microsoft Teams Google Workspace 禁用会议加载项
 

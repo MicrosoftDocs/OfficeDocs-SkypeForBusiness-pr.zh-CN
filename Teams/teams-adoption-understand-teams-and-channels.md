@@ -1,6 +1,6 @@
 ---
 title: 了解 Microsoft Teams 中的团队和频道
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.date: 10/29/2018
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7af581966c2822e88ce439d5c590331f220cef7a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 17ae2ae79b35ed0b75347bd7a061ebb6789b4284
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766070"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855176"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>了解 Microsoft Teams 中的团队和频道
 
@@ -57,7 +57,7 @@ ms.locfileid: "60766070"
 
 ![组织和项目模型。](media/teams-adoption-organization-project.png)
 
-在左侧 (显示的组织) 中，可能会共享有关组织运营方式、团队活动、核心策略和其他操作信息（如业务评审）的关键信息。 对于右侧显示的团队，地区信息将细分为表示该团队正在完成的工作类别的频道。 此团队的成员可以或可能不会向同一个人报告，但他们都参与推动地区结果。
+在左侧 (显示的组织团队) ，可能会共享有关组织运营方式、团队活动、核心策略和其他运营信息（如业务评审）的关键信息。 对于右侧显示的团队，地区信息将细分为表示该团队正在完成的工作类别的频道。 此团队的成员可以或可能不会向同一个人报告，但他们都参与推动地区结果。
   
 你将在实施的第 [2](teams-adoption-phase2-experiment.md) 阶段进一步处理团队的结构。
 

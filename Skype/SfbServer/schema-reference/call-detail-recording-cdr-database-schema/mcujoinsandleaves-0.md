@@ -2,7 +2,7 @@
 title: McuJoinsAndLeaves 视图
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6f00b8e7-b8b6-4657-ac5e-d8a571806ae2
 description: McuJoinsAndLeaves 视图存储有关用户加入和离开某个会议服务器的信息。 此视图中的每条记录都包含有关用户加入或离开与会议服务器的组合的呼叫详细信息。 此视图在 Microsoft Lync Server 2013 中引入。
-ms.openlocfilehash: 509eca981381b052962ac516a1b0d5537e8c27f1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 00871f86b258df69959fa90c4158461db6d6405b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763330"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60844975"
 ---
 # <a name="mcujoinsandleaves-view"></a>McuJoinsAndLeaves 视图
  

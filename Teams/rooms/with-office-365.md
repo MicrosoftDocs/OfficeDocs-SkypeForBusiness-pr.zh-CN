@@ -1,7 +1,7 @@
 ---
-title: 使用Microsoft Teams 会议室或Microsoft 365部署Office 365
+title: 使用 Microsoft Teams 会议室 或 Microsoft 365 部署Office 365
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -14,19 +14,19 @@ ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
-description: 阅读本主题，了解如何使用 Microsoft Teams 会议室 或 Microsoft 365 部署Office 365，其中Teams或Skype for Business Exchange联机。
-ms.openlocfilehash: d052683b1f393afd777f6e17a4b38b96f17d6b5a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 阅读本主题，了解如何使用 Microsoft Teams 会议室 或 Microsoft 365 Office 365 部署 Teams，其中 Teams Skype for Business 和 Exchange 都联机。
+ms.openlocfilehash: cf323332b6c9b7742a2a10a12017553f462b8619
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741578"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846075"
 ---
-# <a name="deploy-microsoft-teams-rooms-with-microsoft-365-or-office-365"></a>使用Microsoft Teams 会议室或Microsoft 365部署Office 365
+# <a name="deploy-microsoft-teams-rooms-with-microsoft-365-or-office-365"></a>使用 Microsoft Teams 会议室 或 Microsoft 365 部署Office 365
 
 阅读本主题，了解如何使用 Microsoft Teams 会议室 或 Microsoft 365 Office 365 部署 Microsoft Teams Skype for Business 和 Exchange。
 
-设置用户帐户的最简单方法是使用远程Windows PowerShell。 Microsoft[提供了SkypeRoomProvisioningScript.ps1，](https://go.microsoft.com/fwlink/?linkid=870105)这是一个脚本，可帮助创建新的用户帐户或验证现有资源帐户，以帮助将其转换为兼容的Microsoft Teams 会议室用户帐户。 如果愿意，可以按照以下步骤配置设备Microsoft Teams 会议室帐户。
+设置用户帐户的最简单方法是使用远程Windows PowerShell。 Microsoft[提供SkypeRoomProvisioningScript.ps1，](https://go.microsoft.com/fwlink/?linkid=870105)这是一个脚本，可帮助创建新的用户帐户或验证现有资源帐户，以帮助你将其转换为兼容的Microsoft Teams 会议室用户帐户。 如果愿意，可以按照以下步骤配置设备Microsoft Teams 会议室帐户。
 
 ## <a name="requirements"></a>要求
 
@@ -40,7 +40,7 @@ ms.locfileid: "60741578"
 
 - 租户用户必须具有Exchange邮箱。
 
-- 你的 Microsoft Teams 会议室 帐户至少需要 Skype for Business Online (计划 2) 许可证，但它不需要 Exchange Online 许可证。 有关详细信息[Microsoft Teams 会议室许可证](rooms-licensing.md)。
+- 你的 Microsoft Teams 会议室 帐户至少需要 Skype for Business Online (计划 2) 许可证，但它不需要Exchange Online许可证。 有关详细信息[，Microsoft Teams 会议室](rooms-licensing.md)许可证。
 
 有关联机Skype for Business的详细信息，请参阅 Skype for Business [Online 服务说明](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description)。
 
@@ -48,7 +48,7 @@ ms.locfileid: "60741578"
 
 1. 连接 PowerShell Exchange Online。 有关说明，请参阅 连接[Exchange Online PowerShell。](/powershell/exchange/connect-to-exchange-online-powershell)
 
-2. 在 Exchange Online PowerShell 中，创建新的会议室邮箱或修改现有的会议室邮箱。 默认情况下，会议室邮箱没有关联的帐户，因此创建或修改会议室邮箱时，需要添加一个帐户，以便使用 Skype 会议室系统 v2 进行身份验证。
+2. 在 Exchange Online PowerShell 中，创建新的会议室邮箱或修改现有会议室邮箱。 默认情况下，会议室邮箱没有关联的帐户，因此创建或修改会议室邮箱时，需要添加帐户，以便使用 Skype 会议室系统 v2 进行身份验证。
 
    - 若要创建新的会议室邮箱，请使用以下语法：
 
@@ -149,7 +149,7 @@ ms.locfileid: "60741578"
     > [!NOTE]
     > 如果密码未设置为"永不过期"，则帐户达到到期期限后，该帐户将不再在设备上登录。 然后，需要更改帐户的密码，并在本地更新到"一切"设备。
 
-6. 设备帐户需要具有有效的Microsoft 365或Office 365许可证，Exchange Microsoft Teams或Skype for Business无效。 如果你有许可证，则需为设备帐户分配使用位置—此位置确定可供帐户使用的许可证 SKU。 可以使用 `Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> 检索组织或组织的可用 SKUS Microsoft 365 Office 365，如下所示：
+6. 设备帐户需要具有有效的Microsoft 365或Office 365许可证，Exchange Microsoft Teams Skype for Business无效。 如果你有许可证，则需为设备帐户分配使用位置—此位置确定可供帐户使用的许可证 SKU。 可以使用 `Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> 检索组织或组织的可用 SKUS Microsoft 365 Office 365如下所示：
 
    ```Powershell
    Get-MsolAccountSku
@@ -182,11 +182,11 @@ ms.locfileid: "60741578"
    ```
 
     > [!NOTE]
-    > 如果要将Teams 会议室配置为仅以本机Microsoft Teams加入会议，则不应继续执行以下步骤。 只有在还要在本地启用对 Skype for Business的支持时，才需要以下项。
+    > 如果要将Teams 会议室配置为仅以本机Microsoft Teams加入会议，则不应继续执行以下步骤。 只有在还要在本地启用对 Skype for Business支持时，才需要以下项。
 
-7. 若要在本地启用设备帐户Skype for Business帐户，请确保环境满足以下要求中[Microsoft Teams 会议室要求](requirements.md)。
+7. 若要在本地启用设备帐户Skype for Business帐户，请确保环境满足 Microsoft Teams 会议室[要求](requirements.md)。
 
-   启动远程[Windows PowerShell会话](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)，如下所示 (确保安装Skype for Business [Online PowerShell 组件](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector)) ：
+   启动远程[Windows PowerShell会话](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)，如下所示 (确保安装Skype for Business [Online PowerShell 组件) ：](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector)
 
    > [!NOTE]
    > Skype for Business Online 连接器目前是最新 Teams PowerShell 模块的一部分。
@@ -222,7 +222,7 @@ ms.locfileid: "60741578"
 
 ## <a name="see-also"></a>另请参阅
 
-[配置帐户Microsoft Teams 会议室](rooms-configure-accounts.md)
+[为帐户配置Microsoft Teams 会议室](rooms-configure-accounts.md)
 
 [Microsoft Teams 会议室规划](rooms-plan.md)
 

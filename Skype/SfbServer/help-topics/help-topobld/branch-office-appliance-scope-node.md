@@ -2,7 +2,7 @@
 title: 分支机构设备范围节点
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 8632ddaa-9572-4129-9db4-de0f13438d43
 description: 此节点显示 FQDN (的完全限定域名) 关联的池和服务器，以及有关此 Survivable Branch Appliance 的恢复能力信息。 可以执行以下操作：
-ms.openlocfilehash: d192ce72e082180904a3bee877838dd2464c6249
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 229ac07533334562a8b1f2cb956bfdd8b47e0282
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60747808"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840084"
 ---
 # <a name="branch-office-appliance-scope-node"></a>分支机构设备范围节点
  

@@ -2,7 +2,7 @@
 title: ClientVersions 视图
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: caf7678f-83a0-46c8-83cc-fee4c3991f52
 description: ClientVersions 视图存储已参与数据库中记录的会话的各种客户端类型和版本的相关信息。 视图中的每条记录都代表一个客户端版本。 此视图在 Microsoft Lync Server 2013 中引入。
-ms.openlocfilehash: 91f206a482803cbecd2704638cffdff1aec5c8c8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7e44806e817c6010bb9d14ff2f29c118ac9a290b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740308"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60854186"
 ---
 # <a name="clientversions-view"></a>ClientVersions 视图
  

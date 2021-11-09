@@ -2,7 +2,7 @@
 title: 规划基于位置的路由Skype for Business
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,31 +15,31 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4aa494bd-0d66-4335-b9e8-f758d44a7202
-description: 规划基于位置的路由Skype for Business Server 企业语音，包括与同时响铃和委派的交互，以及基于位置的路由的支持方案。
-ms.openlocfilehash: 928a44ed9484f1766013404d23b61a2cc56841d2
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 规划基于位置的路由，Skype for Business Server 企业语音同时响铃和委派的交互，以及支持基于位置的路由的方案。
+ms.openlocfilehash: aada1db39d4dacbd5a6ec7f5dec1ede08468c50e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741969"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855329"
 ---
 # <a name="plan-for-location-based-routing-in-skype-for-business"></a>规划基于位置的路由Skype for Business
 
-规划基于位置的路由Skype for Business Server 企业语音，包括与同时响铃和委派的交互，以及基于位置的路由的支持方案。
+规划基于位置的路由，Skype for Business Server 企业语音同时响铃和委派的交互，以及支持基于位置的路由的方案。
 
 Location-Based路由可以基于呼叫各方的位置限制 VoIP 终结点和 PSTN 终结点之间的呼叫路由。 Location-Based路由是一项呼叫管理功能，用于控制呼叫路由方式Skype for Business Server。 它强制执行呼叫授权规则，以确定是否可以基于呼叫者的地理位置将呼叫路由Skype for Business PBX 或 PSTN 终结点。
 
 Location-Based路由引入了一组新规则，可修改国家/和国际 PSTN 呼叫的路由，以防止收费绕路问题。 Location-Based路由可以灵活地将这些规则的范围设定为特定区域、特定网关或仅特定用户集。
 
-以下方案演示了路由可以强制实施Location-Based的主要限制类型：
+以下方案演示了路由可以强制实施Location-Based类型的限制：
 
-- Egress 呼叫 - Location-Based 路由可以强制传出呼叫进入 PSTN 网关，该网关位于呼叫者所在的同一区域，以防止 PSTN 收费绕路，从而阻止呼叫进入位于与呼叫者位于不同地区的 PSTN 网关。
+- Egress 呼叫 - Location-Based 路由可以强制传出呼叫进入 PSTN 网关，该网关位于呼叫者所在的同一区域，用于阻止 PSTN 收费绕路，从而阻止呼叫进入与呼叫者位于不同地区的 PSTN 网关。
 
-- 传入呼叫 - Location-Based如果路由传入呼叫的 PSTN 网关与被呼叫的 Skype for Business 用户不在同一区域，则路由路由可以阻止传入 PSTN 呼叫响铃 Skype for Business 终结点。
+- 传入呼叫 - Location-Based如果路由传入呼叫的 PSTN 网关与被呼叫的 Skype for Business 用户不在同一区域，则路由路由可以阻止传入 PSTN 呼叫拨打 Skype for Business 终结点。
 
-- 未知区域 - Location-Based 路由限制位于未确定位置的用户（即从 Internet 连接或位于未知区域) ）的用户的传入和传出 PSTN 呼叫 (。
+- 未知区域 - Location-Based 路由限制位于不确定位置（即从 Internet 连接或位于未知区域) ）的用户的传入和传出 PSTN 呼叫 (这些呼叫来自这些用户。
 
-- 国际区域 - Location-Based如果找不到用户位置的本地网关，则路由将强制通过国际 PSTN 网关路由传出呼叫。
+- 国际区域 - Location-Based如果找不到用户位置的本地网关，则路由路由将强制通过国际 PSTN 网关路由传出呼叫。
 
 ## <a name="guidance-for-where-to-apply-location-based-routing"></a>应用路由路由Location-Based指南
 
@@ -47,7 +47,7 @@ Location-Based路由可以在用户的终结点网络站点位置或 PSTN 网关
 
 ### <a name="applying-location-based-routing-at-the-users-location"></a>在Location-Based位置应用路由
 
-Location-Based路由利用 E9-1-1、CAC 和媒体旁路使用的 Skype for Business Server 中定义的相同网络区域、站点和子网应用呼叫路由限制，以防止 PSTN 收费绕路。 用户的位置由用户的 Skype for Business 终结点的 IP 子网 (连接) IP 子网。 每个 IP 子网都与一个网络站点关联，网络站点聚合到管理员定义的网络区域。 Location-Based基于用户的网络站点强制执行路由。
+Location-Based路由利用 E9-1-1、CAC 和媒体旁路使用的 Skype for Business Server 中定义的相同网络区域、站点和子网应用呼叫路由限制，以防止 PSTN 收费绕路情况。 用户的位置由用户的 Skype for Business 终结点的 IP 子网 (连接) IP 子网。 每个 IP 子网都与一个网络站点关联，网络站点聚合到管理员定义的网络区域。 Location-Based基于用户的网络站点强制执行路由。
 
 Location-Based路由规则基于每个网络站点应用，这意味着给定的一组规则将应用于为位于同一网络站点内的 Location-Based 路由启用的所有终结点。 管理员可以将Location-Based路由应用于需要它的网络站点。
 
@@ -55,27 +55,27 @@ Location-Based路由规则基于每个网络站点应用，这意味着给定的
 
 用户位置可以按以下方式分类：
 
-- 用户位于启用了 Location-Based 路由的已知网络站点中，其 DID (外线直拨拨号) 号码终止于位于相同网络站点 (即 office) 的 PSTN 网关上。 出站呼叫的路由是通过用户所在的网络站点的语音路由策略。 传入到用户的 PSTN 呼叫将路由到与 PSTN 网关位于同一网络站点中的终结点。
+- 用户位于启用了 Location-Based 路由的已知网络站点中，其 DID (外线直拨拨号) 号码终止于位于相同网络站点 (即 office) 中的 PSTN 网关上。 出站呼叫的路由是通过用户所在的网络站点的语音路由策略。 传入到用户的 PSTN 呼叫将路由到与 PSTN 网关位于同一网络站点中的终结点。
 
-- 用户位于与 PSTN 网关所在的网络站点不同的已知网络站点中。  (，即用户前往另一个公司办事处) 。 出站呼叫的路由将采用用户所在的网络站点的语音路由策略。 传入到用户的 PSTN 呼叫不会路由到位于与 PSTN 网关不同的站点中的终结点，以防止 PSTN 收费绕路情况。
+- 用户位于与 PSTN 网关所在的网络站点不同的已知网络站点中。  (例如，用户前往另一个公司办事处) 。 出站呼叫的路由将采用用户所在的网络站点的语音路由策略。 传入到用户的 PSTN 呼叫不会路由到位于与 PSTN 网关不同的站点中的终结点，以防止 PSTN 收费绕路情况。
 
 - 当用户位于 Skype for Business Server 部署未知的网络站点中时，出站呼叫的路由将基于分配给用户的语音策略到未绑定到 Location-Based 路由限制的 PSTN 网关。 传入 PSTN 呼叫不会路由到位于未知网络站点中的终结点，以防止 PSTN 收费绕路情况。
 
-### <a name="applying-location-based-routing-at-the-pstn-gateways-location"></a>应用Location-Based PSTN 网关位置的路由
+### <a name="applying-location-based-routing-at-the-pstn-gateways-location"></a>在Location-Based位置应用路由路由
 
 通过 PSTN 网关和 PBX 路由的呼叫可能需要Location-Based路由限制，具体取决于此类系统的位置。 Location-Based可以按每个中继的粒度启用路由。
 
 Location-Based在中继上启用时，路由将引入以下规则集：
 
-- 当Location-Based中继启用路由时，该中继上定义的规则将仅应用于通过该中继路由的呼叫。
+- 当Location-Based中继上启用路由时，该中继上定义的规则将仅应用于通过该中继路由的呼叫。
 
 - 为防止 PSTN 收费绕路情况，即呼叫来自与 PSTN 网关所在的网络站点不同的网络站点，Location-Based Routing 引入了网络站点与给定中继的关联。 这将定义允许将呼叫路由到给定中继的网络站点。
 
-可以通过两种方式为中继Location-Based路由：
+可以通过两种方式为Location-Based启用中继：
 
 - 为将呼叫输出到 PSTN 的 PSTN 网关定义中继。 此类型的中继路由的传入呼叫将仅路由到位于与中继相同的网络站点内的终结点。
 
-- 中继为中介服务器对等方定义，该对等方不会将呼叫路由到 PSTN，并且为静态位置（例如 PBX 电话）中具有旧电话 (的用户提供服务) 。 对于此特定配置，此类型的中继路由的所有传入呼叫均被视为来自与中继相同的网络站点。 来自 PBX 用户的呼叫将具有与Location-Based位于同一网络站点中的Skype for Business用户相同的路由强制。 如果位于不同网络站点中的两个 PBX 系统通过 Skype for Business Server 进行连接，Location-Based 路由将允许从一个网络站点中的一个 PBX 终结点路由到另一个网络站点中的另一个 PBX 终结点。 此方案不会被路由Location-Based阻止。 除此方案外，与同一位置的 Skype for Business 用户类似，连接到具有此配置的中介服务器对等方终结点将能够拨打或接收其他中介服务器对等方向 PSTN (即连接到其他 PBX) 的终结点的呼叫，无论中介服务器对等方位于哪个网络站点关联。 涉及 PSTN 终结点的所有入站呼叫、出站呼叫、呼叫转移和呼叫转接将受基于位置的路由的限制，以使用定义为此类中介服务器对等方本地的 PSTN 网关。
+- 中继为中介服务器对等方定义，该对等方不会将呼叫输出到 PSTN，并且为静态位置（例如 PBX 电话）中具有旧电话 (用户提供服务) 。 对于此特定配置，此类型的中继路由的所有传入呼叫均被视为来自与中继相同的网络站点。 来自 PBX 用户的呼叫将Location-Based中继Skype for Business位于同一网络站点中的用户执行路由。 如果位于不同网络站点中的两个 PBX 系统通过 Skype for Business Server 进行连接，Location-Based 路由将允许从一个网络站点中的一个 PBX 终结点路由到另一个网络站点中的另一个 PBX 终结点。 此方案不会被路由Location-Based阻止。 除此方案外，与同一位置的 Skype for Business 用户类似，连接到具有此配置的中介服务器对等方终结点将能够拨打或接收其他中介服务器对等方向 PSTN (即连接到其他 PBX) 的终结点的呼叫，无论中介服务器对等方位于哪个网络站点关联。 涉及 PSTN 终结点的所有入站呼叫、出站呼叫、呼叫转移和呼叫转接将受基于位置的路由的限制，以使用定义为此类中介服务器对等方本地的 PSTN 网关。
 
 ## <a name="scenarios-for-location-based-routing"></a>路由Location-Based方案
 
@@ -94,7 +94,7 @@ Location-Based路由在下列方案中路由呼叫时，路由将应用以下一
 
 ### <a name="incoming-calls"></a>传入呼叫
 
-向启用了路由路由Location-Based传入呼叫的路由取决于用户终结点的位置。 传入呼叫的路由以下列方式受到影响。 如果用户对位于启用了 Location-Based 路由的网络站点中的终结点有传入呼叫，并且该终结点与 PSTN 网关位于同一网络站点中，将路由该呼叫。 如果用户向启用了路由的 Location-Based 网络站点中的终结点发送传入呼叫，并且该终结点位于与 PSTN 网关不同的网络站点中，则将不会路由该呼叫。 如果用户没有与发出传入呼叫的 PSTN 网关位于同一网络站点中的终结点，则传入呼叫将直接路由到用户的语音邮件，并且未接来电通知将发送给被叫方。
+向启用了路由路由Location-Based传入呼叫的路由取决于用户终结点的位置。 传入呼叫的路由以下列方式受到影响。 如果用户向启用了路由的 Location-Based 网络站点中的终结点发送传入呼叫，并且该终结点与 PSTN 网关位于同一网络站点中，将路由该呼叫。 如果用户向启用了路由的 Location-Based 网络站点中的终结点发送传入呼叫，并且该终结点位于与 PSTN 网关不同的网络站点中，则将不会路由该呼叫。 如果用户没有与发出传入呼叫的 PSTN 网关位于同一网络站点中的终结点，则传入呼叫将直接路由到用户的语音邮件，并且未接来电通知将发送给被叫方。
 
 将继续强制实施启用了 Location-Based Routing 的用户的呼叫转发设置，但是，转发的呼叫将受Location-Based路由限制的限制。
 
@@ -102,15 +102,15 @@ Location-Based路由在下列方案中路由呼叫时，路由将应用以下一
 
 **从 PSTN 接收入站呼叫的被叫方**
 
-|&nbsp;|与 PSTN 网关位于同一网络站点中的被叫方终结点|被叫方终结点与 PSTN 网关不在同一网络站点中|被叫方终结点位于未知网络站点或未启用Location-Based路由|
+|&nbsp;|与 PSTN 网关位于同一网络站点中的被叫方终结点|被叫方终结点与 PSTN 网关不在同一网络站点中|被叫方终结点位于未知网络站点中或未启用Location-Based路由|
 |:-----|:-----|:-----|:-----|
 |入站 PSTN 呼叫的路由   |传入呼叫将路由到被叫方终结点   |传入呼叫未路由到被叫方终结点   |传入呼叫未路由到被叫方终结点   |
 
 ### <a name="call-transfers-and-call-forwarding"></a>呼叫转移和呼叫转接
 
-当涉及 PSTN 终结点时，Location-Based 路由将分析呼叫者终结点的位置，以及呼叫将转接到 (即转接目标) 的终结点。 Location-Based路由根据两个终结点的位置确定是否应转接呼叫。
+当涉及 PSTN 终结点时，Location-Based 路由将分析呼叫者终结点的位置，以及将呼叫转接到 (即转接目标) 的终结点。 Location-Based路由根据两个终结点的位置确定是否应转接呼叫。
 
-下表说明了 PSTN 终结点Skype for Business呼叫中呼叫用户的情况，Skype for Business 用户将呼叫转接到另一个 Skype for Business 用户。 根据被叫方终结点的网络站点位置，Location-Based路由会影响呼叫转接的路由。
+下表说明了 PSTN 终结点Skype for Business呼叫中呼叫用户的情况，Skype for Business 用户将呼叫转接给另一Skype for Business用户。 根据被叫方终结点的网络站点位置，Location-Based路由会影响呼叫转接的路由。
 
 **发起呼叫转接**
 
@@ -118,7 +118,7 @@ Location-Based路由在下列方案中路由呼叫时，路由将应用以下一
 |:-----|:-----|:-----|:-----|
 |Skype for Business用户   |允许呼叫转接   |不允许呼叫转接   |不允许呼叫转接   |
 
-例如：Skype for Business PSTN 终结点的呼叫中的用户将呼叫转接到Skype for Business网络站点中的另一个呼叫用户。 在这种情况下，允许呼叫转移。
+例如：Skype for Business PSTN 终结点的呼叫中的用户将呼叫Skype for Business同一网络站点中的另一个用户。 在这种情况下，允许呼叫转移。
 
 下表演示了在呼叫中Skype for Business用户与另一个 Skype for Business 用户进行呼叫，其中一个用户将呼叫转接到 PSTN 终结点的方案。 根据呼叫转接到的用户的位置，下表详细说明了路由Location-Based呼叫有何影响。
 
@@ -132,9 +132,9 @@ Location-Based路由在下列方案中路由呼叫时，路由将应用以下一
 
 ### <a name="simultaneous-ringing"></a>同时响铃
 
-当被叫方启用了同时响铃时，Location-Based路由将分析呼叫方的位置和被叫方终结点，以确定是否应该路由呼叫。
+当被叫方启用了同时响铃时，Location-Based路由将分析呼叫方的位置和被叫方终结点的位置，以确定是否应该路由呼叫。
 
-下表说明了配置了同时响铃的用户，同时响铃目标为相同网络站点、不同网络站点或未知网络站点中的用户。
+下表说明配置了同时响铃的用户，同时响铃目标为相同网络站点、不同网络站点或未知网络站点中的用户。
 
 ****
 
@@ -142,7 +142,7 @@ Location-Based路由在下列方案中路由呼叫时，路由将应用以下一
 |:-----|:-----|:-----|:-----|
 |Skype for Business用户   |允许同时响铃   |不允许同时响铃   |不允许同时响铃   |
 
-下表说明了来自 Skype for Business 用户的呼叫 (即 Skype for Business 呼叫者) 在同一网络站点、不同网络站点中或来自未知网络站点。 被叫方具有 PSTN 终结点 (例如，) 配置为同时响铃目标。 在这种情况下，Location-Based路由将确定是否应该将呼叫路由到同时响铃目标 (即被叫) 的移动电话。
+下表说明了来自 Skype for Business 用户的呼叫 (例如Skype for Business呼叫者) 在同一网络站点、不同网络站点中或来自未知网络站点。 被叫方具有 PSTN 终结点 (即，) 配置为同时响铃目标。 在这种情况下，Location-Based路由将确定是否应该将呼叫路由到同时响铃目标 (即被叫) 的移动电话。
 
 ****
 
@@ -162,14 +162,14 @@ Location-Based路由在下列方案中路由呼叫时，路由将应用以下一
 
 下表将演练累积更新 4 后一些方案：
 
-|Location-Based路由用户|其他方|操作|结果|
+|Location-Based路由用户|其他方|Action|结果|
 |:-----|:-----|:-----|:-----|
 |Skype for Business移动   |PSTN   |Skype for Business移动接收传入 PSTN 呼叫。   |呼叫通过"通过工位呼叫" (CvW) 路由，而不是通过 VoIP 进行路由。   |
 |Skype for Business移动   |PSTN   |Skype for Business移动进行传出 PSTN 呼叫。   |呼叫通过 CvW 而不是 VoIP 进行路由。   |
 |Skype for Business移动   |PSTN   |Skype for Business移动位于 PSTN 呼叫中。 Skype for Business然后，移动将呼叫升级为其他用户或联系人。   |如果用户或联系人位于 PSTN 网关通道的本地，则通过 VoIP 路由呼叫。  <br/> 如果用户或联系人与 PSTN 网关通道是远程的，则通过 CvW 路由呼叫。  <br/> 如果无法通过 PSTN 访问目标用户，则呼叫将失败。  <br/> 如果目标联系人是 CAA 自动助理 (会议) ，将阻止呼叫。   |
 |Skype for Business移动   |Skype for Business客户端或联盟用户   |移动Skype for Business向另一个客户端或联盟Skype for Business发起语音呼叫。   |呼叫通过 VoIP 完成。   |
 |Skype for Business移动   |Skype for Business客户端或联盟用户   | 客户端Skype for Business联盟用户向 Skype for Business Mobile Location-Based 用户发起语音呼叫。  |呼叫通过 VoIP 完成。   |
-|Skype for Business移动   |Skype for Business客户端或联盟用户   |Skype for Business客户端或联盟用户正在对移动用户进行 VoIP Skype for Business呼叫。 任一方升级为Skype for Business联盟用户。   |呼叫通过 VoIP 完成。   |
+|Skype for Business移动   |Skype for Business客户端或联盟用户   |客户端Skype for Business联盟用户正在对移动用户进行 VoIP Skype for Business呼叫。 任一方升级为Skype for Business联盟用户。   |呼叫通过 VoIP 完成。   |
 |Skype for Business移动   |联合用户   |联盟用户正在向移动Skype for Business路由Location-Based进行语音呼叫;Skype for Business方升级至 PSTN 用户。   |呼叫被阻止。   |
 |Skype for Business移动   |联合用户   |联盟用户正在对移动路由用户进行 VoIP Skype for BusinessLocation-Based呼叫;任一方升级至 CAA 联系人。   |升级的呼叫被阻止，并包含相应的错误消息。   |
 |Skype for Business移动   |联合用户   |联盟用户正在与 Skype for Business Mobile Location-Based 路由用户进行 VoIP 呼叫，联盟用户升级至 PSTN 用户。   |将允许或禁止升级，Location-Based联盟用户的路由。 Skype for Business移动Location-Based路由用户的应用程序不执行任何操作。   |
@@ -178,11 +178,11 @@ Location-Based路由在下列方案中路由呼叫时，路由将应用以下一
 
 以下方式Skype for Business路由Location-Based中的委派功能：
 
-- 当启用了 Location-Based 路由的代理人代表经理发出呼叫时，代理的语音策略将用于授权呼叫，并且代理人的站点语音路由策略将用于路由呼叫
+- 当启用了 Location-Based 路由的代理人代表经理发出呼叫时，代理的语音策略用于授权呼叫，并且代理人的站点语音路由策略将用于路由呼叫
 
 - 对于呼叫经理的传入 PSTN 呼叫，适用于呼叫转接或同时响铃的相同规则将适用，如呼叫转接和同时响铃主题中所述。
 
-- 当代理将 PSTN 终结点设置为同时响铃目标时，对于呼叫经理的传入呼叫，与传入中继关联的站点的语音路由策略将用于将呼叫路由到代理人的 PSTN 终结点。
+- 当代理人将 PSTN 终结点设置为同时响铃目标时，对于呼叫经理的传入呼叫，与传入中继关联的站点的语音路由策略将用于将呼叫路由到代理人的 PSTN 终结点。
 
 - 对于委派，建议经理及其关联的代理人通常位于同一网络站点中。
 
@@ -206,7 +206,7 @@ Location-Based路由由 Skype for Business Server。 Skype for Business Server�
 
 Location-Based路由要求Skype for Business Server拓扑的所有前端池和 Standard Edition 服务器上部署 Lync Server 2013 CU1。 如果未安装这些版本的服务器，则不能完全强制实施基于位置的路由限制。
 
-下表标识了支持路由的服务器角色和版本Location-Based组合。
+下表标识了服务器角色与路由支持的版本Location-Based组合。
 
 ****
 
@@ -239,23 +239,23 @@ Location-Based路由要求Skype for Business Server拓扑的所有前端池和 S
 |Lync Mobile 2010   |是   ||
 
 > [!NOTE]
-> 若要禁用 Skype for Business 客户端的 VoIP，请为启用了"路由"的所有用户分配一个禁用 IP 音频/视频Location-Based策略。 有关移动策略的更多详细信息，请参阅 [New-CsMobilityPolicy](/powershell/module/skype/new-csmobilitypolicy)。
+> 若要禁用 Skype for Business 客户端的 VoIP，请为启用了"路由路由"的所有用户分配一个禁用 IP 音频/视频Location-Based策略。 有关移动策略的更多详细信息，请参阅[New-CsMobilityPolicy。](/powershell/module/skype/new-csmobilitypolicy)
 
 ## <a name="capabilities-not-supported-by-location-based-routing"></a>路由不支持Location-Based功能
 
-Location-Based路由不适用于以下类型的交互。 Location-Based使用这些功能与 PSTN Skype for Business时，不强制使用路由。
+Location-Based路由不适用于以下类型的交互。 Location-Based使用这些功能，Skype for Business PSTN 终结点交互时不强制执行路由。
 
 - PSTN 拨入会议
 
 - 通过响应组传入和传出 PSTN 呼叫
 
-- 通过呼叫管理来呼叫呼叫的 PSTN 呼叫的呼叫管理或检索
+- 通过呼叫管理来呼叫的呼叫呼叫或 PSTN 呼叫检索
 
 - 传入到通知服务的 PSTN 呼叫
 
 - 通过组内呼叫接听检索到的传入 PSTN 呼叫
 
-若要Location-Based中的交互类型强制实施路由规则，必须启用Location-Based路由：
+若要Location-Based路由规则强制为以下列表中的交互类型，必须启用Location-Based路由：
 
 - 从会议拨出的 PSTN
 

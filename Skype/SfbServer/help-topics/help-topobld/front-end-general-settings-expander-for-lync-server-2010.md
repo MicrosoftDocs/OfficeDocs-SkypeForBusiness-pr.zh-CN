@@ -2,7 +2,7 @@
 title: Lync Server 2010 的前端常规设置扩展器
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 58269c38-98d9-499f-ab69-6a63a6e5530e
 description: 通过编辑或配置以下属性来编辑前端服务器或前端池的属性。 配置页面分为以下几个部分：
-ms.openlocfilehash: d7257a8abf61f2d081562e72b40811017dcefaa0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b515acd1aa475247f0f87206a0af50eedb21a294
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768770"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855559"
 ---
 # <a name="front-end-general-settings-expander-for-lync-server-2010"></a>适合于 Lync Server 2010 的前端常规设置扩展器
 
@@ -77,7 +77,7 @@ ms.locfileid: "60768770"
 
   **中介服务器**
 
-- 若要为 **并** (中介服务器（即前端服务器或前端池) 部署的中介服务器）配置中介服务器属性，请选择"并排中介服务器已启用 **"。**
+- 若要为 **并** (中介服务器（即前端服务器或前端池) 上部署的中介服务器）配置中介服务器属性，请选择"并排中介服务器已启用 **"。**
 
 - 若要 **为并并** 的中介服务器定义侦听端口，请键入并并的中介服务器正在侦听的 **TLS** 和 **TCP** 端口值。 默认情况下，TLS 定义为 TCP 端口 5067。
 

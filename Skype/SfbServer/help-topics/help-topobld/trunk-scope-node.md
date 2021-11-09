@@ -2,7 +2,7 @@
 title: Trunk 范围节点
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 6561236d-fe30-451d-ac74-7545eb98267a
 description: 右键单击拓扑生成器中的现有 SIP 中继以执行以下操作：
-ms.openlocfilehash: 01272440b65c84afb7101c24d81073c1d4c633f6
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 083780d318de69f1fe817e9863dc669220afbee5
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773772"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846485"
 ---
 # <a name="trunk-scope-node"></a>中继范围节点
  

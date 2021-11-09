@@ -2,7 +2,7 @@
 title: 管理 ELIN 网关在Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ced79c13-4e7e-4034-95cd-6fc913f4f222
 description: 规划使用 ELIN 网关的 E9-1-1 部署的位置信息数据库或类似外部数据库所必需的决策Skype for Business Server 企业语音。
-ms.openlocfilehash: f8440e4e125773e91850b890bb2a02c7d1312fde
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d958b9d533245e7071cb8c1f030e91a13a44925f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60756519"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845165"
 ---
 # <a name="manage-locations-for-elin-gateways-in-skype-for-business-server"></a>管理 ELIN 网关在Skype for Business Server
 
@@ -52,7 +52,7 @@ ms.locfileid: "60756519"
 
 - 一个容易理解的名称，用于标识 911 呼叫者的位置，以确保紧急响应者在到达市政地址后能迅速找到具体位置。此位置名称可包含建筑物编号、楼层、建筑物标识、房间号等。应避免使用仅对员工可知的昵称，以防紧急响应者去往错误的位置。
 
-- 一个位置标识符，可帮助用户轻松查看其客户端选取了正确的位置。 客户端Skype for Business连接并在其标头中显示发现的 **Location** 和 **City** 字段。 一个好的做法是将建筑物的街道地址添加到每个位置标识符 (例如，"1st <street number> Floor") 。 如果没有街道地址，那么通用的位置标识符（例如“1st Floor”）可以适用于城市中的所有建筑。
+- 一个位置标识符，可帮助用户轻松查看其客户端选取了正确的位置。 客户端Skype for Business连接并在其标头中显示发现的 **Location** 和 **City** 字段。 一个好的做法是将建筑物的街道地址添加到每个位置标识符 (例如，"1st \<street number> Floor") 。 如果没有街道地址，那么通用的位置标识符（例如“1st Floor”）可以适用于城市中的所有建筑。
 
 - 如果位置是近似值，因为它由无线访问点确定，您可能需要添加 **单词 [Near]** (例如，"Near 1st Floor 1234") 。
 

@@ -2,7 +2,7 @@
 title: 添加前端 Web 服务 2010
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 97420584-3c2e-4d6d-9a2b-f7e361f1e2d1
 description: 基 URL 指的是 URL 的 Web 服务标识减去 https://。 例如，如果池的 Web 服务的完整 URL 为 `https://pool01.contoso.net` ，则基 URL 为 `pool01.contoso.net` 。
-ms.openlocfilehash: 372748531d4f6caaaaaddb97d5733d4e107fdf6b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: cbc30f550d5f012e510cb5941e97ed65668a9f2c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60739368"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845495"
 ---
 # <a name="add-front-end-web-services-2010"></a>添加前端 Web 服务 2010
  

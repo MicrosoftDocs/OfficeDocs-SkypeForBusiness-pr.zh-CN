@@ -2,7 +2,7 @@
 title: URL 筛选器
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 2677dcba-92f6-432a-9e2f-f7ad72497e3c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: 830f812e3f21d5f7229d6643cbd7cfef91fb76a9
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0eb13573a0547c7879dd16e71fd30b84df6f1fa1
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60764660"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855016"
 ---
 # <a name="url-filter"></a>URL 筛选器
 

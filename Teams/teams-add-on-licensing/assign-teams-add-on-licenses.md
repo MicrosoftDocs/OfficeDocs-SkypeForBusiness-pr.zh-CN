@@ -1,6 +1,6 @@
 ---
 title: 向Teams分配附加许可证
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 audience: ITPro
@@ -13,22 +13,22 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 ms.reviewer: mikedav
-description: 了解如何为用户Teams音频会议、会议、电话系统等功能分配附加许可证。
+description: 了解如何向用户Teams音频会议、音频会议、电话系统和呼叫计划等功能分配附加许可证。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 47d5f5838b382459fe6820f210a29b4809525e18
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 200e2bb36940bb4b447c4a46856c4e3ffa07f588
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766120"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846025"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>向Teams分配附加许可证
 
 附加许可证是音频会议、Teams和呼叫计划等特定电话系统许可证。 本文介绍如何将附加许可证批量分配给单个用户和大型用户集。
 
 > [!NOTE]
-> 请参阅[Teams附加许可证](./microsoft-teams-add-on-licensing.md)Teams附加许可证提供的功能。 你还将找到有关需要购买哪些许可证以及如何购买许可证的信息 (具体取决于你的计划) ，以便用户可以获取音频会议、免费号码和呼叫组织外部电话号码等功能。 确定要为用户提供哪些功能后，请为其分配许可证。
+> 请参阅[Teams附加许可证Teams](./microsoft-teams-add-on-licensing.md)附加许可证提供的功能。 你还将找到有关需要购买哪些许可证以及如何购买许可证的信息 (具体取决于你的计划) ，以便用户可以获取音频会议、免费号码和呼叫组织外部电话号码等功能。 确定要为用户提供哪些功能后，请为其分配许可证。
 
 可以使用 Microsoft 365 管理中心 PowerShell 为组织的用户分配许可证。 你必须成为全局管理员或用户管理管理员才能管理许可证。
 
@@ -48,7 +48,7 @@ ms.locfileid: "60766120"
 
 ## <a name="using-the-microsoft-365-admin-center"></a>使用 Microsoft 365 管理中心
 
-使用Microsoft 365 管理中心一次向单个用户或少量用户分配许可证。 在"许可证"页面上 (一次最多为 20 个用户分配许可证) 或"活动用户"页 (一次最多为 40 个用户分配) 。 选择的方法取决于你想要管理特定用户的产品许可证还是管理特定产品的用户许可证。
+使用Microsoft 365 管理中心一次向单个用户或少量用户分配许可证。 在"许可证"页面上 (一次最多为 20 个用户分配许可证) 或"活动用户"页 (最多一次为 40 个用户分配) 。 选择的方法取决于你想要管理特定用户的产品许可证还是管理特定产品的用户许可证。
 
 有关分步说明，请参阅[向用户分配许可证](/microsoft-365/admin/manage/assign-licenses-to-users)。
 
@@ -62,16 +62,16 @@ ms.locfileid: "60766120"
 
 以下示例演示了如何使用脚本向用户分配许可证。
 
-1. 安装适用于 IT 专业人员 RTW 的 [Microsoft Online Services 64 位版本的登录助手](/collaborate/connect-redirect?DownloadID=59185)。
+1. 安装适用于 IT 专业人员 RTW 的 [Microsoft Online Services登录助手的](/collaborate/connect-redirect?DownloadID=59185)64 位版本。
 2. 安装Microsoft Azure Active Directory模块Windows PowerShell：
-    1. 打开权限提升的 Windows PowerShell 命令提示符 (以管理员Windows PowerShell运行) 。
+    1. 打开权限提升的 Windows PowerShell 命令提示符 (以Windows PowerShell管理员角色运行) 。
     2. 运行以下命令：
         ```powershell
         Install-Module MSOnline
         ```
     3. 如果系统提示你安装 NuGet提供程序，请键入 **Y，** 然后按 Enter。
     4. 如果系统提示从 PSGallery 安装模块，请键入 **Y，** 然后按 Enter。
-3. 在 Windows PowerShell命令提示符下，运行以下脚本将许可证分配给用户，其中 是组织名称和要分配的许可证 \<CompanyName:License> 的标识符。 例如，litwareinc：MCOMEETADV。
+3. 在 Windows PowerShell 命令提示符下，运行以下脚本将许可证分配给用户，其中 是组织名称和要分配的许可证 \<CompanyName:License> 的标识符。 例如，litwareinc：MCOMEETADV。
 
     标识符不同于许可证的友好名称。 例如，音频会议标识符是 MCOMEETADV。 有关详细信息，请参阅许可 [的产品名称和 SKU 标识符](#product-names-and-sku-identifiers-for-licensing)。
 
@@ -117,7 +117,7 @@ ms.locfileid: "60766120"
       Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "litwareinc:MCOMEETADV" -ErrorAction SilentlyContinue
       ```
 
-    若要在不使用呼叫计划 (的情况下分配 Microsoft Business Voice) ，请使用脚本中的以下语法：
+    若要分配 Microsoft Business Voice (而无需呼叫计划) 许可证，请使用脚本中的以下语法：
 
       ```powershell
       Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "litwareinc:BUSINESS_VOICE_DIRECTROUTING" -ErrorAction SilentlyContinue
@@ -149,7 +149,7 @@ ms.locfileid: "60766120"
 | 电话系统 | MCOEV |
 | 国内和国际呼叫计划 | MCOPSTN2 |
 | 美国/ (/CA 的用户/月国内呼叫计划为 3000 分钟，对于欧盟/地区，每个用户/月 1200 分钟)  | MCOPSTN1 |
-| 每个用户/ (国内呼叫计划为每个用户/月 120)  </br>*此计划在美国不可用。* | MCOPSTN5 |
+| 针对每个国家/ (，国内呼叫计划为每个用户/月 120)  </br>*此计划在美国不可用。* | MCOPSTN5 |
 | 针对每个国家/ (，国内呼叫计划为每个用户/月 240)  </br>*此计划在美国不可用。* | MCOPSTN6 |
 | 通信点数 | MCOPSTNPP |
 

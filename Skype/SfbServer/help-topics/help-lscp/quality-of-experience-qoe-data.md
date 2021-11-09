@@ -2,7 +2,7 @@
 title: 用户体验质量 (QoE) 数据
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,18 +15,18 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 2b030ced-0aae-4023-bb26-544d14bdd2f0
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: cc2e3d13ffbb35cc630b3baf49d047501b9ea0e7
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 64794929961a1245baee2fd349684d2569f77f61
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60775143"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846605"
 ---
 # <a name="quality-of-experience-qoe-data"></a>用户体验质量 (QoE) 数据
  
 要执行什么操作？ 单击要执行的任务的链接。
   
-- [在 2015 年 10 月Skype for Business Server用户体验质量](../../manage/health-and-monitoring/enable-qoe.md)
+- [在 Skype for Business Server 2015 中启用用户体验质量](../../manage/health-and-monitoring/enable-qoe.md)
     
 - [Modify Quality of Experience settings in Skype for Business Server 2015](../../manage/health-and-monitoring/modify-qoe-settings.md)
     

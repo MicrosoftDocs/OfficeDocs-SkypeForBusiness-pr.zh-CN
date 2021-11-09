@@ -2,7 +2,7 @@
 title: tblNode
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: a31d2961-aa83-4286-a12e-15d279c95f19
-description: tblNode 包含对象树 (类别或聊天室节点) 在控制面板和管理 cmdlet 中进行管理。
-ms.openlocfilehash: 0935e5cdec8db7f7ce33b07dcf287c1a8bd5d749
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: tblNode 包含对象树 (类别或聊天室节点) 控制面板和管理 cmdlet 中管理的对象树节点。
+ms.openlocfilehash: 1e6d3a97f04d614a0993ca06d8a5b2a2f928b39d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60776142"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846245"
 ---
 # <a name="tblnode"></a>tblNode
  
-tblNode 包含对象树 (类别或聊天室节点) 在控制面板和管理 cmdlet 中进行管理。
+tblNode 包含对象树 (类别或聊天室节点) 控制面板和管理 cmdlet 中管理的对象树节点。
   
 **列**
 

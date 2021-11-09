@@ -2,7 +2,7 @@
 title: 在远程部署Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 244df419-d0a8-4b1d-aedd-a92114172ab6
 description: 摘要：了解如何在 Skype for Business Server 中部署监控。
-ms.openlocfilehash: cbb5fe0974e1b02ce5be472ba91d01221fb7df82
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 5e3fdf468067b707ee1dd97c5458f3612d78653d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60764840"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855076"
 ---
 # <a name="deploy-monitoring-in-skype-for-business-server"></a>在远程部署Skype for Business Server
 

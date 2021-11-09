@@ -1,8 +1,8 @@
 ---
-title: 查看 2015 Skype for Business Server中的管理员报告
+title: 查看 2015 年 Skype for Business Server 中的管理员报告
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 4/5/2016
 audience: ITPro
@@ -14,14 +14,14 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 22d480ea-cd64-4d09-99fe-96e997570844
 description: 管理员报告是有关部署和操作的详细信息。 报告基于"设计网站"中标记的选择生成。 设计师可通过编辑网络图，并为服务器、池和负载平衡器定义完整的 IP 地址和完全限定域名 (FQDN)，来进一步向管理报告中添加值。
-ms.openlocfilehash: e2a30e27b5b1928dacc36e5592033090484f065a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: fd48494a603b6e279790a92e38040c3e26b01668
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766290"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845295"
 ---
-# <a name="review-the-administrator-reports-in-skype-for-business-server-2015"></a>查看 2015 Skype for Business Server中的管理员报告
+# <a name="review-the-administrator-reports-in-skype-for-business-server-2015"></a>查看 2015 年 Skype for Business Server 中的管理员报告
 
 管理员报告是有关部署和操作的详细信息。 报告是基于"设计网站"中标记 **的选择生成的**。 设计师可通过编辑网络图，并为服务器、池和负载平衡器定义完整的 IP 地址和完全限定域名 (FQDN)，来进一步向管理报告中添加值。
 
@@ -42,7 +42,7 @@ The Skype for Business Administrator Report is the first of four valuable report
 
 ![常规摘要管理报告。](../../media/General_Summary_Report_Admin_Report.png)
 
-摘要报告列出了与边缘网络关联的常规配置信息。 记录了位置、完全限定 (FQDN) IP 地址、网络类型以及特定于给定角色的注释。
+摘要报告列出了与边缘网络关联的常规配置信息。 记录了位置、完全限定域名 (FQDN) IP 地址、网络类型以及特定于给定角色的注释。
 
 将部署、管理和维护基础结构的设计人员和每个团队应查看摘要报告的准确性并确保错误最少。
 
@@ -63,7 +63,7 @@ The Skype for Business Administrator Report is the first of four valuable report
 
 仔细检查部署中每个证书的用途和用途，并确保了解。 如果对证书执行哪些操作存在疑问，请确定与哪些服务器或服务通信。 2015 Skype for Business Server中的证书主要用于两个目的：
 
-- 相互传输层安全性 (MTLS) - 参与通信的每台计算机都提供向另一台计算机证明其身份的证书。 这称为服务器身份验证。 在每个计算机信任另一台计算机的标识之前，通信无法开始。
+- 相互传输层安全性 (MTLS) - 参与通信的每台计算机都向另一台计算机提供证明其身份的证书。 这称为服务器身份验证。 在每个计算机信任另一台计算机的标识之前，通信无法开始。
 
 - 加密 - 加密 (安全套接字层、SSL、传输层安全性或 TLS) 是帮助保护通信、帮助确保隐私以及创建受信任的通信和协作系统的关键方法。
 

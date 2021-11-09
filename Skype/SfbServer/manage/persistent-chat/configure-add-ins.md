@@ -2,7 +2,7 @@
 title: Configure add-ins for Persistent Chat rooms in Skype for Business Server 2015
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c1037909-0750-411a-98c1-3a327eed4ae8
 description: 摘要：了解如何在 Skype for Business Server 2015 中为持久聊天服务器聊天室配置外接程序。
-ms.openlocfilehash: 183ac4cbbdcdddfea65b3a6acab44ef4c81fe662
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c23a0dd11d51bbfa1c49d8a910decda5be0ac48f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745948"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60854296"
 ---
 # <a name="configure-add-ins-for-persistent-chat-rooms-in-skype-for-business-server-2015"></a>Configure add-ins for Persistent Chat rooms in Skype for Business Server 2015
  
@@ -29,7 +29,7 @@ ms.locfileid: "60745948"
  用户必须先将加载项添加到已注册加载项列表中，然后聊天室管理员或创建者需要将聊天室与加载项关联，用户才能在客户端中查看加载项。
   
 > [!NOTE]
-> 持久聊天在 2015 Skype for Business Server可用，但在 2019 年 2 月不再Skype for Business Server支持。 相同的功能在 Teams 中可用。 有关详细信息，请参阅开始[升级Microsoft Teams升级](/microsoftteams/upgrade-start-here)。 如果您需要使用持久聊天，您的选择是迁移需要此功能的用户以Teams或继续使用 Skype for Business Server 2015。 
+> 持久聊天在 2015 Skype for Business Server可用，但在 2019 年 2 月不再Skype for Business Server支持。 相同的功能在 Teams。 有关详细信息，请参阅开始[升级Microsoft Teams升级](/microsoftteams/upgrade-start-here)。 如果您需要使用持久聊天，则选择将需要此功能的用户迁移到 Teams，或者继续使用 Skype for Business Server 2015。 
 
 ## <a name="configure-add-ins-for-chat-rooms-by-using-the-control-panel"></a>使用控制面板配置聊天室的外接程序
 
@@ -57,7 +57,7 @@ ms.locfileid: "60745948"
     
 ## <a name="configure-add-ins-by-using-windows-powershell"></a>使用加载项配置Windows PowerShell
 
-您可以使用以下 cmdlet 配置聊天室Windows PowerShell外接程序。 有关语法的详细信息，包括所有可用参数，请参阅 Skype for Business Server [2015 Management Shell](../management-shell.md)。
+您可以使用以下 cmdlet 配置聊天室的Windows PowerShell。 有关语法的详细信息，包括所有可用参数，请参阅 Skype for Business Server [2015 Management Shell](../management-shell.md)。
   
 
 |**Cmdlet**|**说明**|

@@ -2,7 +2,7 @@
 title: Skype for Business Server 2015 规划工具
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 2a352f62-c5cb-4ef1-9aa9-7f0c1ab47455
 description: 有关使用 Skype for Business Server 2015 规划工具的指南。
-ms.openlocfilehash: d7574366fda49ccfa86b1190cfe3ea03e476bc5d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d88504af2935ad0143c7f7c1ca85f17e3f9c7c8b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60739068"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845315"
 ---
 # <a name="skype-for-business-server-2015-planning-tool"></a>Skype for Business Server 2015 规划工具
  
@@ -31,7 +31,7 @@ the Skype for Business Server 2015 Planning Tool is a wizard driven， interview
   
 使用基础结构的 TCP/IP 地址和完全限定的域名 (FQDN) 自定义拓扑后，规划工具会提供一系列报告，包括域名系统 (DNS) 命名、防火墙规则、证书等。 
   
-使用此工具是规划实现的第一步。 下一步是将网站信息详细信息输入[到 Skype for Business Server 2015](https://www.microsoft.com/download/details.aspx?id=51196)容量计算器中，根据需要进行调整，然后使用[Skype for Business Server 2015](https://www.microsoft.com/download/details.aspx?id=50367)压力和性能工具模拟和验证实现是否满足你的需求。
+使用此工具是规划实现的第一步。 下一步是将网站信息详细信息输入[到 Skype for Business Server 2015](https://www.microsoft.com/download/details.aspx?id=51196)容量计算器中，根据需要进行调整，然后使用[Skype for Business Server 2015 Stress and Performance Tool](https://www.microsoft.com/download/details.aspx?id=50367)模拟和验证实现是否满足你的需求。
   
 规划工具还提供以两种格式导出信息的能力：
   
@@ -43,22 +43,22 @@ the Skype for Business Server 2015 Planning Tool is a wizard driven， interview
   
 ## <a name="in-this-section"></a>本节内容
 
-- [在 Skype for Business Server 2015 中安装规划工具](install.md)
+- [在 2015 年 Skype for Business Server安装规划工具](install.md)
     
 - [可选软件](install.md#Optional_Software)
     
 - [在 Skype for Business Server 2015 中导航规划工具](navigate.md)
     
-- [为 2015 Skype for Business Server拓扑设计](create-the-initial-design.md)
+- [为 Skype for Business Server 2015 创建初始拓扑设计](create-the-initial-design.md)
     
 - [在 Skype for Business Server 2015 中编辑拓扑](edit-the-topology.md)
     
 - [编辑网络配置图](edit-the-topology.md#Edit_Network_diagram)
     
-- [查看 2015 年 Skype for Business Server 中的管理员报告](review-the-administrator-reports.md)
+- [查看 2015 Skype for Business Server中的管理员报告](review-the-administrator-reports.md)
     
 ## <a name="see-also"></a>另请参阅
 
-[安装 Skype for Business Server 2015](../../deploy/install/install.md)
+[Install Skype for Business Server 2015](../../deploy/install/install.md)
   
 [在 2015 年 10 月Skype for Business Server即时消息和状态](../../plan-your-deployment/instant-messaging-and-presence.md)

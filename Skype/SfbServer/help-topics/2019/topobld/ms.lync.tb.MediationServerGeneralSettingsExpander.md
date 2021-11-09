@@ -2,7 +2,7 @@
 title: 中介服务器常规设置扩展器
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 0e0ad9f0-27d5-4975-ae88-0b8ff8a4c514
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 276f4bd0eedbc8dcd28871d31c3bbb8530e9ee35
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c2734796a841827fda3b18c3b1528dda784f2979
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60748468"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840324"
 ---
 # <a name="mediation-server-general-settings-expander"></a>中介服务器常规设置扩展器
  
@@ -29,7 +29,7 @@ ms.locfileid: "60748468"
 
 中介服务器池或中介服务器的完全限定域名 (FQDN)。编辑服务器的 FQDN 以更改该值。必须具有与新值一致的域名系统 (DNS) 主机 (A) 记录。
   
-在 **“关联”** 部分中，选择要与中介服务器池或中介服务器关联的边缘服务器或边缘服务器池。 选择中介服务器的媒体组件用于外部用户访问的边缘企业语音。
+在 **“关联”** 部分中，选择要与中介服务器池或中介服务器关联的边缘服务器或边缘服务器池。 选择中介服务器的媒体组件用于外部用户配置的边缘企业语音。
   
 如果当前未定义边缘服务器，而需要将中介服务器与边缘服务器关联，请单击 **“新建”**，然后通过“定义新的边缘池”向导定义新的边缘服务器或边缘服务器池。
   

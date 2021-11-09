@@ -2,7 +2,7 @@
 title: 在 2015 Skype for Business客户端体验
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,23 +12,23 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 66867a96-ff00-497d-889c-2e908cc384ce
 description: 摘要：阅读本主题，了解如何为用户配置Skype for Business体验。
-ms.openlocfilehash: f7cbbe60de10d50d231faa201f3c8830c14f7450
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d1baa06558f7f3dcc4829d1e03c387e9ab54fa32
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773382"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845975"
 ---
 # <a name="configure-the-client-experience-with-skype-for-business-2015"></a>在 2015 Skype for Business客户端体验
  
 **摘要：** 阅读本主题，了解如何为 2015 Skype for Business客户端体验。
   
-Skype for Business 2015 提供了基于消费者产品体验的新Skype用户体验。 除了 Lync 的所有功能外，Skype for Business还提供具有简化控件和熟悉图标的新功能。 有关新客户端体验的详细信息，[请参阅浏览](https://go.microsoft.com/fwlink/?LinkId=529022)Skype for Business。
+Skype for Business 2015 提供了基于消费者产品体验的新Skype用户体验。 除了 Lync 的所有功能外，Skype for Business还新增了控件和熟悉的图标。 有关新客户端体验的详细信息，请参阅 Explore [Skype for Business](https://go.microsoft.com/fwlink/?LinkId=529022)。
   
-Skype for Business Server支持新的 Skype for Business 客户端体验以及 Lync 客户端体验。 作为管理员，您可以选择用户的首选客户端体验。 例如，您可能希望部署 Lync 客户端体验，直到组织中用户完全接受新 Skype for Business培训。 或者，如果您尚未将所有用户升级到 Skype for Business Server，您可能希望所有用户具有相同的客户端体验，直到所有用户都升级到新服务器。
+Skype for Business Server支持新的 Skype for Business 客户端体验以及 Lync 客户端体验。 作为管理员，您可以选择用户的首选客户端体验。 例如，您可能希望部署 Lync 客户端体验，直到组织中用户全面了解新的 Skype for Business 体验。 或者，如果您尚未将所有用户升级到 Skype for Business Server，您可能希望所有用户具有相同的客户端体验，直到所有用户都升级到新服务器。
   
 > [!IMPORTANT]
-> 如果您的组织部署了 Skype for Business Server Lync Server，则默认客户端体验将因服务器版本和 UI 设置而不同。 当用户首次Skype for Business时，他们将始终看到Skype for Business用户界面，即使您已选择 Lync 客户端体验。 几分钟后，将要求用户切换到 Lync 模式。 有关详细信息，请参阅本主题稍后介绍的 **首次** 启动客户端行为。
+> 如果您的组织部署了 Skype for Business Server Lync Server，则默认客户端体验将因服务器版本和 UI 设置不同而不同。 当用户首次Skype for Business时，他们将始终看到 Skype for Business用户界面，即使您已选择 Lync 客户端体验。 几分钟后，将要求用户切换到 Lync 模式。 有关详细信息，请参阅本主题稍后介绍的 **首次** 启动客户端行为。
   
 > [!NOTE]
 > Lync 2013 客户端体验不是适用于 Skype for Business 2016 客户端版本或更高版本的选项。 在尝试将客户端环境配置为使用 Lync 2013 客户端之前，请检查客户端版本以确保它不会以数字 16 开始;例如：16.x.x.x。 
@@ -55,7 +55,7 @@ Set-CsClientPolicy -Identity Global -EnableSkypeUI $true
 Set-CsClientPolicy -Identity Global -EnableSkypeUI $false
 ```
 
-下一个命令为 Redmond Skype for Business所有用户选择客户端体验：
+下一个命令选择Skype for Business Redmond 站点中所有用户的客户端体验：
   
 ```powershell
 Set-CsClientPolicy -Identity site:Redmond -EnableSkypeUI $true
@@ -99,13 +99,13 @@ Get-CsUser -LDAPFilter "Department=Sales" | Grant-CsClientPolicy -PolicyName Sal
    "EnableSkypeUI"=hex:00,00,00,00
    </pre>
 
-当用户首次启动 Lync 客户端时，Skype for Business Lync 用户界面。
+当用户首次启动客户端时，现在将显示 Lync Skype for Business客户端。
   
 ### <a name="control-the-display-of-the-welcome-screen-tutorial"></a>控制欢迎屏幕教程的显示
 
-当用户打开 Skype for Business 客户端时，默认行为是显示欢迎屏幕，其中包括大多数用户请求的 *7* 个快速提示。 You can turn off the display of the Welcome screen but still allow users to access the tutorial by adding the following Registry value on the client computer：
+当用户打开 Skype for Business 客户端时，默认行为是显示欢迎屏幕，其中包括大多数用户请求 *的 7* 个快速提示。 You can turn off the display of the Welcome screen but still allow users to access the tutorial by adding the following Registry value on the client computer：
   
-在 **[HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync]** 键中，创建一个新的 **DWORD (32 位) 值**。 值 **名称** 必须为 **IsBasicTutorialSeenByUser**， **值** 数据必须设置为 **1**。
+在 **[HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync]** 键中，创建一个新的 **DWORD (32 位**) 值 。 值 **名称** 必须为 **IsBasicTutorialSeenByUser**， **值** 数据必须设置为 **1**。
   
 该键应如下所示：
   
@@ -115,7 +115,7 @@ Get-CsUser -LDAPFilter "Department=Sales" | Grant-CsClientPolicy -PolicyName Sal
 
 如果你不希望用户能够访问本教程，可以使用以下注册表值关闭客户端教程：
   
-在 **[HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync]** 键中，创建一个新的 **DWORD (32 位) 值**。 值 **名称** 必须为 **TutorialFeatureEnabled**， **值** 数据必须设置为 **0**。
+在 **[HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync]** 键中，创建一个新的 **DWORD (32 位**) 值 。 值 **名称** 必须为 **TutorialFeatureEnabled**， **值** 数据必须设置为 **0**。
   
 Lync
   
@@ -134,10 +134,10 @@ Lync
 |:-----|:-----|:-----|
 |Skype for Business Server |默认值  <br/> |Skype for Business  <br/> |
 |Skype for Business Server  |True  <br/> |Skype for Business  <br/> |
-|Skype for Business Server  |错误  <br/> |如果以后将 UI 设置更改为 (，Skype for Business切换到 Lync 模式，用户就可以$true)   <br/> |
-|Lync Server 2010 或 Lync Server 2013 (正确的修补程序)   <br/> |默认值  <br/> |如果以后将 UI 设置更改为 (，Skype for Business切换到 Lync 模式，用户就可以$true)   <br/> |
+|Skype for Business Server  |错误  <br/> |如果以后将 UI 设置更改为 (，Skype for Business切换到 Lync 模式，用户就可以切换到$true)   <br/> |
+|Lync Server 2010 或 Lync Server 2013 (正确的修补程序)   <br/> |默认值  <br/> |如果以后将 UI 设置更改为 (，Skype for Business切换到 Lync 模式，用户就可以切换到$true)   <br/> |
 |Lync Server 2010 或 Lync Server 2013 (正确的修补程序)   <br/> |True  <br/> |Skype for Business  <br/> |
-|Lync Server 2010 或 Lync Server 2013 (正确的修补程序)   <br/> |错误  <br/> |如果以后将 UI 设置更改为 (，Skype for Business切换到 Lync 模式，用户就可以$true)   <br/> |
+|Lync Server 2010 或 Lync Server 2013 (正确的修补程序)   <br/> |错误  <br/> |如果以后将 UI 设置更改为 (，Skype for Business切换到 Lync 模式，用户就可以切换到$true)   <br/> |
 |Lync Server 2010 或 Lync Server 2013 (修补程序)   <br/> |默认值  <br/> |要求用户切换到 Lync 模式 (用户以后无法Skype for Business切换到)   <br/> |
    
 下表显示了管理员更改自定义 UI 体验的初始设置时Skype体验：
@@ -161,7 +161,7 @@ Lync
 
 用户首次启动 Lync 客户端时显示 Lync 客户端体验的注册表Skype for Business 2015 客户端应仅执行一次。 如果使用组策略对象 (GPO) 更新注册表，则需要定义对象以创建新值，而不是更新值数据。 应用 GPO 时，如果新值不存在，GPO 将创建它，将值数据设置为 0。 
   
-以下过程介绍如何修改注册表，以便用户首次启动 2015 客户端时Skype for Business Lync 客户端体验。 您还可以使用此过程更新注册表以禁用欢迎屏幕教程，如前面所述。
+以下过程介绍如何修改注册表，以便用户首次启动 2015 客户端时显示 Lync 客户端Skype for Business体验。 您还可以使用此过程更新注册表以禁用欢迎屏幕教程，如前面所述。
   
 ### <a name="to-create-the-gpo"></a>创建 GPO
 
@@ -175,7 +175,7 @@ Lync
     
 4. 右键单击刚创建的新 GPO， **然后从菜单中** 选择"编辑"。
     
-5. 在组 **策略管理编辑器** 中，展开"用户配置"，展开"首选项"，展开 **"Windows 设置"，** 然后选择 **"注册表"** 节点。 
+5. 在组 **策略管理编辑器** 中，展开"**用户** 配置"，展开"首选项"，展开 **"Windows 设置"，** 然后选择 **"注册表"** 节点。 
     
 6. 右键单击注册表 **节点**，**然后选择新建**  >  **注册表项**。
     

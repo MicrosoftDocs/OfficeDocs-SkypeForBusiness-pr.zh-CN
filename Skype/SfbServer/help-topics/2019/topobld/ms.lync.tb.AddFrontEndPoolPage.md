@@ -2,7 +2,7 @@
 title: 添加前端池 FQDN
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 02ae996c-a1c6-4ff4-b6d6-bdef4ad44d2a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 指定要创建的前端池的完全限定域名 (FQDN)。发布包含前端池的拓扑后，就无法更改该池的 FQDN。如果需要重命名池，必须先删除该池，然后添加具有新 FQDN 的新池。
-ms.openlocfilehash: 665e01863a2b4544be80e85837329a25587f8780
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8df962b5a26947ceb14c0f4989dd8400544600b4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769350"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60854766"
 ---
 # <a name="add-front-end-pool-fqdn"></a>添加前端池 FQDN
  

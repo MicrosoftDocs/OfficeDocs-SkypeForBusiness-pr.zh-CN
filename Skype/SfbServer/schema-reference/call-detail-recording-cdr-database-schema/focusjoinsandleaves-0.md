@@ -2,7 +2,7 @@
 title: FocusJoinsAndLeaves 视图
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 226460ef-766f-4d61-80cb-f332b65a210d
 description: FocusJoinsAndLeaves 视图存储有关加入和离开某会议的信息。 每个会议在此视图中由一条在每次用户加入和离开该会议时编写的记录表示。 此视图在 Microsoft Lync Server 2013 中引入。
-ms.openlocfilehash: 6195558ec7a59e9e7605db4b56f761aec374f831
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8dcc82fe641b451190236f813f432c237e7fa2e2
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740298"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845055"
 ---
 # <a name="focusjoinsandleaves-view"></a>FocusJoinsAndLeaves 视图
  

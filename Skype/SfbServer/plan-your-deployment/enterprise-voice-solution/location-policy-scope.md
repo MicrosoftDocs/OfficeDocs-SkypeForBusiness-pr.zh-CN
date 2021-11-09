@@ -1,8 +1,8 @@
 ---
-title: 在任务分配位置策略Skype for Business Server
+title: 在策略中分配位置策略Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e4c66517-c593-4253-b900-7b4dd8bddf2f
 description: 规划 E9-1-1 部署的位置Skype for Business Server 企业语音。
-ms.openlocfilehash: 2b3733df7e03f9f66b836a889732a023bddb18de
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7748d6ecf58769a2d9bee71aa61ccf871dc667c1
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60770140"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855309"
 ---
-# <a name="assign-location-policy-scope-in-skype-for-business-server"></a>在任务分配位置策略Skype for Business Server
+# <a name="assign-location-policy-scope-in-skype-for-business-server"></a>在策略中分配位置策略Skype for Business Server
  
 规划 E9-1-1 部署的位置Skype for Business Server 企业语音。
   
-与其他策略Skype for Business Server一样，可在多个范围级别分配位置策略：全局、站点和用户。 但是，用户级别位置策略的范围与其他位置策略的行为Skype for Business Server不同。 不仅可以将每用户位置策略应用于终结点对象 (如用户和公用区域 电话 联系对象) ，还可以应用于Skype for Business Server网络站点。 网络站点是与地理位置关联的客户端子网的分组（但是不一定全部都为整个中央站点或分支站点中的子网）。 任何连接到网络站点子网的客户端都自动拾取分配给该网络站点的位置策略。 如果同时将用户级别的位置策略分配给用户和网络站点，则基于网络站点的位置策略将覆盖任何每用户策略设置。
+与其他策略Skype for Business Server一样，可在多个范围级别分配位置策略：全局、站点和用户。 但是，用户级别位置策略的范围与其他位置策略的行为Skype for Business Server不同。 不仅可以将每用户位置策略应用于终结点对象 (如用户和公用区域 电话 联系对象) ，还可以应用于 Skype for Business Server 网络站点。 网络站点是与地理位置关联的客户端子网的分组（但是不一定全部都为整个中央站点或分支站点中的子网）。 任何连接到网络站点子网的客户端都自动拾取分配给该网络站点的位置策略。 如果同时将用户级别的位置策略分配给用户和网络站点，则基于网络站点的位置策略将覆盖任何每用户策略设置。
   
 每个网络站点都有为其分配的位置策略，而且每个策略都有为其分配的不同 PSTN 用途、通知 URI 和会议 URI 值。
   

@@ -1,6 +1,6 @@
 ---
 title: Teams标准用户的应用行为
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 ms.reviewer: joglocke
 manager: serdars
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4ad7f7c5f92a5bbde4e8a01d8616305bbf06f980
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 957574b112c0fbb8fc7efc4fedf726fa7395f4b5
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745538"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846085"
 ---
 # <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>Microsoft Teams标准用户的应用行为
 
@@ -30,7 +30,7 @@ ms.locfileid: "60745538"
 
 - **来宾用户** 不是组织的员工、学生或成员。 他们在贵组织没有学校或工作帐户。
 
-- 联合 **(外部)** 属于另一个域，无法访问组织的团队或团队资源。
+- 外部 **(联合) 用户** 属于另一个域，无法访问组织的团队或团队资源。
 
   > [!Note]
   > 有关来宾用户与外部用户的详细比较， [请参阅与其他组织的用户通信](./communicate-with-users-from-other-organizations.md)。
@@ -82,7 +82,7 @@ ms.locfileid: "60745538"
 
 匿名用户不能直接在会议中使用应用。 如果存在匿名用户，本机用户可以继续使用会议应用。 如果应用在聊天中发送自适应卡，匿名用户可以与该卡交互。 有关详细信息，请阅读 [允许匿名用户加入会议](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings)。
 
-匿名用户将继承用户级全局默认权限策略。 如果用户级权限策略已启用Teams，他们可以在会议中与应用交互。 匿名用户只能与已在会议中可用的应用交互，并且无法获取和/或管理这些应用。
+匿名用户将继承用户级全局默认权限策略。 如果用户级权限策略已启用Teams，他们可以与会议中的应用交互。 匿名用户只能与已在会议中可用的应用交互，并且无法获取和/或管理这些应用。
 
 ## <a name="related-topics"></a>相关主题
 

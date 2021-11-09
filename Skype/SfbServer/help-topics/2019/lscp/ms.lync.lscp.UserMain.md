@@ -2,7 +2,7 @@
 title: 控制面板 - 已更新用户搜索
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 50feb75f-92a1-4916-b92e-c039e1290c52
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您可以使用搜索查询的结果为用户配置Skype for Business Server。 可以按照显示名称、名字、姓氏、安全帐户管理器 (SAM) 帐户名、SIP 地址或线路统一资源标识符 (URI) 搜索用户。 您还可以使用 Lync Server 控制面板或 Active Directory 用户和计算机管理单元搜索用户。
-ms.openlocfilehash: efcb183eb9f763113d5db4c49c86b1d3594173c0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3c5bdc9de490adbc022f00342d291d012da78d4b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758844"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60854926"
 ---
 # <a name="control-panel---updated-user-search"></a>控制面板 - 已更新：用户搜索
 
@@ -40,7 +40,7 @@ ms.locfileid: "60758844"
 
 - [向用户分配策略](/previous-versions/office/lync-server-2013/lync-server-2013-assigning-per-user-policies)
 
-- [在用户企业语音中Skype for Business Server](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
+- [为用户启用企业语音Skype for Business Server](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
 
 - [为用户配置联盟、远程用户访问和公共 IM 连接](/previous-versions/office/lync-server-2013/lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user)
 

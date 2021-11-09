@@ -1,6 +1,6 @@
 ---
 title: 电话丹麦的号码管理
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: davlick,krkilaru
@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 使用此表查找有关在丹麦获取和管理电话号码的信息，Microsoft Teams。
-ms.openlocfilehash: b163bd9f8506ae2bbcef5092b1dd7d10f1f39c1d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e7903a7cb533d3bd789c648bb4441f48cda34655
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60756083"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846095"
 ---
 # <a name="phone-number-management-for-denmark"></a>电话丹麦的号码管理
 
@@ -34,9 +34,9 @@ ms.locfileid: "60756083"
   
 |**你要做什么？**|**下载正确的表单并发送给我们**|
 |:-----|:-----|
-|获取未在管理中心中列出的新用户Microsoft Teams电话号码。   <br/> |下载这些表单之一。 <br/>  [丹麦 v.5.0 (da-dk)  (的新电话号码) ](https://download.microsoft.com/download/a/6/2/a6245856-2c6e-49eb-925c-3dea674228bb/new-phone-number-request-for-denmark-(v.5.0)-(da-dk).pdf) <br/>[丹麦 5.0 (5.0)  () 的新电话号码请求 ](https://download.microsoft.com/download/b/6/3/b63b7107-d933-45b3-a0ec-30efd2973fb9/new-phone-number-request-for-denmark-(v.5.0)-(en-us).pdf)<br/><br/>  填写它并 [联系 TNS 服务台，了解说明](contact-tns-service-desk.md)。
+|获取未在管理中心中列出的新用户Microsoft Teams电话号码。   <br/> |下载这些表单之一。 <br/>  [丹麦 v.5.0 (da-dk)  (的新电话号码) ](https://download.microsoft.com/download/a/6/2/a6245856-2c6e-49eb-925c-3dea674228bb/new-phone-number-request-for-denmark-(v.5.0)-(da-dk).pdf) <br/>[适用于丹麦的新电话号码请求 (v.5.0)  (en-us) ](https://download.microsoft.com/download/b/6/3/b63b7107-d933-45b3-a0ec-30efd2973fb9/new-phone-number-request-for-denmark-(v.5.0)-(en-us).pdf)<br/><br/>  填写它并 [联系 TNS 服务台，了解说明](contact-tns-service-desk.md)。
 |获取转接给我们的电话号码。  <br/> | 下载此表单。 <br/>[丹麦的 (LOA) 授权书 ()  (v.5.0)  (da-dk) ](https://download.microsoft.com/download/f/6/0/f6040034-6559-4c2c-b847-85c813d7a677/letter-of-authorization-(loa)-for-denmark-(all-numbers)-(v.5.0)-(da-dk).pdf) <br/> <br/>填写它并 [联系 TNS 服务台，了解说明](contact-tns-service-desk.md)。 <br/> |
-|发布/取消发布 () 国内电话目录中的电话号码。  <br/> |[有关要](contact-tns-service-desk.md) 发布/取消发布的电话号码列表的说明，请联系 TNS 服务台。      <br/> |
+|发布/取消发布 (电话号码) 国内电话目录中。  <br/> |[有关要](contact-tns-service-desk.md) 发布/取消发布的电话号码列表的说明，请联系 TNS 服务台。      <br/> |
 |将用户号码更改为服务号码。  <br/> |[有关要转换为](contact-tns-service-desk.md) 服务号码的用户号码列表的说明，请联系 TNS 服务台。 <br/> |
 |更新目录服务以呼叫队列或自动助理号码|若要添加或更改呼叫队列或自动助理号码，请联系 [TNS 服务台，获得说明](contact-tns-service-desk.md)。 |
 

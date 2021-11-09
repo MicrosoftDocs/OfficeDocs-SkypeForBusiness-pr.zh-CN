@@ -2,7 +2,7 @@
 title: 规划忙碌选项Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5f85c6bc-a962-4283-971c-4380d83b3a66
 description: 阅读有关"忙碌选项"功能的信息Skype for Business Server。
-ms.openlocfilehash: d47b31c53b5357a520f6aa0b3a6c0a02c18df8f2
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b233260327688830a338989c14ef0eb24ade781e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60756539"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60854226"
 ---
 # <a name="plan-for-busy-options-for-skype-for-business-server"></a>规划忙碌选项Skype for Business Server
  
@@ -28,7 +28,7 @@ ms.locfileid: "60756539"
   
 忙碌选项是 2016 年 7 月累积更新中引入的新语音策略，允许你配置在用户已接听电话或参加会议或将呼叫置于保持状态时如何处理传入呼叫。 可以使用繁忙信号拒绝新呼叫或传入呼叫，也可以将新呼叫或传入呼叫转发到语音邮件。 
   
-在 SBS 服务器上配对的前端池和 Survivable Branch Servers 上支持故障转移和灾难恢复 (策略) 。
+SBS 服务器上配对前端池和 Survivable Branch Servers 上的故障转移和灾难恢复支持忙碌 (策略) 。
   
 本主题介绍忙碌选项的功能。 若要了解如何安装和配置忙碌选项，请参阅安装和配置忙碌选项[Skype for Business Server。](../../deploy/deploy-enterprise-voice/install-and-configure-busy-options.md)
   

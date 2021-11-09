@@ -1,8 +1,8 @@
 ---
-title: Location-Based会议路由Skype for Business Server
+title: Location-Based中用于会议Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,24 +16,24 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
 description: 为会议规划基于位置的路由Skype for Business Server 企业语音包括咨询呼叫转接。
-ms.openlocfilehash: 118ccd13fb85f9566c7b62736514936d4f41f9bd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d9fee0304310f551d750be85a9b6e2b0d9a47ad3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768510"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855399"
 ---
-# <a name="location-based-routing-for-conferencing-in-skype-for-business-server"></a>Location-Based会议路由Skype for Business Server
+# <a name="location-based-routing-for-conferencing-in-skype-for-business-server"></a>Location-Based中用于会议Skype for Business Server
 
 为会议规划基于位置的路由Skype for Business Server 企业语音包括咨询呼叫转接。
 
 Location-Based路由可以基于呼叫各方的位置限制 VoIP 终结点和 PSTN 终结点之间的呼叫路由。 Location-Based会议路由使您可以对会议Location-Based路由规则，即 (会议路由规则) PSTN 收费绕路情况。 应用程序监视活动会议，并Location-Based用户的位置强制实施路由限制。 会议Location-Based路由应用程序还支持对涉及 PSTN 终结点的咨询Location-Based路由限制强制执行。
 
-路由Location-Based应用程序为Skype for Business会议提供了一种防止 PSTN 收费绕路的机制。 应用程序监视活动会议，Location-Based用户参与的路由Skype for Business限制。
+路由Location-Based应用程序为Skype for Business会议提供了一种防止 PSTN 收费绕路的机制。 应用程序监视活动会议，Location-Based用户加入的位置强制实施Skype for Business路由限制。
 
 如果满足Location-Based条件，Location-Based路由会议应用程序确定是否对会议Skype for Business强制实施路由：
 
-- 会议组织者已启用"Location-Based路由"。 Location-Based路由限制将仅应用于由启用了路由路由的用户组织的Location-Based会议。
+- 会议组织者已启用"Location-Based路由"。 Location-Based路由限制将仅应用于由启用了"路由"功能的用户组织的Location-Based会议。
 
 - PSTN 终结点中至少有一个会议参与者。 Location-Based路由限制仅适用于包含 PSTN 终结点的会议。
 
@@ -41,7 +41,7 @@ Location-Based路由可以基于呼叫各方的位置限制 VoIP 终结点和 PS
 
 会议Location-Based路由应用程序阻止来自不同Skype for Business站点的用户和 PSTN 终结点加入同一会议。 如果会议组织者启用了路由Location-Based，则会议应用程序将强制实施以下限制：
 
-- 可以加入会议Skype for Business取决于已加入会议的终结点，当加入的终结点离开且新终结点加入会议时，此限制会进行调整。 如果组织者和参与者从同一网络站点加入 Skype for Business 会议，则允许 PSTN 终结点、来自相同网络站点的另一个参与者、不同网络站点的另一个参与者或来自未知网络站点的参与者加入。
+- 可以加入会议Skype for Business取决于已加入会议的终结点，当加入的终结点离开且新终结点加入会议时，此限制将进行调整。 如果组织者和参与者从同一网络站点加入 Skype for Business 会议，则允许 PSTN 终结点、来自同一网络站点的另一个参与者、不同网络站点的另一个参与者或未知网络站点的参与者加入。
 
 - 如果组织者和参与者从不同或未知的网络站点加入会议，则如果 PSTN 呼叫从启用了 Location-Based 路由的 SIP 中继进入，则不允许 PSTN 终结点加入会议。
 
@@ -51,7 +51,7 @@ Location-Based路由可以基于呼叫各方的位置限制 VoIP 终结点和 PS
 
 |用户 () 点参与会议|允许用户 () 会议的用户|不允许 () 用户加入会议|
 |:-----|:-----|:-----|
-|Skype for BusinessVoIP 客户端 () 一个网络站点进行连接  <br/> |Skype for Business来自相同网络站点的 VoIP 客户端用户  <br/> Skype for Business不同网络站点中的 VoIP 客户端用户  <br/> Skype for Business来自未知网络站点的 VoIP 客户端用户  <br/> 联盟Skype for Business VoIP 客户端用户  <br/> 从 PSTN 终结点加入的用户  <br/> |None  <br/> |
+|Skype for BusinessVoIP 客户端 () 一个网络站点进行连接  <br/> |Skype for Business来自相同网络站点的 VoIP 客户端用户  <br/> Skype for Business不同网络站点中的 VoIP 客户端用户  <br/> Skype for Business来自未知网络站点的 VoIP 客户端用户  <br/> 联盟Skype for Business VoIP 客户端用户  <br/> 从 PSTN 终结点加入的用户  <br/> |无  <br/> |
 |Skype for BusinessVoIP 客户端 () 未知网络站点进行连接  <br/> |Skype for Business来自任何站点的 VoIP 客户端用户  <br/> Skype for Business来自未知站点的 VoIP 客户端用户  <br/> 联盟Skype for Business VoIP 客户端用户  <br/> |用户通过 PSTN 终结点加入  <br/> |
 |Skype for Business不同网络站点中的 VoIP 客户端用户  <br/> |Skype for Business来自任何网络站点的 VoIP 客户端用户  <br/> Skype for Business来自未知网络站点的 VoIP 客户端用户  <br/> 联盟Skype for Business VoIP 客户端用户  <br/> |用户通过 PSTN 终结点加入  <br/> |
 |Skype for BusinessVoIP 客户端 (来自) 站点的客户端用户和从 PSTN 终结点加入的用户  <br/> |Skype for Business来自相同网络站点的 VoIP 客户端用户  <br/> |Skype for Business不同网络站点中的 VoIP 客户端用户  <br/> Skype for Business来自未知网络站点的 VoIP 客户端用户  <br/> 联盟Skype for Business VoIP 客户端用户  <br/> |
@@ -60,21 +60,21 @@ Location-Based路由可以基于呼叫各方的位置限制 VoIP 终结点和 PS
 
 - 在给定路由限制Location-Based不允许用户加入会议时，将拒绝对会议的呼叫，Skype for Business 客户端将报告呼叫未完成或已结束。
 
-- 如果 PSTN 终结点通过未启用 Location-Based Location-Based 路由的中继加入会议，将不会限制通过 Location-Based 路由强制加入会议，无论其状态如何。
+- 如果 PSTN 终结点通过未启用 Location-Based 路由的中继加入会议，则无论其状态如何，都将不会限制加入具有 Location-Based 路由的会议。
 
-- 通过未将呼叫输出到 PSTN 的 SIP 中继连接到中介服务器的 PBX 系统将具有与位于定义 SIP 中继的同一网络站点中的 Skype for Business 用户相同的强制。 例如，PSTN 终结点将能够与 PBX 用户和 Skype for Business（如果他们位于同一网络站点）加入会议;否则，如果 PBX 用户与会议用户位于不同的网络站点，则不允许 PSTN Skype for Business会议。
+- 通过未将呼叫输出到 PSTN 的 SIP 中继连接到中介服务器的 PBX 系统将具有与位于定义 SIP 中继的同一网络站点中的 Skype for Business 用户相同的强制。 例如，PSTN 终结点将能够与 PBX 用户和 Skype for Business加入会议（如果他们位于同一网络站点中）;否则，如果 PBX 用户位于与 PBX 用户不同的网络站点中，则不允许 PSTN 终结点Skype for Business会议。
 
 > [!NOTE]
 > 使用Skype for Business累积更新 4 时，应观察下表中的行为：
 
-|User|其他方|操作|结果|
+|User|其他方|Action|结果|
 |:-----|:-----|:-----|:-----|
 |Skype for Business移动  <br/> |PSTN  <br/> |Skype for Business移动位于 PSTN 呼叫中。 Skype for Business然后，移动将呼叫升级为 CAA 自动助理 (会议) 。  <br/> |呼叫被阻止，并出现相应的错误消息。  <br/> |
 |Skype for Business移动  <br/> |Skype for Business客户端或联盟用户  <br/> |客户端或联盟用户正在与 Skype for Business Mobile Location-Based 路由用户进行 VoIP 呼叫，并且任一方升级至 CAA。  <br/> |升级呼叫被阻止，并包含相应的错误消息。  <br/> |
 
 ## <a name="consultative-call-transfers"></a>咨询呼叫转接
 
-除了强制Location-Based路由到 Skype for Business 会议之外，Location-Based 会议路由应用程序还对发至 PSTN 终结点的咨询呼叫转接强制执行 Location-Based 路由限制。 咨询呼叫转接是在双方之间建立的呼叫，其中一方将呼叫转接给新用户。 例如，PSTN 终结点呼叫用户 A (Skype for Business被叫方) 。 用户 A 确定 PSTN 用户应转发到用户 B， (Skype for Business用户) 。 用户 A 将呼叫与 PSTN 用户一起放在保持状态，并呼叫用户 B。用户 B 同意与 PSTN 用户交谈。 用户 A 将呼叫保持转接到用户 B。
+除了强制执行 Location-Based 路由到 Skype for Business 会议之外，Location-Based 会议路由应用程序还对发至 PSTN 终结点的咨询呼叫转接强制实施 Location-Based 路由限制。 咨询呼叫转接是在双方之间建立的呼叫，其中一方将呼叫转接给新用户。 例如，PSTN 终结点呼叫用户 A (Skype for Business被叫方) 。 用户 A 确定 PSTN 用户应转发到用户 B， (Skype for Business用户) 。 用户 A 将呼叫与 PSTN 用户一起放在保持状态，并呼叫用户 B。用户 B 同意与 PSTN 用户交谈。 用户 A 将呼叫保持转接到用户 B。
 
 **咨询呼叫转接呼叫流**
 
@@ -92,7 +92,7 @@ Location-Based路由可以基于呼叫各方的位置限制 VoIP 终结点和 PS
 |呼叫转接方的网络站点|呼叫转接目标的网络站点|行为|
 |:-----|:-----|:-----|
 |PSTN 终结点  <br/> |Skype for Business网络站点中的用户 (，即站点 1)   <br/> |将允许咨询转接  <br/> |
-|PSTN 终结点  <br/> |Skype for Business站点（即站点 2）中的 (站点中的用户)   <br/> |将不允许咨询转接  <br/> |
+|PSTN 终结点  <br/> |Skype for Business站点（即站点 2 (）中的用户)   <br/> |将不允许咨询转接  <br/> |
 |PSTN 终结点  <br/> |Skype for Business未知网络站点中的用户  <br/> |将不允许咨询转接  <br/> |
 |PSTN 终结点  <br/> |联盟Skype for Business用户  <br/> |将不允许咨询转接  <br/> |
 |PSTN 终结点  <br/> |同一站点中的 PBX (，即站点 1)   <br/> |将允许咨询转接  <br/> |
@@ -100,13 +100,13 @@ Location-Based路由可以基于呼叫各方的位置限制 VoIP 终结点和 PS
 |同一站点中的 PBX (，即站点 1)   <br/> |PSTN 终结点  <br/> |将允许咨询转接  <br/> |
 |不同站点（即站点 2 (）中的 PBX)   <br/> |PSTN 终结点  <br/> |将不允许咨询转接  <br/> |
 |任何站点中的 PBX 终结点  <br/> |Skype for Business网络站点中的用户 (，即站点 1)   <br/> |将允许咨询转接  <br/> |
-|任何站点中的 PBX 终结点  <br/> |Skype for Business站点（即站点 2） (站点 2 中的用户)   <br/> |将允许咨询转接  <br/> |
+|任何站点中的 PBX 终结点  <br/> |Skype for Business站点（即站点 2）中的 (站点中的用户)   <br/> |将允许咨询转接  <br/> |
 |任何站点中的 PBX 终结点  <br/> |Skype for Business未知网络站点中的用户  <br/> |将允许咨询转接  <br/> |
 |任何站点中的 PBX 终结点  <br/> |联盟Skype for Business用户  <br/> |将允许咨询转接  <br/> |
 
 ## <a name="requirements"></a>要求
 
-会议Location-Based路由应用程序要求在拓扑内的所有 Front-End 池和 Standard Edition 服务器上部署 Skype for Business Server 或 Lync Server 2013 累积更新 2。 如果拓扑中的某些服务器上未安装这些服务器版本，Location-Based会议转接和咨询呼叫转接完全强制实施路由限制。
+会议Location-Based路由应用程序要求在拓扑中所有 Front-End 池和 Standard Edition 服务器上部署 Skype for Business Server 或 Lync Server 2013 累积更新 2。 如果未在拓扑中的某些服务器上安装这些服务器版本，Location-Based会议转接和咨询呼叫转接完全强制实施路由限制。
 
 下表标识了支持路由的服务器角色和版本Location-Based组合。
 
@@ -125,9 +125,9 @@ Location-Based路由可以基于呼叫各方的位置限制 VoIP 终结点和 PS
 
 会议Location-Based路由应用程序依赖于会议路由Location-Based配置。 主要配置如下：
 
-- 加入会议的参与者的位置取决于其网络站点。 网络站点及其关联的网络子网必须在Skype for Business Server中定义，以便强制实施Location-Based路由。
+- 加入会议的参与者的位置取决于其网络站点。 必须在网络站点中定义网络站点及其关联的网络子网Skype for Business Server强制实施Location-Based路由。
 
-- 若要强制Location-Based会议路由，Skype for Business必须启用会议路由Location-Based路由。
+- 若要强制Location-Based路由会议，Skype for Business必须启用会议Location-Based路由。
 
 - 若要Location-Based PSTN 终结点加入会议的路由，必须为 PSTN 终结点配置用于连接 PSTN 终结点的 SIP 中继Location-Based路由。
 
@@ -141,11 +141,11 @@ Get-CsServerApplication -Identity Service:Registrar:<Pool FQDN>
 
 在此 cmdlet 中，是启用会议Location-Based路由 \<Pool FQDN\> 的池。
 
-此 cmdlet 将返回由 Skype for Business Server 托管的应用程序的列表以及每个应用程序的优先级值。 会议Location-Based路由需要分配一个大于"UdcAgent"应用程序且小于"DefaultRouting"、"ExumRouting"和"OutboundRouting"应用程序的优先级值。 建议您为会议Location-Based路由应用程序分配一个优先级值，该值比"UdcAgent"应用程序的优先级值高一个点。
+此 cmdlet 将返回由 Skype for Business Server 托管的应用程序的列表以及每个应用程序的优先级值。 会议Location-Based路由需要分配一个大于"UdcAgent"应用程序且小于"DefaultRouting"、"ExumRouting"和"OutboundRouting"应用程序的优先级值。 建议您为会议Location-Based路由分配一个优先级值，该值比"UdcAgent"应用程序的优先级值高一个点。
 
 例如，如果"UdcAgent"应用程序的优先级值为"2"，则"DefaultRouting"应用程序的优先级值为"8"，则"ExumRouting"应用程序的优先级值为"9"，而"OutboundRouting"应用程序的优先级值为"10"，则应该为 Location-Based Routing for Conferencing 应用程序分配优先级值"3"。 这样做将按以下顺序放置应用程序的优先级：其他应用程序将 (优先级：0 到 1) ， "UdcAgent" (Priority： 2) ， Location-Based Routing Conferencing application (Priority： 3) ， other applications (Priority： 4 to 8) ， "DefaultRouting" (Priority： 9) ， "ExumRouting" (Priority： 10) and "OutboundRouting" (Priority： 11) 。
 
-找到会议应用程序的 Location-Based 路由的正确优先级值后，请为每台 Front-End 池或 Standard Edition 服务器键入以下 cmdlet，这些 cmdlet 可存储启用了 Location-Based 路由的用户：
+找到"会议路由"应用程序的 Location-Based Routing 的正确优先级值后，请为每台 Front-End 池或 Standard Edition Server 键入以下 cmdlet，以存储启用了 Location-Based 路由的用户：
 
 ```powershell
 New-CsServerApplication -Identity Service:Registrar:<Pool FQDN>/LBRouting -Priority <Application Priority> -Enabled $true -Critical $true -Uri <http://www.microsoft.com/LCS/LBRouting>
@@ -160,8 +160,8 @@ New-CsServerApplication -Identity Service:Registrar:LS2013CU2LBRPool.contoso.com
 使用此 cmdlet 后，重新启动池中的所有前端服务器或Standard Edition启用了会议Location-Based路由的前端服务器。
 
 > [!IMPORTANT]
-> Location-Based在适用池中的所有前端服务器或 Standard Edition 服务器重新启动之前，才会强制执行对会议或咨询转接的路由强制。 如果将 **-Critical** **$true** 上述 cmdlet 中，Skype for Business Server服务将立即重新启动。 如果您不希望这些服务立即重新启动，请现在将 **-Critical** 设置为 **$false，** 然后在服务重新启动后使用 **Set-CsServerApplication** 将 **-Critical** 更改为 **$true。**
+> Location-Based池或 Standard Edition 服务器的所有前端服务器重新启动后，才会强制将路由强制路由到会议或咨询转接。 如果将 **-Critical** **$true** 上述 cmdlet 中，Skype for Business Server服务将立即重新启动。 如果您不希望这些服务立即重新启动，请现在将 **-Critical** 设置为 **$false，** 然后在服务重新启动后，使用 **Set-CsServerApplication** 将 **-Critical** 更改为 **$true。**
 
-成功启用Location-Based路由会议应用程序并重新启动所有适用的服务器后，将监视由启用了 Location-Based 路由的 Skype for Business 用户组织的所有会议，以防止 PSTN 收费绕路情况
+成功启用Location-Based路由会议应用程序并重新启动所有适用的服务器后，将监视由启用了 Location-Based Skype for Business 路由的 Skype for Business 用户组织的所有会议，以防止 PSTN 收费绕路情况
 
 

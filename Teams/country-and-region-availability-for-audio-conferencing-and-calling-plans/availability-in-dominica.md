@@ -1,7 +1,7 @@
 ---
 title: 多米尼加的可用性
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, fafan
 ms.topic: reference
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于Microsoft 365 Office 365的 Skype for Business Microsoft Teams 服务。
-ms.openlocfilehash: d5e0e46cc82ceb6747fd0248ff3cbbe97dbaa462
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f890a0f5ff6971cafb5a4e158fa860567369682b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760520"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60853936"
 ---
 # <a name="availability-in-dominica"></a>多米尼加的可用性
 

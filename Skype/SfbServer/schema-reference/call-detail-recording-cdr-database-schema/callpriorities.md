@@ -2,7 +2,7 @@
 title: Skype for Business Server 2015 中的 CallPriorities 表
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 043b63ae-2d64-4f38-a0df-18aa08d6caf5
 description: CallPriorities 表是一个静态表，用于存储可能的呼叫优先级列表，例如"紧急"、"紧急"或"正常"。
-ms.openlocfilehash: 21924d712ff4ee658f757911ce168fe8b662357d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ed31d55852f0b685429bd7fbf70cff1bf81d63ae
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60743208"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845135"
 ---
 # <a name="callpriorities-table-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的 CallPriorities 表
  

@@ -2,7 +2,7 @@
 title: 呼叫诊断报告中Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 8d362dd9-a119-4601-a3b4-3e7ed0aaa92e
-description: 摘要：了解在呼叫服务中使用的多用户呼叫诊断Skype for Business Server。
-ms.openlocfilehash: b98dfdfd6f39893c70297f837355dcccbe0096a1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 摘要：了解在呼叫服务中使用的多用户呼叫Skype for Business Server。
+ms.openlocfilehash: b83ddad86f006cda82e1ea83cda5f2fb840aed7b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60762450"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846425"
 ---
 # <a name="call-diagnostic-reports-in-skype-for-business-server"></a>呼叫诊断报告中Skype for Business Server
  
-**摘要：** 了解在呼叫诊断中使用的多用户呼叫Skype for Business Server。
+**摘要：** 了解在呼叫诊断中使用的多用户呼叫诊断Skype for Business Server。
   
 呼叫诊断报告提供失败的点对点会话和会议会话的摘要信息及诊断数据。
   
@@ -33,7 +33,7 @@ ms.locfileid: "60762450"
     
 - [会议诊断报告Skype for Business Server](conference-diagnostic-report.md)提供失败的会议会话的整体趋势视图以及每种会议形式的趋势视图。 会议会话至少涉及三个参与者。
     
-- [报告中的Skype for Business Server](top-failures-report.md)提供最常见的故障及其在一段时间的趋势的列表。
+- [报告中的故障Skype for Business Server](top-failures-report.md)提供最常见的故障及其在一段时间的趋势的列表。
     
 - [报告中的故障分布Skype for Business Server](failure-distribution-report.md)提供失败会话的分析。
     

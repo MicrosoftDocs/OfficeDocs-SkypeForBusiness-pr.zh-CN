@@ -2,7 +2,7 @@
 title: 选择允许的成员
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e9e6df4a-e58a-4104-9f72-2f5c818353e1
 description: 正确使用类别可更轻松地创建和管理持久聊天室。 持久聊天管理员可以为每个类别定义 AllowedMembers 和 Creators，还可以定义将应用于在类别中创建的所有聊天室的默认聊天室设置和行为。 持久聊天管理员使用控制面板或 cmdlet 创建和管理Windows PowerShell类别。
-ms.openlocfilehash: 0a0b7730cc421cace1112413f4d08c7e65e8483e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e08673c6b2d29e24aabef0d56ddbbb19ef776f35
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60737968"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840214"
 ---
 # <a name="select-allowed-members"></a>选择允许的成员
 
@@ -40,7 +40,7 @@ ms.locfileid: "60737968"
 
 ## <a name="to-configure-categories-for-chat-rooms"></a>配置聊天室的类别
 
-在"成员身份"的"允许的成员"部分，添加或删除用户和其他 Active Directory 域服务主体 (用户、通讯组、组织单位等) 允许添加为属于类别的聊天室的成员。 类别允许的主体可以搜索该类别中的聊天室（除非聊天室处于隐藏状态，在这种情况下只有聊天室的成员才能在目录中搜索它）。
+在"成员身份"的"允许的成员"部分，添加或删除用户和其他 Active Directory 域服务主体 (用户、通讯组、组织单位等) 允许添加为属于该类别的聊天室的成员。 类别允许的主体可以搜索该类别中的聊天室（除非聊天室处于隐藏状态，在这种情况下只有聊天室的成员才能在目录中搜索它）。
 
 
 有关持久聊天服务器特性和功能的详细信息，请参阅规划文档中的[Overview of Persistent Chat Server。](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-persistent-chat-server) 有关使用持久聊天服务器配置的详细信息，请参阅部署文档中的[Configuring Persistent Chat Server](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-persistent-chat-server)和操作文档中的[Managing Lync Server 2013， Persistent Chat Server。](/previous-versions/office/lync-server-2013/managing-lync-server-2013-persistent-chat-server)

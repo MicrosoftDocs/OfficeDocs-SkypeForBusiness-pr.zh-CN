@@ -2,7 +2,7 @@
 title: Plan for Call Via Work in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a33ec637-9ac8-4cb7-b3b2-88d432efc078
 description: 在 Skype for Business Server 中规划通过工号Skype for Business，可实现 Skype for Business 与 PBX 电话系统的集成，以便用户可以使用 Skype for Business 控制其 PBX 电话。
-ms.openlocfilehash: 268ee3a6caa7b304cc63b4e7e16c2a7565f9ced3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0dddb601ecf9928aa1bd1cd63bc8ed3628a1330d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768560"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60854216"
 ---
 # <a name="plan-for-call-via-work-in-skype-for-business-server"></a>Plan for Call Via Work in Skype for Business Server
  
@@ -61,7 +61,7 @@ ms.locfileid: "60768560"
 
 通过工期呼叫用户可以单击会议 URL 加入安排的会议。 Skype for Business显示"**拨出** 到"消息，直到会议服务拨打用户的 PBX 电话。 然后，通过工号呼叫用户接听 PBX 电话并加入会议。
   
-通过工作电话呼叫用户还可使用"立即开会"Skype for Business"立即开会"会议。 然后，用户将看到" **拨出到** "消息，并且 PBX 电话响铃。
+通过工作电话呼叫用户还可使用"立即开会"Skype for Business"立即开会"会议。 然后，用户将看到 **"拨出到** "消息，并且 PBX 电话响铃。
   
 通过工号拨号用户还可以从会议网桥内拨打会议网桥Skype for Business。 如果需要会议 PIN，用户必须使用其 PBX 电话输入 PIN。
   
@@ -73,7 +73,7 @@ ms.locfileid: "60768560"
   
 ## <a name="limitations-of-call-via-work"></a>通过工电话呼叫的限制
 
-通过工位呼叫是一种语音解决方案，它几乎不需要硬件设置，但与完整或远程呼叫控制企业语音功能相比，存在一些限制。 通过工位呼叫具有以下限制：
+通过工位呼叫是一种语音解决方案，几乎不需要硬件设置，但与完整或远程呼叫控制企业语音功能相比，存在一些限制。 通过工位呼叫具有以下限制：
   
 - 如果通过工号呼叫用户设置了呼叫转发到"通过工号呼叫"回拨号码，并且有人尝试通过用户的电话号码邀请该用户加入会议，则邀请不会到达该用户。 应指导用户通过单击名称（而不是电话号码）来邀请参与者参加会议。 
     
@@ -81,7 +81,7 @@ ms.locfileid: "60768560"
     
 - 启用了通过工电话呼叫的用户无法使用委派、团队呼叫或响应组功能。
     
-- 通过工位呼叫的用户无法使用 Skype for Business录制会议、将呼叫静音或取消静音、保留或转接呼叫或使用呼叫呼叫保留。
+- 通过工位呼叫的用户无法使用 Skype for Business录制会议、将呼叫静音或取消静音、保留或转接呼叫或使用呼叫保留。
     
 - 用户无法使用通过工位呼叫来访问其 PBX 语音邮件。
     
@@ -91,9 +91,9 @@ ms.locfileid: "60768560"
     
 - 不支持桌面电话配对或 VDI 插件配对。
     
-- 如果用户使用 PBX 电话进行呼叫或接听 (而未使用 Skype for Business 窗口) ，则没有呼叫日志。
+- 如果用户使用 PBX 电话应答呼叫 (而未使用 Skype for Business 窗口) ，则没有呼叫日志。
     
-- 如果您的 PBX 系统不支持 **REFER with Replaces**，将发生以下行为。 在通过工位呼叫呼叫时，如果用户从 PBX 电话转移正在进行的呼叫，则呼叫窗口不会从Skype for Business窗口中消失。 如果用户随后关闭呼叫窗口，则转接目标与被转移方之间的呼叫将结束。 
+- 如果您的 PBX 系统不支持 **REFER with Replaces**，将发生以下行为。 在通过工位呼叫时，如果用户将正在进行的呼叫从 PBX 电话，则呼叫窗口不会从呼叫窗口中Skype for Business消失。 如果用户随后关闭呼叫窗口，则转接目标与被转移方之间的呼叫将结束。 
     
 ## <a name="prerequisites-for-call-via-work"></a>通过工位呼叫的先决条件
 

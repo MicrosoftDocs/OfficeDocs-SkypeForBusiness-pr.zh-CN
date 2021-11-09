@@ -2,7 +2,7 @@
 title: Skype for Business Server：准备 Active Directory
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/7/2018
 audience: ITPro
@@ -17,27 +17,27 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985077a4-c8e1-4d5a-9fcf-fef41cf6d61d
 description: 摘要：了解如何准备 Active Directory 域以安装Skype for Business Server。 从 Microsoft 评估Skype for Business Server下载免费试用版 https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server ：。
-ms.openlocfilehash: 882a57aa5ee857b0a4c633b6365c7a89c6266669
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: fbc5769c38436cdc7199aadf4338fa59a47edf3d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60775752"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845855"
 ---
 # <a name="skype-for-business-server-prepare-active-directory"></a>Skype for Business Server：准备 Active Directory
  
 **摘要：** 了解如何准备 Active Directory 域以安装Skype for Business Server。 从 Microsoft 评估中心Skype for Business Server[免费试用版](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)。
   
-Skype for Business Server Active Directory 紧密工作。 必须准备 Active Directory 域，以使用Skype for Business Server。 此过程在部署向导中完成，并且仅对域执行一次。 这是因为此过程会创建组并修改域，并且只需执行一次。 可以按任意顺序执行步骤 1 到步骤 5。 但是，您必须按照图中的概述顺序执行步骤 6、7 和 8 以及步骤 1 到步骤 5 之后。 准备 Active Directory 是步骤 4/8。 有关规划 Active Directory 的信息，请参阅 Environmental [requirements for Skype for Business Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) or Server requirements for Skype for Business Server [2019](../../../SfBServer2019/plan/system-requirements.md)。
+Skype for Business Server Active Directory 紧密工作。 必须准备 Active Directory 域，以使用Skype for Business Server。 此过程在部署向导中完成，并且仅对域执行一次。 这是因为该过程将创建组并修改域，并且只需执行一次。 可以按任意顺序执行步骤 1 到步骤 5。 但是，您必须按照图中的概述顺序执行步骤 6、7 和 8 以及步骤 1 到步骤 5 之后。 准备 Active Directory 是步骤 4/8。 有关规划 Active Directory 的信息，请参阅 Environmental [requirements for Skype for Business Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) or Server requirements for Skype for Business Server [2019。](../../../SfBServer2019/plan/system-requirements.md)
   
 ![概述图表。](../../media/2c52d307-7859-4009-9489-024b2e130bb3.png)
   
 ## <a name="prepare-active-directory"></a>准备 Active Directory
 
-Skype for Business Server与 Active Directory 域服务 (AD DS) 。 必须先Skype for Business Server Active Directory，然后才能首次安装 Active Directory。 部署向导中标题为 **"准备 Active Directory"** 的部分准备 Active Directory 环境以用于Skype for Business Server。
+Skype for Business Server Active Directory 域服务与 AD DS (紧密集成) 。 必须先Skype for Business Server Active Directory，然后才能首次安装 Active Directory。 部署向导中标题为 **"准备 Active Directory"** 的部分准备 Active Directory 环境以用于Skype for Business Server。
   
 > [!NOTE]
-> Skype for Business Server使用 (AD DS) 跟踪拓扑中所有服务器并进行通信。 这些服务器中的大多数必须加入域，以便Skype for Business Server正常工作。 请记住，边缘和反向代理等服务器不应加入域。
+> Skype for Business Server AD DS (AD DS) 跟踪拓扑中所有服务器并进行通信。 这些服务器中的大多数必须加入域，以便Skype for Business Server正常工作。 请记住，边缘和反向代理等服务器不应加入域。
   
 > [!IMPORTANT]
 > 应仅为部署中的每个域运行一次"准备 Active Directory"过程。 
@@ -105,11 +105,11 @@ Skype for Business Server与 Active Directory 域服务 (AD DS) 。 必须先Sky
   
 7. **步骤 4：验证全局编录的复制**
     
-    a. 在域控制器 (最好位于其他域控制器) 的远程站点中，在运行林准备的林中，打开 **"Active Directory 用户和计算机"。**
+    a. 在域控制器 (最好在其他域控制器的远程站点中) 运行林准备的林中，打开 **"Active Directory 用户和计算机"。**
     
     b. 在 **“Active Directory 用户和计算机”** 中，展开林或子域的域名。
     
-    c. 单击 **左侧窗格** 上的"用户"容器，在右侧窗格中查找通用组 **CsAdministrator。** 如果 CsAdministrator (以 Cs 开头的其他新通用组) ，则 Active Directory 复制已成功完成。
+    c. 单击 **左侧窗格** 上的"用户"容器，在右侧窗格中查找通用组 **CsAdministrator。** 如果 CsAdministrator (以 Cs 开头的其他通用组存在) ，则 Active Directory 复制已成功完成。
     
     d. 如果组尚不存在，可以强制复制，或等待 15 分钟并刷新右侧窗格。 显示组后，表明复制完成。
     
@@ -129,7 +129,7 @@ Skype for Business Server与 Active Directory 域服务 (AD DS) 。 必须先Sky
     
 9. **步骤 6：验证域中的复制**
     
-    a. 单击 **"Skype for Business Server"** 页中的"命令行管理 **程序**"以启动 PowerShell。
+    a. 从 **"Skype for Business Server"** 页面单击"命令行管理程序 **"** 以启动 PowerShell。
     
     b. 使用命令Get-CsAdDomain验证域中的复制。
     
@@ -164,12 +164,12 @@ Skype for Business Server与 Active Directory 域服务 (AD DS) 。 必须先Sky
     e. 在 **"成员** "选项卡上，确认所选的用户或组存在。 单击“**确定**”。
     
     > [!CAUTION]
-    > 该Skype for Business Server控制面板是基于角色的访问控制工具。 CsAdministrator 组的成员身份为使用"控制面板"Skype for Business Server所有可用配置功能的完全控制权限。 为特定功能提供了其他专门的角色。 有关可用角色的详细信息，请参阅[Environmental requirements for Skype for Business Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) or Server requirements for Skype for Business Server [2019](../../../SfBServer2019/plan/system-requirements.md)。 请注意，用户不需要启用Skype for Business Server，就成为管理组的成员。 
+    > 该Skype for Business Server控制面板是基于角色的访问控制工具。 CsAdministrator 组的成员身份为使用 Skype for Business Server 控制面板的用户提供了对所有可用配置功能的完全控制权限。 为特定功能提供了其他专门的角色。 有关可用角色的详细信息，请参阅[Environmental requirements for Skype for Business Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) or Server requirements for Skype for Business Server [2019](../../../SfBServer2019/plan/system-requirements.md)。 请注意，用户不需要启用Skype for Business Server，就成为管理组的成员。 
   
     > [!CAUTION]
     > 为了帮助保留安全性和基于角色的访问控制完整性，将用户添加到组，这些组定义了用户在管理部署时Skype for Business Server角色。 
   
-11. 注销，然后重新登录Windows，以便使用新的安全组Skype for Business Server安全令牌，然后重新打开部署向导。
+11. 注销，然后重新登录到Windows，以便使用新的安全Skype for Business Server更新安全令牌，然后重新打开部署向导。
     
 12. 确认在"准备 **Active Directory"** 旁边看到绿色选中标记以确认成功，如图所示。
     

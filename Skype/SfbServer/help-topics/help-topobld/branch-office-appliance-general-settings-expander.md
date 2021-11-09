@@ -2,7 +2,7 @@
 title: 分支机构设备常规设置扩展器
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 86860416-7c9b-49af-b9d2-658c172852de
 description: 要编辑现有 Survivable Branch Appliance 或 Survivable Branch Server 的设置，可参考以下各节内容：
-ms.openlocfilehash: 97bd7ad5c0df11d26507824a28aee54ed3841038
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e5e75965698f8dbbb97098ccadb0a76c5a3babe9
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768840"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840094"
 ---
 # <a name="branch-office-appliance-general-settings-expander"></a>分支机构设备常规设置扩展器
 
@@ -57,7 +57,7 @@ Survivable Branch Appliance 或 Survivable Branch Server 的完全限定域名 (
 
 复原为注册器池提供了高可用性。它提供了备份注册器，如果主注册器发生故障，备份注册器可以接管发生故障的注册器，允许用户登录和进行通信。用户可能会发现功能降低，具体取决于哪些系统的主注册器发生故障。
 
-从下拉列表中选择将充当 Survivable Branch Appliance 或 Survivable Branch Server Enterprise Edition备份注册器的服务器前端池或 Standard Edition 前端服务器。 还可以选择启用故障转移和回退时间间隔。 启用故障转移和回退时间设置（以秒为单位指定）后，可自动检测发生故障的注册器，回退时间用于自动确定主注册器是否已备份以及是否可以接管注册器进程。
+从下拉列表中选择充当 Survivable Branch Appliance 或 Survivable Branch Server 的Enterprise Edition前端池或 Standard Edition 前端服务器。 还可以选择启用故障转移和回退时间间隔。 启用故障转移和回退时间设置（以秒为单位指定）后，可自动检测发生故障的注册器，回退时间用于自动确定主注册器是否已备份以及是否可以接管注册器进程。
 
 > [!IMPORTANT]
 > 定义故障检测和回退间隔时，应注意不要输入在注册器短时间内未做出响应的情况下会导致发生故障转移和回退的间隔。 主注册器可能会在短时间内没有响应，这取决于池或服务器的加载状况。 对于池或 Standard Edition 前端服务器的站点中的 Survivable Branch Appliance 或 Survivable Branch Server，故障转移的默认值为 120 秒，回退的默认值为 240 秒。
