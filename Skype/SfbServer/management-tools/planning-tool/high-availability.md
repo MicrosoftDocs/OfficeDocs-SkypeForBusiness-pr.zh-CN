@@ -2,7 +2,7 @@
 title: 高可用性平移工具
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 14a897b3-2406-46c7-b08f-490085b3d048
 description: Skype for Business Server 2015 中大多数服务器角色的主要高可用性方案基于通过池实现的服务器冗余。 如果运行特定服务器角色的服务器出现故障，则池中运行相同角色的其他服务器将承担该服务器的负载。
-ms.openlocfilehash: e8fbc679d4711ae41306a60d6a9c40114fab5f29
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: bd29171be4d30f688f29f9ceb6d793894b0d7938
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60756913"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850905"
 ---
 # <a name="high-availability-planning-tool"></a>高可用性规划工具
  
@@ -33,7 +33,7 @@ Skype for Business Server 2015 至少需要两台前端服务器才能实现高�
     
 - 如果部署包含持久聊天，则规划工具将添加一台额外的服务器，但不增加池数量。 例如，如果部署中已包含四台服务器，规划工具将建议添加另一台服务器 (，以总共五台服务器) 维护一个池。 
     
-规划工具还会添加一个SQL数据库的镜像数据库。 例如，如果有一个前端 SQL Server 数据库，则规划工具将另一个数据库添加为此数据库的镜像数据库，并将其名称为"前端镜像SQL数据库。
+规划工具还会添加一个SQL数据库的镜像数据库。 例如，如果有前端 SQL Server 数据库，规划工具将添加另一个数据库作为此数据库的镜像数据库，并将其名称为"前端镜像SQL数据库。
   
 有关为高可用性准备环境的信息，请参阅 Plan for [high availability and disaster recovery in Skype for Business Server 2015。](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)
   

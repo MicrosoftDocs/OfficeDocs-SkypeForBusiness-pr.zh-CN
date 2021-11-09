@@ -1,6 +1,6 @@
 ---
 title: Microsoft Teams升级|环境评估、发现问题
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
@@ -18,21 +18,21 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e190445ed74380bfc3745d34b3e1bb94775e016d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f84b8d580bf7b2c48f57427f73d301e9a2b30b47
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758194"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835960"
 ---
 # <a name="discovery-questionnaire---evaluate-your-environment"></a>发现调查问卷 - 评估环境
 
-下表列出了一组问题，这些问题有助于在升级到 Teams 之前[评估环境](upgrade-plan-journey-evaluate-environment.md)：
+下表列出了一组问题，这些问题有助于在升级到 Teams 之前评估[环境](upgrade-plan-journey-evaluate-environment.md)：
 
 - [Microsoft 365或Office 365组织详细信息](#microsoft-365-or-office-365-organization-details)
 - [现有协作平台摘要](#existing-collaboration-platform-summary)
 - [协作平台部署详细信息](#collaboration-platform-deployment-details)
-- [网络和访问Microsoft 365 Office 365服务](#networking-and-access-to-microsoft-365-or-office-365-services)
+- [网络和访问Microsoft 365或Office 365服务](#networking-and-access-to-microsoft-365-or-office-365-services)
 - [终结点](#endpoints)
 - [运营](#operations)
 - [采用和准备情况](#adoption-and-readiness)
@@ -47,14 +47,14 @@ ms.locfileid: "60758194"
 > |---|---|---|
 > | 记下生产Microsoft 365或Office 365组织 <br>"答案"列中的名称和 ID <br/>如果拥有多个租户 <br>与组织关联， <br>记下所有 ID。 | 租户名称： <br/>租户 ID：| |
 > | 租户部署在哪些区域？| | |
-> | 这些租户是多租户Microsoft 365 Office 365租户还是 <br>专用？ | <input type="checkbox"> 多租户<br/> <input type="checkbox"> 专用 | |
+> | 这些租户是Microsoft 365租户Office 365租户还是 <br>专用？ | <input type="checkbox"> 多租户<br/> <input type="checkbox"> 专用 | |
 > | 目前使用哪些 Microsoft Online 产品？ <br/>请注意为每个用户启用的用户数 <br>服务。 | <input type="checkbox">Microsoft Teams <br/> <input type="checkbox">Skype for Business <br>&nbsp; &nbsp; &nbsp;Online <br/> <input type="checkbox">Exchange Online <br/> <input type="checkbox">SharePoint联机 <br/> <input type="checkbox">OneDrive for Business <br/> <input type="checkbox">Yammer <br/> <input type="checkbox"> 其他| |
 > | 为哪些用户启用了Skype级别 <br>Business Online 用户？ | <input type="checkbox"> E1/G1 <br/> <input type="checkbox"> E2/G2 <br/> <input type="checkbox"> E3/G3 <br/> <input type="checkbox"> E4/G4 E5 <br/> <input type="checkbox"> 独立 | 用户数 <br>对于每个 SKU： |
 > | 当前 Active Directory 林是什么 <br>环境中的功能级别？ <br/>如果多个林，请记下详细信息 <br>。 | <input type="checkbox">WindowsServer 2000 <br/> <input type="checkbox">WindowsServer 2003 <br/> <input type="checkbox">WindowsServer 2008<br/> <input type="checkbox">WindowsServer 2008 R2 <br/> <input type="checkbox">Windows Server 2012 <br/> <input type="checkbox">Windows Server 2012R2 <br/> <input type="checkbox">Windows Server 2016| |
-> | 用于目录的是什么 <br>今天同步？ |<input type="checkbox"> 只有云 (同步)  <br/> <input type="checkbox">Azure Active Directory <br>&nbsp;&nbsp; &nbsp; 连接 <br/> <input type="checkbox"> 其他 (在 <br>&nbsp;&nbsp; &nbsp;Comments column.) | |
+> | 用于目录的是什么 <br>今天同步？ |<input type="checkbox"> 仅云 (同步)  <br/> <input type="checkbox">Azure Active Directory <br>&nbsp;&nbsp; &nbsp; 连接 <br/> <input type="checkbox"> 其他 (在 <br>&nbsp;&nbsp; &nbsp;Comments column.) | |
 > | 当前是否已部署联合标识？ <br/> (Active Directory 联合身份验证服务或 <br>第三方)  | <input type="checkbox"> 是的 <br/> <input type="checkbox"> 不 | |
 > | 如果使用联合标识，则 <br>联合基础结构？ | <input type="checkbox">Windows 2008 R2 AD FS <br/> <input type="checkbox">Windows 2012 AD FS <br/> <input type="checkbox">Windows 2012 R2 AD FS <br/> <input type="checkbox">Windows 2016 AD FS <br/> <input type="checkbox"> 第三方联合 <br>&nbsp;&nbsp; &nbsp; 网关 <br>&nbsp;&nbsp; &nbsp; (请注意 <br>&nbsp;&nbsp; &nbsp;Comments column.)  | |
-> | 如果当前维护活动Microsoft 365 Office 365 <br>租户， 是 <br>与租户关联的目标用户？ | <input type="checkbox">N/A – 无Microsoft 365或Office 365 <br>&nbsp;&nbsp; &nbsp; 租户就地 <br/> <input type="checkbox"> 否，用户的 SMTP/SIP <br>&nbsp;&nbsp; &nbsp; 域未关联 <br>&nbsp;&nbsp; &nbsp; 中具有任何租户 <br>&nbsp;&nbsp; &nbsp; Microsoft 365或Office 365 <br/> <input type="checkbox"> 是，用户的 SMTP/SIP <br>&nbsp;&nbsp; &nbsp; 域已关联 <br>&nbsp;&nbsp; &nbsp; 使用现有租户 <br>&nbsp;&nbsp; &nbsp; Microsoft 365 或 Office 365 | |
+> | 如果当前保持活动Microsoft 365或Office 365 <br>租户， 是 <br>与租户关联的目标用户？ | <input type="checkbox">N/A – 无Microsoft 365或Office 365 <br>&nbsp;&nbsp; &nbsp; 租户就地 <br/> <input type="checkbox"> 否，用户的 SMTP/SIP <br>&nbsp;&nbsp; &nbsp; 域未关联 <br>&nbsp;&nbsp; &nbsp; 中具有任何租户 <br>&nbsp;&nbsp; &nbsp; Microsoft 365或Office 365 <br/> <input type="checkbox"> 是，用户的 SMTP/SIP <br>&nbsp;&nbsp; &nbsp; 域已关联 <br>&nbsp;&nbsp; &nbsp; 使用现有租户 <br>&nbsp;&nbsp; &nbsp; Microsoft 365 或 Office 365 | |
 > | 用户 UPN 是否匹配其主 SMTP 地址？ | <input type="checkbox"> 是的 <br/> <input type="checkbox"> 不 <br/> <input type="checkbox"> 不一致 | |
 
 ## <a name="existing-collaboration-platform-summary"></a>现有协作平台摘要
@@ -64,9 +64,9 @@ ms.locfileid: "60758194"
 > | 问题 | 回答 | 备注 |
 > |---|---|---|
 > | 是否已部署 Microsoft Teams？ | <input type="checkbox"> 是的 <br/> <input type="checkbox"> 不 | |
-> | 是否已部署 Skype for Business？ <br/>对于本地和混合部署，请确保 <br>请注意 CU 版本和累积更新 (CU)  <br>"批注"列中的详细信息。 | <input type="checkbox">是，Microsoft 365或Office 365 <br/> <input type="checkbox">是， (或Microsoft 365混合Office 365)  <br/> <input type="checkbox"> 是，在本地 <br/> <input type="checkbox"> 是，联机，专用 <br>&nbsp;&nbsp; &nbsp; (Microsoft)  <br/> <input type="checkbox"> 是，托管，专用 <br>&nbsp;&nbsp; &nbsp; (第三方)  <br/> <input type="checkbox"> 是，托管的共享 (第三方)  <br/> <input type="checkbox"> 否，其他 | |
-> | 是否已部署 Exchange？ <br/>对于本地和混合部署，请确保 <br>请注意注释中的版本和 CU 详细信息 <br>列。 | <input type="checkbox">是，Microsoft 365或Office 365 <br/> <input type="checkbox">是， (或Microsoft 365混合Office 365)  <br/> <input type="checkbox"> 是，在本地 <br/> <input type="checkbox"> 是，联机，专用 <br>&nbsp;&nbsp; &nbsp; (Microsoft)  <br/> <input type="checkbox"> 是，托管，专用 <br>&nbsp;&nbsp; &nbsp; (第三方)  <br/> <input type="checkbox"> 是，托管，共享 <br>&nbsp;&nbsp; &nbsp; (第三方)  <br/> <input type="checkbox"> 否，其他 | |
-> | 是否已部署 SharePoint？ <br/>对于本地和混合部署，请确保 <br>请注意注释中的版本和 CU 详细信息 <br>列。 | <input type="checkbox">是，Microsoft 365或Office 365 <br/> <input type="checkbox">是， (或Microsoft 365混合Office 365)  <br/> <input type="checkbox"> 是，在本地 <br/> <input type="checkbox"> 是，联机，专用 <br>&nbsp;&nbsp; &nbsp; (Microsoft)  <br/> <input type="checkbox"> 是，托管，专用 <br>&nbsp;&nbsp; &nbsp; (第三方)  <br/> <input type="checkbox"> 是，托管，共享 <br>&nbsp;&nbsp; &nbsp; (第三方)  <br/> <input type="checkbox"> 否，其他 | |
+> | 是否已部署 Skype for Business？ <br/>对于本地和混合部署，请确保 <br>请注意 CU 版本和累积 (更新)  <br>"批注"列中的详细信息。 | <input type="checkbox">是，Microsoft 365或Office 365 <br/> <input type="checkbox">是， (混合Microsoft 365或Office 365)  <br/> <input type="checkbox"> 是，在本地 <br/> <input type="checkbox"> 是，联机，专用 <br>&nbsp;&nbsp; &nbsp; (Microsoft)  <br/> <input type="checkbox"> 是，托管，专用 <br>&nbsp;&nbsp; &nbsp; (第三方)  <br/> <input type="checkbox"> 是，托管的共享 (第三方)  <br/> <input type="checkbox"> 否，其他 | |
+> | 是否已部署 Exchange？ <br/>对于本地和混合部署，请确保 <br>请注意注释中的版本和 CU 详细信息 <br>列。 | <input type="checkbox">是，Microsoft 365或Office 365 <br/> <input type="checkbox">是， (混合Microsoft 365或Office 365)  <br/> <input type="checkbox"> 是，在本地 <br/> <input type="checkbox"> 是，联机，专用 <br>&nbsp;&nbsp; &nbsp; (Microsoft)  <br/> <input type="checkbox"> 是，托管，专用 <br>&nbsp;&nbsp; &nbsp; (第三方)  <br/> <input type="checkbox"> 是，托管，共享 <br>&nbsp;&nbsp; &nbsp; (第三方)  <br/> <input type="checkbox"> 否，其他 | |
+> | 是否已部署 SharePoint？ <br/>对于本地和混合部署，请确保 <br>请注意注释中的版本和 CU 详细信息 <br>列。 | <input type="checkbox">是，Microsoft 365或Office 365 <br/> <input type="checkbox">是， (混合Microsoft 365或Office 365)  <br/> <input type="checkbox"> 是，在本地 <br/> <input type="checkbox"> 是，联机，专用 <br>&nbsp;&nbsp; &nbsp; (Microsoft)  <br/> <input type="checkbox"> 是，托管，专用 <br>&nbsp;&nbsp; &nbsp; (第三方)  <br/> <input type="checkbox"> 是，托管，共享 <br>&nbsp;&nbsp; &nbsp; (第三方)  <br/> <input type="checkbox"> 否，其他 | |
 > | 是Microsoft 365还是Office 365 OneDrive for Business部署？ | <input type="checkbox"> 是的 <br/> <input type="checkbox"> 不 | |
 > | 是否部署了任何其他第三方平台 <br>和当前使用中？ 如果是这样，请记下 <br>这些平台和注释中的使用情况详细信息 <br>列。 | <input type="checkbox"> Cisco WebEx <br/> <input type="checkbox"> Slack <br/> <input type="checkbox"> 其他 (批注中指定 <br>&nbsp;&nbsp; &nbsp; column.)  | 用户数： <br/>详细信息：|
 > | 是否计划从这些第三方移动用户 <br>要Teams？ | <input type="checkbox"> 是的 <br/> <input type="checkbox"> 不 | |
@@ -98,7 +98,7 @@ ms.locfileid: "60758194"
 > | 为哪些类型的用户启用了Skype <br>for Business Online？ | <input type="checkbox"> 组织中所有用户 <br/> <input type="checkbox"> 特定用户/用户组 <br>&nbsp;&nbsp; &nbsp; ("批注"列中指定)  | |
 > | 当前包含哪些形式和功能 <br>今天使用？ | <input type="checkbox"> 即时消息和状态 (IM/P) <br/> <input type="checkbox"> 会议 <br/> <input type="checkbox"> 联合身份验证 <br/> <input type="checkbox"> 会议录制 <br/> <input type="checkbox"> Microsoft 音频会议 <br/> <input type="checkbox"> 第三方音频会议 <br>&nbsp;&nbsp; &nbsp; ("注释"列中的详细信息。)  <br/> <input type="checkbox"> 呼叫计划 (以前称为 PSTN 呼叫)  <br/> <input type="checkbox"> 组织自动助理 <br/> <input type="checkbox"> 呼叫队列 | |
 > | 是否明确阻止了Skype <br>Business Online 功能？ <br>如果是，请记下"批注"列中的详细信息。 | <input type="checkbox"> 是的 <br/> <input type="checkbox"> 不 | |
-> | 你使用或计划使用什么方法 <br>将电话系统 (云 PBX) 连接到 <br>PSTN？ <br/>选择所有适用项。 | <input type="checkbox"> 呼叫计划 (以前称为 PSTN 呼叫)  <br/> <input type="checkbox"> 本地 PSTN 连接 (现有 <br>&nbsp;&nbsp; &nbsp; Skype for Business 2015 或 Lync Server 2013 <br>&nbsp;&nbsp; &nbsp; 部署)  <br/> <input type="checkbox"> 使用 Cloud Connector (本地 PSTN 连接)  | |
+> | 你使用或计划使用什么方法 <br>将电话系统 (云 PBX) 连接到 <br>PSTN？ <br/>选择所有适用项。 | <input type="checkbox"> 呼叫计划 (以前称为 PSTN 呼叫)  <br/> <input type="checkbox"> 本地 PSTN 连接 (现有 <br>&nbsp;&nbsp; &nbsp; Skype for Business 2015 或 Lync Server 2013 <br>&nbsp;&nbsp; &nbsp; 部署)  <br/> <input type="checkbox"> 使用 Cloud Connector (本地 PSTN)  | |
 > | 是否已将任何电话号码转网到 Microsoft？ <br/>这适用于通话计划和音频 <br>会议功能。 | <input type="checkbox"> 是的 <br/> <input type="checkbox"> 不 | |
 
 ### <a name="skype-for-business-on-premises-if-applicable"></a>Skype for Business本地 (（如果适用) 
@@ -107,11 +107,11 @@ ms.locfileid: "60758194"
 
 > | 问题 | 回答 | 备注 |
 > |---|---|---|
-> | 当前 Lync 或 Skype for Business版本 <br>是否部署在本地？ | <input type="checkbox">OfficeCommunications Server 2007 "R1" <br/> <input type="checkbox">OfficeCommunications Server 2007 R2 <br/> <input type="checkbox"> Lync Server 2010 <br/> <input type="checkbox"> Lync Server 2013 <br/> <input type="checkbox">2015 Skype for Business Server 2015 年 1 月 <br/> <input type="checkbox">2019 Skype for Business Server 2019 年 1 月 <br/> <input type="checkbox">Skype for Business 云连接器版本 | |
+> | 当前 Lync 或 Skype for Business版本 <br>是否部署在本地？ | <input type="checkbox">OfficeCommunications Server 2007 "R1" <br/> <input type="checkbox">OfficeCommunications Server 2007 R2 <br/> <input type="checkbox"> Lync Server 2010 <br/> <input type="checkbox"> Lync Server 2013 <br/> <input type="checkbox">Skype for Business Server 2015 年 1 月 <br/> <input type="checkbox">Skype for Business Server 2019 年 1 月 <br/> <input type="checkbox">Skype for Business 云连接器版本 | |
 > | 是否配置了与 Skype for Business Online 混合？ | <input type="checkbox"> 是的 <br/> <input type="checkbox"> 不 | |
 > | 此环境是否由第三方托管和管理？ <br/>如果是，请记下"批注"列中的详细信息。 | <input type="checkbox"> 是的 <br/> <input type="checkbox"> 不 | |
-> | 当前使用哪些形式和功能 <br>今天？ | <input type="checkbox"> 即时消息和状态 (IM/P)  <br/> <input type="checkbox"> 会议 <br/> <input type="checkbox"> 联合身份验证 <br/> <input type="checkbox"> 会议录制 <br/> <input type="checkbox"> 持久聊天/群组聊天 <br/> <input type="checkbox"> Microsoft 音频会议 <br>&nbsp;&nbsp; &nbsp; (之前在你的电话) 电话拨入式会议 <br>&nbsp;&nbsp; &nbsp; 本地 Lync Server 或 <br>&nbsp;&nbsp; &nbsp; Skype for Business部署 <br/> <input type="checkbox"> 第三方音频会议 <br>&nbsp;&nbsp; &nbsp; ("批注"列中的详细信息)  <br/> <input type="checkbox">企业语音使用本地 PSTN <br>&nbsp;&nbsp; &nbsp; 连接 <br/> <input type="checkbox"> 呼叫计划 (PSTN 呼叫) 通过 <br>&nbsp;&nbsp; &nbsp;与 Skype for Business Online 的混合 | |
-> | 你已部署 Edge Server 的哪个/哪些版本？ | <input type="checkbox">OfficeCommunications Server 2007 "R1" <br/> <input type="checkbox">OfficeCommunications Server 2007 R2 <br/> <input type="checkbox"> Lync Server 2010 <br/> <input type="checkbox"> Lync Server 2013 <br/> <input type="checkbox">2015 Skype for Business Server 2015 年 1 月 <br/> <input type="checkbox">2019 Skype for Business Server 2019 年 1 月 | |
+> | 当前使用哪些形式和功能 <br>今天？ | <input type="checkbox"> 即时消息和状态 (IM/P)  <br/> <input type="checkbox"> 会议 <br/> <input type="checkbox"> 联合身份验证 <br/> <input type="checkbox"> 会议录制 <br/> <input type="checkbox"> 持久聊天/群组聊天 <br/> <input type="checkbox"> Microsoft 音频会议 <br>&nbsp;&nbsp; &nbsp; (之前在上拨) 电话拨入式会议 <br>&nbsp;&nbsp; &nbsp; 本地 Lync Server 或 <br>&nbsp;&nbsp; &nbsp; Skype for Business部署 <br/> <input type="checkbox"> 第三方音频会议 <br>&nbsp;&nbsp; &nbsp; ("批注"列中的详细信息)  <br/> <input type="checkbox">企业语音使用本地 PSTN <br>&nbsp;&nbsp; &nbsp; 连接 <br/> <input type="checkbox"> 呼叫计划 (PSTN 呼叫) 通过 <br>&nbsp;&nbsp; &nbsp;与 Skype for Business Online 的混合 | |
+> | 你已部署 Edge Server 的哪个/哪些版本？ | <input type="checkbox">OfficeCommunications Server 2007 "R1" <br/> <input type="checkbox">OfficeCommunications Server 2007 R2 <br/> <input type="checkbox"> Lync Server 2010 <br/> <input type="checkbox"> Lync Server 2013 <br/> <input type="checkbox">2015 Skype for Business Server 2015 年 1 月 <br/> <input type="checkbox">Skype for Business Server 2019 年 1 月 | |
 > | 是否部署了 Lync 或 Skype for Business Edge <br>进入多个数据中心？ <br/>如果是，请记下"批注"列中的详细信息。 | <input type="checkbox"> 是的 <br/> <input type="checkbox"> 不 | |
 > | 选择 Edge 角色目前提供的服务。 | <input type="checkbox"> 企业用户 (外部)  <br/> <input type="checkbox"> 远程用户访问 (匿名外部 <br>&nbsp;&nbsp; &nbsp; 会议参与者)  <br/> <input type="checkbox"> 联合身份验证 <br/> <input type="checkbox"> 媒体中继 | |
 > | 你具有以下语音呼叫功能中的哪一项 <br>当前是否依赖于？ <br/>请注意注释中任何其他依赖项 <br>列。 | <input type="checkbox"> 繁忙选项 <br/> <input type="checkbox"> 呼叫公园 <br/> <input type="checkbox"> 呼叫取件或群组呼叫取件 <br/> <input type="checkbox"> 常用区域电话或"热桌面" <br/> <input type="checkbox"> 响应组或寻线组 <br/> <input type="checkbox"> 共享线条外观 <br/> <input type="checkbox"> 专用线 <br/> <input type="checkbox"> 语音邮件 <br/> <input type="checkbox"> 通过工作呼叫 <br/> <input type="checkbox"> 紧急号码或信息号码 <br>&nbsp;&nbsp; &nbsp; (911、811、411)  <br/> <input type="checkbox"> 分机拨号 <br/> <input type="checkbox"> 自动助理 <br/> <input type="checkbox"> 订户访问权限 <br/> <input type="checkbox"> 模拟设备 <br/> <input type="checkbox"> 传真 <br/> <input type="checkbox"> 来电显示屏蔽或更改 <br/> <input type="checkbox"> 基于位置的路由 <br/> <input type="checkbox"> 成本最低路由 <br/> <input type="checkbox"> 电梯电话 | |
@@ -122,7 +122,7 @@ ms.locfileid: "60758194"
 
 > | 问题 | 回答 | 备注 |
 > |---|---|---|
-> | 如何 (或如何) 迁移范围内的用户 <br>当他们Teams办公室时，可以访问他们？ <br/>选择所有适用项。 | <input type="checkbox"> 路由 NAT 连接 <br/> <input type="checkbox"> 代理服务器 <br/> <input type="checkbox"> 公共Wi-Fi <br/> <input type="checkbox"> 托管 (公共) Wi-Fi <br/> <input type="checkbox"> ExpressRoute (Microsoft 对等互连)  ||
+> | 如何 (或如何) 迁移范围内的用户 <br>Teams办公室时访问？ <br/>选择所有适用项。 | <input type="checkbox"> 路由 NAT 连接 <br/> <input type="checkbox"> 代理服务器 <br/> <input type="checkbox"> 公共Wi-Fi <br/> <input type="checkbox"> 托管 (公共) Wi-Fi <br/> <input type="checkbox"> ExpressRoute (Microsoft 对等互连)  ||
 > | 如果对 Microsoft 365 或 Office 365 的访问权限是通过代理服务器访问的，则是否有 <br>绕过代理的任何方式？ | <input type="checkbox"> 是的 <br/> <input type="checkbox"> 不 | |
 > | 目前是否使用 ExpressRoute？ | <input type="checkbox"> 是的 <br/> <input type="checkbox"> 不 <br/> <input type="checkbox"> 否，但正在计划中 | |
 > | 是否执行了网络就绪性评估？ | <input type="checkbox"> 是的 <br/> <input type="checkbox"> 不 | |
@@ -138,10 +138,10 @@ ms.locfileid: "60758194"
 
 > | 问题 | 回答 | 备注 |
 > |---|---|---|
-> | 用户当前使用哪个桌面 OS？ | <input type="checkbox">WindowsXP <br/> <input type="checkbox">Windows 7 <br/> <input type="checkbox">Windows 8 <br/> <input type="checkbox">Windows 10 <br/> <input type="checkbox"> Mac ("批注"列中指定版本)  <br/> <input type="checkbox"> Linux (在 Comments 列中指定分布)  <br/> <input type="checkbox"> 其他 (请注意"批注"列中的详细信息。)  | |
-> | 部署Microsoft Office版本 <br>到这些设备？ | <input type="checkbox">Office 2003 <br/> <input type="checkbox">2007 Office 2007 年 1 月 <br/> <input type="checkbox">Office 2010 <br/> <input type="checkbox">2013 Office 2013 年 1 月 <br/> <input type="checkbox">2016 Office 2016 年 1 月 <br/> <input type="checkbox">Office for Mac 2011 年 1 月 <br/> <input type="checkbox">2016 Office for Mac 2016 年 1 月 <br/> <input type="checkbox"> 其他 (请注意"批注"列中的详细信息。)  | |
-> | 使用Office部署技术 <br>在你的组织中？ | <input type="checkbox"> MSI <br/> <input type="checkbox"> 单击运行 | |
-> | 允许和支持的移动设备是什么 <br>使用中的平台？ <br/>选择所有适用项。 | <input type="checkbox">Windows <br/> <input type="checkbox"> 移动版 <br/> <input type="checkbox"> iOS <br/> <input type="checkbox"> Android <br/> <input type="checkbox"> 其他 (请注意"批注"列中的详细信息。)  | |
+> | 用户当前使用哪个桌面 OS？ | <input type="checkbox">WindowsXP <br/> <input type="checkbox">Windows 7 <br/> <input type="checkbox">Windows 8 <br/> <input type="checkbox">Windows 10 <br/> <input type="checkbox"> Mac ("批注"列中指定版本。)  <br/> <input type="checkbox"> Linux (在 Comments 列中指定分布)  <br/> <input type="checkbox"> 其他 (注释"列中的详细信息。)  | |
+> | 部署Microsoft Office版本 <br>到这些设备？ | <input type="checkbox">2003 Office 2003 <br/> <input type="checkbox">Office 2007 年 1 月 <br/> <input type="checkbox">2010 Office 2010 <br/> <input type="checkbox">2013 Office 2013 <br/> <input type="checkbox">2016 Office 2016 年 1 月 <br/> <input type="checkbox">Office for Mac 2011 年 1 月 <br/> <input type="checkbox">2016 Office for Mac 2016 年 1 月 <br/> <input type="checkbox"> 其他 (注释"列中的详细信息。)  | |
+> | 哪些Office部署技术 <br>在你的组织中？ | <input type="checkbox"> MSI <br/> <input type="checkbox"> 单击运行 | |
+> | 允许和支持的移动设备是什么 <br>使用中的平台？ <br/>选择所有适用项。 | <input type="checkbox">Windows <br/> <input type="checkbox"> 移动版 <br/> <input type="checkbox"> iOS <br/> <input type="checkbox"> Android <br/> <input type="checkbox"> 其他 (注释"列中的详细信息。)  | |
 > | 如何提供移动设备？ <br/>选择所有适用项。 | <input type="checkbox"> 企业设备 <br/> <input type="checkbox"> 自带设备 | |
 > | 用户当前用于访问的设备 <br>语音和会议服务 <br> (手机、耳机、电话、视频) ？ | | |
 
@@ -170,7 +170,7 @@ ms.locfileid: "60758194"
 > | 你当前的活动使用情况是什么 <br>Skype for Business？ | **__** 活动用户总数与启用的用户的百分比 | |
 > | 你的组织如何使用 <br>Skype for Business？ | 一对一对话 <br>&nbsp;&nbsp; &nbsp;<input type="checkbox">IM <br>&nbsp;&nbsp; &nbsp;<input type="checkbox">通话 <br>&nbsp;&nbsp; &nbsp;<input type="checkbox">共享<br> 会议 <br>&nbsp;&nbsp; &nbsp;<input type="checkbox">会议<br>&nbsp;&nbsp; &nbsp;<input type="checkbox">共享<br>&nbsp;&nbsp; &nbsp;<input type="checkbox">通话 | |
 > | 组织是否采用用户 <br>和更改管理团队？ | <input type="checkbox"> 是的<br/> <input type="checkbox"> 不 | |
-> | 当前如何衡量技术成功 <br>推出，例如 Skype for Business？ | | |
+> | 当前如何衡量技术成功 <br>推出（如 Skype for Business） | | |
 > | 用户群的百分比 <br>已Skype for Business？ | | |
 > | 用户对 Skype for Business 的看法如何？ | <input type="checkbox"> 很好 <br/> <input type="checkbox"> 中性 <br/> <input type="checkbox"> 错误 | |
 > | 下列哪一项最能描述推出 <br>策略用于Skype for Business <br>部署？ | <input type="checkbox"> 广泛宣传：电子邮件市场活动 <br>&nbsp;&nbsp; &nbsp; 培训链接 <br/> <input type="checkbox"> 扩展：广泛覆盖以及各种 <br>&nbsp;&nbsp; &nbsp; 通过海报 (意识活动; <br>&nbsp;&nbsp; &nbsp; 活动、冠军) 和培训 <br>&nbsp;&nbsp; &nbsp; (视频、用户指南、个人)  <br/> <input type="checkbox"> 定制：扩展的，以及有针对性的 <br>&nbsp;&nbsp; &nbsp; 按人员发送消息和培训 <br/> <input type="checkbox"> 其他 <br>&nbsp;&nbsp; &nbsp; ("注释"列中的详细信息。)  | |

@@ -6,7 +6,7 @@ ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204996(v=OCS.15)
 ms:contentKeyID: 48184469
 mtps_version: v=OCS.15
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,14 +15,14 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 本文介绍如何为边缘服务器配置端口范围以及如何为 A/V 边缘服务器配置服务质量策略。
-ms.openlocfilehash: 1f455ab417ed111a34134e3581806b4ce2a4bd57
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ae955eb8863f561cc1837b7f0319f7424f13e99c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778302"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60829936"
 ---
-# <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-edge-servers-in-skype-for-business-server"></a>为部署中的边缘服务器配置端口范围和服务质量Skype for Business Server
+# <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-edge-servers-in-skype-for-business-server"></a>Configuring port ranges and a Quality of Service policy for your Edge Servers in Skype for Business Server
 
 本文介绍如何为边缘服务器配置端口范围以及如何为 A/V 边缘服务器配置服务质量策略。
 
@@ -106,19 +106,19 @@ ms.locfileid: "60778302"
 
 1.  在组策略管理编辑器或本地组策略编辑器中，依次展开“计算机配置”、“策略”和“Windows 设置”，右键单击“基于策略的 QoS”，然后单击“新建策略”。
 
-2.  在"基于策略 **的 QoS"** 对话框的打开页上，键入新策略的名称 (例如，在"名称"框中键入Skype for Business Server **音频**) **名称**。 选择“指定 DSCP 值”，并将该值设置为“46”。 将“指定出站调节率”保留为未选中状态，然后单击“下一步”。
+2.  在"基于策略 **的 QoS"** 对话框的打开页上，键入新策略的名称 (例如，在"名称"框中Skype for Business Server"音频 **) "。** 选择“指定 DSCP 值”，并将该值设置为“46”。 将“指定出站调节率”保留为未选中状态，然后单击“下一步”。
 
 3.  On the next page， make sure that **All applications** is selected， and then click **Next**. 此设置指示该网络查看 DSCP 标记为 46 的所有数据包，不只是由特定应用程序创建的数据包。
 
 4.  第三页上，确保选中"任何 **源 IP** 地址"和"任何目标 **IP** 地址"，然后单击"下一步 **"。** 这两个设置确保将管理这些数据包，与哪台计算机（IP 地址）发送这些数据包及哪台计算机（IP 地址）将接收这些数据包无关。
 
-5.  在第四页上，从“选择此 QoS 策略所适用的协议”下拉列表中选择“TCP 和 UDP”。 TCP (传输控制协议) 和 UDP (用户数据报协议) 是两种网络协议，Skype for Business Server客户端应用程序最常使用。
+5.  在第四页上，从“选择此 QoS 策略所适用的协议”下拉列表中选择“TCP 和 UDP”。 TCP (传输控制协议) 和 UDP (用户数据报协议) 是 Skype for Business Server 及其客户端应用程序最常使用的两种网络协议。
 
 6.  在标题“指定目标端口号”下，选择“从此目标端口或范围”。 在对应的文本框中，键入为音频传输保留的端口范围。 例如，如果为音频流量保留端口 49152 到端口 57500，则使用此格式输入端口范围 **：49152：57500。** 单击“完成”。
 
 为音频流量创建 QoS 策略后，应为视频流量创建第二个策略。 要为视频创建策略，请按照您创建音频策略时遵循的相同基本过程，进行下列替换项：
 
-  - 使用不同的 (和) 策略名称 (例如，Skype for Business Server **视频**) 。
+  - 使用不同的 (和唯) 策略 (例如，Skype for Business Server **视频**) 。
 
   - 将 DSCP 值设置为“34”而不是 46。（注意，不一定要使用 DSCP 值 34。唯一的要求是对视频使用与用于音频的 DSCP 值不同的 DSCP 值。）
 

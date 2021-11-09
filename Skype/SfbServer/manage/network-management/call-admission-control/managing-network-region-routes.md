@@ -2,7 +2,7 @@
 title: 管理网络区域路由
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 网络区域路由 定义一对网络区域之间的路由。 呼叫允许控制部署中的每对网络区域均需要网络区域路由。
-ms.openlocfilehash: 30782564076c5a6bb5961f904fe30b1cfe0d0ef5
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 18bee9a28eed10affae1b0dab855c379709b37bb
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60750191"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864749"
 ---
 # <a name="managing-network-region-routes-in-skype-for-business-server"></a>在 Skype for Business Server 中管理网络区域路由
 
@@ -28,7 +28,7 @@ ms.locfileid: "60750191"
 
 ### <a name="to-view-network-region-route-information-in-skype-for-business-server-control-panel"></a>在控制面板中查看Skype for Business Server路由信息
 
-1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
+1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 的用户帐户，或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
 
 2.  打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。 
 
@@ -46,7 +46,7 @@ ms.locfileid: "60750191"
 
 ### <a name="viewing-network-region-route-information-by-using-windows-powershell-cmdlets"></a>使用 Cmdlet 查看网络区域Windows PowerShell信息
 
-网络区域路由信息可以通过使用 Windows PowerShell cmdlet Get-CsNetworkInterRegionRoute查看。 可以从命令行管理程序或 Skype for Business Server远程会话运行此 cmdlet Windows PowerShell。 
+网络区域路由信息可以通过使用 Windows PowerShell 和 Get-CsNetworkInterRegionRoute cmdlet 进行查看。 可以从命令行管理程序或 Skype for Business Server远程会话运行此 cmdlet Windows PowerShell。 
 
 ### <a name="to-view-network-region-route-information"></a>查看网络区域路由信息
 
@@ -71,7 +71,7 @@ ms.locfileid: "60750191"
 
 ### <a name="to-create-a-network-region-route"></a>创建网络区域路由
 
-1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
+1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 的用户帐户，或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
 
 2.  打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。 
 
@@ -82,7 +82,7 @@ ms.locfileid: "60750191"
 5.  在“新建区域路由”的“名称”字段中键入值。
    
     > [!NOTE]  
-    > 此值在部署中必须Skype for Business Server唯一。
+    > 此值在部署中必须Skype for Business Server。
 
 6.  从" **网络区域 \# 1"** 下拉列表中，选择要通过此路由连接的两个区域之一。
 
@@ -98,7 +98,7 @@ ms.locfileid: "60750191"
 
 ### <a name="to-modify-a-network-region-route"></a>修改网络区域路由
 
-1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
+1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 的用户帐户，或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
 
 2.  打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。 
 
@@ -119,7 +119,7 @@ ms.locfileid: "60750191"
 
 ### <a name="to-delete-a-network-region-route"></a>删除网络区域路由
 
-1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
+1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 的用户帐户，或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
 
 2.  打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。 
 

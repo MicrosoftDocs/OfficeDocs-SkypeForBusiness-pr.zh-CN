@@ -1,8 +1,8 @@
 ---
-title: 用于简单 URL 的 DNS Skype for Business Server
+title: 简单 URL 的 DNS Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,14 +12,14 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 3a3c9b22-892f-45a7-b05c-539d358a1a86
 description: 摘要：实施 DNS 记录之前，请查看本主题中的简单 URL 注意事项Skype for Business Server。
-ms.openlocfilehash: d638ff2d3d1b89deaad90c054698692e70ffaae7
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1dd3b4b06b704e7d840dd6f430a9ba9782913a3b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777912"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864669"
 ---
-# <a name="dns-requirements-for-simple-urls-in-skype-for-business-server"></a>用于简单 URL 的 DNS Skype for Business Server
+# <a name="dns-requirements-for-simple-urls-in-skype-for-business-server"></a>简单 URL 的 DNS Skype for Business Server
 
 **摘要：** 实施 DNS 记录之前，请查看本主题中的简单 URL 注意事项Skype for Business Server。
 
@@ -40,9 +40,9 @@ Skype for Business Server以下三个简单的 URL：会议、拨入和管理。
 ## <a name="simple-url-naming-and-validation-rules"></a>简单 URL 命名和验证规则
 <a name="BK_Valid"> </a>
 
-拓扑生成器和Skype for Business Server命令行管理程序 cmdlet 对简单 URL 强制执行多个验证规则。 您必须设置会议简单 URL 和拨入简单 URL，但可以选择设置管理简单 URL。 每个 SIP 域都必须具有单独的会议简单 URL，但整个组织只需要一个拨入简单 URL 和一个管理简单 URL。
+拓扑生成器和 Skype for Business Server 命令行管理程序 cmdlet 对简单 URL 强制执行多个验证规则。 您必须设置会议简单 URL 和拨入简单 URL，但可以选择设置管理简单 URL。 每个 SIP 域都必须具有单独的会议简单 URL，但整个组织只需要一个拨入简单 URL 和一个管理简单 URL。
 
-您组织的每个简单 URL 必须具有唯一的名称，并且不能是另一个简单 URL (例如，您不能设置为会议简单 URL 和 Dialin 简单 `SfB2015.contoso.com/Meet` `SfB2015.contoso.com/Meet/Dialin` URL) 。 简单 URL 名称不能包含任何池的 FQDN，也不能包含任何端口 (例如，不允许任何 https://FQDN:88/meet 端口) 。 所有简单 URL 都必须以 https:// 前缀开头。 
+您组织的每个简单 URL 必须具有唯一的名称，并且不能是另一个简单 URL (例如，您不能设置为会议简单 URL 和 Dialin 简单 `SfB2015.contoso.com/Meet` `SfB2015.contoso.com/Meet/Dialin` URL) 。 简单 URL 名称不能包含任何池的 FQDN，或者不允许任何端口 (例如，不允许任何 https://FQDN:88/meet 端口) 。 所有简单 URL 都必须以 https:// 前缀开头。 
 
 简单 URL 只能包含字母数字字符（即，a-z、A-Z、0-9 和圆点 (.)）。如果使用其他字符，则简单 URL 可能不会正常工作。
 
@@ -69,7 +69,7 @@ Skype for Business Server以下三个简单的 URL：会议、拨入和管理。
 
 | **简单 URL** <br/> | **示例** <br/>                                                                                                    |
 |:---------------------|:---------------------------------------------------------------------------------------------------------------------|
-| Meet  <br/>          | `https://meet.contoso.com``https://meet.fabrikam.com`、、等 (组织中每个 SIP 域一)   <br/> |
+| Meet  <br/>          | `https://meet.contoso.com`、、等 (组织中每个 SIP 域设置一个 `https://meet.fabrikam.com`)   <br/> |
 | 拨入  <br/>       | `<https://dialin.contoso.com>`  <br/>                                                                                  |
 | 管理员  <br/>         | `<https://admin.contoso.com>`  <br/>                                                                                   |
 
@@ -80,7 +80,7 @@ Skype for Business Server以下三个简单的 URL：会议、拨入和管理。
 
 | **简单 URL** <br/> | **示例** <br/>                                                                                                                    |
 |:---------------------|:-------------------------------------------------------------------------------------------------------------------------------------|
-| Meet  <br/>          | `https://SfB2015.contoso.com/Meet``https://SfB2015.fabrikam.com/Meet`、、等 (组织中每个 SIP 域一)   <br/> |
+| Meet  <br/>          | `https://SfB2015.contoso.com/Meet`、、等 (组织中每个 SIP 域设置一个 `https://SfB2015.fabrikam.com/Meet`)   <br/> |
 | 拨入  <br/>       | `<https://SfB2015.contoso.com/Dialin>`  <br/>                                                                                          |
 | 管理员  <br/>         | `<https://SfB2015.contoso.com/Admin>`  <br/>                                                                                           |
 
@@ -123,7 +123,7 @@ Meet-ext.geolb.contoso.com
 
 您可以对“拨入”简单 URL 设置相同的配置。 为此，请创建与上例中类似的其他记录，在 DNS 记录中  `dialin` `meet` 代之以 。 对于“管理”简单 URL，请使用本节前面所列的三个选项之一。
 
-设置完此配置后，您必须使用监控应用程序来设置 HTTP 监控以留意故障。 对于外部访问，请监视以确保 HTTPS GET lyncdiscover。<sipdomain> 对两个池的外部 Web FQDN 或负载平衡器 IP 地址的请求成功。 例如，以下请求不得包含任何 **ACCEPT** 标头且必须返回 **200 OK**。
+设置完此配置后，您必须使用监控应用程序来设置 HTTP 监控以留意故障。 对于外部访问，请监视以确保 HTTPS GET lyncdiscover。\<sipdomain> 对两个池的外部 Web FQDN 或负载平衡器 IP 地址的请求成功。 例如，以下请求不得包含任何 **ACCEPT** 标头且必须返回 **200 OK**。
 
 ```console
 HTTPS GET Pool1ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root

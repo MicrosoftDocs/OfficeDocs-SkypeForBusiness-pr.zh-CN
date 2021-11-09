@@ -2,7 +2,7 @@
 title: 在工作流中设计和创建响应组Skype for Business
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
 description: 设计并创建响应组工作流，Skype for Business Server 企业语音。 涵盖搜寻组工作流和互动工作流。
-ms.openlocfilehash: 842cbf321dc4e4f54ff244e9e809517807a6686c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ec92a0dfa378746db98a6377b2ebd51df0e77813
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60755755"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864379"
 ---
 # <a name="designing-and-creating-response-group-workflows-in-skype-for-business"></a>在工作流中设计和创建响应组Skype for Business
 
@@ -124,7 +124,7 @@ ms.locfileid: "60755755"
     - 要使用预定义工作时间日程表，请单击“使用预设日程表”，然后从下拉列表中选择要使用的日程表。
 
       > [!NOTE]
-      > 之前您必须至少已定义一个预设日程表才能选择该选项。 可使用 **New-CSRgsHoursOfBusiness** cmdlet 来定义预设日程表。 有关详细信息，请参阅 ([中的) 定义响应组工作时间的可选Skype for Business。](optional-define-response-group-business-hours.md)
+      > 之前您必须至少已定义一个预设日程表才能选择该选项。 可使用 **New-CSRgsHoursOfBusiness** cmdlet 来定义预设日程表。 有关详细信息，请参阅 ([中) 定义响应组工作时间的可选Skype for Business。](optional-define-response-group-business-hours.md)
 
       > [!NOTE]
       > 选择预设日程表时，“天”、“开放”和“关闭”中会自动填写响应组可以应答的日期和时间。
@@ -163,7 +163,7 @@ ms.locfileid: "60755755"
 24. 在“步骤 5 指定您的假日”下，单击定义响应组停止营业日期的一个或多个假日集对应的复选框。
 
     > [!NOTE]
-    > 配置工作流之前，您需要先定义假日和假日集。 使用 **New-CsRgsHoliday** 和 **New-CsRgsHolidaySet** cmdlet 可定义假日和假日集。 有关详细信息，请参阅 ([中) 定义响应组假日集的可选Skype for Business。](optional-define-response-group-holiday-sets.md)
+    > 配置工作流之前，您需要先定义假日和假日集。 使用 **New-CsRgsHoliday** 和 **New-CsRgsHolidaySet** cmdlet 可定义假日和假日集。 有关详细信息，请参阅 ([中的) 定义响应组假日集的可选Skype for Business。](optional-define-response-group-holiday-sets.md)
 
 25. 如果要在假日播放消息，请选中“假期播放消息”复选框，然后通过执行以下操作之一指定要播放的消息：
 
@@ -485,12 +485,12 @@ ms.locfileid: "60755755"
 
     - 要将呼叫转接到另一个用户，请单击“转接到 SIP URI”，然后键入该用户的地址。 用户地址的格式为 _\<username\>_ @ _\<domainname\>_ 。
 
-    - 要将呼叫转接到另一个电话号码，请单击“转接到电话号码”，然后键入该电话号码。 电话号码的格式为 (*\<number\>* @ *\<domainname\>* 例如，+14255550121@contoso.com) 。 域名可用来将呼叫者路由至正确的目标。
+    - 要将呼叫转接到另一个电话号码，请单击“转接到电话号码”，然后键入该电话号码。 电话号码的格式为 (*\<number\>* @ *\<domainname\>* 例如+14255550121@contoso.com) 。 域名可用来将呼叫者路由至正确的目标。
 
 24. 在“步骤 5 指定您的假日”下，单击定义响应组停止营业日期的一个或多个假日集对应的复选框。
 
     > [!NOTE]
-    > 配置工作流之前，您需要先定义假日和假日集。 使用 **New-CsRgsHoliday** 和 **New-CsRgsHolidaySet** cmdlet 可定义假日和假日集。 有关详细信息，请参阅 ([中) 定义响应组假日集的可选Skype for Business。](optional-define-response-group-holiday-sets.md)
+    > 配置工作流之前，您需要先定义假日和假日集。 使用 **New-CsRgsHoliday** 和 **New-CsRgsHolidaySet** cmdlet 可定义假日和假日集。 有关详细信息，请参阅可选[ (在) 定义响应组假日Skype for Business。](optional-define-response-group-holiday-sets.md)
 
 25. 如果要在假日播放消息，请选中“假期播放消息”复选框，然后通过执行以下操作之一指定要播放的消息：
 
@@ -512,7 +512,7 @@ ms.locfileid: "60755755"
 
     - 要将呼叫转接到另一个用户，请单击“转接到 SIP URI”，然后键入该用户的地址。 用户地址的格式为 _\<username\>_ @ _\<domainname\>_ 。
 
-    - 要将呼叫转接到另一个电话号码，请单击“转接到电话号码”，然后键入该电话号码。 电话号码的格式为 (*\<number\>* @ *\<domainname\>* 例如，+14255550121@contoso.com) 。 域名可用来将呼叫者路由至正确的目标。
+    - 要将呼叫转接到另一个电话号码，请单击“转接到电话号码”，然后键入该电话号码。 电话号码的格式为 (*\<number\>* @ *\<domainname\>* 例如+14255550121@contoso.com) 。 域名可用来将呼叫者路由至正确的目标。
 
 27. 在“步骤 6 配置保持音乐”下，执行以下操作之一，选择希望呼叫者在等待代理时听到的音乐：
 
@@ -533,7 +533,7 @@ ms.locfileid: "60755755"
     > [!NOTE]
     > 文本到语音转换引擎会将符号“#”转换为“号码”这个词。 如果需要指代 # 键，则应该在提示语中使用键名代替符号。 例如，“要与销售人员交谈，请按井号键”。
 
-    - 若要使用包含问题的预先录制的音频文件，请单击"选择录音"，然后单击"**录音**"链接以上载该文件。 In the new browser window， click **Browse**， select the audio file， and then click **Open**. 单击 **Upload"** 以加载文件，然后可以选择在文本框中键入问题 (这样将问题以及呼叫者的响应转发给响应代理) 。
+    - 若要使用包含问题的预先录制的音频文件，请单击"选择录音"，然后单击"**录音**"链接以上载该文件。 In the new browser window， click **Browse**， select the audio file， and then click **Open**. 单击 **Upload** 加载文件，然后可以选择在文本框中键入问题 (这样将问题以及呼叫者的响应转发给响应代理) 。
 
       > [!NOTE]
       > 用户提供的所有音频文件都必须满足特定要求。有关支持的文件格式的详细信息，请参阅[Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group)。

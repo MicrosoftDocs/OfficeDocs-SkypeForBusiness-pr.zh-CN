@@ -1,6 +1,6 @@
 ---
 title: 在 Microsoft Teams 中创建自定义团队模板
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 ms.reviewer: aaglick
 manager: serdars
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b7f3574121bb056208748be522af0b9a5f744846
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a7bb0805705797587f9475fe7a6ee759165e884b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60749691"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864479"
 ---
 # <a name="create-a-custom-team-template-in-microsoft-teams"></a>在 Microsoft Teams 中创建自定义团队模板
 
@@ -56,7 +56,7 @@ ms.locfileid: "60749691"
 6. 在 **"频道、选项卡** 和应用"部分中，添加团队所需的任何频道和应用。
 
     1. 在"**频道"部分中**，选择"**添加"。**
-    2. 在" **添加"** 对话框中，为频道命名。
+    2. 在" **添加"** 对话框中，为通道命名。
     3. 添加说明。
     4. 确定是否默认应显示通道。
     5. 搜索要添加到通道的应用名称。

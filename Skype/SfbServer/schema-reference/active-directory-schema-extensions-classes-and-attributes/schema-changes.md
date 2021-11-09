@@ -2,7 +2,7 @@
 title: 架构中的架构Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d760cb93-77d4-4d64-adb7-416b808f36f8
 description: 在部署和运行 Skype for Business Server，必须通过扩展架构来准备 Active Directory 域服务。 架构扩展添加用户所需的类和Skype for Business Server。
-ms.openlocfilehash: 000aad35a546556a2a6bceaedc0d0fdb9deb2420
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9f5a0f5e3b70925a39d94df9d3fec6728ef6429c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60743278"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60829816"
 ---
 # <a name="schema-changes-in-skype-for-business-server"></a>架构中的架构Skype for Business Server
  

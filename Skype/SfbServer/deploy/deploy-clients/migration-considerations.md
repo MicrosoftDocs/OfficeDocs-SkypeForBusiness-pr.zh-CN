@@ -1,7 +1,7 @@
 ---
 title: Skype会议室系统迁移注意事项
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -11,21 +11,21 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: df9f33b6-0360-4354-b651-bd35da533e33
-description: 阅读本主题，了解如何在具有多个 Skype Lync Server 版本的环境中部署会议室Skype for Business Server系统。
-ms.openlocfilehash: f3a26b630873bad0d3c8585486c91c7250f452e3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 阅读本主题，了解如何在具有多个版本的 Skype 和 Lync Server 的环境中部署Skype for Business Server系统。
+ms.openlocfilehash: 1b57115a332a647143fc0a3a7ca2c1ee178ad5fe
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769730"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850505"
 ---
 # <a name="skype-room-system-migration-considerations"></a>Skype会议室系统迁移注意事项
  
-阅读本主题，了解如何在具有多个 Skype Lync Server 版本的环境中部署会议室Skype for Business Server系统。
+阅读本主题，了解如何在具有多个版本的 Skype 和 Lync Server 的环境中部署Skype for Business Server系统。
   
 ## <a name="migration-considerations"></a>迁移注意事项
 
-如果要在包含不同版本的 Skype 或 Lync Server 的多池环境中部署会议室系统，本节Skype for Business Server指南。 
+如果要在包含不同版本 Skype Lync Server 的多池环境中部署会议室系统，本节Skype for Business Server指南。 
   
 Lync Server 中的用户 (UR) 组件从 Active Directory 获取用户对象，然后将它们放入 Lync Server 后端 SQL Server 数据库。 只有 Lync Server 2013 中的 UR 可以Skype会议室系统对象。 以前版本的 Lync Server 和 Office Communications Server 中的 UR 不会检测指定 LRS 对象的 Active Directory 属性，因此不知道这些属性。 
   

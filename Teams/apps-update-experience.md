@@ -1,6 +1,6 @@
 ---
 title: 应用中的应用更新Microsoft Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: v-tbasra
@@ -17,13 +17,13 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 了解如何在应用中更新Microsoft Teams。
-ms.openlocfilehash: 025096ebce82fb9c5dd7fb8bb23f81094655d106
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 了解如何在 Microsoft Teams 中更新应用。
+ms.openlocfilehash: feb1cdf7c8b528b7d773978375d1d16a20fae631
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60746478"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850585"
 ---
 # <a name="update-apps-in-microsoft-teams"></a>更新应用中Microsoft Teams
 

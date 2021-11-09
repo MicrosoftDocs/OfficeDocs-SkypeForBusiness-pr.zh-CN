@@ -1,8 +1,8 @@
 ---
-title: 管理存档中的存档Skype for Business Server
+title: 管理存档选项Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,14 +12,14 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 50399f26-58a3-4ce2-8229-32a8cafc7733
 description: 摘要：了解如何配置存档Skype for Business Server。
-ms.openlocfilehash: 4ab0f64db30638b29367f113acc342077b84b113
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d382cd829a9db8472df286580f6bd5d4b3baf036
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60747306"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856769"
 ---
-# <a name="manage-archiving-options-in-skype-for-business-server"></a>管理存档中的存档Skype for Business Server
+# <a name="manage-archiving-options-in-skype-for-business-server"></a>管理存档选项Skype for Business Server
 
 **摘要：** 了解如何配置存档的存档Skype for Business Server。
   
@@ -39,13 +39,13 @@ ms.locfileid: "60747306"
     
 可以在以下级别指定配置选项：
   
-- 在部署数据库时默认创建的全局Skype for Business Server
+- 部署数据库时默认创建的全局Skype for Business Server
     
 - 指定如何为特定站点实施存档的可选站点级别配置
     
 - 指定如何为特定池实施存档的可选池级别配置
     
-可以删除站点配置或池配置，但无法删除全局配置。 如果删除全局配置，该配置将自动重置为默认值。 有关如何实施存档配置以及存档配置的层次结构的详细信息，请参阅 Plan for [archiving in Skype for Business Server](../../plan-your-deployment/archiving/archiving.md)。
+可以删除站点配置或池配置，但无法删除全局配置。 如果删除全局配置，该配置将自动重置为默认值。 有关如何实施存档配置以及存档配置的层次结构的详细信息，请参阅规划存档[Skype for Business Server。](../../plan-your-deployment/archiving/archiving.md)
   
 ## <a name="configure-archiving-options-by-using-the-control-panel"></a>使用控制面板配置存档选项
 
@@ -65,6 +65,6 @@ ms.locfileid: "60747306"
 |**Cmdlet**|**说明**|
 |:-----|:-----|
 |Get-CsArchivingConfiguration  <br/> |返回有关您组织的存档配置设置的信息。  <br/> |
-|New-CsArchivingConfiguration  <br/> |创建一组新的即时消息 (IM) 设置，这些设置可用于启用或禁用 IM 会话的自动保存，并阻止任何无法存档的即时消息。  <br/> |
+|New-CsArchivingConfiguration  <br/> |创建一组新的即时消息 (IM) 设置，这些设置可用于启用或禁用 IM 会话的自动保存，并阻止无法存档的任何即时消息。  <br/> |
 |Remove-CsArchivingConfiguration  <br/> |删除指定的存档设置集合，这些设置用于启用或禁用即时消息 (IM) 会话的自动保存，以及（可选）阻止任何无法存档的即时消息。  <br/> |
-|Set-CsArchivingConfiguration  <br/> |修改现有的即时消息和 IM (存档) 配置选项的集合。  <br/> |
+|Set-CsArchivingConfiguration  <br/> |修改现有的即时消息集合 (IM) 存档配置选项。  <br/> |

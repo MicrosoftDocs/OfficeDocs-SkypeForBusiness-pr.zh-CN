@@ -2,7 +2,7 @@
 title: tblPrincipalInvites
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 548ec156-4d1a-469d-a804-62cff226e5c2
 description: tblPrincipalInvites 包含打开自动邀请的所有节点的所有已设置用户的邀请。
-ms.openlocfilehash: 91eb45208243a9949725b77005b46692a46561e3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d7993cba89474fe5d7343cd25f39c3363b8be866
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60749751"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864579"
 ---
 # <a name="tblprincipalinvites"></a>tblPrincipalInvites
  

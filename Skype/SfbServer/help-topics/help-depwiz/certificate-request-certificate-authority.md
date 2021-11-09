@@ -2,7 +2,7 @@
 title: 证书请求（证书颁发机构）
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: a609f1b0-ae13-44ca-a467-b7fb14ff18a1
 description: 在“选择证书颁发机构(CA)”页面上向联机证书颁发机构 (CA)（通常是内部网络中的服务器）发出证书请求时，将看到两个选项：
-ms.openlocfilehash: 226a653c08a176e64b0b908d0276549e62c00273
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 06c6aaa8a1576e28402cab304917c1f16ba4a99d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741028"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843145"
 ---
 # <a name="certificate-request-certificate-authority"></a>证书请求（证书颁发机构）
  

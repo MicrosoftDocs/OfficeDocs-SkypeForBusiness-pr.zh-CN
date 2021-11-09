@@ -2,7 +2,7 @@
 title: " (QoE) 用户体验质量Skype for Business Server"
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 097fb65e-4a3e-45ff-a88c-d6022dc8f872
 description: 摘要：在 Skype for Business Server 中管理 (QoE) 用户体验Skype for Business Server。
-ms.openlocfilehash: 926c7ff30e8712a7cf03bca2bdbfb088be614584
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b8b50567efcc46cc1938174e150754313b0690e1
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60754701"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60828775"
 ---
 # <a name="quality-of-experience-qoe-in-skype-for-business-server"></a> (QoE) 用户体验质量Skype for Business Server
  

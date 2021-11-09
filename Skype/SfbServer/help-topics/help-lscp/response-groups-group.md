@@ -2,7 +2,7 @@
 title: 响应组组
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: b8bd4c3f-3d32-42b2-9712-2d0f159577d8
 description: 响应组由代理组、队列和工作流组成。 代理组是指定应答响应组呼叫的一组人员。
-ms.openlocfilehash: afe56ae2f63ba934543176b5f1ca417a6457d208
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 2a4f0e68db6701b3eb75cfb1b502e4b837756d9f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60739538"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60827815"
 ---
 # <a name="response-groups-group"></a>响应组：组
 

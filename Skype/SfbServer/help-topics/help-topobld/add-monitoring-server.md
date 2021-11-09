@@ -2,7 +2,7 @@
 title: 添加监控服务器
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -14,14 +14,14 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 365f5b3a-ad1b-4145-bd5c-296c9a0aa482
-description: 若要将监控服务器纳入拓扑设计，必须指定要在其上部署监控服务器的服务器的 (FQDN) FQDN。 在发布包含监控服务器的拓扑并在服务器上Skype for Business Server，您应当完成部署监控的所有先决条件。 有关这些先决条件的详细信息，请参阅部署文档中的Deploying Monitoring。
-ms.openlocfilehash: 7d639713baaeabdea8fee2a9ad761d4961097cce
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 若要将监控服务器合并到拓扑设计中，必须指定要在其上部署监控服务器的服务器的完全限定域名 (FQDN) FQDN。 在发布包含监控服务器的拓扑并在服务器上Skype for Business Server，您应当完成部署监控的所有先决条件。 有关这些先决条件的详细信息，请参阅部署文档中的Deploying Monitoring。
+ms.openlocfilehash: 7c0e9c2dc35e4f694e38581b4187be1f4403a9ac
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60747968"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835410"
 ---
 # <a name="add-monitoring-server"></a>添加监控服务器
 
-若要将监控服务器纳入拓扑设计，必须指定要在其上部署监控服务器的服务器的 (FQDN) FQDN。 在发布包含监控服务器的拓扑并在服务器上Skype for Business Server，您应当完成部署监控的所有先决条件。 有关这些先决条件的详细信息，请参阅部署文档中的[Deploying Monitoring](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-monitoring)。
+若要将监控服务器合并到拓扑设计中，必须指定要在其上部署监控服务器的服务器的完全限定域名 (FQDN) FQDN。 在发布包含监控服务器的拓扑并在服务器上Skype for Business Server，您应当完成部署监控的所有先决条件。 有关这些先决条件的详细信息，请参阅部署文档中的[Deploying Monitoring](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-monitoring)。

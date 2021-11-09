@@ -2,7 +2,7 @@
 title: 配置与 Office Web Apps Server Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,25 +12,25 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b7e9149e-bf16-4120-afe0-3ee09c88f5eb
 description: 摘要：阅读本主题，了解如何配置 Office Web Apps Server 与 Skype for Business Server 之间的集成以PowerPoint Web 会议演示文稿。
-ms.openlocfilehash: 27f5010b0e95ce7a84847ca52747f581697bde9c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 291e246651a5c4f909f2e739e76de65d8c983c5b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740118"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835950"
 ---
 # <a name="configure-integration-with-office-web-apps-server-in-skype-for-business-server"></a>配置与 Office Web Apps Server Skype for Business Server
  
-**摘要：** 阅读本主题可了解如何配置 Office Web Apps Server 与 Skype for Business Server 之间的集成，PowerPoint Web 会议启用 web 会议演示文稿。
+**摘要：** 阅读本主题可了解如何配置 Office Web Apps Server 与 Skype for Business Server 之间的集成，PowerPoint Web 会议。
   
-Skype for Business Server Web Apps Server Office Web 会议PowerPoint演示文稿。 有关此方法的优点的信息，请参阅在 Skype for Business Server[中规划会议](../../plan-your-deployment/conferencing/conferencing.md)。
+Skype for Business Server Web Apps Server Office Web 会议PowerPoint演示文稿。 有关此方法的优点的信息，[请参阅规划](../../plan-your-deployment/conferencing/conferencing.md)Skype for Business Server。
   
-必须先确保已Skype for Business Server Web Apps Server Office Web Apps Server Office配置 Web Apps Server，然后才能配置 Web Apps Server。 有关 Web Apps Server Office的信息，请参阅文章[部署基础结构：Office Online Server。](/webappsserver/deploy-the-infrastructure-office-web-apps-server) 
+必须先确保已Skype for Business Server Web Apps Server Office Web Apps Server，然后才能将 Office 配置为使用 Web Apps Server。 有关 Web Apps Server Office的信息，请参阅文章[部署基础结构：Office Online Server。](/webappsserver/deploy-the-infrastructure-office-web-apps-server) 
   
 成功Office Web Apps Server 并正确配置 Web 场后，必须将 Skype for Business Server 配置为通过将 Office Web Apps Server 发现 URL 添加到 Skype for Business Server 拓扑来与新服务器进行通信。 
   
 > [!NOTE]
-> Web Apps Server Office次迭代名为 Office Online Server，它受 Skype for Business Server。 有关详细信息，请参阅文档[Office Online Server文档](/officeonlineserver/office-online-server)。 
+> Web Apps Server Office次迭代命名为 Office Online Server，它受 Skype for Business Server。 有关详细信息，请参阅Office Online Server[文档](/officeonlineserver/office-online-server)。 
   
 ## <a name="configure-skype-for-business-server-to-communicate-with-office-web-apps-server"></a>配置Skype for Business Server Web Apps Server Office通信
 
@@ -42,13 +42,13 @@ Skype for Business Server Web Apps Server Office Web 会议PowerPoint演示文�
     
 3. 在“将拓扑另存为”对话框的“文件名”框中为拓扑文档键入一个名称（例如，**PreWebAppsServerTopology**），然后单击“保存”。如果之后您的新拓扑遇到问题，则可检索和重新发布此拓扑。
     
-4. 在拓扑生成器中，**展开"Skype for Business Server"，** 展开站点的名称，展开 **"Enterprise Edition 前端池"，** 右键单击其中一个池的名称，然后单击"编辑 **属性"。**
+4. 在拓扑生成器中，**展开"Skype for Business Server"，** 展开站点的名称，展开 **"Enterprise Edition 前端** 池"，右键单击其中一个池的名称，然后单击"编辑 **属性"。**
     
 5. 在“编辑属性”对话框的“常规”选项卡上，查找标题“关联 Office Web Apps 服务器”，然后单击“新建”（或从下拉列表中选择现有 Office Web Apps 服务器）。
     
 6. 在“定义新的 Office Web Apps 服务器”对话框的“Office Web Apps 服务器 FQDN”框中，键入您的 Office Web Apps 服务器计算机的完全限定域名 (FQDN)；执行此操作时，您的 Office Web Apps 服务器搜索 URL 应自动输入到“Office Web Apps 服务器搜索 URL”框中。
     
-   - 如果 Office Web Apps 服务器是在本地安装的，并且与 Skype for Business Server 位于同一网络区域中Office则不应选择选项 Office Web Apps Server 部署在外部网络 (即，不应选择外围 **/Internet) 。**
+   - 如果 Office Web Apps 服务器是在本地安装的，并且与 Skype for Business Server 在同一网络区域中Office则不应选择选项 Office Web Apps Server 部署在外部网络 (即，不应选择外围 **/Internet) 。**
     
    - 如果 Office Web Apps 服务器部署在内部防火墙之外，则请选择选项“在外部网络(即，外围/Internet)中部署 Office Web Apps 服务器”。
     
@@ -72,9 +72,9 @@ Skype for Business Server Web Apps Server Office Web 会议PowerPoint演示文�
   
 ## <a name="validate-the-configuration"></a>验证配置
 
-在Office Web Apps Server 添加到拓扑中之后，发布该拓扑后，您应该在事件日志中看到两个新的事件Skype for Business Server事件。 首先，应添加 LS 数据 MCU (ID 41034) LS 数据 MCU 事件;此事件将报告已Office Web Apps Server：
+在Office Web Apps Server 添加到拓扑之后，发布该拓扑后，您应该在事件日志中看到两个新的事件Skype for Business Server事件。 首先，应添加 LS 数据 MCU (事件 ID 41034) ID;此事件将报告已Office Web Apps Server：
   
- **发现 Web 会议Office Web Apps Server，PowerPoint内容。**
+ **发现 Web 会议Office Web Apps Server，PowerPoint内容已启用。**
   
 例如，除了应该查看报告回 Office Web Apps Server URL 的另一个 LS Data MCU 事件（事件 ID 41032），还应该查看类似以下内容：
   

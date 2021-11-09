@@ -2,7 +2,7 @@
 title: Deploy Shared Line Appearance in Skype for Business Server 2015
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/7/2018
 audience: ITPro
@@ -16,21 +16,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 474a5e4a-9479-4e86-8607-b9f41a0fa648
-description: 阅读本主题，了解如何在 2015 年 11 月累积更新的 Skype for Business Server 2015 (SLA) 部署共享线路外观。 SLA 是一项功能，用于处理对称为共享号码的特定号码的多个呼叫。
-ms.openlocfilehash: edf731976ae9fbf36f99266f0d993c9e4e78fa34
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 阅读本主题，了解如何在 2015 年 11 月累积更新的 Skype for Business Server 2015 (SLA) 部署共享线路外观。 SLA 是一项功能，用于处理对名为共享号码的特定号码的多个呼叫。
+ms.openlocfilehash: e79bb427c28f2c0e8dcc3ff7b5e0d1f6319ac7d8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60749441"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835940"
 ---
 # <a name="deploy-shared-line-appearance-in-skype-for-business-server-2015"></a>Deploy Shared Line Appearance in Skype for Business Server 2015
 
-阅读本主题，了解如何在 2015 年 11 月累积更新的 Skype for Business Server 2015 (SLA) 部署共享线路外观。 SLA 是一项功能，用于处理对称为共享号码的特定号码的多个呼叫。
+阅读本主题，了解如何在 2015 年 11 月累积更新的 Skype for Business Server 2015 (SLA) 部署共享线路外观。 SLA 是一项功能，用于处理对名为共享号码的特定号码的多个呼叫。
 
 有关此功能详细信息，请参阅 Plan [for Shared Line Appearance in Skype for Business Server 2015。](../../plan-your-deployment/enterprise-voice-solution/shared-line-appearance.md)
 
-共享线路 (SLA) 是 2015 年 11 月Skype for Business Server更新中的一项新功能。 若要启用此功能，必须先部署此累积更新。
+共享线路 (SLA) 是 2015 年 11 月累积Skype for Business Server中的一项新功能。 若要启用此功能，必须先部署此累积更新。
 
 ### <a name="install-shared-line-appearance"></a>安装共享线路外观
 
@@ -68,7 +68,7 @@ ms.locfileid: "60749441"
 
     此Set-CsSlaConfiguration cmdlet 将企业语音 SLAGroup1 帐户标记为 SLA 实体，并且 SLAGroup1 的数量将成为 SLA 组的数量。 对 SLAGroup1 的所有调用都将拨打整个 SLA 组。
 
-    以下示例为现有用户 SLAGroup1 企业语音 SLA 组，并使用为 SLAGroup1 分配的号码作为 SLA 主线号码。
+    以下示例为现有用户 SLAGroup1 企业语音 SLAGroup1，并使用为 SLAGroup1 分配的号码作为 SLA 主线号码。
 
     此命令将新 SLA 组的最大并发呼叫数设置为 3，超过此数目的呼叫将听到繁忙信号：
 
@@ -76,7 +76,7 @@ ms.locfileid: "60749441"
    Set-CsSlaConfiguration -Identity SLAGroup1 -MaxNumberOfCalls 3 -BusyOption BusyOnBusy
    ```
 
-    您可以使用新Set-CsSlaConfiguration SLA 组或修改现有 SLA 组。
+    可以使用新Set-CsSlaConfiguration SLA 组或修改现有 SLA 组。
 
     > [!NOTE]
     > 请注意，您为 指定的 `-Identity` 必须是启用企业语音用户帐户的有效现有帐户。

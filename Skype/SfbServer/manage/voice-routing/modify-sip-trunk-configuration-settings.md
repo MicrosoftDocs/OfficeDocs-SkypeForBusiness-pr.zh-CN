@@ -2,7 +2,7 @@
 title: Skype for BusinessServerModify SIP 中继配置设置
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 'SIP 中继配置设置定义中介服务器与服务提供商的公用电话交换网网关、IP 公用交换机 (PBX) 或会话边界控制器 (SBC) 之间的关系和功能。 '
-ms.openlocfilehash: ebec5a350dc46a4deb85546e885429ff72737cb2
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0f856c83d6f521308343b626addc0ab2c5e16792
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751721"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60829926"
 ---
 # <a name="skype-for-business-servermodify-sip-trunk-configuration-settings"></a>Skype for BusinessServerModify SIP 中继配置设置
 
@@ -28,7 +28,7 @@ SIP 中继配置设置定义了中介服务器和服务提供商的公用电话�
 
 在安装Skype for Business Server时，将创建 SIP 中继配置设置的全局集合。 此外，管理员还可以在站点作用域或服务作用域（仅针对 PSTN 网关服务）内创建自定义设置集合。 稍后可以使用"控制面板"或"Skype for Business Server修改这些集合Windows PowerShell。
 
-使用 Skype for Business Server 服务器控制面板修改 SIP 中继配置设置时，可以使用以下选项：
+使用 Skype for Business Server 控制面板修改 SIP 中继配置设置时，可以使用以下选项：
 
 |UI 设置 |PowerShell 参数 |说明 |
 |--|--|--|
@@ -53,9 +53,9 @@ SIP 中继配置设置定义了中介服务器和服务提供商的公用电话�
 |||
 
 > [!Note]
-> CsTrunkConfiguration cmdlet Skype for Business Server CsTrunkConfiguration cmdlet 支持未显示在"Skype for Business Server控制面板"中的其他属性。 有关详细信息，请参阅 [Set-CsTrunkConfiguration](/powershell/module/skype/Set-CsTrunkConfiguration) cmdlet 的帮助主题。 
+> CsTrunkConfiguration cmdlet Skype for Business Server支持"控制面板"中未Skype for Business Server属性。 有关详细信息，请参阅 [Set-CsTrunkConfiguration](/powershell/module/skype/Set-CsTrunkConfiguration) cmdlet 的帮助主题。 
 
-**使用控制面板修改 SIP 中继Skype for Business Server设置**
+**使用"控制面板"Skype for Business Server SIP 中继配置设置**
 
 1. 在"Skype for Business Server控制面板"中，单击"**语音路由**"，然后单击"**中继配置"。**
 2. 在“Trunk 配置”选项卡上，双击要修改的中继配置设置。请注意，您一次只能编辑一个设置集合。如果要对多个集合进行同一更改，请改用 Windows PowerShell。

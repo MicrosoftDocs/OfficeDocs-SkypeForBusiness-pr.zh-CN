@@ -2,7 +2,7 @@
 title: 规划会议Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 10add1ea-d693-406c-9dc9-853df0ab05da
 description: 摘要：阅读本主题，了解会议功能Skype for Business Server。
-ms.openlocfilehash: cfaf1544d158af6d04ca6b4709b85d168aa74ebd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f5eb0d549b5d0b120017d36e4f904b931e0ea278
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759554"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864709"
 ---
 # <a name="plan-for-conferencing-in-skype-for-business-server"></a>规划会议Skype for Business Server
  
@@ -65,9 +65,9 @@ Web 会议允许与会者协作处理会议期间共享的文档，并允许会�
     
 ### <a name="audio-and-video-conferencing"></a>音频和视频会议
 
-音频和视频会议允许在会议使用音频和视频。 音频允许与会者相互交谈，就像他们在同一房间一样。 视频支持在 Skype for Business 客户端中显示视频，任何与会者或演示者通过支持视频的 Web 摄像头或会议设备加入会议。
+音频和视频会议允许在会议中播放音频和视频。 音频允许与会者相互交谈，就像他们在同一房间一样。 视频允许使用支持视频Skype for Business Web 摄像头或会议设备加入会议的任何与会者或演示者在会议客户端中显示视频。
   
- Skype for Business Server提供了多个用户可用于为用户配置音频会议体验的功能，其中包括：
+ Skype for Business Server提供了一些用户可用于为用户配置音频会议体验的功能，其中包括：
   
 - **受众静音。** 演示者可以使用此设置将会议的所有音频参与者设为静音，并且使会议置于非演示者无法自行取消静音的状态。
     
@@ -75,7 +75,7 @@ Web 会议允许与会者协作处理会议期间共享的文档，并允许会�
     
 - **通过拨出添加用户。** 已授予权限的演示者和与会者可以将 PSTN 号码添加到会议，并且让会议拨出到这些号码。
     
-  Skype for Business Server提供了一些用户可用于为用户配置视频会议体验的功能，其中包括：
+  Skype for Business Server提供了多个用户可用于为用户配置视频会议体验的功能，其中包括：
   
 - **库视图。** 在超过两人的视频会议中，用户会自动看到会议中的每个人。 如果会议参与者超过五名，则最活跃的参与者的视频显示在最上面一行，并且仅显示其他参与者的照片。 默认情况下，多方视频已打开。
     
@@ -91,7 +91,7 @@ Web 会议允许与会者协作处理会议期间共享的文档，并允许会�
   
 ### <a name="instant-messaging-conferencing"></a>即时消息会议
 
-即时消息 (IM) 会议允许两方在单个 IM 会话中进行通信。 有关 IM 会议的详细信息，请参阅 Plan [for instant messaging and presence in Skype for Business Server](../../plan-your-deployment/instant-messaging-and-presence.md)。
+即时消息 (IM) 会议允许两方在一个 IM 会话中进行通信。 有关 IM 会议的详细信息，请参阅 Plan [for instant messaging and presence in Skype for Business Server](../../plan-your-deployment/instant-messaging-and-presence.md)。
   
 ## <a name="conferencing-components"></a>会议组件
 
@@ -101,9 +101,9 @@ Web 会议允许与会者协作处理会议期间共享的文档，并允许会�
     
 - **会议助理应用程序。** 该会议助理应用程序是一个统一通信应用程序，它接受公用电话交换网 (PSTN) 呼叫、播放提示以及将呼叫加入 A/V 会议。 默认情况下会议助理应用程序电话拨入式会议时安装并激活电话拨入式会议。
     
-- **会议公告应用程序。** 会议公告应用程序 是一个统一通信应用程序，可对某些操作（例如，当参与者加入或离开会议、参与者静音或取消静音、有人进入会议厅或锁定或解锁会议）播放提示音和提示。 会议公告应用程序还支持电话键盘中的双音 (DTMF) 命令。 默认情况下会议公告应用程序电话拨入式会议时自动安装并激活会议。
+- **会议公告应用程序。** 会议公告应用程序 是一个统一通信应用程序，可对某些操作（例如，当参与者加入或离开会议、参与者静音或取消静音、有人进入会议厅或锁定或解锁会议）播放提示音和提示。 会议公告应用程序还支持从电话键盘 (DTMF) 双音多频命令。 默认情况下会议公告应用程序电话拨入式会议时自动安装并激活会议。
     
-- **电话拨入式会议设置页。** "电话拨入式会议 设置"页显示会议拨入号码及其可用语言、分配的会议信息 (即，对于不需要安排) 的会议和会议中的 DTMF 控件，并支持管理个人标识号 (PIN) 和分配的会议信息。 "电话拨入式设置"页作为 Web 服务的一部分自动安装。
+- **电话拨入式会议设置页面。** "电话拨入式会议 设置"页显示会议拨入号码及其可用语言、分配的会议信息 (即，对于不需要安排) 的会议和会议中的 DTMF 控件，并支持管理个人标识号 (PIN) 和分配的会议信息。 "电话拨入式设置"页会自动作为 Web 服务的一部分进行安装。
     
 - **中介服务器和 PSTN 网关。** 电话拨入式会议需要中介服务器在 Skype for Business Server 和 PSTN 网关之间的某些配置) 中转换信号 (和媒体，需要 PSTN 网关在中介服务器和 PSTN 网关之间转换信号和媒体。 对于电话拨入式会议，必须部署至少一台中介服务器和以下服务器之一：
     
@@ -120,7 +120,7 @@ Web 会议允许与会者协作处理会议期间共享的文档，并允许会�
     
 - **用户存储。** 用户存储用于存储用户Skype for Business Server PIN。 PIN 是哈希值。 用户存储是每个部署或部署Enterprise Edition Standard Edition组件。
     
-- **Office Web Apps 服务器。** 若要使用 Web 会议功能，管理员必须安装 Office Web Apps Server，并且必须将 Skype for Business Server 配置为与 Office Web Apps Server 通信。
+- **Office Web Apps 服务器。** 若要使用 Web 会议功能，管理员必须安装 Office Web Apps Server，并且必须配置 Skype for Business Server 才能与 Office Web Apps Server 通信。
     
 ## <a name="conferencing-policies"></a>会议策略
 
@@ -130,13 +130,13 @@ Web 会议允许与会者协作处理会议期间共享的文档，并允许会�
 
 会议可以支持Skype for Business Server取决于会议托管在共享池还是专用池中：
   
-- 在共享池中，Skype for Business Server最多 250 个用户主持会议。 共享池是承载所有 Skype for Business Server 工作负荷的池，包括即时消息 (IM) 和状态、会议和企业语音。 
+- 在共享池中，Skype for Business Server最多 250 个用户主持会议。 共享池是托管所有 Skype for Business Server 工作负荷的池，包括即时消息 (IM) 和状态、会议和企业语音。 
     
-- 在专用池中，Skype for Business Server使用 Web 和音频/视频 (A/V) 会议支持多达 1000 个参与者的会议，包括共享PowerPoint演示文稿。 若要实现此支持，需要配置一个专用池以支持大型会议，并且需要以某种方式管理该池以确保一次仅主持一个大型会议。 
+- 在专用池中，Skype for Business Server使用 Web 和音频/视频 (A/V) 会议（包括共享 PowerPoint 演示文稿）支持多达 1000 个参与者的会议。 若要实现此支持，需要配置一个专用池以支持大型会议，并且需要以某种方式管理该池以确保一次仅主持一个大型会议。 
     
 有关管理大型会议的信息，请参阅在 Skype for Business Server[中规划大型Skype for Business Server。](large-meetings.md)
   
-如果你的组织需要更大的会议功能，则应考虑实施利用 Skype 会议 广播的混合环境，这是一种属于 Microsoft 365 和 Office 365 的联机服务。 Skype 会议广播使用户能够主持会议，并广播给最多 10，000 名参与者的大型联机受众。 使用广播Skype 会议要求已在Skype for Business Server或生产组织混合Microsoft 365混合Office 365配置。 所有用户都必须建立联机租户作为先决条件。 如果你有兴趣部署可以利用广播的混合Skype 会议，请参阅为本地广播配置[Skype 会议部署](../../deploy/configure-skype-meeting-broadcast.md)。
+如果你的组织需要更大的会议功能，则应考虑实施利用 Skype 会议 广播的混合环境，这是一种属于 Microsoft 365 和 Office 365 的联机服务。 Skype 会议广播使用户能够主持会议，并广播给最多 10，000 名参与者的大型联机受众。 使用Skype 会议广播要求已在Skype for Business Server或生产组织混合Microsoft 365混合Office 365配置。 所有用户都必须建立联机租户作为先决条件。 如果你有兴趣部署可以利用广播的混合Skype 会议，请参阅为本地广播配置[Skype 会议部署](../../deploy/configure-skype-meeting-broadcast.md)。
   
 ## <a name="determine-your-organizations-needs"></a>确定组织需求
 
@@ -151,7 +151,7 @@ Web 会议允许与会者协作处理会议期间共享的文档，并允许会�
     
     与文档协作相比，应用程序共享要求使用更多的网络带宽。 Skype for Business Server提供了一种限制机制来控制每个应用程序共享会话。 默认情况下，每个会话设置为 1.5 KB/秒。 如果不希望启用应用程序共享，但希望进行文档协作，可以启用会议并使用会议策略禁用应用程序共享。 有关配置会议策略的详细信息，请参阅管理会议[Skype for Business Server。](../../manage/conferencing/conferencing-policies.md)
     
-    若要使用户能够共享PowerPoint演示文稿，您需要配置 Office Web Apps Server。 有关配置 Web Apps Server Office的详细信息，请参阅 Configure [integration with Office Web Apps Server in Skype for Business Server](../../deploy/deploy-conferencing/office-web-app-server.md)。
+    若要使用户能够共享PowerPoint演示文稿，您需要配置 Office Web Apps Server。 有关配置 Web Apps Server Office的详细信息，请参阅在 Skype for Business Server 中配置与[Office Web Apps Server Skype for Business Server。](../../deploy/deploy-conferencing/office-web-app-server.md)
     
 - **是否要启用音频和视频会议？**
     
@@ -164,7 +164,7 @@ Web 会议允许与会者协作处理会议期间共享的文档，并允许会�
     有关配置会议策略的信息，请参阅管理会议[Skype for Business Server。](../../manage/conferencing/conferencing-policies.md)
     
     > [!NOTE]
-    > 企业语音 A/V 会议时无需安装。 如果您启用 A/V 会议，并且您的用户有音频设备，则他们可以将音频添加到其会议，即使您使用 PBX 作为电话解决方案也是如此。 
+    > 企业语音 A/V 会议时无需安装会议。 如果您启用 A/V 会议，并且您的用户有音频设备，则他们可以将音频添加到其会议，即使您使用 PBX 作为电话解决方案也是如此。 
   
 - **使用 PSTN 电话时，是否要允许用户加入会议的音频部分？**
     
@@ -184,10 +184,10 @@ Web 会议允许与会者协作处理会议期间共享的文档，并允许会�
     
     如果要允许外部用户，则需要部署边缘服务器。 此外，通过部署边缘服务器，您可以与其他组织（如您的客户或供应商）建立联盟关系，来自这些组织的用户可以更轻松地与用户进行协作。
     
-    有关部署边缘服务器的详细信息，请参阅规划边缘服务器和部署边缘服务器。 有关为 Web Apps Server 启用外部访问Office，请参阅 Configure [integration with Office Web Apps Server in Skype for Business Server。](../../deploy/deploy-conferencing/office-web-app-server.md)
+    有关部署边缘服务器的详细信息，请参阅规划边缘服务器和部署边缘服务器。 有关为 Web Apps Server 启用外部访问Office，请参阅在 Skype for Business Server 中配置与[Office Web Apps Server 的Skype for Business Server。](../../deploy/deploy-conferencing/office-web-app-server.md)
     
 - **是否要控制可以加入会议Skype for Business Server客户端？**
     
-    如果是，则应配置与会页面，以便只有要支持的客户端选项可用。 用户每次单击链接以加入安排的会议时，Skype for Business Server检测计算机上是否已安装客户端。 然后，启动默认客户端，并打开包含备用客户端的链接的与会页面。 与会页面始终包含使用会议Skype for Business Web应用。 除了此选项之外，还可以决定是否包含 Attendee 和早期版本的 Communicator。 
+    如果是，则应配置与会页面，以便只有要支持的客户端选项可用。 用户每次单击链接加入计划会议时，Skype for Business Server检测计算机上是否已安装客户端。 然后，启动默认客户端，并打开包含备用客户端的链接的与会页面。 与会页面始终包含使用会议Skype for Business Web应用。 除了此选项之外，还可以决定是否包含 Attendee 和早期版本的 Communicator。 
     
 

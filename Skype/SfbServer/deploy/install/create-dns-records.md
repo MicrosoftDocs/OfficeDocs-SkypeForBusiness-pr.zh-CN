@@ -2,7 +2,7 @@
 title: 为用户创建 DNS Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/15/2018
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 798a663c-0b63-4f75-b0a3-9c553cef8c5f
 description: 摘要：了解如何配置 DNS 和创建 DNS 记录以安装 Skype for Business Server。 从 Microsoft 评估Skype for Business Server下载免费试用版 https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server ：。
-ms.openlocfilehash: 5e84c4c0991f042c0d734f8e62aceceb632b3b11
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 177568623148b64b3dccd885e2e7ff3740149c62
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771470"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850365"
 ---
 # <a name="create-dns-records-for-skype-for-business-server"></a>为用户创建 DNS Skype for Business Server
  
@@ -123,7 +123,7 @@ DNS 记录是 dns 记录Skype for Business Server才能正常运行，并且可�
     
 5. 如果要支持旧版客户端并创建 SRV 记录，请在 **nslookup** 提示符下键入 **set type=srv** 来验证它，然后按 Enter。
     
-6. 键入 **_sipinternaltls._tcp。 *域*** (，例如，_sipinternaltls._tcp.contoso.local) ，然后按 Enter。
+6. 键入 **_sipinternaltls._tcp。 *域*** (，_sipinternaltls._tcp.contoso.local) ，然后按 Enter。
     
 7. 预期输出应类似于图中所示。 请注意，并非所有 DNS 记录都显示在示例输出中，但应验证所有记录。 
     

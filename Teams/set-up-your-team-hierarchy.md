@@ -1,6 +1,6 @@
 ---
 title: 设置团队目标层次结构
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: conceptual
@@ -15,27 +15,27 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f3cad8a28c2ced4953a21071a0e1af5fe3e5b313
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f65ffa8fa6dc661451669ded8f407bb519468112
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761720"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850545"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>设置团队目标层次结构
 
-设置团队目标层次结构将允许组织将内容发布到一大组团队。 团队目标层次结构定义层次结构中所有团队如何彼此关联、哪些用户可以发布任务，以及哪些团队用户有权发布到哪个团队。 除非为组织设置了团队目标层次结构，否则所有用户都禁用发布功能。 若要设置团队目标层次结构，需要创建一个定义层次结构的文件，并将其上传到Teams以将其应用到组织。 上传架构后，Teams可以使用它。
+设置团队目标层次结构将允许组织将内容发布到一大组团队。 团队目标层次结构定义层次结构中所有团队如何彼此关联、哪些用户可以发布任务，以及哪些团队用户有权发布到哪个团队。 除非为组织设置了团队目标层次结构，否则所有用户都禁用发布功能。 若要设置团队目标层次结构，需要创建一个定义层次结构的文件，并将其上传到Teams以将其应用到组织。 上传架构后，Teams应用可以使用它。
 
 > [!IMPORTANT]
 > 对于初始版本，只有"任务"应用支持分层团队。  将团队目标层次结构应用于组织将在 ["任务"应用中](https://support.microsoft.com/office/publish-task-lists-to-create-and-track-work-in-your-organization-095409b3-f5af-40aa-9f9e-339b54e705df) 启用任务发布。 你不会在团队的"其他"区域看到团队Microsoft Teams。
 
-下面是层次结构在"任务"应用中在"任务"应用中的表示Teams。 创建任务列表后，发布团队成员可以选择收件人团队 (将) 任务列表发布到其中。 选择团队时，发布团队可以按层次结构、属性或两者的组合进行筛选。<br>
+下面是层次结构在任务应用中在任务应用中的表示Teams。 创建任务列表后，发布团队成员可以选择收件人团队 (将) 任务列表发布到其中。 选择团队时，发布团队可以按层次结构、属性或两者的组合进行筛选。<br>
 
 ![任务发布屏幕截图。](media/manage-tasks-app-publish.png)
 
 ## <a name="terminology"></a>术语
 
-导航层次结构时，以下术语非常重要。 Teams将称为 **节点**。
+导航层次结构时，以下术语非常重要。 Teams将 **称为节点**。
 
 * **根** 节点是层次结构中最顶层的节点。 在示例中，零售通信是根节点。
 * **父节点****和子** 节点是表示两个已连接节点之间的关系的术语。 在示例中，区域 01 是区域 1 的子节点。
@@ -74,9 +74,9 @@ ms.locfileid: "60761720"
 ## <a name="create-your-hierarchy"></a>创建层次结构
 
 > [!NOTE]
-> 本文的其余部分讨论如何在将任务发布到收件人团队的上下文中设置团队层次结构。 有关[任务应用的](./manage-tasks-app.md)概述，请参阅在 Teams 中管理组织的任务应用，其中任务发布在启用时显示。
+> 本文的其余部分讨论如何在将任务发布到收件人团队的上下文中设置团队层次结构。 有关[任务应用的](./manage-tasks-app.md)概述，请参阅在Teams中管理组织的任务应用，其中任务发布在启用时显示。
 
-定义层次结构的架构基于 CSV 文件中逗号分隔 () 值。 该文件必须采用 UTF-8 格式。 CSV 文件的每一行对应于团队层次结构中的一个节点。 每一行都包含在层次结构中为节点命名的信息，可以选择性地将节点链接到团队，并包含可用于在支持团队的应用中筛选团队的属性。
+定义层次结构的架构基于 CSV 文件中以逗号 () 值。 该文件必须采用 UTF-8 格式。 CSV 文件的每一行对应于团队层次结构中的一个节点。 每一行都包含在层次结构中为节点命名的信息，可以选择性地将节点链接到团队，并包含可用于在支持团队的应用中筛选团队的属性。
 
 还可以定义 **存储桶**，这些类别是发布团队可用于组织发送给收件人团队的内容，以便他们更轻松地查看、排序和关注相关内容。
 
@@ -84,7 +84,7 @@ ms.locfileid: "60761720"
 
 CSV 文件必须包含以下三列，顺序如下，从第一列开始。 节点必须链接到团队，团队接收任务。
 
-| 列名称   | 是否必需 | 描述   |
+| 列名称   | 必需 | 描述   |
 ----------------|----------|---------------|
 | DisplayName    | 是      | 此字段是节点的名称。 名称最多包含 100 个字符，并且仅包含字符 A-Z、a-z 和 0-9。 节点名称必须唯一。 |
 | ParentName    | 是       | 这是父节点的名称。 此处指定的值必须与父节点 **的 DisplayName** 字段中的值完全匹配。 如果要添加多个父节点，请用分号分隔每个父节点名称; (;) 。 可以添加多达 25 个父节点，每个父节点名称最多包含 2500 个字符。 只有当父节点是根节点时，节点才能具有多个父节点。   <br><br>**重要** 请注意不要创建循环，其中层次结构中较高级别的父级引用层次结构中较低级别的子节点。 不支持此操作。 |
@@ -100,7 +100,7 @@ CSV 文件必须包含以下三列，顺序如下，从第一列开始。 节点
 |添加属性的方法|说明 |示例  |
 |---|---------|---------|
 |如果属性的值互斥，则指定的列名称将成为属性的名称。|每行可以包含一个属性值，每个属性列最多包含 50 个唯一值。 每个值最多包含 100 个字符。 使用团队目标层次结构选择收件人团队时，在属性列中指定的属性值集将显示为该属性的筛选器值。|您希望用户能够按布局筛选存储。 此属性的值互斥，因为存储只能有一个布局。 <br><br>若要添加属性以按布局筛选存储，请添加名为"应用商店布局"的列。 此示例中，应用商店布局属性的值为"压缩型、标准型"和"大"。
-|如果需要为一个属性指示多个值，并且这些值不是互斥的，请对列名称使用 **AttributeName：UniqueValue** 格式。 <br><br>**重要** 请确保使用仅英语冒号 (：) ，因为不支持将 unicode 用作属性列分隔符。 |冒号 (：) 之前的文本字符串将成为 属性的名称。 冒号之前包含相同文本字符串的所有列 (：) 分组到筛选菜单中的一个分区中。 冒号后的每个字符串将成为该节的值。<br><br>对于该属性，每一行的值 (0) 或 1。 值为 0 表示属性不适用于节点，值为 1 表示该属性应用于该节点。|您希望用户能够按部门筛选存储。 一个存储可以有多个部门，因此此属性的值不是互斥的。<br><br>本示例将"部门：服装、部门：电子、部门：食物、部门：住宅和公园、部门：体育用品"添加为属性列。 部门将成为属性名称，用户可以按服装、电子、食品、住宅和住宅以及运动用品部门进行筛选。|
+|如果需要为一个属性指示多个值，并且这些值不是互斥的，请对列名称使用 **AttributeName：UniqueValue** 格式。 <br><br>**重要** 请确保使用仅英语冒号 (：) ，因为不支持将 unicode 用作属性列分隔符。 |冒号 (：) 之前的文本字符串将成为 属性的名称。 冒号之前包含相同文本字符串的所有列 (：) 分组到筛选菜单中的一个分区中。 冒号后的每个字符串将成为该节的值。<br><br>对于该属性，每行的值 (0) 或 1。 值为 0 表示属性不适用于节点，值为 1 表示该属性应用于该节点。|您希望用户能够按部门筛选存储。 一个存储可以有多个部门，因此此属性的值不是互斥的。<br><br>本示例将"部门：服装、部门：电子、部门：食物、部门：住宅和公园、部门：体育用品"添加为属性列。 部门将成为属性名称，用户可以按服装、电子、食品、住宅和住宅以及运动用品部门进行筛选。|
 
 添加属性列时，请记住以下事项：
 
@@ -110,20 +110,20 @@ CSV 文件必须包含以下三列，顺序如下，从第一列开始。 节点
 
 ### <a name="add-bucket-columns"></a>添加存储桶列
 
-可以添加存储桶列以创建存储桶，这些存储桶是任务可以组织到的分组。 每个存储桶在 CSV 文件中获取其自己的列。 创建的存储桶可供发布团队使用。 然后，发布团队可以使用这些存储桶对收件人团队的任务进行分类。 如果团队中不存在存储桶，则发布任务时按需创建存储桶。
+可以添加存储桶列以创建存储桶，这些存储桶是可组织任务的分组。 每个存储桶在 CSV 文件中获取其自己的列。 创建的存储桶可供发布团队使用。 然后，发布团队可以使用这些存储桶对收件人团队的任务进行分类。 如果团队中不存在存储桶，则发布任务时按需创建存储桶。
 
 通过集中对工作项进行分类一次，发布团队可以预先组织收到任务列表的所有数十、数百或数千个收件人团队的任务列表。 然后，收件人团队可以按存储桶对任务进行排序和筛选，以重点关注与他们的工作最相关的区域。
 
 添加存储桶列时，请注意以下事项：
 
 * 列名称将成为存储桶的名称。 指定的每个存储桶将显示在使用该层次结构的Teams存储桶列表中。
-* 建议不要在存储桶名称中包括敏感信息。 目前，发布团队无法通过创建后发布来删除存储桶。
+* 建议不要在存储桶名称中包括敏感信息。 目前，发布团队无法通过创建存储桶后通过发布删除存储桶。
 * 列名称前面必须带有井号标签 (#) 。 它最多可以包含 100 个字符，并且仅包含字符 A-Z、a-z 和 0-9。 例如，#Operations#Frozen商品。
 * 一个层次结构可以包含最多 25 个存储桶列。 我们计划与客户合作，提高较大组织的此限制。
 
 ### <a name="example"></a>示例
 
-下面是一个架构 CSV 文件的示例，该文件将创建该文件以支持上图所示的层次结构。 此架构包含以下内容：
+下面是架构 CSV 文件的示例，该文件将创建以支持上图所示的层次结构。 此架构包含以下内容：
 
 * 名为 、 `TargetName` `ParentName` 和 的三个必需列 `TeamId`
 * 名为 、 `Store layout` `Departments:Clothing` 和 的三个属性列 `Departments:Foods`
@@ -154,7 +154,7 @@ Los Angeles Store,West Regional Zone,204a1287-2efb-4a8a-88e0-56fbaf5a2389,Large,
 > 若要执行此步骤，必须安装并使用 PowerShell Teams PowerShell 公共预览版模块。 有关安装模块的步骤，请参阅安装 Teams PowerShell。
 
 > [!NOTE]
-> 政府社区云 (GCC) 客户必须使用[cmdlet 预览版 2.4.0-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.4.0-preview)或更高版本来确保数据路由到 GCC 环境，而不是公有云环境。
+> 政府社区云 (GCC) 客户必须使用 cmdlet 预览版[2.4.0-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.4.0-preview)或更高版本来确保数据路由到 GCC 环境，而不是公有云环境。
 
 在架构 CSV 文件中定义层次结构后，即可将其上传到Teams。 为此，请运行以下命令。 只有全局管理员或Teams才能执行此步骤。
 
@@ -195,18 +195,18 @@ FileName | CSV 的文件名。
 Remove-TeamTargetingHierarchy
 ```
 
-确认删除时，状态消息仍显示以前的架构存在，但尝试再次删除会返回对象为 null 的错误。
+确认删除时，状态消息仍显示以前的架构存在，尽管尝试再次删除会返回对象为 null 的错误。
 
 ## <a name="create-a-sample-hierarchy"></a>创建示例层次结构
 
 ### <a name="install-the-teams-powershell-module"></a>安装 Teams PowerShell 模块
 
 > [!IMPORTANT]
-> 若要执行此步骤，必须安装并使用 PowerShell Teams PowerShell 公共预览[版模块](https://www.powershellgallery.com/packages/MicrosoftTeams/)。 有关安装模块的步骤，请参阅安装 Teams [PowerShell。](teams-powershell-install.md)
+> 若要执行此步骤，必须安装并使用 PowerShell 库中Teams PowerShell 公共预览[版模块](https://www.powershellgallery.com/packages/MicrosoftTeams/)。 有关安装模块的步骤，请参阅安装 Teams [PowerShell。](teams-powershell-install.md)
 
 ### <a name="sample-script"></a>示例脚本
 
-以下脚本可用于创建团队，将.csv文件上传到Microsoft Teams租户。 如果有现有的层次结构，此脚本将替换它。
+以下脚本可用于创建团队，将 .csv 文件上传到Microsoft Teams租户。 如果有现有的层次结构，此脚本将替换它。
 
 #### <a name="create-teams-for-a-simple-hierarchy"></a>为简单层次结构创建团队
 
@@ -270,7 +270,7 @@ Error: InvalidTeamId
 Description: TeamID in row # doesn't match a valid Group ID. Please view our documentation to learn how to get the proper GroupID for each team.
 ```
 
-检查以确保在架构 CSV 文件中为团队使用正确的 TeamId。 TeamId 应与支持团队Microsoft 365组的组 ID 相同。 可以在管理中心内查找团队的Microsoft Teams ID。
+检查以确保在架构 CSV 文件中为团队使用正确的 TeamId。 TeamId 应与支持团队的组Microsoft 365组 ID 相同。 可以在管理中心内查找团队的Microsoft Teams ID。
 
 1. 在管理中心左侧导航 [Microsoft Teams，转到](https://admin.teams.microsoft.com/)**"Teams**  >  **管理团队"。**
 2. 如果表中未显示"组 **ID"** 列，请选择表右上角的"编辑列"，然后打开"组 **ID"。**
@@ -280,5 +280,5 @@ Description: TeamID in row # doesn't match a valid Group ID. Please view our doc
 
 ## <a name="related-topics"></a>相关主题
 
-* [在应用程序中管理组织的"任务"Teams](manage-tasks-app.md)
+* [在应用程序中管理组织的任务Teams](manage-tasks-app.md)
 * [Teams PowerShell 概览](teams-powershell-overview.md)

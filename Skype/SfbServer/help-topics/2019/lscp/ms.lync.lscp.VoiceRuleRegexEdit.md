@@ -2,7 +2,7 @@
 title: 转换规则 键入正则表达式
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 5ee83724-b399-4f8d-8f6d-4b53a26296b4
 ROBOTS: NOINDEX, NOFOLLOW
 description: '在“匹配此模式”字段中，指定将用于匹配要转换的号码的模式。 在“转换规则”字段中，指定转换号码格式的模式。 '
-ms.openlocfilehash: 2f6a0eb82e745c63ee6e0b3cfd7303b9359846b4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9aff74da1529d1e146f830780f152ec71d370be9
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60738426"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843285"
 ---
 # <a name="translation-rule-type-a-regular-expression"></a>转换规则：键入正则表达式
  

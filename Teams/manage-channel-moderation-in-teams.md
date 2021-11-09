@@ -1,6 +1,6 @@
 ---
 title: 设置和管理频道审核
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: jotaing
@@ -18,16 +18,16 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何在频道中设置审核Microsoft Teams，包括如何将团队成员添加为频道审阅人。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a012eb26ac9017e0d6a1110505aa1d1025c6a779
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: dbfdec9af83bda6c0b14a6371e0694d68e25d1d1
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753985"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60829556"
 ---
 # <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>在视频中设置和管理Microsoft Teams
 
-在Microsoft Teams中，团队所有者可以针对标准频道启用审核，以控制谁可以启动新帖子和回复该频道中的帖子。
+在Microsoft Teams中，团队所有者可以启用标准频道的审核，以控制谁可以启动新帖子和回复该频道中的帖子。
 
 团队所有者还可以将团队成员添加为审阅人。 团队所有者可能没有频道级别的主题专业知识，无法最好地支持频道审核。 通过允许特定团队成员审查频道，团队所有者和频道审查者可以分担管理频道中内容和上下文的责任。 例如，团队所有者可以将业务所有者或内容所有者添加为审阅人，这样他们就可以控制该频道中的信息共享。
 
@@ -44,7 +44,7 @@ ms.locfileid: "60753985"
 
 ## <a name="scenarios"></a>方案
 
-下面是一些示例，说明您的组织如何在 Teams。
+下面是一些示例，说明您的组织如何在 Teams 中使用频道审核。
 
 ### <a name="use-a-channel-as-an-announcement-channel"></a>使用频道作为公告频道
 
@@ -54,7 +54,7 @@ ms.locfileid: "60753985"
 
 ### <a name="use-a-channel-for-class-discussions-in-teams-for-education"></a>使用频道进行课堂讨论Teams 教育版
 
-在Teams 教育版中，科学教师希望使用频道来让学生参与有关特定课堂主题的重点讨论。
+在Teams 教育版，科学教师希望使用频道来让学生参与有关特定课堂主题的重点讨论。
 
 在此方案中，教师允许其教学助手主持频道。 然后，教学助理可以创建新文章来发起和推动与学生的讨论。
 
@@ -76,7 +76,7 @@ ms.locfileid: "60753985"
 
 ### <a name="add-or-remove-channel-moderators"></a>添加或删除频道审查器
 
-在 **Who审阅人？"下**，单击 **"管理**"，然后添加或删除团队成员作为审阅人。 团队所有者和审阅人可以添加和删除其他审阅人。  
+在 **Who审阅人**？"下，单击 **"管理**"，然后添加或删除团队成员作为审阅人。 团队所有者和审阅人可以添加和删除其他审阅人。  
 
 ### <a name="set-team-member-permissions"></a>设置团队成员权限
 

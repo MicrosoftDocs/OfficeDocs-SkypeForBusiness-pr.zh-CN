@@ -2,7 +2,7 @@
 title: 证书分配（根据请求）
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 5cd7cab0-1826-4d7f-aca6-d30054d2a9ae
 description: "\"证书分配\"页启动将证书分配给角色服务器上请求的用法的过程。 单击“查看证书详细信息”查看证书。 可以选择\"常规\"选项卡、\"详细信息\"选项卡或\"证书路径\"选项卡。\"常规\"选项卡将显示有关证书的基本信息，例如证书颁发机构以及私钥的状态。 “详细信息”选项卡将显示证书的使用者名称、使用者替代名称以及其他详细信息。 \"证书路径\"选项卡将显示通过任何证书颁发机构或中间证书颁发机构 (信任证书的证书链) 根证书颁发机构。"
-ms.openlocfilehash: 54bacf3a340f819dc7333cc6e9603e8b7776d2b9
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 196566f538160db165996f76f10e7c91e480d1ac
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60748414"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835670"
 ---
 # <a name="certificate-assignment-from-request"></a>证书分配（根据请求）
  

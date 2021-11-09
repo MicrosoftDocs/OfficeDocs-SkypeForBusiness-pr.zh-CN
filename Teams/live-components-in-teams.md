@@ -1,6 +1,6 @@
 ---
 title: 在 Teams 中管理实时Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 audience: Admin
@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b8bda034030f2ccb6e12e23908f16ca212f4add0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6be8db0fdde7509f5721277b4ee631f7a814171d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60750331"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60830216"
 ---
 # <a name="manage-live-components-in-teams"></a>在 Teams 中管理实时Teams
 
@@ -31,7 +31,7 @@ ms.locfileid: "60750331"
 
 **一起更快地完成任务。** 对议程进行众源处理、跟踪组的操作项目或共同做笔记。 这些只是使用实时组件简化的一些方案。
 
-**共享组件。** 在此版本中，你可以将实时组件共享到不同的聊天Teams中。 收件人可以从他们身在何处进行编辑，并即时查看更新，无论更改发生在何处。 在将来的版本中，实时组件将在会议笔记和Teams中受支持，Outlook最终在所有 Microsoft 365 应用程序中。
+**共享组件。** 在此版本中，你可以将实时组件共享到不同的聊天Teams中。 收件人可以从他们身在何处进行编辑，并且无论更改发生在何处，都可以立即查看更新。 在将来的版本中，实时组件Teams会议笔记和频道、Outlook，并最终在所有Microsoft 365支持。
 
 **从聊天开始，从该聊天开始生成。** 从聊天Teams创建的每一个组件都会自动保存到聊天OneDrive。 因此，你可能会开始在聊天中协作，然后移动到文件，在这里，你具有更大的可视空间进行编辑，并可以添加任何喜欢的组件。
 
@@ -45,7 +45,7 @@ ms.locfileid: "60750331"
 
 实时组件是使用Microsoft Fluid Framework套件Microsoft 365组件构建的，并且从 SharePoint Online 而不是从 Teams 管理中心进行控制。
 
-需要最新版本的 SharePoint Online [PowerShell](/office365/enterprise/powershell/manage-sharepoint-online-with-office-365-powershell)模块才能在租户中启用或禁用Office 365体验。 Microsoft Fluid Framework **目标发布租户**，默认为"打开"。 由于实时组件专为协作设计，因此，即使租户设置为默认仅查看其他文件类型，组件也始终以可编辑方式共享。 有关详细信息 **，请参阅** 设置旁边的"了解详细信息"链接。
+需要最新版本的 SharePoint Online [PowerShell](/office365/enterprise/powershell/manage-sharepoint-online-with-office-365-powershell)模块才能启用或禁用整个租户Office 365体验。 Microsoft Fluid Framework目标 **发布租户，** 默认为"打开"。 由于实时组件专为协作设计，因此，即使租户设置为默认仅查看其他文件类型，组件也始终以可编辑方式共享。 有关详细信息 **，请参阅** 设置旁边的"了解详细信息"链接。
 
 ## <a name="checking-if-the-fluid-framework-is-enabled-through-the-sharepoint-online-powershell-cmdlet"></a>通过 Fluid Framework PowerShell Cmdlet 检查SharePoint是否已启用
 
@@ -63,9 +63,9 @@ ms.locfileid: "60750331"
    
    在租户中应用更改需要一小段时间。 
 
-此功能将在桌面、Teams Windows、iOS、Android 上提供。 启用后，用户将看到一个新选项，用于在这些客户端的消息撰写体验中插入实时组件。
+此功能将在台式机、Teams Windows、iOS、Android 上提供。 启用后，用户将看到一个新选项，用于在这些客户端的消息撰写体验中插入实时组件。
 
-## <a name="disabling-fluid-framework-through-sharepoint-online-powershell-cmdlet"></a>通过 Fluid Framework Online SharePoint Cmdlet 禁用此配置
+## <a name="disabling-fluid-framework-through-sharepoint-online-powershell-cmdlet"></a>通过 Fluid Framework Online SharePoint Cmdlet 禁用配置
 
 1. [连接 SharePoint Online PowerShell。](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)
 
@@ -89,9 +89,9 @@ PS C:\\WINDOWS\\system32&gt;
 
 - 重新启动应用后，将表或任务列表创建Teams可能需要一些时间。
 
-- 当提及 @@) 符号时，其他 (聊天成员将收到电子邮件通知。  (活动源中的Teams通知即将推出。) 
+- 当在 (@) 符号提及 时，其他聊天成员将收到电子邮件通知。  (活动源中的Teams提及通知即将推出。) 
 
-- 在搜索中搜索Teams将返回指向聊天 office.com 的链接，而不是聊天消息本身。
+- 在搜索中搜索实时Teams将返回指向聊天消息中 office.com 的链接，而不是聊天消息本身。
 
 - 实时组件在联合聊天中禁用，并且使用 Azure B2B 通过来宾帐户启用常规聊天。
 
@@ -101,17 +101,17 @@ PS C:\\WINDOWS\\system32&gt;
 
 **`.fluid`如何存储？**
 
-在 Teams 中创建实时组件受创建者的 `.fluid` OneDrive for Business。 作为一个OneDrive for Business意味着用户可以像创建任何文档一样 (创建、) 和管理实时Office `.fluid` 组件。
+在 Teams 中创建实时组件由创建者的 OneDrive for Business `.fluid` 中存储的文件支持。 作为一个OneDrive for Business意味着用户可以创建、发现和管理实时组件 (文件) 任何文档Office `.fluid` 组件。
 
 用户可以从 `.fluid` Office.com 和 OneDrive for Business 中搜索文件OneDrive for Business。
 `.fluid` 文件使用电子数据展示、审核、报告和法定保留等数据管理功能。
 
 `.fluid`文件现在将显示在 Office.com 和 OneDrive for Business 上，例如"最近"和"建议"区域。
-`.fluid`可以将文件从 OneDrive for Business 还原到以前的OneDrive for Business。
+`.fluid`可以将文件从 OneDrive for Business 还原到OneDrive for Business。
 
 聊天参与者必须具有一个OneDrive帐户，以创建实时组件。 如果没有有效的OneDrive帐户，聊天参与者仍可以协作处理由具有有效帐户的其他用户创建OneDrive，但不能创建自己的组件。
 
-[将](https://support.microsoft.com/en-us/office/move-files-and-folders-between-onedrive-and-sharepoint-5916f90d-f58a-4bf9-b135-10853f516d0b)文件从 OneDrive 移动到 SharePoint 网站将导致实时组件无法 `.fluid` 加载到聊天Teams中。
+[将](https://support.microsoft.com/en-us/office/move-files-and-folders-between-onedrive-and-sharepoint-5916f90d-f58a-4bf9-b135-10853f516d0b) `.fluid` 文件从OneDrive移动到SharePoint网站将导致实时组件无法加载到聊天Teams中。
 
 **如果文件的所有者离开了公司，会发生什么情况？**
 
@@ -121,7 +121,7 @@ PS C:\\WINDOWS\\system32&gt;
 
 可以在聊天中插入实时Teams，或者从一个聊天复制到另一个聊天。  (频道尚不支持实时组件。) 它们默认为租户的现有权限，但用户可以在发送之前更改权限，以确保每个人都具有访问权限。
 
-在 Office.com 中从 Teams 聊天打开组件在窗口顶部提供共享功能，类似于为其他 Office 文档提供的共享选项。
+在 Office.com 中打开来自 Teams 聊天的组件在窗口顶部提供共享功能，类似于为其他 Office 文档提供的共享选项。
 
 **如果文件 `.fluid` 损坏或损坏，该做什么？**
 
@@ -129,4 +129,4 @@ PS C:\\WINDOWS\\system32&gt;
 
 **哪些应用可以打开和编辑 `.fluid` 文件？**
 
-`.fluid`文件只能在浏览器（如 Office.com）中作为链接打开，在聊天中Teams组件。 如果已下载，则如果不先将其上载回 OneDrive for Business 或 SharePoint Online，它们无法再次打开。
+`.fluid`文件只能在浏览器（如 Office.com）中作为链接打开，在聊天中Teams组件。 如果已下载，则如果未先将其上载回联机或联机OneDrive for Business无法SharePoint打开。

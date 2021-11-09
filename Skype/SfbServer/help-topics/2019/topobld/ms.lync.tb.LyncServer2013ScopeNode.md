@@ -2,7 +2,7 @@
 title: Lync Server 2013 范围节点
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 65ff172c-8a27-45ce-8ce1-c1a37798b3a3
 ROBOTS: NOINDEX, NOFOLLOW
 description: 在拓扑生成器中定义新的 VIS 或视频网关所需的步骤联机描述在拓扑生成器Skype for Business Server。
-ms.openlocfilehash: b5db3787507c903deb5fe725b2b3c4b760864620
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0b2aebd90a31ce84f8d394b355e46eee1684eb2a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741078"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843165"
 ---
 # <a name="skype-for-business-server-scope-node"></a>Skype for Business Server范围节点
  

@@ -1,8 +1,8 @@
 ---
-title: 在演示文稿中为名为 ID 演示文稿的转换规则Skype for Business Server
+title: 创建或修改名为 ID 演示文稿的转换规则Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,14 +16,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ba112df8-3bb4-48e4-a353-4bf9110ccd71
 description: 摘要：了解如何使用"转换规则"工具定义转换Skype for Business Server。
-ms.openlocfilehash: 780fc46c93d1f183263192edb33999d758b95c8c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 82e737ddcd7ed7c17de3cdd968d31996e50074be
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60738938"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864429"
 ---
-# <a name="create-or-modify-a-translation-rule-for-called-id-presentation-in-skype-for-business-server"></a>在演示文稿中为名为 ID 演示文稿的转换规则Skype for Business Server
+# <a name="create-or-modify-a-translation-rule-for-called-id-presentation-in-skype-for-business-server"></a>创建或修改名为 ID 演示文稿的转换规则Skype for Business Server
 
 **摘要：** 了解如何使用转换规则工具定义转换规则Skype for Business Server。
 
@@ -70,7 +70,7 @@ ms.locfileid: "60738938"
 8. 在“Trunk 配置”页上，单击“提交”，然后单击“全部提交”。
 
    > [!NOTE]
-   > 每当创建或修改转换规则时，都必须运行“全部提交”命令以发布配置更改。 有关详细信息，请参阅操作[文档中的](voice-route-config-changes.md)Publish pending changes to the voice routing configuration in Skype for Business in the Operations documentation。
+   > 每当创建或修改转换规则时，都必须运行“全部提交”命令以发布配置更改。 有关详细信息，请参阅操作[文档中](voice-route-config-changes.md)的 Publish pending changes to the voice routing configuration in Skype for Business in the Operations documentation。
 
 ### <a name="to-define-a-translation-rule-manually"></a>手动定义转换规则
 
@@ -99,7 +99,7 @@ ms.locfileid: "60738938"
 9. 在“Trunk 配置”页上，单击“提交”，然后单击“全部提交”。
 
     > [!NOTE]
-    > 每当创建或修改转换规则时，都必须运行“全部提交”命令以发布配置更改。 有关详细信息，请参阅操作[文档中的](voice-route-config-changes.md)Publish pending changes to the voice routing configuration in Skype for Business in the Operations documentation。
+    > 每当创建或修改转换规则时，都必须运行“全部提交”命令以发布配置更改。 有关详细信息，请参阅操作[文档中](voice-route-config-changes.md)的 Publish pending changes to the voice routing configuration in Skype for Business in the Operations documentation。
 
 ## <a name="see-also"></a>另请参阅
 

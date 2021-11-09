@@ -2,7 +2,7 @@
 title: 在Skype for Business Server中的服务器上安装数据库
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/15/2018
 audience: ITPro
@@ -17,24 +17,24 @@ ms.collection:
 ms.custom: ''
 ms.assetid: defd6b2c-f267-4f8c-bc94-8894e2a429b6
 description: 摘要：了解如何在拓扑Skype for Business Server每台服务器上安装系统组件。 从 Microsoft 评估Skype for Business Server下载免费试用版 https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server ：。
-ms.openlocfilehash: bcf2645e6f33865da0f1ad6bbc985e581950693b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: eb589b606f095deade6bd4f8921d48e1f3799cf5
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745298"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864309"
 ---
 # <a name="install-skype-for-business-server-on-servers-in-the-topology"></a>在Skype for Business Server中的服务器上安装数据库
  
 **摘要：** 了解如何在拓扑Skype for Business Server每台服务器上安装系统组件。 从 Microsoft 评估中心Skype for Business Server[免费试用版](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)。
   
-将拓扑加载到中央管理存储中后，Active Directory 知道哪些服务器将执行哪些角色，您需要在拓扑中的每台服务器上安装 Skype for Business Server 系统。 可以按任意顺序执行步骤 1 到步骤 5。 但是，您必须按图表所述顺序执行步骤 6、7 和 8，在步骤 1 到步骤 5 之后执行。 安装 Skype for Business Server是步骤 7/8。
+将拓扑加载到中央管理存储中后，Active Directory 知道哪些服务器将执行哪些角色，您需要在拓扑中的每台服务器上安装 Skype for Business Server 系统。 可以按任意顺序执行步骤 1 到步骤 5。 但是，您必须按图表所述顺序执行步骤 6、7 和 8，在步骤 1 到步骤 5 之后执行。 安装 Skype for Business Server 是步骤 7/8。
   
 ![概述图表。](../../media/6855713d-a5b4-4e5b-8f83-fef3d7a5ec5d.png)
   
 ## <a name="install-skype-for-business-server-system"></a>安装Skype for Business Server系统
 
-发布拓扑后，可以在拓扑中的每台Skype for Business Server安装这些组件。 本节将指导您Skype for Business Server前端池的服务器角色和与前端服务器并排的任何服务器角色。 若要安装和设置服务器角色，请Skype for Business Server安装服务器角色的每台计算机运行部署向导。 使用部署向导完成所有四个部署步骤，包括安装本地配置存储、安装前端服务器、配置证书和启动服务。
+发布拓扑后，可以在拓扑中的每台Skype for Business Server安装这些组件。 本节指导您完成前端池Skype for Business Server前端池的服务器角色和与前端服务器并排的任何服务器角色的设置。 若要安装和设置服务器角色，请Skype for Business Server安装服务器角色的每台计算机运行部署向导。 使用部署向导完成所有四个部署步骤，包括安装本地配置存储、安装前端服务器、配置证书和启动服务。
   
 > [!IMPORTANT]
 > 必须先使用拓扑生成器完成并发布拓扑，然后才能Skype for Business Server拓扑。 
@@ -49,10 +49,10 @@ ms.locfileid: "60745298"
 > 执行这些步骤之前，请确保使用同时是本地管理员和 RTCUniversalServerAdmins 组的一个成员的域用户帐户登录到服务器。 
   
 > [!NOTE]
-> 如果之前未在此Skype for Business Server运行安装程序，系统将提示您输入安装驱动器和路径。 如果组织需要系统驱动器，或者有空间问题，这可以提供安装到系统驱动器外的其他驱动器的功能。 You can change the installation location path for the Skype for Business Server files in the **Setup** dialog box to a new， available drive. 如果将安装程序文件安装到此路径（包括 OCSCore.msi）中，Skype for Business Server文件也将部署到该路径。
+> 如果之前未在此Skype for Business Server运行安装程序，系统将提示您输入安装驱动器和路径。 如果组织需要系统驱动器，或者有空间问题，这可以提供安装到系统驱动器外的其他驱动器的功能。 You can change the installation location path for the Skype for Business Server files in the **Setup** dialog box to a new， available drive. 如果将安装程序文件（包括 OCSCore.msi）安装到此路径，Skype for Business Server文件也将部署到该路径。
   
 > [!IMPORTANT]
-> 在开始安装之前，请确保 Windows Server 是最新的，使用 Windows Update。 
+> 在开始安装之前，使用 Windows Update 确保 Windows 服务器是最新的。 
   
 ![Windows服务器最新。](../../media/a8d57a97-a55e-443b-b304-c534ae9a71b2.png)
   
@@ -80,7 +80,7 @@ ms.locfileid: "60745298"
 1. 查看先决条件，然后单击"步骤 1：**安装本地** 配置存储"旁边的 **"运行"。**
     
     > [!NOTE]
-    > 本地配置存储是中央管理存储的只读副本。 在Standard Edition部署中，中央管理存储是使用前端服务器上 SQL Server Express Edition 的本地副本创建的。 当您运行"准备第一个服务器"Standard Edition会发生此情况。 在Enterprise Edition中，在发布包含前端池的拓扑时，将Enterprise Edition中央管理存储。 
+    > 本地配置存储是中央管理存储的只读副本。 在Standard Edition部署中，中央管理存储是使用前端服务器上 SQL Server Express Edition 的本地副本创建的。 当您运行"准备第一个服务器"Standard Edition会发生此情况。 在Enterprise Edition部署中，在发布包含前端池的拓扑时，将Enterprise Edition中央管理存储。 
   
 2. 在"**安装本地配置存储**"页上，确保选中"直接从中央管理存储检索"选项，然后单击"下一步 **"。**
     
@@ -117,23 +117,23 @@ ms.locfileid: "60745298"
 1. 查看先决条件，然后单击"步骤 3： 请求、安装或分配证书"旁边的 **"运行"。** 
     
     > [!NOTE]
-    > Skype for Business Server 支持 SHA-2 套件 (SHA-2 使用摘要哈希的摘要长度（224、256、384 或 512 位) ）和签名算法，用于来自运行 Windows 10、Windows 8、Windows 7、Windows Server 2012 R2、Windows Server 2012 或 Windows Server 2008 R2 操作系统的客户端的连接。 为了支持使用 SHA-2 套件进行外部访问，外部证书由公共 CA 颁发，该 CA 也可以颁发具有相同位长度摘要的证书。 
+    > Skype for Business Server 支持 SHA-2 套件 (SHA-2 使用摘要哈希的摘要长度（224、256、384 或 512 位) ）以及来自运行 Windows 10、Windows 8、Windows 7、Windows Server 2012 R2、Windows Server 2012 或 Windows Server 2008 R2 操作系统的客户端的连接签名算法。 为了支持使用 SHA-2 套件进行外部访问，外部证书由公共 CA 颁发，该 CA 也可以颁发具有相同位长度摘要的证书。 
   
     > [!IMPORTANT]
-    > 选择哪个哈希摘要和签名算法取决于将使用证书的客户端和服务器，以及客户端和服务器将通信的其他计算机和设备，这些计算机和设备也必须知道如何使用证书中使用的算法。 有关操作系统和一些客户端应用程序中支持的摘要长度的信息，请参阅 Windows [PKI 博客 - SHA2 和 Windows。](/archive/blogs/pki/sha2-and-windows) 
+    > 选择哪种哈希摘要和签名算法取决于将使用证书的客户端和服务器，以及客户端和服务器将通信的其他计算机和设备，这些计算机和设备也必须知道如何使用证书中使用的算法。 有关操作系统和一些客户端应用程序中支持的摘要长度的信息，请参阅 Windows [PKI 博客 - SHA2 和 Windows。](/archive/blogs/pki/sha2-and-windows) 
   
-    每个Standard Edition或前端服务器最多需要四个证书：oAuthTokenIssuer 证书、默认证书、Web 内部证书和 Web 外部证书。 但是，您可以请求和分配具有相应主题备用名称条目的单个默认证书以及 oAuthTokenIssuer 证书。 有关证书要求的详细信息，请参阅[Environmental requirements for Skype for Business Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) or Server requirements for Skype for Business Server [2019](../../../SfBServer2019/plan/system-requirements.md)。
+    每台Standard Edition或前端服务器最多需要四个证书：oAuthTokenIssuer 证书、默认证书、Web 内部证书和 Web 外部证书。 但是，您可以请求和分配具有相应主题备用名称条目的单个默认证书以及 oAuthTokenIssuer 证书。 有关证书要求的详细信息，请参阅[Environmental requirements for Skype for Business Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) or Server requirements for Skype for Business Server [2019](../../../SfBServer2019/plan/system-requirements.md)。
     
     > [!IMPORTANT]
     > 以下过程介绍如何配置基于内部 Active Directory 证书服务的证书颁发机构颁发的证书。 
   
 2. 在 **“证书向导”** 页上，单击 **“请求”**。
     
-3. 在"**证书请求**"页上，填写包括选择 SIP 域和 在内的数据，然后单击"下一步 **"。**
+3. 在"**证书请求"** 页上，填写包括选择 SIP 域和 在内的数据，然后单击"下一步 **"。**
     
 4. 在"**延迟的请求"** 或"即时请求"页上，可以通过单击"下一步"接受默认的"立即将请求发送到联机证书颁发机构 **"选项**。 如果选择此选项，则必须提供具有自动联机注册的内部 CA。 如果选择延迟请求的选项，系统将提示您输入名称和位置以保存证书请求文件。 证书请求必须由组织内部的 CA 或公共 CA 提供和处理。 然后，您需要导入证书响应并将其分配给适当的证书角色。
     
-5. 在"选择证书颁发机构 **(CA) "** 页上，选择"从环境中检测到的列表中选择 CA"选项，然后从列表中选择通过 Active Directory 域服务) CA 注册的已知 (。 或者，选择"**指定其他证书颁发** 机构"选项，在框中输入另一个 CA 的名称，然后单击"下一步 **"。**
+5. 在"选择证书颁发机构 **(CA) "** 页上，选择"从环境中检测到的列表中选择 **CA"** 选项，然后从列表中选择通过 Active Directory 域服务) CA 注册的已知 (。 或者，选择"**指定其他证书颁发** 机构"选项，在框中输入另一个 CA 的名称，然后单击"下一步 **"。**
     
 6. 在" **证书颁发机构帐户** "页上，系统会提示您提供凭据，以请求并处理 CA 的证书请求。 应已确定提前请求证书时是否有必要输入用户名和密码。 CA 管理员将拥有所需信息，并且可能必须协助你执行此步骤。 如果需要提供备用凭据，请选中此复选框，在文本框中提供用户名和密码，然后单击"下一步 **"。**
     
@@ -142,7 +142,7 @@ ms.locfileid: "60745298"
     > [!NOTE]
     > 如果您的组织已创建模板以用作默认 Web 服务器 CA 模板的备选模板，请选中该复选框，然后输入备用模板的名称。 您需要 CA 管理员定义的模板名称。 
   
-8. 在"**名称和安全设置** 页上，指定 **友好名称**。 通过使用友好名称，您可以快速标识证书和用途。 如果保留为空，将自动生成一个名称。 设置 **密钥的位** 长度，或接受默认值 2048 位。 如果 **确定证书** 和私钥需要移动或复制到其他系统，请选择"将证书的私钥标记为可导出"，然后单击"下一步 **"。**
+8. 在"**名称和安全设置** 页上，指定 **友好名称**。 通过使用友好名称，您可以快速标识证书和用途。 如果保留为空，将自动生成一个名称。 设置 **密钥的位** 长度，或接受默认值 2048 位。 如果 **确定需要将证书和** 私钥移动或复制到其他系统，请选择"将证书的私钥标记为可导出"，然后单击"下一步 **"。**
     
     > [!NOTE]
     > Skype for Business Server对可导出私钥的要求最低。 其中一个此类位置是池中的边缘服务器，其中媒体中继身份验证服务使用证书的副本，而不是池中每个实例的单个证书。 
@@ -161,14 +161,14 @@ ms.locfileid: "60745298"
     
 15. 在 **“执行命令”** 页上，单击 **“下一步”**。
     
-16. 在" **联机证书请求状态"** 页上，查看返回的信息。 您应该注意，证书已颁发并安装到本地证书存储中。 如果报告已颁发和安装证书，但无效，请确保已在服务器的受信任的根 CA 存储中安装了 CA 根证书。 请参阅 CA 文档，了解如何检索受信任的根 CA 证书。 如果需要查看检索到的证书，请单击"**查看证书详细信息"。** 默认情况下，选中"将证书分配给Skype for Business Server **证书用法"** 复选框。 如果要手动分配证书，请清除此复选框，然后单击"完成 **"。**
+16. 在" **联机证书请求状态"** 页上，查看返回的信息。 您应该注意，证书已颁发并安装到本地证书存储中。 如果报告已颁发和安装证书，但无效，请确保已在服务器的受信任的根 CA 存储中安装了 CA 根证书。 请参阅 CA 文档，了解如何检索受信任的根 CA 证书。 如果需要查看检索到的证书，请单击"**查看证书详细信息"。** 默认情况下，选中"将证书分配给Skype for Business Server **证书用法**"复选框。 如果要手动分配证书，请清除此复选框，然后单击"完成 **"。**
     
-17. 如果在上一页上清除了"将证书分配给Skype for Business Server证书使用情况"复选框，则将会显示"证书分配 **"** 页。 单击"下一步"。
+17. 如果在上一页上清除 **了"将** 证书分配给Skype for Business Server证书使用情况"复选框，则将会显示"证书分配 **"** 页。 单击"下一步"。
     
-18. 在 **"证书存储"** 页上，选择您请求的证书。 如果要查看证书，请单击"查看 **证书详细信息**"，然后单击"下一步 **"** 继续。
+18. 在 **"证书存储"** 页上，选择您请求的证书。 如果要查看证书，请单击"查看 **证书详细信息**"，然后单击" **下一步** "继续。
     
     > [!NOTE]
-    > 如果 **"联机证书请求** 状态"页报告证书问题，例如证书无效，查看实际证书，以寻求帮助以解决问题。 可能导致证书无效的两个具体问题是，前面提到的缺少受信任的根 CA 证书，以及缺少与该证书关联的私钥。 请参阅 CA 文档来解决这两个问题。
+    > 如果 **"联机证书请求状态** "页报告证书问题，例如证书无效，查看实际证书，以寻求帮助以解决问题。 可能导致证书无效的两个具体问题是，前面提到的缺少受信任的根 CA 证书，以及缺少与该证书关联的私钥。 请参阅 CA 文档来解决这两个问题。
   
 19. 在"**证书分配摘要**"页上，查看显示的信息以确保这是应分配的证书，然后单击"下一步 **"。**
     
@@ -188,13 +188,13 @@ ms.locfileid: "60745298"
 
 1. 查看步骤 **4：启动服务的先决条件**。
     
-2. 如果这是一Enterprise Edition至少具有三台服务器的前端池，Windows Fabric，并且必须使用 **Start-CsPool** cmdlet。 如果使用单个服务器（对于服务器始终如此），Standard Edition **使用 Start-CsWindowsService** cmdlet。 本示例中，我们将 Enterprise Edition池中三台前端服务器一同使用，打开 **Skype for Business Server 命令行** 管理程序并运行 **Start-CsPool** cmdlet，如图所示。 对于所有其他角色，包括Standard Edition角色，必须使用 **Start-CsWindowsService**。 若要部署前端角色外的角色，请参阅这些特定角色的文档。
+2. 如果这是至少Enterprise Edition个服务器的前端池，Windows Fabric，并且必须使用 **Start-CsPool** cmdlet。 如果使用单个服务器（对于服务器始终如此），Standard Edition **使用 Start-CsWindowsService** cmdlet。 本示例中，我们将 Enterprise Edition池中三台前端服务器一同使用，打开 **Skype for Business Server 命令行** 管理程序并运行 **Start-CsPool** cmdlet，如图所示。 对于所有其他角色，包括Standard Edition角色，必须使用 **Start-CsWindowsService**。 若要部署前端角色外的角色，请参阅这些特定角色的文档。
     
      ![启动Skype for Business服务。](../../media/f52ec719-9476-419f-9a78-df08368395f7.png)
   
 3. 在“正在执行命令”页上，成功启动所有服务后，单击“完成”。
     
     > [!IMPORTANT]
-    > 用于启动服务器上服务的命令是报告服务实际上已启动的最佳方法。 该命令可能无法反映服务的实际状态。 建议您使用步骤"服务状态 **(可选) "** 打开 Microsoft 管理控制台 (MMC) 并确认服务已成功启动，如图所示。 如果任何Skype for Business Server服务尚未启动，可以在 MMC 中右键单击该服务，然后单击"启动 **"。** 
+    > 用于启动服务器上服务的命令是报告服务实际上已启动的最佳方法。 该命令可能无法反映服务的实际状态。 建议使用步骤"服务状态 **(可选) "** 打开 Microsoft 管理控制台 (MMC) 并确认服务已成功启动，如图所示。 如果任何Skype for Business Server服务尚未启动，可以在 MMC 中右键单击该服务，然后单击"启动 **"。** 
   
      ![验证服务已启动。](../../media/47906fb7-9d37-4d55-8d8d-e5a4a2366510.png)

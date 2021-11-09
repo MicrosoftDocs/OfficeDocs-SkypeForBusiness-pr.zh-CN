@@ -2,7 +2,7 @@
 title: 设备日志配置编辑
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e534e6a5-fb3e-40b1-a189-fce64c42f512
 description: 可以将设备日志配置添加到"编辑日志设置"页，该页面确定在清除 日志文件 之前保留的最大日志缓存大小、最大 日志文件 大小或保留的时间长度。 您可以根据组织的要求更改这些设置。
-ms.openlocfilehash: b7f4dbd16ca9bbf03a74f84cfba15ca93e695743
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6e6278fb44344b99f018f297ecdd1494df846730
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768970"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835540"
 ---
 # <a name="device-log-configuration-edit"></a>设备日志配置：编辑
  

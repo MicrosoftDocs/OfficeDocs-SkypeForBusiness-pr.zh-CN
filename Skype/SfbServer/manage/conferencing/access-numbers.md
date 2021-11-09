@@ -2,7 +2,7 @@
 title: '管理电话拨入式会议访问号码Skype for Business Server '
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: a0d64779-93de-4d82-ae35-e4454ef8b8f6
 description: 摘要：了解如何管理电话拨入式会议访问Skype for Business Server。
-ms.openlocfilehash: bb7a6d51d953519f7ccef274c9aff106c78f278d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9bfa4b905ee77b6e5697cf09b2ef89566d875297
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60746018"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835380"
 ---
 # <a name="manage-dial-in-conferencing-access-numbers-in-skype-for-business-server"></a>管理电话拨入式会议访问号码Skype for Business Server
  
@@ -74,7 +74,7 @@ Regions            : {US}
   
 ## <a name="modify-dial-in-conferencing-access-numbers"></a>修改电话拨入式会议访问号码
 
-可以使用控制面板或命令行管理程序Skype for Business Server拨入访问号码Skype for Business Server拨入访问号码。
+可以使用控制面板或命令行管理程序Skype for Business Server拨入访问Skype for Business Server号码。
   
 ### <a name="modify-dial-in-access-numbers-by-using-skype-for-business-server-control-panel"></a>使用控制面板修改拨入访问Skype for Business Server访问号码
 
@@ -150,7 +150,7 @@ Set-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialIn@litwareinc.com
   
 ## <a name="delete-a-dial-in-conferencing-access-number"></a>删除电话拨入式会议访问号码
 
-可以使用控制面板或命令行管理程序Skype for Business Server电话拨入式会议访问Skype for Business Server号码。
+可以使用控制面板或命令行管理程序Skype for Business Server电话拨入式Skype for Business Server访问号码。
   
 ### <a name="delete-a-dial-in-conferencing-access-number-by-using-skype-for-business-server-control-panel"></a>使用控制面板删除电话拨入式Skype for Business Server访问号码
 
@@ -164,7 +164,7 @@ Set-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialIn@litwareinc.com
     
 5. 单击“确定”。
     
-### <a name="delete-a-dial-in-conferencing-access-number-by-using-skype-for-business-server-management-shell"></a>使用命令行管理程序删除电话拨入式会议Skype for Business Server号码
+### <a name="delete-a-dial-in-conferencing-access-number-by-using-skype-for-business-server-management-shell"></a>使用命令行管理程序删除电话拨入式Skype for Business Server访问号码
 
 若要删除电话拨入式会议访问号码，请使用 **Remove-CsDialInConferencingAccessNumber**。
   

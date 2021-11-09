@@ -2,7 +2,7 @@
 title: 架构中的架构类和Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 7d43b920-ac37-40cc-adfe-be289bda6e9e
 description: 本节介绍组织使用的所有架构Skype for Business Server。
-ms.openlocfilehash: d7f05cd76074740e49f3972c97875e8993dd7b06
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: fbd3e3293cef72ba6592b86932639bd499464858
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60743258"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60829766"
 ---
 # <a name="schema-classes-and-descriptions-in-skype-for-business-server"></a>架构中的架构类和Skype for Business Server
  
@@ -74,14 +74,14 @@ ms.locfileid: "60743258"
 |msRTCSIP-RouteUsage（作废）  <br/> |此类是表示电话路由用法的实例的容器。电话路由用法类由一个属性字段和一个说明字段组成。属性字段定义用法类型。通过说明字段，管理员可以描述此属性在电话路由中的用法。  <br/> |在 Lync Server 2010 中已过时。  <br/> |
 |msRTCSIP-RouteUsages（作废）  <br/> |此类包含 msRTCSIP-RouteUsage 类的多个实例，并且自身没有任何属性。  <br/> |在 Lync Server 2010 中已过时。  <br/> |
 |msRTCSIP-Search  <br/> |这是 msRTCSIP-GlobalContainer 的辅助类，它包含用于限定和控制搜索结果范围的属性。  <br/> |-  <br/> |
-|msRTCSIP-Server  <br/> |此类表示运行单个服务器的Skype for Business Server。  <br/> |-  <br/> |
+|msRTCSIP-Server  <br/> |此类表示运行数据库的单个Skype for Business Server。  <br/> |-  <br/> |
 |msRTCSIP-Service  <br/> |此类包含全局设置容器和 msRTCSIP-Domain 对象。  <br/> |-  <br/> |
 |msRTCSIP-TrustedMCU  <br/> |此类包含表示受信任会议服务器的设置的属性。  <br/> |Communications Server 2007 中的新增功能。  <br/> |
 |msRTCSIP-TrustedMCUs  <br/> |此类包含 msRTCSIP-TrustedMCU 类的多个实例，并且自身没有任何属性。  <br/> |Communications Server 2007 中的新增功能。  <br/> |
 |msRTCSIP-TrustedProxies  <br/> |此类包含多个 msRTCSIP-TrustedProxy 类，并且自身不包含任何属性。  <br/> |Communications Server 2007 中的新增功能。  <br/> |
 |msRTCSIP-TrustedProxy  <br/> |此类是表示运行代理服务器的服务器的容器。在加入 AD DS 的计算机上激活新的代理服务器时，将创建此类的实例。  <br/> |Communications Server 2007 中的新增功能。  <br/> |
 |msRTCSIP-TrustedServer  <br/> |此类包含表示受信任服务器的设置的属性。  <br/> |-  <br/> |
-|msRTCSIP-TrustedService  <br/> |此类是表示可使用全局可路由用户代理 URI (GRUU) 地址进行路由的受信任服务的容器。 当激活受该服务器信任的新服务器时，将Skype for Business Server此类的实例。 此受信任服务器必须加入 Active Directory 域。  <br/> |Communications Server 2007 中的新增功能。  <br/> |
+|msRTCSIP-TrustedService  <br/> |此类是表示可使用全局可路由用户代理 URI (GRUU) 地址进行路由的受信任服务的容器。 当激活受信任服务器的新服务器时，将Skype for Business Server此类的实例。 此受信任服务器必须加入 Active Directory 域。  <br/> |Communications Server 2007 中的新增功能。  <br/> |
 |msRTCSIP-TrustedServices  <br/> |此类是多个 GRUU 服务器的容器，并且自身不包含任何属性。  <br/> |Communications Server 2007 中的新增功能。  <br/> |
 |msRTCSIP-TrustedWebComponentsServer  <br/> |此类包含表示受信任 Web 组件的设置的属性。  <br/> |Communications Server 2007 中的新增功能。  <br/> |
 |msRTCSIP-TrustedWebComponentsServers  <br/> |此类包含 msRTCSIP-TrustedWebComponentServer 类的多个实例，并且自身没有任何属性。  <br/> |Communications Server 2007 中的新增功能。  <br/> |

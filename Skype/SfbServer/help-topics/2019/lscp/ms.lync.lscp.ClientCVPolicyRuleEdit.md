@@ -2,7 +2,7 @@
 title: 客户端版本规则
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 6e7e94c2-1475-4334-b8da-716b24a4c255
 ROBOTS: NOINDEX, NOFOLLOW
 description: 客户端版本策略由一组客户端版本规则组成。这些规则定义在用户尝试使用特定客户端和客户端版本登录时应采取的操作。
-ms.openlocfilehash: e24921156470b1a91dc9f7421913c1fa6da1ef35
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 41e3e80e4cd836214f62fa40deab0a32077dfac1
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769530"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835800"
 ---
 # <a name="client-version-rule"></a>客户端版本规则
 
@@ -90,7 +90,7 @@ ms.locfileid: "60769530"
   - **允许和升级** 允许客户端登录并接收来自 Windows 服务器更新服务或 Microsoft Update 的更新。 仅当选中用户代理“OC”时，才能进行此操作。
 
     > [!NOTE]
-    > 选择此操作会导致用户在下次登录登录时显示Skype for Business。 该通知指出有可用更新，即使更新尚未发布到 Windows Server Update Service 或 Microsoft Update。 为了避免混淆，您只应在更新可用后选择此操作。
+    > 选择此操作将导致用户在下次登录登录时显示Skype for Business。 该通知指出有可用更新，即使更新尚未发布到 Windows Server Update Service 或 Microsoft Update。 为了避免混淆，您只应在更新可用后选择此操作。
 
   - **允许使用 URL** 允许客户端登录并显示有关下载其他客户端版本位置的消息。 可以在“URL”字段中指定 URL。
 

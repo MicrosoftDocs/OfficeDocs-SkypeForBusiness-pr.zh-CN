@@ -2,7 +2,7 @@
 title: 安装和配置忙碌选项Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb0faac8-ca1c-4abb-9959-d19def294c64
 description: 了解如何安装和配置忙碌选项。Skype for Business Server。
-ms.openlocfilehash: 60ff279d1d763cda8ed5c03809c7244a05aec1e9
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 5e0dde157fc39ab7c24ddd297e858ce5a06e888f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759064"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835910"
 ---
 # <a name="install-and-configure-busy-options-for-skype-for-business-server"></a>安装和配置忙碌选项Skype for Business Server
 
@@ -28,7 +28,7 @@ ms.locfileid: "60759064"
 
 忙碌选项是 2016 年 7 月累积更新中引入的新语音策略，允许你配置当用户正在接听电话或参加会议或将呼叫置于保留状态时如何处理传入呼叫。 可以使用繁忙信号拒绝新呼叫或传入呼叫，也可以将新呼叫或传入呼叫转发到语音邮件。
 
-如果为组织启用了忙碌选项，则 Enterprise 所有用户（企业语音和非 企业语音 用户）都可以使用以下配置选项：
+如果为组织启用了忙碌选项，Enterprise所有用户（企业语音和非 企业语音 用户）都可以使用以下配置选项：
 
 - Busy on Busy - 在用户忙碌时，新传入呼叫将因繁忙信号而被拒绝。
 
@@ -36,7 +36,7 @@ ms.locfileid: "60759064"
 
 无论用户如何配置忙碌选项，呼叫或会议中的用户或呼叫保持的用户不会阻止发起新呼叫或会议。
 
-有关忙碌选项功能的详细信息，请参阅规划忙碌[选项Skype for Business Server。](../../plan-your-deployment/enterprise-voice-solution/busy-options.md)
+有关忙碌选项功能的详细信息，请参阅 Plan [for Busy Options for Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/busy-options.md)。
 
 ## <a name="install"></a>安装
 
@@ -113,7 +113,7 @@ Set-CsBusyOptions -Identity "Ken Myer"  -ActionType BusyOnBusy
 Set-CsBusyOptions -Identity "Chrystal Velasquez" -ActionType VoicemailOnBusy
 ```
 
-您可以使用 [Get-CsBusyOptions](https://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx) cmdlet 检索有关忙碌选项的配置信息。 下面的示例返回"忙碌选项"的"KenMyer@Contoso.com"：
+您可以使用 [Get-CsBusyOptions](https://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx) cmdlet 检索有关忙碌选项的配置信息。 以下示例返回"忙碌选项"的"KenMyer@Contoso.com"：
 
 ```powershell
 Get-CsBusyOptions -Identity sip:KenMyer@Contoso.com

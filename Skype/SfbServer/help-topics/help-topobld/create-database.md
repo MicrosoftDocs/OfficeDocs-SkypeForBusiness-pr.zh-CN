@@ -2,7 +2,7 @@
 title: 创建数据库
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -14,23 +14,23 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4d391619-1cab-4265-ae8a-2519993705bc
-description: 拓扑生成器提供了一种在数据库存储中安装SQL Server的方法。 当您使用拓扑生成器安装数据库时，应用程序会从拓扑中读取信息，然后在指定的 SQL Server 或 SQL Server 群集中安装所需数据库。 这是唯一可以使用拓扑生成器进行的数据库安装类型。 如果需要在特定的计算机上安装特定数据库，或者必须安装并排的数据库，则必须使用 Windows PowerShell 命令行接口和 Install-CsDatabase cmdlet。
-ms.openlocfilehash: 1f2bf26626b370e606ce3856f29a2dae2c39ab44
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 拓扑生成器提供了一种在数据库存储中安装SQL Server的方法。 使用拓扑生成器安装数据库时，应用程序会从拓扑中读取信息，然后在指定的 SQL Server 或 SQL Server 群集中安装所需数据库。 这是唯一可以使用拓扑生成器进行的数据库安装类型。 如果需要在特定的计算机上安装特定数据库，或者必须安装并排的数据库，则必须使用 Windows PowerShell 命令行接口和 Install-CsDatabase cmdlet。
+ms.openlocfilehash: c6923f81de97fb6210861366ad71f3f87cdd83f8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60739288"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60830186"
 ---
 # <a name="create-database"></a>创建数据库
  
-拓扑生成器提供了一种在数据库存储中安装SQL Server的方法。 当您使用拓扑生成器安装数据库时，应用程序会从拓扑中读取信息，然后在指定的 SQL Server 或 SQL Server 群集中安装所需数据库。 这是唯一可以使用拓扑生成器进行的数据库安装类型。 如果需要在特定的计算机上安装特定数据库，或者必须安装并排的数据库，则必须使用 Windows PowerShell 命令行接口和[Install-CsDatabase](/powershell/module/skype/install-csdatabase?view=skype-ps) cmdlet。
+拓扑生成器提供了一种在数据库存储中安装SQL Server的方法。 使用拓扑生成器安装数据库时，应用程序会从拓扑中读取信息，然后在指定的 SQL Server 或 SQL Server 群集中安装所需数据库。 这是唯一可以使用拓扑生成器进行的数据库安装类型。 如果需要在特定的计算机上安装特定数据库，或者必须安装并排的数据库，则必须使用 Windows PowerShell 命令行接口和[Install-CsDatabase](/powershell/module/skype/install-csdatabase?view=skype-ps) cmdlet。
   
 ### <a name="creating-a-database"></a>创建数据库
 
 1. 单击"Skype for Business Server 2015"节点，然后单击"**安装数据库"。**
     
-2. 在"**安装** 数据库"对话框中的"创建数据库"页上，选择要创建新数据库的 SQL Server 存储的完全限定域名 (FQDN) FQDN。
+2. 在"**安装** 数据库"对话框中的"创建数据库"页上，选择要创建新数据库的 SQL Server 存储的完全限定域名 (FQDN) FQDN SQL Server。
     
 3. 单击“高级”。在“选择数据库文件位置”对话框中，选择下列选项之一：
     

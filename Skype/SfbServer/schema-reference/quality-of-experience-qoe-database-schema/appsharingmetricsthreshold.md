@@ -2,7 +2,7 @@
 title: AppSharingMetricsThreshold 表
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 782cfab9-01a6-4843-aea1-28f47b0b51f7
 description: AppSharingMetricsThreshold 表包含用于应用程序共享的用户体验质量指标的最佳值和可接受的值。这些阈值用于确定是否应将应用程序共享体验归类为质量欠佳。
-ms.openlocfilehash: d11c19886feebd77ff8b8dda262d969eb76c6434
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 23e97758d5398b8c8797900f043de7c1b6a3ebf6
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759354"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864559"
 ---
 # <a name="appsharingmetricsthreshold-table"></a>AppSharingMetricsThreshold 表
  
@@ -41,7 +41,7 @@ AppSharingMetricsThreshold 表包含用于应用程序共享的用户体验质�
 |**RDPTileProcessingLatencyBurstDensityAcceptable** <br/> |float  <br/> ||此列不用于 Microsoft Lync Server 2013。  <br/> |
 |**RelativeOneWayAverageOptimal** <br/> |float  <br/> ||应用程序共享中涉及的两个媒体终结点之间的相对单向延迟的最佳值。这是单跃点延迟度量。默认值为 1.0 秒。  <br/> 该列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
 |**RelativeOneWayAverageAcceptable** <br/> |float  <br/> ||应用程序共享中涉及的两个媒体终结点之间的相对单向延迟的最佳值。这是单跃点延迟度量。默认值为 1.75 秒。  <br/> 该列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
-|**RDPTileProcessingLatencyAverageOptimal** <br/> |float  <br/> ||查看会话持续时间内 AS 会议服务器中的平均 RDP 图块处理延迟的最佳值。 延迟是服务器 (共享者或 MCU 上编码"开始帧"的时间差，具体取决于方案) 并且查看器上解码同一个"开始帧"。  <br/> 高平均值反映了查看体验中的延迟较长。过载的会议服务器可能会遇到更长的平均延迟。默认值为 200 毫秒。  <br/> 该列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
-|**RDPTileProcessingLatencyAverageAcceptable** <br/> |float  <br/> ||查看会话持续时间内 AS 会议服务器中的平均 RDP 图块处理延迟的可接受值。 延迟是服务器 (共享者或 MCU 上编码"开始帧"的时间差，具体取决于方案) 并且查看器上解码同一个"开始帧"。  <br/> 高平均值反映了查看体验中的延迟较长。过载的会议服务器可能会遇到更长的平均延迟。默认值为 200 毫秒。  <br/> 该列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
+|**RDPTileProcessingLatencyAverageOptimal** <br/> |float  <br/> ||查看会话持续时间内 AS 会议服务器中的平均 RDP 图块处理延迟的最佳值。 延迟是在服务器上对启动帧进行编码（ (共享者或 MCU) 且在查看器上解码同一个"开始帧"之间的时间差。  <br/> 高平均值反映了查看体验中的延迟较长。过载的会议服务器可能会遇到更长的平均延迟。默认值为 200 毫秒。  <br/> 该列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
+|**RDPTileProcessingLatencyAverageAcceptable** <br/> |float  <br/> ||查看会话持续时间内 AS 会议服务器中的平均 RDP 图块处理延迟的可接受值。 延迟是在服务器上对启动帧进行编码（ (共享者或 MCU) 且在查看器上解码同一个"开始帧"之间的时间差。  <br/> 高平均值反映了查看体验中的延迟较长。过载的会议服务器可能会遇到更长的平均延迟。默认值为 200 毫秒。  <br/> 该列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
    
 

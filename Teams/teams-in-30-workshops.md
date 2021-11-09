@@ -20,17 +20,17 @@ ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 ROBOTS: NOINDEX
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45856ed0e452c6ed1c04e0d724551a17316112a95b1f3cefcda5b481b8868e6b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f9b4175769ea9d6cc57167c086b28ee5ef4e742d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339390"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850525"
 ---
 # <a name="teams-in-30"></a>Teams 30
 <div id="main" class="v2">
     <div class="container">
-        <p>Microsoft 很高兴邀请你参加<strong>30</strong>中的 Teams，这是一系列实时的交互式研讨会，旨在帮助中型组织 (500-5000 名员工) 在 30 天内使用 Microsoft Teams 启动并运行。 加入我们，了解经过时间测试的指导和最佳做法，并解答Teams问题。 研讨会参与者还将与专家一起收到开放式办公时间Teams邀请。
+        <p>Microsoft 很高兴邀请你参加<strong>30</strong>Teams，这是一系列实时交互式研讨会，旨在帮助中型组织 (在 30 天内) 500-5000 名员工) 启动并运行 Microsoft Teams。 加入我们，了解经过时间测试的指南和最佳做法，并解答Teams问题。 研讨会参与者还将与专家一起收到开放式办公时间Teams邀请。
            <p><font color="#6264A7">准备好跳入了吗？</font> 我们鼓励项目团队的所有成员在<i>30</i>个会话中入门团队Teams团队。 单击下面的会话标题进行注册。
  <ul id="home-all" class="panelContent cardsF cols cols2">        
     <li>
@@ -54,7 +54,7 @@ ms.locfileid: "54339390"
         </a>
     </li>
    <li>
-        <a href="https://aka.ms/ReadyendusersT30"target="_blank"">
+        <a href="https://aka.ms/ReadyendusersT30"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -65,7 +65,7 @@ ms.locfileid: "54339390"
                     </div>
                     <div class="cardText">
                         <h3>最终用户准备就绪：</h3>
-                    <p>发现策略和资源，以便让用户做好准备、构建一批冠军，以及确保用户被认可为用户推广Teams组件。</p><p><i>受众：采用和更改所有者</i></p>
+                    <p>发现策略和资源，以便让用户做好准备，构建一批冠军，并确保用户被认可为用户推广Teams组件。</p><p><i>受众：采用和更改所有者</i></p>
                     </div>
                 </div>
             </div>
@@ -73,7 +73,7 @@ ms.locfileid: "54339390"
         </a>
     </li>
         <li> 
-        <a href="https://aka.ms/Preparepart1T30"target="_blank"">
+        <a href="https://aka.ms/Preparepart1T30"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -84,14 +84,14 @@ ms.locfileid: "54339390"
                     </div>
                     <div class="cardText">
                     <h3>准备环境 - 第 I 部分</h3>
-                    <p>为部署设置Teams基础。 确定Teams先决条件、网络和安全最佳做法、共存策略、分析和报告以及客户端分发建议。</p><p><i>受众：IT 管理员</i></p>
+                    <p>设置部署部署Teams基础。 确定Teams先决条件、网络和安全最佳做法、共存策略、分析和报告以及客户端分发建议。</p><p><i>受众：IT 管理员</i></p>
 </div>
                 </div>
             </div>
         </div>
         </a>
     </li> <li>
-        <a href="https://aka.ms/Preparepart2T30"target="_blank"">
+        <a href="https://aka.ms/Preparepart2T30"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -102,7 +102,7 @@ ms.locfileid: "54339390"
                     </div>
                     <div class="cardText">
                         <h3>准备环境 - 第 II 部分</h3>
-                    <p>现在，你已建立基础，请了解实现合规性、保留期、监管和音频会议以用于会议Teams。</p><p><i>受众：IT 管理员</i></p>
+                    <p>现在，你已建立基础，请了解实现合规性、保留期、监管和音频会议Teams。</p><p><i>受众：IT 管理员</i></p>
                     </div>
                 </div>
             </div>
@@ -110,7 +110,7 @@ ms.locfileid: "54339390"
         </a>
     </li> 
  <li>
-        <a href="https://aka.ms/OptimizeexpandT30"target="_blank"">
+        <a href="https://aka.ms/OptimizeexpandT30"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -121,7 +121,7 @@ ms.locfileid: "54339390"
                     </div>
                     <div class="cardText">
                     <h3>优化和扩展</h3>
-                    <p>设计一个计划，其中包括优化服务性能、扩展Teams功能以及载入新用户。</p>
+                    <p>设计一个计划，其中包括优化服务性能、扩展Teams功能，以及登记新用户。</p>
                     <p><i>受众：业务发起人、IT 管理员、采用和更改所有者</i></p>
                     </div>
                 </div>
@@ -130,7 +130,7 @@ ms.locfileid: "54339390"
         </a>
     </li>
    <li>
-        <a href="https://aka.ms/TeamsChalkTalks"target="_blank"">
+        <a href="https://aka.ms/TeamsChalkTalks"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -141,7 +141,7 @@ ms.locfileid: "54339390"
                     </div>
                     <div class="cardText">
                     <h3>Teams小轮次讲座</h3>
-                    <p>这些在线互动研讨会由主题专家主持，提供了一个独一无二的机会，可以了解有关这些主题中一些最流行且最具吸引力的方案的最佳实践和实用Teams。 "开小道"假设你已完成基本Teams推出。</p>
+                    <p>这些在线互动研讨会由主题专家主持，提供了一个独一无二的机会，可了解有关这些主题中一些最流行且最具吸引力的方案的最佳实践Teams。 "会议"假设你已完成基本Teams推出。</p>
                     <p><strong>先决条件</strong>：Teams参加 30 场研讨会，或已Teams整个组织。</p>
                     <p><i>受众：IT 管理员</i></p>
                     </div>

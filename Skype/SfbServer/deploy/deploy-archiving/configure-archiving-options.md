@@ -2,7 +2,7 @@
 title: 配置存档的存档Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 2f534697-ac7f-45b7-8cdc-ba67f052223b
 description: 摘要：阅读本主题，了解如何配置用于存档Skype for Business Server。 您最初在部署存档时设置存档配置，但您可以在部署后更改、添加和删除配置。
-ms.openlocfilehash: b27a6bdd85b935b0751abf3da2bac94488234cdb
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 413347a76c23f680215e4f9d80e4327b3e8fed22
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60749511"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864459"
 ---
 # <a name="configure-archiving-options-for-skype-for-business-server"></a>配置存档的存档Skype for Business Server
  
@@ -25,7 +25,7 @@ ms.locfileid: "60749511"
   
 若要配置初始存档配置，Skype for Business Server控制面板指定以下内容：
   
-- 部署数据库时默认创建的全局Skype for Business Server
+- 在部署数据库时默认创建的全局Skype for Business Server
     
 - 指定如何为特定站点实施存档的可选站点级别配置
     
@@ -48,7 +48,7 @@ ms.locfileid: "60749511"
 > [!NOTE]
 > 在启用存档之前，应指定所有适当的选项。 
   
-有关如何实施存档配置（包括可以指定哪些选项以及存档配置的层次结构）的详细信息，请参阅 Plan [for archiving in Skype for Business Server](../../plan-your-deployment/archiving/archiving.md)。 有关如何使用控制面板或部署后管理配置的详细信息，请参阅管理Windows PowerShell中的存档[Skype for Business Server。](../../manage/archiving/options.md)
+有关如何实施存档配置（包括可以指定哪些选项以及存档配置的层次结构）的详细信息，请参阅 Plan [for archiving in Skype for Business Server](../../plan-your-deployment/archiving/archiving.md)。 有关如何使用控制面板或 Windows PowerShell 部署后管理配置的详细信息，请参阅管理 Skype for Business Server 中的[存档Skype for Business Server。](../../manage/archiving/options.md)
   
 ## <a name="configure-global-level-archiving-options"></a>配置全局级别存档选项
 
@@ -76,7 +76,7 @@ ms.locfileid: "60749511"
     
    - 要在存档不可用时阻止活动，请选中“存档失败时阻止即时消息(IM)或 Web 会议会话”复选框。
     
-   - 若要使用Microsoft Exchange Server存储存档数据，请单击 **"Microsoft Exchange集成"** 复选框。
+   - 若要使用Microsoft Exchange Server存储存档数据，请单击"Microsoft Exchange **集成"** 复选框。
     
    - 若要启用数据清除，请选中“启用存档数据清除”复选框，然后执行下列操作之一：
     
@@ -112,7 +112,7 @@ ms.locfileid: "60749511"
     
    - 要在存档不可用时阻止活动，请选中“存档失败时阻止即时消息 (IM) 或 Web 会议会话”复选框。
     
-   - 若要使用Microsoft Exchange Server存储存档数据，请单击 **"Microsoft Exchange集成"** 复选框。
+   - 若要使用Microsoft Exchange Server存储存档数据，请单击"Microsoft Exchange **集成"** 复选框。
     
    - 若要启用数据清除，请选中“启用存档数据清除”复选框，然后执行下列操作之一：
     
@@ -148,7 +148,7 @@ ms.locfileid: "60749511"
     
    - 要在存档不可用时阻止活动，请选中“存档失败时阻止即时消息(IM)或 Web 会议会话”复选框。
     
-   - 若要使用Microsoft Exchange Server存储存档数据，请单击 **"Microsoft Exchange集成"** 复选框。
+   - 若要使用Microsoft Exchange Server存储存档数据，请单击"Microsoft Exchange **集成"** 复选框。
     
    - 若要启用数据清除，请选中“启用存档数据清除”复选框，然后执行下列操作之一：
     

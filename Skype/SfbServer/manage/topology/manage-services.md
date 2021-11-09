@@ -2,7 +2,7 @@
 title: 管理服务Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,18 +11,18 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 了解如何查看服务状态、启动和停止服务以及阻止服务会话。
-ms.openlocfilehash: c48a6a07605096dfdccc96539d01e5607e171b9b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: cc5218f5347eb2124f42b8881bce730c74889bda
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60756979"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864729"
 ---
 # <a name="manage-services-in-skype-for-business-server"></a>管理服务Skype for Business Server
 
 可以使用 Skype for Business Server 控制面板查看拓扑中运行 Skype for Business Server 的所有计算机的列表、查看服务的状态、启动或停止服务以及阻止服务会话。
 
-- [查看运行 Skype for Business Server](#view-a-list-of-computers-running-skype-for-business-server)
+- [查看运行 Skype for Business Server 的计算机Skype for Business Server](#view-a-list-of-computers-running-skype-for-business-server)
 - [查看运行在 Skype for Business 中的计算机上Skype for Business](#view-the-status-of-services-running-on-a-computer-in-skype-for-business)
 - [启动或停止Skype for Business服务](#start-or-stop-skype-for-business-services)
 - [阻止服务的会话](#prevent-sessions-for-services)
@@ -31,7 +31,7 @@ ms.locfileid: "60756979"
 
 使用Skype for Business Server控制面板查看在拓扑中运行Skype for Business计算机的列表，并查看每台计算机的服务状态。 可以按计算机、池或站点对列表进行排序。 
 
-1. 从分配给用户的任何预定义管理角色的用户帐户Skype for Business Server内部部署中的任意计算机。 有关详细信息，请参阅基于[角色的访问控制 (RBAC) for Skype for Business Server](../../plan-your-deployment/security/role-based-access-control-rbac.md)。
+1. 从分配给用户的任何预定义管理角色的用户帐户Skype for Business Server内部部署中的任意计算机。 有关详细信息，请参阅[Role-based access control (RBAC) for Skype for Business Server](../../plan-your-deployment/security/role-based-access-control-rbac.md)。
 2. 打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。 有关可用于启动"控制面板"Skype for Business Server的详细信息，请参阅安装和[打开管理工具](../../management-tools/install-and-open-administrative-tools.md)。
 3. 在左侧导航栏中，单击“拓扑”，然后单击“状态”。
 4. 在"状态"页上，根据需要执行下列任一操作：
@@ -41,7 +41,7 @@ ms.locfileid: "60756979"
    
 ## <a name="view-the-status-of-services-running-on-a-computer-in-skype-for-business"></a>查看运行在 Skype for Business 中的计算机上Skype for Business
 
-使用Skype for Business Server控制面板查看运行在 Skype for Business Server 拓扑中的特定计算机上的所有服务，并查看每个服务的状态。
+使用Skype for Business Server控制面板查看在拓扑中的特定计算机上运行的所有Skype for Business Server并查看每个服务的状态。
 
 1. 使用分配给 CsUserAdministrator 角色或 CsAdministrator 角色的用户帐户登录到内部部署中的任何计算机。
 2. 打开浏览器窗口，然后输入管理 URL 以打开控制面板。 有关可用于启动"控制面板"Skype for Business Server的详细信息，请参阅安装和[打开管理工具](../../management-tools/install-and-open-administrative-tools.md)。
@@ -53,7 +53,7 @@ ms.locfileid: "60756979"
 
 ### <a name="viewing-service-status-by-using-windows-powershell-cmdlets"></a>使用 Cmdlet 查看Windows PowerShell状态
 
-您还可以使用 Windows PowerShell cmdlet 查看Get-CsWindowsService状态。 还可从 Skype for Business Server Management Shell 或 Windows PowerShell 远程会话运行此 cmdlet。 有关详细信息，请参阅Skype for Business Server[命令行管理程序。](../management-shell.md)
+您还可以使用 cmdlet 和 Windows PowerShell 查看Get-CsWindowsService状态。 还可从 Skype for Business Server Management Shell 或 Windows PowerShell 远程会话运行此 cmdlet。 有关详细信息，请参阅Skype for Business Server[命令行管理程序。](../management-shell.md)
 
 **查看服务状态**
 

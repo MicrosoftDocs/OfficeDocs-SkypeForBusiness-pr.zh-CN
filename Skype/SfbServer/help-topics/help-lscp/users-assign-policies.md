@@ -2,7 +2,7 @@
 title: 用户分配策略
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: f36a2699-5cf6-4995-9f6d-ec3519ca0903
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: e5b1b9c2817f9410739bc1c668a6637f21c5eeb0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 81888cf9f689973eb1b63e00b4a544c98b63b5cf
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740698"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842975"
 ---
 # <a name="users-assign-policies"></a>用户：分配策略
 
@@ -44,4 +44,4 @@ ms.locfileid: "60740698"
 
 - [分配Per-User持久聊天策略](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-persistent-chat-policy)
 
-有关可以使用控制面板执行的不同过程的详细信息，请参阅 Manage [Skype for Business Server Skype for Business Server 2015](../../manage/manage.md)。
+有关可以使用控制面板执行的不同过程的详细信息，Skype for Business Server Manage [Skype for Business Server 2015](../../manage/manage.md)。

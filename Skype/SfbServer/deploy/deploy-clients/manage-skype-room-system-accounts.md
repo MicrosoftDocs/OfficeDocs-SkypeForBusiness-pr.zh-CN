@@ -1,7 +1,7 @@
 ---
 title: 管理 Skype 会议室系统账户
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.assetid: 7b389efc-9685-42e9-9504-be437d20ff57
 ms.collection: M365-voice
 description: 阅读本主题，了解如何管理会议室Skype帐户。
-ms.openlocfilehash: aa25b61f8f42043d9bcabe99ff20c1fcf6d1950e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 2ae91a977a837e2b1b54db8d127551b5f53bb1a8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741478"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864449"
 ---
 # <a name="manage-skype-room-system-accounts"></a>管理 Skype 会议室系统账户
  
@@ -37,7 +37,7 @@ Move-CsMeetingRoom -Identity LRS01 -Target "LYNCPool15-2.contoso.com"
 
 ## <a name="disable-the-skype-room-system-account-for-skype-for-business-services"></a>为Skype禁用会议室系统Skype for Business帐户
 
-如果需要禁用现有会议室Skype帐户，Skype for Business池上的Skype for Business Server服务，请使用以下命令禁用该帐户： 
+如果需要从 Skype 池上的 Skype for Business 服务禁用现有会议室系统Skype for Business Server，请使用以下命令禁用该帐户： 
   
 ```powershell
 Disable-CsMeetingRoom LRS01 -domaincontroller DC-ND-001.contoso.com
@@ -45,4 +45,4 @@ Disable-CsMeetingRoom LRS01 -domaincontroller DC-ND-001.contoso.com
 
 ## <a name="optional-create-a-skype-room-system-administrator-group-in-active-directory"></a>可选：在 Active Directory Skype聊天室系统管理员组
 
-每个Skype加入域的会议室系统客户端都可以由在会议室系统设备电脑上具有本地管理员权限的Skype管理。 因此，您可以在 Active Directory 中创建专用管理员组，并授予该组在设置新会议室系统计算机Skype管理权限。
+每个Skype加入域的会议室系统客户端都可以由在会议室系统设备电脑上具有本地管理员权限的Skype管理。 因此，您可以在 Active Directory 中创建一个专用管理员组，在设置新的会议室系统计算机Skype授予此组管理权限。

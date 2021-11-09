@@ -2,7 +2,7 @@
 title: 2015 年 Skype for Business Server 的新增功能
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 12/20/2017
 audience: ITPro
@@ -14,18 +14,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: e62c9229-b738-45ef-b637-0b58ca8225a4
 description: 摘要：阅读本主题，了解 Skype for Business Server 2015 中的新功能。 有关新客户端体验的详细信息，请参阅 Lync is now Skype for Business -- see what's new.
-ms.openlocfilehash: aac68c369983b85ecb95b5000dc41d95e2080d6d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d0ef9ff1790eba546dd54a9fa78c9f63f2b532f4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760560"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60829746"
 ---
 # <a name="whats-new-in-skype-for-business-server-2015"></a>2015 年 Skype for Business Server 的新增功能
 
 **摘要：** 阅读本主题，了解 Skype for Business Server 2015 中的新功能。 有关新客户端体验的详细信息，请参阅 Lync [is now Skype for Business -- see what's new](https://go.microsoft.com/fwlink/p/?LinkId=529022).
   
-Lync 现已Skype for Business，它是一个通信和协作平台，将 Skype 启发的体验与 Lync 的企业级安全性、合规性和控制结合在一起。 Skype for Business提供状态、IM、语音和视频呼叫以及联机会议等功能。 Skype for Business提供了新的客户端体验、新的服务器版本，以及 Microsoft 365 或 Office 365 中的服务更新。 如果你的组织中用户已经熟悉Skype，那么他们将会非常体验 Skype for Business 在轻松查找同事并联系同事时，Skype for Business这种功能和简单性。 如果贵组织的用户即将从 Lync Skype for Business，他们将识别他们已使用的所有功能，但会在全新的界面中识别简化的控件和新增功能。 除了新的客户端体验之外，Skype for Business Server 2015 还提供了一些新功能，以提高本地服务器和混合解决方案的可管理性。
+Lync 现已Skype for Business，它是一个通信和协作平台，它通过 lync 的企业级Skype安全性、合规性和控制来带来启发的体验。 Skype for Business提供状态、IM、语音和视频呼叫以及联机会议等功能。 Skype for Business提供了新的客户端体验、新的服务器版本以及 Microsoft 365 或 Office 365 中的服务更新。 如果贵组织的用户已经熟悉Skype，他们将会非常体验 Skype for Business在轻松查找同事并联系同事时所拥有功能和简单性。 如果贵组织的用户即将从 Lync Skype for Business，他们将识别他们已使用的所有功能，但会在全新的界面中识别简化的控件和新增功能。 除了新的客户端体验之外，Skype for Business Server 2015 还提供了一些新功能，以提高本地服务器和混合解决方案的可管理性。
   
 Skype for Business Server 2015 中的新功能包括以下改进：
   
@@ -38,9 +38,9 @@ Skype for Business Server 2015 中的新功能包括以下改进：
     
 ## <a name="user-experience"></a>用户体验
 
-客户端Skype for Business与客户端的使用者版本Skype并使用相同的按钮和图标。 更少的菜单和扁平的任务层次结构使用户能够轻松快速找到所需的控件和命令。 
+客户端Skype for Business客户端外观与客户端的使用者版本Skype并使用相同的按钮和图标。 更少的菜单和扁平的任务层次结构使用户能够轻松快速找到所需的控件和命令。 
   
-Skype for Business包括上述新用户体验和之前发布的 Lync 2013 用户体验。 通过包含这两种体验，企业可以控制新客户端推出的过程和时间，来管理用户的更改。默认用户体验取决于您使用的服务器的哪个版本。 管理员使用 **Set-CsClientPolicy** cmdlet 和 EnableSkypeUI 参数选择首选体验。 有关配置客户端体验的信息，[请参阅使用](deploy/deploy-clients/configure-the-client-experience.md)Skype for Business 配置客户端体验和桌面[客户端功能比较Skype for Business。](plan-your-deployment/clients-and-devices/desktop-feature-comparison.md)
+Skype for Business包括上述新用户体验和之前发布的 Lync 2013 用户体验。 通过包含这两种体验，企业可以控制新客户端推出的过程和时间，来管理用户的更改。默认用户体验取决于您使用的服务器的哪个版本。 管理员使用 **Set-CsClientPolicy** cmdlet 和 EnableSkypeUI 参数选择首选体验。 有关配置客户端体验的信息，[请参阅使用](deploy/deploy-clients/configure-the-client-experience.md)Skype for Business 配置客户端体验和桌面客户端[功能比较Skype for Business。](plan-your-deployment/clients-and-devices/desktop-feature-comparison.md)
   
 > [!NOTE]
 > Lync 2013 客户端体验不是适用于 Skype for Business 2016 客户端版本的选项。 在尝试将客户端环境配置为使用 Lync 2013 客户端之前，请检查客户端版本以确保它不会以数字 16 开始;例如：16.x.x.x。 
@@ -51,7 +51,7 @@ Skype for Business Server 2015 包括对语音和视频功能的改进，包括�
   
 ### <a name="call-data-collection-and-analysis"></a>呼叫数据收集和分析
 
-"评价我的呼叫"功能允许 Skype for Business Server 2015 管理员收集呼叫数据。 此功能仅适用于本地部署。 在完成呼叫后，将提示用户参加调查。 有关详细信息，请参阅[Rate my Call in Skype for Business Server 2015。](manage/health-and-monitoring/rate-my-call.md)
+"评价我的呼叫"功能Skype for Business Server 2015 管理员收集呼叫数据。 此功能仅适用于本地部署。 在完成呼叫后，将提示用户参加调查。 有关详细信息，请参阅[Rate my Call in Skype for Business Server 2015。](manage/health-and-monitoring/rate-my-call.md)
   
 ### <a name="improved-interoperability-with-third-party-video-teleconferencing-systems"></a>改进了第三方视频电话会议系统的互操作性
 
@@ -110,13 +110,13 @@ Skype for Business Server 2015 提供了一些新功能来提高本地服务器�
   
 ### <a name="smart-setup"></a>智能设置
 
-自动检测和下载更新的智能设置功能现在是安装程序的一部分。 在安装过程中，将询问用户安装过程是否应检查更新。 有关详细信息，请参阅 Install [Skype for Business Server 2015。](deploy/install/install.md)
+自动检测和下载更新的智能设置功能现在是安装程序的一部分。 在安装过程中，将询问用户安装过程是否应检查更新。 有关详细信息，请参阅 Install [Skype for Business Server 2015](deploy/install/install.md)。
   
 ### <a name="improved-front-end-server-patching-and-upgrade-process"></a>改进的前端服务器修补和升级过程
 
 Skype for Business Server引入了两个新的 cmdlet，这两个 cmdlet 可帮助使升级或修补前端服务器比在以前版本的 Lync Server 中容易得多。
   
-当您需要向前端服务器应用修补程序或执行任何其他维护时，只需键入 **Invoke-CsComputerFailOver** 并指定该服务器的名称。 Skype for Business Server将该服务器的工作负荷临时移动到池中的其他服务器。 然后，您可以执行维护，然后使用 **Invoke-CsComputerFailback** cmdlet 使该服务器重新进入服务。 如果需要修补池中的每台服务器，只需针对每台服务器执行此过程，一次修补一个服务器。 这些新 cmdlet 使您能够比早期版本更快地修补服务器，并且具有更高的可靠性和更简单的工作流。
+当您需要向前端服务器应用修补程序或执行任何其他维护时，只需键入 **Invoke-CsComputerFailOver** 并指定该服务器的名称。 Skype for Business Server将该服务器的工作负荷临时移动到池中的其他服务器。 然后，您可以执行维护，然后使用 **Invoke-CsComputerFailback** cmdlet 使该服务器重新进入服务。 如果需要修补池中的每台服务器，只需针对每台服务器执行此过程，一次修补一台服务器。 这些新 cmdlet 使您能够比早期版本更快地修补服务器，并且具有更高的可靠性和更简单的工作流。
   
 ### <a name="improved-front-end-pool-cold-start-capability"></a>改进的前端池冷启动功能
 
@@ -124,11 +124,11 @@ Skype for Business Server引入了一个新的 cmdlet，可简化并改进冷启
   
 ### <a name="sql-server-alwayson-support-for-on-premises-servers"></a>SQL Server对内部部署服务器的 AlwaysOn 支持
 
-Skype for Business Server 2015 增加了对 AlwaysOn 可用性SQL Server和 AlwaysOn 故障转移SQL Server的支持。 除了这些功能，Skype for Business Server像以前版本的 Lync Server 一样SQL Server对数据库镜像和数据库群集的支持。
+Skype for Business Server 2015 增加了对 AlwaysOn 可用性SQL Server和 AlwaysOn 故障转移SQL Server实例的支持。 除了这些功能之外，Skype for Business Server像以前版本的 Lync Server 一样，继续支持数据库镜像和SQL Server群集。
   
 SQL ServerAlwaysOn 可用性组是 SQL Server 2012 和 SQL Server 2014 中的高可用性和灾难恢复解决方案，可提供数据库镜像的替代方法。 可用性组支持一组离散数据库的故障转移 (称为可用性数据库) 一起故障转移。 可用性组支持一组读写主数据库以及一到四组相应的辅助数据库。 （可选）辅助数据库可用于只读访问和某些备份操作。
   
-SQL Server故障转移群集实例利用 Windows Server 故障转移群集 (WSFC) 功能通过服务器实例级别的冗余提供本地高可用性，即故障转移群集实例 (FCI) 。 FCI 是跨 Windows SQL Server 服务器故障转移群集 (WSFC) 节点（可能跨多个子网）安装的单个 SQL Server 实例。
+SQL Server故障转移群集实例利用 Windows Server 故障转移群集 (WSFC) 功能通过服务器实例级别的冗余提供本地高可用性，即故障转移群集实例 (FCI) 。 FCI 是一个 SQL Server 实例，它安装在 Windows Server 故障转移群集 (WSFC) 节点上，并且可能跨多个子网安装。
   
 有关详细信息，请参阅[Plan for high availability and disaster recovery in Skype for Business Server 2015](plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)。
   
@@ -138,7 +138,7 @@ SQL Server故障转移群集实例利用 Windows Server 故障转移群集 (WSFC
   
 Skype for Business Server 2015 Windows PowerShell cmdlet 管理日志记录服务代理、启动跟踪并生成报告。  (Lync Server 2013 ClsController.exe执行这些任务。) 
   
-集中日志记录服务可在任何 Skype for Business Server 2015 运行。 预定义跟踪 (的内置) 与创建自定义方案的能力相同。 有一种称作 AlwaysOn 的特殊方案始终在运行，并允许管理员以近实时状态查找常见问题。
+集中日志记录服务可在任何 Skype for Business Server 2015 运行。 预定义跟踪 (的内置方案) 与创建自定义方案的能力相同。 有一种称作 AlwaysOn 的特殊方案始终在运行，并允许管理员以近实时状态查找常见问题。
   
 Snooper 调试工具也进行了更新，以允许调试移动日志，并用于连接到 Lync 2013 或 Skype for Business Server 2015 的设备。 该工具可从调试工具 下载[Web。](https://go.microsoft.com/fwlink/?LinkId=285257)
   
@@ -146,11 +146,11 @@ Snooper 调试工具也进行了更新，以允许调试移动日志，并用于
 
 Skype for Business Server 2015 中引入了以下功能，从而启用混合部署管理和管理功能：
   
-- 推荐客户本地资产的状态（由 OnRamp for Office 365自动协助工具确定）进行混合部署。
+- 推荐根据客户本地资产的状态（由 OnRamp for Office 365自动协助工具确定）进行混合部署。
 - 增强的 Skype for Business Server 控制面板和 Skype for Business Server 管理中心，以便管理员可以使用这些工具管理混合部署。
 - 控制面板增强功能，使管理员能够登录到 Microsoft 365 或 Office 365 租户，并借助混合Skype for Business向导设置与 Skype for Business Online 的混合。
 - 控制面板支持将本地用户移动到 Skype for Business Online 或Skype for Business Online 用户移回本地。
-- 用于标识和筛选已移动到 Skype for Business Online (（即混合用户) 用户）的控制面板功能。
+- 控制面板功能，用于标识和筛选已移动到 Skype for Business Online (（即混合用户) 本地用户）。
 - 用于标识和筛选最初在 Skype for Business Online 中创建的云用户（从本地迁移到 Online 的混合用户）的管理中心功能。
 - 使用控制面板管理从本地管理的属性和管理中心管理从 Skype for Business Online 的属性的能力。
 - 将密码同步与 DirSync 一同使用，能够将本地 Active Directory 密码与联机租户同步。 如果配置此功能，则无需部署 AD FS 进行联合身份验证，但多重身份验证仍然需要 AD FS。 
@@ -161,7 +161,7 @@ Skype for Business Server 2015 中引入了以下功能，从而启用混合部�
   
 ## <a name="multi-factor-authentication"></a>多重身份验证
 
-多重身份验证是一种身份验证方法，要求使用多种验证方法，并将关键的第二层安全性添加到用户登录和事务中。 例如，需要用户名和密码以及证书。 Skype for Business Server 2015 继续基于 Lync Server 2013 累积更新中提供的多重身份验证功能构建。 多重身份验证的显著变化包括：
+多重身份验证是一种身份验证方法，要求使用多种验证方法，并将关键的第二层安全性添加到用户登录和事务中。 例如，需要用户名和密码以及证书。 Skype for Business Server 2015 年继续基于 Lync Server 2013 累积更新中提供的多重身份验证功能构建。 多重身份验证的显著变化包括：
   
 - 使用 Office 2013 SP1 Active Directory 身份验证库与 Exchange 和 SharePoint
 - 支持客户端中的多重Skype for Business Web应用功能

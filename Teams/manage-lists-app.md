@@ -1,6 +1,6 @@
 ---
 title: 为组织管理 Lists 应用
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 ms.reviewer: anach,v-jasuk
 manager: serdars
@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: fdcb2b5bee239bd5dada14689080c3e1cca248a9
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 72235497f2b020aaed1228ecadff781ed76b7341
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60746438"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60829546"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中为组织管理 Lists 应用
 
@@ -93,7 +93,7 @@ SharePoint 中的权限集应用于 Lists 应用中创建的列表。 列表默�
 
 Lists 在你的组织中默认为所有 Teams 用户启用。 你可以在 Microsoft Teams 管理中心的[管理应用](manage-apps.md)页面在组织级别关闭或打开此应用。
 
-1. 在 Microsoft Teams 管理中心的左侧导航中，转到“**Teams 应用**” > “**权限策略**”。
+1. 在 Microsoft Teams 管理中心的左侧导航中，转到 “**Teams 应用**” > “**管理应用**”。
 2. 执行下列操作之一：
 
     - 要为组织关闭 Lists，请搜索 Lists 应用，选中然后单击“**阻止**”。

@@ -2,7 +2,7 @@
 title: 会议详细信息报告Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 1d61cd81-dcfe-40b4-9a41-a73b038bc216
 description: 摘要：了解会议详细信息报告中Skype for Business Server。
-ms.openlocfilehash: 56fafff71f1700667a2ad982f56db099cb60c45e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a86124c05e0d35caef3f92c4ec43b561eb54938c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60737798"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60829986"
 ---
 # <a name="conference-detail-report-in-skype-for-business-server"></a>会议详细信息报告Skype for Business Server
 
@@ -29,11 +29,11 @@ ms.locfileid: "60737798"
 
 可以从以下报告访问会议详细信息报告：
 
-- 通过 [单击](call-admission-control-report.md) 会议 (详细信息指标，呼叫允许控制报告) 
+- 呼叫 [允许控制报告](call-admission-control-report.md) (会议记录的详细信息指标进行) 
 
-- 故障 [列表报告](failure-list-report.md) ("会议"指标) 
+- 故障 [列表报告](failure-list-report.md) (会议指标列表) 
 
-- 用户 [活动报告](call-diagnostic-reports-per-user.md) (会议 URI 指标) 
+- 用户 [活动报告](call-diagnostic-reports-per-user.md) (单击"会议 URI"指标) 
 
 从会议详细信息报告中，可以通过单击诊断报告 ([详细信息) 报告](diagnostic-report.md) 。
 

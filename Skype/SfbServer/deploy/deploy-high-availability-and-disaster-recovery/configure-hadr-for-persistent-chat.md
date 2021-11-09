@@ -2,7 +2,7 @@
 title: Business Server 2015：为持久聊天服务器配置高可用性和灾难恢复
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/7/2018
 audience: ITPro
@@ -13,23 +13,23 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 5fb5b189-56c1-49cf-92c8-e4fd6e2fdd5c
 description: 了解如何在 Skype for Business Server 2015 中为持久聊天服务器配置高可用性和灾难恢复。
-ms.openlocfilehash: ce69159126a134893e03ca97e6ac3c2fc20bfda5
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4a214dedacdd38b875db93dc5e2b13f35d640169
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60738888"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60829446"
 ---
 # <a name="business-server-2015-configure-high-availability-and-disaster-recovery-for-persistent-chat-server"></a>Business Server 2015：为持久聊天服务器配置高可用性和灾难恢复
  
 **摘要：** 阅读本主题，了解如何在 Skype for Business Server 2015 中为持久聊天服务器配置高可用性和灾难恢复。
   
-Skype for Business Server后端服务器支持多种高可用性模式，包括数据库镜像。 有关详细信息，请参阅[Plan for high availability and disaster recovery in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)。
+Skype for Business Server支持多种模式的后端服务器高可用性，包括数据库镜像。 有关详细信息，请参阅[Plan for high availability and disaster recovery in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)。
   
 > [!NOTE]
 > 持久聊天服务器不支持 AlwaysOn 可用性组。 
   
-在将持久聊天部署配置为高可用性和灾难恢复之前，请确保您熟悉在[Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md)中规划持久聊天服务器的高可用性和灾难恢复中的概念。 这些主题中介绍的持久聊天服务器的灾难恢复解决方案是在拉伸的持久聊天服务器池上构建的。 规划内容介绍了资源要求以及支持持久聊天服务器的高可用性和灾难恢复的扩展池拓扑，包括使用 SQL Server 镜像实现高可用性和实现灾难恢复的 SQL Server 日志。
+在配置持久聊天部署以用于高可用性和灾难恢复之前，请确保您熟悉在[Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md)中规划持久聊天服务器的高可用性和灾难恢复中的概念。 这些主题中介绍的持久聊天服务器的灾难恢复解决方案是在拉伸的持久聊天服务器池上构建的。 规划内容介绍了资源要求以及支持持久聊天服务器的高可用性和灾难恢复的扩展池拓扑，包括将 SQL Server 镜像用于高可用性和 SQL Server 日志交付，以用于灾难恢复。
   
 ## <a name="use-topology-builder-to-configure-high-availability-and-disaster-recovery"></a>使用拓扑生成器配置高可用性和灾难恢复
 

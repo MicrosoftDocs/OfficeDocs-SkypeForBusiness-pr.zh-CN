@@ -2,7 +2,7 @@
 title: 持久聊天策略主页
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 0dc18d5c-82d6-4d39-afb1-efdb3ae6d2c7
 description: 您可以使用持久聊天组的"持久聊天策略"页来管理全局、池、站点或用户级别的策略，包括配置默认全局策略和为部署创建一个或多个其他用户和站点策略。 如果策略为用户启用了持久聊天服务器，则持久聊天服务器环境将显示在其客户端中。
-ms.openlocfilehash: cb42c24e10905af12308ea42775c5f993dbc4c5c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f53e4763b45efac320bb31921e7d971b038720fb
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60738038"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60827835"
 ---
 # <a name="persistent-chat-policy-main-page"></a>持久聊天策略主页
  
@@ -46,7 +46,7 @@ ms.locfileid: "60738038"
     
 2. 从"**开始**"菜单中，Skype for Business Server控制面板或打开浏览器窗口，然后输入管理 URL。
     
-3. 在Skype for Business Server控制面板"中，单击"**持久聊天**"，然后单击"**持久聊天策略"。**
+3. 在Skype for Business Server控制面板中，单击"**持久聊天**"，然后单击"**持久聊天策略"。**
     
 4. 单击策略列表中的“全局”，再单击“编辑”，然后单击“显示详细信息”。
     
@@ -104,7 +104,7 @@ ms.locfileid: "60738038"
     
    - 在“名称”中，指定新用户策略的名称。
     
-   - 在 **"说明**"中，提供有关用户策略 (例如，特定用户的持久聊天策略) 。
+   - 在 **"** 说明"中，提供有关用户策略 (例如，特定用户的持久聊天策略) 。
     
    - 若要控制未通过用户策略明确控制的所有用户的持久聊天，请选中或清除" **启用持久聊天** "复选框。
     
@@ -112,7 +112,7 @@ ms.locfileid: "60738038"
     
 ## <a name="to-apply-a-persistent-chat-user-policy-to-a-user-account"></a>将持久聊天用户策略应用于用户帐户
 
-如果为用户启用了聊天Skype for Business，您可以将相应的策略应用于特定用户，以对持久聊天服务器启用或禁用这些策略。
+如果为用户启用了Skype for Business，您可以将相应的策略应用于特定用户，以对持久聊天服务器启用或禁用这些策略。
   
 使用本主题中的过程将以前创建的持久聊天用户策略应用于一个或多个用户帐户或用户组。
   

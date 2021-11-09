@@ -2,7 +2,7 @@
 title: ProgressReport 视图
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b49f3fc7-0e2f-498f-8505-aaaf54e435f9
 description: ProgressReport 视图会存储有关已完成的会话的信息。 只会针对 Lync Server 2013 判定可能对诊断有用的呼叫和会话编写进度报告。 此视图在 Microsoft Lync Server 2013 中引入。
-ms.openlocfilehash: 42229b0a756b6ed30c9736f4b97e0d00a653565e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 87f1a0427f78a5d51f1f6bbd0c89e47187e06b25
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767470"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850625"
 ---
 # <a name="progressreport-view"></a>ProgressReport 视图
  

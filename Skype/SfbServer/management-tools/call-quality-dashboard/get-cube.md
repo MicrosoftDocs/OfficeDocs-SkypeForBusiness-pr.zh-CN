@@ -2,7 +2,7 @@
 title: 获取多维数据集
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c8eeb387-dc1e-44e0-bbf9-a566f8bda551
 description: 摘要：了解 Get Cube 操作，该操作是通话质量仪表板的数据 API 的一部分。 通话质量仪表板是一种用于Skype for Business Server。
-ms.openlocfilehash: bb5edc6bba4c374600845d18c371332a62a6085e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 961453404d4abe4f026f240cd03e59a3b4c82993
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60739148"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60827495"
 ---
 # <a name="get-cube"></a>获取多维数据集
  
@@ -43,7 +43,7 @@ Get Cube 操作返回可用维度和度量的列表。
   
  **响应** - 响应包括 HTTP 状态代码和一组响应标头。
   
- **状态代码** - 成功操作返回状态代码 200， (确定) 。
+ **状态代码** - 成功操作返回状态代码 200 (确定) 。
   
  **响应标头** - 无其他标头。
   

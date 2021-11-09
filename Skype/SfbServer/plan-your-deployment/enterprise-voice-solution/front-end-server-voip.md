@@ -2,7 +2,7 @@
 title: 用于服务器的前端服务器 VoIP Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 310e81a7-da45-47d4-95d0-92837e386502
-description: 了解企业语音前端服务器上部署的组件，Skype for Business Server包括翻译服务和各种路由组件。
-ms.openlocfilehash: cb57e3c4d06ff77661453321a7b4f3254c780822
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 了解企业语音前端服务器上部署的组件Skype for Business Server包括翻译服务和各种路由组件。
+ms.openlocfilehash: d649185ccc83da925cc7341087d373d67523b5b6
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751561"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850725"
 ---
 # <a name="front-end-server-voip-components-for-skype-for-business-server"></a>用于服务器的前端服务器 VoIP Skype for Business Server
 
-了解企业语音前端服务器上部署的组件，Skype for Business Server包括翻译服务和各种路由组件。
+了解企业语音前端服务器上部署的组件Skype for Business Server包括翻译服务和各种路由组件。
 
 位于前端服务器的 VoIP 组件如下所示：
 
@@ -57,7 +57,7 @@ ms.locfileid: "60751561"
 
 ## <a name="exchange-um-routing-component"></a>Exchange UM 路由组件
 
-Exchange UM 路由组件处理 Skype for Business Server 与运行 Exchange 统一消息 (UM) 的服务器之间的路由，Skype for Business Server统一消息功能。
+um Exchange 组件处理 Skype for Business Server 与运行 Exchange 统一消息 (UM) 的服务器之间的路由，Skype for Business Server统一消息功能。
 
 如果Exchange UM 服务器不可用，则 UM 路由组件还处理通过 PSTN Exchange语音邮件的重新路由。 如果分支企业语音没有指向中央站点的可恢复 WAN 链路的邮箱用户，则分支站点部署的 Survivable Branch Appliance 在 WAN 中断期间为分支用户提供语音邮件生存能力。 WAN 链路不可用时，Survivable Branch Appliance 将执行以下操作：
 
@@ -67,7 +67,7 @@ Exchange UM 路由组件处理 Skype for Business Server 与运行 Exchange 统�
 
 - 使错过的呼叫通知排队，然后在 WAN 链路还原时将其上载到 Exchange UM 服务器。
 
-若要启用语音邮件重新路由，建议管理员Exchange UM Exchange AA 自动助理 (AA) 接受邮件。
+若要启用语音邮件重新路由，建议您的 Exchange管理员将 UM Exchange AA 自动助理 (配置为) 接受邮件。
 
 有关这些功能的详细信息，请分别参阅[On-Premises Exchange Unified Messaging Integration](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-exchange-unified-messaging-integration)和[Planning for Enterprise Voice Resiliency](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-enterprise-voice-resiliency)。
 

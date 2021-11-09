@@ -2,7 +2,7 @@
 title: 添加控制器功能
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 9c8b1c8e-5a3e-499b-9035-7d2f8e07b389
 ROBOTS: NOINDEX, NOFOLLOW
 description: 如果希望控制器池包含监控服务器，请选择"监控" (CDR 和 QoE) 。
-ms.openlocfilehash: 0fa39f228c8f6202ce6d31b1bec7c3240a66ecf2
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f6f6cc6ea1add6d66c4d717f34970b6f4666744c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60750781"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60829325"
 ---
 # <a name="add-director-features"></a>添加控制器功能
 

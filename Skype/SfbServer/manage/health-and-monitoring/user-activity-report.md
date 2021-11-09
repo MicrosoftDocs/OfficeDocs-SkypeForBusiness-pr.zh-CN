@@ -2,7 +2,7 @@
 title: Skype for Business Server 25 中的用户活动报告
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 3aa6fef2-ea02-4f0f-93e8-fa2e0a953d79
 description: 摘要：了解用户活动报告中Skype for Business Server。
-ms.openlocfilehash: 2d0021a1a8ab72da972c68da94a0a99b84eb7d28
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c78718e55740afdd42ceff11e1ab62d6198c15ec
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778332"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60828735"
 ---
 # <a name="user-activity-report-in-skype-for-business-server"></a>用户活动报告中Skype for Business Server
 
-**摘要：** 了解用户活动报告中的用户Skype for Business Server。
+**摘要：** 了解用户活动报告中Skype for Business Server。
 
 用户活动报告提供了由用户在给定时间段内执行的点对点会话和会议会话的详细列表。与很多监控报告不同，用户活动报告会将每个呼叫与单个用户绑定。例如，点对点会话指定发起呼叫（源用户）的人员以及被呼叫（目标用户）的人员的 SIP URI。如果展开会议的信息，则会看到所有会议参与者及其在该会议中担任的角色的列表。
 
@@ -47,10 +47,10 @@ Ken.my
 
 ## <a name="making-the-best-use-of-the-user-activity-report"></a>充分利用用户活动报告
 
-尽管用户活动报告中有很多有用的信息，但这些信息有时候可能很难找到。 例如，指定期间在组织中进行的所有用户活动都包含在用户活动报告中;这意味着，该报告中隐藏着有关哪些用户实际上Skype for Business Server的信息。
+尽管用户活动报告中有很多有用的信息，但这些信息有时候可能很难找到。 例如，指定期间在组织中进行的所有用户活动都包含在用户活动报告中;这意味着，该报告中隐藏着有关哪些用户实际上以某种Skype for Business Server的信息。
 
 > [!NOTE]
-> 从技术上说，某些用户活动可能未记录：尽管 Skype for Business Server 努力保留有关所有电话呼叫的信息，但可能在未将有关该呼叫的信息写入数据库的情况下进行了呼叫。 Skype for Business Server旨在提供非常准确但不一定完美地查看Skype for Business Server使用方式。  (记录的所有呼叫都无法保证 100% 这一事实说明了为什么不应将 Skype for Business Server 监控用作计费系统。) 秒，监控报告最多只能显示 1，000 条记录。 根据您具有的用户活动的数量以及您工作的时间段，这意味着您的查询可能无法返回数据库中实际存储的所有数据。 
+> 从技术上说，某些用户活动可能未记录：尽管 Skype for Business Server 努力保留有关所有电话呼叫的信息，但如果没有将有关该呼叫的信息写入数据库，则有可能进行了呼叫。 Skype for Business Server旨在提供非常准确但不一定完美地查看Skype for Business Server使用方式。  (记录的所有呼叫都无法保证 100% 这一事实说明了为什么不应将 Skype for Business Server 监控用作计费系统。) 秒，监控报告最多只能显示 1，000 条记录。 根据您具有的用户活动的数量以及您工作的时间段，这意味着您的查询可能无法返回数据库中实际存储的所有数据。 
 
 - 哪些用户在此时间段内实际上使用了系统？
 

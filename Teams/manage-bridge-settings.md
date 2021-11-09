@@ -1,6 +1,6 @@
 ---
 title: 管理 Teams 中的网桥设置
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: ''
@@ -17,13 +17,13 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 了解如何管理 Microsoft Teams 中的网桥设置
-ms.openlocfilehash: 28db50677b9ef09fb7ac7da7f080da034d56de17
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 了解如何在 Microsoft Teams
+ms.openlocfilehash: 5eac35e18a3b5958cd2c333f17cb5d539206e007
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60737448"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60829562"
 ---
 # <a name="manage-bridge-settings-in-teams"></a>管理 Teams 中的网桥设置
 

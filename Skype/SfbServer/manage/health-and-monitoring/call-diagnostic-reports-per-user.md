@@ -1,8 +1,8 @@
 ---
-title: 呼叫诊断 (中每个用户) 报告Skype for Business Server
+title: 呼叫诊断报告 (中每个用户) 报告Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,14 +12,14 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9da13470-001e-415f-b8c5-29b1f3b531ba
 description: 摘要：了解呼叫诊断报告中使用的每用户Skype for Business Server。
-ms.openlocfilehash: 4bb9adb37b37ea06627ba5f678d32b5bdcb50b00
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 03b3afba9a9177bc1628c100ca5083f1be96b48e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766490"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864849"
 ---
-# <a name="call-diagnostic-reports-per-user-in-skype-for-business-server"></a>呼叫诊断 (中每个用户) 报告Skype for Business Server
+# <a name="call-diagnostic-reports-per-user-in-skype-for-business-server"></a>呼叫诊断报告 (中每个用户) 报告Skype for Business Server
   
 呼叫诊断报告提供有关失败的点对点会话和会议会话的每用户信息。 目前只有一个报告，即 **用户活动报告**。
 
@@ -37,20 +37,20 @@ ms.locfileid: "60766490"
 
 - **Ken** nedy@litwareinc.com
 
-若要确保仅返回 Ken Myer 的信息，在搜索框中键入他的完整 URI (Ken.Myer@litwareinc.com) ，或至少键入 Ken 的 URI 类型以将其与组织中其他用户进行唯一区分。 例如：
+为了确保仅返回 Ken Myer 的信息，在搜索框中键入他的完整 URI (Ken.Myer@litwareinc.com) ，或至少键入 Ken 的 URI 类型以将其与组织中其他用户进行唯一区分。 例如：
 
 Ken.my
 
 ## <a name="to-access-the-user-activity-report"></a>访问用户活动报告
 
-用户活动报告是从“监控报告”主页访问的。 您还可以通过单击 IP 清单报告中的"用户 URI"指标[电话"用户活动Skype for Business Server。](ip-phone-inventory-report.md) 在用户活动报告中，单击“会议 URI”（针对会议）会将您转到会议详细信息报告。 同样，单击对等呼叫的"详细信息"指标，将进入"对等会话详细信息报告"中的[Skype for Business Server。](peer-to-peer-session-detail-report.md)
+用户活动报告是从“监控报告”主页访问的。 您还可以通过单击 IP 清单报告中的"用户 URI"指标[电话"](ip-phone-inventory-report.md)用户活动Skype for Business Server。 在用户活动报告中，单击“会议 URI”（针对会议）会将您转到会议详细信息报告。 同样，单击对等呼叫的"详细信息"指标，将进入"对等会话[详细信息报告](peer-to-peer-session-detail-report.md)"中的Skype for Business Server。
 
 ## <a name="making-the-best-use-of-the-user-activity-report"></a>充分利用用户活动报告
 
-尽管用户活动报告中有很多有用的信息，但这些信息有时候可能很难找到。 例如，指定期间在组织中进行的所有用户活动都包含在用户活动报告中;这意味着，该报告中隐藏着有关哪些用户实际上以某种Skype for Business Server的信息。
+尽管用户活动报告中有很多有用的信息，但这些信息有时候可能很难找到。 例如，指定期间在组织中进行的所有用户活动都包含在用户活动报告中;这意味着，该报告中隐藏着有关哪些用户实际上Skype for Business Server的信息。
 
 > [!NOTE]
-> 从技术上说，某些用户活动可能未记录：尽管 Skype for Business Server 努力保留有关所有电话呼叫的信息，但如果没有将有关该呼叫的信息写入数据库，则有可能进行了呼叫。 Skype for Business Server旨在提供非常准确但不一定完美地查看Skype for Business Server使用方式。  (记录的所有呼叫都无法保证 100% 这一事实说明了为什么不应将 Skype for Business Server 监控用作计费系统。) 秒，监控报告最多只能显示 1，000 条记录。 根据您具有的用户活动的数量以及您工作的时间段，这意味着您的查询可能无法返回数据库中实际存储的所有数据。 
+> 从技术上说，某些用户活动可能未记录：尽管 Skype for Business Server 努力保留有关所有电话呼叫的信息，但如果没有将有关该呼叫的信息写入数据库，则有可能进行了呼叫。 Skype for Business Server旨在提供非常准确但不一定完美地查看Skype for Business Server使用方式。  (无法保证 100% 的呼叫都记录，这说明了为什么不应将 Skype for Business Server 监控用作计费系统。) 秒，监控报告最多只能显示 1，000 条记录。 根据您具有的用户活动的数量以及您工作的时间段，这意味着您的查询可能无法返回数据库中实际存储的所有数据。 
 
 - 哪些用户在此时间段内实际上使用了系统？
 
@@ -58,7 +58,7 @@ Ken.my
 
 - 发出电话呼叫最多的用户是否也是参与即时消息会话最多的用户？
 
-如果需要回答类似这样的问题，可以将监控报告检索到的数据导出到Excel电子表格。 然后使用该电子表格和/或逗号分隔值文件以用户活动报告的方式分析数据。 例如，假设您已经将报告数据导出到Excel，然后导出到逗号分隔值文件中。 此时，可以使用与以下.CSV类似的命令Windows PowerShell文件导入数据：
+如果需要回答类似这样的问题，可以将监控报告检索到的数据导出到Excel电子表格。 然后使用该电子表格和/或逗号分隔值文件以用户活动报告的方式分析数据。 例如，假设您已经将报告数据导出到Excel，然后导出到逗号分隔值文件中。 此时，可以使用与以下类似的命令.CSV文件Windows PowerShell数据以导入数据：
 
 ```PowerShell
 $x = Import-Csv -Path "C:\Data\User_Activity_Report.csv"

@@ -2,7 +2,7 @@
 title: 在拓扑生成器中部署中介Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/7/2018
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 59d8f5ba-5064-4ea5-b4bf-2b9736e0fedd
 description: 摘要：了解如何在拓扑生成器中定义和部署中介Skype for Business Server。
-ms.openlocfilehash: 9eb3f00d8530739b3a4e9986da14038ff7d6ed26
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7dd3704b47b384d3fab62a7cc051adcf5b380c0e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60764890"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857029"
 ---
 # <a name="deploy-a-mediation-server-in-topology-builder-in-skype-for-business-server"></a>在拓扑生成器中部署中介Skype for Business Server
  
@@ -40,7 +40,7 @@ ms.locfileid: "60764890"
   
 ### <a name="to-add-a-mediation-server-to-a-front-end-pool"></a>将中介服务器添加到前端池
 
-1. 启动拓扑生成器：单击"开始"，单击"所有程序"，Skype for Business Server **2015"，** 然后单击"Skype for Business Server **2015Topology Builder"。**
+1. 启动拓扑生成器：单击"开始"，单击 **"所有程序**"，Skype for Business Server **2015"，** 然后单击"Skype for Business Server **2015Topology Builder"。**
     
 2. 在拓扑生成器的控制台树中，展开要定义前端池的站点的名称。
     
@@ -64,19 +64,19 @@ ms.locfileid: "60764890"
 7. 将 **一** 个或多个对等方关联到前端池后，单击"完成"。
     
     > [!NOTE]
-    > 在继续执行 企业语音 部署过程中的下一步之前，请确保中介服务器池 (即与) 并排的中介服务器组件的前端池正在使用您指定的 FQDN。 
+    > 在继续执行 企业语音 部署过程中的下一步之前，请确保中介服务器池 (即中介服务器组件并) 的前端池正在使用您指定的 FQDN。 
   
 8. 右键单击 **"Skype for Business Server 2015"** 节点，然后单击"发布 **拓扑"。**
     
 ### <a name="to-add-a-standalone-mediation-server"></a>添加独立中介服务器
 
-1. 启动拓扑生成器：单击"开始"，单击"所有程序"，Skype for Business Server **2015"，** 然后单击"Skype for Business Server **2015Topology Builder"。**
+1. 启动拓扑生成器：单击"开始"，单击 **"所有程序**"，Skype for Business Server **2015"，** 然后单击"Skype for Business Server **2015Topology Builder"。**
     
 2. 在拓扑生成器的控制台树中，展开要定义中介服务器的站点的名称。
     
 3. 在控制台树中，右键单击"中介池 **"** 节点，然后单击"中介 **服务器池"。**
     
-4. 在 **"定义新的中介池**"中，键入中介服务器池的完全限定 (FQDN) 。
+4. 在 **"定义新的中介池**"中，键入中介服务器池的完全限定域名 (FQDN) 。
     
 5. 接下来，执行下列操作之一：
     
@@ -105,7 +105,7 @@ ms.locfileid: "60764890"
   
 ### <a name="to-modify-the-mediation-server-listening-ports"></a>修改中介服务器侦听端口
 
-1. 启动拓扑生成器：单击"开始"，单击"所有程序"，Skype for Business Server **2015"，** 然后单击"Skype for Business Server **2015Topology Builder"。**
+1. 启动拓扑生成器：单击"开始"，单击 **"所有程序**"，Skype for Business Server **2015"，** 然后单击"Skype for Business Server **2015Topology Builder"。**
     
 2. 在拓扑生成器的控制台树中，展开"中介池"节点，然后右键单击之前创建的中介服务器。
     
