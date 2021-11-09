@@ -2,7 +2,7 @@
 title: 对话框表
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 4d93424f-9072-43f5-83c2-3d539e3e9ca6
 description: Dialog 表是一个支持表；每条记录代表一个会话初始协议 (SIP) 对话。
-ms.openlocfilehash: bccc053855ae88bc453aeef27d13732166cc6760
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ab466a158ca059ff3110012a03e5c9c1e39b3d2d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765040"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60851786"
 ---
 # <a name="dialog-table"></a>对话框表
  

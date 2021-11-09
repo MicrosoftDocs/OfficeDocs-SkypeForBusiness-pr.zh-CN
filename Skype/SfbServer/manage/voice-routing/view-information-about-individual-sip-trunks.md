@@ -2,7 +2,7 @@
 title: Skype for Business Server - 查看有关单个 SIP 中继的信息
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,18 +11,18 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 在Skype for Business Server中，可以将多个中继分配给一个 PSTN 网关。 网关和中继不是一样的，管理员必须使用 Get-CsTrunk cmdlet 查看有关单个 SIP 中继的信息。
-ms.openlocfilehash: dc5ccfdb5e248d843fb3a8a4e926a7e462097789
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 98e189def7be1a5f2f913083ba4a38d21da86856
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774712"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835240"
 ---
 # <a name="skype-for-business-server---view-information-about-individual-sip-trunks"></a>Skype for Business Server - 查看有关单个 SIP 中继的信息
 
 在Skype for Business Server中，可以将多个中继分配给一个 PSTN 网关;这意味着网关和中继不是一个相同的，并且管理员必须使用[Get-CsTrunk](/powershell/module/skype/Get-CsTrunk) cmdlet 查看有关单个 SIP 中继的信息。
 
-该Get-CsTrunk cmdlet 可以从命令行管理程序Skype for Business Server远程会话运行Windows PowerShell。
+可以从 Get-CsTrunk Skype for Business Server 命令行管理程序或 Windows PowerShell 的远程会话中运行 Windows PowerShell。
 
 **查看所有 SIP 中继的信息**
 

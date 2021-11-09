@@ -2,7 +2,7 @@
 title: 用户注册报告中Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 151d5cc9-cc1b-4cfa-be9c-55ebe321f7a4
 description: 摘要：了解 Skype for Business Server 中的用户注册报告。
-ms.openlocfilehash: e137fae97f9b39f45dd619d2ed90a4180897c713
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 52927330e00ae1400aceb7db0e935ce1cb5ecff0
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778322"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834190"
 ---
 # <a name="user-registration-report-in-skype-for-business-server"></a>用户注册报告中Skype for Business Server
  
@@ -37,7 +37,7 @@ ms.locfileid: "60778322"
 
 在部署此Skype for Business Server一个常见问题是：我如何知道我的用户是否真正使用此新技术？ 尽管对于这一点仍存在一些限制，但用户注册报告可以帮助您回答此问题。 若要确定用户是否正在使用Skype for Business Server，您需要执行两项操作。 首先，从用户注册报告中获取“唯一登录用户”指标的值。 此值告诉你有多少不同个人登录到Skype for Business Server。
   
-相比之下，"登录总数"指标显示任何人登录总Skype for Business Server。 例如，假设 Ken Myer 在一Skype for Business Server五次登录。 在此情况下，Ken Myer 将在“登录总数”指标中记为五次单独的登录会话，但对于“唯一登录用户”指标只是一个登录用户。 同样，一个用户从多个设备或多个位置登录的情况也很常见。 例如，用户可以使用台式机、笔记本电脑登录，并且可以使用 IP 电话自动登录Skype for Business Server。 在此示例中，一个唯一用户登录三次。
+相比之下，"登录总数"指标显示任何人登录到 Skype for Business Server。 例如，假设 Ken Myer 在一Skype for Business Server五次登录。 在此情况下，Ken Myer 将在“登录总数”指标中记为五次单独的登录会话，但对于“唯一登录用户”指标只是一个登录用户。 同样，一个用户从多个设备或多个位置登录的情况也很常见。 例如，用户可以使用台式机、笔记本电脑登录，并且可以使用 IP 电话自动登录Skype for Business Server。 在此示例中，一个唯一用户登录三次。
   
 为了进一步解释登录总数和唯一登录之间的差别，请考虑下表中给定时间段的登录数。
   
@@ -46,25 +46,25 @@ ms.locfileid: "60778322"
 |Ken Myer  <br/> |2015/7/7 8：45  <br/> |
 |Ken Myer  <br/> |2015/7/7 8：46  <br/> |
 |Pilar Ackerman  <br/> |2015/7/7 9：17  <br/> |
-|Ken Myer  <br/> |7/7/2015 9：22 AM  <br/> |
+|Ken Myer  <br/> |2015/7/7 9：22 AM  <br/> |
 |Pilar Ackerman  <br/> |2015/7/7 9：31  <br/> |
    
 请注意，总共有五次登录；但只有两个唯一登录用户：Ken Myer（登录三次）和 Pilar Ackerman（登录两次）。这就是登录用户和唯一登录用户之间的差异。
   
-除了知道唯一登录数之外，还需要了解已启用登录的用户总数Skype for Business Server。 可以通过打开命令行管理程序并运行以下命令行管理Skype for Business Server检索该值Windows PowerShell命令：
+除了知道唯一登录数之外，还需要了解已启用登录的用户总数Skype for Business Server。 可以通过打开命令行管理程序并运行以下命令行管理Skype for Business Server检索该值Windows PowerShell：
   
 ```PowerShell
 (Get-CsUser).Count
 ```
 
-如果上述命令返回值 1，236，并且"唯一登录用户"指标返回平均值 667，则表明为 Skype for Business 启用的用户中每天实际有一半多一点登录到系统 (即 667 除以 1，236，大约 54%) 。
+如果上述命令返回值 1，236，并且"唯一登录用户"指标返回平均值 667，则表明为 Skype for Business 启用的用户中，有一半以上的用户每天实际登录系统 (即 667 除以 1，236，这大约是 54%) 。
   
 > [!CAUTION]
 > 请记住，登录指标记录指定时段内实际登录的用户。 它们不会跟踪已登录到系统的用户。 例如，如果你的唯一登录用户指标显示 667 次登录，并且你有 1，236 个用户，则表明大约一半的用户登录系统。 但是，假设在开始检查登录数据时已有 300 个用户登录到系统。 这意味着您实际上有近 1，000 个用户登录到 Skype for Business Server，这意味着近 80% 的用户已登录。 
   
-还应将“唯一登录用户”值与“唯一活动用户”指标的值进行比较。 "唯一活动用户"指标会告知您实际使用 Skype for Business Server用户数：他们进行了电话呼叫、Skype for Business Server会议或参与了 IM 会话。 此信息非常有用，因为Skype for Business Server可配置为每次用户启动 Windows。 因此，您可能有大量用户在每天登录到 Skype for Business 时自动登录到 Windows，但在该时段内Skype for Business Server从未实际使用 Skype for Business Server。
+还应将“唯一登录用户”值与“唯一活动用户”指标的值进行比较。 "唯一活动用户"指标会告知您实际使用 Skype for Business Server用户数：他们进行了电话呼叫、Skype for Business Server会议或参与了 IM 会话。 此信息非常有用，因为Skype for Business Server可以配置为每次用户启动时自动启动Windows。 因此，可能有大量用户在每天登录到 Windows 时自动登录到 Skype for Business，但在该时段内从未Skype for Business Server实际使用 Skype for Business Server。
   
-"唯一活动用户"指标还在组织中提供更有意义的数据，其中用户在一天结束时Windows注销。 相反，他们只需锁定计算机，Windows Skype for Business运行。 在此类情况下，由于用户在若干天之前登录并且从未注销，因此每天的登录数可能很少。 但是，"唯一活动用户"会告知用户是主动Skype for Business还是Skype for Business Server客户端。
+"唯一活动用户"指标还在组织中提供更有意义的数据，其中用户通常不会Windows一天结束时注销。 相反，他们只需锁定计算机，Windows Skype for Business运行。 在此类情况下，由于用户在若干天之前登录并且从未注销，因此每天的登录数可能很少。 但是，唯一活动用户会告知用户是主动Skype for Business还是Skype for Business Server客户端。
   
 ## <a name="filters"></a>筛选器
 
@@ -78,7 +78,7 @@ ms.locfileid: "60778322"
 |:-----|:-----|
 |**From** <br/> |时间范围的开始日期和时间。若要按小时查看数据，请输入开始日期和时间，如下所示：  <br/> 7/7/2015 1：00 PM  <br/> 如果您未输入开始时间，该报告会自动将某个特定日的上午 12:00 作为开始时间。若要按日查看数据，请只输入日期：  <br/> 7/7/2015  <br/> 若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：  <br/> 7/3/2015  <br/> 一周始终是从星期日开始至星期六结束。  <br/> |
 |**To** <br/> |时间范围的结束日期和时间。若要按小时查看数据，请输入结束日期和时间，如下所示：  <br/> 7/7/2015 1：00 PM  <br/> 如果您未输入结束时间，该报告会自动将某个特定日的上午 12:00 作为结束时间。若要按日查看数据，请只输入日期：  <br/> 7/7/2015  <br/> 若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：  <br/> 7/3/2015  <br/> 一周始终是从星期日开始至星期六结束。  <br/> |
-|**Interval** <br/> | 时间间隔。选择下列选项之一： <br/>  每小时（最多可显示 25 个小时） <br/>  每天（最多可显示 31 天） <br/>  每周（最多可显示 12 周） <br/>  每月（最多可显示 12 个月） <br/>  如果开始日期和结束日期超出了所选间隔允许的最长时间，则仅显示最长时间（从开始日期开始）。 例如， 如果您选择开始日期为 2015/7/7、结束日期为 2015/2/28 的"每天"间隔，则会显示从 2015 年 8 月 7 日上午 12：00 到 2015 年 9 月 7 日上午 12：00 (即总共 31 天的数据) 。 <br/> |
+|**Interval** <br/> | 时间间隔。选择下列选项之一： <br/>  每小时（最多可显示 25 个小时） <br/>  每天（最多可显示 31 天） <br/>  每周（最多可显示 12 周） <br/>  每月（最多可显示 12 个月） <br/>  如果开始日期和结束日期超出了所选间隔允许的最长时间，则仅显示最长时间（从开始日期开始）。 例如，如果您选择开始日期为 2015/7/7 和结束日期为 2015/2/28 的"每天"间隔， 显示 2015 年 8 月 7 日上午 12：00 到 2015 年 9 月 7 日上午 12：00 (即总共 31 天的数据) 。 <br/> |
 |**Pool** <br/> |注册器池或边缘服务器的完全限定域名 (FQDN)。 可以选择单个池，也可以选择“[所有]”查看所有池的数据。 系统根据数据库中的记录自动为您填充该下拉列表。 <br/> |
    
 ## <a name="metrics"></a>度量标准

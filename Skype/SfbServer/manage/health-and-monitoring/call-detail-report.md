@@ -1,8 +1,8 @@
 ---
-title: 呼叫详细信息报告Skype for Business Server
+title: 呼叫详情报告Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,18 +12,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 38862e35-3fec-41b9-a035-0b301942d446
 description: 摘要：了解用于呼叫Skype for Business Server。
-ms.openlocfilehash: 550c218d4799623359f68930286210116628b005
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8f5d9e99a9141e1954aef2636ed5d671003e6ad3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767740"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834210"
 ---
-# <a name="call-detail-report-in-skype-for-business-server"></a>呼叫详细信息报告Skype for Business Server
+# <a name="call-detail-report-in-skype-for-business-server"></a>呼叫详情报告Skype for Business Server
  
-**摘要：** 了解呼叫报告中使用的呼叫详细信息Skype for Business Server。
+**摘要：** 了解在呼叫记录中使用的呼叫Skype for Business Server。
   
-呼叫详情报告提供单个呼叫的详细外观;该报告包括几乎所有由组织收集的用户体验质量指标和Skype for Business Server，分为以下报告部分：
+呼叫详情报告提供单个呼叫的详细外观;该报告包括几乎所有用户体验质量指标和由组织收集的统计信息Skype for Business Server分为以下报告部分：
   
 - 呼叫信息 
     
@@ -57,11 +57,11 @@ ms.locfileid: "60767740"
     
 - 通过[单击"呼叫](comparison.md)列表报告Skype for Business Server (Skype for Business Server报告中的"呼叫列表报告["，](call-list-report-0.md)然后单击"详细信息"指标) 。
     
-- 通过[单击"](server-performance.md)呼叫量"或Skype for Business Server (质量欠佳的呼叫百分比"指标) 
+- 通过[单击"呼叫量"](server-performance.md)或"质量欠佳的呼叫百分比"指标Skype for Business Server (中的服务器性能报告) 
     
 - 通过[单击"详细信息Skype for Business Server (](call-list-report-0.md)报告中的呼叫列表报告) 
     
-从呼叫详细信息报告中，可以通过单击以下指标之[](device-report.md)一Skype for Business Server报告中的设备报告：
+在呼叫详细信息报告中，可以通过单击以下指标之[](device-report.md)一Skype for Business Server报告中的设备报告：
   
 - 捕获设备
     

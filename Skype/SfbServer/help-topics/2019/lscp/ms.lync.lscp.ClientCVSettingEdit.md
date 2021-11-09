@@ -2,7 +2,7 @@
 title: 客户端版本配置 创建新的或编辑现有的
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 07fec57c-5cd3-422a-829a-0b62cb0092c4
 ROBOTS: NOINDEX, NOFOLLOW
 description: 客户端版本配置设置用于打开或关闭客户端版本控制。 全局客户端版本配置随 Skype for Business Server 一起安装，用于启用或禁用整个服务器部署的客户端版本控制。 当全局配置处于启用状态时，用户尝试登录后您所拥有的任何客户端版本策略都将生效。 如果不希望发生任何客户端版本控制，则可以禁用全局客户端版本配置。
-ms.openlocfilehash: 8f55d270a3c5bb2d884f2191d821de70e3fea273
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c66306de18434cbec72e57af0e062841eb2a663c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773162"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859549"
 ---
 # <a name="client-version-configuration-create-new-or-edit-existing"></a>客户端版本配置：创建新的或编辑现有的
 
@@ -42,7 +42,7 @@ ms.locfileid: "60773162"
 
 下表介绍了该页上的菜单、命令、字段和属性。
 
-- **范围** 标识客户端 (配置) 全局或站点范围。
+- **范围** 标识客户端 (的全局) 站点范围。
 
 - **名称** 可以添加或修改客户端版本配置的名称。
 

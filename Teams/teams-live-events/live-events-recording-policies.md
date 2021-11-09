@@ -1,6 +1,6 @@
 ---
 title: 实时事件录制策略
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
@@ -17,16 +17,16 @@ description: 了解实时事件录制策略。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 01fe1b00a4c8367dfd9c1274e3591a03b3c09634
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9dbed75a7f9c9655cc52bb798eefb0038cc5fe4a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769800"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60844925"
 ---
 # <a name="live-event-recording-policies-in-microsoft-teams"></a>实时事件录制策略Microsoft Teams
 
-你有几个选项用于录制实时Microsoft Teams活动。 录制选项是使用录制策略设置的。 本文介绍各种设置。
+可以使用多个选项来录制实时Microsoft Teams活动。 录制选项是使用录制策略设置的。 本文介绍各种设置。
 
 录制选项是使用 PowerShell 命令 [Set-CsTeamsMeetingBroadcastPolicy 设置的](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy)。
 
@@ -58,15 +58,15 @@ ms.locfileid: "60769800"
 
 | 选项                                       | 省/市/自治区   | DVR                                                   | VOD                                                     | 录制                |
 | ------------------------------------------------ | ------------ | --------------------------------------------------------- | ----------------------------------------------------------- | ---------------------------- |
-| 可用于与会者的录制 | 选中     | DVR 可用，AZURE 媒体服务 (AMS) 资产存储 180 天 | 与会者可以访问和观看活动                     |                              |
+| 可用于与会者的录制 | 选中     | DVR 可用，AZURE 媒体服务 (AMS) 存储 180 天 | 与会者可以访问和观看活动                     |                              |
 |                                                  | 未选中 | DVR 可用，AMS 资产存储 180 天 | 结束后，与会者无法访问事件 |                              |
-||已禁用 (未选中) |DVR 可用，事件后将删除 AMS 资产|结束后，与会者无法访问事件||
+||已禁用 (未选择) |DVR 可用，事件后将删除 AMS 资产|结束后，与会者无法访问事件||
 | 可供制作者和演示者使用的记录 | 选中     |                                                           |                                                             | 创建并存储 MP4 |
 |                                                  | 未选中 |                                                           |                                                             | 未创建任何文件           |
 
 ### <a name="related-topics"></a>相关主题
 
 - [什么是 Teams 实时活动?](what-are-teams-live-events.md)
-- [规划 Teams 实时事件](plan-for-teams-live-events.md)
+- [规划 Teams 直播活动](plan-for-teams-live-events.md)
 - [配置 Teams 实时事件设置](configure-teams-live-events.md)
 - [Teams云会议录制](../cloud-recording.md)

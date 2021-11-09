@@ -2,7 +2,7 @@
 title: 为外部用户配置存档免责声明Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 394ac291-05cd-4fa1-acb3-714af538b47f
 description: 摘要：阅读本主题，了解如何配置存档Skype for Business Server。
-ms.openlocfilehash: a5777a416d634f6d767efbec97f2c72bc7899c47
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 05eaec40556b383525331405463ee6d0a10e0a13
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773392"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834710"
 ---
 # <a name="configure-archiving-disclaimers-for-external-users-in-skype-for-business-server"></a>为外部用户配置存档免责声明Skype for Business Server
  
@@ -25,7 +25,7 @@ ms.locfileid: "60773392"
   
 如果您的组织与外部合作伙伴通信，您需要让他们知道您正在存档与外部合作伙伴的通信。 为组织部署边缘服务器并启用联盟时，会询问您是否要自动向外部合作伙伴发送存档免责声明。 
   
-如果需要更改此配置，可以使用 Skype for Business Server 控制面板或 Windows PowerShell **Set-CsAccessEdgeConfiguration** cmdlet。 Cmdlet 可以从命令行管理程序Skype for Business Server或远程会话运行Windows PowerShell。
+如果需要更改此配置，可以使用 Skype for Business Server 控制面板或 Windows PowerShell **Set-CsAccessEdgeConfiguration** cmdlet。 Cmdlet 可以从命令行管理程序Skype for Business Server远程会话运行Windows PowerShell。
   
 若要使外部用户能够与 Skype for Business Server 部署中的用户进行协作，还必须至少配置一个外部访问策略以支持外部用户访问。 有关详细信息，请参阅管理组织的 XMPP 联盟伙伴。 有关控制特定联盟域的访问的详细信息，请参阅控制单个联盟域的访问。
   
@@ -43,7 +43,7 @@ ms.locfileid: "60773392"
     
 6. 单击“提交”。
     
-## <a name="enable-or-disable-archiving-disclaimer-using-windows-powershell"></a>启用或禁用使用存档免责声明Windows PowerShell
+## <a name="enable-or-disable-archiving-disclaimer-using-windows-powershell"></a>使用存档规则启用或禁用存档Windows PowerShell
 
 要启用存档免责声明，请将 **EnableArchivingDisclaimer** 属性的值设置为 True ($True)：
   

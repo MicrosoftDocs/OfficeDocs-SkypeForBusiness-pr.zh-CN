@@ -2,7 +2,7 @@
 title: 未分配电话号码
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,17 +15,17 @@ ms.localizationpriority: medium
 ms.assetid: 24eca749-a9f3-40e7-839b-d21c3ef7d533
 ROBOTS: NOINDEX, NOFOLLOW
 description: 未分配号码是指对于组织有效但尚未分配给用户或电话的电话号码。未分配号码表标识您希望如何处理对未分配号码的调用。
-ms.openlocfilehash: 6b621d005f7768fb981fc6d70ef179ee8e8e1586
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: fa7fd55f0c0fae22643d0dde66cae32c2610bdcd
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778712"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834520"
 ---
 # <a name="unassigned-phone-number"></a>未分配电话号码
 
 > [!NOTE]
-> ExchangeSkype for Business Server 将 Skype for Business 2019 与 Exchange 2013 或 Exchange 2016 集成后，UM 在 Exchange 2019 中仍然可用。 由于 2019 年 Exchange 支持的变化，Exchange UM 集成的重要性正在减少，以支持 云语音邮件 和云自动助理功能。
+> ExchangeSkype for Business Server 将 Skype for Business 2019 与 Exchange 2013 或 Exchange 2016 集成后，UM 在 Exchange 2019 中仍然可用。 由于 2019 年 Exchange 支持的变化，EXCHANGE UM 集成的重要性正在减少，以支持 云语音邮件 和云自动助理功能。
 
 未分配号码是指对于组织有效但尚未分配给用户或电话的电话号码。未分配号码表标识您希望如何处理对未分配号码的调用。
 
@@ -56,7 +56,7 @@ ms.locfileid: "60778712"
 
 - **编辑** 打开选定的未分配号码范围进行编辑，选择列表中的所有未分配号码范围，或删除所选的未分配号码范围。
 
-- **上移** 将所选未分配号码范围在列表中上移，以便Skype for Business Server找到该号码范围，并应用指定的操作，然后再应用为列表中其他范围指定的操作。
+- **上移** 将选定的未分配号码范围在列表中上移，以便Skype for Business Server查找该号码范围，并应用指定的操作，然后再应用为列表中其他范围指定的操作。
 
     > [!NOTE]
     > Skype for Business Server从上到下搜索未分配号码表，并使用第一个匹配未分配号码的范围。 例如，如果有一个范围指定了最后一种操作，请确保将该范围置于列表底部。

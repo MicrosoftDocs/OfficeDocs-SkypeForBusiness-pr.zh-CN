@@ -2,7 +2,7 @@
 title: 创建或删除通知Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
 description: 创建或删除通知应用程序中通知Skype for Business Server 企业语音。 这会影响如何处理对未分配号码的呼叫。
-ms.openlocfilehash: 3a5fdbcb5f9c4e72790f35f73cef791868634ce9
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 26882070c566eba57925b5eddc43cd11d0e9ea7d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765920"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843515"
 ---
 # <a name="create-or-delete-an-announcement-in-skype-for-business-server"></a>创建或删除通知Skype for Business Server
 
@@ -41,10 +41,10 @@ ms.locfileid: "60765920"
 
 2. 对于音频提示，请运行 **Import-CsAnnouncementFile** cmdlet 将音频文件的内容导入文件存储。
 
-3. 运行 **New-CsAnnouncement** cmdlet 以创建通知并命名通知。 执行此步骤可创建包含音频提示、TTS 文本到语音 (或) 提示）通知。
+3. 运行 **New-CsAnnouncement** cmdlet 以创建通知并命名通知。 执行此步骤可创建具有音频提示、文本到语音 (TTS) 或无提示通知。
 
     > [!TIP]
-    > 例如，如果要将呼叫转接到特定目标而不播放消息 (，可能需要创建无提示通知) 。
+    > 例如，如果要将呼叫转接到特定目标而不播放消息 (，可能需要创建无提示) 。
 
 4. 将新通知分配给未分配号码表中的号码范围。
 
@@ -52,7 +52,7 @@ ms.locfileid: "60765920"
 
 1. 对于音频提示，请创建音频文件。
 
-2. 以 RTCUniversalServerAdmins 组的成员或委派安装权限中所述的必要用户权限登录到安装了 Skype for Business Server 命令行管理程序 **的计算机**。
+2. 以 RTCUniversalServerAdmins 组的成员或所需的用户权限（如D delegate **Setup Permissions** 中所述）登录到安装了命令行管理程序Skype for Business Server的计算机。
 
 3. 启动命令行Skype for Business Server：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击"Skype for Business Server **命令行管理程序"。**
 
@@ -90,7 +90,7 @@ ms.locfileid: "60765920"
 
 ### <a name="to-delete-an-announcement"></a>删除通知
 
-1. 以 RTCUniversalServerAdmins 组的成员或委派安装权限中所述的必要用户权限登录到安装了 Skype for Business Server 命令行管理程序 **的计算机**。
+1. 以 RTCUniversalServerAdmins 组的成员或所需的用户权限（如D delegate **Setup Permissions** 中所述）登录到安装了命令行管理程序Skype for Business Server的计算机。
 
 2. 启动命令行Skype for Business Server：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击"Skype for Business Server **命令行管理程序"。**
 

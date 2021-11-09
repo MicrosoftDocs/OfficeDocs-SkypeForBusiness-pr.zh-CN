@@ -2,7 +2,7 @@
 title: 定义持久聊天池的属性和选项
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: f4914a44-2113-48f1-8299-4645fc7011b6
 description: 通过定义以下属性配置持久聊天服务器或持久聊天服务器池的选项：
-ms.openlocfilehash: 11b4731228f3690ce0fbe2675b5cef35faa3378e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 72afab6d9c74f2347bd14a4d597cf82525c11b48
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760800"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60851306"
 ---
 # <a name="define-properties-and-options-for-persistent-chat-pool"></a>定义持久聊天池的属性和选项
  

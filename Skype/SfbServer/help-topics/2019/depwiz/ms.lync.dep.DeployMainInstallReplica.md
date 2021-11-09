@@ -2,7 +2,7 @@
 title: 安装本地配置存储
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: d9c4bcc2-11a7-4d4d-858d-224db217ad32
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要开始安装新的 Skype for Business Server 角色服务器，必须先安装将SQL Server本地配置存储的本地服务器。 本地配置存储将充当 CMS 管理中心Skype for Business Server管理 (只读) 。
-ms.openlocfilehash: 993eaa4e07a1b14e1ddeef11c80a15b4869b7719
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 82e82bc87a20f1bd4c86c4aa7c3e8c6bc8858c1b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60738658"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859569"
 ---
 # <a name="install-local-configuration-store"></a>安装本地配置存储
 

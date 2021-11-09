@@ -2,7 +2,7 @@
 title: 边缘下一跃点设置扩展器
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 7bb385b7-18c2-42a3-b8a9-cea7bf0c8fc9
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要设置或修改边缘服务器用于与内部基础结构通信的"下一个跃点池"，请从列表中选择控制器、控制器池、前端服务器或前端服务器池。 列表中只显示已在拓扑生成器中配置的控制器或前端服务器。
-ms.openlocfilehash: cef9c72da22c70814ad5dc3af07eea076339dde1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0a919d50be48066cc5e07c710289200b7d0821db
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771010"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60844745"
 ---
 # <a name="edge-next-hop-settings-expander"></a>边缘下一跃点设置扩展器
 

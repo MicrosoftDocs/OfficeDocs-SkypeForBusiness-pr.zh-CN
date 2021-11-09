@@ -2,7 +2,7 @@
 title: MacAddress 表
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: a32e68c5-3f95-4217-aff4-cb3d1cc70505
 description: MacAddress 表是一个支持表。每条记录分别表示一个来源。
-ms.openlocfilehash: c8c9e739b9fc558dde2a2e517526f5fb8bebec30
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: afa3d0b06d212200864f40757f5169219e8e50bb
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60737508"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60844015"
 ---
 # <a name="macaddress-table"></a>MacAddress 表
  

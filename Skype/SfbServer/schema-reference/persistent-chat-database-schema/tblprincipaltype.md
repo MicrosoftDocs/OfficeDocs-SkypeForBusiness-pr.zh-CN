@@ -2,7 +2,7 @@
 title: tblPrincipalType
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 32e1c1d6-80f4-4624-bf4e-b4c77d3982fa
 description: tblPrincipalType 包含用于对 tblPrincipal 表中的内容进行分类的主体类型。
-ms.openlocfilehash: 3fa86d3cfed058387681ff0fc5eb2b3ec7afb26d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: cf55ba04afe3688d3ecfd397dc4ffcbe50da2c19
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60743108"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60844065"
 ---
 # <a name="tblprincipaltype"></a>tblPrincipalType
  
@@ -46,7 +46,7 @@ tblPrincipalType 包含用于对 tblPrincipal 表中的内容进行分类的主�
 |1  <br/> |任何  <br/> |未知类型的通用主体。不用于 tblPrincipal 表。  <br/> ||
 |2  <br/> |AnyUser  <br/> |用户类型的通用主体。不用于 tblPrincipal 表。  <br/> |是  <br/> |
 |3  <br/> |AnyGroup  <br/> |组语义的通用主体。不用于 tblPrincipal 表。  <br/> ||
-|4   <br/> |SystemUser  <br/> |持久聊天服务器内部使用的主体。  <br/> ||
+|4  <br/> |SystemUser  <br/> |持久聊天服务器内部使用的主体。  <br/> ||
 |5  <br/> |User  <br/> |常规用户。  <br/> |是  <br/> |
 |8   <br/> |DC  <br/> |Active Directory 域服务域控制器。  <br/> ||
 |9   <br/> |Group  <br/> |Active Directory 安全组。  <br/> ||

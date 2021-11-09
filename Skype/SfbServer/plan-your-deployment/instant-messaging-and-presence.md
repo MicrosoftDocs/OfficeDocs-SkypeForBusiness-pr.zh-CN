@@ -2,7 +2,7 @@
 title: 规划即时消息和即时消息中的Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -11,27 +11,27 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 70d2151e-9382-485d-ab14-758597571a74
-description: 摘要：了解如何在 Skype for Business Server 中规划即时消息和Skype for Business Server。
-ms.openlocfilehash: 20de382c034e2049bdb7bb2b36f2da9bc847b876
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 摘要：了解如何在客户端中规划即时消息Skype for Business Server。
+ms.openlocfilehash: b81da143bf7b8d917d88939d8b28261910bb8f5a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60737658"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835080"
 ---
 # <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>规划即时消息和即时消息中的Skype for Business Server
  
 **摘要：** 了解如何在客户端中规划即时消息Skype for Business Server。
   
-规划即时消息和即时消息中的Skype for Business Server。 若要了解特定的部署选项（如启用或禁用脱机即时消息 (IM) ，请参阅D部署即时消息和状态[Skype for Business Server](../deploy/im-and-presence/im-and-presence.md)。
+规划即时消息和即时消息中的Skype for Business Server。 若要了解特定的部署选项，例如启用或禁用脱机即时消息 (IM) ，[请参阅D部署](../deploy/im-and-presence/im-and-presence.md)即时消息和状态Skype for Business Server 。
   
 ## <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>规划即时消息和即时消息中的Skype for Business Server
 
-前端服务器提供了核心Skype for Business Server功能，如即时消息 (IM) 和状态，并且包含在每个Skype for Business Server中。 有两个版本Skype for Business Server Enterprise Edition：主要面向大型组织的 Skype for Business Server Standard Edition 和 Skype for Business Server Standard Edition，主要面向需要硬件投资较少，不需要完整的高可用性选项。 这两个版本都支持Skype for Business Server工作负载，包括 IM、状态、会议和企业语音。
+前端服务器提供了核心Skype for Business Server功能，如即时消息 (IM) 和状态，并且包含在每个Skype for Business Server部署中。 有两个版本Skype for Business Server Enterprise Edition：主要面向大型组织的 Skype for Business Server Standard Edition 和 Skype for Business Server Standard Edition，主要针对需要硬件投资较少，不需要完整的高可用性选项。 这两个版本都支持Skype for Business Server工作负载，包括 IM、状态、会议和企业语音。
   
 通过即时消息 (IM)，用户可以在其计算机上使用基于文本的消息进行实时通信。支持双方和多方之间的 IM 会话。双方 IM 对话中的一方可以随时将第三方参与者加入对话中。发生这种情况时，对话窗口会做出相应改变以支持会议功能。
   
-状态为用户提供有关网络上其他人的状态的信息。 用户的状态信息可帮助其他人决定是否应尝试与用户联系以及是使用即时消息、电话还是电子邮件。 只要有可能，状态就会敦促进行即时通信；但状态也提供关于用户是否在开会或外出的信息，表明这种情况下不能进行即时通信。 此状态在 Skype for Business 和其他状态感知应用程序（包括 Microsoft Outlook 消息和协作客户端、Microsoft SharePoint 技术和 Microsoft Office）中显示为状态图标。 状态图标表示用户的当前可用性和通信愿意。 
+状态为用户提供有关网络上其他人的状态的信息。 用户的状态信息可帮助其他人决定是否应尝试与用户联系以及是使用即时消息、电话还是电子邮件。 只要有可能，状态就会敦促进行即时通信；但状态也提供关于用户是否在开会或外出的信息，表明这种情况下不能进行即时通信。 此状态在 Skype for Business 和其他状态感知应用程序中显示为状态图标，包括 Microsoft Outlook 消息和协作客户端、Microsoft SharePoint 技术和 Microsoft Office。 状态图标表示用户的当前可用性和通信愿意。 
   
 ### <a name="technical-requirements"></a>技术要求
 
@@ -43,7 +43,7 @@ ms.locfileid: "60737658"
   
 - 远程用户：组织自己的用户，当他们在防火墙外工作并且使用其便携式计算机或其他Skype for Business Server设备。
     
-- 联盟用户：来自合作公司同时也运行联合Skype for Business Server。 若要使用户轻松与这些用户联系，请与这些公司建立联盟关系。 
+- 联盟用户：来自合作公司同时也运行联盟Skype for Business Server。 若要使用户轻松与这些用户联系，请与这些公司建立联盟关系。 
     
 - Skype：Skype for Business IM、语音和视频Skype数亿用户。
     

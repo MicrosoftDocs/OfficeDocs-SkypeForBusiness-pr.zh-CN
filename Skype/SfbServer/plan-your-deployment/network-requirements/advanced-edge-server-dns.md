@@ -2,7 +2,7 @@
 title: 高级边缘服务器 DNS 规划Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 audience: ITPro
 manager: serdars
 ms.topic: conceptual
@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: 查看部署选项Skype for Business Server方案。 无论是希望使用单个服务器，还是首选具有 DNS 或 HLB 的服务器池，本主题都应有所帮助。
-ms.openlocfilehash: 8aada20b1ffe712a5b4cf0f9df42b139f25248dc
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 2c9ea99ae8f5ae7c6151dc337bd5571d739ff549
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60737668"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60844105"
 ---
 # <a name="advanced-edge-server-dns-planning-for-skype-for-business-server"></a>高级边缘服务器 DNS 规划Skype for Business Server
  
 **摘要：** 查看部署选项Skype for Business Server方案。 无论是希望使用单个服务器，还是首选具有 DNS 或 HLB 的服务器池，本主题都应有所帮助。
   
-在规划域名系统 (DNS) 时Skype for Business Server很多因素都可能会影响你的决策。 如果组织的域结构已就位，这可能就是查看如何继续的问题。 我们将从以下主题开始：
+对于域名系统 (DNS) 规划Skype for Business Server，你的决策可能涉及许多因素。 如果组织的域结构已就位，这可能就是查看如何继续的问题。 我们将从以下主题开始：
   
 - [客户端定位Skype for Business的演练](../../plan-your-deployment/edge-server-deployments/advanced-edge-server-dns.md#WalkthroughOfSkype)
     
@@ -75,7 +75,7 @@ Skype for Business客户端在客户端中查找和访问服务的方式与以�
 自动发现服务始终受支持，因为这是服务位置的首选方法，其他方法为回退方法。
   
 > [!NOTE]
-> 在创建 SRV 记录时，必须记住，如果使用 IPv6 寻址) （在创建 DNS SRV 记录的同一域中）中，它们需要指向 DNS A (和 AAAA。 例如，如果 SRV 记录在 contoso.com 中，则它指向的 A (和 AAAA) 记录不能 fabrikam.com。 
+> 在创建 SRV 记录时，必须记住，如果使用创建 DNS SRV 记录的同一域中的 IPv6 寻址) ，需要指向 DNS A (和 AAAA。 例如，如果 SRV 记录在 contoso.com 中，则它指向的 A (和 AAAA) 记录不能 fabrikam.com。 
   
 如果你倾向于这样做，你可以将移动设备设置为手动发现服务。 如果你希望这样做，每个用户都需要使用完整的内部和外部自动发现服务 URI（包括协议和路径）配置其移动设备设置，如下所示：
   
@@ -98,11 +98,11 @@ Skype for Business客户端在客户端中查找和访问服务的方式与以�
   
 ### <a name="internal-dns"></a>内部 DNS
 
-- 包含名为 dns 区域 (例如) contoso.com DNS 区域，该 DNS 区域具有权威性。
+- 包含名为 dns 区域 (例如) contoso.com，它的权威 DNS 区域。
     
 - 此内部 contoso.com 包含：
     
-  - 如果对前端池、控制器池或控制器池名称以及组织网络中运行 Skype for Business Server 的所有内部服务器使用 IPv6 寻址) 记录，则 DNS A 和 AAAA (。
+  - 如果对前端池、控制器池或控制器池名称以及组织网络中运行 Skype for Business Server 的所有内部服务器使用 IPv6 寻址) 记录，则 DNS A 和 AAA (A 为 DNS A 和 AAAA。
     
   - 如果为外围网络中 (边缘服务器的边缘内部接口使用 IPv6 寻址) 记录，则 DNS A 和 AAAA Skype for Business Server。
     
@@ -118,7 +118,7 @@ Skype for Business客户端在客户端中查找和访问服务的方式与以�
     
 ### <a name="external-dns"></a>外部 DNS
 
-- 包含名为 dns 区域 (例如) contoso.com DNS 区域，该 DNS 区域具有权威性。
+- 包含名为 dns 区域 (例如) contoso.com，它的权威 DNS 区域。
     
 - 此外部 contoso.com 包含：
     
@@ -162,7 +162,7 @@ Skype for Business客户端在客户端中查找和访问服务的方式与以�
   
 - **匹配内部区域**
     
-    您需要在内部 DNS 中创建一个与外部 DNS 区域 (（例如 contoso.com) ）匹配的区域，如果使用的是与用于自动配置的 Skype for Business Server 池对应的 IPv6 寻址) 记录，则需要创建 DNS A (和 AAAA。
+    您需要在内部 DNS 中创建一个与外部 DNS 区域 (（例如 contoso.com) ）相匹配的区域，然后使用与用于自动配置的 Skype for Business Server 池相对应的 IPv6 寻址) 记录，然后创建 DNS A (和 AAAA。
     
     例如，如果你的用户托管在 pool01.contoso.net 上，但以 bob@contoso.com 登录 Skype for Business，请创建名为 contoso.com 的内部 DNS 区域，如果在 pool01.contoso.com 使用 IPv6 寻址的) 记录，则需要在内部创建 DNS A (和 AAAA。
     
@@ -250,7 +250,7 @@ DNS 负载平衡用于：
     
 - 负载平衡 统一通信应用程序服务 (一) 应用程序，如会议自动助理、响应组和呼叫应答。
     
-- 阻止与 一起 (的 一系列新连接，也称为排出) 。
+- 阻止与 一些 一 (一起的新连接，也称为排出) 。
     
 - 负载平衡客户端和边缘服务器之间的所有客户端到服务器流量。
     

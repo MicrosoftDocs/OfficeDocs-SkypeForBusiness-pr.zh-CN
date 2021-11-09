@@ -2,7 +2,7 @@
 title: 管理网络区域
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 网络区域* 是呼叫允许控制、E9-1-1 和媒体旁路配置中使用的网络中心或网络中枢。
-ms.openlocfilehash: 5bfe3051404b41cd6a1d96bfac240e83070bbdbc
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 5d0a40576098ceb641bdc677a551908b6a23044b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759734"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843865"
 ---
 # <a name="managing-network-regions-in-skype-for-business-server"></a>在 Skype for Business Server 中管理网络区域
 
@@ -27,7 +27,7 @@ ms.locfileid: "60759734"
 ## <a name="view-network-region-information"></a>查看网络区域信息 
 
 
-网络区域将跨多个地理区域的网络的各个部分相互连接起来。 每个网络区域都必须与中央站点关联。 中央站点是运行呼叫允许控制 (CAC) 带宽策略服务的数据中心站点。 可以使用"Skype for Business Server"来查看网络区域。 网络区域包括确定音频和视频连接是否可以使用通过 Internet 的备用路径的设置。 使用本主题可查看现有网络区域。 
+网络区域将跨多个地理区域的网络的各个部分相互连接起来。 每个网络区域都必须与中央站点关联。 中央站点是运行呼叫允许控制 (CAC) 带宽策略服务的数据中心站点。 可以使用控制面板Skype for Business Server网络区域。 网络区域包括确定音频和视频连接是否可以使用通过 Internet 的备用路径的设置。 使用本主题可查看现有网络区域。 
 
 ### <a name="to-view-information-about-a-network-region-with-skype-for-business-server-control-panel"></a>使用控制面板查看有关Skype for Business Server区域的信息
 
@@ -51,7 +51,7 @@ ms.locfileid: "60759734"
 
 ### <a name="to-view-network-region-information"></a>查看网络区域信息
 
-  - 若要查看有关所有网络区域的信息，请在命令行管理程序中键入Skype for Business Server命令，然后按 Enter：
+  - 若要查看有关所有网络区域的信息，请在命令行管理程序中Skype for Business Server以下命令，然后按 Enter：
     
     **Get-CsNetworkRegion**
     
@@ -82,7 +82,7 @@ ms.locfileid: "60759734"
 
 4.  在"区域 **"页上**，单击"新建 **"。**
 
-5.  在" **新建区域"** 页的"名称"字段中 **键入** 值。 此值在部署中必须Skype for Business Server。
+5.  在" **新建区域"** 页的"名称"字段中 **键入** 值。 此值在部署中必须Skype for Business Server唯一。
 
 6.  从 **中央站点** 下拉列表中，选择此网络区域的中央站点。
 
@@ -90,7 +90,7 @@ ms.locfileid: "60759734"
 
 8.  默认情况下 **选中"** 启用视频备用路径"复选框。 如果主路径中不存在足够的带宽，此字段确定是否将通过备用路径路由视频呼叫。 仅在需要关闭卸载到 Internet 时清除此复选框。 如果任何呼叫将是 Internet 呼叫，则必须选中此复选框，而不考虑带宽设置。
 
-9.   (可选) 在"说明"字段中键入一个值，以提供无法单独用名称表示的此区域详细信息。
+9.   (可选) 在"说明"字段中键入值，以提供无法单独用名称表示的此区域详细信息。
 
 10. 单击“提交”。
 

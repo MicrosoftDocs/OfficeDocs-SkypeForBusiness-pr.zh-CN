@@ -2,7 +2,7 @@
 title: 监控范围节点
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,18 +15,18 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 05867db5-ad62-41e3-b1ac-f21f43d1e90b
 description: 在 Lync Server 2013 拓扑生成器中，可以通过右键单击控制台树中运行监控的服务器、单击工具栏中的"操作"或单击"操作"窗格中的任务，然后单击监控服务器的以下选项之一来执行与运行监控的单个服务器相关的任务：
-ms.openlocfilehash: 60bc8ce6abdd8c0ede5e40cce6438223d1e88e16
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 054636ad6b1d5eab604085d918afc0bfca02a5bf
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60770410"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860099"
 ---
 # <a name="monitoring-scope-node"></a>监控范围节点
  
 在 Lync Server 2013 拓扑生成器中，您可以执行与运行监控的单个服务器相关的任务，方法是右键单击控制台树中运行监控的服务器，单击工具栏中的"操作"，或单击"操作"窗格中的任务，然后单击监控服务器的以下选项之一：
   
-- **编辑属性**。 打开监控 **服务器的**"编辑属性"页，可在其中更改监控服务器或监控数据库 (的完全限定域名 (FQDN SQL Server FQ) DN。
+- **编辑属性**。 打开监控 **服务器的**"编辑属性"页，可在其中更改监控服务器或监控数据库 (FQDN) 的完全限定SQL Server名称。
     
 - **删除**。 从拓扑和监控数据库中删除运行监控SQL Server服务器。
     

@@ -2,7 +2,7 @@
 title: 会话视图
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 49e33f5b-45d0-4146-a5a4-76954d895a98
 description: 会话视图存储有关在数据库中具有记录的会话的信息。 此视图在 Microsoft Lync Server 2013 中引入。
-ms.openlocfilehash: 22ad5fdc02eb7b3dc7531a18f4b40bee0334ce09
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 80a275e047934bd60586c344b5487f2593fe48bb
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60776012"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834910"
 ---
 # <a name="session-view"></a>会话视图
  

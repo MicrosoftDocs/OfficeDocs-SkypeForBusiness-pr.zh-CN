@@ -2,7 +2,7 @@
 title: 配置Skype for Business Server的计算机
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -14,25 +14,25 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b24ea184-4b3e-4277-a244-157afb4b368b
 description: 摘要：在要监视的 Skype for Business Server 2015 计算机上安装 Operations Manager 代理文件，将计算机配置为充当 System Center 代理。
-ms.openlocfilehash: aa876d18ad597c911c7b0c9bea373a10c33f6858
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8393aab53f8c146a300da0c52a98e470f925e667
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778112"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843705"
 ---
 # <a name="configure-the-skype-for-business-server-computers-to-monitor"></a>配置Skype for Business Server的计算机
 
 **摘要：** 在要监视的 Skype for Business Server 2015 计算机上安装 Operations Manager 代理文件，将计算机配置为充当System Center代理。
 
-要Skype for Business Server的每台 2015 Skype for Business Server必须能够自行向管理服务器报告其是否存在。 若要启用此过程，必须在要监视的每台计算机上安装 Operations Manager 代理文件。 安装代理文件后，必须将计算机配置为充当代理System Center代理。 在执行这些过程之前，请确保首先在这些Skype for Business Server安装和配置这些计算机。
+要Skype for Business Server的每台 2015 计算机必须能够自行向管理服务器报告其是否存在。 若要启用此过程，必须在要监视的每台计算机上安装 Operations Manager 代理文件。 安装代理文件后，必须将计算机配置为充当代理System Center代理。 在执行这些过程之前，请确保你首先在这些Skype for Business Server和配置了这些计算机。
 
 ## <a name="installing-a-certificate-on-a-watcher-node-located-outside-the-perimeter-network"></a>在位于外围网络外的观察程序节点上安装证书
 <a name="watcher_node_outside"> </a>
 
-System Center在外围网络 (如 Skype for Business Server 边缘服务器) 、企业 (外部（如外部综合事务观察程序节点) ）或跨 Active Directory 信任边界运行的 Operations Manager 代理可能需要配置 System Center Operations Manager 网关服务器。 此服务器角色使与根管理服务器没有信任关系的代理能够发出警报。 有关详细信息，请参阅[Managing Gateway Servers in Operations Manager 2012。](/previous-versions/system-center/system-center-2012-R2/hh212823(v=sc.12))
+System Center在外围网络 (如 Skype for Business Server 边缘服务器) 、企业 (外部（如外部综合事务观察程序节点) ）或跨 Active Directory 信任边界运行的操作管理器代理可能需要配置 System Center Operations Manager 网关服务器。 此服务器角色使与根管理服务器没有信任关系的代理能够发出警报。 有关详细信息，请参阅[Managing Gateway Servers in Operations Manager 2012。](/previous-versions/system-center/system-center-2012-R2/hh212823(v=sc.12))
 
-如果您在这些位置之一部署代理，则还需要请求并配置证书，使观察程序节点能够向 Operations Manager System Center警报。 为了简化此过程，Operations Manager 团队创建了一系列实用程序，使您能在观察程序节点计算机上请求和安装正确类型的证书。 有关详细信息，并下载这些实用工具，请参阅使用证书生成向导轻松获取未加入域的代理 [的证书](https://techcommunity.microsoft.com/t5/system-center-blog/obtaining-certificates-for-non-domain-joined-agents-made-easy/ba-p/340467)。
+如果在这些位置之一部署代理，则还需要请求并配置证书，使观察程序节点能够向 Operations Manager System Center警报。 为了简化此过程，Operations Manager 团队创建了一系列实用程序，使您能在观察程序节点计算机上请求和安装正确类型的证书。 有关详细信息，并下载这些实用工具，请参阅使用证书生成向导轻松获取未加入域的代理 [的证书](https://techcommunity.microsoft.com/t5/system-center-blog/obtaining-certificates-for-non-domain-joined-agents-made-easy/ba-p/340467)。
 
 ### <a name="installing-the-operation-manager-agent-files"></a>安装 Operation Manager 代理文件
 
@@ -40,11 +40,11 @@ System Center在外围网络 (如 Skype for Business Server 边缘服务器) 、
 
 2. 在"System Center管理器安装向导"中，单击"可选安装"下的"安装代理"中的"安装 **Operations Manager** 代理"
 
-3. 在System Center安装向导的"欢迎使用 System Center Operations Manager 安装向导"页上，单击"下一 **步"。**
+3. In the System Center setup wizard， on the Welcome to the System Center Operations Manager Setup wizard page， click **Next**.
 
 4. 在"目标文件夹"页上，选择将安装 Operations Manager 代理文件的文件夹，然后单击"下一步 **"。**
 
-5. 在"管理组配置"页上，选择"**指定管理组信息"，** 然后单击"下一 **步"。**
+5. 在"管理组配置"页上，选择 **"指定管理组信息"，** 然后单击"下一 **步"。**
 
 6. 在"管理组配置"页上的"管理组名称"框中键入 Operations  Manager 管理组的名称，然后在"管理服务器"框中键入 Operations Manager 服务器的主机名 (例如 atl-scom-001) 。  如果更改了 Operations Manager 使用的端口号，请在"管理服务器端口"框中输入 **新的端口** 号。 否则，将端口保留为默认值 5723，然后单击"下一步 **"。**
 
@@ -54,11 +54,11 @@ System Center在外围网络 (如 Skype for Business Server 边缘服务器) 、
 
 9. 在"准备安装"页上，单击"安装"。
 
-10. 在"完成 operations Manager System Center向导"页上，单击"完成 **"。**
+10. 在"正在完成System Center Operations Manager 安装向导"页上，单击"完成 **"。**
 
 11. 单击“退出”。
 
-对于 System Center 2012，可以通过单击"开始"，单击"所有程序"，单击 **"System Center Operations Manager 2012"，** 然后单击 **"Operations 2012 Manager Shell"** 来验证代理已创建。  在Operations Manager 外壳中，键入以下 Windows PowerShell 命令，然后按 Enter：
+对于 System Center 2012，可以通过单击"开始"，单击"所有程序"，再单击 **"System Center Operations Manager 2012"，** 然后单击 **"Operations 2012 Manager Shell"** 来验证代理已创建。  在Operations Manager 外壳中，键入以下 Windows PowerShell 命令，然后按 Enter：
 ```PowerShell
 Get-SCOMAgent
 ```

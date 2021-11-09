@@ -1,8 +1,8 @@
 ---
-title: 在 Skype for Business 中部署呼叫管理功能
+title: 在呼叫管理中心中部署Skype for Business
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,14 +16,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 1667cfe4-76fa-4e10-91bb-b3efbedbf759
 description: 在 Skype for Business Server 企业语音 中部署呼叫管理功能。
-ms.openlocfilehash: c2ec7aa07d85bc2765dde5d497ba75e6a2932f81
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f68a1e3030692c3c69ba2183e90f8a5f54be47fd
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751321"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859589"
 ---
-# <a name="deploy-call-management-features-in-skype-for-business"></a>在 Skype for Business 中部署呼叫管理功能
+# <a name="deploy-call-management-features-in-skype-for-business"></a>在呼叫管理中心中部署Skype for Business
  
 在 Skype for Business Server 企业语音 中部署呼叫管理功能。
   
@@ -43,7 +43,7 @@ ms.locfileid: "60751321"
 
 - [呼叫管理中的呼叫Skype for Business](deployment-process-for-call-park.md)
     
-- [组中组内呼叫接听的Skype for Business](deployment-process-for-group-call-pickup.md)
+- [组中组内呼叫接听的部署Skype for Business](deployment-process-for-group-call-pickup.md)
     
 - [响应组的部署Skype for Business](deployment-process-for-response-group.md)
     

@@ -2,7 +2,7 @@
 title: 总线压力和性能Skype组件的先决条件和设置
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 ms.date: 12/20/2018
 manager: serdars
 audience: ITPro
@@ -14,18 +14,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 948c176c-75ce-418d-891a-a68427d61e40
 description: Skype for Business Server 2015 压力和性能工具的要求或先决条件。 如何安装或设置压力和性能工具。
-ms.openlocfilehash: 87c42d63e394c6beea68c23b8e1d7cff7b07266c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 60ff4476a92949b2f5ba0d7a027b5cadf3eab533
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771918"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835160"
 ---
 # <a name="prerequisites-and-setup-for-the-skype-for-busines-stress-and-performance-tool"></a>总线压力和性能Skype组件的先决条件和设置
  
 Skype for Business Server 2015 压力和性能工具的要求或先决条件。 如何安装或设置压力和性能工具。
   
-在运行压力和性能工具之前，你需要了解以下硬件、软件和系统配置要求：
+在运行压力和性能工具之前，我们具有以下需要了解的硬件、软件和系统配置要求：
   
 - [客户端硬件要求](prerequisites-and-setup.md#ClientHardwareReqs)
     
@@ -33,7 +33,7 @@ Skype for Business Server 2015 压力和性能工具的要求或先决条件。 
     
 - [配置要求](prerequisites-and-setup.md#ConfigReqs)
     
-此外，我们还在下面提供了一个部分，用于安装[Skype for Business Server 2015 压力和性能工具](prerequisites-and-setup.md#Installing)
+此外，我们在下面还有一个部分用于安装[Skype for Business Server 2015 压力和性能工具](prerequisites-and-setup.md#Installing)
   
 ## <a name="client-hardware-requirements"></a>客户端硬件要求
 <a name="ClientHardwareReqs"> </a>
@@ -68,7 +68,7 @@ Skype for Business Server 2015 压力和性能工具的要求或先决条件。 
 ## <a name="configuration-requirements"></a>配置要求
 <a name="ConfigReqs"> </a>
 
-你需要完成以下额外的配置，以成功运行压力和性能工具：
+你需要完成以下附加配置，以成功运行压力和性能工具：
   
 - 您需要以 Domain 或 Local Administrator 的组的成员登录到服务器。
     
@@ -76,13 +76,13 @@ Skype for Business Server 2015 压力和性能工具的要求或先决条件。 
     
 - 多次运行用户创建工具时，启用了 Microsoft 统一通信的每个用户都需要有唯一的电话号码。
     
-- 页面文件大小应受系统管理，否则需要至少是计算机系统中 RAM 容量的 1.5 倍。
+- 页面文件大小应进行系统管理，否则需要至少是计算机系统中 RAM 容量的 1.5 倍。
     
 ## <a name="installing-the-skype-for-business-server-2015-stress-and-performance-tool"></a>安装 Skype for Business Server 2015 压力和性能工具
 <a name="Installing"> </a>
 
-安装非常简单。 您需要在要用于模拟用户流量的每个客户端计算机以及您将创建用户和联系人的每个池中的前端服务器上运行 Windows Installer 文件 **CapacityPlanningTool.msi。**
+安装非常简单。 您需要在要用于模拟用户流量的每个客户端计算机上以及您将创建用户和联系人的每个池中的前端服务器上运行 Windows Installer 文件 **CapacityPlanningTool.msi。**
   
-若要下载 .msi，以及我们的其他文章中提及的示例脚本，请转到下载中心链接[：Skype for Business Server 2015，压力和性能工具](https://www.microsoft.com/download/details.aspx?id=50367)。
+若要下载.msi脚本以及其他文章中提及的示例脚本，请转到下载中心链接[：Skype for Business Server 2015，](https://www.microsoft.com/download/details.aspx?id=50367)压力和性能工具。
   
 

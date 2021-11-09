@@ -1,8 +1,8 @@
 ---
-title: 部署媒体旁路Skype for Business Server
+title: 在部署媒体Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,14 +16,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 1bd35f90-8587-48a1-b0c2-095a4053fc77
 description: 部署媒体旁路Skype for Business Server 企业语音。 包括先决条件和部署过程清单。
-ms.openlocfilehash: f5bed4cf31158ea170b78110f3b6f5561aedb21d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c5699d1116faa6bc3b8ae0178ec617bcf06c1ef4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769660"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834690"
 ---
-# <a name="deploy-media-bypass-in-skype-for-business-server"></a>部署媒体旁路Skype for Business Server
+# <a name="deploy-media-bypass-in-skype-for-business-server"></a>在部署媒体Skype for Business Server
  
 部署媒体旁路Skype for Business Server 企业语音。 包括先决条件和部署过程清单。
   
@@ -48,5 +48,5 @@ ms.locfileid: "60769660"
 |**阶段**|**步骤**|**Roles**|**部署文档**|
 |:-----|:-----|:-----|:-----|
 |配置用于媒体旁路的中继  <br/> |如果尚未配置，请为媒体旁路配置一个或多个中继。  <br/> | RTCUniversalServerAdmins 组的成员，或 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色的成员 <br/> |[在客户端中配置具有媒体旁路Skype for Business Server](configure-trunk-with-media-bypass.md) <br/> |
-|全局配置媒体旁路  <br/> |为 PSTN 的所有呼叫或基于网络站点和网络区域的某些呼叫配置媒体旁路。  <br/> | RTCUniversalServerAdmins 组的成员，或 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色的成员 <br/> |[配置媒体旁路Skype for Business Server以始终绕过中介服务器](bypass-the-mediation-server.md) <br/> [将媒体旁路全局Skype for Business Server配置为使用站点和地区信息](use-site-and-region-information.md) <br/> |
+|全局配置媒体旁路  <br/> |为 PSTN 的所有呼叫或基于网络站点和网络区域的某些呼叫配置媒体旁路。  <br/> | RTCUniversalServerAdmins 组的成员，或 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色的成员 <br/> |[配置媒体旁路Skype for Business Server以始终绕过中介服务器](bypass-the-mediation-server.md) <br/> [将媒体旁路全局设置配置为Skype for Business Server站点和地区信息](use-site-and-region-information.md) <br/> |
 |如有必要，将子网与网络站点关联  <br/> |如果将媒体旁路配置为使用站点和地区信息，则必须将部署的子网与网络站点和 (如果尚未针对其他语音功能进行关联)   <br/> | RTCUniversalServerAdmins 组的成员，或 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色的成员 <br/> |[将子网与网络站点关联](deploy-network.md#BKMK_AssociateSubnets) <br/> |

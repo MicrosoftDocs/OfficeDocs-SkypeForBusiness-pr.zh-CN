@@ -2,7 +2,7 @@
 title: 指定 CDR 数据的保留Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c0fd6056-87bc-4136-902a-f1b37cd3a1ca
 description: 摘要：了解如何管理呼叫详细信息记录 (CDR) 数据进行Skype for Business Server。
-ms.openlocfilehash: ac021da1c2235256e4b9bffc2f8664a1572d27d1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b232e853e28f2dbdee33c666e65ca89932796941
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60742128"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60852006"
 ---
 # <a name="specify-retention-of-cdr-data-in-skype-for-business-server"></a>指定 CDR 数据的保留Skype for Business Server
  

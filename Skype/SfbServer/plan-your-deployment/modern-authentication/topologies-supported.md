@@ -2,7 +2,7 @@
 title: 新式验证支持的 Skype for Business 拓扑
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -14,12 +14,12 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: 258430b0-574a-47fb-90b7-54ee8996b2ec
 description: 本文列出了哪些联机和本地拓扑受 Skype for Business 新式验证支持，以及适用于每个拓扑的安全功能。
-ms.openlocfilehash: 1d2dd2c691962f0703866a4ece0812467c1f236e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ed6710e0f25e946e8cb9e7034300bd450dd07baa
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777962"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835070"
 ---
 # <a name="skype-for-business-topologies-supported-with-modern-authentication"></a>新式验证支持的 Skype for Business 拓扑
 
@@ -27,7 +27,7 @@ ms.locfileid: "60777962"
 
 ## <a name="modern-authentication-in-skype-for-business"></a>新式验证Skype for Business
 
-Skype for Business可以利用新式验证的安全优势。 由于Skype for Business客户端Exchange，客户端Skype for Business的登录行为也将受客户端用户的 MA 状态Exchange。 如果你拥有一个拆分域混合Skype for Business也将适用。 这有许多移动部件，但此处的目标是轻松直观地显示支持的拓扑列表。
+Skype for Business可以利用新式验证的安全优势。 由于Skype for Business网站Exchange，客户端用户Skype for Business的登录行为也会受客户端用户的 MA 状态Exchange。 如果你拥有拆分域混合Skype for Business，这同样适用。 这有许多移动部件，但此处的目标是轻松直观地显示支持的拓扑列表。
 
 如果Skype for Business、Skype for Business联机、Exchange Server Exchange，MA 支持哪些拓扑？
 
@@ -35,7 +35,7 @@ Skype for Business可以利用新式验证的安全优势。 由于Skype for Bus
 
 ### <a name="supported-ma-topologies-in-skype-for-business"></a>支持的 MA 拓扑Skype for Business
 
-可能有两个服务器应用程序，以及两个 Microsoft 365 或 Office 365 工作负荷，它们涉及 MA Skype for Business拓扑。
+MA 使用的服务器拓扑可能涉及两个服务器Microsoft 365或Office 365或Skype for Business工作负荷。
 
 - Skype for Business本地 (CU 5) 服务器
 
@@ -45,13 +45,13 @@ Skype for Business可以利用新式验证的安全优势。 由于Skype for Bus
 
 - Exchange EXO (联机) 
 
-MA 的另一个重要部分是了解身份验证 (身份验证) 身份验证和授权 (authZ) 将发生。 两个选项是：
+MA 的另一个重要部分是了解身份验证 (身份验证) 身份验证 (身份验证) 身份验证将在何处进行。 两个选项是：
 
 - Azure AD，在 Microsoft 云中联机
 
 - Active Directory 联合服务器 (本地) ADFS
 
-因此，它看起来有点类似，在云中 EXO 和 SFBO Azure AD，Exchange Server (EXCH) 和 Skype for Business 服务器 (SFB) SFB。
+因此，它看起来有点类似，在云中 EXO 和 SFBO Azure AD，Exchange Server (EXCH) 和 Skype for Business 服务器 (SFB) 部署。
 
 ![启用 MA 时可能涉及的所有应用程序 (Exchange 和 Skype for Business) 以及工作负荷 (EXO 和 SFBO) 以及两个授权服务器 (ADFS 和 evoSTS) 的示例。](../../media/18a3b451-1e64-40fc-b47f-7ce9587814bb.PNG)
 
@@ -79,20 +79,20 @@ MA 的另一个重要部分是了解身份验证 (身份验证) 身份验证和�
 |拓扑名称  <br/> |示例  <br/> |说明  <br/> |支持  <br/> |
 |:-----|:-----|:-----|:-----|
 |仅云  <br/> |![支持 SFB 和 MA 拓扑，仅云。](../../media/4d19b47f-8257-4a6f-9dab-0755206f7c52.PNG)用户所管理/邮箱位于：联机  <br/> |MA 对 EXO 和 SFBO 均打开。  <br/> 因此，授权服务器将Azure AD。  <br/> |多重身份验证 (MFA) 、基于客户端证书的身份验证 (CBA) 、条件访问 (CA) /移动应用程序管理 (MAM) Intune。 \*  <br/> |
-|仅 On-prem  <br/> |![支持 SFB 和 MA 拓扑，仅本地。](../../media/9773e9a5-7cd6-41ef-940b-c4386c9fce20.PNG)用户所管理/邮箱位于：本地  <br/> |MA 为本地 SFB 打开。  <br/> 因此，授权服务器为 ADFS。  <br/> 有关配置的详细信息，请参阅 [本文。](/microsoft-365/enterprise/hybrid-modern-auth-overview) <br/> |仅 (Windows MFA - 不支持移动客户端) 。 没有Exchange集成功能。  <br/><p> **建议不要采用这种方法。请参阅此处：** [https://aka.ms/ModernAuthOverview](/microsoft-365/enterprise/hybrid-modern-auth-overview)<p/> |
+|仅 On-prem  <br/> |![支持 SFB 和 MA 拓扑，仅本地。](../../media/9773e9a5-7cd6-41ef-940b-c4386c9fce20.PNG)用户所管理/邮箱位于：本地  <br/> |MA 为本地 SFB 打开。  <br/> 因此，授权服务器为 ADFS。  <br/> 有关配置的详细信息，请参阅 [本文。](/microsoft-365/enterprise/hybrid-modern-auth-overview) <br/> |MFA (Windows桌面 - 不支持移动客户端) 。 没有Exchange集成功能。  <br/><p> **建议不要采用这种方法。请参阅此处：** [https://aka.ms/ModernAuthOverview](/microsoft-365/enterprise/hybrid-modern-auth-overview)<p/> |
 
 > [!IMPORTANT]
-> 建议 MA 状态在 Skype for Business 和 Exchange (及其联机) 相同，以减少提示数。
+> 建议 MA 状态在 Skype for Business 和 Exchange (及其联机) 相同，以减少提示次数。
 
 混合拓扑涉及 SFB 拆分域混合的组合。 目前支持以下混合拓扑：
 
 |拓扑名称  <br/> |示例  <br/> |说明  <br/> |支持  <br/> |
 |:-----|:-----|:-----|:-----|
 |混合 1  <br/> |![支持 SFB 与 MA 拓扑、混合 1 (EXO + SFB) 。](../../media/7b2e607a-c83a-4bb3-9b48-a43566516129.PNG)           <br/> 用户所管理/邮箱位于：EXO 和 SFB  <br/> |未为 SFB 启用 MA;此拓扑中没有任何 SFB MA 功能可用。  <br/> |SFB 没有 MA 功能。  <br/> |
-|混合 2  <br/> |![S4B 混合拓扑 2 支持 MA，SFBO 加上 MA 与 EXCH on-prem 一起运行。](../../media/247a985d-39cd-4c16-a19e-b8b65207d82e.PNG)           <br/> 用户所定位/邮箱：EXCH 和 SFBO  <br/> |MA 仅适用于 SFBO。 授权服务器Azure AD SFBO 中，但 AD 用于 EXCH 本地部署。  <br/> |使用 Intune 的 MFA、CBA、CA/MAM。\*  <br/> |
+|混合 2  <br/> |![S4B 混合拓扑 2 支持 MA，SFBO 加上 MA 与 EXCH on-prem 一起运行。](../../media/247a985d-39cd-4c16-a19e-b8b65207d82e.PNG)           <br/> 用户所定位/邮箱：EXCH 和 SFBO  <br/> |MA 仅适用于 SFBO。 授权服务器是Azure AD SFBO 中的用户配置，而 AD 用于 EXCH 本地部署。  <br/> |使用 Intune 的 MFA、CBA、CA/MAM。\*  <br/> |
 |混合 3  <br/> |![支持 MA 与 SFB、使用 MA 的 EXO 以及本地 EXCH 和 SFB。](../../media/772dc261-c041-4a96-90d0-fd0b5124decf.PNG)           <br/> 用户所在的用户/邮箱：EXO + SFB 或 EXCH + SFB  <br/> |此拓扑中没有任何 SFB MA 功能可用  <br/> |SFB 没有 MA 功能。  <br/> |
 |混合 4  <br/> |![支持 MA 与 SFB、SFBO（MA 打开）以及 EXCH 和 SFB。](../../media/8971bfaf-961f-476c-b16e-5418d1fa0a6d.PNG)           <br/> 用户所在的用户/邮箱：EXCH +SFBO 或 EXCH + SFB  <br/> |MA 为 SFBO 打开，因此授权服务器Azure AD SFBO 中用户运行。 SFB 和 EXO 中的 On-prem 用户使用 AD。  <br/> |MFA、CBA、CA/MAM with Intune 仅适用于联机用户。\*  <br/> |
-|混合 5  <br/> |![SFB 中支持的 MA、带 MA 的 EXO 和带 MA 的 SFBO，以及本地 EXCH 和 SFB。](../../media/ecc366cf-1a7b-4ad1-bf8e-57111b8ad94f.PNG)           <br/> 用户所在的用户/邮箱：EXO + SFBO、EXO + SFB、EXCH + SFBO 或 EXCH + SFB  <br/> |MA 在 EXO 和 SFBO 中均打开，因此授权服务器Azure AD SFBO 中用户使用;EXCH 和 SFB 中的用户使用 AD。  <br/> |MFA、CBA、CA/MAM with Intune 仅适用于联机用户。\*  <br/> |
+|混合 5  <br/> |![SFB 中支持的 MA、带 MA 的 EXO 和带 MA 的 SFBO，以及本地 EXCH 和 SFB。](../../media/ecc366cf-1a7b-4ad1-bf8e-57111b8ad94f.PNG)           <br/> 用户所在的用户/邮箱：EXO + SFBO、EXO + SFB、EXCH + SFBO 或 EXCH + SFB  <br/> |MA 在 EXO 和 SFBO 中都为打开状态，因此授权服务器Azure AD SFBO 中用户使用;EXCH 和 SFB 中的用户使用 AD。  <br/> |MFA、CBA、CA/MAM with Intune 仅适用于联机用户。\*  <br/> |
 |混合 6  <br/> |![在混合 6 拓扑中，所有四个假设位置都启用新式验证- 对于新式身份验证，这是理想选择。](../../media/8de21756-9152-466d-a706-58b258e2271c.png)           <br/> 用户所在的用户/邮箱：EXO + SFBO、EXO + SFB、EXCH + SFBO 或 EXCH + SFB  <br/> |MA 位于任何地方，因此授权服务器Azure AD所有用户使用。  (联机和本地部署)   <br/>  请参阅 [https://aka.ms/ModernAuthOverview](/microsoft-365/enterprise/hybrid-modern-auth-overview) 了解部署步骤。 <br/> |MFA、CBA 和 CA/MAM (Intune) 适用于所有用户。  <br/> |
 
 \*- MFA 包括Windows、MAC、iOS、Android 设备和 Windows 手机;CBA 包括Windows桌面、iOS 和 Android 设备;使用 Intune 的 CA/MAM 包括 Android 和 iOS 设备。

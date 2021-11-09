@@ -2,7 +2,7 @@
 title: 2015 年 Skype for Business Server 环境要求
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/15/2018
 audience: ITPro
@@ -16,19 +16,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
-description: 摘要：配置 2015 年 6 月Skype for Business Server要求。 执行部署之前，需要配置各种内容，包括 Active Directory、DNS、Certs 和文件共享。
-ms.openlocfilehash: ab3192e7a9459f86ed61277db682a8b22f0725ec
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 摘要：配置 2015 年 2 月Skype for Business Server要求。 执行部署之前，需要配置各种内容，包括 Active Directory、DNS、Certs 和文件共享。
+ms.openlocfilehash: 1d6e43e9ca65af85c37f262900805d9e0d3b8bfe
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60749921"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834980"
 ---
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>2015 年 Skype for Business Server 环境要求
  
 **摘要：** 配置 2015 年 Skype for Business Server非服务器要求。 执行部署之前，需要配置各种内容，包括 Active Directory、DNS、Certs 和文件共享。
   
-2015 年Skype for Business Server要求是什么？ 我们已经将与服务器不直接相关的所有内容都放在本主题中，因此你不必执行太多单击操作。 如果要查找 Server Prerequisites，请查看 server [requirements for Skype for Business Server 2015](server-requirements.md)文档。此外，还[](../../plan-your-deployment/network-requirements/network-requirements.md)单独记录了网络规划。 否则，这是我们在本文中介绍的：
+2015 年Skype for Business Server要求是什么？ 我们已经将与服务器不直接相关的所有内容都放在本主题中，因此你不必执行太多单击操作。 如果要查找 Server Prerequisites，请查看[server requirements for Skype for Business Server 2015](server-requirements.md)文档。此外，[](../../plan-your-deployment/network-requirements/network-requirements.md)还单独记录了网络规划。 否则，这是我们在本文中介绍的：
   
 - [Active Directory](environmental-requirements.md#AD)
   
@@ -69,7 +69,7 @@ ms.locfileid: "60749921"
     
 - Windows Server 2008
     
-现在，部署到 Skype for Business Server 2015 的任何域的域功能级别以及部署 Skype for Business Server 2015 的任何林的林功能级别必须为以下项之一：
+现在，部署 Skype for Business Server 2015 的任何域的域功能级别以及部署 Skype for Business Server 2015 的任何林的林功能级别必须为以下项之一：
 
 - WindowsServer 2019 (必须具有 2015 Skype for Business Server 2015 累积更新 5 或) 
   
@@ -107,7 +107,7 @@ Skype for Business Server 2015 支持的拓扑包括：
     
 - 资源林拓扑中的多林
     
-- 资源林拓扑中的多个Skype for Business具有多个Exchange Online
+- 资源林拓扑Skype for Business中的多个林，Exchange Online
     
 - 资源林拓扑中的多个林，Skype for Business Online 和 Azure Active Directory 连接
     
@@ -125,7 +125,7 @@ Skype for Business Server 2015 支持的拓扑包括：
 
 ![单林、单树和多组域图。](../../media/63b9f0dd-6bac-4ba9-ae68-8be032d09dcb.png)
   
-此图同样显示了一个林，但它也有一个或多个子域 (此特定示例中有三个子) 。 因此，在 中创建用户的域可能不同于部署Skype for Business Server 2015 的域。 为什么担心这一点？ 请记住，在部署前端Skype for Business Server时，该池中的所有服务器都需要位于单个域中。 可以通过通用管理员组Skype for Business Server跨域Windows管理。
+此图同样显示了一个林，但它也有一个或多个子域 (此特定示例中有三个子) 。 因此，在 中创建用户的域可能不同于部署 2015 Skype for Business Server域。 为什么担心这一点？ 请记住，在部署前端Skype for Business Server时，该池中的所有服务器都需要位于单个域中。 可以通过通用管理员组Skype for Business Server跨域Windows管理。
   
 返回到上图，可以看到一个域中的用户可以从同一个域或不同域访问 Skype for Business Server 池，即使这些用户位于子域中。
   
@@ -133,7 +133,7 @@ Skype for Business Server 2015 支持的拓扑包括：
 
 ![单个林、多个树和脱节命名空间图。](../../media/5ede77a1-f5d2-499c-a2c8-d02f3c2f7cd7.png)
   
-可能是您具有类似于此图的拓扑，其中您具有一个林，但该林中有多个域，具有单独的 AD 命名空间。 如果是这样，此图就是一个很好的说明，因为我们有三个不同的域中的用户在访问 Skype for Business Server 2015。 实线表示他们访问Skype for Business Server域中的池，而虚线表示他们一起进入另一个树中的池。
+这可能是您具有类似于此图的拓扑，其中您具有一个林，但该林中有多个域，具有单独的 AD 命名空间。 如果是这样，此图就是一个很好的说明，因为我们有三个不同的域中的用户在访问 Skype for Business Server 2015。 实线表示他们访问Skype for Business Server域中的池，而虚线表示他们一起进入另一个树中的池。
   
 可以看到，同一域、同一树甚至不同树中的用户都可以成功访问池。
   
@@ -156,14 +156,14 @@ Skype for Business Server 2015 支持在中央林拓扑中配置的多个林。 
   
 请注意，Exchange Server可以部署在同一资源林中，Skype for Business Server部署在不同的林中。
   
-若要在此类型的拓扑中部署 Skype for Business Server 2015，可以在资源林中为用户林中的每个用户帐户创建一个已禁用的用户对象 (如果环境中已有 Microsoft Exchange Server，则此操作可能会为) 。 然后，你需要一个目录同步工具 (Forefront Identity Manager，或 FIM) 管理用户帐户的生命周期。
+若要在此类型的拓扑中部署 Skype for Business Server 2015，可以在资源林中为用户林中的每个用户帐户创建一个已禁用的用户对象 (如果环境中已有 Microsoft Exchange Server，则此操作可能针对) 。 然后，你需要目录同步工具 (Forefront Identity Manager 或 FIM) 来管理用户帐户的生命周期。
   
 #### <a name="multiple-forests-in-a-skype-for-business-resource-forest-topology-with-exchange-online"></a>资源林拓扑Skype for Business中的多个林，Exchange Online
 <a name="BKMK_multipleforestopology"> </a>
 
-此拓扑类似于在资源林拓扑中的多个林Skype for Business[拓扑](environmental-requirements.md#BKMK_multipleforestopology)。
+此拓扑类似于资源林拓扑中的多个林Skype for Business[拓扑](environmental-requirements.md#BKMK_multipleforestopology)。
   
-在此拓扑中，存在一个或多个用户林，Skype for Business Server专用资源林中部署此林。 Exchange Server部署在同一资源林或不同林中，并配置为与 Exchange Online 进行混合，或者电子邮件服务可能由 Exchange Online 专门为本地帐户提供。 没有可用于此拓扑的图表。
+在此拓扑中，存在一个或多个用户林，Skype for Business Server专用资源林中部署此拓扑。 Exchange Server部署在同一资源林或不同林中，并配置为与 Exchange Online 进行混合，或者电子邮件服务可能由 Exchange Online 专门为本地帐户提供。 没有可用于此拓扑的图表。
   
 #### <a name="multiple-forests-in-a-resource-forest-topology-with-skype-for-business-online-and-azure-active-directory-connect"></a>资源林拓扑中的多个林，Skype for Business Online 和 Azure Active Directory 连接
 <a name="BKMK_multipleforestopology"> </a>
@@ -172,11 +172,11 @@ Skype for Business Server 2015 支持在中央林拓扑中配置的多个林。 
   
 在此方案中，本地有多个林，具有一个资源林拓扑。 Active Directory 林之间具有完全信任关系。 Azure Active Directory 连接工具用于在内部部署用户林和本地用户林之间Microsoft 365或Office 365。
   
- 组织还具有Microsoft 365或Office 365，并使用 Azure Active Directory 连接 将其本地帐户与[](/previous-versions/azure/azure-services/dn832695(v=azure.100))Microsoft 365 或 Office 365。 启用此功能的用户Skype for Business通过 Microsoft 365 或 Office 365 Skype for Business Online。 Skype for Business Server未在本地部署。
+ 组织还具有 Microsoft 365 或 Office 365，并使用 Azure Active Directory 连接 将其本地[](/previous-versions/azure/azure-services/dn832695(v=azure.100))帐户与 Microsoft 365 或 Office 365。 启用此功能的用户Skype for Business通过 Microsoft 365 或 Office 365 Skype for Business Online。 Skype for Business Server未在本地部署。
   
 单一登录身份验证由位于用户林中的 Active Directory 联合身份验证服务服务器场提供。
   
-在此方案中，支持在本地部署Exchange、Exchange Online混合 Exchange 解决方案，或者完全Exchange部署。  (该图Exchange本地部署，但其他 Exchange 解决方案也完全受支持。) 
+在此方案中，支持在本地部署Exchange、Exchange Online混合 Exchange 解决方案，或完全Exchange部署。  (该图Exchange本地部署，但其他 Exchange 解决方案也完全受支持。) 
   
 #### <a name="multiple-forests-in-a-resource-forest-topology-with-hybrid-skype-for-business"></a>具有混合部署的资源林拓扑中的多个Skype for Business
 <a name="BKMK_multipleforestopology"> </a>
@@ -260,13 +260,13 @@ Skype for Business Server 2015 需要 DNS，原因如下：
     
 - 默认摘要算法（即哈希签名）算法为 RSA。 还ECDH_P256、ECDH_P384和ECDH_P521算法。
     
-因此，有很多值得思考的问题，当然，从 CA 请求证书时，有多种舒适级别。 我们将在下面为您提供一些进一步指导，尽可能使规划更加难用。
+因此，有很多值得思考的问题，当然，从 CA 请求证书时，有多种舒适级别。 我们将在下面提供一些进一步指导，尽可能使规划更加难用。
   
 ### <a name="certificates-for-your-internal-servers"></a>内部服务器的证书
 
 大多数内部服务器都需要证书，很可能你会从位于域安全中心的内部 CA (获取证书) 。 如果需要，可以从位于 Internet (的外部 CA 请求) 。 如果您想知道应转到哪一个公共 CA，请查看统一 [通信证书合作伙伴](../../../SfbPartnerCertification/certification/services-ssl.md) 列表。
   
-当 Skype for Business Server 2015 与其他应用程序和服务器（如 Microsoft Exchange Server）通信时，还需要证书。 显然，这应该是其他应用和服务器可以支持的方式使用的证书。 Skype for Business Server 2015 和其他 Microsoft 产品支持 Open Authorization (OAuth) 协议，用于服务器到服务器身份验证和授权。 如果您对此感兴趣，我们提供了另一篇有关 OAuth 和 Skype for Business Server 2015 的规划文章。
+当 Skype for Business Server 2015 与其他应用程序和服务器（如 Microsoft Exchange Server）通信时，您还需要Microsoft Exchange Server。 显然，这应该是其他应用和服务器可以支持的方式使用的证书。 Skype for Business Server 2015 和其他 Microsoft 产品支持 Open Authorization (OAuth) 协议进行服务器到服务器身份验证和授权。 如果你对此感兴趣，我们提供了另一篇有关 OAuth 和 2015 Skype for Business Server文章。
   
 Skype for Business Server 2015 还包括对 (的支持，而无需) SHA-256 加密哈希函数签名的证书。 若要支持使用 SHA-256 进行外部访问，外部证书需要由公共 CA 使用 SHA-256 颁发。
   
@@ -276,7 +276,7 @@ Skype for Business Server 2015 还包括对 (的支持，而无需) SHA-256 加�
     
 - 每个证书友好名称在计算机存储中必须是唯一的。
     
-- 根据下面的示例名称，如果在 DNS 中配置了 sipinternal.contoso.com 或 sipexternal.contoso.com，则需要将证书的"主题备用名称" (SAN) 。
+- 根据下面的示例名称，如果你已在你的 DNS 中配置 sipinternal.contoso.com 或 sipexternal.contoso.com，则需要将它们添加到证书的 SUBJECT Alternative Name (SAN) 。
     
 用于服务器Standard Edition证书：
   
@@ -312,17 +312,17 @@ Survivable Branch Appliance 的证书：
   
 |**证书**|**主题名称/公用名**|**使用者替代名称**|**示例**|
 |:-----|:-----|:-----|:-----|
-|默认值  <br/> |设备的 FQDN  <br/> |SIP。\<sipdomain\>  (每个 SIP 域服务器只需要一个)   <br/> |SN=sba01.contoso.net;SAN=sip.contoso.com;SAN=sip.fabrikam.com  <br/> |
+|默认值  <br/> |设备的 FQDN  <br/> |SIP。\<sipdomain\>  (每个 SIP 域仅需要一个条目)   <br/> |SN=sba01.contoso.net;SAN=sip.contoso.com;SAN=sip.fabrikam.com  <br/> |
    
 ### <a name="certificates-for-your-persistent-chat-server"></a>持久聊天服务器的证书
 
 安装持久聊天服务器时，您需要由与 Skype for Business Server 2015 内部服务器相同的 CA 颁发的证书。 为此，需要为每台运行持久聊天 Web 服务的服务器执行文件Upload/下载。 强烈建议在开始安装持久聊天 (证书) 证书，如果 CA 是外部 CA，则更需要 (因此颁发这些证书可能需要一) 。
   
-### <a name="certificates-for-external-user-access-edge"></a>边缘服务器的外部用户访问 (证书) 
+### <a name="certificates-for-external-user-access-edge"></a>外部用户访问和边缘 (证书) 
 
 Skype for Business Server 2015 支持将单个公共证书用于访问和 Web 会议边缘外部接口，以及 A/V 身份验证服务，该服务全部通过边缘服务器 (提供) 。 边缘内部接口通常使用内部 CA 颁发的专用证书，但如果愿意，也可以对此使用公共证书（如果证书来自受信任的 CA）。
   
-反向代理 (RP) 也将使用公共证书，它将加密从 RP 到客户端的通信，以及使用 HTTP (（更精确地说是 HTTP 上的 TLS) ）到内部服务器的 RP。
+反向代理 (RP) 也将使用公共证书，它将加密从 RP 到客户端的通信，以及使用 HTTP (或更精确的 TLS over HTTP) 到内部服务器的通信。
   
 ### <a name="certificates-for-mobility"></a>移动证书
 
@@ -338,7 +338,7 @@ Skype for Business Server 2015 支持将单个公共证书用于访问和 Web �
     
 我们将在下表中列出具体内容。
   
-现在，这是一些预先规划良好的地方，但有时你已部署 Skype for Business Server 2015，而不打算部署移动功能，并且当你的环境中已有证书时，这一点会一直执行。 通过内部 CA 重新颁发证书通常非常简单，但是使用公共 CA 颁发的公共证书，则成本可能会稍高一些。
+现在，这是一些预先规划良好的地方，但有时你已部署 Skype for Business Server 2015，不想部署移动功能，并且当你的环境中已有证书时，这一点会一直执行。 通过内部 CA 重新颁发证书通常非常简单，但是使用公共 CA 颁发的公共证书，则成本可能会稍高一些。
   
 如果你正在查看这一点，并且有很多 SIP 域 (这会使添加 SAN 的成本更高) ，你可以将反向代理配置为将 HTTP 用于初始自动发现服务请求，而不是使用 HTTPS (这是默认配置) 。 规划移动功能主题对此有详细信息。
   
@@ -369,7 +369,7 @@ Skype for Business Server 2015 能够将同一文件共享用于所有文件存�
   
 - 文件共享需要位于直接附加存储 (DAS) 或存储区域网络 (SAN) 上，这包括分布式文件系统 (DFS) 以及用于文件存储的独立磁盘 (RAID) 的冗余阵列。 有关 DFS for Windows Server 2012，请查看[此 DFS 页面](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj127250(v=ws.11))。
     
-- 我们建议文件共享使用共享群集。 如果你使用的是一个 R2，则应该Windows Server 2012或Windows Server 2012 R2。 Windows服务器 2008 R2 也是可接受的。 为什么使用最新的Windows？ 旧版本可能没有启用所有功能所需的正确权限。 可以使用群集管理员创建文件共享，本如何在群集上创建文件共享一[](https://support.microsoft.com/help/224967/how-to-create-file-shares-on-a-cluster)文将帮助你了解这些详细信息。
+- 我们建议文件共享使用共享群集。 如果你使用的是一个 R2，则应该Windows Server 2012或Windows Server 2012 R2。 Windows服务器 2008 R2 也是可接受的。 为什么要使用最新的Windows？ 旧版本可能没有启用所有功能所需的正确权限。 可以使用群集管理员创建文件共享，本如何在群集上创建文件共享一[](https://support.microsoft.com/help/224967/how-to-create-file-shares-on-a-cluster)文将帮助你了解这些详细信息。
     
 > [!CAUTION] 
 > 你应知道，不支持将网络 (NAS) 用作文件共享，因此请使用上面列出的选项之一。 

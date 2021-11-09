@@ -2,7 +2,7 @@
 title: 计划集成 Skype for Business 和 Exchange
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,22 +13,22 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
 description: 摘要：查看本主题，了解如何将 Skype for Business Server 2016 Exchange Server 2013 Exchange Server集成。
-ms.openlocfilehash: 323add0bdc06617f80fba852b8179b3f6b7e315d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8613f080aa878c5111a4c69c38b77f9c16606b26
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773462"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60844125"
 ---
 # <a name="plan-to-integrate-skype-for-business-and-exchange"></a>计划集成 Skype for Business 和 Exchange
  
 **摘要：** 查看本主题，了解如何将 Skype for Business Server 2016 Exchange Server 2013 Exchange Server集成。
   
-在集成 Skype for Business Server 和 Exchange Server 之前，必须确保 Exchange Server 和 Skype for Business Server 都完全安装并正常运行。 
+在集成 Skype for Business Server 和 Exchange Server 之前，Exchange Server和Skype for Business Server完全安装并正常运行。 
   
 有关安装Exchange Server的详细信息，请参阅 Exchange Server 版本的规划和部署文档Exchange。 
    
-服务器启动并运行后，必须将服务器到服务器身份验证证书分配给 Skype for Business Server 和 Exchange Server;这些证书Skype for Business Server和Exchange Server交换信息并相互通信。 安装 Exchange Server时，会创建一个Microsoft Exchange Server身份验证证书名称的自签名证书。 此证书（可在本地计算机证书存储中找到）应该用于 Exchange Server 上的服务器到服务器身份验证。 有关在邮箱中分配证书Exchange Server，请参阅 Configure [Mail Flow and Client Access。](/exchange/configure-mail-flow-and-client-access-exchange-2013-help)
+在服务器启动并运行后，必须将服务器到服务器身份验证证书分配给 Skype for Business Server 和 Exchange Server;这些证书Skype for Business Server和Exchange Server交换信息并相互通信。 安装 Exchange Server时，会创建一个Microsoft Exchange Server身份验证证书名称的自签名证书。 此证书（可在本地计算机证书存储中找到）应该用于 Exchange Server 上的服务器到服务器身份验证。 有关在邮箱中分配证书Exchange Server，请参阅 Configure [Mail Flow and Client Access。](/exchange/configure-mail-flow-and-client-access-exchange-2013-help)
   
 例如Skype for Business Server可以使用现有 Skype for Business Server 证书作为服务器到服务器身份验证证书;例如，默认证书还可以用作 OAuthTokenIssuer 证书。 Skype for Business Server，您可以使用任何 Web 服务器证书作为用于服务器到服务器身份验证的证书，但需要：
   
@@ -42,7 +42,7 @@ ms.locfileid: "60773462"
   
 分配证书后，必须在该证书上配置自动发现Exchange Server。 在Exchange Server中，自动发现服务将配置用户配置文件，并提供Exchange登录到系统时对服务的访问权限。 用户为自动发现服务提供其电子邮件地址，而这些服务为用户提供诸如以下信息：
   
-- 与外部连接的内部和外部连接的连接Exchange Server。
+- 内部连接和外部到外部连接的连接Exchange Server。
     
 - 用户的邮箱服务器的位置。
     
@@ -81,9 +81,9 @@ Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://auto
 > [!NOTE]
 > 如果您不熟悉该技术，OAuth 是由大量网站使用的标准身份验证协议。借助 OAuth，不会将用户凭据和密码从一台计算机传递到另一台计算机。但是，身份验证和授权是基于安全令牌的交换；这些令牌会将访问权限授予特定时间量的一组特定资源。 
   
-除了配置自动发现服务之外，还必须为指向您的 Exchange Server 的服务创建 DNS 记录。 例如，如果自动发现服务位于 autodiscover.litwareinc.com 则需要为解析为 Exchange Server (的完全限定域名的 autodiscover.litwareinc.com 创建 DNS 记录，例如 atl-exchange-001.litwareinc.com) 。
+除了配置自动发现服务之外，还必须为指向您的自动发现服务的 DNS Exchange Server。 例如，如果自动发现服务位于 autodiscover.litwareinc.com 则需要为解析为 Exchange Server (的完全限定域名的 autodiscover.litwareinc.com 创建 DNS 记录 atl-exchange-001.litwareinc.com) 。
   
-如果要将 Skype for Business Server 与 Exchange Online 集成，下一步将在本地 Skype for Business Server 和[Outlook Web App](../../deploy/integrate-with-exchange-server/outlook-web-app.md)之间配置集成，否则请参阅将 Skype for Business Server 与 Exchange Server[集成](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md)。
+如果要将 Skype for Business Server 与 Exchange Online 集成，则下一步骤位于配置本地[Skype for Business Server](../../deploy/integrate-with-exchange-server/outlook-web-app.md)和 Outlook Web App 之间的集成中，否则请参阅将 Skype for Business Server 与[Exchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md)集成。
   
 ## <a name="feature-support"></a>功能支持
 <a name="feature_support"> </a>
@@ -97,9 +97,9 @@ Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://auto
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |状态Outlook   |Y   |Y   |Y   |Y   |Y   |
 |通过 IM、PSTN 呼叫、Skype呼叫或视频呼叫从电子邮件Outlook响应   |Y   |Y   |Y   |Y   |Y   |
-|通过会议安排和加入联机Outlook   |Y   |Y   |Y   |Y   |Y   |
+|通过会议安排和加入Outlook   |Y   |Y   |Y   |Y   |Y   |
 |状态Outlook Web App   |Y   |Y   |N   |网络   |Y   |
-|通过 IM、PSTN 呼叫、Skype OWA 电子邮件进行呼叫或视频呼叫进行响应   |Y   |Y   |N   |网络   |Y   |
+|通过 IM、PSTN 呼叫、Skype OWA 电子邮件进行视频呼叫响应   |Y   |Y   |N   |网络   |Y   |
 |通过会议安排和加入联机Outlook Web App   |Y   |Y   |N   |网络   |Y   |
 |移动客户端中的 IM/状态   |Y   |Y   |Y   |Y   |Y   |
 |在移动客户端中加入联机会议   |Y   |Y   |Y   |Y   |Y   |

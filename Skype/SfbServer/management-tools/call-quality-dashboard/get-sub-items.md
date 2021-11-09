@@ -2,7 +2,7 @@
 title: 获取子项
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,18 +13,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 0542eba9-3dda-40de-bba8-095d22825e4e
 description: 摘要：了解 Get Sub-Items 操作，这是项目服务的一部分。 项目服务是通话质量仪表板存储库 API 的一部分。 通话质量仪表板是一种用于Skype for Business Server。
-ms.openlocfilehash: 3d17ab46ece202ea36dce45b6266a1cd3de74928
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a1e439b9bfdfddf7009babbeb39a8175adc2a569
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774642"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60851906"
 ---
 # <a name="get-sub-items"></a>获取子项
  
 **摘要：** 了解 Get Sub-Items 操作，这是项服务的一部分。 项目服务是通话质量仪表板存储库 API 的一部分。 通话质量仪表板是一种用于Skype for Business Server。
   
-Get Sub-Items 操作是呼叫质量仪表板的存储库 API 中的项目服务的一部分。
+Get Sub-Items 操作是呼叫质量仪表板存储库 API 中的项目服务的一部分。
   
 ## <a name="get-sub-items"></a>获取子项
 
@@ -43,7 +43,7 @@ Get Sub-Items 操作是呼叫质量仪表板的存储库 API 中的项目服务�
   
  **响应** - 响应包括 HTTP 状态代码和一组响应标头。
   
- **状态代码** - 成功操作返回状态代码 200， (确定) 。 如果未找到指定的用户 ID，它将返回状态代码 404 (未找到) 。
+ **状态代码** - 成功操作返回状态代码 200 (确定) 。 如果未找到指定的用户 ID，它将返回状态代码 404 (未找到) 。
   
  **响应标头** - 无其他标头。
   

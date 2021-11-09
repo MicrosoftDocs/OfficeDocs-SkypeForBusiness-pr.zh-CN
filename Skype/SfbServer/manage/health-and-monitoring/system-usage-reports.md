@@ -1,8 +1,8 @@
 ---
-title: 系统使用情况报告中Skype for Business Server
+title: Skype for Business Server 中的系统使用情况Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,27 +11,27 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 187d316d-2456-417e-b636-05527a18ef06
-description: Summary： Learn about the System Usage Reports in Skype for Business Server.
-ms.openlocfilehash: 2e0572b35cf29cf69e9c0515b5f94384b226d8ed
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 摘要：了解 Skype for Business Server 中的系统使用情况报告。
+ms.openlocfilehash: cb1fd3fd05d553fa81f7c0646659f7593dad5869
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774772"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843875"
 ---
-# <a name="system-usage-reports-in-skype-for-business-server"></a>系统使用情况报告中Skype for Business Server
+# <a name="system-usage-reports-in-skype-for-business-server"></a>Skype for Business Server 中的系统使用情况Skype for Business Server
  
 **摘要：** 了解 Skype for Business Server 中的系统使用情况Skype for Business Server。
   
-系统使用情况报告基于呼叫详细信息记录以及由呼叫 (收集的 CDR) 提供系统Skype for Business Server。
+系统使用情况报告根据呼叫详细信息记录以及由呼叫者收集 (CDR) 提供系统Skype for Business Server。
   
 ## <a name="in-this-section"></a>本节内容
 
 - [用户注册报告中Skype for Business Server](user-registration-report.md)
     
-    根据注册事件（如用户登录Skype for Business Server，提供用户与 Skype for Business Server 连接的摘要。 该报告提供了一种方法，用于查看内部和外部登录，并将登录到 Skype for Business Server 的用户数与登录时实际使用该服务的用户数进行比较。
+    提供基于注册事件（如用户登录Skype for Business Server部署的用户连接摘要。 该报告提供了一种方法，用于查看内部和外部登录，并将登录到 Skype for Business Server 的用户数与登录时实际使用该服务的用户数进行比较。
     
-- [企业中的点对点活动摘要Skype for Business Server](peer-to-peer-activity-summary-report.md)
+- [Skype for Business Server 中的对等活动摘要Skype for Business Server](peer-to-peer-activity-summary-report.md)
     
     提供点对点即时消息 (IM)、音频、视频、文件传输和应用程序共享会话摘要。点对点会话是仅涉及两个用户的会话。
     
@@ -47,7 +47,7 @@ ms.locfileid: "60774772"
     
     提供响应组使用情况的摘要。 响应组应用程序提供了一种自动将电话呼叫路由到实体（如技术支持或客户支持线路）的方法。
     
-- [IP 电话中的清单Skype for Business Server](ip-phone-inventory-report.md)
+- [IP 电话清单报告Skype for Business Server](ip-phone-inventory-report.md)
     
     提供有关组织中当前使用的 IP 电话的信息。 报告基于电话注册和登录。 它不应被视为完整的清单。 例如，您可能已删除报告中仍列出的电话，因为它们至少登录过一次。 同样，你可能还具有新电话，它们不会显示在报告中，仅仅是因为用户尚未登录Skype for Business Server新电话登录。
     

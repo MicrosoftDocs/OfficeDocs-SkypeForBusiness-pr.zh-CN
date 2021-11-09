@@ -2,7 +2,7 @@
 title: 清除缓存
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 08648b16-7a64-41d8-9577-5000a20fce46
 description: 摘要：了解"清除缓存"操作，这是通话质量仪表板的数据 API 的一部分。 通话质量仪表板是一种用于Skype for Business Server。
-ms.openlocfilehash: f48c2308785a03ca9e344a31eddc7f5cc7f38a92
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: de956a3541416100cf7877b46340f2eccb38b3ea
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778192"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843815"
 ---
 # <a name="clear-cache"></a>清除缓存
  
@@ -43,7 +43,7 @@ ms.locfileid: "60778192"
   
  **响应** - 响应包括 HTTP 状态代码和一组响应标头。
   
- **状态代码** - 成功操作返回状态代码 200， (确定) 。
+ **状态代码** - 成功操作返回状态代码 200 (确定) 。
   
  **响应标头** - 无其他标头。
   

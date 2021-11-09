@@ -2,7 +2,7 @@
 title: 规划新式验证Skype for Business
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 audience: ITPro
 ms.topic: conceptual
 manager: serdars
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 25e68396-96dc-4e4b-8a65-d30ea80d1bc9
 description: 有关身份验证和授权 for Skype for Business Server的规划主题，包括与其他产品的集成
-ms.openlocfilehash: 0cdfd5ead32ce69e918a9353fbaa35c1904de791
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3bcd9ab78c9703dd938230740fddba4034aff315
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741928"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60851866"
 ---
 # <a name="discussing-authentication-and-authorization-in-skype-for-business"></a>讨论身份验证和授权Skype for Business
 
@@ -25,7 +25,7 @@ ms.locfileid: "60741928"
 
 授权 (AuthZ) 在证明你是谁后，你有权访问哪些项目。 它确定允许查看、编辑或以其他方式访问哪些内容。 例如，您可能具有对 SharePoint Online 的强大网站集管理员访问权限，但如果切换到其他联机工作负荷（如 Skype for Business Online），您可能有权排查用户问题，而不是更改服务器配置。 第三个工作负荷（Exchange Online）可能只有平均用户的访问权限。 AuthZ 检查对服务/worloads、应用程序、文件和其他数据具有的访问量和访问权限。
 
-我们的示例涉及联机属性SharePoint和 Exchange Online，但 AuthN 和 AuthZ 的过程在本地和混合部署中以相同方式工作。 最后，AAD 连接 和 ADFS 等工具通过同步本地帐户和密码到云的 AD (（即 Azure AD) ）或加入 AuthZ 流，以便用户不会经常提示输入其凭据（例如，在云中的工作负载之间切换时）来参与 AuthN 和 AuthZ 情景。 创建单个Sign-On方案。 但它们本身不是负责的 AuthN 或 AuthZ，而只是机制的一部分。
+我们的示例涉及联机属性，如 SharePoint 和 Exchange Online，但 AuthN 和 AuthZ 的过程在本地和混合部署中以相同方式工作。 最后，AAD 连接 和 ADFS 等工具通过同步本地帐户和密码到云的 AD (（即 Azure AD) ）或加入 AuthZ 流（例如，在云中切换工作负载时）来将 AAD 连接 和 ADFS 等工具纳入 AuthN 和 AuthZ 情景中， 创建单个Sign-On方案。 但它们本身不是负责的 AuthN 或 AuthZ，而只是机制的一部分。
 
 如今，许多技术认为这些 (AuthN 和 AuthZ) 是一种机制，并且你将听到许多对身份验证过程的引用，其中也包含授权。 切记，用户访问的第一步是 AuthN，证明你是说自己是谁，并且 AuthZ 使用用户是谁的知识来确定他/她有权访问 (，就像使用 Open Authorization 或 OAuth) 一样。
 

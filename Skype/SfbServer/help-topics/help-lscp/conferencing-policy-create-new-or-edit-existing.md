@@ -2,7 +2,7 @@
 title: 会议策略 创建新的或编辑现有的
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: ebd2f120-b57a-4c94-9509-20e098f4b0f4
 description: 会议策略定义会议期间用户可用的特性和功能 (也称为会议) 。
-ms.openlocfilehash: be0e6ee522d3bff98ab87cc8bbab7057499b0ede
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 58cfce747ef476c626efa04e74bf5140bf6f33fc
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60775202"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60844635"
 ---
 # <a name="conferencing-policy-create-new-or-edit-existing"></a>会议策略：创建新的或编辑现有的
 
@@ -59,13 +59,13 @@ ms.locfileid: "60775202"
 
   - **启用 IP 音频/视频** 选择此选项可允许音频和视频。
 
-- **启用 PSTN 电话拨入式会议** 如果在"音频 **/** 视频"中启用了音频，则选中此复选框可允许用户使用公用电话交换网和 PSTN (拨入) 。
+- **启用 PSTN 电话拨入式会议** 如果在"音频 **/** 视频"中启用了音频，则选中此复选框可允许用户通过使用公用电话交换网或 PSTN (拨入) 。
 
 - **允许匿名参与者拨出** 如果你允许用户拨入会议，并且希望允许未经身份验证的 (匿名) 用户使用拨出式电话加入会议，请选中此复选框。 通过拨出式电话，会议服务器会呼叫用户，用户接听电话即可加入会议。
 
 - **允许未启用企业语音进行拨出** 如果在"音频 **/** 视频"中启用了音频，则选中此复选框可允许未启用 企业语音 的用户使用拨出式电话加入会议。 通过拨出式电话，会议服务器会呼叫用户，然后用户接听电话以加入会议。
 
-- **允许多个视频流** 如果在"音频/视频"中 **启用了** 视频，请选中此复选框以允许用户使用库视图视频组织会议。 选中此复选框后，此设置允许用户组织发送多个视频流的会议。 未选中此复选框时，用户只能组织发送单个视频流的会议。
+- **允许多个视频流** 如果在"音频 **/** 视频"中启用了视频，请选中此复选框以允许用户通过库视图视频组织会议。 选中此复选框后，此设置允许用户组织发送多个视频流的会议。 未选中此复选框时，用户只能组织发送单个视频流的会议。
 
     > [!NOTE]
     > 此选项可确定会议支持的视频流类型。但不能确定参与者能否收到多个视频流。“允许参与者加入多个视频流”选项可确定参与者能否收到多个视频流。

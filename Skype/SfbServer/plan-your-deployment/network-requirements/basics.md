@@ -2,7 +2,7 @@
 title: DNS 基础
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,25 +12,25 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 2618cfa1-2e2c-4f1d-a5e5-70a0286591a7
 description: Windows Server 2016提供 DNS 服务的内置软件，因此您可能需要查看可用的文档，如 DNS 策略方案指南。 如果需要，可以选择第三方解决方案。
-ms.openlocfilehash: fe5c38aa22f87e9096d9c887c387938e1cf66ab3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ca6bb3a7e7676f7eec5e7b8d384757099f012514
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765230"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835000"
 ---
 # <a name="dns-basics"></a>DNS 基础
  
 Windows Server 2016提供 DNS 服务的内置软件，因此您可能需要查看可用的文档，例如[DNS 策略方案指南](/windows-server/networking/dns/deploy/dns-policy-scenario-guide)。 如果需要，可以选择第三方解决方案。
   
-建议最佳做法是，将特定服务器专用于实现中以提供 DNS。 您可能在专用于其中一个 Skype for Business 服务器角色的服务器上设置它，但如果该服务器也是池的一部分，并且因意外而停用Skype for Business在重新建立 DNS 服务之前将发生故障。
+建议最佳做法是，将特定服务器专用于实现中以提供 DNS。 您可以在专用于其中一个 Skype for Business 服务器角色的服务器上设置该服务器，但如果该服务器也是池的一部分，并且因意外而停止使用Skype for Business在重新建立 DNS 服务之前将发生故障。
   
 ## <a name="dns-records"></a>DNS 记录
 
-名称到 IP 地址的每次映射 (可以是 IPv4 或 IPv6 地址) 存储在 DNS 服务器的 DNS 记录中。 该名称在 DNS 报告中专门描述为 FQDN — 完全限定的域名。 虽然 *contoso.com* 是一个有效的域名，但它是 *\* .contoso.com* 的简写，因此不明确，可能指域中的任何服务器。 引用域中的单台服务器的 FQDN 示例可能 **meeting01.contoso.com。**
+名称到 IP 地址的每次映射 (可以是 IPv4 或 IPv6 地址) 存储在 DNS 服务器的 DNS 记录中。 该名称在 DNS 报告中专门描述为 FQDN — 完全限定的域名。 尽管 *contoso.com* 是一个有效的域名，但它是 *\* .contoso.com* 的简写，因此不明确，可能指域中的任何服务器。 引用域中的单台服务器的 FQDN 示例可能 **meeting01.contoso.com。**
   
 > [!IMPORTANT]
-> 默认情况下，未加入域的计算机的计算机名称是主机名，而不是 FQDN (完全限定) 。 拓扑生成器使用 FQNS，而不是主机名。 因此，您必须在要部署为域外边缘服务器的计算机的名称上配置 DNS 后缀。 将 **FQDN** 分配给运行 Skype for Business Server 的服务器时， (包括 A-Z、a-z、0-9 和连字符) 字符。 不要使用 Unicode 字符或下划线。 外部 DNS 和公共 CA（即，在 FQDN 必须分配给证书中的 SN 时）通常不支持在 FQDN 中使用非标准字符。
+> 默认情况下，未加入域的计算机的计算机名称是主机名，而不是 FQDN (完全限定) 。 拓扑生成器使用 FQNS，而不是主机名。 因此，您必须在要部署为域外边缘服务器的计算机的名称上配置 DNS 后缀。 将 **FQDN** 分配给 (服务器时，请仅) 包括 A-Z、a-z、0-9 和连字符Skype for Business Server。 不要使用 Unicode 字符或下划线。 外部 DNS 和公共 CA（即，在 FQDN 必须分配给证书中的 SN 时）通常不支持在 FQDN 中使用非标准字符。
   
 除了 IP 地址之外，FQDN 还可以映射到 **VIP** — 虚拟 IP 地址。 VIP 是一个与实际物理网络接口不对应的 IP 地址。 VIP 通常指向执行服务器角色的服务器池，或指向配置为冗余和容错的一对服务器。
   
@@ -42,12 +42,12 @@ Windows Server 2016提供 DNS 服务的内置软件，因此您可能需要查�
     
 - **CNAME** — 规范名称记录。 这会将一个名称解析为另一个名称：DNS 查找将重试具有新名称的查找。
     
-- **SRV** - 服务记录 (SRV 记录) 指定服务 (特定端口和 IP 组合) 访问的服务器上进程。 需要服务记录的服务名称是固定的，除了使服务成为 SIP 域的一部分之外，不能自定义它们。 某些用户服务使用简单 URL。 SRV 记录必须指向同一 SIP 域中的位置，因此如果你有多个域，则给定服务需要多个 SRV 记录。
+- **SRV** - 服务记录 (SRV 记录) 指定一个服务 (一个进程位于) 端口和 IP 组合上访问的服务器服务器上。 需要服务记录的服务名称是固定的，除了使服务成为 SIP 域的一部分之外，不能自定义它们。 某些用户服务使用简单 URL。 SRV 记录必须指向同一 SIP 域中的位置，因此如果你有多个域，则给定服务需要多个 SRV 记录。
     
 ## <a name="how-to-choose-a-sip-domain-name"></a>如何选择 SIP 域名
 <a name="BK_NameSIP"> </a>
 
-组织的 SIP 域名通常与为用户提供的电子邮件地址一致。 如果贵组织中用户的电子邮件地址与 Brown@contoso.com 类似，则使用 contoso.com 域名的组织的首选 \<sip-domain\> 只是 contoso.com。
+组织的 SIP 域名通常与为用户提供的电子邮件地址一致。 如果贵组织中用户的电子邮件地址与 Brown@contoso.com 类似，则对于域名为 contoso.com 的组织来说，其 \<sip-domain\> contoso.com。
   
 ### <a name="multiple-sip-domains"></a>多个 SIP 域
 

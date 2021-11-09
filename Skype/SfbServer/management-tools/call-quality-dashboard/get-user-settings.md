@@ -2,7 +2,7 @@
 title: 获取用户设置
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,22 +13,22 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: bdfe063b-e808-4f3c-884a-acbbabb9be0a
 description: 摘要：了解"获取用户设置操作，该操作是 User 设置 服务的一部分。 User 设置 Service 是通话质量仪表板存储库 API 的一部分。 通话质量仪表板是一种用于Skype for Business Server。
-ms.openlocfilehash: b7be08df46aa63287d931a566d26671bfecfc3b8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1d1964ca82ac498df2fedac59890316c4574b592
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778172"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60851886"
 ---
 # <a name="get-user-settings"></a>获取用户设置
  
-**摘要：** 了解"获取用户设置操作，该操作是 User 设置 Service 的一部分。 User 设置 Service 是通话质量仪表板存储库 API 的一部分。 通话质量仪表板是一种用于Skype for Business Server。
+**摘要：** 了解"获取用户设置操作，该操作是 User 设置 服务的一部分。 User 设置 Service 是通话质量仪表板存储库 API 的一部分。 通话质量仪表板是一种用于Skype for Business Server。
   
-Get User 设置 操作是呼叫质量仪表板的存储库 API 设置 User 设置 Service 的一部分。
+"获取用户设置操作是呼叫质量仪表板的存储库 API 设置 User 设置 Service 的一部分。
   
 ## <a name="get-user-settings"></a>获取用户设置
 
-Get User 设置返回指定用户的设置列表。
+Get User 设置 返回指定用户的设置列表。
   
 
 |**方法**|**请求 URI**|**HTTP 版本**|
@@ -45,7 +45,7 @@ Get User 设置返回指定用户的设置列表。
   
   **响应** - 响应包括 HTTP 状态代码和一组响应标头。
   
-  **状态代码** - 成功操作返回状态代码 200， (确定) 。
+  **状态代码** - 成功操作返回状态代码 200 (确定) 。
   
   **响应标头** - 无其他标头。
   

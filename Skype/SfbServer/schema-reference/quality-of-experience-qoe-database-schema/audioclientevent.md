@@ -2,7 +2,7 @@
 title: AudioClientEvent 表
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: fef73d8f-7261-4e5b-9769-82435b007979
 description: 每条记录都包含音频呼叫中一个终结点的客户端事件。 通常，一个呼叫有两条记录，一条用于呼叫者，一条用于被叫方。
-ms.openlocfilehash: a7e5e481fd9398532212f4bda767bab83815250c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e51146211567af3abfe68fdc415814d433e84884
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767310"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843645"
 ---
 # <a name="audioclientevent-table"></a>AudioClientEvent 表
  

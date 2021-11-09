@@ -1,8 +1,8 @@
 ---
-title: 服务器媒体质量趋势Skype for Business Server
+title: 服务器媒体质量趋势报告Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8a51fd13-1487-4632-b5ec-f7ae2abe8ed4
 description: 摘要：了解 Skype for Business Server 中的服务器媒体质量趋势报告。
-ms.openlocfilehash: d813e6d0935a24652b99beb4da9b854197ba98dd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 03091deedf502c4a6d9d65dc5e9f14532a9147ab
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774792"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60851015"
 ---
-# <a name="server-media-quality-trend-report-in-skype-for-business-server"></a>服务器媒体质量趋势Skype for Business Server
+# <a name="server-media-quality-trend-report-in-skype-for-business-server"></a>服务器媒体质量趋势报告Skype for Business Server
  
-**摘要：** 了解 Skype for Business Server 中的服务器媒体质量趋势报告。
+**摘要：** 了解 Skype for Business Server 中的服务器媒体质量趋势Skype for Business Server。
   
 服务器媒体质量趋势报告提供了一种在用户体验质量指标（如呼叫量、质量欠佳的呼叫百分比、数据包丢失和抖动）上以图形方式比较最多五台服务器的方法。 这使得执行标识性能不佳的服务器、未充分利用的服务器或使用过度的服务器之类的操作变得更简单。
   
@@ -29,7 +29,7 @@ ms.locfileid: "60774792"
 
 服务器媒体质量趋势报告可从下列任一报告进行访问：
   
-- [通过单击"趋势Skype for Business Server (](server-performance.md)中的服务器性能报告) 
+- [通过单击"趋势"Skype for Business Server (](server-performance.md)中的服务器性能报告) 
     
 - [通过单击 A/V](call-detail-report.md) Skype for Business Server (报告中的呼叫详细信息报告。 如果呼叫者或被叫方是服务器，则您还可以通过单击终结点名称来访问服务器质量媒体趋势报告。) 
     
@@ -37,7 +37,7 @@ ms.locfileid: "60774792"
 
 当您单击特定服务器的 Skype for Business Server[中"](server-performance.md)服务器性能报告"上的"趋势"指标时，将打开"服务器媒体质量趋势报告"。 但是，您只会看到该报告的一个空白实例；您在服务器性能报告上选择的服务器将不会显示在屏幕上。 相反，您需要从“服务器”下拉列表中选择服务器。 还要注意，“服务器”下拉列表包含“全选”选项。 此选项在您具有 5 台以上的服务器时不起作用；服务器媒体质量趋势报告一次最多只能显示 5 台服务器的数据。
   
-在服务器媒体质量趋势报告显示的图形上，标记为"呼叫量"和"质量欠佳的呼叫百分比"的点是热链接;单击图形上的某个点将在 Skype for Business Server 中打开呼叫[](call-list-report-0.md)列表报告的实例，其中显示指定时间段 (呼叫) 质量欠佳的呼叫数。
+在服务器媒体质量趋势报告显示的图形上，标记为"呼叫量"和"质量欠佳的呼叫百分比"的点是热链接;单击图形上的某个点将打开呼叫列表报告的实例，[](call-list-report-0.md)其中Skype for Business Server显示指定时段内呼叫总数 (质量) 质量欠佳的呼叫数。
   
 ## <a name="filters"></a>筛选器
 
@@ -49,7 +49,7 @@ ms.locfileid: "60774792"
 |:-----|:-----|
 |**From** <br/> |时间范围的开始日期/时间。若要按小时查看数据，请输入开始日期和时间，如下所示：  <br/> 7/7/2015 1：00 PM  <br/> 如果您未输入开始时间，该报告会自动将某个特定日的上午 12:00 作为开始时间。若要按日查看数据，请只输入日期：  <br/> 7/7/2015  <br/> 若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：  <br/> 7/3/2015  <br/> 一周始终是从星期日开始至星期六结束。  <br/> |
 |**To** <br/> |时间范围的结束日期/时间。若要按小时查看数据，请输入结束日期和时间，如下所示：  <br/> 7/7/2015 1：00 PM  <br/> 如果您未输入结束时间，该报告会自动将某个特定日的上午 12:00 作为结束时间。若要按日查看数据，请只输入日期：  <br/> 7/7/2015  <br/> 若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：  <br/> 7/3/2015  <br/> 一周始终是从星期日开始至星期六结束。  <br/> |
-|**Interval** <br/> | 时间间隔。选择下列选项之一： <br/>  每小时（最多可显示 25 个小时） <br/>  每天（最多可显示 31 天） <br/>  每周（最多可显示 12 周） <br/>  如果开始日期和结束日期超出了所选间隔允许的最长时间，则仅显示最长时间（从开始日期开始）。 例如，如果您选择开始日期为 2015/8/7 和结束日期为 2015/9/28 的"每天"间隔， 显示 2015 年 8 月 7 日上午 12：00 到 2015 年 9 月 7 日上午 12：00 (即总共 31 天的数据) 。 <br/> |
+|**Interval** <br/> | 时间间隔。选择下列选项之一： <br/>  每小时（最多可显示 25 个小时） <br/>  每天（最多可显示 31 天） <br/>  每周（最多可显示 12 周） <br/>  如果开始日期和结束日期超出了所选间隔允许的最长时间，则仅显示最长时间（从开始日期开始）。 例如， 如果您选择开始日期为 2015/8/7、结束日期为 2015/9/28 的"每天"间隔，则会显示从 8/7/2015 12：00 AM 到 9/7/2015 12：00 AM (即总共 31 天的数据) 。 <br/> |
 |**服务器类型** <br/> | 呼叫中涉及的服务器类型。允许的值包括： <br/>  中介服务器 <br/>  A/V 会议服务器 <br/>  A/V 边缘服务器 <br/>  网关（中介服务器） <br/>  网关（中介服务器旁路） <br/>  AS 会议服务器 <br/> |
 |**Servers** <br/> |会话中涉及的服务器的名称；此下拉列表将基于服务器类型筛选器的值自动为您填充。编译报告时最多可选择 5 台不同的服务器。  <br/> |
 |**访问类型** <br/> | 指示参与者是登录到内部网络还是从外部网络登录。允许的值包括： <br/>  [All] <br/>  内部 <br/>  外部 <br/> |

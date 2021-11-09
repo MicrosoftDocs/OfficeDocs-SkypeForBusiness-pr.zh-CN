@@ -2,7 +2,7 @@
 title: 使用呼叫质量仪表板进行Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,22 +13,22 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
 description: 摘要：了解如何使用呼叫质量仪表板。 通话质量仪表板是一种用于Skype for Business Server。
-ms.openlocfilehash: ad4c1b295b672900b632903fc653691c03cc5193
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a1a2f0c6d4cf07563f0aceb6379a9142930e1699
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60739098"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843805"
 ---
 # <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>使用呼叫质量仪表板进行Skype for Business Server
 
 **摘要：** 了解如何使用呼叫质量仪表板。 通话质量仪表板是一种用于Skype for Business Server。
 
-呼叫质量仪表板 (CQD) 使 IT 专业人员可以使用聚合数据，通过比较用户组的统计信息来确定趋势和模式，从而发现产生媒体质量问题的问题。 CQD 并非专注于解决单个呼叫问题，而是侧重于识别适用于许多用户的问题和解决方案。
+呼叫质量仪表板 (CQD) 使 IT 专业人员可以使用聚合数据，通过比较用户组的统计信息来确定趋势和模式，从而识别产生媒体质量问题的问题。 CQD 并非专注于解决单个呼叫问题，而是侧重于识别适用于许多用户的问题和解决方案。
 
 ## <a name="call-quality-dashboard-user-guide"></a>呼叫质量仪表板用户指南
 
-CQD 是一个 Web 门户，用于根据用户体验质量或 QoE (数据快速创建) 报告。 CQD 部署 SSAS 多维数据集以聚合 QoE 指标数据库中的数据，使管理员能够创建和修改报告或实时进行调查。 虽然可以使用 Excel直接连接到多维数据集，但门户针对涉及 QoE 数据的多个工作流进行了优化。 数据包括：
+CQD 是一个 Web 门户，用于根据用户体验质量 (QoE) 报告。 CQD 部署 SSAS 多维数据集以聚合 QoE 指标数据库中的数据，使管理员能够创建和修改报告或实时进行调查。 虽然可以使用 Excel直接连接到多维数据集，但门户已针对涉及 QoE 数据的几个工作流进行了优化。 数据包括：
 
 - 用于快速访问的缓存报表数据
 - 用于信息共享和发布的报告页面的深层链接
@@ -76,21 +76,21 @@ CQD 是一个 Web 门户，用于根据用户体验质量或 QoE (数据快速�
 
 ![使用 CQD。](../../media/fe6b18d7-b8cf-472a-9c93-0f7703f5a700.png)
 
-为了显示条形图和迷你图，必须选中报表编辑器顶部的"显示迷你图"复选框。 这将选择"趋势"选项，将"月"向下移动为最后一个维度，这也可单击"月"，然后使用向上和向下箭头向上或向下移动 StartDate.Month。
+为了显示条形图和迷你图，必须选中报表编辑器顶部的"显示迷你图"复选框。 这将选择"趋势"选项，将"月"向下移动为最后一个维度，这也可通过单击"月"，然后使用向上和向下箭头向上或向下移动 StartDate.Month 来完成。
 
 ### <a name="settings"></a>设置
 
-"设置"菜单包含指向有用页面（如"系统运行状况"和"关于"页面）的链接，并且位于仪表板的右上角。
+"设置"菜单包含指向有用页面（如"系统运行状况"和"关于"页面）的链接，位于仪表板的右上角。
 
 ![使用 CQD。](../../media/0e9ae123-e231-4fea-94e1-5788e8f3e1d3.png)
 
 是否显示说明和时间戳由单个用户决定，并且这些设置仅影响个人版本的仪表板，并且不会修改报告集或其他用户看到的信息。 清除缓存会导致所有查询从多维数据集重新加载其数据，而还原默认值会删除用户创建或修改的所有报告，并重新创建系统报告集 - 用户首次登录时会看到的内容。
 
-用户仪表板链接显示一个页面，用户可以在此页面查看 CQD 的其他用户并浏览其报告。 若要共享报告集，请复制 URL 栏中的链接，并与另一个 CQD 用户共享它。 此链接是其他用户在用户用户名下的"用户仪表板链接"页面中看到的相同链接。
+用户仪表板链接显示一个页面，用户可以在此页面查看 CQD 的其他用户并浏览他们的报告。 若要共享报告集，请复制 URL 栏中的链接，并与另一个 CQD 用户共享它。 此链接是其他用户在用户用户名下的"用户仪表板链接"页面中看到的相同链接。
 
 ### <a name="supplying-subnet-information"></a>提供子网信息
 
-如果存档数据库中输入了特定于站点的信息以提供子网到建筑物的映射信息 (例如，通过构建网络网络来提供有线/无线呼叫质量) 。
+如果将特定于站点的信息输入到存档数据库中以提供子网到建筑物的映射信息 (例如，通过构建网络网络来提供有线/无线呼叫质量) 。
 
 至少应填写下表以创建这些报告：
 
@@ -194,7 +194,7 @@ JPDR 定义 = 质量欠佳的呼叫定义减去 RatioConcealedSamplesAvg
 
 CQD 不使用呼叫方/被叫方字段，而是使用"First"和"Second"，因为呼叫者与被叫方之间存在干预步骤。
 
- **First** 如果流中涉及服务器 (，则始终为 Server 终结点，例如 AV MCU 或中介) 。
+ **First** 如果流中涉及服务器 (，则始终为服务器终结点，例如 AV MCU 或中介服务器) 。
 
  **Second** 始终为客户端终结点，除非它是Server-Server流。
 

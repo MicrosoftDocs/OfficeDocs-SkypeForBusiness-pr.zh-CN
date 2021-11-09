@@ -2,7 +2,7 @@
 title: PSTN 用法 创建新的或编辑现有的
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: db7da46e-60ec-4f5b-b07a-f79284ad12b8
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: 92bb6a10daf2bb6412c270543b6a5250c51cc058
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 890293ee5032d78f123a26af2ad3cf487550a11c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60748618"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859439"
 ---
 # <a name="pstn-usage-create-new-or-edit-existing"></a>PSTN 用法：创建新的或编辑现有的
 

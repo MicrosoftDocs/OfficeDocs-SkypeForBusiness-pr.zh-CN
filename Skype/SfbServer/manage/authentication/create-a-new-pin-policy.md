@@ -2,7 +2,7 @@
 title: 在"密码"中创建新的 PIN Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,18 +13,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 8bdf0478-fe9f-4371-93ff-db39381a25db
 description: 摘要：在密码中创建新的 PIN Skype for Business Server。
-ms.openlocfilehash: 24d131792fdc7ae90a8799f231dd94a3e854c576
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: cf9a35c634c9b53b557601009fa131c3c24e7db2
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751781"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60844205"
 ---
 # <a name="create-a-new-pin-policy-in-skype-for-business-server"></a>在"密码"中创建新的 PIN Skype for Business Server
  
 **摘要：** 在"密码"中创建新的 PIN Skype for Business Server。
   
-可以使用 **"PIN 策略**"页向 (IP 电话) PIN Skype for Business个人标识号。 要使用 PIN 身份验证，请确保在 Web 服务设置中选中“启用 PIN 身份验证”。
+可以使用 **"PIN** 策略"页向 (IP 电话) PIN Skype for Business个人标识号。 要使用 PIN 身份验证，请确保在 Web 服务设置中选中“启用 PIN 身份验证”。
   
 按照以下步骤创建用户级别或站点级别的 PIN 策略。 
   

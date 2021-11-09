@@ -1,7 +1,7 @@
 ---
 title: 安装和测试 Skype for Business for iOS
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.reviewer: PhillipGarding
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 142abc98-608d-40c7-ab4d-66acc010426b
 description: 摘要：如何安装和测试 iOS Skype for Business应用。
-ms.openlocfilehash: 62b7720efbc24606f63f5df83c9082fb4ebf9611
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b3bcdddbafe5ae0c578f1f5e38f44696ed01dd66
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758154"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843525"
 ---
 # <a name="install-and-test-skype-for-business-for-ios"></a>安装和测试 Skype for Business for iOS
  
-**摘要：** 如何安装和测试 iOS Skype for Business应用。
+**摘要：** 如何安装和测试适用于 iOS Skype for Business应用。
   
 iOS Skype for Business为 iOS 设备Skype for Business状态、即时消息 (IM) 以及语音和视频呼叫。 使用 Lync 2013 的用户将自动获得更新的应用，或收到手动更新应用的提示，具体取决于其用户设置。 新用户可以从 Apple App Store 下载它。 适用于 iOS Skype for Business仅在 iOS 8.0 版和更高版本上可用。
   
@@ -61,7 +61,7 @@ iOS Skype for Business为 iOS 设备Skype for Business状态、即时消息 (IM)
     
 ### <a name="test-push-notifications"></a>测试推送通知
 
-1. 在用户 A 的移动设备上，Skype for Business A 的帐户登录登录。 
+1. 在用户 A 的移动设备上，使用Skype for Business A 的帐户登录登录。 
     
 2. 在移动设备上打开其他应用程序。 
     

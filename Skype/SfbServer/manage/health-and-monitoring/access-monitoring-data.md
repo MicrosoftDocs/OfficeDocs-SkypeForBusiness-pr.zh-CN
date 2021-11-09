@@ -2,7 +2,7 @@
 title: 访问监控数据Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 845385ca-5532-4fa2-91b9-51c6de6fec91
 description: 摘要：了解 Skype for Business Server 中使用的监视数据。
-ms.openlocfilehash: 416eeb0f1ec724b2d07200ce87d35a466336f9c1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 49adf9caca82f97b0483743f65c7dea7b0f72a01
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763670"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60852066"
 ---
 # <a name="access-monitoring-data-in-skype-for-business-server"></a>访问监控数据Skype for Business Server
  

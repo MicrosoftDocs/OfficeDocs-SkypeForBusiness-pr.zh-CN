@@ -6,7 +6,7 @@ ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552443(v=OCS.15)
 ms:contentKeyID: 48679555
 mtps_version: v=OCS.15
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 部署一个或多个边缘服务器后，必须通过组织支持的边缘服务器启用外部域或提供程序访问、远程用户访问和匿名用户访问会议的类型。
-ms.openlocfilehash: 18d4f6e0225c14d3eb5198cb1dc9214c10875267
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ff152ea25bbea750815e0619ce521ede8d8d7203
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766510"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860089"
 ---
 # <a name="manage-access-edge-configuration-for-your-organization"></a>管理你的组织的访问边缘配置
 
@@ -30,7 +30,7 @@ ms.locfileid: "60766510"
 
   - **启用联盟和公共 IM 连接**   如果要支持用户访问联盟伙伴域，则启用此功能。 此设置适用于在"外部访问策略"页上为全局、站点或用户范围 **配置的** SIP 联盟。 若要应用联盟设置，必须在两个页面上配置联合支持。
     
-    存在两个选项，这些选项是有关如何发现联盟伙伴的可选设置，以及存档免责声明 (通知发送给您通信的联盟联系人，告知您的部署已启用存档且通信详细信息将存档) 将发送给联系人：
+    存在两个选项，这些选项是有关如何发现联盟伙伴的可选设置，以及存档免责声明 (告知您与您的部署已启用存档且通信详细信息将存档的联盟联系人的 () 通知是否将发送给联系人：
     
       - **启用合作伙伴域发现**   选择此选项可启用可以联盟的域的自动发现。 Skype for Business Server 使用域名系统 (DNS) 记录尝试发现未列在允许域列表中的域，自动评估来自已发现联盟伙伴的传入流量，并基于信任级别、流量和管理员设置限制或阻止该流量。 如果不选择此选项，则仅对包括在允许域列表上的域中的用户启用联盟用户访问。 无论选择此选项，都可以指定阻止或允许各个域，包括限制对在联盟域中运行访问边缘服务的特定服务器的访问。 有关详细信息，请参阅 [配置对允许的外部域的支持](../sip-domains/manage-sip-federated-domains-for-your-organization.md#configure-support-for-allowed-external-domains-in-skype-for-business-server)。
     

@@ -2,7 +2,7 @@
 title: 为呼叫服务中的用户启用Skype for Business
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9430763f-3394-467c-9c6d-426bf761604e
 description: 为用户启用呼叫Skype for Business Server 企业语音。
-ms.openlocfilehash: 262821cfef675c3af631cacd38f0cca4f2195fe7
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 87ac29c8f9b6c893149db8fb91561ee4b3cf1166
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60775782"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843505"
 ---
 # <a name="enable-call-park-for-users-in-skype-for-business"></a>为呼叫服务中的用户启用Skype for Business
  
@@ -31,9 +31,9 @@ ms.locfileid: "60775782"
   
 可以在全局范围、站点范围或用户范围启用呼叫。 用户作用域优先于站点范围，而站点作用域优先于全局范围。 如果你有多个语音策略，请查看所有策略以启用呼叫管理，而不只是全局策略。
   
-### <a name="to-use-skype-for-business-server-control-panel-to-enable-call-park-for-users"></a>使用 Skype for Business Server 控制面板为用户启用呼叫等待
+### <a name="to-use-skype-for-business-server-control-panel-to-enable-call-park-for-users"></a>使用Skype for Business Server控制面板为用户启用呼叫等待
 
-1. 以 **RTCUniversalServerAdmins** 组的成员或 **CsVoiceAdministrator、CsServerAdministrator** 或 **CsAdministrator** 管理角色 的成员登录到计算机。 
+1. 以 **RTCUniversalServerAdmins** 组的成员或 **CsVoiceAdministrator、CsServerAdministrator** 或 **CsAdministrator** 管理角色 成员登录到计算机。 
     
 2. 打开Skype for Business Server控制面板"。
     

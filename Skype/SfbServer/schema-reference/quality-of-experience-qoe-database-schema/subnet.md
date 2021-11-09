@@ -2,7 +2,7 @@
 title: Subnet 表
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 76f5c995-96c8-4aa3-bc30-1d74991d7c42
 description: Subnet 表是一个支持表。每条记录均表示网络配置设置中定义的一个子网。
-ms.openlocfilehash: b0c10fae89fe76c184e3aaffec4e1166c4cdb94c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: abbc1317c6a0db1da0b52e5b0eef56abbfad06f5
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768310"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834840"
 ---
 # <a name="subnet-table"></a>Subnet 表
  

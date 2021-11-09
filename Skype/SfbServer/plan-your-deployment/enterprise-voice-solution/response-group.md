@@ -2,7 +2,7 @@
 title: 在响应组中规划响应组Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6cc333e7-4029-4372-86b2-016040c415fb
 description: 规划 Skype for Business Server 企业语音 中的响应组，这使您能够设置到用户组的呼叫路由。 包括音频文件要求。
-ms.openlocfilehash: 3ca8159ca3d6fc37aa5c8f1f3f88f8188929f71f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3b208b5f18b4b14a35985144b2b96cbabbf39dfe
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767550"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859879"
 ---
 # <a name="plan-for-the-response-group-application-in-skype-for-business-server"></a>在响应组中规划响应组Skype for Business Server
 
@@ -29,7 +29,7 @@ ms.locfileid: "60767550"
 
 如果您的组织具有一组应答和管理某些类型的呼叫（例如客户服务、内部技术支持或部门常规电话支持）的呼叫，您可以部署响应组应用程序来管理这些类型的呼叫。 响应组应用程序将传入呼叫路由到指定人员（称为代理）并排入队列。 您可以通过响应组来增加电话支持服务的使用并降低运行这些服务的开销。
 
-当呼叫者呼叫响应组时，呼叫会基于智能寻线或呼叫者对互动语音响应 (IVR) 问题的回答路由至代理。 响应组应用程序使用标准响应组路由方法将呼叫路由到下一个可用的代理。 支持的呼叫路由方法包括串行、最长空闲、并行、循环和助理路由 (即，每个传入呼叫的所有代理都会同时调用，无论其当前状态如何) 。
+当呼叫者呼叫响应组时，呼叫会基于智能寻线或呼叫者对互动语音响应 (IVR) 问题的回答路由至代理。 响应组应用程序使用标准响应组路由方法将呼叫路由到下一个可用的代理。 支持的呼叫路由方法包括串行、最长空闲、并行、循环和助理路由 (即，针对每个传入呼叫同时调用所有代理，无论其当前状态如何) 。
 
 如果没有可用的代理，呼叫将保留在一个队列中，直到代理可用为止。 在队列中时，呼叫者将听到音乐，直到可用代理接受呼叫为止。 如果队列已满，或者呼叫在队列中时出现中断，呼叫者可能会听到一条消息，然后断开连接或转接到其他目标，如不同的电话号码或语音邮件。 当代理接受呼叫时，呼叫者可能会（也可能不会）看到代理的身份，具体取决于管理员如何配置响应组。 代理可以是正式的，这意味着他们必须登录到组，然后才能接受路由至该组的呼叫；也可以是非正式的，这意味着他们无需登录到组，在组外即可接受呼叫。
 
@@ -56,7 +56,7 @@ ms.locfileid: "60767550"
 
 |**响应组类型**|**说明**|
 |:-----|:-----|
-|非托管  <br/> | 非托管响应组未分配有 Manager。 只有响应组管理员可以配置这些响应组。 <br/>  多个非托管响应组可共享一个队列或代理组。 <br/>  将响应组从早期版本迁移到 Skype for Business Server时，类型设置为"非托管"。 <br/> |
+|非托管  <br/> | 非托管响应组未分配有 Manager。 只有响应组管理员可以配置这些响应组。 <br/>  多个非托管响应组可共享一个队列或代理组。 <br/>  将响应组从早期版本迁移到 Skype for Business Server 时，类型设置为"非托管"。 <br/> |
 |托管  <br/> | 响应组管理员可以配置托管响应组的任何方面。 <br/>  响应组管理员无法查看或修改未明确分配给他们的响应组。 <br/>  响应组管理员只能为显式分配给他们的响应组配置某些设置。 <br/>  托管响应组无法与任何其他响应组（托管或非托管）共享任何队列或代理组。 <br/> |
 
 下表介绍了响应组管理员可以/不能为分配给这些响应组的响应组执行的操作。
@@ -78,7 +78,7 @@ ms.locfileid: "60767550"
 
 - Skype for Business Server 命令行管理程序
 
-响应组可很好地扩展到部门或工作组 (，有关详细信息，请参阅 Capacity Planning [for Response Group](/previous-versions/office/lync-server-2013/lync-server-2013-capacity-planning-for-response-group)) and can be deployed in entirely new telephony installations。 它支持来自 企业语音 和本地运营商网络的传入呼叫。 代理可以使用 Skype for Business、Lync 2013、Lync 2010、Lync 2010 Attendant 或 Lync 电话 Edition 将呼叫路由到他们。
+响应组可很好地扩展到部门或工作组 (，有关详细信息，请参阅 Capacity [Planning for Response Group](/previous-versions/office/lync-server-2013/lync-server-2013-capacity-planning-for-response-group)) and can be deployed in entirely new telephony installations。 它支持来自本地企业语音和本地运营商网络的传入呼叫。 代理可以使用 Skype for Business、Lync 2013、Lync 2010、Lync 2010 Attendant 或 Lync 电话 Edition 将呼叫路由到他们。
 
 ## <a name="deployment-and-requirements"></a>部署和要求
 
@@ -90,7 +90,7 @@ ms.locfileid: "60767550"
 
 如果将 Windows Media Audio (.wma) 文件用于响应组音乐和通知，则运行响应组应用程序的所有前端服务器或 Standard EditionS 服务器必须为运行 Windows Server 2008 R2 的服务器安装 Windows Media Format Runtime，或为运行 Windows Server 2012 o 的服务器安装 Microsoft Media Foundationr Windows Server 2012 R2。 对于 Windows Server 2008 R2，Windows Media Format Runtime 作为桌面体验的一Windows安装。
 
-响应组 **使用语言包** 支持文本到语音和语音识别。 在配置消息（如欢迎邮件和其他提示）以及 IVR 的交互式语音响应 (IVR) 和答案时，会使用这些语音技术。 默认情况下，在部署语言包时，会安装 26 Skype for Business Server。
+响应组 **使用语言包** 支持文本到语音和语音识别。 在配置消息（如欢迎邮件和其他提示）以及 IVR 中的交互式语音响应等 (语音响应) 和答案。 默认情况下，部署语言包时将安装 26 个支持的语言Skype for Business Server。
 
 ### <a name="port-requirements"></a>端口要求
 
@@ -104,11 +104,11 @@ ms.locfileid: "60767550"
     > 此端口用于 Match Making 服务，在具有多个前端服务器的池中部署响应组应用程序时需要此端口。
 
    > [!NOTE]
-   > 这些端口是默认设置，您可以使用 **Set-CsApplicationServer** cmdlet 更改。 有关此 cmdlet 的详细信息，请参阅 Skype for Business Server命令行管理程序文档。
+   > 这些端口是默认设置，您可以使用 **Set-CsApplicationServer** cmdlet 更改。 有关此 cmdlet 的详细信息，请参阅 Skype for Business Server 命令行管理程序文档。
 
 ### <a name="audio-file-requirements"></a>音频文件要求
 
-响应组应用程序支持 wave (.wav) 文件格式和 Windows Media 音频 (.wma) 文件格式，用于响应组消息、保持音乐或互动语音响应 (IVR) 问题。
+响应组应用程序支持 wave (.wav) 文件格式和 Windows Media 音频 (.wma) 文件格式，用于响应组消息、保留音乐或互动语音响应 (IVR) 问题。
 
 Windows Media 音频文件格式要求在运行 Windows Server 2008 R2 和 Windows Server 2008 的前端服务器上安装 Windows Media Format Runtime。 有关详细信息，请参阅本节前面介绍的"软件要求"。
 
@@ -128,7 +128,7 @@ Windows Media 音频文件格式要求在运行 Windows Server 2008 R2 和 Windo
 
 #### <a name="supported-windows-media-audio-file-formats"></a>支持的 Windows Media 音频文件格式
 
-如果使用 Windows 音频文件，请考虑使用低比特率，并验证负载下的系统性能。
+如果使用视频Windows音频文件，请考虑使用低比特率，并验证负载下的系统性能。
 
 您可以使用 Microsoft Expression Encoder 4 将文件转换为 Windows Media 音频格式。 若要下载 Expression Encoder 4，请参阅 [https://go.microsoft.com/fwlink/p/?linkId=202843](https://go.microsoft.com/fwlink/p/?linkId=202843) 。
 
@@ -191,9 +191,9 @@ Windows Media 音频文件格式要求在运行 Windows Server 2008 R2 和 Windo
 
 - **呼叫者** 可使用前面列出的任何客户端和公用电话交换网 (PSTN) 上的标准电话来呼叫响应组。
 
-- **非正式代理** (组登录和注销的代理接受呼叫) 可以使用 Attendant、Lync 或 Lync 电话 Edition 接受呼叫。 非正式代理在使用这些客户端之一登录Skype for Business Server自动登录到其组。
+- **非正式代理** (组登录和注销的代理接受呼叫，) Attendant、Lync 或 Lync 电话 Edition 接受呼叫。 非正式代理在使用这些客户端之一登录Skype for Business Server自动登录到其组。
 
-- 正式 **代理 (** 必须登录到组和从组注销才能接受呼叫的代理) 可以通过使用 Skype for Business 和从菜单项访问代理控制台，或者通过使用 Attendant 直接从 Internet Explorer 访问代理控制台来接受呼叫。
+- 正式 **代理** (必须登录到组和从组中注销才能接受呼叫的代理) 可以通过使用 Skype for Business 和从菜单项访问代理控制台，或者通过使用 Attendant 并直接从 Internet Explorer 访问代理控制台来接受呼叫。
 
 ## <a name="capacity-planning"></a>容量规划
 
@@ -207,7 +207,7 @@ Windows Media 音频文件格式要求在运行 Windows Server 2008 R2 和 Windo
 
 **响应组用户模型**
 
-|**跃点数**|**每个Enterprise Edition池 <br/> (具有 8 台前端服务器)**|**每台 Standard Edition Server**|
+|**跃点数**|**每个Enterprise Edition池 <br/> (8 台前端服务器)**|**每台 Standard Edition Server**|
 |:-----|:-----|:-----|
 |每秒传入的呼叫数  <br/> |16  <br/> |2  <br/> |
 |连接到 IVR 或 MoH 的并发呼叫数  <br/> |480  <br/> |60  <br/> |

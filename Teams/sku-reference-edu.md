@@ -1,6 +1,6 @@
 ---
 title: 教育 SKU 参考
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: karsmith
@@ -16,16 +16,16 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 列出教育教职员工和学生许可计划和 SKU ID。
 f1keywords: ''
-ms.openlocfilehash: 8f6c4a1821488b14bd95bdaab670788a880b109f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8fb6077a34f20a694542caae724315868a66a3cc
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774372"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843565"
 ---
 # <a name="education-sku-reference"></a>教育 SKU 参考
 
-本文列出了教育版教职员工和学生许可计划 (SKU) 和 SKU ID，使用 PowerShell 按许可证类型标识组织中用户时，可以使用这些标识作为参考。
+本文列出了教育版教职员工和学生许可计划 (SKU) 和 SKU 标识号，使用 PowerShell 按许可证类型标识组织中用户时，可以使用这些标识作为参考。
 
 ## <a name="faculty-licenses"></a>教职员工许可证
 

@@ -2,7 +2,7 @@
 title: UriTypes 表
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 77c4dfae-1b29-4e81-ba05-609e61643998
-description: UriTypes Table 包含 2015 (2015) 监视的不同 URI 和统一Skype for Business Server标识符。
-ms.openlocfilehash: ee7a2d79458640eff2695ce253792e154d36dee4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: UriTypes Table 包含 2015 (2015 中) 监视的不同 URI Skype for Business Server统一资源标识符。
+ms.openlocfilehash: ed0cc7e62aba47af6622f821af785d8daf571649
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767440"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859759"
 ---
 # <a name="uritypes-table"></a>UriTypes 表
  
-UriTypes Table 包含 2015 (2015) 监视的不同 URI 和统一Skype for Business Server标识符。
+UriTypes Table 包含 2015 (2015 中) 监视的不同 URI Skype for Business Server统一资源标识符。
 
 创建 CDR DB 时，将创建两个代表 PhoneUri 和 UserUri 的记录，然后动态分配 UriTypeId 创建记录。 
   

@@ -2,7 +2,7 @@
 title: Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0453aeee-c41f-44e6-a6e0-aaace526ca08
-description: 适用于各种Skype for Business Server参考拓扑，包括大型、中型和小型组织的图表和决策。
-ms.openlocfilehash: 270814a8a4dacccdec8919a0e31c9c6098603493
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 适用于大型Skype for Business Server参考拓扑，包括大型、中型和小型组织的图表和决策。
+ms.openlocfilehash: 89d04755d31750bb43ab78080e6260e51a5bde60
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60762100"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60851796"
 ---
 # <a name="reference-topologies-for-skype-for-business-server"></a>Skype for Business Server
 
-适用于各种Skype for Business Server参考拓扑，包括大型、中型和小型组织的图表和决策。
+适用于大型Skype for Business Server参考拓扑，包括大型、中型和小型组织的图表和决策。
 
 最适合Skype for Business Server拓扑取决于组织的规模、要部署的工作负荷，以及您对于高可用性与投资成本的偏好。
 
@@ -39,7 +39,7 @@ ms.locfileid: "60762100"
 
 ![部署三台服务器的参考拓扑图。](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology1.jpg)
 
-- **部署的Standard Edition服务器对** 此组织的中央站点有 4，000 个用户。 他们部署了两台 Standard Edition 服务器，将它们配对在一起以实现高可用性和灾难恢复。 每台服务器包含 2，000 个用户，但有关所有用户的信息在两台服务器之间同步。 如果出现故障，管理员可以对由另一台服务器服务的用户进行故障转移，并尽量减少用户中断。 有关 Skype for Business Server 中的高可用性和灾难恢复功能[Skype for Business Server。](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)
+- **部署的Standard Edition服务器对** 此组织的中央站点有 4，000 个用户。 他们部署了两台 Standard Edition 服务器，并将它们配对，以实现高可用性和灾难恢复。 每台服务器包含 2，000 个用户，但有关所有用户的信息在两台服务器之间同步。 如果出现故障，管理员可以对由另一台服务器服务的用户进行故障转移，并尽量减少用户中断。 有关 Skype for Business Server 中的高可用性和灾难恢复功能[Skype for Business Server。](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)
 
 - **建议部署边缘服务器。** 尽管对于内部 IM、状态和会议，部署边缘服务器不是必需的，但我们建议进行部署，即使是小型的部署。 通过部署边缘Skype for Business Server向当前位于组织防火墙之外的用户提供服务，可以最大限度地提高企业投资回报。 优势包括：
 
@@ -53,7 +53,7 @@ ms.locfileid: "60762100"
 
 - **分支站点生存能力。** 此组织正在运行有关 企业语音 功能Skype for Business Server。 一些用户将 Skype for Business Server用作他们唯一的语音解决方案。 其中一企业语音试点用户位于分支站点。 分支站点没有可靠的广域网 (WAN) 到中央站点的链接，因此将 Survivable Branch Appliance 部署在那里。 部署此功能后，如果 WAN 链路关闭，分支站点的用户仍可以发出和接收呼叫 (同时呼叫组织内部呼叫和 PSTN 呼叫) 、具有语音邮件功能以及与双方即时消息 (IM) 通信。 此外，在 WAN 链接不可用时，也可以对用户进行身份验证。 有关详细信息，请参阅 Plan [for 企业语音 resiliency in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-resiliency.md)。
 
-- **Exchange UM 部署。** 此参考拓扑包括一Exchange统一 (UM) Server，该服务器在Microsoft Exchange Server，而不是Skype for Business Server。
+- **Exchange UM 部署。** 此参考拓扑包括一个Exchange统一 (UM) Server，该服务器在Microsoft Exchange Server运行，Skype for Business Server。
 
 - **Office Web Apps 服务器。** 我们建议在每个使用 Web 会议的组织内部署一个 Office Web Apps 服务器或 Office Web Apps 服务器场。 Office通过 Web Apps Server，PowerPoint在 Web 会议中演示幻灯片。
 
@@ -83,13 +83,13 @@ ms.locfileid: "60762100"
 
 - **DNS 负载平衡。** 前端池和边缘服务器池已部署 SIP 流量的 DNS 负载平衡。 这样就无需为边缘服务器部署硬件负载平衡器，并可以显著减少为其他池设置和维护硬件负载平衡器的工作量，因为只有 HTTP 流量需要使用硬件负载平衡器。 有关详细信息，请参阅 [DNS load balancing](../../plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing)。
 
-- **Exchange UM 部署。** 此参考拓扑包括一Exchange统一 (UM) Server，该服务器在Microsoft Exchange Server，而不是Skype for Business Server。
+- **Exchange UM 部署。** 此参考拓扑包括一个Exchange统一 (UM) Server，该服务器在Microsoft Exchange Server运行，Skype for Business Server。
 
 - **Office Web Apps 服务器。** 我们建议在每个使用 Web 会议的组织内部署一个 Office Web Apps 服务器或 Office Web Apps 服务器场。 利用 Office Web Apps 服务器，可以在 Web 会议中演示 Powerpoint 幻灯片。
 
 - **可添加控制器。** 如果此组织希望帮助提高安全性以抵御拒绝服务攻击，它还可以部署控制器池。 控制器是一个单独的可选服务器角色，Skype for Business Server不驻留用户帐户，也不提供状态或会议服务。 它充当内部下一跃点服务器，边缘服务器将发往内部服务器的入站 SIP 流量路由到该服务器。 控制器对入站请求预先进行身份验证，然后将它们重定向到用户主池或服务器。 控制器进行的预先身份验证允许放弃来自部署中未知的用户帐户的请求。 控制器有助于使前端服务器免受恶意流量（如拒绝服务 (DoS) 攻击。 如果网络受到此类攻击中无效外部流量的淹没，则流量将终止于控制器。
 
-- **System Center建议使用 Operations Manager。** 建议您监视部署Skype for Business Server，以帮助确保最终用户的服务可用性。 你可以将 System Center Operations Manager 管理包用于Skype for Business Microsoft 免费下载。 借助 Skype for Business 管理包，您可以在出现问题时主动获取实时警报、运行综合事务以测试端到端 Skype for Business 功能、获取服务可用性报告等。 这有助于您在最终用户遇到部署相关问题之前主动响应这些问题。
+- **System Center建议使用 Operations Manager。** 建议您监视部署Skype for Business Server，以帮助确保最终用户的服务可用性。 可以使用 Microsoft System Center免费下载的 Skype for Business Operations Manager 管理包。 借助 Skype for Business 管理包，您可以在出现问题时主动获取实时警报、运行综合事务以测试端到端 Skype for Business 功能、获取服务可用性报告等。 这有助于您在最终用户遇到部署相关问题之前主动响应这些问题。
 
 ## <a name="reference-topology-for-a-large-organization"></a>大型组织的参考拓扑
 
@@ -117,11 +117,11 @@ ms.locfileid: "60762100"
 
 - **配对前端池以启用灾难恢复。** 站点 A 和站点 B 的前端池相互配对，以提供灾难恢复支持。 如果一个站点上的池出现故障，管理员可以将用户从该站点故障转移到另一个站点上的配对前端池，同时将用户的服务中断降至最低。 两个前端池中的每一个池均具有 6 台服务器，这在故障转移时足够容纳两个池中的所有 40,000 个用户。 有关详细信息，请参阅 Plan [for high availability and disaster recovery in Skype for Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)。
 
-- **对后端服务器进行镜像** 为了提供基本用户功能的高可用性，组织已针对每个前端池部署了一对镜像的后端服务器。 这是可选拓扑，您可以选择部署单个后端服务器。 SQL群集和 AlwaysOn 可用性组也受支持。 有关详细信息，请参阅 Skype for Business Server[中的后端服务器高可用性](../../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md)。
+- **对后端服务器进行镜像** 为了提供基本用户功能的高可用性，组织已针对每个前端池部署了一对镜像的后端服务器。 这是可选拓扑，您可以选择部署单个后端服务器。 SQL群集和 AlwaysOn 可用性组也受支持。 有关详细信息，请参阅 Skype for Business Server 中的后端[服务器高可用性](../../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md)。
 
-- **在Standard Edition使用服务器。** 此组织考虑站点 C 作为分支站点，因为该站点上只有 600 个员工。 但是，该站点上的用户之间有许多 A/V 会议。 如果将其部署在 Skype for Business Server 中作为分支站点，则这些会议的媒体将跨广域网 (WAN) 与部署了前端服务器的中央站点之间运行。 为了避免这种潜在的带宽负载，他们在此站点安装了一对Standard Edition服务器，这些服务器将承载这些会议。 由于Standard Edition安装有服务器，因此Skype for Business Server将服务器视为中央站点，在拓扑生成器和规划工具中也被视为中央站点。
+- **在Standard Edition使用服务器。** 此组织考虑站点 C 作为分支站点，因为该站点上只有 600 个员工。 但是，该站点上的用户之间有许多 A/V 会议。 如果在 Skype for Business Server 中将其部署为分支站点，则这些会议的媒体将在广域网 (WAN) 与部署了前端服务器的中央站点之间运行。 为了避免这种潜在的带宽负载，他们在此站点安装了一对Standard Edition服务器，这些服务器将承载这些会议。 由于Standard Edition服务器，因此Skype for Business Server将服务器视为中央站点，在拓扑生成器和规划工具中会按此方式处理它。
 
-    此处，Standard Edition一个服务器就足以提高性能，但组织已部署两个服务器，将它们配对在一起，以防一台服务器关闭时提供高可用性。
+    此处，Standard Edition一个服务器就足以提高性能，但组织已部署两个服务器，并将它们配对在一起，以在一台服务器关闭时提供高可用性。
 
     尽管站点 C 被视为中央站点，但不需要在其上部署边缘服务器。在本例中，站点 C 将使用站点 A 上部署的边缘服务器。
 
@@ -138,7 +138,7 @@ ms.locfileid: "60762100"
 
 - **DNS 负载平衡。** 前端池和边缘服务器池使用 DNS 负载平衡。 这就无需为边缘服务器内部接口部署硬件负载平衡器，并可以显著减少为其他池设置和维护硬件负载平衡器必须花费的时间，因为只有 HTTP 流量需要使用硬件负载平衡器。 有关详细信息，请参阅 (。/../plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing) 。
 
-- **Exchange UM 部署。** Skype for Business Server统一消息和 UM Exchange 内部部署 (um) 和托管Exchange部署。 中央站点 A 包含一Exchange统一 (UM) 服务器，该服务器在Microsoft Exchange Server运行，Skype for Business Server。 用于Exchange UM 功能Skype for Business Server前端池上运行。
+- **Exchange UM 部署。** Skype for Business Server统一消息和 UM Exchange 内部部署 () UM Exchange部署。 中央站点 A 包含一Exchange统一 (UM) 服务器，该服务器在Microsoft Exchange Server运行，Skype for Business Server。 用于Exchange UM 功能Skype for Business Server前端池上运行。
 
     中央站点 B 使用托管 Exchange，因此也承载 Exchange UM 服务器功能。
 

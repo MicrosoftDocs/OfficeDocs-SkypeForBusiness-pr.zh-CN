@@ -2,7 +2,7 @@
 title: 2015 年 Skype for Business Server 年 10 月|语音 PSTN
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: hub-page
@@ -16,26 +16,26 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7b6da49b-ac72-4ab0-8957-166e330b38fa
 description: 摘要：在规划、实施或管理项目时，根据需要查看这些Skype for Business Server。
-ms.openlocfilehash: a5ad11aca26d279be415d558be89505f37e0f7ba
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4042f554c53f18a1cadc25f12bfb7e393b685160
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60754229"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859749"
 ---
 # <a name="technical-diagrams-for-skype-for-business-server"></a>技术图表Skype for Business Server
 
 **摘要：** 在规划、实施或管理项目时，根据需要查看这些Skype for Business Server。
 
-这些资源以 Visio (.vsdx)  (Visio 2015) PDF 格式提供。 若要了解如何打印文档，请参阅使用技巧[大格式海报的字体](technical-diagrams.md#tips)。
+这些资源以 Visio (.vsdx) 格式 (Visio 2015) PDF 格式提供。 若要了解如何打印文档，请参阅使用技巧大格式海报[。](technical-diagrams.md#tips)
 
 您可能需要使用其他软件才能查看这些文件。有关详细信息，请参阅下表。
 
 |文件类型|软件|
 |:--- |:--- |
-|.vsd |Visio 2010 Visio 2013 或免费 Visio[查看器](https://go.microsoft.com/fwlink/p/?LinkId=393676) <br/> 如果使用的是 Visio Viewer，请右键单击 VSD 链接，单击" **目标另存为**"，将文件保存到计算机上，然后在计算机上打开文件。 |
+|.vsd |Visio 2010、Visio 2013 或免费 Visio[查看器](https://go.microsoft.com/fwlink/p/?LinkId=393676) <br/> 如果使用的是 Visio Viewer，请右键单击 VSD 链接，单击" **目标另存为**"，将文件保存到计算机上，然后在计算机上打开文件。 |
 |.pdf |任何 PDF 查看器，如 [Adobe Reader](https://go.microsoft.com/fwlink/p/?LinkId=393675) |
-|.zip |任何文件压缩实用工具。 Windows 7 及更高版本将本机打开这些文件。 |
+|.zip |任何文件压缩实用工具。 Windows 7 及更高版本以本机打开这些文件。 |
 
 ## <a name="posters"></a>海报
 
@@ -45,10 +45,10 @@ ms.locfileid: "60754229"
 
 |Title|说明|
 |:---|:---|
-|**Skype for Business Server协议工作负载** <br/>![SfB 协议工作负载海报。](media/0dccf933-eab3-4793-a8a4-4f6b9b0b4fa0.png)<br/>[PDF (](https://go.microsoft.com/fwlink/p/?LinkId=550989) 最适合移动设备或平板电脑)  <br/> [Visio版本](https://go.microsoft.com/fwlink/p/?LinkId=550991) (最适合具有Visio)  |下载此海报可更好地了解不同Skype for Business级别下的服务器和客户端的要求。<br/> <br/> 大小：11*17 英寸 (多张工作表，可方便地调整大小以在大多数办公室打印机或)  <br/> <br/> 此海报是使用 2015 Visio创建的。 不需要对特定环境进行修改。 |
+|**Skype for Business Server协议工作负载** <br/>![SfB 协议工作负载海报。](media/0dccf933-eab3-4793-a8a4-4f6b9b0b4fa0.png)<br/>[PDF 版本](https://go.microsoft.com/fwlink/p/?LinkId=550989) (最适合移动设备或平板电脑)  <br/> [Visio版本](https://go.microsoft.com/fwlink/p/?LinkId=550991) (最适合具有Visio)  |下载此海报可更好地了解不同Skype for Business级别服务复杂性下的服务器和客户端的要求。<br/> <br/> 大小：11*17 英寸 (多个工作表，可方便地调整大小以在大多数办公室打印机或)  <br/> <br/> 此海报是使用 2015 Visio创建的。 不需要对特定环境进行修改。 |
 |**Skype for Business呼叫质量方法** <br/> ![通话质量方法海报。](media/69d33707-8dc4-446a-8d72-0a77be59a64a.png)[PDF 版本](https://go.microsoft.com/fwlink/p/?LinkId=617899) (最适合移动设备或平板电脑)  <br/> [Visio版本](https://go.microsoft.com/fwlink/p/?LinkId=617900) (最适合具有Visio)  |下载此海报以了解 CQM，即 Skype for Business Server 2015 的呼叫质量方法，可帮助您查找并消除影响包括企业语音功能的实现中的呼叫质量和用户体验的问题。 <br/> <br/> 如果你想要 [以棋盘](https://go.microsoft.com/fwlink/p/?LinkId=617898) 游戏方式进行游戏，请使用下载详细信息页面获取可打印卡片和规则。 将此海报与 [CQM 记分卡一同使用](https://go.microsoft.com/fwlink/p/?LinkId=617904)。 <br/><br/> 大小：34*44 英寸 <br/> <br/> 此海报是使用 2015 Visio创建的。 不需要对特定环境进行修改。 |
-|**Skype for Business语音解决方案** <br/> ![规划语音解决方案海报。](media/1d3371f3-d554-4d6b-ac4f-a927bbe50b26.png) <br/> [PDF (](https://go.microsoft.com/fwlink/?linkid=869123) 最适合移动设备或平板电脑)  <br/> [Visio版本](https://go.microsoft.com/fwlink/?linkid=869124) (最适合具有Visio)  |Microsoft 提供了多种选项，使用户可以通过公用电话交换网 (PSTN) 呼叫座机和移动电话，无论他们的帐户存在于 Microsoft 365 或 Skype for Business Online 上的 Office 365 中，还是存在于本地Skype for Business Server2015 部署。 此海报概述了不同的 Microsoft 语音产品/服务，然后根据组织的当前状态和未来计划提供了有关可能最适合你的选项的指导。 <br/> <br/> 大小：34*44 英寸 <br/><br/> 此海报是使用 2015 Visio创建的。 不需要对特定环境进行修改。 |
-|**Skype for Business体系结构模型** <br/> ![Skype for Business体系结构模型。](media/0734153f-af7b-4cf3-b095-96bdd1de3fb0.png) <br/> [PDF (](https://go.microsoft.com/fwlink/?linkid=869125) 最适合移动设备或平板电脑)  <br/> [Visio版本](https://go.microsoft.com/fwlink/?linkid=869126) (最适合具有Visio)  |此海报系列面向 IT Pro受众，以提升对不同的基本体系结构模型（可通过这些模型使用 Skype for Business Online 和 Skype for Business Server 2015 内部部署）的感知度。 从最符合组织需求和未来计划的任何配置开始。 根据需要考虑和使用其他配置。 例如，您可能需要考虑与 Exchange SharePoint 或利用 Microsoft 云 PBX 产品的解决方案集成。 <br/><br/> 大小：11*17 英寸 <br/><br/> 此海报是使用 2010 Visio创建的。 不需要对特定环境进行修改。 |
+|**Skype for Business语音解决方案** <br/> ![规划语音解决方案海报。](media/1d3371f3-d554-4d6b-ac4f-a927bbe50b26.png) <br/> [PDF 版本](https://go.microsoft.com/fwlink/?linkid=869123) (最适合移动设备或平板电脑)  <br/> [Visio版本](https://go.microsoft.com/fwlink/?linkid=869124) (最适合具有Visio)  |Microsoft 提供了多种选项，使用户可以通过公用电话交换网 (PSTN) 呼叫座机和移动电话，无论他们的帐户存在于 Skype for Business Online 上的 Microsoft 365 或 Office 365 中，还是存在于本地Skype for Business Server2015 部署。 此海报概述了不同的 Microsoft 语音产品/服务，然后根据组织的当前状态和未来计划提供了有关可能最适合你的选项的指导。 <br/> <br/> 大小：34*44 英寸 <br/><br/> 此海报是使用 2015 Visio创建的。 不需要对特定环境进行修改。 |
+|**Skype for Business体系结构模型** <br/> ![Skype for Business体系结构模型。](media/0734153f-af7b-4cf3-b095-96bdd1de3fb0.png) <br/> [PDF 版本](https://go.microsoft.com/fwlink/?linkid=869125) (最适合移动设备或平板电脑)  <br/> [Visio版本](https://go.microsoft.com/fwlink/?linkid=869126) (最适合具有Visio)  |此海报系列面向 IT Pro受众，以提升对不同的基本体系结构模型（可通过这些模型使用 Skype for Business Online 和 Skype for Business Server 2015 内部部署）的感知度。 从最符合组织需求和未来计划的任何配置开始。 根据需要考虑和使用其他配置。 例如，您可能需要考虑与 Exchange SharePoint 或利用 Microsoft 云 PBX 产品的解决方案集成。 <br/><br/> 大小：11*17 英寸 <br/><br/> 此海报是使用 2010 Visio创建的。 不需要对特定环境进行修改。 |
 
 ## <a name="visual-assets"></a>可视资源
 

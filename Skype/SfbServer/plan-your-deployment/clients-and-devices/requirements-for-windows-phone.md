@@ -1,7 +1,7 @@
 ---
 title: 系统要求Windows Phone版Skype for Business
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 12/20/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c4bc0e45-7877-466c-b187-2c35c851a98d
 description: 摘要：在规划客户端系统设备要求时，检查Skype for Business Server。
-ms.openlocfilehash: 90b5f577b7056396e6f3227444ee3c8b5e1efe07
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9c3f3658127a8d81c6fd1c9d4c55b42c0b539c23
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60754538"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835150"
 ---
 # <a name="system-requirements-for-skype-for-business-for-windows-phone"></a>系统要求Windows Phone版Skype for Business
  

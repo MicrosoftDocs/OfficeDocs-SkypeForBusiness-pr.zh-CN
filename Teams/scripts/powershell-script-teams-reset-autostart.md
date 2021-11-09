@@ -1,6 +1,6 @@
 ---
 title: PowerShell 脚本示例 - 重置 Teams 中的自动Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
@@ -16,16 +16,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 309254304673093428ce06ce9867e1113c409682
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 95d1e5352111ee868c469ccfe4703cf85e25ad92
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60755918"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859649"
 ---
 # <a name="powershell-script-sample---reset-the-autostart-setting-in-teams"></a>PowerShell 脚本示例 - 重置 Teams 中的自动Teams
 
-使用此脚本可Teams用户重置自动启动设置。 这包括用户或应用设置的任何Teams值。 默认情况下，Teams安装后登录到其计算机时自动启动。
+使用此脚本可基于Teams重置自动启动设置。 这包括用户或应用设置的任何Teams值。 默认情况下，Teams安装后登录到其计算机时自动启动。
 
 如果已部署 Teams 并且想要将"安装后阻止[Microsoft Teams](../msi-deployment.md#use-group-policy-recommended)自动启动组策略"设置设置为禁用 Teams 自动启动，则需要先将"组策略"设置设置为所需的值，然后运行此脚本。
 

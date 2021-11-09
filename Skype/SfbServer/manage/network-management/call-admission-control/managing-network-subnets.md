@@ -2,7 +2,7 @@
 title: 管理网络子网
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,16 +11,16 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 在大多数部署中Skype for Business Server CAC (CAC) ，通常会存在大量子网。 因此，通常最好从命令行管理程序配置Skype for Business Server子网。
-ms.openlocfilehash: d7abe489d6424cf7a1468060b54d5df99b123bf4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 73a0f99fa35cd1b92194ce5b09d85a30d30b72e2
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740478"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843855"
 ---
 # <a name="managing-network-subnets-in-skype-for-business-server"></a>在 Skype for Business Server 中管理网络子网
 
-可以使用命令行管理Skype for Business Server命令行管理程序Skype for Business Server管理网络子网。 在大多数部署中Skype for Business Server CAC (CAC) ，通常会存在大量子网。 因此，通常最好从命令行管理程序配置Skype for Business Server子网。
+可以使用命令行管理Skype for Business Server命令行管理程序Skype for Business Server网络子网。 在大多数部署中Skype for Business Server CAC (CAC) ，通常会存在大量子网。 因此，通常最好从命令行管理程序配置Skype for Business Server子网。
 
 使用本文中的各节查看网络子网信息或创建、修改或删除网络子网。 
 

@@ -1,6 +1,6 @@
 ---
 title: 自定义应用存储
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: prem
@@ -18,21 +18,21 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解应用中的自定义Microsoft Teams。
-ms.openlocfilehash: 773e2aa7deb0d419ea60e32dc834dee8f730009a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b7fd39dc1d2ced74b6153f43c78fdf7557bbd206
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741658"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843585"
 ---
 # <a name="custom-apps-store-in-microsoft-teams"></a>自定义应用存储在 Microsoft Teams
 
-现在，可以通过添加徽标、自定义背景和自定义文本颜色，在 Teams 中通过公司品牌来自定义组织的应用商店，使其更吸引最终用户。
+现在，可以通过添加徽标、自定义背景和自定义文本颜色来使用公司品牌Teams自定义组织的应用商店，使其更吸引最终用户。
 
 > [!Note]
 > 品牌更改需要 24 小时才能生效。
 
-可以通过选择"自定义应用商店"应用来访问管理Teams  >  **应用商店**。
+通过选择"自定义应用商店"应用，Teams **管理中心**  >  **中的自定义应用商店**。
 
   ![管理员控制台突出显示自定义应用商店功能。](media/customize-app-store.png)
 
@@ -44,7 +44,7 @@ ms.locfileid: "60741658"
 <a name="orglogo"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-可在此处上传组织徽标。 所选徽标将显示在"为租户Teams **应用**  >  **"页面中的客户端中**。
+可在此处上传组织徽标。 所选徽标将显示在"为租户Teams **应用"**  >  **页的客户端中**。
 
 选择" **选择图片"选项** 时，可以上传选择的文件。 徽标应为 240x60，否则将缩放到该大小。 它不应大于 5 MB。 支持的格式包括：
 
@@ -80,7 +80,7 @@ ms.locfileid: "60741658"
 
 选项如下：
 
-- 使用Teams默认背景主题
+- 使用Teams客户端默认背景主题
 - 选择图片。 选择背景图片时，可以上传选择的文件。 背景应为 1212x100 像素，否则将缩放到该大小。 它不应大于 5 MB。 支持的格式包括：
   - .svg
   - .png

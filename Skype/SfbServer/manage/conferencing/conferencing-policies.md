@@ -2,7 +2,7 @@
 title: 管理会议策略Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 34ec5e41-6fe6-450b-81b0-0d17b9989839
 description: 摘要：了解如何在 Skype for Business Server 中管理会议策略。
-ms.openlocfilehash: f2678c964cc56de44aff37d49aae5f3c61ebc298
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8a4c209e711ba6ff332873147c0523839807b108
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766620"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835300"
 ---
 # <a name="manage-conferencing-policies-in-skype-for-business-server"></a>管理会议策略Skype for Business Server
  
-**摘要：** 了解如何在 Skype for Business Server 中管理会议策略。
+**摘要：** 了解如何在会议部署中管理Skype for Business Server。
   
 本主题介绍如何管理会议策略。 若要详细了解如何计划和部署会议，请参阅在 Skype for Business Server 中[](../../plan-your-deployment/conferencing/conferencing.md)规划会议[Skype for Business Server。](../../deploy/deploy-conferencing/deploy-conferencing.md)
   
