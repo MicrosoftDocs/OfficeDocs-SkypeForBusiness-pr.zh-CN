@@ -1,8 +1,8 @@
 ---
-title: '通话质量仪表板项目服务 (CQD) '
+title: '呼叫质量仪表板项目服务 (CQD) '
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,14 +13,14 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b6d7b02a-a34e-4fef-986c-ca442e18fa0c
 description: 摘要：了解项目服务，它是通话质量仪表板存储库 API 的一部分。 通话质量仪表板是一种用于Skype for Business Server。
-ms.openlocfilehash: a0a6ddc923ebf55e5b11ea794398286ca1d19728
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 58d141930d98704eac101feb5d0fe8994284b587
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760600"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848435"
 ---
-# <a name="item-service-for-call-quality-dashboard-cqd"></a>通话质量仪表板项目服务 (CQD) 
+# <a name="item-service-for-call-quality-dashboard-cqd"></a>呼叫质量仪表板项目服务 (CQD) 
  
 **摘要：** 了解项目服务，它是通话质量仪表板存储库 API 的一部分。 通话质量仪表板是一种用于Skype for Business Server。
   
@@ -28,7 +28,7 @@ ms.locfileid: "60760600"
   
 ## <a name="item-service"></a>项目服务
 
-存储库 API 提供了一个简单的内容管理服务（称为项目服务）来存储用户的任何应用程序定义的内容。 
+存储库 API 提供一个简单的内容管理服务（称为项目服务）来存储用户的任何应用程序定义的内容。 
   
 系统内容归系统用户所有，并且由具有只读访问权限的所有用户共享。 专用用户内容归常规用户所有，只有所有者可以修改或删除这些内容，但所有用户仍具有对这些内容的只读访问权限。
   
@@ -54,7 +54,7 @@ REST 操作包含在下表中。
 |:-----|:-----|
 |[获取项目](get-items.md) <br/> |Get Items 返回存储库中的所有项。  <br/> |
 |[获取项目](get-item.md) <br/> |Get Item 返回特定 Item。  <br/> |
-|[获取子项](get-sub-items.md) <br/> |获取Sub-Items返回特定项目的子项。  <br/> |
+|[获取子项](get-sub-items.md) <br/> |Get Sub-Items返回特定项目的子项。  <br/> |
 |[获取项目上级](get-item-ancestors.md) <br/> |获取项目上级返回特定项的上级。  <br/> |
 |[更新项目](update-item.md) <br/> |更新存储库中的特定项。  <br/> |
    

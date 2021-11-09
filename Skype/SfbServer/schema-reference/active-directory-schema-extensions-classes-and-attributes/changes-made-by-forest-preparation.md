@@ -1,8 +1,8 @@
 ---
-title: 林中林准备的更改Skype for Business Server
+title: 林中林准备所做的更改Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -13,20 +13,20 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 2e12613e-59f2-4810-a32d-24a9789a4a6e
 description: 本节介绍林准备步骤所创建的全局设置和对象以及通用服务组和通用管理组。
-ms.openlocfilehash: 3da4c97a5dab0b7738f01201f9c0cc5b4e34a782
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8226c2e9b692699902faa751fafe14424e43ed45
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745868"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60828635"
 ---
-# <a name="changes-made-by-forest-preparation-in-skype-for-business-server"></a>林中林准备的更改Skype for Business Server
+# <a name="changes-made-by-forest-preparation-in-skype-for-business-server"></a>林中林准备所做的更改Skype for Business Server
 
 本节介绍林准备步骤所创建的全局设置和对象以及通用服务组和通用管理组。
 
 ## <a name="active-directory-global-settings-and-objects"></a>Active Directory 全局设置和对象
 
-如果在配置容器中存储全局设置 (则所有新的 Skype for Business Server 部署) 都会使用现有的服务容器，并将 **RTC 服务** 对象添加到 Configuration\Services 对象下。 在 RTC 服务对象下，林准备添加一个 msRTCSIP-GlobalContainer 类型的 **Global Settings** 对象。 全局设置对象包含应用于部署Skype for Business Server设置。 如果在系统容器中存储全局设置，则林准备会使用根域系统容器下的一个 Microsoft 容器，以及系统\Microsoft 对象下的一个 RTC 服务对象。
+如果在配置容器中存储全局设置 (则所有新的 Skype for Business Server 部署) 都会使用现有的服务容器，并将 **RTC 服务** 对象添加到 Configuration\Services 对象下。 在 RTC 服务对象下，林准备添加一个 msRTCSIP-GlobalContainer 类型的 **Global Settings** 对象。 全局设置对象保留应用于部署Skype for Business Server设置。 如果在系统容器中存储全局设置，则林准备会使用根域系统容器下的一个 Microsoft 容器，以及系统\Microsoft 对象下的一个 RTC 服务对象。
 
 林准备还为从中运行此过程的根域添加一个新的 **msRTCSIP-Domain** 对象。
 
@@ -38,7 +38,7 @@ ms.locfileid: "60745868"
 
 - **管理组** 这些组定义网络管理员Skype for Business Server角色。
 
-- **基础结构组** 这些组提供访问基础结构的特定区域Skype for Business Server权限。 它们用作管理组的组件。 您不应修改这些组或直接向其中添加用户。
+- **基础结构组** 这些组提供访问基础结构的特定Skype for Business Server的权限。 它们用作管理组的组件。 您不应修改这些组或直接向其中添加用户。
 
 - **服务组** 这些组是访问各种服务所需的服务Skype for Business Server帐户。
 
@@ -58,11 +58,11 @@ ms.locfileid: "60745868"
 
 |**基础结构组**|**说明**|
 |:-----|:-----|
-|RTCUniversalGlobalWriteGroup  <br/> |授予对全局设置对象的写入权限，Skype for Business Server。  <br/> |
+|RTCUniversalGlobalWriteGroup  <br/> |授予对全局设置对象的写入权限Skype for Business Server。  <br/> |
 |RTCUniversalGlobalReadOnlyGroup  <br/> |授予对全局设置对象的只读访问权限，Skype for Business Server。  <br/> |
 |RTCUniversalUserReadOnlyGroup  <br/> |授予对用户设置的只读Skype for Business Server访问权限。  <br/> |
 |RTCUniversalServerReadOnlyGroup  <br/> |授予对这些设置的只读Skype for Business Server权限。 此组没有对池级别设置的访问权限，只有对单个服务器专用设置的访问权限。  <br/> |
-|RTCUniversalSBATechnicians  <br/> |授予对配置Skype for Business Server只读访问权限，在安装期间管理员组位于 survivable Branch 设备的本地服务器中。  <br/> |
+|RTCUniversalSBATechnicians  <br/> |授予对Skype for Business Server的只读访问权限，在安装过程中管理员组位于 Survivable Branch 设备的本地服务器中。  <br/> |
 
 下表介绍的是服务组。
 
@@ -74,7 +74,7 @@ ms.locfileid: "60745868"
 |RTCComponentUniversalServices  <br/> |包括用于运行 A/V 会议服务器、Web 服务、中介服务器、存档服务器和监控服务器的服务帐户。  <br/> |
 |RTCProxyUniversalServices  <br/> |包括用于在边缘服务器上运行Skype for Business Server帐户。  <br/> |
 |RTCUniversalConfigReplicator  <br/> |包括可以参与中央管理Skype for Business Server复制的服务器。  <br/> |
-|RTCSBAUniversalServices  <br/> |授予对服务器设置Skype for Business Server访问权限，但允许配置 Survivable Branch Server 和 Survivable Branch Appliance 部署。  <br/> |
+|RTCSBAUniversalServices  <br/> |授予对 Skype for Business Server 设置的只读访问权限，但允许配置 Survivable Branch Server 和 Survivable Branch Appliance 部署。  <br/> |
 
 然后，林准备将服务组和管理组添加到适当的基础结构组，具体如下：
 
@@ -110,7 +110,7 @@ ms.locfileid: "60745868"
 
 有关 RBAC 角色以及允许每个角色执行的任务的详细信息，请参阅规划文档中的[Role-Based Access Control](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-role-based-access-control)。
 
-林准备同时创建专用和公共 ACE。 它将在全局设置容器上创建专用 AES，Skype for Business Server。 此容器仅由 Skype for Business Server，并且位于根域的"配置"容器或"系统"容器中，具体取决于存储全局设置的位置。 下表中列出了林准备所创建的公共 ACE。
+林准备同时创建专用和公共 ACE。 它将在全局设置容器上创建专用 AES，Skype for Business Server。 此容器仅由 Skype for Business Server，位于根域的"配置"容器或"系统"容器中，具体取决于存储全局设置的位置。 下表中列出了林准备所创建的公共 ACE。
 
 **林准备所创建的公共 ACE**
 

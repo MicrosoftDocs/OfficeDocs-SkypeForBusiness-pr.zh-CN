@@ -2,7 +2,7 @@
 title: 添加边缘计算机内部 IP
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 34717d03-5ece-4be3-9d05-25497250dc16
 ROBOTS: NOINDEX, NOFOLLOW
 description: 使用此页指定边缘服务器的内部 IP 地址和内部完全限定域名 (FQDN)。
-ms.openlocfilehash: 00439632436292c0e61887794f28262cacb9af99
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ec5d4b603fe32aa209aeb31c196382c8747caa3f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60752541"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60841694"
 ---
 # <a name="add-edge-machine-internal-ip"></a>添加边缘计算机内部 IP
 

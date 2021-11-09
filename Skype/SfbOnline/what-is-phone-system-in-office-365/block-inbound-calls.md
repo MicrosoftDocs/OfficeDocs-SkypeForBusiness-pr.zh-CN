@@ -1,7 +1,7 @@
 ---
 title: 阻止 Skype for Business Online 中的入站呼叫
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -13,12 +13,12 @@ appliesto:
 - Skype for Business
 ms.localizationpriority: medium
 ms.custom: Learn how to use PowerShell to manage inbound call blocking in Skype for Business Online.
-ms.openlocfilehash: 6fa72103448d20d9c659eff32735fa5d14389509
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0c40bea45d569a8887f23c38a62efe03977ad461
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751391"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840624"
 ---
 # <a name="block-inbound-calls"></a>阻止入站呼叫
 
@@ -64,7 +64,7 @@ New-CsInboundBlockedNumberPattern -Name “<name>” -Enabled $True -Description
 
 我们建议提供一个有意义的名称，以便轻松了解添加模式的原因。 如果只是阻止垃圾邮件号码，请考虑将规则命名为与匹配的数字模式相同的规则，并根据需要在说明中添加其他信息。
 
-模式使用正则表达式和正则表达式 (正则表达式) 。 在测试和验证之前，请留出时间进行复制。
+使用正则表达式和正则表达式 (正则表达式) 。 在测试和验证之前，请留出时间进行复制。
 
 #### <a name="allow-a-number"></a>允许数字
 

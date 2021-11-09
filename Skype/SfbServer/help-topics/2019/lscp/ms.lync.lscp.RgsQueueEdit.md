@@ -2,7 +2,7 @@
 title: 响应组队列创建新的或编辑现有的
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: cbdde536-8668-4a08-9862-8615e8691fd7
 ROBOTS: NOINDEX, NOFOLLOW
 description: 响应组队列保留对响应组的呼叫，直到代理应答呼叫。
-ms.openlocfilehash: 995a2ec25184f451fe28a7f32ac9335b1b7248e3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1595439c8d85bf5525ef5cecdc250856d9d2596f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745218"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60832696"
 ---
 # <a name="response-groups-queue-create-new-or-edit-existing"></a>响应组队列：创建新的或编辑现有的
 
@@ -46,11 +46,11 @@ ms.locfileid: "60745218"
 
   - **Disconnect**
 
-  - **转发到语音邮件** 如果选择此选项，请在 **"SIP** 地址"中，键入格式为 sip： 的语音邮件 (<username> @ <domainname> 例如，sip:bob@contoso.com) 。
+  - **转发到语音邮件** 如果选择此选项，请在 **"SIP** 地址"中，键入格式为 sip： \<username> @ \<domainname> (例如 sip：bob \@ contoso.com) 。
 
-  - **转发到电话号码** 如果选择此选项，请在 **"SIP** 地址"中，键入格式为 sip： (<number> @ <domainname> 例如，sip:+14255550121@contoso.com) 。
+  - **转发到电话号码** 如果选择此选项，请在 **"SIP** 地址"中，键入格式为 \<number> @ \<domainname> sip： (例如 sip：+14255550121 \@ contoso.com) 。
 
-  - **转发到 SIP 地址** 选择此选项以将呼叫转发给其他用户。 在 **"SIP 地址**"中，键入用户 URI，格式为 <username> @ <domainname> sip：。
+  - **转发到 SIP 地址** 选择此选项以将呼叫转发给其他用户。 在 **"SIP 地址**"中，键入用户 URI，格式为 \<username> @ \<domainname> sip：。
 
   - **转发到另一个队列** 如果选择此选项，请浏览到呼叫退出时要接收呼叫的队列。
 
@@ -64,11 +64,11 @@ ms.locfileid: "60745218"
 
   - **Disconnect**
 
-  - **转发到语音邮件** 如果选择此选项，请在 **"SIP** 地址"中，键入格式为 sip： 的语音邮件 (<username> @ <domainname> 例如，sip:bob@contoso.com) 。
+  - **转发到语音邮件** 如果选择此选项，请在 **"SIP** 地址"中，键入格式为 sip： (\<username> @ \<domainname> 例如，sip:bob@contoso.com) 。
 
-  - **转发到电话号码** 如果选择此选项，请在 **"SIP** 地址"中，键入格式为 sip： (<number> @ <domainname> 例如，sip:+14255550121@contoso.com) 。
+  - **转发到电话号码** 如果选择此选项，请在 **"SIP** 地址"中，键入格式为 sip： (\<number> @ \<domainname> 例如，sip:+14255550121@contoso.com) 。
 
-  - **转发到 SIP 地址** 选择此选项以将呼叫转发给其他用户。 在 **"SIP 地址**"中，键入用户 URI，格式为 <username> @ <domainname> sip：。
+  - **转发到 SIP 地址** 选择此选项以将呼叫转发给其他用户。 在 **"SIP 地址**"中，键入用户 URI，格式为 \<username> @ \<domainname> sip：。
 
   - **转发到另一个队列** 如果选择此选项，请浏览到在达到队列溢出阈值时接收呼叫的队列。
 

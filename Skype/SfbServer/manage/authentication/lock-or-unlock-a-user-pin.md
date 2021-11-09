@@ -2,7 +2,7 @@
 title: 锁定或解锁用户 PIN Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,18 +13,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 3d293a8a-e182-4547-8b06-2603c3c77329
 description: 摘要：锁定或解锁用户的电话拨入式会议 PIN Skype for Business Server。
-ms.openlocfilehash: ccd575182bbac85b20879eaec8bb3e7a951fda1e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1ae1deea84b099852decd9acbc6315049484b0b3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60762510"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848595"
 ---
 # <a name="lock-or-unlock-a-user-pin-in-skype-for-business-server"></a>锁定或解锁用户 PIN Skype for Business Server
  
 **摘要：** 锁定或解锁用户的电话拨入式会议 PIN Skype for Business Server。
   
-你可以从控制面板的"用户"部分锁定或解锁Skype for Business Server  PIN。
+可以从控制面板的"用户"部分锁定或解锁Skype for Business Server  PIN。
   
 ### <a name="to-lock-a-users-pin-in-skype-for-business-server-control-panel"></a>在控制面板中锁定Skype for Business Server PIN
 
@@ -90,7 +90,7 @@ ms.locfileid: "60762510"
     
 ## <a name="locking-and-unlocking-user-pins-by-using-windows-powershell-cmdlets"></a>使用 Cmdlet 锁定和解锁Windows PowerShell PIN
 
-可以使用 Windows PowerShell cmdlet 和 Lock-CsClientPin cmdlet 锁定和解锁Unlock-CsClientPin PIN。 可以从命令行管理程序或 Skype for Business Server远程会话中运行这些 cmdlet Windows PowerShell。 有关使用远程 powerShell Windows PowerShell连接到Skype for Business Server的详细信息，请参阅 Microsoft [Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 此过程在Skype for Business Server。
+可以使用 Windows PowerShell cmdlet 和 Lock-CsClientPin cmdlet 锁定和解锁Unlock-CsClientPin PIN。 可以从命令行管理程序或 Skype for Business Server远程会话中运行这些 cmdlet Windows PowerShell。 有关使用远程 powerShell Windows PowerShell连接到Skype for Business Server的详细信息，请参阅 Microsoft Lync [Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 该过程在 Skype for Business Server 中Skype for Business Server。
   
 ### <a name="to-lock-a-user-pin"></a>锁定用户 PIN
 

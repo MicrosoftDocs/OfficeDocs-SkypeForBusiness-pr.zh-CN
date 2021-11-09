@@ -2,7 +2,7 @@
 title: Monitoring IIS request tracing log files in Skype for Business Server 2015
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b6730e92-6d74-4fa7-a83f-50b7bdadbffa
 description: 摘要：了解 2015 年 (2015) 支持中的 Mobility Service Skype for Business Server Mcx 服务。
-ms.openlocfilehash: 36a376428191723d8cc4d2d6e100391646c7e7c9
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 2b571ceb583f7a42c6f41fba3c868fbe1628631a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767670"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857549"
 ---
 # <a name="monitoring-iis-request-tracing-log-files-in-skype-for-business-server-2015"></a>Monitoring IIS request tracing log files in Skype for Business Server 2015
  
-**摘要：** 了解 2015 年 (2015) 支持中的 Mobility Service Skype for Business Server Mcx 服务。
+**摘要：** 了解 2015 年 (2015) 中的 Mobility Service Skype for Business Server Mcx 支持。
   
 本主题仅适用于支持 Lync 2010 Lync Mobile 客户端的部署，适用于 Mobility Service (Mcx) 。
 

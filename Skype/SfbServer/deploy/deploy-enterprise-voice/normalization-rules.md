@@ -2,7 +2,7 @@
 title: 在规则创建或修改规范化Skype for Business
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e8547d7b-f74d-4a73-9a7d-df20d7a87fcd
 description: 摘要：了解如何在规则中定义、创建和修改Skype for Business Server。
-ms.openlocfilehash: c624e9bb42b113a87c5774f90df77c23488d1b32
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c01505a4a4c961c7c1b3ed394ec5595b57642ddb
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773272"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831632"
 ---
 # <a name="create-or-modify-a-normalization-rule-in-skype-for-business"></a>在规则创建或修改规范化Skype for Business
 

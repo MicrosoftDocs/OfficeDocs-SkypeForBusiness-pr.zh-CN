@@ -2,7 +2,7 @@
 title: SIP 中继Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7c586401-d0e5-4017-b3e1-fe5e7f8fc6db
 description: 了解 sip 中继Skype for Business Server 企业语音
-ms.openlocfilehash: 599745b59d3597afa9e9f4cdc23b6c648fdbbab0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6278526a83e5af4b0020c9dbb822eabad7053426
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60744188"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60841014"
 ---
 # <a name="sip-trunking-in-skype-for-business-server"></a>SIP 中继Skype for Business Server
 
@@ -156,7 +156,7 @@ SIP 中继连接的服务提供商端的实现方式因 ITSP 而异。 有关部
 如图所示，企业网络与公用电话交换网 (PSTN) 服务提供商之间的连接使用 IP 虚拟专用网络 (VPN)。这个专用网络旨在提供 IP 连接、增强安全性和（可选的）获取服务质量 (QoS) 保证。由于 VPN 的特性，您无需为 SIP 信号流量使用传输层安全性 (TLS)，也无需为媒体流量使用安全实时传输协议 (SRTP)。因此，企业与服务提供商之间的连接由用于 SIP 的普通 TCP 连接以及用于通过 IP VPN 进行隧道传输的媒体的普通实时传输协议 (RTP)（通过 UDP）构成。确保 VPN 路由器之间的所有防火墙打开端口以允许 VPN 路由器进行通信，并且 VPN 路由器外部边缘上的 IP 地址公共可路由。
 
 > [!IMPORTANT]
-> 请与服务提供商联系，以确定是否提供包括故障转移在内的高可用性支持。 如果提供，则需要确定设置过程。 例如，是否需要在每个中介服务器上仅配置一个 IP 地址和一个 SIP 中继，或者是否需要在每个中介服务器上配置多个 SIP 中继？ > 如果有多个中央站点，还要询问服务提供商能否启用与另一个中央站点的连接。
+> 请与服务提供商联系，以确定是否提供包括故障转移在内的高可用性支持。 如果提供，则需要确定设置过程。 例如，是否需要在每个中介服务器上仅配置一个 IP 地址和一个 SIP 中继，或者是否需要在每个中介服务器上配置多个 SIP 中继？ > 如果您有多个中央站点，还要询问服务提供商能否启用与另一个中央站点的连接。
 
 > [!NOTE]
 > 对于 SIP 中继，强烈建议您部署独立的中介服务器。 有关详细信息，请参阅部署文档中的[Deploying Mediation Servers and Defining Peers](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mediation-servers-and-defining-peers)。

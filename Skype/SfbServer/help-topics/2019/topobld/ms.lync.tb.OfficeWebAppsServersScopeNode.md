@@ -2,7 +2,7 @@
 title: Office Web Apps 服务器范围节点
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,16 +15,16 @@ ms.localizationpriority: medium
 ms.assetid: 087ca1f2-2329-4fa1-b6bb-685f2f4ba296
 ROBOTS: NOINDEX, NOFOLLOW
 description: 右键单击"Office Web Apps 服务器"，然后选择"新建 Office Web Apps Server"以打开向导。
-ms.openlocfilehash: f2ab79d43e1b9d9725aeeeff72af9e02e8f7a96c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8138d8973387a59462577bf42921f1877370004d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769210"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60841624"
 ---
 # <a name="office-web-apps-servers-scope-node"></a>Office Web Apps Server 范围节点
 
-右键单击 **"Office Web Apps 服务器**"，然后选择"**新建 Office Web Apps Server"** 以打开向导。
+右键单击 **"Office Web Apps 服务器**"，然后选择"新建 **Office Web Apps Server"** 以打开该向导。
 
 ![OfficeWebApps 服务器范围节点。](../../../media/OfficeWebApps_Servers_Scope_Node.jpg)
 

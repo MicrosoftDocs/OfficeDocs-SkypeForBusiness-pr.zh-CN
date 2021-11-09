@@ -2,7 +2,7 @@
 title: 添加控制器监控
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,22 +15,22 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: a9009434-3771-475f-8314-c104f2716a29
 description: 可以通过配置以下属性“定义监视 SQL Server 存储”：
-ms.openlocfilehash: 941ce7329e2c8fa63d769a3518ead9f0522a7729
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 21d97a6b67f97404526b30e31d9666cdc3647696
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60762780"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60841454"
 ---
 # <a name="add-director-monitoring"></a>添加控制器监控
  
 可以通过配置以下属性“定义监视 SQL Server 存储”：
   
-- **监视SQL Server** 存储：从SQL Server选择一个 (完全限定的域名)  (（可选）从SQL Server命名的) 实例。
+- **监控SQL Server** 存储：从SQL Server选择一个完全限定 (FQDN)  (，也可以选择SQL Server命名) 实例。
     
     单击 **"** 新建"以SQL Server FQDN 定义和（可选）监控服务器存储的实例名称。
     
-- 如果要 **为SQL Server** 服务器添加数据库镜像，请选中"启用存储镜像"复选框。
+- 如果要为 **监控SQL Server** 数据库镜像，请选中"启用存储镜像"复选框。
     
     从列表选择一个现有的“监控 SQL Server 存储镜像”。
     

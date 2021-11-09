@@ -2,7 +2,7 @@
 title: 部署 Skype for Business Server 的统计信息管理器
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: 摘要：阅读本主题，了解如何为组织部署统计信息Skype for Business Server。
-ms.openlocfilehash: 6444f89f43ea4951e186af589f5986e5a3e7bc9e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4cfedb385078cd12413cb9f27059f7b5ed8023a1
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778152"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857429"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server"></a>部署 Skype for Business Server 的统计信息管理器
  
@@ -55,7 +55,7 @@ ms.locfileid: "60778152"
     
 3. 在主机上安装网站。
     
-4. 在要监视的每台Skype for Business Server安装代理。
+4. 在要监视的每Skype for Business Server安装代理。
     
 5. 导入要监视的服务器拓扑。
     
@@ -70,7 +70,7 @@ ms.locfileid: "60778152"
     
     可以从下载未签名的安装程序 [https://github.com/MSOpenTech/redis/releases](https://github.com/MSOpenTech/redis/releases)
     
-    如果需要，可以通过热门程序包管理器使用已签名的二进制文件 [：Nuget](https://www.nuget.org/packages/Redis-64/) 和 [Choclatey](https://chocolatey.org/packages/redis-64)。
+    如果需要，可以通过热门程序包管理器获得已签名的二进制文件 [：Nuget](https://www.nuget.org/packages/Redis-64/) 和 [Choclatey](https://chocolatey.org/packages/redis-64)。
     
    - 运行提供的 msi 并按照提示执行。
     
@@ -122,7 +122,7 @@ ms.locfileid: "60778152"
     
    - 如果 KnownServerCount 为 1 或更高，则建立与 Redis 的连接。
     
-   - 等待几分钟，并安装至少一个代理后，检查值已写入计数器是否正在递增。
+   - 等待几分钟，并安装至少一个代理后，请检查值已覆盖计数器是否正在递增。
     
 ### <a name="install-the-website"></a>安装网站
 
@@ -150,7 +150,7 @@ Web 安装程序添加本地安全组，称为 StatsManWebSiteUsers。 你可以
   
 ### <a name="install-the-agents"></a>安装代理
 
-在要监视的每个Skype for Business Server安装代理，具体方法为运行StatsManPerfAgent.msi并指定以下内容：
+通过运行 Skype for Business Server并指定以下内容，在要监视的每个StatsManPerfAgent.msi安装代理：
   
 1. 查看许可协议，如果同意，请选择"**我接受许可协议中的条款"，** 然后单击"下一步 **"。** 
     
@@ -183,7 +183,7 @@ msiexec /l install.log /i StatsManPerfAgent.msi SERVICE_THUMBPRINT=<thumbprint> 
   
 若要导入Skype for Business Server拓扑，请按照以下步骤操作：
   
-1. 在具有 Skype for Business Server PowerShell cmdlet 的主机上：
+1. 在具有 PowerShell cmdlet Skype for Business Server主机上：
     
     a. 运行以下命令： 
     
@@ -305,4 +305,4 @@ Microsoft 强烈建议使用由受信任的证书颁发机构签名的证书。 
     
 - [更新 Skype for Business Server 的统计信息管理器](upgrade.md)
     
-- [统计信息管理器疑难解答 Skype for Business Server](troubleshoot.md)操作
+- [统计信息管理器疑难解答 Skype for Business Server](troubleshoot.md) →

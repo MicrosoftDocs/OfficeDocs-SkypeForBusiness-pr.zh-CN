@@ -2,7 +2,7 @@
 title: 定义新 IP 或 PSTN 网关的根 Trunk
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 22203d9a-4612-45c7-9375-69ae9964ce1e
 ROBOTS: NOINDEX, NOFOLLOW
 description: 通过配置以下内容定义 IP 或公用电话交换网 (PSTN) 的根 Trunk：
-ms.openlocfilehash: ab57011eec73fcbee21dafc52cf85ddeebb01b7d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1a255c6b4dbe9b2e880c564abae90b2557a965cb
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761180"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60832586"
 ---
 # <a name="define-the-root-trunk-for-a-new-ip-or-pstn-gateway"></a>定义新 IP 或 PSTN 网关的根中继
 

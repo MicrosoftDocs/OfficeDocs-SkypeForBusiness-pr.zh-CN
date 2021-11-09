@@ -2,7 +2,7 @@
 title: Skype for Business Server 命令行管理程序
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 674b523b-c0b7-4ed6-9e67-afa6e8ac7e12
 description: 命令行Skype for Business Server命令行管理程序为服务器管理提供了命令行界面。 它基于Windows PowerShell，包括一套全面的管理 cmdlet，这些 cmdlet 特定于 Skype 和旧 Lync Server 产品。
-ms.openlocfilehash: 2d8caadfb1dfe80af74861cf20fa0b155dd20d1a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3b9ea4658e7745bb1e6bd330c5dd865bf45a396a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60750311"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857499"
 ---
 # <a name="skype-for-business-server-management-shell"></a>Skype for Business Server 命令行管理程序
  
@@ -56,7 +56,7 @@ Get-Command * -Module SkypeforBusiness -CommandType cmdlet
     
 - 可以通过运行[Update-Skype for Business Server](/powershell/module/microsoft.powershell.core/update-help) cmdlet 来更新命令行管理程序帮助内容。 此 Update-Help cmdlet 可下载并安装可供您计算机上安装的所有模块使用的最新帮助文件，包括更新 Skype for Business cmdlet。
     
-    默认情况下 **，Update-Help** cmdlet 将更新安装在您的 Skype for Business Server。 如果只想更新某些模块，可以使用 _Module_ 参数来限制 cmdlet 的范围。 下面的示例仅更新Skype for Business模块。
+    默认情况下 **，Update-Help** cmdlet 将更新安装在您的 Skype for Business Server。 如果只想更新某些模块，可以使用 _Module_ 参数来限制 cmdlet 的范围。 下面的示例仅更新模块Skype for Business模块。
     
   ```PowerShell
   Update-Help -Module SkypeforBusiness

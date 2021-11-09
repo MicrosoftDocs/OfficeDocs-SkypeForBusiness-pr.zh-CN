@@ -2,7 +2,7 @@
 title: '通话设置仪表板的用户服务 (CQD) '
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: eafeb54a-2574-415b-b991-a0ff0470d8c3
 description: 摘要：了解 User 设置 Service，该服务是通话质量仪表板存储库 API 的一部分。 通话质量仪表板是一种用于Skype for Business Server。
-ms.openlocfilehash: 010ac5ee79ee03c8ff1137be80f2e2e520d27e77
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 81abbc31a82fc696a5bcb45faf4120b71fc26f74
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60762280"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856579"
 ---
 # <a name="user-settings-service-for-call-quality-dashboard-cqd"></a>通话设置仪表板的用户服务 (CQD) 
  

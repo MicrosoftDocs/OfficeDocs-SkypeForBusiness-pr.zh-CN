@@ -1,7 +1,7 @@
 ---
 title: 将 Lync VDI 插件与 Skype for Business Server
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.reviewer: krishra
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 11d3bd5d-6dd3-471c-b842-b072fa197714
 description: 本主题讨论在连接到远程虚拟桌面Skype for Business部署过程。
-ms.openlocfilehash: 64bbe73f1a0a4a1d2bde59cd86f1cf3a0f5d911e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 853bcfcc41d058983c0aabb2868351f1f59de08e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60775832"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840564"
 ---
 # <a name="deploy-the-lync-vdi-plug-in-with-skype-for-business-server"></a>将 Lync VDI 插件与 Skype for Business Server
  
@@ -45,13 +45,13 @@ ms.locfileid: "60775832"
 
 若要为 Lync VDI 插件准备远程桌面连接，请在本地计算机上执行以下步骤：
   
-1. 如果本地计算机正在运行Windows 8，请跳过此步骤。 如果本地计算机在 sp1 Windows 7 上运行，请安装Windows 8桌面服务客户端[的最新版本](/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients)。
+1. 如果本地计算机正在运行Windows 8，请跳过此步骤。 如果本地计算机运行 sp1 Windows 7，请安装Windows 8桌面服务客户端[的最新版本](/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients)。
     
 2. 通过单击"开始"，然后单击" **远程桌面** 连接"启动 **远程桌面服务客户端**。
     
 3. 单击 **"选项"**。
     
-4. 单击"**本地资源"** 选项卡。在 **"远程音频**"下 **，设置"，** 然后执行以下操作：
+4. 单击"**本地资源"** 选项卡。在 **"远程音频**"**下，设置"，** 然后执行以下操作：
     
    - 在 **"远程音频播放"** 下，**选择"在此计算机上播放"。**
     
@@ -63,7 +63,7 @@ ms.locfileid: "60775832"
     
 6. 单击"**常规"** 选项卡。在 **"计算机**"中，键入虚拟桌面的名称，然后单击 **"连接"。** 
     
-## <a name="sign-in-and-use-skype-for-business-on-the-virtual-desktop"></a>登录并使用虚拟Skype for Business上的登录名
+## <a name="sign-in-and-use-skype-for-business-on-the-virtual-desktop"></a>登录并使用虚拟Skype for Business上的客户端
 <a name="SfB_signin"> </a>
 
 启用 Lync VDI 插件后，用户在登录虚拟桌面时Skype for Business以下步骤。
@@ -119,7 +119,7 @@ ms.locfileid: "60775832"
     
 - **Skype for Business客户端正在本地计算机上运行。**
     
-    若要使用 Lync VDI 插件，Skype for Business客户端不得在本地计算机上运行，否则配对将失败。 作为最佳实践，用户不应在本地计算机上安装Skype for Business客户端。
+    若要使用 Lync VDI 插件，Skype for Business客户端不能在本地计算机上运行，否则配对将失败。 作为最佳实践，用户不应在本地计算机上安装Skype for Business客户端。
     
 ## <a name="see-also"></a>另请参阅
 <a name="tshoot_VDI"> </a>

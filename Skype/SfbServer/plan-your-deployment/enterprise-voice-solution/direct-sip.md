@@ -2,7 +2,7 @@
 title: 直接 SIP 连接Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0a37737d-9628-4e36-b27b-c134fa5a3882
 description: PSTN 网关和 PSTN Skype for Business Server IP-PBX 之间支持直接 SIP 企业语音。
-ms.openlocfilehash: b08067518f4f9e60214a34d8220a7ae367978ee5
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8a615197a01fafbdf29c838b28a6d12e06f37d00
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60754449"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848395"
 ---
 # <a name="direct-sip-connections-in-skype-for-business-server"></a>直接 SIP 连接Skype for Business Server
 
@@ -50,33 +50,33 @@ PSTN 网关和 PSTN Skype for Business Server IP-PBX 之间支持直接 SIP 企�
 
 在增量部署中，Skype for Business Server是单个团队或部门的唯一电话解决方案，而组织中其他用户继续使用 PBX。 此增量部署策略提供了一种方法，通过受控试点计划将 IP 电话引入企业。 其通信需求由 Microsoft 统一通信最满足的工作组将移至企业语音，而其他用户仍保留在现有 PBX 上。 根据需要，可以将其他工作组企业语音迁移至其他工作组。
 
-如果您明确定义了具有共同通信要求且适合集中管理的用户组，则建议使用增量选项。 如果你的团队或部门分布在广泛的地理区域（其中节省大量长途费用），此选项也有效。 事实上，此选项可用于创建其成员可能分散在全球的虚拟团队。 可以创建、修改或取消此类团队，以快速响应变化中的业务需求。
+如果您明确定义了具有共同通信要求且适合集中管理的用户组，则建议使用增量选项。 如果你的团队或部门分布在广泛的地理区域（其中节省大量长途费用），此选项也有效。 事实上，此选项可用于创建其成员可能分散在全球的虚拟团队。 可以创建、修改或解除此类团队的部署，以快速响应变化中的业务需求。
 
-下图显示了用于部署 PBX 企业语音的常规拓扑。 这是建议用于增量部署的拓扑。
+下图显示了在 PBX 后面部署 企业语音的常规拓扑。 这是建议用于增量部署的拓扑。
 
 **增量部署选项**
 
 ![部门迁移选项图。](../../media/Fig28_Departmental_migration_option.jpg)
 
 > [!NOTE]
-> 如果要将 Skype for Business Server 部署连接到经过认证的直接 SIP 合作伙伴，则不需要中介服务器与 PBX 之间的公用电话交换网 (PSTN) 网关。 有关经认证的直接 SIP 合作伙伴的列表，请参阅  [Microsoft 统一通信开放式互操作性计划](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md)。
+> 如果要将 Skype for Business Server 部署连接到认证的直接 SIP 合作伙伴，则不需要中介服务器与 PBX 之间的公用电话交换网 (PSTN) 网关。 有关经认证的直接 SIP 合作伙伴的列表，请参阅  [Microsoft 统一通信开放式互操作性计划](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md)。
 
 > [!NOTE]
 > 此图中显示的媒体路径已启用媒体旁路 (推荐配置) 。 如果选择禁用媒体旁路，则媒体路径将通过中介服务器进行路由。
 
-在此拓扑中，选定的部门或工作组已启用企业语音。 PSTN 网关将启用了 VoIP (的 VoIP) 语音连接到 PBX。 启用了远程企业语音包括远程工作者）通过 IP 网络进行通信。 用户企业语音 PSTN 和未启用呼叫功能的同事企业语音呼叫将路由到相应的 PSTN 网关。 来自仍在 PBX 系统的同事或 PSTN 上的呼叫者的呼叫将路由到 PSTN 网关，PSTN 网关将呼叫转发Skype for Business Server路由。
+在此拓扑中，选定的部门或工作组已启用企业语音。 PSTN 网关将启用了 VoIP (VoIP) 的语音连接到 PBX。 启用了远程企业语音包括远程工作者）通过 IP 网络进行通信。 用户企业语音 PSTN 和未启用呼叫功能的同事企业语音呼叫将路由到相应的 PSTN 网关。 来自仍在 PBX 系统的同事或 PSTN 上的呼叫者的呼叫将路由到 PSTN 网关，PSTN 网关将呼叫转发Skype for Business Server路由。
 
-有两种建议的配置用于将 企业语音 连接到现有 PBX 基础结构，实现互操作性：企业语音 PBX 的企业语音 PBX 前面。
+有两种建议的配置企业语音连接到现有 PBX 基础结构实现互操作性：企业语音 PBX 的企业语音 PBX 前面。
 
 #### <a name="enterprise-voice-behind-the-pbx"></a>企业语音PBX 后面
 
-在 PBX 企业语音时，来自 PSTN 的所有呼叫将到达 PBX，PBX 将呼叫路由至 企业语音 用户到 PSTN 网关，而将 PBX 用户的呼叫路由到 PBX。
+在 PBX 企业语音时，来自 PSTN 的所有呼叫都到达 PBX，PBX 将呼叫路由至 企业语音 用户到 PSTN 网关，而将 PBX 用户的呼叫路由到 PBX。
 
 #### <a name="enterprise-voice-in-front-of-the-pbx"></a>企业语音 PBX 前面
 
-当企业语音 PBX 之前部署呼叫时，所有呼叫都到达 PSTN 网关，PSTN 网关将 企业语音 用户的呼叫路由至 Skype for Business Server PBX 用户的呼叫路由至 PBX。 来自用户和 PBX 用户企业语音 PSTN 的呼叫通过 IP 网络路由到最经济高效的 PSTN 网关。 下表显示了此配置的优缺点。
+在 PBX 企业语音时，所有呼叫将到达 PSTN 网关，PSTN 网关将 企业语音 用户的呼叫路由至 Skype for Business Server PBX 用户的呼叫路由至 PBX。 来自用户和 PBX 用户企业语音 PSTN 的呼叫通过 IP 网络路由到最经济高效的 PSTN 网关。 下表显示了此配置的优缺点。
 
-**在 PBX 企业语音部署的优缺点**
+**在 PBX 前面企业语音部署的优缺点**
 
 |**优点**|**缺点**|
 |:-----|:-----|
@@ -88,10 +88,10 @@ PSTN 网关和 PSTN Skype for Business Server IP-PBX 之间支持直接 SIP 企�
 
 企业语音 提供了新业务以及现有企业的新办公网站，从而有机会实现功能齐全的 VoIP 解决方案，而无需担心 PBX 集成或产生大量 IP-PBX 基础结构的部署和维护成本。 此解决方案支持现场和远程工作者。
 
-在此部署中，所有呼叫均通过 IP 网络路由。 对 PSTN 的呼叫将路由到相应的 PSTN 网关。 Skype for Business或 Lync 电话 Edition 充当软电话。 由于没有 PBX 电话可让用户控制，因此远程呼叫控制不可用且不必要。 语音邮件和自动助理服务通过统一消息和 UM Exchange的可选 (提供) 。
+在此部署中，所有呼叫均通过 IP 网络路由。 对 PSTN 的呼叫将路由到相应的 PSTN 网关。 Skype for Business或 Lync 电话 Edition 充当软电话。 由于没有 PBX 电话可让用户控制，因此远程呼叫控制不可用且不必要。 语音邮件和自动助理服务通过统一消息和 UM Exchange的可选 () 提供。
 
 > [!NOTE]
-> 除了支持部署所需的网络基础结构之外，仅 VoIP Skype for Business Server可以使用一个小的合格网关来支持传真机和模拟设备。
+> 除了支持传真机所需的网络基础结构Skype for Business Server，仅 VoIP 部署可以使用一个小的合格网关来支持传真机和模拟设备。
 
 下图显示了仅 VoIP 部署的典型拓扑。
 
@@ -124,7 +124,7 @@ PSTN 网关和 PSTN Skype for Business Server IP-PBX 之间支持直接 SIP 企�
 
 #### <a name="mn-trunk-support"></a>M:N 中继支持
 
-中介服务器可以通过多个网关、会话边界控制器 (Internet 电话服务提供商) SDC 或两者的组合路由呼叫。 此外，池中的多个中介服务器可以与多个网关交互。 中介服务器和网关之间定义的逻辑路由称为中继。 当内部用户拨打 PSTN 呼叫时，前端池上的出站路由逻辑会从可用于路由该特定呼叫的所有可能的组合中选择要路由的中继。 通过 DNS 负载平衡，如果呼叫由于池中特定中介服务器的问题而未能到达网关，则呼叫将重试池中的备用中介服务器。
+中介服务器可以通过多个网关、会话边界控制器 (Internet) 服务提供商提供的 SDC 或两者的组合来路由呼叫。 此外，池中的多个中介服务器可以与多个网关交互。 中介服务器和网关之间定义的逻辑路由称为中继。 当内部用户拨打 PSTN 呼叫时，前端池上的出站路由逻辑会从可用于路由该特定呼叫的所有可能的组合中选择要路由的中继。 通过 DNS 负载平衡，如果呼叫由于池中特定中介服务器的问题而未能到达网关，则呼叫将重试池中的备用中介服务器。
 
 有关规划多个网关的详细信息，请参阅[M：N trunk in Skype for Business Server](m-n-trunk.md)。
 

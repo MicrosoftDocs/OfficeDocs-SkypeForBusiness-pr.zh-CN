@@ -1,6 +1,6 @@
 ---
 title: Microsoft Teams 采用第 1 阶段 - 开始
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.date: 10/29/2018
@@ -21,21 +21,21 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4cf809a665a008adf7b7e613a58f4ff274c6a708
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 5ba8e37a6cbb6850eebd1fd7d1e1a238d4c7d304
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741528"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840694"
 ---
 # <a name="microsoft-teams-adoption-phase-1---start"></a>Microsoft Teams 采用第 1 阶段 - 开始
 
-你将通过以下Teams开始采用你的计划：
+通过以下活动Teams应用：
 
 - [验证采用先决条件](#validate-adoption-prerequisites)。
 - [组建团队](#assemble-your-team)。
 - [了解团队和频道](teams-adoption-understand-teams-and-channels.md)。
-- [在团队中设置第一Teams](teams-adoption-your-first-teams.md)以建立技术知识。
+- [在团队中设置第一Teams](teams-adoption-your-first-teams.md)团队，以建立技术知识。
 - [评估组织的更改准备情况](teams-adoption-assess-readiness.md)。
 
 此阶段的主要目标是确保做好试验阶段的准备。 您还将确定是否需要 Microsoft 或我们的熟练合作伙伴网络的帮助。  
@@ -58,7 +58,7 @@ ms.locfileid: "60741528"
 | 部门主管 (利益干系人) <sup>2</sup> | 确定特定部门如何使用Teams并鼓励参与。 | 任何部门 (管理)  |
 | IT 专家<sup>1</sup> | 监督实施的所有技术方面，包括集成。 | IT |
 | 通信主管<sup>2</sup> | 监督公司范围内有关Teams。 | 公司通信、IT 或其他 |
-| Community管理器 | 管理日常网络Yammer活动。 提供指导和最佳做法。 | 多个部门 |
+| Community管理器 | 管理日常网络Yammer活动。 提供指南和最佳做法。 | 多个部门 |
 
 <sup>1</sup>这些角色对于项目的成功至关重要。</br>
 <sup>2</sup>这些角色对于总体计划的成功非常重要。
@@ -67,10 +67,10 @@ ms.locfileid: "60741528"
 
 ## <a name="additional-resources"></a>其他资源
 
-[Microsoft Technical Community](https://aka.ms/TechCommunity)提供对等提供的见解，了解许多应用和Microsoft 365产品的Office 365问题。 建议加入以下社区：
+[Microsoft 技术Community](https://aka.ms/TechCommunity)提供对等提供的见解，了解许多应用和Microsoft 365产品的Office 365问题。 建议加入以下社区：
 
-- [Microsoft Teams技术Community](https://aka.ms/TeamsCommunity) - 获取产品问题解答，向其他 Teams 客户学习，并关注我们的博客，随时了解 Teams 的新功能和用例。 
-- [支持计划](https://aka.ms/O365Champions)与推动采用社区 - 向同行学习如何最好地推动 Microsoft 365 或 Office 365 工作负荷（如 Teams、SharePoint、Yammer 和其他产品的采用）。 向 IT 专业人员、业务用户、"意外"开发人员以及有兴趣推动采用云服务的任何人开放。  
+- [Microsoft Teams技术Community](https://aka.ms/TeamsCommunity) - 获取产品问题解答，向其他 Teams 客户学习，并关注我们的博客，随时了解适用于客户的新功能和Teams。 
+- [支持者](https://aka.ms/O365Champions)计划与推动采用社区 - 向同行学习如何最好地推动 Microsoft 365 或 Office 365 工作负荷（如 Teams、SharePoint、Yammer 和其他产品的采用）。 向 IT 专业人员、业务用户、"意外"开发人员以及有兴趣推动采用云服务的任何人开放。  
 
 
 ![表示下一步骤的图标。](media/teams-adoption-next-icon.png) 下一 [步：了解团队和频道](teams-adoption-understand-teams-and-channels.md)

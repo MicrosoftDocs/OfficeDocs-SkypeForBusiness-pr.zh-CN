@@ -2,7 +2,7 @@
 title: 监视移动性能以Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,13 +11,13 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 9c831c63-9a7d-48ec-9118-f8a7e80ddd04
-description: 摘要：了解 Mobility Service (Mcx) 和 Skype for Business Server 中的 UCWA (统一) API Skype for Business Server。
-ms.openlocfilehash: 5f8adbbdc653d8cdf2e19ce3f82fc4fdb0383505
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 摘要：了解 Mobility Service (Mcx) 和 SKYPE FOR BUSINESS SERVER 中 UCWA (统一通信 Web API) 。
+ms.openlocfilehash: 5560e869a4b3313cf63ef4466aa9f8ce394766d1
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60746918"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863559"
 ---
 # <a name="monitor-mobility-for-performance-in-skype-for-business-server"></a>监视移动性能以Skype for Business Server
  

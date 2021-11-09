@@ -2,7 +2,7 @@
 title: 添加持久聊天备份 SQL Server 存储
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 106698e4-ce73-4a34-8fc7-e9d3208a17dc
 description: 配置将为持久SQL Server持久聊天服务器或持久聊天服务器池提供备份数据库的备份数据库。
-ms.openlocfilehash: 9b25da5aa8543bdf2a8db901cf763098055dc476
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 038e8aff6c905ae60c7f5ed8a1e704cf7961d5dc
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60747868"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863899"
 ---
 # <a name="add-persistent-chat-backup-sql-server-store"></a>添加持久聊天备份 SQL Server 存储
  
@@ -32,7 +32,7 @@ ms.locfileid: "60747868"
   
 选中"**启用SQL Server存储镜像**"复选框以配置将为持久聊天备份数据提供镜像数据库的 SQL Server 数据库和可选实例。
   
-从列表"**镜像**"SQL Server存储一SQL Server可选实例，以用作持久聊天SQL Server的镜像SQL Server。
+从列表"**镜像** SQL Server存储一SQL Server可选实例，以用作持久聊天SQL Server的镜像SQL Server。
   
 单击 **"** 新建"以定义SQL Server持久聊天策略镜像的新实例SQL Server实例。
   
@@ -42,7 +42,7 @@ ms.locfileid: "60747868"
   
 单击“上一步”以回到上一个池定义对话框。
   
-完成 **为此** 池的备份和存储配置输入SQL Server单击"下一步"，然后继续进行持久聊天服务器池定义。
+完成 **输入** 此池的备份选项并存储配置SQL Server单击"下一步"，然后继续进行持久聊天服务器池定义。
   
 单击“取消”以放弃所有更改并退出“定义新的持久聊天池”向导。
   
@@ -56,4 +56,4 @@ ms.locfileid: "60747868"
   
 [Skype for Business Server 2015 中的持久聊天服务器的硬件和软件要求](../../plan-your-deployment/persistent-chat-server/hardware-and-software-requirements.md)
   
-[在 2015 年 6 月为持久聊天服务器Skype for Business Server灾难恢复](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)
+[在 2015 年 10 月为持久聊天服务器Skype for Business Server灾难恢复](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)

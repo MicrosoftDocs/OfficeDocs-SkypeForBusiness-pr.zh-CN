@@ -2,7 +2,7 @@
 title: 向电话拨入用户发送欢迎电子邮件Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,18 +12,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 5507827b-6f8d-4ea4-94e6-1cf72c1d38eb
 description: 摘要：了解如何欢迎用户在 Skype for Business Server 中加入电话拨入式Skype for Business Server。
-ms.openlocfilehash: 64dd7086b1a40de0c0cc2e0b33a66257153541cd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 672e386c223e2b5b9f872334634ac315c9e900e1
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60772068"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848535"
 ---
 # <a name="send-welcome-email-to-dial-in-users-in-skype-for-business-server"></a>向电话拨入用户发送欢迎电子邮件Skype for Business Server
  
 **摘要：** 了解如何欢迎用户使用 Skype for Business Server 中的电话拨入式Skype for Business Server。
   
-配置电话拨入式会议并进行测试以验证其是否正常工作后，应为用户设置初始个人标识号 (PIN) ，并通知用户该功能的可用性。 你可以包括介绍性说明，如初始 PIN 和指向电话拨入式会议设置的链接。 
+配置电话拨入式会议并进行测试以验证其是否正常工作后，应为用户设置初始个人标识号 (PIN) 并通知用户该功能的可用性。 你可以包括介绍性说明，如初始 PIN 和指向电话拨入式会议设置的链接。 
   
 通常，使用 **Set-CsClientPin** cmdlet 重置 PIN，但如果要发送包含 PIN 信息的介绍性欢迎电子邮件，可以使用本主题中的过程。 如果不想发送电子邮件，则可以改用 **Set-CsClientPin**。
   
@@ -54,7 +54,7 @@ ms.locfileid: "60772068"
    [-Credential <SMTP server credentials used to send email with the specified From address>]
    ```
 
-**SmtpServer** 默认情况下，脚本使用此参数的保留环境 **$PSEmailServer** 的值。 如果未 **$PSEmailServer** 变量，则必须指定此参数。
+**SmtpServer** 默认情况下，脚本使用此参数的保留 **$PSEmailServer变量的值** 。 如果未 **$PSEmailServer** 变量，则必须指定此参数。
     
 **凭据** 默认情况下，脚本使用当前用户的凭据。 如果当前用户无权代表指定的"发送者"地址发送电子邮件，则必须指定此参数。 一般而言，如果不将电子邮件地址指定为"发送地址"，请指定此参数。
     
@@ -65,7 +65,7 @@ Set-CsPinSendCAWelcomeMail -UserUri "bob@contoso.com"
 -From "marco@contoso.com"
 ```
 
-下一个示例强制为 Bob 使用值为"383042650"的新 PIN（即使 Bob 已有 PIN），然后从在一位用户向 Bob 发送欢迎电子邮件。 由于已指定 Credential 参数，因此系统会提示运行命令的人员输入密码。 电子邮件使用安全套接字层和 SSL (发送) ：
+下一个示例强制为 Bob 使用值为"383042650"的新 PIN，即使 Bob 已有 PIN，然后从 Bob 向 Bob 发送欢迎电子邮件。 由于已指定 Credential 参数，因此系统会提示运行命令的人员输入密码。 电子邮件使用安全套接字层和 SSL (发送) ：
   
 ```PowerShell
 Set-CsPinSendCAWelcomeMail -UserUri "bob@contoso.com"

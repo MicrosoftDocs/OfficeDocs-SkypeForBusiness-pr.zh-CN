@@ -1,6 +1,6 @@
 ---
 title: 在越南的可用性
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是适用于Microsoft 365 Office 365的Skype for Business和Microsoft Teams服务。
-ms.openlocfilehash: f1ae270e993ec90a3ce83b739de5c519d9151e39
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 以下是适用于Microsoft 365的Office 365和Skype for Business Microsoft Teams服务。
+ms.openlocfilehash: 5c5b5afba96d737d46b96bd5d9afdff0b615b1eb
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60754107"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833056"
 ---
 # <a name="availability-in-cambodia"></a>在越南的可用性
 
 [查找其他国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或详细了解可以在哪些国家/地区使用音频会议和通话套餐。
 
-以下是适用于Microsoft 365 Office 365的Skype for Business和Microsoft Teams服务。
+以下是适用于Microsoft 365的Office 365和Skype for Business Microsoft Teams服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 

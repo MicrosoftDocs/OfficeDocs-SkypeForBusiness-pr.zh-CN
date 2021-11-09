@@ -2,7 +2,7 @@
 title: '高可用性 (规划工具) '
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 ms.assetid: 14a897b3-2406-46c7-b08f-490085b3d048
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype for Business Server中大多数服务器角色的主要高可用性方案基于通过池实现的服务器冗余。 如果运行特定服务器角色的服务器发生故障，那么池中运行同一角色的其他服务器将接纳该服务器的负荷。
-ms.openlocfilehash: 57a12aeb3ea3997f160949d374f2d430137c32c2
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3bd8d5f56055e75cfdccaaf7867c5b59feb9e39e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758764"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60841704"
 ---
 # <a name="high-availability-planning-tool"></a>高可用性 (规划工具) 
  
@@ -33,7 +33,7 @@ Skype for Business Server至少需要两台前端服务器才能实现高可用�
     
 - 如果部署包含边缘服务器，则添加其他服务器。 
     
-- 如果部署包含持久聊天，则规划工具将添加一台额外的服务器，但不增加池数量。 例如，如果部署已包含四台服务器，规划工具将建议为总共五台服务器 (服务器添加一个额外的服务器) 但会维护一个池。 
+- 如果部署包含持久聊天，则规划工具将添加一台额外的服务器，但不增加池数量。 例如，如果部署已包含四台服务器，规划工具将建议为总共五台服务器 (添加一个额外的服务器) 但会维护一个池。 
 
     > [!NOTE] 
     > 持久聊天在 2015 Skype for Business Server可用，但在 2019 年 2 月不再Skype for Business Server支持。 相同的功能在 Teams 中可用。 有关详细信息，请参阅Skype for Business[升级Microsoft Teams升级](/MicrosoftTeams/upgrade-start-here)。 如果您需要使用持久聊天，您的选择是迁移需要此功能的用户以Teams或继续使用 Skype for Business Server 2015。 
@@ -41,4 +41,4 @@ Skype for Business Server至少需要两台前端服务器才能实现高可用�
     
 规划工具还会添加一个SQL数据库的镜像数据库。 例如，如果存在前端数据库SQL Server，规划工具将添加另一个数据库作为此数据库的镜像数据库，并将其名称为"前端镜像SQL数据库。
   
-有关准备环境实现高可用性的更多详细信息，请参阅在 Skype for Business Server 中[规划高可用性和灾难恢复](../../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)。
+有关准备环境实现高可用性的更多详细信息，请参阅在 Skype for Business Server 中规划高可用性和[灾难恢复](../../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)。

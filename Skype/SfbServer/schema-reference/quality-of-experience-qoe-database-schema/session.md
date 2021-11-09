@@ -2,7 +2,7 @@
 title: 会话表
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 7f05529c-794d-41ed-bca4-2e85b87b2dec
 description: 每条记录表示一个涉及音频或音频和视频的会话。 它包含有关会话的总体信息。 会话定义为两个终结点之间的 SIP (对话) 或视频会话初始协议。
-ms.openlocfilehash: bc81bb3c67f91b975643929170354c7b152d2237
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 044d7d2626ca0d04bb55b7a060d39e7ec330312d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768320"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840924"
 ---
 # <a name="session-table"></a>会话表
  
@@ -37,7 +37,7 @@ ms.locfileid: "60768320"
 |**EndTime** <br/> |datetime  <br/> | <br/> |呼叫结束时间。  <br/> |
 |**CallerPool** <br/> |int  <br/> |Foreign  <br/> |呼叫者池。 从 Pool 表 [引用](pool.md)。  <br/> |
 |**CalleePool** <br/> |int  <br/> |Foreign  <br/> |呼叫接收器的池。 从 Pool 表 [引用](pool.md)。  <br/> |
-|**CalleePAI** <br/> |int  <br/> |Foreign  <br/> |接收终结点的 SIP p 断言标识中的 SIP (PAI) 的 SIP URI。 从 User 表 [引用](user-0.md)。  <br/> |
+|**CalleePAI** <br/> |int  <br/> |Foreign  <br/> |接收终结点的 PAI (SIP p 断言标识) SIP URI。 从 User 表 [引用](user-0.md)。  <br/> |
 |**CallerURI** <br/> |int  <br/> |Foreign  <br/> |呼叫者的 URI。 从 User 表 [引用](user-0.md)。  <br/> |
 |**CallerEndpoint** <br/> |int  <br/> |Foreign  <br/> |呼叫者的终结点。 从 Endpoint 表 [引用](endpoint.md)。  <br/> |
 |**CallerUserAgent** <br/> |bit  <br/> |Foreign  <br/> |呼叫者的用户代理。 从 [UserAgent 表引用](useragent.md)。  <br/> |

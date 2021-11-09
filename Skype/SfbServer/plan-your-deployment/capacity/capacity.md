@@ -2,7 +2,7 @@
 title: 规划容量Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,20 +12,20 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: e557ed2c-9cb2-4c90-8fd1-96a814c47c19
-description: 本节中的主题可帮助您了解如何计划和部署 Skype for Business Server以便您可以充分规划组织中用户的数量并规划其活动生成的服务器负载。
-ms.openlocfilehash: efb72de54c65eca99ad40b05c191433eebfed34f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 本节中的主题帮助您了解如何计划和部署 Skype for Business Server，以便您可以充分规划组织中用户的数量并规划其活动生成的服务器负载。
+ms.openlocfilehash: e683eb2605c2a66a836321028595e2f034baf183
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778102"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856559"
 ---
 # <a name="capacity-planning-for-skype-for-business-server"></a>规划容量Skype for Business Server
  
-本节中的主题可帮助您了解如何计划和部署 Skype for Business Server以便您可以充分规划组织中用户的数量并规划其活动生成的服务器负载。 
+本节中的主题帮助您了解如何计划和部署 Skype for Business Server，以便您可以充分规划组织中用户的数量并规划其活动生成的服务器负载。 
   
 > [!NOTE]
-> 本节中所有建议均假定你已Skype for Business 2015 年 11 月或更高版本的累积更新。 
+> 本节中所有建议都假定你已Skype for Business 2015 年 11 月或更高版本的累积更新。 
   
 ## <a name="in-this-section"></a>本节内容
 

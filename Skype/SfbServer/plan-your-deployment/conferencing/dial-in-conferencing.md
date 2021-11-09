@@ -2,7 +2,7 @@
 title: 规划电话拨入式会议Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ea024a26-37b3-410e-961b-83ab85c07540
 description: 摘要：阅读本主题，了解如何在 Skype for Business Server 中规划电话拨入式Skype for Business Server。
-ms.openlocfilehash: ec4bfdbb514f1027ff11098cc1ba78045faf1553
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 84d034ba358213a0f79548df6cc1ca027098633b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763520"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60841084"
 ---
 # <a name="plan-for-dial-in-conferencing-in-skype-for-business-server"></a>规划电话拨入式会议Skype for Business Server
  
@@ -25,7 +25,7 @@ ms.locfileid: "60763520"
   
 电话拨入式会议是电话拨入式会议的一项可选Skype for Business Server该功能允许与会者通过电话拨入会议来加入会议的音频部分。 电话拨入式会议是音频会议的一部分且需要其他配置。 本主题介绍在为组织部署电话拨入式会议之前您需要思考的内容。 
   
-电话拨入式会议所需的某些组件特定于电话拨入式会议，有些组件是企业语音组件。 尽管电话拨入式会议使用的一些组件企业语音，但即使未部署电话拨入式会议，也可以部署企业语音。 本节介绍电话拨入式会议所需的组件。 有关规划完整解决方案企业语音，请参阅[企业语音](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md)在 Skype for Business Server 中规划Skype for Business Server。
+电话拨入式会议所需的某些组件特定于电话拨入式会议，有些组件企业语音组件。 尽管电话拨入式会议使用的一些组件企业语音，但即使未部署电话拨入式会议，也可以部署企业语音。 本节介绍电话拨入式会议所需的组件。 有关规划完整解决方案企业语音，请参阅在 Skype for Business Server 中规划企业语音[解决方案](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md)。
   
 电话拨入式会议要求通过部署中介服务器 (PSTN) 公用电话交换网的连接。 除了部署中介服务器之外，还需要考虑以下事项，以允许组织进行电话拨入式会议：
   
@@ -40,11 +40,11 @@ ms.locfileid: "60763520"
 - 支持企业用户和匿名用户
     
 > [!NOTE]
-> 如果部署电话拨入式会议，则必须在部署电话拨入式会议Skype for Business Server部署它。 无需为每个池中分配访问号码（参与者为加入会议而呼叫的号码），但必须在每个池中部署拨入功能。 当用户从一个池中呼叫访问号码以加入另一个池中的 Skype for Business Server 会议时，此要求支持记录的名称功能。 
+> 如果部署电话拨入式会议，则必须在部署电话拨入式会议Skype for Business Server部署电话拨入式会议。 无需为每个池中分配访问号码（参与者为加入会议而呼叫的号码），但必须在每个池中部署拨入功能。 当用户从一个池中呼叫访问号码以加入另一个池中Skype for Business Server会议时，此要求支持记录的名称功能。 
   
 ## <a name="plan-for-pstn-connectivity"></a>规划 PSTN 连接
 
-电话拨入式会议至少需要一台中介服务器和至少一个 PSTN (公用电话) 网络。 
+电话拨入式会议需要 PSTN 网关中的至少一台中介服务器 (一) 电话交换网。 
   
 可以在中央站点或分支站点部署中介服务器。 在中央站点中，可以将中介服务器并Standard Edition前端池或前端服务器上，也可以将其部署到独立服务器或池中。 在分支站点中，可以在独立服务器上部署中介服务器，也可以将中介服务器部署为 Survivable Branch Appliance 的组件。
   
@@ -54,7 +54,7 @@ ms.locfileid: "60763520"
   
 ## <a name="plan-for-dial-plans-access-numbers-and-conferencing-regions"></a>规划拨号计划、访问号码和会议区域
 
-要配置电话拨入式会议，请创建拨号计划和电话拨入式会议访问号码。 还可以指定将电话拨入式会议访问号码与拨号计划关联的拨入区域。 更具体地说：
+若要配置电话拨入式会议，请创建拨号计划和电话拨入式会议访问号码。 还可以指定将电话拨入式会议访问号码与拨号计划关联的拨入区域。 更具体地说：
   
 - 拨号计划是一组规范化规则，用于指定电话号码中的数字和数字模式，以及将电话号码转换为呼叫路由所需的标准 E.164 格式。
     
@@ -108,11 +108,11 @@ ms.locfileid: "60763520"
     
 - 指向电话拨入式会议设置页面的链接，其中包含使用其关联语言的访问号码的完整列表;创建、重置或取消阻止个人标识号 (PIN) ;以及其他信息，例如双音多频 (DTMF) 控件
     
-有关会议策略详细信息，请参阅在 Skype for Business Server 中配置[电话](../../deploy/deploy-conferencing/dial-in-conferencing.md)拨入式会议[Skype for Business Server。](../../manage/conferencing/conferencing-policies.md)  
+有关会议策略详细信息，请参阅在 Skype for Business Server[](../../deploy/deploy-conferencing/dial-in-conferencing.md)中配置电话拨入式会议[Skype for Business Server。](../../manage/conferencing/conferencing-policies.md)  
 
 ## <a name="support-for-enterprise-and-anonymous-users"></a>支持企业用户和匿名用户
 
-电话拨入式会议支持企业用户和匿名用户。 Enterprise用户在其组织中拥有 Active Directory 域服务Skype for Business Server帐户。 匿名用户在组织内不具有企业凭据。 在电话拨入式会议上下文中，联盟伙伴组织中使用 PSTN 连接到会议的用户被视为匿名用户。 对于电话拨入式会议（不同于其他环境），联盟用户都未经过身份验证。
+电话拨入式会议支持企业用户和匿名用户。 Enterprise用户拥有 Active Directory 域服务凭据，Skype for Business Server拥有其组织内部的帐户。 匿名用户在组织内不具有企业凭据。 在电话拨入式会议上下文中，联盟伙伴组织中使用 PSTN 连接到会议的用户被视为匿名用户。 对于电话拨入式会议（不同于其他环境），联盟用户都未经过身份验证。
   
 参加允许拨入访问会议的企业用户或会议主持人拨打一个会议访问号码后，系统会提示他们输入会议 ID。 如果主持人尚未参加会议，则用户可以输入其统一通信 (UC) 分机号（或完整电话号码）和 PIN，或者等待主持人准许其参加会议。 通过只输入其 PIN，会议组织者就可以以主持人身份参加会议。 前端服务器使用完整电话号码或分机号以及 PIN 的组合来唯一地将企业用户映射到其 Active Directory 凭据。 因此，在会议中是按名称对企业用户进行身份验证和标识的。 企业用户还可以担任由组织者预定义的会议角色。
   
@@ -130,13 +130,13 @@ ms.locfileid: "60763520"
     
 - 在允许他们参加会议后，电话拨入用户可以参与会议的音频部分，并且可以使用电话小键盘执行双音多频 (DTMF) 命令。
     
-- 拨入领导可以执行 DTMF 命令，使参与者能够取消静音或关闭、锁定或解锁会议、允许会议厅中的人员加入，以及打开或关闭进入和退出通知。
+- 拨入领导可以练习 DTMF 命令，使参与者能够打开或关闭静音、锁定或解锁会议、允许会议厅中的人员加入，以及打开或关闭进入和退出通知。
     
 - 领导还可使用 DTMF 命令允许会议厅中的每个人加入会议，这将更改会议权限以允许随后加入的任何人。 
     
 - 所有拨入参与者都可以练习 DTMF 命令来收听帮助、收听会议名单和将自己静音。
     
-- 拨入参与者 (，即是否从 PSTN) 在会议期间听到个人通知，例如是否已静音或取消静音、是否录制会议，或者是否有人正在会议厅中等待。
+- 电话拨入参与者 (，即是否从 PSTN) 在会议期间听到个人通知，例如是否已静音或取消静音、是否录制会议，或者是否有人正在会议厅中等待。
     
     > [!NOTE]
     > 通过单击链接（而不是电话拨入）参加会议的与会者不会听到个人通知。 

@@ -2,7 +2,7 @@
 title: 响应组队列
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 29bde940-6107-494f-9bee-b6ebfa135e41
 ROBOTS: NOINDEX, NOFOLLOW
 description: 响应组由代理组、队列和工作流组成。 响应组队列保留对响应组的呼叫，直到代理应答呼叫。
-ms.openlocfilehash: f4b055650a027efed0534b6a0b4ff9b19b6001f4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f33df7df7a0c129bbe522c39d9612377e85774ef
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60748718"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831386"
 ---
 # <a name="response-groups-queue"></a>响应组队列
 
@@ -56,4 +56,4 @@ ms.locfileid: "60748718"
 
 - **说明** 队列的说明。
 
-有关响应组特性和功能的详细信息，请参阅规划文档中的规划[Skype for Business Server中的规划](../../../plan-your-deployment/enterprise-voice-solution/response-group.md)响应组应用程序。 有关使用响应组队列的详细信息，请参阅操作文档中的[Managing Response Group Queues。](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-queues)
+有关响应组特性和功能的详细信息，请参阅规划文档中Skype for Business Server[中的规划](../../../plan-your-deployment/enterprise-voice-solution/response-group.md)响应组应用程序。 有关使用响应组队列的详细信息，请参阅操作文档中的[Managing Response Group Queues。](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-queues)

@@ -1,6 +1,6 @@
 ---
 title: 优化反馈和报告，Microsoft Teams采用
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.date: 11/01/2018
@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 136e6a2b2155a7215b468f1c2309b54db7914605
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a52e0035099ccb764272566c899ee5811c18ac5b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745488"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840714"
 ---
 # <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>为 Microsoft Teams 采用优化反馈和报告功能
 
-遵循用户反馈和服务运行状况报告最佳实践，确保从服务和员工处收到信号。  在某些情况下，可能需要管理员权限才能访问某些服务使用情况和运行状况报告。 如果你不是组织的Microsoft 365管理员Office 365管理员，请与该人员一起在 Microsoft 365 管理中心 中授予报表读取者角色，以访问其中一些数据。
+遵循用户反馈和服务运行状况报告最佳实践，确保从服务和员工处收到信号。  在某些情况下，可能需要管理员权限才能访问某些服务使用情况和运行状况报告。 如果你不是组织的Microsoft 365管理员Office 365管理员，请与该人员合作，在 Microsoft 365 管理中心 中授予其报表读取者角色，以访问其中一些数据。
 
 ## <a name="incorporating-feedback"></a>合并反馈 
 
@@ -54,10 +54,10 @@ ms.locfileid: "60745488"
 
 ## <a name="service-reporting"></a>服务报告
 
-在部署和采用报告时，应查看三种类型的Microsoft Teams：
+在部署和采用以下策略时，应查看三种类型的Microsoft Teams：
 
 - [服务运行状况](https://status.office365.com/)– Microsoft 365、Office 365和内部 IT 支持部门。
-- [Microsoft 365管理](/microsoft-365/admin/activity-reports/activity-reports)中心中的报表 - 从管理中心Microsoft 365 Office 365查看Microsoft 365报表 - Microsoft Teams[活动](/microsoft-365/admin/activity-reports/microsoft-teams-user-activity)。 您也可以使用组织内部其他系统的信息。
+- [Microsoft 365管理中心中的](/microsoft-365/admin/activity-reports/activity-reports)报表 - 从管理Microsoft 365 Office 365查看Microsoft 365[报表 -](/microsoft-365/admin/activity-reports/microsoft-teams-user-activity)Microsoft Teams活动。 您也可以使用组织内部其他系统的信息。
 - 服务满意度 - 从内部社区论坛和特定体验调查收集
 
 ![表示下一步骤的图标。](media/teams-adoption-next-icon.png) 下一 [步：提高认知度并实施培训](teams-adoption-drive-awareness.md)

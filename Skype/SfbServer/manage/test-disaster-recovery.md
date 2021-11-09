@@ -2,7 +2,7 @@
 title: Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -10,13 +10,13 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-description: 对 Skype for Business Server 服务器执行系统恢复，以测试记录灾难恢复过程
-ms.openlocfilehash: 94d4d4d1a832db3bb72a844818675dba04c214b9
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 对池服务器执行Skype for Business Server恢复，以测试记录灾难恢复过程
+ms.openlocfilehash: 2d6fa097061b470814887f1e13eaf4748de6e4f3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60743448"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863499"
 ---
 # <a name="disaster-recovery-testing-in-skype-for-business-server"></a>Skype for Business Server
 
@@ -34,7 +34,7 @@ ms.locfileid: "60743448"
 
 备份生产数据：
 
-- 使用标准备份过程将数据库转储到文件或磁带转储SQL Server备份 RTC 和 LCSLog 数据库。
+- 使用标准的备份过程备份 RTC 和 LCSLog 数据库SQL Server将数据库转储到文件或磁带转储设备。
 - 使用第三方备份应用程序将数据备份到文件或磁带。
 - 使用 Export-CsUserData cmdlet 创建整个 RTC 数据库的 XML 导出。
 - 使用文件系统备份或第三方备份来备份会议内容和合规性日志。
@@ -42,7 +42,7 @@ ms.locfileid: "60743448"
 
 故障转移过程中的第一步包括强制将用户从生产池移动到灾难恢复池。 这是强制移动，因为生产池将不能接受用户重定位。
 
-除了Skype for Business Server RTC 数据库上的记录更新之外，移动用户过程实际上是对用户帐户对象上的属性SQL更改。 可以使用标准 SQL Server 还原过程，或者使用第三方备份/还原实用工具，从生产环境中从SQL Server备份转储设备还原此数据。
+除了Skype for Business Server RTC 数据库上的记录更新之外，移动用户过程实际上是对用户帐户对象上的SQL更改。 可以使用标准 SQL Server 还原过程，或者使用第三方备份/还原实用工具，从生产环境中从SQL Server备份转储设备还原此数据。
 
 还原此数据后，用户可以有效地连接到灾难恢复池，并像往常一样运行。 若要使用户能够连接到灾难恢复池，需要更改 DNS 记录。
 
@@ -53,7 +53,7 @@ ms.locfileid: "60743448"
 
 为了便于进行故障转移，必须更新此 CNAME 记录以引用 DROCSPool FQDN：
 
-- CNAME：SIP。<domain> /DROCSPool。\<domain>
+- CNAME：SIP。\<domain> /DROCSPool。\<domain>
 - Sip。\<domain>
 - AV。\<domain>
 - webconf。\<domain>

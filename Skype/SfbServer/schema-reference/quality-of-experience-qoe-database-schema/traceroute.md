@@ -2,7 +2,7 @@
 title: TraceRoute 表
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b9493cef-6ece-4f13-bf68-dbf132aab4f4
 description: TraceRoute 表包含来自呼叫的路由信息。 此表在 Microsoft Lync Server 2013 中引入。
-ms.openlocfilehash: 9b06b312abf00bcec5726741cfc7d5dc8eeb4520
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8a4ca952bb2b6ced61f4b1aae6745a5e1b68d417
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60756113"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840914"
 ---
 # <a name="traceroute-table"></a>TraceRoute 表
  

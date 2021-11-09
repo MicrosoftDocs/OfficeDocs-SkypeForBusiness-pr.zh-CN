@@ -2,7 +2,7 @@
 title: SessionDetails 表
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -12,13 +12,13 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 783d2508-e31f-4b54-be0c-63aa5ec21c04
-description: 每条记录表示一个点对点会话，它可以是 VoIP-VoIP 电话呼叫、双方 IM 会话或其他类型的会话。 你可以对 Media 表执行表加入，以查找此会话中涉及的每个媒体的详细信息。
-ms.openlocfilehash: 2dee827e93da94378e529964b2911ff1f79793ef
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 每条记录表示一个点对点会话，它可以是 VoIP-VoIP 电话呼叫、双方 IM 会话或其他类型的会话。 你可以对 Media 表执行表联接，以查找此会话中涉及的每个媒体的详细信息。
+ms.openlocfilehash: e7b89dc242fb3e4adec215948915218b579631ef
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60762020"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863429"
 ---
 # <a name="sessiondetails-table"></a>SessionDetails 表
  
@@ -63,7 +63,7 @@ ms.locfileid: "60762020"
 |**User2Flag** <br/> |smallint  <br/> ||指示 User2 属性的位集。列出了以下属性定义：  <br/> 0x01 - 与桌面电话集成  <br/> |
 |**CallFlag** <br/> |smallint  <br/> ||指示呼叫属性的位集。列出了以下属性定义：  <br/> 0x01 - 重试会话  <br/> 0x02 - 代表响应组的代理进行的呼叫  <br/> |
 |**已处理** <br/> |bit  <br/> ||供监控服务内部使用。  <br/> 此字段在 Microsoft Lync Server 2013 中引入。  <br/> |
-|**LastModifiedTime** <br/> |Datetime  <br/> ||供监控服务内部使用。  <br/> 此字段在 2015 年 Skype for Business Server引入。  <br/> |
+|**LastModifiedTime** <br/> |Datetime  <br/> ||供监控服务内部使用。  <br/> 此字段是在 2015 年 Skype for Business Server引入的。  <br/> |
    
 \* 对于大多数会话，SessionIdSeq 的值为 1。 如果多个会话完全同时启动，则一个会话的 SessionIdSeq 将为 1，另一个会话的 SessionIdSeq 将为 2，依此类推。
   

@@ -2,7 +2,7 @@
 title: 持久聊天计算机扩展器
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 15bc1c8f-71bd-4d66-bba1-cac0f2fe90bf
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您可以使用计算机状态设置中列出的服务器或池激活或停用部署的持久聊天服务器或持久聊天服务器池。 在列表中选择一个服务器或池，并单击“变为活动状态”按钮可将服务器或池设为活动状态。
-ms.openlocfilehash: fb47b572aae7859071edae4c6c38a905c6a9e1ab
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 140d7fa534451d2755a02584f50eb31564d22d26
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60764320"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831146"
 ---
 # <a name="persistent-chat-machines-expander"></a>持久聊天计算机扩展器
 

@@ -2,7 +2,7 @@
 title: 视频互操作服务器 - 范围节点
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,24 +15,24 @@ ms.localizationpriority: medium
 ms.assetid: 8c01299a-e832-45a1-8fd9-af432f36a8d4
 ROBOTS: NOINDEX, NOFOLLOW
 description: 在拓扑生成器中定义新的 VIS 或视频网关所需的步骤联机描述在拓扑生成器Skype for Business Server。
-ms.openlocfilehash: f5b2289b8077cc01c4fb804626a2411a040d5e90
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4ba1335b4c36fe34d7a18b48625dc1f83e923e63
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60744918"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60832457"
 ---
 # <a name="video-interop-server---scope-the-node"></a>视频互操作服务器 - 范围节点
  
 在拓扑生成器中定义新的 VIS 或视频网关所需的步骤联机描述在拓扑生成器[Skype for Business Server。](../../../deploy/deploy-video-interop-server/create-a-vis-pool.md)
   
-联机部署 VIS 服务器角色中联机介绍了使用 Windows PowerShell 在服务器上分配视频互操作[服务器角色Skype for Business Server](../../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)
+使用角色分配视频互操作服务器角色所需的步骤Windows PowerShell部署[VIS 服务器角色中的联机Skype for Business Server](../../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)
   
-有关使用新视频互操作服务器的配置步骤Windows PowerShell在配置视频互[操作服务器中联机Skype for Business Server。](../../../deploy/deploy-video-interop-server/configure-the-vis.md)
+有关使用新视频互操作服务器的配置步骤Windows PowerShell在配置视频互操作服务器中联机[Skype for Business Server。](../../../deploy/deploy-video-interop-server/configure-the-vis.md)
   
- Configure [CUCM for Interoperation with Skype for Business Server](../../../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md)中联机介绍了需要在 Cisco GUI 中设置用于与 VIS 互操作的视频网关Skype for Business Server。
+ 在 Configure [CUCM for Interoperation with Skype for Business Server](../../../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md)中联机介绍了需要在 Cisco GUI 中设置用于与 VIS 互操作的视频网关的设置。
   
- 需要在 Cisco GUI 中设置以与视频网关和 VIS 进行互操作所需的 VTC 设置将在 Configure [a VTC for Interoperation with Skype for Business Server 中在线介绍](../../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md)。
+ 在 Configure [a VTC for Interoperation with Skype for Business Server](../../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md)中联机描述了需要在 Cisco GUI 中设置的用于与视频网关和 VIS 互操作 VTC 的设置。
   
 ## <a name="see-also"></a>另请参阅
 

@@ -2,7 +2,7 @@
 title: 启用用户体验质量Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,13 +11,13 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: c8bb3c67-b324-4d94-8158-00c792c7ac42
-description: 摘要：了解如何在 (中) QoE Skype for Business Server。
-ms.openlocfilehash: aa1f755dbc19da959f54f6af882bff2049363d6f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 摘要：了解如何在 Skype for Business Server 中 (QoE) 用户体验质量Skype for Business Server。
+ms.openlocfilehash: 89c6a41a356355ea5ac717a10e2848aa16d94249
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767700"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863569"
 ---
 # <a name="enable-quality-of-experience-in-skype-for-business-server"></a>启用用户体验质量Skype for Business Server
 
@@ -42,7 +42,7 @@ ms.locfileid: "60767700"
 
 ## <a name="enabling-qoe-by-using-windows-powershell-cmdlets"></a>使用 Cmdlet 启用 qoE Windows PowerShell Cmdlet
 
-可以使用 Windows PowerShell **Set-CsQoEConfiguration** cmdlet 启用 QoE。 可以从命令行管理程序或 Skype for Business Server远程会话中运行此 cmdlet Windows PowerShell。 有关使用远程 powerShell Windows PowerShell连接到Skype for Business Server的详细信息，请参阅 Microsoft Lync [Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 此过程在 Skype for Business Server 中Skype for Business Server。
+可以使用 Windows PowerShell **Set-CsQoEConfiguration** cmdlet 启用 QoE。 可以从命令行管理程序或 Skype for Business Server远程会话中运行此 cmdlet Windows PowerShell。 有关使用远程 powerShell Windows PowerShell连接到Skype for Business Server的详细信息，请参阅 Microsoft Lync [Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 此过程在Skype for Business Server。
 
 ### <a name="to-enable-qoe-for-a-single-location"></a>对单个位置启用 QoE
 

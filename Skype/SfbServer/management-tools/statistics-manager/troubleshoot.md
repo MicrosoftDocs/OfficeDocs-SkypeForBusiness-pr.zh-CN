@@ -2,7 +2,7 @@
 title: 对 Skype for Business Server 的统计信息管理器进行故障排除
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 946189fa-521f-455c-9762-904e7e41b791
 description: 摘要：阅读本主题，解决统计信息管理器部署问题Skype for Business Server。
-ms.openlocfilehash: 3f3bade7c7696e7361b63dc2f539534b6072d34a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6e6edefe8d6070a917f817b3b6d79bf35ff36599
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777302"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857339"
 ---
 # <a name="troubleshoot-statistics-manager-for-skype-for-business-server"></a>对 Skype for Business Server 的统计信息管理器进行故障排除
  
@@ -62,11 +62,11 @@ ms.locfileid: "60777302"
     
     1. 确保侦听器服务在侦听器计算机上运行。 如果不是，请确保 Redis 正在该服务器上运行，然后重新启动侦听器服务。
         
-        检查侦听器计算机上统计信息管理器事件日志，以确保统计信息管理器侦听器服务本身没有问题。
+        检查侦听器计算机上统计信息管理器事件日志以确保统计信息管理器侦听器服务本身没有问题。
         
     2. 使用 telnet 等连接工具验证从代理计算机到正确端口上的侦听器的连接。
         
-        如果没有，请确保在侦听器计算机上为侦听器计算机连接到专用/公共/域或域 (类型的网络类型启用传入防火墙) 。 如果侦听器计算机未加入域，则网络可能列为公共网络，在这种情况下，随统计信息管理器一起安装的防火墙规则在默认情况下不适用。
+        如果未启用，请确保在侦听器计算机上为侦听器计算机连接到专用/公共/域 (类型的网络类型启用传入防火墙) 。 如果侦听器计算机未加入域，则网络可能列为公共网络，在这种情况下，随统计信息管理器一起安装的防火墙规则在默认情况下不适用。
     
 - **4000** - 无法从侦听器下载服务器信息 (未知原因) 
     
@@ -76,7 +76,7 @@ ms.locfileid: "60777302"
     
   - 确保按照导入拓扑的说明进行操作。 请参阅 [导入拓扑](deploy.md#BKMK_ImportTopology)。 
     
-  - 如果代理位于拓扑 (未列出的服务器上，例如 SQL AlwaysOn 群集) 中的节点，则需要按照导入拓扑中的说明手动添加[代理](deploy.md#BKMK_ImportTopology)。
+  - 如果代理位于拓扑中未列出的服务器上 (例如 SQL AlwaysOn 群集) 中的节点，则需要按照导入拓扑中的说明手动添加[代理](deploy.md#BKMK_ImportTopology)。
     
   - **4002** — 侦听器密码无效
     
@@ -105,7 +105,7 @@ ms.locfileid: "60777302"
     
   - **10001** — 配置问题
     
-    通常，当 [listener_install_location]\PerfAgentListener.exe.config文件已手动修改且无法由应用程序读取时，将会发生这种情况。
+    通常，当 [listener_install_location]\PerfAgentListener.exe.config文件已手动修改并且无法由应用程序读取时，将会发生这种情况。
     
   - **10002** — HTTP 侦听器初始化错误
     

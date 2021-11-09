@@ -1,7 +1,7 @@
 ---
 title: 什么是转网订单？
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
@@ -17,13 +17,13 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.porting.overview
 - Calling Plans
-description: 大致了解什么是转单，以及如何将电话号码从服务提供商转移到Teams。
-ms.openlocfilehash: 936c915a79f7271ba85830122e374840f1a7050b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 大致了解什么是转口订单以及如何将电话号码从服务提供商转移到Teams。
+ms.openlocfilehash: a6ff4bffe4602eca7150a9f6c8c1b69782646e7c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740238"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833026"
 ---
 # <a name="whats-a-port-order"></a>什么是转网订单？
 
@@ -76,7 +76,7 @@ ms.locfileid: "60740238"
 
 - 专用于收发传真的电话号码。
 
-    如果您有用于传真的现有专用电话号码，您可以将这些号码转移到 Teams但是您的传真服务不会继续正常工作。 传真服务不可用于客户Teams，即使你拥有 电话系统、国内呼叫计划或国际呼叫计划的许可证。
+    如果有用于传真的现有专用电话号码，可以将这些号码转移到Teams但传真服务无法继续正常工作。 传真服务不可用于客户Teams，即使你拥有 电话系统、国内呼叫计划或国际呼叫计划的许可证。
 
     如果将电话号码移植到Teams，可以将此电话号码分配给贵组织的用户，而不是将其用于传真。
 
@@ -91,7 +91,7 @@ ms.locfileid: "60740238"
 
 将电话号码转Teams，可以选择转移所有号码或部分号码。
   
-- **完整端口** 此时，将当前服务提供商的所有号码转移到Teams。 当系统询问你要转移的电话号码时，你必须包括帐单电话号码 ( BTN) 以及你的帐户上所有其他电话号码。
+- **完整端口** 此时，你将所有号码从当前服务提供商转移到Teams。 当系统询问你要转移的电话号码时，你必须包括帐单电话号码 ( BTN) 以及你的帐户上所有其他电话号码。
 
     例如，假设 BTN 为  *+1 425-555-1234，*  并且想要将 25 个电话号码全部移植到 (*+1 425-555-1235 到 1259*) 。 按照下面的说明转网号码时，你应该输入： **+14255551234 - +14255551259** 。
 

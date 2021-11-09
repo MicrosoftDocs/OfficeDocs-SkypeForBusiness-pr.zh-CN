@@ -2,7 +2,7 @@
 title: 用于基础结构的公钥Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 737c8a25-23e9-4494-ab76-5a7b729b44ca
 description: Skype for Business Server证书进行服务器身份验证，并在不同的服务器角色之间建立信任链。 Windows Server 2012 R2、Windows Server 2012、Windows Server 2008 R2 和 Windows Server 2008 公钥基础结构 (PKI) 提供了用于建立和验证此信任链的基础结构。
-ms.openlocfilehash: 8fda6b3781c32b681e088b22c624b490d9bbd84b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 61381840d6c82ce26f0b8e7e5210ebd37c3532c0
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763450"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840954"
 ---
 # <a name="public-key-infrastructure-for-skype-for-business-server"></a>用于基础结构的公钥Skype for Business Server
  

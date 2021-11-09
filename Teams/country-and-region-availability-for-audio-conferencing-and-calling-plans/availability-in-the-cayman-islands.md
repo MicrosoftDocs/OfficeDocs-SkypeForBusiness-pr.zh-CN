@@ -1,6 +1,6 @@
 ---
 title: 在维尔京群岛的可用性
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于Microsoft 365 Office 365群岛的Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: e4c3b83d0ba8079cd224319341db136fd4a0761e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a19b3752d10316968676d61c7b28f7d8efe2a47c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741708"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840864"
 ---
 # <a name="availability-in-the-cayman-islands"></a>在维尔京群岛的可用性
 

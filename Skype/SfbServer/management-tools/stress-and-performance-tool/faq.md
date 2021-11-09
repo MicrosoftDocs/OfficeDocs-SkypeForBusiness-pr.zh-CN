@@ -2,7 +2,7 @@
 title: Skype for Business Server 2015 压力和性能工具的常见问题解答
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 ms.date: 11/11/2015
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ce18db60-5f6b-423d-bc41-91e7c80fb7e3
 description: Skype for Business 2015 压力和性能工具常见问题 (FAQ) ，有助于找出受支持的工具配置、解决工具问题以及阐明在运行压力和性能工具时可能看到的行为。
-ms.openlocfilehash: 7a922293b4e8b938d6ed9c1d3f763a47b70a5c6c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: fb81d31711b027d58b8d5b97ecd6d14f32c0fa0f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771938"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857289"
 ---
 # <a name="faq-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Skype for Business Server 2015 压力和性能工具的常见问题解答
  
@@ -43,7 +43,7 @@ Skype for Business 2015 压力和性能工具常见问题 (FAQ) ，有助于找�
 
 不应这样做。 不支持此方案，因为它可能由于二进制不匹配而失败，还因为目标是测量服务器上资源消耗。 实际运行该工具会影响服务器性能，并且会使数据和度量失效。
   
-## <a name="can-i-run-lyncperftoolexe-on-a-virtual-server-or-on-microsoft-hyper-v-server-20082012"></a>能否在虚拟LyncPerfTool.exe或 Microsoft Hyper-V Server 2008/2012 中运行该服务器？
+## <a name="can-i-run-lyncperftoolexe-on-a-virtual-server-or-on-microsoft-hyper-v-server-20082012"></a>我能否在虚拟LyncPerfTool.exe或 Microsoft Hyper-V Server 2008/2012 上运行应用程序？
 
 可以。
   

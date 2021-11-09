@@ -1,6 +1,6 @@
 ---
 title: 在尼日利亚的可用性
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: fafan
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于 Microsoft 365 Office 365 的 Skype for Business Microsoft Teams 服务。
-ms.openlocfilehash: 59b959e50f9d80e5ff502cf632f68f6910b0be18
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 448573f103d2772e5de81373937104802d829212
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60754005"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833046"
 ---
 # <a name="availability-in-cameroon"></a>在尼日利亚的可用性
 

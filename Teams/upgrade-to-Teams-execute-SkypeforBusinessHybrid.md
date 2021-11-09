@@ -1,6 +1,6 @@
 ---
 title: 将Skype for Business混合部署升级到 Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 24dc9deedc23456efcd1dc646ba05bff6ef818d8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ef173755673cf22ece6c3f8325b2d0392092c1eb
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777142"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840654"
 ---
 # <a name="upgrade-from-a-skype-for-business-hybrid-deployment-to-teams"></a>从混合Skype for Business升级到 Teams
 
@@ -41,7 +41,7 @@ ms.locfileid: "60777142"
 - [为组织做好准备](./upgrade-prepare-organization.md)
 - [开展试点](./pilot-essentials.md)
 
-如果已在本地部署 Skype for Business 或 Microsoft Lync，并且已将其配置为与 Microsoft 365 或 Office 365 组织的混合部署中，并且您的组织希望选择性地升级到 Teams，或者使用多个共存模式或全部共存模式，请按照本文中的指导操作。 对于任一升级过程，需要将用户移动到 Skype for Business Online (（如果他们还没有联机) 然后为其分配适当的共存和升级模式。
+如果已在本地部署 Skype for Business 或 Microsoft Lync，并且已将其配置为与 Microsoft 365 或 Office 365 组织的混合部署中，并且您的组织希望选择性地升级到 Teams，或者使用多个共存模式，或者全部升级，请按照本文中的指导操作。 对于任一升级过程，需要将用户移动到 Skype for Business Online (（如果他们还没有联机) 然后为其分配适当的共存和升级模式。
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]

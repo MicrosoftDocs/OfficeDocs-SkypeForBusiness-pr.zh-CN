@@ -2,7 +2,7 @@
 title: MediaLine 表
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 414b1d63-ae97-4c27-bac0-c9ad0f808ff0
 description: 每条记录代表一个媒体行。  (一个音频会话通常包含一个音频媒体行。 A/V) 会话的一个音频和视频) 通常包含一个音频媒体行和一个视频媒体行，但如果使用会议设备或库视图，则会话可能包含两个视频媒体行。 (
-ms.openlocfilehash: ae2d776b47f7fe0ef172c9904ea77ae6188535fc
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4d832990b92bd0f398c613f2daeec91fc89f5f52
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60754281"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857159"
 ---
 # <a name="medialine-table"></a>MediaLine 表
  
@@ -70,14 +70,14 @@ ms.locfileid: "60754281"
 |**Caller** <br/> |bit  <br/> | <br/> |指示是否收到来自调用方的指标;1 是，空值是否。  <br/> |
 |**被叫方** <br/> |bit  <br/> | <br/> |指示是否收到来自呼叫接收器的指标;1 是，空值是否。  <br/> |
 |**MidCallReport** <br/> |bit  <br/> ||指示报告是针对会话的一部分还是针对整个会话。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
-|**ClassifiedPoorCall** <br/> |bit  <br/> ||指示通话被分类为质量欠佳 (值 1) 0 表示为 (0) 。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
+|**ClassifiedPoorCall** <br/> |bit  <br/> ||指示呼叫被分类为质量欠佳 (值 1) 或 0 (0) 。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
 |**CallerConnectivityICE** <br/> |tinyInt  <br/> ||指示呼叫者是否使用 ICE 协议（Internet 连接建立）连接至网络。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
 |**CalleeConnectivityICE** <br/> |tinyint  <br/> ||指示呼叫者是否使用 ICE 协议（Internet 连接建立）连接至网络。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
-|**CallerReipiveLocalIPAddr** <br/> |int  <br/> |Foreign  <br/> |拨打呼叫的用户的灵活 IP 地址。 在使用 NAT (网络地址) 的组织中，响应性 IP 地址是代理服务器的 IP 地址。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
+|**CallerReipiveLocalIPAddr** <br/> |int  <br/> |Foreign  <br/> |拨打呼叫的用户的灵活 IP 地址。 在使用 NAT (网络地址转换) ，响应性 IP 地址是代理服务器的 IP 地址。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
 |**CallerWiFiDriverDevicesDesc** <br/> |int  <br/> |Foreign  <br/> |拨打呼叫的用户所使用 WiFi 驱动程序的设备说明。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
 |**CallerWiFiDriverVersion** <br/> |int  <br/> |Foreign  <br/> |拨打呼叫的用户所使用 WiFi 驱动程序的版本号。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
-|**CalleReipiveLocalIPAddr** <br/> |int  <br/> |Foreign  <br/> |收到呼叫的用户的可响应 IP 地址。 在使用 NAT (网络地址) 的组织中，响应性 IP 地址是代理服务器的 IP 地址。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
+|**CalleReipiveLocalIPAddr** <br/> |int  <br/> |Foreign  <br/> |收到呼叫的用户的可响应 IP 地址。 在使用 NAT (网络地址转换) ，响应性 IP 地址是代理服务器的 IP 地址。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
 |**CalleeWiFiDriverDevicesDesc** <br/> |int  <br/> |Foreign  <br/> |接收呼叫的用户所使用 WiFi 驱动程序的设备说明。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
-|**CalleeWiFiDriverVersion** <br/> |int  <br/> |Foreign  <br/> |收到呼叫的用户所使用 WiFi 驱动程序的版本号。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
+|**CalleeWiFiDriverVersion** <br/> |int  <br/> |Foreign  <br/> |接收呼叫的用户所使用 WiFi 驱动程序的版本号。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
    
 

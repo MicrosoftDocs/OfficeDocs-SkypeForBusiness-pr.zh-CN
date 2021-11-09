@@ -6,7 +6,7 @@ ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204872(v=OCS.15)
 ms:contentKeyID: 48184074
 mtps_version: v=OCS.15
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 本文介绍如何为会议、应用程序和中介服务器配置端口范围和服务质量策略。
-ms.openlocfilehash: 6785756af5c79eb27d2b4e15b86155d1d58bbc88
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9dfa3e7ccb5b69cd112911f700528cc6fc484d89
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760720"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856659"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-conferencing-application-and-mediation-servers"></a>为会议、应用程序和中介服务器配置端口范围和服务质量策略
 
@@ -32,7 +32,7 @@ ms.locfileid: "60760720"
 
 同样，假定您为视频保留了端口 10000 至 10999，但之后为音频保留了端口 10500 至 11999。 这会产生服务质量问题，因为端口范围重叠。 对于 QoS，每种形式必须具有一组唯一的端口：如果将端口 10000 至 10999 用于视频，则必须对音频) 使用不同的范围 (例如，11000 到 11999。
 
-默认情况下，音频和视频端口范围不会在Skype for Business Server;但是，分配给应用程序共享的端口范围与音频和视频端口范围重叠。  (反过来，这意味着这些范围都不是唯一的。) 可以通过从 Skype for Business Server 命令行管理程序中运行以下三个命令来验证会议、应用程序和中介服务器的现有端口范围：
+默认情况下，音频和视频端口范围不会在Skype for Business Server;但是，分配给应用程序共享的端口范围与音频和视频端口范围重叠。  (反过来，这意味着这些范围都不是唯一的。) 您可以通过从 Skype for Business Server 命令行管理程序中运行以下三个命令来验证会议、应用程序和中介服务器的现有端口范围：
 
   Get-CsService -ConferencingServer |Select-Object Identity、AudioPortStart、AudioPortCount、VideoPortStart、VideoPortCount、AppSharingPortStart、AppSharingPortCount
     
@@ -96,7 +96,7 @@ ms.locfileid: "60760720"
 </tbody>
 </table>
 
-如前所述，为 QoS Skype for Business Server端口时，应确保：1) 会议、应用程序和中介服务器中的音频端口设置相同;和 2) 端口范围不重叠。 如果您仔细查看上表，您将发现这三种服务器类型中的端口范围相同。 例如，起始音频端口在每个服务器类型上设置为端口 49152，并且每个服务器中为音频保留的总端口数也相同：8348。 但是，端口范围重叠：音频端口从端口 49152 开始，但为应用程序共享留出的端口也重叠。 为了充分利用服务质量，应重新配置应用程序共享以使用唯一的端口范围。 例如，可以将应用程序共享配置为从端口 40803 开始并使用 8348 端口。  (为什么使用 8348 端口？ 如果将这些值一起添加 -- 40803 + 8348 ， 这意味着应用程序共享将使用端口 40803 到端口 49150。 由于音频端口直到端口 49152 才会开始，因此您将不再具有任何重叠的端口范围。) 
+如前所述，为 QoS Skype for Business Server端口时，应确保：1) 音频端口设置在会议、应用程序和中介服务器中相同;和 2) 端口范围不重叠。 如果您仔细查看上表，您将发现这三种服务器类型中的端口范围相同。 例如，起始音频端口在每个服务器类型上设置为端口 49152，并且每个服务器中为音频保留的总端口数也相同：8348。 但是，端口范围重叠：音频端口从端口 49152 开始，但为应用程序共享留出的端口也重叠。 为了充分利用服务质量，应重新配置应用程序共享以使用唯一的端口范围。 例如，可以将应用程序共享配置为从端口 40803 开始并使用 8348 端口。  (为什么使用 8348 端口？ 如果将这些值一起添加 -- 40803 + 8348 ， 这意味着应用程序共享将使用端口 40803 到端口 49150。 由于音频端口直到端口 49152 才会开始，因此您将不再具有任何重叠的端口范围。) 
 
 选择应用程序共享的新端口范围后，可以使用 Set-CsConferencingServer cmdlet 进行更改。 此更改无需在应用程序服务器或中介服务器上进行，因为这些服务器不会处理应用程序共享流量。 如果您决定重新分配用于音频通信的端口，则只需更改这些服务器上的端口值。
 
@@ -112,11 +112,11 @@ ms.locfileid: "60760720"
 
 会议服务器、应用程序服务器和中介服务器不必共享完全相同的端口范围；您唯一必须做的是在所有服务器上留出唯一的端口范围。但是，如果您在所有服务器上使用相同的端口集，则管理一般会更加轻松。
 
-## <a name="configure-a-quality-of-service-policy-in-skype-for-business-server-for-your-conferencing-application-and-mediation-servers"></a>在 Skype for Business Server 中为会议、应用程序和中介服务器配置服务质量策略
+## <a name="configure-a-quality-of-service-policy-in-skype-for-business-server-for-your-conferencing-application-and-mediation-servers"></a>在会议、应用程序和中介Skype for Business Server配置服务质量策略
 
 配置端口范围通过确保指定类型的所有流量（例如，所有音频流量）通过同一组端口进行传输来方便服务质量的使用。这使系统标识和标记给定数据包变得容易：如果端口 49152 是为音频通信保留的，则通过端口 49152 的所有数据包均可使用 DSCP 代码进行标记，以指示这是一个音频数据包。反过来，这使路由器能将此数据包标识为一个音频数据包，并为其提供比未标记数据包更高的优先级（如用于将文件从一台服务器复制到另一台服务器的数据包）。
 
-但是，简单地将一组端口限制为特定类型的流量不会产生通过那些使用适当的 DSCP 代码标记的端口的数据包。 除了定义端口范围之外，还必须创建指定要与每个端口范围关联的 DSCP 代码的服务质量策略。 例如Skype for Business Server，这通常意味着创建两个策略：一个策略用于音频，另一个策略用于视频。
+但是，简单地将一组端口限制为特定类型的流量不会产生通过那些使用适当的 DSCP 代码标记的端口的数据包。 除了定义端口范围之外，还必须创建指定要与每个端口范围关联的 DSCP 代码的服务质量策略。 例如Skype for Business Server，这通常意味着创建两个策略：一个策略用于音频，一个策略用于视频。
 
 通过使用组策略，可轻松创建和管理服务质量策略。 （还可使用本地安全策略创建这些相同的策略。 但是，这要求您在每台计算机上重复相同的过程。) 初始 QoS 策略集 (一组用于音频，一组用于视频) 应仅应用于运行会议服务器、应用程序服务器和/或中介服务器服务的 Skype for Business Server 计算机。 如果所有这些计算机都位于同一个 Active Directory OU 中，则只需向该 OU 分配新的组策略 (GPO) 组策略对象。 或者，您也可以执行其他步骤将新策略定向到指定计算机；例如，您可将相应计算机放在某个安全组中，然后使用组策略安全筛选将 GPO 应用于该安全组。
 
@@ -145,9 +145,9 @@ ms.locfileid: "60760720"
 > [!NOTE]  
 > DSCP 值“46”有一定程度任意性：虽然 DSCP 46 通常用于标记音频数据包，但您不一定要使用 DSCP 46 进行音频通信。 如果已实施 QoS，并且对音频 (（例如 DSCP 40) ）使用不同的 DSCP 代码，则应该将服务质量策略配置为使用相同的代码 (即 40 用于音频) 。 如果正在实现服务质量，则建议对音频使用 DSCP 46，这只是因为此值常用于标记音频数据包。
 
-为音频流量创建 QoS 策略后，应为视频流量创建第二个策略 (（可选）第三个策略来管理应用程序共享流量) 。 要为视频创建策略，请按照您创建音频策略时遵循的相同基本过程，进行下列替换项：
+为音频流量创建 QoS 策略后，应为视频流量创建第二个策略 (（可选）第三个策略，用于管理应用程序共享流量) 。 要为视频创建策略，请按照您创建音频策略时遵循的相同基本过程，进行下列替换项：
 
-  - 使用不同的策略 (和) 策略 (，例如Skype for Business Server **视频**) 。
+  - 使用不同的策略 (和唯) 策略 (例如，Skype for Business Server **视频**) 。
 
   - 将 DSCP 值设置为“34”而不是 46。（注意，不一定要使用 DSCP 值 34。唯一的要求是对视频使用与用于音频的 DSCP 值不同的 DSCP 值。）
 

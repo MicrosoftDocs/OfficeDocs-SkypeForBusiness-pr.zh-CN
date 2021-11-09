@@ -2,7 +2,7 @@
 title: 管理会议服务器配置设置Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,13 +11,13 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 36bed690-6e22-4e11-88c1-b40a20836c6a
-description: 摘要：了解如何在 Skype for Business Server 中管理会议服务器配置Skype for Business Server。
-ms.openlocfilehash: 14fed927e18d291cf17a5c00ee82dac7ef80a6d1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: Summary： Learn how to manage conferencing server configuration settings in Skype for Business Server.
+ms.openlocfilehash: 9e0b6cbd83ebebcb2f66d178ee8c69d42702a249
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773702"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60841254"
 ---
 # <a name="manage-conferencing-server-configuration-settings-in-skype-for-business-server"></a>管理会议服务器配置设置Skype for Business Server
  
@@ -27,7 +27,7 @@ ms.locfileid: "60773702"
   
 会议配置设置可确定诸如会议内容和讲义允许的最大大小等内容;应用程序共享会议服务的最大带宽量;存储限制和过期期限;支持客户端的内部和外部下载的 URL;指向用户可获取会议帮助和资源的内部 URL 和外部 URL 的指针;以及用于应用程序共享、客户端音频、文件传输和媒体流量的端口。 这些设置允许您管理实际服务器本身。 这些设置可以使用命令行管理程序Skype for Business Server设置。
   
-在安装Skype for Business Server时，系统会为您提供一个会议配置设置集合， (全局集合) 。 如果您需要为站点或服务创建自定义设置，则可以使用 **New-CsConferencingConfiguration** cmdlet 来完成。 请注意，新设置只能在站点范围或服务范围应用;您无法创建新的会议配置设置的全局集合，但可以使用 **Set-CsConferencingConfiguration** cmdlet 修改全局集合。 此外，任何站点或服务都不得承载多个设置集合。 如果尝试为 Redmond 站点创建新设置，并且 Redmond 站点已经托管了一组会议配置设置，则命令将失败。
+安装Skype for Business Server时，系统会在全局集合集中为您提供一个会议 (设置) 。 如果您需要为站点或服务创建自定义设置，则可以使用 **New-CsConferencingConfiguration** cmdlet 来完成。 请注意，新设置只能在站点范围或服务范围应用;您无法创建新的会议配置设置的全局集合，但可以使用 **Set-CsConferencingConfiguration** cmdlet 修改全局集合。 此外，任何站点和服务都不得承载多个设置集合。 如果尝试为 Redmond 站点创建新设置，并且 Redmond 站点已经托管了一组会议配置设置，则命令将失败。
   
 ## <a name="manage-conferencing-configuration-settings-by-using-skype-for-business-server-management-shell"></a>使用命令行管理程序管理Skype for Business Server配置设置
 
@@ -64,4 +64,4 @@ $x.Organization = "Litwareinc"
 Set-CsConferencingConfiguration -Instance $x
 ```
 
-如果不调用 **Set-CsConferencingConfiguration** cmdlet，则新设置永远不会生效。 相反，一旦结束会话或删除Windows PowerShell，它们就会$x。
+如果不调用 **Set-CsConferencingConfiguration** cmdlet，则新设置永远不会生效。 相反，一旦结束会话或删除 Windows PowerShell，它们就会$x。

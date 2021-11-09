@@ -2,7 +2,7 @@
 title: 视频互操作服务器下一个跃点设置
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 5a161404-b294-47fa-ad62-0e12bffcd8e4
 ROBOTS: NOINDEX, NOFOLLOW
 description: 在拓扑生成器中定义新的 VIS 或视频网关所需的步骤联机描述在拓扑生成器Skype for Business Server。
-ms.openlocfilehash: f28ba25aae3d7db39a499ad84fff9c4c65366566
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 66581f6042622b56e84eae78a741b794dd320a82
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60772628"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60832476"
 ---
 # <a name="video-interop-server-next-hop-settings"></a>视频互操作服务器下一个跃点设置
  

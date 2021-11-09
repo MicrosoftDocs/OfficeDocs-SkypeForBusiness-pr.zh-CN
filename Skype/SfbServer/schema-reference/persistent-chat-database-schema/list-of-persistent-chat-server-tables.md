@@ -2,7 +2,7 @@
 title: 持久聊天服务器表列表
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 26c9e271-3516-4d90-b930-70fec4e359ea
 description: 持久聊天数据库架构由下表组成。
-ms.openlocfilehash: e0586776d13a9e958ba30a84e421e4cba92ba12c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 12ac90c909693678595d6ba53c5f834ac552e8a7
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763320"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848305"
 ---
 # <a name="list-of-persistent-chat-server-tables"></a>持久聊天服务器表列表
  
@@ -28,8 +28,8 @@ ms.locfileid: "60763320"
 
 |**Table**|**说明**|
 |:-----|:-----|
-|[tblADCookie](tbladcookie.md) <br/> |包含当前的轻型目录访问协议 (LDAP) 同步 Cookie。 每行对应于持久聊天服务器正在主动监视更改的 Active Directory 域服务域。  (此表中只表示与持久聊天服务器相关的 Active Directory 域)   <br/> |
-|[tblPrincipalMemberDifference](tblprincipalmemberdifference.md) <br/> |包含组成员身份更改 (包括添加和删除的成员) ，这些成员尚未由稍后的 Active Directory 同步步骤处理，并且是临时表 (以及 active Directory Sync 第一步中使用的 tblADUpdates 表) 之一。  <br/> 仅对 tblPrincipal 表中列出的组或该表中已列出其成员的组，存储和/或处理成员身份更改信息。  <br/> |
+|[tblADCookie](tbladcookie.md) <br/> |包含当前 LDAP 同步 cookie (轻型) 访问协议。 每行对应于持久聊天服务器正在主动监视更改的 Active Directory 域服务域。  (此表中只表示与持久聊天服务器相关的 Active Directory 域)   <br/> |
+|[tblPrincipalMemberDifference](tblprincipalmemberdifference.md) <br/> |包含组成员身份更改 (包括添加和删除的成员) ，这些成员尚未由稍后的 Active Directory 同步步骤处理，并且与 active Directory Sync 的第一步中使用的 tblADUpdates 表) 一起是临时表 (之一。  <br/> 仅对 tblPrincipal 表中列出的组或该表中已列出其成员的组，存储和/或处理成员身份更改信息。  <br/> |
 |[tblADUpdates](tbladupdates.md) <br/> |包含对 Active Directory 域服务所做的更改，这些更改尚未由稍后的 Active Directory 同步步骤处理，并且与 Active Directory 同步的第一步中使用的 tblPrincipalMemberDifference 表) 一起是临时表 (之一。  <br/> 对 Active Directory 的更改仅存储、处理或仅针对 tblPrincipal 表中已列出的主体。  <br/> |
 |[tblPrincipalMembers](tblprincipalmembers.md) <br/> |包含主体成员身份。  <br/> |
 |[tblPrincipalMeta](tblprincipalmeta.md) <br/> |包含必须从 Active Directory 中刷新的主体。  <br/> |
@@ -40,7 +40,7 @@ ms.locfileid: "60763320"
 |**Table**|**说明**|
 |:-----|:-----|
 |[tblPrincipalType](tblprincipaltype.md) <br/> |包含 tblPrincipal 表中的要分类的主体类型。该表是静态表。在数据库创建时建立，不能更改。  <br/> |
-|[tblPrincipal](tblprincipal.md) <br/> |包含所有主体（用户、文件夹、组等）。 持久聊天服务器将此操作作为平面异类列表处理。 各列均基于每个主体的类型。  <br/> 这些主体中的大多数是存储在 Active Directory 中的对象的缓存副本。 在这些 Active Directory 对象的 Principal 表中创建缓存副本称为设置。  <br/> 某些主体的创建方式比创建其他主体更积极，而某些 Active Directory 对象则完全被忽略。  <br/> |
+|[tblPrincipal](tblprincipal.md) <br/> |包含所有主体（用户、文件夹、组等）。 持久聊天服务器将此操作作为平面异类列表处理。 各列均基于每个主体的类型。  <br/> 这些主体中的大多数都是存储在 Active Directory 中的对象的缓存副本。 在这些 Active Directory 对象的 Principal 表中创建缓存副本称为设置。  <br/> 某些主体的创建方式比创建其他主体更积极，而某些 Active Directory 对象则完全被忽略。  <br/> |
 |[tblPrincipalAffiliations](tblprincipalaffiliations.md) <br/> |包含描述 Active Directory 安全组、Active Directory 容器等中的成员身份的主体附属关系。  <br/> |
 |[tblNode](tblnode.md) <br/> |包含在控制面板中管理的类别节点。  <br/> |
 |[tblRoleType](tblroletype.md) <br/> |包含角色类型及其相关的权限集。该查找表是静态表。  <br/> |

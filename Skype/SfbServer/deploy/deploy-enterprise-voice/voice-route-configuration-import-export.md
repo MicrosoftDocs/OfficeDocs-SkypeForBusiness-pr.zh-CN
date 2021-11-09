@@ -2,7 +2,7 @@
 title: 导出或导入语音路由配置文件Skype for Business
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 02ce922d-9ca8-4513-b09f-9de51f5c5bdc
 description: 摘要：了解如何使用"Skype for Business Server控制面板在 Skype for Business Server中导出或导入语音路由配置文件。
-ms.openlocfilehash: 7b3b0ae7e7fe49b645fd5a6ee6b6b4d9fcc1affd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: cb9f5acde66c006945c873b24f53f58d35d14ac2
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773222"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60832896"
 ---
 # <a name="export-or-import-a-voice-route-configuration-file-in-skype-for-business"></a>导出或导入语音路由配置文件Skype for Business
  
@@ -31,7 +31,7 @@ ms.locfileid: "60773222"
   
 导入语音路由配置文件 (.vcfg) ，但同时在服务器上对语音路由配置进行了更改时，Skype for Business Server 控制面板中的"语音路由"组的页面将指示语音路由有未提交的更改。  这些未提交的更改是两种需要调节的配置之间的差异。
   
-如果对组内任何页面上的设置进行了任何未提交的更改，这些更改将保存在导出的语音配置文件 (.vcfg) 。 这样，您可以在发布更改之前，在多个会话期间进行语音路由配置更改。 
+如果对组内任何页面上的设置进行了任何未提交的更改，更改将保存在导出的语音配置文件 (.vcfg) 。 这样，您可以在发布更改之前，在多个会话期间进行语音路由配置更改。 
   
 ### <a name="to-export-a-voice-routing-configuration"></a>导出语音路由配置
 
@@ -60,6 +60,6 @@ ms.locfileid: "60773222"
 6. 单击“提交”，然后单击“全部提交”。
     
     > [!NOTE]
-    > 任何时候导入语音配置文件，都必须运行“全部提交”命令以发布配置更改。 有关详细信息，请参阅操作[文档中的](voice-route-config-changes.md)Publish pending changes to the voice routing configuration in Skype for Business in the Operations documentation。
+    > 任何时候导入语音配置文件，都必须运行“全部提交”命令以发布配置更改。 有关详细信息，请参阅操作[文档中](voice-route-config-changes.md)的 Publish pending changes to the voice routing configuration in Skype for Business in the Operations documentation。
   
 

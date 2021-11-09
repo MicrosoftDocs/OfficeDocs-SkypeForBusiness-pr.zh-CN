@@ -2,7 +2,7 @@
 title: 将中介服务器与边缘关联
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 65c5d93c-9f0d-4a60-8bd1-d05eb6bc2088
 description: 要定义中介服务器，请指定将中介服务器与前端服务器和边缘服务器或池相关联的设置。要将中介服务器或池与边缘服务器或边缘服务器池相关联，请执行以下操作：
-ms.openlocfilehash: fe4745dc92369c47bdd1e1292bd0b4e6ddab2099
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: cde08420b929fcc4326c2c898338f08cff92fffa
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758324"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863749"
 ---
 # <a name="associate-mediation-server-with-edge"></a>将中介服务器与边缘关联
  

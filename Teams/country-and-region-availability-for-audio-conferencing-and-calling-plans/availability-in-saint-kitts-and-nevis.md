@@ -1,6 +1,6 @@
 ---
 title: 圣基茨和尼维斯的可用性
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是圣基Microsoft 365 Office 365圣基茨Skype for Business Microsoft Teams的一些服务和服务。
-ms.openlocfilehash: acb4b5f60248f1a881a8ecb2f392c20b4a389f08
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 下面是圣基Microsoft 365 Office 365圣基茨Skype for Business尼Microsoft Teams的一些服务和服务。
+ms.openlocfilehash: 0fd87457c253964d91d91af9d5d4cbb22c9a6d88
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745628"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840874"
 ---
 # <a name="availability-in-saint-kitts-and-nevis"></a>圣基茨和尼维斯的可用性
 
 [查找其他国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或详细了解可以在哪些国家/地区使用音频会议和通话套餐。
 
-以下是圣基Microsoft 365 Office 365圣基茨Skype for Business Microsoft Teams的一些服务和服务。
+下面是圣基Microsoft 365 Office 365圣基茨Skype for Business尼Microsoft Teams的一些服务和服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 

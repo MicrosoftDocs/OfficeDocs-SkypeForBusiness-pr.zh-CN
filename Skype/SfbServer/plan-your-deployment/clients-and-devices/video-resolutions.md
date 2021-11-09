@@ -2,7 +2,7 @@
 title: Skype for Business客户端视频分辨率
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/16/2018
 audience: ITPro
@@ -16,20 +16,20 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8f68f4c2-3194-487c-bd2f-fbe71ba8ad70
 description: 摘要：在规划客户端视频时查看Skype for Business Server。
-ms.openlocfilehash: 6a483a67b298f2d1ce9a32fbcd7e89882c0598aa
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 717813e9ed667bbd0d3d9d63e45ae3b9c45b4dcf
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745878"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856549"
 ---
 # <a name="skype-for-business-client-video-resolutions"></a>Skype for Business客户端视频分辨率
  
-**摘要：** 在规划客户端视频要求的同时，查看Skype for Business Server。
+**摘要：** 在规划客户端视频要求时查看Skype for Business Server。
   
-本文介绍对视频Skype for Business支持，并介绍如何确定各种计算机、平板电脑和移动设备配置的预期视频质量。 
+本文介绍视频硬件对视频Skype for Business支持，并介绍如何确定各种计算机、平板电脑和移动设备配置的预期视频质量。 
   
-IT 专业人员会发现此信息在评估其组织中已使用的或正在考虑使用的笔记本电脑的适用性方面非常有用。 他们还可以在 Microsoft Teams[设备上](https://www.microsoft.com/microsoft-teams/across-devices/device)搜索特定设备的信息。
+IT 专业人员会发现此信息在评估其组织中已使用的或正在考虑使用的笔记本电脑的适用性方面非常有用。 他们还可以在Microsoft Teams[设备上](https://www.microsoft.com/microsoft-teams/across-devices/device)搜索特定设备的信息。
   
 ## <a name="windows-desktop-mac-and-tablet-video-requirements-and-capabilities"></a>Windows桌面、Mac 和平板电脑视频要求和功能
 
@@ -103,7 +103,7 @@ Windows 系统评估工具 (WinSAT) 确定 WEI。在运行 WinSAT 工具时，�
   
 |**功能**|**Windows Phone**|**iPhone**|**iPad**|**Android**|
 |:-----|:-----|:-----|:-----|:-----|
-|H.264 编码最大分辨率  <br/> |VGA  <br/> |QVGA：iPhone 4S  <br/> VGA：iPhone 5  <br/> 720p：iPhone 5S 及更高版本  <br/> |VGA：iPad 2 及更高版本/iPad微型 1 及更高版本  <br/> 720p：iPad Air/iPad mini 2/iPad Pro 及更高版本  <br/> |最多 VGA 取决于设备型号  <br/> |
-|H.264 解码最大分辨率  <br/> |VGA  <br/> |QVGA：iPhone 4S  <br/> VGA：iPhone 5  <br/> 720p：iPhone 5S 及更高版本  <br/> |VGA：iPad 2 及更高版本/iPad微型 1 及更高版本  <br/> 720p：iPad Air/iPad mini 2/iPad Pro 及更高版本  <br/> |最多 VGA 取决于设备型号  <br/> |
+|H.264 编码最大分辨率  <br/> |VGA  <br/> |QVGA：iPhone 4S  <br/> VGA：iPhone 5  <br/> 720p：iPhone 5S 及更高版本  <br/> |VGA：iPad 2 和更高版本/iPad微型 1 及更高版本  <br/> 720p：iPad Air/iPad Mini 2/iPad Pro 及更高版本  <br/> |最多 VGA 取决于设备型号  <br/> |
+|H.264 解码最大分辨率  <br/> |VGA  <br/> |QVGA：iPhone 4S  <br/> VGA：iPhone 5  <br/> 720p：iPhone 5S 及更高版本  <br/> |VGA：iPad 2 和更高版本/iPad微型 1 及更高版本  <br/> 720p：iPad Air/iPad Mini 2/iPad Pro 及更高版本  <br/> |最多 VGA 取决于设备型号  <br/> |
    
 

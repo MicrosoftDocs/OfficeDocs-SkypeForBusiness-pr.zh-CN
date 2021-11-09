@@ -2,7 +2,7 @@
 title: 链接网络区域
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: '您可以配置两个网络区域之间的链接，以作为呼叫允许控制 (CAC) 的一部分。 '
-ms.openlocfilehash: d194daf8e35a3e4b6b23c1c34fc8b4d4c2fea14f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 718f9223749c86fdff5ce98d1d652a0a3f1a9fbc
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60746888"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60841174"
 ---
 # <a name="linking-network-regions-in-skype-for-business-server"></a>在 Skype for Business Server 中链接网络区域
 
@@ -44,7 +44,7 @@ ms.locfileid: "60746888"
 
 ### <a name="view-network-region-link-information-by-using-windows-powershell-cmdlets"></a>使用 cmdlet 查看网络区域Windows PowerShell信息
 
-可以使用 **Get-CsNetworkRegionLink** cmdlet 和 Windows PowerShell 查看网络区域链接。 还可从 Skype for Business Server Management Shell 或 Windows PowerShell 远程会话运行此 cmdlet。 
+可以使用 **Get-CsNetworkRegionLink** cmdlet 和 Windows PowerShell查看网络区域链接。 还可从 Skype for Business Server Management Shell 或 Windows PowerShell 远程会话运行此 cmdlet。 
 
 
 ### <a name="to-view-network-region-link-information"></a>查看网络区域链接信息
@@ -63,7 +63,7 @@ ms.locfileid: "60746888"
 
 ## <a name="configure-network-region-links"></a>配置网络区域链接 
 
-您可以配置两个网络区域之间的链接，以作为呼叫允许控制 (CAC) 的一部分。 网络内的区域通过物理广域网 (WAN) 连接进行链接。 可以使用"Skype for Business Server控制面板"定义两个网络区域之间的链接，并设置这些区域之间的音频和视频连接的带宽限制。
+您可以配置两个网络区域之间的链接，以作为呼叫允许控制 (CAC) 的一部分。 网络内的区域通过物理广域网 (WAN) 连接进行链接。 可以使用"Skype for Business Server控制面板"定义两个网络区域之间的链接，并设置这两个区域之间的音频和视频连接的带宽限制。
 
 ### <a name="to-create-a-network-region-link"></a>创建网络区域链接
 
@@ -78,7 +78,7 @@ ms.locfileid: "60746888"
 5.  在 **"新建区域链接**"中的"名称"字段中 **键入** 值。
  
     > [!NOTE]  
-    > 此值在部署中必须Skype for Business Server唯一。
+    > 此值在部署中必须Skype for Business Server。
 
 6.  从" **网络区域 \# 1"** 下拉列表中，选择要链接的两个区域之一。
 

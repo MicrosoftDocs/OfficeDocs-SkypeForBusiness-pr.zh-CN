@@ -2,7 +2,7 @@
 title: 安装数据库选项页
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 926c47a0-3957-4892-b61a-7a4b569552c3
-description: 配置用于将数据库和日志文件放置到数据库和日志文件的高级SQL Server。 可用的选项有：
-ms.openlocfilehash: 3bf2eaacd374234795806d3a3ff21ad1d38dc646
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 配置用于将数据库和日志文件放置到数据库中的高级SQL Server。 可用的选项有：
+ms.openlocfilehash: 15b5d0caa859a6622f5b91644fb18117a1b2f8c5
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777382"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857589"
 ---
 # <a name="install-database-options-page"></a>安装数据库选项页
 
-配置用于将数据库和日志文件放置到数据库和日志文件的高级SQL Server。 可用的选项有：
+配置用于将数据库和日志文件放置到数据库中的高级SQL Server。 可用的选项有：
 
 > [!IMPORTANT]
 > 选择最符合你与数据和策略相关的要求和策略的选项，日志文件你的SQL Server位置。

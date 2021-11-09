@@ -2,7 +2,7 @@
 title: 规划 Skype for Business Server 的统计信息管理器
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
 description: 摘要：阅读本主题，了解适用于 Skype for Business Server 的统计信息管理器。
-ms.openlocfilehash: 79f8bc38169d6cba52160772cd9ba0869e761b30
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 166390fe0f034c907e21a3d3147b516d9f502954
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778142"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857399"
 ---
 # <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>规划 Skype for Business Server 的统计信息管理器
 
@@ -109,7 +109,7 @@ ms.locfileid: "60778142"
 
 - **侦听器。** 接收来自所有代理的数据并聚合各总体数据的服务器端 API。
 
-- **中心。** 充当系统的客户端 API，在 Web (上运行) ，并提供通过网站连接的客户端实时数据更新。  (中心将自动安装为网站 msi.) 
+- **中心。** 充当系统的客户端 API，在 Web 服务器 () ，并提供通过网站连接的客户端实时数据更新。  (中心将自动安装为网站 msi.) 
 
 - **网站。** 将系统中所有可用功能汇集在一起的用户界面。
 
@@ -142,7 +142,7 @@ ms.locfileid: "60778142"
 - PSExec - 需要执行远程代理部署
 
 - 2012 R2 (中包含的 .NET 4.5) - 代理和服务器端组件需要
-- 下载[Skype for Business Server 64 Real-Time 64 (统计信息管理器) ](https://www.microsoft.com/en-in/download/details.aspx?id=57518)
+- 下载[64 Skype for Business ServerReal-Time统计信息管理器 (64 位) ](https://www.microsoft.com/en-in/download/details.aspx?id=57518)
 
 ### <a name="networking-requirements"></a>网络要求
 

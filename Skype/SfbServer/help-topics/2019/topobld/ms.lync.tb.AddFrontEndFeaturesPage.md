@@ -2,7 +2,7 @@
 title: 添加前端功能
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 97441ec2-573a-4ba4-ab4c-df4cf6baf321
 ROBOTS: NOINDEX, NOFOLLOW
 description: 选择要为前端池启用的每个功能。 至少必须部署即时消息 (IM)，IM 始终启用且不能取消选择。 还可以选择部署其他功能，如会议、企业语音以及呼叫允许控制 (CAC)。 某些功能依赖于拓扑。
-ms.openlocfilehash: 8c9b615a721ff33abc20ebb049e3d18f5ed0ccd8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6989234d12c4e6a415eb9949550a6ad1c187b25a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760095"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60832596"
 ---
 # <a name="add-front-end-features"></a>添加前端功能
 
