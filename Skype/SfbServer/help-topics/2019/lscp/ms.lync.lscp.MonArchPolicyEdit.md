@@ -2,7 +2,7 @@
 title: 存档策略 创建新的或编辑现有的
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: a4f948e7-e8f6-449a-8907-f61c5b143c05
 ROBOTS: NOINDEX, NOFOLLOW
 description: 使用存档策略可控制在部署中对位于内部部署中的用户的内部和外部通信Skype for Business Server。 存档策略包括全局策略以及可选的一个或多个站点和用户策略：
-ms.openlocfilehash: a5df0231622f9967484574ac1a11a89f15fd163e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0cf89285cd1549a1d84c7ab5ef3c553ca829c770
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773042"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861649"
 ---
 # <a name="archiving-policy-create-new-or-edit-existing"></a>存档策略：创建新的或编辑现有的
  
@@ -33,7 +33,7 @@ ms.locfileid: "60773042"
 - **用户策略 (可选)** 可以指定一个或多个用户存档策略，您可将每个存档策略分别配置为为特定用户的内部或外部通信启用和禁用存档。 用户策略会覆盖全局策略和站点策略，但仅限于分配了用户策略的用户。 可以编辑或删除用户策略。
     
 > [!NOTE]
-> 如果使用集成Exchange Microsoft Exchange 中存储存档数据，Exchange策略将控制位于 Exchange 上的用户的存档。 若要为这些用户启用存档，必须将用户的邮箱置于"保留In-Place状态。 
+> 如果使用集成Exchange Microsoft Exchange 中存储存档数据，Exchange策略控制位于 Microsoft Exchange 上的用户的存档。 若要为这些用户启用存档，必须将用户的邮箱置于"保留In-Place状态。 
   
 若要为新的存档策略或现有的存档策略配置设置，请指定以下选项：
 - **名称** 每个存档策略都需要一个名称。 该名称由要添加或编辑的策略类型决定：
@@ -48,7 +48,7 @@ ms.locfileid: "60773042"
     
 - **存档内部通信** 选中此复选框可启用内部网络上通信的存档。 默认情况下，任何策略中都未启用此功能。
     
-- **存档外部通信** 选中此复选框可启用包括外部用户（如远程用户）的通信的存档 (包括匿名用户和 PIC 设置用户) 联盟伙伴。 默认情况下，任何策略中都未启用此功能。
+- **存档外部通信** 选中此复选框可启用包括外部用户（如远程用户、 (匿名用户和 PIC 设置用户以及联盟伙伴) 通信的存档。 默认情况下，任何策略中都未启用此功能。
     
-有关存档特性和功能（包括 Exchange 集成）的详细信息，请参阅在[Skype for Business Server](../../../plan-your-deployment/archiving/archiving.md)中规划存档、为[Skype for Business Server](../../../deploy/deploy-archiving/deploy-archiving.md)部署存档和在 Skype for Business Server[中管理存档](../../../manage/archiving/archiving.md)。
+有关存档特性和功能（包括Exchange集成）的详细信息，请参阅在[Skype for Business Server](../../../plan-your-deployment/archiving/archiving.md)中规划存档、为[Skype for Business Server](../../../deploy/deploy-archiving/deploy-archiving.md)部署存档和在 Skype for Business Server[中管理存档](../../../manage/archiving/archiving.md)。
 

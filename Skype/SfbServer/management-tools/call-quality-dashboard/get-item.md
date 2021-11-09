@@ -2,7 +2,7 @@
 title: 获取项目
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: e77bf649-d62a-4d94-80de-066ba47730cd
 description: 摘要：了解作为项目服务的一部分的"获取项目"操作。 项目服务是通话质量仪表板存储库 API 的一部分。 通话质量仪表板是一种用于Skype for Business Server。
-ms.openlocfilehash: 3ee8d4f4e64276f7b824bfbdaa06247b27c78988
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1818bb0538fdc02d77c731cad7404643dc84fe28
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60762310"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861229"
 ---
 # <a name="get-item"></a>获取项目
  
@@ -42,7 +42,7 @@ Get Item 返回存储库中的特定项。
   
  **响应** - 响应包括 HTTP 状态代码和一组响应标头。
   
- **状态代码** - 成功操作返回状态代码 200， (确定) 。 如果未找到指定的项目 ID，它将返回状态代码 404 (未找到) 。
+ **状态代码** - 成功操作返回状态代码 200 (确定) 。 如果找不到指定的项目 ID，它将返回状态代码 404 (未找到) 。
   
  **响应标头** - 无其他标头。
   

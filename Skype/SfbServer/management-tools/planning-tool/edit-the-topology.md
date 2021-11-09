@@ -2,7 +2,7 @@
 title: 在 Skype for Business Server 2015 中编辑拓扑
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 4/5/2016
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 47425ab1-5645-4d6f-b202-64bcce43e3ef
 description: 完成初始访谈问题后，可以编辑站点的 FQDN (FQDN) IP 地址的完全限定域名。 要执行此操作，请在“全局拓扑”页上双击要编辑的站点。
-ms.openlocfilehash: 2276f2959329c77744054976e3a49f5ad72778ae
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 698f7e5e94666a67dd01c55a877a037452fd58e2
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60776162"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861189"
 ---
 # <a name="edit-the-topology-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中编辑拓扑
 
@@ -45,7 +45,7 @@ ms.locfileid: "60776162"
 
   - DNS 报告 - DNS 报告列出了您必须创建的 DNS 条目的相关信息。 其中包括相应操作所需的记录类型、FQDN、IP 地址和备注。
 
-- 网站摘要 - 网站摘要概述了通过回答初始访谈式问题或填写"设计网站" **中的值而做出的选择**。 还显示容量信息。
+- 网站摘要 - 网站摘要概述了通过回答初始访谈式问题或填写"设计网站" **中的值而做出的选择**。 还会显示容量信息。
 
     > [!NOTE]
     > “站点摘要”页上的信息可针对每个设计进行自定义，可能不包含此处详细介绍的所有内容或信息。

@@ -2,7 +2,7 @@
 title: 控制器常规设置扩展器
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 2026d0dd-6745-4e53-8b44-acdc378b47d1
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要编辑现有控制器的设置，可参考以下各节内容：
-ms.openlocfilehash: 773f687baaa9ea4d416fb31d46d0e8afb0e409e3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 13c86f57084724511044d32db98b41988f3e48c0
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778552"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861599"
 ---
 # <a name="director-general-settings-expander"></a>控制器常规设置扩展器
  

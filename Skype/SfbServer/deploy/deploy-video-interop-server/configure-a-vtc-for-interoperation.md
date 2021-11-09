@@ -2,7 +2,7 @@
 title: 配置 VTC 以与 Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1016aed6-99fe-452e-8b20-81c814808c3d
 description: 摘要：将 VTC 设备配置为与 Skype for Business Server。
-ms.openlocfilehash: 07f6a8742b26a7637e5dd321034ecb2cd0818cec
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f3804c0d7f86710fbefa9477d6cf1790b0f16af9
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751271"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861799"
 ---
 # <a name="configure-a-vtc-for-interoperation-with-skype-for-business-server"></a>配置 VTC 以与 Skype for Business Server
  
@@ -78,9 +78,9 @@ ms.locfileid: "60751271"
 VTC 现已配置为进行互操作。 在服务开始之前，需要完成 CUCM 端上的最后步骤。
 ### <a name="configure-vtc-devices-on-cucm"></a>在 CUCM 上配置 VTC 设备
 
-1. 登录到 CUCM 并导航到 Cisco 统一 CM 管理 - \> 设备- \> 电话 - \> 查找。 
+1. 登录到 CUCM 并导航到 Cisco 统一 CM 管理 - \> device- \> 电话 - \> 查找。 
     
-2. 选择要配置的 VTC 设备。 在"配置"屏幕上验证电话设置，并根据需要进行更正。 更改或验证这些设置后，单击"保存 **"。**
+2. 选择要配置的 VTC 设备。 在"配置"屏幕上电话设置，根据需要更正。 更改或验证这些设置后，单击"保存 **"。**
     
    |**参数**|**推荐设置**|
    |:-----|:-----|

@@ -2,7 +2,7 @@
 title: Skype for Business Server：删除 SIP 中继配置设置的现有集合
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3b25f14d-884b-42dd-a866-460d276d3e43
 description: 摘要：了解如何使用"控制面板"删除中继配置Skype for Business Server集合。
-ms.openlocfilehash: 19de05f2b31bc7a083aca7a04d71c32f17d0ea85
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d438db687c8af918a1ac0da67542048ac2fa0bae
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771537"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860879"
 ---
 # <a name="skype-for-business-server-delete-an-existing-collection-of-sip-trunk-configuration-settings"></a>Skype for Business Server：删除 SIP 中继配置设置的现有集合 
  
@@ -35,7 +35,7 @@ SIP 中继配置设置定义中介服务器与服务提供商的公用电话交�
     
 - 每个中继上是否需要安全实时传输 (SRTP) 加密
     
-在安装Skype for Business Server时，将创建 SIP 中继配置设置的全局集合。 此全局集合设置无法删除。 但是，您可以使用 Skype for Business Server[或 Remove-CsTrunkConfiguration](/powershell/module/skype/remove-cstrunkconfiguration) cmdlet 将全局集合中的属性"重置"为默认值。 例如，如果已将 Enable3pccRefer 属性设置为 True，则当您重置全局集合时，Enable3pccRefer 属性将还原为其默认值 False。
+在安装Skype for Business Server时，将创建 SIP 中继配置设置的全局集合。 此全局集合设置无法删除。 但是，您可以使用 Skype for Business Server 或[Remove-CsTrunkConfiguration](/powershell/module/skype/remove-cstrunkconfiguration) cmdlet 将全局集合中的属性"重置"为默认值。 例如，如果已将 Enable3pccRefer 属性设置为 True，则当您重置全局集合时，Enable3pccRefer 属性将还原为其默认值 False。
   
 管理员还可以在站点作用域或服务作用域（针对单个 PSTN 网关）创建自定义中继配置设置；这些自定义设置可以删除。 删除这些自定义设置时，请记住以下事项：
   

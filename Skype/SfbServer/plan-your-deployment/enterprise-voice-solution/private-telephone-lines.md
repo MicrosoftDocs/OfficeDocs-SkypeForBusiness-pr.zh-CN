@@ -2,7 +2,7 @@
 title: 规划专用电话线路与Skype for Business
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,25 +15,25 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 9cc4f9e1-7b7a-4699-bd05-f16669ef2d21
-description: 规划专用 (电话) 线路Skype for Business Server 企业语音。
-ms.openlocfilehash: 4c4a03d539835a1b776b729c83bdd1bf19e0ff82
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 规划专用 (专用) 电话线路Skype for Business Server 企业语音。
+ms.openlocfilehash: a9054266cc5092f77e0fecd66b71b7180c89018c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763470"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861079"
 ---
 # <a name="plan-for-private-telephone-lines-with-skype-for-business"></a>规划专用电话线路与Skype for Business
  
-规划专用 (电话) 线路Skype for Business Server 企业语音。
+规划专用 (专用) 电话线路Skype for Business Server 企业语音。
   
 Skype for Business Server，除了为用户提供主要电话线路外，您还可以为用户提供第二条专用电话线路。 专用电话线路通常分配给需要一个未列出的电话号码以便他人直接与其取得联系的高管和其他人员。
   
-专用电话线路只能使用命令行管理程序Skype for Business Server配置。 不能使用控制面板配置专用Skype for Business Server线路。 专用电话线路只能在混合部署中Skype for Business Server配置，而不应在混合部署中配置。
+专用电话线路只能使用命令行管理程序Skype for Business Server配置。 不能使用控制面板配置专用Skype for Business Server线路。 专用电话线路只能在专用电话Skype for Business Server混合部署中配置。
   
 ## <a name="characteristics-of-private-telephone-lines"></a>专用电话线路的特征
 
-尽管第二条专用电话线路的概念基本上很简单，但了解专用线路的特征及其与用户的主要电话线路的相似之处和区别很重要。
+尽管第二条专用电话线路的概念基本上很简单，但了解专用线路的特征以及这些线路与用户的主要电话线路的相似和不同方式很重要。
   
 ### <a name="general-characteristics-of-private-telephone-lines"></a>专用电话线路的常规特征
 
@@ -86,9 +86,9 @@ Skype for Business Server，除了为用户提供主要电话线路外，您还�
   
 ### <a name="assigning-telephone-numbers"></a>分配电话号码
 
- 需要专用电话线路的新用户的帐户创建方式与没有专用电话线路的帐户相同，Skype for Business Server控制面板或 Skype for Business Server命令行管理程序。
+ 需要专用电话线路的新用户的帐户创建方式与没有专用电话线路的帐户相同，Skype for Business Server控制面板Skype for Business Server命令行管理程序。
   
-使用 Skype for Business Server 命令行管理程序 中的 **Set-CsUser** cmdlet 将电话号码分配给用户的专用电话线路，例如 **Set-CsUser -Identity "sip:joe@contoso.com" -PrivateLine "Tel：+14255551212"**。
+使用 Skype for Business Server 命令行管理程序 中的 **Set-CsUser** cmdlet 可以将电话号码分配给用户的专用电话线路，例如 **Set-CsUser -Identity "sip:joe@contoso.com" -PrivateLine "Tel：+14255551212"**。
   
 专用电话线路的电话号码长度介于 3 到 15 位之间，且必须以"TEL："前缀开头。 这些号码可以具有任何区号和国家/地区代码，前提是您的组织有该区号和国家/地区代码的外线直拨分机。 
   

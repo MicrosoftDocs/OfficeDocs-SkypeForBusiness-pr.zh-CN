@@ -2,7 +2,7 @@
 title: 持久聊天设置扩展器
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 12da11ea-3aca-4ef1-8367-f3f8a959f033
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 9108ca37e40f7629b07ef68b863db0e8054fdb4c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c5ed82a7c540c94d01f7edacd78c5b0504e6ef64
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741058"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855839"
 ---
 # <a name="persistent-chat-settings-expander"></a>持久聊天设置扩展器
 

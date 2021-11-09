@@ -2,7 +2,7 @@
 title: PSTN 网关范围节点
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 85a52bf7-98cb-4dd4-892e-2d1ba5669593
 ROBOTS: NOINDEX, NOFOLLOW
 description: 此节点显示该公用电话交换网 (PSTN) 网关的完全限定域名 (FQDN)、关联的中介服务器和其他相关基本信息。可以执行以下操作：
-ms.openlocfilehash: fcad34392b76e19deb18611e0585d086d363a1cb
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: cfa3bf2c2ed4b3986204baa9b685ab8313d1595e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766886"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855819"
 ---
 # <a name="pstn-gateway-scope-node"></a>PSTN 网关范围节点
  

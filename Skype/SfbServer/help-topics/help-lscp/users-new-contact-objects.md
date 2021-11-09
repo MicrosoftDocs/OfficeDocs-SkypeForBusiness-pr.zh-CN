@@ -2,7 +2,7 @@
 title: 用户 新建联系人对象
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 05e0d949-0cc6-4d3c-b935-a09a6ad52adc
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: c0a5f4d996423f2582fdcaf92066065580a5d9cd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 43427d620b8988a414bf09ec611538173700c63d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60748008"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860449"
 ---
 # <a name="users-new-contact-objects"></a>用户：新建联系人对象
 
@@ -50,4 +50,4 @@ ms.locfileid: "60748008"
 
 - [分配Per-User持久聊天策略](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-persistent-chat-policy)
 
-有关可以使用控制面板执行的不同过程的详细信息，请参阅 Manage [Skype for Business Server Skype for Business Server 2015](../../manage/manage.md)。
+有关可以使用控制面板执行的不同过程的详细信息，Skype for Business Server Manage [Skype for Business Server 2015](../../manage/manage.md)。

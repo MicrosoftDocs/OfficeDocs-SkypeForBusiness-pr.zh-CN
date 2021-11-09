@@ -2,7 +2,7 @@
 title: Skype for Business Server - 配置带媒体旁路的中继
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,21 +11,21 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 如何配置启用媒体旁路功能的中继。 "
-ms.openlocfilehash: 40a3b991481a8cf9cfb26be8ad45aa97dccf261f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3255aa946cdbec46bf76860d64fe2ca367862a50
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60739228"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861249"
 ---
 # <a name="skype-for-business-server---configure-a-trunk-with-media-bypass"></a>Skype for Business Server - 配置带媒体旁路的中继 
 
-按照以下步骤配置启用了媒体旁路功能的中继。 若要配置禁用媒体旁路的中继，请参阅在 Skype for Business Server 中[配置无媒体旁路的中继](configure-a-trunk-without-media-bypass.md)。 如果希望将部署的中介服务器数目降至最低，媒体绕过非常有用。 通常会在中央站点部署中介服务器池，中介服务器池将控制分支站点的网关。 启用媒体旁路后，来自分支站点中客户端的公用电话交换网 (PSTN) 呼叫的媒体可直接通过这些站点中的网关流动。 Skype for Business Server出站呼叫路由企业语音策略必须正确配置，以便来自分支站点客户端的 PSTN 呼叫路由到相应的网关。
+按照以下步骤配置启用了媒体旁路功能的中继。 若要配置禁用媒体旁路的中继，请参阅在 Skype for Business Server[中配置无媒体旁路的中继](configure-a-trunk-without-media-bypass.md)。 如果希望将部署的中介服务器数目降至最低，媒体绕过非常有用。 通常会在中央站点部署中介服务器池，中介服务器池将控制分支站点的网关。 启用媒体旁路后，来自分支站点中客户端的公用电话交换网 (PSTN) 呼叫的媒体可直接通过这些站点中的网关流动。 Skype for Business Server出站呼叫路由企业语音策略必须正确配置，以便来自分支站点客户端的 PSTN 呼叫路由到相应的网关。
 
 我们强烈建议您启用媒体旁路。 但是，在 SIP 中继上启用媒体旁路之前，请确认您的合格 SIP 中继提供商支持媒体旁路，并能够满足成功启用方案的要求。 具体而言，提供商必须具有组织内部网络中服务器的 IP 地址。 如果提供商无法支持此方案，则媒体绕过将会失败。 有关详细信息，请参阅规划[媒体旁路Skype for Business。](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
 
 > [!NOTE]
-> 媒体旁路将不会与 SBC (PSTN) 网关、IP-PBX 和会话边界控制器 (每个公用电话交换网) 。 Microsoft 已经与认证合作伙伴一起测试了一组 PSTN 网关和 SDC，并且已经使用 Cisco IP-PBX 进行了一些测试。 媒体旁路仅在"电话基础结构 for [Skype for Business Server"页上列出的](../../../SfbPartnerCertification/certification/infra-gateways.md)产品和版本受支持。 
+> 媒体旁路不会与 SBC (PSTN) 网关、IP-PBX 和会话边界控制器 (每个公用电话交换网) 。 Microsoft 已经与认证合作伙伴一起测试了一组 PSTN 网关和 SDC，并且已经使用 Cisco IP-PBX 进行了一些测试。 媒体旁路仅受"电话基础结构"页中列出的产品和[Skype for Business Server支持。](../../../SfbPartnerCertification/certification/infra-gateways.md) 
 
 
 如下所述中继配置对应用于分配了此中继配置的中继的一组参数进行分组。 特定中继配置的作用域可以是全局中继（针对没有更多特定站点或池配置的所有中继）、站点或者池。 池级中继配置用于将特定中继配置的作用域限制为单个中继。
@@ -43,7 +43,7 @@ ms.locfileid: "60739228"
     > [!NOTE]
     > 选择中继配置的作用域后，无法对其进行更改。 “名称”字段将使用中继配置的关联站点或服务的名称进行预填充，且不能更改。 
 
-5. 在"支持的最大 **早期对话数"中指定值**。 这是公用电话交换网 (PSTN) 网关、IP-PBX 或 ITSP 会话边界控制器 (SBC) 可以接收的分叉响应的最大数量，这些响应发送到中介服务器。 默认值为 20。
+5. 在"支持的最大 **早期对话数"中指定值**。 这是公用电话交换网 (PSTN) 网关、IP-PBX 或 ITSP 会话边界控制器 (SBC) 可以接收的分叉响应的最大数目。SBC) 可以接收到发送到中介服务器的 INVITE。 默认值为 20。
 
     > [!NOTE] 
     > 在更改此值之前，请咨询您的服务提供商或设备制造商，以了解有关所用系统功能的详细信息。 
@@ -94,12 +94,12 @@ ms.locfileid: "60739228"
     > [!Important]
     > PSTN 用法记录在中继配置中的列出顺序十分重要。 Skype for Business Server从上到下遍历列表。 
 
-12. **应选择"启用 RTP** 闭锁"，为网络地址转换、NAT (或防火墙) 支持闭锁的 SBC 后面的客户端启用旁路媒体。
+12. **应选择"启用 RTP** 闭锁"，为网络地址转换 (NAT) 或防火墙以及支持闭锁的 SBC 后面的客户端启用旁路媒体。
 13. **应选择"** 启用前向呼叫历史记录"以允许将呼叫历史记录信息发送到中介服务器的对等网关。
 14. 应选择"启用转发 **P-Asserted-Identity"** 数据，以使 P-Asserted-Identity (PAI) 呼叫发起方信息可以在中介服务器端和网关端 (之间转发，反之亦然) （存在）。
 15. 应选择“启用出站路由故障转移计时器”以支持快速故障转移。 与此中继关联的网关可以在 10 秒内发出正在处理出站呼叫的通知。 如果中介服务器未收到此通知，将重新路由到另一个中继。 在延迟设置可能延迟响应时间或网关需要 10 秒以上时间进行响应的网络中，应禁用快速故障转移。
 16. （可选）关联和配置中继的“呼叫号码转换规则”。 这些转换规则适用于出站呼叫的呼叫号码。
-    - 若要从您的部署中提供的所有转换规则列表中选择一个或多个企业语音，请单击"**选择"。** 在“选择转换规则”中，单击要与中继关联的规则，然后单击“确定”。
+    - 若要从部署中提供的所有转换规则列表中选择一个或多个企业语音，请单击"选择 **"。** 在“选择转换规则”中，单击要与中继关联的规则，然后单击“确定”。
     - 要定义新的转换规则并将其与中继关联，请单击“新建”。 有关定义新规则的详细信息，请参阅在 Skype for Business Server[中定义转换规则](defining-translation-rules.md)。
     - 要编辑已经与中继关联的转换规则，请单击相应的规则名称，然后单击“显示详细信息”。 有关详细信息，请参阅在 Skype for Business Server 中[定义转换规则](defining-translation-rules.md)。
     - 要复制现有的转换规则以作为定义新规则的起点，请单击相应的规则名称，再单击“复制”，然后单击“粘贴”。 有关详细信息，请参阅在 Skype for Business Server 中[定义转换规则](defining-translation-rules.md)。
@@ -108,7 +108,7 @@ ms.locfileid: "60739228"
     > 如果已在关联的中继对等方上配置了转换规则，则不要将任何转换规则与中继相关联，因为这两种规则可能会发生冲突。 
 
 17. （可选）关联和配置中继的“已呼叫号码转换规则”。这些转换规则适用于出站呼叫中的已呼叫号码。
-    - 若要从您的部署中提供的所有转换规则列表中选择一个或多个企业语音，请单击"**选择"。** 在“选择转换规则”中，单击要与中继关联的规则，然后单击“确定”。
+    - 若要从部署中提供的所有转换规则列表中选择一个或多个企业语音，请单击"选择 **"。** 在“选择转换规则”中，单击要与中继关联的规则，然后单击“确定”。
     - 要定义新的转换规则并将其与中继关联，请单击“新建”。 有关定义新规则的详细信息，请参阅在 Skype for Business Server[中定义转换规则](defining-translation-rules.md)。
     - 要编辑已经与中继关联的转换规则，请单击相应的规则名称，然后单击“显示详细信息”。 有关详细信息，请参阅在 Skype for Business Server 中[定义转换规则](defining-translation-rules.md)。
     - 要复制现有的转换规则以作为定义新规则的起点，请单击相应的规则名称，再单击“复制”，然后单击“粘贴”。 有关详细信息，请参阅在 Skype for Business Server 中[定义转换规则](defining-translation-rules.md)。
@@ -128,4 +128,4 @@ ms.locfileid: "60739228"
     > [!Note]
     > 任何时候创建或修改中继配置，都必须运行“全部提交”命令以发布配置更改。 有关详细信息，请参阅 [将挂起的更改发布到语音路由配置](/previous-versions/office/lync-server-2013/lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration)。  (需要新链接？) 
 
-配置中继后，通过选择全局媒体旁路选项来继续配置媒体旁路，如在 Skype for Business Server 中[部署媒体旁路中所述](../../deploy/deploy-enterprise-voice/deploy-media-bypass.md)。
+配置中继后，通过选择全局媒体旁路选项继续配置媒体旁路，如在 Skype for Business Server[中部署媒体旁路中所述](../../deploy/deploy-enterprise-voice/deploy-media-bypass.md)。

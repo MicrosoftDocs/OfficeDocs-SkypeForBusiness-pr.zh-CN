@@ -2,7 +2,7 @@
 title: 添加存档服务器文件存储
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,18 +15,18 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e95f938e-4dd2-48b8-95a3-05b4c63d4810
 description: 要启用即时消息 (IM) 和 Web 会议内容的存档，必须指定文件共享以用作所有 Web 会议内容副本的文件存储。可以将现有的文件共享用作存档文件存储，也可以通过指定文件共享所在的文件服务器的完全限定域名 (FQDN) 和新文件共享的文件夹名称来指定新的文件共享。
-ms.openlocfilehash: 716016b080c6db6f5e31a8390f220fb6a1f3cabd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 32a7cf2374ca43182c5486129dcda402ebeb52ad
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60749293"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861489"
 ---
 # <a name="add-archiving-server-file-store"></a>添加存档服务器文件存储
 
 要启用即时消息 (IM) 和 Web 会议内容的存档，必须指定文件共享以用作所有 Web 会议内容副本的文件存储。可以将现有的文件共享用作存档文件存储，也可以通过指定文件共享所在的文件服务器的完全限定域名 (FQDN) 和新文件共享的文件夹名称来指定新的文件共享。
 
 > [!IMPORTANT]
-> 可以先在拓扑生成器中定义文件共享，再创建文件共享，但是必须在发布拓扑前在定义的位置创建文件共享。 > 向拓扑中添加存档服务器时，拓扑生成器必须能够在要用于文件存储的文件共享上设置存档文件存储并配置任意访问控制列表 () 。 这就要求在运行拓扑生成器以发布新拓扑时，需使用对文件共享具有完全控制权限（读/写/修改）的帐户登录。
+> 可以先在拓扑生成器中定义文件共享，再创建文件共享，但是必须在发布拓扑前在定义的位置创建文件共享。 >向拓扑中添加存档服务器时，拓扑生成器必须能够在要用于文件存储的文件共享上设置存档文件存储并配置任意访问控制列表 () 。 这就要求在运行拓扑生成器以发布新拓扑时，需使用对文件共享具有完全控制权限（读/写/修改）的帐户登录。
 
 有关文件共享的存储支持的详细信息，请参阅可支持性文档中的 File[存储 Support](/previous-versions/office/lync-server-2013/lync-server-2013-file-storage-support)和部署文档中的 SQL Server Data and Log [File Placement。](/previous-versions/office/lync-server-2013/lync-server-2013-sql-server-data-and-log-file-placement) 有关文件共享并置的详细信息，请参阅可支持性文档中的[Supported Server Collocation](/previous-versions/office/lync-server-2013/lync-server-2013-supported-server-collocation)。

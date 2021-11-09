@@ -2,7 +2,7 @@
 title: 用户查看或配置存档策略
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: b1d6ec29-178e-4325-8901-ee6cf0e91759
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: 787a1a34016769371bad16f45c9b8b811275fcfa
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0b008d367d7a8c179749789193b60e167fe32b50
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761360"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860739"
 ---
 # <a name="users-view-or-configure-archiving-policy"></a>用户：查看或配置存档策略
 

@@ -2,7 +2,7 @@
 title: 存档规划工具
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -13,13 +13,13 @@ f1.keywords:
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 45580eaa-4c59-47c6-9e64-9221a3a352b4
-description: 通过Skype for Business Server存档功能，可以存档通过邮件Skype for Business Server。
-ms.openlocfilehash: 0473fd6a9547e662aec77518e3cbad480b6b93b9
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 通过Skype for Business Server存档功能，可以存档通过 Skype for Business Server。
+ms.openlocfilehash: 7f5ce2576eea9d9442df612e684800b71d320c43
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60750131"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861219"
 ---
 # <a name="archiving-planning-tool"></a>存档规划工具
  

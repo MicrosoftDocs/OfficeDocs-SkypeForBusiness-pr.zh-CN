@@ -2,7 +2,7 @@
 title: P2P 摘要子报表Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,13 +11,13 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: fc36185a-3cc5-4167-8c93-8a755fa75ac7
-description: 摘要：了解 Skype for Business Server 中的 P2P 摘要子报表。
-ms.openlocfilehash: 14472ee8ede0e05d56f026561dfd8884c3d6c152
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 摘要：了解 P2P 摘要子报表Skype for Business Server。
+ms.openlocfilehash: e8296604626b143bb143ea2acbdf8e6875e1acf6
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774852"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861319"
 ---
 # <a name="p2p-summary-subreport-in-skype-for-business-server"></a>P2P 摘要子报表Skype for Business Server
  

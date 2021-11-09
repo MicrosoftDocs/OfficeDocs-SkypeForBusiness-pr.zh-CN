@@ -2,7 +2,7 @@
 title: 设备配置 创建新的或编辑现有的
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: aac152bf-80e9-408a-9dbb-60d0843484ab
 description: 在"新建设备配置"或"编辑设备配置"页上，可以创建或修改用于管理 Skype for Business 电话 Edition 的设置集合。 通过这些设置，您可以配置以下内容：所需的安全性模式、设备日志记录级别、语音服务质量 (QoS) 设置以及在指定的非活动时间后电话是否应自动锁住。
-ms.openlocfilehash: 8211e31ddb4f28d72c50b90d982fbb1e16ab0f63
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 849406c7c2a22f3ce96e50a8a49b14f27a1a5103
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758444"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860459"
 ---
 # <a name="device-configuration-create-new-or-edit-existing"></a>设备配置：创建新的或编辑现有的
  
@@ -42,7 +42,7 @@ ms.locfileid: "60758444"
     
 - **名称** 你可以添加或修改设备配置的名称。
     
-- **SIP 安全性** 你可以为 Skype for Business 电话 Edition 设备配置传输和身份验证要求。 可以从以下选项中进行选择：
+- **SIP 安全性** 你可以为 Skype for Business 电话 Edition 设备配置传输和身份验证要求。 可以从以下选项中选择：
     
   - **低** 允许任何类型的授权或传输。
     
@@ -60,7 +60,7 @@ ms.locfileid: "60758444"
     
   - **最小 PIN 长度** 你可以指定用于解锁电话的个人标识 (PIN) 的最小长度。 PIN 长度的范围为 4 到 15 位数字。 默认长度为六位数字。
     
-  - **电话锁定的** 你可以指定电话自行锁定之前的最小时间长度。 该退出的范围是 0 到 60 分钟;默认值为 10 分钟。 输入 HH：MM：SS 格式的值。
+  - **电话锁定时间** 你可以指定电话自行锁定之前的最小时间长度。 该退出的范围是 0 到 60 分钟;默认值为 10 分钟。 输入 HH：MM：SS 格式的值。
     
 ## <a name="see-also"></a>另请参阅
 

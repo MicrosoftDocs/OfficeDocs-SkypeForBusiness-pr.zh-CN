@@ -2,7 +2,7 @@
 title: 委派对项目的管理Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: ''
-ms.openlocfilehash: 1ee1cdce6bae163ea51ebb73ac9b536e75b204a8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 54348e05a53f5c8fcc7241dbc7ed86b1be4e27a3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60743418"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861279"
 ---
 # <a name="delegate-administrative-control-of-skype-for-business-server"></a>委派对项目的管理Skype for Business Server 
 
@@ -24,11 +24,11 @@ ms.locfileid: "60743418"
 
 ## <a name="viewing-information-about-rbac-roles"></a>查看有关 RBAC 角色的信息
 
-可以通过在命令行管理程序内运行以下命令来检索有关 RBAC 角色Skype for Business Server信息：
+可以通过从命令行管理程序内运行以下命令来检索有关 RBAC 角色Skype for Business Server信息：
 
 `Get-CsAdminRole`
 
-请记住，RBAC 角色的标识 (例如 CsVoiceAdministrator) 具有到 Active Directory 域服务中的用户容器中找到的安全组的直接映射。
+请记住，RBAC 角色的 Identity (例如，CsVoiceAdministrator) 具有到 Active Directory 域服务中的用户容器中找到的安全组的直接映射。
 
 若要查看已分配给角色的 cmdlet 的列表，请使用以下类似命令：
 
@@ -43,9 +43,9 @@ ms.locfileid: "60743418"
 3. 在"Active Directory 用户和计算机"中，展开域的名称，然后单击"用户 **"** 容器。
 4. 右键单击安全组 **CsLocationAdministrator**， **然后单击属性**。
 5. 在"**属性**"对话框的"成员 **"** 选项卡上，单击"添加 **"。**
-6. 在"选择用户、计算机、联系人或组"对话框中，键入要添加到组 (的用户的用户名或 显示名称 例如，Ken Myer) 在"输入要选择的对象名称"框中，然后单击"**确定**"。
+6. 在"**选择** 用户、计算机、联系人或组"对话框中，键入要添加到组 (的用户的用户名或 显示名称 例如，在"输入要选择的对象名称"框中键入 Ken Myer) ，然后单击"确定 **"。**
 7. 在“属性”对话框中，单击“确定”。
 
-若要验证是否分配了 RBAC 角色，请使用 Get-CsAdminRoleAssignment cmdlet，向该 cmdlet 传递用户的 SamAccountName (Active Directory) 登录名。 例如，从命令行管理程序内部Skype for Business Server此命令：
+若要验证是否分配了 RBAC 角色，请使用 Get-CsAdminRoleAssignment cmdlet，向该 cmdlet 传递用户的 SamAccountName (Active Directory) 登录名。 例如，从命令行管理程序Skype for Business Server此命令：
 
 `Get-CsAdminRoleAssignment  -Identity "kenmyer"`

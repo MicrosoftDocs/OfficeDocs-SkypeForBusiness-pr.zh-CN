@@ -2,7 +2,7 @@
 title: 文件存储设置扩展器
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 4d316ae0-2a37-48b0-a3dc-468616ab4135
 ROBOTS: NOINDEX, NOFOLLOW
 description: 编辑定义的文件存储的属性：
-ms.openlocfilehash: 78ac3a49221a90df966785d995d51163a5450150
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4fc73358ebb2737ad22f4dd2eb5d13a6178999bf
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60752491"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860629"
 ---
 # <a name="file-store-settings-expander"></a>文件存储设置扩展器
  

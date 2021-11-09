@@ -2,7 +2,7 @@
 title: 定义用于确定位置的网络元素Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7538779d-055d-44ed-8dd7-11c45fc1b9f5
 description: 规划将使用哪些网络组件将呼叫者映射到 E9-1-1 部署的位置所必需的决策Skype for Business Server 企业语音。
-ms.openlocfilehash: 908e8b45f1825d7bd98693810ac97b13d4aa3273
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6de3d960dd68dfc0f34ce0e67fef569c36e44612
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768500"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861109"
 ---
 # <a name="define-the-network-elements-used-to-determine-location-in-skype-for-business-server"></a>定义用于确定位置的网络元素Skype for Business Server
  
 规划将使用哪些网络组件将呼叫者映射到 E9-1-1 部署的位置所必需的决策Skype for Business Server 企业语音。
   
-如果要将 Skype for Business Server 基础结构设置为支持自动客户端位置检测，则首先需要确定要使用哪些网络元素将呼叫者映射到位置。 在Skype for Business Server中，可以将以下第 2 层和第 3 层网络元素与位置关联：
+如果要将 Skype for Business Server 基础结构设置为支持自动客户端位置检测，则首先需要确定要使用哪些网络元素将呼叫者映射到位置。 在Skype for Business Server中，您可以将以下第 2 层和第 3 层网络元素与位置关联：
   
 - 无线访问点 (WAP) 基本服务集标识 (BSSID) 地址（第 2 层）
     
@@ -50,7 +50,7 @@ ms.locfileid: "60768500"
 
 当客户端以无线方式连接到网络时，位置请求使用 WAP 的 BSSID 地址来确定位置。 如果客户端正在漫游，则指示的 WAP 可能不是最接近的 WAP，甚至可以选取位于建筑不同层的 WAP。 若要指示位置是近似值，可以在位置值前加 **[Near]** 或 **[Closeto]** 描述符。
   
-此位置方法假定每个 WAP 的 BSSID 都是静态的。 但是，如果您的 WAP 供应商使用动态分配的 BSSID，则从 WAP 获取的 BSSID 可能会更改 (在 WAP 配置更改) 后可能会发生这种情况，并且无线客户端可能会离开他们未接收位置的情况。 为了防止这种可能性，您需要使用每个 WAP 使用的所有可能的 BSSID 地址的 ERLs 填充位置信息服务数据库。 
+此位置方法假定每个 WAP 的 BSSID 都是静态的。 但是，如果 WAP 供应商使用动态分配的 BSSID，则从 WAP 获取的 BSSID 可能会更改 (在 WAP 配置更改) 后可能会发生这种情况，并且无线客户端可能会离开他们未接收位置的情况。 为了防止这种可能性，您需要使用每个 WAP 使用的所有可能的 BSSID 地址的 ERLs 填充位置信息服务数据库。 
   
 ## <a name="lldp-ports-and-switches"></a>LLDP 端口和交换机
 
@@ -73,9 +73,9 @@ ms.locfileid: "60768500"
   
 ## <a name="client-mac-address"></a>客户端 MAC 地址
 
-若要使用客户端计算机的 MAC 地址查找呼叫者，您需要托管的以太网交换机，并且必须部署第三方 SNMP 解决方案，该解决方案可以发现连接到 (或通过) 这些交换机连接的 Skype for Business 客户端的 MAC 地址。 SNMP 解决方案会不断轮询托管交换机，以获取连接到每个端口的终结点 MAC 地址的当前映射并获取对应的端口 ID。 在Skype for Business客户端请求位置信息服务期间，位置信息服务使用客户端的 MAC 地址查询第三方应用程序，然后返回任何匹配的交换机 IP 地址和端口 ID。 位置信息服务使用此信息来查询其发布的第 2 层线路映射中是否包含匹配记录，并且将位置返回给客户端。 如果使用此选项，请确保 SNMP 应用程序与已发布的位置数据库记录之间的交换机端口标识符是一致的。
+要使用客户端计算机的 MAC 地址查找呼叫者，您需要托管的以太网交换机，并且必须部署第三方 SNMP 解决方案，该解决方案可以发现连接到 (或通过) 这些交换机的 Skype for Business 客户端的 MAC 地址。 SNMP 解决方案会不断轮询托管交换机，以获取连接到每个端口的终结点 MAC 地址的当前映射并获取对应的端口 ID。 在Skype for Business客户端请求位置信息服务期间，位置信息服务使用客户端的 MAC 地址查询第三方应用程序，然后返回任何匹配的交换机 IP 地址和端口 ID。 位置信息服务使用此信息来查询其发布的第 2 层线路映射中是否包含匹配记录，并且将位置返回给客户端。 如果使用此选项，请确保 SNMP 应用程序与已发布的位置数据库记录之间的交换机端口标识符是一致的。
   
 > [!NOTE]
-> 某些第三方 SNMP 解决方案可以支持非托管访问交换机;如果为 Skype for Business 客户端服务的交换机是非托管的，但具有到托管分发交换机的上行链接，则托管交换机可以向 SNMP 应用程序返回连接到访问交换机的客户端的 MAC 地址。 利用此信息，位置信息服务可以标识用户的位置。 但是，只能向非托管交换机上的所有端口分配单个 ERL，因此位置特性仅在访问交换机的机架级别而非端口级别可用。 
+> 某些第三方 SNMP 解决方案可以支持非托管访问交换机;如果为 Skype for Business 客户端服务的交换机是非托管的，但具有到托管分发交换机的上行链接，则托管交换机可以将连接到访问交换机的客户端的 MAC 地址报告回 SNMP 应用程序。 利用此信息，位置信息服务可以标识用户的位置。 但是，只能向非托管交换机上的所有端口分配单个 ERL，因此位置特性仅在访问交换机的机架级别而非端口级别可用。 
   
 

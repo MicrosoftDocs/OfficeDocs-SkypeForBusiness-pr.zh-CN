@@ -2,7 +2,7 @@
 title: 呼叫详细信息记录
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e3daddf8-ac49-4b96-bf05-44b5a01d7aab
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: a6517279d0c534270ae4255192daa3ddc43bc1e3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 98ffec58ddc348350e38eb710e754e909dddc352
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60764180"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860519"
 ---
 # <a name="call-detail-recording"></a>呼叫详细信息记录
  
@@ -28,7 +28,7 @@ ms.locfileid: "60764180"
   
 - [在 2015 年 10 月Skype for Business Server呼叫详细信息记录](../../manage/health-and-monitoring/enable-cdr.md)
     
-- [指定 CDR 数据在 Skype for Business Server 2015 中的保留](../../manage/health-and-monitoring/specify-retention-of-data.md)
+- [在 2015 年 10 月Skype for Business Server CDR 数据的保留](../../manage/health-and-monitoring/specify-retention-of-data.md)
     
 有关可以使用控制面板执行的不同过程的详细信息，请参阅 Manage [Skype for Business Server Skype for Business Server 2015](../../manage/manage.md)。
 
