@@ -2,7 +2,7 @@
 title: 在部署中定义 E9-1-1 Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2c572dfd-e901-471d-b5a0-18bc8d1d5328
 description: 在部署中规划 E9-1-1 部署Skype for Business Server 企业语音。
-ms.openlocfilehash: b576f2d9e7dbf9cb82484803ca6e93afb4440795
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a1757477d9d4de2a0e26c3490bb6214e6c14e1e9
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777992"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60836244"
 ---
 # <a name="define-the-scope-of-the-e9-1-1-deployment-in-skype-for-business-server"></a>在部署中定义 E9-1-1 Skype for Business Server
 
@@ -46,7 +46,7 @@ ms.locfileid: "60777992"
  自动位置获取仅适用于位于组织网络内部的客户端，因此组织需要决定是否支持从外部的 Skype for Business 客户端拨打 E9-1-1 呼叫。 例如，如果用户在家里或客户站点中工作，您是否允许这些用户进行紧急呼叫？ 如果客户端位于企业网络外部，则可将客户端配置为提示用户输入位置。 但由于无法根据主街道地址指南 (MSAG) 预先验证这些用户提供的位置，因此，紧急服务的服务提供商调度程序将需要在将呼叫路由至公共安全应答点 (PSAP) 之前向呼叫者口头确认该位置的有效性。
 
 > [!NOTE]
-> Skype for Business VPN 连接到组织网络的用户的客户端可以选取内部 IP 地址信息，但由于这些地址不能用于标识用户的实际位置，因此有必要从位置信息服务中排除 VPN 子网。
+> Skype for Business VPN 连接到组织网络的用户的客户端可以获取内部 IP 地址信息，但由于这些地址不能用于标识用户的实际位置，因此有必要从位置信息服务中排除 VPN 子网。
 
  **是否向美国之外的站点提供紧急呼叫路由？**
 

@@ -1,6 +1,6 @@
 ---
 title: 为 Microsoft Teams 定义使用方案
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.date: 10/31/2018
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 了解如何为采用方法的试验阶段选择最适合Teams方案。
+description: 了解如何为采用方法的试验阶段选择最适合的Teams方案。
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8d110e3b921c24e1b32382b8a69056546948464f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 55b25ab0367909da0136a7761b7e763965c5804d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766080"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842554"
 ---
 # <a name="define-usage-scenarios-for-microsoft-teams"></a>为 Microsoft Teams 定义使用方案
 
-确保了解此阶段 (阶段) 业务项目。 查看这个列表，这些示例方案是早期采用者计划很好的候选方案。 可以从轻松胜出开始，例如：
+请确保你了解业务项目 (实施) 阶段范围内的方案。 查看这个列表，这些示例方案是早期采用者计划很好的候选方案。 可以从轻松胜出开始，例如：
 
 - 个人工作效率
 - 现代项目管理
@@ -47,7 +47,7 @@ ms.locfileid: "60766080"
 
 ![每个方案Teams用例的图示。](media/teams-adoption-use-cases.png)
 
-将此方案现代化运动视为一个累积过程 – 通过更基本的方案来使用这种新工作方式创建热情、熟悉和信誉。 然后，前进到更具影响力的更具有影响力的区域。 随着向业务Microsoft Teams展示对项目的影响，他们中的更多人将参与，并发展动力。 对于我们的许多客户来说，一旦他们完成此过程，他们发现业务利益干系人在了解同事如何从公司获得价值后Microsoft Teams。
+将此方案现代化运动视为一个累积过程 – 通过更基本的方案来使用这种新工作方式创建热情、熟悉和信誉。 然后，前进到更具影响力的更具有影响力的区域。 随着向业务Microsoft Teams展示对项目的影响，他们中的更多人将参与，并发展动力。 对于我们的许多客户来说，一旦他们获得此过程，他们发现业务利益干系人在了解同事如何从公司获得价值后Microsoft Teams。
 
 ## <a name="interview-business-stakeholders"></a>与业务利益干系人进行访谈
 

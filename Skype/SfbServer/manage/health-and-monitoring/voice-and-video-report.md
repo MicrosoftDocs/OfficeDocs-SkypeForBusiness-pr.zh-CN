@@ -2,7 +2,7 @@
 title: 呼叫中的对等语音和视频Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e17c36b5-5a2f-4673-9696-3b2d31c2bb2f
 description: 摘要：了解 Skype for Business Server 中的对等语音和视频报告。
-ms.openlocfilehash: 0428f75ada29c13eee9b717326d4c1077b0dece6
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 61065578ea67ba3ec5004d517482c8c449216a0c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60757284"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60836324"
 ---
 # <a name="peer-to-peer-voice-and-video-report-in-skype-for-business-server"></a>呼叫中的对等语音和视频Skype for Business Server
  
@@ -27,7 +27,7 @@ ms.locfileid: "60757284"
   
 - 每个池的呼叫数
     
-- 每种呼叫类型的 (例如，Skype for Business呼叫Skype for Business呼叫与呼叫 PSTN Skype for Business上的人员) 
+- 每个呼叫类型的 (例如，Skype for Business呼叫Skype for Business呼叫与呼叫 PSTN Skype for Business上的人员) 
     
 - 按访问类型的 (用户登录到内部网络与登录到外部网络的用户) 
     
@@ -59,7 +59,7 @@ ms.locfileid: "60757284"
 |:-----|:-----|
 |**From** <br/> |时间范围的开始日期和时间。若要按小时查看数据，请输入开始日期和时间，如下所示：  <br/> 7/7/2015 1：00 PM  <br/> 如果您未输入开始时间，该报告会自动将某个特定日的上午 12:00 作为开始时间。若要按日查看数据，请只输入日期：  <br/> 7/7/2015  <br/> 若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：  <br/> 7/3/2015  <br/> 一周始终是从星期日开始至星期六结束。  <br/> |
 |**To** <br/> |时间范围的结束日期/时间。若要按小时查看数据，请输入结束日期和时间，如下所示：  <br/> 7/7/2015 1：00 PM  <br/> 如果您未输入结束时间，该报告会自动将某个特定日的上午 12:00 作为结束时间。若要按日查看数据，请只输入日期：  <br/> 7/7/2015  <br/> 若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：  <br/> 7/3/2015  <br/> 一周始终是从星期日开始至星期六结束。  <br/> |
-|**Interval** <br/> | 时间间隔。选择下列选项之一： <br/>  每小时（最多可显示 25 个小时） <br/>  每天（最多可显示 31 天） <br/>  每周（最多可显示 12 周） <br/>  每月（最多可显示 12 个月） <br/>  如果开始日期和结束日期超出了所选间隔允许的最长时间，则仅显示最长时间（从开始日期开始）。 例如， 如果您选择开始日期为 2015/7/7、结束日期为 2015/2/28 的"每天"间隔，则会显示从 2015 年 8 月 7 日上午 12：00 到 2015 年 9 月 7 日上午 12：00 (即总共 31 天的数据) 。 <br/> |
+|**Interval** <br/> | 时间间隔。选择下列选项之一： <br/>  每小时（最多可显示 25 个小时） <br/>  每天（最多可显示 31 天） <br/>  每周（最多可显示 12 周） <br/>  每月（最多可显示 12 个月） <br/>  如果开始日期和结束日期超出了所选间隔允许的最长时间，则仅显示最长时间（从开始日期开始）。 例如，如果您选择开始日期为 2015/7/7 和结束日期为 2015/2/28 的"每天"间隔， 显示 2015 年 8 月 7 日上午 12：00 到 2015 年 9 月 7 日上午 12：00 (即总共 31 天的数据) 。 <br/> |
 |**媒体类型** <br/> | 指示会话中使用的媒体类型。 选择下列选项之一： <br/>  两者都有 <br/>  音频 <br/>  视频 <br/> |
 |**呼叫处置** <br/> | 指示会话是成功还是失败。 选择下列选项之一： <br/>  [All] <br/>  成功调用 <br/>  失败的呼叫 <br/> |
 |**报告依据** <br/> | 指示要在报告中使用的值。选择下列选项之一： <br/>  会话计数 <br/>  呼叫分钟数 <br/> |

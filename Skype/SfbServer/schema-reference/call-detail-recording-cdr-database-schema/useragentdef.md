@@ -2,7 +2,7 @@
 title: UserAgentDef 表
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 96c49239-d999-4045-8b64-9d1940cce8ff
 description: UserAgentDef 表将用户代理标识符映射到代理的描述性名称。 用户代理是用于连接到 Skype for Business Server 2015 的软件客户端。 此表在 Microsoft Lync Server 2013 中引入。
-ms.openlocfilehash: 7d1fe0d074fc0a0d68479ec6a56cf4ee3a6c2cf1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4121ca1539dda40d2c7f1d474d0c84cedbacc2b0
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761890"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60828545"
 ---
 # <a name="useragentdef-table"></a>UserAgentDef 表
  
@@ -28,7 +28,7 @@ UserAgentDef 表将用户代理标识符映射到代理的描述性名称。 用
 |:-----|:-----|:-----|
 |1  <br/> |MediationServer  <br/> |MediationServer  <br/> |
 |2  <br/> |AV-MCU  <br/> |AV-MCU  <br/> |
-|4   <br/> |OC  <br/> |OC  <br/> |
+|4  <br/> |OC  <br/> |OC  <br/> |
 |8   <br/> |OCPhone  <br/> |OCPhone  <br/> |
 |16  <br/> |LMC  <br/> |LMC  <br/> |
 |32  <br/> |DVT  <br/> |DVT  <br/> |

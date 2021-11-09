@@ -1,6 +1,6 @@
 ---
 title: 在哈萨克斯坦的可用性
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是适用于Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: aeaff9031535df5e7d727f3386ae4264efa62817
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 以下是适用于 Microsoft 365 Office 365 的 Skype for Business Microsoft Teams 服务。
+ms.openlocfilehash: b69d4634ee91e002c0f86fbe19d57dc20d3dd582
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777532"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60836080"
 ---
 # <a name="availability-in-kazakhstan"></a>在哈萨克斯坦的可用性
 
 [查找其他国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或详细了解可以在哪些国家/地区使用音频会议和通话套餐。
 
-以下是适用于Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
+以下是适用于 Microsoft 365 Office 365 的 Skype for Business Microsoft Teams 服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 
@@ -68,7 +68,7 @@ ms.locfileid: "60777532"
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|你可以获取哪些首都或大城市的收费电话号码？   | 请求 ([时进行) ](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)<br/> |
+|你可以获取哪些首都或大城市的收费电话号码？   | 在请求 ([时进行) ](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)<br/> |
 |是否提供收费电话号码？  <br/> |是（[应要求](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)） <br/> |
 |免费电话号码是否可用？  <br/> |否  <br/> |
    

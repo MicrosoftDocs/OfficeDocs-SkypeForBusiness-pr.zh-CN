@@ -2,7 +2,7 @@
 title: 创建或修改语音策略，并配置 PSTN 用法Skype for Business
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,13 +15,13 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: e6ff27e0-e2d1-4445-840f-08f738200c20
-description: 摘要：使用控制面板创建或修改语音策略和配置 PSTN Skype for Business Server记录。
-ms.openlocfilehash: 0188881fe91d527c64b95a8cac49ba91ed12bf5f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 摘要：使用控制面板创建或修改语音策略并配置 PSTN Skype for Business Server记录。
+ms.openlocfilehash: 5dedb504a6d2d3e75b168bf32ff1f0ccb7ed94f8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769600"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60828375"
 ---
 # <a name="create-or-modify-a-voice-policy-and-configure-pstn-usage-records-in-skype-for-business"></a>创建或修改语音策略，并配置 PSTN 用法Skype for Business
 
@@ -49,16 +49,16 @@ ms.locfileid: "60769600"
 
 5.  (可选) 输入语音策略的其他描述性信息。
 
-6. 选中或清除以下复选框，为此语音策略启用或禁用 **每个呼叫功能** ：
+6. 选中或清除以下复选框，为此语音策略启用或 **禁用每个呼叫** 功能：
 
    - **语音邮件转** 义可防止在配置同时响铃、电话关闭、电池不足或范围外时将呼叫立即路由到用户的移动电话语音邮件系统。
 
      > [!NOTE]
-     > 此功能仅可以通过命令行管理程序Skype for Business Server配置
+     > 此功能只能通过命令行管理程序Skype for Business Server配置
 
    - 通过 **呼叫转接**，用户可以将呼叫转接到其他电话或客户端设备。 Skype for Business Server为呼叫转发提供了范围更广的配置选项。 例如，如果组织不允许将传入呼叫外部转接到 PSTN，则管理员可应用特定语音策略来部署此限制。 默认为启用。
 
-   - 通过 **委派**，用户可以指定其他用户代表他们发送和接收呼叫。 在Skype for Business Server中，代理人可以配置同时响铃，从而允许呼叫其经理的传入呼叫拨打代理人的所有同时响铃目标。 这为代理提供了极大地灵活性以响应定向至管理员的呼叫。 默认为启用。
+   - 通过 **委派**，用户可以指定其他用户代表他们发送和接收呼叫。 在Skype for Business Server中，代理人可以配置同时响铃，使呼叫经理的传入呼叫能够拨打代理人的所有同时响铃目标。 这为代理提供了极大地灵活性以响应定向至管理员的呼叫。 默认为启用。
 
    - 通过 **呼叫转移**，用户可以将呼叫转移到其他用户。默认为启用。
 
@@ -75,9 +75,9 @@ ms.locfileid: "60769600"
      > [!NOTE]
      > 只能覆盖向用户发出的传入呼叫的策略，而不能覆盖由用户发出的传出呼叫的策略。 建立会话后，将准确记录带宽消耗。 应谨慎使用此设置，且应保留用于相应的呼叫允许控制决策。
 
-   - 通过恶意 **呼叫跟踪，** 用户可以使用客户端 UI 报告恶意呼叫 (如威胁) ，进而在呼叫详细信息记录或 CDR (标记) 。 默认情况下处于禁用状态。
+   - 通过恶意呼叫跟踪，用户可以使用客户端 UI 报告恶意呼叫 (如威胁) ，客户端 UI 反过来会标记呼叫详细信息记录 (CDR) 。 默认情况下处于禁用状态。
 
-   - **忙碌选项** 启用或禁用指定语音策略的忙碌选项。 忙碌选项允许在呼叫的目标用户接听电话时，将传入呼叫路由到语音邮件，或者通过忙音信号拒绝传入呼叫。 忙碌选项是 2016 年 7 月累积更新中引入的新语音策略。 选中此参数将启用忙碌选项，取消选中将禁用忙碌选项。 有关详细信息，请参阅 Plan [for Busy Options for Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/busy-options.md) Install and configure Busy Options for [Skype for Business Server](install-and-configure-busy-options.md)。
+   - **忙碌选项** 启用或禁用指定语音策略的忙碌选项。 忙碌选项允许在呼叫的目标用户接听电话时将传入呼叫路由到语音邮件，或者拒绝传入呼叫时显示繁忙信号。 忙碌选项是 2016 年 7 月累积更新中引入的新语音策略。 选中此参数将启用忙碌选项，取消选中将禁用忙碌选项。 有关详细信息，请参阅 Plan [for Busy Options for](../../plan-your-deployment/enterprise-voice-solution/busy-options.md) Skype for Business Server[和 Install and configure Busy Options for Skype for Business Server](install-and-configure-busy-options.md)。
 
 7. 要为此语音策略关联和配置 PSTN 用法记录，请执行以下任意操作：
 
@@ -183,9 +183,9 @@ ms.locfileid: "60769600"
 12. 在“语音策略”页上，单击“提交”，然后单击“全部提交”。
 
     > [!NOTE]
-    > 每次创建或修改语音策略时，都必须运行 **"全部提交** "命令以发布配置更改。 有关详细信息，请参阅操作[文档中](voice-route-config-changes.md)的 Publish pending changes to the voice routing configuration in Skype for Business in the Operations documentation。
+    > 每次创建或修改语音策略时，都必须运行 **"全部提交** "命令以发布配置更改。 有关详细信息，请参阅操作[文档中的](voice-route-config-changes.md)Publish pending changes to the voice routing configuration in Skype for Business in the Operations documentation。
 
-13.  (可选) 语音邮件转义功能检测到用户的移动电话语音邮件立即应答了呼叫，并且断开了对移动电话语音邮件的呼叫。 这允许呼叫继续在用户的其他终结点上响铃，从而让用户有机会应答呼叫。 若要详细了解如何配置语音邮件策略，[请参阅配置语音邮件](configure-voice-mail-escape.md)转义Skype for Business。
+13.  (可选) 语音邮件转义功能检测到用户的移动电话语音邮件立即应答了呼叫，并且断开了对移动电话语音邮件的呼叫。 这允许呼叫继续在用户的其他终结点上响铃，从而让用户有机会应答呼叫。 若要详细了解如何配置语音邮件策略，请参阅在 Skype for Business[中配置语音邮件转义](configure-voice-mail-escape.md)。
 
 ### <a name="to-modify-a-voice-policy"></a>修改语音策略
 
@@ -205,11 +205,11 @@ ms.locfileid: "60769600"
    - **语音邮件转** 义可防止在配置同时响铃、电话关闭、电池不足或范围外时将呼叫立即路由到用户的移动电话语音邮件系统。
 
      > [!NOTE]
-     > 此功能仅可以通过命令行管理程序Skype for Business Server配置
+     > 此功能只能通过命令行管理程序Skype for Business Server配置
 
    - 通过 **呼叫转接**，用户可以将呼叫转接到其他电话或客户端设备。 Skype for Business Server为呼叫转发提供了范围更广的配置选项。 例如，如果组织不允许将传入呼叫外部转接到 PSTN，则管理员可应用特定语音策略来部署此限制。 默认为启用。
 
-   - 通过 **委派**，用户可以指定其他用户代表他们发送和接收呼叫。 在Skype for Business Server中，代理人可以配置同时响铃，从而允许呼叫其经理的传入呼叫对代理人的所有同时响铃目标响铃。 这为代理提供了极大地灵活性以响应定向至管理员的呼叫。 默认为启用。
+   - 通过 **委派**，用户可以指定其他用户代表他们发送和接收呼叫。 在Skype for Business Server中，代理人可以配置同时响铃，使呼叫经理的传入呼叫能够拨打代理人的所有同时响铃目标。 这为代理提供了极大地灵活性以响应定向至管理员的呼叫。 默认为启用。
 
    - 通过 **呼叫转移**，用户可以将呼叫转移到其他用户。默认为启用。
 
@@ -280,7 +280,7 @@ ms.locfileid: "60769600"
 
    - 若要对呼叫转接和同时响铃使用与此语音策略相同的 PSTN 用法记录，请从下拉菜单中选择“使用呼叫 PSTN 用法进行路由”。
 
-   - 若要仅允许将呼叫转发和同时响铃Skype for Business内部呼叫用户，请从下拉菜单中选择Skype for Business路由到内部呼叫用户"。 呼叫将不会转接到外部 PSTN 号码。
+   - 若要仅允许将呼叫转发和同时响铃Skype for Business内部呼叫用户，请从下拉菜单Skype for Business路由到内部呼叫用户"。 呼叫将不会转接到外部 PSTN 号码。
 
    - 若要为呼叫转接和同时响铃指定与此语音策略所用的 PSTN 用法记录不同的 PSTN 用法记录，请从下拉菜单中选择“使用自定义 PSTN 用法进行路由”。此选项显示一个控件，此控件专用于为呼叫转接和同时响铃选择现有 PSTN 用法记录或创建新的 PSTN 用法记录。
 

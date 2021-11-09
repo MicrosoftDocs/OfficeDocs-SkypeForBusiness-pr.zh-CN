@@ -2,7 +2,7 @@
 title: 持久聊天策略
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: eb9e95b9-f69d-4545-970f-9dfdd93b0eff
 description: 您可以使用持久聊天组的"持久聊天策略"页来管理全局、池、站点或用户级别的策略，包括配置默认全局策略和为部署创建一个或多个其他用户和站点策略。 如果策略为用户启用了持久聊天服务器，则持久聊天服务器环境将显示在其客户端中。
-ms.openlocfilehash: 5736f0fc41f86331662e88c0f980c19c89be72c4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 26df9230dc24faf41a6f8ed6bf1f8047fe98007d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60748188"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862779"
 ---
 # <a name="persistent-chat-policy"></a>持久聊天策略
  
@@ -101,7 +101,7 @@ ms.locfileid: "60748188"
     
    - 在“名称”中，指定新用户策略的名称。
     
-   - 在 **"说明**"中，提供有关用户策略 (例如，特定用户的持久聊天策略) 。
+   - 在 **"** 说明"中，提供有关用户策略 (例如，特定用户的持久聊天策略) 。
     
    - 若要控制未通过用户策略明确控制的所有用户的持久聊天，请选中或清除" **启用持久聊天** "复选框。
     
@@ -109,7 +109,7 @@ ms.locfileid: "60748188"
     
 ## <a name="to-apply-a-persistent-chat-user-policy-to-a-user-account"></a>将持久聊天用户策略应用于用户帐户
 
-如果为用户启用了Skype for Business Server，您可以将相应的策略应用于特定用户，以对持久聊天服务器启用或禁用这些策略。
+如果用户已启用此策略Skype for Business Server，您可以将相应的策略应用于特定用户，以对持久聊天服务器启用或禁用这些策略。
   
 使用本主题中的过程将以前创建的持久聊天用户策略应用于一个或多个用户帐户或用户组。
   

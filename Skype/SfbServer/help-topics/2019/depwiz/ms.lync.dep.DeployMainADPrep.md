@@ -2,7 +2,7 @@
 title: 准备 Active Directory
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: a8c96311-9e1c-4d39-9870-681fd4e272ff
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要开始安装Skype for Business Server，您必须准备 Active Directory 域服务架构、林以及将承载服务器和用户的域。 部署Skype for Business Server向导将指导您完成准备 Active Directory 所需的步骤，从架构开始，然后再准备林。 确认 Active Directory 复制成功后，准备将承载用户或服务器的每个域。
-ms.openlocfilehash: c8973d9f5e269a9ebea48c81c70e68d74759eb92
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d0a4bbde9a3dc4bc22a6a709565fe3b1dcf1e009
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60755325"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60830616"
 ---
 # <a name="prepare-active-directory"></a>准备 Active Directory
 

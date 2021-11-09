@@ -2,7 +2,7 @@
 title: 会议配置 创建新的或编辑现有的
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e8fc19fa-6cd7-4f68-b90a-1c7e1b649abd
 description: 会议配置设置定义用户安排的会议的用户加入体验。 这些设置仅适用于安排的会议。 它们不适用于通过单击客户端中的"现在开会"选项创建临时会议。
-ms.openlocfilehash: 5812c73fd3f72d3c61994a95c977f9d4046be07f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 2ed752300cd306a17c5f5766d1b87c328ad0d517
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60742278"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862809"
 ---
 # <a name="meeting-configuration-create-new-or-edit-existing"></a>会议配置：创建新的或编辑现有的
 

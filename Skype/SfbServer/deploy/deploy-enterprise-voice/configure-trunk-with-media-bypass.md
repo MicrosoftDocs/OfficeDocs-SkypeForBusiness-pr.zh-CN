@@ -1,8 +1,8 @@
 ---
-title: Skype for Business Server：配置具有媒体旁路的中继
+title: Skype for Business Server：配置带媒体旁路的中继
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,26 +15,26 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 99d729ea-5a4c-4ff2-a4a3-93a24368da6d
-description: 摘要：配置启用了媒体旁路功能的中继Skype for Business Server。 这将最大程度地减少中介服务器的数量，假设 SIP 中继提供商支持中介服务器的数量。
-ms.openlocfilehash: aeb65216a3d001d4fe78808985a1010c23427277
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 摘要：为客户端配置启用媒体旁路Skype for Business Server。 这将最大程度地减少中介服务器的数量，假设 SIP 中继提供商支持中介服务器的数量。
+ms.openlocfilehash: da291852909d84e914a825aec39528803e488d8b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753823"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842464"
 ---
-# <a name="skype-for-business-server-configure-a-trunk-with-media-bypass"></a>Skype for Business Server：配置具有媒体旁路的中继
+# <a name="skype-for-business-server-configure-a-trunk-with-media-bypass"></a>Skype for Business Server：配置带媒体旁路的中继
 
 **摘要：** 配置启用了媒体旁路功能的中继Skype for Business Server。 这将最大程度地减少中介服务器的数量，假设 SIP 中继提供商支持中介服务器的数量。
 
-按照以下步骤配置启用了媒体旁路功能的中继。 若要配置禁用媒体旁路的中继，请参阅在 Skype for Business Server 中[配置无媒体旁路的中继](configure-trunk-without-media-bypass.md)。
+按照以下步骤配置启用了媒体旁路功能的中继。 若要配置禁用媒体旁路的中继，请参阅在 Skype for Business Server[中配置无媒体旁路的中继](configure-trunk-without-media-bypass.md)。
 
 如果希望将部署的中介服务器数目降至最低，媒体绕过非常有用。 有关详细信息，请参阅 Plan [for media bypass in Skype for Business](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
 
 我们强烈建议您启用媒体旁路。 但是，在 SIP 中继上启用媒体旁路之前，请确认您的合格 SIP 中继提供商支持媒体旁路，并能够满足成功启用方案的要求。 具体而言，提供商必须具有组织内部网络中服务器的 IP 地址。
 
 > [!NOTE]
-> 媒体旁路不会与 SBC (每个公用电话交换网 (PSTN) 网关、IP-PBX 和会话边界控制器 (互操作) 。 Microsoft 已与认证合作伙伴一起测试了一组 PSTN 网关和 SDC。 媒体旁路仅受"电话基础结构"页面中列出的产品和[Skype for Business Server支持。](../../../SfbPartnerCertification/certification/infra-gateways.md)
+> 媒体旁路功能不会与 SBC (每个公用电话交换网) IP-PBX 和会话边界控制器 (交互) 。 Microsoft 已与认证合作伙伴一起测试了一组 PSTN 网关和 SDC。 媒体旁路仅受"电话基础结构"页中列出的产品和[Skype for Business Server支持。](../../../SfbPartnerCertification/certification/infra-gateways.md)
 
 如下所述中继配置对应用于分配了此中继配置的中继的一组参数进行分组。 特定中继配置的作用域可以是全局中继（针对没有更多特定站点或池配置的所有中继）、站点或者池。 池级中继配置用于将特定中继配置的作用域限制为单个中继。
 
@@ -55,9 +55,9 @@ ms.locfileid: "60753823"
    - **池中继**：选择应用此中继配置的中继的名称。 此中继可以是根中继或在拓扑生成器中定义的任何附加中继。 从 **"选择服务"中，** 单击"确定 **"。** 请注意，如果已经为特定中继创建了中继配置，则该中继不会显示在“选择服务”中。
 
       > [!NOTE]
-      > 选择中继配置的作用域后，无法对其进行更改。 >" **名称** "字段会使用中继配置的关联站点或服务的名称预先填充，并且无法更改。
+      > 选择中继配置的作用域后，无法对其进行更改。 >" **名称"** 字段会使用中继配置的关联站点或服务的名称预先填充，并且无法更改。
 
-4. 在"支持的最大 **早期对话数"中指定值**。 这是公用电话交换网 (PSTN) 网关、IP-PBX 或 ITSP 会话边界控制器 (SBC) 可以接收的分叉响应的最大数量，这些响应发送到中介服务器。 默认值为 20。
+4. 在"支持的最大 **早期对话数"中指定值**。 这是公用电话交换网 (PSTN) 网关、IP-PBX 或 ITSP 会话边界控制器 (SBC) 可以接收的分叉响应的最大数目。SBC) 可以接收到发送到中介服务器的 INVITE。 默认值为 20。
 
     > [!NOTE]
     > 在更改此值之前，请咨询您的服务提供商或设备制造商，以了解有关所用系统功能的详细信息。
@@ -160,7 +160,7 @@ ms.locfileid: "60753823"
 
     - 若要从您的部署中提供的所有转换规则列表中选择一个或多个企业语音，请单击"**选择"。** 在“选择转换规则”中，单击要与中继关联的规则，然后单击“确定”。
 
-    - 要定义新的转换规则并将其与中继关联，请单击“新建”。 有关转换规则的详细信息，请参阅 translation [rules in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md)。
+    - 要定义新的转换规则并将其与中继关联，请单击“新建”。 有关转换规则的详细信息，请参阅 Translation [rules in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md)。
 
     - 要编辑已经与中继关联的转换规则，请单击相应的规则名称，然后单击“显示详细信息”。
 
@@ -181,14 +181,14 @@ ms.locfileid: "60753823"
 19. 在“Trunk 配置”页上，单击“提交”，然后单击“全部提交”。
 
     > [!NOTE]
-    > 任何时候创建或修改中继配置，都必须运行“全部提交”命令以发布配置更改。 有关详细信息，请参阅操作[文档中](voice-route-config-changes.md)的 Publish pending changes to the voice routing configuration in Skype for Business in the Operations documentation。
+    > 任何时候创建或修改中继配置，都必须运行“全部提交”命令以发布配置更改。 有关详细信息，请参阅操作[文档中的](voice-route-config-changes.md)Publish pending changes to the voice routing configuration in Skype for Business in the Operations documentation。
 
-配置中继后，继续通过选择全局媒体旁路选项来[配置媒体旁](deploy-media-bypass.md)路，如部署文档中的在 Skype for Business Server 中部署媒体旁路中所述。
+配置中继后，通过选择全局媒体旁路选项继续配置媒体旁路，如部署文档中的在 Skype for Business Server[](deploy-media-bypass.md)部署媒体旁路中所述。
 ## <a name="see-also"></a>另请参阅
 
 [在客户端中配置无媒体旁路Skype for Business Server](configure-trunk-without-media-bypass.md)
 
-[部署媒体旁路Skype for Business Server](deploy-media-bypass.md)
+[在部署媒体Skype for Business Server](deploy-media-bypass.md)
 
 [定义转换规则](/previous-versions/office/lync-server-2013/lync-server-2013-defining-translation-rules)
 

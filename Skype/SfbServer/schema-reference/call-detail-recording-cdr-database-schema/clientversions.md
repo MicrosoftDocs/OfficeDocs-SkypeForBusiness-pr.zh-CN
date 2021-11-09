@@ -2,7 +2,7 @@
 title: Skype for Business Server 2015 中的 ClientVersions 表
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 542316cf-a6db-4d52-ab28-8bf6d27a3b48
 description: ClientVersions 表是一个支持表，用于存储已参与数据库中记录的会话的各种客户端类型和版本的列表。表中的每条记录都代表一个客户端版本。
-ms.openlocfilehash: b3db255430e5b591db813b76fb01bd20d3f24118
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 230310d414c9dc34a92317e6369e18643b86f8d5
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765120"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842694"
 ---
 # <a name="clientversions-table-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的 ClientVersions 表
  

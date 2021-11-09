@@ -2,7 +2,7 @@
 title: 安装数据库选项页
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 926c47a0-3957-4892-b61a-7a4b569552c3
 ROBOTS: NOINDEX, NOFOLLOW
 description: 配置用于将数据库和日志文件放置到数据库和日志文件的高级SQL Server。 可用的选项有：
-ms.openlocfilehash: 39cf85f0c37a9cb3b97e43d09ab6bb5695655ba1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4ef2f2aa48b016a8472f53ccef46ef81a5afd6fb
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758624"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60830426"
 ---
 # <a name="install-database-options-page"></a>安装数据库选项页
 
@@ -29,7 +29,7 @@ ms.locfileid: "60758624"
 > [!IMPORTANT]
 > 选择最符合你与数据和策略相关的要求和策略的选项，日志文件你的SQL Server位置。
 
- **自动确定数据库文件位置**：默认选项使用一种算法来确定数据库SQL Server并分发数据库和日志文件以实现最佳性能。
+ **自动确定数据库文件位置**：默认选项使用一种算法来确定数据库上的可用空间SQL Server并分发数据库和日志文件以实现最佳性能。
 
  **Use SQL Server instance defaults**： Select this option to place database file and log files based on the instance settings at SQL Server. 这些选项通常由数据库管理员管理和配置。
 

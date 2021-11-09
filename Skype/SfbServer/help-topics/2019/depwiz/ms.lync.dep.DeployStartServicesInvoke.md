@@ -2,7 +2,7 @@
 title: 启动服务（调用）
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 7992440b-8545-4af9-b3ac-ea200b9de084
 ROBOTS: NOINDEX, NOFOLLOW
 description: "\"正在执行命令\"窗格上的摘要窗格显示为要部署的 Skype for Business Server 服务器启动服务而发出的任务的状态。"
-ms.openlocfilehash: 8dfb735cb68e4af885cda0dec84a586f3891379f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4e1dcf8a9118e21bff1ebaeaa0816c7ea0c9fc75
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758924"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856189"
 ---
 # <a name="start-services-invoke"></a>启动服务（调用）
  

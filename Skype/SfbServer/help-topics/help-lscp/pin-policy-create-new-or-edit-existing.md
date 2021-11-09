@@ -2,7 +2,7 @@
 title: PIN 策略 创建新的或编辑现有的
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 344b9be6-dd37-46bc-bfa4-5c06f6666aa7
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: 26de4b568db8bdaaa98bdce114f20c2eba82b206
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e863f072077c798c6f9f24c558e48b15e6488687
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60744598"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862739"
 ---
 # <a name="pin-policy-create-new-or-edit-existing"></a>PIN 策略：创建新的或编辑现有的
 

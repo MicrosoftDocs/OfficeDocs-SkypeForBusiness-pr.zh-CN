@@ -12,27 +12,27 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 为 IT 专业人员提供指向 Skype for Business 2016、Skype for Business 2015 和 Lync 2013 客户端永久版本的最新更新信息的链接
-ms.openlocfilehash: 574deac22c50cfedc71d7d289cfcbe0ecc9e8286
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: c5afa83fa2c85a2a5812f5d192345755800e502d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60013936"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863209"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>使用 MSI 安装程序Skype for Business安装程序Windows版本的 (的最新) 
 
 使用此页面上的链接可以详细了解并下载 Skype for Business 2016、Skype for Business 2015 和 Lync 2013 客户端永久版本的最新更新。
 
 > [!NOTE]
-> - 本文中的信息仅适用于使用 Skype for Business Installer Windows MSI (MSI) 版本的永久版本。 例如，如果你安装了批量许可版本的 Skype for Business，Skype for Business包含在Office 专业增强版 2016。
-> - 本文中的信息不适用于 Microsoft 365 或 Office 365 Skype for Business 版本，Skype for Business Microsoft 365 企业应用版。
-> - 有关最新的移动客户端更新，请转到 iTunes、Google Play 或 (移动客户端的应用程序商店Microsoft Store) 查看详细信息并安装更新。
-> - 若要了解你使用的Skype for Business版本，请参阅我拥有Skype for Business[版本？](https://support.microsoft.com/help/3195481/how-to-check-the-version-of-skype-for-business-2016)
+> - 本文中的信息仅适用于使用 Skype for Business Installer Windows MSI (安装技术的) 版本。 例如，如果你安装了批量许可版本的 Skype for Business，Skype for Business包含在Office 专业增强版 2016。
+> - 本文中的信息不适用于 Microsoft 365 或 Office 365 版本的 Skype for Business，Skype for Business Microsoft 365 企业应用版。
+> - 有关最新的移动客户端更新，请转到 iTunes、Google Play 或 (移动客户端的应用程序Microsoft Store) 查看详细信息和安装更新。
+> - 若要了解你Skype for Business版本，请参阅我拥有哪些版本的[Skype for Business？](https://support.microsoft.com/help/3195481/how-to-check-the-version-of-skype-for-business-2016)
 > - 有关安装 Office 更新的详细信息，请参阅[安装 Office 更新](https://support.office.com/article/2ab296f3-7f03-43a2-8e50-46de917611c5)。
 
-Skype for Business环境Microsoft 365或Office 365本地环境的兼容性取决于部署的系统要求：
+Skype for Business部署Microsoft 365或Office 365环境以及本地环境的兼容性取决于部署的系统要求：
 
-- Microsoft 365和Office 365支持的任何版本的 Skype for Business，其中包括最新版本的 Skype for Business 2016。 对于早期版本的 Skype for Business，只有那些具有扩展支持的版本可以继续使用 Microsoft 365 或 Office 365，尽管功能已缩减。 有关详细信息，请参阅 [Microsoft 生命周期策略](https://support.microsoft.com/lifecycle)。
+- Microsoft 365和Office 365与主要支持的任何 Skype for Business 版本（包括最新版本的 Skype for Business 2016）一起运行。 对于早期版本的 Skype for Business，只有那些具有扩展支持的版本可以继续使用 Microsoft 365 或 Office 365，尽管功能已缩减。 有关详细信息，请参阅 [Microsoft 生命周期策略](https://support.microsoft.com/lifecycle)。
 
 - For Skype for Business Server on-premises deployments， follow the system requirements for your version of Skype for Business：
 
@@ -48,7 +48,7 @@ Skype for Business环境Microsoft 365或Office 365本地环境的兼容性取决
 |:---  |:---  |:---  |
 |Skype for Business 2016 的更新 |[KB 4484133](https://support.microsoft.com/kb/4484133) | 2019 年 12 月|
 |Skype for Business 2016 的更新 |[KB 4484102](https://support.microsoft.com/kb/4484102) | 2019 年 10 月|
-|Skype for Business 2016 的更新 |[KB 4475577](https://support.microsoft.com/kb/4475577) | 2019 年 9 月|
+|Skype for Business 2016 的更新 |[KB 4475577](https://support.microsoft.com/kb/4475577) | 2019年九月|
 |Skype for Business 2016 的更新 |[KB 4475548](https://support.microsoft.com/kb/4475548) | 2019 年 8 月|
 |Skype for Business 2016 的更新 |[KB 4475545](https://support.microsoft.com/kb/4475545) | 2019 年 7 月|
 |Skype for Business 2016 的更新 |[KB 4464576](https://support.microsoft.com/kb/4464576) | 2019 年 6 月|
@@ -118,14 +118,14 @@ Skype for Business环境Microsoft 365或Office 365本地环境的兼容性取决
 |Skype for Business 2015/Lync 2013 的更新 |[KB 4011255](https://support.microsoft.com/kb/4011255) | 2017 年 11 月 |
 |Skype for Business 2015/Lync 2013 的安全更新|[KB 4011179](https://support.microsoft.com/kb/4011179) | 2017 年 10 月 |
 |Skype for Business 2015/Lync 2013 的安全更新|[KB 4011107](https://support.microsoft.com/kb/4011107) | 2017 年 9 月 |
-|lync 2015/Lync 2013 Skype for Business Lync 2013 的 Lynchelploc 安全更新|[KB 3213568](https://support.microsoft.com/kb/3213568) | 2017 年 9 月 |
+|Lync 2015/Lync 2013 Skype for Business Lync 的 Lynchelploc 安全更新|[KB 3213568](https://support.microsoft.com/kb/3213568) | 2017 年 9 月 |
 |Skype for Business 2015/Lync 2013 的更新 |[KB 4011046](https://support.microsoft.com/kb/4011046) | 2017 年 8 月 |
 |Skype for Business 2015/Lync 2013 的更新 |[KB 3213574](https://support.microsoft.com/kb/3213574) | 2017 年 7 月 |
 |Skype for Business 2015/Lync 2013 的安全更新|[KB 3191939](https://support.microsoft.com/kb/3191939) | 2017 年 6 月 |
 |Skype for Business 2015/Lync 2013 的安全更新|[KB 3191937](https://support.microsoft.com/kb/3191937) | 2017 年 6 月 |
-|Lync 2015/Lync 2013 Skype for Business Lynchelploc 更新 |[KB 3191873](https://support.microsoft.com/kb/3191873) | 2017 年 5 月 |
+|lync 2015/Lync 2013 Skype for Business Lynchelploc 更新 |[KB 3191873](https://support.microsoft.com/kb/3191873) | 2017 年 5 月 |
 |Skype for Business 2015/Lync 2013 的更新|[KB 3191876](https://support.microsoft.com/kb/3191876) | 2017 年 5 月 |
-|Lync 2015/Lync 2013 Skype for Business Lynchelploc 更新 |[KB 3172492](https://support.microsoft.com/kb/3172492) | 2017 年 4 月 |
+|lync 2015/Lync 2013 Skype for Business Lynchelploc 更新 |[KB 3172492](https://support.microsoft.com/kb/3172492) | 2017 年 4 月 |
 |Skype for Business 2015/Lync 2013 的更新 |[KB 3178731](https://support.microsoft.com/kb/3178731) | 2017 年 4 月 |
 |Skype for Business 2015/Lync 2013 的安全更新 |[KB 3172539](https://support.microsoft.com/kb/3172539) | 2017 年 3 月 |
 |Skype for Business 2015/Lync 2013 的更新| [KB 3161988](https://support.microsoft.com/kb/3161988) | 2017 年 2 月 |
@@ -181,7 +181,7 @@ Skype for Business环境Microsoft 365或Office 365本地环境的兼容性取决
 |Skype for Business 2015/Lync 2013 的更新|[KB 3213574](https://support.microsoft.com/kb/3213574) | 2017 年 7 月 |
 |Skype for Business 2015/Lync 2013 的更新|[KB 3191939](https://support.microsoft.com/kb/3191939) | 2017 年 6 月 |
 |Skype for Business 2015/Lync 2013 的安全更新|[KB 3191937](https://support.microsoft.com/kb/3191937) | 2017 年 6 月 |
-|Lync 2015/Lync 2013 Skype for Business Lynchelploc 更新|[KB 3191873](https://support.microsoft.com/kb/3191873) | 2017 年 5 月 |
+|lync 2015/Lync 2013 Skype for Business Lynchelploc 更新|[KB 3191873](https://support.microsoft.com/kb/3191873) | 2017 年 5 月 |
 |Skype for Business 2015/Lync 2013 的更新|[KB 3191876](https://support.microsoft.com/kb/3191876) | 2017 年 5 月 |
 |Skype for Business 2015/Lync 2013 的更新|[KB 3172492](https://support.microsoft.com/kb/3172492) | 2017 年 4 月 |
 |Skype for Business 2015/Lync 2013 的更新|[KB 3178731](https://support.microsoft.com/kb/3178731) | 2017 年 4 月 |
@@ -237,11 +237,11 @@ Skype for Business环境Microsoft 365或Office 365本地环境的兼容性取决
 | Aastra 6721ip 和 Aastra 6725ip 电话的 Lync 电话 Edition 累积更新                            | [KB 3050585](https://support.microsoft.com/kb/3050585)   | 2015 年 5 月     |
 | HP 4110 和 HP 4120 电话的 Lync 电话 Edition 累积更新                                        | [KB 3050587](https://support.microsoft.com/kb/3050587)   | 2015 年 5 月     |
 | Polycom CX500、Polycom CX600 和 Polycom CX3000 的 Lync 电话 Edition 累积更新                      | [KB 3050588](https://support.microsoft.com/kb/3050588)   | 2015 年 5 月     |
-| Polycom CX700 的 Lync 电话 Edition 和 LG-Nortel IP 电话 8540 电话的累积更新                  | [KB 3050590](https://support.microsoft.com/kb/3050590)   | 2015 年 5 月     |
+| Polycom CX700 的 Lync 电话 Edition 累积更新和 LG-Nortel IP 电话 8540 电话                  | [KB 3050590](https://support.microsoft.com/kb/3050590)   | 2015 年 5 月     |
 | Aastra 6721ip 和 Aastra 6725ip 电话的 Lync 电话 Edition 累积更新                            | [KB 2954032](https://support.microsoft.com/kb/2954032)         | 2014 年 4 月   |
 | HP 4110 和 HP 4120 电话的 Lync 电话 Edition 累积更新                                        | [KB 2954033](https://support.microsoft.com/kb/2954033)         | 2014 年 4 月   |
 | Polycom CX500、Polycom CX600 和 Polycom CX3000 电话的 Lync 电话 Edition 累积更新           | [KB 2954034](https://support.microsoft.com/kb/2954034)         | 2014 年 4 月   |
-| Polycom CX700 的 Lync 电话 Edition 和 LG-Nortel IP 电话 8540 电话的累积更新                  | [KB 2954035](https://support.microsoft.com/kb/2954035)         | 2014 年 4 月   |
+| Polycom CX700 的 Lync 电话 Edition 累积更新和 LG-Nortel IP 电话 8540 电话                  | [KB 2954035](https://support.microsoft.com/kb/2954035)         | 2014 年 4 月   |
 
 ### <a name="lync-phone-edition-clients-on-download-center"></a>下载电话 Lync 电话 Edition 客户端
 
@@ -253,7 +253,7 @@ Skype for Business环境Microsoft 365或Office 365本地环境的兼容性取决
 
 ### <a name="lync-basic-2013-software"></a>Lync Basic 2013 软件
 
-|程序包名称|发布日期| |
+|程序包名称|发布日期|&nbsp;|
 |:--- |:--- |:--- |
 |[Lync Basic 2013 (32 位) ](https://www.microsoft.com/download/details.aspx?id=35451) | 2012 年 10 月 |
 |[Lync Basic 2013 (64 位) ](https://www.microsoft.com/download/details.aspx?id=35450) | 2012 年 10 月 |

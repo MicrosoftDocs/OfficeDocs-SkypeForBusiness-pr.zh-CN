@@ -2,7 +2,7 @@
 title: 服务器性能报告Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 942bb39a-1790-498e-9d99-8f6ce2d155c3
 description: 摘要：了解 Skype for Business Server 中的服务器性能报告。
-ms.openlocfilehash: 1d276d0dd4deec374ff88ca32d143855dae8919b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6e13a12452fbdbf650a7e307340269803a2301b6
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60746908"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60836334"
 ---
 # <a name="server-performance-report-in-skype-for-business-server"></a>服务器性能报告Skype for Business Server
  
@@ -39,7 +39,7 @@ ms.locfileid: "60746908"
     
 - 应用程序共享 (包括 A/V 会议服务器和 A/V 边缘服务器的应用程序共享) 
     
-需要注意的是，此报告中显示的排名是相对排名。 例如，假设性能最差的服务器在其 1，000 个拨打的呼叫中拥有一个质量欠佳的呼叫。 这是 0.1% 的可接受百分比。 但是，如果这是性能最差的服务器， (也就是说，如果所有其他服务器的通话百分比都低于 .1%) ，那么该服务器仍将出现在"服务器性能报告"中。
+需要注意的是，此报告中显示的排名是相对排名。 例如，假设性能最差的服务器在 1，000 个拨打的呼叫中拥有一个质量欠佳的呼叫。 这是 0.1% 的可接受百分比。 但是，如果这是性能最差的服务器，则具有 (即，如果所有其他服务器的通话质量欠佳的百分比甚至低于 .1%) ，该服务器仍将出现在"服务器性能报告"中。
   
 ## <a name="accessing-the-server-performance-report"></a>访问服务器性能报告
 
@@ -106,7 +106,7 @@ ms.locfileid: "60746908"
 |**呼叫量(外部呼叫)** <br/> |否  <br/> |使用了外部连接（即内部网络外部的连接）的呼叫的总数。  <br/> |
 |**平均比特率(Kb/s)** <br/> |否  <br/> |平均视频比特率 (Kb/s)。  <br/> |
 |**低比特率百分比** <br/> |否  <br/> |比特率较低的呼叫的百分比。  <br/> |
-|**出站数据包丢失** <br/> |否  <br/> |出站数据包的实时传输协议 (RTP) 数据包丢失率。  (数据包（一种用于在 Internet 中传输音频和视频的协议）无法到达其目标位置时发生数据包丢失。) 高丢失率通常是由拥塞造成的;带宽不足;无线拥塞或干扰;或媒体服务器超载。 数据包丢失通常导致音频失真或丢失。  <br/> |
+|**出站数据包丢失** <br/> |否  <br/> |出站数据包的实时传输协议 (RTP) 数据包丢失率。  (当 RTP 数据包（一种用于在 Internet 中传输音频和视频的协议）无法到达其目标位置时发生数据包丢失。) 高丢失率通常是由拥塞造成的;带宽不足;无线拥塞或干扰;或媒体服务器超载。 数据包丢失通常导致音频失真或丢失。  <br/> |
 |**冻结帧百分比** <br/> |否  <br/> |"冻结"帧的百分比。 在一个冻结帧中，视频将停止前进，而呼叫的音频部分将继续。  <br/> |
 |**出站平均帧速率** <br/> |否  <br/> |呼叫期间的出站传输的平均帧速率。  <br/> |
 |**入站平均帧速率** <br/> |否  <br/> |呼叫期间的入站传输的平均帧速率。  <br/> |

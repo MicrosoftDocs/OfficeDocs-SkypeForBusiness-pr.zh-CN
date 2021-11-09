@@ -2,7 +2,7 @@
 title: 配置存档选项以处理Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 31fd4e7c-3c68-48dd-9fad-8863831accd7
-description: 摘要：了解如何在出现可能阻止存档的Skype for Business Server阻止 IM 和会议会话。
-ms.openlocfilehash: 24bfa5190f4aa86a51d7737c952e6536a7d89b34
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 摘要：了解如何在出现可能阻止存档的故障时Skype for Business Server IM 和会议会话。
+ms.openlocfilehash: f3f20bf53a784972c720ce5578d78462cbb222c8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767920"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60836464"
 ---
 # <a name="configure-archiving-options-to-handle-failures-in-skype-for-business-server"></a>配置存档选项以处理Skype for Business Server
 
 **摘要：** 了解如何在出现可能阻止存档的故障时Skype for Business Server IM 和会议会话。
   
-如果存档是组织的要求，可以在发生阻止存档的故障时Skype for Business Server IM 和会议会话。 这有时称为关键模式。 例如，如果存储服务出现问题，将阻止其通信已启用存档的用户使用 IM。 IM 和会议都能在修复故障后自动恢复。 
+如果存档是组织的要求，可以在出现阻止存档的故障时Skype for Business Server IM 和会议会话。 这有时称为关键模式。 例如，如果存储服务出现问题，将阻止其通信已启用存档的用户使用 IM。 IM 和会议都能在修复故障后自动恢复。 
   
 ## <a name="configure-critical-mode-by-using-the-control-panel"></a>使用控制面板配置关键模式
 

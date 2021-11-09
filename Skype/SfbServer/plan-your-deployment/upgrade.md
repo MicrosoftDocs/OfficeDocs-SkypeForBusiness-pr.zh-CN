@@ -2,7 +2,7 @@
 title: 计划升级到 Skype for Business Server 2015
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
@@ -16,13 +16,13 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: c62b5f6a-bdbe-4ac1-aabf-89e560e64a26
-description: 摘要：了解在规划升级到 2015 Skype for Business Server应考虑的问题。 从 Microsoft Evaluation Center 下载 Skype for Business Server 2015 的免费试用版 https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server ：。
-ms.openlocfilehash: 3cd670d239d04f51ef8268ca74e0bba13f29d249
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 摘要：了解在规划升级到 2015 Skype for Business Server应考虑的问题。 从 Microsoft 评估中心下载 Skype for Business Server 2015 的免费试用版 https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server ：。
+ms.openlocfilehash: be1d780230f15b1bf8c8205f2453f7b852fdb27a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768480"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849675"
 ---
 # <a name="plan-to-upgrade-to-skype-for-business-server-2015"></a>计划升级到 Skype for Business Server 2015
  
@@ -31,18 +31,18 @@ ms.locfileid: "60768480"
 作为升级到 Skype for Business Server 2015 计划的一部分，请使用本主题了解到 Skype for Business Server 2015 的建议升级路径、In-Place 升级的工作方式、受支持的共存方案以及升级过程的外观。
 
 > [!NOTE]
-> 2015 年 2 月Skype for Business Server就地升级，但在 2019 年 2 月不再Skype for Business Server升级。 支持并行共存，有关详细信息，请参阅迁移到[Skype for Business Server 2019。](../../SfBServer2019/migration/migration-to-skype-for-business-server-2019.md)
+> 2015 年 3 月Skype for Business Server就地升级，但在 2019 年 2 月不再Skype for Business Server升级。 支持并行共存，有关详细信息，请参阅迁移到[Skype for Business Server 2019。](../../SfBServer2019/migration/migration-to-skype-for-business-server-2019.md)
   
-## <a name="recommended-upgrade-paths-to-skype-for-business-server-2015"></a>2015 年 10 月Skype for Business Server升级途径
+## <a name="recommended-upgrade-paths-to-skype-for-business-server-2015"></a>2015 年 10 Skype for Business Server升级路径
 
  若要从 Lync Server 2013、Lync Server 2010 或 Office Communications Server 2007 R2 升级到 Skype for Business Server 2015，请使用以下升级路径：
   
 > [!CAUTION]
-> In-Place升级会自动将会议目录从 Lync Server 2013 Skype for Business Server 2015。 但是，如果您计划手动移动会议目录，则使用 Skype for Business Server 2015 命令行管理程序非常重要。 如果您尝试使用 Lync Server 2013 命令行管理程序将会议目录从 Lync Server 2013 移动到 Skype for Business Server 2015，则可能发生数据丢失。 通常，每当以任何容量使用 Skype for Business Server 2015 时，都应使用 Skype for Business Server 2015 工具集。  
+> In-Place升级会自动将会议目录从 Lync Server 2013 Skype for Business Server 2015。 但是，如果您计划手动移动会议目录，则使用 Skype for Business Server 2015 命令行管理程序非常重要。 如果您尝试使用 Lync Server 2013 命令行管理程序将会议目录从 Lync Server 2013 移动到 Skype for Business Server 2015，则可能发生数据丢失。 通常，每当以任何容量Skype for Business Server 2015 时，都应使用 Skype for Business Server 2015 工具集。  
   
 |**版本**|**建议**|
 |:-----|:-----|
-|Lync Server 2013  <br/> | 若要升级，请使用Skype for Business Server拓扑生成器和与池关联的每台In-Place新的"升级"功能。 有关详细步骤，请参阅 Plan [to upgrade from Lync Server 2013 to Skype for Business Server 2015](upgrade.md#BKMK_PlanUpgradeFromLync2013)和 Upgrade to Skype for Business Server [2015。](../deploy/upgrade-to-skype-for-business-server.md) <br/> |
+|Lync Server 2013  <br/> | 若要升级，请使用Skype for Business Server生成器和与池关联的每台In-Place新的"升级"功能。 有关详细步骤，请参阅 Plan [to upgrade from Lync Server 2013 to Skype for Business Server 2015](upgrade.md#BKMK_PlanUpgradeFromLync2013)和 Upgrade to Skype for Business Server [2015。](../deploy/upgrade-to-skype-for-business-server.md) <br/> |
 |Lync Server 2010 + Lync Server 2013 (双模式)   <br/> |首先，升级到 Lync Server 2013，然后使用新的 Skype for Business Server 升级功能升级到 In-Place 2015。 但是，如果您的拓扑是主 Lync Server 2010，则还可以将 Lync Server 2013 组件回滚到 Lync Server 2010，然后直接升级到 Skype for Business Server 2015。 在这种情况下，将无法利用 In-Place 升级，并且将在 Lync Server 2010 和 Skype for Business Server 2015 之间直接共存。 不支持三元存在，但支持共存。  <br/> |
 |Lync Server 2010  <br/> |在 2015 Skype for Business Server新池，然后将用户迁移到此新池。 然后，您可以停用旧的 Lync Server 2010 池。 从 Lync Server 2010 升级到 Skype for Business Server 2015 与从 Lync Server 2010 升级到 Lync Server 2013 类似。 请参阅[从 Lync Server 2010 迁移到 Lync Server 2013。](/previous-versions/office/lync-server-2013/migration-from-lync-server-2010-to-lync-server-2013)  <br/> |
 |Office Communications Server 2007 R2  <br/> | 选择两个选项之一： <br/>  设置新的 Skype for Business Server 2015 环境。 <br/>  或者，如果您的硬件和软件满足 Skype for Business Server 2015 的要求，请升级到 Lync Server 2013，然后使用新的 In-Place 升级功能升级到 Skype for Business Server 2015。 有关详细信息，请参阅[Server requirements for Skype for Business Server 2015](requirements-for-your-environment/server-requirements.md)和 Migration from Office Communications Server [2007 R2 to Lync Server 2013。](/previous-versions/office/lync-server-2013/migration-from-office-communications-server-2007-r2-to-lync-server-2013)  <br/> |
@@ -103,7 +103,7 @@ ms.locfileid: "60768480"
   
 下图显示了此过程的概述。
   
-![Lync 2013 Skype用户脱机。](../media/e5511897-77bc-46aa-96be-85b126d7da79.png)
+![Lync 2013 以Skype用户脱机。](../media/e5511897-77bc-46aa-96be-85b126d7da79.png)
   
 > [!NOTE]
 > 如果你有配对的池，请不要在升级之前取消配对。 
@@ -118,7 +118,7 @@ ms.locfileid: "60768480"
 > [!IMPORTANT]
 > 作为"移动用户"的一部分，您还需要迁移与主池关联的全局会议目录。 PSTN 电话拨入式会议仍将 ConferenceID 解析为要升级的池，而不是配对池。 因此，如果仍希望池中安排的 PSTN 会议在升级过程中可访问，则需要移动会议目录。 
   
-![显示升级池之前移至另一个池的用户以及升级后移回池的用户的示意图。](../media/7962b3a0-f61a-4340-b8b1-51c20e150d96.png)
+![显示升级池之前移至另一个池的用户，以及升级后移回池的用户的示意图。](../media/7962b3a0-f61a-4340-b8b1-51c20e150d96.png)
   
 #### <a name="move-users-for-hardware-upgrade"></a>移动用户进行硬件升级
 <a name="bkmk_MoveUsersMethod"> </a>
@@ -150,7 +150,7 @@ ms.locfileid: "60768480"
    - 对于非前端服务器，请使用 Start-CSWindowsService。
     
 > [!NOTE]
->  如果不想升级现有存档和监控数据库，在升级拓扑之前删除依赖项。 如果要创建新的存档和监控数据库，可以在升级过程中创建新的存档SQL存储并将其与池关联。 您可以在 Upgrade[to Skype for Business Server 2015 主题中查找如何操作的步骤](../deploy/upgrade-to-skype-for-business-server.md)。 >就地升级不支持高可用性或灾难恢复Skype for Business Server。 为避免中断用户服务，请使用 Move Users 方法 [ (无 ](upgrade.md#bkmk_MoveUsersMethod) 用户停机时间) 升级。> 在升级过程中，xds 副本被放置在可用空间最多的磁盘驱动器上的本地共享文件夹中。 如果该磁盘稍后被删除，则可能会遇到诸如服务未启动等问题。
+>  如果不想升级现有存档和监控数据库，在升级拓扑之前删除依赖项。 如果要创建新的存档和监控数据库，可以在升级过程中创建新的存档SQL存储并将其与池关联。 您可以在 Upgrade[to Skype for Business Server 2015](../deploy/upgrade-to-skype-for-business-server.md)主题中查找如何操作的步骤。 >就地升级不支持高可用性或灾难恢复Skype for Business Server。 为了避免中断用户的服务，请使用 Move Users 方法 [ (无 ](upgrade.md#bkmk_MoveUsersMethod) 用户停机时间) 升级。> 在升级过程中，xds 副本将放置在可用空间最多的磁盘驱动器上的本地共享文件夹中。 如果该磁盘稍后被删除，则可能会遇到诸如服务未启动等问题。
   
 ### <a name="upgrade-order"></a>升级顺序
 
@@ -158,7 +158,7 @@ ms.locfileid: "60768480"
   
 ### <a name="kerberos-authentication-considerations"></a>Kerberos 身份验证注意事项
 
-如果将 Kerberos 身份验证用于 Web 服务，则必须在升级完成后重新分配 Kerberos 帐户并重置In-Place密码。 若要了解如何进行此操作，请参阅设置 [Kerberos 身份验证](/previous-versions/office/lync-server-2013/lync-server-2013-setting-up-kerberos-authentication)。
+如果将 Kerberos 身份验证用于 Web 服务，则必须重新分配 Kerberos 帐户，在升级完成后In-Place重置密码。 若要了解如何进行此操作，请参阅设置 [Kerberos 身份验证](/previous-versions/office/lync-server-2013/lync-server-2013-setting-up-kerberos-authentication)。
   
 ## <a name="support-for-coexistence-with-lync-server-2013-and-lync-server-2010"></a>支持与 Lync Server 2013 和 Lync Server 2010 共存
 <a name="BKMK_PlanUpgradeFromLync2013"> </a>
@@ -176,7 +176,7 @@ ms.locfileid: "60768480"
 ## <a name="upgrade-process-with-existing-survivable-branch-appliance-and-server"></a>使用现有 Survivable Branch Appliance 和 Survivable Branch Server 的升级过程
 <a name="BKMK_PlanUpgradeFromLync2013"> </a>
 
-Skype for Business Server 2015 不支持 Survivable Branch Appliance (SBA) 或 Survivable Branch Server (SBS) 的 In-Place 升级。
+Skype for Business Server 2015 不支持 Survivable Branch Appliance In-Place SBA (SBA) 或 Survivable Branch Server (SBS) 。
   
 但是，我们支持将 Skype for Business Server与 Lync Server 2010 或 Lync Server 2013 SBA/SBS 共存。 
   

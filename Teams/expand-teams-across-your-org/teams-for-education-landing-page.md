@@ -2,7 +2,7 @@
 title: Teams 教育版
 description: 了解可帮助你成功部署、采用和管理学校或Teams的管理员资源。
 ms.topic: conceptual
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 audience: admin
@@ -19,16 +19,16 @@ appliesto:
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.assignments.overview
-ms.openlocfilehash: c7d2429a412c74ebf175d6e4f99dfe1a6d8b522a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 563cf727031ebad6f27c7989499a95040e8fa104
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60749078"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863139"
 ---
 # <a name="teams-for-education"></a>Teams 教育版
 
-借助Teams，教师和教职员工可以创建协作课堂、在专业学习社区中联系并与学生和教师交流。 使用此处的管理员资源来帮助你成功部署、采用和管理Teams或机构中的资源。 
+借助Teams，教师和教职员工可以创建协作教室，在专业学习社区中联系，并与学生和教师交流。 使用此处的管理员资源来帮助你成功部署、采用和管理Teams或机构中的资源。 
 
 
 |&nbsp;|&nbsp;|

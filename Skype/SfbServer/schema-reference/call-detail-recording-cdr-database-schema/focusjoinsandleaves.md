@@ -2,7 +2,7 @@
 title: Skype for Business Server 2015 中的 FocusJoinsAndLeaves 表
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 7/15/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e6f0212c-67e9-4061-8720-d0296e855991
 description: 此表中的每条记录都包含有关一个用户加入和离开一个会议的 CDR 信息。 每次用户加入和离开会议时，此表中每个会议都由一条记录表示。
-ms.openlocfilehash: ca5ba1776478566c57d8e5992b86db2dd300613b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f48c36e4a6d12150594c7e5c0bfb44046b6804cf
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777782"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60828575"
 ---
 # <a name="focusjoinsandleaves-table-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的 FocusJoinsAndLeaves 表
  
@@ -37,7 +37,7 @@ ms.locfileid: "60777782"
 |**UserJoinTime** <br/> |datetime  <br/> | <br/> |此用户加入会议的时间。  <br/> |
 |**UserLeaveTime** <br/> |datetime  <br/> | <br/> |此用户离开会议的时间。  <br/> |
 |**ClientVerId** <br/> |int  <br/> |Foreign  <br/> |[2015](clientversions.md)年 10 月中引用了 ClientVersions 表的用户Skype for Business Server的版本。  <br/> |
-|**UserEndpointId** <br/> |uniqueIdentifier  <br/> ||全局唯 (标识符) 会议中使用的终结点的 GUID。  <br/> 此字段在 Microsoft Lync Server 2013 中引入。  <br/> |
+|**UserEndpointId** <br/> |uniqueIdentifier  <br/> ||会议中使用的 (GUID) 全局唯一标识符。  <br/> 此字段在 Microsoft Lync Server 2013 中引入。  <br/> |
 |**LastModifiedTime** <br/> |Datetime  <br/> ||供监控服务内部使用。  <br/> 此字段是在 2015 年 Skype for Business Server引入的。  <br/> |
    
 

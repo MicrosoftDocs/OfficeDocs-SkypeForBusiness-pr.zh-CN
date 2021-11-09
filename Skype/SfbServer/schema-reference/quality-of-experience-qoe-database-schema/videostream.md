@@ -2,7 +2,7 @@
 title: VideoStream 表
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 4275ede7-5467-4a97-b8c8-a4b00917bf32
 description: 每条记录代表一个视频流。 一个视频媒体行通常包含两个视频流。
-ms.openlocfilehash: 78bc415c7b95fd0f9b6ecb3f3242b5a29c93c0dd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 5e1b566db7ee3f79219835055d6e617beeea6da6
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60756063"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863249"
 ---
 # <a name="videostream-table"></a>VideoStream 表
  
@@ -47,7 +47,7 @@ ms.locfileid: "60756063"
 |**VideoFrameLossRate** <br/> |decimal (9，4)   <br/> | <br/> |丢失的总视频帧百分比。  <br/> |
 |**VideoFEC** <br/> |bit  <br/> | <br/> |不可用。  <br/> |
 |**VideoLocalFrameLossPercentageAvg** <br/> |decimal (9，4)   <br/> ||丢失的总视频帧百分比。  <br/> |
-|**CIFQualityRatio** <br/> |tinyint  <br/> ||采用通用交换格式的呼叫的百分比 (CIF) 分辨率。  <br/> |
+|**CIFQualityRatio** <br/> |tinyint  <br/> ||使用通用交换格式的呼叫在 CIF 中 (的) 百分比。  <br/> |
 |**VGAQualityRatio** <br/> |tinyint  <br/> ||使用 VGA 分辨率的呼叫的百分比。  <br/> |
 |**HD720QualityRatio** <br/> |tinyint  <br/> ||分辨率为 HD720 的呼叫的百分比。  <br/> |
 |**NoneDropRatio** <br/> |tinyint  <br/> ||无帧拖放的呼叫持续时间百分比。  <br/> |
@@ -92,7 +92,7 @@ ms.locfileid: "60756063"
 |**RecvBitRateAverage** <br/> |int  <br/> ||接收器的平均比特率。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
 |**RecvVideoStreamsMax** <br/> |int  <br/> ||接收器的最大视频流。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
 |**RecvVideoStreamsMin** <br/> |int  <br/> ||接收器的最低视频流。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
-|**RecvVideoStreamsMode** <br/> |int  <br/> ||视频模式 (例如，接收器的库或) 流。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
+|**RecvVideoStreamsMode** <br/> |int  <br/> ||视频模式 (，例如，用于接收器) 库或单个流。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
 |**VideoPostFECPLR** <br/> |float  <br/> ||应用前向错误更正后的数据包丢失率。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
 |**DynamicCapabilityPercent** <br/> |float  <br/> ||动态功能标志处于活动状态的时间百分比。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
 |**ResolutionMin** <br/> |char (9)   <br/> ||呼叫期间测量的最小分辨率。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |

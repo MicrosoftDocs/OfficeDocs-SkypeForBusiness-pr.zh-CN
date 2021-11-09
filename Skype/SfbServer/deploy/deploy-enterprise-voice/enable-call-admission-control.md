@@ -1,8 +1,8 @@
 ---
-title: 在呼叫中启用呼叫允许Skype for Business Server
+title: 启用呼叫允许控制Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,14 +16,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 80201105-18f7-4c02-9c71-8df5a952f6c7
 description: 启用呼叫允许控制Skype for Business Server 企业语音。
-ms.openlocfilehash: b35e55bbe0a9929222eb5d67f7449e2247cf91e0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9532208e9734f0a404e95e5c8035e0d4d0aff463
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60775772"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842404"
 ---
-# <a name="enable-call-admission-control-in-skype-for-business-server"></a>在呼叫中启用呼叫允许Skype for Business Server
+# <a name="enable-call-admission-control-in-skype-for-business-server"></a>启用呼叫允许控制Skype for Business Server
  
 启用呼叫允许控制Skype for Business Server 企业语音。 
   
@@ -45,7 +45,7 @@ ms.locfileid: "60775772"
    Set-CsNetworkConfiguration -EnableBandwidthPolicyCheck 0
    ```
 
-### <a name="to-enable-call-admission-control-by-using-skype-for-business-server-control-panel"></a>使用控制面板启用呼叫允许Skype for Business Server控制
+### <a name="to-enable-call-admission-control-by-using-skype-for-business-server-control-panel"></a>使用控制面板启用呼叫Skype for Business Server控制
 
 1. 打开Skype for Business Server控制面板"。
     

@@ -2,7 +2,7 @@
 title: 用户分配策略
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: f36a2699-5cf6-4995-9f6d-ec3519ca0903
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: b9c4d291baacc3760c515752c00126a063b372a5
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 78f2e71fcb0c1f2439b40fd27dc939c43a104a73
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771280"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60828175"
 ---
 # <a name="users-assign-policies"></a>用户：分配策略
 

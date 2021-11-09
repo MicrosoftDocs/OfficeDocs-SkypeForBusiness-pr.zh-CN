@@ -1,6 +1,6 @@
 ---
 title: 提高认识度并实施培训
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.date: 11/09/2018
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9d3ba97744998014d0cfb6199aac71d63590a41f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e1832ca945edab2560a5a604fe85c01c0c9f53f0
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753883"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842524"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>为 Microsoft Teams 推动认知并开展培训
 
@@ -45,11 +45,11 @@ ms.locfileid: "60753883"
 
 完成初始试点后，可以扩展上述工作，以覆盖整个组织。 根据你的大小，这可能需要一些时间，并按区域、用户配置文件或组织分阶段处理。 在此大规模推出期间，鼓励组织中通信者的参与。 我们建议这些人员尽早参与，并且通常使用可用的采用材料或设计自己的材料。
 
-如果您的公司有一个中央 Intranet 门户用于新闻、信息或支持，您可以使用它作为中心来了解此推出的信息。提供广泛可用的自助信息、培训和书面指导可让用户快速上手。 许多用户只需在可用Teams就跳入，我们鼓励这样做。 我们还知道，每个人都以不同方式学习;中心信息门户可以支持组织内的所有学习风格。
+如果您的公司有一个中央 Intranet 门户用于新闻、信息或支持，您可以使用它作为中心来了解此推出的信息。提供广泛可用的自助信息、培训和书面指导可让用户快速上手。 一旦可用，许多用户Teams就会跳入，我们鼓励这样做。 我们还知道，每个人都以不同方式学习;中心信息门户可以支持组织内的所有学习风格。
 
 ## <a name="implement-end-user-training"></a>实施最终用户培训
 
-在用户开始使用服务和其他服务时，Microsoft Teams资源Microsoft 365最终用户Office 365培训。 请访问我们的资源页了解更多信息：
+使用资源在用户开始使用服务和其他服务Microsoft Teams时Microsoft 365最终用户Office 365培训。 请访问我们的资源页了解更多信息：
 
 - [教师引导型最终用户培训Teams](instructor-led-training-teams-landing-page.yml)
 - [管理员培训Teams](itadmin-readiness.md)
@@ -67,7 +67,7 @@ ms.locfileid: "60753883"
 - 你的培训视频查看数
 - 学习活动的出席人数
 
-使用井号标签共享从反馈渠道获取的见解#TeamsStories方便检索。 在 Intranet 上每月共享 #TeamsStory 以重点介绍支持变更以提高工作效率和增强环境协作的员工。 此外，在 Microsoft Technical Community 上的推动采用论坛中与我们分享。 在您自己的公司内共享这些实际示例对于实现用户社区随着时间的推移持续变化非常有用。
+使用井号标签共享从反馈渠道获取的见解#TeamsStories方便检索。 在 Intranet 上每月共享 #TeamsStory 以重点介绍支持变更以提高工作效率和增强环境协作的员工。 此外，在 Microsoft Technical Community 上的推动采用论坛中与我们分享它们。 在您自己的公司内共享这些实际示例对于实现用户社区随着时间的推移持续变化非常有用。
 
 [详细了解Microsoft Teams使用情况报表Microsoft 365 管理中心。](teams-activity-reports.md)
 

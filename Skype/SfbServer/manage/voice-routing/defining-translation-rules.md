@@ -2,7 +2,7 @@
 title: 定义转换规则Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Skype for Business Server 企业语音规范化为 E.164 格式的电话号码路由呼叫。 这意味着必须将所有拨打的字符串规范化为 E.164 格式，以便执行反向号码查找 (RNL) 以便可以将其转换为匹配的 SIP URI。 Skype for Business Server提供了操作被调用的 ID 和呼叫者 ID 演示文稿的能力。
-ms.openlocfilehash: 9dee0e90a9cd06abef43d190cc391861f4ad1438
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f7919707e6999c39dfc9a13b7d6b735a31f5e6a9
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60737718"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60836294"
 ---
 # <a name="defining-translation-rules-in-skype-for-business-server"></a>定义转换规则Skype for Business Server
 

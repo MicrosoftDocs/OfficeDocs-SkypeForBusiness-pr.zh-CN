@@ -1,6 +1,6 @@
 ---
 title: 从现有团队创建模板Microsoft Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 ms.reviewer: aaglick
 manager: serdars
@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: 了解如何使用现有团队在 Microsoft Teams 中创建新模板。
+description: 了解如何使用现有团队在 Microsoft Teams。
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e48c41e7c6b1a28d6d16cdd76c4fcb70bd795861
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a5f22f9acbd3cf39c144ca07cce1c5d690267b6b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60749681"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60828475"
 ---
 # <a name="create-a-team-template-from-an-existing-team-in-microsoft-teams"></a>从现有团队创建团队模板Microsoft Teams
 
@@ -29,7 +29,7 @@ ms.locfileid: "60749681"
 
 **EDU 客户尚不支持自定义模板。**
 
-Microsoft Teams允许从现有团队创建模板，该模板可保存和修改以满足特定组织需求。
+Microsoft Teams允许从现有团队创建模板，该模板可以保存和修改以满足特定组织需求。
 
 1. 登录到 Teams 管理中心。
 
@@ -53,7 +53,7 @@ Microsoft Teams允许从现有团队创建模板，该模板可保存和修改�
 7. 在 **"频道、选项卡** 和应用"部分中，添加团队所需的任何频道和应用。
 
     1. 在"**频道"部分中**，选择"**添加"。**
-    2. 在" **添加"** 对话框中，为频道命名。
+    2. 在" **添加"** 对话框中，为通道命名。
     3. 添加说明。
     4. 确定是否默认应显示通道。
     5. 搜索要添加到通道的应用名称。

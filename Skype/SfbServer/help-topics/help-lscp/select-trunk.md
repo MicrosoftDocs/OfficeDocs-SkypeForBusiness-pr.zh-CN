@@ -2,7 +2,7 @@
 title: 选择 Trunk
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3b513864-15c0-4afb-b934-bb050d5d2dcd
 description: 使用“选择 Trunk”对话框可以查找使用的现有 Trunk。
-ms.openlocfilehash: bd1bc09465381f8b2b907d94358850b97527417f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 98b7252df3efeb44576f4c1d7d11874bea325c18
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60772428"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862699"
 ---
 # <a name="select-trunk"></a>选择中继
  

@@ -2,7 +2,7 @@
 title: Manage chat rooms in Persistent Chat Server in Skype for Business Server 2015
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 1/31/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 7b2e1302-280c-4efe-9ec8-787687b414da
 description: 摘要：了解如何在 Skype for Business Server 2015 中管理持久聊天服务器聊天室。
-ms.openlocfilehash: 5eb69b3f852ce8e093947cdd04cc00b6bfdc19e3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 63566d897901be32b7d0f33ea099bac202e61515
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60746878"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60830846"
 ---
 # <a name="manage-chat-rooms-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Manage chat rooms in Persistent Chat Server in Skype for Business Server 2015
  
@@ -27,7 +27,7 @@ ms.locfileid: "60746878"
 正确使用类别可更轻松地创建和管理聊天室。 类别定义可以创建或加入聊天室的人。 在尝试管理聊天室之前，请务必阅读[Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md)中的持久聊天类别、聊天室和用户角色和在[Skype for Business Server 2015](categories.md)中管理持久聊天服务器中的类别。
   
 > [!NOTE]
-> 持久聊天在 2015 Skype for Business Server可用，但在 2019 年 2 月不再Skype for Business Server支持。 相同的功能在 Teams 中可用。 有关详细信息，请参阅开始[升级Microsoft Teams升级](/microsoftteams/upgrade-start-here)。 如果您需要使用持久聊天，您的选择是迁移需要此功能的用户以Teams或继续使用 Skype for Business Server 2015。 
+> 持久聊天在 2015 Skype for Business Server可用，但在 2019 年 2 月不再Skype for Business Server支持。 相同的功能在 Teams。 有关详细信息，请参阅开始[升级Microsoft Teams升级](/microsoftteams/upgrade-start-here)。 如果您需要使用持久聊天，则选择将需要此功能的用户迁移到 Teams，或者继续使用 Skype for Business Server 2015。 
 
 您可以使用命令行界面或 Windows PowerShell（如果您是聊天室的成员）使用 Skype for Business 客户端配置和管理聊天室。 本主题介绍如何使用命令行界面Windows PowerShell聊天室。 如果要使用客户端管理聊天室Skype for Business，请参阅客户端帮助。 
   
@@ -123,7 +123,7 @@ Set-CsPersistentChatRoom -PersistentChatPoolFqdn "atl-cs-001.contoso.com\NorthAm
 
 如果持久聊天室的主题不再相关，您可以通过禁用该聊天室来使用户无法使用该聊天室。 禁用聊天室后，所有成员将立即与聊天室断开连接。 禁用聊天室后，用户将无法重新加入该聊天室或在聊天室搜索中查找该聊天室。
   
-如果聊天室的历史记录仍然存在，则禁用该聊天室时将保留该内容。 但是，在聊天室保持禁用状态期间，该内容不会显示在搜索中。 如果稍后启用该聊天室，则用户可以搜索在禁用聊天室之前发布的消息。 有关配置聊天室历史记录的信息，请参阅 Manage [categories in Persistent Chat Server in Skype for Business Server 2015。](categories.md) 
+如果聊天室的历史记录仍然存在，则禁用该聊天室时将保留该内容。 但是，在聊天室保持禁用状态期间，该内容不会显示在搜索中。 如果稍后启用该聊天室，则用户可以搜索在禁用聊天室之前发布的消息。 有关配置聊天室历史记录的信息，请参阅 Manage [categories in Persistent Chat Server in Skype for Business Server 2015](categories.md)。 
   
 禁用某聊天室时，将保留其成员身份列表和其他设置。 作为管理员，您可以启用已禁用的聊天室，并且不需要手动重新创建设置。
   

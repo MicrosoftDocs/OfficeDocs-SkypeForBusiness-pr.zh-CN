@@ -2,7 +2,7 @@
 title: 运行查询
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 45a77f7e-b137-462b-9146-3a0f43d8e0c7
 description: 摘要：了解运行查询操作，这是通话质量仪表板的数据 API 的一部分。 通话质量仪表板是一种用于Skype for Business Server。
-ms.openlocfilehash: 65ff47013f1f11d6d9e5a26ea9031b993f134973
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 00060baabff5bdcc4e930f56f7885de273060597
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766400"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849805"
 ---
 # <a name="run-query"></a>运行查询
 
@@ -28,7 +28,7 @@ ms.locfileid: "60766400"
 
 ## <a name="run-query"></a>运行查询
 
-运行查询操作能够基于指定的维度、度量和筛选器对多维数据集运行查询，并返回数据。
+通过运行查询操作，可以基于指定的维度、度量和筛选器对多维数据集运行查询，并返回数据。
 
 
 |**方法**|**请求 URI**|**HTTP 版本**|
@@ -84,7 +84,7 @@ ms.locfileid: "60766400"
 
  **响应** - 响应包括 HTTP 状态代码和一组响应标头。
 
- **状态代码** - 成功操作返回状态代码 200， (确定) 。
+ **状态代码** - 成功操作返回状态代码 200 (确定) 。
 
  **响应标头** - 无其他标头。
 
@@ -125,6 +125,6 @@ ms.locfileid: "60766400"
 
  *执行时间*  - 服务器返回数据所花时间的总时间。 这可能涉及缓存，也可能不涉及缓存。
 
- *数据*  结果 - 查询的结果。 它是一个二维数组，包含维度成员的所有排列，每个元素包含维度的成员名称以及指定 Measurements 的聚合值。
+ *数据*  结果 - 查询的结果。 它是一个二维数组，包含维度成员的所有排列，每个元素包含维度的成员名称以及指定度量的聚合值。
 
  *结果为"来自缓存*  - 用于诊断"。 指示结果来自缓存还是来自 QoE 多维数据集。

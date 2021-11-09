@@ -2,7 +2,7 @@
 title: Skype for Business Server 控制面板的首次运行清单
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4d0c7306-e87e-464a-82ad-a5537f141500
 description: 欢迎使用Skype for Business Server控制面板，该控制面板是基于 Web 的用户界面，用于管理 Skype for Business Server。 可以使用控制面板执行以前版本中使用 Microsoft 管理控制台执行的管理任务类型。
-ms.openlocfilehash: 868817085bc14c918a77bdeee1db30d39b7130f9
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 987ec6afc4a6e6ed341452857d24354390235250
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60770790"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60836634"
 ---
 # <a name="first-run-checklist-for-skype-for-business-server-control-panel"></a>Skype for Business Server 控制面板的首次运行清单
 

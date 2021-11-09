@@ -1,6 +1,6 @@
 ---
 title: 仅查看会议体验
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 ms.reviewer: christi.balaki
 manager: serdars
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6e56f1722d75c8126e8f19ac297e301dfc4e8706
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: cdb61d7a3b7bace9689fba84e7728f122b217923
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766030"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856329"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Teams 仅查看会议体验
 

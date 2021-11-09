@@ -1,6 +1,6 @@
 ---
 title: 为 Microsoft Teams 创建支持者计划
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.date: 10/30/2018
@@ -18,19 +18,19 @@ ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 了解如何培训一个支持团队，通过Teams提高认知度、采用率和教育，促进用户采用。
+description: 了解如何培训一个支持团队，通过Teams提高认知、采用率和教育，促进用户采用。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aba4c0ffcf13e93c0fd0c39a64a8135e54fa592f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b4b79cd1d9e00441681cad77a621f382d4238341
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760400"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842544"
 ---
 # <a name="create-your-champions-program-for-microsoft-teams"></a>为 Microsoft Teams 创建支持者计划
 
-支持者对于促进组织的认知、采用和教育至关重要。 冠军是一个人，主要通过帮助其他对新技术感兴趣的 (专门Teams) 帮助其他员工根据你的最佳实践使用它。 根据组织的规模，你可能拥有此角色作为人员角色的正式部分，但员工通常自己承担此角色，因为他们有帮助他人的核心动机。
+支持者对于促进组织的认知、采用和教育至关重要。 冠军是一个人，主要通过帮助其他对新技术感兴趣的 (专门Teams) 帮助其他员工根据最佳做法使用它。 根据组织的规模，你可能拥有此角色作为人员角色的正式部分，但员工通常自己承担此角色，因为他们有帮助他人的核心动机。
 
 支持者会以多种方式参与总体发布计划，如下所示。
 
@@ -45,7 +45,7 @@ ms.locfileid: "60760400"
 
 使用我们的 [支持计划指南](https://go.microsoft.com/fwlink/?linkid=854665) 在组织中构建此计划。 我们针对此社区最佳实践包括：
 
-- 加入["冠军计划"。](https://aka.ms/O365Champions) 确保至少"冠军"计划负责人 (以及可能所有公司) 都是该计划的成员。 此免费的每月社区通话将提供有价值的信息，用于运行自己的计划，以及从Teams和其他服务Microsoft 365 Office 365。 可以在自己的内部程序中重复使用计划材料。
+- 加入["冠军计划"。](https://aka.ms/O365Champions) 确保至少"冠军"计划负责人 (以及可能所有公司) 都是该计划的成员。 此免费的每月社区通话将提供有价值的信息，用于运行自己的计划，以及从 Teams 和其他服务Microsoft 365或Office 365服务。 可以在自己的内部程序中重复使用计划材料。
 
 - 使用 Teamwork 冠军团队：你的冠军应该使用你为团队设置的团队进行所有计划沟通、反馈和查找资源。  执行此操作时，他们将逐渐熟悉产品及其优势。
 

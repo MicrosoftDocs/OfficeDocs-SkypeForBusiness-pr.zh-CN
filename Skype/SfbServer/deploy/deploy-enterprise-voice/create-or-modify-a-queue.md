@@ -2,7 +2,7 @@
 title: 在服务中创建或修改Skype for Business
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b9d6366a-839f-4651-a01d-9254546cadeb
 description: 创建或修改响应组队列，Skype for Business Server 企业语音。
-ms.openlocfilehash: 7cc079b458f4aae2748c212dd5c0bcf710142716
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6a4eb09e144bd7381ababdf37a0905c4ea9bac06
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765900"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842424"
 ---
 # <a name="create-or-modify-a-queue-in-skype-for-business"></a>在服务中创建或修改Skype for Business
  
@@ -71,7 +71,7 @@ ms.locfileid: "60765900"
     
    - 要在超时后断开呼叫，请单击“断开连接”。
     
-   - 若要将呼叫转发到语音邮件，请单击"转发到语音邮件"，然后在 **"SIP** 地址"字段中，键入 sip： 格式的语音邮件地址 *\<username\>* @  *\<domainname\>* (例如，sip:bob@contoso.com) 。
+   - 若要将呼叫转发到语音邮件，请单击"转发到语音邮件"，然后在 **"SIP** 地址"字段中，键入格式为 sip： *\<username\>* @  *\<domainname\>* (例如，sip:bob@contoso.com) 。
     
    - 若要将呼叫转发到另一个电话号码，请单击"转发到电话号码"，然后在 **"SIP** 地址"字段中，键入格式为 sip： (*\<number\>* @  *\<domainname\>* 例如，sip:+14255550121@contoso.com) 。
     
@@ -89,7 +89,7 @@ ms.locfileid: "60765900"
     
    - 要在超时后断开呼叫，请单击“断开连接”。
     
-   - 若要将呼叫转发到语音邮件，请单击"转发到语音邮件"，然后在 **"SIP** 地址"字段中，键入 sip： 格式的语音邮件地址 *\<username\>* @  *\<domainname\>* (例如，sip:bob@contoso.com) 。
+   - 若要将呼叫转发到语音邮件，请单击"转发到语音邮件"，然后在 **"SIP** 地址"字段中，键入格式为 sip： *\<username\>* @  *\<domainname\>* (例如，sip:bob@contoso.com) 。
     
    - 若要将呼叫转发到另一个电话号码，请单击"转发到电话号码"，然后在 **"SIP** 地址"字段中，键入格式为 sip： (*\<number\>* @  *\<domainname\>* 例如，sip:+14255550121@contoso.com) 。
     

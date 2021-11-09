@@ -2,7 +2,7 @@
 title: 配置 CUCM 以与 Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: eab3d9f6-ec40-49bf-9162-1a7f5a59451f
 description: 摘要：配置 CUCM 以使用Skype for Business Server。
-ms.openlocfilehash: 809ad19e89f398c507673ec677b4ce882d341327
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 2e5e2cfc207fd9c4e52f7cd4da553dc756fddb4c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741318"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863089"
 ---
 # <a name="configure-cucm-for-interoperation-with-skype-for-business-server"></a>配置 CUCM 以与 Skype for Business Server
  
@@ -33,7 +33,7 @@ ms.locfileid: "60741318"
   
 ### <a name="configure-the-cucm"></a>配置 CUCM
 
-1. 登录到 CUCM 并导航到 Cisco Unified CM Administration- \> Call Routing- \> Class of Control- \> Partition。
+1. 登录到 CUCM 并导航到"Cisco 统一 CM 管理- \> 呼叫路由- \> 控制类别- \> 分区"。
     
 2. 在"分区配置"屏幕中，输入分区名称和说明，然后单击"添加新 **"。**
     
@@ -133,7 +133,7 @@ ms.locfileid: "60741318"
     |:-----|:-----|
     |区域  <br/> |默认值  <br/> |
     |音频编解码器首选项列表  <br/> |系统默认值  <br/> |
-    |最大音频比特率  <br/> |64 kbps (G.722、G.711)   <br/> |
+    |最大音频比特率  <br/> |64 kbps (G.722，G.711)   <br/> |
     |视频呼叫的最大会话比特率  <br/> |200000 kbps  <br/> |
     |最大会话比特率  <br/> |2000000000 kbps  <br/> |
    

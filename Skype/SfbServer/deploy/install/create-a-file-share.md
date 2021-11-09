@@ -2,7 +2,7 @@
 title: 在文件中创建Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 053076b0-441c-44d9-8dbc-7a36d8ecafe4
 description: 摘要：了解如何在 Windows 安装过程中创建一个 Skype for Business Server。 从 Microsoft 评估Skype for Business Server下载免费试用版 https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server ：。
-ms.openlocfilehash: c14d7a765a4b55e1fe909f33f4e038062427872b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c2b1048d911243987313568acde2bccea068fff9
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751171"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842374"
 ---
 # <a name="create-a-file-share-in-skype-for-business-server"></a>在文件中创建Skype for Business Server
  
@@ -66,7 +66,7 @@ Skype for Business Server需要文件共享，以便整个拓扑中的计算机�
 > [!NOTE]
 >如果文件存储托管在 DFS 共享上，则收到以下警告：
 
-警告：无法访问""的共享 \\ <domain> \<share> 权限。
+`Warning: Unable to access share permissions for "\\<domain>\<share>".`
 
 >如果你不是文件服务器的管理员，或者是 DFS 共享中的分布式文件系统， (此) 。 如果已配置共享权限，可以忽略此警告。 如果是新共享，请参阅文档，详细了解如何手动配置共享权限。
 

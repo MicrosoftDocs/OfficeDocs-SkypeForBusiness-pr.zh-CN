@@ -2,7 +2,7 @@
 title: 设备配置
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,17 +14,17 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e1148124-e04a-4ae6-b601-ed48df69d194
 ROBOTS: NOINDEX, NOFOLLOW
-description: 设备配置是一组设置，用于管理 Skype for Business 电话 Edition 设备（全局或站点内）。 通过这些设置，您可以配置以下内容：所需的安全性模式、设备日志记录级别、语音服务质量 (QoS) 设置以及在指定的非活动时间后电话是否应自动锁住。
-ms.openlocfilehash: ed01dad680f686ab552b8d549c35cacf56e72b69
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 设备配置是一组设置，用于在全局或Skype for Business 电话管理 Skype for Business 电话 Edition 设备。 通过这些设置，您可以配置以下内容：所需的安全性模式、设备日志记录级别、语音服务质量 (QoS) 设置以及在指定的非活动时间后电话是否应自动锁住。
+ms.openlocfilehash: 14a4606ade2ac8287258531c912c11268ce5e546
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60749313"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856179"
 ---
 # <a name="device-configuration"></a>设备配置
  
-设备配置是一组设置，用于管理 Skype for Business 电话 Edition 设备（全局或站点内）。 通过这些设置，您可以配置以下内容：所需的安全性模式、设备日志记录级别、语音服务质量 (QoS) 设置以及在指定的非活动时间后电话是否应自动锁住。 
+设备配置是一组设置，用于在全局或Skype for Business 电话管理 Skype for Business 电话 Edition 设备。 通过这些设置，您可以配置以下内容：所需的安全性模式、设备日志记录级别、语音服务质量 (QoS) 设置以及在指定的非活动时间后电话是否应自动锁住。 
   
 ## <a name="tasks-you-can-perform"></a>可执行的任务
 

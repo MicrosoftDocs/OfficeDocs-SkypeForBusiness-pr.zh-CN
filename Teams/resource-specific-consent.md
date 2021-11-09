@@ -1,6 +1,6 @@
 ---
 title: 资源特定的许可Microsoft Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 ms.reviewer: nkramer
 manager: serdars
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f12acd7d99f8ab841f47ca84bc677f104cc0f164
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 78444486dad4b1babc088a9da039319bc1e4029e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740228"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842584"
 ---
 # <a name="resource-specific-consent-in-microsoft-teams"></a>资源特定的许可Microsoft Teams
 
@@ -44,7 +44,7 @@ ms.locfileid: "60740228"
 此设置控制您的组织中的用户是否可以代表他们许可应用。 若要使团队所有者能够表示同意，必须将此设置设置为"**是"。** 若要管理此设置，请执行下列操作：
 
 1. 在 Azure 门户中，转到 **"Enterprise应用程序**  >  **用户设置"。**
-2. 在 **Enterprise应用程序"** 下，将"用户可以代表他们同意访问公司数据的应用"设置为 **"否**"**或**"**是"。**
+2. 在 **Enterprise应用程序"** 下，将"用户可以代表他们同意访问公司数据的应用"设置为"**否**"或"**是"。**
 
 也可使用 PowerShell 管理此设置。 有关详细信息，请参阅 [将用户内容配置为应用程序](/azure/active-directory/manage-apps/configure-user-consent#configure-user-consent-to-applications)。
 
@@ -63,7 +63,7 @@ ms.locfileid: "60740228"
 
 此组织范围内的应用设置控制组织中的用户是否可以使用第三方应用。 必须启用此设置，团队所有者才能表示同意。 若要管理此设置，请执行下列操作：
 
-1. 在管理中心的左侧导航Microsoft Teams，转到"管理Teams **应用"，** 然后单击  >  "**组织范围内的应用设置"。**
+1. 在管理中心左侧导航Microsoft Teams，转到"管理Teams **应用**"，然后单击  >  "**组织范围内的应用设置"。**
 2. 在 **"第三方应用"** 下，关闭或打开"**允许第三方应用"。**
 
     !["允许第三方应用使用 Teams"设置的屏幕截图](media/resource-specific-consent-org-wide-setting.png)
@@ -91,7 +91,7 @@ ms.locfileid: "60740228"
 
 ## <a name="uploading-custom-apps"></a>上传自定义应用
 
-上传自定义应用 (使用特定于资源) 的旁加载应用时，应用必须来自它要安装到的租户。 换句话说，应用Azure AD必须来自此租户。 全局管理员不受此限制，可以直接将自定义应用从任何租户上传到团队 (旁加载) 或租户应用程序目录。
+在上传自定义应用 (使用特定于资源) 的旁加载应用时，该应用必须来自它要安装到的租户。 换句话说，应用Azure AD必须来自此租户。 全局管理员不受此限制，可以直接将自定义应用从任何租户上传到团队 (旁加载) 或租户应用程序目录。
 
 ## <a name="related-topics"></a>相关主题
 

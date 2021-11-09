@@ -2,7 +2,7 @@
 title: 角色表
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e8eb8a10-26b5-488b-bc8c-f9ef93f98bdb
 description: 角色表是一个静态表，用于存储可能的会议角色（如与者会和演示者）的列表。
-ms.openlocfilehash: 2bd15fd98aff2ce8066a396efac0b538d4891a8f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 67faf16a478a8ca1f4c2f3bc21bd5d4a6f28909f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60776152"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842644"
 ---
 # <a name="roles-table"></a>角色表
  

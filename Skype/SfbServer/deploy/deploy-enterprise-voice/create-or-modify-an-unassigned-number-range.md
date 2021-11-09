@@ -2,7 +2,7 @@
 title: Create or modify an unassigned number range in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a102b226-0460-4d5c-82f9-79b8444fa958
 description: 创建、修改或删除通知应用程序中的未分配号码Skype for Business Server 企业语音。 这会影响如何处理对未分配号码的呼叫。
-ms.openlocfilehash: 4ad3193994d41d26546da36614baee64c2298cec
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: dcdf8fe1bf4d087b27723626ccd9207df14238c4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753749"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856309"
 ---
 # <a name="create-or-modify-an-unassigned-number-range-in-skype-for-business-server"></a>Create or modify an unassigned number range in Skype for Business Server
  

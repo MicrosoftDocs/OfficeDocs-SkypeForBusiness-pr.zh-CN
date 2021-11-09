@@ -2,7 +2,7 @@
 title: 存档服务器常规设置扩展器
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 0b820af7-8d00-42e2-979c-dbae17159a08
 ROBOTS: NOINDEX, NOFOLLOW
 description: 在拓扑生成器中，可以编辑存档单台服务器的属性，方法是右键单击控制台树中存档的服务器，然后单击工具栏中的"操作"，或者单击"操作"窗格中的任务，然后单击"编辑属性"并更改以下任一选项：
-ms.openlocfilehash: f12b43f027ef0a562f8e15aeb265091e3e85d0a9
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 331aa14ff8adee17c201c4e1bf71dbe411d97ac8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778562"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60836814"
 ---
 # <a name="archiving-server-general-settings-expander"></a>存档服务器常规设置扩展器
  
@@ -36,6 +36,6 @@ ms.locfileid: "60778562"
 > 若要更改与存档服务器关联的池，请为当前与存档服务器关联的单个前端池节点或 Survivable Branch Appliance 节点选择“编辑属性”选项。
   
 > [!NOTE]
-> 如果之前将存档服务器添加到拓扑生成器中的拓扑，则存档节点包含存档服务器。 可以编辑列表中所有存档服务器的属性。 但是，在为运行存档 (设置服务) 无法存档即时消息或 Web 会议服务器。 
+> 如果之前将存档服务器添加到拓扑生成器中的拓扑，则存档节点包含存档服务器。 可以编辑列表中所有存档服务器的属性。 但是，除非为存档服务器设置 (，否则) 无法存档即时消息或 Web 会议。 
   
 

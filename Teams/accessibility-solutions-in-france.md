@@ -1,7 +1,7 @@
 ---
 title: Skype for Business Online 和 Microsoft Teams 辅助功能解决方案
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.reviewer: lshook
 ms.topic: article
@@ -23,14 +23,14 @@ ms.custom:
 - seo-marvel-jul2020
 hideEdit: true
 description: Fournir des expériences accessibles à tous est au c'ur de la mission de Microsoft， qui consiste à permettre à chaque personne et à chaque 组织 de la planète d'accomplir davantage. Microsoft offre un certain nombre de fonctionnalités d'accessibilité pour Skype Entreprise et Microsoft Teams qui s'inscrivent dans son engagement fort en faveur de l'accessibilité et de l'inclusion.
-ms.openlocfilehash: 0a784bff8b59ea607d28c98d46a8c8b495c3a7f1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7f8b3fb225e04785e3454fdcffa3a7a6a33e8bae
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60770000"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849565"
 ---
-# <a name="accessibility-solutions-for-skype-for-business-online-and-microsoft-teams-in-france"></a>适用于法国 Skype for Business Online Microsoft Teams 的辅助功能解决方案
+# <a name="accessibility-solutions-for-skype-for-business-online-and-microsoft-teams-in-france"></a>适用于法国 Skype for Business Online 和 Microsoft Teams 的辅助功能解决方案
 
 <span class="underline">Rapport sur les actions engagées par Microsoft pour favoriser l'accès des personnes en situation de pour aux communications électroniques</span>
 
@@ -60,9 +60,9 @@ Les utilisateurs de Microsoft Teams peuvent gérer les notifications par le biai
 
 Microsoft Teams introduit une fonction "lever la main" qui permettra à toute personne participant à une réunion Microsoft Teams d'envoyer un signal visuel indiquant qu'elle a quelque chose à dire， utile à tous les utilisateurs qui souhaitent participer pleinement aux discussions de la réunion， y compris les personnes souffrant de故障 de la utilis.
 
-Microsoft Teams permet aux utilisateurs d'épingler et de recadrer les vidéos et de passer de la visualisation du contenu partagé pendant une réunion à celle des personnes qui y participent， ce qui peut être utile aux personnes malentendantes qui lisent sur les lèvres ou utilisent un interprète en langue des signes. Les utilisateurs peuvent également envoyer des messages audio et utiliser la technologie de dictée assistée par Microsoft Windows pour convertir la utilis en texte， ce qui peut aider les personnes malvoyantes et malentendantes à communiquer avec les autres participants à la réunion.
+Microsoft Teams permet aux utilisateurs d'épingler et de recadrer les vidéos et de passer de la visualisation du contenu partagé pendant une réunion à celle des personnes qui y participent， ce qui peut être utile aux personnes malentendantes qui lisent sur les lèvres ou utilisent un interprète en langue des signes. Les utilisateurs peuvent également envoyer des messages audio et utiliser la technologie de dictée assistée par Microsoft Windows pour convertir la envoy en texte， ce qui peut aider les personnes malvoyantes et malentendantes à communiquer avec les autres participants à la réunion.
 
-En outre， la fonction de chat des équipes de Microsoft Teams est compatible avec un large éventail de technologies d'assistance， notamment les lecteurs d'écran， les logiciels de dictée， le contr以le visuel (sous Windows 10) ， le contrèle (sous iOS et Android) ， les agrandisseurs d'écran et les commutateurs d'accès (sous iOS et Android) .
+En outre， la fonction de chat des équipes de Microsoft Teams est compatible avec un large éventail de technologies d'assistance， notamment les lecteurs d'écran， les logiciels de dictée， le contr以le visuel (sous Windows 10) ， le contrettele (sous iOS et Android) ， les agrandisseurs d'écran et les commutateurs d'accès (sous iOS et Android) .
 
 SkypeEntreprise dans Office 365 prend également en charge diverses fonctionnalités d'accessibilité. Pour les personnes qui utilisent des lecteurs d'écran， l'interface utilisateur de Skype Entreprise peut être parcourue à l'aide du clavier， et des pages d'aide sont fournies pour expliquer ：
 
@@ -80,9 +80,9 @@ SkypeEntreprise dans Office 365 prend également en charge diverses fonctionnali
 
 - Comment partager son écran en utilisant Skype Entreprise avec un lecteur d'écran[https://support.office.com/fr-fr/article/Partager-votre-%c3%a9cran-avec-Skype-Entreprise-et-un-lecteur-d-%c3%a9cran-678ce631-1499-4a24-8d32-a68498ce9ff4?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/Partager-votre-%c3%a9cran-avec-Skype-Entreprise-et-un-lecteur-d-%c3%a9cran-678ce631-1499-4a24-8d32-a68498ce9ff4?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR)
 
-Lorsque vous utilisez Skype Entreprise， les menus interactifs de réponse utilise peuvent être ralentis， accélérés et redémarrés， et les utilisateurs peuvent choisir de sauter des messages， et Microsoft Teams prend en charge le réglage de la vitesse de la boîte lese. Microsoft Teams et Skype Entreprise prennent en charge les appels textes (TTY) 。
-Les utilisateurs de Skype Entreprise utilisant Outlook 2010 ou des versions plus récentes peuvent choisir de recevoir leurs messages vocaux au format texte， ce qui peut être bénéfique pour les personnes malentendantes ou sourdes： [https://support.microsoft.com/fr-fr/office/consultation-de-la-messagerie-vocale-et-des-options-de-skype-entreprise-2deea7f8-831f-4e85-a0d4-b34da55945a8?ui=fr-fr&rs=fr-fr&ad=fr](https://support.microsoft.com/fr-fr/office/consultation-de-la-messagerie-vocale-et-des-options-de-skype-entreprise-2deea7f8-831f-4e85-a0d4-b34da55945a8?ui=fr-fr&rs=fr-fr&ad=fr) .
-Les administrateurs informatiques de Microsoft Teams peuvent gérer la transcription pour leurs clients. 将 une 演讲加上 facile、Microsoft Teams prend en charge le zoom et Skype Entreprise permet d'ajuster la taille du texte des messages instantanés.
+Lorsque vous utilisez Skype Entreprise， les menus interactifs de réponse utilise peuvent être ralentis， accélérés et redémarrés， et les utilisateurs peuvent choisir de sauter des messages， et Microsoft Teams prend en charge le réglage de la vitesse de la boîte sine. Microsoft Teams et Skype Entreprise prennent en charge les appels textes (TTY) 。
+Les utilisateurs de Skype Entreprise utilisant Outlook 2010 ou des versions plus récentes peuvent choisir de recevoir leurs messages vocaux au format texte， ce qui peut être bénéfique pour les personnes malentendantes ou sourdes ： [https://support.microsoft.com/fr-fr/office/consultation-de-la-messagerie-vocale-et-des-options-de-skype-entreprise-2deea7f8-831f-4e85-a0d4-b34da55945a8?ui=fr-fr&rs=fr-fr&ad=fr](https://support.microsoft.com/fr-fr/office/consultation-de-la-messagerie-vocale-et-des-options-de-skype-entreprise-2deea7f8-831f-4e85-a0d4-b34da55945a8?ui=fr-fr&rs=fr-fr&ad=fr) .
+Les administrateurs informatiques de Microsoft Teams peuvent gérer la transcription pour leurs clients. 将 une 讲座加上 facile、Microsoft Teams prend en charge le zoom et Skype Entreprise permet d'ajuster la taille du texte des messages instantanés.
 
 Les pages consacrées à chacune de ces plates-formes décrivent comment se présentent généralement Skype Entreprise et Microsoft Teams sur les appareils qui prennent en charge ces plates-formes， telles que Windows， Mac， iOS et Android. Les descriptions de des agencements de Skype Entreprise peuvent être particulièrement utiles aux utilisateurs aveugles， malvoyants ou à mobilité réduite pour les aider àire une représentation mentale des points de repère des interfaces utilisateur (IU) afin de faciliter la navigation dans l'IU.
 

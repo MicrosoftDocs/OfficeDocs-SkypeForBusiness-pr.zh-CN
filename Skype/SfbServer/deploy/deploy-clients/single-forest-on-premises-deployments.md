@@ -1,7 +1,7 @@
 ---
 title: Skype会议室系统单林本地部署
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -12,22 +12,22 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 80da9d71-3dcd-4ca4-8bd1-6d8196823206
 description: 阅读本主题，了解如何在单林Skype部署会议室系统。
-ms.openlocfilehash: 8768ecfa8aba01074bee5315580fde79ba9c3afc
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0f8ab644efc3d832fd5e201bd49517971ba5ba08
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759144"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60828415"
 ---
 # <a name="skype-room-system-single-forest-on-premises-deployments"></a>Skype会议室系统单林本地部署
  
 阅读本主题，了解如何在单林Skype部署会议室系统。
   
-本节概述了在单个林本地部署中托管的 Skype 会议室Exchange Server和Skype for Business Server上预配会议室系统帐户的步骤。
+本节概述在单个林本地部署Skype托管的 Exchange Server 和 Skype for Business Server 上预配会议室系统帐户的步骤。
   
 ## <a name="single-forest-on-premises-deployments"></a>单个林本地部署
 
-如果会议室已有资源邮箱帐户，可以使用该帐户。 否则，需要新建一个。 可以使用 PowerShell Exchange命令行管理 (或) Exchange 管理控制台命令行管理程序创建新的资源邮箱帐户。 我们建议使用新的邮箱 (旧邮箱，然后为会议室) 重新创建Skype邮箱。 请确保先备份邮箱数据，然后再删除，然后使用 Outlook 客户端将其导出回已创建的邮箱 (请参阅导出或备份邮件、日历、任务和联系人，了解) 。 若要通过删除邮箱来还原丢失的会议，请参阅连接[或还原已删除的邮箱](/exchange/connect-or-restore-a-deleted-mailbox-exchange-2013-help)。 
+如果会议室已有资源邮箱帐户，可以使用该帐户。 否则，需要新建一个。 可以使用 PowerShell Exchange命令行 (命令行管理) Exchange 管理控制台新建资源邮箱帐户。 我们建议使用新的邮箱 (旧邮箱，然后为会议室) 重新创建Skype邮箱。 请确保在删除之前备份邮箱数据，然后使用 Outlook 客户端 (将其导出回已创建的邮箱 (请参阅导出或备份邮件、日历、任务和联系人，了解) 。 若要通过删除邮箱来还原丢失的会议，请参阅连接[或还原已删除的邮箱](/exchange/connect-or-restore-a-deleted-mailbox-exchange-2013-help)。 
   
 若要使用现有资源邮箱帐户 (例如 LRS-01) 请按照以下步骤操作：
   
@@ -106,7 +106,7 @@ ms.locfileid: "60759144"
    Enable-CsMeetingRoom -SipAddress "sip:LRS01@contoso.com" -domaincontroller DC-ND-001.contoso.com -RegistrarPool LYNCPool15.contoso.com -Identity LRS01
    ```
 
-2. 可选：通过为帐户启用 PSTN 电话呼叫，允许此帐户拨打和接听企业语音。 企业语音会议室系统不需要Skype，但是如果未为 企业语音 启用，Skype 会议室系统客户端将无法提供 PSTN 拨号功能：
+2. 可选：允许此帐户通过启用 PSTN 电话呼叫来拨打和接听企业语音。 企业语音会议室系统不需要Skype，但是如果未为 企业语音 启用，Skype 会议室系统客户端将无法提供 PSTN 拨号功能：
     
    ```powershell
    Set-CsMeetingRoom LRS01 -domaincontroller DC-ND-001.contoso.com -LineURItel: +14255550555;ext=50555"

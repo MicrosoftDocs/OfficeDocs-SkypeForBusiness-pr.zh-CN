@@ -2,7 +2,7 @@
 title: 删除会议配置Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8ebafb86-13b9-468e-beda-f85f6786da85
 description: 摘要：了解如何删除会议配置设置Skype for Business Server。
-ms.openlocfilehash: 44b1808c5e5d27bb7dd8aef7ebcef9e26923bb6c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 95eda4da393f1eb677fc331ffb824e6222e35113
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60737828"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60830896"
 ---
 # <a name="delete-meeting-configuration-settings-in-skype-for-business-server"></a>删除会议配置Skype for Business Server
  
-**摘要：** 了解如何在会议环境中删除会议Skype for Business Server。
+**摘要：** 了解如何删除会议配置设置Skype for Business Server。
   
 可以使用控制面板或命令行管理程序Skype for Business Server会议配置Skype for Business Server设置。
   
@@ -37,7 +37,7 @@ ms.locfileid: "60737828"
     
 4. 在会议配置列表中，单击要删除的站点或池配置，再单击"编辑"，然后单击"删除 **"。**
     
-## <a name="delete-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>使用命令行管理程序Skype for Business Server会议配置设置
+## <a name="delete-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>使用命令行管理程序删除Skype for Business Server设置
 
 若要删除会议设置，请使用 **Remove-CsMeetingConfiguration** cmdlet。
   

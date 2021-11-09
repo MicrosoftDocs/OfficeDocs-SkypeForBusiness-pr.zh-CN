@@ -1,7 +1,7 @@
 ---
 title: 规划客户端和设备
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/20/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 95f0852e-391d-4345-985f-0a2da50491fa
 description: 摘要：查看支持的客户端和应用Skype for Business。
-ms.openlocfilehash: 3d5319f8511bca22ae9feba10983cfa8ffd8233c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 07bdf01db2992f8e81264f4e04a6209ce2f3c3bf
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60749971"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60836274"
 ---
 # <a name="plan-for-clients-and-devices"></a>规划客户端和设备
 
@@ -32,23 +32,23 @@ ms.locfileid: "60749971"
 
 ## <a name="available-clients"></a>可用客户端
 
-Skype for Business Server支持多种类型的客户端，包括计算机安装的客户端软件、基于 Web 的客户端和移动设备的客户端。 本节中引入了主要客户端，有关所有受支持的客户端的详细列表，请参阅桌面客户端功能比较[for Skype for Business Server 2015](desktop-feature-comparison.md)或[Desktop client feature comparison for Skype for Business Server 2019。](../../../SfBServer2019/plan/feature-comparison.md) 如果您之前已使用 Lync 客户端的组合，请注意，有些不受支持的旧客户端与[](clients-and-devices.md#Legacy)Skype for Business Server 2019 不兼容。 更新会定期进行，因此请定期查看本主题，获取最新的客户端信息。
+Skype for Business Server支持多种类型的客户端，包括计算机安装的客户端软件、基于 Web 的客户端和移动设备的客户端。 本部分中引入了主要客户端，有关所有受支持的客户端的详细列表，请参阅桌面客户端功能比较[for Skype for Business Server 2015](desktop-feature-comparison.md)或 Desktop [client feature comparison for Skype for Business Server 2019。](../../../SfBServer2019/plan/feature-comparison.md) 如果您之前使用过 Lync 客户端的组合，请注意，有些不受支持的旧客户端与[](clients-and-devices.md#Legacy)Skype for Business Server 2019 不兼容。 更新会定期进行，因此请定期查看本主题，获取最新的客户端信息。
 
-### <a name="skype-for-business-2019"></a>2019 Skype for Business () 
+### <a name="skype-for-business-2019"></a>Skype for Business (2019) 
 
-Skype for Business (2019) 2015 和 2019 的推荐全功能Skype for Business Server客户端。 有关[新功能的说明，请参阅Skype for Business](https://support.office.com/article/What-s-new-in-Skype-for-Business-2016-cece9f93-add1-4d93-9a38-56cc598e5781)中的最新更新。 桌面客户端功能比较中详细说明了客户端功能[Skype for Business，](desktop-feature-comparison.md)用户文档位于Skype for Business[帮助。](https://support.office.com/Skype-for-business) 此客户端包含在用户安装 Microsoft 365 或 Office 365。
+Skype for Business (2019) 2015 和 2019 的推荐功能齐全的Skype for Business Server客户端。 有关[新功能的说明，请参阅Skype for Business](https://support.office.com/article/What-s-new-in-Skype-for-Business-2016-cece9f93-add1-4d93-9a38-56cc598e5781)中的最新更新。 Client feature support is detailed in the [Desktop client feature comparison for Skype for Business](desktop-feature-comparison.md)， and user documentation is at Skype for Business [help](https://support.office.com/Skype-for-business). 此客户端包含在用户安装 Microsoft 365 或 Office 365。
 
 也提供支持较少功能的免费基本客户端。 这两个版本都可供在所有Skype for Business[下载](https://products.office.com/skype-for-business/download-app?tab=tabs-3)。 Full 和 Basic 客户端之间的差异在基本客户端 [限制部分进行](desktop-feature-comparison.md#Full-Basic) 介绍。
 
 ### <a name="skype-for-business-2016"></a>Skype for Business 2016
 
-Skype for Business 2016 是 2015 或 2019 Skype for Business Server功能齐全的客户端。 有关[新功能的说明，请参阅 Skype for Business 2016](https://support.office.com/article/What-s-new-in-Skype-for-Business-2016-cece9f93-add1-4d93-9a38-56cc598e5781)中的新增功能。 桌面客户端功能比较中详细说明了客户端功能[Skype for Business，](desktop-feature-comparison.md)用户文档位于Skype for Business[帮助。](https://support.office.com/Skype-for-business) 此客户端包含在用户安装Office 365。
+Skype for Business 2016 是 2015 或 2019 Skype for Business Server功能齐全的客户端。 有关[新功能的说明，请参阅 Skype for Business 2016](https://support.office.com/article/What-s-new-in-Skype-for-Business-2016-cece9f93-add1-4d93-9a38-56cc598e5781)中的新增功能。 Client feature support is detailed in the [Desktop client feature comparison for Skype for Business](desktop-feature-comparison.md)， and user documentation is at Skype for Business [help](https://support.office.com/Skype-for-business). 此客户端包含在用户安装Office 365。
 
 也提供支持较少功能的免费基本客户端。 这两个版本都可供在所有Skype for Business[下载](https://products.office.com/skype-for-business/download-app?tab=tabs-3)。 Full 和 Basic 客户端之间的差异在基本客户端 [限制部分进行](desktop-feature-comparison.md#Full-Basic) 介绍。
 
 ### <a name="skype-for-business-2015"></a>Skype for Business 2015
 
-Skype for Business 2015 是 2015 或 2019 Skype for Business Server功能齐全的客户端。 该Skype for Business用户界面已经过完全重新设计，包括新集成的功能，如呼叫监视器、Skype目录集成、图释等。 有关更改的摘要，请参阅[Lync is now Skype for Business — see what's new](https://support.office.com/en-in/article/aba02d7e-c801-4a82-bccd-e7207240f612). 桌面客户端功能比较中详细说明了客户端功能[Skype for Business，](desktop-feature-comparison.md)用户文档位于Skype for Business[帮助。](https://support.office.com/Skype-for-business) 此客户端包含在用户安装Office 365。
+Skype for Business 2015 是 2015 或 2019 Skype for Business Server功能齐全的客户端。 该Skype for Business用户界面已经过完全重新设计，包括新集成的功能，如呼叫监视器、Skype目录集成、图释等。 有关更改的摘要，请参阅[Lync is now Skype for Business — see what's new](https://support.office.com/en-in/article/aba02d7e-c801-4a82-bccd-e7207240f612). Client feature support is detailed in the [Desktop client feature comparison for Skype for Business](desktop-feature-comparison.md)， and user documentation is at Skype for Business [help](https://support.office.com/Skype-for-business). 此客户端包含在用户安装Office 365。
 
 ### <a name="skype-for-business-on-mac"></a>Mac 版 Skype for Business
 
@@ -56,7 +56,7 @@ Mac [Skype for Business](https://www.microsoft.com/download/details.aspx?id=5410
 
 ### <a name="skype-for-business-for-mobile-devices"></a>Skype for Business移动设备的移动设备
 
-客户端适用于 Windows Phone、iPhone/iPad 和 Android。 用户可以在所有设备上从[下载Skype for Business获取它们](https://products.office.com/skype-for-business/download-app?tab=tabs-3)。 Mobile client feature comparison [for Skype for Business 中详细介绍了针对这些客户端Skype for Business。](mobile-feature-comparison.md)
+客户端适用于 Windows Phone、iPhone/iPad 和 Android。 用户可以在所有设备上从下载[Skype for Business获取它们](https://products.office.com/skype-for-business/download-app?tab=tabs-3)。 Mobile client feature comparison [for Skype for Business 中详细介绍了针对这些客户端Skype for Business。](mobile-feature-comparison.md)
 
 > [!NOTE]
 > MCX (Mobility Service) 2019 年不再提供对旧版移动客户端Skype for Business Server支持。 所有当前Skype for Business客户端已使用统一通信 Web API (UCWA) 支持即时消息 (IM) 、状态和联系人。 使用 MCX 的旧客户端的用户将需要升级到当前客户端。
@@ -67,12 +67,12 @@ Online Meeting Add-in for Skype for Business supports meeting management from wi
 
 ### <a name="skype-for-business-web-app-and-skype-meetings-app"></a>Skype for Business Web应用Skype会议应用
 
-如果未Skype for Business用户计算机上，并且用户在 Windows 计算机上单击会议请求中的会议链接，将安装并打开 Skype 会议应用或 Skype for Business Web应用。  Skype会议 应用是组织外部的参与者所选择的客户端。  (请注意，Mac 上的 Skype for Business 将安装并打开。) 请参阅规划会议客户端[ (Web App 和](meetings-clients.md)会议应用) 了解使用这些客户端的要求。
+如果未Skype for Business用户计算机上，并且用户在 Windows 计算机上单击会议请求中的会议链接，将安装并打开 Skype 会议应用或 Skype for Business Web应用。  Skype会议 应用是组织外部的参与者所选择的客户端。  (请注意，在 Mac 上，将安装并打开 Mac 上的 Skype for Business。) 请参阅规划会议客户端[ (Web App 和](meetings-clients.md)会议应用) 了解使用这些客户端的要求。
 
 
 ### <a name="skype-for-business-web-scheduler"></a>Skype for Business Web计划程序
 
-[Skype for Business Web计划程序](https://sched.lync.com)是一种基于 Web 的会议安排和管理工具，适用于无法访问 Microsoft Outlook 的 Skype for Business Online 用户或不基于 Windows 的操作系统的用户。 通过Skype for Business Web计划程序，用户可以使用他们的首选电子邮件程序创建新会议、修改现有会议和发送邀请。 Skype for Business Web计划程序[文档](https://support.office.com/article/Skype-for-Business-Web-Scheduler-3b24a211-6470-4a2d-81b7-22d9399d0fec?ui=en-US&amp;rs=en-US&amp;ad=US)提供了更多详细信息。
+[Skype for Business Web计划程序](https://sched.lync.com)是一种基于 Web 的会议计划和管理工具，适用于无法访问 Microsoft Outlook 或操作系统（不基于 Windows）的 Skype for Business Online 用户。 使用 Skype for Business Web计划程序，用户可以使用他们的首选电子邮件程序创建新会议、修改现有会议和发送邀请。 Skype for Business Web计划程序[文档](https://support.office.com/article/Skype-for-Business-Web-Scheduler-3b24a211-6470-4a2d-81b7-22d9399d0fec?ui=en-US&amp;rs=en-US&amp;ad=US)提供了更多详细信息。
 
 ### <a name="vdi-plugins"></a>VDI 插件
 
@@ -80,7 +80,7 @@ Online Meeting Add-in for Skype for Business supports meeting management from wi
 
 ### <a name="microsoft-teams-rooms"></a>Microsoft Teams 会议室
 
-Microsoft Teams 会议室是 Microsoft 最新的会议解决方案，它使用熟悉的界面，并且易于部署和管理，利用现有设备（如 LED 面板）以便于安装。 Microsoft Teams 会议室部署后，在控制台模式 (中运行在 Surface Pro 4 或 Surface Pro 上的内置 UWP 应用是唯一将在设备) 上运行的应用，并且它需要实现上自己的设备帐户。 软件通过应用商店Windows更新Windows更新。 有关 https://aka.ms/MTRDocs 在部署中使用这些会议室控制台的详细信息，请参阅 。 
+Microsoft Teams 会议室是 Microsoft 最新的会议解决方案，它使用熟悉的界面，并且易于部署和管理，利用现有设备（如 LED 面板）以便于安装。 Microsoft Teams 会议室使用在控制台模式 Surface Pro 4 或 Surface Pro 上运行的、在控制台模式下运行的 UWP 应用 (部署后，UWP 应用是唯一将在设备) 上运行的应用，并且它需要在你的实现上有自己的设备帐户。 软件通过应用商店Windows更新Windows更新。 有关 https://aka.ms/MTRDocs 在部署中使用这些会议室控制台的详细信息，请参阅 。 
 
 ### <a name="skype-for-business-on-surface-hub"></a>Skype for Business Surface Hub
 
@@ -91,24 +91,24 @@ Microsoft Surface Hub是一个一合一的生产力设备，旨在进行集体�
 
 如果组织购买了相应的许可证，请选择"完整客户端"，否则选择"基本客户端"。
 
-你的用户可以在所有设备上从下载客户端[Skype for Business安装客户端](https://products.office.com/skype-for-business/download-app?tab=tabs-3)。 当用户在客户端上安装或安装Microsoft 365或Office 365客户端Windows。 如果你的一些用户拥有 Mac，则这些用户将具有一组不同的功能，如前面部分所述。
+你的用户可以在所有设备上从下载客户端[Skype for Business安装客户端](https://products.office.com/skype-for-business/download-app?tab=tabs-3)。 当用户在客户端上安装或安装Microsoft 365 Office 365客户端Windows。 如果你的一些用户拥有 Mac，则这些用户将具有一组不同的功能，如前面部分所述。
 
-Skype for Business Server 2015 中提供某些功能在 Skype for Business Online 或 Skype for Business Server 2019 中不可用，请参阅[Online 或 Hybrid user account limitations for 2015](desktop-feature-comparison.md#Online-Hybrid)或 Online or Hybrid user account [limitations for 2019](desktop-feature-comparison.md#Online-Hybrid)了解具体信息。 Skype for Business在线管理员可能需要参阅 Skype for Business [Online 服务](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description)说明，了解他们可用的不同计划。
+Skype for Business Server 2015 中提供某些功能在 Skype for Business Online 或 Skype for Business Server 2019 中不可用，请参阅[Online 或 Hybrid user account limitations for 2015](desktop-feature-comparison.md#Online-Hybrid)或[Online or Hybrid user account limitations for 2019](desktop-feature-comparison.md#Online-Hybrid)了解具体信息。 Skype for Business在线管理员可能希望参考 Skype for Business [Online 服务](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description)说明，了解他们可用的不同计划。
 
  在部署或升级到 Skype for Business，请检查组织中已在使用哪些客户端。 使用[桌面客户端功能比较Skype for Business](desktop-feature-comparison.md)了解功能支持对客户端的影响。 这可以帮助您将更改传达给用户、调整推出过程的速度，并完全了解升级到最新客户端的好处。
 
 ## <a name="ways-to-deploy-the-client-to-your-users"></a>向用户部署客户端的方法
 <a name="BK_User_Deploy"> </a>
 
-客户端安装程序可用于 MSI 和即点即用类型安装程序。 客户端Skype for Business策略可能会影响您的选择，因此您应该了解以下几点：
+客户端安装程序可用于 MSI 和即点即用类型安装程序。 客户端Skype for Business策略可能会影响你的选择，因此应了解以下几点：
 
 - 通常Skype for Business不会向之前发布的客户端添加新功能
 
 - 通常Skype for Business在 MSI 的首次发布Skype for Business交付新功能。 不同版本之间的 MSI 改进主要在本质上是质量/安全性。
 
-- 2019 Skype for Business即点即用安装程序中将Skype for Business最新、最丰富的客户端体验。
+- 在 2019 Skype for Business即点即用安装程序中Skype for Business最新且最丰富的客户端体验。
 
-您可以按照自定义客户端安装中的自定义客户端安装Windows[自定义](../../deploy/deploy-clients/customize-windows-client-installation.md)Skype for Business Server。 Deploy [clients for Skype for Business Server](../../deploy/deploy-clients/deploy-clients.md)
+您可以按照自定义客户端安装中的自定义客户端Windows[中的](../../deploy/deploy-clients/customize-windows-client-installation.md)Skype for Business Server。 Deploy [clients for Skype for Business Server](../../deploy/deploy-clients/deploy-clients.md)
 
 ### <a name="click-to-run"></a>即点即用
 
@@ -126,7 +126,7 @@ Skype for Business Server 2015 中提供某些功能在 Skype for Business Onlin
 
 你可能希望将 Office[部署工具](https://www.microsoft.com/download/details.aspx?id=49117)用于这种类型的安装程序。
 
-使用即点即用安装程序 (32 位和 64 位版本) 的基本和完整客户端版本均可用，用户可以在所有设备上下载下载[Skype for Business。](https://products.office.com/skype-for-business/download-app?tab=tabs-3)
+使用即点即用安装程序 (选择 32 位和 64 位版本的) 的基本客户端版本和完整客户端版本均可用，用户可以在所有设备上下载下载[Skype for Business。](https://products.office.com/skype-for-business/download-app?tab=tabs-3)
 
 ### <a name="msi"></a>MSI
 

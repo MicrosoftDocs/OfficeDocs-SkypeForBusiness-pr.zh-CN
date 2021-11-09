@@ -2,7 +2,7 @@
 title: 部署 VIS 服务器角色Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b6401e67-59fe-4419-a0ab-ffac88e67632
 description: 摘要：在 Skype for Business Server 中 (VIS) 角色部署视频互操作Skype for Business Server。
-ms.openlocfilehash: 35d3be9a9469136ad9cfaea1f2f6ef99bf665ed1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ad5e201f9272f3a49868aa88c38a45aa4d20e02a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751201"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842384"
 ---
 # <a name="deploy-the-vis-server-role-in-skype-for-business-server"></a>部署 VIS 服务器角色Skype for Business Server
  

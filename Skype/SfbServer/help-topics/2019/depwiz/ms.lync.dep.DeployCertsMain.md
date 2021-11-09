@@ -2,7 +2,7 @@
 title: 证书向导
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,17 +14,17 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6ab661d7-5741-4cad-bbe4-62cf862ded85
 ROBOTS: NOINDEX, NOFOLLOW
-description: 要“请求”、“分配”、“删除”或“查看”证书，可使用证书向导。 必须以 RTCUniversalServerAdmins 组成员的身份登录。 要向公共证书颁发机构 (CA) 请求证书，无需具备其他任何组成员身份。 若要从组织的公钥基础结构请求证书 (PKI) ，您需要确认需要哪些其他组成员身份（如果有）。 在请求任务期间，你可以输入备用凭据，这些凭据将用于从 PKI 的颁发 CA 请求证书。
-ms.openlocfilehash: 7b5776de91b814b289f28b86c38f29e3a35e54c6
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 要“请求”、“分配”、“删除”或“查看”证书，可使用证书向导。 必须以 RTCUniversalServerAdmins 组成员的身份登录。 要向公共证书颁发机构 (CA) 请求证书，无需具备其他任何组成员身份。 若要从组织的公钥基础结构 (PKI) 申请证书，需要确认需要其他哪些组成员身份（如果有）。 在请求任务期间，你可以输入备用凭据，这些凭据将用于从 PKI 的颁发 CA 请求证书。
+ms.openlocfilehash: dda1d93544ac1d7ef5599b9b2f5bf9c860a3b303
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60738778"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849335"
 ---
 # <a name="certificate-wizard"></a>证书向导
  
-要“请求”、“分配”、“删除”或“查看”证书，可使用证书向导。 必须以 RTCUniversalServerAdmins 组成员的身份登录。 要向公共证书颁发机构 (CA) 请求证书，无需具备其他任何组成员身份。 若要从组织的公钥基础结构请求证书 (PKI) ，您需要确认需要哪些其他组成员身份（如果有）。 在请求任务期间，你可以输入备用凭据，这些凭据将用于从 PKI 的颁发 CA 请求证书。
+要“请求”、“分配”、“删除”或“查看”证书，可使用证书向导。 必须以 RTCUniversalServerAdmins 组成员的身份登录。 要向公共证书颁发机构 (CA) 请求证书，无需具备其他任何组成员身份。 若要从组织的公钥基础结构 (PKI) 申请证书，需要确认需要其他哪些组成员身份（如果有）。 在请求任务期间，你可以输入备用凭据，这些凭据将用于从 PKI 的颁发 CA 请求证书。
   
 要请求新证书，请单击“请求”。
   

@@ -2,7 +2,7 @@
 title: 安装用于安装Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/7/2018
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2ef91a1e-2899-44c8-8e2c-527cb9114a0a
 description: 摘要：了解在安装之前必须配置的服务器和Skype for Business Server。 从 Microsoft 评估Skype for Business Server下载免费试用版 https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server ：。
-ms.openlocfilehash: 8b646ea95b13454d1b025cfbfdae186c927859e4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 97b348cedef3fe460a26c52672fc856a5eeda98e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751151"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849405"
 ---
 # <a name="install-prerequisites-for-skype-for-business-server"></a>安装用于安装Skype for Business Server
  
@@ -55,7 +55,7 @@ Skype for Business Server安装Windows服务器操作系统和许多必备组件
 1. 安装 Server requirements for Skype for Business Server 中列出的[必备软件功能](../../../SfBServer2019/plan/system-requirements.md)。 必需的软件必须位于将运行 Skype for Business Server。
     
     > [!CAUTION]
-    > Windows Server 2012R2 在默认情况下不会为所需功能安装所有源文件。 如果服务器未连接到 Internet，则需要插入 R2 Windows Server 2012并选择"指定备用源路径"以安装所需功能。 源文件位于 sources\sxs 目录中。 例如，如果Windows Server 2012 R2 媒体位于驱动器 D 中，则你将路径设置为 `d:\sources\sxs` 。 更新中提供最新更新Windows很重要。 如果未连接到 Internet，则需要手动安装所有相关更新以及所需更新的任何必备组件。 
+    > Windows Server 2012R2 在默认情况下不会为所需功能安装所有源文件。 如果服务器未连接到 Internet，则需要插入 R2 Windows Server 2012并选择"指定备用源路径"以安装所需功能。 源文件位于 sources\sxs 目录中。 例如，如果 Windows Server 2012 R2 媒体位于驱动器 D 中，则你将路径设置为 `d:\sources\sxs` 。 更新中的最新更新Windows很重要。 如果未连接到 Internet，则需要手动安装所有相关更新以及所需更新的任何必备组件。 
   
 1. 当对话框指示安装已完成时，您需要重新启动服务器才能完成此过程。
     
