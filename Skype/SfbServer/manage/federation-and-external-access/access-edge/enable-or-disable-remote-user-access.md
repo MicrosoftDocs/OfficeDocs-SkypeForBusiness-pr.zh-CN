@@ -6,7 +6,7 @@ ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182586(v=OCS.15)
 ms:contentKeyID: 48185660
 mtps_version: v=OCS.15
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,17 +14,17 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-description: 如果为远程用户启用远程用户访问，则受支持的远程用户通过 Internet 进行连接，并且不需要使用 VPN 进行连接，以便使用 Skype for Business Server 与内部用户进行协作。
-ms.openlocfilehash: 5841a5eb1be7c6ea377893607566f90f16dc8527
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 如果为远程用户启用远程用户访问，则受支持的远程用户通过 Internet 进行连接，并且不需要使用 VPN 进行连接，以便使用 Skype for Business Server。
+ms.openlocfilehash: 8ff48e9fd10a9b5bad6cf1e7ccebebb87bc7ed69
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60770200"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60853036"
 ---
 # <a name="enable-or-disable-remote-user-access-in-skype-for-business-server"></a>启用或禁用远程用户访问Skype for Business Server
 
-远程用户是组织内拥有持久 Active Directory 标识的用户。 当远程用户未连接到Skype for Business Server网络时，他们通常使用虚拟专用网络 (VPN) 从网络外部登录。 远程用户包括在家或在路上工作的员工以及其他远程工作者，如已被授予企业凭据的受信任供应商。 如果为远程用户启用远程用户访问，则受支持的远程用户通过 Internet 进行连接，并且不需要使用 VPN 进行连接，以便使用 Skype for Business Server 与内部用户进行协作。
+远程用户是组织内拥有持久 Active Directory 标识的用户。 远程用户 Skype for Business Server通常使用虚拟专用网络 (VPN) 从网络外部登录) 他们未连接到组织的网络。 远程用户包括在家或在路上工作的员工以及其他远程工作者，如已被授予企业凭据的受信任供应商。 如果为远程用户启用远程用户访问，则受支持的远程用户通过 Internet 进行连接，并且不需要使用 VPN 进行连接，以便使用 Skype for Business Server。
 
 要支持远程用户访问，必须启用远程用户访问。启用远程用户访问即为整个组织启用。如果稍后要暂时或永久阻止远程用户访问，可以为组织将其禁用。可以使用本节中的步骤为组织启用或禁用远程用户访问。
 

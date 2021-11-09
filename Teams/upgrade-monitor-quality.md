@@ -1,6 +1,6 @@
 ---
 title: 用户体验质量|Microsoft Teams |QoS |呼叫质量
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: conceptual
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 48bc26e01559d30e07e580f5adbe266506280c4e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: edc277a80ed9659281c46729646f3cbdfe95d725
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760370"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865531"
 ---
 # <a name="quality-of-experience-review-guide"></a>体验质量检查指南
 
@@ -53,7 +53,7 @@ ms.locfileid: "60760370"
 
 - 子网或网络设备存在问题
 
-改进和监视[Teams](monitor-call-quality-qos.md)的呼叫质量中提供的指南侧重于使用呼叫质量仪表板 (CQD) Online 作为主要工具来报告并调查所述的每个领域，并侧重于音频，以最大程度地提高采用和影响。 为了改进音频体验而对网络所做的任何优化也将会直接带来视频和桌面共享的改进。
+改进和监视[Teams](monitor-call-quality-qos.md)呼叫质量中提供的指南侧重于使用呼叫质量仪表板 (CQD) Online 作为主要工具来报告并调查所述的每个领域，并侧重于音频，以最大程度地提高采用和影响。 为了改进音频体验而对网络所做的任何优化也将会直接带来视频和桌面共享的改进。
 
 我们强烈建议你尽早提名质量冠军。 获得提名后，应开始熟悉改进和监视呼叫质量中的内容，以便[Teams。](monitor-call-quality-qos.md)
 

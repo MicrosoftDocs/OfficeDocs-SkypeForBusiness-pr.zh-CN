@@ -1,8 +1,8 @@
 ---
-title: 由 Grant-CsOUPermission 中Skype for Business Server
+title: 由 Grant-CsOUPermission 所做的更改Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -13,14 +13,14 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d744d352-1ad9-4447-8e2b-28e768d2ed1b
 description: 若要Skype for Business Server管理，您可以向指定的组织单位 (OUS) 添加权限，以便林准备创建的 RTC 通用组的成员无需是 Domain Admins 组的成员即可访问这些 US。
-ms.openlocfilehash: b5c507cf91a880c73c7b377deafb672ed25b1125
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c8b7841fc6754c5f852945807a68089c922f6497
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745838"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60838464"
 ---
-# <a name="changes-made-by-grant-csoupermission-in-skype-for-business-server"></a>由 Grant-CsOUPermission 中Skype for Business Server
+# <a name="changes-made-by-grant-csoupermission-in-skype-for-business-server"></a>由 Grant-CsOUPermission 所做的更改Skype for Business Server
  
 若要Skype for Business Server管理，您可以向指定的组织单位 (OUS) 添加权限，以便林准备创建的 RTC 通用组的成员无需是 Domain Admins 组的成员即可访问这些 US。 
   

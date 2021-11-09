@@ -2,7 +2,7 @@
 title: Plan for Call Park in Skype for Business
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985dc326-0aef-4308-b98b-c1d0069311e7
 description: 规划呼叫呼叫Skype for Business Server 企业语音，从而将呼叫置于保持状态以及将呼叫转接到部门。 包括容量规划、支持的呼叫和支持的客户端。
-ms.openlocfilehash: 1cba225d966f835e59f75c359cee49ab183d21eb
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 29ca14f85aeccaa8394ede4420c66af77e5c66c8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60770180"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60839834"
 ---
 # <a name="plan-for-call-park-in-skype-for-business"></a>Plan for Call Park in Skype for Business
  
@@ -56,7 +56,7 @@ ms.locfileid: "60770180"
   
 ### <a name="software-requirements"></a>软件要求
 
-部署了呼叫库的所有前端服务器和 Standard Edition 服务器必须为运行 Windows Server 2008 R2 的服务器安装 Windows Media Format Runtime，或为运行 Windows Server 2012 或 Windows Server 2012 R2 的服务器安装 Microsoft Media Foundation. 对于 Windows Server 2008 R2，Windows Media Format Runtime 作为桌面体验的一Windows安装。 Windows媒体格式运行时或 Microsoft Media Foundation 是呼叫Windows播放保持音乐 (.wma) 需要媒体格式运行时或 Microsoft Media Foundation。
+部署呼叫库的所有前端服务器和 Standard Edition 服务器必须为运行 Windows Server 2008 R2 的服务器安装 Windows 媒体格式运行时，或为运行 Windows Server 2012 或 Windows Server 2012 R2 的服务器安装 Microsoft Media Foundation. 对于 Windows Server 2008 R2，Windows Media Format Runtime 作为桌面体验的一Windows安装。 Windows媒体格式运行时或 Microsoft Media Foundation 是呼叫Windows播放保持音乐 (.wma) 文件所需的媒体格式运行时或 Microsoft Media Foundation。
   
 ### <a name="port-requirements"></a>端口要求
 
@@ -67,7 +67,7 @@ ms.locfileid: "60770180"
   
 ### <a name="audio-file-requirements"></a>音频文件要求
 
-呼叫保留应用程序仅支持Windows媒体音频 (.wma) 保留音乐。 您可以使用 Microsoft Expression Encoder 4 来自定义用作保持音乐的文件。 若要下载 Expression Encoder 4，请参阅["Expression Encoder 4"。](https://go.microsoft.com/fwlink/p/?linkId=202843) 使用此工具将文件转换为 .wma 格式。 呼叫寄存保持音乐文件的建议格式为 Media Audio 9，44 kHz，16 位，单声道，CBR，32 kbps。
+呼叫保留应用程序仅支持Windows媒体 (.wma) 保留音乐。 您可以使用 Microsoft Expression Encoder 4 来自定义用作保持音乐的文件。 若要下载 Expression Encoder 4，请参阅["Expression Encoder 4"。](https://go.microsoft.com/fwlink/p/?linkId=202843) 使用此工具将文件转换为 .wma 格式。 呼叫寄存保持音乐文件的建议格式为 Media Audio 9，44 kHz，16 位，单声道，CBR，32 kbps。
   
 > [!NOTE]
 > 转换后的文件仅以 16 KHz 在电话上播放，即使录制时采用 44 KHz 也是如此。 

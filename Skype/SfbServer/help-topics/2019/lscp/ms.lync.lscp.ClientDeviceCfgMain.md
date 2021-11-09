@@ -2,7 +2,7 @@
 title: 设备日志配置
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,19 +15,19 @@ ms.localizationpriority: medium
 ms.assetid: c9b81f20-ce8c-40f1-8bed-50775cc35e58
 ROBOTS: NOINDEX, NOFOLLOW
 description: 设备更新 Web 服务会自动创建记录设备更新活动的日志文件。 作为组织的数据管理策略的一部分，您可能需要设置日志数据缓存大小、日志文件 大小或 日志文件 在清除之前保留的时间长度的阈值。 您可以根据组织的要求更改这些设置。 如果不希望设备更新 Web 服务自动清除日志文件，可以根据需要进行手动清除。 可以在全局范围或针对每个站点更改日志设置。
-ms.openlocfilehash: 655c8451ac40cd31787282ab0b804d4309aa34a8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d1a628c9d1fd7604345d7c6fee723accb936084a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60764690"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60838244"
 ---
 # <a name="device-log-configuration"></a>设备日志配置
 
 设备更新 Web 服务会自动创建记录设备更新活动的日志文件。 作为组织的数据管理策略的一部分，您可能需要设置日志数据缓存大小、日志文件 大小或 日志文件 在清除之前保留的时间长度的阈值。 您可以根据组织的要求更改这些设置。 如果不希望设备更新 Web 服务自动清除日志文件，可以根据需要进行手动清除。 可以在全局范围或针对每个站点更改日志设置。
 
 > [!NOTE]
-> 您还可以配置一天中您希望设备更新 Web 服务自动删除超过您配置该服务保留日志文件 (的天数的日志文件（即超过) 年 10 天的日志文件）的时间。 无法使用"控制面板"Skype for Business Server修改此设置。 相反，必须使用命令行管理Skype for Business Server命令行管理程序。 若要指定删除过期日志文件的时间，请使用 **New-CsDeviceUpdateConfiguration** cmdlet 和 -LogCleanUpTimeOfDay 参数。 有关详细信息，请参阅 [New-CsDeviceUpdateConfiguration](/powershell/module/skype/new-csdeviceupdateconfiguration?view=skype-ps)。
+> 您还可以配置一天中您希望设备更新 Web 服务自动删除超过您配置该服务保留日志文件 (的天数的日志文件（即超过) 年 10 天的日志文件）的时间。 无法使用"控制面板"Skype for Business Server修改此设置。 相反，必须使用命令行Skype for Business Server命令行管理程序。 若要指定删除过期日志文件的时间，请使用 **New-CsDeviceUpdateConfiguration** cmdlet 和 -LogCleanUpTimeOfDay 参数。 有关详细信息，请参阅 [New-CsDeviceUpdateConfiguration](/powershell/module/skype/new-csdeviceupdateconfiguration?view=skype-ps)。
 
 > [!CAUTION]
 > 清除的文件将从文件系统中永久删除。清除文件后，将无法恢复。

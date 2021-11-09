@@ -2,7 +2,7 @@
 title: 管理应用程序中的应用程序级响应组Skype for Business
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: aab749a1-fa2d-4ce8-a6c6-ebcfa37ce02a
 description: 管理应用程序级响应组设置，如保持音乐设置和回Skype for Business Server 企业语音。
-ms.openlocfilehash: 6cce6872bc0e1ee017d46eee4ee547c6e9aabd25
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7ac6b9e03f8a738baa5bb41bac858da1ce057c8b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769610"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60839664"
 ---
 # <a name="managing-application-level-response-group-settings-in-skype-for-business"></a>管理应用程序中的应用程序级响应组Skype for Business
  

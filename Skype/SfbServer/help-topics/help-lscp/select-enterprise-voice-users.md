@@ -2,7 +2,7 @@
 title: 选择企业语音用户
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 91a63439-f2a4-47b3-8c4e-29c8f32ee3c5
 description: 使用"选择企业语音用户"对话框查找已启用此企业语音。 在搜索框中，键入要查找的用户的 SIP 地址或显示名称，然后单击“查找”。 若要选择用户，请单击搜索结果列表中的用户，然后单击“确定”。 如果找不到要查找的用户，则可能无法为该用户启用企业语音。
-ms.openlocfilehash: d07316d8fe46924a8492e0c0358bd98ba2e0e6d6
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 5c4ff0259fff1aa4586e22809683d9f1f7db9c32
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60764010"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60837914"
 ---
 # <a name="select-enterprise-voice-users"></a>选择企业语音用户
  

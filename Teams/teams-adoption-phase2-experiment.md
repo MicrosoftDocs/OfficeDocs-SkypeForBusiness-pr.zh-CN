@@ -1,6 +1,6 @@
 ---
 title: Microsoft Teams 采用第 2 阶段 - 试验
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.date: 11/01/2018
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 本文将了解如何执行采用方法的试验Microsoft Teams阶段。
+description: 本文介绍了如何执行采用方法的试验Microsoft Teams阶段。
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 177ce9d4ee32f1cb620482acfdbf12086e5b5966
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 882b842e0906426e46132c0a1de10cef5762ea72
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745458"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865561"
 ---
 # <a name="microsoft-teams-adoption-phase-2---experiment"></a>Microsoft Teams 采用第 2 阶段 - 试验
 
-现在，你已拥有出色的项目团队和有关组织的关键信息，并且已准备好试验Teams。 我们建议在一个组中试验 2 到 3 个实际项目，这些项目由您与之具有积极关系的利益干系人领导，并且在其组织中有足够的早期采用者来提供有意义的反馈。 无论你的组织是大还是小，我们建议完成此阶段，深入了解Teams除了使用聊天和文件存储功能之外，如何改进你的协作。  
+现在，你已拥有出色的项目团队和有关组织的关键信息，并且已准备好Teams。 我们建议在一个组中试验 2 到 3 个实际项目，这些项目由您与之具有积极关系的利益干系人领导，并且在其组织中有足够的早期采用者来提供有意义的反馈。 无论你的组织是大还是小，我们建议完成此阶段，深入了解Teams除了使用聊天和文件存储功能之外，如何改进你的协作。  
 
 在此阶段中，将完成以下步骤：
 

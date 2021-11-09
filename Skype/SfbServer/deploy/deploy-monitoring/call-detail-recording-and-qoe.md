@@ -2,7 +2,7 @@
 title: 配置呼叫详细信息记录和用户体验质量设置Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 009a0499-4f8c-450d-9c72-a565a08e9f7a
 description: 摘要：了解如何在 Skype for Business Server 中配置 CDR 和 QoE。
-ms.openlocfilehash: abb6996a7483afb8526731ac69404174883ce313
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9275ead7fee4b9751141dd683bafb8b41e077530
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745318"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60839634"
 ---
 # <a name="configure-call-detail-recording-and-quality-of-experience-settings-in-skype-for-business-server"></a>配置呼叫详细信息记录和用户体验质量设置Skype for Business Server
  
@@ -50,7 +50,7 @@ Set-CsQoEConfiguration -Identity "global" -EnableQoE $False
 |EnablePurging  <br/> |指示是否定期从数据库中删除 QoE 记录。如果为 True，则将在属性 KeepQoEDataForDays 指定的时间段后删除记录。如果为 False，则将无限期保留 QoE 记录。  <br/> |True  <br/> |
 |KeepQoEDataForDays  <br/> |指示 QoE 记录在数据库中保留的天数；超过指定天数的任何记录将自动删除。但是，只有在启用了清除时才会发生这种情况。  <br/> 可将 KeepCallDetailForDays 设置为 1 到 2562 天之间的任意整数值。  <br/> |60 天  <br/> |
    
-如果您需要修改这些全局设置，可以使用 Set-CsCdrConfiguration 和 Set-CsQoEConfiguration cmdlet 来完成。 例如，此命令 (命令行管理程序Skype for Business Server在) 全局范围禁用 CDR 监控;这是通过将 EnableCDR 属性设置为 False ($False) ：
+如果您需要修改这些全局设置，可以使用 Set-CsCdrConfiguration 和 Set-CsQoEConfiguration cmdlet 来完成。 例如，此命令 (命令行管理程序Skype for Business Server，) 全局范围禁用 CDR 监控;这是通过将 EnableCDR 属性设置为 False ($False) ：
   
 ```powershell
 Set-CsCdrConfiguration -Identity "global" -EnableCDR $False

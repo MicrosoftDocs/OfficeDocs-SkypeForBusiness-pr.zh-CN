@@ -2,7 +2,7 @@
 title: 选择文件类型扩展名
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 3638cdc8-71dd-4a22-8613-83859af97387
 ROBOTS: NOINDEX, NOFOLLOW
 description: 使用“选择文件类型扩展名”对话框，通过选中（以阻止）或清除（以允许）“文件类型扩展名”下的扩展名旁边的复选框，可以选择要阻止或允许的文件类型扩展名。单击箭头可展开类别并查看该类别的所有文件类型扩展名。如果要选择某个类别的所有文件类型扩展名，请选择该类别名称。
-ms.openlocfilehash: c56575340ad8047e3e0a5fb1519f1780f8643562
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7b3ffb082890b9bf45e70d5f7bbf0ffd57396ed2
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745248"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60852636"
 ---
 # <a name="select-file-type-extensions"></a>选择文件类型扩展名
  

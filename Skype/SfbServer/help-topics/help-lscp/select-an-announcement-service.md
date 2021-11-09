@@ -2,7 +2,7 @@
 title: 选择通知服务
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 676f4d80-6826-4fa0-9430-4ebdb4b5a03e
 description: 使用“选择通知服务”对话框可选择将处理到未分配号码范围的传入呼叫的通知服务。
-ms.openlocfilehash: c02add8cefec93f11f6bb3843d9208b6f49f1db8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ba6dac3880f769d4b02619dc86b1c65b66239182
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60776542"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60852316"
 ---
 # <a name="select-an-announcement-service"></a>选择通知服务
  

@@ -2,7 +2,7 @@
 title: 配置存档策略Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e8e48087-d4f0-4fe1-9e7e-f2b3e07f815f
 description: 摘要：阅读本主题，了解如何为用户配置Skype for Business Server策略。
-ms.openlocfilehash: 62e61d951c7e05effa68afd13c849c027b40a896
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 96d53ae71a8faa72c5dcdc3816c09c1b6d492e67
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60749521"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60853786"
 ---
 # <a name="configure-archiving-policies-for-skype-for-business-server"></a>配置存档策略Skype for Business Server
  
@@ -37,13 +37,13 @@ ms.locfileid: "60749521"
 > 若要控制存档的实现，必须指定选项，例如是否存档 IM 或会议、关键模式的使用和清除选项。 默认情况下，在全局存档配置或任何站点或池存档配置中未启用任何选项。 在启用内部或外部通信的存档之前，应指定所有适当的选项。 有关详细信息，请参阅[Configure archiving options for Skype for Business Server](configure-archiving-options.md)。 
   
 > [!NOTE]
-> 如果为部署Exchange Microsoft Exchange Exchange In-Place集成，则保留策略将控制是否对位于 Exchange 上且其邮箱置于"In-Place保留"的用户启用存档。 
+> 如果为部署启用 Microsoft Exchange 集成，Exchange In-Place 保留策略将控制是否对位于 Exchange 上且其邮箱已置于 In-Place 保留状态的用户启用存档。 
   
 有关存档策略如何工作的详细信息（包括全局、站点和用户策略的层次结构）的信息，请参阅 Plan [for archiving in Skype for Business Server](../../plan-your-deployment/archiving/archiving.md)。 有关部署后如何管理策略的详细信息，请参阅在部署[后管理Skype for Business Server。](../../manage/archiving/policies.md)
   
 ## <a name="global-policy"></a>全局策略
 
-部署前端服务器时，Skype for Business Server创建全局存档策略。 默认情况下，全局策略中禁用存档。 全局策略控制是否针对整个部署的内部和外部通信启用存档，除非您设置了站点或用户策略（这将覆盖全局策略）或者为部分或所有用户使用 Microsoft Exchange 集成。 如果使用 Microsoft Exchange集成，则全局策略不适用于位于 Exchange 上且将邮箱置于 In-Place 保留状态的任何用户。
+部署前端服务器时，Skype for Business Server创建全局存档策略。 默认情况下，全局策略中禁用存档。 全局策略控制是否针对整个部署的内部和外部通信启用存档，除非您设置了站点或用户策略（这将覆盖全局策略）或者对部分或所有用户使用 Microsoft Exchange 集成。 如果使用 Microsoft Exchange集成，则全局策略不适用于位于 Exchange 上且将邮箱置于保留In-Place用户。
   
 ### <a name="configure-the-global-policy-for-archiving-for-skype-for-business-server-archiving-databases"></a>配置存档数据库的全局Skype for Business Server策略
 
@@ -69,7 +69,7 @@ ms.locfileid: "60749521"
     
 ## <a name="site-policies"></a>网站策略
 
-您可以通过为特定站点的每个站点创建存档策略来启用或禁用存档。 站点策略会覆盖全局策略，但用户策略会覆盖站点策略。 存档策略仅适用于不使用 Microsoft Exchange 集成，或者如果您使用 Microsoft Exchange 集成，但有些用户未位于 Exchange 且其邮箱被置于 In-Place 保留状态。
+可以通过为特定站点的每个站点创建存档策略来启用或禁用存档。 站点策略会覆盖全局策略，但用户策略会覆盖站点策略。 存档策略仅在您不使用 Microsoft Exchange 集成或如果您使用 Microsoft Exchange 集成，但有些用户未位于 Exchange 且其邮箱被置于 In-Place 保留状态时适用。
   
 ### <a name="create-an-archiving-policy-for-a-site"></a>为站点创建存档策略
 
@@ -99,7 +99,7 @@ ms.locfileid: "60749521"
     
 ## <a name="user-policies"></a>用户策略
 
-通过为用户创建和配置存档策略，然后将该策略应用于特定用户或用户组，您可以为特定用户启用或禁用存档。 用户策略会覆盖任何全局策略或站点策略。 存档策略仅适用于不使用 Microsoft Exchange 集成，或者如果您使用 Microsoft Exchange 集成，但有些用户未位于 Exchange 且其邮箱被置于 In-Place 保留状态。
+通过为用户创建和配置存档策略，然后将该策略应用于特定用户或用户组，您可以为特定用户启用或禁用存档。 用户策略会覆盖任何全局策略或站点策略。 存档策略仅在您不使用 Microsoft Exchange 集成或如果您使用 Microsoft Exchange 集成，但有些用户未位于 Exchange 且其邮箱被置于 In-Place 保留状态时适用。
   
 ### <a name="configure-an-archiving-policy-for-users-homed-on-skype-for-business-server"></a>为本地用户配置存档Skype for Business Server
 
@@ -134,7 +134,7 @@ ms.locfileid: "60749521"
     
 4. 在列出搜索结果的表中，单击相应的用户帐户，再单击“编辑”，然后单击“显示详细信息”。
     
-5. 在 **"Skype for Business Server** 策略"下的"编辑存档用户"中，选择要应用存档用户策略。
+5. 在 **"Skype for Business Server** 策略"下的"编辑用户"中，选择要应用存档用户策略。
     
     > [!NOTE]
     > 这些设置 **\<Automatic\>** 将应用默认服务器安装设置。 服务器将自动应用这些设置。

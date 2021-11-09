@@ -2,7 +2,7 @@
 title: 2015 年 Skype for Business Server 中的 Conferences 表
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 7/15/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c3da6271-b3c6-4898-894f-10456ec794d0
 description: 此表中的每条记录都包含有关一个会议的呼叫详细信息。
-ms.openlocfilehash: 22d394ca447852a32d8028770d7ceefea7adbcf1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: cbcda30c47b4bbeac012f80d64f297a9a1259f2c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763410"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60838444"
 ---
 # <a name="conferences-table-in-skype-for-business-server-2015"></a>2015 年 Skype for Business Server 中的 Conferences 表
  
@@ -36,7 +36,7 @@ ms.locfileid: "60763410"
 |**OrganizerId** <br/> |Int  <br/> |Foreign  <br/> |用于标识此会议的组织者 URI 的 ID 号。 有关详细信息 [，请参阅 Users](users.md) 表。 <br/> |
 |**Flag** <br/> |smallint  <br/> || 包含会议属性的位掩码。 可能的值是： <br/>  0X01 <br/>  综合 <br/>  事务 <br/> |
 |**已处理** <br/> |bit  <br/> ||监控服务使用的内部字段。  <br/> 此字段在 Microsoft Lync Server 2013 中引入。  <br/> |
-|**LastModifiedTime** <br/> |Datetime  <br/> ||供监控服务内部使用。  <br/> 此字段在 2015 年 Skype for Business Server引入。  <br/> |
+|**LastModifiedTime** <br/> |Datetime  <br/> ||供监控服务内部使用。  <br/> 此字段是在 2015 年 Skype for Business Server引入的。  <br/> |
    
 \* 对于大多数会话，SessionIdSeq 的值为 1。 如果两个会话完全同时启动，则一个会话的 SessionIdSeq 将为 1，另一个会话的 SessionIdSeq 将为 2，以此类比。
   

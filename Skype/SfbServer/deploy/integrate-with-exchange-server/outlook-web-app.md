@@ -2,7 +2,7 @@
 title: 配置本地部署和Skype for Business Server之间的Outlook Web App
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/7/2016
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 95a20117-2064-43c4-94fe-cac892cadb6f
 description: 摘要：集成Skype for Business Server和Outlook Web App。
-ms.openlocfilehash: 9555303ad5bcb3ad15702f0cf1768549330e33cd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: cebb8fed6b87dac6ec2c981730d303994c952741
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60738858"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60853676"
 ---
 # <a name="configure-integration-between-on-premises-skype-for-business-server-and-outlook-web-app"></a>配置本地部署和Skype for Business Server之间的Outlook Web App
 

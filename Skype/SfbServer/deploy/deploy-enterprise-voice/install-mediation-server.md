@@ -2,7 +2,7 @@
 title: 在服务器中安装中介服务器Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f0f7dd15-58e1-40fd-aa7e-6db50ceafacd
 description: 摘要：了解如何在客户端安装中介服务器Skype for Business Server。
-ms.openlocfilehash: 8dcc6862b55a4620030d03ed442a24e22ccde54b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6efe52ab2964e8a9c95083bbcf6592573ebf7da2
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769620"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60839684"
 ---
 # <a name="install-the-files-for-mediation-server-in-skype-for-business-server"></a>在服务器中安装中介服务器Skype for Business Server
  
@@ -32,7 +32,7 @@ ms.locfileid: "60769620"
 使用本主题中的步骤运行 Skype for Business Server 部署向导，在已使用拓扑生成器定义和发布池后添加到中介服务器池的计算机上安装中介服务器的文件。 安装文件中介服务器时，还要安装和分配中介服务器池中每台计算机所需的证书。 
   
 > [!NOTE]
-> 本主题假定已在拓扑中定义并发布了独立的中介服务器池，如在拓扑生成器中部署中介服务器[Skype for Business Server。](deploy-a-mediation-server.md) 
+> 本主题假定已在拓扑中定义和发布独立的中介服务器池，如在拓扑生成器中部署中介服务器[Skype for Business Server。](deploy-a-mediation-server.md) 
   
 ### <a name="to-install-the-files-for-a-stand-alone-mediation-server-pool"></a>为独立的中介服务器池安装文件
 
@@ -50,7 +50,7 @@ ms.locfileid: "60769620"
     
 7. 在“正在执行命令”页上，当任务状态显示为“已完成”时，单击“完成”。
     
-8. 在"**步骤 2： 安装或删除Skype for Business Server组件"旁边**，单击"运行"，然后单击"下一 **步"。**
+8. 在"**步骤 2： 安装或删除Skype for Business Server组件"旁边**，单击"**运行**"，然后单击"下一步 **"。**
     
 9. 在“正在执行命令”页上，当任务状态显示为“已完成”时，单击“完成”。
     

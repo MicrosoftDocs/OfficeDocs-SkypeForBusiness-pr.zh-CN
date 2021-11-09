@@ -2,7 +2,7 @@
 title: Manage categories in Persistent Chat Server in Skype for Business Server 2015
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 1/31/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b0c834b9-b5c8-41d5-865b-c8b180e76d13
 description: 摘要：了解如何在 Skype for Business Server 2015 中管理持久聊天服务器类别。
-ms.openlocfilehash: e9892f032d5af24d1394fddc6965ead6e769472e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 86a90143bad43f4bb8a96434885eec741c01f4a4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60776192"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60853006"
 ---
 # <a name="manage-categories-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Manage categories in Persistent Chat Server in Skype for Business Server 2015
  
@@ -26,7 +26,7 @@ ms.locfileid: "60776192"
   
 类别是组织聊天室的逻辑结构。 类别定义一组默认的访问控制列表 (ACL) 可用于控制可以创建或加入聊天室的用户和用户组。 聊天室类别包含聊天室，但不包含其他类别。 每个类别使用名称 和描述 等元数据描述其内容。 类别具有可设置以控制其所属聊天室的行为的属性;例如，聊天室是否允许邀请或文件上载，或包含聊天历史记录。 
   
-正确使用类别可更轻松地创建和管理聊天室。 作为持久聊天服务器管理员，您可以为每个类别定义 AllowedMembers 和 Creators，还可以定义将应用于类别中创建的所有聊天室的默认聊天室设置和行为。 例如，如果将类别的 AllowedMembers 设置为 contoso.com，您可以将 Contoso 的任何组或用户作为成员添加到该类别中的聊天室。 如果将类别中的"允许的成员"设置为"销售"，则只有此通讯组列表中的组和用户才能作为成员添加到该类别中的聊天室。 利用 Creators 属性，您可以控制可在该类别中创建聊天室的人。 创建聊天室后，可以将 AllowedMembers 组中任何人指定为对聊天室执行持续管理 (例如，成员身份更改和审批) 。
+正确使用类别可更轻松地创建和管理聊天室。 作为持久聊天服务器管理员，您可以为每个类别定义 AllowedMembers 和 Creators，还可以定义将应用于类别中创建的所有聊天室的默认聊天室设置和行为。 例如，如果将类别的 AllowedMembers 设置为 contoso.com，您可以将 Contoso 的任何组或用户作为成员添加到该类别中的聊天室。 如果将类别的"允许的成员"设置为"销售"，则只有此通讯组列表中的组和用户才能作为成员添加到该类别中的聊天室。 利用 Creators 属性，您可以控制可在该类别中创建聊天室的人。 创建聊天室后，可以将 AllowedMembers 组中任何人指定为对聊天室执行持续管理 (例如，成员身份更改和审批) 。
   
 为类别定义 AllowedMembers 和 Creators 有以下好处：
   
@@ -41,7 +41,7 @@ ms.locfileid: "60776192"
 可以使用控制面板或 cmdlet 配置和管理Windows PowerShell类别。
 
 > [!NOTE]
-> 持久聊天在 2015 Skype for Business Server可用，但在 2019 年 2 月不再Skype for Business Server支持。 相同的功能在 Teams 中可用。 有关详细信息，请参阅开始[升级Microsoft Teams升级](/microsoftteams/upgrade-start-here)。 如果您需要使用持久聊天，您的选择是迁移需要此功能的用户以Teams或继续使用 Skype for Business Server 2015。 
+> 持久聊天在 2015 Skype for Business Server可用，但在 2019 年 2 月不再Skype for Business Server支持。 相同的功能在 Teams。 有关详细信息，请参阅开始[升级Microsoft Teams升级](/microsoftteams/upgrade-start-here)。 如果您需要使用持久聊天，则选择将需要此功能的用户迁移到 Teams，或者继续使用 Skype for Business Server 2015。 
   
 ## <a name="configure-categories-by-using-the-control-panel"></a>使用控制面板配置类别
 

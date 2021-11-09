@@ -2,7 +2,7 @@
 title: 客户端移动策略
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 6ab53530-143d-4f1e-90cd-a92685f98a20
 description: “客户端移动策略”页显示部署中可用的移动策略。
-ms.openlocfilehash: cdd6a4288e3653554e3572361ed62c9278bee99b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3319d6c409efb3d4a0e7d8924e934a05f9d5a6d7
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60757464"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60838754"
 ---
 # <a name="clients-mobility-policy"></a>客户端：移动策略
 
@@ -43,7 +43,7 @@ ms.locfileid: "60757464"
 
 - **搜索字段** 在文本框中键入字符串以筛选显示的策略。
 
-- **新建** 单击 **"新建**"，然后选择" **站点** " **或** "用户"以创建新的移动策略。
+- **新建** 单击 **"新建**"，然后选择" **站点** "或 **"** 用户"以创建新的移动策略。
 
 - **编辑** 选择一个策略，然后单击"编辑"编辑所选策略的属性。
 

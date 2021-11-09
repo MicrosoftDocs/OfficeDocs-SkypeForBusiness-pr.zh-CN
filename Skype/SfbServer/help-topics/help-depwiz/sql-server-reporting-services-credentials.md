@@ -2,7 +2,7 @@
 title: SQL Server Reporting Services（凭据）
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 033906cd-385f-4b04-9607-376888ec414d
 description: 要指定 SQL Server Reporting Services (SSRS) 的凭据以访问监控数据库，请执行以下操作：
-ms.openlocfilehash: a871b24f88ec717c81e9d55df3c9adff80b6a1ad
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 809688b2b6c9c25338e86fa3e07682b7b578f7f5
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60776642"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60853356"
 ---
 # <a name="sql-server-reporting-services-credentials"></a>SQL Server Reporting Services（凭据）
  
@@ -31,4 +31,4 @@ ms.locfileid: "60776642"
 > [!NOTE]
 > 有关详细信息，请参阅 位于 的"指定报告数据源的凭据和 (SSRS [https://go.microsoft.com/fwlink/p/?LinkId=263431](/sql/reporting-services/report-data/specify-credential-and-connection-information-for-report-data-sources)) "。 
   
-有关为运行监控的服务器部署 Reporting Services 报告的详细信息，请参阅 Install [Monitoring Reports in Skype for Business Server 2015](../../deploy/deploy-monitoring/install-monitoring-reports.md)。
+有关为运行监控的服务器部署 Reporting Services 报告的详细信息，请参阅 Install [Monitoring Reports in Skype for Business Server 2015。](../../deploy/deploy-monitoring/install-monitoring-reports.md)

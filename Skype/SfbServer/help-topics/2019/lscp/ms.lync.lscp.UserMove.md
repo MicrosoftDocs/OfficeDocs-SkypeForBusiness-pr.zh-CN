@@ -2,7 +2,7 @@
 title: 移动用户
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: fb8e30aa-6b3c-4c8f-b22f-02db9e5fb8c0
 ROBOTS: NOINDEX, NOFOLLOW
 description: 在"移动用户"页上，可以选择将所选用户移动到的目标池。
-ms.openlocfilehash: fd756c8e24399847e49ab94dff8b9b9ca5771c9f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f318551e66b63ad6acc20b5cc12ace6a61474670
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778722"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60838984"
 ---
 # <a name="move-user"></a>移动用户
 

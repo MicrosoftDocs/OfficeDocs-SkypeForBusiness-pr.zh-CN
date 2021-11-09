@@ -2,7 +2,7 @@
 title: 安装本地配置存储调用（配置）
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 92dccbca-7a5b-4064-9f2e-964b8e62433c
 description: 若要开始安装将保存中央管理存储的本地只读副本的数据库，请选择从已安装和配置的中央管理存储中检索使用拓扑生成器发布的已定义配置，还是从其他媒体读取定义的配置。 对于位于组织内部网络上的计算机，选择"从中央管理存储自动检索配置"。
-ms.openlocfilehash: 9209292a6cd6d855284a7546a8cb5fcabbc7730b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 86bc9d9851a064583ad5c318c6665b63bfdbf09b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60738048"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60852436"
 ---
 # <a name="install-local-configuration-store-invoke-configure"></a>安装本地配置存储调用（配置）
  

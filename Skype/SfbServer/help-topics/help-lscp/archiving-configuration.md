@@ -2,7 +2,7 @@
 title: 存档配置
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 9c2fd164-a9b8-40e6-a1c4-423a7fe34aba
-description: 使用存档配置可控制您的 Skype for Business Server 的存档选项，包括启用和禁用以下选项：
-ms.openlocfilehash: d8dadcb81254254b96802870e8d4e9a22da038a1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 使用存档配置可控制您的Skype for Business Server的存档选项，包括启用和禁用以下选项：
+ms.openlocfilehash: b2babf5e5fdc5c1a0f7b01bb0a22c516fde062d5
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60744728"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60838804"
 ---
 # <a name="archiving-configuration"></a>存档配置
  
-使用存档配置可控制您的 Skype for Business Server 的存档选项，包括启用和禁用以下选项：
+使用存档配置可控制您的Skype for Business Server的存档选项，包括启用和禁用以下选项：
   
 - 存档失败时阻止即时消息 (IM) 或会议会话
     
@@ -34,7 +34,7 @@ ms.locfileid: "60744728"
     
 存档配置包括全局配置以及可选的一个或多个站点和池存档配置：
   
-- **全局配置** 默认情况下，在部署的所有部署中创建Skype for Business Server配置。 您可以编辑全局配置，但无法删除此存档配置。 如果您尝试将其删除，则所有选项将重置为默认值。
+- **全局配置** 默认情况下，全局配置在所有部署中Skype for Business Server创建。 您可以编辑全局配置，但无法删除此存档配置。 如果您尝试将其删除，则所有选项将重置为默认值。
     
 - **站点配置 (可选)** 您可以指定一个或多个站点存档配置，您可将每个存档配置分别配置为控制特定站点的存档选项。 站点配置会覆盖全局配置，但仅限于在存档站点配置中指定的站点。 可以编辑或删除站点配置。
     

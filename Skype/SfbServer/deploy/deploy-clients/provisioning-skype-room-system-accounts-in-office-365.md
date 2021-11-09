@@ -1,7 +1,7 @@
 ---
-title: 在 Skype 和 Microsoft 365 中预配Office 365
+title: 在Skype和Microsoft 365中预配Office 365
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -11,25 +11,25 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
-description: 阅读本主题，了解如何在 Skype 或 Office 365 中预配会议室系统Microsoft 365帐户。
-ms.openlocfilehash: 1f4262453735baa08e16e7da03909e48ef12f4ff
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 阅读本主题，了解如何在Skype或Microsoft 365会议室Office 365。
+ms.openlocfilehash: 77416d34c3b478f0013cf41c63dcebd52e52f3ce
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758114"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60853766"
 ---
-# <a name="provisioning-skype-room-system-accounts-in-microsoft-365-and-office-365"></a>在 Skype 和 Microsoft 365 中预配Office 365
+# <a name="provisioning-skype-room-system-accounts-in-microsoft-365-and-office-365"></a>在Skype和Microsoft 365中预配Office 365
  
-阅读本主题，了解如何在 Skype 或 Office 365 中预配会议室系统Microsoft 365帐户。
+阅读本主题，了解如何在Skype或Microsoft 365会议室Office 365。
   
-下一节介绍了Skype系统帐户预配。
+以下部分介绍了Skype系统帐户预配。
   
 ## <a name="microsoft-365-and-office-365-prerequisites"></a>Microsoft 365和Office 365先决条件
 
 联机租户必须满足以下要求：
   
-- Microsoft 365或Office 365计划必须Skype for Business Online 计划 2、Office 365 E1、E3 或 E5。 <br/>有关 Skype for Business Online 计划的详细信息，请参阅 Skype for Business [Online 服务说明](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description)。
+- 计划Microsoft 365或Office 365必须包括 Skype for Business Online 计划 2、Office 365 E1、E3 或 E5。 <br/>有关 Skype for Business Online 计划的详细信息，请参阅[Skype for Business Online 服务说明](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description)。
     
 - 租户必须启用会议Skype for Business功能。
     
@@ -55,7 +55,7 @@ ms.locfileid: "60758114"
     
 ## <a name="provisioning-overview"></a>预配概述
 
-下图概述了会议室系统Skype流。
+下图概述了会议室系统Skype设置流。
   
 ![Skype会议室系统预配步骤。](../../media/354c5659-317b-4e85-a1bc-c60c07f305a4.png)
   
@@ -87,21 +87,21 @@ $newpass='pass@word1'
 New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString $newpass -AsPlainText -Force)
 ```
 
-前面的命令通过启用帐户Exchange设置或创建一个新的会议室Skype会议室系统使用情况。
+前面的命令通过启用帐户Exchange设置或创建新的会议室Skype邮箱帐户。
   
 创建邮箱后，可以在 PowerShell Set-CalendarProcessing cmdlet Exchange Online配置邮箱。 有关更多详细信息，请参阅单林本地部署下的步骤 3 至 6
 
 ## <a name="assigning-a-skype-for-business-online-license"></a>分配 Skype for Business Online 许可证
 
-现在，可以使用 Microsoft 365 管理门户分配 Skype for Business Online (计划 2) 或 Skype for Business Online (计划 3) 许可证，如分配或删除[Microsoft 365 商业](https://support.office.com/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US)版或[Skype for Business](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)加载项许可中的许可证中所述。 
+现在，可以使用 Microsoft 365 管理门户分配 Skype for Business Online (计划 2) 或 Skype for Business Online (计划 3) 许可证，如为[Microsoft 365](https://support.office.com/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US)企业版或[Skype for Business](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)附加许可分配或删除许可证中所述。 
   
-为 Skype for Business Online 分配许可证后，你将能够登录并验证该帐户是否在任何客户端Skype for Business活动。
+为 Skype for Business Online 分配许可证后，您将能够使用任意客户端登录并验证该帐户Skype for Business活动。
   
 ## <a name="skype-for-business-online-provisioning"></a>Skype for Business联机预配
 
-按照前面所示创建并启用资源会议室邮箱帐户，并且你已许可 Skype For Business Online 的帐户后，该帐户将通过使用 Windows Azure Active Directory 林从 Exchange Online 林同步到 Skype for Business Online 林。 若要在联机池中设置 Skype会议室系统帐户，Skype for Business步骤。 对于现有资源邮箱帐户或新创建的帐户 (confrm1 或 confrm2) ，这些步骤是相同的，因为在 Exchange Online 中启用后，这两个帐户将按照相同的方式同步到 Skype for Business Online：
+按照前面所示创建并启用资源会议室邮箱帐户，并且你已许可 Skype For Business Online 的帐户后，该帐户将通过使用 Windows Azure Active Directory 林从 Exchange Online 林同步到 Skype for Business Online 林。 若要在联机池中设置Skype会议室系统帐户，需要Skype for Business步骤。 对于现有资源邮箱帐户或新创建的帐户 (confrm1 或 confrm2) ，这些步骤是相同的，因为在 Exchange Online 中启用后，这两个帐户将按照相同的方式同步到 Skype for Business Online：
   
-1. 创建远程 PowerShell 会话。 请注意，你需要从[PowerShell Teams下载](/microsoftteams/teams-powershell-install)。
+1. 创建远程 PowerShell 会话。 请注意，你将需要下载Teams [PowerShell 模块](/microsoftteams/teams-powershell-install)。
     
   ```powershell
   # When using Teams PowerShell Module
@@ -117,18 +117,18 @@ New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoo
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool "sippoolbl20a04.infra.lync.com" -SipAddressType EmailAddress
    ```
 
-    可以通过以下命令返回此属性Skype for Business从你的现有帐户之一获得你的注册器池地址：
+    可以使用以下命令返回此属性，获取 Skype for Business用户从现有帐户之一的 RegistrarPool 地址：
     
    ```powershell
    Get-CsOnlineUser -Identity 'alice@contoso.onmicrosoft.com'| fl *registrarpool*
    ```
 
 >[!NOTE] 
->会议室系统帐户 (多重身份验证) MFA Skype MFA 身份验证。 
+>会议室系统 (不支持) 多重身份验证Skype MFA 身份验证。 
 
 ## <a name="password-expiration"></a>密码有效期
 
-在 Microsoft 365 或 Office 365 中，除非您配置了不同的密码过期策略，否则所有用户帐户的默认密码过期策略为 90 天。 For Skype Room System accounts， you can select the Password never expires setting with the following steps.
+在 Microsoft 365 或 Office 365 中，除非您配置了不同的密码过期策略，否则所有用户帐户的默认密码过期策略为 90 天。 对于Skype系统帐户，可以通过以下步骤选择"密码永不过期"设置。
   
 1. 使用Windows Azure Active Directory全局管理员凭据创建一个安全会话。
     
@@ -147,4 +147,4 @@ New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoo
   
 ## <a name="validate"></a>验证
 
-为了进行验证，您应该能够使用任意Skype for Business客户端登录您创建的帐户。
+为了进行验证，您应该能够使用任意 Skype for Business 客户端登录您创建的帐户。

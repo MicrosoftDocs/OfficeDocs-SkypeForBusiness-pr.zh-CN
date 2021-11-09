@@ -1,7 +1,7 @@
 ---
 title: 会议室系统帐户Skype会议策略
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.reviewer: sohailta
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 4dd8be28-5156-411b-8ccd-eff7f75cb897
 description: 阅读本主题，了解如何为会议室系统帐户Skype会议策略。
-ms.openlocfilehash: 9e6bab608ab68b3f0e0d5075ae1caf8cb16d4c0b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 97980cb50613fca105af40686a920a8ff9c9b546
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771674"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60838364"
 ---
 # <a name="conferencing-policy-for-skype-room-system-accounts"></a>会议室系统帐户Skype会议策略
  
@@ -30,13 +30,13 @@ ms.locfileid: "60771674"
 |功能  <br/> |值  <br/> |评论  <br/> |
 |:-----|:-----|:-----|
 |AllowIPAudio  <br/> |TRUE  <br/> |对于会议室系统Skype必须为 true  <br/> |
-|AllowIPVideo  <br/> |TRUE  <br/> |必须为 true，Skype会议室系统音频在会议室系统中的"现在开会 (临时) 白板会话Skype工作  <br/> |
+|AllowIPVideo  <br/> |TRUE  <br/> |必须为 true Skype会议室系统音频在会议室系统中的"现在开会 (临时) 白板Skype会话  <br/> |
 |AllowMultiView  <br/> |TRUE  <br/> |允许Skype系统呈现多视图、多个视频流  <br/> |
 |AllowParticipantControl  <br/> |TRUE  <br/> |影响会议室 (中的) "现在开会"Skype白板会话  <br/> |
 |AllowAnnotations  <br/> |TRUE  <br/> |影响会议室 (中的) "现在开会"Skype白板会话  <br/> |
 |DisablePowerPointAnnotations  <br/> |FALSE  <br/> |影响会议室 (中的) "现在开会"Skype白板会话  <br/> |
 |AllowUserToScheduleMeetingsWithAppSharing  <br/> |TRUE  <br/> |影响会议室 (中的) "现在开会"Skype白板会话  <br/> |
-|AllowNonEnterpriseVoiceUsersToDialOut  <br/> |FALSE  <br/> |有关帐户是否已启用 EV 企业语音 ()  (请参阅为 SKYPE 会议室系统帐户Skype for Business部分)   <br/> |
+|AllowNonEnterpriseVoiceUsersToDialOut  <br/> |FALSE  <br/> |取决于帐户是否企业语音 (EV) 启用 (请参阅Skype会议室系统帐户Skype for Business部分)   <br/> |
 |AllowAnonymousUsersToDialOut  <br/> |FALSE  <br/> |取决于帐户是否企业语音 (EV) 启用  <br/> |
 |AllowAnonymousParticipantsInMeetings  <br/> |TRUE  <br/> |影响会议室 (中的) "现在开会"Skype白板会话  <br/> |
 |AllowExternalUsersToSaveContent  <br/> |TRUE  <br/> |影响会议室 (中的) "现在开会"Skype白板会话  <br/> |
@@ -56,11 +56,11 @@ ms.locfileid: "60771674"
 |MaxVideoConferenceResolution  <br/> |VGA  <br/> |被设备Skype for Business Server，Skype系统使用 HD1080  <br/> |
 |MaxMeetingSize  <br/> |250  <br/> |影响会议室 (中的) "现在开会"Skype白板会话  <br/> |
 |AudioBitRateKb  <br/> |200  <br/> |请参阅表格末尾的注释\*  <br/> |
-|VideoBitRateKb  <br/> |5000  <br/> |这是允许的最大出站视频比特率。 Skype如果以此比特率使用 RoundTable (，会议室系统可以发送一个 1080 流和 pano) 。 \*  <br/> |
+|VideoBitRateKb  <br/> |5000  <br/> |这是允许的最大出站视频比特率。 Skype如果以此比特率使用 RoundTable (则会议室系统可以发送一个 1080 流) 和 pano 流。 \*  <br/> |
 |AppSharingBitRateKb  <br/> |5000  <br/> |请参阅表格末尾的注释\*  <br/> |
 |FileTransferBitRateKb  <br/> |5000  <br/> |不适用  <br/> |
 |TotalReceiveVideoBitRateKb  <br/> |20000  <br/> |我们建议你尽可能设置该设置。 有效带宽取决于会议时的网络条件。\*  <br/> |
-|EnableMultiViewJoin  <br/> |TRUE  <br/> |对于会议室系统Skype必须为 TRUE，以确保多视图视频流  <br/> |
+|EnableMultiViewJoin  <br/> |TRUE  <br/> |对于会议室系统Skype多视图视频流，必须为 TRUE  <br/> |
    
 * 有关带宽规划的信息，请参阅 [媒体流量的网络带宽要求](../../plan-your-deployment/network-requirements/network-requirements.md#network-bandwidth-requirements-for-media-traffic)。
   

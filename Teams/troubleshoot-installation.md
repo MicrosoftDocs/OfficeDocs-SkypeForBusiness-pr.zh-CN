@@ -1,6 +1,6 @@
 ---
 title: 解决 Windows 上的 Microsoft Teams 安装和更新问题
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: lenatarhun
@@ -16,12 +16,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 了解如何解决 Windows 上 Teams 桌面客户端应用的安装和更新问题。
-ms.openlocfilehash: f65e4b6d6bebd463d143bedc1b1cd50f031cb299
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 71a7162e243779ae779a4e0224d54955ec611e07
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777152"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865440"
 ---
 # <a name="troubleshoot-microsoft-teams-installation-and-update-issues-on-windows"></a>解决 Windows 上的 Microsoft Teams 安装和更新问题
 
@@ -123,7 +123,7 @@ Teams 可以自动启动更新进程（具体取决于策略），或者，用�
 - 要确认这是就是你遇到的问题，请退出 Teams（在任务栏上右键单击 Teams，然后单击“**退出**”）。 然后，在 Windows 中打开任务管理器，查看 Teams 的实例是否仍在运行。  
 - 如果你不在发生此问题的计算机上，请检查从发生此问题的计算机上收集的 SquirrelTemp，并查找“Program: Unable to terminate the process in the log”条目。
 - 要确定导致 Teams.exe 无法退出的原因，请查找 Dlls.txt 和 Handles.txt 日志。 这些日志会告诉你阻止 Teams 退出的进程。
-- 导致 Teams 无法退出的另一个可能原因是内核模式文件系统筛选器驱动程序。 可以使用 SysInternals 工具 [ProcDump](/sysinternals/downloads/procdump)，通过运行 ```procdump -mk <pid>```（其中，<pid> 是从任务管理器中获取的进程 ID）收集内核模式进程转储。 你也可以检查 Driverquery.txt 日志文件，查看是否有可能干扰 Teams 的活动筛选器驱动程序。
+- 导致 Teams 无法退出的另一个可能原因是内核模式文件系统筛选器驱动程序。 可以使用 SysInternals 工具 [ProcDump](/sysinternals/downloads/procdump)，通过运行 ```procdump -mk <pid>```（其中，\<pid> 是从任务管理器中获取的进程 ID）收集内核模式进程转储。 你也可以检查 Driverquery.txt 日志文件，查看是否有可能干扰 Teams 的活动筛选器驱动程序。
 - 要从此状态还原，请重启计算机。
 
 #### <a name="file-permissions"></a>文件权限

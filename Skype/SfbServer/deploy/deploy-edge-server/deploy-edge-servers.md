@@ -1,8 +1,8 @@
 ---
-title: 部署边缘服务器Skype for Business Server
+title: 在部署中部署Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,18 +15,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 63c7251c-080a-4175-99a6-f86d0266d6bc
 description: 摘要：了解如何将边缘服务器部署到Skype for Business Server环境中。
-ms.openlocfilehash: db09f8560b41fd43a7d005b70866888e0db27c75
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 30beb7b42b2f77e82d83768d918102cbaa0f7f5e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773322"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60852726"
 ---
-# <a name="deploy-edge-servers-in-skype-for-business-server"></a>部署边缘服务器Skype for Business Server
+# <a name="deploy-edge-servers-in-skype-for-business-server"></a>在部署中部署Skype for Business Server
  
 **摘要：** 了解如何将边缘服务器部署到Skype for Business Server环境中。
   
-以下各节包含一些步骤，这些步骤在查看Skype for Business Server规划边缘[服务器](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md)部署Skype for Business Server后执行。 部署步骤如下：
+以下各节包含一些步骤，这些步骤在查看 Skype for Business Server 中的"规划边缘[服务器](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md)Skype for Business Server之后执行。 部署步骤如下：
   
 - 网络接口
     
@@ -78,7 +78,7 @@ ms.locfileid: "60773322"
     
 ## <a name="installation"></a>安装
 
-若要成功完成这些步骤，你需要遵循创建边缘拓扑以使用[Skype for Business Server中的步骤](create-your-edge-topology.md)。
+若要成功完成这些步骤，你将需要遵循创建边缘拓扑以使用[Skype for Business Server中的步骤](create-your-edge-topology.md)。
   
 1. 使用本地管理员组的帐户登录到为边缘服务器角色配置的服务器。
     
@@ -92,7 +92,7 @@ ms.locfileid: "60773322"
     
 6. 将显示 **"配置中央管理存储的本地副本** "对话框。 You need to click **Import from a file (Recommended for Edge Servers)**.
     
-7. 从此处，浏览到之前导出的拓扑的位置，选择.zip文件，单击"打开"，然后单击"下一步 **"。**
+7. 从此处浏览到之前导出的拓扑的位置，选择.zip文件，单击"打开"，然后单击"下一步 **"。** 
     
 8. 部署向导将读取配置文件，将 XML 配置文件写入本地计算机。
     
@@ -119,7 +119,7 @@ ms.locfileid: "60773322"
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. 以本地Skype for Business Server成员登录到内部网络中管理员组。
     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii. 打开"**开始**"， ("运行"或 **"** 搜索) "，然后键入以下内容： 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii. 打开"**开始**"， ("**搜索**"或"运行) "，然后键入以下内容： 
     
   ```console
   https://<NAME OF YOUR ISSUING CA SERVER>/certsrv
@@ -147,7 +147,7 @@ ms.locfileid: "60773322"
     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iii. 从"**添加或删除管理单元"对话框** 列表中，选择"**证书**"，然后单击"添加 **"。** 当系统提示时，选择 **"计算机帐户"，** 然后选择"下一 **步"。** 在“选择计算机”对话框中，选择“本地计算机”。 单击 **"完成**"，然后单击"**确定"。**
     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iv. 展开 **"证书 (本地计算机) "。** 展开 **“受信任的根证书颁发机构”**。 选择 **"证书"。**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iv. 展开 **"证书 (本地计算机) "**。 展开 **“受信任的根证书颁发机构”**。 选择 **"证书"。**
     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;v. 单击由 CA 颁发的根证书。 右键单击证书 **，在菜单** 上选择"所有任务"，然后选择"导出 **"。**
     
@@ -155,7 +155,7 @@ ms.locfileid: "60773322"
     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;。 在" **导出文件格式"** 对话框中，选择要导出到的格式。 我们的建议是 **加密消息语法 Standard - PKCS #7 Certificates (P7b)**。 如果这也是你的选择，请记住还要选中"如果可能，请在证书路径中包括所有证书"复选框，因为此操作还将导出证书链，包括根 CA 证书和任何中间证书。 单击"下一步"。
     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;功能。 在" **要** 导出的文件"对话框的文件名条目中，键入路径和文件名 (导出证书的默认扩展名) .p7b。 If it's easier on you， choose the **Browse** button to go to the location you want to save the exported certificate to， and name the exported certificate here. 准备就绪 **后****，单击"** 保存"，然后单击"下一步"。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;功能。 在" **要** 导出的文件"对话框的文件名条目中，键入路径和文件名 (导出证书的默认扩展名为 .p7b) 。 If it's easier on you， choose the **Browse** button to go to the location you want to save the exported certificate to， and name the exported certificate here. 准备就绪 **后****，单击"** 保存"，然后单击"下一步"。
     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ix。 查看操作摘要，然后单击" **完成** "完成证书导出。 单击“确定”确认导出成功。
     
@@ -187,11 +187,11 @@ ms.locfileid: "60773322"
     
 ### <a name="3-create-the-certificate-request"></a>3. 创建证书请求
 
-&nbsp;&nbsp;&nbsp;a. 登录到其中一台边缘服务器，启动部署向导，在"步骤 **3：** 请求、安装或分配证书"上，单击"运行 **("** 或"再次运行"（如果已运行此向导) ）。
+&nbsp;&nbsp;&nbsp;a. 登录到其中一台边缘服务器，启动部署向导，在"步骤 **3：** 请求、安装或分配证书"上，单击"运行 **("** 或"再次运行"（如果已在) 中运行此向导）。
     
 &nbsp;&nbsp;&nbsp;b. 在"**证书请求"** 页上，确保 **选择"内部边缘证书**"，然后单击"请求 **"。**
     
-&nbsp;&nbsp;&nbsp;c. 在"**延迟的请求**"或"即时请求"页上，选择"如果可以从边缘环境访问联机证书颁发机构，则立即将请求发送到联机证书颁发机构"或"立即准备请求，但 **稍后** 发送其他请求"。
+&nbsp;&nbsp;&nbsp;c. 在"**延迟的请求**"或"即时请求"页上，选择"如果可以从边缘环境访问联机证书颁发机构，则立即将请求发送到联机证书颁发机构"，或"立即准备请求，但 **稍后** 发送其他请求"。
     
 &nbsp;&nbsp;&nbsp;d. 在" **证书请求文件** "页上，输入文件将在其中保存的完整部分和文件名 (例如 c：\SkypeInternalEdgeCert.cer) 。 单击"下一步"。
     
@@ -199,7 +199,7 @@ ms.locfileid: "60773322"
     
 &nbsp;&nbsp;&nbsp;f. 在“名称和安全设置”页上，执行以下操作：
     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   i. 在 **"友好名称**"中，显示名称内部边缘 (，例如"内部边缘) "。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   i. 在 **"友好名称**"中，显示名称内部边缘 (输入证书) 。
     
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ii. 在 **"** 位长度"中，选择位长度 (默认值为 2048，您可以更高，更安全，但会使性能降低) 。
     
@@ -241,7 +241,7 @@ ms.locfileid: "60773322"
 
 &nbsp;&nbsp;&nbsp;a. 确保你已以本地证书管理员身份登录到之前将证书导入到的边缘管理员组。
     
-&nbsp;&nbsp;&nbsp;b. 单击 **"开始****"， (** 或打开 **"** 搜索) ，然后键入 **MMC**。
+&nbsp;&nbsp;&nbsp;b. 单击 **"开始****"， (** 或打开 **"** 搜索) ，然后键入 **MMC。**
     
 &nbsp;&nbsp;&nbsp;c. 在 MMC 控制台中，单击 **"文件**"，然后单击"**添加/删除管理单元"。**
     
@@ -249,7 +249,7 @@ ms.locfileid: "60773322"
     
 &nbsp;&nbsp;&nbsp;e. 在"**证书管理** 单元"对话框中，选择"计算机 **帐户"。** 单击"下一步"。
     
-&nbsp;&nbsp;&nbsp;f. 在"**选择计算机**"对话框中，选择"本地计算机： (运行此控制台的计算机 **) "。** 单击“完成”。 单击 **"** 确定"，MMC 控制台的配置即已完成。
+&nbsp;&nbsp;&nbsp;f. 在" **选择计算机** "对话框中，选择"本地计算机 **： (** 运行此控制台的计算机) " 。 单击“完成”。 单击 **"** 确定"，MMC 控制台的配置即已完成。
     
 &nbsp;&nbsp;&nbsp;g. 双击“证书(本地计算机)”扩展证书存储。 双击"个人 **"，** 然后单击"证书 **"。**
     
@@ -271,7 +271,7 @@ ms.locfileid: "60773322"
   
 &nbsp;&nbsp;&nbsp;k. 如果要分配密码来保护私钥，可以键入私钥的密码。 重新输入密码以确认，然后单击下一 **步**。
     
-&nbsp;&nbsp;&nbsp;l. 使用文件扩展名 **.pfx** 键入导出证书的路径和文件名。 该路径需要可由池中的其他边缘服务器访问，或者你需要通过外部媒体传输（如 USB 驱动器 (移动) 。 做出 **选择** 后，单击"下一步"。
+&nbsp;&nbsp;&nbsp;l. 使用文件扩展名 **.pfx** 键入导出证书的路径和文件名。 该路径需要可由池中的其他边缘服务器访问，或者您需要通过外部媒体传输（如 USB 驱动器 (移动) 。 做出 **选择** 后，单击"下一步"。
     
 &nbsp;&nbsp;&nbsp;m. 查看"正在完成 **证书导出** 向导"对话框上的摘要，然后单击"完成 **"。**
     
@@ -292,14 +292,14 @@ ms.locfileid: "60773322"
     
 &nbsp;&nbsp;&nbsp;f. 在向导完成页上，单击 **“完成”**。
     
-&nbsp;&nbsp;&nbsp;g. 完成此过程后，在每个边缘服务器上打开"证书 MMC"管理单元，展开"证书 (本地计算机 **) "，** 展开"个人"，单击"证书"，并确认详细信息窗格中列出了内部边缘证书，这是一个不错的主意。
+&nbsp;&nbsp;&nbsp;g. 完成此过程后，真正好办法在每个边缘服务器上打开证书 MMC 管理单元，展开证书 (本地计算机 **) ，** 展开个人，单击证书，并确认详细信息窗格中列出了内部边缘证书。  
     
 ### <a name="external-edge-interface-certificates"></a>外部边缘接口证书
 
  
 ### <a name="1-create-the-certificate-request"></a>1. 创建证书请求
 
-&nbsp;&nbsp;&nbsp;a. 登录到其中一台边缘服务器，启动部署向导，在"步骤 **3：** 请求、安装或分配证书"上，单击"运行 ("或"再次运行"（如果已在) 中运行此向导）。
+&nbsp;&nbsp;&nbsp;a. 登录到其中一台边缘服务器，启动部署向导，在"步骤 **3：** 请求、安装或分配证书"上，单击"运行 ("或"再次运行"（如果已运行此向导) ）。
     
 &nbsp;&nbsp;&nbsp;b. 在“可用的证书任务”页上，单击“创建新的证书请求”。
     
@@ -307,15 +307,15 @@ ms.locfileid: "60773322"
     
 &nbsp;&nbsp;&nbsp;d. 在“延迟的请求或即时请求”页上，单击“现在准备请求，但稍后发送”。
     
-&nbsp;&nbsp;&nbsp;e. 在" **证书请求文件** "页上，输入文件将在其中保存的完整部分和文件名 (如 c：\SkypeInternalEdgeCert.cer) 。 单击"下一步"。
+&nbsp;&nbsp;&nbsp;e. 在" **证书请求文件** "页上，输入文件将在其中保存的完整部分和文件名 (例如 c：\SkypeInternalEdgeCert.cer) 。 单击"下一步"。
     
 &nbsp;&nbsp;&nbsp;f. 在" **指定备用证书** 模板"页上，若要使用默认 WebServer 模板外的其他模板，请选中"使用所选证书颁发机构的替代证书 **模板"复选框** 。
     
 &nbsp;&nbsp;&nbsp;g. 在“名称和安全设置”页上，执行以下操作：
     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   i. 在 **"友好名称**"中，显示名称外部边缘 (外部边缘) 。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   i. 在 **"友好名称**"中，显示名称外部边缘 (，例如外部边缘) 。
     
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ii. 在 **"** 位长度"中，选择位长度 (默认值为 2048，您可以更高，更安全，但会使性能降低) 。
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ii. 在 **"** 位长度"中，选择位长度 (默认值为 2048，您可以更高且更安全，但会使性能降低) 。
     
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  iii. 如果需要可导出的证书，必须选中"将 **证书私钥标记为可导出** "复选框。
     
@@ -327,7 +327,7 @@ ms.locfileid: "60773322"
     
 &nbsp;&nbsp;&nbsp;j. 在 **"主题名称/主题替代** 名称"页上，向导应自动填充所需信息。
     
-&nbsp;&nbsp;&nbsp;k. 在" **主题备用名称上的 SIP 域设置" (") "** 页面上，选中"域"复选框以添加 sip。<sipdomain> 条目。
+&nbsp;&nbsp;&nbsp;k. 在" **主题备用名称上的 SIP** 域设置" (") "页面上，选中"域"复选框以添加 sip。\<sipdomain> 条目。
     
 &nbsp;&nbsp;&nbsp;l. 在 **"配置其他主题替代** 名称"页上，需要添加所需的任何其他主题替代名称。
     

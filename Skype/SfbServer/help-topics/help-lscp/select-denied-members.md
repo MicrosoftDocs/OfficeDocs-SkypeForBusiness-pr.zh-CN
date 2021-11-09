@@ -2,7 +2,7 @@
 title: 选择被拒绝的成员
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: c626b6b4-15f3-4a59-bb1d-55dc8c60f5cb
-description: 持久聊天管理员可以创建和管理聊天室类别。 作为创建和管理聊天室类别的一部分，持久聊天管理员可以配置主体 (Active Directory 域服务组/容器/用户) ，这些主体有权访问特定类别的聊天室的成员/创建者。 持久聊天管理员还可以将 DeniedMembers 添加到类别，这些成员将成为允许列表的显式排除项。 DeniedMembers 会覆盖 AllowedMembers 中的功能。
-ms.openlocfilehash: c888368f5f26ccfb9f37445c0a0fdddf563a4c71
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 持久聊天管理员可以创建和管理聊天室类别。 在创建和管理聊天室类别时，持久聊天管理员可以配置主体 (Active Directory 域服务组/容器/用户) ，这些主体有权访问特定类别的聊天室的成员/创建者。 持久聊天管理员还可以将 DeniedMembers 添加到类别，这些成员将成为允许列表的显式排除项。 DeniedMembers 会覆盖 AllowedMembers 中的功能。
+ms.openlocfilehash: 283c358d6b0eab79f667ec7ca17dc9eca3977586
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60764060"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60837954"
 ---
 # <a name="select-denied-members"></a>选择被拒绝的成员
 
-持久聊天管理员可以创建和管理聊天室类别。 作为创建和管理聊天室类别的一部分，持久聊天管理员可以配置主体 (Active Directory 域服务组/容器/用户) ，这些主体有权访问特定类别的聊天室的成员/创建者。 持久聊天管理员还可以将 DeniedMembers 添加到类别，这些成员将成为允许列表的显式排除项。 DeniedMembers 会覆盖 AllowedMembers 中的功能。
+持久聊天管理员可以创建和管理聊天室类别。 在创建和管理聊天室类别时，持久聊天管理员可以配置主体 (Active Directory 域服务组/容器/用户) ，这些主体有权访问特定类别的聊天室的成员/创建者。 持久聊天管理员还可以将 DeniedMembers 添加到类别，这些成员将成为允许列表的显式排除项。 DeniedMembers 会覆盖 AllowedMembers 中的功能。
 
 ## <a name="tasks-that-you-can-perform"></a>可执行的任务
 

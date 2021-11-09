@@ -1,6 +1,6 @@
 ---
 title: Microsoft Teams实时事件使用情况报告
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 audience: Admin
@@ -17,12 +17,12 @@ description: 了解如何使用 Microsoft Teams 管理中心Teams实时事件使
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a6c533a9c07c1c620dbc1bd2d26919bbf5251cf3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e46c0e55eb4808f3c0b112dae72049649fc7f4a8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763020"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865541"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Microsoft Teams实时事件使用情况报告
 
@@ -43,7 +43,7 @@ Teams管理中心中的实时Microsoft Teams报表显示组织中举行实时事
 |--------|-------------|
 |**1**   |可以查看Teams事件报告，了解过去 7 天、28 天或设置的自定义日期范围的趋势。 |
 |**2**   |每个报表都有一个生成日期。 刷新页面时，报表反映近实时活动。 |
-|**3**   |<ul><li>图表上的 X 轴表示报告的所选数据范围。</li> <li> Y 轴是总视图计数。</li> </ul>将鼠标悬停在给定日期的点上以查看该日期所有实时事件的视图数。|
+|**3**   |<ul><li>图表上的 X 轴表示报告的所选数据范围。</li> <li> Y 轴是总视图计数。</li> </ul>将鼠标悬停在给定日期的点上，以查看该日期所有实时事件的视图数。|
 |**4**   |下表提供了每个实时事件的细分。 <ul><li>**事件** 是显示名称事件的事件。 单击事件名称 [，获取有关事件的](#view-event-details) 更多详细信息。 </li> <li>**开始时间** 是指事件的开始日期和时间。</li> <li>**事件** 状态显示事件是否已发生。  </li><li>**组织者** 是活动组织者的名称。</li> <li>**演示** 者是事件演示者的名称。</li><li>**生成** 者是事件生成者的名称。</li><li>**视图** 是事件完成后的唯一视图数。</li><li>**录制** 显示录制设置是打开还是关闭。</li><li>**"生产** 类型"显示事件是在 Teams还是由外部应用程序或设备生成。</li></li> </ul>请注意，如果用户帐户不再存在于Azure AD，则用户名在表中显示为"--"。 <br><br>要查看希望在表格中显示的信息，请确保向表格添加了相关列。 |
 |**5**   |选择“**编辑列**”可在表格中添加或删除列。|
 

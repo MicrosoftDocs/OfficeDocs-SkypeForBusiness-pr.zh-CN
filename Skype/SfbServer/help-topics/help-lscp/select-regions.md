@@ -2,7 +2,7 @@
 title: 选择区域
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 1b79b214-cc7b-4686-b7e2-f451910335fd
 description: 使用"选择区域"对话框查找环境中可用的区域。 要使用现有区域，请单击列表中的某个区域，然后单击“确定”。
-ms.openlocfilehash: 8712bdccad8159a00fb66a685f126dc6fd0bb6d7
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 029215a84c7ce2022cc87bbaedd1b324d7b6d34d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60746349"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60839154"
 ---
 # <a name="select-regions"></a>选择区域
  

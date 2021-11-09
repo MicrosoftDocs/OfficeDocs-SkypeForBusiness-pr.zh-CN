@@ -2,7 +2,7 @@
 title: 规划移动Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 ms.date: 2/17/2018
 manager: serdars
 audience: ITPro
@@ -13,17 +13,17 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7117eff5-6860-4673-b366-afe0756c4bb2
-description: 规划移动技术Skype for Business Server。
-ms.openlocfilehash: 5d78739be230c7c68157d8bae474bf63133a96d7
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 规划实现移动功能Skype for Business Server。
+ms.openlocfilehash: a323e9e68ee78af1ea80979c12eb6b0a66906041
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60746708"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60852936"
 ---
 # <a name="plan-for-mobility-for-skype-for-business-server"></a>规划移动Skype for Business Server
  
-规划移动技术Skype for Business Server。
+规划实现移动功能Skype for Business Server。
   
 通过Skype for Business Server，您可以部署移动功能以在Skype for Business Server提供移动功能。 本文提供有关移动功能的详细信息，并帮助您规划部署。
   
@@ -56,11 +56,11 @@ Skype for Business Server的移动功能支持移动客户端Skype for Business 
 > [!NOTE]
 > MCX (Mobility Service) 2019 年不再提供对旧版移动客户端Skype for Business Server支持。 所有当前Skype for Business客户端已使用统一通信 Web API (UCWA) 支持即时消息 (IM) 、状态和联系人。 使用 MCX 的旧客户端的用户将需要升级到当前客户端。
   
-值得注意的是，虽然这些功能一经实现就可用，但在某些设备上可能有点不同。 我们在移动客户端功能比较上获取了一个网站，该网站讨论了哪些功能在哪些设备上[Skype for Business。](clients-and-devices/mobile-feature-comparison.md) 我们还在 Plan for clients and devices 中提供一 [些出色的设备和操作系统信息](clients-and-devices/clients-and-devices.md)。
+值得注意的是，虽然这些功能一经实现就可用，但在某些设备上可能有点不同。 我们已在移动客户端功能比较上获取一个网站，讨论哪些功能在哪些设备上[Skype for Business。](clients-and-devices/mobile-feature-comparison.md) 我们还在 Plan for clients and devices 中提供一 [些出色的设备和操作系统信息](clients-and-devices/clients-and-devices.md)。
   
-移动性利用自动发现功能，该功能允许客户端自动定位 Skype for Business Server Web 服务，而无需输入任何 URL (用户甚至无需知道这些 url) 。 如果需要执行一些故障排除，仍支持手动输入 URL。
+移动性利用自动发现功能，该功能允许客户端自动找到 Skype for Business Server Web 服务，而无需用户输入任何 URL (他们甚至无需知道这些 url) 。 如果需要执行一些故障排除，仍支持手动输入 URL。
   
-推送通知也受支持，当 Skype for Business 应用未在后台 (中运行时，或者对于不支持在后台运行应用程序的移动设备) 。 当设备或应用处于非活动状态时，会向移动设备发送有关所发生事件的推送通知。 一个很好的示例是在手机不活动时缺少 IM 消息，这可能会导致推送通知发送 (这将显示为 toast 或通知，就像应用在后台运行时) 。 使用推送通知，用户不会错过 IM 或语音呼叫。
+推送通知也受支持，当 Skype for Business 应用未在后台 (中运行时，或者对于不支持在后台运行应用程序的移动设备) 。 当设备或应用处于非活动状态时，会向移动设备发送有关所发生事件的推送通知。 一个很好的示例是在手机不活动时缺少 IM 消息，这可能会导致推送通知发送 (这将显示为 toast 或通知，就像应用在后台) 中运行时一样。 使用推送通知，用户不会错过 IM 或语音呼叫。
   
 有关详细信息，我们包含以下部分：
   
@@ -85,7 +85,7 @@ Skype for Business Server的移动功能支持移动客户端Skype for Business 
     
   - contacts
     
-  - 即时消息传输 (IM) 
+  - 即时消息 (IM) 
     
   - VoIP
     
@@ -97,14 +97,14 @@ Skype for Business Server的移动功能支持移动客户端Skype for Business 
     
 - **Mobility Service (MCX)**
     
-    支持Skype for Business Server移动设备上的即时消息、状态和联系人等功能。 Mobility Service 安装在每个池中的每台前端服务器上，旨在Skype for Business Server移动设备上的移动设备功能。 当您在 Skype for Business Server 2015 中安装时， (Mcx) 在前端服务器的内部和外部网站下创建一个新的虚拟目录。
+    支持Skype for Business Server移动设备上的即时消息、状态和联系人等功能。 Mobility Service 安装在每个池中的每台前端服务器上，旨在Skype for Business Server移动设备上的移动设备功能。 在 2015 Skype for Business Server时，在前端 (外部网站下) Mcx) 将创建一个新的虚拟目录。
     
     > [!NOTE]
     > MCX (Mobility Service) 2019 年不再提供对旧版移动客户端Skype for Business Server支持。 所有当前Skype for Business客户端已使用统一通信 Web API (UCWA) 支持即时消息 (IM) 、状态和联系人。 使用 MCX 的旧客户端的用户将需要升级到当前客户端。
   
 - **自动发现服务**
     
-    标识用户的位置，并允许移动设备和其他 Skype for Business 客户端查找资源 (如 Skype for Business Server Web 服务的内部和外部 URL、Mcx URL 或 UCWA URL) 而不考虑网络位置。 自动发现为网络 (lyncdiscoverinternal、lyncdiscover for users outside the network) 和用户的 SIP 域使用硬编码主机名。 它支持使用 HTTP 或 HTTPS 的客户端连接。 
+    标识用户的位置，并允许移动设备和其他 Skype for Business 客户端查找资源 (如 Skype for Business Server Web 服务的内部和外部 URL、Mcx URL 或 UCWA URL) 而不考虑网络位置。 自动发现对网络 (lyncdiscoverinternal、lyncdiscover for users outside the network) 和用户的 SIP 域使用硬编码主机名。 它支持使用 HTTP 或 HTTPS 的客户端连接。 
     
     自动发现服务安装在每台前端服务器和每个池中的控制器上，旨在Skype for Business Server移动设备上的自动发现功能。 安装该服务时，将 (前端服务器和) 上的内部和外部网站下创建一个新的自动发现虚拟目录。
     
@@ -121,7 +121,7 @@ Skype for Business Server的移动功能支持移动客户端Skype for Business 
     
 - 移动Enterprise Edition
     
-您应该能够将此功能与 Skype for Business Server 或 Lync Server 2013 边缘服务器一同使用。
+您应该能够在边缘服务器或 Lync Server 2013 边缘Skype for Business Server使用此功能。
   
 与中介服务器角色并排在一起（具有两个网络接口）时，前端服务器支持 Mobility Service，但您需要采取适当步骤来配置这些接口。 您需要将 IP 地址分配给将作为中介服务器进行通信的特定接口，以及将作为前端服务器通信的网络 IP 接口。 可以在拓扑生成器中为此选择每个服务的正确 IP 地址，而不是使用默认的"使用所有已配置的 **IP 地址"** 选项。
   
@@ -132,15 +132,15 @@ Skype for Business Server的移动功能支持移动客户端Skype for Business 
   
 ### <a name="dns-configuration"></a>DNS 配置
 
-Mobility Services Mcx 和 UCWA 使用相同的 DNS。 通过自动发现，移动设备可使用 DNS 查找资源。 在 DNS 查找过程中，将尝试连接到与 lyncdiscoverinternal 中的内部 DNS 记录 (FQDN。[内部域名]) 。 如果内部 DNS 记录不能用于建立该连接，则尝试进行第二次连接，这次连接到 lyncdiscover (DNS 记录。[sipdomain]) 。 那么，为什么有两个？ 网络内部的移动设备将能够使用内部自动发现 URL。 外部移动设备将使用外部自动发现 URL。 在任一情况下，自动发现服务都会返回用户主池的所有 Web 服务 URL，其中包括 Mobility service (Mcx 和 UCWA) 。
+Mobility Services Mcx 和 UCWA 使用相同的 DNS。 通过自动发现，移动设备可使用 DNS 查找资源。 在 DNS 查找过程中，将尝试连接到与 lyncdiscoverinternal 中的内部 DNS 记录关联的 FQDN (FQDN。[内部域名]) 。 如果内部 DNS 记录不能用于建立该连接，则尝试进行第二次连接，这次连接到 lyncdiscover (DNS 记录。[sipdomain]) 。 那么，为什么有两个？ 网络内部的移动设备将能够使用内部自动发现 URL。 外部移动设备将使用外部自动发现 URL。 在任一情况下，自动发现服务都会返回用户主池的所有 Web 服务 URL，其中包括 Mobility service (Mcx 和 UCWA) 。
   
-预计外部自动发现请求将经过为外部发现配置反向代理Skype for Business Server。 但是，内部 Mobility Service URL 和外部 Mobility Service URL 都与外部 Web 服务 FQDN 关联。 因此，无论移动设备是网络内部还是外部，设备始终通过反向代理从外部连接到 Skype for Business Server Mobility Service。
+预计外部自动发现请求将经过为外部发现配置反向代理Skype for Business Server。 但是，内部 Mobility Service URL 和外部 Mobility Service URL 都与外部 Web 服务 FQDN 关联。 因此，无论移动设备是网络内部设备还是外部设备，该设备始终通过反向代理Skype for Business Server外部连接到 Skype for Business Server Mobility Service。
   
 > [!NOTE]
 > 正如我们刚才指出的，内部和外部 (所有 mobility service) 流量都将通过反向代理。 但有时，当内部流量通过接口离开时，仅尝试并返回到同一接口时，会出问题。 这可能会违反你的欺骗 (，正式称为 TCP 数据包欺骗) 安全规则。 你需要允许发夹 **具有** 移动功能。
   
 > [!NOTE]
-> 如果你已准备好这样做，还可以选择使用独立于防火墙 (的反向代理，出于安全目的，欺骗防护应始终在防火墙) 。 这样，发夹可以在反向代理的外部接口（而不是防火墙的外部接口）上发生。 这允许你在防火墙上正确检测欺骗，同时在反向代理上放宽规则，并获取移动功能。 
+> 如果你已准备好这样做，还可以选择使用独立于防火墙 (的反向代理，以便安全，欺骗防护应始终在防火墙) 。 这样，发夹可以在反向代理的外部接口（而不是防火墙的外部接口）上发生。 这允许你在防火墙上正确检测欺骗，同时在反向代理上放宽规则，并获取移动功能。 
   
 > [!NOTE]
 > 如果转到此路由，请务必使用 DNS 主机或 CNAME 记录为发夹行为定义反向代理， (防火墙) （如果可能）。 
@@ -179,7 +179,7 @@ Mobility Services Mcx 和 UCWA 使用相同的 DNS。 通过自动发现，移�
   
 ### <a name="port-and-firewall-requirements"></a>端口和防火墙要求
 
-我们已在其他文档中介绍大部分内容，但专门针对移动性，如果你有任何用户位于 Survivable Branch Appliance (SBA 上，你将希望让企业 Wi-Fi 网络打开以下) 端口：
+我们已在其他文档中涵盖了大部分内容，但专门针对移动功能，如果你有任何用户位于 Survivable Branch Appliance (S) BA 上，你将希望让企业 Wi-Fi 网络打开以下端口：
   
 - UcwaSipExternalListeningPort 需要 5088。
     
@@ -209,7 +209,7 @@ Mobility Services Mcx 和 UCWA 使用相同的 DNS。 通过自动发现，移�
   
 - 如果您决定更新反向代理证书上的 SAN 列表，并且对初始自动发现服务请求使用 HTTPS，则需要更新 lyncdiscover 的 Web 发布规则 \<sipdomain\> 。 这通常与前端池上的外部 Web 服务 URL 的发布源结合使用。
     
-- 如果决定对初始自动发现服务请求使用 HTTP，以避免必须更新反向代理证书的 SAN 列表 (我们不建议使用) ，则需要为端口 HTTP/TCP 80 创建新的 Web 发布规则（如果尚未更新）。 如果该规则存在，请更新该规则以包含 lyncdiscover。\<sipdomain\> 条目。
+- 如果您决定对初始自动发现服务请求使用 HTTP，以避免必须更新反向代理证书 (我们不建议使用) 的 SAN 列表，则需要为端口 HTTP/TCP 80 创建新的 Web 发布规则（如果尚未更新）。 如果该规则存在，请更新该规则以包含 lyncdiscover。\<sipdomain\> 条目。
     
 ## <a name="defining-your-mobility-needs"></a>定义移动需求
 <a name="MobilityNeeds"> </a>
@@ -230,14 +230,14 @@ Mobility Services Mcx 和 UCWA 使用相同的 DNS。 通过自动发现，移�
   
 ### <a name="are-you-going-to-support-push-notifications"></a>是否支持推送通知？
 
-推送通知用于支持此功能的移动应用程序，以在应用不活动时通知用户事件。 边缘服务器需要与基于云的推送通知服务（位于 Skype for Business Server Online 数据中心）建立联盟Skype for Business关系。 需要运行 cmdlet 才能启用推送通知。
+推送通知用于支持此功能的移动应用程序，以在应用不活动时通知用户事件。 边缘服务器需要 Skype for Business Server与基于云的推送通知服务（位于 Skype for Business Online 数据中心）建立联盟关系。 需要运行 cmdlet 才能启用推送通知。
   
 > [!NOTE]
 > 如果有任何人仍在使用 Lync Server 2010 客户端，他们需要 TCP 端口 5223 在企业 WiFi 网络上开放出站。 
   
 ### <a name="do-you-want-all-your-users-accessing-all-mobility-features-or-do-you-want-to-specify-the-users-who-can-access-these-features-instead"></a>您是否希望所有用户都访问所有移动功能，或者是否希望指定可以访问这些功能的用户？
 
-我们提供了一个表，可帮助了解所有用户可用的一些功能，以及默认情况下是否按此方式设置这些功能。 有关完整列表，请查看 [New-CsMobilityPolicy](/powershell/module/skype/new-csmobilitypolicy?view=skype-ps)。
+我们提供了一个表，可帮助了解所有用户可用的一些功能，以及默认情况下是否按此方式设置这些功能。 有关完整列表，请查看[New-CsMobilityPolicy。](/powershell/module/skype/new-csmobilitypolicy?view=skype-ps)
   
 > [!NOTE]
 > 所有这些功能的作用域是 Global/Site/User。 
@@ -250,9 +250,9 @@ Mobility Services Mcx 和 UCWA 使用相同的 DNS。 通过自动发现，移�
 |IP 音频需要 WiFi  <br/> |RequireWiFiForIPAudio  <br/> |定义客户端是否需要通过 WiFi（而不是手机数据网络）通过 VoIP 拨打和接听电话。 如果设置为 True，则用户只有在通过 WiFi 连接时才能拨打和接听 VoIP 呼叫。  <br/> |错误  <br/> |
 |IP 视频需要 WiFi  <br/> |RequireWiFiForIPVideo  <br/> |定义客户端是否需要在 WiFi（而不是手机数据网络）上拨打和接听视频呼叫。 如果设置为 True，则用户只有在通过 WiFi 连接时才能拨打和接听 VoIP 呼叫。  <br/> |错误  <br/> |
    
-### <a name="should-users-who-arent-enabled-for-enterprise-voice-be-able-to-use-click-to-join-to-join-conferences"></a>未启用此功能的用户企业语音单击以加入会议吗？
+### <a name="should-users-who-arent-enabled-for-enterprise-voice-be-able-to-use-click-to-join-to-join-conferences"></a>未启用此企业语音用户能否使用"单击以加入"加入会议？
 
-若要使用户可以访问移动功能和通过工位呼叫功能，需要为用户启用企业语音。 但是，即使未启用它们，他们仍然可以通过单击其移动设备上的链接来加入会议，但只有在他们分配了适当的语音策略时才能加入会议。 您可以：
+若要使用户可以访问移动功能和通过工位呼叫功能，需要为用户启用企业语音。 但是，即使未启用它们，他们仍然可以通过单击其移动设备上的链接来加入会议，但只有在他们分配了相应的语音策略时才能加入会议。 您可以：
   
 - 为这些用户分配特定语音策略，或者
     

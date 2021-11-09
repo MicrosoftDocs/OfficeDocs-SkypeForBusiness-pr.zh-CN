@@ -2,7 +2,7 @@
 title: Create or modify a Call Park orbit range in Skype for Business
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 549ec118-eee5-4333-9416-80929ec057e0
 description: Create or modify a Call Park orbit range table in Skype for Business Server 企业语音.
-ms.openlocfilehash: 3962ecf42e704b09f3f28451be667fe714ce4817
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ffe4a47a099099d31fdd55d23a95065549233f92
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745378"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60839694"
 ---
 # <a name="create-or-modify-a-call-park-orbit-range-in-skype-for-business"></a>Create or modify a Call Park orbit range in Skype for Business
 
 Create or modify a Call Park orbit range table in Skype for Business Server 企业语音.
 
-呼叫等待使用通道来接听呼叫。 用户必须先配置呼叫离开通道表，然后用户才能呼叫和取回呼叫。 您需要指定组织为 (呼叫保留) 通道的分机号码范围，然后通过指定哪个呼叫保留池处理每个范围来定义这些范围的路由。 定义通道范围时，目标是具有足够的通道，以便不会在短时间内重用任何一个通道，但又不能有太多通道，以致于不得不限制用户或其他服务可使用的分机数量。 您可以为部署了呼叫Skype for Business Server的每个呼叫池创建多个呼叫等待通道范围。 每个呼叫 Park 通道范围必须具有一个全局唯一的名称和一组唯一的分机。
+呼叫等待使用通道来接听呼叫。 用户必须先配置呼叫离开通道表，然后用户才能呼叫和取回呼叫。 您需要指定组织将保留用于 (呼叫) 通道的分机号码范围，并指定哪个呼叫池处理每个范围，从而定义这些范围的路由。 定义通道范围时，目标是具有足够的通道，以便不会在短时间内重用任何一个通道，但又不能有太多通道，以致于不得不限制用户或其他服务可使用的分机数量。 您可以为部署了呼叫Skype for Business Server的每个呼叫池创建多个呼叫等待通道范围。 每个呼叫 Park 通道范围必须具有一个全局唯一的名称和一组唯一的分机。
 
 > [!IMPORTANT]
 > 每个通道范围包含的通道数通常不超过 100。范围可以更大一点，只要每个范围的通道数小于最大值 10,000 且每个池的通道数小于 50,000。如果范围太小，很快就会重用通道。
@@ -66,7 +66,7 @@ Create or modify a Call Park orbit range table in Skype for Business Server 企�
 
    - 如果通道范围以 字符或 #开头，则范围 \* 必须大于 100。
 
-   - 有效值：必须与正则表达式字符串匹配 ([ \\ *|#]？[1-9]\d {0,7}) | ([1-9]\d {0,8}) 。 这意味着该值必须是以字符或 # 或数字 1 到 9 开头的字符串 (第一个字符不能为 \* 零) 。 如果第一个字符是 或 #，则下一个字符必须是 1 到 \* 9 (不能是零) 。 后续字符可以是 0 到 9 之间的任意数字，最多附加七个字符 (例如 \* ，"#6000"、"92000"、"95551212"和 \* "915551212") 。 如果第一个字符不是 或 #，则第一个字符必须是 1 到 9 个数字 (不能为零) ，后跟最多八个字符，每个字符从 0 到 \* 9 (例如，"915551212"、"41212"、"300") 。
+   - 有效值：必须与正则表达式字符串匹配 ([ \\ *|#]？[1-9]\d {0,7}) | ([1-9]\d {0,8}) 。 这意味着该值必须是以字符或 # 开头的字符串，或以 1 到 9 (第一个字符不能为 \* 零) 。 如果第一个字符是 或 #，则下面的字符必须是 1 到 \* 9 (不能是零) 。 后续字符可以是 0 到 9 之间的任意数字，最多附加七个字符 (例如 \* ，"#6000"、"92000"、"95551212"和 \* "915551212") 。 如果第一个字符不是 或 #，则第一个字符必须是 1 到 9 个数字 (不能为零) ，后跟最多八个字符，每个字符从 0 到 9 (例如 \* ，"915551212"、"41212"、"300") 。
 
    - 每个池不应包含 50,000 个以上的通道。每个通道范围包含的通道数通常不超过 100，但是该数目可以更大，只要不超过 10,000。例如，不要将起始号码指定为“7000000”并将结束号码指定为“8000000”，而考虑将起始号码指定为“7000000”并将结束号码指定为“7000100”。
 
@@ -74,9 +74,9 @@ Create or modify a Call Park orbit range table in Skype for Business Server 企�
 
 7. 单击 **“提交”**。
 
-### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-range-of-numbers-for-parking-calls"></a>使用 Skype for Business Server命令行管理程序创建或修改用于呼叫等待的号码范围
+### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-range-of-numbers-for-parking-calls"></a>使用Skype for Business Server命令行管理程序创建或修改用于呼叫等待的号码范围
 
-1. 以 RTCUniversalServerAdmins 组的成员或委派安装权限中所述的必要用户权限登录到安装了 Skype for Business Server 命令行管理程序 **的计算机**。
+1. 以 RTCUniversalServerAdmins 组的成员或所需的用户权限（如D delegate **Setup Permissions** 中所述）登录到安装了命令行管理程序Skype for Business Server的计算机。
 
 2. 启动命令行Skype for Business Server：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击"Skype for Business Server **命令行管理程序"。**
 

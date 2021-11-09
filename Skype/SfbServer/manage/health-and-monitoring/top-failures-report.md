@@ -2,7 +2,7 @@
 title: 报告中的Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 438942e2-580a-4b67-9d42-f116111fb26a
 description: Summary： Learn about the Top Failures Report in Skype for Business Server.
-ms.openlocfilehash: 11a71d2c4a68f15e334f913d7672bf49319f77dc
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3e752ad2f15e6739fb6f1a34aa9f30e86767041d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774782"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60853026"
 ---
 # <a name="top-failures-report-in-skype-for-business-server"></a>报告中的Skype for Business Server
  
@@ -27,17 +27,17 @@ ms.locfileid: "60774782"
   
 - **诊断 ID**。附加到 SIP 消息的唯一标识符（采用 ms-diagnostics 标头的形式）。诊断 ID 提供的信息在解决与呼叫相关的问题时很有用。
     
-- **响应代码**。 响应代码在 SIP 通信会话中用来响应 SIP 请求。 例如，假定 Ken 将 INVITE 请求发送给 Pilar Ackerman（即，假定 Ken Myer 呼叫 Pilar Ackerman）。 如果 Pilar 应答，则她的电话将发送响应代码 200（确定），以便让 Ken 的电话获知 Pilar 已应答。 顶级故障报告仅包括为响应呼叫失败而发送的响应代码;Skype for Business Server不会跟踪在呼叫过程中发出的所有响应代码。
+- **响应代码**。 响应代码在 SIP 通信会话中用来响应 SIP 请求。 例如，假定 Ken 将 INVITE 请求发送给 Pilar Ackerman（即，假定 Ken Myer 呼叫 Pilar Ackerman）。 如果 Pilar 应答，则她的电话将发送响应代码 200（确定），以便让 Ken 的电话获知 Pilar 已应答。 顶级故障报告仅包括为响应呼叫失败而发送的响应代码;Skype for Business Server不会跟踪呼叫过程中发出的所有响应代码。
     
 不仅将报告与出现故障的会话的总数相关的信息，而且还将报告与受故障影响的用户总数相关的信息。
   
 ## <a name="accessing-the-top-failures-report"></a>访问主要故障报告
 
-可从监控报告主页访问主要故障报告。 单击"报告的会话"指标将进入"报告"中的"故障分布[Skype for Business Server"](failure-distribution-report.md)。
+可从监控报告主页访问主要故障报告。 单击报告的会话指标将进入报告中的[故障分布Skype for Business Server。](failure-distribution-report.md)
   
 ## <a name="making-the-best-use-of-the-top-failures-report"></a>最充分地利用主要故障报告
 
-主要故障报告有一个与众不同的方面：它允许您一次性对最多 5 个诊断 ID 进行筛选。  (通常一次只能筛选一个项目（如一个用户 SIP 地址）。) 若要筛选多个诊断 ID，只需在"诊断 ID"框中输入每个 ID，使用逗号分隔这些 ID。  (如果需要，可以在每个逗号后面留一个空格。) 例如：
+主要故障报告有一个与众不同的方面：它允许您一次性对最多 5 个诊断 ID 进行筛选。  (通常一次只能筛选一个项目（如一个用户 SIP 地址）。) 若要筛选多个诊断 ID，只需在"诊断 ID"框中输入每个 ID，使用逗号分隔这些 ID。  (如果需要，可以在每个逗号后留一个空格) 例如：
   
 1011, 2412, 1033, 52116, 1008
   
@@ -63,7 +63,7 @@ ms.locfileid: "60774782"
 |**形式** <br/> |在这里，只能选择“[所有]”选项。  <br/> |
 |**Pool** <br/> |注册器池或边缘服务器的完全限定域名 (FQDN)。可以选择单个池，也可以单击“[所有]”查看所有池的数据。系统根据数据库中的记录自动为您填充该下拉列表。<br/> |
 |**类别** <br/> | 遇到的故障的类型。选择下列选项之一： <br/>  预期失败和意外失败 <br/>  意外失败 <br/>  “预期失败”是指预计会出现的失败情况。例如，如果用户将其状态设置为“请勿打扰”，那么向该用户发出的任何呼叫应该都会失败。“意外失败”是指在本该正常运行的系统中出现的失败情况。例如，如果呼叫者处于呼叫等待状态，则不应该终止呼叫。如果终止，则会被标记为意外失败。 <br/> |
-|**响应代码** <br/> |会议失败时发送的 SIP 响应代码。请输入完整的响应代码。例如：  <br/> 30W  <br/> |
+|**响应代码** <br/> |会议失败时发送的 SIP 响应代码。请输入完整的响应代码。例如：  <br/> 400  <br/> |
 |**诊断 ID** <br/> |附加到 SIP 消息的唯一标识符（采用 ms-diagnostics 标头的形式），提供的信息在排查错误时通常很有帮助。诊断标头是可选的（SIP 会话可以不包含这些标头），并且只对遇到此类问题的会话报告诊断 ID。  <br/> |
    
 ## <a name="metrics"></a>度量标准

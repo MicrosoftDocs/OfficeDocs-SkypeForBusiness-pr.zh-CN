@@ -2,7 +2,7 @@
 title: 选择溢出队列
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 50a235b6-5f30-4c49-93d9-6c6f43edce64
 description: 使用“选择溢出队列”对话框可选择在响应组队列已满时转接呼叫的队列。
-ms.openlocfilehash: e669e37fbd607f848c18bed059b95ec622113186
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 2cac4107869908e323a4b10a508b9bb11b53b7f3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60739508"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60837904"
 ---
 # <a name="select-overflow-queue"></a>选择溢出队列
  

@@ -1,8 +1,8 @@
 ---
-title: 配置Skype for Business Server统一联系人存储
+title: 将Skype for Business Server配置为使用统一联系人存储
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/7/2018
 audience: ITPro
@@ -14,21 +14,21 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 6aa17ae3-764e-4986-a900-85a3cdb8c1fc
 description: 摘要：为联系人和联系人配置Exchange Server Skype for Business Server。
-ms.openlocfilehash: d75db18a799d1384a88a0b66cd1cd73d5e01c639
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ed28f57350e2ce1d7ed5f92d712bdf5ecc7f3de4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765830"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60853666"
 ---
-# <a name="configure-skype-for-business-server-to-use-the-unified-contact-store"></a>配置Skype for Business Server统一联系人存储
+# <a name="configure-skype-for-business-server-to-use-the-unified-contact-store"></a>将Skype for Business Server配置为使用统一联系人存储
  
 **摘要：** 为 2016 或 Exchange Server 2013 Exchange Server配置统一的联系人Skype for Business Server。
   
 通过使用统一的联系人存储，用户可以维护一个联系人列表，然后使这些联系人可用于多个应用程序，包括 Skype for Business、Microsoft Outlook 2013 和 Microsoft Outlook Web App 2013。 为用户启用统一联系人存储时，该用户的联系人不会存储在 Skype for Business Server并根据需要进行检索。 相反，其联系人存储在 Exchange Server 2016 或 Exchange Server 2013 中，并且使用 Exchange Web 服务进行检索。
   
 > [!NOTE]
-> 从技术上说，联系人信息存储在用户的邮箱邮箱中的一对Exchange中。 联系人本身存储在名为"联系人Skype for Business对最终用户可见的文件夹中;有关联系人的元数据存储在最终用户不可见的子文件夹内。 
+> 从技术上说，联系人信息存储在用户的邮箱邮箱中的一对Exchange中。 联系人本身存储在名为"联系人Skype for Business最终用户可见的文件夹中;有关联系人的元数据存储在最终用户不可见的子文件夹内。 
   
 ## <a name="enabling-the-unified-contact-store-for-a-user"></a>为用户启用统一的联系人存储库
 
@@ -58,13 +58,13 @@ Grant-CsUserServicesPolicy -Identity "Ken Myer" -PolicyName "AllowUnifiedContact
 
 分配策略后，Skype for Business Server开始将用户的联系人迁移到统一的联系人存储。 迁移完成后，用户随后将联系人存储在 Exchange 中，Skype for Business Server。 如果用户在迁移完成时登录到 Lync 2013，将出现一个消息框，并要求其注销 Skype for Business 然后重新登录以完成此过程。 尚未分配此每用户策略的用户不会将其联系人迁移到统一的联系人存储。 这是因为这些用户由全局策略管理，并且已在全局策略中禁用对统一联系人存储的使用。
   
-您可以通过从命令行管理程序内运行[Test-CsUnifiedContactStore](/powershell/module/skype/test-csunifiedcontactstore?view=skype-ps) cmdlet 来验证用户的联系人已成功迁移到统一Skype for Business Server存储：
+通过从命令行管理程序内运行[Test-CsUnifiedContactStore](/powershell/module/skype/test-csunifiedcontactstore?view=skype-ps) cmdlet，可以验证用户的联系人已成功迁移到统一Skype for Business Server存储：
   
 ```powershell
 Test-CsUnifiedContactStore -UserSipAddress "sip:kenmyer@litwareinc.com" -TargetFqdn "atl-cs-001.litwareinc.com"
 ```
 
-如果Test-CsUnifiedContactStore成功，则意味着用户 sip：kenmyer@ <span></span> litwareinc .com 的联系人已迁移到 <span></span> 统一的联系人存储。
+如果Test-CsUnifiedContactStore成功，则意味着用户 sip：kenmyer@ <span></span> litwareinc .com 的联系人已迁移到统一 <span></span> 的联系人存储。
   
 ## <a name="rolling-back-the-unified-contact-store"></a>回滚统一的联系人存储库
 
@@ -83,7 +83,7 @@ Grant-CsUserServicesPolicy -Identity "Ken Myer" -PolicyName NoUnifiedContactStor
 上面的命令将新策略分配给用户 Ken Myer，并且还阻止将 Ken 的联系人迁移到统一的联系人存储库中。
   
 > [!NOTE]
-> 在某些情况下，只需取消分配用户的当前用户服务策略，可以实现相同的效果。 例如，假定 Ken Myer 具有启用统一的联系人存储库的每用户用户服务策略，但您的全局策略禁止使用统一的联系人存储库。 在这种情况下，您可以取消分配 Ken 的按用户服务策略。 在执行此操作后，Ken 将自动由全局策略管理，因此他将不再能够访问统一的联系人存储库。 若要取消分配之前分配每用户策略，请使用与前面所示相同的命令，但这次将 PolicyName 参数设置为空值：Grant-CsUserServicesPolicy -Identity "Ken Myer" -PolicyName $Null 
+> 在某些情况下，只需取消分配用户的当前用户服务策略，可以实现相同的效果。 例如，假定 Ken Myer 具有启用统一的联系人存储库的每用户用户服务策略，但您的全局策略禁止使用统一的联系人存储库。 在这种情况下，您可以取消分配 Ken 的按用户服务策略。 在执行此操作后，Ken 将自动由全局策略管理，因此他将不再能够访问统一的联系人存储库。 若要取消分配之前分配的每用户策略，请使用与前面所示相同的命令，但这次将 PolicyName 参数设置为空值：Grant-CsUserServicesPolicy -Identity "Ken Myer" -PolicyName $Null 
   
 在使用统一的联系人存储库时，请务必记住术语“阻止将 Ken 的联系人迁移到统一的联系人存储库中”。 仅为 Ken 分配一个新的用户服务策略并不会将其联系人从统一的联系人存储库中移出。 当用户登录到 Skype for Business Server时，系统会检查用户的用户服务策略，以查看其联系人是否应该保留在统一的联系人存储中。 如果回答为“是”（即，在 UcsAllowed 属性设置为 $True 的情况下），则这些联系人将被迁移到统一的联系人存储库中（假定这些联系人尚未包含在统一的联系人存储库中）。 如果回答为"否"，则Skype for Business Server忽略用户的联系人，然后继续下一个任务。 这意味着Skype for Business Server用户联系人不会自动从统一的联系人存储中移出，无论 UcsAllowed 属性的值如何。
   
@@ -95,4 +95,4 @@ Invoke-CsUcsRollback -Identity "Ken Myer"
 
 如果更改用户服务策略但不运行 Invoke-CsUcsRollback cmdlet，则不会从统一的联系人存储库中删除 Ken 的联系人。 如果运行 Invoke-CsUcsRollback 但不更改 Ken Myer 的用户服务策略，会出现什么情况？ 在此情况下，会暂时从统一的联系人存储库中删除 Ken 的联系人。 请务必记住此删除是暂时性的这一事实。 从统一的联系人存储中删除 Ken 的联系人后，Skype for Business Server等待 7 天，然后查看向 Ken 分配了哪个用户服务策略。 如果仍为 Ken 分配了允许使用统一的联系人存储库的策略，则其联系人将被自动移回联系人存储库中。 若要从统一的联系人存储库中永久性删除联系人，您必须更改用户服务策略并运行 Invoke-CsUcsRollback cmdlet。
   
-由于会影响迁移的变量很多，因此很难估计帐户完全迁移到统一联系人存储之前需要多久。 但是，一般而言，迁移不会立即生效：即使迁移少量联系人，移动完成也可能需要 10 分钟或更大时间。
+由于大量的变量会影响迁移，因此很难估计帐户完全迁移到统一联系人存储之前需要多久。 但是，一般而言，迁移不会立即生效：即使迁移少量联系人，移动完成也可能需要 10 分钟或更大时间。

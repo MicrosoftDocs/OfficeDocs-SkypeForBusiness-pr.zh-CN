@@ -2,7 +2,7 @@
 title: 在部署中企业语音和Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 15354abe-733e-466b-bcd4-a6cfbf58caf8
 description: Summary： Learn about the security and configuration prerequisites for 企业语音 in Skype for Business Server.
-ms.openlocfilehash: 48cb415208008441f306dd0384c494149f65c4e4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 01f7be3bfe3e43d53d574632f228681be5af4ba4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778912"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60839074"
 ---
 # <a name="security-and-configuration-prerequisites-for-enterprise-voice-in-skype-for-business-server"></a>在部署中企业语音和Skype for Business Server
  
@@ -50,9 +50,9 @@ ms.locfileid: "60778912"
   
 ## <a name="user-configuration"></a>用户配置
 
-如果在前端部署期间将中介服务器与每台前端池或 Standard Edition 服务器并并，则 企业语音 所需的用户设置将在安装这些服务器角色的文件期间自动配置。
+如果在前端部署期间将中介服务器与每台前端池或 Standard Edition 服务器并并，则安装这些服务器角色的文件时会自动配置 企业语音 所需的用户设置。
   
-如果此时要执行全新的企业语音工作负荷部署，则在开始部署过程之前，为计划要对其启用企业语音的每个用户指定一个主电话号码。 作为管理员，应确保此号码是唯一的。 实施之前，所有主要电话号码都必须 (格式正确) 控制面板复制到每个用户的"线路 **URI"Skype for Business Server** 属性。
+如果此时要执行全新的企业语音工作负荷部署，则在开始部署过程之前，为计划要对其启用企业语音的每个用户指定一个主电话号码。 作为管理员，应确保此号码是唯一的。 实施之前，所有主要电话号码都必须 (格式正确) ，然后使用控制面板复制到每个用户的"线路 **URI"Skype for Business Server** 属性。
   
 > [!NOTE]
 > 有关部署所需的主要电话号码企业语音，请参阅[示例规范化规则](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md#BKMK_SampleNormalizationRules)。 
@@ -61,7 +61,7 @@ ms.locfileid: "60778912"
 
 验证软件和环境先决条件后企业语音您可以：
   
-- 安装中介服务器，如[在 Skype for Business Server](deploy-a-mediation-server.md)的拓扑生成器中部署中介服务器中所述，但仅在要部署独立的中介服务器或池时，因为中介服务器是作为前端池或 Standard Edition 服务器部署过程的一部分安装的。）
+- 安装中介服务器，如[在 Skype for Business Server](deploy-a-mediation-server.md)拓扑生成器中部署中介服务器中所述，但仅在要部署独立的中介服务器或池时，因为中介服务器是作为前端池或 Standard Edition 服务器部署过程的一部分安装的。）
     
 - 或者，开始配置设置以路由 企业语音 用户的呼叫，如在 Skype for Business Server 中配置[中继中所述](configure-trunks.md)。
     

@@ -2,7 +2,7 @@
 title: 将文件存储数据移动到文件存储中的新Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
 ROBOTS: NOINDEX, NOFOLLOW
 description: 如果需要删除当前充当 Skype for Business Server 部署的文件存储的文件服务器，或者需要进行其他会使当前文件存储不可用的更改，则首先需要创建新的共享。 然后，您需要执行以下步骤：
-ms.openlocfilehash: 82916786bfe6fd3f780b409a697320daf8adfbec
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 58b42d267723d96163d276e5578d5b044c700b26
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60750891"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60853476"
 ---
 # <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server"></a>将文件存储数据移动到文件存储中的新Skype for Business Server
 
@@ -36,7 +36,7 @@ ms.locfileid: "60750891"
 
 ### <a name="to-move-file-store-data-from-one-file-store-to-a-new-file-store"></a>将文件存储数据从一个文件存储移动到新文件存储
 
-1. 以 RTCUniversersalServerAdmins 或 CsServerAdministrator 组（其中安装了 Skype for Business Server 管理工具）的成员登录到计算机。
+1. 以 RTCUniversersalServerAdmins 或 CsServerAdministrator 组（其中安装了管理工具）Skype for Business Server计算机。
 
 2. 打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。
 
@@ -46,7 +46,7 @@ ms.locfileid: "60750891"
 
 5. 以 Domain Admins 组和 RTCUniversalServerAdmins 组成员的身份登录安装了拓扑生成器的计算机。
 
-6. 启动拓扑生成器：**单击"开始**"，单击"所有程序"，Skype for Business Server"，然后单击"Skype for Business Server **拓扑生成器"。** 
+6. 启动拓扑生成器：单击"开始"，**单击"** 所有程序 **"，Skype for Business Server"，** 然后单击"Skype for Business Server **拓扑生成器"。**
 
 7. 选择使用文件存储的服务器或池，然后执行以下操作：
 
@@ -67,7 +67,7 @@ ms.locfileid: "60750891"
 
 14. 发布拓扑，检查复制状态，然后根据需要Skype for Business Server部署向导。 有关详细信息，请参阅[Common Procedures for Removing Lync Servers and Components](/previous-versions/office/skype-server-2010/gg195688(v=ocs.14))。
 
-15. 启动命令提示符：单击 **"开始"，** 单击" **运行**"，然后键入cmd.exe。
+15. 启动命令提示符：单击"开始 **"，** 单击 **"运行**"，然后键入cmd.exe。
 
 16. 在命令行中键入：
 

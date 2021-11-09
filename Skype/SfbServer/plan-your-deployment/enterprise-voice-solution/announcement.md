@@ -2,7 +2,7 @@
 title: Plan for the Announcement application in Skype for Business
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 2abee804-2599-48bb-90b2-15df0bae5e20
-description: 在组织中规划通知Skype for Business Server 企业语音，这将配置对组织中未分配电话号码的电话呼叫要执行哪些处理。 包括音频文件要求。
-ms.openlocfilehash: 26dbd9a0bf1513812cb08034216194ca67a92b39
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 在组织中规划通知Skype for Business Server 企业语音，这将配置对组织中未分配电话号码的电话呼叫执行哪些处理。 包括音频文件要求。
+ms.openlocfilehash: 6dc2317c170585c6688e04b191182cf7ae500b12
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778092"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60838494"
 ---
 # <a name="plan-for-the-announcement-application-in-skype-for-business"></a>Plan for the Announcement application in Skype for Business
 
-在组织中规划通知Skype for Business Server 企业语音，这将配置对组织中未分配电话号码的电话呼叫要执行哪些处理。 包括音频文件要求。
+在组织中规划通知Skype for Business Server 企业语音，这将配置对组织中未分配电话号码的电话呼叫执行哪些处理。 包括音频文件要求。
 
 通过 Skype for Business Server 通知应用程序，您可以配置在拨打的号码对您的组织有效，但没有分配给用户或电话时对传入电话呼叫的处理。 可以将这些呼叫转换到预确定的目标（电话号码、SIP URI 或语音邮件）和/或播放音频通知。 该通知应用程序帮助您可以避免呼叫者拨错号并听到忙音或 SIP 客户端收到错误消息的情况。 本节包括特定于通知应用程序的规划信息
 
@@ -39,7 +39,7 @@ ms.locfileid: "60778092"
 
 ### <a name="software-requirements"></a>软件要求
 
-运行通知应用程序的所有前端服务器或 Standard Edition 服务器必须为运行 Windows Server 2008 R2 的服务器安装 Windows Media Format Runtime，或者为运行 Windows Server 2012 或 Windows Server 2012 R2 的服务器安装 Microsoft Media Foundation。 对于 Windows Server 2008 R2，Windows Media Format Runtime 作为桌面体验的一Windows安装。 Windows通知应用程序播放通知和音乐Windows Media Audio (.wma) 文件需要媒体格式运行时或 Microsoft Media Foundation。
+所有运行通知应用程序的前端服务器或 Standard Edition 服务器必须为运行 Windows Server 2008 R2 的服务器安装 Windows Media Format Runtime，或为运行 Windows Server 2012 或 Windows Server 2012 R2 的服务器安装 Microsoft Media Foundation。 对于 Windows Server 2008 R2，Windows Media Format Runtime 作为桌面体验的一Windows一部分进行安装。 Windows通知应用程序播放通知和音乐Windows Media Audio (.wma) 需要媒体格式运行时或 Microsoft Media Foundation。
 
 ### <a name="port-requirements"></a>端口要求
 

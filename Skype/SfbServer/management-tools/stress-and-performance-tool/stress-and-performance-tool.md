@@ -2,7 +2,7 @@
 title: Skype for Business Server 2015 压力和性能工具
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 ms.date: 4/6/2016
 manager: serdars
 audience: ITPro
@@ -13,17 +13,17 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f2f7d19b-18c8-4a41-9b17-80d35b73d742
-description: 在Skype for Business Server环境或测试环境中的容量规划和性能调整过程中，使用 2015 压力和性能工具。
-ms.openlocfilehash: 565f868ae81915b6bcb595f13c2d184d82db62b8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 在Skype for Business Server或测试环境中的容量规划和性能调整过程中，使用 2015 压力和性能工具。
+ms.openlocfilehash: 140ca0d169c9863fe3104837dae294ee49bc0f48
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766260"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60839854"
 ---
 # <a name="skype-for-business-server-2015-stress-and-performance-tool"></a>Skype for Business Server 2015 压力和性能工具
  
-在Skype for Business Server环境或测试环境中的容量规划和性能调整过程中，使用 2015 压力和性能工具。
+在Skype for Business Server或测试环境中的容量规划和性能调整过程中，使用 2015 压力和性能工具。
   
 The Skype for Business Server 2015 Stress and Performance Tool includes tools that will simplify your capacity planning for Skype for Business Server 2015. The Skype for Business Server 2015 Stress and Performance Tool will help you to：
   

@@ -1,6 +1,6 @@
 ---
 title: 在摩洛哥的可用性
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于 Microsoft 365 Office 365 的 Skype for Business Microsoft Teams 服务。
-ms.openlocfilehash: d37be85d42c11b549961220e777fdb641bd328a5
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e3f9758ba606c4effba4b4e91e031ba6b4ada83d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60775972"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60852746"
 ---
 # <a name="availability-in-tunisia"></a>在摩洛哥的可用性
 

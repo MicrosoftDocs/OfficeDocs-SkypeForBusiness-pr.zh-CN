@@ -2,7 +2,7 @@
 title: 在管理中管理运行状况Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,18 +12,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 0b9b44c4-06ad-4b89-b87d-62448f936ab8
 description: 摘要：了解 Skype for Business Server 中的监视和运行状况配置任务。
-ms.openlocfilehash: 7484d28a3cf1ba457cf297d89c97fcb21e387be5
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1ca2f553a4b438b4aaaa6d16d98dc575705d4b0d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767680"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60837544"
 ---
 # <a name="manage-health-and-monitoring-in-skype-for-business-server"></a>在管理中管理运行状况Skype for Business Server
 
 **摘要：** 了解 Skype for Business Server 中的监视和运行状况Skype for Business Server。
 
-本节中的主题提供了可在控制面板和命令行管理程序中Skype for Business Server监视和运行状况Skype for Business Server分步过程。
+本节中的主题提供了可在控制面板和命令行管理程序中Skype for Business Server和运行状况配置任务的Skype for Business Server过程。
 
 ## <a name="in-this-section"></a>本节内容
 

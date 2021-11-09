@@ -2,7 +2,7 @@
 title: SQL Server Reporting Services（调用）
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4a4ba8d6-ba43-45b3-b834-372d092561e7
 description: 向 Microsoft SQL Server 2008 R2 或 Microsoft SQL Server 2012 报告服务提供部署监控服务器报告所需的信息后，"执行命令"页将显示为将报告安装到 SQL Server Reporting Services 而发出的命令的摘要。
-ms.openlocfilehash: 2e0425c46a6ec7fc88ed9c24d57bd4c81d980198
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 47b18c53dc936916d827ab12915ea423e7adc44a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60752321"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60838854"
 ---
 # <a name="sql-server-reporting-services-invoke"></a>SQL Server Reporting Services（调用）
  
@@ -31,4 +31,4 @@ ms.locfileid: "60752321"
 > [!IMPORTANT]
 > 若要使 Reporting Services 报告成功部署，且在部署完成后访问报告，必须具有 TCP/IP 端口 80 (，并且（可选）TCP 端口 443 用于 SSL（如果向 SQL Server 上的 Windows 高级安全防火墙中打开的 Reporting Services) 分配证书）。 有关详细信息，请参阅[Configure the Windows Firewall to Allow SQL Server Access](/sql/sql-server/install/configure-the-windows-firewall-to-allow-sql-server-access) for Microsoft SQL Server 2008 R2。
   
-查看摘要后，单击 **"完成"** 以完成向报告SQL Server Reporting Services。
+查看摘要后，单击 **"完成"** 以完成报告到SQL Server Reporting Services。

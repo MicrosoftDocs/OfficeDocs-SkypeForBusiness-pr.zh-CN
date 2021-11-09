@@ -1,6 +1,6 @@
 ---
 title: Microsoft Teams浏览器上打开会议
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: conceptual
@@ -16,19 +16,19 @@ search.appverid: MET150
 description: 了解如何Teams浏览器支持音频和视频。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 213de938360754efd95b5fb460c0cf5a3c735203
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 51ba0ede8df0548288b2519d76220f50f28e4abe
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740138"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60837444"
 ---
 # <a name="microsoft-teams-meetings-on-unsupported-browsers"></a>Microsoft Teams浏览器上打开会议
 
 某些浏览器（如 Internet Explorer 11、Safari 和 Firefox）支持 Microsoft Teams Web 应用，但不支持某些 Teams 呼叫和会议功能。 若要解决此限制，Teams Web 应用允许用户通过 PSTN 连接接收音频，并允许用户以 (屏幕共享) 查看呈现的内容。
 
 > [!Note]
-> Microsoft 365应用和服务不支持从 2021 年 8 月 17 Internet Explorer 11 日开始 (Microsoft Teams将不支持从 2020 年 11 月 3) 0 日到 2020 年 11 月 30 日之前Internet Explorer 11 日。 [了解详细信息](https://aka.ms/AA97tsw)。 请注意，Internet Explorer 11 将保留为受支持的浏览器。 Internet Explorer 11 是 Windows 操作系统的一个组件，它遵循[](/lifecycle/faq/internet-explorer-microsoft-edge)安装它的产品的生命周期策略。
+> Microsoft 365应用和服务将不支持 2021 年 8 月 17 Internet Explorer 11 日 (Microsoft Teams从 2020 年 11 月 3) 0 日开始Internet Explorer 11 日。 [了解详细信息](https://aka.ms/AA97tsw)。 请注意，Internet Explorer 11 将保留为受支持的浏览器。 Internet Explorer 11 是 Windows 操作系统的一个组件，它遵循[](/lifecycle/faq/internet-explorer-microsoft-edge)安装它的产品的生命周期策略。
 
 当Teams浏览器时，它会自动显示一条消息，说明此问题和会话限制。 该消息提供有关访问会议音频的更多说明，例如建议用户留下回电号码，以便 Teams 可以呼叫用户，或指示用户呼叫会议邀请中包含的会议号码。 该消息还鼓励用户下载并使用 Teams[桌面客户端](https://teams.microsoft.com/downloads)，获得完整的Teams体验。
 
@@ -46,7 +46,7 @@ ms.locfileid: "60740138"
 - 如果呼叫中断，会议不会自动重新连接。
 - 用户无法启动会议。
 
-有关浏览器中对浏览器的支持Teams，请参阅应用[的限制和Teams。](./limits-specifications-teams.md#browsers)
+有关在浏览器中支持浏览器Teams，请参阅适用于 Teams 的限制[和Teams。](./limits-specifications-teams.md#browsers)
 
 ## <a name="related-topics"></a>相关主题
 

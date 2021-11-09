@@ -2,7 +2,7 @@
 title: 'Web 会议 (规划工具) '
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 ms.assetid: 4e4425c1-4a7b-4706-a4cd-155fd903acd5
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype for Business Server Web 会议包括文档协作、应用程序共享和桌面共享。
-ms.openlocfilehash: 1e1aa9f5cb4b4e079336f4eff3f0d5bb20941fee
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b6300fc1ee1ed8d815fe4358ba036ff440000dde
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60776882"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60837184"
 ---
 # <a name="web-conferencing-planning-tool"></a>Web 会议 (规划工具) 
  
@@ -38,4 +38,4 @@ Skype for Business Server Web 会议包括文档协作、应用程序共享和�
     
 - [规划电话拨入式会议Skype for Business Server](../../../plan-your-deployment/conferencing/dial-in-conferencing.md)
     
-- [在 Skype for Business Server 中规划大型Skype for Business Server](../../../plan-your-deployment/conferencing/large-meetings.md)
+- [在会议中规划大型Skype for Business Server](../../../plan-your-deployment/conferencing/large-meetings.md)

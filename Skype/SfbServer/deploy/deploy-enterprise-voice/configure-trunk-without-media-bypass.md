@@ -2,7 +2,7 @@
 title: Skype for Business Server：配置无媒体旁路的中继
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3422e93e-7bd2-4470-968c-dc38345b18ca
 description: 摘要：配置未启用媒体旁路功能的中继Skype for Business Server。
-ms.openlocfilehash: 09d178cf2deeb27ec47c39090f7dcc233af3cbb0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: bccc88e442532ebf9a2c503fa851965447eb1e85
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759114"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60839114"
 ---
 # <a name="skype-for-business-server-configure-a-trunk-without-media-bypass"></a>Skype for Business Server：配置无媒体旁路的中继
 
@@ -48,7 +48,7 @@ ms.locfileid: "60759114"
    - **池 Trunk**：在“选择服务”中选择此中继配置应用于的中继的名称，然后单击“确定”。 此中继可以是根中继，或者是拓扑生成器中定义的任何附加中继。 请注意，如果已经为特定中继创建了中继配置，则该中继不会显示在“选择服务”中。
 
      > [!NOTE]
-     > 选择中继配置的作用域后，无法对其进行更改。 >" **名称** "字段会使用中继配置的关联站点或服务的名称预先填充，并且无法更改。
+     > 选择中继配置的作用域后，无法对其进行更改。 **>"名称**"字段会使用中继配置的关联站点或服务的名称预先填充，并且无法更改。
 
 4. 选择以下“加密支持级别”选项之一：
 
@@ -125,9 +125,9 @@ ms.locfileid: "60759114"
 
 14. （可选）关联和配置中继的“呼叫号码转换规则”。这些转换规则适用于出站呼叫的呼叫号码
 
-    - 若要从您的部署中提供的所有转换规则列表中选择一个或多个企业语音，请单击"**选择"。** 在“选择转换规则”中，单击要与中继关联的规则，然后单击“确定”。
+    - 若要从部署中提供的所有转换规则列表中选择一个或多个企业语音，请单击"选择 **"。** 在“选择转换规则”中，单击要与中继关联的规则，然后单击“确定”。
 
-    - 要定义新的转换规则并将其与中继关联，请单击“新建”。 有关转换规则的详细信息，请参阅 translation [rules in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md)。
+    - 要定义新的转换规则并将其与中继关联，请单击“新建”。 有关转换规则的详细信息，请参阅 Translation [rules in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md)。
 
     - 要编辑已经与中继关联的转换规则，请单击相应的规则名称，然后单击“显示详细信息”。
 
@@ -140,9 +140,9 @@ ms.locfileid: "60759114"
 
 15. （可选）关联和配置中继的“已呼叫号码转换规则”。这些转换规则适用于出站呼叫中的已呼叫号码。
 
-    - 若要从您的部署中提供的所有转换规则列表中选择一个或多个企业语音，请单击"**选择"。** 在“选择转换规则”中，单击要与中继关联的规则，然后单击“确定”。
+    - 若要从部署中提供的所有转换规则列表中选择一个或多个企业语音，请单击"选择 **"。** 在“选择转换规则”中，单击要与中继关联的规则，然后单击“确定”。
 
-    - 要定义新的转换规则并将其与中继关联，请单击“新建”。 有关转换规则的详细信息，请参阅 translation [rules in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md)。
+    - 要定义新的转换规则并将其与中继关联，请单击“新建”。 有关转换规则的详细信息，请参阅 Translation [rules in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md)。
 
     - 要编辑已经与中继关联的转换规则，请单击相应的规则名称，然后单击“显示详细信息”。
 

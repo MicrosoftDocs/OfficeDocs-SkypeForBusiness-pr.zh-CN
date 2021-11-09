@@ -2,7 +2,7 @@
 title: 配置 SharePoint Server 以搜索存档Skype for Business数据
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
@@ -14,20 +14,20 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 17f49365-8778-4962-a41b-f96faf6902f1
 description: 摘要：配置 SharePoint Server 以搜索由 Exchange Server 和 Skype for Business Server 存档的数据。
-ms.openlocfilehash: ab7fe3127f4837334142dd1f4138df81f7dadf21
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d3274c29ccdae22a382d045fc6db3ee448223332
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765850"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60839624"
 ---
 # <a name="configure-sharepoint-server-to-search-for-archived-skype-for-business-data"></a>配置 SharePoint Server 以搜索存档Skype for Business数据
  
-**摘要：** 配置 SharePoint Server 以搜索由 Exchange Server 2016 或 Exchange Server 2013 和 Skype for Business Server 存档Skype for Business Server。
+**摘要：** 配置 SharePoint Server 以搜索由 Exchange Server 2016 或 Exchange Server 2013 及 Skype for Business Server 存档的数据。
   
-在 Exchange Server 而不是 Skype for Business Server 中存储即时消息和 Web 会议脚本的主要好处之一是，在同一位置存储数据使管理员可以使用单个工具来搜索存档的 Exchange 数据和/或存档的 Skype for Business Server 数据。 由于所有数据存储在同一位置 (Exchange) 任何可搜索已存档 Exchange 数据的工具也可以搜索已存档Skype for Business Server数据。
+在 Exchange Server 而不是 Skype for Business Server 中存储即时消息和 Web 会议脚本的主要好处之一是，在同一位置存储数据使管理员可以使用单个工具来搜索存档的 Exchange 数据和/或存档的 Skype for Business Server 数据。 由于所有数据存储在同一位置 (Exchange) 因此任何可搜索已存档数据Exchange也可以搜索已存档Skype for Business Server数据。
   
-2013 年 10 月提供了一种可轻松搜索存档数据Microsoft SharePoint Server工具。 如果要使用 SharePoint 搜索 Skype for Business Server 数据，则必须先完成在 Skype for Business Server 中配置 Exchange 存档所涉及的Skype for Business Server。 在Exchange Server和Skype for Business Server集成后，必须在 SharePoint 服务器上安装 Exchange Web 服务托管[API。](https://go.microsoft.com/fwlink/p/?LinkId=258305) 下载的文件 (EWSManagedAPI.msi) 可以保存到 SharePoint 服务器上的任何文件夹。
+2013 年 10 月提供了一种可轻松搜索存档数据Microsoft SharePoint Server工具。 如果要使用 SharePoint 搜索 Skype for Business Server 数据，则必须先完成在 Skype for Business Server 中配置存档Exchange涉及的所有步骤。 在Exchange Server和Skype for Business Server集成后，必须在 SharePoint 服务器上安装 Exchange Web 服务托管[API。](https://go.microsoft.com/fwlink/p/?LinkId=258305) 下载的文件 (EWSManagedAPI.msi) 可以保存到 SharePoint 服务器上的任何文件夹。
   
 下载文件后，在 SharePoint 服务器上完成以下过程：
   
@@ -51,7 +51,7 @@ ms.locfileid: "60765850"
    iisreset
    ```
 
-安装Exchange Web 服务后，您必须在 SharePoint Server 和 Exchange Server 之间配置服务器到服务器身份验证。 为此，首先打开命令行SharePoint命令行管理程序并运行以下命令集：
+安装Exchange Web 服务后，必须在服务器与服务器之间配置SharePoint服务器Exchange Server。 为此，请首先打开命令行SharePoint命令行管理程序并运行以下命令集：
   
 ```powershell
 New-SPTrustedSecurityTokenIssuer -Name "Exchange" -MetadataEndPoint "https://autodiscover.litwareinc.com/autodiscover/metadata/json/1"
@@ -88,7 +88,7 @@ iisreset atl-exchange-001
 
 此命令可以从命令行管理程序Exchange运行，也可以从任何其他命令窗口运行。
   
-接下来，运行一个类似如下的命令，该命令 (此示例中，kenmyer 有权) 用户进行发现Exchange：
+接下来，运行类似如下的命令，该命令 (，kenmyer 有权) 用户进行发现Exchange：
   
 ```powershell
 Add-RoleGroupMember "Discovery Management" -Member "kenmyer"
@@ -104,7 +104,7 @@ New-SPSite -Url "https://atl-sharepoint-001/sites/discovery" -OwnerAlias "kenmye
 > [!NOTE]
 > “eDiscovery”是“electronic discovery”（电子发现）的缩写，通常表示浏览可在法院“合理计算为可导致可靠证据”的项目的电子存档的过程。 
   
-新网站准备就绪后，下一步是配置Exchange Server用作网站结果SharePoint。 为此，可以从"管理中心"页SharePoint过程：
+新网站准备就绪后，下一步是配置Exchange Server用作网站的结果SharePoint。 为此，可以从"管理中心"页SharePoint过程：
   
 1. 在“管理中心”页上，单击“管理服务应用程序”，然后单击“Search Service 应用程序”。
     
@@ -116,7 +116,7 @@ New-SPSite -Url "https://atl-sharepoint-001/sites/discovery" -OwnerAlias "kenmye
     
 4. 确保未选择“使用自动发现”，然后单击“确定”。
     
-最后，通过从 SharePoint 发现站点中完成以下过程来创建新的电子数据展示案例和新的电子数据展示集 (例如 `https://atl-sharepoint-001/sites/discovery` ，) ：
+最后，通过从 SharePoint 发现站点中完成以下过程来创建新的电子数据展示案例和新的电子数据展示 (例如 `https://atl-sharepoint-001/sites/discovery` ，) ：
   
 1. 在“网站内容”页上，单击“创建新的案例”。
     
@@ -136,6 +136,6 @@ New-SPSite -Url "https://atl-sharepoint-001/sites/discovery" -OwnerAlias "kenmye
     
 8. 在“电子数据展示集”页上，单击“保存”，以保存新的电子数据展示集。
     
-此时，您可以在 kenmy) er (和/或启用 In-Place 搜索指定的邮箱，其保留方式与搜索任何其他内容或结果SharePoint的方法相同。
+此时，您可以在 kenmy) er (和/或启用 In-Place 搜索指定的邮箱，其保留方式与搜索任何其他内容SharePoint源的方式相同。
   
 

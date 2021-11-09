@@ -1,6 +1,6 @@
 ---
 title: 贵组织为 Microsoft Teams 准备到什么程度？
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.date: 11/01/2018
@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 24f52433e3b52b728873d13eb06db65d8ecbaa60
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 105df2024ad67710b1de1e92208deeab6c7b9226
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760410"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865621"
 ---
 # <a name="how-ready-is-your-organization-for-microsoft-teams"></a>贵组织为 Microsoft Teams 准备到什么程度？
 
-现在，项目团队已汇集在一起，并且您开始Teams可以为组织执行哪些工作，因此，必须评估组织是否准备好Teams过渡。 若要评估准备情况，需要：
+现在，项目团队已汇集在一起，并且您开始Teams为组织执行哪些工作，因此，必须评估组织是否准备好进行Teams过渡。 若要评估准备情况，需要：
 
 1. 评估利益干系人。
 2. 确定早期采用者。
@@ -44,11 +44,11 @@ ms.locfileid: "60760410"
 2. 评价此领导对当前技术的满意度。
 3. 此领导是否愿意使用未经批准的技术来加速结果或为团队成员创造更好的体验？
 4. 此领导者在提供关键业务结果方面是否承受了巨大压力？ 
-5. 此领导愿意宣传他/她在Teams的经验来帮助进行过渡吗？
+5. 此领导愿意宣传他/她使用新Teams来帮助进行过渡吗？
 6. 此主管是否与现有项目团队的关键成员具有积极的关系？
 7. 此领导是否希望被视为组织内部的"更改代理"？  
 
-可以添加与组织相关的其他问题。 对于启动和 (试验) 的初始两个阶段，你将看到领导，他们很友好，对当前技术有些不满意，并且你具有良好的关系。 这些领导应作为业务顾问进入核心项目团队，并且可能有项目对于试验阶段至关重要。 必须选择要试验的具有影响力的真实情况，并避免初始试验的高风险项目。
+可以添加与组织相关的其他问题。 对于启动和试验 (的初始两个阶段) ，你将看到领导很友好、对当前技术有些不满意，并且你具有良好关系。 这些领导应作为业务顾问进入核心项目团队，并且可能有项目对于试验阶段至关重要。 必须选择要试验的具有影响力的真实情况，并避免初始试验的高风险项目。
    
 > [!NOTE]
 > 虽然可以为此类型的调查问卷分配分数，以最大程度地降低组织中关系的人性元素的影响，但推动变化取决于团队的化学程度以及其技术技能或业务才能。 在选择项目和人员以用于后续阶段时，与团队成员一起查看此列表，讨论各种领导对此项目的"适合性"。 
@@ -72,7 +72,7 @@ ms.locfileid: "60760410"
 
 更改是一个人工过程，与技术无关。 存在行为相信和认知科学，可让我们了解改变的自然障碍。 若要使更改可接受，请务必预测用户的需求，表达你了解其情况，并创建可改善这种情况的解决方案。 即使这样做，也会遇到自然的变化障碍。  
 
-![Graph改变的耐性。](media/teams-adoption-resistance.png)
+![Graph反映对更改的阻抗。](media/teams-adoption-resistance.png)
 
 每个组织的方法各不相同，具体取决于区域、工作风格、职业配置文件和组织的其他元素。 若要评估组织的准备情况，请参阅 [评估组织变更就绪情况](upgrade-org-change-readiness.md)。 使用指南回答以下问题：
 
