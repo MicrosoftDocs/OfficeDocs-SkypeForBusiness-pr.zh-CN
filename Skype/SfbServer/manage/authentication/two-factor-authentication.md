@@ -2,7 +2,7 @@
 title: 在客户端中管理双重Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 16f08710-8961-4659-acbf-ebb95a198fb4
 description: 摘要：在 Skype for Business Server 中管理双重Skype for Business Server。
-ms.openlocfilehash: d5d5500cbcab93f53e58626bf5826dcc060903e2
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: af21fd551c8495a49c8617b25e4669bdd27ec0c0
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60747168"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60847415"
 ---
 # <a name="manage-two-factor-authentication-in-skype-for-business-server"></a>在客户端中管理双重Skype for Business Server
  
@@ -71,7 +71,7 @@ Skype for Business配置为使用统一联系人存储功能的用户将在使�
   
 ### <a name="deleting-saved-credentials"></a>删除保存的凭据
 
-用户应先使用Skype for Business 客户端中的"删除我的登录信息"选项，然后从 %localappdata%\Microsoft\Office\15.0\Skype for Business 中删除其 SIP 配置文件文件夹，然后再尝试使用双重身份验证首次登录。
+在尝试使用双重身份验证首次登录之前，用户应该使用 Skype for Business 客户端中的"删除我的登录信息"选项，并删除 %localappdata%\Microsoft\Office\15.0\Skype for Business 中的 SIP 配置文件文件夹。
   
 ### <a name="disablentcredentials"></a>DisableNTCredentials
 
@@ -89,9 +89,9 @@ REG_DWORD：DisableNTCredentials
   
 ### <a name="savepassword"></a>SavePassword
 
-当用户首次Skype for Business登录时，系统会提示用户保存其密码。 如果选中此选项，则允许用户的客户端证书存储在个人证书存储中，并且用户的 Windows 凭据将存储在本地计算机的凭据管理器中。
+当用户首次登录Skype for Business时，系统会提示用户保存其密码。 如果选中此选项，则允许用户的客户端证书存储在个人证书存储中，并且用户的 Windows 凭据将存储在本地计算机的凭据管理器中。
   
-将 SavePassword 注册表设置配置为支持双因素Skype for Business应禁用 **SavePassword** 注册表设置。 若要阻止用户保存其密码，请在本地工作站上更改以下注册表项或使用 Skype for Business 管理模板，以使用组策略应用于给定池的所有用户：
+将 SavePassword 注册表设置配置为支持双重Skype for Business时，应禁用 **SavePassword** 注册表设置。 若要阻止用户保存其密码，请在本地工作站上更改以下注册表项或使用 Skype for Business 管理模板，以使用组策略应用于给定池的所有用户：
   
 HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync
   
@@ -103,7 +103,7 @@ REG_DWORD：SavePassword
 
 AD FS 2.0 提供了一种称为令牌重播检测的功能，通过此功能，可以检测并丢弃使用同一令牌的多个令牌请求。 启用此功能后，令牌重播检测通过确保从不多次使用同一令牌来保护 WS-Federation 被动配置文件和 SAML WebSSO 配置文件中的身份验证请求的完整性。
   
-在高度关注安全性的情况下（例如使用展台时）应启用此功能。 有关令牌重播检测详细信息，请参阅[Best Practices for Secure Planning and Deployment of AD FS 2.0。](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ff630160(v=ws.10))
+在安全高度关注的情况下（例如使用展台时）应启用此功能。 有关令牌重播检测详细信息，请参阅[Best Practices for Secure Planning and Deployment of AD FS 2.0。](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ff630160(v=ws.10))
   
 ## <a name="guest-user-access"></a>来宾用户访问
 

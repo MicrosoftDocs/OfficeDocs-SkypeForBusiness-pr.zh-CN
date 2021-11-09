@@ -1,6 +1,6 @@
 ---
 title: 将电话号码转移到Microsoft Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: tonysmit
@@ -19,28 +19,28 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何使用移植向导将电话号码从当前服务提供商转移到Microsoft Teams。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2b86210d5e8ac7fe70db0e3774ee7483aad9236a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b487249e9a3744c2f83a9bece04a17e7e2948f01
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761740"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861949"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>将电话号码转移到Microsoft Teams
 
-使用管理中心中的Microsoft Teams向导将电话号码从当前服务提供商转移到Teams。 将电话号码移植到 Teams，Microsoft 将成为服务提供商，并针对这些电话号码计费。
+使用 Microsoft Teams 管理中心中的移植向导，将电话号码从当前服务提供商转移到Teams。 将电话号码移植到Teams，Microsoft 将成为服务提供商，并针对这些电话号码计费。
 
 在启动之前，建议查看什么是移植 [订单？](port-order-overview.md) 如果你有电话拨入式会议网桥的服务号码、自动助理或其他服务号码、免费电话号码，或者你需要将超过 999 个用户 (订阅者) 电话号码转移到 Teams，请参阅管理贵组织的电话号码以下载正确的表单并将其发送给我们。 [](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
   > [!NOTE]
   > 我们仅在美国营业日（而不是公共假日或周末）处理转口订单以转移电话号码。
 
-## <a name="create-a-port-order-and-transfer-your-phone-numbers-to-teams"></a>创建转货订单，将电话号码转移到Teams
+## <a name="create-a-port-order-and-transfer-your-phone-numbers-to-teams"></a>创建转口订单，将电话号码转移到Teams
 
 > [!NOTE]
 > **目前，可以使用此向导获取英国、美国和加拿大的电话号码**。 若要获取其他国家/地区的电话号码，可以 [手动提交移植订单](manually-submit-port-order.md)。 若要获取需要手动提交移植订单的表单，请在"管理组织的电话号码"中的下拉列表中选择 [你的国家/地区](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
 
-1. 在管理中心的左侧导航Microsoft Teams，转到 **"语音电话**  >  **号码"。** 单击 **"数字**"，然后单击" **端口** "以启动移植向导。
+1. 在管理中心左侧导航Microsoft Teams，转到 **"语音电话**  >  **号码"。** 单击 **"数字**"，然后单击" **端口** "以启动移植向导。
 2. 查看"入门 **"页上的信息**，然后在准备就绪后，单击"下一步 **"。**
 3. 在"**选择位置和编号类型**"页上，指定以下内容，然后单击"下一步 **"：**
 
@@ -70,14 +70,14 @@ ms.locfileid: "60761740"
     > [!NOTE]
     > CSV 文件必须只有一列，其标头名为 PhoneNumber。 每个电话号码必须位于单独的行中，只能是数字或 E.164 格式。
 
-6. 在"**完成订单"** 页上，**单击Upload** 签名的授权书"，上传已签名授权书的扫描副本 (LOA) 。
+6. 在"**完成订单"****页上，单击Upload** 签名的授权书"，上传已签名授权书的扫描副本 (LOA) 。
 
     如果尚未下载 LOA 并签名，请执行下列操作：
     
     1. 单击 **"下载模板** "，下载适用于你的国家/地区或地区的 LOA。 
     2. 打印 LOA。
     3. 让有权更改帐户的人员签署 LOA。
-    4. 扫描签名的 LOA，并单击 **Upload签名** 的授权书进行上传。
+    4. 扫描签名的 LOA，然后单击 **Upload签名的授权** 书以上传它。
 
     > [!NOTE]
     > 上传 LOA 后，提交订单。 仅上传 LOA 是不够的。 还必须提交订单才能进行处理。
@@ -89,7 +89,7 @@ ms.locfileid: "60761740"
 
 当我们收到你的移植订单时，你将收到一封验证你的请求的电子邮件。 每日检查和更新请求，并通过电子邮件通知你请求进度和状态。 如果你的端口请求被丢失的运营商拒绝，请联系 [TNS 服务台](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)。
 
-若要查看转货订单的状态，请在 Microsoft Teams 管理中心的左侧导航栏中，转到"语音转>订单"，然后单击"订单  >  **历史记录"。** 每个移植订单状态都列在"状态 **"** 列中。 有关详细信息，请参阅你的移植 [订单的状态是什么？](port-order-status.md)
+若要查看转口订单的状态，请在 Microsoft Teams 管理中心的左侧导航中，转到"语音转>订单"，然后单击"订单  >  **历史记录"。** 每个移植订单状态都列在"状态 **"** 列中。 有关详细信息，请参阅你的移植 [订单的状态是什么？](port-order-status.md)
 
 ## <a name="related-topics"></a>相关主题
 

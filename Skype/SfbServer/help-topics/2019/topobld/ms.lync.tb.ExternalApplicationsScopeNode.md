@@ -2,7 +2,7 @@
 title: 外部应用程序范围节点
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 73b422d6-1582-4a76-aceb-690004fa02a3
 ROBOTS: NOINDEX, NOFOLLOW
 description: “受信任应用程序服务器”节点列出了该站点上的受信任应用程序池。 受信任应用程序池包含运行受信任的 Microsoft 统一通信应用程序但不运行受信任Skype for Business Server服务器。 可以执行以下操作：
-ms.openlocfilehash: 04dba3c585e53b9a26c179266a9685e0db70ea31
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 97d6906472b0deac71df8f3458565c508db62f25
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60738188"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60847865"
 ---
 # <a name="external-applications-scope-node"></a>外部应用程序范围节点
  

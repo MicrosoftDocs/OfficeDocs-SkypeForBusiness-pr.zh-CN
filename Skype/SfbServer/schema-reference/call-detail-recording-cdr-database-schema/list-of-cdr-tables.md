@@ -2,7 +2,7 @@
 title: Skype for Business Server 2015 中的 CDR 表列表
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 031843fd-c7ff-4534-9b02-8847aad70807
 description: 呼叫详细信息记录 (CDR) 数据库架构由以下表组成。
-ms.openlocfilehash: 1e8c76080089005977154c3e23d924a4b98dc6b5
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a8b89664482d05c60e00b10f64f7e2e853280d94
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60746658"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60847075"
 ---
 # <a name="list-of-cdr-tables-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的 CDR 表列表
  
@@ -90,7 +90,7 @@ ms.locfileid: "60746658"
 |[VoipDetails 表](voipdetails-0.md) <br/> |对于每个双方 VoIP/PSTN 呼叫，存储有关呼叫的信息，例如 VoIP 电话的电话 ID、使用的网关以及断开连接方。 有关呼叫开始/结束时间以及响应代码，请参阅 [SessionDetails](sessiondetails.md) 表。 <br/> |
    
 > [!NOTE]
-> 如果呼叫的一方是 VoIP 用户，或者呼叫涉及中介服务器，则会在此表中创建一个记录。 有关 VoIP/VoIP 呼叫的信息，与 PSTN (公用电话交换网) [在 SessionDetails](sessiondetails.md)表中捕获。 
+> 如果呼叫的一方是 VoIP 用户，或者呼叫涉及中介服务器，则会在此表中创建一个记录。 有关与 PSTN 电话 (公用电话交换网) VoIP/VoIP 呼叫的信息捕获在 [SessionDetails 表中](sessiondetails.md)。 
   
 ## <a name="table-for-e9-1-1-call-auditing"></a>E9-1-1 呼叫审核表
 
@@ -110,9 +110,9 @@ ms.locfileid: "60746658"
 |[Skype for Business Server 2015 中的 ErrorCategory 表](errorcategory.md) <br/> |存储每个 2015 Skype for Business Server分类的友好名称。  <br/> |
 |[Skype for Business Server 2015 中的 ErrorDef 表](errordef.md) <br/> |存储有关错误类型及其定义的信息。  <br/> |
 |[Skype for Business Server 2015 中的 ErrorReport 表](errorreport.md) <br/> |存储有关发生的错误的信息。  <br/> |
-|[ProgressReport 表](progressreport.md) <br/> |存储有关 2015 年 2015 过程中涉及Skype for Business Server进度报告的信息。  <br/> |
+|[ProgressReport 表](progressreport.md) <br/> |存储有关 2015 年 2015 过程中Skype for Business Server进度报告的信息。  <br/> |
    
-下表中的表由 2015 年 10 月Skype for Business Server内部使用。 本文档不介绍其详细信息。
+下表中的表在 2015 年 10 月Skype for Business Server内部使用。 本文档不介绍其详细信息。
   
 ## <a name="tables-for-internal-use-by-lync-server"></a>供 Lync Server 内部使用的表
 

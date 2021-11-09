@@ -2,7 +2,7 @@
 title: 简单 URL 设置扩展器
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 9fd2087a-3c3a-4863-aa7f-e532a18e77af
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要指定新的简单 URL、删除现有简单 URL 或更改活动的简单 URL，请执行以下操作：
-ms.openlocfilehash: 2d900e8998d5fe741087d13c187c1d7dcb91c676
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f64dc15f859309556b90d6012f6cd482e8b22ff5
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60772648"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60847855"
 ---
 # <a name="simple-url-settings-expander"></a>简单 URL 设置扩展器
 

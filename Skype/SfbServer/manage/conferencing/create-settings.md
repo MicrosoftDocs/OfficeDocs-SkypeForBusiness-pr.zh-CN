@@ -1,8 +1,8 @@
 ---
-title: 在会议环境中创建会议Skype for Business Server
+title: 在会议环境中创建Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,14 +12,14 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6d8f9ff8-2a04-4175-9bf0-1ec5d78fd015
 description: 摘要：了解如何在会议环境中创建会议Skype for Business Server。
-ms.openlocfilehash: 03a9194a5b4015d9434641e7946b66c57ff4df77
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1b0ba956e467f5b03036d8ef1d1629b4fc4dc517
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60747148"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850025"
 ---
-# <a name="create-meeting-configuration-settings-in-skype-for-business-server"></a>在会议环境中创建会议Skype for Business Server
+# <a name="create-meeting-configuration-settings-in-skype-for-business-server"></a>在会议环境中创建Skype for Business Server
  
 **摘要：** 了解如何在会议环境中创建会议Skype for Business Server。
   
@@ -65,7 +65,7 @@ ms.locfileid: "60747148"
     
 10. 单击“提交”。
     
-## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>使用命令行管理程序Skype for Business Server会议配置设置
+## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>使用命令行管理程序Skype for Business Server配置设置
 
 若要创建会议配置设置，请使用 **New-CsMeetingConfiguration** cmdlet。
   
@@ -75,7 +75,7 @@ ms.locfileid: "60747148"
 New-CsMeetingConfiguration -Identity "site:Redmond"
 ```
 
-由于除了 (Identity 参数参数) ，因此新的会议配置设置将在其所有属性中都使用默认值。
+由于上 (中未指定必需的 Identity) 参数，因此新的会议配置设置将使用它的所有属性的默认值。
   
 要创建使用不同属性值的设置，只需包含相应的参数和参数值。 例如，若要创建默认情况下允许所有人以演示者角色加入会议的会议配置设置集合，请使用类似如下的命令：
   

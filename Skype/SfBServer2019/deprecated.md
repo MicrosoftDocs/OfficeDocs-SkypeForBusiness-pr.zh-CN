@@ -1,8 +1,8 @@
 ---
-title: 自 2019 年 10 Skype for Business Server弃用功能
+title: 2019 年 10 Skype for Business Server弃用功能
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: overview
@@ -12,14 +12,14 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 摘要：这些功能已从 2019 Skype for Business Server中删除。
-ms.openlocfilehash: 65229e091d903ca18fee89224e45aedef8c0ca40
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7f956aed60a65d074776756e0c6254e2aa3d9629
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771721"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846975"
 ---
-# <a name="whats-deprecated-from-skype-for-business-server-2019"></a>自 2019 年 10 Skype for Business Server弃用功能
+# <a name="whats-deprecated-from-skype-for-business-server-2019"></a>2019 年 10 Skype for Business Server弃用功能
 
 了解 2019 年 10 月Skype for Business Server的功能。 有关 Skype for Business Server 2019 中的新功能的信息，请参阅[what's in Skype for Business Server 2019](whats-new.md)。
 
@@ -29,15 +29,15 @@ ms.locfileid: "60771721"
 
 2019 年 3 月，已弃Skype for Business Server功能。
 
-### <a name="xmpp-gateways-for-skype-for-business-server"></a>适用于网关的 XMPP Skype for Business Server
+### <a name="xmpp-gateways-for-skype-for-business-server"></a>用于网关的 XMPP Skype for Business Server
 
 Skype for Business Server 2015 及其前置版本允许在边缘服务器上配置可扩展消息传递和状态协议 (XMPP) 代理，在前端服务器或前端池上配置 XMPP 网关。 2019 年 10 月Skype for Business Server此功能。
 
 ### <a name="persistent-chat-for-skype-for-business-server"></a>持久聊天Skype for Business Server
 
-持久聊天服务器是一个可选角色，可让贵组织中多个用户参与持久聊天室对话。 2019 年 10 月无法部署持久Skype for Business Server聊天。 此服务器角色已从拓扑生成器和代码中删除。 
+持久聊天服务器是一个可选角色，可让贵组织中多个用户参与持久聊天室对话。 2019 年 10 月Skype for Business Server持久聊天。 此服务器角色已从拓扑生成器和代码中删除。 
 
-相同的功能在 Teams 中可用。 有关详细信息，请参阅开始[升级Microsoft Teams升级](/microsoftteams/upgrade-start-here)。
+相同的功能在 Teams。 有关详细信息，请参阅开始[升级Microsoft Teams升级](/microsoftteams/upgrade-start-here)。
 
 ### <a name="sql-mirroring-for-skype-for-business-server"></a>SQL镜像Skype for Business Server
 
@@ -66,7 +66,7 @@ SQL2019 年 10 月Skype for Business Server镜像。 提供高可用性和灾难
 
 2019 年 3 月不支持Skype for Business Server工具：
 
-- 通话质量方法 (而不是呼叫质量仪表板) 
+- 通话质量方法 (而不是通话质量仪表板) 
 - Microsoft 呼叫质量方法记分卡，v1.5
 - Skype for Business Server 2015 规划工具
 - Skype for Business Server 2015 压力和性能工具

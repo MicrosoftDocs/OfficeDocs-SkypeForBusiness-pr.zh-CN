@@ -2,7 +2,7 @@
 title: 添加边缘计算机 NAT IP
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 71fb7752-c37f-46bb-a470-b5a8083aa95f
 ROBOTS: NOINDEX, NOFOLLOW
 description: 如果通过网络地址转换 (NAT) 转换此边缘池的公共 IP 地址，则必须指定要转换的公共 IP 地址。该地址应为 A/V 边缘服务的外部 IP 地址。
-ms.openlocfilehash: 03decce6d76ef5f7e30e45c7beba20d4462cd576
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: cdd63d72f325aee420cf7caf84dafa6ee4fafa24
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60757744"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850265"
 ---
 # <a name="add-edge-machine-nat-ip"></a>添加边缘计算机 NAT IP
  

@@ -2,7 +2,7 @@
 title: 旧版合并摘要页
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 0e298963-cc86-445a-87f4-d611ef2167ee
 description: 从 Microsoft Office Communications Server 2007 R2 迁移到 Lync Server 2013 使用拓扑生成器的功能合并现有拓扑。 摘要屏幕指定在配置将 Office Communications Server 2007 R2 合并到 Lync Server 2013 拓扑生成器配置期间执行的所有操作和选择。
-ms.openlocfilehash: 9c379dfa350e5aa6de0885d96cb33bb26233ef0c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8d4e8d7adc2bd2469c60b3e9e4cc9b3f1c37650e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768090"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60847575"
 ---
 # <a name="legacy-merge-summary-page"></a>旧版合并摘要页
 

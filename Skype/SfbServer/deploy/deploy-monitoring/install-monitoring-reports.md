@@ -2,7 +2,7 @@
 title: 安装监控报告Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6f417569-b100-442c-ad48-fdd794626cf7
 description: 摘要：了解如何安装将在 Skype for Business Server 中生成监控报告的服务。
-ms.openlocfilehash: 5dd24524feecf8792f864d44e0d898166c9717e1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 703bb209c68558ba8f98c8e3a3efcde94e4ce5eb
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753439"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861819"
 ---
 # <a name="install-monitoring-reports-in-skype-for-business-server"></a>安装监控报告Skype for Business Server
  
@@ -27,7 +27,7 @@ Skype for Business Server监控报告为您提供了大量有关组织中发生�
   
 ## <a name="install-monitoring-reports"></a>安装监控报告
 
-安装监控报告时不会自动安装监控Skype for Business Server;相反，必须单独安装监控报告，并且Skype for Business Server安装监控报告之后。
+安装监控报告时不会自动安装监控Skype for Business Server;相反，必须单独安装监控报告，并且仅在Skype for Business Server安装监控报告之后。
   
 > [!NOTE]
 > 建议您在安装监控数据库的同一台计算机上安装监控报告。这可简化分配用于访问报告的权限的过程：在承载监控存储的计算机上安装监控报告意味着，您无需配置允许一台计算机上的数据库与另一台计算机上正在运行的 Reporting Services 进行交互的权限。 
@@ -36,7 +36,7 @@ Skype for Business Server监控报告包括 30 多个报告，旨在提供有关
   
 - **新增了语音质量报告**。 这些新报告包括 Skype for Business Server 中的媒体质量[比较](../../manage/health-and-monitoring/comparison.md)报告，该报告比较了不同类型的呼叫的质量 (例如有线呼叫和无线呼叫与) ;以及[Skype for Business Server](../../manage/health-and-monitoring/join-time-report.md)中的会议加入时间报告，其中提供了有关用户加入会议需要的时间的信息。 
     
-- **改进了用于分析视频和应用程序共享会话并对其进行故障排除的报告。** Skype for Business Server [](../../manage/health-and-monitoring/summary.md)中的媒体质量摘要报告提供了一种分析视频和应用程序共享呼叫的方法，而 Skype for Business Server 中的服务器性能[](../../manage/health-and-monitoring/server-performance.md)报告详细介绍了生成这些呼叫的服务器的性能。 视频和应用程序共享指标现在也由 Skype for Business Server 中的对等[](../../manage/health-and-monitoring/peer-to-peer-session-detail-report.md)会话详细信息报告以及 Skype for Business Server 中的会议[详细信息报告进行报告](../../manage/health-and-monitoring/detail-report.md)。
+- **改进了用于分析视频和应用程序共享会话并对其进行故障排除的报告。** Skype for Business Server [](../../manage/health-and-monitoring/summary.md)中的媒体质量摘要报告提供了一种分析视频和应用程序共享呼叫的方法，而 Skype for Business Server 中的服务器性能[](../../manage/health-and-monitoring/server-performance.md)报告详细介绍了生成这些呼叫的服务器的性能。 视频和应用程序共享指标现在也由 Skype for Business Server 中的点对点[](../../manage/health-and-monitoring/peer-to-peer-session-detail-report.md)会话详细信息报告以及 Skype for Business Server 中的会议[详细信息报告报告](../../manage/health-and-monitoring/detail-report.md)。
     
 - **改进了报告性能**。这包括更少的响应和数据检索时间，以及更快且更轻松的报告导航。
     
@@ -45,7 +45,7 @@ Skype for Business Server监控报告包括 30 多个报告，旨在提供有关
 > [!NOTE]
 > 还有另一个报告 QoE 呼叫详细信息子报告包含在Skype for Business Server。 但此报告主要供内部使用，且无法直接访问。 
   
-可通过两种方法Skype for Business Server监控报告：可以使用 Skype for Business Server 部署向导，或使用 Windows PowerShell 中包含的 Skype for Business Server安装文件。 无论您使用哪种方法安装此报告，都必须先确保：
+可通过两种方法Skype for Business Server监控报告：可以使用 Skype for Business Server 部署向导或使用 Windows PowerShell 中包含的 Skype for Business Server安装文件。 无论您使用哪种方法安装此报告，都必须先确保：
   
 - 具有向监控数据库中的用户帐户添加数据库角色的权限。
     
@@ -53,7 +53,7 @@ Skype for Business Server监控报告包括 30 多个报告，旨在提供有关
     
 若要使用部署向导安装监控报告，请完成下列步骤：
   
-1. 单击 **"开始**"，单击"所有程序 **"，Skype for Business Server"，** 然后单击"Skype for Business Server **部署向导"。** 
+1. 单击 **"开始**"，单击"**所有** 程序"，Skype for Business Server"，然后单击"部署Skype for Business Server **向导"。**
     
 2. 在部署向导中，单击“部署监控报告”以便启动部署监控报告向导。
     

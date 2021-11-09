@@ -2,7 +2,7 @@
 title: 混合向导 登录到 Microsoft 365 或 Office 365
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -19,12 +19,12 @@ ms.collection:
 - IT_Skype4B_Hybrid
 ms.assetid: 791026d0-730f-4225-872e-74c9b5c166d7
 description: 使用 Skype for Business Server 混合可管理性向导帮助你配置环境，以与 Skype for Business Online 进行混合。
-ms.openlocfilehash: c060fe6f0e8b91538ede3b656152d1bf43d78d63
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 465aac08efcf14b60efba83219d094faea5eaa77
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60739568"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60847795"
 ---
 # <a name="hybrid-wizard-sign-in-to-microsoft-365-or-office-365"></a>混合向导：登录到 Microsoft 365 或 Office 365
 

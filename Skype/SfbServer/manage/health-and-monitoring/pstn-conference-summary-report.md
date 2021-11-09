@@ -2,7 +2,7 @@
 title: PSTN 会议摘要报告Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,13 +11,13 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 8e2f0862-4dfa-4c2b-bf8d-ad71419f15d2
-description: 摘要：了解 PSTN 会议摘要报告中Skype for Business Server。
-ms.openlocfilehash: 145207e296fb14462e204bb9c8091612ff89b7da
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 摘要：了解 pstN 会议摘要报告中Skype for Business Server。
+ms.openlocfilehash: 19038b29f46e33026e3ef865226aa4d087b0a0da
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60754711"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862289"
 ---
 # <a name="pstn-conference-summary-report-in-skype-for-business-server"></a>PSTN 会议摘要报告Skype for Business Server
  
@@ -33,7 +33,7 @@ PSTN 会议摘要报告提供了有关您组织中召开的所有 PSTN 会议（
   
 ## <a name="making-the-best-use-of-the-pstn-conference-summary-report"></a>最充分地利用 PSTN 会议摘要报告
 
-若要确定包含电话拨入用户的所有会议的百分比，请将 PSTN 会议指标总计值与 Skype for Business Server 中的会议摘要报告上找到的会议[总指标进行比较](conference-summary-report.md)。
+若要确定包含电话拨入用户的所有会议的百分比，请将 PSTN 会议指标总计值与 Skype for Business Server 中的会议摘要报告上找到的会议[指标总计进行比较](conference-summary-report.md)。
   
 如果您未看到所预计数目的 PSTN 会议，请记住，组织允许电话拨入式用户的会议的能力取决于已分配给用户的会议策略：如果仅允许几个用户主持 PSTN 会议，则可以明显看到 PSTN 会议的数目极少。 通过从命令行管理程序 (运行以下命令，) 验证哪些会议策略Skype for Business Server PSTN 会议：
   

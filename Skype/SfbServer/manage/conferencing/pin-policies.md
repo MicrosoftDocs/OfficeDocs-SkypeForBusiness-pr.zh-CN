@@ -2,7 +2,7 @@
 title: 管理电话拨入式会议在 Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 459e80bf-5791-49f8-878d-4a5178b3a210
 description: 摘要：了解如何在 Skype for Business Server 中管理电话拨入式会议 PIN 策略。
-ms.openlocfilehash: d82be95a3e6ff6fcfc65c5fd7449f9035ee64635
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: bf78a565cefb38a9a6e747c2b22b74a640a9e706
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763810"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862469"
 ---
 # <a name="manage-pin-policies-for-dial-in-conferencing-in-skype-for-business-server"></a>管理电话拨入式会议在 Skype for Business Server
  
@@ -37,7 +37,7 @@ PIN 策略既可以应用于少数用户，也可以应用于众多用户。 如
   
 ### <a name="view-information-about-pin-policies-by-using-skype-for-business-server-control-panel"></a>使用控制面板查看有关 PIN Skype for Business Server的信息
 
-1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 的用户帐户，或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署 Skype for Business Server 的网络内的任何计算机。
+1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 的用户帐户，或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署 Skype for Business Server 的网络中的任何计算机。
     
 2.  打开Skype for Business Server控制面板"。
     
@@ -61,7 +61,7 @@ Get-CsPinPolicy -Identity "site:Redmond"
   
 ### <a name="modify-the-global-dial-in-conferencing-pin-policy-by-using-skype-for-business-server-control-panel"></a>使用控制面板修改全局电话拨入式会议 PIN Skype for Business Server策略
 
-1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 的用户帐户，或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署 Skype for Business Server 的网络内的任何计算机。
+1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 的用户帐户，或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署 Skype for Business Server 的网络中的任何计算机。
     
 2.  打开Skype for Business Server控制面板"。
     
@@ -106,7 +106,7 @@ Get-CsPinPolicy | Set-CsPinPolicy -MinPasswordLength 10
   
 ### <a name="create-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>使用控制面板创建用户或Skype for Business Server PIN 策略
 
-1. 从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 的用户帐户，或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署 Skype for Business Server 的网络内的任何计算机。
+1. 从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 的用户帐户，或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署 Skype for Business Server 的网络中的任何计算机。
     
 2.  打开Skype for Business Server控制面板"。
     
@@ -157,7 +157,7 @@ New-CsPinPolicy -Identity "site:Redmond" -MinPasswordLength 7
   
 ### <a name="modify-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>使用控制面板修改用户或站点 PIN Skype for Business Server
 
-1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 的用户帐户，或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署 Skype for Business Server 的网络内的任何计算机。
+1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 的用户帐户，或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署 Skype for Business Server 的网络中的任何计算机。
     
 2.  打开Skype for Business Server控制面板"。
     
@@ -169,7 +169,7 @@ New-CsPinPolicy -Identity "site:Redmond" -MinPasswordLength 7
     
 6. 单击“提交”。
     
-### <a name="modify-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>使用命令行管理程序修改用户或站点 PIN Skype for Business Server
+### <a name="modify-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>使用命令行管理程序修改用户或Skype for Business Server PIN 策略
 
 若要修改电话拨入式会议 PIN 策略，请使用 **Set-CsPinPolicy** cmdlet。
   
@@ -185,9 +185,9 @@ Set-CsPinPolicy -Identity site:Redmond -MinPasswordLength 10
 
 可以使用控制面板或命令行管理程序删除Skype for Business Server或站点 PIN Skype for Business Server策略。
   
-### <a name="delete-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>使用控制面板删除用户或站点 PIN Skype for Business Server
+### <a name="delete-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>使用控制面板删除用户或Skype for Business Server PIN 策略
 
-1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 的用户帐户，或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署 Skype for Business Server 的网络内的任何计算机。
+1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 的用户帐户，或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署 Skype for Business Server 的网络中的任何计算机。
     
 2.  打开Skype for Business Server控制面板"。
     

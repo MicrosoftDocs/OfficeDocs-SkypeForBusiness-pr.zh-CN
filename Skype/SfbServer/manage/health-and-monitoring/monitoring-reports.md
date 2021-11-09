@@ -2,7 +2,7 @@
 title: 使用监控报告中Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,18 +12,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 733577d0-c70f-4c70-ab7b-59b89fb495a8
 description: 摘要：了解监控报告中Skype for Business Server。
-ms.openlocfilehash: aee3f8b3b53bf0d1273775ddd05f83ec74861904
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0088bb5a83de7f1f22e14461bb841a6011810444
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774922"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862279"
 ---
 # <a name="using-monitoring-reports-in-skype-for-business-server"></a>使用监控报告中Skype for Business Server 
  
 **摘要：** 了解监控报告中Skype for Business Server。
   
-Skype for Business Server报告服务发布的一组Microsoft SQL Server报告。 这些报告可通过 Web 浏览器进行访问，它们提供了使用情况、呼叫诊断信息和媒体质量信息，所有这些信息全部基于呼叫详细记录 (CDR) 和用户体验质量 (QoE) 数据库中存储的 CDR 和 QoE 记录。
+Skype for Business Server由报告服务发布的一组Microsoft SQL Server报告。 这些报告可通过 Web 浏览器进行访问，它们提供了使用情况、呼叫诊断信息和媒体质量信息，所有这些信息全部基于呼叫详细记录 (CDR) 和用户体验质量 (QoE) 数据库中存储的 CDR 和 QoE 记录。
   
 若要使用这些报告，必须在运行监控报告实例的计算机上安装监控SQL Server。
   
@@ -31,7 +31,7 @@ Skype for Business Server报告服务发布的一组Microsoft SQL Server报告�
 
 - [使用监控仪表板Skype for Business Server](monitoring-dashboard.md)为管理员提供其系统运行状况和系统使用情况的快速概述。
     
-- [Skype for Business Server 中的系统使用情况Skype for Business Server](system-usage-reports.md)提供基于由用户收集的 CDR 数据的系统Skype for Business Server。
+- [系统使用情况报告中Skype for Business Server](system-usage-reports.md)提供基于由用户收集的 CDR 数据的系统Skype for Business Server。
     
 - [呼叫诊断报告 (中每个用户) 报告Skype for Business Server](call-diagnostic-reports-per-user.md)提供有关失败的点对点会话和会议会话的每个用户的信息。
     

@@ -1,6 +1,6 @@
 ---
 title: 在 Microsoft Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 ms.reviewer: phlouie
 manager: serdars
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b266bf4cfef25761ce492cb93090ff3df380994d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8698625cc219b1d343afd43cc8bf44cd9e71dc52
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745608"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861979"
 ---
 # <a name="create-an-organization-wide-team-in-microsoft-teams"></a>在 Microsoft Teams
 
@@ -52,11 +52,11 @@ ms.locfileid: "60745608"
 > - 如果在创建团队时看不到"组织范围"选项，并且你是全局管理员，则你可能已达到组织范围的五个团队限制，或者你的组织可能超过 10，000 个成员的当前大小限制。 我们想要在未来增加此限制。 对于 Teams 教育版，组织范围的团队不可用。
 > - 非会议室列表、设备和资源帐户的一部分可能会添加或同步到组织范围的团队。 团队所有者可轻松从团队中删除这些帐户。
 > - 系统添加或删除成员的所有操作均发布在常规频道中。 该频道还将在 Teams 客户端中标记为具有新活动。
-> - 如果你的组织是新用户，并且用户数不超过 5，000 Teams，我们会自动为组织创建组织范围的团队。 团队名称将反映租户名称，并且具有常规频道。 全局管理员可像任何其他团队一样编辑此团队。
+> - 如果你的组织是新用户且用户数不超过 5，000 Teams，我们会自动为组织创建组织范围的团队。 团队名称将反映租户名称，并且具有常规频道。 全局管理员可像任何其他团队一样编辑此团队。
 
 ## <a name="best-practices"></a>最佳做法
 
-若要在组织范围内最了解团队，建议团队所有者执行以下任务：
+若要在组织范围内最了解团队，我们建议团队所有者执行以下任务：
 
 ### <a name="allow-only-team-owners-to-post-to-the-general-channel"></a>仅允许团队所有者发布到常规频道
 
@@ -89,11 +89,11 @@ ms.locfileid: "60745608"
 
 ### <a name="remove-accounts-that-might-not-belong"></a>删除可能不属于成员的帐户
 
-即使成员无法离开组织范围的团队，作为团队所有者，您也可以通过删除不属于的帐户来管理团队名单。 **请确保使用 Teams 从组织范围的团队中删除用户**。 如果使用另一种方法删除用户（例如 Microsoft 365 管理中心 或 Outlook 中的组，用户可能会重新添加到组织范围的团队。
+即使成员无法离开组织范围的团队，作为团队所有者，您也可以通过删除不属于的帐户来管理团队名单。 **请确保使用 Teams 从组织范围的团队中删除用户**。 如果使用另一种方法删除用户（如 Microsoft 365 管理中心 或 Outlook 中的组，则用户可能会重新添加到组织范围的团队。
 
 ## <a name="faq"></a>常见问题
 
-### <a name="is-there-a-way-to-create-an-organization-wide-team-other-than-using-the-teams-client"></a>是否有一种方法可以创建组织范围的团队，而不是使用 Teams 客户端？
+### <a name="is-there-a-way-to-create-an-organization-wide-team-other-than-using-the-teams-client"></a>除了使用应用程序客户端，是否还有创建组织范围的Teams的方法？
 
 只有全局管理员可以使用全局客户端创建组织范围的Teams团队。 如果贵组织将创建团队限制为使用 PowerShell，则建议的解决方法是将全局管理员添加到可以创建团队的用户安全组中。
 
@@ -106,7 +106,7 @@ ms.locfileid: "60745608"
 
 ### <a name="is-there-a-way-to-convert-an-existing-team-to-an-organization-wide-team"></a>是否有方法可将现有团队转换为组织范围内的团队？
 
-全局管理员可以在客户端中编辑现有团队，将其转换为组织范围的Teams团队。 转到团队名称，单击“**更多选项**” > “**编辑团队**”。
+全局管理员可以在客户端中编辑现有团队，将其转换为Teams团队。 转到团队名称，单击“**更多选项**” > “**编辑团队**”。
 
 ### <a name="can-i-create-an-organization-wide-team-using-a-team-template"></a>我可以使用团队模板创建组织范围内的团队吗？
 

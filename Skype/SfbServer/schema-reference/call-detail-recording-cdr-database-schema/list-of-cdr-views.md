@@ -2,7 +2,7 @@
 title: CDR 视图列表
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 7/15/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 2f72aead-d1da-4185-b75c-f6c31d76a6b3
 description: 可通过视图轻松访问有关用于从 CDR 数据库返回数据的最常见方案的信息。 建议您使用视图来生成自定义报告，而不是使用实际的 CDR 数据库表;这是因为数据库视图更有可能保持与将来版本的向后兼容性。
-ms.openlocfilehash: 7154319dba584516dcff3c41d23e5af31bee4621
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 713e9bef620f36901031024395cc3b51898e433d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60746608"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60847055"
 ---
 # <a name="list-of-cdr-views"></a>CDR 视图列表
  

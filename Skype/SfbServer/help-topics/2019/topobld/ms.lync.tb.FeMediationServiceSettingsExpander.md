@@ -2,7 +2,7 @@
 title: 中介服务设置扩展器
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 142c1acd-cdaa-4922-8379-aa1bdf56a964
 ROBOTS: NOINDEX, NOFOLLOW
 description: 对于“中介服务器”，可以指定以下内容：
-ms.openlocfilehash: 32e8b2732a0b07a1934a4ce3d3b3f16a6d12d31c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 649f4ac74280564fc53182b9bf627f566781c2eb
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60764420"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850225"
 ---
 # <a name="mediation-service-settings-expander"></a>中介服务设置扩展器
 
@@ -34,4 +34,4 @@ ms.locfileid: "60764420"
 
 如果有多个网关与中介服务器关联，会将第一个关联的网关作为默认网关。如果需要选择其他网关作为默认网关，请选择要设为默认值的网关，然后单击“设为默认值”。若要取消选择网关作为默认网关，请单击“取消设为默认值”。
 
-有关定义和配置 Enterprise Edition 前端池或 Standard Edition 服务器设置的详细信息，请参阅定义和配置拓扑和部署中介服务器[](/previous-versions/office/lync-server-2013/lync-server-2013-defining-and-configuring-the-topology)和定义[对等方](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mediation-servers-and-defining-peers)。
+有关定义和配置 Enterprise Edition 前端池或 Standard Edition 服务器设置的详细信息，请参阅定义和配置拓扑和部署中介服务器[](/previous-versions/office/lync-server-2013/lync-server-2013-defining-and-configuring-the-topology)和[定义对等方](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mediation-servers-and-defining-peers)。

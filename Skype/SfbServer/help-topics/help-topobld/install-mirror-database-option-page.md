@@ -2,7 +2,7 @@
 title: 安装镜像数据库选项页
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 7500896a-14ea-4b11-aaee-be3d81314536
 description: 通过以下定义配置“镜像数据库设置”：
-ms.openlocfilehash: cfd32d4316bae824c0510f6ff921426dd161597c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 2869af0b7ca4d455fc2fe1aea973e8764cbe0be7
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60775032"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60847705"
 ---
 # <a name="install-mirror-database-option-page"></a>安装镜像数据库选项页
  
@@ -29,7 +29,7 @@ ms.locfileid: "60775032"
 - 键入 **文件共享的路径** 以定义要镜像的数据库SQL Server备份文件的位置。
     
     > [!NOTE]
-    > 主SQL Server实例 (命名实例或默认) 必须具有对此处定义的文件共享的写入权限。 镜像SQL Server实例 (命名实例或默认) 必须具有对同一文件共享的读取权限。 
+    > 主SQL Server实例 (命名实例或默认) 必须具有对此处定义的文件共享的写入权限。 镜像SQL Server实例 (命名实例或默认实例) 必须具有对同一文件共享的读取权限。 
   
   **确定** 接受更改并通过对话框提交更改。
   

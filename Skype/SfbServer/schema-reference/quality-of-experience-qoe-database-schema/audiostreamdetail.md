@@ -2,7 +2,7 @@
 title: AudioStreamDetail 视图
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b6a435b3-103c-41c4-96ed-33c3784534c0
 description: AudioStreamDetail 视图存储有关数据库中每个音频流的信息。 此视图在 Microsoft Lync Server 2013 中引入。
-ms.openlocfilehash: 3485ac8e8f2f38e7440ef723dfa40b3530589fc8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 2b75d803c75b0d936bf54e5b543ee39e18ee1896
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741858"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60847015"
 ---
 # <a name="audiostreamdetail-view"></a>AudioStreamDetail 视图
  
@@ -31,7 +31,7 @@ AudioStreamDetail 视图存储有关数据库中每个音频流的信息。 此�
 |StreamId  <br/> |int  <br/> |媒体行中的唯一 ID。  <br/> |
 |StartTime  <br/> |datetime  <br/> |会话的开始时间。  <br/> |
 |EndTime  <br/> |datetime  <br/> |会话的结束时间。  <br/> |
-|DialogCategory  <br/> |bit  <br/> |对话框类别：0 是Skype for Business Server中介服务器段;1 是中介服务器到 PSTN 网关的通道。  <br/> |
+|DialogCategory  <br/> |bit  <br/> |对话框类别：0 是Skype for Business Server的类别;1 是中介服务器到 PSTN 网关的通道。  <br/> |
 |MediationServerBypassFlag  <br/> |bit  <br/> |指示是否绕过呼叫的标志。  <br/> |
 |MediaBypassWarningFlag  <br/> |int  <br/> |如果存在，则指示为何即使绕过 ID 匹配，也未绕过呼叫。 只定义了一个值：  <br/> 0x0001 - 默认网络适配器的未知绕过 ID。  <br/> |
 |CallPriority  <br/> |int  <br/> |呼叫的优先级。  <br/> |
@@ -125,7 +125,7 @@ AudioStreamDetail 视图存储有关数据库中每个音频流的信息。 此�
 |CallerEchoPercentSend  <br/> |decimal (5，2)   <br/> |在呼叫者的发送流中检测到回声的时间百分比。 发送流的高回声百分比表示回声泄漏。  <br/> |
 |CallerRxAGCSignalLevel  <br/> |int  <br/> |从网关接收来自呼叫者音频的中介服务器的信号级别;这仅适用于中介服务器。 此指标的单位为 dBoV。 为获得良好的质量，可接受的范围应为 -30 到 -18 dBoV。  <br/> |
 |CallerRxAGCNoiseLevel  <br/> |int  <br/> |从网关接收来自呼叫者音频的中介服务器的信号级别。 这仅适用于中介服务器。 此指标的单位为 dBoV。 为保证良好的质量，可接受的范围应小于 -50 dBoV。  <br/> |
-|CallerRxAGCGain  <br/> |int  <br/> |自动增益 (应用于) 音频的中介服务器端的 AGC 设置。  <br/> |
+|CallerRxAGCGain  <br/> |int  <br/> |自动增益 (AGC) 应用于呼叫者音频的中介服务器端的 AGC 设置。  <br/> |
 |CallerInitialSignalLevelRMS  <br/> |float  <br/> |呼叫前 (30) 传入信号的根平均值平方和 RMS 值。  <br/> |
 |CalleeSendSignalLevel  <br/> |int  <br/> |表示被叫方发送的音频的模拟后增益控制音频信号级别。 此指标的单位为 dBmo。 对于可接受的质量，它应至少为 30 dBmo。 A/V 会议服务器或 IP 电话不报告此指标。  <br/> |
 |CalleeRecvSignalLevel  <br/> |int  <br/> |被叫方接收的音频的音频信号级别。 此指标的单位为 dBmo。 对于可接受的质量，它应至少为 30 dBmo。 A/V 会议服务器或 IP 电话不报告此指标。  <br/> |

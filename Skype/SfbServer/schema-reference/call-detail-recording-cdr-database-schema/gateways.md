@@ -2,7 +2,7 @@
 title: Skype for Business Server 2015 中的 Gateways 表
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: a909daad-d137-45e0-b149-1de9f8e1e029
 description: Gateways 表是一个支持表。 每条记录都存储有关公用电话交换网中涉及的一个网关的信息 (PSTN) 数据库中具有记录的呼叫。
-ms.openlocfilehash: 35b552239d272f47d1f21c0940620dda4e6f075d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 27f575163dc90e566013728f646689d883de6ef2
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777752"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60847105"
 ---
 # <a name="gateways-table-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的 Gateways 表
  

@@ -2,7 +2,7 @@
 title: 删除会议策略Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,18 +12,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 497e6ca0-7a49-4f3e-9804-14414cf87b57
 description: 摘要：了解如何删除 Skype for Business Server 中的会议策略。
-ms.openlocfilehash: d77910cb5fe39dcb47564b1b456a314ae03584a5
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 47138386812ddd401b7aa9edb54f5a619914f6fe
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773692"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60847375"
 ---
 # <a name="delete-conferencing-policies-in-skype-for-business-server"></a>删除会议策略Skype for Business Server
  
 **摘要：** 了解如何删除会议策略中的Skype for Business Server。
   
-可以使用控制面板或命令行管理Skype for Business Server删除会议Skype for Business Server策略。
+可以使用控制面板或命令行管理程序Skype for Business Server会议策略Skype for Business Server策略。
   
 ## <a name="delete-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>使用控制面板删除Skype for Business Server策略
 

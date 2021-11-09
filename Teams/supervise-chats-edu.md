@@ -1,6 +1,6 @@
 ---
 title: 使用监督聊天
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: angch
@@ -15,20 +15,20 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解会议中监督Microsoft Teams聊天。
-ms.openlocfilehash: 0d2b727ab28577e8d7d9ed6d935afeab38560d94
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: de22efdf314b03872d3d2c8e9b662b8c688349d5
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60748998"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848115"
 ---
-# <a name="supervised-chats-in-microsoft-teams"></a>在对话中监督Microsoft Teams
+# <a name="supervised-chats-in-microsoft-teams"></a>对话中的监督Microsoft Teams
 
-教育机构为学生提供安全、健康的数字空间。 数字空间包括电子邮件、联机会议和呼叫，以及电子邮件Teams。 为了防止不适当的消息传送行为，许多学校禁止在Teams。 遗憾的是，禁用聊天也会阻止教师私下联系学生进行个性化学习。 禁用聊天后，学生不希望在课堂团队中公开发布消息时，无法与教师联系。
+教育机构为学生提供安全、健康的数字空间。 数字空间包括电子邮件、联机会议和呼叫以及电子邮件Teams。 为了防止不适当的消息传送行为，许多学校禁止在Teams。 遗憾的是，禁用聊天也会阻止教师私下联系学生进行个性化学习。 禁用聊天后，学生不希望在课堂团队中公开发布消息时，无法与教师联系。
 
 监督式聊天允许指定的教师发起与学生的聊天，并阻止学生开始新聊天，除非有合适的教师。 启用聊天监督后，主管不允许离开聊天，不允许其他参与者删除聊天，从而确保涉及学生的聊天受到适当的监督。
 
-这些限制仅适用于在完全启用监督聊天后创建的新私人聊天。 它们不适用于现有私人聊天、会议聊天或频道。 若要详细了解会议聊天、频道安全和确保学生安全[的最佳](https://support.microsoft.com/topic/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8?ui=en-us&rs=en-us&ad=us#ID0EBBAAA=For_educators&ID0EDD=For_educators)做法，请观看使用视频时确保学生Teams。
+这些限制仅适用于在完全启用监督聊天后创建的新私人聊天。 它们不适用于现有私人聊天、会议聊天或频道。 若要了解有关会议聊天、频道安全和确保学生安全[最佳实践](https://support.microsoft.com/topic/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8?ui=en-us&rs=en-us&ad=us#ID0EBBAAA=For_educators&ID0EDD=For_educators)，请观看使用视频时确保学生Teams。
 
 > [!Note]
 > 监督聊天保护在强制实施该功能后创建的新聊天。  它不会保护现有聊天。
@@ -62,7 +62,7 @@ ms.locfileid: "60748998"
 
 若要设置用户的聊天权限角色，请使用管理员门户中消息策略选项内找到的聊天权限Teams策略。 可以使用 PowerShell 通过 ChatPermissionRole 策略定义角色，其值为 Full、Limited 或 Restricted。 此策略位于 CsTeamsMessagingPolicy 下。
 
-详细了解设置。 Teams策略请参阅Teams教育的策略和策略包和向大量用户分配策略指南。
+详细了解设置。 Teams策略请参阅Teams策略和策略包以及向大量用户分配策略指南。
 
 无法将角色分配给租户中的来宾。 为来宾分配受限角色。
 
@@ -86,4 +86,4 @@ ms.locfileid: "60748998"
 
 ## <a name="related-topics"></a>相关主题
 
-[针对教育Teams教师的监督聊天](https://support.microsoft.com/topic/supervised-chats-in-microsoft-teams-for-education-ad3aaafc-c85a-416f-95f9-d691f419cbb8?storagetype=live)
+[在教育中Teams监督聊天](https://support.microsoft.com/topic/supervised-chats-in-microsoft-teams-for-education-ad3aaafc-c85a-416f-95f9-d691f419cbb8?storagetype=live)

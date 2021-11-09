@@ -1,6 +1,6 @@
 ---
 title: 有关移植的信息
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: tonysmit,jastark
@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.voice.phonenumbers.porting.moreinfo
 description: 获取将电话号码移植到 Microsoft Teams。
-ms.openlocfilehash: 02023cc88fbab5b1063ed2734db500aa3c14aa9c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 362f7865f820e91e911791685293b7ca9c1786cd
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761750"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848175"
 ---
 # <a name="more-information-about-porting"></a>有关移植的信息
 
@@ -78,7 +78,7 @@ ms.locfileid: "60761750"
   
 ## <a name="whats-my-billing-telephone-number"></a>我的付费电话号码是什么？
 
-按 BTN (收费) 是帐单中包含的主电话号码，由服务提供商或运营商计费。 如果要从只有一个电话号码的帐户转移电话号码，则需要输入此电话号码。 如果要从具有多个帐户转移电话号码，可以查看帐单或联系服务提供商或运营商，确定您的帐户的 BTN 是什么。
+BTN (收费电话号码) 包含在帐单上且由服务提供商或运营商计费的主电话号码。 如果要从只有一个电话号码的帐户转移电话号码，则需要输入此电话号码。 如果要从具有多个帐户转移电话号码，可以查看帐单或联系服务提供商或运营商，确定您的帐户的 BTN 是什么。
 
 ## <a name="what-should-i-put-in-for-the-account-number"></a>我应该为帐号放入什么？
 

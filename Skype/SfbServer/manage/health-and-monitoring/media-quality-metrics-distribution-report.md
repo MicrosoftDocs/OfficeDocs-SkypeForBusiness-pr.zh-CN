@@ -2,7 +2,7 @@
 title: 媒体质量指标分布报告Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d07996e6-b0a5-4ff8-9512-ab707762b4e2
 description: 摘要：了解 Skype for Business Server 中的媒体质量指标分布报告。
-ms.openlocfilehash: 773dceacfc7ca955a893d740ef4832ee8d94cb0e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 00899681190e532af971c719c2e81f655facf7ab
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60746951"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862309"
 ---
 # <a name="the-media-quality-metrics-distribution-report-in-skype-for-business-server"></a>媒体质量指标分布报告Skype for Business Server 
  
-**摘要：** 了解企业中的媒体质量指标分布Skype for Business Server。
+**摘要：** 了解媒体质量指标分布报告中Skype for Business Server。
   
 通过媒体质量指标分布报告，你可以查看显示用户体验质量指标（如抖动或数据包丢失）的分布值的图形。 例如，假设用户总共拨打了 10 个电话;这 10 个呼叫报告以下往返时间：
   
@@ -30,7 +30,7 @@ ms.locfileid: "60746951"
 |1  <br/> |50  <br/> |
 |2  <br/> |50  <br/> |
 |3  <br/> |50  <br/> |
-|4   <br/> |50  <br/> |
+|4  <br/> |50  <br/> |
 |5  <br/> |50  <br/> |
 |6   <br/> |50  <br/> |
 |7   <br/> |50  <br/> |
@@ -38,7 +38,7 @@ ms.locfileid: "60746951"
 |9   <br/> |50  <br/> |
 |10   <br/> |50  <br/> |
    
-这些往返时间的平均时间为 500 毫秒 (5000 除以 10) 。 500 毫秒是一个非常大的往返时间;因此，你可能会认为网络拥塞是一个严重问题。  (往返时间长通常是网络超载) 
+这些往返时间的平均时间为 500 毫秒 (5000 除以 10) 。 500 毫秒是一个非常大的往返时间;因此，你可能会认为网络拥塞是一个严重问题。  (往返时间长通常是网络过载的结果。) 
   
 当然，实际上，90% 的呼叫具有出色的往返时间;您只有一个扭曲总体结果的错误调用。 如果您只查看平均往返时间，您可能会得出一个非常错误的结果。
   
