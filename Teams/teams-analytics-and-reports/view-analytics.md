@@ -1,6 +1,6 @@
 ---
-title: 在分析中查看Teams
-author: cichur
+title: 在 Teams 中查看Teams
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 audience: Admin
@@ -16,14 +16,14 @@ MS.collection:
 description: 了解 Teams 中的跨团队分析、按团队分析和按频道分析，让用户查看他们参与的团队或频道的使用情况数据。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 86c14b49de7b6ea8175d486aa86e03ceeff068c7
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1b682ebe6b6c759be067b98ad99f1d6d8e437480
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60742968"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831716"
 ---
-# <a name="view-analytics-in-teams"></a>在分析中查看Teams
+# <a name="view-analytics-in-teams"></a>在 Teams 中查看Teams
 
 在Microsoft Teams中，用户可以查看他们参与的团队和频道的分析。 此信息可让用户深入了解其团队中的使用模式和活动。 用户可以在三个级别查看活动用户数、帖子、回复等数据。
 
@@ -35,7 +35,7 @@ ms.locfileid: "60742968"
 
 ## <a name="view-cross-team-analytics"></a>查看跨团队分析
 
-1. 在Teams团队列表底部的"加入或创建团队"旁边，单击"**管理团队"。**
+1. 在Teams团队列表底部的"加入或创建团队"旁边，单击"**管理团队"。** 
 2. 单击" **分析"** 选项卡。
 3. 选择一个日期范围以显示你作为成员或所有者的所有团队的使用情况数据。
 
@@ -53,7 +53,7 @@ ms.locfileid: "60742968"
 
 ## <a name="view-per-team-analytics"></a>查看每个团队的分析
 
-1. 在Teams中，转到您想要的团队，单击"更多选项 **" (...) "，** 然后单击"**管理团队"。**
+1. 在Teams中，转到想要的团队，单击"更多选项 **" (...) "，** 然后单击"**管理团队"。**
 2. 单击" **分析"** 选项卡。
 4. 选择一个日期范围以显示团队的使用情况数据。  
 
@@ -61,7 +61,7 @@ ms.locfileid: "60742968"
 
     |项目 |说明  |
     |--------|-------------|
-    |**摘要**   |团队活动摘要，包括以下内容：<ul><li>**用户**：指定时间段的用户总数。 这包括团队所有者、团队成员和来宾。</li> <li>**帖子**：在指定的时段内在团队聊天中发布的新消息数。</li><li>**回复**：在指定的时段内，团队聊天中的回复数。</li> <li>**应用**：添加到团队的应用数。</li><li>**会议**：Teams团队级别的会议数。</li> </ul> |
+    |**摘要**   |团队活动摘要，包括以下内容：<ul><li>**用户**：指定时间段的用户总数。 这包括团队所有者、团队成员和来宾。</li> <li>**帖子**：在指定的时段内在团队聊天中发布的新消息数。</li><li>**回复**：在指定的时段内，团队聊天中的回复数。</li> <li>**应用**：添加到团队的应用数。</li><li>**会议**：Teams级别组织的会议数。</li> </ul> |
     |**活动用户**   |活动用户数和非活动用户数。|
     |**角色**   |按角色显示的用户数，包括团队所有者、团队成员和来宾。|
     |**活动用户** 图表  |每日活动次数。 将鼠标悬停在给定日期上的点上，以查看该日期的活动用户数。|

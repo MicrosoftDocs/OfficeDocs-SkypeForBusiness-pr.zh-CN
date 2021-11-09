@@ -2,7 +2,7 @@
 title: 配置客户端引导策略
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 45042eca-b845-4207-b12f-b8b7f5d44bdf
 description: 摘要：如何管理组策略。
-ms.openlocfilehash: 0cf5dedc464dfbfb542d41cbf0477011cd1fbfd4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 073bd23219b3fa0a39ed06a94a5ef0586a740e6d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751381"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831646"
 ---
 # <a name="configure-client-bootstrapping-policies"></a>配置客户端引导策略
  
@@ -39,10 +39,10 @@ ms.locfileid: "60751381"
 |DisableServerCheck (禁用服务器版本)   <br/> |如果此策略设置为 1，Skype for Business登录之前检查服务器名称和版本。 默认情况下，Skype for Business登录之前进行这些检查。  <br/> |
 |Enable using BITS to download Address Book Service files (EnableBitsForGalDownload)   <br/> |使Skype for Business可以使用后台智能传输服务 (BITS) 下载通讯簿服务文件。  <br/> |
 |Configure SIP security mode (EnableSIPHighSecurityMode)   <br/> |使Skype for Business可以更安全地发送和接收即时消息。 此策略对 Windows .NET 或 Microsoft Exchange Server 服务不起作用。  <br/> 如果未配置此策略设置，Skype for Business任何传输。 但是，如果它不使用 TLS，并且服务器对用户进行身份验证，Skype for Business必须使用 NTLM 或 Kerberos 身份验证。  <br/> |
-|GalDownloadInitialDelay (全局通讯簿下载初始)   <br/> |指定在 GAL 中下载全局地址列表 (的) 时间段。 默认值为 60 分钟，这意味着服务器将 GAL 文件的下载延迟 0 到 60 分钟之间的随机时间。  <br/> |
+|GalDownloadInitialDelay (全局通讯簿下载初始)   <br/> |指定在 GAL 中下载全局地址列表之前 () 时间段。 默认值为 60 分钟，这意味着服务器将 GAL 文件的下载延迟 0 到 60 分钟之间的随机时间。  <br/> |
 |阻止用户运行 Skype for Business (PreventRun)   <br/> |阻止用户运行Skype for Business。 可在“计算机配置”和“用户配置”中同时配置此策略设置，但“计算机配置”中的策略设置优先。  <br/> |
 |允许存储 SavePassword (用户)   <br/> |允许Skype for Business存储密码。  <br/> |
-|配置 SipCompression (SIP 压缩)   <br/> |指定何时打开 SIP 压缩。 默认情况下，根据适配器速度启用 SIP 压缩。 请注意，设置此策略可能会导致登录时间延长。  <br/> |
+|Configure SIP compression mode (SipCompression)   <br/> |指定何时打开 SIP 压缩。 默认情况下，根据适配器速度启用 SIP 压缩。 请注意，设置此策略可能会导致登录时间延长。  <br/> |
 |TrustModelData (受信任的域)   <br/> |列出与客户 SIP 域的前缀不匹配的受信任域。  <br/> |
    
 服务器上所配置的策略优先于用户所配置的组策略设置和客户端选项。下表汇总了在发生冲突时各个设置的优先顺序。
@@ -54,7 +54,7 @@ ms.locfileid: "60751381"
 |1  <br/> |Skype for Business Server带内设置  <br/> |
 |2  <br/> |HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\16.0\Lync  <br/> |
 |3  <br/> |HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Lync  <br/> |
-|4   <br/> |"选项"对话框Skype for Business  <br/> |
+|4  <br/> |"选项"对话框Skype for Business  <br/> |
    
 ### <a name="to-define-group-policy-settings-by-using-the-skype-for-business-administrative-template-files"></a>使用管理模板文件定义Skype for Business策略设置
 
@@ -65,7 +65,7 @@ ms.locfileid: "60751381"
     > [!NOTE]
     > 此过程假定您希望管理域中的多个计算机。 在这种情况下，将模板存储在主域控制器上 Sysvol 文件夹中的中央存储中。 这为域管理模板提供了中央存储位置的副本。 
   
-2. 为将使用的每种语言创建子文件夹。 这些子文件夹将包含特定语言的 ADML 资源文件。 例如，在此位置为美国英语 (EN-US) 子文件夹：
+2. 为将使用的每种语言创建子文件夹。 这些子文件夹将包含特定语言的 ADML 资源文件。 例如，在此位置创建美国英语 (EN-US) 子文件夹：
     
      `%systemroot%\sysvol\domain\policies\PolicyDefinitions\EN-US`
     

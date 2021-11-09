@@ -2,7 +2,7 @@
 title: Office Web Apps 服务器范围节点扩展器
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,21 +14,21 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: f934e076-1022-40cd-8a4a-0b90ccf6f2a6
 ROBOTS: NOINDEX, NOFOLLOW
-description: 右键单击Office生成器中的 Web Apps 服务器以执行下列操作：
-ms.openlocfilehash: 1230c983de7d3d5e12402f6bc7e076f9f0bca57f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 右键单击Office生成器中的 Web Apps 服务器以执行以下操作：
+ms.openlocfilehash: 31ef705099e89591011fe0be01f70dab6d89466b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60742309"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865109"
 ---
 # <a name="office-web-apps-server-scope-node-expander"></a>Office Web Apps Server 范围节点扩展器
  
-右键单击Office生成器中的 Web **Apps** 服务器以执行以下操作：
+右键单击Office生成器中的 Web **Apps** 服务器以执行下列操作：
   
 - **新建 Office Web Apps Server：** 启动"定义新的 **Office Web Apps Server"** 向导，该向导用于定义新的 Office Web Apps Server。
     
-除了"新建 web Office Web Apps 服务器"选项之外，还可以执行以下常规任务：
+除了"新建 web Office Web Apps Server"选项之外，还可以执行以下常规任务：
   
 ![OfficeWebApps 服务器范围节点。](../../../media/OfficeWebApps_Server_Scope_Node.jpg)
   

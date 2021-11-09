@@ -2,7 +2,7 @@
 title: Skype for Business Server 2015 中的持久聊天服务器容量规划
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/23/2018
 audience: ITPro
@@ -12,26 +12,26 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 7a850cd5-c789-4795-a8ff-083be21ae784
-description: 摘要：阅读本主题，了解 2015 年 2 月持久聊天Skype for Business Server容量规划。
-ms.openlocfilehash: afa8ecb47913d722a1e1049a549bc6ab2f3800ed
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 摘要：阅读本主题，了解 2015 年 10 月持久聊天Skype for Business Server容量规划。
+ms.openlocfilehash: 4b84d06a7b6c7f20f26d22ed5718da9abf8108d9
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777862"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834058"
 ---
 # <a name="capacity-planning-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的持久聊天服务器容量规划
  
-**摘要：** 阅读本主题，了解 2015 年 10 月持久聊天服务器Skype for Business Server规划。
+**摘要：** 阅读本主题以了解 2015 年 10 月持久聊天服务器Skype for Business Server规划。
   
-持久聊天服务器可以执行多用户实时聊天，这些聊天可以保留供将来检索和搜索。 与组即时消息 (IM) （如果配置了对话历史记录）不同，持久聊天服务器会话保持打开状态的时间更长，并且内容会与消息、文件、URL 以及作为当前对话一部分的其他数据一起保存到服务器上。
+持久聊天服务器可以执行多用户实时聊天，这些聊天可以保留供将来检索和搜索。 与组即时消息 (IM) 不同，如果配置了对话历史记录，则持久聊天服务器会话将保持打开状态更长时间，并且内容会与消息、文件、URL 以及作为正在进行的对话一部分的其他数据一起保存到服务器上。
   
 容量规划是准备部署持久聊天服务器的重要部分。 本主题提供了可用于确定部署的最佳配置的容量规划表。 本文还介绍如何最好地管理高峰时间需要更大容量的持久聊天服务器部署。
   
 在阅读本节之前，您应熟悉持久聊天拓扑。 有关详细信息，请参阅规划 [持久聊天服务器拓扑](topology.md)。
 
 > [!NOTE] 
-> 持久聊天在 2015 Skype for Business Server可用，但在 2019 年 2 月不再Skype for Business Server支持。 相同的功能在 Teams 中可用。 有关详细信息，请参阅开始[升级Microsoft Teams升级](/microsoftteams/upgrade-start-here)。 如果您需要使用持久聊天，您的选择是迁移需要此功能的用户以Teams或继续使用 Skype for Business Server 2015。 
+> 持久聊天在 2015 Skype for Business Server可用，但在 2019 年 2 月不再Skype for Business Server支持。 相同的功能在 Teams。 有关详细信息，请参阅开始[升级Microsoft Teams升级](/microsoftteams/upgrade-start-here)。 如果您需要使用持久聊天，则选择将需要此功能的用户迁移到 Teams，或者继续使用 Skype for Business Server 2015。 
   
 ## <a name="persistent-chat-server-capacity-planning"></a>持久聊天服务器容量规划
 
@@ -52,7 +52,7 @@ ms.locfileid: "60777862"
 **持久聊天服务器池最大容量示例**
 
 - 活动持久聊天服务实例：4  <br/> 
-- 持久聊天服务实例：最多 8 (4 个活动实例;4 必须处于非活动)   <br/>
+- 持久聊天服务实例： (8 个，最多可以有 4 个处于活动状态;4 必须处于非活动)   <br/>
 - 连接的活动用户数：80，000  <br/>
 - 已设置用户总数：150，000  <br/>
 - 终结点数：120，000  <br/>
@@ -76,10 +76,10 @@ ms.locfileid: "60777862"
 |大会堂聊天室 (其他演示者条目)    |0   |32   |5   ||
 |由直接成员身份管理的聊天室   |50%   |10%   |0%   ||
 |用户组管理的聊天室比率   |50%   |90%   |100%   ||
-|未明确指定开放式聊天室的每个聊天室 (中的用户组)    |0   |0   |0   ||
+|未明确指定开放式聊天室的每个聊天室 (列表中的用户组)    |0   |0   |0   ||
 |非开放式聊天室的每个聊天室的成员资格列表中的用户   |30   |150   |16,000   ||
 |非开放式聊天室的每个聊天室成员身份列表中的用户组   |3   |5   |10    ||
-|每个聊天室的管理者列表中的用户和用户组 (开放式和非开放式聊天室)    |6    |6    |6    ||
+|每个聊天室的管理者列表中的用户和用户组 (开放和非开放式聊天室)    |6    |6    |6    ||
 |每个大会堂聊天室的演示者列表中的用户和用户组 (开放式和非开放式聊天室)    |6    |6    |6    ||
 |所有非开放式聊天室中基于用户的成员身份实体   |465,600   |15,520   |-   ||
 |所有非开放式聊天室中基于用户组的成员身份实体   |46,560   |4656   |50   ||

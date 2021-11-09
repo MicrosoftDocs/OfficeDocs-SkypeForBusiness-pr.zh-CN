@@ -2,7 +2,7 @@
 title: 在部署中验证Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 audience: ITPro
 manager: serdars
 ms.topic: quickstart
@@ -15,22 +15,22 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 69837f86-d141-4884-a4ca-c7e7463afaad
 description: 摘要：了解如何验证边缘服务器或边缘服务器池的部署是否Skype for Business Server。
-ms.openlocfilehash: d3552d814a9b30433cbeb53674737563b11f8283
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b8a538d457c2f785d2bdff96dd379524c2df1a28
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771604"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60841924"
 ---
 # <a name="validate-your-edge-deployment-in-skype-for-business-server"></a>在部署中验证Skype for Business Server
  
-**摘要：** 了解如何验证边缘服务器或边缘服务器池的部署是否正在Skype for Business Server。
+**摘要：** 了解如何验证边缘服务器或边缘服务器池的部署是否Skype for Business Server。
   
 部署边缘服务器或边缘服务器池后，需要知道其是否正常工作。 以下是一些有助于确认边缘环境已连接到内部服务器，以及外部用户是否可以通过边缘连接到 Skype for Business Server 环境。
   
 ## <a name="verify-connectivity-between-your-internal-servers-and-your-edge-servers"></a>验证内部服务器和边缘服务器之间的连接
 
-在安装边缘服务器时，在边缘服务器或边缘服务器池中自动完成连接验证时，仍可使用 Windows PowerShell。 在具有中央Get-CsManagementStoreReplicationStatus存储的内部服务器上或安装了 Skype for Business Server Core Components (OcsCore.msi) 的任何加入域的计算机上运行) cmdlet。
+在安装边缘服务器后，在边缘服务器或边缘服务器池中自动完成连接验证时，仍可使用 Windows PowerShell。 在Get-CsManagementStoreReplicationStatus中央管理存储的内部服务器上，或在安装了 Skype for Business Server 核心组件 (OcsCore.msi) 加入域的计算机上运行) cmdlet。
   
 运行此命令的初始结果可能会为复制提供 False 状态，而不是 True。 如果发生这种情况，运行 Invoke-CsManagementStoreReplication cmdlet。 请给它一些时间来完成复制，然后再次Get-CsManagementStoreReplicationStatus cmdlet。
   

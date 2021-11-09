@@ -2,7 +2,7 @@
 title: 安全框架Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 01131e28-b38e-40d9-8524-06725b9c6608
 description: 本节概述了构成安全安全框架的基本Skype for Business Server。 了解这些元素如何协同工作对于做出有关保护特定部署部署的明智决定Skype for Business Server至关重要。
-ms.openlocfilehash: a560d903b2a08e6444e561cb0fcdd9da978edb0c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9b0947e488987df7e0250bef7ba0c59d1980c5a3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740338"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834038"
 ---
 # <a name="security-framework-for-skype-for-business-server"></a>安全框架Skype for Business Server
  
@@ -30,7 +30,7 @@ ms.locfileid: "60740338"
     
 - Role-Based访问控制 (RBAC) 使您能够在保持较高的安全标准的同时委派管理任务。
     
-- PKI (PKI) 使用受信任的证书颁发机构 (CA 颁发的) 验证服务器并确保数据完整性。
+- PKI (PKI) 使用受信任证书颁发机构颁发的证书 (CA) 验证服务器并确保数据完整性。
     
 - 传输层安全性 (TLS)、HTTPS over SSL (HTTPS) 和相互 TLS (MTLS) 可实现终结点身份验证和 IM 加密。点对点音频、视频和应用程序共享流使用安全实时传输协议 (SRTP) 进行加密。
     

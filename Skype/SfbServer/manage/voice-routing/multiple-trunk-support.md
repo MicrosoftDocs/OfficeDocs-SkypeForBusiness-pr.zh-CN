@@ -2,7 +2,7 @@
 title: 多个中继支持Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,18 +11,18 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Skype for Business Server支持网关和中介服务器之间的多个关联。 这些关联通过定义中继来建立，中继是中介服务器池与公用电话交换网 (PSTN) 网关、会话边界控制器 (SBC) 或 IP-PBX 之间的逻辑关联。 使用拓扑生成器将网关与中介服务器 (，即中继) 。
-ms.openlocfilehash: 8899eed746c8545233fd8e96efe9beeb1fc78ee6
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: aee1cdebba9780eb0079200cf6b0e0c1a5789535
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766420"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833348"
 ---
 # <a name="multiple-trunk-support-in-skype-for-business-server"></a>多个中继支持Skype for Business Server
 
 Skype for Business Server支持网关和中介服务器之间的多个关联。 这些关联通过定义中继来建立，中继是中介服务器池与公用电话交换网 (PSTN) 网关、会话边界控制器 (SBC) 或 IP-PBX 之间的逻辑关联。 使用拓扑生成器将网关与中介服务器 (，即中继) 。
 
-- 若要在拓扑中分配Skype for Business Server，必须先在拓扑生成器中定义中继。 中继包含以下关联：中介服务器完全限定域名 (FQDN) 、中介服务器侦听端口、网关 FQDN 和网关侦听端口。
+- 若要在拓扑生成器中分配Skype for Business Server，必须先在拓扑生成器中定义中继。 中继包含以下关联：中介服务器完全限定域名 (FQDN) 、中介服务器侦听端口、网关 FQDN 和网关侦听端口。
 - 若要配置多个中继，可以在同一网关和中介服务器之间创建多个关联。 这为 pbX 基础结构提供了企业语音恢复能力，在专用交换机和 PBX (互操作) 尤其有用。 
 
 定义中继，必须将其与路由关联。 若要将中继与路由关联，您可以在拓扑生成器中为中继定义一个简单名称。 此简单名称在控制面板中用作中继Skype for Business Server，其中中继可以与路由关联。 简单中继名称用作命令行管理程序中的Skype for Business Server名称。

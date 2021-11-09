@@ -2,7 +2,7 @@
 title: SQL 实例范围节点
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,17 +14,17 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 399dce5b-bd51-4693-89d9-3463c1d73ded
 ROBOTS: NOINDEX, NOFOLLOW
-description: "\"SQL存储\"节点列出了SQL Server中的数据库。 可以执行以下操作："
-ms.openlocfilehash: 22d46de950a01c5ee153e4af901b3f8383dc77eb
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: "\"SQL存储\"节点列出了SQL Server拓扑中的数据库。 可以执行以下操作："
+ms.openlocfilehash: d8fd04904dc0a9336f773b5c030025c8a1614c29
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766840"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858429"
 ---
 # <a name="sql-instances-scope-node"></a>SQL 实例范围节点
  
-**"SQL存储**"节点列出了SQL Server拓扑中的数据库。 可以执行以下操作：
+the **SQL stores** node lists the SQL Server databases in your topology. 可以执行以下操作：
   
 - **新建 SQL 存储**。 启动 **"定义SQL** 存储"向导，以向拓扑SQL Server新的数据库。
     

@@ -2,7 +2,7 @@
 title: 在Skype for Business 中自定义呼叫等待音乐
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,19 +15,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 3d78e6f9-a4ae-49f4-a89f-4515acb49dac
-description: 自定义呼叫管理中的呼叫保留音乐Skype for Business Server 企业语音。
-ms.openlocfilehash: 925749819a041ed451df816902dae8b932cffbbd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 自定义呼叫管理中的呼叫保留Skype for Business Server 企业语音。
+ms.openlocfilehash: 9a17bddf45911974687fb374e9fd5da65b94787c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753613"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865309"
 ---
 # <a name="customize-call-park-music-on-hold-inskype-for-business"></a>在Skype for Business 中自定义呼叫等待音乐
  
-自定义呼叫管理中的呼叫保留音乐Skype for Business Server 企业语音。
+自定义呼叫管理中的呼叫保留Skype for Business Server 企业语音。
   
-你可以指定自己的用于保持音乐的音乐文件，而不是默认音乐文件Skype for Business Server。 若要自定义保留音乐，请使用 **Set-CsCallParkServiceMusicOnHoldFile** cmdlet。
+你可以指定自己的音乐文件以用于保持音乐，而不是默认音乐文件Skype for Business Server。 若要自定义保留音乐，请使用 **Set-CsCallParkServiceMusicOnHoldFile** cmdlet。
   
 > [!NOTE]
 > 如果自定义保持音乐，并且希望多个站点具有相同的音乐，则必须为运行呼叫保留应用程序的每个站点配置音乐文件。 

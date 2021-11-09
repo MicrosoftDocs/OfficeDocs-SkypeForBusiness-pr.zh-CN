@@ -2,7 +2,7 @@
 title: 准备架构
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 337aa234-c5f3-4468-a047-2023848e942c
-description: 若要为 Active Directory 域服务准备架构，请运行部署向导中的"准备Skype for Business Server步骤。 单击“运行”可开始准备架构。 "准备架构"步骤读取运行部署向导的系统的 /Program Files/Microsoft Lync Server 2013/Deployment/Setup 目录中提供的架构定义文件。 这些文件还可用于支持/架构目录中的安装媒体。 “准备架构”步骤将扩展架构并报告准备过程的状态。 还将在完成准备过程时通知您。 通过摘要屏幕可以查看该过程的日志。 查看日志以确保准备工作已成功完成。
-ms.openlocfilehash: aabebbe8ccf3dc9ab2ac59f19eac015353e6def3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 若要为 Active Directory 域服务准备架构，请运行部署向导中的准备Skype for Business Server步骤。 单击“运行”可开始准备架构。 "准备架构"步骤读取运行部署向导的系统的 /Program Files/Microsoft Lync Server 2013/Deployment/Setup 目录中提供的架构定义文件。 这些文件还可用于支持/架构目录中的安装媒体。 “准备架构”步骤将扩展架构并报告准备过程的状态。 还将在完成准备过程时通知您。 通过摘要屏幕可以查看该过程的日志。 查看日志以确保准备工作已成功完成。
+ms.openlocfilehash: c4e1faa8a26fa74579d9c9177d2efbfda29fa40f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740908"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849045"
 ---
 # <a name="prepare-schema"></a>准备架构
  
-若要为 Active Directory 域服务准备架构，请运行部署向导中的"准备Skype for Business Server步骤。 单击“运行”可开始准备架构。 "准备架构"步骤读取运行部署向导的系统的 \Program Files\Microsoft Lync Server 2013\Deployment\Setup 目录中提供的架构定义文件。 安装介质的 \Support\Schema 目录中也提供了这些文件。 “准备架构”步骤将扩展架构并报告准备过程的状态。 还将在完成准备过程时通知您。 通过摘要屏幕可以查看该过程的日志。 查看日志以确保准备工作已成功完成。
+若要为 Active Directory 域服务准备架构，请运行部署向导中的准备Skype for Business Server步骤。 单击“运行”可开始准备架构。 "准备架构"步骤读取运行部署向导的系统的 \Program Files\Microsoft Lync Server 2013\Deployment\Setup 目录中提供的架构定义文件。 安装介质的 \Support\Schema 目录中也提供了这些文件。 “准备架构”步骤将扩展架构并报告准备过程的状态。 还将在完成准备过程时通知您。 通过摘要屏幕可以查看该过程的日志。 查看日志以确保准备工作已成功完成。
   
 > [!IMPORTANT]
 > 要扩展架构，必须以 Schema Admins 和 Enterprise Admins 组成员身份登录域。 

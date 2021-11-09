@@ -2,7 +2,7 @@
 title: 响应组创建新的或编辑现有的代理组
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 79eaaf6c-6928-4925-8220-c7ada6b37205
 description: 代理组定义可应答针对响应组（称为代理）的呼叫的人员以及应用于组中所有代理的设置。
-ms.openlocfilehash: 6b0d28bf9e8aa2ea0b995a0af08c7a608d56b327
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0c0342d59896176f8d46a74cd728c301a98ff4f6
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60757328"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859089"
 ---
 # <a name="response-groups-create-new-or-edit-existing-agent-group"></a>响应组：创建新的或编辑现有的代理组
 
@@ -40,7 +40,7 @@ ms.locfileid: "60757328"
 
   - 选择 **"** 正式"指定组中代理必须登录和注销。选择此选项后，代理将单击客户端中的菜单项以打开浏览器并显示用于登录和退出的网页控制台。
 
-- **警报 (秒)** 指定在将呼叫提供给下一个可用代理之前拨打代理的秒数。 该值必须至少为 10 秒且小于 180 秒。 默认值为 20 秒。
+- **警报时间 (秒)** 指定在将呼叫提供给下一个可用代理之前拨打代理的秒数。 该值必须至少为 10 秒且小于 180 秒。 默认值为 20 秒。
 
 - **路由方法** 选择用于确定代理接收呼叫的顺序的方法：
 

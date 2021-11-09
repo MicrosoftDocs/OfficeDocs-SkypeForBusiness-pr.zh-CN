@@ -2,7 +2,7 @@
 title: 用户和客户端身份验证Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 77f4b62a-f75c-424d-8f02-a6519090015d
 description: 受信任用户是凭据已由受信任服务器在 Skype for Business Server。 此服务器通常是 Standard Edition Server、Enterprise Edition 前端服务器或控制器。 Skype for Business Server Active Directory 域服务作为用户凭据的单一受信任后端存储库。
-ms.openlocfilehash: d256efdf69afce16a06b3b055a9446b29deb7cb0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c0c64bb269a80ca4241ec9f2d338817b05f1ff9d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60737638"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831826"
 ---
 # <a name="user-and-client-authentication-for-skype-for-business-server"></a>用户和客户端身份验证Skype for Business Server
  

@@ -2,7 +2,7 @@
 title: 添加存档 SQL Server 存储
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 26e0a748-e31d-4c66-b225-b37e0a45408f
 description: 存档服务器需要受支持的 64 位版本的 SQL Server 数据库软件来存储存档数据。 可以选择之前定义的 SQL Server 数据库进行存档，或者通过指定 SQL Server 数据库将驻留的服务器的完全限定域名 (FQDN) 以及要用于新数据库的 SQL Server 实例来定义新的 SQL Server 数据库SQL Server database (，可以是默认实例或您指定的命名) 。
-ms.openlocfilehash: 2a892801dc0d971f64585e2e532dd22863b62c8c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a0f2b40bcf5d24063c689bbc760a57b14b98ad28
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774182"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60832196"
 ---
 # <a name="add-archiving-server-sql-server-store"></a>添加存档 SQL Server 存储
 

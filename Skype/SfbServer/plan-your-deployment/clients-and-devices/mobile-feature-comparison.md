@@ -1,7 +1,7 @@
 ---
 title: 移动客户端功能比较Skype for Business
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
@@ -16,13 +16,13 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b2c950c9-76a5-400a-b146-9b1a22790c12
-description: 摘要：在规划移动客户端时查看对移动客户端Skype for Business Server。
-ms.openlocfilehash: 9b619219666a89e40870caf4cea80a683011775c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 摘要：在规划移动客户端功能支持的同时，检查Skype for Business Server。
+ms.openlocfilehash: f1bbb046827ef762f5def1d532089e9621c32b28
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759564"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834120"
 ---
 # <a name="mobile-client-feature-comparison-for-skype-for-business"></a>移动客户端功能比较Skype for Business
  
@@ -50,7 +50,7 @@ ms.locfileid: "60759564"
     
 -  新式验证
     
-下表列出了可供 Skype for Business本地部署中的用户使用的功能Skype for Business Server。 相同的功能也可供 Skype for Business Online 和 Microsoft 365 或 Office 365 用户使用，除非表脚注中另有说明。
+下表列出了可供 Skype for Business 内部部署中的用户使用的功能Skype for Business Server。 相同的功能也可供 Skype for Business Online 和 Microsoft 365 或 Office 365 用户使用，除非表脚注中另有说明。
   
 > [!NOTE]
 > 有关最终用户的联机帮助和资源，请参阅[发现Skype for Business。](https://go.microsoft.com/fwlink/p/?LinkId=528686) 
@@ -83,12 +83,12 @@ ms.locfileid: "60759564"
   
  &#x2777;仅在应用内。
   
- &#x2778;应用在后台运行时，"通知"可用。
+ &#x2778;在后台运行时，"通知"可用。
  
  &#x2779; Google/Android/GCNS 和 Apple/APNS 移动通知服务均使用 HTTPS/TLS 加密传递通知。 通知有效负载在通知提供程序处理时以纯文本处理。
  
 -   Android版Skype for Business接收通过 GCNS (传递的简单) 无客户数据。
--   Skype for Business iOS 接收通过 APNS (发送的通知) 其中可能包含呼叫或邮件的客户数据。
+-   Skype for Business iOS (通过 APNS) 发送的通知，其中可能包含呼叫或邮件的客户数据。
  
   
 ## <a name="enhanced-presence-support"></a>增强状态支持
@@ -102,7 +102,7 @@ ms.locfileid: "60759564"
 |添加自定义位置  <br/> |&#x2714;||||
 |添加自定义注释  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |根据日历闲/忙信息发布状态  <br/> |&#x2714; &#x2776; ||||
-|设置手动状态 (，如忙碌、请勿打扰等)   <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|设置手动状态 (如忙碌、请勿打扰等)   <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
    
  &#x2776; Skype for Business客户端不会根据用户的忙/闲日历信息更新用户状态。 如果移动客户端用户还登录到 Skype for Business 桌面客户端，桌面客户端将基于用户的忙/闲日历信息更新用户状态。 如果用户仅登录到移动客户端，则用户状态不会基于忙/闲日历信息进行更新。
   
@@ -174,14 +174,14 @@ ms.locfileid: "60759564"
 |共享桌面或程序  <br/> |&#x2714;||||
 |查看 VbSS 或 RDP (共享桌面或)   <br/> |&#x2714;|&#x2714; &#x2777; |&#x2714; &#x2777; |&#x2714; &#x2777; |
 |查看共享PowerPoint文件  <br/> |&#x2714;|&#x2714; &#x2777; |&#x2714; &#x2777;&#x2778; |&#x2714; &#x2777; &#x2778;|
-|Upload和PowerPoint文件  <br/> |&#x2714;||&#x2714; &#x2777; |&#x2714; &#x2777; |
-|使用会议工具 (白板、进行投票、共享)   <br/> |&#x2714;||||
+|Upload并PowerPoint文件  <br/> |&#x2714;||&#x2714; &#x2777; |&#x2714; &#x2777; |
+|使用会议 (白板、进行投票、共享文件)   <br/> |&#x2714;||||
 |导航您的会议列表  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |即使没有帐户，也Skype for Business会议  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |查看有关会议参与者详细信息  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |直接从客户端或设备启动与多个参与者的未计划组对话  <br/> |&#x2714;|&#x2714;|&#x2714;||
    
- &#x2776;对于Microsoft 365或Office 365用户，此功能企业语音 E5 许可证的一部分。
+ &#x2776; 对于Microsoft 365或Office 365用户，此功能企业语音 E5 许可证的一部分。
   
  &#x2777;需要 WiFi 连接。
  
@@ -206,7 +206,7 @@ ms.locfileid: "60759564"
 |访问语音邮件  <br/> |&#x2714;|&#x2714;|&#x2714;||
 |在键盘中Skype for Business  <br/> |&#x2714; &#x2776; |&#x2714;|&#x2714;||
    
- &#x2776; Online Skype for Business/或 Office 365 E5 用户，以及位于 Skype for Business Server 或 Lync Server 2013 上且启用了 企业语音 的用户。
+ &#x2776;联机Skype for Business/或 Office 365 E5 用户，以及位于 Skype for Business Server 或 Lync Server 2013 上且启用了 企业语音 的用户。
   
  &#x2777;对于 Skype for Business Online 和/或 Microsoft 365 或 Office 365 用户，Microsoft 合作伙伴支持此功能。
   

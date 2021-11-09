@@ -2,7 +2,7 @@
 title: 添加持久聊天合规性备份 SQL Server 存储
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -14,29 +14,29 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 358b74bd-a97d-4f28-9bed-af633ea0099e
-description: 配置将为持久聊天SQL Server持久聊天服务器或持久聊天服务器合规性存储提供备份数据库的备份SQL Server数据库。
-ms.openlocfilehash: 8d70a8f82c58d0a66fef00695b3677305e5e6a9e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 配置将为持久聊天服务器SQL Server持久聊天服务器或持久聊天服务器合规性数据库的备份SQL Server数据库。
+ms.openlocfilehash: 818fda030415f8b1274b3dadf2ceed000f40a16d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60747858"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857669"
 ---
 # <a name="add-persistent-chat-compliance-backup-sql-server-store"></a>添加持久聊天合规性备份 SQL Server 存储
  
-配置将为持久聊天SQL Server持久聊天服务器或持久聊天服务器合规性存储提供备份数据库的备份SQL Server数据库。
+配置将为持久聊天服务器SQL Server持久聊天服务器或持久聊天服务器合规性数据库的备份SQL Server数据库。
   
- **SQL Server存储**：选择现有SQL Server和可选的持久聊天实例。
+ **SQL Server存储**：选择现有SQL Server持久聊天的实例（可选）。
   
-单击 **"** 新建"定义SQL Server持久聊天备份合规性数据的新实例（可选）。
+单击 **"** 新建"以定义SQL Server持久聊天备份合规性数据的新实例（可选）。
   
 选中"**启用SQL Server存储镜像**"复选框以配置将为持久聊天备份合规性数据提供镜像数据库的 SQL Server 数据库和可选实例。
   
-从列表"**镜像**"SQL Server存储SQL Server和可选实例以用作持久聊天SQL Server合规性策略的镜像SQL Server。
+从列表"**镜像** SQL Server存储SQL Server和可选实例，以充当持久SQL Server备份合规性策略的镜像SQL Server。
   
 单击 **"** 新建"以定义SQL Server持久聊天策略镜像的新实例SQL Server实例。
   
-从“使用 SQL Server 镜像见证启用自动故障转移”列表选择一个 SQL Server，用作故障转移情况下的见证服务器。 见证服务器不镜像或承载持久聊天服务器的数据，但确保SQL Server配置中只有一个服务器SQL Server处于活动状态。
+从“使用 SQL Server 镜像见证启用自动故障转移”列表选择一个 SQL Server，用作故障转移情况下的见证服务器。 见证服务器不镜像或承载持久聊天服务器的数据，但确保SQL Server配置中只有一个服务器是SQL Server处于活动状态。
   
 单击 **"** 新建"定义新的SQL Server（可选）见证镜像见证中的持久聊天备份合规性SQL Server实例。
   

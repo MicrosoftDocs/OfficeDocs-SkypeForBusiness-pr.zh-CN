@@ -2,7 +2,7 @@
 title: 语音用法策略
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,15 +15,15 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: cf6a2441-d8ad-4e45-8049-8d83f1fb5f28
 description: 有关可以使用控制面板执行的不同过程的详细信息，请参阅 Manage Skype for Business Server 2015（Skype for Business Server 2015）。
-ms.openlocfilehash: bafffb0200c70702dd6c630ed4f71e1670ceea52
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: fcf5c96f16985acecc822ab1133ad56e0d867eea
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60755141"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857689"
 ---
 # <a name="voice-usage-policy"></a>语音用法策略
  
-有关可以使用控制面板执行的不同过程的详细信息，请参阅 Manage [Skype for Business Server Skype for Business Server 2015](../../manage/manage.md)。
+有关可以使用控制面板执行的不同过程的详细信息，Skype for Business Server Manage [Skype for Business Server 2015](../../manage/manage.md)。
   
 

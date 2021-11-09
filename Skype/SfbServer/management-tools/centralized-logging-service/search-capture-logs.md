@@ -2,7 +2,7 @@
 title: 搜索由 Skype for Business Server 2015 中的集中日志记录服务创建的捕获日志
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1b75b218-d84f-47a7-8a0a-b7e016b1cc79
 description: 摘要：了解如何在 Skype for Business Server 2015 中搜索和读取集中日志记录服务捕获日志。
-ms.openlocfilehash: e5a1935b5c2bfcfccd0001adab53d04f6d8a1307
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a65fac6ffc96088cd1e544ed17914128d040e2b6
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766330"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831916"
 ---
 # <a name="search-capture-logs-created-by-the-centralized-logging-service-in-skype-for-business-server-2015"></a>搜索由 Skype for Business Server 2015 中的集中日志记录服务创建的捕获日志
  
@@ -39,7 +39,7 @@ ms.locfileid: "60766330"
   
 为了从集中日志记录服务中获益，您需要深入了解如何配置搜索以仅返回与所研究问题相关的计算机和池日志中的跟踪消息。 问题
   
-若要使用 Skype for Business Server 命令行管理程序运行集中日志记录服务搜索功能，您必须是基于 CsAdministrator 或 CsServerAdministrator 角色的访问控制 (RBAC) 安全组的成员，或者是包含这两个组之一的自定义 RBAC 角色。 要返回分配了此 cmdlet 的所有 RBAC 角色的列表 (包括您自己创建的任何自定义 RBAC 角色) ，请从 Skype for Business Server 命令行管理程序 或 Windows PowerShell 提示符运行以下命令：
+若要使用 Skype for Business Server 命令行管理程序运行集中日志记录服务搜索功能，您必须是基于 CsAdministrator 或 CsServerAdministrator 角色的访问控制 (RBAC) 安全组的成员，或者是包含这两个组之一的自定义 RBAC 角色。 若要返回分配了此 cmdlet 的所有 RBAC 角色的列表 (包括您自己创建的任何自定义 RBAC 角色) ，请从 Skype for Business Server 命令行管理程序或 Windows PowerShell 提示符运行以下命令：
   
 ```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Skype for Business Server 2015 cmdlet"}
@@ -64,7 +64,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
    ```
 
 > [!NOTE]
-> 默认情况下，Search-CsClsLogging 将搜索结果发送至控制台。 如果要将搜索结果保存到文件，请使用 -OutputFilePath  _\<string fully qualified file path\>_ 。 若要定义 -OutputFilePath 参数，请以引号括在一起字符串格式提供路径和文件名作为参数的一 (例如;C:\LogFiles\SearchOutput.txt) 。 在此示例中，必须确保目录 C:\LogFiles 存在，并且您有权在该文件夹中读取和写入（NTFS 权限修改）文件。 输出将进行追加而不会被覆盖。 如果需要不同文件，请为每个搜索定义不同文件名。 
+> 默认情况下，Search-CsClsLogging 将搜索结果发送至控制台。 如果要将搜索结果保存到文件，请使用 -OutputFilePath  _\<string fully qualified file path\>_ 。 若要定义 -OutputFilePath 参数，请以用引号括起（例如）的字符串格式提供路径和文件名 (作为参数的一部分;C:\LogFiles\SearchOutput.txt) 。 在此示例中，必须确保目录 C:\LogFiles 存在，并且您有权在该文件夹中读取和写入（NTFS 权限修改）文件。 输出将进行追加而不会被覆盖。 如果需要不同文件，请为每个搜索定义不同文件名。 
   
 例如：
     
@@ -186,7 +186,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 1. 要使用 Snooper 并打开日志文件，您需要具有日志文件的读取权限。要使用 Snooper 并访问日志文件，您必须是基于 CsAdministrator 或 CsServerAdministrator 角色的访问控制 (RBAC) 安全组的成员，或者是包含这两个组之一的自定义 RBAC 角色。 
     
-2. 安装调试工具 (LyncDebugTools.msi) 后，使用 Snooper.exe 资源管理器Windows命令行将目录更改为 Windows 的位置。 默认情况下，调试工具位于 C：\Program Files\Skype for Business Server 2015\Debugging Tools 中。 双击或运行 Snooper.exe。
+2. 安装调试工具 (LyncDebugTools.msi) 后，使用 Snooper.exe 资源管理器Windows命令行将目录更改为 Snooper.exe 的位置。 默认情况下，调试工具位于 C：\Program Files\Skype for Business Server 2015\Debugging Tools 中。 双击或运行 Snooper.exe。
     
 3. 打开 Snooper 后，右键单击“文件”，单击“打开文件”，查找日志文件，在“打开”对话框中选择文件，然后单击“打开”。
     

@@ -1,13 +1,13 @@
 ---
 title: Microsoft Teams转换电子邮件和调查|基本升级
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: 示例电子邮件和调查，通过加速的十步操作计划在 conjunciton 中用于从 Skype for Business Teams
+description: 示例电子邮件和调查，用于通过加速的十步操作计划从 Skype for Business 升级到 Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4bda42ca439268a4d1e14c8b10d26e0dcea38332
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6b88a8030b2e808f95e8601147acce9cfa31da33
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760360"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60841994"
 ---
 # <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>升级基本通信的示例电子邮件和调查
 
@@ -84,7 +84,7 @@ If you have questions or need help, please reach out to <<insert company support
 
 ### <a name="remind-users-email-for-step-6"></a>提醒用户有关步骤 6 的电子邮件
 
-主题行：提醒：准备好升级到Teams
+主题行：提醒：准备好升级到 Teams
 
 ```
 ACTION REQUIRED: Host your next online meeting in Teams
@@ -205,8 +205,8 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 | &nbsp; | 非常熟练 | 有点熟练 | 完全不熟练 | 想要了解更多信息 | 不适用 | 不确定/不熟悉 |&nbsp; | &nbsp;|&nbsp; |&nbsp; |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 使用Teams其他人进行即时消息/聊天 | | | | | | | | | | |
-| 使用Teams联机会议 | | | | | | | | | | |
+| 使用Teams进行即时消息/与他人聊天 | | | | | | | | | | |
+| 将Teams用于联机会议 | | | | | | | | | | |
 | 使用Teams团队和频道 (协作)  | | | | | | | | | | |
 | 在Teams设备上使用 | | | | | | | | | | |
 

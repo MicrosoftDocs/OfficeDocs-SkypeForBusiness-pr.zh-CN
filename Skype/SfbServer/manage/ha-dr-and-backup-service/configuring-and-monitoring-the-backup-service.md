@@ -1,7 +1,7 @@
 ---
 title: 配置和监控备份服务
 ms.reviewer: ''
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 可以使用命令行Skype for Business Server命令行管理程序命令来配置和监视备份服务。
-ms.openlocfilehash: f50f8ab13c2013505beace71f7e35cbc7674777c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0881d40ca639edf825b0af104981ceddcab6e87a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60747040"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60832016"
 ---
 # <a name="configuring-and-monitoring-the-backup-service-in-skype-for-business-server"></a>配置和监视备份服务Skype for Business Server
 

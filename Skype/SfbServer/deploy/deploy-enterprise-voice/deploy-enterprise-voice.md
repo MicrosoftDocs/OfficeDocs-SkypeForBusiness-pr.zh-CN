@@ -2,7 +2,7 @@
 title: 在企业语音部署Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b5b593a6-ac30-461c-8c8c-0041e2c9ab04
 description: 摘要：了解如何在中央企业语音部署Skype for Business Server部署部署。
-ms.openlocfilehash: df2926bc0d425057431db68e9800763f6f49d4d2
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4073850d9583e5bd28d573ad73b0acdaaca0943f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765890"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833818"
 ---
 # <a name="deploy-enterprise-voice-in-skype-for-business-server"></a>在企业语音部署Skype for Business Server
 
@@ -29,7 +29,7 @@ ms.locfileid: "60765890"
 
 使用本主题在企业语音部署网站。 若要在企业语音部署分支站点，请跳到部署[分支站点](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-branch-sites)。
 
-本节包括部署过程，其中中介服务器根据建议并位于每台前端服务器或 Standard Edition 服务器上，还适用于具有独立中介服务器池的部署。如果使用拓扑生成器定义和发布在每台前端服务器或 Standard Edition 服务器上并排中介服务器的拓扑，可以跳过以下内容，因为在为前端服务器池或 Standard Edition 服务器安装文件时，部署向导已自动为中介服务器安装文件：
+本节包括部署过程，其中根据建议将中介服务器并位于每台前端服务器或 Standard Edition 服务器上，以及用于具有独立中介服务器池的部署。如果使用拓扑生成器定义和发布在每台前端服务器或 Standard Edition 服务器上并排中介服务器的拓扑，则您可以跳过以下内容，因为当您为前端服务器池或 Standard Edition 服务器安装文件时，部署向导已自动为中介服务器安装文件：
 ## <a name="in-this-section"></a>本节内容
 
 - [在部署中企业语音和Skype for Business Server](enterprise-voice-security.md)
@@ -48,18 +48,18 @@ ms.locfileid: "60765890"
 
 - [在演示文稿中为名为 ID 演示文稿的转换规则Skype for Business Server](called-id-presentation-rules.md)
 
-- [创建或修改规范化规则Skype for Business](normalization-rules.md)
+- [在规则创建或修改规范化Skype for Business](normalization-rules.md)
 
 - [在拨号计划中创建或修改Skype for Business Server](dial-plans.md)
 
 - [在呼叫中配置语音策略、PSTN 用法记录和Skype for Business](voice-and-pstn.md)
 
-- [在用户企业语音中Skype for Business Server](enable-users-for-enterprise-voice.md)
+- [为用户启用企业语音Skype for Business Server](enable-users-for-enterprise-voice.md)
 
 - [在 企业语音 中部署高级Skype for Business Server](deploy-advanced-enterprise-voice-features.md)
 
-- [在 Skype for Business 中部署呼叫管理功能](deploy-call-management-features.md)
+- [在呼叫管理中心中部署Skype for Business](deploy-call-management-features.md)
 
 ## <a name="see-also"></a>另请参阅
 
-[在企业语音中Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
+[规划企业语音Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)

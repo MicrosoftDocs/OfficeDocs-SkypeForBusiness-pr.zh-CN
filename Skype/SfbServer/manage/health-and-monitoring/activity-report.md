@@ -2,7 +2,7 @@
 title: 会议活动报告中Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 22ddb509-af16-4fc8-9b98-6f58caa6f37e
 description: 摘要：了解会议活动报告中Skype for Business Server。
-ms.openlocfilehash: fcbe28d031abc7803cd8b84a67c3baeef42eff08
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c136bfaeb40a9b84c2861332636916353856855f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774942"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849925"
 ---
 # <a name="conference-activity-report-in-skype-for-business-server"></a>会议活动报告中Skype for Business Server
  
-**摘要：** 了解会议活动报告在会议Skype for Business Server。
+**摘要：** 了解会议活动报告中Skype for Business Server。
   
 会议活动报告使你能够轻松回答类似这样的问题：每天要召开多少场会议，以及何时召开这些会议？ 这样的信息不仅对自身有用，而且用作疑难解答工具。 例如，假设用户抱怨在一天中网络看上去特别慢。 快速浏览会议活动报告可能会建议一个可能的原因：在上午 10：00 到下午 2：00 之间安排的会议将远超过任何其他时间。
   
@@ -55,7 +55,7 @@ ms.locfileid: "60774942"
 |:-----|:-----|
 |**From** <br/> |时间范围的开始日期/时间。若要按小时查看数据，请输入开始日期和时间，如下所示：  <br/> 7/7/2015 1：00 PM  <br/> 如果您未输入开始时间，该报告会自动将某个特定日的上午 12:00 作为开始时间。若要按日查看数据，请只输入日期：  <br/> 7/7/2015  <br/> 若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：  <br/> 7/3/2015  <br/> 一周始终是从星期日开始至星期六结束。  <br/> |
 |**To** <br/> |时间范围的结束日期/时间。若要按小时查看数据，请输入结束日期和时间，如下所示：  <br/> 7/7/2015 1：00 PM  <br/> 如果您未输入结束时间，该报告会自动将某个特定日的上午 12:00 作为结束时间。若要按日查看数据，请只输入日期：  <br/> 7/7/2015  <br/> 若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：  <br/> 7/3/2015  <br/> 一周始终是从星期日开始至星期六结束。  <br/> |
-|**Interval** <br/> | 时间间隔。选择下列任意选项： <br/>  每小时（最多可显示 25 个小时） <br/>  每天（最多可显示 31 天） <br/>  每周（最多可显示 12 周） <br/>  每月（最多可显示 12 个月） <br/>  如果开始日期和结束日期超出了所选间隔允许的最长时间，则仅显示最长时间（从开始日期开始）。 例如，如果您选择开始日期为 2015/7/7 和结束日期为 2015/2/28 的"每天"间隔， 显示 2015 年 8 月 7 日上午 12：00 到 2015 年 9 月 7 日上午 12：00 (即总共 31 天的数据) 。 <br/> |
+|**Interval** <br/> | 时间间隔。选择下列任意选项： <br/>  每小时（最多可显示 25 个小时） <br/>  每天（最多可显示 31 天） <br/>  每周（最多可显示 12 周） <br/>  每月（最多可显示 12 个月） <br/>  如果开始日期和结束日期超出了所选间隔允许的最长时间，则仅显示最长时间（从开始日期开始）。 例如， 如果您选择开始日期为 2015/7/7、结束日期为 2015/2/28 的"每天"间隔，则会显示从 2015 年 8 月 7 日上午 12：00 到 2015 年 9 月 7 日上午 12：00 (即总共 31 天的数据) 。 <br/> |
 |**报告依据** <br/> | 指示要在报告中使用的值。可选择下列选项之一： <br/>  参与者计数 <br/>  参与分钟数 <br/>  会议计数 <br/> |
    
 ## <a name="metrics-for-conferences-by-pool"></a>按池分类的会议的指标

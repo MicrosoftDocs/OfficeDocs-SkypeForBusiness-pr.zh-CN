@@ -1,8 +1,8 @@
 ---
-title: 通话质量仪表板 (CQD) API Skype for Business Server
+title: 通话质量仪表板的存储库 API (中) CQD Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,14 +13,14 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d53e990f-1c5f-46d1-9eb1-8396782c2753
 description: 摘要：了解通话质量仪表板的存储库 API。 通话质量仪表板是一种用于Skype for Business Server。
-ms.openlocfilehash: 21765c4766e7fc729988f2b8ba23241175a96584
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e050ecd4367f2d63febf376e42f435c5ec6850f8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759694"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849885"
 ---
-# <a name="repository-api-for-call-quality-dashboard-cqd-in-skype-for-business-server"></a>通话质量仪表板 (CQD) API Skype for Business Server
+# <a name="repository-api-for-call-quality-dashboard-cqd-in-skype-for-business-server"></a>通话质量仪表板的存储库 API (中) CQD Skype for Business Server
  
 **摘要：** 了解通话质量仪表板存储库 API。 通话质量仪表板是一种用于Skype for Business Server。
   
@@ -50,7 +50,7 @@ ms.locfileid: "60759694"
     
   **跨源资源共享 (CORS) 存储库 API 支持**
   
-存储库 API 支持跨源资源共享 (CORS) 。 CORS 是一项 HTTP 功能，它使在一个域下运行的 Web 应用程序可以访问另一个域中的资源。 Web 浏览器实现一个称为同源 [策略](https://www.w3.org/Security/wiki/Same_Origin_Policy) 同源策略的安全限制，阻止网页调用其他域中的 API。 CORS 提供了一种安全的方法，允许源域 (一个) 域中调用 API。 有关 [CORS 的详细信息，请参阅 CORS](https://www.w3.org/TR/cors/) 规范。
+存储库 API 支持跨源资源共享 (CORS) 。 CORS 是一项 HTTP 功能，它使在一个域下运行的 Web 应用程序可以访问另一个域中的资源。 Web 浏览器实现了一个称为同源 [策略](https://www.w3.org/Security/wiki/Same_Origin_Policy) 同源策略的安全限制，可防止网页调用其他域中的 API。 CORS 提供了一种安全的方法，允许源域 (一个) 域中调用 API。 有关 [CORS 的详细信息，请参阅 CORS](https://www.w3.org/TR/cors/) 规范。
   
  **为存储库 API 启用 CORS**
   

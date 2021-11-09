@@ -2,7 +2,7 @@
 title: 添加 VIS 下一个跃点
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 8c25449d-375b-477b-b8d0-ed19e6775906
 description: 在拓扑生成器中定义新的 VIS 或视频网关所需的步骤在 2015 年 10 月创建 VIS 池Skype for Business Server联机介绍。
-ms.openlocfilehash: e6833cb9d5b405584b9972f94fa23980809ab27e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 44da1b6bead7ba1fb31875a8bbc7302fcd9bf2c7
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773972"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857599"
 ---
 # <a name="add-vis-next-hop"></a>添加 VIS 下一个跃点
  
@@ -32,7 +32,7 @@ Deploy [the VIS server role in Skype for Business Server 2015](../../deploy/depl
   
  在 Configure [CUCM for Interoperation with Skype for Business Server 2015](../../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md)中联机介绍了需要在 Cisco GUI 中设置用于与 VIS 互操作的视频网关的设置。
   
- 在 Configure [a VTC for Interoperation with Skype for Business Server 2015](../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md)中联机介绍了需要在 Cisco GUI 中设置用于与视频网关和 VIS 互操作 VTC 的设置。
+ 在 Configure [a VTC for Interoperation with Skype for Business Server 2015](../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md)中联机介绍了需要在 Cisco GUI 中设置的用于与视频网关和 VIS 进行互操作的 VTC 设置。
   
 ## <a name="see-also"></a>另请参阅
 

@@ -1,6 +1,6 @@
 ---
-title: 自定义应用中Microsoft Teams
-author: cichur
+title: 在应用中自定义Microsoft Teams
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: v-tbasra
@@ -18,14 +18,14 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何在应用中自定义Microsoft Teams。
-ms.openlocfilehash: 21baefe7a75c869ed8d401d19f948526b31d615c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ca0f7b090669304553159979af3983b7f21de284
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60749621"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831736"
 ---
-# <a name="customize-apps-in-microsoft-teams"></a>自定义应用中Microsoft Teams
+# <a name="customize-apps-in-microsoft-teams"></a>在应用中自定义Microsoft Teams
 
  Microsoft Teams提供应用自定义，以增强Teams体验。 某些应用开发人员允许应用由管理员Teams自定义。管理员可以使用管理中心"管理应用"页，根据组织需求自定义或Teams **品牌**。 可以自定义的详细信息包括：
 
@@ -87,7 +87,7 @@ ms.locfileid: "60749621"
 
 5. 展开" **图标"** 部分。
 
-   1. Upload图标。 使用一个全颜色图标 (192x192) PNG 格式的像素。
+   1. Upload图标。 使用一个全彩色图标 (192x192) PNG 格式的像素。
 
    1. 选择图标轮廓颜色。 使用一个透明 (32x32) PNG 格式的像素。
 
@@ -101,7 +101,7 @@ ms.locfileid: "60749621"
 
    自定义应用现在列在"管理应用 **"页** 中。 你将只有一个版本的应用，因为自定义应用功能不会创建应用的副本。
 
-现在Teams最终用户可以打开其Teams客户端以查看自定义应用。
+现在Teams最终用户可以打开其 Teams 客户端以查看自定义应用。
 
    ![客户端中的Teams应用。](media/contoso-app.png)
 
@@ -155,7 +155,7 @@ ms.locfileid: "60749621"
 
 **应用提供商是否可为客户自定义应用？**
 
- 否，租户管理员需要使用管理中心为租户Teams应用。
+ 否，租户的管理员需要使用管理中心为租户Teams应用。
 
 **自定义应用会自动部署以替换租户中的当前自定义应用吗？**
 
@@ -167,7 +167,7 @@ ms.locfileid: "60749621"
 
 **可以使用应用自定义功能自定义哪些应用？**
 
-只能自定义应用发布者允许自定义的应用。 应用发布者需要选择加入以允许其客户自定义应用。
+只能自定义应用发布者允许自定义的应用。 应用发布者将需要选择加入以允许其客户自定义应用。
 
 **自定义属性会显示在图形权限许可屏幕上吗？**
 

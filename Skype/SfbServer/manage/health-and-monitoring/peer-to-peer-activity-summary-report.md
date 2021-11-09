@@ -1,8 +1,8 @@
 ---
-title: 企业中的点对点活动摘要Skype for Business Server
+title: Skype for Business Server 中的对等活动摘要Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,18 +12,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e829a21e-9dfa-46ba-9b5b-077c175d6586
 description: 摘要：了解 Skype for Business Server 中的对等活动摘要报告。
-ms.openlocfilehash: 0614e113ad258bd66f436d0dc74106ddd35a26cd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 876d12b74fa34d745a7e94d31ecc19997f337e40
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774822"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831986"
 ---
-# <a name="peer-to-peer-activity-summary-report-in-skype-for-business-server"></a>企业中的点对点活动摘要Skype for Business Server
+# <a name="peer-to-peer-activity-summary-report-in-skype-for-business-server"></a>Skype for Business Server 中的对等活动摘要Skype for Business Server
  
 **摘要：** 了解 Skype for Business Server 中的对等活动摘要报告。
   
-点对点活动摘要报告提供点对点通信会话的整体视图。 对等会话通常仅涉及两个用户，并且不需要使用 Skype for Business Server会议服务。 相比之下，会议通常涉及两名以上用户，并且需要使用Skype for Business Server会议服务。 会议活动在会议摘要报告上进行报告。
+点对点活动摘要报告提供点对点通信会话的整体视图。 对等会话通常仅涉及两个用户，并且不需要使用 Skype for Business Server会议服务。 相比之下，会议通常涉及两名以上用户，并且要求使用Skype for Business Server会议服务。 会议活动在会议摘要报告上进行报告。
   
 点对点活动摘要报告帮助您回答诸如下列问题：
   
@@ -35,7 +35,7 @@ ms.locfileid: "60774822"
     
 ## <a name="accessing-the-peer-to-peer-activity-summary-report"></a>访问点对点活动摘要报告
 
-可从监视报告主页访问点对点活动摘要报告。 通过单击[以下指标](im-report.md)之一，Skype for Business Server中打开对等 IM 报告：
+可从监视报告主页访问点对点活动摘要报告。 通过单击[以下指标之一](im-report.md)，Skype for Business Server中打开对等 IM 报告：
   
 - 对等 IM 会话总数
     
@@ -67,7 +67,7 @@ ms.locfileid: "60774822"
 |:-----|:-----|
 |**From** <br/> |时间范围的开始日期和时间。若要按小时查看数据，请输入开始日期和时间，如下所示：  <br/> 7/17/12015 1：00 PM  <br/> 如果您未输入开始时间，该报告会自动将某个特定日的上午 12:00 作为开始时间。若要按日查看数据，请只输入日期：  <br/> 7/17/12015  <br/> 若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：  <br/> 7/13/2015  <br/> 一周始终是从星期日开始至星期六结束。  <br/> |
 |**To** <br/> |时间范围的结束日期和时间。若要按小时查看数据，请输入结束日期和时间，如下所示：  <br/> 7/17/12015 1：00 PM  <br/> 如果您未输入结束时间，该报告会自动将某个特定日的上午 12:00 作为结束时间。若要按日查看数据，请只输入日期：  <br/> 7/17/12015  <br/> 若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：  <br/> 7/13/2015  <br/> 一周始终是从星期日开始至星期六结束。  <br/> |
-|**Interval** <br/> | 时间间隔。选择下列选项之一： <br/>  每小时（最多可显示 25 个小时） <br/>  每天（最多可显示 31 天） <br/>  每周（最多可显示 12 周） <br/>  每月（最多可显示 12 个月） <br/>  如果开始日期和结束日期超出了所选间隔允许的最长时间，则仅显示最长时间（从开始日期开始）。 例如，如果您选择开始日期为 2015/7/17、结束日期为 2015/2/28 的"每天"间隔， 数据显示在 2015 年 8 月 7 日上午 12：00 到 12015 年 9 月 7 日上午 12：00 (即总共 31 天的数据) 。 <br/> |
+|**Interval** <br/> | 时间间隔。选择下列选项之一： <br/>  每小时（最多可显示 25 个小时） <br/>  每天（最多可显示 31 天） <br/>  每周（最多可显示 12 周） <br/>  每月（最多可显示 12 个月） <br/>  如果开始日期和结束日期超出了所选间隔允许的最长时间，则仅显示最长时间（从开始日期开始）。 例如，如果您选择开始日期为 2015/7/17、结束日期为 2015/2/28 的"每天"间隔， 显示 8/7/12015 12：00 AM 到 9/7/12015 12：00 AM (即总共 31 天的数据) 。 <br/> |
    
 ## <a name="metrics"></a>度量标准
 

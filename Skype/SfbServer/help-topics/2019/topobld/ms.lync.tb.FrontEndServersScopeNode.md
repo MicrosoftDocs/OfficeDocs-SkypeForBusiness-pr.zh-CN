@@ -2,7 +2,7 @@
 title: 前端服务器范围节点
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 99c8c4b6-eb12-4c6b-b32c-3977d17fc8fa
 ROBOTS: NOINDEX, NOFOLLOW
 description: “Enterprise Edition 前端池”节点列出了此站点中的前端池，“Standard Edition 前端服务器”节点列出了此站点中的 Standard Edition Server。可以执行以下操作：
-ms.openlocfilehash: 9330da7eb3778f2cdfdd4ff3493c57c82f085dfd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1b2b662ef79f5d9ee12d668d1cf3b81f6e4e0807
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60752461"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849115"
 ---
 # <a name="front-end-servers-scope-node"></a>前端服务器范围节点
  

@@ -2,7 +2,7 @@
 title: 旧版合并结果
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 0ef58717-a7ce-4451-a6f3-1fe5a850ab31
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要开始将旧部署与 Skype for Business Server合并，请单击"下一步"。 有关运行拓扑生成器合并向导的详细信息，请参阅迁移文档中的 Merge Using Topology Builder Merge Wizard。
-ms.openlocfilehash: 4fc5dc60aee7efb8f8c5ed4c8dab5873252387f3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ccde62e2c840d791785c49e3b20f2ff12bd58b9e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778512"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842124"
 ---
 # <a name="legacy-merge-results"></a>旧版合并结果
 

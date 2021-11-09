@@ -2,7 +2,7 @@
 title: Active Directory 域服务Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 5483afd5-d8af-4825-ae95-a82dbe941dbf
 description: Active Directory 域服务用作 Windows Server 2003、Windows Server 2008、Windows Server 2012 和 Windows Server 2012 R2 网络的目录服务。 Active Directory 域服务还可用作构建Skype for Business Server基础结构的基础。 本节旨在介绍用户Skype for Business Server Active Directory 域服务为 IM、Web 会议、媒体和语音创建可信赖的环境。 有关为 Active Directory 域服务准备环境的详细信息，请参阅Skype for Business Server安装域服务。 有关 Active Directory 域服务在 Windows Server 网络中的角色的详细信息，请参阅正在使用的操作系统版本相应的文档。
-ms.openlocfilehash: 496abf7f0210a1663c1158da56c8fb1cce66f068
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a96d2691513ae98195856f717b338a98e589a28e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759464"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859009"
 ---
 # <a name="active-directory-domain-services-for-skype-for-business-server"></a>Active Directory 域服务Skype for Business Server
  
@@ -28,7 +28,7 @@ Skype for Business Server Active Directory 域服务存储：
   
 - 林中所有运行Skype for Business Server服务器都需要的全局设置。
     
-- 标识林中所有运行服务器角色Skype for Business Server的服务信息。
+- 标识林中所有运行服务器Skype for Business Server的服务信息。
     
 - 一些用户设置。
     
@@ -48,16 +48,16 @@ Active Directory 的基础结构要求包括以下各项：
 
 在准备林期间，Skype for Business Server Active Directory 域服务内创建各种通用组，这些通用组有权访问和管理全局设置和服务。 这些通用组包括：
   
-- **管理组**。 这些组定义网络网络的基本Skype for Business Server角色。 在林准备过程中，这些管理员组将添加到Skype for Business Server组。
+- **管理组**。 这些组定义网络的基本管理员Skype for Business Server角色。 在林准备过程中，这些管理员组将添加到Skype for Business Server组。
     
-- **服务组**。 这些组是访问由组织提供的各种服务所需的Skype for Business Server。
+- **服务组**。 这些组是访问由组织提供的各种服务所需的服务Skype for Business Server。
     
 - **基础结构组**。 这些组提供访问基础结构的特定区域Skype for Business Server权限。 这些基础结构组将用作管理组的组件，不应修改这些基础结构组或直接向其中添加用户。 在林准备过程中，特定服务组和管理组将添加到相应的基础结构组中。
     
-有关为 Skype for Business Server 准备 AD 时创建的特定通用组以及添加到基础结构组的服务组和管理组的详细信息，请参阅部署文档中[的 Skype for Business Server](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md)中的林准备所做的更改。
+有关为 Skype for Business Server 准备 AD 时创建的特定通用组以及添加到基础结构组的服务组和管理组的详细信息，请参阅部署文档中的 changes made by [forest preparation in Skype for Business Server。](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md)
   
 > [!NOTE]
-> Skype for Business Server支持 Windows Server 2012 中的通用组，Windows支持域控制器的 Windows Server 2003 操作系统。 通用组的成员可包括域树或林中的任何域中的其他组和帐户，并且可将域树或林中的任何域中的权限分配给这些成员。 通用组支持与管理员委派相结合，简化了对部署Skype for Business Server管理。 例如，不必将一个域添加到另一个域，管理员即可同时管理这两个域。 
+> Skype for Business Server支持 Windows Server 2012 中的通用组，Windows Server 2003 操作系统支持域控制器。 通用组的成员可包括域树或林中的任何域中的其他组和帐户，并且可将域树或林中的任何域中的权限分配给这些成员。 通用组支持与管理员委派相结合，简化了对Skype for Business Server管理。 例如，不必将一个域添加到另一个域，管理员即可同时管理这两个域。 
   
 ## <a name="role-based-access-control"></a>基于角色的访问控制
 
@@ -85,11 +85,11 @@ Active Directory 的基础结构要求包括以下各项：
     
 ## <a name="service-connection-points"></a>服务连接点
 
-Active Directory 域服务中的Skype for Business Server对象都有一个称为 RTC 服务的 SCP，而 SCP 又包含许多标识每台计算机并指定其提供的服务的属性。 在更重要的 SCP 属性中，有 serviceDNSName、serviceDNSNameType、serviceClassname 和 *serviceBindingInformation* 。    第三方资产管理应用程序可以通过针对上述 SCP 属性和其他 SCP 属性进行查询来检索部署中的服务器信息。
+Active Directory 域服务中Skype for Business Server对象都有一个称为 RTC 服务的 SCP，而 SCP 又包含许多标识每台计算机并指定其提供的服务的属性。 在更重要的 SCP 属性中，有 serviceDNSName、serviceDNSNameType、serviceClassname 和 *serviceBindingInformation* 。    第三方资产管理应用程序可以通过针对上述 SCP 属性和其他 SCP 属性进行查询来检索部署中的服务器信息。
   
 ## <a name="active-directory-server-objects"></a>Active Directory 服务器对象
 
-每个Skype for Business Server角色都有一个对应的 Active Directory 对象，该对象的属性定义了该角色提供的服务。 此外，当激活 Standard Edition 服务器或创建 Enterprise Edition 池时，Skype for Business Server 将在 **msRTCSIP-Pools 容器中创建新的 msRTCSIP-Pool** 对象。  **msRTCSIP-Pool** 类指定池的完全限定域名 (FQDN) ，以及池的前端组件和后端组件之间的关联。  (服务器Standard Edition视为一个逻辑池，其前端和后端并排在单个计算机上。) 
+每个Skype for Business Server角色都有一个对应的 Active Directory 对象，该对象的属性定义了该角色提供的服务。 此外，当激活 Standard Edition 服务器或创建 Enterprise Edition 池时，Skype for Business Server 将在 **msRTCSIP-Pools 容器中创建新的 msRTCSIP-Pool** 对象。  **msRTCSIP-Pool** 类指定池的完全限定域名 (FQDN) ，以及池的前端组件和后端组件之间的关联。  (将Standard Edition服务器视为一个逻辑池，其前端和后端并排在单个计算机上。) 
   
 ## <a name="trusted-servers"></a>受信任的服务器
 

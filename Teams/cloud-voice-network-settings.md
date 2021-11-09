@@ -1,6 +1,6 @@
 ---
 title: 云语音功能的网络设置
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: conceptual
@@ -18,16 +18,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2165ea1e4e9732f0e840b4f0949b230f5243121d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 862d696024baa75feefbbae7e4458caad22b5566
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769940"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833978"
 ---
 # <a name="network-settings-for-cloud-voice-features-in-microsoft-teams"></a>云语音功能的网络设置Microsoft Teams
 
-了解网络区域、网络站点、网络子网和受信任的 IP 地址。 这些术语和概念将在整个云语音文档中用于 [直接](location-based-routing-plan.md) 路由和动态紧急呼叫的基于位置 [的路由](configure-dynamic-emergency-calling.md)。 如果要在组织中部署这些云功能，则必须配置网络设置，以在 Microsoft Teams 中使用这些Microsoft Teams。
+了解网络区域、网络站点、网络子网和受信任的 IP 地址。 这些术语和概念将在整个云语音文档中用于 [直接](location-based-routing-plan.md) 路由和动态紧急呼叫的基于位置 [的路由](configure-dynamic-emergency-calling.md)。 如果要在组织中部署这些云功能，则必须配置网络设置，以与 Microsoft Teams 中的这些功能一Microsoft Teams。
 
 本文概述了路由和动态紧急呼叫Location-Based网络设置。 根据要部署的云语音功能，可以配置其中一些或所有设置。 有关配置这些设置的步骤，请参阅[管理](manage-your-network-topology.md)云功能的网络拓扑Teams。
 
@@ -38,7 +38,7 @@ ms.locfileid: "60769940"
 
 网络区域包含网络站点的集合。 它跨多个地理区域互连网络的各个部分。 例如，如果您的组织有许多位于印度的网站，您可以选择将"印度"指定为网络区域。 每个网络站点必须与网络区域相关联。
 
-同一网络区域由直接路由Location-Based增强型紧急服务的路由共享。 如果已针对一项功能创建了网络区域，则不必为另一项功能创建新的网络区域。
+对于直接路由和增强型紧急服务Location-Based路由共享相同的网络区域。 如果已针对一项功能创建了网络区域，则不必为另一项功能创建新的网络区域。
 
 ## <a name="network-site"></a>网络站点
 
@@ -52,7 +52,7 @@ ms.locfileid: "60769940"
 
 子网信息用于确定启动新会话时终结点所在的网络站点。 当知道会话中每一方的位置时，云语音功能可以应用该信息来确定如何处理呼叫设置或路由。
 
-对于每个网络站点，请与网络管理员合作，确定哪些 IP 子网分配给每个网络站点。 例如，可为北美区域中的纽约站点分配以下 IP 子网：172.29.80.0/23、157.57.216.0/25、172.29.91.0/23、172.29.81.0/24。 如果常在 Office 中工作的 Bob 前往纽约办公室接受培训，打开他的计算机并连接到网络，则他的计算机将在分配给纽约四个范围之一（例如 172.29.80.103）中获取 IP 地址。
+对于每个网络站点，请与网络管理员合作，确定哪些 IP 子网分配给每个网络站点。 例如，可为北美区域中的纽约站点分配以下 IP 子网：172.29.80.0/23、157.57.216.0/25、172.29.91.0/23、172.29.81.0/24。 如果常在 Office 中工作的 Bob 前往纽约办公室接受培训，打开他的计算机并连接到网络，则他的计算机将获取分配给纽约四个范围之一的 IP 地址，例如 172.29.80.103。
 
 ## <a name="trusted-ip-address"></a>受信任的 IP 地址
 

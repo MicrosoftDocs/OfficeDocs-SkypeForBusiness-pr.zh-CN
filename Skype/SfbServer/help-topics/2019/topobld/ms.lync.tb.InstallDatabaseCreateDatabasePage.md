@@ -2,7 +2,7 @@
 title: 安装和创建数据库
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 515754ad-1344-42dc-8219-ee973de2e4c4
 ROBOTS: NOINDEX, NOFOLLOW
 description: 选择要为部署创建的数据库。 默认情况下，将在已定义网站中定义的 SQL Server 上创建数据库，并基于要放置数据库的 SQL Server自动部署和配置数据库文件。
-ms.openlocfilehash: 86e5b83a32eef00f331b00ea2ca45344f707cb8a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9dd5e0f0ce800489ab937feae1cda68809540d81
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761160"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849105"
 ---
 # <a name="install-and-create-databases"></a>安装和创建数据库
 
@@ -29,11 +29,11 @@ ms.locfileid: "60761160"
  **选择要创建的数据库**：选中要部署和配置的任何数据库的复选框。 选中要部署的任何或所有数据库的复选框。
 
 > [!CAUTION]
-> 如果必须SQL Server防火墙端口以适应要部署数据库的实例 (则必须为实例端口配置) 。 有关详细信息，请参阅配置[SQL Server](/previous-versions/office/lync-server-2013/lync-server-2013-configure-sql-server-for-lync-server)
+> 如果必须SQL Server任何 (和防火墙端口以适应要部署数据库的实例，则必须为实例 () 配置该端口。 有关详细信息，请参阅配置[SQL Server](/previous-versions/office/lync-server-2013/lync-server-2013-configure-sql-server-for-lync-server)
 
- **高级**：单击SQL Server然后单击"**高级**"按钮以选择数据库中数据库文件位置SQL Server。 有关高级数据库文件放置的详细信息，请参阅 Database [Installation Using Lync Server Management Shell](/previous-versions/office/lync-server-2013/lync-server-2013-database-installation-using-lync-server-management-shell)
+ **高级**：单击SQL Server然后单击"高级"按钮以选择数据库中数据库文件位置SQL Server。 有关高级数据库文件放置的详细信息，请参阅 Database [Installation Using Lync Server Management Shell](/previous-versions/office/lync-server-2013/lync-server-2013-database-installation-using-lync-server-management-shell)
 
- **返回**：单击此按钮将返回到上一 (可能并不总是可用，根据你到达此对话框) 。
+ **返回**：单击此按钮将返回到上一个 (可能并不总是可用，根据你到达此对话框) 。
 
  **Next**： Clicking this button commits your selection on the current dialog and takes you to the next dialog for configuring additional information
 

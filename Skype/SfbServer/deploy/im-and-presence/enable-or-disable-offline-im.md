@@ -1,8 +1,8 @@
 ---
-title: 启用或禁用脱机即时消息 (即时消息) 即时消息Skype for Business Server
+title: 启用或禁用脱机即时消息 (即时消息) IM Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,20 +12,20 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c0f44352-fb4a-45d3-85b0-a4320d4b8339
 description: 了解如何在客户端中启用或禁用 (即时消息) IM Skype for Business Server。
-ms.openlocfilehash: 36894fb2a1ed11428b21b572a28e9ac177a4237d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: aace1ca45c224ce6ef6c7d6d6f151ecd3ab9b260
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753324"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858629"
 ---
-# <a name="enable-or-disable-offline-instant-messaging-im-in-skype-for-business-server"></a>启用或禁用脱机即时消息 (即时消息) 即时消息Skype for Business Server
+# <a name="enable-or-disable-offline-instant-messaging-im-in-skype-for-business-server"></a>启用或禁用脱机即时消息 (即时消息) IM Skype for Business Server
  
 了解如何在客户端中启用或禁用 (即时消息) IM Skype for Business Server。
   
 ## <a name="enable-offline-instant-messaging-im-in-skype-for-business-server"></a>在客户端中启用 (即时消息) IM Skype for Business Server
 
-脱机 IM 是内置在 Skype for Business 客户端 (2016 C2R 内部版本 16.0.6701.1000 或更高版本) 中的客户端功能，它利用 Exchange Web 服务 (EWS) 将邮件从 Skype for Business 客户端发送到用户的 Exchange 邮箱。 脱机 IM 使用 Exchange Web (EWS) 将脱机消息从 Skype for Business 客户端发送到收件人的邮箱。 EWS 必须可用于 Skype for Business 客户端，以发送脱机消息。 若要了解有关规划即时消息和状态的信息，请参阅规划即时消息[和](../../plan-your-deployment/instant-messaging-and-presence.md)状态Skype for Business Server。
+脱机 IM 是内置在 Skype for Business 客户端 (2016 C2R 内部版本 16.0.6701.1000 或更高版本) 中的客户端功能，它利用 Exchange Web 服务 (EWS) 从 Skype for Business 客户端向用户的 Exchange 邮箱发送邮件。 脱机 IM 使用 Exchange Web (EWS) 将脱机消息从 Skype for Business 客户端发送到收件人的邮箱。 EWS 必须可用于 Skype for Business 客户端，以发送脱机消息。 若要了解有关规划即时消息和状态的信息，请参阅在 Skype for Business Server 中规划[即时消息和Skype for Business Server。](../../plan-your-deployment/instant-messaging-and-presence.md)
   
 > [!NOTE]
 > 如果用户邮箱托管在本地 Exchange 中，则 Skype for Business 客户端 (2016 C2R 内部版本 16.0.6920.1000) 是必需的 
@@ -51,7 +51,7 @@ ms.locfileid: "60753324"
 
 ## <a name="offline-im-integration-with-exchange"></a>脱机 IM 与 Exchange
 
-如果发件人具有禁用将脱机消息自动保存到对话历史记录文件夹的客户端策略，则发件人将 (EnableIMAutoArchiving = $false) 。 没有机制可检查收件人能否接收脱机邮件。
+如果发件人的客户端策略禁止将脱机消息自动保存至 EnableIMAutoArchiving = (对话历史记录文件夹，则发件人将$false) 。 没有机制可检查收件人能否接收脱机邮件。
   
 对于在同一组织内发送的脱机消息，这些消息作为 IM.Note.MissedConversation 邮件类别的电子邮件接收，并且将包含在 Outlook 错过的对话文件夹中，以及对话历史记录（将在 Skype for Business 客户端的最近列表/对话历史记录选项卡中选取）。
   

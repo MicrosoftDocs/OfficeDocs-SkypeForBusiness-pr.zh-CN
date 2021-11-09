@@ -2,7 +2,7 @@
 title: 用户查看或配置存档策略
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: b1d6ec29-178e-4325-8901-ee6cf0e91759
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: eb947a2e151dd9e7df4a26bf47cfed3a8ab5b2a5
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7aef5ab88493de0001f10ea2a227727cdbe38b40
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60776552"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857709"
 ---
 # <a name="users-view-or-configure-archiving-policy"></a>用户：查看或配置存档策略
 

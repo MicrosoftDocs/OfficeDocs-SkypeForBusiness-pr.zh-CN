@@ -2,7 +2,7 @@
 title: 在呼叫中配置多个Skype for Business
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -14,17 +14,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 2e869df0-5fdb-4e70-bd81-cb012556eb1a
-description: 阅读本主题，了解如何在呼叫中配置多个Skype for Business Server。
-ms.openlocfilehash: c8776ed65de04e19525d1b220022f47bee58754e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 阅读本主题，了解如何在 Skype for Business Server 中配置多个紧急Skype for Business Server。
+ms.openlocfilehash: d79a57e64d52bfc6b0f1d8ee9a9bd9c3c1509658
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769670"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833908"
 ---
 # <a name="configure-multiple-emergency-numbers-in-skype-for-business"></a>在呼叫中配置多个Skype for Business
 
-阅读本主题，了解如何在呼叫中配置多个Skype for Business Server。
+阅读本主题，了解如何在 Skype for Business Server 中配置多个紧急Skype for Business Server。
 
 Skype for Business Server现在支持客户端的多个紧急号码。 多个紧急号码是 2016 年 6 月累积更新中引入的新功能。 在将环境配置为支持多个紧急号码之前，请务必阅读规划多个紧急号码[Skype for Business Server。](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md)
 

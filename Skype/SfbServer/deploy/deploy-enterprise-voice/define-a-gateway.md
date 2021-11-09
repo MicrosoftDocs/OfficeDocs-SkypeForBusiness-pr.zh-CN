@@ -2,7 +2,7 @@
 title: 在拓扑生成器中定义Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 456e5a96-d9f6-42a6-862c-a69464391628
 description: 摘要：了解如何在拓扑生成器中定义 PSTN Skype for Business Server。
-ms.openlocfilehash: c3ea9b02f39b3ef93c7c725735599a3940f33641
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 2e8a69fb1a884597f4e6ecde1a3811a88982d13e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753603"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857949"
 ---
 # <a name="define-a-gateway-in-topology-builder-in-skype-for-business-server"></a>在拓扑生成器中定义Skype for Business Server
  
@@ -31,13 +31,13 @@ ms.locfileid: "60753603"
   
 ### <a name="to-define-a-peer-for-the-mediation-server"></a>定义中介服务器的对等方
 
-1. 启动拓扑生成器：单击"开始"，单击"所有程序"，Skype for Business Server **2015"，** 然后单击"Skype for Business Server **2015Topology Builder"。**
+1. 启动拓扑生成器：单击"开始"，单击 **"所有程序**"，Skype for Business Server **2015"，** 然后单击"Skype for Business Server **2015Topology Builder"。**
     
 2. 在Skype for Business Server名称"共享组件"下，右键单击 **"PSTN 网关**"节点，然后单击"新建 **PSTN 网关"。**
 3. 在“定义新的 IP/PSTN 网关”中，键入对等方的完全限定域名 (FQDN) 或 IP 地址，然后单击“下一步”。
     
     > [!NOTE]
-    > 如果将传输层安全性 (TLS) 指定为传输类型，则必须指定 FQDN，而不是中介服务器的对等方 IP 地址。 
+    > 如果指定传输层安全性 (TLS) 作为传输类型，则必须指定 FQDN，而不是中介服务器的对等方 IP 地址。 
   
 4. 定义新的 PSTN 网关的 IP 地址的侦听模式（IPv4 或 IPv6），然后单击“下一步”。
 
@@ -49,7 +49,7 @@ ms.locfileid: "60753603"
     
      - 在删除关联的 PSTN 网关之前，无法删除根中继。
     
-6. 在 **"IP/PSTN** 网关的侦听端口"下，键入网关、PBX 或 SBC 用于来自中介服务器的 SIP 消息的侦听端口，这些 SIP 消息将与该 PSTN 网关的根中继相关联。  (默认情况下，PSTN 网关、PBX 或 SBC 上的传输控制协议 (TCP) 的端口为 5066，传输层安全性 (TLS) 端口为 5067。 在分支站点的 Survivable Branch Appliance 上，TCP 的默认端口为 5081，TLS.) 
+6. 在 **"IP/PSTN** 网关的侦听端口"下，键入网关、PBX 或 SBC 用于来自中介服务器的 SIP 消息的侦听端口，这些 SIP 消息将与该 PSTN 网关的根中继相关联。  (默认情况下，PSTN 网关、PBX 或 SBC 上的传输控制协议 (TCP) 的端口为 5066，传输层安全性 (TLS) 的端口为 5067。 在分支站点的 Survivable Branch Appliance 上，TCP 的默认端口为 5081，TLS.) 
     
 7. 在“SIP 传输协议”下，单击对等方使用的传输类型，然后单击“确定”。
     

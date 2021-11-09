@@ -2,7 +2,7 @@
 title: 响应组创建新的或编辑现有的代理组
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 79eaaf6c-6928-4925-8220-c7ada6b37205
 ROBOTS: NOINDEX, NOFOLLOW
 description: 代理组定义可应答针对响应组（称为代理）的呼叫的人员以及应用于组中所有代理的设置。
-ms.openlocfilehash: ac9743327483ace0baf92e93e4de14451fdb47de
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6c386f47e2448e7e508d9c9dd46c737f7de9e18a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758874"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833778"
 ---
 # <a name="response-groups-create-new-or-edit-existing-agent-group"></a>响应组：创建新的或编辑现有的代理组
 
@@ -40,7 +40,7 @@ ms.locfileid: "60758874"
 
   - 选择 **"** 正式"指定组中代理必须登录和注销。选择此选项后，代理将单击客户端中的菜单项以打开浏览器并显示用于登录和退出的网页控制台。
 
-- **警报 (秒)** 指定在将呼叫提供给下一个可用代理之前拨打代理的秒数。 该值必须至少为 10 秒且小于 180 秒。 默认值为 20 秒。
+- **警报时间 (秒)** 指定在将呼叫提供给下一个可用代理之前拨打代理的秒数。 该值必须至少为 10 秒且小于 180 秒。 默认值为 20 秒。
 
 - **路由方法** 选择用于确定代理接收呼叫的顺序的方法：
 
@@ -71,4 +71,4 @@ ms.locfileid: "60758874"
 
     向上和向下箭头可在代理列表中向上和向下移动所选代理。列表中代理的排列顺序将影响代理接收呼叫以进行循环和串行路由的顺序。
 
-有关响应组特性和功能的详细信息，请参阅规划文档中的规划[Skype for Business Server中的规划](../../../plan-your-deployment/enterprise-voice-solution/response-group.md)响应组应用程序。 有关使用代理组的详细信息，请参阅操作文档中的[Managing Agent Groups](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-agent-groups)。
+有关响应组特性和功能的详细信息，请参阅规划文档中Skype for Business Server[中的规划](../../../plan-your-deployment/enterprise-voice-solution/response-group.md)响应组应用程序。 有关使用代理组的详细信息，请参阅操作文档中的[Managing Agent Groups](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-agent-groups)。

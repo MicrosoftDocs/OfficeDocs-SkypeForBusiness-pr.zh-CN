@@ -1,7 +1,7 @@
 ---
 title: 部署客户端进行Skype for Business Server
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.reviewer: PhillipGarding
@@ -12,30 +12,30 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 3d10abf2-d484-4fa0-8f10-4a5f9dfba4f5
 description: 摘要：企业客户端安装方法概述Skype for Business。
-ms.openlocfilehash: 60da950c4ef330f704d45944a900e579478c558c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d21424d268e6b03e46bfa11b06b7d1929bb015b1
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778922"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60841954"
 ---
 # <a name="deploy-clients-for-skype-for-business-server"></a>部署客户端进行Skype for Business Server
  
 **摘要：** 企业客户端安装方法概述Skype for Business。
   
-如何向Skype for Business部署策略取决于您是购买 Skype for Business 作为 Microsoft 365 或 Office 365 计划的一部分，还是购买了 Skype for Business 的批量许可版本。 
+如何向Skype for Business部署策略取决于您是购买 Skype for Business 作为 Microsoft 365 或 Office 365 计划的一部分，还是购买了 Skype for Business 的批量许可Skype for Business。 
   
-- **Microsoft 365 或 Office 365** 如果你有包含Microsoft 365或Office 365安装Skype for Business，则使用的安装技术称为即点即用。 你可以让用户从 Skype for Business自行安装Microsoft 365 管理中心。 或者，可以将Skype for Business下载到本地网络，然后使用现有软件部署工具（如通过 Microsoft Endpoint Configuration Manager）将软件部署到用户。 有关 Skype for Business 和 Office 365 Microsoft 365 Office 365 的安装信息，请参阅在 Microsoft 365 或 Office 365 中部署[Skype for Business 客户端](https://support.office.com/article/8c563b81-22c9-4024-9efe-9fe28c7bbc96)。
+- **Microsoft 365 或 Office 365** 如果你有包含Microsoft 365或Office 365安装Skype for Business，则使用的安装技术称为即点即用。 你可以让用户从 Skype for Business自行安装Microsoft 365 管理中心。 或者，可以将Skype for Business下载到本地网络，然后使用现有软件部署工具（例如，通过 Microsoft Endpoint Configuration Manager）将软件部署到用户。 有关 Skype for Business 和 Office 365 Microsoft 365 Office 365 的安装信息，请参阅在 Microsoft 365 或 Office 365 中部署[Skype for Business 客户端](https://support.office.com/article/8c563b81-22c9-4024-9efe-9fe28c7bbc96)。
     
 - **批量许可** 如果你有 Skype for Business 2015 或 2016 客户端的批量许可版本，则使用的安装技术是 Windows Installer (MSI) 。 基于Windows安装程序的安装包包含多个 MSI 文件。 一个与语言无关的核心 MSI 包与一个或多个特定语言的包组合在一起构成了完整产品。 在用户计算机上安装 Office 的过程中以及安装之后，安装程序将组合各个包并执行自定义和维护任务。 2019 Skype for Business 2019 客户端使用即点即用安装程序。
     
-本节中的主题介绍如何使用和自定义 Windows Installer，以通过常规Skype for Business向用户部署客户端。
+本节中的主题介绍如何使用和自定义 Windows Installer，以通过常规Skype for Business向用户部署 Skype for Business 客户端。
   
 > [!NOTE]
-> 支持Skype 会议消息和Microsoft Office客户端中的会议管理的 Skype 会议 外接程序Outlook客户端自动安装Skype for Business客户端。 
+> 支持Skype 会议消息和Microsoft Office客户端 Outlook中的会议管理的 Skype 会议 外接程序将自动随 Skype for Business 客户端一起安装。 
   
 > [!NOTE]
-> 安装程序Microsoft 365和Office 365安装程序不会卸载早期版本的 Lync。 客户端Skype for Business与其他 Lync 客户端并排安装。 
+> 安装程序Microsoft 365 Office 365安装程序不会卸载早期版本的 Lync。 Skype for Business客户端与其他 Lync 客户端并行安装。 
   
 ## <a name="installing-windows-clients"></a>安装Windows客户端
 
@@ -43,7 +43,7 @@ ms.locfileid: "60778922"
     
 - [使用客户端配置客户端Skype for Business](configure-the-client-experience.md)
     
-- [配置智能联系人列表Skype for Business Server](configure-smart-contacts-list.md)
+- [Configure Smart contacts list in Skype for Business Server](configure-smart-contacts-list.md)
     
 ## <a name="installing-device-clients"></a>安装设备客户端
 
@@ -60,4 +60,4 @@ ms.locfileid: "60778922"
     
 ## <a name="see-also"></a>另请参阅
 
-[将 Skype for Business 客户端部署到 Microsoft 365 或 Office 365](../../../SfbOnline/set-up-skype-for-business-online/deploy-the-skype-for-business-client-in-office-365.md)
+[在 Skype for Business 或 Microsoft 365 部署 Office 365](../../../SfbOnline/set-up-skype-for-business-online/deploy-the-skype-for-business-client-in-office-365.md)

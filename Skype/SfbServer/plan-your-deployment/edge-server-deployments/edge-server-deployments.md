@@ -2,7 +2,7 @@
 title: 在部署中规划边缘服务器Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,16 +16,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9cdc3e23-3f6a-4e4d-9e04-f038596b6700
 description: 摘要：规划边缘Skype for Business Server环境。 本主题向你介绍 Edge 概念，并让你可以使用我们更深入的主题进行组织。
-ms.openlocfilehash: ad92c0d61381595ac2274bf52aa108efe5703a90
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ae6dd672e3da6568d41898a4bc2ae022b23ad3f3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60746858"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834110"
 ---
 # <a name="plan-for-edge-server-deployments-in-skype-for-business-server"></a>在部署中规划边缘服务器Skype for Business Server
  
-**摘要：** 规划边缘Skype for Business Server环境。 本主题向你介绍 Edge 概念，并让你可以使用我们更深入的主题进行组织。
+**摘要：** 规划边缘Skype for Business Server。 本主题向你介绍 Edge 概念，并让你可以使用我们更深入的主题进行组织。
   
 当具有Skype for Business Server运行良好的外部环境时，下一步是向该环境引入边缘服务器或边缘池。 如果希望外部人员使用由 Skype for Business Server 提供的服务，此角色将非常重要。 这些可能包括：
   
@@ -37,7 +37,7 @@ ms.locfileid: "60746858"
     
 - 希望受邀参加会议和演示的潜在客户、合作伙伴甚至匿名用户。
     
-外部用户访问（边缘服务器提供）允许执行所有这些操作。 内部用户将能够享受由您的部署托管的Skype for Business Server服务：
+外部用户访问（边缘服务器提供）允许执行所有这些操作。 内部用户将能够享受由您的内部部署托管的Skype for Business Server服务：
   
 - 用于通信的 IM 和状态：授权的外部用户可以加入 IM 对话和会议。 他们可以获取其他用户状态信息 (获取其状态信息的用户) 。 如果使用公共 IM 提供程序，则不能进行多方会议，这严格来说就是对等通信。 但支持 SIP 和 XMPP 协议。
     

@@ -2,7 +2,7 @@
 title: 呼叫详细信息记录 (CDR) 中Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 67726075-c77c-4191-a64f-a1cf5c7bcbb2
 description: 摘要：了解呼叫详细信息记录 (CDR) 中使用的 CDR Skype for Business Server。
-ms.openlocfilehash: 93085e0078456cfe371eafe1103bd54ae8006802
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4b699b382443d0820845856bebd83604374bf236
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767760"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858329"
 ---
 # <a name="call-detail-recording-cdr-in-skype-for-business-server"></a>呼叫详细信息记录 (CDR) 中Skype for Business Server
  

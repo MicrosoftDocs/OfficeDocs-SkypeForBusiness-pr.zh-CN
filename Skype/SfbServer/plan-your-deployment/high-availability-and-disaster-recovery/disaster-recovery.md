@@ -1,8 +1,8 @@
 ---
-title: 前端池的灾难恢复Skype for Business Server
+title: 前端池中的Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,14 +13,14 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 142caf34-0f20-47f3-9d32-ce25ab622fad
 description: 对于灾难恢复，Skype for Business Server在一个池出现故障时提供与故障转移的池配对。
-ms.openlocfilehash: 6559b5af285027d9f1cb6ea3682304dedbbb4165
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: fa63aa9d549f64508f32c32ede24f34592a88719
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740428"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833318"
 ---
-# <a name="front-end-pool-disaster-recovery-in-skype-for-business-server"></a>前端池的灾难恢复Skype for Business Server
+# <a name="front-end-pool-disaster-recovery-in-skype-for-business-server"></a>前端池中的Skype for Business Server
  
 对于灾难恢复，Skype for Business Server在一个池出现故障时提供与故障转移的池配对。
   
@@ -56,7 +56,7 @@ ms.locfileid: "60740428"
 
 对于池故障转移和池故障回复，RTO (恢复) 目标为 15-20 分钟。 在管理员确定发生灾难并启动故障转移过程后，需要此时间才能进行故障转移。 此时间不包括管理员评估情况并作出决策所需的时间，也不包括用户在故障转移完成后再次登录所需的时间。
   
-对于池故障转移和池故障回复，RPO (目标) 5 分钟。 这表示测量可能因灾难、因备份服务的复制延迟丢失的数据的时间。 例如，如果池在上午 10：00 下降，RPO 为 5 分钟，则写入池的数据在上午 9：55 之间。 和 10：00 A.M .可能尚未复制到备份池，并且将会丢失。
+对于池故障转移和池故障回复，RPO 恢复点目标 (目标) 5 分钟。 这表示测量可能因灾难、因备份服务的复制延迟丢失的数据的时间。 例如，如果池在上午 10：00 下降，RPO 为 5 分钟，则写入池的数据在上午 9：55 之间。 和 10：00 A.M .可能尚未复制到备份池，并且将会丢失。
   
 本文档中的所有 RTO 和 RPO 数字均假定两个数据中心位于同一在两个网站间具有高速度、低延迟传输的世界区域中。 这些数字针对具有 40，000 个并发活动用户和 200，000 个用户启用 Skype for Business 的预定义用户模型（其中数据复制没有积压工作）的池进行测量。 这些数字可能根据测试和验证性能发生改变。
   
@@ -72,7 +72,7 @@ ms.locfileid: "60740428"
   
 修复灾难后，不需要对中央管理存储进行故障回复。 中央管理存储可以保留在您进行其故障的池中。
   
-中央管理存储故障转移的恢复时间目标 (RTO) 和恢复点目标 (RPO) 的工程目标为 5 分钟。
+中央管理存储故障转移的恢复时间目标 (RTO 故障转移的工程目标为 5 分钟) 5 分钟用于恢复点目标 (RPO) 。
   
 ## <a name="front-end-pool-pairing-data-security"></a>前端池配对数据安全性
 

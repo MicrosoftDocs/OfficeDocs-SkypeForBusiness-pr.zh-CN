@@ -2,7 +2,7 @@
 title: 在网络网络中创建网络区域间Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 5555262a-a502-4b01-9593-836dd30064f5
-description: 创建或修改网络区域间路由，企业语音呼叫允许控制Skype for Business Server。
-ms.openlocfilehash: e74c5bd9630e5171f305cfd22e47a01ea3ea889b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 创建或修改网络区域间路由，这些路由企业语音呼叫允许控制Skype for Business Server。
+ms.openlocfilehash: 4aa831c33049e2e77a298f96de80d9bad2d296e4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758104"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833868"
 ---
 # <a name="create-network-interregional-routes-in-skype-for-business-server"></a>在网络网络中创建网络区域间Skype for Business Server
  
-创建或修改网络区域间路由，企业语音呼叫允许控制Skype for Business Server。 
+创建或修改网络区域间路由，这些路由企业语音呼叫允许控制Skype for Business Server。 
   
 网络区域间路由定义一对网络区域之间的路由。 呼叫允许控制部署中的每对网络区域都需要网络区域间路由。 这样部署中的每个网络区域便能够访问任何其他区域。
   

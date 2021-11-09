@@ -2,7 +2,7 @@
 title: 在 2015 年 10 月中监视、启动和停止Skype for Business Server持久聊天服务
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b6b28595-f702-4ecf-8115-e4104b87da89
 description: 摘要：了解如何在 Skype for Business Server 2015 中启动、停止和监视持久聊天服务。
-ms.openlocfilehash: f2b2c964659b3de5045d414736bc5c1e5ddadd28
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9d25654a222b956fa5c8a1902e5d3a90674829e8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766480"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833378"
 ---
 # <a name="monitor-start-and-stop-the-persistent-chat-services-in-skype-for-business-server-2015"></a>在 2015 年 10 月中监视、启动和停止Skype for Business Server持久聊天服务
  

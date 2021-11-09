@@ -6,7 +6,7 @@ ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204750(v=OCS.15)
 ms:contentKeyID: 48183661
 mtps_version: v=OCS.15
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 了解如何为组织中使用的设备启用 QoS，这些设备使用非 Windows。
-ms.openlocfilehash: 597f2df19ac2379bea3f618280ea1c86b2e1f8eb
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 613f7abfa3e88fb831729498baa8f7f698aa9d0e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60750171"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831996"
 ---
 # <a name="enabling-qos-in-skype-for-business-server-for-devices-that-are-not-based-on-windows"></a>为不基于 Skype for Business Server 的设备启用 QoS Windows
 
@@ -42,7 +42,7 @@ EnableAdaptiveBandwidthEstimation ：True<br/>
 
 如果 EnableQoS 属性设置为 False (如前面的输出) 则意味着没有为使用非 Windows 操作系统的计算机和设备启用服务质量。
 
-若要在全局范围启用服务质量，请从命令行管理程序Skype for Business Server命令：
+若要在全局范围启用服务质量，请从命令行管理程序Skype for Business Server以下命令：
 
 **Set-CsMediaConfiguration -EnableQoS $True**
 
@@ -59,7 +59,7 @@ EnableAdaptiveBandwidthEstimation ：True<br/>
 
 **Get-CsMediaConfiguration |Set-CsMediaConfiguration -EnableQoS $True**
 
-可以通过将 EnableQoS 属性的值设置为 False，为使用非 Windows操作系统的设备禁用 QoS。 例如：
+可以将 EnableQoS 属性的值设置为 False，为使用非 Windows操作系统的设备禁用 QoS。 例如：
 
 **Set-CsMediaConfiguration -Identity site：Redmond -EnableQoS $False**
 

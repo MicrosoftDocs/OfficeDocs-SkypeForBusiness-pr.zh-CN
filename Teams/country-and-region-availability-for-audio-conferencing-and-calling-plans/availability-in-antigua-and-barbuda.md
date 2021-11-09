@@ -1,6 +1,6 @@
 ---
 title: 在安提瓜和巴布达可用
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
@@ -24,16 +24,16 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于Microsoft 365 Office 365和Skype for Business Microsoft Teams的一些服务和服务。
-ms.openlocfilehash: 66cc66d614ccd579267d7b1fe384b80ca802ed89
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f9a72fed02e9accfc98bb1d453108d6dad3becab
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777672"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858879"
 ---
 # <a name="availability-in-antigua-and-barbuda"></a>在安提瓜和巴布达可用
 
-[查找其他国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)或区域，或了解有关音频会议和呼叫计划的国家/地区可用性。
+[查找另一个国家](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)/地区，或了解有关音频会议和呼叫计划的国家/地区可用性。
 
 以下是适用于Microsoft 365 Office 365和Skype for Business Microsoft Teams的一些服务和服务。
   

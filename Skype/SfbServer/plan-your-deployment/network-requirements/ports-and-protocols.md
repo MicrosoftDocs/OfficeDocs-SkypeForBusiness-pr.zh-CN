@@ -2,7 +2,7 @@
 title: 服务器的端口和协议要求
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/15/2018
 audience: ITPro
@@ -17,25 +17,25 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: 摘要：实施端口管理之前，请查看端口Skype for Business Server。
-ms.openlocfilehash: a1523ccb821006737a53094151d4a6694c502fc4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c820070fb73dd1f3325b0141a3fa05b3f19bd683
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777932"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834068"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>服务器的端口和协议要求
  
-**摘要：** 在实施端口使用之前，请查看端口Skype for Business Server。
+**摘要：** 实施端口管理之前，请查看端口Skype for Business Server。
   
-Skype for Business Server外部和内部防火墙上的特定端口是打开的。 此外，如果在您的组织中部署了 Internet 协议安全性 (IPsec)，则必须在用于传送音频、视频和全景视频的端口范围内禁用 IPSec。 
+Skype for Business Server要求打开外部和内部防火墙上的特定端口。 此外，如果在您的组织中部署了 Internet 协议安全性 (IPsec)，则必须在用于传送音频、视频和全景视频的端口范围内禁用 IPSec。 
   
-尽管这似乎有点令人担心，但可以使用 Skype for Business Server 2015 规划工具完成规划工作。 完成向导中有关计划使用的功能的问题后，对于定义的每个站点，可以查看边缘管理员报告中的防火墙报告，并使用其中列出的信息创建防火墙规则。 您还可以对所使用的许多名称和 IP 地址进行调整，有关详细信息，请参阅 [查看防火墙报告](../../management-tools/planning-tool/review-the-administrator-reports.md#Firewall_report)。 请记住，可以将边缘管理报告导出到 Excel 电子表格，防火墙报告将是该文件中的工作表之一。 
+虽然这似乎有点令人担心，但可以使用 Skype for Business Server 2015 规划工具完成规划工作。 完成向导中有关计划使用的功能的问题后，对于定义的每个站点，可以查看边缘管理员报告中的防火墙报告，并使用其中列出的信息创建防火墙规则。 您还可以对所使用的许多名称和 IP 地址进行调整，有关详细信息，请参阅 [查看防火墙报告](../../management-tools/planning-tool/review-the-administrator-reports.md#Firewall_report)。 请记住，可以将边缘管理报告导出到 Excel 电子表格，防火墙报告将是该文件中的工作表之一。 
   
-通过查看与[2015 年 2015](../../technical-diagrams.md)年的技术图表链接的"协议工作负载"海报，您可以在图表表单Skype for Business Server信息。
+通过查看与[2015 年 2015](../../technical-diagrams.md)年的技术图表链接的"协议工作负载"海报，您可以在图表表单中查找Skype for Business Server的信息。
 
 > [!NOTE]
-> - 如果要实现 Skype for Business Online (Microsoft 365 Office 365) 请参阅 Microsoft 365 Office 365 URL 和[IP 地址范围](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)。 混合环境将需要参考本主题以及规划 [混合连接](../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2floc.json&toc=%2fSkypeForBusiness%2ftoc.json)。
+> - 如果要实现 Skype for Business Online (Microsoft 365 Office 365) 请参阅 Microsoft 365 和 Office 365 URL 和[IP 地址范围](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)。 混合环境将需要参考本主题以及规划 [混合连接](../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2floc.json&toc=%2fSkypeForBusiness%2ftoc.json)。
 > - 可以具有硬件或软件防火墙。 我们不需要特定的模型或版本。 重要的一点就是向允许列表中添加哪些端口，以便防火墙不会损害Skype for Business Server。
   
 ## <a name="port-and-protocol-details"></a>端口和协议详细信息
@@ -45,18 +45,18 @@ Skype for Business Server外部和内部防火墙上的特定端口是打开的�
 > [!NOTE]
 > 启动Skype for Business Server时，它将打开防火墙Windows端口。 Windows防火墙应该已在大多数普通应用程序中运行，但是如果未使用，Skype for Business Server防火墙将正常运行。 
   
-有关边缘组件的防火墙配置的详细信息，请参阅[Edge Server scenarios in Skype for Business Server 2015。](../../plan-your-deployment/edge-server-deployments/scenarios.md) 
+有关边缘组件的防火墙配置的详细信息，请参阅[Edge Server scenarios in Skype for Business Server 2015](../../plan-your-deployment/edge-server-deployments/scenarios.md)。 
   
 下表依据每个内部服务器角色列出了需要打开的端口。 
   
 **所需服务器端口（根据服务器角色）**
 
-|服务器角色|服务名称|端口|协议|笔记|
+|服务器角色|服务名称|端口|协议|注释|
 |:-----|:-----|:-----|:-----|:-----|
 |所有服务器  |SQL 浏览器  |1434  |UDP  |SQL中央管理存储数据库的本地复制副本的浏览器。  |
 |Front-End 服务器  |Skype for Business Server Front-End服务  |5060  |TCP  |（可选）Standard Edition Server 和前端服务器用于静态路由到受信任服务，例如，远程呼叫控制服务器。  |
 |前端服务器  |Skype for Business Server Front-End服务  |5061  | TCP (TLS) |Standard Edition Server 和前端池用于在服务器 (MTLS) 之间进行所有的内部 SIP 通信、在服务器和客户端 (TLS) 之间进行 SIP 通信，以及在前端服务器和中介服务器 (MTLS) 之间进行 SIP 通信。 还用于与监控服务器通信。  |
-| 前端服务器 |Skype for Business Server Front-End服务  |444  | HTTPS <br/> TCP  |用于会议状态管理组件和 (Skype for Business Server组件之间的 HTTPS) 通信。  <br/> 此端口还用于 Survivable Branch 设备和前端服务器之间的 TCP 通信。  |
+| 前端服务器 |Skype for Business Server Front-End服务  |444  | HTTPS <br/> TCP  |用于会议状态管理组和 (Skype for Business Server会议状态) 之间的 HTTPS 通信。  <br/> 此端口还用于 Survivable Branch 设备和前端服务器之间的 TCP 通信。  |
 |前端服务器  |Skype for Business Server Front-End服务  |135  |DCOM 和远程过程调用 (RPC)  |用于基于 DCOM 的操作，例如，移动用户、用户复制程序同步和通讯簿同步。  |
 |前端服务器  |Skype for Business ServerIM 会议服务  |5062  |TCP  |用于即时消息 (IM) 会议的传入 SIP 请求。  |
 |前端服务器  |Skype for Business ServerWeb 会议服务  |8057  |TCP (TLS)  |用于侦听来自客户端的持续性共享对象模型 (PSOM) 连接。  |
@@ -66,7 +66,7 @@ Skype for Business Server外部和内部防火墙上的特定端口是打开的�
 |前端服务器  |Skype for Business ServerWeb 兼容性服务  |80  |HTTP  |用于未使用 HTTPS 时从前端服务器到 Web 场 FQDN（IIS Web 组件使用的 URL）的通信。  |
 |前端服务器  |Skype for Business ServerWeb 兼容性服务  |443  |HTTPS  |用于从前端服务器到 Web 场 FQDN（IIS Web 组件使用的 URL）的通信。  |
 |前端服务器  |Skype for Business ServerWeb 兼容性服务  |8080  |TCP 和 HTTP  |由 Web 组件用于外部访问。  |
-|前端服务器  |Web 服务器组件  |4443  |HTTPS  |HTTPS (反向代理) HTTPS 前端池间通信，用于自动发现登录。  |
+|前端服务器  |Web 服务器组件  |4443  |HTTPS  |HTTPS (反向代理) 和 HTTPS 前端池间通信，用于自动发现登录。  |
 |前端服务器  |Web 服务器组件  |8060  |TCP (MTLS)  ||
 |前端服务器  |Web 服务器组件  |8061  |TCP (MTLS)  ||
 |前端服务器  |Mobility Services 组件  |5086  |TCP (MTLS)  |Mobility Services 内部进程使用的 SIP 端口  |
@@ -152,9 +152,9 @@ Skype for Business Server外部和内部防火墙上的特定端口是打开的�
 
 **所需客户端端口**
 
-|组件|端口|协议|笔记|
+|组件|端口|协议|注释|
 |:-----|:-----|:-----|:-----|
-|客户端  |67/68  |DHCP  |由Skype for Business Server用于查找注册器 FQDN (，即，如果 DNS SRV 失败且未配置手动设置) 。  |
+|客户端  |67/68  |DHCP  |由Skype for Business Server查找注册器 FQDN (，即 DNS SRV 出现故障且未配置手动) 。  |
 |客户端  |443  |TCP (TLS)  |用于外部用户访问的客户端到服务器 SIP 流量。  |
 |客户端  |443  |TCP (PSOM/TLS)  |用于外部用户访问 Web 会议会话。  |
 |客户端  |443  |TCP (STUN/MSTURN)  |用于外部用户访问 A/V 会话和媒体 (TCP)  |

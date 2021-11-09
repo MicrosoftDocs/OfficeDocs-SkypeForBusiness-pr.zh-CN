@@ -1,6 +1,6 @@
 ---
 title: 面向管理员的 Microsoft 教育版管理常见问题解答
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
@@ -17,33 +17,33 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 1e9af313bc24919f96008d7f1ff5bf7383df3260
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 66fc220e2796ae35b7a11467e16da98ab475d647
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774442"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831726"
 ---
 # <a name="microsoft-education-governance-faq-for-admins"></a>面向管理员的 Microsoft 教育版管理常见问题解答
 
 > [!Tip]
-> 观看以下会话，详细了解管理[Microsoft Teams：治理](https://aka.ms/teams-governance)、管理和Microsoft Teams
+> 观看以下会话，详细了解管理Microsoft Teams：治理、管理和[Microsoft Teams](https://aka.ms/teams-governance)
 
 ## <a name="how-do-i-control-team-creation-im-worried-students-are-going-to-create-inappropriate-teams"></a>如何控制团队创建？ 我担心学生会创建不适宜的团队。
 
-若要避免不恰当或误导性的名称，或只是为了提供团队命名方式的更多结构，可以使用当前处于预览状态Microsoft 365组 (策略) ：
+为了避免不恰当或误导性的名称，或只是为了提供团队命名方式的更多结构，可以使用当前处于预览状态Microsoft 365) 组命名 (策略：
 
--   **前缀后缀命名策略** 可以使用前缀或后缀来定义团队和组 (的) 约定，例如 **，GRP_US_My Group_Engineering。** 前缀和后缀可以是固定字符串或用户属性 (例如 **[department]**) ，根据创建团队的用户添加到名称中。
+-   **前缀后缀命名策略** 可以使用前缀或后缀来定义团队和组 (的命名) ，例如 **，GRP_US_My Group_Engineering。** 前缀和后缀可以是固定字符串或用户属性 (例如 **[Department]**) ，根据创建团队的用户添加到名称中。
 -   **自定义阻止字词** 可以上传一组字词，阻止特定组织的用户使用他们创建的团队的名称。 例如，可以阻止 **将"CEO、****工资** 单"和 **"HR"** 术语用于不应用于的组的团队名称中。
 -   **分类** 可以创建组织中用户在创建组时可以设置的Microsoft 365分类。 
 
 > [!IMPORTANT]
-> 使用 Microsoft 365 组命名策略要求Azure Active Directory Premium P1组Azure AD一个或多个组的成员的每个唯一用户拥有 Azure Active Directory Premium P1 或基本 EDU Microsoft 365许可证。
+> 使用 Microsoft 365 组命名策略要求Azure Active Directory Premium P1组Azure AD一个或多个组的成员的每个唯一用户拥有基本 EDU Microsoft 365许可证。
 
 有关详细说明，请参阅Office[命名策略](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552)。
 
 > [!Note]
-> 如果团队是使用来自另一个系统（例如 (）的输入自动创建的学校数据同步) ，请验证输入数据是否符合配置的命名策略;如果没有，团队创建将失败。
+> 如果团队是使用来自另一个系统 (（例如，学校数据同步) ）自动创建的，请验证输入数据是否符合配置的命名策略;如果没有，团队创建将失败。
 
 ## <a name="can-i-see-who-created-a-team"></a>我能否查看团队的创建人？
 
@@ -61,7 +61,7 @@ ms.locfileid: "60774442"
 
 在每个学年或季度开始时，你需要一些新团队。 采用自动方法自动创建这些团队、使用适当的用户填充这些团队并设置适当的权限可能很有意义：
 
--   学校数据同步可创建 Exchange Online 和 SharePoint Online 的 Microsoft 365 组、Microsoft Teams 和 OneNote 课堂笔记本的课堂团队、Intune 教育版学校组以及名单和单一登录 (SSO) 集成许多其他第三方应用程序。 有关详细信息，[请通过 学校数据同步。](/schooldatasync/overview-of-school-data-sync)
+-   学校数据同步为 Exchange Online 和 SharePoint Online 创建 Microsoft 365 组、Microsoft Teams 和 OneNote 课堂笔记本、Intune 教育版学校组、名单和单一登录 (SSO) 集成许多其他第三方应用程序。 有关详细信息，请[通过 学校数据同步。](/schooldatasync/overview-of-school-data-sync)
 -   使用 PowerShell 可以创建团队和频道，并自动配置设置。 有关详细信息[，Microsoft Teams PowerShell。](/powershell/module/teams/?view=teams-ps)
 -   可以使用 Microsoft Graph API (beta 版) 创建、配置、克隆和存档团队。 有关详细信息[，](/graph/api/resources/teams-api-overview)请参阅使用 Microsoft Graph API Microsoft Teams应用程序。
 

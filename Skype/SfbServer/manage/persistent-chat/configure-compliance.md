@@ -2,7 +2,7 @@
 title: 在 2015 年 10 月为持久聊天服务器Skype for Business Server合规性服务
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 1/31/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 24e36ea3-fb8a-45a4-b6b7-38c2e256b218
 description: 摘要：了解如何在 Skype for Business Server 2015 中配置持久聊天服务器合规性服务。
-ms.openlocfilehash: af574e4b449211f1631c332e7f494fba6c75e750
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 23f28c2071063e2729deb54eea9703a7699e3e07
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778312"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858239"
 ---
 # <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a>在 2015 年 10 月为持久聊天服务器Skype for Business Server合规性服务
 
@@ -51,7 +51,7 @@ ms.locfileid: "60778312"
 Set-CsPersistentChatComplianceConfiguration [-Identity <XdsIdentity>] <COMMON PARAMETERS>
 ```
 
-或者
+或
 
 ```PowerShell
 Set-CsPersistentChatComplianceConfiguration [-Instance <PSObject>] <COMMON PARAMETERS>
@@ -138,7 +138,7 @@ void Translate(ConversationCollection conversations)
 
 |**属性**|**说明**|**可选/必需**|
 |:-----|:-----|:-----|
-|类型  <br/> |指定消息类型。消息类型将在“Message 元素消息类型”表中进行介绍。  <br/> |必填  <br/> |
+|类型  <br/> |指定消息类型。消息类型将在“Message 元素消息类型”表中进行介绍。  <br/> |必需  <br/> |
 |内容  <br/> |包含消息的内容。具有 Join 或 Part 类型的消息不使用此属性。  <br/> |可选  <br/> |
 |ID  <br/> |指定内容的唯一 ID。此属性仅用于具有 Chat 类型的消息。  <br/> |可选  <br/> |
 
@@ -149,10 +149,10 @@ void Translate(ConversationCollection conversations)
 |**属性**|**说明**|**可选/必需**|
 |:-----|:-----|:-----|
 |用户名  <br/> |发送者的名称。  <br/> |可选  <br/> |
-|ID  <br/> |发件人的唯一 ID。  <br/> |必填  <br/> |
+|ID  <br/> |发件人的唯一 ID。  <br/> |必需  <br/> |
 |电子邮件  <br/> |发件人的电子邮件地址。  <br/> |可选  <br/> |
 |内部  <br/> |确定用户是内部用户还是联盟用户。如果值设为 True，则用户为内部用户。  <br/> |可选  <br/> |
-|Uri  <br/> |用户的 SIP URI。  <br/> |必填  <br/> |
+|Uri  <br/> |用户的 SIP URI。  <br/> |必需  <br/> |
 
 以下示例显示 Messages 元素可以包含的消息类型。 它还提供了如何使用每个元素的示例。
 

@@ -1,8 +1,8 @@
 ---
-title: 将 AV 和 OAuth 证书Skype for Business Server -Roll in Set-CsCertificate
+title: 使用 -Roll 在 Skype for Business Server中将 AV 和 OAuth 证书Set-CsCertificate
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,14 +13,14 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 22dec3cc-4b6b-4df2-b269-5b35df4731a7
 description: 摘要：为用户阶段 AV 和 OAuth Skype for Business Server。
-ms.openlocfilehash: 0d5a5a68ac63b514967b33692abfeb15d8459995
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7eeac29ba322d40d8ab8f70712ecfca5ead5c97d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767850"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60832106"
 ---
-# <a name="stage-av-and-oauth-certificates-in-skype-for-business-server-using--roll-in-set-cscertificate"></a>将 AV 和 OAuth 证书Skype for Business Server -Roll in Set-CsCertificate
+# <a name="stage-av-and-oauth-certificates-in-skype-for-business-server-using--roll-in-set-cscertificate"></a>使用 -Roll 在 Skype for Business Server中将 AV 和 OAuth 证书Set-CsCertificate
  
 **摘要：** 为用户阶段 AV 和 OAuth Skype for Business Server。
   
@@ -29,16 +29,16 @@ ms.locfileid: "60767850"
 > [!IMPORTANT]
 > 此新功能设计用于 A/V 边缘服务和 OAuthTokenIssuer 证书。 其他证书类型可以与 A/V 边缘服务和 OAuth 证书类型一起设置，但无法从 A/V 边缘服务证书的共存行为中获益。
   
-用于Skype for Business Server证书的 Skype for Business Server 命令行管理程序 PowerShell cmdlet 将 A/V 边缘服务证书引用为 AudioVideoAuthentication 证书类型，将 OAuthServer 证书作为类型OAuthTokenIssuer。 对于本主题的其余部分和唯一标识证书，它们将被相同的标识符类型 AudioVideoAuthentication 和OAuthTokenIssuer 引用。
+用于Skype for Business Server Skype for Business Server 证书的命令行管理程序 PowerShell cmdlet 将 A/V 边缘服务证书引用为 AudioVideoAuthentication 证书类型，将 OAuthServer 证书作为类型OAuthTokenIssuer。 对于本主题的其余部分和唯一标识证书，它们将被相同的标识符类型 AudioVideoAuthentication 和OAuthTokenIssuer 引用。
   
-A/V 身份验证服务负责颁发供客户端和其他 A/V 使用者使用的令牌。 这些令牌是根据证书上的属性生成的，当证书到期时，会断开连接并需要用新证书生成的新令牌重新连接。 Skype for Business Server中的一项新功能将缓解此问题 - 能够在旧证书过期之前阶段新证书并允许这两个证书继续运行一段时间。 此功能使用命令行管理程序 cmdlet 中的Set-CsCertificate Skype for Business Server功能。 新参数 -Roll 以及现有参数 -EffectiveDate 将新的 AudioVideoAuthentication 证书放在证书存储中。 旧 AudioVideoAuthentication 证书仍将保留，以便根据该证书验证颁发的令牌。 随着新 AudioVideoAuthentication 证书的就绪，将发生以下一系列事件：
+A/V 身份验证服务负责颁发供客户端和其他 A/V 使用者使用的令牌。 这些令牌是根据证书上的属性生成的，当证书到期时，会断开连接并需要用新证书生成的新令牌重新连接。 Skype for Business Server中的一项新功能将缓解这一问题 ，即能够在旧证书过期之前阶段新证书并允许这两个证书继续运行一段时间。 此功能使用命令行管理程序 cmdlet 中的Set-CsCertificate Skype for Business Server功能。 新参数 -Roll 以及现有参数 -EffectiveDate 将新的 AudioVideoAuthentication 证书放在证书存储中。 旧 AudioVideoAuthentication 证书仍将保留，以便根据该证书验证颁发的令牌。 随着新 AudioVideoAuthentication 证书的就绪，将发生以下一系列事件：
   
 > [!TIP]
-> 使用 Skype for Business Server命令行管理程序 cmdlet 管理证书，可以针对边缘服务器上每个用途请求单独且不同的证书。 使用 Skype for Business Server 部署向导中的证书向导可帮助你创建证书，但通常是默认类型，用于边缘服务器的所有证书都结合到一个证书中。 如果要使用滚动证书功能，建议的做法是将 AudioVideoAuthentication 证书与其他证书用途分离开。 您可以设置和暂存默认类型的证书，但只有已合并证书的 AudioVideoAuthentication 部分将从暂存中受益。 例如， (中涉及) 证书过期时执行即时消息对话的用户将需要注销并重新登录，才能使用与访问边缘服务关联的新证书。 对于使用 Web 会议边缘服务参与 Web 会议的用户，也会发生类似行为。 OAuthTokenIssuer 证书是一种跨所有服务器共享的特定类型证书。 您可以在一处创建和管理证书，证书将存储在所有其他服务器的中央管理存储中。
+> 使用 Skype for Business Server命令行管理程序 cmdlet 管理证书，可以针对边缘服务器上每个用途请求单独且不同的证书。 使用 Skype for Business Server 部署向导中的证书向导可帮助你创建证书，但通常是默认类型，用于边缘服务器的所有证书都结合到一个证书上。 如果要使用滚动证书功能，建议的做法是将 AudioVideoAuthentication 证书与其他证书用途分离开。 您可以设置和暂存默认类型的证书，但只有已合并证书的 AudioVideoAuthentication 部分将从暂存中受益。 例如， (中涉及的用户) 证书过期时进行即时消息对话将需要注销并重新登录，才能使用与访问边缘服务关联的新证书。 对于使用 Web 会议边缘服务参与 Web 会议的用户，也会发生类似行为。 OAuthTokenIssuer 证书是一种跨所有服务器共享的特定类型证书。 您可以在一处创建和管理证书，证书将存储在所有其他服务器的中央管理存储中。
   
-需要更多详细信息才能充分了解您在使用 Set-CsCertificate cmdlet 并在当前证书到期之前将其用于暂存证书时的选择和要求。 -Roll 参数很重要，但基本上只有一个用途。 如果您将参数定义为参数，则告知 Set-CsCertificate您将提供有关将在 -Type (（例如 AudioVideoAuthentication 和 OAuthTokenIssuer) ）定义（例如 AudioVideoAuthentication 和 OAuthTokenIssuer) ）定义的证书生效时将受到影响的证书的信息。
+需要更多详细信息才能充分了解您在使用 Set-CsCertificate cmdlet 并在当前证书到期之前将其用于暂存证书时的选择和要求。 -Roll 参数很重要，但基本上只有一个用途。 如果您将参数定义为参数，则告知 Set-CsCertificate您将提供有关将在 -Type (（例如 AudioVideoAuthentication 和 OAuthTokenIssuer) ）定义（例如 AudioVideoAuthentication 和 OAuthTokenIssuer) ）定义的证书生效时，该证书将受到影响的信息。
   
- **-Roll**：-Roll 参数是必需的，并且具有必须随其提供的依赖项。 以下必需参数用于充分定义哪些证书将受影响以及将如何应用这些证书：
+ **-Roll**：-Roll 参数是必需的，并且具有必须随其一起提供的依赖项。 以下必需参数用于充分定义哪些证书将受影响以及将如何应用这些证书：
   
  **-EffectiveDate**：参数 -EffectiveDate 定义新证书何时与当前证书共同使用。 -EffectiveDate 可以接近当前证书的到期时间，也可以长一段时间。 AudioVideoAuthentication 证书的建议最低 -EffectiveDate 为 8 小时，这是使用 AudioVideoAuthentication 证书颁发的 AV 边缘服务令牌的默认令牌生存期。
   
@@ -88,10 +88,10 @@ A/V 身份验证服务负责颁发供客户端和其他 A/V 使用者使用的�
 |:-----|:-----|
 |1  <br/> |开始时间：2015 年 7 月 22 日上午 12：00：00  <br/> 当前的 AudioVideoAuthentication 证书将于 2015 年 7 月 22 日下午 2：00：00 过期。 这由证书上的过期时间戳决定。 Plan your certificate replacement and rollover to account for an 8 hour overlap (default token lifetime) before the existing certificate reaches the expire time. 此示例使用 2：00：00 AM 提前时间，以便管理员在 6：00：00 AM 生效时间之前留出足够的时间来放置和设置新证书。  <br/> |
 |2  <br/> |2015/7/22 2：00：00 AM - 7/22/2015 5：59：59 AM  <br/> 对于此示例，在有效时间为上午 6：00：00 (4 小时的边缘服务器上设置证书适用于此示例，但使用 Set-CsCertificate -Type \<certificate usage type\> -Thumbprint \<thumbprint of new certificate\> -Roll -EffectiveDate) 可以更长 \<datetime string of the effective time for new certificate\>  <br/> |
-|3  <br/> |7/22/2015 6：00 AM - 7/22/2015 2：00 PM  <br/> 若要验证令牌，首先尝试新证书，如果新证书无法验证令牌，则尝试旧证书。 此过程在 8 小时（默认令牌生存期和重叠 (8 小时内) 令牌。  <br/> |
-|4   <br/> |结束时间：2015/7/22 2：00：01 PM  <br/> 旧证书已过期，新证书已接管。 使用 -Type -Previous 可以安全地Remove-CsCertificate旧 \<certificate usage type\> 证书  <br/> |
+|3  <br/> |7/22/2015 6：00 AM - 7/22/2015 2：00 PM  <br/> 若要验证令牌，首先尝试新证书，如果新证书无法验证令牌，则尝试旧证书。 此过程在 8 小时（默认令牌生存期 (重叠期间）) 令牌。  <br/> |
+|4  <br/> |结束时间：2015/7/22 2：00：01 PM  <br/> 旧证书已过期，新证书已接管。 使用 -Type -Previous 可以安全地Remove-CsCertificate旧 \<certificate usage type\> 证书  <br/> |
    
-在 2015 年 7 月 22 (上午 6：00：00) 到达生效时间时，所有新令牌都由新证书颁发。 在验证令牌时，将首先根据新证书验证令牌。 如果验证失败，将尝试旧证书。 尝试新证书并回到旧证书的过程将一直继续下去，直到到达旧证书的到期时间。 旧证书在 (2015 年 7 月 22 日下午 2：00：00) 过期后，令牌将仅通过新证书进行验证。 可以使用带 -Previous 参数的 Remove-CsCertificate cmdlet 安全地删除旧证书。
+在 2015 年 7 (6：00：00 AM) 到达生效时间时，所有新令牌都由新证书颁发。 在验证令牌时，将首先根据新证书验证令牌。 如果验证失败，将尝试旧证书。 尝试新证书并回到旧证书的过程将一直继续下去，直到到达旧证书的到期时间。 旧证书在 (2015 年 7 月 22 日下午 2：00：00) 过期后，令牌将仅通过新证书进行验证。 可以使用带 -Previous 参数的 Remove-CsCertificate cmdlet 安全地删除旧证书。
 
 ```PowerShell
 Remove-CsCertificate -Type AudioVideoAuthentication -Previous
@@ -103,7 +103,7 @@ Remove-CsCertificate -Type AudioVideoAuthentication -Previous
     
 2. 使用前端服务器上现有证书的可导出私钥请求续订或新 OAuthTokenIssuer 证书。
     
-3. 如果已部署池，则向池中的前端服务器 (新的 OAuthTokenIssuer) 。 将全局复制 OAuthTokenIssuer 证书且只需在部署中的任何服务器更新和续订这些证书。 前端服务器用作示例。
+3. 如果您已经部署了池，则将新的 OAuthTokenIssuer 证书导入池 (前端) 。 将全局复制 OAuthTokenIssuer 证书且只需在部署中的任何服务器更新和续订这些证书。 前端服务器用作示例。
     
 4. 使用 Set-CsCertificate cmdlet 配置导入的证书，并使用 -Roll 参数和 -EffectiveDate 参数。 生效日期应定义为当前证书到期时间（14:00:00 或 2:00:00 PM）减去至少 24 个小时。 
     
@@ -133,7 +133,7 @@ Remove-CsCertificate -Type OAuthTokenIssuer -Previous
 
 ## <a name="see-also"></a>另请参阅
 
-[管理 OAuth (中的服务器) 和合作伙伴应用程序的Skype for Business Server](server-to-server-and-partner-applications.md)
+[管理 OAuth 服务器到服务器 (OAuth) 和合作伙伴应用程序Skype for Business Server](server-to-server-and-partner-applications.md)
 
 [Set-CsCertificate](/powershell/module/skype/set-cscertificate?view=skype-ps)
   

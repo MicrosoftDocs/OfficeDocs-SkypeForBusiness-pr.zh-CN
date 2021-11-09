@@ -2,7 +2,7 @@
 title: 在站点内创建网络站点间Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b0714aae-55dc-4587-b718-34a03f596b22
 description: 创建网络站点间策略，这些策略企业语音呼叫允许控制Skype for Business Server。
-ms.openlocfilehash: 634af0c7603ef9f3455933e7ef22ce06fe9f28e4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3510a80935bd19fc6ac36904003f744fd7e65cf5
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741398"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60841884"
 ---
 # <a name="create-network-intersite-policies-in-skype-for-business-server"></a>在站点内创建网络站点间Skype for Business Server
  

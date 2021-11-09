@@ -2,7 +2,7 @@
 title: 在服务器中配置 SNMP Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c4b4a736-3b2e-45b9-a965-19d22161ad57
 description: 将 SNMP 应用程序配置为在 Skype for Business Server 企业语音 中与 E9-1-1 一Skype for Business Server 企业语音。
-ms.openlocfilehash: b033a25d16e5f9ffae47111dbd0929441a735796
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9d173bf38f3462ce056b1517e4a5fa6f1a522212
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741448"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833938"
 ---
 # <a name="configure-an-snmp-application-in-skype-for-business-server"></a>在服务器中配置 SNMP Skype for Business Server
  

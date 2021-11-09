@@ -1,6 +1,6 @@
 ---
 title: 为用户设置“致电我”功能
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 ms.reviewer: macai, phedry
 manager: serdars
@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c9269de290ff4aec3380dccc7c114c7113256973
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 708b521d52dc3732e89ec1e3c27ab45c74481361
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766151"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842024"
 ---
 # <a name="set-up-the-call-me-feature-for-your-users"></a>为用户设置“致电我”功能
 
@@ -39,9 +39,9 @@ ms.locfileid: "60766151"
 
 ### <a name="join-a-meeting-by-using-phone-for-audio"></a>使用电话进行音频加入会议
 
-单击 **"** 加入"以 **加入** 会议，电话选择视频和音频选项屏幕上的音频，然后单击"立即 **加入"。** 在这里，用户可以进行会议呼叫并加入会议或手动拨入会议。
+单击 **"** 加入"以 **加入** 会议，电话选择 **视频和** 音频选项屏幕上的音频，然后单击"立即 **加入"。** 在这里，用户可以进行会议呼叫并加入会议或手动拨入会议。
 
-!["音频"选项电话屏幕截图。](media/set-up-the-call-me-feature-for-your-users-phone-audio.png)
+![音频选项电话屏幕截图。](media/set-up-the-call-me-feature-for-your-users-phone-audio.png)
 
 **让Teams会议呼叫**
 
@@ -57,9 +57,9 @@ ms.locfileid: "60766151"
 
 ### <a name="get-a-call-back-when-something-goes-wrong-with-audio-during-a-meeting"></a>在会议期间音频出现问题时进行回电
 
-如果用户在会议期间使用计算机时遇到音频问题，用户可以轻松地切换到使用手机进行音频处理。 Teams音频或设备问题发生时进行检测，通过显示"回叫我"选项重定向用户使用 **其手机。**
+如果用户在会议期间使用计算机时遇到音频问题，用户可以轻松地切换到使用手机进行音频处理。 Teams音频或设备问题发生时进行检测，通过显示"回叫我"选项重定向用户使用 **其** 手机。
 
-下面是未检测到麦克风时显示的消息和Teams回叫"选项的示例。
+下面是消息的示例，以及当未检测到 **麦克风时显示的**"Teams回叫"选项。
 
 !["回叫我"选项的屏幕截图。](media/set-up-the-call-me-feature-for-your-users-no-mic.PNG)
 
@@ -71,6 +71,6 @@ ms.locfileid: "60766151"
 
 - 为组织中安排会议的用户启用音频会议 (组织者) 。 有关详细信息，请参阅[为](set-up-audio-conferencing-in-teams.md)用户设置音频Teams[和管理](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)用户的音频会议设置Teams。
 
-- 会议组织者可以从会议中拨出。 若要了解有关详细信息，请参阅[管理](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)用户的音频会议设置Teams。
+- 会议组织者可以从会议中拨出。 若要了解有关详细信息，请参阅在 中管理[用户的音频Teams。](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
 
 如果会议组织者未启用会议拨出功能，则"选择视频和音频选项"屏幕上的 **电话** 音频选项对任何人都不可用，并且其他用户无法收到加入会议的呼叫。 对于启用了拨出功能的用户，加入会议后，他们可以加入其他人，通过"显示参与者"图标拨打 **其** 号码。

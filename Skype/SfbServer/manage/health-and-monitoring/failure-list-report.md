@@ -2,7 +2,7 @@
 title: 报告中的故障Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b6f3a605-e0c6-461e-b17a-41d8039ace9d
 description: Summary： Learn about the Failure List Report in Skype for Business Server.
-ms.openlocfilehash: 6853da551f65de835f6966cf0a59af57d80e1f75
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 37442d95c3a79bffbd79ebd74a793f5d3e1f3fb4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763630"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858289"
 ---
 # <a name="failure-list-report-in-skype-for-business-server"></a>报告中的故障Skype for Business Server 
  
-**摘要：** 了解报告中的故障列表Skype for Business Server。
+**摘要：** 了解 Skype for Business Server 中的故障列表报告。
   
 故障列表报告提供有关参与失败的对等会话或会议会话的单个参与者的信息。 此信息包括遇到问题的用户的 URI，以及与故障关联的 SIP 响应代码和诊断 ID。
   
@@ -45,7 +45,7 @@ ms.locfileid: "60763630"
     
 - 主要来源用户代理（会话）
     
-从故障列表报告中，可以通过单击对等会话的"会话[详细信息"](peer-to-peer-session-detail-report.md)指标Skype for Business Server中访问"对等会话详细信息报告"。 您还可以通过单击会议的"会议"指标来访问会议详细信息报告。
+从故障列表报告中，可以通过单击对等会话的"会话详细信息["指标](peer-to-peer-session-detail-report.md)，在 Skype for Business Server 中访问对等会话详细信息报告。 您还可以通过单击会议的"会议"指标来访问会议详细信息报告。
   
 ## <a name="making-the-best-use-of-the-failure-list-report"></a>充分利用故障列表报告
 
@@ -53,7 +53,7 @@ ms.locfileid: "60763630"
   
 为用户创建媒体时出现内部服务器错误。
   
-值得注意的是，故障列表报告未提供直接检索至少参与一个失败会话的所有用户的列表的直观方法，也不提供一种确定失败会话中通常涉及的用户的方法。  (首先，故障列表报告没有筛选功能。) 但是，如果导出数据并将其转换为逗号分隔值文件，可以使用 Windows PowerShell 查找类似这些问题的解答。 例如，假设您将数据保存到名为 .CSV 的文件C:\Data\Failure_List.csv。 根据该文件中保存的数据，此命令将列出至少一个失败会话中涉及的所有用户： 
+值得注意的是，故障列表报告未提供直接检索至少参与一个失败会话的所有用户的列表的直观方法，也不提供一种确定失败会话中通常涉及的用户的方法。  (首先，故障列表报告没有筛选功能。) 但是，如果您导出数据并将其转换为逗号分隔值文件，您可以使用 Windows PowerShell 查找类似这些问题的解答。 例如，假设您将数据保存到名为 .CSV 的文件C:\Data\Failure_List.csv。 根据该文件中保存的数据，此命令将列出至少一个失败会话中涉及的所有用户： 
   
 ```PowerShell
 $failures = Import-Csv -Path " C:\Data\Failure_List.csv"

@@ -2,7 +2,7 @@
 title: 在部署中新建和发布Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/15/2018
 audience: ITPro
@@ -17,18 +17,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 451c41a1-b8c5-4dc3-9e48-0da9ed5381a1
 description: 摘要：了解如何在安装新拓扑之前创建、发布和验证Skype for Business Server。 从 Microsoft 评估Skype for Business Server下载免费试用版 https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server ：。
-ms.openlocfilehash: 16fad4b920280ba5557dc612031d5abbfad7fe35
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e224df12ddb680dcec86611f2bce65e377e76c04
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751161"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60841864"
 ---
 # <a name="create-and-publish-new-topology-in-skype-for-business-server"></a>在部署中新建和发布Skype for Business Server
  
 **摘要：** 了解如何在安装新拓扑之前创建、发布和验证Skype for Business Server。 从 Microsoft 评估Skype for Business Server下载免费试用版 [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server) ：。
   
-必须先创建拓扑并Skype for Business Server拓扑，然后才能在拓扑中每台服务器上安装系统。 发布拓扑时，将拓扑信息加载到中央管理存储数据库中。 如果这是一Enterprise Edition池，则首次发布新拓扑时将创建中央管理存储数据库。 如果已Standard Edition，则需要在发布拓扑之前从部署向导运行"准备第一Standard Edition服务器"过程。 这将通过安装 Standard Edition Edition 实例并创建中央管理SQL Server Express来准备更新。 可以按任意顺序执行步骤 1 到步骤 5。 但是，您必须按照图中的概述顺序执行步骤 6、7 和 8 以及步骤 1 到步骤 5 之后。 How to create and publish a new topology is described in step 6 of 8.
+必须先创建拓扑并Skype for Business Server拓扑，然后才能在拓扑中每台服务器上安装系统。 发布拓扑时，将拓扑信息加载到中央管理存储数据库中。 如果这是一Enterprise Edition池，则首次发布新拓扑时将创建中央管理存储数据库。 如果已Standard Edition，则需要在发布拓扑之前从部署向导运行"准备第一Standard Edition服务器"过程。 这将通过安装 Standard Edition Edition SQL Server Express并创建中央管理存储，为更新做好准备。 可以按任意顺序执行步骤 1 到步骤 5。 但是，您必须按照图中的概述顺序执行步骤 6、7 和 8 以及步骤 1 到步骤 5 之后。 How to create and publish a new topology is described in step 6 of 8.
   
 ![概述图表。](../../media/c5c09ba2-c98b-4194-9857-7c3087c5560e.png)
   
@@ -37,7 +37,7 @@ ms.locfileid: "60751161"
 可以使用拓扑Skype for Business Server设计、定义、配置和发布拓扑。 此工具是在您安装本文前面介绍的管理工具时安装的。 创建拓扑时，可以做出许多不同的选择。 在此过程中，您将创建具有会议的基本拓扑。
   
 > [!IMPORTANT]
-> Skype for Business Server需要SQL Server才能运行。 主数据库称为中央管理存储。 如果要部署Enterprise Edition，则使用以下步骤发布拓扑时将创建这些数据库。 在这种情况下，拓扑生成器会要求您提供与安装SQL Server信息。 如果计划部署Standard Edition，则需要先安装 SQL Server Express Edition，然后才能定义和发布新拓扑。 若要安装 SQL Server Express Edition，应在将充当前端的服务器上打开部署向导，然后运行"准备第一Standard Edition服务器"。 单击"准备第一Standard Edition服务器"时，部署向导会自动安装 SQL Server Express Edition 并创建中央管理存储数据库。 
+> Skype for Business Server需要SQL Server才能运行。 主数据库称为中央管理存储。 如果要部署Enterprise Edition，则使用以下步骤发布拓扑时将创建这些数据库。 在这种情况下，拓扑生成器会要求您提供与安装SQL Server信息。 如果计划部署 Standard Edition，则需要先安装 SQL Server Express Edition，然后才能定义和发布新拓扑。 若要安装 SQL Server Express Edition，应在将充当前端的服务器上打开部署向导，然后运行"准备第一个Standard Edition服务器"。 单击"准备第一Standard Edition服务器"时，部署向导会自动安装 SQL Server Express Edition 并创建中央管理存储数据库。 
   
 ### <a name="create-a-new-topology"></a>创建新拓扑
 
@@ -50,7 +50,7 @@ ms.locfileid: "60751161"
 4. 选择拓扑配置文件的位置和文件名。
     
     > [!NOTE]
-    > 拓扑配置另存为拓扑生成器 XML (.tbxml) 文件。 发布拓扑时，将配置信息从文件推送到SQL Server数据库。 以后打开拓扑生成器时，可以将现有配置从 SQL Server 直接下载到拓扑生成器中，并将其发布回 SQL Server 或将其另存为拓扑生成器配置文件。 
+    > 拓扑配置另存为拓扑生成器 XML (.tbxml) 文件。 发布拓扑时，将配置信息从文件推送到SQL Server数据库。 将来打开拓扑生成器时，可以将现有配置从 SQL Server 直接下载到拓扑生成器中，并将其发布回 SQL Server 或将其另存为拓扑生成器配置文件。 
   
 5. 在"**定义主域"屏幕上**，输入 **主 SIP 域**，然后单击"下一 **步"。** 在此例中，我们使用 `contoso.local` ，如图所示。
     
@@ -58,7 +58,7 @@ ms.locfileid: "60751161"
   
 6. 添加任何其他支持的 SIP 域，然后单击"下一 **步"。**
     
-7. 为网站 **位置** 的第 **一** 个 (输入名称和) ，然后单击"下一步"，如图所示。 
+7. 输入第 **一** 个网站 **名称** 位置 (说明) ，然后单击"下一步"，如图所示。 
     
      ![定义第一个网站 (位置) 。](../../media/d8b6c54a-2011-4efb-97fb-a4de0f11303c.png)
   
@@ -98,9 +98,9 @@ ms.locfileid: "60751161"
     
     有两种可能的方案可用于部署和关联服务器角色。
     
-    方案一，为新的安装定义新的拓扑。 可以通过以下两种方法之一完成安装：
+    方案一，为新的安装定义新的拓扑。 可以通过以下两种方式之一完成安装：
     
-   - 将复选框保留为清除，并定义拓扑。 发布、配置和测试前端服务器角色和后端服务器角色后，可以再次运行拓扑生成器以向拓扑中添加角色服务器。 通过使用此策略，可以测试前端池和运行 SQL Server，而不需要其他角色的额外复杂性。 完成初始测试后，可以再次运行拓扑生成器以选择需要部署的角色。
+   - 将复选框保留为清除，并定义拓扑。 发布、配置和测试前端服务器角色和后端服务器角色后，可以再次运行拓扑生成器以向拓扑中添加角色服务器。 通过使用此策略，可以测试前端池和运行前端SQL Server其他角色不会增加复杂性。 完成初始测试后，可以再次运行拓扑生成器以选择需要部署的角色。
     
    - 选择需要安装的角色，然后设置硬件以适应所选择的角色。
     
@@ -108,11 +108,11 @@ ms.locfileid: "60751161"
     
    - 在这种情况下，您将选择要部署的角色或将其与新的前端服务器关联。 无论在哪种情况下，都需要定义角色，设置任何所需硬件，然后继续安装。
     
-7. 接下来，将SQL Server拓扑中使用的存储。 此示例使用 Default 实例。 有关高可用性等SQL Server功能的信息，请参阅 Plan for high [availability and disaster recovery in Skype for Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)。
+7. 接下来，将SQL Server拓扑中使用的存储。 此示例使用 Default 实例。 有关高可用性SQL Server，请参阅 Plan for high availability and [disaster recovery in Skype for Business Server。](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)
     
    - 若要使用已在拓扑中定义的现有 SQL Server 存储，请选择“SQL 存储”中的一个实例。
     
-   - 若要定义新的 SQL Server 实例以存储池信息，请单击"新建"，然后在"定义新的SQL Server存储"对话框中指定 SQL **FQDN。** 
+   - 若要定义新的 **SQL Server存储池** 信息的实例，请单击"新建"，然后在"定义新的SQL Server存储"对话框中指定 SQL **FQDN。** 
     
    - 要指定 SQL Server 实例的名称，请选择“命名实例”，然后指定实例的名称。
     
@@ -121,13 +121,13 @@ ms.locfileid: "60751161"
    - 若要使用SQL镜像，请选择"启用 **SQL镜像"，** 然后选择现有实例，或创建新实例。
 
      > [!NOTE]
-     > SQL镜像在 Skype for Business Server 2015 中可用，但在 Skype for Business Server 2019 中不再受支持。 AlwaysOn 可用性组、AlwaysOn 故障转移群集实例 (FCI) ，SQL故障转移群集方法在 Skype for Business Server 2019 中是首选。
+     > SQL镜像在 Skype for Business Server 2015 中可用，但在 Skype for Business Server 2019 中不再受支持。 AlwaysOn 可用性组、AlwaysOn 故障转移群集实例 (FCI) 和 SQL 故障转移群集方法在 Skype for Business Server 2019 中是首选。
     
      对于此示例，我们输入 SQL Server **FQDN，** 并配置任何相关的高可用性设置，然后单击 **"确定**"，如图所示。
     
      ![创建SQL Server存储。](../../media/12822cf9-8608-43c0-94ce-2ca8b3a0ffd5.png)
   
-8. 决定是否要启用镜像SQL Server或SQL Server镜像见证，然后单击"下一步 **"。**
+8. 决定是否要启用镜像SQL Server或SQL Server镜像见证，然后单击"下一 **步"。**
     
 9. 定义想要使用的文件共享。
     
@@ -138,7 +138,7 @@ ms.locfileid: "60751161"
      对于此示例，我们将单击"定义 **新的文件存储"，** 输入文件服务器 **FQDN** 和 **文件共享**，然后单击"下一步 **"。**
     
      > [!NOTE]
-     > 可以并Skype for Business Server文件共享，但出于性能原因不建议这样做。 请注意，此示例中的文件共享位于将充当文件共享的单个专用服务器上。 但是，建议使用其他更可靠的文件共享系统，如使用 Windows Server 2012 R2 的 DFS。 有关受支持的文件共享系统的详细信息，请参阅 Requirements [for your Skype for Business environment](../../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md)。 有关创建文件共享的信息，请参阅 Create [a file share in Skype for Business Server](create-a-file-share.md)。 可以在尚未创建文件共享的情况下定义文件共享。 在发布拓扑之前，您将需要在定义的位置创建文件共享。 
+     > 可以并Skype for Business Server文件共享，但出于性能原因不建议这样做。 请注意，此示例中的文件共享位于将充当文件共享的单个专用服务器上。 但是，建议使用其他更强大的文件共享系统，如使用 Windows Server 2012 R2 的 DFS。 有关受支持的文件共享系统的详细信息，请参阅 Requirements [for your Skype for Business environment](../../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md)。 有关创建文件共享的信息，请参阅 Create [a file share in Skype for Business Server](create-a-file-share.md)。 可以在尚未创建文件共享的情况下定义文件共享。 在发布拓扑之前，您将需要在定义的位置创建文件共享。 
   
 10. 在"指定 Web 服务 URL"页上，必须决定是否需要覆盖内部 Web 服务池基 URL。 此覆盖的原因与负载平衡有关。 基本 SIP 流量可以通过简单的 DNS 负载平衡进行负载平衡。 但是，HTTP/S Web 服务网络流量必须使用受支持的硬件或软件负载平衡解决方案。 有关支持的负载平衡器，请参阅[基础结构Skype for Business。](../../../SfbPartnerCertification/certification/infra-gateways.md) 在此例中，我们将 DNS 负载平衡用于 SIP 流量和支持的软件负载平衡解决方案。 由于我们按这种方式划分流量，因此需要覆盖内部 Web 服务池 FQDN。 或者，如果我们有一个顶线负载平衡器并通过它发送所有流量，而不是对 SIP 流量使用 DNS 负载平衡，则不需要覆盖 Web 服务 URL。 
     

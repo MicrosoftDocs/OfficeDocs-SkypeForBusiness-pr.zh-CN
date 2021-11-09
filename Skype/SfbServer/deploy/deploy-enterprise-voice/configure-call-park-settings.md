@@ -2,7 +2,7 @@
 title: 在呼叫管理中配置呼叫Skype for Business
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3bed9d09-8363-4fff-a220-f0f6d3a81241
 description: 修改呼叫管理中的呼叫Skype for Business Server 企业语音。
-ms.openlocfilehash: 81d523991f1df5d9bc24f19d212ae63fa5b0beb1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 686484fd42982f2b64623b652851482b85d3e1b8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759134"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833928"
 ---
 # <a name="configure-call-park-settings-in-skype-for-business"></a>在呼叫管理中配置呼叫Skype for Business
 
@@ -53,7 +53,7 @@ ms.locfileid: "60759134"
    ```
 
    > [!TIP]
-   > 使用 **Get-CsSite** cmdlet 可标识站点。 有关详细信息，请参阅Skype for Business Server命令行管理程序文档。
+   > 使用 **Get-CsSite** cmdlet 可标识站点。 有关详细信息，请参阅命令行Skype for Business Server命令行管理程序文档。
 
     例如：
 

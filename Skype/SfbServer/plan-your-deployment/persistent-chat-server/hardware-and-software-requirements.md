@@ -2,7 +2,7 @@
 title: Skype for Business Server 2015 中的持久聊天服务器的硬件和软件要求
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 7/19/2018
 audience: ITPro
@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 692b7d99-1bc9-4c99-a050-2bc2be8688b2
-description: 摘要：阅读本主题，了解 2015 年 2 月持久聊天服务器的Skype for Business Server要求。
-ms.openlocfilehash: f0abc9bde21a4bd5b8e198edad76ff420ce8074e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 摘要：阅读本主题，了解 2015 年持久聊天服务器的Skype for Business Server要求。
+ms.openlocfilehash: d911cdeb3aefddbf37d8857e86207fe84c4dce98
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765170"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833286"
 ---
 # <a name="hardware-and-software-requirements-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的持久聊天服务器的硬件和软件要求
  
-**摘要：** 阅读本主题，了解 2015 年 2 月持久聊天服务器的Skype for Business Server要求。
+**摘要：** 阅读本主题以了解 2015 年 10 月持久聊天服务器的Skype for Business Server要求。
   
-持久聊天服务器可以与 Skype for Business Server 2015 或 Enterprise Edition Standard Edition 一起安装。 要求取决于您已安装的 Skype for Business Server 2015 版本，以及您的业务性能要求。 Enterprise Edition可支持多达 80，000 个并发用户;Standard Edition可支持多达 20，000 个并发用户。 持久聊天包括前端组件和后端数据库SQL组件。
+持久聊天服务器可以与 Skype for Business Server 2015 或 Enterprise Edition Standard Edition 一起安装。 要求取决于您已安装的 Skype for Business Server 2015 版本，以及您的业务性能要求。 Enterprise Edition可支持多达 80，000 个并发用户;Standard Edition最多支持 20，000 个并发用户。 持久聊天包括前端组件和后端数据库SQL组件。
   
 在部署持久聊天服务器之前，必须确保满足以下硬件和软件要求：
   
@@ -34,7 +34,7 @@ ms.locfileid: "60765170"
     
     有关支持的操作系统和数据库软件以及更新Windows的详细信息，请参阅 Server requirements for [Skype for Business Server 2015。](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
     
-- Skype for Business Server 2015 前端服务器。 前端服务器是会话初始协议 (SIP) 的基础，这可以使运行持久聊天服务器的计算机与持久聊天功能之间的通信成为可能。 
+- Skype for Business Server 2015 前端服务器。 前端服务器是会话初始协议 (SIP) 路由的基础，使运行持久聊天服务器的计算机与持久聊天功能之间的通信成为可能。 
     
 - 消息队列软件。 由持久聊天服务器和持久聊天合规性服务使用（如果已部署）。
     
@@ -47,7 +47,7 @@ ms.locfileid: "60765170"
 
 前端服务器要求取决于您是使用 Skype for Business Server 2015 Enterprise Edition部署持久聊天Standard Edition。
   
-- 如果要使用 Skype for Business Server 2015 Enterprise Edition 部署持久聊天服务器，可以在 Enterprise Edition 池中的一台或多台独立计算机上部署持久聊天服务器前端服务器。 您无法将持久聊天前端服务器并Skype for Business Server 2015 前端服务器上。 
+- 如果要使用 Skype for Business Server 2015 Enterprise Edition部署持久聊天服务器，可以在 Enterprise Edition 池中的一台或多台独立计算机上部署持久聊天服务器前端服务器。 您无法将持久聊天前端服务器并Skype for Business Server 2015 前端服务器上。 
     
     单个持久聊天服务器前端服务器可以支持 20，000 个活动用户。 您可以使用最多 4 个活动前端的持久聊天服务器池，从而总共支持 80，000 个并发用户。 
     
@@ -77,7 +77,7 @@ ms.locfileid: "60765170"
 
 ## <a name="persistent-chat-server-certificate-requirements"></a>持久聊天服务器证书要求
 
-有关获取证书、创建 SQL Server 数据库和创建文件存储的详细信息，请参阅 Deploy Skype for Business Server [2015](../../deploy/deploy.md)。 
+有关获取证书、创建SQL Server数据库和创建文件存储的详细信息，请参阅[Deploy Skype for Business Server 2015](../../deploy/deploy.md)。 
   
 ## <a name="for-more-information"></a>详细信息
 
