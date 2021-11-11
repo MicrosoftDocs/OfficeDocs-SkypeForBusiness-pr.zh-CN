@@ -21,34 +21,33 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 了解哪些桌面电话和会议电话经过认证Microsoft Teams产生最佳结果。
-ms.openlocfilehash: a69393b4f433a5a057a4481db04e97eafee47f3f
-ms.sourcegitcommit: 6da1531dda6a0a3eecdca40e682783cc81c0d3e0
+ms.openlocfilehash: 85a408ead20a8a2c2e9660c6748d616bd8b8c922
+ms.sourcegitcommit: 115e44f33fc7993f6eb1bc781f83eb02a506e29b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60785055"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "60909583"
 ---
-# <a name="microsoft-teams-certified-devices"></a>Microsoft Teams认证的设备
+# <a name="microsoft-teams-certified-devices"></a>Microsoft Teams认证设备
 
-认证Microsoft Teams计划可确保使用经认证的桌面电话和会议电话的客户体验高质量的音频呼叫和会议体验。
+Microsoft Teams认证计划可确保使用经认证的桌面电话和会议电话的客户体验高质量的音频呼叫和会议体验。
 
-Microsoft Teams认证计划可确保更高质量的栏，具有更高的性能目标和音频质量指标。 合作伙伴正在努力满足这个更高的要求，并且符合认证要求的设备符合要求。 我们的一些合作伙伴还致力于在 Skype for Business 与手机相同的硬件上为 Teams 服务提供支持。 
+Microsoft Teams认证计划可确保更高质量的栏，具有更高的性能目标和音频质量指标。 合作伙伴正在努力满足这个更高的要求，并且符合认证要求的设备符合要求。 我们的一些合作伙伴还致力于在手机Skype for Business硬件上为 Teams 服务提供支持。 
 
 ## <a name="currently-certified-teams-phones"></a>当前认证的Teams手机
 
-以下设备在手机认证Microsoft Teams认证计划下进行认证：
+以下设备在手机认证计划Microsoft Teams认证：
 
 |设备模型    | 固件版本    | 发布日期
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|
 | 具有或不带话筒 (的 Crestron UC-P10-T)     | `1.0.0.80`       | 2021 年 5 月             |
-| 带和不带话筒 (的 Crestron UC-P8-T)      | `1.0.0.56`       | 2021 年 2 月 |
-| 具有或不带话筒 (的 Crestron UC-P10-C-T)   | `1.0.0.80`       | 2021 年 5 月                     |
-| 具有和不带话筒 (的 Crestron UC-P8-C-T)    | `1.0.0.80`       | 2021 年 5 月                     |
+| 具有和不带话筒 (的 Crestron UC-P8-T)      | `1.0.0.56`       | 2021 年 2 月 |
+| 带和不带话筒的 (UC-P10-C-T)   | `1.0.0.80`       | 2021 年 5 月                     |
+| 带或不带话筒的 (UC-P8-C-T)    | `1.0.0.80`       | 2021 年 5 月                     |
 | Yealink MP52                           | `145.15.0.6 `                                              | 2021 年 4 月                   |
 | AudioCodes C435HD                      | `1.12.33`                                                  | 2021 年 4 月                   |
-| AudioCodes C470HD                      | `1.8.293`                                                  | 2021 年 1 月                 |
-| AudioCodes C450HD                      | `C450HD_TEAMS_0.225`                                       | 2019 年 3 月                   |
 | AudioCodes C448HD (CAP 模式仅)       | `C450HD_TEAMS_0.225`                                       | 2019 年 3 月                   |
+| AudioCodes C455HD                      | `1.14.404`                                                 | 2021 年 11 月                |
 | Crestron UC-2                          |`1.0.1.46`                                                 | 2020 年 7 月                    |
 | Lenovo ThinkSmart View                 | `CD-18781Y.200410.067`                                     | 2020 年 4 月                   |
 | Poly Trio C60、Trio C60 NR、Trio C60 ND | `5.9.3.6155`                                              | 2020 年 4 月                   |
@@ -79,9 +78,9 @@ Microsoft Teams认证计划可确保更高质量的栏，具有更高的性能�
 | Poly Studio X30         | `3.1.1.216109`     | 2020 年 6 月     | 3m x 3m (3 米的专注)  </br> 小型会议室 (450 万 x 450 万)  |
 | Poly Studio X50         | `3.1.1.216109`     | 2020 年 6 月     | 3m x 3m (3 米的专注)  </br> 小型会议室 (450 万 x 450 万)  |
 | Poly TC8                | `3.3.2.210441`     | 2021 年 3 月    | 与 Poly Studio X30 和 Poly Studio X50 兼容 |
-| Yealink VC210           | `118.15.0.14`      | 2020 年 2 月 | 3m x 3m (3 米的专注)  </br> 小型会议室 (450 万 x 450 万)  |
+| Yealink VC210           | `118.15.0.14`      | 2020 年 2 月 | 焦点空间 (3 米 x 3 米)  </br> 小型会议室 (450 万 x 450 万)  |
 
-## <a name="currently-certified-teams-displays"></a>当前已通过认证的Teams显示器
+## <a name="currently-certified-teams-displays"></a>当前认证的Teams显示器
 
 以下设备在 Microsoft Teams Android 认证计划下认证：
 
@@ -98,7 +97,7 @@ Microsoft Teams认证计划可确保更高质量的栏，具有更高的性能�
 |Crestron TSS-1070 | `1.003.0082` |2021 年 2 月 |
 |Yealink RoomPanel | `147.15.0.1` |2021 年 5 月 |
 
-### <a name="product-release-information-for-teams-phones"></a>手机产品发布Teams信息
+### <a name="product-release-information-for-teams-phones"></a>适用于手机的产品Teams信息
 
 以下是最新的 Teams 手机应用和固件版本。
 
@@ -106,7 +105,7 @@ Microsoft Teams认证计划可确保更高质量的栏，具有更高的性能�
 
 | 产品发布 | 发布日期  | Microsoft Teams应用版本 | 公司门户 版本 | 管理员代理版本 |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
-| 2021 更新 #3  | 2021 年 11 月 3 日   | 1449/1.0.94.2021101205 | 5.0.5304.0 | 298 |
+| 2021 更新 #3  | 2021 年 11 月 3 日   | `1449/1.0.94.2021101205` | `5.0.5304.0` | `298` |
 | 2021 更新#2A | 2021 年 6 月 10 日  |`1449/1.0.94.2021052803`|  `5.0.5088.0` |  `1.0.0.202103160138.product (256)` |
 | 2021 更新 #2  | 2021 年 6 月 8 日  |`1449/1.0.94.2021051303`|  `5.0.5088.0` |  `1.0.0.202103160138.product (256)` |
 | 2021 更新#1A | 2021 年 4 月 5 日  |`1449/1.0.94.2021033002`|  `5.0.5045.0` |  `1.0.0.202101280722.product (253)` |
@@ -119,20 +118,20 @@ Microsoft Teams认证计划可确保更高质量的栏，具有更高的性能�
 
 #### <a name="firmware-versions"></a>固件版本
 
-在设备上安装新的固件版本时，可以确定 Microsoft Teams 应用、公司门户和管理代理的相应安装版本。 在"包含的产品发布 **"** 列中查找产品发布，然后在之前的"应用版本"表中 **查找产品** 发布。
+在设备上安装新的固件版本时，可以确定 Microsoft Teams 应用、公司门户和管理代理的相应安装版本。 在"包含的产品发布"列中查找 **产品发布，** 然后在之前的"应用版本"表中 **查找产品** 发布。
 
 | 设备模型        | 固件版本     | 包含的产品发布  |
 |:--------------------|:---------------------|:-------------------------|
-|Audiocodes C448HD  | C448HD_TEAMS_1.14.449 | 2021 更新 #3  |
-|Audiocodes C450HD  | C450HD_TEAMS_1.14.449 | 2021 更新 #3  |
-|Audiocodes C470HD  | C470HD_TEAMS_1.14.449 | 2021 更新 #3  |
-|Poly Trio C60      | 7.1.3.0985            | 2021 更新 #3  |
-|Poly CCX400/CCX500/CCX600 | 7.1.3.0991     | 2021 更新 #3  |
-|Crestron UC-2      | 1.0.4.57              | 2021 更新 #3  |
-|Yealink T55A/T56A/T58A   | 58.15.0.143     | 2021 更新 #3  |
-|Yealink MP54/MP56/MP58   | 122.15.0.60     | 2021 更新 #3  |
-|Yealink VP59             | 91.15.0.77      | 2021 更新 #3  |
-|Yealink CP960            | 73.15.0.139     | 2021 更新 #3  |
+|Audiocodes C448HD  | `C448HD_TEAMS_1.14.449` | 2021 更新 #3  |
+|Audiocodes C450HD  | `C450HD_TEAMS_1.14.449` | 2021 更新 #3  |
+|Audiocodes C470HD  | `C470HD_TEAMS_1.14.449` | 2021 更新 #3  |
+|Poly Trio C60      | `7.1.3.0985`            | 2021 更新 #3  |
+|Poly CCX400/CCX500/CCX600 | `7.1.3.0991`     | 2021 更新 #3  |
+|Crestron UC-2      | `1.0.4.57`              | 2021 更新 #3  |
+|Yealink T55A/T56A/T58A   | `58.15.0.143`     | 2021 更新 #3  |
+|Yealink MP54/MP56/MP58   | `122.15.0.60`     | 2021 更新 #3  |
+|Yealink VP59             | `91.15.0.77`      | 2021 更新 #3  |
+|Yealink CP960            | `73.15.0.139`     | 2021 更新 #3  |
 | Poly Trio C60   | `7.0.3.0517`  | 2021 更新 #2                        |
 | Poly CCX400/CCX500/CCX600   | `7.0.3.0515` | 2021 更新 #2                     |
 | 音频代码 C448HD/C450HD/C470HD   | `1.10.143`  | 2021 更新 #2           |
@@ -165,7 +164,7 @@ Microsoft Teams认证计划可确保更高质量的栏，具有更高的性能�
 
 请参阅[Microsoft Teams显示](teams-displays.md)。
 
-### <a name="product-release-information-for-teams-rooms-on-android"></a>Android 版 Teams 会议室产品发布信息
+### <a name="product-release-information-for-teams-rooms-on-android"></a>Android 上适用于 Teams 会议室 的产品发布信息
 
 以下是 Android 应用和Teams 会议室的最新版本。
 
@@ -183,7 +182,7 @@ Microsoft Teams认证计划可确保更高质量的栏，具有更高的性能�
 
 #### <a name="firmware-versions"></a>固件版本
 
-在设备上安装新的固件版本时，可以通过在"包含的产品发布"列中查找产品发布来确定相应的 Microsoft Teams 应用、公司门户 和管理代理安装 **的版本**。 然后，在上面的"应用版本 **"表中查找产品** 版本。
+在设备上安装新的固件版本时，可以通过在"包含的产品发布"列中查找产品版本来确定相应的 Microsoft Teams 应用、公司门户 和管理代理安装 **的版本**。 然后，在上面的"应用版本 **"表中查找产品** 版本。
 
 | 设备模型  | 固件版本 | 包含的产品发布 |
 |:--------------|:-----------------|:-------------------------|
@@ -224,7 +223,7 @@ Microsoft Teams认证计划可确保更高质量的栏，具有更高的性能�
 
 #### <a name="firmware-versions"></a>固件版本
 
-在设备上安装新的固件版本时，可以通过在"包含的产品发布"列中查找产品发布来确定相应的 Microsoft Teams 应用、公司门户 和管理代理安装 **的版本**。 然后，在上面的"应用版本 **"表中查找产品** 版本。
+在设备上安装新的固件版本时，可以通过在"包含的产品发布"列中查找产品版本来确定相应的 Microsoft Teams 应用、公司门户 和管理代理安装 **的版本**。 然后，在上面的"应用版本 **"表中查找产品** 版本。
 
 | 设备模型  | 固件版本 | 包含的产品发布|
 |:--------------|:-----------------|:-------------------------|
@@ -243,7 +242,7 @@ Microsoft Teams认证计划可确保更高质量的栏，具有更高的性能�
 
 #### <a name="firmware-versions"></a>固件版本
 
-在设备上安装新的固件版本时，可以通过在"包含的产品发布"列中查找产品发布来确定相应的 Microsoft Teams 应用、公司门户 和管理代理安装 **的版本**。 然后，在上面的"应用版本 **"表中查找产品** 版本。
+在设备上安装新的固件版本时，可以通过在"包含的产品发布"列中查找产品版本来确定相应的 Microsoft Teams 应用、公司门户 和管理代理安装 **的版本**。 然后，在上面的"应用版本 **"表中查找产品** 版本。
 
 | 设备模型  | 固件版本 | 包含的产品发布|
 |:--------------|:-----------------|:-------------------------|
@@ -265,6 +264,6 @@ Microsoft Teams许可证可以作为订阅或订阅[Microsoft 365 Office 365的�
 
 如果你是希望加入认证计划的供应商，请参阅 [如何加入](/skypeforbusiness/certification/how-to-join) 了解要求和可用计划。
 
-[探索Microsoft Teams手机和认证设备。](https://products.office.com/microsoft-teams/across-devices/devices)
+[了解Microsoft Teams和认证设备。](https://products.office.com/microsoft-teams/across-devices/devices)
 
 [Teams和Skype互操作性](../teams-skype-interop.md)
