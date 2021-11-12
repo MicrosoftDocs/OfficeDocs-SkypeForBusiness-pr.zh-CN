@@ -21,17 +21,14 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 了解如何将呼叫路由到组织中未分配号码。
-ms.openlocfilehash: 2574a0ac734ed6caee1eadf5a5ee006111713055
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 93d9ce289820bdcf9bb4a1e13e78bb8794b77dbd
+ms.sourcegitcommit: bdca3b5eb35a17b27c5a052d83ab229b7c911dd4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536993"
+ms.lasthandoff: 11/12/2021
+ms.locfileid: "60947499"
 ---
 # <a name="routing-calls-to-unassigned-numbers"></a>将呼叫路由到未分配号码
-
-> [!NOTE]
-> 此功能以公共预览版提供。
 
 作为管理员，可以将呼叫路由到组织中未分配号码。 例如，你可能希望将调用路由到未分配号码，如下所示： 
 
