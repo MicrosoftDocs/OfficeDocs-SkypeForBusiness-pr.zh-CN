@@ -1,5 +1,5 @@
 ---
-title: Teams虚拟访问 - 管理员报告
+title: Teams虚拟访问 - EHR 连接器管理员报告
 author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
@@ -23,18 +23,18 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: 查看 EHR 连接器Teams管理员报告
-ms.openlocfilehash: 7ec22bdfd7a73ba39c9e94d0c65f2da6f1f5f973
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 256a93dc9e78036659eccf86c54d9da62f4277bb
+ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858759"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60959881"
 ---
-# <a name="microsoft-teams-ehr-connector-admin-reports"></a>Microsoft TeamsEHR 连接器管理员报告
+# <a name="microsoft-teams-ehr-connector-admin-reports"></a>Microsoft Teams EHR 连接器管理员报告
 
-"Microsoft Teams EHR (连接器) "管理报告"对话框提供了使用数据的快速易读视图。
+"Microsoft Teams EHR (连接器管理员) 报表对话框提供了使用数据的快速易读视图。
 
-可以通过访问"Microsoft Teams管理中心"仪表板并查看Microsoft Teams查看 EHR 连接器管理员报告。
+可以通过访问 Teams 管理中心仪表板并查看对话框Microsoft Teams EHR 连接器管理员报告。
 
 从管理中心仪表板Microsoft Teams报表。
 
@@ -48,6 +48,7 @@ ms.locfileid: "60858759"
 
 可以使用报表对话框购买更多虚拟访问。
 
-## <a name="related-topics"></a>相关主题
+## <a name="related-articles"></a>相关文章
 
-[Teams虚拟访问](ehr-admin.md)
+- [使用证书进行虚拟Teams - 集成到 Cerner EHR](ehr-admin-cerner.md)
+- [使用虚拟访问Teams - 集成到长篇 EHR 中](ehr-admin.md)

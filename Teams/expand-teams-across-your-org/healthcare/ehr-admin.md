@@ -1,8 +1,8 @@
 ---
-title: Teams 虚拟就诊
-author: HowlinWolf-92
-ms.author: v-mahoffman
-manager: serdars
+title: 使用虚拟访问Teams - 集成到长篇 EHR 中
+author: LanaChin
+ms.author: v-lanachin
+manager: samanro
 audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
@@ -22,22 +22,22 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
-description: 使用 Microsoft Teams 设置虚拟就诊系统
-ms.openlocfilehash: 3ba0ff974f9a8381eab054bb92468762dc1d8cc8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: 了解如何集成 Teams EHR 连接器，使贵组织的医疗保健提供商能够直接从长篇 EHR 系统与 Teams 中的患者或其他提供商进行虚拟访问。
+ms.openlocfilehash: 48d2cfd69dd9d5cd8be2fcd5a0c29fca7162d246
+ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859729"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60960041"
 ---
-# <a name="virtual-visits-with-teams---integration-into-ehr"></a>通过 Teams 进行虚拟就诊 - 集成到 EHR
+# <a name="virtual-visits-with-teams---integration-into-epic-ehr"></a>使用虚拟访问Teams - 集成到长篇 EHR 中
 
-Microsoft Teams使用 EHR (EHR) 连接器，医生可以直接从 EHR 系统启动虚拟患者住院或咨询Teams提供商。 Microsoft Teams 基于 Microsoft 365 云进行构建，可在支持 HIPAA、HITECH 认证等合规性要求的单个中心内通过聊天、视频、语音和医疗保健工具，实现简单、安全的协作和沟通。
-利用 Teams 的沟通和协作平台，临床医生可轻松解决零碎的体制问题，从而腾出更多时间提供最好的医治。 Microsoft TeamsEHR (EHR) 连接器可以：
+Microsoft Teams EHR) 连接器的 EHR (电子健康记录使医生能够轻松地直接从 EHR 系统启动虚拟患者Teams或咨询其他提供商。 Microsoft Teams 基于 Microsoft 365 云进行构建，可在支持 HIPAA、HITECH 认证等合规性要求的单个中心内通过聊天、视频、语音和医疗保健工具，实现简单、安全的协作和沟通。
+利用 Teams 的沟通和协作平台，临床医生可轻松解决零碎的体制问题，从而腾出更多时间提供最好的医治。 Microsoft Teams EHR (连接器) 电子运行状况记录：
 
-- 从Teams EHR 系统通过集成的医疗工作流启动虚拟访问。
-- 使患者能够从患者Teams内加入虚拟访问。
-- 将有关虚拟访问的元数据写回到 EHR 系统Teams与会者连接和断开连接时进行记录，并启用自动审核和记录保留。
+- 从Teams EHR 系统中通过集成的医疗工作流启动虚拟访问。
+- 使患者能够加入Teams门户中的虚拟访问。
+- 将有关虚拟访问的元数据写回到 EHR Teams，以记录与会者何时连接和断开连接，以及启用自动审核和记录保留。
 
   请观看此视频，了解如何从 EHR 门户管理虚拟就诊。
 
@@ -49,7 +49,7 @@ Microsoft Teams使用 EHR (EHR) 连接器，医生可以直接从 EHR 系统启�
 
 - 可以访问并使用 [Epic 的 App Orchard 商城](https://apporchard.epic.com/Gallery?id=6153)中的 Microsoft Teams 应用。
 
-- Microsoft Cloud for Healthcare 的活动订阅或 EHR 连接器Microsoft Teams套餐的订阅， (仅在生产测试期间) 。
+- 活动订阅 Microsoft Cloud for Healthcare 或订阅 Microsoft Teams EHR 连接器独立产品/ (仅在生产测试期间) 。
 
 - 用户必须具有包含 Microsoft Teams 会议的适当 Microsoft 365 或 Office 365 许可证。
 
@@ -79,7 +79,7 @@ Microsoft Teams使用 EHR (EHR) 连接器，医生可以直接从 EHR 系统启�
 
 ### <a name="launch-the-ehr-connector-configuration-portal"></a>[启动 EHR 连接器配置门户](#launch-the-ehr-connector-configuration-portal)
 
-通过启动 EHR 连接器配置门户，将医疗保健组织配置为Microsoft Teams虚拟访问。 可配置一个或多个组织来测试集成。 在配置门户中配置测试和生产 URL。 在投入生产之前，请从 Epic 的测试环境测试集成。
+首先启动 EHR 连接器配置门户，将医疗保健组织配置为Microsoft Teams虚拟访问。 可配置一个或多个组织来测试集成。 在配置门户中配置测试和生产 URL。 在投入生产之前，请从 Epic 的测试环境测试集成。
   
 - EHR 连接器配置 URL：[https://ehrconnector.teams.microsoft.com](https://ehrconnector.teams.microsoft.com)
 
@@ -99,7 +99,7 @@ Microsoft Teams使用 EHR (EHR) 连接器，医生可以直接从 EHR 系统启�
 
 ### <a name="approve-or-view-configuration"></a>[批准或查看配置](#approve-or-view-configuration)
 
-已添加为审批者医疗保健组织的 Epic 客户分析师现在必须使用上一步骤中的同一 EHR 连接器 URL 使用其 Microsoft 365 凭据登录。 验证成功后，审批者必须使用其 Epic 凭据登录以验证 Epic 组织。
+已添加为审批者医疗保健组织的 Epic 客户分析师现在必须使用上一步骤中的同一 EHR 连接器 URL 来使用其 Microsoft 365 凭据登录。 验证成功后，审批者必须使用其 Epic 凭据登录以验证 Epic 组织。
 
 > [!Note]
 > 你组织的 Microsoft 365 管理员和 Epic 客户分析员可以是同一个人。 在这种情况下，请将你自己的用户名添加为审批者。 你仍需要登录到 Epic 验证你的访问权限。 Epic 登录仅用于验证 FHIR 基本 URL。 Microsoft 不会通过此登录来存储凭据或访问 EHR 数据。
@@ -179,4 +179,4 @@ Microsoft Teams EHR 连接器不会存储或传输来自 EHR 系统的任何可�
 
 ## <a name="related-topics"></a>相关主题
 
-[Teams虚拟访问](ehr-admin-reports.md)
+[Teams EHR 连接器管理员报告](ehr-admin-reports.md)

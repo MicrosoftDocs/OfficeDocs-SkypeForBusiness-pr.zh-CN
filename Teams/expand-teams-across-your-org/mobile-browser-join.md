@@ -19,23 +19,26 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: hafarmer
 description: 了解在移动浏览器中Teams虚拟访问的加入体验。
-ms.openlocfilehash: a0c7bc626414280a8cba5ea55aaa9062ef190ca3
-ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
+ms.openlocfilehash: f8307902d7689cf56f10f3705ca3d5611a0f3d11
+ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2021
-ms.locfileid: "60249754"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60960111"
 ---
 # <a name="manage-the-join-experience-for-teams-virtual-visits-on-mobile-browsers"></a>管理在移动浏览器中Teams虚拟访问的加入体验
 
-Microsoft Teams，用户无需下载约会即可在移动设备上加入Teams。 为获得更无缝的体验，与会者可以从移动浏览器加入约会，例如医疗保健访问、财务咨询、教师办公时间等。 与会者无需在 Android 或 iOS 移动设备上Teams移动应用。
+Microsoft Teams，用户无需下载约会即可轻松地在移动设备上加入Teams。 为获得更无缝的体验，与会者可以从移动浏览器加入约会，例如医疗保健访问、财务咨询、教师办公时间等。 与会者无需在 Android 或 iOS 移动设备上Teams移动应用。
 
 使用移动浏览器加入时，当与会者从移动设备加入约会时，系统不会提示他们下载Teams。 相反，Teams在移动浏览器中打开，与会者可以在其中选择"立即 **加入**"以加入。 使用此功能时，请记住，如果Teams安装在与会者的移动设备上，Teams浏览器中打开，而不是在应用中打开。
 
 目前，移动浏览器加入可用于通过以下方式计划的约会：
 
 - [Bookings 应用](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?ui=en-us&rs=en-us&ad=us#PickTab=Bookings)
-- [Microsoft TeamsEHR (连接器) 运行状况记录](healthcare/ehr-admin.md)
+- Microsoft Teams EHR) 连接器 (电子运行状况记录
+
+  - 与 [Cerner EHR 集成](healthcare/ehr-admin-cerner.md)
+  - 与 [长篇 EHR 集成](healthcare/ehr-admin.md)
 
 ## <a name="set-up-mobile-browser-join"></a>设置移动浏览器加入
 
@@ -61,7 +64,9 @@ Microsoft Teams，用户无需下载约会即可在移动设备上加入Teams。
 
 你或你的员工不需要任何设置！
 
-此Teams EHR 连接器支持患者通过 MyChart Web 和移动设备加入虚拟访问。 预约时，患者可以使用"开始虚拟访问"按钮从 MyChart 开始 **虚拟** 访问。 患者选择他们想要的浏览器，Teams浏览器中打开。
+**与 Cerner EHR** 集成：Teams EHR 连接器支持患者通过移动设备加入虚拟访问。 预约时，患者可以通过点击短信中的链接加入虚拟访问。 患者选择他们想要的浏览器，Teams浏览器中打开。
+
+**与长篇 EHR** 集成：Teams EHR 连接器支持患者通过 MyChart Web 和移动设备加入虚拟访问。 预约时，患者可以使用"开始虚拟访问"按钮从 MyChart 开始 **虚拟** 访问。 患者选择他们想要的浏览器，Teams浏览器中打开。
 
 ## <a name="supported-mobile-browsers"></a>支持的移动浏览器
 
@@ -75,7 +80,7 @@ Microsoft Teams，用户无需下载约会即可在移动设备上加入Teams。
 
 &sup1;Safari 上的 iOS 应用无法选择麦克风和扬声器设备。 例如，蓝牙设备。 这是操作系统的限制，它控制默认设备选择。
 
-&sup2;需要 Safari 14+ 和 macOS 11+ 才能支持传出视频。
+&sup2;需要 Safari 14+ 和 macOS 11+ 才能提供传出视频支持。
 
 ## <a name="things-to-consider"></a>要考虑的问题
 
@@ -89,4 +94,5 @@ Microsoft Teams，用户无需下载约会即可在移动设备上加入Teams。
 - [使用 Teams 和 Bookings 应用进行虚拟访问](bookings-virtual-visits.md)
 - [创建 Bookings 约会类型](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887)
 - [作为与会者加入 Bookings 约会](https://support.microsoft.com/office/join-a-bookings-appointment-as-an-attendee-95cea12d-2220-421f-a663-6efb20913c7f)
-- [通过 Teams 进行虚拟就诊 - 集成到 EHR](healthcare/ehr-admin.md)
+- [使用证书进行虚拟Teams - 集成到 Cerner EHR](healthcare/ehr-admin-cerner.md)
+- [使用虚拟访问Teams - 集成到长篇 EHR 中](healthcare/ehr-admin.md)

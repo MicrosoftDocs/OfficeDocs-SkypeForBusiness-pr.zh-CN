@@ -1,5 +1,5 @@
 ---
-title: 音乐保持状态
+title: 音乐保留
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -14,27 +14,27 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 ms.custom: ''
-description: 了解如何在 电话系统 中管理音乐保留"功能。
-ms.openlocfilehash: 7f67e4f26ecac837b93257ca79a757d49daf239b
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+description: 了解如何在 电话系统 中管理"音乐保留"功能。
+ms.openlocfilehash: e2f2347ca4368a8665d77ff2424a5c0082c1b0d8
+ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605558"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60960121"
 ---
-# <a name="music-on-hold"></a>音乐保持状态
+# <a name="music-on-hold"></a>音乐保留
 
 当Microsoft Teams PSTN 呼叫者从公用电话交换网 (PSTN) 来电时，PSTN 呼叫者可以收听所选音乐。
 
-播放的音乐是 Microsoft 提供的默认音乐，或者是上传和配置的自定义音乐。 作为租户管理员，通过创建音乐策略并将策略分配给用户来Teams保留Teams可用。
+播放的音乐是 Microsoft 提供的默认音乐，或者是上传和配置的自定义音乐。 作为租户管理员，通过创建音乐策略并将策略分配给用户来配置Teams保留Teams可用。
 
-请注意，PSTN 呼叫者也可以音乐其他情况下收听保持状态;例如，当他们调用到云呼叫队列时，或者当他们的呼叫被云呼叫用户Microsoft Teams时。 本文中提到的功能未涵盖或控制这些方案。
+请注意，PSTN 呼叫者音乐其他情况下侦听保持状态;例如，当呼叫进入云呼叫队列时，或者当呼叫被 Microsoft Teams用户暂停时。 本文中提到的功能未涵盖或控制这些方案。
 
 ## <a name="configure-music-on-hold"></a>配置音乐保留状态
 
 若要配置音乐保留：：
 
-1.  在管理中心的左侧导航Teams，转到 **"语音>呼叫策略"。**
+1.  在管理中心左侧导航Teams，转到 **"语音>呼叫策略"。**
 
 2.  在" **管理策略"** 选项卡上，选择一个现有策略或创建新策略。
 
@@ -46,23 +46,20 @@ ms.locfileid: "60605558"
 
 ## <a name="configure-custom-music"></a>配置自定义音乐
 
-> [!NOTE]
-> 此功能以公共预览版提供。
-
 除了向 PSTN 呼叫者播放默认音乐外，您还可以上传包含音乐或其他音频内容的自定义音频文件，并配置要播放给 PSTN 呼叫者的音频文件。
 例如，当外部 PSTN 呼叫者被置于保留状态时，部门或组织可能希望播放自定义公告或自定义音乐。  
 
 > [!NOTE]
-> 你负责独立清除和保护使用任何音乐或音频文件的一切必要权限Microsoft Teams服务。 这可能包括来自所有相关权限持有者的音频文件中任何音乐、音效、音频、品牌、名称和其他内容的知识产权和其他权利。 持有者可能包括艺术家、执行者、表演者、艺术家、歌曲作者、作曲者、录制标签、音乐发布者、联盟、协会、权利代理人、集体管理组织，以及拥有、控制或许可音乐版权、声音效果、音频和其他知识产权的其他任何方。
+> 你负责独立清除和保护使用任何音乐或音频文件的一切必要权限和权限，Microsoft Teams服务。 这可能包括来自所有相关权限持有者的音频文件中任何音乐、音效、音频、品牌、名称和其他内容的知识产权和其他权利。 持有者可能包括艺术家、执行者、表演者、艺术家、歌曲作者、作曲者、录制标签、音乐发布者、联盟、协会、权利代理人、集体管理组织，以及拥有、控制或许可音乐版权、声音效果、音频和其他知识产权的其他任何方。
 
 若要配置自定义 音乐 保留，请使用 Teams PowerShell 模块 2.5.0 或更高版本中的 PowerShell cmdlet New/Get/Set/Grant/Remove-CsTeamsCallHoldPolicy 和 Import/Get/Remove-CsOnlineAudioFile。
 
 
-1. 确保用户Teams PSTN 呼叫音乐策略中设置为"已启用"的Teams保留。 
+1. 确保用户Teams PSTN 呼叫音乐策略中设置为"已启用"的Teams保留状态。 
 
 2. Upload自定义音频文件。
 
-3. 创建Teams自定义音频文件的呼叫保留策略，并将其分配给Teams用户。
+3. 创建一Teams自定义音频文件的呼叫保留策略，并将其分配给Teams用户。
 
 ### <a name="upload-the-custom-audio-file"></a>Upload自定义音频文件
 
@@ -102,7 +99,7 @@ C:\> Grant-CsTeamsCallHoldPolicy -PolicyName "CustomMoH1" -Identity user1@contos
 
 | 功能 | 桌面 <br> Windows/Mac OS | 浏览器 | 移动 <br> iOS | 移动 <br> Android | Teams 电话 |
 | :------------| :------- | :------- | :------- | :------- | :------- |
-| 保持 1：1 PSTN 呼叫 | -音乐保留<br>-自定义音乐保留 | -音乐保留<br>-自定义音乐保留 | -音乐保留<br>-自定义音乐保留 | 音乐保持状态 | 音乐保持状态 |
+| 保持 1：1 PSTN 呼叫 | -音乐保留<br>-自定义音乐保留 | -音乐保留<br>-自定义音乐保留 | -音乐保留<br>-自定义音乐保留 | 音乐保留 | 音乐保留 |
 | 在 1：1 PSTN 呼叫上保留咨询转移 |-音乐保留<br>-自定义音乐保留 | | | | |
 
 ## <a name="restrictions"></a>限制
@@ -111,13 +108,13 @@ C:\> Grant-CsTeamsCallHoldPolicy -PolicyName "CustomMoH1" -Identity user1@contos
 
 - 音乐仅在用户进入 TeamsOnly 模式时，"保持"状态才可用。
 
-- 如果调用Teams用户启用了Location-Based路由，音乐无法向调用方播放保留状态。
+- 如果调用Teams用户启用了 Location-Based 路由，音乐无法向调用方播放保留状态。
 
 - 上载音频文件后无法导出;只能将其删除。
 
-- 对于音乐"共享线路外观"和"委派"配置的用户 (保留) 以及何时使用呼叫保留。 将音乐保留标准游戏。
+- 对于音乐"共享线路外观"和"委派" (以及何时使用呼叫) ，自定义保留状态不可用。 将播放音乐保留"标准游戏。
 
-- 在某些情况下，直接路由媒体旁路呼叫将转换为非媒体旁路，音乐保持播放，呼叫将保持为非媒体旁路，直到呼叫终止。
+- 在某些情况下，直接路由媒体旁路呼叫将转换为非媒体旁路，以播放 音乐 on Hold，呼叫将保持为非媒体旁路，直到呼叫终止。
 
 ## <a name="related-topics"></a>相关主题
 
