@@ -1464,7 +1464,9 @@ items:
             href: expand-teams-across-your-org/healthcare/teams-in-hc.md
           - name: 虚拟访问
             items:
-              - name: 通过 Teams 进行虚拟访问 - 集成到 EHR
+              - name: 通过 Teams 进行虚拟访问 - 集成到 Cerner EHR
+                href: expand-teams-across-your-org/healthcare/ehr-admin-cerner.md
+              - name: 通过 Teams 进行虚拟访问 - 集成到 Epic EHR
                 href: expand-teams-across-your-org/healthcare/ehr-admin.md
               - name: EHR 管理员报告
                 href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md

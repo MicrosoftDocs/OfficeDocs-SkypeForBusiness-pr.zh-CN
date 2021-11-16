@@ -20,12 +20,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e3a74b5e156817ec9b28608d725800858c3b350
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: caabea3e1310ad704953171836dcdfb35506609a
+ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432534"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60960061"
 ---
 # <a name="quick-start---meetings-webinars-and-live-events"></a>快速入门 - 会议、网络研讨会和直播活动 
 
@@ -51,9 +51,9 @@ ms.locfileid: "59432534"
 | 直播活动 | 最多 20，000 人** |- 向大量受众广播。 <br>- 针对受众交互的审核问答。 <br> - 可以指定制作者和演示者，包括外部演示者。<br>- 支持更高级的生产功能。 | 弱 |
 ||||
 
-*由通常的 10,000 人增加到 2021 年 12 月 31 日的 20,000 人。<br>
+*由通常的 10,000 人增加到 2022 年 6 月 30 日的 20,000 人。<br>
 
-**由通常的 10,000 人增加到 2021 年 12 月 31 日的 20,000 人。 在 Yammer 和/或 Microsoft Stream 中，可以安排人数更为庞大的直播活动。 有关详细信息，请参阅 [跨 Microsoft 365 的直播活动](/stream/live-event-m365)。 请注意，如果与会者人数超过 20,000 人，则活动需要 [直播活动协助计划](/stream/live-events-assistance)。 
+**由通常的 10,000 人增加到 2022 年 6 月 30 日的 20,000 人。 在 Yammer 和/或 Microsoft Stream 中，可以安排人数更为庞大的直播活动。 有关详细信息，请参阅 [跨 Microsoft 365 的直播活动](/stream/live-event-m365)。 请注意，如果与会者人数超过 20,000 人，则活动需要 [直播活动协助计划](/stream/live-events-assistance)。 
 
 **大型会议、网络研讨会和直播活动的注意事项** - 在主持大型会议时，请考虑以下事项：
 

@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9ac3ebe8d4b8e2572c5e4d6766d671a86101340b
-ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
+ms.openlocfilehash: 3260ec894de12b405e0fea8e0d3c75a550d896d4
+ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60465822"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60959911"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 
@@ -162,7 +162,7 @@ ms.locfileid: "60465822"
 > [!IMPORTANT]
 > **Microsoft 365 实时事件限制的增加**
 >
-> **若要继续支持客户的需求，直至 2021 年 12 月 31 日，我们将扩展现场活动的临时增加限额，包括**：
+> **为了继续支持客户的需求，我们会将现场活动的临时限额增加延长至 2022 年 6 月 30 日，包括**：
 >
 >- 可为多达20,000名与会者提供活动支持
 >- 一个租户可同时举办50场活动

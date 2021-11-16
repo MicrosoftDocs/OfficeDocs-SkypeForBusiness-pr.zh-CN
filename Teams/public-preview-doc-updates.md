@@ -18,12 +18,12 @@ description: 了解 Microsoft Teams 中的公共预览版。尝试新增功能�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: ea71e9a00b49c498240be0ca876a0f1baeed27eb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: e4a223431cef73d1fd9ec0578148b9f9d6f1d6d8
+ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834730"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60959871"
 ---
 # <a name="microsoft-teams-public-preview"></a>Microsoft Teams 公共预览版
 
@@ -38,9 +38,9 @@ Microsoft Teams 公共预览版提供对 Teams 中未发布的功能的早期访
 
 我们已为每个用户启用公共预览版，并在管理策略中控制启用公共预览版的选项。更新策略用于管理 Teams 和 Office 预览版用户，这些用户将在 Teams 应用中查看预发布或预览版功能。可以使用全局(默认为组织范围内)策略并对其进行自定义，或为用户创建一个或多个自定义策略。由于策略不会覆盖全局策略，因此需将其分配给特定用户。
 
-1. 登录到管理中心。
+1. 登录到 [Microsoft Teams 管理中心](https://admin.teams.microsoft.com/)。
 
-2. 选择 **Teams** > **更新策略**，然后选择 **更新策略** 选项。
+2. 选择“**Teams**” > “**Teams 更新策略**”。
 
 1. 选择 **添加** 以新建策略，或选择现有策略以打开 **更新策略**。
 
