@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 管理员可以控制用户可以拨打的音频会议和最终用户 PSTN 呼叫的类型。
-ms.openlocfilehash: 93f219feea677afe83c1c1dc031d6b878b219a45
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 43fda0e088cc0b7c29bd270d20f0701f0391f8ce
+ms.sourcegitcommit: 47f537a81659ec5ecb7dfdb57589fa133199ec57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536873"
+ms.lasthandoff: 11/18/2021
+ms.locfileid: "61066543"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>音频会议和用户 PSTN 通话的出站通话限制策略
 
@@ -51,7 +51,7 @@ ms.locfileid: "60536873"
 
 **使用 Microsoft Teams 管理中心**
 
-1. 在左侧导航栏中， **选择"用户**"，显示名称可用用户列表中选择该用户的用户名。
+1. 在左侧导航栏中， **选择**"用户"，显示名称可用用户列表中选择该用户的用户名。
 
 3. 在"**音频会议"旁边，** 选择"**编辑"。**
 
@@ -75,7 +75,7 @@ Grant-CsDialoutPolicy -Identity <username> -PolicyName <policy name>
 **使用以下 cmdlet 在租户级别设置策略**。
 
 ```powershell
-Grant-CsDialoutPolicy  -Tenant <guid> -PolicyName <policy name>  -Global 
+Grant-CsDialoutPolicy -PolicyName <policy name>  -Global 
 ```
 
 未分配任何拨出策略的租户的所有用户都将获取此策略。 其他用户仍保留其当前策略。
