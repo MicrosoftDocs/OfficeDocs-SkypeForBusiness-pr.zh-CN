@@ -1,9 +1,8 @@
 ---
 title: Android 设备的远程预配Teams登录
-author: serdarsoysal
-ms.author: serdars
+author: cazawideh
+ms.author: czawideh
 manager: serdars
-ms.reviewer: prgholve
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -18,16 +17,16 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何在 Android 设备上远程预配Teams登录
-ms.openlocfilehash: 818a6a4fc7941c82a52d63016bbdc338f977be29
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: e7e5acd491f15d4cc52ce1b898112da868f80594
+ms.sourcegitcommit: a3b3eb85354d62b2a5325ba7c8dda88352c6711a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60046148"
+ms.lasthandoff: 11/18/2021
+ms.locfileid: "61070146"
 ---
 # <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Android 设备的远程预配Teams登录
 
-IT 管理员可以远程预配并登录到 Teams Android 设备。 若要远程预配设备，管理员需要上传正在预配的设备的 MAC ID 并创建验证码。 整个过程可以从管理中心远程Teams完成。
+IT 管理员可以远程预配和登录到 Teams Android 设备。 若要远程预配设备，管理员需要上传正在预配的设备的 MAC ID 并创建验证码。 整个过程可以从管理中心远程Teams完成。
 
 ## <a name="review-the-supported-devices"></a>查看支持的设备
 
@@ -44,17 +43,17 @@ IT 管理员可以远程预配并登录到 Teams Android 设备。 若要远程�
 |Teams手机|  CCX400/CCX500/CCX600    |7.0.2.1072|
 |Teams手机|  音频代码 C448HD/C450HD/C470HD|   1.10.120|
 |Teams面板|  Crestron 770/1070|  1.004.0115|
-|Teams 会议室 Android 上的应用|Logitech Rally Bar Mini|1.2.982|
-|Teams 会议室 Android 上的应用|Logitech Rally Bar|1.2.982|
-|Teams 会议室 Android 上的应用|AudioCodes RXV80|1.13.361|
-|Teams 会议室 Android 上的应用|EPOS EXPAND Vision 3T|1.2.2.21182.10|
-|Teams 会议室 Android 上的应用|Yealink MeetingBar A30|133.15.0.60|
-|Teams 会议室 Android 上的应用|Yealink MeetingBar A20|133.15.0.60|
-|Teams 会议室 Android 上的应用|Yealink CTP18 触摸控制台|137.15.0.37|
-|Teams 会议室 Android 上的应用|Poly Studio X30|3.5.0.344025|
-|Teams 会议室 Android 上的应用|Poly Studio X50|3.5.0.344025|
-|Teams 会议室 Android 上的应用|Poly TC8 触摸控制台 |3.5.0.210489|
-|Teams 会议室 Android 上的应用|Yealink VC210|118.15.0.54|
+|Teams 会议室 Android 上的|Logitech Rally Bar Mini|1.2.982|
+|Teams 会议室 Android 上的|Logitech Rally Bar|1.2.982|
+|Teams 会议室 Android 上的|AudioCodes RXV80|1.13.361|
+|Teams 会议室 Android 上的|EPOS EXPAND Vision 3T|1.2.2.21182.10|
+|Teams 会议室 Android 上的|Yealink MeetingBar A30|133.15.0.60|
+|Teams 会议室 Android 上的|Yealink MeetingBar A20|133.15.0.60|
+|Teams 会议室 Android 上的|Yealink CTP18 触摸控制台|137.15.0.37|
+|Teams 会议室 Android 上的|Poly Studio X30|3.5.0.344025|
+|Teams 会议室 Android 上的|Poly Studio X50|3.5.0.344025|
+|Teams 会议室 Android 上的|Poly TC8 触摸控制台 |3.5.0.210489|
+|Teams 会议室 Android 上的|Yealink VC210|118.15.0.54|
 
 ## <a name="add-a-device-mac-address"></a>添加设备 MAC 地址
 
@@ -78,7 +77,7 @@ IT 管理员可以远程预配并登录到 Teams Android 设备。 若要远程�
 
 ### <a name="upload-a-file-to-add-a-device-mac-address"></a>Upload文件以添加设备 MAC 地址
 
-1. 在"**正在等待激活"选项卡** 中，Upload **MAC 的 "。**
+1. 从"**正在等待激活"选项卡** 中，Upload **MAC 的 "。**
 2. 下载文件模板。
 3. 输入 MAC ID 和位置，然后保存文件。
 4. **选择文件**，然后选择 **"Upload"。**
@@ -108,7 +107,7 @@ IT 管理员可以远程预配并登录到 Teams Android 设备。 若要远程�
 
    ![登录页上的租户名称。](../media/provision-code.png)
 
-## <a name="sign-in-remotely"></a>远程登录
+## <a name="first-time-remote-sign-in"></a>首次远程登录
 
 预配的设备显示在"正在等待 **登录"选项卡** 中。通过选择单个设备启动远程登录过程。
 
@@ -120,7 +119,8 @@ IT 管理员可以远程预配并登录到 Teams Android 设备。 若要远程�
 
    ![单个设备的"登录用户"窗口。](../media/sign-in-user.png)
 
-## <a name="related-article"></a>相关文章
+## <a name="related-articles"></a>相关文章
 
 - [在 Teams 中管理设备](device-management.md)
+- [远程登录和注销](remote-sign-in-and-sign-out.md)
 - [远程Teams更新设备](remote-update.md)
