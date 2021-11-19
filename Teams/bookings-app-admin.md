@@ -18,17 +18,17 @@ ms.collection:
 - m365solution-healthcare
 - m365solution-scenario
 ms.reviewer: ''
-description: 了解如何在应用程序中为组织Teams Bookings 应用。
-ms.openlocfilehash: 42e7c4741104f417f7e24a0e6441acb57cac203a
-ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
+description: 了解如何在应用程序中为Teams管理 Bookings 应用。
+ms.openlocfilehash: ae471bfee1901396ee3419380fcd7620e21231fe
+ms.sourcegitcommit: 5c88a07f07f9faad294d614d507e43173efc5f46
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "58973050"
+ms.lasthandoff: 11/19/2021
+ms.locfileid: "61111972"
 ---
 # <a name="manage-the-bookings-app-in-microsoft-teams"></a>在应用程序中管理 Bookings Microsoft Teams
 
-Microsoft Teams 中的 Bookings 应用提供了简便的方法来安排面对面的和虚拟的约会，如医疗访问、财务咨询、面试、客户支持、教育办公时间等。 若要了解详情，请参阅使用[Teams 和 Bookings](expand-teams-across-your-org/bookings-virtual-visits.md)应用进行虚拟访问。
+Microsoft Teams 中的 Bookings 应用提供了简便的方法来安排面对面的和虚拟的约会，如医疗访问、财务咨询、面试、客户支持、教育办公时间等。 若要了解详情，请参阅使用 Teams[和 Bookings 应用的虚拟访问](expand-teams-across-your-org/bookings-virtual-visits.md)。
 
 调度程序可以从一次体验中管理多个部门和员工日历，以及与内部和外部与会者的通信。 虚拟约会本身通过会议Microsoft Teams，这提供了强大的桌面功能。
 
@@ -41,7 +41,7 @@ Microsoft Teams 中的 Bookings 应用提供了简便的方法来安排面对面
 
 - 必须为组织启用 Microsoft Bookings。
 
-- 用户必须具有相应的许可证。 Office 365 A3、A5、E3、E5、F1、F3、Microsoft 365 A3、A5、E3 和 E5、Business Standard。
+- 用户必须具有相应的许可证。 Office 365 A3、A5、E3、E5、F1、F3、Microsoft 365 A3、A5、E3、E5、F1、F3 和业务标准。
 
 - Bookings 应用的所有用户以及参与会议的所有用户都必须具有支持Teams安排的许可证。
 
@@ -49,7 +49,7 @@ Microsoft Teams 中的 Bookings 应用提供了简便的方法来安排面对面
 
 ## <a name="availability-of-bookings-in-teams"></a>Teams 中 Bookings 可用性
 
-适用于 Teams 的 Microsoft Bookings 应用在桌面和 Web 上可用。 可在"[应用"下](https://teams.microsoft.com/l/app/4c4ec2e8-4a2c-4bce-8d8f-00fc664a4e5b?source=store-copy-link)找到Teams"管理 **中心中的** 应用"Teams下。
+适用于 microsoft Bookings Teams桌面和 Web 上提供。 可在"[应用"下](https://teams.microsoft.com/l/app/4c4ec2e8-4a2c-4bce-8d8f-00fc664a4e5b?source=store-copy-link)找到Teams"管理 **中心中的**"管理Teams下。
 
 ### <a name="control-access-to-bookings-within-your-organization"></a>控制组织内对 Bookings 的访问权限
 
@@ -61,7 +61,7 @@ Microsoft Teams 中的 Bookings 应用提供了简便的方法来安排面对面
 
 ## <a name="recommended-meeting-policy-settings"></a>建议的会议策略设置
 
-若要为 Bookings 提供最佳体验，请创建Teams会议策略以自动允许组织中所有人，并将该策略分配给你的员工。 这样，员工可以自动加入约会，为外部与会者启用大厅体验。 详细了解如何 [自动允许人员参加会议](meeting-policies-participants-and-guests.md#automatically-admit-people)。
+若要为 Bookings 提供最佳体验，请创建Teams会议策略以自动允许组织中所有人，并将该策略分配给您的员工。 这样，员工可以自动加入约会，为外部与会者启用大厅体验。 详细了解如何 [自动允许人员参加会议](meeting-policies-participants-and-guests.md#automatically-admit-people)。
 
 ## <a name="optional-staff-approvals-setting"></a>可选员工审批策略
 
@@ -88,7 +88,7 @@ Set-Mailbox -identity business@domain.onmicrosoft.com -WindowsEmailAddress busin
 有关详细信息，请参阅 PowerShell 文档以了解 [Set-Mailbox](/powershell/module/exchange/mailboxes/set-mailbox) cmdlet。
 
 > [!NOTE]
-> 如果使用混合Exchange，我们建议在更改默认域时Exchange Exchange Online本地域之间的邮件流。
+> 如果使用混合Exchange配置，建议在更改默认域时Exchange Exchange Online本地域之间的邮件流。
 
 ## <a name="sending-feedback"></a>发送反馈
 
@@ -98,7 +98,7 @@ Set-Mailbox -identity business@domain.onmicrosoft.com -WindowsEmailAddress busin
   - 功能差距或缺失的功能
   - bug 或问题
   
-若要发送反馈，请选择左侧导航栏Teams附近的"帮助"按钮，然后选择"报告所有问题 **的问题**"。  在反馈报告的开头指明你正在发送有关"Bookings"的反馈，以便我们可以轻松识别 Bookings 问题。
+若要发送反馈，请选择左侧导航栏底部Teams"帮助"按钮，然后选择"报告所有问题 **的问题**"。  在反馈报告的开头指明你正在发送有关"Bookings"的反馈，以便我们可以轻松识别 Bookings 问题。
 
 ## <a name="related-articles"></a>相关文章
 
