@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cc920db842d37129a122ed69a8816e66a4c16d9e
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: ea57cc0f2a0809400376372952dfd7b274f40a02
+ms.sourcegitcommit: d9778b925873648213f05e27385255ba66cf8492
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432444"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61055413"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Microsoft Teams 教育版见解 IT 管理员指南
 
@@ -175,6 +175,8 @@ Microsoft 已从零开始构建见解以确保数据得到保护。 我们意识
 
 *教育版 Insights Premium* 是一种付费升级，为教育领导者提供组织层面的教育版 Insights 数据视图，并为教育者提供对历史数据视图的扩展访问。 符合条件的教育机构可以通过教育解决方案注册 (EES)、云服务提供商 (CSP) 和 Microsoft 365 管理中心 (web direct) 购买 *教育版 Insights Premium* 附加许可证。
 
+教育版 Insights Premium 加载项将基于为租户中所有以数字化方式活动的学生购买许可证来向组织提供。
+
 ## <a name="student-information-system-sis-integration"></a>学生信息系统 (SIS) 集成
 向见解提供的数据越多，教师就越能更好地为学生提供支持，并且教育领导者也可以为教师提供更好的支持。
 
@@ -269,3 +271,7 @@ Microsoft 已从零开始构建见解以确保数据得到保护。 我们意识
 
 > [!NOTE]
 > 如果问题仍未解决，请 [打开支持票证](https://aka.ms/edusupport)。 包括阐明问题以及问题发生日期的相关屏幕截图。 添加你认为可帮助我们解决该问题的其他数据。
+
+### <a name="what-licenses-do-i-need-to-activate-education-insights-premium"></a>激活教育版 Insights Premium 需要哪些许可证？
+为了为组织启用教育版 Insights Premium，租户必须根据组织的租户中以数字化方式活动的学生数量购买许可证。 也就是说，应为所有使用 Teams 课堂作为学习活动一部分的学生（如会议、通信、聊天、作业、编辑文件、课堂笔记本或反思等）购买许可证。
+

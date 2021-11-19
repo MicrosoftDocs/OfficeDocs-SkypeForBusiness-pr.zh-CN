@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a76559ea1ec140b18acbcc49f92b724a0e1bdc3a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b87aaae3feeef9552cd64d76bb777cb081a6102e
+ms.sourcegitcommit: d9778b925873648213f05e27385255ba66cf8492
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604451"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61055423"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>为你的组织管理 Microsoft Teams 设置
 
@@ -36,9 +36,9 @@ ms.locfileid: "58604451"
 
 若要了解详细信息，请参阅 [Teams 中适用于应用的管理员设置](admin-settings.md)。  
 
-## <a name="teams-org-wide-settings-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理中心中的 Teams 组织范围设置
+## <a name="teams-external-access-and-guest-access-settings-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理中心中的 Teams 外部访问和来宾访问设置
 
-你可以在 Microsoft Teams 管理中心中控制组织范围内的用户设置。若要编辑组织范围内的设置，请转到 Microsoft Teams 管理中心，然后选择“**组织范围的设置**”。你可以配置以下设置。
+可以在 Microsoft Teams 管理中心控制外部和来宾访问设置。 要编辑这些设置，请转到 Microsoft Teams 管理中心，然后选择“**用户**”。 可以配置以下设置。
 
 ### <a name="external-access"></a>外部访问
 
@@ -54,6 +54,10 @@ ms.locfileid: "58604451"
 ### <a name="guest-access"></a>来宾访问权限
 
 利用 Microsoft Teams 中的 **来宾访问** 功能，贵组织中的团队可以通过为贵组织外的人员授予访问团队和频道的权限来与其协作。具有企业或消费者电子邮件帐户（例如 Outlook、Gmail 或其他帐户）的任何人都能以访客身份参与 Teams，并对团队聊天、会议和文件具有完全访问权限。有关详细信息，请参阅 [Microsoft Teams 中的来宾访问](guest-access.md)。
+
+## <a name="teams-settings-and-teams-upgrade-settings-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理中心中的 Teams 设置和 Teams 升级设置
+
+可以在 Microsoft Teams 管理中心控制 Teams 设置和 Teams 升级设置。 要编辑这些设置，请转到 Microsoft Teams 管理中心，然后选择“**Teams**”。 可以配置以下设置。
 
 ### <a name="teams-settings"></a>Teams 设置
 
@@ -102,11 +106,7 @@ Microsoft Teams 范围目录搜索使用 Exchange 通讯簿策略 (APB) 允许�
 
 通过参与聊天，组织和学校可限制使用基于角色的权限进行聊天功能。 这些权限控制与其他人聊天时用户所需的指导量。 深入了解如何 [的聊天](supervise-chats-edu.md)。
 
-### <a name="skype-for-business"></a>Skype for Business
-
-使用此页面管理组织中 Skype for Business 用户的 Skype for Business 功能。 有关详细信息，请参阅[在 Microsoft Teams 管理中心中管理 Skype for Business 设置](skype-for-business-settings.md)。
-
-### <a name="teams-upgrade"></a>Teams 升级
+### <a name="teams-upgrade-settings"></a>Teams 升级设置
 
 你可以使用这些设置来配置你的用户从 Skype for Business 到 Microsoft Teams 的升级方式。 
 
@@ -125,6 +125,7 @@ Microsoft Teams 范围目录搜索使用 Exchange 通讯簿策略 (APB) 允许�
 
 你可以在此处选择用户加入 Skype for Business 会议时使用的应用（Skype for Business 或 [Skype Meetings 应用](https://support.office.com/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5)）。此设置与共存模式设置无关。
 
+### <a name="planning-settings-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理中心内的规划设置
 
 #### <a name="network-planner"></a>Network Planner
 
@@ -132,6 +133,11 @@ Network Planner 可帮助你确定和组织网络要求，以便在组织中连�
 
 你还可以选择“在后台为 Skype for business 用户下载 Teams”选项。  此设置默认设为“开”。 通过启用此设置，它将在后台为在 Windows PC 上运行 Skype for Business 应用的用户下载 Teams 应用。 如果用户的“共存”模式为“仅 Teams”，或者在 Skype for Business 应用中启用了挂起的升级通知，则会发生这种情况。
 
+## <a name="other-settings-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理中心内的其他设置
+
+### <a name="skype-for-business"></a>Skype for Business
+
+使用此页面管理组织中 Skype for Business 用户的 Skype for Business 功能。 有关详细信息，请参阅[在 Microsoft Teams 管理中心中管理 Skype for Business 设置](skype-for-business-settings.md)。
 
 ## <a name="how-can-i-tell-which-features-are-available"></a>如何了解提供了哪些功能？
 
