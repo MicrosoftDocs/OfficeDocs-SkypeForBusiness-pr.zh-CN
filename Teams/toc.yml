@@ -1641,6 +1641,8 @@ items:
             href: devices/device-management.md
           - name: 远程设置和登录
             href: devices/remote-provision-remote-login.md
+          - name: 远程登录和注销
+            href: devices/remote-sign-in-and-sign-out.md
           - name: 远程更新设备
             href: devices/remote-update.md
           - name: 管理 Teams 设备标记
