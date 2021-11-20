@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.porting.overview
 - Calling Plans
 description: 大致了解什么是转口订单以及如何将电话号码从服务提供商转移到Teams。
-ms.openlocfilehash: a6ff4bffe4602eca7150a9f6c8c1b69782646e7c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: bb2c81a1c2263e59aee8477679440c7e26748c3a
+ms.sourcegitcommit: 32ba2ed0343e19f56e62fb3c507923c95f11b1bd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833026"
+ms.lasthandoff: 11/19/2021
+ms.locfileid: "61124269"
 ---
 # <a name="whats-a-port-order"></a>什么是转网订单？
 
@@ -31,7 +31,7 @@ ms.locfileid: "60833026"
   
 将电话号码移植到 Teams，Microsoft 将成为服务提供商，你可以断开服务与旧服务提供商或运营商之间的连接。
 
-查看本文中的信息，以熟悉号码移植。 之后，应已准备好创建转口订单并转移电话号码。 有关[分步说明，请参阅Teams](transfer-phone-numbers-to-teams.md)电话号码转接到号码。
+查看本文中的信息，以熟悉号码移植。 之后，应已准备好创建转口订单并转移电话号码。 有关[分步说明，请参阅将Teams](transfer-phone-numbers-to-teams.md)转接到号码。
   
 ## <a name="what-countries-or-regions-support-number-porting"></a>哪些国家/地区支持号码移植？
 
@@ -67,21 +67,21 @@ ms.locfileid: "60833026"
 
 - Skype for Business混合电话号码。 如果要转移这些号码，请通过 向我们发送电子邮件 <ptn@microsoft.com> 。
 
-  **无法传输：**
+**无法传输：**
   
-    > [!NOTE]
-    > 目前，你无法转移任何来自受支持国家/地区的电话号码，包括来自 VoIP 电话提供商的电话号码。 有关支持的国家/地区列表，请参阅音频会议和呼叫计划的国家和地区 [可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+> [!NOTE]
+> 目前，你无法转移任何来自受支持国家/地区的电话号码，包括来自 VoIP 电话提供商的电话号码。 有关支持的国家/地区列表，请参阅音频会议和呼叫计划的国家和地区 [可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
   
 - 用于 DSL 线路或宽带 Internet 连接等数据连接的电话号码。
 
 - 专用于收发传真的电话号码。
 
-    如果有用于传真的现有专用电话号码，可以将这些号码转移到Teams但传真服务无法继续正常工作。 传真服务不可用于客户Teams，即使你拥有 电话系统、国内呼叫计划或国际呼叫计划的许可证。
+    如果有用于传真的现有专用电话号码，可以将这些号码转移到Teams但传真服务无法继续正常工作。 传真服务不可用于Teams客户，即使你拥有 电话系统、国内呼叫计划或国际呼叫计划的许可证。
 
     如果将电话号码移植到Teams，可以将此电话号码分配给贵组织的用户，而不是将其用于传真。
 
-    > [!NOTE]
-    > 在英国，目前我们不支持转移英国非地理号码，包括区号 0843、0844、0845、0870、0871、0872 的共享成本号码。
+> [!NOTE]
+> 在英国，目前我们不支持转移英国非地理号码，包括区号 0843、0844、0845、0870、0871、0872 的共享成本号码。
   
 ## <a name="what-information-do-i-need-to-provide"></a>我需要提供哪些信息？
 
@@ -91,7 +91,7 @@ ms.locfileid: "60833026"
 
 将电话号码转Teams，可以选择转移所有号码或部分号码。
   
-- **完整端口** 此时，你将所有号码从当前服务提供商转移到Teams。 当系统询问你要转移的电话号码时，你必须包括帐单电话号码 ( BTN) 以及你的帐户上所有其他电话号码。
+- **完整端口** 此时，将当前服务提供商的所有号码转移到Teams。 当系统询问你要转移的电话号码时，你必须包括帐单电话号码 ( BTN) 以及你的帐户上所有其他电话号码。
 
     例如，假设 BTN 为  *+1 425-555-1234，*  并且想要将 25 个电话号码全部移植到 (*+1 425-555-1235 到 1259*) 。 按照下面的说明转网号码时，你应该输入： **+14255551234 - +14255551259** 。
 
@@ -138,11 +138,9 @@ ms.locfileid: "60833026"
 
 可以。 你只需要提交一个服务请求，在请求中提供你组织的租户 GUID 和你要转换的电话号码。 为此，请参阅 [管理组织的电话号码](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
 
-## <a name="can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier"></a>我能否将我的号码从Teams号码移植到其他电话服务提供商或运营商？
+## <a name="can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier"></a>能否将号码从 Teams其他电话服务提供商或运营商？
 
-若要将号码从Teams运营商，您必须向新运营商提交请求。 还需要在管理中心设置Microsoft Teams PIN。
-
-若要定义移植 PIN，请在 Microsoft Teams 管理中心的左侧导航栏中，转到"**语音** 电话 号码"，在页面右上角选择"管理移植 PIN"，然后输入  >  10 位数 **的 PIN。**
+若要将号码从Teams运营商，您必须向新运营商提交请求。 还需要通过打开支持案例来设置移植 PIN。 若要了解如何获取支持，请参阅获取 [支持](/microsoft-365/business-video/get-help-support)。 
 
 当你的新运营商联系我们提出移植请求时，我们将要求他们提供你定义的 PIN。
 

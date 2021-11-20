@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 了解如何在参与者和来宾的Teams管理会议策略设置。
-ms.openlocfilehash: 2c87434aa198169854e59b6a2a93ed9ceed9cd2f
-ms.sourcegitcommit: d9778b925873648213f05e27385255ba66cf8492
+ms.openlocfilehash: aab9dda3f0a6bd5674cde2614fbbe0987292d6bf
+ms.sourcegitcommit: 32ba2ed0343e19f56e62fb3c507923c95f11b1bd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "61055353"
+ms.lasthandoff: 11/19/2021
+ms.locfileid: "61124229"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>会议策略设置 - 参与者和来宾
 
@@ -41,12 +41,13 @@ ms.locfileid: "61055353"
 > [!NOTE]
 >加入会议的选项会有所不同，这取决于每个 Teams 组的设置和连接方法。 如果小组有音频会议，并使用它来连接，请参阅 [音频会议](/microsoftteams/audio-conferencing-in-office-365)。 如果 Teams 组没有音频会议，请参阅 [在 Teams 中加入会议](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9)。
 
+
 ## <a name="let-anonymous-people-start-a-meeting"></a>允许匿名人员发起会议
 
 此设置是一个按组织者的策略，允许召开无领导电话拨入式会议。 此设置控制拨入用户是否可以在没有组织中经过身份验证的用户出席的情况下加入会议。 默认情况下，此设置已关闭，这意味着拨入用户将在大厅中等待，直到组织中经过身份验证的用户加入会议。
 
 > [!NOTE]
-> 如果此设置已关闭，并且拨入用户先加入会议并放置在大厅中，则组织用户必须使用 Teams 客户端加入会议，以允许该用户从大厅访问。 拨号用户没有大厅控制功能。
+> 如果此设置已关闭，并且拨入用户先加入会议并放置在大厅中，则组织用户必须使用 Teams 客户端加入会议，以允许用户从大厅访问。 拨号用户没有大厅控制功能。
 
 ## <a name="automatically-admit-people"></a>自动允许人员
 

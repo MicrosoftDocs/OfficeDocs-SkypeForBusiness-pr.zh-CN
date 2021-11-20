@@ -17,28 +17,28 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: 了解如何使用会议策略设置来控制会议Microsoft Teams。
-ms.openlocfilehash: b9399e9beaf364af7d2bdfa2e1c2b68ad5b6a018
-ms.sourcegitcommit: 11a803d569a57410e7e648f53b28df80a53337b6
+ms.openlocfilehash: 7912c57e12de83f112bb1c80b1c44d81d9d6b857
+ms.sourcegitcommit: 32ba2ed0343e19f56e62fb3c507923c95f11b1bd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "60887180"
+ms.lasthandoff: 11/19/2021
+ms.locfileid: "61124259"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>会议策略和会议到期时间Microsoft Teams
 
-[会议](meeting-policies-overview.md)Microsoft Teams用于控制您的组织中的用户是否可以启动和安排会议，以及可供会议参与者用于用户安排的会议的功能。 可以使用全局（组织范围内的默认）策略，也可以创建并分配自定义策略。 在管理中心内Microsoft Teams使用[](/powershell/module/skype/get-csteamsmeetingpolicy)Get、New、Set、Remove、Grant [](/powershell/module/skype/new-csteamsmeetingpolicy)-CsTeamsMeetingPolicy PowerShell cmdlet 管理会议策略。 [](/powershell/module/skype/set-csteamsmeetingpolicy) [](/powershell/module/skype/remove-csteamsmeetingpolicy) [](/powershell/module/skype/grant-csteamsmeetingpolicy)
+[会议](meeting-policies-overview.md)Microsoft Teams用于控制您的组织中的用户是否可以启动和安排会议，以及可供会议参与者用于用户安排的会议的功能。 可以使用全局（组织范围内的默认）策略，也可以创建并分配自定义策略。 在管理中心内Microsoft Teams使用 Get、New、Set、Remove、Grant [](/powershell/module/skype/new-csteamsmeetingpolicy)-CsTeamsMeetingPolicy PowerShell cmdlet 管理会议策略。 [](/powershell/module/skype/get-csteamsmeetingpolicy) [](/powershell/module/skype/set-csteamsmeetingpolicy) [](/powershell/module/skype/remove-csteamsmeetingpolicy) [](/powershell/module/skype/grant-csteamsmeetingpolicy)
 
 会议策略设置，用于控制用户是否可以启动和安排会议，以及控制用户安排的会议的到期时间。 当会议的会议加入链接和会议 ID 过期时，没有人可以加入会议。 以下会议策略设置确定用户是否可以在 Teams 中启动和安排Teams。 本文介绍会议设置。
 
 - [在频道中允许](meeting-policies-in-teams-general.md#allow-meet-now-in-channels)"现在开会"：控制用户是否可以在频道中启动即席会议。
 - [允许频道会议计划](meeting-policies-in-teams-general.md#allow-channel-meeting-scheduling)：控制用户是否可以在频道中安排会议。
-- [允许安排私人会议](meeting-policies-in-teams-general.md#allow-scheduling-private-meetings)：控制用户是否可以在 Teams。 当会议未发布到团队中的某个频道时，这个会议就是私人的。
+- [允许安排私人会议](meeting-policies-in-teams-general.md#allow-scheduling-private-meetings)：控制用户是否可以在会议Teams。 当会议未发布到团队中的某个频道时，这个会议就是私人的。
 - [允许Outlook添加](meeting-policies-in-teams-general.md#allow-the-outlook-add-in)：控制用户是否可以从 Outlook 安排私人Outlook。 当会议未发布到团队中的某个频道时，这个会议就是私人的。
 - [允许现在在私人会议中召开会议](meeting-policies-in-teams-general.md#allow-meet-now-in-private-meetings)：控制用户是否可以启动即席私人会议。
 
 默认情况下，这些设置为打开状态。 当其中任一设置关闭时，分配有策略的任何用户都无法启动或安排该类型的新会议。 同时，用户以前启动或计划过期的所有现有会议的会议加入链接和会议 ID。
 
-例如，如果为用户分配会议策略，其中这些会议策略设置设置为"开"，然后关闭"允许立即在频道中召开会议"设置，该用户无法再在频道中启动即席会议，并且频道"现在开会"加入用户之前创建的链接已过期。 用户仍可以启动和安排其他会议类型和加入由其他人组织的会议。
+例如，如果为用户分配会议策略，其中这些会议策略设置设置为"开"，然后关闭"现在允许在频道中召开会议"设置，该用户无法再在频道中启动即席会议，并且频道"现在开会"加入用户之前创建的链接已过期。 用户仍可以启动和安排其他会议类型和加入由其他人组织的会议。
 
 ## <a name="what-happens-when-the-meeting-join-link-and-conference-id-expire"></a>当会议加入链接和会议 ID 过期时会发生什么情况？
 
@@ -62,7 +62,7 @@ ms.locfileid: "60887180"
 
 |如果你希望...&nbsp;&nbsp; |执行此操作&nbsp;&nbsp;&nbsp;&nbsp;  |会议加入行为&nbsp;&nbsp;&nbsp;&nbsp;  |
 |---------------------------|---------------------|---------|
-|使专用会议现在由用户启动的会议过期&nbsp;&nbsp;|在私人 **会议中关闭"允许现在开会"。**&nbsp;&nbsp;|现在没有人 **可以加入由** 用户启动的私人会议。|
+|使专用会议现在由用户启动的会议过期&nbsp;&nbsp;|在私人 **会议中关闭"允许现在开会"。**&nbsp;&nbsp;|现在没有人 **可以加入由** 用户启动的专用会议。|
 |使用户安排的私人会议过期&nbsp;&nbsp;|关闭 **"允许安排私人会议**_"，并关闭_"允许 **Outlook加载项"。** &nbsp;&nbsp;|没有人可以加入用户安排的私人会议。 这可以防止用户加入以下会议：<ul><li>过去发生的私人会议。</li><li>计划在将来召开但尚未发生的私人会议。</li><li>将来的定期私人会议实例。</li></ul><br>"**允许安排私人** 会议"和"**允许** Outlook必须关闭加载项，以使用户安排的私人会议过期。 如果一个设置处于关闭状态，另一个设置处于打开状态，则现有会议的会议加入链接和会议 ID 将保持活动状态，并且不会过期。|
 |使频道 **"现在开会** "由用户启动的会议过期&nbsp;&nbsp;|在频道 **中关闭"允许现在开会"，**_并_ 关闭"**允许频道会议安排"。**&nbsp;&nbsp;|没有人可以加入频道 **"现在开会** "会议由用户启动。|
 |使用户安排的频道会议过期&nbsp;&nbsp;|关闭"**允许频道会议计划"。**&nbsp;&nbsp;|没有人可以加入用户安排的频道会议。 这可以防止用户加入以下会议：<ul><li>过去发生的频道会议。</li><li>计划在将来召开但尚未发生的频道会议。</li><li>将来的定期频道会议实例。</li></ul>|
@@ -73,22 +73,22 @@ ms.locfileid: "60887180"
 - 关闭该用户的会议策略设置，让启用了策略设置的另一个用户创建一个新会议来替换已过期的会议。
 
 > [!NOTE]
-> 如果会议是由代理发送的，而代理有权代表另一个人（例如经理）发送会议邀请，则会议策略设置将应用于向经理 (权限) 。
+> 如果会议是由代理发送的，而该代理有权代表另一个人（例如经理）发送会议邀请，则会议策略设置将应用于向经理授予 (权限) 。
 
 ## <a name="changes-to-meeting-expiration"></a>对会议过期的更改
 
-所有新创建的Teams会议录制 (TMR) 的默认过期时间为 60 天。 默认情况下，所有租户都启用此选项。 这意味着默认情况下，启用此功能 *后* 创建的所有 TMR 将在创建日期后 60 天删除。 管理员还可以将会议设置为 **永不自动过期**。 OneDrive和SharePoint系统将监视所有 TMR 上设置的过期日期，并会在 TMR 过期日期自动将其移到回收站。
+所有新创建的Teams会议录制 (TMR) 的默认过期时间为 60 天。 默认情况下，所有租户都启用此选项。 这意味着默认情况下，启用此功能 *后* 创建的所有 TMR 将在创建日期后 60 天删除。 管理员还可以将会议设置为 **永不自动过期**。 系统OneDrive SharePoint监视所有 TMR 上设置的过期日期，并会在 TMR 过期日期自动将其移到回收站。
 
 自动会议过期是一种轻型整理机制，可减少旧 TMR 创建的存储混乱。 平均而言，在所有客户中，60 天后不会监视 99% 的 TMR。 我们认为，通过删除 60 天后可能不会再观看的录制内容，几乎所有客户都将从租户上减少的存储负载中获益。 我们的目标是默认为所有客户提供尽可能干净的体验。
 
-使用会议过期限制OneDrive SharePoint会议记录驱动的云存储Teams限制。 典型的会议录制每小时使用大约 400 MB 的录制内容。
+使用会议过期限制OneDrive会议SharePoint云存储消耗的Teams限制。 典型的会议录制每小时使用大约 400 MB 的录制内容。
 
 > [!NOTE]
 > A1 用户的最大默认到期日期为 30 天。
 
 ### <a name="expiration-date"></a>到期日期
 
-- 到期日期计算为创建日期加上管理员在策略中设置 **Teams天数**。
+- 到期日期计算为创建日期加上管理员在策略 **中设置Teams天数**。
 - 播放不会影响到期日期。
 
 ### <a name="change-the-default-expiration-date"></a>更改默认到期日期
@@ -107,7 +107,7 @@ ms.locfileid: "60887180"
 Set-CsTeamsMeetingPolicy -Identity Global -NewMeetingRecordingExpirationDays 50
 ```
 
-您可以在会议管理中心的"会议Teams设置 **到期日期。** 启用"会议 **"自动过期** 后，您可以选择设置录制过期。
+您可以在"会议策略"下的Teams管理中心设置 **到期日期。** 启用"会议 **"自动过期** 后，您可以选择设置录制过期。
 
 ![会议过期策略的管理中心屏幕截图。](media/meeting-expiration-policy.jpg)
 
@@ -145,11 +145,13 @@ Set-CsTeamsMeetingPolicy -Identity Global -NewMeetingRecordingExpirationDays 50
 
 否，迁移的 TMR 不会有到期设置。 相反，我们鼓励管理员仅迁移要保留的 TMR。 迁移文档将提供更多详细信息。
 
-### <a name="how-is-this-feature-different-from-the-expiration-message-i-see-when-a-tmr-upload-to-onedrive-and-sharepoint-fails"></a>此功能与 TMR 上传到 OneDrive 失败时看到的过期消息SharePoint不同？
+### <a name="how-is-this-feature-different-from-the-expiration-message-i-see-when-a-tmr-upload-to-onedrive-and-sharepoint-fails"></a>此功能与 TMR 上传到 OneDrive 失败时看到的过期消息SharePoint如何？
 
-当录制内容无法上传到 OneDrive 或 SharePoint 时，Teams 应用程序会在聊天中显示一条消息，指出用户在从 Teams 服务器永久删除 TMR 之前，最多有 21 天的下载时间。 由于 TMR 上传失败而存在的这种过期体验与帮助文档中讨论OneDrive SharePoint和自动过期功能没有关系。
+当录制内容无法上传到 OneDrive 或 SharePoint 时，Teams 应用程序会在聊天中显示一条消息，指出用户在从 Teams 服务器永久删除 TMR 之前最多有 21 天的下载时间。 由于 TMR 上传失败而存在的这种过期体验与帮助文档中讨论OneDrive SharePoint和自动过期功能没有关系。
 
 ## <a name="related-topics"></a>相关主题
+
+[更改会议到期日期 - 最终用户控制](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24#bkmk_view_change_expiration_date)
 
 [管理 Teams 中的会议策略](meeting-policies-overview.md)
 
@@ -157,4 +159,4 @@ Set-CsTeamsMeetingPolicy -Identity Global -NewMeetingRecordingExpirationDays 50
 
 [Teams PowerShell 概览](teams-powershell-overview.md)
 
-[更改会议到期日期 - Microsoft 支持](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24#bkmk_view_change_expiration_date)
+
