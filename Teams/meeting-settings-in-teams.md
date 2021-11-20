@@ -22,26 +22,31 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 了解如何管理用户在组织中安排的 Teams 会议的设置。
-ms.openlocfilehash: 7b12dfacc5b9bd6ebe5bb0e3de17a40bb0148ef0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 8e8ecc32d35aac6fb6bc504df1a8d00520b4578c
+ms.sourcegitcommit: e6dc3f6818f7761b6b1e9645769636e991be15c3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839734"
+ms.lasthandoff: 11/20/2021
+ms.locfileid: "61129862"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理会议设置
 
 作为管理员，你可以使用 Teams 会议设置来控制匿名用户是否可以加入 Teams 会议、自定义会议邀请，并在想要启用服务质量 (QoS) 的情况下设置实时流量端口范围。 这些设置适用于用户在组织中安排的所有 Teams 会议。 可以在 Microsoft Teams 管理中心的“**会议**” > “**会议设置**”中管理这些设置。
 
+从 2021 年 11 月起，管理员还可以控制特定用户或用户组是否允许匿名用户加入其组织的会议。 与下面的管理员在 Teams 管理中心内管理的组织范围匿名用户设置相比，此按组织者策略更具限制性，并且会替代前者。
+
+> [!Important]
+ > **-DisableAnonymousJoin** 是组织范围内的策略设置。 未来弃用此设置后，按组织者策略将是控制匿名加入的唯一方法。
+
 ## <a name="allow-anonymous-users-to-join-meetings"></a>允许匿名用户加入会议
 
-通过匿名加入，任何人都可以通过单击会议邀请中的链接以匿名用户的身份加入会议。 要了解更多信息，请参阅[在没有 Teams 帐户的情况下加入会议](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508)。
+通过匿名加入，任何人都可以通过单击会议邀请中的链接以匿名用户的身份加入会议。 要了解更多信息，请参阅[在没有 Teams 帐户的情况下加入会议](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508)。 可以使用两个不同的策略设置控制匿名用户在组织级别或按会议组织者加入会议的能力。
 
- **使用 Microsoft Teams 管理中心**
+ ### <a name="using-the-microsoft-teams-admin-center-to-configure-organization-wide-policy"></a>使用 Microsoft Teams 管理中心配置组织范围的策略
 
-必须是 Teams 服务管理员才能管理这些策略。 请参阅 [Teams 管理员角色管理 Teams](./using-admin-roles.md) ，了解管理员角色和权限。
+你必须是 Teams 管理员才能进行这些更改。 请参阅 [Teams 管理员角色管理 Teams](./using-admin-roles.md) ，了解管理员角色和权限。
 
-1. 转到“管理中心”。
+1. 转到 [Microsoft Teams 管理中心](https://admin.teams.microsoft.net)。
 
 2. 在左侧导航中，转到“**会议**” > “**会议设置**”。
 
@@ -51,6 +56,22 @@ ms.locfileid: "60839734"
 
 > [!CAUTION]
 > 如果不希望匿名用户加入组织中由用户安排的会议，请关闭此设置。
+
+### <a name="using-powershell-to-configure-per-organizer-policy"></a>使用 PowerShell 配置按组织者策略
+
+管理员现在可以控制特定用户或用户组是否允许匿名用户加入其组织的会议。 此新的按组织者策略是通过使用 [Set-> CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) 中的 **-AllowAnonymousUsersToJoinMeeting** 参数来控制的。 此功能随 Teams PowerShell 版本 2.6.0 及更高版本一起提供。
+
+可以使用策略（组织范围或按组织者）来管理匿名加入。 我们建议你实现按组织者策略。 将来弃用组织范围的策略设置后，按组织策略将是控制匿名加入的唯一方法。
+
+由于组织范围和按组织者策略都控制匿名加入，因此限制性更强的设置将是有效设置。 例如，如果在组织级别不允许匿名加入，则无论为按组织者策略配置什么，前者都将是有效的策略。 因此，如果要允许匿名用户加入会议，必须通过设置以下值来配置这两个策略以允许匿名加入：
+
+- 将 **-DisableAnonymousJoin** 设置为 **$false**
+- 将 **-AllowAnonymousUsersToJoinMeeting** 设置为 **$true**
+
+任何其他值组合都将阻止匿名用户加入会议。
+> [!NOTE]
+> 如果要对按组织禁用匿名加入的组织使用按组织者策略，管理员需要创建一个策略，然后将其分配给用户。 要了解如何执行此操作，请参阅 [Microsoft Teams 中的管理会议策略](/microsoftteams/meeting-policies-overview)。
+
 
 ## <a name="allow-anonymous-users-to-interact-with-apps-in-meetings"></a>允许匿名用户与会议中的应用交互
 
