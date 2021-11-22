@@ -13,16 +13,16 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: 了解如何使用 Microsoft Teams 管理中心Teams实时事件使用情况报告Teams组织中实时事件活动的概述。
+description: 了解如何使用 Microsoft Teams 管理中心Teams实时事件使用情况报告，Teams组织中实时事件活动的概述。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 504c8822146efa7101ca1435cab961a86068ccaf
-ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
+ms.openlocfilehash: 2e2b9d4a9f60b905e03ee27397e24feb74ac3c17
+ms.sourcegitcommit: b3b295557d494f77a7ebd9f49ec55f2507da956c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "60959891"
+ms.lasthandoff: 11/22/2021
+ms.locfileid: "61135225"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Microsoft Teams实时事件使用情况报告
 
@@ -30,7 +30,7 @@ Teams管理中心中的实时Microsoft Teams报表显示组织中举行实时事
 
 ## <a name="view-the-live-event-usage-report"></a>查看实时事件使用情况报告
 
-1. 在管理中心的左侧导航Microsoft Teams，单击 **"分析"&报告**  >  **使用情况报告"。** 在"**查看报表"** 选项卡上的"报表 **"** 下，Teams **实时事件使用情况"。**
+1. 在管理中心的左侧导航Microsoft Teams，单击 **"分析&报告**  >  **"。** 在"**查看报表"** 选项卡上的"报表 **"** 下，Teams **实时事件使用情况"。**
 2. 在 **"日期范围**"下，选择预定义区域或设置自定义范围。 您可以设置一个范围以显示一年的数据，即当前日期之前和之后六个月。
 3.  (") "下，您可以选择只显示由特定用户组织的实时事件。
 4. 单击"**运行报表"。**  
@@ -48,7 +48,9 @@ Teams管理中心中的实时Microsoft Teams报表显示组织中举行实时事
 |**5**   |选择“**编辑列**”可在表格中添加或删除列。|
 
 ## <a name="notes"></a>注释
-我们最多显示 100 个与当前报告条件匹配的实时事件。 若要查看更多实时事件，请应用日期筛选器来减小列表大小。 
+我们最多显示 100 个与当前报告条件匹配的实时事件。 若要查看更多实时事件，请应用日期筛选器来减小列表大小。
+
+报告中不包括匿名演示者。
 
 观看事件或按需事件录制的任何人都不会包括在视图计数中。 
 
