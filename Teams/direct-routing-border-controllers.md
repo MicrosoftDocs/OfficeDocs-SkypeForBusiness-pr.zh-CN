@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 了解哪些会话边界控制器 (SBC) 已通过直接路由认证。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a5dd419bab9fbe885d3d361d2fdb19758bd392e3
-ms.sourcegitcommit: 99bf220249723e954cf5295df3418d93fec80db6
+ms.openlocfilehash: 97f8ffbf6613ca4106a68284c8e889375a7b0feb
+ms.sourcegitcommit: b3b295557d494f77a7ebd9f49ec55f2507da956c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/12/2021
-ms.locfileid: "60275576"
+ms.lasthandoff: 11/22/2021
+ms.locfileid: "61135195"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>经认证可用于直接路由的会话边界控制器
 
@@ -37,7 +37,7 @@ Microsoft 与每个供应商合作：
 - 与 SBC 供应商一起提供联合支持。
 
   > [!NOTE]
-  > Microsoft 仅在通过直接路由连接一个或多个获得认证的设备时支持电话系统。 Microsoft 保留在非认证设备通过直接路由连接电话系统的情况下拒绝提供支持的权利。 如果 Microsoft 确定客户的直接路由问题与供应商的 SBC 设备有关，则客户需要与 SBC 供应商联系以获得支持。
+  > Microsoft 仅在通过直接路由连接一个或多个获得认证的设备时支持电话系统。 如果出现问题，客户必须先联系 SBC 供应商客户支持。 如果需要，SBC 供应商将通过内部渠道将问题呈报给 Microsoft。 Microsoft 保留在非认证设备通过直接路由连接电话系统的情况下拒绝提供支持的权利。 如果 Microsoft 确定客户的直接路由问题与供应商的 SBC 设备有关，则客户需要重新联系 SBC 供应商以获得支持。
   >
   > 认证将授予特定的 SBC 固件版本。 下面介绍的任何 SBC 固件版本都经过认证且受支持。 只要 major.minor 版本相同，就支持高于所述内容的固件版本。
   >
