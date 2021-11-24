@@ -22,18 +22,18 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 了解如何管理用户在组织中安排的 Teams 会议的设置。
-ms.openlocfilehash: 8e8ecc32d35aac6fb6bc504df1a8d00520b4578c
-ms.sourcegitcommit: e6dc3f6818f7761b6b1e9645769636e991be15c3
+ms.openlocfilehash: a4a2eea55336639925d8c07c00ded4057456e1ff
+ms.sourcegitcommit: 95c7603b47fcd5fba8f762a4590693ee9f026328
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/20/2021
-ms.locfileid: "61129862"
+ms.lasthandoff: 11/24/2021
+ms.locfileid: "61153305"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理会议设置
 
 作为管理员，你可以使用 Teams 会议设置来控制匿名用户是否可以加入 Teams 会议、自定义会议邀请，并在想要启用服务质量 (QoS) 的情况下设置实时流量端口范围。 这些设置适用于用户在组织中安排的所有 Teams 会议。 可以在 Microsoft Teams 管理中心的“**会议**” > “**会议设置**”中管理这些设置。
 
-从 2021 年 11 月起，管理员还可以控制特定用户或用户组是否允许匿名用户加入其组织的会议。 与下面的管理员在 Teams 管理中心内管理的组织范围匿名用户设置相比，此按组织者策略更具限制性，并且会替代前者。
+通过按组织者策略设置，管理员现在可以控制特定用户或用户组是否可以允许匿名用户加入其组织的会议。 按组织者和组织范围的策略设置都控制匿名加入，两者以限制较严者为准。
 
 > [!Important]
  > **-DisableAnonymousJoin** 是组织范围内的策略设置。 未来弃用此设置后，按组织者策略将是控制匿名加入的唯一方法。
