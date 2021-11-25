@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.contentsharing
 - seo-marvel-apr2020
 description: 了解如何在用于内容共享的Teams管理会议策略设置。
-ms.openlocfilehash: 2bd3a4274a147cad8548d0abf84a312ee7f6f259
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: 6c713800aa0f95c7adfd6655455e6ff332f91595
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605618"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205312"
 ---
 # <a name="meeting-policy-settings---content-sharing"></a>会议策略设置 - 内容共享
 
@@ -35,9 +35,9 @@ ms.locfileid: "60605618"
 - [屏幕共享模式](#screen-sharing-mode)
 - [允许参与者授予或请求控制权](#allow-a-participant-to-give-or-request-control)
 - [允许外部参与者授予或请求控制权](#allow-an-external-participant-to-give-or-request-control)
-- [允许 PowerPoint 共享](#allow-powerpoint-sharing)
-- [允许白板](#allow-whiteboard)
-- [允许共享笔记](#allow-shared-notes)
+- [PowerPoint共享](#powerpoint-sharing)
+- [Whiteboard](#whiteboard)
+- [共享笔记](#shared-notes)
 
 ## <a name="screen-sharing-mode"></a>屏幕共享模式
 
@@ -99,39 +99,39 @@ Daniela 可以将共享桌面或窗口的控制权授予由 Babek 组织的会�
 
 要使用 PowerShell 来控制外部参与者是否可以授予控制权或接受控制权请求，请使用AllowExternalParticipantGiveRequestControl cmdlet。
 
-### <a name="allow-powerpoint-sharing"></a>允许 PowerPoint 共享
+### <a name="powerpoint-sharing"></a>PowerPoint共享
 
 这是按用户策略。 此设置可控制用户是否可以在会议中共享 PowerPoint 幻灯片。 外部用户，包括匿名用户、来宾用户和联合用户，继承会议组织者的策略。
 
 查看以下示例。
 
-|用户 |会议策略  |允许 PowerPoint 共享 |
+|用户 |会议策略  |PowerPoint共享 |
 |---------|---------|---------|
 |Daniela   | 全局   | 开       |
 |Amanda   | Location1MeetingPolicy        | 关闭   |
 
 Amanda 无法在会议上共享 PowerPoint 幻灯片，即使她是会议组织者。 Daniela 可以分享 PowerPoint 幻灯片，即使会议是由 Amanda 组织的。 Amanda 可以查看会议中其他人共享的 PowerPoint 幻灯片，尽管她不能共享 PowerPoint 幻灯片。
 
-## <a name="allow-whiteboard"></a>允许白板
+## <a name="whiteboard"></a>Whiteboard
 
 此设置是按用户的策略。 此设置控制用户是否可以在会议中共享白板。 外部用户，包括匿名用户、B2B用户和联盟用户，继承会议组织者的策略。
 
 查看以下示例。
 
-|用户 |会议策略  |允许白板|
+|用户 |会议策略  |Whiteboard|
 |---------|---------|---------|
 |Daniela   | 全局   | 开       |
 |Amanda   | Location1MeetingPolicy        | 关闭   |
 
 Amanda 不能在会议上共享白板，即使她是会议组织者。 Daniela 可以共享白板，即使会议是由 Amanda 组织的。  
 
-## <a name="allow-shared-notes"></a>允许共享的笔记
+## <a name="shared-notes"></a>共享笔记
 
-此设置是按用户的策略。 此设置控制用户是否可以在会议中创建和共享笔记。 外部用户，包括匿名用户、B2B用户和联盟用户，继承会议组织者的策略。 " **会议笔记"** 选项卡当前仅在参与者少于 20 人的会议中受支持。
+此设置是按用户的策略。 此设置控制用户是否可以在会议中创建和共享笔记。 外部用户，包括匿名用户、B2B用户和联盟用户，继承会议组织者的策略。 " **会议笔记"** 选项卡当前仅在参与者数少于 20 个的会议中受支持。
 
 查看以下示例。
 
-|用户 |会议策略  |允许共享的笔记 |
+|用户 |会议策略  |共享笔记 |
 |---------|---------|---------|
 |Daniela   | 全局   | 开       |
 |Amanda   | Location1MeetingPolicy | 关闭 |

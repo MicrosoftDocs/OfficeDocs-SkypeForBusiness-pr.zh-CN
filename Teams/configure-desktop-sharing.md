@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 973ed6056ae8e73b79d7596b2f325cda8cdc48b1
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: c5db10ce87dc98cfb793eefb1daa953385c95f6d
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732311"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205283"
 ---
 # <a name="configure-desktop-sharing-in-microsoft-teams"></a>在 Microsoft Teams 中配置桌面共享
 
@@ -70,7 +70,7 @@ ms.locfileid: "58732311"
 
 ## <a name="use-powershell-to-configure-shared-desktop"></a>使用 PowerShell 配置共享桌面
 
-你还可以使用 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) cmdlet 来控制桌面共享。 设置以下参数：
+你还可以使用 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet 来控制桌面共享。 设置以下参数：
 
 - Description
 - ScreenSharingMode
@@ -81,4 +81,4 @@ ms.locfileid: "58732311"
 - AllowWhiteboard
 - AllowSharedNotes
 
-[了解有关使用 csTeamsMeetingPolicy cmdlet 的详细信息](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)。
+[了解有关使用 csTeamsMeetingPolicy cmdlet 的详细信息](/powershell/module/skype/set-csteamsmeetingpolicy)。

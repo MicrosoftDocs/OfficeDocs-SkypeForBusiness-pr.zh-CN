@@ -9,7 +9,7 @@ ms.reviewer: nogaro
 ms.service: msteams
 search.appverid: MET150
 ms.localizationpriority: medium
-description: 了解适用于用户的高级通信附加内容 SKU Microsoft Teams。
+description: 了解适用于 Microsoft Teams 的高级通信附加Microsoft Teams。
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 171bd65dbcedbe71473e6fb3d975ab99696fdf28
-ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
+ms.openlocfilehash: fd7d03cc4828f84f055c65deb34b530f0ce93be2
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "60959821"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205472"
 ---
 # <a name="advanced-communications-add-on-for-microsoft-teams"></a>适用于 Microsoft Teams 的高级通信Microsoft Teams
 
@@ -30,20 +30,19 @@ ms.locfileid: "60959821"
 
 ## <a name="what-is-advanced-communications"></a>什么是高级通信？
 
-高级通信包括高级会议自定义、用于管理组织通信策略的工具，以及自定义策略包的高级可管理性。 其他功能包括自定义品牌会议大厅，用于定制会议，以及用于监视、跟踪和分析用户和设备上数据的工具。
+高级通信包括高级会议自定义、用于管理组织通信策略的工具、使用自定义策略包实现高级可管理性，以及自定义品牌会议大厅来定制会议。
 
 - 在加入前和大厅中，使用公司的徽标自定义会议预加入体验。 
 - 使用自定义的"共同模式"场景创建统一的会议体验，该场景旨在满足贵公司和会议的需求。
-- 监视、跟踪和分析用户和设备上的数据，以确保使用实时遥测的顺畅体验。
-- 通过使用管理中心或 PowerShell 为组织中具有类似角色的用户捆绑自己的策略集，Teams自定义策略包的体验。 每个用户都需要许可证才能接收自定义策略包分配。 
+- 通过使用管理中心或 PowerShell 为组织中具有类似角色的用户捆绑自己的一组策略，定制自定义策略Teams体验。 每个用户都需要许可证才能接收自定义策略包分配。 
 
 高级通信作为任何付费Microsoft 365订阅的附加内容在所有Microsoft 365 Office 365提供。 高级通信中包含的功能不会添加到其他Microsoft 365或Office 365计划中，并且不能单独购买。 若要获取功能，必须购买附加内容。
 
 > [!NOTE]
-> 功能将在可用时发布。 有关最新[Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap?filters=Microsoft%20Teams)时间，请访问公共路线图。
+> 功能将在可用时发布。 有关最新[Microsoft 365时间，](https://www.microsoft.com/microsoft-365/roadmap?filters=Microsoft%20Teams)请访问公共路线图。
 
 > [!NOTE]
-> 高级通信尚不可用于 Microsoft 365 GCC 或国防部 (DoD) 环境。
+> 高级通信尚不可用于Microsoft 365 GCC或国防部 (DoD) 环境。
 
 这些功能现在以预览版提供。
 

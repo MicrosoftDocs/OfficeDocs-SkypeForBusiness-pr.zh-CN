@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.audioandvideo
 - seo-marvel-apr2020
 description: 了解如何在音频和视频Teams管理会议策略设置。
-ms.openlocfilehash: 27153896065d3358927755d3cd1b303c2b1141a0
-ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
+ms.openlocfilehash: 9cd2a82c87106e8060d168766915e4249b9193a5
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "59984617"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61177993"
 ---
 # <a name="meeting-policy-settings-for-audio--video"></a>音频和视频的会议&设置
 
@@ -35,7 +35,7 @@ ms.locfileid: "59984617"
 
 - [IP 音频模式](#mode-for-ip-audio)
 - [IP 视频模式](#mode-for-ip-video)
-- [允许 IP 视频](#allow-ip-video)
+- [IP 视频](#ip-video)
 - [媒体位率 (Kbs)](#media-bit-rate-kbs)
 - [视频筛选器模式](#video-filters-mode)
 - [允许自定义背景设置](#allow-custom-background-settings)
@@ -49,7 +49,7 @@ ms.locfileid: "59984617"
 |**已启用传出和传入音频**    |会议允许传出和传入音频。这是默认设置。 |
 |**禁用**     |传出和传入音频在会议中已关闭。     |
 
-如果用户设置为 **"已** 禁用"，该用户仍可以安排和组织会议，但他们不能使用音频。 若要加入会议，他们必须通过 PSTN 公用电话交换网 (PSTN) 或通过电话拨入会议呼叫并加入。 没有指定任何策略的会议参与者 (例如，匿名参与者) 将此设置为默认 **启用传出和传入音频**。 在 Teams 移动客户端上，如果禁用此设置，用户必须通过 PSTN 拨入会议。
+如果用户设置为 **"已** 禁用"，该用户仍可以安排和组织会议，但他们不能使用音频。 若要加入会议，他们必须通过 PSTN 公用电话交换网 (电话) 或通过电话拨入会议呼叫并加入会议。 没有指定任何策略的会议参与者 (例如，匿名参与者) 将此设置为默认 **启用传出和传入音频**。 在 Teams 移动客户端上，如果禁用此设置，用户必须通过 PSTN 拨入会议。
 
 此设置不适用于 1:1 呼叫。 若要限制 1:1 通话，请配置 Teams [通话策略](teams-calling-policy.md) 并关闭 **“进行私人通话”** 设置。 此设置也不适用于 Surface Hub 和 Microsoft Teams 会议室设备等会议室设备。
 
@@ -73,11 +73,11 @@ ms.locfileid: "59984617"
 此设置尚未适用于 Microsoft 365 政府社区云 (GCC)、GCC High 或国防部 (DoD) 环境。
 
 > [!NOTE]
-> 请记住，该设置同时控制传出和传入的视频，而 **允许 IP 视频** 设置则控制传出视频。 若要了解更多信息，请参阅[哪些 IP 视频策略设置优先?](#which-ip-video-policy-setting-takes-precedence) 和 [管理会议参与者的音频/视频 ](#manage-audiovideo-for-meeting-participants)。
+> 请记住，此设置控制传出和传入视频， **而 IP 视频设置控制** 传出视频。 若要了解更多信息，请参阅[哪些 IP 视频策略设置优先?](#which-ip-video-policy-setting-takes-precedence) 和 [管理会议参与者的音频/视频 ](#manage-audiovideo-for-meeting-participants)。
 
 有关详细信息，请参阅 [会议参与者管理音频/视频](#manage-audiovideo-for-meeting-participants)。
 
-### <a name="allow-ip-video"></a>允许 IP 视频
+### <a name="ip-video"></a>IP 视频
 
 这是按组织者和按用户策略的组合。 视频是会议的重要组成部分。 在一些组织中，管理员可能希望对有视频的用户会议进行更多的控制。 此设置控制是否可以在用户主持的会议和用户启动的 1:1 和群组通话中打开视频。 在Teams客户端上，此设置控制用户是否可以在会议中共享照片和视频。
 
@@ -92,7 +92,7 @@ ms.locfileid: "59984617"
 
 查看以下示例。
 
-|用户 |会议策略  |允许 IP 视频 |
+|用户 |会议策略  |IP 视频 |
 |---------|---------|---------|
 |Daniela   | 全局   | 开       |
 |Amanda    | Location1MeetingPolicy        | 关闭      |
@@ -109,22 +109,22 @@ ms.locfileid: "59984617"
 
 对于用户，视频的最多限制策略设置优先。此处为一些示例。
 
-|允许 IP 视频|IP 视频模式|会议体验|
+|IP 视频|IP 视频模式|会议体验|
 |---------|---------|---------|
 |组织者: **打开**<br><br>参与者: **打开** |参与者: **禁用**        |**IP 视频模式** 设置优先。 分配到此策略的参与者不能开启或查看他人分享的视频。|
 |组织者: **打开**<br><br>参与者: **打开** |参与者: **启用传出和传入视频**          |分配到该策略的参与者可以打开或查看他人分享的视频。         |
-|组织者: **打开**<br><br>参与者: **关闭** |参与者: **启用传出和传入视频**         |允许 **IP 视频** 设置优先。 参与者只能看到传入视频，无法发送传出视频。         |
+|组织者: **打开**<br><br>参与者: **关闭** |参与者: **启用传出和传入视频**         |**IP 视频** 设置优先。 参与者只能看到传入视频，无法发送传出视频。         |
 |组织者: **打开**<br><br>参与者: **关闭** |参与者: **禁用**         |**IP 视频模式** 设置优先。 参与者无法看到传入或传出的视频。|
-|组织者: **关闭**    |       |**允许 IP 视频** 设置优先，因为它已为组织者关闭。 任何人都不能在分配此策略的用户组织会议中打开视频。         |
+|组织者: **关闭**    |       |**IP 视频** 设置优先，因为组织者已关闭此设置。 任何人都不能在分配此策略的用户组织会议中打开视频。         |
 
 ### <a name="manage-audiovideo-for-meeting-participants"></a>管理与会者的音频/视频
 
 |如果你想要...  |设置以下策略设置  |
 |---------|---------|
-|禁用会议参与者的音频和视频  |IP 音频模式: **禁用**<br> IP 视频模式: **禁用**<br>允许 IP 视频: 不适用       |
-|只为会议参与者启用传入的视频和音频  |IP 音频模式: **启用传出和传入音频**<br> IP 视频模式: **启用传出和传入视频**<br>允许 IP 视频: **关闭**       |
-|禁用会议参与者的视频 (参与者仅有音频)|  IP 音频模式: **启用传出和传入音频**<br> IP 视频模式: **禁用**<br>允许 IP 视频: 不适用
-|为会议参与者启用音频和视频    |IP 音频模式: **启用的传出和传入** (默认)<br> IP 视频模式: **启用传出和传入视频** (默认)<br>允许 IP 视频: **打开** (默认)    |
+|禁用会议参与者的音频和视频  |IP 音频模式: **禁用**<br> IP 视频模式: **禁用**<br>IP 视频：N/A       |
+|只为会议参与者启用传入的视频和音频  |IP 音频模式: **启用传出和传入音频**<br> IP 视频模式: **启用传出和传入视频**<br>IP 视频： **关闭**       |
+|禁用会议参与者的视频 (参与者仅有音频)|  IP 音频模式: **启用传出和传入音频**<br> IP 视频模式: **禁用**<br>IP 视频：N/A
+|为会议参与者启用音频和视频    |IP 音频模式: **启用的传出和传入** (默认)<br> IP 视频模式: **启用传出和传入视频** (默认)<br>IP 视频： **在 (** 上)     |
 
 适用会议组织者政策和用户政策之间最严格的政策。 例如，如果组织者有限制视频的策略，而用户的策略不限制视频，那么会议参与者就会继承会议组织者的策略，在会议中无法访问视频。 这意味着他们只能使用音频加入会议。
 
@@ -133,7 +133,7 @@ ms.locfileid: "59984617"
 
 #### <a name="teams-mobile-clients"></a>Teams 移动设备客户端
 
-对于Teams客户端上的用户，会议期间共享照片和视频的能力也取决于"允许 **IP** 视频"或 **"IP 视频模式"** 设置。 根据策略设置优先，将无法使用分享视频和照片的功能。 这不会影响屏幕共享，可以使用单独的 [屏幕共享模式](meeting-policies-content-sharing.md#screen-sharing-mode) 设置进行配置。 此外，还可以设置 [Teams 移动性策略](/powershell/module/skype/new-csteamsmobilitypolicy)，防止移动用户通过蜂窝连接使用 IP 视频，这意味着他们必须使用 WiFi 连接。
+对于Teams客户端上的用户，会议期间共享照片和视频的能力也取决于 **IP 视频** 或 **IP 视频模式** 设置。 根据策略设置优先，将无法使用分享视频和照片的功能。 这不会影响屏幕共享，可以使用单独的 [屏幕共享模式](meeting-policies-content-sharing.md#screen-sharing-mode) 设置进行配置。 此外，还可以设置 [Teams 移动性策略](/powershell/module/skype/new-csteamsmobilitypolicy)，防止移动用户通过蜂窝连接使用 IP 视频，这意味着他们必须使用 WiFi 连接。
 
 ### <a name="media-bit-rate-kbs"></a>媒体位率 (Kbs)
 
@@ -151,7 +151,7 @@ ms.locfileid: "59984617"
 
 可以使用管理中心Teams PowerShell 设置此策略。 可以使用 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet 编辑现有的 Teams 会议策略。 或者，使用 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet 创建一个新的 Teams 会议策略，然后将该策略分配给用户。
 
-若要指定用户是否可以在会议中自定义其视频背景，请在 Teams 管理中心中设置 **VideoFiltersMode** 参数 (选择视频筛选器设置) 如下所示： 
+若要指定用户是否可以在会议中自定义其视频背景，请在管理中心中设置 **VideoFiltersMode** 参数 (选择视频筛选器Teams设置) 如下所示：
 
 |在 PowerShell 中设置值|在管理中心Teams值 |行为  |
 |---------|---------|---------|

@@ -22,16 +22,16 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a1c25ed5b00adf162ceb5d75d9207e43e489f3c6
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: ac7558f2177ab468043e624d6230106179f79a6e
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536523"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205232"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>在 Microsoft Teams 中配置实时事件设置
 
-使用Teams事件设置来配置组织中举行实时事件的设置。 可以设置支持 URL 并配置第三方视频分发提供商。 这些设置适用于在组织中创建的所有实时事件。
+使用Teams事件设置来配置组织中保存实时事件的设置。 可以设置支持 URL 并配置第三方视频分发提供商。 这些设置适用于在组织中创建的所有实时事件。
 
 可以在管理中心内轻松Microsoft Teams这些设置。 在左侧导航栏中，转到"**会议**  >  **实时事件设置"。**
 
@@ -67,7 +67,7 @@ Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}”
 
     ![管理中心内的第三方视频分发提供商设置。](../media/teams-live-events-settings-distribution-provider-new.png "实时事件的第三方视频分发提供商设置的屏幕截图")
 
-    - **使用第三方分发提供商** 启用此选项可启用第三方视频分发提供商。
+    - **第三方分发提供商** 启用此选项可启用第三方视频分发提供商。
     - **SDN 提供程序名称** 选择你使用的提供商。
     - **SDN 配置** 输入 SDN 配置详细信息。
         

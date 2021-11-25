@@ -20,12 +20,12 @@ description: 为实时事件设置Teams，包括设置网络、分配许可证�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4d9e21872adb0fb0e34280d29fe928ea3ac056da
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: 5911ee829284917e5d16a6e254004ad7c49f8660
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60046188"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205442"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中为实时事件进行设置
 
@@ -50,7 +50,7 @@ ms.locfileid: "60046188"
 
 <a name="bkcreatepolicy"> </a>
 
-1. 在管理中心左侧导航Microsoft Teams，转到"**会议**  >  **实时事件策略**  >  **""管理策略"** 选项卡。
+1. 在管理中心左侧导航Microsoft Teams，**转到"会议** 实时  >  **事件策略**  >  **""管理策略"** 选项卡。
 2. 执行下列选项之一：
 
     - 如果要编辑现有默认策略，请选择“**全局(默认为组织范围)**”。
@@ -65,8 +65,8 @@ ms.locfileid: "60046188"
 |---------|---------|
 |**标题**     |这是显示在实时事件策略页面上的策略标题。 它不能超过 64 个字符或包含任何特殊字符。          |
 |**说明**    |使用它为策略添加友好说明。         |
-|**允许安排**     |启用此设置可让组织中的用户在 Teams 中创建和安排实时事件。 请务必注意，如果希望用户安排使用外部应用或设备制作的实时事件，则必须执行其他步骤。 若要了解详细信息，请参阅[允许用户安排使用外部应用或设备制作的事件](#enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device)。     |
-|**允许与会者转录** |此设置仅适用于在 Teams 中制作的事件。 启用此设置后，实时事件参与者可在事件期间查看实时辅助字幕与字幕。         |
+|**实时事件计划**     |启用此设置可让组织中的用户在 Teams 中创建和安排实时事件。 请务必注意，如果希望用户安排使用外部应用或设备制作的实时事件，则必须执行其他步骤。 若要了解详细信息，请参阅[允许用户安排使用外部应用或设备制作的事件](#enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device)。     |
+|**与会者听录** |此设置仅适用于在 Teams 中制作的事件。 启用此设置后，实时事件参与者可在事件期间查看实时辅助字幕与字幕。         |
 |**可以加入已计划实时事件的用户**    |选择以下选项之一。<br><br>**任何人** 用户可以创建允许任何人（包括组织外部的人员）参与的实时事件。 当用户安排实时事件时，此设置将在 Teams 中启用 **公共** 权限类型。<br> **组织中的所有人** 用户可以创建允许组织内的人员（包括添加到组织的 [来宾用户](../add-guests.md)）参与的实时事件。 用户不能创建由匿名用户参与的实时事件。 当用户安排实时事件时，此设置将在 Teams 中启用 **组织范围** 权限类型。<br> **特定用户或组** 用户可以创建只允许组织内的特定用户或组参与的实时事件。 用户不能创建由组织内的任何人或匿名用户参与的实时事件。 当用户安排实时事件时，此设置将在 Teams 中启用 **人员和组** 权限类型。       |
 |**录制设置**  <br>     | 此设置仅适用于在 Teams 中制作的事件。 选择以下选项之一。 <br><br> **始终录制** 始终录制由用户创建的实时事件。 事件结束后，事件团队成员可以下载录制内容，并且参加者可以观看该事件。 <br> **从不录制** 从不录制由用户创建的实时事件。 <br>**组织者可以录制或不录制** 用户可以决定是否录制实时事件。 如果已录制，则事件结束后，事件团队成员可以下载录制内容，并且参加者可以观看该事件。
 
@@ -93,7 +93,7 @@ ms.locfileid: "60046188"
 
 实时事件视频的播放使用自适应比特率流 (ABR)，但它是单播流，这意味着每个观看者都将从 Internet 上获取自己的视频流。 对于发送到组织内的大部分用户的实时事件或视频，观看者可能会消耗大量 Internet 带宽。 对于希望减少实时事件的 Internet 流量的组织，可将实时事件解决方案与 Microsoft 值得信赖的视频交付合作伙伴提供的软件定义的网络 (SDN) 或企业内容交付网络 (eCDN) 相集成。 这些 SDN/eCDN 平台使组织能够在不牺牲最终用户观看体验的情况下优化网络带宽。 我们的合作伙伴可帮助你在整个企业网络中实现更具可扩展性且高效的视频分发。
 
-**在 Teams 之外购买和设置你的解决方案** 通过 Microsoft 值得信赖的视频交付合作伙伴，在扩展视频交付方面获得专家帮助。 必须先在外部购买并设置 SDN/eCDN Teams，然后才能将视频传送提供商与 Teams。
+**在 Teams 之外购买和设置你的解决方案** 通过 Microsoft 值得信赖的视频交付合作伙伴，在扩展视频交付方面获得专家帮助。 在允许视频传送提供商与 Teams 一起使用之前，必须在外部购买和设置 SDN/eCDN 解决方案，并且独立于Teams。
 
 以下 SDN/eCDN 解决方案已预集成，可设置为与 Stream 一起使用。
 
@@ -103,7 +103,7 @@ ms.locfileid: "60046188"
 
 - **Ramp OmniCache** 提供下一代网络分发，并确保跨全球 WAN 的视频内容无缝交付，从而帮助事件制作者优化网络带宽并支持成功的实时事件广播和点播流。 即将对在 Teams 中制作的实时事件提供 OmniCache 支持。 [了解详细信息](https://rampecdn.com)。
 
-- **Riverbed（** 网络优化的行业标准）正在扩展其加速解决方案，Microsoft Teams流。  现在Microsoft 365客户可以放心地加快包括 Teams 和 Stream 在内的 365 流量，以及大量其他领先的企业 SaaS 服务，从任意位置提高员工工作效率。 Teams一个轻松的设置来启用流和流加速，同时提供 Riverbed 的一流支持和持续投资的所有保证。
+- **Riverbed（** 网络优化的行业标准）正在将加速解决方案扩展到 Microsoft Teams 流。  现在Microsoft 365客户可以放心地加速 365 流量（包括 Teams 和流式传输）以及其他许多领先的企业 SaaS 服务，以从任何位置提高员工工作效率。 Teams轻松设置来启用流和流加速，同时提供 Riverbed 的一流支持和持续投资的所有保证。
 
 > [!NOTE]
 > 你选择的 SDN 或 eCDN 解决方案受所选 **第三方提供商的服务条款和隐私策略** 的约束，这将制约你对提供商解决方案的使用。 你对提供商解决方案的使用将不受 Microsoft 批量许可条款或联机服务条款的约束。 如果你不同意 **第三方提供商的条款**，则不要在 Teams 中启用该解决方案。
@@ -117,5 +117,5 @@ ms.locfileid: "60046188"
 ### <a name="related-topics"></a>相关主题
 
 - [什么是 Teams 实时活动?](what-are-teams-live-events.md)
-- [规划 Teams 实时事件](plan-for-teams-live-events.md)
+- [规划 Teams 直播活动](plan-for-teams-live-events.md)
 - [配置 Teams 实时事件设置](configure-teams-live-events.md)

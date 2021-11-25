@@ -14,23 +14,23 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 了解如何在应用程序中为组织用户Microsoft Teams和管理应用设置策略。
+description: 了解如何在应用程序中为Microsoft Teams用户使用和管理应用设置策略。
 f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 4942ae39b8ca5d067bd5b98ad2780cd0db78422d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: aebf812b7362f5f7572e9b8fabb9e88754118438
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844945"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205292"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理应用设置策略
 
-作为管理员，可以使用应用设置策略来安装和固定应用以推广组织中最常用的应用，以及决定是否希望用户将自定义应用上传到 Teams。
+作为管理员，可以使用应用设置策略来安装和固定应用，以推广组织中最常用的应用，以及决定是否希望用户将自定义应用上传到 Teams。
 
-- 固定 **应用**：应用设置策略允许选择要固定的应用、设置它们显示给用户的顺序，以及控制用户是否可以将其应用固定到 Teams 应用栏。 有关详细信息，请参阅固定 [应用](#pin-apps)。
+- **固定应用**：应用设置策略允许选择要固定的应用、设置它们显示给用户的顺序，以及控制用户是否可以将其应用固定到 Teams 应用栏。 有关详细信息，请参阅固定 [应用](#pin-apps)。
 - **安装应用：** 应用设置策略让你在用户启动应用时代表用户Teams会议期间安装应用。 有关详细信息，请参阅 [安装应用](#install-apps)。
 - **Upload自定义应用**：应用设置策略允许用户将自定义应用上传到Teams。 有关详细信息，请参阅自定义[Upload应用](#upload-custom-apps)。
 
@@ -50,7 +50,7 @@ ms.locfileid: "60844945"
 |![Teams桌面客户端。](media/app-setup-policies-desktop-app-bar.png)<br>  |   ![Teams移动客户端](media/mobile-app-ui.png)      |
 
 > [!NOTE]
-> 如果有Teams 教育版，必须知道，"分配"应用默认已固定在全局策略中，即使当前未看到它在全局策略中列出。 它将是客户端上已固定应用列表中的第四Teams应用。
+> 如果有Teams 教育版，必须知道"分配"应用默认已固定在全局策略中，即使当前未在全局策略中列出该应用。 它将是客户端上已固定应用列表中的第四Teams应用。
 
 若要创建应用设置策略以固定应用，请执行以下步骤：
 
@@ -60,10 +60,10 @@ ms.locfileid: "60844945"
 
 3. 输入策略的名称和说明。
 
-4. 打开或关闭 **"允许用户** 固定"，具体取决于是否要让用户通过将应用固定到应用栏来个性化其应用栏。
+4. 打开或关闭 **"用户** 固定"，具体取决于是否要让用户通过将应用固定到应用栏来个性化其应用栏。
 
    > [!NOTE]
-   > Microsoft 365 政府社区云 (GCC) 环境 (GCC、GCC High 和 DoD) 中的 Teams 管理中心中提供了"允许用户固定"设置，但目前不起作用。
+   > Microsoft 365 政府社区云 (GCC) 环境 (GCC、GCC High 和 DoD) 中的 Teams 管理中心提供"用户固定"设置，但目前不起作用。
 
 5. 在 **"固定的应用"下**，选择"**添加应用"。**
 
@@ -168,15 +168,15 @@ ms.locfileid: "60844945"
 
 并非所有应用都可以通过应用设置Teams固定到其他应用。 某些应用可能不支持此功能。 若要查找可固定的应用，请搜索"添加固定的应用" **窗格中的应用** 。 具有个人范围的选项卡 (静态选项卡) 和机器人可以固定到 Teams 桌面客户端，这些应用在"添加固定应用"**窗格中可用。**
 
-请记住，应用商店Teams列出所有Teams应用。 "**添加固定的应用"** 窗格仅包含可以通过策略固定Teams应用。
+请记住，应用商店Teams列出所有Teams应用。 "**添加固定应用"** 窗格仅包含可以通过策略固定Teams应用。
 
-#### <a name="im-a-teams-for-education-admin-what-do-i-need-to-know-about-app-setup-policies-in-teams-for-education"></a>我是管理员Teams 教育版管理员。关于应用中的应用设置策略，我需要了解哪些Teams 教育版
+#### <a name="im-a-teams-for-education-admin-what-do-i-need-to-know-about-app-setup-policies-in-teams-for-education"></a>我是管理员Teams 教育版管理员。我需要了解应用中的应用设置策略Teams 教育版
 
-呼叫应用在 Teams 教育版 中不可用。 创建新的自定义应用设置策略时，"呼叫"应用会显示在应用列表中。 但是，该应用未固定到Teams客户端Teams 教育版用户将看不到应用中的"呼叫"Teams。
+呼叫应用在 Teams 教育版 中不可用。 创建新的自定义应用设置策略时，"呼叫"应用会显示在应用列表中。 但是，应用不会固定到Teams客户端Teams 教育版并且用户不会在 Teams 中看到"呼叫"应用。
 
 #### <a name="how-many-pinned-apps-can-be-added-to-a-policy"></a>可以将多少个固定应用添加到策略
 
-必须将至少两个应用固定到 iOS Teams Android (移动) 。 如果策略的应用少于两个，移动客户端不会反映策略设置，而是继续使用现有配置。
+必须至少将两个应用固定到 iOS Teams Android (移动) 。 如果策略的应用少于两个，移动客户端不会反映策略设置，而是继续使用现有配置。
 
 可以添加到策略的固定应用数量没有限制。
 
@@ -186,30 +186,30 @@ ms.locfileid: "60844945"
 
 ### <a name="user-experience"></a>用户体验
 
-#### <a name="how-can-users-see-all-their-pinned-apps-in-teams"></a>用户如何在应用中查看其所有固定Teams
+#### <a name="how-can-users-see-all-their-pinned-apps-in-teams"></a>用户如何查看应用中的所有固定Teams
 
-若要查看为用户固定的所有应用，用户可能需要执行以下操作，具体取决于已安装的应用数及其Teams窗口的大小。
+若要查看为用户固定的所有应用，用户可能必须执行以下操作，具体取决于已安装的应用数及其Teams窗口的大小。
 
 |Teams 桌面客户端 |Teams 移动客户端 |
 |---------|---------|
-|在应用栏的"应用Teams，选择 **"...更多应用**。| 在屏幕底部附近的应用栏中Teams向上轻扫。|
+|在应用栏的"应用Teams，选择 **"...更多应用**。| 在靠近底部应用Teams向上轻扫。|
 |![桌面客户端中的Teams应用。](media/app-setup-policies-desktop-more-apps.png)<br>   |![Teams移动客户端中的更多应用](media/app-setup-policies-mobile-more-apps.png)  
 
 #### <a name="what-do-i-need-to-know-about-the-teams-mobile-experience"></a>我需要了解哪些Teams体验
 
 iOS Teams Android (移动客户端) 静态选项卡支持个人应用。 固定到 Teams 桌面客户端的应用将显示在Teams客户端中。 个人机器人将显示在移动客户端上的聊天中。
 
-第三方 (可从应用商店Teams应用) ，然后才能在移动设备上显示。 如果管理员固定应用（未经 Microsoft 移动版批准）将在桌面Teams显示，但不显示在移动设备上。 有关详细信息 [，请参阅](/microsoftteams/platform/tabs/what-are-tabs#mobile-clients) 移动客户端。
+可以从应用商店 (下载的第三方Teams应用) 在移动设备上显示之前需要获得批准。 如果管理员固定应用（未经 Microsoft 移动版批准）将在桌面Teams显示，但不显示在移动设备上。 有关详细信息 [，请参阅](/microsoftteams/platform/tabs/what-are-tabs#mobile-clients) 移动客户端。
 
 使用 Teams 移动客户端，用户将看到核心 Teams 应用，如活动、聊天和 Teams，并且你可以固定来自 Microsoft 的一些第一方应用，例如 Shifts。
 
 #### <a name="can-users-change-the-order-of-apps-pinned-through-a-policy"></a>用户能否更改通过策略固定的应用的顺序
 
-如果"允许用户固定"选项打开，用户可以在桌面Teams移动客户端上更改其固定应用的顺序。  用户不能更改其固定应用在 Web 客户端上Teams的顺序。
+如果"用户固定"选项已打开，Teams桌面和移动客户端上更改其固定应用的顺序。  用户不能更改其固定应用在 Web 客户端上Teams的顺序。
 
 #### <a name="does-user-pinning-take-precedence"></a>用户固定是否优先
 
-管理图钉始终优先。 如果 **"允许用户固定"** 选项已打开，则用户将保留其固定应用在管理员固定应用下方。 如果 **"允许用户固定"** 选项已关闭，则用户将丢失其预先存在的固定项，并且只有管理员固定的应用将存在于应用栏中。
+管理图钉始终优先。 如果 **"用户固定"** 选项已打开，则用户将保留其固定应用在管理员固定应用下方。 如果 **"用户固定"** 选项已关闭，则用户将丢失其预先存在的固定项，并且只有管理员固定的应用将存在于应用栏中。
 
 ### <a name="custom-teams-apps"></a>自定义Teams应用
 
@@ -217,7 +217,7 @@ iOS Teams Android (移动客户端) 静态选项卡支持个人应用。 固定�
 
 在提交应用之前，请确保遵循徽标准则。 有关详细信息，请参阅 [卖方仪表板提交清单](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/overview)。
 
-## <a name="related-topics"></a>相关主题
+## <a name="related-articles"></a>相关文章
 
 [Teams 中应用的管理设置](admin-settings.md)
 

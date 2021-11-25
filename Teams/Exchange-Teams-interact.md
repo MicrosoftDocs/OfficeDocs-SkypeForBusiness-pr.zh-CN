@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 01335cce21a4550158f3c87da12c8a23166a39de
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1fbcadfefffe40bbd7c2919f269185b8116b7237
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624804"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205272"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 与 Microsoft Teams 如何交互
 
@@ -47,8 +47,8 @@ Exchange Online 或 Exchange Dedicated vNext 上托管的用户可以使用 Team
 
 | 用户的邮箱托管在：                                       | 电子数据展示         | 合法&nbsp;保留    | 保留        | 团队和频道管理 | 在 Teams 中创建和查看会议 | 修改用户个人资料图片 | 呼叫历史记录 | 管理联系人 | 访问 Outlook 联系人 | 语音邮件        | 添加和配置连接器 | 添加和配置选项卡 | 添加和配置聊天机器人 |
 |--------------------------------------------------------------------|--------------------|--------------------|------------------|-----------------------|-----------------------------------|-----------------------------|--------------|-----------------|-------------------------|------------------|------------------------------|------------------------|------------------------|
-| **Exchange Online**                                                | 是 <sup>1</sup>   | 支持<sup>1</sup>   | 是              | 是                   | 是                               | 是<sup>7</sup>             | 是          | 是             | 是 <sup>6</sup>        | 是              | 是                          | 是                    | 是                    |
-| **Exchange Online Dedicated vNext**                                | 是 <sup>1</sup>   | 支持<sup>1</sup>   | 是              | 是                   | 是                               | 是<sup>7</sup>             | 是          | 是             | 是 <sup>6</sup>        | 是              | 是                          | 是                    | 是                    |
+| **Exchange Online**                                                | 是 <sup>1</sup>   | 是 <sup>1</sup>   | 是              | 是                   | 是                               | 是<sup>7</sup>             | 是          | 是             | 是 <sup>6</sup>        | 是              | 是                          | 是                    | 是                    |
+| **Exchange Online Dedicated vNext**                                | 是 <sup>1</sup>   | 是 <sup>1</sup>   | 是              | 是                   | 是                               | 是<sup>7</sup>             | 是          | 是             | 是 <sup>6</sup>        | 是              | 是                          | 是                    | 是                    |
 | **Exchange Online Dedicated - Legacy**（同步到所需 Azure AD） | 是 <sup>1</sup>   | 是 <sup>1、2</sup> | 是 <sup>3</sup> | 是                   | 否                                | 否                          | 是          | 是             | 否                      | 是 <sup>4</sup> | 是 <sup>5</sup>             | 是                    | 是                    |
 | **Exchange 本地**（同步到 Azure AD）                        | 是 <sup>1，9</sup> | 是 <sup>1</sup>   | 是 <sup>3</sup> | 是                   | 是 <sup>8</sup>                  | 是<sup>10</sup>            | 是          | 是             | 否                      | 是 <sup>4</sup> | 是 <sup>5</sup>             | 是                    | 是                    |
 
@@ -68,9 +68,9 @@ Exchange Online 或 Exchange Dedicated vNext 上托管的用户可以使用 Team
 
 <sup>8</sup> 需要满足[为本地托管的邮箱创建和查看会议的要求](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises)部分中列出的要求。
 
-<sup>9</sup>至少还需要Exchange Online计划 1 许可证。 有关详细信息，请参阅[搜索Teams本地用户的聊天数据](/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users)。
+<sup>9</sup>至少需要Exchange Online计划 1 许可证。 有关详细信息，请参阅[搜索Teams本地用户的聊天数据](/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users)。
 
-<sup>10</sup>本地用户可以使用 Teams 更新其个人资料图片，即使 Web 邮箱策略Outlook设置为 ，也可以 `SetPhotoEnabled` 更新其个人资料图片 `false` 。
+<sup>10</sup>本地用户可以使用 Teams更新其个人资料图片，即使 Web 邮箱策略Outlook上的权限设置为 `SetPhotoEnabled` `false` 。
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>充分利用 Microsoft Teams 的要求
 
@@ -110,12 +110,12 @@ Microsoft Teams 可与许多 Microsoft 365 和 Office 365 服务协同工作，�
 
 若要为这些用户启用日历委派，请执行以下操作：
 
-- 还必须完成在 Skype for Business Online 和 Exchange Server 之间配置集成[和 OAuth 中所述的步骤](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises);这些步骤将为用户Teams应用程序提供确认代理权限所需的权限。
+- 还必须完成在 Skype for Business Online 和 Exchange Server 之间配置集成和[OAuth](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)中所述的步骤;这些步骤将为 Teams 计划应用程序提供确认委托权限所需的权限。
  
   > [!NOTE]
   > 步骤 2 包括 ArchiveApplication 的角色分配，这不是委派所必需的。
 
-- Teams代表其他人安排会议时，Outlook计划加载项Exchange 2013 CU19 或更高版本。 这是为了支持我们的服务对邮箱进行未经身份验证的发现，以检查代理人对委托人邮箱的权限。 代理人和委托人位置可以是 Exchange 2013 或更高版本，或者是 Exchange Online，但自动发现必须解析为 Exchange 2013 CU19 或更高版本。
+- 代表Teams安排会议时，Outlook计划加载项Exchange 2013 CU19 或更高版本。 这是为了支持我们的服务对邮箱进行未经身份验证的发现，以检查代理人对委托人邮箱的权限。 代理人和委托人位置可以是 Exchange 2013 或更高版本，或者是 Exchange Online，但自动发现必须解析为 Exchange 2013 CU19 或更高版本。
 
 ## <a name="additional-considerations"></a>其他注意事项
 
@@ -125,7 +125,7 @@ Microsoft Teams 可与许多 Microsoft 365 和 Office 365 服务协同工作，�
 
 - 使用条件访问控制和保护 Teams 和 Exchange 中合规性策略的配置。 有关详细信息，请参阅[条件访问策略如何在 Teams 中发挥作用？](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)
 
-- 如果你的组织具有合规性要求以确保可以发现所有会议讨论，则在组织者具有 Exchange 本地邮箱的情况下，应禁用私人会议。 有关详细信息，请参阅[允许安排私人会议](./meeting-policies-in-teams-general.md#allow-scheduling-private-meetings)。
+- 如果你的组织具有合规性要求以确保可以发现所有会议讨论，则在组织者具有 Exchange 本地邮箱的情况下，应禁用私人会议。 有关详细信息，请参阅 [私人会议安排](./meeting-policies-in-teams-general.md#private-meeting-scheduling)。
 
 - 在 Exchange 混合部署中，无论聊天参与者是基于云的邮箱还是本地邮箱，都可以搜索聊天消息中的内容。 若要了解详细信息，请参阅[搜索本地用户基于云的邮箱](/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users)。 若要了解如何在 Teams 中搜索内容，请阅读 [Microsoft 365 合规中心中的内容搜索](/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups)。
 
