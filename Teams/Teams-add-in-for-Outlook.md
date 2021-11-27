@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 38787b6f3fe11c1dfd8a9883f06bf19206360ec6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: fc7a387f7dcd6ef8a3ed728b8aa59db64ccefb31
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840894"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205522"
 ---
 # <a name="use-the-teams-meeting-add-in-in-outlook"></a>在 Outlook 中使用 Teams 会议外接程序
 
@@ -131,6 +131,9 @@ Teams 会议外接程序仍是正在构建的功能，因此请注意以下事�
 
 使用以下步骤解决 Teams 会议加载项的问题。
 
+> [!NOTE]
+> 还可以使用 [命令行版本的Microsoft 支持和恢复助手](/office365/troubleshoot/administration/sara-command-line-version) SaRAcmd.exe -S TeamsAddinScenario -AcceptEula -CloseOutlook 来管理此方案。
+
 ### <a name="teams-meeting-add-in-in-outlook-for-windows-does-not-show"></a>Windows 版 Outlook 中的 Teams 会议加载项未显示
 
 若无法安装 Outlook 的 Teams 会议加载项，请尝试下列故障排除步骤。
@@ -141,7 +144,7 @@ Teams 会议外接程序仍是正在构建的功能，因此请注意以下事�
 
 - Windows 7 用户必须安装 [Windows 通用 C 运行时更新](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows)，Teams 会议加载项才能工作。
 - 检查用户是否具有允许在 Teams 中安排会议的 Teams 升级策略。 有关更多详细信息，请参阅[从 Skype for Business 升级到 Teams](/microsoftteams/upgrade-to-teams-on-prem-overview#meetings)。
-- 检查用户是否具有允许 Outlook 加载项的 Teams 会议策略。 详情请参阅 [会议策略设置 - 常规](./meeting-policies-in-teams-general.md#allow-the-outlook-add-in)。
+- 检查用户是否具有允许 Outlook 加载项的 Teams 会议策略。 详情请参阅 [会议策略设置 - 常规](./meeting-policies-in-teams-general.md#outlook-add-in)。
 - 确保用户已安装 Teams 桌面客户端。 仅使用 Teams Web 客户端时，不会安装会议加载项。
 - 确保用户安装了 Outlook 2013 或更高版本。
 - 确保用户具有执行 regsvr32.exe 的权限。

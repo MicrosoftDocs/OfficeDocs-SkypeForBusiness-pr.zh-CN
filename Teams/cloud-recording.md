@@ -19,12 +19,12 @@ description: 在 Teams 中部署云语音功能的实用指南，用于记录 Te
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a4008aa9f69f525e3fbbeb6fd7596822d7ac9be8
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 37d7c3999986373e7ad72176cfc0182f09144e3a
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536893"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205412"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 云会议录制
 
@@ -79,7 +79,7 @@ ms.locfileid: "60536893"
 
 你可以使用 Microsoft Teams 管理中心或 PowerShell 来设置 Teams 会议策略，以控制是否可以录制用户的会议。
 
-在 Microsoft Teams 管理中心中，打开或关闭会议策略中的“**允许云录制**”设置。 要了解详细信息，请参阅 [音频和视频的会议策略设置](meetings-policies-recording-and-transcription.md#allow-cloud-recording)。
+在 Microsoft Teams 管理中心，打开或关闭会议策略中的 **云录制** 设置。 要了解详细信息，请参阅 [音频和视频的会议策略设置](meetings-policies-recording-and-transcription.md#allow-cloud-recording)。
 
 借助 PowerShell，你可以配置 TeamsMeetingPolicy 中的 AllowCloudRecording 设置。 若要了解详细信息，请参阅[New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) 和 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)。
 
@@ -431,7 +431,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -**New** MeetingRecordingExpirationDay
 
 ### <a name="retention-policies"></a>保留策略
 
-你可以通过 ProgID 属性以仅将 Teams 会议录制视频文件为目标来应用自动保留标签。 有关详细信息，请参阅 [如何为 Teams 会议录制内容自动应用保留标签](/microsoft-365/compliance/apply-retention-labels-automatically?view=o365-worldwide#microsoft-teams-meeting-recordings)。
+你可以通过 ProgID 属性以仅将 Teams 会议录制视频文件为目标来应用自动保留标签。 有关详细信息，请参阅 [如何为 Teams 会议录制内容自动应用保留标签](/microsoft-365/compliance/apply-retention-labels-automatically#microsoft-teams-meeting-recordings)。
 
 ### <a name="data-loss-prevention-dlp-policies"></a>数据丢失防护 (DLP) 策略
 

@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 了解如何管理用户在组织中安排的 Teams 会议的设置。
-ms.openlocfilehash: a4a2eea55336639925d8c07c00ded4057456e1ff
-ms.sourcegitcommit: 95c7603b47fcd5fba8f762a4590693ee9f026328
+ms.openlocfilehash: 4ff1118818ac22040e9bf9f8c44288991e24d8b0
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/24/2021
-ms.locfileid: "61153305"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205302"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理会议设置
 
@@ -59,7 +59,7 @@ ms.locfileid: "61153305"
 
 ### <a name="using-powershell-to-configure-per-organizer-policy"></a>使用 PowerShell 配置按组织者策略
 
-管理员现在可以控制特定用户或用户组是否允许匿名用户加入其组织的会议。 此新的按组织者策略是通过使用 [Set-> CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) 中的 **-AllowAnonymousUsersToJoinMeeting** 参数来控制的。 此功能随 Teams PowerShell 版本 2.6.0 及更高版本一起提供。
+管理员现在可以控制特定用户或用户组是否允许匿名用户加入其组织的会议。 此新的按组织者策略是通过使用 [Set-> CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) 中的 **-AllowAnonymousUsersToJoinMeeting** 参数来控制的。 此功能随 Teams PowerShell 版本 2.6.0 及更高版本一起提供。
 
 可以使用策略（组织范围或按组织者）来管理匿名加入。 我们建议你实现按组织者策略。 将来弃用组织范围的策略设置后，按组织策略将是控制匿名加入的唯一方法。
 
