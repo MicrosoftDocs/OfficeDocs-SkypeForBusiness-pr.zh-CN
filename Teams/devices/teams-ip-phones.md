@@ -21,14 +21,14 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 了解哪些桌面电话和会议电话经过认证Microsoft Teams产生最佳结果。
-ms.openlocfilehash: eba01aa0e115de174851371e69ef07bb7685935c
-ms.sourcegitcommit: b3b295557d494f77a7ebd9f49ec55f2507da956c
+ms.openlocfilehash: 34662a04f24c8699f451d561aecc86f8315cffca
+ms.sourcegitcommit: 949fbc3215f96e48c01b75b13c400bdb47c37e4b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/22/2021
-ms.locfileid: "61135235"
+ms.lasthandoff: 11/29/2021
+ms.locfileid: "61216618"
 ---
-# <a name="microsoft-teams-certified-devices"></a>Microsoft Teams认证的设备
+# <a name="microsoft-teams-certified-devices"></a>Microsoft Teams认证设备
 
 认证Microsoft Teams计划可确保使用经认证的桌面电话和会议电话的客户体验高质量的音频呼叫和会议体验。
 
@@ -36,13 +36,13 @@ Microsoft Teams认证计划可确保更高质量的栏，具有更高的性能�
 
 ## <a name="currently-certified-teams-phones"></a>当前认证的Teams手机
 
-以下设备在手机认证计划Microsoft Teams认证：
+以下设备在手机认证Microsoft Teams认证计划下进行认证：
 
 |设备模型    | 固件版本    | 发布日期
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|
-| 带和不带话筒 (的 Crestron UC-P10-T)     | `1.0.0.80`       | 2021 年 5 月             |
-| 具有和不带话筒 (的 Crestron UC-P8-T)      | `1.0.0.56`       | 2021 年 2 月 |
-| 带或不带话筒的 Crestron UC-P10-C-T)  (  | `1.0.0.80`       | 2021 年 5 月                     |
+| 具有或不带话筒 (的 Crestron UC-P10-T)     | `1.0.0.80`       | 2021 年 5 月             |
+| 带和不带话筒 (的 Crestron UC-P8-T)      | `1.0.0.56`       | 2021 年 2 月 |
+| 具有或不带话筒 (的 Crestron UC-P10-C-T)   | `1.0.0.80`       | 2021 年 5 月                     |
 | 带和不带话筒的 (UC-P8-C-T)    | `1.0.0.80`       | 2021 年 5 月                     |
 | Yealink MP52                           | `145.15.0.6 `                                              | 2021 年 4 月                   |
 | AudioCodes C435HD                      | `1.12.33`                                                  | 2021 年 4 月                   |
@@ -67,19 +67,19 @@ Microsoft Teams认证计划可确保更高质量的栏，具有更高的性能�
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|
 | EPOS EXPAND 80T | `1.2.2.21182.10` | 2021 年 10 月 | 与 EPOS 视觉 3T 捆绑 |
 | Logitech Tap 设备     | `1.2.982`     |      2021 年 8 月   | 与 Logitech Rally Bar 和 Rally Bar Mini 兼容 |
-| Logitech Rally Bar Mini | `1.2.982`     |      2021 年 8 月   |    小型会议室 (4.5m x 4.5m)  |
-| Logitech Rally Bar      | `1.2.788`     |       2021 年 6 月    |    中型会议室 (4.5 米 x 6 米)        |
-| AudioCodes RXV80 | `1.9.155`        |   2021 年 5 月  | 3m x 3m (3 米的专注)  </br> 小型会议室 (450 万 x 450 万)  |
-| EPOS EXPAND Vision 3T       | `1.2.0.21102.03`    | 2021 年 4 月 | 3m x 3m (3 米的专注)  </br> 小型会议室 (450 万 x 450 万)  |
-| Yealink MeetingBar A30       | `133.15.0.52`    | 2021 年 3 月 | 中型会议室 (4.5 米 x 6 米)  |
+| Logitech Rally Bar Mini | `1.2.982`     |      2021 年 8 月   |    小型会议室 (450 万 x 4.5 米)  |
+| Logitech Rally Bar      | `1.2.788`     |       2021 年 6 月    |    中型会议室 (450 万 x 6 米)        |
+| AudioCodes RXV80 | `1.9.155`        |   2021 年 5 月  | 3 米 (3 米的专注)  </br> 小型会议室 (450 万 x 450 万)  |
+| EPOS EXPAND Vision 3T       | `1.2.0.21102.03`    | 2021 年 4 月 | 3 米 (3 米的专注)  </br> 小型会议室 (450 万 x 450 万)  |
+| Yealink MeetingBar A30       | `133.15.0.52`    | 2021 年 3 月 | 中型会议室 (450 万 x 6 米)  |
 | Yealink CTP18 触摸控制台  | `137.15.0.28`    | 2021 年 3 月 | 与 Yealink MeetingBar A20 和 Yealink MeetingBar A30 兼容 |
-| Yealink MeetingBar A20  | `133.15.0.19`      | 2020 年 11 月 | 3m x 3m (3 米的专注)  </br> 小型会议室 (450 万 x 450 万)  |
-| Poly Studio X30         | `3.1.1.216109`     | 2020 年 6 月     | 3m x 3m (3 米的专注)  </br> 小型会议室 (450 万 x 450 万)  |
-| Poly Studio X50         | `3.1.1.216109`     | 2020 年 6 月     | 3m x 3m (3 米的专注)  </br> 小型会议室 (450 万 x 450 万)  |
+| Yealink MeetingBar A20  | `133.15.0.19`      | 2020 年 11 月 | 3 米 (3 米的专注)  </br> 小型会议室 (450 万 x 450 万)  |
+| Poly Studio X30         | `3.1.1.216109`     | 2020 年 6 月     | 3 米 (3 米的专注)  </br> 小型会议室 (450 万 x 450 万)  |
+| Poly Studio X50         | `3.1.1.216109`     | 2020 年 6 月     | 3 米 (3 米的专注)  </br> 小型会议室 (450 万 x 450 万)  |
 | Poly TC8                | `3.3.2.210441`     | 2021 年 3 月    | 与 Poly Studio X30 和 Poly Studio X50 兼容 |
-| Yealink VC210           | `118.15.0.14`      | 2020 年 2 月 | 3m x 3m (3 米的专注)  </br> 小型会议室 (450 万 x 450 万)  |
+| Yealink VC210           | `118.15.0.14`      | 2020 年 2 月 | 3 米 (3 米的专注)  </br> 小型会议室 (450 万 x 450 万)  |
 
-## <a name="currently-certified-teams-displays"></a>当前认证的Teams显示器
+## <a name="currently-certified-teams-displays"></a>当前经过认证的Teams显示器
 
 以下设备在 Microsoft Teams Android 认证计划下认证：
 
@@ -88,7 +88,7 @@ Microsoft Teams认证计划可确保更高质量的栏，具有更高的性能�
 |Lenovo ThinkSmart View|`CD-18781Y.201006.099`|2020 年 10 月 |
 
 ## <a name="currently-certified-teams-panels"></a>当前认证的Teams面板
-以下设备在认证面板Microsoft Teams认证计划下进行认证：
+以下设备在认证面板认证Microsoft Teams认证计划下进行认证：
 
 | 设备模型| 固件版本 | 发布日期  |                                         
 |:------------------------|:-----------------|:--------------|
@@ -102,8 +102,9 @@ Microsoft Teams认证计划可确保更高质量的栏，具有更高的性能�
 
 #### <a name="app-versions"></a>应用版本
 
-| 产品发布 | 发布日期  | Microsoft Teams应用版本 | 公司门户版本 | 管理员代理版本 |
+| 产品发布 | 发布日期  | Microsoft Teams应用版本 | 公司门户 版本 | 管理员代理版本 |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
+| 2021 更新#3A | 2021 年 11 月 22 日   | `1449/1.0.94.2021110101 ` | `5.0.5304.0` | `298` |
 | 2021 更新 #3  | 2021 年 11 月 3 日   | `1449/1.0.94.2021101205` | `5.0.5304.0` | `298` |
 | 2021 更新#2A | 2021 年 6 月 10 日  |`1449/1.0.94.2021052803`|  `5.0.5088.0` |  `1.0.0.202103160138.product (256)` |
 | 2021 更新 #2  | 2021 年 6 月 8 日  |`1449/1.0.94.2021051303`|  `5.0.5088.0` |  `1.0.0.202103160138.product (256)` |
@@ -163,13 +164,13 @@ Microsoft Teams认证计划可确保更高质量的栏，具有更高的性能�
 
 请参阅[Microsoft Teams显示](teams-displays.md)。
 
-### <a name="product-release-information-for-teams-rooms-on-android"></a>Android 上适用于 Teams 会议室 的产品发布信息
+### <a name="product-release-information-for-teams-rooms-on-android"></a>Android 版 Teams 会议室产品发布信息
 
 以下是 Android 应用和Teams 会议室的最新版本。
 
 #### <a name="app-versions"></a>应用版本
 
-| 产品发布| 发布日期 | Microsoft Teams应用版本 | 公司门户版本 | 管理员代理版本 |
+| 产品发布| 发布日期 | Microsoft Teams应用版本 | 公司门户 版本 | 管理员代理版本 |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
 | 2021 更新#2A | 2021 年 7 月 15 日  |`1449/1.0.96.2021070803`|  `5.0.5088.0` |  `1.0.0.202104280345.product version code: 262` |
 | 2021 更新 #2 | 2021 年 6 月 28 日  |`1449/1.0.96.2021051904`|  `5.0.5088.0` |  `1.0.0.202104280345.product version code: 262` |
@@ -260,12 +261,12 @@ Microsoft Teams认证计划可确保更高质量的栏，具有更高的性能�
 
 请参阅 [在移动设备上查找固件版本](phones-for-teams.md) 以确定移动设备上的设备固件版本。
 
-Microsoft Teams许可证可以作为订阅或订阅[Microsoft 365 Office 365的一部分](/office365/servicedescriptions/teams-service-description)。 若要详细了解在手机上使用 Microsoft Teams所需的许可证，请参阅可用的[手机系统许可证](https://products.office.com/microsoft-teams/voice-calling)。
+Microsoft Teams许可证可以作为订阅或订阅[的一Microsoft 365 Office 365购买](/office365/servicedescriptions/teams-service-description)。 若要详细了解在手机上使用 Microsoft Teams所需的许可证，请参阅可用的[手机系统许可证](https://products.office.com/microsoft-teams/voice-calling)。
 
 有关获取访问权限Teams，请参阅如何[获取对 Microsoft Teams？](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
 如果你是希望加入认证计划的供应商，请参阅 [如何加入](/skypeforbusiness/certification/how-to-join) 了解要求和可用计划。
 
-[探索Microsoft Teams手机和认证设备。](https://products.office.com/microsoft-teams/across-devices/devices)
+[了解Microsoft Teams和认证设备。](https://products.office.com/microsoft-teams/across-devices/devices)
 
 [Teams和Skype互操作性](../teams-skype-interop.md)
