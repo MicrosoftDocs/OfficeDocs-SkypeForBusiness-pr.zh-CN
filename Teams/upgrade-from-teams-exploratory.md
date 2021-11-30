@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5f40ddcfdd9e9491fd5d4fc7f82c77d5e5dca66f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d4816f3f05c37fe1a690ffea7f48789c41fd2603
+ms.sourcegitcommit: 949fbc3215f96e48c01b75b13c400bdb47c37e4b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636986"
+ms.lasthandoff: 11/29/2021
+ms.locfileid: "61216668"
 ---
 # <a name="upgrade-users-from-the-teams-exploratory-trial"></a>从 Teams 探索试用版升级用户
 
@@ -50,7 +50,7 @@ ms.locfileid: "58636986"
 
 - **升级现有 Microsoft 365 订阅。** 如果组织具有不包括 Teams 在内的其他 Office 产品订阅，请使用此选项。 有关详细信息，请参阅 <a href="/microsoft-365/commerce/subscriptions/upgrade-to-different-plan?view=o365-worldwide" target="_blank">升级到其他商业计划</a>。 要查看现有订阅的活动用户，请在 Microsoft 365 管理中心中转到“**用户”>**<a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">“<b>活动用户</b>”</a>。
 
-- **将用户添加到现有 Microsoft 365 订阅。** 如果你的组织未支付足够的费用，请使用此选项。 涵盖 Teams 探索用户的 Teams 许可证。 有关详细信息，请参阅 <a href="/microsoft-365/commerce/licenses/buy-licenses?view=o365-worldwide" target="_blank">购买或删除许可证</a>。 要将用户添加到已有足够可用许可证的现有订阅，请参阅 <a href="/microsoft-365/commerce/subscriptions/move-users-different-subscription?view=o365-worldwide" target="_blank">将用户移动到其他订阅</a>。 要查看现有订阅的活动用户，请在 Microsoft 365 管理中心中转到“**用户”>**<a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">“<b>活动用户</b>”</a>。
+- **将用户添加到现有 Microsoft 365 订阅。** 如果你的组织没有足够的付费 Teams 许可证来涵盖 Teams 探索用户，请使用此选项。 有关详细信息，请参阅 <a href="/microsoft-365/commerce/licenses/buy-licenses?view=o365-worldwide" target="_blank">购买或删除许可证</a>。 要将用户添加到已有足够可用许可证的现有订阅，请参阅 <a href="/microsoft-365/commerce/subscriptions/move-users-different-subscription?view=o365-worldwide" target="_blank">将用户移动到其他订阅</a>。 要查看现有订阅的活动用户，请在 Microsoft 365 管理中心中转到“**用户”>**<a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">“<b>活动用户</b>”</a>。
 
 - **购买新的 Microsoft 365 订阅。** 如果你的组织没有任何 Office 产品的现有订阅，或者要购买不同于其现有订阅的订阅来涵盖 Teams 探索用户，请使用此选项。  有关详细信息，请参阅 <a href="/microsoft-365/commerce/try-or-buy-microsoft-365?view=o365-worldwide%22%20\#buy-a-different-subscription" target="_blank">购买其他 Microsoft 365 商业订阅</a>。
 
