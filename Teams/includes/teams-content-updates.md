@@ -3,6 +3,42 @@
 
 
 
+## <a name="week-of-november-22-2021"></a>2021 年 11 月 22 日周
+
+
+| 发布日期 |主题标题 | 更改 |
+|------|------------|--------|
+| 11/22/2021 | [支持 Teams 的设备](/MicrosoftTeams/devices/teams-ip-phones) | 修改内容 |
+| 11/22/2021 | [经认证可用于直接路由的会话边界控制器](/MicrosoftTeams/direct-routing-border-controllers) | 修改内容 |
+| 11/22/2021 | [Microsoft Teams实时事件使用情况报告](/MicrosoftTeams/teams-analytics-and-reports/teams-live-event-usage-report) | 修改内容 |
+| 11/22/2021 | [在 Microsoft Teams 中规划实时事件](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 修改内容 |
+| 11/23/2021 | [管理会议设置](/MicrosoftTeams/meeting-settings-in-teams) | 修改内容 |
+| 11/23/2021 | [使用 Exchange Online 部署 Microsoft Teams Rooms](/MicrosoftTeams/rooms/with-exchange-online) | 修改内容 |
+| 11/23/2021 | [使用 Microsoft Teams 会议室 或 Microsoft 365 部署Office 365](/MicrosoftTeams/rooms/with-office-365) | 修改内容 |
+| 11/24/2021 | [在 Outlook 中使用 Microsoft Teams 会议加载项](/MicrosoftTeams/teams-add-in-for-outlook) | 修改日期 |
+| 11/24/2021 | [Exchange 与 Microsoft Teams 如何交互](/MicrosoftTeams/exchange-teams-interact) | 修改内容 |
+| 11/24/2021 | [Microsoft Teams面板上的 (LOB) 应用支持Teams应用](/MicrosoftTeams/app-support-on-teams-panels) | 修改内容 |
+| 11/24/2021 | [Teams 云会议录制](/MicrosoftTeams/cloud-recording) | 修改内容 |
+| 11/24/2021 | [在 Microsoft Teams 中配置桌面共享](/MicrosoftTeams/configure-desktop-sharing) | 修改日期 |
+| 11/24/2021 | [Cortana语音帮助Microsoft Teams](/MicrosoftTeams/cortana-in-teams) | 修改内容 |
+| 11/24/2021 | [Teams 教育版策略向导，轻松应用策略进行安全学习](/MicrosoftTeams/easy-policy-setup-edu) | 修改内容 |
+| 11/24/2021 | [会议策略和会议到期时间Microsoft Teams](/MicrosoftTeams/meeting-expiration) | 修改内容 |
+| 11/24/2021 | [管理音频和视频的会议策略](/MicrosoftTeams/meeting-policies-audio-and-video) | 修改内容 |
+| 11/24/2021 | [管理内容共享的会议策略](/MicrosoftTeams/meeting-policies-content-sharing) | 修改内容 |
+| 11/24/2021 | [管理常规会议策略](/MicrosoftTeams/meeting-policies-in-teams-general) | 修改内容 |
+| 11/24/2021 | [管理会议Microsoft Teams](/MicrosoftTeams/meeting-policies-overview) | 修改内容 |
+| 11/24/2021 | [管理参与者和来宾的会议策略](/MicrosoftTeams/meeting-policies-participants-and-guests) | 修改内容 |
+| 11/24/2021 | [管理会议设置](/MicrosoftTeams/meeting-settings-in-teams) | 修改内容 |
+| 11/24/2021 | [在 Teams 中管理消息传递策略](/MicrosoftTeams/messaging-policies-in-teams) | 修改内容 |
+| 11/24/2021 | [租户管理控制，用于 (语音配置文件) 语音Teams 会议室](/MicrosoftTeams/rooms/voice-recognition) | 修改内容 |
+| 11/24/2021 | [在 Microsoft Teams 中为网络研讨会进行设置](/MicrosoftTeams/set-up-webinars) | 修改内容 |
+| 11/24/2021 | [适用于 Microsoft Teams 的高级通信Microsoft Teams](/MicrosoftTeams/teams-add-on-licensing/advanced-communications) | 修改内容 |
+| 11/24/2021 | [Microsoft Teams 会议出席情况报告](/MicrosoftTeams/teams-analytics-and-reports/meeting-attendance-report) | 修改内容 |
+| 11/24/2021 | [在 Microsoft Teams 中管理应用设置策略](/MicrosoftTeams/teams-app-setup-policies) | 修改内容 |
+| 11/24/2021 | [在 Microsoft Teams 中配置实时事件设置](/MicrosoftTeams/teams-live-events/configure-teams-live-events) | 修改内容 |
+| 11/24/2021 | [在 Microsoft Teams 中为实时事件进行设置](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | 修改内容 |
+
+
 ## <a name="week-of-november-15-2021"></a>2021 年 11 月 15 日周
 
 
@@ -90,7 +126,7 @@
 | 10/27/2021 | [Teams政府部署策略包](/MicrosoftTeams/policy-packages-gov) | 修改内容 |
 | 10/27/2021 | [Teams 医疗保健策略包](/MicrosoftTeams/policy-packages-healthcare) | 修改内容 |
 | 10/27/2021 | [开始使用 Microsoft Teams 进行远程学习](/MicrosoftTeams/remote-learning-edu) | 修改内容 |
-| 10/27/2021 | [租户管理控制，用于语音识别 (语音配置文件) Teams 会议室](/MicrosoftTeams/rooms/voice-recognition) | 修改内容 |
+| 10/27/2021 | [租户管理控制，用于 (语音配置文件) 语音Teams 会议室](/MicrosoftTeams/rooms/voice-recognition) | 修改内容 |
 | 10/27/2021 | [PowerShell 脚本示例 - 为学校中的教师和学生创建安全组](/MicrosoftTeams/scripts/powershell-script-security-groups-edu) | 修改内容 |
 | 10/27/2021 | [PowerShell 脚本示例 - 创建&消息传送策略](/MicrosoftTeams/scripts/powershell-script-teams-messaging-policy-edu) | 修改内容 |
 | 10/27/2021 | [在 Microsoft Teams 中管理应用权限策略](/MicrosoftTeams/teams-app-permission-policies) | 修改内容 |
@@ -100,83 +136,5 @@
 | 10/27/2021 | [管理频道策略Microsoft Teams](/MicrosoftTeams/teams-policies) | 修改内容 |
 | 10/27/2021 | [Microsoft Teams PowerShell 发行说明](/MicrosoftTeams/teams-powershell-release-notes) | 修改内容 |
 | 10/27/2021 | [管理中心中的管理团队模板](/MicrosoftTeams/templates-policies) | 修改内容 |
-| 10/27/2021 | [使用 OneDrive for Business 和 SharePoint 录制会议](/MicrosoftTeams/tmr-meeting-recording-change) | 修改内容 |
+| 10/27/2021 | [将OneDrive for Business和SharePoint用于会议录制](/MicrosoftTeams/tmr-meeting-recording-change) | 修改内容 |
 | 10/28/2021 | [数据中的信息Microsoft Teams](/MicrosoftTeams/information-barriers-in-teams) | 修改内容 |
-
-
-## <a name="week-of-october-18-2021"></a>2021 年 10 月 18 日周
-
-
-| 发布日期 |主题标题 | 更改 |
-|------|------------|--------|
-| 10/18/2021 | [Teams 云会议录制](/MicrosoftTeams/cloud-recording) | 修改内容 |
-| 10/18/2021 | [Cortana语音帮助Microsoft Teams](/MicrosoftTeams/cortana-in-teams) | 修改内容 |
-| 10/18/2021 | [设置自动助理Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 修改内容 |
-| 10/18/2021 | [在 Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | 修改内容 |
-| 10/18/2021 | [对直接路由进行监视和故障排除](/MicrosoftTeams/direct-routing-monitor-and-troubleshoot) | 修改内容 |
-| 10/18/2021 | [Microsoft Teams 中的来宾访问](/MicrosoftTeams/guest-access) | 修改内容 |
-| 10/18/2021 | [在 Microsoft Teams 中管理外部访问（联合身份验证）](/MicrosoftTeams/manage-external-access) | 修改内容 |
-| 10/18/2021 | [管理 Microsoft Teams 会议室](/MicrosoftTeams/rooms/rooms-manage) | 修改内容 |
-| 10/18/2021 | [设置云语音邮件](/MicrosoftTeams/set-up-phone-system-voicemail) | 修改内容 |
-| 10/18/2021 | [Microsoft Teams 中的共享线路外观](/MicrosoftTeams/shared-line-appearance) | 修改内容 |
-| 10/18/2021 | [将呼叫路由到未分配号码](/MicrosoftTeams/routing-calls-to-unassigned-numbers) | 添加内容 |
-| 10/18/2021 | [添加、更改、删除紧急位置的位置](/MicrosoftTeams/add-change-remove-emergency-place-organization) | 修改内容 |
-| 10/18/2021 | [为用户分配或更改紧急位置](/MicrosoftTeams/assign-change-emergency-location-user) | 修改内容 |
-| 10/18/2021 | [为用户分配、更改紧急位置的位置](/MicrosoftTeams/assign-change-emergency-place-user) | 修改内容 |
-| 10/18/2021 | [配置动态紧急呼叫](/MicrosoftTeams/configure-dynamic-emergency-calling) | 修改内容 |
-| 10/18/2021 | [电话系统的功能](/MicrosoftTeams/here-s-what-you-get-with-phone-system) | 修改内容 |
-| 10/18/2021 | [数据中的信息Microsoft Teams](/MicrosoftTeams/information-barriers-in-teams) | 修改内容 |
-| 10/18/2021 | [Microsoft Teams 的限制和规范](/MicrosoftTeams/limits-specifications-teams) | 修改内容 |
-| 10/18/2021 | [管理直接路由的紧急语音路由策略](/MicrosoftTeams/manage-emergency-call-routing-policies) | 修改内容 |
-| 10/18/2021 | [管理紧急呼叫策略Microsoft Teams](/MicrosoftTeams/manage-emergency-calling-policies) | 修改内容 |
-| 10/18/2021 | [管理云语音功能的网络拓扑Microsoft Teams](/MicrosoftTeams/manage-your-network-topology) | 修改内容 |
-| 10/18/2021 | [计划和管理紧急呼叫](/MicrosoftTeams/what-are-emergency-locations-addresses-and-call-routing) | 修改内容 |
-| 10/19/2021 | [Microsoft Teams 中的聊天、团队、频道和应用](/MicrosoftTeams/deploy-chat-teams-channels-microsoft-teams-landing-page) | 修改日期 |
-| 10/19/2021 | [EDU Microsoft Parents 应用的管理员设置](/MicrosoftTeams/edu-parents-app) | 修改内容 |
-| 10/19/2021 | [Microsoft Teams 中的私人频道](/MicrosoftTeams/private-channels) | 修改内容 |
-| 10/20/2021 | [在 Microsoft Teams 中搜索审核日志查找事件](/MicrosoftTeams/audit-log-events) | 修改内容 |
-| 10/20/2021 | [EDU Microsoft Parents 应用的管理员设置](/MicrosoftTeams/edu-parents-app) | 修改内容 |
-| 10/20/2021 | [将呼叫路由到未分配号码](/MicrosoftTeams/routing-calls-to-unassigned-numbers) | 修改内容 |
-| 10/20/2021 | [添加、更改、删除紧急位置](/MicrosoftTeams/add-change-remove-emergency-location-organization) | 修改内容 |
-| 10/20/2021 | [添加、更改、删除紧急位置的位置](/MicrosoftTeams/add-change-remove-emergency-place-organization) | 修改内容 |
-| 10/20/2021 | [用于采用的工具和下载](/MicrosoftTeams/adopt-tools-and-downloads) | 修改内容 |
-| 10/20/2021 | [为用户分配或更改紧急位置](/MicrosoftTeams/assign-change-emergency-location-user) | 修改内容 |
-| 10/20/2021 | [为用户分配、更改紧急位置的位置](/MicrosoftTeams/assign-change-emergency-place-user) | 修改内容 |
-| 10/20/2021 | [为用户分配、更改或删除电话号码](/MicrosoftTeams/assign-change-or-remove-a-phone-number-for-a-user) | 修改内容 |
-| 10/20/2021 | [更改音频会议网桥上的电话号码](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge) | 修改内容 |
-| 10/20/2021 | [更改音频会议网桥的设置](/MicrosoftTeams/change-the-settings-for-an-audio-conferencing-bridge) | 修改内容 |
-| 10/20/2021 | [用户设置更改时向其发送的电子邮件](/MicrosoftTeams/emails-sent-to-users-when-their-settings-change-in-teams) | 修改内容 |
-| 10/20/2021 | [音频会议设置更改时的电子邮件选项](/MicrosoftTeams/enable-or-disable-sending-emails-when-their-settings-change-in-teams) | 修改内容 |
-| 10/20/2021 | [允许用户录制其会议名称](/MicrosoftTeams/enable-users-to-record-their-name-when-they-join-a-meeting-in-teams) | 修改内容 |
-| 10/20/2021 | [为用户获取电话号码](/MicrosoftTeams/getting-phone-numbers-for-your-users) | 修改内容 |
-| 10/20/2021 | [管理紧急呼叫策略Microsoft Teams](/MicrosoftTeams/manage-emergency-calling-policies) | 修改内容 |
-| 10/20/2021 | [在 Microsoft Teams 中管理外部访问（联合身份验证）](/MicrosoftTeams/manage-external-access) | 修改内容 |
-| 10/20/2021 | [管理用户的音频会议设置](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-a-user-in-teams) | 修改内容 |
-| 10/20/2021 | [管理音频会议设置](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-my-organization-in-teams) | 修改内容 |
-| 10/20/2021 | [管理会议设置](/MicrosoftTeams/meeting-settings-in-teams) | 修改内容 |
-| 10/20/2021 | [出站呼叫限制 - 音频会议& PSTN 呼叫](/MicrosoftTeams/outbound-calling-restriction-policies) | 修改内容 |
-| 10/20/2021 | [在 Microsoft Teams 中重置用户的会议 ID](/MicrosoftTeams/reset-a-conference-id-for-a-user-in-teams) | 修改内容 |
-| 10/20/2021 | [在 Microsoft Teams 中重置音频会议 PIN](/MicrosoftTeams/reset-the-audio-conferencing-pin-in-teams) | 修改日期 |
-| 10/20/2021 | [查看音频会议号码列表](/MicrosoftTeams/see-a-list-of-audio-conferencing-numbers-in-teams) | 修改内容 |
-| 10/20/2021 | [查看、更改和重置用户的会议 ID](/MicrosoftTeams/see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams) | 修改内容 |
-| 10/20/2021 | [向用户发送音频会议信息](/MicrosoftTeams/send-an-email-to-a-user-with-their-dial-in-information-in-teams) | 修改内容 |
-| 10/20/2021 | [设置音频会议自动助理语言](/MicrosoftTeams/set-auto-attendant-languages-for-audio-conferencing-in-teams) | 修改内容 |
-| 10/20/2021 | [设置包含在邀请中的电话号码](/MicrosoftTeams/set-the-phone-numbers-included-on-invites-in-teams) | 修改内容 |
-| 10/20/2021 | [设置音频会议的 PIN 长度](/MicrosoftTeams/set-the-pin-length-for-audio-conferencing-meetings-in-teams) | 修改内容 |
-| 10/20/2021 | [设置 Microsoft Teams 的音频会议](/MicrosoftTeams/set-up-audio-conferencing-in-teams) | 修改内容 |
-| 10/20/2021 | [设置共存和升级设置](/MicrosoftTeams/setting-your-coexistence-and-upgrade-settings) | 修改内容 |
-| 10/20/2021 | [在没有 PIN 的情况下通过电话启动音频会议 Teams](/MicrosoftTeams/start-an-audio-conference-over-the-phone-without-a-pin-in-teams) | 修改内容 |
-| 10/20/2021 | [在 Microsoft Teams 中配置实时事件设置](/MicrosoftTeams/teams-live-events/configure-teams-live-events) | 修改内容 |
-| 10/20/2021 | [Microsoft Teams PowerShell 发行说明](/MicrosoftTeams/teams-powershell-release-notes) | 修改内容 |
-| 10/20/2021 | [打开或关闭会议中会议的进入和退出Teams](/MicrosoftTeams/turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams) | 修改内容 |
-| 10/21/2021 | [Teams 云会议录制](/MicrosoftTeams/cloud-recording) | 修改内容 |
-| 10/21/2021 | [Microsoft Teams设备监视和警报](/MicrosoftTeams/alerts/device-health-status) | 修改内容 |
-| 10/21/2021 | [出站呼叫限制 - 音频会议& PSTN 呼叫](/MicrosoftTeams/outbound-calling-restriction-policies) | 修改内容 |
-| 10/21/2021 | [设置 Microsoft Teams 的音频会议](/MicrosoftTeams/set-up-audio-conferencing-in-teams) | 修改内容 |
-| 10/21/2021 | [登录 Microsoft Teams](/MicrosoftTeams/sign-in-teams) | 修改内容 |
-| 10/22/2021 | [设置自动助理Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 修改内容 |
-| 10/22/2021 | [直接路由 SBA](/MicrosoftTeams/direct-routing-survivable-branch-appliance) | 修改内容 |
-| 10/22/2021 | [Microsoft Teams 中的来宾访问](/MicrosoftTeams/guest-access) | 修改内容 |
-| 10/22/2021 | [Microsoft Teams 中的团队和频道概述](/MicrosoftTeams/teams-channels-overview) | 修改内容 |
-| 10/22/2021 | [Microsoft Teams PowerShell 发行说明](/MicrosoftTeams/teams-powershell-release-notes) | 修改内容 |
-| 10/22/2021 | [设置 Microsoft Teams 的音频会议](/MicrosoftTeams/set-up-audio-conferencing-in-teams) | 修改内容 |
