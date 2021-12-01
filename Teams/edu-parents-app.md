@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: ''
-description: Microsoft Teams EDU 一文，介绍了家长应用的先决条件和设置。
+description: Microsoft Teams EDU 的一篇文章，介绍了家长应用的先决条件和设置。
 ms.localizationpriority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 search.appverid: MET150
@@ -17,16 +17,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9243dfedb11c9102673e821bd2fac9d06cf3c834
-ms.sourcegitcommit: 11a803d569a57410e7e648f53b28df80a53337b6
+ms.openlocfilehash: a991075ada39f5433e20230d6fabdfaebcb52aa9
+ms.sourcegitcommit: df26b435b2a7bb7561ddea74477f1ba988de9d8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "60887290"
+ms.lasthandoff: 12/01/2021
+ms.locfileid: "61245554"
 ---
-# <a name="deploying-the-parents-app-in-microsoft-teams"></a>在应用程序中部署"家长"Microsoft Teams
+# <a name="deploying-the-parents-app-in-microsoft-teams"></a>在 Microsoft Teams 中部署父Microsoft Teams
 
-"家长"应用可帮助教师使用 Teams 聊天安全地与班级团队中的学生家长和监护人联系和互动，这将在教师组织中扩展。 所有家长和监护人数据都是使用学校数据同步预配的，使 IT 人员能够顺利地进行设置。
+"家长"应用可帮助教师使用 Teams 聊天安全地与班级团队中的学生家长和监护人联系和互动，这将在教师组织中进行扩展。 所有家长和监护人数据都是使用学校数据同步，使 IT 人员能够顺利地进行设置。
 
 ## <a name="requirements"></a>要求
 
@@ -45,9 +45,9 @@ ms.locfileid: "60887290"
 - 课堂团队所有者必须具有外部访问权限，Teams **组织未管理的帐户**。 
   - 必须在租户级别和用户级别启用此功能。 租户级别设置可在管理中心 **>外部访问** Teams设置。 也可通过 PowerShell 访问此设置。 用户级外部访问策略只能通过 PowerShell 访问。 有关进一步指南，请参阅下面的 PowerShell 命令。
 
-## <a name="enabling-external-access-with-teams-accounts-not-managed-by-an-organization"></a>使用组织未Teams的帐户启用外部访问
+## <a name="enabling-external-access-with-teams-accounts-not-managed-by-an-organization"></a>使用组织不Teams的帐户启用外部访问
 
-1. 安装最新的 powerShell Microsoft Teams预览版。
+1. 安装最新的 PowerShell Microsoft Teams预览版。
 
     ```powershell
     Install-Module -Name PowerShellGet -Force -AllowClobber
@@ -61,7 +61,7 @@ ms.locfileid: "60887290"
     Connect-MicrosoftTeams -Credential $credential
     ```
 
-默认情况下，为Teams级外部访问策略启用策略设置 () 组织管理的帐户进行 `EnableTeamsConsumerAccess` 外部访问。 需要同时启用租户级别设置和用户级策略设置，使用户具有外部访问Teams组织未托管的帐户。 如果不希望租户中的每个用户都启用此访问权限，应确保禁用租户级别设置，更新分配给用户的用户级外部访问策略，然后启用租户级设置。
+默认情况下，为Teams级别外部访问策略启用策略设置，该策略 () 非由组织管理的帐户 `EnableTeamsConsumerAccess` 进行外部访问。 需要同时启用租户级别设置和用户级策略设置，用户能够使用未由组织管理Teams帐户进行外部访问。 如果不希望租户中的每个用户都启用此访问权限，应确保禁用租户级别设置，更新分配给用户的用户级外部访问策略，然后启用租户级设置。
 
 若要检查存在哪些用户级外部访问策略及其分配到的用户，可以使用以下步骤：
     
@@ -94,13 +94,13 @@ ms.locfileid: "60887290"
 
 - 为租户设置联合配置设置 [：Set-CsTenantFederationConfiguration](/powershell/module/skype/set-cstenantfederationconfiguration)
 
-## <a name="disabling-the-parents-app"></a>禁用家长应用
+## <a name="enabling-the-parents-app"></a>启用家长应用
 
-默认情况下，"家长"应用已启用，因此所有课堂团队所有者都将在课堂团队中查看该应用。 
+默认情况下，"家长"应用处于禁用状态，因此课堂团队所有者不会在课堂团队中看到该应用，直到允许应用通过Teams中心。 可以使用允许发布者阻止的应用Teams管理中心[允许该应用](manage-apps.md#apps-blocked-by-publishers)。
 
-可以在租户级别使用"允许"和"阻止"[](manage-apps.md#allow-and-block-apps)应用在租户Microsoft Teams应用。 如果在租户级别禁用应用，则所有用户都会阻止该应用，即使启用了用户级别权限。
+应用随时可在租户级别使用"允许"和"阻止"应用在[](manage-apps.md#allow-and-block-apps)租户Teams禁用。 如果在租户级别禁用应用，则所有用户都会阻止该应用，即使启用了用户级别权限。
 
-也可在用户级别使用管理应用权限策略在[Microsoft Teams。](teams-app-permission-policies.md)
+也可在用户级别使用 管理应用权限策略在[Microsoft Teams。](teams-app-permission-policies.md)
 
 ## <a name="more-information"></a>更多信息
 
