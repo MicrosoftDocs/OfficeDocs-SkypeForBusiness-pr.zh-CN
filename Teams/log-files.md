@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 了解用户生成的调试、媒体Microsoft Teams桌面日志、日志的查找位置，以及这些日志如何帮助进行监视和故障排除。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 07eca1235cb695d32da0fdab96490572af6ccecb
-ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
+ms.openlocfilehash: 28fa78eb20b88fe0a159fab12636ce546453835e
+ms.sourcegitcommit: be8b820caf4b5a1a91ad444ba93da1df20bf63ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "60959961"
+ms.lasthandoff: 12/01/2021
+ms.locfileid: "61257313"
 ---
 # <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>使用日志文件监视和排查Microsoft Teams
 
@@ -33,7 +33,7 @@ ms.locfileid: "60959961"
 
 -   [桌面日志](#desktop-logs)
 
-本文介绍这些日志及其使用方式。 有关排查特定问题的信息，请参阅：Teams[故障排除](/MicrosoftTeams/troubleshoot/teams)。 若要了解如何联系支持人员，请参阅 [获取支持](/microsoft-365/business-video/get-help-support)。 通过 Microsoft 支持创建支持请求时，支持工程师需要调试日志。 在创建支持请求之前，如果已处理调试日志，Microsoft 可以快速开始排查问题。 **只有** **Microsoft** 请求时，才需要媒体或桌面日志。
+本文介绍这些日志及其使用方式。 有关排查特定问题的信息，请参阅：Teams[故障排除。](/MicrosoftTeams/troubleshoot/teams) 若要了解如何联系支持人员，请参阅 [获取支持](/microsoft-365/business-video/get-help-support)。 通过 Microsoft 支持创建支持请求时，支持工程师需要调试日志。 在创建支持请求之前，如果已处理调试日志，Microsoft 可以快速开始排查问题。 **只有** **Microsoft** 请求时，才需要媒体或桌面日志。
 
 > [!NOTE]
 > 本文中的"调试 **日志** "一词是指用于故障排除的日志。 但是，为这些日志生成的文件的名称 **中包含术语诊断** 日志。  
@@ -46,7 +46,7 @@ ms.locfileid: "60959961"
 
 - Mac：选择"帮助"菜单，然后选择"**收集支持文件"。**
 
-调试、桌面和媒体日志将收集到一个文件夹中，其名称为 _MSTeams 诊断日志 \<local data and time\>_。 向 Microsoft 支持人员提出支持请求时，可以压缩和共享此文件夹。 该文件夹将包含桌面、会议 (媒体) 和调试 (Web) 。 可以使用以下键盘快捷方式收集文件：
+调试、桌面和媒体日志将收集到一个文件夹中，其名称为 _MSTeams 诊断日志 \<local date and time\>_。 向 Microsoft 支持人员提出支持请求时，可以压缩和共享此文件夹。 该文件夹将包含桌面、会议 (媒体) 和调试 (Web) 。 可以使用以下键盘快捷方式收集文件：
 
 - <kbd>Windows：Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd>
 
@@ -84,7 +84,7 @@ ms.locfileid: "60959961"
 
 ## <a name="debug-logs"></a>调试日志
 
-请参阅收集和 _启用日志记录部分_，了解 Windows 和 Mac 的说明。 调试日志由 Windows 和 Mac 桌面客户端以及基于浏览器的客户端生成。 日志基于文本，从下而上读取。 可以使用任何基于文本的编辑器读取这些日志，并且登录到客户端时会创建新日志。
+请参阅 _收集和启用日志记录_ 部分，了解 Windows 和 Mac 的说明。 调试日志由 Windows 和 Mac 桌面客户端以及基于浏览器的客户端生成。 日志基于文本，从下而上读取。 可以使用任何基于文本的编辑器读取这些日志，并且登录到客户端时会创建新日志。
 
 调试日志显示以下数据流：
 
@@ -98,15 +98,15 @@ ms.locfileid: "60959961"
 - 键盘快捷方式<kbd>：Ctrl</kbd>  +  <kbd>Alt</kbd>  +  <kbd>Shift</kbd>  +  <kbd>1</kbd>  
 - 文件将在 `~/Downloads`
 
-收集浏览器日志和Windows：
+若要收集浏览器日志和Windows：
 - 键盘快捷方式<kbd>：Ctrl</kbd>  +  <kbd>Alt</kbd>  +  <kbd>Shift</kbd>  +  <kbd>1</kbd>  
 - 文件将在 `%userprofile%\Downloads`
 
 ## <a name="media-logs"></a>媒体日志
 
-请参阅收集和 _启用日志记录部分_，了解 Windows 和 Mac 的说明。 媒体日志包含有关会议中音频、视频和屏幕共享的Teams数据。 它们对于链接到呼叫相关问题的支持案例是必需的。
+请参阅 _收集和启用日志记录_ 部分，了解 Windows 和 Mac 的说明。 媒体日志包含有关会议中音频、视频和屏幕共享的Teams数据。 它们对于链接到呼叫相关问题的支持案例是必需的。
 
-默认情况下，媒体日志记录已关闭。 若要记录会议Teams数据，用户必须在客户端中启用Teams选项。 转到 **"设置** 常规"，选中"为会议诊断启用日志记录 ("Teams) "复选框，重新启动Teams并  >  重现问题。  
+默认情况下，媒体日志记录已关闭。 若要记录会议Teams数据，用户必须在客户端中打开Teams选项。 转到 **设置** 常规"，选中"为会议诊断启用日志记录 (Teams) "复选框，重启 Teams 并重现  >  问题。  
 
 将日志文件发送给 Microsoft 支持人员时，请验证日志文件的时间戳，确保日志涵盖重现问题的时间范围。
 
@@ -126,7 +126,7 @@ ms.locfileid: "60959961"
 
 |日志文件名  |说明  |
 |---------|---------|
-|`Teams.msrtc-0-s1039525249.blog`     | 包含与媒体堆栈有关的信息。 这包括通道状态，例如分辨率、使用的解码器、编码器、发送和接收的帧数，以及基于摄像头和视频的屏幕共享 (VBSS) 会话状态。         |
+|`Teams.msrtc-0-s1039525249.blog`     | 包含与媒体堆栈有关的信息。 这包括通道状态，例如分辨率、使用的解码器、编码器、已发送和接收的帧数，以及基于相机和视频的屏幕共享 (VBSS) 状态。         |
 |`rtmcontrol.msrtc-0-2415069487.blog`      |记录与远程控制操作相关的信息，例如提供控制时时间戳和鼠标指针信息。          |
 |`Teams_MediaStackETW-2-U-xr-U.etl`      |记录媒体堆栈跟踪事件。         |
 |`Debug-0-s2790420889.blog`    | 包含与媒体代理有关的信息，包括呈现质量。          |
@@ -134,14 +134,14 @@ ms.locfileid: "60959961"
 
 ## <a name="desktop-logs"></a>桌面日志
 
-请参阅收集和 _启用日志记录部分_，了解 Windows 和 Mac 的说明。 桌面日志也称为启动程序日志，包含桌面客户端与浏览器之间发生的日志数据。 与媒体日志一样，仅当 Microsoft 要求时，才需要这些日志。 日志基于文本，可以使用任何基于文本的编辑器以自上而下的格式读取。
+请参阅 _收集和启用日志记录_ 部分，了解 Windows 和 Mac 的说明。 桌面日志也称为启动程序日志，包含桌面客户端与浏览器之间发生的日志数据。 与媒体日志一样，仅当 Microsoft 要求时，才需要这些日志。 日志基于文本，可以使用任何基于文本的编辑器以自上而下的格式读取。
 
 收集 Linux 日志：
 - 单击系统Microsoft Teams中的"日志"图标，然后选择"**获取日志"。**
 - 文件将在 中提供 `~/.config/Microsoft/Microsoft Teams/logs.txt` 。
   
 若要收集日志，Windows：
-- 单击Microsoft Teams任务栏中的"收集支持文件"图标，然后选择"**收集支持文件"。**
+- 单击系统Microsoft Teams图标，然后选择"收集 **支持文件"。**
 - 文件 `logs.txt` 将自动在记事本打开。
 
 调查登录到Teams时，可能需要手动收集桌面日志。 这些日志文件位于 Windows 中的 %appdata%\Microsoft\Teams。
