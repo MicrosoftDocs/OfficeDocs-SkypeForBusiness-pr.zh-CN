@@ -675,6 +675,12 @@ items:
             href: audio-conferencing-common-questions.md
           - name: 试用或购买 Microsoft 365 中的音频会议
             href: try-or-purchase-audio-conferencing-in-office-365-for-teams.md
+          - name: 运营商连接会议
+            items:
+              - name: 概述
+                href: operator-connect-conferencing-plan.md
+              - name: 配置运营商连接会议
+                href: operator-connect-conferencing-configure.md
           - name: 适用于美国和加拿大的延长拨出分钟数
             href: dial-out-minutes-canada-us.md
           - name: 音频会议免费播出时段
