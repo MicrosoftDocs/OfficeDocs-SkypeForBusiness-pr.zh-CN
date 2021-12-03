@@ -849,17 +849,17 @@ items:
                 href: rooms/xml-config-file.md
               - name: 使用恢复工具
                 href: rooms/recovery-tool.md
-  - name: 语音 - 电话系统和 PSTN 连接
+  - name: 语音 - Teams 电话和 PSTN 连接
     items:
       - name: 规划 Teams 语音解决方案
         href: cloud-voice-landing-page.md
-      - name: 电话系统
+      - name: Teams 电话
         items:
-          - name: 什么是电话系统
+          - name: 什么是 Teams 电话
             href: what-is-phone-system-in-office-365.md
-          - name: 以下是电话系统的功能
+          - name: 以下是你通过 Teams Phone 获得的内容
             href: here-s-what-you-get-with-phone-system.md
-          - name: 设置电话系统
+          - name: 设置 Teams 电话
             href: setting-up-your-phone-system.md
           - name: 设置常见区域电话
             href: set-up-common-area-phones.md
@@ -1093,7 +1093,7 @@ items:
             href: voice-case-study-overview.md
           - name: Teams 升级计划
             href: voice-case-study-migration-plan.md
-          - name: 电话系统
+          - name: Teams 电话
             href: voice-case-study-phone-system.md
           - name: 基于位置的路由
             href: voice-case-study-location-based-routing.md
@@ -1620,6 +1620,10 @@ items:
             href: teams-add-on-licensing/pri-message.md
           - name: Microsoft 365 电话系统 - 虚拟用户许可证
             href: teams-add-on-licensing/virtual-user.md
+          - name: Teams Essentials 入门
+            href: get-started-with-teams-essentials.md
+          - name: 将 Teams Essentials（AAD 标识）连接到电子邮件
+            href: connect-teams-essentials-to-email.md
       - name: 与 Microsoft 365 和 Office 365 的互操作性
         items:
           - name: Microsoft 365 组和 Teams
