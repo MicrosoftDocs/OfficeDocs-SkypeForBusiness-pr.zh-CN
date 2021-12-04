@@ -1543,6 +1543,8 @@ items:
             href: teams-edu-licensing.md
           - name: 教育 SKU 参考
             href: sku-reference-edu.md
+          - name: 适用于教育版的 Teams 设备
+            href: devices-for-education.md
       - name: 适合一线员工的 Teams
         items:
           - name: 一线员工快速入门指南
@@ -1641,8 +1643,6 @@ items:
                 href: /microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365
           - name: SharePoint Online 和 OneDrive for Business 与 Teams 如何交互
             href: sharepoint-onedrive-interact.md
-      - name: 适用于教育版的 Teams 设备
-        href: devices-for-education.md
       - name: 支持的设备
         items:
           - name: 在 Teams 中管理设备
