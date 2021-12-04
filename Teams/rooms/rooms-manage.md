@@ -15,16 +15,16 @@ ms.collection:
 - M365-collaboration
 description: 了解如何开发和执行持续维护和操作，以确保Microsoft Teams 会议室系统可供用户使用。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 406f083f41b0d07f6cafff273de071f11d0f2e94
-ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
+ms.openlocfilehash: 4f326f58bea724dbf1d728955ee1d63b018ba628
+ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60462306"
+ms.lasthandoff: 12/04/2021
+ms.locfileid: "61306287"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>管理 Microsoft Teams 会议室
 
-如果组织中Microsoft Teams 会议室设备，则有灵活的管理选项。  可以在管理所有解决方案Teams管理中心Microsoft Teams的同一中心位置自己管理设备，或者可以使用 Microsoft Teams 会议室 托管服务 将管理责任转移[给Microsoft Teams 会议室专家](https://portal.rooms.microsoft.com)。  还可以将管理访问权限委派给所选择的合作伙伴，以选择任一选项。
+如果组织中Microsoft Teams 会议室设备，则有灵活的管理选项。  可以在管理中心内管理所有解决方案Teams中心位置，Microsoft Teams设备。 或者，可以使用托管服务 将管理责任Microsoft Teams 会议室[专家](https://portal.rooms.microsoft.com)。  还可以将管理访问权限委派给所选择的合作伙伴，以选择任一选项。
 
 使用Microsoft Teams管理中心，可以：
 
@@ -34,9 +34,10 @@ ms.locfileid: "60462306"
 - 查看当前和过去的会议活动 (，例如有关呼叫质量、网络运行状况和连接的详细信息，以及会议参与者) 
 - 查看连接到 (会议室设备) 摄像头Microsoft Teams投影仪等外围设备
 
-若要管理Teams 会议室，请打开 Microsoft Teams [管理中心并](https://admin.teams.microsoft.com)转到"Teams **设备Teams 会议室"**  >  。
+若要管理Teams 会议室设备，请打开 Microsoft Teams [管理中心](https://admin.teams.microsoft.com)，并转到 Windows 上的Teams  >  **设备Teams 会议室。**
 
-:::image type="content" source="../media/teams-rooms-summary.png" alt-text="Teams 会议室管理中心Teams摘要页面。":::
+:::image type="content" source="../media/teams-rooms-summary2.png" alt-text="Teams 会议室管理中心Teams摘要页面。":::
+
 
 > [!IMPORTANT]
 > 若要使用 Teams 管理中心管理设备，需要分配全局管理员、Teams管理员或Teams管理员角色。
@@ -47,7 +48,7 @@ ms.locfileid: "60462306"
 
 ### <a name="device-settings"></a>设备设置
 
-您可以在您的组织中的一个或多个设备上更改设置。 若要更改设置，请选择要管理的设备或设备，然后选择"编辑 **设置"。** 将打开一个新窗格，其中包含可在设备上更改的所有设置。 下表列出了可以使用管理中心Teams的设置。 某些设置仅在选择单个设备时可用。
+您可以在您的组织中的一个或多个设备上更改设置。 若要更改设置，请选择要管理的设备或设备，然后选择"编辑 **设置"。** 将打开一个新窗格，其中包含可在设备上更改的所有设置。 下表列出了可以使用管理中心更改Teams设置。 某些设置仅在选择单个设备时可用。
 
 如果选择多个设备，则支持批量编辑的设置会显示以下两个选项。
 
@@ -90,21 +91,21 @@ ms.locfileid: "60462306"
 |                                                              | 默认值<br>无主题<br>自定义<br>内置主题列表   | 是                |
 
 ## <a name="cortana-settings"></a>Cortana设置 
-可以使用 PowerShell 为Cortana或每个设备分别启用语音激活或推送交谈功能。 
+可以使用 PowerShell 为Cortana或每个设备分别启用语音激活或推送对话。 
 -   在组织和组级别，必须使用 PowerShell。
 -   在设备级别，有几个选项。 可以使用 PowerShell、编辑 XML 配置文件或更改管理中心Teams设置。 
 
-若要了解有关使用 PowerShell 配置 Cortana，请参阅管理控件和 Cortana [Teams。](/microsoftteams/cortana-in-teams#admin-control-and-limitations)
+若要了解有关使用 PowerShell 配置 Cortana，请参阅管理控件和Cortana[中的Teams。](/microsoftteams/cortana-in-teams#admin-control-and-limitations)
 
 若要详细了解如何配置使用 XML 配置文件的设备，请参阅使用 XML 配置文件Microsoft Teams 会议室[远程管理主机设置](/microsoftteams/rooms/xml-config-file#manage-console-settings-with-an-xml-configuration-file)。
 
 在设备级别，可以配置Cortana以下操作：
 - _使用_ PowerShell 进行推送交谈  
-  - 如何打开它：Cortana为使用区域设置的所有设备启用"推送到交谈"功能，而不考虑地理区域
+  - 如何打开它：Cortana为使用区域设置的所有设备默认启用"推送到交谈"功能，而不考虑地理区域
   - 如何将其关闭：使用 Powershell。 
 - _使用_ XML 配置文件或管理中心Teams语音激活。
   - 如何打开它：在 `<CortanaWakeWord>true</>` XML 配置文件中设置或使用管理中心Teams设置
-  - 如何将其关闭：Cortana语音激活关闭 
+  - 如何将其关闭：Cortana关闭语音激活 
   
   请记住，必须满足三个条件，Cortana _语音_ 激活：
     1. 组织必须已启用Cortana
@@ -158,8 +159,8 @@ ms.locfileid: "60462306"
 
 - **运行状况** 显示会议室设备Teams运行状况。 运行状况状态可以是"正常 **"或**"**不正常"。**
 - **脱机，因为** 显示上次Microsoft 365设备通信的时间。
-- **设备状态** 显示设备的当前状态：**空闲****、Teams、Skype****会议** 或 **"正在"。**
-- **外围设备** 显示连接到您的会议室Teams外围设备及其运行状况。 运行状况状态可以是"已连接 **"或**"已 **断开连接"。**
+- **设备状态** 显示设备的当前状态：空闲、Teams **会议、Skype****会议或"正在****"。**
+- **外围设备** 显示连接到会议室设备Teams外围设备及其运行状况。 运行状况状态可以是"已连接 **"或**"已 **断开连接"。**
 - **运行状况** 显示有关连接到您的 Teams 会议室设备、网络连接、所需服务的登录状态和软件版本信息的详细信息。
 - **详细信息** 显示制造商信息、网络 IP 地址和Teams设备串行/MAC 地址。
 - **活动** 显示过去的会议详细信息，包括会议日期和时间、参与者数、持续时间和音频质量。 有关会议详细信息的详细信息， [请参阅本文稍后](#meeting-activity-details) 的"会议活动详细信息"部分。
@@ -181,6 +182,6 @@ ms.locfileid: "60462306"
 
 ##### <a name="participant-details"></a>参与者详细信息
 
-参与者详细信息页显示该参与者会话的端到端诊断信息。 如下图所示，**为** 参与者和设备提供了设备、系统和Teams 会议室信息。 **此外**，还提供了参与者与Teams 会议室之间的网络诊断信息。 选择要了解详细信息的上下文的图标。 有关其他诊断信息，请选择"高级 **"** 选项卡。
+参与者详细信息页显示该参与者会话的端到端诊断信息。 如下图所示，为参与者和设备提供了设备、系统和Teams 会议室信息。  **此外**，还提供了参与者与Teams 会议室之间的网络诊断信息。 选择要了解详细信息的上下文的图标。 有关其他诊断信息，请选择"高级 **"** 选项卡。
 
 :::image type="content" source="../media/teams-rooms-meeting-activity-participant-details.png" alt-text="Teams会议室设备呼叫详细信息。":::
