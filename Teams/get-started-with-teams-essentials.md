@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: efe81626a512c4ffce9cebe9a4cb6d62e4035b5f
-ms.sourcegitcommit: be8b820caf4b5a1a91ad444ba93da1df20bf63ae
+ms.openlocfilehash: b8ec92d734a62b0bfe7416a0aa83f46151ca95ab
+ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2021
-ms.locfileid: "61257519"
+ms.lasthandoff: 12/04/2021
+ms.locfileid: "61306427"
 ---
 # <a name="teams-essentials-quickstart-guide-for-small-businesses"></a>适用于小型企业的 Teams Essentials 快速入门指南
 
@@ -47,7 +47,7 @@ Microsoft Teams Essentials 可通过 Microsoft 的直接网站和选择 Microsof
 下表列出了各计划中提供的主要 Microsoft Teams 功能。 某些注意事项适用。 有关详细信息，请参阅脚注。 此表可能发生更改，恕不另行通知。 有关最新、完整的功能列表，请访问 [Microsoft Teams 服务说明](/office365/servicedescriptions/teams-service-description)。
 
  
-|Microsoft Teams 计划 | [**Microsoft Teams (免费版)**](manage-freemium.md)) | [**Microsoft Teams 协作版**](#get-microsoft-teams-essentials) | **Microsoft Teams 协作版 (AAD 标识)** | [**Microsoft 365 商业基础版**](/microsoft-365/admin/setup/setup-business-basic?)  |
+|Microsoft Teams 计划 | [**Microsoft Teams (免费版)**](manage-freemium.md) | [**Microsoft Teams 协作版**](#get-microsoft-teams-essentials) | **Microsoft Teams 协作版 (AAD 标识)** | [**Microsoft 365 商业基础版**](/microsoft-365/admin/setup/setup-business-basic?)  |
 |---------|---------|---------|---------|---------|
 |***功能***     |         |         |         |         |
 | **会议和通话** | 是| 是| 是 |   是    |
