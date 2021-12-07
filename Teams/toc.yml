@@ -759,96 +759,6 @@ items:
                 href: audio-conferencing-zones.md
               - name: 视频 - Teams 音频会议
                 href: ./audio-conferencing-in-office-365.md
-      - name: Microsoft Teams 会议室
-        items:
-          - name: 概述
-            href: rooms/index.md
-          - name: Teams 会议室指南
-            href: teams-meeting-room-guidance.md
-          - name: Microsoft Teams 会议室托管服务
-            items:
-              - name: 计划管理
-                href: rooms/microsoft-teams-rooms-premium.md
-              - name: 基于角色的访问控制
-                href: rooms/microsoft-teams-rooms-premium-rbac.md
-              - name: 获取并分配许可证
-                href: rooms/obtaining-assigning-license.md
-              - name: 注册 MTRP 托管服务
-                href: rooms/enrolling-mtrp-managed-service.md
-              - name: 为 Teams 会议室配置 ServiceNow
-                href: rooms/microsoft-teams-rooms-configure-servicenow.md
-          - name: 计划
-            items:
-              - name: Microsoft Teams 会议室规划概述
-                href: rooms/rooms-plan.md
-              - name: "Windows 和 Android 之间的 Teams 设备功能比较 \_"
-                href: rooms/teams-devices-feature-comparison.md
-              - name: 版本支持
-                href: rooms/rooms-lifecycle-support.md
-              - name: 发行说明
-                href: rooms/rooms-release-note.md
-              - name: 准备环境
-                href: rooms/rooms-prep.md
-              - name: 要求
-                href: rooms/requirements.md
-              - name: 安全性
-                href: rooms/security.md
-              - name: 联机许可
-                href: rooms/rooms-licensing.md
-              - name: 使用者 Azure Monitor 进行管理规划
-                href: rooms/azure-monitor-plan.md
-          - name: 部署
-            items:
-              - name: 部署概述
-                href: rooms/rooms-deploy.md
-              - name: 配置帐户
-                href: rooms/rooms-configure-accounts.md
-              - name: Surface Hub
-                items:
-                  - name: 设置协调会议
-                    href: rooms/coordinated-meetings.md
-                  - name: 管理 Microsoft Teams 设置
-                    href: rooms/surface-hub-manage-config.md
-              - name: 使用 Office 365
-                href: rooms/with-office-365.md
-              - name: 使用 Skype for Business Server
-                href: rooms/with-skype-for-business-server-2015.md
-              - name: 使用 Exchange Online（混合）
-                href: rooms/with-exchange-online.md
-              - name: 使用 Exchange 内部部署（混合）
-                href: rooms/with-exchange-on-premises.md
-              - name: 配置控制台
-                href: rooms/console.md
-              - name: 手动更新设备
-                href: rooms/manual-update.md
-              - name: 配置身份验证
-                href: rooms/rooms-authentication.md
-              - name: 加入第三方会议
-                href: rooms/third-party-join.md
-              - name: 通过使用 Microsoft Endpoint Configuration Manager
-                href: rooms/rooms-scale.md
-              - name: 利用 Azure Monitor 进行管理
-                href: rooms/azure-monitor-deploy.md
-              - name: 迁移 SRS v1 或 LRS
-                href: rooms/lrs-migration.md
-              - name: 内容照相机
-                href: rooms/content-camera.md
-              - name: 智能扬声器的语音识别控件
-                href: rooms/voice-recognition.md
-          - name: 管理
-            items:
-              - name: 管理概述
-                href: rooms/rooms-manage.md
-              - name: 维护和操作
-                href: rooms/rooms-operations.md
-              - name: 已知问题
-                href: rooms/known-issues.md
-              - name: 具有 Azure Monitor 的设备
-                href: rooms/azure-monitor-manage.md
-              - name: 具有 XML 文件的设置
-                href: rooms/xml-config-file.md
-              - name: 使用恢复工具
-                href: rooms/recovery-tool.md
   - name: 语音 - Teams 电话和 PSTN 连接
     items:
       - name: 规划 Teams 语音解决方案
@@ -1069,6 +979,8 @@ items:
             href: what-are-emergency-locations-addresses-and-call-routing.md
           - name: 配置动态紧急呼叫
             href: configure-dynamic-emergency-calling.md
+          - name: 远程位置的紧急地址
+            href: emergency-calling-dispatchable-location.md
           - name: 管理紧急地址
             items:
               - name: 为你的组织添加、更改或删除紧急位置
@@ -1377,6 +1289,148 @@ items:
             href: business-voice/analytics-dashboard.md
       - name: 合作伙伴资源
         href: business-voice/partner-resources.md
+  - name: 设备和会议室管理
+    items:
+      - name: Microsoft Teams 会议室
+        items:
+          - name: 概述
+            href: rooms/index.md
+          - name: Teams 会议室指南
+            href: teams-meeting-room-guidance.md
+          - name: 计划
+            items:
+              - name: Microsoft Teams 会议室规划概述
+                href: rooms/rooms-plan.md
+              - name: "Windows 和 Android 之间的 Teams 设备功能比较 \_"
+                href: rooms/teams-devices-feature-comparison.md
+              - name: 版本支持
+                href: rooms/rooms-lifecycle-support.md
+              - name: 发行说明
+                href: rooms/rooms-release-note.md
+              - name: 准备环境
+                href: rooms/rooms-prep.md
+              - name: 要求
+                href: rooms/requirements.md
+              - name: 安全性
+                href: rooms/security.md
+              - name: 联机许可
+                href: rooms/rooms-licensing.md
+              - name: 使用者 Azure Monitor 进行管理规划
+                href: rooms/azure-monitor-plan.md
+          - name: 部署
+            items:
+              - name: 部署概述
+                href: rooms/rooms-deploy.md
+              - name: 配置帐户
+                href: rooms/rooms-configure-accounts.md
+              - name: Surface Hub
+                items:
+                  - name: 设置协调会议
+                    href: rooms/coordinated-meetings.md
+                  - name: 管理 Microsoft Teams 设置
+                    href: rooms/surface-hub-manage-config.md
+              - name: 使用 Office 365
+                href: rooms/with-office-365.md
+              - name: 使用 Skype for Business Server
+                href: rooms/with-skype-for-business-server-2015.md
+              - name: 使用 Exchange Online（混合）
+                href: rooms/with-exchange-online.md
+              - name: 使用 Exchange 内部部署（混合）
+                href: rooms/with-exchange-on-premises.md
+              - name: 配置控制台
+                href: rooms/console.md
+              - name: 手动更新设备
+                href: rooms/manual-update.md
+              - name: 配置身份验证
+                href: rooms/rooms-authentication.md
+              - name: 加入第三方会议
+                href: rooms/third-party-join.md
+              - name: 通过使用 Microsoft Endpoint Configuration Manager
+                href: rooms/rooms-scale.md
+              - name: 利用 Azure Monitor 进行管理
+                href: rooms/azure-monitor-deploy.md
+              - name: 迁移 SRS v1 或 LRS
+                href: rooms/lrs-migration.md
+              - name: 内容照相机
+                href: rooms/content-camera.md
+              - name: 智能扬声器的语音识别控件
+                href: rooms/voice-recognition.md
+          - name: 管理
+            items:
+              - name: 管理概述
+                href: rooms/rooms-manage.md
+              - name: 维护和操作
+                href: rooms/rooms-operations.md
+              - name: 已知问题
+                href: rooms/known-issues.md
+              - name: 具有 Azure Monitor 的设备
+                href: rooms/azure-monitor-manage.md
+              - name: 具有 XML 文件的设置
+                href: rooms/xml-config-file.md
+              - name: 使用恢复工具
+                href: rooms/recovery-tool.md
+      - name: Microsoft Teams 会议室托管服务
+        items:
+          - name: 计划管理
+            href: rooms/microsoft-teams-rooms-premium.md
+          - name: 基于角色的访问控制
+            href: rooms/microsoft-teams-rooms-premium-rbac.md
+          - name: 获取并分配许可证
+            href: rooms/obtaining-assigning-license.md
+          - name: 注册 MTRP 托管服务
+            href: rooms/enrolling-mtrp-managed-service.md
+          - name: 为 Teams 会议室配置 ServiceNow
+            href: rooms/microsoft-teams-rooms-configure-servicenow.md
+      - name: 设备
+        items:
+          - name: 在 Teams 中管理设备
+            href: devices/device-management.md
+          - name: 远程设置和登录
+            href: devices/remote-provision-remote-login.md
+          - name: 远程登录和注销
+            href: devices/remote-sign-in-and-sign-out.md
+          - name: 远程更新设备
+            href: devices/remote-update.md
+          - name: 管理 Teams 设备标记
+            href: devices/manage-device-tags.md
+          - name: Teams 电话
+            href: devices/phones-for-teams.md
+          - name: Teams 显示
+            href: devices/teams-displays.md
+          - name: Teams 面板
+            items:
+              - name: Teams 面板
+                href: devices/teams-panels.md
+              - name: 使用 Teams 面板
+                href: devices/use-teams-panels.md
+              - name: Teams 面板上的应用支持
+                href: app-support-on-Teams-panels.md
+          - name: 将 Teams 手机升级至 Teams 显示
+            href: devices/upgrade-phones-to-displays.md
+          - name: 使用 Intune 部署 Teams 和 Teams 显示
+            href: devices/phones-displays-deploy.md
+          - name: USB 音频和视频设备
+            href: devices/usb-devices.md
+          - name: 在 Android 上部署 Microsoft Teams 会议室
+            href: devices/collab-bar-deploy.md
+          - name: 设置 Microsoft Teams Android 设备用户接口
+            href: devices/Teams-Android-devices-user-interface.md
+          - name: 会议室设备和解决方案
+            href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+          - name: Teams 认证设备
+            href: devices/teams-ip-phones.md
+          - name: SIP 网关
+            items:
+              - name: SIP 网关规划
+                href: sip-gateway-plan.md
+              - name: 配置 SIP 网关
+                href: sip-gateway-configure.md
+          - name: Teams 警报和监视
+            href: alerts/teams-admin-alerts.md
+          - name: Teams 设备运行状况监视
+            href: alerts/device-health-status.md
+          - name: Teams 设备和外围设备
+            href: teams-device-health.md
   - name: 应用、机器人和连接器
     items:
       - name: 概述
@@ -1643,52 +1697,6 @@ items:
                 href: /microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365
           - name: SharePoint Online 和 OneDrive for Business 与 Teams 如何交互
             href: sharepoint-onedrive-interact.md
-      - name: 支持的设备
-        items:
-          - name: 在 Teams 中管理设备
-            href: devices/device-management.md
-          - name: 远程设置和登录
-            href: devices/remote-provision-remote-login.md
-          - name: 远程登录和注销
-            href: devices/remote-sign-in-and-sign-out.md
-          - name: 远程更新设备
-            href: devices/remote-update.md
-          - name: 管理 Teams 设备标记
-            href: devices/manage-device-tags.md
-          - name: Teams 电话
-            href: devices/phones-for-teams.md
-          - name: Teams 显示
-            href: devices/teams-displays.md
-          - name: Teams 面板
-            items:
-              - name: Teams 面板
-                href: devices/teams-panels.md
-              - name: 使用 Teams 面板
-                href: devices/use-teams-panels.md
-              - name: Teams 面板上的应用支持
-                href: app-support-on-Teams-panels.md
-          - name: 将 Teams 手机升级至 Teams 显示
-            href: devices/upgrade-phones-to-displays.md
-          - name: 使用 Intune 部署 Teams 和 Teams 显示
-            href: devices/phones-displays-deploy.md
-          - name: USB 音频和视频设备
-            href: devices/usb-devices.md
-          - name: 在 Android 上部署 Microsoft Teams 会议室
-            href: devices/collab-bar-deploy.md
-          - name: 设置 Microsoft Teams Android 设备用户接口
-            href: devices/Teams-Android-devices-user-interface.md
-          - name: 会议室设备和解决方案
-            href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-          - name: Teams 认证设备
-            href: devices/teams-ip-phones.md
-          - name: Skype for Business Online 电话
-            href: /SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-          - name: Teams 警报和监视
-            href: alerts/teams-admin-alerts.md
-          - name: Teams 设备运行状况监视
-            href: alerts/device-health-status.md
-          - name: Teams 设备和外围设备
-            href: teams-device-health.md
       - name: Teams PowerShell
         items:
           - name: 概述
