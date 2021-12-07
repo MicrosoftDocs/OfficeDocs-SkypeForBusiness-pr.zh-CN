@@ -3,6 +3,54 @@
 
 
 
+## <a name="week-of-november-29-2021"></a>2021 年 11 月 29 日周
+
+
+| 发布日期 |主题标题 | 更改 |
+|------|------------|--------|
+| 11/29/2021 | [支持 Teams 的设备](/MicrosoftTeams/devices/teams-ip-phones) | 修改内容 |
+| 11/29/2021 | [使用 Teams 安装Microsoft Endpoint Configuration Manager](/MicrosoftTeams/msi-deployment) | 修改内容 |
+| 11/29/2021 | [从 Teams 探索试用版升级](/MicrosoftTeams/upgrade-from-teams-exploratory) | 修改内容 |
+| 11/30/2021 | [管理参与者和来宾的会议策略](/MicrosoftTeams/meeting-policies-participants-and-guests) | 修改内容 |
+| 11/30/2021 | [Microsoft EDU Parents 应用的管理员设置Teams](/MicrosoftTeams/edu-parents-app) | 修改内容 |
+| 12/1/2021 | [连接 Microsoft Teams日历 (AAD) 现有电子邮件系统](/MicrosoftTeams/connect-teams-essentials-to-email) | 添加内容 |
+| 12/1/2021 | [适用于小型企业的 Teams Essentials 快速入门指南](/MicrosoftTeams/get-started-with-teams-essentials) | 添加内容 |
+| 12/1/2021 | [配置运营商连接会议](/MicrosoftTeams/operator-connect-conferencing-configure) | 添加内容 |
+| 12/1/2021 | [规划运营商连接会议](/MicrosoftTeams/operator-connect-conferencing-plan) | 添加内容 |
+| 12/1/2021 | [适用于虚拟化桌面基础结构的 Teams](/MicrosoftTeams/teams-for-vdi) | 修改内容 |
+| 12/1/2021 | [实时事件录制策略](/MicrosoftTeams/teams-live-events/live-events-recording-policies) | 修改内容 |
+| 12/1/2021 | [Microsoft Teams PowerShell 发行说明](/MicrosoftTeams/teams-powershell-release-notes) | 修改内容 |
+| 12/1/2021 | [将Microsoft Teams免费 (经典) 升级到订阅](/MicrosoftTeams/upgrade-freemium) | 修改内容 |
+| 12/1/2021 | [适用于小型企业的 Teams Essentials 快速入门指南](/MicrosoftTeams/get-started-with-teams-essentials) | 修改内容 |
+| 12/1/2021 | [下面是使用Teams 电话](/MicrosoftTeams/here-s-what-you-get-with-phone-system) | 修改内容 |
+| 12/1/2021 | [在Teams 电话设置服务](/MicrosoftTeams/setting-up-your-phone-system) | 修改内容 |
+| 12/1/2021 | [什么是Teams 电话](/MicrosoftTeams/what-is-phone-system-in-office-365) | 修改内容 |
+| 12/2/2021 | [在语音服务中规划Microsoft Teams](/MicrosoftTeams/cloud-voice-landing-page) | 修改内容 |
+| 12/2/2021 | [手机和设备Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | 修改内容 |
+| 12/2/2021 | [维度和度量 - 呼叫质量仪表板 (CQD) ](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | 修改内容 |
+| 12/2/2021 | [PSTN 连接选项](/MicrosoftTeams/pstn-connectivity) | 修改内容 |
+| 12/2/2021 | [教育版 Insights最终用户通知](/MicrosoftTeams/insights-end-user-notice) | 添加内容 |
+| 12/2/2021 | [配置动态紧急呼叫](/MicrosoftTeams/configure-dynamic-emergency-calling) | 修改内容 |
+| 12/2/2021 | [连接 Microsoft Teams日历 (AAD) 现有电子邮件系统](/MicrosoftTeams/connect-teams-essentials-to-email) | 修改内容 |
+| 12/3/2021 | 向 Microsoft Teams 中的用户分配策略 | 删除内容 |
+| 12/3/2021 | [在 Microsoft Teams 中搜索审核日志查找事件](/MicrosoftTeams/audit-log-events) | 修改内容 |
+| 12/3/2021 | [支持 Teams 的设备](/MicrosoftTeams/devices/teams-ip-phones) | 修改内容 |
+| 12/3/2021 | [使用直接路由规划媒体旁路](/MicrosoftTeams/direct-routing-plan-media-bypass) | 修改内容 |
+| 12/3/2021 | [适用于小型企业的 Teams Essentials 快速入门指南](/MicrosoftTeams/get-started-with-teams-essentials) | 修改内容 |
+| 12/3/2021 | [配置 Microsoft Teams 会议室控制台](/MicrosoftTeams/rooms/console) | 修改内容 |
+| 12/3/2021 | [了解如何设置内容摄像头 - Microsoft Teams](/MicrosoftTeams/rooms/content-camera) | 修改内容 |
+| 12/3/2021 | [使用会议和会议设置Microsoft Teams 会议室Surface Hub](/MicrosoftTeams/rooms/coordinated-meetings) | 修改内容 |
+| 12/3/2021 | [Microsoft Teams 会议室要求](/MicrosoftTeams/rooms/requirements) | 修改内容 |
+| 12/3/2021 | [在 Microsoft Teams 会议室](/MicrosoftTeams/rooms/rooms-authentication) | 修改内容 |
+| 12/3/2021 | [配置帐户Microsoft Teams 会议室](/MicrosoftTeams/rooms/rooms-configure-accounts) | 修改内容 |
+| 12/3/2021 | [部署 Microsoft Teams 会议室](/MicrosoftTeams/rooms/rooms-deploy) | 修改内容 |
+| 12/3/2021 | [Microsoft Teams 会议室许可证](/MicrosoftTeams/rooms/rooms-licensing) | 修改内容 |
+| 12/3/2021 | [Microsoft Teams 会议室应用版本支持](/MicrosoftTeams/rooms/rooms-lifecycle-support) | 修改内容 |
+| 12/3/2021 | [管理 Microsoft Teams 会议室](/MicrosoftTeams/rooms/rooms-manage) | 修改内容 |
+| 12/3/2021 | [Microsoft Teams 会议室维护和操作](/MicrosoftTeams/rooms/rooms-operations) | 修改内容 |
+| 12/3/2021 | [Microsoft Teams 会议室安全性](/MicrosoftTeams/rooms/security) | 修改内容 |
+
+
 ## <a name="week-of-november-22-2021"></a>2021 年 11 月 22 日周
 
 
@@ -17,11 +65,11 @@
 | 11/23/2021 | [使用 Microsoft Teams 会议室 或 Microsoft 365 部署Office 365](/MicrosoftTeams/rooms/with-office-365) | 修改内容 |
 | 11/24/2021 | [在 Outlook 中使用 Microsoft Teams 会议加载项](/MicrosoftTeams/teams-add-in-for-outlook) | 修改日期 |
 | 11/24/2021 | [Exchange 与 Microsoft Teams 如何交互](/MicrosoftTeams/exchange-teams-interact) | 修改内容 |
-| 11/24/2021 | [Microsoft Teams面板上的 (LOB) 应用支持Teams应用](/MicrosoftTeams/app-support-on-teams-panels) | 修改内容 |
+| 11/24/2021 | [Microsoft Teams面板上提供应用/业务线 (LOB) 应用Teams支持](/MicrosoftTeams/app-support-on-teams-panels) | 修改内容 |
 | 11/24/2021 | [Teams 云会议录制](/MicrosoftTeams/cloud-recording) | 修改内容 |
 | 11/24/2021 | [在 Microsoft Teams 中配置桌面共享](/MicrosoftTeams/configure-desktop-sharing) | 修改日期 |
 | 11/24/2021 | [Cortana语音帮助Microsoft Teams](/MicrosoftTeams/cortana-in-teams) | 修改内容 |
-| 11/24/2021 | [Teams 教育版策略向导，轻松应用策略进行安全学习](/MicrosoftTeams/easy-policy-setup-edu) | 修改内容 |
+| 11/24/2021 | [Teams 教育版策略向导，轻松应用安全学习策略](/MicrosoftTeams/easy-policy-setup-edu) | 修改内容 |
 | 11/24/2021 | [会议策略和会议到期时间Microsoft Teams](/MicrosoftTeams/meeting-expiration) | 修改内容 |
 | 11/24/2021 | [管理音频和视频的会议策略](/MicrosoftTeams/meeting-policies-audio-and-video) | 修改内容 |
 | 11/24/2021 | [管理内容共享的会议策略](/MicrosoftTeams/meeting-policies-content-sharing) | 修改内容 |
@@ -79,62 +127,3 @@
 | 11/19/2021 | [升级清单\| 从 Skype Business 升级到 Teams \| 基本步骤](/MicrosoftTeams/upgrade-basic) | 修改内容 |
 | 11/19/2021 | 一致性辅助功能声明 - 法国 | 删除内容 |
 | 11/19/2021 | [Microsoft Teams：一致性辅助功能声明 - 法国](/MicrosoftTeams/accessibility-declaration-of-conformance-in-france-for-teams) | 修改内容 |
-
-
-## <a name="week-of-october-25-2021"></a>2021 年 10 月 25 日周
-
-
-| 发布日期 |主题标题 | 更改 |
-|------|------------|--------|
-| 10/25/2021 | [Microsoft Teams 的端到端加密](/MicrosoftTeams/teams-end-to-end-encryption) | 添加内容 |
-| 10/25/2021 | [呼叫策略Microsoft Teams：呼叫和呼叫转发功能](/MicrosoftTeams/teams-calling-policy) | 修改内容 |
-| 10/25/2021 | [管理设备Teams运行状况](/MicrosoftTeams/teams-device-health) | 修改内容 |
-| 10/25/2021 | [Microsoft Teams 安全指南概述](/MicrosoftTeams/teams-security-guide) | 修改内容 |
-| 10/26/2021 | [国家/地区可用性 - 音频会议、呼叫计划](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) | 修改内容 |
-| 10/26/2021 | [支持 Teams 的设备](/MicrosoftTeams/devices/teams-ip-phones) | 修改内容 |
-| 10/26/2021 | [Microsoft Teams应用使用情况报表](/MicrosoftTeams/teams-analytics-and-reports/app-usage-report) | 修改内容 |
-| 10/26/2021 | [Microsoft Teams PowerShell 发行说明](/MicrosoftTeams/teams-powershell-release-notes) | 修改内容 |
-| 10/26/2021 | [在 Microsoft Teams 管理中心中管理团队](/MicrosoftTeams/manage-teams-in-modern-portal) | 修改内容 |
-| 10/27/2021 | [手机和设备Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | 修改内容 |
-| 10/27/2021 | [Microsoft Teams 的硬件要求](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | 修改内容 |
-| 10/27/2021 | [购买适用于 Teams 的第三方Teams](/MicrosoftTeams/purchase-third-party-apps) | 修改内容 |
-| 10/27/2021 | [Microsoft Teams 会议室要求](/MicrosoftTeams/rooms/requirements) | 修改内容 |
-| 10/27/2021 | [有关Teams会议呼叫的基于策略的录制&简介](/MicrosoftTeams/teams-recording-policy) | 修改内容 |
-| 10/27/2021 | [在管理中心的活动日志中查看Microsoft Teams分配](/MicrosoftTeams/activity-log) | 修改内容 |
-| 10/27/2021 | [为学校中的大量用户分配策略](/MicrosoftTeams/batch-group-policy-assignment-edu) | 修改内容 |
-| 10/27/2021 | [Microsoft Teams 中的呼叫寄存和取回](/MicrosoftTeams/call-park-and-retrieve) | 修改内容 |
-| 10/27/2021 | [在 Microsoft Teams 中管理呼叫方 ID 策略](/MicrosoftTeams/caller-id-policies) | 修改内容 |
-| 10/27/2021 | [在你的 Office 365 组织中设置 Microsoft Teams](/MicrosoftTeams/deploy-enterprise-setup) | 修改内容 |
-| 10/27/2021 | [Microsoft Teams 中的会议](/MicrosoftTeams/deploy-meetings-microsoft-teams-landing-page) | 修改内容 |
-| 10/27/2021 | [Teams 教育版策略向导，轻松应用策略进行安全学习](/MicrosoftTeams/easy-policy-setup-edu) | 修改内容 |
-| 10/27/2021 | [为组织管理“班次”应用](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | 修改内容 |
-| 10/27/2021 | [为一线工作人员大规模预配 Microsoft Teams](/MicrosoftTeams/flw-scripted-deployment) | 修改内容 |
-| 10/27/2021 | [管理直接路由的紧急语音路由策略](/MicrosoftTeams/manage-emergency-call-routing-policies) | 修改内容 |
-| 10/27/2021 | [管理紧急呼叫策略Microsoft Teams](/MicrosoftTeams/manage-emergency-calling-policies) | 修改内容 |
-| 10/27/2021 | [管理反馈策略Microsoft Teams](/MicrosoftTeams/manage-feedback-policies-in-teams) | 修改内容 |
-| 10/27/2021 | [管理和监视Teams](/MicrosoftTeams/manage-teams-overview) | 修改内容 |
-| 10/27/2021 | [使用Teams管理策略](/MicrosoftTeams/manage-teams-with-policies) | 修改内容 |
-| 10/27/2021 | [管理直接路由的语音路由策略](/MicrosoftTeams/manage-voice-routing-policies) | 修改内容 |
-| 10/27/2021 | [会议策略和会议到期时间Microsoft Teams](/MicrosoftTeams/meeting-expiration) | 修改内容 |
-| 10/27/2021 | [管理内容共享的会议策略](/MicrosoftTeams/meeting-policies-content-sharing) | 修改内容 |
-| 10/27/2021 | [Teams：管理会议策略](/MicrosoftTeams/meeting-policies-in-teams) | 修改内容 |
-| 10/27/2021 | [管理参与者和来宾的会议策略](/MicrosoftTeams/meeting-policies-participants-and-guests) | 修改内容 |
-| 10/27/2021 | [从用户删除 RestrictedAnonymousAccess Teams 会议策略](/MicrosoftTeams/meeting-policies-restricted-anonymous-access) | 修改内容 |
-| 10/27/2021 | [音乐保持状态](/MicrosoftTeams/music-on-hold) | 修改内容 |
-| 10/27/2021 | [在 Teams 中规划管理 - Microsoft Teams](/MicrosoftTeams/plan-teams-governance) | 修改内容 |
-| 10/27/2021 | [面向 EDU 管理员的 Microsoft Teams 策略和策略包](/MicrosoftTeams/policy-packages-edu) | 修改内容 |
-| 10/27/2021 | [Teams政府部署策略包](/MicrosoftTeams/policy-packages-gov) | 修改内容 |
-| 10/27/2021 | [Teams 医疗保健策略包](/MicrosoftTeams/policy-packages-healthcare) | 修改内容 |
-| 10/27/2021 | [开始使用 Microsoft Teams 进行远程学习](/MicrosoftTeams/remote-learning-edu) | 修改内容 |
-| 10/27/2021 | [租户管理控制，用于 (语音配置文件) 语音Teams 会议室](/MicrosoftTeams/rooms/voice-recognition) | 修改内容 |
-| 10/27/2021 | [PowerShell 脚本示例 - 为学校中的教师和学生创建安全组](/MicrosoftTeams/scripts/powershell-script-security-groups-edu) | 修改内容 |
-| 10/27/2021 | [PowerShell 脚本示例 - 创建&消息传送策略](/MicrosoftTeams/scripts/powershell-script-teams-messaging-policy-edu) | 修改内容 |
-| 10/27/2021 | [在 Microsoft Teams 中管理应用权限策略](/MicrosoftTeams/teams-app-permission-policies) | 修改内容 |
-| 10/27/2021 | [呼叫策略Microsoft Teams：呼叫和呼叫转发功能](/MicrosoftTeams/teams-calling-policy) | 修改内容 |
-| 10/27/2021 | [适用于虚拟化桌面基础结构的 Teams](/MicrosoftTeams/teams-for-vdi) | 修改内容 |
-| 10/27/2021 | [将Teams与远程桌面服务一起使用](/MicrosoftTeams/teams-on-rdp) | 修改内容 |
-| 10/27/2021 | [管理频道策略Microsoft Teams](/MicrosoftTeams/teams-policies) | 修改内容 |
-| 10/27/2021 | [Microsoft Teams PowerShell 发行说明](/MicrosoftTeams/teams-powershell-release-notes) | 修改内容 |
-| 10/27/2021 | [管理中心中的管理团队模板](/MicrosoftTeams/templates-policies) | 修改内容 |
-| 10/27/2021 | [将OneDrive for Business和SharePoint用于会议录制](/MicrosoftTeams/tmr-meeting-recording-change) | 修改内容 |
-| 10/28/2021 | [数据中的信息Microsoft Teams](/MicrosoftTeams/information-barriers-in-teams) | 修改内容 |
