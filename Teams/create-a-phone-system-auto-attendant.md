@@ -21,13 +21,13 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: 了解如何为公司中的大型组织设置和测试自动助理Microsoft Teams。
-ms.openlocfilehash: 28f3334ed2ddfdff8e43ba7853f6a4d279211b96
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+description: 了解如何为公司中的大型组织设置和测试Microsoft Teams。
+ms.openlocfilehash: dec7051e643565b4fa0714bcba74528401ae99c0
+ms.sourcegitcommit: 693e2b7d79f5a3f7e2ccb14e48dc46d295659c33
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536903"
+ms.lasthandoff: 12/07/2021
+ms.locfileid: "61320072"
 ---
 # <a name="set-up-an-auto-attendant"></a>设置自动助理
 
@@ -41,16 +41,16 @@ ms.locfileid: "60536903"
 自动助理可以基于呼叫者的输入将呼叫引导到以下目标之一： <a name="call-routing-options" ></a>
 
 - **接线** 员 - 为自动助理定义的操作员。 定义运算符是可选的。 运算符可定义为此列表中的任何其他目标。
-- **组织中的人** - 组织中可以接收语音呼叫的人。 此人可以是联机用户，或者使用云托管在本地Skype for Business Server。
+- **组织中的人** - 组织中可以接收语音呼叫的人。 此人可以是联机用户，或在本地使用云托管Skype for Business Server。
 - **语音应用** - 另一个自动助理或呼叫队列。  (选择此目标时选择与自动助理或呼叫队列关联的资源帐户) 
 - **语音邮件**- 与指定的Microsoft 365关联的语音邮箱。 你可以选择是否要语音信箱听录和"请在语音后留言"。 系统提示。
-- **外部电话号码** - 任何电话号码。  (外部[传输技术详细信息) 。](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)
+- **外部电话号码** - 任何电话号码。  (请参阅[外部传输技术详细信息) 。](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)
 - **音频文件 (通知)** - 播放音频文件。 你上载的已录制公告消息，在 中另存为音频。WAV、.MP3 或 。WMA 格式。 录制内容不能大于 5 MB。 系统播放公告，然后返回到自动助理菜单。
 - **公告 (类型)** - 键入消息。 希望系统阅读的文本。 可以输入最多 1000 个字符。 系统播放公告，然后返回到自动助理菜单。
 
 设置自动助理时，系统会提示你选择各个阶段中的其中一个选项。
 
-若要设置自动助理，请在"Teams管理中心"中，展开"语音"，选择"自动助理"，然后选择"添加 **"。** 
+若要设置自动助理，请在Teams中心展开 **"语音**"，选择"自动助理"，然后选择"添加 **"。**
 
 ## <a name="video-demonstration"></a>视频演示
 
@@ -64,7 +64,7 @@ ms.locfileid: "60536903"
 
 1. 在顶部的框中键入自动助理的名称。
 
-2. 若要指定操作员，请指定调用操作员的目标。 此指定是可选的 (，但建议) 。 设置 **"** 接线员"选项，允许呼叫者离开菜单，与指定人员通话。
+2. 若要指定操作员，请指定调用操作员的目标。 此指定是可选的 (但建议) 。 设置 **"** 接线员"选项，允许呼叫者离开菜单，与指定人员通话。
 
 3. 指定此自动助理的时区。 如果为营业时间创建单独的呼叫流，则时区 [用于计算营业时间](#call-flow-for-after-hours)。
 
@@ -85,7 +85,7 @@ ms.locfileid: "60536903"
 
 如果选择"**播放音频文件"，** 可以使用"Upload"按钮上传在 中保存为音频的录制问候消息。WAV、.MP3 或 。WMA 格式。 录制内容不能大于 5 MB。
 
-如果选择" **键入** 问候消息"，系统将在自动助理应答呼叫时 (最多 1000 个字符) 键入的文本。
+如果选择" **键入问候** 消息"，系统将在自动助理应答呼叫时 (键入的文本，) 最多 1000 个字符。
 
 ![呼叫路由设置的屏幕截图。](media/auto-attendant-call-flow-route-call-message.png)
 
@@ -101,7 +101,7 @@ ms.locfileid: "60536903"
 
 ![拨号键选项的屏幕截图。](media/auto-attendant-call-flow-menu-options-complete.png)
 
-对于拨号选项，将电话键盘上的 0-9 键分配给呼叫路由目标之一。  (系统 (重复)  (后退) 键由系统保留，不能重新分配 \* \# 。) 
+对于拨号选项，将电话键盘上的 0-9 键分配给呼叫路由目标之一。  (系统 (星号)  () 井号的键，不能重新分配 \* \# 。 按这些键之一将重复当前菜单。) 
 
 键映射不必是连续的。 可以创建一个菜单，将键 0、1 和 3 映射到选项，而数字 2 键则未使用。
 
@@ -121,11 +121,11 @@ ms.locfileid: "60536903"
 
 如果未分配拨号键，请为"目录搜索 **"选择一个选项**。
 
-**按姓名** 拨叫 - 如果启用此选项，呼叫者可以说出用户的姓名或在电话键盘上键入用户名。 任何联机用户或任何使用 Skype for Business Server 本地托管的用户都是符合条件的用户，可以使用"按姓名拨叫"找到。  (你可以设置"拨号范围"页面上的目录中包括和不包括哪些人) [](#dial-scope)
+**按姓名** 拨叫 - 如果启用此选项，呼叫者可以说出用户的姓名或在电话键盘上键入用户名。 任何联机用户或任何使用 Skype for Business Server 本地托管的用户都是符合条件的用户，可以使用"按姓名拨叫"找到。  (你可以设置"拨号范围"页面上的目录中包括和不包括[哪些人) ](#dial-scope)
 
-**按分机号码** 拨叫 - 如果启用此选项，呼叫者可以通过拨打其电话分机来与贵组织的用户联系。 任何联机用户或任何使用 Skype for Business Server 本地托管的用户都是符合条件的用户，可以使用"按分机号拨叫 **"找到**。  (你可以设置"拨号范围"页面上的目录中包括和不包括哪些人) [](#dial-scope)
+**按分机号码** 拨叫 - 如果启用此选项，呼叫者可以通过拨打其电话分机来与贵组织的用户联系。 任何联机用户或者使用 Skype for Business Server 本地托管的任何用户都是符合条件的用户，可通过"按分机号拨叫 **"找到**。  (你可以设置"拨号范围"页面上的目录中包括和不包括[哪些人) ](#dial-scope)
 
-要使其可用于"电话拨叫分机"的用户需要具有指定为 Active Directory 中定义的以下电话属性之一的一部分的扩展Azure Active Directory (请参阅单独或批量添加[](/microsoft-365/admin/add-users/add-users)用户了解详细信息。) 
+要使其可用于"拨号分机"的用户需要具有指定为 Active Directory 中定义的以下电话属性之一的一部分的扩展Azure Active Directory (请参阅单独或批量添加用户了解详细信息[](/microsoft-365/admin/add-users/add-users)。) 
 
 - OfficePhone
 - HomePhone
@@ -143,10 +143,10 @@ ms.locfileid: "60536903"
 - 示例 2：Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "+1555555678x5678"
 - 示例 3：Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "x5678"
 
-可以在管理中心 或 Microsoft 365 管理中心[中Azure Active Directory](https://admin.microsoft.com/)[扩展](https://aad.portal.azure.com)。 更改最多可能需要 12 小时才能提供给自动助理和呼叫队列。
+可以在管理中心或 Microsoft 365 管理中心[中Azure Active Directory](https://admin.microsoft.com/)[扩展](https://aad.portal.azure.com)。 更改最多可能需要 12 小时才能提供给自动助理和呼叫队列。
 
 > [!NOTE]
-> 如果要同时使用"按名字拨叫"和"按分机号码拨叫"功能，可以在主自动助理上分配拨号键，以联系为"按姓名拨叫"启用 **的自动助理**。 在此自动助理中，你可以分配没有与之关联的 (1 个密钥，) 电话分机 **自动** 助理。
+> 如果要同时使用"按名字拨叫"和"按分机号码拨叫"功能，可以在主自动助理上分配拨号键，以联系为"按姓名拨叫"启用 **的自动助理**。 在自动助理中，你可以分配 1 个 (没有与之关联的字母的密钥，) 电话分机 **自动** 助理。
 
 选择目录 **搜索选项后**，选择"下一 **步"。**
 
@@ -196,14 +196,14 @@ ms.locfileid: "60536903"
 
 ![拨号范围包括和排除选项的屏幕截图。](media/auto-attendant-dial-scope.png)
 
-拨号 *范围* 定义当呼叫者使用按名称拨叫或按分机拨叫时，哪些用户在目录中可用。 "所有 **联机用户"的** 默认值包括组织中使用"联机"用户或本地托管的所有用户Skype for Business Server。
+拨号 *范围* 定义当呼叫者使用按名称拨叫或按分机拨叫时，哪些用户在目录中可用。 "所有 **联机用户"** 的默认值包括组织中使用"联机"用户或本地托管的所有用户Skype for Business Server。
 
 可以通过在"包括"或"排除"下选择"自定义用户组"，并选择一个或多个Microsoft 365组、通讯组列表或安全组，来包括或排除特定用户。  例如，你可能希望从拨号目录中排除组织中高层。  (如果用户同时在两个列表中，则他们将被排除在 directory.) 
 
 > [!NOTE]
 > 新用户可能需要最多 36 小时才能在目录中列出其名称。
 
-设置完拨号范围后，选择"下一步 **"。**
+设置完拨号范围后，选择"下一 **步"。**
 
 ## <a name="resource-accounts"></a>资源帐户
 
@@ -225,7 +225,7 @@ ms.locfileid: "60536903"
 
 - 对于具有呼叫计划许可证或[](calling-plans-for-office-365.md)接线员[连接](operator-connect-plan.md)号码的资源帐户，必须以 E.164 格式输入外部转移电话号码 (+[国家/地区代码][区号][电话号码]) 。
 
-- 对于具有 电话系统 许可证和直接路由联机语音路由策略的资源帐户，外部传输电话号码格式取决于会话边界控制器 ([SBC](direct-routing-connect-the-sbc.md)) 设置。
+- 对于具有 电话系统 许可证和直接路由联机语音路由策略的资源帐户，外部转移电话号码格式取决于会话边界控制器 ([SBC](direct-routing-connect-the-sbc.md)) 设置。
 
 显示的出站电话号码按如下所示确定：
 
