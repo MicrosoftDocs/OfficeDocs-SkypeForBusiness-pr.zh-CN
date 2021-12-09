@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0d875c6cd753e4c2e97477b3a3a88e0f071b5cbe
-ms.sourcegitcommit: 05e7c8ac9d6d6f712742d08820d43118c8949bbc
+ms.openlocfilehash: 4865372f442160734fec980428c6f6309cc0ad7f
+ms.sourcegitcommit: 1165a74b1d2e79e1a085b01e0e00f7c65483d729
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/07/2021
-ms.locfileid: "61322984"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "61355741"
 ---
 # <a name="deploying-the-parents-app-in-microsoft-teams"></a>在应用程序中部署"家长"Microsoft Teams
 
@@ -33,7 +33,7 @@ ms.locfileid: "61322984"
 ### <a name="school-data-sync"></a>学校数据同步
 
 - 你需要学校数据同步 (SDS) 来填充每个学生的家长和监护人 **相关的联系信息**。
-  - [部署 SDS](/schooldatasync/parent-contact-sync)
+  - [部署 SDS](/schooldatasync/parents-and-guardians-in-sds)
 
 - 如果在为租户中的学生设置 SDS 和填充与家长和监护人相关的联系人方面需要帮助，请联系 EDU 客户成功团队：：
   - 在 上完成 RFA [FastTrack。](https://www.microsoft.com/fasttrack?rtc=1)
@@ -101,7 +101,7 @@ ms.locfileid: "61322984"
 
 默认情况下，"家长"应用处于禁用状态，因此课堂团队所有者不会在课堂团队中看到该应用，直到允许应用通过Teams中心。 可以使用允许发布者阻止的应用Teams管理中心[允许该应用](manage-apps.md#apps-blocked-by-publishers)。
 
-应用随时可在租户级别使用"允许"和"阻止"应用在[](manage-apps.md#allow-and-block-apps)租户Teams禁用。 如果在租户级别禁用应用，则所有用户都会阻止该应用，即使启用了用户级别权限。
+随时可在租户级别使用"允许"和"阻止"应用在租户[](manage-apps.md#allow-and-block-apps)Teams应用。 如果在租户级别禁用应用，则所有用户都会阻止该应用，即使启用了用户级别权限。
 
 也可在用户级别使用管理应用权限策略在[Microsoft Teams。](teams-app-permission-policies.md)
 
