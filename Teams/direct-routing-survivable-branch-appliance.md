@@ -21,21 +21,21 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8c25299a0f0df6863bcb1fbaa4627b891a6e860a
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: b378ee327f2ba284a348ff7458c617fed71541c6
+ms.sourcegitcommit: 12044ab8b2e79a7b23bf9a0918ae070925d21f3d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536753"
+ms.lasthandoff: 12/10/2021
+ms.locfileid: "61401886"
 ---
-# <a name="survivable-branch-appliance-sba-for-direct-routing"></a>用于直接路由的 (分支设备) SBA 设备
+# <a name="survivable-branch-appliance-sba-for-direct-routing"></a>用于直接路由 (SBA) 的可生存分支设备
 
 
-有时，使用直接路由连接到 Microsoft 电话 系统的客户站点可能会遇到 Internet 中断。
+有时，使用直接路由连接到 Microsoft 电话系统的客户站点可能会遇到 Internet 中断。
 
 假设客户站点（称为分支）暂时无法通过直接路由连接到 Microsoft 云。 但是，分支内的 Intranet 仍完全正常运行，用户可以连接到提供 PSTN 连接的 SBC (会话) 控制器。
 
-本文介绍如何使用可生存分支设备 (SBA) 使 Microsoft 电话 系统在服务中断时继续拨打和接听公用电话交换网 (PSTN) 呼叫。
+本文介绍如何使用可生存分支设备 (SBA) 使 Microsoft 电话 System 在服务中断时继续拨打和接听公用电话交换网 (PSTN) 呼叫。
 
 ## <a name="prerequisites"></a>先决条件
 
@@ -43,11 +43,11 @@ SBA 是 Microsoft 提供给 SBC 供应商的可分发代码，这些供应商随
 
 若要使用嵌入式 Survivable 分支设备获取最新的会话边界控制器固件，请联系 SBC 供应商。 此外，需要以下各项：
 
-- 需要为"媒体旁路"配置 SBC，以确保分支Microsoft Teams客户端中的媒体可以直接与 SBC 流动。 
+- 需要为"媒体旁路"配置 SBC，以确保分支Microsoft Teams客户端中的媒体可以直接流向 SBC。 
 
 - 应在 SBA VM OS 上启用 TLS1.2。
-- Microsoft SBA 服务器使用端口 3443、4444 和 8443 来与 Teams 客户端通信，防火墙应允许端口 3443、4444 和 8443。 
-- 端口 5061 (或在 SBC) 上配置的端口 5061 由 Microsoft SBA 服务器用来与 SBC 通信，防火墙应允许端口 5061。 
+- Microsoft SBA 服务器使用端口 3443、4444 和 8443 来与 Teams 客户端通信，防火墙上应允许端口 3443、4444 和 8443。 
+- 端口 5061 (或在 SBC) 上配置的端口由 Microsoft SBA 服务器用来与 SBC 通信，防火墙应允许端口 5061。 
 - Microsoft SBA 服务器使用 UDP 端口 123 与 NTP 服务器通信，防火墙应允许此端口。
 - Microsoft SBA 服务器使用端口 443 Microsoft 365防火墙上应允许端口 443。
 - 应该根据以下所述的准则定义公有云的 Azure IP 范围和服务标记： https://www.microsoft.com/download/details.aspx?id=56519
@@ -58,7 +58,9 @@ SBA 是 Microsoft 提供给 SBC 供应商的可分发代码，这些供应商随
 
 - Microsoft Teams Windows桌面 
 
-- Microsoft Teams macOS 桌面 
+- Microsoft Teams macOS 桌面
+- Teams移动版 
+- Teams 电话
 
 ## <a name="how-it-works"></a>运作方式
 
@@ -74,7 +76,7 @@ SBA 是 Microsoft 提供给 SBC 供应商的可分发代码，这些供应商随
 
 ## <a name="configuration"></a>配置
 
-若要运行 SBA 功能，Teams需要知道每个分支站点中提供哪些 SBA，以及将哪些 SBA 分配给该站点中的用户。 配置步骤如下：
+若要运行 SBA 功能，Teams客户端需要知道每个分支站点中可用的 SBA，以及将哪些 SBA 分配给该站点中的用户。 配置步骤如下：
 
 1. 创建 SBA。
 2. 创建Teams可生存性策略。
@@ -114,7 +116,7 @@ Description : SBA 1
 | 参数| 说明 |
 | :------------|:-------|
 | Identity | 策略的标识 |
-| BranchApplianceFqdns  | 站点中 SBA () 的 FQDN |
+| BranchApplianceFqdns  | 站点中 SBA () FQDN |
 ||
 
 例如：
@@ -216,4 +218,4 @@ C:\> Grant-CsTeamsSurvivableBranchAppliancePolicy -PolicyName $Null -Identity us
 
 - SBA 不支持呼叫转发设置。 
 
-- 不支持对为 E911 (动态紧急呼叫配置的紧急) 紧急呼叫。
+- 不支持对为 E911 动态紧急呼叫配置 (紧急呼叫) 紧急呼叫。

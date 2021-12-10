@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 了解哪些桌面电话和会议电话经过认证Microsoft Teams产生最佳结果。
-ms.openlocfilehash: ea91bb108f109bb58fe36d884f683a1f0e405964
-ms.sourcegitcommit: 70bba31b0ca4615a3c6a90f42d3568450ea51b82
+ms.openlocfilehash: d09e8b449d9e4c058ef3fdc1f9a975c06e3cc1f6
+ms.sourcegitcommit: 12044ab8b2e79a7b23bf9a0918ae070925d21f3d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/07/2021
-ms.locfileid: "61327260"
+ms.lasthandoff: 12/10/2021
+ms.locfileid: "61401926"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams认证设备
 
@@ -88,7 +88,7 @@ Microsoft Teams认证计划可确保更高质量的栏，具有更高的性能�
 |Lenovo ThinkSmart View|`CD-18781Y.201006.099`|2020 年 10 月 |
 
 ## <a name="currently-certified-teams-panels"></a>当前认证的Teams面板
-以下设备在Microsoft Teams认证计划下认证：
+以下设备在认证面板认证Microsoft Teams认证计划下进行认证：
 
 | 设备模型| 固件版本 | 发布日期  |                                         
 |:------------------------|:-----------------|:--------------|
@@ -97,9 +97,9 @@ Microsoft Teams认证计划可确保更高质量的栏，具有更高的性能�
 |Yealink RoomPanel | `147.15.0.1` |2021 年 5 月 |
 |Logitech TAP 计划程序 | `1.3.111` | 2021 年 12 月 |
 
-### <a name="product-release-information-for-teams-phones"></a>手机产品发布Teams信息
+### <a name="product-release-information-for-teams-phones"></a>适用于手机的产品Teams信息
 
-以下是最新的 Teams 手机应用和固件版本。
+以下是最新的手机Teams和固件版本。
 
 #### <a name="app-versions"></a>应用版本
 
@@ -120,7 +120,7 @@ Microsoft Teams认证计划可确保更高质量的栏，具有更高的性能�
 
 #### <a name="firmware-versions"></a>固件版本
 
-在设备上安装新的固件版本时，可以确定 Microsoft Teams 应用、公司门户管理员代理的相应安装版本。 在"包含的产品发布"列中查找 **产品发布，** 然后在之前的"应用版本"表中 **查找产品** 发布。
+在设备上安装新的固件版本时，可以确定 Microsoft Teams 应用、公司门户和管理代理的相应安装版本。 在"包含的产品发布"列中查找 **产品发布，** 然后在之前的"应用版本"表中 **查找产品** 发布。
 
 | 设备模型        | 固件版本     | 包含的产品发布  |
 |:--------------------|:---------------------|:-------------------------|
@@ -168,7 +168,7 @@ Microsoft Teams认证计划可确保更高质量的栏，具有更高的性能�
 
 请参阅[Microsoft Teams显示](teams-displays.md)。
 
-### <a name="product-release-information-for-teams-rooms-on-android"></a>Android 版 Teams 会议室产品发布信息
+### <a name="product-release-information-for-teams-rooms-on-android"></a>Android 上适用于 Teams 会议室 的产品发布信息
 
 以下是 Android 应用和Teams 会议室的最新版本。
 
@@ -227,6 +227,7 @@ Microsoft Teams认证计划可确保更高质量的栏，具有更高的性能�
 
 |产品发布| 发布日期 | Microsoft Teams应用版本 | 公司门户 版本 | 管理员代理版本 |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+|2021 更新 #3  |2021 年 12 月 8 日 |`1449/1.0.95.2021111203`    |`5.0.5304.0`            |  `1.0.0.202110130735.product (298)`|
 |2021 更新 #2  |2021 年 6 月 9 日 |`1449/1.0.95.2021042103`    |`5.0.5088.0`            |  `1.0.0.202103160138.product (256)`|
 |2021 更新 #1  |2021 年 3 月 18 日 |`1449/1.0.95.2021021104`    |`5.0.5045.0`            | `1.0.0.202101280722.product (253)`|
 
@@ -237,10 +238,11 @@ Microsoft Teams认证计划可确保更高质量的栏，具有更高的性能�
 
 | 设备模型  | 固件版本 | 包含的产品发布|
 |:--------------|:-----------------|:-------------------------|
+|Lenovo ThinkSmart View| `CD-18781Y.211116.114` |2021 更新#3  |
 |Lenovo ThinkSmart View| `CD-18781Y.210507.111` |2021 更新 #2 |
 |Lenovo ThinkSmart View| `CD-18781Y.210228.109` |2021 更新 #1 |
 
-### <a name="product-release-information-for-teams-panels"></a>开发面板的产品Teams信息
+### <a name="product-release-information-for-teams-panels"></a>适用于面板的产品Teams信息
 
 以下是最新的 Microsoft Teams 面板应用和固件版本。
 
@@ -268,7 +270,7 @@ Microsoft Teams认证计划可确保更高质量的栏，具有更高的性能�
 
 请参阅 [在移动设备上查找固件版本](phones-for-teams.md) 以确定移动设备上的设备固件版本。
 
-Microsoft Teams许可证可以作为订阅或订阅[的一Microsoft 365 Office 365购买](/office365/servicedescriptions/teams-service-description)。 若要详细了解在手机上使用 Microsoft Teams所需的许可证，请参阅可用的[手机系统许可证](https://products.office.com/microsoft-teams/voice-calling)。
+Microsoft Teams许可证可以作为订阅或订阅[Microsoft 365 Office 365的一部分](/office365/servicedescriptions/teams-service-description)。 若要详细了解在手机上使用 Microsoft Teams所需的许可证，请参阅可用的[手机系统许可证](https://products.office.com/microsoft-teams/voice-calling)。
 
 有关获取访问权限Teams，请参阅如何[获取对 Microsoft Teams？](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
