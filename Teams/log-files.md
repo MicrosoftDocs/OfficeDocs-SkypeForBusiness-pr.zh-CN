@@ -13,17 +13,17 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 search.appverid: MET150
-description: 了解用户生成的调试、媒体Microsoft Teams桌面日志、日志的查找位置，以及这些日志如何帮助进行监视和故障排除。
+description: 了解调试、媒体和桌面日志Microsoft Teams、可在何处找到它们，以及它们如何有助于监视和故障排除。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 28fa78eb20b88fe0a159fab12636ce546453835e
-ms.sourcegitcommit: be8b820caf4b5a1a91ad444ba93da1df20bf63ae
+ms.openlocfilehash: 100d21338cf77642836793ab9cf69d426d1fd463
+ms.sourcegitcommit: 38a4d2f41270633479afb3412c749365922554e5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2021
-ms.locfileid: "61257313"
+ms.lasthandoff: 12/10/2021
+ms.locfileid: "61410683"
 ---
-# <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>使用日志文件监视和排查Microsoft Teams
+# <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>使用日志文件来监视和排查Microsoft Teams
 
 有三种类型的日志文件由客户端自动生成，可利用它们来帮助监视和排查Teams：
 
@@ -53,7 +53,7 @@ ms.locfileid: "61257313"
 - <kbd>Mac：Option</kbd> + <kbd>Command</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd>
 
 
-默认情况下，媒体日志记录已关闭。 若要启用媒体日志记录，用户必须在客户端中启用Teams选项。 转到 **"设置**  >  **常规**"，然后选择"为会议诊断启用日志记录 **(重启Teams) 。** 必须Teams客户端才能开始日志记录。
+默认情况下，媒体日志记录已关闭。 若要启用媒体日志记录，用户必须在客户端中Teams选项。 转到 **"设置** 常规"，然后选择"为会议诊断启用日志记录 ( >  **重启Teams) 。** 必须Teams客户端才能开始日志记录 (方法是右键单击 Dock (Mac) 或任务栏中的图标，然后选择"退出" (Windows) 。  退出后，只需单击应用图标即可再次) 。
 
 如果特定会议或实时事件出现问题，将 URL 与会议关联会很有帮助。 这提供了其他信息，以帮助查明日志中的确切会议或实时事件。 此信息可以从会议的任何参与者或直播活动的演示者或制作人收集。 可以通过将鼠标悬停在联接 URL 上并选择"复制超链接"**来捕获此 URL。**
 
@@ -84,7 +84,7 @@ ms.locfileid: "61257313"
 
 ## <a name="debug-logs"></a>调试日志
 
-请参阅 _收集和启用日志记录_ 部分，了解 Windows 和 Mac 的说明。 调试日志由 Windows 和 Mac 桌面客户端以及基于浏览器的客户端生成。 日志基于文本，从下而上读取。 可以使用任何基于文本的编辑器读取这些日志，并且登录到客户端时会创建新日志。
+请参阅 _收集和启用日志记录部分_，Windows和 Mac 说明。 调试日志由 Windows 和 Mac 桌面客户端以及基于浏览器的客户端生成。 日志基于文本，从下而上读取。 可以使用任何基于文本的编辑器读取这些日志，并且登录到客户端时会创建新日志。
 
 调试日志显示以下数据流：
 
@@ -98,15 +98,15 @@ ms.locfileid: "61257313"
 - 键盘快捷方式<kbd>：Ctrl</kbd>  +  <kbd>Alt</kbd>  +  <kbd>Shift</kbd>  +  <kbd>1</kbd>  
 - 文件将在 `~/Downloads`
 
-若要收集浏览器日志和Windows：
+收集浏览器日志和Windows：
 - 键盘快捷方式<kbd>：Ctrl</kbd>  +  <kbd>Alt</kbd>  +  <kbd>Shift</kbd>  +  <kbd>1</kbd>  
 - 文件将在 `%userprofile%\Downloads`
 
 ## <a name="media-logs"></a>媒体日志
 
-请参阅 _收集和启用日志记录_ 部分，了解 Windows 和 Mac 的说明。 媒体日志包含有关会议中音频、视频和屏幕共享的Teams数据。 它们对于链接到呼叫相关问题的支持案例是必需的。
+请参阅 _收集和启用日志记录部分_，Windows和 Mac 说明。 媒体日志包含有关会议中音频、视频和屏幕共享的Teams数据。 它们对于链接到呼叫相关问题的支持案例是必需的。
 
-默认情况下，媒体日志记录已关闭。 若要记录会议Teams数据，用户必须在客户端中打开Teams选项。 转到 **设置** 常规"，选中"为会议诊断启用日志记录 (Teams) "复选框，重启 Teams 并重现  >  问题。  
+默认情况下，媒体日志记录已关闭。 若要记录会议Teams数据，用户必须在客户端中启用Teams选项。 转到 **设置** 常规"，选中"为会议诊断启用日志记录 ("Teams) "复选框，重新启动Teams并重现  >  问题。  
 
 将日志文件发送给 Microsoft 支持人员时，请验证日志文件的时间戳，确保日志涵盖重现问题的时间范围。
 
@@ -126,7 +126,7 @@ ms.locfileid: "61257313"
 
 |日志文件名  |说明  |
 |---------|---------|
-|`Teams.msrtc-0-s1039525249.blog`     | 包含与媒体堆栈有关的信息。 这包括通道状态，例如分辨率、使用的解码器、编码器、已发送和接收的帧数，以及基于相机和视频的屏幕共享 (VBSS) 状态。         |
+|`Teams.msrtc-0-s1039525249.blog`     | 包含与媒体堆栈有关的信息。 这包括通道状态，例如分辨率、使用的解码器、编码器，以及发送和接收的帧数，以及基于相机和视频的屏幕共享 (VBSS) 状态。         |
 |`rtmcontrol.msrtc-0-2415069487.blog`      |记录与远程控制操作相关的信息，例如提供控制时时间戳和鼠标指针信息。          |
 |`Teams_MediaStackETW-2-U-xr-U.etl`      |记录媒体堆栈跟踪事件。         |
 |`Debug-0-s2790420889.blog`    | 包含与媒体代理有关的信息，包括呈现质量。          |
@@ -134,15 +134,15 @@ ms.locfileid: "61257313"
 
 ## <a name="desktop-logs"></a>桌面日志
 
-请参阅 _收集和启用日志记录_ 部分，了解 Windows 和 Mac 的说明。 桌面日志也称为启动程序日志，包含桌面客户端与浏览器之间发生的日志数据。 与媒体日志一样，仅当 Microsoft 要求时，才需要这些日志。 日志基于文本，可以使用任何基于文本的编辑器以自上而下的格式读取。
+请参阅 _收集和启用日志记录_ 部分，Windows和 Mac 说明。 桌面日志也称为启动程序日志，包含桌面客户端与浏览器之间发生的日志数据。 与媒体日志一样，仅当 Microsoft 要求时，才需要这些日志。 日志基于文本，可以使用任何基于文本的编辑器以自上而下的格式读取。
 
 收集 Linux 日志：
 - 单击系统Microsoft Teams中的"日志"图标，然后选择"**获取日志"。**
 - 文件将在 中提供 `~/.config/Microsoft/Microsoft Teams/logs.txt` 。
   
 若要收集日志，Windows：
-- 单击系统Microsoft Teams图标，然后选择"收集 **支持文件"。**
-- 文件 `logs.txt` 将自动在记事本打开。
+- 单击Microsoft Teams任务栏中的"收集支持文件"图标，然后选择"**收集支持文件"。**
+- 文件 `logs.txt` 将自动在记事本中打开。
 
 调查登录到Teams时，可能需要手动收集桌面日志。 这些日志文件位于 Windows 中的 %appdata%\Microsoft\Teams。
 

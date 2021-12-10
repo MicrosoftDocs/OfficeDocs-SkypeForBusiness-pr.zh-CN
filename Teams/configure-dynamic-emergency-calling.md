@@ -18,12 +18,12 @@ description: 了解如何配置 Microsoft 呼叫计划并电话系统直接路�
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45e7b49fcde0dba2a37eb4b08daeed324a9155dc
-ms.sourcegitcommit: 12044ab8b2e79a7b23bf9a0918ae070925d21f3d
+ms.openlocfilehash: c762ccb2aba8c8ccad531573c37f258fa4605a9d
+ms.sourcegitcommit: 38a4d2f41270633479afb3412c749365922554e5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 12/10/2021
-ms.locfileid: "61401916"
+ms.locfileid: "61410713"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>规划和配置动态紧急呼叫 
 
@@ -82,17 +82,17 @@ Microsoft 呼叫计划和运营商连接包括适用于美国和加拿大用户�
 - Teams Apple iOS 客户端版本 1.0.92.2019121004 和 App Store 版本 1.0.92 及更高的移动客户端
 - Teams Android 客户端和 Google Play 商店版本 1416/1.0.0.2019121201 及更大版本的移动客户端
 - Teams 1449/1.0.94.2019110802 及更大版本
-- Teams 会议室 4.4.25.0 及更高版本
+- Teams 会议室 4.4.25.0 及更大版本
 
 > [!NOTE]
 > 所有受支持的客户端都支持基于子网和 WiFi Teams位置。 <br><br>
 > 支持以太网/ (LLDP) ：
 > - Windows 8.1 及更高版本。<br>
 > - Mac OS，需要 [LLDP 启用软件](https://www.microsoft.com/download/details.aspx?id=103383)。<br>
-> - Teams Teams应用版本 1449/1.0.94.2021110101 和更高版本的手机。
+> - Teams Teams应用版本 1449/1.0.94.202111010101 及更高版本的手机。
 
 > [!NOTE]
-> Web 客户端不支持动态紧急呼叫，包括安全Teams通知。 若要防止用户使用 Teams Web 客户端呼叫 PSTN 号码，你可以设置Teams策略并关闭"允许 **Web PSTN** 呼叫"设置。 有关详细信息，[请参阅在](teams-calling-policy.md)Teams[和 Set-CsTeamsCallingPolicy 中调用策略](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)。 
+> Web 客户端不支持动态紧急呼叫，包括安全Teams通知。 若要防止用户使用 Teams Web 客户端呼叫 PSTN 号码，您可以设置 Teams呼叫策略并关闭"允许 **Web PSTN** 呼叫"设置。 有关详细信息，请参阅[在](teams-calling-policy.md)Teams[和 Set-CsTeamsCallingPolicy 中调用策略](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)。 
 
 > [!NOTE]
 > 3PIP 电话不支持动态紧急呼叫。 
@@ -105,13 +105,13 @@ Microsoft 呼叫计划和运营商连接包括适用于美国和加拿大用户�
 
 - 调用计划用户。
 
-- 运营商连接，具体取决于运营商将用户上传到客户的库存时分配给该号码 &mdash; 的功能。
+- 运营商连接，具体取决于运营商将用户上传到客户库存时分配给该号码 &mdash; 的功能。
 
 - 到动态获取位置所需的网络标识符。 
 
 若要支持美国境内紧急呼叫的自动路由，必须确保分配给网络标识符的紧急位置包含关联的地理代码。  (没有地理代码的紧急地址不能分配给动态位置.) 
 
-Azure 地图用于基于位置的服务。 使用管理中心输入紧急Microsoft Teams时，Teams Azure 地图检查地址：
+Azure 地图 用于基于位置的服务。 使用管理中心输入紧急Microsoft Teams时，Teams Azure 地图检查地址：
 
 - 如果找到匹配项，则会自动包含地理代码。
 
@@ -165,11 +165,11 @@ Azure 地图用于基于位置的服务。 使用管理中心输入紧急Microso
 
 客户端Teams从与不同网络标识符关联的位置获取紧急地址。 
 
-若要让客户端获取位置，必须使用子网、WAP、 (、端口和紧急位置的网络标识符) LIS。 可以在管理中心或Microsoft Teams PowerShell 中执行此操作。
+若要让客户端获取位置，必须使用子网、 (、交换机、端口和紧急位置的网络标识符) LIS。 可以在管理中心或Microsoft Teams PowerShell 中执行此操作。
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 管理中心
 
-1. 在左侧导航栏中，转到 **"位置**  >  **""网络&位置"。**
+1. 在左侧导航中，转到"**位置**  >  **""网络&位置"。**
 2. 单击表示要添加的网络标识符的选项卡。 例如，单击 **"子网****、Wi-Fi 接入点**、交换机"或"**端口"。** 然后单击"**添加"。**
 3. 填写字段，添加紧急位置，然后单击"应用 **"。**
 
@@ -191,9 +191,9 @@ Azure 地图用于基于位置的服务。 使用管理中心输入紧急Microso
 
 - **紧急呼叫路由策略 - 仅适用于直接路由**。 此策略配置紧急号码、每个号码的掩码（如果需要）和每个号码的 PSTN 路由。 可以将此策略分配给用户、网络站点或两者。 有关详细信息，请参阅管理 [直接路由的紧急呼叫路由策略](manage-emergency-call-routing-policies.md)。  
 
-    (呼叫计划和接线员连接，用户会自动启用紧急呼叫，其紧急号码来自国家/地区，Microsoft 365 Office 365使用位置。) 
+    (呼叫计划和接线员连接，用户会自动启用紧急呼叫，其紧急号码来自国家/地区，Microsoft 365或Office 365位置。) 
 
-- **紧急呼叫策略 - 适用于呼叫计划、连接和直接路由。** 此策略配置进行紧急呼叫时的安全服务台通知体验。 可以设置要通知谁以及如何通知他们。 例如，自动通知组织的安全服务台，让他们接听紧急呼叫。  可以将此策略分配给用户或网络站点，也可以同时分配给这两者。 有关详细信息，请参阅在 "[管理紧急呼叫Teams"。](manage-emergency-calling-policies.md)
+- **紧急呼叫策略 - 适用于呼叫计划、连接和直接路由。** 此策略配置进行紧急呼叫时的安全服务台通知体验。 可以设置要通知谁以及如何通知他们。 例如，自动通知组织的安全服务台，让他们接听紧急呼叫。  可以将此策略分配给用户或网络站点，也可以同时分配给这两者。 有关详细信息，请参阅在 "管理[紧急呼叫Teams"。](manage-emergency-calling-policies.md)
 
 ## <a name="enable-users-and-sites"></a>启用用户和网站
 
@@ -236,7 +236,7 @@ Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Contoso N
 
 美国某些紧急路由 (ERSP) 提供紧急呼叫测试机器人。
 
-- **呼叫计划和接线员连接** 美国或加拿大的用户可以使用预定义的测试紧急号码 933 来验证其紧急呼叫配置。 此号码将路由到机器人，机器人随后回显呼叫方电话号码 (呼叫线路 ID) 、紧急地址或位置，以及呼叫是自动路由到 PSAP 还是先进行筛选。
+- **呼叫计划和接线员连接** 美国或加拿大的用户可以使用预定义的测试紧急号码 933 来验证其紧急呼叫配置。 此号码将路由到机器人，然后机器人回显呼叫方电话号码 (呼叫线路 ID) 、紧急地址或位置，以及呼叫是自动路由到 PSAP 还是先进行筛选。
 
 - **美国直接路由客户应** 协调其 ERSP 以测试服务。
 
@@ -248,7 +248,7 @@ Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Contoso N
 | :------------|:-------|
 | 万维多租户 | 在所有客户端Teams可用 |
 | GCC | 在所有客户端Teams可用 |
-| GCCH | 在桌面Teams可用 |
+| GCCH | -在桌面Teams可用 <br> -适用于 Teams 移动客户端 <br> -在手机上挂起Teams可用性 |
 | DoD | Pending |
 
  ## <a name="related-topics"></a>相关主题
