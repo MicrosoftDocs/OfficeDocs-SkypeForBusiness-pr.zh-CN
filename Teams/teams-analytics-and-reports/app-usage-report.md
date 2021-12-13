@@ -13,7 +13,7 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: 了解如何在管理中心Teams应用使用情况Microsoft Teams报表。
+description: 了解如何在 Teams 管理中心内使用Microsoft Teams使用情况报表。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
@@ -26,11 +26,11 @@ ms.locfileid: "60596209"
 ---
 # <a name="microsoft-teams-app-usage-report"></a>Microsoft Teams应用使用情况报表
 
-Teams管理中心中的"Microsoft Teams应用使用情况"报表提供有关用户在应用中使用哪些应用Teams。  
+Teams管理中心中的Microsoft Teams应用使用情况报表提供用户正在使用哪些应用Teams。  
 
 ## <a name="view-the-app-usage-report"></a>查看应用使用情况报表
 
-1. 在管理中心的左侧导航栏中，单击 <https://admin.teams.microsoft.com> "分析"&**报告**  >  **"使用情况报告"。**<br><br>!["使用情况报告"菜单项的屏幕截图。](media/app-usage-report1.png "&quot;使用情况报告&quot;菜单项的屏幕截图。")
+1. 在 管理中心的左侧导航栏中，单击 <https://admin.teams.microsoft.com> "**分析"&报告**  >  **使用情况报告"。**<br><br>!["使用情况报告"菜单项的屏幕截图。](media/app-usage-report1.png "&quot;使用情况报告&quot;菜单项的屏幕截图。")
 2. 在"**查看报表"选项卡上的**"报表 **"下**，选择"**应用使用情况"。**
 
 3. 在“**数据范围**”下，选择一个范围，然后单击“**运行报告**”。 可以查看Teams应用使用情况报告，了解过去 7、30 或 90 天的趋势。<br><br>!["应用使用情况"报表的屏幕截图。](media/app-usage-report2.png "&quot;应用使用情况&quot;报表的屏幕截图。")
@@ -38,7 +38,7 @@ Teams管理中心中的"Microsoft Teams应用使用情况"报表提供有关用�
 
 ## <a name="interpret-the-report"></a>解释报告
 
-:::image type="content" alt-text="屏幕截图：Teams管理中心内具有标注Teams应用使用情况报表。" source="media/app-usage-report5.png" lightbox="media/app-usage-report5.png":::
+:::image type="content" alt-text="应用管理中心Teams应用使用情况报表的Teams标注的屏幕截图。" source="media/app-usage-report5.png" lightbox="media/app-usage-report5.png":::
 
 1. 每个报表左上角都有一个日期，显示报表的创建时间。 报告通常反映从打开应用起 24 小时的延迟。
 
@@ -68,9 +68,9 @@ Teams管理中心中的"Microsoft Teams应用使用情况"报表提供有关用�
 
    :::image type="content" alt-text=""下载"窗格的屏幕截图。" source="media/app-usage-report7.png" lightbox="media/app-usage-report7.png":::
 
-9. 在报表视图中查看Excel，还会看到一个 **ID** 列，它表示应用 ID，通常是字母数字字符串。 如果 **ID** **\n**，这意味着用户要求删除其信息。
+9. 在报表视图中查看Excel，还将看到一个 **ID** 列，它表示应用 ID，通常是字母数字字符串。 如果 **ID** **\n**，这意味着用户要求删除其信息。
 
-   ![已下载报表的Excel屏幕截图。](media/app-usage-report8.png "下载的报表Excel屏幕截图。")
+   ![已下载报表的Excel屏幕截图。](media/app-usage-report8.png "已下载报表的Excel屏幕截图。")
 
 ## <a name="related-topics"></a>相关主题
 
