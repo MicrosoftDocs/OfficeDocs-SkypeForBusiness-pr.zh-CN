@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b245a4f4b0c9d8940943ceacc685bcf99e0df64e
-ms.sourcegitcommit: 70bba31b0ca4615a3c6a90f42d3568450ea51b82
+ms.openlocfilehash: a4548ab9abfd96b3945c19c07e08baf1ede05983
+ms.sourcegitcommit: 1e83f2c1ed12bcb611eb4eb0a5f1f58496c63147
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/07/2021
-ms.locfileid: "61327300"
+ms.lasthandoff: 12/13/2021
+ms.locfileid: "61426104"
 ---
 # <a name="configure-sip-gateway"></a>配置 SIP 网关
 
@@ -36,7 +36,7 @@ ms.locfileid: "61327300"
 
 - **将 SIP 设备重置为出厂默认设置。** 你或组织的用户必须将与 SIP 网关一起使用的每个 SIP 设备重置为出厂默认设置。 若要了解如何操作，请参阅制造商的说明。
 
-- **打开防火墙以Microsoft 365 Teams。** 打开网络的防火墙，根据 Microsoft 365 和 IP Teams中所述Office 365[流量](/microsoft-365/enterprise/urls-and-ip-address-ranges)。
+- **打开防火墙以Microsoft 365 Teams。** 打开网络的防火墙以Microsoft 365 Teams URL 和 IP 地址Office 365[中所述](/microsoft-365/enterprise/urls-and-ip-address-ranges)的流量。
 
 - **确保 SIP 设备不在代理后面。** 确保 http/s 流量绕过任何企业 http/s 代理。
 
@@ -108,6 +108,9 @@ ms.locfileid: "61327300"
 也可使用 PowerShell [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps) cmdlet 启用 SIP 网关。 若要为 SIP 设备启用用户，请选择一个策略，将 `-AllowSIPDevicesCalling` 属性设置为 `True` 。 默认值为 ，因此用户将无法使用其 SIP 设备， `False` 除非你启用它们。
 
 
+> [!NOTE]
+> - 策略传播最多可能需要 24 小时。
+
 ## <a name="set-the-sip-gateway-provisioning-server-url"></a>设置 SIP 网关预配服务器 URL
 
 可以在 DHCP 服务器的动态主机配置协议 (设置 SIP 网关) URL。 远程工作的用户必须手动配置它。
@@ -130,7 +133,7 @@ ms.locfileid: "61327300"
 
 1. 打开 **设置，** 并获取设备的 IP 地址。
 
-2. 打开浏览器窗口，输入设备的 IP 地址，如有必要 (登录) ，在设备的 Web 实用工具中配置预配服务器的 URL。
+2. 打开浏览器窗口，输入设备的 IP 地址， (登录) ，在设备的 Web 实用工具中配置预配服务器的 URL。
 
 3. 在 **设置****或"** 高级设置"下，输入上面所示的预配服务器 URL。
 
@@ -144,7 +147,7 @@ ms.locfileid: "61327300"
 
 ## <a name="configure-conditional-access"></a>配置条件访问
 
-条件访问是Azure Active Directory (Azure AD) 一项功能，有助于确保能够正确管理Microsoft 365资源的设备。 SIP 网关使用 AZURE AD 对 SIP 设备进行身份验证，因此，如果您的组织对企业网络中设备使用条件访问，则它应排除以下 IP 地址：
+条件访问是Azure Active Directory (Azure AD) 一项功能，可帮助确保能够正确管理Microsoft 365资源的设备。 SIP 网关使用 AZURE AD 对 SIP 设备进行身份验证，因此，如果您的组织对企业网络中设备使用条件访问，则它应排除以下 IP 地址：
 
 - 北美：
     - 美国东部：52.170.38.140
@@ -165,7 +168,7 @@ ms.locfileid: "61327300"
 
 若要简化任务，可以在管理中心内注册 SIP Teams一次一个或分批注册。 操作步骤如下：
 
-1. 登录到 Teams [**管理中心**](https://admin.teams.microsoft.com)。
+1. 登录到管理 [**Teams中心**](https://admin.teams.microsoft.com)。
 
 2. 选择 **Teams**  >  **SIP 设备"。**
 
@@ -185,17 +188,17 @@ ms.locfileid: "61327300"
 
      a. 在 **"正在等待激活"** 下的右侧，选择"导出 (Microsoft Excel图标) 。
      
-     b. 在"**预配设备"** 窗格的 **Upload，选择**"下载 **模板"。**
+     b. 在"**预配设备"** 窗格的 **Upload，选择**"**下载模板"。**
      
      c. 将 **Template_Provisioning.csv** 保存到计算机，并填写 **MAC ID 和****"位置"** 字段。
     
-     d. 在"**预配设备"** 窗格中，Upload **多个 MAC 地址。** 
+     d. 在"**预配设备"** 窗格中 **，Upload多个 MAC 地址。** 
 
-     e. 在"MAC 地址"Upload右侧，选择"选择文件"，然后选择 **Template_Provisioning.csv数据的文件**。 
+     e. 在"MAC 地址"Upload右侧，选择"选择文件"，然后选择 **Template_Provisioning.csv数据的文件**。
 
      f. 在"**预配设备**"窗格的"等待激活"下，选择一个设备，然后选择"生成验证码"，为每台预配的设备生成一次验证码。 记下每个 SIP 设备的验证码。
 
-4. 在 SIP 设备上，先拨打注册功能代码，然后拨打验证码。 例如，如果注册功能代码为 55* 且验证码123456，请拨打 \* \* 55 123456 \* 注册设备。
+4. 在 SIP 设备上，先拨打注册功能代码，然后拨打验证码。 在 SIP 设备上，拨打 SIP 网关用于注册一次验证码验证) 的注册功能代码 55* (，然后拨打此特定设备的 Teams 管理 \* 中心中生成的验证码。 例如，如果验证码为 123456，请拨打 \* 55 \* 123456注册设备。
 
 5.  在"**预配设备"** 窗格的"**等待登录"下，** 选择"**注销"。**
 
@@ -231,7 +234,7 @@ ms.locfileid: "61327300"
 3. 在 Web 身份验证应用中输入 SIP 手机上显示的配对代码，将 SIP 电话与用户帐户配对。 成功登录（可能需要一段时间）时，如果设备支持，SIP 电话会显示电话号码和用户名。
 
 > [!NOTE]
-> 设备在 Web 身份验证应用Azure Active Directory的位置是设备连接到的 SIP 网关数据中心。 范围中的 SIP 电话不支持 OAuth，因此 SIP 网关通过 Web 身份验证应用对用户进行身份验证，然后将设备与用户的凭据配对。 有关详细信息，请Microsoft 标识平台[OAuth 2.0 设备授权流](/azure/active-directory/develop/v2-oauth2-device-code)。
+> 设备在 Web 身份验证应用Azure Active Directory的位置是设备连接到的 SIP 网关数据中心。 范围中的 SIP 电话不支持 OAuth，因此 SIP 网关通过 Web 身份验证应用对用户进行身份验证，然后将设备与用户的凭据配对。 在此处了解有关详细信息[：Microsoft 标识平台和 OAuth 2.0 设备授权授权流](/azure/active-directory/develop/v2-oauth2-device-code)。
 
 ### <a name="sign-out"></a>注销
 
@@ -286,7 +289,7 @@ SIP 设备通常可以显示多种语言的信息。 设置其 UI 语言会影�
 
 |语言名称|语言代码]
 |-------------|-------------|
-|英语 (默认) |en       |
+|默认 (英语) |en       |
 |西班牙语      |es           |
 |日语     |ja           |
 |德语       |de           |
@@ -304,7 +307,7 @@ SIP 设备通常可以显示多种语言的信息。 设置其 UI 语言会影�
 
 ## <a name="microsoft-teams-and-ipv6"></a>Microsoft Teams和 IPv6
 
-SIP 网关仅支持 IPv4。 Microsoft Teams服务和客户端都支持 IPv4 和 IPv6。 若要控制通信以Microsoft Teams，请使用以下 URL 和 IP Microsoft 365中的[IP 地址范围](/microsoft-365/enterprise/urls-and-ip-address-ranges)。
+SIP 网关仅支持 IPv4。 Microsoft Teams服务和客户端都支持 IPv4 和 IPv6。 若要控制与用户之间的Microsoft Teams，请使用 URL 和 IP 地址Microsoft 365[中的 IP 地址范围](/microsoft-365/enterprise/urls-and-ip-address-ranges)。
 
 ## <a name="emergency-calling"></a>紧急呼叫
 
