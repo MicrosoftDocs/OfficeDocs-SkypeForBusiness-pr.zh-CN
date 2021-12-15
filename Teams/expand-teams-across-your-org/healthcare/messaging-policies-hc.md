@@ -37,7 +37,7 @@ ms.locfileid: "60045514"
 
 通过使用管理员凭据登录并在左侧导航窗格中选择“**消息传递策略**”，可以在 [Microsoft Teams 管理中心](https://admin.teams.microsoft.com)中轻松管理策略。
 
- :::image type="content" source="../../media/hc-messaging-policy-admin-center-new.png" alt-text=""消息策略"页的屏幕截图。" lightbox="../../media/hc-messaging-policy-admin-center-new.png":::
+ :::image type="content" source="../../media/hc-messaging-policy-admin-center-new.png" alt-text="消息策略页的屏幕截图。" lightbox="../../media/hc-messaging-policy-admin-center-new.png":::
  
  若要为组织编辑现有默认消息传递策略，请单击“**全局（组织范围的默认设置）**”，然后进行更改。 若要创建新的自定义消息传递策略，请单击“**添加**”，然后选择你的设置。 完成后，选择“**保存**”。
 

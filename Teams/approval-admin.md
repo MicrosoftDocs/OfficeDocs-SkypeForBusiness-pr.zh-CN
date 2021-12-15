@@ -120,7 +120,7 @@ Common Data Model (CDM) 是业务和分析应用程序在 CDS 中使用的共享
 
   5. 选择切换开关以为你的组织禁用该应用。
 
-     :::image type="content" alt-text="显示"审批"应用的详细信息。" source="media/approvals-details-new.png" lightbox="media/approvals-details-new.png":::
+     :::image type="content" alt-text="显示审批应用的详细信息。" source="media/approvals-details-new.png" lightbox="media/approvals-details-new.png":::
 
 ## <a name="retention-policy"></a>保留策略
 

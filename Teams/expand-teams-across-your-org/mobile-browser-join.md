@@ -52,13 +52,13 @@ Microsoft Teams用户无需下载约会，即可轻松地在移动设备上加�
 
 在 Bookings 中，设置"约会类型"，选择约会类型，然后打开"允许与会者从  >  **移动浏览器加入"。** [](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887) 这样做可让移动浏览器加入此类型的所有约会。
 
-:::image type="content" source="../media/mobile-browser-join-bookings-appointment-type.png" alt-text="Bookings 应用中约会类型的"允许与会者从移动浏览器加入"设置的屏幕截图":::
+:::image type="content" source="../media/mobile-browser-join-bookings-appointment-type.png" alt-text="Bookings 应用中约会类型的允许与会者从移动浏览器加入设置的屏幕截图":::
 
 #### <a name="turn-on-mobile-browser-join-for-an-individual-appointment"></a>为单个约会启用移动浏览器加入
 
 在 Bookings 中，选择"新建 **预订**"，然后打开"允许与会者 **从移动浏览器加入"。**
 
-:::image type="content" source="../media/mobile-browser-join-bookings-form.png" alt-text="Bookings 应用中新预订表单上的"允许与会者从移动浏览器加入"设置的屏幕截图":::
+:::image type="content" source="../media/mobile-browser-join-bookings-form.png" alt-text="Bookings 应用中新预订表单上的允许与会者从移动浏览器加入设置的屏幕截图":::
 
 ### <a name="appointments-scheduled-through-the-teams-ehr-connector"></a>通过 EHR 连接器Teams约会
 

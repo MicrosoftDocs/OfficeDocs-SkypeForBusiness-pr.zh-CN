@@ -45,7 +45,7 @@ Microsoft Teams Essentials (AAD 标识) 将会议、聊天、呼叫Teams协作�
 4. 在出现的策略详细信息飞出中，选择" **编辑保护设置** "以修改自动前向规则。
 5. 在 **"转发规则**"下，将自动转发条件更改为"启用 - 转发 **"已启用** 并保存更改。
 
-:::image type="content" source="media/essentials-antispam.png" alt-text="显示 Microsoft Defender 门户反垃圾邮件出站策略飞出的图像，其中显示"启用，转发"规则下已启用转发条件。" :::
+:::image type="content" source="media/essentials-antispam.png" alt-text="显示 Microsoft Defender 门户反垃圾邮件出站策略飞出的图像，其中显示启用，转发规则下已启用转发条件。" :::
 
 若要详细了解如何配置出站垃圾邮件策略，请访问[配置出站垃圾邮件筛选 - Office 365 |Microsoft Docs](/microsoft-365/security/office-365-security/configure-the-outbound-spam-policy?view=o365-worldwide&preserve-view=true)。
 

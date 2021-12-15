@@ -34,7 +34,7 @@ ms.locfileid: "60846125"
 
 " **权限"** 列指示应用是否具有需要许可的权限。 你将看到 **在具有需要** 许可的权限的 Azure AD中注册的每个应用的"查看详细信息"链接。 请记住，这仅适用于自定义和第三方应用。 你不会看到此链接，也不需要为 Microsoft 发布的应用授予管理员许可。
 
-:::image type="content" source="media/app-perm-admin-center-permissions-column.png" alt-text=""管理应用"页面上"权限"列的屏幕截图。":::
+:::image type="content" source="media/app-perm-admin-center-permissions-column.png" alt-text="管理应用页面上权限列的屏幕截图。":::
 
 若要向应用授予组织范围许可，请执行以下步骤：
 
@@ -45,7 +45,7 @@ ms.locfileid: "60846125"
 
 3. 在 **"组织范围的权限"下**，选择 **"审阅权限和同意"。**
 
-    :::image type="content" source="media/app-perm-admin-center-org-wide.png" alt-text="应用"权限"选项卡上组织范围内权限的屏幕截图。":::
+    :::image type="content" source="media/app-perm-admin-center-org-wide.png" alt-text="应用权限选项卡上组织范围内权限的屏幕截图。":::
 
     只有全局管理员才能这样做。 此选项对服务管理员Teams可用。
 

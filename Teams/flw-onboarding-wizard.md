@@ -50,15 +50,15 @@ ms.locfileid: "60283026"
 
 3. 输入团队的名称，添加一个或多个团队所有者，然后选择隐私设置。 然后，选择是从头开始创建团队，还是从团队模板创建团队。 团队模板具有预定义的频道和选项卡，可优化团队，从而符合特定的业务需求或项目。
 
-    :::image type="content" source="media/flw-onboarding-wizard-set-up-team.png" alt-text="向导的"设置团队"页面的屏幕截图":::
+    :::image type="content" source="media/flw-onboarding-wizard-set-up-team.png" alt-text="向导的设置团队页面的屏幕截图":::
 
 4. 将用户添加到团队。 还可以添加组。 如果添加组，请记住，许可证和策略包是直接分配给该组中的每个用户，而不是组本身。
 
-    :::image type="content" source="media/flw-onboarding-wizard-add-users.png" alt-text="向导的"添加用户"页的屏幕截图，你将用户和组添加到团队":::
+    :::image type="content" source="media/flw-onboarding-wizard-add-users.png" alt-text="向导的添加用户页的屏幕截图，你将用户和组添加到团队":::
 
 5. 向每个团队成员分配以下角色之一：一线员工、前端经理、无。 
   
-    :::image type="content" source="media/flw-onboarding-wizard-assign-roles.png" alt-text="向导的"分配作业角色"页的屏幕截图，其中向团队成员分配角色、位置和许可证":::
+    :::image type="content" source="media/flw-onboarding-wizard-assign-roles.png" alt-text="向导的分配作业角色页的屏幕截图，其中向团队成员分配角色、位置和许可证":::
 
     通过分配一个"前端辅助角色"或"前端管理员"角色，该用户将收到一个策略包。 策略包将创建一个Teams角色定制的体验。 此体验包括用于正常一线辅助角色和经理通信和协作的预固定应用和策略。
 
@@ -66,11 +66,11 @@ ms.locfileid: "60283026"
 
 6. 选择在向导完成后接收状态电子邮件的人。 电子邮件包含有关向导创建团队、添加团队成员以及向每个团队成员分配许可证和策略包的操作的成功和 &mdash; 失败信息。 使用此信息对可能发生的任何错误进行故障排除。
 
-    :::image type="content" source="media/flw-onboarding-wizard-email-recipients.png" alt-text="向导的"添加状态电子邮件收件人"页的屏幕截图":::
+    :::image type="content" source="media/flw-onboarding-wizard-email-recipients.png" alt-text="向导的添加状态电子邮件收件人页的屏幕截图":::
 
 7. 查看你的选择，然后选择"确认 **"。**
 
-    :::image type="content" source="media/flw-onboarding-wizard-review-team.png" alt-text="向导的"审阅团队"页面的屏幕截图，您可以在其中查看团队设置":::
+    :::image type="content" source="media/flw-onboarding-wizard-review-team.png" alt-text="向导的审阅团队页面的屏幕截图，您可以在其中查看团队设置":::
 
     向导将创建团队，并将许可证和策略包分配给团队成员。 这可能需要几分钟才能完成，之后你选择的收件人会收到状态电子邮件。
 

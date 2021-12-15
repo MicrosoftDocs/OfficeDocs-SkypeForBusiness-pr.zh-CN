@@ -66,7 +66,7 @@ Teams管理中心中的Microsoft Teams应用使用情况报表提供用户正在
 
 8. 若要将报表导出到 CSV 文件进行脱机分析，请在右上角选择"导出到 **Excel"** 图标，然后在"下载"选项卡上的"状态"下，单击"下载 **"。**
 
-   :::image type="content" alt-text=""下载"窗格的屏幕截图。" source="media/app-usage-report7.png" lightbox="media/app-usage-report7.png":::
+   :::image type="content" alt-text="下载窗格的屏幕截图。" source="media/app-usage-report7.png" lightbox="media/app-usage-report7.png":::
 
 9. 在报表视图中查看Excel，还将看到一个 **ID** 列，它表示应用 ID，通常是字母数字字符串。 如果 **ID** **\n**，这意味着用户要求删除其信息。
 

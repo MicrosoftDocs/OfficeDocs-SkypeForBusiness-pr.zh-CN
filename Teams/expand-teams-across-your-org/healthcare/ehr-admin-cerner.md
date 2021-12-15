@@ -79,7 +79,7 @@ ms.locfileid: "60960132"
 
 接下来，若要设置集成，Microsoft 365管理员从 Cerner 将快速运行状况互操作性资源 (FHIR) 基 URL 并指定环境。 根据需要配置多个 FHIR 基 URL，具体取决于组织的需求和要测试的环境。
 
-:::image type="content" source="media/ehr-admin-cerner-configuration.png" alt-text="EHR 连接器配置门户中Teams信息"页的屏幕截图。" lightbox="media/ehr-admin-cerner-configuration.png":::
+:::image type="content" source="media/ehr-admin-cerner-configuration.png" alt-text="EHR 连接器配置门户中Teams信息页的屏幕截图。" lightbox="media/ehr-admin-cerner-configuration.png":::
 
 - FHIR 基 URL 是对应于服务器 FHIR API 终结点的静态地址。 示例 URL 为 `https://lamnahealthcare.org/fihr/auth/connect-ocurprd-oauth/api/FHDST`。
 
