@@ -1,5 +1,5 @@
 ---
-title: 辅助升级|SkypeBusiness Online Teams升级
+title: 辅助升级|Skype Business Online Teams升级
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: billkau
 audience: admin
-description: 从联机到 Skype for Business 的辅助Teams
+description: 从 Skype for Business Online 到 Teams 的辅助升级概述
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -18,44 +18,44 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc890a4a84d86086ace0f85e25aa0c86c99a0e43
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 44ca04f9fce23876c7ee782ef5cc5078da7e67c4
+ms.sourcegitcommit: 8d728ca42dc917a28b94e2de84ce4f5b2515d485
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58589462"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "61513463"
 ---
-# <a name="assisted-upgrades-from-skype-for-business-online-to-microsoft-teams"></a>辅助升级从 Skype for Business Online 升级到 Microsoft Teams
+# <a name="assisted-upgrades-from-skype-for-business-online-to-microsoft-teams"></a>从联机到 Skype for Business 的辅助Microsoft Teams
 
-Microsoft 提供辅助升级Teams帮助组织在 2021 年 7 月 31 日服务停用时Skype for Business从 Skype for Business Online 成功过渡。 无论组织是在 Skype for Business Online 和 **Skype for Business Server)** 环境中使用混合 (用户从 *Skype for Business Online* 还是 *Skype for Business Online* 升级，辅助升级都减少了需要执行的技术任务的数量，并可以更好地专注于组织准备、用户认知和 Teams 培训。
+Microsoft 提供辅助升级Teams帮助组织在 2021 年 7 月 31 日服务停用后Skype for Business从 Skype for Business Online 成功过渡。 无论组织是从 Skype for Business *Online 还是* Skype for Business *Online* 升级， (Online 和 Skype for Business **用户Skype for Business Server**) 环境中，辅助升级可以减少需要执行的技术任务数，并可以更专注于组织准备、用户意识和Teams培训。
 
-建议在升级之前 [查看升级](https://aka.ms/SkypeToTeams) 指南。 升级指南包括建议的活动和有用的资源，用于完成从 Skype for Business Online 升级到 Teams。 本指南适用于任何计划升级到 Teams的组织，无论他们管理升级的所有方面，还是使用辅助过程。
+建议在升级之前 [查看升级](https://aka.ms/SkypeToTeams) 指南。 我们的升级指南包括建议的活动和有用的资源，用于完成从 Skype for Business Online 升级到 Teams。 本指南适用于任何计划升级到 Teams的组织，无论他们管理升级的所有方面还是使用辅助过程。
 
 > [!NOTE]
-> 如果计划进行辅助升级以升级到 Teams，可以在计划的升级日期之前从 Skype for Business Online 执行自己的升级。 有关如何手动升级到 Teams，请参阅升级[指南](https://aka.ms/SkypeToTeams)。
+> 如果计划进行辅助升级以升级到 Teams，可以在计划的升级日期之前从 Skype for Business Online 执行自己的升级。 有关如何手动升级到 Teams，请参阅我们的升级[指南](https://aka.ms/SkypeToTeams)。
 >
 > 辅助升级不适用于本地部署的 Skype for Business Server。
 
 ## <a name="notifications-for-scheduled-customers"></a>计划客户的通知
 
-Skype for Business计划进行辅助升级的联机客户Teams一系列升级通知。 这些通知将在计划的升级日期前 90 天开始。 这些通知将作为"更改计划"在 Microsoft 365 消息中心中传递，在 Teams 管理中心中升级仪表板通知，以及向最终用户发送应用内标志。
+Skype for Business计划进行辅助升级的联机客户Teams将收到一系列升级通知。 这些通知将在计划的升级日期之前 30 天开始。 这些通知将作为"更改计划"在 Microsoft 365 消息中心中传递，在 Teams 管理中心中升级仪表板通知，以及向最终用户发送应用内标志。
 
-升级通知将包括辅助升级的计划日期，并链接到升级资源和培训，以帮助推动采用和使用Teams。
+升级通知包括辅助升级的计划日期，并链接到升级资源和培训，以帮助推动采用和使用Teams。
 
 ## <a name="the-assisted-upgrade-experience"></a>辅助升级体验
 
 辅助升级将从 2021 年 8 月开始，在上述计划通知中共享特定于租户的日期。
 
-辅助升级体验略有不同，具体取决于你拥有仅联机Skype for Business还是 Skype for Business Online 混合环境：
+辅助升级体验会略有不同，具体取决于你拥有仅联机Skype for Business还是 Skype for Business Online 混合环境：
 
-- **Skype for Business仅联机** 辅助升级过程将策略 `TeamsUpgradeOverridePolicy` 应用于组织。 应用此策略后，所有 Skype for Business Online 用户将处于"仅Teams模式。
-- **Skype for Business混合联机** 混合环境的用户可能属于以下类别之一：
+- **Skype for Business仅联机**"辅助升级过程将策略 `TeamsUpgradeOverridePolicy` 应用于组织。 应用此策略后，所有 Skype for Business Online 用户将处于"仅Teams模式。
+- **Skype for Business混合环境使用 Online** 时，用户可能属于以下类别之一：
 
-  - 本地用户Skype for Business Server
-  - Skype for Business联机用户（仅Teams模式）
-  - Skype for Business未在 **"仅Teams** 联机用户
+  - 本地用户位于 Skype for Business Server
+  - Skype for Business"仅Teams联机用户
+  - Skype for Business"仅"**模式下的 Teams** Online 用户
 
-  如果上面列出的每个类别中都有混合用户，则辅助升级过程只会将 Skype for Business Online 用户切换到 Teams 仅模式（如果他们尚未进入该模式）。 本地Skype for Business用户不会受辅助升级过程的影响。
+  如果您在上面列出的每个类别中混合了用户，则辅助升级过程将仅将 Skype for Business Online 用户切换到 Teams 仅模式（如果他们尚未进入该模式）。 本地Skype for Business用户不会受辅助升级过程的影响。
 
 > [!NOTE]
 > 如果辅助升级计划为 2021 年 7 月 31 日之后的日期，请不要担心。 您的组织将能够使用 Skype for Business Online，直到升级完成。
@@ -64,7 +64,7 @@ Skype for Business计划进行辅助升级的联机客户Teams一系列升级通
 
 ## <a name="the-post-upgrade-experience"></a>升级后体验
 
-辅助升级完成后 **，升级用户的** 共存模式将设置为"仅Teams模式。 建议在升级[之前Teams仅模式](teams-only-mode-considerations.md)注意事项。 下表提供了仅用户Teams高级概述。
+辅助升级完成后 **，已升级** 用户的共存模式设置为Teams模式。 建议在升级[之前Teams仅模式](teams-only-mode-considerations.md)注意事项。 下表提供了仅用户体验Teams概述。
 
 :::row:::
     :::column span="1":::
@@ -82,7 +82,7 @@ Skype for Business计划进行辅助升级的联机客户Teams一系列升级通
         **会议**
     :::column-end:::
     :::column span="3":::
-        - 用户计划新插件中Teams (新会议，) 
+        - 用户计划已替换为Teams (插件的所有) 
     :::column-end:::
 :::row-end:::
 :::row:::
@@ -100,7 +100,7 @@ Skype for Business计划进行辅助升级的联机客户Teams一系列升级通
     :::column-end:::
 :::row-end:::
 
-如果有一个Skype for Business Server混合部署并升级到 Teams，可以在升级完成后在 Skype for Business Server 和 Teams 之间移动用户。
+如果拥有混合Skype for Business Server并升级到 Teams，可以在升级完成后Skype for Business Server Teams用户。
 
 ## <a name="related-content"></a>相关内容
 

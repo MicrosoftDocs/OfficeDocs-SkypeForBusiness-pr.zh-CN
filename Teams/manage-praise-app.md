@@ -9,30 +9,30 @@ ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
 description: 了解管理中心内 表扬 应用中Microsoft Teams设置
-ms.openlocfilehash: 1d460a785a318723bf8e0d0852132863ef7513f8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 044ab5d7fc5aebba1b1245f349e4ed27c61190b6
+ms.sourcegitcommit: 8d728ca42dc917a28b94e2de84ce4f5b2515d485
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858029"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "61513453"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>在 表扬 管理中心Microsoft Teams应用
 
 > [!NOTE]
-> 管理员必须具有一个Teams才能访问此功能。 如果尝试在没有许可证的情况下访问Teams，则会显示一条错误消息。
+> 管理员必须拥有Teams才能访问此功能。 如果尝试在没有许可证的情况下访问Teams，则会显示一条错误消息。
 
-表扬应用Microsoft Teams帮助用户向组织或课堂成员表示感激。 借助一系列锁屏提醒集以及创建自己的锁屏提醒的选项，表扬 旨在帮助识别从教育工作者到一线员工等 Teams 用户所执行各种工作所付出的工作。 若要了解有关详细信息，请查看将表扬[发送给用户](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e)。
+表扬应用Microsoft Teams帮助用户向组织或课堂成员表示感激。 借助一系列锁屏提醒集以及创建自己的锁屏提醒的选项，表扬 旨在帮助识别从教育工作者到一线员工等 Teams 用户完成的广泛工作。 若要了解有关详细信息，请查看将表扬[发送给用户](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e)。
 
-管理员可以从管理中心控制其组织可用的Microsoft Teams徽章。 在左侧导航栏中，转到Teams **应用>管理应用"。** 在应用列表中，**单击**"表扬"，然后选择"设置"。   在这里，你可以选择启用默认和内置锁屏提醒集并创建自定义锁屏提醒。
+管理员可以从管理中心控制其组织Microsoft Teams徽章。 在左侧导航栏中，转到 **Teams应用>应用"。** 在应用列表中，**单击**"表扬"，然后选择"设置"。   在这里，你可以选择启用默认和内置锁屏提醒集并创建自定义锁屏提醒。
 
-![应用设置选项卡的表扬屏幕截图。](media/manage-praise-app-settings.png)
+![屏幕截图：设置应用表扬选项卡。](media/manage-praise-app-settings.png)
 
 > [!NOTE]
-> 表扬应用适用于云GCC环境，但不适用于 GCC High 或 DoD。
+> 表扬应用适用于GCC环境，但不适用于 GCC High 或 DoD。
 
 ## <a name="use-built-in-badge-sets"></a>使用内置锁屏提醒集
 
-内置集是 Microsoft 为应用应用设计的锁表扬集合。 管理员不可编辑这些集。 默认锁屏提醒集已启用，可在 表扬 应用中使用。 若要更改默认集或任何锁屏提醒集的可用性，请切换为"开"或"关"。 
+内置集是 Microsoft 为应用应用设计的锁屏提醒表扬集合。 管理员不可编辑这些集。 默认锁屏提醒集已启用，可在 表扬 应用中使用。 若要更改默认集或任何锁屏提醒集的可用性，请切换为"开"或"关"。 
 
 <a name="default-badges"></br></a>
 
@@ -46,7 +46,7 @@ ms.locfileid: "60858029"
 
 ### <a name="social-and-emotional-learning-badges-for-education"></a>用于教育的社交和情感学习徽章
 
-教师可以使用徽章通过 SEL 识别 (和情绪) 学习成就和行为。徽章可展示这些概念。
+教师可以识别单个学生，通过展示这些概念 (SEL) 成就和行为。
 
 ![适用于教育的社交和情感学习徽章预览。](media/sel-edu-set-praise.png)
 
@@ -58,9 +58,9 @@ ms.locfileid: "60858029"
 
 !["创建自定义锁屏提醒"窗格的屏幕截图。](media/manage-praise-app-create-custom-badge.png)
 
-1. 输入锁屏提醒名称。 这是当用户发送表扬时锁屏提醒上显示的名称。
+1. 输入锁屏提醒名称。 这是当用户发送表扬时将显示在锁屏提醒上的名称。
 
-2. 设置锁屏提醒颜色。 若要设置锁屏提醒的文本和背景颜色，需要输入十六进制 (十六) 值。
+2. 设置锁屏提醒颜色。 若要设置锁屏提醒的文本和背景颜色，需要将颜色输入为十六进制 (十六) 值。
 
    > [!TIP]
    > 如果您没有使用十六进制值，本文包含 [一个快速](#hex-colors-intro) 介绍，用于展示如何使用这些值。
@@ -87,7 +87,7 @@ ms.locfileid: "60858029"
 
 例如，红色表示的十六进制值是#FF0000因为红色设置为可能的最高值，而绿色和蓝色分别设置为可能的最低值 00。
 
-若要浏览不同的颜色及其十六进制值，请查看必应[选取器。](https://www.bing.com/search?q=color+picker)
+若要浏览不同的颜色及其十六进制值，请查看必应[选取器](https://www.bing.com/search?q=color+picker)。
 
 下面是一系列示例颜色，可让你入门：
 
@@ -108,7 +108,7 @@ ms.locfileid: "60858029"
 
 **选择颜色时，请记住辅助功能。** 某些颜色相加效果更好。  在文本和背景颜色之间创建对比度，使锁屏提醒名称易于阅读。 例如，如果选择深色背景色，请选择浅色文本颜色。
 
-**选择图像时，请记住锁屏提醒尺寸。** 为获得最佳质量，我们建议上传 216 x 216 像素的图像文件 (是最大尺寸) 。 避免拉伸或扭曲图像以适应这些尺寸。
+**选择图像时，请记住锁屏提醒尺寸。** 为获得最佳质量，我们建议上传 216 x 216 像素的图像文件 (是图像的最大尺寸) 。 避免拉伸或扭曲图像以适应这些尺寸。
 
 **如果你的锁屏提醒图像不是矩形，请使图像透明。** 在将图像文件上传到其他位置之前，需要表扬。
 
@@ -157,3 +157,11 @@ ms.locfileid: "60858029"
 |自我感知    |[自我感知 PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/self-awareness-badge.png)|#FFFFFF    |#1680E5|
 |自我管理   |[自我管理 PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/self-management-badge.png)|#FFFFFF    |#4C144D|
 |周到度    |[周到性 PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/thoughtfulness-badge.png)|#FFFFFF    |#EE4086|
+
+## <a name="upcoming-changes"></a>即将进行的更改
+
+从 2022 年 1 月开始，锁屏提醒当前可用的功能将发生变化。 不再提供用于教育的社交和情绪学习徽章，包括自我认知和自我管理。
+
+从 **2022** 年 1 月开始，"创建自定义锁屏提醒"选项也   不再可用。
+
+此外，允许或阻止 表扬 的 Teams 管理中心中的"状态"切换将同时影响 Teams 中 Viva Insights 应用中的 表扬 应用和 表扬 功能。
