@@ -21,12 +21,12 @@ description: Teams 或 IT 管理员可以为其他域 (联合身份验证) 配�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: ee2492038ac05f54d1846703851846bef95893eb
-ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
+ms.openlocfilehash: e0036218312d04a409b6699998ec6b84cddae79c
+ms.sourcegitcommit: 8d728ca42dc917a28b94e2de84ce4f5b2515d485
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60634921"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "61513483"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>在 Microsoft Teams 中管理外部访问
 
@@ -54,7 +54,7 @@ ms.locfileid: "60634921"
 
 - **允许所有外部域**: 这是 Teams 中的默认设置，可让你组织中的用户查找你组织外部任何域中的人员，并与这些人员进行通话、聊天和安排会议。
 
-    在这种情形中，你的用户能够与符合以下条件的所有外部域进行通信: 正在运行 Teams 或 Skype for Business、或者允许所有外部域、或者已将你的域添加到他们允许列表中。
+    在此方案中，你的用户可以和正在运行 Teams 或 Skype for Business、或者允许所有外部域、或者已将你的域添加到其允许列表中的所有外部域进行通信。
 
 - **仅允许特定外部域**: 通过将域添加到 **“允许”** 列表中，将外部访问限制为仅允许的域。 设置允许的域列表后，将阻止所有其他域。 若要允许特定域，请单击“**添加域**”，添加域名，单击“**要在此域上执行的操作**”，然后选择“**已允许**”。
 
@@ -141,6 +141,50 @@ ms.locfileid: "60634921"
 
 > [!NOTE]
 > 如果你和另一名用户都启用了外部访问并允许了彼此的域，应该可以正常工作。 如果不正常，另一名用户应确保其配置未阻止你的域。
+
+## <a name="limit-external-access-to-specific-people"></a>限制对于特定人员的外部访问
+
+可以使用 PowerShell 限制对于特定人员的外部访问。
+
+可以使用下面的示例脚本，将 *PolicyName* 替换为要为策略提供的名称，并将 *UserName* 替换为希望能够使用外部访问的每个用户。
+
+在运行脚本之前，请确保已安装 [Microsoft Teams PowerShell 模块](/microsoftteams/teams-powershell-install)。
+
+```PowerShell
+Connect-MicrosoftTeams
+
+# Disable external access globally
+Set-CsExternalAccessPolicy -EnableTeamsConsumerAccess $false
+
+# Create a new external access policy
+New-CsExternalAccessPolicy -Identity <PolicyName> -EnableTeamsConsumerAccess $true
+
+# Assign users to the policy
+$users_ids = @("<UserName1>", "<UserName2>")
+New-CsBatchPolicyAssignmentOperation -PolicyType ExternalAccessPolicy -PolicyName "<PolicyName>" -Identity $users_ids
+
+```
+
+例如：
+
+```PowerShell
+Connect-MicrosoftTeams
+
+Set-CsExternalAccessPolicy -EnableTeamsConsumerAccess $false
+
+New-CsExternalAccessPolicy -Identity ContosoExternalAccess -EnableTeamsConsumerAccess $true
+
+$users_ids = @("MeganB@contoso.com", "AlexW@contoso.com")
+New-CsBatchPolicyAssignmentOperation -PolicyType ExternalAccessPolicy -PolicyName "ContosoExternalAccess" -Identity $users_ids
+
+```
+
+有关如何编译用户列表的其他示例，请参阅 [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation)。
+
+可以通过运行 `Get-CsExternalAccessPolicy -Include All` 来查看新策略。
+
+
+另请参阅 [New-CsExternalAccessPolicy](/powershell/module/skype/new-csexternalaccesspolicy) 和[Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy)。
 
 ## <a name="common-external-access-scenarios"></a>常见外部访问情形
 

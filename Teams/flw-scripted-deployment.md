@@ -16,14 +16,15 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_RemoteWorkers
 - remotework
+- Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1505d8e9bd385d2dce35cb0c7dad24b5988bf0cc
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: 4f37e364450104b07adfe6a48c8cc29bab607470
+ms.sourcegitcommit: edec88f0923605dff29a93a0f1f31685575e2aa0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605808"
+ms.lasthandoff: 12/16/2021
+ms.locfileid: "61545003"
 ---
 # <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>如何为一线工作人员大规模预配 Teams
 
@@ -230,7 +231,7 @@ Connect-MicrosoftTeams -Credential $teams_cred
 
     - 活动
     - 聊天
-    - 团队
+    - Teams
     - 日历
     - 班次
 
