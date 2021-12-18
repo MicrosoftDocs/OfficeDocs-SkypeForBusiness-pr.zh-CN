@@ -1,9 +1,9 @@
 ---
 title: 为组织管理“班次”应用
-author: serdarsoysal
-ms.author: serdars
+author: LanaChin
+ms.author: v-lanachin
 ms.reviewer: lisawu,gumariam
-manager: serdars
+manager: samanro
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 87389dfaba68de8cfe02f3291e03d593bb9de75b
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: d474198bc644563007428ac50a85f8f839a9e1dc
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605828"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61562925"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中为组织管理“班次”应用
 
@@ -36,12 +36,12 @@ ms.locfileid: "60605828"
 
 ## <a name="overview-of-shifts"></a>“班次”概述
 
-应用中的 Shifts 应用Microsoft Teams一线员工保持连接和同步。它首先构建为移动版，用于快速高效的时间管理和团队通信。 轮班允许一线员工及其经理使用其移动设备管理日程安排并保持联系。
+应用中的 Shifts 应用Microsoft Teams一线工作人员保持连接和同步。它首先构建为移动版，用于快速高效的时间管理和团队通信。 轮班允许一线员工及其经理使用其移动设备管理日程安排并保持联系。
 
 - 经理可创建、更新和管理团队的班次安排。 他们可以向一个人（“地板上洒了水”）或整个团队（“区域总经理将在 20 分钟后到达”）发送消息。 他们还可以发送政策文档、新闻公告和视频。
 - 员工可查看即将到来的排班、查看当天还有谁的排班、申请调班或转班以及申请请假。
 
-必须知道 Shifts 目前不支持来宾。 这意味着在 Teams 中启用来宾访问时，无法将团队中的来宾添加到排班计划，他们也无法使用排班计划。 
+必须知道 Shifts 目前不支持来宾。 这意味着在 Teams 中启用来宾访问时，无法将团队中的来宾添加到排班计划，他们也无法使用排班计划。
 
 > [!Note]
 > 有关不同平台上的“班次”功能的详细信息，请参阅 [Teams 功能（按平台）](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
@@ -70,19 +70,15 @@ Teams 可用的所有企业 SKU 中均提供“班次”。
 
 若要允许或阻止组织中特定用户使用 Shifts，请确保在"管理应用"页面上为组织启用[Shifts。](../../manage-apps.md) 然后创建自定义应用权限策略并将其分配给这些用户。 要了解详细信息，请参阅[在 Teams 中管理应用权限策略](../../teams-app-permission-policies.md)。
 
-### <a name="use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams"></a>使用 FirstLineWorker 应用设置策略将 Shifts 固定到Teams
+### <a name="use-an-app-setup-policy-to-pin-shifts-to-teams"></a>使用应用设置策略将 Shifts 固定到Teams
 
-利用应用设置策略，你可自定义 Teams 来突出显示组织中对用户最重要的应用。 在策略中设置的应用会固定到应用栏（&mdash;Teams 桌面客户端的边栏以及 Teams 移动客户端的底栏&mdash;），用户可以快速方便地访问。
- 
-Teams包括内置 FirstLineWorker 应用设置策略，可将其分配给组织的一线员工。 默认情况下，该策略包括“活动”、“班次”、“聊天”和“通话”应用。
+应用设置策略让你自定义 Teams 来突出显示组织中对用户最重要的应用。 在策略中设置的应用会固定到应用栏（&mdash;Teams 桌面客户端的边栏以及 Teams 移动客户端的底栏&mdash;），用户可以快速方便地访问。
 
-若要查看 FirstLineWorker 策略，在 Microsoft Teams 管理中心的左侧导航中，转到"Teams **设置**  >  **策略"。**
+可以通过添加 Shifts [应用创建自定义](../../teams-app-setup-policies.md) 应用设置策略，然后将 [该策略分配给](../../assign-policies-users-and-groups.md) 用户。 或者，可以使用属于"前端辅助角色"和"前端管理器"策略包的应用设置策略。
 
-:::image type="content" source="../../media/firstline-worker-app-setup-policy-new.png" alt-text="用户管理中心中 FirstLineWorker 应用设置Microsoft Teams屏幕截图" lightbox="../../media/firstline-worker-app-setup-policy-new.png":::
+Teams[策略](../../manage-policy-packages.md)包是预定义的策略和策略设置的集合，可将其分配给组织中具有类似角色的用户。 前端辅助角色和前端管理器策略包中的策略集包括一个应用设置策略，该策略固定 Shifts 应用和支持该角色的通信和协作活动的其他应用。
 
-#### <a name="assign-the-firstlineworker-app-setup-policy-to-users"></a>将 FirstLineWorker 应用设置策略分配给用户
-
-[!INCLUDE [assign-policy](../../includes/assign-policy.md)]
+我们建议使用一线辅助角色和前端管理器策略包，因为它们可简化、简化，并帮助在管理一线员工的策略时提供一致性。
 
 ## <a name="search-the-audit-log-for-shifts-events"></a>在审核日志中搜索“班次”事件
 

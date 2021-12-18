@@ -19,25 +19,25 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4598565a-c228-4265-ad03-d2aef95b31a0
 description: 对于使用云 PBX 电话系统 (的用户) ，必须先为其启用企业语音并为其分配电话号码。 在用户仍位于本地部署中时，可以使用本地部署完成此操作。
-ms.openlocfilehash: 29fd1eff47a73c7e3469ab7967a1f7cb0a006a75
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: a71b47b5b7b5ec7ca7328bbe9b0ee864b87f36ac
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012506"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61563711"
 ---
 # <a name="enable-the-users-for-enterprise-voice-on-premises"></a>为用户启用企业语音内部部署
  
 对于使用云 PBX 电话系统 (的用户) ，必须先为其启用企业语音并为其分配电话号码。 在用户仍位于本地部署中时，可以使用本地部署完成此操作。
 
 > [!Important]
-> Skype for BusinessOnline 将于 2021 年 7 月 31 日停用，此后服务将不再可用。  此外，将不再支持本地环境之间的 PSTN 连接Skype for Business Server云连接器版本与 Skype for Business Online 之间的 PSTN 连接。  了解如何使用直接路由将本地电话网络Teams[到呼叫。](/MicrosoftTeams/direct-routing-landing-page)
+> Skype for Business Online 于 2021 年 7 月 31 日停用，并且本地环境（无论是通过 Skype for Business Server 还是云连接器版本与 Skype for Business Online）之间的 PSTN 连接不再受支持。  了解如何使用直接路由将本地电话网络Teams[到呼叫。](/MicrosoftTeams/direct-routing-landing-page)
   
 ### <a name="to-enable-a-user-for-enterprise-voice-on-premises-and-assign-a-phone-number"></a>为用户启用本地企业语音并分配电话号码
 
 1. 使用分配给 CsUserAdministrator 角色或 CsAdministrator 角色的用户帐户登录到内部部署中的任何计算机。
     
-2. 使用 "开始"菜单 或桌面快捷方式打开Skype for Business Server控制面板。
+2. 使用"开始"菜单或桌面快捷方式打开"Skype for Business Server控制面板"。
     
     还可以打开浏览器窗口，然后输入管理员 URL 以打开Skype for Business Server控制面板。
     
@@ -45,7 +45,7 @@ ms.locfileid: "60012506"
     
 4. 在“搜索用户”框中，键入要启用的用户帐户的显示名称、名字、姓氏、安全帐户管理器 (SAM) 帐户名、SIP 地址或线路统一资源标识符 (URI) 的全部或第一部分，然后单击“查找”。
     
-5. 在表中，单击Skype for Business要启用的联机用户帐户企业语音。
+5. 在表中，单击Skype for Business启用的联机用户帐户企业语音。
     
 6. 在"编辑 **"菜单** 上，单击"**显示详细信息"。**
     
@@ -55,7 +55,7 @@ ms.locfileid: "60012506"
     
 ## <a name="special-considerations-when-enabling-users-for-enterprise-voice-on-premises"></a>为用户启用本地部署企业语音注意事项
 
-在某些情况下，您可能需要修改为用户启用企业语音以确保他们可以成功拨打和接听呼叫。 如果您的部署中具有满足以下条件的用户，请执行包含的步骤以启用用户企业语音。
+在某些情况下，您可能需要修改为用户启用企业语音以确保他们可以成功拨打和接听呼叫。 如果您的部署中具有满足以下条件的用户，请执行包括的步骤以启用用户企业语音。
   
 - 如果在内部部署 AD 中创建用户，然后在未启用 Skype for Business 或 企业语音 的情况下与 Skype for Business Online 同步，并且没有设置 LineURI，请针对每个受影响的用户运行以下 cmdlet，将 中的值替换为您的环境的实际 \< \> 值：
     

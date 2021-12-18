@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f18f35a061334e9a7e426614574afcc6eda42df9
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 3cdf1c9a9accc43275dc0573e90826d554adb12c
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728471"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61563615"
 ---
 # <a name="about-the-upgrade-framework"></a>关于升级框架
 
@@ -39,16 +39,16 @@ ms.locfileid: "58728471"
 
 ## <a name="sample-upgrade-timeline"></a>示例升级时间线
 
-开始规划更改时，升级过程将开始。 下面以成功框架为指导，从升级前阶段开始规划并准备升级、升级后操作阶段，以及旨在维持和增强结果的升级后操作阶段，下面提供了一个示例时间线。 
+开始规划更改时，升级过程将开始。 下面以成功框架为指南，从升级前阶段开始，你将从升级前阶段开始规划并准备升级，并进入升级后操作阶段，旨在维持和增强结果。 
 
 > [!NOTE]
 > 我们知道，Teams之旅可能涉及利用多种模式并在不同的时间升级用户组， [](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)这使您能够控制用户升级体验，同时使用   Teams。  
 
-为了帮助演示升级旅程的展开方式，我们在下面提供了一个示例计划，用于定义从"联机"模式Skype for Business到"Teams"之旅。 此外，示例计划概述了一个组织，该组织已将用户分成四个升级组或队列。 使用此功能作为模板，自定义计划以包含到 Teams 的特定旅程，并合并将使用的各种模式以及将用户 [](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)细分到的升级   组数。 
+为了帮助演示升级旅程的展开方式，我们在下面提供了一个示例计划，用于定义从"联机"模式Skype for Business到"群岛"模式Teams旅程。 此外，示例计划概述了一个组织，该组织已将用户分成四个升级组或队列。 使用此功能作为模板，自定义计划以包含到 Teams 的特定旅程，并合并将使用的各种模式以及将用户 [](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)细分到的升级   组数。 
 
 ## <a name="pre-upgrade"></a>升级前
 
-**为组织准备Teams。** 若要帮助确保成功升级到 Teams，必须分配足够的时间进行准备。 组织不仅能够快速开始意识到 Teams 的价值，并且只要准备就绪Skype for Business就能Teams升级。 如果已与 Teams一Skype for Business，请使用这些升级前活动作为检查点，在将用户升级到 Teams。 
+**为组织准备Teams。** 若要帮助确保成功升级到 Teams，必须分配足够的时间进行准备。 组织不仅能够快速开始意识到 Teams 的价值，并且只要准备就绪，Skype for Business Teams升级。 如果已与 Teams一Skype for Business，请使用这些升级前活动作为检查点，在将用户升级到 Teams。 
 
 > [!TIP]
 > 除了示例 [升级项目](https://aka.ms/UpgradeSuccessKit)计划和试点测试计划外，下载模板用户准备情况材料（例如通信和用户调查）的升级   成功工具包。 工具包中可用的项目标有星号 (*) 列表。
@@ -69,14 +69,14 @@ ms.locfileid: "58728471"
 
 | 步骤 |&nbsp;  | 摘要 | 资源 |
 |------|--|---------|----------|
-| **1** | **评估环境并完成Teams加入** | 确保环境已准备就绪，Teams用户体验，并随着时间的推移促进升级。 | [在升级到 Teams 之前，请评估Teams。](upgrade-plan-journey-evaluate-environment.md)<br><br> [准备服务以升级到 Teams](upgrade-prepare-environment-prepare-service.md) |
+| **1** | **评估环境并完成Teams加入** | 确保环境已准备就绪，Teams用户体验优化，并随着时间的推移促进升级。 | [在升级到 Teams 之前，请评估Teams。](upgrade-plan-journey-evaluate-environment.md)<br><br> [准备服务以升级到 Teams](upgrade-prepare-environment-prepare-service.md) |
 | **2** | **优化网络Teams，尤其是针对实时媒体方案** | 如果要部署音频、视频或会议，请执行这些附加步骤来优化网络以使用该功能。 | [准备网络以升级到 Teams](prepare-network.md) |
 | **3** | **评估组织变更准备情况并定义团队协作方案** | 了解用户群，以准备正确的价值消息传递和教育程度，以便促进和加快用户采用。 | [组织变更就绪情况](upgrade-org-change-readiness.md#organizational-change-readiness) |
 | **4** | **准备用户准备计划，定义通信、培训和支持用户的方式** | 个性化你的通信、培训和支持计划，以确保以最佳方式利用新技术。 | [准备用户就绪性计划](upgrade-user-readiness.md)<br><br>[升级成功工具包](https://aka.ms/UpgradeSuccessKit) |
 | **5** | **宣布正在等待启动Microsoft Teams** | 尽早沟通，帮助用户感到被包含在内、减少混淆和产生兴奋感。 | [升级成功工具包](https://aka.ms/UpgradeSuccessKit) |
 | **6** | **准备 IT 人员以Teams** | 确认技术和支持人员已准备好一切内容，并支持技术环境Teams。 | [准备 IT 人员以Microsoft Teams](upgrade-prepare-it-pros.md) <br><br> [升级成功工具包](https://aka.ms/UpgradeSuccessKit) |
 
-### <a name="pilot-run-a-pilot-to-confirm-that-your-organization-is-ready-and-inform-your-optimal-journey-to-teams"></a>试点：运行试运行，确认组织已准备就绪，并告知最佳运行Teams
+### <a name="pilot-run-a-pilot-to-confirm-that-your-organization-is-ready-and-inform-your-optimal-journey-to-teams"></a>试点：运行试运行，确认组织已准备就绪，并告知最佳体验Teams
 
 | 步骤 | &nbsp; | 摘要 | 资源 |
 |------|--|---------|----------|
@@ -87,14 +87,14 @@ ms.locfileid: "58728471"
 | **5** | **进行试点** | 启动试点，跟踪进度并根据需要进行跟踪，以优化试点结果。 | [进行试点](pilot-essentials.md#5-conduct-your-pilot) |
 | **6** | **评估学习和评估前进计划** | 收集用户反馈、网络统计信息和支持票证，以便针对目标进行分析并确定前进计划。 | [评估学习和评估前进计划](pilot-essentials.md#6-assess-learnings-and-evaluate-your-go-forward-plan)
 
-### <a name="deploy-run-teams-in-coexistence-with-skype-for-business"></a>部署：Teams部署在共存Skype for Business
+### <a name="deploy-run-teams-in-coexistence-with-skype-for-business"></a>部署：在Teams共存中运行Skype for Business
 
 | 步骤 |&nbsp;  | 摘要 | 资源 |
 |------|--|---------|----------|
 | **1** | **宣布正式发布Teams** | 准备就绪后，通过发送正式发布公告来Teams和动力。 | [升级成功工具包](https://aka.ms/UpgradeSuccessKit) |
-| **2** | **实现升级** | 要执行的步骤取决于当前部署的 Skype for Business。 | [实现升级](upgrade-to-teams.md) |
+| **2** | **实现升级** | 执行的步骤取决于当前部署Skype for Business。 | [实现升级](upgrade-to-teams.md) |
 | **3** | **随时了解Teams路线图** | 监视Teams路线图，确定适合组织移动到Teams。 | [Teams路线图](https://aka.ms/teamsroadmap) |
-| **4** | **发送更多通信并Teams支持者参与，以吸引观众的兴奋和Teams** | 鼓励用户采用，并保持对与Teams和支持者之间沟通的兴奋感。 | [Microsoft 365冠军计划](https://aka.ms/O365Champions) |
+| **4** | **发送更多通信并Teams的推动者参与，以吸引观众的Teams** | 鼓励用户采用，并保持对Teams和支持者保持兴奋感。 | [Microsoft 365冠军计划](https://aka.ms/O365Champions) |
 
 ## <a name="upgrade"></a>升级 
 
@@ -112,7 +112,7 @@ ms.locfileid: "58728471"
 
 ## <a name="post-upgrade"></a>升级后
 
-**使用 Teams 最大化业务Teams。** 组织完全升级到 Teams后，请花些时间根据目标评估成功，并实施计划来继续推动发展。 
+**使用 Teams 最大化业务Teams。** 组织完全升级到 Teams后，请花些时间根据目标评估成功情况，并实施计划来继续推动发展。 
 
 ### <a name="operate-measure-the-success-of-your-upgrade"></a>操作：衡量升级是否成功
 
@@ -121,7 +121,7 @@ ms.locfileid: "58728471"
 | **1** | **评估初始升级成功** | 根据升级前阶段制定的目标评估进度。 | [Project目标](upgrade-define-project-scope.md#project-goals) |
 | **2** | **针对任何未实现的目标实施缓解计划** | 针对未达到的目标定义缓解或课程更正策略。 | [Project目标](upgrade-define-project-scope.md#project-goals) |
 | **3** | **监视网络运行状况和质量** | 实施质量检查和监视计划，帮助确保获得积极的用户体验，并减少呼叫支持人员。 | [监视网络运行状况和质量](continue-journey.md#monitor-for-network-health-and-quality) |
-| **4** | **推动用户的发展和采用** | 鼓励用户采用，并保持对Teams采用计划保持兴奋。 | [推动用户的发展和采用](continue-journey.md#drive-user-momentum-and-adoption) |
+| **4** | **推动用户的发展和采用** | 鼓励用户采用，并保持对Teams采用计划的兴奋感。 | [推动用户的发展和采用](continue-journey.md#drive-user-momentum-and-adoption) |
 | **5** | **准备新功能** | 通过建立新创新和产品改进的变化周期来实现最大价值。 | [准备新功能](continue-journey.md#prepare-for-new-functionality)
 
 
@@ -129,4 +129,4 @@ ms.locfileid: "58728471"
 > 我们的升级内容在不断发展。 请务必返回查看最新指南，并阅读 Teams[博客](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)。 
 
 > [!Important]
-> Skype for Business Online 将于 2021 年 7 月 31 日停用，在此日期之后它将不再可用或受支持。 为了最大限度地实现效益并确保组织有适当的时间来实施升级，我们鼓励你立即开始Microsoft Teams之旅。 请记住，成功的升级符合技术和用户准备情况，因此，在导航到 Microsoft Teams 时，请务必参考此处的Microsoft Teams。
+> Skype for Business Online 于 2021 年 7 月 31 日停用。 为了最大程度地实现权益并确保组织有适当的时间来实施升级，我们鼓励你立即开始Microsoft Teams之旅。 请记住，成功的升级符合技术和用户准备情况，因此，在导航到 Microsoft Teams 时，请务必参考此处的Microsoft Teams。

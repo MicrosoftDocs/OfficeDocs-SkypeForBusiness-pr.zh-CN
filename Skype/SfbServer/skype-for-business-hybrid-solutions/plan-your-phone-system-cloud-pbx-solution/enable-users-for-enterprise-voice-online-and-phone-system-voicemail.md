@@ -19,33 +19,33 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
 description: 了解如何为电话系统启用语音Skype for Business服务。
-ms.openlocfilehash: b82121dff3c7a82827d6e19fdb0b78bfeee263f2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9c9123b79a1fd5557d0d31db7b4b150bcda80af3
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602307"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61563435"
 ---
 # <a name="enable-users-for-enterprise-voice-online-and-phone-system-voicemail"></a>为用户启用联机企业语音和电话系统语音邮件
  
 > [!Important]
-> Skype for BusinessOnline 将于 2021 年 7 月 31 日停用，此后服务将不再可用。  此外，将不再支持通过 Skype for Business Server 或云连接器版本与 Skype for Business Online 之间的 PSTN 连接。  了解如何使用直接路由将本地电话网络Teams[到呼叫。](/MicrosoftTeams/direct-routing-landing-page)
+> Skype for Business Online 于 2021 年 7 月 31 日停用，并且本地环境（无论是通过 Skype for Business Server 还是云连接器版本与 Skype for Business Online）之间的 PSTN 连接不再受支持。  了解如何使用直接路由将本地电话网络Teams[到呼叫。](/MicrosoftTeams/direct-routing-landing-page)
 
 了解如何为电话系统启用语音Skype for Business服务。
   
-使用本地 PSTN 电话系统部署客户端的最后一步是为用户启用 电话系统 和语音邮件。 若要启用这些功能，您必须是具有全局管理员角色的用户，并且能够运行远程 PowerShell。 对于尚未启用 企业语音 Online 的所有用户帐户，你需要Skype for Business步骤。
+使用本地 PSTN 电话系统部署客户端的最后一步是为用户启用 电话系统 和语音邮件。 若要启用这些功能，您必须是具有全局管理员角色的用户，并且能够运行远程 PowerShell。 对于尚未启用 Skype for Business Online 的所有用户帐户，你需要企业语音步骤。
   
 ## <a name="enable-phone-system-voice-services"></a>启用电话系统语音服务
 
-若要为用户启用 电话系统 语音和语音邮件，需要执行一些初始步骤，如检查服务器上是否部署了 Skype for Business Online Connector，并启用托管语音邮件的用户。
+若要为用户启用 电话系统 语音和语音邮件，需要执行一些初始步骤，如检查服务器上是否部署了 Skype for Business Online Connector 并启用用户托管语音邮件。
   
 ### <a name="to-enable-your-users-for-phone-system-voice-and-voicemail"></a>为用户启用语音电话系统语音邮件
 
 > [!NOTE]
-> Skype for Business联机连接器当前是最新 PowerShell Teams的一部分。
-> 如果你使用的是最新的[PowerShell Teams](https://www.powershellgallery.com/packages/MicrosoftTeams/)版本，则无需安装 Skype for Business Online 连接器。
+> Skype for Business Online Connector 当前是最新 PowerShell Teams的一部分。
+> 如果你使用的是最新的[PowerShell Teams](https://www.powershellgallery.com/packages/MicrosoftTeams/)版本，则无需安装 Skype for Business Online Connector。
 
-1. 在开始之前，请检查Teams前端服务器上是否安装了 PowerShell 模块。 如果不是，请使用 PowerShell 模块安装[中的Teams安装](/microsoftteams/teams-powershell-install)。
+1. 在开始之前，请检查Teams前端服务器上是否安装了 PowerShell 模块。 如果不是，请使用[PowerShell](/microsoftteams/teams-powershell-install)模块安装 中的Teams安装。
     
 2. 以Windows PowerShell开始登录。
     
@@ -60,7 +60,7 @@ ms.locfileid: "58602307"
 ```
 
   
-4. 使用 Set-CsUser cmdlet 向$EnterpriseVoiceEnabled$HostedVoiceMail属性，如下所示：
+4. 使用 Set-CsUser cmdlet 将 $EnterpriseVoiceEnabled 和 $HostedVoiceMail 属性分配给用户，如下所示：
     
    ```powershell
    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
@@ -94,7 +94,7 @@ ms.locfileid: "58602307"
     
 5. 在表中，单击Skype for Business更改线路 URI 的用户帐户。
     
-6. 单击 **"线路 URI"，** 然后键入唯一的规范化电话号码 (例如 tel：+14255550200) 。 然后单击"**提交"。**
+6. 单击 **"线路 URI"，** 键入唯一的规范化电话号码 (例如 tel：+14255550200) 。 然后单击"**提交"。**
     
 ## <a name="update-the-dial-plan-using-on-premises-windows-powershell-cmdlets"></a>使用本地部署 cmdlet 更新Windows PowerShell计划
 
@@ -129,7 +129,7 @@ ms.locfileid: "58602307"
 
 ## <a name="update-the-voice-routing-policies-using-on-premises-windows-powershell-cmdlets"></a>使用本地部署 cmdlet 更新Windows PowerShell策略
 
-本节介绍如何为启用了语音路由的用户更新电话系统。
+本节介绍如何为启用语音路由的用户更新电话系统。
   
 电话系统用户必须分配有语音路由策略，以便成功路由呼叫。 这不同于需要为其分配语音策略以允许呼叫成功路由本地商务语音用户。 语音路由策略应包含 PSTN 用法，这些用法为用户定义授权呼叫电话系统路由。 可以将这些 PSTN 用法从现有语音策略复制到新的语音路由策略。 有关详细信息，请参阅 [New-CsVoiceRoutingPolicy](/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps)。
   

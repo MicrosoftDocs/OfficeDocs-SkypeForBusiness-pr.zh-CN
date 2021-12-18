@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 了解如何在参与者和来宾的Teams管理会议策略设置。
-ms.openlocfilehash: ebbb13d4d0430aee6fadba10b825a6c0cb8ec3b0
-ms.sourcegitcommit: 3e724a57e946550f2f61002c8e2de1ec20c9755a
+ms.openlocfilehash: bd8146ce27f76bd03d7ef991f51dbe1dda3c08ab
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2021
-ms.locfileid: "61234300"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61563118"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>会议策略设置 - 参与者和来宾
 
@@ -66,11 +66,11 @@ ms.locfileid: "61234300"
 |**组织中用户和来宾**     |组织中经过身份验证的用户（包括来宾用户）可以直接加入会议，无需在大厅中等待。 来自受信任组织和匿名用户的用户在大厅中等待。 这是默认设置。    |
 |**我的组织中人员、受信任的组织和来宾**     |组织内经过认证的用户，包括嘉宾用户和来自可信组织的用户，直接加入会议，无需在大厅等待。  匿名用户在大厅里等待。   |
 |**我的组织中人员**    |组织中经过身份验证的用户直接加入会议，无需在大厅中等待。  来自受信任组织、来宾用户和匿名用户的用户在大厅中等待。          |
-|**仅管理器**    |只有会议组织者才能直接参加会议，无需在大厅等待。 其他所有人（包括组织中经过身份验证的用户、来宾用户、来自受信任组织的用户和匿名用户）必须在大厅中等待。 在"Teams客户端会议选项"页面上，它显示为"仅我"。          |
-|**仅受邀用户**    |只有受邀用户和会议组织者可以直接加入会议，而无需在大厅中等待。 其他所有人（包括组织中经过身份验证的用户、来宾用户、来自受信任组织的用户和匿名用户）必须在大厅中等待。 在"Teams会议选项"页面上，它显示为"我邀请的人"。 作为通讯组的一部分添加的用户必须经过大厅。      |
+|**仅管理器**    |只有会议组织者才能直接参加会议，无需在大厅等待。 其他所有人（包括组织中经过身份验证的用户、来宾用户、来自受信任组织的用户和匿名用户）必须在大厅中等待。 在Teams会议选项"页面上，它显示为"仅我"。          |
+|**仅受邀用户**    |只有受邀用户和会议组织者可以直接加入会议，而无需在大厅中等待。 其他所有人（包括组织中经过身份验证的用户、来宾用户、来自受信任组织的用户和匿名用户）必须在大厅中等待。 在"Teams客户端会议选项"页面上，它显示为"我邀请的人"。 作为通讯组的一部分添加的用户必须经过大厅。      |
 
  > [!NOTE]
-> 受信任的组织是允许与组织联合通信的Teams。 如果在管理 **中心中** 启用"允许所有外部域Teams外部访问，则任何组织内经过身份验证Teams都将受信任。 如果选择指定允许的外部域并阻止所有其他域，则允许的域将成为受信任的组织。 任何阻止的域都被视为不受信任的组织。
+> 受信任的组织是允许与组织联合通信的域Teams。 如果在管理 **中心中** 启用"允许所有外部域Teams外部访问，则任何组织内部的任何经过Teams都将受信任。 如果选择指定允许的外部域并阻止所有其他域，则允许的域将成为受信任的组织。 任何阻止的域都被视为不受信任的组织。
 
 ## <a name="allow-dial-in-users-to-bypass-the-lobby"></a>允许拨入用户绕过大厅
 
@@ -98,6 +98,17 @@ ms.locfileid: "61234300"
 
 <a name="bkparticipantsandguests"> </a>
 
+## <a name="enable-meeting-policy-settings"></a>启用会议策略设置
+
+若要启用会议策略设置，可以使用[Teams](https://admin.teams.microsoft.com/policies/meetings)管理中心 (会议策略编辑策略参与者& 来宾) 或 Teams PowerShell 中的  >    >  [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) cmdlet。 
+
+本示例使用 PowerShell 修改全局会议策略，以允许任何人启动或加入会议。
+
+```powershell
+Set-CsTeamsMeetingPolicy -Identity Global -AutoAdmittedUsers "Everyone" -AllowAnonymousUsersToStartMeeting $True -AllowPSTNUsersToBypassLobby $True
+```
+
+设置策略后，需要将策略应用到用户。 如果修改了全局 (组织范围的默认) 策略，则它将自动应用于用户。 需要等待至少 4 小时，所有策略更改才生效，但最多可能需要 24 小时。
 
 
 ## <a name="related-topics"></a>相关主题

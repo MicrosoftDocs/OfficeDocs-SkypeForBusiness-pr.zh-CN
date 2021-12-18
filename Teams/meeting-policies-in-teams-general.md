@@ -19,18 +19,18 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - seo-marvel-apr2020
 description: 了解如何在会议环境中管理常规会议Teams。
-ms.openlocfilehash: b7c08799ee9e7c2b1e6239b17abaa66b7d1e3d47
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: db1515b016aec47190c26305656b205a56e13b23
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61177933"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61562870"
 ---
 # <a name="meeting-policy-settings---general"></a>会议策略设置 - 常规
 
 <a name="bkgeneral"> </a>
 
-本文介绍以下会议常规策略Teams设置：
+本文介绍以下用于会议常规Teams设置：
 
 - [在频道中现在开会](#meet-now-in-channels)
 - [Outlook加载项](#outlook-add-in)
@@ -45,7 +45,7 @@ ms.locfileid: "61177933"
 
 ## <a name="meet-now-in-channels"></a>在频道中现在开会
 
-这是按用户政策，在会议开始前适用。 此设置控制用户是否可以在频道中启动Teams会议。 如果启用此功能，用户可以单击"会议"按钮以在频道中启动临时会议或安排会议。 默认值为 True。
+这是按用户政策，在会议开始前适用。 此设置控制用户是否可以在频道中启动临时Teams会议。 如果启用此功能，用户可以单击"会议"按钮以在频道中启动临时会议或安排会议。 默认值为 True。
 
 [![显示消息下方的"现在开会"图标的屏幕截图。 ](media/meeting-policies-meet-now.png) ](media/meeting-policies-meet-now.png#lightbox)
 
@@ -92,13 +92,13 @@ ms.locfileid: "61177933"
 
 频道日历应用将显示在应用权限策略页面的 **Microsoft 应用** 部分。
 
-![显示管理中心内应用权限Teams屏幕截图。](media/manage-microsoft-apps-policy.png)
+![显示管理中心内应用权限Teams的屏幕截图。](media/manage-microsoft-apps-policy.png)
 
 ## <a name="private-meeting-scheduling"></a>私人会议安排
 
 这是按用户政策，在会议开始前适用。 此设置控制用户是否可以在 Teams 中安排私人会议。 当会议未发布到团队中的某个频道时，这个会议就是私人的。
 
-请注意，如果 **关闭"允许** 安排私人会议"和"允许频道会议安排"，则"添加所需的与会者"和"添加频道"选项将禁用Teams。  默认情况下，此设置已启动。
+请注意，如果 **关闭"允许** 安排私人会议"和"允许频道会议安排"，则"添加必需的与会者"和"添加频道"选项将禁用Teams。  默认情况下，此设置已启动。
 
 ## <a name="meet-now-in-private-meetings"></a>在私人会议中现在开会
 
@@ -124,13 +124,19 @@ ms.locfileid: "61177933"
 
 这是按用户策略。 此设置控制会议组织者是否可以下载 [会议出席报告](teams-analytics-and-reports/meeting-attendance-report.md)。
 
-此策略默认为关闭状态，允许组织者查看谁注册并参加他们设置的会议和网络研讨会。 若要在管理中心Teams，请转到"**会议** 会议策略  >  "，将策略设置为"已启用 **"。**
+此策略默认为关闭状态，允许组织者查看谁注册并参加他们设置的会议和网络研讨会。 若要在管理中心Teams，请转到"会议会议策略"，将"参与报告"设置  >  设置为"已启用 **"。**
 
-可以使用 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet 编辑现有的 Teams 会议策略。 或者，使用 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet 创建一个新的 Teams 会议策略，并将其分配给用户。
+还可使用[Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet 编辑Teams会议策略。 或者，使用 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet 创建一个新的 Teams 会议策略，并将其分配给用户。
 
 若要使会议组织者能够下载会议出席情况报告，将 **AllowEngagementReport** 参数设置为"已启用 **"。** 启用后，下载报告的选项会显示在 **“参与者”** 窗格中。 默认情况下，此设置未启用。
 
 若要防止会议组织者下载报告，请将该参数设置为 **禁用**。
+
+> [!NOTE]
+> 作为管理员，你无法查看不组织的会议的出席情况报告。 但是，您可以在该会议 24 小时内查看给定会议的参与者详细信息。 在Teams中心，转到"**用户**  >  **管理用户"。** 选择显示名称组织者的"会议"选项。 选择" **会议&选项卡** ，然后选择相应的会议 ID 或呼叫 ID。 然后，选择 **"参与者详细信息"。**
+
+有关详细信息，包括参与报告的限制，请参阅在 Teams[中查看和下载会议出席Teams。](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310)
+
 
 ## <a name="meeting-registration"></a>会议注册
 
@@ -148,10 +154,10 @@ ms.locfileid: "61177933"
 
 此策略控制哪些用户可以注册和参加网络研讨会。 此策略有两个选项，仅在会议注册 **打开时可用** 。
 
-- 如果希望 **Who** 包括匿名用户在内的所有人注册并参加组织中用户设置的网络研讨会，请设置"可注册到每个人"。
+- 如果希望 **Who** 包括匿名用户在内的所有人注册和参加组织中用户设置的网络研讨会，请设置"可注册到每个人"。
 - 如果希望 **Who** 注册并参加网络研讨会，请设置"可注册到组织中所有人"。
 
-默认情况下 **，"Who注册**"设置为"每个人 **"。** 若要在管理Teams编辑此策略，请转到 **"会议**  >  **会议策略"。**
+默认情况下 **，"Who注册"** 设置为"每个人 **"。** 若要在管理中心内编辑Teams策略，请转到 **"会议**  >  **会议策略"。**
 
 可以使用 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet 编辑现有的 Teams 会议策略。 或者，使用 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet 创建一个新的 Teams 会议策略，并将其分配给用户。
 
