@@ -21,12 +21,12 @@ description: Teams 或 IT 管理员可以为其他域 (联合身份验证) 配�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: e0036218312d04a409b6699998ec6b84cddae79c
-ms.sourcegitcommit: 8d728ca42dc917a28b94e2de84ce4f5b2515d485
+ms.openlocfilehash: 16a30b9e4ce9ed86516cfcf7fb0cbdb22e6c2141
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/15/2021
-ms.locfileid: "61513483"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61563559"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>在 Microsoft Teams 中管理外部访问
 
@@ -144,7 +144,7 @@ ms.locfileid: "61513483"
 
 ## <a name="limit-external-access-to-specific-people"></a>限制对于特定人员的外部访问
 
-可以使用 PowerShell 限制对于特定人员的外部访问。
+如果已启用 **组织中的人员可以与帐户不由组织托管的 Teams 用户通信**，则可以使用 PowerShell 限制特定人员的外部访问权限。
 
 可以使用下面的示例脚本，将 *PolicyName* 替换为要为策略提供的名称，并将 *UserName* 替换为希望能够使用外部访问的每个用户。
 

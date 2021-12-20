@@ -1415,6 +1415,8 @@ items:
             href: devices/collab-bar-deploy.md
           - name: 设置 Microsoft Teams Android 设备用户接口
             href: devices/Teams-Android-devices-user-interface.md
+          - name: Android 设备的身份验证最佳做法
+            href: devices/authentication-best-practices-for-android-devices.md
           - name: 会议室设备和解决方案
             href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
           - name: Teams 认证设备
