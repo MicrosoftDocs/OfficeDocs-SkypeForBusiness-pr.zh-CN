@@ -9,7 +9,7 @@ audience: ITPro
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: ''
-description: Android 设备身份验证Teams指南。
+description: Android 设备身份验证Teams最佳实践指南。
 ms.collection:
 - M365-voice
 - M365-collaboration
@@ -20,37 +20,37 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 173986bdad846d27a7bd3ae5890269b88a58b3a2
-ms.sourcegitcommit: cd4eb94d0b1e9316fca2e2b771b2286eaa866ba4
+ms.openlocfilehash: 8ffa30efd7f122b6d95c4545dd2d2517f3669472
+ms.sourcegitcommit: 73d12d90fc20e3d943301f57ee434379d0b0e91b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/18/2021
-ms.locfileid: "61566283"
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "61576162"
 ---
 # <a name="authentication-best-practices-for-teams-android-devices"></a>适用于 Android 设备的Teams最佳做法
 
 本文提供有关为手机和呼叫设备部署Teams策略的一般指导和最佳做法。
 
 >[!NOTE]
->条件访问需要Azure Active Directory (Azure AD) 高级版订阅。
+>条件访问需要一个Azure Active Directory (Azure AD) 高级版订阅。
 
 >[!NOTE]
->Android 移动设备的策略可能不适用于 Teams Android 设备。 
+>Android 移动设备的策略可能不适用于 Teams Android 设备。
 
 
-## <a name="user-based-devices-vs-common-area-devices"></a>基于用户的设备与公用区设备
+## <a name="personal-and-shared-devices"></a>个人设备和共享设备
 
-共享团队设备（如会议室设备或公用区域电话）不能对通常应用于个人设备的注册和合规性使用相同的要求。 将个人设备身份验证要求应用到共享设备将导致以下登录问题： 
+共享Teams设备（如会议室设备或公用区域电话）不能对通常应用于个人设备的注册和符合性使用相同的要求。 将个人设备身份验证要求应用到共享设备将导致以下登录问题：
 
 1.  **由于密码策略，设备已退出**
 
-在设备上Teams帐户具有密码过期策略。 与用户不同，与共享设备一起使用的帐户没有指定用户来更新和还原到密码过期时的有效状态。 如果组织要求密码定期过期和重置，这些帐户Teams，直到管理员重置密码Teams重新登录。
+在设备上Teams帐户具有密码过期策略。 与用户不同，与共享设备一起使用的帐户没有指定用户来更新和还原到密码过期时的有效状态。 如果组织要求密码定期过期和重置，这些帐户将停止在 Teams 设备上运行，Teams管理员重置密码并重新登录。
 
 2.  **设备因条件访问策略而未能登录**
 
 共享设备不符合用户帐户Azure AD设备的条件访问策略。 如果共享设备与用于条件访问策略的用户帐户或个人设备分组，则登录会失败。
 
-例如，如果需要多重身份验证才能访问Teams身份验证，需要用户干预才能完成身份验证。 共享设备不支持多重身份验证。 同样，如果帐户配置为每隔 X 天重新进行身份验证，则共享设备在没有用户干预的情况下无法解决质询。
+例如，如果需要多重身份验证才能访问 Teams，则要求用户干预才能完成身份验证。 共享设备不支持多重身份验证。 同样，如果帐户配置为每隔 X 天重新进行身份验证，则共享设备在没有用户干预的情况下无法解决质询。
 
 ## <a name="best-practices-for-teams-shared-device-deployments"></a>共享设备Teams最佳做法
 
@@ -58,11 +58,11 @@ Microsoft 建议在组织中部署Teams以下设置。
 
 ### <a name="password-policy"></a>**密码策略**
 
-Teams共享设备应该使用Exchange[资源帐户 。](/exchange/recipients-in-exchange-online/manage-resource-mailboxes) 这些帐户可以从 Active Directory 同步，也可以直接在 Azure AD。 用户的任何密码过期策略也适用于在共享设备上Teams帐户。
+Teams共享设备应使用Exchange[资源帐户 。](/exchange/recipients-in-exchange-online/manage-resource-mailboxes) 这些帐户可以从 Active Directory 同步，也可以直接在 Azure AD。 用户的任何密码过期策略也适用于在共享设备上Teams帐户。
 
 为了避免密码过期策略导致中断，请为共享设备设置密码过期策略，使策略永不过期。
 
-从 Teams 设备 CY21 [Update #1](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Desk_phones) (Teams 版本 1449/1.0.94.2021022403 开始，适合 Teams 手机) 和[CY202 1](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Teams_Rooms_on_Android)适用于 Android) 上的 Microsoft Teams 会议室 的更新 #2 (Teams 版本 1449/1.0.96.2021051904，租户管理员可以远程登录到 Teams 设备。 请勿与技术人员共享密码来设置设备。 管理员使用远程登录来发出验证码，然后从管理中心登录到Teams设备。
+从 Teams 设备 CY21 [Update #1](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Desk_phones) (Teams 版本 1449/1.0.94.2021022403 开始，适合 Teams 手机) 和[CY2021 更新 #2](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Teams_Rooms_on_Android) (Teams Android) 上的 Microsoft Teams 会议室 版本 1449/1.0.96.2021051904，租户管理员可以远程登录到 Teams 设备。 请勿与技术人员共享密码来设置设备。 管理员使用远程登录来发出验证码，然后从管理中心登录到Teams设备。
 
 有关详细信息，请参阅 Android 设备的远程预配[Teams登录](/MicrosoftTeams/devices/remote-provision-remote-login)。 
 
