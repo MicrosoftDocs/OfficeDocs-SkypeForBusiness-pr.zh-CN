@@ -1509,6 +1509,12 @@ items:
         href: expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md
       - name: 所有行业
         items:
+          - name: Teams 中的 Bookings
+            items:
+              - name: 使用 Teams 和 Bookings 进行虚拟访问
+                href: expand-teams-across-your-org/bookings-virtual-visits.md
+              - name: 管理 Bookings 应用
+                href: bookings-app-admin.md
           - name: Teams 中的班次
             href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
             items:
@@ -1516,46 +1522,6 @@ items:
                 href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
               - name: 管理排班管理的计划所有者
                 href: expand-teams-across-your-org/shifts/schedule-owner-for-shift-management.md
-          - name: Teams 中的 Bookings
-            items:
-              - name: 使用 Teams 和 Bookings 进行虚拟访问
-                href: expand-teams-across-your-org/bookings-virtual-visits.md
-              - name: 管理 Bookings 应用
-                href: bookings-app-admin.md
-      - name: 适用于医疗保健业的 Teams
-        items:
-          - name: 适用于医疗保健组织的 Teams 入门
-            href: expand-teams-across-your-org/healthcare/teams-in-hc.md
-          - name: 虚拟访问
-            items:
-              - name: 通过 Teams 进行虚拟访问 - 集成到 Cerner EHR
-                href: expand-teams-across-your-org/healthcare/ehr-admin-cerner.md
-              - name: 通过 Teams 进行虚拟访问 - 集成到 Epic EHR
-                href: expand-teams-across-your-org/healthcare/ehr-admin.md
-              - name: EHR 管理员报告
-                href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
-              - name: 使用 Teams 和 Bookings 进行虚拟访问
-                href: expand-teams-across-your-org/bookings-virtual-visits.md
-              - name: 管理移动浏览器上的加入体验
-                href: expand-teams-across-your-org/mobile-browser-join.md
-          - name: 查看和分配策略包
-            href: policy-packages-healthcare.md
-          - name: 安全消息传递
-            items:
-              - name: 安全消息传递
-                href: expand-teams-across-your-org/healthcare/messaging-policies-hc.md
-              - name: 消息委派
-                href: expand-teams-across-your-org/healthcare/hc-delegates.md
-          - name: 使用医疗保健团队模板
-            href: expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md
-          - name: 管理列表应用
-            href: manage-lists-app.md
-          - name: 管理任务应用
-            href: manage-tasks-app.md
-          - name: 管理审批应用
-            href: approval-admin.md
-          - name: 管理排班应用
-            href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
       - name: Teams 教育版
         href: expand-teams-across-your-org/teams-for-education-landing-page.md
         items:
@@ -1619,16 +1585,6 @@ items:
             href: flw-realwear.md
           - name: 对讲机
             href: walkie-talkie.md
-      - name: 适用于非营利组织的 Teams
-        href: expand-teams-across-your-org/teams-for-nonprofit-landing-page.md
-        items:
-          - name: 使用非营利组织团队模板
-            href: team-templates-nonprofit.md
-      - name: 适用于零售业的 Teams
-        href: expand-teams-across-your-org/teams-for-retail-landing-page.md
-        items:
-          - name: 使用零售团队模板
-            href: get-started-with-retail-teams-templates.md
       - name: Teams 政府版
         href: expand-teams-across-your-org/teams-for-government-landing-page.md
         items:
@@ -1648,6 +1604,50 @@ items:
             href: audio-conferencing-with-direct-routing-for-gcch-and-dod.md
           - name: 政府用 Teams 策略包
             href: policy-packages-gov.md
+      - name: 适用于医疗保健业的 Teams
+        items:
+          - name: 适用于医疗保健组织的 Teams 入门
+            href: expand-teams-across-your-org/healthcare/teams-in-hc.md
+          - name: 虚拟访问
+            items:
+              - name: 通过 Teams 进行虚拟访问 - 集成到 Cerner EHR
+                href: expand-teams-across-your-org/healthcare/ehr-admin-cerner.md
+              - name: 通过 Teams 进行虚拟访问 - 集成到 Epic EHR
+                href: expand-teams-across-your-org/healthcare/ehr-admin.md
+              - name: EHR 管理员报告
+                href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
+              - name: 使用 Teams 和 Bookings 进行虚拟访问
+                href: expand-teams-across-your-org/bookings-virtual-visits.md
+              - name: 管理移动浏览器上的加入体验
+                href: expand-teams-across-your-org/mobile-browser-join.md
+          - name: 查看和分配策略包
+            href: policy-packages-healthcare.md
+          - name: 安全消息传递
+            items:
+              - name: 安全消息传递
+                href: expand-teams-across-your-org/healthcare/messaging-policies-hc.md
+              - name: 消息委派
+                href: expand-teams-across-your-org/healthcare/hc-delegates.md
+          - name: 使用医疗保健团队模板
+            href: expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md
+          - name: 管理审批应用
+            href: approval-admin.md
+          - name: 管理列表应用
+            href: manage-lists-app.md
+          - name: 管理班次应用
+            href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
+          - name: 管理任务应用
+            href: manage-tasks-app.md
+      - name: 适用于非营利组织的 Teams
+        href: expand-teams-across-your-org/teams-for-nonprofit-landing-page.md
+        items:
+          - name: 使用非营利组织团队模板
+            href: team-templates-nonprofit.md
+      - name: 适用于零售业的 Teams
+        href: expand-teams-across-your-org/teams-for-retail-landing-page.md
+        items:
+          - name: 使用零售团队模板
+            href: get-started-with-retail-teams-templates.md
   - name: 参考
     items:
       - name: Teams 限制和规范
