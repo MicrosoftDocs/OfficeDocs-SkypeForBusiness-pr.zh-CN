@@ -1393,7 +1393,7 @@ items:
             href: devices/remote-update.md
           - name: 管理 Teams 设备标记
             href: devices/manage-device-tags.md
-          - name: 规划手机和显示部署
+          - name: 规划电话和显示部署
             href: devices/plan-device-deployment.md
           - name: Teams 电话
             href: devices/phones-for-teams.md
@@ -1514,6 +1514,8 @@ items:
             items:
               - name: 管理排班应用
                 href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
+              - name: 管理排班管理的计划所有者
+                href: expand-teams-across-your-org/shifts/schedule-owner-for-shift-management.md
           - name: Teams 中的 Bookings
             items:
               - name: 使用 Teams 和 Bookings 进行虚拟访问
