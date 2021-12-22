@@ -1393,6 +1393,8 @@ items:
             href: devices/remote-update.md
           - name: 管理 Teams 设备标记
             href: devices/manage-device-tags.md
+          - name: 规划手机和显示部署
+            href: devices/plan-device-deployment.md
           - name: Teams 电话
             href: devices/phones-for-teams.md
           - name: Teams 显示
