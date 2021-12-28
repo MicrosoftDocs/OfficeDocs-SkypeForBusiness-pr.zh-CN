@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 会议室 门户
+title: 多租户审核
 author: donnah007
 ms.author: v-donnahill
 manager: serdars
@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 审核 TRM 的日志记录。
 f1keywords: ''
-ms.openlocfilehash: e5e5cd25385f6e8a71484c57aa9c44da5d4c9cd8
-ms.sourcegitcommit: c8951fe3504c1776d7aec14b79605aaf5d317e7f
+ms.openlocfilehash: bb002ad546553e906339b03ff7b36ff2ccce8506
+ms.sourcegitcommit: 848e462c4f0c94548d3f90f28fb1c69a9bce64be
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "61331212"
+ms.lasthandoff: 12/28/2021
+ms.locfileid: "61620526"
 ---
 # <a name="audit-logging-in-the-teams-rooms-managed-service"></a>审核托管服务Teams 会议室日志记录
 
@@ -33,7 +33,7 @@ ms.locfileid: "61331212"
 
 ## <a name="exporting-logs"></a>导出日志
 
-导出 审核日志 搜索的所有结果时，来自统一 审核日志 的原始数据将复制到下载到本地计算机的逗号分隔值 (CSV) 文件中。 
+导出 审核日志 搜索的所有结果时，统一 审核日志 中的原始数据将复制到下载到本地计算机的逗号分隔值 (CSV) 文件中。 
 
 **下载日志** 
 
