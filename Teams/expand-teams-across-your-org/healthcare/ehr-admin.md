@@ -23,132 +23,218 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: 了解如何集成 Teams EHR 连接器，使贵组织的医疗保健提供商能够直接从长篇 EHR 系统与 Teams 中的患者或其他提供商进行虚拟访问。
-ms.openlocfilehash: 48d2cfd69dd9d5cd8be2fcd5a0c29fca7162d246
-ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
+ms.openlocfilehash: c1decee2c6be1da4dfbdae72f5117030bd23aeda
+ms.sourcegitcommit: 01657a2a961712b8383b741b4ae983b9e07bdeb1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "60960041"
+ms.lasthandoff: 12/27/2021
+ms.locfileid: "61611299"
 ---
 # <a name="virtual-visits-with-teams---integration-into-epic-ehr"></a>使用虚拟访问Teams - 集成到长篇 EHR 中
 
-Microsoft Teams EHR) 连接器的 EHR (电子健康记录使医生能够轻松地直接从 EHR 系统启动虚拟患者Teams或咨询其他提供商。 Microsoft Teams 基于 Microsoft 365 云进行构建，可在支持 HIPAA、HITECH 认证等合规性要求的单个中心内通过聊天、视频、语音和医疗保健工具，实现简单、安全的协作和沟通。
-利用 Teams 的沟通和协作平台，临床医生可轻松解决零碎的体制问题，从而腾出更多时间提供最好的医治。 Microsoft Teams EHR (连接器) 电子运行状况记录：
+借助 Microsoft Teams EHR (EHR) 连接器，医生可以直接从长篇 EHR 系统向 Microsoft Teams 中的另一个提供商发起虚拟患者访问或咨询。 基于 Microsoft 365 云Teams，借助支持符合 HIPAA、HITECH 认证等要求的单一中心内聊天、视频、语音和医疗保健工具，Teams轻松、安全地进行协作和通信。
 
-- 从Teams EHR 系统中通过集成的医疗工作流启动虚拟访问。
-- 使患者能够加入Teams门户中的虚拟访问。
-- 将有关虚拟访问的元数据写回到 EHR Teams，以记录与会者何时连接和断开连接，以及启用自动审核和记录保留。
+通过这种通信和协作Teams，医生可以轻松解决碎片化系统的混乱问题，以便专注于提供最佳护理。 使用 Teams EHR 连接器，可以：
 
-  请观看此视频，了解如何从 EHR 门户管理虚拟就诊。
+- 通过Teams工作流从长篇 EHR 系统启动虚拟访问。
+- 使患者能够从患者Teams或短信加入虚拟访问。
+- 支持其他虚拟访问方案，包括多参与者、组访问和解释程序服务。
+- 将有关虚拟访问的元数据写回到 EHR Teams，以在与会者连接、断开连接以及启用自动审核和记录保留时进行记录。
+- 查看与 EHR 连接的访问的消耗数据报告和可自定义的呼叫质量信息。
+
+观看此视频，大致了解如何从 EHR 门户管理虚拟访问。
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HAtn]
 
+本文介绍如何设置和配置 Teams EHR 连接器，以与医疗保健组织的长篇故事平台集成。 此外，还概述了来自Teams EHR 系统的虚拟访问体验。
+
 ## <a name="before-you-begin"></a>开始之前
 
-在集成 EHR 连接器之前，需要确保满足以下先决条件：
+在开始使用之前，需要执行一些操作来准备集成。
 
-- 可以访问并使用 [Epic 的 App Orchard 商城](https://apporchard.epic.com/Gallery?id=6153)中的 Microsoft Teams 应用。
+### <a name="get-familiar-with-the-integration-process"></a>熟悉集成过程
 
-- 活动订阅 Microsoft Cloud for Healthcare 或订阅 Microsoft Teams EHR 连接器独立产品/ (仅在生产测试期间) 。
+查看以下信息，了解整个集成过程。
 
-- 用户必须具有包含 Microsoft Teams 会议的适当 Microsoft 365 或 Office 365 许可证。
+:::image type="content" source="media/ehr-connector-epic-flow.png" alt-text="概述整个集成过程中的步骤的图像。":::
 
-- 组织内部应采用和使用 Microsoft Teams。
+||||||
+|---------|---------|---------|---------|---------|
+|**操作**：[请求访问 Teams 应用](#request-access-to-the-teams-app)。 <br> **结果**：我们授权你的组织进行测试。|**操作**：创建公钥和私钥证书并将其上传到长篇故事。 <br> **结果**：长篇故事会同步公钥证书。|**操作**：在 EHR 连接器配置门户中完成配置步骤。 <br> **结果**：你会收到用于长篇配置的 FDI 记录。| **操作**：与 Epic 技术专家合作，在 Epic 中配置 FDI 记录。<br> **结果**：配置已完成。 准备测试。|**操作**：在测试环境中完成测试。<br> **结果**：对流进行完整验证，并决定转移到生产环境。|
 
-- 组织必须具有 2018 年 11 月或更高版本的 Epic 版本。
+### <a name="request-access-to-the-teams-app"></a>请求访问 Teams 应用
 
-- 系统必须满足所有[软件和浏览器先决条件](../../hardware-requirements-for-the-teams-app.md)。
+你需要请求访问 Teams 应用。
 
-还需要组织中以下人员的信息：
+1. 请求在长篇Teams[应用商店中下载该应用](https://apporchard.epic.com/Gallery?id=6153)。 执行此操作会触发从 Epic 到 Microsoft EHR 连接器团队的请求。
+1. 发出请求后，向用户 TeamsForHealthcare@microsoft.com 包含[](mailto:TeamsForHealthcare@microsoft.com)组织名称、租户 ID 和重要技术联系人的电子邮件地址的电子邮件。
+1. Microsoft EHR 连接器团队将回复你的电子邮件，确认启用。
 
-- Microsoft 365 管理员
+### <a name="review-the-epic-microsoft-teams-telehealth-integration-guide"></a>查看 Epic-Microsoft Teams Telehealth 集成指南
 
-- Epic 客户分析员
+与你的 Epic 技术专家一起查看 [Epic-Microsoft Teams 远程医疗集成指南](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357)。 请确保满足所有先决条件。
 
-> [!Note]
-> 与你的 Epic 技术专家一起查看 [Epic-Microsoft Teams 远程医疗集成指南](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357)。 请确保完成所有先决条件。 
+## <a name="prerequisites"></a>先决条件
 
-## <a name="connector-setup"></a>连接器设置
+- Microsoft Cloud for Healthcare 的活动订阅或 Microsoft Teams EHR 连接器独立产品/ (仅在生产 EHR 环境中测试时强制执行) 。
+- 2018 年 11 月或更高版本的长篇故事版本。
+- 用户具有适当的Microsoft 365或Office 365许可证，其中包括Teams会议。
+- Teams已在你的医疗保健组织中采用和使用。
+- 系统满足[所有软件和浏览器要求，Teams。](../../hardware-requirements-for-the-teams-app.md)
+
+> [!IMPORTANT]
+> 在继续集成之前，请确保完成预集成步骤并满足所有先决条件。
+
+集成步骤由组织中以下人员执行：
+
+- **Microsoft 365全局管理员**：负责集成的主要人员。 管理员将配置连接器，根据需要 (SMS) ，并添加要批准配置的 Epic 客户分析师。
+- **长篇故事** 客户分析师：组织中具有"长篇故事"登录凭据的人。 他们批准管理员输入的配置设置，并为 Epic 提供配置记录。
+
+Microsoft 365管理员和 Epic 客户分析师可以是同一个人。
+
+## <a name="set-up-the-teams-ehr-connector"></a>设置 Teams EHR 连接器
 
 连接器设置要求你执行以下操作：
 
-- [启动 EHR 连接器配置门户](ehr-admin.md#launch-the-ehr-connector-configuration-portal)
-- [配置信息](ehr-admin.md#configuration-information)
-- [批准或查看配置](ehr-admin.md#approve-or-view-configuration)
-- [查看和完成配置](ehr-admin.md#review-and-finish-the-configuration)
+- [启动 EHR 连接器配置门户](#launch-the-ehr-connector-configuration-portal)
+- [输入配置信息](#enter-configuration-information)
+- [启用短信通知 (可选) ](#enable-sms-notifications-optional)
+- [批准或查看配置](#approve-or-view-the-configuration)
+- [查看和完成配置](#review-and-finish-the-configuration)
 
-### <a name="launch-the-ehr-connector-configuration-portal"></a>[启动 EHR 连接器配置门户](#launch-the-ehr-connector-configuration-portal)
+### <a name="launch-the-ehr-connector-configuration-portal"></a>启动 EHR 连接器配置门户
 
-首先启动 EHR 连接器配置门户，将医疗保健组织配置为Microsoft Teams虚拟访问。 可配置一个或多个组织来测试集成。 在配置门户中配置测试和生产 URL。 在投入生产之前，请从 Epic 的测试环境测试集成。
-  
-- EHR 连接器配置 URL：[https://ehrconnector.teams.microsoft.com](https://ehrconnector.teams.microsoft.com)
+若要开始，Microsoft 365启动[EHR](https://ehrconnector.teams.microsoft.com)连接器配置门户，然后使用其凭据Microsoft 365登录。
 
-你组织的 Microsoft 365 管理员和 Epic 客户分析员必须完成配置门户中的信息和集成步骤。 有关 Epic 配置步骤，请联系指派给贵组织的 Epic 技术专家资源。
+你的Microsoft 365管理员可以配置单个组织或多个组织来测试集成。 在配置门户中配置测试和生产 URL。 在迁移到生产环境之前，请确保从长篇测试环境测试集成。
 
-### <a name="configuration-information"></a>[配置信息](#configuration-information)
+> [!NOTE]
+> 你的Microsoft 365管理员和 Epic 客户分析师必须在配置门户中完成集成步骤。 有关长篇大篇的配置步骤，请联系分配到组织的长篇故事技术专家。
 
-此步骤应由 **Microsoft 365 管理员** 完成。 Microsoft 365 管理员必须启动连接器配置门户并使用 Microsoft 凭据登录才能开始配置过程。
+### <a name="enter-configuration-information"></a>输入配置信息
 
-若要完成此步骤，Microsoft 365 管理员必须从 Epic 技术专员处获得有效的快速医疗保健互操作性资源 (FHIR) 基本 URL，并获得负责批准配置的 Epic 客户分析员的用户名。 Microsoft 365 管理员必须启动连接器配置页面并使用 Microsoft 凭据登录才能开始配置过程。
+接下来，若要设置集成，Microsoft 365管理员执行以下操作：
 
-- FHIR 基本 URL 是与你的服务器 FHIR API 端点对应的静态地址。 示例 URL 为 `https://lamnahealthcare.org/fihr/auth/connect-ocurprd-oauth/api/FHDST`。
+1. 将快速运行状况互操作性资源添加到 () 的 FHIR 基 URL 中，并指定环境。 根据需要配置多个 FHIR 基 URL，具体取决于组织的需求和要测试的环境。
 
-- 配置审批者姓名是下一步j将负责审批配置的 Epic 客户分析员的姓名。 Epic 客户分析员是指你的组织中对 Epic 具有登录访问权限的人员。
+    - FHIR 基 URL 是对应于服务器 FHIR API 终结点的静态地址。 示例 URL 为 `https://lamnahealthcare.org/fihr/auth/connect-ocurprd-oauth/api/FHDST`。
 
-  ![将从 EHR 连接器中的列表中选择配置审批者的姓名。](../../media/teams-ehr-connector.png)
+    - 可以设置测试和生产环境的集成。 对于初始设置，建议在迁移到生产环境之前从测试环境配置连接器。
 
-### <a name="approve-or-view-configuration"></a>[批准或查看配置](#approve-or-view-configuration)
+1. 添加将在稍后的步骤中批准配置的 Epic 客户分析师的用户名。
 
-已添加为审批者医疗保健组织的 Epic 客户分析师现在必须使用上一步骤中的同一 EHR 连接器 URL 来使用其 Microsoft 365 凭据登录。 验证成功后，审批者必须使用其 Epic 凭据登录以验证 Epic 组织。
+    :::image type="content" source="media/ehr-connector-epic-configure.png" alt-text=""配置"页的屏幕截图，显示正在添加的审批者。" lightbox="media/ehr-connector-epic-configure.png":::
+
+### <a name="enable-sms-notifications-optional"></a>启用短信通知 (可选) 
+
+> [!NOTE]
+> 短信通知目前仅在美国可用。 我们正在努力在将来发布的新版中向其他区域提供此功能Teams并更新本文（如果可用）。 
+
+如果你的组织希望 Microsoft 管理患者短信通知，请完成此步骤。 启用短信通知时，患者将收到有关计划虚拟访问的确认和提醒消息。
+
+若要启用短信通知，Microsoft 365管理员执行以下操作：
+
+1. 在"短信通知"页面上，选中以下两个许可复选框：
+
+    - 允许 Microsoft 代表组织向患者发送短信通知。
+    - 确认你将确保与会者已同意发送和接收短信。
+    
+    :::image type="content" source="media/ehr-connector-epic-sms-notifications.png" alt-text="短信通知页面的屏幕截图，显示同意复选框和生成电话号码的选项。" lightbox="media/ehr-connector-epic-sms-notifications.png":::
+
+1. 在 **"电话号码"** 下，选择"生成 **新** 电话号码"，为组织生成电话号码。 执行此操作会启动请求并生成新电话号码的过程。 此过程最多可能需要 2 分钟才能完成。
+
+    生成电话号码后，它将显示在屏幕上。 此号码将用于向患者发送短信确认和提醒。 该号码已预配，但尚未链接到 FHIR 基 URL。 下一步中会执行该步骤。
+
+    :::image type="content" source="media/ehr-connector-epic-phone-number.png" alt-text="显示已生成的电话号码的示例的屏幕截图。" lightbox="media/ehr-connector-epic-phone-number.png":::
+
+    选择 **"完成**"，然后选择"下 **一步"。**
+
+1. 若要将电话号码链接到 FHIR 基 URL，请在 **电话"短信** 配置"**部分中选择该** 号码。 针对要启用短信通知的每个 FHIR 基 URL 执行此操作。
+
+    :::image type="content" source="media/ehr-connector-epic-link-phone-number.png" alt-text="显示如何将电话号码链接到 FHIR 基 URL 的屏幕截图。" lightbox="media/ehr-connector-epic-link-phone-number.png":::
+
+    如果这是第一次配置连接器，则会看到在上一步中输入的 FHIR 基 URL。 同一电话号码可以链接到多个 FHIR 基 URL，这意味着患者将收到来自不同组织和/或部门相同电话号码的短信通知。
+
+1. 选择 **每个** FHIR 基 URL 旁边的"短信设置"，设置要发送给患者短信通知的类型。
+
+    :::image type="content" source="media/ehr-connector-epic-sms-setup.png" alt-text="显示短信设置设置的屏幕截图。" lightbox="media/ehr-connector-epic-sms-setup.png":::
+
+    - **确认短信**：在 EHR 系统中安排、更新或取消虚拟访问时，向患者发送通知。
+    - **提醒短信**：根据指定的时间间隔和虚拟访问的计划时间，向患者发送通知。
+
+    选择" **保存**"。
+
+1. 选择 **Upload证书** 上传公钥证书。 必须上传 Base64 编码的 (公钥，) 环境的 .cer 证书。
+
+    需要公钥证书才能接收发送短信通知的约会信息。 需要证书才能验证传入的信息是否来自有效源。
+
+    当连接器用于发送短信提醒时，当在长篇故事中创建约会时，长篇故事以 HL7v2 有效负载发送患者的电话号码。 这些号码存储为组织地理位置的每个约会，并保留到约会发生。 若要详细了解如何配置 HL7v2 消息，请参阅[Telehealth Microsoft Teams集成指南](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357)。
+
+    选择"下 **一步"。**
+
+> [!NOTE]
+> 你的管理员Microsoft 365随时更新任何短信设置。 请记住，更改设置可能会导致短信服务停止。 若要详细了解如何查看短信报告，请参阅 Teams [EHR 连接器管理员报告](ehr-admin-reports.md)。
+
+### <a name="approve-or-view-the-configuration"></a>批准或查看配置
+
+组织中已添加为审批者的客户分析师启动[EHR](https://ehrconnector.teams.microsoft.com)连接器配置门户，使用其凭据Microsoft 365登录。 成功验证后，要求审批者使用其长篇凭据登录以验证"长篇故事"组织。
 
 > [!Note]
-> 你组织的 Microsoft 365 管理员和 Epic 客户分析员可以是同一个人。 在这种情况下，请将你自己的用户名添加为审批者。 你仍需要登录到 Epic 验证你的访问权限。 Epic 登录仅用于验证 FHIR 基本 URL。 Microsoft 不会通过此登录来存储凭据或访问 EHR 数据。
+> 如果 Microsoft 365管理员和 Epic 客户分析师是同一个人，你仍然需要登录到 Epic 来验证访问权限。 长篇登录仅用于验证 FHIR 基 URL。 Microsoft 不会通过此登录存储凭据或访问 EHR 数据。
 
-  ![验证和审批凭据配置。](../../media/approve-view-configuration.png)
+:::image type="content" source="media/ehr-connector-epic-login-approve.png" alt-text=""批准或查看配置"页的屏幕截图，显示"登录和批准"选项。" lightbox="media/ehr-connector-epic-login-approve.png":::
 
-成功登录 Epic 后，Epic 客户分析员 **必须** 审批配置。 如果配置不正确，Microsoft 365 管理员能够再次登录到 Microsoft EHR 连接器门户来修改原始配置。 
+成功登录到 Epic 后，Epic 客户分析师 **必须** 批准配置。 如果配置不正确，Microsoft 365管理员可以登录到配置门户并更改设置。
 
-![确认已配置 EHR 连接器以及更改配置的选项。](../../media/ehc-approve-3.png)
+:::image type="content" source="media/ehr-connector-epic-approve.png" alt-text=""批准"或"查看配置"页的屏幕截图，显示"批准"选项。" lightbox="media/ehr-connector-epic-approve.png":::
 
-### <a name="review-and-finish-the-configuration"></a>[查看和完成配置](#review-and-finish-the-configuration)
+### <a name="review-and-finish-the-configuration"></a>查看和完成配置
 
-在配置信息获得 Epic 管理员批准后，系统将为你提供用于患者和提供商启动的集成记录。 这些记录是完成 Azure 中的虚拟就诊配置所必需的。 有关更多详细信息，请参阅《Epic-Microsoft Teams 远程医疗集成指南》。
+在配置信息获得 Epic 管理员批准后，系统将为你提供用于患者和提供商启动的集成记录。 集成记录包括：
+
+- 患者和提供者记录
+- 直接短信记录
+- 短信配置记录
+- 设备测试配置记录
+
+Epic 客户分析师必须将这些记录提供给 Epic，以完成 Epic 中的虚拟访问配置。 有关详细信息，请参阅[Epic-Microsoft Teams Telehealth 集成指南](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357)。
 
 > [!Note]  
-> Microsoft 365 或 Epic 客户分析员可以随时登录配置门户来查看集成记录并根据需要修改组织配置。
+> 客户或Microsoft 365客户分析师随时都可以登录到配置门户，查看集成记录并根据需要更改组织配置。
 
-![将显示集成信息。](../../media/finish-configuration.png)
+:::image type="content" source="media/ehr-connector-epic-finish.png" alt-text=""审阅和完成"页的屏幕截图，显示集成信息。" lightbox="media/ehr-connector-epic-finish.png":::
 
 > [!Note]
-> Epic 客户分析员必须对 Microsoft 管理员之前配置的每个 FHIR URL 完成审批过程。
-
-![配置信息已获得批准。](../../media/approve-configuration-2.png)
+> Epic 客户分析师必须完成由管理员配置的每个 FHIR 基 URL 的审批Microsoft 365过程。
 
 ## <a name="launch-teams-virtual-visits"></a>启动 Teams 虚拟就诊
 
-完成 EHR 连接器步骤和长篇大作配置后，组织已准备好使用 Microsoft Teams 支持视频访问。
+完成 EHR 连接器步骤和长篇大作配置后，组织已准备好使用 Teams 支持视频访问。
 
 ### <a name="virtual-visit-prerequisites"></a>虚拟就诊先决条件
 
-- 系统必须满足所有[软件和浏览器先决条件](../../hardware-requirements-for-the-teams-app.md)。
+- 系统必须满足所有[软件和浏览器要求，Teams。](../../hardware-requirements-for-the-teams-app.md)
 
-- 医疗保健组织必须已完成 Epic 组织和 Microsoft 365 组织之间的设置。
+- 你已完成了长篇故事组织和你的组织之间的Microsoft 365设置。
 
 ### <a name="provider-experience"></a>提供商体验
 
-你组织的医疗保健提供商还可以从其 Epic 提供商应用程序（Hyperspace、Haiku、Canto）通过 Microsoft Teams 加入虚拟就诊。 提供商流中嵌入了“**开始虚拟就诊**”按钮。
+贵组织的医疗保健提供商可以使用来自 Hyperspace、Haiku Teams Canto (的长篇大作提供商应用加入虚拟) 。 提供商流中嵌入了“**开始虚拟就诊**”按钮。
 
 提供商体验的主要功能：
 
-- 提供商可以使用支持的浏览器或 Microsoft Teams 应用程序加入虚拟就诊。
+- 提供程序可以使用支持的浏览器或应用加入虚拟Teams访问。
 
 - 在首次加入虚拟就诊时，提供商必须使用其 Microsoft 365 帐户进行一次性登录。
 
-- 一次登录后，提供商将直接进入 Microsoft Teams 中的虚拟约会。（提供上必须登录到 Microsoft Teams）。
+- 一次登录后，提供程序将直接进入 Teams 中的虚拟Teams。  (提供程序必须登录到 Teams) 。
 
-- 提供商可以查看给定预约的参与者连接和断开连接实时更新。 提供商可以查看患者何时连接到虚拟就诊。
+- 提供商可以看到给定约会的参与者连接和断开连接实时更新。 提供商可以看到患者何时连接到虚拟访问。
 
-  ![与患者进行虚拟访问的提供商体验。](../../media/ehc-provider-experience-6.png)
+  ![与患者进行虚拟访问的提供商体验。](media/ehc-provider-experience-6.png)
+
+> [!NOTE]
+> 在会议聊天中输入的出于医疗记录连续性或保留目的所需的任何信息都应由医疗保健提供商下载、复制和表示。 聊天不构成法律医疗记录或指定的记录集。 聊天中的消息根据管理员创建的设置Microsoft Teams存储。
 
 ### <a name="patient-experience"></a>患者体验
 
@@ -156,27 +242,30 @@ Microsoft Teams EHR) 连接器的 EHR (电子健康记录使医生能够轻松�
 
 患者体验的主要功能：
 
-- 患者无需安装应用即可从桌面和移动设备上的现代 Web 浏览器 [加入虚拟访问](../mobile-browser-join.md)。
+- 患者可以在桌面和移动设备上通过新式 Web 浏览器加入虚拟访问，而无需安装Teams[应用](../mobile-browser-join.md)。
 
-- 患者只需单击一下即可加入虚拟就诊，无需其他帐户或登录。
+- 患者只需单击一次即可加入虚拟访问，无需其他帐户或登录。
 
 - 患者无需创建 Microsoft 帐户或登录即可启动虚拟就诊。
 
-- 患者将被置于大厅中，直到医疗保健提供商加入预约并准许患者进行虚拟就诊。
+- 病人被安排在大厅中，直到提供商加入预约并准许他们进行虚拟访问。
 
-- 加入虚拟就诊之前，可在大厅中测试视频和麦克风。
+- 患者可以在加入虚拟访问之前在大厅中测试视频和麦克风。
 
-  ![虚拟访问患者体验。](../../media/ehc-virtual-visit-5.png)
+  ![虚拟访问患者体验。](media/ehc-virtual-visit-5.png)
 
 > [!Note]
 > Epic、MyChart、Haiku 和 Canto 是 Epic Systems Corporation 的商标。
 
 ### <a name="privacy-and-location-of-data"></a>隐私和数据位置
 
-Teams 与 EHR 系统集成可优化集成和虚拟就诊流期间正在使用和存储的数据量。 该解决方案遵循“Teams 隐私”中概述的总体 Teams 隐私和数据管理原则和准则。
+Teams EHR 系统集成可以优化集成和虚拟访问流期间使用和存储的数据量。 该解决方案遵循“Teams 隐私”中概述的总体 Teams 隐私和数据管理原则和准则。
 
-Microsoft Teams EHR 连接器不会存储或传输来自 EHR 系统的任何可识别个人数据或者患者或医疗保健提供商的任何健康记录。 EHR 连接器存储的唯一数据是 EHR 用户的唯一 ID，该 ID 在 Teams 会议设置期间使用。 EHR 用户的唯一 ID 存储在“[Microsoft 365 客户数据的存储位置](/microsoft-365/enterprise/o365-data-locations)”中所述的三个地理区域之一。 会议参与者在 Teams 中输入的所有聊天、记录和其他数据都将根据现有的存储策略进行存储。 如需了解有关 Microsoft Teams 中的数据位置的更多信息，请访问 [Teams 中的数据位置](../../location-of-data-in-teams.md)。
+EHR 连接器Teams EHR 系统不存储或传输任何可识别的个人数据或患者或医疗保健提供商的任何健康记录。 EHR 连接器存储的唯一数据是 EHR 用户的唯一 ID，该 ID 在 Teams 会议设置期间使用。
 
-## <a name="related-topics"></a>相关主题
+EHR 用户的唯一 ID 存储在“[Microsoft 365 客户数据的存储位置](/microsoft-365/enterprise/o365-data-locations)”中所述的三个地理区域之一。 会议参与者在会议Teams共享的所有聊天、录制和其他数据都根据现有存储策略进行存储。 若要了解有关数据在数据中的位置Teams，[请参阅数据在](../../location-of-data-in-teams.md)Teams。
 
-[Teams EHR 连接器管理员报告](ehr-admin-reports.md)
+## <a name="related-articles"></a>相关文章
+
+- [Teams EHR 连接器管理员报告](ehr-admin-reports.md)
+- [医疗保健Teams入门](teams-in-hc.md)
