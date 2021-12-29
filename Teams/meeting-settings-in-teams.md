@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 了解如何管理用户在组织中安排的 Teams 会议的设置。
-ms.openlocfilehash: 4ff1118818ac22040e9bf9f8c44288991e24d8b0
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: ed042552ea6057c8184b4dad444afa543550b052
+ms.sourcegitcommit: 3b5ae6ebf4384166c628f66a4f17e6fe4455b708
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205302"
+ms.lasthandoff: 12/29/2021
+ms.locfileid: "61625913"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理会议设置
 
@@ -46,7 +46,7 @@ ms.locfileid: "61205302"
 
 你必须是 Teams 管理员才能进行这些更改。 请参阅 [Teams 管理员角色管理 Teams](./using-admin-roles.md) ，了解管理员角色和权限。
 
-1. 转到 [Microsoft Teams 管理中心](https://admin.teams.microsoft.net)。
+1. 转到 [Microsoft Teams 管理中心](https://admin.teams.microsoft.com)。
 
 2. 在左侧导航中，转到“**会议**” > “**会议设置**”。
 
@@ -84,7 +84,7 @@ ms.locfileid: "61205302"
 
 只有 Teams 服务管理员才能访问此设置。 请参阅 [Teams 管理员角色管理 Teams](./using-admin-roles.md) ，了解管理员角色和权限。
 
-1. 转到“管理中心”。
+1. 转到 [Microsoft Teams 管理中心](https://admin.teams.microsoft.com)。
 
 2. 在左侧导航中，转到“**会议**” > “**会议设置**”。
 
@@ -109,7 +109,7 @@ ms.locfileid: "61205302"
 
  **使用 Microsoft Teams 管理中心**
 
-1. 转到“管理中心”。
+1. 转到 [Microsoft Teams 管理中心](https://admin.teams.microsoft.com)。
 2. 在左侧导航中，转到“**会议**” > “**会议设置**”。
 3. 在“**电子邮件邀请**”下，执行以下操作：
 
@@ -141,7 +141,7 @@ ms.locfileid: "61205302"
 > 如果为 Teams 服务在 Microsoft Teams 管理中心启用 QoS 或更改设置，还需要 [将匹配设置应用到所有用户设备](QoS-in-Teams-clients.md) 以及所有内部网络设备，以在 Teams 中完全实施 QoS 更改。
 
   **使用 Microsoft Teams 管理中心**
-1. 转到“管理中心”。
+1. 转到 [Microsoft Teams 管理中心](https://admin.teams.microsoft.com)。
 2. 在左侧导航中，转到“**会议**” > “**会议设置**”。
 3. 在“**网络**”下，执行以下操作：
 

@@ -20,19 +20,20 @@ f1.keywords:
 ms.custom:
 - Phone System
 - seo-marvel-apr2020
-description: 本文介绍 Microsoft 365 中的 Teams 电话系统 技术。
-ms.openlocfilehash: a0e1679c580ba6b53af7e43e6e8231a90b636e34
-ms.sourcegitcommit: 7cbcfd63161ce88067ce2d2548685c3746cd7f69
+- intro-overview
+description: 本文介绍 Teams 电话系统 中的Microsoft 365。
+ms.openlocfilehash: 7d873ac9ec3b4d31eea8d5a002ba0b5ba752f7cb
+ms.sourcegitcommit: 3b5ae6ebf4384166c628f66a4f17e6fe4455b708
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/02/2021
-ms.locfileid: "61262126"
+ms.lasthandoff: 12/29/2021
+ms.locfileid: "61625803"
 ---
 # <a name="what-is-teams-phone"></a>什么是Teams 电话
 
-Teams 电话是 Microsoft 在云中启用呼叫控制和专用分支Exchange (PBX) 功能的技术，Microsoft 365云Microsoft Teams。
+Teams 电话是 Microsoft 在云中启用呼叫控制和专用分支 Exchange (PBX) 功能的技术，Microsoft 365云Microsoft Teams。
 
-Teams 电话适用于Teams客户端和认证的设备。 Teams 电话将现有 PBX 系统替换为一组直接从 MICROSOFT 365。
+Teams 电话客户端Teams认证的设备。 Teams 电话允许将现有 PBX 系统替换为一组直接从 Microsoft 365。
 
 组织中用户之间的呼叫在内部处理Teams 电话，永远不会转到 PSTN (电话) 。 这适用于组织中位于不同地理区域的用户之间的呼叫，消除了这些内部呼叫的远程成本。 
 
@@ -40,11 +41,11 @@ Teams 电话适用于Teams客户端和认证的设备。 Teams 电话将现有 P
 
 ## <a name="teams-phone-features"></a>Teams 电话功能
 
-使用Teams 电话，用户可以使用Teams发送和接收呼叫、转接呼叫以及将呼叫设为静音或取消静音。 Teams 电话用户可以单击其通讯簿中的姓名，Teams呼叫该人员。 要拨打和接听呼叫，Teams 电话用户可以使用其移动设备、带笔记本电脑或电脑的耳机，或者许多使用 Teams 的 IP 电话之一。 
+使用Teams 电话，用户可以使用Teams发送和接收呼叫、转接呼叫以及将呼叫设为静音或取消静音。 Teams 电话用户可以单击其通讯簿中的姓名，Teams呼叫该人员。 要拨打和接听呼叫，Teams 电话用户可以使用其移动设备、带笔记本电脑或电脑的耳机，或者使用许多 IP 电话之一Teams。 
 
 Teams 电话管理员可以从用于消息传递、协作等的同一主机管理呼叫选项和设置。
 
-有关这些功能[Teams 电话，请参阅此处](here-s-what-you-get-with-phone-system.md)是使用 Teams 电话。
+有关这些功能Teams 电话，请参阅此处是使用[Teams 电话。](here-s-what-you-get-with-phone-system.md)
   
 
 ## <a name="connect-to-the-public-switched-telephone-network-pstn"></a>连接 PSTN 公用电话交换网 (PSTN) 
@@ -70,7 +71,7 @@ Teams 电话可用于服务和语音邮件，例如：
 
 - **语音邮件**- 云语音邮件自动为所有用户设置Teams设置。 请参阅[设置云语音邮件。](set-up-phone-system-voicemail.md)
 
-有关功能详细信息，[请参阅此处是使用 Teams 电话。](here-s-what-you-get-with-phone-system.md) 如果已准备好开始，请参阅在Teams 电话[中设置帐户](setting-up-your-phone-system.md)。
+有关功能详细信息，请参阅[此处是使用 Teams 电话。](here-s-what-you-get-with-phone-system.md) 如果已准备好开始，请参阅在Teams 电话[设置帐户](setting-up-your-phone-system.md)。
 
 ## <a name="related-topics"></a>相关主题
 
