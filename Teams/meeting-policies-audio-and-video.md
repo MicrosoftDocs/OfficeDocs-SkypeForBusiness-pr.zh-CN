@@ -18,13 +18,13 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.audioandvideo
 - seo-marvel-apr2020
-description: 了解如何在音频和视频Teams管理会议策略设置。
-ms.openlocfilehash: 9cd2a82c87106e8060d168766915e4249b9193a5
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+description: 了解如何在音频和视频的Teams管理会议策略设置。
+ms.openlocfilehash: 9513650bf9c177154b45d7bd5dcda85354cf390b
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61177993"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766945"
 ---
 # <a name="meeting-policy-settings-for-audio--video"></a>音频和视频的会议&设置
 
@@ -49,7 +49,7 @@ ms.locfileid: "61177993"
 |**已启用传出和传入音频**    |会议允许传出和传入音频。这是默认设置。 |
 |**禁用**     |传出和传入音频在会议中已关闭。     |
 
-如果用户设置为 **"已** 禁用"，该用户仍可以安排和组织会议，但他们不能使用音频。 若要加入会议，他们必须通过 PSTN 公用电话交换网 (电话) 或通过电话拨入会议呼叫并加入会议。 没有指定任何策略的会议参与者 (例如，匿名参与者) 将此设置为默认 **启用传出和传入音频**。 在 Teams 移动客户端上，如果禁用此设置，用户必须通过 PSTN 拨入会议。
+如果用户设置为 **"已** 禁用"，该用户仍可以安排和组织会议，但他们不能使用音频。 要加入会议，他们必须通过 PSTN 公用电话交换网 (电话) 或通过电话拨入会议呼叫并加入。 没有指定任何策略的会议参与者 (例如，匿名参与者) 将此设置为默认 **启用传出和传入音频**。 在 Teams 移动客户端上，如果禁用此设置，用户必须通过 PSTN 拨入会议。
 
 此设置不适用于 1:1 呼叫。 若要限制 1:1 通话，请配置 Teams [通话策略](teams-calling-policy.md) 并关闭 **“进行私人通话”** 设置。 此设置也不适用于 Surface Hub 和 Microsoft Teams 会议室设备等会议室设备。
 
@@ -133,7 +133,7 @@ ms.locfileid: "61177993"
 
 #### <a name="teams-mobile-clients"></a>Teams 移动设备客户端
 
-对于Teams客户端上的用户，会议期间共享照片和视频的能力也取决于 **IP 视频** 或 **IP 视频模式** 设置。 根据策略设置优先，将无法使用分享视频和照片的功能。 这不会影响屏幕共享，可以使用单独的 [屏幕共享模式](meeting-policies-content-sharing.md#screen-sharing-mode) 设置进行配置。 此外，还可以设置 [Teams 移动性策略](/powershell/module/skype/new-csteamsmobilitypolicy)，防止移动用户通过蜂窝连接使用 IP 视频，这意味着他们必须使用 WiFi 连接。
+对于使用Teams客户端的用户，会议期间共享照片和视频的能力也取决于 **IP 视频** 或 **IP 视频模式** 设置。 根据策略设置优先，将无法使用分享视频和照片的功能。 这不会影响屏幕共享，可以使用单独的 [屏幕共享模式](meeting-policies-content-sharing.md#screen-sharing-mode) 设置进行配置。 此外，还可以设置 [Teams 移动性策略](/powershell/module/skype/new-csteamsmobilitypolicy)，防止移动用户通过蜂窝连接使用 IP 视频，这意味着他们必须使用 WiFi 连接。
 
 ### <a name="media-bit-rate-kbs"></a>媒体位率 (Kbs)
 
@@ -151,7 +151,7 @@ ms.locfileid: "61177993"
 
 可以使用管理中心Teams PowerShell 设置此策略。 可以使用 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet 编辑现有的 Teams 会议策略。 或者，使用 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet 创建一个新的 Teams 会议策略，然后将该策略分配给用户。
 
-若要指定用户是否可以在会议中自定义其视频背景，请在管理中心中设置 **VideoFiltersMode** 参数 (选择视频筛选器Teams设置) 如下所示：
+若要指定用户是否可以在会议中自定义其视频背景，请在 Teams 管理中心中设置 **VideoFiltersMode** 参数 (选择视频筛选器设置) 如下所示： 
 
 |在 PowerShell 中设置值|在管理中心Teams值 |行为  |
 |---------|---------|---------|
@@ -196,6 +196,9 @@ ms.locfileid: "61177993"
 
 > [!NOTE]
 > 更改最多可能需要 24 小时才能生效。
+
+> [!NOTE]
+> 此功能在公共预览版中暂时可供所有Microsoft Teams使用。 若要在预览版后获取此功能，每个用户都需要高级通信附加许可证。 有关详细信息，请参阅 [Microsoft Teams 高级通信附加产品](/microsoftteams/teams-add-on-licensing/advanced-communications)。
 
 ## <a name="related-topics"></a>相关主题
 

@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e59f219d24f6441615d794f23e73274e817f6a3b
-ms.sourcegitcommit: 2aae13454178dc2e2cbc8cca967cd181c5f9d044
+ms.openlocfilehash: 4c5f178c5b8da9bf2ed62b06b9c499d676c076e2
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/06/2021
-ms.locfileid: "61314241"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61767715"
 ---
 # <a name="plan-for-sip-gateway"></a>SIP 网关计划
 
@@ -37,28 +37,28 @@ SIP 网关允许组织将任何兼容的 SIP 设备与 Microsoft Teams，以保�
 SIP 网关将兼容的 SIP 设备连接到 Teams，以帮助用户无缝迁移到Teams服务。 使用 SIP 网关，用户可以执行以下所有操作：
 
 - **进行调用：** SIP 设备用户可以呼叫公用电话交换电话网络 (PSTN) 、呼叫其他 SIP 设备以及呼叫Teams Skype for Business用户。 SIP 设备用户只能呼叫具有电话号码的用户。
-- **接收呼叫：** SIP 设备用户可以从 PSTN、拥有 SIP 设备的 Teams 或 Skype for Business 用户、来自 Teams 和 Skype for Business 客户端应用程序接收呼叫。 SIP 设备充当Teams终结点。 入站呼叫也将分叉到用户的 SIP 设备。
+- **接收呼叫：** SIP 设备用户可以从 PSTN、具有 SIP 设备的 Teams 或 Skype for Business 用户、来自 Teams 和 Skype for Business 客户端应用程序接收呼叫。 SIP 设备充当Teams终结点。 入站呼叫也将分叉到用户的 SIP 设备。
 - **多个同时调用：** 呼叫中的 SIP 设备用户可以将呼叫置于保持状态以拨打或接听其他呼叫。 SIP 设备用户还可以召开两次通话。
-- **请勿打扰：** SIP 设备用户可以在设备上设置"请勿打扰"，以便设备不会拨打传入呼叫。 这不会影响用户对所有其他终结点Teams状态。
+- **请勿打扰：** SIP 设备用户可以在设备上设置"请勿打扰"，以便设备不会拨打传入呼叫。 这不会影响用户在其他所有终结点上Teams状态。
 - **保持/恢复和静音/取消静音：** SIP 设备用户可以通过使用设备上这些操作的功能来保持呼叫、恢复呼叫或者将呼叫静音和取消静音。
 - **语音邮件：** SIP 设备用户可以收听呼叫者留下的电子存储语音消息。
 - **消息等待指示器：** SIP 设备用户可以接收通知，在有新的语音邮件时提醒他们。
 - **登录和注销：** SIP 设备用户可以在设备上登录Teams注销。
 - **双音多频率：** SIP 设备用户可以在交互式语音响应呼叫期间按数字键提供输入。
-- **Teams会议：SIP** 设备用户Teams拨会议访问号码加入会议。 目前不支持拨打同一组织用户的电话号码。 但是，来自另一组织的来宾用户Teams拨出到来宾用户号码以包括该来宾的参与者添加到会议。 **注意：** 通过Teams加入请求"添加会议参与者当前不会向 SIP 设备发出警报。
+- **Teams会议：SIP** 设备用户Teams拨会议访问号码加入会议。 目前不支持拨打同一组织用户的电话号码。 但是，可以将来自另一组织的来宾用户添加到 Teams 会议，参与者可以拨出来宾用户号码以包括该来宾。 **注意：** 通过Teams加入请求"添加会议参与者当前不会向 SIP 设备发出警报。
 - **呼叫转接：** SIP 设备用户可以转接呼叫。 SIP 网关支持失明和咨询传输。
 - **本地呼叫转发：** SIP 设备用户可以为设备设置 (、超时和) 转发规则。 如果设备已连接到 SIP 网关，则呼叫将基于设备用户设置的规则重定向到目标地址。 若要使本地呼叫转发工作，管理员必须将 `AllowCallRedirect` 中的 属性设置为 `Set-CsTeamsCallingPolicy` `Enabled` 。 
 
 
 ## <a name="requirements-to-use-sip-gateway"></a>使用 SIP 网关的要求
 
-Teams必须已启用 PTSN 呼叫的电话号码，以便使用 SIP 网关。
+Teams必须拥有已启用 PSTN 呼叫的电话号码，以便使用 SIP 网关。
 
 ### <a name="hardware-software-and-licenses"></a>硬件、软件和许可证
 
 如果你有 3PIP 或 SIP 设备，则必须具有： 
 - 用于通过 E5 电话系统 (或独立许可证的许可证) 
-- PTSN (，即，通过呼叫) 、直接路由或接线员Microsoft Teams电话号码连接
+- PSTN 启用 (，即，通过呼叫) 、直接路由Microsoft Teams或接线员连接
 - 适用于任何电话设备的公用区域设备许可证
 
 ## <a name="compatible-devices"></a>兼容的设备

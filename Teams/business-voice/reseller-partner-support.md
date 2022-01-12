@@ -8,13 +8,13 @@ ms.service: msteams
 audience: admin
 f1.keywords:
 - NOCSH
-ms.localizationpriority: high
+ms.localizationpriority: medium
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: 了解如何获得 Microsoft 经销商或合作伙伴的支持，以帮助在没有通话套餐的情况下设置 Microsoft 365 商务语音。
+description: 了解如何从 Microsoft 经销商或合作伙伴获得支持，帮助你在没有Microsoft Teams 电话套餐的情况下进行设置。
 appliesto:
 - Microsoft Teams
 no-loc:
@@ -24,35 +24,32 @@ no-loc:
 - Teams
 - Microsoft Teams
 - Office 365
-ms.openlocfilehash: 830ae9c32ab64d672582cb9620a94b320e15e6b0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
-ms.translationtype: HT
+ms.openlocfilehash: 31424575d50127161a89f629894673d24f77877b
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618668"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766985"
 ---
 # <a name="get-help-from-a-microsoft-reseller-or-partner"></a>从 Microsoft 经销商或合作伙伴处获取帮助
 
-> [!IMPORTANT]
-> 本文中的信息仅适用于 **不包含** 通话套餐的商务语音。 阅读本文前，请查看[商务语音的国家和地区可用性](country-region-availability.md)，查看你所在的国家或地区是否支持使用包含通话套餐的商务语音。
->
-> 如果你的租户所在的国家或地区支持包含通话套餐的商务语音，请查看[设置 Microsoft 365 商务语音](set-up-overview.md)。
+若要设置Teams 电话，可以选择自己设置它或使用 Microsoft 合作伙伴或卖家。
 
-设置不包含通话套餐的商务语音需要配置手机系统直接路由。 直接路由可实现本地电话硬件、Microsoft Phone 系统（业务语音的核心功能）和第三方公用电话交换网 (PSTN) 提供商之间的互操作性。 由于直接路由需要深入了解 Microsoft Phone 系统、PSTN 连接、网络和其他技术技巧，因此我们建议由 Microsoft 合作伙伴或卖方对其进行设置。 此外，不包含通话套餐的商务语音的许可证仅可从 Microsoft 合作伙伴和经销商处获得。
+可以通过访问与合作伙伴的连接[查找 Microsoft 经销商或](https://appsource.microsoft.com/marketplace/partner-dir)合作伙伴。
 
 Microsoft 合作伙伴或经销商可以：
 
-- 获取适用于租户和手机用户的正确商务语音许可证
-- 帮助你理解设置商务语音的技术要求
-- 与电话提供商进行协调，确保已正确设置用于商务语音的电话号码
+- 获取租户Teams 电话手机用户的正确许可证
+- 帮助你了解设置应用的技术Teams 电话
+- 与电话提供商协调，确保正确设置电话号码以用于Teams 电话
 - 设置本地电话服务硬件与 Microsoft 365 之间的通信
-- 帮助你设置“通话队列”、“自动助理”、“语音邮件”等商务语音功能
+- 帮助你设置Teams 电话队列、自动助理、语音邮件等功能
 
-就设置不包含通话套餐的商务语音事宜与 Microsoft 合作伙伴或经销商联系时，需要向其提供以下信息：
+与 Microsoft 合作伙伴或经销商联系时，Teams 电话在 (计划服务的情况下) ，需要提供如下信息：
 
 - 需要向外部电话号码去电/接听外部电话号码来电的用户、手机和其他设备的数量
 - 关于现有手机系统的详细信息
-- 有关手机系统与 PSTN 提供商之间连接的详细信息
+- 有关你的帐户与 PSTN Microsoft Teams 电话之间的连接的详细信息
 - 你的 Internet 连接
 - 有关你的组织的独特设计注意事项，如支持呼叫中心的需求、电话系统呼叫菜单（例如，按 1 转到销售部，按 2 转到技术支持部）、会议室、电话亭等。
 - 现有手机系统支持的位置数量以及它们之间的连接设置方式

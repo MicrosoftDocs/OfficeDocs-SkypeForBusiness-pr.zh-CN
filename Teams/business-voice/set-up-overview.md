@@ -1,5 +1,5 @@
 ---
-title: 设置Microsoft 365 商务语音
+title: 使用Microsoft 365 Teams 电话的呼叫计划设置服务
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -15,51 +15,38 @@ MS.collection:
 - Teams_Business_Voice
 ms.custom: intro-get-started
 search.appverid: MET150
-description: 了解如何在Microsoft 365 商务语音或组织中设置服务。
+description: 了解如何在Microsoft 365 Teams 电话或组织中使用呼叫计划设置呼叫计划。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 58c740a16a1ebb36ad886614b90f02c76167e695
-ms.sourcegitcommit: 3b5ae6ebf4384166c628f66a4f17e6fe4455b708
+ms.openlocfilehash: d7b8b400cbd2388470459f623d51715546116356
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/29/2021
-ms.locfileid: "61625773"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766255"
 ---
-# <a name="set-up-microsoft-365-business-voice"></a>设置Microsoft 365 商务语音
+# <a name="set-up-microsoft-365-teams-phone-with-calling-plan-for-small-to-medium-businesses"></a>使用Microsoft 365 Teams 电话的呼叫计划设置服务
 
-</br>
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWEu8R]  
-
-</br>
-
-Business Voice 是一个完整的电话系统，可以取代现有的电话提供商。 无论您是第一次设置电话号码的新企业，还是从旧版本地电话提供商发展的业务，这些文章中的步骤都可以帮助你启动并运行 Business Voice。 完成 Business Voice 设置后：
+"Teams 电话套餐"捆绑包是一个完整的电话系统，可以替换现有的电话提供商。 无论您是第一次设置电话号码的新企业，还是从旧版本地电话提供商发展的业务，这些文章中的步骤都可以帮助你通过呼叫计划捆绑包启动并运行 Teams 电话。 完成设置后：
 
 * 你将能够接听主要公司电话线路上的收费或免费电话呼叫。 您甚至可以设置呼叫菜单（如果需要）。
-* 使用 Business Voice 进行设置的用户将拥有其自己的直接拨号电话号码，他们可以使用这些号码从任何安装了语音Teams呼叫。
+* 使用"呼叫Teams 电话套餐许可证设置套餐的用户将具有其自己的直接拨号电话号码，他们可以使用这些号码从任何安装了 Teams 的设备拨打和接听电话。
 * 如果会议参与者无法从客户端加入会议，他们将能够使用常规电话Teams会议。
-* 如果你有现有电话号码，那么在将电话号码移动到 Business Voice 后，你将能够继续使用它们。
+* 如果您有现有电话号码，那么在将电话号码移动到呼叫套餐Teams 电话继续使用它们。
 
-如果要了解有关 Business Voice 的更多信息，请查看什么是[Microsoft 365 商务语音？。](whats-business-voice.md)
+若要详细了解适用于中小型企业的Teams 电话套餐套餐，请查看Teams 电话[和中型企业的指南](whats-business-voice.md)。
 
 > [!IMPORTANT]
-> 这些文章中的信息仅适用于具有呼叫计划的 Business **Voice。** 含通话套餐的商业语音仅在所选国家和地区可用。 在开始设置业务语音之前，请检查 Business [Voice](country-region-availability.md) 的"国家/地区"和"区域可用性"，以查看你的国家/地区是否支持使用呼叫计划使用 Business Voice。
->
-> 如果你的租户所在的国家或地区不支持含通话套餐的商务语音，请查看[从 Microsoft 经销商或合作伙伴处获取帮助](reseller-partner-support.md)。
->
-> 只有在用户的邮箱位于 Microsoft 365 中时，Microsoft Teams 和商务语音才可用。  不支持本地 Exchange Server 上的邮箱。
->
-> 此设置过程不支持Skype for Business部署。 如果你有 Skype for Business 混合部署，并且想要设置商务语音，请检查[在组织中设置电话系统](../setting-up-your-phone-system.md)。
+> Microsoft Teams Teams 电话用户邮箱位于除 Essentials 订阅者Microsoft 365 (之外Microsoft 365 Teams，) 。 不支持本地 Exchange Server 上的邮箱。
 
 ## <a name="before-you-begin"></a>开始之前
 
-在设置 Business Voice 之前，需要执行一些操作。 以下任务将确保您的组织已准备好使用 Business Voice。
+在设置套餐Teams 电话套餐之前，需要执行一些操作。 以下任务将确保您的组织准备就绪。
 
-* **购买商业语音许可证** ，如果要获取免费电话号码或进行远程电话呼叫，请购买通信信用额度。 有关详细信息，请参阅我需要购买哪些[产品以使用Microsoft 365 商务语音？。](what-to-buy.md)
-* **请确保 Internet 连接可以支持 Business Voice。** 有关详细信息，请参阅检查 [Business Voice 的 Internet 连接](get-ready-internet.md)。
-* **在Teams** 设备上设置语音信箱，设置语音邮件问候语，并帮助用户了解Teams。 有关详细信息，请参阅[如何让用户准备好使用Microsoft 365 商务语音？。](prepare-users.md)
+* **使用Teams 电话** 套餐许可证购买套餐，如果要获取免费电话号码或进行远程电话呼叫，请购买通信积分。 有关详细信息，请参阅需要购买哪些商品才能获得适用于中小型企业的语音[功能？。](whats-business-voice.md)
+* **请确保 Internet 连接可以支持 Teams 电话。** 有关详细信息，请参阅检查[Internet 连接Teams 电话。](get-ready-internet.md)
 
-为组织准备 Business Voice 后，选择"下一步 **： 开始设置业务语音"。**
+为组织准备呼叫计划Teams 电话，选择"下一步： 开始使用呼叫Teams 电话 **设置呼叫计划**" 。
 
 > [!div class="nextstepaction"]
-> [下一步：开始设置 Business Voice](set-up-emergency-locations.md)
+> [下一步：开始使用呼叫Teams 电话设置套餐](set-up-emergency-locations.md)

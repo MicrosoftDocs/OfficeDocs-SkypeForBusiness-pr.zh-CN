@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 管理员可以控制用户可以拨打的音频会议和最终用户 PSTN 呼叫的类型。
-ms.openlocfilehash: 43fda0e088cc0b7c29bd270d20f0701f0391f8ce
-ms.sourcegitcommit: 47f537a81659ec5ecb7dfdb57589fa133199ec57
+ms.openlocfilehash: 7f1ec4886c1e1ede22c280091f2ebce9965b6d3b
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2021
-ms.locfileid: "61066543"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766235"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>音频会议和用户 PSTN 通话的出站通话限制策略
 
@@ -42,7 +42,7 @@ ms.locfileid: "61066543"
 若要了解哪些国家和地区被视为区域 A，请参阅音频会议 [的国家和地区区域](audio-conferencing-zones.md)。
 
    > [!NOTE]
-   > 如果拨打的号码位于为会议组织者设置 Microsoft 365 或 Office 365 的国家/地区（对于音频会议 () ）或最终用户 (（对于最终用户 PSTN 呼叫) ）中，呼叫被视为国内呼叫。
+   > 如果拨打的号码位于为会议组织者设置了 Microsoft 365 或 Office 365 的同一国家/地区（对于音频会议 () ）或最终用户 (（对于最终用户 PSTN 呼叫) ）来说，呼叫被视为国内呼叫。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -79,6 +79,12 @@ Grant-CsDialoutPolicy -PolicyName <policy name>  -Global
 ```
 
 未分配任何拨出策略的租户的所有用户都将获取此策略。 其他用户仍保留其当前策略。
+
+**使用以下 cmdlet 检查租户级别的当前策略**。
+
+```powershell
+Get-CSOnlineDialOutPolicy -Identity Global
+```
 
 下表概述了每个策略。
 

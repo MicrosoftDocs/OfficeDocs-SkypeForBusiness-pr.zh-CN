@@ -1,5 +1,5 @@
 ---
-title: 创建 Microsoft 365 用户、添加商务语音许可证，并分配电话号码
+title: 创建Microsoft 365，添加Teams 电话套餐许可证的号码，以及分配电话号码
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -8,36 +8,35 @@ ms.service: msteams
 audience: admin
 f1.keywords:
 - NOCSH
-ms.localizationpriority: high
+ms.localizationpriority: medium
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-- Teams_Business_Voice
 search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 33367a75eef98a847edfe6ce985f952719bfcf4c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
-ms.translationtype: HT
+ms.openlocfilehash: 00eb2842b063399f69563571180197de0238588e
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605961"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766185"
 ---
-# <a name="create-and-license-business-voice-users-and-assign-them-phone-numbers"></a>创建商业语音用户并提供许可证，然后为其分配电话号码
+# <a name="create-and-license-teams-phone-with-calling-plan-users-and-assign-them-phone-numbers"></a>创建呼叫计划Teams 电话并为其分配电话号码
 
-使用 :::no-loc text="Microsoft 365 Business Voice":::，需要一个拥有 :::no-loc text="Microsoft 365 Business Voice"::: 许可证的 :::no-loc text="Microsoft 365"::: 账户。 如果拥有账户和许可证，可向其分配电话号码。
+使用 :::no-loc text="Microsoft 365 Teams Phone with Calling Plan":::，需要一个拥有 :::no-loc text="Microsoft 365 Teams Phone with Calling Plan"::: 许可证的 :::no-loc text="Microsoft 365"::: 账户。 如果拥有账户和许可证，可向其分配电话号码。
 
 ## <a name="create-and-license-users"></a>创建用户并向其授予许可
 
 请按照[单独或批量添加用户](/microsoft-365/admin/add-users/add-users)和[向用户分配许可证](/microsoft-365/admin/manage/assign-licenses-to-users)中的步骤操作。
 
 > [!NOTE]
-> 在“**分配产品许可证**”窗格中，选择 **:::no-loc text="Microsoft 365 Business Voice":::**。
+> 在“**分配产品许可证**”窗格中，选择 **:::no-loc text="Microsoft 365 Teams Phone with Calling Plan":::**。
 
 ## <a name="assign-phone-numbers-to-users"></a>向用户分配电话号码
 
-创建用户并向其分配 :::no-loc text="Microsoft 365 Business Voice"::: 许可证后，可以向他们分配电话号码。 对于需要拨打或接听外部电话号码的用户，需要一个未分配的电话号码。 如果没有足够的未分配电话号码，请参阅本文后面的[获取更多电话号码](#get-more-phone-numbers)。
+创建用户并向其分配 :::no-loc text="Microsoft 365 Teams Phone with Calling Plan"::: 许可证后，可以向他们分配电话号码。 对于需要拨打或接听外部电话号码的用户，需要一个未分配的电话号码。 如果没有足够的未分配电话号码，请参阅本文后面的[获取更多电话号码](#get-more-phone-numbers)。
 
 1. 转到 https://admin.teams.microsoft.com。
 2. 输入电话号码请求的名称和说明。

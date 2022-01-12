@@ -19,17 +19,17 @@ f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
-description: 了解如何为用户分配、更改或删除工作电话号码Teams以便外部企业和客户可以呼叫。
-ms.openlocfilehash: 5e8041ce0a8cc95549a9dc75c0c8d74cd2438e1c
-ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
+description: 了解如何为外部用户分配、更改或删除工作Teams以便外部企业和客户可以呼叫。
+ms.openlocfilehash: 40d8f2d12cb824b57b2c01da4880cc35afb0a663
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60579512"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766565"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>为用户分配、更改或删除电话号码
 
-设置呼叫计划或接线员连接，你向用户分配电话号码。 在Microsoft Teams，当用户单击"呼叫"时，将列出你 **分配的电话号码**。 
+设置呼叫计划或接线员连接，将电话号码分配给用户。 在Microsoft Teams，当用户单击"呼叫"时，将列出你 **分配的电话号码**。 
 
 本文适用于呼叫计划和运营商连接。 有关在直接路由方案中为用户分配、更改或删除电话号码的信息，请参阅为用户启用直接路由、语音和 [语音邮件](./direct-routing-enable-users.md)。
 
@@ -37,7 +37,7 @@ ms.locfileid: "60579512"
 
   
 > [!NOTE]
-> 查看用户是否分配了许可证的一种方式是，通过Microsoft Teams管理中心>**用户"。** 如果分配了许可证，将在页面上指示该许可证。  也可使用Microsoft 365 管理中心。
+> 查看用户是否分配了许可证的一种方式是，在"用户"中Microsoft Teams管理 **>"**。 如果分配了许可证，将在页面上指示该许可证。  也可使用Microsoft 365 管理中心。
 
 > [!NOTE]
 > 此说明适用于使用本地 Active Directory 进行混合部署的客户。 如果要向用户或资源帐户分配呼叫计划或接线员 连接 电话号码，必须确保已删除本地 Active Directory 中的电话号码，并且更改已同步到 Microsoft 365。
@@ -50,14 +50,14 @@ ms.locfileid: "60579512"
     
 1. 在左侧导航栏中，单击 **"语音**  >  **电话数字"。**
 
-2. 在 **"电话"** 页面上，选择列表中的未分配号码，然后单击"编辑 **"。**  
+2. 在 **"电话"** 页上，选择列表中的未分配号码，然后单击"编辑 **"。**  
 
 3. 在"**编辑"** 窗格的"分配到"下，按显示名称或用户名搜索用户，然后单击"分配 **"。**
 
 4. 若要分配或更改关联的紧急位置，请在"紧急位置"下搜索，然后选择该位置。
 
    > [!NOTE]
-   > 如果要将号码分配给接线员连接用户，则可能无法分配或更改关联的紧急位置。 此功能将取决于操作员。 有关详细信息，请与接线员联系。
+   > 如果要将号码分配给接线员连接，则可能无法分配或更改关联的紧急位置。 此功能将取决于操作员。 有关详细信息，请与接线员联系。
 
 5. 根据是否要向用户发送包含其电话号码信息的电子邮件，请关闭或打开包含 **电话号码信息的电子邮件用户**。 默认情况下，此选项为"打开"。 
 
@@ -66,10 +66,11 @@ ms.locfileid: "60579512"
 若要使用 PowerShell 分配数字，请使用 [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser) cmdlet，如下所示：
 
 
-'''PowerShell Set-CsOnlineVoiceUser -Identity <user>   -TelephoneNumber <phone number> 
+```PowerShell
+Set-CsOnlineVoiceUser -Identity <user>  -TelephoneNumber <phone number> 
 ```
 
-For example:
+例如：
 
 ```PowerShell
 Set-CsOnlineVoiceUser -Identity john@contoso.com -TelephoneNumber +14255550101
@@ -93,7 +94,7 @@ Set-CsOnlineVoiceUser -Identity john@contoso.com -TelephoneNumber +14255550101
 
 5. 单击“**保存**”。
 
-6. 在 **"电话"** 页面上，选择列表中的未分配号码，然后单击"编辑 **"。**  
+6. 在 **"电话"** 页上，选择列表中的未分配号码，然后单击"编辑 **"。**  
 
 7. 在"**编辑"** 窗格的"分配到"下，按显示名称或用户名搜索用户，然后单击"分配 **"。**
 
@@ -126,7 +127,7 @@ Set-CsOnlineVoiceUser -Identity john@contoso.com -TelephoneNumber +14255550101
 
 [什么是地址验证？](/skypeforbusiness/what-are-calling-plans-in-office-365/what-is-address-validation)
 
-[管理你的组织的电话号码](/microsoftteams/manage-phone-numbers-for-your-organization)
+[管理组织的电话号码](/microsoftteams/manage-phone-numbers-for-your-organization)
 
 [紧急呼叫条款和条件](./emergency-calling-terms-and-conditions.md)
 

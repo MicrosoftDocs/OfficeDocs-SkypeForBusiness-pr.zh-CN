@@ -15,21 +15,18 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: 本文介绍如何设置和配置主机Microsoft Teams 会议室及其外围设备。
-ms.openlocfilehash: 687c507d94a7397fef0386ef3ddcc65ac7a7735b
-ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
+ms.openlocfilehash: 2df40f136308bb7855d911667bc871e5750f06cd
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "61306307"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61767275"
 ---
 # <a name="configure-a-microsoft-teams-rooms-console"></a>配置 Microsoft Teams 会议室控制台
 
 本文介绍如何设置主机Microsoft Teams 会议室及其外围设备。
 
-> [!NOTE]
-> 以下步骤仅适用于基于 Surface Pro 的设备Teams 会议室设备。 对于其他设备，请咨询原始设备制造商 (OEM) 获得支持。
-
-只有在已创建并测试Microsoft Teams或Skype for Business Exchange帐户时，才应执行这些步骤，如部署 Microsoft Teams 会议室[中所述。](rooms-deploy.md) 需要满足以下要求中所述的[Microsoft Teams 会议室软件](requirements.md)。 本主题包括以下部分：
+只有在已根据部署 Microsoft Teams 中所述创建Skype for Business Exchange帐户并测试帐户时，才应[执行Microsoft Teams 会议室。](rooms-deploy.md) 需要满足以下要求中所述的[Microsoft Teams 会议室软件](requirements.md)。 本主题包括以下部分：
   
 - [准备安装媒体](console.md#Prep_Media)
 - [在主机上安装专用 CA 证书](console.md#Certs)
@@ -37,19 +34,16 @@ ms.locfileid: "61306307"
 - [主机的初始设置](console.md#Initial)
 - [Microsoft Teams 会议室部署清单](console.md#Checklist)
 
-> [!NOTE]
-> 以下步骤仅适用于基于 Surface Pro 的设备Teams 会议室设备。 对于其他设备，请咨询 OEM 获得支持。
-  
 ## <a name="prepare-the-installation-media"></a>准备安装媒体
 <a name="Prep_Media"> </a>
 
-安装 Microsoft Teams 会议室 主机应用需要至少具有 32GB 容量的 USB 存储设备。 设备上不应存在任何其他文件;USB 存储上的任何现有文件都将丢失。
+安装 Microsoft Teams 会议室主机应用需要至少具有 32GB 容量的 USB 存储设备。 设备上不应存在任何其他文件;USB 存储上的任何现有文件都将丢失。
   
 > [!NOTE]
 > 根据这些说明Microsoft Teams 会议室安装媒体可能会导致意外行为。
 
 > [!NOTE]
-> 下面的过程用于创建安装媒体，以在设备上Microsoft Teams 会议室映像。 默认情况下，现有设备会从应用商店Windows更新Windows更新。
+> 以下过程用于创建安装媒体，以在设备上Microsoft Teams 会议室映像。 默认情况下，现有设备会从 Windows 应用商店Windows自动更新。
 
 > [!IMPORTANT]
 > 用于创建Windows 10安装媒体Microsoft Teams 会议室计算机必须位于目标安装媒体Windows或更高版本的安装媒体上。
@@ -60,7 +54,7 @@ ms.locfileid: "61306307"
 
 
 > [!TIP]
-> 每次启动CreateSrsMedia.ps1时，屏幕输出将包含会话日志文件脚本的名称。 如果运行脚本时发生问题，请确保在请求支持时提供该脚本的副本。 
+> 每次启动CreateSrsMedia.ps1，屏幕输出将包含会话日志文件脚本的名称。 如果运行脚本时发生问题，请确保在请求支持时提供该脚本的副本。 
 
 脚本CreateSrsMedia.ps1自动执行以下任务：
 
@@ -107,7 +101,7 @@ ms.locfileid: "61306307"
 在创意者的更新中，你需要在隐式语言选择未为用户提供他们想要的实际应用程序语言的情况下使用 ApplyCurrentRegionAndLanguage.ps1 脚本 (例如，他们希望控制台应用以法语显示，但它以英语) 提供。
   
 > [!NOTE]
-> 以下说明仅适用于使用创意者更新Windows创建的主机。 尚未将媒体与新预配系统一起设置的旧式/市场内系统将无法使用这些说明，但不应受到需要此手动干预的初始问题的影响 (周年版允许作为设置) 的一部分显式选取应用语言。
+> 以下说明仅适用于使用创建者更新Windows创建的主机。 尚未将媒体与新预配系统一起设置的旧式/市场内系统将不能使用这些说明，但不应受到需要此手动干预的初始问题的影响 (周年版允许作为设置) 的一部分显式选择应用语言。
   
 ### <a name="to-apply-your-desired-language"></a>应用你需要的语言
 
@@ -148,13 +142,13 @@ ms.locfileid: "61306307"
 ## <a name="initial-set-up-of-the-console"></a>主机的初始设置
 <a name="Initial"> </a>
 
-安装Windows后，Microsoft Teams 会议室应用将在下次启动时或选择 /reboot 选项时进入其初始安装过程。
+安装Windows后，Microsoft Teams 会议室应用将在下一次启动时或选择 /reboot 选项时进入其初始安装过程。
   
 1. 将显示“用户帐户”屏幕。 输入Skype主机 (的user@domain) 帐户的登录地址。
     
 2. 输入会议室帐户的密码，再重新输入以进行确认。
     
-3. 在"配置域"下，设置域的 FQDN Skype for Business Server。 如果Skype for Business SIP 域与用户Exchange域不同，请在此字段Exchange域。
+3. 在"配置域"下，设置域的 FQDN Skype for Business Server。 如果Skype for Business SIP 域不同于Exchange的域，请在此字段Exchange域。
     
 4. 单击" **下一步**"。
     
@@ -181,7 +175,7 @@ Microsoft Teams 会议室控制台应用应该立即开始使用上面输入的S
 ### <a name="install-a-private-ca-certificate-on-the-console"></a>在主机上安装专用 CA 证书
 <a name="Certs"> </a>
 
-Microsoft Teams 会议室主机需要信任它连接到的服务器使用的证书。 对于 O365 而言，会自动完成此操作，因为这些服务器使用的是公用证书颁发机构，Windows 10 自动信任这些证书颁发机构。 如果证书颁发机构是私有的，例如使用 Active Directory 和 Windows 证书颁发机构进行本地部署，可以通过多种方式将证书添加到 Microsoft Teams 会议室 控制台：
+Microsoft Teams 会议室主机需要信任它所连接到的服务器使用的证书。 对于 O365 而言，会自动完成此操作，因为这些服务器使用的是公用证书颁发机构，Windows 10 自动信任这些证书颁发机构。 如果证书颁发机构是私有的，例如使用 Active Directory 和 Windows 证书颁发机构进行本地部署，可以通过多种方式将证书添加到 Microsoft Teams 会议室 控制台：
   
 - 可以将主机加入 Active Directory，在证书颁发机构发布到 Active Directory 后，这会自动添加所需的证书， (常规部署) 。
     
@@ -191,7 +185,7 @@ Microsoft Teams 会议室主机需要信任它连接到的服务器使用的证�
 
 1. 将 CA 证书下载到你的计算机，并将其保存到“C:\Skype Room Systems\x64\Scripts\Provisioning\CAcertificate.cer”。
     
-2. 将主机放在管理模式下 ([管理模式和设备管理) 。](rooms-operations.md#AdminMode)
+2. 将主机放在管理模式下， ([管理模式和设备管理) 。](rooms-operations.md#AdminMode)
     
 3. 运行以下命令：
     
@@ -204,7 +198,7 @@ Microsoft Teams 会议室主机需要信任它连接到的服务器使用的证�
 
 你可以将Microsoft Teams 会议室加入你的域。 Microsoft Teams 会议室主机应放置在与电脑工作站不同的 OU 中，因为许多工作站策略与 Microsoft Teams 会议室。 一个常见示例是密码强制策略，Microsoft Teams 会议室自动启动。 有关管理 GPO 设置的信息，请参阅管理[Microsoft Teams 会议室。](rooms-operations.md)
   
-### <a name="to-join-microsoft-teams-rooms-to-a-domain"></a>将Microsoft Teams 会议室域
+### <a name="to-join-microsoft-teams-rooms-to-a-domain"></a>将Microsoft Teams 会议室加入域
 
 1. 从管理员帐户登录主机， ([管理模式和设备管理) 。](rooms-operations.md#AdminMode)
     

@@ -1,5 +1,5 @@
 ---
-title: 将电话号码转移到商务语音
+title: 使用呼叫计划Teams 电话电话号码
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -8,49 +8,48 @@ ms.service: msteams
 audience: admin
 f1.keywords:
 - NOCSH
-ms.localizationpriority: high
+ms.localizationpriority: medium
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: 了解如何将现有电话号码从当前提供商移动到 Microsoft 365 商务语音。
+description: 了解如何使用呼叫计划将现有电话号码从当前提供商Microsoft 365 Teams 电话号码。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2aed45cf18eefe3a8809d5c8dee7b0411ac2da9e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
-ms.translationtype: HT
+ms.openlocfilehash: 8472cd5c6d1e82a384f8d186701790ba1e6a4976
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58588294"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766795"
 ---
-# <a name="step-7-port-phone-numbers-to-business-voice-optional"></a>步骤 7：将电话号码端口为业务语音（可选）
+# <a name="step-7-port-phone-numbers-to-teams-phone-optional"></a>步骤 7：将电话号码移植到Teams 电话 (可选) 
 
 > [!IMPORTANT]
-> 本文中的信息仅适用于 **包含** 通话套餐的商务语音。 含通话套餐的商业语音仅在所选国家和地区可用。 阅读本文前，请查看[商务语音的国家和地区可用性](country-region-availability.md)，查看你所在的国家或地区是否支持使用包含通话套餐的商务语音。
+> 本文中的信息仅适用于使用Teams 电话 **套餐**。 Teams 电话套餐仅在选定国家和地区中可用。 阅读本文之前，请查看使用[](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)呼叫Teams 电话的"国家/地区"和"区域可用性"，了解你的国家/地区是否Teams 电话套餐。
 >
-> 如果你的租户所在的国家或地区不支持含通话套餐的商务语音，请查看[从 Microsoft 经销商或合作伙伴处获取帮助](reseller-partner-support.md)。
+> 如果你的租户位于不支持通过呼叫计划Teams 电话的一个或多个国家/地区，请查看从 Microsoft 经销商或合作伙伴[获取帮助](reseller-partner-support.md)。
 
-在此设置指南之前，你获取公司主要行和已分配了企业语音许可证的任何用户的电话号码。 **如果你是新企业，且没有任何想要引入 Business Voice 的现有电话号码，可以跳过此步骤。**
+在此设置指南的前面部分，你获取了主要公司线路以及你分配了具有呼叫计划许可证Teams 电话用户的电话号码。 **如果你是一家新公司，并且没有想要通过呼叫计划Teams 电话电话号码，可以跳过此步骤。**
 
-如果你希望在移动到商务语音时保留已有的电话号码，则可以使用称为“携号转网”的过程将电话号码携转到商务语音。 将电话号码转到商务语音后，即可将这些号码分配给用户和业务部门。 旧数字将替换你在此设置指南中早期获取的临时数字。
+如果你已经有想要在使用"呼叫计划"移动到 Teams 电话 时保留的电话号码，可以使用名为"电话号码转码"的过程，通过呼叫计划将其Teams 电话呼叫计划。 将电话号码移植到呼叫Teams 电话呼叫计划后，可将其分配给用户和服务。 旧数字将替换你在此设置指南中早期获取的临时数字。
 
-在将号码转到商务语音之前，请查看[转移电话号码常见问题](../phone-number-calling-plans/port-order-overview.md)。 这篇文章介绍了一些问题的解答，包括受支持的国家和地区、可以转移和无法转移的号码、你需要的信息。
+在将号码移动到呼叫Teams 电话之前，请看一下转移[电话号码常见问题](../phone-number-calling-plans/port-order-overview.md)。 这篇文章介绍了一些问题的解答，包括受支持的国家和地区、可以转移和无法转移的号码、你需要的信息。
 
-准备好将电话号码转到商务语音后，请按照[将电话号码转移到 Office 365](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md) 中的步骤创建转网订单。 该订单包含将号码从当前手机服务运营商转移到商务语音所需的信息。
+当你准备好使用呼叫计划将电话号码移动到Teams 电话，请按照将电话号码转接到Office 365创建转[Office 365](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md)订单。 订单包含将你的号码从当前电话服务运营商转移到呼叫套餐Teams 电话的信息。
 
-电话号码移动到“商务语音”后，需要将其分配给人员。 为此，请按照[更改用户的电话号码](../assign-change-or-remove-a-phone-number-for-a-user.md#change-a-phone-number-for-a-user)中的步骤操作。 执行这些步骤时，临时分配给用户的电话号码将替换为你转网过来的原有电话号码。
+将电话号码移动到呼叫Teams 电话呼叫计划后，需要将其分配给人员。 为此，请按照[更改用户的电话号码](../assign-change-or-remove-a-phone-number-for-a-user.md#change-a-phone-number-for-a-user)中的步骤操作。 执行这些步骤时，临时分配给用户的电话号码将替换为你转网过来的原有电话号码。
 
-如果需要帮助，请告诉我们！ 我们可随时帮助你尽可能轻松地将电话号码移动到商务语音。 务必包含以下信息：
+如果需要帮助，请告诉我们！ 我们将帮助您使用呼叫计划尽可能轻松地将Teams 电话转移到呼叫中心。 务必包含以下信息：
 
 - 你的组织 ID（例如 ***contoso***.onmicrosoft.com）
 - 需要得到帮助的类型和电话号码数量
 - 你帐户的授权人
 - 问题的相关描述
 
-有关加拿大和美国电话号码的帮助，请将请求发送到 [ptn@microsoft.com](mailto:ptn@microsoft.com)。
+有关电话号码的帮助，请查看 TNS (电话号码服务[) 服务台。](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)
 
-有关欧洲电话号码的帮助，请将请求发送到 [ptneu@microsoft.com](mailto:ptneu@microsoft.com)。
 
 > [!div class="nextstepaction"]
-> [下一步：完成业务语音设置](set-up-finish.md)
+> [下一步：完成Teams 电话套餐设置](set-up-finish.md)

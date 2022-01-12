@@ -1,9 +1,9 @@
 ### YamlMime:Hub
-title: Microsoft 365 商务语音文档
-summary: 了解如何在组织中规划、设置和使用 Microsoft 365 商务语音。 借助商务语音，中小型组织可以轻松地设置功能强大、灵活的电话系统，从而避免内部解决方案的费用和复杂性。
+title: Microsoft 365 Teams 电话套餐文档
+summary: 了解如何在组织中计划、设置和使用Microsoft 365 Teams 电话套餐套餐。 使用Teams 电话套餐捆绑包，小型和中型组织可以轻松设置功能强大且灵活的电话系统，且无需支付内部解决方案的费用和复杂性。
 metadata:
-  title: Microsoft 365 商务语音文档
-  description: 了解如何规划、部署和使用 Microsoft 365 商务语音。
+  title: Microsoft 365 Teams 电话套餐文档
+  description: 了解如何通过"呼叫计划"捆绑包Microsoft 365 Teams 电话、部署和使用套餐。
   ms.topic: hub-page
   author: dstrome
   ms.author: dstrome
@@ -14,22 +14,22 @@ productDirectory:
       imageSrc: 'https://docs.microsoft.com/office/media/icons/blocks-blue.svg'
       links:
         - url: whats-business-voice.md
-          text: 什么是商务语音
+          text: Teams 电话中小型企业的呼叫计划指南
         - url: 'https://www.microsoft.com/microsoft-365/business-voice'
-          text: Microsoft 365 商务语音
-        - url: /office365/servicedescriptions/microsoft-365-business-voice-service-description
-          text: 服务说明
+          text: Microsoft 365 Teams 电话套餐套餐
+        - url: /office365/servicedescriptions/teams-service-description
+          text: Teams服务说明
     - title: 设置
       imageSrc: 'https://docs.microsoft.com/office/media/icons/deploy-blue.svg'
       links:
-        - url: ./what-to-buy.md
-          text: 如何获取商务语音
+        - url: ./whats-business-voice.md#what-do-i-need-to-buy-to-get-voice-capabilities-for-my-small-or-medium-business
+          text: 如何使用"呼叫Teams 电话套餐获取套餐
         - url: get-ready-internet.md
           text: 检查 Internet 连接。
         - url: prepare-users.md
           text: 使用户准备就绪
         - url: set-up-overview.md
-          text: 设置业务语音
+          text: 使用Teams 电话套餐设置通话套餐
     - title: 自定义设置
       imageSrc: 'https://docs.microsoft.com/office/media/icons/migration-blue.svg'
       links:
@@ -57,10 +57,8 @@ productDirectory:
       links:
         - url: /partner-center/
           text: 从合作伙伴中心获取 Microsoft 365 商业版
-        - url: 'https://www.microsoft.com/microsoft-365/partners/businessvoice'
-          text: 适用于合作伙伴的 Microsoft 365 商务语音
-        - url: partner-resources.md
-          text: Microsoft 365 商务语音合作伙伴支持资源
+        - url: 'https://cloudpartners.transform.microsoft.com/products/m365-business-voice-partner-playbook'
+          text: Microsoft 365 Teams 电话套餐合作伙伴 Playbook 进行通话
     - title: 需要帮助？
       imageSrc: 'https://docs.microsoft.com/office/media/icons/users-people.svg'
       links:

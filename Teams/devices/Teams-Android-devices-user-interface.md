@@ -2,7 +2,7 @@
 title: 设置Microsoft Teams Android 设备用户界面
 ms.author: mitressl
 author: flinchbot
-manager: leopaiv
+manager: serdars
 audience: ITPro
 appliesto:
 - Microsoft Teams
@@ -13,16 +13,16 @@ ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 description: 了解如何在 Android 设备上设置Teams界面。
-ms.openlocfilehash: 4d17158a6d76dd0d735392c8a441ca184968897a
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: cf0c60fa5073ee2a3915f2450900865bc058e295
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732451"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61767425"
 ---
 # <a name="set-microsoft-teams-android-devices-user-interface"></a>设置Microsoft Teams Android 设备用户界面
 
-Microsoft TeamsAndroid 设备可以基于分配给已登录帐户的许可证类型显示特定的用户界面。 可以重写此行为并控制显示哪个接口。 本文详细介绍了如何选择默认用户界面，以及如何使用 Powershell 策略更改界面。
+Microsoft Teams Android 设备可以基于分配给已登录帐户的许可证类型显示特定的用户界面。 可以重写此行为并控制显示哪个接口。 本文详细介绍了如何选择默认用户界面，以及如何使用 Powershell 策略更改界面。
 
 Android 设备上有三种类型的用户界面Teams：
 
@@ -30,19 +30,19 @@ Android 设备上有三种类型的用户界面Teams：
 2. 公用区域
 3. 会议
 
-如果将[用户](/microsoftteams/user-access)许可证分配给帐户（如 E3 或 E5 许可证），Teams 设备将显示默认最终用户接口，该界面已针对大多数用户方案提供完整功能。 但是，如果设备正在执行特定功能，例如公用区域电话或会议室，则这些用法有特定的用户界面。
+如果将[用户](/microsoftteams/user-access)许可证分配给帐户（例如 E3 或 E5 许可证），Teams 设备会显示默认最终用户接口，该界面已针对大多数用户方案提供完整功能。 但是，如果设备正在执行特定功能，例如公用区域电话或会议室，则这些用法有特定的用户界面。
 
 以下三个图像显示了用户界面如何根据分配给用户帐户的许可证进行更改。 第一个图像为用户帐户分配了一个 E5 许可证。 这是用户许可证，因此设备会显示默认的最终用户接口：
 
-:::image type="content" source="../media/TeamsAndroidDevices-UserMode1.jpg" alt-text="用户界面。":::
+:::image type="content" source="../media/teams-android-devices-usermode1.jpg" alt-text="用户界面。":::
 
 在此图像中，为用户帐户分配了一个 [公用区域电话许可证](/microsoftteams/set-up-common-area-phones)。 公用区域电话主要用于拨打和接听电话。 因此，拨号盘显示在显示器上：
 
-:::image type="content" source="../media/TeamsAndroidDevices-CAP1.jpg" alt-text="公用区域电话接口。":::
+:::image type="content" source="../media/teams-android-devices-cap1.jpg" alt-text="公用区域电话接口。":::
 
-最后，此图显示了分配有标准Microsoft Teams 会议室[用户帐户](/MicrosoftTeams/rooms/rooms-licensing)。 Teams 会议室许可证用于会议室或共享空间，因此用户界面会更改，以便通过显示日历视图轻松加入会议：
+最后，此图显示了分配有Microsoft Teams 会议室标准版[用户帐户](/MicrosoftTeams/rooms/rooms-licensing)。 Teams 会议室许可证用于会议室或共享空间，因此用户界面会更改，以便通过显示日历视图轻松加入会议：
 
-:::image type="content" source="../media/TeamsAndroidDevices-Meeting.jpg" alt-text="会议界面。":::
+:::image type="content" source="../media/teams-android-devices-meeting.jpg" alt-text="会议界面。":::
 
 > [!NOTE]
 > 更改用户界面不会影响你使用其他许可功能的能力。 例如，即使团队聊天室许可证的默认视图是日历视图，如果帐户获得正确许可并配置，您仍然可以拨打和接听公用电话交换电话网络 (PSTN) 电话呼叫。
@@ -52,7 +52,7 @@ Android 设备上有三种类型的用户界面Teams：
 
 ## <a name="override-automatic-user-interface-detection"></a>替代自动用户界面检测
 
-在某些情况下，可以选择将许可证分配给与预期用途不匹配的帐户。 例如，可以将用户许可证分配给用于登录 Android Teams 会议室帐户。 默认情况下，你将看到最终用户界面，而不是会议室界面。 若要替代默认接口，请创建一个新的 Teams [IP 电话策略](/powershell/module/skype/new-csteamsipphonepolicy?view=skype-ps)，并应用到该帐户。
+在某些情况下，可以选择将许可证分配给与预期用途不匹配的帐户。 例如，可以将用户许可证分配给用于登录 Android Teams 会议室帐户。 默认情况下，你将看到最终用户界面，而不是会议室界面。 若要替代默认接口，请创建一个新的 Teams IP 电话[策略](/powershell/module/skype/new-csteamsipphonepolicy?view=skype-ps)，并应用到该帐户。
 
 > [!NOTE]
 > 分配给用户帐户的许可证必须至少具有与所需用户界面相同的许可证权利。 "公用电话"许可证仅允许"公用区域"电话用户界面。 会议室许可证允许会议室和公用区域电话用户界面。 E3 或 E5 许可证支持所有登录模式。
@@ -67,7 +67,7 @@ Android 设备上有三种类型的用户界面Teams：
     Connect-MicrosoftTeams
     ```
 
-2. 创建新的 Teams IP 电话策略，将登录模式设置为"MeetingSignIn"：
+2. 创建新的 Teams IP 电话 策略，将登录模式设置为"MeetingSignIn"：
 
    ``` Powershell
    New-CsTeamsIPPhonePolicy –Identity 'Meeting Sign in' –Description 'Meeting Sign In Phone Policy' -SignInMode 'MeetingSignIn'
@@ -81,3 +81,16 @@ Android 设备上有三种类型的用户界面Teams：
    ```
 
 将策略授予会议室资源帐户后，您需要等待策略分配复制。 还需要注销设备并重新登录。
+
+## <a name="impact-on-microsoft-teams-admin-center"></a>对 Microsoft Teams 管理中心的影响
+
+Microsoft Teams管理中心允许您管理Microsoft Teams设备。 有关使用管理中心管理设备Teams，请参阅在 Microsoft Teams 中[管理设备](device-management.md)。
+
+
+Teams管理中心提供管理手机Teams功能。 电话根据功能筛选为三个选项卡之一：用户电话、公用区域电话和会议电话。 
+
+ :::image type="content" source="../media/teams-admin-center-phones-header.png" alt-text="管理中心Teams电话标题。":::
+
+与用户界面检测一样，Teams手机基于分配给登录手机的帐户的许可证进行分类。 例如，如果分配有公用区域电话许可证的帐户登录了一部手机，则该电话将显示在默认的"所有电话"部分以及"公用区电话 **"部分。**
+
+如果希望手机显示在其他部分中，可以将其他许可证分配给该手机，或者创建并分配 Teams IP 电话策略，[如上所述](#override-automatic-user-interface-detection)。

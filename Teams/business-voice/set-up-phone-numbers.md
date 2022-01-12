@@ -1,5 +1,5 @@
 ---
-title: 设置Microsoft 365 商务语音电话号码
+title: 使用Microsoft 365 Teams 电话套餐设置通话套餐
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -14,17 +14,17 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: 了解如何为Microsoft 365 商务语音和服务设置电话号码。
+description: 了解如何使用呼叫Microsoft 365 Teams 电话计划电话号码为您的组织中的用户和服务设置呼叫。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c57e459d3ad502b9e361e5fa7e4eb4b8b45c29e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: eefdfcb764f44830bb6dc23c63c2a80701c32c3e
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599807"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766615"
 ---
-# <a name="step-2-set-up-business-voice-phone-numbers"></a>步骤 2：设置业务语音电话号码
+# <a name="step-2-set-up-teams-phone-phone-numbers"></a>步骤 2：设置Teams 电话电话号码
 
 在组织中设置用户或自动助理之前，需要获取其电话号码。 有几种不同类型的电话号码，但以下是需要在此步骤中添加的两种类型的号码：
 
@@ -37,32 +37,28 @@ ms.locfileid: "58599807"
 > [!NOTE]
 > 新电话号码可能需要几个小时才能在 Teams。
 
-以下视频演示如何在管理中心内完成Teams步骤。
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWENzQ]
-
 ## <a name="set-up-a-service-number"></a>设置服务号码
 
 现在设置的服务号码将用于公司主电话号码的后一步。
 
 1. 打开 Microsoft Teams 管理中心，使用全局管理员用户登录 (该帐户通常是用于注册 Microsoft 365) 。
-2. 在左侧导航栏中，转到"<a href="https://admin.teams.microsoft.com/phone-numbers" target="_blank">**语音**  >  **"电话数字**</a>"，然后单击"添加 **"。**
+2. 在左侧导航栏中，转到"<a href="https://admin.teams.microsoft.com/phone-numbers" target="_blank">**语音**  >  **电话"，**</a>然后单击"添加 **"。**
 3. 输入订单的名称并添加说明。
 4. 在"位置和数量"页上，执行以下操作：
     1. 在 **"国家/地区"下**，选择一个或多个国家/地区。
     2. 在 **"数字类型**"下，选择以下选项之一：
 
         - **自动助理 (收费)** 常规非免费电话号码。 长距离费用将收取给呼叫方。
-        - **自动助理 (免费)** 美国和加拿大的 (免费电话号码) 或免费电话 () 电话号码。 长距离费用由公司收取。 在选择此选项之前，需要购买通信信用额度。 有关详细信息，请参阅我需要购买哪些[产品以使用Microsoft 365 商务语音？。](what-to-buy.md)
+        - **自动助理 (免费)** 使用免费电话 (美国和加拿大) 或免费电话 () 电话号码。 长距离费用由公司收取。 在选择此选项之前，需要购买通信信用额度。 有关详细信息，请参阅需要购买哪些商品才能获得适用于中小型企业的语音[功能？。](whats-business-voice.md)
 
     3. 在 **"数量"** 下，选择 **"1"。**
         > [!NOTE]
-        > 如果 **收到消息"** 没有足够的许可证来请求更多此类号码"，请确保已购买商业语音许可证。 有关详细信息，请参阅我需要购买哪些[产品以使用Microsoft 365 商务语音？。](what-to-buy.md)
+        > 如果 **收到消息"** 你没有足够的许可证来请求更多此类号码"，请确保你已购买具有呼叫Teams 电话套餐许可证。 有关详细信息，请参阅需要购买哪些商品才能获得适用于中小型企业的语音[功能？。](whats-business-voice.md)
     4. 选择 **"位置**"或"区号"，具体取决于是想要使用位置的城市搜索电话号码，还是想要搜索特定区号中的号码。
     5. 如果选择"位置 **"：**
 
         1. 在"设置紧急位置"步骤中键入紧急地址所在的城市 [](set-up-emergency-locations.md)，或者如果需要为另一个办公室或家庭办公室创建新位置，请单击"添加位置 **"。**
-        2. 在 **"区号**"下，选择区号，然后选择"下一步"以保留号码。
+        2. 在 **"区号**"下，选择区号，然后选择 **"下一** 步"以保留号码。
 
     6. 如果选择"**区号"，** 请键入要搜索的区号，然后选择"下一步"以保留号码。
 
@@ -71,19 +67,19 @@ ms.locfileid: "58599807"
 
 ## <a name="set-up-phone-numbers-for-your-users"></a>为用户设置电话号码
 
-1. 打开 Microsoft Teams 管理中心，使用全局管理员用户登录 (该帐户通常是用于注册 Microsoft 365) 。
-2. 在左侧导航栏中，转到"<a href="https://admin.teams.microsoft.com/phone-numbers" target="_blank">**语音**  >  **"电话数字**</a>"，然后单击"添加 **"。**
+1. 打开Microsoft Teams管理中心，使用全局管理员用户登录。这通常是用于注册帐户的帐户Microsoft 365。
+2. 在左侧导航栏中，转到"<a href="https://admin.teams.microsoft.com/phone-numbers" target="_blank">**语音**  >  **电话"，**</a>然后单击"添加 **"。**
 3. 输入订单的名称并添加说明。
 4. 在"位置和数量"页上，执行以下操作：
 
     1. 在 **"国家/地区"下**，选择一个或多个国家/地区。
-    2. 在 **"数字类型"****下，选择" (订阅) "。**
+    2. 在 **"数字类型"** 下，选择 **" (订阅) "。**
     3. 在 **"** 数量"下，输入希望组织使用的数字数。
     4. 选择 **"位置**"或"区号"，具体取决于是想要使用位置的城市搜索电话号码，还是想要搜索特定区号中的号码。
     5. 如果选择"位置 **"：**
 
         1. 在"设置紧急位置"步骤中键入紧急地址所在的城市 [](set-up-emergency-locations.md)，或者如果需要为另一个办公室或家庭办公室创建新位置，请单击"添加位置 **"。**
-        2. 在 **"区号**"下，选择区号，然后选择"下一步"以保留号码。
+        2. 在 **"区号**"下，选择区号，然后选择 **"下一** 步"以保留号码。
 
     6. 如果选择"**区号"，** 请键入要搜索的区号，然后选择"下一步"以保留号码。
 5. 选择您需要的数字。 你有 10 分钟的时间来选择电话号码并下订单。 如果时间超过 10 分钟，电话号码将返回到号码池。

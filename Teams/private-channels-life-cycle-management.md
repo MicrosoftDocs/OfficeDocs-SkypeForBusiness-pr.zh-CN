@@ -18,16 +18,16 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何使用专用 API 管理组织中Graph通道。
-ms.openlocfilehash: a2cb9b45afb005c837b260ac3da22c250d16c758
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 25065401216a29e28e0d4aa3f1ad02d071215188
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615318"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766375"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>管理专用频道在 Microsoft Teams
 
-可在此处找到管理指南，使用 Graph API 管理Teams[专用](./private-channels.md)频道。
+可在此处找到使用 Graph API 管理Teams[专用](./private-channels.md)通道的指南。
 
 ## <a name="set-whether-team-members-can-create-private-channels"></a>设置团队成员是否可以创建专用频道
 
@@ -52,7 +52,7 @@ POST /teams/{id}/channels
   "displayName": "<Channel_Name>",
   "members":[{    
            "@odata.type":"#microsoft.graph.aadUserConversationMember",
-           "user@odata.bind":"https://graph.microsoft.com/beta/users('<user_id>')",
+           "user@odata.bind":"https://graph.microsoft.com/users('<user_id>')",
            "roles":["owner"]
             }]
 ```
@@ -79,7 +79,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
     **请求**
 
     ```Graph API
-    GET https://graph.microsoft.com/beta/teams/<group_id>/channels?$filter=membershipType eq 'private'
+    GET https://graph.microsoft.com/teams/<group_id>/channels?$filter=membershipType eq 'private'
     ```
 
     **响应**
@@ -109,7 +109,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
     **请求**
 
     ```Graph API
-    GET https://graph.microsoft.com/beta/teams/<group_id>/channels/<channel_id>/filesFolder
+    GET https://graph.microsoft.com/teams/<group_id>/channels/<channel_id>/filesFolder
     ```
 
     **响应**
@@ -138,7 +138,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 你可能希望列出专用频道的所有者和成员，以决定是否需要将专用频道的某些成员提升为所有者。 当专用频道的所有者已离开组织，并且该专用频道需要管理员帮助来声明通道所有权时，可能会发生这种情况。
 
-作为管理员，可以使用 Graph API 来执行这些操作。
+作为管理员，可以使用 Graph API 执行这些操作。
 
 可以通过资源管理器 尝试[Graph命令](https://developer.microsoft.com/graph/graph-explorer)。
 
@@ -147,7 +147,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
     **请求**
 
     ```Graph API
-    GET https://graph.microsoft.com/beta/teams/<group_id>/channels/<channel_id>/members
+    GET https://graph.microsoft.com/teams/<group_id>/channels/<channel_id>/members
     ```
 
     **响应**
@@ -156,7 +156,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
     HTTP/1.1 200 OK Content-type: application/json
     Content-length: 
     {
-          "@odata.context": "https://graph.microsoft.com/beta/$metadata#teams({group_id}')/channels('{channel_id}')/members",
+          "@odata.context": "https://graph.microsoft.com/$metadata#teams({group_id}')/channels('{channel_id}')/members",
           "@odata.count": 2,
           "value": [
               {
@@ -185,7 +185,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
     ```Graph API
     PATCH 
-    https://graph.microsoft.com/beta/teams/<group_id>/channels/<channel_id>/members/<id>
+    https://graph.microsoft.com/teams/<group_id>/channels/<channel_id>/members/<id>
       
     {
     "@odata.type": "#microsoft.graph.aadUserConversationMember",
@@ -200,7 +200,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
     Content-type: application/json
 
     {
-      "@odata.context": "https://graph.microsoft.com/beta/$metadata#teams('{group_id}')/channels('{channel_id}')/members/$entity",
+      "@odata.context": "https://graph.microsoft.com/$metadata#teams('{group_id}')/channels('{channel_id}')/members/$entity",
       "@odata.type": "#microsoft.graph.aadUserConversationMember",
       "id": "id-value",
       "roles": ["owner"],

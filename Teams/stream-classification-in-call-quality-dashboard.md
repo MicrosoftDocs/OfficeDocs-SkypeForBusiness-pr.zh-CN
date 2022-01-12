@@ -20,16 +20,16 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: 了解如何在呼叫质量仪表板中分类流质量 (CQD) Microsoft Teams Skype for Business Online。
-ms.openlocfilehash: f4c4fb72d15ce79c60c2400b068898ad463f1b07
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 21de07e2b590bafcb7de65495e6b7d68faa381cc
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598336"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61767195"
 ---
 # <a name="stream-classification-in-call-quality-dashboard-cqd"></a>呼叫质量仪表板中的流分类 (CQD) 
 
-使用适用于 (和 Skype for Business Online 的 CQD) 呼叫质量仪表板Microsoft Teams可深入了解使用 Microsoft Teams 和 Skype for Business 服务进行呼叫的质量。 本主题提供有关媒体流质量分类的详细信息。 若要详细了解 CQD 及其设置，请参阅设置 [呼叫质量仪表板](turning-on-and-using-call-quality-dashboard.md)。
+使用适用于 Microsoft Teams 和 Skype for Business Online (CQD) 的呼叫质量仪表板，您可以深入了解使用 Microsoft Teams 和 Skype for Business 服务进行呼叫的质量。 本主题提供有关媒体流质量分类的详细信息。 若要详细了解 CQD 及其设置，请参阅设置 [呼叫质量仪表板](turning-on-and-using-call-quality-dashboard.md)。
 
 ## <a name="classifier-definitions"></a>分类器定义
 
@@ -72,10 +72,10 @@ VBSS 流根据第一个可用指标的值按以下顺序标记为"良好"或"差
 
 |步骤编号 |指标 |条件 |如果条件为真的分类 |如果条件为假的分类 |如果指标不可用的分类 |解释 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|1|Video Local Frame Loss Percentage Avg|> 50% |_Poor_|_Good_|继续前往步驟 2|向用户显示的视频帧丢失平均百分比。 平均值包括从网络损失中恢复的帧数。|
-|2|Video Frame Rate Avg|<2|_Poor_|_Good_|继续前往步驟 3|在会话持续期间计算到的视频流每秒接收的平均帧数。|
-|3|Video Post FECPLR|> 0.15|_Poor_|_Good_|_Unclassified_|应用 FEC 后跨所有视频流和编解码器聚合的数据包丢失率。|
+|1|Video Local Frame Loss Percentage Avg|编解码器不是 H264S</br>And</br>StreamDirection 为入站</br></br>如果 FrameLoss > 50%|_Poor_|_Good_|_Unclassified_|向用户显示的视频帧丢失平均百分比。 平均值包括从网络损失中恢复的帧数。 FrameLoss 仅用于对入站非 H264S 流进行分类。|
+|2|Video Frame Rate Avg|< 1|_Poor_|_Good_|_Unclassified_|在会话持续期间计算到的视频流每秒接收的平均帧数。 适用于 H264S 的所有出站流和任一 StreamDirection。|
 | |  | | | |  ||
+
 
 ### <a name="application-sharing-classifier"></a>应用程序共享分类器
 
@@ -90,13 +90,13 @@ VBSS 流根据第一个可用指标的值按以下顺序标记为"良好"或"差
 
 ## <a name="unclassified-streams"></a>未经分类的流
 
-在 CQD 中，当交互式连接公司 (ICE) 连接失败或未报告计算流分类所需的所有指标时，流将标记为"未分类"。
+在 CQD 中，当交互式连接建立 (ICE) 连接失败或未报告计算流分类所需的所有指标时，流被标记为"未分类"。
 
 要检查 ICE 连接故障，请检查 "First Connectivity Ice" 和 "Second Connection Ice" 维度是否为 "FAILED" 值。 如果任一值指示失败，流将标记为 _"未分类"。_
 
 如果未分类流的 ICE连接成功，则流可能被视为"未分类"，因为未报告密钥流指标。 这些指标可能不会被报告的原因有几个：
 
-- **未收到 QoE** 报告 - 用于分类的指标在通话结束时发送的 QoE 报告中报告。 例如，如果未生成此 (，因为某些第三方终结点可能无法发送 QoE) 或无法发送 (例如，由于网络中断) ，CQD 无法对流进行分类。
+- **未收到 QoE** 报告 - 用于分类的指标在通话结束时发送的 QoE 报告中报告。 例如，如果未生成此报告 (，因为某些第三方终结点可能无法发送 QoE) 或无法发送 (例如，由于网络中断) ，CQD 无法对流进行分类。
 
   > [!TIP]
   > "QoE Record Available" 维度可用于确定是否收到某个流的 QoE 报告。 请注意，如果从任一端点接收到 QoE 报告，则此维度的值将为 "True"。 为了最准确地报告指标，需要两个端点的 QoE 报告。
@@ -106,8 +106,8 @@ VBSS 流根据第一个可用指标的值按以下顺序标记为"良好"或"差
   > [!TIP]
   > 可以使用 "Duration (Seconds)"、"Duration (Minutes)"、"Duration 5 seconds or less" 和 "Duration 60 seconds or more" 等维度来确定流的持续时间。 "Avg Call Duration" 度量也可用于计算一组流的平均持续时间。
 
-- **数据包利用率** 低 - 与"短调用"方案一样，计算密钥流指标需要足够的数据包利用率。 如果没有这些指标，CQD 无法对流进行分类。
-  - 当与会者加入会议以收听演示者的声音，但从不说话时 (大多数呼叫都静音时，会出现一种常见的低数据包利用率) 。 此处，入站到客户端的音频流具有较高的数据包利用率，而从客户端出站的音频流很少或没有数据包利用率。 流的持续时间可能为一小时或更长时间，但从客户端到服务器的流上的数据包利用率较低，因为麦克风已静音，并且导致未 _分类_ 的流。
+- **数据包利用率** 低 - 与"短调用"方案一样，计算密钥流指标时需要足够的数据包利用率。 如果没有这些指标，CQD 无法对流进行分类。
+  - 当与会者加入会议以收听演示者的声音，但从不 (大多数呼叫都静音时，会出现常见的低数据包利用率) 。 此处，入站到客户端的音频流具有较高的数据包利用率，而从客户端出站的音频流几乎没有数据包利用率或没有数据包利用率。 流的持续时间可能为一小时或更长时间，但从客户端到服务器的流上的数据包利用率较低，因为麦克风已静音，并且导致未 _分类_ 的流。
 
   > [!TIP]
   > "Packet Utilization" 维度和 "Avg Packet Utilization" 度量可用于确定流的数据包活动。

@@ -14,31 +14,31 @@ appliesto:
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
-description: 查看哪些 USB 外设和设备 (耳机、免提电话、网络摄像机和监视器) 认证Microsoft Teams。
-ms.openlocfilehash: 718a4f96e6a54a5f2563cec4e69b7037a8bb470e
-ms.sourcegitcommit: 6aecab65836feaa8da14aad17a3088a18ece3bdf
+description: 查看哪些 USB 外围设备和设备 (耳机、免提电话、网络摄像机和显示器) 认证Microsoft Teams。
+ms.openlocfilehash: 97299120992cf6500822c452386a9f402cb6cf55
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/02/2021
-ms.locfileid: "61267775"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766695"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>经认证的 USB 音频和视频设备Microsoft Teams
 
-外围设备认证计划可确保 USB 外围设备 (耳机、免提电话、网络摄像机和监视器) 提供丰富的音频或视频质量。 经过认证的设备 (插件&，) 无需额外配置，并且通过 Microsoft Teams 和 Skype for Business。 这些产品为最终用户和管理员提供了出色的体验。
+外围设备认证计划可确保 USB 外围设备 (耳机、免提电话、网络摄像机和监视器) 提供丰富的音频或视频质量。 经过认证的设备 (插件&，) 无需额外配置，并且使用 Microsoft Teams 和 Skype for Business。 这些产品为最终用户和管理员提供了出色的体验。
 
-若要浏览经测试并认证Microsoft Teams设备，请前往 Teams [Store](https://products.office.com/microsoft-teams/across-devices/devices)。
+若要浏览经测试并认证Microsoft Teams的设备，请前往 Teams[应用商店](https://products.office.com/microsoft-teams/across-devices/devices)。
 
-有关使用耳机的呼叫控制支持Teams，请参阅使用耳机[在](https://support.office.com/article/Control-calls-using-a-headset-in-Teams-65d6e104-444d-4013-b8c2-f11317dd69a8)Teams。
+有关使用耳机的呼叫控制支持[Teams，请参阅](https://support.office.com/article/Control-calls-using-a-headset-in-Teams-65d6e104-444d-4013-b8c2-f11317dd69a8)使用耳机在 Teams。
 
 > [!TIP]
-> 正在寻找经认证的设备Skype for Business？ 前往经[认证的 USB 音频和视频设备，Skype for Business。](/skypeforbusiness/certification/devices-usb-devices)
+> 正在寻找经认证的设备Skype for Business？ 前往经认证的 USB 音频和视频[设备，Skype for Business。](/skypeforbusiness/certification/devices-usb-devices)
 
 ## <a name="understanding-certification-categories"></a>了解认证类别
 
-从 Skype for Business 升级到之前认证的设备时，用户无需Teams设备。  所有经过认证的设备都受 Microsoft Teams Skype for Business用户的支持，但只有一些差异。  认证还为某些设备类别提供进一步指定。
+从 Skype for Business 升级到之前认证的设备时，用户无需Teams设备。  所有经过认证的设备都受 Microsoft Teams 和Skype for Business用户的支持，但只有一些差异。  认证还为某些设备类别提供进一步指定。
 
-- **Skype for Business认证Teams** 级别认证的升级设备最初已通过认证Skype for Business。 Microsoft 一直与设备制造商合作，在不更改原始硬件Teams提供最佳集成体验。 当 *不在调用* 中时Teams挂钩切换按钮充当一个按钮，并且可能随着时间的推移包含更多函数。  此类别中的设备可能在营销材料Teams认证徽章。
-- **此Microsoft Teams** 认证设备认证表明最新设备已通过认证，无需Teams体验。 这些设备提供之前认证的所有优势，还包括带 LED 指示器的专用Teams按钮。 对于大多数外形因素，Teams按钮是一个易于查找的具有徽标的Teams按钮。 随着时间的推移，Microsoft 将继续与设备制造商合作，通过固件更新提供新价值。
+- **Skype for Business认证Teams** 级别认证的升级设备最初已通过认证Skype for Business。 Microsoft 一直与设备制造商合作，在不更改原始硬件Teams提供最佳集成体验。 挂 *接开关* 按钮在Teams时充当一个按钮，并且可能随着时间的推移包含更多函数。  此类别中的设备可能在营销材料Teams认证徽章。
+- **此Microsoft Teams** 认证设备认证表明最新设备已通过认证，无需Teams体验。 这些设备提供之前认证的所有优势，还包括带 LED 指示器的专用Teams按钮。 对于大多数外形因素，Teams按钮将是一个易于查找的具有徽标的Teams按钮。 随着时间的推移，Microsoft 将继续与设备制造商合作，通过固件更新提供新价值。
 
 ### <a name="special-usage-designations"></a>特殊用途指定
 
@@ -74,10 +74,11 @@ ms.locfileid: "61267775"
 
 ## <a name="certified-devices"></a>认证设备
 
-*表更新时间：2021 年 12 月*
+*表更新时间：2022 年 1 月*
 
 | 制造商        | 模型                                                     | 限定      | 认证计划                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Lenovo               |转到有线免提电话                                      |1/10/2022       |认证Microsoft Teams                           |
 |EPOS                 |IMPACT SDW 5066T                                           |12/1/2021       |认证Microsoft Teams                           |
 |EPOS                 |IMPACT SDW 5063T                                           |12/1/2021       |认证Microsoft Teams                           |
 |EPOS                 |IMPACT SDW 5036T                                           |12/1/2021       |认证Microsoft Teams                           |
@@ -85,8 +86,8 @@ ms.locfileid: "61267775"
 |EPOS                 |IMPACT SDW 5016T                                           |12/1/2021       |认证Microsoft Teams                           |
 |EPOS                 |IMPACT SDW 5013T                                           |12/1/2021       |认证Microsoft Teams                           |
 |Jabra                |PanaCast 20                                                |11/26/2021      |认证Microsoft Teams                           |
-|Poly                 |"探索者焦点 2"和"Office者基础"                    |10/20/2021      |认证Microsoft Teams                           |
-|Poly                 |使者 4320 和Office者 Base                       |10/20/2021      |认证Microsoft Teams                           |
+|Poly                 |"使者焦点 2"和"Office者基础"                    |10/20/2021      |认证Microsoft Teams                           |
+|Poly                 |使者 4320 和Office者基础                       |10/20/2021      |认证Microsoft Teams                           |
 |Poly                 |使者 4310 和Office者 Base                       |10/20/2021      |认证Microsoft Teams                           |
 |Jabra                |Evolve 2 75 Headset                                        |10/8/2021       |认证Microsoft Teams                           |
 |Logitech             |区域有线耳机                                         |9/2/2021        |认证Microsoft Teams                           |

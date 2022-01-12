@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 了解如何配置 Microsoft 电话直接路由。
-ms.openlocfilehash: d6b767ace4f00e581e99ec73585b0b596029b17e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2e94da39c23c10a912f4b3f0433467439b5ecf77
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619458"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766365"
 ---
 # <a name="translate-phone-numbers-to-an-alternate-format"></a>将电话号码转换为备用格式
 
@@ -34,11 +34,11 @@ ms.locfileid: "58619458"
 
 有关设置直接路由所需的所有步骤的信息，请参阅 [配置直接路由](direct-routing-configure.md)。
 
-有时，租户管理员可能希望基于创建的模式更改出站和/或入站调用的数量，以确保与会话边界控制器和 SDC (互操作性) 。 本文介绍如何指定数字翻译规则策略以将数字转换为备用格式。 
+有时，租户管理员可能希望基于创建的模式更改出站和/或入站调用的数量，以确保与会话边界控制器和 SDC (互操作性) 。 本文介绍如何指定数字翻译规则策略，将数字转换为备用格式。 
 
 可以使用"数字翻译规则"策略来翻译以下各项的数字：
 
-- 入站呼叫：呼叫者从 PSTN (呼叫) 呼叫Teams呼叫方 (呼叫方) 
+- 入站呼叫：从 PSTN 终结点呼叫 (呼叫) 呼叫方Teams呼叫方 (呼叫方) 
 - 出站呼叫：来自呼叫方客户端Teams呼叫 (呼叫) 呼叫方呼叫方 (PSTN) 
 
 策略在 SBC 级别应用。 可以将多个翻译规则分配给 SBC，这些规则按在 PowerShell 中列出规则时的顺序应用。 还可以更改策略中规则的顺序。
@@ -56,7 +56,7 @@ ms.locfileid: "58619458"
 对于此方案， ```New-CsOnlinePSTNGateway``` 运行 cmdlet 以创建以下 SBC 配置：
 
 ```PowerShell
-New-CSOnlinePSTNGateway -Identity sbc1.contoso.com -SipSignalingPort 5061 –InboundTeamsNumberTranslationRules ‘AddPlus1’, ‘AddE164SeattleAreaCode’ -InboundPSTNNumberTranslationRules ‘AddPlus1’ -OutboundPSTNNumberTranslationRules ‘AddSeattleAreaCode’,  -OutboundTeamsNumberTranslationRules ‘StripPlus1’
+New-CSOnlinePSTNGateway -Identity sbc1.contoso.com -SipSignalingPort 5061 –InboundTeamsNumberTranslationRules ‘AddPlus1’, ‘AddE164SeattleAreaCode’ -InboundPSTNNumberTranslationRules ‘AddPlus1’ -OutboundPSTNNumberTranslationRules ‘AddSeattleAreaCode’,‘StripPlus1’  -OutboundTeamsNumberTranslationRules ‘StripPlus1’
 ```
 
 下表汇总了分配给 SBC 的翻译规则：
@@ -72,14 +72,14 @@ New-CSOnlinePSTNGateway -Identity sbc1.contoso.com -SipSignalingPort 5061 –Inb
 
 ## <a name="example-1-inbound-call-to-a-ten-digit-number"></a>示例 1：对十位数号码的入站呼叫
 
-Bob 使用非 E.164 十位数号码呼叫 Alice。 Bob 拨2065550100联系 Alice。
-SBC 使用 requestURI 2065550100 To 标头和 4255550100 From 标头中的标头。
+Bob 使用非 E.164 十位数号码呼叫 Alice。 Bob 拨打2065550100联系 Alice。
+SBC 在 RequestURI 2065550100和 To 标头中使用 4255550100，在 From 标头中。
 
 
 |标头  |源语言 |翻译的标头 |应用的参数和规则  |
 |---------|---------|---------|---------|
 |RequestURI  |邀请 sip:2065550100@sbc.contoso.com|邀请 sip:+12065550100@sbc.contoso.com|InboundTeamsNumberTranslationRules 'AddPlus1'|
-|自    |自： \<sip:2065550100@sbc.contoso.com>|自： \<sip:+12065550100@sbc.contoso.com>|InboundTeamsNumberTranlationRules 'AddPlus1'|
+|自    |自： \<sip:2065550100@sbc.contoso.com>|自： \<sip:+12065550100@sbc.contoso.com>|InboundTeamsNumberTranlationRules "AddPlus1"|
 |从   |从： \<sip:4255550100@sbc.contoso.com>|从： \<sip:+14255550100@sbc.contoso.com>|InboundPSTNNumberTranslationRules 'AddPlus1'|
 
 ## <a name="example-2-inbound-call-to-a-four-digit-number"></a>示例 2：对四位数号码的入站呼叫
@@ -97,7 +97,7 @@ SBC 在 RequestURI 和 To 标头中使用 0100，4255550100 From 标头中。
 ## <a name="example-3-outbound-call-using-a-ten-digit-non-e164-number"></a>示例 3：使用十位数非 E.164 号码的出站呼叫
 
 Alice 使用十位数号码呼叫 Bob。 Alice 拨打 425 555 0100 联系 Bob。
-SBC 配置为对 PSTN 用户使用非 E.164 十Teams数字。
+SBC 配置为对用户和 PSTN 用户使用非 E.164 十Teams数字。
 
 在此方案中，拨号计划先转换号码，然后再将其发送到直接路由接口。 当 Alice 在 Teams 客户端中输入 425 555 0100 时，该号码将14255550100国家/地区拨号计划转换为 +14255550100。 生成的号码是拨号计划规则和翻译规则的累积规范化Teams规则。 呼叫Teams规则删除拨号计划添加的"+1"。
 

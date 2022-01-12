@@ -1,5 +1,5 @@
 ---
-title: 在 Teams 会议室 托管服务中Microsoft Teams 会议室 高级版设备
+title: 在 Teams 会议室 托管服务中Microsoft Teams 会议室高级版设备
 author: v-smandalika
 ms.author: v-smandalika
 manager: serdars
@@ -15,54 +15,55 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 了解如何在托管服务Microsoft Teams 会议室注册Microsoft Teams 会议室 高级版帐户。
+description: 了解如何在托管服务Microsoft Teams 会议室注册Microsoft Teams 会议室高级版帐户。
 f1keywords: ''
-ms.openlocfilehash: a6aa59a798e06c407c1bbde6734ec9ab3ecedcd1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 79dee52cc9c814338c6c5dc4c91245155ef2fd41
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58637017"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766965"
 ---
-# <a name="enroll-a-device-in-the-microsoft-teams-rooms-premium-managed-service"></a>在托管服务中Microsoft Teams 会议室 高级版设备
+# <a name="enroll-a-device-in-the-microsoft-teams-rooms-premium-managed-service"></a>在托管服务中Microsoft Teams 会议室高级版设备
 
-若要在Microsoft Teams 会议室服务中注册 Teams 会议室 高级版 设备，需要向托管服务管理员再分配一个用户，然后使用该用户完成注册步骤。
+若要在Microsoft Teams 会议室服务中注册Teams 会议室 高级版设备，需要向托管服务管理员再分配一个用户，然后使用该用户完成注册步骤。
 
 ## <a name="assign-users-to-the-managed-service-administrator-role"></a>将用户分配到托管服务管理员角色
 
 完成以下步骤，将用户分配到托管服务管理员角色：
 
-1. 使用与[Teams 会议室 高级版](https://portal.rooms.microsoft.com/)相同的管理员权限登录到 Microsoft 365 管理中心。
+1. 使用与[Teams 会议室 高级版](https://portal.rooms.microsoft.com/)登录管理员权限相同的管理员权限登录到 Microsoft 365 管理中心。
 2. 导航到  >  **设置设置**  >  **角色"，** 然后选择"**托管服务管理员"。**
 3. 在 **"托管服务管理员"** 下，选择"**分配"** 选项卡，然后选择"**添加"。**
 4. 按照向导命名分配并选择应添加到该分配的用户。 该作业将应用于所有会议室和会议室组。
 5. 在作业向导的末尾，选择"添加 **分配"。**
 
-分配有托管服务管理员角色的用户负责对托管服务门户Teams 会议室 高级版监视。
+分配有托管服务管理员角色的用户负责对托管服务门户进行日常管理和Teams 会议室 高级版监视。
 
-将用户分配到托管服务管理员角色后，请继续"注册设备"部分，Teams 会议室设备添加到托管服务门户。 [](#enroll-a-teams-rooms-device)
+将用户分配到托管服务管理员角色后，请继续"注册设备"部分，[](#enroll-a-teams-rooms-device)将Teams 会议室添加到托管服务门户。
 
 ## <a name="enroll-a-teams-rooms-device"></a>注册Teams 会议室设备
 
-完成以下步骤，在托管服务中Teams 会议室 高级版设备：
+ 若要在托管服务中Teams 会议室 高级版设备，请参阅[监视设备软件安装](monitor-software-installation-guide.md)。
 
-1. 使用Teams 会议室 高级版"托管[](https://portal.rooms.microsoft.com/)服务管理员"角色的用户登录到门户。
-2. 在？  图标以启动帮助菜单。 帮助菜单包括安装 [指南，](https://portal.rooms.microsoft.com/docs/MMR%20Monitoring%20Software%20Installation%20Guide%20Feb%202021.pdf) 其中包含详细的注册说明：
+<!--2. Select on the **?** icon at the top right-hand corner of the portal to launch the help menu. The help menu includes an [Installation guide](https://portal.rooms.microsoft.com/docs/MMR%20Monitoring%20Software%20Installation%20Guide%20Feb%202021.pdf) containing detailed enrollment instructions:
 
-    1. 查看 **安装指南中的** "先决条件"部分。 确认"通信所需的 URL"列表中列出的 **URL** 已添加到防火墙的流量允许列表。
-    2. 按照启用 **TPM** 设置部分中的说明在设备上启用受信任平台模块 (TPM) 功能。
-    3. 按照添加 **代理设置部分中** 的说明将设备配置为使用代理网关（如果有）。
-    4. 按照"流程 **"部分中** 的说明在设备上安装监视代理软件并配置自注册密钥。
+    1. Review the **Pre-requisites** section in the Installation guide. Confirm that the URLs listed in the **URLs Required for Communication** list are added to your firewall's traffic allow list.
+    2. Follow the instructions in the **Enabling TPM Settings** section to enable the Trusted Platform Module (TPM) functionality on your device.
+    3. Follow the instructions in the **Adding Proxy Settings** section to configure your device to use your proxy gateway, if you have one.
+    4. Follow the instructions in the **Process** section to install the monitoring agent software and configure the self enrollment key on your device.
 
-3. 在设备上配置监视代理和唯一 XML 密钥后，导航到"聊天室名称>">"状态"，然后选择"注册 **"。**
+3. After the monitoring agent and unique XML key are configured on your device, navigate to **Rooms** > room name > **Status**, and then select **Enroll**.
 
     > [!NOTE]
-    > 托管Teams 会议室将保持 **载入状态，** 直到托管服务管理员使用门户注册设备。
+    > The Teams Rooms device will remain in the **Onboarding** state until a Managed Service Administrator enrolls the device using the portal.
 
-## <a name="link-to-installation-guide"></a>安装指南链接
+    See [Monitoring device software installation](monitoring-software-installation-guide.md).
 
-" **帮助** "菜单提供指向安装 [指南的链接](https://portal.rooms.microsoft.com/docs/MMR%20Monitoring%20Software%20Installation%20Guide%20Feb%202021.pdf) ，该链接反过来提供以下信息：
+<!--## Link to Installation guide
 
-- 有关需要允许列出才能向托管服务发送房间遥测数据的 URL 的说明。
-- 有关在托管服务Microsoft Teams 会议室 高级版设备时应用监视代理和唯一 XML 密钥的说明。
-- 故障排除说明。
+The **Help** menu provides a link to the [Installation guide](https://portal.rooms.microsoft.com/docs/MMR%20Monitoring%20Software%20Installation%20Guide%20Feb%202021.pdf) which in turn provides the following information:
+
+- Instructions on URLs that need to be allow-listed to serve to enable room telemetry to be sent to the managed service.
+- Instructions for applying the Microsoft Teams Rooms Premium monitoring agent and unique XML key as part of enrolling a device in the managed service.
+- Troubleshooting instructions.-->

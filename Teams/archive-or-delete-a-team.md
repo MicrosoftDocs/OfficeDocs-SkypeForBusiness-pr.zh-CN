@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f5743dda03b7495bc8f7c275fb955f83d7db6be2
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: c310794d439af79e53618d9b6e93e567c652cf47
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727201"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766635"
 ---
 # <a name="archive-or-delete-a-team-in-microsoft-teams"></a>在 Microsoft Teams 中存档或删除团队
 
@@ -32,7 +32,7 @@ ms.locfileid: "58727201"
 
 将团队存档时，该团队的所有活动都会停止。 存档团队还会存档团队中的专用频道及其关联的网站集。  但是，你仍然可以添加或删除成员以及更新角色，而且仍可查看标准和专用通道、文件和聊天中的所有团队活动。
 
-删除团队时，也将删除标准和专用频道（及关联的网站集）、文件和聊天中的团队活动。
+删除团队时，标准和专用频道中的团队活动 (以及关联的网站集) 、文件和聊天也会被删除。
 
 > [!IMPORTANT]
 > 你可以重新激活已存档的团队，但无法直接还原已删除的团队。 应先考虑将团队存档并推迟删除，直至确定不再需要团队再进行删除操作。
@@ -47,8 +47,8 @@ ms.locfileid: "58727201"
 
     ![存档Teams屏幕截图。](media/teams-archive-message.png)
 
-4. 若要防止用户编辑SharePoint网站和与团队关联的 Wiki 选项卡中的内容，请选择"使SharePoint网站为只读 **的团队成员"。**  (Teams所有者仍可编辑此内容。) 
-5. 选择“**存档**”以存档团队。 团队的状态将更改为“**已存档**”。
+4. 若要防止用户编辑SharePoint网站和与团队关联的 Wiki 选项卡中的内容，请选择"使SharePoint网站为只读 **"。**  (Teams所有者仍可编辑此内容。) 
+5. 选择“**存档**”以存档团队。 团队的状态将更改为"已存档"，它将移动到位于团队列表底部的"隐藏团队"内，旁边将添加一个表示存档状态的小图标。 
 
 ## <a name="make-an-archived-team-active"></a>激活已存档的团队
 
@@ -56,7 +56,7 @@ ms.locfileid: "58727201"
 
 1. 在管理中心中，选择 **"Teams"。**
 2. 通过单击团队名称选择团队。
-3. 选择“**取消存档**”。 团队的状态将更改为“**活动**”。
+3. 选择"**还原"。** 团队的状态将更改为“**活动**”。 请注意，它不会自动移回 **团队** 内部。
 
 ## <a name="delete-a-team"></a>删除团队
 
@@ -71,7 +71,7 @@ ms.locfileid: "58727201"
 
 按照以下步骤还原已删除的团队，Microsoft 365与团队关联的组。 还原团队Microsoft 365组可还原团队内容，包括选项卡、标准频道和专用频道及其关联的网站集。
 
-默认情况下，已删除Microsoft 365组将保留 30 天。 这 30 天时间被称为“软删除”，因为还可以对组进行还原。 有关详细信息，请参阅 [还原已删除的组](/microsoft-365/admin/create-groups/restore-deleted-group)。
+默认情况下，已删除的Microsoft 365组将保留 30 天。 这 30 天时间被称为“软删除”，因为还可以对组进行还原。 有关详细信息，请参阅 [还原已删除的组](/microsoft-365/admin/create-groups/restore-deleted-group)。
 
 ### <a name="install-the-azureadpreview-module"></a>安装 AzureADPreview 模块
 
@@ -91,23 +91,23 @@ ms.locfileid: "58727201"
     Install-Module AzureADPreview
     ```
 
-### <a name="restore-the-deleted-microsoft-365-group"></a>还原已删除Microsoft 365组
+### <a name="restore-the-deleted-microsoft-365-group"></a>还原已删除的Microsoft 365组
 
 1. 通过运行以下命令连接到 Azure AD：
     ```PowerShell
     Connect-AzureAD
     ```
     提示登录时，请使用管理员帐户和密码登录。  
-2. 运行以下代码，显示仍在 30 天保留期内Microsoft 365软删除的组的列表。 如果有大量组，请使用 **-All $True** 参数。
+2. 运行以下代码，显示仍在 30 天保留期内Microsoft 365软删除的组的列表。 如果 **有许多$True，请使用 -All** $True 参数。
     ```PowerShell
     Get-AzureADMSDeletedGroup
     ```
-3. 找到要还原的组，然后记下 ID。
-4. 运行以下命令以还原该组，其中 [Id] 是组 ID。
+3. 找到要还原的组，并记下 `Id` 。
+4. 运行以下代码还原组，其中 `[Id]` 是组 ID。
     ```PowerShell
     Restore-AzureADMSDeletedDirectoryObject -Id [Id]
     ```
-5.  运行以下命令以验证是否已成功还原组，其中 [Id] 是组 ID。
+5.  运行以下代码来验证组是否成功还原， `[Id]` 其中 是组 ID。
     ```PowerShell
     Get-AzureADGroup -ObjectId [Id]
     ```
