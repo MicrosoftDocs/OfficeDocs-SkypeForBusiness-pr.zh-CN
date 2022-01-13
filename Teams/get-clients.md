@@ -1,7 +1,7 @@
 ---
 title: 获取 Microsoft Teams 的客户端
-author: SerdarSoysal
-ms.author: serdars
+author: dstrome
+ms.author: dstrome
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -12,30 +12,26 @@ ms.collection:
 ms.reviewer: harij, rafarhi
 ms.localizationpriority: high
 search.appverid: MET150
-description: 了解如何使用支持 Microsoft Teams 的各种客户端，包括 Web、桌面（Windows 和 Mac）和移动（Android 和 iOS）。
+description: 了解如何在电脑、Mac 和移动设备上安装 Microsoft Teams 的各种客户端。
 f1.keywords:
 - CSH
-ms.custom:
-- NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c47285a8a759ccdade5fc6e95b90d75ede77bfc3
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 31bafc1c112d8b50990cc6e92c863c7e242aa5fb
+ms.sourcegitcommit: efea3b3b9dceb1a1d82eb7a09a5104dcd6df8abf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014686"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61993006"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>获取 Microsoft Teams 的客户端
 
-支持 Microsoft Teams 的客户端包括桌面（Windows、Mac 和 Linux）、Web 和移动设备（Android 和 iOS）。 这些客户端都要求有活动的 Internet 连接，不支持脱机模式。
+> [!TIP]
+> **想要在电脑、Mac 或移动设备上安装 Teams？** 请查看[安装 Teams 客户端](https://www.microsoft.com/microsoft-teams/download-app)。
 
-> [!NOTE]
-> 关于每个客户在不同平台上能力的详细情况，请参阅 [按平台划分的 Teams 功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
->
-> 自 2018 年 11 月 29 日起，用户将不再能够使用 Microsoft Store 提供的 Microsoft Teams for Windows 10 S（预览版）应用。 现在，可以在运行 Windows 10 S 模式的设备上下载并安装 Teams 桌面客户端。 若要下载桌面客户端，请转到 [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/p/?linkid=855754)。 Teams 桌面客户端的 MSI 内部版本尚不适用于运行 Windows 10 S 模式的设备。
->
-> 有关 Windows 10 S 模式的详细信息，请参阅 [Windows 10 S 模式简介](https://www.microsoft.com/windows/s-mode)。
+本文提供有关如何在企业的设备上安装 Microsoft Teams 的信息。
+
+关于每个客户端在不同平台上的功能的详细情况，请参阅 [按平台划分的 Teams 功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
 
 ## <a name="desktop-client"></a>桌面客户端
 

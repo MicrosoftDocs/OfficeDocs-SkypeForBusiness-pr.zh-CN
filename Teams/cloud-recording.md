@@ -19,12 +19,12 @@ description: 在 Teams 中部署云语音功能的实用指南，用于记录 Te
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 37d7c3999986373e7ad72176cfc0182f09144e3a
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: 1221747b1ad8487c0b5852b6adaf5129b5a5288e
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205412"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766765"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 云会议录制
 
@@ -267,6 +267,10 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 >
 >
 
+在[此处](meeting-expiration.md#changes-to-meeting-expiration)了解有关特定于管理员的更改的详细信息。
+
+在[此处](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24#bkmk_view_change_expiration_date)了解有关最终用户如何管理会议过期时间的详细信息。
+  
 请参阅面向管理员和最终用户的常见问题，以深入了解 Teams 会议录制的自动到期如何工作、现在可以采取哪些操作，以及在功能启动后可以采取哪些操作。
   
 ## <a name="frequently-asked-questions"></a>常见问题解答

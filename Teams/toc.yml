@@ -277,6 +277,8 @@ items:
         items:
           - name: 信息屏障
             href: information-barriers-in-teams.md
+          - name: 使用 PowerShell 脚本更改信息屏障模式
+            href: information-barriers-mode-script.md
           - name: 保留策略
             href: retention-policies.md
           - name: 通信合规性
@@ -1015,6 +1017,62 @@ items:
             href: voice-case-study-audio-conferencing.md
           - name: 自动助理和呼叫队列
             href: voice-case-study-call-queues.md
+      - name: 面向中小型企业的指南
+        items:
+          - name: 适用于中小型企业的 Teams 电话指南
+            href: business-voice/whats-business-voice.md
+          - name: 国家和地区可用性
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
+          - name: 检查 Internet 连接
+            href: business-voice/get-ready-internet.md
+          - name: 从经销商或合作伙伴处获取帮助
+            href: business-voice/reseller-partner-support.md
+          - name: 为中小型企业设置 Teams 电话
+            items:
+              - name: 概述
+                href: business-voice/set-up-overview.md
+              - name: 步骤 1：设置紧急位置
+                href: business-voice/set-up-emergency-locations.md
+              - name: 步骤 2：设置电话号码
+                href: business-voice/set-up-phone-numbers.md
+              - name: 步骤 3：分配许可证
+                href: business-voice/set-up-licenses.md
+              - name: 步骤 4：设置资源帐户
+                href: business-voice/set-up-resource-account.md
+              - name: 步骤 5：向用户分配电话号码
+                href: business-voice/set-up-assign-numbers.md
+              - name: 步骤 6：设置自动助理
+                href: business-voice/set-up-auto-attendant.md
+              - name: 步骤 7：端口电话号码（可选）
+                href: business-voice/port-phone-numbers.md
+              - name: 设置后的资源
+                href: business-voice/set-up-finish.md
+          - name: 为中小型企业自定义 Teams 电话设置
+            items:
+              - name: 自定义选项
+                href: business-voice/customize-business-voice.md
+              - name: 设置通话策略
+                href: business-voice/set-up-policies.md
+              - name: 管理策略包
+                href: business-voice/policy-packages.md
+              - name: 创建更多用户
+                href: business-voice/create-users.md
+              - name: 设置呼叫队列
+                href: business-voice/create-a-phone-system-call-queue-smb.md
+              - name: 设置自动助理
+                href: business-voice/create-a-phone-system-auto-attendant-smb.md
+          - name: 管理中小型企业的 Teams 电话设置
+            items:
+              - name: 创建一个或多个用户
+                href: business-voice/create-users.md
+              - name: 管理设备
+                href: business-voice/manage-devices.md
+              - name: 监视通话质量
+                href: business-voice/monitor-quality.md
+              - name: 通话质量仪表板
+                href: business-voice/analytics-dashboard.md
+          - name: 合作伙伴资源
+            href: 'https://cloudpartners.transform.microsoft.com/products/m365-business-voice-partner-playbook'
       - name: 参考
         items:
           - name: 国家/地区电话号码管理
@@ -1227,68 +1285,6 @@ items:
                 href: add-funds-and-manage-communications-credits.md
           - name: Microsoft Teams 通话流程
             href: microsoft-teams-online-call-flows.md
-  - name: Microsoft 365 商务语音
-    items:
-      - name: 什么是 Microsoft 365 商务语音？
-        href: business-voice/whats-business-voice.md
-      - name: 国家和地区可用性
-        href: business-voice/country-region-availability.md
-      - name: 购买须知
-        items:
-          - name: 获取商务语音需要购买什么
-            href: business-voice/what-to-buy.md
-          - name: 从经销商或合作伙伴处获取帮助
-            href: business-voice/reseller-partner-support.md
-          - name: 检查 Internet 连接。
-            href: business-voice/get-ready-internet.md
-          - name: 使用户准备就绪
-            href: business-voice/prepare-users.md
-      - name: 设置商务语音
-        items:
-          - name: 概述
-            href: business-voice/set-up-overview.md
-          - name: 步骤 1：设置紧急位置
-            href: business-voice/set-up-emergency-locations.md
-          - name: 步骤 2：设置电话号码
-            href: business-voice/set-up-phone-numbers.md
-          - name: 步骤 3：分配许可证
-            href: business-voice/set-up-licenses.md
-          - name: 步骤 4：设置资源帐户
-            href: business-voice/set-up-resource-account.md
-          - name: 步骤 5：向用户分配电话号码
-            href: business-voice/set-up-assign-numbers.md
-          - name: 步骤 6：设置自动助理
-            href: business-voice/set-up-auto-attendant.md
-          - name: 步骤 7：端口电话号码（可选）
-            href: business-voice/port-phone-numbers.md
-          - name: 设置后的资源
-            href: business-voice/set-up-finish.md
-      - name: 自定义设置
-        items:
-          - name: 自定义选项
-            href: business-voice/customize-business-voice.md
-          - name: 设置通话策略
-            href: business-voice/set-up-policies.md
-          - name: 管理策略包
-            href: business-voice/policy-packages.md
-          - name: 创建更多用户
-            href: business-voice/create-users.md
-          - name: 设置呼叫队列
-            href: business-voice/create-a-phone-system-call-queue-smb.md
-          - name: 设置自动助理
-            href: business-voice/create-a-phone-system-auto-attendant-smb.md
-      - name: 管理设置
-        items:
-          - name: 创建一个或多个用户
-            href: business-voice/create-users.md
-          - name: 管理设备
-            href: business-voice/manage-devices.md
-          - name: 监视通话质量
-            href: business-voice/monitor-quality.md
-          - name: 通话质量仪表板
-            href: business-voice/analytics-dashboard.md
-      - name: 合作伙伴资源
-        href: business-voice/partner-resources.md
   - name: 设备和会议室管理
     items:
       - name: Microsoft Teams 会议室
@@ -1345,8 +1341,6 @@ items:
                 href: rooms/rooms-authentication.md
               - name: 加入第三方会议
                 href: rooms/third-party-join.md
-              - name: 通过使用 Microsoft Endpoint Configuration Manager
-                href: rooms/rooms-scale.md
               - name: 利用 Azure Monitor 进行管理
                 href: rooms/azure-monitor-deploy.md
               - name: 迁移 SRS v1 或 LRS
@@ -1381,6 +1375,12 @@ items:
             href: rooms/enrolling-mtrp-managed-service.md
           - name: 为 Teams 会议室配置 ServiceNow
             href: rooms/microsoft-teams-rooms-configure-servicenow.md
+          - name: 面向合作伙伴的多租户管理
+            href: rooms/multi-tenant-management-partner.md
+          - name: 面向客户的多租户管理
+            href: rooms/multi-tenant-management-customer.md
+          - name: 会议室活动的审核日志
+            href: rooms/multi-tenant-auditing.md
       - name: 设备
         items:
           - name: 在 Teams 中管理设备

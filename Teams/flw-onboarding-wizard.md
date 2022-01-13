@@ -8,41 +8,45 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: 了解如何使用"一线员工加入向导"在 Teams中快速部署专为组织的一线员工和经理量身定制的体验。
+description: 了解如何使用"一线员工加入向导"在Teams为组织中一线员工和经理量身定制的体验。
 ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 25508b3224ab7eab28157cbff268bb6b164686d5
-ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
+ms.openlocfilehash: 97f8994ecc5c7aef610e040f30b43803f03c6844
+ms.sourcegitcommit: efea3b3b9dceb1a1d82eb7a09a5104dcd6df8abf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "61563649"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61993188"
 ---
 # <a name="use-the-frontline-worker-onboarding-wizard-to-get-your-frontline-workforce-up-and-running"></a>使用"一线员工加入向导"让一线员工启动并运行
 
 ## <a name="overview"></a>概述
 
-"一线员工加入向导"Microsoft 365 管理中心简化了将一线员工加入组织。 通过该向导，可以在Microsoft Teams一线员工定制的体验中快速部署体验。 使用向导，可以轻松开始为组织的一线Teams用户部署。
+"一线员工加入"向导Microsoft 365 管理中心简化了将一线员工加入组织。 通过向导，可以在专为一线员工Microsoft Teams部署体验。 使用向导，可以轻松开始试点部署Teams组织中一线员工使用。
 
 该向导为一线员工设置一个团队，并将许可证和 [策略包](manage-policy-packages.md) 分配给每个团队成员。 可以从头开始或从团队模板创建团队，然后[](get-started-with-teams-templates-in-the-admin-console.md)添加用户并分配角色。 该角色确定向导分配给每个用户的策略包。
 
 目前，该向导支持每次运行它时添加 100 个用户。 我们正在努力很快增加每运行一次的用户数。 请返回此处查看最新更新。
 
-该向导可供至少具有一个 F 许可证的所有 [组织使用](https://www.microsoft.com/microsoft-365/enterprise/frontline)。 可以多次运行向导，以在整个组织的不同位置或Teams向一线员工推出该向导。
+该向导可供至少具有一个 F 许可证的所有 [组织使用](https://www.microsoft.com/microsoft-365/enterprise/frontline)。 可以多次运行向导，以向整个组织Teams或站点中的一线员工推出该向导。
+
+观看此简短视频，大致了解如何运行向导来培训一线员工。
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWN6oh]
 
 > [!NOTE]
-> 通过此向导可以快速载入一线员工，Teams通过Microsoft 365 管理中心。 有关如何使用脚本Teams一线员工的信息，请参阅如何为Teams工作人员大规模[预配服务](flw-scripted-deployment.md)。
+> 通过此向导可以快速上线员工，Teams通过Microsoft 365 管理中心。 有关如何使用脚本Teams一线员工的信息，请参阅如何大规模Teams一线员工[预配服务](flw-scripted-deployment.md)。
 
 > [!NOTE]
-> 该向导尚不支持 [敏感度标签](sensitivity-labels.md) 。 如果你的组织需要敏感度标签来创建团队，则你不会在向导的Microsoft 365 管理中心。
+> 该向导尚不支持 [敏感度标签](sensitivity-labels.md) 。 如果您的组织需要敏感度标签以创建团队，您将在向导中看不到Microsoft 365 管理中心。
 
 ## <a name="run-the-wizard"></a>运行向导
 
-1. 在左侧导航 [栏中Microsoft 365 管理中心，](https://admin.microsoft.com/)选择"设置 **"。** 转到"**应用和电子邮件**"部分，然后在"让 **一** 线员工启动并运行"下，选择"查看 **"。** 可以在此处详细了解为一线Microsoft 365提供的功能。
+1. 在左侧导航栏中 [Microsoft 365 管理中心，选择](https://admin.microsoft.com/)"设置 **"。** 转到"**应用和电子邮件**"部分，然后在"让 **一** 线员工启动并运行"下，选择"查看 **"。** 可以在此处详细了解为一线Microsoft 365提供的功能。
 
     :::image type="content" source="media/flw-onboarding-wizard-get-started.png" alt-text=""一线员工"加入体验详细信息页的屏幕截图Microsoft 365 管理中心" lightbox="media/flw-onboarding-wizard-get-started.png":::
 
@@ -60,7 +64,7 @@ ms.locfileid: "61563649"
   
     :::image type="content" source="media/flw-onboarding-wizard-assign-roles.png" alt-text="向导的"分配作业角色"页的屏幕截图，其中向团队成员分配角色、位置和许可证" lightbox="media/flw-onboarding-wizard-assign-roles.png":::
 
-    通过分配一个"前端辅助角色"或"前端管理员"角色，该用户将收到一个策略包。 策略包将创建一个Teams角色定制的体验。 此体验包括用于正常一线辅助角色和经理通信和协作的预固定应用和策略。
+    通过分配一个"前端辅助角色"或"前端管理员"角色，该用户将收到一个策略包。 策略包将创建一个Teams角色定制的应用体验。 此体验包括用于正常一线辅助角色和经理通信和协作的预固定应用和策略。
 
     接下来，选择一个位置，并为每个Microsoft 365分配一个 F 许可证。 如果没有足够的许可证，可以选择"购买更多许可证 **"以购买** 更多许可证。  
 
@@ -72,7 +76,7 @@ ms.locfileid: "61563649"
 
     :::image type="content" source="media/flw-onboarding-wizard-review-team.png" alt-text="向导的"审阅团队"页面的屏幕截图，您可以在其中查看团队设置" lightbox="media/flw-onboarding-wizard-review-team.png":::
 
-    向导将创建团队，并将许可证和策略包分配给团队成员。 这可能需要几分钟才能完成，之后你选择的收件人会收到状态电子邮件。
+    向导将创建团队，并将许可证和策略包分配给团队成员。 可能需要几分钟才能完成，之后你选择的收件人会收到状态电子邮件。
 
 8. 你已上路，但尚未完成！ 接下来，请查看 [本文运行向导后要](#what-to-do-after-running-the-wizard) 执行什么操作部分。
 

@@ -18,19 +18,19 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a7e15a8a327d40ea11412229205fca6e856e9f7b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bdf55403f807ddb8929da71d082adffcbcb7877d
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596316"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61767145"
 ---
 # <a name="set-up-microsoft-teams-in-your-small-business"></a>小型企业设置 Microsoft Teams
 
-自定义 Teams 的方法很多。 以下章节将说明如何设置各 Teams 工作负载：**聊天、团队和频道**；**会话和电话会议**；以及 **云语音**。 设置各工作负载的顺序可自行决定。 我们建议先设置聊天、团队和频道工作负载，但也可从会话和电话会议、甚至云语音开始设置。 选择权在你。
+自定义 Teams 的方法很多。 以下几节将展示如何设置每个 Teams 工作负载: **聊天、团队和频道**; **会议和电话会议**; 以及 **语音解决方案**。 设置各工作负载的顺序可自行决定。 我们建议先设置聊天、团队和频道工作负载，但也可从会话和电话会议、甚至云语音开始设置。 选择权在你。
 
 > [!NOTE]
-> 若尚未进行部署，强烈建议通过试点开始 Teams 部署。 试点将允许你和一些早期采用者在规划和推出之前熟悉 Teams 及其功能。若要详细了解如何开始进行试点，请参阅[Microsoft Teams 入门指南](get-started-with-teams-quick-start.md)。
+> 若尚未进行部署，强烈建议通过试点开始 Teams 部署。 试点将允许你和一些早期采用者在规划和推出之前熟悉 Teams 及其功能。若要详细了解如何开始进行试点，请参阅 [Microsoft Teams](get-started-with-teams-quick-start.md)。
 
 在大范围推出 Teams 之前，请参阅[确保你已准备就绪](get-started-with-teams-quick-start.md#make-sure-youre-ready)中的项目确保组织已做好准备。
 
@@ -38,8 +38,8 @@ ms.locfileid: "58596316"
 
 - [工作负载](#workloads)
   - [聊天、团队和频道](#chat-teams-and-channels)
-  - [会话和电话会议](#meetings-and-conferencing)
-  - [商务语音](#business-voice)
+  - [会话和会议](#meetings-and-conferencing)
+  - [包含通话套餐的 Teams 电话](#teams-phone-with-calling-plan)
 - [部署客户端](#deploy-clients)
 - [培训](#training)
 
@@ -57,7 +57,7 @@ ms.locfileid: "58596316"
 |--|--|
 | [谁应该成为 Teams 管理员？](deploy-chat-teams-channels-microsoft-teams-landing-page.md#teams-administrators) | 管理员角色可帮助向希望管理 Teams 的人员授予特定权限。 在小型企业中，同一人员可能负责 Teams 的方方面面，因此，这些额外角色可能没有必要。 之后，你始终可添加或删除管理员。<br><br>[使用 Microsoft Teams 管理员角色管理 Teams](using-admin-roles.md) |
 | [谁应该成为团队所有者和成员？](deploy-chat-teams-channels-microsoft-teams-landing-page.md#teams-owners-and-members) | 团队所有者负责管控能够访问团队及其频道的人员。 他们可以决定团队或频道是（对组织）公开还是私密，也可以制定是否应审核频道等策略。 成员可访问团队及其频道（除非频道设为私密，且他们不是该频道成员），也可被指定为审核员。<br><br>[在 Microsoft Teams 中分配团队所有者和成员](assign-roles-permissions.md) |
-| [是否应该启用来宾访问？](deploy-chat-teams-channels-microsoft-teams-landing-page.md#guest-access) |来宾访问允许组织内部人员邀请外部人员访问团队和频道。 来宾访问通常用于与组织外部人员进行协作，他们一般和你无正式关系。 例如，你可邀请项目规划员临时负责项目。<br>来宾访问不同于外部访问。 来宾访问邀请特定人员进行访问，与组织内部人员进行交互。  <br>默认情况下会 **关闭** 来宾访问。 <br><br>[启用或禁用 Microsoft Teams 的来宾访问](set-up-guests.md)  |
+| [是否应该启用来宾访问？](deploy-chat-teams-channels-microsoft-teams-landing-page.md#guest-access) |来宾访问允许组织内部人员邀请外部人员访问团队和频道。 来宾访问通常用于与组织外部人员进行协作，他们一般和你无正式关系。 例如，你可邀请项目规划员临时负责项目。<br>来宾访问不同于外部访问。 来宾访问邀请特定人员进行访问，与组织内部人员进行交互。  <br>默认情况下会 **关闭** 来宾访问。 <br><br>[开启或关闭对 Microsoft Teams 的来宾访问](set-up-guests.md)。  |
 
 你无需进行任何其他操作，用户即可开始使用聊天、团队和频道。 不过，仍然有许多选项可用于控制 Teams 使用情况。 你可现在更改，也可等待，在观看用户如何使用 Teams 后再进行更改。 有关详细信息，请参阅以下文章：
 
@@ -78,15 +78,11 @@ Teams 默认启用会议，不过你仍然可控制组织者和参与者的会�
 - [管理员快速入门 - Microsoft Teams 中的会议和实时事件](quick-start-meetings-live-events.md)
 - [中小型企业设置音频会议](audio-conferencing-smb.md)
 
-### <a name="business-voice"></a>商务语音
+### <a name="teams-phone-with-calling-plan"></a>包含通话套餐的 Teams 电话
 
-[Microsoft 365 商务语音](business-voice/whats-business-voice.md) 作为优秀的解决方案，适用于用户数少于 300 的企业，可提供办公室电话系统的所有功能。 商务语音包括语音邮件、呼叫方 ID、电话系统菜单、免费电话号码等，无需管理复杂、昂贵的本地电话系统。
+包含通话套餐的 Microsoft 365 Teams 电话是适用于用户数少于 300 的企业的优秀解决方案，可提供办公室电话系统的所有功能。 Teams 电话包括语音邮件、来电显示、电话系统菜单、免费电话号码等，无需管理复杂且昂贵的本地电话系统。
 
-商务语音以 Microsoft 365 电话系统为基础，通过捆绑电话系统功能和外接程序、提供易于遵循的电话系统设置向导，简化了向组织添加语音的过程。 若组织所在的国家或地区支持[商务语音](business-voice/country-region-availability.md)，可将电话号码转至 Microsoft 365，让我们为你管理电话系统。
-
-将 Microsoft 365 用作电话系统，便可在设备上安装 Teams 客户端，将任何设备转换为手机。 或者，若你希望使用传统台式电话或会议电话，可从多个经 Teams 认证的设备中任意选择。 无论使用哪种方法，呼叫始终将路由到你所在的位置，而由你发起的呼叫始终将包含你的办公室电话号码。
-
-若有兴趣使用商务语音，请参阅[若要使用 Microsoft 365 商务语音，需要购买什么？](business-voice/what-to-buy.md)。
+有关适用于中小型企业的包含通话套餐的 Teams 电话的详细信息，请参阅[适用于中小型企业的 Teams 电话指南](/microsoftteams/business-voice/whats-business-voice)。
 
 ## <a name="deploy-clients"></a>部署客户端
 

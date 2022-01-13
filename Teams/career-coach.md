@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 114bc83039c42170bcc20d24419f840b3b3d339b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a6ee69306faed71524742fab46c30c9e8523d8ff
+ms.sourcegitcommit: efea3b3b9dceb1a1d82eb7a09a5104dcd6df8abf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849575"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61992996"
 ---
 # <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a>购买、配置和启用职业指导配置Microsoft Teams
 
@@ -31,13 +31,13 @@ ms.locfileid: "60849575"
 
 职业指导以下语言本地化：
 
-- 简 (中文、中国大陆) 
-- 繁 (繁体中文，台湾) 
+- 中文 (简体中文，中国大陆) 
+- 繁 (繁体中文、台湾) 
 - 英语 (US)
 - 英语 (UK)
 - 加拿大 (法语) 
 - 法语 (法国) 
-- 德国 (德国) 
+- 德国 (德语) 
 - 日语 (日本) 
 - 巴西 (葡萄牙语) 
 - 西班牙语 (西班牙) 
@@ -67,7 +67,7 @@ ms.locfileid: "60849575"
 - 学生
 
 > [!IMPORTANT]
-> 职业指导教职员工许可证必须分配给完成配置的 IT 管理员。
+> 必须将职业指导许可证分配给完成配置的 IT 管理员。
 
 **来自教育机构的数据和文件**
 
@@ -83,11 +83,13 @@ ms.locfileid: "60849575"
 
 - 教育机构链接到职业相关资源，例如职业服务和学生作业发布 (可选) 。
 
-- LinkedIn Learning学校订阅 (首选) 。
+- LinkedIn Learning 学校订阅 (首选) 。
 
 ## <a name="purchase-the-career-coach-licenses"></a>购买职业指导许可证
 
-职业指导 通过教育版解决方案注册 (EES) 、云服务提供商 (CSP) ) 和 Microsoft 365 管理中心 (Web direct) 向符合资格的教育机构提供 (（中国和俄罗斯除外）。 作为Microsoft Teams应用，客户必须具有 Microsoft 365 A3/A5 或 Office 365 A1/A3/A5 才能购买附加职业指导许可证。
+职业指导 通过教育版解决方案注册)  (EES) 、云服务提供商 (CSP) 和 Microsoft 365 管理中心 (Web direct) 在全球 (（中国和俄罗斯除外）提供，适用于符合条件的教育机构作为附加许可证。 作为Microsoft Teams应用，租户必须具有 Microsoft 365 A3/A5 或 Office 365 A1/A3/A5 才能购买附加职业指导许可证。 为学生和教职员工用户提供单独的许可证。
+
+标准 90 天免费试用版适用于 25 名学生和 25 名教职员工许可证。 有资格购买许可证的租户Microsoft 365 管理中心订阅激活试用职业指导。
 
 ### <a name="assign-app-licenses-to-users"></a>向用户分配应用许可证
 
@@ -95,7 +97,7 @@ ms.locfileid: "60849575"
 
 ### <a name="turn-on-linkedin-account-connections"></a>打开 LinkedIn 帐户连接
 
-职业指导 **要求教育机构** 的用户能够将其帐户Microsoft 365其 LinkedIn 帐户，该帐户在 职业指导。
+职业指导 **要求** 教育机构的用户能够将其帐户连接到其 Microsoft 365 LinkedIn 帐户，该帐户在 职业指导。
 
 1. 使用 Azure AD[](https://aad.portal.azure.com/)组织的全局管理员帐户登录到 Azure AD 管理中心。
 
@@ -103,7 +105,7 @@ ms.locfileid: "60849575"
 
 3. 在"**用户"** 页上，选择"**用户设置"。**
 
-4. **LinkedIn 帐户连接** 必须设置为"是"或"所选职业指导，否则无法正确配置。
+4. **LinkedIn 帐户连接** 必须设置为"是"或"已选择"**组职业指导正确** 配置。
 
    ![在组织中集成 LinkedIn 帐户连接](/azure/active-directory/enterprise-users/media/linkedin-integration/linkedin-integration.png)
 
@@ -129,9 +131,9 @@ ms.locfileid: "60849575"
 
 3. 搜索或 **浏览职业指导。**  
 
-4. 选择 **职业指导**，然后选择 **"设置"。**  
+4. 选择 **职业指导**"，然后选择 **"设置"。**  
 
-    ![显示已职业指导应用，其中显示了设置选项。](media/career-coach-app.png)
+    ![显示选中职业指导应用，设置选项。](media/career-coach-app.png)
 
 ## <a name="configure-the-career-coach-app-settings"></a>配置职业指导应用设置
 
@@ -175,7 +177,7 @@ ms.locfileid: "60849575"
     - 纵横比为 16：9
     - 最大大小为 360 px x 200 px
 
-5. 添加 **教育机构的隐私策略 URL。** 如果已添加，则学校的隐私策略可供学生在应用职业指导审阅。
+5. 添加 **教育机构的隐私策略 URL。** 如果添加，则学校的隐私策略可供学生在应用职业指导查看。
 
 6. 选择"**提交"。**
 
@@ -184,11 +186,11 @@ ms.locfileid: "60849575"
 LinkedIn 配置将 职业指导与来自 LinkedIn 的公共毕业生数据连接。
 
 > [!IMPORTANT]
-> 这是必填部分 - 职业指导 LinkedIn 页面连接无法启用。
+> 这是必填职业指导 - 在未验证 LinkedIn 页面连接的情况下无法启用。
 
 #### <a name="add-the-linkedin-page"></a>添加 LinkedIn 页面
   
-1. 登录到管理 **[Teams中心](https://admin.teams.microsoft.com)**。
+1. 登录到 Teams **[管理中心](https://admin.teams.microsoft.com)**。
 
 2. 选择 **Teams"**  >  **[管理应用职业指导](https://admin.teams.microsoft.com/policies/manage-apps)**  >    >  **LinkedIn 连接"。**
 
@@ -221,7 +223,7 @@ LinkedIn 配置将 职业指导与来自 LinkedIn 的公共毕业生数据连接
 课程目录表示教育机构为学生提供的课程和课程。
 
 > [!IMPORTANT]
-> 这是必填职业指导 - 如果没有课程目录，则不能启用。
+> 这是必填部分 - 职业指导目录无法启用。
 
 这些课程在应用内用于两个方面：
 
@@ -233,11 +235,11 @@ LinkedIn 配置将 职业指导与来自 LinkedIn 的公共毕业生数据连接
 
 #### <a name="add-the-course-catalog"></a>添加课程目录
 
-1. 登录到管理 **[Teams中心](https://admin.teams.microsoft.com)**。
+1. 登录到 Teams **[管理中心](https://admin.teams.microsoft.com)**。
 
 1. 选择 **Teams"** &gt; **[管理应用"职业指导设置"](https://admin.teams.microsoft.com/policies/manage-apps)** &gt;  &gt;  &gt; **课程目录"。**  
 
-2. Upload包含所需列的 CSV 格式课程：courseId、title 和 sourceLink。 每行必须包含每个所需列的数据。 _包括建议的字段可返回更好的搜索结果和技能标识，从而改善学生的体验。_
+2. Upload CSV 格式且包含所需列的课程：courseId、title 和 sourceLink。 每行必须包含每个所需列的数据。 _包含建议的字段可返回更好的搜索结果和技能标识，从而改善学生的体验。_
 
 4. 选择"**提交"。**
 
@@ -248,13 +250,13 @@ LinkedIn 配置将 职业指导与来自 LinkedIn 的公共毕业生数据连接
 文档需要采用 CSV 格式，最大大小为 18 MB。 文档必须包含必填字段 **课程标题**、**课程 ID** 和 **课程 URL。** 
 
 > [!TIP]
-> 从示例 [课程目录文档]( https://aka.ms/career-coach/docs/it-admins/sample-catalog) 开始，确保设置正确的格式。 _包括建议的字段可返回更好的搜索结果和技能标识，从而改善学生的体验。_
+> 从示例 [课程目录文档]( https://aka.ms/career-coach/docs/it-admins/sample-catalog) 开始，确保设置正确的格式。 _包含建议的字段可返回更好的搜索结果和技能标识，从而改善学生的体验。_
 
 下表显示了要包括在课程目录中的项目：
 
 | 名称             | 状态      | 类型   | 说明                                                                    |
 |------------------|-------------|--------|--------------------------------------------------------------------------------|
-| courseId         | 必需    | string | 课程 ID 通常 (映射到脚本脚本中生成的内容) 。 |
+| courseId         | 必需    | string | 课程 ID (通常映射到脚本脚本中生成) 。 |
 | title            | 必需    | string | 通常是课程标题。                                                      |
 | sourceLink       | 必需    | URL    | 课程页面的网站链接。                                               |
 | description      | 推荐 | string | 课程简介文本。                                              |
@@ -270,12 +272,12 @@ LinkedIn 配置将 职业指导与来自 LinkedIn 的公共毕业生数据连接
 研究领域与感兴趣的主要领域、学术专业和程度同义。 这些游戏在学生开始使用应用并开始设置其个性化个人资料时被学生引用。
 
 > [!IMPORTANT]
-> 这是必填部分 - 职业指导没有研究领域列表，无法启用此部分。
+> 这是必填职业指导 - 如果没有研究领域列表，无法启用此部分。
 
 #### <a name="add-the-fields-of-study"></a>添加研究领域
 
-1. 登录到管理 **[Teams中心](https://admin.teams.microsoft.com)**。
-1. 选择 **Teams"** &gt; **[管理应用](https://admin.teams.microsoft.com/policies/manage-apps)** &gt;  &gt; **"职业指导设置"** &gt; **研究领域"。**  
+1. 登录到 Teams **[管理中心](https://admin.teams.microsoft.com)**。
+1. 选择 **Teams"** &gt; **[管理应用"职业指导设置"](https://admin.teams.microsoft.com/policies/manage-apps)** &gt;  &gt;  &gt; **研究领域"。**  
 
 2. Upload CSV 格式的研究领域。
 
@@ -321,7 +323,7 @@ LinkedIn 配置将 职业指导与来自 LinkedIn 的公共毕业生数据连接
 
 1. 登录到管理 **[Teams中心](https://admin.teams.microsoft.com)**。
 
-1. 选择 **Teams"** &gt; **[管理应用"职业指导"。](https://admin.teams.microsoft.com/policies/manage-apps)** &gt; 
+1. 选择 **"Teams应用** &gt; **[""管理应用](https://admin.teams.microsoft.com/policies/manage-apps)** &gt; **职业指导"。**
 
 2. 将"状态"切换开关移动到"**允许"。**  
 
@@ -331,12 +333,12 @@ LinkedIn 配置将 职业指导与来自 LinkedIn 的公共毕业生数据连接
 ### <a name="add-career-coach-as-an-installed-app"></a>将职业指导添加为已安装的应用
 
 > [!IMPORTANT]
-> 此步骤可确保职业指导正确配置你的组织，并确保学生职业指导。
+> 此步骤可确保职业指导正确配置你的组织，并确保学生找到职业指导。
 
 1. 登录到管理 **[Teams中心](https://admin.teams.microsoft.com)**。
 
 2. 选择 **Teams设置** &gt; **策略"，** 然后选择首选策略。
-如果不确定要使用哪个策略，可以参考 Microsoft Teams[策略](/microsoftteams/policy-packages-edu)管理文档，或利用教育策略向导来配置[](/microsoftteams/easy-policy-setup-edu?tabs=students%2Cstudent-settings)策略Microsoft Teams。
+如果不确定要使用哪个策略，可以参考 Microsoft Teams[策略管理](/microsoftteams/policy-packages-edu)文档，或利用教育策略向导来配置[](/microsoftteams/easy-policy-setup-edu?tabs=students%2Cstudent-settings)策略Microsoft Teams。
 
 3. 在"已安装的应用"下，选择 **"添加应用"。**
 
@@ -345,7 +347,7 @@ LinkedIn 配置将 职业指导与来自 LinkedIn 的公共毕业生数据连接
 5. 选择“**保存**”。
 
 > [!NOTE]
-> 编辑或分配策略可能需要几个小时，更改才能生效。 职业指导更改完成之前，Microsoft Teams应用在应用中不可用。
+> 编辑或分配策略可能需要几个小时，更改才能生效。 在职业指导完成之前，Microsoft Teams应用将不可用。
 
 ### <a name="pin-the-app"></a>固定应用
 
@@ -354,7 +356,7 @@ LinkedIn 配置将 职业指导与来自 LinkedIn 的公共毕业生数据连接
 1. 登录到管理 **[Teams中心](https://admin.teams.microsoft.com)**。
 
 2. 选择 **Teams设置** &gt; **策略"，** 然后选择首选策略。
-如果不确定要使用哪个策略，可以参考 Microsoft Teams[策略](/microsoftteams/policy-packages-edu)管理文档，或利用教育策略向导来配置[](/microsoftteams/easy-policy-setup-edu?tabs=students%2Cstudent-settings)策略Microsoft Teams。
+如果不确定要使用哪个策略，可以参考 Microsoft Teams[策略管理](/microsoftteams/policy-packages-edu)文档，或利用教育策略向导来配置[](/microsoftteams/easy-policy-setup-edu?tabs=students%2Cstudent-settings)策略Microsoft Teams。
 
 3. 在 **"固定的应用"下**，选择 **"添加应用"。**
 
@@ -367,18 +369,67 @@ LinkedIn 配置将 职业指导与来自 LinkedIn 的公共毕业生数据连接
 
 有关 [更多详细信息，请参阅在 Microsoft 中](/microsoftteams/teams-app-setup-policies) 管理应用设置策略。
 
+## <a name="career-coach-settings-status"></a>职业指导设置状态
+
+职业指导管理中心中的Teams设置"页提供状态报告，其中显示配置应用的不完整、挂起、完成和失败步骤。 这些状态可帮助你确定是否职业指导配置正确并且已准备好释放到租户。
+
+### <a name="configuration-status"></a>配置状态
+
+应用设置页面的配置状态部分将显示当前状态。
+
+![职业指导应用的配置状态部分。](media/career-coach-config-status.png)
+
+| 类别              | 状态                    | 说明                                                 |
+| --------------------- | ------------------------- | ----------------------------------------------------------- |
+| 服务预配  | Pending                   | 正在将应用添加到租户。 无需进一步的操作。 |
+| 服务预配  | 完成                  | 准备让 IT 管理员提交设置。                      |
+| 品牌和首选项 | 未启动               | 设置提交。                              |
+| 品牌和首选项 | 缺少 _必填字段_ | IT 管理员需要添加或上传缺少的字段。         |
+| 品牌和首选项 | 完成                  | 无需进一步的操作。                                   |
+| 课程目录        | 未启动               | 需要提交目录。                              |
+| 课程目录        | 不完整                | 查看"输入状态"，详细了解如何解决此问题。   |
+| 课程目录        | 完成                  | 无需进一步的操作。                                   |
+| LinkedIn 连接   | 未启动               | 需要提交 LinkedIn 学校页面 URL。             |
+| LinkedIn 连接   | Pending                   | 正在等待 LinkedIn 学校页面管理员批准。               |
+| LinkedIn 连接   | 完成                  | 无需进一步的操作。                                   |
+| 研究领域       | 未启动               | 需要提交文档。                             |
+| 研究领域       | 完成                  | 无需进一步的操作。                                   |
+
+> [!NOTE]
+> 所有步骤都标记为完成后，应用可以成功释放到租户，并职业指导许可证。 有关分步说明，请参阅[向用户分配许可证](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide)。
+
+### <a name="course-catalog-status"></a>课程目录状态
+
+上传文档后，课程目录状态会显示在"课程目录设置"页面上，提供文档上传和处理的详细信息。
+
+
+![职业指导应用的课程目录上传状态。](media/career-coach-course-catalog-status.png)
+
+| 列           | 值     | 说明                                                                                        |
+| ---------------- | --------- | -------------------------------------------------------------------------------------------------- |
+| 上传时间    | 时间戳 | IT 管理员上传文档的日期和时间。                                                     |
+| 完成时间   | 时间戳 | 文档完全处理的日期和时间。                                               |
+| 上传的课程 | 整型   | 在文档中找到的课程数。                                                           |
+| Ingestion status | Pending   | 队列中要处理的文档。                                                                  |
+| Ingestion status | 正在运行   | 当前正在处理文档。 此过程最多可能需要 60 分钟。                        |
+| Ingestion status | 成功   | 完全配置后，将完成 Ingestion 过程和课程，并可在应用中使用。 |
+| Ingestion status | 失败    | 检查文档格式并重新加载。                                                            |
+| 重复项       | 整型   | 在文档中找到的重复课程数。                                                 |
+
+> [!NOTE]
+> 如果列为空，则当前正在处理文档，并且这些值不可用。 处理文档后，将填充这些值。 可以刷新页面以检查更新。
 
 ## <a name="troubleshooting"></a>疑难解答
 
-- 如果在 职业指导 应用中看到"职业指导当前正在设置，供你使用"，则所需部分 __尚未完成__。 以下 __部分需要完成__ 才能使用职业指导：品牌和首选项 [、LinkedIn 连接](#linkedin-connection)、[](#brand-and-preferences)课程目录和 [研究领域](#fields-of-study)。 [](#course-catalog)
+- 如果在应用职业指导"当前正在设置供你使用职业指导"，则所需的部分 __尚未完成__。 以下 __部分需要__ 完成才能使用职业指导：品牌和首选项 [、LinkedIn 连接](#linkedin-connection)、[](#brand-and-preferences)课程目录和 [研究领域](#fields-of-study)。 [](#course-catalog)
 
 - 课程目录和研究领域的VS 具有所需的格式，最大大小为 18 MB。 参考职业指导[目录文档架构和](#course-catalog-document-format-and-schema)职业指导[领域文档架构](#fields-of-study-document-format-and-schema)以确保正确配置。
 
 - 在包含必填字段的设置页面上，如果字段未完成，则页面不会提交。 你将不会看到警告消息;页面不会提交。
 
-- 首次配置职业指导时，可能会显示一个错误横幅，指出"无法更新应用的设置。 请重试。" 这很可能是因为租户预配了 职业指导 应用，这最多可能需要 15 分钟。 如果发生这种情况，请等待 15 分钟，然后再次提交。
+- 首次配置职业指导时，可能会显示一个错误横幅，指出"无法更新应用的设置。 请重试。" 这很可能是由于租户预配了 职业指导，这最多可能需要 15 分钟。 如果发生这种情况，请等待 15 分钟，然后再次提交。
 
-- 如果职业指导应用未显示在Microsoft Teams，则策略更改可能尚未生效。 策略更改可能需要几个小时才能更新。 职业指导更改完成之前，Microsoft Teams应用在应用中不可用。
+- 如果职业指导应用未显示在Microsoft Teams，则策略更改可能尚未生效。 策略更改可能需要几个小时才能更新。 在职业指导完成之前，Microsoft Teams应用在应用中不可用。
 
 ## <a name="removing-your-tenant-data"></a>删除租户数据
 
