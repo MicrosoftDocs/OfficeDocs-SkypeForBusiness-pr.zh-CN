@@ -15,18 +15,27 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 30a9017417e6c4d50745fe1ec1bf492d65dc6b81
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 9142434cc467da1e8ae5154dc8083b648d3247ad
+ms.sourcegitcommit: 45756a51857ed1d8714175d2b715c388e2f0db81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858779"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62027575"
 ---
 # <a name="expand-microsoft-teams-across-your-organization"></a>在组织中推广 Microsoft Teams
 
 这些资源基于标准Teams部署指南，旨在帮助你根据特定的组织类型Teams资源。 如果尚未部署Teams，请参阅如何Teams中的建议[Microsoft Teams。](../deploy-overview.md)
 
-|&nbsp; |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;| 
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
-| ![task-checklist-planning-teams。](../media/clock-teams-small.svg)  |  [Teams 中的排班](./shifts-for-teams-landing-page.md) |![health-teams](../media/health-teams-small.svg)  | [适用于医疗保健业的 Teams](./teams-for-healthcare-landing-page.md) |![education-tutorial-teams](../media/education-tutorial-teams-small.svg) |  [Teams 教育版](./teams-for-education-landing-page.md) 
-|![small-business-teams。](../media/small-business-teams-small.svg)  | [适用于零售业的 Teams](./teams-for-retail-landing-page.md) |![blocks-teams](../media/blocks-teams-small.svg)  | [Teams 政府版](./teams-for-government-landing-page.md) |               |               |
+了解可以使用Teams：
+
+- [教育](./teams-for-education-landing-page.md)
+- [一线员工](../flw-landing-page.md)
+- [政府](./teams-for-government-landing-page.md)
+- [医疗保健](./teams-for-healthcare-landing-page.md)
+- [非营利组织](./teams-for-nonprofit-landing-page.md)
+- [零售](./teams-for-retail-landing-page.md)
+
+或者详细了解适用于所有行业的这些应用：
+
+- [Teams 中的排班](./shifts-for-teams-landing-page.md)
+- [预订Teams](../bookings-app-admin.md)
