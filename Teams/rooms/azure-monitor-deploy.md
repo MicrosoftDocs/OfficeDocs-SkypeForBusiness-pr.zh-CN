@@ -1,5 +1,5 @@
 ---
-title: 使用 azure Monitor Microsoft Teams 会议室管理
+title: 使用 Azure Monitor Microsoft Teams 会议室监视
 ms.author: dstrome
 author: dstrome
 ms.reviewer: Turgayo
@@ -13,24 +13,24 @@ ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
-description: 本文讨论如何使用 Azure Monitor 以Microsoft Teams 会议室的端到端方式部署设备管理。
+description: 本文讨论如何使用 Azure Monitor 以Microsoft Teams 会议室的端到端方式部署对云的监视。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6713b8651432766e6858f3376ff9804d638babcc
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 1520e9a4c9eced048634a0fdc457bb2fd0ea0edb
+ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726111"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62015212"
 ---
-# <a name="deploy-no-loc-textmicrosoft-teams-rooms-management-with-no-loc-textazure-monitor"></a>使用 :::no-loc text="Microsoft Teams Rooms"::: 部署管理 :::no-loc text="Azure Monitor":::
+# <a name="deploy-no-loc-textmicrosoft-teams-rooms-monitoring-with-no-loc-textazure-monitor"></a>使用 :::no-loc text="Microsoft Teams Rooms"::: 部署监视 :::no-loc text="Azure Monitor":::
 
-本文讨论如何使用 设置和部署集成的端到端 :::no-loc text="Microsoft Teams Rooms"::: 设备管理 :::no-loc text="Azure Monitor"::: 。
+本文讨论如何使用 设置和部署集成的端到端 :::no-loc text="Microsoft Teams Rooms"::: 设备监视 :::no-loc text="Azure Monitor"::: 。
 
-可以在 内 :::no-loc text="Log Analytics"::: :::no-loc text="Azure Monitor"::: 进行配置，提供有助于管理会议室设备 :::no-loc text="Microsoft Teams Rooms"::: 的基本遥测和警报。 随着管理解决方案的成熟，可以决定部署其他数据和管理功能，以创建设备可用性和性能的更详细视图。
+可以在 中 :::no-loc text="Log Analytics"::: :::no-loc text="Azure Monitor"::: 配置 以提供有助于管理 的基本遥测和警报 :::no-loc text="Microsoft Teams Rooms"::: 。 随着管理解决方案的成熟，可以决定部署其他数据和管理功能，以创建设备可用性和性能的更详细视图。
 
 遵循本指南，可以使用如以下示例所示的仪表板获取有关设备可用性、应用程序和硬件运行状况以及应用程序和操作系统版本分发 :::no-loc text="Microsoft Teams Rooms"::: 的详细状态报告。
 
-![示例 Log Analytics 视图的屏幕截图，Microsoft Teams 会议室。](../media/Deploy-Azure-Monitor-1.png "示例 Log Analytics 视图Microsoft Teams 会议室")
+![示例 Log Analytics 视图的屏幕截图Microsoft Teams 会议室。](../media/Deploy-Azure-Monitor-1.png "示例 Log Analytics 视图Microsoft Teams 会议室")
 
 你需要在高级别执行以下任务：
 
@@ -50,7 +50,7 @@ ms.locfileid: "58726111"
 ## <a name="validate-no-loc-textlog-analytics-configuration"></a>验证 :::no-loc text="Log Analytics"::: 配置
 <a name="validate_LogAnalytics"> </a>
 
-需要一个 :::no-loc text="Log Analytics"::: 工作区，以开始从设备收集 :::no-loc text="Microsoft Teams Rooms"::: 日志。 工作区是一个 :::no-loc text="Log Analytics"::: 唯一的环境，具有自身的数据存储库、数据源和解决方案。 如果已有一个工作区，可以使用它来监视部署，也可以创建特定于监视 :::no-loc text="Log Analytics"::: :::no-loc text="Microsoft Teams Rooms"::: :::no-loc text="Log Analytics"::: 需求的专用 :::no-loc text="Microsoft Teams Rooms"::: 工作区。
+需要一个 :::no-loc text="Log Analytics"::: 工作区，以开始从 收集日志 :::no-loc text="Microsoft Teams Rooms"::: 。 工作区是具有其自己的数据存储库、数据源和解决方案的独特 :::no-loc text="Log Analytics"::: 环境。 如果已有一个工作区，可以使用它来监视部署，也可以创建特定于监视 :::no-loc text="Log Analytics"::: :::no-loc text="Microsoft Teams Rooms"::: :::no-loc text="Log Analytics"::: 需求的专用 :::no-loc text="Microsoft Teams Rooms"::: 工作区。
 
 如果需要创建新工作区，请按照在门户中创建工作区 :::no-loc text="Log Analytics"::: [一文 :::no-loc text="Log Analytics"::: 的说明 :::no-loc text="Azure"::: 进行操作](/azure/azure-monitor/learn/quick-create-workspace)
 
@@ -61,7 +61,7 @@ ms.locfileid: "58726111"
 
 :::no-loc text="Log Analytics"::: 仅从设置 :::no-loc text="Windows"::: 中指定的事件日志中收集事件。 对于每个日志，只会收集具有所选严重性的事件。
 
-需要配置 :::no-loc text="Log Analytics"::: 以收集监视设备和应用程序状态 :::no-loc text="Microsoft Teams Rooms"::: 所需的日志。 :::no-loc text="Microsoft Teams Rooms"::: 设备使用 **:::no-loc text="Skype Room System":::** 事件日志。
+需要配置为 :::no-loc text="Log Analytics"::: 收集监视设备和应用程序状态 :::no-loc text="Microsoft Teams Rooms"::: 所需的日志。 :::no-loc text="Microsoft Teams Rooms"::: 使用 **:::no-loc text="Skype Room System":::** 事件日志。
 
 若要 :::no-loc text="Log Analytics"::: 配置为收集 :::no-loc text="Microsoft Teams Rooms"::: 事件，请参阅 中的[ :::no-loc text="Windows"::: 事件日志数据源 :::no-loc text="Azure Monitor"::: ](/azure/azure-monitor/platform/data-sources-windows-events)
 
@@ -73,11 +73,11 @@ ms.locfileid: "58726111"
 ## <a name="configure-test-devices-for-azure-monitoring"></a>为 Azure 监视配置测试设备
 <a name="configure_test_devices"> </a>
 
-需要做好监视 :::no-loc text="Log Analytics"::: 相关 :::no-loc text="Microsoft Teams Rooms"::: 事件的准备。 首先，只需将代理部署到具有物理访问权限的一个或两个设备，然后让这些测试设备生成一些数据，并 :::no-loc text="Microsoft Monitoring"::: :::no-loc text="Microsoft Teams Rooms"::: 推送到 :::no-loc text="Log Analytics"::: 工作区。
+需要做好监视 :::no-loc text="Log Analytics"::: 相关 :::no-loc text="Microsoft Teams Rooms"::: 事件的准备。 首先，需要将代理部署到具有物理访问权限的一个或两个设备，并获取这些测试设备以生成一些数据，并 :::no-loc text="Microsoft Monitoring"::: :::no-loc text="Microsoft Teams Rooms"::: 推送到 :::no-loc text="Log Analytics"::: 工作区。
 
 ### <a name="install-no-loc-textmicrosoft-monitoring-agents-to-test-devices"></a>安装 :::no-loc text="Microsoft Monitoring"::: 代理以测试设备
 
-按照将计算机部署到 中的服务连接 :::no-loc text="Microsoft Monitoring"::: [中的说明 :::no-loc text="Windows"::: ，将代理 :::no-loc text="Log Analytics"::: 部署到 :::no-loc text="Azure"::: 测试设备](/azure/azure-monitor/platform/agent-windows)。 本文详细介绍了部署代理的步骤、获取工作区 ID _ 和 _ 主密钥 * 以将设备连接到部署的说明，以及验证代理与实例的连接 :::no-loc text="Microsoft Monitoring"::: :::no-loc text="Windows"::: :::no-loc text="Log Analytics":::  * ** :::no-loc text="Microsoft Teams Rooms"::: :::no-loc text="Azure Monitor"::: :::no-loc text="Log Analytics"::: 的步骤。
+按照将计算机部署到 中的服务连接 :::no-loc text="Microsoft Monitoring"::: 中的说明[将代理 :::no-loc text="Windows"::: :::no-loc text="Log Analytics"::: 部署到测试设备 :::no-loc text="Azure"::: ](/azure/azure-monitor/platform/agent-windows)。 本文详细介绍了部署代理的步骤、获取工作区 ID _ 和 _ 主密钥 * 以将设备连接到部署的说明，以及验证代理与实例的连接 :::no-loc text="Microsoft Monitoring"::: :::no-loc text="Windows"::: :::no-loc text="Log Analytics":::  * ** :::no-loc text="Microsoft Teams Rooms"::: :::no-loc text="Azure Monitor"::: :::no-loc text="Log Analytics"::: 的步骤。
 
 ### <a name="generate-sample-no-loc-textmicrosoft-teams-rooms-events"></a>生成 :::no-loc text="Microsoft Teams Rooms"::: 示例事件
 
@@ -95,12 +95,12 @@ ms.locfileid: "58726111"
 3.  确保查询返回包含会议应用生成的事件的 :::no-loc text="Microsoft Teams Rooms"::: 日志记录。
 
 4.  生成硬件问题，并验证所需的事件是否记录在 中 :::no-loc text="Azure Log Analytics"::: 。
-    1.  拔下测试系统上的一个外围设备 :::no-loc text="Microsoft Teams Rooms"::: 。 这可以是相机、免提电话、麦克风或前会议室显示器
+    1.  拔下测试系统上的一个外围设备 :::no-loc text="Microsoft Teams Rooms"::: 。 这可以是相机、扬声器、麦克风或前室显示器
     2.  等待 10 分钟，以在 中填充事件日志 :::no-loc text="Azure Log Analytics"::: 。
     3.  使用查询列出硬件错误事件： `Event | where Source == "SRS-App" and EventID == 3001`
 
 5.  生成应用程序问题，并验证是否记录了所需的事件。
-    1.  修改 :::no-loc text="Microsoft Teams Rooms"::: 应用程序配置，并键入错误的会话启动协议 (SIP) 地址/密码对。
+    1.  修改 :::no-loc text="Microsoft Teams Rooms"::: 帐户配置，并键入错误的电子邮件/密码对。
     2.  等待 10 分钟，以在 中填充事件日志 :::no-loc text="Azure Log Analytics"::: 。
     3.  使用查询列出应用程序错误事件： `Event | where Source == "SRS-App" and EventID == 2001 and EventLevel == 1`
 
@@ -175,16 +175,16 @@ ms.locfileid: "58726111"
 3.  将磁贴命名 **:::no-loc text="Microsoft Teams Rooms":::** 。
 4.  定义第 **一个磁贴**：<br>
     **图例：** 在上个月至少发送了一次检测信号的设备<br>
-    **查询：**```Event | where EventLog == "Skype Room System" and TimeGenerated > ago(30d) | summarize TotalSRSDevices = dcount(Computer)```
+    **查询：** ```Event | where EventLog == "Skype Room System" and TimeGenerated > ago(30d) | summarize TotalSRSDevices = dcount(Computer)```
 5.  定义第 **二个磁贴**：<br>
     **图例：** 过去一小时内发送检测信号的活动设备<br>
-    **查询：**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(1h) | summarize TotalSRSDevices = dcount(Computer)```
+    **查询：** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(1h) | summarize TotalSRSDevices = dcount(Computer)```
 6.  选择"**应用"。**
 
 ### <a name="create-a-tile-that-displays-active-devices"></a>创建显示活动设备的磁贴
 
 1.  选择 **"查看仪表板** "开始添加磁贴。
-2.  从 **&选择** "数字"列表
+2.  从 **库中&** 数字"列表
 3.  定义 **"常规"** 属性：<br>
     **组标题：** 检测信号状态<br>
     **新建组：** 已选择
@@ -192,7 +192,7 @@ ms.locfileid: "58726111"
     **图例：** 活动设备 (最近 20 分钟内发送的检测信号) <br>
     **图块查询：** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(20m) | summarize AggregatedValue = count() by Computer | count```
 5.  定义 **列表** 属性：<br>
-    **列表查询：**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(20m) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```
+    **列表查询：** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(20m) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```
 6.  定义 **列标题**：<br>
     **名称：** 计算机名称<br>
     **值：** 上次检测信号
@@ -207,10 +207,10 @@ ms.locfileid: "58726111"
     **组标题：** 留空<br>
     **新建组：** 未选中
 3.  定义 **磁贴** 属性：<br>
-    **图例：** 非活动设备 (最近 20 分钟内未发送检测信号) <br>
+    **图例：** 非活动 (过去 20 分钟内未发送任何检测信号) <br>
     **图块查询：** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize LastHB = max(TimeGenerated) by Computer | where LastHB < ago(20m) | count```
 4.  定义 **列表** 属性：<br>
-    **列表查询：**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize TimeGenerated = max(TimeGenerated) by Computer | where TimeGenerated < ago(20m) | order by TimeGenerated```
+    **列表查询：** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize TimeGenerated = max(TimeGenerated) by Computer | where TimeGenerated < ago(20m) | order by TimeGenerated```
 5.  定义 **列标题**：<br>
     **名称：** 计算机名称<br>
     **值：** 上次检测信号
@@ -228,7 +228,7 @@ ms.locfileid: "58726111"
     **图例：** 过去一小时内遇到硬件错误的设备<br>
     **图块查询：** ```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h) | summarize AggregatedValue = count() by Computer | count```
 4.  定义 **列表** 属性：<br>
-    **列表查询：**```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```
+    **列表查询：** ```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```
 5.  定义 **列标题**：<br>
     **名称：** 计算机名称<br>
     **值：** 上次错误
@@ -246,12 +246,12 @@ ms.locfileid: "58726111"
     **标题：** 操作系统版本<br>
     **副标题：** 运行特定 OS 版本的设备
 4.  定义 **Donut** 属性：<br>
-    **查询：**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize OS_Version = max(SRSOSLongVersion_CF) by Computer | summarize AggregatedValue = count() by OS_Version | sort by OS_Version asc```<br>
+    **查询：** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize OS_Version = max(SRSOSLongVersion_CF) by Computer | summarize AggregatedValue = count() by OS_Version | sort by OS_Version asc```<br>
     **居中文本：** 设备<br>
     **操作：** 总和
 5.  定义 **列表** 属性。<br>
-    **列表查询：**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize SRSOSLongVersion_CF = max(SRSOSLongVersion_CF) by Computer | sort by Computer asc```<br>
-    **隐藏Graph：** 已选择<br>
+    **列表查询：** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize SRSOSLongVersion_CF = max(SRSOSLongVersion_CF) by Computer | sort by Computer asc```<br>
+    **隐藏Graph：** 已选中<br>
     **启用迷你图：** 未选中
 6.  定义 **列标题**。<br>
     **名称：** 计算机名称<br>
@@ -270,12 +270,12 @@ ms.locfileid: "58726111"
     **标题：** 应用程序版本<br>
     **副标题：** 运行特定应用程序版本的设备
 4.  定义 **Donut** 属性：<br>
-    **查询：**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize App_Version = max(SRSAppVersion_CF) by Computer | summarize AggregatedValue = count() by App_Version | sort by App_Version asc```<br>
+    **查询：** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize App_Version = max(SRSAppVersion_CF) by Computer | summarize AggregatedValue = count() by App_Version | sort by App_Version asc```<br>
     **居中文本：** 设备<br>
     **操作：** 总和
 5.  定义 **列表** 属性。<br>
-    **列表查询：**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize SRSAppVersion_CF = max(SRSAppVersion_CF) by Computer | sort by Computer asc```<br>
-    **隐藏Graph：** 已选择<br>
+    **列表查询：** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize SRSAppVersion_CF = max(SRSAppVersion_CF) by Computer | sort by Computer asc```<br>
+    **隐藏Graph：** 已选中<br>
     **启用迷你图：** 未选中
 6.  定义 **列标题**。<br>
     **名称：** 计算机名称<br>
@@ -294,7 +294,7 @@ ms.locfileid: "58726111"
     **图例：** 过去一小时内遇到应用程序错误的设备<br>
     **图块查询：** ```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h) | summarize AggregatedValue = count() by Computer | count```
 4.  定义 **列表** 属性。<br>
-    **列表查询：**```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```
+    **列表查询：** ```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```
 5.  定义 **列标题**。<br>
     **名称：** 计算机名称<br>
     **值：** 上次错误
@@ -312,7 +312,7 @@ ms.locfileid: "58726111"
     **图例：** 过去 24 小时内重启应用程序的设备，以及重启次数<br>
     **图块查询：** ```Event | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | summarize AggregatedValue = count() by Computer | count```
 4.  定义 **列表** 属性。<br>
-    **列表查询：**```Event | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | order by TimeGenerated | summarize AggregatedValue = count(EventID) by Computer```
+    **列表查询：** ```Event | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | order by TimeGenerated | summarize AggregatedValue = count(EventID) by Computer```
 5.  定义 **列标题**。<br>
     **名称：** 计算机名称<br>
     **值：** 重启次数
@@ -328,7 +328,7 @@ ms.locfileid: "58726111"
 
 :::no-loc text="Azure Monitor"::: 当主机遇到问题时，可以 :::no-loc text="Microsoft Teams Rooms"::: 引发警报以通知管理员。
 
-:::no-loc text="Azure Monitor"::: 包括内置警报机制，该机制定期通过计划的日志搜索运行。 如果日志搜索结果与特定条件匹配，则创建警报记录。
+:::no-loc text="Azure Monitor"::: 包括内置警报机制，该机制定期运行计划的日志搜索。 如果日志搜索结果与特定条件匹配，则创建警报记录。
 
 然后，规则可以自动运行一个或多个操作，主动通知你警报或调用另一个进程。 警报的可能选项包括：
 -   发送电子邮件
@@ -347,7 +347,7 @@ ms.locfileid: "58726111"
 
 2. 导航到工作区 :::no-loc text="Log Analytics"::: ，选择 **"警报"，** 然后选择" **新建警报规则"**
 
-3. 选择 **"添加条件** "，然后选择 **"自定义日志搜索"**
+3. 选择 **"添加条件** "，然后选择" **自定义日志搜索"**
 
 4.  在"搜索查询"文本框中输入以下查询。<br>
     ```
@@ -360,7 +360,7 @@ ms.locfileid: "58726111"
 
 5.  配置警报逻辑设置：<br>
     **基于：** 结果数<br>
-    **条件：** 大于，然后<br>
+    **条件：** 大于<br>
     **阈值：0**<br>
 
 6. 配置评估设置，然后选择"完成 **"：** <br>
@@ -410,7 +410,7 @@ ms.locfileid: "58726111"
 
 如果是首次生成设备，可能需要在生成过程中包括代理设置 :::no-loc text="Microsoft Teams Rooms"::: :::no-loc text="Microsoft Monitoring"::: 和配置步骤。 有关详细信息，请参阅 [使用命令行安装代理](/azure/azure-monitor/platform/agent-windows#install-the-agent-using-the-command-line)。
 
-### <a name="deploying-no-loc-textmicrosoft-monitoring-agent-by-using-a-group-policy-object-gpo"></a>使用 :::no-loc text="Microsoft Monitoring"::: 组策略对象部署代理 (GPO) 
+### <a name="deploying-no-loc-textmicrosoft-monitoring-agent-by-using-a-group-policy-object-gpo"></a>使用 :::no-loc text="Microsoft Monitoring"::: 组策略对象或 GPO (部署) 
 
 如果在实现 之前已部署设备，可以使用提供的脚本通过组策略对象 :::no-loc text="Microsoft Teams Rooms"::: :::no-loc text="Azure Monitoring"::: 来设置和配置 :::no-loc text="Active Directory"::: 代理。
 
@@ -425,7 +425,7 @@ ms.locfileid: "58726111"
 4.  创建新的组策略对象，并将其分配给计算机帐户 :::no-loc text="Microsoft Teams Rooms"::: 所在的组织单位。
 
 5.  配置 PowerShell 执行策略：
-    1.  编辑新建的组策略对象，并导航到"计算机配置 \\ 策略 \\ ""管理模板组件 \\ :::no-loc text="Windows"::: " \\:::no-loc text="Windows PowerShell":::
+    1.  编辑新建的组策略对象，并导航到"计算机配置 \\ 策略 \\ ""管理模板组件 \\ :::no-loc text="Windows"::: " \\ :::no-loc text="Windows PowerShell":::
     2.  启用"**启用脚本执行"，将****"执行策略"设置为****"允许本地脚本"。**
 
 6.  配置启动脚本：
@@ -437,7 +437,7 @@ ms.locfileid: "58726111"
     6.  选择 **"添加"，** 然后选择"**浏览"。**
     7.  选择刚刚复制的 ps1 脚本。
 
-7.  :::no-loc text="Microsoft Teams Rooms"::: 设备应在第二次 :::no-loc text="Microsoft Monitoring"::: 重新启动时安装和配置代理。
+7.  :::no-loc text="Microsoft Teams Rooms"::: 应该通过第二 :::no-loc text="Microsoft Monitoring"::: 次重新启动来安装和配置代理。
 
 ```PowerShell
 # Install-MMAgent.ps1
@@ -482,7 +482,7 @@ Stop-Transcript
 ```
 
 > [!NOTE]
-> 可以在需要 [重新配置代理、 :::no-loc text="Log Analytics"::: ](/azure/azure-monitor/platform/agent-manage) 将其移到其他工作区或修改初始安装后修改代理设置时，参阅管理和维护代理一文。
+> 可以在需要 [重新配置代理、 :::no-loc text="Log Analytics"::: ](/azure/azure-monitor/platform/agent-manage) 将其移动到其他工作区或修改初始安装后修改代理设置时，参阅管理和维护代理一文。
 
 ## <a name="additional-solutions"></a>其他解决方案
 <a name="Solutions"> </a>

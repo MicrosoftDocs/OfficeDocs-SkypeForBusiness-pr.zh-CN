@@ -14,13 +14,13 @@ ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
-description: 本文介绍部署新一代会议室系统Microsoft Teams 会议室相关的规划Skype注意事项。
-ms.openlocfilehash: 70fd1fabd416628fac4b934c2db5700f4e0f36c0
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: 本文介绍部署新一代会议室系统Microsoft Teams 会议室相关的Skype注意事项。
+ms.openlocfilehash: f0b1f8797a8d1f9d7589e959c71699b1efd84e3c
+ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727801"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62015222"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>计划Microsoft Teams 会议室
 
@@ -32,39 +32,33 @@ ms.locfileid: "58727801"
 
 Microsoft Teams 会议室提供完整的会议体验，将 HD 视频、音频和内容共享引入各种规模的会议，从小型会议区域到大型会议室。
 
-![会议室墙壁上装载的主机、麦克风和大屏幕演示了示例设置Microsoft Teams 会议室元素。](../media/room-systems-image1.png "会议室墙壁上装载的主机、麦克风和大屏幕演示了示例设置Microsoft Teams 会议室元素。")
-
-[Microsoft Teams 会议室帮助](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)是一个很好的资源，可以详细了解Microsoft Teams 会议室以及如何在部署中添加值。 此外，我们建议观看此 [概述视频](https://youtu.be/tNey5KZVCl0)。 
+![用户点击屏幕Teams 会议室，背景显示。](../media/room-systems-image1.jpg "用户点击屏幕Teams 会议室，背景显示") 
+[Microsoft Teams 会议室帮助](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)是一个很好的资源，可以详细了解Microsoft Teams 会议室以及如何在部署中添加值。
 
 ## <a name="microsoft-teams-rooms-components"></a>Microsoft Teams 会议室组件
 
 Microsoft Teams 会议室包括以下关键组件，以提供出色的用户体验：
 
-- 触摸屏控制面板
-- 计算
+- 触摸屏控制台
+- 计算模块
 - Microsoft Teams 会议室应用程序
-- Dock/扩展程序
-- 外围设备 (、麦克风、扬声器) 
-- 外部屏幕 (最多两) 
+- 外围设备 (摄像头、麦克风、扬声器) 
+- 外部屏幕 (两个) 
 - HDMI 输入
 
 你可以从许多供应商购买这些组件作为预安装捆绑包，也可以按照本文中介绍的要求单独购买 [支持的组件](requirements.md)。
 
-除了内置Surface Pro/扩展坞组合外，还可Microsoft Teams 会议室触摸屏控制面板、计算、扩展坞和集成的关键外围设备进行购买。 
-
-通常，捆绑包和集成单元包括预安装的软件，而如果你单独为 Surface Pro 系统购买支持的组件，则需要安装该软件。 有关说明， [请参阅此文章，了解在设备上安装软件](rooms-scale.md)。 
-
-可以使用 Microsoft Teams 会议室 部署Microsoft Teams、Skype for Business Online Skype for Business混合部署或本地部署。  有关[Teams 会议室许可证的信息](rooms-licensing.md)，请参阅许可更新。
+可以使用 Microsoft Teams 会议室 部署Microsoft Teams或Skype for Business部署。  有关[Teams 会议室许可证的信息](rooms-licensing.md)，请参阅许可更新。
 
 | &nbsp;   |  &nbsp;   |
 |-----------|------------|
-|![决定部署。](../media/audio_conferencing_image7.png) <br/>决策点|<ul><li>是否将Microsoft Teams 会议室部署？ </li><li>如何采购你的Microsoft Teams 会议室-捆绑、作为独立组件或作为集成单元？</li></ul> |
-| ![标识活动。](../media/audio_conferencing_image9.png)<br/>后续步骤 | <ul><li>确定谁将在整个部署中执行关键活动。</li><li>查看已 (并计划设置) ，以了解要在何处部署 Microsoft Teams 会议室 以及适合会议室大小的外围设备。</li></ul> |
+|![决定部署。](../media/audio_conferencing_image7.png) <br/>决策点|<ul><li>是否将在Microsoft Teams 会议室部署用户？ </li><li>如何采购Microsoft Teams 会议室系统？</li></ul> |
+| ![标识活动。](../media/audio_conferencing_image9.png)<br/>后续步骤 | <ul><li>确定谁将在整个部署中执行关键活动。</li><li>查看您拥有 (并计划设置) ，以了解要在何处部署 Microsoft Teams 会议室 以及适合会议室大小的外围设备。</li></ul> |
 | | |
 
 ## <a name="identify-who-will-undertake-the-key-activities-throughout-your-deployment"></a>确定谁将在整个部署中执行关键活动
 
-使用下面演示的方法指导完成部署，并根据需要自定义在这些文章中提供的示例输出。
+使用下面演示的方法指导完成部署，并根据需要为组织自定义提供的示例输出。
 
 首先了解你拥有哪些会议室并构想将来最适合你的会议室，然后开始选择和采购所需的设备、准备网站、配置和部署服务、管理更改和用户采用，以及制定操作和维护过程。
 
@@ -88,11 +82,11 @@ Microsoft Teams 会议室包括以下关键组件，以提供出色的用户体�
 
 ## <a name="room-inventory-and-capability-planning"></a>房间库存与功能规划
 
-第一步是清点组织的现有会议室，以了解其环境、会议室大小、布局和用途，并确定希望范围内每个会议室在将来拥有的功能，例如会议室中将启用哪些更丰富的协作功能。 
+第一步是清点组织的现有会议室和会议室，以了解其环境、会议室大小、布局和用途。 然后，你可以确定希望每个房间具有的功能，例如智能摄像头、白板、内容相机，等等。
 
-在每个现有房间创建设备和功能的清单后，你针对该会议室的要求会进入你的设备选择计划，以创建丰富的会议解决方案。 每个 (所需的) 、音频、视频等形式（除了房间大小和用途）在决定最适合每个房间的解决方案方面都扮演了重要角色。 
+在每个现有房间创建设备和功能的清单后，你针对该会议室的要求会进入你的设备选择计划，以创建丰富的会议解决方案。 每个 (所需的) 、音频、视频等形式（除了房间大小和用途）在决定最适合每个聊天室的解决方案方面都扮演了重要角色。 
 
-作为发现的一部分，考虑房间音响效果和布局是关键。 例如，检查房间中的椅子是否不会阻止相机视图。 验证房间没有过多的回声或嘈杂的空调，并且该房间是否有足够的电源供屏幕和Microsoft Teams 会议室。 有许多因素需要考虑，你的音频视觉 (AV) 团队或合作伙伴能够提供建议。 
+作为发现的一部分，考虑房间音响效果和布局是关键。 例如，检查房间中的椅子是否不会阻止相机视图。 验证房间没有过多的回声或嘈杂的空调，并且该房间是否有足够的电源用于屏幕和Microsoft Teams 会议室。 有许多因素需要考虑，你的音频视觉 (AV) 团队或合作伙伴能够提供建议。 
 
 | &nbsp;   | &nbsp;    |
 |-----------|------------|
@@ -111,7 +105,7 @@ _示例会议/会议室清单_
 
 有关按房间类型和大小的系统和外围设备类型的指导，请参阅Microsoft Teams 会议室[要求一](requirements.md)文。 
 
-根据你喜欢的供应商，使用要求一文提供的信息来定义每个房间类型的 Microsoft Teams 会议室 和支持的外围设备配置，并使用它作为部署的模板。 
+根据你喜欢的供应商，使用要求一文提供的信息来定义每个聊天室类型Microsoft Teams 会议室和支持的外围设备配置，并使用它作为部署模板。 
 
 **Pro提示**- 某些聊天室类型可能不适用于部署。
 
@@ -129,11 +123,11 @@ _适用于Microsoft Teams 会议室的示例部署模板_
 | 中 18' by 20'    | 6 &ndash; 12                  |                                  |                         |                 |
 | 大 15' by 32'     | 12 &ndash; 16                 |                                  |                         |                 |
 
-**Pro提示 –** 现在，可以开始收集有关所选解决方案Microsoft Teams 会议室的信息。
+**Pro提示 -** 现在是开始收集有关所选解决方案Microsoft Teams 会议室的信息的一个不错时间。
 
 ## <a name="procurement"></a>采购 
 
-可以通过设备合作伙伴购买所选系统作为捆绑包或集成解决方案。 还可以获取合作伙伴设备扩展坞，并准备自己的 Microsoft Teams 会议室 解决方案，Surface Pro设备和现有的受支持的 _AV_ 外围设备。 
+可以通过设备合作伙伴购买所选系统作为捆绑包或集成解决方案。
 
 可以从要求Microsoft Teams 会议室中列出的许多合作伙伴获取[产品/服务](requirements.md)。 请访问合作伙伴的网站，了解有关这些解决方案和采购选项的详细信息。 
 
@@ -141,16 +135,16 @@ _适用于Microsoft Teams 会议室的示例部署模板_
 
 |   &nbsp; |  &nbsp;   |
 |-----------|------------|
-| ![ship 组件。](../media/audio_conferencing_image7.png) <br/>决策点|<ul><li>是否直接将组件运送到站点或过渡设施？</li><li>Who决定使用一个 (，请管理过渡) ？</li></ul>|
+| ![ship 组件。](../media/audio_conferencing_image7.png) <br/>决策点|<ul><li>是否直接将组件运送到站点或过渡设施？</li><li>Who决定使用一个 (，请管理暂存) ？</li></ul>|
 | ![计划操作。](../media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>规划操作。</li><li>规划采用和更改管理。</li></ul>|
 
 ## <a name="plan-for-operations"></a>操作计划 
 
 组织必须持续执行监视、管理和管理任务，并且必须同意谁将在部署早期执行这些任务。 
 
-许多组织都有一个 AV 团队或合作伙伴负责管理其会议室和设备。 此团队应参与同意谁将管理Microsoft Teams 会议室设备以监视性能，以及部署软件更新和修补程序。 
+许多组织都有一个 AV 团队或合作伙伴负责管理其会议室和设备。 或者，你可以借助 Microsoft 帮助Teams 会议室管理Microsoft Teams 会议室高级版。 确定谁将管理Microsoft Teams 会议室设备，以监视性能以及部署软件更新和修补程序。 
 
-请考虑将 Microsoft Teams 会议室 相关呼叫路由到哪个支持人员队列，并为支持人员团队提供常见问题解答，以便他们更好地了解如何使用 Microsoft Teams 会议室 以及他们可以执行的主要故障排除步骤。 此常见问题解答的一个好起点[是用户帮助和](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)[已知问题](known-issues.md)。
+请考虑将 Microsoft Teams 会议室 相关呼叫路由到哪个支持人员队列，并为支持人员团队提供常见问题解答，以便他们更好地了解如何使用 Microsoft Teams 会议室 以及他们可以执行的主要故障排除步骤。 此常见问题解答的一个好起点[是用户帮助和](https://support.microsoft.com/office/microsoft-teams-rooms-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)[已知问题](known-issues.md)。
 
 |  &nbsp;  |  &nbsp;   |
 |-----------|------------|
@@ -160,6 +154,6 @@ _适用于Microsoft Teams 会议室的示例部署模板_
 
 ## <a name="plan-for-adoption-and-change-management"></a>规划采用和更改管理
 
-Microsoft Teams 会议室系统为用户引入了新功能。 必须认识到，这将为用户带来改变，并且应确保营销活动确定新系统将为用户提供的好处，以及潜在顾客可用于与团队讨论的关键要点。 
+Microsoft Teams 会议室系统为用户引入了新功能。 必须认识到，这将改变用户，并且应确保内部市场营销活动确定新系统将为用户带来的好处，以及关键讨论点潜在顾客可用于与他们的团队进行讨论。 
 
 考虑在每个网站上安排展示和告诉事件和海报删除，以通知用户新功能。 还可以创建聊天室中的"快速入门指南"。 考虑在每个网站上查找会议冠军，帮助其他人快速开始使用设备。

@@ -13,25 +13,25 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 阅读本主题，了解如何管理Microsoft Teams 会议室。
-ms.openlocfilehash: 3717c140501cbfc7650daafd14a6daa47a4febd3
-ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
+ms.openlocfilehash: 2238712b269475891074016c1099a33c56004595
+ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "61306157"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62015042"
 ---
-# <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft Teams 会议室维护和操作 
+# <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft Teams 会议室维护和操作
  
 阅读本主题，了解如何管理Microsoft Teams 会议室。
   
 Microsoft Teams 会议室是 Microsoft 的会议解决方案，旨在将会议室转换为丰富的协作体验。 用户将喜欢其熟悉的Microsoft Teams或Skype for Business界面，IT 管理员将非常欣赏轻松部署和管理的 Windows 10 Teams 会议室 应用。 Microsoft Teams 会议室旨在利用现有设备轻松安装，Microsoft Teams Skype for Business会议室。
     
-## <a name="collecting-logs-on-microsoft-teams-rooms"></a>在 Microsoft Teams 会议室
+## <a name="collecting-logs-on-microsoft-teams-rooms"></a>在 Microsoft Teams 会议室 上收集日志
 <a name="Logs"> </a>
 
-可以通过管理中心Teams日志。 在Teams管理中心，导航到"设备"\Teams 会议室"Windows"。 在此页中，单击显示名称要下载日志的日志。 在顶部面板中，单击"下载设备日志"。 系统将会提示你提供通知。 单击"获得"。 几分钟后，日志即可在"历史记录"选项卡中下载。
+若要在管理中心Teams日志，请转到Teams **上> Teams 会议室设备Windows。** 选择显示名称其日志的设备组。 在顶部面板中，选择"下载设备日志"。 确认后，几分钟后即可在"历史记录"选项卡中下载日志。
 
-也可使用 PowerShell 收集日志。 必须调用应用随应用一起Microsoft Teams 会议室脚本。 在管理模式中，启动提升的命令提示符并发出以下命令：
+也可使用 PowerShell 收集日志。 必须调用随应用一起Microsoft Teams 会议室脚本。 在 [管理模式下](rooms-operations.md)，启动提升的命令提示符，并发出以下命令：
   
 ```PowerShell
 powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1
@@ -42,14 +42,14 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 ## <a name="front-of-room-display-settings"></a>会议室前端显示屏设置
 <a name="Display"> </a>
 
-配置"会议室前"屏幕 (的设置) CEC (或) 电脑模式。
+配置"会议室前"屏幕 (的设置) CEC (或) "电脑模式"。
   
-如果希望房间前显示器在从备用模式Teams 会议室自动切换到备用模式，则必须满足某些条件。 此功能是可选的，但受 Microsoft Teams 会议室的支持，但基础硬件支持该功能。 用作房间前显示器的消费者电视需要支持 HDMI 的使用者 (CEC) 功能。  根据所选的扩展坞或主机 (可能不支持 CEC，请参阅制造商支持文档) ，需要来自 Crestron 的 [HD-RX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) 或 Extron 的 [Extron HD CTL 100](https://www.extron.com/article/hdctl100ad) 等控制器才能实现所需行为。 
+如果希望房间前显示器在从备用模式Teams 会议室自动切换到屏幕，则必须满足某些条件。 此功能是可选的，但受 Microsoft Teams 会议室的支持，但基础硬件支持该功能。 用作房间前显示器的消费者电视需要支持 HDMI 的使用者 (CEC) 功能。  根据所选的扩展坞或主机 (可能不支持 CEC，请参阅制造商支持文档) ，需要来自 Crestron 的 [HD-RX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) 或 Extron 的 [Extron HD CTL 100](https://www.extron.com/article/hdctl100ad) 等控制器才能实现所需行为。
   
 ## <a name="microsoft-teams-rooms-reset-factory-restore"></a>Microsoft Teams 会议室重置 (恢复出厂) 
 <a name="Reset"> </a>
 
-如果Microsoft Teams 会议室运行不佳，执行恢复出厂设置可能会有所帮助。 为此，请使用"Microsoft Teams[恢复工具](recovery-tool.md)，并按照工厂还原说明进行操作。
+如果Microsoft Teams 会议室运行不佳，执行恢复出厂设置可能会有所帮助。 为此，请使用"Microsoft Teams[恢复工具](recovery-tool.md)并按照工厂还原说明进行操作。
 
 > [!NOTE]
 > 存在一个已知问题 **，Microsoft Teams 会议室"** 保留我的文件 - 删除应用和设置，但保留个人文件"选项在"重置"过程中Windows不可用。 *请不要* 使用此选项。
@@ -62,7 +62,7 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 
 |工作组 |未加入域|加入域|
 |:-----|:-----|:-----|
-|重新启动  <br/> |Teams管理中心  <br/> 远程桌面  <br/> 远程 PowerShell  <br/> | <br/>远程桌面 (需要进一步配置)   <br/> 远程 Powershell (需要进一步配置)   <br/> 配置管理器  <br/> |
+|重新启动  <br/> |Teams管理中心  <br/> 远程桌面  <br/> 远程 PowerShell  <br/> | <br/>远程桌面 (需要进一步配置)   <br/> 远程 PowerShell (需要进一步配置)   <br/> 配置管理器  <br/> |
 |更新操作系统  <br/> |Windows 更新  <br/> |Windows 更新  <br/> WSUS  <br/> |
 |应用更新  <br/> |Windows 应用商店  <br/> |Windows 应用商店  <br/> 配置管理器  <br/> |
 |帐户配置  <br/> |Teams管理中心  <br/> |Teams管理中心  <br/> |
@@ -71,15 +71,15 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 ## <a name="configuring-group-policy-for-microsoft-teams-rooms"></a>为用户配置组Microsoft Teams 会议室
 <a name="GroupPolicy"> </a>
 
-本部分介绍需要Microsoft Teams 会议室正常运行的系统设置。 
+本部分介绍系统设置Microsoft Teams 会议室正常运行所依赖的系统设置。 
 
 将Teams 会议室 Active Directory 域提供以下优势：
 
-- 通过加入域Teams 会议室可以授予域用户和组管理权限。 这样做，你不必记住本地计算机级别的管理员帐户密码。
+- 通过域加入Teams 会议室可授予域用户和组管理权限。 这样做，你不必记住本地计算机级别的管理员帐户密码。
 
 - 可以将Windows服务质量配置部署到Teams 会议室。
 
-- 如果使用 Skype for Business，加入域Teams 会议室有助于自动导入组织的专用根证书链。
+- 如果使用 Skype for Business，则加入域Teams 会议室自动导入组织的专用根证书链。
 
 将 Teams 会议室 加入域时，需要创建单独的组织单位 (OU) ，以便可以将组策略对象 (GPO) 排除项提供到所有 Teams 会议室 对象所在的 OU。 禁用所有 GPO 继承，以便不支持的组策略设置不会应用到Teams 会议室。 在将域加入域Teams 会议室 OU 中的计算机对象，以确保未应用应用于默认计算机 OU 的组策略。
 
@@ -106,7 +106,7 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 |net accounts /maxpwage:unlimited  <br/> 或对本地帐户禁用密码过期的等效方法。如果此操作失败，将最终导致 Skype 帐户无法登录，且被告知密码过期。请注意，这会影响计算机上的所有本地帐户，因此，此设置失败还会导致已有的管理帐户最终也过期。  <br/> |启用 Skype 帐户以始终登录  <br/> |
 
 > [!NOTE]
-> 如果Microsoft Teams 会议室与下一版本的 Windows 10 OS 兼容，Teams 会议室更新自动更新到Windows版本。 Microsoft Teams 会议室 不应手动或通过启用 Windows Update for Business (WUFB) 组策略手动升级到下一个 Windows 10 版本"，而应该通过 GPO 启用"选择要接收的更新的 Windows 就绪状态级别"和"选择何时收到预览版本和功能更新"。 Teams 会议室启用这些组策略的部署已知会遇到 os 更新Windows 10问题。
+> 如果Microsoft Teams 会议室与下一版本的 Windows 10 OS 兼容，Teams 会议室更新自动更新到下一Windows版本。 Microsoft Teams 会议室 不应手动或通过启用 Windows Update for Business (WUFB) 组策略手动升级到下一个 Windows 10 版本"，而应该通过 GPO 启用"选择要接收的更新的 Windows 就绪状态级别"和"选择何时收到预览版本和功能更新"。 Teams 会议室启用这些组策略后，已知在更新 OS Windows 10时遇到问题。
 
 ## <a name="remote-management-using-powershell"></a>使用 PowerShell 进行远程管理
 <a name="RemotePS"> </a>
@@ -128,7 +128,7 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 1. 在设备上以管理员Microsoft Teams 会议室登录。
 2. 打开提升权限的 PowerShell 命令提示符。
 3. 输入以下命令： `Enable-PSRemoting -SkipNetworkProfileCheck -Force`
-4. 打开"本地安全策略"，将"*管理员安全组*"添加到"安全设置  >    >  **策略""** 用户权限分配"从网络  >  **访问此计算机**。
+4. 打开"本地安全策略"，*将"管理员* 安全组"添加到"安全设置策略""用户权限分配"从网络  >    >    >  **访问此计算机**。
 
 执行管理操作：
   
@@ -191,9 +191,9 @@ Copy-Item $movefile $targetDevice
   
 Microsoft Teams 会议室连接到 Windows Update 以检索操作系统和外围设备固件更新。 Teams会议室配置为从本地时间凌晨 2：00 开始安装它们。
   
-如果由于访问 Windows 应用商店方面的限制而必须手动管理更新，并且因此无法遵循[适用于企业的 Microsoft Store](https://businessstore.microsoft.com/store)分发脱机应用的常规过程，可以从部署工具包[ (](https://go.microsoft.com/fwlink/?linkid=851168)获取[](/microsoft-store/distribute-offline-apps)相应的 APPX 文件和依赖项，请参阅配置[Microsoft Teams 会议室配置](console.md)) 配置管理器使用的主机主机。 部署工具包发布滞后于应用商店版本，因此可能无法始终匹配最新的可用版本。
+如果由于访问 Windows 应用商店方面的限制而必须手动管理更新，并且因此无法遵循[适用于企业的 Microsoft Store](https://businessstore.microsoft.com/store) [ (](https://go.microsoft.com/fwlink/?linkid=851168)分发脱机应用的常规过程，则可以通过配置[](/microsoft-store/distribute-offline-apps)[Microsoft Teams 会议室配置](console.md)) 的主机主机。 部署工具包发布滞后于应用商店版本，因此可能无法始终匹配最新的可用版本。
   
-### <a name="to-update-using-powershell"></a>使用 Powershell 进行更新
+### <a name="to-update-using-powershell"></a>使用 PowerShell 进行更新
 
 1. 将程序包从 [安装 MSI 提取](https://go.microsoft.com/fwlink/?linkid=851168) 到设备可以访问的共享。
 2. 针对以下设备运行Microsoft Teams 会议室脚本， \<share\> 并适当地更改到设备共享：
@@ -207,10 +207,10 @@ Microsoft Teams 会议室连接到 Windows Update 以检索操作系统和外围
 
 某些管理功能（例如手动安装专用 CA 证书）需要将Teams 会议室管理模式。 
   
-### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running"></a>切换到管理模式，在 Microsoft Teams 会议室应用运行时切换回
+### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running"></a>切换到管理模式，在应用运行时Microsoft Teams 会议室后退
 
 1. 挂断任何正在进行的呼叫，然后返回到主屏幕。
-2. 选择"齿轮"图标并弹出菜单， (选项包括 **设置、** 辅助功能 **和** 重启 **设备) 。**
+2. 选择"齿轮"图标并弹出菜单， (选项包括设置、辅助功能 **和****重启设备) 。** 
 3. 选择“**设置**”。
 4. 输入管理员密码。 将显示“设置”屏幕。  如果设备未加入域，则默认 (用户名"Admin") 本地管理帐户。 此帐户的默认密码为"sfb"。 请尽快更改此密码。 如果计算机已加入域，可以使用适当的特权域帐户登录。
 5. 选择 **Windows 设置** 列中的"列"。
@@ -218,9 +218,9 @@ Microsoft Teams 会议室连接到 Windows Update 以检索操作系统和外围
 7. 执行必要的管理任务。
 8.  完成后重启计算机。
     
-主机现在回到其正常操作模式。以下过程要求将键盘连接到设备（如果尚未连接）。 
+现在，控制台将返回其标准运行模式。 下面的过程要求将键盘连接至设备（如果尚未连接）。 
   
-### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-crashes"></a>切换到管理模式，在应用Microsoft Teams 会议室时切换回
+### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-crashes"></a>切换到管理模式，在应用Microsoft Teams 会议室时返回
 
 1. 快速连续按 Windows 键五次。此时将显示 Windows 登录屏幕。 
 2. 用你的管理凭据登录桌面。
@@ -234,7 +234,7 @@ Microsoft Teams 会议室连接到 Windows Update 以检索操作系统和外围
    ## <a name="troubleshooting-tips"></a>故障排除提示
    <a name="TS"> </a>
 
-- 跨域边界发送会议邀请时 (，例如，在两家公司之间) 。 在这种情况下，IT 管理员应决定是否允许外部用户安排会议。 请参阅 PowerShell cmdlet [set-CalendarProcessing](/powershell/module/exchange/set-calendarprocessing)Exchange文章，特别是"ProcessExternalMeetingMessages"参数。
+- 跨域边界发送会议邀请时 (，例如，在两家公司之间) 。 在这种情况下，IT 管理员应决定是否允许外部用户安排会议。 请参阅有关 PowerShell cmdlet [set-CalendarProcessing](/powershell/module/exchange/set-calendarprocessing)Exchange，特别是"ProcessExternalMeetingMessages"参数的文章。
 - Microsoft Teams 会议室不支持通过 Exchange 2010 自动发现Exchange重定向。
 - 一般而言，IT 管理员禁用他们不打算使用的任何音频终结点是一种很好的做法。
 - 如果会议室预览中显示镜像，IT 管理员可以通过循环相机电源或使用相机设置翻转图像方向进行更正。

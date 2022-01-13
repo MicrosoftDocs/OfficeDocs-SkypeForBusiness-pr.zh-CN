@@ -12,21 +12,21 @@ ms.collection:
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-description: 本文讨论如何使用恢复工具Microsoft Teams 会议室恢复工具，该工具用于使过期系统进入受支持状态。
-ms.openlocfilehash: 8b5f61ef3ebfc1ef08a1db6667159ff97c2cdd78
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 本文讨论如何使用恢复工具Microsoft Teams 会议室恢复工具，该工具用于将过时系统引入受支持的状态。
+ms.openlocfilehash: 6f78f78ab17620a3466da713d813f8320b163a84
+ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597576"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62015062"
 ---
 # <a name="use-the-microsoft-teams-rooms-recovery-tool"></a>使用 Microsoft Teams 会议室恢复工具
 
-本文讨论如何使用恢复工具Microsoft Teams 会议室恢复工具，该工具用于使过期系统进入受支持状态。 当主机上显示"Microsoft Teams 会议室配置已过期"错误，或者在执行按钮重置出厂还原之前，应应用[此工具](./rooms-operations.md#microsoft-teams-rooms-reset-factory-restore)。
+本文讨论如何使用恢复工具Microsoft Teams 会议室恢复工具，该工具用于将过时系统引入受支持的状态。 当主机上显示"Microsoft Teams 会议室配置已过期"错误，或者在执行按钮重置出厂还原之前，应应用[此工具](./rooms-operations.md#microsoft-teams-rooms-reset-factory-restore)。
 
 ## <a name="prerequisites"></a>先决条件
 
-下载最新的[Microsoft Teams 会议室](https://go.microsoft.com/fwlink/?linkid=851168)安装包，并解压缩到可由设备访问的 USB 内存Microsoft Teams 会议室共享。
+下载最新的[Microsoft Teams 会议室](https://go.microsoft.com/fwlink/?linkid=851168)安装包，并解压缩到可供用户访问的 USB 内存Microsoft Teams 会议室。
 
 > [!NOTE]
 > 从 MSI 提取文件可以通过多种方法完成。 提取所有文件并保留其目录结构的任何机制都是可接受的。 其中一种方式是使用 命令，其中 表示 Microsoft Teams Room 安装包的完整路径，并表示要提取文件的文件夹 `msiexec /a PathToMsi /qb TARGETDIR=PathToTarget` `PathToMsi` `PathToTarget` 的完整路径。
@@ -34,7 +34,7 @@ ms.locfileid: "58597576"
 ## <a name="running-the-tool"></a>运行工具
 
 1) 登录到设备中的管理员帐户Microsoft Teams 会议室，并启动提升的命令提示符。
-2) 从Microsoft Teams 会议室设备验证你能否访问 ，它包含在从安装包提取 `RecoveryTool.ps1 file` Microsoft Teams 会议室文件。 可以在准备先决条件时所使用的网络共享或 U 盘上找到该工具包。
+2) 从Microsoft Teams 会议室设备验证你能否访问文件，该文件包含在从安装包中提取 `RecoveryTool.ps1` Microsoft Teams 会议室文件。 可以在准备先决条件时所使用的网络共享或 U 盘上找到该工具包。
 3) 运行 `powershell.exe -ExecutionPolicy Unrestricted -File "<path to RecoveryTool.ps1>"` 。
 4) 若要执行恢复出厂设置，请执行以下操作：
    1. 当脚本提示时，请选择选项 2： **重置**。
@@ -45,8 +45,8 @@ ms.locfileid: "58597576"
       3. 在 **"重置此电脑"下**，选择 **"开始使用"**
       4. 选择" **删除所有内容"，** 然后选择" **下一步"和** " **重置"**
         > [!WARNING]
-        > 如果在Microsoft Teams 会议室重置过程中选中"保留我的文件 **-** 删除应用和设置，但保留个人文件"选项，Windows不可用。 不要选择此选项。
-      5. 系统将多次重新启动。 重置完成后，系统将在 OOBE Windows"开箱即用"屏幕上 () 屏幕。
+        > 如果在Microsoft Teams 会议室重置过程中选择了"保留我的文件 **-** 删除应用和设置，但保留个人文件"选项，Windows无法使用。 不要选择此选项。
+      5. 系统将多次重新启动。 重置完成后，系统将在 OOBE Windows"开箱即用"屏幕上 () 。
 
 
 
