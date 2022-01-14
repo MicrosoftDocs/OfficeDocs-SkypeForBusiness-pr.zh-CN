@@ -249,7 +249,7 @@ items:
                 href: /SkypeForBusiness/hybrid/cloud-consolidation-aad-connect
           - name: 与 Exchange 和 SharePoint 集成
             href: /SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint
-  - name: 安全性、隐私性和合规性
+  - name: 安全性、合规性和隐私
     items:
       - name: 概述
         href: security-compliance-overview.md
@@ -300,7 +300,7 @@ items:
           - name: 审核
             href: audit-log-events.md
           - name: 客户密钥
-            href: /microsoft-365/compliance/customer-key-tenant-level?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
+            href: /microsoft-365/compliance/customer-key-overview?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
           - name: 为 Teams 内容导出 API
             href: export-teams-content.md
       - name: 隐私
@@ -1489,6 +1489,8 @@ items:
                 href: teams-app-permission-policies.md
               - name: 在 Teams 中管理应用设置策略
                 href: teams-app-setup-policies.md
+              - name: 根据许可证定制 Teams 应用
+                href: pin-teams-apps-based-on-license.md
               - name: 在 Teams 中管理自定义应用策略和设置
                 href: teams-custom-app-policies-and-settings.md
           - name: 查看应用权限并授予管理员许可
@@ -1541,6 +1543,8 @@ items:
             href: edu-remote-low-bandwidth.md
           - name: Teams 教育版策略向导
             href: easy-policy-setup-edu.md
+          - name: 部署 Teams 的父级应用
+            href: edu-parents-app.md
           - name: Teams 教育版中的“职业指导”应用
             href: career-coach.md
           - name: 监督 Teams 中的聊天
@@ -1571,12 +1575,18 @@ items:
             href: devices-for-education.md
       - name: 适合一线员工的 Teams
         items:
+          - name: 适合一线员工的 Teams
+            href: flw-landing-page.md
+          - name: 适合一线员工的许可选项
+            href: flw-licensing-options.md
           - name: 一线员工快速入门指南
             href: flw-quickstart.yml
           - name: 一线员工载入向导
             href: flw-onboarding-wizard.md
           - name: 一线员工脚本化部署
             href: flw-scripted-deployment.md
+          - name: 为一线员工定制 Teams 应用
+            href: pin-teams-apps-based-on-license.md
           - name: 管理排班应用
             href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
           - name: 为一线员工管理基于班次的访问
