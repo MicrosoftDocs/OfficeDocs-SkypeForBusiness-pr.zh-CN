@@ -1,7 +1,7 @@
 ---
 title: 国家/地区可用性 - 音频会议、呼叫计划
-ms.author: czawideh
-author: czawideh
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, LolaJacobsen
 ms.topic: reference
@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 了解音频会议、电话系统、呼叫计划、通信信用额度以及收费和免费电话号码在一个或多个国家/地区是否可用。
-ms.openlocfilehash: 8480fcbe512ed53bf7a94753b22214b50b8f3f85
-ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
+ms.openlocfilehash: ab534a020e91caaa6f9608857d6de76f5505b899
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60579522"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62056072"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>音频会议和通话套餐的国家/地区可用性
 
@@ -161,7 +161,7 @@ ms.locfileid: "60579522"
 
 ***
 
-验证其中一个 Skype for Business 或 Microsoft Teams 服务是否可用后，可以看到 Skype for Business 和[Microsoft Teams](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)附加许可，以帮助购买许可证并将其分配给用户。
+验证其中一个 Skype for Business 或 Microsoft Teams 服务是否可用后，可以看到 Skype for Business 和 Microsoft Teams 附加许可[，](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)以帮助购买许可证并将其分配给用户。
 
 > [!NOTE]
 >
@@ -171,7 +171,7 @@ ms.locfileid: "60579522"
 
 ### <a name="audio-conferencing"></a>音频会议
 
-有时，组织中的人员需要使用电话拨入会议。 Skype for Business Microsoft Teams包括音频会议功能， 可以使用电话拨入会议，而无需在移动设备或电脑上使用 Skype for Business 和 Microsoft Teams 应用。 当你决定要为组织提供音频会议时，请为组织中计划/主持音频会议的每一个人购买一个音频会议许可证。
+有时，组织中的人员需要使用电话拨入会议。 Skype for Business和Microsoft Teams包括音频会议功能， 可以使用电话拨入会议，而无需在移动设备或电脑上使用 Skype for Business 和 Microsoft Teams 应用。 当你决定要为组织提供音频会议时，请为组织中计划/主持音频会议的每一个人购买一个音频会议许可证。
   
 借助音频会议，用户可以使用收费和免费电话号码拨入会议。 在以下国家/地区中，如果组织已启用音频会议，收费号码会自动作为共享音频会议号码分配给组织。 可以从其他城市向组织分配专用收费和免费电话号码。
 
@@ -189,11 +189,11 @@ ms.locfileid: "60579522"
 > [!CAUTION]
 > 拨打免费或免费电话号码可能不可能，因为某些免费电话号码仅在一个国家/地区内的某个国家/地区内可用。 例如，如果你从美国拨打巴西的免费电话号码，则呼叫可能不会成功，因为呼叫不是源自巴西内部或巴西内的特定区域。 拨打免费号码的能力因拨打免费电话号码的限制而异。 遗憾的是，我们无法控制此行为，因此，你的体验可能会因拨打的免费电话号码和免费电话号码的限制而异。
   
-使用通信积分可从会议拨出到下面未列出的另一个国家/ [地区](../what-are-communications-credits.md)。 对于这些用户，你需要 [为组织设置通信信用额度](../set-up-communications-credits-for-your-organization.md)。
+使用通信积分可从会议拨出到下面未列出的另一个国家/ [地区](../what-are-communications-credits.md)。 对于这些用户，你需要为 [组织设置通信信用额度](../set-up-communications-credits-for-your-organization.md)。
   
 ### <a name="phone-system"></a>电话系统
 
-使用电话系统，可以创建自动助理和呼叫队列 (收费或免费电话号码) 接听组织的传入呼叫。 为用户添加呼叫计划时，他们可以使用 Skype for Business 处理基本的呼叫控制任务，例如拨打和接听呼叫、转接呼叫以及静音和取消静音呼叫。 **电话系统** 用户单击其通讯簿中的姓名，Skype for Business呼叫该人员。 要拨打和接听呼叫 **，电话系统** 用户使用其移动设备、带笔记本电脑或电脑的耳机，或者使用许多 IP 电话之一Skype for Business。
+使用电话系统，可以创建自动助理和呼叫队列 (使用收费或免费电话号码) 接听组织的传入呼叫。 为用户添加呼叫计划时，他们可以使用 Skype for Business 处理基本的呼叫控制任务，例如拨打和接听呼叫、转接呼叫以及静音和取消静音呼叫。 **电话系统** 用户单击其通讯簿中的姓名，Skype for Business呼叫该人员。 要拨打和接听呼叫 **，电话系统** 用户使用其移动设备、带笔记本电脑或电脑的耳机，或者使用许多 IP 电话之一Skype for Business。
 
 其中一些位置的收费电话号码的可用性可能在任意给定时间因库存级别而异。 除了获取单个用户的电话号码外，还可以搜索和获取音频会议 (会议网桥) 、自动助理和呼叫队列等服务的收费或免费电话号码。 这些称为“服务号码”。 若要获取电话号码，请参阅[获取服务电话号码](../getting-service-phone-numbers.md)。 不过，对于用户，在将通话套餐分配给他们后，你可以分配用户电话号码，以便他们能够拨打和接听电话。 若要查找这些电话号码，请参阅[为用户获取电话号码](../getting-phone-numbers-for-your-users.md)。 还可以参阅[为用户分配、更改或删除电话号码](../assign-change-or-remove-a-phone-number-for-a-user.md)。
 
@@ -206,7 +206,7 @@ ms.locfileid: "60579522"
 
 ### <a name="calling-plans"></a>通话套餐
 
-除了电话系统外，用户还可以通过通话套餐拨打和接听电话。 首先获取一个用户 (订阅) 电话号码 (不是要分配给) 的服务号码，然后分配呼叫计划。 有两种类型的通话套餐可用：**国内** 以及 **国内和国际**。 有关详细信息，请参阅[电话系统和通话套餐](../calling-plan-landing-page.md)。
+除了电话系统外，用户还可以通过通话套餐拨打和接听电话。 首先获取一个用户 (订阅) 电话号码 (而不是分配给) 服务号码，然后分配呼叫计划。 有两种类型的通话套餐可用：**国内** 以及 **国内和国际**。 有关详细信息，请参阅[电话系统和通话套餐](../calling-plan-landing-page.md)。
 
 有关许可信息，还可以参阅[电话系统和通话套餐许可](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
 
@@ -215,7 +215,7 @@ ms.locfileid: "60579522"
   
 ### <a name="toll-and-toll-free-phone-numbers-for-services"></a>服务的收费和免费电话号码
 
-除了为单个用户获取电话号码外，还可以搜索和获取音频会议 (（会议网桥) 、自动助理和呼叫队列）等服务的收费或免费电话号码。 这些称为“服务号码”。
+除了获取单个用户的电话号码外，还可以搜索和获取音频会议 (（会议网桥) 、自动助理和呼叫队列）等服务的收费或免费电话号码。 这些称为“服务号码”。
   
 下面列出了可以获取用于音频会议和通话套餐的收费服务号码的首都和主要城市。 使用管理中心 从这些位置获取收费 **Skype for Business号码**。
   

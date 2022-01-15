@@ -1,7 +1,7 @@
 ---
 title: 音频会议的网络内会议
-ms.author: crowe
-author: CarolynRowe
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: conceptual
@@ -19,16 +19,16 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 下面介绍了音频会议的网络内功能。
-ms.openlocfilehash: 7d477826c79b1a1630616cc51130348bfb953fa7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c6820bade333b6672d00e4f52a361280c10c8771
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620708"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055662"
 ---
 # <a name="on-network-conferencing-for-audio-conferencing"></a>音频会议的网络内会议
 
-网络会议允许组织通过直接路由向 Microsoft 拨入号码发送入站和出站音频会议呼叫。 此功能不旨在将音频会议支持扩展到第三方拨入号码。 如果网络会议用于通过第三方拨入电话号码或 Microsoft 音频会议网桥的出站呼叫将入站呼叫路由到音频会议服务，则不支持网络会议。 
+网络会议允许组织通过直接路由向 Microsoft 拨入号码发送入站和出站音频会议呼叫。 此功能不旨在将音频会议支持扩展到第三方拨入号码。 如果网络会议用于通过第三方拨入电话号码或 Microsoft 音频会议网桥的出站呼叫将入站呼叫路由到音频会议服务，则不支持网络会议。
 
 本文介绍为组织启用网络会议所需的先决条件和配置步骤。
 
@@ -37,34 +37,34 @@ ms.locfileid: "58620708"
   
 ## <a name="prerequisites"></a>先决条件
 
-在配置网络会议之前，请确保组织满足以下先决条件： 
+在配置网络会议之前，请确保组织满足以下先决条件：
 
-- 确保组织中已启用或将启用音频会议的所有用户使用Teams会议。 仅支持通过网络内会议进行入站和出站音频会议呼叫的路由，Teams会议。
+- 确保组织中已启用或将启用音频会议的所有用户都Teams会议。 仅支持通过网络内会议进行入站和出站音频会议呼叫的路由，Teams会议。
 
 - 将音频会议许可证分配给将使用网络内会议的所有用户。
 
 - 设置音频会议服务。 有关其他信息，请参阅[为会议设置音频Microsoft Teams。](set-up-audio-conferencing-in-teams.md)
 
-- 为直接路由设置 SBC () 边界控制器。 有关其他信息，请参阅 [规划直接路由](direct-routing-plan.md) 和 [配置直接路由](direct-routing-configure.md)。 
+- 为直接路由使用 SBC (设置) 边界控制器。 有关其他信息，请参阅 [规划直接路由](direct-routing-plan.md) 和 [配置直接路由](direct-routing-configure.md)。
 
   如果仅针对音频会议设置直接路由，则只需完成"步骤 1：连接 SBC"进行网络会议。
   
-## <a name="enable-the-routing-of-dial-in-calls-to-microsoft-audio-conferencing-through-direct-routing"></a>启用通过直接路由将拨入呼叫路由到 Microsoft 音频会议 
+## <a name="enable-the-routing-of-dial-in-calls-to-microsoft-audio-conferencing-through-direct-routing"></a>启用通过直接路由将拨入呼叫路由到 Microsoft 音频会议
 
 若要通过直接路由将本地用户拨打的拨入呼叫路由到音频会议服务，需要为 SDC 和专用分支 Exchange ()  (PBX) 。
 
 需要配置站点的电话设备，以通过直接路由中继将呼叫路由到组织会议网桥的任何服务号码。
 
-您可以在会议 **->** 会议网桥下的 Teams 管理中心中查找服务号码，或者使用 Skype for Business Online PowerShell cmdlet Get-CsOnlineDialInConferencingBridge 查找服务号码。 有关其他信息，请参阅音频会议号码[列表Microsoft Teams。](see-a-list-of-audio-conferencing-numbers-in-teams.md)
+可以在会议 **->** 会议网桥下的 Teams 管理中心中查找服务号码，或者使用 Skype for Business Online PowerShell cmdlet Get-CsOnlineDialInConferencingBridge 查找服务号码。 有关其他信息，请参阅中音频[会议号码Microsoft Teams。](see-a-list-of-audio-conferencing-numbers-in-teams.md)
 
 > [!NOTE]
-> 具有"每分钟付费音频会议"许可证的用户无法使用此功能。
+> 具有每分钟音频会议付费许可证的用户无法使用此功能。
 
-## <a name="enable-the-routing-of-teams-meeting-dial-out-calls-through-direct-routing"></a>通过直接路由Teams会议拨出呼叫的路由
+## <a name="enable-the-routing-of-teams-meeting-dial-out-calls-through-direct-routing"></a>通过直接Teams启用会议拨出呼叫的路由
 
-Teams会议拨出呼叫从你组织的会议内发起到 PSTN 号码，包括呼叫我时呼叫和将新参与者带到会议。 
+Teams会议拨出呼叫从你组织的会议内发起到 PSTN 号码，包括呼叫我时呼叫和将新参与者带到会议。
 
-若要Teams通过直接路由向网络用户启用会议拨出路由，需要创建并分配名为"OnlineAudioConferencingRoutingPolicy"的音频会议路由策略。 
+若要Teams通过直接路由向网络用户启用会议拨出路由，需要创建并分配名为"OnlineAudioConferencingRoutingPolicy"的音频会议路由策略。
 
 OnlineAudioConferencingRoutingPolicy 策略等同于通过直接路由进行 1：1 PSTN 呼叫的 CsOnlineVoiceRoutingPolicy。 可以使用以下 cmdlet 管理 OnlineAudioConferencingRoutingPolicy 策略：
 
@@ -76,25 +76,24 @@ OnlineAudioConferencingRoutingPolicy 策略等同于通过直接路由进行 1�
 
 有关直接路由的路由详细信息，请参阅 [为直接路由配置语音路由](direct-routing-voice-routing.md)。
 
-
-若要通过直接路由启用会议拨出呼叫的路由，需要： 
+若要通过直接路由启用会议拨出呼叫的路由，需要：
 
 - 配置音频会议路由策略
 - 在组织的电话设备上配置路由
 -  (可选) 配置拨号计划
 
-来自会议Teams拨出呼叫来自会议网桥上的默认服务号码。 有关音频会议网桥的默认服务号码的其他信息，请参阅更改音频会议网桥 [上的电话号码](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)。
+来自会议Teams呼叫来自会议网桥上的默认服务号码。 有关音频会议网桥的默认服务号码的其他信息，请参阅更改音频会议网桥 [上的电话号码](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)。
 
 ### <a name="configure-audio-conferencing-routing-policies"></a>配置音频会议路由策略
 
 音频会议路由策略 OnlineAudioConferencingRoutingPolicy 确定将哪些会议拨出呼叫路由到直接路由中继。 如果熟悉 CsOnlineVoiceRoutingPolicy 策略，此策略的工作方式非常相似。
 
 需要执行以下步骤来设置音频会议路由策略：
-1.  创建 PSTN 使用情况
-2.  配置语音路由
-3.  创建音频会议语音路由策略
-4.  向用户分配策略
 
+1. 创建 PSTN 使用情况
+1. 配置语音路由
+1. 创建音频会议语音路由策略
+1. 向用户分配策略
 
 #### <a name="create-pstn-usages"></a>创建 PSTN 使用情况
 
@@ -138,11 +137,9 @@ New-CsOnlineAudioConferencingRoutingPolicy "Policy 1" -OnlinePstnUsages "US and 
 Grant-CsOnlineAudioConferencingRoutingPolicy -Identity "<User Identity>" -PolicyName "Policy 1”
 ```
 
-
 ### <a name="configure-routing-on-the-telephony-equipment-of-your-organization"></a>在组织的电话设备上配置路由
 
 在组织的电话设备上，你需要确保通过直接路由路由的会议拨出呼叫路由到预期的网络目标。
-
 
 ### <a name="optional-configure-a-dial-plan"></a> (可选) 配置拨号计划
 
@@ -153,5 +150,3 @@ Grant-CsOnlineAudioConferencingRoutingPolicy -Identity "<User Identity>" -Policy
 如果要通过网络内会议启用基于分机的拨号，可以设置拨号计划，以将分机拨号模式与贵组织的电话号码范围相匹配。 若要设置拨号计划，请参阅 [创建和管理拨号计划](create-and-manage-dial-plans.md)。
 
 ## <a name="related-topics"></a>相关主题
-
-

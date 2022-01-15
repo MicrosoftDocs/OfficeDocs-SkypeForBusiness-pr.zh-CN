@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c94a84d7d331122145ebec1324ec5a88eabbca82
-ms.sourcegitcommit: c7904086e6956ad8d0e5544530bcc90d608b6e6a
+ms.openlocfilehash: a82dbf888fcd6fd0b05816e3edb390b79c9a9e3f
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "62039997"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055312"
 ---
 # <a name="tailor-your-teams-apps-based-on-license"></a>根据许可证Teams自定义应用
 
@@ -38,7 +38,7 @@ Teams提供了一种基于许可证固定应用的方法。 当用户登录并Te
 
 ## <a name="tailored-app-experience"></a>定制的应用体验
 
-应用固定到应用栏，应用栏位于 Teams 桌面客户端一侧，位于 Teams 移动客户端 (iOS 和 Android) 。
+应用固定到应用栏，应用栏位于 Teams 桌面客户端的一侧，位于 Teams 移动客户端 (iOS 和 Android) 。
 
 为具有 F 许可证的用户固定的应用：
 
@@ -52,16 +52,16 @@ Teams提供了一种基于许可证固定应用的方法。 当用户登录并Te
 ## <a name="admin-controls"></a>管理员控件
 
 > [!NOTE]
-> 必须在组织范围的全局应用默认 (启用用户固定) 此功能生效的应用设置策略。 要了解详细信息，请参阅[在 Teams 中管理应用设置策略](teams-app-setup-policies.md)。
+> 必须在组织范围的全局应用默认 (启用用户固定) [此功能](teams-app-setup-policies.md) 生效的应用设置策略。
 
 定制应用体验功能由管理中心的"管理应用"页面上的"显示基于许可证的定制应用"组织范围的应用[](manage-apps.md#manage-org-wide-app-settings)设置Teams控制。 如果此功能已打开，则组织中具有 F 许可证的所有用户都将获得定制的应用体验。
 
 请记住，分配给用户的任何自定义应用设置策略优先。 这意味着，如果用户已分配有自定义应用设置策略，则用户获取自定义应用设置策略中定义的配置。 若要详细了解该功能如何与组织中应用的现有应用设置策略一起工作，请参阅本文的 ["](#scenarios) 方案"部分。
 
-默认情况下，启用此功能。 但是，如果不需要 Microsoft 提供的定制应用体验，可以关闭设置。 若要关闭或打开该功能，请：
+默认情况下，启用此功能。 但是，如果不需要 Microsoft 提供的定制应用体验，可以关闭该功能。 若要关闭或打开该功能，请：
 
-1. 在管理中心的左侧导航Microsoft Teams，转到"管理Teams **应用"，** 然后选择"  >  **组织范围内的应用设置"。**
-2. 将"**显示基于许可证的定制应用"切换** 为"**关"或**"**开"。** 
+1. 在管理中心的左侧导航Microsoft Teams，转到"管理Teams **应用**"，然后选择"  >  **组织范围的应用设置"。**
+2. 在 **"定制应用"下**，将"显示 **基于许可证的** 定制应用"切换为"**关"或**"**开"。**
 
     :::image type="content" source="media/pin-teams-apps-based-on-license.png" alt-text=""管理应用"页的屏幕截图，其中显示"显示基于组织范围的许可证应用的定制应用"设置" lightbox="media/pin-teams-apps-based-on-license.png":::
 

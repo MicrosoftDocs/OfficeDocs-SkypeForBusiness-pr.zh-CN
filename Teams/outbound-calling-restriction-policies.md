@@ -1,8 +1,8 @@
 ---
 title: 出站呼叫限制 - 音频会议& PSTN 呼叫
 ms.reviewer: ''
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 管理员可以控制用户可以拨打的音频会议和最终用户 PSTN 呼叫的类型。
-ms.openlocfilehash: 7f1ec4886c1e1ede22c280091f2ebce9965b6d3b
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: 39a51c1fdf6bbb7597b255fc5879a4d7a77be2db
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766235"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055172"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>音频会议和用户 PSTN 通话的出站通话限制策略
 
@@ -42,25 +42,24 @@ ms.locfileid: "61766235"
 若要了解哪些国家和地区被视为区域 A，请参阅音频会议 [的国家和地区区域](audio-conferencing-zones.md)。
 
    > [!NOTE]
-   > 如果拨打的号码位于为会议组织者设置了 Microsoft 365 或 Office 365 的同一国家/地区（对于音频会议 () ）或最终用户 (（对于最终用户 PSTN 呼叫) ）来说，呼叫被视为国内呼叫。
+   > 如果拨打的号码位于为会议组织者设置 Microsoft 365 或 Office 365 的国家/地区（对于音频会议) ）或最终用户 (（如果是最终用户 PSTN 呼叫 () ）中，则呼叫被视为国内呼叫。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
 ## <a name="restrict-audio-conferencing-outbound-calls"></a>限制音频会议出站呼叫
 
-**使用 Microsoft Teams 管理中心**
+### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 管理中心
 
-1. 在左侧导航栏中， **选择**"用户"，显示名称可用用户列表中选择该用户的用户名。
+1. 在左侧导航栏中， **选择"用户**"，显示名称可用用户列表中选择该用户的用户名。
 
-3. 在"**音频会议"旁边，** 选择"**编辑"。**
+2. 接下来转到"**音频会议"，选择**"**编辑"。**
 
-4. 在 **"从会议拨出"** 下，选择你需要的拨出限制选项。
+3. 在 **"从会议拨出"** 下，选择你需要的拨出限制选项。
 
-5. 选择“**保存**”。
+4. 选择“**保存**”。
 
-
-**使用 PowerShell**
+### <a name="using-powershell"></a>使用 PowerShell
 
 出站调用限制由名为 OnlineDialOutPolicy 的单个策略控制，该策略具有每个策略的限制属性。 无法自定义策略，而是为每个设置组织使用预定义策略实例。
 

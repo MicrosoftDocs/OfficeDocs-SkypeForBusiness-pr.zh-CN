@@ -1,7 +1,7 @@
 ---
-title: Office 365音频会议延长到美国和加拿大的拨出分钟数
-author: HowlinWolf-92
-ms.author: v-mahoffman
+title: Office 365到美国和加拿大的音频会议延长拨出分钟数
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,16 +17,16 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 20775abe5b463daed9d07245275ff9a2e176d685
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5fabb1c24280688bcc5a2962273812affd52c8b5
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838374"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055282"
 ---
-# <a name="office-365-audio-conferencing-extended-dial-out-minutes-to-us-and-canada"></a>Office 365音频会议延长到美国和加拿大的拨出分钟数
+# <a name="office-365-audio-conferencing-extended-dial-out-minutes-to-us-and-canada"></a>Office 365到美国和加拿大的音频会议延长拨出分钟数
 
-对于采用我们的音频会议服务并且对拨打美国和加拿大的高业务需求的客户，Microsoft 现在提供了一个附加产品/服务，允许几乎无限制地向任何音频会议用户提供公平使用策略的美国和加拿大拨出分钟数。 使用此附加内容 SKU 的会议组织者几乎可以不受限制地拨打到美国和加拿大的公平使用策略拨出呼叫，而无需扣除其租户的区域 A 国家/地区拨出使用池或通信信用额度。 <sup>1</sup>
+对于采用我们的音频会议服务并且对拨打美国和加拿大的高业务需求的客户，Microsoft 现在提供了一个附加产品/服务，允许任何音频会议用户几乎无限制地使用公平使用策略美国和加拿大拨出分钟数。 使用此附加内容 SKU 的会议组织者几乎可以不受限制地拨打到美国和加拿大的公平使用策略拨出呼叫，而无需扣除其租户的区域 A 国家/地区拨出使用池或通信信用额度。 <sup>1</sup>
 
 |产品/服务名称 | 无限分钟到美国和加拿大的拨出分钟数 |
 |-----|------|
@@ -38,7 +38,7 @@ ms.locfileid: "60838374"
 | 此新的附加内容 SKU 将取代音频会议中包含的 60 分钟时间吗？ | 不能。 在租户级别池的每个用户每月 60 分钟的现有音频会议将继续应用于所有区域 A 拨出会议国家/地区。|
 | 频道可用性如何？  | 它在 EA/EAS、EES、CSP 和 Web Direct 上可用。  |
 | 段可用性是什么？ | 它适用于商业 (包括 WW 商业) 、教育、非营利组织以及美国GCC |
-| 如果具有美国/加拿大的延长拨出分钟数的用户位于美国，并出差到另一个国家/地区，Audio-Conferencing市场吗？ 他们的拨出服务能正常工作吗？ | 是。 如果位于美国 (的用户表示其 Office 365 (许可证已在美国) 分配，则无论呼叫发生在何处，市场当前不在音频会议) 销售位置，向美国和加拿大拨打的所有拨出分钟数将继续应用于其美国/加拿大的延长拨出分钟数。 |
+| 如果具有美国/加拿大的延长拨出分钟数的用户位于美国，并出差到另一个国家/地区，Audio-Conferencing市场吗？ 他们的拨出服务能正常工作吗？ | 是。 如果位于美国 (的用户的 Office 365)  (许可证已在美国) 分配，则无论呼叫发生在何处，向美国或加拿大拨打的所有拨出分钟数将继续应用于其美国/加拿大的延长拨出分钟数。 |
 |||
 
 <sup>1</sup> Microsoft 保留在出现异常使用或怀疑用于欺诈目的时限制或终止使用该功能的权利。
