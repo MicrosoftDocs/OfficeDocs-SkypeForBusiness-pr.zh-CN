@@ -1365,14 +1365,20 @@ items:
                 href: rooms/recovery-tool.md
       - name: Microsoft Teams 会议室托管服务
         items:
-          - name: 计划管理
+          - name: 概述
             href: rooms/microsoft-teams-rooms-premium.md
-          - name: 基于角色的访问控制
-            href: rooms/microsoft-teams-rooms-premium-rbac.md
           - name: 获取并分配许可证
             href: rooms/obtaining-assigning-license.md
           - name: 注册 MTRP 托管服务
             href: rooms/enrolling-mtrp-managed-service.md
+          - name: 安装
+            href: rooms/monitor-software-installation-guide.md
+          - name: 基于角色的访问控制
+            href: rooms/microsoft-teams-rooms-premium-rbac.md
+          - name: 监视和维护会议室
+            href: rooms/managed-meeting-rooms-portal.md
+          - name: 托管更新
+            href: rooms/update-management.md
           - name: 为 Teams 会议室配置 ServiceNow
             href: rooms/microsoft-teams-rooms-configure-servicenow.md
           - name: 面向合作伙伴的多租户管理
