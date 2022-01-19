@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 了解如何使用直接路由电话系统绕过媒体，从而缩短媒体流量的路径并提高性能。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1fb9eff518232f53868752a297775369af13713a
-ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
+ms.openlocfilehash: 2d9a38772cd9119a7717608726db45bce6055229
+ms.sourcegitcommit: eddc03f777ce78bd5273708da9b1ab609ee20099
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "61306327"
+ms.lasthandoff: 01/18/2022
+ms.locfileid: "62064878"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>使用直接路由规划媒体旁路
 
@@ -42,16 +42,16 @@ ms.locfileid: "61306327"
 
 但假设用户与 SBC 位于同一建筑物或网络中。 例如，假设位于法兰克福的一栋大楼中的用户呼叫 PSTN 用户： 
 
-- **如果不绕过媒体**，媒体将流经阿姆斯特丹或都柏林 (将 Microsoft 数据中心部署到) 并返回到法兰克福的 SBC。 
+- **如果不绕过媒体**，媒体将流经阿姆斯特丹或都柏林 (将 Microsoft 数据中心) 并返回到法兰克福的 SBC。 
 
   选择欧洲的数据中心是因为 SBC 位于欧洲，而 Microsoft 使用离 SBC 最近的数据中心。 尽管此方法不会由于在大多数地理位置的 Microsoft 网络内优化流量流而影响呼叫质量，但流量具有不必要的循环。     
 
-- **借助媒体** 旁路，媒体将直接Teams用户与 SBC 之间，如下图所示：
+- **借助媒体** 旁路，媒体直接保留在Teams与 SBC 之间，如下图所示：
 
   > [!div class="mx-imgBorder"]
   > ![使用媒体旁路显示信号和媒体流。](media/direct-routing-media-bypass-2.png)
 
-媒体绕过在 SBC 上的 Teams 客户端和 ICE lite 上 (ICE) 的交互式连接建立协议。 这些协议使直接路由能够使用最直接的媒体路径以获得最佳质量。 ICE 和 ICE Lite 是 WebRTC 标准。 有关这些协议的详细信息，请参阅 RFC 5245。
+媒体旁路利用名为 Interactive Connectivity Establishment (ICE) 协议Teams SBC 上的 ICE lite。 这些协议使直接路由能够使用最直接的媒体路径以获得最佳质量。 ICE 和 ICE Lite 是 WebRTC 标准。 有关这些协议的详细信息，请参阅 RFC 5245。
 
 
 ## <a name="call-flow-and-firewall-planning"></a>呼叫流和防火墙规划
@@ -68,9 +68,9 @@ ms.locfileid: "61306327"
 
 - 信令始终通过 Microsoft 云流动。
 
-下图显示了启用媒体旁路、客户端在内部且客户端可以通过直接媒体访问来访问 SBC (IP 地址的呼叫) ： 
+下图显示了启用媒体旁路、客户端在内部以及客户端可以通过直接媒体访问来访问 SBC 的公共 IP 地址 (呼叫) ： 
 
-- 路径的箭头和数值与调用流[Microsoft Teams一一。](./microsoft-teams-online-call-flows.md)
+- 路径的箭头和数值与调用流Microsoft Teams[一一。](./microsoft-teams-online-call-flows.md)
 
 - SIP 信号始终采用路径 4 和 4' (，具体取决于流量方向) 。 媒体保持本地，采用路径 5b。
 
@@ -82,16 +82,16 @@ ms.locfileid: "61306327"
 
 下面介绍如果用户无法访问 SBC 的公共 IP 地址，则说明调用流。 
 
-例如，假设用户是外部用户，并且租户管理员决定不向 Internet 中的每个人开放 SBC 的公共 IP 地址，而只向 Microsoft 云开放。 流量的内部组件可以通过流量传输中继Teams流。 比如以下几种情况：
+例如，假设用户是外部用户，并且租户管理员决定不向 Internet 中的每个人开放 SBC 的公共 IP 地址，而只向 Microsoft 云开放。 流量的内部组件可以通过传输中继Teams流。 比如以下几种情况：
 
 - Teams传输中继。
 
 - 对于媒体旁路，Microsoft 使用一个传输中继版本，该版本要求在 Teams 传输中继和 SBC (之间打开端口 50 000 到 59 999，我们计划在将来转移到需要 3478-3481 端口) 的版本。
 
 
-下图显示了启用媒体旁路、客户端在外部以及客户端无法访问会话边界控制器的公共 IP 地址时呼叫流 (媒体由 Teams 传输中继) 。
+下图显示了启用媒体旁路、客户端在外部以及客户端无法访问会话边界控制器的公共 IP 地址的呼叫流 (媒体由 Teams Transport Relay) 。
 
-- 路径的箭头和数值与调用流[Microsoft Teams一一。](./microsoft-teams-online-call-flows.md)
+- 路径的箭头和数值与调用流Microsoft Teams[一一。](./microsoft-teams-online-call-flows.md)
 
 - 媒体通过路径 3、3、4 和 4' 中继
 
@@ -104,7 +104,7 @@ ms.locfileid: "61306327"
 > [!NOTE]
 > 这不是建议的配置，因为它不会利用Teams中继。 相反，应考虑以前的方案，其中用户无法访问 SBC 的公共 IP 地址。 
 
-下图显示了启用媒体旁路、客户端在外部以及客户端可以通过直接媒体访问来访问 SBC 的公共 IP 地址 (呼叫) 。
+下图显示了启用媒体旁路时呼叫流、客户端是外部的，并且客户端可以通过直接媒体访问来访问 SBC (IP) 。
 
 - 路径的箭头和数字值与调用流Microsoft Teams[一文。](./microsoft-teams-online-call-flows.md)
 
@@ -132,9 +132,9 @@ Microsoft 云中的两个组件可以在媒体流量的路径中：媒体处理�
 > [!NOTE]
 > 该图仅说明源自或目的地为最终用户的流量。  
 
-- 媒体控制器是 Azure 中的微服务，可分配媒体处理器，并创建 SDP (会话) 协议。
+- 媒体控制器是 Azure 中的微服务，它分配媒体处理器，并创建 SDP (会话) 协议。
 
-- SIP 代理是一个组件，用于将请求中使用的 HTTP REST Teams转换为 SIP。    
+- SIP 代理是一个组件，用于将端口中使用的 HTTP REST Teams转换为 SIP。    
 
 > [!div class="mx-imgBorder"]
 > ![显示已启用和禁用媒体旁路的呼叫流。](media/direct-routing-media-bypass-6.png)
@@ -148,7 +148,7 @@ Microsoft 云中的两个组件可以在媒体流量的路径中：媒体处理�
 |最终用户的旁路呼叫的媒体路径 | 从不 | 如果客户端无法访问公共 IP 地址上的 SBC |
 |在语音应用程序的媒体路径中 | 始终 | 从不 |
 |可以在 B2BUA (转码) \* | 是 | 否，仅中继终结点之间的音频 |
-|全球实例数和位置 | 总共 10 个：美国东部和西部 2 个;2（阿姆斯特丹和都柏林）;2（香港特别行政区和新加坡）;2（日本）;澳大利亚东部和东南部 2 个 | 多个|
+|全球实例数和位置 | 总共 15 个：美国东部、西部和中南部 3 个;阿姆斯特丹、都柏林、英国南部、法国中部有 4 个;2（香港特别行政区和新加坡）;2（日本）;2（澳大利亚东部和东南部）;巴西南部 1 个;南非北部为 1 | 多个|
 
 IP 范围包括：
 - 52.112.0.0/14 (IP 地址从 52.112.0.1 到 52.115.255.254) 
@@ -156,7 +156,7 @@ IP 范围包括：
 
 \* 转码说明： 
 
-- 媒体处理器是 B2BUA，这意味着它可以在 MP 和 SBC (之间更改编解码器，例如 SILK 从 Teams 客户端更改为 MP 和 G.711) 。
+- 媒体处理器是 B2BUA，这意味着它可以在 MP 和 SBC (之间将编解码器从 Teams 客户端更改为 MP 和 G.711) 。
 
 - 传输中继不是 B2BUA，这意味着，即使流量通过中继流动，编解码器也永远不会在客户端和 SBC 之间更改。
 
@@ -179,13 +179,13 @@ Teams以下情况，媒体处理器始终插入到媒体路径中：
 - Microsoft 365或Office 365
 - Office 365 GCC
 - Office 365 GCC高
-- Office 365 DoD 详细了解[Office 365](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government)和美国政府环境，例如 GCC、GCC High 和 DoD。
+- Office 365 DoD 详细了解 Office 365[](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government)和美国政府环境，例如 GCC、GCC High 和 DoD。
 
-### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Microsoft 365、Office 365 和 Office 365 GCC 环境
+### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Microsoft 365、Office 365和Office 365 GCC环境
 
 直接路由的连接点为以下三个 FQDN：
 
-- **sip.pstnhub.microsoft.com** - 全局 FQDN - 必须先尝试。 当 SBC 发送解析此名称的请求时，Microsoft Azure DNS 服务器将返回指向分配给 SBC 的主要 Azure 数据中心的 IP 地址。 分配基于数据中心的性能指标和与 SBC 的地理邻近性。 返回的 IP 地址对应于主 FQDN。
+- **sip.pstnhub.microsoft.com** - 全局 FQDN – 必须先尝试。 当 SBC 发送解析此名称的请求时，Microsoft Azure DNS 服务器将返回指向分配给 SBC 的主要 Azure 数据中心的 IP 地址。 分配基于数据中心的性能指标和与 SBC 的地理邻近性。 返回的 IP 地址对应于主 FQDN。
 
 - **sip2.pstnhub.microsoft.com** - 辅助 FQDN - 在地理上映射到第二个优先级区域。
 
@@ -210,7 +210,7 @@ FQDN **sip.pstnhub.microsoft.com、sip2.pstnhub.microsoft.com** 和 **sip3.pstnh
 
 **sip.pstnhub.dod.teams.microsoft.us** - 全局 FQDN。 由于Office 365 DoD 环境仅存在于美国数据中心，因此没有辅助和第三级 FQD。
 
-FQDN sip.pstnhub.dod.teams.microsoft.us 解析为以下子网中的 IP 地址：
+FQDN sip.pstnhub.dod.teams.microsoft.us 将解析为以下子网中的 IP 地址：
 
 - 52.127.64.0/21
 
@@ -246,7 +246,7 @@ FQDN sip.pstnhub.gov.teams.microsoft.us 解析为以下子网中的 IP 地址：
 
 ## <a name="media-traffic-ip-and-port-ranges"></a>媒体流量：IP 和端口范围
 
-如果直接连接Teams，则媒体流量在 SBC 和 Teams 客户端之间流动;如果客户端无法使用公共 IP 地址访问 SBC，则通过 Teams 传输中继。
+媒体流量在 SBC 和 Teams客户端之间流动（如果直接连接可用）或Teams传输中继（如果客户端无法使用公共 IP 地址访问 SBC）。
 
 ### <a name="requirements-for-direct-media-traffic-between-the-teams-client-and-the-sbc"></a>在客户端与 SBC (之间Teams媒体流量流量)  
 
@@ -268,7 +268,7 @@ FQDN sip.pstnhub.gov.teams.microsoft.us 解析为以下子网中的 IP 地址：
 
 对于非绕过情况，传输中继与媒体处理器 (相同) ： 
 
-### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Microsoft 365、Office 365 和 Office 365 GCC 环境
+### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Microsoft 365、Office 365和Office 365 GCC环境
 
 - 52.112.0.0 /14 (IP 地址从 52.112.0.1 到 52.115.255.254) 
 
@@ -281,7 +281,7 @@ FQDN sip.pstnhub.gov.teams.microsoft.us 解析为以下子网中的 IP 地址：
 - 52.127.88.0/21
 
 
-适用于所有Teams环境 (传输中继) 范围如下表所示：
+适用于所有环境Teams传输中继 (范围的) 如下表所示：
 
 
 | 流量 | 从 | 到 | 源端口 | 目标端口|
@@ -308,7 +308,7 @@ FQDN sip.pstnhub.gov.teams.microsoft.us 解析为以下子网中的 IP 地址：
 
 媒体流量的 IP 范围为 
 
-### <a name="office-365-and-office-365-gcc-environments"></a>Office 365 Office 365 GCC环境
+### <a name="office-365-and-office-365-gcc-environments"></a>Office 365和Office 365 GCC环境
 
 - 52.112.0.0 /14 (IP 地址从 52.112.0.1 到 52.115.255.254) 
 
@@ -320,7 +320,7 @@ FQDN sip.pstnhub.gov.teams.microsoft.us 解析为以下子网中的 IP 地址：
 
 - 52.127.88.0/21
 
-适用于所有环境 (媒体处理器) 范围如下表所示：
+适用于所有环境 (媒体处理器的) 范围如下表所示：
 
 | 流量 | 从 | 到 | 源端口 | 目标端口|
 | :-------- | :-------- |:-----------|:--------|:---------|
@@ -364,7 +364,7 @@ FQDN sip.pstnhub.gov.teams.microsoft.us 解析为以下子网中的 IP 地址：
 
 ## <a name="client-endpoints-supported-with-media-bypass"></a>媒体旁路支持的客户端终结点
 
-所有独立桌面客户端、Android Teams iOS 客户端和 Teams 电话 设备都支持媒体旁路。 
+所有独立桌面客户端、Android Teams iOS 客户端和 Teams 电话都支持媒体旁路。 
 
 对于不支持媒体旁路的所有其他终结点，我们会将呼叫转换为非旁路，即使它作为绕过呼叫启动。 这会自动发生，不需要管理员执行任何操作。 这包括 Skype for Business 3PIP 电话和 Teams Web 客户端，这些客户端支持在 Microsoft Edge、Google Chrome、Mozilla Firefox) 上运行的基于 (WebRTC 的客户端进行直接路由。 
  

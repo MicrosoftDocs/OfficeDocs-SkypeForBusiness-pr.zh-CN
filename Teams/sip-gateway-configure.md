@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a4548ab9abfd96b3945c19c07e08baf1ede05983
-ms.sourcegitcommit: 1e83f2c1ed12bcb611eb4eb0a5f1f58496c63147
+ms.openlocfilehash: 1af44c5e3962f89346cae166bf40efa6a8622338
+ms.sourcegitcommit: eddc03f777ce78bd5273708da9b1ab609ee20099
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/13/2021
-ms.locfileid: "61426104"
+ms.lasthandoff: 01/18/2022
+ms.locfileid: "62065178"
 ---
 # <a name="configure-sip-gateway"></a>配置 SIP 网关
 
@@ -40,7 +40,7 @@ ms.locfileid: "61426104"
 
 - **确保 SIP 设备不在代理后面。** 确保 http/s 流量绕过任何企业 http/s 代理。
 
-- **打开 UDP 端口。** 打开 49152 到 53247 范围的 UDP 端口。
+- **打开 UDP 端口。** 对于 IP 范围 52.112.0.0/14 到 52.120.0.0/14，打开范围 49152 到 53247 的 UDP 端口。
 
 - **打开 TCP 端口。** 打开 IP 范围 52.112.0.0/14 到 52.120.0.0/14 的 TCP 端口 5061。
 
@@ -82,7 +82,7 @@ ms.locfileid: "61426104"
 
 1. 登录到管理[Teams中心](https://admin-teams.microsoft.com/)。
 
-2. 在左侧选择 **"Teams"，** 查看 **"SIP 设备"** 选项卡是否可见。 如果是，则为组织启用 SIP 网关服务。
+2. 在左侧选择 **"Teams"，** 查看 **"SIP 设备**"选项卡是否可见。 如果是，则为组织启用 SIP 网关服务。
 
 ## <a name="enable-sip-gateway-for-the-users-in-your-organization"></a>为贵组织的用户启用 SIP 网关
 
@@ -133,7 +133,7 @@ ms.locfileid: "61426104"
 
 1. 打开 **设置，** 并获取设备的 IP 地址。
 
-2. 打开浏览器窗口，输入设备的 IP 地址， (登录) ，在设备的 Web 实用工具中配置预配服务器的 URL。
+2. 打开浏览器窗口，输入设备的 IP 地址， (登录) 并配置设备 Web 实用工具中的预配服务器的 URL。
 
 3. 在 **设置****或"** 高级设置"下，输入上面所示的预配服务器 URL。
 
@@ -147,7 +147,7 @@ ms.locfileid: "61426104"
 
 ## <a name="configure-conditional-access"></a>配置条件访问
 
-条件访问是Azure Active Directory (Azure AD) 一项功能，可帮助确保能够正确管理Microsoft 365资源的设备。 SIP 网关使用 AZURE AD 对 SIP 设备进行身份验证，因此，如果您的组织对企业网络中设备使用条件访问，则它应排除以下 IP 地址：
+条件访问是Azure Active Directory (Azure AD) 一项功能，有助于确保能够正确管理Microsoft 365资源的设备。 SIP 网关使用 AZURE AD 对 SIP 设备进行身份验证，因此，如果您的组织对企业网络中设备使用条件访问，则它应排除以下 IP 地址：
 
 - 北美：
     - 美国东部：52.170.38.140
@@ -188,13 +188,13 @@ ms.locfileid: "61426104"
 
      a. 在 **"正在等待激活"** 下的右侧，选择"导出 (Microsoft Excel图标) 。
      
-     b. 在"**预配设备"** 窗格的 **Upload，选择**"**下载模板"。**
+     b. 在"**预配设备"** 窗格的 **Upload，选择**"下载 **模板"。**
      
-     c. 将 **Template_Provisioning.csv** 保存到计算机，并填写 **MAC ID 和****"位置"** 字段。
+     c. 将 **Template_Provisioning.csv** 保存到计算机，并填写 **"MAC ID"和** " **位置"** 字段。
     
-     d. 在"**预配设备"** 窗格中 **，Upload多个 MAC 地址。** 
+     d. 在"**预配设备"** 窗格中，Upload **多个 MAC 地址。** 
 
-     e. 在"MAC 地址"Upload右侧，选择"选择文件"，然后选择 **Template_Provisioning.csv数据的文件**。
+     e. 在"MAC 地址"Upload右侧，选择"选择文件"，然后选择 **Template_Provisioning.csv数据的文件**。 
 
      f. 在"**预配设备**"窗格的"等待激活"下，选择一个设备，然后选择"生成验证码"，为每台预配的设备生成一次验证码。 记下每个 SIP 设备的验证码。
 
@@ -210,7 +210,7 @@ ms.locfileid: "61426104"
 
 9. 在 **"密码**"页上，输入 SIP 设备的电子邮件地址的密码，然后选择"**登录"。**
 
-10. 在"**是否尝试登录到 SIP Teams网关"** 页上，选择"继续 **"。**
+10. 在"**是否尝试登录到 SIP Teams"页上**，选择"继续 **"。**
 
 ## <a name="how-to-sign-in-and-sign-out"></a>如何登录和注销
 
@@ -307,7 +307,7 @@ SIP 设备通常可以显示多种语言的信息。 设置其 UI 语言会影�
 
 ## <a name="microsoft-teams-and-ipv6"></a>Microsoft Teams和 IPv6
 
-SIP 网关仅支持 IPv4。 Microsoft Teams服务和客户端都支持 IPv4 和 IPv6。 若要控制与用户之间的Microsoft Teams，请使用 URL 和 IP 地址Microsoft 365[中的 IP 地址范围](/microsoft-365/enterprise/urls-and-ip-address-ranges)。
+SIP 网关仅支持 IPv4。 Microsoft Teams服务和客户端都支持 IPv4 和 IPv6。 若要控制与用户之间的Microsoft Teams，请使用 URL 和 IP Microsoft 365[中的 IP 地址范围](/microsoft-365/enterprise/urls-and-ip-address-ranges)。
 
 ## <a name="emergency-calling"></a>紧急呼叫
 

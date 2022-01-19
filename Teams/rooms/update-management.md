@@ -17,15 +17,15 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 对会议室进行主动监视。
 f1keywords: ''
-ms.openlocfilehash: 763eece92a65aa8ca70728854a1af8970fd13d25
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: 6f422359044e7dad8f93223bd83b17146025c257
+ms.sourcegitcommit: 268660f101609852f02f3f9d1a8436f2a99dade7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767467"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "62071063"
 ---
 # <a name="update-management"></a>更新管理 
-现代会议室配备一个Microsoft Teams 会议室设备和其他外围设备（如相机、麦克风或扬声器）以及可能更多设备，以创建一种包容性的高效会议体验。 不同类型的 OEM 的设备可提供所需的确切组织体验;但是，必须使用软件和固件持续维护它们。  
+现代会议室配备一台Microsoft Teams 会议室和其他外围设备（如相机、麦克风或扬声器）以及可能更多设备，以创建一种包容性的高效会议体验。 不同类型的 OEM 的设备可提供所需的确切组织体验;但是，必须使用软件和固件持续维护它们。  
 
 托管服务Microsoft Teams 会议室保证组织的每个房间都按建议级别维护，以提供始终准备就绪且正常工作的会议室。 Microsoft 的目标是通过智能和自动化减少运营人员的复杂性和工作。 尽快执行故障排除或诊断。 
 
@@ -45,7 +45,8 @@ ms.locfileid: "61767467"
 - **基础映像**：基础映像必须来自特定 OEM。 如果设备是在过去重新生成的，并且显示常见任务的意外故障或行为，则必须还原基础映像。 我们可以提供帮助，但无法远程重建会议室设备，因此您需要本地现场技术员。  
 - **基本 OS，版本：** 基本 OS 和版本必须与设备Microsoft Teams 会议室要求。 如果不是，则必须在载入时更正它。 Microsoft Teams 会议室频道服务Windows 10 IoT 企业版下Windows 10 企业版或Semi-Annual SKUS。 有关详细信息，请参阅 [官方的"公司指南](rooms-lifecycle-support.md#windows-10-release-support) "。
 
-## <a name="readiness-checks"></a>准备情况检查   
+## <a name="readiness-checks"></a>准备情况检查
+
 接收托管服务更新有一些先决条件： 
 
 |软件 |指引 |
@@ -75,7 +76,6 @@ ms.locfileid: "61767467"
 
  当新的软件和固件类型在产品组合中可用时，请查看门户主页和托管服务文档中的公告。 由于托管服务专家每天在我们的设备组合中查看更新版本，他们可解决特定问题，并基于需求确定更新目标。  
 
-
 ### <a name="scheduling"></a>安排 
 托管更新根据房间中的设备计划，如果它们不满足适用软件和固件的托管服务标准。  
 
@@ -87,89 +87,75 @@ ms.locfileid: "61767467"
 - 更新通常在我们的夜间维护时段（即本地时间 **上午 12：00 到凌晨 5：00）** 应用，以避免任何类型的中断。 
 
 ## <a name="microsoft-teams-room-app-update-lifecycle-policy"></a>Microsoft Teams会议室应用更新生命周期策略 
-该设计团队的支持策略指出，版本在 () 月 12 日生命周期到期或此后发布两次以上更新后，所有支持均结束。 然后，客户必须更新到支持的版本。 请参考[Microsoft Teams 会议室版本支持 - Microsoft Teams |有关详细服务说明的 Microsoft Docs。 ](rooms-lifecycle-support.md) 
+一个版本的十二个月 (12) 生命周期到期或此后发布两次以上更新后，该设计团队的支持策略表明所有支持均结束。 然后，客户必须更新到支持的版本。 请参考Microsoft Teams 会议室[版本支持 - Microsoft Teams |有关详细服务说明的 Microsoft Docs。 ](rooms-lifecycle-support.md)
 
-为了在所有托管聊天室中保持统一标准并使我们能够有效识别热门问题，我们将根据支持和订阅服务条款和条件支持并部署两个最新的主要或次要版本 (N、N-1) 的一款。 我们将在必要时绕过更新环，自动使不合规的会议室保持最新状态。 
+为了在所有托管聊天室中保持统一标准，并使我们能够有效识别热门问题，我们将根据支持和订阅服务条款和条件支持并部署两个最新的主要或次要版本 (N、N-1) 。 我们将在必要时绕过更新环，自动使不合规的会议室保持最新状态。 
 
 N-1 策略也适用于第三方软件。  
 
 ## <a name="update-management-experience-walk-through"></a>更新管理体验演练  
-若要查看更新，请登录到托管服务门户并导航到"更新"页。 
+若要查看更新，请登录到托管服务门户并导航到"更新"页。
 
-![替换文字1](../media/update-management-001.jpg) 
+![托管服务更新的屏幕截图](../media/update-management-001.jpg)
 
-
-"更新"窗格显示聊天室的更新管理高级概述，选项卡如下： 
+"更新"窗格显示聊天室的更新管理高级概述，选项卡如下：
 
 - **更新**：托管服务通过组织协调的软件或固件更新。  
-- **会议室**："会议室"选项卡提供每个房间和圆环的视图。 
-- **环**："环"选项卡显示组织的会议室环。 
-
-
-
-
+- **会议室**："会议室"选项卡提供每个房间和圆环的视图。
+- **环**："环"选项卡显示组织的会议室环。
 
 ### <a name="updates"></a>更新  
 
 此视图显示租户的相关更新及其各自的状态。 若要查看不再处于活动状态的过去更新，请选择"包括 **过去更新"** 切换到"打开"。  
 
+任何更新可以具有以下状态之一：
 
-
-任何更新可以具有以下状态之一： 
-
-|状态 |说明 |
+| 状态 | 说明 |
 | :- | :- |
-|已计划 |为给定环中的会议室计划更新。 请记住，更新将仅在进度达到房间的响铃后显示"已计划"。 例如，如果新更新位于"暂存"环中，则只会在"暂存环"中显示"已计划"会议室。 其他环将具有"不需要"状态，直到更新进度到该环。    |
-|正在进行中 |更新正在进行，单个圆环显示状态。 此状态显示总体环状态，因此，如果更新应用于租户中暂存环中的单个房间，则更新将具有"正在进行"状态，直到达到"管理圈"。    |
-|已完成但失败 |更新已完成所有已配置环的进展，并且至少在一个聊天室中失败。 |
-|已完成 |更新已完成所有已配置环的进展，并且已成功安装在所有适用房间。 |
-|已弃用 |更新已停用。 将停止进一步部署。 这是典型的，因为更新已被新版本取代。  |
-|已暂停 |更新已暂停。  |
-|不是必需的 |更新尚未针对会议室进行评估，或者不适用于聊天室。  |
+| 已计划 | 为给定环中的会议室计划更新。 请记住，更新将仅在进度达到房间的响铃后显示"已计划"。 例如，如果新更新位于"暂存"环中，则只会在"暂存环"中显示"已计划"会议室。 <p> 其他环将具有"不需要"状态，直到更新进度到该环。</p> |
+| 正在进行中 | 更新正在进行，单个圆环显示状态。 此状态显示总体环状态，因此，如果更新应用于租户中暂存环中的单个房间，则更新将具有"正在进行"状态，直到达到"管理圈"。 |
+| 已完成但失败 | 更新已完成所有已配置环的进展，并且至少在一个聊天室中失败。 |
+| 已完成 | 更新已完成所有已配置环的进展，并且已成功安装在所有适用房间。|
+| 已弃用 | 更新已停用。 将停止进一步部署。 这是典型的，因为更新已被新版本取代。 |
+| 已暂停 | 更新已暂停。 |
+| 不是必需的 | 更新尚未针对会议室进行评估，或者不适用于聊天室。 |
 
 ### <a name="rooms"></a>会议室  
 
 "会议室"选项卡显示租户中所有房间及其所属的铃声。  
 
-
-
-![替换文字2](../media/update-management-002.jpg) 
-
-
+![所有租户圈及其房间的屏幕截图](../media/update-management-002.jpg)
 
 若要配置聊天室应属于哪个铃声，请：  
 
 1. 单击会议室可显示详细视图。  
-1. 在"圈"下，单击"更改"按钮。  
+1. 在 **"响铃"** 下，单击"**更改"。**  
 1. 选择会议室应属于的"响铃"。  
-1. 单击"分配"。  
+1. 单击"**分配"。**  
 
-详细聊天室视图在"更新"节点下显示相关更新及其状态。  
+详细的会议室视图在"更新"节点下显示相关 **更新及其** 状态。  
 
-
-![替换文字3](../media/update-management-003.jpg) 
+![相关更新和更改的屏幕截图](../media/update-management-003.jpg)
 
 ### <a name="rings"></a>圆环  
 
-环用于降低从部署功能更新派生的问题的风险。 这通过逐渐将更新部署到整个站点完成。 每个圈应包含会议室Microsoft Teams列表和相应的推出计划。 定义环通常是一个一次事件 
+环用于降低从部署功能更新派生的问题的风险。 这通过逐渐将更新部署到整个站点完成。 每个圈应包含会议室Microsoft Teams列表和相应的推出计划。 定义环通常是一次事件 (或不常) ，但 IT 应时而重新访问这些组，以确保排序仍然正确。  
 
- (不经常) ，但 IT 应时而重新访问这些组，以确保排序仍然正确。  
+" **圈** "选项卡列出租户中所有环。 有三个预配置的环：  
 
-"圈"选项卡列出租户中所有环。 有三个预配置的环：  
-
-**暂存**  
+**暂存**
 
 将会议室分配到过渡环，这是测试设备。 所有新更新将首先在此处推出。 通常，需要确保过渡环表示环境中设备类型多种多样的会议室。 如果有特定类型的房间具有不常见的配置或看到问题的历史记录，请考虑在过渡中表示它们。
 
-**常规**  
+**常规**
 
 默认情况下，所有房间都放置在此环中。 整个企业中使用的大多数会议室设备属于此类别。 
 
-**高级管理人员**  
+**高级管理人员**
 
 此组应包括您最高级的聊天室，您希望主动尽量减少中断。 一个很好的示例是大型会议室，用于执行会议或大型团队会议。 
 
-### <a name="specifying-rollout-timeline"></a>指定推出时间线 
+### <a name="specifying-rollout-timeline"></a>指定推出时间线
 
 更新不能超过 60 天，不能跨所有环完成。  
 
@@ -181,124 +167,66 @@ N-1 策略也适用于第三方软件。
 |<p> </p><p>完成时间 </p>|<p> </p><p>"完成时间"列表示此环 (推出持续时间和测试) 总天数。  </p><p> </p>|
 |<p> </p><p>总时间 </p>|<p> </p><p>底部的"总计"行指示从第一个环到最后一个环完成更新需要多久。 </p><p> </p><p> </p>|
 
-### <a name="creating-custom-rings"></a>创建自定义圈 
+### <a name="creating-custom-rings"></a>创建自定义圈
 
 
-
-1. 导航到"圈"选项卡。  
-1. 单击"添加圈"。  
+1. 导航到" **圆环"** 选项卡。  
+1. 单击"**添加圈"。**  
 1. 指定此环接收更新的顺序，其中 1 为先，9 为最后。  
 1. 为此圈命名。  
 1. 如果需要，请提供说明。  
 1. 指定更新将在此圈中推出天数。  
 1. 指定测试周期。  
-1. 单击"提交"。  
-
+1. 单击"**提交"。**  
 
 > [!NOTE]
 > "其他环设置的天数"是更新在所有环中完成的总天数。 "剩余天数"表示此环完成 *的最大* 天数。 "推出持续时间（天）"和"测试期（天）"之和不能超过此金额。  
 
+**编辑铃声**
 
+1. 导航到" **圆环"** 选项卡。
+1. 单击要删除的圈。  
+1. 单击"**编辑圈"。**  
+1. 如有必要，编辑推出和测试的天数。
 
-**编辑铃声** 
+**删除铃声**
 
-
-1. 导航到"圈"选项卡。  
-1. 单击要编辑的铃声。  
-1. 单击"编辑圈"。  
-1. 如有必要，编辑推出和测试的天数。 
-
-
-**删除铃声** 
-
-1. 导航到"圈"选项卡。  
-1. 单击要删除的铃声。  
-1. 单击"删除圈"。  
-
-
+1. 导航到" **圆环"** 选项卡。  
+1. 单击要删除的圈。  
+1. 单击"**删除圈"。**  
 
 > [!NOTE]
 > 无法删除默认环。  
 
+**移动会议室**
 
+通过两种方式将会议室从一个环移动到另一个环：
 
-**移动会议室** 
-
-通过两种方式将会议室从一个环移动到另一个环： 
-
-
-
-1. 导航到"圈"选项卡。  
+1. 导航到" **圆环"** 选项卡。  
 1. 单击要移动房间的铃声  
-1. 单击"移动会议室"。  
-1. 在"会议室列表"中选择想要移动的会议室。  
+1. 单击"**移动会议室"。**  
+1. 在"会议室列表"中选择要 **移动的会议室**。  
 1. 在下拉列表中选择所选会议室将移动到的目标环。  
-1. 单击"移动会议室"。  
+1. 单击"**移动会议室"。**  
 
 **或**
 
-1. 打开要移动的聊天室的会议室详细信息， (事件、会议室或更新 - >会议室) 。   
-
-1. 单击"更新"选项卡。  
-1. 在"分配的圈"下，单击"更改"  
+1. 通过事件、会议室或更新 - 会议室 (打开要移动的聊天室>) 。
+1. 单击"更新 **"** 选项卡。  
+1. 在 **"分配的圈"下**，单击"**更改"。**
 1. 从下拉列表中，选择新圈。  
-1. 单击"分配"。 
+1. 单击"**分配"。**
 
+## <a name="managed-updates-visibility-and-control"></a>托管更新：可见性和控制
 
-## <a name="managed-updates-visibility-and-control"></a>托管更新：可见性和控制  
 托管服务在整个组织中协调更新。 但是，你拥有可见性和控制能力，可根据需要介入。 方法包括： 
-
-
 
 - 发生更新失败时，会通过 Microsoft 托管服务运营团队自动生成票证。 运营团队将采取措施来修正故障，并在必要时与用户联系。  
 - 如果看到导致问题的更新，可以使用"暂停"按钮 **暂停更新。** 点击"暂停"按钮将创建一个票证，供操作中心调查。 在暂停更新以帮助加快事件响应时，请务必提供详细信息。  
 - 如果看到聊天室中的更新失败，并且更正了合理的原因，例如网络断开连接，可以使用"全部重试失败"按钮 **重试更新。**  
 - 在紧急情况下，可以决定提前提供更新。 在这种情况下，可以使用"强制更新 **"** 按钮。 使用"强制更新"选项时，可以选择立即强制更新，或者当下一个会议室可用时强制更新。  
 
-
-
-<!--![alt text4](media/update-management.004.jpg)-->  
-
 > [!NOTE]
 > **不建议将"强制更新"** 作为常规更新管理策略。 如果推送仍在验证通过中的更新，可能会遇到我们已经知道的问题。 在这种情况下，此类聊天室的事件解决将尽力而为。  
 
-- 此外，为了确保良好的更改管理做法，我们将在服务内部记录每个强制更新。 将来，我们还希望让这个功能对用户可见。 
-
-
-
-<!--![alt text5](media/update-management.005.jpg) 
-
-
-## Managed updates: FAQS 
-1. **An update was announced, but I don’t see it on my Updates tab.** 
-
-Updates roll out through our update rings. It won’t display in your tab until the update has passed the staging ring. 
-
-
-
-2. **Will my new rooms automatically get updated?** 
-
-Yes. We catch up with any new rooms on the necessary updates. 
-**
-
-
-3. **What if I have an Anti-virus running? Do I need to add exclusions?** 
-
-Suppose you are using an anti-virus or just started using a new anti-virus. In that case, it might cause failures to launch meetings in the room console by interfering with the launch of related software libraries and executables from Teams or Skype for Business. Please contact our support team to get assistance on this issue. 
-
-4. **I reimaged a room. Will the updates automatically get installed?** 
-
-Unfortunately, not at this time. Previous updates need to be manually reinstalled. We are working on a feature to address this scenario. 
-
-5. **I see an update failed. What action should I take to make it successful?** 
-
-Our 24/7 operations team troubleshoot all update failures and will contact you if you need to take any action.  
-
-6. **What updates can we force?** 
-
-Any and all active updates can be forced. 
-
-7. **When is my update starting?** 
-
-Staging rings start on Wednesday. We are making improvements to the portal so you can see what day each of your rings starts depending on your configuration. If a critical update is required, we will bypass this schedule and release the update as soon as it’s available. -->
-
+- 此外，为了确保良好的更改管理做法，我们将在服务内部记录每个强制更新。 将来，我们还希望让这个功能对用户可见。

@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 了解哪些会话边界控制器 (SBC) 已通过直接路由认证。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9fef14aa5d6e58bea3a33fbd8c86a3044b0ab778
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: 8ef0be38205d2f83be013793706cb6e7f6e14d24
+ms.sourcegitcommit: 268660f101609852f02f3f9d1a8436f2a99dade7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766975"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "62070930"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>经认证可用于直接路由的会话边界控制器
 
@@ -65,11 +65,11 @@ Microsoft 与每个供应商合作：
 |                                                                                                                     | Mediant 9000  SBC  |     &#10004;     |   &#10004;     |  支持的 7.20A.258（推荐 7.40A.100）   | &#10004;     |  &#10004;  |
 |                                                                                                                     | Virtual Edition SBC |     &#10004;     |   &#10004;     |  支持的 7.20A.258（推荐 7.40A.100） |  &#10004;    |  &#10004;  |   
 |                                                                                                                     | Mediant 云版本 SBC  |     &#10004;     |   &#10004;     |  支持的 7.20A.258（推荐 7.40A.100） |  &#10004;    |  &#10004;  |
-|  [Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5100/5110       |     &#10004;     |   &#10004;    |       支持的 8.2 和 7.2（推荐 9.2）       | &#10004;   |     |
-|                                                                                                                     |      SBC 5200/5210       |     &#10004;     |  &#10004;    |       支持的 8.2 和 7.2（推荐 9.2）       |   &#10004; |    |
-|                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       支持的 8.2 和 7.2（推荐 9.2）       |   &#10004;  | |
-|                                                                                                                     |      SBC 7000       |     &#10004;     |   &#10004;    |       支持的 8.2 和 7.2（推荐 9.2）       |    &#10004;  |  |
-|                                                                                                                     |       SBC SWe       |     &#10004;     |   &#10004;   |       支持的 8.2 和 7.2（推荐 9.2）          |  &#10004;    |    |
+|  [Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5100/5110       |     &#10004;     |   &#10004;    |       支持 9.2、8.2 和 7.2 (推荐 10.1)        | &#10004;   |     |
+|                                                                                                                     |      SBC 5200/5210       |     &#10004;     |  &#10004;    |       支持 9.2、8.2 和 7.2 (推荐 10.1)        |   &#10004; |    |
+|                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       支持 9.2、8.2 和 7.2 (推荐 10.1)        |   &#10004;  | |
+|                                                                                                                     |      SBC 7000       |     &#10004;     |   &#10004;    |       支持 9.2、8.2 和 7.2 (推荐 10.1)        |    &#10004;  |  |
+|                                                                                                                     |       SBC SWe       |     &#10004;     |   &#10004;   |       支持 9.2、8.2 和 7.2 (推荐 10.1)           |  &#10004;    |    |
 |                                                                                                                     |      SBC 1000       |     &#10004;     |   &#10004;    |      8.x 或 9.x     |   &#10004;  |  &#10004;     |
 |                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     8.x 或 9.x     |   &#10004;   |     &#10004;     |
 |                                                                                                                     |    SBC SWe Lite     |     &#10004;     |  &#10004;    |      8.x 或 9.x    |   &#10004;    |     &#10004;     |
@@ -91,7 +91,7 @@ Microsoft 与每个供应商合作：
 |                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    Avaya 会话边界控制器企业版 (ASBCE)    |     &#10004;     |       &#10004;     |       8.1.1 版本（8.1.2 支持媒体旁路）      |     |    |
 |                     [诺基亚](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    诺基亚会话边界控制器。    |     &#10004;     |           |       19.5 (1908)       |     |    |
 |                     |    诺基亚会话边界控制器。    |     &#10004;     |           |       20.8       |      &#10004;        |    |
-|                     [Italtel](https://www.italtel.com/italtel-provides-direct-routing-sbc-for-microsoft-teams/)|    NetMatch-S CI     |     &#10004;     |           |       支持的 5.0（推荐 5.1）     |     |    |
+|                     [Italtel](https://www.italtel.com/italtel-provides-direct-routing-sbc-for-microsoft-teams/)|    NetMatch-S CI     |     &#10004;     |           |       支持的 5.0、5.1 (推荐 5.3)      |     |    |
 |                     [爱立信](https://www.ericsson.com/en/portfolio/digital-services/cloud-communication/enterprise-communication/business-communication-services-and-enablers/sip-trunking)|    vSBC 2.16     |     &#10004;     |           |              |     |    |
 |                     [Cataleya](https://cataleya.com/orchidplatforms/)|    Orchid Link    |     &#10004;     |           |      3.1        |     |    |
 |                     [ULTATEL](https://www.ultatel.com/services/direct-routing-teams-sbc)|    Teams SBC    |     &#10004;     |     &#10004;      |      1.6        |     |    |

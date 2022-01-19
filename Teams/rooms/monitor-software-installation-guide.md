@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 将Teams 会议室载入到托管服务
 f1keywords: ''
-ms.openlocfilehash: 70209bcd60740f1d1e19b45b215b921396a6f0fd
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: a02f47970392d5c428eb2cd76387678c1c2a5ed6
+ms.sourcegitcommit: 268660f101609852f02f3f9d1a8436f2a99dade7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767448"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "62071050"
 ---
 # <a name="monitor-device-software-installation"></a>监视设备软件安装
 
@@ -35,10 +35,10 @@ ms.locfileid: "61767448"
 若要以管理员角色登录到设备 (本地管理员) ：
 
 1. 确保挂断任何正在进行的呼叫并返回到主屏幕。
-1. 在 Microsoft Teams 会议室用户界面中，选择"更多"，然后选择 **"设置"，** 系统会提示输入设备的本地管理员密码 (默认密码是 **_sfb_**) 。
-1. 选择 **设置"，****然后选择** Windows 设置以Windows管理员访问用户。  
+1. 在 Microsoft Teams 会议室用户界面中，选择"更多"，然后选择 **"设置"，** 系统会提示输入设备上的本地管理员密码 (默认密码是 **_sfb_**) 。
+1. 选择 **设置"，****然后选择Windows 设置以** Windows管理员角色访问用户。  
 
-1. 在登录屏幕中显示的用户Windows，选择"管理员" (或设备的相应本地管理员) 。
+1. 在登录屏幕中显示的用户列表中Windows，选择"管理员 **" (或** 设备的相应本地管理员) 。
 
 > [!NOTE]
 > 如果计算机已 *加入域*，请选择"其他用户"，然后使用 **.\admin** 或设备中配置的本地管理员的用户名作为用户名。  
@@ -46,7 +46,7 @@ ms.locfileid: "61767448"
 若要在执行必要的管理Microsoft Teams返回到"会议室"应用：
 
 1. 从 ***Windows"开始"菜单，*** 从管理员帐户注销。
-1. 选择Microsoft Teams最左侧的用户帐户图标，然后选择 **"Skype"，返回到 Skype。**
+1. 选择Microsoft Teams最左侧的用户帐户图标，然后选择"Skype"，返回到 **Skype。**
 
 > [!NOTE]
 > 如果未Skype用户，请选择"其他用户"并输入 ***.\skype*** 作为用户名，然后登录。
@@ -58,8 +58,8 @@ ms.locfileid: "61767448"
 ### <a name="adding-proxy-settings-optional"></a>添加代理设置 (可选) 
 
 1. 按照以"执行"操作作为"一个管理用户"[登录到"一个"，作为"一名管理员"登录到"一台"。](#performing-operations-as-the-admin-user-of-the-mtr-device)
-1. 在屏幕) 左下角的 Windows ***** Search _ 字段 (中，输入 _ *cmd** (长按屏幕或右键选择，然后选择"以 **** 管理员角色运行") 。  
-1. 运行以下命令 (命令末尾的双引号) ：
+1. 在屏幕) 左下角的 Windows ***** 搜索 (_ 字段) ，输入 _ *cmd** (长按屏幕或右键选择，然后选择"以管理员 **** 角色运行") 。  
+1. 运行以下命令 (在命令末尾使用双引号) ：
    - 如果使用单个 ***代理服务器***：bitsadmin /Util /SetIEProxy LOCALSYSTEM MANUAL \_ PROXY ： <proxyserver> <port> ""
 
       *示例：bitsadmin* /Util /SetIEProxy LOCALSYSTEM MANUAL \_ PROXY contosoproxy.corp.net:8080 ""
@@ -87,7 +87,7 @@ ms.locfileid: "61767448"
 ## <a name="urls-required-for-communication"></a>通信所需的 URL
 
  > [!NOTE]
- > 在通过端口 443 传输的、位于"MICROSOFT TEAMS 会议室 - 托管服务服务门户"之间的所有网络流量 *都是 SSL。*  请参阅[Office 365 URL 和 IP 地址范围 - Microsoft 365 企业版 |Microsoft Docs](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide&preserve-view=true)。
+ > 在通过端口 443 进行 SSL 通信时，在MICROSOFT TEAMS 会议室 - 托管服务服务门户之间的所有网络流量 *都是 SSL。*  请参阅[Office 365 URL 和 IP 地址范围 - Microsoft 365 企业版 |Microsoft Docs](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide&preserve-view=true)。
 
 如果在企业环境中启用了流量允许列表，则必须允许以下主机：
 
@@ -109,14 +109,14 @@ mmrprodnoamstor.blob.core.windows.net
 
 注册过程涉及几个步骤：  
 
-1. 在"服务 - Microsoft Teams 会议室门户"的左侧导航栏中，展开设置 [http://portal.rooms.microsoft.com](https://portal.rooms.microsoft.com/) 并选择"常规 **"。**  
+1. 在"服务 - 托管服务Microsoft Teams 会议室左侧导航栏中 [http://portal.rooms.microsoft.com](https://portal.rooms.microsoft.com/) ，展开设置并选择"常规 **"。**  
 1. 在 *"自注册密钥"下*， **选择"下载安装程序** 超链接 https://aka.ms/serviceportalagentmsi "以下载监视代理软件。
 1. 选择 **"下载密钥"。** 将密钥文件放在要注册的每个设备的 **C：\Rigel** 文件夹下。  
 1. **可选：** 设置代理的代理设置;请参阅 [添加代理设置 (可选) 。](#adding-proxy-settings-optional)
-1. 安装在 (2) 中下载的代理安装程序安装程序，方法为：在一台一台或一台通过一般方法将 MSI 应用程序发布到环境中的设备（ (Group-Policy 等）中在本地运行 MSI )   
+1. 安装在步骤 2 () 中下载的代理安装程序，可通过在一台一台或一台一般的方式将 MSI 应用程序发布到环境 (Group-Policy 等)   
 1. 会议室在 5-10 分钟内显示在门户中。 如果没有，请联系 managedroomsupport@microsoft.com。  
 
-![图 5](../media/software-installation-005.jpg)
+![设置和自注册密钥的屏幕截图。](../media/software-installation-005.jpg)
 
 ## <a name="installation"></a>安装
 
@@ -135,15 +135,15 @@ mmrprodnoamstor.blob.core.windows.net
 
 1. 将以下文件复制到"公司"设备：
 
-   - 将以前从门户 (的") 密钥"放在设备的 **C：\Rigel** 目录中。
+   - 将以前从门户 (的") 密钥"文件放在设备的 **C：\Rigel** 目录中。
    - 将 **ManagedRoomsInstaller.msi(** 门户或门户中下载 AKA.MS) 复制到设备。
 
 1. 运行 ***ManagedRoomsInstaller.msi** _时，会看到"许可协议"屏幕。 阅读协议后，选中 _*_"我接受_*_ 许可协议中的条款"，然后按 *_Install** 按钮。  
 
-    此时会开始Microsoft Teams 会议室 - 托管服务监视软件安装。 显示以管理员 (运行提升) 提示。
+    此时会开始Microsoft Teams 会议室 - 托管服务监视软件安装。 系统会显示以管理员 (运行提升) 提示。
  1. 选择"***是"。***
 
-    安装将继续。 在安装过程中，控制台窗口将打开，并开始执行Microsoft Teams 会议室 - 托管服务监视软件安装的最后阶段。  
+    安装将继续。 在安装过程中，控制台窗口将打开，并开始安装 Microsoft Teams 会议室 - 托管服务监视软件安装的最后阶段。  
 
     > [!NOTE]
     > 不要关闭窗口。 安装完成后，向导会显示"完成"按钮。
@@ -163,16 +163,16 @@ mmrprodnoamstor.blob.core.windows.net
 若要取消注册设备，请从一个监控代理设备中删除，如下所示：
 
 1. 在受监视的设备上，以管理员角色登录设备。 请务必按照以设备的管理员用户执行 *操作中的步骤操作*。
-1. 从 aka.ms/MTRPDeviceOffBoarding 下载 [重置脚本](https://aka.ms/MTRPDeviceOffBoarding)。
+1. 从 下载重置[aka.ms/MTRPDeviceOffBoarding。](https://aka.ms/MTRPDeviceOffBoarding)
 1. 解压缩设备上某处的脚本并复制路径。
-1. 以管理员Windows打开 PowerShell：在屏幕) 左下角的"Windows ***搜索** (_ 字段"中，输入"Powershell"，并右键单击"_*"Windows PowerShell**。
+1. 以管理员Windows打开 PowerShell：在屏幕) 左下角的"Windows ***** 搜索 (_ 字段"中，输入"Powershell"，并右键单击"_*"Windows PowerShell**。
 1. 选择 *"以管理员角色运行"并接受* UAC 提示。
 1. 输入 *Set-ExecutionPolicy –ExecutionPolicy RemoteSigned* ，然后在下一个 **提示符下按 Y。**  
 1. 将解压缩的板载脚本的完整路径粘贴或键入到 PowerShell 窗口中，然后按 **Enter。**
 
    例如：
 
-   *C：\Users\admin\Downloads\MTRP \_ Device \_ Offboarding\MTRP \_ Device \_Offboarding.ps1*  
+   *C：\Users\admin\Downloads\MTRP \_ Device \_ Offboarding\一Offboarding.ps1\_ \_*  
 
    这会将设备重置为用户标准版、使用标准版、更新，并删除"一次"，并删除"一开始"的"一个"监视代理和文件。
 
@@ -182,7 +182,7 @@ mmrprodnoamstor.blob.core.windows.net
 ## <a name="troubleshooting-table"></a>故障排除表
 
 > [!NOTE]
-> 所有Microsoft Teams 会议室 – 托管服务监视错误都记录在名为"Microsoft 托管聊天室"**的特定事件日志文件中**。 
+> 所有Microsoft Teams 会议室 – 托管服务监视错误记录在名为"Microsoft 托管聊天室"**的特定事件日志文件中**。 
 
 ### <a name="application-runtime-log-file-location-"></a>***应用程序运行时日志文件位置*** =  
 
@@ -196,4 +196,4 @@ C：\Windows\ServiceProfiles\LocalService\AppData\Local\ServicePortalAgent\ app-
 |  |  |
 |<p>收到错误消息  </p><p>` `***错误：找不到名为"Admin"或"Skype"的本地用户帐户***  </p>|确保用户帐户存在于经过认证的会议室Microsoft Teams设备上。  |
 |  |  |
-|你收到上面未涵盖的任何错误消息  |请向系统支持代理提供安装Microsoft Teams的副本。 |
+|你收到上面未涵盖的任何错误消息  |请向 Microsoft Teams System 支持代理提供安装日志的副本。 |

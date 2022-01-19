@@ -19,12 +19,12 @@ description: 在 Teams 中部署云语音功能的实用指南，用于记录 Te
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1221747b1ad8487c0b5852b6adaf5129b5a5288e
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: e9f10a35e3be27b446fa7f55b5c9d97e3418fe36
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766765"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62056082"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 云会议录制
 
@@ -255,17 +255,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 1 小时录像的大小为 400 MB。 请确保你已了解已录制文件所需的容量，并在 OneDrive for Business 和 SharePoint Online 中有足够的存储空间。  阅读 [设置 OneDrive for Business 的默认存储空间](/onedrive/set-default-storage-space) 和 [管理 SharePoint Online 网站存储限制](/sharepoint/manage-site-collection-storage-limits)，以了解订阅中包含的基本存储空间以及如何购买其他存储空间。
 
  <a name="auto-expiration"></a>
-### <a name="auto-expiration-of-teams-meeting-recordings"></a>Teams 会议录制的自动到期时间： 
-
-> [!IMPORTANT]
->
-> 本文中讨论的自动到期功能尚未启动。 有关传送日期的详细信息，请参阅 [路线图（功能 ID： 84580）](https://www.microsoft.com/microsoft-365/roadmap?searchterms=82057&filters=&searchterms=84580) 。
-> 
-> 我们将提供此功能未来工作原理的信息，以便能够为此更改作出计划，并提前修改 Teams 策略设置。
->
-> 在 Teams 中用于提前更改默认到期设置的命令正在部署中，用户可以在 PowerShell 中查看属性。 该设置当前在 Teams 管理中心可用。 至少在启动该功能前 30 天，这些设置将在消息中心的帖子中提供和传达。
->
->
+### <a name="auto-expiration-of-teams-meeting-recordings"></a>Teams 会议录制的自动过期
 
 在[此处](meeting-expiration.md#changes-to-meeting-expiration)了解有关特定于管理员的更改的详细信息。
 

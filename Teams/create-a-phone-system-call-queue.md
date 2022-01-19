@@ -1,5 +1,5 @@
 ---
-title: 在呼叫队列中创建Microsoft Teams
+title: 在 Microsoft Teams
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -21,15 +21,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
-- Phone System
-- seo-marvel-apr2020
+- Phone System - seo-marvel-apr2020
 description: 了解如何在 Microsoft Teams 中为大型组织设置呼叫队列，该队列提供问候消息、保留音乐、呼叫重定向和其他功能。
-ms.openlocfilehash: ab5a99802ea9170ece7c1cd8d043b84c2cee452d
-ms.sourcegitcommit: c7904086e6956ad8d0e5544530bcc90d608b6e6a
+ms.openlocfilehash: c1f1ade144b416668c1512472adfee4a88afb780
+ms.sourcegitcommit: 268660f101609852f02f3f9d1a8436f2a99dade7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "62039895"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "62070970"
 ---
 # <a name="create-a-call-queue"></a>创建呼叫队列
 
@@ -44,21 +43,21 @@ ms.locfileid: "62039895"
 
 - 音乐等待队列中等待时，
 
-- 呼叫路由 - 在 *"先* 到先出" (FIFO) 顺序 - 到代理。
+- 调用路由 - 在 *"先* 到先出" (FIFO) 顺序 - 到代理。
 
 - 处理队列溢出和超时的选项。
 
-请确保已阅读自动[助理Teams](plan-auto-attendant-call-queue.md)呼叫队列的计划，并按照入门步骤操作，然后按照本文中的[](plan-auto-attendant-call-queue.md#getting-started)步骤操作。
+请确保已阅读自动助理[](plan-auto-attendant-call-queue.md)Teams呼叫队列的计划，并按照入门步骤操作，然后按照本文中的步骤[](plan-auto-attendant-call-queue.md#getting-started)操作。
 
 ## <a name="video-demonstration"></a>视频演示
 
-此视频展示了如何在 Teams 创建呼叫队列的基本示例。
+此视频演示了如何在呼叫队列中创建呼叫队列的基本Teams。
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWCF23?autoplay=false]
 
 ## <a name="create-the-call-queue"></a>创建呼叫队列
 
-要设置呼叫队列，请在管理Teams，展开 **"语音**"，单击"呼叫 **队列**"，然后单击"添加 **"。**
+若要设置呼叫队列，请在Teams中心展开 **"** 语音"，单击"呼叫队列"，然后单击"添加 **"。**
 
 键入呼叫队列的名称。
 
@@ -68,31 +67,31 @@ ms.locfileid: "62039895"
 
 单击 **"添加** 帐户"，搜索要用于此呼叫队列的资源帐户，单击"添加 **"，然后单击**"添加 **"。**  (代理收到传入呼叫时，会看到资源帐户名称。) 
 
-有关详细信息[，Teams管理](manage-resource-accounts.md)资源帐户。
+有关详细信息，请参阅[管理Teams帐户](manage-resource-accounts.md)。
 
 ### <a name="assign-calling-id"></a>分配呼叫 ID
 
 ![调用 ID 设置的屏幕截图。](media/call-queue-assign-calling-id.png)
 
-如果计划为呼叫Teams一个呼叫通道，可以通过指定一个或多个具有电话号码的资源帐户来为代理分配出站呼叫者 ID 号码。
+如果计划为呼叫代理Teams呼叫代理，可以通过指定一个或多个具有电话号码的资源帐户来为代理分配出站呼叫者 ID 号码。
 
 单击 **"** 添加"，在进行出站调用时搜索要允许代理调用 ID 的资源帐户，单击"添加 **"，然后单击**"添加 **"。**
 
-如果不使用呼叫Teams控制代理成员身份，请考虑直接将呼叫队列成员的呼叫者 ID 设置为呼叫队列的服务号码或相应的自动助理。 有关详细信息[，请参阅管理](caller-id-policies.md)Microsoft Teams 中的来电显示策略。
+如果不使用呼叫Teams控制代理成员身份，请考虑将呼叫队列成员的呼叫者 ID 直接设置为呼叫队列的服务号码或相应的自动助理。 有关详细信息，请参阅在 Microsoft Teams[中管理来电显示策略](caller-id-policies.md)。
 
 > [!NOTE]
-> 用于调用 ID 的资源帐户必须具有一个Microsoft 365 电话系统用户许可证，并且分配有以下其中一个：
+> 用于调用 ID 的资源帐户必须具有一个Microsoft Teams 电话系统用户许可证，并且分配有以下其中一个：
 >
 > - 分配的呼叫计划许可证和电话号码
 > - 已连接电话号码的接线员
-> - 使用直接路由 (时，可以选择使用联机语音路由策略) 
+> - 使用直接路由 (语音路由策略 (电话号码分配是可选的) 
 
 
 ## <a name="language"></a>语言
 
 ![语言设置的屏幕截图。](media/call-queue-language.png)
 
-选择 [受支持的语言](create-a-phone-system-call-queue-languages.md)。 如果启用语音提示和语音邮件听录，此语言 (系统生成的语音) 。
+选择 [受支持的语言](create-a-phone-system-call-queue-languages.md)。 如果启用系统生成的语音提示和语音邮件听录， (此语言) 。
 
 ## <a name="greetings-and-music-on-hold-in-queue"></a>队列中保留的问候语和音乐
 
@@ -113,7 +112,7 @@ Teams在队列中保持时向呼叫者提供默认音乐。 呼叫队列中提�
 
 ##### <a name="teams-channel"></a>Teams频道
 
-可以通过一个客户端通道最多添加 200 Teams代理。 请注意，您必须是团队的成员或频道的创建者或所有者，以将频道添加到队列。
+可以通过一个客户端通道添加多达 200 Teams代理。 你必须是团队的成员或频道的创建者或所有者，以将频道添加到队列。
 
 如果要使用 [频道管理Teams，](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)请选择"**选择团队"选项，** 然后单击"**添加频道"。** 搜索想要使用的团队，将其选中，然后单击"添加 **"。** 选择想要使用的频道， (仅支持标准) 然后单击"应用 **"。** 
 
@@ -133,7 +132,7 @@ Teams在队列中保持时向呼叫者提供默认音乐。 呼叫队列中提�
 
 若要将用户添加到队列，请单击"**添加** 用户"，搜索该用户，单击"添加 **"，然后单击**"添加 **"。**
 
-若要将组添加到队列，请单击 **"添加组**"，搜索该组，单击"添加 **"，然后单击**"添加 **"。** 可以使用通讯组列表、安全组和Microsoft 365组或Microsoft Teams团队。
+若要将组添加到队列，请单击 **"添加组**"，搜索该组，单击"添加 **"，然后单击**"添加 **"。** 可以使用通讯组列表、安全组和Microsoft 365组Microsoft Teams团队。
 
 > [!NOTE]
 > 添加到组的新用户最多可能需要八个小时才能进行第一次呼叫。
@@ -147,7 +146,7 @@ Teams在队列中保持时向呼叫者提供默认音乐。 呼叫队列中提�
   - 最新版本的桌面Microsoft Teams Android 应用或 iOS 应用
   - Microsoft Teams 电话版本 1449/1.0.94.2020051601 或更高版本
   
-代理Teams帐户需要设置为Teams模式。 不符合要求的代理不包括在呼叫路由列表中。 如果代理都使用兼容的客户端，建议为呼叫队列启用会议模式。
+代理Teams帐户必须设置为Teams模式。 不符合要求的代理不包括在呼叫路由列表中。 如果代理都使用兼容的客户端，建议为呼叫队列启用会议模式。
 
 > [!NOTE]
 > 如果电话呼叫从为"基于位置的路由"启用的直接路由网关路由到队列，则不支持会议模式。
@@ -202,7 +201,7 @@ Teams在队列中保持时向呼叫者提供默认音乐。 呼叫队列中提�
 
 **队列中的最大调用** 数指定在任意给定时间可在队列中等待的最大调用数。 默认值为 50，但范围为 0 到 200。 达到此限制时，按"达到最大调用数时"设置指定 **处理调用** 。
 
-可以选择断开呼叫连接或将其重定向到任何呼叫路由目标。 例如，你可能让呼叫者为队列中的代理留下语音邮件。 有关外部传输，请参阅先决条件和外部[](plan-auto-attendant-call-queue.md#prerequisites)电话号码转移[- 号码](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)格式的技术详细信息。
+可以选择断开呼叫连接或将其重定向到任何呼叫路由目标。 例如，你可能让呼叫者为队列中的代理留下语音邮件。 有关外部传输，请参阅 [先决条件](plan-auto-attendant-call-queue.md#prerequisites) 和 [外部电话号码转移 - 号码](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) 格式的技术详细信息。
 
 > [!NOTE]
 > 如果最大呼叫数设置为 0，则问候消息将不会播放。
@@ -231,7 +230,7 @@ Teams在队列中保持时向呼叫者提供默认音乐。 呼叫队列中提�
 呼叫队列中的呼叫代理支持以下客户端：
 
   - Skype for Business桌面客户端 2016 (32 位和 64 位) 
-  - Lync 桌面客户端 2013 (32 位和 64 位) 
+  - Lync 桌面客户端 2013 (32 位和 64 位版本) 
   - 支持所有 IP 电话型号Microsoft Teams。 请参阅[获取适用于 Skype for Business Online 的电话](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online)。
   - Mac Skype for Business 客户端（版本 16.8.196 及更高版本）
   - Android Skype for Business 客户端（版本 6.16.0.9 及更高版本）
@@ -248,15 +247,58 @@ Teams在队列中保持时向呼叫者提供默认音乐。 呼叫队列中提�
 
 ## <a name="call-queue-cmdlets"></a>呼叫队列 cmdlet
 
-还可以使用 Windows PowerShell 来创建和设置呼叫队列。 下面是用于管理呼叫队列的 cmdlet。
+Windows PowerShell允许通过命令行以批处理或编程方式创建和管理呼叫队列。
 
-- [New-CsCallQueue](/powershell/module/skype/new-CsCallQueue)
+以下 cmdlet 允许管理呼叫队列：
 
-- [Set-CsCallQueue](/powershell/module/skype/set-CsCallQueue)
+- [New-CsCallQueue](/powershell/module/skype/New-CsCallQueue)
+- [Get-CsCallQueue](/powershell/module/skype/Get-CsCallQueue)
+- [Set-CsCallQueue](/powershell/module/skype/Set-CsCallQueue)
+- [Remove-CsCallQueue](/powershell/module/skype/Remove-CsCallQueue)
 
-- [Get-CsCallQueue](/powershell/module/skype/get-CsCallQueue)
+还需要以下附加 cmdlet 来管理将用于呼叫队列的用户、资源帐户、Microsoft Teams 电话许可证、电话号码、音频文件和支持的语言：
 
-- [Remove-CsCallQueue](/powershell/module/skype/remove-CsCallQueue)
+用户/Teams
+
+- 用户
+- - [Get-CsOnlineUser](/powershell/module/skype/Get-CsOnlineUser)
+
+- Teams： 
+- - [Get-Team](/powershell/module/teams/Get-Team)
+- - [Get-TeamChannel](/powershell/module/teams/Get-TeamChannel)
+
+资源帐户：
+
+- [New-CsOnlineApplicationInstance](/powershell/module/skype/New-CsOnlineApplicationInstance)
+- [Find-CsOnlineApplicationInstance](/powershell/module/skype/Find-CsOnlineApplicationInstance)
+- [Get-CsOnlineApplicationInstance](/powershell/module/skype/Get-CsOnlineApplicationInstance)
+- [Set-CsOnlineApplicationInstance](/powershell/module/skype/Set-CsOnlineApplicationInstance)
+
+- [New-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/New-CsOnlineApplicationInstanceAssociation)
+- [Get-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/Get-CsOnlineApplicationInstanceAssociation)
+- [Get-CsOnlineApplicationInstanceAssociationStatus](/powershell/module/skype/Get-CsOnlineApplicationInstanceAssociationStatus)
+- [Remove-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/Remove-CsOnlineApplicationInstanceAssociation)
+
+虚拟Teams 电话许可证：
+
+- [Set-MsolUserLicense](/powershell/module/skype/Set-MsolUserLicense)
+
+电话数字分配：
+
+- [Set-CsOnlineVoiceApplicationInstance](/powershell/module/skype/Set-CsOnlineVoiceApplicationInstance)
+
+音频文件
+
+- [Get-CsOnlineAudioFile](/powershell/module/skype/Get-CsOnlineAudioFile)
+- [Import-CsOnlineAudioFile](/powershell/module/skype/Import-CsOnlineAudioFile)
+- [Export-CsOnlineAudioFile](/powershell/module/skype/Export-CsOnlineAudioFile)
+- [Remove-CsOnlineAudioFile](/powershell/module/skype/Remove-CsOnlineAudioFile)
+
+支持语言列表
+
+- [Get-CsAutoAttendantSupportedLanguage](/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage)
+
+有关使用 PowerShell 创建呼叫队列的分步指南，请参阅使用 [PowerShell cmdlet 创建呼叫队列](create-a-phone-system-call-queue-via-cmdlets.md)
 
 ## <a name="call-queue-diagnostic-tool"></a>调用队列诊断工具
 
@@ -278,7 +320,3 @@ Teams在队列中保持时向呼叫者提供默认音乐。 呼叫队列中提�
 [获取服务电话号码](getting-service-phone-numbers.md)
 
 [音频会议和通话套餐的国家/地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-
-[New-CsOnlineApplicationInstance](/powershell/module/skype/new-csonlineapplicationinstance)
-
-[Windows PowerShell 和 Skype for Business Online 简介](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)

@@ -1435,6 +1435,8 @@ items:
             href: alerts/device-health-status.md
           - name: Teams 设备和外围设备
             href: teams-device-health.md
+          - name: 使用管理单元管理设备
+            href: administrative-unit.md
   - name: 应用、机器人和连接器
     items:
       - name: 概述
@@ -1489,10 +1491,10 @@ items:
                 href: teams-app-permission-policies.md
               - name: 在 Teams 中管理应用设置策略
                 href: teams-app-setup-policies.md
-              - name: 根据许可证定制 Teams 应用
-                href: pin-teams-apps-based-on-license.md
               - name: 在 Teams 中管理自定义应用策略和设置
                 href: teams-custom-app-policies-and-settings.md
+          - name: 根据许可证定制 Teams 应用
+            href: pin-teams-apps-based-on-license.md
           - name: 查看应用权限并授予管理员许可
             href: app-permissions-admin-center.md
           - name: 资源特定许可
