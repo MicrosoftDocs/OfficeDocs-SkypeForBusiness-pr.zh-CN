@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45918358ac6e0419b65a0359bdcc8e500a1187bc
-ms.sourcegitcommit: c7a6079c9592c28d8b082ff92004ae4706cea76e
+ms.openlocfilehash: c975abb16b8c131b21733d57463435aa7e643639
+ms.sourcegitcommit: 6e7af2e556526bd8b2bcc8f689192e254d8cb4a3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "60600226"
+ms.lasthandoff: 01/20/2022
+ms.locfileid: "62146249"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Microsoft Teams 的硬件要求
 
@@ -36,7 +36,7 @@ ms.locfileid: "60600226"
 | 组件 | 要求 |
 |---------|---------|
 |计算机和处理器    | 至少 1.1 GHz 或更快版本，2 核<br><br>注意：对于 Intel 处理器，必须使用 Intel 用户增强技术实现的最大速度（最大用户频率）         |
-|内存     |    4.0 GB RAM（除任何其它系统要求外，Teams 还需要 4 GB 的专用 RAM）    |
+|内存     |  4.0 GB RAM |
 |硬盘    | 3.0 GB 可用磁盘空间        |
 |显示器    |   1024 x 768 屏幕分辨率 |
 |图形硬件 |  Windows OS：图形硬件加速要求 DirectX 9 或更高版本，对于 Windows 10 具有 WDDM 2.0 或更高版本（或针对 Windows 10 Fall Creators 更新，即 WDDM 1.3 或更高版本）
@@ -52,7 +52,7 @@ ms.locfileid: "60600226"
 | 组件 | 要求 |
 |---------|---------|
 |计算机和处理器    | Intel Core Duo 处理器 |
-|内存     |   4.0 GB RAM（除任何其它系统要求外，Teams 还需要 4 GB 的专用 RAM）     |
+|内存     |   4.0 GB RAM|
 |硬盘    |   1.5 GB 可用磁盘空间      |
 |显示器    | 1280 x 800 或更高分辨率    |
 |操作系统  |    MacOS 的三个最新版本之一。 可在此处查看有关最新 macOS 版本以及如何升级 macOS 版本的信息， [查看](https://support.apple.com/en-us/HT201260)。 例如，在发布新版本的 macOS 时，新版本和紧接其前两个版本将成为受支持的版本。      |
@@ -66,7 +66,7 @@ ms.locfileid: "60600226"
 | 组件 | 要求 |
 |---------|---------|
 |计算机和处理器    | 1.6 GHz（或更高版本）（32 位或 64 位），2 核        |
-|内存     |    4.0 GB RAM（除任何其它系统要求外，Teams 还需要 4 GB 的专用 RAM）   |
+|内存     |    4.0 GB RAM |
 |硬盘    | 3.0 GB 可用磁盘空间        |
 |显示器    |   1024 x 768 屏幕分辨率 |
 |图形硬件 |  128 MB 图形内存
