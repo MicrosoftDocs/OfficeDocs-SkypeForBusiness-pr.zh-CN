@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea57cc0f2a0809400376372952dfd7b274f40a02
-ms.sourcegitcommit: d9778b925873648213f05e27385255ba66cf8492
+ms.openlocfilehash: ff8418a44ea8369d4659b6bb5978e3f4a1ce51d7
+ms.sourcegitcommit: 11061890a64da88d92db3fa43f1bf320b216c355
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "61055413"
+ms.lasthandoff: 01/21/2022
+ms.locfileid: "62163533"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Microsoft Teams 教育版见解 IT 管理员指南
 
@@ -138,6 +138,9 @@ Insights 将从 Teams 的学生和教师活动中收集数据。它不收集来�
 
 > [!NOTE]
 > 几分钟后，所收集的大部分数据都会显示在 Insights 中。在会议结束后的几个小时会出现参加课堂会议（与某个课堂频道相关的会议）的提示，通常最多不超过 24 小时。
+
+> [!NOTE]
+> 在教育见解中收集的数据一直保留，直到 IT 管理员关闭 [教育分析切换](#Tturn-sds-for-insights-on-or-off) 或租户的 Office 订阅结束。 关闭 Teams 中的特定功能不会删除历史数据。
 
 ### <a name="privacy-and-security"></a>隐私和安全
 通过见解收集和显示的信息符合[ 90 多个法规和行业标准](/compliance/regulatory/offering-home)，包括 [GDPR](/compliance/regulatory/gdpr) 和关于学生和儿童安全的[《家庭教育权利和隐私法案》(FERPA)](/compliance/regulatory/offering-ferpa)，以及其他类似的面向隐私的法规。
