@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 了解哪些会话边界控制器 (SBC) 已通过直接路由认证。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8ef0be38205d2f83be013793706cb6e7f6e14d24
-ms.sourcegitcommit: 268660f101609852f02f3f9d1a8436f2a99dade7
+ms.openlocfilehash: e2c43fe821c0d0dafb1df471eafbcc9831a11b72
+ms.sourcegitcommit: 0486ca906fc7f66460e54e400541e5d5cbfc6dde
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "62070930"
+ms.lasthandoff: 01/21/2022
+ms.locfileid: "62160991"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>经认证可用于直接路由的会话边界控制器
 
@@ -91,7 +91,7 @@ Microsoft 与每个供应商合作：
 |                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    Avaya 会话边界控制器企业版 (ASBCE)    |     &#10004;     |       &#10004;     |       8.1.1 版本（8.1.2 支持媒体旁路）      |     |    |
 |                     [诺基亚](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    诺基亚会话边界控制器。    |     &#10004;     |           |       19.5 (1908)       |     |    |
 |                     |    诺基亚会话边界控制器。    |     &#10004;     |           |       20.8       |      &#10004;        |    |
-|                     [Italtel](https://www.italtel.com/italtel-provides-direct-routing-sbc-for-microsoft-teams/)|    NetMatch-S CI     |     &#10004;     |           |       支持的 5.0、5.1 (推荐 5.3)      |     |    |
+|                     [Italtel](https://www.italtel.com/italtel-provides-direct-routing-sbc-for-microsoft-teams/)|    NetMatch-S CI     |     &#10004;     |      &#10004;     |       支持的 5.0、5.1 (推荐 5.3)      |     |    |
 |                     [爱立信](https://www.ericsson.com/en/portfolio/digital-services/cloud-communication/enterprise-communication/business-communication-services-and-enablers/sip-trunking)|    vSBC 2.16     |     &#10004;     |           |              |     |    |
 |                     [Cataleya](https://cataleya.com/orchidplatforms/)|    Orchid Link    |     &#10004;     |           |      3.1        |     |    |
 |                     [ULTATEL](https://www.ultatel.com/services/direct-routing-teams-sbc)|    Teams SBC    |     &#10004;     |     &#10004;      |      1.6        |     |    |
