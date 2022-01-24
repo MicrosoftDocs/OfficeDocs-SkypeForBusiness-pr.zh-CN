@@ -25,34 +25,34 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 了解如何设置呼叫计划，包括查看你地区可用的计划、购买&许可证、获取电话号码，以及向&地址。
-ms.openlocfilehash: 594304fdc9aa95d283d6366a27aff48d5e4a1c91
-ms.sourcegitcommit: 38a4d2f41270633479afb3412c749365922554e5
+ms.openlocfilehash: 996211b3347f078b4d92c5a473b3d8057346231d
+ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "61410693"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62181085"
 ---
 # <a name="set-up-calling-plans"></a>设置通话套餐
 
 呼叫Teams呼叫是免费的，但如果您希望用户能够拨打企业外部的电话，请通过 Microsoft 365 或 Office 365 获取国内呼叫计划或国际呼叫计划。 可轻松为业务设置呼叫计划。  有关呼叫计划的信息，请参阅[哪个呼叫计划适合你？。](calling-plan-landing-page.md)
 
 ## <a name="step-1-find-out-if-calling-plans-are-available-in-your-countryregion"></a>步骤 1：了解通话套餐在你的国家/地区是否可用
-转到音频[](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)会议和通话计划的"国家/地区可用性"，选择你的国家/地区，获取有关呼叫计划的可用性信息，以及音频会议、电话系统、收费和免费号码以及通信积分的信息。
+转到音频[](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)会议和呼叫计划的"国家/地区可用性"，选择你的国家/地区，获取有关呼叫计划的可用性信息，以及音频会议、电话系统、收费和免费号码以及通信积分的信息。
 
-如果呼叫计划不适用于你的国家/地区，请考虑使用直接路由将本地电话基础结构连接到电话系统。  有关详细信息，请参阅直接[电话系统路由](direct-routing-landing-page.md)。
+如果呼叫计划不适用于你的国家/地区，请考虑使用直接路由将本地电话基础结构连接到电话系统。  有关详细信息，请参阅直接电话系统[路由](direct-routing-landing-page.md)。
   
 ## <a name="step-2-buy-and-assign-licenses"></a>步骤 2：购买和分配许可证
-1. 如果电话系统或计划不包括Microsoft 365 Office 365，可能需要购买电话系统许可证。  拥有许可证 **电话系统，** 请购买适用于 Microsoft 365 [或 Office 365 的呼叫Office 365。](calling-plans-for-office-365.md) 请参阅[Microsoft Teams附加许可](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)"，并购买许可证和计划。 
+1. 如果电话系统计划或计划不包括Microsoft 365 Office 365，可能需要购买电话系统许可证。  获得许可证 **电话系统，** 请购买适用于 Microsoft 365 [或 Office 365 的呼叫计划](calling-plans-for-office-365.md)。 请参阅[Microsoft Teams附加许可"，](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)并购买许可证和计划。 
     
     > [!TIP]
-    > **电话系统** 套餐或Microsoft 365套餐Office 365，因此，若要查看购买通话套餐的选项，必须先获得 **电话系统许可证。**
+    > **电话系统** 或Microsoft 365通话套餐Office 365，因此，若要查看购买通话套餐的选项，必须先获得 **电话系统许可证。**
   
-2. 首先分配许可证，然后将呼叫计划分配给组织中人员。 请参阅[分配Microsoft Teams许可证。](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+2. 首先分配许可证，然后将呼叫计划分配给组织中人员。 请参阅[分配Microsoft Teams附加许可证。](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
     
 ## <a name="step-3-get-phone-numbers"></a>步骤 3：获取电话号码
 有三种方法，以获得新的用户数：
 
-- **使用Teams管理中心。** 对于一些国家/地区，可以使用 Teams 管理中心获取用户号码，请参阅获取[用户的电话号码](getting-phone-numbers-for-your-users.md)。
+- **使用 Teams 管理中心。** 对于一些国家/地区，可以使用 Teams 管理中心为用户获取号码，请参阅获取[用户的电话号码](getting-phone-numbers-for-your-users.md)。
     
 - **转网现有的号码。** 您可以将现有号码从当前服务提供商或电话运营商转Microsoft 365或Office 365。 有关详细信息，请参阅[将电话号码转移到](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)Teams或[管理组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。 
   
@@ -64,7 +64,7 @@ ms.locfileid: "61410693"
 有关紧急呼叫和管理紧急地址的信息，请参阅 [管理](what-are-emergency-locations-addresses-and-call-routing.md) 紧急呼叫和为组织添加、更改 [或删除紧急位置](add-change-remove-emergency-location-organization.md)。
     
 ## <a name="step-5-assign-an-emergency-address-and-a-phone-number-to-a-user"></a>步骤 5：向用户分配紧急地址和电话号码
-<a name="bkmk_add_addresses"></a>当您在 Office 365 中设置呼叫计划时，您必须为每个用户分配电话号码和紧急地址。 必须先创建紧急地址，然后才能将其与电话号码关联。  有关详细信息，请参阅 [分配或更改紧急地址](assign-change-emergency-location-user.md)。
+<a name="bkmk_add_addresses"></a>在呼叫中心设置呼叫Office 365，必须为每个用户分配电话号码和紧急地址。 必须先创建紧急地址，然后才能将其与电话号码关联。  有关详细信息，请参阅 [分配或更改紧急地址](assign-change-emergency-location-user.md)。
 
 
 > [!TIP]
@@ -100,7 +100,7 @@ Microsoft 365管理员用户有权访问可在租户中运行的诊断，以验�
   
 - [Get-CsOnlineTelephoneNumber](/powershell/module/skype/Get-CsOnlineTelephoneNumber?view=skype-ps)：从企业语音目录检索电话号码。
     
-- [Set-CsOnlineVoiceUser](/powershell/module/skype/Set-CsOnlineVoiceUser?view=skype-ps)： 设置电话号码。
+- [Set-CsPhoneNumberAssignment：](/powershell/module/teams/Set-CsPhoneNumberAssignment?view=teams-ps)设置电话号码。
     
 有关详细信息，请参阅[PowerShell Teams概述](teams-powershell-overview.md)。
   

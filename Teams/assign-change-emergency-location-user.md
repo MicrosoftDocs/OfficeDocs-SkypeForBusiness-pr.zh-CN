@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 本文介绍了如何为组织中用户分配或更改紧急位置。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: efe6b81961a4f7ca4eeb39e3f10b0c117cba7d6e
-ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
+ms.openlocfilehash: 004635be112bb8d38b88277e89c24d263b21ec37
+ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60634901"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180895"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>为用户分配或更改紧急位置
 
@@ -41,7 +41,7 @@ ms.locfileid: "60634901"
 
 1. 在管理中心的左侧导航Microsoft Teams，单击 **"语音电话**  >  **号码"。**
 
-2. 在 **"电话"** 页上，单击"数字"选项卡，在列表中选择用户编号，然后单击"编辑 **"。**
+2. 在 **"电话"页面上**，单击"数字"选项卡，在列表中选择用户编号，然后单击"编辑 **"。**
 
 3. 在" **编辑** "窗格的 **"紧急位置"下**，执行下列操作之一：
 
@@ -55,7 +55,7 @@ ms.locfileid: "60634901"
 
 ## <a name="using-powershell"></a>使用 PowerShell
 
-请参阅[Set-CsOnlineVoiceUser。](/powershell/module/skype/set-csonlinevoiceuser) 
+请参阅[Set-CsPhoneNumberAssignment。](/powershell/module/teams/set-csphonenumberassignment) 
 
     
 ## <a name="related-topics"></a>相关主题
@@ -64,5 +64,5 @@ ms.locfileid: "60634901"
 - [为你的组织添加、更改或删除紧急位置](add-change-remove-emergency-location-organization.md)
 - [为用户分配或更改紧急位置的地点](assign-change-emergency-place-user.md)
 - [在组织中添加、更改或删除紧急位置的地点](add-change-remove-emergency-place-organization.md)
-- [管理你的组织的电话号码](/microsoftteams/manage-phone-numbers-for-your-organization)
+- [管理组织的电话号码](/microsoftteams/manage-phone-numbers-for-your-organization)
 - [紧急呼叫条款和条件](./emergency-calling-terms-and-conditions.md)

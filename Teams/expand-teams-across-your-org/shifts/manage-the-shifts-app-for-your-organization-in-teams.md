@@ -2,7 +2,7 @@
 title: 为组织管理“班次”应用
 author: LanaChin
 ms.author: v-lanachin
-ms.reviewer: lisawu,gumariam
+ms.reviewer: aaku
 manager: samanro
 ms.topic: article
 audience: admin
@@ -22,17 +22,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c4b1550ca90515714e509017f4fb13b83414fbf0
-ms.sourcegitcommit: 293d1b8a591d2284029632874067471f8d5bb0ff
+ms.openlocfilehash: c6e50d92dfb296bcf67402cdbd14a65fba490125
+ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/30/2021
-ms.locfileid: "61639686"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180925"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中为组织管理“班次”应用
-
-> [!IMPORTANT]
-> 从 2020 年 6 月 30 开始，Microsoft StaffHub 已停用。 我们正在将 StaffHub 功能集成到 Microsoft Teams 中。 如今，Teams 包含用于日程安排管理的“班次”应用，并且随着时间推移将推出其他功能。 StaffHub 于 2020 年 6 月 30 日停止为所有用户工作。 尝试打开 StaffHub 的任何用户都会看到一则提示其下载 Teams 的消息。 若要了解详细信息，请参阅 [Microsoft StaffHub 已停用](microsoft-staffhub-to-be-retired.md)。  
 
 ## <a name="overview-of-shifts"></a>“班次”概述
 

@@ -19,13 +19,13 @@ f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
-description: 了解如何为外部用户分配、更改或删除工作Teams以便外部企业和客户可以呼叫。
-ms.openlocfilehash: 40d8f2d12cb824b57b2c01da4880cc35afb0a663
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+description: 了解如何为用户分配、更改或删除工作电话号码Teams以便外部企业和客户可以呼叫。
+ms.openlocfilehash: 1836de6997f2e917e599efc091b689877856c4c7
+ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766565"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62181075"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>为用户分配、更改或删除电话号码
 
@@ -37,7 +37,7 @@ ms.locfileid: "61766565"
 
   
 > [!NOTE]
-> 查看用户是否分配了许可证的一种方式是，在"用户"中Microsoft Teams管理 **>"**。 如果分配了许可证，将在页面上指示该许可证。  也可使用Microsoft 365 管理中心。
+> 查看用户是否分配了许可证的一种方式是，在"用户"Microsoft Teams中心>**许可证**。 如果分配了许可证，将在页面上指示该许可证。  也可使用Microsoft 365 管理中心。
 
 > [!NOTE]
 > 此说明适用于使用本地 Active Directory 进行混合部署的客户。 如果要向用户或资源帐户分配呼叫计划或接线员 连接 电话号码，必须确保已删除本地 Active Directory 中的电话号码，并且更改已同步到 Microsoft 365。
@@ -50,9 +50,9 @@ ms.locfileid: "61766565"
     
 1. 在左侧导航栏中，单击 **"语音**  >  **电话数字"。**
 
-2. 在 **"电话"** 页上，选择列表中的未分配号码，然后单击"编辑 **"。**  
+2. 在 **"电话"** 页面上，选择列表中的未分配号码，然后单击"编辑 **"。**  
 
-3. 在"**编辑"** 窗格的"分配到"下，按显示名称或用户名搜索用户，然后单击"分配 **"。**
+3. 在"**编辑**"窗格的"分配到"下，按显示名称或用户名搜索用户，然后单击"分配 **"。**
 
 4. 若要分配或更改关联的紧急位置，请在"紧急位置"下搜索，然后选择该位置。
 
@@ -63,17 +63,23 @@ ms.locfileid: "61766565"
 
 6. 单击“**保存**”。
 
-若要使用 PowerShell 分配数字，请使用 [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser) cmdlet，如下所示：
+若要使用 PowerShell 分配数字，请使用 [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment) cmdlet，如下所示：
 
-
+对于呼叫计划号码
 ```PowerShell
-Set-CsOnlineVoiceUser -Identity <user>  -TelephoneNumber <phone number> 
+Set-CsPhoneNumberAssignment -Identity <user>  -PhoneNumber <phone number> -PhoneNumberType CallingPlan
+```
+
+对于运算符连接数字
+```PowerShell
+Set-CsPhoneNumberAssignment -Identity <user>  -PhoneNumber <phone number> -PhoneNumberType OperatorConnect
 ```
 
 例如：
 
 ```PowerShell
-Set-CsOnlineVoiceUser -Identity john@contoso.com -TelephoneNumber +14255550101
+Set-CsPhoneNumberAssignment -Identity john@contoso.com -PhoneNumber "+14255550101" -PhoneNumberType CallingPlan
+Set-CsPhoneNumberAssignment -Identity jack@contoso.com -PhoneNumber "+14255550102" -PhoneNumberType OperatorConnect
 ```
 
 > [!NOTE]
@@ -94,18 +100,18 @@ Set-CsOnlineVoiceUser -Identity john@contoso.com -TelephoneNumber +14255550101
 
 5. 单击“**保存**”。
 
-6. 在 **"电话"** 页上，选择列表中的未分配号码，然后单击"编辑 **"。**  
+6. 在 **"电话"** 页面上，选择列表中的未分配号码，然后单击"编辑 **"。**  
 
-7. 在"**编辑"** 窗格的"分配到"下，按显示名称或用户名搜索用户，然后单击"分配 **"。**
+7. 在"**编辑**"窗格的"分配到"下，按显示名称或用户名搜索用户，然后单击"分配 **"。**
 
 8. 若要分配或更改关联的紧急位置，请在"紧急位置"下搜索，然后选择该位置。
 
       > [!NOTE]
-      > 如果要更改接线员连接号码，则可能无法分配或更改关联的紧急位置。 此功能将取决于操作员。 有关详细信息，请与接线员联系。
+      > 如果要更改接线员和连接号码，则可能无法分配或更改关联的紧急位置。 此功能将取决于操作员。 有关详细信息，请与接线员联系。
 
 9. 单击“**保存**”。
 
-有关 PowerShell 示例，请参阅[Set-CsOnlineVoiceUser。](/powershell/module/skype/set-csonlinevoiceuser)
+有关 PowerShell 示例，请参阅[Set-CsPhoneNumberAssignment。](/powershell/module/teams/set-csphonenumberassignment)
 
 ## <a name="remove-a-phone-number-from-a-user"></a>删除用户的电话号码
 
@@ -121,7 +127,7 @@ Set-CsOnlineVoiceUser -Identity john@contoso.com -TelephoneNumber +14255550101
 
 5. 单击“**保存**”。
 
-有关 PowerShell 示例，请参阅[Set-CsOnlineVoiceUser。](/powershell/module/skype/set-csonlinevoiceuser)
+有关 PowerShell 示例，请参阅[Remove-CsPhoneNumberAssignment。](/powershell/module/teams/remove-csphonenumberassignment)
 
 ## <a name="related-topics"></a>相关主题
 
@@ -133,5 +139,7 @@ Set-CsOnlineVoiceUser -Identity john@contoso.com -TelephoneNumber +14255550101
 
 [紧急呼叫免责声明标签](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
-[Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser)
+[Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment)
+
+[Remove-CsPhoneNumberAssignment](/powershell/module/teams/remove-csphonenumberassignment)
 

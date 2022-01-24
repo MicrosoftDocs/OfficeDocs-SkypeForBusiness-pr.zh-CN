@@ -8,25 +8,21 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: 了解如何管理组织中一线员工在 Teams中基于排班的访问。
+description: 了解如何在 Teams 中为组织的一线员工管理基于排班的访问。
 ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 708ce6158cd799bed506751006d94679eedcd950
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 01ef7d91b0119501a3f7570b85ea902c0ebbb7a4
+ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842594"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180875"
 ---
 # <a name="manage-shift-based-access-for-frontline-workers-in-teams"></a>管理公司中一线员工基于排班Teams
-
-> [!IMPORTANT]
-> 从 2020 年 6 月 30 开始，Microsoft StaffHub 已停用。 我们正在将 StaffHub 功能构建到 Microsoft Teams。 如今，Teams 包含用于日程安排管理的“班次”应用，并且随着时间推移将推出其他功能。 StaffHub 于 2020 年 6 月 30 日停止为所有用户工作。 尝试打开 StaffHub 的任何用户都会看到一则提示其下载 Teams 的消息。 若要了解详细信息，请参阅 [Microsoft StaffHub 已停用](microsoft-staffhub-to-be-retired.md)。  
-
 ## <a name="overview"></a>概述
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
@@ -35,13 +31,13 @@ ms.locfileid: "60842594"
 
 这些基于班次的显示状态 &mdash; ![ 为纯绿色对号，表示"正在轮班"。](../../media/flw-presence-on-shift.png) **在 shift** 时， ![ 带 x 的灰色圆圈指示"关班"。](../../media/flw-presence-off-shift.png) **"关班**"（实心红色圆圈）表示"忙碌"与"忙碌"中默认的状态集 ![ ](../../media/flw-presence-busy.png)  &mdash; Teams。 [](../../presence-admins.md) 借助这两组状态，你可以根据用户的角色为组织成员配置不同的体验。
 
-使用基于排班的访问，可以在一线Teams员工排班时管理对员工的访问权限。 例如，您可以设置Teams，以显示一条消息，即一线员工必须先确认消息，Teams排班时才能使用排班。  
+使用基于排班的访问，可以在一线Teams排班时管理对员工的访问权限。 例如，可以设置Teams以显示一条消息，即一线员工必须先确认，Teams排班时才能使用排班。  
 
 ## <a name="scenario"></a>使用场景
 
 下面是组织如何管理基于班次的访问的示例。
 
-您的组织中的一线员工只应支付其经理安排和批准的排班工时。 不应为在计划排班外工作的时间支付这些费用，包括使用 Teams 应用。 您设置了一条自定义消息，显示"当您在 Teams 上排班的时间不计入应付时间"，当一线员工尝试在轮班时访问 Teams 时，会显示该消息。 如果他们选择使用Teams，则单击"我接受"，了解这一次不会付费。
+您的组织中的一线员工只应支付其经理安排和批准的排班工时。 不应为在计划排班外工作的时间支付这些费用，包括使用 Teams 应用。 设置一条自定义消息，显示"Teams 非工作时间不计入应付时间"，当一线员工尝试在轮班时访问 Teams 时，会显示该消息。 如果他们选择使用Teams，则单击"我接受"，了解这一次不会付费。
 
 您组织中还有一些具有薪金和不工作班次的信息工作者。 将信息工作者配置为使用默认状态Teams同时为一线员工提供基于班次的显示。
 
@@ -55,9 +51,9 @@ ms.locfileid: "60842594"
 |![带 x 的灰色圆圈，指示"关班"](../../media/flw-presence-off-shift.png) 非班次     |         |在班次结束时自动设置         |
 |![实心红色圆圈，表示忙碌。](../../media/flw-presence-busy.png) 忙碌      | ![实心红色圆圈，表示忙碌](../../media/flw-presence-busy.png) 忙碌         |自动设置。 还可以在一线工作人员上班时手动设置。|
 
-## <a name="off-shift-access-to-teams"></a>轮班后访问Teams
+## <a name="off-shift-access-to-teams"></a>不轮班访问Teams
 
-此功能允许管理在一线Teams员工排班时对员工的访问权限。 您可以设置Teams，以在一线员工在轮班时访问Teams向一线员工显示消息。 一线员工必须 **单击"我接受**"才能确认消息，然后才能Teams。
+此功能允许管理一线Teams排班时对员工的访问权限。 您可以设置Teams，以在一线员工在轮班时访问Teams显示消息。 一线员工必须 **单击"我接受**"才能确认消息，然后才能Teams。
 
 您可以使用默认消息，从一组预定义邮件中选择，或自定义邮件以显示任何需要的文本。 下面是默认消息：
 
@@ -81,7 +77,7 @@ ms.locfileid: "60842594"
 
 ### <a name="example-1"></a>示例 1
 
-本示例创建名为 Off Shift 的新策略Teams访问默认消息。 在此策略中，基于班次的显示状态将打开，并且每当分配了此策略的用户在轮班时访问Teams会显示默认消息。 如果用户接受Teams，则用户可以在轮班时使用通知，以及第一个轮班开始或最后一个班次结束之间的宽限期，以及限制访问的 10 分钟。  
+本示例创建名为 Off Shift 的新策略Teams访问默认消息。 在此策略中，基于班次的显示状态将打开，每当分配有此策略的用户在轮班时访问Teams会显示默认消息。 如果用户接受Teams，则用户可以在轮班时，以及第一个轮班开始或最后一个轮班结束到限制访问之间的宽限期为 10 分钟。  
 
 ```powershell
 New-CsTeamsShiftsPolicy -Identity "Off Shift Teams Access Default Message" -EnableShiftPresence $true -ShiftNoticeFrequency always -ShiftNoticeMessageType DefaultMessage -AccessType UnrestrictedAccess_TeamsApp -AccessGracePeriodMinutes 10
@@ -107,7 +103,7 @@ New-CsTeamsShiftsPolicy -Identity "Off Shift Teams Access Custom Message" -Enabl
 
   "您的雇主不会授权或批准非豁免或每小时员工在其非工作时间使用其网络、应用程序、系统或工具。 通过接受，即表示你确认Teams非授权且不会获得补偿。" 
 
-如果用户接受Teams，则用户可以在轮班时，以及第一个轮班开始或最后一个轮班结束到限制访问之间的宽限期为 3 分钟。  
+如果用户接受Teams轮班时，以及第一个班次开始或最后一个轮班结束之间的宽限期为 3 分钟，则用户可以在轮班时使用此模式。  
 
 ```powershell
 New-CsTeamsShiftsPolicy -Identity "Off Shift Teams Access Message1" -EnableShiftPresence $true -ShiftNoticeFrequency always -ShiftNoticeMessageType Message1 -AccessType  UnrestrictedAccess_TeamsApp -AccessGracePeriodMinutes 3

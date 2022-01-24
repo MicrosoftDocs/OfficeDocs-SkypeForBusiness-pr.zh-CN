@@ -24,23 +24,23 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 了解如何通过 cmdlet 配置呼叫队列
-ms.openlocfilehash: 8ffbef5541a230755bb7439507e3002a5cb92462
-ms.sourcegitcommit: 268660f101609852f02f3f9d1a8436f2a99dade7
+ms.openlocfilehash: a8f24f11cb19f448fc897043c7cb046a08c32341
+ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "62071105"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62181105"
 ---
 # <a name="create-a-call-queue-via-cmdlets"></a>通过 cmdlet 创建呼叫队列
 
 ## <a name="assumptions"></a>假设
 1)  PowerShell 已安装在计算机上
-- 为计算机[设置Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+- 为计算机[设置Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 - 已安装 MSTeams 模块 ````  (Install-Module -Name MicrosoftTeams -Force -AllowClobber) ````
 - 已安装 MSOnline 模块 ```` Install-Module -Name MSOnline -Force -AllowClobber ````
 2)  你拥有租户管理权限
 3)  你已购买Microsoft Teams 电话
-4)  已创建Teams代理、通讯组列表和频道
+4)  代理、通讯组列表Teams下面提到的频道已创建
 
 注意：下面Teams频道 cmdlet 是 PowerShell 模块的公共预览Teams的一部分。  有关详细信息，请参阅安装 Teams [PowerShell 公共预览](teams-powershell-install.md)版，Microsoft Teams [PowerShell 发行说明](teams-powershell-release-notes.md)。
 
@@ -161,6 +161,8 @@ Get-MsolAccountSku
 - - 自动助理：ce933385-9390-45d1-9512-c8d228074e07
 - - 呼叫队列：11cd3e2e-fccb-42ad-ad00-878b93575e07
 
+注意：如下所示的许可证 (PHONESYSTEM_VIRTUALUSER) 必须是由上述 cmdlet Get-MsolAccountSku的许可证类型。
+
 ````
 New-CsOnlineApplicationInstance -UserPrincipalName Sales-RA@contoso.com -DisplayName "Sales" -ApplicationID "11cd3e2e-fccb-42ad-ad00-878b93575e07"
 
@@ -211,10 +213,13 @@ Get-MsolAccountSku
 ````
 
 ### <a name="create-and-assign-resource-account"></a>创建和分配资源帐户
-注意：电话号码不需要，因为呼叫队列是前端的自动助理
+注意：电话呼叫队列是前端的，因此此处不需要自动助理
 - ApplicationID
 - - 自动助理：ce933385-9390-45d1-9512-c8d228074e07
 - - 呼叫队列：11cd3e2e-fccb-42ad-ad00-878b93575e07
+
+注意：如下所示的许可证 (PHONESYSTEM_VIRTUALUSER) 必须是由上述 cmdlet Get-MsolAccountSku的许可证类型。
+
 ````
 New-CsOnlineApplicationInstance -UserPrincipalName Support-RA@contoso.com -DisplayName "Support" -ApplicationID "11cd3e2e-fccb-42ad-ad00-878b93575e07"
 
@@ -271,8 +276,11 @@ Get-MsolAccountSku
 - ApplicationID
 - - 自动助理：ce933385-9390-45d1-9512-c8d228074e07
 - - 呼叫队列：11cd3e2e-fccb-42ad-ad00-878b93575e07
+
+注意：如下所示的许可证 (PHONESYSTEM_VIRTUALUSER) 必须是由上述 cmdlet Get-MsolAccountSku的许可证类型。
+
 ````
-New-CsOnlineApplicationInstance -UserPrincipalName Support-RA@contoso.com -DisplayName "Facilities" -ApplicationID "11cd3e2e-fccb-42ad-ad00-878b93575e07"
+New-CsOnlineApplicationInstance -UserPrincipalName Facilities-RA@contoso.com -DisplayName "Facilities" -ApplicationID "11cd3e2e-fccb-42ad-ad00-878b93575e07"
 
 Set-MsolUser -UserPrincipalName "Facilities-RA@contoso.com" -UsageLocation US
 
