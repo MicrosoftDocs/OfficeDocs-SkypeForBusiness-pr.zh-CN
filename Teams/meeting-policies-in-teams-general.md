@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - seo-marvel-apr2020
 description: 了解如何在会议环境中管理常规会议Teams。
-ms.openlocfilehash: db1515b016aec47190c26305656b205a56e13b23
-ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
+ms.openlocfilehash: 1bf4958f74a95775d6d34c87ea6d7d65262530e4
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "61562870"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62191473"
 ---
 # <a name="meeting-policy-settings---general"></a>会议策略设置 - 常规
 
@@ -59,7 +59,7 @@ ms.locfileid: "61562870"
 
 ## <a name="channel-meeting-scheduling"></a>频道会议安排
 
-使用现有的 AllowChannelMeetingScheduling 策略来控制可以在团队频道日历上创建的事件类型。 这是按用户政策，在会议开始前适用。 此设置控制用户是否可以在 Teams 频道中安排会议。 默认情况下，此设置已启动。 
+使用现有的 AllowChannelMeetingScheduling 策略来控制可以在团队频道日历上创建的事件类型。 这是按用户政策，在会议开始前适用。 此设置控制用户是否可以在 Teams 频道中安排会议。 默认情况下，此设置已启动。
 
 如果此策略已关闭，用户将无法创建新的频道会议。 但是，现有的频道会议可以由活动的组织者进行编辑。
 
@@ -98,7 +98,7 @@ ms.locfileid: "61562870"
 
 这是按用户政策，在会议开始前适用。 此设置控制用户是否可以在 Teams 中安排私人会议。 当会议未发布到团队中的某个频道时，这个会议就是私人的。
 
-请注意，如果 **关闭"允许** 安排私人会议"和"允许频道会议安排"，则"添加必需的与会者"和"添加频道"选项将禁用Teams。  默认情况下，此设置已启动。
+请注意，如果 **关闭"允许** 安排私人会议"和"允许频道会议安排"，则 **"添加** 必需的与会者"和"添加频道"选项将禁用Teams。 默认情况下，此设置已启动。
 
 ## <a name="meet-now-in-private-meetings"></a>在私人会议中现在开会
 
@@ -124,19 +124,18 @@ ms.locfileid: "61562870"
 
 这是按用户策略。 此设置控制会议组织者是否可以下载 [会议出席报告](teams-analytics-and-reports/meeting-attendance-report.md)。
 
-此策略默认为关闭状态，允许组织者查看谁注册并参加他们设置的会议和网络研讨会。 若要在管理中心Teams，请转到"会议会议策略"，将"参与报告"设置  >  设置为"已启用 **"。**
+此策略默认启用，允许组织者查看谁注册并参加他们设置的会议和网络研讨会。 若要在管理中心Teams，请转到"会议会议策略"，将"参与报告"设置  >  设置为"关闭 **"。**
 
-还可使用[Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet 编辑Teams会议策略。 或者，使用 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet 创建一个新的 Teams 会议策略，并将其分配给用户。
+还可使用[Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet Teams现有会议策略。 或者，使用 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet 创建一个新的 Teams 会议策略，并将其分配给用户。
 
-若要使会议组织者能够下载会议出席情况报告，将 **AllowEngagementReport** 参数设置为"已启用 **"。** 启用后，下载报告的选项会显示在 **“参与者”** 窗格中。 默认情况下，此设置未启用。
+默认情况下 **，AllowEngagementReport** 参数在 PowerShell 中设置为 **"** 已启用"。 若要防止会议组织者下载会议出席情况报告，将 **AllowEngagementReport** 参数设置为"已 **禁用"。**
 
-若要防止会议组织者下载报告，请将该参数设置为 **禁用**。
+启用此策略后，"参与者"窗格中会显示下载会议出席情况 **报告** 的选项。
 
 > [!NOTE]
 > 作为管理员，你无法查看不组织的会议的出席情况报告。 但是，您可以在该会议 24 小时内查看给定会议的参与者详细信息。 在Teams中心，转到"**用户**  >  **管理用户"。** 选择显示名称组织者的"会议"选项。 选择" **会议&选项卡** ，然后选择相应的会议 ID 或呼叫 ID。 然后，选择 **"参与者详细信息"。**
 
 有关详细信息，包括参与报告的限制，请参阅在 Teams[中查看和下载会议出席Teams。](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310)
-
 
 ## <a name="meeting-registration"></a>会议注册
 
@@ -154,10 +153,10 @@ ms.locfileid: "61562870"
 
 此策略控制哪些用户可以注册和参加网络研讨会。 此策略有两个选项，仅在会议注册 **打开时可用** 。
 
-- 如果希望 **Who** 包括匿名用户在内的所有人注册和参加组织中用户设置的网络研讨会，请设置"可注册到每个人"。
-- 如果希望 **Who** 注册并参加网络研讨会，请设置"可注册到组织中所有人"。
+- 如果希望 **Who** 包括匿名用户在内的每个人注册并参加组织中用户设置的网络研讨会，请设置"可注册到每个人"。
+- 如果希望 **Who注册** 并参加网络研讨会，请设置"可注册到组织中所有人"。
 
-默认情况下 **，"Who注册"** 设置为"每个人 **"。** 若要在管理中心内编辑Teams策略，请转到 **"会议**  >  **会议策略"。**
+默认情况下 **，"Who注册**"设置为"每个人 **"。** 若要在管理中心内编辑Teams策略，请转到 **"会议**  >  **会议策略"。**
 
 可以使用 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet 编辑现有的 Teams 会议策略。 或者，使用 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet 创建一个新的 Teams 会议策略，并将其分配给用户。
 

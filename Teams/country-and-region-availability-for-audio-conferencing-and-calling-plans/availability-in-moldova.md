@@ -26,18 +26,18 @@ ms.custom:
 - Calling Plans for Business and Microsoft Teams available for Moldova."
 - seo-marvel-mar2020
 description: 查找有关在Microsoft 365 Office 365提供哪些Skype for Business Microsoft Teams服务的信息。
-ms.openlocfilehash: f7fe5633f7ca2756b8e6611f1c44fabc4ff8c0c8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fad85c4f1e875ffd65f255fb95eac209f74c8f7b
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58589796"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62191563"
 ---
 # <a name="availability-in-moldova"></a>在摩尔多瓦的可用性
 
 [查找其他国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或详细了解可以在哪些国家/地区使用音频会议和通话套餐。
 
-以下是适用于 Microsoft 365 Office 365 的 Skype for Business Microsoft Teams 服务。
+以下是适用于Microsoft 365 Office 365的 Skype for Business Microsoft Teams 服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 
@@ -64,7 +64,7 @@ ms.locfileid: "58589796"
 |通话套餐的可用分钟数  <br/> |不适用  <br/> |
 |是否可以拨打呼出电话？  <br/> |不适用  <br/> |
 
-如果通话套餐不可购买，不妨使用[电话系统直接路由](../direct-routing-landing-page.md)。 使用直接路由，可以结合使用电话系统与几乎任何电话运营商。
+如果呼叫计划不可购买，请参阅 [PSTN 连接选项](../pstn-connectivity.md) 了解所有可用选项。
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服务的收费和免费电话号码
 

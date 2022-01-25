@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于Microsoft 365 Office 365和Skype for Business Microsoft Teams的一些服务和服务。
-ms.openlocfilehash: 8b3c68387a401eff31884a6e259dfcd6764cb57b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: df88b4ef02bc0c87faf5dd941cbf6f192e8301b0
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58589777"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62192383"
 ---
 # <a name="availability-in-trinidad-and-tobago"></a>在特立尼达和多巴哥的可用性
 
@@ -63,7 +63,7 @@ ms.locfileid: "58589777"
 |通话套餐的可用分钟数  <br/> |不适用  <br/> |
 |是否可以拨打呼出电话？  <br/> |不适用  <br/> |
 
-如果通话套餐不可购买，不妨使用[电话系统直接路由](../direct-routing-landing-page.md)。 使用直接路由，可以结合使用电话系统与几乎任何电话运营商。
+如果呼叫计划不可购买，请参阅 [PSTN 连接选项](../pstn-connectivity.md) 了解所有可用选项。
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服务的收费和免费电话号码
 

@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于Microsoft 365 Office 365的 Skype for Business Microsoft Teams 服务。
-ms.openlocfilehash: f890a0f5ff6971cafb5a4e158fa860567369682b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: fa26187e076544a2d5913b40491a331cc79d72f1
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853936"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62191023"
 ---
 # <a name="availability-in-dominica"></a>多米尼加的可用性
 
@@ -64,7 +64,7 @@ ms.locfileid: "60853936"
 |通话套餐的可用分钟数  <br/> | 不适用<br/> |
 |是否可以拨打呼出电话？  <br/> |不适用  <br/> |
 
-如果通话套餐不可购买，不妨使用[电话系统直接路由](../direct-routing-landing-page.md)。 使用直接路由，可以结合使用电话系统与几乎任何电话运营商。
+如果呼叫计划不可购买，请参阅 [PSTN 连接选项](../pstn-connectivity.md) 了解所有可用选项。
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服务的收费和免费电话号码
 

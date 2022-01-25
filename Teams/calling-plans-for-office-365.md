@@ -26,16 +26,16 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: dfb36cd78923257d76ebe33069e6e4cc642e7e40
-ms.sourcegitcommit: d23185cf6caeeeb055c36609e7c788a2b2e8d07d
+ms.openlocfilehash: 02283da362baf520ab0c3d28d809dfee39c9b378
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "60367524"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62190673"
 ---
 # <a name="calling-plans-for-microsoft-365"></a>呼叫套餐Microsoft 365
 
-呼叫其他 Skype for Business 和 Microsoft Teams 用户是免费的，但如果你希望用户能够拨打常规电话，并且你还没有服务提供商进行语音呼叫，则需要购买呼叫计划。 有关详细信息，请参阅"电话系统[和通话套餐"。](calling-plan-landing-page.md)
+呼叫其他 Skype for Business 和 Microsoft Teams 用户是免费的，但如果你希望用户能够拨打常规电话，并且你还没有服务提供商进行语音呼叫，则需要购买呼叫计划。 有关详细信息，请参阅"电话系统[套餐"。](calling-plan-landing-page.md)
   
 下面是"通话套餐"选项：
   
@@ -59,24 +59,22 @@ ms.locfileid: "60367524"
   
 ## <a name="how-to-buy-a-calling-plan"></a>如何购买通话套餐
 
-1. <strong>必须先购买 **电话系统</strong>附加许可证 <strong>。为此，请 [登录到订阅Microsoft 365 管理中心](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)选择"</strong>计费  >  **购买** 服务附加内容  >  **订阅立即**  >  **购买"。**
+1. <strong>必须先购买 **电话系统</strong>附加许可证 <strong>。为此，请 [登录到订阅Microsoft 365 管理中心](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)选择"</strong>计费  >  **购买** 服务  >  **附加内容订阅立即**  >  **购买"。**
     
     ![显示购买语音呼叫计划的选项的屏幕截图。](media/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
   
     > [!NOTE]
     > 根据你的计划，你可能需要购买更多附加内容，然后才能购买电话系统许可证。 有关详细信息，请参阅Microsoft Teams[附加许可。](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
-2. 购买电话系统许可证后，可以通过登录 Microsoft 365 管理中心 购买呼叫计划，选择"计费购买服务加载项订阅 **"，** 然后单击"  >    >  立即 **购买"。** 你将在那里看到呼叫计划。
-    
-    ![显示语音呼叫计划选项的屏幕截图。](media/ab2d6dce-56eb-4bbc-ac1a-430b0c065d18.png)
-  
-你可以购买不同的呼叫计划并将其分配给不同的用户，具体取决于你的组织的需求。 选择所需的呼叫计划后，继续结账。 向用户中的每个用户分配Microsoft 365 管理中心。 若要了解如何，请参阅[分配Microsoft Teams许可证。](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+2. 购买 电话系统 许可证后，可以通过登录 Microsoft 365 管理中心 购买呼叫计划，选择"计费购买服务附加内容订阅 **"，** 然后单击"  >    >  立即 **购买"。** 你将在那里看到呼叫计划。
+      
+你可以购买不同的呼叫计划并将其分配给不同的用户，具体取决于组织的需求。 选择所需的呼叫计划后，继续结账。 向用户中的每个用户分配Microsoft 365 管理中心。 若要了解如何，请参阅[分配Microsoft Teams许可证。](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
 ## <a name="do-you-have-a-service-provider-that-provides-on-premises-pstn-connectivity-for-hybrid-users"></a>你是否拥有为混合用户提供本地 PSTN 连接的服务提供商？
 
-如果是这样，则无需购买呼叫计划。 Office 365 企业版E5 **包括电话系统** 加载项，因此你可以继续结账。
+如果是这样，则无需购买呼叫计划。 Office 365 企业版 E5 **电话系统加载项，** 因此你可以继续结账。
   
-然后，将Enterprise E5 或 **电话系统** 附加许可证分配给 Microsoft 365 管理中心。 若要了解如何，请参阅[分配Microsoft Teams许可证。](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+然后，将Enterprise E5 电话系统或附加许可证分配给 Microsoft 365 管理中心。 若要了解如何，请参阅[分配Microsoft Teams许可证。](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
 ## <a name="pricing-information"></a>定价信息
 
@@ -92,7 +90,7 @@ ms.locfileid: "60367524"
     
 - [Microsoft Teams 附加许可](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
     
-- [以下是使用 电话系统 或 Microsoft 365 获取Office 365](./here-s-what-you-get-with-phone-system.md)
+- [以下是在电话系统或Microsoft 365 Office 365](./here-s-what-you-get-with-phone-system.md)
     
    
 ## <a name="related-topics"></a>相关主题

@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于 Microsoft 365 Office 365 的 Skype for Business Microsoft Teams 服务。
-ms.openlocfilehash: b69d4634ee91e002c0f86fbe19d57dc20d3dd582
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 297d2ac2751745146cbd4bfcde3853651b9a39a6
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836080"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62191273"
 ---
 # <a name="availability-in-kazakhstan"></a>在哈萨克斯坦的可用性
 
@@ -62,13 +62,13 @@ ms.locfileid: "60836080"
 |通话套餐的可用分钟数  <br/> |不适用  <br/> |
 |是否可以拨打呼出电话？  <br/> |不适用  <br/> |
 
-如果通话套餐不可购买，不妨使用[电话系统直接路由](../direct-routing-landing-page.md)。 使用直接路由，可以结合使用电话系统与几乎任何电话运营商。
+如果呼叫计划不可购买，请参阅 [PSTN 连接选项](../pstn-connectivity.md) 了解所有可用选项。
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服务的收费和免费电话号码
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|你可以获取哪些首都或大城市的收费电话号码？   | 在请求 ([时进行) ](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)<br/> |
+|你可以获取哪些首都或大城市的收费电话号码？   | 请求 ([时进行) ](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)<br/> |
 |是否提供收费电话号码？  <br/> |是（[应要求](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)） <br/> |
 |免费电话号码是否可用？  <br/> |否  <br/> |
    

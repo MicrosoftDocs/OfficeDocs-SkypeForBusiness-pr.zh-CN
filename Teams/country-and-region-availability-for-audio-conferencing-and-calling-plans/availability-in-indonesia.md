@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是印度尼西亚Microsoft 365 Office 365的 Skype for Business Microsoft Teams 服务。
-ms.openlocfilehash: 6118d3a3c55f183224d6f4b596391e63dccabbab
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+description: 以下是印度尼西亚Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
+ms.openlocfilehash: 5c05d35a6f8654ff3a01126cd3ab2a9e1b441abb
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733723"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62191283"
 ---
 # <a name="availability-in-indonesia"></a>在印度尼西亚的可用性
 
 [查找其他国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或详细了解可以在哪些国家/地区使用音频会议和通话套餐。
 
-以下是印度尼西亚Microsoft 365 Office 365的 Skype for Business Microsoft Teams 服务。
+以下是印度尼西亚Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 
@@ -63,13 +63,13 @@ ms.locfileid: "60733723"
 |通话套餐的可用分钟数  <br/> |不适用  <br/> |
 |是否可以拨打呼出电话？  <br/> |不适用  <br/> |
 
-如果通话套餐不可购买，不妨使用[电话系统直接路由](../direct-routing-landing-page.md)。 使用直接路由，可以结合使用电话系统与几乎任何电话运营商。
+如果呼叫计划不可购买，请参阅 [PSTN 连接选项](../pstn-connectivity.md) 了解所有可用选项。
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服务的收费和免费电话号码
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|你可以获取哪些首都或大城市的收费电话号码？  <br/> |Jakarta ([请求) ](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) <br/> |
+|你可以获取哪些首都或大城市的收费电话号码？  <br/> |Jakarta ([请求请求) ](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) <br/> |
 |是否提供收费电话号码？  <br/> |否  <br/> |
 |是否提供免费电话号码？  <br/> |是  <br/> |
    

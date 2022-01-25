@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是适用于乌拉圭Microsoft 365 Office 365 Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: 056ec9181042faa0463c83fa09fe304071ba7c09
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+description: 以下是适用于乌拉圭Microsoft 365 Office 365和Skype for Business Microsoft Teams服务。
+ms.openlocfilehash: e4a0605125caff027d72b15ae058f332d905a4a9
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733453"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62190653"
 ---
 # <a name="availability-in-uruguay"></a>在乌拉圭的可用性
 
 [查找其他国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或详细了解可以在哪些国家/地区使用音频会议和通话套餐。
 
-以下是适用于乌拉圭Microsoft 365 Office 365 Skype for Business Microsoft Teams服务。
+以下是适用于乌拉圭Microsoft 365 Office 365和Skype for Business Microsoft Teams服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 
@@ -63,7 +63,7 @@ ms.locfileid: "60733453"
 |通话套餐的可用分钟数  <br/> |不适用  <br/> |
 |是否可以拨打呼出电话？  <br/> |不适用  <br/> |
 
-如果通话套餐不可购买，不妨使用[电话系统直接路由](../direct-routing-landing-page.md)。 使用直接路由，可以结合使用电话系统与几乎任何电话运营商。
+如果呼叫计划不可购买，请参阅 [PSTN 连接选项](../pstn-connectivity.md) 了解所有可用选项。
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服务的收费和免费电话号码
 

@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b87aaae3feeef9552cd64d76bb777cb081a6102e
-ms.sourcegitcommit: d9778b925873648213f05e27385255ba66cf8492
+ms.openlocfilehash: 52347a620d6f441bfff68764d053a0adf71427b1
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "61055423"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62191103"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>为你的组织管理 Microsoft Teams 设置
 
@@ -79,7 +79,7 @@ ms.locfileid: "61055423"
 
 你可以在此处打开或关闭文件共享和云文件存储选项。
 
-用户可以在 Teams 频道和聊天中从云存储服务上载和共享文件。当前 Teams 中的云存储选项包括 Dropbox、Box、ShareFile、Google Drive 和 Egnyte。可将组织要使用的云存储提供商切换为开启。
+用户可以在 Teams 频道和聊天中从云存储服务上载和共享文件。 Teams 中的云存储选项目前包括 Dropbox、Box、Citrix 文件、Google Drive 和 Egnyte。 可打开贵组织要使用的云存储提供商对应的开关。
 
 #### <a name="organization"></a>组织
 

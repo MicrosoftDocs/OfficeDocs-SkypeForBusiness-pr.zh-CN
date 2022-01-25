@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: c493199d163b2ffcbb14cd81f63d4ba492e6d044
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ba5ae750e21a2fee49ea4c506e2214a224d3d69a
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584706"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62191083"
 ---
 # <a name="availability-in-sri-lanka"></a>在斯里兰卡的可用性
 
@@ -43,7 +43,7 @@ ms.locfileid: "58584706"
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
-|是否会为音频会议自动分配电话号码？  <br/> | 电话号码没有关联到特定城市或位置。 如果需要专用电话号码，请参阅获取服务[电话号码Skype for Business Microsoft Teams。](../getting-service-phone-numbers.md)  <br/> |
+|是否会为音频会议自动分配电话号码？  <br/> | 电话号码没有关联到特定城市或位置。 如果需要专用电话号码，请参阅获取服务电话号码[Skype for Business Microsoft Teams。](../getting-service-phone-numbers.md)  <br/> |
 |使用“呼叫我”功能的拨出功能  <br/> |需要通信信用额度  <br/> |
    
 ## <a name="phone-system"></a>电话系统
@@ -63,7 +63,7 @@ ms.locfileid: "58584706"
 |通话套餐的可用分钟数  <br/> |不适用  <br/> |
 |是否可以拨打呼出电话？  <br/> |不适用  <br/> |
 
-如果通话套餐不可购买，不妨使用[电话系统直接路由](../direct-routing-landing-page.md)。 使用直接路由，可以结合使用电话系统与几乎任何电话运营商。
+如果呼叫计划不可购买，请参阅 [PSTN 连接选项](../pstn-connectivity.md) 了解所有可用选项。
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服务的收费和免费电话号码
 

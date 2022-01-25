@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c6e50d92dfb296bcf67402cdbd14a65fba490125
-ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
+ms.openlocfilehash: ec708d310ea72ac56b5f6ad6bb65a4ab436915f6
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62180925"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62192373"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中为组织管理“班次”应用
 
@@ -86,3 +86,4 @@ Teams[策略](../../manage-policy-packages.md)包是预定义的策略和策略�
 
 - [一线员工排班帮助](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
 - [向 Teams 中的用户分配策略](../../policy-assignment-overview.md)
+- [Shifts 连接线](shifts-connectors.md)

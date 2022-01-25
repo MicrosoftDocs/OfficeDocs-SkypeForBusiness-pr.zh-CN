@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于保加利亚Microsoft 365 Office 365和Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: 7c810114ab56a6b32f1b467597f9f608c5d464ab
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3256a4b182fa26899dbaa6478cda913c5dcc4367
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580186"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62192283"
 ---
 # <a name="availability-in-bulgaria"></a>在保加利亚的可用性
 
@@ -63,7 +63,7 @@ ms.locfileid: "58580186"
 |通话套餐的可用分钟数  <br/> |不适用  <br/> |
 |是否可以拨打呼出电话？  <br/> |不适用  <br/> |
 
-如果通话套餐不可购买，不妨使用[电话系统直接路由](../direct-routing-landing-page.md)。 使用直接路由，可以结合使用电话系统与几乎任何电话运营商。
+如果呼叫计划不可购买，请参阅 [PSTN 连接选项](../pstn-connectivity.md) 了解所有可用选项。
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服务的收费和免费电话号码
 

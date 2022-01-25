@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 了解如何管理会议网络研讨会Teams策略。
-ms.openlocfilehash: 19918d7a32a9a5069dab8dc87011de6112bbe364
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: 92970e754f50deffe34993a44fb92a2d5a7b5581
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205552"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62192183"
 ---
 # <a name="set-up-for-webinars-in-microsoft-teams"></a>在 Microsoft Teams 中为网络研讨会进行设置
 
@@ -48,7 +48,7 @@ ms.locfileid: "61205552"
 如果启用此功能，用户可以安排网络研讨会。 默认情况下，此选项已打开。 如果要关闭会议注册，请将其策略设置为"关闭 **"。**
 
 > [!IMPORTANT]
-> **必须打开私人** 会议计划，会议注册工作。 默认情况下，此策略在管理中心Teams打开。 对于教育租户中的学生，此策略默认已关闭。 若要详细了解如何为学生启用私人会议计划，请参阅Teams 教育版[策略包](policy-packages-edu.md)。
+> **必须打开私人** 会议计划，会议注册工作。 默认情况下，此策略在管理中心Teams启用。 对于教育租户中的学生，此策略默认已关闭。 若要详细了解如何为学生启用私人会议计划，请参阅Teams 教育版[策略和策略包](policy-packages-edu.md)。
 
 ### <a name="who-can-register"></a>Who注册
 
@@ -59,7 +59,7 @@ ms.locfileid: "61205552"
 
 ### <a name="engagement-report"></a>Engagement 报表
 
-如果启用此功能，组织者可以看到有关谁注册并参加他们设置的网络研讨会的报告。 默认情况下，此策略已关闭。 有关详细信息，请参阅会议[- Teams中的会议策略。](meeting-policies-in-teams-general.md#engagement-report) 有关最终用户体验的信息，请参阅 [查看和下载会议出席报告](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310?ui=en-US&#x26;rs=en-US&#x26;ad=US)。
+启用此功能后，组织者可以看到有关谁注册并参加他们设置的网络研讨会的报告。 此策略默认为打开状态。 有关详细信息，请参阅会议[- Teams中的会议策略。](meeting-policies-in-teams-general.md#engagement-report) 有关最终用户体验的信息，请参阅 [查看和下载会议出席报告](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310?ui=en-US&#x26;rs=en-US&#x26;ad=US)。
 
 ## <a name="allow-users-to-schedule-webinars-using-powershell"></a>允许用户使用 PowerShell 安排网络研讨会
 
@@ -76,7 +76,7 @@ ms.locfileid: "61205552"
 
 ### <a name="allow-users-to-schedule-webinars"></a>允许用户计划网络研讨会
 
-可以将注册限制为仅组织内部用户，或者向租户内外的每个人开放注册。 默认情况下 **，"WhoCanRegister"** 已启用，并设置为"全局 **" ("组织** 范围的"默认) 策略。 如果要关闭会议注册，将 **MeetingRegistration 设置为** **False。**
+可以将注册限制为仅组织内部用户，或者向租户内外的每个人开放注册。 默认情况下 **，"WhoCanRegister"** 已启用，并设置为"全局 **" (""** 组织范围"默认) 策略。 如果要关闭会议注册，将 **MeetingRegistration 设置为** **False。**
 
 > [!IMPORTANT]
 > **PrivateMeetingScheduling** 必须设置为 **True，MeetingRegistration 正常工作**。
@@ -112,10 +112,10 @@ Set-CsTeamsMeetingPolicy -WhoCanRegister Everyone
 
 ### <a name="collect-meeting-attendance"></a>收集会议出席情况
 
-如果希望组织者分析注册和参加网络研讨会的人，则需要启用 **EngagementReport** 策略。 为此，请运行 PowerShell 中的以下命令。
+**AllowEngagementReport** 参数允许查看谁注册和参加网络研讨会。 默认情况下，此策略已打开。 若要将其关闭，请运行 PowerShell 中的以下命令：
 
 ```powershell
-Set-CsTeamsMeetingPolicy -EngagementReport Enabled
+Set-CsTeamsMeetingPolicy -AllowEngagementReport Disabled
 ```
 
 ## <a name="configure-webinar-settings"></a>配置网络研讨会设置

@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 本文列出了在中国使用 Skype for Business 和 Microsoft Teams 时可以使用的 Microsoft 365 和 Office 365 服务。
-ms.openlocfilehash: 2013769f13cd94330ccc64422d5ea874d55155f2
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+ms.openlocfilehash: a08cb9c6b391ced7a9c3631d42a3fd7da9b544a0
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733683"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62191213"
 ---
 # <a name="availability-in-china"></a>在中国可用的服务
 
@@ -63,7 +63,7 @@ ms.locfileid: "60733683"
 |通话套餐的可用分钟数  <br/> |不适用  <br/> |
 |是否可以拨打呼出电话？  <br/> |不适用  <br/> |
 
-如果通话套餐不可购买，不妨使用[电话系统直接路由](../direct-routing-landing-page.md)。 使用直接路由，可以结合使用电话系统与几乎任何电话运营商。
+如果呼叫计划不可购买，请参阅 [PSTN 连接选项](../pstn-connectivity.md) 了解所有可用选项。
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服务的收费和免费电话号码
 
