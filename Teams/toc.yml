@@ -1539,7 +1539,7 @@ items:
                 href: expand-teams-across-your-org/shifts/schedule-owner-for-shift-management.md
               - name: 排班连接器
                 items:
-                  - name: 排班连接器概述
+                  - name: 概述
                     href: expand-teams-across-your-org/shifts/shifts-connectors.md
       - name: Teams 教育版
         href: expand-teams-across-your-org/teams-for-education-landing-page.md

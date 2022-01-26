@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.recordingandtranscription
 description: 了解如何在录制和听录Teams管理会议策略设置。
-ms.openlocfilehash: c89fc88c46ae8b614021417ab2aa02832f64fce1
-ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
+ms.openlocfilehash: ee558ae87d7bea781cae3d2bc267f82bc1fdb18a
+ms.sourcegitcommit: faeb8976299375e7658499ff31d25e8ef6003144
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "58973174"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "62224069"
 ---
 # <a name="meeting-policy-settings-for-recording--transcription"></a>用于录制听录&会议策略设置
 
@@ -35,9 +35,11 @@ ms.locfileid: "58973174"
 
 ## <a name="allow-transcription"></a>允许转录
 
-这是按组织者和按用户策略的组合。 此设置控制播放会议录制内容期间是否提供字幕和转录功能。 如果关闭此设置，则播放会议录制期间，"搜索"和"抄送"选项将不可用。  启动录制的人员需要打开此设置，以便录制内容也包含脚本。
+这是按组织者和按用户策略的组合。 此设置控制播放会议录制内容期间是否提供字幕和转录功能。 开始录制的人需要启用此设置，这些功能可以处理其录制。
 
-目前仅录制的会议的听录功能仅支持在会议中设置其语言或Teams英语的用户。
+打开此设置会创建与会议录制一起存储的脚本的副本，该副本在会议录制中启用搜索、**抄** 送和脚本。
+
+目前仅录制的会议的听录功能仅支持在会议中设置其语言或Teams听录。
 
 ## <a name="allow-cloud-recording"></a>允许云录制
 
