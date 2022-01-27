@@ -19,12 +19,12 @@ description: 在 Teams 中部署云语音功能的实用指南，用于记录 Te
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e9f10a35e3be27b446fa7f55b5c9d97e3418fe36
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+ms.openlocfilehash: a067488736a1392ac34259ba77518c299c46d203
+ms.sourcegitcommit: faeb8976299375e7658499ff31d25e8ef6003144
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62056082"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "62224009"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 云会议录制
 
@@ -143,8 +143,9 @@ Set-CsTeamsMeetingPolicy -Identity Global -ChannelRecordingDownload Block
 >```
 
 ### <a name="turn-on-or-turn-off-recording-transcription"></a>打开或关闭录制转录
-
-此设置控制播放会议录制内容期间是否提供字幕和转录功能。 如果将其关闭，则在播放会议录制内容期间“**搜索**”和“**CC**”选项将不可用。 启动录制的人员需要打开此设置，以便录制内容也包含脚本。
+此设置控制播放会议录制内容期间是否提供字幕和转录功能。 启动录制的人员需要打开此设置，才能使用这些功能进行录制。
+  
+启用此设置将创建与会议记录一起存储的脚本，它在会议录制内容中启用“**搜索**”、“**CC**”和“**脚本**”。
 
 > [!NOTE]
 > 录制会议的转录目前仅支持英语 (美国)、英语 (加拿大)、英语 (印度)、英语 (英国)、英语 (澳大利亚)、英语 (新西兰)、德语 (德国)、葡萄牙语 (巴西)、荷兰语 (荷兰)、荷兰语 (比利时)、法语 (法国)、西班牙语 (西班牙)、日语 (日本)、法语 (加拿大)、中文 (粤语、繁体)、中文 (普通话、简体)、印地语 (印度)、意大利语 (意大利)、韩语 (韩国)、西班牙语 (墨西哥)、瑞典语 (瑞典)、波兰语 (波兰)、阿拉伯语 (阿拉伯联合酋长国)、阿拉伯语 (沙特阿拉伯)、丹麦语 (丹麦)、芬兰语 (芬兰)、挪威语 (挪威)和俄语 (俄罗斯)。它们会与会议录音一起存储在 OneDrive for Business 和 SharePoint Online 云存储中。
@@ -408,7 +409,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -**New** MeetingRecordingExpirationDay
 
 现在，录制视频文件的隐藏式字幕已关联到 Teams 会议脚本。在大多数情况下，此链接将在文件的生命周期内一直保存，但如果在同一 OneDrive for Business 或 SharePoint Online 网站中复制该视频文件，则链接可能会损坏，这将导致字幕在复制的视频文件上不可用。
 
-将来对 Teams 中脚本和录制内容之间的链接所做的任何更改都将在此处和消息中心通知中进行阐明。 如果将来进行任何更改，我们将确保录制时间 不到 60 天的录制文件可以将会议的脚本显示为字幕。
+将来对 Teams 中脚本和录制内容之间的链接所做的任何更改都将在此处和消息中心通知中进行阐明。 如果将来有任何更改，我们将确保录制时间不到 60 天的录制文件将会议的脚本显示为字幕。
 
 > [!NOTE]
 > 会议转录在 GCC 中尚不可用。
