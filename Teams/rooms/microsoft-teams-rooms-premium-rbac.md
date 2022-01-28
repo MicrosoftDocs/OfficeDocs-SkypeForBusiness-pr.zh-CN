@@ -14,14 +14,14 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 了解使用托管服务进行基于角色Microsoft Teams 会议室控制。
+description: 了解使用托管服务进行基于Microsoft Teams 会议室访问控制。
 f1keywords: ''
-ms.openlocfilehash: 9b1a3a770c8b56c9d9ed3b589fa13163d955c294
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: c7594a04dbb1a36b60f3105c663cff3934ffd3c1
+ms.sourcegitcommit: 9f1f5cd828c24676c20df727b2c67daf56ff884c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728071"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62248663"
 ---
 # <a name="role-based-access-control-with-the-microsoft-teams-rooms-managed-service"></a>使用托管服务进行基于Microsoft Teams 会议室访问控制
 
@@ -29,14 +29,14 @@ ms.locfileid: "58728071"
 
 若要创建、编辑或分配角色，帐户必须具有以下权限之一：
 
-- 通过 Azure AD Azure Active Directory (全局) 
+- 全局管理员通过 Azure Active Directory (Azure AD) 
 - 通过托管服务门户Microsoft Teams 会议室托管服务管理员
 
 ## <a name="what-is-a-role"></a>什么是角色？
 
 角色定义授予分配给该角色的用户的权限集。 目前，Microsoft Teams 会议室托管服务具有三个内置角色：托管服务管理员、**站点主管** 和 **站点技术**。  它们涵盖了组织中可能参与管理聊天室的用户的一些常见方案。
 
-若要查看角色，请在 Microsoft Teams 会议室 服务门户的左侧导航栏中，转到"角色"，然后选择任一角色以查看角色的属性、权限和分配。  
+若要查看角色，请在 Microsoft Teams 会议室 托管服务门户的左侧导航栏中，转到"角色"，然后选择任一角色以查看角色的属性、权限和分配。   
 
 - **属性**：名称、角色类型和说明
 - **权限**：列出角色有权访问的功能和权限级别。
@@ -74,20 +74,33 @@ ms.locfileid: "58728071"
 |角色管理    |查看         |&#10004;           |         ||
 |    |修改         |&#10004;           |         ||
 
+## <a name="create-a-custom-role"></a>创建自定义角色
+
+如果内置角色不适合组织需求，可以创建角色并配置其权限（如果需要）。 若要创建角色，必须是全局管理员或托管服务管理员。 
+
+1. 在托管服务门户的Microsoft Teams 会议室导航中，**转到"设置**  >  **角色"。**
+2. 选择"**创建角色"。**
+3. 在" **常规设置"** 页上的" **角色属性"** 下，输入此角色的名称。 在 **"说明**"下，输入有关此角色的详细信息。 选择"下 **一步"。**
+4. 在" **权限"** 页上的" **角色** 权限"下，通过选中相应的复选框来选择此角色的权限。 选择 **"下** 一步"，为此角色创建第一个分配。
+5. 在" **作业"** 页面上的" **工作分配属性**"下，输入此作业的名称。 说明是可选的。 在 **"** 通知设置"下，如果此角色的用户应接收来自此分配范围内房间的服务的电子邮件通知，请选中"电子邮件通知"复选框。 选择"下 **一步"。**
+6. 在 **"成员**"页面上的"搜索用户或安全组"框中，输入要授予权限的租户中用户或安全组的名称，然后完成选择。 选择"下 **一步"。** 
+7. 在 **"范围**"页面上的"搜索聊天室或会议室组"框中，键入允许用户管理的聊天室或聊天室组的名称。 选择"下 **一步"。**
+8. 在" **完成** "页上，查看角色和分配的详细信息。 如果对配置感到满意，请选择"**添加新角色"。** 如果要编辑分区，请使用"上一步" **按钮或** 选择左侧导航中的步骤。  
+
 ## <a name="assign-a-role"></a>分配角色
 
-若要分配角色，必须是全局管理员或托管服务管理员。
+若要分配角色，必须是全局管理员或托管服务管理员，或者具有角色管理权限的角色。
 
-1. 在托管服务门户的Microsoft Teams 会议室导航中 **，转到"设置**  >  **角色"。**
+1. 在托管服务门户的Microsoft Teams 会议室导航中，**转到"设置**  >  **角色"。**
 
     :::image type="content" source="../media/microsoft-teams-rooms-premium-roles.png" alt-text="显示角色的访问控制页面的屏幕截图。":::
 
 2. 选择要分配的角色。
 3. 在角色窗格中，选择"分配 **添加**  >  **"。**
 
-    :::image type="content" source="../media/microsoft-teams-rooms-premium-role-assignments.png" alt-text="用于添加角色的添加选项的屏幕截图。":::
+    :::image type="content" source="../media/microsoft-teams-rooms-premium-role-assignments.png" alt-text="用于添加角色的"添加"选项的屏幕截图。":::
 
-4. 在" **常规设置"** 页上的" **工作分配属性**"下，输入此作业的名称。 说明是可选的。 选择"下 **一步"。**
+4. 在" **常规设置"** 页上的" **工作分配属性**"下，输入此作业的名称。 说明是可选的。 在 **"** 通知设置"下，如果此角色的用户应接收来自此分配范围内房间的服务的电子邮件通知，请 **选中**"电子邮件通知"复选框。 选择"下 **一步"。** 
 5. 在 **"成员**"页面上的"搜索用户或安全组"框中，输入要授予权限的租户中用户或安全组的名称，然后完成选择。 选择"下 **一步"。** 
 6. 在 **"范围**"页面上的"搜索聊天室或会议室组"框中，键入允许用户管理的聊天室或聊天室组的名称。 选择"下 **一步"。**
 7. 在" **完成** "页上，查看作业的详细信息。 如果对配置感到满意，请选择"添加 **分配"。** 如果要编辑分区，请使用"上一步" **按钮或** 选择左侧导航中的步骤。  
