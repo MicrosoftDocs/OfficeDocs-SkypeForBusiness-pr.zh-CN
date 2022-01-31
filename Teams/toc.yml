@@ -1405,6 +1405,8 @@ items:
             href: devices/plan-device-deployment.md
           - name: Teams 电话
             href: devices/phones-for-teams.md
+          - name: 设置常见区域电话
+            href: set-up-common-area-phones.md
           - name: Teams 显示
             href: devices/teams-displays.md
           - name: Teams 面板

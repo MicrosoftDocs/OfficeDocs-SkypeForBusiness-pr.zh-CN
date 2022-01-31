@@ -1,9 +1,9 @@
 ---
-title: 设置"公共区域"电话许可证
-ms.author: serdars
-author: SerdarSoysal
+title: 设置公共区域电话许可证
+ms.author: czawideh
+author: cazawideh
 manager: serdars
-ms.date: 12/13/2018
+ms.date: 1/28/2022
 ms.reviewer: kponnus
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -21,44 +21,22 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: '了解如何为大厅、接收区和会议室设置公用区域电话 '
-ms.openlocfilehash: e2d81c047f4bf26d43da4fd8f9fc31c0702c28d8
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: a4e4720fe7baf58d0da6f00800c61b706ec48516
+ms.sourcegitcommit: 909b0a709983d21fa6f2b547a78cc6a1222188df
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60045558"
+ms.lasthandoff: 01/30/2022
+ms.locfileid: "62279260"
 ---
-# <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>为 Microsoft Teams 设置公共区域电话许可证
-> [!NOTE]
-> 公用区域电话不支持语音邮件。
+# <a name="deploy-common-area-phones-for-microsoft-teams"></a>为用户部署常用Microsoft Teams
 
-公用区域电话通常放置在大厅等区域，或者供许多人进行呼叫的另一区域;例如，前台区域、大厅或会议电话。 常用区域电话使用与公用区域服务许可证绑定电话登录。 还必须适当设置 TeamsIPPhone 策略，使手机具有共同的区域用户体验。
+公用区域电话通常放置在大厅等区域，或者供许多人进行呼叫的另一区域;例如，前台区域、大厅或会议电话。 常用区域电话使用与公用区域服务许可证绑定电话登录。
 
-在以下步骤中，我们将帮助你设置一个帐户电话系统为组织部署公用区域电话。 为获得更完整的会议室体验（包括音频会议），请考虑购买具有会议室会议室专用会议许可证。 
+本文概述了如何将手机部署和Teams共享空间的公用区域电话。 为获得更完整的会议室体验（包括音频会议），请考虑购买具有会议室设备的专用会议许可证。
 
-首先，需要购买公共区域电话 (CAP) 许可证，并确保拥有经过认证的电话。 若要搜索并了解有关认证电话的信息，请转到["Microsoft Teams设备"。](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1) 
+## <a name="overview"></a>概述
 
-## <a name="step-1---buy-the-licenses"></a>第 1 步 - 购买许可证
-
-1. 在Microsoft 365 管理中心，转到"**计费**  >  **购买服务**"，然后展开"**其他计划"。**
-
-    ![显示"公共区域"磁贴电话屏幕截图。](media/set-up-common-area-phone-image1.png)
-
-2. 选择 **"公共区域电话**  >  **立即购买"。**
-
-3. 在"结帐"页面上，单击"**立即购买"。**
-
-4. 展开 **附加内容订阅，** 然后单击购买通话套餐。 选择"国内 **呼叫计划"或****"国内和国际呼叫计划"。**
-
-> [!NOTE]
-> 如果使用 Microsoft 电话直接路由，则不需要呼叫计划许可证。
-
-> [!NOTE]
-> 无需添加许可证电话系统许可证。 许可证包含在公共区域电话许可证中。
-
-有关许可证详细信息，请参阅Microsoft Teams[附加许可。](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
-
-Common Area 电话 许可证支持： 
+公共区域电话支持： 
 
 
 | &nbsp;  |  公共区域电话  |
@@ -76,48 +54,119 @@ Common Area 电话 许可证支持：
 
 &sup2;在主权云中不可用  
 
+>[!NOTE]
+> 无法将常用区域中电话Skype for Business Server帐户迁移到 Microsoft Teams。 按照本文中的步骤重新创建这些帐户Teams，并迁移 PTSN 连接（如果需要）。
 
+## <a name="step-1---buy-the-licenses"></a>第 1 步 - 购买许可证
 
-## <a name="step-2---create-a-new-user-account-for-the-phone-and-assign-the-licenses"></a>第 2 步 - 为手机创建一个新的用户帐户并分配许可证
+首先，需要购买公共区域 电话 (CAP) 许可证，并确保拥有经过认证的电话。 若要搜索并了解有关认证电话的信息，请转到Microsoft Teams[设备](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)。
 
-1. 在Microsoft 365 管理中心，转到 **活动**  >  **用户添加**  >  **用户**。
+1. 在Microsoft 365 管理中心，转到 **"计费** > **""购买服务"**。 
+
+2. 如果" **按类别** 查看"部分尚未显示，请转到"从 **Microsoft** 购买"，然后选择" **查看产品"**。 然后选择" **协作和通信"**。  
+
+3. 在产品列表中，找到 **"常用区域"电话** 并选择"详细信息 **"**。
+
+4. 输入所需的许可证数，然后选择"购买 **"**。
+
+>[!NOTE]
+>如果在环境中使用 Intune，并且具有要求设备符合性的条件访问规则，则需要为公共区域电话的设备帐户分配 Azure Active Directory Premium 计划 1 和 Intune 许可证。
+>
+>常见区域电话可能会受到条件访问规则和其他标识配置（如多重身份验证）的影响。 有关详细信息[，请参阅 Teams Android 设备的](devices/authentication-best-practices-for-android-devices.md)身份验证最佳做法。
+
+## <a name="step-2---create-a-new-user-account-and-assign-licenses"></a>步骤 2 - 创建新的用户帐户并分配许可证
+
+### <a name="using-the-microsoft-365-admin-center"></a>使用 Microsoft 365 管理中心
+
+如果要一次部署多个公用区域电话，请了解如何使用 [PowerShell 创建帐户和分配许可证](#using-powershell)。
+
+如果要部署一个设备：
+
+1. 在Microsoft 365 管理中心，转到"**用户****""活动** > 用户 > **""将用户"。**
 
 2. 输入用户名，例如"Main"作为名字，输入"接收"作为第二个名称。
 
-3. 如果显示名称自动生成"主前台"这样的服务，请输入一个密码。
+3. 如果没有自动生成显示名称如"主前台"，请输入一个密码。
 
 4. 输入用户名，例如"MainReception"或"Mainlobby"。
 
-5. 对于公用区域电话，你可能希望手动设置密码，或者拥有所有公用区域电话的相同密码。 此外，还可以考虑清除" **让此用户在首次登录时更改** 其密码"复选框。
+5. 手动设置常用区域电话的密码以防止。 为此，请取消选中 **"自动创建** 密码"，并要求此用户在首次登录 **时更改其密码**。  
 
-6. 将许可证分配给用户。 在同一页面上，点击展开 **产品许可证**。 打开"公用区域"电话选择国内 **呼叫计划或****国内和国际呼叫计划**。 
+    >[!Important]
+    > 强烈建议为常用区域电话手动设置密码，以防止最终用户出现登录问题。
 
-    ![显示许可证分配的屏幕截图，其中突出显示了国内呼叫计划以及国内和国际计划选项。](media/set-up-common-area-phone-image2.png)
+6. 选择设备的使用位置，并将"公用区域"电话许可证分配给帐户。 如果需要任何其他许可证（如呼叫计划），请分配它们。
 
-> [!NOTE]
-> 如果使用 Microsoft 电话直接路由，则无需分配呼叫计划许可证。
+>[!NOTE]
+> 无需添加许可证电话系统许可证。 许可证包含在公共区域电话许可证中。
+>
+>如果不使用系统直接Microsoft 电话或运营商连接，可能需要添加呼叫计划许可证。 有关许可证详细信息，请参阅Microsoft Teams[附加许可](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
 
-有关详细信息，请参阅 [向用户分配许可证](/microsoft-365/admin/manage/assign-licenses-to-users)。
+### <a name="using-powershell"></a>使用 PowerShell
 
-## <a name="step-3---assign-a-phone-number-to-the-common-area-phone-user-account"></a>第 3 步 - 将电话号码分配给公共区域电话用户帐户
+若要同时为多个用户帐户创建和分配许可证，请使用 PowerShell。 有关详细信息[，Microsoft 365 PowerShell](/microsoft-365/enterprise/create-user-accounts-with-microsoft-365-powershell?view=o365-worldwide) 创建用户帐户和Microsoft 365向[用户帐户](/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell?view=o365-worldwide)分配许可证。
 
-使用Teams管理中心向用户分配号码。
+## <a name="step-3---set-policies-for-common-area-phones"></a>步骤 3 - 设置常用区域电话的策略
 
-1. 在"Teams管理中心"中，选择 **"语音**  >  **电话号码"。**
+使用策略来控制公用区域电话上哪些功能可供用户使用。
 
-3. 从电话号码列表中选择一个号码，然后点击 **分配**。
+>[!NOTE]
+>分配策略后，注销手机并重新登录。 策略分配最多可能需要一小时才生效。
 
-4. 在 **"分配** "页面上的"语音用户"框中，键入将使用该电话的用户名，然后在"选择语音用户" **下拉列表中选择该用户** 。
+### <a name="ip-phone-policies"></a>IP 电话策略
 
-5. 接下来，需要添加紧急地址。 从 **下拉列表中选择**"按城市搜索、按说明搜索"或"按位置搜索"，然后在文本框中输入城市、说明或位置。 搜索后，在" **选择紧急地址"** 下查找，选择适当的地址。
+使用已分配"公用区域"电话登录的电话将显示公共区域用户体验。
 
-6. 点击 **保存**，你的用户将显示如下：
+如果要替代电话的默认接口，请考虑创建 [IP 电话策略](/powershell/module/skype/new-csteamsipphonepolicy?view=skype-ps)。 例如，如果在公共区域中使用公用区域电话，请设置 IP 电话策略以限制搜索组织的全局通讯簿并阻止热桌面。 有关详细信息[，Teams设置 Android](devices/Teams-Android-devices-user-interface.md) 设备用户界面。
 
-   ![屏幕截图显示示例用户许可证分配。](media/set-up-common-area-phone-image3.png)
+### <a name="calling-policies"></a>通话策略
 
-> [!NOTE]
-> 用户只有在应用了许可证后电话系统显示。 如果你刚执行了该操作，用户可能需要经过一段时间才能在列表中显示。
+使用呼叫策略在公用区域电话上启用私人呼叫、使用呼叫转发或同时拨打。 有关详细信息[，请参阅](teams-calling-policy.md)在 Teams 呼叫和呼叫转发。
 
-有关详细信息，请参阅 [获取用户的电话号码](getting-phone-numbers-for-your-users.md)。
+默认情况下，不为公用区域电话启用呼叫停放。 需要创建一个策略来启用它。 有关详细信息[，请参阅呼叫Microsoft Teams](call-park-and-retrieve.md)中检索。
 
-您也可以将您拥有的电话号码与另一家运营商联系并"转Microsoft 365或Office 365。 请参阅[将电话号码转移到 Teams。](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)
+## <a name="step-4---acquire-and-assign-phone-numbers"></a>步骤 4 - 获取和分配电话号码
+
+请参阅 [管理组织的电话号码](manage-phone-numbers-landing-page.md) ，了解如何根据 PSTN 连接选项获取和分配电话号码。
+
+## <a name="step-5---sign-in"></a>步骤 5 - 登录
+
+创建和配置用户帐户后，可以登录到手机。 根据要部署的电话，有三个登录选项：
+
+- [本地登录](#local-sign-in)
+- [从另一台设备登录](#sign-in-from-another-device)
+- [使用 Teams 管理中心登录](#sign-in-using-the-teams-admin-center)
+
+### <a name="local-sign-in"></a>本地登录
+
+若要使用用户名和密码在本地登录，请： 
+
+1. 打开公用区电话
+
+2. 选择 **"在此设备上登录"**
+
+3. 按照设备的登录说明操作。 登录后，手机会显示常见的区域电话用户体验。
+
+### <a name="sign-in-from-another-device"></a>从另一台设备登录
+
+您也可以使用代码从另一台设备登录到公用区域电话。 这样登录时，你将在另一台设备上输入用户名和密码，而不是在手机本身上输入。
+
+1. 首先，在常用区域电话上，查找登录屏幕上显示的代码。
+
+2. 在另一台设备上，转到 https://www.microsoft.com/devicelogin。
+
+3. 输入代码，然后按照说明完成登录。
+
+### <a name="sign-in-using-the-teams-admin-center"></a>使用 Teams 管理中心登录
+
+作为管理员，可以从管理中心远程预配和登录到Teams电话。 这是一次部署大量电话时最有效的登录方法。 有关详细信息[，请参阅远程预配Teams Android 设备的](devices/remote-provision-remote-login.md)登录。
+
+## <a name="next-steps"></a>后续步骤
+
+为组织设置并登录公用区域电话后，可以在管理中心内Teams电话。 请参阅[Microsoft Teams：管理设备](devices/device-management.md)以了解更多信息。
+
+## <a name="related-topics"></a>相关主题
+
+- [远程Microsoft Teams更新设备](devices/remote-update.md)
+- [管理Microsoft Teams标记](devices/manage-device-tags.md)
+- [Microsoft Teams设备运行状况监视](alerts/device-health-status.md)

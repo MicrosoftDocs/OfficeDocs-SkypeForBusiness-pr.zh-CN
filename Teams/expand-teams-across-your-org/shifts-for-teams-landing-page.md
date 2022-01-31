@@ -1,6 +1,6 @@
 ---
 title: Teams 中的排班
-description: 获取设置和管理日程安排管理工具 Shifts 所需的管理员指导，Teams。
+description: 获取设置和管理班次（日程安排管理工具）所需的管理员Teams。
 ms.topic: conceptual
 author: LanaChin
 ms.author: v-lanachin
@@ -20,12 +20,12 @@ searchScope:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 6b2dbd5e48793422d8cbbf2252296e6bc17788a3
-ms.sourcegitcommit: 46375d36a879dd318e749df10bee75c6aa416bbc
+ms.openlocfilehash: 905e846537e40178eba55f1a4ccd9a0d1fd1f993
+ms.sourcegitcommit: 909b0a709983d21fa6f2b547a78cc6a1222188df
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/22/2021
-ms.locfileid: "61592136"
+ms.lasthandoff: 01/30/2022
+ms.locfileid: "62279179"
 ---
 # <a name="shifts-for-teams"></a>Teams 中的排班
 
@@ -39,16 +39,26 @@ ms.locfileid: "61592136"
 
 ## <a name="set-up-and-manage-shifts"></a>设置和管理班次
 
-|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
-| ------------- | ------------- | ------------- | ------------- |
-|<img src="/office/media/icons/calendar-teams.png" alt="Calendar symbol."> | **[管理组织中班次](shifts/manage-the-shifts-app-for-your-organization-in-teams.md)** |<img src="/office/media/icons/users-people.png" alt="Users/people symbol.">  |**[管理班次管理的计划所有者](shifts/schedule-owner-for-shift-management.md)**|
+|&nbsp;  |&nbsp; |
+|---------|---------|
+|<img src="/office/media/icons/calendar-teams.png" alt="Calendar symbol.">|**[管理组织中班次](shifts/manage-the-shifts-app-for-your-organization-in-teams.md)** 了解如何为组织管理班次。 |
+|<img src="/office/media/icons/users-people.png" alt="Users/people symbol.">|**[管理班次管理的计划所有者](shifts/schedule-owner-for-shift-management.md)** 使用此功能，你可以将团队成员的权限提升为计划所有者，而无需将员工提升为团队所有者。 |
+
+## <a name="shifts-connectors"></a>Shifts 连接线
+
+如果使用第三方员工管理 (WFM) 系统进行计划，则可以通过托管的 Shifts 连接器和 Shifts Graph API 和 SDK 与开源 Shifts 连接器直接集成。 设置连接后，一线员工可以从 Shifts 中无缝查看和管理 WFM 系统中日程安排。
+
+|&nbsp;  |&nbsp;  |
+|---------|---------|
+|<img src="/office/media/icons/connector-teams.png" alt="Connector symbol.">     | **[Shifts 连接器概述](shifts/shifts-connectors.md)** 大致了解 Shifts 连接器及其工作方式。 了解可用的托管连接器和开源连接器以及支持的 WFM 系统。   |
+|<img src="/office/media/icons/connector-teams.png" alt="Connector symbol.">     | **[托管 Shifts 连接器](shifts/shifts-connectors.md#managed-shifts-connectors)** 与合作伙伴协作开发的托管 Shifts 连接器由我们或合作伙伴托管和管理。 如果使用反身符 WFM 系统，请参阅[适用于 Microsoft Teams的反身符 Shifts](shifts/shifts-connectors.md#reflexis-shifts-connector-for-microsoft-teams) 连接器以了解有关详细信息。    |
+|<img src="/office/media/icons/api.png" alt="Three gears - API.">    | **[开源 Shifts 连接器](/microsoftteams/platform/samples/shifts-wfm-connectors)** 了解如何使用社区 [驱动的](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors)开源连接器通过 Shifts Graph API 和 SDK 集成 Kronos 或 JDA WFM 系统。    |
 
 ## <a name="shifts-extensions"></a>班次扩展
 
 |&nbsp;|&nbsp;|
 | ------------- | ------------- |
-| <img src="/office/media/icons/api.png" alt="Three gears - API."> | **[Shift Graph API](/graph/api/resources/shift)** Shifts Graph API 允许你将 Shifts 数据与外部员工管理系统集成。 你可以灵活地在后端生成自定义 Shifts 体验，同时为用户提供丰富的前端体验，Teams。             |
-| <img src="/office/media/icons/api.png" alt="Three gears - API.">| **[员工管理集成](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors)** 如果使用第三方员工管理系统（例如 Kronos 和 JDA）进行日程安排、时间和出席，则可以通过 Shifts Graph API 和 SDK 与开源集成直接集成 Shifts。 |
+| <img src="/office/media/icons/api.png" alt="Three gears - API."> | **[Shift Graph API](/graph/api/resources/shift)** Shifts Graph API 允许你将 Shifts 数据与 WFM (外部员工) 集成。 你可以灵活地在后端生成自定义 Shifts 体验，同时为用户提供丰富的前端体验，Teams。             |
 |<img src="/office/media/icons/process-flow-teams.png" alt="Process/flow chart symbol."> | **[Shifts + Power Automate](https://github.com/OfficeDev/Microsoft-Teams-Shifts-Power-Automate-Templates)** Shifts + Power Automate允许你从 Shifts 获取信息，并与其他应用创建自定义工作流以及大规模操作。 使用很少的代码或无代码自动执行关键过程。 触发器和模板支持各种方案，例如，在不需要经理批准时为轮班请求启用自动审批。 |
 
 ## <a name="featured-training"></a>特色培训

@@ -1,5 +1,5 @@
 ---
-title: 适用于小型企业的 Teams Essentials 快速入门指南
+title: 适用于小型企业的 Microsoft Teams Essentials 快速入门指南
 author: adeejoseph
 ms.author: adjoseph
 manager: serdars
@@ -16,14 +16,14 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b8ec92d734a62b0bfe7416a0aa83f46151ca95ab
-ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
+ms.openlocfilehash: a779d094e7a1f266a19aaecf6bbb86732f75f66b
+ms.sourcegitcommit: 909b0a709983d21fa6f2b547a78cc6a1222188df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "61306427"
+ms.lasthandoff: 01/30/2022
+ms.locfileid: "62279370"
 ---
-# <a name="teams-essentials-quickstart-guide-for-small-businesses"></a>适用于小型企业的 Teams Essentials 快速入门指南
+# <a name="microsoft-teams-essentials-quickstart-guide-for-small-businesses"></a>适用于小型企业的 Microsoft Teams Essentials 快速入门指南
 
 Microsoft Teams Essentials 是一个独立的 Teams 订阅，它为小型企业提供包括会议、聊天和协作在内的一体式解决方案。 随着企业适应对远程工作和虚拟连接日益增多的需求，你可能正在寻找一种与员工、合作伙伴、供应商和客户安全协作的方法。 无论你是多城市面包店还是九人活动机构，Microsoft Teams Essentials 都可以通过一种互联体验将你的业务整合在一起。
 
@@ -31,11 +31,11 @@ Microsoft Teams Essentials 是一个独立的 Teams 订阅，它为小型企业�
 
 Microsoft Teams Essentials 可通过 Microsoft 的直接网站和选择 Microsoft 云合作伙伴购买。 通过直接和合作伙伴的订阅在某些方面有所不同，因为它们使用不同的标识系统。 访问本文后面的表格了解更多相关详细信息，请转到此处: [Microsoft Teams Essentials 计划](#how-does-microsoft-teams-essentials-compare-to-other-microsoft-teams-plans)
 
-通过 Microsoft 直接网站购买的订阅使用 Microsoft 帐户标识，使你可以使用现有电子邮件地址 (如 MeganB@outlook.com、MeganB@gmail.com 或 MeganB@ContosoLandscaping.com) 进行注册。
+通过 Microsoft 直接网站购买的订阅使用 Microsoft 帐户标识，使你可以使用现有电子邮件地址（如 TomislavK@outlook.com、TomislavK@gmail.com 或 TomislavK@ContosoLandscaping.com） 注册。
 
 或者，通过选择的 Microsoft 认证合作伙伴购买的 Teams Essentials 使用 Azure Active Directory (AAD)，要求你创建新的登录名/标识。 合作伙伴可以将 Teams Essentials 配置为连接到现有电子邮件地址，以便你可以使用现有电子邮件地址登录。  
 
-## <a name="what-teams-essentials-subscription-do-i-have"></a>我有哪些 Teams Essentials 订阅?  
+## <a name="what-microsoft-teams-essentials-subscription-do-i-have"></a>我有哪些 Microsoft Teams Essentials 订阅?  
 
 如果通过 Microsoft 网站 (直接) 购买了 Teams Essentials，则拥有 **Microsoft Teams Essentials**。
 
@@ -93,7 +93,7 @@ Microsoft Teams Essentials 可通过 Microsoft 的直接网站和选择 Microsof
 
 <sup>1</sup> 使用以下配置提供与 Google Calendar 和其他第三方日历的连接: [Microsoft Teams Essentials (AAD 标识) 配置指南](connect-teams-essentials-to-email.md)
 
-<sup>2</sup> Teams Essentials (AAD 标识) 通过合作伙伴包括 2GB Exchange 邮箱和无存档，允许用户与第三方电子邮件提供商同步。
+<sup>2</sup> 通过合作伙伴购买的 Teams Essentials (AAD 标识) 包括 2GB Exchange 邮箱，并且没有存档，允许用户与第三方电子邮件提供商同步。
 
 
 > [!IMPORTANT] 
@@ -103,7 +103,7 @@ Microsoft Teams Essentials 可通过 Microsoft 的直接网站和选择 Microsof
 
 下面是作为管理员要考虑的一些重要的 Teams Essentials 限制和规范:
 
-  - **管理:** Teams Essentials 订阅 **不** 包括对 Teams 管理中心的访问。 Teams Essentials 用户可以享受 Microsoft 365 管理中心的简化视图，以执行重要任务，例如管理订阅和配置新用户。
+  - **管理:** Teams Essentials 订阅 **不** 包括对 Teams 管理中心的访问。 Teams Essentials 用户可以享受 Microsoft 365 管理中心的简化视图以执行重要任务，例如管理订阅和配置新用户。
 
   - **Microsoft Teams PowerShell:** 由于没有 PowerShell 支持，你 **不能** 直接使用 PowerShell 命令行管理 Teams Essentials。
 
@@ -131,7 +131,7 @@ Microsoft Teams Essentials 可通过 Microsoft 的直接网站和选择 Microsof
 
 3. **采用的计划。** 对于小型企业来说，规划用户采用可以非常简单，就像单独向用户展示如何使用 Teams 一样简单。 通常情况下，小型企业客户通常不考虑新应用程序的此步骤，这会对应用程序的成功和采用产生负面影响。
 
-3.  **管理团队要点。** 与 Microsoft Teams 的免费版本类似，你作为组织中第一个注册 Teams Essentials 的人员具有有限的管理员角色。 你可以添加和删除团队成员，并指定是否有人可以邀请具有此角色的其他成员，但你将没有高级管理功能或访问 Microsoft Teams 管理中心的权限。
+3.  **管理 Microsoft Teams Essentials。** 与 Microsoft Teams 的免费版本类似，你作为组织中第一个注册 Teams Essentials 的人员具有有限的管理员角色。 你可以添加和删除团队成员，并指定是否有人可以邀请具有此角色的其他成员，但你将没有高级管理功能或访问 Microsoft Teams 管理中心的权限。
 
 ## <a name="upgrade-from-a-free-version-of-microsoft-teams-to-microsoft-teams-essentials"></a>从免费版本的 Microsoft Teams 升级到 Microsoft Teams Essentials
 
@@ -161,7 +161,7 @@ Microsoft Teams Essentials 可通过 Microsoft 的直接网站和选择 Microsof
 
 #### <a name="how-do-i-upgrade-my-organization"></a>如何实现升级我的组织?
 
-若要升级到 Teams 的 Microsoft Teams Essentials 版本，请选择 **…** 在顶部导航菜单中。 接下来，选择显示的下拉菜单底部的 **升级**  按钮。   :::image type="content" source="media/teams-free-upgrade-essentials.png" alt-text="显示升级按钮的屏幕截图"::: 
+若要升级到 Teams 的 Microsoft Teams Essentials 版本，请选择 **…** 在顶部导航菜单中。 接下来，在出现的下拉菜单底部选择 **升级**  按钮。   :::image type="content" source="media/teams-free-upgrade-essentials.png" alt-text="显示升级按钮的屏幕截图"::: 
 
 在 Teams 中选择 **升级** 按钮后，你将定向到此处: [适用于小型企业的 Microsoft Teams](https://www.microsoft.com/microsoft-teams/upgrade-teams)
 
@@ -172,7 +172,7 @@ Microsoft Teams Essentials 可通过 Microsoft 的直接网站和选择 Microsof
 
 不能。 具有 AAD 标识的 Teams Essentials 仅通过选择的 Microsoft 云合作伙伴提供。 如果你对与合作伙伴合作感兴趣，请访问 [查找 Microsoft 合作伙伴云解决方案提供商](https://partner.microsoft.com/membership/cloud-solution-provider/find-a-provider)。
 
-### <a name="can-i-use-an-existing-email-system-with-teams-essentials"></a>是否可以将现有电子邮件系统与 Teams Essentials 配合使用?  
+### <a name="can-i-use-an-existing-email-system-with-microsoft-teams-essentials"></a>能否将现有电子邮件系统与 Microsoft Teams Essentials 配合使用？  
 
 是。 可以保留现有电子邮件系统，并利用 Teams Essentials 进行会议、聊天和协作。  
 
