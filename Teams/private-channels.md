@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 了解如何在 Microsoft Teams 中使用和管理私人频道。
-ms.openlocfilehash: 1f86ceba18a234d7b3a1f41ebdbfe58c777beedf
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 8d041d0fa8a182cb3cebf485c9cef92f880a99e5
+ms.sourcegitcommit: d3c48f0c147cf0c47d5eb4ea1128b5bca13be718
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536553"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "62299007"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft Teams 中的私人频道
 
@@ -97,7 +97,7 @@ Microsoft Teams 中的私人频道创建专用空间供团队展开协作。 仅
 
 专用频道网站同步数据分类，并继承父团队网站的来宾访问权限。 网站集所有者和成员组的成员资格将与 Teams 中私人频道的成员资格保持同步。 无法通过 SharePoint 独立管理专用频道网站的网站权限。 
 
-团队管理专用频道网站的生命周期。 如果在 Teams 外部删除了网站集，则只要私人频道仍处于活动状态，后台作业将在四个小时内还原该网站。 如果永久删除该网站，为专用频道预配了新网站。
+团队管理专用频道网站的生命周期。 如果在 Teams 外部删除了网站集，则只要私人频道仍处于活动状态，后台作业将在四个小时内还原该网站。
 
 如果还原了含有专用频道的专用频道或团队，网站将随其一起还原。 如果已还原私人频道网站集，并且超出了私人频道的 30 天软删除时间段，则该网站集将作为独立网站集运行。
 

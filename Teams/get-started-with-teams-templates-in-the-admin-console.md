@@ -11,19 +11,19 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: 了解团队模板以及如何在管理中心内Microsoft Teams模板。
+description: 了解团队模板以及如何在管理中心内管理Microsoft Teams模板。
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a22ced459a9e014b92a7141a224ea20d5f7022d2
-ms.sourcegitcommit: 813f1e44bd094bd997dd7423cda7e685ff61498f
+ms.openlocfilehash: dd07e375a35ea212bccd988395b5c1adbd721011
+ms.sourcegitcommit: d3c48f0c147cf0c47d5eb4ea1128b5bca13be718
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2021
-ms.locfileid: "60633508"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "62299047"
 ---
 # <a name="get-started-with-team-templates-in-the-teams-admin-center"></a>在管理中心内开始使用 Teams 模板
 
@@ -41,7 +41,7 @@ Microsoft Teams模板是围绕业务需求或项目设计的团队结构的定�
 本文概述了在管理中心内使用Teams模板。 你将了解模板支持的属性、我们提供的预建模板、模板大小限制、如何创建和管理模板等。
 
 > [!NOTE]
-> 用户可以从[应用内预建或自定义团队](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c)模板创建Teams团队。 开发人员还可使用 Microsoft Graph 通过预建的团队模板以编程方式创建Graph。 有关详细信息，请参阅开始使用 Microsoft Graph[的团队模板](get-started-with-teams-templates.md)。
+> 用户可以从[应用内](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c)预建或自定义团队模板创建Teams团队。 开发人员还可使用 Microsoft Graph 通过预建的团队模板以编程方式创建Graph。 若要了解有关详细信息，请参阅[开始使用 Microsoft Graph 团队Graph](get-started-with-teams-templates.md)。
 
 ## <a name="team-template-capabilities"></a>团队模板功能
 
@@ -61,9 +61,9 @@ Microsoft Teams模板是围绕业务需求或项目设计的团队结构的定�
 > [!NOTE]
 > 我们将在将来的 Microsoft Teams 版本中添加更多模板功能，因此请返回查看有关受支持属性的最新版本信息。
 
-## <a name="pre-built-team-templates-in-the-teams-admin-center"></a>管理中心内预建Teams模板
+## <a name="pre-built-team-templates-in-the-teams-admin-center"></a>在管理中心内预构建Teams模板
 
-以下是可在管理中心内Teams模板。 预构建模板是我们为特定行业创建的模板。 若要查看这些模板，在管理中心左侧导航Teams，转到"Teams  >  **模板"。**
+以下是可在管理中心内Teams模板。 预构建模板是我们为特定行业创建的模板。 若要查看这些模板，在管理中心左侧导航Teams，转到 > "Teams **模板"**。
 
 可以复制预构建的模板，但不能编辑它们。 如果要更改预构建模板中的属性，可以从现有模板创建新模板，然后添加或删除需要的属性。 请记住，某些模板中的某些属性无法更改。
 
@@ -82,11 +82,8 @@ Microsoft Teams模板是围绕业务需求或项目设计的团队结构的定�
 |组织商店| `com.microsoft.teams.template.retailStore` |频道： <ul><li>常规<li>换班</li><li>应用商店准备就绪</li><li>学习</li></ul> 应用： <ul><li>Wiki</li><li>任务</li><li>排班</li><li>检查</li></ul>|
 |适用于经理的零售| `com.microsoft.teams.template.retailManagerCollaboration` |频道： <ul><li>常规<li>运营</li><li>学习</li></ul> 应用： <ul><li>Wiki</li><li>任务</li><li>检查</li></ul>|
 |质量和安全 |`com.microsoft.teams.template.QualitySafety`|频道： <ul><li>常规<li>公告</li><li>领导</li><li>维护</li><li>生产线 1</li><li>生产线 2</li><li>生产线 3</li><li>运行状况和安全性</li><li>培训</li><li>有趣的内容</li></ul> 应用： <ul><li>Wiki</li><li>任务</li> <li>问题发布者</li> <li>检查</li> </ul>|
-|管理自愿者| `com.microsoft.teams.template.ManageVolunteers` |频道： <ul><li>常规<li>公告</li><li>报告</li><li>自愿者管理</li><li>参与机会</li><li>自愿加入</li></ul> 应用： <ul><li>网站</li><li>YouTube</li><li>Power BI</li><li>Power Apps</li><li>任务</li><li>SharePoint</li><li>OneNote</li></ul>|
+|管理志愿者| `com.microsoft.teams.template.ManageVolunteers` |频道： <ul><li>常规<li>公告</li><li>报告</li><li>志愿者管理</li><li>参与机会</li><li>志愿者登录</li></ul> 应用： <ul><li>网站</li><li>YouTube</li><li>Power BI</li><li>Power Apps</li><li>任务</li><li>SharePoint</li><li>OneNote</li></ul>|
 ||||
-
-&sup1;将应用作为选项卡添加到频道中。
-
 
 ### <a name="team-templates-by-category-and-industry"></a>按类别和行业分类的团队模板
 
@@ -114,7 +111,7 @@ Microsoft Teams模板是围绕业务需求或项目设计的团队结构的定�
 |每个模板的应用数 | 50|
 |||
 
-有关详细信息，请参阅 Teams[的限制和Teams。](limits-specifications-teams.md)
+有关详细信息，请参阅限制[和规范Teams](limits-specifications-teams.md)。
 
 ## <a name="manage-team-templates"></a>管理团队模板
 
@@ -122,7 +119,7 @@ Microsoft Teams模板是围绕业务需求或项目设计的团队结构的定�
 
 #### <a name="view-team-templates"></a>查看团队模板
 
-若要查看团队模板，在管理中心左侧导航Teams，转到"Teams  >  **模板"。** 选择一个模板以查看更多详细信息，包括它包含的通道和应用。
+若要查看团队模板，在管理中心左侧导航Teams，转到 > "Teams **模板"**。 选择一个模板以查看更多详细信息，包括它包含的通道和应用。
 
 #### <a name="create-your-own-team-templates"></a>创建自己的团队模板
 
@@ -134,7 +131,7 @@ Microsoft Teams模板是围绕业务需求或项目设计的团队结构的定�
 
 #### <a name="apply-team-template-policies"></a>应用团队模板策略
 
-若要控制用户在创建团队时Teams模板，可以设置模板策略并将其[](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)分配给组织的用户和组。 若要了解有关详细信息，请参阅管理中心 中的[Teams模板](templates-policies.md)。
+若要控制用户在创建团队时[Teams模板，](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)可以设置模板策略并将其分配给组织的用户和组。 有关详细信息，请参阅管理[中心中的管理团队Teams模板](templates-policies.md)。
 
 ### <a name="manage-team-templates-using-powershell"></a>使用 PowerShell 管理团队模板
 
