@@ -11,6 +11,7 @@ search.appverid: MET150
 searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
+- Microsoft Cloud for Retail
 description: 了解如何在应用程序中为组织的一线Teams设置和管理 Shifts 应用。
 f1.keywords:
 - NOCSH
@@ -19,15 +20,16 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
 - microsoftcloud-healthcare
+- microsoftcloud-retail
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ec708d310ea72ac56b5f6ad6bb65a4ab436915f6
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+ms.openlocfilehash: fa274c8aa068d7b17ce35d17525b58152677de07
+ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62192373"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "62288370"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中为组织管理“班次”应用
 
@@ -58,11 +60,11 @@ Teams 可用的所有企业 SKU 中均提供“班次”。
 默认情况下，将为你组织中的所有 Teams 用户启用“班次”。 你可以在 Microsoft Teams 管理中心的[管理应用](../../manage-apps.md)页面在组织级别关闭或打开此应用。
 
 1. 在 Microsoft Teams 管理中心的左侧导航中，转到“**Teams 应用**” > “**管理应用**”。
-2. 在应用列表中，搜索"Shifts"应用，将其选中，然后将"状态"切换为 **"已阻止**"或"允许 **"。**
+2. 在应用列表中，搜索"Shifts"应用，将其选中，然后将"状态"切换为 **"已阻止**"或"允许 **"**。
 
 ### <a name="enable-or-disable-shifts-for-specific-users-in-your-organization"></a>为你的组织中的特定用户启用或禁用“班次”
 
-若要允许或阻止组织中特定用户使用 Shifts，请确保在"管理应用"页面上为组织启用[Shifts。](../../manage-apps.md) 然后创建自定义应用权限策略并将其分配给这些用户。 要了解详细信息，请参阅[在 Teams 中管理应用权限策略](../../teams-app-permission-policies.md)。
+若要允许或阻止组织中特定用户使用 Shifts，请确保在"管理应用"页面上为组织启用 [Shifts](../../manage-apps.md) 。 然后创建自定义应用权限策略并将其分配给这些用户。 要了解详细信息，请参阅[在 Teams 中管理应用权限策略](../../teams-app-permission-policies.md)。
 
 ### <a name="use-an-app-setup-policy-to-pin-shifts-to-teams"></a>使用应用设置策略将 Shifts 固定到Teams
 
@@ -70,7 +72,7 @@ Teams 可用的所有企业 SKU 中均提供“班次”。
 
 可以通过添加 Shifts [应用创建自定义](../../teams-app-setup-policies.md) 应用设置策略，然后将 [该策略分配给](../../assign-policies-users-and-groups.md) 用户。 或者，可以使用属于"前端辅助角色"和"前端管理器"策略包的应用设置策略。
 
-Teams[策略](../../manage-policy-packages.md)包是预定义的策略和策略设置的集合，可以分配给组织中具有类似角色的用户。 前端辅助角色和前端管理器策略包中的策略集包括一个应用设置策略，该策略固定 Shifts 应用和支持该角色的通信和协作活动的其他应用。
+Teams[中的](../../manage-policy-packages.md)策略包是预定义的策略和策略设置的集合，可以分配给组织中具有类似角色的用户。 前端辅助角色和前端管理器策略包中的策略集包括一个应用设置策略，该策略固定 Shifts 应用和支持该角色的通信和协作活动的其他应用。
 
 我们建议使用一线辅助角色和前端管理器策略包，因为它们可简化、简化，并帮助在管理一线员工的策略时提供一致性。
 

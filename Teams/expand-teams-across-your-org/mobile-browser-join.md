@@ -1,5 +1,5 @@
 ---
-title: 管理在移动浏览器中Teams虚拟访问的加入体验
+title: 管理移动浏览器上Teams虚拟访问的加入体验
 author: lanachin
 ms.author: v-lanachin
 manager: samanro
@@ -10,25 +10,27 @@ search.appverid: ''
 searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
+- Microsoft Cloud for Retail
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.collection:
 - microsoftcloud-healthcare
+- microsoftcloud-retail
 - m365solution-healthcare
 - m365solution-scenario
 ms.reviewer: hafarmer
 description: 了解在移动浏览器中Teams虚拟访问的加入体验。
-ms.openlocfilehash: f8307902d7689cf56f10f3705ca3d5611a0f3d11
-ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
+ms.openlocfilehash: 5c4b0f7ac9011d12d12e3076f900880292e72eb1
+ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "60960111"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "62288560"
 ---
-# <a name="manage-the-join-experience-for-teams-virtual-visits-on-mobile-browsers"></a>管理在移动浏览器中Teams虚拟访问的加入体验
+# <a name="manage-the-join-experience-for-teams-virtual-visits-on-mobile-browsers"></a>管理移动浏览器上Teams虚拟访问的加入体验
 
-Microsoft Teams用户无需下载约会，即可轻松地在移动设备上加入Teams。 为获得更无缝的体验，与会者可以从移动浏览器加入约会，例如医疗保健访问、财务咨询、教师办公时间等。 与会者无需在 Android Teams iOS 移动设备上安装该应用。
+Microsoft Teams，用户无需下载约会即可在移动设备上加入Teams。 为获得更无缝的体验，与会者可以从移动浏览器加入约会，例如医疗保健访问、财务咨询、教师办公时间等。 与会者无需在 Android Teams iOS 移动设备上安装该应用。
 
 使用移动浏览器加入时，当与会者从移动设备加入约会时，系统不会提示他们下载Teams。 相反，Teams在移动浏览器中打开，与会者可以在其中选择"立即 **加入**"以加入。 使用此功能时，请记住，如果Teams安装在与会者的移动设备上，Teams浏览器中打开，而不是在应用中打开。
 
@@ -50,15 +52,15 @@ Microsoft Teams用户无需下载约会，即可轻松地在移动设备上加�
 
 #### <a name="turn-on-mobile-browser-join-for-an-appointment-type"></a>为约会类型启用移动浏览器加入
 
-在 Bookings 中，设置"约会类型"，选择约会类型，然后打开"允许与会者从  >  **移动浏览器加入"。** [](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887) 这样做可让移动浏览器加入此类型的所有约会。
+在 Bookings 中 > ，设置选择约会类型，然后打开"允许与会者从 [](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887)移动 **浏览器加入"**。 这样做可让移动浏览器加入此类型的所有约会。
 
-:::image type="content" source="../media/mobile-browser-join-bookings-appointment-type.png" alt-text="Bookings 应用中约会类型的允许与会者从移动浏览器加入设置的屏幕截图":::
+:::image type="content" source="../media/mobile-browser-join-bookings-appointment-type.png" alt-text="Bookings 应用中约会类型的"允许与会者从移动浏览器加入"设置的屏幕截图":::
 
 #### <a name="turn-on-mobile-browser-join-for-an-individual-appointment"></a>为单个约会启用移动浏览器加入
 
-在 Bookings 中，选择"新建 **预订**"，然后打开"允许与会者 **从移动浏览器加入"。**
+在 Bookings **中，选择**"新建预订"，然后打开"允许与会者 **从移动浏览器加入"**。
 
-:::image type="content" source="../media/mobile-browser-join-bookings-form.png" alt-text="Bookings 应用中新预订表单上的允许与会者从移动浏览器加入设置的屏幕截图":::
+:::image type="content" source="../media/mobile-browser-join-bookings-form.png" alt-text="Bookings 应用中新预订表单上的"允许与会者从移动浏览器加入"设置的屏幕截图":::
 
 ### <a name="appointments-scheduled-through-the-teams-ehr-connector"></a>通过 EHR 连接器Teams约会
 
@@ -66,7 +68,7 @@ Microsoft Teams用户无需下载约会，即可轻松地在移动设备上加�
 
 **与 Cerner EHR** 集成：Teams EHR 连接器支持患者通过移动设备加入虚拟访问。 预约时，患者可以通过点击短信中的链接加入虚拟访问。 患者选择他们想要的浏览器，Teams浏览器中打开。
 
-**与长篇 EHR** 集成：Teams EHR 连接器支持患者通过 MyChart Web 和移动设备加入虚拟访问。 预约时，患者可以使用"开始虚拟访问"按钮从 MyChart 开始 **虚拟** 访问。 患者选择他们想要的浏览器，Teams浏览器中打开。
+**与 Epic EHR** 集成：Teams EHR 连接器支持患者通过 MyChart Web 和移动设备加入虚拟访问。 预约时，患者可以使用"开始虚拟访问"按钮从 MyChart 开始 **虚拟** 访问。 患者选择他们想要的浏览器，Teams浏览器中打开。
 
 ## <a name="supported-mobile-browsers"></a>支持的移动浏览器
 
@@ -84,10 +86,10 @@ Microsoft Teams用户无需下载约会，即可轻松地在移动设备上加�
 
 ## <a name="things-to-consider"></a>要考虑的问题
 
-执行虚拟访问的职员可以从桌面、移动Teams客户端与从移动浏览器加入的与会者共享其屏幕。 但是，与会者无法从移动浏览器共享其屏幕。
+执行虚拟访问的员工可以从桌面、移动Teams客户端与从移动浏览器加入的与会者共享其屏幕。 但是，与会者无法从移动浏览器共享其屏幕。
 
 > [!NOTE]
-> 我们将在将来的 Teams 版本中向会议加入体验添加更多功能，因此请返回查看最新信息。 若要随时了解即将推出的Teams功能，请查看"Microsoft 365[路线图"。](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams)
+> 我们将在将来的 Teams 版本中向会议加入体验添加更多功能，因此请返回查看最新信息。 若要随时了解即将推出的Teams功能，请查看Microsoft 365[路线图](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams)。
 
 ## <a name="related-articles"></a>相关文章
 

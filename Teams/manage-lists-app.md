@@ -11,6 +11,7 @@ search.appverid: MET150
 searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
+- Microsoft Cloud for Retail
 description: 了解如何为组织中的用户管理 Lists 应用。
 f1.keywords:
 - NOCSH
@@ -18,16 +19,17 @@ ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - microsoftcloud-healthcare
+- microsoftcloud-retail
 - m365initiative-lists
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 72235497f2b020aaed1228ecadff781ed76b7341
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: bd70e5fbca82637299e6adef745bccc725525311
+ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829546"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "62288480"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中为组织管理 Lists 应用
 
@@ -35,7 +37,7 @@ ms.locfileid: "60829546"
 
 Microsoft Teams 中的 Lists 应用帮助组织中的用户跟踪信息、整理工作并管理工作流。 用户可以使用 Lists 跟踪像问题、资产、例程、联系人、库存、事件、借贷、患者等的数据，使用自定义的视图、规则和警报来保持团队里所有人同步。
 
-在 Teams 中，用户以选项卡形式在频道中访问 Lists。  点击 **+** 来打开选项卡库并添加一个新的 Lists 应用选项卡实例到频道，就可以开始了。
+在 Teams 中，用户以选项卡形式在频道中访问 Lists。  选择 **+** 以打开选项卡库，将新的"列表应用"选项卡实例添加到频道以开始使用。
 
 ![列出选项卡库中的应用。](media/lists-tab.png)
 
@@ -58,7 +60,7 @@ Lists 中的模版为用户跟踪信息的应用场景量身打造。 每个模�
 
 会议过后，邮递员进行收件并开始派送。 派送路途中会发生事件，比如汽车事故、和狗有关的问题或社会不安抗议。 当邮递员遇到事件时，它们可以在移动设备上使用 Teams 来记录事件的详细信息，该信息在团队频道中的列表中受到跟踪。 团队里的所有人，包括现场的邮递员，都可以看到这个消息并保持知情。
 
-在使用 Teams 之前，邮递员必须得回到邮局，填写一份纸质的表格来报告一件已经输入进 Excel 表格的事件。 Teams 给邮递员们创造了一份移动优先的体验，它们可以使用 Lists 现场实时报告事件，与团队成员共享事件的详细信息，和他们在频道中交谈，并促进事件解决。
+在迁移到Teams，邮件运营商必须返回邮局以完成一个硬复制表单来报告事件，该事件随后在 Excel 电子表格中输入。 Teams 给邮递员们创造了一份移动优先的体验，它们可以使用 Lists 现场实时报告事件，与团队成员共享事件的详细信息，和他们在频道中交谈，并促进事件解决。
 
 ## <a name="what-you-need-to-know-about-lists"></a>你需要了解的 Lists 相关信息
 
@@ -72,7 +74,7 @@ Lists 的数据存储在 SharePoint Online 团队网站中。 要了解关于 Sh
 
 SharePoint 中的权限集应用于 Lists 应用中创建的列表。 列表默认继承所属网站的权限。 这些权限管理用户可以执行的操作类型，比如是否可以创建或编辑列表。 要了解更多，请参阅 [SharePoint 中的权限级别](/sharepoint/understanding-permission-levels)以及 [SharePoint 服务器中的用户权限和权限级别](/sharepoint/sites/user-permissions-and-permission-levels)。
 
-在某些应用场景下，你需要限制用户在列表中的操作。 比如，团队中某个人可以编辑列表视图，更改会应用于所有团队成员，你只想允许团队所有者或某些成员编辑列表视图。 要了解更多，请参阅[自定义 SharePoint 列表或库的权限](https://support.microsoft.com/office/customize-permissions-for-a-sharepoint-list-or-library-02d770f3-59eb-4910-a608-5f84cc297782#ID0EAACAAA=Online,_2019,_2016,_2013)。
+在某些情况下，你可能希望限制用户可以在列表中执行哪些操作。 比如，团队中某个人可以编辑列表视图，更改会应用于所有团队成员，你只想允许团队所有者或某些成员编辑列表视图。 要了解更多，请参阅[自定义 SharePoint 列表或库的权限](https://support.microsoft.com/office/customize-permissions-for-a-sharepoint-list-or-library-02d770f3-59eb-4910-a608-5f84cc297782#ID0EAACAAA=Online,_2019,_2016,_2013)。
 
 > [!NOTE]
 > 此时，团队中的所有者和成员权限还没有以任何方式链接到团队网站中管理 LIsts 应用和列表行为的权限。 然而，居于客户反馈和使用情况，我们会考虑将其加入未来的产品迭代中。  
@@ -96,8 +98,8 @@ Lists 在你的组织中默认为所有 Teams 用户启用。 你可以在 Micro
 1. 在 Microsoft Teams 管理中心的左侧导航中，转到 “**Teams 应用**” > “**管理应用**”。
 2. 执行下列操作之一：
 
-    - 要为组织关闭 Lists，请搜索 Lists 应用，选中然后单击“**阻止**”。
-    - 要为组织开启 Lists，请搜索 Lists 应用，选中然后单击“**允许**”。
+    - 若要为组织关闭"列表"，请搜索"列表"应用，将其选中，然后选择"阻止 **"**。
+    - 若要为组织启用"列表"，请搜索"列表"应用，将其选中，然后选择"允许 **"**。
 
 ### <a name="enable-or-disable-lists-for-specific-users-in-your-organization"></a>在你的组织中为某个特定用户启用或禁用 Lists
 
@@ -105,7 +107,7 @@ Lists 在你的组织中默认为所有 Teams 用户启用。 你可以在 Micro
 
 ## <a name="search-the-audit-log-for-list-events"></a>搜索列表事件的审核日志
 
-列表启用了企业级别的审核，所以你可以在安全与合规中心的审核日志中搜索列表和列表项事件。 若要了解详细信息，请参阅[在安全与合规中心中搜索审核日志](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)。
+列表已启用企业级审核，因此可以在安全与合规中心审核日志搜索列表&项事件。 若要了解详细信息，请参阅[在安全与合规中心中搜索审核日志](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)。
 
 在 Teams 中查看与 Lists 应用有关的审核事件列表，请参阅 [SharePoint 列表活动](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#sharepoint-list-activities)。
 
@@ -117,8 +119,8 @@ Lists 工作流支持 [Power Automate](/power-automate/flow-types)，列表表�
 
 ## <a name="give-feedback-or-report-an-issue"></a>提供反馈或报告问题
   
-若要给我们发送反馈或报告问题，请单击 Teams 左导航底部附近的 **帮助**，然后选择 **报告问题**。 选择 **LIsts**，然后输入反馈或关于你正在经历的问题的详细信息。
+若要向我们发送反馈或报告问题，请选择左侧导航栏中左侧导航Teams附近的"帮助"，然后选择"**报告问题"**。 选择 **LIsts**，然后输入反馈或关于你正在经历的问题的详细信息。
 
-## <a name="related-topics"></a>相关主题
+## <a name="related-articles"></a>相关文章
 
 - [Lists 帮助文档](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Lists)

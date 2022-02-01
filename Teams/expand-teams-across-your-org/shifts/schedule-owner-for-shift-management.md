@@ -11,6 +11,7 @@ search.appverid: MET150
 searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
+- Microsoft Cloud for Retail
 description: 了解如何管理排班所有者进行日程安排管理。 可以设置策略，将团队成员的权限提升为计划所有者。
 f1.keywords:
 - NOCSH
@@ -19,21 +20,22 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
 - microsoftcloud-healthcare
+- microsoftcloud-retail
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 702ca0fd5b392755b1966d16024d5ecf10cdacab
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 12cf33f193e7f1d1a976e5cde8612df19108cb69
+ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627534"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "62288630"
 ---
 # <a name="schedule-owner-for-shift-management"></a>排班管理计划所有者
 
 ## <a name="overview"></a>概述
 
-计划所有者是一项功能，可用于将团队成员的权限提升为计划所有者，而无需将员工提升为团队所有者。 这意味着，员工有权管理其团队的计划，而无需修改任何其他团队属性，例如更新、编辑或删除团队频道。
+使用"计划所有者"功能可以提升团队成员的权限，以便他们无需将员工成为团队所有者即可管理日程安排。 使用计划所有者权限，员工可以管理其团队的日程，而无需修改任何其他团队属性，例如更新、编辑或删除团队频道。
 
 具有计划所有者权限的用户可以执行哪些操作？
 
@@ -54,7 +56,7 @@ ms.locfileid: "58627534"
 
 *如果没有计划* 所有者，部门经理必须获得与团队所有者完全相同的权限。 最近，部门经理一直在移动信息并更改频道名称，这导致了商店经理工作的复杂性。 商店经理希望部门经理能够组织其日程安排，但不希望他们能够在班次之外更改团队中任何其他内容。
 
-*使用计划* 所有者，部门经理可以拥有计划权限，而无需任何其他团队所有者特权。
+*使用计划* 所有者，可以授予部门经理计划权限，而无需任何其他团队所有者特权。
 
 ## <a name="manage-schedule-ownership"></a>管理计划所有权
 
