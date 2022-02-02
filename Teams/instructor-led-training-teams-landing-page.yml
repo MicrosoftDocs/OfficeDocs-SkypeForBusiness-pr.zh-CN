@@ -46,10 +46,10 @@ productDirectory:
       imageSrc: 'https://docs.microsoft.com/office/media/icons/lightbulb-idea-capture-teams.svg'
       summary: 了解 Teams 可如何有助于组织工作日，并更轻松地与同事保持联系。 （访问群体：每个人）
       url: 'https://aka.ms/TeamsProTips'
-    - title: 在家使用 Teams 掌控工作
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/headset-teams.svg'
-      summary: 了解保持与团队保持联系、保持生产力的最佳效果。 （访问群体：每个人）
-      url: 'https://aka.ms/WFHTeams'
+    - title: Microsoft Teams YouTube 上的视频
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/video-play.svg'
+      summary: 订阅并首次了解最新功能、提示和技巧等。 （访问群体：每个人）
+      url: 'https://www.youtube.com/MicrosoftTeams'
     - title: Teams 教育版 - 网络研讨会
       imageSrc: 'https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg'
       summary: 了解如何在高等教育中使用 Teams。 （受众：教职员工、学生、学者、研究员、IT 专业人员）

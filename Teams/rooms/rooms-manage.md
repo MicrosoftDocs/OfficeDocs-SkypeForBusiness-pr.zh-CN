@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 了解如何开发和执行持续维护和操作，以确保Microsoft Teams 会议室系统可供用户使用。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 02faaec97837f61befaa5320f7d73b84e33d25c2
-ms.sourcegitcommit: d3c48f0c147cf0c47d5eb4ea1128b5bca13be718
+ms.openlocfilehash: 72e6a89e23ddb8874c6fe9e262759d2aab4522e7
+ms.sourcegitcommit: fd4d7557997c537c094e79ada21c569acde65aa6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62298997"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "62312245"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>管理 Microsoft Teams 会议室
 
@@ -31,10 +31,10 @@ ms.locfileid: "62298997"
 - 执行设备管理，例如重新启动设备和下载设备日志
 - 应用Teams设置
 - 检查设备及其Microsoft Teams 会议室（包括相机、显示器、麦克风等）的运行状况
-- 查看当前和过去的会议活动 (，例如有关呼叫质量、网络运行状况和连接的详细信息，以及会议参与者) 
-- 查看外围设备 (设备，例如摄像机和投影仪) 连接到Microsoft Teams 会议室
+- 查看当前和过去的会议活动 (，例如有关呼叫质量、网络运行状况和连接以及会议参与者) 
+- 查看连接到 (的外围设备，例如) 投影仪Microsoft Teams 会议室
 
-若要管理Teams 会议室，请打开 Microsoft Teams [管理中心并](https://admin.teams.microsoft.com)转到Teams **设备** > Teams 会议室 **Windows**。
+若要管理Teams 会议室，请打开 Microsoft Teams [管理中心，](https://admin.teams.microsoft.com)并转到Teams **设备** > Teams 会议室 **Windows**。
 
 :::image type="content" source="../media/teams-rooms-summary2.png" alt-text="Teams 会议室管理中心Teams摘要页面。":::
 
@@ -48,7 +48,7 @@ ms.locfileid: "62298997"
 
 ### <a name="device-settings"></a>设备设置
 
-可以更改组织中一个或多个Teams 会议室的设置。 若要更改设置，请选择要管理的设备或设备，然后选择"编辑设置 **"**。 将打开一个新窗格，其中包含可以更改的所有设置。 下表列出了可以使用管理中心更改Teams设置。 某些设置仅在选择单个应用时Teams 会议室。
+可以更改组织中一个或多个Teams 会议室上的设置。 若要更改设置，请选择要管理的设备或设备，然后选择"编辑设置 **"**。 将打开一个新窗格，其中包含可以更改的所有设置。 下表列出了可以使用管理中心更改Teams设置。 某些设置仅在选择单个应用时Teams 会议室。
 
 如果选择多个选项，则支持批量编辑的设置会显示以下两个选项。
 
@@ -117,7 +117,7 @@ ms.locfileid: "62298997"
 
 | Teams设备 | 应用版本 | 房间前显示 |
 |--------------|-------------|-----------------------|
-|Microsoft Teams 会议室上Windows | 4.11.14.0 到 4.11.12.0 | 支持单显示器和双显示器;最小大小：46 英寸;纵横比 16：9（分辨率为 1920*1080）或 21：9（分辨率为 2560x1080）;所有显示器都应在设置中设置为 100% 缩放Windows设置 |
+|Microsoft Teams 会议室上Windows | 4.11.12.0 或更高版本 (建议使用最新版本)  | 支持单显示器和双显示器;最小大小：46 英寸;纵横比 16：9（分辨率为 1920*1080）或 21：9（分辨率为 2560x1080）;所有显示器都应在设置中设置为 100% 缩放Windows设置 |
 
 请参阅[Microsoft Teams 会议室](rooms-operations.md#change-scale-and-resolution)操作，调整显示设置以满足前行的要求。
 
@@ -139,7 +139,7 @@ ms.locfileid: "62298997"
 
 ## <a name="remove-device"></a>删除设备
 
-删除设备时，设备将从组织中删除，并且不再显示在 Teams 管理中心Teams 会议室上Windows列表中。
+删除设备时，设备将从组织中删除，不再显示在用户管理中心Teams 会议室Windows列表中Teams列表中。
 
 如果删除设备，但该设备仍配置了有效的用户名和密码，则如果该设备再次连接到 Teams 会议室，则会自动Microsoft 365列表中。
 
@@ -156,7 +156,7 @@ ms.locfileid: "62298997"
 
 1. 转到 **Teams设备** > **Teams 会议室** Windows并选择想要从其中下载日志的设备的名称。
 1. 选择 **"下载设备日志"**。 设备日志可能需要几分钟才能可用。
-1. 选择" **历史记录"** 选项卡，然后选择日志文件"文件" **下的链接**。 包含设备的诊断日志文件的 zip 文件将下载到浏览器的默认 Downloads 文件夹。
+1. 选择" **历史记录"** 选项卡，然后选择"日志文件文件" **下的链接**。 包含设备的诊断日志文件的 zip 文件将下载到浏览器的默认 Downloads 文件夹。
 
 ## <a name="view-device-information"></a>查看设备信息
 
@@ -173,7 +173,7 @@ ms.locfileid: "62298997"
 - **运行状况** 显示会议室设备Teams运行状况。 运行状况可以是"正常 **"或** " **不正常"**。
 - **脱机，因为** 显示上次Microsoft 365设备通信的时间。
 - **设备状态** 显示设备的当前 **状态：空闲**、Teams **、** Skype **或"正在****"**。
-- **外围设备** 显示连接到会议室设备Teams外围设备及其运行状况。 运行状况状态可以是"已 **连接"或** "已 **断开连接"**。
+- **外围设备** 显示连接到您的会议室Teams外围设备及其运行状况。 运行状况状态可以是"已 **连接"或** "已 **断开连接"**。
 - **运行状况** 显示有关连接到您的 Teams 会议室设备、网络连接、所需服务的登录状态和软件版本信息的详细信息。
 - **详细信息** 显示制造商信息、网络 IP 地址和Teams设备串行/MAC 地址。
 - **活动** 显示过去的会议详细信息，包括会议日期和时间、参与者数、持续时间和音频质量。 有关会议详细信息的详细信息， [请参阅本文稍后](#meeting-activity-details) 的"会议活动详细信息"部分。
@@ -195,6 +195,6 @@ ms.locfileid: "62298997"
 
 ##### <a name="participant-details"></a>参与者详细信息
 
-参与者详细信息页显示该参与者会话的端到端诊断信息。 如下图所示，为参与者和设备提供了设备、系统和Teams 会议室信息。  **此外**，还提供了参与者与Teams 会议室之间的网络诊断信息。 选择要了解详细信息的上下文的图标。 有关其他诊断信息，请选择"高级 **"** 选项卡。
+参与者详细信息页显示该参与者会话的端到端诊断信息。 如下图所示，为参与者和设备提供了设备、系统和连接Teams 会议室信息。  **此外**，还提供了参与者与Teams 会议室之间的网络诊断信息。 选择要了解详细信息的上下文的图标。 有关其他诊断信息，请选择"高级 **"** 选项卡。
 
 :::image type="content" source="../media/teams-rooms-meeting-activity-participant-details.png" alt-text="Teams会议室设备呼叫详细信息。":::
