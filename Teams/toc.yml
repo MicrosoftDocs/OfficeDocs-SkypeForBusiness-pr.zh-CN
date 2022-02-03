@@ -1754,8 +1754,10 @@ items:
                 href: exchange-hybrid-organization.md
               - name: 通过 Exchange 使用邮件流规则
                 href: /microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365
-          - name: SharePoint Online 和 OneDrive for Business 与 Teams 如何交互
-            href: sharepoint-onedrive-interact.md
+          - name: Teams 和 SharePoint 集成概述
+            href: /sharepoint/teams-connected-sites?bc=%2fteamss%2fbreadcrumb%2ftoc.json&toc=%2fteams%2ftoc.json
+          - name: 管理 SharePoint 和 Teams 集成设置
+            href: /sharepoint/manage-teams-sharepoint-experiences?bc=%2fteamss%2fbreadcrumb%2ftoc.json&toc=%2fteams%2ftoc.json
       - name: Teams PowerShell
         items:
           - name: 概述
