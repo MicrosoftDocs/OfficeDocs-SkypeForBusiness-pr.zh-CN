@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 了解哪些会话边界控制器 (SBC) 已通过直接路由认证。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 88723107679314d5f30a26e1b3b41675e1454c81
-ms.sourcegitcommit: cd9fbda4ea85a83cb22e241a94d0825ff8186cca
+ms.openlocfilehash: db14472992880b17ee5fd68a0b0e426b3b8f497d
+ms.sourcegitcommit: fd4d7557997c537c094e79ada21c569acde65aa6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "62228989"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "62312275"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>经认证可用于直接路由的会话边界控制器
 
@@ -58,12 +58,12 @@ Microsoft 与每个供应商合作：
 |                                                       供应商                                                        |       产品       | 非媒体旁路 | 媒体旁路 | 软件版本 | 支持 911 的服务提供商* | 支持 ELIN |  
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|--------------|------------------|-----------------|------------------|  
 | [Audiocodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   Mediant 500 SBC   |     &#10004;     |   &#10004;    |  支持的 7.20A.258（推荐 7.40A.100）   | &#10004;   |  &#10004;  |  
-|                                                                                                                     |   Mediant 800 SBC   |     &#10004;     |   &#10004;     |  支持的 7.20A.258（推荐 7.40A.100）   | &#10004;   |  &#10004;  |  
-|                                                                                                                     |  Mediant 2600 SBC   |     &#10004;     |   &#10004;    |  支持的 7.20A.258（推荐 7.40A.100）   |   &#10004;   |  &#10004;  |
-|                                                                                                                     |  Mediant 4000 SBC   |     &#10004;     |   &#10004;     |  支持的 7.20A.258（推荐 7.40A.100）   |  &#10004;   |  &#10004;  |
+|                                                                                                                     |   Mediant 800 SBC   |     &#10004;     |   &#10004;     |  支持的 7.20A.258 (推荐 7.40A.250)   | &#10004;   |  &#10004;  |  
+|                                                                                                                     |  Mediant 2600 SBC   |     &#10004;     |   &#10004;    |  支持的 7.20A.258 (推荐 7.40A.250)   |   &#10004;   |  &#10004;  |
+|                                                                                                                     |  Mediant 4000 SBC   |     &#10004;     |   &#10004;     |  支持的 7.20A.258 (推荐 7.40A.250)   |  &#10004;   |  &#10004;  |
 |                                                                                                                     | Mediant 1000B SBC  |     &#10004;     |   &#10004;     |  支持的 7.20A.250（推荐 7.20A.258）  |  &#10004;   |  &#10004;  |
-|                                                                                                                     | Mediant 9000  SBC  |     &#10004;     |   &#10004;     |  支持的 7.20A.258（推荐 7.40A.100）   | &#10004;     |  &#10004;  |
-|                                                                                                                     | Virtual Edition SBC |     &#10004;     |   &#10004;     |  支持的 7.20A.258（推荐 7.40A.100） |  &#10004;    |  &#10004;  |   
+|                                                                                                                     | Mediant 9000  SBC  |     &#10004;     |   &#10004;     |  支持的 7.20A.258 (推荐 7.40A.250)   | &#10004;     |  &#10004;  |
+|                                                                                                                     | Virtual Edition SBC |     &#10004;     |   &#10004;     |  支持的 7.20A.258 (推荐 7.40A.250) |  &#10004;    |  &#10004;  |   
 |                                                                                                                     | Mediant 云版本 SBC  |     &#10004;     |   &#10004;     |  支持的 7.20A.258（推荐 7.40A.100） |  &#10004;    |  &#10004;  |
 |  [Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5100/5110       |     &#10004;     |   &#10004;    |       支持 9.2、8.2 和 7.2 (推荐 10.1)        | &#10004;   |     |
 |                                                                                                                     |      SBC 5200/5210       |     &#10004;     |  &#10004;    |       支持 9.2、8.2 和 7.2 (推荐 10.1)        |   &#10004; |    |
@@ -88,7 +88,7 @@ Microsoft 与每个供应商合作：
 |                                   |     适用于 1000V 系列云服务路由器的 Cisco 统一边界元素 (CUBE)       |     &#10004;   | &#10004; |      支持的 IOS XE 阿姆斯特丹 17.2.1r（推荐的 17.3.3）         |    &#10004;     |    |  
 |                                 |     适用于 1000 系列聚合服务路由器的 Cisco 统一边界元素 (CUBE)      |     &#10004;   | &#10004; |      支持的 IOS XE 阿姆斯特丹 17.2.1r（推荐的 17.6.1a）         |    &#10004;     |    |
 |                                 |     适用于 Catalyst 8000 Edge 平台的 Cisco 统一边框元素 (CUBE)      |     &#10004;   | &#10004; |      支持的 IOS XE 阿姆斯特丹 17.3.2（推荐的 17.6.1a）      |    &#10004;     |    |
-|                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    Avaya 会话边界控制器企业版 (ASBCE)    |     &#10004;     |       &#10004;     |       8.1.1 版本（8.1.2 支持媒体旁路）      |     |    |
+|                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    适用于企业的 Avaya 会话边界控制器 （ASBCE）    |     &#10004;     |       &#10004;     |       8.1.1 版本（8.1.2 支持媒体旁路）      |     |    |
 |                     [诺基亚](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    诺基亚会话边界控制器。    |     &#10004;     |           |       19.5 (1908)       |     |    |
 |                     |    诺基亚会话边界控制器。    |     &#10004;     |           |       20.8       |      &#10004;        |    |
 |                     [Italtel](https://www.italtel.com/italtel-provides-direct-routing-sbc-for-microsoft-teams/)|    NetMatch-S CI     |     &#10004;     |      &#10004;     |       支持的 5.0、5.1 (推荐 5.3)      |     |    |

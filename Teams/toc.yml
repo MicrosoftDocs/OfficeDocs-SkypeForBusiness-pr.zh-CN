@@ -495,8 +495,8 @@ items:
         href: turn-off-teams-native-file-upload-policy.md
       - name: 在 Teams 中设置频道审查
         href: manage-channel-moderation-in-teams.md
-      - name: 管理实时组件
-        href: live-components-in-teams.md
+      - name: 管理 Loop 组件
+        href: loop-components-in-teams.md
       - name: Teams 和 Outlook 电子邮件集成
         href: teams-outlook-email-integration.md
       - name: 从 Outlook 共享到 Teams
@@ -1755,9 +1755,9 @@ items:
               - name: 通过 Exchange 使用邮件流规则
                 href: /microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365
           - name: Teams 和 SharePoint 集成概述
-            href: /sharepoint/teams-connected-sites?bc=%2fteamss%2fbreadcrumb%2ftoc.json&toc=%2fteams%2ftoc.json
+            href: /sharepoint/teams-connected-sites?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
           - name: 管理 SharePoint 和 Teams 集成设置
-            href: /sharepoint/manage-teams-sharepoint-experiences?bc=%2fteamss%2fbreadcrumb%2ftoc.json&toc=%2fteams%2ftoc.json
+            href: /sharepoint/manage-teams-sharepoint-experiences?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
       - name: Teams PowerShell
         items:
           - name: 概述
