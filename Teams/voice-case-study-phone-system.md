@@ -16,12 +16,12 @@ f1.keywords:
 description: Teams公司的语音案例研究：电话系统
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b1221ff8fe47e26f04df621f99a0d4cd1a85a3205fcede766b7cc78189251708
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c83cd07cb8943c19b783658a15db99351d11f995
+ms.sourcegitcommit: 8ddafd0901b6b4f4109f3b6e687ae7fae667d61c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316588"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "62353367"
 ---
 # <a name="contoso-case-study-phone-system-for-a-multi-national-corporation"></a>Contoso 案例研究：电话系统国家/直连公司
 
@@ -34,31 +34,31 @@ ms.locfileid: "54316588"
 - 站点类型 C：Skype for Business 企业语音传统旧电话系统的组合
 
 
-若要为Microsoft 电话组织实施 Microsoft 电话 系统解决方案，Contoso 必须确定将以下哪些选项用于每个网站类型电话系统以连接到公共电话交换网 &mdash; &mdash; (PSTN) ：
+若要为Microsoft 电话组织实施 Microsoft 电话 系统解决方案，Contoso&mdash;&mdash; 必须针对每种网站类型确定以下选项与 电话系统 一起用于连接到公用电话交换网 (PSTN) ：
 
 - 电话系统套餐 
 
 - 电话系统直接路由与自己的 PSTN 运营商联系 
 
-- 将电话系统与呼叫计划结合使用，电话系统直接路由与自己的 PSTN 运营商联系
+- 将电话系统与呼叫计划结合使用，电话系统通过直接路由与自己的 PSTN 运营商联系
  
-为了确定适合其组织的解决方案，Contoso 使用[Microsoft](/SkypeForBusiness/hybrid/msft-telephony-solutions)电话解决方案和 Ignite 2019 会话呼叫在[Microsoft Teams。](https://myignite.techcommunity.microsoft.com/sessions/83170?source=sessions)  
+为了确定适合其组织的解决方案，Contoso 在 Microsoft Teams 中[](/SkypeForBusiness/cloud-voice-landing-page)规划了 Teams 语音解决方案和 Ignite 2019 [Microsoft Teams](https://myignite.techcommunity.microsoft.com/sessions/83170?source=sessions)。  
 
 ## <a name="site-type-a-skype-for-business-enterprise-voice"></a>网站类型 A：Skype for Business 企业语音 
 
-Contoso Skype for Business 企业语音已设置为中心和分支。 有一个中心位置维护了 PSTN 网关，该区域为国家/地区的用户Skype for Business 企业语音 PSTN。 通常，这些卫星办事处没有其自己的 Internet 出口。 这些用户的数字驻留在连接到现有 SBC 的 SIP 中继上。 
+Contoso Skype for Business 企业语音已设置为中心和分支。 该区域中维护 PSTN 网关的中心位置为国家/地区的用户Skype for Business 企业语音 PSTN。 通常，这些卫星办事处没有其自己的 Internet 出口。 这些用户的数字驻留在连接到现有 SBC 的 SIP 中继上。 
 
-为了确定已部署的 SBC 是否通过了直接路由和媒体旁路的认证，Contoso 检查了通过直接路由 认证的会话 [边界控制器列表](direct-routing-border-controllers.md)。  
+为了确定已部署的 SBC 是否通过了直接路由和媒体旁路认证，Contoso 检查了通过直接路由认证的会话 [边界控制器列表](direct-routing-border-controllers.md)。  
 
 用户的拨号习惯是使用分机拨打旧电话系统上的用户，即使该用户有可用于对等音频的 Skype for Business 客户端。 
 
 Contoso 基于以下问题做出决策：
 
 - 问： 我们是否需要保留本地部署提供的功能？<br>
-  答： 弱 
+  答： 否 
 
 - 问： 我们是否需要和第三方 PBX 系统和其他电话设备互操作？<br>
-  答： 弱 
+  答： 否 
 
 - 问： 我们是否需要保留当前第三方运营商？<br> A.是 (国家/地区) 和否 
 
@@ -68,9 +68,9 @@ Contoso 基于以下问题做出决策：
 
 Contoso 根据其问题的答案决定：
 
-- 移动位于 PSTN 呼叫计划可用于使用呼叫计划电话系统用户。 
+- 移动位于 PSTN 呼叫计划可用于使用呼叫计划电话系统的用户。 
 
-- 移动不在 PSTN 呼叫计划可用的区域的用户、位于尚未满足 SDC ROI 的网站中的用户，以及居住在具有电话法规的国家/地区且使用直接路由电话系统的用户。 
+- 移动不在 PSTN 呼叫计划可用的区域的用户、位于尚未满足 SBC ROI 的网站中的用户，以及居住在具有电话法规的国家/地区的用户，电话系统直接路由。 
 
 下图显示了初始部署Skype for Business 企业语音以及此部署如何迁移到 Microsoft 呼叫计划和直接路由：
 
@@ -83,7 +83,7 @@ Contoso 有许多办公室利用旧式电话系统。 有一部分用户拥有 E
 Contoso 基于以下问题做出决策：
 
 - 问： 我们是否需要保留本地部署提供的功能？<br>
-  答： 弱 
+  答： 否 
 
 - 问： 我们是否需要和第三方 PBX 系统和其他电话设备互操作？<br> A.是的
 
@@ -93,7 +93,7 @@ Contoso 基于以下问题做出决策：
 
 Contoso 根据其问题的答案决定： 
 
-- 移动位于 PSTN 呼叫计划可用于使用呼叫计划电话系统用户。 
+- 移动位于 PSTN 呼叫计划可用于使用呼叫计划电话系统的用户。 
 
 - 移动未位于 PSTN 呼叫计划可用于使用直接路由电话系统的用户。 
 
@@ -101,8 +101,8 @@ Contoso 根据其问题的答案决定：
 
 下图显示了使用远程站点的原始旧系统部署，以及使用本地媒体优化迁移到直接路由部署：
 
-**原始旧版部署**  
- ![图表显示状态之前和之后。](media/voice-case-study-2.png)
+**原始旧版部署** 
+![图表显示状态之前和之后。](media/voice-case-study-2.png)
 
 
 **使用直接路由进行部署**
@@ -111,12 +111,12 @@ Contoso 根据其问题的答案决定：
  
 ## <a name="site-type-c-combination-of-skype-for-business-enterprise-voice-and-traditional-legacy-telephony-systems"></a>站点类型 C：Skype for Business 企业语音传统旧电话系统的组合
 
-Contoso Skype for Business 企业语音用户号码位于运营商发自 SBC 的 SIP 中继上。 传统电话系统的数字驻留在到 PSTN 网关的 TDM 中继上。   
+Contoso Skype for Business 企业语音用户号码位于从运营商发至 SBC 的 SIP 中继上。 传统电话系统的数字驻留在到 PSTN 网关的 TDM 中继上。   
 
 Contoso 基于以下问题做出决策：
 
 - 问： 我们是否需要保留本地部署提供的功能？<br>
-  答： 弱 
+  答： 否 
 
 - 问： 我们是否需要和第三方 PBX 系统和其他电话设备互操作？<br> A.不 
 
@@ -132,15 +132,15 @@ Contoso 根据其问题的答案决定以下事项：
 
 - 为了支持一部分用户迁移到 电话系统并允许通过旧系统持续路由，旧式电话系统已设置为 SBC 的下一跃点。   
 
-- 此外，为了鼓励用户行为更改并删除对站点内和内部分机拨号的依赖，Contoso 提供了在所有内部呼叫Teams使用通知。  
+- 此外，为了鼓励用户行为更改并消除对站点内和内部分机拨号的依赖，Contoso 提供了在所有内部呼叫Teams使用服务指南。  
 
 下图显示了原始Skype for Business 企业语音旧电话系统部署以及使用直接路由迁移到混合部署：
 
-**原始混合部署** 
- ![显示前状态图 1。](media/voice-case-study-4.png)
+**原始混合部署**
+![显示前状态图 1。](media/voice-case-study-4.png)
 
-**使用直接路由的混合部署** 
- ![图 2 显示之前的状态。](media/voice-case-study-4a.png)
+**使用直接路由的混合部署**
+![图 2 显示之前的状态。](media/voice-case-study-4a.png)
 
 
 ## <a name="calling-plans"></a>通话套餐
@@ -167,20 +167,20 @@ Contoso 参加 Ignite，随时了解Office 365功能，包括可用于电话和�
 
 ### <a name="calling-plans-sites"></a>呼叫计划网站
 
-为了获取许可证并将电话号码分配给用户，Contoso 按照设置 [呼叫计划 中的步骤操作](set-up-calling-plans.md)。 
+为了获取许可证并将电话号码分配给用户，Contoso 按照设置 [呼叫计划中的步骤操作](set-up-calling-plans.md)。 
 
-由于需要分配电话号码的用户数，Contoso 决定使用 PowerShell 分配电话号码。 若要了解如何使用 PowerShell 以及其他设置分配数字 &mdash; &mdash; ，Contoso 使用了[powerShell](teams-powershell-overview.md)Teams概述 。  
+由于需要分配电话号码的用户数，Contoso 决定使用 PowerShell 分配电话号码。 若要了解如何使用 PowerShell&mdash; 和其他&mdash;设置分配数字Contoso Teams [PowerShell 概述](teams-powershell-overview.md)。  
 
 ### <a name="direct-routing-sites"></a>直接路由站点
 
-为了将 Contoso 本地电话基础结构连接到 Microsoft Teams，Contoso 的管理员遵循了配置直接路由中的步骤，并[](direct-routing-configure.md)查看了 Microsoft Teams 中的视频"[直接路由"获得](https://www.youtube.com/watch?v=1ASftX_Msb8&index=10&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl)指导。  Contoso 还参考了经过认证的 SBC 供应商提供的直接路由部署文档。 
+为了将 Contoso 本地电话基础结构连接到 Microsoft Teams，Contoso 的管理员遵循了配置直接路由中的步骤，并查看了 Microsoft Teams 中的[](direct-routing-configure.md)视频直接路由[获得](https://www.youtube.com/watch?v=1ASftX_Msb8&index=10&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl)指导。  Contoso 还参考了经过认证的 SBC 供应商提供的直接路由部署文档。 
 
-在 SBC 与 Microsoft 电话 系统之间配置直接路由后，Contoso 必须测试配置。 为此，Contoso 管理员使用了 [Ignite 2019](https://myignite.techcommunity.microsoft.com/sessions/83178?source=sessions)的直接路由更新会话中讨论的 SIP 测试器客户端。 SIP 测试器客户端脚本和文档从 PowerShell 脚本下载，用于测试直接路由会话边界控制器连接。   
+在 SBC 与 Microsoft 电话 系统之间配置直接路由后，Contoso 必须测试配置。 为此，Contoso 管理员使用了 [Ignite 2019](https://myignite.techcommunity.microsoft.com/sessions/83178?source=sessions) 直接路由更新会话中讨论的 SIP 测试器客户端。 SIP 测试器客户端脚本和文档从 PowerShell 脚本下载，用于测试直接路由会话边界控制器连接。   
 
 
 ### <a name="local-media-optimization"></a>本地媒体优化
 
-Contoso 看到了在全球不同区域利用本地媒体优化的机会。 Contoso 支持的方案在直接路由的本地 [媒体优化中进行了介绍](direct-routing-media-optimization.md)。 根据 SBC 供应商和 Microsoft 的指导完成本地媒体优化的配置。 本地媒体优化的配置步骤包括： 
+Contoso 看到了在全球不同区域利用本地媒体优化的机会。 直接路由的本地媒体优化中介绍了 Contoso [支持的方案](direct-routing-media-optimization.md)。 根据 SBC 供应商和 Microsoft 的指导完成本地媒体优化的配置。 本地媒体优化的配置步骤包括： 
 
 - 配置用户和 SBC 站点 
 
@@ -196,7 +196,7 @@ Contoso 看到了在全球不同区域利用本地媒体优化的机会。 Conto
 
 ## <a name="networking-considerations"></a>网络注意事项
 
-Contoso 有一些用户需要长时间远程工作，这些用户启用了远程电话系统。 用户使用 VPN 访问某些业务线应用程序。 在 VPN 上，电话系统用户遇到呼叫质量下降的情况。 
+Contoso 有一些用户需要长时间远程工作，因为他们启用了远程电话系统。 用户使用 VPN 访问某些业务线应用程序。 在 VPN 上，电话系统用户遇到呼叫质量下降的情况。 
 
-为了解决质量问题，Contoso 实施了 VPN 拆分隧道，允许其 Office 365 流量遍历 Internet，同时与内部应用的连接仍位于 VPN 上。 为了实施 VPN 拆分隧道，Contoso 遵循为客户端实现 VPN 拆分隧道中的[Office 365。](/office365/enterprise/office-365-vpn-implement-split-tunnel)  
+为了解决质量问题，Contoso 实施了 VPN 拆分隧道，允许其 Office 365 流量遍历 Internet，同时内部应用的连接仍位于 VPN 上。 为了实施 VPN 拆分隧道，Contoso 遵循了为用户实现 [VPN](/office365/enterprise/office-365-vpn-implement-split-tunnel) 拆分隧道中的Office 365。  
 

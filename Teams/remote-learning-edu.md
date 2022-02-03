@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a2772fe0f190bf7280dc4bb11625aedb3d0157b
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: bbcafdef989d3154ba99e557f0632e1a6bd6e665
+ms.sourcegitcommit: 8ddafd0901b6b4f4109f3b6e687ae7fae667d61c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605838"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "62353407"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>开始使用 Microsoft Teams 进行远程学习
 
@@ -67,7 +67,7 @@ Teams 利用 Microsoft 365 功能对用户进行身份验证并提供服务。 �
 
 [需要向用户分配许可证](teams-edu-licensing.md)，然后他们才能使用 Teams 功能。 Teams 依赖于其他 Microsoft 365 功能（如 [Microsoft 365 组](Office-365-groups.md)、[Exchange](Exchange-Teams-interact.md)、[SharePoint 和 OneDrive](SharePoint-OneDrive-interact.md)）来实现协作。 如果同时启用了所有这些服务，用户将可获得最佳 Teams 体验。 [由 Google 托管电子邮件服务的用户可以使用 Teams](/microsoft-365/education/deploy/enabling-teams-for-education-for-google-users)。
 
-Microsoft Teams 包含在 Office 365 A1 中，该功能对教育机构是免费的。 有关如何部署 Office 365 并让整个教育机构开始在 Teams 上使用的 IT 指南，请参阅[此页面](/microsoft-365/education/intune-edu-trial/set-up-office365-edu-tenant)。 要获得支持，你可以在[此处](https://signup.microsoft.com/Signup?OfferId=03ee83a5-5cb4-4545-aca9-33ead43f222a,d764709a-7763-45ef-a2a8-db5b8b6ae704&DL=ENTERPRISEPREMIUM_FACULTY&ali=1)提交票证，如需获取有关 Teams 的培训，请访问当地的 Microsoft Store 以与专家交谈。
+Microsoft Teams 包含在 Office 365 A1 中，该功能对教育机构是免费的。 有关如何部署 Office 365 并让整个教育机构开始在 Teams 上使用的 IT 指南，请参阅[此页面](/microsoft-365/education/deploy/create-your-office-365-tenant)。 要获得支持，你可以在[此处](https://signup.microsoft.com/Signup?OfferId=03ee83a5-5cb4-4545-aca9-33ead43f222a,d764709a-7763-45ef-a2a8-db5b8b6ae704&DL=ENTERPRISEPREMIUM_FACULTY&ali=1)提交票证，如需获取有关 Teams 的培训，请访问当地的 Microsoft Store 以与专家交谈。
 
 > [!NOTE]
 > 有关 EDU 部署的最新信息，请参阅 [COVID-19 期间 M365 EDU 部署更新指南](/microsoft-365/education/deploy/guidance-for-m365-edu-deployment-during-covid19)。
