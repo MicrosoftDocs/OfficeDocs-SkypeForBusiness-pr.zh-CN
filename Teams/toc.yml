@@ -1429,6 +1429,8 @@ items:
             href: devices/Teams-Android-devices-user-interface.md
           - name: Android 设备的身份验证最佳做法
             href: devices/authentication-best-practices-for-android-devices.md
+          - name: 为 Teams Android 设备设置自动应答
+            href: set-up-auto-answer-on-teams-android.md
           - name: 会议室设备和解决方案
             href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
           - name: Teams 认证设备
