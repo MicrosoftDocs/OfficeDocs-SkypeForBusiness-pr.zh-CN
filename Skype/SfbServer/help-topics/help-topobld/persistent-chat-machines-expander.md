@@ -1,32 +1,27 @@
 ---
 title: 持久聊天计算机扩展器
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.PersistentChatMachinesExpander
+  - ms.lync.tb.PersistentChatMachinesExpander
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 15bc1c8f-71bd-4d66-bba1-cac0f2fe90bf
 description: 您可以使用计算机状态设置中列出的服务器或池激活或停用部署的持久聊天服务器或持久聊天服务器池。 在列表中选择一个服务器或池，并单击“变为活动状态”按钮可将服务器或池设为活动状态。
-ms.openlocfilehash: 8615ec5f0996e7d06db91f3cd5850cc147e75e0b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853116"
 ---
+
 # <a name="persistent-chat-machines-expander"></a>持久聊天计算机扩展器
  
-您可以使用计算机状态设置 中列出的服务器或池激活或停用部署的持久聊天服务器或持久聊天 **服务器池**。 在列表中选择一个服务器或池，并单击“变为活动状态”按钮可将服务器或池设为活动状态。
+您可以使用计算机状态设置中列出的服务器或池激活或停用部署的持久聊天服务器或持久聊天 **服务器池**。 在列表中选择一个服务器或池，并单击“变为活动状态”按钮可将服务器或池设为活动状态。
   
-通过在列表中选择服务器或池，然后单击"变为非活动"，将部署的持久聊天服务器或持久聊天服务器池 **设置为非活动** 状态。 必须至少将一台服务器设置为活动状态。
+通过在列表中选择服务器或池并单击"变为非活动"，将部署的持久聊天服务器或持久聊天服务器池 **设置为非活动** 状态。 必须至少将一台服务器设置为活动状态。
   
  **确定** 接受更改并通过对话框提交更改。
   

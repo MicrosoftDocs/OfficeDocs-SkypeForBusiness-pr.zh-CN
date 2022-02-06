@@ -1,25 +1,20 @@
 ---
 title: 在客户端中管理双重Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 16f08710-8961-4659-acbf-ebb95a198fb4
-description: 摘要：在 Skype for Business Server 中管理双重Skype for Business Server。
-ms.openlocfilehash: af21fd551c8495a49c8617b25e4669bdd27ec0c0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847415"
+description: 摘要：在部署中管理双重Skype for Business Server。
 ---
+
 # <a name="manage-two-factor-authentication-in-skype-for-business-server"></a>在客户端中管理双重Skype for Business Server
  
 **摘要：** 在客户端中管理双重Skype for Business Server。
@@ -28,7 +23,7 @@ ms.locfileid: "60847415"
   
 使用证书进行双重身份验证的一个典型示例是使用智能卡。 智能卡包含与用户帐户关联的证书，可以针对服务器上存储的用户和证书信息进行验证。 通过将用户信息和 (用户名和密码) 提供的证书进行比较，服务器将验证凭据并验证用户身份。
   
-在配置支持双重身份验证Skype for Business Server考虑以下主题。
+在配置支持双重身份验证Skype for Business Server请考虑以下主题。
   
 ## <a name="client-support"></a>客户端支持
 
@@ -36,7 +31,7 @@ Lync Server 2013 累积更新：2013 年 7 月桌面客户端和 Skype for Busin
   
 ## <a name="topology-requirements"></a>拓扑要求
 
-建议客户通过边缘、控制器和用户池的专用Skype for Business Server部署双重身份验证。 若要为用户启用被动身份验证，必须为其他角色和服务禁用其他身份验证方法，包括：
+建议客户使用专用身份验证部署双因素身份验证，Skype for Business Server、控制器和用户池部署专用身份验证。 若要为用户启用被动身份验证，必须为其他角色和服务禁用其他身份验证方法，包括：
   
 |**配置类型**|**服务类型**|**服务器角色**|**要禁用的身份验证类型**|
 |:-----|:-----|:-----|:-----|
@@ -49,21 +44,21 @@ Lync Server 2013 累积更新：2013 年 7 月桌面客户端和 Skype for Busin
   
 ## <a name="skype-for-business-service-discovery"></a>Skype for Business服务发现
 
-内部和/或外部客户端用来发现 Skype for Business 服务的 DNS 记录应配置为解析为未启用双重Skype for Business身份验证的 Skype for Business 服务器。 通过此配置，Skype for Business 池中未启用双重身份验证的用户无需输入 PIN 进行身份验证，而 Skype for Business 池中启用了双重身份验证的用户需要输入其 PIN 进行身份验证。
+内部和/或外部客户端用于发现 Skype for Business 服务的 DNS 记录应配置为解析为未启用双重身份验证的 Skype for Business 服务器。 通过此配置，Skype for Business 池中未启用双重身份验证的用户无需输入 PIN 进行身份验证，而 Skype for Business 池中启用了双重身份验证的用户需要输入其 PIN 进行身份验证。
   
 ## <a name="exchange-authentication"></a>Exchange身份验证
 
-为 Microsoft 客户端部署双重身份验证Exchange可能会发现客户端中的某些功能不可用。 此行为是设计使Skype for Business，因为客户端不支持对依赖于集成功能的功能进行双重Exchange身份验证。
+为 Microsoft 部署双重身份验证Exchange可能会发现客户端中的某些功能不可用。 此行为是设计使Skype for Business，因为客户端不支持对依赖于集成功能的功能进行双重Exchange身份验证。
   
 ## <a name="contacts"></a>联系人
 
-Skype for Business配置为使用统一联系人存储功能的用户将在使用双重身份验证登录后发现其联系人不再可用。
+Skype for Business统一联系人存储功能的用户将在使用双重身份验证登录后发现其联系人不再可用。
   
 在启用双重身份验证之前，应该使用 **Invoke-CsUcsRollback** cmdlet 从统一联系人存储中删除现有用户联系人，Skype for Business Server中存储这些联系人。
   
 ## <a name="skill-search"></a>技能搜索
 
-在用户环境中配置了技能搜索Skype for Business的客户会发现，当启用双重Skype for Business时，此功能不起作用。 这是设计使的，因为 Microsoft SharePoint目前不支持双重身份验证。
+在用户环境中配置了技能搜索功能Skype for Business将发现当启用双重Skype for Business时此功能不起作用。 这是设计使的，因为 Microsoft SharePoint目前不支持双重身份验证。
   
 ## <a name="credentials"></a>凭据
 
@@ -71,7 +66,7 @@ Skype for Business配置为使用统一联系人存储功能的用户将在使�
   
 ### <a name="deleting-saved-credentials"></a>删除保存的凭据
 
-在尝试使用双重身份验证首次登录之前，用户应该使用 Skype for Business 客户端中的"删除我的登录信息"选项，并删除 %localappdata%\Microsoft\Office\15.0\Skype for Business 中的 SIP 配置文件文件夹。
+用户应在 Skype for Business 客户端中使用"删除我的登录信息"选项，在尝试使用双重身份验证首次登录之前，从 %localappdata%\Microsoft\Office\15.0\Skype for Business 中删除其 SIP 配置文件文件夹。
   
 ### <a name="disablentcredentials"></a>DisableNTCredentials
 
@@ -79,7 +74,7 @@ Skype for Business配置为使用统一联系人存储功能的用户将在使�
   
 如果在提示用户输入 PIN 之前无意中提示用户输入凭据，则可能会无意中在客户端计算机上配置 **DisableNTCredentials** 注册表项，这可能是通过组策略配置的。
   
-若要阻止额外提示输入凭据，请在本地工作站上创建以下注册表项或使用 Skype for Business 管理模板，以使用组策略应用于给定池的所有用户：
+若要阻止额外提示输入凭据，请在本地工作站上创建以下注册表项或使用 Skype for Business 管理模板使用组策略应用于给定池的所有用户：
   
 HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Office\15.0\Lync
   
@@ -89,9 +84,9 @@ REG_DWORD：DisableNTCredentials
   
 ### <a name="savepassword"></a>SavePassword
 
-当用户首次登录Skype for Business时，系统会提示用户保存其密码。 如果选中此选项，则允许用户的客户端证书存储在个人证书存储中，并且用户的 Windows 凭据将存储在本地计算机的凭据管理器中。
+当用户首次Skype for Business登录时，系统会提示用户保存其密码。 如果选中此选项，则允许用户的客户端证书存储在个人证书存储中，并且用户的 Windows 凭据将存储在本地计算机的凭据管理器中。
   
-将 SavePassword 注册表设置配置为支持双重Skype for Business时，应禁用 **SavePassword** 注册表设置。 若要阻止用户保存其密码，请在本地工作站上更改以下注册表项或使用 Skype for Business 管理模板，以使用组策略应用于给定池的所有用户：
+将 **SavePassword** 注册表设置配置为支持双重Skype for Business时，应禁用 SavePassword 注册表设置。 若要防止用户保存其密码，请在本地工作站上更改以下注册表项或使用 Skype for Business 管理模板，以使用组策略应用于给定池的所有用户：
   
 HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync
   
@@ -101,9 +96,9 @@ REG_DWORD：SavePassword
   
 ## <a name="ad-fs-20-token-replay"></a>AD FS 2.0 令牌重播
 
-AD FS 2.0 提供了一种称为令牌重播检测的功能，通过此功能，可以检测并丢弃使用同一令牌的多个令牌请求。 启用此功能后，令牌重播检测通过确保从不多次使用同一令牌来保护 WS-Federation 被动配置文件和 SAML WebSSO 配置文件中的身份验证请求的完整性。
+AD FS 2.0 提供了一种称为令牌重播检测的功能，通过此功能，可以检测并丢弃使用同一令牌的多个令牌请求。 启用此功能后，令牌重播检测通过确保从不多次使用同一令牌来保护 WS-Federation 被动配置文件和 SAML WebSSO 配置文件中身份验证请求的完整性。
   
-在安全高度关注的情况下（例如使用展台时）应启用此功能。 有关令牌重播检测详细信息，请参阅[Best Practices for Secure Planning and Deployment of AD FS 2.0。](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ff630160(v=ws.10))
+在安全高度关注的情况下（例如使用展台时）应启用此功能。 有关令牌重播检测详细信息，请参阅 [Best Practices for Secure Planning and Deployment of AD FS 2.0](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ff630160(v=ws.10))。
   
 ## <a name="guest-user-access"></a>来宾用户访问
 

@@ -1,37 +1,32 @@
 ---
 title: 持久聊天配置
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.PersistentChatConfig
+  - ms.lync.lscp.PersistentChatConfig
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3f2891e6-bad3-4a23-a345-b7de4cae3bd9
 description: 持久聊天服务器部署可以承载许多并发持久聊天室。 聊天室可以组织到服务器上的一组类别中。 每个聊天室属于一个类别，并可从该类别继承部分设置。 这种组织方式可创建一种非常有用的结构以基于对话的业务目的识别对话，并有助于方便委托管理和简化控制。
-ms.openlocfilehash: cfb047bf30e8f7ad1f9157cfd7927b262a061210
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829176"
 ---
+
 # <a name="persistent-chat-configuration"></a>持久聊天配置
  
 持久聊天服务器部署可以承载许多并发持久聊天室。 聊天室可以组织到服务器上的一组类别中。 每个聊天室属于一个类别，并可从该类别继承部分设置。 这种组织方式可创建一种非常有用的结构以基于对话的业务目的识别对话，并有助于方便委托管理和简化控制。
   
 > [!NOTE]
-> 尽管聊天室的许多管理功能在运行用户的持久聊天的计算机上可用，但 **cspersistentchatadministrator** 角色) 中的持久聊天管理员 (必须使用控制面板或命令行管理程序 cmdlet 来创建或管理类别。
+> 尽管聊天室的许多管理功能在运行用户的持久聊天的计算机上可用，但 **cspersistentchatadministrator** 角色) 中的持久聊天管理员 (必须使用控制面板或命令行管理程序 cmdlet 创建或管理类别。
   
 持久聊天管理员Skype for Business Server控制面板或 Windows PowerShell cmdlet 创建和管理类别，并设计组织中用户的聊天室访问权限。
   
-持久聊天室管理者（能够管理一个或多个聊天室）可以使用客户端启动聊天室管理 Web 应用程序以创建和管理聊天室 (或者客户可以创建自定义解决方案和工作流以调用) 。 持久聊天
+具有管理一个或多个聊天室的能力的持久聊天室管理员可以使用客户端启动聊天室管理 Web 应用程序以创建和管理聊天室 (或者客户可以创建要调用) 的自定义解决方案和工作流。 持久聊天
   
 持久聊天管理员还可使用控制面板或 Windows PowerShell cmdlet 创建和管理聊天室。
   
@@ -67,12 +62,12 @@ ms.locfileid: "60829176"
     
 3. 在左侧导航栏中，单击“持久聊天”，然后单击“持久聊天配置”。
     
-4. 在"**持久聊天配置"** 页上，单击 **"新建"，** 然后单击"站点 **配置"。**
+4. 在" **持久聊天配置"** 页上，单击 **"新建"，** 然后单击"站点 **配置"**。
     
     > [!IMPORTANT]
     > 如果要将配置应用于站点中部署的所有持久聊天服务器池，请选择此选项。 如果要 **将** 配置应用于特定的持久聊天服务器池，请单击"池配置"。
   
-5. 在 **"选择站点"** 中，选择要为持久聊天服务器站点配置配置的站点。
+5. 在 **"选择站点**"中，选择要为持久聊天服务器站点配置配置的站点。
     
 6. 在“新建持久聊天配置”中，执行下列操作：
     
@@ -87,9 +82,9 @@ ms.locfileid: "60829176"
     
    - 在“参与者更新限制”中，选择参与者更新的限制。 持久聊天服务器向 (聊天室的用户发送名单信息) 所有参与者，直到连接的用户数达到此数目。 默认情况下，此数目为 75。 此限制指示给定聊天室中参与者的最大数目，超过此数目后，持久聊天服务器将停止向连接的客户端发送有关聊天室中在线人员的名单更新。
     
-   -  (Optional.) 在 **"聊天室管理 URL"中**，选择聊天室管理 URL。 这是基于 Web 的自定义聊天室管理的 URL。 如果不需要自定义聊天室管理，而只需使用默认设置，则保留此选项为空。 在设置该 URL 后，它将应用为内部和外部聊天室管理 URL。
+   -  (Optional.) **在"聊天室管理 URL"中**，选择聊天室管理 URL。 这是基于 Web 的自定义聊天室管理的 URL。 如果不需要自定义聊天室管理，而只需使用默认设置，则保留此选项为空。 在设置该 URL 后，它将应用为内部和外部聊天室管理 URL。
     
-     如果您想自定义聊天室创建体验并包括您的特定业务工作流，您可以使用持久聊天服务器软件开发工具包 (SDK) 构建一个自定义聊天室管理解决方案，在某处承载该解决方案，然后在此处添加 URL。 此 URL 将被发送给客户端，以便用户尝试查看/创建聊天室时将被指引到您的自定义聊天室管理解决方案。
+     如果您想自定义聊天室创建体验并包括您的特定业务工作流，您可以使用持久聊天服务器软件开发工具包 (SDK) 构建一个自定义聊天室管理解决方案，将该解决方案托管到某位置，并在此处添加 URL。 此 URL 将被发送给客户端，以便用户尝试查看/创建聊天室时将被指引到您的自定义聊天室管理解决方案。
     
 7. 单击“提交”。
     
@@ -120,12 +115,12 @@ ms.locfileid: "60829176"
     
    - （可选）在“聊天室管理 URL”中，选择聊天室管理 URL。 这是基于 Web 的聊天室管理部署的 URL。 如果不需要自定义聊天室管理，而只需使用默认设置，则保留此选项为空。
     
-     如果您想自定义聊天室创建体验并包括您的特定业务工作流，您可以使用持久聊天服务器软件开发工具包 (SDK) 构建一个自定义聊天室管理解决方案，在某处承载该解决方案，然后在此处添加 URL。 此 URL 将被发送给客户端，以便用户尝试查看或创建聊天室时将被指引到您的自定义聊天室管理解决方案。
+     如果您想自定义聊天室创建体验并包括您的特定业务工作流，您可以使用持久聊天服务器软件开发工具包 (SDK) 构建一个自定义聊天室管理解决方案，将该解决方案托管到某位置，并在此处添加 URL。 此 URL 将被发送给客户端，以便用户尝试查看或创建聊天室时将被指引到您的自定义聊天室管理解决方案。
     
 7. 单击“提交”。
     
 ## <a name="see-also"></a>另请参阅
 
-有关持久聊天服务器特性和功能的详细信息，请参阅 Plan [for Persistent Chat Server in Skype for Business Server 2015、Deploy](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md) [Persistent Chat Server in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)和 Manage Persistent Chat Server in [Skype for Business Server2015](../../manage/persistent-chat/persistent-chat.md)。
+有关持久聊天服务器特性和功能的详细信息，请参阅在 [Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md) 中规划持久聊天服务器、在 [Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md) 中部署持久聊天服务器和管理[持久聊天服务器。Skype for Business Server 2015 年 10 月](../../manage/persistent-chat/persistent-chat.md)。
   
 

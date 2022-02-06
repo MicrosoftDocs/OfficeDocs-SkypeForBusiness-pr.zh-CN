@@ -1,35 +1,30 @@
 ---
 title: PIN 策略
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.SecPinPolicyMain
+  - ms.lync.lscp.SecPinPolicyMain
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 16e5b03c-c313-4792-9353-65f33b5e775a
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: 18bac1a4f2743b5b30c2291ccd5a0cbf745aec6e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830396"
 ---
+
 # <a name="pin-policy"></a>PIN 策略
 
 要执行什么操作？ 单击要执行的任务的链接。
 
- **使用 IP 电话的 PIN 策略** 此个人标识号 (PIN) 策略支持使用 IP 电话连接到Skype for Business Server身份验证。
-- [在 2015 年 3 月Skype for Business Server PIN 策略](../../manage/authentication/create-a-new-pin-policy.md)
+ **使用 IP 电话的 PIN 策略** 此个人标识号 (PIN) 策略支持使用 IP 电话Skype for Business Server用户进行身份验证。
+- [在 2015 年 10 月Skype for Business Server PIN 策略](../../manage/authentication/create-a-new-pin-policy.md)
 
-- [在 2015 年 3 月Skype for Business Server PIN 策略](../../manage/authentication/modify-an-existing-pin-policy.md)
+- [修改 2015 年 10 月Skype for Business Server PIN 策略](../../manage/authentication/modify-an-existing-pin-policy.md)
 
 - [在 2015 年 10 月Skype for Business Server PIN 策略](../../manage/authentication/delete-a-pin-policy.md)
 

@@ -1,28 +1,23 @@
 ---
 title: 防病毒扫描排除项Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 5d742259-ef3b-417a-920b-e1fa0e48f043
-description: 防病毒扫描程序与 Skype for Business Server 的互操作概述。
-ms.openlocfilehash: 8a4ffae692704755753fbdaa2c84207af796d75d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858989"
+description: 防病毒扫描程序与应用程序之间的互操作Skype for Business Server。
 ---
+
 # <a name="antivirus-scanning-exclusions-for-skype-for-business-server"></a>防病毒扫描排除项Skype for Business Server
 
-防病毒扫描程序与 Skype for Business Server 的互操作概述。
+防病毒扫描程序与应用程序之间的互操作Skype for Business Server。
 
 若要确保防病毒扫描程序不会干扰 Skype for Business Server 的操作，必须排除运行防病毒扫描程序的每个 Skype for Business Server 服务器或服务器角色的特定进程和目录。 应排除以下进程和目录：
 
