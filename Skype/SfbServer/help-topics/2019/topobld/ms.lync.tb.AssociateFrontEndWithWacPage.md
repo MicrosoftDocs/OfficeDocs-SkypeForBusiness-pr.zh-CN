@@ -1,32 +1,27 @@
 ---
 title: 将前端与 Office Web Apps 服务器关联页面
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.AssociateFrontEndWithWacPage
+  - ms.lync.tb.AssociateFrontEndWithWacPage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 49dc1a92-970b-4372-a3a2-2c714a52b1c3
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: Office Web Apps Server 提供的服务类似于演示者上载文档以用于会议，但启用以前版本未启用的其他功能。
-ms.openlocfilehash: 0f0686326a7150bd87037e758b678b219542f3a0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831256"
 ---
+
 # <a name="associate-front-end-with-office-web-apps-server-page"></a>将前端与 Office Web Apps Server 页面关联
 
 Office Web Apps Server 提供的服务类似于演示者上载文档以用于会议，但启用以前版本未启用的其他功能。
 
-如果选择会议Office配置的功能选项之一，请选择用于部署的 Web Apps Skype for Business Server选项。
+如果选择会议Office配置的功能选项之一，请选择 Web Apps Server Skype for Business Server部署。
 
 此对话框中的选项为您提供以下选择：
 

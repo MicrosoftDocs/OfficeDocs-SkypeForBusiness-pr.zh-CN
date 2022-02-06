@@ -1,26 +1,21 @@
 ---
-title: 前端池中的Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: 前端池的灾难恢复Skype for Business Server
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 142caf34-0f20-47f3-9d32-ce25ab622fad
 description: 对于灾难恢复，Skype for Business Server在一个池出现故障时提供与故障转移的池配对。
-ms.openlocfilehash: fa63aa9d549f64508f32c32ede24f34592a88719
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833318"
 ---
-# <a name="front-end-pool-disaster-recovery-in-skype-for-business-server"></a>前端池中的Skype for Business Server
+
+# <a name="front-end-pool-disaster-recovery-in-skype-for-business-server"></a>前端池的灾难恢复Skype for Business Server
  
 对于灾难恢复，Skype for Business Server在一个池出现故障时提供与故障转移的池配对。
   
@@ -58,7 +53,7 @@ ms.locfileid: "60833318"
   
 对于池故障转移和池故障回复，RPO 恢复点目标 (目标) 5 分钟。 这表示测量可能因灾难、因备份服务的复制延迟丢失的数据的时间。 例如，如果池在上午 10：00 下降，RPO 为 5 分钟，则写入池的数据在上午 9：55 之间。 和 10：00 A.M .可能尚未复制到备份池，并且将会丢失。
   
-本文档中的所有 RTO 和 RPO 数字均假定两个数据中心位于同一在两个网站间具有高速度、低延迟传输的世界区域中。 这些数字针对具有 40，000 个并发活动用户和 200，000 个用户启用 Skype for Business 的预定义用户模型（其中数据复制没有积压工作）的池进行测量。 这些数字可能根据测试和验证性能发生改变。
+本文档中的所有 RTO 和 RPO 数字均假定两个数据中心位于同一在两个网站间具有高速度、低延迟传输的世界区域中。 对于具有 40，000 个并发活动用户和 200，000 个启用了 Skype for Business 的用户的池，按照预定义的用户模型（其中数据复制没有积压工作）来测量这些数字。 这些数字可能根据测试和验证性能发生改变。
   
 ## <a name="central-management-store-failover"></a>中央管理存储故障转移
 
@@ -72,7 +67,7 @@ ms.locfileid: "60833318"
   
 修复灾难后，不需要对中央管理存储进行故障回复。 中央管理存储可以保留在您进行其故障的池中。
   
-中央管理存储故障转移的恢复时间目标 (RTO 故障转移的工程目标为 5 分钟) 5 分钟用于恢复点目标 (RPO) 。
+中央管理存储故障转移的恢复时间目标 (RTO) 以及恢复点目标 (RPO) 的工程目标为 5 分钟。
   
 ## <a name="front-end-pool-pairing-data-security"></a>前端池配对数据安全性
 
@@ -86,15 +81,15 @@ ms.locfileid: "60833318"
   
 ### <a name="mitigating-security-risks"></a>缓解安全风险
 
-您有许多方法可以增强对备份服务流量的安全保护。 这一范围从限制对数据中心的访问到保护两个数据中心之间的 WAN 传输。 在大多数情况下，部署 Skype for Business Server可能已有所需的安全基础结构。 对于寻求指南的企业，Microsoft 提供了一个解决方案，作为如何构建安全的 IT 基础结构的示例。 有关详细信息，请参阅 [https://go.microsoft.com/fwlink/p/?LinkId=268544](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc725770(v=ws.10)) 。 
+您有许多方法可以增强对备份服务流量的安全保护。 这一范围从限制对数据中心的访问到保护两个数据中心之间的 WAN 传输。 在大多数情况下，部署企业Skype for Business Server可能已有所需的安全基础结构。 对于寻求指南的企业，Microsoft 提供了一个解决方案，作为如何构建安全的 IT 基础结构的示例。 有关详细信息，请参阅 [https://go.microsoft.com/fwlink/p/?LinkId=268544](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc725770(v=ws.10))。 
   
 我们并不暗示这是唯一的解决方案，也不表示它是解决方案的首选Skype for Business Server。 建议企业客户根据 IT 安全基础结构和要求选择适合其特定需求的解决方案。 示例 Microsoft 解决方案将 IPSec 和组策略用于服务器和域隔离。
   
 另一个可能的解决方案是使用 IPSec 来帮助保护备份服务本身发送的数据。 如果选择此方法，应为以下服务器配置 SMB 协议的 IPSec 规则，其中池 A 和池 B 是两个配对的前端池。
   
-- SMB 服务 (TCP/445) 池 A 中的每台前端服务器到池 B 使用的文件存储。
+- SMB 服务 (TCP/445) 池 A 中的每台前端服务器更新到池 B 使用的文件存储。
     
-- SMB 服务 (TCP/445) 从池 B 中的每台前端服务器到池 A 使用的文件存储。
+- SMB 服务 (TCP/445) 池 B 中的每台前端服务器到池 A 使用的文件存储。
     
 > [!CAUTION]
 >  IPsec 不用作应用程序级别安全性（如 SSL/TLS）的替换。 使用 IPsec 的一个优点是，它可以为现有应用程序提供网络流量安全，而无需更改它们。 只想保护两个数据中心之间的传输的企业应咨询其各自的网络硬件供应商，以了解使用供应商设备设置安全 WAN 连接的方法。

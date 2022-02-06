@@ -1,27 +1,22 @@
 ---
 title: 中介服务器范围节点
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.MediationServerScopeNode
+  - ms.lync.tb.MediationServerScopeNode
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3bad9844-2d3c-4ac7-adde-5b382f02d18d
 description: 此节点显示该中介池的侦听端口和关联的公用电话交换网 (PSTN) 网关。可以执行以下操作：
-ms.openlocfilehash: 32ec06ae9aa420994636994fca82c0e06a8e1c91
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851135"
 ---
+
 # <a name="mediation-server-scope-node"></a>中介服务器范围节点
  
 此节点显示该中介池的侦听端口和关联的公用电话交换网 (PSTN) 网关。可以执行以下操作：

@@ -1,27 +1,22 @@
 ---
 title: 在会议部署中Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 8c685326-8356-4075-bf95-32324b16ef81
 description: 摘要：了解如何在会议Skype for Business Server。
-ms.openlocfilehash: 56404f98389dbe2fca6a6022e7d6f175bcca030c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828825"
 ---
+
 # <a name="create-conferencing-policies-in-skype-for-business-server"></a>在会议部署中Skype for Business Server
  
-**摘要：** 了解如何在会议Skype for Business Server。
+**摘要：** 了解如何在 Skype for Business Server。
   
 可以使用控制面板或命令行管理程序Skype for Business Server会议策略Skype for Business Server策略。
   
@@ -31,7 +26,7 @@ ms.locfileid: "60828825"
     
 2. 打开Skype for Business Server控制面板"。
     
-3. 在左侧导航栏中，单击 **"会议"，** 然后单击"**会议策略"。**
+3. 在左侧导航栏中，单击 **"会议"**，然后单击" **会议策略"**。
     
 4. 单击“新建”，然后执行以下操作之一：
     
@@ -70,7 +65,7 @@ ms.locfileid: "60828825"
     
     - 如果您允许用户通过电话拨入加入会议并允许未经身份验证的（匿名）用户通过拨出式电话加入会议，请选中 **“允许匿名参与者拨出”** 复选框。通过拨出式电话，会议服务器会呼叫用户，用户接听电话即可加入会议。默认情况下，匿名用户无法通过拨出式电话加入会议。
     
-12. 如果你选择允许使用音频 **/** 视频中的视频，请检查 **允许多个视频流**。
+12. 如果在"音频/视频"中选择允许使用视频 **，** 请检查" **允许多个视频流"**。
     
 13. 在 **“数据协作”** 中，执行下列操作之一：
     
@@ -84,7 +79,7 @@ ms.locfileid: "60828825"
     
     - 要阻止文件传输，请清除 **“允许参与者传输文件”** 复选框。默认情况下，用户可以传输文件。
     
-    - 要阻止使用批注，请清除 **“启用批注”** 复选框。 若要在共享演示文稿和演示文稿PowerPoint批注，请清除"启用PowerPoint **批注"。** 默认情况下，允许使用批注。
+    - 要阻止使用批注，请清除 **“启用批注”** 复选框。 若要在共享演示文稿和演示文稿PowerPoint批注，请清除"启用PowerPoint **批注"**。 默认情况下，允许使用批注。
     
     - 要阻止使用投票，请清除 **“启用投票”** 复选框。默认情况下，允许使用投票。
     

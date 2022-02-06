@@ -1,27 +1,22 @@
 ---
 title: 编辑客户端移动策略
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.ClientMobilityPolicyEdit
+  - ms.lync.lscp.ClientMobilityPolicyEdit
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 58bd0c10-f33a-451e-b131-bd251a1b8f50
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 在“编辑移动策略”对话框上，您可以编辑移动策略的详细信息。
-ms.openlocfilehash: a7c3944684f3894cce599e87edb0f4750683e8fa
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861679"
 ---
+
 # <a name="edit-client-mobility-policy"></a>编辑客户端移动策略
 
 在“编辑移动策略”对话框上，您可以编辑移动策略的详细信息。

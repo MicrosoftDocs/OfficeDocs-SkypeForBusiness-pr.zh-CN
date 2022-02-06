@@ -1,27 +1,22 @@
 ---
 title: 安装数据库创建镜像数据库页
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.InstallDatabaseCreateMirrorDatabasePage
+  - ms.lync.tb.InstallDatabaseCreateMirrorDatabasePage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 6f729574-944e-4968-bdb8-eb483ff0ca88
 description: 这是初步文档，可能会更改。 空白主题作为占位符包含在内。
-ms.openlocfilehash: 7fd19bae2cd641db1e63ea9b3eb2074c68fa656a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835390"
 ---
+
 # <a name="install-database-create-mirror-database-page"></a>安装数据库创建镜像数据库页
  
 这是初步文档，可能会更改。 空白主题作为占位符包含在内。

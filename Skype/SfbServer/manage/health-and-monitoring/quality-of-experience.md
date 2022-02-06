@@ -1,24 +1,19 @@
 ---
-title: " (QoE) 用户体验质量Skype for Business Server"
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: ' (QoE) 用户体验质量Skype for Business Server'
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 097fb65e-4a3e-45ff-a88c-d6022dc8f872
-description: 摘要：在 Skype for Business Server 中管理 (QoE) 用户体验Skype for Business Server。
-ms.openlocfilehash: b8b50567efcc46cc1938174e150754313b0690e1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828775"
+description: 摘要：在 (中管理 QoE) 用户体验Skype for Business Server。
 ---
+
 # <a name="quality-of-experience-qoe-in-skype-for-business-server"></a> (QoE) 用户体验质量Skype for Business Server
  
 **摘要：** 管理用户体验质量 (QoE) 中Skype for Business Server。
@@ -33,7 +28,7 @@ ms.locfileid: "60828775"
     
 - [修改用户体验质量Skype for Business Server](modify-qoe-settings.md)
     
-- [删除"体验质量"配置设置Skype for Business Server](delete-qoe-configuration-settings.md)
+- [删除用户体验质量配置设置Skype for Business Server](delete-qoe-configuration-settings.md)
     
 - [手动清除呼叫详细信息记录和用户体验质量数据库中的Skype for Business Server](../../deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md)
     

@@ -1,35 +1,30 @@
 ---
-title: Skype会议室系统可管理性和工具
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: Skype会议室系统的可管理性和工具
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: c336ee9a-1ed8-4f64-9f7f-89549ae24c40
 description: 阅读本主题，了解会议室Skype管理工具。
-ms.openlocfilehash: 976ed518941ded1278bf34a1c991a20adb8a0d8c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865409"
 ---
-# <a name="skype-room-system-manageability-and-tools"></a>Skype会议室系统可管理性和工具
+
+# <a name="skype-room-system-manageability-and-tools"></a>Skype会议室系统的可管理性和工具
  
 阅读本主题，了解会议室Skype管理工具。
   
 ## <a name="administrative-portal"></a>管理门户
 
-For Skype for Business Server on-premises deployments， you can use the Skype Room System administrative portal to actively manage and monitor Skype Room System deployments within your organization.
+对于Skype for Business Server部署，可以使用 Skype 会议室系统管理门户主动管理和监视Skype会议室系统部署。
   
 有关详细信息，请参阅以下文章：
   
-- [在部署 SRS v1 管理 Web 门户Skype for Business Server](../deploy-conferencing/room-system-v1-administrative-web-portal.md)
+- [部署 SRS v1 管理 Web 门户Skype for Business Server](../deploy-conferencing/room-system-v1-administrative-web-portal.md)
     
   
 ## <a name="exchange-checklist"></a>Exchange清单
@@ -38,9 +33,9 @@ For Skype for Business Server on-premises deployments， you can use the Skype R
     
 - Ping 自动发现 (例如 Ping Autodiscover.contoso.com) 。
     
-- 使用 Microsoft Connectivity Analyzer 工具测试自动发现服务。 选择第一个测试"我无法使用 Office Outlook"。
+- 使用 Microsoft Connectivity Analyzer 工具测试自动发现服务。 选择第一个测试"我无法通过 Office Outlook 登录"。
     
-- 如果会议室已有资源邮箱，请为 Skype Room System (示例脚本扩展此帐户，) 。
+- 如果会议室已有资源邮箱，请为 Skype Room System (示例脚本扩展此帐户，该脚本位于) 。
     
 ## <a name="skype-for-business-checklist"></a>Skype for Business清单
 
@@ -54,11 +49,11 @@ For Skype for Business Server on-premises deployments， you can use the Skype R
     
 - 如果会议室已有资源邮箱，请为会议室启用Skype for Business。
     
-- 如果需要，请求为 (系统) DID 会议室电话号码，并更新 Active Directory 工具中的"常规电话"字段。
+- 如果需要，请求为 (系统) DID 会议室 电话号码，并更新 Active Directory 工具中的"常规电话"字段。
     
 ## <a name="network"></a>网络
 
-- 确保你具有用于会议室系统的有线Skype网络连接。
+- 请确保会议室系统具有有线网络连接Skype网络连接。
     
 - 请参阅网络规划指南了解Skype for Business。
     
@@ -72,7 +67,7 @@ For Skype for Business Server on-premises deployments， you can use the Skype R
     
 ## <a name="skype-room-system-security"></a>Skype会议室系统安全性
 
-Skype会议室系统是一个嵌入系统，可以使用 Windows 安全模型、权限管理和 SCOM 等管理工具Skype for Business部署中完全集成。 这些功能包括： 
+Skype会议室系统是一个嵌入系统，可以使用 Skype for Business 安全模型、权限管理和 SCOM 等管理工具，完全集成到 Windows 部署中。 这些功能包括： 
   
 - 防止在用户模式下写入磁盘的写入筛选器 
     
@@ -86,21 +81,21 @@ Skype会议室系统是一个嵌入系统，可以使用 Windows 安全模型、
     
 - 您还可以使用管理中心管理本地Skype for Business帐户。
     
-- Skype会议室系统通过标准 Microsoft 更新过程进行更新。
+- Skype Microsoft 更新过程更新会议室系统。
     
-- Skype会议室系统与会议室Skype for Business。
+- Skype会议室系统与Skype for Business。
     
   - Skype for Business所有通信模式使用端到端加密和授权
     
-  - Skype会议室系统支持Skype for Business合规性标准。 有关详细信息[，请参阅 plan for security in Skype For Business Server。](../../plan-your-deployment/security/security.md)
+  - Skype会议室系统Skype for Business安全性和合规性标准。 有关详细信息[，请参阅 plan for security in Skype For Business Server](../../plan-your-deployment/security/security.md)。
     
 ## <a name="license"></a>许可证
 
-验证您是否使用 KMS激活软件。 如果是这样，你可能需要检查或添加Skype for Business客户端KMS密钥。 如果不使用客户端KMS，请为客户端 MAK 请求Skype for Business密钥。
+验证是否使用KMS激活软件。 如果是这样，你可能需要检查或添加Skype for Business客户端KMS密钥。 如果您未使用 KMS，请为客户端 MAK 请求批量Skype for Business密钥。
   
 ## <a name="license-keys"></a>许可证密钥
 
-Skype会议室系统在后台Skype for Business桌面客户端。 如果Skype系统是域成员，它将发现你的KMS。  (如果具有批量许可密钥KMS它将自动激活) 。 批量许可还提供 MAK，在显示 xxxxx-xxxxx-xxxxx-xxxxx 时输入此 MAK。  (需要 Internet 访问权限才能使用 MAK 激活，但不能KMS) 。 有关详细信息，请参阅 Volume activation of Office 2013。
+Skype会议室系统在后台Skype for Business桌面客户端。 如果Skype系统是域成员，它将发现你的KMS。  (并且其具有批量许可密钥KMS它将自动激活) 。 批量许可还提供 MAK，在显示 xxxxx-xxxxx-xxxxx-xxxxx 时输入此 MAK。  (需要 Internet 访问权限才能使用 MAK 激活，但不能KMS) 。 有关详细信息，请参阅 Volume activation of Office 2013。
   
 - 若要输入 MAK 密钥，请转到 OEM 设置 \> SRS 许可工具。 单击“检查状态”。 当状态显示"产品未激活"时，输入密钥。
     
@@ -112,26 +107,26 @@ Skype会议室系统在后台Skype for Business桌面客户端。 如果Skype系
     
   - 系统可以访问 Internet。
     
-- 可以通过电话激活，但必须先尝试使用 SRS 许可工具激活。 若要通过电话激活，请启动测试 (而不是测试呼叫，因为测试) 。 在Office向导中，选择"电话激活"，致电 Microsoft，键入长号，然后输入响应。
+- 可以通过电话激活，但必须先尝试使用 SRS 许可工具激活。 若要通过电话激活，请启动测试 (而不是测试呼叫，因为测试) 。 在"Office激活向导"中，选择"电话激活"，致电 Microsoft，键入长号并输入响应。
     
 ## <a name="certificate-authority"></a>证书颁发机构
 
-确认用于颁发 Web Apps Server 2013 Office证书的证书颁发机构具有证书吊销列表属性中包含的 HTTP 路径。
+确认用于颁发 Web Apps Server 2013 Office证书的证书颁发机构在证书吊销列表属性中包含 HTTP 路径。
   
-如果使用证书， (.crt) 文件Skype会议室Skype for Business Server。 它很容易从 CA 服务器的 CertEnroll 共享，或在任何加入域的电脑的受信任的根文件夹中获取。
+如果使用 (.crt) ，Skype证书文件导入Skype for Business Server。 它很容易从 CA 服务器的 CertEnroll 共享，或在任何加入域的电脑的受信任的根文件夹中获取。
   
 ## <a name="certificates"></a>证书
 
 验证证书颁发机构是否具有证书吊销列表的 http 路径。 如果没有，请更新 CA 以包含一个 CA。
   
-在 System Skype 证书管理器下的 设置 聊天室系统的管理员设置中安装 \> 证书。 内部证书Enterprise根 CA。
+在 System Skype Certificate Manager 下的 设置 聊天室系统的管理员设置中安装\>证书。 内部证书Enterprise根 CA。
   
-获取所需的证书的一种方式是发现颁发证书的 CA。 For Skype for Business Server， on a PC in Skype for Business， click 设置 \> Tools \> Dial-in Conference 设置. 这将打开由颁发内部证书的 CA 保护的网页。 单击浏览器地址栏上的"锁定"图标以显示安全报告。 单击"查看证书"并检查 CRL 分发点属性。 第二个 CN 参数应为 CA 的服务器名称。 现在打开Windows \\ \< CA Server Name \> \CertEnroll 的浏览器。 将两个 .crl 文件和 .crt 文件复制到闪存驱动器，并放在 SMART 板的左侧。
+获取所需的证书的一种方式是发现颁发证书的 CA。 For Skype for Business Server， on a PC in Skype for Business， click 设置 \> Tools \> Dial-in Conference 设置. 这将打开由颁发内部证书的 CA 保护的网页。 单击浏览器地址栏上的"锁定"图标以显示安全报告。 单击"查看证书"并检查 CRL 分发点属性。 第二个 CN 参数应为 CA 的服务器名称。 现在打开Windows \CertEnroll 的\\\< CA Server Name \>浏览器。 将两个 .crl 文件和 .crt 文件复制到闪存驱动器，并放在 SMART 板的左侧。
   
-将 .crt 文件导入到Skype"会议室证书颁发机构"文件夹下的会议室系统。
+将 .crt 文件导入到Skype会议室证书颁发机构文件夹下的会议室系统。
   
-将 .crl 文件导入Skype证书颁发机构文件夹下的会议室系统。  (你需要将证书管理器中的文件扩展名筛选器更改为 .crl 以查看) 。
+在"中间证书颁发机构"Skype下导入会议室系统上的 .crl 文件。  (你需要将证书管理器中的文件扩展名筛选器更改为 .crl，以查看) 。
   
-注意：Office Web Apps 2013 服务器可能与 Skype for Business 共享同一 CA。 如果没有，你将无法在PowerPoint共享会议。 与 IT 核实，从 CA 网络共享 CertEnroll 获取 CRT 和 CRL 文件，如上所述。 
+注意：Office Web Apps 2013 服务器可能共享与 Skype for Business 相同的 CA。 如果没有，你将无法在PowerPoint共享会议。 与 IT 核实，从 CA 网络共享 CertEnroll 获取 CRT 和 CRL 文件，如上所述。 
   
-域成员身份可以简化一些操作，因为您可以将 Skype会议室系统视为一个Windows系统，并且它可以依赖 Active Directory 获得一些证书方面。 但是，最好手动管理它。
+域成员身份可以简化一些操作，因为您可以将 Skype会议室系统视为一个Windows系统，并且它可以依赖 Active Directory 获得一些证书。 但是，最好手动管理它。

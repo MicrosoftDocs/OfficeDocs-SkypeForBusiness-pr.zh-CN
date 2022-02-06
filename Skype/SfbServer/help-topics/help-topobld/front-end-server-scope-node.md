@@ -1,27 +1,22 @@
 ---
 title: 前端服务器范围节点
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.FrontEndServerScopeNode
+  - ms.lync.tb.FrontEndServerScopeNode
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 16f6382d-1cbd-4656-b9cb-1adda13b97ae
 description: 此节点显示该前端池或 Standard Edition Server 的配置信息。可以执行以下操作：
-ms.openlocfilehash: 3dd4e28583662e367bcb925f50910a524eeec57a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828865"
 ---
+
 # <a name="front-end-server-scope-node"></a>前端服务器范围节点
  
 此节点显示该前端池或 Standard Edition Server 的配置信息。可以执行以下操作：

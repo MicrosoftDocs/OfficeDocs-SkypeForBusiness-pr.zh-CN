@@ -1,24 +1,19 @@
 ---
 title: 位置报告中Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: cb2f1551-1e21-4f13-a39d-91f5f9010ccf
 description: Summary： Learn about the Location Report in Skype for Business Server.
-ms.openlocfilehash: afbbf54e913146326ee49e6db051869fa2ac7aca
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862399"
 ---
+
 # <a name="location-report-in-skype-for-business-server"></a>位置报告中Skype for Business Server
  
 **摘要：** 了解 Skype for Business Server 中的位置报告。
@@ -63,7 +58,7 @@ ms.locfileid: "60862399"
 |**呼叫量** <br/> |是  <br/> |发起的呼叫总数。  <br/> |
 |**质量欠佳的呼叫百分比** <br/> |是  <br/> |归类为质量欠佳呼叫的呼叫的百分比。质量欠佳的呼叫是指至少一项测量指标超过允许值的任何呼叫（例如，信号极不稳定的呼叫）。  <br/> |
 |**来回行程(毫秒)** <br/> |是  <br/> |实时传输协议 (RTP) 数据包来往于另一个终结点所需的平均时间量（以毫秒为单位）。来回行程的时间小于或等于 100 毫秒被视为质量可接受。  <br/> 高来回行程时间值可能是由国际呼叫路由、路由配置错误或媒体服务器超载造成的，从而导致双向实时音频对话存在问题。  <br/> |
-|**性能降低(MOS)** <br/> |是  <br/> |呼叫过程中遇到的性能降低的平均意见得分 (MOS) 的平均值。 性能降低值的范围介于 0.0 和 5.0 之间。 该值小于或等于 0.5 表示可接受的性能降低。 过去，平均意见得分是通过让用户对呼叫质量进行评级（范围为 1 到 5）来计算得出的。 在Skype for Business Server中，一组算法预测用户如何对呼叫进行评分。  <br/> 高性能降低值可能是由拥塞、带宽不足、无线拥塞/干扰或媒体服务器或终结点超载造成的，从而导致音频失真或丢失。  <br/> |
+|**性能降低(MOS)** <br/> |是  <br/> |呼叫过程中遇到的性能降低的平均意见得分 (MOS) 的平均值。 性能降低值的范围介于 0.0 和 5.0 之间。 该值小于或等于 0.5 表示可接受的性能降低。 过去，平均意见得分是通过让用户对呼叫质量进行评级（范围为 1 到 5）来计算得出的。 在Skype for Business Server，一组算法预测用户如何对呼叫进行评分。  <br/> 高性能降低值可能是由拥塞、带宽不足、无线拥塞/干扰或媒体服务器或终结点超载造成的，从而导致音频失真或丢失。  <br/> |
 |**数据包丢失** <br/> |是  <br/> |平均 RTP 数据包丢失率。（当 RTP 数据包（一项用于在 Internet 中传输音频和视频的协议）无法到达其目标位置时将发生数据包丢失。）高丢失率通常是由拥塞、带宽不足、无线拥塞/干扰或媒体服务器超载造成的，从而导致音频失真或丢失。  <br/> |
 |**抖动** <br/> |是  <br/> |在 RTP 数据包到达之间检查到的平均抖动率。（抖动是针对呼叫的“不稳定性”的度量。）高抖动值通常是由拥塞或媒体服务器超载造成的，从而导致音频失真或丢失。  <br/> |
 |**修复程序隐藏比率** <br/> |是  <br/> |隐藏的音频样本与样本总数的平均比率。（隐藏的音频样本是一项技术，用于消除通常由丢弃的网络数据包造成的意外转换。）高值指示数据包丢失或抖动造成的显著的丢失隐藏级别，从而导致音频失真或丢失。  <br/> |

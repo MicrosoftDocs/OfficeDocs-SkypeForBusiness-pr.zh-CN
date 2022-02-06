@@ -1,34 +1,29 @@
 ---
 title: Lync Server 2010 的前端常规设置扩展器
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.FrontEndGeneralSettingsExpander2010
+  - ms.lync.tb.FrontEndGeneralSettingsExpander2010
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 58269c38-98d9-499f-ab69-6a63a6e5530e
 description: 通过编辑或配置以下属性来编辑前端服务器或前端池的属性。 配置页面分为以下几个部分：
-ms.openlocfilehash: b515acd1aa475247f0f87206a0af50eedb21a294
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855559"
 ---
+
 # <a name="front-end-general-settings-expander-for-lync-server-2010"></a>适合于 Lync Server 2010 的前端常规设置扩展器
 
 通过编辑或配置以下属性来编辑前端服务器或前端池的属性。 配置页面分为以下几个部分：
 
  **常规**
 
-- **FQDN：** 前端服务器或前端池的完全限定域名。
+- **FQDN**：前端服务器或前端池的完全限定域名。
 
 - **选择"使用所有已配置的 IP 地址**"以使用在前端服务器或前端池上配置的所有地址。
 
@@ -43,13 +38,13 @@ ms.locfileid: "60855559"
 
 - 如果选择了会议，则可以选中“电话拨入式(PSTN)会议”。选中此复选框可启用电话拨入式会议功能。
 
-- 如果您打算部署功能以使 Lync Server 2013 能够使用 IP 语音 (VoIP) 技术充当电话语音系统，包括结合使用或单独部署话筒电话、SIP 中继或公用电话交换网连接的选项，请选中复选框 **企业语音。** 基于设计和要求。 有关此企业语音的详细信息，请参阅[企业语音](/previous-versions/office/lync-server-2013/lync-server-2013-enterprise-voice)和[Plan for 企业语音 in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
+- 如果要部署功能以使 Lync Server 2013 能够使用 IP 语音 (VoIP) 技术充当电话语音系统，包括使用中介服务器、PSTN 网关和 IP-PBX 部署话筒电话、SIP 中继或公用电话交换网络连接的选项，请选中此复选框。 **企业语音** 基于设计和要求。 有关此企业语音的详细信息，请参阅 [企业语音](/previous-versions/office/lync-server-2013/lync-server-2013-enterprise-voice) 和 [Plan for 企业语音 in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
 
     **关联**
 
 - **SQL Server存储**：SQL Server (前端服务器或前端池) 命名实例的 FQDN。 从列表选择 SQL Server 存储或通过单击“新建”创建一个新的 SQL Server 存储
 
-- 文件存储：以) 格式选择服务器的 FQDN 和共享 (，该 FQDN 将充当 Lync Server 2013 创建并用于复制、会议目录和其他用途的共享文件的文件存储位置。 `\\<FQDN of server>\<share name>` 从列表选择文件存储或通过单击“新建”创建一个新的文件存储。
+- 文件存储：以) 格式选择服务器的 FQDN 和共享 (`\\<FQDN of server>\<share name>` ，该 FQDN 将充当 Lync Server 2013 创建并用于复制、会议目录和其他用途的共享文件的文件存储位置。 从列表选择文件存储或通过单击“新建”创建一个新的文件存储。
 
 - 选中" **关联存档服务器** "复选框可为此前端服务器或前端池启用存档服务器。 选中此复选框后，从列表中选择现有存档服务器或单击"新建"以创建新存档服务器的定义。
 
@@ -59,7 +54,7 @@ ms.locfileid: "60855559"
 
   **复原能力**
 
-- 选中" **关联的** 备份注册器池"复选框，从列表中选择将用作备份注册器 ( 的前端服务器或前端池，即当主注册器发生故障时指定为辅助注册器) 
+- 选中" **关联的** 备份注册器池"复选框，从列表中选择将成为备份注册器 ( 的前端服务器或前端池，即当主注册器发生故障时指定为辅助注册器) 
 
 - 如果选择了关联的备份注册器池并选择了备份注册器，则可以选中“语音的自动故障转移和故障回复”复选框。随后便可定义“语音故障转移检测间隔(秒)”和“语音故障回复间隔(秒)”的数字属性。有关详细信息，请参阅[Planning for Enterprise Voice Resiliency](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-enterprise-voice-resiliency)
 
@@ -77,11 +72,11 @@ ms.locfileid: "60855559"
 
   **中介服务器**
 
-- 若要为 **并** (中介服务器（即前端服务器或前端池) 上部署的中介服务器）配置中介服务器属性，请选择"并排中介服务器已启用 **"。**
+- 若要 **为并** (中介服务器（即前端服务器或前端池上部署的中介服务器）配置中介服务器属性) ，请选择"并排中介服务器已启用 **"**。
 
 - 若要 **为并并** 的中介服务器定义侦听端口，请键入并并的中介服务器正在侦听的 **TLS** 和 **TCP** 端口值。 默认情况下，TLS 定义为 TCP 端口 5067。
 
-- 若要定义中介服务器的 TCP 端口值，请选中" **启用 TCP 端口** "复选框。 默认情况下，中介服务器使用传输层安全性 (TCP 协议) TLS。 TCP 端口仅在“启用 TCP 端口”选项启用的情况下可用。
+- 若要定义中介服务器的 TCP 端口值，请选中" **启用 TCP 端口** "复选框。 默认情况下，中介服务器使用 TLS 协议 (传输) 层安全性。 TCP 端口仅在“启用 TCP 端口”选项启用的情况下可用。
 
     > [!NOTE]
     > 这是一个可选设置，您应该参考网关或 PSTN 要求以确定是否需要此设置。默认情况下，TCP 端口值为 5068。
@@ -91,7 +86,7 @@ ms.locfileid: "60855559"
     如果多个网关与中介服务器关联，则可以通过选择要设置为默认值的网关并单击"设置为默认值"来 **指定默认网关**。 如果选择删除当前默认网关，请选择该网关并单击“取消设为默认值”。
 
 > [!IMPORTANT]
-> 如果对此对话框中的属性进行更改，则必须发布拓扑，并在所有受影响的Skype for Business Server运行部署向导。 发布新拓扑后，会提供必须运行 Skype for Business Server 部署向导的受影响服务器列表，作为成功拓扑发布摘要屏幕上的链接。 有关发布更新拓扑的详细信息，请参阅[Publish the Topology](/previous-versions/office/lync-server-2013/lync-server-2013-publish-the-topology)。 有关部署向导Skype for Business Server的详细信息，请参阅 Lync Server [Administrative Tools](/previous-versions/office/lync-server-2013/lync-server-2013-lync-server-administrative-tools)。
+> 如果对此对话框中的属性进行更改，则必须发布拓扑，并在所有受影响的服务器上Skype for Business Server部署向导。 发布新拓扑后，会提供必须运行 Skype for Business Server 部署向导的受影响服务器列表，作为成功拓扑发布摘要屏幕上的链接。 有关发布更新拓扑的详细信息，请参阅[Publish the Topology](/previous-versions/office/lync-server-2013/lync-server-2013-publish-the-topology)。 有关部署向导Skype for Business Server的详细信息，请参阅 [Lync Server Administrative Tools](/previous-versions/office/lync-server-2013/lync-server-2013-lync-server-administrative-tools)。
 
 单击“确定”以保存并将更改应用到拓扑文档。
 

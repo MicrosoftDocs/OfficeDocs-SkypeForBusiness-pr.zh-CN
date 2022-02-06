@@ -1,25 +1,20 @@
 ---
-title: " (中) 验证呼叫Skype for Business"
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: ' (中) 验证呼叫Skype for Business'
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: fcfe0962-1a9c-4cbd-847c-fed40e3b1480
 description: 验证呼叫管理中心中的呼叫Skype for Business Server 企业语音。
-ms.openlocfilehash: 9258a38936ffe22eb209c4b4bd9d1e5692341003
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838334"
 ---
+
 # <a name="optional-verify-call-park-deployment-in-skype-for-business"></a> (中) 验证呼叫Skype for Business
  
 验证呼叫管理中心中的呼叫Skype for Business Server 企业语音。 
@@ -29,7 +24,7 @@ ms.locfileid: "60838334"
 - 呼叫启用了呼叫管理的用户，并让用户将呼叫进行呼叫。
     
     > [!NOTE]
-    > 如果在执行此测试之前刚刚在语音策略中启用了呼叫库，则正在呼叫的该用户需要注销 Skype for Business，然后重新登录，才能在转移呼叫列表中看到"呼叫离开"选项。 
+    > 如果在执行此测试之前刚刚在语音策略中启用了呼叫库，则要呼叫的用户需要注销 Skype for Business，然后重新登录，才能在转移呼叫列表中看到"呼叫离开"选项。 
   
 - 拨打通道号码以取回此呼叫。
     

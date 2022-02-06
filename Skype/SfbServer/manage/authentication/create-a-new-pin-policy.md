@@ -1,36 +1,31 @@
 ---
 title: 在"密码"中创建新的 PIN Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 8bdf0478-fe9f-4371-93ff-db39381a25db
-description: 摘要：在密码中创建新的 PIN Skype for Business Server。
-ms.openlocfilehash: cf9a35c634c9b53b557601009fa131c3c24e7db2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844205"
+description: 摘要：在管理中创建新的 PIN Skype for Business Server。
 ---
+
 # <a name="create-a-new-pin-policy-in-skype-for-business-server"></a>在"密码"中创建新的 PIN Skype for Business Server
  
 **摘要：** 在"密码"中创建新的 PIN Skype for Business Server。
   
-可以使用 **"PIN** 策略"页向 (IP 电话) PIN Skype for Business个人标识号。 要使用 PIN 身份验证，请确保在 Web 服务设置中选中“启用 PIN 身份验证”。
+可以使用"**PIN 策略**"页向 (IP 电话) PIN Skype for Business个人标识号。 要使用 PIN 身份验证，请确保在 Web 服务设置中选中“启用 PIN 身份验证”。
   
 按照以下步骤创建用户级别或站点级别的 PIN 策略。 
   
 ### <a name="to-create-a-user-or-site-pin-policy"></a>创建用户或站点 PIN 策略
 
-1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 的用户帐户，或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署 Skype for Business Server 的网络内的任何计算机。
+1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到部署 Skype for Business Server 的网络内的任何计算机。
     
 2. 打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。 
     
@@ -56,7 +51,7 @@ ms.locfileid: "60844205"
     
 11. 在“PIN 历史记录计数”中，键入用户可以重复使用某个 PIN 之前，必须创建的 PIN 数目。默认情况下，用户可以重复使用其 PIN。
     
-12. 若要在 PIN 中允许数字的常见模式，例如"1234"和"8888"，请选中" **允许** 通用模式"复选框。 如果未选择此选项，则仅允许使用数字的复杂模式。 默认情况下，仅允许使用数字的复杂模式。
+12. 若要在 PIN 中允许数字的常见模式，例如"1234"和"8888"，请选中" **允许通用** 模式"复选框。 如果未选择此选项，则仅允许使用数字的复杂模式。 默认情况下，仅允许使用数字的复杂模式。
     
     > [!IMPORTANT]
     > 我们建议您不要允许使用通用模式。 

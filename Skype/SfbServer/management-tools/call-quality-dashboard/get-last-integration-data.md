@@ -1,25 +1,20 @@
 ---
 title: 获取最后一个集成数据
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: e7967dd9-0d6a-4a80-8b59-b8fc2e5615f8
 description: 摘要：了解"获取最后一次集成数据"操作，这是通话质量仪表板的数据 API 的一部分。 通话质量仪表板是一种用于Skype for Business Server。
-ms.openlocfilehash: 7bc9323c4a2d3933706be0a39a2ff4b86b11eb42
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851966"
 ---
+
 # <a name="get-last-integration-data"></a>获取最后一个集成数据
  
 **摘要：** 了解"获取最后一次集成数据"操作，该操作是通话质量仪表板的数据 API 的一部分。 通话质量仪表板是一种用于Skype for Business Server。
@@ -35,7 +30,7 @@ Get Last Integration Data operation returns the list of last 5 success/failure o
 
 |**方法**|**请求 URI**|**HTTP 版本**|
 |:-----|:-----|:-----|
-|GET  <br/> |https:// \<portal\> /QoEDataService/IntegrationLog/Status  <br/> |HTTP/1.1  <br/> |
+|GET  <br/> |\<portal\>https:///QoEDataService/IntegrationLog/Status  <br/> |HTTP/1.1  <br/> |
    
  **URI 参数** - 无。
   
@@ -45,7 +40,7 @@ Get Last Integration Data operation returns the list of last 5 success/failure o
   
  **响应** - 响应包括 HTTP 状态代码和一组响应标头。
   
- **状态代码** - 成功操作返回状态代码 200 (确定) 。
+ **状态代码** - 成功操作返回状态代码 200， (确定) 。
   
  **响应标头** - 无其他标头。
   

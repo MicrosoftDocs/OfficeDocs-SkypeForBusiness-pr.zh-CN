@@ -1,30 +1,25 @@
 ---
 title: 准备架构
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.dep.DeployMainSchemaPrep
+  - ms.lync.dep.DeployMainSchemaPrep
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 337aa234-c5f3-4468-a047-2023848e942c
-ROBOTS: NOINDEX, NOFOLLOW
-description: 若要为 Active Directory 域服务准备架构，请运行部署向导中的准备Skype for Business Server步骤。 单击“运行”可开始准备架构。
-ms.openlocfilehash: 88a9ca5f93263b4d8a514db3c987bcd3a63d87a0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842344"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 若要为 Active Directory 域服务准备架构，请运行部署向导中的"准备Skype for Business Server步骤。 单击“运行”可开始准备架构。
 ---
+
 # <a name="prepare-schema"></a>准备架构
  
-若要为 Active Directory 域服务准备架构，请运行部署向导中的准备Skype for Business Server步骤。 单击“运行”可开始准备架构。 "准备架构"步骤读取运行部署向导的系统的 \Program Files\Skype for Business Server 2019\Deployment\Setup 目录中提供的架构定义文件。 安装介质的 \Support\Schema 目录中也提供了这些文件。 “准备架构”步骤将扩展架构并报告准备过程的状态。 还将在完成准备过程时通知您。 通过摘要屏幕可以查看该过程的日志。 查看日志以确保准备工作已成功完成。
+若要为 Active Directory 域服务准备架构，请运行部署向导中的"准备Skype for Business Server步骤。 单击“运行”可开始准备架构。 "准备架构"步骤读取运行部署向导的系统的 \Program Files\Skype for Business Server 2019\Deployment\Setup 目录中提供的架构定义文件。 安装介质的 \Support\Schema 目录中也提供了这些文件。 “准备架构”步骤将扩展架构并报告准备过程的状态。 还将在完成准备过程时通知您。 通过摘要屏幕可以查看该过程的日志。 查看日志以确保准备工作已成功完成。
   
 > [!IMPORTANT]
 > 要扩展架构，必须以 Schema Admins 和 Enterprise Admins 组成员身份登录域。 

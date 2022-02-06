@@ -1,25 +1,20 @@
 ---
 title: 运行查询
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 45a77f7e-b137-462b-9146-3a0f43d8e0c7
 description: 摘要：了解运行查询操作，这是通话质量仪表板的数据 API 的一部分。 通话质量仪表板是一种用于Skype for Business Server。
-ms.openlocfilehash: 00060baabff5bdcc4e930f56f7885de273060597
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849805"
 ---
+
 # <a name="run-query"></a>运行查询
 
 **摘要：** 了解运行查询操作，这是通话质量仪表板的数据 API 的一部分。 通话质量仪表板是一种用于Skype for Business Server。
@@ -33,7 +28,7 @@ ms.locfileid: "60849805"
 
 |**方法**|**请求 URI**|**HTTP 版本**|
 |:-----|:-----|:-----|
-|POST  <br/> |https:// \<portal\> /QoEDataService/RunQuery  <br/> |HTTP/1.1  <br/> |
+|POST  <br/> |\<portal\>https:///QoEDataService/RunQuery  <br/> |HTTP/1.1  <br/> |
 
  **URI 参数** - 无。
 
@@ -84,7 +79,7 @@ ms.locfileid: "60849805"
 
  **响应** - 响应包括 HTTP 状态代码和一组响应标头。
 
- **状态代码** - 成功操作返回状态代码 200 (确定) 。
+ **状态代码** - 成功操作返回状态代码 200， (确定) 。
 
  **响应标头** - 无其他标头。
 

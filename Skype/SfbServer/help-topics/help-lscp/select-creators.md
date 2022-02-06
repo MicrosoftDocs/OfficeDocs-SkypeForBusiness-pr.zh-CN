@@ -1,30 +1,25 @@
 ---
 title: 选择创建者
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.SelectCreators
+  - ms.lync.lscp.SelectCreators
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: f8d9ed6f-22ba-470e-b0b4-0da3cea5e961
 description: 正确使用类别可更轻松地创建和管理持久聊天室。 持久聊天管理员可以为每个类别定义 AllowedMembers 和 Creators，还可以定义将应用于在类别中创建的所有聊天室的默认聊天室设置和行为。 持久聊天管理员使用控制面板或 Skype for Business Server cmdlet 创建Windows PowerShell类别。
-ms.openlocfilehash: d0b794c8f378f46d7713875b83560de37ac7c8b3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837974"
 ---
+
 # <a name="select-creators"></a>选择创建者
 
-正确使用类别可更轻松地创建和管理持久聊天室。 持久聊天管理员可以为每个类别定义 **AllowedMembers** 和 **Creators，** 还可以定义将应用于在类别中创建的所有聊天室的默认聊天室设置和行为。 持久聊天管理员使用控制面板或 Skype for Business Server cmdlet 创建Windows PowerShell类别。
+正确使用类别可更轻松地创建和管理持久聊天室。 持久聊天管理员可以为每个类别定义 **AllowedMembers** 和 **Creators** ，还可以定义将应用于在类别中创建的所有聊天室的默认聊天室设置和行为。 持久聊天管理员使用控制面板或 Skype for Business Server cmdlet 创建Windows PowerShell类别。
 
 ## <a name="tasks-that-you-can-perform"></a>可执行的任务
 
@@ -34,15 +29,15 @@ ms.locfileid: "60837974"
 
 - [新增的群聊服务器功能](/previous-versions/office/lync-server-2013/lync-server-2013-new-persistent-chat-server-features)
 
-有关可以使用控制面板执行的不同过程的详细信息，请参阅 Manage [Skype for Business Server Skype for Business Server 2015](../../manage/manage.md)。
+有关可以使用控制面板执行的不同过程的详细信息，Skype for Business Server Manage [Skype for Business Server 2015](../../manage/manage.md)。
 
 ## <a name="to-configure-categories-for-chat-rooms"></a>配置聊天室的类别
 
-在 **"成员身份**"的" **创建者** "部分，添加或删除与类别的创建者关联的用户和其他 Active Directory 主体。 创建者是有权创建聊天室并指定聊天室管理员和成员的用户。
+在 **"** 成员身份"的" **创建者** "部分，添加或删除与类别的创建者关联的用户和其他 Active Directory 主体。 创建者是有权创建聊天室并指定聊天室管理员和成员的用户。
 
 
 
-有关持久聊天服务器特性和功能的详细信息，请参阅规划文档中的[Overview of Persistent Chat Server。](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-persistent-chat-server) 有关使用持久聊天服务器配置的详细信息，请参阅部署文档中的[Configuring Persistent Chat Server](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-persistent-chat-server)和操作文档中的[Managing Lync Server 2013， Persistent Chat Server。](/previous-versions/office/lync-server-2013/managing-lync-server-2013-persistent-chat-server)
+有关持久聊天服务器特性和功能的详细信息，请参阅规划文档中的 [Overview of Persistent Chat Server](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-persistent-chat-server) 。 有关使用持久聊天服务器配置的详细信息，请参阅部署文档中的 [Configuring Persistent Chat Server](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-persistent-chat-server) 和操作文档中的 [Managing Lync Server 2013， Persistent Chat Server](/previous-versions/office/lync-server-2013/managing-lync-server-2013-persistent-chat-server) 。
 
 ## <a name="see-also"></a>另请参阅
 

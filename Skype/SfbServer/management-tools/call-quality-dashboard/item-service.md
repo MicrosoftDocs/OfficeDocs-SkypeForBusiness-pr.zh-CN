@@ -1,25 +1,20 @@
 ---
 title: '呼叫质量仪表板项目服务 (CQD) '
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b6d7b02a-a34e-4fef-986c-ca442e18fa0c
 description: 摘要：了解项目服务，它是通话质量仪表板存储库 API 的一部分。 通话质量仪表板是一种用于Skype for Business Server。
-ms.openlocfilehash: 58d141930d98704eac101feb5d0fe8994284b587
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848435"
 ---
+
 # <a name="item-service-for-call-quality-dashboard-cqd"></a>呼叫质量仪表板项目服务 (CQD) 
  
 **摘要：** 了解项目服务，它是通话质量仪表板存储库 API 的一部分。 通话质量仪表板是一种用于Skype for Business Server。
@@ -54,7 +49,7 @@ REST 操作包含在下表中。
 |:-----|:-----|
 |[获取项目](get-items.md) <br/> |Get Items 返回存储库中的所有项。  <br/> |
 |[获取项目](get-item.md) <br/> |Get Item 返回特定 Item。  <br/> |
-|[获取子项](get-sub-items.md) <br/> |Get Sub-Items返回特定项目的子项。  <br/> |
+|[获取子项](get-sub-items.md) <br/> |获取Sub-Items返回特定项目的子项。  <br/> |
 |[获取项目上级](get-item-ancestors.md) <br/> |获取项目上级返回特定项的上级。  <br/> |
 |[更新项目](update-item.md) <br/> |更新存储库中的特定项。  <br/> |
    

@@ -1,27 +1,22 @@
 ---
 title: Skype会议室系统会议室设置脚本
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: a66067d2-22b0-48f1-a5d0-e0cd0ece2e5a
-description: 阅读本主题以查找用于预配会议室系统帐户Skype脚本。
-ms.openlocfilehash: ef70cc0c36cf4a1434b0ca1e120a8d81799d7640
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859629"
+description: 阅读本主题，查找用于预配会议室系统帐户Skype脚本。
 ---
+
 # <a name="skype-room-system-room-setup-scripts"></a>Skype会议室系统会议室设置脚本
  
-阅读本主题以查找用于预配会议室系统帐户Skype脚本。
+阅读本主题，查找用于预配会议室系统帐户Skype脚本。
   
 本节演示可用于预配会议室系统帐户Skype脚本。 这些脚本仅用于说明目的。 只有在咨询 IT 专家或域管理员后，才应使用。
   
@@ -39,7 +34,7 @@ Set-ADAccountPassword -Identity "conference room"# Paste the next command on its
 Set-CsMeetingRoom -Identity "conference room" -LineURI "tel:+14255551669;ext=1669" -EnterpriseVoiceEnabled $true
 ```
 
-## <a name="example-setup-script-skype-for-business-and-exchange-server-online"></a>示例设置脚本：Skype for Business 和 Exchange Server Online
+## <a name="example-setup-script-skype-for-business-and-exchange-server-online"></a>示例设置脚本：Skype for Business和 Exchange Server Online
 
 在运行脚本之前，请确保已查看以下先决条件：
   
@@ -47,7 +42,7 @@ Set-CsMeetingRoom -Identity "conference room" -LineURI "tel:+14255551669;ext=166
     
 - Windows Azure Active Directory 64 Windows PowerShell (32 位) 或 (32 位版本的) 
     
-- TeamsPowerShell 模块
+- Teams PowerShell 模块
     
 - 如果需要，请重新启动
     

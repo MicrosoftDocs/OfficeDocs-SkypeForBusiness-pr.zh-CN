@@ -1,34 +1,29 @@
 ---
 title: AudioStream 表
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 49ccbbc3-2f73-45fc-80a6-e612535cbc10
 description: 每条记录代表一个音频流。 一个音频媒体行通常包含两个音频流。
-ms.openlocfilehash: b9a5e184a258115934d3583e4f6cde8f659fb9fe
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856419"
 ---
+
 # <a name="audiostream-table"></a>AudioStream 表
  
 每条记录代表一个音频流。 一个音频媒体行通常包含两个音频流。
   
 |列|数据类型|键/索引|详细信息|
 |:-----|:-----|:-----|:-----|
-|**ConferenceDateTime** <br/> |datetime  <br/> |主  <br/> |从 [MediaLine 表引用](medialine-0.md)。  <br/> |
-|**SessionSeq** <br/> |int  <br/> |主  <br/> |从 [MediaLine 表引用](medialine-0.md)。  <br/> |
-|**MediaLineLabel** <br/> |tinyint  <br/> |主  <br/> |从 [MediaLine 表引用](medialine-0.md)。  <br/> |
+|**ConferenceDateTime** <br/> |datetime  <br/> |主  <br/> |从 [MediaLine 表中引用](medialine-0.md)。  <br/> |
+|**SessionSeq** <br/> |int  <br/> |主  <br/> |从 [MediaLine 表中引用](medialine-0.md)。  <br/> |
+|**MediaLineLabel** <br/> |tinyint  <br/> |主  <br/> |从 [MediaLine 表中引用](medialine-0.md)。  <br/> |
 |**StreamID** <br/> |int  <br/> |主  <br/> |媒体行中的唯一 ID。  <br/> |
 |**JitterInterArrival** <br/> |int  <br/> | <br/> |实时控制协议 (RTCP) 统计信息中的平均网络抖动。  <br/> |
 |**JitterInterArrivalMax** <br/> |int  <br/> | <br/> |呼叫期间的最大网络抖动。  <br/> |

@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 采用第 1 阶段 - 开始
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 10/29/2018
 audience: Admin
@@ -12,22 +12,18 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 本文介绍采用方案启动阶段Microsoft Teams活动。 了解有关团队Microsoft Teams和团队规划的最佳实践。
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- Adopt
-- seo-marvel-apr2020
+  - Adopt
+  - seo-marvel-apr2020
 ms.collection:
-- Teams_ITAdmin_Adopt
-- M365-collaboration
+  - Teams_ITAdmin_Adopt
+  - M365-collaboration
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: 5ba8e37a6cbb6850eebd1fd7d1e1a238d4c7d304
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840694"
+  - Microsoft Teams
 ---
+
+
 # <a name="microsoft-teams-adoption-phase-1---start"></a>Microsoft Teams 采用第 1 阶段 - 开始
 
 通过以下活动Teams应用：
@@ -35,7 +31,7 @@ ms.locfileid: "60840694"
 - [验证采用先决条件](#validate-adoption-prerequisites)。
 - [组建团队](#assemble-your-team)。
 - [了解团队和频道](teams-adoption-understand-teams-and-channels.md)。
-- [在团队中设置第一Teams](teams-adoption-your-first-teams.md)团队，以建立技术知识。
+- [在团队中设置第一Teams](teams-adoption-your-first-teams.md)以建立技术知识。
 - [评估组织的更改准备情况](teams-adoption-assess-readiness.md)。
 
 此阶段的主要目标是确保做好试验阶段的准备。 您还将确定是否需要 Microsoft 或我们的熟练合作伙伴网络的帮助。  
@@ -48,20 +44,20 @@ ms.locfileid: "60840694"
 
 下表列出了项目团队的核心角色。 在较小的组织中，其中一些角色可能由同一人员执行。
 
-| 角色 | 职责 | 部门 |
+| 角色 | 责任 | 部门 |
 | ---- | ---------------- | ---------- |
 | 执行发起<sup>人 1</sup> | 传达高级愿景。 连接 Teams公司的核心任务和优先计划实施。 | 高层领导 |
 | 成功所有者<sup>1</sup> | 确保业务目标从新的部署Teams实现。 | 任何部门 |
-| 项目经理<sup>1</sup> | 监督整个Teams启动执行和推出过程。 | IT |
-| 冠军<sup>1</sup> | 帮助宣传Teams，支持技能构建，并提供使用情况见解。 | 多个部门 |
+| Program <sup>Manager1</sup> | 监督整个Teams启动执行和推出过程。 | IT |
+| 冠军 <sup>1</sup> | 帮助宣传Teams，支持技能构建，并提供使用情况见解。 | 多个部门 |
 | 培训主管 | 管理和传达有关 Teams 的培训Teams。 | IT 或其他 |
-| 部门主管 (利益干系人) <sup>2</sup> | 确定特定部门如何使用Teams并鼓励参与。 | 任何部门 (管理)  |
+| 部门主管 (利益干系人) <sup>2</sup> | 确定特定部门如何使用Teams并鼓励用户参与。 | 任何部门 (管理)  |
 | IT 专家<sup>1</sup> | 监督实施的所有技术方面，包括集成。 | IT |
-| 通信主管<sup>2</sup> | 监督公司范围内有关Teams。 | 公司通信、IT 或其他 |
-| Community管理器 | 管理日常网络Yammer活动。 提供指南和最佳做法。 | 多个部门 |
+| 通信潜在顾客 <sup>2</sup> | 监督公司范围内有关Teams。 | 公司通信、IT 或其他 |
+| Community Manager | 管理日常网络Yammer活动。 提供指南和最佳做法。 | 多个部门 |
 
 <sup>1</sup>这些角色对于项目的成功至关重要。</br>
-<sup>2</sup>这些角色对于总体计划的成功非常重要。
+<sup>2</sup>这些角色对于整个计划的成功非常重要。
 
 在大多数情况下，此初始团队应是一小组对项目感兴趣的志同道合的人，Teams也对其实施负责。 随着采用计划进入其他阶段，团队中将包含更多人员。 我们还建议你利用 Microsoft 资源来帮助你。 
 
@@ -69,7 +65,7 @@ ms.locfileid: "60840694"
 
 [Microsoft 技术Community](https://aka.ms/TechCommunity)提供对等提供的见解，了解许多应用和Microsoft 365产品的Office 365问题。 建议加入以下社区：
 
-- [Microsoft Teams技术Community](https://aka.ms/TeamsCommunity) - 获取产品问题解答，向其他 Teams 客户学习，并关注我们的博客，随时了解适用于客户的新功能和Teams。 
+- [Microsoft Teams技术](https://aka.ms/TeamsCommunity)Community - 获取产品问题解答，向其他 Teams 客户学习，并关注我们的博客，随时了解 Teams 的新功能和用例。 
 - [支持者](https://aka.ms/O365Champions)计划与推动采用社区 - 向同行学习如何最好地推动 Microsoft 365 或 Office 365 工作负荷（如 Teams、SharePoint、Yammer 和其他产品的采用）。 向 IT 专业人员、业务用户、"意外"开发人员以及有兴趣推动采用云服务的任何人开放。  
 
 

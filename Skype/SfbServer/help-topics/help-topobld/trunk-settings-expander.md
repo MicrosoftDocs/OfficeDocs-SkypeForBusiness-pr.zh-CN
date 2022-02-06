@@ -1,27 +1,22 @@
 ---
 title: Trunk 设置扩展器
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.TrunkSettingsExpander
+  - ms.lync.tb.TrunkSettingsExpander
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3d00e8f4-e599-4094-a4a1-34fd6e8a5580
 description: 若要编辑或修改 SIP 中继的设置，请执行下列操作：
-ms.openlocfilehash: ce5b7a82dbba580c96894cfdf51b4ca66dba7cbe
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847465"
 ---
+
 # <a name="trunk-settings-expander"></a>中继设置扩展器
 
 若要编辑或修改 SIP 中继的设置，请执行下列操作：
@@ -39,7 +34,7 @@ ms.locfileid: "60847465"
 > [!NOTE]
 > 只有根中继可以与 Lync Server 2010 或 Lync Server 2013 中介服务器关联。
 
- **关联的中介服务器端口**：一个必需值，设置为中介服务器配置为侦听的值。
+ **关联的中介服务器端口**：必需值，设置为中介服务器配置为侦听的值。
 
 ![中继设置扩展器。](../../media/Trunk_Settings_Expander.jpg)
 

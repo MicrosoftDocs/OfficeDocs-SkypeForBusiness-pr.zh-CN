@@ -1,24 +1,19 @@
 ---
 title: 删除现有存档策略Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 8b88bed9-2b37-4caf-b119-48688076e06a
 description: 摘要：了解如何删除存档策略Skype for Business Server。
-ms.openlocfilehash: f475eb3ea70eea98c2bfa67b1dea02e30a0b977c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60852086"
 ---
+
 # <a name="delete-an-existing-archiving-policy-in-skype-for-business-server"></a>删除现有存档策略Skype for Business Server
 
 **摘要：** 了解如何删除存档策略Skype for Business Server。

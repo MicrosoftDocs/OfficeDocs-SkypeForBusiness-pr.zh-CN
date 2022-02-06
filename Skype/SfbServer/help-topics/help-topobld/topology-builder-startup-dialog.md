@@ -1,27 +1,22 @@
 ---
 title: 拓扑生成器启动对话框
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.StartupDialog
+  - ms.lync.tb.StartupDialog
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 8761008f-b239-4b95-bcd8-1011198dd070
 description: 启动拓扑生成器以配置 Microsoft Lync Server 2013 部署的属性和配置。 启动时，拓扑生成器显示一个对话框，询问拓扑文档的源是什么。 选择三个选项之一：
-ms.openlocfilehash: 991e6bcdfc62e046c7d46fb3d249ccee27bb9187
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863589"
 ---
+
 # <a name="topology-builder-startup-dialog"></a>拓扑生成器启动对话框
 
 启动拓扑生成器以配置 Microsoft Lync Server 2013 部署的属性和配置。 启动时，拓扑生成器显示一个对话框，询问拓扑文档的源是什么。 选择三个选项之一：

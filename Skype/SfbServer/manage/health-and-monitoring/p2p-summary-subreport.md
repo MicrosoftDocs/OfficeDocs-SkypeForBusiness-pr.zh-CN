@@ -1,27 +1,22 @@
 ---
 title: P2P 摘要子报表Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: fc36185a-3cc5-4167-8c93-8a755fa75ac7
-description: 摘要：了解 P2P 摘要子报表Skype for Business Server。
-ms.openlocfilehash: e8296604626b143bb143ea2acbdf8e6875e1acf6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861319"
+description: 摘要：了解 Skype for Business Server 中的 P2P 摘要子报告。
 ---
+
 # <a name="p2p-summary-subreport-in-skype-for-business-server"></a>P2P 摘要子报表Skype for Business Server
  
-**摘要：** 了解 P2P 摘要子报表Skype for Business Server。
+**摘要：** 了解 Skype for Business Server 中的 P2P 摘要子报表。
   
 P2P 摘要子报表对失败点对点通信会话提供一个总体视图。
   

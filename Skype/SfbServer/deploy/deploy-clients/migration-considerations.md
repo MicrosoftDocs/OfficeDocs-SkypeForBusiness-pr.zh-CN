@@ -1,35 +1,30 @@
 ---
 title: Skype会议室系统迁移注意事项
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: df9f33b6-0360-4354-b651-bd35da533e33
-description: 阅读本主题，了解如何在具有多个版本的 Skype 和 Lync Server 的环境中部署Skype for Business Server系统。
-ms.openlocfilehash: 1b57115a332a647143fc0a3a7ca2c1ee178ad5fe
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850505"
+description: 阅读本主题，了解如何在具有多个版本的 Skype 和 Lync Server 的环境中部署会议室Skype for Business Server系统。
 ---
+
 # <a name="skype-room-system-migration-considerations"></a>Skype会议室系统迁移注意事项
  
-阅读本主题，了解如何在具有多个版本的 Skype 和 Lync Server 的环境中部署Skype for Business Server系统。
+阅读本主题，了解如何在具有多个版本的 Skype 和 Lync Server 的环境中部署会议室Skype for Business Server系统。
   
 ## <a name="migration-considerations"></a>迁移注意事项
 
-如果要在包含不同版本 Skype Lync Server 的多池环境中部署会议室系统，本节Skype for Business Server指南。 
+如果要在包含不同版本的 Skype 或 Lync Server 的多池环境中部署会议室系统，本节Skype for Business Server指南。 
   
 Lync Server 中的用户 (UR) 组件从 Active Directory 获取用户对象，然后将它们放入 Lync Server 后端 SQL Server 数据库。 只有 Lync Server 2013 中的 UR 可以Skype会议室系统对象。 以前版本的 Lync Server 和 Office Communications Server 中的 UR 不会检测指定 LRS 对象的 Active Directory 属性，因此不知道这些属性。 
   
-如果 Skype 会议室系统帐户尝试登录 Lync，并基于 SRV 记录或 DNS A 记录进行自动发现，并且如果这些帐户指向以前版本的 Lync Server 或 Office Communications Server，LRS 将收到来自旧池的 404 未找到响应。 旧池将无法将会议室系统Skype Lync Server 2013 主池。 
+如果 Skype 会议室系统帐户尝试登录 Lync，并基于 SRV 记录或 DNS A 记录进行自动发现，并且如果这些帐户指向以前版本的 Lync Server 或 Office Communications Server，LRS 将收到来自旧池的 404 未找到响应。 旧池将无法将会议室Skype重定向到其 Lync Server 2013 主池。 
   
 可以使用以下选项解决此问题： 
   
@@ -39,7 +34,7 @@ Lync Server 中的用户 (UR) 组件从 Active Directory 获取用户对象，�
     
 - 如果Skype会议室系统部署在企业网络外部，并且 Lync 边缘服务器已部署并配置为指向旧池或控制器，则需要指向 Lync Server 2013 池的辅助边缘服务器站点。 有关部署辅助边缘服务器的信息，请参阅边缘服务器部署文档。 
     
-## <a name="skype-room-system-interoperability-with-a-lync-server-2010-pool"></a>Skype会议室系统与 Lync Server 2010 池的互操作性
+## <a name="skype-room-system-interoperability-with-a-lync-server-2010-pool"></a>Skype Lync Server 2010 池实现会议室系统互操作性
 
 在迁移过程中，如果位于 Lync Server 2010 池上的用户安排会议并邀请 Skype 会议室系统帐户，Skype 会议室系统客户端在参加会议时将具有有限的功能。 
   
@@ -59,6 +54,6 @@ Lync Server 中的用户 (UR) 组件从 Active Directory 获取用户对象，�
     
 - Lync Server 2010 上托管的会议的桌面共享性能存在限制。
     
-- 用户将无法通过会议室系统 (Lync 2010) 会议加入Skype会议。
+- 用户将无法加入在 Lync 2010 上 (会议室) 的专用会议Skype会议。
     
 

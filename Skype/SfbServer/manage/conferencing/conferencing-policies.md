@@ -1,29 +1,24 @@
 ---
 title: 管理会议策略Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 34ec5e41-6fe6-450b-81b0-0d17b9989839
 description: 摘要：了解如何在 Skype for Business Server 中管理会议策略。
-ms.openlocfilehash: 8a4c209e711ba6ff332873147c0523839807b108
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835300"
 ---
+
 # <a name="manage-conferencing-policies-in-skype-for-business-server"></a>管理会议策略Skype for Business Server
  
-**摘要：** 了解如何在会议部署中管理Skype for Business Server。
+**摘要：** 了解如何在 Skype for Business Server 中管理会议策略。
   
-本主题介绍如何管理会议策略。 若要详细了解如何计划和部署会议，请参阅在 Skype for Business Server 中[](../../plan-your-deployment/conferencing/conferencing.md)规划会议[Skype for Business Server。](../../deploy/deploy-conferencing/deploy-conferencing.md)
+本主题介绍如何管理会议策略。 若要详细了解如何计划和部署会议，请参阅在 Skype for Business Server 中规划会议[Skype for Business Server](../../plan-your-deployment/conferencing/conferencing.md)[。](../../deploy/deploy-conferencing/deploy-conferencing.md)
   
 会议策略允许你定义各种安排和参与选项，范围从会议能否包括 IP 音频和视频到可参与会议的最大人数。 可以使用会议策略来管理会议的安全性、带宽和法律方面。
   
@@ -39,7 +34,7 @@ ms.locfileid: "60835300"
     
 2.  打开Skype for Business Server控制面板"。
     
-3. 在左侧导航栏中，单击 **"会议"，** 然后单击"**会议策略"。**
+3. 在左侧导航栏中，单击 **"会议"**，然后单击" **会议策略"**。
     
 ## <a name="manage-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>使用命令行管理程序Skype for Business Server会议策略
 

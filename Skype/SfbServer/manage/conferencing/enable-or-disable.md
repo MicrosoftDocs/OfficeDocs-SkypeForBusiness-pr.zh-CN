@@ -1,24 +1,19 @@
 ---
 title: 启用或禁用电话拨入式会议Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: c1f7cf91-8434-42ec-b09d-7d9d01e0b357
 description: 摘要：了解如何使用控制面板或命令行管理程序在 Skype for Business Server 中启用或禁用电话拨入式Skype for Business Server。
-ms.openlocfilehash: 84a07645489ad71af9b71ce9f8d8328490ee6df4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850005"
 ---
+
 # <a name="enable-or-disable-dial-in-conferencing-in-skype-for-business-server"></a>启用或禁用电话拨入式会议Skype for Business Server
  
 **摘要：** 了解如何使用控制面板或命令行管理程序在 Skype for Business Server 中启用或禁用电话拨入式Skype for Business Server。
@@ -31,7 +26,7 @@ ms.locfileid: "60850005"
     
 2.  打开Skype for Business Server控制面板"。
     
-3. 在左侧导航栏中，单击 **"会议"，** 然后单击"**会议策略"。**
+3. 在左侧导航栏中，单击 **"会议"**，然后单击" **会议策略"**。
     
 4. 在会议策略列表中，选择要为其启用电话拨入式会议的策略，单击“编辑”，然后单击“显示详细信息”。 
     

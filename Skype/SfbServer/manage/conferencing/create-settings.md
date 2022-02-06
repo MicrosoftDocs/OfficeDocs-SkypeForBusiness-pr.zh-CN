@@ -1,25 +1,20 @@
 ---
-title: 在会议环境中创建Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: 在会议环境中创建会议Skype for Business Server
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 6d8f9ff8-2a04-4175-9bf0-1ec5d78fd015
 description: 摘要：了解如何在会议环境中创建会议Skype for Business Server。
-ms.openlocfilehash: 1b0ba956e467f5b03036d8ef1d1629b4fc4dc517
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850025"
 ---
-# <a name="create-meeting-configuration-settings-in-skype-for-business-server"></a>在会议环境中创建Skype for Business Server
+
+# <a name="create-meeting-configuration-settings-in-skype-for-business-server"></a>在会议环境中创建会议Skype for Business Server
  
 **摘要：** 了解如何在会议环境中创建会议Skype for Business Server。
   
@@ -31,7 +26,7 @@ ms.locfileid: "60850025"
     
 2.  打开Skype for Business Server控制面板"。
     
-3. 在左侧导航栏中，单击 **"会议"，** 然后单击"会议 **配置"。**
+3. 在左侧导航栏中，单击 **"会议"**，然后单击"会议 **配置"**。
     
 4. 在 **“会议配置”** 页上，单击 **“新建”**，然后执行下列操作之一：
     
@@ -55,17 +50,17 @@ ms.locfileid: "60850025"
     
 9. 若要自定义发送给参与者的会议邀请，请执行下列操作。 请注意，URL 和自定义页脚文本的最大长度为 1KB。 帮助 **URL** 除外，如果不为自定义项指定值，它们将不会包含在会议中。 如果不包括自定义帮助 URL，则邀请中将显示Skype for Business的默认帮助 URL。 
     
-   - 若要自定义会议邀请中出现的徽标，请在"徽标 **URL"** 中输入徽标的位置。 徽标必须是大小为 188 x 30 像素的 GIF 或 JPG 图像。 
+   - 若要自定义会议邀请中出现的徽标，请在"徽标 **URL**"中输入徽标的位置。 徽标必须是大小为 188 x 30 像素的 GIF 或 JPG 图像。 
     
-   - 若要自定义会议邀请中显示的帮助文本，请在"帮助 **URL"** 中输入帮助文本的位置。
+   - 若要自定义会议邀请中显示的帮助文本，请在"帮助 **URL**"中输入帮助文本的位置。
     
-   - 若要自定义会议邀请中显示的法律文本，请在"法律文本 **URL"** 中输入法律文本的位置。
+   - 若要自定义会议邀请中显示的法律文本，请在"法律文本 **URL**"中输入法律文本的位置。
     
-   - 若要自定义会议邀请中出现的页脚文本，请在"自定义页脚文本" **中** 输入文本。
+   - 若要自定义会议邀请中出现的页脚文本， **请在"自定义** 页脚文本"中输入文本。
     
 10. 单击“提交”。
     
-## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>使用命令行管理程序Skype for Business Server配置设置
+## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>使用命令行管理程序Skype for Business Server会议配置设置
 
 若要创建会议配置设置，请使用 **New-CsMeetingConfiguration** cmdlet。
   
@@ -89,4 +84,4 @@ New-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Every
 New-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone" -PSTNUCallersBypassLobby $True
 ```
 
-有关详细信息，包括参数的完整列表，请参阅[New-CsMeetingConfiguration。](/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps)
+有关详细信息，包括参数的完整列表，请参阅 [New-CsMeetingConfiguration](/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps)。

@@ -1,27 +1,22 @@
 ---
 title: 部署设置扩展器
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.DeploymentSettingsExpander
+  - ms.lync.tb.DeploymentSettingsExpander
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 7220ec1f-38cb-4297-870e-591a832cd2f2
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 可以使用以下部分编辑现有部署的属性：
-ms.openlocfilehash: fa5e519a43a2fefaab99a9349ca32239702d42d1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864089"
 ---
+
 # <a name="deployment-settings-expander"></a>部署设置扩展器
 
 可以使用以下部分编辑现有部署的属性：
@@ -73,7 +68,7 @@ ms.locfileid: "60864089"
 > [!IMPORTANT]
 > 为基础结构定义、发布并部署中央管理存储后，则必须通过外部进程将中央管理存储重新定位至其他前端，然后才能更改中央管理存储的位置。
 
-有关移动中央管理存储的详细信息，请参阅 Windows PowerShell cmdlet 参考中的[Move-CsManagementServer。](/powershell/module/skype/move-csmanagementserver?view=skype-ps)
+有关移动中央管理存储的详细信息，请参阅 Windows PowerShell cmdlet 参考中的 [Move-CsManagementServer](/powershell/module/skype/move-csmanagementserver?view=skype-ps)。
 
 
 有关定义和配置这些设置的详细信息，请参阅[Defining and Configuring the Topology](/previous-versions/office/lync-server-2013/lync-server-2013-defining-and-configuring-the-topology)。

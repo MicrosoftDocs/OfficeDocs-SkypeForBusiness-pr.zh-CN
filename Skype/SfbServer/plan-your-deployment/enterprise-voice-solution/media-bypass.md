@@ -1,28 +1,23 @@
 ---
 title: 规划媒体旁路Skype for Business
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 9ea090b3-f607-46f7-97dd-2510052524e5
 description: 规划媒体中媒体旁路Skype for Business Server 企业语音。 包括与 CAC 呼叫允许控制 (的) 。
-ms.openlocfilehash: 37bd24ba10ae506749a305f3fd5dfa55ca067fdc
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60827475"
 ---
+
 # <a name="plan-for-media-bypass-in-skype-for-business"></a>规划媒体旁路Skype for Business
 
 规划媒体中媒体旁路Skype for Business Server 企业语音。 包括与 CAC 呼叫允许控制 (的) 。
@@ -31,9 +26,9 @@ ms.locfileid: "60827475"
 
 媒体旁路功能可通过减少延迟、不必要的转换、可能的数据包丢失和潜在的故障点数来提高语音质量。 由于绕过的呼叫无需媒体处理操作，这可减少中介服务器上的负载，从而提高可伸缩性。 负载的减少补充了中介服务器控制多个网关的能力。
 
- 在没有中介服务器的分支站点通过具有限定带宽的一个或多个 WAN 链路连接到中央站点时，媒体旁路功能通过允许来自分支站点的客户端的媒体直接流动到其本地网关来降低带宽要求，而不必首先通过 WAN 链路流至中央站点上的中介服务器并流回。
+ 在没有中介服务器的分支站点通过具有限定带宽的一个或多个 WAN 链路连接到中央站点时，媒体旁路功能通过允许来自分支站点的客户端的媒体直接流动到其本地网关来降低带宽要求，而不必首先通过 WAN 链路流至中央站点上的中介服务器并返回。
 
-通过使中介服务器避免进行媒体处理，媒体旁路还可以减少中介基础结构所需的企业语音服务器的数量。 一般而言，应尽可能启用媒体旁路。
+通过使中介服务器避免进行媒体处理，媒体旁路还可以减少中介基础结构所需的企业语音数量。 一般而言，应尽可能启用媒体旁路。
 
 下图显示了具有和没有媒体旁路功能的拓扑中的基本媒体和信号路径。
 
@@ -41,7 +36,7 @@ ms.locfileid: "60827475"
 
 ![语音 CAC 媒体旁路连接强制。](../../media/Plan_CS_VoiceCAC_enforcementofconnectionstoPSTN.jpg)
 
-如果希望将部署的中介服务器数目降至最低，媒体绕过非常有用。 通常会在中央站点部署中介服务器池，中介服务器池将控制分支站点的网关。 启用媒体旁路后，来自分支站点中客户端的公用电话交换网 (PSTN) 呼叫的媒体可直接通过这些站点中的网关流动。 Skype for Business Server配置出站呼叫路由企业语音策略，以便来自分支站点客户端的 PSTN 呼叫路由到相应的网关。
+如果希望将部署的中介服务器数目降至最低，媒体绕过非常有用。 通常会在中央站点部署中介服务器池，中介服务器池将控制分支站点的网关。 启用媒体旁路后，来自分支站点中客户端的公用电话交换网 (PSTN) 呼叫的媒体可直接通过这些站点中的网关流动。 Skype for Business Server出站呼叫路由企业语音策略必须正确配置，以便来自分支站点客户端的 PSTN 呼叫路由到相应的网关。
 
 Wi-Fi 网络通常会比有线网络丢失更多的数据包。通常网关无法恢复这些丢失的数据包。因此，我们建议，在决定是否对无线子网启用绕过功能之前，先评估 Wi-Fi 网络的质量。同时，还需要在降低延迟和恢复丢失的数据包之间取得平衡。RTAudio 是一种可用于未绕过中介服务器的呼叫的编解码器，它更适合处理数据包丢失。
 

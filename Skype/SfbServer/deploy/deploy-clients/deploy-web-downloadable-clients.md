@@ -1,39 +1,34 @@
 ---
-title: 在客户端部署 Web Skype for Business Server
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: 在客户端部署 Web 可下载Skype for Business Server
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: PhillipGarding
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
-description: 摘要：部署Skype for Business Web应用Skype会议应用的 Skype for Business。
-ms.openlocfilehash: abb0a24d234043d793b09a538cbff23d0d549ac0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842494"
+description: 摘要：部署Skype for Business Web应用Skype会议"应用的 Skype for Business。
 ---
-# <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>在客户端部署 Web Skype for Business Server
+
+# <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>在客户端部署 Web 可下载Skype for Business Server
 
 **摘要：** 部署 Skype for Business 2015 Web App 和 Skype 会议应用程序与 Skype for Business Server。
 
-Skype for Business Web应用是一个 Internet Information Services (IIS) Web 客户端，安装在运行 Skype for Business Server 的服务器上Skype for Business Server默认情况下，它将按需部署到没有 Skype for Business 客户端的会议用户。 这些会议用户通常不是从网络外部连接。 每当用户单击会议 URL 但没有安装 Skype for Business 客户端时，都会向用户显示使用最新版本的 Skype for Business Web应用、Skype 会议应用或 Mac版Skype for Business 加入会议的选项。
+Skype for Business Web应用是一个 Internet Information Services (IIS) Web 客户端，安装在运行 Skype for Business Server 的服务器上Skype for Business Server默认情况下，它将按需部署到尚未拥有Skype for Business客户端。 这些会议用户通常不是从网络外部连接。 每当用户单击会议 URL 但没有安装 Skype for Business 客户端时，都会向用户显示使用最新版本的 Skype for Business Web应用、Skype 会议应用或 Mac版Skype for Business 加入会议的选项。
 
 Skype for Business Web应用中的语音、视频和共享功能ActiveX浏览器用作插件的 Microsoft ActiveX 控件。 您可以提前安装 ActiveX 控件，或允许用户在系统提示时安装它，这发生在他们第一次使用 Skype for Business Web应用 或首次访问需要 ActiveX 控件的功能时。
 
 > [!NOTE]
-> 在Skype for Business Server边缘服务器部署中，外围网络中需要 HTTPS 反向代理Skype for Business Web应用客户端访问。 您还必须发布简单 URL。 有关详细信息，请参阅 Setting [Up Reverse Proxy Servers](/previous-versions/office/lync-server-2013/lync-server-2013-setting-up-reverse-proxy-servers) and DNS requirements for simple [URLs in Skype for Business Server](../../plan-your-deployment/network-requirements/simple-urls.md)。
+> 在Skype for Business Server部署中，外围网络中需要 HTTPS 反向代理才能Skype for Business Web应用访问。 您还必须发布简单 URL。 有关详细信息，请参阅 Setting [Up Reverse Proxy Servers](/previous-versions/office/lync-server-2013/lync-server-2013-setting-up-reverse-proxy-servers) and [DNS requirements for simple URLs in Skype for Business Server](../../plan-your-deployment/network-requirements/simple-urls.md)。
 
 ## <a name="enable-multi-factor-authentication-for-skype-for-business-web-app"></a>为用户启用多重Skype for Business Web应用
 <a name="MFA"> </a>
 
-Skype for Business Web应用、Skype会议应用Mac版Skype for Business支持多重身份验证。 除了用户名和密码之外，还可以要求其他身份验证方法（如智能卡或 PIN）来验证从外部网络加入的用户登录到 Skype for Business 会议。 可以通过在联合服务器中部署 Active Directory 联合身份验证服务 (AD FS) 启用被动身份验证来启用Skype for Business Server。 配置 AD FS 后，会向尝试加入 Skype for Business 会议的外部用户提供 AD FS 多重身份验证网页，其中包含用户名和密码质询以及您配置的其他身份验证方法。
+Skype for Business Web应用、Skype会议应用Mac版Skype for Business支持多重身份验证。 除了用户名和密码之外，还可以要求其他身份验证方法（如智能卡或 PIN）来验证从外部网络加入的用户登录到 Skype for Business 会议。 可以通过在联合服务器中部署 Active Directory 联合身份验证服务 (AD FS) 启用被动身份验证来启用Skype for Business Server。 配置 AD FS 后，会向尝试加入 Skype for Business 会议的外部用户提供 AD FS 多重身份验证网页，其中包含用户名和密码质询以及已配置的其他身份验证方法。
 
 > [!IMPORTANT]
 > 如果您计划为多重身份验证配置 AD FS，则以下为重要注意事项：
@@ -82,7 +77,7 @@ Windows 7 和 Windows Server 2008 R2 中的 BranchCache 功能可能会干扰Sky
 ## <a name="verifying-skype-for-business-web-app-deployment"></a>验证Skype for Business Web应用部署
 <a name="MFA"> </a>
 
-可以使用 Test-CsUcwaConference cmdlet 验证一对测试用户能否使用 UCWA (统一通信 Web API 参与) 。 有关此 cmdlet 的详细信息，请参阅命令行管理程序文档中的[Test-CsUcwaConference](/powershell/module/skype/test-csucwaconference?view=skype-ps) Skype for Business Server命令行管理程序。
+您可以使用 Test-CsUcwaConference cmdlet 验证一对测试用户能否使用 UCWA (统一通信 Web API 参与) 。 有关此 cmdlet 的详细信息，请参阅命令行管理程序文档中的 [Test-CsUcwaConference](/powershell/module/skype/test-csucwaconference?view=skype-ps) Skype for Business Server命令行管理程序。
 
 ## <a name="troubleshooting-plug-in-installation-on-windows-server-2008-r2"></a>在 Windows Server 2008 R2 上安装插件疑难解答
 <a name="MFA"> </a>
@@ -93,11 +88,11 @@ Windows 7 和 Windows Server 2008 R2 中的 BranchCache 功能可能会干扰Sky
 
 1. 打开 Internet Explorer。
 
-2. 单击 **"工具**"，单击 **"Internet 选项**"，然后单击"**高级"。**
+2. 单击 **"工具**"，单击 **"Internet 选项**"，然后单击"高级 **"**。
 
 3. 向下滚动到"安全性 **"** 部分。
 
-4. 清除 **"不将加密页面保存到磁盘"，** 然后单击"确定 **"。**
+4. 清除 **"不将加密页面保存到磁盘"，** 然后单击"确定 **"**。
 
     > [!NOTE]
     > 如果选中此设置，则尝试从附件下载附件时，此设置Skype for Business Web应用。
@@ -112,7 +107,7 @@ Windows 7 和 Windows Server 2008 R2 中的 BranchCache 功能可能会干扰Sky
 
 3. 导航到HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\Installer。
 
-4. 编辑或添加类型为 REG_DWORD的 DisableMSI 注册表项，并设置为 0。
+4. 编辑或添加类型为 REG_DWORD的 DisableMSI 注册表项，将其设置为 0。
 
 5. 重新加入会议。
 
@@ -123,13 +118,13 @@ Windows 7 和 Windows Server 2008 R2 中的 BranchCache 功能可能会干扰Sky
 
 ### <a name="enable-simplified-meeting-join-and-skype-meetings-app"></a>启用简化的会议加入和Skype会议应用
 
-1. 当你启用对 内容分发网络 (CDN) 的访问权限时，用户将能够在 Windows) 和 Mac) 上连接到 CDN 并获取 Skype 会议应用 (Mac版Skype for Business (，并且将使用简化的会议加入体验。
+1. 启用对 内容分发网络 (CDN) 的访问权限后，用户能够连接到 CDN 并获取 Windows) 上的 Skype 会议应用 (和 Mac) 上的 Mac版Skype for Business (，并且将使用简化的会议加入体验。
 
    ```powershell
    Set-CsWebServiceConfiguration -MeetingUxUseCdn $True
    ```
 
-2. 允许客户端记录会议加入网页或 Skype 会议应用中的遥测发送到 Microsoft 服务器， (命令默认为 false) 。
+2. 允许将来自与会网页或 Skype 会议应用的客户端日志记录遥测发送到 Microsoft 服务器 (命令默认为 false) 。
 
    ```powershell
    Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True
@@ -137,14 +132,14 @@ Windows 7 和 Windows Server 2008 R2 中的 BranchCache 功能可能会干扰Sky
 
     发送给 Microsoft 的信息严格遵循Skype for Business[数据收集实践](/skypeforbusiness/legal-and-regulatory/data-collection-practices)。
 
-3. 设置回退到本地托管的 Skype for Business Web应用体验（如果CDN时）的超时。 默认值为 6 秒。 如果此值设置为 0，则没有超时。
+3. 设置回退到本地托管的 Skype for Business Web应用 体验（如果CDN时）的超时。 默认值为 6 秒。 如果此值设置为 0，则没有超时。
 
    ```powershell
    Set-CsWebServiceConfiguration -JoinLauncherCdnTimeout (New-TimeSpan -Seconds 10)
    ```
 
 > [!NOTE]
-> 当 MeetingUxUseCdn Skype for Business Server 2015 累积更新 5 时，默认值设置为 False。 这会导致一个问题Mac版Skype for Business客户端无法以来宾身份加入非联盟伙伴的会议，即使 Skype for Business 管理员将 MeetingUxUseCdn 设置为 True 也是如此。 为此，Skype for Business Server 2015 必须具有累积更新 7、6.0.9319.534 或更高版本。 请参阅[Enable Skype Meetings App to replace Skype for Business Web应用 in Skype for Business Server 2015。](https://support.microsoft.com/kb/4132312)
+> 当 MeetingUxUseCdn Skype for Business Server 2015 累积更新 5 中时，默认值设置为 False。 这会导致一个问题Mac版Skype for Business客户端无法以来宾身份加入非联盟伙伴的会议，即使 Skype for Business 管理员将 MeetingUxUseCdn 设置为 True 也是如此。 为此，Skype for Business Server 2015 必须具有累积更新 7、6.0.9319.534 或更高版本。 请参阅 [Enable Skype Meetings App to replace Skype for Business Web应用 in Skype for Business Server 2015](https://support.microsoft.com/kb/4132312)。
 
 
 ## <a name="see-also"></a>另请参阅

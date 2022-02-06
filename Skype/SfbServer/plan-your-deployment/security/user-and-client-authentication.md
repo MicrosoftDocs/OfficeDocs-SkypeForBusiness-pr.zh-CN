@@ -1,27 +1,22 @@
 ---
-title: 用户和客户端身份验证Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: 客户端的用户和客户端Skype for Business Server
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 77f4b62a-f75c-424d-8f02-a6519090015d
-description: 受信任用户是凭据已由受信任服务器在 Skype for Business Server。 此服务器通常是 Standard Edition Server、Enterprise Edition 前端服务器或控制器。 Skype for Business Server Active Directory 域服务作为用户凭据的单一受信任后端存储库。
-ms.openlocfilehash: c0c64bb269a80ca4241ec9f2d338817b05f1ff9d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831826"
+description: 受信任用户是已由受信任服务器验证其凭据的用户Skype for Business Server。 此服务器通常是 Standard Edition Server、Enterprise Edition 前端服务器或控制器。 Skype for Business Server Active Directory 域服务作为用户凭据的单一受信任后端存储库。
 ---
-# <a name="user-and-client-authentication-for-skype-for-business-server"></a>用户和客户端身份验证Skype for Business Server
+
+# <a name="user-and-client-authentication-for-skype-for-business-server"></a>客户端的用户和客户端Skype for Business Server
  
-受信任用户是凭据已由受信任服务器在 Skype for Business Server。 此服务器通常是 Standard Edition Server、Enterprise Edition 前端服务器或控制器。 Skype for Business Server Active Directory 域服务作为用户凭据的单一受信任后端存储库。
+受信任用户是已由受信任服务器验证其凭据的用户Skype for Business Server。 此服务器通常是 Standard Edition Server、Enterprise Edition 前端服务器或控制器。 Skype for Business Server Active Directory 域服务作为用户凭据的单一受信任后端存储库。
   
 身份验证是向可信服务器提供用户凭据的过程。 Skype for Business Server根据用户的状态和位置，使用下列身份验证协议。
   
@@ -46,11 +41,11 @@ Skype for Business Server身份验证包含两个阶段：
   
 ICE 和 TURN 协议也会使用摘要式质询，如 IETF TURN RFC 中所述。
   
-客户端证书为用户提供了一种供用户进行身份验证的备用Skype for Business Server。 无需提供用户名和密码，用户具有证书以及解析加密质询所需的与证书对应的私钥。  (此证书必须具有标识用户的使用者名称或使用者替代名称，并且必须由运行 Skype for Business Server 的服务器信任的根 CA 颁发，且在证书有效期内且尚未吊销。) 若要进行身份验证，用户只需键入个人标识号 (PIN) 。 证书对于电话、移动电话和其他难以输入用户名和密码的设备尤其有用。
+客户端证书为用户提供了另一种通过客户端证书Skype for Business Server。 无需提供用户名和密码，用户具有证书以及解析加密质询所需的与证书对应的私钥。  (此证书必须具有标识用户的使用者名称或使用者替代名称，并且必须由运行 Skype for Business Server 的服务器信任的根 CA 颁发，且在证书有效期内且尚未吊销。) 若要进行身份验证，用户只需键入个人标识号 (PIN) 。 证书对于电话、移动电话和其他难以输入用户名和密码的设备尤其有用。
   
 ### <a name="cryptographic-requirements-due-to-asp-net-45"></a>4.5 ASP.NET 加密要求 
 
-自 Skype for Business Server 2015 CU5 起，ASP.NET 4.6 不支持 AES，这可能会导致 Skype 会议应用无法启动。 如果客户端使用 AES 作为计算机密钥验证值，则需要将计算机密钥值重置为 SHA-1 或 IIS 上 Skype 会议应用站点级别的另一个受支持的算法。 如有必要，请参阅[IIS 8.0 ASP.NET Configuration Management](/iis/get-started/whats-new-in-iis-8/iis-80-aspnet-configuration-management)了解说明。
+自 Skype for Business Server 2015 CU5 起，ASP.NET 4.6 不支持 AES，这可能会导致 Skype 会议应用无法启动。 如果客户端使用 AES 作为计算机密钥验证值，则需要将计算机密钥值重置为 SHA-1 或 IIS 上 Skype 会议应用站点级别的另一个受支持的算法。 如有必要，请参阅 [IIS 8.0 ASP.NET Configuration Management](/iis/get-started/whats-new-in-iis-8/iis-80-aspnet-configuration-management) 了解说明。
   
 其他支持的值包括：
   
@@ -60,4 +55,4 @@ ICE 和 TURN 协议也会使用摘要式质询，如 IETF TURN RFC 中所述。
     
 - HMACSHA512
     
-  不再允许值 AES、3DES 和 MD5，因为它们曾经在 ASP.NET 4 中。 [4.5 pt. 2 中的加密改进 ASP.NET 4.5 pt. 2](https://blogs.msdn.microsoft.com/webdev/2012/10/23/cryptographic-improvements-in-asp-net-4-5-pt-2/)中的详细信息。
+  不再允许值 AES、3DES 和 MD5，因为它们曾经在 ASP.NET 4 中。 [ASP.NET 4.5 pt. 2](https://blogs.msdn.microsoft.com/webdev/2012/10/23/cryptographic-improvements-in-asp-net-4-5-pt-2/) 中的加密改进具有更多详细信息。

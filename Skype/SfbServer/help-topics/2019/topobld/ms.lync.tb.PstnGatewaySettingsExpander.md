@@ -1,27 +1,22 @@
 ---
 title: PSTN 网关设置扩展器
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.PstnGatewaySettingsExpander
+  - ms.lync.tb.PstnGatewaySettingsExpander
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 0fd103df-150d-4ea8-b522-18dbc50f5061
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 若要编辑或修改公用电话交换网 (PSTN) 网关的设置，请修改以下字段：
-ms.openlocfilehash: 65835fc144fbe1ac0927abc39dc55a23d6a0fc95
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832496"
 ---
+
 # <a name="pstn-gateway-settings-expander"></a>PSTN 网关设置扩展器
  
 若要编辑或修改公用电话交换网 (PSTN) 网关的设置，请修改以下字段：

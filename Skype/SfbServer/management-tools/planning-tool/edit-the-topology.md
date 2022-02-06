@@ -1,26 +1,21 @@
 ---
 title: 在 Skype for Business Server 2015 中编辑拓扑
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/5/2016
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 47425ab1-5645-4d6f-b202-64bcce43e3ef
 description: 完成初始访谈问题后，可以编辑站点的 FQDN (FQDN) IP 地址的完全限定域名。 要执行此操作，请在“全局拓扑”页上双击要编辑的站点。
-ms.openlocfilehash: 698f7e5e94666a67dd01c55a877a037452fd58e2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861189"
 ---
+
 # <a name="edit-the-topology-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中编辑拓扑
 
 完成初始访谈问题后，可以编辑站点的 FQDN (FQDN) IP 地址的完全限定域名。 要执行此操作，请在 **“全局拓扑”** 页上双击要编辑的站点。
@@ -41,11 +36,11 @@ ms.locfileid: "60861189"
 
   - 证书报告 - 证书报告将列出拓扑所需的证书的主题名称和主题替代名称。
 
-  - 防火墙报告 - 防火墙报告列出了在基础结构中配置外围防火墙所必需的信息。 这包括默认或编辑 (IP 地址) 、服务器角色、源 IP 和端口、目标 IP 和端口、传输协议、应用程序协议和相关注释。
+  - 防火墙报告 - 防火墙报告列出了在基础结构中配置外围防火墙所必需的信息。 这包括 IP 地址 (默认或编辑的值) 、服务器角色、源 IP 和端口、目标 IP 和端口、传输协议、应用程序协议和相关注释。
 
   - DNS 报告 - DNS 报告列出了您必须创建的 DNS 条目的相关信息。 其中包括相应操作所需的记录类型、FQDN、IP 地址和备注。
 
-- 网站摘要 - 网站摘要概述了通过回答初始访谈式问题或填写"设计网站" **中的值而做出的选择**。 还会显示容量信息。
+- 网站摘要 - 网站摘要概述了通过回答初始访谈式问题或填写设计网站 **中的值而做出的选择**。 还显示容量信息。
 
     > [!NOTE]
     > “站点摘要”页上的信息可针对每个设计进行自定义，可能不包含此处详细介绍的所有内容或信息。
@@ -61,7 +56,7 @@ ms.locfileid: "60861189"
 
 编辑网络图和输入值：
 
-1. 选择起始网络段。 例如，双击文本，然后单击 **"access1.contoso.com"。** 在打开的对话框中，键入服务器服务器的实际 FQDN access1.contoso.com 实际的 IP 地址，以替换 131.107.155.3。
+1. 选择起始网络段。 例如，双击文本，然后单击"access1.contoso.com **"**。 在打开的对话框中，键入服务器服务器的实际 FQDN access1.contoso.com 实际的 IP 地址，以替换 131.107.155.3。
 
 2. 单击 **“确定”** 以保存条目。
 
@@ -73,13 +68,13 @@ ms.locfileid: "60861189"
 
 2. 例如，第一台服务器的起始值为 fe0101.contoso.com IP 地址为 192.168.21.122。
 
-3. 在 fe0.contoso.com **FQDN** 中键入 fe0.contoso.com，在前端服务器 **IP** 地址中键入 192.168.21.131，然后单击"确定 **"。**
+3. 在 fe0.contoso.com **FQDN** 中键入 fe0.contoso.com，在前端服务器 **IP** 地址中键入 192.168.21.131，然后单击"确定 **"**。
 
 4. 自动递增功能将池中的所有服务器更新为fe01至fe06，将所有 IP 地址从 192.168.21.131 更新为 136。
 
 完成所有编辑后，通过完成以下步骤保存拓扑：
 
-若要保存规划工具设计，请单击"**文件**"，然后单击"保存 **拓扑**"或"**将拓扑另存为"。** 如果出现 **“将规划工具另存为”** 对话框，请在 **“文件名”** 中键入文件的名称，然后单击 **“保存”**。
+若要保存规划工具设计，请单击"文件"，然后单击"保存 **拓扑**"或"**将拓扑另存为"**。 如果出现 **“将规划工具另存为”** 对话框，请在 **“文件名”** 中键入文件的名称，然后单击 **“保存”**。
 
 ## <a name="see-also"></a>另请参阅
 <a name="Edit_Network_diagram"> </a>

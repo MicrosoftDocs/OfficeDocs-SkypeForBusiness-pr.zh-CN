@@ -1,27 +1,22 @@
 ---
 title: 会议配置
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.ConfMeetingSettingMain
+  - ms.lync.lscp.ConfMeetingSettingMain
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 24e8f749-d54c-4315-a8fe-bb9303b356ef
-description: 会议配置设置定义会议类型 (也称为会议类型) 用户可以创建会议类型，并控制 (或) 匿名用户和电话拨入式会议用户是否可以加入这些会议。 这些设置仅适用于安排的会议。 它们不适用于通过单击客户端中的"现在开会"选项创建临时会议。
-ms.openlocfilehash: 009985af02283752f29be14379d55da59cf066d2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855649"
+description: 会议配置设置定义会议类型 (也称为会议) 用户可以创建的会议类型，并控制 (或) 匿名用户和电话拨入式会议用户是否可以加入这些会议。 这些设置仅适用于安排的会议。 它们不适用于通过单击客户端中的"现在开会"选项创建临时会议。
 ---
+
 # <a name="meeting-configuration"></a>会议配置
 
 会议配置设置定义 (也称为"会议") 用户可创建的会议类型，并控制 (或) 匿名用户和电话拨入式会议用户是否可以加入这些会议。 这些设置仅适用于安排的会议。 它们不适用于通过单击客户端中的"现在开会"选项创建临时会议。
@@ -50,7 +45,7 @@ ms.locfileid: "60855649"
 
 下表介绍了该页上的各个命令。
 
-- **新建** 启动新的站点会议配置或池会议配置。
+- **新增功能** 启动新的站点会议配置或池会议配置。
 
 - **编辑** 打开所选的会议配置以对其进行编辑，选择列表中的所有会议配置，或删除所选的站点配置或池配置。
 

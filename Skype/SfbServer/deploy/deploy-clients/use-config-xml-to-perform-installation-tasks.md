@@ -1,24 +1,19 @@
 ---
 title: 使用 Config.xml 在客户端中执行Skype for Business任务
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: PhillipGarding
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 0813184a-ab40-417c-b3a3-c2090766b831
 description: 摘要：如何使用 Config.xml文件指定其他安装说明。
-ms.openlocfilehash: e0dcc16a09540965346ea014a8c39be0470e4f09
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858669"
 ---
+
 # <a name="use-configxml-to-perform-installation-tasks-in-skype-for-business-clients"></a>使用 Config.xml 在客户端中执行Skype for Business任务
 
 **摘要：** 如何使用 Config.xml 文件指定其他安装说明。
@@ -50,14 +45,14 @@ ms.locfileid: "60858669"
 
 | **元素**              | **说明**                                                                                                                                                                                                                                                                                         |
 |:-------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 配置  <br/>     | 顶级元素（必需）。 包含 Product 属性，例如：Product=Lync (这适用于 Skype for Business 客户端)   <br/>                                                                                                                                                          |
-| OptionState  <br/>       | 指定在安装期间如何处理特定产品功能。 使用以下属性阻止安装 业务连接 Services，其中包括干扰Outlook： <br/>  Id="LOBiMain" <br/>  State="Absent" <br/>  Children="Force" <br/> |
+| 配置  <br/>     | 顶级元素（必需）。 包含 Product 属性，例如：Product=Lync (这适用于Skype for Business客户端)   <br/>                                                                                                                                                          |
+| OptionState  <br/>       | 指定在安装期间如何处理特定产品功能。 使用以下属性阻止安装 业务连接 Services，其中包括干扰 Outlook： <br/>  Id="LOBiMain" <br/>  State="Absent" <br/>  Children="Force" <br/> |
 | 显示  <br/>           | 安装程序向用户显示的 UI 级别。典型属性包括： <br/>  CompletionNotice="Yes"                                                                                                                                                                                |
 | 日志记录  <br/>           | 安装程序执行的日志记录类型的选项。典型属性包括： <br/>  Type ="Off"                                                                                                                                                                                       |
-| Setting  <br/>           | 指定 Windows Installer 属性的值。典型属性包括：<br/>  Setting Id=" *name*" (the name of the Windows Installer property)   <br/>  Value=" *value*" (要分配给属性值的值)   <br/>                                                             |
+| 设置  <br/>           | 指定 Windows Installer 属性的值。典型属性包括：<br/>  Setting Id=" *name*" (Windows Installer 属性的名称)   <br/>  Value=" *value*" (要分配给属性的属性值)   <br/>                                                             |
 | DistributionPoint  <br/> | 从该位置运行安装的网络安装点的完全限定路径。包括 Location 属性：<br/>  Location=" *path*"  <br/>                                                                                                                                     |
 
-下面的示例演示一个Config.xml客户端的典型无提示安装Skype for Business文件。 
+以下示例显示了一个Config.xml客户端的典型无提示安装Skype for Business文件。 
 
 ```xml
 <Configuration Product="Lync"> 
@@ -69,7 +64,7 @@ ms.locfileid: "60858669"
 </Configuration>
 ```
 
-有关使用 Config.xml 文件执行Office安装和维护任务的详细信息，请参阅 [https://go.microsoft.com/fwlink/p/?linkid=267514](/previous-versions/office/office-2013-resource-kit/cc179195(v=office.15)) 。
+有关使用 Config.xml 文件执行Office安装和维护任务的详细信息，请参阅 [https://go.microsoft.com/fwlink/p/?linkid=267514](/previous-versions/office/office-2013-resource-kit/cc179195(v=office.15))。
 
 ## <a name="to-customize-the-configxml-file"></a>自定义 Config.xml 文件
 
@@ -77,7 +72,7 @@ ms.locfileid: "60858669"
 
 2. 找到包含您要更改元素的行。
 
-3. 使用您需要的静默选项修改元素项。 请确保删除注释分隔符" \<!--" and "--\> "。 例如，使用以下语法：
+3. 使用您需要的静默选项修改元素项。 确保删除注释分隔符\<!--" and "--\>""。 例如，使用以下语法：
 
    <pre>
    < DistributionPoint Location="\\server\share\Skype15" />
