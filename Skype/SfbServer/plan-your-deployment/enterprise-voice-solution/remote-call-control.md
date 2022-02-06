@@ -1,28 +1,23 @@
 ---
 title: 规划远程呼叫控制Skype for Business
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 688a0328-1aa7-449f-b5f7-98c876112ed2
 description: 远程呼叫控制是 Lync Server 早期版本中的一项功能，它使用户能够使用 Lync Server 控制其 PBX 电话。 在Skype for Business Server，此功能已替换为通过工位呼叫功能。 在 2015 Skype for Business Server的客户端版本中，远程呼叫控制不再可用于在客户端中配置，并且已删除供其使用。
-ms.openlocfilehash: 1007c4d6d94cc18248adc465061374bace32dc4f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860979"
 ---
+
 # <a name="plan-for-remote-call-control-in-skype-for-business"></a>规划远程呼叫控制Skype for Business
  
 远程呼叫控制是 Lync Server 早期版本中的一项功能，它使用户能够使用 Lync Server 控制其 PBX 电话。 在Skype for Business Server，此功能已替换为通过工位呼叫功能。  *在 Skype for Business Server 2015 的客户端版本中，远程呼叫控制不再可用于在客户端中配置，并且已删除供其使用。* 
@@ -37,7 +32,7 @@ ms.locfileid: "60860979"
    
 1. 这两种功能都不受支持。
   
-有关详细信息，请参阅 Lync Server 2013 文档中的 Remote [Call Control。](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-remote-call-control)
+有关详细信息，请参阅 Lync Server 2013 文档中的 Remote [Call Control](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-remote-call-control) 。
   
 ## <a name="see-also"></a>另请参阅
 

@@ -1,31 +1,26 @@
 ---
 title: Plan for Group Call Pickup in Skype for Business
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 3dc0eca8-c773-463c-96bb-9cd6afa2a840
-description: 在呼叫组中规划Skype for Business Server 企业语音呼叫应答，这使用户能够应答最初用于其他人的呼叫。
-ms.openlocfilehash: 94868d78790d9cfaafaf35915c9c3cd1c7a9793f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850695"
+description: 在呼叫组中规划Skype for Business Server 企业语音呼叫应答，这使用户能够应答最初面向其他人的呼叫。
 ---
+
 # <a name="plan-for-group-call-pickup-in-skype-for-business"></a>Plan for Group Call Pickup in Skype for Business
  
-在呼叫组中规划Skype for Business Server 企业语音呼叫应答，这使用户能够应答最初用于其他人的呼叫。
+在呼叫组中规划Skype for Business Server 企业语音呼叫应答，这使用户能够应答最初面向其他人的呼叫。
   
 通过组内呼叫应答，用户可以从自己的电话应答传入呼叫。 这使其他用户通过拨打呼叫应答组号码来应答传入呼叫，从而增加了用户线路的可用性。 部署组内呼叫接听后，可以显著减少路由到语音邮件的传入呼叫数，这对于来自组织外部客户的呼叫特别有用。
   
@@ -36,19 +31,19 @@ ms.locfileid: "60850695"
 组内呼叫分拣是在呼叫管理应用程序上构建的。 部署组内呼叫接听时，使用指定为呼叫接听组号码的单独分机号码范围来配置呼叫安排通道表。 与呼叫管理通道号码一样，呼叫接听组号码必须是未为其分配用户或电话的虚拟分机。 部署组内呼叫接听的每个前端池可以有一个或多个呼叫接听组号码范围。 组号码范围在整个部署中必须Skype for Business Server唯一。 
   
 > [!NOTE]
-> 呼叫托管通道表中指定为组呼叫接听号码的号码范围不能使用"控制面板"Skype for Business Server查看。 查看呼叫旁路通道表中的所有号码范围的唯一方法就是使用 Skype for Business Server 命令行管理程序。 同样，添加、修改或删除组内呼叫接听号码的唯一方法就是使用 Skype for Business Server命令行管理程序。 
+> 呼叫托管通道表中指定为组呼叫接听号码的号码范围不能使用呼叫Skype for Business Server查看。 查看呼叫旁路通道表中的所有号码范围的唯一方法就是使用命令行管理Skype for Business Server命令行管理程序。 同样，添加、修改或删除组内呼叫接听号码的唯一方法就是使用 Skype for Business Server命令行管理程序。 
   
-配置呼叫接听组号码后，将用户分配给呼叫接听组。 分配给呼叫应答组的任何用户都可以由其他用户应答其呼叫。 当呼叫进入分配到呼叫应答组的用户时，发现该呼叫的其他任何用户都可以通过手动拨打呼叫应答组号码来应答呼叫。 接到呼叫的用户不需要是组的成员。 当其他用户选取呼叫时，会向最初调用的号码发送通知。
+配置呼叫接听组号码后，将用户分配给呼叫接听组。 分配给呼叫应答组的任何用户都可以由其他用户应答其呼叫。 当呼叫进入分配到呼叫应答组的用户时，任何注意到该呼叫的其他用户都可以通过手动拨打呼叫应答组号码来应答呼叫。 接到呼叫的用户不需要是组的成员。 当其他用户选取呼叫时，会向最初调用的号码发送通知。
   
 > [!NOTE]
 > 用户只能是一个呼叫接听组的成员。 
   
 > [!NOTE]
-> 尽管 Skype for Business Server 部署中的任意用户都可以应答呼叫应答组的成员的呼叫，但接听该呼叫的人必须知道要拨打的正确呼叫应答组号码。 
+> 尽管呼叫应答Skype for Business Server中的任意用户都可以应答呼叫应答组的成员的呼叫，但接听该呼叫的人必须知道要拨打的正确呼叫应答组号码。 
   
 如果用户在组内多部电话响铃时拨打呼叫应答组号码以应答呼叫，则用户会应答响铃时间最长的呼叫。
   
-同时响铃设置适用于具有组内呼叫接听的用户。 即，向具有组内呼叫应答的用户的呼叫将针对所有配置的目标响铃，另一个用户可以应答该呼叫。 此规则的例外情况是用户配置同时响铃以呼叫所有团队成员。
+同时响铃设置适用于具有组内呼叫接听的用户。 即，向具有组内呼叫应答的用户的呼叫将针对所有配置的目标响铃，另一个用户可以应答该呼叫。 此规则的例外情况是用户配置同时响铃以呼叫所有团队成员时。
   
 组内呼叫应答不能用于应答以下类型的呼叫：
   
@@ -74,7 +69,7 @@ ms.locfileid: "60850695"
   
 - 在混合部署中联机工作的用户
     
-- 未位于 Skype for Business Server 2015 池或 Lync Server 2013 池（具有 Lync Server 2013 累积更新）上的用户：2013 年 2 月本地部署
+- 未位于 Skype for Business Server 2015 池或具有 Lync Server 2013 累积更新的 Lync Server 2013 池上的用户：2013 年 2 月本地部署
     
 如果没有人应答呼叫应答组的成员的呼叫，则按照客户端设置中指定的方式路由呼叫。 即，呼叫将转到语音邮件或转发到其他目标，如客户端设置中指定。
   
@@ -95,7 +90,7 @@ ms.locfileid: "60850695"
 - Lync Phone Edition
     
 > [!NOTE]
-> 用户可以使用其中任何客户端应答对组呼叫应答成员的呼叫，但用户必须位于具有 Lync Server 2013 累积更新的 Skype for Business Server 池或 Lync Server 2013 池上：2013 年 2 月。 
+> 用户可以使用其中任何客户端应答对组内呼叫应答成员的呼叫，但用户必须位于具有 Lync Server 2013 累积更新的 Skype for Business Server 池或 Lync Server 2013 池上：2013 年 2 月。 
   
 以下客户端和设备不支持接听到组内呼叫接听成员的呼叫：
   
@@ -118,18 +113,18 @@ ms.locfileid: "60850695"
   
 **组内呼叫接听用户模型**
 
-|**跃点数**|**每个前端池  <br/>  (8 台前端服务器)**|**每台 Standard Edition Server**|
+|**跃点数**|**每个前端池 ( <br/>  8 台前端服务器)**|**每台 Standard Edition Server**|
 |:-----|:-----|:-----|
 |每个组的推荐用户数  <br/> |50  <br/> |50  <br/> |
 |建议的组数  <br/> |500  <br/> |60  <br/> |
 |为组内呼叫接听启用的每个池的最大用户数  <br/> |25,000  <br/> |3,000  <br/> |
-|为每分钟每个池的组内呼叫接听启用的用户总数的最大传入呼叫速率  <br/> |500  <br/> |60  <br/> |
+|每分钟为每个池启用组内呼叫接听的最大传入呼叫总用户数  <br/> |500  <br/> |60  <br/> |
 |使用每分钟每个池的组内呼叫接听功能检索到的最大呼叫速率  <br/> |200  <br/> |25  <br/> |
    
 > [!NOTE]
 > 对于前端池的前端服务器数少于 8 台，以线性方式计算指标。 例如，如果前端池有一台前端服务器，则计算最大负载为表中所示值的 1/8。 
   
 > [!NOTE]
-> 只要不超过每个池的最大用户数，就可以增加或减少每个组的建议用户数和组数。 例如，您的 Standard Edition 服务器可以有 120 个组，每个组有 25 个用户，因为启用组呼叫接听的用户数仍在用户模型最大 (即，120 个组与 25 个用户为 3，000 个用户启用了组呼叫接听) 。 
+> 只要不超过每个池的最大用户数，就可以增加或减少每个组的建议用户数和组数。 例如，您的 Standard Edition 服务器可以有 120 个组，每个组有 25 个用户，因为启用组呼叫分拣的用户数仍在用户模型最大 (即，120 个组与 25 个用户为 3，000 个用户启用了组呼叫分拣) 。 
   
 
