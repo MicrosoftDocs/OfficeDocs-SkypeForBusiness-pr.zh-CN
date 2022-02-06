@@ -1,28 +1,23 @@
 ---
 title: '控制器 (规划工具) '
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.plan.Director
-- ms.lync.plan.Director
+  - ms.lync.plan.Director
+  - ms.lync.plan.Director
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 02795b46-21ec-4a85-9890-959c91d97df3
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 控制器是运行通信Skype for Business Server的服务器，可以对用户请求进行身份验证，但不管理任何用户帐户。
-ms.openlocfilehash: 1d7d65502e6c306a1ed709dbd3c1f6a66370f14a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833658"
 ---
+
 # <a name="director-planning-tool"></a>控制器 (规划工具) 
  
 控制器是运行通信Skype for Business Server的服务器，可以对用户请求进行身份验证，但不管理任何用户帐户。 

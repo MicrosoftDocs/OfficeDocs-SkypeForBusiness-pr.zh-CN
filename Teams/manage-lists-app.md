@@ -1,36 +1,31 @@
 ---
 title: 为组织管理 Lists 应用
-author: HowlinWolf-92
-ms.author: v-mahoffman
-ms.reviewer: anach,v-jasuk
+author: SerdarSoysal
+ms.author: serdars
+ms.reviewer: 'anach,v-jasuk'
 manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
 searchScope:
-- Microsoft Teams
-- Microsoft Cloud for Healthcare
-- Microsoft Cloud for Retail
+  - Microsoft Teams
+  - Microsoft Cloud for Healthcare
+  - Microsoft Cloud for Retail
 description: 了解如何为组织中的用户管理 Lists 应用。
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- M365-collaboration
-- microsoftcloud-healthcare
-- microsoftcloud-retail
-- m365initiative-lists
+  - M365-collaboration
+  - microsoftcloud-healthcare
+  - microsoftcloud-retail
+  - m365initiative-lists
 appliesto:
-- Microsoft Teams
-ms.custom: ''
-ms.openlocfilehash: bd70e5fbca82637299e6adef745bccc725525311
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288480"
+  - Microsoft Teams
+ms.custom: null
 ---
+
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中为组织管理 Lists 应用
 
 ## <a name="overview-of-lists"></a>Lists 概述
@@ -60,7 +55,7 @@ Lists 中的模版为用户跟踪信息的应用场景量身打造。 每个模�
 
 会议过后，邮递员进行收件并开始派送。 派送路途中会发生事件，比如汽车事故、和狗有关的问题或社会不安抗议。 当邮递员遇到事件时，它们可以在移动设备上使用 Teams 来记录事件的详细信息，该信息在团队频道中的列表中受到跟踪。 团队里的所有人，包括现场的邮递员，都可以看到这个消息并保持知情。
 
-在迁移到Teams，邮件运营商必须返回邮局以完成一个硬复制表单来报告事件，该事件随后在 Excel 电子表格中输入。 Teams 给邮递员们创造了一份移动优先的体验，它们可以使用 Lists 现场实时报告事件，与团队成员共享事件的详细信息，和他们在频道中交谈，并促进事件解决。
+在迁移到Teams，邮件运营商必须返回邮局以完成一个硬复制表单来报告事件，该事件随后会输入到 Excel 电子表格中。 Teams 给邮递员们创造了一份移动优先的体验，它们可以使用 Lists 现场实时报告事件，与团队成员共享事件的详细信息，和他们在频道中交谈，并促进事件解决。
 
 ## <a name="what-you-need-to-know-about-lists"></a>你需要了解的 Lists 相关信息
 

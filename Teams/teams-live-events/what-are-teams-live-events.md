@@ -1,34 +1,29 @@
 ---
 title: 什么是 Microsoft Teams 实时事件？
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.collection:
-- M365-collaboration
-- m365initiative-meetings
-- m365solution-spcomms
-- m365solution-scenario
+  - M365-collaboration
+  - m365initiative-meetings
+  - m365solution-spcomms
+  - m365solution-scenario
 ms.reviewer: sonua
 audience: admin
 search.appverid: MET150
 description: 了解实时事件如何使用户能够在 Teams、Yammer 和 Stream 中向大量在线受众广播视频和内容。
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.teamsadmincenter.dashboard.helparticle.liveevents
-- ms.teamsadmincenter.liveevents.policies
+  - ms.teamsadmincenter.dashboard.helparticle.liveevents
+  - ms.teamsadmincenter.liveevents.policies
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: f9e3eb69262cc9f8c93ae3f4f336471ffb564034
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: HT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830756"
 ---
+
 # <a name="what-are-microsoft-teams-live-events"></a>Microsoft Teams 实时事件是什么
 
 ## <a name="overview"></a>概述

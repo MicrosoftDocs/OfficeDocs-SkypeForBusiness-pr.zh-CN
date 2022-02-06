@@ -1,26 +1,21 @@
 ---
-title: " (中) 验证响应组部署\"Skype for Business"
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: ' (可选) 验证响应组部署Skype for Business'
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 202ca4ab-8e6d-44a4-b7c8-071133074feb
 description: 验证响应组部署是否成功，Skype for Business Server 企业语音。
-ms.openlocfilehash: 7dd76dad69995d6e54fa4743792248cd046eb041
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861839"
 ---
-# <a name="optional-verify-response-group-deployment-in-skype-for-business"></a> (中) 验证响应组部署"Skype for Business
+
+# <a name="optional-verify-response-group-deployment-in-skype-for-business"></a> (可选) 验证响应组部署Skype for Business
  
 验证响应组部署是否成功，Skype for Business Server 企业语音。
   

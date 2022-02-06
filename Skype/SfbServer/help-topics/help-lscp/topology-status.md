@@ -1,30 +1,25 @@
 ---
 title: 拓扑状态
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 5/21/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.TopoStatusMain
+  - ms.lync.lscp.TopoStatusMain
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: d5f858f5-df8e-43a9-80aa-6ba1ddb27459
-description: "\"拓扑： 状态\"页显示您的拓扑中Skype for Business状态。"
-ms.openlocfilehash: c64a2d5c4f5884ffcaf7e9480c75e447111a60db
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848885"
+description: '"拓扑： 状态"页显示您的拓扑中Skype for Business状态。'
 ---
+
 # <a name="topology-status"></a>拓扑：状态
 
-"**拓扑**：**状态**"页显示您的拓扑中Skype for Business状态。
+"**拓扑**： **状态**"页显示您的拓扑中Skype for Business状态。
 
 ## <a name="tasks-you-can-perform"></a>可执行的任务
 
@@ -38,4 +33,4 @@ ms.locfileid: "60848885"
 
 - [阻止与服务的新连接](/previous-versions/office/lync-server-2013/lync-server-2013-prevent-sessions-for-services)
 
-有关可以使用控制面板执行的不同过程的详细信息，请参阅 Manage [Skype for Business Server Skype for Business Server 2015](../../manage/manage.md)。
+有关可以使用控制面板执行的不同过程的详细信息，Skype for Business Server Manage [Skype for Business Server 2015](../../manage/manage.md)。

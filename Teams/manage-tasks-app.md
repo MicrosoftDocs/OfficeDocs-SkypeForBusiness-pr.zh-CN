@@ -1,33 +1,28 @@
 ---
 title: 在 Microsoft Teams 中为组织管理 Tasks 应用
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: andfried
 search.appverid: MET150
 searchScope:
-- Microsoft Teams
-- Microsoft Cloud for Healthcare
-- Microsoft Cloud for Retail
+  - Microsoft Teams
+  - Microsoft Cloud for Healthcare
+  - Microsoft Cloud for Retail
 audience: admin
 description: 了解如何在组织中管理 Tasks 应用。
 ms.localizationpriority: medium
 MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
-- microsoftcloud-healthcare
-- microsoftcloud-retail
+  - Teams_ITAdmin_Help
+  - M365-collaboration
+  - microsoftcloud-healthcare
+  - microsoftcloud-retail
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: 6412da5bdce345c1d187fd150b3877a63602b40b
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288350"
+  - Microsoft Teams
 ---
+
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中为组织管理 Tasks 应用
 
 ## <a name="overview-of-tasks"></a>Tasks 概述
@@ -37,13 +32,13 @@ Tasks 应用为 Microsoft Teams 带来紧密的任务管理体验，通过[微�
 > [!NOTE]
 > 我们正在推出 Teams 桌面客户端上的 Tasks 体验，应用会首先显示为 **Planner**。 然后，此名称会暂时更改为 **Tasks by Planner 和微软代办**，之后会重命名为 **Tasks**。 在 Teams 移动客户端上，用户会始终看到应用名为 **Tasks**。 桌面体验可用后，移动体验的可用性可能会有短暂的延迟。
 
-   ![任务列表视图的屏幕截图Teams列表。](media/manage-tasks-app-tasks.png)
+   ![任务列表列表视图的屏幕截图Teams列表。](media/manage-tasks-app-tasks.png)
 
 对于想要简化对前线工作者任务管理的组织，Tasks 也有在前线工作人员中大规模确定目标、发布以及跟踪任务的功能。 比如，企业和地区领导可以创建并发布面向相关地区的任务列表，例如具体的零售店，并通过实时报告跟踪进度。 管理者可以分配任务给员工和地区内的直接活动，前线工作者会在手机和桌面上收到分配任务的优先级清单。 若要 [启用任务发布](#task-publishing)，请首先为组织设置一个团队目标层次结构，该层次结构定义层次结构中所有团队如何彼此关联。
 
 ## <a name="what-you-need-to-know-about-tasks"></a>你需要了解的 Tasks 的相关信息
 
-Tasks 同时作为应用和频道中的选项卡存在。 该应用显示 Planner 中的单个微软待办任务和团队任务。 该选项卡只显示团队任务。
+Tasks 同时作为应用和频道中的选项卡存在。 该应用显示 Planner 中的单个微软待办和团队任务。 该选项卡只显示团队任务。
 
 用户可以获得桌面、web 以及移动端的 Tasks 体验。 如果 Tasks 安装在 Teams 桌面客户端中，用户也可以在 Teams 的 web 和移动客户端上找到它。 来宾例外。 需要注意的是，使用 Teams 移动客户端的来宾只能访问 Tasks 应用。  来宾会在 Teams 桌面和 web 客户端中看到 Tasks 选项卡。
 
@@ -77,7 +72,7 @@ Tasks 在你的组织中默认为所有 Teams 用户启用。 你可以在 Micro
 
 ### <a name="use-an-app-setup-policy-to-pin-tasks-to-teams"></a>使用应用设置策略来固定 Tasks 到 Teams
 
-应用设置策略让你自定义 Teams 来突出显示组织中对用户最重要的应用。 在策略中设置的应用将固定到应用栏（Teams 桌面客户端侧边和 Teams 移动客户端底部的栏）中，用户可以在这里快速轻松地访问它们。
+应用设置策略让你自定义 Teams 来突出显示组织中对用户最重要的应用。 在策略中设置的应用将固定到应用栏（Teams 桌面客户端侧边和 Teams 移动客户端底部的栏）上，用户可以在这里快速轻松地访问它们。
 
 要为用户固定 Tasks 应用，请编辑全局（默认为组织范围内）策略或创建并分配自定义应用设置策略。 要了解详细信息，请参阅[在 Teams 中管理应用设置策略](teams-app-setup-policies.md)。
 
