@@ -1,7 +1,7 @@
 ---
 title: 管理自定义应用策略和设置
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: akino
 ms.topic: article
@@ -9,37 +9,32 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection:
-- M365-collaboration
+  - M365-collaboration
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何管理自定义应用策略和设置，以控制组织中哪些人可以在 Microsoft Teams。
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
-- ms.teamsadmincenter.appsetuppolicies.allowsideloading
-- ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
-- ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
-- seo-marvel-mar2020
-ms.openlocfilehash: 7de43868b4e42df77ec7b867f5842fdab0d99716
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855146"
+  - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
+  - ms.teamsadmincenter.appsetuppolicies.allowsideloading
+  - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
+  - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
+  - seo-marvel-mar2020
 ---
+
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理自定义应用策略和设置
 
 > [!NOTE]
-> 若要使用 App Studio，请参阅[通过 C#/.NET](/microsoftteams/platform/get-started/get-started-dotnet-app-studio)和 App Studio 开始使用 Microsoft Teams 平台。最后一步尚未运行，因此需要下载 zip，并使用旧方式在 Upload 应用包中将其安装到[Microsoft Teams。](/microsoftteams/platform/concepts/apps/apps-upload)
+> 若要使用 App Studio，请参阅[通过 C#/.NET 和 App Studio 在 Microsoft Teams](/microsoftteams/platform/get-started/get-started-dotnet-app-studio) 平台上开始使用。最后一步尚未运行，因此需要下载 zip，并使用旧方式在 Upload 应用包中将其安装到 [Microsoft Teams](/microsoftteams/platform/concepts/apps/apps-upload)。
 
 作为管理员，可以使用自定义应用策略和设置来控制组织中哪些人可以将自定义应用上传到Microsoft Teams。 管理员决定哪些用户可以上传自定义应用，管理员和团队所有者可以确定您的组织中的特定团队是否允许向这些用户添加自定义应用。  编辑自定义应用策略后，可能需要几个小时更改才能生效。 必须是全局管理员或 Teams 服务管理员才能管理这些策略。
 
 ## <a name="overview-of-custom-apps"></a>自定义应用概述
 
-用户可以将自定义应用Teams， (文件 (文件.zip文件) 直接上传到团队或个人上下文中。 这不同于通过应用商店添加应用Teams方式。 通过上传应用包（也称为旁加载）来添加自定义应用，允许你在应用准备好广泛分发之前，在开发应用时测试该应用。 它还允许你生成一个仅供内部使用的应用，并与你的团队共享它，而无需Teams应用商店中的Teams目录。
+用户可以将自定义应用Teams， (文件.zip应用包) 直接上传到团队或个人上下文中。 这不同于通过应用商店添加应用Teams方式。 通过上传应用包（也称为旁加载）来添加自定义应用，允许你在应用准备好广泛分发之前，在开发应用时测试该应用。 它还允许你生成一个仅供内部使用的应用，并与你的团队共享它，而无需Teams应用商店中的Teams目录。
 
 ![显示应用商店中"上传自定义应用"选项的屏幕截图。](media/teams-custom-app-policy-and-settings-upload-app.png)
 
@@ -55,7 +50,7 @@ ms.locfileid: "60855146"
 
 ### <a name="user-custom-app-policy"></a>用户自定义应用策略
 
-作为应用 [设置](teams-app-setup-policies.md)策略的一部分，管理员可以使用策略设置（Upload **自定义应用**）来控制用户是否可以将自定义应用上传到 Teams。
+作为应用 [设置策略](teams-app-setup-policies.md)的一部分，管理员可以使用策略设置（Upload **自定义应用**）来控制用户是否可以将自定义应用上传到Teams。
  
 如果此设置已关闭：
 
@@ -72,7 +67,7 @@ ms.locfileid: "60855146"
 
 #### <a name="set-a-user-custom-app-policy"></a>设置用户自定义应用策略
 
-1. 在管理中心左侧导航Microsoft Teams，转到"Teams **应用**  >  **设置策略"。**
+1. 在管理中心的左侧导航Microsoft Teams，转到"Teams **设置** > **策略"**。
 2. 单击“**添加**”。
 3. 打开或关闭自定义 **Upload应用**。
 4. 选择要用于策略的其他任何设置。
@@ -80,7 +75,7 @@ ms.locfileid: "60855146"
 
 ### <a name="team-custom-app-setting"></a>团队自定义应用设置
 
-管理员和团队所有者可以控制团队是否允许向团队添加自定义应用。 此设置" **允许成员上传自定义应用**"以及用户的自定义应用策略确定谁可以将自定义应用添加到特定团队。
+管理员和团队所有者可以控制团队是否允许向团队添加自定义应用。 此设置" **允许成员上传自定义** 应用"以及用户的自定义应用策略确定谁可以将自定义应用添加到特定团队。
  
 如果此设置已关闭：
 
@@ -94,8 +89,8 @@ ms.locfileid: "60855146"
 
 #### <a name="configure-the-team-custom-app-setting"></a>配置团队自定义应用设置
 
-1. 在Teams中，转到团队，单击"更多 **选项"**  >  **"管理团队"。**
-2. 单击 **设置"，** 然后展开 **"成员权限"。**
+1. 在Teams中，转到团队，单击"更多 **选项"的团队** > **。**
+2. 单击 **设置**"，然后展开 **"成员权限"**。
 3. 选中或清除" **允许成员上传自定义应用** "复选框。
 
     ![显示团队自定义应用设置的屏幕截图。](media/teams-custom-app-policy-and-settings-team.png)
@@ -107,8 +102,8 @@ ms.locfileid: "60855146"
 #### <a name="configure-the-org-wide-custom-app-setting"></a>配置组织范围的自定义应用设置
 
 1. 在 Microsoft Teams 管理中心的左侧导航中，转到“**Teams 应用**” > “**管理应用**”。
-2. 单击 **"组织范围的应用设置"。**
-3. 在 **"自定义应用**"下，打开或关闭 **"允许与自定义应用交互"。**
+2. 单击 **"组织范围的应用设置"**。
+3. 在 **"自定义应用**"下，打开或关闭 **"允许与自定义应用交互"**。
 
     ![显示组织范围的自定义应用设置的屏幕截图。](media/teams-custom-app-policy-and-settings-org-wide.png)
 
@@ -118,16 +113,16 @@ ms.locfileid: "60855146"
 
 例如，您希望只允许团队所有者将自定义应用上传到特定团队。 可以设置以下项：
 
-- 在管理 **中心中** 打开"允许与自定义应用Microsoft Teams设置。
+- 在管理 **中心中打开**"允许与自定义应用Microsoft Teams设置。
 - 关闭" **允许成员为要限制** 访问的每个团队上传自定义应用"。
-- 在启用自定义应用设置的 Microsoft Teams 管理中心创建Upload分配自定义应用设置策略，并将其分配给团队所有者。
+- 在启用自定义应用设置后，Microsoft Teams管理中心内创建Upload分配自定义应用设置策略，并将其分配给团队所有者。
 
 |组织范围的自定义应用设置 |团队自定义应用设置 |用户自定义应用策略 |效果  |
 |---------|---------|---------|---------|
-| 关闭    | 关闭    | 关闭     |将阻止与组织的所有自定义应用交互。 除服务管理员或全局管理员以外的任何人Teams自定义应用。可以使用 PowerShell 删除自定义应用。   |
-| 关闭     | 关闭     | 开        |将阻止与组织的所有自定义应用交互。 除服务管理员或全局管理员以外的任何人Teams自定义应用。可以使用 PowerShell 删除自定义应用。         |
-| 关闭    | 开        | 关闭        |将阻止与组织的所有自定义应用交互。 除服务管理员或全局管理员以外的任何人Teams自定义应用。可以使用 Windows PowerShell删除自定义应用。         |
-| 关闭    | 开      | 开       |将阻止与组织的所有自定义应用交互。 除服务管理员或全局管理员以外的任何人Teams自定义应用。可以使用 PowerShell 删除自定义应用。         |
+| 关闭    | 关闭    | 关闭     |将阻止与组织的所有自定义应用交互。 除服务管理员或全局管理员外，Teams上载自定义应用。可以使用 PowerShell 删除自定义应用。   |
+| 关闭     | 关闭     | 开        |将阻止与组织的所有自定义应用交互。 除服务管理员或全局管理员外，Teams上载自定义应用。可以使用 PowerShell 删除自定义应用。         |
+| 关闭    | 开        | 关闭        |将阻止与组织的所有自定义应用交互。 除服务管理员或全局管理员外，Teams上载自定义应用。可以使用 Windows PowerShell删除自定义应用。         |
+| 关闭    | 开      | 开       |将阻止与组织的所有自定义应用交互。 除服务管理员或全局管理员外，Teams上载自定义应用。可以使用 PowerShell 删除自定义应用。         |
 | 开    | 关闭       | 关闭         |  用户无法上传自定义应用。      |
 | 开     | 关闭       | 开         | 如果用户是团队所有者，他们可以将自定义应用上传到团队。 如果用户不是团队所有者，他们无法将自定义应用上传到团队。 用户可以在个人上下文中上传自定义应用。     |
 | 开     | 开     | 关闭         | 用户无法上传自定义应用。       |

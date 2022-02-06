@@ -1,27 +1,22 @@
 ---
 title: 选择超链接前缀
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.ImpChooseImSchema
+  - ms.lync.lscp.ImpChooseImSchema
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: bfa55f83-70b4-4790-9b9f-8d849dd94909
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 使用“选择超链接前缀”对话框选择要阻止、要发送警告消息或要允许的超链接类型，方法是，从“超链接前缀”下的类别中选择（以阻止或发送警告消息）或清除（以允许）其扩展名的复选框。单击箭头可展开类别并查看该类别的所有超链接前缀。如果要选择某个类别的所有超链接前缀，请选择该类别名称。
-ms.openlocfilehash: ee81b1cf31ad9138eb2ced9073b66bdd6b9de6fd
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832746"
 ---
+
 # <a name="select-hyperlink-prefix"></a>选择超链接前缀
  
 使用“选择超链接前缀”对话框选择要阻止、要发送警告消息或要允许的超链接类型，方法是，从“超链接前缀”下的类别中选择（以阻止或发送警告消息）或清除（以允许）其扩展名的复选框。单击箭头可展开类别并查看该类别的所有超链接前缀。如果要选择某个类别的所有超链接前缀，请选择该类别名称。 

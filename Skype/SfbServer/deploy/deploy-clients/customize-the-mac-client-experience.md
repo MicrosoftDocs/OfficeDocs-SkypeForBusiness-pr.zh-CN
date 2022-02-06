@@ -1,31 +1,26 @@
 ---
 title: 自定义 Mac 客户端体验Skype for Business
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: PhillipGarding
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
 description: 本文介绍了适用于 Mac 客户端上 Skype for Business的客户端首选项和默认值，以及如何从应用外部编辑它们。
-ms.openlocfilehash: 909756b25f9ad3ee17536f24a4143b5b72180918
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838344"
 ---
+
 # <a name="customize-the-mac-client-experience-in-skype-for-business"></a>自定义 Mac 客户端体验Skype for Business
  
 本文介绍了适用于 Mac 客户端上 Skype for Business的客户端首选项和默认值，以及如何从应用外部编辑它们。
   
 ## <a name="skype-for-business-on-mac-client-preference-settings"></a>Skype for Business Mac 客户端首选项设置
 
-Mac 客户端上提供的某些Skype for Business和行为由客户端上的首选项设置确定。 Mac Skype for Business首选项位于 Mac 上安装了以下路径的 Skype for Business 客户端的文件中： 
+Mac 客户端上提供的某些Skype for Business和行为由客户端上的首选项设置确定。 Mac Skype for Business首选项位于已安装以下路径的 Skype for Business 客户端的 Mac 上文件中： 
   
  **~/Library/Containers/com.microsoft.SkypeForBusiness/Data/Library/Preferences/com.microsoft.SkypeForBusiness.plist**
   
@@ -34,7 +29,7 @@ Mac 客户端上提供的某些Skype for Business和行为由客户端上的首�
 **客户端首选项键**
 
 
-| 键 | 类型 | 值 | 说明 |
+| 键 | 类型 | 值 | Description |
 |:-----|:-----|:-----|:-----|
 |autoDetectAutoDicoveryURLs    |Bool    |0 = 手动服务器配置  <br/> 1 = 自动服务器检测 (默认)     |指定Skype for Business标识登录期间使用的传输和服务器。 如果启用此策略设置，则必须指定 **internalAutoDiscoveryURL** 和 **externalAutoDiscoveryURL**。   |
 |internalAutoDiscoveryURL    |String    |完整自动发现 URL    |内部自动发现 URL    |
@@ -47,7 +42,7 @@ Mac 客户端上提供的某些Skype for Business和行为由客户端上的首�
 |warnWhenUnknownLocationForE911    |Bool    |0 = 已禁用  <br/> 1 = 已启用    |从未知位置拨打紧急号码时警告用户。    |
 |sipAddress    |String    ||用于登录 (电子邮件) SIP 地址Skype for Business。    |
 |userName    |String    ||UPN (UserName) 用于登录到 Skype for Business。    |
-|userNameInAdvancedOnly    |Bool    |0 = 在主登录屏幕和"高级属性"对话框中显示"用户名"字段  <br/> 1 = 仅在"高级属性"对话框中显示"用户名" (默认)     |指定登录期间"用户名"字段的显示位置。    |
+|userNameInAdvancedOnly    |Bool    |0 = 在主登录屏幕和"高级属性"对话框中显示"用户名"字段  <br/> 1 = 仅在"高级属性"对话框中显示"用户名"字段 (默认)     |指定登录期间"用户名"字段的显示位置。    |
    
 ### <a name="usage-examples"></a>用法示例
 

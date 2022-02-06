@@ -1,36 +1,31 @@
 ---
 title: Plan for Shared Line Appearance in Skype for Business Server 2015
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/21/2016
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 6356aad4-700d-495c-8fc8-58eb1d4f6f18
-description: 阅读本主题，了解如何在 2015 年 11 月累积更新 (2015 Skype for Business Server SLA) 规划共享线路外观。
-ms.openlocfilehash: 9400a4a68c992c822162be3a5f84ea4a9d0ede31
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847205"
+description: 阅读本主题，了解如何在 2015 年 11 月累积更新的 Skype for Business Server 2015 (SLA) 中规划共享线路外观。
 ---
+
 # <a name="plan-for-shared-line-appearance-in-skype-for-business-server-2015"></a>Plan for Shared Line Appearance in Skype for Business Server 2015
  
-阅读本主题，了解如何在 2015 年 11 月累积更新 (2015 Skype for Business Server SLA) 规划共享线路外观。 
+阅读本主题，了解如何在 2015 年 11 月累积更新的 Skype for Business Server 2015 (SLA) 中规划共享线路外观。 
   
-共享线路外观是Skype for Business一种功能，用于处理对称为共享号码的特定号码的多个呼叫。 SLA 可以将任何启用企业语音Skype for Business用户配置为具有多行响应多个呼叫的共享号码。 实际上，不会在共享号码上收到呼叫，而是将呼叫转发给充当共享号码代理人的用户。 任何一个代理人都可以接听呼叫，而其余代理人会通过电话收到通知，告知谁接听了呼叫，因此哪个线路变得繁忙。 行数和代理数均可配置为 SLA 中的共享号码。 此外，还可以为共享号码配置高级选项 (如 BusyOption (当所有线路都繁忙) 和 MissedCallOption (（如果代理均未接电话) ）时会发生什么情况。
+共享线路外观是Skype for Business一种功能，用于处理对称为共享号码的特定号码的多个呼叫。 SLA 可以将任何启用企业语音Skype for Business用户配置为具有多行共享号码以响应多个呼叫。 实际上，不会在共享号码上收到呼叫，而是将呼叫转发给充当共享号码代理人的用户。 任何一个代理人都可以接听呼叫，而其余代理人会通过电话收到通知，告知谁接听了呼叫，因此哪个线路变得繁忙。 行数和代理数均可配置为 SLA 中的共享号码。 此外，还可以为共享号码配置高级选项 (如 BusyOption (当所有线路都繁忙) 和 MissedCallOption (（当代理均没有接电话) 时）会发生什么情况。
   
-SLA 仅在以下电话设备上受支持， (、移动电话或其他设备上Skype for Business客户端不支持 SLA) ： 
+SLA 仅在以下电话设备上受支持， (、移动电话) 或其他设备上Skype for Business不支持 SLA： 
   
 - 具有固件更新 5.4.1 的 Polycom VVX300
     
@@ -40,9 +35,9 @@ SLA 仅在以下电话设备上受支持， (、移动电话或其他设备上Sk
     
 - 具有固件更新 5.4.1 的 Polycom VVX600
     
-SLA 是 2015 年 11 月Skype for Business Server更新中的新增功能。 
+SLA 是 2015 年 11 月Skype for Business Server更新中的新功能。 
   
-有关部署 SLA 的信息，请参阅[Deploy Shared Line Appearance in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/deploy-shared-line-appearance.md)。
+有关部署 SLA 的信息，请参阅 [Deploy Shared Line Appearance in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/deploy-shared-line-appearance.md)。
   
 ## <a name="feature-list"></a>功能列表
 
@@ -58,6 +53,6 @@ SLA 是 2015 年 11 月Skype for Business Server更新中的新增功能。
     
 - 您可以为共享号码配置最大并发呼叫数。 还可以设置在达到此最大值后如何处理其他呼叫。 多余的呼叫可以通过忙音信号拒绝、转发到备用号码或转发到语音邮件。
     
-- 可以配置如何处理未接 (未接来电。在经过一段时间) 未接听的呼叫。 如果为组标识启用语音邮件，则未接来电将自动转到语音邮件。 如果没有为组标识启用语音邮件 (共享号码) ，可以选择通过忙音信号拒绝未接来电、转发到备用号码或断开连接。
+- 可以配置如何处理未接 (未接来电) 时间后未接听。 如果为组标识启用语音邮件，则未接来电将自动转到语音邮件。 如果没有为组标识启用语音邮件 (共享号码) ，可以选择通过繁忙信号拒绝未接来电、转发到备用号码或断开连接。
     
 

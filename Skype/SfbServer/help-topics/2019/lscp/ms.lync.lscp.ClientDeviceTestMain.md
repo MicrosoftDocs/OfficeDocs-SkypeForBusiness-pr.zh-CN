@@ -1,27 +1,22 @@
 ---
 title: 测试设备
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.ClientDeviceTestMain
+  - ms.lync.lscp.ClientDeviceTestMain
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: a1ea564c-f403-4f61-a36b-5a429708e7ca
-ROBOTS: NOINDEX, NOFOLLOW
-description: 可将测试设备添加到“测试设备”页，然后使用此设备验证新更新的功能，之后再将更新部署到生产设备。 可以在整个环境中或单个站点 (全局测试) 测试设备。 可通过测试设备的媒体访问控制 (MAC) 地址或序列号标识测试设备。 添加设备时，它将显示在"控制面板"的"测试设备"Skype for Business Server列表中。
-ms.openlocfilehash: aaac51fa7124436b6253f88a33d36758d2cb061c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834640"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 可将测试设备添加到“测试设备”页，然后使用此设备验证新更新的功能，之后再将更新部署到生产设备。 可以在整个环境中或单个站点 (全局测试) 测试设备。 可通过测试设备的媒体访问控制 (MAC) 地址或序列号标识测试设备。 添加设备时，它将显示在控制面板的"测试设备"Skype for Business Server列表中。
 ---
+
 # <a name="test-device"></a>测试设备
 
 可将测试设备添加到“测试设备”页，然后使用此设备验证新更新的功能，之后再将更新部署到生产设备。 可以在整个环境中或单个站点 (全局测试) 测试设备。 可通过测试设备的媒体访问控制 (MAC) 地址或序列号标识测试设备。 添加设备时，它将显示在控制面板的"测试设备 **"Skype for Business Server列表中**。
@@ -38,7 +33,7 @@ ms.locfileid: "60834640"
 
 下表介绍了该页上的菜单、命令、字段和属性。
 
-- **新建** 你可以添加具有以下作用域的新测试设备：
+- **新增功能** 你可以添加具有以下作用域的新测试设备：
 
   - 全球
 

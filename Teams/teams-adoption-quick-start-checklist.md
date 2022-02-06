@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 采用快速入门清单
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 11/09/2018
 audience: Admin
@@ -10,24 +10,20 @@ ms.service: msteams
 ms.reviewer: karuanag
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 使用此快速入门清单，确保组织开始采用新的Microsoft Teams。
+description: 使用此快速入门清单可确保在组织开始采用新计划时Microsoft Teams。
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- Adopt
-- seo-marvel-apr2020
+  - Adopt
+  - seo-marvel-apr2020
 ms.collection:
-- Teams_ITAdmin_Adopt
-- M365-collaboration
+  - Teams_ITAdmin_Adopt
+  - M365-collaboration
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: b95bc84a31f7efa2bb15a5e8cd7b06f73672fc26
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828445"
+  - Microsoft Teams
 ---
+
+
 # <a name="microsoft-teams-adoption-quick-start-checklist"></a>Microsoft Teams 采用快速入门清单
 
 [下载清单的副本](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-quickstart-checklist-oct2018.pdf?raw=true)
@@ -40,7 +36,7 @@ ms.locfileid: "60828445"
 
 - [了解团队和频道](teams-adoption-understand-teams-and-channels.md)
 - [创建第一个团队](teams-adoption-your-first-teams.md)
-- [准备好进行Teams？](teams-adoption-assess-readiness.md)
+- [准备好使用Teams？](teams-adoption-assess-readiness.md)
 - [与利益干系人会面](teams-adoption-assess-readiness.md#assess-your-stakeholders)
 - [识别早期采用者](teams-adoption-assess-readiness.md#identify-early-adopters)
 

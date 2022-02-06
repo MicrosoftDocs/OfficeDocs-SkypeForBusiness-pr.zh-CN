@@ -1,28 +1,23 @@
 ---
 title: tblNode
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: a31d2961-aa83-4286-a12e-15d279c95f19
-description: tblNode 包含对象树 (类别或聊天室节点) 控制面板和管理 cmdlet 中管理的对象树节点。
-ms.openlocfilehash: 1e6d3a97f04d614a0993ca06d8a5b2a2f928b39d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846245"
+description: tblNode 包含对象树 (类别或聊天室节点) 在控制面板和管理 cmdlet 中进行管理。
 ---
+
 # <a name="tblnode"></a>tblNode
  
-tblNode 包含对象树 (类别或聊天室节点) 控制面板和管理 cmdlet 中管理的对象树节点。
+tblNode 包含对象树 (类别或聊天室节点) 在控制面板和管理 cmdlet 中进行管理。
   
 **列**
 

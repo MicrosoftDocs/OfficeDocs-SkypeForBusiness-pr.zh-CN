@@ -1,25 +1,20 @@
 ---
-title: '在统一联系人存储中Skype for Business Server '
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: '在 Skype for Business Server 中部署统一的联系人Skype for Business Server '
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: d1c9ebd8-af42-42a0-87d9-fc899fbd7c42
 description: 摘要：在联系人集中启用统一Skype for Business Server。
-ms.openlocfilehash: 23e5aebcd0ed92cc07a203be5b3112142f692d9a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861809"
 ---
-# <a name="deploy-unified-contact-store-in-skype-for-business-server"></a>在统一联系人存储中Skype for Business Server
+
+# <a name="deploy-unified-contact-store-in-skype-for-business-server"></a>在 Skype for Business Server 中部署统一的联系人Skype for Business Server
  
 **摘要：** 在统一联系人存储中Skype for Business Server。
   
@@ -27,9 +22,9 @@ ms.locfileid: "60861809"
   
 - 启用统一的联系人存储库策略（将启用默认值）。
     
-- 用户至少使用Skype for Business登录一次。
+- 用户至少使用 Skype for Business登录一次。
     
-迁移用户的联系人后（当用户使用 Skype for Business 登录时，会自动进行迁移，然后用户可以从 Skype for Business、Outlook 2013 或 Outlook Web Access 访问和管理其 Skype for Business 联系人。 用户无需登录到 Skype for Business，Outlook Web Access Outlook联系人。
+迁移用户的联系人后（当用户使用 Skype for Business 登录时会自动进行迁移）后，用户可以从 Skype for Business、Outlook 2013 或 Outlook Web Access 访问和管理其 Skype for Business 联系人。 用户无需登录到 Skype for Business，Outlook Web Access Outlook联系人。
   
 > [!IMPORTANT]
 > 如果用户在迁移后从 Skype for Business 登录，则联系人和组可用且是最新的，但该用户无法管理 (，即添加、删除、移动、标记、取消标记或修改) 联系人。 
@@ -40,7 +35,7 @@ ms.locfileid: "60861809"
   
 ### <a name="to-enable-users-for-unified-contact-store"></a>为用户启用统一的联系人存储库
 
-1. 启动命令行Skype for Business Server：单击"开始"，单击"所有程序"，Skype for Business，然后单击"Skype for Business Server **命令行管理程序"。**
+1. 启动命令行Skype for Business Server：单击"开始 **"，单击**"所有程序 **"，单击**"Skype for Business"，然后单击"Skype for Business Server **命令行管理程序"**。
     
 2. 执行下列任意操作：
     
@@ -104,13 +99,13 @@ ms.locfileid: "60861809"
     
 - 使用富客户端Skype for Business登录。
     
-如果用户使用 Lync 或早期客户端登录，或者用户未连接到 Exchange 2013 服务器，则忽略用户服务策略，并且用户的联系人仍保留在 Skype for Business Server 中。
+如果用户使用 Lync 或早期客户端登录，或者用户未连接到 Exchange 2013 服务器，则忽略用户服务策略，并且用户的联系人仍保留在 Skype for Business Server。
   
 您可以通过以下任一方法来确定是否已迁移用户的联系人： 
   
 - 在客户端计算机上检查以下注册表项：
     
-    HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync<\\ SIP URL \> \UCS
+    HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync<\\ SIP URL\>\UCS
     
     如果用户的联系人存储在 Exchange 2013 中，则此键包含值为 2165 的 InUCSMode 值。
     
@@ -124,13 +119,13 @@ ms.locfileid: "60861809"
     
 ## <a name="roll-back-migrated-users"></a>回滚迁移的用户
 
-如果需要回滚统一的联系人存储功能，则仅在将用户移回 Exchange 2010 或 Lync Server 2010 时回滚联系人。 要进行回滚，请针对用户禁用该策略，然后运行 **Invoke-CsUcsRollback** cmdlet。 只是单独运行 **Invoke-CsUcsRollback** 并不足以确保永久回滚，因为如果未禁用该策略，统一联系人存储迁移将再次发生。 例如，如果用户由于 Exchange 2013 回滚到 Exchange 2010 而回滚，然后用户的邮箱移动到 Exchange 2013，则只要在用户服务策略中仍为用户启用统一联系人存储，统一联系人存储迁移将在回滚七天后再次启动。
+如果需要回滚统一的联系人存储功能，则仅在将用户移回 Exchange 2010 或 Lync Server 2010 时回滚联系人。 要进行回滚，请针对用户禁用该策略，然后运行 **Invoke-CsUcsRollback** cmdlet。 只是单独运行 **Invoke-CsUcsRollback** 并不足以确保永久回滚，因为如果未禁用该策略，统一联系人存储迁移将再次发生。 例如，如果用户由于 Exchange 2013 回滚到 Exchange 2010，然后用户的邮箱移动到 Exchange 2013 而回滚，则只要在用户服务策略中仍为用户启用统一联系人存储，统一联系人存储迁移将在回滚七天后再次启动。
   
 **在下列情况下，Move-CsUser** cmdlet 会自动将用户的联系人存储从 Exchange 2013 回滚到 Skype for Business Server：
   
 - 将用户从 Skype for Business Server Microsoft Lync Server 2013 或 Lync Server 2010 时。 
     
-- 当用户跨界迁移时，例如当用户从 Skype for Business Online 迁移到本地Skype for Business Server时，反之亦然。
+- 当用户跨内部部署迁移时（例如，当用户从 Skype for Business Online Skype for Business Server内部部署时，反之亦然。
     
 如果统一联系人存储模式在导出和导入之间发生更改，则从备份数据库中导入统一联系人存储数据，可能导致统一联系人存储数据和用户数据发生损坏。例如：
   
@@ -139,8 +134,8 @@ ms.locfileid: "60861809"
 - 如果在将用户迁移到 Exchange 2013 之后导出用户数据，回滚迁移，然后出于某种原因在迁移后导入数据，则统一联系人存储数据和联系人列表将损坏。
     
 > [!IMPORTANT]
-> 在将 Exchange 邮箱从 Exchange 2013 移动到 Exchange 2010 之前，Exchange 管理员必须确保 Skype for Business Server 管理员首先回滚Skype for Business Server从 2013 Exchange 2013 到 Skype for Business Server 的用户联系人。 若要将统一联系人存储联系人回滚到 Skype for Business Server，请参阅本节后面部分中的"将统一联系人存储联系人从 Exchange 2013 回滚到 Skype for Business Server"。 
+> 在将 Exchange 邮箱从 Exchange 2013 移动到 Exchange 2010 之前，Exchange 管理员必须确保 Skype for Business Server 管理员首先回滚Skype for Business Server 从 2013 Exchange 2013 到 Skype for Business Server。 若要将统一联系人存储联系人回滚到 Skype for Business Server，请参阅本节后面部分中的"将统一联系人存储联系人从 Exchange 2013 回滚到 Skype for Business Server"。 
   
- **如何回滚用户联系人：** 如果使用 **Move-CsUser** cmdlet 在 Skype for Business Server 2015 和 Lync Server 2010 之间移动用户，您可以跳过这些步骤，因为 **Move-CsUser** cmdlet 在将用户从 Skype for Business Server 2015 移至 Lync Server 2010 时会自动回滚统一联系人存储。 **Move-CsUser** 不会禁用统一的联系人存储策略，因此，如果用户移回 2015 年 10 月，则迁移到统一联系人存储Skype for Business Server重复。
+ **如何回滚用户联系人：** 如果使用 **Move-CsUser** cmdlet 在 Skype for Business Server 2015 和 Lync Server 2010 之间移动用户，您可以跳过这些步骤，因为 **Move-CsUser** cmdlet 在将用户从 Skype for Business Server 2015 移动到 Lync Server 2010 时会自动回滚统一联系人存储。 **Move-CsUser** 不会禁用统一联系人存储策略，因此，如果用户移回 2015 年 10 月，则迁移到统一联系人存储Skype for Business Server重复。
   
 

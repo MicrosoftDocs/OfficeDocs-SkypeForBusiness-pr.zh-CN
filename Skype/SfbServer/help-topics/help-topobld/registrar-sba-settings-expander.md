@@ -1,27 +1,22 @@
 ---
 title: 注册器 SBA 设置扩展器
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.RegistrarSBASettingsExpander
+  - ms.lync.tb.RegistrarSBASettingsExpander
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 68ea1fc0-9cd1-4e0a-995e-b53845493477
 description: 编辑“复原”的设置并配置以下属性：
-ms.openlocfilehash: 8ea7267d5074783823622609e6a2330d09b0ed46
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837714"
 ---
+
 # <a name="registrar-sba-settings-expander"></a>注册器 SBA 设置扩展器
 
 编辑“复原”的设置并配置以下属性：

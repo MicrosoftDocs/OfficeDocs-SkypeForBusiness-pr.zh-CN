@@ -1,25 +1,20 @@
 ---
-title: 在部署中创建Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: 在部署中创建存档Skype for Business Server
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: dc574afa-0b7d-404f-99b3-c812430b7c70
 description: 摘要：了解如何创建存档Skype for Business Server。
-ms.openlocfilehash: 76fd2785f172cc9dd4b76df97d3c29a78e831e46
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850035"
 ---
-# <a name="create-an-archiving-configuration-in-skype-for-business-server"></a>在部署中创建Skype for Business Server
+
+# <a name="create-an-archiving-configuration-in-skype-for-business-server"></a>在部署中创建存档Skype for Business Server
 
 **摘要：** 了解如何为用户创建存档Skype for Business Server。
   
@@ -35,9 +30,9 @@ ms.locfileid: "60850035"
     
 4. 在“存档配置”页上，单击“新建”，然后执行下列操作之一： 
     
-   - 要创建站点存档配置，请单击" **站点配置**"，然后在" **选择** 站点"中，选择要为存档配置的站点。
+   - 要创建站点存档配置，请单击 **"站点配置**"，然后在"选择站点"中，选择要为存档配置的站点。
     
-   - 要创建池存档配置，请单击"池配置"，然后在"**选择** 池"中，选择要为存档配置的池。
+   - 要创建池存档配置，请单击"池配置"，然后在"选择池"中，选择要为存档配置的池。
     
 5. 在“新建存档设置”的“存档设置”下拉列表框中，执行下列操作之一：
     
@@ -45,7 +40,7 @@ ms.locfileid: "60850035"
     
    - 若要为 IM 会话和 Web 会议启用存档，请单击“存档 IM 和 Web 会议会话”。
     
-   - 若要为此配置禁用存档，请单击"**禁用存档"。**
+   - 若要为此配置禁用存档，请单击" **禁用存档"**。
     
 6. 另请在“新建存档设置”中，执行下列操作：
     

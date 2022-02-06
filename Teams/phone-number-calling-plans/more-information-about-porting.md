@@ -1,36 +1,31 @@
 ---
 title: 有关移植的信息
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
-ms.reviewer: tonysmit,jastark
+ms.reviewer: 'tonysmit,jastark'
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection:
-- M365-voice
+  - M365-voice
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 f1.keywords:
-- CSH
+  - CSH
 ms.custom: ms.teamsadmincenter.voice.phonenumbers.porting.moreinfo
 description: 获取将电话号码移植到 Microsoft Teams。
-ms.openlocfilehash: 362f7865f820e91e911791685293b7ca9c1786cd
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848175"
 ---
+
 # <a name="more-information-about-porting"></a>有关移植的信息
 
-可在此处找到有关将电话号码移植到Microsoft Teams。
+可在此处找到有关将电话号码移植到 Microsoft Teams。
 
-有关完整的分步说明，请参阅[将电话号码转移到 Teams。](transfer-phone-numbers-to-teams.md)
+有关完整的分步说明，请参阅[将电话号码转移到Teams](transfer-phone-numbers-to-teams.md)。
 
 如果需要帮助或需要获取更多电话号码，请联系 [TNS 服务台帮助](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)。
 
@@ -78,7 +73,7 @@ ms.locfileid: "60848175"
   
 ## <a name="whats-my-billing-telephone-number"></a>我的付费电话号码是什么？
 
-BTN (收费电话号码) 包含在帐单上且由服务提供商或运营商计费的主电话号码。 如果要从只有一个电话号码的帐户转移电话号码，则需要输入此电话号码。 如果要从具有多个帐户转移电话号码，可以查看帐单或联系服务提供商或运营商，确定您的帐户的 BTN 是什么。
+按 BTN (收费) 是包含在帐单上且由服务提供商或运营商计费的主电话号码。 如果要从只有一个电话号码的帐户转移电话号码，则需要输入此电话号码。 如果要从具有多个帐户转移电话号码，可以查看帐单或联系服务提供商或运营商，确定您的帐户的 BTN 是什么。
 
 ## <a name="what-should-i-put-in-for-the-account-number"></a>我应该为帐号放入什么？
 

@@ -1,7 +1,7 @@
 ---
 title: 使用 Teams 安装Microsoft Endpoint Configuration Manager
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -11,24 +11,19 @@ description: 使用Microsoft Endpoint Configuration Manager批量部署Microsoft
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.collection:
-- M365-collaboration
-- m365initiative-deployteams
+  - M365-collaboration
+  - m365initiative-deployteams
 ms.custom: seo-marvel-apr2020
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: 4a26970bdef120ae6b6ba80fac80838320a06fd7
-ms.sourcegitcommit: 8d728ca42dc917a28b94e2de84ce4f5b2515d485
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 12/15/2021
-ms.locfileid: "61513503"
+  - Microsoft Teams
 ---
+
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>使用 Microsoft Endpoint Configuration Manager 安装 Microsoft Teams
 
 > [!Tip]
-> 观看以下会话，了解 Windows 桌面客户端的好处、如何规划它以及如何部署它：Teams Windows[桌面客户端。](https://aka.ms/teams-clients)
+> 观看以下会话，了解 Windows 桌面客户端的好处、如何规划它以及如何部署它：Teams Windows[桌面客户端](https://aka.ms/teams-clients)。
 
 为了使用 Microsoft Endpoint Configuration Manager 或组策略或任何第三方分发机制以进行广泛部署，Microsoft 提供了 MSI 文件（32 位和 64 位），供管理员用于将 Teams 批量部署至选定的用户或计算机。 管理员可以使用这些文件远程部署 Teams，使用户无需手动下载 Teams 应用。 部署后，对于登录至计算机上的所有用户，Teams 将会自动启用。 （你可以在安装此应用之后禁用自动启用。 [请参阅下面的](#disable-auto-launch-for-the-msi-installer)。）建议你将程序包部署至计算机，以便该计算机上的所有新用户均可从此部署中受益。
 
@@ -43,11 +38,11 @@ ms.locfileid: "61513503"
 
 **若要确保部署成功，请注意以下事项：**
 
-- 在 64 位操作系统Teams 64 位版本的操作系统。 如果尝试在 32 位操作系统上安装 64 位版本的 Teams，安装不会成功，并且当前不会收到错误消息。
+- 在 64 位操作系统Teams 64 位版本。 如果尝试在 32 位操作系统上安装 64 位版本的 Teams，安装不会成功，并且当前不会收到错误消息。
 
-- Teams部署中也可以包含Microsoft 365 企业应用版。 有关详细信息，请参阅使用 Microsoft Teams[部署Microsoft 365 企业应用版。](/deployoffice/teams-install)
+- Teams部署中也可以包含Microsoft 365 企业应用版。 有关详细信息，请参阅使用 Microsoft Teams [部署Microsoft 365 企业应用版](/deployoffice/teams-install)。
 
-- 若要详细了解如何[Microsoft Endpoint Configuration Manager，请参阅什么是配置管理器？](/configmgr/core/understand/introduction)
+- 若要详细了解如何Microsoft Endpoint Configuration Manager[，请参阅什么是 Configuration Manager？](/configmgr/core/understand/introduction)
 
 ## <a name="deployment-procedure-recommended"></a>部署过程（推荐）
 
@@ -80,18 +75,18 @@ Teams MSI 会将安装程序放置在“Program Files”中。 无论用户何�
 
 ## <a name="clean-up-and-redeployment-procedure"></a>清理和重新部署过程
 
-如果用户从Teams卸载应用，MSI 安装程序将跟踪该用户已卸载 Teams 应用，并且不再为Teams安装 Teams。 要为此用户在已从其中卸载 Teams 的特定计算机上重新部署 Teams，请执行以下操作：
+如果用户从Teams卸载应用，MSI 安装程序将跟踪该用户已卸载 Teams 应用，并且不再为该用户配置文件安装 Teams。 要为此用户在已从其中卸载 Teams 的特定计算机上重新部署 Teams，请执行以下操作：
 
 > [!IMPORTANT]
 > 接下来的步骤包含有关如何修改注册表的信息。 请确保在修改注册表之前对其进行备份，并且知道在出现问题时如何还原注册表。 若要详细了解如何备份、还原和修改注册表，请参阅Windows[用户的注册表信息](https://support.microsoft.com/help/256986)。
 
-1. 卸载Teams配置文件安装的应用。 有关详细信息，请参阅卸载[Microsoft Teams。](https://support.office.com/article/uninstall-microsoft-teams-3b159754-3c26-4952-abe7-57d27f5f4c81#ID0EAABAAA=Desktop)
-2. 在 下以递归删除目录 `%localappdata%\Microsoft\Teams\` 。
-3. 删除 `HKEY_CURRENT_USER\Software\Microsoft\Office\Teams\PreventInstallationFromMsi` 注册表值。
+1. 卸载Teams配置文件安装的应用。 有关详细信息，请参阅卸载[Microsoft Teams](https://support.office.com/article/uninstall-microsoft-teams-3b159754-3c26-4952-abe7-57d27f5f4c81#ID0EAABAAA=Desktop)。
+2. 在 下以递归删除目录 `%localappdata%\Microsoft\Teams\`。
+3. `HKEY_CURRENT_USER\Software\Microsoft\Office\Teams\PreventInstallationFromMsi`删除注册表值。
 4. 将 MSI 程序包重新部署到该特定计算机。
 
 > [!TIP]
-> 也可使用 Teams[清理脚本](scripts/powershell-script-deployment-cleanup.md)完成步骤 1 和 2。  
+> 也可使用 Teams [清理脚本](scripts/powershell-script-deployment-cleanup.md)完成步骤 1 和 2。  
 
 ## <a name="prevent-teams-from-starting-automatically-after-installation"></a>阻止 Teams 在安装后自动启动
 
@@ -126,7 +121,7 @@ msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true" ALLUSERS=1
 
 当用户登录 Windows 时，Teams 已通过 MSI 安装并且启动 Teams 的快捷方式已添加至用户桌面。 在用户手动启动 Teams 之前，它不会启动。 用户手动启动 Teams 之后，无论用户何时登录，Teams 均会自动启动。
 
-请注意，这些示例还使用 **ALLUSERS=1** 参数。 设置此参数时，Teams Machine-Wide安装程序会显示在"控制面板"中的"程序和功能"中，&计算机Windows 设置的"应用和功能"中。 然后，所有用户都可以卸载Teams计算机上具有管理员凭据的用户。
+请注意，这些示例还使用 **ALLUSERS=1** 参数。 设置此参数时，Teams Machine-Wide安装程序会显示在"控制面板"中的"程序和功能"中，&"应用"Windows 设置的"功能"中。 然后，如果用户Teams管理员凭据，则所有用户都可以卸载密码。
 
 > [!Note]
 > 如果手动运行 MSI，请确保使用已提升的权限运行它。 即便以管理员身份而不是使用已提升的权限运行 MSI，安装程序也无法将选项配置为禁用自动启动。

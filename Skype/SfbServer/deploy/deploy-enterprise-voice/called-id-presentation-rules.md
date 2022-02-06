@@ -1,29 +1,24 @@
 ---
-title: 创建或修改名为 ID 演示文稿的转换规则Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: 在演示文稿中为名为 ID 演示文稿创建或修改Skype for Business Server
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: ba112df8-3bb4-48e4-a353-4bf9110ccd71
 description: 摘要：了解如何使用"转换规则"工具定义转换Skype for Business Server。
-ms.openlocfilehash: 82e737ddcd7ed7c17de3cdd968d31996e50074be
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864429"
 ---
-# <a name="create-or-modify-a-translation-rule-for-called-id-presentation-in-skype-for-business-server"></a>创建或修改名为 ID 演示文稿的转换规则Skype for Business Server
+
+# <a name="create-or-modify-a-translation-rule-for-called-id-presentation-in-skype-for-business-server"></a>在演示文稿中为名为 ID 演示文稿创建或修改Skype for Business Server
 
 **摘要：** 了解如何使用转换规则工具定义转换规则Skype for Business Server。
 
@@ -33,7 +28,7 @@ ms.locfileid: "60864429"
 
 1. 打开Skype for Business Server控制面板"。
 
-2. 要开始定义转换规则，请按照在 Skype for Business Server 中配置具有媒体旁路的中继中的步骤执行，或者按照步骤[9](configure-trunk-with-media-bypass.md)中的配置没有媒体旁路Skype for Business Server中的步骤操作。 [](configure-trunk-without-media-bypass.md)
+2. 要开始定义转换规则，请按照在 [Skype for Business Server](configure-trunk-with-media-bypass.md) 中配置具有媒体旁路的中继中的步骤，或按照步骤 9 中的配置没有媒体[](configure-trunk-without-media-bypass.md)旁路Skype for Business Server中的步骤操作。
 
 3. 在“新建转换规则”或“编辑转换规则”页上的“名称”下，键入描述要转换的号码模式的名称。
 
@@ -51,7 +46,7 @@ ms.locfileid: "60864429"
 
      这些字段中输入的值将反映在“要匹配的模式”和“转换规则”字段中。例如，如果指定前面示例中的值，则“要匹配的模式”字段中生成的正则表达式为：
 
-     ^\+ (\d {9} \d+) $
+     ^\+ (\d{9}\d+) $
 
      “转换规则”字段指定转换号码格式的模式。该模式由两部分组成：
 
@@ -59,7 +54,7 @@ ms.locfileid: "60864429"
 
    - （可选）可以通过在“要添加的数字”字段中输入来附加的值
 
-     使用上述示例值，"转换规则"字段中将显示 011$1。 
+     使用上述示例值，"转换规则"字段中将显示 011$1。
 
      应用此转换规则后，+441235551010 将变为 011441235551010。
 
@@ -70,17 +65,17 @@ ms.locfileid: "60864429"
 8. 在“Trunk 配置”页上，单击“提交”，然后单击“全部提交”。
 
    > [!NOTE]
-   > 每当创建或修改转换规则时，都必须运行“全部提交”命令以发布配置更改。 有关详细信息，请参阅操作[文档中](voice-route-config-changes.md)的 Publish pending changes to the voice routing configuration in Skype for Business in the Operations documentation。
+   > 每当创建或修改转换规则时，都必须运行“全部提交”命令以发布配置更改。 有关详细信息，请参阅操作文档中的 Publish [pending changes to the voice routing configuration in Skype for Business](voice-route-config-changes.md) in the Operations documentation。
 
 ### <a name="to-define-a-translation-rule-manually"></a>手动定义转换规则
 
 1. 打开Skype for Business Server控制面板
 
-2. 要开始定义转换规则，请按照在 Skype for Business Server 中配置具有媒体旁路的中继中的步骤执行，或者按照步骤[9](configure-trunk-with-media-bypass.md)中的配置没有媒体旁路Skype for Business Server中的步骤操作。 [](configure-trunk-without-media-bypass.md)
+2. 要开始定义转换规则，请按照在 [Skype for Business Server](configure-trunk-with-media-bypass.md) 中配置具有媒体旁路的中继中的步骤，或按照步骤 9 中的配置没有媒体[](configure-trunk-without-media-bypass.md)旁路Skype for Business Server中的步骤操作。
 
 3. 在“新建转换规则”或“编辑转换规则”页上的“名称”字段中，键入描述要转换的号码模式的名称。
 
-4.  (可选) 在 **"** 说明"中，键入转换规则的说明，例如美国国际长途拨号。
+4.  (可选) 在"说明"中，键入转换规则的说明，例如美国国际长途拨号。
 
 5. 单击“构建转换规则”部分底部的“编辑”。
 
@@ -90,7 +85,7 @@ ms.locfileid: "60864429"
 
    - 在“转换规则”中，指定转换号码格式的模式。
 
-     例如，如果在"匹配此模式"中输入 ^ (\d \d+) $，在"转换规则"中输入 \+ {9} 011$1，则规则将 +441235551010 转换为 011441235551010。
+     例如，如果在"匹配此模式"中输入 ^\+ (\d  {9}\d+) $，在"转换规则"中输入 011$1，则规则将 +441235551010 转换为 011441235551010。
 
 7. 单击“确定”保存转换规则。
 
@@ -99,7 +94,7 @@ ms.locfileid: "60864429"
 9. 在“Trunk 配置”页上，单击“提交”，然后单击“全部提交”。
 
     > [!NOTE]
-    > 每当创建或修改转换规则时，都必须运行“全部提交”命令以发布配置更改。 有关详细信息，请参阅操作[文档中](voice-route-config-changes.md)的 Publish pending changes to the voice routing configuration in Skype for Business in the Operations documentation。
+    > 每当创建或修改转换规则时，都必须运行“全部提交”命令以发布配置更改。 有关详细信息，请参阅操作文档中的 Publish [pending changes to the voice routing configuration in Skype for Business](voice-route-config-changes.md) in the Operations documentation。
 
 ## <a name="see-also"></a>另请参阅
 
@@ -109,4 +104,4 @@ ms.locfileid: "60864429"
 
 [在语音路由配置中发布待处理Skype for Business](voice-route-config-changes.md)
 
-[在部署媒体Skype for Business Server](deploy-media-bypass.md)
+[部署媒体旁路Skype for Business Server](deploy-media-bypass.md)
