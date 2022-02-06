@@ -1,28 +1,23 @@
 ---
 title: 在服务中创建或修改Skype for Business
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: b9d6366a-839f-4651-a01d-9254546cadeb
 description: 创建或修改响应组队列，Skype for Business Server 企业语音。
-ms.openlocfilehash: 6a4eb09e144bd7381ababdf37a0905c4ea9bac06
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842424"
 ---
+
 # <a name="create-or-modify-a-queue-in-skype-for-business"></a>在服务中创建或修改Skype for Business
  
 创建或修改响应组队列，Skype for Business Server 企业语音。
@@ -71,11 +66,11 @@ ms.locfileid: "60842424"
     
    - 要在超时后断开呼叫，请单击“断开连接”。
     
-   - 若要将呼叫转发到语音邮件，请单击"转发到语音邮件"，然后在 **"SIP** 地址"字段中，键入格式为 sip： *\<username\>* @  *\<domainname\>* (例如，sip:bob@contoso.com) 。
+   - 若要将呼叫转发到语音邮件，请单击"转发到语音邮件"，然后在 **"SIP** 地址"字段中，键入格式为 sip： *\<username\>*@ *\<domainname\>* 的语音邮件地址 (例如，sip:bob@contoso.com) 。
     
-   - 若要将呼叫转发到另一个电话号码，请单击"转发到电话号码"，然后在 **"SIP** 地址"字段中，键入格式为 sip： (*\<number\>* @  *\<domainname\>* 例如，sip:+14255550121@contoso.com) 。
+   - 若要将呼叫转发到另一个电话号码，请单击"转发到电话号码"，然后在 **"SIP** 地址"字段中，键入格式为 sip： *\<number\>*@ *\<domainname\>* (例如，sip:+14255550121@contoso.com) 。
     
-   - 若要将呼叫转发到另一个用户，请单击"转发 **到 SIP** 地址"，然后在 **"SIP** 地址"字段中，键入用户 URI 的格式为 sip：。 _\<username\>_ @  _\<domainname\>_
+   - 若要将呼叫转发到另一个用户，请单击"转发 **到 SIP** 地址"，然后在 **"SIP** 地址"字段中，键入用户 URI 的格式为 sip： _\<username\>_@ _\<domainname\>_。
     
    - 要将呼叫转接到其他队列，请单击“转接到其他队列”，然后浏览至要使用的队列。
     
@@ -89,11 +84,11 @@ ms.locfileid: "60842424"
     
    - 要在超时后断开呼叫，请单击“断开连接”。
     
-   - 若要将呼叫转发到语音邮件，请单击"转发到语音邮件"，然后在 **"SIP** 地址"字段中，键入格式为 sip： *\<username\>* @  *\<domainname\>* (例如，sip:bob@contoso.com) 。
+   - 若要将呼叫转发到语音邮件，请单击"转发到语音邮件"，然后在 **"SIP** 地址"字段中，键入格式为 sip： *\<username\>*@ *\<domainname\>* 的语音邮件地址 (例如，sip:bob@contoso.com) 。
     
-   - 若要将呼叫转发到另一个电话号码，请单击"转发到电话号码"，然后在 **"SIP** 地址"字段中，键入格式为 sip： (*\<number\>* @  *\<domainname\>* 例如，sip:+14255550121@contoso.com) 。
+   - 若要将呼叫转发到另一个电话号码，请单击"转发到电话号码"，然后在 **"SIP** 地址"字段中，键入格式为 sip： *\<number\>*@ *\<domainname\>* (例如，sip:+14255550121@contoso.com) 。
     
-   - 若要将呼叫转发到另一个用户，请单击"转发 **到 SIP** 地址"，然后在 **"SIP** 地址"字段中，键入用户 URI 的格式为 sip：。 _\<username\>_ @  _\<domainname\>_
+   - 若要将呼叫转发到另一个用户，请单击"转发 **到 SIP** 地址"，然后在 **"SIP** 地址"字段中，键入用户 URI 的格式为 sip： _\<username\>_@ _\<domainname\>_。
     
    - 要将呼叫转接到其他队列，请单击“转接到其他队列”，然后浏览至要使用的队列。
     
@@ -106,7 +101,7 @@ ms.locfileid: "60842424"
     > [!NOTE]
     > 如果您是托管工作流的委派响应组管理员，您将能够创建代理组和队列并将代理组分配给队列。 
   
-2. 启动命令行Skype for Business Server：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击"Skype for Business Server **命令行管理程序"。**
+2. 启动命令行Skype for Business Server：单击"开始"**，单击"** 所有程序"**，单击"****Skype for Business 2015"**，然后单击"Skype for Business Server **命令行管理程序"**。
     
 3. 创建在达到队列超时阈值时要显示的提示，并将其保存在变量中。在命令行中运行：
     

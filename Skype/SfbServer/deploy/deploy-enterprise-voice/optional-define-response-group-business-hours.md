@@ -1,25 +1,20 @@
 ---
-title: " (可选) 定义响应组工作时间（以Skype for Business"
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: ' (可选) 定义响应组工作时间（以Skype for Business'
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d62551b2-1847-4e1b-abe8-683b72aa94d5
 description: 创建或修改响应组工作时间（以Skype for Business Server 企业语音）。
-ms.openlocfilehash: 0a7e22d02a4540973f2f3e3f2ea39fabe848f17c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850405"
 ---
+
 # <a name="optional-define-response-group-business-hours-in-skype-for-business"></a> (可选) 定义响应组工作时间（以Skype for Business 
  
 创建或修改响应组工作时间（以Skype for Business Server 企业语音）。
@@ -41,7 +36,7 @@ ms.locfileid: "60850405"
 
 1. 以 RTCUniversalServerAdmins 组的成员或支持响应组的预定义管理角色之一的成员登录。
     
-2. 启动命令行Skype for Business Server：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击"Skype for Business Server **命令行管理程序"。**
+2. 启动命令行Skype for Business Server：单击"开始"**，单击"** 所有程序"**，单击"****Skype for Business 2015"**，然后单击"Skype for Business Server **命令行管理程序"**。
     
 3. 对于要定义的每个唯一时间范围，请运行：
     

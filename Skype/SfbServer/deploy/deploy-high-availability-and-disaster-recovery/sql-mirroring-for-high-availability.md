@@ -1,32 +1,27 @@
 ---
 title: Deploy SQL mirroring for Back End Server high availability in Skype for Business Server 2015
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 70224520-b5c8-4940-a08e-7fb9b1adde8d
 description: 为了能够部署 SQL 镜像，您的服务器必须至少运行 SQL Server 2008 R2。 此版本必须在所有涉及的服务器上运行：主、镜像和见证。 有关详细信息，请参阅 cumulative update package 9 for SQL Server 2008 Service Pack 1。
-ms.openlocfilehash: b27fed99cafa109da8c13e369c93985d7bc4cf64
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849445"
 ---
+
 # <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a>在 SQL Server 2015 中部署后端服务器高可用性Skype for Business镜像
 
 
-为了能够部署 SQL 镜像，您的服务器必须至少运行 SQL Server 2008 R2。 此版本必须在所有涉及的服务器上运行：主、镜像和见证。 有关详细信息，请参阅[cumulative update package 9 for SQL Server 2008 Service Pack 1。](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=2083921)
+为了能够部署 SQL 镜像，您的服务器必须至少运行 SQL Server 2008 R2。 此版本必须在所有涉及的服务器上运行：主、镜像和见证。 有关详细信息，请参阅 cumulative [update package 9 for SQL Server 2008 Service Pack 1](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=2083921)。
 
 通常，在两台具有见证的后端服务器之间设置 SQL 镜像需要满足以下条件：
 
-- 主服务器的版本必须支持SQL Server镜像SQL镜像。
+- 主服务器的版本必须支持SQL Server镜像SQL版本。
 
 - 主、镜像和见证（如果部署）必须具有同一版本的 SQL Server。
 
@@ -36,7 +31,7 @@ ms.locfileid: "60849445"
 
 使用拓扑生成器部署SQL镜像。 在拓扑生成器中选择一个选项来镜像数据库，拓扑生成器将设置镜像 (包括设置见证（如果需要在发布拓扑时) 设置见证服务器）。 请注意，您在设置或删除镜像的同时将设置或删除见证。 没有用于仅部署或删除见证的单独命令。
 
-若要配置服务器镜像，您必须先正确设置 SQL 数据库权限。 有关详细信息，请参阅为数据库镜像或 AlwaysOn 可用性组设置登录[ (SQL Server) 。 ](/sql/database-engine/database-mirroring/set-up-login-accounts-database-mirroring-always-on-availability)
+若要配置服务器镜像，您必须先正确设置 SQL 数据库权限。 有关详细信息，请参阅为数据库[镜像或 AlwaysOn ](/sql/database-engine/database-mirroring/set-up-login-accounts-database-mirroring-always-on-availability)可用性组设置登录 (SQL Server) 。
 
 对于 SQL 镜像，数据库恢复模式始终设置为“完全”，这意味着您必须密切监控事务日志大小并定期备份事务日志以避免后端服务器上的磁盘空间不足。 事务日志备份频率取决于日志增长速率，反过来，日志增长速率又取决于前端池上的用户活动所触发的数据库事务数。 建议您确定部署工作负载预计的事务日志增长量，以便可以相应地进行规划。 下列文章提供了有关 SQL 备份和日志管理的其他信息：
 
@@ -49,7 +44,7 @@ ms.locfileid: "60849445"
 对于 SQL 镜像，可在创建池时或之后为镜像配置拓扑。
 
 > [!IMPORTANT]
-> 只有在主服务器、镜像服务器和见证 (（如果需要）) 服务器都属于同一个域时，才支持使用拓扑生成器或 cmdlet 设置和删除 SQL 镜像。 如果您需要在不同域中的服务器之间设置 SQL 镜像，请参阅 SQL Server 文档。
+> 只有在主服务器、镜像服务器和见证 (服务器都属于同一个域时) 才支持使用拓扑生成器或 cmdlet 设置和删除 SQL 镜像。 如果您需要在不同域中的服务器之间设置 SQL 镜像，请参阅 SQL Server 文档。
 
 > [!IMPORTANT]
 > 只要更改后端数据库镜像关系，就必须重新启动池中的所有前端服务器。 >对于镜像中的更改， (（如更改镜像服务器) ）必须使用拓扑生成器执行以下三个步骤：
@@ -61,7 +56,7 @@ ms.locfileid: "60849445"
 3. 发布拓扑。
 
 > [!NOTE]
-> 必须创建文件共享，以写入镜像文件，并且运行 SQL Server 和 SQL 代理的服务需要读/写访问权限。 如果 SQL Server 服务在网络服务上下文中运行，您可以将主体服务器和镜像 SQL 服务器的 \<Domain\> \\<SQLSERVERNAME $ 添加到 \> 共享权限。 $ 对于确定这是计算机帐户非常重要。
+> 必须创建文件共享，以写入镜像文件，并且运行 SQL Server 和 SQL 代理的服务需要读/写访问权限。 如果 SQL Server \<Domain\>\\ 服务在网络服务上下文中运行，您可以将主体服务器和镜像 SQL 服务器的<SQLSERVERNAME\>$ 添加到共享权限中。 $ 对于确定这是计算机帐户非常重要。
 
 ## <a name="to-configure-sql-mirroring-while-creating-a-pool-in-topology-builder"></a>在拓扑SQL创建池时配置镜像
 
@@ -81,7 +76,7 @@ ms.locfileid: "60849445"
 
     c. 指定端口号（默认为 7022）并单击“确定”。
 
-6. 定义完拓扑中的前端池和所有其他角色后，请使用拓扑生成器发布拓扑。 发布拓扑后，如果承载中央管理存储的前端池启用了 SQL 镜像，则会看到一个选项，用于创建存储数据库中的主SQL镜像。
+6. 定义完拓扑中的前端池和所有其他角色后，使用拓扑生成器发布拓扑。 发布拓扑后，如果承载中央管理存储的前端池已启用SQL镜像，则会看到一个选项，用于创建存储数据库中的主SQL镜像。
 
     单击“设置”，并键入要用作镜像备份的文件共享的路径。
 
@@ -91,7 +86,7 @@ ms.locfileid: "60849445"
 
 ## <a name="to-add-sql-mirroring-to-an-existing-front-end-pool-in-topology-builder"></a>在拓扑SQL中添加到现有前端池的镜像
 
-1. 在拓扑生成器中，右键单击该池，然后单击"编辑 **属性"。**
+1. 在拓扑生成器中，右键单击该池，然后单击"编辑 **属性"**。
 
 2. 选择“启用 SQL 存储镜像”，然后单击“镜像 SQL 存储”旁边的“新建”。
 
@@ -225,7 +220,7 @@ ms.locfileid: "60849445"
 
     - 如果在见证 SQL Server AB14-lct.los_a.lsipt.local\rtc 中启用 Windows 防火墙，则可通过防火墙访问端口 7022。
 
-   - 在所有主服务器SQL镜像服务器上运行 SQL 的帐户对文件共享 \\ E04-OCS\csdatabackup 具有读/写权限
+   - 在所有主服务器SQL镜像服务器上运行 SQL 的帐户对文件共享 E04-OCS\csdatabackup 具有读/\\写权限
 
    - 确认 Windows Management Instrumentation (WMI) 提供程序正在所有这些服务器上运行。该 cmdlet 使用此提供程序查找在所有主、镜像和见证服务器上运行的 SQL Server 服务的帐户信息。
 
@@ -261,7 +256,7 @@ Uninstall-CsMirrorDatabase -SqlServerFqdn <SQLServer FQDN> [-SqlInstanceName <SQ
 Uninstall-CsMirrorDatabase -SqlServerFqdn primaryBE.contoso.com -SqlInstanceName rtc -Verbose -DatabaseType User -DropExistingDatabasesOnMirror
 ```
 
-`-DropExistingDatabasesOnMirror`该选项会导致从镜像中删除受影响的数据库。
+该选项  `-DropExistingDatabasesOnMirror` 会导致从镜像中删除受影响的数据库。
 
 然后，若要从拓扑中删除镜像，请执行以下操作：
 
@@ -287,6 +282,6 @@ Uninstall-CsMirrorDatabase -SqlServerFqdn primaryBE.contoso.com -SqlInstanceName
    Run the Uninstall-CsMirrorDatabase cmdlet to remove databases that are paired with following primary databases.
    ```
 
-    但是，不要执行该步骤，不要键入 ，因为这将  `Uninstall-CsMirrorDatabase` 卸载整个镜像配置。
+    但是，不要执行该步骤，不要键入  `Uninstall-CsMirrorDatabase` ，因为这将卸载整个镜像配置。
 
-4. 若要仅从数据库配置中删除SQL Server，请按照从数据库镜像会话中删除见证中的[ (SQL Server) 。 ](/sql/database-engine/database-mirroring/remove-the-witness-from-a-database-mirroring-session-sql-server)
+4. 若要仅从数据库配置中删除SQL Server，请按照从数据库镜像会话中删除见证中的[ (SQL Server) ](/sql/database-engine/database-mirroring/remove-the-witness-from-a-database-mirroring-session-sql-server)。
