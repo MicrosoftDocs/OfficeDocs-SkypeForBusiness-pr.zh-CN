@@ -1,33 +1,28 @@
 ---
 title: 响应组的部署Skype for Business
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: d390c8a1-dc6e-44d8-b386-2be1fca9877c
 description: Skype for Business Server 企业语音 中的响应组的部署过程和Skype for Business Server 企业语音。
-ms.openlocfilehash: 13a83c5fbedc2a7b38118b0e7935c4722e3855ca
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853696"
 ---
+
 # <a name="deployment-process-for-response-group-in-skype-for-business"></a>响应组的部署Skype for Business
 
 Skype for Business Server 企业语音 中的响应组的部署过程和Skype for Business Server 企业语音。
 
-响应组是一企业语音一项功能，该功能将传入呼叫路由至称为代理的用户组（如技术支持或客户服务台）并排入队列。
+响应组是一企业语音一项功能，它向人员组（称为代理，如技术支持或客户服务台）路由传入呼叫并排入队列。
 
 响应组所需的组件将在部署企业语音时在前端服务器或 Standard Edition Server 中自动安装并启用。 要使响应组对用户可用，必须依次配置代理组、队列和工作流。 此外，响应组管理员可以将现有工作流的配置委派给响应组管理员，该管理员随后可以修改和重新配置工作流及其关联的代理组和队列。
 
@@ -43,7 +38,7 @@ Skype for Business Server 企业语音 中的响应组的部署过程和Skype fo
 |**CsViewOnlyAdministrator** <br/> |√ (4)   <br/> |√ (4)   <br/> |√ (4)   <br/> |√ (4)   <br/> |√ (4)   <br/> |√ (4)   <br/> |
 
 > [!NOTE]
-> **(1)** Active Directory 域服务用户对象必须是列出的指定 Active Directory 安全组的成员。 具有将用户添加到安全组 (的适当权限的管理员或其他委派 Active Directory 组的成员例如，管理员、帐户操作员) 必须将用户对象添加到列出的安全组或组中，用户才能执行列出的功能。 **(2)** 仅适用于 CsResponseGroupAdministrator 已分配给 CsResponseGroupManager 的工作流。 **(3)** 响应组管理器可以将 CsResponseGroupManager 的另一个成员分配给当前管理员已管理的工作流。 **(4)** CsViewOnlyAdministrator 只能运行动词"Get"cmdlet。
+> **(1)** Active Directory 域服务用户对象必须是列出的指定 Active Directory 安全组的成员。 具有向安全组 (添加用户的适当权限的管理员或其他委派 Active Directory 组的成员例如，管理员、帐户操作员) 必须将用户对象添加到列出的安全组或组中，用户才能执行列出的功能。 **(2)** 仅适用于 CsResponseGroupAdministrator 已分配给 CsResponseGroupManager 的工作流。 **(3)** 响应组管理器可以将 CsResponseGroupManager 的另一个成员分配给当前管理员已管理的工作流。 **(4)** CsViewOnlyAdministrator 只能运行动词"Get"cmdlet。
 
 ## <a name="response-group-configuration-prerequisites"></a>响应组配置的先决条件
 
@@ -71,7 +66,7 @@ Skype for Business Server 企业语音 中的响应组的部署过程和Skype fo
 
 ### <a name="enabling-users"></a>启用用户
 
-配置响应组的第一步是创建代理组。 必须先启用将成为响应组代理的用户，然后才能创建代理组，Skype for Business企业语音。 为用户启用Skype for Business通常是 Enterprise Edition 或 Standard Edition 服务器部署中的一个步骤。 有关为用户启用 Skype for Business的详细信息，请参阅[Enable or Disable Users for Lync Server 2013 Preview](/previous-versions/office/lync-server-2013/lync-server-2013-disable-or-re-enable-user-account-for-lync-server)。 为用户启用企业语音通常是企业语音部署中的一个步骤。 有关详细信息，请参阅在 Skype for Business Server 中[企业语音用户进行Skype for Business Server。](enable-users-for-enterprise-voice.md)
+配置响应组的第一步是创建代理组。 必须先启用将成为响应组代理的用户，然后才能创建代理组，然后Skype for Business企业语音。 为用户启用Skype for Business通常是 Enterprise Edition 或 Standard Edition 部署中的一个步骤。 有关为用户启用 Skype for Business的详细信息，请参阅 [Enable or Disable Users for Lync Server 2013 Preview](/previous-versions/office/lync-server-2013/lync-server-2013-disable-or-re-enable-user-account-for-lync-server)。 为用户启用企业语音通常是企业语音部署中的一个步骤。 有关详细信息，请参阅在 企业语音 [中Skype for Business Server](enable-users-for-enterprise-voice.md)。
 
 ### <a name="complying-with-fips-requirements"></a>符合 FIPS 要求
 
@@ -83,9 +78,9 @@ Skype for Business Server 企业语音 中的响应组的部署过程和Skype fo
 
 1. 在文本编辑器（如记事本）中，打开应用程序级别 Web.config 文件。
 
-2. 在Web.config文件中，找到  `<system.web>` 部分。
+2. 在Web.config文件中，找到 部分  `<system.web>` 。
 
-3. 将以下  `<machineKey>` 部分添加到 `<system.web>` 部分：
+3. 将以下  `<machineKey>` 部分添加到 部分 `<system.web>` ：
 
    ```xml
    <machineKey validationKey="AutoGenerate,IsolateApps" decryptionKey="AutoGenerate,IsolateApps" validation="3DES" decryption="3DES"/>
@@ -104,7 +99,7 @@ Skype for Business Server 企业语音 中的响应组的部署过程和Skype fo
 仅当您的组织需要支持 Yi、Meng 或 Zang 字符时，本节才适用。
 
 > [!NOTE]
-> 有关 Yi、Meng 和 Zang 字符是什么以及它们为什么对部署很重要的信息，请参阅 GB18030 字符集上的信息 [https://go.microsoft.com/fwlink/p/?linkId=240223](/previous-versions/sql/sql-server-2008-r2/ms180991(v=sql.105)) 。
+> 有关 Yi、Meng 和 Zang 字符是什么以及它们为什么对部署很重要的信息，请参阅 GB18030 字符集上的信息 [https://go.microsoft.com/fwlink/p/?linkId=240223](/previous-versions/sql/sql-server-2008-r2/ms180991(v=sql.105))。
 
 要支持 Yi、Meng 或 Zang 字符，需要修改 Rgsconfig 数据库的排序规则。在每个 Rgsconfig 数据库的下列各表中更改 **“Name”** 列的排序规则：
 
@@ -118,11 +113,11 @@ Skype for Business Server 企业语音 中的响应组的部署过程和Skype fo
 
 - dbo。工作流
 
-对于 SQL Server 2008 R2 和 SQL Server 2012，请使用"区分Latin_General_100 (重音) 排序规则。 如果使用此排序规则，则所有对象名称不区分大小写。
+对于 SQL Server 2008 R2 和 SQL Server 2012，请使用Latin_General_100 (重音) 排序规则。 如果使用此排序规则，则所有对象名称不区分大小写。
 
-可以使用 Microsoft SQL Server Management Studio 来更改排序规则。 有关使用此工具的详细信息，请参阅["使用SQL Server Management Studio"。](/sql/ssms/sql-server-management-studio-ssms) 执行下列步骤可更改排序规则：
+可以使用 Microsoft SQL Server Management Studio 来更改排序规则。 有关使用此工具的详细信息，请参阅["使用SQL Server Management Studio"](/sql/ssms/sql-server-management-studio-ssms)。 执行下列步骤可更改排序规则：
 
-1. 确保 SQL Server Management Studio 配置为允许要求重新创建表的更改。 有关详细信息，请参阅"保存 ([不允许) 对话框"。](/sql/ssms/visual-db-tools/save-not-permitted-dialog-box) 有关设置列排序规则的详细信息，请参阅"如何：设置列排序规则 ([Visual Database Tools) "。](/previous-versions/sql/sql-server-2008-r2/ms187473(v=sql.105))
+1. 确保 SQL Server Management Studio 配置为允许要求重新创建表的更改。 有关详细信息，请参阅"保存 ([不允许) 对话框"](/sql/ssms/visual-db-tools/save-not-permitted-dialog-box)。 有关设置列排序规则的详细信息，请参阅"如何：设置列排序规则 ([Visual Database Tools) "](/previous-versions/sql/sql-server-2008-r2/ms187473(v=sql.105))。
 
 2. 使用 Microsoft SQL Server Management Studio 连接到 Rgsconfig 数据库。
 
@@ -136,8 +131,8 @@ Skype for Business Server 企业语音 中的响应组的部署过程和Skype fo
 
 |**阶段**|**步骤**|**权限**|**部署文档**|
 |:-----|:-----|:-----|:-----|
-|为用户启用Skype for Business和企业语音  <br/> |启用将成为代理的用户Skype for Business企业语音。 必须先启用用户，然后才能将其添加到代理组。 通常，在部署服务器Skype for Business或Enterprise Edition为Standard Edition启用用户。 在部署期间企业语音启用企业语音用户。  <br/> |RTCUniversalUserAdmins  <br/> CsUserAdministrator  <br/> CsAdministrator  <br/> |[Enable or Disable Users for Lync Server 2013 Preview](/previous-versions/office/lync-server-2013/lync-server-2013-disable-or-re-enable-user-account-for-lync-server) <br/> [为用户启用企业语音Skype for Business Server](enable-users-for-enterprise-voice.md) <br/> |
-|创建和配置由代理组、队列和工作流构成的响应组  <br/> |1. 使用Skype for Business Server控制面板Skype for Business Server命令行管理程序执行以下操作：  <br/> a. 创建和配置代理组。  <br/> b. 创建和配置队列。  <br/> 2. （可选）Skype for Business Server命令行管理程序创建预定义的响应组工作时间和假日。  <br/> 3. 使用响应组配置工具或 Skype for Business Server 命令行管理程序创建工作流 (寻线或互动语音响应 (IVR) 呼叫流) ，包括自定义响应组工作时间和假日。  <br/> 可以通过控制面板访问响应组Skype for Business Server工具。  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> CsResponseGroupManager  <br/> |[创建响应组代理组](/previous-versions/office/lync-server-2013/lync-server-2013-create-response-group-agent-groups) <br/> [创建响应组队列](/previous-versions/office/lync-server-2013/lync-server-2013-create-response-group-queues) <br/> [ (可选) 定义响应组工作时间的可选Skype for Business](optional-define-response-group-business-hours.md) <br/> [ (在) 定义响应组假日集的可选Skype for Business](optional-define-response-group-holiday-sets.md) <br/> [在工作流中设计和创建响应组Skype for Business](designing-and-creating-response-group-workflows.md) <br/> |
+|为用户启用Skype for Business和企业语音  <br/> |启用将成为代理的用户Skype for Business企业语音。 必须先启用用户，然后才能将其添加到代理组。 通常，在部署服务器Skype for Business或Enterprise Edition为Standard Edition启用用户。 在部署期间企业语音启用企业语音用户。  <br/> |RTCUniversalUserAdmins  <br/> CsUserAdministrator  <br/> CsAdministrator  <br/> |[Enable or Disable Users for Lync Server 2013 Preview](/previous-versions/office/lync-server-2013/lync-server-2013-disable-or-re-enable-user-account-for-lync-server) <br/> [在用户企业语音Skype for Business Server](enable-users-for-enterprise-voice.md) <br/> |
+|创建和配置由代理组、队列和工作流构成的响应组  <br/> |1. 使用Skype for Business Server控制面板Skype for Business Server命令行管理程序执行以下操作：  <br/> a. 创建和配置代理组。  <br/> b. 创建和配置队列。  <br/> 2. （可选）Skype for Business Server命令行管理程序创建预定义的响应组工作时间和假日。  <br/> 3. 使用响应组配置工具或 Skype for Business Server 命令行管理程序创建工作流 (寻线或互动语音响应 (IVR) 呼叫流) ，包括自定义响应组工作时间和假日。  <br/> 可以通过"控制面板"访问Skype for Business Server配置工具。  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> CsResponseGroupManager  <br/> |[创建响应组代理组](/previous-versions/office/lync-server-2013/lync-server-2013-create-response-group-agent-groups) <br/> [创建响应组队列](/previous-versions/office/lync-server-2013/lync-server-2013-create-response-group-queues) <br/> [ (中) 定义响应组工作时间的可选Skype for Business](optional-define-response-group-business-hours.md) <br/> [ (在) 定义响应组假日集的可选Skype for Business](optional-define-response-group-holiday-sets.md) <br/> [在工作流中设计和创建响应组Skype for Business](designing-and-creating-response-group-workflows.md) <br/> |
 |（可选）自定义应用程序级别设置  <br/> |使用 Skype for Business Server命令行管理程序自定义默认的保持音乐配置、默认的保持音乐音频文件、代理回响宽限期和呼叫上下文配置。  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[管理应用程序中的应用程序级响应组Skype for Business](managing-application-level-response-group-settings.md) <br/> |
 |（可选）委派响应组的管理  <br/> |为用户分配 CsResponseGroupManager 角色以委派响应组配置。 然后，响应组管理员可配置分配给他们的响应组。  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[规划基于角色的访问控制](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-role-based-access-control) <br/> |
 |验证响应组部署  <br/> |测试智能寻线和互动语音响应工作流的应答呼叫，以确保您的配置按预期工作。  <br/> |-  <br/> |-  <br/> |

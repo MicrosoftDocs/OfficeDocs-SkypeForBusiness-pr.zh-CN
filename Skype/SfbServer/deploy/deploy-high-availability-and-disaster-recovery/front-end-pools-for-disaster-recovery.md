@@ -1,24 +1,19 @@
 ---
 title: 部署配对的前端池，以在 Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 2f12467c-8b90-43e6-831b-a0b096427f17
 description: 您可以决定使用配对的前端池来提供灾难恢复保护，但这不是一项要求。
-ms.openlocfilehash: 27909f44f0d86cac3100437f7df094b5f72ba1be
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855096"
 ---
+
 # <a name="deploy-paired-front-end-pools-for-disaster-recovery-in-skype-for-business-server"></a>部署配对的前端池，以在 Skype for Business Server
  
 您可以决定使用配对的前端池来提供灾难恢复保护，但这不是一项要求。
@@ -29,7 +24,7 @@ ms.locfileid: "60855096"
 
 1. 如果池是新的且尚未定义，请使用拓扑生成器创建池。
     
-2. 在拓扑生成器中，右键单击两个池之一，然后单击"编辑 **属性"。**
+2. 在拓扑生成器中，右键单击两个池之一，然后单击"编辑 **属性"**。
     
 3. 在左侧窗格中单击“复原”，然后在右侧窗格中选择“关联的备份池”。
     
@@ -86,4 +81,4 @@ ms.locfileid: "60855096"
   
 ## <a name="see-also"></a>另请参阅
 
-[前端池中的Skype for Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/disaster-recovery.md)
+[前端池的灾难恢复Skype for Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/disaster-recovery.md)

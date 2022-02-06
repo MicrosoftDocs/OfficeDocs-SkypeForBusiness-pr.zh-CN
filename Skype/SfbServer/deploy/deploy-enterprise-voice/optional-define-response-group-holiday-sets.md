@@ -1,25 +1,20 @@
 ---
-title: " (在) 定义响应组假日集的可选Skype for Business"
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: ' (在) 定义响应组假日集的可选Skype for Business'
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 56c37b3b-6517-49b9-86b7-ae48cc349119
 description: 创建或修改响应组假日集，Skype for Business Server 企业语音。
-ms.openlocfilehash: 307dfefb42f31102755bd4469ed8c24129e41767
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60852716"
 ---
+
 # <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a> (在) 定义响应组假日集的可选Skype for Business
  
 创建或修改响应组假日集，Skype for Business Server 企业语音。
@@ -33,7 +28,7 @@ ms.locfileid: "60852716"
 
 1. 以 RTCUniversalServerAdmins 组的成员或支持响应组的预定义管理角色之一的成员登录。
     
-2. 启动命令行Skype for Business Server：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击"Skype for Business Server **命令行管理程序"。**
+2. 启动命令行Skype for Business Server：单击"开始"**，单击"** 所有程序"**，单击"****Skype for Business 2015"**，然后单击"Skype for Business Server **命令行管理程序"**。
     
 3. 对于要定义的每个假日，请运行：
     

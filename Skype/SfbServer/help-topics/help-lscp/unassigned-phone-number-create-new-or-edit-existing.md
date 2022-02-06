@@ -1,27 +1,22 @@
 ---
 title: 未分配电话号码 创建新的或编辑现有的
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.VoiceFeaVacantNumEdit
+  - ms.lync.lscp.VoiceFeaVacantNumEdit
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 58903e40-6b93-40d6-88f8-1201743cd9be
 description: 未分配号码是指对于组织有效但尚未分配给用户或电话的电话号码。未分配号码表标识您希望如何处理对未分配号码的调用。
-ms.openlocfilehash: cacc7da0099f16a139e97c5bb7ea15176d5b52ca
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846505"
 ---
+
 # <a name="unassigned-phone-number-create-new-or-edit-existing"></a>未分配电话号码：创建新的或编辑现有的
 
 未分配号码是指对于组织有效但尚未分配给用户或电话的电话号码。未分配号码表标识您希望如何处理对未分配号码的调用。
@@ -41,9 +36,9 @@ ms.locfileid: "60846505"
 
   - 如果号码范围的起始号码或结束号码包含分机号，那么号码范围的起始号码和结束号码都必须包含分机号，并且起始号码和结束号码的分机号必须相同。
 
-  - 该数字必须与正则表达式匹配 `(tel:)?(\+)?[1-9]\d{0,17}(;ext=[1-9]\d{0,9})?` 。 这意味着该数字可能以字符串 (如果不指定该字符串，它将自动添加为) 、加号 (+) 以及 1 到 9 之间的数字 `tel:` 。 电话号码最长为 17 位数，并可以后跟分机号，格式为 ;ext= 后跟分机号。
+  - 该数字必须与正则表达式匹配 `(tel:)?(\+)?[1-9]\d{0,17}(;ext=[1-9]\d{0,9})?`。 `tel:` 这意味着该数字可能以字符串 (如果不指定该字符串，它将自动添加为) 、加号 (+) 和 1 到 9 之间的数字。 电话号码最长为 17 位数，并可以后跟分机号，格式为 ;ext= 后跟分机号。
 
-- **通知服务** 选择 **"** 通知"让通知应用程序处理传入呼叫或Exchange **UM，** 让 um Exchange UM 自动助理处理传入呼叫。
+- **通知服务** 选择 **"** 通知"让通知应用程序处理传入呼叫，**Exchange UM Exchange UM** 自动助理处理传入呼叫。
 
 - 如果选择“通知”作为“通知服务”：
 
@@ -55,4 +50,4 @@ ms.locfileid: "60846505"
 
   - **自动助理电话号码** 选择 UM 呼叫Exchange电话号码自动助理。
 
-有关通知特性和功能的详细信息，请参阅规划文档中的 Plan [for the Announcement application in Skype for Business 2015。](../../plan-your-deployment/enterprise-voice-solution/announcement.md) 有关使用未分配号码范围的详细信息，请参阅操作文档中的[Configure Routing of Unassigned Phone Numbers](/previous-versions/office/lync-server-2013/lync-server-2013-configure-unassigned-phone-numbers)。
+有关通知特性和功能的详细信息，请参阅规划文档中的 Plan [for the Announcement application in Skype for Business 2015](../../plan-your-deployment/enterprise-voice-solution/announcement.md)。 有关使用未分配号码范围的详细信息，请参阅操作文档中的[Configure Routing of Unassigned Phone Numbers](/previous-versions/office/lync-server-2013/lync-server-2013-configure-unassigned-phone-numbers)。

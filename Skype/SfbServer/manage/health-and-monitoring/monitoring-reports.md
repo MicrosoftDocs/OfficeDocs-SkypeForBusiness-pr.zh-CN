@@ -1,47 +1,42 @@
 ---
 title: 使用监控报告中Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 733577d0-c70f-4c70-ab7b-59b89fb495a8
 description: 摘要：了解监控报告中Skype for Business Server。
-ms.openlocfilehash: 0088bb5a83de7f1f22e14461bb841a6011810444
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862279"
 ---
+
 # <a name="using-monitoring-reports-in-skype-for-business-server"></a>使用监控报告中Skype for Business Server 
  
 **摘要：** 了解监控报告中Skype for Business Server。
   
-Skype for Business Server由报告服务发布的一组Microsoft SQL Server报告。 这些报告可通过 Web 浏览器进行访问，它们提供了使用情况、呼叫诊断信息和媒体质量信息，所有这些信息全部基于呼叫详细记录 (CDR) 和用户体验质量 (QoE) 数据库中存储的 CDR 和 QoE 记录。
+Skype for Business Server报告服务发布的一组标准Microsoft SQL Server报告。 这些报告可通过 Web 浏览器进行访问，它们提供了使用情况、呼叫诊断信息和媒体质量信息，所有这些信息全部基于呼叫详细记录 (CDR) 和用户体验质量 (QoE) 数据库中存储的 CDR 和 QoE 记录。
   
 若要使用这些报告，必须在运行监控报告实例的计算机上安装监控SQL Server。
   
 ## <a name="in-this-section"></a>本部分内容
 
-- [使用监控仪表板Skype for Business Server](monitoring-dashboard.md)为管理员提供其系统运行状况和系统使用情况的快速概述。
+- [Using the Monitoring Dashboard in Skype for Business Server](monitoring-dashboard.md) 为管理员提供其系统运行状况和系统使用情况的快速概述。
     
-- [系统使用情况报告中Skype for Business Server](system-usage-reports.md)提供基于由用户收集的 CDR 数据的系统Skype for Business Server。
+- [Skype for Business Server中的系统使用情况](system-usage-reports.md)报告 基于由系统中心收集的 CDR 数据提供Skype for Business Server。
     
-- [呼叫诊断报告 (中每个用户) 报告Skype for Business Server](call-diagnostic-reports-per-user.md)提供有关失败的点对点会话和会议会话的每个用户的信息。
+- [Call Diagnostic Reports (per user) in Skype for Business Server](call-diagnostic-reports-per-user.md) Provides per-user information about failed peer-to-peer and conferencing sessions.
     
-- [呼叫诊断报告中Skype for Business Server](call-diagnostic-reports.md)提供失败的对等会话和会议会话的摘要信息和诊断数据。
+- [呼叫诊断报告 Skype for Business Server](call-diagnostic-reports.md)提供失败的对等会话和会议会话的摘要信息和诊断数据。
     
-- [媒体质量诊断报告中Skype for Business Server](media-quality-diagnostic-reports.md)提供有关呼叫质量的信息，以及失败的呼叫的诊断和故障排除信息。
+- [Media Quality Diagnostic Reports in Skype for Business Server](media-quality-diagnostic-reports.md) 提供有关呼叫质量的信息，以及失败的呼叫的诊断和故障排除信息。
     
 ## <a name="locating-records"></a>查找记录
 
-监控报告在任一时刻仅在屏幕上显示有限数量的记录。 屏幕上显示的实际记录数因报告而异。 若要查看屏幕上当前未显示的记录，可以使用在每个报表的工具栏 (上找到的标准向前和向后控件) 使您能够分页查看数据。 您还可以快速跳转到数据集的第一页或最后一页。
+监控报告在任一时刻仅在屏幕上显示有限数量的记录。 屏幕上显示的实际记录数因报告而异。 若要查看屏幕上当前未显示的记录，可以使用每个报表的工具栏 (上找到的标准向前和向后控件) 使您能够分页查看数据。 您还可以快速跳转到数据集的第一页或最后一页。
   
 除了使用前进和后退控件，您还可以通过在“当前页”框中键入页码，然后按 Enter 来跳转到数据集中的任一页。
   

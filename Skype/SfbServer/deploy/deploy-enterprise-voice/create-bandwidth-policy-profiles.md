@@ -1,35 +1,30 @@
 ---
 title: 在服务器创建带宽策略Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: a71881ef-b04a-465e-9abb-0577bfd182f3
 description: 创建或修改带宽策略，企业语音呼叫允许控制Skype for Business Server。
-ms.openlocfilehash: d1c7391abb535f3d7309809adea5b66a28087c75
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841904"
 ---
+
 # <a name="create-bandwidth-policy-profiles-in-skype-for-business-server"></a>在服务器创建带宽策略Skype for Business Server 
  
 创建或修改带宽策略，企业语音呼叫允许控制Skype for Business Server。 
   
 “带宽策略”定义对实时音频和视频内容的带宽使用量的限制。 带宽策略应用于bandwidth策略配置文件，这些策略配置文件可应用于多个网络站点以用于呼叫允许控制。
   
-有关应在 CAC 部署中设置哪些带宽限制的指南，请参阅在 Skype for Business Server 中[规划呼叫允许Skype for Business Server。](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)
+有关应在 CAC 部署中设置哪些带宽限制的指南，请参阅 Plan [for call admission control in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)。
   
 以下过程中创建的示例策略会为音频总流量、各个音频会话、视频总流量和各个视频会话设置限制。例如，5Mb_Link 带宽策略配置文件将设置以下限制： 
   
@@ -46,7 +41,7 @@ ms.locfileid: "60841904"
   
 ### <a name="to-create-bandwidth-policy-profiles-by-using-skype-for-business-server-management-shell"></a>使用命令行管理程序创建带宽Skype for Business Server配置文件
 
-1. 启动命令行Skype for Business Server：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击"Skype for Business Server **命令行管理程序"。**
+1. 启动命令行Skype for Business Server：单击"开始"**，单击"** 所有程序"**，单击"****Skype for Business 2015"**，然后单击"Skype for Business Server **命令行管理程序"**。
     
 2. 对于要创建的每个带宽策略配置文件，请运行 New-CsNetworkBandwidthPolicyProfile cmdlet。例如，运行：
     

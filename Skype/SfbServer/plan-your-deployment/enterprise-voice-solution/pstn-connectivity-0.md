@@ -1,31 +1,26 @@
 ---
 title: 规划 PSTN 连接Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 280f684a-740a-443d-8ecf-574241382a42
-description: Plan for PSTN connectivity in 企业语音 in Skype for Business Server.
-ms.openlocfilehash: a13124c67f611f4208614015efdceaf21c2deb50
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861049"
+description: 在 Skype for Business Server 中企业语音 PSTN 连接。
 ---
+
 # <a name="plan-for-pstn-connectivity-in-skype-for-business-server"></a>规划 PSTN 连接Skype for Business Server
  
-Plan for PSTN connectivity in 企业语音 in Skype for Business Server.
+在 Skype for Business Server 中企业语音 PSTN 连接。
   
 企业级 VoIP 解决方案必须以始终如一的服务质量 (QoS) 提供来往于公用电话交换网 (PSTN) 的呼叫。 拨打和接听呼叫的用户不应了解底层技术：从用户的角度来看，企业语音 基础结构与 PSTN 之间的呼叫应该就像是另一个电话呼叫。
   
@@ -41,7 +36,7 @@ Skype for Business Server以下选项提供可靠、可扩展的 PSTN 连接：
   
 ## <a name="in-this-section"></a>本节内容
 
-- [SIP 中继Skype for Business Server](sip-trunking.md)
+- [sip trunking in Skype for Business Server](sip-trunking.md)
     
 - [直接 SIP 连接Skype for Business Server](direct-sip.md)
     

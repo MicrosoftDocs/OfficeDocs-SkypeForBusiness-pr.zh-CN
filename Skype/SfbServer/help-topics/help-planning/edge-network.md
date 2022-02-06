@@ -1,31 +1,26 @@
 ---
 title: Skype for Business Server边缘网络规划工具
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.plan.EdgeNetwork
-- ms.lync.plan.EdgeNetwork
+  - ms.lync.plan.EdgeNetwork
+  - ms.lync.plan.EdgeNetwork
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: d7f85abf-2045-4b08-ba29-c6211a3f6ff6
-description: 大多数边缘组件都部署在外围网络中。 这些组件组成外围网络的边缘拓扑。 除非特别说明，否则此处说明的组件属于 Skype for Business Server 2015 中的边缘服务器方案的一部分，并且位于外围网络中。
-ms.openlocfilehash: f1231870c6e2bdbdac0b1be439154295d6f49cfe
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847715"
+description: 大多数边缘组件都部署在外围网络中。 这些组件组成外围网络的边缘拓扑。 除非特别说明，否则此处指出的组件属于 Skype for Business Server 2015 中的边缘服务器方案的一部分，并且位于外围网络中。
 ---
+
 # <a name="skype-for-business-server-edge-network-planning-tool"></a>Skype for Business Server边缘网络规划工具
  
-大多数边缘组件都部署在外围网络中。 以下组件组成外围网络的边缘拓扑。 除非特别说明，否则这些组件是[Skype for Business Server 2015](../../plan-your-deployment/edge-server-deployments/scenarios.md)中边缘服务器方案的一部分，并且位于外围网络中。 边缘组件包括下列各项：
+大多数边缘组件都部署在外围网络中。 以下组件组成外围网络的边缘拓扑。 除非特别说明，否则这些组件是 [Skype for Business Server 2015](../../plan-your-deployment/edge-server-deployments/scenarios.md) 中边缘服务器方案的一部分，并且位于外围网络中。 边缘组件包括下列各项：
   
 - 边缘服务器
     

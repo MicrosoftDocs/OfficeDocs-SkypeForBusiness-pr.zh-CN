@@ -1,23 +1,19 @@
 ---
 title: 管理灾难恢复、高可用性和备份服务
-ms.reviewer: ''
-author: HowlinWolf-92
-ms.author: v-mahoffman
+ms.reviewer: null
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 description: 了解灾难恢复操作以及维护备份服务的过程，备份服务同步配对前端池中的数据。
-ms.openlocfilehash: 6d3eb3356c48a99974390f43bc0114d7d6507353
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849935"
 ---
+
+
 # <a name="managing-skype-for-business-server-disaster-recovery-high-availability-and-backup-service"></a>管理Skype for Business Server灾难恢复、高可用性和备份服务
 
 本节包含灾难恢复操作以及维护备份服务的过程，备份服务同步配对的前端池中的数据。
@@ -26,7 +22,7 @@ ms.locfileid: "60849935"
 
 本节中的灾难恢复过程假定以下内容：
 
-  - 您的部署具有配对的前端池，位于不同的站点，如规划高可用性和 [灾难恢复中所述](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)。 这些配对池中一直运行备份服务，以使其保持同步。
+  - 您的部署具有配对的前端池，位于不同的站点，如规划 [高可用性和灾难恢复中所述](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)。 这些配对池中一直运行备份服务，以使其保持同步。
 
   - 如果中央管理存储托管在任一池中，则它会在两个配对池上安装并运行，其中一个池承载活动主机，另一个池托管备用池。
 

@@ -1,27 +1,22 @@
 ---
 title: 控制面板 - 已更新用户搜索
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.UserMain
+  - ms.lync.lscp.UserMain
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 50feb75f-92a1-4916-b92e-c039e1290c52
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 您可以使用搜索查询的结果为用户配置Skype for Business Server。 可以按照显示名称、名字、姓氏、安全帐户管理器 (SAM) 帐户名、SIP 地址或线路统一资源标识符 (URI) 搜索用户。 您还可以使用 Lync Server 控制面板或 Active Directory 用户和计算机管理单元搜索用户。
-ms.openlocfilehash: 3c5bdc9de490adbc022f00342d291d012da78d4b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854926"
 ---
+
 # <a name="control-panel---updated-user-search"></a>控制面板 - 已更新：用户搜索
 
 您可以使用搜索查询的结果为用户配置Skype for Business Server。 可以按照显示名称、名字、姓氏、安全帐户管理器 (SAM) 帐户名、SIP 地址或线路统一资源标识符 (URI) 搜索用户。 您还可以使用 Lync Server 控制面板或 Active Directory 用户和计算机管理单元搜索用户。
@@ -76,13 +71,13 @@ ms.locfileid: "60854926"
 
 ### <a name="search-results-menus"></a>搜索结果菜单
 
-- **启用用户** 单击以打开"[用户： 新建 Lync Server](ms.lync.lscp.UserNew.md)用户"对话框，可在其中添加新Skype for Business Server。
+- **启用用户** 单击以打开"[用户： 新建 Lync Server](ms.lync.lscp.UserNew.md) 用户"对话框，可在其中添加新Skype for Business Server。
 
-    若要添加新联系人，请单击向下箭头，然后选择"启用 **联系人** "以打开"用户： [新建联系人对象"](ms.lync.lscp.UserNewContact.md) 对话框。
+    若要添加新联系人，请单击向下箭头，然后选择"启用 **联系人** "以打开"用户 [： 新建联系人对象"](ms.lync.lscp.UserNewContact.md) 对话框。
 
 - **编辑** 单击 **"** 编辑"，然后单击"显示详细信息"以显示所选用户的详细信息，或单击"选择所有搜索结果"以选择结果表中显示的所有用户。
 
-- **操作** 单击 **"** 操作"，然后在搜索结果中选择要为所选用户执行的操作。 提供了以下选项：
+- **操作****单击"** 操作"，然后在搜索结果中选择要为所选用户执行的操作。 提供了以下选项：
 
   - **重新启用 Lync Server** 在临时禁用所选用户帐户后启用该帐户。
 
@@ -92,7 +87,7 @@ ms.locfileid: "60854926"
 
   - **查看 PIN 状态** 打开" [用户： 查看 PIN 状态](ms.lync.lscp.UserViewPin.md) "对话框，其中显示所选用户的 PIN 数据。
 
-  - **设置 PIN** 打开 ["设置 PIN"](ms.lync.lscp.UserSetPin.md) 对话框，可在其中为所选用户设置 PIN。
+  - **设置 PIN** 打开 ["设置 PIN](ms.lync.lscp.UserSetPin.md) "对话框，可在其中为所选用户设置 PIN。
 
   - **锁定 PIN** 锁定用户的 PIN。
 
