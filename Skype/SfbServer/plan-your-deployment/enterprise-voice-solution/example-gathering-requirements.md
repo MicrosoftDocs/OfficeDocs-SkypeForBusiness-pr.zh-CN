@@ -1,41 +1,36 @@
 ---
 title: 示例 收集呼叫允许控制在Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 3363ac53-b7c4-4a59-aea1-b2f3ee016ae1
-description: 提供规划呼叫允许控制的详细示例，Skype for Business Server 企业语音网络站点、地区和带宽的信息。
-ms.openlocfilehash: 0af3072cfd0e248d2811c0aee78f7351b9513249
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850745"
+description: 提供规划呼叫允许控制在 Skype for Business Server 企业语音，包括收集有关网络站点、地区和带宽的信息的详细示例。
 ---
+
 # <a name="example-gathering-requirements-for-call-admission-control-in-skype-for-business-server"></a>示例：收集呼叫允许控制在Skype for Business Server
 
-提供规划呼叫允许控制的详细示例，Skype for Business Server 企业语音网络站点、地区和带宽的信息。
+提供规划呼叫允许控制在 Skype for Business Server 企业语音，包括收集有关网络站点、地区和带宽的信息的详细示例。
 
 此示例显示如何规划和实现呼叫允许控制 (CAC)。总体来说，包括以下活动：
 
 1. 标识所有网络中心和网络中枢（称为网络区域）。
 
-2. 确定Skype for Business Server区域管理 CAC 的站点中央站点。
+2. 确定Skype for Business Server区域管理 CAC 的一个中央站点。
 
 3. 标识并定义连接到每个网络区域的网络站点。
 
-4. 对于与 WAN 的连接受带宽限制的每个网络站点，描述 WAN 连接的带宽容量，以及网络管理员为Skype for Business Server流量设置的带宽限制（如果适用）。 不需要包括与 WAN 的连接不受带宽限制的站点。
+4. 对于与 WAN 的连接受带宽限制的每个网络站点，描述 WAN 连接的带宽容量以及网络管理员为 Skype for Business Server 媒体流量设置的带宽限制（如果适用）。 不需要包括与 WAN 的连接不受带宽限制的站点。
 
 5. 将网络中的每个子网与一个网络站点相关联。
 
@@ -53,16 +48,16 @@ ms.locfileid: "60850745"
 
     示例拓扑具有三个网络区域：北美、EMEA 和 APAC。网络区域包含网络站点的集合。与网络管理员合作以定义企业的网络区域。
 
-2. 标识每个网络区域关联的中央站点。 中央站点至少包含一台前端服务器，它是用于管理通过网络区域 WAN 连接的所有媒体流量的 CAC 的 Skype for Business Server 部署。
+2. 标识每个网络区域关联的中央站点。 中央站点至少包含一台前端服务器，它是管理通过网络区域 WAN 连接的所有媒体流量的 CAC 的 Skype for Business Server 部署。
 
    **分为三个网络区域的企业网络示例**
 
      ![具有 3 个网络区域的网络拓扑示例。](../../media/Plan_CS_VoiceCAC_example3networkregions.jpg)
 
     > [!NOTE]
-    > 多协议标签交换 (MPLS) 网络应代表一个网络区域，在该网络区域中，每个物理位置都具有一个相应的网络站点。 有关详细信息，请参阅 Skype for Business 中的[呼叫允许控制的组件和Skype for Business。](components-and-topologies.md) 
+    > 多协议标签交换 (MPLS) 网络应代表一个网络区域，在该网络区域中，每个物理位置都具有一个相应的网络站点。 有关详细信息，请参阅呼叫[允许控制的组件和](components-and-topologies.md)Skype for Business。 
 
-    在上例网络拓扑中，有三个网络区域，每个网络Skype for Business Server管理 CAC 的中央站点。 按地理距离选择网络区域相应的中央站点。 由于网络区域内的媒体流量最多，按地理距离选择中央站点使网络区域能够独立运行，因此即使其他中央站点不可用，网络区域也可以继续正常工作。 
+    在上例网络拓扑中，有三个网络区域，每个网络Skype for Business Server管理 CAC 的一个中央站点。 按地理距离选择网络区域相应的中央站点。 由于网络区域内的媒体流量最多，按地理距离选择中央站点使网络区域能够独立运行，因此即使其他中央站点不可用，网络区域也可以继续正常工作。 
 
     本示例中，名为Skype for Business芝加哥的部署是北美区域的中央站点。
 
@@ -113,11 +108,11 @@ ms.locfileid: "60850745"
 
 5. 对于每个受带宽限制的 WAN 链路，需确定以下事项：
 
-   - 要为所有并发音频会话设置的总体带宽限制。 如果新的音频会话将导致超出此限制，Skype for Business Server不允许该会话启动。
+   - 要为所有并发音频会话设置的总体带宽限制。 如果新的音频会话将导致超出此限制，Skype for Business Server不允许会话启动。
 
    - 要为每个单独的音频会话设置的带宽限制。默认 CAC 带宽限制是 175 kbps，但是管理员可修改该值。
 
-   - 要为所有并发视频会话设置的总体带宽限制。 如果新的视频会话将导致超出此限制，Skype for Business Server不允许会话启动。
+   - 要为所有并发视频会话设置的总体带宽限制。 如果新的视频会话将导致超出此限制，Skype for Business Server不允许该会话启动。
 
    - 要为每个单独的视频会话设置的带宽限制。默认 CAC 带宽限制是 700 kbps，但是管理员可修改该值。
 
@@ -150,7 +145,7 @@ ms.locfileid: "60850745"
 
     **级别**：2
 
-    **说明**：未配置以下 IP 地址的子网，或者 \<List of IP Addresses\> 子网未与网络站点关联。 
+    **说明**：未配置以下 IP \<List of IP Addresses\> 地址的子网，或者子网未与网络站点关联。 
 
     **原因**：网络配置设置中缺少相应 IP 地址的子网，或子网未与网络站点关联。 
 
@@ -219,7 +214,7 @@ ms.locfileid: "60850745"
 
      - 要为每个单独的音频会话设置的带宽限制。默认 CAC 带宽限制是 175 kbps，但是管理员可修改该值。
 
-     - 要为所有并发视频会话设置的总体带宽限制。 如果新的视频会话将导致超出此限制，Skype for Business Server不允许该会话启动。
+     - 要为所有并发视频会话设置的总体带宽限制。 如果新的视频会话将导致超出此限制，Skype for Business Server不允许会话启动。
 
      - 要为每个单独的视频会话设置的带宽限制。默认 CAC 带宽限制是 700 kbps，但是管理员可修改该值。
 
@@ -238,4 +233,4 @@ ms.locfileid: "60850745"
 收集所需信息后，可以使用命令行管理程序或控制面板Skype for Business Server CAC Skype for Business Server CAC 部署。
 
 > [!NOTE]
-> 虽然可以使用"控制面板"Skype for Business Server大多数网络配置任务，但若要创建子网和站点间链接，必须使用命令行管理Skype for Business Server命令行管理程序。 有关详细信息，请参阅[New-CsNetworkSubnet](/powershell/module/skype/new-csnetworksubnet?view=skype-ps)和[New-CsNetworkInterSitePolicy。](/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps)
+> 虽然可以使用"控制面板"Skype for Business Server大多数网络配置任务，但若要创建子网和站点间链接，必须使用命令行管理Skype for Business Server命令行管理程序。 有关详细信息，请参阅 [New-CsNetworkSubnet](/powershell/module/skype/new-csnetworksubnet?view=skype-ps) 和 [New-CsNetworkInterSitePolicy](/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps)。

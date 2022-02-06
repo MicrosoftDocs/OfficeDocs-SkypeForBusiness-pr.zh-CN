@@ -1,25 +1,20 @@
 ---
 title: 在策略中分配每用户 PIN Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d8211c64-0b63-4193-a074-673da7d14287
 description: 摘要：为用户阶段 AV 和 OAuth Skype for Business Server。
-ms.openlocfilehash: 51bf650d907923c83801799a28220eae9a1f385c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845475"
 ---
+
 # <a name="assign-a-per-user-pin-policy-in-skype-for-business-server"></a>在策略中分配每用户 PIN Skype for Business Server
 
 **摘要：** 为用户阶段 AV 和 OAuth Skype for Business Server。
@@ -67,7 +62,7 @@ ms.locfileid: "60845475"
 7. 在“分配策略”中的“PIN 策略”下，执行下列操作之一：
     
     > [!NOTE]
-    > 由于可以使用"分配策略"对话框配置多个策略，因此默认情况下会为对话框内每个策略 **\<Keep as is\>** 选择策略。 如果不对此设置进行任何更改，则将继续使用先前分配给用户的策略。
+    > 由于可以使用"分配策略 **\<Keep as is\>**"对话框配置多个策略，因此默认情况下会为对话框内每个策略选中这些策略。 如果不对此设置进行任何更改，则将继续使用先前分配给用户的策略。
   
    - 允许Skype for Business Server自动选择全局级别的策略或站点级别策略（如果已定义）。
     
@@ -80,7 +75,7 @@ ms.locfileid: "60845475"
     
 ## <a name="assigning-a-per-user-pin-policy-by-using-windows-powershell-cmdlets"></a>使用 cmdlet Per-User分配Windows PowerShell PIN 策略
 
-可以使用 Windows PowerShell **和 Grant-CsPinPolicy** cmdlet 分配每用户 PIN 策略。 还可从 Skype for Business Server Management Shell 或 Windows PowerShell 远程会话运行此 cmdlet。 有关使用远程 powerShell Windows PowerShell连接到Skype for Business Server的详细信息，请参阅 Microsoft Lync [Remote PowerShell Administration"](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 此过程在Skype for Business Server。
+可以使用 Windows PowerShell **和 Grant-CsPinPolicy** cmdlet 分配每用户 PIN 策略。 还可从 Skype for Business Server Management Shell 或 Windows PowerShell 远程会话运行此 cmdlet。 有关使用远程 powerShell Windows PowerShell连接到Skype for Business Server的详细信息，请参阅 [Microsoft Lync Remote PowerShell Administration"](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 此过程在 Skype for Business Server 中Skype for Business Server。
   
 ### <a name="to-assign-a-per-user-pin-policy-to-a-single-user"></a>为单个用户分配每用户 PIN 策略
 

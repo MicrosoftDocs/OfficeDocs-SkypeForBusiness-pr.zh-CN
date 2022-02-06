@@ -1,27 +1,22 @@
 ---
-title: 查看会议策略Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: 在会议视图中查看Skype for Business Server
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: c1c0976e-2bfb-475b-9255-ed6b093d8798
-description: 摘要：了解如何在 Skype for Business Server 中查看会议策略。
-ms.openlocfilehash: 7a7768aaef91fde0914c2f1e693bdcca6a6a74b7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836434"
+description: 摘要：了解如何在会议Skype for Business Server。
 ---
-# <a name="view-conferencing-policies-in-skype-for-business-server"></a>查看会议策略Skype for Business Server
+
+# <a name="view-conferencing-policies-in-skype-for-business-server"></a>在会议视图中查看Skype for Business Server
  
-**摘要：** 了解如何在会议视图中查看Skype for Business Server。
+**摘要：** 了解如何在会议部署中查看Skype for Business Server。
   
 可以使用控制面板或命令行管理程序Skype for Business Server会议策略Skype for Business Server策略。
   
@@ -31,7 +26,7 @@ ms.locfileid: "60836434"
     
 2.  打开Skype for Business Server控制面板"。
     
-3. 在左侧导航栏中，单击 **"会议"，** 然后单击"**会议策略"。**
+3. 在左侧导航栏中，单击 **"会议"**，然后单击" **会议策略"**。
     
 4. 在“会议策略”页面上，双击您要查看的会议策略。
     
@@ -39,9 +34,9 @@ ms.locfileid: "60836434"
     
     **编辑会议策略 - \<policy\>** 随即打开，显示所选策略的设置。
     
-    有关配置设置的详细信息，请参阅 Create [conferencing policies in Skype for Business Server](create-policies.md)。
+    有关配置设置的详细信息，请参阅在 Skype for Business Server[。](create-policies.md)
     
-## <a name="view-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>使用命令行管理程序查看Skype for Business Server策略
+## <a name="view-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>使用命令行管理程序Skype for Business Server会议策略
 
 若要查看会议策略，请使用 **Get-CsConferencingPolicy** cmdlet：
   

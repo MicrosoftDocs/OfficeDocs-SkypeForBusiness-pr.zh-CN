@@ -1,28 +1,23 @@
 ---
 title: 对 Skype for Business Server 的统计信息管理器进行故障排除
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 946189fa-521f-455c-9762-904e7e41b791
 description: 摘要：阅读本主题，解决统计信息管理器部署问题Skype for Business Server。
-ms.openlocfilehash: 6e6edefe8d6070a917f817b3b6d79bf35ff36599
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857339"
 ---
+
 # <a name="troubleshoot-statistics-manager-for-skype-for-business-server"></a>对 Skype for Business Server 的统计信息管理器进行故障排除
  
-**摘要：** 阅读本主题，了解统计信息管理器部署疑难解答Skype for Business Server。
+**摘要：** 阅读本主题，了解统计信息管理器的部署疑难解答Skype for Business Server。
   
 本主题介绍如何通过描述你可能在应用程序事件日志中看到的事件以及你为纠正事件可能采取的适当操作，来对统计信息管理器部署进行疑难解答。 本主题包含以下各部分：
   
@@ -52,11 +47,11 @@ ms.locfileid: "60857339"
   ```
 
     > [!NOTE]
-    > 如果进行了此更改，代理通常仍将占用 100 MB 的内存，但是不会强制限制为 \< 默认为 300 MB。 如果进行了此更改，我们建议密切监视内存使用率，以确保代理不会在其主机上占用大量内存。 
+    > 如果进行了此更改，代理 \< 通常仍将占用 100 MB 的内存，但是不会强制限制为默认为 300 MB。 如果进行了此更改，我们建议密切监视内存使用率，以确保代理不会在其主机上占用大量内存。 
   
 - **2000** — 客户端初始化失败
     
-- **2001**- 无法连接到任何源 IP 上的服务
+- **2001** - 无法连接到任何源 IP 上的服务
     
     如果代理无法连接到侦听器计算机，请检查以下内容：
     
@@ -66,7 +61,7 @@ ms.locfileid: "60857339"
         
     2. 使用 telnet 等连接工具验证从代理计算机到正确端口上的侦听器的连接。
         
-        如果未启用，请确保在侦听器计算机上为侦听器计算机连接到专用/公共/域 (类型的网络类型启用传入防火墙) 。 如果侦听器计算机未加入域，则网络可能列为公共网络，在这种情况下，随统计信息管理器一起安装的防火墙规则在默认情况下不适用。
+        如果没有，请确保在侦听器计算机上为侦听器计算机连接到专用/公共/域或域 (类型的网络类型启用传入防火墙) 。 如果侦听器计算机未加入域，则网络可能列为公共网络，在这种情况下，随统计信息管理器一起安装的防火墙规则将默认不适用。
     
 - **4000** - 无法从侦听器下载服务器信息 (未知原因) 
     
@@ -76,7 +71,7 @@ ms.locfileid: "60857339"
     
   - 确保按照导入拓扑的说明进行操作。 请参阅 [导入拓扑](deploy.md#BKMK_ImportTopology)。 
     
-  - 如果代理位于拓扑中未列出的服务器上 (例如 SQL AlwaysOn 群集) 中的节点，则需要按照导入拓扑中的说明手动添加[代理](deploy.md#BKMK_ImportTopology)。
+  - 如果代理位于拓扑 (未列出的服务器上，例如 SQL AlwaysOn 群集) 中的节点，则需要按照导入拓扑中的说明手动添加代理。[](deploy.md#BKMK_ImportTopology)
     
   - **4002** — 侦听器密码无效
     
@@ -105,15 +100,15 @@ ms.locfileid: "60857339"
     
   - **10001** — 配置问题
     
-    通常，当 [listener_install_location]\PerfAgentListener.exe.config文件已手动修改并且无法由应用程序读取时，将会发生这种情况。
+    通常，当 [listener_install_location]\PerfAgentListener.exe.config文件已手动修改且无法由应用程序读取时，将会发生这种情况。
     
   - **10002** — HTTP 侦听器初始化错误
     
-    在安装期间未正确设置 URL ACL 或 SSL 证书无效时，通常会记录此事件。 确保配置中的证书有效。 如果是，请按照部署统计信息管理器 中的说明 [重新安装侦听器](deploy.md#BKMK_Deploy)。
+    在安装期间未正确设置 URL ACL 或 SSL 证书无效时，通常会记录此事件。 确保配置中的证书有效。 如果是，请按照部署统计信息管理器中的说明 [重新安装侦听器](deploy.md#BKMK_Deploy)。
     
   - **10003** — Redis 失败
     
-  - **10004** - Caching基础结构故障
+  - **10004** — Caching基础结构故障
     
   - **10007** - 设置 (redis) 
     
@@ -125,7 +120,7 @@ ms.locfileid: "60857339"
     
 - **10100** — Redis PING 中断
     
-  - **10101** — Redis PING 每隔 60 (60 秒持续中断) 
+  - **10101** - Redis PING 每隔 60 (60 秒继续中断) 
     
   - **30100** — Redis PING 中断还原
     
@@ -133,7 +128,7 @@ ms.locfileid: "60857339"
     
 - **10200** — Redis 写入中断
     
-  - **10201** - Redis 写入中断 (每隔 60 秒) 
+  - **10201** - Redis 写入中断持续 (60 秒) 
     
   - **30100** — Redis 写入中断已解决
     
@@ -145,7 +140,7 @@ ms.locfileid: "60857339"
     
 - **22000** — 统计信息管理器代理初始化成功。
     
-- **23000** - EventLogQueryManager 的初始化在首次 (或失败后成功) 
+- **23000** - EventLogQueryManager 的初始化 (或失败后成功) 
     
 - **24000** - 第一次 (或失败后，serverinfo 的初始化) 
     
@@ -166,7 +161,7 @@ ms.locfileid: "60857339"
     
   - 右键单击StatsManHubWebSite.dll并查看其属性。
     
-  - 如果在 KHI 横向视图或计数器详细信息视图中找不到计算机，请确保它是站点和池的成员。 如果不是，将不会显示在这些视图中。 有关为拓扑中的服务器定义站点和池的信息，请参阅导入 [拓扑](deploy.md#BKMK_ImportTopology)。
+  - 如果在 KHI 横向视图或计数器详细信息视图中找不到计算机，请确保它是站点和池的成员。 如果不是，将不会显示在这些视图中。 有关为拓扑中的服务器定义站点和池的信息，请参阅 [导入拓扑](deploy.md#BKMK_ImportTopology)。
     
   - 产品版本将显示在"说明详细信息"中。
     

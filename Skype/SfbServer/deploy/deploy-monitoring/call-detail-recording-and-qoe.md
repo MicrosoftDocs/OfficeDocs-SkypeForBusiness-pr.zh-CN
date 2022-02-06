@@ -1,24 +1,19 @@
 ---
 title: 配置呼叫详细信息记录和用户体验质量设置Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 009a0499-4f8c-450d-9c72-a565a08e9f7a
 description: 摘要：了解如何在 Skype for Business Server 中配置 CDR 和 QoE。
-ms.openlocfilehash: 9275ead7fee4b9751141dd683bafb8b41e077530
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839634"
 ---
+
 # <a name="configure-call-detail-recording-and-quality-of-experience-settings-in-skype-for-business-server"></a>配置呼叫详细信息记录和用户体验质量设置Skype for Business Server
  
 **摘要：** 了解如何在 Skype for Business Server 中配置 CDR 和 QoE。
@@ -27,7 +22,7 @@ ms.locfileid: "60839634"
   
 ## <a name="configure-cdr-and-qoe"></a>配置 CDR 和 QoE
 
-将监控存储与前端池关联后，设置监控存储，然后安装和配置 SQL Server Reporting Services 和监控报告后，可以使用 Skype for Business Server 命令行管理程序管理呼叫详细记录 (CDR) 和用户体验质量 (QoE) 监控。 Skype for Business Server命令行管理程序 cmdlet 允许您为特定站点或整个部署部署启用和禁用 CDR 和/或 QoE Skype for Business Server监控;可以使用如下简单命令完成此操作：
+将监控存储与前端池关联后，设置监控存储，然后安装和配置 SQL Server Reporting Services 和监控报告后，可以使用 Skype for Business Server 命令行管理程序管理呼叫详细记录 (CDR) 和用户体验质量 (QoE) 监控。 Skype for Business Server命令行管理程序 cmdlet，您可以为特定站点或整个 Skype for Business Server 部署启用和禁用 CDR 和/或 QoE 监控;可以使用如下命令完成此操作：
   
 ```powershell
 Set-CsQoEConfiguration -Identity "global" -EnableQoE $False
@@ -50,7 +45,7 @@ Set-CsQoEConfiguration -Identity "global" -EnableQoE $False
 |EnablePurging  <br/> |指示是否定期从数据库中删除 QoE 记录。如果为 True，则将在属性 KeepQoEDataForDays 指定的时间段后删除记录。如果为 False，则将无限期保留 QoE 记录。  <br/> |True  <br/> |
 |KeepQoEDataForDays  <br/> |指示 QoE 记录在数据库中保留的天数；超过指定天数的任何记录将自动删除。但是，只有在启用了清除时才会发生这种情况。  <br/> 可将 KeepCallDetailForDays 设置为 1 到 2562 天之间的任意整数值。  <br/> |60 天  <br/> |
    
-如果您需要修改这些全局设置，可以使用 Set-CsCdrConfiguration 和 Set-CsQoEConfiguration cmdlet 来完成。 例如，此命令 (命令行管理程序Skype for Business Server，) 全局范围禁用 CDR 监控;这是通过将 EnableCDR 属性设置为 False ($False) ：
+如果您需要修改这些全局设置，可以使用 Set-CsCdrConfiguration 和 Set-CsQoEConfiguration cmdlet 来完成。 例如，此命令 (在 Skype for Business Server 命令行管理程序) 禁用全局范围的 CDR 监控;这是通过将 EnableCDR 属性设置为 False ($False) ：
   
 ```powershell
 Set-CsCdrConfiguration -Identity "global" -EnableCDR $False

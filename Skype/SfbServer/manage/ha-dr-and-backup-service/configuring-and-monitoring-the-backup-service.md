@@ -1,26 +1,21 @@
 ---
 title: 配置和监控备份服务
-ms.reviewer: ''
-author: HowlinWolf-92
-ms.author: v-mahoffman
+ms.reviewer: null
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 description: 可以使用命令行Skype for Business Server命令行管理程序命令来配置和监视备份服务。
-ms.openlocfilehash: 0881d40ca639edf825b0af104981ceddcab6e87a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832016"
 ---
+
 # <a name="configuring-and-monitoring-the-backup-service-in-skype-for-business-server"></a>配置和监视备份服务Skype for Business Server
 
-可以使用以下命令行管理Skype for Business Server命令行管理程序命令来配置和监视备份服务。 若要还原存储在前端池的文件存储中的会议信息，请参阅下面的使用 [备份](#restore-conference-contents-using-the-backup-service)服务还原会议内容。
+可以使用以下命令行管理Skype for Business Server命令行管理程序命令来配置和监视备份服务。 若要还原存储在前端池的文件存储中的会议信息，请参阅下面的使用备份服务 [还原会议内容](#restore-conference-contents-using-the-backup-service)。
 
 > [!NOTE]  
 > 默认情况下，RTCUniversalServerAdmins 组是唯一具有运行 **Get-CsBackupServiceStatus** 的权限的组。要使用此 cmdlet，请以该组的成员身份登录。或者，可通过使用 **Set-CsBackupServiceConfiguration** cmdlet 向其他组（如 CSAdministrator）授予对此命令的访问权。

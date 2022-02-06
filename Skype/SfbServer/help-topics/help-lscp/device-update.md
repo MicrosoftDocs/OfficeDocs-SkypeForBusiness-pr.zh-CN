@@ -1,27 +1,22 @@
 ---
 title: 设备更新
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.ClientDeviceUpdateMain
+  - ms.lync.lscp.ClientDeviceUpdateMain
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 6f6b7f73-f8f5-41dc-9e2a-727baaaa828b
 description: Microsoft 会定期发布一组适用于 Skype for Business 电话 Edition 的新设备固件更新，你可以将其导入服务器并分发给用户。 可以通过访问 Microsoft 网站的"帮助和支持"页并搜索Phone Edition 来获取一组最新的设备更新规则。下载最新的更新程序包，将文件解压缩到要上载更新的计算机上的文件夹。 解压缩文件后，可以使用 Import-CsDeviceUpdate cmdlet 导入解压缩后的 .CAB 文件（其名称为 UCUpdates.cab）中包含的设备更新规则。 有关详细信息，请参阅 Import-CsDeviceUpdate。
-ms.openlocfilehash: ba5c028569abffe489eeda982e9e11be670c9530
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838024"
 ---
+
 # <a name="device-update"></a>设备更新
 
 Microsoft 会定期发布一组适用于 Skype for Business 电话 Edition 的新设备固件更新，你可以将其导入服务器并分发给用户。 可通过转至 Microsoft 网站上的帮助和支持页并搜索“Phone Edition”来获取一组最新的设备更新规则。 下载最新的更新包，并将文件解压缩到计算机上要从中上载更新的文件夹。 解压缩文件后，可以使用 **Import-CsDeviceUpdate** cmdlet 导入解压缩后的 .CAB 文件（其名称为 UCUpdates.cab）中包含的设备更新规则。 有关详细信息，请参阅 [Import-CsDeviceUpdate](/powershell/module/skype/import-csdeviceupdate?view=skype-ps)。

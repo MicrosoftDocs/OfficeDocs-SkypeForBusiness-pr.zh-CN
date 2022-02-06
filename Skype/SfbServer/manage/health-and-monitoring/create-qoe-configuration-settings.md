@@ -1,39 +1,34 @@
 ---
 title: Create Quality of Experience configuration settings in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 64f05569-07c7-4f76-a96b-ea4125a510d5
-description: 摘要：了解 Skype for Business Server 中的用户体验质量 (QoE) 设置。
-ms.openlocfilehash: 842e9bbf3100efc30346e88b4b5f660cdd42ec53
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858319"
+description: 摘要：了解 (中的用户体验质量) QoE Skype for Business Server。
 ---
+
 # <a name="create-quality-of-experience-configuration-settings-in-skype-for-business-server"></a>Create Quality of Experience configuration settings in Skype for Business Server
  
 **摘要：** 了解 Skype for Business Server 中的用户体验 (QoE) 设置。
   
 用户体验质量 (QoE) 指标跟踪组织中发出的语音和视频呼叫的质量，包括网络数据包丢失数目、背景噪音、“抖动”量（数据包延迟的差异）等。这些指标与其他数据（如呼叫详细信息记录）分开存储在一个数据库中，这样您就可以独立于其他数据记录启用和禁用 QoE。
   
-在安装 Skype for Business Server时，将创建一个 QoE 配置设置的全局集合。 管理员还可以选择在站点范围创建自定义设置。 每当使用这些站点范围的设置时，它们优先于全局设置。 例如，如果为 Redmond 站点创建站点作用域设置，则这些设置 (（而不是全局设置) ）将用于管理 Redmond 中的 QoE。
+在安装 Skype for Business Server时，会为用户创建一个 QoE 配置设置的全局集合。 管理员还可以选择在站点范围创建自定义设置。 每当使用这些站点范围的设置时，它们优先于全局设置。 例如，如果为 Redmond 站点创建站点作用域设置，则这些设置 (（而不是全局设置) ）将用于管理 Redmond 中的 QoE。
   
-QoE 配置设置可以使用 Skype for Business Server 控制面板或[New-CsQoEConfiguration](/powershell/module/skype/new-csqoeconfiguration?view=skype-ps) cmdlet 创建。 如果要使用Skype for Business Server控制面板创建新设置，可以使用以下选项：
+QoE 配置设置可以使用 Skype for Business Server 控制面板或 [New-CsQoEConfiguration](/powershell/module/skype/new-csqoeconfiguration?view=skype-ps) cmdlet 创建。 如果要使用Skype for Business Server控制面板创建新设置，可以使用以下选项：
   
 |**UI 设置**|**PowerShell 参数**|**说明**|
 |:-----|:-----|:-----|
 |名称  <br/> |标识  <br/> |要创建的设置的唯一标识符。 QoE 配置设置只能在站点范围创建。  <br/> |
 |启用 QoE 数据的监视  <br/> |EnableQoE  <br/> |指定是否收集 QoE 记录并将其保存到监控数据库。  <br/> |
-|启用 QoE 数据的清除  <br/> |EnablePurging  <br/> |指定是否在超过 **QoE** 数据中定义的最长持续时间后清除记录 () 天数。 <br/> |
+|启用 QoE 数据的清除  <br/> |EnablePurging  <br/> |指定在保留 **QoE** 数据中定义的最长持续时间后，是否清除记录 (超过) 天数。 <br/> |
 |QoE 数据最长保留期限为 (天)   <br/> |KeepQoEDataForDays  <br/> |从数据库中清除 QoE 数据之前存储的天数。 如果禁用清除，则忽略此值。  <br/> |
    
 > [!NOTE]
@@ -47,23 +42,23 @@ QoE 配置设置可以使用 Skype for Business Server 控制面板或[New-CsQoE
     
 3. 在左侧导航栏中，单击“监控和存档”，然后单击“用户体验质量数据”。
     
-4. 在"**用户体验质量数据"页上**，单击"新建 **"。**
+4. 在" **用户体验质量数据"页上** ，单击"新建 **"**。
     
-5. 在 **"选择站点"** 中，单击要应用策略的站点，然后单击"确定 **"。**
+5. 在 **"选择站点"** 中，单击要应用策略的站点，然后单击"确定 **"**。
     
-6. 在 **"全新用户体验质量设置"** 中，执行以下操作：
+6. 在 **"全新用户体验质量设置**"中，执行下列操作：
     
    - 选择 **"启用 QoE 数据的监控** "以启用监控。
     
    - 选择 **"启用 QoE 数据清除** "以启用清除。
     
-   - 在 **"QoE 最长保留 (** 天) ，选择 QoE 记录应保留的最大天数。
+   - 在 **"QoE 最长保留 (天)**"中，选择 QoE 记录应保留的最大天数。
     
 7. 单击“提交”。
     
 ## <a name="creating-qoe-configuration-settings-by-using-windows-powershell-cmdlets"></a>使用 cmdlet 设置 QoE 配置Windows PowerShell
 
-可以使用 Windows PowerShell cmdlet 和 New-CsQoEConfiguration cmdlet 创建 QoE 配置设置。 可以从命令行管理程序或 Skype for Business Server远程会话中运行此 cmdlet Windows PowerShell。 有关使用远程 powerShell Windows PowerShell连接到Skype for Business Server的详细信息，请参阅 Microsoft Lync [Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 此过程在Skype for Business Server。
+可以使用 Windows PowerShell 和 New-CsQoEConfiguration cmdlet 创建 QoE 配置设置。 可以从命令行管理程序或 Skype for Business Server远程会话中运行此 cmdlet Windows PowerShell。 有关使用远程 powerShell Windows PowerShell连接到Skype for Business Server的详细信息，请参阅 [Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 此过程在 Skype for Business Server 中Skype for Business Server。
   
 ### <a name="to-create-a-new-collection-of-qoe-configuration-settings"></a>创建新的 QoE 配置设置集合
 

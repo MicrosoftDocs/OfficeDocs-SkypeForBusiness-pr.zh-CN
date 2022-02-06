@@ -1,25 +1,20 @@
 ---
 title: CQD 的用户服务
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: abd5c828-42dd-4f48-bf87-29993193cb3a
 description: 摘要：了解用户服务，它是通话质量仪表板存储库 API 的一部分。 通话质量仪表板是一种用于Skype for Business Server。
-ms.openlocfilehash: e8be18304cad02e1ed39cf84327a58f84d134c6d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851005"
 ---
+
 # <a name="user-service-for-cqd"></a>CQD 的用户服务
  
 **摘要：** 了解用户服务，它是通话质量仪表板存储库 API 的一部分。 通话质量仪表板是一种用于Skype for Business Server。
@@ -37,7 +32,7 @@ ms.locfileid: "60851005"
   
  **特殊用户 ID**
   
-存储库 API 包括需要整数值以指定特定用户的 REST API URI。 示例  `https://<portal>/QoERepositoryService/repository/user/{userId}` ：。 此处，{userId} 应替换为整数值，如 0、1 等。
+存储库 API 包括需要整数值以指定特定用户的 REST API URI。 示例：  `https://<portal>/QoERepositoryService/repository/user/{userId}`。 此处，{userId} 应替换为整数值，如 0、1 等。
   
 此外，存储库 API 将在 URI 中的 {userId} 接受两个特殊用户 ID。
   

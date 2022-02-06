@@ -1,36 +1,31 @@
 ---
 title: 响应组工作流
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.RgsWorkFlowMain
+  - ms.lync.lscp.RgsWorkFlowMain
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: e4ee8abb-e1e5-413c-919d-cd3fb7193840
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 响应组由代理组、队列和工作流组成。 响应组工作流定义响应组应用程序收到电话呼叫时采取的操作。
-ms.openlocfilehash: 2a43d8c9c51ec91f31f2ecb726da8f8b11c3aa71
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839444"
 ---
+
 # <a name="response-groups-workflow"></a>响应组工作流
 
 响应组由代理组、队列和工作流组成。 响应组工作流定义响应组应用程序收到电话呼叫时采取的操作。
 
-"**响应组**  -  **工作流**"页显示为组织定义的所有响应组工作流的列表。
+" **响应组** - **工作流"** 页显示为组织定义的所有响应组工作流的列表。
 
 ## <a name="tasks-you-can-perform"></a>可执行的任务
 
-可以从"响应组工作流"页执行  -  **以下** 任务：
+可以从"响应组"" - 工作流"页 **执行以下** 任务：
 
 - 创建或更改智能寻线工作流
 
@@ -60,4 +55,4 @@ ms.locfileid: "60839444"
 
 - **已启用** 指示是否激活工作流以接收呼叫。
 
-有关响应组特性和功能的详细信息，请参阅规划文档中Skype for Business Server[中的规划](../../../plan-your-deployment/enterprise-voice-solution/response-group.md)响应组应用程序。 有关使用响应组工作流的详细信息，请参阅操作文档中的[Managing Response Group Workflows。](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-workflows)
+有关响应组特性和功能的详细信息，请参阅规划文档中[Skype for Business Server中的规划](../../../plan-your-deployment/enterprise-voice-solution/response-group.md)响应组应用程序。 有关使用响应组工作流的详细信息，请参阅操作文档中的 [Managing Response Group Workflows](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-workflows) 。

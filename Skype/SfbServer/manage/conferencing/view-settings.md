@@ -1,25 +1,20 @@
 ---
-title: 在会议视图中查看Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: 在会议视图中查看会议Skype for Business Server
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 932c7e2d-6de3-4176-ac6e-ec230f8230f2
 description: 摘要：了解如何在会议环境中查看Skype for Business Server。
-ms.openlocfilehash: 4d55d4213b0eb7cbd89045960d87c05340520cbc
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837624"
 ---
-# <a name="view-meeting-configuration-settings-in-skype-for-business-server"></a>在会议视图中查看Skype for Business Server
+
+# <a name="view-meeting-configuration-settings-in-skype-for-business-server"></a>在会议视图中查看会议Skype for Business Server
  
 **摘要：** 了解如何在会议环境中查看Skype for Business Server。
   
@@ -32,13 +27,13 @@ ms.locfileid: "60837624"
     
 2.  打开Skype for Business Server控制面板"。
     
-3. 在左侧导航栏中，单击 **"会议"，** 然后单击"会议 **配置"。**
+3. 在左侧导航栏中，单击 **"会议"**，然后单击"会议 **配置"**。
     
 4. 在 **"会议配置"** 页上，单击要查看的会议配置。
     
 5. 在 **"编辑文件筛选器**"中，选中" **显示详细信息** "复选框。
     
-    **编辑会议配置 \<policy\> -** 随即打开，显示所选策略的设置。
+    **编辑会议配置 - \<policy\>** 随即打开，显示所选策略的设置。
     
     有关配置设置的详细信息，请参阅 Create [meeting configuration settings in Skype for Business Server](create-settings.md)。
     
@@ -68,4 +63,4 @@ CustomFooterText                :
 AllowConferenceRecording        : True
 </pre>
 
-有关详细信息，包括参数的完整列表，请参阅[Get-CsMeetingConfiguration。](/powershell/module/skype/get-csmeetingconfiguration?view=skype-ps)
+有关详细信息，包括参数的完整列表，请参阅 [Get-CsMeetingConfiguration](/powershell/module/skype/get-csmeetingconfiguration?view=skype-ps)。

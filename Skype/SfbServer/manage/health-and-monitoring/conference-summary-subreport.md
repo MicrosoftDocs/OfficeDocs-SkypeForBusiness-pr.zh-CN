@@ -1,24 +1,19 @@
 ---
 title: 会议摘要子报告Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 2fc1d2bf-34f5-4093-a6e2-250ec1f1b004
 description: 摘要：了解会议摘要子报告Skype for Business Server。
-ms.openlocfilehash: 6c2161287b3446d5b7cba28e984ad50cd3a136e9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838624"
 ---
+
 # <a name="conference-summary-subreport-in-skype-for-business-server"></a>会议摘要子报告Skype for Business Server
  
 **摘要：** 了解会议摘要子报告Skype for Business Server。

@@ -1,24 +1,19 @@
 ---
 title: 报告中的故障Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: b6f3a605-e0c6-461e-b17a-41d8039ace9d
-description: Summary： Learn about the Failure List Report in Skype for Business Server.
-ms.openlocfilehash: 37442d95c3a79bffbd79ebd74a793f5d3e1f3fb4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858289"
+description: 摘要：了解 Skype for Business Server 中的故障列表报告。
 ---
+
 # <a name="failure-list-report-in-skype-for-business-server"></a>报告中的故障Skype for Business Server 
  
 **摘要：** 了解 Skype for Business Server 中的故障列表报告。
@@ -27,7 +22,7 @@ ms.locfileid: "60858289"
   
 ## <a name="accessing-the-failure-list-report"></a>访问故障列表报告
 
-通过单击"故障分布报告"中的下列任一指标可以访问故障列表[Skype for Business Server：](failure-distribution-report.md)
+通过单击"故障分布报告"中的以下任一指标可以访问故障列表[Skype for Business Server](failure-distribution-report.md)：
   
 - 主要诊断原因（会话）
     
@@ -45,7 +40,7 @@ ms.locfileid: "60858289"
     
 - 主要来源用户代理（会话）
     
-从故障列表报告中，可以通过单击对等会话的"会话详细信息["指标](peer-to-peer-session-detail-report.md)，在 Skype for Business Server 中访问对等会话详细信息报告。 您还可以通过单击会议的"会议"指标来访问会议详细信息报告。
+从故障列表报告中，可以通过单击对等会话的"会话详细信息["](peer-to-peer-session-detail-report.md)指标Skype for Business Server中访问"对等会话详细信息报告"。 您还可以通过单击会议的"会议"指标来访问会议详细信息报告。
   
 ## <a name="making-the-best-use-of-the-failure-list-report"></a>充分利用故障列表报告
 

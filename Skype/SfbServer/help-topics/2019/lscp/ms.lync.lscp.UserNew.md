@@ -1,27 +1,22 @@
 ---
 title: 用户 新建 Lync Server 用户
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.UserNew
+  - ms.lync.lscp.UserNew
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 23408002-f83c-4b8a-ac65-6fb0e6bc414e
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: 3447315332a09a7d568ba052983846e3e6479a53
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834540"
 ---
+
 # <a name="users-new-user"></a>用户：新用户
 
 要执行什么操作？ 单击要执行的任务的链接。
@@ -42,7 +37,7 @@ ms.locfileid: "60834540"
 
 - [向用户分配位置策略](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-location-policy)
 
-- [为用户启用企业语音Skype for Business Server](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
+- [在用户企业语音Skype for Business Server](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
 
 - [为用户配置联盟、远程用户访问和公共 IM 连接](/previous-versions/office/lync-server-2013/lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user)
 

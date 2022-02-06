@@ -1,26 +1,21 @@
 ---
-title: 在 Skype for Business Server 2015 中配置持久聊天服务器选项
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: Configure Persistent Chat Server options in Skype for Business Server 2015
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 19ced8de-8867-4152-b38a-891f3bc2a5ea
-description: 摘要：了解如何在 2015 年 2 月配置全局、站点或池级别的持久聊天Skype for Business Server选项。
-ms.openlocfilehash: 99dab0b4a5e7bb542dee00803e5c401c63544ada
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835840"
+description: 摘要：了解如何在 Skype for Business Server 2015 中配置全局、站点或池级别的持久聊天服务器选项。
 ---
-# <a name="configure-persistent-chat-server-options-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中配置持久聊天服务器选项
+
+# <a name="configure-persistent-chat-server-options-in-skype-for-business-server-2015"></a>Configure Persistent Chat Server options in Skype for Business Server 2015
  
 **摘要：** 了解如何在 Skype for Business Server 2015 中配置全局、站点或池级别的持久聊天服务器选项。
   
@@ -35,7 +30,7 @@ ms.locfileid: "60835840"
 - 聊天室管理 URL。 用于自定义聊天室管理的 URL。 该设置允许使用自定义聊天室管理解决方案。 
    
 > [!NOTE] 
-> 持久聊天在 2015 Skype for Business Server可用，但在 2019 年 2 月不再Skype for Business Server支持。 相同的功能在 Teams。 有关详细信息，请参阅开始[升级Microsoft Teams升级](/microsoftteams/upgrade-start-here)。 如果您需要使用持久聊天，则选择将需要此功能的用户迁移到 Teams，或者继续使用 Skype for Business Server 2015。
+> 持久聊天在 Skype for Business Server 2015 中可用，但在 2019 年 2 Skype for Business Server不再受支持。 相同的功能在 Teams。 有关详细信息，请参阅[开始升级Microsoft Teams升级](/microsoftteams/upgrade-start-here)。 如果您需要使用持久聊天，您的选择是迁移需要此功能的用户以Teams或继续使用 Skype for Business Server 2015。
  
 ## <a name="configure-persistent-chat-server-global-options"></a>配置持久聊天服务器全局选项
 
@@ -47,12 +42,12 @@ ms.locfileid: "60835840"
     
 3. 在左侧导航栏中，单击“持久聊天”，然后单击“持久聊天配置”。
     
-4. 在"**持久聊天配置"** 页上，单击 **"新建"，** 然后单击"站点 **配置"。**
+4. 在" **持久聊天配置"** 页上，单击 **"新建"，** 然后单击"站点 **配置"**。
     
     > [!IMPORTANT]
     > 如果要将配置应用于站点中部署的所有持久聊天服务器池，请选择此选项。 如果要 **将** 配置应用于特定的持久聊天服务器池，请单击"池配置"。
   
-5. 在 **"选择站点"** 中，选择要为持久聊天服务器站点配置配置的站点。
+5. 在 **"选择站点**"中，选择要为持久聊天服务器站点配置配置的站点。
     
 6. 在“新建持久聊天配置”中，执行下列操作：
     
@@ -67,9 +62,9 @@ ms.locfileid: "60835840"
     
    - 在“参与者更新限制”中，选择参与者更新的限制。 持久聊天服务器向 (聊天室的用户发送名单信息) 所有参与者，直到连接的用户数达到此数目。 默认情况下，此数目为 75。 此限制指示给定聊天室中参与者的最大数目，超过此数目后，持久聊天服务器将停止向连接的客户端发送有关聊天室中在线人员的名单更新。
     
-   -  (Optional.) 在 **"聊天室管理 URL"中**，选择聊天室管理 URL。 这是基于 Web 的自定义聊天室管理的 URL。 如果不需要自定义聊天室管理，而只需使用默认设置，则保留此选项为空。 在设置该 URL 后，它将应用为内部和外部聊天室管理 URL。
+   -  (Optional.) **在"聊天室管理 URL"中**，选择聊天室管理 URL。 这是基于 Web 的自定义聊天室管理的 URL。 如果不需要自定义聊天室管理，而只需使用默认设置，则保留此选项为空。 在设置该 URL 后，它将应用为内部和外部聊天室管理 URL。
     
-     如果您想自定义聊天室创建体验并包括您的特定业务工作流，您可以使用持久聊天服务器软件开发工具包 (SDK) 构建一个自定义聊天室管理解决方案，在某处承载该解决方案，然后在此处添加 URL。 此 URL 将被发送给客户端，以便用户尝试查看/创建聊天室时将被指引到您的自定义聊天室管理解决方案。
+     如果您想自定义聊天室创建体验并包括您的特定业务工作流，您可以使用持久聊天服务器软件开发工具包 (SDK) 构建一个自定义聊天室管理解决方案，将该解决方案托管到某位置，并在此处添加 URL。 此 URL 将被发送给客户端，以便用户尝试查看/创建聊天室时将被指引到您的自定义聊天室管理解决方案。
     
 7. 单击“提交”。
     
@@ -102,7 +97,7 @@ ms.locfileid: "60835840"
     
    - 在“聊天室管理 URL”中，选择聊天室管理 URL。 这是基于 Web 的聊天室管理部署的 URL。 如果不需要自定义聊天室管理，而只需使用默认设置，则保留此选项为空。
     
-     如果您想自定义聊天室创建体验并包括您的特定业务工作流，您可以使用持久聊天服务器软件开发工具包 (SDK) 构建一个自定义聊天室管理解决方案，在某处承载该解决方案，然后在此处添加 URL。 此 URL 将被发送给客户端，以便用户在尝试查看/创建聊天室时将被定向到您的自定义聊天室管理解决方案。
+     如果您想自定义聊天室创建体验并包括您的特定业务工作流，您可以使用持久聊天服务器软件开发工具包 (SDK) 构建一个自定义聊天室管理解决方案，将该解决方案托管到某位置，并在此处添加 URL。 此 URL 将被发送给客户端，以便用户在尝试查看/创建聊天室时将被定向到您的自定义聊天室管理解决方案。
     
 7. 单击“提交”。
     

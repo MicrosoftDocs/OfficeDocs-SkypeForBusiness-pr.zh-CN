@@ -1,27 +1,22 @@
 ---
 title: 创建 Skype for Business Server 控制面板管理员
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.dep.DeployMainCreateCSCPAdmin
+  - ms.lync.dep.DeployMainCreateCSCPAdmin
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 3312926a-4671-4030-bb92-90ac24c778dd
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 若要授予对Skype for Business Server的访问权限，请执行下列操作：
-ms.openlocfilehash: 42163cf1df7ae13b918f592b512d3f5fd89169de
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839014"
 ---
+
 # <a name="create-skype-for-business-server-control-panel-administrators"></a>创建 Skype for Business Server 控制面板管理员
  
 若要授予对Skype for Business Server的访问权限，请执行下列操作：
@@ -37,7 +32,7 @@ ms.locfileid: "60839014"
 5. 在“成员”选项卡上，确认所选的用户或组存在。单击“确定”。
     
 > [!TIP]
-> 该Skype for Business Server控制面板是基于角色的访问控制工具。 CsAdministrator 组的成员身份为使用 Skype for Business Server 控制面板的用户提供了对所有可用配置功能的完全控制权限。 为特定功能提供了其他专门的角色。 用户不需要启用Skype for Business Server，就成为管理组的成员。 
+> 该Skype for Business Server控制面板是基于角色的访问控制工具。 CsAdministrator 组的成员身份为使用"Skype for Business Server控制面板"的用户提供了所有可用配置功能的完全控制权限。 为特定功能提供了其他专门的角色。 用户不需要启用此Skype for Business Server，就成为管理组的成员。 
   
 其他角色包括：
   

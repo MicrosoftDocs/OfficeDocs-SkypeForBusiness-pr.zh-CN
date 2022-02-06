@@ -1,34 +1,29 @@
 ---
 title: 规划 Skype for Business Server 的统计信息管理器
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
-description: 摘要：阅读本主题，了解适用于 Skype for Business Server 的统计信息管理器。
-ms.openlocfilehash: 166390fe0f034c907e21a3d3147b516d9f502954
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857399"
+description: 摘要：阅读本主题，了解统计数据管理器Skype for Business Server。
 ---
+
 # <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>规划 Skype for Business Server 的统计信息管理器
 
 **摘要：** 阅读本主题，了解适用于 Skype for Business Server 的统计信息管理器。
 
  统计信息管理器Skype for Business Server一个强大的工具，可用于实时Skype for Business Server运行状况和性能数据。 你可以每隔几秒钟轮询数百台服务器的性能数据，并立即在统计信息管理器网站上查看结果。
 
-可以使用统计信息管理器来确定持续的性能问题、查看环境计划更改的结果、跟踪中断的解决等等。 统计信息管理器开箱即用，配置了关键运行状况指示器 (KHI) 阈值，可进行自定义以满足部署的独特需求。
+可以使用统计信息管理器来确定持续的性能问题、查看环境计划更改的结果、跟踪中断的解决等等。 统计信息管理器已配置有关键运行状况指示器 (KHI) 阈值，可进行自定义以满足部署的独特需求。
 
-您可以在本地部署中部署统计信息管理器，其中一台服务器承载所有服务器端统计信息管理器组件。 有关部署统计信息管理器的信息，请参阅部署统计信息管理器[Skype for Business Server。](deploy.md) 如果你已拥有统计信息管理器的现有部署，但尚未升级到 2.0 版，请参阅[2.0](plan.md#BKMK_WhatsNew)版中的新增功能和升级统计信息管理器[Skype for Business Server。](upgrade.md)
+您可以在本地部署中部署统计信息管理器，其中一台服务器承载所有服务器端统计信息管理器组件。 有关部署统计信息管理器的信息，请参阅[部署统计信息管理器Skype for Business Server](deploy.md)。 如果你已拥有统计信息管理器的现有部署，但尚未升级到 2.0 版，请参阅 [2.0](plan.md#BKMK_WhatsNew) 版中的新增功能和升级统计信息管理器[了解Skype for Business Server](upgrade.md)。
 
 本主题包含以下各部分：
 
@@ -82,7 +77,7 @@ ms.locfileid: "60857399"
 ## <a name="whats-new-in-release-20"></a>2.0 版中的新增功能
 <a name="BKMK_WhatsNew"> </a>
 
-下面介绍了 2.0 版中的新增功能。 如果你有统计信息管理器的现有部署，并且尚未升级，请参阅升级统计信息管理器[了解Skype for Business Server。](upgrade.md)
+下面介绍了 2.0 版中的新增功能。 如果您具有统计信息管理器的现有部署，但尚未升级，请参阅升级统计信息[管理器了解Skype for Business Server](upgrade.md)。
 
 - 已针对边缘媒体、Fabric 运行状况、池故障转移和注册方案添加了方案视图。
 
@@ -94,7 +89,7 @@ ms.locfileid: "60857399"
 
 要验证您正在运行的统计信息管理器网站的版本，请运行：
 
-- 在文件资源管理器中，打开 () C：\Program Files\Skype for Business Server StatsMan WebSite\bin 的默认目录
+- 在文件资源管理器中， (C：\Program Files\) StatsMan WebSite\bin Skype for Business Server默认目录
 
 - 右键单击StatsManHubWebSite.dll并查看其属性
 
@@ -103,17 +98,17 @@ ms.locfileid: "60857399"
 ## <a name="components"></a>组件
 <a name="BKMK_Components"> </a>
 
-统计信息管理器由以下组件组成：
+统计信息管理器包含以下组件：
 
 - **代理。** 在每个受监控服务器上运行的轻型代理。 代理允许使用本地聚合对性能计数器进行可配置的高速率轮询。
 
 - **侦听器。** 接收来自所有代理的数据并聚合各总体数据的服务器端 API。
 
-- **中心。** 充当系统的客户端 API，在 Web 服务器 () ，并提供通过网站连接的客户端实时数据更新。  (中心将自动安装为网站 msi.) 
+- **中心。** 充当系统的客户端 API，在 Web () ，并提供通过网站连接的客户端实时数据更新。  (中心会自动安装为网站 msi.) 
 
 - **网站。** 将系统中所有可用功能汇集在一起的用户界面。
 
-此外，统计信息管理器需要 **Redis，** 这是一个开源数据结构服务器，用于内存中缓存。 有关下载 Redis 的信息，请参阅 [部署统计信息管理器](deploy.md#BKMK_Deploy) 。
+此外，统计信息管理器需要 **Redis**，这是一个用于内存中缓存的开源数据结构服务器。 有关下载 Redis 的信息，请参阅 [部署统计信息管理器](deploy.md#BKMK_Deploy) 。
 
 ## <a name="on-premises-deployment"></a>本地部署
 <a name="BKMK_DeploymentOptions"> </a>
@@ -141,8 +136,8 @@ ms.locfileid: "60857399"
 
 - PSExec - 需要执行远程代理部署
 
-- 2012 R2 (中包含的 .NET 4.5) - 代理和服务器端组件需要
-- 下载[64 Skype for Business ServerReal-Time统计信息管理器 (64 位) ](https://www.microsoft.com/en-in/download/details.aspx?id=57518)
+- 2012 R2 (.NET 4.5) - 代理和服务器端组件必需
+- 下载 [64 Skype for Business ServerReal-Time 64 (统计信息管理器) ](https://www.microsoft.com/en-in/download/details.aspx?id=57518)
 
 ### <a name="networking-requirements"></a>网络要求
 
@@ -159,7 +154,7 @@ ms.locfileid: "60857399"
 
 在单台服务器托管所有服务器端统计信息管理器组件的本地部署中，具有 16 GB RAM 和 4 个 CPU 的服务器平均每秒应支持大约 150 个样本。 若要确定可以支持的计数器/代理数，请使用以下计算：
 
-100 台服务器 80 个计数器，每个代理每分钟 1 个样本 \* \* /60 秒 = ~ 133 个样本/秒。
+100 台服务器 \*80 \* 个计数器，每个代理每分钟 1 个样本/60 秒 = ~ 133 个样本/秒。
 
 ## <a name="security-considerations"></a>安全考虑事项
 <a name="BKMK_Security"> </a>

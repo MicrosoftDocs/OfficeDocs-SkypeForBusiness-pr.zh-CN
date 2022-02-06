@@ -1,28 +1,23 @@
 ---
 title: 在网络网络中创建网络区域间Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 5555262a-a502-4b01-9593-836dd30064f5
 description: 创建或修改网络区域间路由，这些路由企业语音呼叫允许控制Skype for Business Server。
-ms.openlocfilehash: 4aa831c33049e2e77a298f96de80d9bad2d296e4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833868"
 ---
+
 # <a name="create-network-interregional-routes-in-skype-for-business-server"></a>在网络网络中创建网络区域间Skype for Business Server
  
 创建或修改网络区域间路由，这些路由企业语音呼叫允许控制Skype for Business Server。 
@@ -35,7 +30,7 @@ ms.locfileid: "60833868"
   
 ### <a name="to-create-network-interregional-routes-by-using-skype-for-business-server-management-shell"></a>使用命令行管理程序创建网络区域Skype for Business Server路由
 
-1. 启动命令行Skype for Business Server：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击"Skype for Business Server **命令行管理程序"。**
+1. 启动命令行Skype for Business Server：单击"开始"**，单击"** 所有程序"**，单击"****Skype for Business 2015"**，然后单击"Skype for Business Server **命令行管理程序"**。
     
 2. 运行 **New-CsNetworkInterRegionRoute** cmdlet 来定义所需路由。例如，运行：
     

@@ -1,24 +1,19 @@
 ---
 title: 会议摘要报告Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 62f54812-5700-45a3-8526-8f58b0f77fbc
 description: 摘要：了解会议摘要报告中Skype for Business Server。
-ms.openlocfilehash: 029dac40c7bc52602f0403bdfd52559db662b0ca
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846405"
 ---
+
 # <a name="conference-summary-report-in-skype-for-business-server"></a>会议摘要报告Skype for Business Server
  
 **摘要：** 了解会议摘要报告中Skype for Business Server。
@@ -27,7 +22,7 @@ ms.locfileid: "60846405"
   
 会议摘要报告不仅告知您给定时间段 (（每小时、每天、每周、每月) ）内召开的会议数) 还告知您参与这些会议的总数以及唯一会议组织者的总数。
   
-"唯一"组织者是计划了至少一次会议的任何人。 例如，如果 Pilar Ackerman 计划了一场会议，则她将算为一个唯一组织者。 如果 Ken Myer 计划了 148 场会议，则他也将算为一个唯一组织者。 例如，下表显示了计划了 8 场会议，但仅三个唯一组织者 (Ken Myer、Pilar Ackerman 和 David Ahs) 。
+"唯一"组织者是计划了至少一次会议的任何人。 例如，如果 Pilar Ackerman 计划了一场会议，则她将算为一个唯一组织者。 如果 Ken Myer 计划了 148 场会议，则他也将算为一个唯一组织者。 例如，下表显示了计划了 8 场会议，但只有三个唯一组织者 (Ken Myer、Pilar Ackerman 和 David Ahs) 。
   
 |**会议组织者**|**会议日期**|
 |:-----|:-----|

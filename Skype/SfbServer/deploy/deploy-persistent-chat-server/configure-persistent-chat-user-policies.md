@@ -1,25 +1,20 @@
 ---
 title: 在 Skype for Business Server 2015 中配置持久聊天用户策略
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: e5862480-95f8-4d76-a2b5-940cd995e93c
 description: 摘要：阅读本主题，了解如何在 Skype for Business Server 2015 中为持久聊天服务器创建初始用户策略。 持久聊天用户策略确定是否允许用户访问聊天室。
-ms.openlocfilehash: 71003f6befa3e6c47cd65829c3703a45527e5964
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832856"
 ---
+
 # <a name="configure-persistent-chat-user-policies-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中配置持久聊天用户策略
  
 **摘要：** 阅读本主题，了解如何在 Skype for Business Server 2015 中为持久聊天服务器创建初始用户策略。 持久聊天用户策略确定是否允许用户访问聊天室。
@@ -37,7 +32,7 @@ ms.locfileid: "60832856"
 - 将策略应用于用户或用户组
     
 > [!NOTE] 
-> 持久聊天在 2015 Skype for Business Server可用，但在 2019 年 2 月不再Skype for Business Server支持。 相同的功能在 Teams 中可用。 有关详细信息，请参阅开始[升级Microsoft Teams升级](/microsoftteams/upgrade-start-here)。 如果您需要使用持久聊天，您的选择是迁移需要此功能的用户以Teams或继续使用 Skype for Business Server 2015。
+> 持久聊天在 Skype for Business Server 2015 中可用，但在 2019 年 2 Skype for Business Server不再受支持。 相同的功能在 Teams。 有关详细信息，请参阅[开始升级Microsoft Teams升级](/microsoftteams/upgrade-start-here)。 如果您需要使用持久聊天，您的选择是迁移需要此功能的用户以Teams或继续使用 Skype for Business Server 2015。
 
 ## <a name="configure-the-global-policy"></a>配置全局策略
 
@@ -47,7 +42,7 @@ ms.locfileid: "60832856"
     
 2. 从"**开始**"菜单中，Skype for Business Server控制面板或打开浏览器窗口，然后输入管理 URL。
     
-3. 在Skype for Business Server控制面板中，单击"**持久聊天**"，然后单击"**持久聊天策略"。**
+3. 在Skype for Business Server控制面板"中，单击"**持久聊天**"，然后单击"**持久聊天策略"**。
     
 4. 单击策略列表中的“全局”，再单击“编辑”，然后单击“显示详细信息”。
     

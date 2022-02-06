@@ -1,25 +1,20 @@
 ---
 title: 持久聊天服务器表详细信息
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: c22d4a76-da50-49de-9038-e0ed7b8e1b58
 description: 以下主题详细介绍了每个持久聊天数据库架构表中的列。
-ms.openlocfilehash: b8863a0354661e7d1a7bb2ccec9407c275c593d9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833236"
 ---
+
 # <a name="persistent-chat-server-table-details"></a>持久聊天服务器表详细信息
  
 以下主题详细介绍了每个持久聊天数据库架构表中的列。

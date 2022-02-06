@@ -1,31 +1,26 @@
 ---
 title: 为不基于 Windows 的设备启用 QoS
-ms.reviewer: ''
-ms:assetid: 26f793df-aef8-4028-9e3b-6c2c37ea61b9
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204750(v=OCS.15)
-ms:contentKeyID: 48183661
+ms.reviewer: null
+'ms:assetid': 26f793df-aef8-4028-9e3b-6c2c37ea61b9
+'ms:mtpsurl': 'https://technet.microsoft.com/en-us/library/JJ204750(v=OCS.15)'
+'ms:contentKeyID': 48183661
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 description: 了解如何为组织中使用的设备启用 QoS，这些设备使用非 Windows。
-ms.openlocfilehash: 613f7abfa3e88fb831729498baa8f7f698aa9d0e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831996"
 ---
-# <a name="enabling-qos-in-skype-for-business-server-for-devices-that-are-not-based-on-windows"></a>为不基于 Skype for Business Server 的设备启用 QoS Windows
+
+# <a name="enabling-qos-in-skype-for-business-server-for-devices-that-are-not-based-on-windows"></a>为不基于Skype for Business Server的设备启用 QoS Windows
 
 
-安装 Skype for Business Server 时，不会为组织中使用的任何使用非 (操作系统的设备启用服务质量 (Qo) S Windows。 可以通过从 Skype for Business ServerManagement Shell 中运行以下命令来验证这一点：
+安装 Skype for Business Server 时，不会为组织中使用的任何使用非 Windows 操作系统的设备启用服务质量 (Qo) S Windows。 可以通过从 ServerManagement 命令行管理程序内部运行以下命令Skype for Business验证这一点：
 
 **Get-CsMediaConfiguration**
 
@@ -38,11 +33,11 @@ EnableSiren ： False<br/>
 MaxVideoRateAllowed ： VGA600K<br/>
 EnableG722StereoCodec ： True<br/>
 EnableH264Codec ： True<br/>
-EnableAdaptiveBandwidthEstimation ：True<br/>
+EnableAdaptiveBandwidthEstimation ： True<br/>
 
 如果 EnableQoS 属性设置为 False (如前面的输出) 则意味着没有为使用非 Windows 操作系统的计算机和设备启用服务质量。
 
-若要在全局范围启用服务质量，请从命令行管理程序Skype for Business Server以下命令：
+若要在全局范围启用服务质量，请从命令行管理程序内部Skype for Business Server命令：
 
 **Set-CsMediaConfiguration -EnableQoS $True**
 
@@ -55,11 +50,11 @@ EnableAdaptiveBandwidthEstimation ：True<br/>
 > 您是否需要在站点范围启用 QoS？ 要视情况而定。 分配给站点范围的设置的优先于分配给全局范围的设置。 假设您在全局范围启用了 QoS，但在 Redmond 站点站点的站点 (禁用 QoS) 。 在这种情况下，将禁用 Redmond 站点的服务质量;这是因为网站设置优先。 若要为 Redmond 站点启用 QoS，您必须使用应用于该站点的媒体配置设置进行启用。
 
 
-如果要同时为所有媒体配置设置启用 QoS， (范围) ，请从 LSkype for Business Server 命令行管理程序中运行此命令：
+如果要同时启用所有媒体配置设置的 QoS， (范围) ，请从 LSkype for Business Server 命令行管理程序中运行以下命令：
 
 **Get-CsMediaConfiguration |Set-CsMediaConfiguration -EnableQoS $True**
 
-可以将 EnableQoS 属性的值设置为 False，为使用非 Windows操作系统的设备禁用 QoS。 例如：
+可以将 EnableQoS 属性的值设置为 False，为使用 Windows操作系统的设备禁用 QoS。 例如：
 
 **Set-CsMediaConfiguration -Identity site：Redmond -EnableQoS $False**
 
