@@ -1,31 +1,26 @@
 ---
-title: 在呼叫中配置语音策略、PSTN 用法记录和Skype for Business
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: 在呼叫中配置语音策略、PSTN 用法记录和语音Skype for Business
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 1e5a15f9-6f42-4dc6-baaa-24daf54afc4d
-description: 摘要：了解如何在客户端部署中配置语音策略、PSTN 用法记录和Skype for Business Server。
-ms.openlocfilehash: ac2256436e89a383df551fd7610189df56c8a0b0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833808"
+description: 摘要：了解如何在部署中配置语音策略、PSTN 用法记录和Skype for Business Server。
 ---
-# <a name="configure-voice-policies-pstn-usage-records-and-voice-routes-in-skype-for-business"></a>在呼叫中配置语音策略、PSTN 用法记录和Skype for Business
+
+# <a name="configure-voice-policies-pstn-usage-records-and-voice-routes-in-skype-for-business"></a>在呼叫中配置语音策略、PSTN 用法记录和语音Skype for Business
  
-**摘要：** 了解如何在客户端部署中配置语音策略、PSTN 用法记录和Skype for Business Server。
+**摘要：** 了解如何在部署中配置语音策略、PSTN 用法记录和Skype for Business Server。
   
 语音策略、PSTN 用法记录和语音路由是一个有机整体。可以通过选择一组呼叫功能，然后为策略分配一组 PSTN 用法记录来配置语音策略，这些记录指定为分配了语音策略的用户或组授予哪些权限。系统还向语音路由分配 PSTN 用法记录，这些记录用于将路由与有权使用它们的用户进行匹配。也就是说，用户只能发出使用用户对于其有匹配的 PSTN 用法记录的路由的呼叫。
   

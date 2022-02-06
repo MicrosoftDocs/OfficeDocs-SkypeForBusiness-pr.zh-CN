@@ -1,28 +1,23 @@
 ---
 title: Skype for Business 下载和更新
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 07/23/2018
 audience: ITPro
 ms.topic: overview
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 查找和管理 Skype for Business Server Lync 2013 的更新。 使用链接获取详细信息，然后下载更新。
-ms.openlocfilehash: ce7676064bc6e2ca67c65a8a4f34c543a0fa75f1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855196"
 ---
+
 # <a name="skype-for-business-downloads-and-updates"></a>Skype for Business 下载和更新
 
-已 _Skype for Business_ Technet 上下载和更新网页。 内容已重新组织到客户端和服务器页面。 按照以下链接访问所需的内容：
+_Technet_ Skype for Business一次下载和更新网页的网站已停用。 内容已重新组织到客户端和服务器页面。 按照以下链接访问所需的内容：
 
 - [包含Skype for Business](sfb-client-updates.md)的客户端更新：
     - [Skype for Business 2016 客户端更新](sfb-client-updates.md#skype-for-business-2016-client-updates)
@@ -37,7 +32,7 @@ ms.locfileid: "60855196"
         - [Lync 2010 Attendant 更新](sfb-client-updates.md#lync-2010-attendant-updates)
         - [Lync 2010 Attendee 更新](sfb-client-updates.md#lync-2010-attendee-updates)
 
-- [Skype for Business Server包含](sfb-server-updates.md)以下部分的更新：
+- [Skype for Business Server更新](sfb-server-updates.md)，其中包含以下部分：
     - [Skype for Business Server 2019 更新历史记录](sfb-server-updates.md#skype-for-business-server-2019-update-history)
     - [Skype for Business Server 2015 更新历史记录](sfb-server-updates.md#skype-for-business-server-2015-update-history)
     - [Lync Server 2013 更新历史记录](sfb-server-updates.md#lync-server-2013-update-history)

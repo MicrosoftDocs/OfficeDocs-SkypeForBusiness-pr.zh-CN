@@ -1,25 +1,20 @@
 ---
 title: 2015 年 Skype for Business Server 中的 Conferences 表
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 7/15/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: c3da6271-b3c6-4898-894f-10456ec794d0
 description: 此表中的每条记录都包含有关一个会议的呼叫详细信息。
-ms.openlocfilehash: cbcda30c47b4bbeac012f80d64f297a9a1259f2c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838444"
 ---
+
 # <a name="conferences-table-in-skype-for-business-server-2015"></a>2015 年 Skype for Business Server 中的 Conferences 表
  
 此表中的每条记录都包含有关一个会议的呼叫详细信息。
@@ -27,9 +22,9 @@ ms.locfileid: "60838444"
 |**列**|**数据类型**|**键/索引**|**详细信息**|
 |:-----|:-----|:-----|:-----|
 |**SessionIdTime** <br/> |datetime  <br/> |主  <br/> |CDR 代理捕获会议请求的时间。 仅用于唯一标识会议实例的主键。  <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |主  <br/> |用于标识会话的 ID 号。 与 **SessionIdTime 结合使用** 来唯一地标识会议实例。 * <br/> |
-|**ConferenceUriId** <br/> |int  <br/> |Foreign  <br/> |会议 URI。 有关详细信息，[请参阅 Skype for Business Server 2015 中的 ConferenceUris](conferenceuris.md)表。 <br/> |
-|**ConfInstance** <br/> |uniqueidentifier  <br/> | <br/> |对于定期会议非常有用;定期会议的每个实例具有相同的 **ConferenceUri，** 但将具有不同的 **ConfInstance**。 <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |主  <br/> |用于标识会话的 ID 号。 与 **SessionIdTime** 结合使用来唯一地标识会议实例。 * <br/> |
+|**ConferenceUriId** <br/> |int  <br/> |Foreign  <br/> |会议 URI。 有关详细信息，[请参阅 Skype for Business Server 2015 中的 ConferenceUris](conferenceuris.md) 表。 <br/> |
+|**ConfInstance** <br/> |uniqueidentifier  <br/> | <br/> |对于定期会议非常有用;定期会议的每个实例具有相同的 **ConferenceUri**，但具有不同的 **ConfInstance**。 <br/> |
 |**ConferenceStartTime** <br/> |datetime  <br/> | <br/> |会议开始时间。  <br/> |
 |**ConferenceEndTime** <br/> |datetime  <br/> | <br/> |会议开始时间。  <br/> |
 |**PoolId** <br/> |int  <br/> |Foreign  <br/> |用于标识捕获会议的池的 ID 号。 有关详细信息 [，请参阅 Pools](pools.md) 表。 <br/> |

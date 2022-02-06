@@ -1,24 +1,19 @@
 ---
 title: 报告中的对等 IM Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 19ec0145-2398-437b-8989-f780c179b798
 description: 摘要：了解 Skype for Business Server 中的对等 IM 报告。
-ms.openlocfilehash: f72200547ca8af3fa2ebde0e44c4707c82a1596b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834200"
 ---
+
 # <a name="peer-to-peer-im-report-in-skype-for-business-server"></a>报告中的对等 IM Skype for Business Server
  
 **摘要：** 了解 Skype for Business Server 中的对等 IM 报告。

@@ -1,33 +1,28 @@
 ---
-title: 规划即时消息和即时消息中的Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: 规划即时消息和Skype for Business Server
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 70d2151e-9382-485d-ab14-758597571a74
-description: 摘要：了解如何在客户端中规划即时消息Skype for Business Server。
-ms.openlocfilehash: b81da143bf7b8d917d88939d8b28261910bb8f5a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835080"
+description: 摘要：了解如何在 Skype for Business Server 中规划即时消息和Skype for Business Server。
 ---
-# <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>规划即时消息和即时消息中的Skype for Business Server
+
+# <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>规划即时消息和Skype for Business Server
  
 **摘要：** 了解如何在客户端中规划即时消息Skype for Business Server。
   
-规划即时消息和即时消息中的Skype for Business Server。 若要了解特定的部署选项，例如启用或禁用脱机即时消息 (IM) ，[请参阅D部署](../deploy/im-and-presence/im-and-presence.md)即时消息和状态Skype for Business Server 。
+规划即时消息和即时消息中的Skype for Business Server。 若要了解特定的部署选项（如启用或禁用脱机即时消息 (IM) ，请参阅D deploy [instant messaging and presence in Skype for Business Server](../deploy/im-and-presence/im-and-presence.md)。
   
-## <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>规划即时消息和即时消息中的Skype for Business Server
+## <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>规划即时消息和Skype for Business Server
 
-前端服务器提供了核心Skype for Business Server功能，如即时消息 (IM) 和状态，并且包含在每个Skype for Business Server部署中。 有两个版本Skype for Business Server Enterprise Edition：主要面向大型组织的 Skype for Business Server Standard Edition 和 Skype for Business Server Standard Edition，主要针对需要硬件投资较少，不需要完整的高可用性选项。 这两个版本都支持Skype for Business Server工作负载，包括 IM、状态、会议和企业语音。
+前端服务器提供核心Skype for Business Server功能，如即时消息 (IM) 和状态，并包含在每个Skype for Business Server部署中。 有两个版本可用：Skype for Business Server Enterprise Edition主要面向大型组织的 Skype for Business Server Standard Edition，它主要用于需要较小硬件投资且不需要完整高可用性选项的较小组织。 这两个版本都支持Skype for Business Server工作负载，包括 IM、状态、会议和企业语音。
   
 通过即时消息 (IM)，用户可以在其计算机上使用基于文本的消息进行实时通信。支持双方和多方之间的 IM 会话。双方 IM 对话中的一方可以随时将第三方参与者加入对话中。发生这种情况时，对话窗口会做出相应改变以支持会议功能。
   
@@ -35,7 +30,7 @@ ms.locfileid: "60835080"
   
 ### <a name="technical-requirements"></a>技术要求
 
-即时消息 (IM) 和状态始终Enterprise Edition前端池和Standard Edition运行。 有关支持的硬件、操作系统和数据库软件的信息，请参阅 Certified [Gateways、Requirements](../../SfbPartnerCertification/certification/infra-gateways.md) [for your Skype for Business 2015 environment](requirements-for-your-environment/requirements-for-your-environment.md)和 Infrastructure requirements for Skype for Business Server [2019。](../../SfBServer2019/plan/system-requirements.md)
+即时消息 (IM) 和状态始终在前端Enterprise Edition和Standard Edition运行。 有关支持的硬件、操作系统和数据库软件的信息，请参阅 Certified [Gateways](../../SfbPartnerCertification/certification/infra-gateways.md)、[Requirements for your Skype for Business 2015 environment](requirements-for-your-environment/requirements-for-your-environment.md)和 [Infrastructure requirements for Skype for Business Server 2019](../../SfBServer2019/plan/system-requirements.md)。
   
 ### <a name="enabling-communication-with-external-users"></a>启用与外部用户的通信
 
@@ -68,10 +63,10 @@ Skype for Business Server组织必须遵守合规性法规时，可以使用这�
   
 - 组织的前端服务器称为 (池) 或Standard Edition服务器。 这些服务器中始终启用 IM 和状态功能。 有关前端池拓扑和管理的信息，请参阅 [前端池高可用性和管理](high-availability-and-disaster-recovery/high-availability.md)。
     
-- 负载平衡器（如果有Enterprise Edition前端池）。
+- 负载平衡器（如果您有一个Enterprise Edition池）。
     
 ### <a name="supported-collocation"></a>支持的并置
 
-并置定义为安装了一台服务器或多组服务器，并安装了多个角色。 有关并置的详细信息，请参阅[Topology Basics for Skype for Business Server](topology-basics/topology-basics.md)。 
+并置定义为安装了一台服务器或多组服务器，并安装了多个角色。 有关并置的详细信息，请参阅 [Topology Basics for Skype for Business Server](topology-basics/topology-basics.md)。 
   
 

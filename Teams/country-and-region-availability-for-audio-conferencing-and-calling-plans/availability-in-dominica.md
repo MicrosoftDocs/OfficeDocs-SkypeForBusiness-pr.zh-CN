@@ -1,42 +1,37 @@
 ---
 title: 多米尼加的可用性
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr, fafan
+ms.reviewer: 'mikedav, jastark, oscarr, fafan'
 ms.topic: reference
 ms.assetid: 1eb066bc-394a-434e-87a2-61d257a7e77d
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- M365-collaboration
-- M365-voice
+  - M365-collaboration
+  - M365-voice
 search.appverid: MET150
 audience: Admin
 appliesto:
-- Skype for Business
-- Microsoft Teams
+  - Skype for Business
+  - Microsoft Teams
 ms.localizationpriority: medium
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.custom:
-- Audio Conferencing
-- Phone System
-- Calling Plans
-description: 以下是适用于Microsoft 365 Office 365的 Skype for Business Microsoft Teams 服务。
-ms.openlocfilehash: fa26187e076544a2d5913b40491a331cc79d72f1
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62191023"
+  - Audio Conferencing
+  - Phone System
+  - Calling Plans
+description: 以下是适用于 Microsoft 365 Office 365 和 Skype for Business Microsoft Teams 的一些服务和服务。
 ---
+
 # <a name="availability-in-dominica"></a>多米尼加的可用性
 
 [查找其他国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或详细了解可以在哪些国家/地区使用音频会议和通话套餐。
 
-以下是适用于Microsoft 365 Office 365的 Skype for Business Microsoft Teams 服务。
+以下是适用于 Microsoft 365 Office 365 和 Skype for Business Microsoft Teams 的一些服务和服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 

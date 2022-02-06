@@ -1,28 +1,23 @@
 ---
 title: 架构中的架构类和Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 7d43b920-ac37-40cc-adfe-be289bda6e9e
-description: 本节介绍组织使用的所有架构Skype for Business Server。
-ms.openlocfilehash: fbd3e3293cef72ba6592b86932639bd499464858
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829766"
+description: 本节介绍由 Skype for Business Server 使用的所有架构类。
 ---
+
 # <a name="schema-classes-and-descriptions-in-skype-for-business-server"></a>架构中的架构类和Skype for Business Server
  
-本节介绍组织使用的所有架构Skype for Business Server。 
+本节介绍由 Skype for Business Server 使用的所有架构类。 
   
 ## <a name="schema-classes-and-descriptions"></a>架构类和说明
 

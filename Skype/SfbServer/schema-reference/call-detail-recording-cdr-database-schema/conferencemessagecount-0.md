@@ -1,25 +1,20 @@
 ---
 title: ConferenceMessageCount 视图
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 8ee3ee95-fb78-4d4e-bcdd-6ce5a0a23b44
 description: ConferenceMessageCount 视图存储有关用户已向会议中发送的消息数的信息。 此视图在 Microsoft Lync Server 2013 中引入。
-ms.openlocfilehash: 1308b0e9aeb8954df8010d0c1d55036eff1a3dac
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856519"
 ---
+
 # <a name="conferencemessagecount-view"></a>ConferenceMessageCount 视图
  
 ConferenceMessageCount 视图存储有关用户已向会议中发送的消息数的信息。 此视图在 Microsoft Lync Server 2013 中引入。
