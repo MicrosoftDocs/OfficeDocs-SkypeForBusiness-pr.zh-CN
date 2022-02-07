@@ -1,32 +1,27 @@
 ---
 title: 在 Microsoft Teams 中规划实时事件
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: sonua
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: high
 ms.collection:
-- M365-collaboration
-- m365initiative-meetings
-- m365initiative-meetings-enabler
-- enabler-strategic
+  - M365-collaboration
+  - m365initiative-meetings
+  - m365initiative-meetings-enabler
+  - enabler-strategic
 search.appverid: MET150
 description: 在本文中，你将了解在 Microsoft Teams 中设置实时事件之前要考虑的因素。
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c8d15111af3815cbf111d7c1d0e2e77298b7d3d5
-ms.sourcegitcommit: b3b295557d494f77a7ebd9f49ec55f2507da956c
-ms.translationtype: HT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 11/22/2021
-ms.locfileid: "61135185"
 ---
+
 # <a name="plan-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中规划实时事件
 
 计划 Teams 实时事件时，若要在组织中召开大型会议，则在开始设置之前，需要考虑几个因素。

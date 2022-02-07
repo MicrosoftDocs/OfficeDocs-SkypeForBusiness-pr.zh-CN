@@ -1,7 +1,7 @@
 ---
 title: 管理会议设置
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: sonua
 ms.topic: article
@@ -9,26 +9,21 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.teamsadmincenter.meetingsettings.invitationurls
-- ms.teamsadmincenter.meetingsettings.network.ports
-- ms.teamsadmincenter.meetingsettings.overview
+  - ms.teamsadmincenter.meetingsettings.invitationurls
+  - ms.teamsadmincenter.meetingsettings.network.ports
+  - ms.teamsadmincenter.meetingsettings.overview
 ms.collection:
-- M365-collaboration
-- m365initiative-meetings
+  - M365-collaboration
+  - m365initiative-meetings
 description: 了解如何管理用户在组织中安排的 Teams 会议的设置。
-ms.openlocfilehash: ed042552ea6057c8184b4dad444afa543550b052
-ms.sourcegitcommit: 3b5ae6ebf4384166c628f66a4f17e6fe4455b708
-ms.translationtype: HT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 12/29/2021
-ms.locfileid: "61625913"
 ---
+
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理会议设置
 
 作为管理员，你可以使用 Teams 会议设置来控制匿名用户是否可以加入 Teams 会议、自定义会议邀请，并在想要启用服务质量 (QoS) 的情况下设置实时流量端口范围。 这些设置适用于用户在组织中安排的所有 Teams 会议。 可以在 Microsoft Teams 管理中心的“**会议**” > “**会议设置**”中管理这些设置。
