@@ -1,8 +1,8 @@
 ---
 title: 将中介服务器与边缘关联
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 65c5d93c-9f0d-4a60-8bd1-d05eb6bc2088
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要定义中介服务器，请指定将中介服务器与前端服务器和边缘服务器或池相关联的设置。要将中介服务器或池与边缘服务器或边缘服务器池相关联，请执行以下操作：
-ms.openlocfilehash: 818e2dc95ea01affbbf499da21968e2f83966044
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: f09bcc31b005c768129a797fa61df5090a38ae5e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846835"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393164"
 ---
 # <a name="associate-mediation-server-with-edge"></a>将中介服务器与边缘关联
  
@@ -33,6 +33,6 @@ ms.locfileid: "60846835"
 > [!NOTE]
 > 如果尚未在部署中定义边缘服务器或边缘服务器池，则下拉列表中不会包含任何条目。向部署中添加边缘服务器或池之后，可以单击“下一步”继续操作，并编辑中介服务器的设置。
   
-有关其他详细信息，请参阅部署拓扑生成器[中的中介Skype for Business Server。](../../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)
+有关其他详细信息，请参阅部署拓扑生成器[中的中介Skype for Business Server](../../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)。
   
 

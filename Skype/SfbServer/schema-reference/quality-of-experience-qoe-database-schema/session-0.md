@@ -1,8 +1,8 @@
 ---
 title: 会话视图
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 49e33f5b-45d0-4146-a5a4-76954d895a98
 description: 会话视图存储有关在数据库中具有记录的会话的信息。 此视图在 Microsoft Lync Server 2013 中引入。
-ms.openlocfilehash: 80a275e047934bd60586c344b5487f2593fe48bb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: afcff6c5032c14dbcab525a0032804493bcb0216
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834910"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393574"
 ---
 # <a name="session-view"></a>会话视图
  
@@ -42,10 +42,10 @@ ms.locfileid: "60834910"
 |CalleeEndpoint  <br/> |nvarchar (256)   <br/> |呼叫者的终结点名称。  <br/> |
 |CallerUserAgent  <br/> |nvarchar (256)   <br/> |呼叫者的用户代理字符串。  <br/> |
 |CallerUserAgentType  <br/> |smallint  <br/> |呼叫者的用户代理的类型。 有关详细信息， [请参阅 UserAgent](useragent.md) 表。 <br/> |
-|CallerUserAgentCategory  <br/> |nvarchar (64)  <br/> |呼叫者的用户代理的类别。 有关详细信息，请参阅[QoE (UserAgentDef) 。](useragentdef-qoe.md) <br/> |
+|CallerUserAgentCategory  <br/> |nvarchar (64)  <br/> |呼叫者的用户代理的类别。 有关详细信息，请参阅 [QoE (UserAgentDef) ](useragentdef-qoe.md) 。 <br/> |
 |CalleeUserAgent  <br/> |nvarchar (256)   <br/> |被叫方的用户代理字符串。  <br/> |
 |CalleeUserAgentType  <br/> |smallint  <br/> |被叫方的用户代理的类型。 有关详细信息， [请参阅 UserAgent](useragent.md) 表。 <br/> |
-|CalleeUserAgentCategory  <br/> |nvarchar (64)  <br/> |被叫方的用户代理类别。 有关详细信息，请参阅[QoE (UserAgentDef) 。](useragentdef-qoe.md) <br/> |
+|CalleeUserAgentCategory  <br/> |nvarchar (64)  <br/> |被叫方的用户代理类别。 有关详细信息，请参阅 [QoE (UserAgentDef) ](useragentdef-qoe.md) 。 <br/> |
 |CallerURI  <br/> |nvarchar (450)   <br/> |呼叫者的 URI。  <br/> |
 |CalleeURI  <br/> |nvarchar (450)   <br/> |被叫方 URI。  <br/> |
 |CallPrioirty  <br/> |int  <br/> |呼叫的优先级。  <br/> |

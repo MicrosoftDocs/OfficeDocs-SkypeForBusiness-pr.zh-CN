@@ -1,8 +1,8 @@
 ---
 title: 在部署中部署通过工Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,26 +15,26 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4802d733-14ef-4509-92b9-07173614e45f
 description: 摘要：了解如何在 Skype for Business Server中为部分或所有用户部署通过工作电话呼叫。
-ms.openlocfilehash: 932d94c13d4ba9ead63504cfba66175db52084d7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 7ac3d09d81e602c108e1804ad837dd1c87d17e1b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851616"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393414"
 ---
 # <a name="deploy-call-via-work-in-skype-for-business-server"></a>在部署中部署通过工Skype for Business Server
  
 **摘要：** 了解如何在 Skype for Business Server 中为部分或所有用户部署通过工作电话呼叫。
   
-使用以下步骤为用户部署通过工位呼叫。 Plan for Call [Via Work in Skype for Business Server 中讨论了规划注意事项](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)。 在以前版本的 Lync Server 中，远程呼叫控制是一项使用户能够使用 Lync Server 控制其 PBX 电话的功能。 在Skype for Business Server，此功能已替换为通过工位呼叫功能。 
+使用以下步骤为用户部署通过工位呼叫。 Plan [for Call Via Work in Skype for Business Server中讨论了规划注意事项](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)。 在以前版本的 Lync Server 中，远程呼叫控制是一项使用户能够使用 Lync Server 控制其 PBX 电话的功能。 在Skype for Business Server，此功能已替换为通过工位呼叫功能。 
   
 ## <a name="prerequisites-for-call-via-work"></a>通过工位呼叫的先决条件
 
-通过工位呼叫使用 UCWA (统一通信 Web API) ，该 API 会自动安装在所有Skype for Business Server前端服务器上。 若要为用户启用通过工位呼叫，还必须满足以下先决条件： 
+"通过工次呼叫"使用 UCWA (统一通信 Web API) ，这会自动安装在所有前端Skype for Business Server服务器上。 若要为用户启用通过工位呼叫，还必须满足以下先决条件： 
   
 - 必须将中介服务器部署为前端服务器的一部分或作为独立角色。 还必须部署 IP-PBX 网关。
     
-- 将启用通过工号拨号的所有用户都必须在 PBX 电话系统上具有 (直拨) DID 电话。 
+- 将启用通过工号拨号的所有用户都必须在 PBX 电话系统 (外) DID 电话。 
     
 - 必须启用所有通过工位呼叫的用户企业语音。 在这样做时，必须将每个用户的 DID Skype for Business配置为相应的 PBX 电话系统的对应 DID 号码。 
     
@@ -50,7 +50,7 @@ ms.locfileid: "60851616"
 
 满足先决条件后，执行以下操作：
   
-- 为部署创建全局电话号码，该Skype for Business通过工号呼叫的用户的 PBX 呼叫者 ID 上显示该号码。 
+- 为部署创建全局电话号码，Skype for Business通过工号呼叫的用户的 PBX 呼叫者 ID 上显示该号码。 
     
 - 创建一个或多个通过工位呼叫策略
     

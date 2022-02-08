@@ -1,8 +1,8 @@
 ---
 title: 监视移动服务和 UCWA 在Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,13 +11,13 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 8389b37a-ca3e-4047-8b51-85bc07da87e8
-description: 摘要：管理 Mobility Service (Mcx) 和统一通信 Web API (UCWA) 中Skype for Business Server。
-ms.openlocfilehash: 6139ab53e964bd7c880a83a7af252fe2da71a152
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: 摘要：在 Skype for Business Server 中管理 Mobility Service (Mcx) 和统一通信 Web API (UCWA) 。
+ms.openlocfilehash: d7596bfaf4e90f0eef25dbc625719f8739255858
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835250"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393764"
 ---
 # <a name="monitor-mobility-service-and-ucwa-usage-in-skype-for-business-server"></a>监视移动服务和 UCWA 在Skype for Business Server
  
@@ -26,15 +26,15 @@ ms.locfileid: "60835250"
 > [!NOTE]
 > MCX (Mobility Service) 2019 年不再提供对旧版移动客户端Skype for Business Server支持。 所有当前Skype for Business客户端已使用统一通信 Web API (UCWA) 支持即时消息 (IM) 、状态和联系人。 使用 MCX 的旧客户端的用户将需要升级到当前客户端。
   
-您应持续监视 Skype for Business Server Mobility Service (Mcx) 和 UCWA (中使用的 CPU 和 (内存) 。 若要监视使用情况，可以使用以下内容：
+您应持续监视 SKYPE FOR BUSINESS SERVER Mobility Service (Mcx) 和 UCWA (Web API) 使用的 CPU 和内存。 若要监视使用情况，可以使用以下内容：
   
  **对于统一通信 Web API (UCWA) ：**
   
-- IIS Internet Information Services (管理器中的 **LyncUcwa**) 进程。 在“工作进程”窗格中，查看“CPU 百分比”和“专用字节(KB)”（内存）列。
+- **IIS 管理器中的 LyncUcwa** Internet Information Services () 进程。 在“工作进程”窗格中，查看“CPU 百分比”和“专用字节(KB)”（内存）列。
     
 - **CPU** 和 **Processor** 性能计数器。
     
-对于大多数部署，UCWA CPU 平均使用率应低于 15%。 内存使用量应位于监视服务器内存容量限制中介绍的限制[Skype for Business Server。](server-memory-capacity-limits.md)
+对于大多数部署，UCWA CPU 平均使用率应低于 15%。 内存使用量应超出监视服务器内存容量限制中所述的限制[Skype for Business Server。](server-memory-capacity-limits.md)
   
 除了 CPU 和内存使用率计数器之外，您还可以使用以下性能计数器来帮助确定服务器何时因请求而过载：
   
@@ -47,11 +47,11 @@ ms.locfileid: "60835250"
   
  **对于 Mobility Service (Mcx) ：**
   
-- IIS Internet Information Services (管理器中的 **CSIntMcxAppPool** 和 **CSExtMcxAppPool**) 进程。 在“工作进程”窗格中，查看“CPU 百分比”和“专用字节(KB)”（内存）列。
+- IIS 管理器中的 **CSIntMcxAppPool** 和 **CSExtMcxAppPool** Internet Information Services () 进程。 在“工作进程”窗格中，查看“CPU 百分比”和“专用字节(KB)”（内存）列。
     
 - **CPU** 和 **Processor** 性能计数器。
     
-对于大多数部署，Mobility Service CPU 平均使用率应低于 15%。 内存使用量应位于监视服务器内存容量限制中介绍的限制[Skype for Business Server。](server-memory-capacity-limits.md)
+对于大多数部署，Mobility Service CPU 平均使用率应低于 15%。 内存使用量应超出监视服务器内存容量限制中所述的限制[Skype for Business Server。](server-memory-capacity-limits.md)
   
 除 CPU 和内存使用率计数器之外，您可以使用以下 ASP.NET 性能计数器来帮助确定服务器上的请求何时过载：
   

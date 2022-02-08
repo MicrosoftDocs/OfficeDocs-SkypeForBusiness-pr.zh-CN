@@ -1,8 +1,8 @@
 ---
 title: QoE 表详细信息
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: f10f0796-3c09-4cb8-bd0d-15f783835f03
 description: 以下各节详细介绍每个用户体验质量 (QoE) 数据库架构表中的列。
-ms.openlocfilehash: 30fe3a2b3cd54a72939d56a128b60100716b326d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 9bab14a05c6f28cbcd06e6b9d51eef2646036c50
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856409"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393604"
 ---
 # <a name="qoe-table-details"></a>QoE 表详细信息
  

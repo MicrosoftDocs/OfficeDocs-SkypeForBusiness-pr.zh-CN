@@ -1,8 +1,8 @@
 ---
 title: 获取项目上级
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d39b1dbc-1514-43ec-8593-9f23b3fcae62
 description: 摘要：了解作为项目服务的一部分的"获取项目上级"操作。 项目服务是通话质量仪表板存储库 API 的一部分。 通话质量仪表板是一种用于Skype for Business Server。
-ms.openlocfilehash: ec62275bc3c63d501370d4e27c57d69d1d9f4d5e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0cfc5385af1c0c821d4dc64e9ba0e0bd092fe833
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847245"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393734"
 ---
 # <a name="get-item-ancestors"></a>获取项目上级
  
@@ -33,7 +33,7 @@ ms.locfileid: "60847245"
 
 |**方法**|**请求 URI**|**HTTP 版本**|
 |:-----|:-----|:-----|
-|GET  <br/> |https:// \<portal\> /QoERepositoryService/repository/itemAncestors/{itemId}  <br/> |HTTP/1.1  <br/> |
+|GET  <br/> |\<portal\>https:///QoERepositoryService/repository/itemAncestors/{itemId}  <br/> |HTTP/1.1  <br/> |
    
  **URI 参数** - 无。
   
@@ -43,7 +43,7 @@ ms.locfileid: "60847245"
   
  **响应** - 响应包括 HTTP 状态代码和一组响应标头。
   
- **状态代码** - 成功操作返回状态代码 200 (确定) 。 如果未找到指定的用户 ID，它将返回状态代码 404 (未找到) 。
+ **状态代码** - 成功操作返回状态代码 200， (确定) 。 如果未找到指定的用户 ID，它将返回状态代码 404 (未找到) 。
   
  **响应标头** - 无其他标头。
   
