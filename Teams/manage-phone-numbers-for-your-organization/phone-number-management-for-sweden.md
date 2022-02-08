@@ -1,7 +1,7 @@
 ---
 title: 电话瑞典的号码管理
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: davlick,krkilaru
 ms.topic: reference
@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 使用此表查找有关在瑞典获取和管理电话号码的信息，Microsoft Teams。
-ms.openlocfilehash: 23580c70651cbb7ab53c4c1ef9efd31f02fd555e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 00cd34d6e0285c6fee48349eb050fb015050148f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839764"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394504"
 ---
 # <a name="phone-number-management-for-sweden"></a>电话瑞典的号码管理
 
@@ -34,11 +34,11 @@ ms.locfileid: "60839764"
   
 |**你要做什么？**|**下载正确的表单并发送给我们**|
 |:-----|:-----|
-|获取未在管理中心中列出的新用户Microsoft Teams电话号码。   <br/> |下载这些表单之一。 <br/>  [瑞典新电话号码请求 (v.5.0)  (sv-se) ](https://download.microsoft.com/download/5/e/3/5e3b17c3-9cc3-4098-8b03-4235dd42e724/new-phone-number-request-for-sweden-(v.5.0)-(sv-se).pdf) <br/>  [瑞典 5.0 (5.0)  (2016 的新电话号码) ](https://download.microsoft.com/download/a/3/0/a30b10be-42db-458d-bda2-adb320f2e2f3/new-phone-number-request-for-sweden-(v.5.0)-(en-us).pdf)<br/>  <br/>填写它并 [联系 TNS 服务台，了解说明](contact-tns-service-desk.md)。|
-获取转接给我们的电话号码。  <br/> |下载此表单。 <br/>[瑞典 (LOA) 授权书 (所有)  (v.5.0)  (sv-se) ](https://download.microsoft.com/download/b/d/0/bd030c0c-67c5-40fb-a148-d12a4675aa79/letter-of-authorization-(loa)-for-sweden-(all-numbers)-(v.5.0)-(sv-se).pdf)<br/><br/> 填写它并 [联系 TNS 服务台，了解说明](contact-tns-service-desk.md)。 <br/> |
-|发布/取消发布 () 国内电话目录中的电话号码。  <br/> |[有关要](contact-tns-service-desk.md) 发布/取消发布的电话号码列表的说明，请联系 TNS 服务台。      <br/> |
+|获取未在管理中心中列出的新用户Microsoft Teams电话号码。   <br/> |下载这些表单之一。 <br/>  [瑞典新电话号码请求 (v.5.0)  (sv-se) ](https://download.microsoft.com/download/5/e/3/5e3b17c3-9cc3-4098-8b03-4235dd42e724/new-phone-number-request-for-sweden-(v.5.0)-(sv-se).pdf) <br/>  [瑞典英语 v.5.0 (5.0)  (的新电话号码) ](https://download.microsoft.com/download/a/3/0/a30b10be-42db-458d-bda2-adb320f2e2f3/new-phone-number-request-for-sweden-(v.5.0)-(en-us).pdf)<br/>  <br/>填写它并 [联系 TNS 服务台，了解说明](contact-tns-service-desk.md)。|
+获取转接给我们的电话号码。  <br/> |下载此表单。 <br/>[瑞典的 (LOA) 授权书 (所有)  (v.5.0)  (sv-se) ](https://download.microsoft.com/download/b/d/0/bd030c0c-67c5-40fb-a148-d12a4675aa79/letter-of-authorization-(loa)-for-sweden-(all-numbers)-(v.5.0)-(sv-se).pdf)<br/><br/> 填写它并 [联系 TNS 服务台，了解说明](contact-tns-service-desk.md)。 <br/> |
+|发布/取消发布 (电话号码) 国内电话目录中。  <br/> |[有关要](contact-tns-service-desk.md) 发布/取消发布的电话号码列表的说明，请联系 TNS 服务台。      <br/> |
 |将用户号码更改为服务号码。  <br/> |[有关要转换为](contact-tns-service-desk.md) 服务号码的用户号码列表的说明，请联系 TNS 服务台。 <br/> |
-|更新目录服务以呼叫队列或自动助理号码|若要添加或更改呼叫队列或自动助理号码，请联系 [TNS 服务台，获得说明](contact-tns-service-desk.md)。 |
+|更新目录服务以呼叫队列或自动助理号码|若要添加或更改呼叫队列或自动助理号码，请联系 [TNS 服务台获得说明](contact-tns-service-desk.md)。 |
 
 ## <a name="related-topics"></a>相关主题
 

@@ -1,8 +1,8 @@
 ---
 title: 添加视频网关 IP
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -14,21 +14,21 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: edc4cc21-7803-400d-8152-595228a3d27d
-description: 在拓扑生成器中定义新的 VIS 或视频网关所需的步骤在 2015 年 10 月创建 VIS 池Skype for Business Server联机介绍。
-ms.openlocfilehash: 684cdcfcb6de25b40efb6fc6a62b63fd29763563
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: 在拓扑生成器中定义新的 VIS 或视频网关所需的步骤在 2015 年 10 月创建 VIS 池Skype for Business Server联机描述。
+ms.openlocfilehash: 0b685998c476af2fec129b88ed0514925355fd0a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844405"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395574"
 ---
 # <a name="add-video-gateway-ip"></a>添加视频网关 IP
  
-在拓扑生成器中定义新的 VIS 或视频网关所需的步骤在 Create [a VIS pool in Skype for Business Server 2015 中在线介绍](../../deploy/deploy-video-interop-server/create-a-vis-pool.md)。
+在拓扑生成器中定义新的 VIS 或视频网关所需的步骤在 [2015 年 10 月创建 VIS 池Skype for Business Server联机说明](../../deploy/deploy-video-interop-server/create-a-vis-pool.md)。
   
 Deploy [the VIS server role in Skype for Business Server 2015](../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)中联机介绍了使用 Windows PowerShell 在服务器上分配视频互操作服务器角色所需的步骤
   
-有关使用新视频互操作服务器Windows PowerShell在[2015 年 10](../../deploy/deploy-video-interop-server/configure-the-vis.md)月配置视频互操作服务器中联机Skype for Business Server介绍。
+有关使用新视频互操作服务器的配置步骤Windows PowerShell在 [2015 年 10](../../deploy/deploy-video-interop-server/configure-the-vis.md) 月配置视频互操作服务器中联机Skype for Business Server介绍。
   
  在 Configure [CUCM for Interoperation with Skype for Business Server 2015](../../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md)中联机介绍了需要在 Cisco GUI 中设置用于与 VIS 互操作的视频网关的设置。
   

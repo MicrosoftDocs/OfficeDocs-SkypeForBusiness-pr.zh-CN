@@ -1,8 +1,8 @@
 ---
 title: Subnet 表
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 76f5c995-96c8-4aa3-bc30-1d74991d7c42
 description: Subnet 表是一个支持表。每条记录均表示网络配置设置中定义的一个子网。
-ms.openlocfilehash: abbc1317c6a0db1da0b52e5b0eef56abbfad06f5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 92e582332e0e7c20c443a57c4ba0cc6abbb66cad
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834840"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394594"
 ---
 # <a name="subnet-table"></a>Subnet 表
  
@@ -28,7 +28,7 @@ Subnet 表是一个支持表。每条记录均表示网络配置设置中定义�
 |:-----|:-----|:-----|:-----|
 |**SubnetIP** <br/> |int  <br/> |主、外  <br/> |子网 IP 的整数表示形式。  <br/> |
 |**SubnetMask** <br/> |int  <br/> ||子网掩码。  <br/> |
-|**UserSiteKey** <br/> |int  <br/> |Foreign  <br/> |引用自 [UserSite 表](usersite.md)。  <br/> |
+|**UserSiteKey** <br/> |int  <br/> |Foreign  <br/> |从 [UserSite 表中引用](usersite.md)。  <br/> |
 |**SubnetDescription** <br/> |nvarchar (512)   <br/> ||子网的说明。  <br/> |
    
 

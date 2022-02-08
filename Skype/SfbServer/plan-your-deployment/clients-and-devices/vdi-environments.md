@@ -1,7 +1,7 @@
 ---
 title: 规划Skype for Business VDI 环境中使用
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: krishra
 manager: serdars
 ms.date: 1/9/2018
@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ea68414b-bb7e-483a-b731-b6b5a44372b1
 description: 本主题讨论在连接到远程虚拟桌面Skype for Business使用远程桌面的规划注意事项。
-ms.openlocfilehash: 63dbdb11abf6188cb11d5f96b54ddeb541f1b9fe
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 052c8b8252846204020ccb29a4d28d6150027963
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864719"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395074"
 ---
 # <a name="plan-for-skype-for-business-in-vdi-environments"></a>规划Skype for Business VDI 环境中使用
  
 本主题讨论在连接到远程虚拟桌面Skype for Business使用远程桌面的规划注意事项。 
   
-虚拟桌面基础结构 (VDI) 环境用于一些安全与合规性问题特别敏感的组织。 他们的用户使用远程桌面服务或类似的远程连接在虚拟桌面上使用其所有桌面应用程序和文件进行工作。 在Skype for Business连接上使用完整的音频和视频，这需要在虚拟桌面上的客户端上执行大量的音频和视频处理负载。 提供了其他 VDI 插件软件，用于将处理卸载到最终用户的本地计算机，并减少虚拟桌面上的负载。
+虚拟桌面基础结构 (VDI) 环境用于一些安全与合规性问题特别敏感的组织。 他们的用户使用远程桌面服务或类似的远程连接在虚拟桌面上使用其所有桌面应用程序和文件进行工作。 在Skype for Business连接上使用音频和视频时，需要在虚拟桌面上的客户端上执行大量音频和视频处理。 提供了其他 VDI 插件软件，用于将处理卸载到最终用户的本地计算机，并减少虚拟桌面上的负载。
   
 有三种解决方案可供 Microsoft、Citrix 或 VMWare 提供的 VDI 插件组件使用。 对于新部署，Microsoft 建议使用 Citrix HDX RealTime Optimization Pack 解决方案或 VMWare Horizon Virtualization Pack。 原始 Lync VDI 插件在其剩余生命周期内仍受支持。
   
@@ -43,9 +43,9 @@ ms.locfileid: "60864719"
 ## <a name="citrix-hdx-realtime-optimization-pack"></a>Citrix HDX RealTime Optimization Pack
 <a name="Citrix_RT"> </a>
 
-Citrix 的 VDI 环境插件 (XenApp 和 XenDesktop) 的一项功能与 Lync 2013 和 Skype for Business 2015 和 2016 (完整客户端（使用任意单击即可运行安装程序）或安装在虚拟桌面上的 2017 年 1 月 PU) 客户端之后发布的 MSI 安装程序兼容。 其整体功能基于 Microsoft Lync VDI 插件，但它适用于更广泛的客户端操作系统，包括 Windows 10、Macintosh 和 Linux。
+Citrix 的 VDI 环境插件 (XenApp 和 XenDesktop) 的一项功能与 Lync 2013 和 Skype for Business 2015 和 2016 (完整客户端（使用任意单击即可运行安装程序）或安装在虚拟桌面上的 2017 年 1 月 PU) 客户端后发布的 MSI 安装程序兼容。 其整体功能基于 Microsoft Lync VDI 插件，但它适用于更广泛的客户端操作系统，包括 Windows 10、Macintosh 和 Linux。
   
-可在 Citrix 网站上找到功能和支持技术的完整列表，网址为将[Microsoft Skype for Business XenApp 和 XenDesktop Users。](https://www.citrix.com/content/dam/citrix/en_us/documents/products-solutions/delivering-microsoft-lync-to-xenapp-and-xendesktop-users.pdf)
+可在 Citrix 网站上找到功能和支持技术的完整列表，网址为将 [Microsoft Skype for Business XenApp 和 XenDesktop 用户](https://www.citrix.com/content/dam/citrix/en_us/documents/products-solutions/delivering-microsoft-lync-to-xenapp-and-xendesktop-users.pdf)。
   
 有关详细信息，请查看以下链接：
   
@@ -62,7 +62,7 @@ VMWare 的 VDI 环境解决方案与安装在虚拟桌面上的 Skype for Busine
   
 有关功能和支持的技术的完整讨论，可在 VMWare 网站上找到以下链接：
   
-- [VMware Horizon 7.4 Horizon &amp; Client 4.7 中的新增功能](https://blogs.vmware.com/euc/2018/01/vmware-horizon-7-4-horizon-client-4-7-whats-new.mdl)
+- [VMware Horizon 7.4 &amp; Horizon Client 4.7 中的新增功能](https://blogs.vmware.com/euc/2018/01/vmware-horizon-7-4-horizon-client-4-7-whats-new.mdl)
     
 - [适用于 Skype for Business 的 Horizon Virtualization Pack](https://www.vmware.com/products/horizon/skype-for-business.mdl)
     
@@ -73,7 +73,7 @@ VMWare 的 VDI 环境解决方案与安装在虚拟桌面上的 Skype for Busine
 
 使用 Microsoft Lync VDI 插件解决方案，用户必须位于 Windows 计算机或瘦客户端上，并且安装了 Microsoft 的 Lync VDI 插件来处理来自虚拟桌面上的客户端的音频/视频流。 用户将：
   
-1. 连接将音频/视频设备 (耳机或相机) 本地计算机。
+1. 连接音频/视频设备 (耳机或) 设备连接到本地计算机。
     
 2. 连接 Lync 2013 或 Skype for Business 2015 客户端的远程虚拟桌面。
     
@@ -95,7 +95,7 @@ Microsoft 的 Lync VDI 插件仅在某些 Windows 操作系统上受支持，并
     
 - Citrix 知识中心文章 [CTX138408](https://support.citrix.com/article/CTX138408)
     
-Microsoft Lync [VDI 插件位于 Microsoft Lync VDI 2013 插件 (32 位) ](https://www.microsoft.com/download/details.aspx?id=35457)或 Microsoft Lync [VDI 2013 插件 (64 位) 。 ](https://www.microsoft.com/download/details.aspx?id=35454) 尽管该名称存在，Skype for Business 2015 客户端支持此插件。
+Microsoft Lync [VDI 插件位于 Microsoft Lync VDI 2013 插件 (32 位) ](https://www.microsoft.com/download/details.aspx?id=35457) 或 [Microsoft Lync VDI 2013 插件 (64 位) ](https://www.microsoft.com/download/details.aspx?id=35454)。 尽管此插件的名称Skype for Business 2015 客户端支持。
   
 ### <a name="supported-virtualization-technologies-and-known-limitations"></a>支持的虚拟化技术和已知限制
 <a name="Supported_virt"> </a>
@@ -106,11 +106,11 @@ Lync VDI 插件允许对支持的虚拟化技术进行音频和视频呼叫。 �
 
 Lync VDI 插件支持个人虚拟桌面方案中的完整桌面远程会话，但在远程桌面会话方案中则不支持。 这些方案可以描述如下：
   
-- **支持：虚拟桌面或虚拟桌面基础结构 (VDI) 。** 在此方案中，每个用户登录到可自定义的虚拟桌面，并能够将文件保存在桌面上跨会话保留。 Microsoft 远程桌面Services 和 VMware Horizon View 是经过测试以与 Skype for Business 2015 一同使用的示例实现。 正在进行验证的其他实现包括 Citrix XenDesktop。 有关供应商特定的 VDI 环境和经 Microsoft 测试的客户端硬件的信息，请参阅适用于 [Microsoft Lync 的](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md)基础结构。
+- **支持：VDI (个性化虚拟桌面) 。** 在此方案中，每个用户登录到可自定义的虚拟桌面，并能够将文件保存在桌面上跨会话保留。 Microsoft 远程桌面 Services 和 VMware 水平视图是经过测试以与 Skype for Business 2015 一同使用的示例实现。 正在进行验证的其他实现包括 Citrix XenDesktop。 有关由 Microsoft 测试的供应商特定的 VDI 环境和客户端硬件的信息，请参阅适用于 [Microsoft Lync 的基础结构](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md)。
     
 - **不支持：远程桌面会话。** 在此方案中，每个用户登录到无法自定义的通用虚拟桌面会话。 示例包括Microsoft 远程桌面与 Citrix Receiver (RDSH) 和 Citrix XenApp 的会话。
     
-Lync VDI 插件不支持其他虚拟化技术，如应用程序虚拟化，它允许使用应用程序，而无需在本地安装完整应用程序。 示例实现包括 Citrix XenApp 和 Microsoft Application Virtualization (App-V) 。 应用程序流、应用程序远程处理和混合虚拟化 (例如，不支持在完整桌面远程处理) 应用程序远程处理。
+Lync VDI 插件不支持其他虚拟化技术，如应用程序虚拟化，它允许使用应用程序，而无需在本地安装完整应用程序。 示例实现包括 Citrix XenApp 和 Microsoft Application Virtualization (App-V) 。 应用程序流、应用程序远程处理和混合虚拟化模式 (例如，不支持在完整桌面远程处理) 应用程序远程处理。
   
 Lync VDI 插件设计为使用独立于平台的 API，称为动态虚拟通道 (DPC) 。 对于未明确支持的方案，请参阅 VDI 解决方案提供商的支持声明。
   
@@ -120,7 +120,7 @@ Lync VDI 插件设计为使用独立于平台的 API，称为动态虚拟通道 
 在 VDI 环境中，虚拟机和用户的本地计算机必须满足本节中概述的要求。
   
 > [!NOTE]
->  虚拟化解决方案提供商可以提供有关如何安装和部署其环境的详细信息。 有关部署基于 Hyper-V 和远程桌面服务的虚拟化环境的常规信息，请参阅 Microsoft 库中的以下文章[：Hyper-V](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753637(v=ws.10)) [、Windows Server 2008 R2](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd736539(v=ws.10))中的远程桌面服务 
+>  虚拟化解决方案提供商可以提供有关如何安装和部署其环境的详细信息。 有关部署基于 Hyper-V 和远程桌面服务的虚拟化环境的常规信息，请参阅 Microsoft 库中的以下文章：[Hyper-V](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753637(v=ws.10))，[Windows Server 2008 R2 中的远程](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd736539(v=ws.10))桌面服务 
   
 虚拟机必须配置有 Windows 8、Windows 7 或 Windows Server 2008 R2 以及最新的 Service Pack。
   
@@ -128,15 +128,15 @@ Lync VDI 插件设计为使用独立于平台的 API，称为动态虚拟通道 
   
 - 用户必须位于 Skype for Business Server Lync Server 2013 上。
     
-- 本地计算机必须运行嵌入式 standard 7 sp1 Windows SP1 Windows 7 sp1 或 Windows 8。
+- 本地计算机必须运行 Windows Sp1 的嵌入式 Standard 7、Windows 7 SP1 或 Windows 8。
     
 - 如果使用的是远程桌面服务，请选择 32 位或 64 位 Lync VDI 插件以匹配本地计算机的操作系统。 本地计算机和虚拟机都不需要具有 32 位或 64 位操作系统。 如果你使用的是其他虚拟化解决方案或平台，请参考提供商的要求。
     
 - 本地计算机必须运行 [最新版本的远程桌面客户端](/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients)。 从 Microsoft 安装远程桌面服务客户端的最新更新，或安装虚拟化解决方案提供商提供的最新远程桌面客户端软件。 
     
-- 在本地计算机上，必须配置远程桌面客户端设置，以便在本地计算机上播放音频并禁用远程录制。 若要为远程桌面连接配置这些设置Windows，请参阅下一节"配置远程桌面连接设置"。 
+- 在本地计算机上，必须配置远程桌面客户端设置，以便在本地计算机上播放音频并禁用远程录制。 若要为远程桌面连接配置这些设置Windows请参阅下一节"配置远程桌面连接设置"。 
     
-Microsoft Lync [VDI 插件位于 Microsoft Lync VDI 2013 插件 (32 位) ](https://www.microsoft.com/download/details.aspx?id=35457)或 Microsoft Lync [VDI 2013 插件 (64 位) 。 ](https://www.microsoft.com/download/details.aspx?id=35454)
+Microsoft Lync [VDI 插件位于 Microsoft Lync VDI 2013 插件 (32 位) ](https://www.microsoft.com/download/details.aspx?id=35457) 或 [Microsoft Lync VDI 2013 插件 (64 位) ](https://www.microsoft.com/download/details.aspx?id=35454)。
   
 #### <a name="known-feature-limitations"></a>已知功能限制
 <a name="VDI_prereq"> </a>
@@ -155,7 +155,7 @@ Microsoft Lync [VDI 插件位于 Microsoft Lync VDI 2013 插件 (32 位) ](https
     
 - 匿名加入 (，即Skype for Business与贵组织联盟的组织主持) 。
     
-- 将 Lync VDI 插件与 Lync 电话 Edition 设备一起使用。
+- 将 Lync VDI 插件与 Lync 电话 Edition 设备一同使用。
     
 - 发生网络中断时的呼叫连续性。
     

@@ -1,8 +1,8 @@
 ---
 title: 添加信任的应用程序池 FQDN
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 5d065268-a694-49a1-b285-9be80a09995c
 description: 要定义受信任应用程序池的完全限定的域名 (FQDN)，请指定以下内容：
-ms.openlocfilehash: 9ad9797dd49af2c5a267bb8e0c581b3a5bcb97ec
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: afd249b5ba7f61ad70e43a58907a6a7bcfac6bd4
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844425"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395604"
 ---
 # <a name="add-trusted-application-pool-fqdn"></a>添加信任的应用程序池 FQDN
  

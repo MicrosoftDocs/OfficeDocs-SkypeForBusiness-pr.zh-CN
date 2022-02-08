@@ -5,8 +5,8 @@ ms:assetid: f10c19e6-b6f9-4d26-9923-0165f36e4af8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ619192(v=OCS.15)
 ms:contentKeyID: 49733872
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 如何启用和禁用匿名用户访问Skype for Business Server。
-ms.openlocfilehash: 8010261ad63810ff4227b3cf38983067f80c6f7c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 382bc8bcbfce478677264a6a6da2e791a05b945e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848455"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395324"
 ---
 # <a name="enable-or-disable-anonymous-user-access-in-skype-for-business-server"></a>启用或禁用匿名用户访问Skype for Business Server
 

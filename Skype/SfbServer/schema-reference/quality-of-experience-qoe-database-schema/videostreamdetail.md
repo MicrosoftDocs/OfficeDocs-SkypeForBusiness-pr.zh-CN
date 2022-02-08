@@ -1,8 +1,8 @@
 ---
 title: VideoStreamDetail 视图
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ec8c45e1-307d-40ec-a75e-6083306105f2
 description: VideoStreamDetail 视图存储有关每个数据库中视频流的信息。 此视图在 Microsoft Lync Server 2013 中引入。
-ms.openlocfilehash: 38f97d5cd97d6a92961a377129cb533fd96ccd6d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0e34791bd3081497c4c8501dbd01d2e9d39503f1
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863229"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393534"
 ---
 # <a name="videostreamdetail-view"></a>VideoStreamDetail 视图
  
@@ -26,9 +26,9 @@ VideoStreamDetail 视图存储有关每个数据库中视频流的信息。 此�
   
 |**列**|**数据类型**|**说明**|
 |:-----|:-----|:-----|
-|SessionTime  <br/> |datetime  <br/> |从 [MediaLine 表引用](medialine-0.md)。  <br/> |
-|SessionSeq  <br/> |int  <br/> |从 [MediaLine 表引用](medialine-0.md)。  <br/> |
-|MediaLineLabel  <br/> |tinyint  <br/> |从 [MediaLine 表引用](medialine-0.md)。  <br/> |
+|SessionTime  <br/> |datetime  <br/> |从 [MediaLine 表中引用](medialine-0.md)。  <br/> |
+|SessionSeq  <br/> |int  <br/> |从 [MediaLine 表中引用](medialine-0.md)。  <br/> |
+|MediaLineLabel  <br/> |tinyint  <br/> |从 [MediaLine 表中引用](medialine-0.md)。  <br/> |
 |StreamId  <br/> |int  <br/> |媒体行中的唯一 ID。  <br/> |
 |StartTime  <br/> |datetime  <br/> |会话的开始时间。  <br/> |
 |EndTime  <br/> |datetime  <br/> |会话的结束时间。  <br/> |
@@ -39,13 +39,13 @@ VideoStreamDetail 视图存储有关每个数据库中视频流的信息。 此�
 |被叫方  <br/> |nvarchar (450)   <br/> |被叫方 URI。  <br/> |
 |CallerUserAgent  <br/> |nvarchar (256)   <br/> |呼叫者的用户代理字符串。  <br/> |
 |CallerUserAgentType  <br/> |smallint  <br/> |呼叫者的用户代理的类型。 有关详细信息， [请参阅 UserAgent](useragent.md) 表。 <br/> |
-|CallerUserAgentCategory  <br/> |nvarchar (64)   <br/> |呼叫者的用户代理的类别。 有关详细信息，请参阅[QoE (UserAgentDef) 。](useragentdef-qoe.md) <br/> |
+|CallerUserAgentCategory  <br/> |nvarchar (64)   <br/> |呼叫者的用户代理的类别。 有关详细信息，请参阅 [QoE (UserAgentDef) ](useragentdef-qoe.md) 。 <br/> |
 |CalleeUserAgent  <br/> |nvarchar (256)   <br/> |被叫方的用户代理字符串。  <br/> |
 |CalleeUserAgentType  <br/> |smallint  <br/> |被叫方的用户代理的类型。 有关信息 [，请参阅 UserAgent](useragent.md) 表。 <br/> |
-|CalleeUserAgentCategory  <br/> |nvarchar (64)   <br/> |被叫方的用户代理的类别。 有关信息，请参阅 [QoE (UserAgentDef) ](useragentdef-qoe.md) 表。 <br/> |
+|CalleeUserAgentCategory  <br/> |nvarchar (64)   <br/> |被叫方的用户代理的类别。 有关信息，请参阅 [QoE (UserAgentDef) ](useragentdef-qoe.md) 。 <br/> |
 |CallerEndpoint  <br/> |nvarchar (256)   <br/> |呼叫者的终结点名称。  <br/> |
 |CalleeEndpoint  <br/> |nvarchar (256)   <br/> |被叫方终结点名称。  <br/> |
-|CallerOS  <br/> |nvarchar (128)   <br/> |操作系统 (操作系统) 终结点的操作系统。  <br/> |
+|CallerOS  <br/> |nvarchar (128)   <br/> |操作系统 (操作系统) 终结点的终结点。  <br/> |
 |CalleeOS  <br/> |nvarchar (128)   <br/> |操作系统 (被) 终结点的操作系统。  <br/> |
 |CallerCPUName  <br/> |nvarchar (128)   <br/> |呼叫者的终结点的 CPU 名称。  <br/> |
 |CalleeCPUName  <br/> |nvarchar (128)   <br/> |被叫方终结点的 CPU 名称。  <br/> |
@@ -97,7 +97,7 @@ VideoStreamDetail 视图存储有关每个数据库中视频流的信息。 此�
 |PacketLossRateMax  <br/> |decimal (5，4)   <br/> |呼叫期间观测到的数据包丢失最大值。  <br/> |
 |PacketUtilization  <br/> |int  <br/> |视频流的数据包计数（实时传输协议，RTP）。  <br/> |
 |BandwidthEst  <br/> |int  <br/> |音频流的带宽预估。  <br/> |
-|PayloadDescription  <br/> |int  <br/> |用于呼叫的音频编解码器，从 [PayloadDescription](payloaddescription.md)表引用。  <br/> |
+|PayloadDescription  <br/> |int  <br/> |用于呼叫的音频编解码器，从 [PayloadDescription 表中引用](payloaddescription.md)。  <br/> |
 |VideoResolution  <br/> |char (9)   <br/> |视频的分辨率（像素宽乘以像素高）。报告为字符串。  <br/> |
 |VideoBitRateAvg  <br/> |int  <br/> |视频流的平均比特率。  <br/> |
 |InboundVideoFrameRateAvg  <br/> |decimal (9，4)   <br/> |接收的视频帧速率。  <br/> |

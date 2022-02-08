@@ -5,8 +5,8 @@ ms:assetid: 91fd036b-b1af-47cf-b1cf-0aa0a783c2aa
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182550(v=OCS.15)
 ms:contentKeyID: 48184857
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 在部署边缘服务器并为组织启用联盟时，应该已经指定了是否支持自动发现联盟伙伴域。
-ms.openlocfilehash: 4e425566fb0b8aa463c93f0940582487dabaae3d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0742c8ecb2288ca91d8e7f72fc439f7347a7f55e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830006"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395314"
 ---
 # <a name="enable-or-disable-discovery-of-federation-partners-in-skype-for-business-server"></a>启用或禁用联盟伙伴在 Skype for Business Server
 
@@ -43,12 +43,12 @@ ms.locfileid: "60830006"
 
 6.  单击“提交”。
 
-若要使联盟用户能够与 Skype for Business Server 部署中的用户进行协作，还必须至少配置一个外部访问策略以支持联盟用户访问。 有关详细信息，请参阅启用 [或禁用联盟和公共 IM 连接](enable-or-disable-federation-and-public-im-connectivity.md)。 有关控制对特定联盟域的访问的详细信息，请参阅管理 [SIP 联盟](../sip-domains/manage-sip-federated-domains-for-your-organization.md) 域和管理 [SIP 联盟提供程序](../sip-providers/manage-sip-federated-providers-for-your-organization.md)。
+若要使联盟用户能够与 Skype for Business Server 部署中的用户进行协作，还必须至少配置一个外部访问策略以支持联盟用户访问。 有关详细信息，请参阅启用 [或禁用联盟和公共 IM 连接](enable-or-disable-federation-and-public-im-connectivity.md)。 有关控制对特定联盟域的访问的详细信息，请参阅管理 [SIP 联盟](../sip-domains/manage-sip-federated-domains-for-your-organization.md) 域 [和管理 SIP 联盟提供程序](../sip-providers/manage-sip-federated-providers-for-your-organization.md)。
 
 
 ## <a name="enabling-or-disabling-discovery-of-federation-partners-by-using-windows-powershell-cmdlets"></a>使用 cmdlet 启用或禁用联盟伙伴Windows PowerShell发现
 
-可以使用 Windows PowerShell 和 Set-CsAccessEdgeConfiguration cmdlet 管理联盟伙伴的发现。 可以从命令行管理程序或 Skype for Business Server远程会话运行此 cmdlet Windows PowerShell。 
+可以使用 Windows PowerShell 和 Set-CsAccessEdgeConfiguration cmdlet 管理联盟伙伴的发现。 可以从命令行管理程序或 Skype for Business Server远程会话中运行此 cmdlet Windows PowerShell。 
 
 
 ## <a name="to-enable-discovery-of-federation-partners"></a>启用联盟伙伴发现

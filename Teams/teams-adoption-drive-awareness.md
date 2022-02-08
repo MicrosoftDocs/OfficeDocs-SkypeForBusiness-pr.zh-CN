@@ -1,7 +1,7 @@
 ---
 title: 提高认识度并实施培训
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 11/09/2018
 audience: Admin
@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e1832ca945edab2560a5a604fe85c01c0c9f53f0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: faa91273932f4896f7ac49add0b76f5288f85870
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842524"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394464"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>为 Microsoft Teams 推动认知并开展培训
 
-认知和培训是总体采用策略的市场营销和通信部分。 这将确保你的员工了解 Microsoft Teams 的新功能及其基础Microsoft 365或Office 365应用。
+认知和培训是总体采用策略的市场营销和通信部分。 这将确保员工了解服务应用的新功能Microsoft Teams其基础Microsoft 365或Office 365应用。
    
 对于初始试点和最终公司范围内的部署，内部沟通都应该是一个优先事项。 它们应包括：
 
@@ -45,11 +45,11 @@ ms.locfileid: "60842524"
 
 完成初始试点后，可以扩展上述工作，以覆盖整个组织。 根据你的大小，这可能需要一些时间，并按区域、用户配置文件或组织分阶段处理。 在此大规模推出期间，鼓励组织中通信者的参与。 我们建议这些人员尽早参与，并且通常使用可用的采用材料或设计自己的材料。
 
-如果您的公司有一个中央 Intranet 门户用于新闻、信息或支持，您可以使用它作为中心来了解此推出的信息。提供广泛可用的自助信息、培训和书面指导可让用户快速上手。 一旦可用，许多用户Teams就会跳入，我们鼓励这样做。 我们还知道，每个人都以不同方式学习;中心信息门户可以支持组织内的所有学习风格。
+如果您的公司有一个中央 Intranet 门户用于新闻、信息或支持，您可以使用它作为中心来了解此推出的信息。提供广泛可用的自助信息、培训和书面指导可让用户快速上手。 一旦可用，许多Teams就会跳入，我们鼓励这样做。 我们还知道，每个人都以不同方式学习;中心信息门户可以支持组织内的所有学习风格。
 
 ## <a name="implement-end-user-training"></a>实施最终用户培训
 
-使用资源在用户开始使用服务和其他服务Microsoft Teams时Microsoft 365最终用户Office 365培训。 请访问我们的资源页了解更多信息：
+在用户开始使用其他服务和其他服务时，Microsoft Teams资源Microsoft 365最终用户Office 365培训。 请访问我们的资源页了解更多信息：
 
 - [教师引导型最终用户培训Teams](instructor-led-training-teams-landing-page.yml)
 - [管理员培训Teams](itadmin-readiness.md)

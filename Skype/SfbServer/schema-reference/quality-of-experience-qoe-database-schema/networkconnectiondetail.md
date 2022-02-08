@@ -1,8 +1,8 @@
 ---
 title: NetworkConnectionDetail 表
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b48cc9a6-5232-48b5-bd20-53b68229336b
 description: NetworkConnectionDetail 表可将网络连接类型映射到在体验质量数据库中的其他位置使用的网络连接标识符。 此表在 Microsoft Lync Server 2013 中引入。
-ms.openlocfilehash: 6d39d9e8432a20102d42cea649a51596ce2c1762
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d41b89ce85ee365d883c2224f2da29fca3cab926
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833186"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394704"
 ---
 # <a name="networkconnectiondetail-table"></a>NetworkConnectionDetail 表
  

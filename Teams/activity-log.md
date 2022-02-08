@@ -1,7 +1,7 @@
 ---
 title: 在管理中心的活动日志中查看Microsoft Teams分配
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: jastark
 manager: serdars
 ms.topic: article
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c48e6b8ea08419b96384be5e19ba1a7d5275dea
-ms.sourcegitcommit: 6da1531dda6a0a3eecdca40e682783cc81c0d3e0
+ms.openlocfilehash: ed7903e0018d30882fa27c63941b5d03a27fdaf3
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60785065"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393524"
 ---
 # <a name="view-your-policy-assignments-in-the-activity-log"></a>在活动日志中查看策略分配
 
@@ -35,15 +35,15 @@ ms.locfileid: "60785065"
 
 在活动日志中查看策略分配：
 
-1. 在管理中心的左侧导航Microsoft Teams，转到"主页 **"，然后在**"活动日志"**下选择"** 查看 **详细信息"。**
+1. 在管理中心的左侧导航Microsoft Teams，转到"主页"，然后在"活动日志"下选择"查看 **详细信息"**。
 2. 可以查看所有策略分配或按状态筛选列表，以只显示未启动、正在进行或 **已完成的分配**。  你将看到有关每个作业的以下信息：
     - **名称**：策略分配的名称。 单击该链接可查看更多详细信息。 这包括策略分配到的用户数，以及已完成、进行中和未启动的分配数。 还将看到批处理中的用户列表，以及每个用户的状态和结果。 下面是一个示例：
 
         ![的屏幕截图。](media/activity-log-policy-assignment-detail.png)
 
-    - **已提交**：提交策略分配的日期和时间。
+    - **已** 提交：提交策略分配的日期和时间。
     - **完成时间**：完成策略分配的日期和时间。
-    - **影响：** 批中的用户数。
+    - **影响**：批中的用户数。
     - **总体状态**：策略分配的状态。
 
 > [!NOTE]

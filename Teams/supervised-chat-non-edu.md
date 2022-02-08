@@ -1,7 +1,7 @@
 ---
 title: 对非教育租户使用监督式聊天
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: angch
 ms.topic: article
@@ -15,12 +15,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解非教育性租户在会议中进行Microsoft Teams聊天。
-ms.openlocfilehash: 2aabfee2f8267e786acf293d612066af2db46f25
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 8ba639953485d03e62d7f75f387f9154f65f9599
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848105"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394484"
 ---
 # <a name="supervised-chats-for-non-educational-tenants"></a>非教育租户的监督式聊天
 
@@ -48,13 +48,13 @@ ms.locfileid: "60848105"
 
 - 受限权限：此角色非常适合需要监督的用户。 他们只能与具有完全权限的用户开始聊天。 他们可以参与具有完全权限的用户邀请他们参与的任何对话。 在联合聊天案例中，只有具有完全权限的用户（来自受限用户的租户）才能将受限用户添加到聊天中。
 
-若要设置用户的聊天权限角色，请使用管理员门户中消息策略选项内找到的聊天权限Teams策略。 可以使用 PowerShell 通过 ChatPermissionRole 策略定义角色，其值为 Full、Limited 或 Restricted。 此策略位于 [CsTeamsMessagingPolicy 下](/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)。
+若要设置用户的聊天权限角色，请使用管理门户中消息策略选项内找到的聊天权限Teams策略。 可以使用 PowerShell 通过 ChatPermissionRole 策略定义角色，其值为 Full、Limited 或 Restricted。 此策略位于 [CsTeamsMessagingPolicy 下](/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)。
 
 无法将角色分配给租户中的来宾。 为来宾分配受限角色。
 
 ## <a name="allow-supervised-chat"></a>允许监督聊天
 
-默认情况下，你的租户禁用了监督聊天。 为用户设置聊天权限角色后，可以通过访问组织范围的设置 Teams 设置 将基于角色的聊天权限策略设置为"开  >  **"，** 在租户中启用监督式 **聊天**。 也可将 AllowRoleBasedChatPermissions 设置为 True，使用 PowerShell 启用监督式聊天。 此 cmdlet 位于 [CsTeamsClientConfiguration 下](/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)。
+默认情况下，你的租户禁用了监督聊天。 为用户Teams 设置设置 > 聊天权限角色后，可以通过访问"组织范围设置"，将"基于角色的聊天权限策略"设置为"开 **"，在** 租户中启用监督式 **聊天。** 也可将 AllowRoleBasedChatPermissions 设置为 True，使用 PowerShell 启用监督式聊天。 此 cmdlet 位于 [CsTeamsClientConfiguration 下](/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)。
 
 必须为租户中的所有用户启用监督聊天，并且不能仅为部分用户启用。
 

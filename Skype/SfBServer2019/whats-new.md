@@ -1,8 +1,8 @@
 ---
 title: 2019 年 Skype for Business Server 中的新增|功能
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: overview
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 摘要：这些功能是 Skype for Business Server 2019 中的新增功能。
-ms.openlocfilehash: 2acfaef02b140d8e52fce43e0fef9125378047ea
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 79e6ef88f327b43fd9049c2e1a3ce1492fc9b8ee
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858019"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393445"
 ---
 # <a name="whats-in-skype-for-business-server-2019"></a>2019 年 Skype for Business Server 中有什么功能
 
@@ -31,14 +31,14 @@ Skype for Business Server 2019 中的新功能包括：
 
 ## <a name="unified-messaging-services-cloud-voicemail"></a>统一消息服务：云语音邮件
 
-ExchangeSkype for Business Server 将 Skype for Business 2019 与 Exchange 2013 或 Exchange 2016 集成后，UM 在 Exchange 2019 中仍然可用。 由于 2019 年 Exchange 支持的变化，EXCHANGE UM 集成的重要性正在减少，以支持 云语音邮件 和云自动助理功能。  
+Exchange将 Skype for Business 2019 与 Exchange 2013 或 Exchange 2016 集成后，UM 在 Skype for Business Server 2019 中仍然可用。 由于 2019 年 Exchange 支持的变化，EXCHANGE UM 集成的重要性正在减少，以支持 云语音邮件 和云自动助理功能。  
 
-云语音邮件使你的所有 Skype for Business 2019&#x2014;无论是本地用户还是联机&#x2014;用户都有权访问 Microsoft 云中的同一语音邮件服务。 云语音邮件为本地用户和联机用户提供以下好处：
+云语音邮件使你的所有 Skype for Business 2019 用户&#x2014;无论他们位于本地还是联机&#x2014;都有权访问 Microsoft 云中的同一语音邮件服务。 云语音邮件为本地用户和联机用户提供以下好处：
 
 - 使用 Skype for Business Online、Teams 或 Outlook 客户端访问 Exchange 邮箱中的语音邮件
 - 能够使用基于 Web 的门户管理其语音邮件选项
 
-有关详细信息[，云语音邮件 Plan 云语音邮件 service](../sfbhybrid/hybrid/plan-cloud-voicemail.md)和[Plan for Skype for Business Server and Exchange Server migration。](../sfbhybrid/hybrid/plan-um-migration.md)
+有关详细信息[，请参阅规划 云语音邮件 服务和](../sfbhybrid/hybrid/plan-cloud-voicemail.md)规划 [Skype for Business Server Exchange Server 迁移](../sfbhybrid/hybrid/plan-um-migration.md)。
   
 ## <a name="call-monitoring-call-data-connector"></a>呼叫监控：呼叫数据连接器
 
@@ -54,4 +54,4 @@ ExchangeSkype for Business Server 将 Skype for Business 2019 与 Exchange 2013 
 
 ### <a name="see-also"></a>另请参阅
 
-[自 2019 年 10 Skype for Business Server弃用功能](deprecated.md)
+[2019 年 10 Skype for Business Server弃用功能](deprecated.md)

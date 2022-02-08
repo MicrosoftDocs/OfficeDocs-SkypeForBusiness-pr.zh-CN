@@ -1,8 +1,8 @@
 ---
 title: VideoStream 表
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 4275ede7-5467-4a97-b8c8-a4b00917bf32
 description: 每条记录代表一个视频流。 一个视频媒体行通常包含两个视频流。
-ms.openlocfilehash: 5e1b566db7ee3f79219835055d6e617beeea6da6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b6a67f6bc6c968e997882fb6406e7dc43d1ba7c4
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863249"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393564"
 ---
 # <a name="videostream-table"></a>VideoStream 表
  
@@ -26,9 +26,9 @@ ms.locfileid: "60863249"
   
 |**列**|**数据类型**|**键/索引**|**详细信息**|
 |:-----|:-----|:-----|:-----|
-|**ConferenceDateTime** <br/> |datetime  <br/> |主  <br/> |从 [MediaLine 表引用](medialine-0.md)。  <br/> |
-|**SessionSeq** <br/> |int  <br/> |主  <br/> |R 从 [MediaLine 表引用](medialine-0.md)。  <br/> |
-|**MediaLineLabel** <br/> |tinyint  <br/> |主  <br/> |从 [MediaLine 表引用](medialine-0.md)。  <br/> |
+|**ConferenceDateTime** <br/> |datetime  <br/> |主  <br/> |从 [MediaLine 表中引用](medialine-0.md)。  <br/> |
+|**SessionSeq** <br/> |int  <br/> |主  <br/> |R 从 [MediaLine 表中引用](medialine-0.md)。  <br/> |
+|**MediaLineLabel** <br/> |tinyint  <br/> |主  <br/> |从 [MediaLine 表中引用](medialine-0.md)。  <br/> |
 |**StreamID** <br/> |int  <br/> |主  <br/> |媒体行中的唯一 ID。  <br/> |
 |**VideoPayloadDescription** <br/> |smallint  <br/> |Foreign、Primary  <br/> |有效负载描述。 有关详细信息， [请参阅 PayloadDescription](payloaddescription.md) 表。 <br/> |
 |**JitterInterArrival** <br/> |int  <br/> | <br/> |实时控制协议 (RTCP) 统计信息中的平均网络抖动。  <br/> |
@@ -47,7 +47,7 @@ ms.locfileid: "60863249"
 |**VideoFrameLossRate** <br/> |decimal (9，4)   <br/> | <br/> |丢失的总视频帧百分比。  <br/> |
 |**VideoFEC** <br/> |bit  <br/> | <br/> |不可用。  <br/> |
 |**VideoLocalFrameLossPercentageAvg** <br/> |decimal (9，4)   <br/> ||丢失的总视频帧百分比。  <br/> |
-|**CIFQualityRatio** <br/> |tinyint  <br/> ||使用通用交换格式的呼叫在 CIF 中 (的) 百分比。  <br/> |
+|**CIFQualityRatio** <br/> |tinyint  <br/> ||采用通用交换格式的呼叫的百分比 (CIF) 分辨率。  <br/> |
 |**VGAQualityRatio** <br/> |tinyint  <br/> ||使用 VGA 分辨率的呼叫的百分比。  <br/> |
 |**HD720QualityRatio** <br/> |tinyint  <br/> ||分辨率为 HD720 的呼叫的百分比。  <br/> |
 |**NoneDropRatio** <br/> |tinyint  <br/> ||无帧拖放的呼叫持续时间百分比。  <br/> |
@@ -92,12 +92,12 @@ ms.locfileid: "60863249"
 |**RecvBitRateAverage** <br/> |int  <br/> ||接收器的平均比特率。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
 |**RecvVideoStreamsMax** <br/> |int  <br/> ||接收器的最大视频流。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
 |**RecvVideoStreamsMin** <br/> |int  <br/> ||接收器的最低视频流。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
-|**RecvVideoStreamsMode** <br/> |int  <br/> ||视频模式 (，例如，用于接收器) 库或单个流。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
+|**RecvVideoStreamsMode** <br/> |int  <br/> ||视频模式 (例如，接收器的库或) 流。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
 |**VideoPostFECPLR** <br/> |float  <br/> ||应用前向错误更正后的数据包丢失率。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
 |**DynamicCapabilityPercent** <br/> |float  <br/> ||动态功能标志处于活动状态的时间百分比。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
 |**ResolutionMin** <br/> |char (9)   <br/> ||呼叫期间测量的最小分辨率。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
 |**LowBitRateCallPercent** <br/> |float  <br/> ||低于低比特率阈值的呼叫百分比 (70 KB/秒) 。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
-|**LowFrameRateCallPercent** <br/> |float  <br/> ||低于低帧速率阈值的呼叫百分比 (每秒 7.5 帧，入站) 。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
+|**LowFrameRateCallPercent** <br/> |float  <br/> ||低于低帧速率阈值的呼叫百分比 (7.5 帧/秒，入站) 。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
 |**LowResolutionCallPercent** <br/> |float  <br/> ||以最低分辨率发生的呼叫的百分比。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
 |**DurationSeconds** <br/> |float  <br/> ||呼叫时长（以秒表示）。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |
 |**IsAggregatedData** <br/> |bit  <br/> ||指示数据是否已从多个调用聚合。  <br/> 此列是在 Microsoft Lync Server 2013 中引入的。  <br/> |

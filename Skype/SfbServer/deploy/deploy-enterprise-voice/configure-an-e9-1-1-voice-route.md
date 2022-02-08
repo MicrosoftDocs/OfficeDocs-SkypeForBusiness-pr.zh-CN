@@ -1,8 +1,8 @@
 ---
-title: 在呼叫中配置 E9-1-1 Skype for Business Server
+title: 在呼叫中配置 E9-1-1 语音Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,27 +16,27 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6933b840-0e7b-4509-ae43-bc9065677547
 description: 在语音通道中配置 E9-1-1 Skype for Business Server 企业语音。
-ms.openlocfilehash: 86904c32db6ae43b9fa1b6f184048d3b9f419089
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 6543e7c7dac59b026b3b2f7e5738cd1b06c3ffc5
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833948"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394334"
 ---
-# <a name="configure-an-e9-1-1-voice-route-in-skype-for-business-server"></a>在呼叫中配置 E9-1-1 Skype for Business Server
+# <a name="configure-an-e9-1-1-voice-route-in-skype-for-business-server"></a>在呼叫中配置 E9-1-1 语音Skype for Business Server
  
 在语音通道中配置 E9-1-1 Skype for Business Server 企业语音。 
   
 若要部署 E9-1-1，首先需配置紧急呼叫语音路由。 有关创建语音路由的详细信息，请参阅 Create [or modify a voice route in Skype for Business](create-or-modify-a-voice-route.md)。 例如，如果部署包括主要 SIP 中继和辅助 SIP 中继，则可定义多个路由。 
   
 > [!NOTE]
-> 若要在 E9-1-1 INVITE 中包含位置信息，您需要配置连接到 E9-1-1 服务提供商的 SIP 中继以便通过网关路由紧急呼叫。 为此，请在 **Set-CsTrunkConfiguration** cmdlet 上将 EnablePIDFLOSupport 标志设置为 True。 EnablePIDFLOSupport 的默认值为 False。 例如：对于回退公用电话交换网 (PSTN) 网关和紧急位置标识号 (ELIN) 网关，不需要启用接收位置 `Set-CsTrunkConfiguration Service:PstnGateway:192.168.0.241 -EnablePIDFLOSupport $true.` 。
+> 若要在 E9-1-1 INVITE 中包含位置信息，您需要配置连接到 E9-1-1 服务提供商的 SIP 中继以便通过网关路由紧急呼叫。 为此，请在 **Set-CsTrunkConfiguration** cmdlet 上将 EnablePIDFLOSupport 标志设置为 True。 EnablePIDFLOSupport 的默认值为 False。 `Set-CsTrunkConfiguration Service:PstnGateway:192.168.0.241 -EnablePIDFLOSupport $true.`例如：不需要为回退公用电话交换网 (PSTN) 网关和紧急位置标识号 (ELIN) 启用接收位置。
   
 ### <a name="to-configure-an-e9-1-1-voice-route"></a>配置 E9-1-1 语音路由
 
 1. 使用 RTCUniversalServerAdmins 组成员或 CsVoiceAdministrator 管理角色成员帐户登录计算机。
     
-2.  启动命令行Skype for Business Server：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击"Skype for Business Server **命令行管理程序"。**
+2.  启动命令行Skype for Business Server：单击"开始"**，单击"** 所有程序"**，单击"****Skype for Business 2015"**，然后单击"Skype for Business Server **命令行管理程序"**。
     
 3. 运行以下 cmdlet 以创建新的 PSTN 用法记录。 
     

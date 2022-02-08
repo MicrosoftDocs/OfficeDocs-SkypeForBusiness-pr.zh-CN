@@ -1,8 +1,8 @@
 ---
 title: 呼叫管理中的呼叫Skype for Business
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,20 +16,20 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2000d672-a85f-4262-9d69-0bee9ae3709a
 description: 部署过程中呼叫的呼叫Skype for Business Server 企业语音。
-ms.openlocfilehash: b734aba8c2944cab37071773d27bbc9411a18b9c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: bfc6a2455ba010f05083872ee8c394244ef4827b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861849"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393384"
 ---
 # <a name="deployment-process-for-call-park-in-skype-for-business"></a>呼叫管理中的呼叫Skype for Business
  
 部署过程中呼叫的呼叫Skype for Business Server 企业语音。
   
-呼叫企业语音使呼叫用户能够将来自一部电话的呼叫置于保持状态，稍后通过从任何电话拨打内部号码 (称为呼叫) 取回呼叫。
+通过呼叫企业语音用户可以从一部电话将呼叫置于保持状态，稍后通过从任何电话拨打内部号码 (称为呼叫) 取回呼叫。
   
-当您部署呼叫管理中心时，呼叫Standard Edition服务器或前端服务器上会自动安装并企业语音。 但是，必须先使用以下步骤来配置呼叫呼叫管理，然后才能供用户使用。 
+在前端服务器或前端服务器上部署呼叫Standard Edition会自动安装并启用呼叫企业语音。 但是，必须先使用以下步骤来配置呼叫呼叫管理，然后才能供用户使用。 
   
 **呼叫寄存部署过程**
 

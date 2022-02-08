@@ -1,8 +1,8 @@
 ---
 title: Lync Server 2010 分支机构设备常规设置扩展器
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -15,18 +15,18 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4a41754a-4653-4845-afb6-4a74b2edfeb4
 description: 若要编辑 Survivable Branch Appliance 或 Survivable Branch Server 的属性，在"常规"下，配置：
-ms.openlocfilehash: 872ad2158b5fa21ebaebd418755a9c1e5feb116d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b9c2d4daee3e67580c9c18445ae309c703e686d8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842805"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395484"
 ---
 # <a name="branch-office-appliance-general-settings-expander-for-lync-server-2010"></a>Lync Server 2010 分支机构设备常规设置扩展器
  
-若要编辑 Survivable Branch Appliance 或 Survivable Branch Server 的属性，在 **"常规**"下配置：
+若要编辑 Survivable Branch Appliance 或 Survivable Branch Server 的属性，在 **"** 常规"下，配置：
   
-- **FQDN：** 键入 Survivable Branch Appliance 或 Survivable Branch Server 的完全限定域名。
+- **FQDN**：键入 Survivable Branch Appliance 或 Survivable Branch Server 的完全限定域名。
     
     **Use all configured IP addresses** uses the IP addresses configured on the Survivable Branch Appliance or Survivable Branch Server for all purposes.
     

@@ -1,8 +1,8 @@
 ---
 title: 在客户端中配置Skype for Business列表
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,18 +12,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 4eecb5f7-3ef7-4582-a6cb-9f4aa068338d
 description: 摘要：了解如何在客户端中启用智能联系人列表Skype for Business功能。
-ms.openlocfilehash: 422972f017a1604312f1e6b75bbe18bb4c5cbc87
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 7c9168b076027dabd7904c1344bd0b83f3d8b8df
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860899"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394374"
 ---
 # <a name="configure-smart-contacts-list-in-skype-for-business-clients"></a>在客户端中配置Skype for Business列表
 
 **摘要：** 了解如何在客户端中启用智能联系人列表Skype for Business功能。
 
-智能联系人列表功能允许自动填充最终用户的联系人列表。 首次使用Skype for Business时，你的用户将自动看到其经理和团队中其他人。 默认情况下，为 Microsoft 365 和 Office 365 启用此功能，但您必须通过配置客户端策略设置为本地用户显式启用此功能。
+智能联系人列表功能允许自动填充最终用户的联系人列表。 首次使用Skype for Business时，你的用户将自动看到其经理和团队中其他人。 默认情况下，为 Microsoft 365 Office 365 用户启用此功能，但您必须通过配置客户端策略设置为本地用户显式启用此功能。
 
 配置此功能时，请牢记以下事项：
 
@@ -86,4 +86,4 @@ Set-CsClientPolicy -Identity Global -PolicyEntry @{Add=$x}
 
 - 确认Skype for Business UI 未显示无法连接到通讯簿的消息。 若要确认通讯簿连接，请对客户端搜索栏中的用户Skype for Business搜索。
 
-- 当用户首次登录联系人时，AD DS 复制问题可能导致无法Skype for Business。
+- AD DS 复制问题可能导致在用户首次登录联系人时无法Skype for Business。

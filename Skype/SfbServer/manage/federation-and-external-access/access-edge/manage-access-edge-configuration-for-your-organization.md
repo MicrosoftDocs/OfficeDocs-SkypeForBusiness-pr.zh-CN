@@ -5,8 +5,8 @@ ms:assetid: 0145eb08-984f-4ecd-bf9c-364817619c2a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552443(v=OCS.15)
 ms:contentKeyID: 48679555
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 部署一个或多个边缘服务器后，必须通过组织支持的边缘服务器启用外部域或提供程序访问、远程用户访问和匿名用户访问会议的类型。
-ms.openlocfilehash: ff152ea25bbea750815e0619ce521ede8d8d7203
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 3ab053fe625950a4023f16fbf911d8df1ebdf07e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860089"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395264"
 ---
 # <a name="manage-access-edge-configuration-for-your-organization"></a>管理你的组织的访问边缘配置
 
@@ -34,7 +34,7 @@ ms.locfileid: "60860089"
     
       - **启用合作伙伴域发现**   选择此选项可启用可以联盟的域的自动发现。 Skype for Business Server 使用域名系统 (DNS) 记录尝试发现未列在允许域列表中的域，自动评估来自已发现联盟伙伴的传入流量，并基于信任级别、流量和管理员设置限制或阻止该流量。 如果不选择此选项，则仅对包括在允许域列表上的域中的用户启用联盟用户访问。 无论选择此选项，都可以指定阻止或允许各个域，包括限制对在联盟域中运行访问边缘服务的特定服务器的访问。 有关详细信息，请参阅 [配置对允许的外部域的支持](../sip-domains/manage-sip-federated-domains-for-your-organization.md#configure-support-for-allowed-external-domains-in-skype-for-business-server)。
     
-      - **向联盟伙伴发送存档免责声明**   选择此选项将允许向联盟伙伴发送存档免责声明消息，建议他们记录通信详细信息。 如果存档与联盟伙伴域的外部通信，应启用存档免责声明通知，以警告合作伙伴您的部署正在存档其邮件和通信详细信息。 有关存档的详细信息，请参阅启用 [或禁用向](enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md)联盟伙伴发送存档免责声明。
+      - **向联盟伙伴发送存档免责声明**   选择此选项将允许向联盟伙伴发送存档免责声明消息，建议他们记录通信详细信息。 如果存档与联盟伙伴域的外部通信，应启用存档免责声明通知，以警告合作伙伴部署正在存档其邮件和通信详细信息。 有关存档的详细信息，请参阅启用 [或禁用向](enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md)联盟伙伴发送存档免责声明。
 
   - **启用远程用户访问**  如果希望组织中位于防火墙之外的用户（如远程工作者和出差的用户）能够连接到远程办公，请Skype for Business Server。 有关详细信息，请参阅 [启用或禁用远程用户访问](enable-or-disable-remote-user-access.md)。
 

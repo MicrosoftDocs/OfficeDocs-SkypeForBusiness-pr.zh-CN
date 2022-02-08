@@ -1,7 +1,7 @@
 ---
 title: 圣基茨和尼维斯的可用性
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 下面是圣基Microsoft 365 Office 365圣基茨Skype for Business Microsoft Teams的Microsoft Teams服务。
-ms.openlocfilehash: d990c1a6defe59bbe917fea3d1c47acc42ea7bdd
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+description: 以下是圣基Microsoft 365 Office 365圣基茨Skype for Business Microsoft Teams提供的服务。
+ms.openlocfilehash: 94a70a117cf2cbd592a88de859eaea46e94cfac3
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62192013"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394624"
 ---
 # <a name="availability-in-saint-kitts-and-nevis"></a>圣基茨和尼维斯的可用性
 
 [查找其他国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或详细了解可以在哪些国家/地区使用音频会议和通话套餐。
 
-下面是圣基Microsoft 365 Office 365圣基茨Skype for Business Microsoft Teams的Microsoft Teams服务。
+以下是圣基Microsoft 365 Office 365圣基茨Skype for Business Microsoft Teams提供的服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 
@@ -72,7 +72,7 @@ ms.locfileid: "62192013"
 |是否提供收费电话号码？  <br/> |否 <br/> |
 |免费电话号码是否可用？  <br/> |是  <br/> |
    
- 如果要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅获取电话和[Skype for Business Microsoft Teams。](../getting-service-phone-numbers.md)
+ 如果要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅获取电话和Skype for Business [Microsoft Teams。](../getting-service-phone-numbers.md)
   
 ## <a name="communications-credits"></a>通信点数
 
