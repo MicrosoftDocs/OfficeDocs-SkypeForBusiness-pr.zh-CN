@@ -1,8 +1,8 @@
 ---
 title: 通话质量仪表板数据 API (CQD) 中Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 25c2450a-f7b3-4dd2-987d-64f4246dd019
 description: 摘要：了解通话质量仪表板的数据 API。 通话质量仪表板是一种用于Skype for Business Server。
-ms.openlocfilehash: 619a02d776f5eb55c6349d1f123181190bc0299d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 4ed1c4716e88fcfe47200b97f2f9cd329e8c56a1
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862209"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392464"
 ---
 # <a name="data-api-for-call-quality-dashboard-cqd-in-skype-for-business-server"></a>通话质量仪表板数据 API (CQD) 中Skype for Business Server
  
@@ -37,7 +37,7 @@ REST 操作包含在下表中。
 |:-----|:-----|
 |[获取多维数据集](get-cube.md) <br/> |获取可用维度和度量的列表。  <br/> |
 |[获取维度成员](get-dimension-members.md) <br/> |"获取维度成员"操作返回特定维度的成员列表。 它还提供筛选成员列表和获取子集的能力，以降低线路传输成本。  <br/> |
-|[运行查询](run-query.md) <br/> |运行查询操作能够基于指定的维度、度量和筛选器对多维数据集运行查询，并返回数据。  <br/> |
+|[运行查询](run-query.md) <br/> |通过运行查询操作，可以基于指定的维度、度量和筛选器对多维数据集运行查询，并返回数据。  <br/> |
 |[清除缓存](clear-cache.md) <br/> |清除缓存操作会删除服务器上用于查询和数据的缓存。 这将重置缓存，之后我们将从 QoE 多维数据集获取新请求的新数据。  <br/> |
 |[获取集成日志](get-integration-log.md) <br/> |获取集成日志操作返回描述 QoE 多维数据集处理中的活动的日志条目列表。  <br/> |
 |[获取最后一个集成数据](get-last-integration-data.md) <br/> |从多维数据集获取最后一个集成数据。  <br/> |
@@ -48,7 +48,7 @@ REST 操作包含在下表中。
   
  **启用 CORS for Data API**
   
- 以下是数据 API 应用程序的摘录，web.config corsTrustedOrigin 应用程序设置中列出的两个域。 从这些服务器加载的脚本提出的所有请求都受数据 API 信任。
+ 下面摘录了数据 API 应用程序，web.config corsTrustedOrigin 应用程序设置中列出的两个域。 从这些服务器加载的脚本提出的所有请求都受数据 API 信任。
   
 请记住包含确切的协议、主机名和端口 (（如果有) ）。 不要将任何正斜杠字符 (/) 末尾。 可以通过用逗号分隔来指定多个条目。
   

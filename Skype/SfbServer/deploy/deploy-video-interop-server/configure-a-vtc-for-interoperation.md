@@ -1,8 +1,8 @@
 ---
 title: 配置 VTC 以与 Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1016aed6-99fe-452e-8b20-81c814808c3d
 description: 摘要：将 VTC 设备配置为与 Skype for Business Server。
-ms.openlocfilehash: f3804c0d7f86710fbefa9477d6cf1790b0f16af9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 8044e2038ebb8e9c1b68b5b91473e9e57dd1fb7a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861799"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389654"
 ---
 # <a name="configure-a-vtc-for-interoperation-with-skype-for-business-server"></a>配置 VTC 以与 Skype for Business Server
  
@@ -30,7 +30,7 @@ ms.locfileid: "60861799"
   
 ### <a name="configure-a-vtc-registered-with-cucm"></a>配置在 CUCM 中注册的 VTC
 
-1. 登录到 Cisco VTC 设备并导航到配置- \> 系统配置 - \> 预配。
+1. 登录到 Cisco VTC 设备并导航到"配置-\>系统配置-\>预配"。
     
 2. 验证以下设置，根据需要更正： 
     
@@ -40,7 +40,7 @@ ms.locfileid: "60861799"
    |ExternalManager 地址  <br/> | CUCM 的 FQDN <br/> |
    | ExternalManager 域 <br/> |CUCM 的域  <br/> |
    
-3. 导航到配置 - \> 系统配置 - \> 网络。
+3. 导航到配置-\>系统配置-\>网络。
     
 4. 验证以下设置，根据需要更正： 
     
@@ -49,7 +49,7 @@ ms.locfileid: "60861799"
    |DNS 域名  <br/> | CUCM 的域名 <br/> |
    |DNS 服务器 1 地址  <br/> | 所需的 DNS 服务器地址 <br/> |
    
-5. 导航到配置 - \> 系统配置 - \> 网络服务。 确保 H.323 模式已关闭，SIP 模式已打开。 
+5. 导航到配置-\>系统配置-\>网络服务。 确保 H.323 模式已关闭，SIP 模式已打开。 
     
 6. 当终结点注册 CUCM 时，会自动设置这些选项。 验证以下设置，根据需要更正： 
     
@@ -62,7 +62,7 @@ ms.locfileid: "60861799"
    |WelcomeText  <br/> | 打开 <br/> |
    |XMLAPI 模式  <br/> | 打开 <br/> |
    
-7. 导航到配置 - \> 系统配置 - \> SIP。
+7. 导航到配置-\>系统配置-\>SIP。
     
 8. 验证以下设置，根据需要更正： 
     
@@ -78,14 +78,14 @@ ms.locfileid: "60861799"
 VTC 现已配置为进行互操作。 在服务开始之前，需要完成 CUCM 端上的最后步骤。
 ### <a name="configure-vtc-devices-on-cucm"></a>在 CUCM 上配置 VTC 设备
 
-1. 登录到 CUCM 并导航到 Cisco 统一 CM 管理 - \> device- \> 电话 - \> 查找。 
+1. 登录到 CUCM 并导航到 Cisco 统一 CM 管理-\>device-\>电话-\>Find。 
     
-2. 选择要配置的 VTC 设备。 在"配置"屏幕上电话设置，根据需要更正。 更改或验证这些设置后，单击"保存 **"。**
+2. 选择要配置的 VTC 设备。 在"配置"屏幕上验证电话设置，并根据需要进行更正。 更改或验证这些设置后，单击"保存 **"**。
     
    |**参数**|**推荐设置**|
    |:-----|:-----|
    |设备信息 - 电话按钮模板  <br/> | 标准 Cisco 网真编解码器 C40 <br/> |
-   |设备信息 - 常见电话配置文件  <br/> | 标准公用电话配置文件 <br/> |
+   |设备信息 - 常见电话配置文件  <br/> | 标准公共电话配置文件 <br/> |
    |设备信息 - 调用搜索空间  <br/> | CSS_SfBVideoInterop <br/> |
    |设备信息 - AAR 呼叫搜索空间  <br/> | CSS_SfBVideoInterop <br/> |
    |设备信息 - 媒体资源组列表  <br/> | MRGL_SfBVideoInterop <br/> |
@@ -106,9 +106,9 @@ VTC 现已配置为进行互操作。 在服务开始之前，需要完成 CUCM 
    |目录号码设置 - 呼叫搜索空间  <br/> | CSS_SfBVideoInterop <br/> |
    |MLPP 备用方和机密访问设置 - MLPP 呼叫搜索空间  <br/> | CSS_SfBVideoInterop <br/> |
    |设备上第 1 行 - 显示 (来电显示)   <br/> | 所需 <br/> |
-   |设备上第 1 行 - ASCII (来电显示)   <br/> | 所需 <br/> |
+   |设备上第 1 行 - ASCII 显示 (来电显示)   <br/> | 所需 <br/> |
    
-5. 完成后，滚动到屏幕顶部，然后按"保存 **"。** 
+5. 完成后，滚动到屏幕顶部，然后按"保存 **"**。 
     
-此 VTC 设备的配置现已完成。 你需要为企业中其他 VTC 设备重复此过程。
+此 VTC 设备的配置现已完成。 你需要为企业中的其他 VTC 设备重复此过程。
 

@@ -1,8 +1,8 @@
 ---
 title: 设备配置 创建新的或编辑现有的
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
@@ -15,16 +15,16 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: aac152bf-80e9-408a-9dbb-60d0843484ab
 description: 在"新建设备配置"或"编辑设备配置"页上，可以创建或修改用于管理 Skype for Business 电话 Edition 的设置集合。 通过这些设置，您可以配置以下内容：所需的安全性模式、设备日志记录级别、语音服务质量 (QoS) 设置以及在指定的非活动时间后电话是否应自动锁住。
-ms.openlocfilehash: 849406c7c2a22f3ce96e50a8a49b14f27a1a5103
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: e1d71dba069720342f27527b4c6fd8302cae4aa9
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860459"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392894"
 ---
 # <a name="device-configuration-create-new-or-edit-existing"></a>设备配置：创建新的或编辑现有的
  
-在"**新建设备配置**"**或**"编辑设备配置"页上，可以创建或修改用于管理 Skype for Business 电话 Edition 的设置集合。 通过这些设置，您可以配置以下内容：所需的安全性模式、设备日志记录级别、语音服务质量 (QoS) 设置以及在指定的非活动时间后电话是否应自动锁住。
+在"**新建设备配置****"或**"编辑设备配置"页上，可以创建或修改用于管理 Skype for Business 电话 Edition 的设置集合。 通过这些设置，您可以配置以下内容：所需的安全性模式、设备日志记录级别、语音服务质量 (QoS) 设置以及在指定的非活动时间后电话是否应自动锁住。
   
 ## <a name="tasks-you-can-perform"></a>可执行的任务
 
@@ -60,7 +60,7 @@ ms.locfileid: "60860459"
     
   - **最小 PIN 长度** 你可以指定用于解锁电话的个人标识 (PIN) 的最小长度。 PIN 长度的范围为 4 到 15 位数字。 默认长度为六位数字。
     
-  - **电话锁定时间** 你可以指定电话自行锁定之前的最小时间长度。 该退出的范围是 0 到 60 分钟;默认值为 10 分钟。 输入 HH：MM：SS 格式的值。
+  - **电话锁定时间** 可以指定电话自行锁定之前的最小时间长度。 该退出的范围是 0 到 60 分钟;默认值为 10 分钟。 输入 HH：MM：SS 格式的值。
     
 ## <a name="see-also"></a>另请参阅
 

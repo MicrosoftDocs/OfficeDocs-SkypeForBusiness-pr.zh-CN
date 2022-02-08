@@ -1,8 +1,8 @@
 ---
 title: '2019 年 Skype for Business Server 虚拟化支持 '
 ms.reviewer: corbinm
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 06/04/2020
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 摘要：了解 Skype for Business Server 2019 的虚拟化支持。
-ms.openlocfilehash: 73e9121e2b530e44395aefda50082682fb910e7d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 87263c4204cddbcd5e64cfeb6709b88bb94c2a60
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853776"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392254"
 ---
 # <a name="virtualization-support-for-skype-for-business-server-2019"></a>2019 年 Skype for Business Server 虚拟化支持
 
@@ -32,7 +32,7 @@ Skype for Business Server虚拟化支持 2019 版本。
 - 在所有主机上禁用超线程。
 - 不要在主机服务器上配置动态内存。
 - 使用固定或传递磁盘，而不是动态磁盘。
-- 允许虚拟机监控程序超出虚拟来宾需要的 6-10% 的开销。
+- 允许虚拟机监控程序超出虚拟来宾需要的 6-10% 开销。
 
 ## <a name="supported-hypervisors"></a>支持的虚拟机监控程序
 
@@ -41,7 +41,7 @@ SfB Server 2019 在 Windows Server 2016 和 Windows Server 2019 上受支持。
 对于第三方虚拟机监控程序，你需要一个已通过服务器虚拟化验证计划 (SVVP) 测试的相关操作系统的虚拟机监控程序。
 
 - 请参阅[Windows Server 2016](https://www.windowsservercatalog.com/results.aspx?&bCatID=1521&cpID=0&avc=86&ava=88&avt=0&avq=0&OR=1&PGS=25) SVVP 列表中的版本。
-- 请参阅 SVVP 列表中的 Windows Server [2019](https://www.windowsservercatalog.com/results.aspx?&bCatID=1521&cpID=0&avc=86&ava=130&avt=0&avq=0&OR=1&PGS=25)版本。
+- 请参阅 SVVP 列表中的 Windows [Server 2019](https://www.windowsservercatalog.com/results.aspx?&bCatID=1521&cpID=0&avc=86&ava=130&avt=0&avq=0&OR=1&PGS=25) 版本。
 
 ## <a name="stress-and-performance-tool"></a>压力和性能工具
 
@@ -51,4 +51,4 @@ The Skype for Business Server 2019 Stress and Performance Tool includes tools th
 - 为性能调整提供增强的知识和最佳做法
 - 测量 2019 年Skype for Business Server性能
  
-你可以从此处下载 [该工具](https://www.microsoft.com/download/details.aspx?id=101447)。
+你可以在此处下载 [该工具](https://www.microsoft.com/download/details.aspx?id=101447)。

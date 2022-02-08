@@ -1,8 +1,8 @@
 ---
 title: 客户端版本策略
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 4f84bc0f-e1df-4acb-b8ef-57f165b0153b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 可以指定环境中支持的客户端版本。 当两个不同版本的客户端交互时，其中一个客户端的可用功能会受到另一个客户端的功能的限制。
-ms.openlocfilehash: 1a32329574b95ed4b918d5b323bc63f86331f617
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 52282e98cbf7f504dcfdc26dd74f8e4e82cb711c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841844"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391794"
 ---
 # <a name="client-version-policy"></a>客户端版本策略
 
@@ -43,7 +43,7 @@ ms.locfileid: "60841844"
 
 下表介绍了该页上的菜单、命令、字段和属性。
 
-- **新建** 可以创建以下一个或多个客户端版本策略：
+- **新增功能** 可以创建以下一个或多个客户端版本策略：
 
   - 站点策略
 
@@ -61,4 +61,4 @@ ms.locfileid: "60841844"
 
 - **刷新** 可以刷新客户端版本策略列表以验证所有客户端版本策略的选项状态。
 
-有关客户端和客户端版本之间的互操作性的详细信息，请参阅规划文档中的 Client [Interoperability。](/previous-versions/office/lync-server-2013/lync-server-2013-client-interoperability-in-lync-2013) 有关使用客户端版本策略的详细信息，请参阅操作文档中的[Specify the Client Versions Supported in Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-specifying-the-client-applications-that-can-be-used-to-log-on-to-lync-server-2013)。
+有关客户端和客户端版本之间的互操作性的详细信息，请参阅规划 [文档中的 Client Interoperability](/previous-versions/office/lync-server-2013/lync-server-2013-client-interoperability-in-lync-2013) 。 有关使用客户端版本策略的详细信息，请参阅操作文档中的[Specify the Client Versions Supported in Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-specifying-the-client-applications-that-can-be-used-to-log-on-to-lync-server-2013)。

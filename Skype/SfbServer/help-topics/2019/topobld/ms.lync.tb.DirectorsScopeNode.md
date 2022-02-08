@@ -1,8 +1,8 @@
 ---
 title: 控制器范围节点
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 0c725237-2e43-4ba2-a7ad-dce0057d265f
 ROBOTS: NOINDEX, NOFOLLOW
 description: “控制器池”节点列出了拓扑中的控制器池。可以执行以下操作：
-ms.openlocfilehash: ffe1ec9e3829643d9e3913fa55f6d048b83f5014
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c3b25cdeb75f3702b511ce8ffad441127ad25dc2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859219"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391474"
 ---
 # <a name="directors-scope-node"></a>控制器范围节点
  

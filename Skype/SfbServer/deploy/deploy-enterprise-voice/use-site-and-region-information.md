@@ -1,8 +1,8 @@
 ---
-title: 将媒体旁路全局Skype for Business Server配置为使用站点和地区信息
+title: 将媒体旁路全局设置Skype for Business Server以使用站点和地区信息
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,14 +16,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0a21cdf1-f350-49da-b346-70806f256bea
 description: 将媒体旁路配置为仅用于 Skype for Business Server 企业语音 中的某些站点和Skype for Business Server 企业语音。
-ms.openlocfilehash: 7ec292f768633d64959704599269c0fb9cedd4fd
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b818d1ba68d17a45c24904a1d313bafde6e6d1d1
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829496"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391824"
 ---
-# <a name="configure-media-bypass-global-settings-in-skype-for-business-server-to-use-site-and-region-information"></a>将媒体旁路全局Skype for Business Server配置为使用站点和地区信息
+# <a name="configure-media-bypass-global-settings-in-skype-for-business-server-to-use-site-and-region-information"></a>将媒体旁路全局设置Skype for Business Server以使用站点和地区信息
  
 将媒体旁路配置为仅用于 Skype for Business Server 企业语音 中的某些站点和Skype for Business Server 企业语音。 
   
@@ -53,9 +53,9 @@ ms.locfileid: "60829496"
   
 7. 单击“提交”。
     
-接下来，将子网添加到网络站点，如将 [子网与网络站点关联中所述](deploy-network.md#BKMK_AssociateSubnets)。 将所有子网与网络站点关联后，媒体旁路部署即完成。
+接下来，将子网添加到网络站点，如将子网 [与网络站点关联中所述](deploy-network.md#BKMK_AssociateSubnets)。 将所有子网与网络站点关联后，媒体旁路部署即完成。
 > [!IMPORTANT]
-> 如果尚未创建网络区域和网络站点，则必须先创建这些区域和站点，才能部署媒体旁路。 有关详细信息，请参阅在部署[中部署网络区域、站点和Skype for Business。](deploy-network.md) 
+> 如果尚未创建网络区域和网络站点，则必须先创建这些区域和站点，才能部署媒体旁路。 有关详细信息，请参阅部署网络[区域、站点和 Skype for Business](deploy-network.md)。 
   
 ## <a name="see-also"></a>另请参阅
 

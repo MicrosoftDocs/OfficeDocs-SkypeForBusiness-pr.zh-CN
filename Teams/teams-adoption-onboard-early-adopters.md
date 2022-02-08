@@ -1,7 +1,7 @@
 ---
 title: 登记早期采用者并收集反馈
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 选择早期采用者作为试验阶段的Teams采用，然后收集项目的反馈。
+description: 为采用项目的试验阶段选择Teams采用者，然后收集有关项目的反馈。
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a87a6802a538609e9899f2645833a1e9bdab120f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0cbc0f8d77aaa29c7c1d5ba76715840b6a535707
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840724"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390804"
 ---
 # <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>为早期采用者上线 Microsoft Teams 并收集反馈
 
@@ -43,7 +43,7 @@ ms.locfileid: "60840724"
 
 使用项目Microsoft 365组件Office 365收集项目反馈。
   
-![表示决策点的图标。](media/teams-adoption-decision-icon.png) 决策：如果您的组织已在虚拟网络Yammer投资，您可以将它用作早期采用者计划的反馈论坛。 如果没有，并且早期采用者计划的成员少于 5000，请创建一个团队Teams收集反馈并提供培训。
+![表示决策点的图标。](media/teams-adoption-decision-icon.png) 决策：如果你的组织已在一个Yammer投资，你可以使用它作为早期采用者计划的反馈论坛。 如果没有，并且早期采用者计划的成员少于 5000，请创建一个团队Teams收集反馈并提供培训。
   
 > [!Note]
 > 某些组织将早期采用者反馈的渠道合并到团队协作团队中。 这是一个不错的方法，因为许多早期采用者将来可能会成为支持者，并且它将构建更强大的社区。 

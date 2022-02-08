@@ -1,8 +1,8 @@
 ---
 title: 为用户创建 DNS Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/15/2018
 audience: ITPro
@@ -16,22 +16,22 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 798a663c-0b63-4f75-b0a3-9c553cef8c5f
-description: 摘要：了解如何配置 DNS 和创建 DNS 记录以安装 Skype for Business Server。 从 Microsoft 评估Skype for Business Server下载免费试用版 https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server ：。
-ms.openlocfilehash: 177568623148b64b3dccd885e2e7ff3740149c62
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: 摘要：了解如何配置 DNS 和创建 DNS 记录以安装 Skype for Business Server。 从 Microsoft 评估Skype for Business Server下载免费https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server试用版：。
+ms.openlocfilehash: f648af40b7e24080b5995d99306db684f2754a37
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850365"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390674"
 ---
 # <a name="create-dns-records-for-skype-for-business-server"></a>为用户创建 DNS Skype for Business Server
  
-**摘要：** 了解如何配置 DNS 和创建 DNS 记录以安装 Skype for Business Server。 从 Microsoft 评估Skype for Business Server下载免费试用版 [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server) ：。
+**摘要：** 了解如何配置 DNS 和创建 DNS 记录以安装 Skype for Business Server。 从 Microsoft 评估Skype for Business Server下载免费[https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)试用版：。
   
-若要Skype for Business Server正常运行，必须设置多个域名系统 (DNS) 设置。 这样，客户端知道如何访问服务，并且服务器知道彼此。 每个部署只需完成一次这些设置，因为分配 DNS 条目后，它在整个域中可用。 可以按任意顺序执行步骤 1 到步骤 5。 但是，您必须按照图中的概述顺序执行步骤 6、7 和 8 以及步骤 1 到步骤 5 之后。 创建 DNS 记录包含第 5 步（共 8 步）。 有关规划 DNS 的信息，请参阅 environmental [requirements for Skype for Business Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) or Server requirements for Skype for Business Server [2019](../../../SfBServer2019/plan/system-requirements.md)。
+若要Skype for Business Server，必须设置多个域名系统 (DNS) 设置。 这样，客户端知道如何访问服务，并且服务器知道彼此。 每个部署只需完成一次这些设置，因为分配 DNS 条目后，它在整个域中都可用。 可以按任意顺序执行步骤 1 到步骤 5。 但是，您必须按照图中的概述顺序执行步骤 6、7 和 8 以及步骤 1 到步骤 5 之后。 创建 DNS 记录包含第 5 步（共 8 步）。 有关规划 DNS 的信息，请参阅 environmental [requirements for Skype for Business Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) or [Server requirements for Skype for Business Server 2019](../../../SfBServer2019/plan/system-requirements.md)。
   
 > [!IMPORTANT]
-> 需要注意的是，这只是如何在服务器 DNS 环境中Windows DNS 记录的示例。 创建 DNS 记录需要许多其他 DNS Skype for Business Server，创建 DNS 记录的过程取决于您用于管理组织中 DNS 的系统。 有关 DNS 要求的完整列表，请参阅[dns requirements for Skype for Business Server](../../plan-your-deployment/network-requirements/dns.md)。 
+> 需要注意的是，这只是如何在服务器 DNS 环境中Windows DNS 记录的示例。 创建 DNS 记录需要许多其他 DNS Skype for Business Server，创建 DNS 记录的过程取决于您用于管理组织中 DNS 的系统。 有关 DNS 要求的完整列表，请参阅 [DNS requirements for Skype for Business Server](../../plan-your-deployment/network-requirements/dns.md)。 
   
 ![概述图表。](../../media/d2fc733c-6a80-4d17-a02f-93b8c4bfb999.png)
   
@@ -39,7 +39,7 @@ ms.locfileid: "60850365"
 
 DNS 记录是 dns 记录Skype for Business Server才能正常运行，并且可由用户访问。
   
-此示例使用名为 pool.contoso.local 的 DNS 负载平衡 FQDN。 此池包含三台运行 Skype for Business Server Enterprise Edition。 Standard Edition前端服务器只能包含一台服务器。 通过使用 Standard Edition，在引用前端角色时，您将仅使用单个 Standard Edition 服务器的完全限定域名 (FQDN) ，而不是创建服务器的 DNS 负载平衡池，如以下示例所示。 此仅使用前端角色的简单示例包括下表中的 DNS 条目。 若要规划特定的 DNS 要求，请参阅[dns requirements for Skype for Business Server](../../plan-your-deployment/network-requirements/dns.md)。 
+此示例使用名为 pool.contoso.local 的 DNS 负载平衡 FQDN。 此池包含三台运行 Skype for Business Server Enterprise Edition。 Standard Edition前端服务器只能包含一台服务器。 通过使用 Standard Edition，在引用前端角色时，您将仅使用单个 Standard Edition 服务器的完全限定域名 (FQDN) ，而不是创建服务器的 DNS 负载平衡池，如以下示例所示。 此仅使用前端角色的简单示例包括下表中的 DNS 条目。 若要规划特定的 DNS 要求，请参阅 [DNS requirements for Skype for Business Server](../../plan-your-deployment/network-requirements/dns.md)。 
   
  
 |**说明**|**记录类型**|**名称**|**解析为**|**负载平衡类型**|
@@ -62,11 +62,11 @@ DNS 记录是 dns 记录Skype for Business Server才能正常运行，并且可�
 
 1. 登录到 DNS 服务器，然后打开服务器 **管理器**。
     
-2. 单击"**工具**"下拉菜单，然后单击 **"DNS"。**
+2. 单击" **工具** "下拉菜单，然后单击" **DNS"**。
     
 3. 在 SIP 域的控制台树中，展开"前向查找区域"，然后展开将安装Skype for Business Server SIP 域。
     
-4. 右键单击 SIP 域，然后选择"新建主机 (A 或 **AAAA) ，** 如图所示。
+4. 右键单击 SIP 域，然后选择"新建主机 (**A 或 AAAA)**"，如图所示。
     
      ![选择新的 A 记录。](../../media/f89c5c1f-b5b7-428c-a6e3-2bcd12e878c3.png)
   
@@ -80,7 +80,7 @@ DNS 记录是 dns 记录Skype for Business Server才能正常运行，并且可�
    |SFB02  <br/> |主机 (A)  <br/> |10.0.0.6  <br/> |
    |SFB03  <br/> |主机 (A)  <br/> |10.0.0.7  <br/> |
    
-7. 接下来，为池创建 DNS 负载平衡条目。 DNS 负载平衡允许 DNS 在使用相同的 DNS 池名称时向池中的单个服务器发送请求。 有关 DNS 和负载平衡详细信息，请参阅[dns requirements for Skype for Business Server](../../plan-your-deployment/network-requirements/dns.md)。 
+7. 接下来，为池创建 DNS 负载平衡条目。 DNS 负载平衡允许 DNS 在使用相同的 DNS 池名称时向池中的单个服务器发送请求。 有关 DNS 和负载平衡详细信息，请参阅 [dns requirements for Skype for Business Server](../../plan-your-deployment/network-requirements/dns.md)。 
     
     > [!NOTE]
     > 将多个服务器集中在一起仅适用于Enterprise Edition部署。 如果要部署单个 Enterprise 服务器或 Standard Edition 服务器，则只需为单台服务器创建 A 记录。 
@@ -95,7 +95,7 @@ DNS 记录是 dns 记录Skype for Business Server才能正常运行，并且可�
    
 8. 继续为计划部署中所有服务器创建 A 记录。 
     
-9. 若要为旧发现 (SRV) 记录，请右键单击 SIP 域，然后选择"其他 **新记录"。**
+9. 若要为旧发现 (SRV) 记录，请右键单击 SIP 域，然后选择"其他 **新记录"**。
     
 10. 在“选择资源记录类型”中，单击“服务位置(SRV)”，然后单击“创建记录”。
     
@@ -105,7 +105,7 @@ DNS 记录是 dns 记录Skype for Business Server才能正常运行，并且可�
     
 13. 单击“端口号”，再键入“5061”。
     
-14. 单击 **"提供此服务的主机**"，然后键入池或服务器Standard Edition FQDN。
+14. 单击 **"提供此服务的** 主机"，然后键入池或服务器Standard Edition FQDN。
     
      !["新建资源记录"对话框的屏幕截图。](../../media/54b1aac5-a2ec-41fe-90c0-02eaeaa9d1b4.png)
   
@@ -117,13 +117,13 @@ DNS 记录是 dns 记录Skype for Business Server才能正常运行，并且可�
     
 2. 单击 **"开始**"，然后键入 **cmd**，然后按 Enter。
     
-3. 键入 **nslookup 或 \<FQDN of the Front End pool\>** **\<FQDN of the Standard Edition server or single Enterprise Edition server\>** ，然后按 Enter。
+3. 键入 **nslookup 或 \<FQDN of the Front End pool\>** **\<FQDN of the Standard Edition server or single Enterprise Edition server\>**，然后按 Enter。
     
 4. 继续验证部署的其他 A 记录。
     
 5. 如果要支持旧版客户端并创建 SRV 记录，请在 **nslookup** 提示符下键入 **set type=srv** 来验证它，然后按 Enter。
     
-6. 键入 **_sipinternaltls._tcp。 *域*** (，_sipinternaltls._tcp.contoso.local) ，然后按 Enter。
+6. 键入 **_sipinternaltls._tcp。 *域*** (，例如，_sipinternaltls._tcp.contoso.local) ，然后按 Enter。
     
 7. 预期输出应类似于图中所示。 请注意，并非所有 DNS 记录都显示在示例输出中，但应验证所有记录。 
     

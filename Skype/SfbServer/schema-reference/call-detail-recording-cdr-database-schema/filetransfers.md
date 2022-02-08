@@ -1,8 +1,8 @@
 ---
 title: FileTransfers 视图
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e52c3ad0-152e-4a18-af1c-1aff0d205151
 description: FileTransfer 视图存储有关对等文件传输会话的信息。 此视图在 Microsoft Lync Server 2013 中引入。
-ms.openlocfilehash: eae94d0220cb3443e90665d420b888e86a37d11a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d8b173c7617dcaa37d3cea00f5bdb09ef34670da
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850635"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391844"
 ---
 # <a name="filetransfers-view"></a>FileTransfers 视图
  

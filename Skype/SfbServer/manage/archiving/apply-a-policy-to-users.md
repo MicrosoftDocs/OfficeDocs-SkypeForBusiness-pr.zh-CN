@@ -1,8 +1,8 @@
 ---
 title: 将存档策略应用于用户Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,21 +12,21 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: bebd45d1-93c3-4e80-8933-755b699b2209
 description: 摘要：了解如何将存档策略分配给 Skype for Business Server。
-ms.openlocfilehash: 9be6f37f6c84e089a387eec4e3ad982ec2ae9e14
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: fadc2d20ce8fb83ef331feb55f5d0908b3189213
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856799"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391184"
 ---
 # <a name="apply-an-archiving-policy-to-users-in-skype-for-business-server"></a>将存档策略应用于用户Skype for Business Server
 
 **摘要：** 了解如何向用户分配存档策略Skype for Business Server。
   
-如果为位于 Skype for Business Server 上的用户创建了一个或多个用户存档策略，则可以通过向特定用户或用户组应用相应的策略来实现对特定用户的存档支持。 例如，如果创建支持内部通信存档的策略，可以至少将策略应用于一个用户或用户组，以支持存档用户Skype for Business Server通信。
+如果为位于 Skype for Business Server 上的用户创建了一个或多个用户存档策略，则可以通过向特定用户或用户组应用相应的策略来实现对特定用户的存档支持。 例如，如果创建支持内部通信存档的策略，可以至少将策略应用于一个用户或用户组，以支持存档用户的 Skype for Business Server 通信。
   
 > [!NOTE]
-> 如果为部署启用了 Microsoft Exchange 集成，Exchange In-Place 保留策略将控制是否对位于 Exchange 上且其邮箱已置于 In-Place 保留状态的用户启用存档。 有关详细信息，请参阅 Plan [for archiving in Skype for Business Server](../../plan-your-deployment/archiving/archiving.md)和 Configure integration with Exchange storage for [Skype for Business Server](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md)。 
+> 如果为部署启用了 Microsoft Exchange 集成，Exchange In-Place 保留策略将控制是否对位于 Exchange 上且其邮箱已置于 In-Place 保留状态的用户启用存档。 有关详细信息，请参阅 Plan [for archiving in Skype for Business Server](../../plan-your-deployment/archiving/archiving.md)和 [Configure integration with Exchange storage for Skype for Business Server](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md)。 
   
 ## <a name="apply-a-user-policy-by-using-the-control-panel"></a>使用控制面板应用用户策略
 
@@ -40,7 +40,7 @@ ms.locfileid: "60856799"
     
 4. 在列出搜索结果的表中，单击相应的用户帐户，再单击“编辑”，然后单击“显示详细信息”。
     
-5. 在 **"编辑 Lync Server 用户"** 中的" **存档策略"** 下，选择要应用存档用户策略。
+5. 在 **"编辑 Lync Server 用户"** 中的"存档策略 **"** 下，选择要应用存档用户策略。
     
     > [!NOTE]
     > 这些设置 **\<Automatic\>** 将应用默认服务器安装设置。 服务器将自动应用这些设置。

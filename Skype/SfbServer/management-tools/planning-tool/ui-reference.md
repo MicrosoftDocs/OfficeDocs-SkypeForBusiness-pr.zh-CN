@@ -1,8 +1,8 @@
 ---
 title: 规划工具 UI 参考
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.date: 12/20/2018
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 52d44a51-f79b-4d27-9541-21737b798027
-ms.openlocfilehash: 516ecfc5433455af8813ecc1c66917e77f4c6677
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 96fdf8b4d599890463c6c220a53cbd1d96e10f2c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845265"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392444"
 ---
 # <a name="planning-tool-ui-reference"></a>规划工具 UI 参考
  

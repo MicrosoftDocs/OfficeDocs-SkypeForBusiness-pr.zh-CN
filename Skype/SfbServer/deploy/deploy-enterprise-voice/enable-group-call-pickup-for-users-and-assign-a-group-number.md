@@ -1,8 +1,8 @@
 ---
 title: 为用户启用组内呼叫接听，并分配Skype for Business
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c33bb6c2-d43b-4fb6-a0fa-6d82a7b09abe
 description: 在呼叫组中为用户启用Skype for Business Server 企业语音，并分配组号码。
-ms.openlocfilehash: ab98244c570acbd7354abb7b7f6bed2fd85cf407
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5ebb5d4f2f84133b0c226773fd71c66f687ca5f9
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864349"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390694"
 ---
 # <a name="enable-group-call-pickup-for-users-and-assign-a-group-number-in-skype-for-business"></a>为用户启用组内呼叫接听，并分配Skype for Business
 

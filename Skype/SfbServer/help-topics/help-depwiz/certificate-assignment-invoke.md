@@ -1,8 +1,8 @@
 ---
 title: 证书分配（调用）
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3b7cf7d2-90e1-4c73-bda8-33bdcf19725c
 description: “正在执行命令”页显示向服务器分配证书的任务所采取的操作。任务完成后，可以查看详细描述证书分配过程的日志。要查看日志文件，请单击“查看日志”。
-ms.openlocfilehash: 0af4254bcde8e378339b8258ea525560f64e868d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 2c1a4bb5144cfeceb6eaab2b1168d2bd570a9e30
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854686"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391934"
 ---
 # <a name="certificate-assignment-invoke"></a>证书分配（调用）
  

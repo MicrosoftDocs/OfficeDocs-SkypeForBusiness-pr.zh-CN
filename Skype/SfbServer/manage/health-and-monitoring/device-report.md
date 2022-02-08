@@ -1,8 +1,8 @@
 ---
 title: 设备报告中Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,18 +12,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: f42e4d60-699b-4870-8bb5-13b51bb6eb2b
 description: 摘要：了解 Skype for Business Server 中的设备报告。
-ms.openlocfilehash: 29ea62f7578b491a940a47663668d0bc83ec5402
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 211dc69423f8f5b2edb9d5508a78c48297d3917c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835260"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392524"
 ---
 # <a name="device-report-in-skype-for-business-server"></a>设备报告中Skype for Business Server
  
 **摘要：** 了解设备报告中的设备Skype for Business Server。
   
-设备报告可能更好地为麦克风和扬声器报告加了标题；这是因为，该设备报告检索按呼叫中使用的麦克风和扬声器分组的呼叫相关的指标（例如，质量欠佳的呼叫百分比、回声和语音切换时间）。 如果你对 IP 电话感兴趣 (通常称为"设备") ，请改为使用 ip 电话 Inventory Report in [Skype for Business Server。](ip-phone-inventory-report.md)
+设备报告可能更好地为麦克风和扬声器报告加了标题；这是因为，该设备报告检索按呼叫中使用的麦克风和扬声器分组的呼叫相关的指标（例如，质量欠佳的呼叫百分比、回声和语音切换时间）。 如果你对 IP 电话感兴趣 (通常称为"设备") ，请改为使用 电话 [中的 IP](ip-phone-inventory-report.md) Skype for Business Server 报告。
   
 该设备报告在管理员确定特定类型的设备遇到的质量欠佳的呼叫量是否高于其他呼叫时极其有用。转而，这会对即将购买新设备或替换现有设备时所做的任何决策产生影响。
   
@@ -54,7 +54,7 @@ ms.locfileid: "60835260"
    
 ## <a name="accessing-the-device-report"></a>访问设备报告
 
-通常可从监控报告主页访问该设备报告。 但是，如果正在查看呼叫详细信息[](call-detail-report.md)报告Skype for Business Server可以通过单击以下任一指标向下钻取到特定设备的设备报告：
+通常可从监控报告主页访问该设备报告。 但是，如果要在呼叫详细信息报告中[](call-detail-report.md)查看Skype for Business Server可以通过单击以下任一指标向下钻取到特定设备的设备报告：
   
 - 捕获设备
     
@@ -132,8 +132,8 @@ $x
 |:-----|:-----|
 |**From** <br/> |时间范围的开始日期/时间。若要按小时查看数据，请输入开始日期和时间，如下所示：  <br/> 7/7/2015 1：00 PM  <br/> 如果您未输入开始时间，该报告会自动将某个特定日的上午 12:00 作为开始时间。若要按日查看数据，请只输入日期：  <br/> 7/7/2015  <br/> 若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：  <br/> 7/3/2015  <br/> 一周始终是从星期日开始至星期六结束。  <br/> |
 |**To** <br/> |时间范围的结束日期/时间。若要按小时查看数据，请输入结束日期和时间，如下所示：  <br/> 7/7/2015 1：00 PM  <br/> 如果您未输入结束时间，该报告会自动将某个特定日的上午 12:00 作为结束时间。若要按日查看数据，请只输入日期：  <br/> 7/7/2015  <br/> 若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：  <br/> 7/3/2015  <br/> 一周始终是从星期日开始至星期六结束。  <br/> |
-|**语音切换原因** <br/> |呼叫必须切换为半双工模式才能防止回声的原因。在半双工模式中，通信一次只能在一个方向进行，与用户在使用对讲机进行通信时的轮流方式相似。选择下列选项之一：  <br/> [All]无 错误时间戳 回声 DNLP (动态非线性处理器) 低复杂性 设备状态 AEC 回声 (回声消除)  |
-|**回声原因** <br/> |在呼叫中检测到超出接受水平的回声的原因。（在长途通讯中，回声是声音的反射，与朝井底大喊时出现的现象一样。）选择下列选项之一：  <br/> [All]无 AEC 回声错误 (回声消除) ANLP (自适应非线性处理器) DNLP (动态非线性处理器) 麦克风剪辑 |
+|**语音切换原因** <br/> |呼叫必须切换为半双工模式才能防止回声的原因。在半双工模式中，通信一次只能在一个方向进行，与用户在使用对讲机进行通信时的轮流方式相似。选择下列选项之一：  <br/> [All]无 错误时间戳回声 DNLP (动态非线性处理器) 低复杂性 设备状态 AEC 回声后回声 (回声消除)  |
+|**回声原因** <br/> |在呼叫中检测到超出接受水平的回声的原因。（在长途通讯中，回声是声音的反射，与朝井底大喊时出现的现象一样。）选择下列选项之一：  <br/> [All]无 错误时间戳 AEC 后回声 (回声消除) ANLP (自适应非线性处理器) DNLP (动态非线性处理器) 麦克风剪裁 |
 |**呼叫类型** <br/> |指示发起的呼叫类型。选择下列选项之一：  <br/> [All]客户端呼叫 PSTN 呼叫 电话会议 |
 |**访问类型** <br/> |指示客户端在发起呼叫时已登录到内部网络还是外部网络。选择下列选项之一：  <br/> [All]内部外部 |
 |**网络类型** <br/> |指示客户端在发起呼叫时已连接到的网络的类型。选择下列选项之一：  <br/> [All]有线无线 |

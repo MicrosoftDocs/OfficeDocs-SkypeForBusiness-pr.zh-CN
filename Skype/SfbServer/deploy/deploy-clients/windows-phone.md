@@ -1,8 +1,8 @@
 ---
 title: 安装和测试Windows Phone版Skype for Business
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 54289bbe-97e7-44bf-8611-4e740fc5b998
-description: 摘要：了解如何在客户端Skype for Business和测试Windows Phone。
-ms.openlocfilehash: 49ba719f13edfa2d9dc85d00c71c59dc5b19b8d8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: 摘要：了解如何在客户端上Skype for Business和测试Windows Phone。
+ms.openlocfilehash: da3f61b5fdc37cd07a793aad561ff51dcc7f185d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843535"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390714"
 ---
 # <a name="install-and-test-skype-for-business-for-windows-phone"></a>安装和测试Windows Phone版Skype for Business
  
 **摘要：** 了解如何在客户端上Skype for Business和测试Windows Phone。
   
-该Windows Phone版Skype for Business应用Skype for Business移动设备 (即时消息) 语音和视频呼叫Windows在线状态。 使用 Lync 2013 的用户将自动获得更新的应用，或收到手动更新应用的提示，具体取决于其用户设置。 新用户可以从 Windows Phone [Marketplace 下载它](https://go.microsoft.com/fwlink/p/?linkid=231901)。 Windows Phone版Skype for Business应用仅适用于 Windows Phone 8.1 及更高版本。
+该Windows Phone版Skype for Business应用Skype for Business移动设备 (即时消息) 语音和视频呼叫Windows在线状态。 使用 Lync 2013 的用户将自动获得更新的应用，或收到手动更新应用的提示，具体取决于其用户设置。 新用户可以从应用商店Windows Phone[它](https://go.microsoft.com/fwlink/p/?linkid=231901)。 Windows Phone版Skype for Business应用仅适用于 Windows Phone 8.1 及更高版本。
   
 在引导贵组织的用户下载应用之前，你需要运行以下测试，以确保它正确集成到你的环境中。 
   
@@ -31,25 +31,25 @@ ms.locfileid: "60843535"
 
 1. 浏览到[Windows Phone 8 更新中心](https://www.windowsphone.com/en-us/how-to/wp8/update-central)以将手机更新到 Windows Phone 8.1。
     
-2. 从手机中，转到 **应用商店**，**然后搜索** Skype for Business。
+2. 从手机中，转到 **应用商店**，**然后搜索Skype for Business**。
     
-3. 点击 **"安装"。** 
+3. 点击“**安装**”。 
     
 ## <a name="sign-in-to-skype-for-business-for-the-first-time"></a>首次Skype for Business登录
 
 1. 在 **"开始**"屏幕上，向左轻扫以查看已安装的应用，Windows Phone版Skype for Business，然后点击图标以打开该应用。
     
-2. Enter your sign-in address (for example， user@domain.com) and password， and then tap **Done**.
+2. 输入你的登录地址 (例如，user@domain.com) 和密码， **然后点击完成**。
     
      系统可能会要求你同时提供用户名和登录地址。 用户名是登录到组织网络时使用的名称，user@domain.com 域\用户名。
     
-3. 在 **"客户体验改善计划**"屏幕上，点击"**加入**"，将有关应用问题和使用情况的匿名数据发送到Microsoft;如果不想参与，则选择"否"。
+3. 在 **"客户体验改善计划**"屏幕上，点击"**加入**"，将有关应用问题和使用情况的匿名数据发送到 Microsoft;如果不想参与，则选择"否"。
     
-4. 在" **从不错过你的工作呼叫"** 屏幕上，输入具有国家/地区代码的移动号码。 当Windows Phone版Skype for Business网络或手机数据网络Wi-Fi进行音频或视频呼叫时，将自动使用此号码进行呼叫并连接到呼叫的音频部分。
+4. 在" **从不错过你的工作呼叫"** 屏幕上，输入具有国家/地区代码的移动号码。 Windows Phone版Skype for Business无法通过 Wi-Fi 或手机数据网络进行音频或视频呼叫时，系统将自动通过此号码呼叫你并连接到呼叫的音频部分。
     
 5. 点击 **"下** 一步"并查看通知和电话簿访问设置：
     
-   - **推送通知** 收到新 IM 或呼叫时收到警报。 正常 **情况下， (** 推荐) 。
+   - **推送通知** 收到新 IM 或呼叫时收到警报。 正常 **情况下，** (推荐) 。
     
      > [!IMPORTANT]
      > 如果关闭此设置，将不会收到任何 IMS、呼叫或其他Windows Phone版Skype for Business通知，除非应用处于活动状态。 
@@ -66,7 +66,7 @@ ms.locfileid: "60843535"
   
 ### <a name="search-for-a-contact-in-the-corporate-directory"></a>搜索企业目录中的联系人
 
-1. 在联系人列表中，点击"搜索 **"。**
+1. 在联系人列表中，点击"搜索 **"**。
     
 2. 搜索仅存在于全局地址列表中的联系人。
     
@@ -76,7 +76,7 @@ ms.locfileid: "60843535"
 
 1. 在“联系人”列表中，点击一个联系人。
     
-2. 在联系人卡片中，点击即时消息 (IM)  ![电子邮件中的即时消息Skype for Business。](../../media/90f8d5fa-7968-4ef7-bf5b-dddf9b893905.png)图标。
+2. 在联系人卡片中，点击即时消息 (IM)  ![Skype for Business 中的即时消息图标。](../../media/90f8d5fa-7968-4ef7-bf5b-dddf9b893905.png)图标。
     
 3. 验证是否显示 IM 窗口，以及能否键入和发送 IM。
     
@@ -84,7 +84,7 @@ ms.locfileid: "60843535"
 
 1. 在Outlook中，安排Skype for Business会议。
     
-2. On your Windows Phone， open the meeting invitation.
+2. 在Windows Phone上，打开会议邀请。
     
 3. 单击会议中的链接以加入会议。
     
@@ -94,11 +94,11 @@ ms.locfileid: "60843535"
 
 1. 为此测试选择两个不同的用户帐户。 
     
-2. 在用户 A Windows Phone，Windows Phone版Skype for Business A 的帐户登录登录。
+2. 在用户 A 登录Windows Phone，Windows Phone版Skype for Business A 的帐户登录。
     
 3. 在设备上打开另一个应用程序。
     
-4. 在不同的客户端（如桌面客户端）上，Skype for Business B 的帐户登录登录。
+4. 在不同的客户端（如桌面客户端）上，Skype for Business B 的帐户登录。
     
 5. 将 IM 从用户 B 发送到用户 A。
     
@@ -106,11 +106,11 @@ ms.locfileid: "60843535"
     
 ## <a name="remove-skype-for-business-from-your-windows-phone"></a>从Skype for Business中删除Windows Phone
 
-若要从Windows Phone版Skype for Business中删除应用，请运行以下操作： 
+若要从Windows Phone版Skype for Business删除应用：： 
   
 1. 从开始屏幕中，轻扫以查看应用程序列表。 
     
-2. 点击并按住Windows Phone版Skype for Business应用程序，然后选择"卸载 **"。**
+2. 点击并按住Windows Phone版Skype for Business应用程序，然后选择"卸载 **"**。
     
 
 

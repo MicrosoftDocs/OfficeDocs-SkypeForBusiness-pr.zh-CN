@@ -1,8 +1,8 @@
 ---
 title: 获取项目
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: e77bf649-d62a-4d94-80de-066ba47730cd
 description: 摘要：了解作为项目服务的一部分的"获取项目"操作。 项目服务是通话质量仪表板存储库 API 的一部分。 通话质量仪表板是一种用于Skype for Business Server。
-ms.openlocfilehash: 1818bb0538fdc02d77c731cad7404643dc84fe28
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c99e848860d12b77a13dbf453298dc697cd2a665
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861229"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390984"
 ---
 # <a name="get-item"></a>获取项目
  
@@ -32,7 +32,7 @@ Get Item 返回存储库中的特定项。
   
 |**方法**|**请求 URI**|**HTTP 版本**|
 |:-----|:-----|:-----|
-|GET  <br/> |https:// \<portal\> /QoERepositoryService/repository/item/{itemId}  <br/> |HTTP/1.1  <br/> |
+|GET  <br/> |\<portal\>https:///QoERepositoryService/repository/item/{itemId}  <br/> |HTTP/1.1  <br/> |
    
  **URI 参数** - 无。
   
@@ -42,7 +42,7 @@ Get Item 返回存储库中的特定项。
   
  **响应** - 响应包括 HTTP 状态代码和一组响应标头。
   
- **状态代码** - 成功操作返回状态代码 200 (确定) 。 如果找不到指定的项目 ID，它将返回状态代码 404 (未找到) 。
+ **状态代码** - 成功操作返回状态代码 200， (确定) 。 如果未找到指定的项目 ID，它将返回状态代码 404 (未找到) 。
   
  **响应标头** - 无其他标头。
   
@@ -66,6 +66,6 @@ Get Item 返回存储库中的特定项。
   
  *type*  - 内容的类型。 此字段由应用程序设置。
   
- *subItemIds*  - 子项的 ID（如果有）。 这是 Get Sub-Items 操作以保存呼叫的短电路。 此外，应用程序可以使用 Get Sub-Items获取相同的信息。
+ *subItemIds*  - 子项的 ID（如果有）。 这是 Get Sub-Items 操作以保存呼叫的短电路。 或者，应用程序可以使用 Get Sub-Items相同的信息。
   
 

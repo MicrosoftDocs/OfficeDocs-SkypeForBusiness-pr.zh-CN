@@ -1,8 +1,8 @@
 ---
 title: 中介服务设置扩展器
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 7cfc838f-845b-4b73-bbdf-3c0c9b9aac1b
 description: 使用此页设置该中介服务器的侦听端口，并设置其与公用电话交换网 (PSTN) 网关的关联。
-ms.openlocfilehash: 30ea4b7296b23535a4d4af9dfe74197fc532a733
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 303fee22e4b409aeca6ec7e1cda7e6ca489983f2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834250"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392674"
 ---
 # <a name="mediation-service-setting-expander"></a>中介服务设置扩展器
  

@@ -1,8 +1,8 @@
 ---
 title: tblLastChatId
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 17a4ffbe-cca9-4ec5-ae46-38a15274889a
 description: LastChatId 包含上次为每个用户生成的并且在 tblChat 表中使用的聊天 ID。
-ms.openlocfilehash: a69c8ee112d507359a5582464ce39b7cbae89f4c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 219aa136ed24d6ffd0f5793fe12511c41c037da4
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838434"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390854"
 ---
 # <a name="tbllastchatid"></a>tblLastChatId
  

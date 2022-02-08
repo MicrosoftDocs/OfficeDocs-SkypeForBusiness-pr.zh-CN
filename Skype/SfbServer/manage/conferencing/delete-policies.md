@@ -1,8 +1,8 @@
 ---
 title: 删除会议策略Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,13 +11,13 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 497e6ca0-7a49-4f3e-9804-14414cf87b57
-description: 摘要：了解如何删除 Skype for Business Server 中的会议策略。
-ms.openlocfilehash: 47138386812ddd401b7aa9edb54f5a619914f6fe
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: 摘要：了解如何删除会议策略Skype for Business Server。
+ms.openlocfilehash: d0447facef0f94b4e2a9c073b23f51438db7080a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847375"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391164"
 ---
 # <a name="delete-conferencing-policies-in-skype-for-business-server"></a>删除会议策略Skype for Business Server
  
@@ -31,9 +31,9 @@ ms.locfileid: "60847375"
     
 2.  打开Skype for Business Server控制面板"。
     
-3. 在左侧导航栏中，单击 **"会议"，** 然后单击"**会议策略"。**
+3. 在左侧导航栏中，单击 **"会议"**，然后单击" **会议策略"**。
     
-4. 在会议策略列表中，单击要删除的站点或用户策略，再单击"编辑"，然后单击"删除 **"。**
+4. 在会议策略列表中，单击要删除的站点或用户策略，再单击"编辑"，然后单击"删除 **"**。
     
 ## <a name="delete-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>使用命令行管理程序删除Skype for Business Server策略
 

@@ -5,8 +5,8 @@ ms:assetid: c78d7e9b-c496-40c6-9249-06ced9cb87f3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552455(v=OCS.15)
 ms:contentKeyID: 48679566
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 了解如何配置对 SIP 联盟提供程序用户的支持。
-ms.openlocfilehash: a5812eafc92e466306d7047d2adb48338bef783d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b6a28714ec3ad81470f362f49605d0be4805dbe2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837574"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392554"
 ---
 # <a name="manage-sip-federated-providers-for-your-organization-in-skype-for-business-server"></a>在组织中管理组织的 SIP 联盟Skype for Business Server
 
@@ -38,7 +38,7 @@ ms.locfileid: "60837574"
 
 Skype for Business Server具有用于即时消息的公共提供程序配置。 每个公共提供程序均使用提供程序的边缘服务器完全限定域名和默认验证级别“仅允许用户与其联系人列表中使用此提供程序的人员进行通信”进行配置。
 
-作为默认设置，将不启用任何公共提供程序。 您应先完成许可协议和设置工作，然后再启用公共提供程序。 您可以先启用提供程序，然后再完成许可和设置工作。 在完成首要工作之前，用户将无法与这些提供程序的联系人进行通信。 有关公共提供商的许可和设置的详细信息，请参阅配置 [策略以控制公共用户访问](../external-access-policies/configure-policies-to-control-public-user-access.md)。
+作为默认设置，将不启用任何公共提供程序。 您应先完成许可协议和设置工作，然后再启用公共提供程序。 您可以先启用提供程序，然后再完成许可和设置工作。 在完成首要工作之前，用户将无法与这些提供程序的联系人进行通信。 有关公共提供商的许可和设置的详细信息，请参阅配置[策略以控制公共用户访问。](../external-access-policies/configure-policies-to-control-public-user-access.md)
 
 使用以下过程可创建或编辑公共提供程序。
 

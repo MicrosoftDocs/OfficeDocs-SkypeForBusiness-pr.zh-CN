@@ -1,8 +1,8 @@
 ---
 title: 为外部用户配置存档免责声明Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 394ac291-05cd-4fa1-acb3-714af538b47f
 description: 摘要：阅读本主题，了解如何配置存档Skype for Business Server。
-ms.openlocfilehash: 05eaec40556b383525331405463ee6d0a10e0a13
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d607bf05d1aca413194a793ed08f84ca57c16f96
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834710"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392274"
 ---
 # <a name="configure-archiving-disclaimers-for-external-users-in-skype-for-business-server"></a>为外部用户配置存档免责声明Skype for Business Server
  
@@ -39,11 +39,11 @@ ms.locfileid: "60834710"
     
 4. 在“访问边缘配置”选项卡上，单击“全局”，再单击“编辑”，然后单击“显示详细信息”。
     
-5. 在 **"编辑访问边缘配置**"中的"启用联盟和公共 **IM** 连接"下，选中或清除"向联盟伙伴发送存档免责声明"复选框以启用或禁用自动发送存档免责声明。
+5. 在 **"编辑访问边缘** 配置"中的"启用联盟和公共 **IM** 连接"下，选中或清除"向联盟伙伴发送存档免责声明"复选框以启用或禁用自动发送存档免责声明。
     
 6. 单击“提交”。
     
-## <a name="enable-or-disable-archiving-disclaimer-using-windows-powershell"></a>使用存档规则启用或禁用存档Windows PowerShell
+## <a name="enable-or-disable-archiving-disclaimer-using-windows-powershell"></a>启用或禁用存档免责声明Windows PowerShell
 
 要启用存档免责声明，请将 **EnableArchivingDisclaimer** 属性的值设置为 True ($True)：
   
