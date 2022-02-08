@@ -1,8 +1,8 @@
 ---
 title: 控制面板 - 已更新用户搜索
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 5/21/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 50feb75f-92a1-4916-b92e-c039e1290c52
 description: 您可以使用搜索查询的结果为用户配置Skype for Business Server。 可以按照显示名称、名字、姓氏、安全帐户管理器 (SAM) 帐户名、SIP 地址或线路统一资源标识符 (URI) 搜索用户。 您还可以使用 Lync Server 控制面板或 Active Directory 用户和计算机管理单元搜索用户。
-ms.openlocfilehash: 8ebb4c7d1c8288d3dfaef689422396130490aca0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 40a1ced2933abe628c7d1e56d9a1a7f66466769e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849035"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388490"
 ---
 # <a name="control-panel---updated-user-search"></a>控制面板 - 已更新：用户搜索
 
@@ -76,13 +76,13 @@ ms.locfileid: "60849035"
 
 ### <a name="search-results-menus"></a>搜索结果菜单
 
-- **启用用户** 单击以打开"[用户： 新建 Lync Server](users-new-lync-server-user.md)用户"对话框，可在其中添加新用户Skype for Business Server。
+- **启用用户** 单击以打开"[用户： 新建 Lync Server](users-new-lync-server-user.md) 用户"对话框，可在其中添加新Skype for Business Server。
 
-    若要添加新联系人，请单击向下箭头，然后选择"启用 **联系人** "以打开"用户： [新建联系人对象"](users-new-contact-objects.md) 对话框。
+    若要添加新联系人，请单击向下箭头，然后选择"启用 **联系人** "以打开"用户 [： 新建联系人对象"](users-new-contact-objects.md) 对话框。
 
 - **编辑** 单击 **"** 编辑"，然后单击"显示详细信息"以显示所选用户的详细信息，或单击"选择所有搜索结果"以选择结果表中显示的所有用户。
 
-- **操作** 单击 **"** 操作"，然后在搜索结果中选择要为所选用户执行的操作。 提供了以下选项：
+- **操作****单击"** 操作"，然后在搜索结果中选择要为所选用户执行的操作。 提供了以下选项：
 
   - **重新启用 Lync Server** 在临时禁用所选用户帐户后启用该帐户。
 
@@ -92,7 +92,7 @@ ms.locfileid: "60849035"
 
   - **查看 PIN 状态** 打开" [用户： 查看 PIN 状态](users-view-pin-status.md) "对话框，其中显示所选用户的 PIN 数据。
 
-  - **设置 PIN** 打开 ["设置 PIN"](set-pin.md) 对话框，可在其中为所选用户设置 PIN。
+  - **设置 PIN** 打开 ["设置 PIN](set-pin.md) "对话框，可在其中为所选用户设置 PIN。
 
   - **锁定 PIN** 锁定用户的 PIN。
 

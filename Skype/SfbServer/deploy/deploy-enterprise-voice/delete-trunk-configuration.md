@@ -1,8 +1,8 @@
 ---
 title: Skype for Business Server：删除 SIP 中继配置设置的现有集合
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3b25f14d-884b-42dd-a866-460d276d3e43
 description: 摘要：了解如何使用"控制面板"删除中继配置Skype for Business Server集合。
-ms.openlocfilehash: d438db687c8af918a1ac0da67542048ac2fa0bae
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0258b509dee67a657b67d567f5986b240823cf29
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860879"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388884"
 ---
 # <a name="skype-for-business-server-delete-an-existing-collection-of-sip-trunk-configuration-settings"></a>Skype for Business Server：删除 SIP 中继配置设置的现有集合 
  
@@ -35,31 +35,31 @@ SIP 中继配置设置定义中介服务器与服务提供商的公用电话交�
     
 - 每个中继上是否需要安全实时传输 (SRTP) 加密
     
-在安装Skype for Business Server时，将创建 SIP 中继配置设置的全局集合。 此全局集合设置无法删除。 但是，您可以使用 Skype for Business Server 或[Remove-CsTrunkConfiguration](/powershell/module/skype/remove-cstrunkconfiguration) cmdlet 将全局集合中的属性"重置"为默认值。 例如，如果已将 Enable3pccRefer 属性设置为 True，则当您重置全局集合时，Enable3pccRefer 属性将还原为其默认值 False。
+安装客户端Skype for Business Server，将创建 SIP 中继配置设置的全局集合。 此全局集合设置无法删除。 但是，您可以使用 Skype for Business Server 或 [Remove-CsTrunkConfiguration](/powershell/module/skype/remove-cstrunkconfiguration) cmdlet 将全局集合中的属性"重置"为默认值。 例如，如果已将 Enable3pccRefer 属性设置为 True，则当您重置全局集合时，Enable3pccRefer 属性将还原为其默认值 False。
   
 管理员还可以在站点作用域或服务作用域（针对单个 PSTN 网关）创建自定义中继配置设置；这些自定义设置可以删除。 删除这些自定义设置时，请记住以下事项：
   
 - 如果删除了服务作用域设置，由这些设置管理的 SIP 中继将由应用于这些站点的设置（如果存在）管理。如果站点设置不存在，这些中继随后会由中继配置设置的全局集合管理。
     
-- 如果删除站点范围的设置，则由这些设置管理的任何 SIP 中继现在都将由中继配置设置的全局集合管理。
+- 如果删除站点范围的设置，则由这些设置管理的任何 SIP 中继现在都将由中继配置设置的全局集合进行管理。
     
 ### <a name="to-remove-trunk-configuration-settings-with-skype-for-business-server-control-panel"></a>使用控制面板删除中继Skype for Business Server设置
 
-1. 在Skype for Business Server控制面板"中，单击"**语音路由**"，然后单击"**中继配置"。**
+1. 在Skype for Business Server控制面板"中，单击"**语音路由"**，然后单击"**Trunk 配置"**。
     
-2. 在 **"Trunk 配置"** 选项卡上，选择要删除的 SIP 中继配置设置的集合，单击"编辑"，然后单击"删除 **"。** 若要在同一操作中删除多个集合，请单击要删除的第一个集合，然后按住 Ctrl 键，然后单击任何其他要删除的集合。
+2. 在"**Trunk 配置**"选项卡上，选择要删除的 SIP 中继配置设置的集合，单击"编辑"，然后单击"删除 **"**。 若要在同一操作中删除多个集合，请单击要删除的第一个集合，然后按住 Ctrl 键，然后单击任何其他要删除的集合。
     
 3. 集合的“状态”属性将更新为“未提交”。若要提交更改和删除集合，请单击“提交”，然后单击“全部提交”。
     
 4. 在“未提交的语音配置设置”对话框中，单击“确定”。
     
-5. 在 **"Skype for Business Server控制面板**"对话框中，单击"确定 **"。**
+5. 在"**Skype for Business Server控制面板**"对话框中，单击"确定 **"**。
     
-6. 如果您改变了想法并决定不删除集合，请单击“提交”，然后单击“取消所有未提交的更改”。 当显示 **Skype for Business Server控制面板**"对话框时，单击"确定 **"。**
+6. 如果您改变了想法并决定不删除集合，请单击“提交”，然后单击“取消所有未提交的更改”。 当显示 **Skype for Business Server控制面板**"对话框时，单击"确定 **"**。
     
 ## <a name="removing-trunk-configuration-settings-by-using-skype-for-business-server-management-shell-cmdlets"></a>使用命令行管理设置 Cmdlet 删除Skype for Business Server配置配置
 
-可以使用命令行管理程序和 **Remove-CsTrunkConfiguration** cmdlet Skype for Business Server中继配置设置。 可以从命令行管理程序或命令行管理Skype for Business Server远程会话中运行此 cmdlet Skype for Business Server命令行管理程序。
+可以使用命令行管理程序和 **Remove-CsTrunkConfiguration** cmdlet Skype for Business Server中继配置设置。 可以从命令行管理程序或 Skype for Business Server命令行管理程序的远程会话中运行Skype for Business Server cmdlet。
   
 ### <a name="to-remove-a-specified-collection-of-settings"></a>删除指定的设置集合
 

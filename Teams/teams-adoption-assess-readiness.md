@@ -1,7 +1,7 @@
 ---
 title: 贵组织为 Microsoft Teams 准备到什么程度？
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 105df2024ad67710b1de1e92208deeab6c7b9226
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: dd02e915ad6ced07afdf2f9dc9dbf29e8a68b69d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865621"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387480"
 ---
 # <a name="how-ready-is-your-organization-for-microsoft-teams"></a>贵组织为 Microsoft Teams 准备到什么程度？
 
@@ -44,11 +44,11 @@ ms.locfileid: "60865621"
 2. 评价此领导对当前技术的满意度。
 3. 此领导是否愿意使用未经批准的技术来加速结果或为团队成员创造更好的体验？
 4. 此领导者在提供关键业务结果方面是否承受了巨大压力？ 
-5. 此领导愿意宣传他/她使用新Teams来帮助进行过渡吗？
+5. 此领导愿意宣传他/她与Teams，以帮助进行过渡？
 6. 此主管是否与现有项目团队的关键成员具有积极的关系？
 7. 此领导是否希望被视为组织内部的"更改代理"？  
 
-可以添加与组织相关的其他问题。 对于启动和试验 (的初始两个阶段) ，你将看到领导很友好、对当前技术有些不满意，并且你具有良好关系。 这些领导应作为业务顾问进入核心项目团队，并且可能有项目对于试验阶段至关重要。 必须选择要试验的具有影响力的真实情况，并避免初始试验的高风险项目。
+可以添加与组织相关的其他问题。 对于启动 (试验) 的初始两个阶段，你将看到领导，他们很友好，对当前技术有些不满意，并且你具有良好的关系。 这些领导应作为业务顾问进入核心项目团队，并且可能有项目对于试验阶段至关重要。 必须选择要试验的具有影响力的真实情况，并避免初始试验的高风险项目。
    
 > [!NOTE]
 > 虽然可以为此类型的调查问卷分配分数，以最大程度地降低组织中关系的人性元素的影响，但推动变化取决于团队的化学程度以及其技术技能或业务才能。 在选择项目和人员以用于后续阶段时，与团队成员一起查看此列表，讨论各种领导对此项目的"适合性"。 

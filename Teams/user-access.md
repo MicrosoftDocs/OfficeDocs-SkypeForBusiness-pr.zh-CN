@@ -1,7 +1,7 @@
 ---
 title: 管理对 Microsoft Teams 的用户访问
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0f7cf49f39f7a4df5dc7abe044b107f2bb9a5bbb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0d467e2e3fcdff6e688c13d952f434e635f7d038
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829516"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384120"
 ---
 # <a name="manage-user-access-to-teams"></a>管理对 Teams 的用户访问
 
@@ -54,7 +54,7 @@ Teams 用户级别许可证是直接通过 Microsoft 365 管理中心用户管�
 
 |&nbsp;|&nbsp;|
 |---------|---------|
-|![为用户启用Teams许可证的屏幕截图 1。](media/assign-teams-licenses-1.png)    | ![为用户Teams许可证的屏幕截图 2](media/assign-teams-licenses-2.png)        |
+|![为用户启用Teams许可证的屏幕截图 1。](media/assign-teams-licenses-1.png)    | ![为用户启用Teams许可证的屏幕截图 2](media/assign-teams-licenses-2.png)        |
 
 ### <a name="remove-a-teams-license"></a>删除 Teams 许可证
 

@@ -1,8 +1,8 @@
 ---
 title: 添加控制器 Web 服务
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,20 +14,20 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3ed3bdde-c3b5-4fe9-a96b-37099cbd6234
 ROBOTS: NOINDEX, NOFOLLOW
-description: 基 URL 指的是 URL 的 Web 服务标识减去 https://。 例如，如果池的 Web 服务的完整 URL 为 `https://pool01.contoso.net` ，则基 URL 为 `pool01.contoso.net` 。
-ms.openlocfilehash: d3341889606371b363d5e37b3d5a76af9e3d7911
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: 基 URL 指的是 URL 的 Web 服务标识减去 https://。 例如，如果池的 Web 服务的完整 URL 为 `https://pool01.contoso.net`，则基 URL 为 `pool01.contoso.net`。
+ms.openlocfilehash: 71d59f79503cfc8025649d912f3c3dc2b5397690
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853466"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388810"
 ---
 # <a name="add-director-web-service"></a>添加控制器 Web 服务
  
-基 URL 指的是 URL 的 Web 服务标识减去 https://。 例如，如果池的 Web 服务的完整 URL 为 `https://pool01.contoso.net` ，则基 URL 为 `pool01.contoso.net` 。
+基 URL 指的是 URL 的 Web 服务标识减去 https://。 例如，如果池的 Web 服务的完整 URL 为 `https://pool01.contoso.net`，则基 URL 为 `pool01.contoso.net`。
   
-如果仅部署单个控制器，则不能覆盖内部 Web 服务池完全限定的域名 (FQDN)。 如果要为控制器池配置域名系统 (DNS) 负载平衡，可以指定不同的内部基 URL (该 URL 必须与池 FQDN 不同，例如，可以是 internal- \<your base URL\>) 。
+如果仅部署单个控制器，则不能覆盖内部 Web 服务池完全限定的域名 (FQDN)。 如果要为控制器池配置域名系统 (DNS) 负载平衡，可以指定不同的内部基 URL (该 URL 必须与池 FQDN 不同，例如，可以是 internal-\<your base URL\>) 。
   
-可以指定与内部基 URL 不同的外部基 URL 以区分域命名。 例如，内部域是 `contoso.net` ，但外部域名是 `contoso.com` 。 可以使用 定义外部基 `contoso.com domain name` URL。 这对于边缘部署中的反向代理服务器非常重要。 外部基 URL 域名应该与反向代理的 FQDN 域名相同。 
+可以指定与内部基 URL 不同的外部基 URL 以区分域命名。 例如，内部域是 ， `contoso.net`但外部域名是 `contoso.com`。 可以使用 定义外部基 URL `contoso.com domain name`。 这对于边缘部署中的反向代理服务器非常重要。 外部基 URL 域名应该与反向代理的 FQDN 域名相同。 
   
 

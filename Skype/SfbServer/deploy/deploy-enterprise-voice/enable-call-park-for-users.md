@@ -1,8 +1,8 @@
 ---
 title: 为呼叫服务中的用户启用Skype for Business
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9430763f-3394-467c-9c6d-426bf761604e
 description: 为用户启用呼叫Skype for Business Server 企业语音。
-ms.openlocfilehash: 87ac29c8f9b6c893149db8fb91561ee4b3cf1166
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 84a37ad9e3b77042c1c2c04d1d6562b3bb780ee2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843505"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386341"
 ---
 # <a name="enable-call-park-for-users-in-skype-for-business"></a>为呼叫服务中的用户启用Skype for Business
  
@@ -33,7 +33,7 @@ ms.locfileid: "60843505"
   
 ### <a name="to-use-skype-for-business-server-control-panel-to-enable-call-park-for-users"></a>使用Skype for Business Server控制面板为用户启用呼叫等待
 
-1. 以 **RTCUniversalServerAdmins** 组的成员或 **CsVoiceAdministrator、CsServerAdministrator** 或 **CsAdministrator** 管理角色 成员登录到计算机。 
+1. 以 **RTCUniversalServerAdmins** 组的成员或 **CsVoiceAdministrator**、 **CsServerAdministrator** 或 **CsAdministrator** 管理角色 成员登录到计算机。
     
 2. 打开Skype for Business Server控制面板"。
     
@@ -43,7 +43,7 @@ ms.locfileid: "60843505"
     
 5. 双击现有语音策略以打开" **编辑语音策略"** 对话框。
     
-6. 在 **"呼叫功能"** 下，选择 **"启用呼叫管理"。**
+6. 在 **"呼叫功能"** 下，选择 **"启用呼叫管理"**。
     
 7. 单击 **"** 确定"保存语音策略
     
@@ -51,7 +51,7 @@ ms.locfileid: "60843505"
 
 1. 以 RTCUniversalServerAdmins 组成员或 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 管理角色成员的身份登录计算机。
     
-2. 启动命令行Skype for Business Server：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击"Skype for Business Server **命令行管理程序"。**
+2. 启动命令行Skype for Business Server：单击"开始"**，单击"** 所有程序"**，单击"****Skype for Business 2015"**，然后单击"Skype for Business Server **命令行管理程序"**。
     
 3. 运行：
     

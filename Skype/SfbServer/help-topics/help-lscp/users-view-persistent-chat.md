@@ -1,8 +1,8 @@
 ---
 title: 用户查看持久聊天
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: c66c6689-28a2-4758-add1-0d0dff0d3eee
 description: CsPersistentChatAdministrator 角色的成员 (持久聊天管理员) 可以将聊天室管理员权限授予其他用户和自己。
-ms.openlocfilehash: 53c18ac8a9c04720b5eb2d9c53fb41f955cc263d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 86ba6c98b912d4ef2fa918144a0009899375ee50
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854546"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388380"
 ---
 # <a name="users-view-persistent-chat"></a>用户：查看持久聊天
 
@@ -48,4 +48,4 @@ ms.locfileid: "60854546"
 
 - [了解持久聊天成员身份](/previous-versions/office/lync-server-2013/understanding-persistent-chat-membership)
 
-有关可以使用控制面板执行的不同过程的详细信息，请参阅 Manage [Skype for Business Server Skype for Business Server 2015](../../manage/manage.md)。
+有关可以使用控制面板执行的不同过程的详细信息，Skype for Business Server Manage [Skype for Business Server 2015](../../manage/manage.md)。

@@ -1,8 +1,8 @@
 ---
 title: 在部署中管理Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,18 +12,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b2f8ce22-938e-4e22-8a1a-c829a1366b27
 description: 摘要：了解在部署中管理拓扑Skype for Business Server。
-ms.openlocfilehash: 7d55995727de00b2d8cfcdd4c509e0814c787dd9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d52139222ad1fb96f5fddd3553cafd83b3795b8a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862219"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385631"
 ---
 # <a name="manage-your-topology-in-skype-for-business-server"></a>在部署中管理Skype for Business Server 
  
 **摘要：** 了解在部署中管理拓扑Skype for Business Server。
   
-以下主题提供有关管理部署拓扑和前端服务器Skype for Business Server任务的分步说明。
+以下主题提供有关管理您的 Skype for Business Server 拓扑和前端服务器所涉及的任务的分步说明。
   
 - [管理前端服务器](manage-front-end-servers.md)
     

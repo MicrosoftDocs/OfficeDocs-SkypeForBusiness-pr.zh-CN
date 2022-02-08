@@ -1,7 +1,7 @@
 ---
 title: 在尼日利亚的可用性
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: 8b73682321fb1b82223ff2fd7e3c5a7ebe741e6c
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+ms.openlocfilehash: bfb76aa91f2af5e52f53e96862e121ae5bf8c0cb
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62191753"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389034"
 ---
 # <a name="availability-in-nigeria"></a>在尼日利亚的可用性
 
@@ -72,7 +72,7 @@ ms.locfileid: "62191753"
 |是否提供收费电话号码？  <br/> |是  <br/> |
 |免费电话号码是否可用？  <br/> |否  <br/> |
    
- 如果要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅获取电话和[Skype for Business Microsoft Teams。](../getting-service-phone-numbers.md)
+ 如果要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅获取电话和Skype for Business [Microsoft Teams](../getting-service-phone-numbers.md)。
   
 ## <a name="communications-credits"></a>通信点数
 

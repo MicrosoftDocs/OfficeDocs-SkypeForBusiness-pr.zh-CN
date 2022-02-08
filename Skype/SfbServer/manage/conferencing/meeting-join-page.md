@@ -1,8 +1,8 @@
 ---
 title: 在"会议"中配置与会Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,22 +12,22 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6537765e-4384-416f-92f1-a7f3b39ebe56
 description: 摘要：了解如何在 Skype for Business Server 中配置与会Skype for Business Server。
-ms.openlocfilehash: a1f30d2c9bf803b4c41ed4053709b4869f163757
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 9e2cefa5bb280d2a8570bc65b0c596e42380c19d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832086"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385730"
 ---
 # <a name="configure-the-meeting-join-page-in-skype-for-business-server"></a>在"会议"中配置与会Skype for Business Server
  
 **摘要：** 了解如何在 Skype for Business Server 中配置与会Skype for Business Server。
   
-当用户单击会议请求中的会议链接时，与会页面Skype for Business用户计算机上是否已安装会议客户端。 如果已安装客户端，则将打开该客户端并加入会议。 如果未安装客户端，则默认情况下将打开Skype for Business客户端。 
+当用户单击会议请求中的会议链接时，与会页面将检测Skype for Business是否已在用户计算机上安装了会议客户端。 如果已安装客户端，则将打开该客户端并加入会议。 如果未安装客户端，则默认情况下将打开Skype for Business客户端。 
   
 ## <a name="configure-the-meeting-join-page"></a>配置会议加入页面
 
-如果要允许用户使用客户端的其他版本加入会议，可以修改与会页面的行为。 已从控制面板中删除这些Skype for Business Server选项，但您可以使用 Set-CsWebServiceConfiguration cmdlet 配置它们。
+如果要允许用户使用客户端的其他版本加入会议，可以修改与会页面的行为。 已从控制面板中删除这些Skype for Business Server选项，但您可以使用 Set-CsWebServiceConfiguration cmdlet 对其进行配置。
   
 **与会页面Set-CsWebServiceConfiguration参数**
 

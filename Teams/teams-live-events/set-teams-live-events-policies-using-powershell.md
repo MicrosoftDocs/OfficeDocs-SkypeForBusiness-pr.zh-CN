@@ -1,7 +1,7 @@
 ---
 title: 使用 PowerShell 设置实时事件策略
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 07/10/2019
 ms.topic: article
@@ -14,16 +14,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
-description: 有关如何使用 PowerShell 在 Teams 中设置策略以控制哪些人可以保存组织中实时事件以及事件可用功能的示例。
+description: 如何使用 PowerShell 在 Teams 中设置策略的示例，以控制谁可以在组织中保存实时事件以及事件可用的功能。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: cda9da872d8464064c137713e8eb16ceede7941e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 8a834cfd85cdf9f4839b9351b16c1a2e1ca43e9c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851726"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387420"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>使用 PowerShell 在 Microsoft Teams 中设置实时事件策略
 
@@ -37,7 +37,7 @@ ms.locfileid: "60851726"
 下面是一些示例。
 
 > [!NOTE]
-> 在运行这些 cmdlet 之前，必须连接到 Skype for Business PowerShell。 有关详细信息，请参阅使用[powerShell Skype for Business管理 Microsoft 365 Office 365 Online。](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
+> 在运行这些 cmdlet 之前，必须连接到 Skype for Business PowerShell。 有关详细信息，请参阅使用 [powerShell Skype for Business管理 Microsoft 365 Office 365 Online](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)。
 
 ## <a name="allow-users-to-schedule-live-events"></a>允许用户计划实时事件 
 
@@ -46,7 +46,7 @@ ms.locfileid: "60851726"
 
 **允许用户计划实时事件**
 
-如果为用户分配了全局策略，请运行 并验证 *AllowBroadcastScheduling* 参数是否设置为 *True：*
+如果为用户分配了全局策略，请运行 并验证 *AllowBroadcastScheduling* 参数是否设置为 *True*：
 ```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -identity Global
 ```
@@ -58,11 +58,11 @@ Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ### <a name="user-scenarios"></a>用户方案
 **希望组织中的所有用户能够安排实时事件**
 
-如果为用户分配了全局策略，请运行 并验证 *AllowBroadcastScheduling* *是否设置为 *True：*
+如果为用户分配了全局策略，请运行 并验证 *AllowBroadcastScheduling* *是否设置为 *True*：
 ```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -identity Global
 ```
-如果为用户分配了全局策略外的策略，请运行 并验证 *-AllowBroadcastScheduling* 是否设置为 *True：*
+如果为用户分配了全局策略外的策略，请运行 *并验证 -AllowBroadcastScheduling* 是否设置为 *True*：
 ```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -identity {policy name}
 ```
@@ -79,7 +79,7 @@ Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 
 **您希望大量用户能够计划实时事件，并防止一组用户计划这些事件**
 
-运行 并验证 *AllowBroadcastScheduling* 是否设置为 *True：*
+运行 并验证 *AllowBroadcastScheduling* 是否设置为 *True*：
 ```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -Identity Global
 ```

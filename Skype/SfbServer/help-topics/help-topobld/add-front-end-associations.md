@@ -1,8 +1,8 @@
 ---
 title: 添加前端关联
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 95620425-defd-47fd-a5c0-e4a283d812a5
 description: 通过将服务器角色与前端池关联，可以启用对需要部署其他服务器的特定功能的支持。 还可以稍后将服务器角色与前端池关联。 可以与前端池关联的服务器角色包括：
-ms.openlocfilehash: dd1e5a7ffa91e5a46cde0faff99fe67ab083e7bc
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 499144870cfe4b4158993d9e758c5cd71cdb90e0
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862609"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390284"
 ---
 # <a name="add-front-end-associations"></a>添加前端关联
 

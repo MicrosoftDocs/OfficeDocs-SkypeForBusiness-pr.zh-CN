@@ -1,8 +1,8 @@
 ---
 title: 呼叫详情报告Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 38862e35-3fec-41b9-a035-0b301942d446
-description: 摘要：了解用于呼叫Skype for Business Server。
-ms.openlocfilehash: 8f5d9e99a9141e1954aef2636ed5d671003e6ad3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: 摘要：了解呼叫报告中使用的呼叫Skype for Business Server。
+ms.openlocfilehash: d6d8a79506e215bd46a54c89969fc5991f9962d6
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834210"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385614"
 ---
 # <a name="call-detail-report-in-skype-for-business-server"></a>呼叫详情报告Skype for Business Server
  
-**摘要：** 了解在呼叫记录中使用的呼叫Skype for Business Server。
+**摘要：** 了解在呼叫记录中使用的呼叫详细信息Skype for Business Server。
   
-呼叫详情报告提供单个呼叫的详细外观;该报告包括几乎所有用户体验质量指标和由组织收集的统计信息Skype for Business Server分为以下报告部分：
+呼叫详情报告提供单个呼叫的详细外观;该报告包括几乎所有由组织收集的用户体验质量指标和Skype for Business Server，分为以下报告部分：
   
 - 呼叫信息 
     
@@ -51,17 +51,17 @@ ms.locfileid: "60834210"
 
 可以从下列任意报告中访问呼叫详情报告：
   
-- [位置报告中Skype for Business Server (location-report.md)  (单击呼叫量或质量欠佳的呼叫百分比指标) 
+- [位置报告Skype for Business Server (location-report.md)  (单击呼叫量或质量欠佳的呼叫百分比指标) 
     
 - [Media Quality Summary Report in Skype for Business Server (summary.md)  (by clicking either the Call volume or Poor call percentage metric) 
     
-- 通过[单击"呼叫](comparison.md)列表报告Skype for Business Server (Skype for Business Server报告中的"呼叫列表报告["，](call-list-report-0.md)然后单击"详细信息"指标) 。
+- 通过[单击"呼叫](comparison.md)列表报告"Skype for Business Server ([Skype for Business Server](call-list-report-0.md)然后单击"详细信息"指标，) 。
     
 - 通过[单击"呼叫量"](server-performance.md)或"质量欠佳的呼叫百分比"指标Skype for Business Server (中的服务器性能报告) 
     
-- 通过[单击"详细信息Skype for Business Server (](call-list-report-0.md)报告中的呼叫列表报告) 
+- 通过[单击"详细信息Skype for Business Server](call-list-report-0.md) (报告中的呼叫列表报告) 
     
-在呼叫详细信息报告中，可以通过单击以下指标之[](device-report.md)一Skype for Business Server报告中的设备报告：
+从呼叫详细信息报告中，可以通过单击以下任一指标[Skype for Business Server](device-report.md)报告中的设备报告：
   
 - 捕获设备
     
@@ -73,7 +73,7 @@ ms.locfileid: "60834210"
 
 呼叫详情报告通常包括 250 多个不同的指标，其中包括麦克风时间戳偏移、低 SNR 时间和近端回声时间等项目。如果您不记得所有这些指标实际度量的内容，请尝试将鼠标指针置于指标标签上方；通常，将显示描述该指标的工具提示。
   
-如果在查找指标时遇到问题，请在搜索框中键入指标标签的一部分，然后单击"查找 **"。** 例如，如果找不到"低 SNR 时间"指标，请在搜索框中键入 SNR，然后单击"查找 **"。**
+如果查找指标时遇到问题，请在搜索框中键入指标标签的一部分，然后单击"查找 **"**。 例如，如果找不到"低 SNR 时间"指标，请在搜索框中键入 SNR，然后单击"查找 **"**。
   
 请注意，报告仅跟踪有关呼叫的信息。 不会记录呼叫本身。
   

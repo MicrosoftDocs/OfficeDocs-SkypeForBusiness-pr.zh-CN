@@ -1,8 +1,8 @@
 ---
 title: 混合向导"移动用户"
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: be38b89c-3e8e-4d40-af49-fb650785d9a3
 ROBOTS: NOINDEX, NOFOLLOW
 description: 使用"移动用户"向导将本地池中的用户帐户移动到 Skype for Business Online 上。 有关详细信息，请参阅使用混合可管理性向导。
-ms.openlocfilehash: 3758fda6c1b299329be991f2e061598e769e7e7b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: eabe6ad788cb3801001a90bf8635b91be0fea072
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828245"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386210"
 ---
 # <a name="hybrid-wizard-move-user"></a>混合向导：移动用户
 

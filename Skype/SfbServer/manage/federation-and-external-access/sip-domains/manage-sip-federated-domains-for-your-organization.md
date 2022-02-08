@@ -5,8 +5,8 @@ ms:assetid: abc48829-e5cf-4651-bc38-899192f5c3bc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552454(v=OCS.15)
 ms:contentKeyID: 48679565
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 了解如何管理和配置可以联盟的 SIP 域，
-ms.openlocfilehash: b50da7b95bab938a3b5026ce859f423f8a2718a9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0c79141a491f713c1a6858d6703fc3fac55d5b20
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836354"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386640"
 ---
 # <a name="manage-sip-federated-domains-for-your-organization-in-skype-for-business-server"></a>在组织中管理组织的 SIP 联盟Skype for Business Server
 
@@ -49,7 +49,7 @@ ms.locfileid: "60836354"
       - 在“域名(或 FQDN)”中，键入联盟伙伴域的名称。       
 
         > [!NOTE]  
-        > 此名称必须是唯一的，并且不能与运行访问边缘服务的服务器的允许域的已有名称相同。该名称的长度不能超过 256 个字符。<BR><br>搜索联盟伙伴域名时执行后缀匹配。例如，如果键入 **contoso.com**，搜索还将返回域 **it.contoso.com**。<BR><br>无法同时阻止和允许联盟合作伙伴域。 Skype for Business Server阻止这种情况发生，这样您就不需要同步列表。
+        > 此名称必须是唯一的，并且不能与运行访问边缘服务的服务器的允许域的已有名称相同。该名称的长度不能超过 256 个字符。<BR><br>搜索联盟伙伴域名时执行后缀匹配。例如，如果键入 **contoso.com**，搜索还将返回域 **it.contoso.com**。<BR><br>无法同时阻止和允许联盟合作伙伴域。 Skype for Business Server阻止这种情况发生，以便你不需要同步列表。
     
       - 如果要将对此联盟域的访问限制为运行访问边缘服务的特定服务器的用户，请在“访问边缘服务(FQDN)”中键入运行访问边缘服务的联盟域的服务器的 FQDN。    
       - 如果要提供其他信息，请在“注释”中键入要与其他系统管理员共享的有关此配置的信息。
@@ -63,7 +63,7 @@ ms.locfileid: "60836354"
 
 ## <a name="configure-support-for-blocked-external-domains-in-skype-for-business-server"></a>配置对网站中阻止的外部域Skype for Business Server 
 
-如果您配置了对联盟伙伴的支持，则可通过与您的组织联盟来管理将阻止的域。 被阻止的域的列表将充当阻止名单（不允许使用的显式条目的列表）并将在联盟域发现中应用（如果您启用了此选项）。 有关详细信息，请参阅启用 [或禁用联盟伙伴的发现](../access-edge/enable-or-disable-discovery-of-federation-partners.md)。
+如果您配置了对联盟伙伴的支持，则可通过与您的组织联盟来管理将阻止的域。 被阻止的域的列表将充当阻止名单（不允许使用的显式条目的列表）并将在联盟域发现中应用（如果您启用了此选项）。 有关详细信息，请参阅 [启用或禁用联盟伙伴发现](../access-edge/enable-or-disable-discovery-of-federation-partners.md)。
 
 阻止一个或多个外部域连接到您的组织。要执行此操作，请将相应的域添加到阻止域列表中。
 
@@ -79,7 +79,7 @@ ms.locfileid: "60836354"
       - 在“域名(或 FQDN)”中，键入要阻止的联盟伙伴域的名称。
 
         > [!NOTE]  
-        > 该名称的长度不能超过 256 个字符。<BR><br>搜索联盟伙伴域名时执行后缀匹配。例如，如果键入 **contoso.com**，搜索还将返回域 **it.contoso.com**。<BR><br>无法同时阻止和允许联盟合作伙伴域。 Skype for Business Server阻止这种情况发生，这样您就不需要同步列表。
+        > 该名称的长度不能超过 256 个字符。<BR><br>搜索联盟伙伴域名时执行后缀匹配。例如，如果键入 **contoso.com**，搜索还将返回域 **it.contoso.com**。<BR><br>无法同时阻止和允许联盟合作伙伴域。 Skype for Business Server阻止这种情况发生，以便你不需要同步列表。
    
       - （可选）在“注释”中，键入要与其他系统管理员共享的有关此配置的信息。
 

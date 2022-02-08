@@ -1,8 +1,8 @@
 ---
 title: Skype for Business Server 中的边缘服务器Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 audience: ITPro
 ms.topic: conceptual
 manager: serdars
@@ -15,13 +15,13 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 7b9c211b-deb0-479d-b184-973f08b96d07
-description: 摘要：查看这些方案可帮助您在部署中规划边缘服务器Skype for Business Server。
-ms.openlocfilehash: f70dbf858757469d21ebb8b2e6d1ae5192ed0118
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: 摘要：查看这些方案可帮助您规划 Skype for Business Server 中的边缘服务器拓扑。
+ms.openlocfilehash: c900d7e6bd8649ffd0e45f1033581ee0523724cb
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838524"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387920"
 ---
 # <a name="edge-server-scenarios-in-skype-for-business-server"></a>Skype for Business Server 中的边缘服务器Skype for Business Server
  
@@ -29,18 +29,18 @@ ms.locfileid: "60838524"
   
 我们具有一些方案图，可帮助可视化和确定Skype for Business Server边缘服务器拓扑结构。 选择好候选项后，可以继续阅读需要满足的环境要求。 以下内容适用于任何方案，因此我们首先提到它。
   
-这些图（以 (为例）包含示例 IPv4 和 IPv6 数据) ，并不表示实际的通信流，而是可能流量的高级别视图。 还可以在下面每个方案的端口图中查看端口详细信息。
+这些图（以 (为例）包含示例 IPv4 和 IPv6 数据) ，并不表示实际通信流，而是可能流量的高级别视图。 还可以在下面每个方案的端口图中查看端口详细信息。
   
 图中显示了外部接口的 .com 和内部接口的 .net，这也是示例材料;当然，在将自己的最终边缘计划放在一起时，你自己的条目可能会完全不同。
   
-我们未在任何图中包括控制器 (该组件是可选组件) ，但你可以单独阅读 (其他规划主题) 。
+我们未在任何图中包括控制器 (，它是可选组件) ，但你可以单独阅读有关该 (如其他规划主题) 。
   
-如上所述，图表中有示例 IPv6 数据。 Plan [for Edge Server deployments in Skype for Business Server](edge-server-deployments.md)中的大多数文档将引用 IPv4，但如果要使用 IPv6，则当然支持你。 请注意，在分配的地址空间中将需要 IPv6 地址，它们将需要与 IPv4 IP 一样用于内部和外部寻址。 借助这一Windows，您可以使用双协议栈功能，这是适用于 IPv4 和 IPv6 的单独且不同的网络堆栈。 如果需要，这将允许您同时分配 IPv4 和 IPv6 地址。
+如上所述，图表中有示例 IPv6 数据。 Plan [for Edge Server deployments in Skype for Business Server](edge-server-deployments.md)中的大多数文档将引用 IPv4，但如果要使用 IPv6，则肯定支持你。 请注意，在分配的地址空间中将需要 IPv6 地址，它们将需要与 IPv4 IP 一样用于内部和外部寻址。 借助这一Windows，您可以使用双协议栈功能，这是适用于 IPv4 和 IPv6 的单独且不同的网络堆栈。 如果需要，这将允许您同时分配 IPv4 和 IPv6 地址。
   
-一些 NAT 设备允许 NAT64 (IPv6 到 IPv4) NAT66 (IPv6 到 IPv6) ) ，这适用于 Skype for Business Server。
+一些 NAT 设备允许 NAT64 (IPv6 到 IPv4) 和 NAT66 (IPv6 到 IPv6) ) ，这适用于 Skype for Business Server。
   
 > [!IMPORTANT]
-> 如果使用呼叫允许控制 (CAC) 您必须在内部接口上使用 IPv4，它工作。 
+> 如果使用呼叫允许控制 (CAC) 您必须在内部接口上使用 IPv4，它仍然能正常工作。 
   
 ## <a name="single-consolidated-skype-for-business-server-edge-server-with-private-ip-addresses-and-nat"></a>使用专用 IP Skype for Business Server NAT 的单一合并边缘服务器
 
@@ -54,7 +54,7 @@ ms.locfileid: "60838524"
   
 ![边缘方案单一合并边缘的网络外围。](../../media/Plan_LyncServer_Edge_NetPerimeter_SingleConsolidatedEdge.jpg)
   
-## <a name="single-consolidated-skype-for-business-server-edge-server-with-public-ip-addresses"></a>使用公用 IP Skype for Business Server单一合并边缘服务器
+## <a name="single-consolidated-skype-for-business-server-edge-server-with-public-ip-addresses"></a>使用公共 IP Skype for Business Server单一合并边缘服务器
 
 在此方案中，没有高可用性选项。 这意味着在硬件上花费更少，部署更简单。 如果必须高可用性，请查看下面的扩展合并方案。
   

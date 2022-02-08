@@ -1,7 +1,7 @@
 ---
 title: 在维尔京群岛的可用性
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于Microsoft 365 Office 365群岛的Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: 40d1617dde8ee45971f705b96e17df61d710b261
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+ms.openlocfilehash: d5a66a27bf2cbf4ecfa8b5e115aa3545f462cd9e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62190633"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384130"
 ---
 # <a name="availability-in-the-cayman-islands"></a>在维尔京群岛的可用性
 
@@ -72,7 +72,7 @@ ms.locfileid: "62190633"
 |是否提供收费电话号码？  <br/> |否  <br/> |
 |免费电话号码是否可用？  <br/> |是  <br/> |
    
- 如果要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅获取电话和[Skype for Business Microsoft Teams。](../getting-service-phone-numbers.md)
+ 如果要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅获取电话和Skype for Business [Microsoft Teams](../getting-service-phone-numbers.md)。
   
 ## <a name="communications-credits"></a>通信点数
 

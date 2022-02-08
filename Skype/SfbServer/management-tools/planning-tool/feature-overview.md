@@ -1,8 +1,8 @@
 ---
 title: 功能概述规划工具
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/6/2016
 audience: ITPro
@@ -14,18 +14,18 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 description: Descripbes the Skype for Business Server 2015 planning tool.
-ms.openlocfilehash: 7351ef19480f4153ee98db58ab2ba70b34e3df06
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 064ad9e22c3e4e26187b780b8d099a675bebc426
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850935"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386510"
 ---
 # <a name="feature-overview-planning-tool"></a>功能概述规划工具
  
 Skype for Business Server 2015 规划工具
   
-可以使用规划 **工具的**"中央站点"页设计Skype for Business Server部署。 可以创建两个集中部署或分布式部署。 集中式部署只有一个中央站点，它Skype for Business组织中所有用户。 分布式部署具有多个中央站点。 如果您在多个Skype for Business Server部署网站，则您将在规划工具中输入每个中央站点的用户数。
+可以使用规划 **工具的**"中央站点"页设计Skype for Business Server部署。 可以创建两个集中部署或分布式部署。 集中式部署只有一个中央站点，其中Skype for Business组织中所有用户。 分布式部署具有多个中央站点。 如果您在多个Skype for Business Server部署网站，您将在规划工具中输入每个中央站点的用户数。
   
 若要完成中央站点的定义，首先需要提供以下信息：
   
@@ -40,7 +40,7 @@ Skype for Business Server 2015 规划工具
 
 ## <a name="ui-elements"></a>UI 元素
 
-其余元素要么已填充为 入门 向导中的问题提供的答案 **，要么** 已跳过向导，则由规划工具自动填充。
+其余元素已填充为"入门"向导中的问题提供的答案，**或者**，如果跳过了向导，则由规划工具自动填充。
   
 ### <a name="online-collaboration"></a>联机协作
 
@@ -80,7 +80,7 @@ Skype for Business Server 2015 规划工具
     
 - **与基于 XMPP 的服务提供商联盟**
     
-    Skype for Business Server 2015 引入了完全集成的 XMPP 代理 (部署在边缘服务器上) 前端服务器上部署的 XMPP 网关。 您可以部署添加和配置 XMPP 代理和 XMPP 网关将允许 Skype for Business Server 2015 用户添加来自基于 XMPP 的合作伙伴的联系人，以使用即时消息 (IM) 和状态。
+    Skype for Business Server 2015 引入了完全集成的 XMPP 代理 (部署在边缘服务器上) 前端服务器上部署的 XMPP 网关。 您可以部署添加和配置 XMPP 代理和 XMPP 网关将允许 Skype for Business Server 2015 用户添加来自基于 XMPP 的合作伙伴的联系人，以便实现即时消息 (IM) 和状态。
 
 > [!NOTE]
 > XMPP 网关和代理在 Skype for Business Server 2015 中可用，但在 2019 年 2 月不再Skype for Business Server支持。 有关详细信息 [，请参阅迁移 XMPP](../../../SfBServer2019/migration/migrating-xmpp-federation.md) 联盟。
@@ -91,7 +91,7 @@ Skype for Business Server 2015 规划工具
     
 - **W15 Exchange邮箱**
     
-    Skype for Business Server 2015，您可以在统一消息和 UM Exchange 中 () 语音邮件 (语音邮件;这些语音邮件随后将在用户的收件箱中显示为电子邮件。
+    Skype for Business Server 2015 使您可以将语音邮件存储在 Exchange 统一消息 (UM) 中;这些语音邮件随后将在用户的收件箱中显示为电子邮件。
     
 ### <a name="voice"></a>语音
 
@@ -103,7 +103,7 @@ Skype for Business Server 2015 规划工具
     
 - **Exchange 统一消息**
     
-    Exchange统一消息 (UM) 将语音邮件和电子邮件合并到单个邮件基础结构中。 Skype for Business Server 2015 Exchange UM 提供呼叫应答、订阅者访问、呼叫通知和自动助理服务。 如果使用这些服务，则需要将 UM 和 Exchange集成Skype for Business Server Active Directory 拓扑中。
+    Exchange统一 (UM) 将语音邮件和电子邮件合并到单个邮件基础结构中。 Skype for Business Server 2015 Exchange UM 提供呼叫应答、订阅者访问、呼叫通知和自动助理服务。 如果使用这些服务，则需要将 UM 和 Exchange集成Skype for Business Server Active Directory 拓扑中。
     
 ### <a name="additional-deployment-options"></a>其他部署选项
 
@@ -151,11 +151,11 @@ Skype for Business Server 2015 规划工具
     
 - **公告**
     
-    如果计划部署企业语音，可能需要能够配置拨打的号码有效但没有分配给用户公用区域时如何处理电话呼叫。 管理员可以配置通知服务，以便这些呼叫转接到预定 (电话号码或 SIP URI，或) 或播放音频通知。 使用通知服务可以避免呼叫者拨错电话并听到忙音或 SIP 客户端收到错误消息的情况。 通知服务功能是典型的 PBX 功能。 
+    如果计划部署企业语音，可能需要能够配置在拨打的号码有效但没有分配给用户公用区域时如何处理电话呼叫。 管理员可以配置通知服务，以便这些呼叫转接到预定 (电话号码或 SIP URI 或) 或同时播放音频通知。 使用通知服务可以避免呼叫者拨错电话并听到忙音或 SIP 客户端收到错误消息的情况。 通知服务功能是典型的 PBX 功能。 
     
 - **呼叫寄存**
     
-    呼叫保留应用程序使呼叫企业语音用户通过一部电话将呼叫置于保持状态，然后从另一部电话接收呼叫，而不会使接收呼叫的电话上的资源被消耗。 当用户需要转接呼叫，但特定收件人未知时，呼叫呼叫管理应用程序非常有用。 
+    呼叫保留应用程序使呼叫企业语音用户从一部电话将呼叫置于保持状态，然后从另一部电话接收呼叫，而不会使接收呼叫的电话上的资源被消耗。 当用户需要转接呼叫，但特定收件人未知时，呼叫呼叫管理应用程序非常有用。 
     
 - **会议助理**
     
@@ -167,7 +167,7 @@ Skype for Business Server 2015 规划工具
     
 - **呼叫允许控制**
     
-    呼叫允许控制 (CAC) 也称为 WAN 带宽管理，它根据可用带宽确定是否允许和建立新的实时通信会话，帮助防止出现塞塞网络的用户体验质量差。 
+    呼叫允许控制 (CAC) 也称为 WAN 带宽管理，它通过根据可用带宽确定是否允许和建立新的实时通信会话，帮助防止出现塞塞网络的用户体验质量差。 
     
     > [!NOTE]
     > CAC 仅控制实时流量，不会影响数据流量。 

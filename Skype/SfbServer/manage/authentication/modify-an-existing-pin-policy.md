@@ -1,8 +1,8 @@
 ---
 title: 修改现有 PIN 策略Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,18 +13,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 517caaee-3349-4fa6-8d86-e4da3258a445
 description: 摘要：修改现有 PIN 策略Skype for Business Server。
-ms.openlocfilehash: a03e192b5dd9b11de17e6c920baee6613312fc84
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b38ffa3f5ef8d858b93e6844a8aba46a92538b9d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848575"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384350"
 ---
 # <a name="modify-an-existing-pin-policy-in-skype-for-business-server"></a>修改现有 PIN 策略Skype for Business Server
  
 **摘要：** 修改现有 PIN 策略Skype for Business Server。
   
-可以使用 **"PIN** 策略"选项卡向 (IP 电话) PIN Skype for Business个人标识号。 要使用 PIN 身份验证，请确保在 Web 服务设置中选中“启用 PIN 身份验证”。
+可以使用"**PIN** 策略"选项卡向 (IP 电话) PIN Skype for Business个人标识号。 要使用 PIN 身份验证，请确保在 Web 服务设置中选中“启用 PIN 身份验证”。
   
 按照以下步骤修改用户级别或站点级别的 PIN 策略。 
   
@@ -36,7 +36,7 @@ ms.locfileid: "60848575"
     
 3. 在左侧导航栏中，单击“安全性”，然后单击“PIN 策略”。
     
-4. 在 **"PIN 策略"** 页上，单击某个策略，单击 **"编辑"，** 然后单击"显示 **详细信息"。**
+4. 在" **PIN 策略"** 页上，单击某个策略， **再单击"** 编辑"，然后单击" **显示详细信息"**。
     
 5. 在“编辑 PIN 策略”的“最小 PIN 长度”中，键入或选择希望允许的最小 PIN 长度。默认的最小长度为 5 位数。
     

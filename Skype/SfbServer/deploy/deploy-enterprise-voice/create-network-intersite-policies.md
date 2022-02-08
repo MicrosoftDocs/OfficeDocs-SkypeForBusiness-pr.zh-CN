@@ -1,8 +1,8 @@
 ---
 title: 在站点内创建网络站点间Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b0714aae-55dc-4587-b718-34a03f596b22
 description: 创建网络站点间策略，这些策略企业语音呼叫允许控制Skype for Business Server。
-ms.openlocfilehash: 3510a80935bd19fc6ac36904003f744fd7e65cf5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 6d3243f2fd3be78228c9bac72219b4906b84ecfb
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841884"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387360"
 ---
 # <a name="create-network-intersite-policies-in-skype-for-business-server"></a>在站点内创建网络站点间Skype for Business Server
  
@@ -36,7 +36,7 @@ ms.locfileid: "60841884"
   
 ### <a name="to-create-a-network-inter-site-policy"></a>创建网络站点间策略
 
-1. 启动命令行Skype for Business Server：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击"Skype for Business Server **命令行管理程序"。**
+1. 启动命令行Skype for Business Server：单击"开始"，单击"所有程序"**，单击"****Skype for Business 2015"**，然后单击"Skype for Business Server **命令行管理程序"**。
     
 2. 运行 New-CsNetworkInterSitePolicy cmdlet 创建网络站点间策略，并针对具有直接交叉链接的两个站点应用相应的带宽策略配置文件。 例如，运行：
     

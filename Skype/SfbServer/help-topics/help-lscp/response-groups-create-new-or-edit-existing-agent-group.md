@@ -1,8 +1,8 @@
 ---
 title: 响应组创建新的或编辑现有的代理组
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 79eaaf6c-6928-4925-8220-c7ada6b37205
 description: 代理组定义可应答针对响应组（称为代理）的呼叫的人员以及应用于组中所有代理的设置。
-ms.openlocfilehash: 0c0342d59896176f8d46a74cd728c301a98ff4f6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5147a149e54326aa8d84a5c690e24082200d9419
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859089"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388460"
 ---
 # <a name="response-groups-create-new-or-edit-existing-agent-group"></a>响应组：创建新的或编辑现有的代理组
 
@@ -71,4 +71,4 @@ ms.locfileid: "60859089"
 
     向上和向下箭头可在代理列表中向上和向下移动所选代理。列表中代理的排列顺序将影响代理接收呼叫以进行循环和串行路由的顺序。
 
-有关响应组特性和功能的详细信息，请参阅规划文档中的 Plan [for the Response Group application in Skype for Business Server 2015。](../../plan-your-deployment/enterprise-voice-solution/response-group.md) 有关使用代理组的详细信息，请参阅操作文档中的[Managing Agent Groups](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-agent-groups)。
+有关响应组特性和功能的详细信息，请参阅规划文档中的 Plan [for the Response Group application in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/response-group.md)。 有关使用代理组的详细信息，请参阅操作文档中的[Managing Agent Groups](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-agent-groups)。

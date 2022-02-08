@@ -1,8 +1,8 @@
 ---
-title: 在会议部署中配置无 PIN 会议Skype for Business Server
+title: 在会议部署中配置无 PIN Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,14 +12,14 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c21e8861-bb75-45e8-8485-38daa3b8121c
 description: 摘要：了解如何在 Skype for Business Server 中配置无 PIN 会议加入Skype for Business Server。
-ms.openlocfilehash: 13af671edaa9ab8853e0390d43c62b6576bed4e2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 82101f391b4b0713495eade53e092fefff8a053e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861359"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385710"
 ---
-# <a name="configure-pin-less-meeting-join-in-skype-for-business-server"></a>在会议部署中配置无 PIN 会议Skype for Business Server
+# <a name="configure-pin-less-meeting-join-in-skype-for-business-server"></a>在会议部署中配置无 PIN Skype for Business Server
  
 **摘要：** 了解如何在 Skype for Business Server 中配置无 PIN 会议加入Skype for Business Server。
   
@@ -39,7 +39,7 @@ ms.locfileid: "60861359"
     
   - **来自我的组织的任何人与呼叫者直接进入**
     
-  - **任何 (与)** 联系的任何人 (这是默认设置。) 
+  - **任何人 (与呼叫**) 联系的任何人 (这是默认设置。) 
     
 - 当配置为启用无 PIN 加入时，CAA 服务仍提示输入领导者 PIN。 无论输入了 PIN，用户都可以加入会议。 但是，保留输入领导者 PIN 的能力允许拨入呼叫者以领导者身份进行身份验证并在必要时管理会议。
     

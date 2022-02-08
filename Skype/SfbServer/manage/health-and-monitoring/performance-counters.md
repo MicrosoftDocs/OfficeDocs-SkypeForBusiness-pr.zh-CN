@@ -1,8 +1,8 @@
 ---
 title: 移动性能计数器Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d18ed85a-673d-4695-aa3f-ac83a38ab90a
 description: 摘要：了解可用于监视运行统一通信 Web API (UCWA) 和 Skype for Business Server Mcx Mobility Service 的服务器的性能计数器。
-ms.openlocfilehash: e89ffdb590a7028bd1fa9a9594b6ba0bcce9be11
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 157417d7a0cbc8db2a94ecba18f984b3eedde043
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60827575"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384260"
 ---
 # <a name="mobility-performance-counters-in-skype-for-business-server"></a>移动性能计数器Skype for Business Server
  
@@ -25,7 +25,7 @@ ms.locfileid: "60827575"
   
 下表列出了可用于监视运行统一通信 Web API (UCWA) 和 Skype for Business Server Mcx Mobility Service 的服务器的性能计数器的名称和说明。 
   
-UCWA 表中计数器的类别名称是 **LS：WEB - UCWA**。
+UCWA 表中的计数器的类别名称为 **LS：WEB - UCWA**。
   
 Mcx Mobility Service 表中计数器的类别名称为 **LS：WEB - Mobile Communication Service**。
 
@@ -40,7 +40,7 @@ Mcx Mobility Service 表中计数器的类别名称为 **LS：WEB - Mobile Commu
 |活动应用程序共享形式计数  <br/> |当前应用程序共享形式的数量  <br/> |
 |Active Audio Modality Count  <br/> |当前音频形式数  <br/> |
 |活动数据协作形式计数  <br/> |当前数据协作形式的数量  <br/> |
-|Active Directory 照片获取延迟 (毫秒)   <br/> |此计数器显示从 active directory (照片) 的平均时间（以毫秒为单位）  <br/> |
+|Active Directory 照片获取延迟 (ms)   <br/> |此计数器显示从 active directory (照片) 的平均时间（以毫秒为单位）  <br/> |
 |Active Messaging Modality Count  <br/> |当前消息传递形式的数量  <br/> |
 |活动全景视频形式计数  <br/> |全景视频形式的当前数量  <br/> |
 |Active Pending Get Count  <br/> |当前处于活动状态的待处理获取数;与服务器的长期连接  <br/> |
@@ -55,14 +55,14 @@ Mcx Mobility Service 表中计数器的类别名称为 **LS：WEB - Mobile Commu
 |会话的平均生存期 (毫秒)   <br/> |会话的平均生存时间（以毫秒为单位）  <br/> |
 |Data MCU Join Failures  <br/> |Data MCU Join Failures 的数量  <br/> |
 |Exchange联系人搜索延迟 (毫秒)   <br/> |此计数器显示搜索联系人 (的平均) 毫秒Exchange  <br/> |
-|ExchangeHD Photo Get Latency (ms)   <br/> |此计数器显示从 (照片) 的平均时间（以毫秒Exchange  <br/> |
+|Exchange HD 照片获取延迟 (毫秒)   <br/> |此计数器显示从 (检索照片) 的平均时间（以毫秒Exchange  <br/> |
 |HTTP 4xx 响应/秒  <br/> |HTTP 4xx 代码的每秒响应速率  <br/> |
 |HTTP 5xx 响应/秒  <br/> |HTTP 5xx 代码的每秒响应速率  <br/> |
 |IM MCU Join Failures  <br/> |IM MCU Join Failures 的数量  <br/> |
 |Active Directory 照片获取失败次数  <br/> |从 Active Directory 检索照片的总失败次数  <br/> |
-|联系人搜索失败次数  <br/> |搜索联系人的失败总数Exchange  <br/> |
+|联系人搜索失败次数  <br/> |在搜索联系人时失败的总Exchange  <br/> |
 |反序列化失败次数  <br/> |反序列化失败总数  <br/> |
-|HD 照片获取失败次数  <br/> |从服务器检索 HD 照片的失败Exchange  <br/> |
+|HD 照片获取失败次数  <br/> |从服务器检索 HD 照片的总失败Exchange  <br/> |
 |超过每个应用程序的最大订阅数  <br/> |每个应用程序允许的最大订阅请求数  <br/> |
 |超过每个批次的最大订阅数  <br/> |超过每个批次允许的最大订阅请求数  <br/> |
 |状态订阅失败  <br/> |订阅状态失败次数  <br/> |
@@ -85,7 +85,7 @@ Mcx Mobility Service 表中计数器的类别名称为 **LS：WEB - Mobile Commu
 |**计数器**|**描述**|
 |:-----|:-----|
 |Average Lifetime for a Session in Milliseconds  <br/> |会话的平均生存时间（以毫秒为单位）  <br/> |
-|Current Push Notification Subscriptions  <br/> |当前推送通知订阅数。 此数字与 Currently Active Session Count 一起表示为移动设备或移动设备注册Windows活动iPhone子集。  <br/> |
+|Current Push Notification Subscriptions  <br/> |当前推送通知订阅数。 此数字与 Currently Active Session Count 一起使用，表示为移动设备或移动设备Windows活动iPhone子集。  <br/> |
 |Currently Active Network Timeout Poll Count  <br/> |超时的网络投票数  <br/> |
 |Currently Active Poll Count  <br/> |当前活动投票数（与服务器的长期连接）  <br/> |
 |Currently Active Session Count  <br/> |当前注册到 Mobility Service 中的终结点的数目  <br/> |

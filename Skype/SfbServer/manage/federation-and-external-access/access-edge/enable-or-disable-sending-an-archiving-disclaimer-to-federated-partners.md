@@ -5,8 +5,8 @@ ms:assetid: c8e9a2fa-9dc1-4e4d-919f-56ece8004864
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182584(v=OCS.15)
 ms:contentKeyID: 48185391
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 打开或关闭向联盟伙伴发送存档免责声明Skype for Business Server。
-ms.openlocfilehash: cbdfe6a53df73c5af3ef8d4b07b1bd2a4fc27a0a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 020ba61ed45a214466ac22e1d13cbe27563697a1
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861349"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386661"
 ---
 # <a name="enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners-in-skype-for-business-server"></a>启用或禁用向联盟伙伴发送存档免责声明Skype for Business Server
 

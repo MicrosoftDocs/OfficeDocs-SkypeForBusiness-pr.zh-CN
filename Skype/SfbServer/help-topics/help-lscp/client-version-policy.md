@@ -1,8 +1,8 @@
 ---
 title: 客户端版本策略
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4f84bc0f-e1df-4acb-b8ef-57f165b0153b
 description: 可以指定环境中支持的客户端版本。 当两个不同版本的客户端交互时，其中一个客户端的可用功能会受到另一个客户端的功能的限制。 为了充分利用 Skype for Business Server 2015 中包含的功能并改进整体用户体验，您可以使用客户端版本筛选器来限制环境中使用的客户端版本。 使用客户端版本筛选器还有助于降低支持多个客户端版本的相关成本。
-ms.openlocfilehash: 89547442d432f25cc132a296328fe27f734be402
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 54b9ace15dec11618a6d331813c0d81773c4994a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846645"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389224"
 ---
 # <a name="client-version-policy"></a>客户端版本策略
 
@@ -43,7 +43,7 @@ ms.locfileid: "60846645"
 
 下表介绍了该页上的菜单、命令、字段和属性。
 
-- **新建** 可以创建以下一个或多个客户端版本策略：
+- **新增功能** 可以创建以下一个或多个客户端版本策略：
 
   - 站点策略
 

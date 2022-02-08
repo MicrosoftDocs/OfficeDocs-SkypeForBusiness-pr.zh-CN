@@ -5,8 +5,8 @@ ms:assetid: 6d907507-825b-4354-9c03-337a459f72de
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521013(v=OCS.15)
 ms:contentKeyID: 48184455
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 可以删除"外部访问策略"页上"Skype for Business Server控制面板"中列出的任何站点或用户策略。
-ms.openlocfilehash: 136b7f612dc2dcc0625e7f844ecf6ad38aba0c37
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 2c8d3e73d0bccc0ea7ea25bdfed0b871a51e9a82
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834220"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388170"
 ---
 # <a name="delete-a-site-or-user-policy-for-external-user-access"></a>删除外部用户访问的站点或用户策略
 
@@ -49,7 +49,7 @@ ms.locfileid: "60834220"
 
 ## <a name="removing-pin-policies-by-using-windows-powershell-cmdlets"></a>使用 cmdlet 删除WINDOWS POWERSHELL PIN 策略
 
-可以使用 Windows PowerShell 和 Remove-CsExternalAccessPolicy cmdlet 删除外部访问策略。 可以从命令行管理程序或 Skype for Business Server远程会话运行此 cmdlet Windows PowerShell。 
+可以使用 cmdlet 和 Windows PowerShell 删除Remove-CsExternalAccessPolicy策略。 可以从命令行管理程序或 Skype for Business Server远程会话运行此 cmdlet Windows PowerShell。 
 
 
 ## <a name="to-remove-a-specific-external-access-policy"></a>删除特定外部访问策略

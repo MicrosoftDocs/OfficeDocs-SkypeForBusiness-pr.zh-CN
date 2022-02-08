@@ -1,8 +1,8 @@
 ---
 title: Active Directory 架构扩展名、类和属性
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2016
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 579bfa5a-9443-46dd-9a8e-07d00ba2824d
 description: 本参考部分包括以下信息：
-ms.openlocfilehash: a2e304a59970e775940d0a95480259cfa8fb5814
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b47ed234a9b69b6642488686b94d738de57e81ca
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828655"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389924"
 ---
 # <a name="active-directory-schema-extensions-classes-and-attributes"></a>Active Directory 架构扩展名、类和属性
  
@@ -28,11 +28,11 @@ ms.locfileid: "60828655"
     
     Active Directory 架构包含可在 Active Directory 林中创建的每个对象类的正式定义。 该架构还包含可存在于 Active Directory 对象上的每个属性的正式定义。 Active Directory 全局编录包含林中所有对象的副本，以及每个对象的属性子集。 本节介绍新类和属性，这些类和属性在 Skype for Business Server。
     
-- 由 Skype for Business Server 使用的所有类，以及每个类的说明
+- 由 Skype for Business Server 使用的所有类，并包含每个类的说明
     
 - 网站使用的所有Skype for Business Server，并分别说明每个属性
     
-- 由用户使用的类Skype for Business Server，其中每个类可能包含的属性
+- A list of the classes used by Skype for Business Server， with the attribute each may contain
     
 - 全局设置和对象，以及在林准备过程中创建的通用服务组和管理组
     
@@ -52,12 +52,12 @@ ms.locfileid: "60828655"
     
 - [按类分类的架构Skype for Business Server](schema-attributes-by-class.md)
     
-- [林准备在林中所做的更改Skype for Business Server](changes-made-by-forest-preparation.md)
+- [林中林准备的更改Skype for Business Server](changes-made-by-forest-preparation.md)
     
 - [域中的域准备所做的更改Skype for Business Server](changes-made-by-domain-preparation.md)
     
-- [由 Grant-CsSetupPermission 所做的更改Skype for Business Server](changes-made-by-grant-cssetuppermission.md)
+- [由 Grant-CsSetupPermission 中Skype for Business Server](changes-made-by-grant-cssetuppermission.md)
     
-- [由 Grant-CsOUPermission 所做的更改Skype for Business Server](changes-made-by-grant-csoupermission.md)
+- [由 Grant-CsOUPermission 中Skype for Business Server](changes-made-by-grant-csoupermission.md)
     
 

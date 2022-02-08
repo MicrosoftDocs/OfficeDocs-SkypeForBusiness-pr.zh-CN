@@ -1,8 +1,8 @@
 ---
 title: 在部署中定义 E9-1-1 Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2c572dfd-e901-471d-b5a0-18bc8d1d5328
 description: 在部署中规划 E9-1-1 部署Skype for Business Server 企业语音。
-ms.openlocfilehash: a1757477d9d4de2a0e26c3490bb6214e6c14e1e9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 8ad07897732251dbc38f0e69c7def54d62396e80
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836244"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389084"
 ---
 # <a name="define-the-scope-of-the-e9-1-1-deployment-in-skype-for-business-server"></a>在部署中定义 E9-1-1 Skype for Business Server
 
 在部署中规划 E9-1-1 部署Skype for Business Server 企业语音。
 
-在配置Skype for Business E9-1-1 之前，需要规划 E9-1-1 部署。 要考虑的一些问题包括：
+在配置Skype for Business E9-1-1 之前，您需要规划 E9-1-1 部署。 要考虑的一些问题包括：
 
  **贵组织关于 E9-1-1 的策略和义务是什么？**
 
@@ -39,7 +39,7 @@ ms.locfileid: "60836244"
 
  **如何为分支站点部署 E9-1-1？**
 
- 语音复原是在分支站点部署 E9-1-1 时需要理解的一个重要概念。 如果您具有集中式 E-9-1-1 SIP 中继并且发生 WAN 中断，则登录的客户端可能无法从位置信息服务获取位置或无法连接到紧急服务服务提供商。 Skype for Business 提供了多个策略来处理分支机构中的语音恢复能力，包括：拥有可恢复的数据网络、在每个分支部署 SIP 中继或在中断期间将紧急呼叫推送到本地网关。 有关详细信息，请参阅[Planning for Branch-Site Voice Resiliency](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-branch-site-voice-resiliency)。
+ 语音复原是在分支站点部署 E9-1-1 时需要理解的一个重要概念。 如果您具有集中式 E-9-1-1 SIP 中继并且发生 WAN 中断，则登录的客户端可能无法从位置信息服务获取位置或无法连接到紧急服务服务提供商。 Skype for Business 为处理分支机构中的语音恢复能力提供了若干策略，包括：拥有可恢复的数据网络、在每个分支部署 SIP 中继或在中断期间将紧急呼叫推送到本地网关。 有关详细信息，请参阅[Planning for Branch-Site Voice Resiliency](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-branch-site-voice-resiliency)。
 
  **是否为在网络外部工作的用户启用 E9-1-1？**
 

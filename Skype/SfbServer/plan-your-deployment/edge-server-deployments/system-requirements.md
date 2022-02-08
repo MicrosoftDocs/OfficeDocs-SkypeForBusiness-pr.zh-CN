@@ -1,8 +1,8 @@
 ---
 title: 中的边缘服务器系统Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 audience: ITPro
 ms.topic: conceptual
 manager: serdars
@@ -15,19 +15,19 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: ed53a566-0504-46f9-81a7-116a637833af
-description: 摘要：了解 Skype for Business Server 中的边缘服务器的系统要求。
-ms.openlocfilehash: f61412ab8246945e50af0276e46ac53ca080605c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: 摘要：了解 Skype for Business Server 中边缘服务器的系统要求。
+ms.openlocfilehash: 3ea05067749890b5f42501e4e4380a7a42599a0b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863459"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387880"
 ---
 # <a name="edge-server-system-requirements-in-skype-for-business-server"></a>中的边缘服务器系统Skype for Business Server
  
 **摘要：** 了解边缘服务器在 Skype for Business Server 中的系统Skype for Business Server。
   
-对于边缘Skype for Business Server部署，需要针对环境本身的一个或多个服务器执行这些操作，以及规划环境结构。 有关拓扑、DNS、证书和其他基础结构问题的信息，请查看环境要求文档。
+对于边缘Skype for Business Server部署，您需要为环境本身的服务器执行以下操作，以及规划环境结构。 有关拓扑、DNS、证书和其他基础结构问题的信息，请查看环境要求文档。
   
 ## <a name="components"></a>组件
 
@@ -41,9 +41,9 @@ ms.locfileid: "60863459"
     
 - [防火墙](system-requirements.md#Firewalls)
     
-- [控制器](system-requirements.md#Directors) (这些控制器是可选的，如果包含它们，它们将位于内部网络) 
+- [ (](system-requirements.md#Directors) 这些控制器是可选的，如果包含它们，它们将位于内部网络) 
     
-- [负载平衡](system-requirements.md#LoadBalancers) 器 (HLB 服务器具有 DNS 负载平衡或硬件负载平衡器 (HLB) ，但对于单个边缘服务器，这不是) 
+- [负载平衡](system-requirements.md#LoadBalancers) 器 (HLB 服务器具有 DNS 负载平衡或硬件负载 () ，但对于单个边缘服务器，则不需要) 
     
 下面我们详细介绍了其中每一项：
   
@@ -63,7 +63,7 @@ ms.locfileid: "60863459"
 授权外部用户可以使用边缘服务器连接到内部Skype for Business Server部署，但在其他情况下，他们不会为任何人提供对内部网络的其他访问。
   
 > [!NOTE]
-> 部署边缘服务器为启用的 Skype for Business 客户端和其他边缘服务器 (联盟方案中) 。 无法从其他终端客户端或服务器类型进行连接。 XMPP 网关服务器可以允许与配置的 XMPP 合作伙伴建立连接。 但同样，这些类型是唯一能工作的客户端和联盟类型。 
+> 部署边缘服务器为启用的客户端Skype for Business联盟方案中的其他边缘 (服务器提供) 。 无法从其他终端客户端或服务器类型进行连接。 XMPP 网关服务器可以允许与配置的 XMPP 合作伙伴建立连接。 但同样，这些类型是唯一能工作的客户端和联盟类型。 
 
 > [!NOTE]
 > XMPP 网关和代理在 Skype for Business Server 2015 中可用，但在 2019 年 2 月不再Skype for Business Server支持。 有关详细信息 [，请参阅迁移 XMPP](../../../SfBServer2019/migration/migrating-xmpp-federation.md) 联盟。
@@ -91,7 +91,7 @@ ms.locfileid: "60863459"
     
 - 它支持从移动设备Microsoft 365或Office 365到移动设备的推送通知。
     
-我们的当前反向代理建议可在"电话基础结构[for Skype for Business](../../../SfbPartnerCertification/certification/infra-gateways.md)页面上找到。 因此反向代理：
+我们的当前反向代理建议可在"电话基础结构 [for Skype for Business](../../../SfbPartnerCertification/certification/infra-gateways.md)页面上找到。 因此反向代理：
   
 - 应该能够将传输层安全性 (TLS) 通过公共证书引入环境，以连接到以下已发布的外部 Web 服务：
     
@@ -101,13 +101,13 @@ ms.locfileid: "60863459"
     
 - 需要能够使用加密证书发布内部网站，或者根据需要通过未加密的方式发布这些网站。
     
-- 应该能够使用 FQDN 中的完全限定域名在外部发布 (托管) 。
+- 应该能够使用完全限定的域名和 FQDN 在外部发布 (托管) 。
     
-- 需要能够发布托管网站的所有内容。 默认情况下，您可以使用 _指令，该指令被大多数 Web 服务器识别为表示"在 Web 服务器上 **/\\** 发布所有内容"。 您还可以修改指令（例如 ，_*/Uwca/ ***，这意味着"发布虚拟目录 \\ Ucwa 下的所有内容"。
+- 需要能够发布托管网站的所有内容。 默认情况下，您可以使用 **/\\** _指令，该指令被大多数 Web 服务器识别为表示"在 Web 服务器上发布所有内容"。 您还可以修改指令（例如，_*/Uwca/\\***，这意味着"发布虚拟目录 Ucwa 下的所有内容"。
     
 - 必须与从已发布网站请求内容的客户端建立 TLS 连接。
     
-- 必须接受主题备用名称为 SAN (的) 证书。
+- 必须接受具有主题备用名称的证书 (SAN) 条目。
     
 - 需要能够允许将证书绑定到外部 Web 服务 FQDN 将通过其解析的侦听器或接口。 侦听器配置比接口更可取。 可以在单个接口上配置许多侦听器。
     
@@ -133,14 +133,14 @@ ms.locfileid: "60863459"
   
 控制器是内部的下一个跃点服务器，它接收来自发往内部服务器的边缘服务器的入站 SIP Skype for Business Server流量。 它会预授权入站请求，并重定向到用户主池或服务器。 此预身份验证允许你删除无法识别的用户帐户请求。
   
-为什么这很重要？ 控制器的一个重要功能是Standard Edition服务器和前端服务器或前端池免受恶意流量的攻击，例如拒绝服务 (DoS) 攻击。 如果网络被无效外部流量淹没，流量将停止在控制器上。
+为什么这很重要？ 控制器的一个重要功能是Standard Edition服务器和前端服务器或前端池免受恶意流量的攻击，例如拒绝服务 (DoS) 攻击。 如果网络被无效外部流量所淹没，流量将停止在控制器。
   
 ### <a name="load-balancers"></a>负载均衡器
 <a name="LoadBalancers"> </a>
 
 扩展Skype for Business Server边缘拓扑已针对新部署的 DNS 负载平衡进行了优化，建议这样做。 如果您需要高可用性，我们建议针对一种特定情况使用硬件负载平衡器：
   
-- Exchange2013 年 10 月Exchange UM **的** 远程Exchange UM。
+- Exchange 2013 之前使用 um Exchange **远程** Exchange UM。
     
 > [!IMPORTANT]
 > 值得注意的是，不能混合使用负载平衡器。 在Skype for Business Server环境中，所有接口都必须使用 DNS 或 HLB。 
@@ -152,7 +152,7 @@ ms.locfileid: "60863459"
 
 对于运行 A/V 边缘服务的任何边缘服务器，有以下要求：
   
-- 关闭内部和外部端口 443 的 TCP nagling (将多个小数据包合并到一个更大的数据包中，以更有效地传输) 。
+- 关闭内部和外部端口 443 (tcp nagling 是一个将多个小数据包合并到单个较大数据包中以更有效地传输) 。
     
 - 关闭外部端口范围 50000 - 59999 的 TCP nagling。
     
@@ -164,36 +164,36 @@ ms.locfileid: "60863459"
     
 #### <a name="hlb-requirements"></a>HLB 要求
 
-Skype for Business Server没有很多基于 Cookie 的关联要求。 因此，无需使用基于 Cookie 的持久性，除非 **(** 且这是 Skype for Business Server 2015 特定的) 您将在 Skype for Business Server 环境中具有 Lync Server 2010 前端服务器或前端池。 它们将需要 Lync Server 2010 推荐的配置方法中基于 Cookie 的关联。
+Skype for Business Server没有很多基于 Cookie 的关联要求。 因此，无需使用基于 Cookie 的持久性，**除非 (且** 这是 Skype for Business Server 2015 特定的) 您将在 Skype for Business Server 环境中具有 Lync Server 2010 前端服务器或前端池。 它们将需要 Lync Server 2010 推荐的配置方法中基于 Cookie 的关联。
   
 > [!NOTE]
 > 如果决定为 HLB 启用基于 Cookie 的关联，则这样做不会出现问题，即使您的环境不需要它。 
   
 如果你的环境 **不需要基于** Cookie 的关联：
   
-- 在端口 443 的反向代理发布规则上，将 **"转发主机头"设置为****"True"。** 这将确保转发原始 URL。
+- 在端口 443 的反向代理发布规则上，将 **"转发主机头"设置为** **True**。 这将确保转发原始 URL。
     
 对于需要基于 **Cookie** 的关联部署的部署：
   
-- 在端口 443 的反向代理发布规则上，将 **"转发主机头"设置为****"True"。** 这将确保转发原始 URL。
+- 在端口 443 的反向代理发布规则上，将 **"转发主机头"设置为** **True**。 这将确保转发原始 URL。
     
 - 硬件负载平衡器 Cookie **不得标记为** httpOnly。
     
 - 硬件负载平衡器 Cookie **不得具有** 过期时间。
     
-- 硬件负载平衡器 **cookie** 必须命名为 **MS-WSMAN** (这是 Web 服务期望的值，并且不能) 。
+- 硬件负载平衡 **器 cookie 必须** 命名为 **MS-WSMAN** (这是 Web 服务期望的值，并且不能) 。
     
-- 必须在传入 HTTP 请求没有 Cookie 的每一个 HTTP 响应中设置硬件负载平衡器 Cookie，无论该同一 TCP 连接上的上一个 HTTP 响应是否已获得 Cookie。 如果硬件负载平衡器将 Cookie 插入优化为每个 TCP 连接仅发生一次，则不得 **使用** 该优化。
+- 必须在传入 HTTP 请求没有 Cookie  的每一个 HTTP 响应中设置硬件负载平衡器 Cookie，无论该同一 TCP 连接上的上一个 HTTP 响应是否已获得 Cookie。 如果硬件负载平衡器将 Cookie 插入优化为每个 TCP 连接仅发生一次，则不得 **使用** 该优化。
     
 > [!NOTE]
 > HLB 配置通常使用源相关性和 20 分钟的 TCP 会话生存期，这适用于 Skype for Business Server 及其客户端，因为会话状态通过客户端使用和/或应用程序交互进行维护。 
   
-如果要部署移动设备，则 HLB 必须能够在有效 TCP 会话 (中对单个请求进行负载平衡，您需要能够基于目标 IP 地址) 对单个请求进行负载平衡。
+如果要部署移动设备，则 HLB 必须能够在 TCP 会话 (内对单个请求进行负载平衡，您需要能够基于目标 IP 地址) 对单个请求进行负载平衡。
   
 > [!IMPORTANT]
 > F5 HLB 具有一个称为 OneConnect 的功能。 它确保 TCP 连接内的每个请求都单独进行负载平衡。 如果要部署移动设备，请确保您的 HLB 供应商支持相同的功能。 最新的 iOS 移动应用需要 TLS 版本 1.2。 如果需要了解更多信息，F5 会为此提供特定设置。 
   
-以下是前端池 Web 服务 (可选) 控制器 (的 HLB) 要求：
+以下是前端池 Web 服务中 (控制器) 所需的 (HLB) HLB 要求：
   
 - 对于内部 Web 服务 IP，Source_addr HLB (端口 80，443) 持久性。 例如Skype for Business Server，Source_addr持久性意味着始终向一台服务器发送来自单个 IP 地址的多个连接，以维持会话状态。
     
@@ -213,15 +213,15 @@ Skype for Business Server没有很多基于 Cookie 的关联要求。 因此，�
 
 在硬件负载平衡器上定义端口监控，以确定特定服务何时因硬件或通信故障而不再可用。 例如，如果前端服务器服务 (RTCSRV) 由于前端服务器或前端池出现故障而停止，则 HLB 监控也应停止接收 Web 服务上的流量。 应在 HLB 上实现端口监控，以监视 HLB 外部接口的以下内容：
   
-|**虚拟 IP/端口**|**节点端口**|**节点计算机/监视器**|**持久性配置文件**|**注释**|
+|**虚拟 IP/端口**|**节点端口**|**节点计算机/监视器**|**持久性配置文件**|**备注**|
 |:-----|:-----|:-----|:-----|:-----|
 |\<pool\>web_mco_443_vs  <br/> 443  <br/> |4443  <br/> |前端  <br/> 5061  <br/> |无  <br/> |HTTPS  <br/> |
 |\<pool\>web_mco_80_vs  <br/> 80  <br/> |8080  <br/> |前端  <br/> 5061  <br/> |无  <br/> |HTTP  <br/> |
    
 ## <a name="hardware-and-software-requirements"></a>硬件和软件要求
 
-我们在[2015 年 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)年的总体服务器要求和 Skype for Business Server Skype for Business Server [2019](../../../SfBServer2019/plan/system-requirements.md)的系统要求文档中介绍了边缘服务器硬件和软件要求。
+我们在 [2015 年 2015 年的总体服务器要求和 Skype for Business Server Skype for Business Server 2019](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) 的系统要求文档中介绍了[边缘](../../../SfBServer2019/plan/system-requirements.md)服务器硬件和软件要求。
   
 ## <a name="collocation"></a>并置
 
-我们在[Topology Basics for Skype for Business Server文档中介绍了边缘服务器](../../plan-your-deployment/topology-basics/topology-basics.md)并置。
+我们在 [Topology Basics for Skype for Business Server文档中介绍了边缘服务器](../../plan-your-deployment/topology-basics/topology-basics.md)并置。

@@ -1,8 +1,8 @@
 ---
 title: PSTN 网关范围节点
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 7a11bae5-9c0e-4eea-9754-2e918e19eeff
 description: “PSTN 网关”节点列出了拓扑中的公用电话交换网 (PSTN) 网关。可以执行以下操作：
-ms.openlocfilehash: 2fc89412cdd6e18651c0cf41582697ae0306c84e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 837dbd7c59d34c5498c4043ce401e6279af682a4
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832176"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385810"
 ---
 # <a name="pstn-gateways-scope-node"></a>PSTN 网关范围节点
  

@@ -1,8 +1,8 @@
 ---
-title: 规划呼叫管理中的Skype for Business
+title: 规划呼叫管理中心中的Skype for Business
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,21 +15,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 5f557345-5a04-45d6-b274-c02dbfe41b33
-description: 支持的电话管理功能概述Skype for Business Server 企业语音。
-ms.openlocfilehash: 459ec4558e39f01c87679227face57232f08ce41
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: 支持呼叫管理功能概述Skype for Business Server 企业语音。
+ms.openlocfilehash: b1c149b70532ba673f28dae84c97fcf16353fe31
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846325"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387760"
 ---
-# <a name="plan-for-call-management-features-in-skype-for-business"></a>规划呼叫管理中的Skype for Business
+# <a name="plan-for-call-management-features-in-skype-for-business"></a>规划呼叫管理中心中的Skype for Business
 
-支持的电话管理功能概述Skype for Business Server 企业语音。
+支持呼叫管理功能概述Skype for Business Server 企业语音。
 
 企业语音呼叫管理功能控制如何路由和应答传入呼叫。 Skype for Business Server提供了以下呼叫管理功能：
 
-- **呼叫停止**：允许语音用户临时呼叫，然后从同一电话或其他电话接听呼叫。
+- **呼叫停止**：使语音用户能够临时呼叫，然后从同一电话或其他电话接听呼叫。
 
 - **组分** 拣：使语音用户能够接听为分配给呼叫接听组的其他语音用户响铃的呼叫。
 

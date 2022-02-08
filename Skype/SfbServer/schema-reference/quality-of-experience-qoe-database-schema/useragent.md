@@ -1,8 +1,8 @@
 ---
 title: UserAgent 表
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d6bda1c0-b053-457a-9ffa-2ae859788775
 description: UserAgent 表是一个支持表，用于存储已参与数据库中记录的会话的各种用户代理的列表。 表中的每条记录代表一个用户代理
-ms.openlocfilehash: 128d1c397376da7667b244e73efa2f1b77b56d37
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 97920c307c15dca319c493b132716f5fb6976d08
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834810"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385350"
 ---
 # <a name="useragent-table"></a>UserAgent 表
  

@@ -1,8 +1,8 @@
 ---
 title: 升级到 Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 7/14/2016
 audience: ITPro
@@ -16,56 +16,56 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 74ce73bc-356b-4705-83b1-341ee010fd19
-description: 摘要：了解如何从 Lync Server 2013 升级到 Skype for Business Server 2015。 从 Microsoft Evaluation Center 下载 Skype for Business Server 2015 的免费试用版 https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server ：。
-ms.openlocfilehash: 4279bb9141d896cb6aaa479f872e1684f2a3e8d3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: 摘要：了解如何从 Lync Server 2013 升级到 Skype for Business Server 2015。 从 Microsoft 评估中心下载 Skype for Business Server 2015 的免费试用版：https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。
+ms.openlocfilehash: a673d9d192dbeb754024821c4e50c5fba77aa952
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849395"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385210"
 ---
 # <a name="upgrade-to-skype-for-business-server-2015"></a>升级到 Skype for Business Server 2015
  
-**摘要：** 了解如何从 Lync Server 2013 升级到 Skype for Business Server 2015。 从 Microsoft 评估中心下载 Skype for Business Server 2015[的免费试用版](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)。
+**摘要：** 了解如何从 Lync Server 2013 升级到 Skype for Business Server 2015。 从 Microsoft 评估中心下载 Skype for Business Server 2015 [的免费试用版](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)。
   
-使用本文档中的过程，通过使用 Skype for Business Server 拓扑生成器和新的 In-Place 升级功能，从 Lync Server 2013 升级到 Skype for Business Server 2015。 如果要从 Lync Server 2010 或 Office Communications Server 2007 R2 升级，请参阅 Plan [to upgrade to Skype for Business Server 2015。](../plan-your-deployment/upgrade.md)
+使用本文档中的过程，通过使用 Skype for Business Server 拓扑生成器和新的 In-Place 升级功能，从 Lync Server 2013 升级到 Skype for Business Server 2015。 如果要从 Lync Server 2010 或 Office Communications Server 2007 R2 升级，请参阅 Plan [to upgrade to Skype for Business Server 2015](../plan-your-deployment/upgrade.md)。
 
 > [!NOTE]
-> 2015 年 2 月Skype for Business Server就地升级，但在 2019 年 2 月不再Skype for Business Server升级。 支持并行共存，有关详细信息，请参阅迁移到[Skype for Business Server 2019。](../../SfBServer2019/migration/migration-to-skype-for-business-server-2019.md)
+> 2015 年 2 月Skype for Business Server就地升级，但在 2019 年 2 月不再Skype for Business Server升级。 支持并行共存，有关详细信息，请参阅迁移到 [Skype for Business Server 2019](../../SfBServer2019/migration/migration-to-skype-for-business-server-2019.md)。
   
 ## <a name="upgrade-from-lync-server-2013"></a>从 Lync Server 2013 升级
 
-将 Lync Server 2013 升级到 Skype for Business Server 2015 涉及安装必备软件、使用 Skype for Business Server 拓扑生成器升级池中的数据库，以及在每个与池关联的服务器上使用 Skype for Business Server In-Place 升级。 若要完成升级，请执行本主题中的八个步骤。
+将 Lync Server 2013 升级到 Skype for Business Server 2015 涉及安装必备软件、使用 Skype for Business Server 拓扑生成器升级池中的数据库，以及在每个关联的服务器上使用 Skype for Business Server In-Place 升级池。 若要完成升级，请执行本主题中的八个步骤。
   
-### <a name="before-you-begin"></a>准备工作
+### <a name="before-you-begin"></a>开始之前
 
-- 查看[Plan to upgrade to Skype for Business Server 2015](../plan-your-deployment/upgrade.md)。
+- 查看 [Plan to upgrade to Skype for Business Server 2015](../plan-your-deployment/upgrade.md)。
     
-- Review [Server requirements for Skype for Business Server 2015](../plan-your-deployment/requirements-for-your-environment/server-requirements.md).
+- 查看 [2015 Skype for Business Server的服务器要求](../plan-your-deployment/requirements-for-your-environment/server-requirements.md)。
     
 - [安装 2015 Skype for Business Server必备组件](install/install-prerequisites.md)。
     
 - [安装 Skype for Business Server 2015](install/install.md) 。
     
-### <a name="step-1-install-administrator-tools-and-download-topology"></a>步骤 1：安装管理员工具并下载拓扑
+### <a name="step-1-install-administrator-tools-and-download-topology"></a>步骤 1：安装管理员工具和下载拓扑
 
-1. 连接 Lync OCSCore 或其他任何 Lync 组件，则连接到拓扑中的计算机。
+1. 连接连接到拓扑中未安装 Lync OCSCore 或其他任何 Lync 组件的计算机。
     
-2. 从 Skype for Business Server 2015 安装介质中 **，Setup.exe** **OCS_Volume\Setup\AMD64 运行**。 
+2. 从 Skype for Business Server 2015 安装介质中，Setup.exeOCS_Volume **\Setup\AMD64 运行**。**** 
     
 3. 单击“**安装**”。 
     
 4. 接受许可协议。
     
-5. 在部署向导中，单击 **"安装管理员工具"，** 然后按照步骤进行安装。
+5. 在部署向导中，单击 **"安装管理员工具**"，然后按照步骤进行安装。
     
      ![部署向导的屏幕截图，其中链接指向已调用的安装管理员工具。](../media/5bbac2d6-a5b3-42b4-a243-7bcf2b04477a.png)
   
 6. 从"Windows"屏幕中，Skype for Business Server拓扑生成器"。
     
-7. 单击 **"从现有部署下载拓扑"，** 然后单击"下一 **步"。**
+7. 单击 **"从现有部署下载拓扑"**，然后单击"下一 **步"**。
     
-8. 输入拓扑的名称，然后单击"保存 **"。**
+8. 输入拓扑的名称，然后单击"保存 **"**。
     
 9. 转到保存拓扑的位置，并复制拓扑。
     
@@ -77,7 +77,7 @@ ms.locfileid: "60849395"
 >  在升级之前保存拓扑文件的副本。 升级后，将无法降级拓扑。>如果您的服务与数据库位于同一台服务器上，如持久聊天服务与持久聊天数据库位于同一台服务器上，请跳过此步骤，然后转到步骤 4。 停止服务后，在每台服务器In-Place升级安装程序以升级本地数据库。
   
 > [!NOTE]
-> 如果拓扑具有镜像的后端数据库，则当您使用拓扑生成器发布拓扑时，将会同时显示主体数据库和镜像数据库。  在发布拓扑时，请确保所有数据库都运行在主体上，并且仅选择主体，而不是镜像，否则在发布拓扑后将看到一条警告。
+> 如果拓扑具有镜像的后端数据库，则当您使用拓扑生成器发布拓扑时，将会同时显示主体数据库和镜像数据库。 在发布拓扑时，请确保所有数据库都运行在主体上，并且仅选择主体，而不是镜像，否则在发布拓扑后将看到一条警告。
   
 选择以下选项之一，使用 Skype for Business Server 2015 拓扑生成器升级和发布新拓扑。 完成这些步骤并发布更新的拓扑后，请移至本主题中的步骤 3。
   
@@ -89,7 +89,7 @@ ms.locfileid: "60849395"
     
      ![Lync Server 2013 具有升级选项的右键单击菜单的屏幕截图。](../media/7d5b25b1-e5c0-474c-a024-a5ba33f1b3a1.png)
   
-2. 在拓扑生成器中，单击"**操作**  >  **""发布拓扑**"**或"操作**  >  **拓扑**  >  **发布"。** 
+2. 在拓扑生成器中，单击 **"操作** > **""发布拓扑"****或"****ActionTopologyPublish** >  > **"**。 
     
      !["操作"菜单的屏幕截图，其中"拓扑生成器"中具有"发布拓扑"选项。](../media/d6712634-9205-401f-a0b0-3ea096ca51bf.png)
   
@@ -97,13 +97,13 @@ ms.locfileid: "60849395"
     
 #### <a name="option-2-upgrade-front-end-pool-without-upgrading-archiving-and-monitoring-stores"></a>选项 2：在不升级存档和监控存储的情况下升级前端池
 
-如果使用以下步骤，将禁用所选池的存档和监控。 升级后，池将没有存档和监控存储。
+如果使用以下步骤，则禁用所选池的存档和监控。 升级后，池将没有存档和监控存储。
   
 1. 在拓扑生成器中，选择要升级的 Lync Server 2013 池。
     
 2. 删除对 Lync Server 2013 存档和监控存储的依赖关系。 
     
-   - 转到操作 **编辑**  >  **属性**。
+   - 转到 **"ActionEdit** >  **属性"**。
     
    - 清除" **存档** "复选框。
     
@@ -113,11 +113,11 @@ ms.locfileid: "60849395"
     
      ![显示"监视"复选框的"编辑属性"对话框的屏幕截图。](../media/880acf33-57bb-4521-8717-cf5b67261ed4.png)
   
-3. 右键单击 Lync Server 2013 池，选择"升级到 **Skype for Business Server 2015"，** 然后按照步骤操作。 
+3. 右键单击 Lync Server 2013 池，选择"升级到 **Skype for Business Server 2015"，然后** 按照步骤操作。 
     
      ![Lync Server 2013 具有升级选项的右键单击菜单的屏幕截图。](../media/7d5b25b1-e5c0-474c-a024-a5ba33f1b3a1.png)
   
-4. 在拓扑生成器中，单击"**操作**  >  **""发布拓扑**"**或"操作**  >  **拓扑**  >  **发布"。** 
+4. 在拓扑生成器中，单击 **"操作** > **""发布拓扑"****或"****ActionTopologyPublish** >  > **"**。 
     
 #### <a name="option-3-upgrade-front-end-pool-and-associated-it-to-new-skype-for-business-server-2015-archiving-and-monitoring-stores"></a>选项 3：升级前端池，并关联到新的 Skype for Business Server 2015 存档和监控存储
 
@@ -127,7 +127,7 @@ ms.locfileid: "60849395"
     
 2. 删除对 Lync Server 2013 存档和监控存储的依赖关系。 
     
-   - 转到操作 **编辑**  >  **属性**。
+   - 转到 **"ActionEdit** >  **属性"**。
     
    - 清除" **存档** "复选框。
     
@@ -137,13 +137,13 @@ ms.locfileid: "60849395"
     
      ![显示"监视"复选框的"编辑属性"对话框的屏幕截图。](../media/880acf33-57bb-4521-8717-cf5b67261ed4.png)
   
-3. 右键单击 Lync Server 2013 池，选择"升级到 **Skype for Business Server 2015"，** 然后按照步骤操作。 
+3. 右键单击 Lync Server 2013 池，选择"升级到 **Skype for Business Server 2015"，然后** 按照步骤操作。 
     
      ![Lync Server 2013 具有升级选项的右键单击菜单的屏幕截图。](../media/7d5b25b1-e5c0-474c-a024-a5ba33f1b3a1.png)
   
 4. 创建新的存档SQL存储。 
     
-   - 选择池和 **操作**  >  **编辑属性**。 
+   - 选择池和 **ActionEdit** >  属性。 
     
    -  选中“存档”复选框。
     
@@ -153,7 +153,7 @@ ms.locfileid: "60849395"
   
 5. 创建新的监控SQL存储。 
     
-   - 选择池和 **操作**  >  **编辑属性**。 
+   - 选择池和 **ActionEdit** >  属性。 
     
    -  选中" **监控"** 复选框。
     
@@ -161,7 +161,7 @@ ms.locfileid: "60849395"
     
      ![显示"监视"部分下的"新建"按钮的"编辑属性"对话框的屏幕截图。](../media/729c72a7-0068-4e0d-99dc-e480a6bfbf1d.png)
   
-6. 在拓扑生成器中，单击"**操作**  >  **""发布拓扑**"**或"操作**  >  **拓扑**  >  **发布"。** 
+6. 在拓扑生成器中，单击 **"操作** > **""发布拓扑"****或"****ActionTopologyPublish** >  > **"**。 
     
 7. 在发布过程中，选择将数据库安装到新的存档和监控存储中。
     
@@ -182,11 +182,11 @@ Disable-CsComputer -Scorch
 ### <a name="step-5-upgrade-front-end-pools-and-non-front-end-pool-servers"></a>步骤 5：升级前端池和非前端池服务器
 
 > [!NOTE]
->  在升级之前，请安装 Skype for Business Server 2015 所需的所有新必备组件，其中包括：>尝试升级之前至少 32GB 的可用空间。 此外，请确保驱动器是固定本地驱动器， 未通过 USB 或 Firewire 连接，使用 NTFS 文件系统格式化，未压缩，并且不包含页面文件。> PowerShell 版本 6.2.9200.0 或更高版本。> 安装了最新的 Lync Server 2013 累积更新。> SQL Server 2012 SP1 已安装。>如果使用 Microsoft Update) ，则会自动安装以下 KB 的 (：> Windows Server 2008 R2 -[KB2533623](https://support.microsoft.com/kb/2533623)> Windows Server 2012 -[KB2858668](https://support.microsoft.com/kb/2858668)> Windows Server 2012 R2 -[KB2982006](https://support.microsoft.com/kb/2982006)
+>  在升级之前，请安装 Skype for Business Server 2015 所需的所有新必备组件，其中包括：>尝试升级之前至少 32GB 的可用空间。 此外，请确保驱动器是固定本地驱动器，未通过 USB 或 Firewire 连接， 使用 NTFS 文件系统格式化，未压缩，并且不包含页面文件。> PowerShell 版本 6.2.9200.0 或更高版本。> 安装了最新的 Lync Server 2013 累积更新。> SQL Server 2012 SP1 已安装。>如果使用 Microsoft Update) ，则自动安装以下 KB 的 (：> Windows Server 2008 R2 -[KB2533623](https://support.microsoft.com/kb/2533623)> Windows Server 2012 -[KB2858668](https://support.microsoft.com/kb/2858668)> Windows Server 2012 R2 -[KB2982006](https://support.microsoft.com/kb/2982006)
   
 使用In-Place升级更新前端池、边缘池、中介服务器和持久聊天池。
   
-1. 在每台服务器上，从Setup.exe2015 OCS_Volume介质上的 **Skype for Business Server\Setup\amd64** 运行安装程序。
+1. 在每台服务器上，从 **Setup.exe** 2015 OCS_Volume介质上的 OCS_Volume **\Setup\amd64** 运行Skype for Business Server服务器。
     
 2. 接受许可协议并按照提示执行 In-Place 升级。
     
@@ -211,7 +211,7 @@ Disable-CsComputer -Scorch
   ```
 
     > [!NOTE]
-    > 如果在开始运行 In-Place Upgrade 之前已存在需要挂起的系统重新启动，In-Place升级不会要求您在安装结束时重新启动。 当您尝试使用 Start-CSPool cmdlet 启动服务时，将导致针对第一台前端服务器引发一些程序集异常。 若要解决这些错误，请重新启动池中的所有服务器并再次运行 cmdlet。 
+    > 如果在开始运行 In-Place Upgrade 之前已存在需要挂起的系统重新启动，In-Place升级不会要求您在安装结束时重新启动。 这样，当您尝试使用 Start-CSPool cmdlet 启动服务时，将针对第一台前端服务器引发一些程序集异常。 若要解决这些错误，请重新启动池中的所有服务器并再次运行 cmdlet。 
   
 - 在非前端池服务器上，使用下列命令重新启动服务：
     
@@ -219,7 +219,7 @@ Disable-CsComputer -Scorch
   Start-CsWindowsService
   ```
 
-在 **"升级In-Place** 单击"确定"后，你将看到以下完成此步骤的提醒。
+在 **"升级** In-Place单击"确定"后，你将看到以下完成此步骤的提醒。
   
 ![显示就地升级成功完成后接下来的步骤的屏幕截图。](../media/6a7236b6-9ef9-4df3-8682-b0e4021810f9.png)
   
@@ -239,7 +239,7 @@ Disable-CsComputer -Scorch
   
 查看页面底部的完整消息，以帮助你解决问题。 单击 **"查看日志** "获取更多详细信息。
   
-如果 In-Place 升级在验证升级准备情况或 **安装** 缺少的必备组件时失败，请确保服务器应用了所有最新的 Windows Server、Lync Server 和 SQL Server 更新，并且已安装所有必需的软件和角色。 有关所需内容的列表，请参阅[Server requirements for Skype for Business Server 2015](../plan-your-deployment/requirements-for-your-environment/server-requirements.md)和 Install [prerequisites for Skype for Business Server 2015。](install/install-prerequisites.md)
+如果 In-Place 升级在验证升级就绪情况或安装缺少的必备组件时失败，请确保服务器应用了所有最新的 Windows Server、Lync Server 和 SQL Server 更新，并且已安装所有必需的软件和角色。 有关所需内容的列表，请参阅 [Server requirements for Skype for Business Server 2015](../plan-your-deployment/requirements-for-your-environment/server-requirements.md)和 [Install prerequisites for Skype for Business Server 2015](install/install-prerequisites.md)。
   
 ## <a name="see-also"></a>另请参阅
 

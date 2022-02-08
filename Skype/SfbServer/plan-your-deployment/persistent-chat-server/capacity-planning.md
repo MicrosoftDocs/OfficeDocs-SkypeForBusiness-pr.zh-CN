@@ -1,8 +1,8 @@
 ---
 title: Skype for Business Server 2015 中的持久聊天服务器容量规划
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/23/2018
 audience: ITPro
@@ -13,25 +13,25 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 7a850cd5-c789-4795-a8ff-083be21ae784
 description: 摘要：阅读本主题，了解 2015 年 10 月持久聊天Skype for Business Server容量规划。
-ms.openlocfilehash: 4b84d06a7b6c7f20f26d22ed5718da9abf8108d9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 48df53528b31babe6419bc42ac303b810abdf197
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834058"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389994"
 ---
 # <a name="capacity-planning-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的持久聊天服务器容量规划
  
 **摘要：** 阅读本主题以了解 2015 年 10 月持久聊天服务器Skype for Business Server规划。
   
-持久聊天服务器可以执行多用户实时聊天，这些聊天可以保留供将来检索和搜索。 与组即时消息 (IM) 不同，如果配置了对话历史记录，则持久聊天服务器会话将保持打开状态更长时间，并且内容会与消息、文件、URL 以及作为正在进行的对话一部分的其他数据一起保存到服务器上。
+持久聊天服务器可以执行多用户实时聊天，这些聊天可以保留供将来检索和搜索。 与在配置对话历史记录时保存在用户邮箱中的组即时消息 (IM) 不同，持久聊天服务器会话保持打开状态的时间更长，并且内容会与消息、文件、URL 以及作为持续对话一部分的其他数据一起保存到服务器上。
   
-容量规划是准备部署持久聊天服务器的重要部分。 本主题提供了可用于确定部署的最佳配置的容量规划表。 本文还介绍如何最好地管理高峰时间需要更大容量的持久聊天服务器部署。
+容量规划是准备部署持久聊天服务器的重要部分。 本主题提供了可用于确定部署的最佳配置的容量规划表。 本文还介绍如何在高峰时间最好地管理需要更大容量的持久聊天服务器部署。
   
 在阅读本节之前，您应熟悉持久聊天拓扑。 有关详细信息，请参阅规划 [持久聊天服务器拓扑](topology.md)。
 
 > [!NOTE] 
-> 持久聊天在 2015 Skype for Business Server可用，但在 2019 年 2 月不再Skype for Business Server支持。 相同的功能在 Teams。 有关详细信息，请参阅开始[升级Microsoft Teams升级](/microsoftteams/upgrade-start-here)。 如果您需要使用持久聊天，则选择将需要此功能的用户迁移到 Teams，或者继续使用 Skype for Business Server 2015。 
+> 持久聊天在 Skype for Business Server 2015 中可用，但在 2019 年 2 Skype for Business Server不再受支持。 相同的功能在 Teams。 有关详细信息，请参阅[开始升级Microsoft Teams升级](/microsoftteams/upgrade-start-here)。 如果您需要使用持久聊天，您的选择是迁移需要此功能的用户以Teams或继续使用 Skype for Business Server 2015。 
   
 ## <a name="persistent-chat-server-capacity-planning"></a>持久聊天服务器容量规划
 
@@ -98,7 +98,7 @@ ms.locfileid: "60834058"
    
 在上一示例中，根据建议的准则部署持久聊天服务器时，这些服务器可以在启用了合规性的四台服务器池中处理多达 80，000 个活动用户。
   
-此示例显示在任何给定时间 (30 个活动用户、中 (150 个活动用户) ) 和 (16，000 个活动用户) 的聊天室。 上表中特定大小的支持的聊天室数量基于以下总数计算：
+此示例显示在任何给定时间)  (30 个活动用户、中 (150 个活动用户) 和 (16，000 个活动用户) 的聊天室。 上表中特定大小的支持的聊天室数量基于以下总数计算：
   
 - 系统中的活动用户数量
     
@@ -106,16 +106,16 @@ ms.locfileid: "60834058"
     
 - 单个用户加入的给定大小的聊天室数量
     
-对于每个聊天室，前面的容量规划表指定与聊天室关联的访问控制条目的数量，包括直接分配给聊天室的条目。 您可以使用访问控制列表和 ACL 或 ACL 来控制对 (聊天室) 。 您还可以在类别级别控制访问。 在 ACL 中，单个访问控制项可以是用户组，例如，安全组、通讯组列表或单个用户。 您可以为聊天室管理员、演示者和成员定义访问控制条目。
+对于每个聊天室，前面的容量规划表指定与聊天室关联的访问控制条目的数量，包括直接分配给聊天室的条目。 您可以使用访问控制列表和 ACL 控制对 (聊天室) 。 您还可以在类别级别控制访问。 在 ACL 中，单个访问控制项可以是用户组，例如，安全组、通讯组列表或单个用户。 您可以为聊天室管理员、演示者和成员定义访问控制条目。
   
 > [!IMPORTANT]
 > 在规划管理聊天室的策略时，请记住允许的访问控制项总数为 200 万。 如果计算出的访问控制项超过 200 万个，则服务器性能可能会显著降低。 为避免此问题，只要有可能，请确保您的访问控制项是用户组而不是单个用户。 
   
 ### <a name="plan-capacity-for-managing-chat-room-access-by-invitation"></a>规划通过邀请管理聊天室访问的容量
 
-您可以使用以下容量规划表了解持久聊天服务器在配置为发送邀请时在持久聊天数据库中创建和存储的邀请数。 您可以使用 Skype for Business Server 控制面板中的"聊天室类别"设置页，或通过使用 Windows PowerShell cmdlet **set-csPersistentChatCategory** 管理类别上的邀请。 您可以使用从 Skype for Business 客户端启动的"聊天室管理"页，或通过使用 Windows PowerShell cmdlet **set-csPersistentChatRoom** 来管理聊天室 (上的邀请，符合类别允许的) 。 
+您可以使用以下容量规划表了解持久聊天服务器在配置为发送邀请时在持久聊天数据库中创建和存储的邀请数。 您可以使用 Skype for Business Server 控制面板中的"聊天室类别"设置页，或者使用 Windows PowerShell cmdlet **set-csPersistentChatCategory** 管理类别上的邀请。 您可以使用从 Skype for Business 客户端启动的"聊天室管理"页，或通过使用 Windows PowerShell cmdlet **set-csPersistentChatRoom**，按照类别允许) 管理聊天室 (上的邀请。
   
-下表中的示例数据假定在 50% 聊天室的"聊天室设置"页上，"邀请"选项设置为 **"是"。** 
+下表中的示例数据假定在所有聊天室的 50% 聊天室的"聊天室设置"页上，"邀请"选项设置为 **"是"**。
   
 > [!IMPORTANT]
 > 如果服务器生成的邀请数的计算值超过 100 万，则服务器性能可能会显著降低。 若要避免此问题，请确保最大程度地减少配置为发送邀请的聊天室数量，或限制可加入已配置为发送邀请的聊天室的用户数。 

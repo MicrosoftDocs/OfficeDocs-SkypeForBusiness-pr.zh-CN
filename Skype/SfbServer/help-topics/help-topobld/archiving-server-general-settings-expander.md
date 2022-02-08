@@ -1,8 +1,8 @@
 ---
 title: 存档服务器常规设置扩展器
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,16 +15,16 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 0b820af7-8d00-42e2-979c-dbae17159a08
 description: 在拓扑生成器中，可以编辑存档单台服务器的属性，方法是右键单击控制台树中存档的服务器，然后单击工具栏中的"操作"，或者单击"操作"窗格中的任务，然后单击"编辑属性"并更改以下任一选项：
-ms.openlocfilehash: a415adabb757ff7e9129dde85327f691112fd2a5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 2a50b6bd90662ebe27cce99e057717ec9110fc0c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833498"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388266"
 ---
 # <a name="archiving-server-general-settings-expander"></a>存档服务器常规设置扩展器
  
-在拓扑生成器中，可以编辑存档单台服务器的属性，方法是右键单击控制台树中存档的服务器，然后单击工具栏中的"操作"，或者单击"操作"窗格中的任务，然后单击"编辑属性"并更改以下任一选项： 
+在拓扑生成器中，可以编辑存档单台服务器的属性，方法是右键单击控制台树中存档的服务器，然后单击工具栏中的"操作"，或者单击"操作"窗格中的任务，然后单击"编辑属性"并更改以下任一选项：
   
 - **FQDN**，更改要部署为存档服务器的服务器的完全限定域名 (FQDN)。
     
@@ -36,6 +36,6 @@ ms.locfileid: "60833498"
 > 若要更改与存档服务器关联的池，请为当前与存档服务器关联的单个前端池节点或 Survivable Branch Appliance 节点选择“编辑属性”选项。
   
 > [!NOTE]
-> 如果之前将存档服务器添加到拓扑生成器中的拓扑，则存档节点包含存档服务器。 可以编辑列表中所有存档服务器的属性。 但是，除非为存档服务器设置 (，否则) 无法存档即时消息或 Web 会议。 
+> 如果之前将存档服务器添加到拓扑生成器中的拓扑，则存档节点包含存档服务器。 可以编辑列表中所有存档服务器的属性。 但是，无法存档即时消息 (Web 会议) ，除非还要为存档服务器设置服务。 
   
 

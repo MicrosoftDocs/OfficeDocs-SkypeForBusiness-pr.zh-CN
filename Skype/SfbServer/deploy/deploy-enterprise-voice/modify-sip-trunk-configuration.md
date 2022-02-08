@@ -1,8 +1,8 @@
 ---
 title: Skype for Business Server：修改 SIP 中继配置设置
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7d68b09c-9ea0-43bd-997c-df887869d607
 description: 摘要：了解如何使用"sip 中继"控制面板Skype for Business Server SIP 中继配置设置。
-ms.openlocfilehash: e2e935e47f629ff3dcbf0106f1728402be986c1d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ada56be3cb0e9e8d1c1b5b607602cfd4b176beed
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839644"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387291"
 ---
 # <a name="skype-for-business-server-modify-sip-trunk-configuration-settings"></a>Skype for Business Server：修改 SIP 中继配置设置 
  
@@ -35,7 +35,7 @@ SIP 中继配置设置定义中介服务器与服务提供商的公用电话交�
     
 - 每个中继上是否需要安全实时传输 (SRTP) 加密。
     
-在安装Skype for Business Server时，将创建 SIP 中继配置设置的全局集合。 此外，管理员还可以在站点作用域或服务作用域（仅针对 PSTN 网关服务）内创建自定义设置集合。 稍后可以使用控制面板或命令行管理程序Skype for Business Server这些集合Skype for Business Server修改。
+安装客户端Skype for Business Server，将创建 SIP 中继配置设置的全局集合。 此外，管理员还可以在站点作用域或服务作用域（仅针对 PSTN 网关服务）内创建自定义设置集合。 稍后可以使用控制面板或命令行管理程序Skype for Business Server这些集合Skype for Business Server修改。
   
 使用"控制面板"Skype for Business Server SIP 中继配置设置时，可以使用以下选项。
   
@@ -65,14 +65,14 @@ SIP 中继配置设置定义中介服务器与服务提供商的公用电话交�
   
 ### <a name="to-modify-sip-trunk-configuration-settings-by-using-skype-for-business-server-control-panel"></a>使用控制面板修改 SIP 中继Skype for Business Server设置
 
-1. 在Skype for Business Server控制面板"中，单击"**语音路由**"，然后单击"**中继配置"。**
+1. 在Skype for Business Server控制面板"中，单击"**语音路由"**，然后单击"**Trunk 配置"**。
     
 2. 在“Trunk 配置”选项卡上，双击要修改的中继配置设置。请注意，您一次只能编辑一个设置集合。如果要对多个集合进行同一更改，请改用 Windows PowerShell。
     
-3. 在"**编辑 Trunk 配置**"对话框中，进行适当的选择，然后单击"确定 **"。**
+3. 在" **编辑 Trunk 配置** "对话框中，进行适当的选择，然后单击"确定 **"**。
     
 4. 集合的“状态”属性将更新为“未提交”。若要提交更改和删除集合，请单击“提交”，然后单击“全部提交”。
     
 5. 在“未提交的语音配置设置”对话框中，单击“确定”。
     
-6. 在 **"Skype for Business Server控制面板**"对话框中，单击"确定 **"。**
+6. 在"**Skype for Business Server控制面板**"对话框中，单击"**确定"**。

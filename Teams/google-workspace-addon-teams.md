@@ -1,7 +1,7 @@
 ---
 title: 为Microsoft Teams工作区设置会议加载项
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: aravin
 manager: serdars
 ms.topic: article
@@ -18,34 +18,34 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c5b3d873dd327be4cbc28d4d979ad06cb6f9c9ea
-ms.sourcegitcommit: 9ed5aecbf671accae93ac5084ad7875e82e3858b
+ms.openlocfilehash: b93fecea83a4fb44a19f490af514626a0d17f3ff
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/31/2021
-ms.locfileid: "61648880"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388984"
 ---
 # <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>为Microsoft Teams工作区设置会议加载项
 
 使用 Microsoft Teams 会议加载项，Google 日历用户可以直接从 Google 工作区Microsoft Teams和加入会议。 用户可以访问Teams会议功能，包括视频和音频会议、屏幕共享、会议聊天、数字白板等。 保持连接并保持井井有条，在工作、学校与生活之间共同完成更多工作。
 
-Microsoft Teams管理员必须启用 Google Workspace 的 Teams 会议加载项，租户用户才能访问该应用。
+Microsoft Teams管理员必须启用 Google Workspace Teams会议加载项，租户用户才能访问该应用。
 
 ## <a name="enable-or-disable-microsoft-teams-meeting-add-on-for-google-workspace-in-the-azure-portal"></a>在 Azure Microsoft Teams中为 Google Workspace 启用或禁用会议加载项
 
-作为租户管理员，可以使用 Azure 门户Microsoft Teams组织的管理员帐户为 Google Workspace 启用或禁用会议加载项。
+作为租户管理员，可以使用 Azure Microsoft Teams从组织的管理员帐户为 Google Workspace 启用或禁用会议加载项。
 
 默认情况下，该加载项已启用。
 
 1. 登录到 Azure 门户。
 
-2. 选择 **"Enterprise**  >  **应用程序""所有应用程序"。**
+2. 选择 **"Enterprise应用程序** > **""所有应用程序"**。
 
-3. 搜索Microsoft Teams **工作区的会议加载项**。
+3. 搜索 **Microsoft Teams Google Workspace 的会议加载项**。
 
    ![显示所有应用程序的 Azure 门户。](media/aad-add-google-workspace.png)
 
-4. 选择"**是"。**
+4. 选择" **是"**。
 
    ![显示 google 工作区属性的 Azure 门户。](media/google-workspace-properties.png)
 
@@ -73,13 +73,13 @@ if ($servicePrincipal) {
 }
 ```
 
-有关详细信息，请参阅使用 Azure PowerShell[创建 Azure 服务主体](/powershell/azure/create-azure-service-principal-azureps?view=azps-5.0.0)。
+有关详细信息，请参阅使用 Azure PowerShell 创建 [Azure 服务主体](/powershell/azure/create-azure-service-principal-azureps?view=azps-5.0.0)。
 
-## <a name="delete-the-microsoft-teams-meeting-add-on-for-google-workspace"></a>删除Microsoft Teams Google Workspace 的会议加载项
+## <a name="delete-the-microsoft-teams-meeting-add-on-for-google-workspace"></a>删除Microsoft Teams工作区的会议加载项
 
-有关说明，请参阅 Google 文档 [删除 Google Workspace Marketplace](https://support.google.com/a/answer/6216211?hl=en) 应用。
+有关说明，请参阅 [Google 文档删除 Google Workspace Marketplace](https://support.google.com/a/answer/6216211?hl=en) 应用。
 
-## <a name="create-the-microsoft-teams-meeting-add-on-for-google-workspace-using-powershell"></a>使用 PowerShell Microsoft Teams Google Workspace 的会议加载项
+## <a name="create-the-microsoft-teams-meeting-add-on-for-google-workspace-using-powershell"></a>使用 PowerShell Microsoft Teams Google Workspace 的 Microsoft Teams 会议加载项
 
 如果Microsoft Teams没有会议加载项，可以使用 PowerShell 创建它： 
 

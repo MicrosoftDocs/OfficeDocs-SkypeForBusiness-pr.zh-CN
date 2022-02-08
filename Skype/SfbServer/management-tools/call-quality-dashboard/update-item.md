@@ -1,8 +1,8 @@
 ---
 title: 更新项目
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b1c15c56-cdae-4f3e-838a-52f0940cf729
 description: 摘要：了解作为项目服务的一部分的"更新项"操作。 项目服务是通话质量仪表板存储库 API 的一部分。 通话质量仪表板是一种用于Skype for Business Server。
-ms.openlocfilehash: 4140909786c3144dbc043568a5ca6aa2995a0720
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 9ea8a72f70b252cb44a1e4cb15e24cc3718e4be2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845395"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384250"
 ---
 # <a name="update-item"></a>更新项目
  
@@ -32,7 +32,7 @@ Update Item 操作是呼叫质量仪表板存储库 API 中的项目服务的一
 
 |**方法**|**请求 URI**|**HTTP 版本**|
 |:-----|:-----|:-----|
-|PUT  <br/> |https:// \<portal\> /QoERepositoryService/repository/item/{itemId}  <br/> |HTTP/1.1  <br/> |
+|PUT  <br/> |\<portal\>https:///QoERepositoryService/repository/item/{itemId}  <br/> |HTTP/1.1  <br/> |
    
  **URI 参数** - 无。
   
@@ -53,7 +53,7 @@ Update Item 操作是呼叫质量仪表板存储库 API 中的项目服务的一
   
  **响应** - 响应包括 HTTP 状态代码和一组响应标头。
   
- **状态代码** - 成功操作返回状态代码 204， (内容) 。 如果未找到指定的项目 ID，它将返回状态代码 404 (未找到) 。
+ **状态代码** - 成功操作返回状态代码 204 (无内容) 。 如果未找到指定的项目 ID，它将返回状态代码 404 (未找到) 。
   
 > [!IMPORTANT]
 > "无内容"不是错误状态。 它表示响应没有在正文中返回任何内容 (相反，200 OK 返回 Body) 。 它指示已成功更新项目。 

@@ -1,8 +1,8 @@
 ---
 title: 客户端版本配置
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: cb17314e-b89e-4821-8855-12f8fd2edc9b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 除了指定希望在环境中支持的客户端版本之外，还可以指定尚未定义版本策略的客户端的默认操作。这样可以限制在环境中使用的客户端版本，从而帮助您控制与支持多个客户端版本相关的成本。
-ms.openlocfilehash: fbbe0e6386af8474a621d974faa9936d03d33dbf
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 57720ae070f8051febc53b0287d6aa9d87985257
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857909"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387190"
 ---
 # <a name="client-version-configuration"></a>客户端版本配置
 
@@ -30,7 +30,7 @@ ms.locfileid: "60857909"
 
 您可以在“客户端版本配置”页上执行以下任务：
 
-- 编辑默认的全局 **()** 客户端版本配置。
+- 编辑默认的全局 ( **)** 客户端版本配置。
 
 - 为特定站点创建客户端版本配置。
 
@@ -43,7 +43,7 @@ ms.locfileid: "60857909"
 
 下表介绍了该页上的菜单、命令、字段和属性。
 
-- **新建** 您可以为特定站点创建客户端版本配置。
+- **新增功能** 您可以为特定站点创建客户端版本配置。
 
 - **编辑** 可以更改任何客户端版本策略的选项。 使用此选项，可以执行以下操作：
 
@@ -55,4 +55,4 @@ ms.locfileid: "60857909"
 
 - **刷新** 可以刷新客户端版本配置列表以验证所有客户端版本配置的选项状态。
 
-有关客户端和客户端版本之间的互操作性的详细信息，请参阅规划文档中的 Client [Interoperability。](/previous-versions/office/lync-server-2013/lync-server-2013-client-interoperability-in-lync-2013) 有关使用客户端版本配置的详细信息，请参阅操作文档中的[Modify the Default Action for Clients Not Explicitly Supported or Restricted](/previous-versions/office/lync-server-2013/lync-server-2013-modify-the-default-action-for-clients-not-explicitly-supported-or-restricted)。
+有关客户端和客户端版本之间的互操作性的详细信息，请参阅规划 [文档中的 Client Interoperability](/previous-versions/office/lync-server-2013/lync-server-2013-client-interoperability-in-lync-2013) 。 有关使用客户端版本配置的详细信息，请参阅操作文档中的[Modify the Default Action for Clients Not Explicitly Supported or Restricted](/previous-versions/office/lync-server-2013/lync-server-2013-modify-the-default-action-for-clients-not-explicitly-supported-or-restricted)。

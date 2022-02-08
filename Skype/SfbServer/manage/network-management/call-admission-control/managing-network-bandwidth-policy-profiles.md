@@ -1,8 +1,8 @@
 ---
 title: 管理网络带宽策略配置文件
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 使用本文中的过程查看、创建、修改或删除网络带宽策略配置文件。
-ms.openlocfilehash: fee0d4f57847747b0e25c98bc99183daa22a9996
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a360bd05ac3ee9cbd4d5a8d8d6578389dfc3068c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850995"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388120"
 ---
 # <a name="managing-network-bandwidth-policy-profiles-in-skype-for-business-server"></a>在 Skype for Business Server 中管理网络带宽策略配置文件
 
@@ -41,7 +41,7 @@ ms.locfileid: "60850995"
 
 ### <a name="viewing-network-bandwidth-policy-profile-information-by-using-windows-powershell-cmdlets"></a>使用 cmdlet 查看网络带宽策略Windows PowerShell信息
 
-可以使用 Windows PowerShell cmdlet 查看Get-CsNetworkBandwidthPolicyProfile配置文件。 可以从命令行管理程序或 Skype for Business Server远程会话运行此 cmdlet Windows PowerShell。 
+通过使用 cmdlet 和 Windows PowerShell 可以查看Get-CsNetworkBandwidthPolicyProfile配置文件。 可以从命令行管理程序或 Skype for Business Server远程会话运行此 cmdlet Windows PowerShell。 
 
 
 ### <a name="to-view-network-bandwidth-policy-profile-information"></a>查看网络带宽策略配置文件信息
@@ -73,7 +73,7 @@ ms.locfileid: "60850995"
 
 2.  打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。 
 
-3.  在左侧导航栏中，单击"**网络配置"，** 然后单击"带宽 **策略"。**
+3.  在左侧导航栏中，单击" **网络配置"**，然后单击"带宽 **策略"**。
 
 4.  在“带宽策略”页上，单击“新建”。
 
@@ -101,7 +101,7 @@ ms.locfileid: "60850995"
 
 2.  打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。 
 
-3.  在左侧导航栏中，单击"**网络配置"，** 然后单击"带宽 **策略"。**
+3.  在左侧导航栏中，单击" **网络配置"**，然后单击"带宽 **策略"**。
 
 4.  在“带宽策略”页上，单击要修改的带宽策略配置文件。
 
@@ -125,7 +125,7 @@ ms.locfileid: "60850995"
 
 2.  打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。 
 
-3.  在左侧导航栏中，单击"**网络配置"，** 然后单击"带宽 **策略"。**
+3.  在左侧导航栏中，单击" **网络配置"**，然后单击"带宽 **策略"**。
 
 4.  在“带宽策略”页上，单击要删除的带宽策略配置文件。
 

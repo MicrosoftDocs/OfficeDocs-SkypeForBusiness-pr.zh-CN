@@ -1,8 +1,8 @@
 ---
 title: 搜索由 Skype for Business Server 2015 中的集中日志记录服务创建的捕获日志
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
@@ -14,16 +14,16 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1b75b218-d84f-47a7-8a0a-b7e016b1cc79
 description: 摘要：了解如何在 Skype for Business Server 2015 中搜索和读取集中日志记录服务捕获日志。
-ms.openlocfilehash: a65fac6ffc96088cd1e544ed17914128d040e2b6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 2168bdc0a72df6efe4bf9d9f178a2ee9c120aa6a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831916"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385553"
 ---
 # <a name="search-capture-logs-created-by-the-centralized-logging-service-in-skype-for-business-server-2015"></a>搜索由 Skype for Business Server 2015 中的集中日志记录服务创建的捕获日志
  
-**摘要：** 了解如何在 Skype for Business Server 2015 中搜索和读取集中日志记录服务捕获日志。
+**摘要：** 了解如何在 2015 年 10 月搜索和读取集中日志记录服务Skype for Business Server日志。
   
 集中日志记录服务中的搜索功能非常有用且功能强大，原因如下： 
   
@@ -39,7 +39,7 @@ ms.locfileid: "60831916"
   
 为了从集中日志记录服务中获益，您需要深入了解如何配置搜索以仅返回与所研究问题相关的计算机和池日志中的跟踪消息。 问题
   
-若要使用 Skype for Business Server 命令行管理程序运行集中日志记录服务搜索功能，您必须是基于 CsAdministrator 或 CsServerAdministrator 角色的访问控制 (RBAC) 安全组的成员，或者是包含这两个组之一的自定义 RBAC 角色。 若要返回分配了此 cmdlet 的所有 RBAC 角色的列表 (包括您自己创建的任何自定义 RBAC 角色) ，请从 Skype for Business Server 命令行管理程序或 Windows PowerShell 提示符运行以下命令：
+若要使用 Skype for Business Server 命令行管理程序运行集中日志记录服务搜索功能，您必须是基于 CsAdministrator 或 CsServerAdministrator 角色的访问控制 (RBAC) 安全组的成员，或者是包含这两个组之一的自定义 RBAC 角色。 要返回分配了此 cmdlet 的所有 RBAC 角色的列表 (包括您自己创建的任何自定义 RBAC 角色) 请从 Skype for Business Server 命令行管理程序或 Windows PowerShell 提示符运行以下命令：
   
 ```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Skype for Business Server 2015 cmdlet"}
@@ -55,7 +55,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
   
 ### <a name="to-run-a-basic-search-by-using-the-centralized-logging-service"></a>使用集中日志记录服务运行基本搜索
 
-1. 启动命令行Skype for Business Server：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击"Skype for Business Server **命令行管理程序"。**
+1. 启动命令行Skype for Business Server：单击"开始"**，单击"** 所有程序"**，单击"****Skype for Business 2015"**，然后单击"Skype for Business Server **命令行管理程序"**。
     
 2. 确保 AlwaysOn 方案在部署中的全局范围内运行，然后在命令提示符处键入以下内容：
     
@@ -64,7 +64,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
    ```
 
 > [!NOTE]
-> 默认情况下，Search-CsClsLogging 将搜索结果发送至控制台。 如果要将搜索结果保存到文件，请使用 -OutputFilePath  _\<string fully qualified file path\>_ 。 若要定义 -OutputFilePath 参数，请以用引号括起（例如）的字符串格式提供路径和文件名 (作为参数的一部分;C:\LogFiles\SearchOutput.txt) 。 在此示例中，必须确保目录 C:\LogFiles 存在，并且您有权在该文件夹中读取和写入（NTFS 权限修改）文件。 输出将进行追加而不会被覆盖。 如果需要不同文件，请为每个搜索定义不同文件名。 
+> 默认情况下，Search-CsClsLogging 将搜索结果发送至控制台。 如果要将搜索结果保存到文件，请使用 -OutputFilePath  _\<string fully qualified file path\>_。 若要定义 -OutputFilePath 参数，请以用引号括起（例如）的字符串格式提供路径和文件名 (作为参数的一部分;C:\LogFiles\SearchOutput.txt) 。 在此示例中，必须确保目录 C:\LogFiles 存在，并且您有权在该文件夹中读取和写入（NTFS 权限修改）文件。 输出将进行追加而不会被覆盖。 如果需要不同文件，请为每个搜索定义不同文件名。 
   
 例如：
     
@@ -110,7 +110,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 ### <a name="to-run-a-search-by-using-time-parameters"></a>使用时间参数运行搜索
 
-1. 启动命令行Skype for Business Server：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击"Skype for Business Server **命令行管理程序"。**
+1. 启动命令行Skype for Business Server：单击"开始"**，单击"** 所有程序"**，单击"****Skype for Business 2015"**，然后单击"Skype for Business Server **命令行管理程序"**。
     
 2. 默认情况下，搜索的特定时间参数的开始时间是启动搜索后 5 分钟之前的 25 分钟。 换句话说，如果我们在下午 4：00：00 进行搜索，则搜索开始时间将显示为下午 3：35：00 到下午 4：05：00。 如果需要在当前时间之前搜索 60 分钟或 3 小时，请使用 -StartTime 参数并设置日期和时间字符串以指示希望搜索开始的时间。 
     
@@ -141,7 +141,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 ### <a name="to-run-an-advanced-search-by-using-other-criteria-and-matching-options"></a>使用其他条件和匹配选项运行高级搜索
 
-1. 启动命令行Skype for Business Server：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击"Skype for Business Server **命令行管理程序"。**
+1. 启动命令行Skype for Business Server：单击"开始"**，单击"** 所有程序"**，单击"****Skype for Business 2015"**，然后单击"Skype for Business Server **命令行管理程序"**。
     
 2. 若要运行命令以收集特定组件的跟踪，请键入以下命令：
     
@@ -163,7 +163,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
    Search-CsClsLogging -Components "SIPStack","S4","UserServices" -OutputFilePath "C:\Logfiles\logfile.txt"
    ```
 
-4. 使用多个参数的命令的默认搜索逻辑是将逻辑 OR 用于每个已定义参数。 可以通过指定 **-MatchAll** 参数来更改此行为。 为此，请键入以下内容：
+4. 使用多个参数的命令的默认搜索逻辑是将逻辑 OR 用于每个已定义参数。 可以通过指定 - **MatchAll** 参数来更改此行为。 为此，请键入以下内容：
     
    ```PowerShell
    Search-CsClsLogging -CallId "d0af828e49fa4dcb99f5f80223a634bc" -Components "SIPStack","S4","UserServices" -MatchAll -OutputFilePath "C:\Logfiles\logfile.txt"
@@ -177,16 +177,16 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 ## <a name="read-capture-logs-from-the-centralized-logging-service"></a>从集中日志记录服务读取捕获日志
 
-运行搜索后，您意识到集中日志记录服务的真正好处，并且您具有可用于跟踪报告的问题的文件。 读取该文件有多种方法。 输出文件为标准文本格式，可以使用 Notepad.exe 或任何其他可以打开和读取文本文件的程序。 对于较大的文件和更复杂的问题，可以使用 Snooper.exe 这样的工具，该工具旨在读取和分析集中日志记录服务中的日志记录输出。 Snooper 包含在调试工具中，可单独下载。 你可以在此处下载调试工具 [https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?LinkId=285257) ：。 安装调试工具时，不会创建短剪切和菜单项。 安装调试工具后，打开 Windows 资源管理器、命令行窗口或 Skype for Business Server 命令行管理程序，然后转到目录 (默认位置) C：\Program Files\Skype for Business Server 2015\Debugging Tools。 双击"Snooper.exe或键入 Snooper.exe，然后在使用命令行或命令行管理程序Skype for Business Server Enter。
+运行搜索后，您意识到集中日志记录服务的真正好处，并且您具有可用于跟踪报告的问题的文件。 读取该文件有多种方法。 输出文件为标准文本格式，可以使用 Notepad.exe 或任何其他可以打开和读取文本文件的程序。 对于较大的文件和更复杂的问题，可以使用一个Snooper.exe这样的工具，该工具旨在读取和分析集中日志记录服务中的日志记录输出。 Snooper 包含在调试工具中，可单独下载。 你可以在此处下载调试工具： [https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?LinkId=285257)。 安装调试工具时，不会创建短剪切和菜单项。 安装调试工具后，打开 Windows 资源管理器、命令行窗口或 Skype for Business Server 命令行管理程序，然后转到目录 (默认位置) C：\Program Files\Skype for Business Server 2015\Debugging Tools。 双击"Snooper.exe或键入 Snooper.exe，然后在使用命令行或命令行管理程序Skype for Business Server Enter。
   
 > [!IMPORTANT]
-> 本主题的目的不是详细介绍和讨论疑难解答技术。 疑难解答及其相关过程是一个复杂的主题。 有关疑难解答基础知识和特定工作负载疑难解答的详细信息，请参阅 位于 的 Microsoft Lync Server 2010 资源工具包书籍 [https://go.microsoft.com/fwlink/p/?linkId=211003](https://go.microsoft.com/fwlink/p/?linkId=211003) 。 这些过程和过程仍适用于 Skype for Business Server 2015。 
+> 本主题的目的不是详细介绍和讨论疑难解答技术。 疑难解答及其相关过程是一个复杂的主题。 有关疑难解答基础知识和特定工作负载疑难解答的详细信息，请参阅 位于 的 Microsoft Lync Server 2010 资源工具包书籍 [https://go.microsoft.com/fwlink/p/?linkId=211003](https://go.microsoft.com/fwlink/p/?linkId=211003)。 这些过程和过程仍适用于 Skype for Business Server 2015。 
   
 ### <a name="to-open-a-log-file-in-snooper"></a>在 Snooper 中打开日志文件
 
 1. 要使用 Snooper 并打开日志文件，您需要具有日志文件的读取权限。要使用 Snooper 并访问日志文件，您必须是基于 CsAdministrator 或 CsServerAdministrator 角色的访问控制 (RBAC) 安全组的成员，或者是包含这两个组之一的自定义 RBAC 角色。 
     
-2. 安装调试工具 (LyncDebugTools.msi) 后，使用 Snooper.exe 资源管理器Windows命令行将目录更改为 Snooper.exe 的位置。 默认情况下，调试工具位于 C：\Program Files\Skype for Business Server 2015\Debugging Tools 中。 双击或运行 Snooper.exe。
+2. 安装调试工具 (LyncDebugTools.msi) 后，使用 Snooper.exe 资源管理器Windows命令行将目录更改为 Windows 位置。 默认情况下，调试工具位于 C：\Program Files\Skype for Business Server 2015\Debugging Tools 中。 双击或运行 Snooper.exe。
     
 3. 打开 Snooper 后，右键单击“文件”，单击“打开文件”，查找日志文件，在“打开”对话框中选择文件，然后单击“打开”。
     

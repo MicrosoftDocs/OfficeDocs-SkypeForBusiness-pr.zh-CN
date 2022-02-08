@@ -1,8 +1,8 @@
 ---
 title: 报告中的故障分布Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,13 +11,13 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 365c7beb-24d4-40f5-92e7-4978b9688916
-description: Summary： Learn about the Failure Distribution Report in Skype for Business Server.
-ms.openlocfilehash: e8ebf3ccbb14b46c862d03f328fdbb327af51992
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: 摘要：了解 Skype for Business Server 中的故障分布报告。
+ms.openlocfilehash: 1cea85cb385ef7902dc896d468fea5ddfa71cc9d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847235"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384270"
 ---
 # <a name="failure-distribution-report-in-skype-for-business-server"></a>报告中的故障分布Skype for Business Server
  
@@ -51,9 +51,9 @@ ms.locfileid: "60847235"
     
 - [会议诊断报告Skype for Business Server](conference-diagnostic-report.md)
     
-- [Skype for Business Server 中的对等活动诊断报告](peer-to-peer-activity-diagnostic-report.md)
+- [Skype for Business Server 中的对等活动诊断Skype for Business Server](peer-to-peer-activity-diagnostic-report.md)
     
-从故障分布报告中，可以单击以下任一指标以查看"故障列表报告[Skype for Business Server：](failure-list-report.md)
+从故障分布报告中，您可以单击以下任何指标以查看故障列表报告[Skype for Business Server](failure-list-report.md)：
   
 - 主要诊断原因（会话）
     

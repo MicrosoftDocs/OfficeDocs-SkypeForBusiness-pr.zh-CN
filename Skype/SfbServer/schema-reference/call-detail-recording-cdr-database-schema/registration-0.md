@@ -1,8 +1,8 @@
 ---
 title: 注册视图
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8a42bc7d-3d4f-43c1-9e15-89b2ee419ade
 description: 注册视图存储有关用户注册的信息。 Lync Server 2013 中引入了此视图。
-ms.openlocfilehash: 62cfed96994f11ec7393bacc1e0b77edbe3374e7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ccd868c228b32f69240d6b2c7a10d4c07ac90d56
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842664"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384110"
 ---
 # <a name="registration-view"></a>注册视图
  
@@ -26,8 +26,8 @@ ms.locfileid: "60842664"
   
 |**列**|**数据类型**|**详细信息**|
 |:-----|:-----|:-----|
-|**SessionIdTime** <br/> |datetime  <br/> |会话请求的时间。 与 SessionIdSeq 结合使用来唯一地标识会话。 有关详细信息，请参阅[Skype for Business Server 2015](dialogs.md)中的 Dialogs 表。 <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |用于标识会话的 ID 号。 与 SessionIdTime 结合使用来唯一地标识会话。 有关详细信息，请参阅[Skype for Business Server 2015](dialogs.md)中的 Dialogs 表。 <br/> |
+|**SessionIdTime** <br/> |datetime  <br/> |会话请求的时间。 与 SessionIdSeq 结合使用来唯一地标识会话。 有关详细信息[，请参阅 Skype for Business Server 2015 中的 Dialogs](dialogs.md) 表。 <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |用于标识会话的 ID 号。 与 SessionIdTime 结合使用来唯一地标识会话。 有关详细信息[，请参阅 Skype for Business Server 2015 中的 Dialogs](dialogs.md) 表。 <br/> |
 |**RegisterTime** <br/> |datetime  <br/> |注册发生的时间。  <br/> |
 |**UserUri** <br/> |nvarchar (450)   <br/> |注册用户的 URI。  <br/> |
 |**UserUriType** <br/> |nvarchar (256)   <br/> |注册用户的 URI 的类型。 有关详细信息， [请参阅 UriTypes](uritypes.md) 表。 <br/> |
@@ -50,7 +50,7 @@ ms.locfileid: "60842664"
 |**IsUserServiceAvailable** <br/> |bit  <br/> |指示 UserService 在注册时是否可用。  <br/> |
 |**IsPrimaryRegistrar** <br/> |bit  <br/> |指示注册是否是使用主注册器的注册。  <br/> |
 |**DeviceMacAddress** <br/> |bigint  <br/> |已注册设备的 MAC 地址。  <br/> |
-|**DeviceManufacturer** <br/> |nvarchar (256)   <br/> |已注册设备的制造商。 有关详细信息[，请参阅 Skype for Business Server 2015](manufacturers.md)中的制造商表。 <br/> |
-|**DeviceHardwareVersion** <br/> |nvarchar (256)   <br/> |已注册设备的硬件版本。 有关详细信息，[请参阅 Skype for Business Server 2015 中的 HardwareVersions](hardwareversions.md)表。 <br/> |
+|**DeviceManufacturer** <br/> |nvarchar (256)   <br/> |已注册设备的制造商。 有关详细信息[，请参阅 Skype for Business Server 2015](manufacturers.md) 中的制造商表。 <br/> |
+|**DeviceHardwareVersion** <br/> |nvarchar (256)   <br/> |已注册设备的硬件版本。 有关详细信息，[请参阅 Skype for Business Server 2015 中的 HardwareVersions](hardwareversions.md) 表。 <br/> |
    
 

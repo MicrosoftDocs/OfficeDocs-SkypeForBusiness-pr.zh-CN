@@ -1,8 +1,8 @@
 ---
 title: 测试设备
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
@@ -14,13 +14,13 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: a1ea564c-f403-4f61-a36b-5a429708e7ca
-description: 可将测试设备添加到“测试设备”页，然后使用此设备验证新更新的功能，之后再将更新部署到生产设备。 可以在整个环境中或单个站点 (全局测试) 测试设备。 可通过测试设备的媒体访问控制 (MAC) 地址或序列号标识测试设备。 添加设备时，它将显示在"控制面板"的"测试设备"Skype for Business Server列表中。
-ms.openlocfilehash: affad15aca974f389b23b693caca92d5bc9981cf
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: 可将测试设备添加到“测试设备”页，然后使用此设备验证新更新的功能，之后再将更新部署到生产设备。 可以在整个环境中或单个站点 (全局测试) 测试设备。 可通过测试设备的媒体访问控制 (MAC) 地址或序列号标识测试设备。 添加设备时，它将显示在控制面板的"测试设备"Skype for Business Server列表中。
+ms.openlocfilehash: 6879896f1b9b913d4120561310d983244369b196
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857719"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385990"
 ---
 # <a name="test-device"></a>测试设备
 
@@ -38,7 +38,7 @@ ms.locfileid: "60857719"
 
 下表介绍了该页上的菜单、命令、字段和属性。
 
-- **新建** 你可以添加具有以下作用域的新测试设备：
+- **新增功能** 你可以添加具有以下作用域的新测试设备：
 
   - 全球
 

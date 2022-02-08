@@ -1,8 +1,8 @@
 ---
 title: 媒体表
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 1e1b427f-59b5-4564-bde5-1002a80439ee
 description: 每条记录表示一个用于点对点会话的媒体类型。如果使用多个媒体类型，则一个会话由表中的多条记录表示。
-ms.openlocfilehash: 02a11f296ec24e9f907927d93bc0fb8acb103b8a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 4b2bb3252945b34a38e9a2863f82c517729e9f89
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855216"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385450"
 ---
 # <a name="media-table"></a>媒体表
  
@@ -29,8 +29,8 @@ ms.locfileid: "60855216"
   
 |**列**|**数据类型**|**键/索引**|**详细信息**|
 |:-----|:-----|:-----|:-----|
-|**SessionIdTime** <br/> |datetime  <br/> |主、外  <br/> |会话请求的时间。 与 **SessionIdSeq** 结合使用来唯一地标识会话。 有关详细信息，请参阅[Skype for Business Server 2015](dialogs.md)中的 Dialogs 表。 <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |主、外  <br/> |用于标识会话的 ID 号。 与 **SessionIdTime** 结合使用来唯一地标识会话。 有关详细信息，请参阅[Skype for Business Server 2015](dialogs.md)中的 Dialogs 表。 <br/> |
+|**SessionIdTime** <br/> |datetime  <br/> |主、外  <br/> |会话请求的时间。 与 **SessionIdSeq** 结合使用来唯一地标识会话。 有关详细信息[，请参阅 Skype for Business Server 2015 中的 Dialogs](dialogs.md) 表。 <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |主、外  <br/> |用于标识会话的 ID 号。 与 **SessionIdTime** 结合使用来唯一地标识会话。 有关详细信息[，请参阅 Skype for Business Server 2015 中的 Dialogs](dialogs.md) 表。 <br/> |
 |**MediaId** <br/> |tinyint  <br/> |主、外  <br/> |标识媒体类型的唯一编号。 有关详细信息， [请参阅 MediaList](medialist.md) 表。 <br/> |
 |**StartTime** <br/> |datetime  <br/> |主  <br/> |这是发出媒体请求的时间，而不是实际的媒体启动时间。**StartTime** 包括会话建立时间。<br/> |
 |**EndTime** <br/> |datetime  <br/> ||这是会话的结束时间。  <br/> |

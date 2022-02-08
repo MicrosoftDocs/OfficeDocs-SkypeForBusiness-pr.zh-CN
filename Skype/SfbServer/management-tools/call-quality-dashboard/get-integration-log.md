@@ -1,8 +1,8 @@
 ---
 title: 获取集成日志
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 8856f6bc-5460-4f35-acf2-f7662f01579b
 description: 摘要：了解获取集成日志操作，这是通话质量仪表板的数据 API 的一部分。 通话质量仪表板是一种用于Skype for Business Server。
-ms.openlocfilehash: cb995e4b7d955514c64cfab772b19e100669d078
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b82ecffd5b39df6e149787ec7b3265f3e8176376
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834160"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388070"
 ---
 # <a name="get-integration-log"></a>获取集成日志
  
@@ -35,7 +35,7 @@ ms.locfileid: "60834160"
 
 |方法|**请求 URI**|**HTTP 版本**|
 |:-----|:-----|:-----|
-|GET  <br/> |https:// \<portal\> /QoEDataService/IntegrationLog  <br/> |HTTP/1.1  <br/> |
+|GET  <br/> |\<portal\>https:///QoEDataService/IntegrationLog  <br/> |HTTP/1.1  <br/> |
    
  **URI 参数** - 无。
   

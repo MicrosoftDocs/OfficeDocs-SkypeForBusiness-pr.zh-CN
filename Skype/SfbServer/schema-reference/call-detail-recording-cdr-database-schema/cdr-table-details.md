@@ -1,8 +1,8 @@
 ---
 title: Skype for Business Server 2015 中的 CDR 表详细信息
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 896198f5-672b-48ea-852f-0211c0c90857
 description: 以下主题详细介绍了每个呼叫详细记录 (CDR) 数据库架构表中的列。
-ms.openlocfilehash: 6a88bbb0f76e8bb222de8f4dce665c2177ac9e56
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: eecc6ee6deae0b718ec24fe590cb0148f9e232a3
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845075"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386380"
 ---
 # <a name="cdr-table-details-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的 CDR 表详细信息
  
@@ -40,7 +40,7 @@ ms.locfileid: "60845075"
     
 - [2015 年 Skype for Business Server 中的 Conferences 表](conferences.md)
     
-- [ConferenceSessionDetails table in Skype for Business Server 2015](conferencesessiondetails-0.md)
+- [Skype for Business Server 2015 中的 ConferenceSessionDetails 表](conferencesessiondetails-0.md)
     
 - [Skype for Business Server 2015 中的 ConferenceUris 表](conferenceuris.md)
     

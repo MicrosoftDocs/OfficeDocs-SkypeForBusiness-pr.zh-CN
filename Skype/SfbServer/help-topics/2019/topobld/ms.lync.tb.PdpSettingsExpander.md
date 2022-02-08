@@ -1,8 +1,8 @@
 ---
 title: 呼叫允许控制设置扩展器
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: dc94f75e-9abe-4e02-b835-3c845b317d65
 ROBOTS: NOINDEX, NOFOLLOW
 description: 呼叫允许控制 (CAC) 是区域、站点和子网的网络，通过它可基于可用带宽对音频和视频传输设置限制。为 CAC 配置网络后，必须启用 CAC 以强制实施带宽限制。
-ms.openlocfilehash: 66557874e804103df995ca55c3c825f10ad2b217
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 7251d31bc0f94a80a8537a185c84163c98dc0583
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828095"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390444"
 ---
 # <a name="call-admission-control-settings-expander"></a>呼叫允许控制设置扩展器
  

@@ -1,8 +1,8 @@
 ---
 title: 管理会议加入和离开Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: cb09f9c2-c6dc-4083-b45a-8b6773341373
 description: 摘要：了解如何管理会议加入和离开Skype for Business Server。
-ms.openlocfilehash: ee624ee347bb52f4bbdf4fbfae42f5303c8b6a54
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ac259999daaa2fed0988e59d9ab40b9370a2fba8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837664"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385780"
 ---
 # <a name="manage-conference-join-and-leave-announcements-in-skype-for-business-server"></a>管理会议加入和离开Skype for Business Server
  
@@ -38,7 +38,7 @@ ms.locfileid: "60837664"
 
 1. 以 RTCUniversalServerAdmins 组成员或者 Cs-ServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。
     
-2. 启动命令行Skype for Business Server：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击"Skype for Business Server **命令行管理程序"。**
+2. 启动命令行Skype for Business Server：单击"开始"，单击"所有程序"**，单击"****Skype for Business 2015"**，然后单击"Skype for Business Server **命令行管理程序"**。
     
 3. 在命令提示符下，运行以下内容：
     
@@ -46,7 +46,7 @@ ms.locfileid: "60837664"
    Get-CsDialinConferencingConfiguration
    ```
 
-此 cmdlet 检索有关在加入会议时是否需要参与者记录其姓名的信息，以及当参与者加入或离开电话拨入式会议时 Skype for Business Server 如何响应。
+此 cmdlet 检索有关在加入会议时是否需要参与者记录其姓名的信息，以及Skype for Business Server加入或离开电话拨入式会议时如何响应的信息。
     
 4. 在命令提示符下，运行以下内容：
     

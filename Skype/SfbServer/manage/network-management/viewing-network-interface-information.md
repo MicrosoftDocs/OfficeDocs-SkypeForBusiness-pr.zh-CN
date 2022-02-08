@@ -1,8 +1,8 @@
 ---
 title: 查看网络接口信息
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 可以使用 cmdlet 和 Windows PowerShell cmdlet 查看Get-CsNetworkInterface信息。 还可从 Skype for Business Server Management Shell 或 Windows PowerShell 远程会话运行此 cmdlet。
-ms.openlocfilehash: 6031b1548b5c6d4fb83f9392a59f742bed98d9a4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a9407000b6941c60e9ae62935b32308285be827a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838574"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386620"
 ---
 # <a name="viewing-network-interface-information-in-skype-for-business-server"></a>在服务器中查看网络Skype for Business Server
 

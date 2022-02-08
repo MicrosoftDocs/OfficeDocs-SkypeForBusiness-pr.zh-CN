@@ -5,8 +5,8 @@ ms:assetid: 8f556849-692b-44a0-9514-4468fc9a39d0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398725(v=OCS.15)
 ms:contentKeyID: 48184825
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,25 +15,25 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 配置一个或多个外部用户访问策略，以控制远程用户能否与内部用户Skype for Business Server协作。 若要控制远程用户访问，可以在全局、站点和用户级别配置策略。
-ms.openlocfilehash: a060622919fb8d948b55178a8e0b1d4da8b6e5cc
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 6131163d83078f3aa1b9e4c1380a0596cac0837c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847285"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384290"
 ---
 # <a name="configure-policies-to-control-remote-user-access-in-skype-for-business-server"></a>配置策略以控制远程用户访问Skype for Business Server
 
-配置一个或多个外部用户访问策略，以控制远程用户能否与内部用户Skype for Business Server协作。 若要控制远程用户访问，可以在全局、站点和用户级别配置策略。 站点策略将覆盖全局策略，而用户策略将覆盖站点策略和全局策略。 有关可以配置的策略类型的详细信息，请参阅 Managing federation [and external access to Skype for Business Server](../managing-federation-and-external-access.md)。 Skype for Business Server一个策略级别应用的策略设置可以覆盖在另一个策略级别应用的设置。 Skype for Business 服务器策略优先级是：用户策略（最大影响力）覆盖站点策略，然后站点策略覆盖全局策略（最小影响）。 这意味着，策略设置越接近策略影响的对象，它对对象的影响就越大。
+配置一个或多个外部用户访问策略，以控制远程用户能否与内部用户Skype for Business Server协作。 若要控制远程用户访问，可以在全局、站点和用户级别配置策略。 站点策略将覆盖全局策略，而用户策略将覆盖站点策略和全局策略。 有关可以配置的策略类型的详细信息，[请参阅管理联盟](../managing-federation-and-external-access.md)和外部对 Skype for Business Server。 Skype for Business Server一个策略级别应用的策略设置可以覆盖在另一个策略级别应用的设置。 Skype for Business 服务器策略优先级是：用户策略（最大影响力）覆盖站点策略，然后站点策略覆盖全局策略（最小影响）。 这意味着，策略设置越接近策略影响的对象，它对对象的影响就越大。
 
 > [!NOTE]  
-> 即使没有为组织启用远程用户访问，也可以配置策略来控制远程用户访问。 但是，只有为组织启用远程用户访问后，配置的策略才会生效。 此外，如果指定用户策略来控制远程用户访问，则此策略仅适用于启用了远程Skype for Business Server配置为使用该策略的用户。 有关指定可以从远程位置登录Skype for Business Server用户的详细信息，请参阅分配[外部用户访问策略](assign-an-external-user-access-policy.md)。
+> 即使没有为组织启用远程用户访问，也可以配置策略来控制远程用户访问。 但是，只有为组织启用远程用户访问后，配置的策略才会生效。 此外，如果指定用户策略来控制远程用户访问，则此策略仅适用于启用了远程Skype for Business Server配置为使用该策略的用户。 有关指定可以从远程位置登录Skype for Business Server的详细信息，请参阅分配[外部用户访问策略](assign-an-external-user-access-policy.md)。
 
 按照以下过程配置要用于控制远程用户访问的每个外部访问策略。
 
 
 > [!NOTE]  
-> 此过程描述如何配置策略以便仅启用与远程用户的通信，但配置为支持远程用户访问的每个策略也可以配置联盟用户访问和公共用户访问。 有关配置策略以支持联盟用户的详细信息，请参阅 Configure [policies to control federated user access in Skype for Business Server](configure-policies-to-control-federated-user-access.md)。 有关配置策略以支持公共用户的详细信息，请参阅管理组织中组织的 SIP 联盟[Skype for Business Server。](../sip-providers/manage-sip-federated-providers-for-your-organization.md)
+> 此过程描述如何配置策略以便仅启用与远程用户的通信，但配置为支持远程用户访问的每个策略也可以配置联盟用户访问和公共用户访问。 有关配置策略以支持联盟用户的详细信息，请参阅配置策略以控制联盟用户[Skype for Business Server。](configure-policies-to-control-federated-user-access.md) 有关配置策略以支持公共用户的详细信息，请参阅在组织中管理 [SIP 联盟Skype for Business Server](../sip-providers/manage-sip-federated-providers-for-your-organization.md)。
 
 
 ## <a name="to-configure-an-external-access-policy-to-support-remote-user-access"></a>配置外部访问策略以支持远程用户访问

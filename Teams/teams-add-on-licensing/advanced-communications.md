@@ -1,7 +1,7 @@
 ---
-title: 适用于 Microsoft Teams 的高级通信Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+title: 适用于 Microsoft Teams 的高级通信加载项
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: reference
 audience: Admin
@@ -9,7 +9,7 @@ ms.reviewer: nogaro
 ms.service: msteams
 search.appverid: MET150
 ms.localizationpriority: medium
-description: 了解适用于高级通信的高级通信附加内容 SKU Microsoft Teams。
+description: 了解适用于 Microsoft Teams 的高级通信附加Microsoft Teams。
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -17,14 +17,14 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 300d8b5c8233f042672801be662bff61a3332df1
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: 4c8421b9ee3c06345571d2154bb60e76959e0885
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767115"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387600"
 ---
-# <a name="advanced-communications-add-on-for-microsoft-teams"></a>适用于 Microsoft Teams 的高级通信Microsoft Teams
+# <a name="advanced-communications-add-on-for-microsoft-teams"></a>适用于 Microsoft Teams 的高级通信加载项
 
 如果您的组织希望进一步增强您的通信体验，请获取高级通信以用于高级会议自定义，以及用于管理组织通信策略的工具。
 
@@ -42,7 +42,7 @@ ms.locfileid: "61767115"
 > 功能将在可用时发布。 有关最新[Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap?filters=Microsoft%20Teams)时间，请访问公共路线图。
 
 > [!NOTE]
-> 高级通信尚不可用于Microsoft 365 GCC或国防部 (DoD) 环境。
+> 高级通信尚不可用于 Microsoft 365 GCC 或国防部 (DoD) 环境。
 
 ## <a name="related-articles"></a>相关文章
 

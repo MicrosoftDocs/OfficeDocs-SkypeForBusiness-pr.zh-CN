@@ -1,8 +1,8 @@
 ---
 title: 在规则创建或修改规范化Skype for Business
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e8547d7b-f74d-4a73-9a7d-df20d7a87fcd
 description: 摘要：了解如何在规则中定义、创建和修改Skype for Business Server。
-ms.openlocfilehash: c01505a4a4c961c7c1b3ed394ec5595b57642ddb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: f2f47859687a7c3919e59979c259f317ef6a3102
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831632"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387270"
 ---
 # <a name="create-or-modify-a-normalization-rule-in-skype-for-business"></a>在规则创建或修改规范化Skype for Business
 
@@ -33,9 +33,9 @@ ms.locfileid: "60831632"
 
 1. 打开Skype for Business Server控制面板
 
-2.  (可选) 按照在[Skype for Business Server](dial-plans.md)中创建或修改拨号计划中的步骤执行步骤，或者按照步骤 10 中的修改拨号[](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-dial-plan)计划中的步骤操作。
+2.  (可选) 按照步骤 11 中的Skype for Business Server或修改拨号计划[](dial-plans.md)"或"修改拨号计划"中的步骤操作，完成步骤 10。[](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-dial-plan)
 
-3. 在 **"新建****规范化规则**"或"编辑规范化规则"中，键入描述正在规范化的号码模式 **的名称 (例如**，5DigitExtension) 。
+3. 在 **"新建****规范化规则**"或"编辑规范化规则"中，在"名称" (中键入描述要规范化的号码模式的名称，例如，5DigitExtension) 。
 
 4. （可选）在“描述”中，键入规范化规则的描述（例如，“Translates 5-digit extensions”）。
 
@@ -49,17 +49,17 @@ ms.locfileid: "60831632"
 
    - **要添加的数字** (可选) 指定要添加到希望模式匹配的拨打号码的数字。
 
-     这些字段中输入的值将反映在“要匹配的模式”和“转换规则”中。 例如，如果将"起始数字"留空，请在"长度"字段中键入 7 并选择"完全"，在"要删除的数字"中指定 0，则"要匹配的模式"中生成的 **正则表达式为：** 
+     这些字段中输入的值将反映在“要匹配的模式”和“转换规则”中。 例如，如果将"起始数字"留空，请在"长度"字段中键入 7 并选择"完全匹配"，在"要删除的数字"中指定 0，则"要匹配的模式"中生成的 **正则表达式为：**  
 
      ^(\d{7})$
 
 6. 在“转换规则”中，指定转换后的 E.164 电话号码格式的模式，如下所示：
 
-   - 代表匹配模式中指定的号码位数的值。 例如，如果匹配模式为 ^ (\d) $ ，则转换规则中的 {7} $1 表示 7 位拨打的号码。
+   - 代表匹配模式中指定的号码位数的值。 例如，如果匹配模式为 ^ (\d{7}) $ ，则转换规则中的 $1 表示 7 位拨打的号码。
 
    -  (可选) 在"要添加的数字"字段中键入一个值，以指定要预置在转换号码之前的数字 (例如，+1425) 。
 
-     例如，如果"要匹配的模式"包含^ (\d) $ 作为拨打号码的模式，而转换规则包含 {7} +1425$1 作为 E.164 电话号码的模式，则规则将 5550100 规范化为 +14255550100。 
+     例如，如果"要匹配的模式"包含^ (\d{7}) $ 作为拨打号码的模式，而 **转换** 规则包含 +1425$1 作为 E.164 电话号码的模式，则规则将 5550100 规范化为 +14255550100。
 
 7. （可选）如果规范化规则所生成的电话号码为组织内部号码，则选择“内部分机号”。
 
@@ -75,15 +75,15 @@ ms.locfileid: "60831632"
 11. 在“拨号计划”页上，单击“提交”，然后单击“全部提交”。
 
     > [!NOTE]
-    > 无论何时创建或更改规范化规则，都必须运行“全部提交”命令以发布配置更改。 有关详细信息，请参阅操作[文档中的](voice-route-config-changes.md)Publish pending changes to the voice routing configuration in Skype for Business in the Operations documentation。
+    > 无论何时创建或更改规范化规则，都必须运行“全部提交”命令以发布配置更改。 有关详细信息，请参阅操作文档中的 Publish [pending changes to the voice routing configuration in Skype for Business](voice-route-config-changes.md) in the Operations documentation。
 
 ### <a name="to-define-a-normalization-rule-manually"></a>手动定义规范化规则
 
 1. 打开Skype for Business Server控制面板
 
-2.  (可选) 按照创建[或修改拨号计划中](dial-plans.md)的步骤操作Skype for Business Server。
+2.  (可选) 按照在拨号计划中创建或修改拨号[计划](dial-plans.md)中的Skype for Business Server。
 
-3. 在 **"新建****规范化规则"** 或"编辑规范化规则"中，在"**名称" (** 中键入描述要规范化的号码模式的名称，例如，将规范化规则5DigitExtension) 。
+3. 在 **"新建** 规范化规则"或"编辑规范化规则"中，在"**名称" (** 中键入描述要规范化的号码模式的名称，例如，将规范化规则5DigitExtension) 。
 
 4. （可选）在“说明”字段中，键入规范化规则的说明（例如，“Translates 5-digit extensions”）。
 
@@ -95,7 +95,7 @@ ms.locfileid: "60831632"
 
    - 在“转换规则”中，指定转换后的 E.164 电话号码格式的模式。
 
-     例如，如果在"匹配此模式"中输入 ^ (\d) $，在"转换规则"中输入 {7} +1425$1，则规则将 5550100 规范化为 +14255550100。  
+     例如，如果在"匹配此模式"中输入 ^ (\d{7}) $，在"转换规则"中输入 +1425$1，则规则将 5550100 规范化为 +14255550100。
 
 7. （可选）如果规范化规则所生成的电话号码为组织内部号码，则选择“内部分机号”。
 
@@ -108,4 +108,4 @@ ms.locfileid: "60831632"
 11. 在“拨号计划”页上，单击“提交”，然后单击“全部提交”。
 
     > [!NOTE]
-    > 无论何时创建或更改规范化规则，都必须运行“全部提交”命令以发布配置更改。 有关详细信息，请参阅操作[文档中的](voice-route-config-changes.md)Publish pending changes to the voice routing configuration in Skype for Business in the Operations documentation。
+    > 无论何时创建或更改规范化规则，都必须运行“全部提交”命令以发布配置更改。 有关详细信息，请参阅操作文档中的 Publish [pending changes to the voice routing configuration in Skype for Business](voice-route-config-changes.md) in the Operations documentation。

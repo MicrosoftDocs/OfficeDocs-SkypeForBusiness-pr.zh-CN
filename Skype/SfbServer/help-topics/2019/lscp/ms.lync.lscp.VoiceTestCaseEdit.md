@@ -1,8 +1,8 @@
 ---
 title: 测试语音路由 创建新的或编辑现有的测试用例
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: e826fd4b-5c2c-4164-b352-c109f42810f9
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'UNRESOLVED_TOKEN_VAL ( bigfin_UI_help_intro) '
-ms.openlocfilehash: 863145e0fee5b3043eae133b0a923e980de685c3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 07a6464d52608569c074bfdf5ae84cab5942f102
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843235"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389555"
 ---
 # <a name="test-voice-routing-create-new-or-edit-existing-test-cases"></a>测试语音路由：创建新的或编辑现有的测试用例
 

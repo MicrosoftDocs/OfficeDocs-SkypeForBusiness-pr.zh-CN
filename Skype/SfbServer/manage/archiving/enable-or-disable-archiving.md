@@ -1,8 +1,8 @@
 ---
 title: 启用或禁用存档Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d5aed328-e89d-4a7b-b603-15ae5c33c5dd
 description: 摘要：了解如何在存档中启用或禁用Skype for Business Server。
-ms.openlocfilehash: c2aff3706505e8977080c92259f7d73a5c2b2b17
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 3ed4fd18f6d130bbfa5211b142cc1804c489f37c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839954"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388180"
 ---
 # <a name="enable-or-disable-archiving-in-skype-for-business-server"></a>启用或禁用存档Skype for Business Server
 
@@ -37,11 +37,11 @@ ms.locfileid: "60839954"
     
    - 若要同时为 IM 会话和会议启用存档，请单击“存档 IM 和会议会话”。
     
-   - 若要为配置禁用存档，请单击"**禁用存档"。**
+   - 若要为配置禁用存档，请单击" **禁用存档"**。
     
 5. 单击“提交”。
     
-## <a name="enable-or-disable-archiving-by-using-windows-powershell"></a>使用存档启用或禁用Windows PowerShell
+## <a name="enable-or-disable-archiving-by-using-windows-powershell"></a>使用管理程序启用或禁用Windows PowerShell
 
 您还可以使用 **Set-CsArchivingConfiguration** cmdlet 启用或禁用存档。 例如，以下命令修改所有存档配置设置，以便仅存档 IM 会话。 该命令调用不带任何参数的 **Get-CsArchivingConfiguration** cmdlet，以返回组织中当前使用的所有存档配置设置。 然后，将此集合通过管道到 **Where-Object** cmdlet，该 cmdlet 将仅选择 EnableArchiving 属性等于 (-eq) "ImAndWebConf"的设置。 然后，将筛选出的集合通过管道通过管道到 **Set-CsArchivingConfiguration** cmdlet，该 cmdlet 将接受集合中的每个项目，然后将 EnableArchiving 的值更改为"ImOnly"：
   
