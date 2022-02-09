@@ -1,8 +1,8 @@
 ---
 title: Teams 政府版
 description: 了解如何在政府环境中Teams部署Microsoft 365部署。
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 ms.topic: article
 manager: serdars
 audience: admin
@@ -14,16 +14,16 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f41dbffa5d2e0b9cd979d280e1cf865f41d217a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 3ae61c865a5833145e6cb8bf4fc80ad3bf9a127f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857149"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62417405"
 ---
 # <a name="teams-for-government"></a>Teams 政府版
 
-使用这些资源了解在政府环境中Teams部署Microsoft 365注意事项。 准备就绪后，请按照如何推出 Teams 中概述的相同建议部署[Microsoft Teams。](../deploy-overview.md)
+使用这些资源了解在政府环境中Teams部署Microsoft 365注意事项。 准备就绪后，请遵循与如何推出 Teams 所述相同的部署[路径](../deploy-overview.md)Microsoft Teams。
 
 | &nbsp; |&nbsp; |
 | ------------- | ------------- |

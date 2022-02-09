@@ -1,8 +1,8 @@
 ---
-title: Skype for Business Server 中的对等活动摘要Skype for Business Server
+title: 报告中的对等活动摘要Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,30 +12,30 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e829a21e-9dfa-46ba-9b5b-077c175d6586
 description: 摘要：了解 Skype for Business Server 中的对等活动摘要报告。
-ms.openlocfilehash: 876d12b74fa34d745a7e94d31ecc19997f337e40
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 3db7a69bb0460337e56ee7e4ce43d4c1ce4b240e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831986"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62411545"
 ---
-# <a name="peer-to-peer-activity-summary-report-in-skype-for-business-server"></a>Skype for Business Server 中的对等活动摘要Skype for Business Server
+# <a name="peer-to-peer-activity-summary-report-in-skype-for-business-server"></a>报告中的对等活动摘要Skype for Business Server
  
 **摘要：** 了解 Skype for Business Server 中的对等活动摘要报告。
   
-点对点活动摘要报告提供点对点通信会话的整体视图。 对等会话通常仅涉及两个用户，并且不需要使用 Skype for Business Server会议服务。 相比之下，会议通常涉及两名以上用户，并且要求使用Skype for Business Server会议服务。 会议活动在会议摘要报告上进行报告。
+点对点活动摘要报告提供点对点通信会话的整体视图。 对等会话通常仅涉及两个用户，不需要使用 Skype for Business Server会议服务。 相比之下，会议通常涉及两名以上用户，并且需要使用Skype for Business Server会议服务。 会议活动在会议摘要报告上进行报告。
   
 点对点活动摘要报告帮助您回答诸如下列问题：
   
 - 在特定某一天，我的用户发送了多少点对点即时消息？
     
-- 我的任何用户是否确实在利用Skype for Business Server和文件传输功能？
+- 我的任何用户是否确实利用Skype for Business Server和文件传输功能？
     
 - 用户曾报怨在一天的特定时间网络看上去很慢。在此期间点对点音频和视频会话占用了多少分钟时间？
     
 ## <a name="accessing-the-peer-to-peer-activity-summary-report"></a>访问点对点活动摘要报告
 
-可从监视报告主页访问点对点活动摘要报告。 通过单击[以下指标之一](im-report.md)，Skype for Business Server中打开对等 IM 报告：
+可从监视报告主页访问点对点活动摘要报告。 通过单击[以下任](im-report.md)一指标Skype for Business Server中打开对等 IM 报告：
   
 - 对等 IM 会话总数
     

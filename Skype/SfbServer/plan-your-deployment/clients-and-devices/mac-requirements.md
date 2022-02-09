@@ -1,7 +1,7 @@
 ---
 title: Skype for Business Mac 客户端要求
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 790d3e89-2b68-411b-b282-38de5d34dd10
 description: 阅读本主题，了解在 Mac 上运行 Skype for Business 的硬件、软件和基础结构要求。
-ms.openlocfilehash: b7d3ce484ea3e333e85c2f8473cdcdaaebe44057
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5d4e07bda176efa398d8e6766e410be243873bbe
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847215"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62416465"
 ---
 # <a name="skype-for-business-on-mac-client-requirements"></a>Skype for Business Mac 客户端要求
  
@@ -31,14 +31,14 @@ Mac [Skype for Business上的](https://products.office.com/skype-for-business/do
   
 ## <a name="hardware-and-software-requirements-for-skype-for-business-on-mac"></a>Mac 上 Skype for Business 的硬件和软件要求
 
-Mac Skype for Business客户端上的客户端需要 Mac OS X El 一级和更高版本，并且至少使用 100 MB 的磁盘空间。 我们支持使用所有内置音频和视频设备。 外部设备必须在设备 中[Microsoft Teams列出](https://www.microsoft.com/microsoft-teams/across-devices/devices)。 
+Mac Skype for Business客户端上的客户端需要 Mac OS X El Capitan 及更高版本，并且至少使用 100MB 的磁盘空间。 我们支持使用所有内置音频和视频设备。 外部设备必须在外部设备上[Microsoft Teams列出](https://www.microsoft.com/microsoft-teams/across-devices/devices)。 
   
 > [!NOTE]
 > 此列表是初步列表，某些设备可能限定为 Lync，但在 Mac 上的 Skype for Business上不受支持。 请参阅 [所需的最低硬件](https://products.office.com/office-system-requirements) 的系统要求。
   
 ### <a name="legacy-mac-clients"></a>旧版 Mac 客户端
 
-Skype for Business Server 2015 还支持运行 Mac OS 10.5.8 或最新 Service Pack 或基于 (Intel 的) 操作系统版本 (Mac OS 10.9 操作系统的计算机上以下旧版客户端) 。 有关支持的功能的详细信息，请参阅桌面客户端[功能比较Skype for Business。](desktop-feature-comparison.md)
+Skype for Business Server 2015 还支持运行 Mac OS 10.5.8 或最新 Service Pack 或基于 (Intel 的) 操作系统版本 (Mac OS 10.9 操作系统的计算机上以下旧版客户端) 。 有关支持的功能的详细信息，请参阅桌面[客户端功能比较Skype for Business](desktop-feature-comparison.md)。
   
 - Microsoft Lync for Mac 2011 (Lync [for Mac 2011 部署指南](/previous-versions/office/office-for-mac-2011/jj984275(v=office.14))) 
     
@@ -58,7 +58,7 @@ Mac Skype for Business 客户端上的客户端同时利用统一通信管理平
 在Skype for Business和启用时，Mac 客户端上的客户端支持基于证书的身份验证、Microsoft 新式验证和多重身份验证。
   
 > [!NOTE]
-> 由于当前存在限制，Exchange凭据必须与用户凭据Skype for Business相同。 
+> 由于当前限制，用户Exchange凭据必须与用户凭据Skype for Business相同。 
   
 ### <a name="certificates"></a>证书
 
@@ -74,7 +74,7 @@ HTTP 证书吊销列表必须定义且可由客户端访问。 例如，我们�
     
 - lyncdiscover。\<sipdomain\>
     
-有关详细信息，请参阅[：Deploying Mobility in Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mobility)和[Microsoft Lync Server 2010 Mobility Guide。](https://go.microsoft.com/fwlink//p/?LinkId=798226)
+有关详细信息，请参阅： [Deploying Mobility in Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mobility)和 [Microsoft Lync Server 2010 Mobility Guide](https://go.microsoft.com/fwlink//p/?LinkId=798226)。
   
 ## <a name="see-also"></a>另请参阅
 <a name="Infrastructure"> </a>

@@ -1,7 +1,7 @@
 ---
 title: 自定义应用存储
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: prem
 ms.topic: article
@@ -18,21 +18,21 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解应用中的自定义Microsoft Teams。
-ms.openlocfilehash: b7fd39dc1d2ced74b6153f43c78fdf7557bbd206
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: cabfc148edb793ac40b49950b3b92676a0c80bfa
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843585"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399496"
 ---
 # <a name="custom-apps-store-in-microsoft-teams"></a>自定义应用存储在 Microsoft Teams
 
-现在，可以通过添加徽标、自定义背景和自定义文本颜色来使用公司品牌Teams自定义组织的应用商店，使其更吸引最终用户。
+现在，可以通过添加徽标、自定义背景和自定义文本颜色，在 Teams 中通过公司品牌来自定义组织的应用商店，使其更吸引最终用户。
 
 > [!Note]
 > 品牌更改需要 24 小时才能生效。
 
-通过选择"自定义应用商店"应用，Teams **管理中心**  >  **中的自定义应用商店**。
+可以通过选择"自定义应用商店"来访问管理Teams **自定义** > **存储**。
 
   ![管理员控制台突出显示自定义应用商店功能。](media/customize-app-store.png)
 
@@ -44,7 +44,7 @@ ms.locfileid: "60843585"
 <a name="orglogo"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-可在此处上传组织徽标。 所选徽标将显示在"为租户Teams **应用"**  >  **页的客户端中**。
+可在此处上传组织徽标。 所选徽标将显示在"应用"Teams > **"租户**"页的客户端中。
 
 选择" **选择图片"选项** 时，可以上传选择的文件。 徽标应为 240x60，否则将缩放到该大小。 它不应大于 5 MB。 支持的格式包括：
 
@@ -60,7 +60,7 @@ ms.locfileid: "60843585"
 <a name="orglogomark"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-组织徽标标记或小徽标是表示组织品牌的图像或符号，不包括公司名称。 lovemark 可帮助团队成员识别应用应用商店。 所选徽标将显示在应用页Teams客户端中。
+组织徽标标记或小徽标是表示组织品牌的图像或符号，不包括公司名称。 lovemark 可帮助团队成员识别应用应用商店。 所选徽标将显示在"应用"页Teams客户端中。
 
 选择" **选择图片"选项** 时，可以上传选择的文件。 徽标标记应为 32x32 像素，否则将缩放到该大小。 它不应大于 5 MB。 支持的格式包括：
 
@@ -76,7 +76,7 @@ ms.locfileid: "60843585"
 <a name="custombackground"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-确保背景与文本的对比度足够高，以便用户可以清楚地阅读文本。 背景将显示在租户标头Teams  >  **应用的客户端中**。
+确保背景与文本的对比度足够高，以便用户可以清楚地阅读文本。 背景将显示在租户标头的 **AppsBuilt**  >  Teams客户端中。
 
 选项如下：
 
@@ -95,7 +95,7 @@ ms.locfileid: "60843585"
 <a name="textcolor"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-请确保文本颜色与背景具有足够的对比度，以便用户可以清楚地阅读组织的名称。 文本将显示在租户标头Teams  >  **应用的客户端中**。
+请确保文本颜色与背景具有足够的对比度，以便用户可以清楚地阅读组织的名称。 文本将显示在租户标头的 **appsBuilt**  >  Teams客户端中。
 
 选择" **选择自定义颜色"时**，将打开颜色选择器。 通过调整颜色选择器的规模来选择想要的颜色。
 

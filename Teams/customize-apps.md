@@ -1,7 +1,7 @@
 ---
-title: 在应用中自定义Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+title: 自定义应用中Microsoft Teams
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: v-tbasra
 ms.topic: article
@@ -18,16 +18,16 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何在应用中自定义Microsoft Teams。
-ms.openlocfilehash: ca0f7b090669304553159979af3983b7f21de284
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: cac5bc4e5d2748b8e4a9143d50e40dbf96ae80a0
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831736"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410615"
 ---
-# <a name="customize-apps-in-microsoft-teams"></a>在应用中自定义Microsoft Teams
+# <a name="customize-apps-in-microsoft-teams"></a>自定义应用中Microsoft Teams
 
- Microsoft Teams提供应用自定义，以增强Teams体验。 某些应用开发人员允许应用由管理员Teams自定义。管理员可以使用管理中心"管理应用"页，根据组织需求自定义或Teams **品牌**。 可以自定义的详细信息包括：
+ Microsoft Teams提供应用自定义来增强Teams体验。 某些应用开发人员允许由管理员自定义Teams应用。管理员可以使用管理中心"管理应用"页面，根据组织需求自定义或Teams **品牌**。 可以自定义的详细信息包括：
 
 - 短名称
 - 简短说明
@@ -51,7 +51,7 @@ ms.locfileid: "60831736"
 
 1. 登录到 Teams 管理中心。
 
-2. 展开 **Teams应用"，** 然后选择"**管理应用"。**
+2. 展开 **Teams应用"，** 然后选择"**管理应用"**。
 
 3. 检查 **应用列表** 的"可自定义"列，并按可自定义的应用进行排序。
 
@@ -59,15 +59,15 @@ ms.locfileid: "60831736"
 
    有三个入口点可以访问自定义功能：
 
-   - 选择要自定义的应用旁边的 ，然后选择"自定义 **"。**
+   - 选择要自定义的应用旁边的 ，然后选择"自定义 **"**。
 
      ![自定义选择选项 1.](media/select-app-to-customize1.png)
 
-   - 选择应用名称，然后选择"可 **自定义"。**
+   - 选择应用名称，然后选择"可 **自定义"**。
 
      ![自定义选择选项 2.](media/app-details-customizable.png)
 
-   - 选择应用名称，然后从"操作 **"** 下拉列表中选择 **"自定义** "。
+   - 选择应用名称，然后从"操作 **"** 下拉列表 **中选择"自定义** "。
 
      ![自定义选择选项 3.](media/customize-action-menu.png)
 
@@ -95,11 +95,11 @@ ms.locfileid: "60831736"
 
     ![自定义图标面板颜色选项。](media/customize-app-colors.png)
 
-6. 自定义应用后，选择"应用 **"。**
+6. 自定义应用后，选择"应用 **"**。
 
 7. 选择 **"** 发布"以发布自定义应用。
 
-   自定义应用现在列在"管理应用 **"页** 中。 你将只有一个版本的应用，因为自定义应用功能不会创建应用的副本。
+   自定义应用现已在"管理应用 **"页中** 列出。 你将只有一个版本的应用，因为自定义应用功能不会创建应用的副本。
 
 现在Teams最终用户可以打开其 Teams 客户端以查看自定义应用。
 
@@ -127,7 +127,7 @@ ms.locfileid: "60831736"
 
 3. 选择应用名称。
 
-4. 查看应用详细信息，包括发布者提供的原始应用名称 **"短名称"。**
+4. 查看应用详细信息，包括发布者提供的原始应用 **名称短名称**。
 
    ![自定义图标面板应用名称。](media/original-app-version.png)
 
@@ -139,7 +139,7 @@ ms.locfileid: "60831736"
 
 1. 登录到 Teams 管理中心。
 
-2. 展开 **Teams应用"，** 然后选择"**管理应用"。**
+2. 展开 **Teams应用"，** 然后选择"**管理应用"**。
 
 3. 选择应用名称。
 
@@ -155,7 +155,7 @@ ms.locfileid: "60831736"
 
 **应用提供商是否可为客户自定义应用？**
 
- 否，租户的管理员需要使用管理中心为租户Teams应用。
+ 否，租户管理员需要使用管理中心为租户Teams应用。
 
 **自定义应用会自动部署以替换租户中的当前自定义应用吗？**
 

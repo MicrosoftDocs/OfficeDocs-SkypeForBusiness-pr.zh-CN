@@ -1,14 +1,14 @@
 ---
-title: 在 Microsoft Teams 中创建自定义团队模板
-author: HowlinWolf-92
-ms.author: v-mahoffman
+title: 在 Microsoft Teams 中创建自定义团队Microsoft Teams
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: aaglick
 manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: 了解如何在 Microsoft Teams 中创建自定义团队模板。
+description: 了解如何在 Microsoft Teams 中创建自定义团队Microsoft Teams。
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -16,14 +16,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a7bb0805705797587f9475fe7a6ee759165e884b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 1fa114e6bc15ff8aeb6d0e75dcb6c0c45871b436
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864479"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399546"
 ---
-# <a name="create-a-custom-team-template-in-microsoft-teams"></a>在 Microsoft Teams 中创建自定义团队模板
+# <a name="create-a-custom-team-template-in-microsoft-teams"></a>在 Microsoft Teams 中创建自定义团队Microsoft Teams
 
 **EDU 客户尚不支持自定义模板。**
 
@@ -38,15 +38,15 @@ ms.locfileid: "60864479"
 
 1. 登录到 Teams 管理中心。
 
-2. 在左侧导航栏中，展开 **Teams**  >  **团队模板"。**
+2. 在左侧导航栏中 **，展开Teams** > **模板"**。
 
 3. 选择“**添加**”。
 
     ![突出显示"添加"的"团队模板"对话框的图像。](media/team-templates-new.png)
 
-4. 在"**团队模板"** 部分中，选择 **"创建全新的模板"。**
+4. 在" **团队模板"** 部分中，选择 **"创建全新的模板"**。
 
-5. 在"**模板设置"** 部分中，完成以下字段，然后选择"下一 **步"：**
+5. 在" **模板设置"** 部分中，完成以下字段，然后选择"下一 **步"**：
     - 模板名称
     - 模板简短和长说明
     - 区域设置可见性  
@@ -55,8 +55,8 @@ ms.locfileid: "60864479"
 
 6. 在 **"频道、选项卡** 和应用"部分中，添加团队所需的任何频道和应用。
 
-    1. 在"**频道"部分中**，选择"**添加"。**
-    2. 在" **添加"** 对话框中，为通道命名。
+    1. 在" **频道"部分中** ，选择"添加 **"**。
+    2. 在" **添加"** 对话框中，为频道命名。
     3. 添加说明。
     4. 确定是否默认应显示通道。
     5. 搜索要添加到通道的应用名称。
@@ -82,7 +82,7 @@ ms.locfileid: "60864479"
 
 1. 创建新的团队模板或编辑现有团队模板。
 
-2. 在"频道"部分中，添加新频道或选择现有频道，然后选择"编辑 **"。**
+2. 在"频道"部分中，添加新频道或选择现有频道，然后选择"编辑 **"**。
 
 3. 在" **为此模板添加应用"部分中** ，添加"网站"应用。
 
@@ -96,9 +96,9 @@ ms.locfileid: "60864479"
 
 ## <a name="known-issues"></a>已知问题
 
-**问题**：如果已基于包含其他自定义选项卡的自定义模板创建了团队，则可能会看到空白选项卡，用于使用自定义选项卡应用。 您的默认选项卡 (如"帖子"、"文件"和 **"Wiki**) 将按预期显示。 
+**问题**：如果已基于包含其他自定义选项卡的自定义模板创建了团队，可能会看到空白选项卡，以用于自定义选项卡应用。 您的默认选项卡 (如文章、文件和 **Wiki**) 按预期显示。
 
-**解决方案**：若要解决此问题，请删除自定义选项卡，并使用相同的应用添加新选项卡。 如果无权删除自定义选项卡并添加新选项卡，请联系团队所有者寻求帮助。
+**解决方案**：若要解决此问题，请删除自定义选项卡，并添加包含同一应用的新选项卡。 如果无权删除自定义选项卡并添加新选项卡，请联系团队所有者寻求帮助。
 
 我们目前正在为将来从自定义模板创建的团队开发修补程序。
 
@@ -106,7 +106,7 @@ ms.locfileid: "60864479"
 
 ![浏览器错误消息。](media/browser-error-message.png)
 
-解决方案：如果查看网站选项卡的内容时遇到问题，将重定向到在单独的网页中打开该选项卡，或者改为在桌面应用中打开 Teams 以查看网站选项卡应用。
+解决方案：如果您在查看网站选项卡的内容时遇到问题，您将重定向到在单独的网页中打开该选项卡，或者改为在桌面应用中打开 Teams 以查看您的网站选项卡应用。
 
 ## <a name="related-topics"></a>相关主题
 

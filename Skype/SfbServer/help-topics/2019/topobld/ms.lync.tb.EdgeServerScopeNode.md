@@ -1,8 +1,8 @@
 ---
 title: 边缘服务器范围节点
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 3f597f6f-c55c-4290-a1cf-3efcc0adfb99
 ROBOTS: NOINDEX, NOFOLLOW
 description: 此节点显示此边缘池的池完全限定域名 (FQDN) 以及其他基本设置。可以执行以下操作：
-ms.openlocfilehash: 43a0dac84692f72e54bdd7be27338ca97eb17a88
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: acef91bc0483b53434a16999637b329ce5817a9a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849155"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62417095"
 ---
 # <a name="edge-server-scope-node"></a>边缘服务器范围节点
  

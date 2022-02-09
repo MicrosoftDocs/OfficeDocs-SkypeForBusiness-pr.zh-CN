@@ -1,8 +1,8 @@
 ---
 title: 拓扑服务器应用程序
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 8c95b160-3d88-46c7-987c-38384bac3e51
 description: '“拓扑: 服务器应用程序”页将显示部署中的服务器应用程序。'
-ms.openlocfilehash: b57393fcefadb37c2386970c7ff26b40f1323c62
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ead5ba4830ab4a4d5e8a1bf913537f6e38d69006
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848925"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62418795"
 ---
 # <a name="topology-server-application"></a>拓扑：服务器应用程序
 

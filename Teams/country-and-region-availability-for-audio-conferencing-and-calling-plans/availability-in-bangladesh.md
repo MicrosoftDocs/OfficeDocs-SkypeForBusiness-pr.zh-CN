@@ -1,7 +1,7 @@
 ---
 title: 在孟加拉的可用性
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: fafan
 ms.topic: reference
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: 7e224a2ede314c9af8a50113c597c1a53c3049f0
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+ms.openlocfilehash: 2d0cf3560fe03ed606f9531e976e729d45678a24
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62191243"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399516"
 ---
 # <a name="availability-in-bangladesh"></a>在孟加拉的可用性
 
@@ -69,10 +69,10 @@ ms.locfileid: "62191243"
 |**功能**|**详细信息**|
 |:-----|:-----|
 |你可以获取哪些首都或大城市的收费电话号码？   | 非地区号码。 电话号码没有关联到特定城市或位置。 <br/> |
-|是否提供收费电话号码？  <br/> |请求时 ([地理) ](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) <br/> |
+|是否提供收费电话号码？  <br/> |请求请求 ([地理) ](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) <br/> |
 |免费电话号码是否可用？  <br/> |否  <br/> |
    
- 如果要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅获取电话和[Skype for Business Microsoft Teams。](../getting-service-phone-numbers.md)
+ 如果要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅获取电话和Skype for Business [Microsoft Teams。](../getting-service-phone-numbers.md)
   
 ## <a name="communications-credits"></a>通信点数
 

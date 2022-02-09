@@ -1,8 +1,8 @@
 ---
-title: 管理存档选项Skype for Business Server
+title: 管理存档中的存档Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,15 +11,15 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 50399f26-58a3-4ce2-8229-32a8cafc7733
-description: 摘要：了解如何配置存档Skype for Business Server。
-ms.openlocfilehash: d382cd829a9db8472df286580f6bd5d4b3baf036
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: 摘要：了解如何配置存档的存档Skype for Business Server。
+ms.openlocfilehash: e3e8ab30a3abc10104a23a12b9bc5b75829c32a0
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856769"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62411665"
 ---
-# <a name="manage-archiving-options-in-skype-for-business-server"></a>管理存档选项Skype for Business Server
+# <a name="manage-archiving-options-in-skype-for-business-server"></a>管理存档中的存档Skype for Business Server
 
 **摘要：** 了解如何配置存档的存档Skype for Business Server。
   
@@ -45,7 +45,7 @@ ms.locfileid: "60856769"
     
 - 指定如何为特定池实施存档的可选池级别配置
     
-可以删除站点配置或池配置，但无法删除全局配置。 如果删除全局配置，该配置将自动重置为默认值。 有关如何实施存档配置以及存档配置的层次结构的详细信息，请参阅规划存档[Skype for Business Server。](../../plan-your-deployment/archiving/archiving.md)
+可以删除站点配置或池配置，但无法删除全局配置。 如果删除全局配置，该配置将自动重置为默认值。 有关如何实施存档配置以及存档配置的层次结构的详细信息，请参阅 Plan [for archiving in Skype for Business Server](../../plan-your-deployment/archiving/archiving.md)。
   
 ## <a name="configure-archiving-options-by-using-the-control-panel"></a>使用控制面板配置存档选项
 
@@ -55,7 +55,7 @@ ms.locfileid: "60856769"
     
 2. 打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。 
     
-3. 在左侧导航栏中，单击"存档 **配置"。**
+3. 在左侧导航栏中，单击"存档 **配置"**。
     
 ## <a name="configure-archiving-options-by-using-windows-powershell"></a>使用配置存档选项Windows PowerShell
 
@@ -65,6 +65,6 @@ ms.locfileid: "60856769"
 |**Cmdlet**|**说明**|
 |:-----|:-----|
 |Get-CsArchivingConfiguration  <br/> |返回有关您组织的存档配置设置的信息。  <br/> |
-|New-CsArchivingConfiguration  <br/> |创建一组新的即时消息 (IM) 设置，这些设置可用于启用或禁用 IM 会话的自动保存，并阻止无法存档的任何即时消息。  <br/> |
+|New-CsArchivingConfiguration  <br/> |创建一组新的即时消息 (IM) 设置，这些设置可用于启用或禁用 IM 会话的自动保存，并阻止任何无法存档的即时消息。  <br/> |
 |Remove-CsArchivingConfiguration  <br/> |删除指定的存档设置集合，这些设置用于启用或禁用即时消息 (IM) 会话的自动保存，以及（可选）阻止任何无法存档的即时消息。  <br/> |
-|Set-CsArchivingConfiguration  <br/> |修改现有的即时消息集合 (IM) 存档配置选项。  <br/> |
+|Set-CsArchivingConfiguration  <br/> |修改现有的即时消息和 IM (存档) 配置选项的集合。  <br/> |

@@ -1,8 +1,8 @@
 ---
 title: 部署 Skype for Business Server 的统计信息管理器
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: 摘要：阅读本主题，了解如何为组织部署统计信息Skype for Business Server。
-ms.openlocfilehash: 4cfedb385078cd12413cb9f27059f7b5ed8023a1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 98a1a405ccccf9ee88941588e6e43f152d2f6bb3
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857429"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410715"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server"></a>部署 Skype for Business Server 的统计信息管理器
  
@@ -26,15 +26,15 @@ ms.locfileid: "60857429"
   
  统计信息管理器Skype for Business Server一个强大的工具，可用于实时Skype for Business Server运行状况和性能数据。 你可以每隔几秒钟轮询数百台服务器的性能数据，并立即在统计信息管理器网站上查看结果。
   
-在尝试安装统计信息管理器之前，请确保你熟悉软件、网络和硬件要求。 有关详细信息，请参阅规划统计信息[管理器Skype for Business Server。](plan.md)
+在尝试安装统计信息管理器之前，请确保你熟悉软件、网络和硬件要求。 有关详细信息，请参阅规划统计信息[管理器Skype for Business Server](plan.md)。
   
 > [!NOTE]
-> 如果要从以前的统计信息管理器版本升级，请参阅升级统计信息[管理器了解Skype for Business Server。](upgrade.md) 
+> 如果要从以前版本的统计信息管理器升级，请参阅升级统计信息[管理器了解Skype for Business Server](upgrade.md)。 
   
 > [!NOTE]
 > 统计信息管理器网站已经过测试，在 Internet Explorer 11+、Edge 20.10240+ 和 Chrome 46+ (当前常青版本) 。 
   
-可在 上找到可下载的统计信息管理器 [https://aka.ms/StatsManDownload](https://aka.ms/StatsManDownload) 。 
+可在 上找到可下载的统计信息管理器 [https://aka.ms/StatsManDownload](https://aka.ms/StatsManDownload)。 
   
 本主题包含以下各部分：
   
@@ -55,7 +55,7 @@ ms.locfileid: "60857429"
     
 3. 在主机上安装网站。
     
-4. 在要监视的每Skype for Business Server安装代理。
+4. 在要监视的每台Skype for Business Server安装代理。
     
 5. 导入要监视的服务器拓扑。
     
@@ -66,11 +66,11 @@ ms.locfileid: "60857429"
 
 要准备主机，你需要安装 Redis 内存中缓存系统，并确保计算机上有有效的证书。 Microsoft 建议你安装 Redis 3.0 的最新稳定内部版本。 统计信息管理器版本 2.0 已使用 Redis 3.2.100 进行了测试。 
   
-1. 从以下网站下载 [https://github.com/MSOpenTech/redis](https://github.com/MSOpenTech/redis) Redis：。 
+1. 从以下网站下载 Redis： [https://github.com/MSOpenTech/redis](https://github.com/MSOpenTech/redis)。 
     
     可以从下载未签名的安装程序 [https://github.com/MSOpenTech/redis/releases](https://github.com/MSOpenTech/redis/releases)
     
-    如果需要，可以通过热门程序包管理器获得已签名的二进制文件 [：Nuget](https://www.nuget.org/packages/Redis-64/) 和 [Choclatey](https://chocolatey.org/packages/redis-64)。
+    如果需要，可以通过热门程序包管理器使用已签名的二进制文件： [Nuget 和](https://www.nuget.org/packages/Redis-64/) [Choclatey](https://chocolatey.org/packages/redis-64)。
     
    - 运行提供的 msi 并按照提示执行。
     
@@ -84,9 +84,9 @@ ms.locfileid: "60857429"
     
 ### <a name="install-the-listener-service"></a>安装侦听器服务
 
-通过运行安装程序并指定以下内容，在StatsManPerfAgentListener.msi安装侦听器服务：
+通过运行安装程序并指定以下内容，在主机StatsManPerfAgentListener.msi安装侦听器服务：
   
-1. 查看许可协议，如果同意，请选择"**我接受许可协议中的条款"，** 然后单击"下一步 **"。** 
+1. 查看许可协议，如果同意，请选择" **我接受许可协议** 中的条款"，然后单击"下一步 **"**。 
     
 2. 下一页上，指定以下信息：
     
@@ -96,7 +96,7 @@ ms.locfileid: "60857429"
     
    - **证书指纹：** 这是侦听器用于加密 HTTPS 协议的证书指纹。 网络服务必须具有对私钥的读取访问权限。
     
-     单击" **选择..."** 按钮以选择指纹。
+     单击" **选择...** "按钮以选择指纹。
     
      可以使用证书管理器或以下 PowerShell 命令查找证书指纹：
     
@@ -104,7 +104,7 @@ ms.locfileid: "60857429"
        Get-ChildItem -path cert:\LocalMachine\My
        ```
 
-   - **安装目录：** 这是将安装二进制文件的目录。 可以使用"浏览..."按钮更改默认值。 
+   - **安装目录：** 这是将安装二进制文件的目录。 可以使用"浏览..."按钮更改默认值。
     
    - **AppData 目录：** 这是将存储 Logs 文件夹和其他数据的目录。 你可以更改默认值。 卸载时不会删除它。
     
@@ -112,7 +112,7 @@ ms.locfileid: "60857429"
     
 若要验证安装，请执行以下步骤：
   
-1. 打开浏览器并导航到 https://localhost: \<service-port\> /healthcheck/
+1. 打开浏览器并导航到 https://localhost:\<service-port\>/healthcheck/
     
     默认情况下，服务端口为 8443 (，除非您指定了其他端口) 。
     
@@ -126,23 +126,23 @@ ms.locfileid: "60857429"
     
 ### <a name="install-the-website"></a>安装网站
 
-通过运行 Skype for Business Server 中包含的 StatsManWebSite.msi (、Real-Time 统计信息管理器 ([64](https://www.microsoft.com/en-in/download/details.aspx?id=57518)位) ) 并指定以下内容，在主机上安装网站：
+通过运行 [Skype for Business Server StatsManWebSite.msi (、Real-Time 统计信息管理器 (64 位 (中包含的) ](https://www.microsoft.com/en-in/download/details.aspx?id=57518)) 并指定以下内容，在主机上安装网站：
   
-1. 查看许可协议，如果同意，请选择"**我接受许可协议中的条款"，** 然后单击"下一步 **"。** 
+1. 查看许可协议，如果同意，请选择" **我接受许可协议** 中的条款"，然后单击"下一步 **"**。 
     
 2. 下一页上，指定以下信息：
     
    - **服务端口：** 这是网站将侦听的端口号。 稍后可以使用 IIS 管理器绑定更改它。 在安装过程中，将允许此端口通过本地防火墙。
     
-   - **安装目录：** 这是将安装二进制文件的目录。 可以使用"浏览..."按钮更改默认值。 
+   - **安装目录：** 这是将安装二进制文件的目录。 可以使用"浏览..."按钮更改默认值。
     
    - **AppData 目录：** 这是将存储 Logs 文件夹和其他数据的目录。 你可以更改默认值。 卸载时不会删除它。
     
 3. 单击“**安装**”。
     
-若要查看网站，请打开浏览器并导航到 http://localhost ：，webport \> /。
+若要查看网站，请打开浏览器并导航到： http://localhost，webport\>/。
   
-若要仅查看运行状况信息，请打开浏览器并导航到 http://localhost: \<webport\> ：/healthcheck/。
+若要仅查看运行状况信息，请打开浏览器并导航到： http://localhost:\<webport\>/healthcheck/。
   
 默认情况下，Web 端口号为 8080。 可以使用 IIS 管理器更改网站的端口绑定。
   
@@ -152,7 +152,7 @@ Web 安装程序添加本地安全组，称为 StatsManWebSiteUsers。 你可以
 
 通过运行 Skype for Business Server并指定以下内容，在要监视的每个StatsManPerfAgent.msi安装代理：
   
-1. 查看许可协议，如果同意，请选择"**我接受许可协议中的条款"，** 然后单击"下一步 **"。** 
+1. 查看许可协议，如果同意，请选择" **我接受许可协议** 中的条款"，然后单击"下一步 **"**。 
     
 2. 下一页上，指定以下信息：
     
@@ -162,11 +162,11 @@ Web 安装程序添加本地安全组，称为 StatsManWebSiteUsers。 你可以
     
      可以使用 NETBIOS 名称或 FQDN。 您可以使用指定为侦听器服务上证书的 Subject 或 **Subject Alternative Names** 的名称，但这不是一项要求。
     
-   - **服务指纹：** 这是侦听器使用的 SSL 证书的指纹。 代理将使用此指纹向侦听器进行身份验证。  (它将不会进行完整证书验证，因为可以使用自签名证书。) 
+   - **服务指纹：** 这是侦听器使用的 SSL 证书的指纹。 代理将使用此指纹向侦听器进行身份验证。  (不会执行完整证书验证，因为可以使用自签名证书。) 
     
-   - **安装目录：** 这是将安装二进制文件的目录。 可以使用"浏览..."按钮更改默认值。 
+   - **安装目录：** 这是将安装二进制文件的目录。 可以使用"浏览..."按钮更改默认值。
     
-   - **AppData 目录：** 这是将存储 Logs 文件夹和加密文件password.txt目录。 你可能需要更改默认值。 卸载时不会删除它。
+   - **AppData 目录：** 这是将存储 Logs 文件夹和加密password.txt的目录。 你可能需要更改默认值。 卸载时不会删除它。
     
 3. 单击“**安装**”。
     
@@ -179,7 +179,7 @@ msiexec /l install.log /i StatsManPerfAgent.msi SERVICE_THUMBPRINT=<thumbprint> 
 ### <a name="import-the-topology"></a>导入拓扑
 <a name="BKMK_ImportTopology"> </a>
 
-安装并运行统计信息管理器后，您需要导入Skype for Business Server拓扑，以便统计信息管理器知道每台服务器的站点、池和角色。 若要导入Skype for Business Server拓扑，您将使用[Get-CsPool](/powershell/module/skype/get-cspool?view=skype-ps) cmdlet 检索有关组织使用的每个池的信息，然后将此信息导入统计信息管理器。
+安装并运行统计信息管理器后，您需要导入Skype for Business Server拓扑，以便统计信息管理器知道每台服务器的站点、池和角色。 若要导入Skype for Business Server拓扑，您将使用 [Get-CsPool](/powershell/module/skype/get-cspool?view=skype-ps) cmdlet 检索有关组织使用的每个池的信息，然后将此信息导入统计信息管理器。
   
 若要导入Skype for Business Server拓扑，请按照以下步骤操作：
   
@@ -243,7 +243,7 @@ Get-Help .\Update-StatsManServerInfo.ps1 -Detailed
     
     1. 确保按照导入拓扑的说明进行操作。 请参阅 [导入拓扑](deploy.md#BKMK_ImportTopology)。
         
-    2. 如果代理位于拓扑中未列出的服务器上 (例如 SQL AlwaysOn 群集) 中的节点，则需要按照导入拓扑中的说明手动添加[代理](deploy.md#BKMK_ImportTopology)。
+    2. 如果代理位于拓扑 (未列出的服务器上，例如 SQL AlwaysOn 群集) 中的节点，则需要按照导入拓扑中的说明手动添加代理。[](deploy.md#BKMK_ImportTopology)
     
 - 代理能否与侦听器联系？
     
@@ -267,7 +267,7 @@ Get-Help .\Update-StatsManServerInfo.ps1 -Detailed
   .\PerfAgentStorageManager.exe -redis=localhost -a=getcountervalues  -counter="\\*\Processor Information\% Processor Time_Mean_Mean\_Total" -file:all-processor.csv
   ```
 
-有关您可能在应用程序事件日志中看到的所有事件的信息，请参阅排查统计信息管理器[中Skype for Business Server。](troubleshoot.md)
+有关您可能在应用程序事件日志中看到的所有事件的信息，请参阅 Troubleshoot [Statistics Manager for Skype for Business Server](troubleshoot.md)。
   
 ## <a name="create-a-self-signed-certificate"></a>"创建自签名证书"
 <a name="BKMK_SelfCert"> </a>
@@ -280,11 +280,11 @@ Microsoft 强烈建议使用由受信任的证书颁发机构签名的证书。 
    New-SelfSignedCertificate -DnsName StatsManListener -CertStoreLocation Cert:\LocalMachine\My
    ```
 
-2. 键入  `certlm.msc` 。 这将打开本地计算机证书管理器。
+2. 键入  `certlm.msc`。 这将打开本地计算机证书管理器。
     
-3. 导航到 **"个人"，** 然后打开"**证书"。**
+3. 导航到 **"个人**"，然后打开" **证书"**。
     
-4. 右键单击 **StatsManListener- \> 所有任务 - \> 管理私钥...**
+4. 右键单击 **StatsManListener-All\> Tasks-Manage\> Private Keys...**
     
 5. 单击“**添加**”。
     
@@ -292,7 +292,7 @@ Microsoft 强烈建议使用由受信任的证书颁发机构签名的证书。 
     
 7. 单击“**确定**”。
     
-8. 在 **"完全控制**"下，取消选中 **"允许** "复选框。  (只有读取权限是必需的。) 
+8. 在 **"完全控制**"下，取消选中 **"允许** "复选框。  ("仅读取"权限是必需的。) 
     
 9. 单击“**确定**”。
     

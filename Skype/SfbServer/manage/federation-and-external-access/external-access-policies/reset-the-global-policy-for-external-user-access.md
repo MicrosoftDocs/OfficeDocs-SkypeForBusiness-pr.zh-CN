@@ -5,8 +5,8 @@ ms:assetid: 8207e1b1-de9e-461f-975f-fcc5c526849a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182545(v=OCS.15)
 ms:contentKeyID: 48184675
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 无法完全删除全局策略。 使用 **全局** 策略上的"删除"选项仅将全局策略重置为默认设置，其中不包括任何外部用户访问选项的支持。
-ms.openlocfilehash: e55107de4aec5832b8c04dcf679fd9d5f5555c53
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: e65eb4f2a87789b22654b8de5e3681b1dda47d1a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849985"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62416555"
 ---
 # <a name="reset-the-global-policy-for-external-user-access-in-skype-for-business-server"></a>重置外部用户访问的全局策略Skype for Business Server 
 
@@ -30,7 +30,7 @@ ms.locfileid: "60849985"
 
   - 将全局策略重置为默认设置。 默认的全局策略设置拒绝任何外部用户访问。 无法删除全局策略。
 
-无法完全删除全局策略。 全局 **策略** 上的"删除"选项仅将全局策略重置为默认设置，其中不包括任何外部用户访问选项的支持。
+无法完全删除全局策略。 **全局策略** 上的"删除"选项仅将全局策略重置为默认设置，其中不包括任何外部用户访问选项的支持。
 
 ## <a name="to-reset-the-global-policy-to-the-default-settings"></a>将全局策略重置为默认设置
 
@@ -45,9 +45,9 @@ ms.locfileid: "60849985"
 5.  当系统提示您确认删除时，单击“确定”。此时会在页面顶部显示一条消息，通知您已重置全局策略。
 
 
-## <a name="resetting-the-global-external-access-policy-by-using-windows-powershell-cmdlets"></a>使用 Cmdlet 重置全局外部访问Windows PowerShell策略
+## <a name="resetting-the-global-external-access-policy-by-using-windows-powershell-cmdlets"></a>使用 Cmdlet 重置全局Windows PowerShell策略
 
-全局外部访问策略可以使用 Windows PowerShell 和 Remove-CsExternalAccessPolicy cmdlet 进行重置。 可以从命令行管理程序或远程Skype for Business Server命令行管理程序运行此 cmdlet Windows PowerShell。 
+可以使用 Windows PowerShell cmdlet 重置全局外部Remove-CsExternalAccessPolicy策略。 可以从命令行管理程序或远程Skype for Business Server命令行管理程序运行此 cmdlet Windows PowerShell。 
 
 ## <a name="to-reset-the-global-external-access-policy"></a>重置全局外部访问策略
 

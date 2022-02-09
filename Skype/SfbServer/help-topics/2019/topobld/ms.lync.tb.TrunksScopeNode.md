@@ -1,8 +1,8 @@
 ---
 title: Trunk 范围节点
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,16 +15,16 @@ ms.localizationpriority: medium
 ms.assetid: 4ee527fa-ebec-40a9-a6bf-0cabd098aaa9
 ROBOTS: NOINDEX, NOFOLLOW
 description: 右键单击拓扑生成器中的"Trunks"以执行下列操作：
-ms.openlocfilehash: 7cfaa88cd1c3b4a122740ac0f508cb9238a50648
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 99124d20fce1f61e7778915e797eda2b03ab04bd
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853376"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62416975"
 ---
 # <a name="trunks-scope-node"></a>中继范围节点
  
-右键单击 **拓扑生成器中的"Trunks"** 以执行下列操作：
+右键单击拓扑生成器中的" **Trunks** "以执行下列操作：
   
 - **新建 Trunk**：启动用于定义新的 SIP 中继的“定义新的 Trunk”向导。
     

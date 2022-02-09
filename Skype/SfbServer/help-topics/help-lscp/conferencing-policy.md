@@ -1,8 +1,8 @@
 ---
 title: 会议策略
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 90eaa64e-369e-448d-bac4-2574c7c598b8
 description: 会议策略定义会议期间用户可以使用的各种功能。
-ms.openlocfilehash: 5d5b5be8f25d359ec4d0c5b3b76448cc4446e325
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 1f8104a988a821e5a993d8279fefe9c891193bb2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853346"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62416905"
 ---
 # <a name="conferencing-policy"></a>会议策略
 
@@ -50,7 +50,7 @@ ms.locfileid: "60853346"
 
 下表介绍了该页上的各个命令。
 
-- **新建** 启动新的站点会议策略或用户会议策略。
+- **新增功能** 启动新的站点会议策略或用户会议策略。
 
 - **编辑** 打开所选会议策略进行编辑，选择列表中的所有会议策略，或删除所选的站点策略或用户策略。
 

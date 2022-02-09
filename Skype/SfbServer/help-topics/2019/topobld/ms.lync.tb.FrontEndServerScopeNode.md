@@ -1,8 +1,8 @@
 ---
 title: 前端服务器范围节点
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 16f6382d-1cbd-4656-b9cb-1adda13b97ae
 ROBOTS: NOINDEX, NOFOLLOW
 description: 此节点显示该前端池或 Standard Edition Server 的配置信息。可以执行以下操作：
-ms.openlocfilehash: 0874f5a5cbcef12b45ba1659e3c522d98301bd57
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 97612b09b84e3e2f29389f83c82ad3290f28a7fe
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834400"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62417035"
 ---
 # <a name="front-end-server-scope-node"></a>前端服务器范围节点
  

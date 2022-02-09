@@ -1,8 +1,8 @@
 ---
-title: 由 Grant-CsOUPermission 所做的更改Skype for Business Server
+title: 由 Grant-CsOUPermission 中Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -13,14 +13,14 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d744d352-1ad9-4447-8e2b-28e768d2ed1b
 description: 若要Skype for Business Server管理，您可以向指定的组织单位 (OUS) 添加权限，以便林准备创建的 RTC 通用组的成员无需是 Domain Admins 组的成员即可访问这些 US。
-ms.openlocfilehash: c8b7841fc6754c5f852945807a68089c922f6497
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 412fd5eb19f3dac23bbbf68cfd4eb751f56fa3bc
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838464"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62416395"
 ---
-# <a name="changes-made-by-grant-csoupermission-in-skype-for-business-server"></a>由 Grant-CsOUPermission 所做的更改Skype for Business Server
+# <a name="changes-made-by-grant-csoupermission-in-skype-for-business-server"></a>由 Grant-CsOUPermission 中Skype for Business Server
  
 若要Skype for Business Server管理，您可以向指定的组织单位 (OUS) 添加权限，以便林准备创建的 RTC 通用组的成员无需是 Domain Admins 组的成员即可访问这些 US。 
   
@@ -32,7 +32,7 @@ ms.locfileid: "60838464"
   
 **为用户对象授予的权限**
 
-|**Group**|**Permission**|**适用对象**|
+|**组**|**Permission**|**适用对象**|
 |:-----|:-----|:-----|
 |RTCHSUniversalServices  <br/> |复制目录更改  <br/> |仅限此对象  <br/> |
 |RTCUniversalServerReadOnlyGroup  <br/> |列出内容  <br/> 读取所有属性  <br/> 读取权限  <br/> |仅限此对象  <br/> |
@@ -46,7 +46,7 @@ ms.locfileid: "60838464"
   
 **为计算机对象授予的权限**
 
-|**Group**|**Permission**|**适用对象**|
+|**组**|**Permission**|**适用对象**|
 |:-----|:-----|:-----|
 |RTCHSUniversalServices  <br/> |复制目录更改  <br/> |仅限此对象  <br/> |
 |RTCUniversalServerReadOnlyGroup  <br/> |列出内容  <br/> 读取所有属性  <br/> 读取权限  <br/> |仅限此对象  <br/> |
@@ -60,7 +60,7 @@ ms.locfileid: "60838464"
   
 **为联系人对象或 AppContact 对象授予的权限**
 
-|**Group**|**Permission**|**适用对象**|
+|**组**|**Permission**|**适用对象**|
 |:-----|:-----|:-----|
 |RTCHSUniversalServices  <br/> |复制目录更改  <br/> |仅限此对象  <br/> |
 |RTCUniversalServerReadOnlyGroup  <br/> |列出内容  <br/> 读取所有属性  <br/> 读取权限  <br/> |仅限此对象  <br/> |
@@ -74,7 +74,7 @@ ms.locfileid: "60838464"
   
 **为设备对象授予的权限**
 
-|**Group**|**Permission**|**适用对象**|
+|**组**|**Permission**|**适用对象**|
 |:-----|:-----|:-----|
 |RTCHSUniversalServices  <br/> |复制目录更改  <br/> |仅限此对象  <br/> |
 |RTCUniversalServerReadOnlyGroup  <br/> |列出内容  <br/> 读取所有属性  <br/> 读取权限  <br/> |仅限此对象  <br/> |
@@ -90,7 +90,7 @@ ms.locfileid: "60838464"
   
 **为 InetOrgPerson 对象授予的权限**
 
-|**Group**|**Permission**|**适用对象**|
+|**组**|**Permission**|**适用对象**|
 |:-----|:-----|:-----|
 |RTCHSUniversalServices  <br/> |复制目录更改  <br/> |仅限此对象  <br/> |
 |RTCUniversalServerReadOnlyGroup  <br/> |列出内容  <br/> 读取所有属性  <br/> 读取权限  <br/> |仅限此对象  <br/> |

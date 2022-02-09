@@ -1,8 +1,8 @@
 ---
 title: tblFileToken
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 49e7dd79-1607-443c-818a-88c160e4ed06
 description: tblFileToken 包含用于文件传输的临时令牌。
-ms.openlocfilehash: 73958e48814a27e5871b2a0af73d77a55531e49b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 78d132123430143f9609f544d54f176ea5d966d1
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831776"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62417445"
 ---
 # <a name="tblfiletoken"></a>tblFileToken
  

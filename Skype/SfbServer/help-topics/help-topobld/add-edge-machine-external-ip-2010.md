@@ -1,8 +1,8 @@
 ---
 title: 添加边缘计算机外部 IP 2010
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,18 +15,18 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 17906fc5-1b5c-4819-849d-bebf0496a763
 description: 可以在此页面上配置属性，以将边缘服务器指向访问边缘服务、Web 会议边缘服务和 A/V 边缘服务的外部位置。
-ms.openlocfilehash: d3bf19703d89bd1cb8943abf7cc37aa40d4a9ddf
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: f6d73a56d46d37b60d5b26452d35e7eb8cac3151
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863969"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62418555"
 ---
 # <a name="add-edge-machine-external-ip-2010"></a>添加边缘计算机外部 IP 2010
 
 可以在此页面上配置属性，以将边缘服务器指向访问边缘服务、Web 会议边缘服务和 A/V 边缘服务的外部位置。
 
-- 在 **"外部 IPv4** 地址"下，在 **访问** 边缘服务 **、Web** 会议边缘服务和 **A/V** 边缘服务中键入边缘服务器的外部 IPv4 地址。
+- 在 **"外部 IPv4** 地址"下，在 **访问** 边缘服务、 **Web** 会议边缘服务和 **A/V** 边缘服务中键入边缘服务器的外部 IPv4 地址。
 
 - 单击“确定”以保存并将更改应用到拓扑文档。
 

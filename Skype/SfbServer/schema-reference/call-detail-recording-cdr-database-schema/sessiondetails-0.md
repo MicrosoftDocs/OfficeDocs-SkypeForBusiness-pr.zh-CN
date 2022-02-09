@@ -1,8 +1,8 @@
 ---
 title: SessionDetails 视图
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 7/15/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ea328c6f-cf22-48dd-8f7f-f1666c9148c8
 description: SessionDetails 视图存储有关点对点会话的信息，这应该是 VoIP-VoIP 电话呼叫、双方 IM 会话或其他类型的会话。 此视图在 Microsoft Lync Server 2013 中引入。
-ms.openlocfilehash: 6a100fcd2143244bda5ad7273b5a681468ad5713
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 6565a24bda2a227f58b61883f4f868409998a207
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60852916"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399606"
 ---
 # <a name="sessiondetails-view"></a>SessionDetails 视图
  
@@ -26,8 +26,8 @@ SessionDetails 视图存储有关点对点会话的信息，这应该是 VoIP-Vo
   
 |**列**|**数据类型**|**详细信息**|
 |:-----|:-----|:-----|
-|**SessionIdTime** <br/> |datetime  <br/> |会话请求的时间。 与 SessionIdSeq 结合使用来唯一地标识会话。 有关详细信息，请参阅[Skype for Business Server 2015](dialogs.md) Table 中的 Dialogs 表。 <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |用于标识会话的 ID 号。 与 SessionIdTime 结合使用来唯一地标识会话。 有关详细信息，请参阅[Skype for Business Server 2015](dialogs.md)中的 Dialogs 表。 <br/> |
+|**SessionIdTime** <br/> |datetime  <br/> |会话请求的时间。 与 SessionIdSeq 结合使用来唯一地标识会话。 有关详细信息[，请参阅 Skype for Business Server 2015 Table 中的 Dialogs](dialogs.md) 表。 <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |用于标识会话的 ID 号。 与 SessionIdTime 结合使用来唯一地标识会话。 有关详细信息[，请参阅 Skype for Business Server 2015 中的 Dialogs](dialogs.md) 表。 <br/> |
 |**InviteTime** <br/> |datetime  <br/> |第一个 INVITE 请求的时间。此字段通常由从会话中的初始 INVITE 消息生成的数据填充。如果没有 INVITE 消息，则该字段由第一个相关 SIP 消息（BYE、CANCEL、MESSAGE 或 INFO）的日期和时间填充。  <br/> |
 |**FromUri** <br/> |nvarchar (450)   <br/> |启动会话的用户的 URI。  <br/> |
 |**ToUri** <br/> |nvarchar (450)   <br/> |加入会话的用户的 URI。  <br/> |
@@ -56,8 +56,8 @@ SessionDetails 视图存储有关点对点会话的信息，这应该是 VoIP-Vo
 |**ReferredByTenant** <br/> |nvarchar (256)   <br/> |提交会话的用户的租户。 有关详细信息 [，请参阅租户](tenants.md) 表。 <br/> |
 |**DialogId** <br/> |varchar (775)   <br/> |SIP 对话 ID。格式为：  <br/> dialog;from-tag;to-tag  <br/> |
 |**CorrelationId** <br/> |uniqueidentifier  <br/> |用于关联多个会话的 GUID。  <br/> |
-|**ReplaceDialogIdTime** <br/> |datetime  <br/> |由会话取代的对话的时间。 与 ReplaceDialogIdSeq 结合起来使用，以唯一地标识由此会话取代的对话。 有关详细信息，请参阅[Skype for Business Server 2015](dialogs.md)中的 Dialogs 表。 <br/> |
-|**ReplaceDialogIdSeq** <br/> |int  <br/> |用于标识会话的 ID 号。 与 ReplacesDialogIdTime 结合使用来唯一地标识由该会话取代的会话。 有关详细信息，请参阅[Skype for Business Server 2015](dialogs.md)中的 Dialogs 表。 <br/> |
+|**ReplaceDialogIdTime** <br/> |datetime  <br/> |由会话取代的对话的时间。 与 ReplaceDialogIdSeq 结合起来使用，以唯一地标识由此会话取代的对话。 有关详细信息[，请参阅 Skype for Business Server 2015 中的 Dialogs](dialogs.md) 表。 <br/> |
+|**ReplaceDialogIdSeq** <br/> |int  <br/> |用于标识会话的 ID 号。 与 ReplacesDialogIdTime 结合使用来唯一地标识由该会话取代的会话。 有关详细信息[，请参阅 Skype for Business Server 2015 中的 Dialogs](dialogs.md) 表。 <br/> |
 |**ReplacesDialogId** <br/> |varchar (775)   <br/> |会话取代的 SIP 对话 ID。格式为：  <br/> dialog;from-tag;to-tag  <br/> |
 |**ResponseTime** <br/> |datetime  <br/> |对第一个 INVITE 消息的响应时间。此字段通常由来自会话中的初始 INVITE 消息生成的数据填充。如果没有 INVITE 消息，则该字段由第一个相关 SIP 消息（BYE、CANCEL、MESSAGE 或 INFO）的日期和时间填充。  <br/> |
 |**ResponseCode** <br/> |int  <br/> |会话邀请的 SIP 响应代码。此字段通常由来自会话中的初始 INVITE 消息生成的数据填充。如果没有 INVITE 消息，则该字段由第一个相关 SIP 消息（BYE、CANCEL、MESSAGE 或 INFO）的日期和时间填充。  <br/> |

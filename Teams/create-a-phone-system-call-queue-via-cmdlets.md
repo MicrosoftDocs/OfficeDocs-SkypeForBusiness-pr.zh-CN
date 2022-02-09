@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 了解如何通过 cmdlet 配置呼叫队列
-ms.openlocfilehash: a8f24f11cb19f448fc897043c7cb046a08c32341
-ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
+ms.openlocfilehash: aa3330af2a47c87fc71f63396b84f8ad017e19b5
+ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62181105"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62457442"
 ---
 # <a name="create-a-call-queue-via-cmdlets"></a>通过 cmdlet 创建呼叫队列
 
@@ -40,11 +40,11 @@ ms.locfileid: "62181105"
 - 已安装 MSOnline 模块 ```` Install-Module -Name MSOnline -Force -AllowClobber ````
 2)  你拥有租户管理权限
 3)  你已购买Microsoft Teams 电话
-4)  代理、通讯组列表Teams下面提到的频道已创建
+4)  已创建Teams代理、通讯组列表和频道
 
 注意：下面Teams频道 cmdlet 是 PowerShell 模块的公共预览Teams的一部分。  有关详细信息，请参阅安装 Teams [PowerShell 公共预览](teams-powershell-install.md)版，Microsoft Teams [PowerShell 发行说明](teams-powershell-release-notes.md)。
 
-已安装 MicrosoftTeams 模块的用户应确保已安装 ````Update-Module MicrosoftTeams```` 最新版本。
+已安装 MicrosoftTeams 模块 ````Update-Module MicrosoftTeams```` 的用户应确保已安装最新版本。
 
 
 ## <a name="scenario"></a>使用场景
@@ -56,7 +56,7 @@ ms.locfileid: "62181105"
 - 从 PSTN 直接呼叫：否
 - 语言：美国英语
 - 问候语：无
-- 音乐保留：播放音频文件
+- 音乐保持：播放音频文件
 - - 文件名：sales-hold-in-queue-music.wav
 - 呼叫应答：用户
 - - Bill@contoso.com
@@ -77,7 +77,7 @@ ms.locfileid: "62181105"
 -   语言：英国英语
 -   问候语：播放音频文件
 -   - 文件名：support-greeting.wav
--   音乐保留：播放音频文件
+-   音乐保持：播放音频文件
 -   - 文件名：support-hold-in-queue-music.wav
 -   呼叫应答：支持通讯组列表
 -   - Support@contoso.com
@@ -126,7 +126,7 @@ Connect-MsolService -Credential $credential
 
 ## <a name="sales-queue"></a>销售队列
 ### <a name="create-audio-files"></a>创建音频文件
-将"d：" \\ 替换为将 wav 文件存储在计算机上的路径。
+将"d：\\"替换为将 wav 文件存储在计算机上的路径。
 
 ````
 $content = Get-Content “d:\sales-hold-in-queue-music.wav” -Encoding byte -ReadCount 0
@@ -161,7 +161,7 @@ Get-MsolAccountSku
 - - 自动助理：ce933385-9390-45d1-9512-c8d228074e07
 - - 呼叫队列：11cd3e2e-fccb-42ad-ad00-878b93575e07
 
-注意：如下所示的许可证 (PHONESYSTEM_VIRTUALUSER) 必须是由上述 cmdlet Get-MsolAccountSku的许可证类型。
+注意：下面显示的许可证 (PHONESYSTEM_VIRTUALUSER) 必须是上面 cmdlet Get-MsolAccountSku的许可证类型。
 
 ````
 New-CsOnlineApplicationInstance -UserPrincipalName Sales-RA@contoso.com -DisplayName "Sales" -ApplicationID "11cd3e2e-fccb-42ad-ad00-878b93575e07"
@@ -179,7 +179,7 @@ New-CsOnlineApplicationInstanceAssociation -Identities @($applicationInstanceID)
 
 ## <a name="support-queue"></a>支持队列
 ### <a name="create-audio-files"></a>创建音频文件
-将"d：" \\ 替换为将 wav 文件存储在计算机上的路径。
+将"d：\\"替换为将 wav 文件存储在计算机上的路径。
 
 ````
 $content = Get-Content “d:\support-greeting.wav” -Encoding byte -ReadCount 0
@@ -218,7 +218,7 @@ Get-MsolAccountSku
 - - 自动助理：ce933385-9390-45d1-9512-c8d228074e07
 - - 呼叫队列：11cd3e2e-fccb-42ad-ad00-878b93575e07
 
-注意：如下所示的许可证 (PHONESYSTEM_VIRTUALUSER) 必须是由上述 cmdlet Get-MsolAccountSku的许可证类型。
+注意：下面显示的许可证 (PHONESYSTEM_VIRTUALUSER) 必须是由上述 cmdlet Get-MsolAccountSku的许可证类型。
 
 ````
 New-CsOnlineApplicationInstance -UserPrincipalName Support-RA@contoso.com -DisplayName "Support" -ApplicationID "11cd3e2e-fccb-42ad-ad00-878b93575e07"
@@ -246,7 +246,7 @@ Get-TeamChannel -GroupId $teamFacilitiesGroupID
 $teamFacilitiesHelpDeskChannelID = "{assign ID from output of above command}"
 ````
 
-### <a name="get-facilities-help-desk-channel-ower-user-id"></a>获取设施技术支持频道的浏览器用户 ID
+### <a name="get-facilities-help-desk-channel-owner-user-id"></a>获取设施技术支持频道所有者用户 ID
 ````
 $teamFacilitiesHelpDeskChannelUserID = (Get-TeamChannelUser -GroupId $teamFacilitiesGroupID -DisplayName "Help Desk" -Role Owner).UserId
 ````
@@ -277,7 +277,7 @@ Get-MsolAccountSku
 - - 自动助理：ce933385-9390-45d1-9512-c8d228074e07
 - - 呼叫队列：11cd3e2e-fccb-42ad-ad00-878b93575e07
 
-注意：如下所示的许可证 (PHONESYSTEM_VIRTUALUSER) 必须是由上述 cmdlet Get-MsolAccountSku的许可证类型。
+注意：下面显示的许可证 (PHONESYSTEM_VIRTUALUSER) 必须是由上述 cmdlet Get-MsolAccountSku的许可证类型。
 
 ````
 New-CsOnlineApplicationInstance -UserPrincipalName Facilities-RA@contoso.com -DisplayName "Facilities" -ApplicationID "11cd3e2e-fccb-42ad-ad00-878b93575e07"

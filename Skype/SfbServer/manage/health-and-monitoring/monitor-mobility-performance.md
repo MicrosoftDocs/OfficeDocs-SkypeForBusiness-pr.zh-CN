@@ -1,8 +1,8 @@
 ---
-title: 监视移动性能以Skype for Business Server
+title: 监视移动功能以在Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 9c831c63-9a7d-48ec-9118-f8a7e80ddd04
-description: 摘要：了解 Mobility Service (Mcx) 和 SKYPE FOR BUSINESS SERVER 中 UCWA (统一通信 Web API) 。
-ms.openlocfilehash: 5560e869a4b3313cf63ef4466aa9f8ce394766d1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: 摘要：了解 Mobility Service (Mcx) 和 SKYPE FOR BUSINESS SERVER 中的统一通信 Web API (UCWA) 。
+ms.openlocfilehash: 57f892c06c1db979463385715d8c941b92e5d739
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863559"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62416545"
 ---
-# <a name="monitor-mobility-for-performance-in-skype-for-business-server"></a>监视移动性能以Skype for Business Server
+# <a name="monitor-mobility-for-performance-in-skype-for-business-server"></a>监视移动功能以在Skype for Business Server
  
-**摘要：** 了解 Mobility Service (Mcx) 和统一通信 Web API (UCWA) Skype for Business Server。
+**摘要：** 了解 Mobility Service (Mcx) 和统一通信 Web API (UCWA) 中Skype for Business Server。
   
-Skype for Business Server Mobility Service (Mcx) 和统一通信 Web API (UCWA) 会增加前端服务器和前端池上的负载。 即使移动应用程序已最小化，也保持与服务器连接的移动设备（如运行 Lync 2010 Mobile 的 Android 和 Nokia 设备，以及运行 Lync 2013 Mobile 的 Android 和 Apple 设备）比在最小化移动应用程序时终止与服务器连接的设备造成更大的负载。 随着移动使用率的增加，您必须监视移动性能以确定何时需要增加容量。
+Skype for Business Server Mobility Service (Mcx) 和统一通信 Web API (UCWA) 增加了前端服务器和前端池上的负载。 即使移动应用程序已最小化，也保持与服务器连接的移动设备（如运行 Lync 2010 Mobile 的 Android 和 Nokia 设备，以及运行 Lync 2013 Mobile 的 Android 和 Apple 设备）比在最小化移动应用程序时终止与服务器连接的设备造成更大的负载。 随着移动使用率的增加，您必须监视移动性能以确定何时需要增加容量。
 
 > [!NOTE]
 > MCX (Mobility Service) 2019 年不再提供对旧版移动客户端Skype for Business Server支持。 所有当前Skype for Business客户端已使用统一通信 Web API (UCWA) 支持即时消息 (IM) 、状态和联系人。 使用 MCX 的旧客户端的用户将需要升级到当前客户端。

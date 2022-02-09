@@ -1,8 +1,8 @@
 ---
 title: 媒体质量摘要报告Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8bd59ad6-3087-49c8-b692-5573fe2ffcd8
 description: 摘要：了解 Skype for Business Server 中的媒体质量摘要报告。
-ms.openlocfilehash: 7ee64f9654e2f21a45c173c4a51ed5e40131b874
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 3bf2d28cf9bc771ab14c567f3e0cfd1f373800b1
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838614"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399656"
 ---
 # <a name="media-quality-summary-report-in-skype-for-business-server"></a>媒体质量摘要报告Skype for Business Server
  

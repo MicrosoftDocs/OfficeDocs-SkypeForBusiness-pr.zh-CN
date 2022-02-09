@@ -1,8 +1,8 @@
 ---
 title: 持久聊天常规设置扩展器
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 275ee1ae-ca58-4963-bc95-523319f90d96
 description: 通过配置或定义以下属性编辑持久聊天服务器或持久聊天服务器池的常规设置：
-ms.openlocfilehash: 8047b6a3d8e4f81056af20feb2d5a36416bac2b8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: e93af8c8924117159434691b550f2ed9fcbb6e69
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854416"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62417685"
 ---
 # <a name="persistent-chat-general-settings-expander"></a>持久聊天常规设置扩展器
  
@@ -28,7 +28,7 @@ ms.locfileid: "60854416"
   
  **常规**
   
-- **FQDN：** 编辑此设置以定义持久聊天服务器或持久聊天服务器池的完全限定域名
+- **FQDN**：编辑此设置以定义持久聊天服务器或持久聊天服务器池的完全限定域名
     
 - **持久聊天池的显示名称**：定义此设置以提供服务器或池的用户友好和用户可读设置。 通过此设置，用户能够更轻松地关联基于 显示名称 的给定持久聊天服务器或持久聊天服务器池，而不是更难以理解的完全限定域名。
     
@@ -60,7 +60,7 @@ ms.locfileid: "60854416"
     
     单击“新建”以定义一个新的 SQL Server 存储和可选实例。
     
-- 如果要 **为** SQL Server镜像存储启用镜像，请选中"启用SQL Server镜像"复选框。
+- 如果要 **为SQL Server** 镜像存储启用镜像，请选中"启用SQL Server镜像"复选框。
     
     如果选择启用备份和SQL Server镜像，请从"备份和存储镜像"列表中选择SQL Server **和实例**。
     
@@ -80,7 +80,7 @@ ms.locfileid: "60854416"
     
 - 如果要 **为合规性SQL Server** 启用镜像，请选中"启用SQL Server镜像"复选框。
     
-    如果选择启用合规性和SQL Server镜像，请从"合规性和存储镜像"列表中选择SQL Server **实例**。
+    如果选择启用合规性和SQL Server镜像，请从"合规性存储镜像"列表中选择SQL Server **实例**。
     
     单击“新建”以定义一个新的 SQL Server 存储和可选实例。
     
@@ -96,7 +96,7 @@ ms.locfileid: "60854416"
     
 - 如果要 **为合规性SQL Server** 启用镜像，请选中"启用SQL Server镜像"复选框。
     
-    如果选择启用合规性策略SQL Server镜像，请从"备份合规性和存储镜像"列表中选择SQL Server **和实例**。
+    如果选择启用合规性数据库SQL Server镜像，请从"备份合规性和存储镜像"列表中选择SQL Server **和实例**。
     
     单击“新建”以定义一个新的 SQL Server 存储和可选实例。
     

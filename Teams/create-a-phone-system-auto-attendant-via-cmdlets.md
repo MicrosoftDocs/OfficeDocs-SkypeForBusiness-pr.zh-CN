@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 了解如何通过 cmdlet 配置自动助理
-ms.openlocfilehash: 1a8a105da3cfeaad0b6bc4069d877d2d8ad95796
-ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
+ms.openlocfilehash: 3911010b201e2b19376c24c6c4b84ae8dbcc5db8
+ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62181161"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62457462"
 ---
 # <a name="create-an-auto-attendant-via-cmdlets"></a>通过 cmdlet 创建自动助理
 
@@ -42,7 +42,7 @@ ms.locfileid: "62181161"
                                                                                                
 注意：下面引用的一些 cmdlet 可能是 PowerShell 模块的公共预览Teams的一部分。  有关详细信息，请参阅安装 Teams [PowerShell 公共预览](teams-powershell-install.md)版，Microsoft Teams [PowerShell 发行说明](teams-powershell-release-notes.md)。
 
-已安装 MicrosoftTeams 模块的用户应确保已安装 ````Update-Module MicrosoftTeams```` 最新版本。
+已安装 MicrosoftTeams 模块 ````Update-Module MicrosoftTeams```` 的用户应确保已安装最新版本。
 
 ## <a name="scenario"></a>使用场景
 
@@ -86,7 +86,7 @@ $operatorID = (Get-CsOnlineUser -Identity “sip:adele@contoso.com”).ObjectID
 $operatorEntity = New-CsAutoAttendantCallableEntity -Identity $operatorID -Type User
 ````
 
-## <a name="dial-by-name-auto-attendant---resource-account-creation"></a>按名称拨叫自动助理 - 创建资源帐户
+## <a name="dial-by-name-auto-attendant---resource-account-creation"></a>按名称拨号自动助理 - 创建资源帐户
 注意：在此处创建资源帐户，以便可以在主自动助理上引用它。  稍后将创建实际的"按姓名拨叫"自动助理。
 
 ### <a name="get-license-types"></a>获取许可证类型
@@ -185,7 +185,7 @@ $dialbynameAAMenuOption3 = New-CsAutoAttendantMenuOption -Action TransferCallToT
 $afterHoursMenuOption4 = New-CsAutoAttendantMenuOption -Action Announcement -DtmfResponse Tone4 -Prompt $addressPrompt
 ````
 
-### <a name="create-after-hours-menu-and-call-flow"></a>"创建""工作时间"菜单和"呼叫Flow
+### <a name="create-after-hours-menu-and-call-flow"></a>"创建营业时间"菜单和"呼叫Flow
 ````
 $afterHoursMenu = New-CsAutoAttendantMenu -Name "After Hours Menu" -MenuOptions @($afterHoursMenuOption1, $afterHoursMenuOption2, $dialbynameAAMenuOption3, $afterHoursMenuOption4) -Prompt $afterHoursMenuPrompt
 
@@ -235,7 +235,6 @@ Get-MsolAccountSku
 ````
 
 ### <a name="create-and-assign-resource-account"></a>创建和分配资源帐户
-注意：电话呼叫队列是前端的，因此此处不需要自动助理
 - ApplicationID
 - - 自动助理：ce933385-9390-45d1-9512-c8d228074e07
 - - 呼叫队列：11cd3e2e-fccb-42ad-ad00-878b93575e07

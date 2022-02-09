@@ -1,7 +1,7 @@
 ---
 title: 安装和测试 Skype for Business for iOS
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: PhillipGarding
@@ -11,13 +11,13 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 142abc98-608d-40c7-ab4d-66acc010426b
-description: 摘要：如何安装和测试 iOS Skype for Business应用。
-ms.openlocfilehash: b3bcdddbafe5ae0c578f1f5e38f44696ed01dd66
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: 摘要：如何安装和测试适用于 iOS Skype for Business应用。
+ms.openlocfilehash: a485893e1433e3c1f45377acd11526a9396e85cc
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843525"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62417315"
 ---
 # <a name="install-and-test-skype-for-business-for-ios"></a>安装和测试 Skype for Business for iOS
  
@@ -27,9 +27,9 @@ iOS Skype for Business为 iOS 设备Skype for Business状态、即时消息 (IM)
   
 ## <a name="installing-skype-for-business-for-ios"></a>安装 Skype for Business for iOS
 
-1. 从 iOS 设备中，点击 **"应用商店"，** 然后搜索 Skype for Business **for iOS。**
+1. 从 iOS 设备中，点击 **"应用商店"**，然后搜索 Skype for Business **for iOS**。
     
-2. 点击 **下载**  >  **打开**。 
+2. 点击 **"DownloadOpen** > **"**。 
     
 3. 登录到应用。
     
@@ -61,7 +61,7 @@ iOS Skype for Business为 iOS 设备Skype for Business状态、即时消息 (IM)
     
 ### <a name="test-push-notifications"></a>测试推送通知
 
-1. 在用户 A 的移动设备上，使用Skype for Business A 的帐户登录登录。 
+1. 在用户 A 的移动设备上，登录Skype for Business A 的帐户登录。 
     
 2. 在移动设备上打开其他应用程序。 
     

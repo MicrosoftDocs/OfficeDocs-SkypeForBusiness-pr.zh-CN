@@ -1,8 +1,8 @@
 ---
 title: 启用呼叫允许控制
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: " 在将呼叫允许控制 (CAC) 网络后，必须启用 CAC 以强制实施带宽限制。"
-ms.openlocfilehash: 401580bbc893bff2081aa59b7458e831db2f8775
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 4a61fbb9587469c483f95e544bf168fe8dec4ab7
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847225"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410765"
 ---
 # <a name="enabling-call-admission-control-in-skype-for-business-server"></a>在 Skype for Business Server 上启用呼叫允许控制
 
@@ -29,7 +29,7 @@ ms.locfileid: "60847225"
 
 2.  打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。 
 
-3.  在左侧导航栏中，单击"**网络配置"，** 然后单击"全局 **"。**
+3.  在左侧导航栏中，单击" **网络配置"**，然后单击"全局 **"**。
 
 4.  在“全局”页上，单击“全局”配置。
    

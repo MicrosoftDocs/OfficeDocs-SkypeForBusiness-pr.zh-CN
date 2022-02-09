@@ -1,8 +1,8 @@
 ---
 title: MediaList 表
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 7/12/2016
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 1f440590-c1bc-483e-b7bc-6cc763847768
 description: MediaList 表是一个静态表，用于存储各种媒体类型的列表。
-ms.openlocfilehash: 643c373eb7e6a73cf8755f14ea0f5497efee6fed
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: da5d1c90f768e059ccb61b471d8f8e538c8c53aa
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849625"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62418365"
 ---
 # <a name="medialist-table"></a>MediaList 表
  

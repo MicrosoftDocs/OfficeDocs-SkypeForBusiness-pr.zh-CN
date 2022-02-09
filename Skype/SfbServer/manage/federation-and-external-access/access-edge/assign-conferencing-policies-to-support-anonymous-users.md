@@ -5,8 +5,8 @@ ms:assetid: 662de022-1111-40f7-bad4-f2b686f30973
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521007(v=OCS.15)
 ms:contentKeyID: 48184333
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,22 +15,22 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 通过配置支持匿名用户的会议策略并将该会议策略应用于特定用户，可以控制能够邀请匿名用户的用户。
-ms.openlocfilehash: 25762861b6086750213553bca9bfd02dab01187d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 31978a997b3344367068c00978de9257585c6d4b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848495"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399706"
 ---
 # <a name="assign-conferencing-policies-to-support-anonymous-users-in-skype-for-business-server"></a>分配会议策略以支持匿名用户Skype for Business Server 
 
 
-默认情况下，禁止所有用户邀请匿名用户参加会议。 通过配置支持匿名用户的会议策略并将该会议策略应用于特定用户，可以控制能够邀请匿名用户的用户。 若要详细了解如何配置会议策略以支持匿名用户，请参阅在 Skype for Business Server 中[](../../conferencing/create-policies.md)创建会议策略和管理对 Skype for Business Server 的[联盟和外部访问](../managing-federation-and-external-access.md)。
+默认情况下，禁止所有用户邀请匿名用户参加会议。 通过配置支持匿名用户的会议策略并将该会议策略应用于特定用户，可以控制能够邀请匿名用户的用户。 若要详细了解如何配置会议策略以支持匿名用户，请参阅在 Skype for Business Server 创建会议策略[](../../conferencing/create-policies.md)和管理对 Skype for Business Server 的[联盟和外部Skype for Business Server](../managing-federation-and-external-access.md)。
 
 使用本节中的过程可将已创建的会议策略应用于一个或多个用户或用户组。
 
 > [!NOTE]  
-> 除了配置和应用策略以允许用户邀请匿名用户之外，还必须为组织启用对匿名用户的支持。 有关详细信息，请参阅[Configure policies to control public user access in Skype for Business Server](../external-access-policies/configure-policies-to-control-public-user-access.md)。
+> 除了配置和应用策略以允许用户邀请匿名用户之外，还必须为组织启用对匿名用户的支持。 有关详细信息，请参阅[配置策略以控制公共用户访问Skype for Business Server](../external-access-policies/configure-policies-to-control-public-user-access.md)。
 
 
 ## <a name="to-configure-a-user-policy-for-anonymous-participation-in-meetings"></a>为匿名参与会议配置用户策略
@@ -53,11 +53,11 @@ ms.locfileid: "60848495"
 
 7.  在列出搜索结果的表中，单击相应的用户帐户，再单击“编辑”，然后单击“显示详细信息”。
 
-8.  在 **"Skype for Business Server** 策略"下的"编辑用户"中，选择具有要应用于此用户的匿名用户访问配置的用户策略。  
+8.  在 **"编辑Skype for Business Server** 用户"中的"会议策略"下，选择具有要应用于此用户的匿名用户访问配置的用户策略。  
 
     > [!NOTE]  
-    > "<STRONG> &lt; 自动 &gt; </STRONG>"设置应用默认服务器安装设置，并自动由服务器应用。
+    > " <STRONG>&lt;自动&gt;</STRONG> "设置应用默认服务器安装设置，并自动由服务器应用。
 
 
-要允许用户邀请匿名用户参加会议，还必须在组织中启用匿名用户支持。 有关详细信息，请参阅[Configure policies to control public user access in Skype for Business Server](../external-access-policies/configure-policies-to-control-public-user-access.md)。
+要允许用户邀请匿名用户参加会议，还必须在组织中启用匿名用户支持。 有关详细信息，请参阅[配置策略以控制公共用户访问Skype for Business Server](../external-access-policies/configure-policies-to-control-public-user-access.md)。
 

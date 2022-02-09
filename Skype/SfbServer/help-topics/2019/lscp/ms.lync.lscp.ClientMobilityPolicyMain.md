@@ -1,8 +1,8 @@
 ---
 title: 客户端移动策略
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 6ab53530-143d-4f1e-90cd-a92685f98a20
 ROBOTS: NOINDEX, NOFOLLOW
 description: “客户端移动策略”页显示部署中可用的移动策略。
-ms.openlocfilehash: e4b030ac2665c833f19844d1f792be874d2324bd
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 71eb06af1ef61c9f53aeb8caf8f410bd67292b4d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840484"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62417185"
 ---
 # <a name="clients-mobility-policy"></a>客户端：移动策略
 
@@ -44,7 +44,7 @@ ms.locfileid: "60840484"
 
 - **搜索字段** 在文本框中键入字符串以筛选显示的策略。
 
-- **新建** 单击 **"新建**"，然后选择" **站点** "或 **"** 用户"以创建新的移动策略。
+- **新增功能** 单击 **"新建**"，然后选择" **站点** "或 **"** 用户"以创建新的移动策略。
 
 - **编辑** 选择一个策略，然后单击"编辑"编辑所选策略的属性。
 

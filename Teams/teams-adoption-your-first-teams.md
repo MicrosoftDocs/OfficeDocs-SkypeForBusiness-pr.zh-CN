@@ -1,7 +1,7 @@
 ---
 title: 在 Microsoft Teams 中创建首批团体
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 了解如何 Teams使用 Teams 管理 Microsoft 365 或 Office 365 部署，Teams将关键资源固定为相应通道中的选项卡，以驱动采用率。
+description: 了解如何使用 Teams 管理 Microsoft 365 或 Office 365 部署Teams，包括如何将关键资源固定为相应通道中的选项卡。
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 332c106ca8f3ea881bbef95805c1228a6687cc65
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c26890031279a64cba650d2ec926faaff09f043f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832976"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62418335"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>在 Microsoft Teams 中创建首批团体
 
@@ -38,7 +38,7 @@ ms.locfileid: "60832976"
 | Microsoft Teams实现 | 常规 <br/> 认知和采用 <br/> Business Engagement <br/> 早期采用者计划 <br/> 反馈Insights <br/> 安全性和符合性 <br/> 策略和规划 <br/> 服务运行状况和事件 <br/> 培训 <br/> Watercooler Chat |
 | Teamwork 冠军 | 常规 <br/> 最佳做法、培训和操作方法 <br/> 冠军角 <br/> 反馈和支持 <br/> 计划潜在顾客 <br/> 社交中心 |
 
-在 Microsoft Teams 中，选项卡[](/microsoftteams/platform/concepts/tabs/tabs-overview)库可让你访问管理员Microsoft 365 Office 365的所有应用或第三方应用。 为了从产品获得最大价值，我们建议在每个相应的频道中将关键资源固定为选项卡。 请参阅以下示例。
+在 Microsoft Teams 中，选项卡库可[](/microsoftteams/platform/concepts/tabs/tabs-overview)让你访问管理员Microsoft 365 Office 365启用的所有应用或第三方应用。 为了从产品获得最大价值，我们建议在每个相应的频道中将关键资源固定为选项卡。 请参阅以下示例。
 
 ![显示默认和自定义选项卡的屏幕截图。](media/teams-adoption-tab-example.png)
 
@@ -47,11 +47,11 @@ ms.locfileid: "60832976"
 |团队/频道名称 | 固定选项卡 |
 |----------------- | ---------- |
 | **Microsoft Teams部署** ||
-| 常规 | Web 选项卡[：Teams文档](./index.yml) |
+| 常规 | Web 选项卡：[Teams文档](./index.yml) |
 | 认知和采用 | [Teams采用中心](https://aka.ms/DriveTeamsAdoption)<br/>[Microsoft Teams Customer Success Kit](https://aka.ms/TeamsCustomerSuccess)|
 | 业务参与 | Wiki - 参与指南<br/>表单 - 请求Teams咨询<br/>列表 - Engagement 请求 |
 |早期采用者 | 固定的反馈社区 <br/> OneNote常见问题解答和常见主题 |
-| 反馈和报告 | 仅Microsoft 365或Office 365管理员 (的Microsoft 365 Office 365或)  |
+| 反馈和报告 | 仅Microsoft 365 Office 365管理员 (或Microsoft 365 Office 365固定)  |
 | 安全性和合规性 | Microsoft 信任门户 <br/> [安全性和符合性文档](/office365/securitycompliance/index)<br/> [路线图](/office365/securitycompliance/security-roadmap) |
 | 策略和规划 | 协作 North Star PowerPoint <br/> 服务采用Project计划 |
 | 培训 | 自定义学习培训门户 <br/> [Teams 联机培训](https://aka.ms/TeamsTraining) |
@@ -64,6 +64,6 @@ ms.locfileid: "60832976"
 
 ## <a name="making-the-switch-to-microsoft-teams"></a>切换到 Microsoft Teams
 
-当您开始使用 Teams时，您和项目团队的其余部分必须承诺使用 Teams 聊天、频道和资源来运行项目。 您自己的应用Teams采用项目的质量至关重要。 我们建议你继续通过电子邮件与核心项目团队对话，以抵御项目碎片化。 通过切换到Teams您将为最终希望员工接受的行为建模。 设置语气，首先开始将项目信息放在一个地方！  
+当您开始使用 Teams 时，您和项目团队的其余部分必须承诺使用 Teams 聊天、频道和资源来运行项目。 您自己的应用Teams采用项目的质量至关重要。 我们建议你继续通过电子邮件与核心项目团队对话，以抵御项目碎片化。 通过切换到Teams，你将为最终希望员工接受的行为建模。 设置语气，首先开始将项目信息放在一个地方！  
 
 ![描述下一步的图标。](media/teams-adoption-next-icon.png) 下[一步：组织准备使用Microsoft Teams？](teams-adoption-assess-readiness.md)

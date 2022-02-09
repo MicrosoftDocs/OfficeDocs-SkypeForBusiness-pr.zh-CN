@@ -1,8 +1,8 @@
 ---
 title: 部署向导统一通信 API
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 0eb47fc9-17fe-4ccf-b7c9-1a2cf95f943c
 ROBOTS: NOINDEX, NOFOLLOW
-description: 有关使用部署向导安装 Skype for Business Server的详细信息，请参阅 Install Skype for Business Server。
-ms.openlocfilehash: 18e4981e47895e93d28af52f8b3a0f9ea657e7f1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: 有关使用部署向导安装 Skype for Business Server的详细信息，请参阅安装Skype for Business Server。
+ms.openlocfilehash: 8aad388a0f1af78955862c019bf206117f89f90f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843455"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62418145"
 ---
 # <a name="deployment-wizard-unified-communications-api"></a>部署向导：统一通信 API
  
-有关使用部署向导安装部署Skype for Business Server的详细信息，请参阅 Install [Skype for Business Server](../../../deploy/install/install.md)。
+有关使用部署向导安装 Skype for Business Server的详细信息，请参阅安装[Skype for Business Server](../../../deploy/install/install.md)。
   
 

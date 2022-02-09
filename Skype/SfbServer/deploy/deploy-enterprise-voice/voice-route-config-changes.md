@@ -1,8 +1,8 @@
 ---
 title: 在语音路由配置中发布待处理Skype for Business
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ff941d0b-fb4b-47d2-b866-6d990ac66b81
-description: 摘要：了解如何使用 Skype for Business Server 控制面板查看、发布或取消 Skype for Business Server 中的语音路由配置更改。
-ms.openlocfilehash: e0ffa60557623eb217f7f43a61cad7b2e0923c77
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: 摘要：了解如何使用"控制面板"查看、发布或取消 Skype for Business Server 中的Skype for Business Server配置更改。
+ms.openlocfilehash: 278bc5820ba35580232bb3ef3d73bf9e23c640a2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856279"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62418195"
 ---
 # <a name="publish-pending-changes-to-the-voice-routing-configuration-in-skype-for-business"></a>在语音路由配置中发布待处理Skype for Business
  
-**摘要：** 了解如何使用"控制面板"查看、发布或取消 Skype for Business Server 中的Skype for Business Server配置更改。
+**摘要：** 了解如何使用"控制面板"查看、发布或取消 Skype for Business Server 中的语音Skype for Business Server更改。
   
 在“语音路由”组的页面中对任何配置设置做出更改后，执行此过程以查看、发布或取消待处理的更改。
   
@@ -36,7 +36,7 @@ ms.locfileid: "60856279"
 > 必须通过运行“全部提交”命令，同时发布所有待处理的更改。不能选择性地发布待处理的更改。发布待处理的更改前，运行“查看未提交的更改”命令并取消任何不希望发布的配置更改。
   
 > [!NOTE]
-> 如果在提交待处理更改前离开“语音路由”组中的页面，所有待处理更改都将丢失。 但是，可以将当前配置（包括所有待处理的更改）导出至语音配置文件，然后导入并发布已更新的配置。 有关详细信息，请参阅导出[或导入语音路由配置文件Skype for Business。](voice-route-configuration-import-export.md) 
+> 如果在提交待处理更改前离开“语音路由”组中的页面，所有待处理更改都将丢失。 但是，可以将当前配置（包括所有待处理的更改）导出至语音配置文件，然后导入并发布已更新的配置。 有关详细信息，请参阅导出[或导入语音路由配置文件Skype for Business](voice-route-configuration-import-export.md)。 
   
 ### <a name="to-review-publish-or-cancel-voice-routing-configuration-changes"></a>查看、发布或取消语音路由配置更改
 

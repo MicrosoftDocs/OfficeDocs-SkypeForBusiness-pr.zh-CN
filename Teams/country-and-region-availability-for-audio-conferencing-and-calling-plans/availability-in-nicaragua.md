@@ -1,7 +1,7 @@
 ---
 title: 在洪都拉斯的可用性
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: 5b67b46fec221f9fdaa921de81d9e7adbe1bdc6a
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+ms.openlocfilehash: 4528dbb3c6e9ace8a4839568f4717180371896c6
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62190643"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410625"
 ---
 # <a name="availability-in-nicaragua"></a>在洪都拉斯的可用性
 
@@ -68,11 +68,11 @@ ms.locfileid: "62190643"
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|你可以获取哪些首都或大城市的收费电话号码？   | 请求 (Managua [) ](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) <br/> |
+|你可以获取哪些首都或大城市的收费电话号码？   | 根据请求 ([Managua) ](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) <br/> |
 |是否提供收费电话号码？  <br/> |是（[应要求](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)） <br/> |
 |免费电话号码是否可用？  <br/> |否  <br/> |
    
- 如果要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅获取电话和[Skype for Business Microsoft Teams。](../getting-service-phone-numbers.md)
+ 如果要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅获取电话和Skype for Business [Microsoft Teams](../getting-service-phone-numbers.md)。
   
 ## <a name="communications-credits"></a>通信点数
 

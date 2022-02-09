@@ -1,8 +1,8 @@
 ---
 title: 更改现有存档策略Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 4cf600be-ba3d-4bce-aa22-e158b9ccf8a9
 description: 摘要：了解如何更改用户存档策略Skype for Business Server。
-ms.openlocfilehash: b6ddc379f2b5652311be051d47d644a8e2923c1c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 494ed5ab3bd9e7bf4b64926533d3866e515fe34a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854386"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62416615"
 ---
 # <a name="change-an-existing-archiving-policy-in-skype-for-business-server"></a>更改现有存档策略Skype for Business Server
  
@@ -50,7 +50,7 @@ ms.locfileid: "60854386"
 6. 单击“提交”。
     
     > [!IMPORTANT]
-    > 用户策略的设置仅适用于要应用该策略的特定用户和用户组。 有关详细信息，请参阅[将存档策略应用于](apply-a-policy-to-users.md)Skype for Business Server。 
+    > 用户策略的设置仅适用于要应用该策略的特定用户和用户组。 有关详细信息，请参阅[将存档策略应用于](apply-a-policy-to-users.md) Skype for Business Server。 
   
 ## <a name="change-archiving-policies-by-using-windows-powershell"></a>使用策略更改存档Windows PowerShell
 

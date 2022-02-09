@@ -1,8 +1,8 @@
 ---
-title: Skype for Business Server 中的对等活动诊断报告
+title: Skype for Business Server 中的对等活动诊断Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,18 +12,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 025e8ab4-2e64-4a6b-8f52-caf756a5cac3
 description: 摘要：了解 Skype for Business Server 中的对等活动诊断报告。
-ms.openlocfilehash: c0c568a75cddb8ea9f8165a196ee8cef1e03eaab
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 3698f4a6b585c3a244fa44f318fc991c3a9634ae
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858229"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62411585"
 ---
-# <a name="peer-to-peer-activity-diagnostic-report-in-skype-for-business-server"></a>Skype for Business Server 中的对等活动诊断报告
+# <a name="peer-to-peer-activity-diagnostic-report-in-skype-for-business-server"></a>Skype for Business Server 中的对等活动诊断Skype for Business Server
  
-**摘要：** 了解 Skype for Business Server 中的点对点活动诊断Skype for Business Server。
+**摘要：** 了解 Skype for Business Server 中的对等活动诊断Skype for Business Server。
   
-点对点活动诊断报告提供有关成功和失败的点对点通信会话的信息。 请注意Skype for Business Server区分不同类型的失败：
+点对点活动诊断报告提供有关成功和失败的点对点通信会话的信息。 请注意，Skype for Business Server区分不同类型的失败：
   
 - **预期失败**。 预期失败通常指纯技术意义上的失败。 例如，假设您呼叫某人，但他或她不在办公室，因此无法接听电话。 此呼叫未应答，因而在技术上视为失败。 另一方面，这是预期失败：Skype for Business Server无法接听电话，则不要接听电话。 同样地，如果您尝试发送一条即时消息给某人，而对方处于脱机状态，或者对方只登录到不支持即时消息的电话时，也会发生预期失败。
     
@@ -39,7 +39,7 @@ ms.locfileid: "60858229"
   
 ## <a name="accessing-the-peer-to-peer-activity-diagnostic-report"></a>访问点对点活动诊断报告
 
-可以从“监控报告”主页访问点对点诊断报告。 可以通过单击以下任[一指标](failure-distribution-report.md)Skype for Business Server中访问故障分布报告：
+可以从“监控报告”主页访问点对点诊断报告。 可以通过单击以下任[一指标Skype for Business Server](failure-distribution-report.md)中访问故障分布报告：
   
 - 意外失败量
     

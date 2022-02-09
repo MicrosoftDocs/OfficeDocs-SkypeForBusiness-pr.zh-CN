@@ -1,8 +1,8 @@
 ---
 title: AV MCU 常规设置扩展器
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 16449f7c-dd2c-4b51-b428-8fba42f93f83
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要编辑已定义的 A/V 会议服务器池的属性，可以执行以下操作：
-ms.openlocfilehash: ae553e0e52648ebafe122b32e13140eda02d6731
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b5d12db0b82b003cbbae5005fc02bd42deb31afb
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846805"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410365"
 ---
 # <a name="av-mcu-general-settings-expander"></a>AV MCU 常规设置扩展器
  

@@ -1,8 +1,8 @@
 ---
 title: Skype for Business Server 2015 中的 ContentTypes 表
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e3e38035-457c-4173-bdb9-d53a7420eba2
 description: ContentTypes 表是一个支持表，用于存储对等会话和会议会话中使用的内容类型的列表。 表中的每条记录都表示一种内容类型。
-ms.openlocfilehash: ca6497cad38c6e4e59f4da725ab03b8d027f2d93
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: f545355a00c37bf5df5f3b849aa29b6bee572c4f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60827395"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62417455"
 ---
 # <a name="contenttypes-table-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的 ContentTypes 表
  

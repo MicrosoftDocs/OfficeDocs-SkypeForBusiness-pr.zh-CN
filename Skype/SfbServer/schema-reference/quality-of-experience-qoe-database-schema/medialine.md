@@ -1,8 +1,8 @@
 ---
 title: MediaLine 视图
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 132eca13-8913-4218-9eff-4960ced8c3dc
 description: 媒体行视图存储有关数据库中每个媒体行的信息。 一个音频会话通常包含一个音频媒体行。 一个音频与视频 (A/V) 会话通常包含一个音频媒体行和一个视频媒体行；但是，如果使用了会议设备或库视图，则会话可能包含两个视频媒体行。 此视图在 Microsoft Lync Server 2013 中引入。
-ms.openlocfilehash: cf360f06fa293dc75c33caa2a10ac761ae156e91
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 8ef825fd75fc4cf61f0416b5ce2b64ca9f58634c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858119"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62417415"
 ---
 # <a name="medialine-view"></a>MediaLine 视图
  
@@ -26,9 +26,9 @@ ms.locfileid: "60858119"
   
 |**列**|**数据类型**|**details**|
 |:-----|:-----|:-----|
-|ConferenceDateTime  <br/> |datetime  <br/> |从 [MediaLine 表引用](medialine-0.md)。  <br/> |
-|SessionSeq  <br/> |int  <br/> |从 [MediaLine 表引用](medialine-0.md)。  <br/> |
-|MediaLineLabel  <br/> |tinyint  <br/> |从 [MediaLine 表引用](medialine-0.md)。  <br/> |
+|ConferenceDateTime  <br/> |datetime  <br/> |从 [MediaLine 表中引用](medialine-0.md)。  <br/> |
+|SessionSeq  <br/> |int  <br/> |从 [MediaLine 表中引用](medialine-0.md)。  <br/> |
+|MediaLineLabel  <br/> |tinyint  <br/> |从 [MediaLine 表中引用](medialine-0.md)。  <br/> |
 |CallerIceWarningFlags  <br/> |int  <br/> |关于呼叫者的位标志中所述的互动式连接建立 (ICE) 过程的信息。有关详细信息，请参阅“用户体验质量监控服务器协议规范”。  <br/> |
 |CalleeIceWarningFlags  <br/> |int  <br/> |关于被叫方的位标志中所述的互动式连接建立 (ICE) 过程的信息。有关详细信息，请参阅“用户体验质量监控服务器协议规范”。  <br/> |
 |安全性  <br/> |tinyint  <br/> |正在使用的安全配置文件。0 为无，1 为 SRTP，2 为 V1。  <br/> |

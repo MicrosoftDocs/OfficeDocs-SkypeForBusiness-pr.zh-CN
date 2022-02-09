@@ -1,8 +1,8 @@
 ---
 title: 部署向导Windows更新
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -15,15 +15,15 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: c6a280cb-1428-40b6-b761-cb649b9ff7df
 description: 有关使用部署向导安装 2015 Skype for Business Server的详细信息，请参阅 Install Skype for Business Server 2015。
-ms.openlocfilehash: df8d11a053cf02024c46fec6294d4955a9b979bc
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 955bd50e9894aa197ca099c9f9966e56aec9a6ea
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60852446"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62411795"
 ---
 # <a name="deployment-wizard-windows-update"></a>部署向导：Windows 更新
  
-有关使用部署向导安装 Skype for Business Server 2015 的详细信息，请参阅 Install [Skype for Business Server 2015](../../deploy/install/install.md)。
+有关使用部署向导安装 2015 Skype for Business Server的详细信息，请参阅 [Install Skype for Business Server 2015](../../deploy/install/install.md)。
   
 

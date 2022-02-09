@@ -1,8 +1,8 @@
 ---
 title: 更改存档数据库中的Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,31 +12,31 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: dbebaa0a-f3a2-4dbd-b64e-07a62370f899
 description: 摘要：了解如何更改存档数据库的存档Skype for Business Server。
-ms.openlocfilehash: e07c94530d71c9d31ef9f11eaef6332dbfa32d0e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 7a6d0c5168eded42a45996cb8154c4dd6f757a4c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847455"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399756"
 ---
 # <a name="change-archiving-database-options-in-skype-for-business-server"></a>更改存档数据库中的Skype for Business Server
 
 **摘要：** 了解如何更改存档数据库的存档Skype for Business Server。
   
-如果使用存档存储SQL Server部署存档，以便为任何用户存档存储，您可以进行以下数据库存储更改：
+如果使用存档存储为SQL Server部署存档，您可以进行以下数据库存储更改：
   
 - 使用不同的数据库SQL Server存档存储。 这包括主存档数据库和用于镜像SQL Server数据库。
     
-- 切换到 Microsoft Exchange集成，以将存档数据和文件存储在Exchange服务器上。 如果您的所有用户都位于 Exchange 服务器上，并且您希望对部署中的所有用户使用 Microsoft Exchange 存储，您应从拓扑中删除 SQL Server 存储数据库。 
+- 切换到 Microsoft Exchange集成，以将存档数据和文件存储在Exchange服务器上。 如果您的所有用户都位于 Exchange 服务器上，并且您希望对部署中的所有用户使用 Microsoft Exchange 存储，您应该从拓扑中删除 SQL Server 存储数据库。 
     
 若要进行上述任一更改，必须运行拓扑生成器，进行更改，然后再次发布拓扑。 不要指定存档 **SQL Server存储** 或启用SQL Server存储 **镜像** 信息，除非您有 Skype for Business 用户未Exchange服务器。
   
 ## <a name="change-archiving-database-options"></a>更改存档数据库选项
 
-1. 在运行 Skype for Business Server 或安装了 Skype for Business Server 管理工具的计算机上，使用作为本地 Users 组 (成员的帐户或具有同等用户权限) 的帐户登录。
+1. 在运行 Skype for Business Server 或安装了 Skype for Business Server 管理工具的计算机上，使用作为本地 Users 组 (成员的帐户或具有同等用户权限的帐户) 登录。
     
     > [!NOTE]
-    > 可以使用作为本地 Users 组的成员的帐户来定义拓扑，但若要发布拓扑（向拓扑中添加组件是必需的）必须使用 Domain **Admins** 组和 **RTCUniversalServerAdmins** 组的成员且具有完全控制权限的帐户 (即 读取、写入和修改用于 Skype for Business Server 文件存储 (的文件共享上的) ，以便拓扑生成器可以配置所需的随意访问控制列表 (DACLs) 或具有同等权限的帐户。
+    > 您可以使用作为本地 Users 组的成员的帐户来定义拓扑，但若要发布拓扑（向拓扑中添加组件是必需的）必须使用 Domain **Admins** 组和 **RTCUniversalServerAdmins** 组的成员且具有完全控制权限的帐户 (即 读取、写入和修改用于 Skype for Business Server 文件存储 (的文件共享上的) ，以便拓扑生成器可以配置所需的任意访问控制列表 (DACLs) 或具有同等权限的帐户。
   
 2. 启动拓扑生成器。
     
@@ -58,13 +58,13 @@ ms.locfileid: "60847455"
     
      - 若要使用现有 SQL Server 存储，请在下拉列表框中，单击要使用的 SQL Server 存储的名称。
     
-     - 若要指定新的SQL Server应用商店，请单击"新建"，然后在"定义新的 SQL Server **应用商店"对话框中**，执行以下操作：
+     - 若要指定新的SQL Server，请单击"新建"，然后在"定义新的 SQL Server **应用商店**"对话框中，执行以下操作：
     
        - 在 **SQL Server FQDN** 中，指定要创建新的数据库存储SQL Server FQDN。
     
        - 单击“默认实例”以使用默认的实例，或者，若要指定其他实例，请单击“命名实例”，然后指定要使用的实例。
     
-       - 如果指定的SQL Server实例位于镜像关系中，请选中"此 **SQL 实例** 位于镜像关系中"复选框，然后在"镜像端口号"中指定端口号。 
+       - 如果指定的SQL Server实例位于镜像关系中，请选中"此 **SQL** 实例位于镜像关系中"复选框，然后在"镜像端口号"中指定端口号。
     
    - 若要添加用于镜像的 SQL Server 存储或将其他现有 SQL Server 存储用于 SQL Server 存储镜像，请选择“启用 SQL Server 存储镜像”，然后执行下列操作：
     
@@ -76,17 +76,17 @@ ms.locfileid: "60847455"
     
        b. 单击“默认实例”以使用默认的实例，或者，若要指定其他实例，请单击“命名实例”，然后指定要使用的实例。
     
-       c. 如果指定的SQL Server实例位于镜像关系中，请选中"此 **SQL 实例** 位于镜像关系中"复选框，然后在"镜像端口号"中指定端口号。 
+       c. 如果指定的SQL Server实例位于镜像关系中，请选中"此 **SQL** 实例位于镜像关系中"复选框，然后在"镜像端口号"中指定端口号。
     
-   - 如果启用 SQL Server 镜像，并且希望添加或更改 SQL Server 镜像见证 (第三个单独的 SQL Server 实例，该实例可以检测主 SQL Server 服务器和镜像实例) 的运行状况，请选中"使用 **SQL Server** 镜像见证启用自动故障转移"复选框，d 然后执行下列操作之一：
+   - 如果启用 SQL Server 镜像，并且希望添加或更改 SQL Server 镜像见证 (第三个单独的 SQL Server 实例，该实例可以检测主 SQL Server 服务器和镜像实例) 的运行状况，请选择"使用 **SQL Server** 镜像见证启用自动故障转移" 复选框，然后执行下列操作之一：
     
-      a. 在 **SQL Server FQDN** 中，指定要创建新的镜像见证服务器SQL Server FQDN。
+      a. 在 **SQL Server FQDN** 中，指定要创建新数据库的服务器的 FQDN SQL Server见证。
     
       b. 单击“默认实例”以使用默认的实例，或者，若要指定其他实例，请单击“命名实例”，然后指定要用于镜像见证的实例。
     
-      c. 如果指定的SQL Server实例位于镜像关系中，请选中"此 **SQL 实例** 位于镜像关系中"复选框，然后在"镜像端口号"中指定端口号。 
+      c. 如果指定的SQL Server实例位于镜像关系中，请选中"此 **SQL** 实例位于镜像关系中"复选框，然后在"镜像端口号"中指定端口号。
     
-   - 若要切换到 Microsoft Exchange 集成以将存档数据和文件存储在 Exchange 服务器 (如果部署中的所有用户都位于 Exchange 服务器) 中，请删除存档数据库的所有信息。
+   - 若要切换到 Microsoft Exchange 集成以在 Exchange 服务器上存储存档数据和文件 (如果部署中的所有用户都位于 Exchange 服务器) 中，请删除存档数据库的所有信息。
     
      > [!IMPORTANT]
      > 如果有任何未Skype for Business用户位于Exchange，请不要删除SQL Server存储信息。 
