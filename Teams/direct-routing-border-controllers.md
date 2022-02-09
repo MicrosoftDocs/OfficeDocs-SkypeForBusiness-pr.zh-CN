@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 了解哪些会话边界控制器 (SBC) 已通过直接路由认证。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: db14472992880b17ee5fd68a0b0e426b3b8f497d
-ms.sourcegitcommit: fd4d7557997c537c094e79ada21c569acde65aa6
+ms.openlocfilehash: 71ba2fc6856b57a2619122b1c7341404651d4e8f
+ms.sourcegitcommit: b1d1a2b27c9dbc73a306bd69696fceda77688b26
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "62312275"
+ms.lasthandoff: 02/07/2022
+ms.locfileid: "62432851"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>经认证可用于直接路由的会话边界控制器
 
@@ -57,14 +57,14 @@ Microsoft 与每个供应商合作：
 
 |                                                       供应商                                                        |       产品       | 非媒体旁路 | 媒体旁路 | 软件版本 | 支持 911 的服务提供商* | 支持 ELIN |  
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|--------------|------------------|-----------------|------------------|  
-| [Audiocodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   Mediant 500 SBC   |     &#10004;     |   &#10004;    |  支持的 7.20A.258（推荐 7.40A.100）   | &#10004;   |  &#10004;  |  
+| [Audiocodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   Mediant 500 SBC   |     &#10004;     |   &#10004;    |  支持的 7.20A.258 (推荐 7.40A.250)   | &#10004;   |  &#10004;  |  
 |                                                                                                                     |   Mediant 800 SBC   |     &#10004;     |   &#10004;     |  支持的 7.20A.258 (推荐 7.40A.250)   | &#10004;   |  &#10004;  |  
 |                                                                                                                     |  Mediant 2600 SBC   |     &#10004;     |   &#10004;    |  支持的 7.20A.258 (推荐 7.40A.250)   |   &#10004;   |  &#10004;  |
 |                                                                                                                     |  Mediant 4000 SBC   |     &#10004;     |   &#10004;     |  支持的 7.20A.258 (推荐 7.40A.250)   |  &#10004;   |  &#10004;  |
-|                                                                                                                     | Mediant 1000B SBC  |     &#10004;     |   &#10004;     |  支持的 7.20A.250（推荐 7.20A.258）  |  &#10004;   |  &#10004;  |
+|                                                                                                                     | Mediant 1000B SBC  |     &#10004;     |   &#10004;     |  支持的 7.20A.250 (推荐 7.40A.250)   |  &#10004;   |  &#10004;  |
 |                                                                                                                     | Mediant 9000  SBC  |     &#10004;     |   &#10004;     |  支持的 7.20A.258 (推荐 7.40A.250)   | &#10004;     |  &#10004;  |
 |                                                                                                                     | Virtual Edition SBC |     &#10004;     |   &#10004;     |  支持的 7.20A.258 (推荐 7.40A.250) |  &#10004;    |  &#10004;  |   
-|                                                                                                                     | Mediant 云版本 SBC  |     &#10004;     |   &#10004;     |  支持的 7.20A.258（推荐 7.40A.100） |  &#10004;    |  &#10004;  |
+|                                                                                                                     | Mediant 云版本 SBC  |     &#10004;     |   &#10004;     |  支持的 7.20A.258 (推荐 7.40A.250) |  &#10004;    |  &#10004;  |
 |  [Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5100/5110       |     &#10004;     |   &#10004;    |       支持 9.2、8.2 和 7.2 (推荐 10.1)        | &#10004;   |     |
 |                                                                                                                     |      SBC 5200/5210       |     &#10004;     |  &#10004;    |       支持 9.2、8.2 和 7.2 (推荐 10.1)        |   &#10004; |    |
 |                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       支持 9.2、8.2 和 7.2 (推荐 10.1)        |   &#10004;  | |
