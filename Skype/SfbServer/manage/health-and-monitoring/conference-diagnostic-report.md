@@ -1,8 +1,8 @@
 ---
 title: 会议诊断报告Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: e9edc23c-8ce8-4ab8-8786-9d22e1e51e14
-description: Summary： Learn about the Conference Diagnostic Report used in Skype for Business Server.
-ms.openlocfilehash: 4e15819e220459664875e6a868c2644262885060
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: 摘要：了解会议诊断报告在Skype for Business Server。
+ms.openlocfilehash: 54f13793e1e76957bfc81f5d46769c5593c82cf8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837554"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398926"
 ---
 # <a name="conference-diagnostic-report-in-skype-for-business-server"></a>会议诊断报告Skype for Business Server
  
 **摘要：** 了解会议诊断报告在Skype for Business Server。
   
-会议诊断报告提供有关所有会议会话成功和失败的信息。 请注意Skype for Business Server区分不同类型的失败：
+会议诊断报告提供有关所有会议会话成功和失败的信息。 请注意，Skype for Business Server区分不同类型的失败：
   
 - **预期失败**。预期失败通常仅是大多数技术意义上的失败。例如，假定有人启动会议，但在任何人可加入前挂起。技术上的失败：会议已启动，但没有完成。但是，以下是预期发生的失败：如果任何人可加入前组织取消会议，则将不会预期会议要完成。
     
@@ -39,7 +39,7 @@ ms.locfileid: "60837554"
   
 ## <a name="accessing-the-conference-diagnostic-report"></a>访问会议诊断报告
 
-可从监控报告主页访问会议诊断报告。 可以通过单击下列任一[指标Skype for Business Server](failure-distribution-report.md)报告中的故障分布报告：
+可从监控报告主页访问会议诊断报告。 可以通过单击以下任[一指标Skype for Business Server](failure-distribution-report.md)中访问故障分布报告：
   
 - 意外失败量
     
@@ -47,7 +47,7 @@ ms.locfileid: "60837554"
     
 ## <a name="making-the-best-use-of-the-conference-diagnostic-report"></a>充分利用会议诊断报告
 
-会议诊断报告包括一系列图形。 图形中显示的每个列实际是个超链接。 如果单击某个列，您将向下钻取到该时间段Skype for Business Server[以及该](failure-distribution-report.md)会议类型的故障分布报告。
+会议诊断报告包括一系列图形。 图形中显示的每个列实际是个超链接。 如果单击某个列，您将深入到该时间段和该[Skype for Business Server中的故障](failure-distribution-report.md)分布报告。
   
 ## <a name="filters"></a>筛选器
 

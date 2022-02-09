@@ -1,8 +1,8 @@
 ---
 title: 客户端版本规则
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 6e7e94c2-1475-4334-b8da-716b24a4c255
 description: 客户端版本策略由一组客户端版本规则组成。这些规则定义在用户尝试使用特定客户端和客户端版本登录时应采取的操作。
-ms.openlocfilehash: 4575155cba6608e4a8f4425f7fc2d38042e62ad2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 3a2aa4712fdbe6d4c59a8ce72c67c2603f00cf57
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862819"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62404104"
 ---
 # <a name="client-version-rule"></a>客户端版本规则
 
@@ -50,7 +50,7 @@ ms.locfileid: "60862819"
 |Lync 2010 Attendee  <br/> |AOC  <br/> |
 |Live Meeting 外接程序  <br/> |LiveMeetingAddins  <br/> |
 |Office Live Meeting  <br/> |LMC  <br/> |
-|WindowsMessenger  <br/> |WM  <br/> |
+|Windows Messenger  <br/> |WM  <br/> |
 |实时通信客户端  <br/> |RTC  <br/> |
 |Lync 2010 for iPad  <br/> |iPadLync  <br/> |
 |Lync 2010 for iPhone  <br/> |iPhoneLync  <br/> |
@@ -87,7 +87,7 @@ ms.locfileid: "60862819"
 
   - **允许** 允许客户端登录。
 
-  - **允许和升级** 允许客户端登录并接收来自 Windows Server Update Service 或 Microsoft Update 的更新。 仅当选中用户代理“OC”时，才能进行此操作。
+  - **允许和升级** 允许客户端登录并接收来自 Windows 服务器更新服务或 Microsoft Update 的更新。 仅当选中用户代理“OC”时，才能进行此操作。
 
     > [!NOTE]
     > 选择此操作会导致用户在下次登录登录时显示Skype for Business。 该通知指出有可用更新，即使更新尚未发布到 Windows Server Update Service 或 Microsoft Update。 为了避免混淆，您只应在更新可用后选择此操作。

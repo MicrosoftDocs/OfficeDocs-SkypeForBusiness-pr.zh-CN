@@ -1,8 +1,8 @@
 ---
 title: 选择路由
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: d136adcd-6659-4113-941c-cca75033318e
 description: 使用"选择路由"对话框查找可以使用的现有语音路由。
-ms.openlocfilehash: 43c345fa0f56b4106922b5b1b3a499d25385962d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 493964f988cbcd431c9ab5b5f2166f64481fbbeb
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832276"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410186"
 ---
 # <a name="select-routes"></a>选择路由
  
@@ -29,6 +29,6 @@ ms.locfileid: "60832276"
 > [!NOTE]
 > 若要检索所有可用的语音路由，请不要在搜索框中键入任何内容，然后单击搜索图标。 
   
-有关可以使用控制面板执行的不同过程的详细信息，请参阅 Manage [Skype for Business Server Skype for Business Server 2015](../../manage/manage.md)。
+有关可以使用控制面板执行的不同过程的详细信息，Skype for Business Server Manage [Skype for Business Server 2015](../../manage/manage.md)。
   
 

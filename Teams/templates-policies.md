@@ -1,7 +1,7 @@
 ---
 title: 管理中心中的管理团队模板
 author: serdars
-ms.author: v-mahoffman
+ms.author: serdars
 manager: serdars
 ms.reviewer: yinchang
 ms.topic: article
@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何在管理中心中管理团队模板
-ms.openlocfilehash: 0ab167cc66a897c0f89679cd2a403a385b2b1b01
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 470194c8a31236e5bed000fa2837c9b1fa05003e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766060"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401176"
 ---
 # <a name="manage-team-templates-in-the-admin-center"></a>管理中心中的管理团队模板
 
@@ -38,7 +38,7 @@ ms.locfileid: "60766060"
 
 1. 登录到 Teams 管理中心。
 
-2. 展开 **"Teams**  >  **模板策略"。**
+2. 展开 **Teams** > **模板策略**。
 
 3. 选择“**添加**”。
 
@@ -50,7 +50,7 @@ ms.locfileid: "60766060"
 
     - 模板策略简短说明
 
-2. 在"**可查看的模板"** 表中，选择要隐藏的模板，然后选择"隐藏 **"。**
+2. 在 **"可查看的模板"** 表中，选择要隐藏的模板，然后选择"隐藏 **"**。
 
     ![突出显示"隐藏"的所选模板。](media/template-policies-2.png)
 
@@ -58,7 +58,7 @@ ms.locfileid: "60766060"
 
 1. 若要取消隐藏某些模板，请滚动到"隐藏 **模板"** 表。
 
-2. 选择要取消隐藏模板，然后选择"显示 **"。**
+2. 选择要取消隐藏模板，然后选择"显示 **"**。
 
    ![未隐藏的所选模板。](media/template-policies-3.png)
 
@@ -71,13 +71,13 @@ ms.locfileid: "60766060"
 
 分配到策略的用户只能查看该策略中的可查看模板。
 
-1. 在 **"模板策略"** 中，选择一个策略，然后选择"**管理用户"。**
+1. 在 **"模板策略"** 中，选择一个策略，然后选择" **管理用户"**。
 
 2. 键入要分配到此策略的用户。
 
    ![将用户分配到模板策略。](media/template-policies-4.png)
 
-3. 选择"**应用"。**
+3. 选择" **应用"**。
 
 > [!Note]
 > 新策略最多可能需要 24 小时才能对最终用户生效。
@@ -96,7 +96,7 @@ ms.locfileid: "60766060"
 
 答：目前没有。 将来会提供此功能。
 
-**问：如果创建了一个新模板，该模板是否将包含在策略中？**
+**问：如果创建了一个新模板，该模板是否包含在我的策略中？**
 
 答：默认情况下，任何新模板都可见。 可以选择在"模板策略"部分的管理中心中隐藏模板。
 
@@ -108,7 +108,7 @@ ms.locfileid: "60766060"
 
 答：可以。
 
-1. 在管理中心，转到"用户 **"。**
+1. 在管理中心，转到"用户 **"**。
 1. 在"用户"列表表中，选择要分配到特定模板策略的用户。
 1. 选择"编辑设置"，并更改"模板策略"字段。
 1. 选择"应用"。 [了解详细信息](./assign-policies-users-and-groups.md#assign-a-policy-to-a-batch-of-users)。
@@ -119,7 +119,7 @@ ms.locfileid: "60766060"
 
 1. 转到"用户 **"** 部分。
 2. 在"用户"列表表中选择筛选器，并筛选团队模板策略。
-3. 选择"**应用"。**
+3. 选择" **应用"**。
 
 ![所选模板策略和查看用户。](media/template-policies-5.png)
 
@@ -141,6 +141,6 @@ ms.locfileid: "60766060"
 
 - [从现有团队模板创建团队模板](./create-template-from-existing-template.md)
 
-- [在 Microsoft Docs 中Microsoft Teams用户Microsoft Teams \| 策略](./policy-assignment-overview.md)
+- [在 Microsoft Docs 中为Microsoft Teams分配 \| Microsoft Teams策略](./policy-assignment-overview.md)
 
 - [将用户批量分配到策略](/powershell/module/teams/new-csbatchpolicyassignmentoperation)

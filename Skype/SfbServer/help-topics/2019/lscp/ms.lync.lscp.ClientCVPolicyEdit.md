@@ -1,8 +1,8 @@
 ---
 title: 客户端版本策略 创建新的或编辑现有的
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: e32c6712-6dc9-4de9-8d74-9fdccf3de1ba
 ROBOTS: NOINDEX, NOFOLLOW
 description: 可以指定环境中支持的客户端版本。 当两个不同版本的客户端交互时，其中一个客户端的可用功能会受到另一个客户端的功能的限制。
-ms.openlocfilehash: a3549bc94cc886526610c40ee4cddb75310ebe74
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 825969cc9ed6010a1e9858879d1db17b7b77f508
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840524"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398245"
 ---
 # <a name="client-version-policy-create-new-or-edit-existing"></a>客户端版本策略：创建新的或编辑现有的
 
@@ -47,7 +47,7 @@ ms.locfileid: "60840524"
 
 - **说明** 可以添加说明以帮助在"客户端版本策略"页上的列表中标识策略。
 
-- **新建** 可以将新的客户端版本规则添加到策略。
+- **新增功能** 可以将新的客户端版本规则添加到策略。
 
 - **显示详细信息** 此选项将打开一个对话框，您可以在其中更改客户端版本规则的选项。
 

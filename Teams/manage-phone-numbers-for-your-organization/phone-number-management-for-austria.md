@@ -1,7 +1,7 @@
 ---
 title: 电话奥地利的号码管理
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: davlick,krkilaru
 ms.topic: reference
@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 使用此表查找有关在奥地利获取和管理奥地利用户的电话号码Microsoft Teams。
-ms.openlocfilehash: 535c49f22fcc09b70ac3e72414dc1e28cc3f89e6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 87b31bcf13f61b8ba60b6a19b72cebc97c76f029
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859719"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397566"
 ---
 # <a name="phone-number-management-for-austria"></a>电话奥地利的号码管理
 
@@ -34,11 +34,11 @@ ms.locfileid: "60859719"
   
 |**你要做什么？**|**下载正确的表单并发送给我们**|
 |:-----|:-----|
-|获取未在管理中心中列出的新用户Microsoft Teams电话号码。   <br/> |下载这些表单之一。 <br/>  [奥地利新电话号码请求 (v.5.0)  (de-de) 。 ](https://download.microsoft.com/download/6/7/e/67e342b8-babc-4b85-bc0d-a7d9cdfa3d87/new-phone-number-request-for-austria-(v.5.0)-(de-de).pdf) <br/>  [适用于奥地利的新电话号码请求 (v.5.0)  (en-us) 。 ](https://download.microsoft.com/download/c/0/e/c0e39cf0-6fa1-41c6-95fd-6f69ed030d15/new-phone-number-request-for-austria-(v.5.0)-(en-us).pdf) <br/>  <br/>填写它并 [联系 TNS 服务台，了解说明](contact-tns-service-desk.md)。 <br/>  <br/>还必须包含要获取新号码的企业地址中的实用工具帐单。 <br/> 
-|获取转接给我们的电话号码。  <br/> | 下载此表单。 <br/>[奥地利 (LOA (LO) A (授权书)  (v.5.0)  (de-at) ](https://download.microsoft.com/download/3/e/2/3e27f3ee-0f38-4d73-b8e8-b43b9e1d1381/letter-of-authorization-(loa)-for-austria-(all-numbers)-(v.5.0)-(de-at).pdf) <br/> <br/>填写它并 [联系 TNS 服务台，了解说明](contact-tns-service-desk.md)。  <br/> <br/>还必须包含要转移号码的企业地址中的实用工具帐单。<br/> |
-|发布/取消发布 (电话号码) 国内电话目录中。  <br/> |[有关发送](contact-tns-service-desk.md) 要发布/取消发布的电话号码列表的说明，请联系 TNS 服务台。      <br/> |
+|获取未在管理中心中列出的新用户Microsoft Teams电话号码。   <br/> |下载这些表单之一。 <br/>  [奥地利新电话号码请求 (v.5.0)  (de-de) ](https://download.microsoft.com/download/6/7/e/67e342b8-babc-4b85-bc0d-a7d9cdfa3d87/new-phone-number-request-for-austria-(v.5.0)-(de-de).pdf)。 <br/>  [适用于奥地利的新电话号码请求 (v.5.0)  (en-us) ](https://download.microsoft.com/download/c/0/e/c0e39cf0-6fa1-41c6-95fd-6f69ed030d15/new-phone-number-request-for-austria-(v.5.0)-(en-us).pdf)。 <br/>  <br/>填写它并 [联系 TNS 服务台，了解说明](contact-tns-service-desk.md)。 <br/>  <br/>还必须包含要获取新号码的企业地址中的实用工具帐单。 <br/> 
+|获取转接给我们的电话号码。  <br/> | 下载此表单。 <br/>[奥地利 (LOA) 授权书 ()  (v.5.0)  (de-at) ](https://download.microsoft.com/download/3/e/2/3e27f3ee-0f38-4d73-b8e8-b43b9e1d1381/letter-of-authorization-(loa)-for-austria-(all-numbers)-(v.5.0)-(de-at).pdf) <br/> <br/>填写它并 [联系 TNS 服务台，了解说明](contact-tns-service-desk.md)。  <br/> <br/>还必须包含要转移号码的企业地址中的实用工具帐单。<br/> |
+|发布/取消发布 () 国内电话目录中的电话号码。  <br/> |[有关发送](contact-tns-service-desk.md) 要发布/取消发布的电话号码列表的说明，请联系 TNS 服务台。      <br/> |
 |将用户号码更改为服务号码。  <br/> |[有关发送](contact-tns-service-desk.md) 要转换为服务号码的用户号码列表的说明，请联系 TNS 服务台。 <br/> |
-|更新目录服务以呼叫队列或自动助理号码|若要添加或更改呼叫队列或自动助理号码，请联系 [TNS 服务台，获得说明](contact-tns-service-desk.md)。 |
+|更新目录服务以呼叫队列或自动助理号码|若要添加或更改呼叫队列或自动助理号码，请联系 [TNS 服务台获得说明](contact-tns-service-desk.md)。 |
 
 ## <a name="related-topics"></a>相关主题
 

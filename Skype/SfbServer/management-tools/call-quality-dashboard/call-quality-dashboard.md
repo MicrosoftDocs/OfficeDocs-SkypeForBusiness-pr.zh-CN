@@ -1,8 +1,8 @@
 ---
 title: Skype for Business Server 的通话质量仪表板
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,18 +13,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: eda05329-e306-469b-a69a-33806f58ec6f
 description: 摘要：了解通话质量仪表板，它是一种报告Skype for Business Server。
-ms.openlocfilehash: 3a595dac7e495eadaf821d814a08bca8b50feb80
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ba8a7359e84b737cc65b28882adc6eac4d7d3386
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841154"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396384"
 ---
 # <a name="call-quality-dashboard-for-skype-for-business-server"></a>Skype for Business Server 的通话质量仪表板
  
-**摘要：** 了解呼叫质量仪表板，它是一个报告工具Skype for Business Server。
+**摘要：** 了解通话质量仪表板，它是一个报告工具Skype for Business Server。
  
-Skype for Business Server呼叫质量仪表板 (CQD) 是一个报告层，位于 Skype for Business Server 和 Lync Server 2013 中监控服务器中用户体验质量数据库的顶层。 CQD 使用Microsoft SQL Server Analysis Services聚合使用情况和呼叫质量信息，以及筛选和透视数据集。
+Skype for Business Server呼叫质量仪表板 (CQD) 是位于 Skype for Business Server 和 Lync Server 2013 中监控服务器中用户体验质量数据库顶部的报告层。 CQD 使用Microsoft SQL Server Analysis Services聚合使用情况和呼叫质量信息，以及筛选和透视数据集。
   
 本节中包含以下主题，应在部署呼叫质量仪表板之前查看这些主题。
   

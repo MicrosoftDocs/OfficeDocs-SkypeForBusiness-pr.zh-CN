@@ -1,7 +1,7 @@
 ---
 title: 了解 Microsoft Teams 中的团队和频道
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 10/29/2018
 audience: Admin
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d3d71e8c542b5f39ab979ae876e0c82868ca380a
-ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
+ms.openlocfilehash: 09aba3d8f6bcdb06d75bf0563a437a87197cb254
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "60959811"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400836"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>了解 Microsoft Teams 中的团队和频道
 
@@ -36,7 +36,7 @@ ms.locfileid: "60959811"
 
 - 频道是团队中完成实际工作的协作空间。 
 
-若要详细了解团队和频道，请参阅团队和频道概述[Microsoft Teams。](teams-channels-overview.md) 有关全面Teams采用指南，请获取Teams[采用指南。](https://aka.ms/teamstoolkit) 若要了解有关组Teams Microsoft 365，请参阅Microsoft 365[组](office-365-groups.md)Microsoft Teams和了解有关组[Microsoft 365。](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)
+若要详细了解团队和频道，请参阅团队和频道概述[Microsoft Teams。](teams-channels-overview.md) 有关全面Teams采用指南，请获取Teams[采用指南](https://aka.ms/teamstoolkit)。 若要详细了解组Teams Microsoft 365组，请参阅Microsoft 365[组](office-365-groups.md)Microsoft Teams组和Microsoft 365[组。](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)
 
 
 | &nbsp; |&nbsp;  |
@@ -57,8 +57,8 @@ ms.locfileid: "60959811"
 
 ![组织和项目模型。](media/teams-adoption-organization-project.png)
 
-在左侧 (中显示的组织团队) 中，可能会共享有关组织运营方式、团队活动、核心策略和其他操作信息（如业务评审）的关键信息。 对于右侧显示的团队，地区信息将细分为表示该团队正在完成的工作类别的频道。 此团队的成员可以或可能不会向同一个人报告，但他们都参与推动地区结果。
+在左侧 (显示的组织团队) 中，可能会共享有关组织运营方式、团队活动、核心策略和其他运营信息（如业务评审）的关键信息。 对于右侧显示的团队，地区信息将细分为表示该团队正在完成的工作类别的频道。 此团队的成员可以或可能不会向同一个人报告，但他们都参与推动地区结果。
   
-你将在实施的第 [2](teams-adoption-phase2-experiment.md) 阶段进一步处理团队的结构。
+你将在实施的第 2 阶段进一步 [处理](teams-adoption-phase2-experiment.md) 团队的结构。
 
 ![描述下一步的图标。](media/teams-adoption-next-icon.png) 下一 [步：创建你的第一个团队](teams-adoption-your-first-teams.md)

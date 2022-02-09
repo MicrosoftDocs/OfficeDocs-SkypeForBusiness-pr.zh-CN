@@ -1,8 +1,8 @@
 ---
 title: 选择超链接前缀
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: bfa55f83-70b4-4790-9b9f-8d849dd94909
 description: 使用“选择超链接前缀”对话框选择要阻止、要发送警告消息或要允许的超链接类型，方法是，从“超链接前缀”下的类别中选择（以阻止或发送警告消息）或清除（以允许）其扩展名的复选框。单击箭头可展开类别并查看该类别的所有超链接前缀。如果要选择某个类别的所有超链接前缀，请选择该类别名称。
-ms.openlocfilehash: 3478be81c80bc8f566b21611fd143bb3c057d468
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c0751758e02fb0a413600a3c520fe7891737c896
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842985"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399196"
 ---
 # <a name="select-hyperlink-prefix"></a>选择超链接前缀
  
@@ -30,6 +30,6 @@ ms.locfileid: "60842985"
   
 将需要的所有超链接前缀添加到“选中的超链接前缀”列表中后，单击“确定”。
   
-有关可以使用控制面板执行的不同过程的详细信息，请参阅 Manage [Skype for Business Server Skype for Business Server 2015](../../manage/manage.md)。
+有关可以使用控制面板执行的不同过程的详细信息，Skype for Business Server Manage [Skype for Business Server 2015](../../manage/manage.md)。
   
 

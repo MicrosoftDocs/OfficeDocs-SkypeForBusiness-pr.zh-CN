@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams：教育管理员的资源
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: reference
 ms.service: msteams
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cabaace50bea563ac2803c33f2b302f2f326bfa4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 2f0b8f1f070d48c30413f3d89e54b9344c54cafb
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865661"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62409835"
 ---
 # <a name="microsoft-teams-resources-for-education-admins"></a>面向教育版管理员的 Microsoft Teams 资源
 
@@ -40,13 +40,13 @@ ms.locfileid: "60865661"
 
 |&nbsp; | &nbsp; |
 |---------|---------|
-|海报 -[可自定义](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-customizable.zip?raw=true)[且可打印](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-print-ready.zip?raw=true)<br>![海报的照片。](media/edu-adoption-posters.png)     |[讲义](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/handouts.zip?raw=true)<br>![讲义的照片](media/edu-adoption-handouts.png)|
+|海报 - [可自定义](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-customizable.zip?raw=true)[且可打印](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-print-ready.zip?raw=true)<br>![海报的照片。](media/edu-adoption-posters.png)     |[讲义](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/handouts.zip?raw=true)<br>![讲义的照片](media/edu-adoption-handouts.png)|
 |[传单](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/flyers.zip?raw=true)<br>![传单的照片。](media/edu-adoption-flyers.png)   |[书籍](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/book-adverts.zip?raw=true)<br>![一本书的照片。](media/edu-adoption-book-adverts.png)         |
 |["使用技巧和技巧"小册子的照片。](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/get-started-tips-tricks.zip?raw=true)<br> ![示例小册子的照片。](media/edu-adoption-get-started.png)    |
 
 ### <a name="digital-assets"></a>数字资产
 
-请务必查看数字Toolkit[指南](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/digital-toolkit-guidance.zip?raw=true)，以最大程度地Teams发布！ 
+请务必查看数字Toolkit[指南，](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/digital-toolkit-guidance.zip?raw=true)以最大程度地Teams发布！ 
 
 | &nbsp; |&nbsp;  |
 |---------|---------|
@@ -56,8 +56,8 @@ ms.locfileid: "60865661"
 
 ## <a name="call-to-action"></a>行动号召
 
-- 访问[Teams 教育版](https://www.microsoft.com/en-us/education/products/teams/default.aspx)页面，查看培训、视频和交互式演示
-- 在Teams中打开[Microsoft 365 管理中心 (](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns)管理员Office 365登录) 
+- 访问 [Teams 教育版](https://www.microsoft.com/en-us/education/products/teams/default.aspx) 页面，查看培训、视频和交互式演示
+- 在Teams中打开Microsoft 365 管理中心 (管理员Office 365 [](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns) 登录) 
 - 下载 Teams 客户端：[在所有设备上获取 Teams](https://teams.microsoft.com/downloads)
 - 在[教育版帮助中心](https://support.office.com/education)了解关于 Office 365 教育版的详细信息
 

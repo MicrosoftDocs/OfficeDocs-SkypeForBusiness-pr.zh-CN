@@ -1,8 +1,8 @@
 ---
 title: Skype for Business Server 2015 中的 FileTransfers 表
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 7/15/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 5368e67c-d8a9-43a1-9472-a839950dedb3
 description: 每条记录代表一个文件传输会话。
-ms.openlocfilehash: 6e25d8b90c1324257d87bd9f6d821925c7131d4a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 85e284e48d6f8610fee9be71c91c368f2dab6988
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858179"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62404574"
 ---
 # <a name="filetransfers-table-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的 FileTransfers 表
  
@@ -26,8 +26,8 @@ ms.locfileid: "60858179"
   
 |**列**|**数据类型**|**键/索引**|**详细信息**|
 |:-----|:-----|:-----|:-----|
-|**SessionIdTime** <br/> |datetime  <br/> |主、外  <br/> |会话请求的时间。 与 **SessionIdSeq** 结合使用来唯一地标识会话。 有关详细信息，请参阅[Skype for Business Server 2015](dialogs.md)中的 Dialogs 表。 <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |主、外  <br/> |用于标识会话的 ID 号。 与 **SessionIdTime** 结合使用来唯一地标识会话。 有关详细信息，请参阅[Skype for Business Server 2015](dialogs.md)中的 Dialogs 表。 <br/> |
+|**SessionIdTime** <br/> |datetime  <br/> |主、外  <br/> |会话请求的时间。 与 **SessionIdSeq** 结合使用来唯一地标识会话。 有关详细信息[，请参阅 Skype for Business Server 2015 中的 Dialogs](dialogs.md) 表。 <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |主、外  <br/> |用于标识会话的 ID 号。 与 **SessionIdTime** 结合使用来唯一地标识会话。 有关详细信息[，请参阅 Skype for Business Server 2015 中的 Dialogs](dialogs.md) 表。 <br/> |
 |**File Name** <br/> |nvarchar (256)   <br/> ||文件的名称。  <br/> |
 |**FileIdentity** <br/> |uniqueidentifier  <br/> ||用于区分涉及同一文件名的各个文件传输的唯一标识符。  <br/> |
 |**Cookie** <br/> |nvarchar (128)   <br/> |主  <br/> |用于标识与此关联时的每条后续消息。  <br/> |

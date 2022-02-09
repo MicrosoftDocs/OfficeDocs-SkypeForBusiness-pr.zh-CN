@@ -1,8 +1,8 @@
 ---
 title: 启用和禁用媒体旁路
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 使用本文中的过程通过控制面板启用或禁用Skype for Business Server旁路。
-ms.openlocfilehash: e8465d376e32d677d52cb0bdb57e86d9aa9fac44
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d312e74c796b9e68558447c5a56fc199e8920d6a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851996"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396484"
 ---
 # <a name="enabling-and-disabling-media-bypass-in-skype-for-business-server"></a>在 Skype for Business Server 中启用和禁用媒体旁路
 
@@ -35,11 +35,11 @@ ms.locfileid: "60851996"
 
 2.  打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。 
 
-3.  在左侧导航栏中，单击"**网络配置"，** 然后单击"全局 **"。**
+3.  在左侧导航栏中，单击" **网络配置"**，然后单击"全局 **"**。
 
 4.  在“全局”页上，单击“全局”配置。 始终只有一个配置，并且始终名为 Global。
 
-5.  在"**编辑"** 菜单上，单击"**查看详细信息"。**
+5.  在" **编辑"** 菜单上，单击" **查看详细信息"**。
 
 6.  在" **编辑全局设置"** 页上，单击" **启用媒体旁路** "复选框。
 
@@ -69,11 +69,11 @@ ms.locfileid: "60851996"
 
 2.  打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。 
 
-3.  在左侧导航栏中，单击"**网络配置"，** 然后单击"全局 **"。**
+3.  在左侧导航栏中，单击" **网络配置"**，然后单击"全局 **"**。
 
 4.  在“全局”页上，单击“全局”配置。 始终只有一个配置，并且始终名为 Global。
 
-5.  在"**编辑"** 菜单上，单击"**查看详细信息"。**
+5.  在" **编辑"** 菜单上，单击" **查看详细信息"**。
 
 6.  在" **编辑全局设置"** 页上，清除" **启用媒体旁路"** 复选框。
 

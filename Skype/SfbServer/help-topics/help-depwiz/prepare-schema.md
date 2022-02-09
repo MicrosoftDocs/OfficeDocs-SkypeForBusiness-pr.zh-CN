@@ -1,8 +1,8 @@
 ---
 title: 准备架构
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -14,22 +14,22 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 337aa234-c5f3-4468-a047-2023848e942c
-description: 若要为 Active Directory 域服务准备架构，请运行部署向导中的准备Skype for Business Server步骤。 单击“运行”可开始准备架构。 "准备架构"步骤读取运行部署向导的系统的 /Program Files/Microsoft Lync Server 2013/Deployment/Setup 目录中提供的架构定义文件。 这些文件还可用于支持/架构目录中的安装媒体。 “准备架构”步骤将扩展架构并报告准备过程的状态。 还将在完成准备过程时通知您。 通过摘要屏幕可以查看该过程的日志。 查看日志以确保准备工作已成功完成。
-ms.openlocfilehash: c4e1faa8a26fa74579d9c9177d2efbfda29fa40f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: 若要为 Active Directory 域服务准备架构，请运行部署向导中的"准备Skype for Business Server步骤。 单击“运行”可开始准备架构。 "准备架构"步骤读取运行部署向导的系统的 /Program Files/Microsoft Lync Server 2013/Deployment/Setup 目录中提供的架构定义文件。 这些文件还可用于支持/架构目录中的安装媒体。 “准备架构”步骤将扩展架构并报告准备过程的状态。 还将在完成准备过程时通知您。 通过摘要屏幕可以查看该过程的日志。 查看日志以确保准备工作已成功完成。
+ms.openlocfilehash: 162937b56a4acc91c3fef70712feb713547cd2e2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849045"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62402256"
 ---
 # <a name="prepare-schema"></a>准备架构
  
-若要为 Active Directory 域服务准备架构，请运行部署向导中的准备Skype for Business Server步骤。 单击“运行”可开始准备架构。 "准备架构"步骤读取运行部署向导的系统的 \Program Files\Microsoft Lync Server 2013\Deployment\Setup 目录中提供的架构定义文件。 安装介质的 \Support\Schema 目录中也提供了这些文件。 “准备架构”步骤将扩展架构并报告准备过程的状态。 还将在完成准备过程时通知您。 通过摘要屏幕可以查看该过程的日志。 查看日志以确保准备工作已成功完成。
+若要为 Active Directory 域服务准备架构，请运行部署向导中的"准备Skype for Business Server步骤。 单击“运行”可开始准备架构。 "准备架构"步骤读取运行部署向导的系统的 \Program Files\Microsoft Lync Server 2013\Deployment\Setup 目录中提供的架构定义文件。 安装介质的 \Support\Schema 目录中也提供了这些文件。 “准备架构”步骤将扩展架构并报告准备过程的状态。 还将在完成准备过程时通知您。 通过摘要屏幕可以查看该过程的日志。 查看日志以确保准备工作已成功完成。
   
 > [!IMPORTANT]
 > 要扩展架构，必须以 Schema Admins 和 Enterprise Admins 组成员身份登录域。 
   
-添加类和属性以扩展 Active Directory 域服务架构，以支持Skype for Business Server 2015 服务器、服务和用户对象。 在扩展架构之前，应该对担任架构主机角色的域控制器进行系统状态备份。 有关 Windows Server 2008 R2 SP1 的备份过程的详细信息，请参阅 [https://go.microsoft.com/fwlink/p/?linkId=207198](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee849849(v=ws.10)) 。 有关 Windows Server 2003 和 Windows Server 2003 R2 的信息，请参阅 [https://go.microsoft.com/fwlink/p/?linkId=207199](/previous-versions/windows/it-pro/windows-server-2003/cc787254(v=ws.10)) 。
+添加类和属性以扩展 Active Directory 域服务架构，以支持Skype for Business Server 2015 服务器、服务和用户对象。 在扩展架构之前，应该对担任架构主机角色的域控制器进行系统状态备份。 有关 Windows Server 2008 R2 SP1 的备份过程的详细信息，请参阅 [https://go.microsoft.com/fwlink/p/?linkId=207198](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee849849(v=ws.10))。 有关 Windows Server 2003 和 Windows Server 2003 R2 的信息，请参阅 [https://go.microsoft.com/fwlink/p/?linkId=207199](/previous-versions/windows/it-pro/windows-server-2003/cc787254(v=ws.10))。
   
 > [!CAUTION]
 > 扩展架构是不可逆的。 应尽一切努力限制失败的架构扩展的潜在影响，并确保架构扩展能够成功。 在丧失通信或服务器上出现任何其他故障的情况下，这尤其重要。 您应执行架构主机域控制器的备份和 Active Directory 的完整备份。 

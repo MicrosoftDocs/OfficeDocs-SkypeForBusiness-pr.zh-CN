@@ -1,7 +1,7 @@
 ---
-title: 资源特定的许可Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+title: 特定资源许可Microsoft Teams
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: nkramer
 manager: serdars
 ms.topic: article
@@ -13,14 +13,14 @@ ms.localizationpriority: medium
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 78444486dad4b1babc088a9da039319bc1e4029e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 9e2c77e33165bedbb5302a1202f85906a64cea9a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842584"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400826"
 ---
-# <a name="resource-specific-consent-in-microsoft-teams"></a>资源特定的许可Microsoft Teams
+# <a name="resource-specific-consent-in-microsoft-teams"></a>特定资源许可Microsoft Teams
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
@@ -41,10 +41,10 @@ ms.locfileid: "60842584"
 
 #### <a name="the-users-can-consent-to-apps-accessing-company-data-on-their-behalf-setting"></a>"用户可以同意应用代表他们访问公司数据"设置
 
-此设置控制您的组织中的用户是否可以代表他们许可应用。 若要使团队所有者能够表示同意，必须将此设置设置为"**是"。** 若要管理此设置，请执行下列操作：
+此设置控制您的组织中的用户是否可以代表他们许可应用。 若要使团队所有者能够表示同意，必须将此设置设置为"是 **"**。 若要管理此设置，请执行下列操作：
 
-1. 在 Azure 门户中，转到 **"Enterprise应用程序**  >  **用户设置"。**
-2. 在 **Enterprise应用程序"** 下，将"用户可以代表他们同意访问公司数据的应用"设置为"**否**"或"**是"。**
+1. 在 Azure 门户中，转到"**Enterprise** > **""用户设置"**。
+2. 在 **Enterprise应用程序"** 下，将"用户可以 **代表** 他们同意访问公司数据的应用"设置为"**否**"或"**是"**。
 
 也可使用 PowerShell 管理此设置。 有关详细信息，请参阅 [将用户内容配置为应用程序](/azure/active-directory/manage-apps/configure-user-consent#configure-user-consent-to-applications)。
 
@@ -54,7 +54,7 @@ ms.locfileid: "60842584"
 
 ### <a name="settings-in-the-microsoft-teams-admin-center"></a>设置管理Microsoft Teams中
 
-除了 Azure AD 中的设置外，"管理[](manage-apps.md#manage-org-wide-app-settings)应用"页面上的"组织范围[](manage-apps.md)"应用设置、在"管理应用"页面上是阻止还是允许[](manage-apps.md#allow-and-block-apps)应用，以及分配给团队所有者的应用权限策略决定了团队所有者是否可以同意。 [](teams-app-permission-policies.md)
+除了 Azure AD 中的设置外，"管理应用"[](manage-apps.md#manage-org-wide-app-settings)页面上的"组织范围"应用[](manage-apps.md)设置、在"管理应用"页面上是阻止还是允许应用，[](manage-apps.md#allow-and-block-apps)以及分配给团队所有者的应用权限策略决定了团队所有者是否可以同意。[](teams-app-permission-policies.md)
 
 > [!IMPORTANT]
 > 更改这些设置中的任一设置不会影响已授予许可的应用的数据访问。 例如，如果在组织范围内禁用第三方应用，或者阻止特定应用以防止团队所有者同意，这些更改不会删除已授予的数据访问权限。  
@@ -63,8 +63,8 @@ ms.locfileid: "60842584"
 
 此组织范围内的应用设置控制组织中的用户是否可以使用第三方应用。 必须启用此设置，团队所有者才能表示同意。 若要管理此设置，请执行下列操作：
 
-1. 在管理中心左侧导航Microsoft Teams，转到"管理Teams **应用**"，然后单击  >  "**组织范围内的应用设置"。**
-2. 在 **"第三方应用"** 下，关闭或打开"**允许第三方应用"。**
+1. 在管理中心的左侧导航Microsoft Teams，转到"Teams **"** > "管理 **应用**"，然后单击"**组织范围的应用设置"**。
+2. 在 **"第三方应用**"下，关闭或打开" **允许第三方应用"**。
 
     !["允许第三方应用使用 Teams"设置的屏幕截图](media/resource-specific-consent-org-wide-setting.png)
 
@@ -83,15 +83,15 @@ ms.locfileid: "60842584"
 
 团队所有者只能同意应用其应用权限策略允许其运行。 若要查看和管理分配给团队所有者的应用权限策略，请执行下列操作：
 
-1. 在管理中心左侧导航Microsoft Teams，转到"用户 **"。**
-2. 双击团队所有者显示名称，然后单击"策略 **"。**
+1. 在管理中心左侧导航Microsoft Teams，转到"用户 **"**。
+2. 双击团队所有者显示名称，然后单击"策略 **"**。
 3. 分配给团队所有者的策略列在"应用权限 **策略"下**。
-    - 若要分配其他策略，请单击" **编辑**"，然后选择要分配的策略。
+    - 若要分配其他策略，请单击"编辑"，然后选择要分配的策略。
     - 若要编辑分配给团队所有者的策略设置，请单击策略名称，然后进行您需要的更改。  
 
 ## <a name="uploading-custom-apps"></a>上传自定义应用
 
-在上传自定义应用 (使用特定于资源) 的旁加载应用时，该应用必须来自它要安装到的租户。 换句话说，应用Azure AD必须来自此租户。 全局管理员不受此限制，可以直接将自定义应用从任何租户上传到团队 (旁加载) 或租户应用程序目录。
+上传自定义应用 (使用特定于资源) 的旁加载应用时，该应用必须来自它要安装到的租户。 换句话说，应用Azure AD必须来自此租户。 全局管理员不受此限制，可以直接将自定义应用从任何租户上传到团队 (旁加载) 或租户应用目录。
 
 ## <a name="related-topics"></a>相关主题
 

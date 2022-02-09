@@ -1,13 +1,13 @@
 ---
 title: 升级清单|Skype Business Teams 升级|基本步骤
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: 遵循此加速的十步操作计划，从基本Skype for Business设置过渡到Microsoft Teams设置。
+description: 遵循此加速的十步操作计划，从Skype for Business基本设置过渡到Microsoft Teams设置。
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -23,12 +23,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a3d7ef1ae0375b7cdec373450135e5eed148f776
-ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
+ms.openlocfilehash: 9ad2dcc08bcbb1136c1b00fccf16b4e1e80a74f2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "61562794"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400806"
 ---
 # <a name="upgrade-basic"></a>升级基本信息
 
@@ -50,7 +50,7 @@ ms.locfileid: "61562794"
 
 有关升级的其他问题，请参见我们的[常见问题解答](./faq-journey.yml)。
 
-不熟悉 Teams？ 阅读[了解如何Teams](https://products.office.com/microsoft-teams/group-chat-software)对话、会议、文件、Office 应用和第三方集成，为 Microsoft 365 和 Office 365 中的团队合作提供单个中心。
+不熟悉 Teams？ 阅读[了解如何Teams](https://products.office.com/microsoft-teams/group-chat-software)对话、会议、文件、Office 应用和第三方集成-为团队协作提供单个中心，Microsoft 365 Office 365。
 
 <!--ENDOFSECTION-->
 
@@ -79,7 +79,7 @@ ms.locfileid: "61562794"
 Teams 不仅提供与 Skype for Business 兼容的功能（例如即时消息传递（聊天）和会议），而且还提供更多其他功能。 作为名副其实的团队合作中心，工作组通过 Teams 可以在一个位置管理项目、文件、对话和应用程序。 默认情况下，会为所有组织开启 Teams。 决定贵组织如何使用 Teams 以及配置环境以获得成功。 
 
 > [!Note]
-> 作为现有的 Skype for Business 客户，你当前的网络基础结构可能已配置为适合 Teams。 若要确认这一点，可以遵循下面链接的"完成技术规划" (可选) 。
+> 作为现有的 Skype for Business 客户，你当前的网络基础结构可能已配置为适合 Teams。 若要确认这一点，可以按照下面链接的"完成技术规划"指南 (可选) 。
 
 **资源：**
 
@@ -164,7 +164,7 @@ Teams 不仅提供与 Skype for Business 兼容的功能（例如即时消息传
 
 *（升级当天）*
 
-今天贵组织正式升级到 Teams，将其作为通信和协作解决方案。 在Microsoft Teams管理中心中，将共存模式设置为"仅Teams **开关**。  (在管理中心中，转到 Teams Teams 升级设置 。) 用户将在其 Skype for Business 客户端中收到一条通知，指出他们已升级到  >  Teams。
+今天贵组织正式升级到 Teams，将其作为通信和协作解决方案。 在Microsoft Teams管理中心，将共存模式设置为"仅Teams **开关**。  (在 > 管理中心 **中Teams Teams** 升级设置。) 用户将收到其 Skype for Business 客户端中的通知，指出他们已升级到 Teams。
 
 我们建议在所有人都升级后，发送一封欢迎大家使用 Teams 的电子邮件。
 

@@ -1,8 +1,8 @@
 ---
 title: ConferenceSessionDetails 视图
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 5858c84d-baed-421d-ad1d-3726e150e256
 description: ConferenceSessionDetails 视图可存储有关多方会话的信息。 每个记录表示一个会议会话，它可以是具有会议状态中心的会话，也可以是具有特定会议服务器的会话。 此视图在 Microsoft Lync Server 2013 中引入。
-ms.openlocfilehash: f35a815743dcfb8dba3d2a69943c9c5c42344a86
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 902cf40a042d51d6765a0653da439b1bc1a86478
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849665"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400856"
 ---
 # <a name="conferencesessiondetails-view"></a>ConferenceSessionDetails 视图
  
@@ -26,8 +26,8 @@ ConferenceSessionDetails 视图可存储有关多方会话的信息。 每个记
   
 |**列**|**数据类型**|**详细信息**|
 |:-----|:-----|:-----|
-|**SessionIdTime** <br/> |datetime  <br/> |会话请求的时间。 与 SessionIdSeq 结合使用来唯一地标识会话。 有关详细信息，请参阅[Skype for Business Server 2015](dialogs.md)中的 Dialogs 表。 <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |用于标识会话的 ID 号。 与 SessionIdTime 结合使用来唯一地标识会话。 有关详细信息，请参阅[Skype for Business Server 2015](dialogs.md)中的 Dialogs 表。 <br/> |
+|**SessionIdTime** <br/> |datetime  <br/> |会话请求的时间。 与 SessionIdSeq 结合使用来唯一地标识会话。 有关详细信息[，请参阅 Skype for Business Server 2015 中的 Dialogs](dialogs.md) 表。 <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |用于标识会话的 ID 号。 与 SessionIdTime 结合使用来唯一地标识会话。 有关详细信息[，请参阅 Skype for Business Server 2015 中的 Dialogs](dialogs.md) 表。 <br/> |
 |**InviteTime** <br/> |datetime  <br/> |第一个 INVITE 请求的时间。此字段通常用从会话中的初始 INVITE 消息生成的数据填充。如果没有 INVITE 消息，则此字段将用第一条相关 SIP 消息（BYE、CANCEL、MESSAGE 或 INFO）的日期和时间填充。  <br/> |
 |**ConferenceUri** <br/> |nvarchar (450)   <br/> |会议的 URI。  <br/> |
 |**ConferenceUriType** <br/> |nvarchar (256)   <br/> |会议 URI 的类型。 有关详细信息， [请参阅 UriTypes](uritypes.md) 表。 <br/> |
@@ -52,8 +52,8 @@ ConferenceSessionDetails 视图可存储有关多方会话的信息。 每个记
 |**ReferredByUriType** <br/> |nvarchar (256)   <br/> |提交会话的用户的 URI 的类型。 有关详细信息， [请参阅 UriTypes](uritypes.md) 表。 <br/> |
 |**ReferredByUriTenant** <br/> |nvarchar (256)   <br/> |提交会话的用户的租户。 有关详细信息 [，请参阅租户](tenants.md) 表。 <br/> |
 |**DialogId** <br/> |varstring (775)   <br/> |SIP 对话 ID。格式如下：  <br/> :d ialog;from-tag;to-tag  <br/> |
-|**ReplaceDialogIdTime** <br/> |datetime  <br/> |用于标识由当前会话取代的对话的 ID 号。 有关详细信息，请参阅[Skype for Business Server 2015](dialogs.md)中的 Dialogs 表。 <br/> |
-|**ReplaceDialogIdSeq** <br/> |int  <br/> |用于标识会话的 ID 号。 与 ReplaceDialogIdTime 结合使用来唯一地标识此会话替换的会话。 有关详细信息，请参阅[Skype for Business Server 2015](dialogs.md)中的 Dialogs 表。 <br/> |
+|**ReplaceDialogIdTime** <br/> |datetime  <br/> |用于标识由当前会话取代的对话的 ID 号。 有关详细信息[，请参阅 Skype for Business Server 2015 中的 Dialogs](dialogs.md) 表。 <br/> |
+|**ReplaceDialogIdSeq** <br/> |int  <br/> |用于标识会话的 ID 号。 与 ReplaceDialogIdTime 结合使用来唯一地标识此会话替换的会话。 有关详细信息[，请参阅 Skype for Business Server 2015 中的 Dialogs](dialogs.md) 表。 <br/> |
 |**ReplacesDialogId** <br/> |varchar (775)   <br/> |会话取代的 SIP 对话 ID。格式如下：  <br/> dialog;from-tag;to-tag  <br/> |
 |**IsStartedByConfServer** <br/> |bit  <br/> |指示会议服务器是否已启动会话。  <br/> |
 |**IsEndedByConfServer** <br/> |bit  <br/> |指示会议服务器是否已结束会话。  <br/> |

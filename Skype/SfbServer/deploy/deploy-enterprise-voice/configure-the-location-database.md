@@ -1,8 +1,8 @@
 ---
 title: 在数据库中配置位置Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
 description: 配置、填充和发布 E9-1-1 位置Skype for Business Server 企业语音。
-ms.openlocfilehash: 8cd4f10a383d279421af6f9152a31f637ee47474
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5ebace7eabe0db04f06611bc9c11263021733367
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851606"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400716"
 ---
 # <a name="configure-the-location-database-in-skype-for-business-server"></a>在数据库中配置位置Skype for Business Server
  
@@ -31,7 +31,7 @@ ms.locfileid: "60851606"
   
 若要配置位置数据库，请执行以下任务：
   
-- 使用网络元素到位置的映射填充数据库。 如果使用 ELIN 网关中的紧急 (标识号) ELIN，则需要在字段中包括 \<CompanyName\> ELIN。
+- 使用网络元素到位置的映射填充数据库。 如果使用 ELIN 网关中的紧急 (标识) ，则需要在字段中包括 ELIN \<CompanyName\> 。
     
     如果未填充位置数据库，并且位置策略中的“所需位置”设置为“是”或“免责声明”，客户端将提示用户手动输入位置。
     
@@ -51,7 +51,7 @@ ms.locfileid: "60851606"
 |:-----|:-----|
 |**无线访问点** <br/> |\<BSSID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,…  <br/> …\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
 |**Subnet** <br/> |\<Subnet\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,…  <br/> …\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
-|**Port** <br/> |\<ChassisID\>,\<PortIDSubType\>,\<PortID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,…  <br/> …\<PreDirectional\>,\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
+|**端口** <br/> |\<ChassisID\>,\<PortIDSubType\>,\<PortID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,…  <br/> …\<PreDirectional\>,\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
 |**开关** <br/> |\<ChassisID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,…  <br/> …\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
    
 ### <a name="to-add-network-elements-to-the-location-database"></a>将网络元素添加到位置数据库
@@ -120,7 +120,7 @@ ms.locfileid: "60851606"
 
 ### <a name="to-validate-addresses-located-in-the-location-database"></a>验证位于位置数据库中的地址
 
-1.  启动命令行Skype for Business Server：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击"Skype for Business Server **命令行管理程序"。**
+1.  启动命令行Skype for Business Server：单击"开始"**，单击"** 所有程序"**，单击"****Skype for Business 2015"**，然后单击"Skype for Business Server **命令行管理程序"**。
     
 2. 运行以下 cmdlet 以配置紧急服务提供商连接。
     
@@ -145,7 +145,7 @@ ms.locfileid: "60851606"
   
 ### <a name="to-publish-the-location-database"></a>发布位置数据库
 
--  启动命令行Skype for Business Server：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击"Skype for Business Server **命令行管理程序"。**
+-  启动命令行Skype for Business Server：单击"开始"**，单击"** 所有程序"**，单击"****Skype for Business 2015"**，然后单击"Skype for Business Server **命令行管理程序"**。
     
 - 运行以下 cmdlet 以发布位置数据库。
     

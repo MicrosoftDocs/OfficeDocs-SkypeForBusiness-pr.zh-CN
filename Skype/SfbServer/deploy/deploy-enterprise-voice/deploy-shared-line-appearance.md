@@ -1,8 +1,8 @@
 ---
 title: Deploy Shared Line Appearance in Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/7/2018
 audience: ITPro
@@ -17,24 +17,24 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 474a5e4a-9479-4e86-8607-b9f41a0fa648
 description: 阅读本主题，了解如何在 2015 年 11 月累积更新的 Skype for Business Server 2015 (SLA) 部署共享线路外观。 SLA 是一项功能，用于处理对名为共享号码的特定号码的多个呼叫。
-ms.openlocfilehash: e79bb427c28f2c0e8dcc3ff7b5e0d1f6319ac7d8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5adf5934e93bd93fe9f50c0a8e4dd790c695da57
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835940"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397482"
 ---
 # <a name="deploy-shared-line-appearance-in-skype-for-business-server-2015"></a>Deploy Shared Line Appearance in Skype for Business Server 2015
 
 阅读本主题，了解如何在 2015 年 11 月累积更新的 Skype for Business Server 2015 (SLA) 部署共享线路外观。 SLA 是一项功能，用于处理对名为共享号码的特定号码的多个呼叫。
 
-有关此功能详细信息，请参阅 Plan [for Shared Line Appearance in Skype for Business Server 2015。](../../plan-your-deployment/enterprise-voice-solution/shared-line-appearance.md)
+有关此功能详细信息，请参阅 Plan [for Shared Line Appearance in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/shared-line-appearance.md)。
 
-共享线路 (SLA) 是 2015 年 11 月累积Skype for Business Server中的一项新功能。 若要启用此功能，必须先部署此累积更新。
+共享线路 (SLA) 是 2015 年 11 月Skype for Business Server更新中的一项新功能。 若要启用此功能，必须先部署此累积更新。
 
 ### <a name="install-shared-line-appearance"></a>安装共享线路外观
 
-1. 部署Skype for Business Server 2015 年 11 月累积更新后，在池中的每台前端 `SkypeServerUpdateInstaller.exe` 服务器上运行修补程序。
+1. 部署Skype for Business Server 2015 `SkypeServerUpdateInstaller.exe` 年 11 月累积更新后，在池中的每台前端服务器上运行修补程序。
 
 2. 安装程序将部署最新版本的 SLA 应用程序，但默认情况下不启用该应用程序。 它通过按照下面列出的步骤启用：
 
@@ -52,7 +52,7 @@ ms.locfileid: "60835940"
    Update-CsAdminRole
    ```
 
-    c. 在安装和启用 SLA 的所有池中 (RTCSRV) 所有前端服务器：
+    c. 在安装和启用 SLA 的所有池中 (RTCSRV 服务) 重新启动所有前端服务器：
 
    ```powershell
    Stop-CsWindowsService RTCSRV Start-CsWindowsService RTCSRV
@@ -76,10 +76,10 @@ ms.locfileid: "60835940"
    Set-CsSlaConfiguration -Identity SLAGroup1 -MaxNumberOfCalls 3 -BusyOption BusyOnBusy
    ```
 
-    可以使用新Set-CsSlaConfiguration SLA 组或修改现有 SLA 组。
+    您可以使用新Set-CsSlaConfiguration SLA 组或修改现有 SLA 组。
 
     > [!NOTE]
-    > 请注意，您为 指定的 `-Identity` 必须是启用企业语音用户帐户的有效现有帐户。
+    > 请注意，您为 指定的`-Identity`必须是启用企业语音的有效现有用户帐户。
 
 2. 使用 [Add-CsSlaDelegates](/powershell/module/skype/add-cssladelegates?view=skype-ps) cmdlet 将委派添加到组：
 
@@ -104,7 +104,7 @@ ms.locfileid: "60835940"
   Set-CsSlaConfiguration -Identity <IdentityOfGroup> -BusyOption <Option> [-Target <TargetUserOrPhoneNumber>]
   ```
 
-    以下示例设置超过要转发到电话号码 202-555-1234 的最大并发呼叫数的呼叫。 目标可以是您组织的用户，而不是电话号码;在这种情况下，接收被转发呼叫的人的语法与指定代理人时相同  `sip:<NameofDelegate@domain>` ：。 另一个可能的参数  `BusyOption` 是 `Voicemail` ：
+    以下示例设置超过要转发到电话号码 202-555-1234 的最大并发呼叫数的呼叫。 目标可以是您组织的用户，而不是电话号码;在这种情况下，接收被转发呼叫的人的语法与指定代理人时相同  `sip:<NameofDelegate@domain>`：。 另一个可能的参数  `BusyOption` 是 `Voicemail`：
 
   ```powershell
   Set-CsSlaConfiguration -Identity SLAGroup1 -BusyOption Forward -Target tel:+2025551234
@@ -118,7 +118,7 @@ ms.locfileid: "60835940"
    Set-CsSlaConfiguration -Identity <IdentityOfGroup> -MissedCallOption <Option> -MissedCallForwardTarget <TargetUserOrPhoneNumber> -BusyOption <Option> -MaxNumberofCalls <#> -Target [Target]
    ```
 
-2. 以下示例指定将未接来电转发到名为 的用户  `sla_forward_number` 。 参数的有效选项是  `-MissedCallOption` 、 `Forward`  `BusySignal` 或  `Disconnect` 。 如果选择 ，  `Forward` 则还必须包含 参数，以  `-MissedCallForwardTarget` 用户或电话号码作为目标：
+2. 以下示例指定将未接来电转发到名为 的用户  `sla_forward_number`。 参数的有效选项`-MissedCallOption`是 、 `Forward``BusySignal`或 `Disconnect`。 如果选择 ，  `Forward`则还必须包含  `-MissedCallForwardTarget` 参数，以用户或电话号码作为目标：
 
    ```powershell
    Set-CsSlaConfiguration -Identity SLAGroup1 -MissedCallOption Forward -MissedCallForwardTarget sip:sla_forward_number@contoso.com -BusyOption Forward -MaxNumberOfCalls 2 -Target sip:sla_forward_number@contoso.com

@@ -5,8 +5,8 @@ ms:assetid: 090aea0f-ef0b-49da-9c80-02d9279f2fa6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520946(v=OCS.15)
 ms:contentKeyID: 48183343
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 通过公共即时消息 (IM) 连接，您的组织中的用户可以使用 IM 与公共 IM 服务提供商提供的 IM 服务的用户进行通信。
-ms.openlocfilehash: b5c7d75a6048a584fcb872ed8eb3cd82dfe2076f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d05827c7af0f7712db6d2436f2ecdb00838ea53f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847305"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398956"
 ---
 # <a name="configure-policies-to-control-public-user-access-in-skype-for-business-server"></a>配置策略以控制公共用户访问Skype for Business Server
 
@@ -33,7 +33,7 @@ ms.locfileid: "60847305"
 
 
 > [!NOTE]  
-> 即使没有为组织启用联盟，也可以配置控制公共用户访问的策略。 但是，只有为组织启用联盟后，配置的策略才会生效。 有关启用联盟的详细信息，请参阅 [启用或禁用远程用户访问](../access-edge/enable-or-disable-remote-user-access.md)。 此外，如果指定用于控制公共用户访问的用户策略，则此策略仅适用于启用了 Skype for Business Server并配置为使用该策略的用户。 有关指定可登录到 Skype for Business Server 用户的详细信息，请参阅分配[外部用户访问策略](assign-an-external-user-access-policy.md)。
+> 即使没有为组织启用联盟，也可以配置控制公共用户访问的策略。 但是，只有为组织启用联盟后，配置的策略才会生效。 有关启用联盟的详细信息，请参阅 [启用或禁用远程用户访问](../access-edge/enable-or-disable-remote-user-access.md)。 此外，如果指定用户策略来控制公共用户访问，则此策略仅适用于启用了公共Skype for Business Server配置为使用该策略的用户。 有关指定可登录到 Skype for Business Server 用户的详细信息，请参阅分配[外部用户访问策略](assign-an-external-user-access-policy.md)。
 
 
 使用以下过程来配置策略，以支持一个或多个公共 IM 提供商的用户进行访问。
@@ -66,7 +66,7 @@ ms.locfileid: "60847305"
 
 7.  单击“提交”。
 
-要启用公共用户访问，还必须在组织中启用对联盟的支持。 有关详细信息，请参阅[Configure policies to control federated user access in Skype for Business Server](configure-policies-to-control-federated-user-access.md)。
+要启用公共用户访问，还必须在组织中启用对联盟的支持。 有关详细信息，请参阅 [Configure policies to control federated user access in Skype for Business Server](configure-policies-to-control-federated-user-access.md)。
 
 如果这是一个用户策略，您还必须将该策略应用到您希望能与公共用户协作的公共用户。 
 

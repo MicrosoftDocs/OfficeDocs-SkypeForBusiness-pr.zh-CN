@@ -1,8 +1,8 @@
 ---
 title: 报告中的Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,13 +11,13 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 438942e2-580a-4b67-9d42-f116111fb26a
-description: Summary： Learn about the Top Failures Report in Skype for Business Server.
-ms.openlocfilehash: 3e752ad2f15e6739fb6f1a34aa9f30e86767041d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: 摘要：了解 Skype for Business Server 中的顶部故障Skype for Business Server。
+ms.openlocfilehash: ad04dee69d44bb28246c87d1001fd1cfafdbfea1
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853026"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396504"
 ---
 # <a name="top-failures-report-in-skype-for-business-server"></a>报告中的Skype for Business Server
  
@@ -27,17 +27,17 @@ ms.locfileid: "60853026"
   
 - **诊断 ID**。附加到 SIP 消息的唯一标识符（采用 ms-diagnostics 标头的形式）。诊断 ID 提供的信息在解决与呼叫相关的问题时很有用。
     
-- **响应代码**。 响应代码在 SIP 通信会话中用来响应 SIP 请求。 例如，假定 Ken 将 INVITE 请求发送给 Pilar Ackerman（即，假定 Ken Myer 呼叫 Pilar Ackerman）。 如果 Pilar 应答，则她的电话将发送响应代码 200（确定），以便让 Ken 的电话获知 Pilar 已应答。 顶级故障报告仅包括为响应呼叫失败而发送的响应代码;Skype for Business Server不会跟踪呼叫过程中发出的所有响应代码。
+- **响应代码**。 响应代码在 SIP 通信会话中用来响应 SIP 请求。 例如，假定 Ken 将 INVITE 请求发送给 Pilar Ackerman（即，假定 Ken Myer 呼叫 Pilar Ackerman）。 如果 Pilar 应答，则她的电话将发送响应代码 200（确定），以便让 Ken 的电话获知 Pilar 已应答。 顶级故障报告仅包括为响应呼叫失败而发送的响应代码;Skype for Business Server不会跟踪在呼叫过程中发出的所有响应代码。
     
 不仅将报告与出现故障的会话的总数相关的信息，而且还将报告与受故障影响的用户总数相关的信息。
   
 ## <a name="accessing-the-top-failures-report"></a>访问主要故障报告
 
-可从监控报告主页访问主要故障报告。 单击报告的会话指标将进入报告中的[故障分布Skype for Business Server。](failure-distribution-report.md)
+可从监控报告主页访问主要故障报告。 单击"报告的会话"指标将进入"报告"中的"故障分布[Skype for Business Server](failure-distribution-report.md)。
   
 ## <a name="making-the-best-use-of-the-top-failures-report"></a>最充分地利用主要故障报告
 
-主要故障报告有一个与众不同的方面：它允许您一次性对最多 5 个诊断 ID 进行筛选。  (通常一次只能筛选一个项目（如一个用户 SIP 地址）。) 若要筛选多个诊断 ID，只需在"诊断 ID"框中输入每个 ID，使用逗号分隔这些 ID。  (如果需要，可以在每个逗号后留一个空格) 例如：
+主要故障报告有一个与众不同的方面：它允许您一次性对最多 5 个诊断 ID 进行筛选。  (通常一次只能筛选一个项目（如一个用户 SIP 地址）。) 若要筛选多个诊断 ID，只需在"诊断 ID"框中输入每个 ID，使用逗号分隔这些 ID。  (如果需要，可以在每个逗号后面留一个空格) 例如：
   
 1011, 2412, 1033, 52116, 1008
   

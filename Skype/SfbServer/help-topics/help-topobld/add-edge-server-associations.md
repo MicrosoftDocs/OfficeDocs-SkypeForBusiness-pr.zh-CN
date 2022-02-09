@@ -1,8 +1,8 @@
 ---
 title: 添加边缘服务器关联
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: a58b6ba8-f491-4c37-ad45-aa46206fac51
 description: 使用此页面选择哪些前端池和 Standard Edition Server 会将此边缘池用于 A/V 流量。
-ms.openlocfilehash: de4be41ba3d7dc764982aa9c021b2876bc9e8610
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 7d9df02f6f887aa6841dbf7adb0c5153f931d8be
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863949"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400346"
 ---
 # <a name="add-edge-server-associations"></a>添加边缘服务器关联
  

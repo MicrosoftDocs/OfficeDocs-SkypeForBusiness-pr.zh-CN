@@ -1,8 +1,8 @@
 ---
 title: 管理受信任应用程序
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,16 +11,16 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 受信任应用程序是基于 Microsoft 统一通信托管 API (UCMA) 3.0 核心 SDK 的应用程序，受 Skype for Business Server。
-ms.openlocfilehash: d328eab38e44915998d05f3c16c2b1e4e2f1dc33
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ef4f6aed1ec4964ba5f3d9cfed770dae4437b2f8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857469"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398836"
 ---
 # <a name="manage-trusted-applications-in-skype-for-business-server"></a>在应用程序中管理受信任Skype for Business Server
 
-受 *信任应用程序* 是基于 Microsoft 统一通信托管 API (UCMA) 3.0 核心 SDK 的应用程序，受 Skype for Business Server。 有关 UCMA 应用程序的详细信息，请参阅 中的"统一通信托管 API 3.0 核心 SDK 文档 https://go.microsoft.com/fwlink/p/?linkId=210320 "。
+受 *信任* 应用程序是基于 Microsoft 统一通信托管 API (UCMA) 3.0 核心 SDK 的应用程序，受 Skype for Business Server。 有关 UCMA 应用程序的详细信息，请参阅 中的"统一通信托管 API 3.0 核心 SDK 文档" https://go.microsoft.com/fwlink/p/?linkId=210320。
 
 若要在添加或删除服务器角色时成功发布、启用或禁用拓扑，应以 RTCUniversalServerAdmins 和 Domain Admins 组成员的用户身份登录。 
 
@@ -30,13 +30,13 @@ ms.locfileid: "60857469"
 
 1.  以 Domain Admins 组和 RTCUniversalServerAdmins 组成员的身份登录安装了拓扑生成器的计算机。
 
-2.  启动拓扑生成器：**单击"开始**"，单击"所有程序"，Skype for Business Server"，然后单击"Skype for Business Server **拓扑生成器"。** 
+2.  启动拓扑生成器：单击"开始 **"，单击**"所有程序"**，Skype for Business Server"**，然后单击"Skype for Business Server **拓扑生成器"**。
 
 3.  选择“从现有部署下载拓扑”，然后单击“确定”。
 
-4.  在"**将拓扑另存为**"对话框中，单击要使用拓扑生成器文件，然后单击"保存 **"。**
+4.  在" **将拓扑另存为** "对话框中，单击要使用拓扑生成器文件，然后单击"保存 **"**。
 
-5.  在左窗格中，右键单击"**受信任应用程序** 服务器"，然后单击"**新建受信任应用程序池"。**
+5.  在左窗格中，右键单击" **受信任的应用程序服务器**"，然后单击" **新建受信任应用程序池"**。
 
 6.  输入受信任应用程序池的“池 FQDN”，选择该池是单服务器池还是多服务器池，然后单击“下一步”。
 
@@ -55,7 +55,7 @@ ms.locfileid: "60857469"
 
   - 受信任的应用程序不会要求其进行身份验证Skype for Business Server。
 
-  - 对于 SIP 事务、连接或传出 Internet 协议语音Skype for Business Server VoIP 呼叫，受信任 (不会) 限制。
+  - 对于 SIP 事务、连接Skype for Business Server VoIP 呼叫的传出语音 (受信任) 限制。
 
   - 受信任应用程序可模拟任何用户，并能在不出现在名单中的情况下参加会议。
 
@@ -66,11 +66,11 @@ ms.locfileid: "60857469"
 
 ### <a name="to-view-a-list-of-trusted-applications"></a>查看受信任应用程序列表
 
-1.  从分配给 CsServerAdministrator、CsAdministrator、CsHelpDesk 或 CsViewOnlyAdministrator 角色的用户帐户登录到内部部署中的任意计算机。 有关这些角色中可用的预定义管理角色Skype for Business Server，请参阅基于角色的访问控制[ (RBAC) ](../plan-your-deployment/security/role-based-access-control-rbac.md)。
+1.  从分配给 CsServerAdministrator、CsAdministrator、CsHelpDesk 或 CsViewOnlyAdministrator 角色的用户帐户登录到内部部署中的任意计算机。 有关这些角色中可用的预定义管理角色Skype for Business Server，请参阅基于角色的访问控制 ([RBAC) ](../plan-your-deployment/security/role-based-access-control-rbac.md)。
 
 2.  打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。
 
-3.  在左侧导航栏中，单击"**拓扑"，** 然后单击"**受信任应用程序"。**
+3.  在左侧导航栏中，单击 **"拓扑"**，然后单击" **受信任应用程序"**。
 
 4.  在“受信任应用程序”页上，单击某个列标题对应用程序进行排序（如果需要）。
 
@@ -89,7 +89,7 @@ ms.locfileid: "60857469"
    此命令将为每个受信任应用程序返回类似于下面的信息：
     
    标识：CN={5dedf4b0-a590-49b3-80cf-f16f914bbef9}，CN=Application Contacts，CN=RTC Service，CN=Services，CN=Configuration，DC=litware，DC=com<br/>
-   RegistrarPool ：487279971<br/>
+   RegistrarPool ： 487279971<br/>
    HomeServer ： CN=Lc Services，CN=Microsoft，CN=co1：2，CN=Pools，CN=RTC Service，CN=Services，CN=Configuration，DC=litware，DC=com OwnerUrn ： urn：application：helpdesk<br/>
    SipAddress ： sip:RtcApplication-dbf5142f-2bb2-4c4f-9531-b7fea45c5000@litware.com<br/>
    DisplayName ：<br/>

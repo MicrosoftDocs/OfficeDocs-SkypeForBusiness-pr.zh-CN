@@ -1,8 +1,8 @@
 ---
 title: 网络配置编辑全局设置
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: abc2f59c-d21a-4d3f-bf23-6ac86effcd86
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: 7d8dec72b5596d5f33ff683bf78c0726a5928c5f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 83c3027248f460913fa9401afd2e65e56c13f106
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60827925"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62404094"
 ---
 # <a name="network-configuration-edit-global-setting"></a>网络配置：编辑全局设置
 

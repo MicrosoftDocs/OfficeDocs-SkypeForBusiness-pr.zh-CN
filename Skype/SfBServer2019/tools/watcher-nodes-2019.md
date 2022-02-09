@@ -1,8 +1,8 @@
 ---
 title: 安装和配置观察程序节点
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,11 +12,11 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 摘要：为综合事务安装和配置观察程序Skype for Business Server节点。
-ms.openlocfilehash: fb7bb040bc46fc42a53e5bbcbf82f0854e22ea1c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: bf5eb63673a752bbcb2cb43fe83b36d1ae2695e3
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832926"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396139"
 ---
 [!INCLUDE [watcher-nodes](../../SfbServer/management-tools/use-scom-management-pack/watcher-nodes.md)]

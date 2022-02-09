@@ -1,8 +1,8 @@
 ---
 title: 配置存档的存档Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -11,21 +11,21 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 2f534697-ac7f-45b7-8cdc-ba67f052223b
-description: 摘要：阅读本主题，了解如何配置用于存档Skype for Business Server。 您最初在部署存档时设置存档配置，但您可以在部署后更改、添加和删除配置。
-ms.openlocfilehash: 413347a76c23f680215e4f9d80e4327b3e8fed22
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: 摘要：阅读本主题，了解如何为存档配置初始存档Skype for Business Server。 您最初在部署存档时设置存档配置，但您可以在部署后更改、添加和删除配置。
+ms.openlocfilehash: 953bf4a5a353001993e8aee51b5bd21ac8f377b5
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864459"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396074"
 ---
 # <a name="configure-archiving-options-for-skype-for-business-server"></a>配置存档的存档Skype for Business Server
  
-**摘要：** 阅读本主题，了解如何为存档配置初始Skype for Business Server。 您最初在部署存档时设置存档配置，但您可以在部署后更改、添加和删除配置。
+**摘要：** 阅读本主题，了解如何配置用于存档Skype for Business Server。 您最初在部署存档时设置存档配置，但您可以在部署后更改、添加和删除配置。
   
 若要配置初始存档配置，Skype for Business Server控制面板指定以下内容：
   
-- 在部署数据库时默认创建的全局Skype for Business Server
+- 部署数据库时默认创建的全局Skype for Business Server
     
 - 指定如何为特定站点实施存档的可选站点级别配置
     
@@ -48,11 +48,11 @@ ms.locfileid: "60864459"
 > [!NOTE]
 > 在启用存档之前，应指定所有适当的选项。 
   
-有关如何实施存档配置（包括可以指定哪些选项以及存档配置的层次结构）的详细信息，请参阅 Plan [for archiving in Skype for Business Server](../../plan-your-deployment/archiving/archiving.md)。 有关如何使用控制面板或 Windows PowerShell 部署后管理配置的详细信息，请参阅管理 Skype for Business Server 中的[存档Skype for Business Server。](../../manage/archiving/options.md)
+有关如何实施存档配置（包括可以指定哪些选项以及存档配置的层次结构）的详细信息，请参阅 Plan [for archiving in Skype for Business Server](../../plan-your-deployment/archiving/archiving.md)。 有关如何使用控制面板或部署后管理配置的详细信息，请参阅管理 Windows PowerShell 中的存档[Skype for Business Server](../../manage/archiving/options.md)。
   
 ## <a name="configure-global-level-archiving-options"></a>配置全局级别存档选项
 
-向拓扑中添加存档并发布拓扑时，Skype for Business Server创建用于存档的全局配置。 默认情况下，全局配置中不启用任何存档选项。 除非您自己设置站点或池配置（这将重写全局配置），否则全局配置将控制要为整个部署启用的选项。
+向拓扑中添加存档并发布拓扑时，Skype for Business Server创建存档的全局配置。 默认情况下，全局配置中不启用任何存档选项。 除非您自己设置站点或池配置（这将重写全局配置），否则全局配置将控制要为整个部署启用的选项。
   
 在全局级别配置存档选项：
   
@@ -76,7 +76,7 @@ ms.locfileid: "60864459"
     
    - 要在存档不可用时阻止活动，请选中“存档失败时阻止即时消息(IM)或 Web 会议会话”复选框。
     
-   - 若要使用Microsoft Exchange Server存储存档数据，请单击"Microsoft Exchange **集成"** 复选框。
+   - 若要使用Microsoft Exchange Server存储存档数据，请单击 **"Microsoft Exchange集成"** 复选框。
     
    - 若要启用数据清除，请选中“启用存档数据清除”复选框，然后执行下列操作之一：
     
@@ -112,7 +112,7 @@ ms.locfileid: "60864459"
     
    - 要在存档不可用时阻止活动，请选中“存档失败时阻止即时消息 (IM) 或 Web 会议会话”复选框。
     
-   - 若要使用Microsoft Exchange Server存储存档数据，请单击"Microsoft Exchange **集成"** 复选框。
+   - 若要使用Microsoft Exchange Server存储存档数据，请单击 **"Microsoft Exchange集成"** 复选框。
     
    - 若要启用数据清除，请选中“启用存档数据清除”复选框，然后执行下列操作之一：
     
@@ -148,7 +148,7 @@ ms.locfileid: "60864459"
     
    - 要在存档不可用时阻止活动，请选中“存档失败时阻止即时消息(IM)或 Web 会议会话”复选框。
     
-   - 若要使用Microsoft Exchange Server存储存档数据，请单击"Microsoft Exchange **集成"** 复选框。
+   - 若要使用Microsoft Exchange Server存储存档数据，请单击 **"Microsoft Exchange集成"** 复选框。
     
    - 若要启用数据清除，请选中“启用存档数据清除”复选框，然后执行下列操作之一：
     

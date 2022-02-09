@@ -1,8 +1,8 @@
 ---
 title: Skype for Business Server：测试 SIP 中继配置设置
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c8712308-0e2d-4e39-8f90-d1a250487a94
 description: 摘要：了解如何使用命令行管理程序测试 SIP Skype for Business Server设置。
-ms.openlocfilehash: 59f246abfc4ef27ad75ab45cccaedc6f5236c98e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: dd79e60b81bb5e9f0edbd93a9ddda96edfdee218
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829506"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396024"
 ---
 # <a name="skype-for-business-server-test-sip-trunk-configuration-settings"></a>Skype for Business Server：测试 SIP 中继配置设置
  
@@ -35,9 +35,9 @@ SIP 中继配置设置定义中介服务器与服务提供商的公用电话交�
     
 - 每个中继上是否需要安全实时传输 (SRTP) 加密
     
-在安装Skype for Business Server时，将创建 SIP 中继配置设置的全局集合。 此外，管理员还可以在站点范围或服务范围为 PSTN 网关服务 (自定义设置集合，但) 。 管理员还可使用 Test-CsTrunkConfiguration cmdlet 验证中继能否将用户拨打的号码转换为网关可以处理的号码。
+安装客户端Skype for Business Server，将创建 SIP 中继配置设置的全局集合。 此外，管理员还可以在站点范围或服务范围为 PSTN 网关服务 (自定义设置集合，但) 。 管理员还可使用 Test-CsTrunkConfiguration cmdlet 验证中继能否将用户拨打的号码转换为网关可以处理的号码。
   
-只能使用 Windows PowerShell 和 [Test-CsTrunkConfiguration](/powershell/module/skype/test-cstrunkconfiguration) cmdlet 测试中继配置设置。 可以从命令行管理程序或命令行管理Skype for Business Server远程会话中运行此 cmdlet Skype for Business Server运行。
+只能使用 Windows PowerShell 和 [Test-CsTrunkConfiguration](/powershell/module/skype/test-cstrunkconfiguration) cmdlet 测试中继配置设置。 此 cmdlet 可以从命令行管理程序Skype for Business Server命令行管理程序远程会话中Skype for Business Server运行。
   
 ### <a name="to-test-sip-trunk-configuration-settings"></a>测试 SIP 中继配置设置
 

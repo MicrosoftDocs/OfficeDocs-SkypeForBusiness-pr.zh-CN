@@ -1,8 +1,8 @@
 ---
 title: URL 筛选器 创建新的或编辑现有的
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 1406c7c5-eb55-4b6a-8d74-d625ea9e9922
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: 3eb9079fcb3c0b6d577c6b495b84a9b01d9f7ab9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: cbaad0d475f644dd38101a9c234eae0982205670
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834360"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397952"
 ---
 # <a name="url-filter-create-new-or-edit-existing"></a>URL 筛选器：创建新的或编辑现有的
 
@@ -30,4 +30,4 @@ ms.locfileid: "60834360"
 
 - [创建新 URL 筛选器以处理 IM 对话中的超链接](/previous-versions/office/lync-server-2013/lync-server-2013-create-a-new-url-filter-to-handle-hyperlinks-in-im-conversations)
 
-有关可以使用控制面板执行的不同过程的详细信息，请参阅 Manage [Skype for Business Server Skype for Business Server 2015](../../manage/manage.md)。
+有关可以使用控制面板执行的不同过程的详细信息，Skype for Business Server Manage [Skype for Business Server 2015](../../manage/manage.md)。

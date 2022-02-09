@@ -1,8 +1,8 @@
 ---
 title: 旧版合并添加计算机
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3dbf1649-3a4f-488b-85b3-70533939fe1c
 description: 要定义边缘服务器池的计算机，请输入至少一台属于旧版负载平衡合并边缘池一部分的计算机的完全限定域名 (FQDN) 。
-ms.openlocfilehash: a0c5e0541f8a72f09c3a4b505717a7ac758921e9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: f2b4d53f0292f4fa697acc522d486cac650b4294
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856859"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62403036"
 ---
 # <a name="legacy-merge-add-machine"></a>旧版合并添加计算机
  

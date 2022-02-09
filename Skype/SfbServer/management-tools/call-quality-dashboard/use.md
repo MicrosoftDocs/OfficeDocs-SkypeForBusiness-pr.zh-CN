@@ -1,8 +1,8 @@
 ---
 title: 使用呼叫质量仪表板进行Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,22 +13,22 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
 description: 摘要：了解如何使用呼叫质量仪表板。 通话质量仪表板是一种用于Skype for Business Server。
-ms.openlocfilehash: a1a2f0c6d4cf07563f0aceb6379a9142930e1699
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5647622a04cbe449f426ae38b7d207fcbe2858e9
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843805"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398826"
 ---
 # <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>使用呼叫质量仪表板进行Skype for Business Server
 
 **摘要：** 了解如何使用呼叫质量仪表板。 通话质量仪表板是一种用于Skype for Business Server。
 
-呼叫质量仪表板 (CQD) 使 IT 专业人员可以使用聚合数据，通过比较用户组的统计信息来确定趋势和模式，从而识别产生媒体质量问题的问题。 CQD 并非专注于解决单个呼叫问题，而是侧重于识别适用于许多用户的问题和解决方案。
+呼叫质量仪表板 (CQD) 使 IT 专业人员可以使用聚合数据，通过比较用户组的统计信息来确定趋势和模式，从而发现产生媒体质量问题的问题。 CQD 不是专注于解决单个呼叫问题，而是侧重于识别适用于许多用户的问题和解决方案。
 
 ## <a name="call-quality-dashboard-user-guide"></a>呼叫质量仪表板用户指南
 
-CQD 是一个 Web 门户，用于根据用户体验质量 (QoE) 报告。 CQD 部署 SSAS 多维数据集以聚合 QoE 指标数据库中的数据，使管理员能够创建和修改报告或实时进行调查。 虽然可以使用 Excel直接连接到多维数据集，但门户已针对涉及 QoE 数据的几个工作流进行了优化。 数据包括：
+CQD 是一个 Web 门户， (用于根据用户体验质量和 QoE) 数据快速创建和组织报告。 CQD 部署 SSAS 多维数据集以聚合 QoE 指标数据库中的数据，使管理员能够创建和修改报告或实时进行调查。 虽然可以使用 Excel直接连接到多维数据集，但门户已针对涉及 QoE 数据的多个工作流进行了优化。 数据包括：
 
 - 用于快速访问的缓存报表数据
 - 用于信息共享和发布的报告页面的深层链接
@@ -76,7 +76,7 @@ CQD 是一个 Web 门户，用于根据用户体验质量 (QoE) 报告。 CQD �
 
 ![使用 CQD。](../../media/fe6b18d7-b8cf-472a-9c93-0f7703f5a700.png)
 
-为了显示条形图和迷你图，必须选中报表编辑器顶部的"显示迷你图"复选框。 这将选择"趋势"选项，将"月"向下移动为最后一个维度，这也可通过单击"月"，然后使用向上和向下箭头向上或向下移动 StartDate.Month 来完成。
+为了显示条形图和迷你图，必须选中报表编辑器顶部的"显示迷你图"复选框。 这将选择"趋势"选项，将"月"向下移动为最后一个维度，这也可单击"月"，然后使用向上和向下箭头向上或向下移动 StartDate.Month。
 
 ### <a name="settings"></a>设置
 
@@ -142,7 +142,7 @@ CQD 是一个 Web 门户，用于根据用户体验质量 (QoE) 报告。 CQD �
 |BuildingTypeDesc |char (18)  |否 |大楼类型说明。 |
 
 
-默认情况下，此下一个表具有一 (0、"Unknown"、0、null) 。
+默认情况下，此下一个表具有一 (0、"Unknown"、0 和 null) 。
 
 **CqdBuildingOwnershipType**
 
@@ -151,7 +151,7 @@ CQD 是一个 Web 门户，用于根据用户体验质量 (QoE) 报告。 CQD �
 |OwnershipTypeId |int |否 |CqdBuildingOwnershipType 表的主键。 |
 |OwnershipTypeDesc |varchar (25)  |否 |所有权类型说明。 |
 |LeaseInd |tinyint |是 |引用 CqdBuildingOwnershipType 表中另一行的索引，用于标识租用的大楼。 |
-|所有者 |varchar (50)  |是 |大楼所有者。 |
+|Owner |varchar (50)  |是 |大楼所有者。 |
 
 
 默认情况下，此下一个表具有一 (0、"Unknown"、0 和 null) 。
@@ -173,7 +173,7 @@ CQD 流被视为良好、较差或未经分类。 CQM 1.5 现在使用下面的 
 
 - 质量欠佳的流是超出阈值的差呼叫指标的任意组合。
 - 当呼叫中的一个流较差时，呼叫的两个流将被标记为差。 在会议中，每个参与者均算作唯一呼叫，并独立于所有其他参与者进行报告。
-- 未分类流是无质量指标 (，即综合事务或短时间) 。
+- 未分类流是无质量指标的流 (即综合事务或短时间) 。
 - 有效流 = 非移动客户端
 - 无法修改分类器
 
@@ -194,7 +194,7 @@ JPDR 定义 = 质量欠佳的呼叫定义减去 RatioConcealedSamplesAvg
 
 CQD 不使用呼叫方/被叫方字段，而是使用"First"和"Second"，因为呼叫者与被叫方之间存在干预步骤。
 
- **First** 如果流中涉及服务器 (，则始终为服务器终结点，例如 AV MCU 或中介服务器) 。
+ **First** 始终为 Server 终结点 (例如 AV MCU 或中介服务器) ，如果流中涉及服务器。
 
  **Second** 始终为客户端终结点，除非它是Server-Server流。
 

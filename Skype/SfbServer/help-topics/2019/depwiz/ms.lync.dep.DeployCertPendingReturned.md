@@ -1,8 +1,8 @@
 ---
 title: 待处理的证书请求（已返回）
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 3ee3f595-947a-41c4-acb8-036336b4f17e
 ROBOTS: NOINDEX, NOFOLLOW
 description: “联机证书请求状态”页面将返回证书的当前状态。如果证书仍处于等待证书颁发机构管理员批准的状态，即尚未获得批准，状态将指示证书仍在处理中。
-ms.openlocfilehash: 99dede5fb903795a36245158065f14040433b94a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 220a0ea0b501729640891d3fdc88da3eb5a3bd96
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834670"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396014"
 ---
 # <a name="pending-certificate-returned"></a>待处理的证书请求（已返回）
  

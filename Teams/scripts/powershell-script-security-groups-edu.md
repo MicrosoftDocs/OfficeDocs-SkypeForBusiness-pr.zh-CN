@@ -1,7 +1,7 @@
 ---
 title: PowerShell 脚本示例 - 为学校中的教师和学生创建安全组
 author: serdars
-ms.author: v-mahoffman
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.reviewer: angch
@@ -17,16 +17,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 66255e4a8f26109a331446adb099054b1453c3c6
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 79b73ac2001acfbb7424250c8c6c118808250459
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769850"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398386"
 ---
 # <a name="powershell-script-sample---create-security-groups-for-educators-and-students-in-your-school"></a>PowerShell 脚本示例 - 为学校中的教师和学生创建安全组
 
-使用此 PowerShell 脚本创建管理学校策略Microsoft Teams安全组。 将[策略分配到组](../assign-policies-users-and-groups.md#assign-a-policy-to-a-group)功能Teams向一组用户（例如安全组）分配策略。 根据优先级规则，将策略分配传播到组中的成员。 将成员添加到组或从组中删除成员时，将相应更新其继承的策略分配。
+使用此 PowerShell 脚本创建管理学校策略Microsoft Teams安全组。 使用 [Teams](../assign-policies-users-and-groups.md#assign-a-policy-to-a-group) 中的组分配策略功能，可以将策略分配给一组用户，例如安全组。 根据优先级规则，将策略分配传播到组中的成员。 将成员添加到组或从组中删除成员时，将相应更新其继承的策略分配。
 
 此 PowerShell 脚本基于许可证类型创建两个安全组，一个组用于教职员工和教师，另一个组用于学校中的学生。 然后，可以将策略分配到创建的安全组。 有关使用此脚本的信息，请参阅 [向学校中的大量用户分配策略](../batch-group-policy-assignment-edu.md)。
 
@@ -39,13 +39,13 @@ ms.locfileid: "60769850"
 需要定期运行此脚本，使安全组保持最新状态。
 
 > [!IMPORTANT]
-> 将策略 [分配到组时](../assign-policies-users-and-groups.md#precedence-rules) ，必须了解优先级 [规则和组](../assign-policies-users-and-groups.md#group-assignment-ranking) 分配排名。 请确保阅读并了解有关组的策略分配的信息 [中的概念](../assign-policies-users-and-groups.md#what-you-need-to-know-about-policy-assignment-to-groups)。
+> 将策略 [分配到组时](../assign-policies-users-and-groups.md#precedence-rules) ，必须了解 [优先级规则和组](../assign-policies-users-and-groups.md#group-assignment-ranking) 分配排名。 请确保阅读并了解有关组的策略分配的信息 [中的概念](../assign-policies-users-and-groups.md#what-you-need-to-know-about-policy-assignment-to-groups)。
 
 ## <a name="before-you-start"></a>开始前
 
-下载并安装[Skype for Business Online PowerShell 模块](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)，然后在系统提示时重启计算机。
+下载并安装 [Skype for Business PowerShell 模块](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)，然后在系统提示时重启计算机。
 
-若要了解更多信息，请参阅使用[Skype for Business PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) Office 365 Online Teams [PowerShell 概述](../teams-powershell-overview.md)。
+若要了解更多信息，请参阅使用 [powerShell Skype for Business Online Office 365 powerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) Teams [PowerShell 概述](../teams-powershell-overview.md)。
 
 
 ## <a name="sample-script"></a>示例脚本

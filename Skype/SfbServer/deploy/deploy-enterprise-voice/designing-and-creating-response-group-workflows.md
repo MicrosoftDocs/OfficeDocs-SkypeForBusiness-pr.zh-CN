@@ -1,8 +1,8 @@
 ---
 title: 在工作流中设计和创建响应组Skype for Business
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
 description: 设计并创建响应组工作流，Skype for Business Server 企业语音。 涵盖搜寻组工作流和互动工作流。
-ms.openlocfilehash: ec92a0dfa378746db98a6377b2ebd51df0e77813
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 06ca815eb973fdf26106a0c0c082f4c146d2b590
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864379"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401556"
 ---
 # <a name="designing-and-creating-response-group-workflows-in-skype-for-business"></a>在工作流中设计和创建响应组Skype for Business
 
@@ -49,18 +49,18 @@ ms.locfileid: "60864379"
 5. 在 **"选择服务** "搜索字段中，键入承载要创建或更改的工作流的 **ApplicationServer** 服务的全名或部分名称。 在服务结果列表中，单击想要的服务，然后单击“确定”。
 
     > [!NOTE]
-    > 将打开响应组配置工具。 您还可以通过键入以下 URL 直接从 Web 浏览器打开响应组配置工具：https:// \<webPoolFqdn\> /RgsConfig。
+    > 将打开响应组配置工具。 您还可以通过键入以下 URL 直接从 Web 浏览器打开响应组配置工具：https://\<webPoolFqdn\>/RgsConfig。
 
 6. 执行下列操作之一：
 
-   - 在 **"创建新工作流"下的**"寻线"**旁边，** 单击"创建 **"。**
+   - 在 **"创建新工作流"下的**"寻线" **旁边，** 单击"创建 **"**。
 
    - 在“管理现有工作流”下，找到要更改的工作流，然后在“操作”下，单击“编辑”。
 
-7. 如果已准备好让用户开始调用工作流，请选择"**激活工作流"。**
+7. 如果已准备好让用户开始调用工作流，请选择" **激活工作流"**。
 
     > [!NOTE]
-    >  如果要创建托管工作流，则需要选择"激活 **工作流"。** 在保存活动、托管的工作流之后，可以修改并停用该工作流。
+    >  如果要创建托管工作流，则需要选择"激活 **工作流"**。 在保存活动、托管的工作流之后，可以修改并停用该工作流。
 
 8. 要允许联盟用户呼叫组，请选中“启用联盟”复选框。 还必须具有适用于为联盟配置的响应组应用程序的外部访问策略。
 
@@ -83,19 +83,19 @@ ms.locfileid: "60864379"
 11. 在“显示名称”中，键入希望显示的工作流名称（例如，销售响应组）。
 
     > [!NOTE]
-    > 不要在显示名称中包含“<”或“>”字符。 请勿使用以下保留的显示名称 **：RGS Presence Watcher** 或 Announcement **Service。**
+    > 不要在显示名称中包含“<”或“>”字符。 请勿使用以下保留的显示名称： **RGS Presence Watcher** 或 **Announcement Service**。
 
 12. 在“电话号码”下，键入响应组的线路 URI（例如，+14255550165）。
 
 13. 在“显示号码”中，键入希望显示的响应组号码（例如，+1 (425) 555-0165）。
 
-14.  (可选) 在"说明"中，键入工作流的说明，因为您希望工作流显示在联系人卡片中的 Skype for Business。
+14.  (可选) 在"说明"中，键入工作流的说明，因为您希望工作流显示在联系人卡片中的Skype for Business。
 
 15. 如果工作流将由响应组管理员进行管理，则在“工作流类型”中，选择“受管理”。 执行以下操作可向工作流分配响应组管理员：
 
-    a. 为此工作流键入经理的 SIP URI，然后单击"添加 **"。**
+    a. 为此工作流键入经理的 SIP URI，然后单击"添加 **"**。
 
-    b. 键入要添加到工作流的其他管理员的 SIP URI，然后单击"添加 **"。**
+    b. 键入要添加到工作流的其他管理员的 SIP URI，然后单击"添加 **"**。
 
     > [!IMPORTANT]
     > 必须为被指定为响应组管理员的每一位用户分配 CsResponseGroupManager 角色。如果没有为用户分配此角色，他们无法管理响应组。
@@ -124,7 +124,7 @@ ms.locfileid: "60864379"
     - 要使用预定义工作时间日程表，请单击“使用预设日程表”，然后从下拉列表中选择要使用的日程表。
 
       > [!NOTE]
-      > 之前您必须至少已定义一个预设日程表才能选择该选项。 可使用 **New-CSRgsHoursOfBusiness** cmdlet 来定义预设日程表。 有关详细信息，请参阅 ([中) 定义响应组工作时间的可选Skype for Business。](optional-define-response-group-business-hours.md)
+      > 之前您必须至少已定义一个预设日程表才能选择该选项。 可使用 **New-CSRgsHoursOfBusiness** cmdlet 来定义预设日程表。 有关详细信息，请参阅 ([ Optional) Define Response Group business hours in Skype for Business](optional-define-response-group-business-hours.md)。
 
       > [!NOTE]
       > 选择预设日程表时，“天”、“开放”和“关闭”中会自动填写响应组可以应答的日期和时间。
@@ -154,16 +154,16 @@ ms.locfileid: "60864379"
 
     - 要断开呼叫，请单击“断开呼叫”。
 
-    - 要将呼叫转接到语音邮件，请单击“转接到语音邮件”，然后键入语音邮件地址。 语音邮件地址的格式是 *\<username\>* @ *\<domainName\>* (，例如 bob@contoso.com) 。
+    - 要将呼叫转接到语音邮件，请单击“转接到语音邮件”，然后键入语音邮件地址。 语音邮件地址的格式是 ( *\<username\>*@*\<domainName\>* ，例如 bob@contoso.com) 。
 
-    - 要将呼叫转接到另一个用户，请单击“转接到 SIP URI”，然后键入该用户的地址。 用户地址的格式为 _\<username\>_ @ _\<domainName\>_ 。
+    - 要将呼叫转接到另一个用户，请单击“转接到 SIP URI”，然后键入该用户的地址。 用户地址的格式为  _\<username\>_@_\<domainName\>_。
 
-    - 要将呼叫转接到另一个电话号码，请单击“转接到电话号码”，然后键入该电话号码。 电话号码的格式为 (*\<number\>* @ *\<domainName\>* 例如，+14255550121@contoso.com) 。 域名可用来将呼叫者路由至正确的目标。
+    - 要将呼叫转接到另一个电话号码，请单击“转接到电话号码”，然后键入该电话号码。 电话号码的格式为 ( *\<number\>*@*\<domainName\>* 例如，+14255550121@contoso.com) 。 域名可用来将呼叫者路由至正确的目标。
 
 24. 在“步骤 5 指定您的假日”下，单击定义响应组停止营业日期的一个或多个假日集对应的复选框。
 
     > [!NOTE]
-    > 配置工作流之前，您需要先定义假日和假日集。 使用 **New-CsRgsHoliday** 和 **New-CsRgsHolidaySet** cmdlet 可定义假日和假日集。 有关详细信息，请参阅 ([中的) 定义响应组假日集的可选Skype for Business。](optional-define-response-group-holiday-sets.md)
+    > 配置工作流之前，您需要先定义假日和假日集。 使用 **New-CsRgsHoliday** 和 **New-CsRgsHolidaySet** cmdlet 可定义假日和假日集。 有关详细信息，请参阅可选[ (在) 定义响应组假日Skype for Business](optional-define-response-group-holiday-sets.md)。
 
 25. 如果要在假日播放消息，请选中“假期播放消息”复选框，然后通过执行以下操作之一指定要播放的消息：
 
@@ -181,11 +181,11 @@ ms.locfileid: "60864379"
 
     - 要断开呼叫，请单击“断开呼叫”。
 
-    - 要将呼叫转接到语音邮件，请单击“转接到语音邮件”，然后键入语音邮件地址。 语音邮件地址的格式是 *\<username\>* @ *\<domainName\>* (，例如 bob@contoso.com) 。
+    - 要将呼叫转接到语音邮件，请单击“转接到语音邮件”，然后键入语音邮件地址。 语音邮件地址的格式是 ( *\<username\>*@*\<domainName\>* ，例如 bob@contoso.com) 。
 
-    - 要将呼叫转接到另一个用户，请单击“转接到 SIP URI”，然后键入该用户的地址。 用户地址的格式为 _\<username\>_ @ _\<domainName\>_ 。
+    - 要将呼叫转接到另一个用户，请单击“转接到 SIP URI”，然后键入该用户的地址。 用户地址的格式为  _\<username\>_@_\<domainName\>_。
 
-    - 要将呼叫转接到另一个电话号码，请单击“转接到电话号码”，然后键入该电话号码。 电话号码的格式为 (*\<number\>* @ *\<domainName\>* 例如，+14255550121@contoso.com) 。 域名用于将呼叫者路由至正确的目标。
+    - 要将呼叫转接到另一个电话号码，请单击“转接到电话号码”，然后键入该电话号码。 电话号码的格式为 ( *\<number\>*@*\<domainName\>* 例如，+14255550121@contoso.com) 。 域名用于将呼叫者路由至正确的目标。
 
 27. 在“步骤 6 配置队列”下的“选择将接收呼叫的队列”中，选择在出现可以应答的代理之前，使呼叫者处于保持状态的队列。
 
@@ -200,11 +200,11 @@ ms.locfileid: "60864379"
 
 29. 单击“部署”。
 
-### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-hunt-group-workflow"></a>使用 Skype for Business Server命令行管理程序创建或修改寻线工作流
+### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-hunt-group-workflow"></a>使用 Skype for Business Server 命令行管理程序 创建或修改寻线工作流
 
 1. 以 RTCUniversalServerAdmins 组的成员或支持响应组的预定义管理角色之一的成员登录。
 
-2. 启动命令行Skype for Business Server：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击"Skype for Business Server **命令行管理程序"。**
+2. 启动命令行Skype for Business Server：单击"开始"**，单击"** 所有程序"**，单击"****Skype for Business 2015"**，然后单击"Skype for Business Server **命令行管理程序"**。
 
 3. 创建为欢迎消息播放的提示，并将其保存在变量中。 在命令行中运行：
 
@@ -227,7 +227,7 @@ ms.locfileid: "60864379"
    $qid = (Get-CsRgsQueue -Name "Help Desk").Identity
    ```
 
-    有关创建队列的详细信息，请参阅[New-CsRgsQueue。](/powershell/module/skype/new-csrgsqueue?view=skype-ps)
+    有关创建队列的详细信息，请参阅 [New-CsRgsQueue](/powershell/module/skype/new-csrgsqueue?view=skype-ps)。
 
 5. 定义在工作时间打开工作流时要执行的默认操作，并将其保存在变量中。 在命令行中运行：
 
@@ -244,9 +244,9 @@ ms.locfileid: "60864379"
    $actionWM = New-CsRgsCallAction -Prompt $promptWM -Action TransferToQueue -QueueID $qid.Identity
    ```
 
-6. 如果要定义工作时间和假日，需要在创建或修改工作流之前创建它们。 有关详细信息，请参阅 ([Optional) Define Response Group business hours in Skype for Business](optional-define-response-group-business-hours.md)和 (Optional) Define Response Group holiday sets in [Skype for Business。](optional-define-response-group-holiday-sets.md)
+6. 如果要定义工作时间和假日，需要在创建或修改工作流之前创建它们。 有关详细信息，请参阅 ([ Optional) Define Response Group business hours in Skype for Business](optional-define-response-group-business-hours.md)和 [ (Optional) Define Response Group holiday sets in Skype for Business](optional-define-response-group-holiday-sets.md)。
 
-7. 如果您希望对非工作时间或假日收到的呼叫提供提示，请使用 **New-CsRgsPrompt** cmdlet 定义提示，并使用 **New-CsRgsCallAction** 定义在提示后要采取的操作。 有关详细信息，请参阅[New-CsRgsPrompt](/powershell/module/skype/new-csrgsprompt?view=skype-ps)和[New-CsRgsCallAction。](/powershell/module/skype/new-csrgscallaction?view=skype-ps)
+7. 如果您希望对非工作时间或假日收到的呼叫提供提示，请使用 **New-CsRgsPrompt** cmdlet 定义提示，并使用 **New-CsRgsCallAction** 定义在提示后要采取的操作。 有关详细信息，请参阅 [New-CsRgsPrompt](/powershell/module/skype/new-csrgsprompt?view=skype-ps) 和 [New-CsRgsCallAction](/powershell/module/skype/new-csrgscallaction?view=skype-ps)。
 
 8. 检索 Lync Server 响应组服务的服务名称并将其分配给变量。 在命令中运行：
 
@@ -382,7 +382,7 @@ ms.locfileid: "60864379"
 5. 在“选择服务”搜索字段中，键入托管要创建或修改的工作流的 **ApplicationServer** 服务的全部或部分名称。 在服务结果列表中，单击想要的服务，然后单击“确定”。
 
     > [!NOTE]
-    > 将打开响应组配置工具。 您还可以通过键入以下 URL 直接从 Web 浏览器打开响应组配置工具：https:// \<webPoolFqdn\> /RgsConfig。
+    > 将打开响应组配置工具。 您还可以通过键入以下 URL 直接从 Web 浏览器打开响应组配置工具：https://\<webPoolFqdn\>/RgsConfig。
 
 6. 请执行以下操作之一：
 
@@ -393,12 +393,12 @@ ms.locfileid: "60864379"
 7. 如果尚未准备好让用户开始呼叫工作流，请清除“激活工作流”复选框。
 
     > [!NOTE]
-    >  如果要创建托管工作流，则需要选择"激活 **工作流"。** 在保存活动、托管的工作流之后，可以修改并停用该工作流。
+    >  如果要创建托管工作流，则需要选择"激活 **工作流"**。 在保存活动、托管的工作流之后，可以修改并停用该工作流。
 
 8. 要允许联盟用户呼叫组，请选中“启用联盟”复选框。 还必须具有适用于为联盟配置的响应组应用程序的外部访问策略。
 
     > [!NOTE]
-    > 全局外部访问策略适用于响应组应用程序。 可以使用 Skype for Business Server 控制面板或 **Set-CsExternalAccessPolicy** cmdlet 将 EnableOutsideAccess 参数设置为 True，为响应组联盟配置全局策略。 请记住，除非为全局策略设置分配站点或用户策略，否则这些设置适用于所有用户。 因此，在针对响应组更改此设置之前，请确保联盟设置满足您的组织的要求。 有关策略如何适用于用户的详细信息，请参阅[Manage External Access Policy for Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-manage-external-access-policy-for-your-organization)。 有关联合设置的详细信息，请参阅 **文档中的 Set-CsExternalAccessPolicy。**
+    > 全局外部访问策略适用于响应组应用程序。 可以使用 Skype for Business Server 控制面板或 **Set-CsExternalAccessPolicy** cmdlet 将 EnableOutsideAccess 参数设置为 True，为响应组联盟配置全局策略。 请记住，除非为全局策略设置分配站点或用户策略，否则这些设置适用于所有用户。 因此，在针对响应组更改此设置之前，请确保联盟设置满足您的组织的要求。 有关策略如何适用于用户的详细信息，请参阅[Manage External Access Policy for Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-manage-external-access-policy-for-your-organization)。 有关联合设置的详细信息，请参阅 **文档中的 Set-CsExternalAccessPolicy** 。
 
     > [!NOTE]
     > 托管在 Skype for Business Online 中的用户无法呼叫本地部署中托管的响应组。 这一点在混合部署和本地部署与 Skype for Business Online 部署联合时均如此。
@@ -413,7 +413,7 @@ ms.locfileid: "60864379"
 11. 在“显示名称”中，键入希望显示的工作流名称（例如，销售 IVR 响应组）。
 
     > [!NOTE]
-    > 请勿将" \<" or "\> "字符包括在显示名称。 请勿使用以下保留的显示名称 **：RGS Presence Watcher** 或 Announcement **Service。**
+    > 请勿将""\<" or "\>字符包括在显示名称。 请勿使用以下保留的显示名称： **RGS Presence Watcher** 或 **Announcement Service**。
 
 12. 在“电话号码”中，键入响应组的线路 URI（例如，+14255550165）。
 
@@ -423,9 +423,9 @@ ms.locfileid: "60864379"
 
 15. 如果工作流将由响应组管理员进行管理，则在“工作流类型”中，选择“受管理”。 执行以下操作可向工作流分配响应组管理员：
 
-    a. 为此工作流键入经理的 SIP URI，然后单击"添加 **"。**
+    a. 为此工作流键入经理的 SIP URI，然后单击"添加 **"**。
 
-    b. 键入要添加到工作流的其他管理员的 SIP URI，然后单击"添加 **"。**
+    b. 键入要添加到工作流的其他管理员的 SIP URI，然后单击"添加 **"**。
 
     > [!IMPORTANT]
     > 必须为被指定为响应组管理员的每一位用户分配 CsResponseGroupManager 角色。如果没有为用户分配此角色，他们无法管理响应组。
@@ -454,7 +454,7 @@ ms.locfileid: "60864379"
     - 要使用预定义工作时间日程表，请单击“使用预设日程表”，然后从下拉列表中选择要使用的日程表。
 
       > [!NOTE]
-      > 之前您必须至少已定义一个预设日程表才能选择该选项。 使用 **New-CsRgsHoursOfBusiness** cmdlet 定义预设日程表。 有关详细信息，请参阅 ([中的) 定义响应组工作时间的可选Skype for Business。](optional-define-response-group-business-hours.md) 选择预设日程表时，“天”、“开放”和“关闭”中会自动填写响应组可以应答的日期和时间。
+      > 之前您必须至少已定义一个预设日程表才能选择该选项。 使用 **New-CsRgsHoursOfBusiness** cmdlet 定义预设日程表。 有关详细信息，请参阅 ([ 中的) 定义响应组工作时间的可选Skype for Business](optional-define-response-group-business-hours.md)。 选择预设日程表时，“天”、“开放”和“关闭”中会自动填写响应组可以应答的日期和时间。
 
     - 要使用仅适用于该工作流的自定义日程表，请单击“使用自定义日程表”。
 
@@ -481,16 +481,16 @@ ms.locfileid: "60864379"
 
     - 要断开呼叫，请单击“断开呼叫”。
 
-    - 要将呼叫转接到语音邮件，请单击“转接到语音邮件”，然后键入语音邮件地址。 语音邮件地址的格式是 *\<username\>* @ *\<domainname\>* (，例如 bob@contoso.com) 。
+    - 要将呼叫转接到语音邮件，请单击“转接到语音邮件”，然后键入语音邮件地址。 语音邮件地址的格式是 ( *\<username\>*@*\<domainname\>* ，例如 bob@contoso.com) 。
 
-    - 要将呼叫转接到另一个用户，请单击“转接到 SIP URI”，然后键入该用户的地址。 用户地址的格式为 _\<username\>_ @ _\<domainname\>_ 。
+    - 要将呼叫转接到另一个用户，请单击“转接到 SIP URI”，然后键入该用户的地址。 用户地址的格式为  _\<username\>_@_\<domainname\>_。
 
-    - 要将呼叫转接到另一个电话号码，请单击“转接到电话号码”，然后键入该电话号码。 电话号码的格式为 (*\<number\>* @ *\<domainname\>* 例如+14255550121@contoso.com) 。 域名可用来将呼叫者路由至正确的目标。
+    - 要将呼叫转接到另一个电话号码，请单击“转接到电话号码”，然后键入该电话号码。 电话号码的格式为 ( *\<number\>*@*\<domainname\>* 例如，+14255550121@contoso.com) 。 域名可用来将呼叫者路由至正确的目标。
 
 24. 在“步骤 5 指定您的假日”下，单击定义响应组停止营业日期的一个或多个假日集对应的复选框。
 
     > [!NOTE]
-    > 配置工作流之前，您需要先定义假日和假日集。 使用 **New-CsRgsHoliday** 和 **New-CsRgsHolidaySet** cmdlet 可定义假日和假日集。 有关详细信息，请参阅可选[ (在) 定义响应组假日Skype for Business。](optional-define-response-group-holiday-sets.md)
+    > 配置工作流之前，您需要先定义假日和假日集。 使用 **New-CsRgsHoliday** 和 **New-CsRgsHolidaySet** cmdlet 可定义假日和假日集。 有关详细信息，请参阅 ([ Optional) Define Response Group holiday sets in Skype for Business](optional-define-response-group-holiday-sets.md)。
 
 25. 如果要在假日播放消息，请选中“假期播放消息”复选框，然后通过执行以下操作之一指定要播放的消息：
 
@@ -508,11 +508,11 @@ ms.locfileid: "60864379"
 
     - 要断开呼叫，请单击“断开呼叫”。
 
-    - 要将呼叫转接到语音邮件，请单击“转接到语音邮件”，然后键入语音邮件地址。 语音邮件地址的格式是 *\<username\>* @ *\<domainname\>* (，例如 bob@contoso.com) 。
+    - 要将呼叫转接到语音邮件，请单击“转接到语音邮件”，然后键入语音邮件地址。 语音邮件地址的格式是 ( *\<username\>*@*\<domainname\>* ，例如 bob@contoso.com) 。
 
-    - 要将呼叫转接到另一个用户，请单击“转接到 SIP URI”，然后键入该用户的地址。 用户地址的格式为 _\<username\>_ @ _\<domainname\>_ 。
+    - 要将呼叫转接到另一个用户，请单击“转接到 SIP URI”，然后键入该用户的地址。 用户地址的格式为  _\<username\>_@_\<domainname\>_。
 
-    - 要将呼叫转接到另一个电话号码，请单击“转接到电话号码”，然后键入该电话号码。 电话号码的格式为 (*\<number\>* @ *\<domainname\>* 例如+14255550121@contoso.com) 。 域名可用来将呼叫者路由至正确的目标。
+    - 要将呼叫转接到另一个电话号码，请单击“转接到电话号码”，然后键入该电话号码。 电话号码的格式为 ( *\<number\>*@*\<domainname\>* 例如，+14255550121@contoso.com) 。 域名可用来将呼叫者路由至正确的目标。
 
 27. 在“步骤 6 配置保持音乐”下，执行以下操作之一，选择希望呼叫者在等待代理时听到的音乐：
 
@@ -533,7 +533,7 @@ ms.locfileid: "60864379"
     > [!NOTE]
     > 文本到语音转换引擎会将符号“#”转换为“号码”这个词。 如果需要指代 # 键，则应该在提示语中使用键名代替符号。 例如，“要与销售人员交谈，请按井号键”。
 
-    - 若要使用包含问题的预先录制的音频文件，请单击"选择录音"，然后单击"**录音**"链接以上载该文件。 In the new browser window， click **Browse**， select the audio file， and then click **Open**. 单击 **Upload** 加载文件，然后可以选择在文本框中键入问题 (这样将问题以及呼叫者的响应转发给响应代理) 。
+    - 若要使用包含问题的预先录制的音频文件，请单击"选择录音"，然后单击"**录音**"链接以上载该文件。 在新的浏览器窗口中 **，单击"** 浏览"，选择音频文件，然后单击"打开 **"**。 单击 **Upload**"以加载文件，然后可以选择在文本框中键入问题 (这样将问题以及呼叫者的响应转发给响应代理) 。
 
       > [!NOTE]
       > 用户提供的所有音频文件都必须满足特定要求。有关支持的文件格式的详细信息，请参阅[Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group)。
@@ -564,7 +564,7 @@ ms.locfileid: "60864379"
 
 1.  以 RTCUniversalServerAdmins 组的成员或支持响应组的预定义管理角色之一的成员登录。
 
-2. 启动命令行Skype for Business Server：单击"开始"，单击"所有程序"，单击 **"Skype for Business 2015"，** 然后单击"Skype for Business Server **命令行管理程序"。**
+2. 启动命令行Skype for Business Server：单击"开始"**，单击"** 所有程序"**，单击"****Skype for Business 2015"**，然后单击"Skype for Business Server **命令行管理程序"**。
 
 3. 检索响应组服务的服务名称，并将其分配给变量。在命令行中运行：
 
@@ -648,7 +648,7 @@ ms.locfileid: "60864379"
 
 [ (在) 定义响应组假日集的可选Skype for Business](optional-define-response-group-holiday-sets.md)
 
-[ (可选) 定义响应组工作时间的可选Skype for Business](optional-define-response-group-business-hours.md)
+[ (中) 定义响应组工作时间的可选Skype for Business](optional-define-response-group-business-hours.md)
 
 [New-CsRgsWorkflow](/powershell/module/skype/new-csrgsworkflow?view=skype-ps)
 

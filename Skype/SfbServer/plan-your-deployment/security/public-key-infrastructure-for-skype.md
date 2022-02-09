@@ -1,8 +1,8 @@
 ---
 title: 用于基础结构的公钥Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 737c8a25-23e9-4494-ab76-5a7b729b44ca
 description: Skype for Business Server证书进行服务器身份验证，并在不同的服务器角色之间建立信任链。 Windows Server 2012 R2、Windows Server 2012、Windows Server 2008 R2 和 Windows Server 2008 公钥基础结构 (PKI) 提供了用于建立和验证此信任链的基础结构。
-ms.openlocfilehash: 61381840d6c82ce26f0b8e7e5210ebd37c3532c0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 49217bcf053db5a90445915cd46a37f839855e00
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840954"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400176"
 ---
 # <a name="public-key-infrastructure-for-skype-for-business-server"></a>用于基础结构的公钥Skype for Business Server
  
@@ -39,6 +39,6 @@ Skype for Business Server要求所有服务器证书在 CRL 分发点中包含�
   
 ## <a name="enhanced-key-usage"></a>增强型密钥使用
 
-Skype for Business Server要求所有服务器证书支持增强型密钥 (EKU) 实现服务器身份验证。 配置用于服务器身份验证的 EKU 字段意味着证书可以对服务器进行身份验证。 此 EKU 对 MTLS 至关重要。 EKU 中可能存在多个条目以允许将证书用于多个目的。
+Skype for Business Server要求所有服务器证书都支持增强型密钥 (EKU) 实现服务器身份验证。 配置用于服务器身份验证的 EKU 字段意味着证书可以对服务器进行身份验证。 此 EKU 对 MTLS 至关重要。 EKU 中可能存在多个条目以允许将证书用于多个目的。
   
 

@@ -1,8 +1,8 @@
 ---
 title: Manage categories in Persistent Chat Server in Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 1/31/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b0c834b9-b5c8-41d5-865b-c8b180e76d13
 description: 摘要：了解如何在 Skype for Business Server 2015 中管理持久聊天服务器类别。
-ms.openlocfilehash: 86a90143bad43f4bb8a96434885eec741c01f4a4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 7d2cb5114b876c5354b3ba47c45f700a5bd62450
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853006"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396464"
 ---
 # <a name="manage-categories-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Manage categories in Persistent Chat Server in Skype for Business Server 2015
  
@@ -26,7 +26,7 @@ ms.locfileid: "60853006"
   
 类别是组织聊天室的逻辑结构。 类别定义一组默认的访问控制列表 (ACL) 可用于控制可以创建或加入聊天室的用户和用户组。 聊天室类别包含聊天室，但不包含其他类别。 每个类别使用名称 和描述 等元数据描述其内容。 类别具有可设置以控制其所属聊天室的行为的属性;例如，聊天室是否允许邀请或文件上载，或包含聊天历史记录。 
   
-正确使用类别可更轻松地创建和管理聊天室。 作为持久聊天服务器管理员，您可以为每个类别定义 AllowedMembers 和 Creators，还可以定义将应用于类别中创建的所有聊天室的默认聊天室设置和行为。 例如，如果将类别的 AllowedMembers 设置为 contoso.com，您可以将 Contoso 的任何组或用户作为成员添加到该类别中的聊天室。 如果将类别的"允许的成员"设置为"销售"，则只有此通讯组列表中的组和用户才能作为成员添加到该类别中的聊天室。 利用 Creators 属性，您可以控制可在该类别中创建聊天室的人。 创建聊天室后，可以将 AllowedMembers 组中任何人指定为对聊天室执行持续管理 (例如，成员身份更改和审批) 。
+正确使用类别可更轻松地创建和管理聊天室。 作为持久聊天服务器管理员，您可以为每个类别定义 AllowedMembers 和 Creators，还可以定义将应用于类别中创建的所有聊天室的默认聊天室设置和行为。 例如，如果将类别的 AllowedMembers 设置为 contoso.com，您可以将 Contoso 的任何组或用户作为成员添加到该类别中的聊天室。 如果将类别的"允许的成员"设置为"销售"，则只有此通讯组列表中的组和用户才能作为成员添加到该类别中的聊天室。 利用 Creators 属性，您可以控制可在该类别中创建聊天室的人。 创建聊天室后，可以将 AllowedMembers 组中的任何人指定为对聊天室执行持续管理 (例如，成员身份更改和审批) 。
   
 为类别定义 AllowedMembers 和 Creators 有以下好处：
   
@@ -36,12 +36,12 @@ ms.locfileid: "60853006"
     
 标识为 (创建者的用户、组织单位) 和用户组是唯一被允许在类别中创建聊天室的个人和组。 创建类别后，可以从类别的 AllowedMembers 列表中选择用户、US 和用户组作为聊天室管理员和成员来管理和参与聊天室。 
   
-在配置类别之前，请务必阅读[Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md)中的持久聊天类别、聊天室和用户角色。
+在配置类别之前，请务必阅读 [2015 年 10](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md) 月中的持久聊天类别、聊天室和Skype for Business Server角色。
   
 可以使用控制面板或 cmdlet 配置和管理Windows PowerShell类别。
 
 > [!NOTE]
-> 持久聊天在 2015 Skype for Business Server可用，但在 2019 年 2 月不再Skype for Business Server支持。 相同的功能在 Teams。 有关详细信息，请参阅开始[升级Microsoft Teams升级](/microsoftteams/upgrade-start-here)。 如果您需要使用持久聊天，则选择将需要此功能的用户迁移到 Teams，或者继续使用 Skype for Business Server 2015。 
+> 持久聊天在 Skype for Business Server 2015 中可用，但在 2019 年 2 Skype for Business Server不再受支持。 相同的功能在 Teams。 有关详细信息，请参阅[开始升级Microsoft Teams升级](/microsoftteams/upgrade-start-here)。 如果您需要使用持久聊天，您的选择是迁移需要此功能的用户以Teams或继续使用 Skype for Business Server 2015。 
   
 ## <a name="configure-categories-by-using-the-control-panel"></a>使用控制面板配置类别
 
@@ -73,15 +73,15 @@ ms.locfileid: "60853006"
     
    - 在"成员身份"的"允许的成员"部分，添加或删除用户和其他 Active Directory 域服务主体 (用户、通讯组、组织单位等) 允许添加为属于类别的聊天室的成员。 类别允许的主体可以搜索该类别中的聊天室（除非聊天室处于隐藏状态，在这种情况下只有聊天室的成员才能在目录中搜索它）。
     
-   - 在 **"成员身份**"中的" **拒绝** 的成员"部分，添加或删除与聊天室中被拒绝的成员关联的用户和其他 Active Directory 主体。
+   - 在 **"** 成员身份"的" **拒绝** 的成员"部分，添加或删除与聊天室中拒绝的成员关联的用户和其他 Active Directory 主体。
     
-   - 在 **"成员身份**"的" **创建者** "部分，添加或删除与类别的创建者关联的用户和其他 Active Directory 主体。 创建者是有权创建聊天室并指定聊天室管理员和成员的用户。
+   - 在 **"** 成员身份"的" **创建者** "部分，添加或删除与类别的创建者关联的用户和其他 Active Directory 主体。 创建者是有权创建聊天室并指定聊天室管理员和成员的用户。
     
 8. 单击“提交”。
     
 ## <a name="configure-categories-by-using-windows-powershell"></a>使用自定义配置Windows PowerShell
 
-可以使用以下 cmdlet 配置Windows PowerShell类别：
+您可以使用以下 cmdlet 配置Windows PowerShell类别：
   
 
 |**Cmdlet**|**说明**|
@@ -105,7 +105,7 @@ ms.locfileid: "60853006"
     
 - DeniedMembers。 列出不允许访问类别中的聊天室的用户。
     
-有关 cmdlet 语法的完整信息（包括所有参数），请参阅[Skype for Business Server 2015 Management Shell](../management-shell.md)。
+有关 cmdlet 语法的完整信息（包括所有参数），请参阅 [Skype for Business Server 2015 Management Shell](../management-shell.md)。
   
 ### <a name="create-a-new-category"></a>创建新类别
 
@@ -136,7 +136,7 @@ Get-CsPersistentChatCategory
 
 ### <a name="remove-a-category"></a>删除类别
 
-您可以使用 **Remove-CsPersistentChatCategory** cmdlet 删除类别。 在删除类别之前，必须先删除类别下的所有聊天室，或将聊天室移动到新类别。 例如，以下命令删除 Identity 为"atl-cs-001.contoso.com\helpdesk"的类别：
+您可以使用 **Remove-CsPersistentChatCategory** cmdlet 删除类别。 在删除类别之前，必须先删除类别下的所有聊天室或将聊天室移动到新类别。 例如，以下命令删除 Identity 为"atl-cs-001.contoso.com\helpdesk"的类别：
   
 ```PowerShell
 Remove-CsPersistentChatCategory -Identity "atl-cs-001.contoso.com\helpdesk"

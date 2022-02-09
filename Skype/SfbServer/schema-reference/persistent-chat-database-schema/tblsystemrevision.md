@@ -1,8 +1,8 @@
 ---
 title: tblSystemRevision
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 95b8e307-117c-4fb0-bd52-bc5a5b9ade55
 description: tblSystemRevision 包含用于 tblAdminLock 表的修订号，以实现多个管理员客户端之间的一致性。
-ms.openlocfilehash: a357e7c3bb4e98bdb1ec069327c73955a9c41902
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 68d3be9c4377195e8bf09f032dc0f4bcfd080260
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833196"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398566"
 ---
 # <a name="tblsystemrevision"></a>tblSystemRevision
  

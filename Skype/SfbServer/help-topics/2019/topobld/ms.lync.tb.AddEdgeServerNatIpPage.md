@@ -1,8 +1,8 @@
 ---
 title: 添加边缘服务器 NAT IP
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: aa97fd0e-48b9-4a66-b55a-12291641c967
 ROBOTS: NOINDEX, NOFOLLOW
 description: 公共 IP 地址是网络地址转换 (NAT) 使用的 IP 地址。IP 地址必须为公共可路由的地址。由于在此向导的“选择功能”页上选择了“此边缘池的外部 IP 地址由 NAT 转换”选项，因此这一点是必需的。
-ms.openlocfilehash: 178b8af0fbb97a0fc3d7737a7e12381b9fdba1eb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 15d270032ea0ba60d53962085cd63a70f775d02d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840354"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398225"
 ---
 # <a name="add-edge-server-nat-ip"></a>添加边缘服务器 NAT IP
 

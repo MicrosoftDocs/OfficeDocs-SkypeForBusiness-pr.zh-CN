@@ -1,8 +1,8 @@
 ---
 title: 添加前端功能
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 97441ec2-573a-4ba4-ab4c-df4cf6baf321
 description: 选择要为前端池启用的每个功能。 至少必须部署即时消息 (IM)，IM 始终启用且不能取消选择。 还可以选择部署其他功能，如会议、企业语音以及呼叫允许控制 (CAC)。 某些功能依赖于拓扑。
-ms.openlocfilehash: 7c2a3ed75369c38be093b73030435f7a8a23cd8b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 938b73549e4549fb7001ef80a0ec9ba1a9234163
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837824"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399146"
 ---
 # <a name="add-front-end-features"></a>添加前端功能
 

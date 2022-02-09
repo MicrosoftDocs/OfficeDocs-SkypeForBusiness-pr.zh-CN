@@ -1,8 +1,8 @@
 ---
 title: 响应组组
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,22 +15,22 @@ ms.localizationpriority: medium
 ms.assetid: b8bd4c3f-3d32-42b2-9712-2d0f159577d8
 ROBOTS: NOINDEX, NOFOLLOW
 description: 响应组由代理组、队列和工作流组成。 代理组是指定应答响应组呼叫的一组人员。
-ms.openlocfilehash: 276bdd91edc34e20b47429ae9364c5068ddb8ce5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 52184e7a3c9d95d8aa7d2121ebe5741047d81374
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840434"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401066"
 ---
 # <a name="response-groups-group"></a>响应组：组
 
 响应组由代理组、队列和工作流组成。 代理组是指定应答响应组呼叫的一组人员。
 
-"**响应**  -  **组组**"页显示为组织定义的所有代理组的列表。
+" **响应组** - **组** "页显示为组织定义的所有代理组的列表。
 
 ## <a name="tasks-you-can-perform"></a>可执行的任务
 
-可以从"响应组组"页执行  -  **以下** 任务：
+可以从"响应组组" **页执行** - **以下** 任务：
 
 - 创建新的代理组
 
@@ -42,7 +42,7 @@ ms.locfileid: "60840434"
 
 下表介绍了该页上的各个命令。
 
-- **新建** 启动新的代理组。
+- **新增功能** 启动新的代理组。
 
 - **编辑** 打开所选代理组进行编辑，选择列表中的所有代理组，或删除所选的代理组。
 
@@ -56,4 +56,4 @@ ms.locfileid: "60840434"
 
 - **说明** 代理组的说明。
 
-有关响应组特性和功能的详细信息，请参阅规划文档中Skype for Business Server[规划响应](../../../plan-your-deployment/enterprise-voice-solution/response-group.md)组应用程序。 有关使用代理组的详细信息，请参阅操作文档中的[Managing Agent Groups](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-agent-groups)。
+有关响应组特性和功能的详细信息，请参阅规划文档中[Skype for Business Server中的规划](../../../plan-your-deployment/enterprise-voice-solution/response-group.md)响应组应用程序。 有关使用代理组的详细信息，请参阅操作文档中的[Managing Agent Groups](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-agent-groups)。

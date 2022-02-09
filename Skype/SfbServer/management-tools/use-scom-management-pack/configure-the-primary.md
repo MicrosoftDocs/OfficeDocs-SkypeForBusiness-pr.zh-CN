@@ -1,8 +1,8 @@
 ---
 title: 如何配置主管理服务器
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -14,20 +14,20 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c7e21cce-1dd2-489a-a2eb-f632799f7523
 description: 摘要：为 System Center 2015 配置主管理服务器、System Center Operations Manager 和导入管理包Skype for Business Server包。
-ms.openlocfilehash: 6128cc33f0a877235c3356a2bef78a9288f6fc13
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: fe03f40f3fd63cf7bc88a8739c04dd98369be26f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60852946"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398756"
 ---
 # <a name="how-to-configure-the-primary-management-server"></a>如何配置主管理服务器
 
-**摘要：** 配置主管理服务器、System Center Operations Manager 和导入 2015 Skype for Business Server包。
+**摘要：** 配置主管理服务器、System Center Operations Manager 和导入 2015 Skype for Business Server管理包。
 
-若要充分利用 Skype for Business Server 2015 中包含的新运行状况监视功能，必须先指定一台计算机作为主管理服务器。 然后，您必须System Center计算机上安装 Operations Manager 2012 SP1、R2 或 System Center Operations Manager 2007 R2。 此外，您必须先安装受支持的 SQL Server，以用作 Operations Manager 后端数据库。
+若要充分利用 Skype for Business Server 2015 中包含的新运行状况监视功能，必须先指定一台计算机作为主管理服务器。 然后，您必须System Center计算机上安装 Operations Manager 2012 SP1、R2 或 System Center Operations Manager 2007 R2。 此外，您必须先安装受支持的 SQL Server版本，以用作 Operations Manager 后端数据库。
 
-在 Operations Manager System Center时，需要安装该产品的所有组件，包括：
+安装 Operations Manager System Center时，需要安装该产品的所有组件，包括：
 
 - 操作数据库
 
@@ -39,23 +39,23 @@ ms.locfileid: "60852946"
 
 - Web 控制台
 
-- Reporting
+- 报表
 
 - 数据仓库
 
 > [!IMPORTANT]
-> 必须先Microsoft Report Viewer 2010 可再发行组件包，然后才能System Center Operations Manager 2012。
+> 必须先Microsoft Report Viewer 2010 可再发行软件包，然后才能安装 System Center Operations Manager 2012。
 
-有关这些产品及其安装的详细信息，请参阅 System Center [Operations Manager 2012](/previous-versions/system-center/system-center-2012-R2/hh205987(v=sc.12))
+有关这些产品及其安装的详细信息，请参阅 [System Center Operations Manager 2012](/previous-versions/system-center/system-center-2012-R2/hh205987(v=sc.12))
 
 
-请记住，每个部署只能有一个根管理Skype for Business Server服务器。
+请记住，每个部署只能有一台根管理Skype for Business Server服务器。
 
 ## <a name="importing-the-skype-for-business-server-2015-management-packs"></a>导入 Skype for Business Server 2015 管理包
 
-您可以通过安装管理包（指示 System Center Operations Manager 可以监视哪些项目、应监视这些项目以及如何触发和报告警报的软件）来扩展 System Center Operations Manager 的功能。 Skype for Business Server 2015 包含两System Center Operations Manager 管理包，它们提供以下功能：
+您可以通过安装管理包（指示 System Center Operations Manager 可以监视哪些项目、应监视这些项目以及如何触发和报告警报的软件）来扩展 System Center Operations Manager 的功能。 Skype for Business Server 2015 System Center两个 Operations Manager 管理包，它们提供以下功能：
 
-- 组件和用户管理包 **(Microsoft.LS.2015.Monitoring.ComponentAndUser.mp)** 跟踪事件日志中记录的 Skype for Business Server 问题、由性能计数器注册的问题，或记录在呼叫详细信息记录 (CDR) 或用户体验质量 (QoE) 数据库中的问题。 对于关键问题，System Center Operations Manager，以通过电子邮件、即时消息或短信立即通知管理员。  (短信服务是一种用于将短信从一个移动设备发送到另一个移动设备的技术。) 
+- 组件和用户管理 **包 (Microsoft.LS.2015.Monitoring.ComponentAndUser.mp) 跟踪** 事件日志中记录的 Skype for Business Server 问题、由性能计数器注册的问题，或记录在呼叫详细信息记录 (CDR) 或用户体验质量 (QoE) 数据库中的问题。 对于关键问题，System Center Operations Manager，以通过电子邮件、即时消息或短信立即通知管理员。  (短信服务是一种用于将短信从一个移动设备发送到另一个移动设备的技术。) 
 
     > [!NOTE]
     >  有关配置 Operations Manager 通知的详细信息，请参阅 [配置通知](/previous-versions/system-center/operations-manager-2007-r2/dd440890(v=technet.10))。
@@ -71,23 +71,23 @@ Component and User Management Pack is used to monitor only Skype for Business Se
 
 可使用下列任一工具导入管理包：
 
-- **System Center Operations Manager** 使用此方法，可使用 Operations Manager 添加对 Skype for Business Server。
+- **System Center Operations Manager** 使用此方法，可使用 Operations Manager 添加对Skype for Business Server。
 
-- **Operations Manager 外壳** 可以使用此Operations Manager 外壳直接导入，或解决在使用 Operations Manager 控制台导入管理包时System Center遇到的问题。
+- **Operations Manager 外壳** 可以使用 Operations Manager 外壳 直接导入，或解决在使用 System Center Operations Manager 控制台导入管理包时遇到的任何问题。
 
 ### <a name="importing-the-management-packs-by-using-system-center-operations-manager"></a>使用 Operations Manager 导入System Center包
 
 1. 从 microsoft SkypeForBusiness2015ManagementPacks.msi下载下载文件，然后安装 msi。
 
-2. 在System Center管理器中，单击"管理 **"。**
+2. 在"System Center管理器"中，单击"管理 **"**。
 
-3. 在"管理"窗格中，右键单击"**管理包"，** 然后单击"**导入管理包"。**
+3. 在"管理"窗格中，右键单击" **管理包"**，然后单击" **导入管理包"**。
 
 4. 在“选择管理包”对话框中，单击“添加”，然后单击“从磁盘中添加”。
 
-5. 在"**联机目录连接"** 对话框中，单击"否 **"。**
+5. 在" **联机目录连接"** 对话框中，单击"否 **"**。
 
-6. 在 **"选择要导入的管理** 包"对话框中，找到并选择 Microsoft.LS.2015.Monitoring.ActiveMonitoring.mp Microsoft.LS.2015.Monitoring.ComponentAndUser.mp，然后单击"打开 **"。** 若要在对话框中选择多个文件，请单击第一个文件，然后按住 Ctrl 键，然后单击后续文件。
+6. 在 **"选择要导入的管理** 包"对话框中，找到并选择 Microsoft.LS.2015.Monitoring.ActiveMonitoring.mp Microsoft.LS.2015.Monitoring.ComponentAndUser.mp 文件，然后单击"打开 **"**。 若要在对话框中选择多个文件，请单击第一个文件，然后按住 Ctrl 键，然后单击后续文件。
 
 7. 在“选择管理包”对话框中，单击“安装”。 如果您收到错误消息并且安装失败，则通常意味着管理包文件位于受 Windows 用户帐户控制保护的文件夹中。 如果发生这种情况，将文件复制到其他文件夹，然后重新启动导入和安装过程。
 
@@ -95,9 +95,9 @@ Component and User Management Pack is used to monitor only Skype for Business Se
 
 ## <a name="importing-the-management-packs-by-using-the-operations-manager-shell"></a>使用管理包导入Operations Manager 外壳
 
-通常，使用 Operations Manager 控制台导入管理包会更容易。 但是，如果发生错误并且导入失败，则控制台不会始终提供足够的错误报告。 相比之下，Operations Manager 外壳提供了详细信息。 如果使用的是 Operations Manager，并且导入管理包时遇到问题，则使用 Operations Manager 外壳。 用户提供的信息Operations Manager 外壳可帮助您确定导入失败的原因。
+通常，使用 Operations Manager 控制台导入管理包会更容易。 但是，如果发生错误并且导入失败，则控制台不会始终提供足够的错误报告。 相比之下，Operations Manager 外壳提供了详细信息。 如果使用的是 Operations Manager，但导入管理包时遇到问题，则使用 Operations Manager 外壳。 该测试Operations Manager 外壳可帮助您确定导入失败的原因。
 
-1. 单击 **"开始**"，单击"**所有** 程序"，System Center **Microsoft System Center 2012"，** 单击 **"Operations** **Manager"，然后单击"Operations Manager 外壳"。**
+1. 单击 **"开始**"，单击"所有 **程序"，** System Center **Microsoft System Center 2012**"，单击"**Operations Manager**"，然后单击"Operations Manager 外壳 **"**。
 
 2. 在Operations Manager 外壳，使用文件副本的实际路径在命令提示符下键入以下 Microsoft.LS.2015.Monitoring.ActiveMonitoring.mp，然后按 Enter：
 

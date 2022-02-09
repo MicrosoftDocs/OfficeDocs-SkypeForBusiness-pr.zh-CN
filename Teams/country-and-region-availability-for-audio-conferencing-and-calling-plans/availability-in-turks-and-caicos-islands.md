@@ -1,7 +1,7 @@
 ---
 title: 特克斯和凯科斯群岛的可用性
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: fafan
 ms.topic: reference
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是适用于特克斯Microsoft 365 Office 365特克斯Skype for Business凯Microsoft Teams群岛的一些服务和服务。
-ms.openlocfilehash: edff99dceae6be7ca5a00a57bbe101f77717e4a1
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+description: 以下是适用于特克斯Microsoft 365凯Office 365群岛的Skype for Business Microsoft Teams服务。
+ms.openlocfilehash: 26d95fd94887cdfb7574c2d18f602d8b087b2d5a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62191413"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62409855"
 ---
 # <a name="availability-in-turks-and-caicos-islands"></a>特克斯和凯科斯群岛的可用性
 
 [查找其他国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或详细了解可以在哪些国家/地区使用音频会议和通话套餐。
 
-以下是适用于特克斯Microsoft 365 Office 365特克斯Skype for Business凯Microsoft Teams群岛的一些服务和服务。
+以下是适用于特克斯Microsoft 365凯Office 365群岛的Skype for Business Microsoft Teams服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 
@@ -72,7 +72,7 @@ ms.locfileid: "62191413"
 |是否提供收费电话号码？  <br/> |否<br/> |
 |免费电话号码是否可用？  <br/> |是  <br/> |
    
- 如果要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅获取电话和[Skype for Business Microsoft Teams。](../getting-service-phone-numbers.md)
+ 如果要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅获取电话和Skype for Business [Microsoft Teams](../getting-service-phone-numbers.md)。
   
 ## <a name="communications-credits"></a>通信点数
 

@@ -1,8 +1,8 @@
 ---
 title: Skype for Business Server 2015 压力和性能工具
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.date: 4/6/2016
 manager: serdars
 audience: ITPro
@@ -13,17 +13,17 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f2f7d19b-18c8-4a41-9b17-80d35b73d742
-description: 在Skype for Business Server或测试环境中的容量规划和性能调整过程中，使用 2015 压力和性能工具。
-ms.openlocfilehash: 140ca0d169c9863fe3104837dae294ee49bc0f48
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: 在Skype for Business Server或测试环境中的容量规划和性能调整过程中，使用 Skype for Business Server 2015 Stress and Performance Tool。
+ms.openlocfilehash: b8858d4aa9ca0b31bd53489c505181e34af9cf4f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839854"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396304"
 ---
 # <a name="skype-for-business-server-2015-stress-and-performance-tool"></a>Skype for Business Server 2015 压力和性能工具
  
-在Skype for Business Server或测试环境中的容量规划和性能调整过程中，使用 2015 压力和性能工具。
+在Skype for Business Server或测试环境中的容量规划和性能调整过程中，使用 Skype for Business Server 2015 Stress and Performance Tool。
   
 The Skype for Business Server 2015 Stress and Performance Tool includes tools that will simplify your capacity planning for Skype for Business Server 2015. The Skype for Business Server 2015 Stress and Performance Tool will help you to：
   
@@ -33,7 +33,7 @@ The Skype for Business Server 2015 Stress and Performance Tool includes tools th
     
 - 测量部署Skype for Business Server性能
     
-通常，使用[Skype for Business Server 2015 规划](../../management-tools/planning-tool/planning-tool.md)工具设计拓扑，并使用[Skype for Business Server 2015](../../management-tools/capacity-planning-calculator.md)容量规划计算器精简拓扑后，通常使用此工具。 
+通常，使用 [Skype for Business Server 2015 规划](../../management-tools/planning-tool/planning-tool.md)工具设计拓扑，并使用 [Skype for Business Server 2015](../../management-tools/capacity-planning-calculator.md) 容量规划计算器优化拓扑后，通常使用此工具。 
 
 > [!NOTE]
 > 此工具不会在 2019 Skype for Business Server更新。
@@ -56,7 +56,7 @@ The Skype for Business Server 2015 Stress and Performance Tool includes tools th
 
 这些应用程序是"压力和性能Skype for Business Server的一部分：
   
-|工具|说明|
+|工具|Description|
 |:-----|:-----|
 |UserProvisioningTool.exe   |此工具用于创建用户和联系人。   |
 |UserProfileGenerator.exe   |用于配置要模拟的用户负载的特征。   |

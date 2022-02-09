@@ -1,8 +1,8 @@
 ---
 title: 待处理的证书（调用）
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: adb5e0f3-17a6-40c2-9c95-c9cd2b558b54
 description: “执行命令”页显示正在检索待处理证书的命令的状态。完成此任务后，“检索待处理证书”日志文件将可用。单击“查看日志”以查看处理情况和任务完成状态。单击“下一步”继续。
-ms.openlocfilehash: 23bbfca4e36fffc12039bf220f863dfe1131530f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 850d65b1429bc402739cbf014d4e8bf89de698bf
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831086"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397985"
 ---
 # <a name="pending-certificate-invoke"></a>待处理的证书（调用）
  

@@ -1,8 +1,8 @@
 ---
 title: 文件存储范围节点
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3d723fd8-9c83-4b96-abb6-15b3dc7ce30a
-description: 此节点显示该文件存储的完全限定 (FQDN) 池和从属池。 可以执行以下操作：
-ms.openlocfilehash: 7eac54c9cd300ecabbf8b9fb23c2517cf65ebf42
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: 此节点显示该文件存储 (池) FQDN 的完全限定域名。 可以执行以下操作：
+ms.openlocfilehash: 1da58e6be5a5ec334f7efbb7d46db13f6fcb6ab2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860209"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410105"
 ---
 # <a name="file-store-scope-node"></a>文件存储范围节点
  
-此节点显示该文件存储的完全限定 (FQDN) 池和从属池。 可以执行以下操作：
+此节点显示该文件存储 (池) FQDN 的完全限定域名。 可以执行以下操作：
   
 - **编辑属性**。打开该服务器的“编辑属性”页，在其中可以更改 FQDN 和文件存储名称。
     

@@ -1,8 +1,8 @@
 ---
 title: 拓扑受信任应用程序
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: eb6185c3-c162-4250-9ec3-11cdd8191287
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要执行什么操作？ 单击要执行的任务的链接。
-ms.openlocfilehash: b1f304cdc66000105e6e8fbd2c8efe96e56992e0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 56751ef6a98ec3983c652b9edf90615988517d33
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837226"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62402356"
 ---
 # <a name="topology-trusted-application"></a>拓扑：受信任应用程序
 

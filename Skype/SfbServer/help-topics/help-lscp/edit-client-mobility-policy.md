@@ -1,8 +1,8 @@
 ---
 title: 编辑客户端移动策略
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 58bd0c10-f33a-451e-b131-bd251a1b8f50
 description: 在“编辑移动策略”对话框上，您可以编辑移动策略的详细信息。
-ms.openlocfilehash: fd760a17f6ff993bbd24670d5578c0b0273bc309
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ccd4b89c986c52686f25633da73860a3b6fd9d10
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848995"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400436"
 ---
 # <a name="edit-client-mobility-policy"></a>编辑客户端移动策略
 

@@ -1,13 +1,13 @@
 ---
-title: Microsoft Teams转换电子邮件和调查|基本升级
-author: HowlinWolf-92
-ms.author: v-mahoffman
+title: Microsoft Teams电子邮件和调查转换|基本升级
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: 示例电子邮件和调查，用于通过加速的十步操作计划从 Skype for Business 升级到 Teams
+description: 示例电子邮件和调查，在 conjunciton 中与加速的十步操作计划一起使用，用于从 Skype for Business Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6b88a8030b2e808f95e8601147acce9cfa31da33
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 928ccad80670a140bfe72eaf42c94b145c0134e0
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841994"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62409805"
 ---
 # <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>升级基本通信的示例电子邮件和调查
 
@@ -201,13 +201,13 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 ## <a name="sample-surveys"></a>示例调查
 
-指示你在活动中心内执行以下活动的能力Teams以及是否有一个或多个活动需要了解更多信息。
+指示你有多熟练地在 Teams 中执行以下活动，以及是否有一个或多个活动需要了解更多信息。
 
 | &nbsp; | 非常熟练 | 有点熟练 | 完全不熟练 | 想要了解更多信息 | 不适用 | 不确定/不熟悉 |&nbsp; | &nbsp;|&nbsp; |&nbsp; |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 使用Teams进行即时消息/与他人聊天 | | | | | | | | | | |
-| 将Teams用于联机会议 | | | | | | | | | | |
-| 使用Teams团队和频道 (协作)  | | | | | | | | | | |
+| 使用Teams其他人进行即时消息/聊天 | | | | | | | | | | |
+| 使用Teams联机会议 | | | | | | | | | | |
+| 使用Teams团队 (频道进行协作)  | | | | | | | | | | |
 | 在Teams设备上使用 | | | | | | | | | | |
 
 | **什么（如果有）阻止你使用Microsoft Teams？** | **选择所有适用项** |

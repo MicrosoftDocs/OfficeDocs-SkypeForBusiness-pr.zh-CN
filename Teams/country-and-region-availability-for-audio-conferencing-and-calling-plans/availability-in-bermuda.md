@@ -1,7 +1,7 @@
 ---
 title: 百里达可用性
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是适用于百Microsoft 365百Office 365百Skype for Business和Microsoft Teams服务。
-ms.openlocfilehash: b00007a0fab4ceeb2e0ecc79f650050786862f66
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+description: 以下是百Microsoft 365百Office 365的Skype for Business Microsoft Teams服务。
+ms.openlocfilehash: 095e4d63c0902d2349778f9d15577497a4b7bc06
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62191053"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400116"
 ---
 # <a name="availability-in-bermuda"></a>百里达可用性
 
 [查找其他国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或详细了解可以在哪些国家/地区使用音频会议和通话套餐。
 
-以下是适用于百Microsoft 365百Office 365百Skype for Business和Microsoft Teams服务。
+以下是百Microsoft 365百Office 365百Skype for Business和Microsoft Teams服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 
@@ -72,7 +72,7 @@ ms.locfileid: "62191053"
 |是否提供收费电话号码？  <br/> |否 <br/> |
 |免费电话号码是否可用？  <br/> |是  <br/> |
    
- 如果要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅获取电话和[Skype for Business Microsoft Teams。](../getting-service-phone-numbers.md)
+ 如果要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅获取电话和Skype for Business [Microsoft Teams](../getting-service-phone-numbers.md)。
   
 ## <a name="communications-credits"></a>通信点数
 

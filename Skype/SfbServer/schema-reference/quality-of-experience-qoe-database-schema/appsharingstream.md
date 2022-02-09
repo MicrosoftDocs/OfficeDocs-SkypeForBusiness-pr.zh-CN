@@ -1,8 +1,8 @@
 ---
 title: AppSharingStream 表
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 391490cb-d7b8-44ca-b4d1-429600da909c
 description: AppSharingStream 表包含用于应用程序共享的网络流的用户体验质量指标。 此表在 Microsoft Lync Server 2013 中引入。
-ms.openlocfilehash: 6bd74e7e67a5292382a09f6a4cba7fb73fb9c100
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 69313a2885f954245460963f119619fb2b91c8d6
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861999"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398526"
 ---
 # <a name="appsharingstream-table"></a>AppSharingStream 表
  
@@ -28,7 +28,7 @@ AppSharingStream 表包含用于应用程序共享的网络流的用户体验质
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |dateTime  <br/> |主、外  <br/> |会话开始的日期和时间。  <br/> |
 |**SessionSeq** <br/> |int  <br/> |主、外  <br/> |用于区分在相同日期和时间开始的会话的顺序标识符。  <br/> |
-|**MediaLineLabel** <br/> |tinyint  <br/> |主、外  <br/> | 请参阅 [MediaLine Table](./medialine-0.md)。 <br/> |
+|**MediaLineLabel** <br/> |tinyint  <br/> |主、外  <br/> | 请参阅 [MediaLine 表](./medialine-0.md)。 <br/> |
 |**StreamID** <br/> |int  <br/> |主  <br/> |应用程序共享流的唯一标识符。  <br/> |
 |**JitterInterArrival** <br/> |int  <br/> ||在 RTP 数据包到达之间检测到的平均抖动率。（抖动是针对呼叫的“不稳定性”的度量。）高抖动值通常是由拥塞或媒体服务器超载造成的，从而导致音频失真或丢失。  <br/> |
 |**JitterInterArrivalMax** <br/> |int  <br/> ||在 RTP 数据包到达之间检测到的最大抖动率。（抖动是针对呼叫的“不稳定性”的度量。）高抖动值通常是由拥塞或媒体服务器超载造成的，从而导致音频失真或丢失。  <br/> |

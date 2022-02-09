@@ -1,7 +1,7 @@
 ---
 title: 在 Microsoft Teams 中管理应用权限策略
 author: serdars
-ms.author: v-mahoffman
+ms.author: serdars
 manager: serdars
 ms.reviewer: rarang
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: b407d0c96e5aa9cbf84277285ab717a1950a9f17
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b5f6941de4973362f8cdbd99235d099973264c7a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761690"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396240"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理应用权限策略
 
@@ -45,7 +45,7 @@ ms.locfileid: "60761690"
 例如，假设你想阻止所有第三方应用，并允许组织中的人力资源团队使用 Microsoft 的特定应用。 首先，转到“[管理应用](manage-apps.md)”页面，并确保在组织级别允许可供人力资源团队使用的应用。 然后，创建一个名为“人力资源应用权限策略”的自定义策略，将其设置为阻止和允许所需的应用，并将其分配给人力资源团队中的用户。
 
 > [!NOTE]
-> 如果在 Microsoft 365 政府社区云 High (GCCH) 和国防部 (DoD) 环境中部署了[Teams，](#manage-org-wide-app-settings-for-microsoft-365-government)请参阅管理 Microsoft 365 Government 的组织范围应用设置，了解有关 GCCH 和 DoD 独有的第三方应用设置。
+> 如果在 Microsoft 365 政府社区云 High (GCCH) 和国防部 (DoD) 环境中部署了 Teams，请参阅管理 [Microsoft 365 Government](#manage-org-wide-app-settings-for-microsoft-365-government) 的组织范围应用设置，了解有关 GCCH 和 DoD 独有的第三方应用设置。
 
 ## <a name="create-a-custom-app-permission-policy"></a>创建自定义应用权限策略
 

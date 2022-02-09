@@ -1,8 +1,8 @@
 ---
 title: 'QoE (PurgeSettings) '
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 31b85d1c-3f32-4f67-94bf-9389cdd282c5
-description: PurgeSettings 表包含指定是否（以及何时）将过时的用户体验质量记录从 QoE 数据库中自动删除。 请注意，还可通过运行以下命令从命令行管理程序Skype for Business Server清除相关信息：
-ms.openlocfilehash: ec89cdfbd634c32ab7a51265ed28e9ee89207892
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: PurgeSettings 表包含指定是否（以及何时）将过时的用户体验质量记录从 QoE 数据库中自动删除。 请注意，通过运行以下命令，也可以从命令行管理程序Skype for Business Server清除相关信息：
+ms.openlocfilehash: 93d7f7c5bbb1d05daaf11372cbddf9e515bb90ed
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858079"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398516"
 ---
 # <a name="purgesettings-table-qoe"></a>QoE (PurgeSettings) 
  
-PurgeSettings 表包含指定是否（以及何时）将过时的用户体验质量记录从 QoE 数据库中自动删除。 请注意，还可通过运行以下命令从命令行管理程序Skype for Business Server清除相关信息：
+PurgeSettings 表包含指定是否（以及何时）将过时的用户体验质量记录从 QoE 数据库中自动删除。 请注意，通过运行以下命令，也可以从命令行管理程序Skype for Business Server清除相关信息：
   
 ```PowerShell
 Get-CsQoEConfiguration

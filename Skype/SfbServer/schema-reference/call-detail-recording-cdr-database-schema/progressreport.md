@@ -1,8 +1,8 @@
 ---
 title: ProgressReport 表
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 38e5f060-5e9b-4185-87b2-7ef61c4bb75f
 description: 进度报告基于呼叫或会话结束后客户端上载到数据库的数据。 仅针对 2015 年 2015 Skype for Business Server确定可用于诊断目的的呼叫和会话编写进度报告。
-ms.openlocfilehash: 7004361a1f66232df3827c3276a624d2699ac50b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 969b6ca08461483857015123a2b90303654435d2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856459"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62404564"
 ---
 # <a name="progressreport-table"></a>ProgressReport 表
  
@@ -28,9 +28,9 @@ ErrorTime、ErrorReportSeq 和 ProgressReportSeq 字段不一定指错误，而�
   
 |**列**|**数据类型**|**键/索引**|**详细信息**|
 |:-----|:-----|:-----|:-----|
-|**ErrorTime** <br/> |datetime  <br/> |主、外  <br/> |包含此进度报告的进度错误报告的日期和时间。 有关详细信息，[请参阅 Skype for Business Server 2015 中的 ErrorReport](errorreport.md)表。 <br/> |
-|**ErrorId** <br/> |int  <br/> |主、外  <br/> |与 ErrorTime 和 ProgressReportSeq 结合使用唯一地标识进度报告的 ID 号。 有关详细信息，[请参阅 Skype for Business Server 2015 中的 ErrorReport](errorreport.md)表。 <br/> |
-|**ErrorReportSeq** <br/> |int  <br/> |主、外  <br/> |标识错误报告的 ID 号。 ErrorReporSeq 与 ErrorTime 结合使用来唯一地标识错误报告。 有关详细信息，[请参阅 Skype for Business Server 2015 中的 ErrorReport](errorreport.md)表 <br/> 此字段在 Microsoft Lync Server 2013 中引入。  <br/> |
+|**ErrorTime** <br/> |datetime  <br/> |主、外  <br/> |包含此进度报告的进度错误报告的日期和时间。 有关详细信息，[请参阅 Skype for Business Server 2015 中的 ErrorReport](errorreport.md) 表。 <br/> |
+|**ErrorId** <br/> |int  <br/> |主、外  <br/> |与 ErrorTime 和 ProgressReportSeq 结合使用唯一地标识进度报告的 ID 号。 有关详细信息，[请参阅 Skype for Business Server 2015 中的 ErrorReport](errorreport.md) 表。 <br/> |
+|**ErrorReportSeq** <br/> |int  <br/> |主、外  <br/> |标识错误报告的 ID 号。 ErrorReporSeq 与 ErrorTime 结合使用来唯一地标识错误报告。 有关详细信息，[请参阅 Skype for Business Server 2015 中的 ErrorReport](errorreport.md) 表 <br/> 此字段在 Microsoft Lync Server 2013 中引入。  <br/> |
 |**ProgressReportSeq** <br/> |int  <br/> |主  <br/> |标识进度报告的 ID 号。与 ErrorTime 和 ErrorReportSeq 结合使用可唯一地标识进度报告。  <br/> |
 |**MsDiagId** <br/> |int  <br/> ||进度报告的诊断 ID。  <br/> 此字段在 Microsoft Lync Server 2013 中引入。  <br/> |
 |**SourceId** <br/> |int  <br/> |Foreign  <br/> |发送错误报告的服务器 (报告是否从服务器组件发送) 。 有关详细信息 [，请参阅 Servers](servers.md) 表。此字段在 Microsoft Lync Server 2013 中引入。 <br/> |

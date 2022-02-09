@@ -1,8 +1,8 @@
 ---
 title: SQL 实例范围节点
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,13 +14,13 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 399dce5b-bd51-4693-89d9-3463c1d73ded
 ROBOTS: NOINDEX, NOFOLLOW
-description: "\"SQL存储\"节点列出了SQL Server拓扑中的数据库。 可以执行以下操作："
-ms.openlocfilehash: d8fd04904dc0a9336f773b5c030025c8a1614c29
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: "\"SQL存储\"节点列出了SQL Server中的数据库。 可以执行以下操作："
+ms.openlocfilehash: fb9cd262ca4fc2459d9d44c521dd480bb0156776
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858429"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400486"
 ---
 # <a name="sql-instances-scope-node"></a>SQL 实例范围节点
  

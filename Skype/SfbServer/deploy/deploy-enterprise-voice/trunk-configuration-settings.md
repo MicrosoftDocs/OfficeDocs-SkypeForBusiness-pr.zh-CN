@@ -1,8 +1,8 @@
 ---
-title: 在服务器中创建新的中继配置Skype for Business Server
+title: 在服务器中创建新的中继配置设置Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,16 +16,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4ebd710c-38cd-4cff-9a45-df029d424580
 description: 摘要：了解如何使用"安全"控制面板创建新的中继配置Skype for Business Server集合。
-ms.openlocfilehash: 2a6db1b82693ce78bd48ff8cc816503026871a09
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 18a1639184b84346f09195c35b9d646545fa35a5
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856289"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399336"
 ---
-# <a name="create-a-new-collection-of-trunk-configuration-settings-in-skype-for-business-server"></a>在服务器中创建新的中继配置Skype for Business Server
+# <a name="create-a-new-collection-of-trunk-configuration-settings-in-skype-for-business-server"></a>在服务器中创建新的中继配置设置Skype for Business Server
 
-**摘要：** 了解如何使用"管理"控制面板创建新的中继配置Skype for Business Server集合。
+**摘要：** 了解如何使用"安全"控制面板创建新的中继配置Skype for Business Server集合。
   
 SIP 中继配置设置定义中介服务器与服务提供商的公用电话交换网 (PSTN) 网关、IP-Public Branch eXchange (PBX) 或会话边界控制器 (SBC) 之间的关系和功能。 这些设置按下面的指示执行此类操作：
   
@@ -35,7 +35,7 @@ SIP 中继配置设置定义中介服务器与服务提供商的公用电话交�
     
 - 每个中继上是否需要安全实时传输 (SRTP) 加密。
     
-在安装Skype for Business Server时，将创建 SIP 中继配置设置的全局集合。 此外，管理员还可以在站点作用域或服务作用域（仅针对 PSTN 网关服务）内创建自定义设置集合。
+安装客户端Skype for Business Server，将创建 SIP 中继配置设置的全局集合。 此外，管理员还可以在站点作用域或服务作用域（仅针对 PSTN 网关服务）内创建自定义设置集合。
   
 使用"控制面板"Skype for Business Server SIP 中继配置设置时，可以使用以下选项。
   
@@ -65,7 +65,7 @@ SIP 中继配置设置定义中介服务器与服务提供商的公用电话交�
   
 ### <a name="to-create-new-trunk-configuration-settings-by-using-skype-for-business-server-control-panel"></a>使用控制面板创建新的中继Skype for Business Server设置
 
-1. 在Skype for Business Server控制面板"中，单击"**语音路由**"，然后单击"**中继配置"。**
+1. 在Skype for Business Server控制面板"中，单击"**语音路由"**，然后单击"**Trunk 配置"**。
     
 2. 在“Trunk 配置”选项卡上，单击“新建”，然后单击“站点 Trunk”以创建站点作用域的新设置，或“池 Trunk”创建服务作用域的新设置。
     
@@ -77,4 +77,4 @@ SIP 中继配置设置定义中介服务器与服务提供商的公用电话交�
     
 6. 在“未提交的语音配置设置”对话框中，单击“确定”。
     
-7. 在 **"Skype for Business Server控制面板**"对话框中，单击"确定 **"。**
+7. 在"**Skype for Business Server控制面板**"对话框中，单击"确定 **"**。

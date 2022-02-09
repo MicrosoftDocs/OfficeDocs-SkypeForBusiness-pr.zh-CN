@@ -1,8 +1,8 @@
 ---
 title: Skype for Business Server 2015 压力和性能工具的常见问题解答
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.date: 11/11/2015
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ce18db60-5f6b-423d-bc41-91e7c80fb7e3
 description: Skype for Business 2015 压力和性能工具常见问题 (FAQ) ，有助于找出受支持的工具配置、解决工具问题以及阐明在运行压力和性能工具时可能看到的行为。
-ms.openlocfilehash: fb81d31711b027d58b8d5b97ecd6d14f32c0fa0f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 72f83f10d84a7e1f50f34d641c73fd1777f2b7b4
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857289"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397606"
 ---
 # <a name="faq-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Skype for Business Server 2015 压力和性能工具的常见问题解答
  
@@ -27,13 +27,13 @@ Skype for Business 2015 压力和性能工具常见问题 (FAQ) ，有助于找�
   
  此常见问题解答涵盖有关 Skype for Business Server 2015 压力和性能工具的一些最常见的问题，并且有助于进行故障排除和工具配置选择。
   
-## <a name="can-i-run-lyncperftoolexe-in-production"></a>能否在生产LyncPerfTool.exe运行应用程序？
+## <a name="can-i-run-lyncperftoolexe-in-production"></a>能否在生产LyncPerfTool.exe运行产品？
 
 不建议 **这样做** 。 该工具会影响生产服务器的性能、安全性和最终用户体验。
   
 ## <a name="im-logging-my-users-on-for-the-first-time-why-are-my-servers-running-a-high-load"></a>我第一次登录我的用户。 为什么我的服务器运行高负载？
 
-用户第一次登录时，将在后台执行其他操作。 因此，后端服务器上Microsoft SQL Server性能可能会下降。 建议您运行一个对所有用户进行登录的简短测试，然后重新启动客户端，然后再开始使用该工具测量结果。 Skype for Business Server每秒支持 12 个并发用户登录会话，但请注意服务器可以处理的实际数量取决于硬件配置，并且可能低于支持的值。
+用户第一次登录时，将在后台执行其他操作。 因此，后端Microsoft SQL Server性能可能会下降。 建议您运行一个对所有用户进行登录的简短测试，然后重新启动客户端，然后再开始使用该工具测量结果。 Skype for Business Server每秒支持 12 个并发用户登录会话，但请注意服务器可以处理的实际数量取决于硬件配置，并且可能低于支持的值。
   
 ## <a name="my-clients-are-running-out-of-memory-what-should-i-do"></a>我的客户端内存不足！ 我该怎么办？
 
@@ -41,9 +41,9 @@ Skype for Business 2015 压力和性能工具常见问题 (FAQ) ，有助于找�
   
 ## <a name="can-i-run-this-tool-on-a-skype-for-business-server-itself"></a>能否在服务器本身上Skype for Business此工具？
 
-不应这样做。 不支持此方案，因为它可能由于二进制不匹配而失败，还因为目标是测量服务器上资源消耗。 实际运行该工具会影响服务器性能，并且会使数据和度量失效。
+不应这样做。 此方案不受支持，因为它可能由于二进制不匹配而失败，还因为目标是测量服务器上资源消耗。 实际运行该工具会影响服务器性能，并且会使数据和度量失效。
   
-## <a name="can-i-run-lyncperftoolexe-on-a-virtual-server-or-on-microsoft-hyper-v-server-20082012"></a>我能否在虚拟LyncPerfTool.exe或 Microsoft Hyper-V Server 2008/2012 上运行应用程序？
+## <a name="can-i-run-lyncperftoolexe-on-a-virtual-server-or-on-microsoft-hyper-v-server-20082012"></a>能否在虚拟LyncPerfTool.exe或 Microsoft Hyper-V Server 2008/2012 中运行该服务器？
 
 可以。
   
