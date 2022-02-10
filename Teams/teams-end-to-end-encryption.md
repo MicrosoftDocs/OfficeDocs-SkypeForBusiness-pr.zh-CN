@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bdc626510a180185cae699106c1420880ea55e73
-ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
+ms.openlocfilehash: cdce0e30c1aaa3b40f362acda47c1a9ffa35161f
+ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60579694"
+ms.lasthandoff: 02/10/2022
+ms.locfileid: "62518934"
 ---
 # <a name="use-end-to-end-encryption-for-one-to-one-microsoft-teams-calls-public-preview"></a>将端到端加密用于一对一 Microsoft Teams 通话（公共预览版）
 
@@ -77,7 +77,7 @@ ms.locfileid: "60579694"
 
 组织范围的全局默认策略指定禁用端到端加密。 除非你创建并分配了自定义策略，你组织中的用户将自动获取全局策略。 如果要启用端到端加密，请创建新的加密策略或修改全局默认策略。 如果要使用 Teams 管理中心来启用端到端加密，请完成以下步骤。
 
-1. 使用已分配有 Teams 或全局管理员角色的工作或学校帐户登录到 [Teams 管理中心](https://go.microsoft.com/fwlink/p/?linkid=2024339)。
+1. 使用已分配有 Teams 或全局管理员角色的工作或学校帐户登录到 [Teams 管理中心](https://admin.teams.microsoft.com/)。
 
 2. 转到“**其他设置**” > “**增强型加密策略**”。
 

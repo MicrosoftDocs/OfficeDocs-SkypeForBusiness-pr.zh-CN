@@ -62,9 +62,9 @@ additionalContent:
   sections:
     - title: 课程
       items:
-        - title: Teamwork 专家认证
-          summary: 协作是当今工作的重要技能。 了解企业内部强大的Microsoft Teams如何保持连接并更有效地与团队一起工作
+        - title: Teamwork 专家Learning路径
+          summary: 协作是当今工作的重要技能。 了解企业内部强大的Microsoft Teams如何保持连接并更有效地与团队合作。
           url: /learn/paths/teamwork-specialist
-        - title: 服务采用专家认证
-          summary: Microsoft 服务采用专家认证课程的特色Teams。 了解如何在组织中推动Microsoft 服务采用
+        - title: 服务采用专家Learning路径
+          summary: Microsoft 服务采用专家Learning Path Teams服务和其他Microsoft 365功能。 了解如何在组织中推动Microsoft 服务采用。
           url: /learn/paths/m365-service-adoption
