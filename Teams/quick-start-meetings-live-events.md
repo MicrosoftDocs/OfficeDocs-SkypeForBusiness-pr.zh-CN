@@ -20,12 +20,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0146c77fc5727a1dc57a7062eeb62cebaba46034
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: 07d050782dfef1ce89f54891302457c2f1616fa5
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766215"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763645"
 ---
 # <a name="quick-start---meetings-webinars-and-live-events"></a>快速入门 - 会议、网络研讨会和直播活动 
 
@@ -86,7 +86,8 @@ Teams 中的 **会议** 包括最多 1,000 人的音频、视频和屏幕共享�
 | [会议策略](meeting-policies-overview.md)  | 介绍如何创建和管理策略，以确定哪些功能可供会议参与者使用。 | 
 | [管理 Teams 云会议录制](cloud-recording.md) | 介绍如何管理会议录制。 |
 | [管理组织的设备](device-management.md)。| 介绍如何管理组织的设备，例如手机和 Teams 会议室。 |
-||
+| [使用实时遥测来解决会议质量不佳的问题](use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md) | 介绍如何使用实时分析 (RTA) 对个别用户的 Microsoft Teams 会议质量不佳进行故障排除。 
+|||
 
 #### <a name="key-training-for-end-users"></a>面向最终用户的关键培训
 
