@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: 了解如何在应用程序中为组织Teams Bookings 应用。
-ms.openlocfilehash: 2bbc671b1054cfa4340abf7656e17939d147dea2
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
+ms.openlocfilehash: 147089c51ebc6d3e5eb6bf567579c9aa7fc5f2ce
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288340"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763726"
 ---
 # <a name="manage-the-bookings-app-in-microsoft-teams"></a>在应用程序中管理 Bookings Microsoft Teams
 
@@ -51,7 +51,7 @@ Microsoft Teams 中的 Bookings 应用提供了简便的方法来安排面对面
 
 ## <a name="availability-of-bookings-in-teams"></a>Teams 中 Bookings 可用性
 
-适用于 Teams 的 Microsoft Bookings 应用在桌面和 Web 上可用。 可在"应用 ["下找到](https://teams.microsoft.com/l/app/4c4ec2e8-4a2c-4bce-8d8f-00fc664a4e5b?source=store-copy-link)Teams"管理 **中心** 中的应用"Teams下。
+适用于 Teams 的 Microsoft Bookings 应用在桌面和 Web 上可用。 可在"[应用"下](https://teams.microsoft.com/l/app/4c4ec2e8-4a2c-4bce-8d8f-00fc664a4e5b?source=store-copy-link)找到Teams管理中心中的"管理 **应用** Teams下。
 
 ### <a name="control-access-to-bookings-within-your-organization"></a>控制组织内对 Bookings 的访问权限
 
@@ -63,13 +63,13 @@ Microsoft Teams 中的 Bookings 应用提供了简便的方法来安排面对面
 
 ## <a name="recommended-meeting-policy-settings"></a>建议的会议策略设置
 
-若要为 Bookings 提供最佳体验，请创建Teams会议策略以自动允许组织中所有人，并将该策略分配给你的员工。 这样，员工可以自动加入约会，为外部与会者启用大厅体验。 详细了解如何 [自动允许人员参加会议](meeting-policies-participants-and-guests.md#automatically-admit-people)。
+若要为 Bookings 提供最佳体验，请创建Teams会议策略以自动允许组织中所有人，并将该策略分配给您的员工。 这样，员工可以自动加入约会，为外部与会者启用大厅体验。 详细了解如何 [自动允许人员参加会议](meeting-policies-participants-and-guests.md#automatically-admit-people)。
 
 ## <a name="optional-staff-approvals-setting"></a>可选员工审批策略
 
 作为额外的隐私设置，可以选择要求员工在通过 Bookings 共享其日程可用性信息之前，以及可以预定其参加某一约会之前选择加入。  
 
-若要启用此设置，请转到"Microsoft 365 管理中心 **设置** \> **设置** \> **，然后选择**"**Bookings"**。
+若要启用此设置，请转到\>"Microsoft 365 管理中心设置 **设置**\>，**然后选择**"**Bookings"**。
 
 启用此设置后，员工将收到一封电子邮件，要求他们批准预订日历的成员身份。  
 
@@ -90,7 +90,7 @@ Set-Mailbox -identity business@domain.onmicrosoft.com -WindowsEmailAddress busin
 有关详细信息，请参阅 PowerShell 文档以了解 [Set-Mailbox](/powershell/module/exchange/mailboxes/set-mailbox) cmdlet。
 
 > [!NOTE]
-> 如果使用混合Exchange配置，建议在更改默认域时Exchange和 Exchange Online之间的邮件流。
+> 如果使用混合Exchange配置，我们建议在更改默认域时Exchange Exchange Online本地域之间的邮件流。
 
 ## <a name="sending-feedback"></a>发送反馈
 
@@ -100,7 +100,7 @@ Set-Mailbox -identity business@domain.onmicrosoft.com -WindowsEmailAddress busin
   - 功能差距或缺失的功能
   - bug 或问题
   
-若要发送反馈，请选择左侧导航栏Teams附近的"帮助"按钮，然后选择"报告所有问题 **的问题**"。 在反馈报告的开头指明你正在发送有关"Bookings"的反馈，以便我们可以轻松识别 Bookings 问题。
+若要发送反馈，请选择左侧导航栏底部Teams"帮助"按钮，然后选择"报告所有问题 **的问题**"。 在反馈报告的开头指明你正在发送有关"Bookings"的反馈，以便我们可以轻松识别 Bookings 问题。
 
 ## <a name="related-articles"></a>相关文章
 

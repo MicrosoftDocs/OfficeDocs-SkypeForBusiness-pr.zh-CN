@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: hafarmer
 description: 了解在移动浏览器中Teams虚拟访问的加入体验。
-ms.openlocfilehash: 5c4b0f7ac9011d12d12e3076f900880292e72eb1
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
+ms.openlocfilehash: 83bbe6e2db29a1ed43bbe1646f8545072dac7d2d
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288560"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763706"
 ---
 # <a name="manage-the-join-experience-for-teams-virtual-visits-on-mobile-browsers"></a>管理移动浏览器上Teams虚拟访问的加入体验
 
@@ -52,7 +52,7 @@ Microsoft Teams，用户无需下载约会即可在移动设备上加入Teams。
 
 #### <a name="turn-on-mobile-browser-join-for-an-appointment-type"></a>为约会类型启用移动浏览器加入
 
-在 Bookings 中 > ，设置选择约会类型，然后打开"允许与会者从 [](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887)移动 **浏览器加入"**。 这样做可让移动浏览器加入此类型的所有约会。
+在 Bookings 中 > ，设置选择约会类型，然后打开"允许与会者从移动 [](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887)**浏览器加入"**。 这样做可让移动浏览器加入此类型的所有约会。
 
 :::image type="content" source="../media/mobile-browser-join-bookings-appointment-type.png" alt-text="Bookings 应用中约会类型的"允许与会者从移动浏览器加入"设置的屏幕截图":::
 
@@ -66,9 +66,9 @@ Microsoft Teams，用户无需下载约会即可在移动设备上加入Teams。
 
 你或你的员工不需要任何设置！
 
-**与 Cerner EHR** 集成：Teams EHR 连接器支持患者通过移动设备加入虚拟访问。 预约时，患者可以通过点击短信中的链接加入虚拟访问。 患者选择他们想要的浏览器，Teams浏览器中打开。
+**与 Cerner EHR** 集成：Teams EHR 连接器支持患者通过移动设备加入虚拟预约。 预约时，患者可以通过点击短信中的链接加入。 患者选择他们想要的浏览器，Teams浏览器中打开。
 
-**与 Epic EHR** 集成：Teams EHR 连接器支持患者通过 MyChart Web 和移动设备加入虚拟访问。 预约时，患者可以使用"开始虚拟访问"按钮从 MyChart 开始 **虚拟** 访问。 患者选择他们想要的浏览器，Teams浏览器中打开。
+**与长篇 EHR** 集成：Teams EHR 连接器支持患者通过 MyChart Web 和移动设备加入虚拟约会。 预约时，患者可以使用"开始虚拟访问"按钮从 MyChart **开始** 访问。 患者选择他们想要的浏览器，Teams浏览器中打开。
 
 ## <a name="supported-mobile-browsers"></a>支持的移动浏览器
 
@@ -86,15 +86,15 @@ Microsoft Teams，用户无需下载约会即可在移动设备上加入Teams。
 
 ## <a name="things-to-consider"></a>要考虑的问题
 
-执行虚拟访问的员工可以从桌面、移动Teams客户端与从移动浏览器加入的与会者共享其屏幕。 但是，与会者无法从移动浏览器共享其屏幕。
+执行访问的职员可以从桌面、移动Teams客户端与从移动浏览器加入的与会者共享其屏幕。 但是，与会者无法从移动浏览器共享其屏幕。
 
 > [!NOTE]
 > 我们将在将来的 Teams 版本中向会议加入体验添加更多功能，因此请返回查看最新信息。 若要随时了解即将推出的Teams功能，请查看Microsoft 365[路线图](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams)。
 
 ## <a name="related-articles"></a>相关文章
 
-- [使用 Teams 和 Bookings 应用进行虚拟访问](bookings-virtual-visits.md)
+- [通过 Teams 和 Bookings 应用进行虚拟访问](bookings-virtual-visits.md)
 - [创建 Bookings 约会类型](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887)
 - [作为与会者加入 Bookings 约会](https://support.microsoft.com/office/join-a-bookings-appointment-as-an-attendee-95cea12d-2220-421f-a663-6efb20913c7f)
-- [使用证书进行虚拟Teams - 集成到 Cerner EHR](healthcare/ehr-admin-cerner.md)
+- [使用虚拟访问Teams - 集成到 Cerner EHR](healthcare/ehr-admin-cerner.md)
 - [使用虚拟访问Teams - 集成到长篇 EHR 中](healthcare/ehr-admin.md)

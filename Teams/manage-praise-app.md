@@ -9,21 +9,21 @@ ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
 description: 了解如何在 表扬 管理中心内Microsoft Teams应用。
-ms.openlocfilehash: 064a1b90db44971e2fd796ea96de2a3523f7f380
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 24ddbc66018056360e226f13669ee3dae1e78db5
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62401606"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763307"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>在 表扬 管理中心Microsoft Teams应用
 
-表扬应用Microsoft Teams帮助用户向组织或课堂成员表示感激。 大表扬徽章旨在帮助识别用户从教育工作者到一线Teams各种工作所付出的工作。 若要了解有关详细信息，请查看向[表扬发送通知](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e)。
+表扬应用Microsoft Teams帮助用户向组织或课堂成员表示感激。 大表扬徽章旨在帮助识别从教育工作者到一线员工Teams各种工作所付出的工作。 若要了解有关详细信息，请查看向[表扬发送通知](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e)。
 
-管理员必须拥有Teams许可证才能访问此功能。 如果尝试在没有许可证的情况下访问Teams，则会显示一条错误消息。
+管理员必须具有一个Teams才能访问此功能。 如果尝试在没有许可证的情况下访问Teams，则会显示一条错误消息。
 
 > [!NOTE]
-> 表扬应用适用于云GCC，但不适用于 GCC High 或 DoD。
+> 表扬应用适用于GCC环境，但不适用于 GCC High 或 DoD。
 
 ## <a name="enable-or-disable-praise-in-your-organization"></a>在组织中表扬或禁用活动
 
@@ -47,7 +47,7 @@ ms.locfileid: "62401606"
 :::image type="content" source="media/default-set-praise.png" alt-text="默认锁屏提醒集的锁屏提醒图像。":::
 
 > [!NOTE]
-> 从 2022 年 2 月开始，用户只能发送和接收默认锁屏提醒。 自定义锁屏提醒不再可用，自定义锁屏提醒的选项即将从 Teams 管理中心的应用设置页面中删除。
+> 从 2022 年 2 月开始，用户只能发送和接收默认锁屏提醒。 自定义锁屏提醒不再可用，并且自定义锁屏提醒的选项已从管理中心Teams删除。
 
 ## <a name="related-articles"></a>相关文章
 

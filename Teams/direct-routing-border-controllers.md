@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 了解哪些会话边界控制器 (SBC) 已通过直接路由认证。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 71ba2fc6856b57a2619122b1c7341404651d4e8f
-ms.sourcegitcommit: b1d1a2b27c9dbc73a306bd69696fceda77688b26
+ms.openlocfilehash: 69add2b195da03dee69b2a33583b5dbed8f614e8
+ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/07/2022
-ms.locfileid: "62432851"
+ms.lasthandoff: 02/10/2022
+ms.locfileid: "62518924"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>经认证可用于直接路由的会话边界控制器
 
@@ -37,14 +37,14 @@ Microsoft 与每个供应商合作：
 - 与 SBC 供应商一起提供联合支持。
 
   > [!NOTE]
-  > Microsoft 仅在通过直接路由连接一个或多个获得认证的设备时支持电话系统。 如果出现问题，客户必须先联系 SBC 供应商客户支持。 如果需要，SBC 供应商将通过内部渠道将问题呈报给 Microsoft。 Microsoft 保留在非认证设备通过直接路由连接电话系统的情况下拒绝提供支持的权利。 如果 Microsoft 确定客户的直接路由问题与供应商的 SBC 设备有关，则客户需要重新联系 SBC 供应商以获得支持。
+  > Microsoft 仅在与认证设备一起使用时支持具有直接路由的电话系统。 如果出现问题，必须先联系 SBC 供应商的客户支持。 如果需要，SBC 供应商将通过内部渠道将问题呈报给 Microsoft。 Microsoft 保留在非认证设备通过直接路由连接电话系统的情况下拒绝提供支持的权利。 如果 Microsoft 确定客户的直接路由问题与供应商的 SBC 设备有关，则客户需要重新联系 SBC 供应商以获得支持。
   >
   > 认证将授予特定的 SBC 固件版本。 下面介绍的任何 SBC 固件版本都经过认证且受支持。 只要 major.minor 版本相同，就支持高于所述内容的固件版本。
   >
   > 示例：
   >
-  > - 支持 6.10.258 - 在本例中，我们还支持固件版本 6.10. (258 或更高版本)。
-  > - 建议使用 6.20.100 - 在本例中，我们还建议使用固件版本 6.20. (100 或更高版本)。
+  > - 支持的 6.10.258 - 在这种情况下，Microsoft 支持固件版本 6.10。（258 或更高版本）。
+  > - 建议的 6.20.100 - 在这种情况下，Microsoft 建议使用固件版本 6.20。（100 或更高版本）。
   > - 有关特定版本的可支持性问题，请联系 SBC 供应商。
 
 下表列出了经认证可用于直接路由的设备。 （如需了解哪些 SBC 供应商支持本地媒体优化的信息，请参阅[为直接路由配置本地媒体优化](direct-routing-media-optimization-configure.md)。）
@@ -95,7 +95,7 @@ Microsoft 与每个供应商合作：
 |                     [爱立信](https://www.ericsson.com/en/portfolio/digital-services/cloud-communication/enterprise-communication/business-communication-services-and-enablers/sip-trunking)|    vSBC 2.16     |     &#10004;     |           |              |     |    |
 |                     [Cataleya](https://cataleya.com/orchidplatforms/)|    Orchid Link    |     &#10004;     |           |      3.1        |     |    |
 |                     [ULTATEL](https://www.ultatel.com/services/direct-routing-teams-sbc)|    Teams SBC    |     &#10004;     |     &#10004;      |      1.6        |     |    |
-|                     [Atos](https://unify.com/en/solutions/voice-platforms/session-border-controller)|    Atos Unify OpenScape 会话边界控制器   |     &#10004;     |   &#10004;        |     支持无媒体绕过 V10R1.2（建议用于媒体绕过 V10R2.2.0）     |     |    |
+|                     [Atos](https://unify.com/en/solutions/voice-platforms/session-border-controller)|    Atos Unify OpenScape 会话边界控制器   |     &#10004;     |   &#10004;        |     V10R2.2.0     |     |    |
 |                     [Sansay Inc.](https://www.sansay.com/solutions/microsoft-teams/)|    vmVSXi   |     &#10004;     |     &#10004;     |      10.5.1.354-vm-S-x64      |     |    |
 |                     [Enghouse Networks](https://www.enghousenetworks.com/portfolio/network-infrastructure/cloud-native-session-border-controller-sbc/)|    Dialogic BorderNet SBC   |     &#10004;     |     &#10004;     |      3.9.0-786      |     |    |
 |                     [Patton Electronics Co.](https://www.patton.com/microsoft/)|    Patton SmartNode eSBC   |     &#10004;     |         |      3.19.x      |     |    |
@@ -173,7 +173,7 @@ Microsoft 与每个供应商合作：
 | [功能区](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [EdgeMarc 6000。软件版本: 16.1.1](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)   |     &#10004;     |
 | [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/) |  具有 Grandstream GXW42xx 的 anynode (V1.0.7.10) |     &#10004;     |
   
-要向我们提供有关 Teams 的产品反馈（例如，新功能想法），请参阅 [UserVoice](https://microsoftteams.uservoice.com)。
+要向我们提供有关 Teams 的反馈（例如，新功能的想法），请参阅 [UserVoice](https://microsoftteams.uservoice.com)。
 
 
 [!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]

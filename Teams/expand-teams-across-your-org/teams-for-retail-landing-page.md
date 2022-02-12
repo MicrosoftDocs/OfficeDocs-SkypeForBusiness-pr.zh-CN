@@ -20,12 +20,12 @@ searchScope:
 - Microsoft Cloud for Retail
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 74b3f81456b8d0acdff0c41678c04713b5cf967a
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
+ms.openlocfilehash: cb32190c05dcbe165e203d9e4f097622d60943b8
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288410"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763397"
 ---
 # <a name="get-started-with-teams-for-retail"></a>Teams for Retail 入门
 
@@ -47,7 +47,7 @@ Microsoft 365和 Microsoft Teams 提供了多种功能，可帮助零售组织�
 [![店内通信和协作。](../media/retail-scenarios-in-store.png)](#in-store-communication-and-collaboration) [![跨存储通信和协作。](../media/retail-scenarios-cross-store.png)](#cross-store-communication-and-collaboration) [![虚拟拟合和咨询。](../media/retail-scenarios-virtual-visits.png)](#virtual-fittings-and-consultations) [![简化业务流程。](../media/retail-scenarios-business-processes.png)](#simplify-business-processes) [![公司通信。](../media/retail-scenarios-corp-comms.png)](#corporate-communications) [![载入新员工。](../media/retail-scenarios-onboarding.png)](#onboarding-new-employees)
 
 > [!NOTE]
-> 这些方案也是 Microsoft Cloud for Retail 的一部分。 如果还使用 Microsoft Cloud for Retail 中的其他功能（如 Microsoft Dynamics 365），则可以使用这些方案执行更多操作。 详细了解如何使用此解决方案，该解决方案将 Azure、Dynamics 365 和 Microsoft 365 中的功能汇集在 [Microsoft Cloud for Retail](/industry/retail)。
+> 这些方案也是 Microsoft Cloud for Retail 的一部分。 如果还使用 Microsoft Dynamics 365 等 Microsoft Cloud for Retail 的其他功能，则可以使用这些方案执行更多操作。 详细了解如何使用此解决方案，该解决方案将 Azure、Dynamics 365 和 Microsoft 365 中的功能汇集在 [Microsoft Cloud for Retail](/industry/retail)。
 
 ### <a name="in-store-communication-and-collaboration"></a>沟通和协作
 
@@ -194,8 +194,8 @@ Teams 与 Shifts 应用和一线工作人员集成，可用于协调班次人员
 
 | 图像 | 角色 | 责任 | 部门 |
 | ---- | ---- | ----- | ----- |
-| ![管理员符号。](https://docs.microsoft.com/office/media/icons/administrator.png) | IT 管理员 | 与运营和零售管理人员合作，定义方案及其在组织中的工作方式。 <br><br>在 Teams 管理中心配置设置，例如策略和模板，并启用应用。 <br><br>为组织设置应用设置（如全局排班设置）。 <br><br>添加和许可用户。  | IT 部门 |
-| ![用户监视器符号。](https://docs.microsoft.com/office/media/icons/user-monitor.png) | 运营人员 | 与管理员一起定义方案，并确定 Teams 需要哪些设置、策略、模板和应用。 <br><br>从模板创建区域或部门团队。 <br><br>设置任务、列表和审批流，以便在区域内的商店之间或在商店和总部之间进行协调。 <br><br>为员工设置学习框架。 | 中心操作 |
-| ![演示者符号。](https://docs.microsoft.com/office/media/icons/presenter-teams.png) | 应用商店管理器 | 与管理员和运营人员协作来定义方案。 <br><br>从模板为应用商店创建团队。 <br><br>根据需要为团队设置频道和应用。 例如：用于排班的频道。 <br><br>在 Shifts 中设置应用商店计划。 <br><br>设置特定于存储的任务、列表和审批流。 <br><br>为员工设置学习任务。 | 应用商店管理 |
+|<img src="/office/media/icons/administrator.png" alt="Administrator symbol."> | IT 管理员 | 与运营和零售管理人员合作，定义方案及其在组织中的工作方式。 <br><br>在 Teams 管理中心配置设置，例如策略和模板，并启用应用。 <br><br>为组织设置应用设置（如全局排班设置）。 <br><br>添加和许可用户。  | IT 部门 |
+|<img src="/office/media/icons/user-monitor.png" alt="User monitor symbol.">| 运营人员 | 与管理员一起定义方案，并确定 Teams 需要哪些设置、策略、模板和应用。 <br><br>从模板创建区域或部门团队。 <br><br>设置任务、列表和审批流，以便在区域内的商店之间或在商店和总部之间进行协调。 <br><br>为员工设置学习框架。 | 中心操作 |
+|<img src="/office/media/icons/presenter-teams.png" alt="Presenter symbol."> | 应用商店管理器 | 与管理员和运营人员协作来定义方案。 <br><br>从模板为应用商店创建团队。 <br><br>根据需要为团队设置频道和应用。 例如：用于排班的频道。 <br><br>在 Shifts 中设置应用商店计划。 <br><br>设置特定于存储的任务、列表和审批流。 <br><br>为员工设置学习任务。 | 应用商店管理 |
 
 有关成功实现和采用 Teams 的详细信息，请参阅 [采用 Microsoft Teams](../adopt-microsoft-teams-landing-page.md)。

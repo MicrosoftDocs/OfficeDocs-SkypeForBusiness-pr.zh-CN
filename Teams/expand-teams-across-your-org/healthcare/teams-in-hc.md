@@ -26,18 +26,18 @@ description: 了解 Microsoft Teams 括号、EHR 集成、第一线工作者系�
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 665cb047bf19a14c88d0c84c3276aaec305bb2d6
-ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
+ms.openlocfilehash: f257dbf999a333cb9b40d391cf15758631a4ffa6
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "60960011"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763347"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>适用于医疗保健组织的 Teams 入门
 
 Microsoft Teams 提供对医疗保健和其他医疗保健组织有用的许多电话服务功能。 Teams 功能正在开发中，有助于有助于：
 
-- 虚拟访问和电子医疗保健记录 （EHR） 集成
+- 虚拟访问和电子医疗保健记录 (EHR) 集成
 - Teams 策略包
 - 安全消息传递
 - Teams 模板
@@ -45,7 +45,7 @@ Microsoft Teams 提供对医疗保健和其他医疗保健组织有用的许多�
 
 此功能是 Microsoft Cloud for Healthcare 的一部分。 深入了解如何使用此解决方案，它汇集了 [Microsoft Cloud for Healthcare](/industry/healthcare)中 Azure、Dynamics 365 和 Microsoft 365 的功能。
 
-观看以下视频，了解有关使用医疗保健集合增强健康团队协作Teams。
+观看以下视频，详细了解使用医疗保健集合增强健康团队在Teams。
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Hqan]
 
@@ -56,8 +56,8 @@ Microsoft Teams 提供对医疗保健和其他医疗保健组织有用的许多�
 
 | 方案 | 说明 | 要求 |
 | -------- | -------- | -------- |
-| [通过电子医疗保健记录 （EHR） 集成实现虚拟访问](#virtual-visits-and-electronic-healthcare-record-ehr-integration) | 安排、管理和与患者进行虚拟访问。 此方案将Teams Cerner 或长篇故事平台连接到一起，以支持虚拟访问。 | 活动订阅 Microsoft Cloud for Healthcare 或订阅，Microsoft Teams EHR 连接器独立产品/服务。 <br> 用户必须具有适当的Microsoft 365或Office 365许可证，Teams会议*。 <br> 组织必须具有 Cerner 版本 2018 年 11 月或更高版本或 2018 年 11 月版或更高版本。 <br>[Cerner EHR](ehr-admin-cerner.md#before-you-begin)和[长篇 EHR 要求](ehr-admin.md#before-you-begin)的详细信息 |
-| [使用 Microsoft Bookings 和 Bookings 应用进行虚拟访问](#virtual-visits-and-electronic-healthcare-record-ehr-integration) | 安排、管理和与患者进行虚拟访问。 此方案依靠 Microsoft Bookings 支持虚拟访问。 | 必须为组织启用 Microsoft Bookings。 <br> Bookings 应用的所有用户以及参与会议的教职员工必须具有支持 Teams 会议安排*的许可证。 <br>[Bookings 要求的详细信息](../../bookings-app-admin.md#prerequisites-for-using-the-bookings-app-in-teams)|
+| [使用电子医疗保健记录进行虚拟访问 (EHR) 集成](#virtual-visits-and-electronic-healthcare-record-ehr-integration) | 安排、管理和与患者进行虚拟预约。 此方案将Teams Cerner 或长篇故事平台连接到一起，以支持虚拟访问。 | 活动订阅 Microsoft Cloud for Healthcare 或订阅，Microsoft Teams EHR 连接器独立产品/服务。 <br> 用户必须具有适当的Microsoft 365或Office 365许可证，Teams会议*。 <br> 组织必须具有 Cerner 版本 2018 年 11 月或更高版本或 2018 年 11 月版或更高版本。 <br>[Cerner EHR 和](ehr-admin-cerner.md#before-you-begin)[长篇 EHR 要求](ehr-admin.md#before-you-begin)的详细信息 |
+| [Microsoft Bookings 和 Bookings 应用的虚拟访问](#virtual-visits-and-electronic-healthcare-record-ehr-integration) | 安排、管理和与患者进行虚拟预约。 此方案依赖于 Microsoft Bookings 来支持虚拟访问。 | 必须为组织启用 Microsoft Bookings。 <br> Bookings 应用的所有用户以及参与会议的教职员工必须具有支持 Teams 会议安排*的许可证。 <br>[Bookings 要求的详细信息](../../bookings-app-admin.md#prerequisites-for-using-the-bookings-app-in-teams)|
 | [Teams 策略包](#teams-policy-packages)| 确保患者、信息工作者和患者会议室设备可以适当访问 Teams 功能。| 用户必须具有适当的许可证*。 |
 | [安全消息传递](#secure-messaging) | 更快地关注紧急邮件，并放心收到并阅读了该邮件。 | 用户必须具有适当的许可证*。  |
 | [Teams 模板](#teams-templates-for-healthcare-organizations) | 创建包含设置、通道和预安装的应用的预定义模板，用于在医院、<3> <2> <3>或部门，或在医院内的多个帐户、频道和部门之间沟通和协作。 | 用户必须具有适当的许可证*。  |
@@ -65,12 +65,12 @@ Microsoft Teams 提供对医疗保健和其他医疗保健组织有用的许多�
 
 *Office 365 A3、A5、E3、E5、F1、F3、Microsoft 365 A3、A5、E3 和 E5、Business Standard。 有关常规 Teams 许可详细信息，请参阅"管理 [Teams](../../user-access.md)。
 
-## <a name="virtual-visits-and-electronic-healthcare-record-ehr-integration"></a>虚拟访问和电子医疗保健记录 （EHR） 集成
+## <a name="virtual-visits-and-electronic-healthcare-record-ehr-integration"></a>虚拟访问和电子医疗保健记录 (EHR) 集成
 
-使用完整的会议平台Teams安排、管理和进行患者虚拟访问。
+使用完整的会议平台Teams安排、管理和与患者进行虚拟预约。
 
-- 如果组织已使用电子运行状况记录或 EHR，Teams集成，获得更无缝的体验。 Teams EHR (EHR) 连接器，让医生可以直接从 EHR 系统向 Teams 中的另一个提供商发起虚拟患者访问或咨询。 有关详细信息，请参阅使用 Teams 的虚拟访问 - 集成到[Cerner EHR](ehr-admin-cerner.md)和使用 Teams 虚拟访问[- 集成到长篇 EHR](ehr-admin.md)中。
-- 如果使用的不是受支持的 EHR，可以在 Teams 中使用 Microsoft Bookings 和 Bookings 应用。 若要了解详情，请参阅使用[Teams 和 Bookings 应用的虚拟访问](../bookings-virtual-visits.md)。
+- 如果组织已使用电子运行状况记录或 EHR，Teams集成，获得更无缝的体验。 Teams EHR (EHR) 连接器，让医生能够轻松地直接从 EHR 系统启动虚拟患者访问或咨询 Teams 中的其他提供商。 有关详细信息，请参阅使用 Teams 虚拟访问 [- 集成到 Cerner EHR](ehr-admin-cerner.md) 和虚拟访问与 Teams - 集成到[长篇 EHR](ehr-admin.md) 中。
+- 如果使用的不是受支持的 EHR，可以在 Teams 中使用 Microsoft Bookings 和 Bookings 应用。 若要了解详情，请参阅使用 Teams [和 Bookings 应用进行虚拟访问](../bookings-virtual-visits.md)。
 
 ![使用虚拟访问Microsoft Teams。](../../media/virtual-visits-teams.png)
 
@@ -105,9 +105,9 @@ Microsoft Teams 提供对医疗保健和其他医疗保健组织有用的许多�
 
 将健康团队汇集在一起，以协调护理工作并与Teams。
 
-![医疗保健：与健康团队协作处理Teams。](../../media/teams-healthcare-collaborate-in-teams.png)
+![医疗保健：在医疗保健中心与Teams。](../../media/teams-healthcare-collaborate-in-teams.png)
 
-Teams使医生、医生、护士和其他人员能够使用包括到其他服务中的协作功能进行Teams协作，例如：
+Teams使医生、医生、护士和其他人员能够使用包括在患者中的协作功能进行Teams协作，例如：
 
 - 为运行状况团队和信息工作者设置团队和频道。 将带选项卡的频道用作组织工作结构的方法，从选项卡中可固定信息源的更多帮助。
 - 聊天、发布消息和交流。你的团队可就需要关注的不同患者进行长时间的对话。
@@ -152,7 +152,7 @@ Teams 中的列表应用可帮助团队跟踪信息和组织工作。 该应用�
 
 ### <a name="create-manage-and-share-schedules-with-the-shifts-app-and-frontline-worker-integration"></a>使用 Shifts 应用和第一线工作者集成，创建、管理和共享日程安排
 
-Teams与 Shifts 应用和一线工作人员集成，可用于协调排班人员配备功能等。 例如，在排班中，分区经理可以设置并协调员工的日程安排，并且主管可检查日程安排和调班。 团队中包含内置的"第一线工作者"应用设置策略，可将其分配给组织中第一线工作者。 默认情况下，该策略包括“活动”、“班次”、“聊天”和“通话”应用。 此策略控制这些应用的行为，例如将 Shifts 应用固定到应用栏以便团队可快速访问它。
+Teams 与 Shifts 应用和一线工作人员集成，可用于协调班次人员配备功能等。 例如，在排班中，分区经理可以设置并协调员工的日程安排，并且主管可检查日程安排和调班。 团队中包含内置的"第一线工作者"应用设置策略，可将其分配给组织中第一线工作者。 默认情况下，该策略包括“活动”、“班次”、“聊天”和“通话”应用。 此策略控制这些应用的行为，例如将 Shifts 应用固定到应用栏以便团队可快速访问它。
 
 有关详细信息，请参阅 [Microsoft Teams](../shifts/manage-the-shifts-app-for-your-organization-in-teams.md)中为组织管理 Shifts。
 

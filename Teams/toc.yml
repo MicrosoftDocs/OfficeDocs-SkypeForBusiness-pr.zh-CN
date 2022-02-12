@@ -775,17 +775,17 @@ items:
                 href: audio-conferencing-zones.md
               - name: 视频 - Teams 音频会议
                 href: ./audio-conferencing-in-office-365.md
-  - name: 语音 - Teams 电话和 PSTN 连接
+  - name: 语音 - 电话系统和 PSTN 连接
     items:
       - name: 规划 Teams 语音解决方案
         href: cloud-voice-landing-page.md
-      - name: Teams 电话
+      - name: 电话系统
         items:
-          - name: 什么是 Teams 电话
+          - name: 什么是电话系统
             href: what-is-phone-system-in-office-365.md
-          - name: 以下是你通过 Teams Phone 获得的内容
+          - name: 以下是电话系统的功能
             href: here-s-what-you-get-with-phone-system.md
-          - name: 设置 Teams 电话
+          - name: 设置电话系统
             href: setting-up-your-phone-system.md
           - name: 设置常见区域电话
             href: set-up-common-area-phones.md
@@ -1021,7 +1021,7 @@ items:
             href: voice-case-study-overview.md
           - name: Teams 升级计划
             href: voice-case-study-migration-plan.md
-          - name: Teams 电话
+          - name: 电话系统
             href: voice-case-study-phone-system.md
           - name: 基于位置的路由
             href: voice-case-study-location-based-routing.md
@@ -1033,7 +1033,7 @@ items:
             href: voice-case-study-call-queues.md
       - name: 面向中小型企业的指南
         items:
-          - name: 适用于中小型企业的 Teams 电话指南
+          - name: 适用于中小型企业的电话系统指南
             href: business-voice/whats-business-voice.md
           - name: 国家和地区可用性
             href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
@@ -1041,7 +1041,7 @@ items:
             href: business-voice/get-ready-internet.md
           - name: 从经销商或合作伙伴处获取帮助
             href: business-voice/reseller-partner-support.md
-          - name: 为中小型企业设置 Teams 电话
+          - name: 设置适用于中小型企业的电话系统
             items:
               - name: 概述
                 href: business-voice/set-up-overview.md
@@ -1061,7 +1061,7 @@ items:
                 href: business-voice/port-phone-numbers.md
               - name: 设置后的资源
                 href: business-voice/set-up-finish.md
-          - name: 为中小型企业自定义 Teams 电话设置
+          - name: 为中小型企业自定义电话系统设置
             items:
               - name: 自定义选项
                 href: business-voice/customize-business-voice.md
@@ -1075,7 +1075,7 @@ items:
                 href: business-voice/create-a-phone-system-call-queue-smb.md
               - name: 设置自动助理
                 href: business-voice/create-a-phone-system-auto-attendant-smb.md
-          - name: 管理中小型企业的 Teams 电话设置
+          - name: 管理中小型企业的电话系统设置
             items:
               - name: 创建一个或多个用户
                 href: business-voice/create-users.md
