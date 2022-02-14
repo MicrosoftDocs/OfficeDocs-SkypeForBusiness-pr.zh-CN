@@ -13,31 +13,31 @@ f1.keywords:
 description: CCaaS) 解决方案集成联系中心作为服务 (概述Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6ca66a625b2050bb1c224085b78645375ae19895
-ms.sourcegitcommit: 9f1f5cd828c24676c20df727b2c67daf56ff884c
+ms.openlocfilehash: 9c31ed6194dbf3cf7cf4169983b7292699cce918
+ms.sourcegitcommit: 2612020cd932117148440b60be818ba31208b1d1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62248683"
+ms.lasthandoff: 02/14/2022
+ms.locfileid: "62805443"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>适用于联系人的联系人中心Microsoft Teams
 
-  本文概述如何将联系中心解决方案与Microsoft Teams连接联系中心认证计划Microsoft Teams解决方案提供商集成。
+  本文概述了如何将联系中心解决方案与Microsoft Teams连接联系中心认证计划Microsoft Teams解决方案提供商集成。
 
-## <a name="what-is-contact-center-integration-for-microsoft-teams"></a>什么是适用于联系人中心的集成Microsoft Teams？
+## <a name="what-is-contact-center-integration-for-microsoft-teams"></a>什么是适用于联系人的联系人中心Microsoft Teams？
 
-Microsoft Teams客户交互工作流，它充当其通信模式（包括聊天、视频会议和通话）的内部和外部客户连接的中心。 某些组织Microsoft Teams云语音功能（包括[自动助理](./what-are-phone-system-auto-attendants.md)和呼叫队列）满足其需求。 [](./create-a-phone-system-call-queue.md) [](./cloud-voice-landing-page.md)
+Microsoft Teams作为跨通信模式（包括聊天、视频会议和通话）进行内部和外部客户连接的中心，支持客户交互工作流。 某些组织Microsoft Teams云[语音](./cloud-voice-landing-page.md)功能（包括[自动助理](./what-are-phone-system-auto-attendants.md)和呼叫[队列）满足](./create-a-phone-system-call-queue.md)其需求。
 
-对于希望使用业务工具和工作流的解决方案驱动客户旅程的组织，Microsoft Teams 的联系中心集成允许联系中心即服务 (CCaaS) 解决方案提供商将其解决方案集成到 Teams。
+对于希望使用业务工具和工作流的解决方案驱动客户旅程的组织，Microsoft Teams 的联系中心集成允许联系中心即服务 (CCaaS) 解决方案提供商将其解决方案集成到 Teams 中。
 
 
-## <a name="connected-contact-center-for-microsoft-teams-certification-program"></a>适用于认证计划的Microsoft Teams联系中心
+## <a name="connected-contact-center-for-microsoft-teams-certification-program"></a>用于认证计划的Microsoft Teams联系中心
 
-用于认证计划的Microsoft Teams联系中心验证每个参与提供商的解决方案是否提供他们期望从 Microsoft 解决方案获得的质量、兼容性和可靠性。
+认证计划的Microsoft Teams联系中心验证每个参与提供商的解决方案是否提供他们期望从 Microsoft 解决方案获得的质量、兼容性和可靠性。
 
-如果你的组织正在寻找集成的联系中心解决方案，请参阅为联系中心认证的[Microsoft Teams](https://cloudpartners.transform.microsoft.com/contact-center-solutions)解决方案，了解经过认证的解决方案提供商的列表，并参阅连接的联系中心解决方案，了解认证[](#connected-contact-center-solutions)过程中提供商的列表。
+如果你的组织正在寻找集成的联系中心解决方案，请参阅为联系中心认证的 [Microsoft Teams](https://cloudpartners.transform.microsoft.com/contact-center-solutions) 解决方案，了解经过认证的解决方案提供商的列表，并参阅连接的联系中心解决方案，了解认证过程中[](#connected-contact-center-solutions)提供商的列表。
 
-如果你是希望加入认证计划的供应商，请发送电子邮件 <Teamscategorypartner@microsoft.com> 至 。
+如果你是希望加入认证计划的供应商，请发送电子邮件至 <Teamscategorypartner@microsoft.com>。
 
 [!INCLUDE [contact-center-integration-models](./includes/contact-center-integration-models.md)]
 
@@ -75,7 +75,7 @@ Microsoft Teams客户交互工作流，它充当其通信模式（包括聊天�
 | `Landis Technologies` | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
 | `Luware` | https://luware.com/en/solutions/                                                                                       |
 | `Mida Solutions` | https://www.midasolutions.com/c3-cloud-contact-center-for-teams/                                        |
-| `novomind` | https://www.netcall.com/platform/contact-centre/                         |
+| `Netcall` | https://www.netcall.com/platform/contact-centre/                         |
 | `novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
 | `talkdesk` | https://www.talkdesk.com/cloud-contact-center/integrations/microsoft-teams/                                  |
 | `Tendfor` | https://www.tendfor.com/en/                                                                                     |
