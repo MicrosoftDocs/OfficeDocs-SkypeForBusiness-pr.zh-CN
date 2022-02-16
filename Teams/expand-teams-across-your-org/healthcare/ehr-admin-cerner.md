@@ -22,19 +22,19 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
-description: 了解如何集成 Teams EHR 连接器，使贵组织的医疗保健提供商能够直接从 Cerner EHR 系统与 Teams 中的患者或其他提供商进行虚拟访问。
+description: 了解如何集成 Teams EHR 连接器，使贵组织的医疗保健提供商能够直接从 Cerner EHR 系统与患者Teams其他提供商进行虚拟访问。
 ms.openlocfilehash: e7d104e4541462c94ddb95805ae7ec2a8619bf5b
-ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
+ms.sourcegitcommit: 5880de47e986854fca873ae75f76a7ecad194dff
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/11/2022
+ms.lasthandoff: 02/15/2022
 ms.locfileid: "62763696"
 ---
 # <a name="virtual-visits-with-teams---integration-into-cerner-ehr"></a>使用虚拟访问Teams - 集成到 Cerner EHR
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
-借助 Microsoft Teams EHR) 连接器Microsoft Teams EHR (连接器，医生可以直接从 Cerner EHR 系统启动虚拟患者访问或咨询 Microsoft Teams 中的另一个提供商。 基于 Microsoft 365 云Teams，在支持符合 HIPAA、HITECH 认证等要求的单一中心内，使用聊天、视频、语音和医疗保健工具实现简单、安全的协作和通信。
+借助 Microsoft Teams EHR) 连接器 (电子健康记录，医生可以直接从 Cerner EHR 系统启动虚拟患者访问或咨询 Microsoft Teams 中的另一个提供商。 基于 Microsoft 365 云Teams，在支持符合 HIPAA、HITECH 认证等要求的单一中心内，使用聊天、视频、语音和医疗保健工具实现简单、安全的协作和通信。
 
 这种通信和协作平台Teams让医生能够轻松解决碎片化系统的混乱，以便他们专注于提供最佳护理。 使用 Teams EHR 连接器，可以：
 
@@ -42,7 +42,7 @@ ms.locfileid: "62763696"
 - 允许患者通过电子邮件Teams短信通知加入虚拟访问。
 - 查看与 EHR 连接的访问的消耗数据报告和可自定义的呼叫质量信息。
 
-本文介绍如何设置和配置 EHR 连接器Teams Cerner 平台集成。 此外，还概述了 Cerner EHR Teams虚拟访问体验。
+本文介绍如何设置和配置与 Cerner 平台Teams EHR 连接器。 此外，还概述了 Cerner EHR Teams虚拟访问体验。
 
 ## <a name="before-you-begin"></a>开始之前
 
@@ -54,8 +54,8 @@ ms.locfileid: "62763696"
 在医疗保健组织中Teams EHR 连接器之前，必须具有以下项：
 
 - 仅在生产 EHR Microsoft Teams环境中测试时，才 (EHR 连接器独立产品/服务的活动) 。
-- 用户具有适当的Microsoft 365或Office 365许可证，Teams会议。
-- Teams已在你的医疗保健组织中采用和使用。
+- 用户具有适当的Microsoft 365或Office 365许可证，包括Teams会议。
+- Teams医疗保健组织中采用和使用的一些服务。
 - 系统满足[所有软件和浏览器要求，Teams](../../hardware-requirements-for-the-teams-app.md)。
 - Cerner 版本 2018 年 11 月或更高版本
 
@@ -79,9 +79,9 @@ ms.locfileid: "62763696"
 
 ### <a name="enter-configuration-information"></a>输入配置信息
 
-接下来，要设置集成，Microsoft 365管理员从 Cerner 将快速运行状况互操作性资源 (FHIR) 基 URL 并指定环境。 根据需要配置多个 FHIR 基 URL，具体取决于组织的需求和要测试的环境。
+接下来，若要设置集成，Microsoft 365管理员从 Cerner 将快速运行状况互操作性资源 (FHIR) 基 URL 并指定环境。 根据需要配置多个 FHIR 基 URL，具体取决于组织的需求和要测试的环境。
 
-:::image type="content" source="media/ehr-admin-cerner-configuration.png" alt-text="EHR 连接器配置门户中Teams信息"页的屏幕截图。" lightbox="media/ehr-admin-cerner-configuration.png":::
+:::image type="content" source="media/ehr-admin-cerner-configuration.png" alt-text="EHR 连接器配置门户中Teams信息的屏幕截图。" lightbox="media/ehr-admin-cerner-configuration.png":::
 
 - FHIR 基 URL 是对应于服务器 FHIR API 终结点的静态地址。 示例 URL 为 `https://lamnahealthcare.org/fihr/auth/connect-ocurprd-oauth/api/FHDST`。
 
@@ -133,12 +133,12 @@ ms.locfileid: "62763696"
 
 ### <a name="virtual-visits-prerequisites"></a>虚拟访问先决条件
 
-- 系统必须满足所有[软件和浏览器要求，Teams](../../hardware-requirements-for-the-teams-app.md)。
-- 你已完成 Cerner 组织与组织之间的Microsoft 365设置。
+- 你的系统必须满足[所有软件和浏览器要求，Teams](../../hardware-requirements-for-the-teams-app.md)。
+- 已完成 Cerner 组织与组织Microsoft 365设置。
 
 ### <a name="provider-experience"></a>提供商体验
 
-您的组织中的医疗保健提供商可以使用 PowerChart 门户Teams加入访问。 提供商必须导航到提供"Teams"选项的"患者委员会"。
+您的组织中的医疗保健提供商可以使用 PowerChart 门户Teams加入访问。 提供商必须导航到提供治疗Teams患者委员会。
 
 提供商可以从中查看访问信息、加入访问和发送会议链接。 一次登录后，提供程序将直接进入 Teams 中的虚拟Teams。
 
@@ -170,7 +170,7 @@ Teams EHR 系统集成可以优化集成和虚拟访问流期间使用和存储�
 
 EHR 连接器Teams EHR 系统不存储或传输任何可识别的个人数据或患者或医疗保健提供者的任何健康记录。 EHR 连接器存储的唯一数据是 EHR 用户的唯一 ID，该 ID 在Teams期间使用。
 
-EHR 用户的唯一 ID 存储在“[Microsoft 365 客户数据的存储位置](/microsoft-365/enterprise/o365-data-locations)”中所述的三个地理区域之一。 会议参与者在会议Teams共享的所有聊天、录制和其他数据都根据现有存储策略进行存储。 若要了解有关数据在数据中的位置Teams，[请参阅数据在](../../location-of-data-in-teams.md)Teams。
+EHR 用户的唯一 ID 存储在“[Microsoft 365 客户数据的存储位置](/microsoft-365/enterprise/o365-data-locations)”中所述的三个地理区域之一。 会议参与者在会议Teams共享的所有聊天、录制和其他数据都根据现有存储策略进行存储。 若要详细了解数据在数据中的位置Teams，[请参阅数据在](../../location-of-data-in-teams.md)Teams。
 
 ## <a name="related-articles"></a>相关文章
 

@@ -19,10 +19,10 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: c19894106dfd06c13ec9936657837aa42fcdade0
-ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
+ms.sourcegitcommit: 5880de47e986854fca873ae75f76a7ecad194dff
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/13/2022
+ms.lasthandoff: 02/15/2022
 ms.locfileid: "62015012"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft Teams 中的 Walkie Talkie 应用
@@ -35,17 +35,17 @@ Teams 中的 Walkie Talkie 应用为团队提供即时 (PTT) 通信，现在可�
 
 ### <a name="deploying-walkie-talkie"></a>部署 Walkie Talkie
 
-在 Android 设备上，Walkie Talkie 支持 Google 移动服务 (GMS) 和 iOS 设备。 
+在 Android 设备上，Walkie Talkie 支持 Google 移动服务 (GMS) iOS 设备。 
 
-目前，未预安装 Walkie Talkie。 若要为组织中用户启用此功能，需要将 Walkie Talkie 添加到从管理中心 [](teams-app-setup-policies.md)分配给用户的应用   [Teams策略](https://admin.teams.microsoft.com/)。 启用后，Walkie Talkie 将在 48 小时内在应用中可用。
+目前，未预安装 Walkie Talkie。 若要为您的组织中的用户启用此功能，需要将 Walkie Talkie [](teams-app-setup-policies.md)  添加到从管理中心向用户分配的Teams[策略](https://admin.teams.microsoft.com/)。 启用后，Walkie Talkie 将在 48 小时内在应用中可用。
 
 ### <a name="adding-walkie-talkie-to-your-app-list"></a>将 Walkie Talkie 添加到应用列表
 
-在 Microsoft Teams 管理中心的"Teams **应用** 设置策略"下，应该将"允许用户  >  **固定**"设置为"**打开"。** 然后，在"固定应用"部分下，单击 **"+添加应用"。**
+在 Microsoft Teams 管理中心的"Teams **应用** > 设置 **策略**"下，应将"允许用户 **固定**"设置为"**打开"**。 然后，在"固定应用"部分下，单击" **+添加应用"**。
 
 :::image type="content" source="media/deploy-walkie-talkie-1.png" alt-text="显示"固定的应用"部分和要选择的"添加应用"按钮。":::
 
-在右侧 **出现的"添加固定** 应用"面板上，使用"搜索" **文本框查找** Walkie Talkie。 将名称作为搜索结果时，选择名称右边的"添加"按钮，将其添加到列表中。
+在右侧 **出现的"添加固定** 应用"面板上，使用"搜索 **"文本框查找** Walkie Talkie。 将名称作为搜索结果时，选择名称右边的"添加"按钮，将其添加到列表中。
 
 :::image type="content" source="media/deploy-walkie-talkie-2.png" alt-text="显示搜索结果中已输入 Walkie 的"添加已固定应用"边栏和搜索结果中的 Walkie Talkie 应用，旁边有"添加"按钮。":::
 
@@ -81,10 +81,10 @@ Teams中的 Walkie Talkie 需要 Internet 连接且低于网络条件才能获�
   - 仅 Android (有线耳机) 
     - [Klein Electronics](https://www.kleinelectronics.com/poc-accessories/mtwt/)
 - **耐用的 Android 手机**
-  - Samsung [Galaxy XCover Pro](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/)， [Galaxy XCover 5](https://www.samsung.com/de/smartphones/others/galaxy-xcover-5-black-64gb-sm-g525fzkdeeb/buy)， [Galaxy Tab Active 3](https://www.samsung.com/us/business/tablets/galaxy-tab-active/buy/)
-    - 手动设置 - 安装Teams后，导航设置 > XCover/Active >高级功能。 打开"使用应用控制 XCover 键"，然后选择"Teams"
+  - Samsung [Galaxy XCover Pro](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/)、[Galaxy XCover 5](https://www.samsung.com/de/smartphones/others/galaxy-xcover-5-black-64gb-sm-g525fzkdeeb/buy)、[Galaxy Tab Active 3](https://www.samsung.com/us/business/tablets/galaxy-tab-active/buy/)
+    - 手动设置 - 安装Teams后，导航设置 > XCover/Active >高级功能。 打开"使用应用控制 XCover 密钥"，然后选择"Teams"
     - [MDM 设置](https://docs.samsungknox.com/admin/knox-service-plugin/intune-teams.htm)
-  - [](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc52-tc57-series-touch-computer.html)Tc5x、TC7x、TC2x、EC5x、EC30、MC3300、MC9300 [](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc72-tc77-series-touch-computer.html) [](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc21-tc26.html) [](https://www.zebra.com/us/en/products/mobile-computers/handheld/ec50-ec55.html) [](https://www.zebra.com/us/en/products/mobile-computers/handheld/ec30.html) [](https://www.zebra.com/us/en/products/mobile-computers/handheld/mc3300.html) [](https://www.zebra.com/us/en/products/mobile-computers/handheld/mc9300.html) 
+  - [Tc5x](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc52-tc57-series-touch-computer.html)、[TC7x](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc72-tc77-series-touch-computer.html)、[TC2x](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc21-tc26.html)、[EC5x](https://www.zebra.com/us/en/products/mobile-computers/handheld/ec50-ec55.html)、[EC30](https://www.zebra.com/us/en/products/mobile-computers/handheld/ec30.html)、[MC3300](https://www.zebra.com/us/en/products/mobile-computers/handheld/mc3300.html)、[MC9300](https://www.zebra.com/us/en/products/mobile-computers/handheld/mc9300.html) 
     - 手动设置 - 安装Teams后，专用 PTT (LEFT_TRIGGER_2) 默认适用于 Walkie Talkie
     
 > [!NOTE]
@@ -92,7 +92,7 @@ Teams中的 Walkie Talkie 需要 Internet 连接且低于网络条件才能获�
 
 ### <a name="license-requirements"></a>许可证要求
 
-Walkie Talkie 应用包含在订阅中所有付费Teams Office 365[许可证中](/office365/servicedescriptions/teams-service-description)。 有关获取访问权限Teams，请参阅如何 [获取对 Microsoft Teams](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)的访问权限？
+Walkie Talkie 应用包含在订阅中所有付费Teams Office 365[许可证](/office365/servicedescriptions/teams-service-description)中。 有关获取访问权限Teams，请参阅 [如何获取访问Microsoft Teams](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)？
 
 ## <a name="further-information"></a>更多信息
 

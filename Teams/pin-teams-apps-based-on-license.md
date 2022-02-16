@@ -16,10 +16,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 659cfd90e2fb5f498c00ea4b48039f9493357309
-ms.sourcegitcommit: 0486ca906fc7f66460e54e400541e5d5cbfc6dde
+ms.sourcegitcommit: 5880de47e986854fca873ae75f76a7ecad194dff
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/21/2022
+ms.lasthandoff: 02/15/2022
 ms.locfileid: "62161031"
 ---
 # <a name="tailor-your-teams-apps-based-on-license"></a>根据许可证Teams自定义应用
@@ -34,11 +34,11 @@ ms.locfileid: "62161031"
 
 Teams提供了一种基于许可证固定应用的方法。 当用户登录并Teams应用体验时，用户会获得基于其许可证定制的应用体验。
 
-此功能为用户提供了应用中最相关的应用Teams无需管理员执行任何操作。
+此功能为用户提供了应用中最相关的Teams，无需管理员执行任何操作。
 
 ## <a name="tailored-app-experience"></a>定制的应用体验
 
-应用固定到应用栏，应用栏位于 Teams 桌面客户端一侧，位于 Teams 移动客户端底部， (iOS 和 Android) 。
+应用固定到应用栏，应用栏位于 Teams 桌面客户端一侧，位于 Teams 移动客户端 (iOS 和 Android) 。
 
 为具有 F 许可证的用户固定的应用：
 
@@ -51,7 +51,7 @@ Teams提供了一种基于许可证固定应用的方法。 当用户登录并Te
 ## <a name="admin-controls"></a>管理员控件
 
 > [!NOTE]
-> 必须在组织范围的全局应用默认 (启用用户固定) [应用](teams-app-setup-policies.md) 设置策略，此功能生效。
+> 必须在组织范围的全局应用默认 (启用用户固定) [此功能](teams-app-setup-policies.md) 生效的应用设置策略。
 
 定制应用体验功能由管理中心的"管理应用"页面上的"基于许可证组织范围的应用显示定制应用"Teams[](manage-apps.md#manage-org-wide-app-settings)控制。 如果此功能已打开，则组织中具有 F 许可证的所有用户都将获得定制的应用体验。
 
@@ -59,8 +59,8 @@ Teams提供了一种基于许可证固定应用的方法。 当用户登录并Te
 
 默认情况下，启用此功能。 但是，如果不需要 Microsoft 提供的定制应用体验，可以关闭该功能。 若要关闭或打开该功能，请：
 
-1. 在管理中心的左侧导航Microsoft Teams，转到"管理Teams **应用"，** 然后选择  >  "**组织范围的应用设置"。**
-2. 在 **"定制应用"下**，将"显示 **基于许可证的** 定制应用"切换为"**关"或**"**开"。**
+1. 在管理中心的左侧导航Microsoft Teams，转到"Teams **"** > "管理 **应用**"，然后选择"**组织范围的应用设置"**。
+2. 在 **"定制应用"下**，将"显示 **基于许可证的** 定制应用"切换为" **关"或** " **开"**。
 
     :::image type="content" source="media/pin-teams-apps-based-on-license.png" alt-text=""管理应用"页的屏幕截图，其中显示"显示基于组织范围的许可证应用的定制应用"设置" lightbox="media/pin-teams-apps-based-on-license.png":::
 
@@ -79,7 +79,7 @@ Teams提供了一种基于许可证固定应用的方法。 当用户登录并Te
 |定制应用体验中的应用已在应用设置策略中定义，并且该功能已打开。 |应用根据定制应用体验定义的顺序进行固定。        |
 
 > [!NOTE]
-> 你无法更改定制应用体验中的应用或应用顺序。 现在，如果要进行更改，可以设置自己的自定义体验。 为此，请首先关闭该功能。 然后 [，创建自定义应用设置策略](teams-app-setup-policies.md)， [并将其分配给用户或组](assign-policies-users-and-groups.md)。
+> 你无法更改定制应用体验中的应用或应用顺序。 现在，如果要进行更改，可以设置自己的自定义体验。 为此，请首先关闭该功能。 然后 [创建自定义应用设置策略](teams-app-setup-policies.md)， [并将其分配给用户或组](assign-policies-users-and-groups.md)。
 
 ## <a name="related-articles"></a>相关文章
 
