@@ -1,5 +1,5 @@
 ---
-title: 设置公共区域电话许可证
+title: 设置"公共区域"电话许可证
 ms.author: czawideh
 author: cazawideh
 manager: serdars
@@ -21,18 +21,18 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: '了解如何为大厅、接收区和会议室设置公用区域电话 '
-ms.openlocfilehash: a4e4720fe7baf58d0da6f00800c61b706ec48516
-ms.sourcegitcommit: 909b0a709983d21fa6f2b547a78cc6a1222188df
+ms.openlocfilehash: 144e32e1bf56bc3e2d64d0c6a1a137fd501442b7
+ms.sourcegitcommit: 5aae5eace62e491dac655882d24974824ce1aa07
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2022
-ms.locfileid: "62279260"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "62856660"
 ---
 # <a name="deploy-common-area-phones-for-microsoft-teams"></a>为用户部署常用Microsoft Teams
 
 公用区域电话通常放置在大厅等区域，或者供许多人进行呼叫的另一区域;例如，前台区域、大厅或会议电话。 常用区域电话使用与公用区域服务许可证绑定电话登录。
 
-本文概述了如何将手机部署和Teams共享空间的公用区域电话。 为获得更完整的会议室体验（包括音频会议），请考虑购买具有会议室设备的专用会议许可证。
+本文概述了如何将手机部署和Teams共享空间的公用区域电话。 要获得更完整的会议室体验（包括音频会议），请考虑购买具有会议室设备的专用会议许可证。
 
 ## <a name="overview"></a>概述
 
@@ -55,7 +55,7 @@ ms.locfileid: "62279260"
 &sup2;在主权云中不可用  
 
 >[!NOTE]
-> 无法将常用区域中电话Skype for Business Server帐户迁移到 Microsoft Teams。 按照本文中的步骤重新创建这些帐户Teams，并迁移 PTSN 连接（如果需要）。
+> 在 Skype for Business Server 中创建的常用区域电话对象的帐户无法迁移到Microsoft Teams。 按照本文中的步骤重新创建这些帐户Teams，并迁移 PTSN 连接（如果需要）。
 
 ## <a name="step-1---buy-the-licenses"></a>第 1 步 - 购买许可证
 
@@ -65,7 +65,7 @@ ms.locfileid: "62279260"
 
 2. 如果" **按类别** 查看"部分尚未显示，请转到"从 **Microsoft** 购买"，然后选择" **查看产品"**。 然后选择" **协作和通信"**。  
 
-3. 在产品列表中，找到 **"常用区域"电话** 并选择"详细信息 **"**。
+3. 在产品列表中，找到 **"常用区域"电话** 并选择"**详细信息"**。
 
 4. 输入所需的许可证数，然后选择"购买 **"**。
 
@@ -82,7 +82,7 @@ ms.locfileid: "62279260"
 
 如果要部署一个设备：
 
-1. 在Microsoft 365 管理中心，转到"**用户****""活动** > 用户 > **""将用户"。**
+1. 在Microsoft 365 管理中心，转到"**用户** > **""活动用户** > **""将用户"。**
 
 2. 输入用户名，例如"Main"作为名字，输入"接收"作为第二个名称。
 
@@ -104,7 +104,7 @@ ms.locfileid: "62279260"
 
 ### <a name="using-powershell"></a>使用 PowerShell
 
-若要同时为多个用户帐户创建和分配许可证，请使用 PowerShell。 有关详细信息[，Microsoft 365 PowerShell](/microsoft-365/enterprise/create-user-accounts-with-microsoft-365-powershell?view=o365-worldwide) 创建用户帐户和Microsoft 365向[用户帐户](/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell?view=o365-worldwide)分配许可证。
+若要同时为多个用户帐户创建和分配许可证，请使用 PowerShell。 有关详细信息[，Microsoft 365 PowerShell](/microsoft-365/enterprise/create-user-accounts-with-microsoft-365-powershell?view=o365-worldwide) 创建用户帐户和Microsoft 365 [PowerShell](/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell?view=o365-worldwide) 为用户帐户分配许可证。
 
 ## <a name="step-3---set-policies-for-common-area-phones"></a>步骤 3 - 设置常用区域电话的策略
 
@@ -115,7 +115,7 @@ ms.locfileid: "62279260"
 
 ### <a name="ip-phone-policies"></a>IP 电话策略
 
-使用已分配"公用区域"电话登录的电话将显示公共区域用户体验。
+使用已分配"公共区域"电话登录的电话将显示公共区域用户体验。
 
 如果要替代电话的默认接口，请考虑创建 [IP 电话策略](/powershell/module/skype/new-csteamsipphonepolicy?view=skype-ps)。 例如，如果在公共区域中使用公用区域电话，请设置 IP 电话策略以限制搜索组织的全局通讯簿并阻止热桌面。 有关详细信息[，Teams设置 Android](devices/Teams-Android-devices-user-interface.md) 设备用户界面。
 
@@ -123,7 +123,7 @@ ms.locfileid: "62279260"
 
 使用呼叫策略在公用区域电话上启用私人呼叫、使用呼叫转发或同时拨打。 有关详细信息[，请参阅](teams-calling-policy.md)在 Teams 呼叫和呼叫转发。
 
-默认情况下，不为公用区域电话启用呼叫停放。 需要创建一个策略来启用它。 有关详细信息[，请参阅呼叫Microsoft Teams](call-park-and-retrieve.md)中检索。
+默认情况下，不为公用区域电话启用呼叫停放。 需要创建一个策略来启用它。 有关详细信息[，请参阅呼叫Microsoft Teams](call-park-and-retrieve.md)和检索。
 
 ## <a name="step-4---acquire-and-assign-phone-numbers"></a>步骤 4 - 获取和分配电话号码
 
@@ -163,7 +163,7 @@ ms.locfileid: "62279260"
 
 ## <a name="next-steps"></a>后续步骤
 
-为组织设置并登录公用区域电话后，可以在管理中心内Teams电话。 请参阅[Microsoft Teams：管理设备](devices/device-management.md)以了解更多信息。
+为组织设置并登录公用区域电话后，可以在管理中心内Teams电话。 有关详细信息[Microsoft Teams请参阅管理](devices/device-management.md)设备。
 
 ## <a name="related-topics"></a>相关主题
 
