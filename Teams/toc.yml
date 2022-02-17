@@ -475,8 +475,6 @@ items:
         href: teams-channels-overview.md
       - name: 私人频道概述
         href: private-channels.md
-      - name: 管理私人频道的生命周期
-        href: private-channels-life-cycle-management.md
       - name: 在 Teams 中分配团队所有者和成员
         href: assign-roles-permissions.md
       - name: 团队的动态成员资格概述

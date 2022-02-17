@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 了解如何在参与者和来宾的Teams管理会议策略设置。
-ms.openlocfilehash: ac77ab8b032fa792b0b137c84679912768e3b1b6
-ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
+ms.openlocfilehash: bdff1880104f80e7a5073900087a855202a9a137
+ms.sourcegitcommit: 2ddbaecb0bb7776dc5ab88727b1335e7e46d3704
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62457372"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "62881527"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>会议策略设置 - 参与者和来宾
 
@@ -98,15 +98,14 @@ ms.locfileid: "62457372"
 
 |设置值 |行为  |
 |---------|---------|
-|**为每个人打开它**     | 所有参与者都可以编写和查看聊天消息。 |
-|**为每个人关闭它**     | 所有参与者的会议聊天均已关闭。  |
-|**为每个人（但匿名用户）启用它**| 匿名用户不能会议期间聊天，但可以阅读消息。 |
+|**已启用**     | 所有参与者都可以编写和查看聊天消息。 |
+|**未启用**     | 所有参与者的会议聊天均已关闭。  |
 
 <a name="bkparticipantsandguests"> </a>
 
 ## <a name="enable-meeting-policy-settings"></a>启用会议策略设置
 
-若要启用会议策略设置，可以使用 [Teams](https://admin.teams.microsoft.com/policies/meetings) 管理中心 (**会议** > 策略 **编辑** > 策略将 & **来宾**) 或 Teams PowerShell 中的 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) cmdlet。 
+若要启用会议策略设置，可以使用 [Teams](https://admin.teams.microsoft.com/policies/meetings) 管理中心 (**会议** > 策略 **编辑** > 策略将 & **来宾) 或** Teams PowerShell 中的 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet。 
 
 本示例使用 PowerShell 修改全局会议策略，以允许任何人启动或加入会议。
 
@@ -114,7 +113,7 @@ ms.locfileid: "62457372"
 Set-CsTeamsMeetingPolicy -Identity Global -AutoAdmittedUsers "Everyone" -AllowAnonymousUsersToStartMeeting $True -AllowPSTNUsersToBypassLobby $True
 ```
 
-设置策略后，需要将策略应用到用户。 如果修改了全局 (组织范围的默认) 策略，则它将自动应用于用户。 需要等待至少 4 小时，所有策略更改才生效，但最多可能需要 24 小时。
+设置策略后，需要将策略应用到用户。 如果修改了全局 (组织范围内的默认) 策略，则会自动应用于用户。 需要等待至少 4 小时，所有策略更改才生效，但最多可能需要 24 小时。
 
 
 ## <a name="related-topics"></a>相关主题
