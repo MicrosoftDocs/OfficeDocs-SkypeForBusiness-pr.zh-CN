@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 659cfd90e2fb5f498c00ea4b48039f9493357309
-ms.sourcegitcommit: 5880de47e986854fca873ae75f76a7ecad194dff
+ms.openlocfilehash: 774688012d4e70a20897cd45aa78883ba7985e68
+ms.sourcegitcommit: 1190cd73656dbc9131d46e0a827e28bcd960dfc5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "62161031"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "62864035"
 ---
 # <a name="tailor-your-teams-apps-based-on-license"></a>根据许可证Teams自定义应用
 
@@ -61,8 +61,6 @@ Teams提供了一种基于许可证固定应用的方法。 当用户登录并Te
 
 1. 在管理中心的左侧导航Microsoft Teams，转到"Teams **"** > "管理 **应用**"，然后选择"**组织范围的应用设置"**。
 2. 在 **"定制应用"下**，将"显示 **基于许可证的** 定制应用"切换为" **关"或** " **开"**。
-
-    :::image type="content" source="media/pin-teams-apps-based-on-license.png" alt-text=""管理应用"页的屏幕截图，其中显示"显示基于组织范围的许可证应用的定制应用"设置" lightbox="media/pin-teams-apps-based-on-license.png":::
 
 ## <a name="scenarios"></a>方案
 

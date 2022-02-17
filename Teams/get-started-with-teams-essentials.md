@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a779d094e7a1f266a19aaecf6bbb86732f75f66b
-ms.sourcegitcommit: 909b0a709983d21fa6f2b547a78cc6a1222188df
+ms.openlocfilehash: 3c80b93ef457048d006fb7a7eb6085b3ed5d8eb4
+ms.sourcegitcommit: 1190cd73656dbc9131d46e0a827e28bcd960dfc5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2022
-ms.locfileid: "62279370"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "62864025"
 ---
 # <a name="microsoft-teams-essentials-quickstart-guide-for-small-businesses"></a>适用于小型企业的 Microsoft Teams Essentials 快速入门指南
 
@@ -100,14 +100,6 @@ Microsoft Teams Essentials 可通过 Microsoft 的直接网站和选择 Microsof
 > 若要获得增强的管理和完整的 Teams 功能集，需要为用户购买适当的 [Microsoft 365 或 Office 365 订阅计划](https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options) 升级到 Teams 的完整版本。 我们建议这样做，因为你可以更灵活地管理组织协作的方式。
 
 ## <a name="administration-limits-and-specifications-for-microsoft-teams-essentials"></a>Microsoft Teams Essentials 的管理限制和规范
-
-下面是作为管理员要考虑的一些重要的 Teams Essentials 限制和规范:
-
-  - **管理:** Teams Essentials 订阅 **不** 包括对 Teams 管理中心的访问。 Teams Essentials 用户可以享受 Microsoft 365 管理中心的简化视图以执行重要任务，例如管理订阅和配置新用户。
-
-  - **Microsoft Teams PowerShell:** 由于没有 PowerShell 支持，你 **不能** 直接使用 PowerShell 命令行管理 Teams Essentials。
-
-  - **存储**: Teams Essentials 使用 OneDrive 的个人云存储进行文件存储。
 
 转到此处: [Microsoft Teams 的限制和规格](/microsoftteams/limits-specifications-teams)，以了解更多适用于 Teams 的限制、规格和其他要求。
 
