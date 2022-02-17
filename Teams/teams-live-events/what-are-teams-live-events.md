@@ -6,24 +6,29 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.collection:
-  - M365-collaboration
-  - m365initiative-meetings
-  - m365solution-spcomms
-  - m365solution-scenario
+- M365-collaboration
+- m365initiative-meetings
+- m365solution-spcomms
+- m365solution-scenario
 ms.reviewer: sonua
 audience: admin
 search.appverid: MET150
 description: 了解实时事件如何使用户能够在 Teams、Yammer 和 Stream 中向大量在线受众广播视频和内容。
 f1.keywords:
-  - CSH
+- CSH
 ms.custom:
-  - ms.teamsadmincenter.dashboard.helparticle.liveevents
-  - ms.teamsadmincenter.liveevents.policies
+- ms.teamsadmincenter.dashboard.helparticle.liveevents
+- ms.teamsadmincenter.liveevents.policies
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 ms.localizationpriority: high
+ms.openlocfilehash: 53a49355b10a3250366d2bc67655f120412e1cc3
+ms.sourcegitcommit: 5aae5eace62e491dac655882d24974824ce1aa07
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "62856670"
 ---
-
 # <a name="what-are-microsoft-teams-live-events"></a>Microsoft Teams 实时事件是什么
 
 ## <a name="overview"></a>概述
@@ -97,7 +102,7 @@ eCDN 的目标是从 Internet 上获取视频内容，然后将内容分发到�
 - [Kollective](https://kollective.com/ecdn-solutions/microsoft-live-events/)
 - [Ramp](https://rampecdn.com)
 - [Riverbed](https://www.riverbed.com/solutions/office-365.html)
-- [Peer5](https://www.peer5.com/)（即将推出）
+- [Peer5](https://www.peer5.com/)
 
 ### <a name="attendee-experience"></a>与会者体验
 
