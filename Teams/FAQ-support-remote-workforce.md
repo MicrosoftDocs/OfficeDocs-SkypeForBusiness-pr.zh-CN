@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 使用本指南支持在家中工作 (WFH) 的远程员工提高生产力，来应对新型冠状病毒（COVID-19）的爆发。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 06be01aad7a8bea73c608cd4709149042daec9e2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 631fdd7668e8dd0bc8781509671dc11a1c631816
+ms.sourcegitcommit: a9a056b93b4add3a4d978bb341ea4b66a042b4d0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610519"
+ms.lasthandoff: 02/18/2022
+ms.locfileid: "62893531"
 ---
 # <a name="faq-support-your-remote-workforce"></a>常见问题解答：支持远程工作人员
 
@@ -83,7 +83,7 @@ Microsoft 在最近发布的新型冠状病毒肺炎（COVID-19）疫情公告�
 
 ### <a name="i-have-microsoft-365-already-but-i-dont-use-teams-are-you-providing-trial-licenses"></a>我已有 Microsoft 365，但没有使用 Teams。是否提供试用版许可证？
 
-如果有 Microsoft 365，则表示已经拥有 Teams。 为用户[启用 Teams](Office-365-set-up.md)。 启用后，用户可以通过安装[桌面版](get-clients.md#desktop-client)和[移动版](get-clients.md#mobile-clients)客户端运行 Teams，或从[浏览器](get-clients.md#mobile-clients)，在 [https://teams.microsoft.com](https://teams.microsoft.com) 上运行。 
+如果有 Microsoft 365，则表示已经拥有 Teams。 为用户[启用 Teams](Office-365-set-up.md)。 启用后，用户可以通过安装[桌面版](get-clients.md#desktop-clients)和[移动版](get-clients.md#mobile-clients)客户端运行 Teams，或从[浏览器](get-clients.md#mobile-clients)，在 [https://teams.microsoft.com](https://teams.microsoft.com) 上运行。 
 
 ### <a name="how-do-i-get-help-to-get-started-with-teams-and-make-sure-the-deployment-is-successful"></a>如何取得开始使用 Teams 并确保成功部署？
 
