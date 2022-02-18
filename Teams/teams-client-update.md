@@ -18,12 +18,12 @@ ms.localizationpriority: high
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2f0bc329910f4e4d89f07684f92ddcc1c340edf3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 65421d36c0a8c19d8c7118e348222e3b62175a95
+ms.sourcegitcommit: a9a056b93b4add3a4d978bb341ea4b66a042b4d0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606941"
+ms.lasthandoff: 02/18/2022
+ms.locfileid: "62893521"
 ---
 # <a name="teams-update-process"></a>Teams 更新过程
 
@@ -33,17 +33,15 @@ Teams Web 应用每周更新一次。
 
 桌面客户端会自动更新。Teams 每隔几个小时在后台检查更新，下载更新，然后等待计算机处于空闲状态，然后再无提示安装更新。
 
-用户还可以通过在应用右上角的“**个人资料**”下拉菜单上选择“**检查更新**”手动下载更新。 如果更新可用，则将在计算机处于空闲状态时下载并以无提示方式安装更新。
+用户还可以手动下载更新，方法是在应用右上角“**个人资料**”图标旁边的“**...**”下拉菜单中选择“**检查更新**”。 如果更新可用，则将在计算机处于空闲状态时下载并以无提示方式安装更新。
 
 用户需要登录才能下载更新。
-
-从 2019 年 7 月 31 日开始，Teams 客户端更新在更新期间使用较低的网络带宽。 此更新默认处于打开状态，不需要管理员或用户执行任何操作。
 
 ## <a name="what-about-updates-to-microsoft-365-apps-for-enterprise"></a>Microsoft 365 企业应用版更新怎么样？
 
 默认情况下，Teams 随新安装的 Microsoft 365 企业应用版一起安装，如[使用 Microsoft 365 企业应用版部署 Microsoft Teams](/DeployOffice/teams-install) 中所述。
 
-Teams 遵循其自己的更新过程，如上所述。 Teams 不遵循其他 Office 应用（如 Word 和 Excel）的更新过程。 若要了解详细信息，请阅读 [Microsoft 365 企业应用版更新频道概述](/DeployOffice/overview-of-update-channels-for-office-365-proplus)。
+Teams 遵循其自己的更新过程，如上所述。 Teams 不遵循其他 Office 应用（如 Word 和 Excel）的更新过程。 若要了解详细信息，请阅读 [Microsoft 365 应用版更新频道概述](/DeployOffice/overview-update-channels)。
 
 ## <a name="what-about-updates-to-teams-on-vdi"></a>VDI 上的 Teams 更新怎么样？
 
