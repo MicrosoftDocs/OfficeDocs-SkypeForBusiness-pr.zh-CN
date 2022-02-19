@@ -17,47 +17,53 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 31bafc1c112d8b50990cc6e92c863c7e242aa5fb
-ms.sourcegitcommit: efea3b3b9dceb1a1d82eb7a09a5104dcd6df8abf
+ms.openlocfilehash: 0e02013ddc158e1e64386bc22652404ec387aee1
+ms.sourcegitcommit: a9a056b93b4add3a4d978bb341ea4b66a042b4d0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61993006"
+ms.lasthandoff: 02/18/2022
+ms.locfileid: "62893551"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>获取 Microsoft Teams 的客户端
 
 > [!TIP]
-> **想要在电脑、Mac 或移动设备上安装 Teams？** 请查看[安装 Teams 客户端](https://www.microsoft.com/microsoft-teams/download-app)。
+> **想要在电脑、Mac 或移动设备上安装 Teams？** 请查看[安装 Teams 客户端](https://go.microsoft.com/fwlink/?linkid=855754)。
 
-本文提供有关如何在企业的设备上安装 Microsoft Teams 的信息。
+Microsoft Teams 可以安装在电脑、Mac 和移动设备上，也可以通过 Web 浏览器访问。 大多数最终用户只需自行[安装客户端](https://go.microsoft.com/fwlink/?linkid=855754)即可开始使用 Teams。 安装 Teams 客户端后，他们只需使用用户名和密码登录即可。
+
+如果你是 IT 专业人员，并且想要了解有关 Teams 安装体验及其要求的详细信息，请在本文中选择客户端操作系统以获取更多信息。
 
 关于每个客户端在不同平台上的功能的详细情况，请参阅 [按平台划分的 Teams 功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
 
-## <a name="desktop-client"></a>桌面客户端
+## <a name="desktop-clients"></a>桌面客户端
+
+Teams 桌面客户端作为独立应用程序提供，并作为以下操作系统的 [Microsoft 365 企业应用版](/deployoffice/teams-install)的一部分提供：
+
+- 32 位和 64 位版本的 Windows（8.1 或更高版本）
+- 适用于 ARM 上的 Windows 10 的 ARM64
+- Windows Server（2012 R2 或更高版本）
+- macOS
+- Linux（采用 `.deb` 和 `.rpm` 格式）
+- Chrome OS（有关详细信息，请参阅[如何在 Chromebook 上使用 Microsoft Office](https://support.office.com/article/how-to-install-and-run-microsoft-office-on-a-chromebook-32f14a23-2c1a-4579-b973-d4b1d78561ad)）
+
+如果最终用户具有适当的本地权限，则可以直接从 [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) 下载和安装桌面客户端。 在 Windows 电脑上安装 Teams 客户端不需要管理员权限，但在 Mac 上需要。
+
+IT 专业人员可以选择将安装文件分发到其组织中计算机上的首选方法。 一些示例包括 Microsoft Endpoint Configuration Manager (Windows) 或 Jamf Pro (macOS)。 有关分发 Teams 的详细信息，请参阅以下内容。
+
+- **Windows** [使用 Endpoint Configuration Manager 安装 Teams](msi-deployment.md)
+- **MacOS** [Jamf Pro](https://www.jamf.com/products/jamf-pro/)
+
+> [!NOTE]
+> 通过这些机制分发客户端仅适用于初次安装 Teams 客户端，不适用于将来的更新。 有关 Teams 更新过程的信息，请参阅 [Teams 更新过程](teams-client-update.md)。
+
+### <a name="windows"></a>[Windows](#tab/Windows)
 
 > [!TIP]
 > 观看以下会话以了解 Windows 桌面客户端的优势，如何规划它，以及如何部署它：[Teams Windows 桌面客户端](https://aka.ms/teams-clients)
 
-Microsoft Teams 桌面客户端是一个独立应用程序，在[Microsoft 365 企业应用版中也适用](/deployoffice/teams-install)。 Teams 可用于 32 位和 64 位版本的 Windows (8.1或更高版本)、ARM 上的 ARM 64 for Windows 10 和Windows Server (2012 R2或更高版本)，以及 macOS 和 Linux (在 `.deb` 和 `.rpm` 格式中)。 在 Windows 上，Teams 需要 .NET Framework 4.5 或更高版本；如果没有，Teams 安装程序将为你安装。 在 Linux 上，程序包管理器（例如 `apt` 和 `yum`）将尝试为你安装任何要求。 但是，如果没有，则在 Linux 上安装 Teams 前，你将需要安装任何报告的要求。
+Windows 版 Teams 在 [32 位](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)、[64 位](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)和 [ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true) 体系结构中提供可下载的 MSI 安装程序。 Teams 的 x86 体系结构（32 位与 64 位）与已安装的 Windows 和 Office 的体系结构无关。 建议在 64 位系统上使用 64 位版本的 Teams。
 
-桌面客户端为团队会议、群组通话和专线一对一呼叫提供实时通信支持（音频、视频和内容共享）。
-
-如果最终用户有合适的本地权限（在 PC 上安装 Teams 客户端不需要管理权限，但在 Mac 上需要），可以直接从 [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) 下载并安装桌面客户端。
-
-> [!NOTE]
-> 有关在 Chromebook 上安装 Teams 的更多详情，请参阅 [如何在 Chromebook 上安装和运行 Microsoft Office](https://support.office.com/article/how-to-install-and-run-microsoft-office-on-a-chromebook-32f14a23-2c1a-4579-b973-d4b1d78561ad)。
-
-IT 管理员可以选择其首选方法将安装文件分发到其组织中的计算机上。 一些示例包括 Microsoft Endpoint Configuration Manager (Windows) 或 Jamf Pro (macOS)。 要获取用于 Windows 分发的 MSI 包，请参阅[使用 MSI 安装 Microsoft Teams](msi-deployment.md)。
-
-> [!NOTE]
-> 通过这些机制分发客户端仅适用于初次安装 Microsoft Teams 客户端，不适用于将来的更新。
-
-### <a name="windows"></a>Windows
-
-适用于 Windows 的 Microsoft Teams 安装提供 32 位和 64 位体系结构的可下载安装程序。
-
-> [!NOTE]
-> 安装的 Windows 和 Office 的体系结构不限制 Microsoft Teams 的体系结构（32 位和 64 位）。 建议在 64 位系统上使用 64 位版本的 Microsoft Teams。
+Teams 需要 .NET Framework 4.5 或更高版本。 如果未安装 .NET Framework 或更高版本，Teams 安装程序将提供供你安装。
 
 Windows 客户端部署到位于用户配置文件中的 AppData 文件夹中。 部署到用户的本地配置文件后，无需提升的权限即可安装客户端。 Windows 客户端会利用以下位置：
 
@@ -69,20 +75,18 @@ Windows 客户端部署到位于用户配置文件中的 AppData 文件夹中。
 
 - %LocalAppData%\\SquirrelTemp
 
-用户首次使用 Microsoft Teams 客户端启动呼叫时，他们可能会注意到有关 Windows 防火墙设置的警告，要求用户允许通信。 可以指示用户忽略此消息，因为即使忽略此警告，也可以进行呼叫。
+当用户首次使用 Teams 客户端启动呼叫时，他们可能会注意到有关 Windows 防火墙设置的警告，要求用户允许通信。 可以指示用户忽略此消息，因为即使忽略此警告，也可以进行呼叫。
 
 ![Windows 安全警报对话框屏幕截图。](media/Get_clients_for_Microsoft_Teams_image3.png)
 
 > [!NOTE]
 > 即使选择“取消”忽略该提示，也将会更改 Windows 防火墙配置。 将为 teams.exe 创建两个入站规则，并对 TCP 和 UDP 协议进行“允许”操作。
 
-如果希望防止当用户首次从 Teams 调用时，阻止 Teams 提示用户创建防火墙规则，请使用下面的 [PowerShell 脚本示例 - 入站防火墙规则](#sample-powershell-script---inbound-firewall-rule)。
+如果想要阻止 Teams 在用户首次从 Teams 进行呼叫时提示用户创建防火墙规则，请使用[示例脚本 - Microsoft Teams 防火墙 PowerShell 脚本](client-firewall-script.md)中的 PowerShell 脚本。
 
-### <a name="mac"></a>Mac
+### <a name="mac"></a>[Mac](#tab/Mac)
 
 Mac 用户可以使用 macOS 计算机的 PKG 安装文件安装 Teams。 安装 Mac 客户端需要管理访问权限。 将 macOS 客户端安装到 /Applications 文件夹中。
-
-#### <a name="install-teams-by-using-the-pkg-file"></a>使用 PKG 文件安装 Teams
 
 1. 在 **Mac** 下的 [Teams下载页面](https://teams.microsoft.com/downloads)中，单击 **“下载”**。
 2. 双击 PKG 文件。
@@ -98,23 +102,18 @@ Mac 用户可以使用 macOS 计算机的 PKG 安装文件安装 Teams。 安装
 2. 卸载 Teams 应用。
 3. 安装 PKG 文件。
 
-IT 管理员可以使用 Teams 的托管部署将安装文件分发到其组织中的所有 Mac，例如 Jamf Pro。
+IT 专业人员可以使用托管部署解决方案（如 Jamf Pro）将 Teams 安装文件分发到其组织中的所有 Mac。
 
-> [!NOTE]
-> 如果安装 PKG 时遇到问题，请告诉我们。 在本文末尾的 **“反馈”** 部分中，单击 **“产品反馈”**。
+### <a name="linux"></a>[Linux](#tab/Linux)
 
-### <a name="linux"></a>Linux
+在 Linux 上，程序包管理器（例如 `apt` 和 `yum`）将尝试为你安装任何要求。 但是，如果没有，则在 Linux 上安装 Teams 前，你将需要安装任何报告的要求。
 
 用户将能够以 `.deb` 和 `.rpm` 格式安装本机 Linux 程序包。 安装 DEB 或 RPM 程序包将自动安装程序包存储库。
 
 - DEB `https://packages.microsoft.com/repos/ms-teams stable main`
 - RPM `https://packages.microsoft.com/yumrepos/ms-teams`
 
-使用系统的程序包管理器启用自动更新的签名密钥将自动安装。 但是，也可以在以下位置找到它: <https://packages.microsoft.com/keys/microsoft.asc>。 Microsoft Teams 每月发布一次，并且如果正确安装了存储库，则系统程序包管理器应按照与系统中其他程序包相同的方式处理自动更新。
-
-> [!NOTE] 
-> 如果发现 Bug，请使用客户端中的 `Report a Problem` 进行提交。 对于已知问题，请参阅 [所在组织的支持团队](/MicrosoftTeams/troubleshoot/teams-welcome)。
-> 对于适用于 Linux 的 Teams 支持，可以使用 [Microsoft 问答上的 Linux 论坛支持频道](/answers/topics/teams.html)。 发布问题时，请务必使用 `teams-linux` 标记。 
+使用系统的程序包管理器启用自动更新的签名密钥将自动安装。 但是，也可以在以下位置找到它: <https://packages.microsoft.com/keys/microsoft.asc>。 Teams 每月发布一次，并且如果正确安装了存储库，则系统包管理器应按照与系统中其他程序包相同的方式处理自动更新。
 
 #### <a name="install-teams-using-deb-package"></a>使用 DEB 程序包安装团队
 
@@ -176,21 +175,13 @@ sudo zypper refresh
 sudo zypper install teams
 ```
 
-## <a name="web-client"></a>Web 客户端
-
-Web 客户端 ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) 是具有完整功能的客户端，可以从各种浏览器使用该客户端。 Web 客户端使用 webRTC 支持通话和会议，因此在 Web 浏览器中运行 Teams 不需要插件或进行下载。 必须配置浏览器以允许第三方 Cookie。
-
-[!INCLUDE [browser-support](includes/browser-support.md)]
-
-Web 客户端在连接到 [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753) 时执行浏览器版本检测。 如果检测到不支持的浏览器版本，它将阻止对 Web 界面的访问，并建议用户下载桌面客户端或移动应用。
+---
 
 ## <a name="mobile-clients"></a>移动客户端
 
-Microsoft Teams 移动应用适用于 Android 和 iOS，适合参与基于聊天的对话的忙碌用户，允许进行点对点音频呼叫。 对于移动应用，请访问 Google Play 和 Apple App Store 的相关移动应用商店。 Windows Phone 应用已于 2018 年 7 月 20 日停用，可能无法正常运行。
+Teams 移动应用适用于 Android 和 iOS，适合参与基于聊天的对话的忙碌用户，允许进行点对点音频呼叫。 对于移动应用，请访问 Google Play 和 Apple App Store 的相关移动应用商店。
 
-以下是在中国[获取 Android 版 Teams](get-teams-android-in-china.md) 的方法。
-
-Microsoft Teams 移动应用的支持移动平台如下：
+Teams 移动应用支持的移动平台如下：
 
 - **Android**：支持仅限于 Android 的最后四个主要版本。 新的 Android 主要版本发布后，将正式支持新版本和前三个版本。
 
@@ -201,55 +192,17 @@ Microsoft Teams 移动应用的支持移动平台如下：
 
 移动应用仅通过各自移动平台的应用商店进行分发和更新。 Microsoft 不支持通过 MDM 或侧加载来分发移动应用。 在支持的移动平台上安装移动应用后，将支持 Teams 移动应用本身，前提是该版本是 3 个月内的最新版本。
 
-|&nbsp; |&nbsp; |&nbsp; |
-|---|---|---|
-|![描述决策点的图标。](media/Get_clients_for_Microsoft_Teams_image4.png)|决策点|是否存在阻止用户在其设备上安装合适 Microsoft Teams 客户端的任何限制？|
-|![描述后续步骤的图标。](media/Get_clients_for_Microsoft_Teams_image5.png)|后续步骤|如果贵组织限制软件安装，请确保 Microsoft Teams 不会受到阻止。 注意：PC 客户端安装不需要管理权限，但在 Mac 上安装需要。|
+如果你在中国，则可以从以下应用商店安装 Teams：
 
+- **小米** <https://aka.ms/TeamsXiaomi>
+- **华为** <https://aka.ms/TeamsHuawei>
+- **Oppo** 在 Oppo 应用商店中搜索“Teams”
+- **百度** <https://aka.ms/teams_baidu_direct_dl>
 
-## <a name="client-update-management"></a>客户端更新管理
+## <a name="browser-client"></a>浏览器客户端
 
-当前，Microsoft Teams 服务会自动更新客户端，无需 IT 管理员干预。 如果有更新，客户端将自动下载更新，当应用空闲一段时间后，将开始执行更新过程。
+浏览器客户端 ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) 是具有完整功能的客户端，可以从各种浏览器使用该客户端。 浏览器客户端支持使用 webRTC 进行呼叫和会议，因此无需插件或下载即可在浏览器中运行 Teams。 必须配置浏览器以允许第三方 Cookie。
 
-## <a name="client-side-configurations"></a>客户端配置
+[!INCLUDE [browser-support](includes/browser-support.md)]
 
-当前，未提供支持的选项来通过租户管理、PowerShell、组策略对象或注册表配置客户端。
-
-## <a name="notification-settings"></a>通知设置
-
-当前，未提供选项允许 IT 管理员配置客户端通知设置。 所有通知选项均由用户设置。 下图概括显示了默认客户端设置。
-
-![“通知设置”屏幕截图。](media/Get_clients_for_Microsoft_Teams_image6.png)
-
-## <a name="sample-powershell-script---inbound-firewall-rule"></a>PowerShell 脚本示例 - 入站防火墙规则
-
-需要在提升的管理员帐户上下文中的客户端计算机上运行的此示例脚本将为 c:\users 中找到的每个用户文件夹创建新的入站防火墙规则。 Teams 找到此规则后，当用户通过 Teams 进行首次呼叫时，将阻止 Teams 应用程序提示用户创建防火墙规则。
-
-```powershell
-<#
-.SYNOPSIS
-   Creates firewall rules for Teams.
-.DESCRIPTION
-   (c) Microsoft Corporation 2018. All rights reserved. Script provided as-is without any warranty of any kind. Use it freely at your own risks.
-   Must be run with elevated permissions. Can be run as a GPO Computer Startup script, or as a Scheduled Task with elevated permissions.
-   The script will create a new inbound firewall rule for each user folder found in c:\users.
-   Requires PowerShell 3.0.
-#>
-
-#Requires -Version 3
-
-$users = Get-ChildItem (Join-Path -Path $env:SystemDrive -ChildPath 'Users') -Exclude 'Public', 'ADMINI~*'
-if ($null -ne $users) {
-    foreach ($user in $users) {
-        $progPath = Join-Path -Path $user.FullName -ChildPath "AppData\Local\Microsoft\Teams\Current\Teams.exe"
-        if (Test-Path $progPath) {
-            if (-not (Get-NetFirewallApplicationFilter -Program $progPath -ErrorAction SilentlyContinue)) {
-                $ruleName = "Teams.exe for user $($user.Name)"
-                "UDP", "TCP" | ForEach-Object { New-NetFirewallRule -DisplayName $ruleName -Direction Inbound -Profile Domain -Program $progPath -Action Allow -Protocol $_ }
-                Clear-Variable ruleName
-            }
-        }
-        Clear-Variable progPath
-    }
-}
-```
+浏览器客户端在连接到 [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753) 时执行浏览器版本检测。 如果检测到不支持的浏览器版本，它将阻止对浏览器界面的访问，并建议用户下载桌面客户端或移动应用。
