@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 了解如何在 Microsoft Teams 中使用和管理私人频道。
-ms.openlocfilehash: 8d041d0fa8a182cb3cebf485c9cef92f880a99e5
-ms.sourcegitcommit: d3c48f0c147cf0c47d5eb4ea1128b5bca13be718
+ms.openlocfilehash: edf3fc2933bf51f3c5966fa8e021fe0ff50de39b
+ms.sourcegitcommit: 2ddbaecb0bb7776dc5ab88727b1335e7e46d3704
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62299007"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "62881547"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft Teams 中的私人频道
 
@@ -56,7 +56,7 @@ Microsoft Teams 中的私人频道创建专用空间供团队展开协作。 仅
 
 如果私人频道所有者是一个或多个私人频道的最后一个所有者，则无法通过 Teams 客户端将其删除。
 
-如果专用频道所有者离开组织，或者从与团队关联的 Microsoft 365 组中被删除，将自动提升一位专用频道成员成为专用频道所有者。
+如果专用频道所有者离开组织，或者从与团队关联的 Microsoft 365 组中删除他们，将自动提升为专用频道所有者。
 
 如果团队成员离开团队或从团队中删除成员，则该用户也将从团队中的所有私人频道中离开或删除。 如果将用户添加回团队，则必须将其添加回团队中的私人频道。
 
@@ -82,10 +82,6 @@ Microsoft Teams 中的私人频道创建专用空间供团队展开协作。 仅
 |添加成员|否|不适用|不适用|是|否|否|
 |编辑设置|否|不适用|不适用|是|否|否|
 |管理选项卡和应用|否|不适用|不适用|是，必须为团队安装应用|频道所有者控制|不支持|
-
-## <a name="manage-the-lifecycle-of-private-channels"></a>管理专用频道的生命周期
-
-有关如何管理组织中专用频道的生命周期的指导，请参阅[在Teams中管理专用频道的生命周期](private-channels-life-cycle-management.md)。 这包括如何控制组织中的用户是否可以创建私人频道、如何代表团队所有者创建私人频道、如何出于存档和审核目的获取所有私人频道消息的列表，以及其他管理任务。  
 
 ## <a name="private-channel-sharepoint-sites"></a>私人频道 SharePoint 网站
 
@@ -139,3 +135,5 @@ Microsoft Teams 中的私人频道创建专用空间供团队展开协作。 仅
 [Teams PowerShell 概览](teams-powershell-overview.md)
 
 [将 Microsoft Graph API 与 Teams 结合使用](/graph/api/resources/teams-api-overview)
+
+[频道资源类型](/graph/api/resources/channel)
