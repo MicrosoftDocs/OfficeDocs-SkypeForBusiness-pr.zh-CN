@@ -24,12 +24,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: fa274c8aa068d7b17ce35d17525b58152677de07
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
+ms.openlocfilehash: dd40888ec8f1f7c5c05c3f5a2bf5a867ece93a65
+ms.sourcegitcommit: 10bee789272e648ea1e93d7d7c27ec645d0a8bdd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288370"
+ms.lasthandoff: 02/22/2022
+ms.locfileid: "62918875"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中为组织管理“班次”应用
 
@@ -53,6 +53,10 @@ Teams 可用的所有企业 SKU 中均提供“班次”。
 
 “班次”数据当前存储在北美、西欧和亚太地区的数据中心中的 Azure 中。 有关数据存储位置的详细信息，请参阅[我的数据在哪里？](http://o365datacentermap.azurewebsites.net/)。
 
+## <a name="shifts-data"></a>Shifts 数据
+
+若要详细了解 Shifts 数据的存储位置，以及 Shifts 数据的保留、检索和加密，请参阅 [Shifts 数据常见问题解答](shifts-data-faq.md)。
+
 ## <a name="set-up-shifts"></a>设置“班次”
 
 ### <a name="enable-or-disable-shifts-in-your-organization"></a>在你的组织中启用或禁用“班次”
@@ -72,7 +76,7 @@ Teams 可用的所有企业 SKU 中均提供“班次”。
 
 可以通过添加 Shifts [应用创建自定义](../../teams-app-setup-policies.md) 应用设置策略，然后将 [该策略分配给](../../assign-policies-users-and-groups.md) 用户。 或者，可以使用属于"前端辅助角色"和"前端管理器"策略包的应用设置策略。
 
-Teams[中的](../../manage-policy-packages.md)策略包是预定义的策略和策略设置的集合，可以分配给组织中具有类似角色的用户。 前端辅助角色和前端管理器策略包中的策略集包括一个应用设置策略，该策略固定 Shifts 应用和支持该角色的通信和协作活动的其他应用。
+[Teams策略](../../manage-policy-packages.md)包是预定义的策略和策略设置的集合，可将其分配给组织中具有类似角色的用户。 前端辅助角色和前端管理器策略包中的策略集包括一个应用设置策略，该策略固定 Shifts 应用和支持该角色的通信和协作活动的其他应用。
 
 我们建议使用一线辅助角色和前端管理器策略包，因为它们可简化、简化，并帮助在管理一线员工的策略时提供一致性。
 
@@ -86,6 +90,7 @@ Teams[中的](../../manage-policy-packages.md)策略包是预定义的策略和�
 
 ## <a name="related-topics"></a>相关主题
 
+- [Teams 中的排班](../shifts-for-teams-landing-page.md)
 - [一线员工排班帮助](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
-- [向 Teams 中的用户分配策略](../../policy-assignment-overview.md)
 - [Shifts 连接线](shifts-connectors.md)
+- [向 Teams 中的用户分配策略](../../policy-assignment-overview.md)

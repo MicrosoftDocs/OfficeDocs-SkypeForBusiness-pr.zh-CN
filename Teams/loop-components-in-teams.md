@@ -11,32 +11,34 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: 了解如何管理设备中的循环Teams。
+description: 了解如何管理循环中循环Teams。
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7264d7f08342121a862943dd8b063fe904c87072
-ms.sourcegitcommit: a9a056b93b4add3a4d978bb341ea4b66a042b4d0
+ms.openlocfilehash: 660ecd7542eadd56b284642895e5da15a1cdd434
+ms.sourcegitcommit: 10bee789272e648ea1e93d7d7c27ec645d0a8bdd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/18/2022
-ms.locfileid: "62893725"
+ms.lasthandoff: 02/22/2022
+ms.locfileid: "62918936"
 ---
 # <a name="overview-of-loop-components-in-teams"></a>循环组件概述Teams
 
-通过聊天Teams组件提供了一种共同构思、创建和做出决策的新方式。 发送一个组件（如表格、任务列表或段落），其中聊天中的每个人都可以内联编辑并查看所做的更改。 
+在聊天Teams循环组件提供了一种共同构思、创建和做出决策的新方式。 发送一个组件（如表格、任务列表或段落），其中聊天中的每个人都可以内联编辑并查看所做的更改。 
 
 > [!Note]
 > 循环组件是 Microsoft Loop 应用的第一[项功能](https://www.microsoft.com/en-us/microsoft-loop)，可在 Teams。 
 
 **一起更快地完成任务。** 对议程进行众源处理、跟踪组的操作项目或共同做笔记。 这些只是使用循环组件简化的一些方案。
 
-**共享组件。** 在此版本中，你可以将循环组件共享到不同的Teams聊天中。 收件人可以从他们身在何处进行编辑，并即时查看更新，无论更改发生在何处。
+**共享组件。** 在此版本中，你可以将循环组件共享到不同的聊天Teams中。 收件人可以从他们身在何处进行编辑，并即时查看更新，无论更改发生在何处。
 
 **从聊天开始，从该聊天开始生成。** 从聊天Teams创建的每一个组件都会自动保存到聊天OneDrive。 因此，你可能会开始在聊天中协作，然后移动到文件，在这里，你具有更大的可视空间进行编辑，并可以添加任何喜欢的组件。
+
+有关循环组件在 Teams 的管理员设置的信息，请参阅管理 SharePoint 中的[循环组件](/sharepoint/manage-loop-components)。
 
 ## <a name="clients-and-platforms"></a>客户端和平台
 
@@ -48,9 +50,9 @@ ms.locfileid: "62893725"
 
 ## <a name="how-are-fluid--files-stored"></a>如何存储 .fluid 文件？
 
-.fluid 文件显示在 Office.com 和 OneDrive 上，例如"最近"和"建议"区域。 用户可以从 Office.com 和 OneDrive 搜索 .fluid 文件中的内容。 可以将 .fluid 文件从 OneDrive 还原到以前的OneDrive。 若要创建循环组件，聊天参与者必须具有一个OneDrive帐户。 如果没有有效的OneDrive帐户，聊天参与者仍可能能够协作处理由具有有效帐户的其他用户创建OneDrive，但不能创建自己的组件。 
+.fluid 文件显示在 Office.com 和 OneDrive 上，例如"最近"和"建议"区域。 用户可以从 Office.com 和 OneDrive 搜索 .fluid 文件中的内容。 可以将 .fluid 文件从 OneDrive 还原到以前的OneDrive。 若要创建循环组件，聊天参与者必须具有OneDrive帐户。 如果没有有效的OneDrive帐户，聊天参与者仍可以协作处理由拥有有效帐户的其他用户创建OneDrive，但不能创建自己的组件。 
 
-将 .fluid 文件从 OneDrive 移动到 SharePoint 网站将导致实时组件无法加载到聊天Teams中。
+将 .fluid 文件从 OneDrive 移动到 SharePoint 站点将导致实时组件无法加载到聊天Teams中。
 
 ## <a name="what-happens-if-the-owner-of-the-file-leaves-the-company"></a>如果文件的所有者离开了公司，会发生什么情况？
 
@@ -60,7 +62,7 @@ OneDrive策略适用于 .fluid 文件，就像应用于用户创建的其他内�
 
 可以在聊天中插入循环组件Teams从一个聊天复制到另一个聊天。  (通道尚不支持循环组件。) 它们默认为组织的现有权限，但用户可以在发送之前更改权限，以确保每个人都具有访问权限。
 
-在 Office.com 中从 Teams 聊天打开组件在窗口顶部提供共享功能，类似于为其他文档Office选项。
+在 Office.com 中从 Teams 聊天打开组件在窗口顶部提供共享功能，类似于为其他 Office 文档提供的共享选项。
 
 ## <a name="what-if-a-fluid-file-becomes-corrupted-or-damaged"></a>如果 .fluid 文件损坏或损坏，该做什么？
 
@@ -81,7 +83,3 @@ OneDrive策略适用于 .fluid 文件，就像应用于用户创建的其他内�
 - B2B 来宾无法协作处理通过公司共享链接共享实时组件。 将权限设置为" **当前在此聊天中的人员"** ，以与 B2B 来宾共享组件。
 - 循环组件在 Teams 中不受支持。
 - 只有当文件移动到不同的库时，聊天中的循环组件才加载。 如果文件移动到不同的文件夹，则该文件将继续在聊天中加载。
-
-## <a name="related-topics"></a>相关主题
-
-[管理循环中的SharePoint](/sharepoint/manage-loop-components)
