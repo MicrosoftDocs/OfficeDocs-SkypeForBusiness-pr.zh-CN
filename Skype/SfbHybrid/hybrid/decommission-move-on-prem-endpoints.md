@@ -16,13 +16,13 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
-description: 在停用本地环境之前迁移Skype for Business应用程序终结点。
-ms.openlocfilehash: 2968cdb5ecec3bffb22fffaf43c77e97ab8004d1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 在停用本地环境之前，迁移Skype for Business应用程序终结点。
+ms.openlocfilehash: 74e0ef935c993f6e39b08759d3beb69e0c5c7673
+ms.sourcegitcommit: d8dba15c520de3894d1781e17acb2c75fb38ed49
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583416"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "62921850"
 ---
 # <a name="migrate-hybrid-application-endpoints-before-decommissioning-your-on-premises-environment"></a>在停用本地环境之前迁移混合应用程序终结点
 
@@ -41,14 +41,14 @@ ms.locfileid: "58583416"
 
 ## <a name="migrate-all-required-hybrid-application-endpoints-from-on-premises-to-online"></a>将所有必需的混合应用程序终结点从本地迁移到联机
 
-在可以将这些终结点移动到联机状态之前，必须确保已更新 DNS 记录Microsoft 365终结点使用的所有 sip 域的 DNS 记录。 请注意，一旦将 DNS 更新为指向Microsoft 365，在您完成此步骤之前，任何现有的混合应用程序终结点将无法再被发现。 由于此步骤 (创建联机资源帐户) 如果 DNS 记录指向本地，则不应在同一维护窗口中执行步骤 2 和步骤 3。 有关详细信息，请参阅 [禁用混合配置](cloud-consolidation-disabling-hybrid.md)。
+在可以将这些终结点移动到联机状态之前，必须确保已更新 DNS 记录Microsoft 365终结点使用的所有 sip 域的 DNS 记录。 请注意，一旦将 DNS 更新为指向Microsoft 365，在您完成此步骤之前，将无法再发现任何现有的混合应用程序终结点。 由于此步骤 (如果 DNS 记录指向本地) ，则不能创建联机资源帐户，因此您应计划在同一维护窗口中执行步骤 2 和步骤 3。 有关详细信息，请参阅 [禁用混合配置](cloud-consolidation-disabling-hybrid.md)。
 
-1. 通过执行以下 PowerShell 命令本地混合应用程序终结点设置来检索Skype for Business Server导出这些设置：
+1. 通过执行以下本地部署和 PowerShell 命令检索和导出Skype for Business Server应用程序终结点设置：
 
    ```PowerShell
    Get-CsHybridApplicationEndpoint|select Sipaddress, DisplayName, ApplicationID, LineUri |Export-Csv -Path "c:\backup\HybridEndpoints.csv"
    ```
-2. 在"[管理中心](/microsoftteams/manage-resource-accounts)"Microsoft 365并许可新的资源帐户，以替换现有的本地混合应用程序终结点。
+2. 在资源中心[创建和](/microsoftteams/manage-resource-accounts)Microsoft 365资源帐户，以替换现有的本地混合应用程序终结点。
 
 3. 将新的资源帐户与现有的混合应用程序终结点关联。
 
@@ -90,6 +90,8 @@ ms.locfileid: "58583416"
 - [禁用混合配置](cloud-consolidation-disabling-hybrid.md)
 
 - [删除本地 Skype for Business 环境](decommission-remove-on-prem.md)
+
+- [通过 cmdlet 创建自动助理](/microsoftteams/create-a-phone-system-auto-attendant-via-cmdlets)
 
 
 
