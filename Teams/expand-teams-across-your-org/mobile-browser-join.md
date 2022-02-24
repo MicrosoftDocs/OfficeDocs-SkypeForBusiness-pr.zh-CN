@@ -21,16 +21,16 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: hafarmer
 description: 了解在移动浏览器中Teams虚拟访问的加入体验。
-ms.openlocfilehash: 83bbe6e2db29a1ed43bbe1646f8545072dac7d2d
-ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
+ms.openlocfilehash: 698a87ba633892f5ebef864c60c101084aa296f1
+ms.sourcegitcommit: 5ca04ee10e3f254e1b24506de116591fdfd51d18
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/11/2022
-ms.locfileid: "62763706"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "62929317"
 ---
 # <a name="manage-the-join-experience-for-teams-virtual-visits-on-mobile-browsers"></a>管理移动浏览器上Teams虚拟访问的加入体验
 
-Microsoft Teams，用户无需下载约会即可在移动设备上加入Teams。 为获得更无缝的体验，与会者可以从移动浏览器加入约会，例如医疗保健访问、财务咨询、教师办公时间等。 与会者无需在 Android Teams iOS 移动设备上安装该应用。
+Microsoft Teams，用户无需下载约会即可轻松地在移动设备上加入Teams。 为获得更无缝的体验，与会者可以从移动浏览器加入约会，例如医疗保健访问、财务咨询、教师办公时间等。 与会者无需在 Android 或 iOS 移动设备上Teams移动应用。
 
 使用移动浏览器加入时，当与会者从移动设备加入约会时，系统不会提示他们下载Teams。 相反，Teams在移动浏览器中打开，与会者可以在其中选择"立即 **加入**"以加入。 使用此功能时，请记住，如果Teams安装在与会者的移动设备上，Teams浏览器中打开，而不是在应用中打开。
 
@@ -48,7 +48,7 @@ Microsoft Teams，用户无需下载约会即可在移动设备上加入Teams。
 
 您的组织中的计划人员可以在 Bookings 应用中为特定约会类型和单个约会启用此功能。
 
-启用此功能后，发送给与会者的确认电子邮件或短信将包含在移动浏览器中打开Teams加入链接。 在 Android 移动设备上，Teams Chrome 中打开。 在 iOS 移动设备上，Teams Safari 中打开。
+启用此功能后，发送给与会者的确认电子邮件或短信文本将包含在移动浏览器中打开Teams加入链接。 在 Android 移动设备上，Teams Chrome 中打开。 在 iOS 移动设备上，Teams Safari 中打开。
 
 #### <a name="turn-on-mobile-browser-join-for-an-appointment-type"></a>为约会类型启用移动浏览器加入
 
@@ -93,8 +93,8 @@ Microsoft Teams，用户无需下载约会即可在移动设备上加入Teams。
 
 ## <a name="related-articles"></a>相关文章
 
-- [通过 Teams 和 Bookings 应用进行虚拟访问](bookings-virtual-visits.md)
+- [使用 Teams 和 Bookings 应用的虚拟访问](bookings-virtual-visits.md)
 - [创建 Bookings 约会类型](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887)
 - [作为与会者加入 Bookings 约会](https://support.microsoft.com/office/join-a-bookings-appointment-as-an-attendee-95cea12d-2220-421f-a663-6efb20913c7f)
 - [使用虚拟访问Teams - 集成到 Cerner EHR](healthcare/ehr-admin-cerner.md)
-- [使用虚拟访问Teams - 集成到长篇 EHR 中](healthcare/ehr-admin.md)
+- [使用虚拟访问Teams - 集成到长篇 EHR](healthcare/ehr-admin.md)

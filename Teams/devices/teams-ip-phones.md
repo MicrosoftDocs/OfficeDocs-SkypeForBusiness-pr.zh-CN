@@ -21,18 +21,18 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 了解哪些桌面电话和会议电话经过认证Microsoft Teams产生最佳结果。
-ms.openlocfilehash: 5b8e7636c53add6e8ef30fa8903cff8ac3d260a3
-ms.sourcegitcommit: 86a4826472f3f1357ee9bffd512108d8778e0c5b
+ms.openlocfilehash: 1b5b32edeecd7c20840e3644583843a1c7e465b4
+ms.sourcegitcommit: 5ca04ee10e3f254e1b24506de116591fdfd51d18
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/18/2022
-ms.locfileid: "62897547"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "62929167"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams Android 设备
 
 Microsoft Teams 设备认证计划可确保经过认证的设备满足较高的标准，在整个 Teams 体验中具有更高的性能目标和质量指标 (音频、视频、用户界面) 。 Microsoft 和 OEM 合作伙伴正在积极合作，确保设备满足所有认证要求，包括安全、音频和视频质量、Teams体验和辅助功能。
 
-认证计划旨在确保所有认证设备运行 Android 版本，该版本具有适用于 Teams 和 Teams 管理中心所需的功能集。 认证结束日期基于进入认证计划时在设备上运行的 Android OS 版本。 我们的 OEM 合作伙伴正在努力通过升级 Android OS 版本和重新认证，或者发布最先进的新模型来延长认证期限。
+认证计划旨在确保所有经过认证的设备运行 Android 版本，该版本具有针对 Teams 和 Teams 所需的功能集。 认证结束日期基于进入认证计划时在设备上运行的 Android OS 版本。 我们的 OEM 合作伙伴正在努力通过升级 Android OS 版本和重新认证，或者发布最先进的新模型来延长认证期限。
 
 在认证期结束后，Microsoft 承诺在认证期限结束后的两年内，在此类设备上Teams客户端的最新版本。
 
@@ -45,10 +45,10 @@ Microsoft Teams 设备认证计划可确保经过认证的设备满足较高的�
 
 |设备模型    | 固件版本    | 当前认证结束日期 | Android OS 版本                               |
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
-| 具有和不带话筒 (的 Crestron UC-P10-T)     | `1.0.0.80`       | 2023 年 8 月 5 日            | 9 |
-| 带和不带话筒 (的 Crestron UC-P8-T)      | `1.0.0.56`       | 2023 年 8 月 5 日            | 9 |
-| 带或不带话筒的 (UC-P10-C-T)   | `1.0.0.80`       | 2023 年 8 月 5 日            | 9 |
-| 带或不带话筒 (的 Crestron UC-P8-C-T)    | `1.0.0.80`       | 2023 年 8 月 5 日            | 9 |
+| 具有或不带话筒 (的 Crestron UC-P10-T)     | `1.0.0.80`       | 2023 年 8 月 5 日            | 9 |
+| 具有和不带话筒 (的 Crestron UC-P8-T)      | `1.0.0.56`       | 2023 年 8 月 5 日            | 9 |
+| 带和不带话筒的 (UC-P10-C-T)   | `1.0.0.80`       | 2023 年 8 月 5 日            | 9 |
+| 具有和不带话筒 (的 Crestron UC-P8-C-T)    | `1.0.0.80`       | 2023 年 8 月 5 日            | 9 |
 | Audiocodes C470HD                      | `1.8.293   `                                               | 2023 年 8 月 5 日               | 9 |
 | Yealink MP52                           | `145.15.0.6 `                                              | 2023 年 8 月 5 日               | 9 |
 | AudioCodes C435HD                      | `1.12.33`                                                  | 2023 年 8 月 5 日               | 9 |
@@ -143,6 +143,10 @@ Microsoft Teams 设备认证计划可确保经过认证的设备满足较高的�
 | Yealink VP59   | `91.15.0.87`  | 2022 更新 #1     |
 | Yealink CP960  | `73.15.0.150`  | 2022 更新 #1         |
 | Yealink MP52 | `145.15.0.25`  | 2022 更新 #1         |
+| Poly Trio C60  | `7.1.4.0250 ` | 2021 更新#3C  |
+| Poly CCX600    | `7.1.4.0253  `| 2021 更新#3C  |
+| Poly CCX500    | `7.1.4.0253  `| 2021 更新#3C  |
+| Poly CCX400    | `7.1.4.0253  `| 2021 更新#3C  |
 | Poly Trio C60   | `7.1.4.0201`  | 2021 更新#3B                        |
 | Poly CCX400/CCX500/CCX600   | `7.1.4.0200`  | 2021 更新#3B                 |
 |Audiocodes C448HD  | `1.14.449` | 2021 更新 #3  |
@@ -190,7 +194,7 @@ Microsoft Teams 设备认证计划可确保经过认证的设备满足较高的�
 
 请参阅[Microsoft Teams显示](teams-displays.md)。
 
-### <a name="product-release-information-for-teams-rooms-on-android"></a>Android 上适用于 Teams 会议室 的产品发布信息
+### <a name="product-release-information-for-teams-rooms-on-android"></a>Android 版 Teams 会议室产品发布信息
 
 以下是 Android 应用和Teams 会议室的最新版本。
 

@@ -21,14 +21,14 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: 了解如何使用 Teams 中的 Bookings 应用计划、管理和执行虚拟Teams。
-ms.openlocfilehash: 5734dbde3db60e5595a1c712bdfb7849dc86485e
-ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
+ms.openlocfilehash: 6241c377cc5daa0986081fbfa30eca5fa7146efc
+ms.sourcegitcommit: 5ca04ee10e3f254e1b24506de116591fdfd51d18
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/11/2022
-ms.locfileid: "62763796"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "62929267"
 ---
-# <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>使用 Microsoft Teams 和 Bookings 应用的虚拟访问
+# <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>使用 Microsoft Teams 和 Bookings 应用进行虚拟访问
 
 ## <a name="overview"></a>概述
 
@@ -38,7 +38,7 @@ Bookings 应用便于管理任何组织的复杂日程安排需求。 调度程�
 
 虚拟约会通过会议Microsoft Teams，提供可靠的视频会议功能。 例如，医生可以与患者共享其屏幕并查看测试结果。 或者，银行顾问可以请求对文档进行电子签名，从而允许他们远程关闭交易。
 
-每个虚拟约会Teams一个会议链接，该链接通过电子邮件发送给与会者，他们可以轻松地从 Web 浏览器或Teams设备加入。 自动电子邮件提醒有助于减少未显示，并增强客户和客户端的参与度。
+每个虚拟约会Teams一个会议链接，该链接通过电子邮件发送给与会者，他们可以轻松地从 Web 浏览器加入会议，或者Teams设备上加入。 自动电子邮件提醒有助于减少未显示，并增强客户和客户端的参与度。
 
 通过 Bookings，你可以获得针对你的行业定制的体验。 下面是一些如何在组织中使用它的示例：
 
@@ -72,7 +72,7 @@ Bookings 应用便于管理任何组织的复杂日程安排需求。 调度程�
 
 ### <a name="add-staff"></a>添加教职员工
 
-在预订日历中，转到"更多选项 **" (...****) >设置，** 然后选择"教职 **员工"**。 添加教职员工成员，并为每个添加的人员分配角色。 您最多可以将 100 名员工添加到预订日历中。
+在预订日历中，转到"更多选项 **" (...**) >设置，**然后选择**"教职 **员工"**。 添加教职员工成员，并为每个添加的人员分配角色。 您最多可以将 100 名员工添加到预订日历中。
 
 Bookings 应用与 Outlook。 添加教职员工后，您将能够查看此人的日历可用性并安排其预订。 若要了解详情，请参阅 [添加教职员工并查看 Bookings 日历](https://support.microsoft.com/office/add-staff-and-view-a-bookings-calendar-6c579f61-8adb-4514-9458-021de2023fa0)。  
 
@@ -82,7 +82,7 @@ Bookings 应用与 Outlook。 添加教职员工后，您将能够查看此人�
 
 在预订日历中，转到"更多选项 **" (...** ) > **"** 约会类型"，然后选择"新建 **约会类型"**。 输入名称，&mdash;例如，"帐户打开"、"付款续订"、贷款咨询、税务准备&mdash;以及任何其他信息和设置。
 
-您添加的信息和链接包含在每次预订这种类型的约会时发送给与会者的电子邮件确认中。 您甚至可以设置电子邮件提醒和其他选项，例如与会者是否可以从移动浏览器[加入，而无需](mobile-browser-join.md)下载Teams。 有关详细信息，请参阅 [创建约会类型](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887)。
+您添加的信息和链接包含在每次预订这种类型的约会时发送给与会者的电子邮件确认中。 您甚至可以设置电子邮件提醒和其他选项，例如与会者是否可以从移动浏览器加入，[](mobile-browser-join.md)而无需下载Teams。 有关详细信息，请参阅 [创建约会类型](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887)。
 
 ## <a name="schedule-a-visit"></a>安排访问
 
@@ -119,6 +119,8 @@ Bookings Web 应用提供其他功能。 例如，你可以发布自助在线预
 
 - [管理移动浏览器上Teams虚拟访问的加入体验](mobile-browser-join.md)
 
+- [Teams虚拟访问使用情况报告](../teams-analytics-and-reports/virtual-visits-usage-report.md)
+
 - [医疗保健Teams入门](healthcare/teams-in-hc.md)
 
-- [在帮助文档中Teams Bookings 应用](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?#PickTab=Bookings)
+- [Teams帮助文档中的 Bookings 应用](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?#PickTab=Bookings)
