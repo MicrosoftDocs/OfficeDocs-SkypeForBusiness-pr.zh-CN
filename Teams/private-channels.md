@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 了解如何在 Microsoft Teams 中使用和管理私人频道。
-ms.openlocfilehash: edf3fc2933bf51f3c5966fa8e021fe0ff50de39b
-ms.sourcegitcommit: 2ddbaecb0bb7776dc5ab88727b1335e7e46d3704
+ms.openlocfilehash: 2ff886835258d9508e2cbe7c977ab5437d87129e
+ms.sourcegitcommit: e9b0a274fdfee3d5bc8211cb099155546b281fe0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "62881547"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "62926305"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft Teams 中的私人频道
 
@@ -102,9 +102,9 @@ Microsoft Teams 中的私人频道创建专用空间供团队展开协作。 仅
 >
 > 了解有关管理 [Microsoft Teams 连接的团队网站](/SharePoint/teams-connected-sites)的详细信息。
 
-## <a name="private-channel-message-compliance-records"></a>私人频道消息合规记录
+## <a name="compliance-copies-of-private-channel-messages"></a>专用频道消息的合规性副本
 
-在私人频道中发送的消息记录将传递到所有私人频道成员的邮箱，而不是传递到组邮箱。 记录的标题已格式化为指示它们是从哪个私人频道发送的。
+在专用频道中发送的消息的合规性副本将传递到所有专用频道成员的邮箱，而不是发送到组邮箱。 合规性副本的标题格式化为指示它们是从哪个专用频道发送的。
 
 有关对私人频道消息执行电子数据展示搜索的详细信息，请参阅[私人频道的电子数据展示](ediscovery-investigation.md#ediscovery-of-private-channels)。
 
