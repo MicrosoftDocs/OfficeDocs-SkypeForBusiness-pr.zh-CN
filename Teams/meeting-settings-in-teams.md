@@ -9,21 +9,26 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
-  - CSH
+- CSH
 ms.custom:
-  - ms.teamsadmincenter.meetingsettings.invitationurls
-  - ms.teamsadmincenter.meetingsettings.network.ports
-  - ms.teamsadmincenter.meetingsettings.overview
+- ms.teamsadmincenter.meetingsettings.invitationurls
+- ms.teamsadmincenter.meetingsettings.network.ports
+- ms.teamsadmincenter.meetingsettings.overview
 ms.collection:
-  - M365-collaboration
-  - m365initiative-meetings
+- M365-collaboration
+- m365initiative-meetings
 description: 了解如何管理用户在组织中安排的 Teams 会议的设置。
+ms.openlocfilehash: 294bbac570d1f1741449c7c81cb9389b20cdcdc6
+ms.sourcegitcommit: eb5fadedacbf4651ed5b05f1b0d6abf57e9eda2d
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "62960024"
 ---
-
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理会议设置
 
 作为管理员，你可以使用 Teams 会议设置来控制匿名用户是否可以加入 Teams 会议、自定义会议邀请，并在想要启用服务质量 (QoS) 的情况下设置实时流量端口范围。 这些设置适用于用户在组织中安排的所有 Teams 会议。 可以在 Microsoft Teams 管理中心的“**会议**” > “**会议设置**”中管理这些设置。
@@ -67,6 +72,14 @@ description: 了解如何管理用户在组织中安排的 Teams 会议的设置
 > [!NOTE]
 > 如果要对按组织禁用匿名加入的组织使用按组织者策略，管理员需要创建一个策略，然后将其分配给用户。 要了解如何执行此操作，请参阅 [Microsoft Teams 中的管理会议策略](/microsoftteams/meeting-policies-overview)。
 
+### <a name="blocking-anonymous-join-for-specific-client-types"></a>阻止特定客户端类型的匿名联接
+
+允许匿名用户加入会议时，他们可以使用 Teams 客户端或使用 [Azure 通信服务](/azure/communication-services/) 生成的自定义客户端。 管理员可以使用 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) 中的 **-BlockedAnonymousJoinClientTypes** 参数阻止所选客户端类型。
+
+可能的值有:
+- Null (默认值)。 允许所有客户端类型。
+- ACS。 阻止使用 [Azure 通信服务](/azure/communication-services/) 生成的自定义客户端。
+- Teams。 阻止 Teams 客户端。
 
 ## <a name="allow-anonymous-users-to-interact-with-apps-in-meetings"></a>允许匿名用户与会议中的应用交互
 
