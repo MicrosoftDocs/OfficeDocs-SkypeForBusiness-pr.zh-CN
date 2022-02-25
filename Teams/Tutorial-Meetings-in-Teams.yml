@@ -20,12 +20,12 @@ metadata:
   - Teams_ITAdmin_RemoteWorkers
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: bfdb7ceab9e4a3d3ffebf903b073c5ec707e7bc6
-  ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+  ms.openlocfilehash: 1737461b1eface3038957a862ab2bcb743ca4615
+  ms.sourcegitcommit: eb5fadedacbf4651ed5b05f1b0d6abf57e9eda2d
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 10/28/2021
-  ms.locfileid: "60605598"
+  ms.lasthandoff: 02/25/2022
+  ms.locfileid: "62960054"
 items:
 - durationInMinutes: 1
   content: >
@@ -67,7 +67,7 @@ items:
     -   在此教程的“后续步骤”页面底部的“评论”部分中发布。
 
 
-    要向我们提供有关 Teams 的产品反馈（例如，新功能想法），请访问 [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)。
+    若要提供有关产品产品Teams，例如新功能的想法，请访问Teams[门户](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472)。
 - title: Teams 中的会议
   durationInMinutes: 16
   content: "\n要了解 Teams 中的会议，请参阅以下内容：\n-   [会议和通话](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)中的“举行会议”（预计阅读时间为 6 分钟）\n\n-   [立即开会](https://support.office.com/article/Video-Meet-now-26e06837-853d-4df1-a729-06bf700d4ecf)视频（1:45 分钟）\n\n-   [安排的会议](https://support.office.com/article/Video-Scheduled-meetings-ba44d0fd-da3c-4541-a3eb-a868f5e2b137)视频（1:45 分钟）\n\n-   [Microsoft Teams 会议的 9 条提示](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444)，以了解会议大厅、以匿名方式加入会议等信息（预计阅读时间为 6 分钟）\n"
@@ -108,7 +108,7 @@ items:
 
     2.  向我们发送反馈：
         - 在此页面底部的“评论”部分发布。
-        - 要向我们提供 Teams 产品反馈或请求新功能，请访问 [Teams UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)。
+        - 若要向我们Teams产品反馈或请求新功能，请转到Teams[门户。](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472)
     3.  获取最新信息：
         - 关注 [Teams 博客](https://aka.ms/teamsblog)。
         - 阅读 [Teams 路线图](https://aka.ms/O365Roadmap)。

@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
-description: 了解如何使用呼叫质量仪表板Power BI报表来查看自动助理呼叫队列历史数据。
+description: 了解如何使用呼叫质量仪表板Power BI报表来查看自动助理和呼叫队列历史数据。
 ms.openlocfilehash: bb83a31b083387bc945f7f4b4388ee6643c00f10
-ms.sourcegitcommit: d8dba15c520de3894d1781e17acb2c75fb38ed49
+ms.sourcegitcommit: eb5fadedacbf4651ed5b05f1b0d6abf57e9eda2d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/23/2022
+ms.lasthandoff: 02/25/2022
 ms.locfileid: "62921870"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>自动助理 &队列历史报告
@@ -60,7 +60,7 @@ ms.locfileid: "62921870"
 
 - 双击 zip 文件以打开它。
 
-- 双击"CQ 和 AA 组合分析 20201105.pbit"模板文件。 应Power BI Desktop启动。
+- 双击"CQ 和 AA 组合分析 20201105.pbit"模板文件。 该Power BI Desktop应启动。
 
 - 系统会提示选择 CQD 数据管道区域。 选择租户所在的区域。
 
@@ -79,7 +79,7 @@ ms.locfileid: "62921870"
 
  - 报告将随示例数据一起启动。
  
- - 若要查看自己的数据，请在"开始 **"** 选项卡上的"查询"下选择"Power BI Desktop"。
+ - 若要查看自己的数据，请在"开始"选项卡上的"查询"下选择"Power BI Desktop"。
 
    :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="选择刷新选项的屏幕截图。":::
 
@@ -116,7 +116,7 @@ ms.locfileid: "62921870"
   
 ## <a name="auto-attendant-and-call-queue-historical-reports-definitions"></a>自动助理和调用队列历史报告定义
 
-### <a name="cloud-auto-attendant-analytics"></a>云自动助理分析
+### <a name="cloud-auto-attendant-analytics"></a>Cloud 自动助理 Analytics
 
 #### <a name="report-description"></a>报表说明
 
@@ -201,7 +201,7 @@ ms.locfileid: "62921870"
 |fCallQueueAnalytics          |CallQueueAnalytics           |无             |
 |fCallQueueFinalStateAction   |CallQueueFinalStateAction    |无             |
 
-|报表部分                      |表 -> 字段 () 已用                |应用的筛选器       |
+|报表部分                      |表 -> 字段 (字段) 已用                |应用的筛选器       |
 |:-----------------------------------|:-------------------------------------|:---------------------|
 |日期选择器                       |Dates -> DateTime                     |无                  |
 |调用队列标识                 |dCQ-CQIdentity ->调用队列标识 |无                  |
@@ -209,7 +209,7 @@ ms.locfileid: "62921870"
 |平均等待时间                    |fCallQueueFinalStateAction ->平均呼叫持续时间 (秒)  |转接之前：呼叫队列呼叫结果agent_joined_conference或transferred_to_agent<br>挂断之前：呼叫队列呼叫结果agent_joined_conference或transferred_to_agent |
 |通话结果                         |fCallQueueAnalytics ->呼叫计数<br>fCallQueueAnalytics ->呼叫队列呼叫结果 | 无 |
 |超时/溢出调用总数操作 |fCallQueueFinalStateAction ->调用计数<br>fCallQueueFinalStateAction ->调用队列最终状态操作 |调用队列最终状态操作未转发 |
-|传输/Forard 目标总计       |fCallQueueAnalytics ->呼叫计数<br>fCallQueueAnalytics ->呼叫队列目标类型 |无 |
+|传输/Forard 目标总计       |fCallQueueAnalytics ->呼叫计数<br>fCallQueueAnalytics ->调用队列目标类型 |无 |
 |呼叫量                        |fCallQueueAnalytics ->呼叫计数<br>fCallQueueAnalytics ->调用队列标识<br>fCallQueueAnalytics -> Date |无 |
 |已放弃的呼叫                     |fCallQueueAnalytics -> %已放弃的调用<br>fCallQueueAnalytics ->呼叫计数<br>fCallQueueAnalytics -> Date<br>fCallQueueAnalytics -> IsAbandoned |IsAbandoned 为 True |
 |平均会话长度 (秒)     |fCallQueueFinalStateAction ->平均呼叫持续时间<br>fCallQueueFinalStateAction -> Date<br>fCallQueueFinalStateAction -> IsAbandoned |无 |
@@ -306,6 +306,6 @@ ms.locfileid: "62921870"
 
 - 仪表板中仅提供 28 天的历史记录，因为呼叫队列/自动助理数据被视为个人数据，并受数据隐私保留策略的约束。
 
-- 在某些情况下，代理应答的云呼叫队列代理时间线报告上的呼叫计数可能不同于客户端呼叫历史记录中Teams的数量。 客户端Teams历史记录是正确的。 支持人员正在调查，但目前没有估计的修复时间。
+- 在某些情况下，代理应答的云呼叫队列代理时间线报告中的呼叫计数可能不同于客户端呼叫历史记录中Teams的数量。 客户端Teams历史记录是正确的。 支持人员正在调查，但目前没有估计的修复时间。
 
 - <sup>1</sup> **自动助理和** 呼叫队列图中的传入呼叫源显示最终呼叫段源，而不是初始呼叫段源。 例如，如果自动助理接收外部呼叫，将呼叫转接到另一个自动助理或呼叫队列，则传入呼叫源将报告为"内部"。

@@ -2,11 +2,11 @@
 title: 一线员工快速入门指南
 metadata:
   title: 快速入门 - Microsoft Teams 一线员工
-  description: 根据敏捷原则和迭代方法，为一线 (（例如轮班、零售或工厂) ）设置有效的试点。
+  description: 根据敏捷原则和迭代方法，为一线 (（例如排班、零售或工厂) ）设置有效的试点。
   audience: IT Pro
   level: Intermediate
   displayType: one-column
-  ms.author: heidip
+  ms.author: samanro
   ms.reviewer: keschm
   manager: serdars
   ms.service: msteams
@@ -21,12 +21,12 @@ metadata:
   - remotework
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: e07f2fcc1e7e1ced5f9a42b9969c1b32c2cc172b
-  ms.sourcegitcommit: 5880de47e986854fca873ae75f76a7ecad194dff
+  ms.openlocfilehash: ab97671ba35ba717b522428383a948664e954be3
+  ms.sourcegitcommit: eb5fadedacbf4651ed5b05f1b0d6abf57e9eda2d
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 02/15/2022
-  ms.locfileid: "61993076"
+  ms.lasthandoff: 02/25/2022
+  ms.locfileid: "62959974"
 items:
 - durationInMinutes: 2
   content: >
@@ -35,7 +35,7 @@ items:
 
     > [!NOTE]
 
-    > 在开始此工作之前，请查看并[Teams](upgrade-plan-journey-prerequisites.md)先决条件和环境依赖项。
+    > 在开始此工作之前，请查看并[Teams先决条件和环境](upgrade-plan-journey-prerequisites.md)依赖项。
 
 
     [!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-note.md)]
@@ -77,45 +77,45 @@ items:
     -   在此教程的“后续步骤”页面底部的“评论”部分中发布。
 
 
-    若要向我们提供有关产品产品Teams，例如新功能的想法，请访问 [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)。
+    若要提供产品反馈Teams，例如新功能的想法，请访问 Teams [反馈门户](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472)。
 - title: 将你的人员聚在一起
   durationInMinutes: 4
-  content: "\n组建一组来自企业、IT 和一线社区的个人，充当一线员工试点的Teams和决策组。 请务必包含来自所有三个社区的个人，为自己提供最佳成功机会：\n\n接下来，确定第 1 阶段试点社区，并确保它将实际一线员工包括在组织最小的逻辑分组中。 例如，一家餐馆、一家分公司、一家商店、一个医院、一个诊所、一个工厂、一个通讯中心，等等。 关键是围绕仅属于一个团队的一线员工进行优化。 经理或专家可能不止一人。\n\n### <a name=\"best-practice\"></a>最佳做法\n必须包含该最小逻辑分组（从经理到兼职或季节性工作者）内的所有角色，以发现有价值的见解并启用现代通信方案。 最三年级的员工会令你惊喜！ 在试点期间与示例客户一起发现一些令人愉悦且意外的重要方案包括：\n-   标准化期望和培训：拍摄干净整洁的照片，向厨房员工说明干净的含义。 \"如果它看起来不是这样的，那么它并不干净！\"\n\n-   减少收缩：拍摄已知店铺运输车的照片并立即通知其他员工。 Teams轮班时，也会看到此情况，以缓解未来风险。\n\n### <a name=\"decision-point\"></a>决策点\n在此阶段结束时，应该能够回答以下问题：\n-   Who参加试点？\n\n-   组织最小的逻辑分组是什么？\n"
+  content: "\n组建一组来自企业、IT 和一线社区的个人，充当第一线员工试点的Teams和决策组。 请务必包含来自所有三个社区的个人，为自己提供最佳成功机会：\n\n接下来，确定第 1 阶段试点社区，并确保它将实际一线员工包括在组织最小的逻辑分组中。 例如，一家餐馆、一家分公司、一家商店、一个医院、一个诊所、一个工厂、一个通讯中心，等等。 关键是围绕仅属于一个团队的一线员工进行优化。 经理或专家可能不止一人。\n\n### <a name=\"best-practice\"></a>最佳做法\n必须包含该最小逻辑分组（从经理到兼职或季节性工作者）内的所有角色，以发现有价值的见解并启用现代通信方案。 最三年级的员工会令你惊喜！ 在试点期间与示例客户一起发现一些令人愉悦且意外的重要方案包括：\n-   标准化期望和培训：拍摄干净整洁的照片，向厨房员工说明干净的含义。 \"如果它看起来不是这样的，那么它并不干净！\"\n\n-   减少收缩：拍摄已知店铺运输车的照片并立即通知其他员工。 Teams班次的变化也将看到此情况，以缓解未来风险。\n\n### <a name=\"decision-point\"></a>决策点\n在此阶段结束时，应该能够回答以下问题：\n-   Who参加试点？\n\n-   组织最小的逻辑分组是什么？\n"
 - title: 规划试点物流
   durationInMinutes: 4
-  content: "\n对于一线员工的成功试点，简单性是关键！ 对于大多数客户来说，此社区通常未提供任何公司支持的通信或协作技术，但可能已经利用不受支持的使用者工具来实现一些基本需求。 建议最佳做法是从用户位置着手，并模拟他们目前在消费者工具中使用的功能。 随着试点进展和迭代过程开始，你可以扩大体验。\n\n### <a name=\"not-sure-what-consumer-tools-these-users-are-currently-using\"></a>不确定这些用户当前使用哪些使用者工具？\n一线辅助角色\"在 Box 中试点\"中包含的是示例用户调查。 利用试点前调查来清点工具、功能和方案。\n\n### <a name=\"chat-configuration-options\"></a>聊天配置选项\n在移动设备上的\"聊天\"中，你可以为聊天设置常规传统聊天Teams或在聊天中包含收藏频道的布局。 这第二步，简化的 UI 适用于仅位于一个团队中的一线员工，推荐采用最佳做法。 配置\"在聊天中显示收藏频道\"还可以从一线辅助角色应用设置策略中删除\"Teams\"按钮，以进一步简化和简化最终用户体验，而不会丢失功能。 对于将在多个团队中的用户，不建议这样做。 幸运的是，可以基于每个用户进行配置，并根据需要增加复杂性。\n\n### <a name=\"best-practice\"></a>最佳做法\n配置一线用户体验Teams第 1 阶段，以模拟这些用户已在使用的使用者工具！ 我们建议为一线员工启动试点，使用\"在聊天中显示收藏的频道\"简化通信，将班次 (可选) 。\n\n|  使用 Shifts  |  没有 Shifts  |\n|---------------|------------------|\n|:::image type=\"content\" source=\"media/firstline-worker-chat-with-shifts.png\" alt-text=\"添加了 Shifts 的电话屏幕的屏幕截图\":::    |:::image type=\"content\" source=\"media/firstline-worker-chat-without-shifts.png\" alt-text=\"未添加 Shifts 的电话屏幕屏幕截图\":::|\n\n### <a name=\"decision-points\"></a>决策点：\n\n-  对于一线工作者，哪些功能将位于试点的第 1 阶段？\n-  一线员工是否需要班次？\n-  将使用哪种聊天配置？\n"
+  content: "\n对于一线员工的成功试点，简单性是关键！ 对于大多数客户来说，此社区通常未提供任何公司支持的通信或协作技术，但可能已经利用不受支持的使用者工具来实现一些基本需求。 建议最佳做法是从用户位置着手，并模拟他们目前在消费者工具中使用的功能。 随着试点进展和迭代过程开始，你可以扩大体验。\n\n### <a name=\"not-sure-what-consumer-tools-these-users-are-currently-using\"></a>不确定这些用户当前使用哪些使用者工具？\n一线辅助角色\"在 Box 中试点\"中包含的是示例用户调查。 利用试点前调查来清点工具、功能和方案。\n\n### <a name=\"chat-configuration-options\"></a>聊天配置选项\n在移动设备上的\"聊天\"中，你可以拥有适用于聊天的普通传统聊天Teams或在聊天中包含收藏频道的布局。 这第二步，简化的 UI 适用于仅位于一个团队中的一线员工，推荐采用最佳做法。 配置\"在聊天中显示收藏频道\"还可以从一线辅助角色应用设置策略中删除\"Teams\"按钮，以进一步简化和简化最终用户体验，而不会丢失功能。 对于将在多个团队中的用户，不建议这样做。 幸运的是，可以基于每个用户进行配置，并根据需要增加复杂性。\n\n### <a name=\"best-practice\"></a>最佳做法\n配置一线用户体验Teams第 1 阶段，以模拟这些用户已在使用的使用者工具！ 我们建议为一线员工启动试点，使用\"在聊天中显示收藏的频道\"简化通信，将班次 (可选) 。\n\n|  使用 Shifts  |  没有 Shifts  |\n|---------------|------------------|\n|:::image type=\"content\" source=\"media/firstline-worker-chat-with-shifts.png\" alt-text=\"添加了 Shifts 的电话屏幕的屏幕截图\":::    |:::image type=\"content\" source=\"media/firstline-worker-chat-without-shifts.png\" alt-text=\"未添加 Shifts 的电话屏幕屏幕截图\":::|\n\n### <a name=\"decision-points\"></a>决策点：\n\n-  对于一线工作者，哪些功能将位于试点的第 1 阶段？\n-  一线员工是否需要班次？\n-  将使用哪种聊天配置？\n"
 - title: 技术和试点团队配置
   durationInMinutes: 25
-  content: "\n如果尚未这样做，请完成先决条件和环境依赖项开头突出显示的技术先决条件，以便[Teams。](upgrade-plan-journey-prerequisites.md) 了解技术先决条件并配置初始试点团队，高效的技术规划是出色的用户体验的基础。 这包括创建团队和邀请标识的一线员工。\n\n若要配置试点，建议使用\"前端辅助角色加入向导\"。 还可以手动配置试点。 \n\n### <a name=\"use-the-frontline-worker-onboarding-wizard-to-kick-off-your-pilot-recommended\"></a>使用\"前端辅助角色加入向导\"启动试点 (建议) \n\n\"一线员工加入向导\"Microsoft 365 管理中心简化了将一线员工加入组织。 使用向导开始试点，并快速部署Teams一线员工量身定制的体验。\n\n观看此简短视频，大致了解如何运行向导，使一线员工能够正常运行。 \n\n> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWN6oh]\n\n该向导为一线员工设置一个团队，并将许可证和 [策略包](manage-policy-packages.md) 分配给每个团队成员。 可以从头开始或从团队模板创建团队，然后[](get-started-with-teams-templates-in-the-admin-console.md)添加用户并分配角色。 该角色确定向导是向用户分配\"前端管理器\"还是\"前端辅助角色\"策略包。\n\n该向导可供至少具有一个 F 许可证的所有 [组织使用](https://www.microsoft.com/microsoft-365/enterprise/frontline)。 可以多次运行向导，以在整个组织的不同位置或Teams一线员工推出该向导。\n\n有关分步指南，请参阅使用一线员工入职向导让 [一线员工正常运行](flw-onboarding-wizard.md)。\n\n### <a name=\"manually-configure-your-pilot\"></a>手动配置试点\n\n如果希望手动配置试点，请执行以下步骤。 \n\n#### <a name=\"configure-and-assign-frontline-manager-and-frontline-worker-policy-packages\"></a>配置和分配 Frontline Manager 和 FrontLine 辅助角色策略包\n\nTeams[策略](manage-policy-packages.md)包是预定义的策略和策略设置的集合，可以分配给组织中具有相同或类似角色的用户。 在管理一线员工的策略时，策略包可简化、简化并帮助提供一致性。 你可以使用 Microsoft Teams 管理中心或 PowerShell 管理策略包。\n\nTeams包括前端管理器和前端辅助角色策略包。 每个策略包创建一组策略和策略设置，这些策略和策略设置支持该角色典型的协作和通信活动。 策略包支持以下策略类型：\n\n- 消息传递策略\n- 会议策略\n- 应用设置策略\n- 呼叫策略\n- 实时事件策略\n\n将为每个单独的策略提供策略包的名称，以便你可以轻松识别链接到该策略包的策略。 例如，将一线辅助角色策略包分配给组织的一线员工时，Frontline_Worker包中每个策略创建名为 Frontline_Worker 的策略。\n\n:::image type=\"content\" source=\"media/policy-packages-flw-firstline-worker.png\" alt-text=\"一线辅助角色策略包中的策略屏幕截图\":::\n\n##### <a name=\"view-the-policy-settings-in-the-policy-package\"></a>查看策略包中的策略设置\n\n在分配包前查看策略包中每个策略的设置。 在 Microsoft Teams 管理中心的左侧导航栏中，转至“**策略包**”，选择策略包名称，然后选择策略名称。\n\n确定预定义值是否适合你的组织，或是否需要根据组织的需求对其进行自定义，使其更具限制性或更宽松。\n\n##### <a name=\"customize-policy-settings-in-the-policy-package\"></a>自定义策略包中的策略设置\n\n根据组织的需求自定义策略包中的策略设置。 对策略设置所做的任何更改都将自动应用到已分配了该包的用户。 若要编辑策略包中的策略设置，请在 Microsoft Teams 管理中心中，依次选择策略包、要编辑的策略的名称，然后选择 **编辑**。\n\n请记住，在分配策略包之后，你还可以更改包中的策略设置。 若要了解详细信息，请参阅[自定义策略包](manage-policy-packages.md#customize-policies-in-a-policy-package)中的策略。 \n\n##### <a name=\"assign-the-policy-package\"></a>分配策略包\n\n将策略包分配给一线员工和经理。 可以将策略包分配给单个用户、组或一批用户。 有关如何分配策略包的分步指南，请参阅 [向用户和组分配策略包](assign-policy-packages.md)。\n\n如果用户已分配策略，稍后又分配了另一个策略，则最近分配的优先级将会更高。\n\n#### <a name=\"set-up-your-pilot-team\"></a>设置试点团队\n为标识的试点用户配置初始团队。\n \n1. 在管理中心左侧导航 [Microsoft Teams，转到](https://admin.teams.microsoft.com/)**\"Teams** > **管理团队\"**。 \n\n2. 从 **\"管理团队** \"页面中选择\"添加\"。\n\n3. 填写必填字段，包括团队名称、说明，并选择适当的团队所有者和隐私级别。 请确保在团队名称中具有描述性，并预期将试点扩展到多个团队。 选择\" **应用\"**。\n\n    :::image type=\"content\" source=\"media/firstline-worker-create-new-team.png\" alt-text=\"\"添加新团队\"窗格的屏幕截图\":::\n\n4. 选择创建的团队以打开团队详细信息页。\n\n    :::image type=\"content\" source=\"media/firstline-worker-team-details-page.png\" alt-text=\"团队详细信息页面的屏幕截图\":::\n\n5. 选择 **\"频道** \"以查看频道的当前列表。\n6. 选择 **\"添加** 频道\"，将你认为试点组所需的任何其他频道添加到\"常规\"频道。\n\n    :::image type=\"content\" source=\"media/firstline-worker-add-channel.png\" alt-text=\"\"添加通道\"窗格的屏幕截图\":::\n\n#### <a name=\"decision-point\"></a>决策点\n\n-  希望试运行多少个频道/对话主题？\n-  哪些主题适合你的方案？\n\n#### <a name=\"best-practice\"></a>最佳做法\n**保持频道简单**。 我们建议不要鼓励为每个可能的对话主题创建一个频道，而是让事情保持非常简单。 如果需要，通道是随着时间的推移创建的，则没有问题。\n  \n:::image type=\"content\" source=\"media/firstline-worker-channels-tab.png\" alt-text=\"\"频道\"选项卡的屏幕截图\":::\n\n#### <a name=\"invite-the-frontline-manager-and-frontline-workers\"></a>邀请一线经理和一线员工\n现在，团队结构已就位并应用了用户策略，现在可以开始邀请一线员工了。\n1. 在管理中心左侧导航 [Microsoft Teams，转到](https://admin.teams.microsoft.com/)**\"Teams** > **管理团队\"**。 \n2. 搜索在\"设置试点团队\"阶段创建的团队。\n3. 选择创建的团队以打开团队详细信息页。\n\n    :::image type=\"content\" source=\"media/firstline-worker-team-details-page.png\" alt-text=\"团队详细信息页面的屏幕截图\":::\n\n4. 选择\" **添加成员\"**。\n5. 搜索试点成员的姓名，然后单击\"保存 **\"**。\n"
+  content: "\n如果尚未这样做，请完成先决条件开头突出显示的技术先决条件和环境依赖项，以便[Teams。](upgrade-plan-journey-prerequisites.md) 了解技术先决条件并配置初始试点团队，高效的技术规划是出色的用户体验的基础。 这包括创建团队和邀请标识的一线员工。\n\n若要配置试点，建议使用\"前端辅助角色加入向导\"。 还可以手动配置试点。 \n\n### <a name=\"use-the-frontline-worker-onboarding-wizard-to-kick-off-your-pilot-recommended\"></a>使用\"一线员工加入向导\"启动试点 (建议) \n\n\"一线员工加入向导\"Microsoft 365 管理中心简化了将一线员工加入组织。 使用向导开始试点，并快速部署Teams一线员工量身定制的体验。\n\n观看此简短视频，大致了解如何运行向导，使一线员工能够正常运行。 \n\n> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWN6oh]\n\n该向导为一线员工设置一个团队，并将许可证和 [策略包](manage-policy-packages.md) 分配给每个团队成员。 可以从头开始或从团队模板创建团队，然后[](get-started-with-teams-templates-in-the-admin-console.md)添加用户并分配角色。 该角色确定向导是向用户分配\"前端管理器\"还是\"前端辅助角色\"策略包。\n\n该向导可供至少具有一个 F 许可证的所有 [组织使用](https://www.microsoft.com/microsoft-365/enterprise/frontline)。 可以多次运行向导，以在整个组织的不同位置或Teams向一线员工推出该向导。\n\n有关分步指南，请参阅使用一线员工入职向导让 [一线员工正常运行](flw-onboarding-wizard.md)。\n\n### <a name=\"manually-configure-your-pilot\"></a>手动配置试点\n\n如果希望手动配置试点，请执行以下步骤。 \n\n#### <a name=\"configure-and-assign-frontline-manager-and-frontline-worker-policy-packages\"></a>配置和分配 Frontline Manager 和 FrontLine 辅助角色策略包\n\nTeams[策略](manage-policy-packages.md)包是预定义的策略和策略设置的集合，可将其分配给组织中具有相同或类似角色的用户。 在管理一线员工的策略时，策略包可简化、简化并帮助提供一致性。 你可以使用 Microsoft Teams 管理中心或 PowerShell 管理策略包。\n\nTeams包括前端管理器和前端辅助角色策略包。 每个策略包创建一组策略和策略设置，用于支持该角色典型的协作和通信活动。 策略包支持以下策略类型：\n\n- 消息传递策略\n- 会议策略\n- 应用设置策略\n- 呼叫策略\n- 实时事件策略\n\n将为每个单独的策略提供策略包的名称，以便你可以轻松识别链接到该策略包的策略。 例如，将一线辅助角色策略包分配给组织的一线员工时，Frontline_Worker包中每个策略创建一个名为 Frontline_Worker 的策略。\n\n:::image type=\"content\" source=\"media/policy-packages-flw-firstline-worker.png\" alt-text=\"一线辅助角色策略包中的策略屏幕截图\":::\n\n##### <a name=\"view-the-policy-settings-in-the-policy-package\"></a>查看策略包中的策略设置\n\n在分配包前查看策略包中每个策略的设置。 在 Microsoft Teams 管理中心的左侧导航栏中，转至“**策略包**”，选择策略包名称，然后选择策略名称。\n\n确定预定义值是否适合你的组织，或是否需要根据组织的需求对其进行自定义，使其更具限制性或更宽松。\n\n##### <a name=\"customize-policy-settings-in-the-policy-package\"></a>自定义策略包中的策略设置\n\n根据组织的需求自定义策略包中的策略设置。 对策略设置所做的任何更改都将自动应用到已分配了该包的用户。 若要编辑策略包中的策略设置，请在 Microsoft Teams 管理中心中，依次选择策略包、要编辑的策略的名称，然后选择 **编辑**。\n\n请记住，在分配策略包之后，你还可以更改包中的策略设置。 若要了解详细信息，请参阅[自定义策略包](manage-policy-packages.md#customize-policies-in-a-policy-package)中的策略。 \n\n##### <a name=\"assign-the-policy-package\"></a>分配策略包\n\n将策略包分配给一线员工和经理。 可以将策略包分配给单个用户、组或一批用户。 有关如何分配策略包的分步指南，请参阅 [向用户和组分配策略包](assign-policy-packages.md)。\n\n如果用户已分配策略，稍后又分配了另一个策略，则最近分配的优先级将会更高。\n\n#### <a name=\"set-up-your-pilot-team\"></a>设置试点团队\n为标识的试点用户配置初始团队。\n \n1. 在管理中心左侧导航 [Microsoft Teams](https://admin.teams.microsoft.com/)，转到\"**Teams** > **管理团队\"**。 \n\n2. 从 **\"管理团队** \"页面中选择\"添加\"。\n\n3. 填写必填字段，包括团队名称、说明，并选择适当的团队所有者和隐私级别。 请确保在团队名称中具有描述性，并预期将试点扩展到多个团队。 选择\" **应用\"**。\n\n    :::image type=\"content\" source=\"media/firstline-worker-create-new-team.png\" alt-text=\"\"添加新团队\"窗格的屏幕截图\":::\n\n4. 选择创建的团队以打开团队详细信息页。\n\n    :::image type=\"content\" source=\"media/firstline-worker-team-details-page.png\" alt-text=\"团队详细信息页面的屏幕截图\":::\n\n5. 选择 **\"频道** \"以查看频道的当前列表。\n6. 选择 **\"添加** 频道\"，将你认为试点组所需的任何其他频道添加到\"常规\"频道。\n\n    :::image type=\"content\" source=\"media/firstline-worker-add-channel.png\" alt-text=\"\"添加通道\"窗格的屏幕截图\":::\n\n#### <a name=\"decision-point\"></a>决策点\n\n-  希望试运行多少个频道/对话主题？\n-  哪些主题适合你的方案？\n\n#### <a name=\"best-practice\"></a>最佳做法\n**保持频道简单**。 我们建议不要鼓励为每个可能的对话主题创建一个频道，而是让事情保持非常简单。 如果需要，通道是随着时间的推移创建的，则没有问题。\n  \n:::image type=\"content\" source=\"media/firstline-worker-channels-tab.png\" alt-text=\"\"频道\"选项卡的屏幕截图\":::\n\n#### <a name=\"invite-the-frontline-manager-and-frontline-workers\"></a>邀请一线经理和一线员工\n现在，团队结构已就位并应用了用户策略，现在可以开始邀请一线员工了。\n1. 在管理中心左侧导航 [Microsoft Teams](https://admin.teams.microsoft.com/)，转到\"**Teams** > **管理团队\"**。 \n2. 搜索在\"设置试点团队\"阶段创建的团队。\n3. 选择创建的团队以打开团队详细信息页。\n\n    :::image type=\"content\" source=\"media/firstline-worker-team-details-page.png\" alt-text=\"团队详细信息页面的屏幕截图\":::\n\n4. 选择\" **添加成员\"**。\n5. 搜索试点成员的姓名，然后单击\"保存 **\"**。\n"
 - title: 通信
   durationInMinutes: 1
-  content: "\n告知一线员工他们参与试点、试点目标，并在必要时提供有关基本功能的培训。 对于大多数客户来说，这可以是一个简单的说明，指示这些用户在个人移动设备上转到 Google Play 或 Apple Store，下载 Microsoft Teams 应用程序，然后使用其公司凭据登录。 我们设计了一Microsoft Teams一个简单且易于使用的界面，大多数一线员工应该觉得该界面直观。\n\n### <a name=\"best-practice\"></a>最佳做法\n不要忘记在班次上培训经理！ 如果要在试运行中包括班次，请确保与经理开展单独的培训课程，了解如何创建、管理和向团队发布日程安排。 如果需要其他培训材料和通信模板，可以在 Box 的一线试点中查找它们。\n"
+  content: "\n告知一线员工他们参与试点、试点目标，并在必要时提供有关基本功能的培训。 对于大多数客户来说，这可以是一个简单的说明，指示这些用户转到其个人移动设备上的 Google Play 或 Apple Store，下载 Microsoft Teams 应用程序，然后使用其公司凭据登录。 我们设计了一Microsoft Teams简单且易于使用的界面，大多数一线员工应该觉得该界面直观。\n\n### <a name=\"best-practice\"></a>最佳做法\n不要忘记在班次上培训经理！ 如果要在试运行中包括班次，请确保与经理开展单独的培训课程，了解如何创建、管理和向团队发布日程安排。 如果需要其他培训材料和通信模板，可以在 Box 的一线试点中查找它们。\n"
 - title: Measure
   durationInMinutes: 1
   content: "\n为一线员工提供能力更与人比技术有关。 若要了解Teams的影响，请专注于一线员工的体验。 在试运行之前、期间和之后调查他们，以了解其需求、要点和反应。 如果一段时间循环访问试验并添加新功能，此反馈可以帮助指导顺序、速度，甚至是否需要其他功能。 为了帮助你评估试运行是否成功，可以在 Box 的一线试点中查找它们。\n### <a name=\"best-practice\"></a>最佳做法\n**培养你的获胜者并突出你的胜出**。 奖励一线员工使用这些新工具，并采用与公司业务成果相关的创新方式使用它们。 上述任何内容都将确保持续采用Teams和价值。\n"
 - title: Iterate
   durationInMinutes: 1
   content: "\n现在，你已成功完成了第一批一线员工的第一次试点，是时候扩展了！ 现在，可以返回到步骤 1，其中提供了以下几个扩展选项之一。 我们建议根据需要多次完成此过程，以找到解决方案、一组最佳做法以及所有一线工作者的培训文档。\n\n-   展开团队数。 使用\"前端辅助角色加入向导\"设置下一个位置或区域。\n    -   可以执行一个区域，而不是一个位置？ 需要一个团队用于整个区域还是每个位置使用单个团队？\n-   展开提供的功能。\n   -   一线员工是否有一项关键功能建议我填写反馈表单（如 Shifts）中未包括在初始功能集内？\n"
-- title: 后续步骤
+- title: 下一步
   durationInMinutes: 1
   content: >-
     此培训涵盖了以下主要学习内容：
 
-    -   规划一线员工试点Teams
+    -   在 Teams 规划一线员工试点
 
     -   配置试点
 
     -   基于试点实现的通信、测量和迭代
 
 
-    ### <a name="next-steps"></a>后续步骤
+    ### <a name="next-steps"></a>下一步
 
 
     1.  继续使用Teams满足组织不断变化的一线员工需求。
 
     2.  向我们发送反馈：
         - 在此页面底部的“评论”部分发布。
-        - 要向我们提供 Teams 产品反馈或请求新功能，请访问 [Teams UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)。
+        - 若要提供Teams反馈或请求新功能，请转到 Teams [反馈门户](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472)。
     3.  获取最新信息：
         - 关注 [Teams 博客](https://aka.ms/teamsblog)。
         - 阅读 [Teams 路线图](https://aka.ms/O365Roadmap)。

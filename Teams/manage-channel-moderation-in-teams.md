@@ -18,12 +18,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何在频道中设置审核Microsoft Teams，包括如何将团队成员添加为频道审阅人。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9fd15b6d7eeecf0f1b7e6ec25e33236f50fd83b3
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 4441eea880b5dcf1d71ca11f0ad32cf148f90cf4
+ms.sourcegitcommit: eb5fadedacbf4651ed5b05f1b0d6abf57e9eda2d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62400846"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "62960004"
 ---
 # <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>在视频中设置和管理Microsoft Teams
 
@@ -62,7 +62,7 @@ ms.locfileid: "62400846"
 
 在Teams，转到频道，单击"**更多选项...** > "**管理频道**。 在这里，可以启用和关闭审核、将团队成员添加为审阅人，以及设置首选项。
 
-通道审核是按通道设置。 没有用于通道审核的租户级设置。 如果希望我们添加租户级通道审核设置，请通过 [UserVoice Teams它](https://microsoftteams.uservoice.com/)。
+通道审核是按通道设置。 没有用于通道审核的租户级设置。 如果希望我们添加租户级频道审核设置，请通过反馈门户Teams[它](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472)。
 
 [!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
 
@@ -76,7 +76,7 @@ ms.locfileid: "62400846"
 
 ### <a name="add-or-remove-channel-moderators"></a>添加或删除频道审查器
 
-在 **Who审阅人？"** 下，单击"管理"，然后添加或删除团队成员作为审阅人。 团队所有者和审阅人可以添加和删除其他审阅人。  
+在 **Who审阅人？"** 下，单击 **"管理"**，然后添加或删除团队成员作为审阅人。 团队所有者和审阅人可以添加和删除其他审阅人。  
 
 ### <a name="set-team-member-permissions"></a>设置团队成员权限
 
