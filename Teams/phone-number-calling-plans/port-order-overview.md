@@ -17,13 +17,13 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.porting.overview
 - Calling Plans
-description: 大致了解什么是转单，以及如何将电话号码从服务提供商转移到Teams。
-ms.openlocfilehash: b17e0dea6181c111355a865bf1f70c07bfcb9258
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+description: 大致了解什么是转货订单以及如何将电话号码从服务提供商转移到Teams。
+ms.openlocfilehash: bb9ebd91b1f5a08fb07eff0f469be4496714ecfc
+ms.sourcegitcommit: 766199440a152d97c95c2c45b7c4654815e64d9a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62398416"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "62963413"
 ---
 # <a name="whats-a-port-order"></a>什么是转网订单？
 
@@ -76,7 +76,7 @@ ms.locfileid: "62398416"
 
 - 专用于收发传真的电话号码。
 
-    如果有用于传真的现有专用电话号码，可以将这些号码转移到Teams但传真服务无法继续正常工作。 传真服务不可用于Teams，即使你拥有 电话系统、国内呼叫计划或国际呼叫计划的许可证。
+    如果您有用于传真的现有专用电话号码，您可以将这些号码转移到 Teams但是您的传真服务不会继续正常工作。 传真服务不可用于客户Teams，即使你拥有 电话系统、国内呼叫计划或国际呼叫计划的许可证。
 
     如果将电话号码移植到Teams，可以将此电话号码分配给贵组织的用户，而不是将其用于传真。
 
@@ -91,11 +91,11 @@ ms.locfileid: "62398416"
 
 将电话号码转Teams，可以选择转移所有号码或部分号码。
   
-- **完整端口** 此时，你将所有号码从当前服务提供商转移到Teams。 当系统询问你要转移的电话号码时，你必须包括帐单电话号码 (BTN ) 以及你的帐户上所有其他电话号码。
+- **完整端口** 此时，将当前服务提供商的所有号码转移到Teams。 当系统询问你要转移的电话号码时，你必须包括帐单电话号码 (BTN ) 以及你的帐户上所有其他电话号码。
 
     例如，假设 BTN 为  *+1 425-555-1234*  ，并且想要将 25 个电话号码全部移植到 (*+1 425-555-1235 到 1259*) 。 按照下面的说明转网号码时，你应该输入： **+14255551234 - +14255551259** 。
 
-- **Partial-port** 此时，你仅将某些电话号码从当前服务提供商转移给Teams。 当你要移植与同一 BTN 绑定的一些电话号码时，不得 *将 BTN* 与帐户上所有其他电话号码一起包含。
+- **Partial-port** 此时，你仅将某些电话号码从当前服务提供商转移到Teams。 当你要移植与同一 BTN 绑定的一些电话号码时，不得 *将 BTN* 与帐户上所有其他电话号码一起包含。
 
     例如，假设 BTN 为  *+1 425-555-1234*  ，而您希望仅移植 25 个电话号码中的 5 个 (*+1 425-555-1235 到 1259*) 。 按照以下说明转移号码时，请输入： **+1 425 555 1235 - +1 425 555 1239**。
     
@@ -120,7 +120,7 @@ ms.locfileid: "62398416"
 
 - **带** 区号（如：800、844、855、866、877 和 888）的免费号码不能包含在具有其他类型的号码的号码移植请求中。 若要移植这些免费号码，必须 [手动提交移植订单](manually-submit-port-order.md)。 不能将这些数字移植到 Microsoft Teams管理中心。 有关详细信息，请参阅[为你的组织管理电话号码](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
 
-    对于要转网的电话号码的国家/地区 (LOA) 授权书，这一点很重要。 可 [在此处下载所需的 LOA](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
+    对于要转网的电话号码的国家/ (类型) LOA 授权书，这一点很重要。 可 [在此处下载所需的 LOA](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
 
 - **移动电话号码** 需使用 PIN 码来授权转移操作。因此，它们需要单独的携号转网请求。
 
@@ -131,18 +131,22 @@ ms.locfileid: "62398416"
 
 完成移植订单请求后，需要 7-14 天进行处理。 但是，根据你的服务提供商，可能需要花费长达 30 天时间。 将电话号码进行移植后，你向我们发送一封电子邮件，告知你已做好下一次准备。
   
-若要检查转码订单的状态，请在 Microsoft Teams 管理 > 中心的左侧导航栏中，转到"语音电话 **号码"，然后单击"** 订单 **历史记录"**。 每个移植订单状态都列在"状态 **"** 列中。
+若要检查转码订单的状态，请在 Microsoft Teams 管理 > 中心的左侧导航栏中，转到"语音电话 **号码"，然后单击**"订单 **历史记录"**。 每个移植订单状态都列在"状态 **"** 列中。
   
 ## <a name="can-user-subscriber-phone-numbers-be-converted-to-service-numbers"></a>用户（订阅者）电话号码是否可以转换为服务号码？
 <a name="bkmk_type_1"> </a>
 
-可以。 你只需要提交一个服务请求，在请求中提供你组织的租户 GUID 和你要转换的电话号码。 为此，请参阅 [管理组织的电话号码](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
+可以。 你只需要提交一个服务请求，在请求中提供你组织的租户 GUID 和你要转换的电话号码。 为此，请参阅 [管理组织的电话号码](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
-## <a name="can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier"></a>我能否将我的号码从Teams号码移植到其他电话服务提供商或运营商？
+## <a name="can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier"></a>我能否将号码从Teams号码移植到其他电话服务提供商或运营商？
 
-若要将号码从Teams运营商，您必须向新运营商提交请求。 还需要通过打开支持案例来设置移植 PIN。 若要了解如何获取支持，请参阅 [获取支持](/microsoft-365/business-video/get-help-support)。 
+若要将号码从Teams运营商，您必须向新运营商提交请求。 还需要在管理中心设置Microsoft Teams PIN。
+
+若要定义移植 PIN，请在 Microsoft Teams  >  管理中心的左侧导航栏中，转到"语音 **电话 号码"**，在页面右上角选择"管理移植 PIN"，然后输入 10 位数的 **PIN**。
 
 当你的新运营商联系我们提出移植请求时，我们将要求他们提供你定义的 PIN。
+
+如果需要进一步设置 PIN，请联系 [电话号码服务团队](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)
 
 ## <a name="common-mistakes-to-watch-out-for"></a>需要注意的常见错误
 <a name="bkmk_type_1"> </a>
