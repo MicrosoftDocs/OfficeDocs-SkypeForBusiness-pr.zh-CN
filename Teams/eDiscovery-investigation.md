@@ -17,20 +17,20 @@ description: 了解需要执行电子数据展示（例如，需要提交所有�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: b78ec3ad6741d2c7f83d7732400d5f1154747d5e
-ms.sourcegitcommit: 5ca04ee10e3f254e1b24506de116591fdfd51d18
+ms.openlocfilehash: 5a35afa53a8f94a5d0106e67d2f9f87eacfaca63
+ms.sourcegitcommit: edf68b7ac4f1861259a0990157ee6ae84f68ca42
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "62929157"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "62974459"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>在 Microsoft Teams 中对内容进行电子数据展示调查
 
-大型企业通常面临高处罚诉讼，这些诉讼要求提交所有电子存储信息 (ESI) 。 Microsoft Teams电子数据展示调查期间可以搜索和使用内容。
+大型企业经常面临高处罚诉讼，这些诉讼要求提交所有电子存储信息 (ESI) 。 Microsoft Teams电子数据展示调查期间搜索和使用内容。
 
 ## <a name="overview"></a>概述
 
-所有Microsoft Teams 1：1 或群组聊天都记录到相应用户的邮箱。 所有标准频道邮件都记录到代表团队的组邮箱。 在标准通道中上传的文件在 SharePoint Online 和 OneDrive for Business 电子数据展示功能下OneDrive for Business。
+所有Microsoft Teams 1：1 或群组聊天都记录到相应用户的邮箱。 所有标准频道邮件都记录到代表团队的组邮箱。 在标准频道中上传的文件在 SharePoint Online 和 OneDrive for Business 电子数据展示功能下OneDrive for Business。
 
 在专用频道中电子数据展示消息和[](private-channels.md)文件的工作方式与在标准通道中不同。 若要了解更多信息，请参阅 [私人频道电子数据展示](#ediscovery-of-private-channels)。
 
@@ -47,7 +47,7 @@ ms.locfileid: "62929157"
 |表情符号、GIF 和贴纸 | 是 | |
 |源通知 | 否 | |
 |内联图像 | 是 | |
-|循环组件| 否|包含循环组件的聊天消息是可搜索的。 但是，循环组件的内容不会为搜索编制索引，也不会在搜索结果中返回。 如果搜索结果包含包含循环组件的消息，可以查看循环组件内容。  |
+|循环组件| 是|循环组件中的内容保存在 .fluid 文件中，该文件存储在发送循环组件的用户的 OneDrive for Business 帐户中。 这意味着，在循环组件OneDrive内容时，必须包含一个数据源。 |
 |会议 IM 对话 | 是 | |
 |会议元数据<sup>1</sup> | 是 |  |
 |频道名称 | 是 | |
@@ -83,7 +83,7 @@ ms.locfileid: "62929157"
 
 Microsoft Teams电子数据展示导出输出中，Excel IM 或对话。 导出邮件后`.pst`，Outlook打开文件以查看这些邮件。
 
-查看团队的 .pst 文件时，所有对话都位于"对话历史记录"下的"团队聊天"文件夹中。 消息的标题包含团队名称和频道名称。 例如，下图显示了 Bob 发来的消息，他向制造规格Project 7 标准频道发送消息。
+查看团队的 .pst 文件时，所有对话都位于"对话历史记录"下的"团队聊天"文件夹中。 消息的标题包含团队名称和频道名称。 例如，下图显示了 Bob 发来的消息，他向制造规范Project 7 标准频道发送消息。
 
 ![Outlook 中用户邮箱中的“团队聊天”文件夹屏幕截图。](media/Conduct_an_eDiscovery_investigation_of_content_in_Microsoft_Teams_image1.png)
 
@@ -91,11 +91,11 @@ Microsoft Teams电子数据展示导出输出中，Excel IM 或对话。 导出�
 
 ## <a name="ediscovery-of-private-channels"></a>私人频道电子数据展示
 
-在专用频道中发送的邮件的合规性副本将传递到所有专用频道成员的邮箱，而不是发送到组邮箱。 合规性副本的标题经过格式化，以指示它们从哪个专用频道发送。
+在专用频道中发送的消息的合规性副本将传递到所有专用频道成员的邮箱，而不是发送到组邮箱。 合规性副本的标题格式化为指示它们是从哪个专用频道发送的。
 
 由于每个专用频道都有自己的SharePoint网站，与父团队网站分开，因此专用频道中的文件独立于父团队进行管理。
 
-Teams不支持对团队中的单个频道进行电子数据展示搜索，因此必须搜索整个团队。 若要在专用频道中对内容执行电子数据展示搜索，请在整个团队中搜索、与专用频道关联的网站集 (以包含文件) 以及专用频道成员的邮箱 (以包含邮件) 。
+Teams不支持对团队中的单个频道进行电子数据展示搜索，因此必须搜索整个团队。 若要在专用频道中对内容执行电子数据展示搜索，请在整个团队中搜索、与专用频道关联的网站集 (以包含文件) ，以及包含消息的专用频道成员 (邮箱) 。
 
 使用以下步骤在专用通道中标识要包括在电子数据展示搜索中的文件和消息。
 
@@ -124,7 +124,7 @@ Teams不支持对团队中的单个频道进行电子数据展示搜索，因此
     foreach ($site in $sites) {$x= Get-SpoSite -Identity $site.url -Detail; if ($x.RelatedGroupId -eq $groupID) {$x.RelatedGroupId;$x.url}}
     ```
 > [!NOTE]
-> SharePoint 2021 `teamchannel#1` 年 6 月 28 日之后创建的专用频道的网站使用 值作为自定义模板 ID。 因此，对于在此日期之后创建的专用通道，在运行 `teamchannel#1` 前两个脚本时请使用 值。
+> SharePoint 2021 `teamchannel#1` 年 6 月 28 日之后创建的专用频道的网站使用值作为自定义模板 ID。 因此，对于在此日期之后创建的专用通道，在运行 `teamchannel#1` 前两个脚本时请使用 值。
 
 ### <a name="include-private-channel-messages-in-an-ediscovery-search"></a>在电子数据展示搜索中包括私人频道消息
 
@@ -159,9 +159,9 @@ Teams不支持对团队中的单个频道进行电子数据展示搜索，因此
 
 搜索来宾用户的内容：
 
-1. 连接 PowerShell Azure AD。 有关说明，请参阅使用 [PowerShell](/microsoft-365/enterprise/connect-to-microsoft-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module) 连接"Azure Active Directory PowerShell 连接"Microsoft 365部分。 请务必完成上一主题中的步骤 1 和步骤 2。
+1. 连接 PowerShell Azure AD。 有关说明，请参阅使用 [PowerShell](/microsoft-365/enterprise/connect-to-microsoft-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module) 连接"Azure Active Directory PowerShell 连接Microsoft 365部分。 请务必完成上一主题中的步骤 1 和步骤 2。
 
-2. 成功连接到 PowerShell Azure AD，请运行以下命令，为组织的所有来宾用户 (UPN) 用户主体名称。 在步骤 4 创建搜索时，必须使用来宾用户的 UPN。
+2. 成功连接到 PowerShell Azure AD，请运行以下命令，显示组织中所有来宾 (UPN) 用户主体名称。 在步骤 4 创建搜索时，必须使用来宾用户的 UPN。
 
    ```powershell
    Get-AzureADUser -Filter "userType eq 'Guest'" -All $true | FL UserPrincipalName
@@ -172,7 +172,7 @@ Teams不支持对团队中的单个频道进行电子数据展示搜索，因此
 
 3. 在不同的安全Windows PowerShell，连接到安全&中心 PowerShell。 有关说明，请参阅[连接安全&中心 PowerShell](/powershell/exchange/connect-to-scc-powershell)。 可以使用或无需使用多重身份验证进行连接。
 
-4. 通过运行以下命令，创建内容搜索 (，例如聊天消息和电子邮件) 指定来宾用户是参与者。
+4. 通过运行以下命令，创建内容搜索 (，例如聊天消息和电子邮件) ，其中指定的来宾用户是参与者。
 
    ```powershell
    New-ComplianceSearch <search name> -ExchangeLocation <guest user UPN>  -AllowNotFoundExchangeLocationsEnabled $true -IncludeUserAppContent $true
@@ -212,7 +212,7 @@ Teams不支持对团队中的单个频道进行电子数据展示搜索，因此
 
 若要搜索卡片内容，可以使用 或 `kind:microsoftteams` 搜索 `itemclass:IPM.SkypeTeams.Message` 条件。 查看搜索结果时，Teams 通道中机器人生成的卡内容将发件人 **/** 作者电子邮件属性作为 `<appname>@teams.microsoft.com`，`appname`其中 是生成卡内容的应用的名称。 如果卡内容是由用户生成的，则"发件人/作者 **"的值将** 标识该用户。
 
-在内容搜索结果中查看卡片内容时，内容显示为邮件的附件。 附件名为 `appname.html`，其中 `appname` 是生成卡内容的应用的名称。 以下屏幕截图显示名为 Asana (应用的卡片内容) 显示在Teams和搜索结果中。
+在内容搜索结果中查看卡片内容时，内容显示为邮件的附件。 附件名为 `appname.html`，其中 `appname` 是生成卡内容的应用的名称。 以下屏幕截图显示了名为 Asana (应用的卡内容) 显示在Teams和搜索结果中。
 
 **卡片内容Teams**
 
@@ -223,7 +223,7 @@ Teams不支持对团队中的单个频道进行电子数据展示搜索，因此
 ![内容搜索结果中的卡内容相同。](media/CardContentEdiscoverySearchResults.png)
 
 > [!NOTE]
-> 若要在此时在搜索结果中显示卡内容的图像 (如上一屏幕截图) 中的选中标记，您必须在用于查看搜索结果的同一浏览器会话的不同选项卡https://teams.microsoft.com)中登录到 Teams (。 否则，会显示图像占位符。
+> 若要在此时在搜索结果中显示卡内容的图像 (如上一屏幕截图) 中的选中标记，您必须在用于查看搜索结果的同一浏览器会话中的不同选项卡https://teams.microsoft.com)中登录到 Teams (。 否则，会显示图像占位符。
 
 ## <a name="related-topics"></a>相关主题
 

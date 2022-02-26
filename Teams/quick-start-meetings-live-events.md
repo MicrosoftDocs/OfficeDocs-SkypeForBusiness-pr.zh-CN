@@ -20,12 +20,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 07d050782dfef1ce89f54891302457c2f1616fa5
-ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
+ms.openlocfilehash: ed6abe00ac67b6029fdb72178ad09e21ec58e80d
+ms.sourcegitcommit: edf68b7ac4f1861259a0990157ee6ae84f68ca42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/11/2022
-ms.locfileid: "62763645"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "62974449"
 ---
 # <a name="quick-start---meetings-webinars-and-live-events"></a>快速入门 - 会议、网络研讨会和直播活动 
 
@@ -157,7 +157,7 @@ Teams 中的 **会议** 包括最多 1,000 人的音频、视频和屏幕共享�
 | 文章 | 说明 | 
 |----------|--------|
 | [应用、机器人和连接器](deploy-apps-microsoft-teams-landing-page.md) | 应用简介以及如何为组织部署应用。 |
-| [适用于 Teams 会议的应用](/microsoftteams/platform/apps-in-teams-meetings/teams-apps-in-meetings | 会议应用扩展性、API 参考，以及如何为会议启用和配置应用的概述。 |
+| [Teams 会议应用](/microsoftteams/platform/apps-in-teams-meetings/teams-apps-in-meetings) | 会议应用扩展性、API 参考，以及如何为会议启用和配置应用的概述。 |
 | [在 Teams 中管理 Whiteboard](manage-whiteboard.md) | 介绍 Whiteboard 功能以及如何为组织启用和禁用。 |
 ||
 
