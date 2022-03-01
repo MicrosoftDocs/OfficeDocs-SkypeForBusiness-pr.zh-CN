@@ -1,5 +1,5 @@
 ---
-title: Microsoft EDU Parents 应用的管理员设置Teams
+title: 家长在家长Teams 教育版
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: ''
-description: Microsoft Teams EDU 一文，介绍了家长应用的先决条件和设置。
+description: Microsoft Teams介绍家长在家长中的先决条件和Teams 教育版。
 ms.localizationpriority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 search.appverid: MET150
@@ -17,16 +17,20 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f35d4f3037735f2122d26a2b9b24cf3a38f3bc99
-ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
+ms.openlocfilehash: af6433cb3e5ca0e1849322bdd128915e826e219b
+ms.sourcegitcommit: 2044fdcb0c5db10dbc77c5d66e382c1b927ccdc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "62363228"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "63040060"
 ---
-# <a name="deploying-the-parents-app-in-microsoft-teams"></a>在 Microsoft Teams 中部署父Microsoft Teams
+# <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>在 Microsoft Teams 教育版 中设置父Microsoft Teams 教育版
 
-"家长"应用可帮助教师使用课堂团队中的家长和监护人安全地联系Teams学生家长和监护人，这将在教师组织中进行扩展。 所有家长和监护人数据都是使用学校数据同步预配的，使 IT 人员能够顺利地进行设置。
+Teams 教育版 中的家长连接可帮助教师使用 Teams 聊天安全地与班级团队中的学生家长和监护人联系和互动，这将在教师组织中扩展。 所有家长和监护人数据都是使用学校数据同步，使 IT 人员能够顺利地进行设置。
+
+家长和监护人设置好后，可以使用聊天功能与学生教师Teams聊天。 有关让家长和监护人与教师保持联系的指南，请参阅连接[教师的Teams](https://support.microsoft.com/topic/connect-with-educators-in-teams-ec2430c3-952a-4ba4-9891-1d1cab577960)。
+
+家长还使用监督聊天。 家长和监护人没有完全Teams权限，这意味着他们无法开始与学生对话或删除完全权限的用户， (教师) 聊天。 有关监督聊天详细信息[，请参阅在](supervise-chats-edu.md)聊天中使用Microsoft Teams。
 
 ## <a name="requirements"></a>要求
 
@@ -39,21 +43,41 @@ ms.locfileid: "62363228"
   - 完成 RFA 过程（[FastTrack](https://www.microsoft.com/fasttrack?rtc=1)）。
   - 在支持处创建 [票证](https://aka.ms/sdssupport)。
 
+- 目前，SDS 仅支持父联系人的基于 CSV 的数据导入;但是，可以将 [PowerSchool API 同步](/schooldatasync/how-to-deploy-school-data-sync-by-using-powerschool-sync) 或 [OneRoster API 同步](/schooldatasync/how-to-deploy-school-data-sync-by-using-oneroster-sync) 用于所有名单数据，并且只需使用 CSV 添加父联系人。
+  - 使用 [SDS v1 CSV 同步格式创建第二个同步配置文件](/schooldatasync/school-data-sync-format-csv-files-for-sds)。
+  - 拉取两个填充的 [父](/schooldatasync/parent-contact-sync-file-format) 文件，其中 v1 文件的其余部分为空， (标头) 。
+    - User.csv
+    - Guardianrelationship.csv
+  - 若要查看 v1 CSV 文件的示例集，请参阅文件的最低GitHub[属性](https://github.com/OfficeDev/O365-EDU-Tools/tree/master/CSV%20Samples/SDS%20Format/Min%20Required%20Attributes)。
+  - 如果要在初始同步后自动拉取 CSV 文件，请阅读 [CSV 文件同步自动化文档](/schooldatasync/csv-file-sync-automation)。
+  - 有关设置 SDS 数据同步的帮助，请与客户成功团队[联系或](https://www.microsoft.com/fasttrack?rtc=1)[创建支持票证](https://edusupport.microsoft.com/support?product_id=data_sync)。
+
 ### <a name="teams-admin-center---policies"></a>Teams管理中心 - 策略
 
-- 课堂团队所有者必须已启用Teams聊天。
-- 课堂团队所有者必须具有外部访问权限，Teams **组织未管理的帐户**。
+- 课堂团队所有者必须Teams打开聊天。
+- 课堂团队所有者必须具有外部访问权限，Teams未由打开 **的组织管理** 的帐户。
   - 必须在租户级别和用户级别启用此功能。 租户级别设置可在管理中心>**外部访问** Teams设置。 也可通过 PowerShell 访问此设置。 用户级外部访问策略只能通过 PowerShell 访问。 有关进一步指南，请参阅下面的 PowerShell 命令。
 
-## <a name="enabling-external-access-with-teams-accounts-not-managed-by-an-organization"></a>使用组织未Teams的帐户启用外部访问
+> [!NOTE]
+>家长和监护人在"家长"功能中归类为"外部用户"，这意味着他们没有完全的租户权利。 他们只能访问添加到聊天中的聊天，以及聊天中共享的文件、图像和其他内容。
+>
+>此外，外部用户 (脱机、) 、忙碌等状态，但可以使用 PowerShell 关闭此功能以保护用户的隐私。 在 PowerShell 中，使用 [Set-CsPrivacyConfiguration 并](/powershell/module/skype/set-csprivacyconfiguration?view=skype-ps) 设置 ``EnablePrivacyMode=true``。
+>
+>即使家长和监护人是外部用户，他们对聊天的贡献也是可发现的。 阅读对电子数据展示中Teams数据展示调查，了解如何执行电子数据展示[Microsoft Teams](ediscovery-investigation.md)。
 
-1. 安装最新的 PowerShell Microsoft Teams预览版。
+## <a name="allow-external-access-with-teams-accounts-not-managed-by-an-organization"></a>允许使用组织Teams管理的帐户进行外部访问
+
+若要允许教师与 Teams 中的家长和监护人通信，教育租户的 IT 管理员需要更新租户的策略，以允许租户外部的 Teams 帐户进行外部访问。 有关管理外部访问的信息，请参阅在 Microsoft Teams [中管理外部Microsoft Teams](manage-external-access.md)。
+
+下面是为家长和监护人启用外部访问的步骤。
+
+1. 安装最新的 powerShell Microsoft Teams预览版。
 
     ```powershell
     Install-Module -Name PowerShellGet -Force -AllowClobber
     Install-Module -Name MicrosoftTeams -AllowPrerelease -Force –AllowClobber
     ```
-    
+
 2. 使用具有管理员权限的凭据运行以下命令：
 
     ```powershell
@@ -61,11 +85,11 @@ ms.locfileid: "62363228"
     Connect-MicrosoftTeams -Credential $credential
     ```
 
-默认情况下，为`EnableTeamsConsumerAccess`Teams级别外部访问策略启用策略设置，该策略 () 非由组织管理的帐户进行外部访问。 需要同时启用租户级别设置和用户级策略设置，用户能够使用未由组织管理Teams帐户进行外部访问。 如果不希望租户中的每个用户都启用此访问权限，应确保禁用租户级别设置，更新分配给用户的用户级外部访问策略，然后启用租户级设置。
+    默认情况下，`EnableTeamsConsumerAccess`对于所有用户级外部访问策略， () 启用非组织托管的 Teams 帐户的外部访问的策略设置。 需要启用租户级别设置和用户级策略设置，用户需使用组织不Teams帐户进行外部访问。 如果不希望租户中的每个用户都启用此访问权限，应确保关闭租户级别设置，更新分配给用户的用户级外部访问策略，然后打开租户级设置。
 
-若要检查存在哪些用户级外部访问策略及其分配到的用户，可以使用以下步骤：
-    
-3. 检查存在哪些用户级外部访问策略。
+    若要检查存在哪些用户级外部访问策略及其分配到哪些用户级外部访问策略，可以使用以下步骤：
+
+3. 检查是否存在用户级外部访问策略。
 
     ```powershell
     Get-CsExternalAccessPolicy
@@ -91,19 +115,19 @@ ms.locfileid: "62363228"
 
 - 向单个用户分配外部访问策略： [Grant-CsExternalAccessPolicy](/powershell/module/skype/grant-csexternalaccesspolicy)
 
-- 将策略分配给一组用户： [New-CsBatchPolicyAssignmentOperation](/powershell/module/skype/new-csbatchpolicyassignmentoperation)
+- 将策略分配给一组用户： [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
 
-为租户中的 `AllowTeamsConsumer` 用户正确设置用户级外部访问策略后，可以使用以下 cmdlet 为租户启用租户 () 级别设置：
+为租户中的 `AllowTeamsConsumer` 用户正确设置用户级外部访问策略后，可以使用以下 cmdlet 为租户 () 级别设置：
 
 - 为租户设置联合配置设置： [Set-CsTenantFederationConfiguration](/powershell/module/skype/set-cstenantfederationconfiguration)
 
-## <a name="enabling-the-parents-app"></a>启用家长应用
+## <a name="turn-on-the-parents-app-in-the-teams-admin-center"></a>在"家长管理中心"Teams"应用
 
-默认情况下，"家长"应用处于禁用状态，因此课堂团队所有者不会在课堂团队中看到该应用，直到允许应用通过Teams中心。 可以使用允许发布者阻止的应用Teams管理中心[允许该应用](manage-apps.md#apps-blocked-by-publishers)。
+默认情况下，"家长"应用已关闭，因此课堂团队所有者不会在课堂团队中看到它，直到允许它通过Teams中心。 使用允许发布者阻止的应用Teams管理中心中打开"家长["应用](manage-apps.md#apps-blocked-by-publishers)。
 
-应用随时可在租户级别使用"允许"和"阻止"应用在[](manage-apps.md#allow-and-block-apps)租户Teams禁用。 如果在租户级别禁用应用，则所有用户都会阻止该应用，即使启用了用户级别权限。
+应用随时可在租户级别使用"允许"和"阻止"应用在租户[](manage-apps.md#allow-and-block-apps)Teams关闭。 如果在租户级别将其关闭，则所有用户都会阻止它，即使用户级别的权限处于打开状态。
 
-也可在用户级别使用管理应用中的应用权限策略来禁用[Microsoft Teams。](teams-app-permission-policies.md)
+也可在用户级别使用管理应用权限策略在用户级别关闭"家长"[Microsoft Teams。](teams-app-permission-policies.md)
 
 ## <a name="more-information"></a>更多信息
 

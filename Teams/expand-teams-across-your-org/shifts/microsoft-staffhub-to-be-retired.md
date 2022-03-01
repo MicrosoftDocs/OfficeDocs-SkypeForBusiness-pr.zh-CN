@@ -18,18 +18,18 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 08b3b0ddfa3d53bebb9c3e628347e99d1016a133
-ms.sourcegitcommit: eb5fadedacbf4651ed5b05f1b0d6abf57e9eda2d
+ms.openlocfilehash: dfe4a64799599b690573f6faae9842ce10d0c470
+ms.sourcegitcommit: 2044fdcb0c5db10dbc77c5d66e382c1b927ccdc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "62960034"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "63039960"
 ---
 # <a name="microsoft-staffhub-has-been-retired"></a>Microsoft StaffHub 已停用
 
-从 2020 年 6 月 30 开始，Microsoft StaffHub 已停用。 我们正在将 StaffHub 功能集成到 Microsoft Teams 中。 如今，Teams 包含用于日程安排管理的“班次”应用，并且随着时间推移将推出其他功能。
+从 2020 年 6 月 30 开始，Microsoft StaffHub 已停用。 我们正在将 StaffHub 功能集成到 Microsoft Teams 中。 目前，Teams包括用于计划管理的 Shifts 应用，并且会随着时间的推移推出更多功能。
 
-这些更改是我们的持续努力的一部分，使每位员工能够Microsoft 365。 借助 Teams 中一线员工的功能，您的组织中的每个员工都将能够使用 Teams 简化工作日、与同事协作，以及访问信息和专业知识以帮助他们完成最佳工作。
+这些更改是我们的持续努力的一部分，使每位员工能够Microsoft 365。 借助 Teams 中的一线员工功能，您的组织中的每个员工都将能够使用 Teams 简化工作日、与同事协作，以及访问信息和专业知识以帮助他们完成最佳工作。
 
 ## <a name="frequently-asked-questions"></a>常见问题解答
 
@@ -45,7 +45,7 @@ StaffHub 于 2020 年 6 月 30 日停止为所有用户工作。 任何尝试打
 
 #### <a name="will-teams-offer-all-the-functionality-currently-offered-in-staffhub"></a>是否Teams StaffHub 中当前提供的所有功能？
 
-2019 年 1 月，Teams开始提供以前在 Microsoft StaffHub 中提供的 Shifts。 此功能允许经理计划和分发排班计划，以及团队成员有机会查看其日程安排，以及从移动设备提出日程安排更改请求。 有关详细信息，请参阅在应用程序中管理组织的 [Shifts Teams](manage-the-shifts-app-for-your-organization-in-teams.md)。
+2019 年 1 月，Teams开始提供以前在 Microsoft StaffHub 中提供的 Shifts。 此功能允许经理计划和分发排班计划，以及团队成员有机会查看其日程安排，以及从移动设备提出日程安排更改请求。 有关详细信息，请参阅在 Teams [中管理组织的 Shifts Teams](manage-the-shifts-app-for-your-organization-in-teams.md)。
 
 我们致力于提供卓越的用户体验，并带来 StaffHub 的独特功能，Teams。
 
@@ -55,9 +55,9 @@ StaffHub 于 2020 年 6 月 30 日停止为所有用户工作。 任何尝试打
 
 #### <a name="what-happens-if-i-didnt-move-a-staffhub-team-to-shifts-in-teams"></a>如果我没有将 StaffHub 团队移动到团队中的班次，会发生什么Teams？
 
-Teams StaffHub 创建且未移动到 Teams 则自 StaffHub 停用后，不再可以查看或移动。 但是，你Teams开始在 Shifts 应用中创建排班计划。
+Teams StaffHub 创建且未移动到 Teams在 StaffHub 停用后，不再可以查看或移动。 但是，你随时都可以Teams，在 Shifts 应用中创建排班计划。
 
-如果有一个与 Office 365 组关联的 StaffHub 团队，而您未移动到 Teams 并且现在想要创建与该 Office 365 组关联的 Teams Shifts 计划，请联系支持人员。
+如果 StaffHub 团队与未移动到 Teams 的 Office 365 组相关联，并且现在想要创建与该 Office 365 组关联的 Teams Shifts 计划，请联系支持人员。
 
 ### <a name="about-shifts"></a>关于 Shifts
 
@@ -69,14 +69,17 @@ Teams中的 Shifts 应用是一个计划管理工具，可使一线员工保持�
 
 Teams 可用的所有企业 SKU 中均提供“班次”。
 
-#### <a name="how-do-i-get-shifts"></a>如何获取班次？ 
+> [!NOTE]
+> 班次可用于政府社区云 (GCC) 环境，但不适用于GCC或 DoD 环境。
 
-如果已使用包含班次的计划，可立即开始将 Shifts 用作计划的一Teams。 请查看 [Shifts 入门](https://support.office.com/article/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6)。
+#### <a name="how-do-i-get-shifts"></a>如何获取班次？
+
+如果已使用包含班次的计划，可以立即开始将 Shifts 用作计划的一Teams。 请查看 [Shifts 入门](https://support.office.com/article/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6)。
 
 #### <a name="which-devices-or-platforms-is-shifts-available-on"></a>Shifts 在哪些设备或平台上可用？
 
-在 iOS 和 Android Teams web 客户端、Teams 客户端Teams移动客户端上 (班次) 。
- 
+在 iOS 和 Android Teams web 客户端Teams桌面客户端Teams移动客户端上 (班次) 。
+
 #### <a name="are-there-differences-between-the-shifts-desktop-and-web-apps-and-the-mobile-ios-and-android-apps"></a>Shifts 桌面和 Web 应用与 iOS 和 Android (移动应用之间) 差异？
 
 对于经理，桌面和 Web 应用经过优化，可以创建团队、添加成员、构建和发布计划，以及与团队共享内容。 经理通常使用移动应用批准请求、向团队发送快速消息、呼叫团队成员，以及随时随地进行协作。 
@@ -89,10 +92,10 @@ Shifts iOS 和 Android 应用之间的核心功能相同。 两个应用之间�
 
 #### <a name="what-browsers-does-shifts-work-on"></a>Shifts 在哪些浏览器上工作？
 
-Shifts 适用于所有Teams浏览器，包括最新版本的 Microsoft Edge、Internet Explorer Google Chrome 和 Mozilla Firefox。 有关详细信息，请参阅获取[客户端Teams](../../get-clients.md)。
+Shifts 适用于所有Teams浏览器，包括最新版本的 Microsoft Edge、Internet Explorer、Google Chrome 和 Mozilla Firefox。 有关详细信息，请参阅获取[客户端Teams](../../get-clients.md)。
 
 > [!Note]
-> Microsoft 365应用和服务将不支持 2021 年 8 月 17 Internet Explorer 11 日 (Microsoft Teams将不支持从 2020 年 11 月 30 日到 2020 年 11 月 3) 0 日之前Internet Explorer 11 日。 [了解详细信息](https://aka.ms/AA97tsw)。 请注意，Internet Explorer 11 将保留为受支持的浏览器。 Internet Explorer 11 是 Windows 操作系统的一个组件，它遵循安装它的产品的生命周期策略[](/lifecycle/faq/internet-explorer-microsoft-edge)。 
+> Microsoft 365应用和服务将不支持 2021 年 8 月 17 Internet Explorer 11 日 (Microsoft Teams将不支持 2020 年 11 月 30 日之前Internet Explorer 11 日) 。 [了解详细信息](https://aka.ms/AA97tsw)。 请注意，Internet Explorer 11 将保留为受支持的浏览器。 Internet Explorer 11 是 Windows 操作系统的一个组件，它遵循安装它的产品的生命周期策略。[](/lifecycle/faq/internet-explorer-microsoft-edge) 
 
 #### <a name="what-languages-does-shifts-support"></a>Shifts 支持哪些语言？
 
@@ -100,9 +103,9 @@ Shifts 提供以下语言：简体中文、英语 (美国 ) 、西班牙语、�
 
 #### <a name="where-is-shifts-data-stored"></a>Shifts 数据存储在何处？
 
-Shifts 数据存储在北美和西欧的数据中心的 Azure 中。 SharePoint内容利用Microsoft 365组，并使用相同的存储和支持。
+Shifts 数据当前存储在 Azure 中，数据中心位于亚太 (APAC) 、欧盟 () 和北美。 有关数据存储位置的详细信息，请参阅[我的数据在哪里？](http://o365datacentermap.azurewebsites.net/)。
 
-有关详细信息，请参阅 [Shifts 数据的位置](manage-the-shifts-app-for-your-organization-in-teams.md#location-of-shifts-data)。
+若要详细了解 Shifts 数据，包括 Shifts 数据的存储、保留、检索和加密，请参阅 [Shifts 数据常见问题解答](shifts-data-faq.md)。
 
 #### <a name="where-can-i-learn-more-about-shifts"></a>在哪里可以了解有关 Shifts 的更多信息？
 
@@ -114,15 +117,15 @@ Shifts 数据存储在北美和西欧的数据中心的 Azure 中。 SharePoint�
 
 #### <a name="what-licenses-do-i-need-for-teams"></a>需要哪些许可证Teams？
 
-每个用户必须具有有效Microsoft 365或Office 365计划的许可证，并且必须分配有一个Teams许可证。 
+每个用户必须具有活动许可证Microsoft 365或Office 365计划的许可证，并且必须分配有一个Teams许可证。 
 
 #### <a name="how-do-i-enable-teams-in-my-organization"></a>如何在组织中启用Teams？
 
-默认情况下，Teams所有组织都启用此功能。 向用户Teams许可证，以控制个人对Teams。 有关详细信息，请参阅[在Teams启用用户访问权限](../../Office-365-set-up.md)和管理用户[对 Teams](../../user-access.md)。
+默认情况下，Teams所有组织启用此功能。 向用户Teams许可证，以控制个人对Teams。 有关详细信息，请参阅在Teams[启用用户访问权限](../../Office-365-set-up.md)和管理[用户对 Teams](../../user-access.md)。
 
 #### <a name="what-if-i-currently-have-skype-for-business-enabled-in-my-organization-but-not-teams"></a>如果我当前在组织中启用了Skype for Business但尚未启用此功能，Teams？
 
-Teams支持与 Skype for Business 共存。 有关详细信息，请参阅[了解 Teams](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md) 和 Skype for Business 共存和互操作性，以及将 Teams 与 Skype for Business 一起用于组织的迁移[和互操作性Skype for Business](../../migration-interop-guidance-for-teams-with-skype.md)。
+Teams支持与 Skype for Business 共存。 有关详细信息，请参阅[了解Teams](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md) Skype for Business共存和互操作性，以及将 Teams 与 Skype for Business 一起用于组织的迁移[和互操作性Skype for Business](../../migration-interop-guidance-for-teams-with-skype.md)。
 
 #### <a name="does-each-user-need-to-have-a-microsoft-365-or-office-365-account-or-azure-active-directory-azure-ad-account"></a>每个用户是否需要拥有帐户或Microsoft 365帐户Office 365帐户Azure Active Directory (Azure AD) 帐户？
 
@@ -138,32 +141,32 @@ Teams支持与 Skype for Business 共存。 有关详细信息，请参阅[了�
 
 #### <a name="what-powers-the-file-sharing-capability-in-teams-where-are-files-stored"></a>哪些功能为文件共享功能提供Teams？ 文件存储在何处？
 
-文件共享功能是管理员向团队成员分发文件的功能，由 SharePoint Online 在后端提供。 创建团队后，Microsoft 365自动为此团队预配组。
+文件共享功能（即经理将文件分发给团队成员的功能）由 SharePoint Online 在后端提供。 创建团队后，Microsoft 365自动为该组在后台预配组。
 
-有关详细信息，请参阅如何SharePoint [Online OneDrive for Business如何Teams](../../SharePoint-OneDrive-interact.md)。
+有关详细信息，请参阅如何SharePoint[联机OneDrive for Business与 Teams](../../SharePoint-OneDrive-interact.md)。
  
-#### <a name="is-there-integration-between-shifts-and-the-outlook-calendar-can-i-export-a-schedule-to-a-calendar"></a>Shifts 和日历日历之间Outlook？ 能否将计划导出到日历？
+#### <a name="is-there-integration-between-shifts-and-the-outlook-calendar-can-i-export-a-schedule-to-a-calendar"></a>Shifts 和日历日历Outlook集成？ 能否将计划导出到日历？
  
-一线员工可以在排班中一目了然地查看其整个工作计划。 作为路线图的一部分，我们将支持Outlook日历的本机集成。 在此期间，使用 Power Automate 设置与 Google 日历和 Teams Outlook Shifts 的集成。
+一线员工可以在排班中一目了然地查看其整个工作计划。 作为路线图的一部分，我们将支持Outlook日历的本机集成。 在此期间，使用 Power Automate 设置与 Teams 和 Google 日历Outlook Shifts 的集成。
  
 #### <a name="what-admin-controls-are-available-to-manage-whether-users-in-my-organization-can-use-shifts"></a>哪些管理员控件可用于管理我组织中用户是否可以使用 Shifts？  
   
 你可以为组织中的所有用户打开或关闭组织范围的 Shifts。 在 Microsoft Teams 管理中心中，还可使用"前端辅助角色"应用设置策略Teams Frontline Workforce 的用户。 策略配置有活动、班次、聊天和呼叫应用。 分配策略时，这些应用会固定到Teams栏，以便用户快速轻松地访问。 
 
-有关详细信息，请参阅在应用程序中管理组织的 [Shifts Teams](manage-the-shifts-app-for-your-organization-in-teams.md)。
+有关详细信息，请参阅在 Teams [中管理组织的 Shifts Teams](manage-the-shifts-app-for-your-organization-in-teams.md)。
 
 #### <a name="what-powershell-controls-are-available-for-teams"></a>哪些 PowerShell 控件可用于Teams？
 
-通过 Teams PowerShell 模块Microsoft Teams PowerShell 模块Skype for Business管理数据。 有关详细信息，请参阅 [PowerShell Teams概述](../../teams-powershell-overview.md)。 目前，没有可用于管理 Shifts 的特定 PowerShell cmdlet。  
+可以通过 Teams PowerShell 模块Microsoft Teams PowerShell 模块Skype for Business管理数据。 有关详细信息，请参阅 [PowerShell Teams概述](../../teams-powershell-overview.md)。 目前，没有可用于管理 Shifts 的特定 PowerShell cmdlet。  
 
-如果对此感兴趣，请通过反馈门户Teams[请求](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472)。
+如果对此感兴趣，请通过反馈门户向我们发送Teams[请求](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472)。
 
 [!INCLUDE [uservoice-disclaimer-note](../../includes/uservoice-disclaimer-note.md)]
 
 #### <a name="is-reporting-available-to-view-shifts-usage-across-my-organization"></a>报告是否可用于查看整个组织的班次使用情况？
 
-由于 Shifts 是应用中Teams，因此可以通过报表Teams使用情况。 有关详细信息，请查看 Teams [管理](../../teams-analytics-and-reports/teams-reporting-reference.md)Microsoft Teams中的Teams[活动](../../teams-activity-reports.md)报告Microsoft 365 管理中心。
+由于 Shifts 是一款Teams应用，因此可以通过报表Teams使用情况。 有关详细信息，请查看 Teams [管理](../../teams-analytics-and-reports/teams-reporting-reference.md)Microsoft Teams中的Teams[活动](../../teams-activity-reports.md)报告Microsoft 365 管理中心。
 
 #### <a name="where-can-i-provide-feedback"></a>在哪里提供反馈？
   
-在移动应用中，点击 **屏幕左上角** 的 > "更多"，转到"设置 **发送** 反馈"或"**报告问题"**。 同样，在桌面和 Web 应用中，在 > 屏幕左下角，转到"帮助"**"分享** 想法"或"**报告问题"**。
+在移动应用中，点击 **屏幕左上角** 的"更多"，转到"设置 **发送** 反馈"**或** > "**报告问题"**。 同样，在桌面和 Web 应用中，在 > 屏幕左下角，转到"帮助"**"分享** 想法"或"**报告问题"**。

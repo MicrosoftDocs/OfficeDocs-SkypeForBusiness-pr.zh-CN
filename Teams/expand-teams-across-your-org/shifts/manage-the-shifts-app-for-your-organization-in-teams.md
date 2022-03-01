@@ -24,12 +24,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: dd40888ec8f1f7c5c05c3f5a2bf5a867ece93a65
-ms.sourcegitcommit: 10bee789272e648ea1e93d7d7c27ec645d0a8bdd
+ms.openlocfilehash: d38af9f55f1620a1f38ad5860c71366201bb9444
+ms.sourcegitcommit: 2044fdcb0c5db10dbc77c5d66e382c1b927ccdc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/22/2022
-ms.locfileid: "62918875"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "63039900"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中为组织管理“班次”应用
 
@@ -49,13 +49,14 @@ ms.locfileid: "62918875"
 
 Teams 可用的所有企业 SKU 中均提供“班次”。
 
+> [!NOTE]
+> 班次可用于政府社区云 (GCC) 环境，但不适用于GCC或 DoD 环境。
+
 ## <a name="location-of-shifts-data"></a>“班次”数据的位置
 
-“班次”数据当前存储在北美、西欧和亚太地区的数据中心中的 Azure 中。 有关数据存储位置的详细信息，请参阅[我的数据在哪里？](http://o365datacentermap.azurewebsites.net/)。
+Shifts 数据当前存储在 Azure 中，数据中心位于亚太 (APAC) 、欧盟 () 和北美。 有关数据存储位置的详细信息，请参阅[我的数据在哪里？](http://o365datacentermap.azurewebsites.net/)。
 
-## <a name="shifts-data"></a>Shifts 数据
-
-若要详细了解 Shifts 数据的存储位置，以及 Shifts 数据的保留、检索和加密，请参阅 [Shifts 数据常见问题解答](shifts-data-faq.md)。
+若要详细了解 Shifts 数据，包括 Shifts 数据的存储、保留、检索和加密，请参阅 [Shifts 数据常见问题解答](shifts-data-faq.md)。
 
 ## <a name="set-up-shifts"></a>设置“班次”
 
@@ -76,7 +77,7 @@ Teams 可用的所有企业 SKU 中均提供“班次”。
 
 可以通过添加 Shifts [应用创建自定义](../../teams-app-setup-policies.md) 应用设置策略，然后将 [该策略分配给](../../assign-policies-users-and-groups.md) 用户。 或者，可以使用属于"前端辅助角色"和"前端管理器"策略包的应用设置策略。
 
-[Teams策略](../../manage-policy-packages.md)包是预定义的策略和策略设置的集合，可将其分配给组织中具有类似角色的用户。 前端辅助角色和前端管理器策略包中的策略集包括一个应用设置策略，该策略固定 Shifts 应用和支持该角色的通信和协作活动的其他应用。
+Teams[策略](../../manage-policy-packages.md)包是预定义的策略和策略设置的集合，可以分配给组织中具有类似角色的用户。 前端辅助角色和前端管理器策略包中的策略集包括一个应用设置策略，该策略固定 Shifts 应用和支持该角色的通信和协作活动的其他应用。
 
 我们建议使用一线辅助角色和前端管理器策略包，因为它们可简化、简化，并帮助在管理一线员工的策略时提供一致性。
 
@@ -88,9 +89,10 @@ Teams 可用的所有企业 SKU 中均提供“班次”。
 
 在搜索审核日志之前，你必须先在[安全与合规中心](https://protection.office.com)中启用审核。 有关详细信息，请参阅[启用或禁用审核日志搜索](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014)。 请记住，审核数据仅在你启用审核的那一刻才可用。
 
-## <a name="related-topics"></a>相关主题
+## <a name="related-articles"></a>相关文章
 
 - [Teams 中的排班](../shifts-for-teams-landing-page.md)
-- [一线员工排班帮助](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
+- [班次数据常见问题解答](shifts-data-faq.md)
 - [Shifts 连接线](shifts-connectors.md)
+- [一线员工排班帮助](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
 - [向 Teams 中的用户分配策略](../../policy-assignment-overview.md)

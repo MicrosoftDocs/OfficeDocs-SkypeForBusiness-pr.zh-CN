@@ -13,20 +13,20 @@ ms.collection:
 description: 了解如何使用 PowerShell 控件管理Microsoft Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: feaed3702173061561e09ccc784bbae3173914d1a030052d56a4aaa79f7986a0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 99af6bc71bdd25375f6165f1e645bf4626dd3123
+ms.sourcegitcommit: 2044fdcb0c5db10dbc77c5d66e382c1b927ccdc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312450"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "63039970"
 ---
 # <a name="install-microsoft-teams-powershell-module"></a>安装 Microsoft Teams PowerShell 模块
 
-本文介绍如何使用 PowerShell 库Microsoft Teams PowerShell 模块。 所有 Microsoft Teams 平台都支持 Windows PowerShell 模块。 
+本文介绍如何使用 PowerShell 库Microsoft Teams PowerShell 模块。 所有 Microsoft Teams 平台都支持 Windows PowerShell 模块。 不支持 Mac 和 Linux。
 
 ## <a name="requirements"></a>要求
 
-Microsoft TeamsPowerShell 模块要求在所有平台上使用 PowerShell 5.1 或更高版本。 安装 [适用于操作系统的最新版本的 PowerShell。](/powershell/scripting/install/installing-powershell)   
+Microsoft Teams PowerShell 模块在所有平台上都需要 PowerShell 5.1 或更高版本。 为 [操作系统安装最新版本的 PowerShellavailable](/powershell/scripting/install/installing-powershell) 。 
 
 若要检查 PowerShell 版本，请在 PowerShell 会话中运行以下命令： 
 
@@ -51,10 +51,10 @@ Are you sure you want to install the modules from 'PSGallery'?
 
 ## <a name="installing-using-the-powershellgallery"></a>使用 PowerShellGallery 进行安装
 
-Microsoft TeamsPowerShell 模块目前支持与 PowerShell 5.1 on Windows。 请按照以下步骤安装模块： 
+Microsoft Teams PowerShell 模块目前支持与 PowerShell 5.1 上的 Windows。 请按照以下步骤安装模块： 
 
-- 更新到[Windows PowerShell 5.1。](/powershell/scripting/windows-powershell/install/installing-windows-powershell#upgrading-existing-windows-powershell) 如果使用 1607 Windows 10版本，则已安装 PowerShell 5.1。 
-- 安装[.NET Framework 4.7.2](/dotnet/framework/install)或更高版本。 
+- 更新到 [Windows PowerShell 5.1](/powershell/scripting/windows-powershell/install/installing-windows-powershell#upgrading-existing-windows-powershell)。 如果使用 1607 Windows 10版本，则已安装 PowerShell 5.1。 
+- 安装 [.NET Framework 4.7.2](/dotnet/framework/install) 或更高版本。 
 - 运行以下命令以安装最新的 PowerShellGet：
  
 ```powershell
@@ -68,7 +68,7 @@ Install-Module -Name MicrosoftTeams -Force -AllowClobber
 
 ## <a name="offline-installation"></a>脱机安装 
 
-在某些环境中，无法连接到 PowerShell 库。 在这些情况下，请按照以下手动 [安装步骤操作](https://aka.ms/psgallery-manualdownload)。  
+在某些环境中，无法连接到 PowerShell 库。 在这些情况下，请遵循这些 [手动安装步骤](https://aka.ms/psgallery-manualdownload)。  
 
 ## <a name="sign-in"></a>登录
 
@@ -103,13 +103,13 @@ Uninstall-Module MicrosoftTeams -Allversions
 
 ## <a name="next-steps"></a>后续步骤 
 
-现在，可以使用 PowerShell Microsoft Teams管理Microsoft Teams应用程序。 若要[开始Teams，Teams PowerShell](teams-powershell-managing-teams.md)管理服务。 
+现在，可以使用 PowerShell Microsoft Teams管理Microsoft Teams应用程序。 若要[开始Teams，Teams PowerShell](teams-powershell-managing-teams.md) 管理服务。 
 
 ## <a name="related-topics"></a>相关主题
 
-[使用 Teams PowerShell Teams管理资源](teams-powershell-managing-teams.md)
+[使用 Teams PowerShell 管理Teams](teams-powershell-managing-teams.md)
 
-[TeamsPowerShell 发行说明](teams-powershell-release-notes.md)
+[Teams PowerShell 发行说明](teams-powershell-release-notes.md)
 
 [Microsoft Teams cmdlet 参考](/powershell/teams/?view=teams-ps)
 

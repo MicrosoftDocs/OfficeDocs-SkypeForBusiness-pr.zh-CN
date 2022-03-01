@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2df5c465c9115dce47ee9e80ea649768606c338f
-ms.sourcegitcommit: 10bee789272e648ea1e93d7d7c27ec645d0a8bdd
+ms.openlocfilehash: 3f26413aa746b37474e7035e313fc8ffff2fb93c
+ms.sourcegitcommit: 2044fdcb0c5db10dbc77c5d66e382c1b927ccdc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/22/2022
-ms.locfileid: "62918948"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "63039950"
 ---
 # <a name="shifts-data-faq"></a>班次数据常见问题解答
 
@@ -41,13 +41,13 @@ Shifts 数据存储在三个地理位置之一 (地理位置) ：亚太 (APAC) �
 
 ## <a name="can-i-choose-where-shifts-data-is-stored"></a>能否选择 Shifts 数据的存储位置？
 
-首次设置订阅Teams，请选择在订阅级别设置的一个或多个国家/地区。 如果支持该区域，Shifts 将采用此选择并使用在 Teams 中设置的区域设置和地区。 如果尚未位于该区域，我们会将数据存储在我们支持的邻近区域。 将来，我们计划将现有数据（如果存储在邻近区域）迁移到在 Teams 中预配的区域。
+首次设置订阅Teams，请选择在订阅级别设置的一个或多个国家/地区。 如果支持该区域，Shifts 将采用此选择，并使用在 Teams 中设置的区域设置和地区。 如果尚未位于该区域，我们会将数据存储在我们支持的邻近区域。 将来，我们计划将现有数据（如果存储在邻近区域）迁移到在 Teams 中预配的区域。
 
 ## <a name="can-i-access-and-export-or-delete-a-users-personal-data-in-shifts"></a>我能否在 Shifts 中访问和导出或删除用户的个人数据？
 
 班次是符合 GDPR (一) 数据保护条例。称为数据主体 (用户对个人数据采取) 的正式请求称为数据主体请求 (DSR) 。 可以在 Shifts 中查找个人数据并处理这些数据以响应 DSR。
 
-可以使用搜索工具中的内容搜索电子数据Microsoft 365 合规中心搜索和导出日程安排和时间时钟数据以Excel。 对于所有其他 Shifts 数据，可以拍摄数据的屏幕截图。
+您可以使用搜索工具中的内容搜索电子数据Microsoft 365 合规中心搜索和导出日程安排和时间时钟数据以Excel。 对于所有其他 Shifts 数据，可以拍摄数据的屏幕截图。
 
 有关详细信息，请参阅Office 365 [GDPR 和 CCPA 的数据主体请求](/microsoft-365/compliance/gdpr-dsr-office365)。
 
@@ -57,7 +57,7 @@ Shifts 数据存储在三个地理位置之一 (地理位置) ：亚太 (APAC) �
 
 如果删除租户，则保留期结束后会删除所有 Shifts 数据。
 
-没有仅删除 Shifts 数据的选项。 如果删除团队Teams，则保留期结束后，将删除与该团队关联的 Shifts 计划数据。 有关详细信息，请参阅数据[保留、删除和销毁](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview)Microsoft 365。
+没有仅删除 Shifts 数据的选项。 如果删除团队，Teams保留期结束后，将删除与该团队关联的 Shifts 计划数据。 有关详细信息，请参阅数据[保留、删除和销毁Microsoft 365](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview)。
 
 ## <a name="can-i-recover-a-shifts-schedule-that-was-deleted"></a>能否恢复已删除的排班计划？
 
@@ -69,15 +69,11 @@ Shifts 数据存储在三个地理位置之一 (地理位置) ：亚太 (APAC) �
 
 目前，Shifts 不支持自定义保留策略。
 
-若要详细了解 Teams 中的保留策略，请参阅[了解](/microsoft-365/compliance/retention-policies-teams) Teams 的保留策略和管理[Teams](../../retention-policies.md)。
+若要详细了解 Teams 中的保留策略，请参阅[了解](/microsoft-365/compliance/retention-policies-teams) [Teams 保留策略](../../retention-policies.md)和管理Teams。
 
 ## <a name="can-i-retrieve-shifts-data-for-a-user-whose-license-was-revoked"></a>我能否检索许可证被吊销的用户的 Shifts 数据？
 
 目前，我们不提供检索许可证被吊销的用户的数据的能力。 此功能是我们正在致力于实现的功能。
-
-## <a name="is-shifts-supported-in-government-cloud-community-gcc-environments"></a>政府云云环境是否Community (GCC) Shift？
-
-班次可用于GCC环境，但不适用于GCC高或 DoD 环境。
 
 ## <a name="what-type-of-encryption-does-shifts-use-for-data-at-rest-and-in-transit"></a>Shifts 对静态数据和传输中数据使用哪种类型的加密？
 
@@ -99,13 +95,13 @@ Shift 的某些方面无法更改，某些方面是可更改的。 例如，可�
 
 ## <a name="my-organization-uses-a-workforce-management-system-for-scheduling-can-we-integrate-with-and-access-shifts-data"></a>我的组织使用员工管理系统进行日程安排。 我们能否与 Shifts 数据集成并访问这些数据？
 
-使用 shifts Graph API，可以将 Shifts 数据与 WFM (外部员工) 集成。 有关详细信息，请参阅 [Shifts Graph API](/graph/api/resources/shift)。
+使用 shifts Graph API 可以将 Shifts 数据与 WFM (外部员工) 集成。 有关详细信息，请参阅 [Shifts Graph API](/graph/api/resources/shift)。
 
 我们还提供托管的 Shifts 连接器和开源 Shifts 连接器。 使用这些连接器，可以直接将 WFM 系统与 Shifts 集成。 若要详细了解 Shifts 连接器和支持的 WFM 系统，请参阅 [Shifts 连接器](shifts-connectors.md)。
 
 ## <a name="can-shifts-data-be-deleted-permanently-after-a-specified-period-of-time"></a>Shifts 数据能否在指定的时间段后永久删除？
 
-目前，我们不会删除您的 Shifts 数据。 使用 [Shifts Graph](/graph/api/resources/shift) API，可以创建使用 Power Apps 以将数据保留指定的一[](/powerapps/maker/)段时间的应用。 但是，我们本机不支持此操作。
+目前，我们不会删除您的 Shifts 数据。 使用 [Shifts Graph](/graph/api/resources/shift) API，可以创建使用 Power Apps 以将数据保留指定的一段时间[](/powerapps/maker/)的应用。 但是，我们本机不支持此操作。
 
 ## <a name="can-shifts-data-be-moved-in-a-tenant-to-tenant-migration"></a>可以在租户到租户迁移中移动 Shifts 数据吗？
 
