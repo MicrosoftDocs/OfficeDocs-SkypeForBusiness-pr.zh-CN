@@ -1564,7 +1564,7 @@ items:
             href: edu-remote-low-bandwidth.md
           - name: Teams 教育版策略向导
             href: easy-policy-setup-edu.md
-          - name: 部署 Teams 的父级应用
+          - name: Teams 教育版中的家长
             href: edu-parents-app.md
           - name: Teams 教育版中的“职业指导”应用
             href: career-coach.md
