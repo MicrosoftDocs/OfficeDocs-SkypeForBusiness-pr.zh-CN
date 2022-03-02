@@ -19,12 +19,12 @@ description: 在 Teams 中部署云语音功能的实用指南，用于记录 Te
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a067488736a1392ac34259ba77518c299c46d203
-ms.sourcegitcommit: faeb8976299375e7658499ff31d25e8ef6003144
+ms.openlocfilehash: 7136ea224b23e29e7b4e669fbe3d364b787193fd
+ms.sourcegitcommit: 71edff2670367082312de59c4e21775682871418
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "62224009"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "63043350"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 云会议录制
 
@@ -181,7 +181,23 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 |我希望对大多数用户禁用转录，但有选择地启用允许其进行转录的特定用户。 |<ol><li>确认全局 CsTeamsMeetingPolicy 中 AllowCloudRecording = False。 <li>为大多数用户授予了全局 CsTeamsMeetingPolicy 或授予了 AllowCloudRecording = False 的 CsTeamsMeetingPolicy 策略之一。 <li>为所有其他用户授予了 AllowCloudRecording = True 的 CsTeamsMeetingPolicy 策略之一。 </ol>|
 
 ### <a name="terms-of-use-acceptance"></a>使用条款接受
-如果你的组织具有你希望用户在录制会议之前接受的会议录制策略，请使用 [Azure Active Directory使用条款](/azure/active-directory/conditional-access/terms-of-use)功能。 此功能允许用户在访问 Microsoft Teams 之前接受组织的用户策略条款。 此功能并不特定于单击录制按钮，但与整体使用 Teams 或其他 Microsoft 365 应用相关。 我们的建议是将会议录制信息添加到使用 Teams 或 Microsoft 365 的总体使用条款中。 
+如果你的组织具有你希望用户在录制会议之前接受的会议录制策略，请使用 [Azure Active Directory使用条款](/azure/active-directory/conditional-access/terms-of-use)功能。 此功能允许用户在访问 Microsoft Teams 之前接受组织的用户策略条款。 此功能并不特定于单击录制按钮，但与整体使用 Teams 或其他 Microsoft 365 应用相关。 我们的建议是将会议录制信息添加到使用 Teams 或 Microsoft 365 的总体使用条款中。
+
+### <a name="set-a-custom-privacy-policy-url"></a>设置自定义隐私策略 URL
+
+作为管理员，你可以使用组织的自定义链接更新 Teams 录制和听录隐私策略 URL。 可以使用以下步骤在 [Azure AD 管理中心](https://aad.portal.azure.com)执行此操作：
+
+1. 登录到 Azure AD 管理中心。
+1. 转到“**Azure Active Directory**” > “**属性**”。
+1. 使用指向隐私策略的链接更新 **隐私语句 URL** 字段。
+
+> [!NOTE]
+> 如果已为组织更新此字段，则无需进行任何更改。
+
+添加隐私策略 URL 后，默认 Teams 会议录制和听录隐私声明将被替换为组织提供的新 URL。
+
+> [!NOTE]
+> 加入组织托管的 Teams 会议的匿名、来宾、联合用户仍将具有默认的 Teams 会议录制和听录隐私策略。
 
 ## <a name="permissions-and-storage"></a>权限和存储
 

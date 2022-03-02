@@ -24,12 +24,12 @@ ms.custom:
 - seo-marvel-apr2020
 - intro-get-started
 description: 分步指南，详细说明如何在 Microsoft 365 中为组织Teams 电话系统设置Microsoft 365。
-ms.openlocfilehash: 1a8f7ed554a360b94e568058be29697c0f2b1767
-ms.sourcegitcommit: 2044fdcb0c5db10dbc77c5d66e382c1b927ccdc4
+ms.openlocfilehash: 3a5c275c7d7d881ff770e6e84a3d4fa935d2827f
+ms.sourcegitcommit: 71edff2670367082312de59c4e21775682871418
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 03/01/2022
-ms.locfileid: "63039980"
+ms.locfileid: "63043340"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>在组织中设置电话系统
 
@@ -50,7 +50,7 @@ ms.locfileid: "63039980"
 
 ## <a name="step-1-buy-and-assign-a-phone-system-license"></a>步骤 1：购买并分配电话系统许可证
 
-若要将电话系统许可证分配给单个用户，步骤与分配许可证Microsoft 365相同。 也可以批量向多个用户分配许可证。 有关可用许可证电话系统以及如何获取和分配许可证 [，请参阅Teams](/teams-add-on-licensing/microsoft-teams-add-on-licensing.md)附加许可证和分配Microsoft Teams[许可证](/teams-add-on-licensing/assign-teams-add-on-licenses.md)。
+若要将电话系统许可证分配给单个用户，步骤与分配许可证Microsoft 365相同。 也可以批量向多个用户分配许可证。 有关可用许可证电话系统以及如何获取和分配许可证 [，请参阅Teams](/microsoftteams//teams-add-on-licensing/microsoft-teams-add-on-licensing)附加许可证和分配 [Microsot Teams附加许可证](/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses)。
 
 ## <a name="step-2-choose-a-pstn-connectivity-option"></a>第 2 步 选择 PSTN 连接选项 
  
