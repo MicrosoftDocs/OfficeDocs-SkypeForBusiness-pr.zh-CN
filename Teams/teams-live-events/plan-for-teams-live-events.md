@@ -8,20 +8,25 @@ ms.service: msteams
 audience: admin
 ms.reviewer: sonua
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.localizationpriority: high
 ms.collection:
-  - M365-collaboration
-  - m365initiative-meetings
-  - m365initiative-meetings-enabler
-  - enabler-strategic
+- M365-collaboration
+- m365initiative-meetings
+- m365initiative-meetings-enabler
+- enabler-strategic
 search.appverid: MET150
 description: 在本文中，你将了解在 Microsoft Teams 中设置实时事件之前要考虑的因素。
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: f7ce782db18c15e3b08367e0956003f7af2dde75
+ms.sourcegitcommit: 5b1d8d6f811fab0b350a09e5187d982f952d0edb
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "63047142"
 ---
-
 # <a name="plan-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中规划实时事件
 
 计划 Teams 实时事件时，若要在组织中召开大型会议，则在开始设置之前，需要考虑几个因素。
@@ -181,7 +186,10 @@ ms.custom: seo-marvel-apr2020
 **排除和注意事项**
 
 - **数据位置:** 暂不支持上述数据地点以外的团队数据地点。
-- **中国：**  事件团队成员和参与者将无法使用 Teams 事件，因为 Azure CDN 在中国不可访问。解决方法是使用公司 VPN 连接，后者通过客户的公司网络获取连接到 CDN 的客户端。
+
+>[!Note]
+> 实时事件依赖于 Azure CDN 服务，可能在某些国家/地区无法使用。 作为管理员，可能需要根据所有适用的法律和法规设置 VPN，以连接到公司网络，以便这些应用无缝工作。 完成后，组织中的人员可以安排和参加实时事件。
+
 
 ## <a name="next-steps"></a>后续步骤
 
