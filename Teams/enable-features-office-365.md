@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52347a620d6f441bfff68764d053a0adf71427b1
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+ms.openlocfilehash: b3b16b3015771cd136f3e5ee7333619008ada332
+ms.sourcegitcommit: 5b1d8d6f811fab0b350a09e5187d982f952d0edb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62191103"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "63047132"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>为你的组织管理 Microsoft Teams 设置
 
@@ -34,7 +34,23 @@ ms.locfileid: "62191103"
 
 可在 [Microsoft Teams 管理中心](https://admin.teams.microsoft.com)内的“**Teams 应用**”中管理你组织的应用。 例如，可以设置策略来控制什么应用在组织范围内可用或对特定 Teams 用户可用，并能通过固定对用户最重要的应用来自定义 Teams。
 
-若要了解详细信息，请参阅 [Teams 中适用于应用的管理员设置](admin-settings.md)。  
+若要了解详细信息，请参阅 [Teams 中适用于应用的管理员设置](admin-settings.md)。
+
+### <a name="workflows-in-teams"></a>Teams 中的工作流
+
+借助工作流，可以使用 Power Automate 自动执行重复性任务和进程。 你可以使用 **应用权限策略** 或通过阻止 Power Automate 使用 **管理应用** 页面在 Teams 中为组织禁用工作流。 默认情况下启用此功能。 要了解工作流的详细信息，请参阅 [浏览并添加工作流](https://support.microsoft.com/office/browse-and-add-workflows-4998095c-8b72-4b0e-984c-f2ad39e6ba9a)。
+
+要使用应用权限策略禁用工作流，请编辑全局（组织范围默认值）策略，以将 Power Automate 包括在阻止列表中，或将其从允许列表中删除。
+
+还可以通过 **管理应用** 页面阻止 Power Automate。
+
+1. 转到 [“**Teams 应用**” > “**管理应用**”](https://admin.teams.microsoft.com/policies/manage-apps)。
+1. 搜索 **Power Automate**。
+1. 选择应用。
+1. 将“**状态**”从“**已允许**”更改为“**已阻止**”。
+
+> [!NOTE]
+> 禁用工作流时，将从 Teams 应用商店、消息扩展和“更多操作”菜单中隐藏应用。 禁用工作流还会停用任何活动流。
 
 ## <a name="teams-external-access-and-guest-access-settings-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理中心中的 Teams 外部访问和来宾访问设置
 
