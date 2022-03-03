@@ -1,5 +1,5 @@
 ---
-title: 创建Microsoft 365，添加Teams 电话套餐许可证的号码，以及分配电话号码
+title: 创建Microsoft 365，使用Teams 电话套餐许可证添加号码，以及分配电话号码
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -13,32 +13,32 @@ MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
-description: ''
+description: 了解如何使用"呼叫计划"捆绑用户Teams 电话系统许可证，并为其分配电话号码。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 00eb2842b063399f69563571180197de0238588e
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: eb60d60a12949cbb2a0b9ac60e727cfab393de12
+ms.sourcegitcommit: e86e3824c300c24e022d5cb1848338278a5a96a8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766185"
+ms.lasthandoff: 03/03/2022
+ms.locfileid: "63053271"
 ---
-# <a name="create-and-license-teams-phone-with-calling-plan-users-and-assign-them-phone-numbers"></a>创建呼叫计划Teams 电话并为其分配电话号码
+# <a name="create-and-license-teams-phone-system-with-calling-plan-bundle-users-and-assign-them-phone-numbers"></a>创建呼叫套餐Teams 电话系统并为其分配电话号码
 
-使用 :::no-loc text="Microsoft 365 Teams Phone with Calling Plan":::，需要一个拥有 :::no-loc text="Microsoft 365 Teams Phone with Calling Plan"::: 许可证的 :::no-loc text="Microsoft 365"::: 账户。 如果拥有账户和许可证，可向其分配电话号码。
+若要将Teams 电话系统套餐与呼叫计划捆绑包一Microsoft 365，需要一个Teams 电话套餐许可证的帐户。 拥有帐户和许可证后，可以开始分配电话号码。
 
 ## <a name="create-and-license-users"></a>创建用户并向其授予许可
 
 请按照[单独或批量添加用户](/microsoft-365/admin/add-users/add-users)和[向用户分配许可证](/microsoft-365/admin/manage/assign-licenses-to-users)中的步骤操作。
 
 > [!NOTE]
-> 在“**分配产品许可证**”窗格中，选择 **:::no-loc text="Microsoft 365 Teams Phone with Calling Plan":::**。
+> 在"**分配产品许可证**"窗格中，选择Teams 电话 **套餐"**。
 
 ## <a name="assign-phone-numbers-to-users"></a>向用户分配电话号码
 
-创建用户并向其分配 :::no-loc text="Microsoft 365 Teams Phone with Calling Plan"::: 许可证后，可以向他们分配电话号码。 对于需要拨打或接听外部电话号码的用户，需要一个未分配的电话号码。 如果没有足够的未分配电话号码，请参阅本文后面的[获取更多电话号码](#get-more-phone-numbers)。
+使用"呼叫计划"捆绑Teams 电话用户并为其分配电话号码后，你可以为其分配电话号码。 对于需要拨打或接听外部电话号码的用户，需要一个未分配的电话号码。 如果没有足够的未分配电话号码，请参阅本文后面的[获取更多电话号码](#get-more-phone-numbers)。
 
-1. 转到 https://admin.teams.microsoft.com。
+1. 转到 [Microsoft Teams 管理中心](https://admin.teams.microsoft.com)。
 2. 输入电话号码请求的名称和说明。
 3. 选择“**语音**” > “**电话号码**”。
 4. 选择要分配给用户的电话号码，然后选择“**编辑**”。
@@ -49,7 +49,7 @@ ms.locfileid: "61766185"
 
 如果没有足够的电话号码分配给新用户，可以获取更多电话号码。 订购的号码可用可能最长需要 24 小时。
 
-1. 转到 https://admin.teams.microsoft.com。
+1. 转到 [Microsoft Teams 管理中心](https://admin.teams.microsoft.com)。
 2. 输入电话号码请求的名称和说明。
 3. 选择“**语音**” > “**电话号码**” > “**添加**”。
 4. 选择电话号码所在国家或地区。

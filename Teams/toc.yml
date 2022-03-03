@@ -1017,7 +1017,7 @@ items:
             href: voice-case-study-call-queues.md
       - name: 面向中小型企业的指南
         items:
-          - name: 适用于中小型企业的电话系统指南
+          - name: 电话系统指南
             href: business-voice/whats-business-voice.md
           - name: 国家和地区可用性
             href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
@@ -1025,7 +1025,7 @@ items:
             href: business-voice/get-ready-internet.md
           - name: 从经销商或合作伙伴处获取帮助
             href: business-voice/reseller-partner-support.md
-          - name: 设置适用于中小型企业的电话系统
+          - name: 设置电话系统
             items:
               - name: 概述
                 href: business-voice/set-up-overview.md
@@ -1045,7 +1045,7 @@ items:
                 href: business-voice/port-phone-numbers.md
               - name: 设置后的资源
                 href: business-voice/set-up-finish.md
-          - name: 为中小型企业自定义电话系统设置
+          - name: 自定义电话系统设置
             items:
               - name: 自定义选项
                 href: business-voice/customize-business-voice.md
@@ -1059,7 +1059,7 @@ items:
                 href: business-voice/create-a-phone-system-call-queue-smb.md
               - name: 设置自动助理
                 href: business-voice/create-a-phone-system-auto-attendant-smb.md
-          - name: 管理中小型企业的电话系统设置
+          - name: 管理电话系统设置
             items:
               - name: 创建一个或多个用户
                 href: business-voice/create-users.md
@@ -1309,6 +1309,10 @@ items:
                 href: rooms/security.md
               - name: 联机许可
                 href: rooms/rooms-licensing.md
+              - name: 条件访问和 Intune 符合性的最佳做法
+                href: rooms/conditional-access-and-compliance-for-devices.md
+              - name: 支持的条件访问和 Intune 符合性策略
+                href: rooms/supported-ca-and-compliance-policies.md
               - name: 使用者 Azure Monitor 进行管理规划
                 href: rooms/azure-monitor-plan.md
           - name: 部署
@@ -1413,6 +1417,8 @@ items:
                 href: devices/use-teams-panels.md
               - name: Teams 面板上的应用支持
                 href: app-support-on-Teams-panels.md
+              - name: 签入和会议室发布
+                href: devices/check-in-and-room-release.md
           - name: 将 Teams 手机升级至 Teams 显示
             href: devices/upgrade-phones-to-displays.md
           - name: 使用 Intune 部署 Teams 和 Teams 显示
@@ -1564,7 +1570,7 @@ items:
             href: edu-remote-low-bandwidth.md
           - name: Teams 教育版策略向导
             href: easy-policy-setup-edu.md
-          - name: Teams 教育版中的家长
+          - name: Teams 教育版中的家长连接
             href: edu-parents-app.md
           - name: Teams 教育版中的“职业指导”应用
             href: career-coach.md
