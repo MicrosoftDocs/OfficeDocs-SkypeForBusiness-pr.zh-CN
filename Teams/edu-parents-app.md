@@ -17,18 +17,22 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: af6433cb3e5ca0e1849322bdd128915e826e219b
-ms.sourcegitcommit: 2044fdcb0c5db10dbc77c5d66e382c1b927ccdc4
+ms.openlocfilehash: 8d1b84fc78558fcbb1945cbc56b311b5e06234a5
+ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "63040060"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "63062526"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>在 Microsoft Teams 教育版 中设置父Microsoft Teams 教育版
 
 Teams 教育版 中的家长连接可帮助教师使用 Teams 聊天安全地与班级团队中的学生家长和监护人联系和互动，这将在教师组织中扩展。 所有家长和监护人数据都是使用学校数据同步，使 IT 人员能够顺利地进行设置。
 
-家长和监护人设置好后，可以使用聊天功能与学生教师Teams聊天。 有关让家长和监护人与教师保持联系的指南，请参阅连接[教师的Teams](https://support.microsoft.com/topic/connect-with-educators-in-teams-ec2430c3-952a-4ba4-9891-1d1cab577960)。
+一旦设置了教师和监护人，他们就可以使用聊天功能Teams聊天。 
+
+有关让家长和监护人与教师保持联系的指南，请参阅连接[教师的Teams](https://support.microsoft.com/topic/connect-with-educators-in-teams-ec2430c3-952a-4ba4-9891-1d1cab577960)。
+
+有关让教师设置与家长和监护人进行通信的指导，请参阅[与](https://support.microsoft.com/topic/communicate-with-guardians-in-microsoft-teams-01471ecd-eb5d-4eda-9c5d-0064d672960e?ui=en-us&rs=en-us&ad=us)家长和监护人Microsoft Teams。
 
 家长还使用监督聊天。 家长和监护人没有完全Teams权限，这意味着他们无法开始与学生对话或删除完全权限的用户， (教师) 聊天。 有关监督聊天详细信息[，请参阅在](supervise-chats-edu.md)聊天中使用Microsoft Teams。
 
@@ -61,7 +65,7 @@ Teams 教育版 中的家长连接可帮助教师使用 Teams 聊天安全地与
 > [!NOTE]
 >家长和监护人在"家长"功能中归类为"外部用户"，这意味着他们没有完全的租户权利。 他们只能访问添加到聊天中的聊天，以及聊天中共享的文件、图像和其他内容。
 >
->此外，外部用户 (脱机、) 、忙碌等状态，但可以使用 PowerShell 关闭此功能以保护用户的隐私。 在 PowerShell 中，使用 [Set-CsPrivacyConfiguration 并](/powershell/module/skype/set-csprivacyconfiguration?view=skype-ps) 设置 ``EnablePrivacyMode=true``。
+>此外，外部用户 (脱机、) 、忙碌等状态，但可以使用 PowerShell 关闭此功能以保护用户的隐私。 在 PowerShell 中，使用 [Set-CsPrivacyConfiguration 并](/powershell/module/skype/set-csprivacyconfiguration) 设置 ``EnablePrivacyMode=true``。
 >
 >即使家长和监护人是外部用户，他们对聊天的贡献也是可发现的。 阅读对电子数据展示中Teams数据展示调查，了解如何执行电子数据展示[Microsoft Teams](ediscovery-investigation.md)。
 

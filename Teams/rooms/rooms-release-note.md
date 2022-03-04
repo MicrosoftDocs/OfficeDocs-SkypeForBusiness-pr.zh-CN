@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 管理员可以阅读有关更新的Microsoft Teams 会议室说明，其中列出了 Microsoft Teams 会议室。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 41b16af59652d3ca7f81dd72a485afec5b1a24db
-ms.sourcegitcommit: 909b0a709983d21fa6f2b547a78cc6a1222188df
+ms.openlocfilehash: 8a8d08bd37fe3d2f32fcdb8f3a4989dba97e8a40
+ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2022
-ms.locfileid: "62279270"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "63062566"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>适用于 Microsoft Teams 会议室 的发行说明
 
@@ -27,7 +27,7 @@ ms.locfileid: "62279270"
 
 有两种类型的更新适用于Teams 会议室：Teams 会议室应用更新Teams Web 客户端。 
 
-Teams 会议室应用更新是通过 Microsoft Store 手动[更新发生的](manual-update.md)。 这会更新设备上Windows安装 (UWP) 平台应用程序。
+Teams 会议室应用更新是通过 Microsoft Store 手动[更新发生的](manual-update.md)。 这会更新本地Windows UWP (UWP) 应用程序。
 
 Teams Web 客户端更新通过 Teams Web 应用传送服务进行。 这是基于云的服务，不需要更新设备上安装的本地 UWP 应用程序。
 
@@ -39,6 +39,7 @@ Teams 会议室受现代生命周期策略约束。 有关详细信息[，Teams�
 
 |发布 |发布到 <br/> Microsoft Store |
 |--- |--- |
+|4.11.17.0 |3/3/2022 |
 |4.11.12.0 |1/24/2022 |
 |Teams Web-Client发布 | 2021 年 12 月 |
 |Teams Web-Client发布 | 2021 年 10 月 |
@@ -89,23 +90,28 @@ Teams 会议室受现代生命周期策略约束。 有关详细信息[，Teams�
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft Teams 会议室功能简介和问题解决
 
+### <a name="411170-332022"></a>2022/3/3 (4.11.17.0) 
+
+此更新中引入：
+- 修复了相机成帧的 Bug，这将增强相机视图中的所有内容。
+
 ### <a name="411120-1242022"></a>2022/1/24 (4.11.12.0) 
 
 此更新中引入：
-- FRONT Row 布局 (为) 的 WINDOWS <sup>1 预览版</sup> 
+- FRONT Row 布局 (上用于) 的预WINDOWS <sup>1</sup> 
 - 将"前行布局"设置为默认值的管理员设置  
-- 立即开会并仅调用应用Teams更新，Teams客户端模式<sup>1，2</sup>
+- 立即开会并调用应用更新Teams，Teams客户端模式<sup>1，2</sup>
 - 在会议中切换多个Teams <sup>1</sup> 
 - 默认视频摄像头设置 
-- Cortana一个"PUSH-to-talk"图标更新 
-- Azure AD Premium 1 个许可证包含在会议室标准版和 高级版 SKUS 中 
+- Cortana的"推送到交谈"图标更新 
+- Azure AD Premium标准版和标准版 SKUS 高级版 1 个许可证 
 - AAD条件访问策略支持 <sup>3</sup> 
 - Cortana OOBE 中启用语音激活
 - 远程 PTZ 控件支持<sup>4</sup>
 
-> <sup>1</sup> 这些功能是使用 web 客户端Teams推出的，将在几周内完成推出。 有关详细信息，请阅读[Teams](../teams-client-update.md)更新的详细信息。
+> <sup>1</sup> 这些功能是使用 Teams Web 客户端推出的，将在几周内完成推出。 有关详细信息，请阅读[Teams](../teams-client-update.md)更新的详细信息。
 > 
-> Teams Windows（仅在 Microsoft Teams 或 Skype for Business 和 Microsoft Teams (默认) 中运行的 <sup>2</sup> 个会议室会使用新的"开会"和"呼叫"体验进行更新，但其他模式不会受此更新的影响。
+> <sup>Teams</sup> Windows（仅在 Microsoft Teams 或 Skype for Business 和 Microsoft Teams (默认) 中运行的 2 个会议室）会使用新的"开会"和"呼叫"体验进行更新，但其他模式不会受此更新的影响。
 > 
 > <sup>3</sup> 请参阅有关为 AAD [设置条件访问策略的](../rooms/rooms-authentication.md#azure-ad-conditional-access)Teams 会议室。
 > 
@@ -124,10 +130,10 @@ Teams 会议室受现代生命周期策略约束。 有关详细信息[，Teams�
 - 通用栏呼叫控制会议呼叫控件、布局按钮和会议状态信息中桌面客户端的对齐方式
 - 对单一和双正面会议室显示器的动态库支持
 - 合并了会议室前布局选项的统一布局选取器
-- 聚焦或固定会议中Teams参与者
+- 在会议中聚焦或固定Teams参与者
 - 通过点击花名册中的参与者可访问的演示者/与会者控件的大型会议支持
 - 能够锁定会议室为组织者的会议，并感知已锁定的会议
-- 当远程用户 (演示者视图) 时，演示者模式) 使用支持
+- 当远程 (与演示者) 选项共享内容时，演示者模式) 使用支持
 - 会议回应Teams支持 
 
 
@@ -140,18 +146,18 @@ Teams 会议室受现代生命周期策略约束。 有关详细信息[，Teams�
 - 会议室远程功能允许用户使用移动版Teams控制房间的基本功能 *
 - Logitech 转录内容相机支持用于共享到会议中的 BLE 按钮
 - 聊天气泡在会议聊天中提供通知，以使用会议聊天引起对所说消息的注意 *
-- 大型库和"共同"模式支持现已在 GCC High 中提供
+- 大型库和"共同"模式支持现已在"高"GCC提供
 - 添加到会议的新Cortana、按姓名添加人员以及按姓名呼叫 
-- Cortana在所有设备上默认启用"推送到交谈"。 若要了解有关详细信息，请参阅Cortana[语音Teams](../cortana-in-teams.md)。
+- Cortana在所有设备上默认启用"推送到交谈"。 若要了解有关详细信息，请参阅Cortana[语音帮助Teams](../cortana-in-teams.md)。
 
 > [!NOTE]
 > 已弃用 19H1 支持。 4.10 支持的操作系统最低版本为 19H2。
 
 > [!NOTE]
-> *这些功能是使用 Teams推出的，并且将处理所有大于 4.9 的应用程序版本。
+> *这些功能是使用 Teams 推出的，并且将处理所有大于 4.9 的应用程序版本。
 
 > [!NOTE]
-> 若要同时从 Teams 移动应用和按 2016-2016 加入计划的会议，可在 Teams 移动应用的花名册中查找会议室帐户，然后按"控制此会议室"菜单，即可从应用控制呼叫控件。
+> 若要同时从 Teams 移动应用和按按 TEAMS Mobile 应用在花名册中查找会议室帐户，并按"控制此会议室"菜单，你可以从应用控制呼叫控件。
 
 ### <a name="49120-7282021"></a>2021/7/28 (4.9.12.0) 
 
@@ -160,7 +166,7 @@ Teams 会议室受现代生命周期策略约束。 有关详细信息[，Teams�
 - 修复了 HDMI 音频导致呼叫音量降低的问题。 对于应用程序版本 4.9.12.0 的所有设备，会自动启用 HDMI 音频功能。
 
 > [!NOTE]
-> 当Skype for Business生命周期结束时，建议更新到Teams模式。
+> 当Skype for Business生命周期结束时，建议更新为仅Teams模式。
 
 ### <a name="48310-05122021"></a>2021/05/12 (4.8.31.0) 
 
@@ -173,7 +179,7 @@ Teams 会议室受现代生命周期策略约束。 有关详细信息[，Teams�
 ### <a name="48250-04222021"></a>2021/04/22 (4.8.25.0) 
 
 此更新中引入：
-- 修复了以下问题：Teams 会议室主机上的会议室信息未显示，而聊天室帐户隐藏在 GAL (列表中) 
+- 修复了以下问题：Teams 会议室主机上的会议室信息未针对从 GAL 地址列表的全局地址列表中隐藏的 (显示) 
 
 > [!NOTE]
 > GCCH 客户可以从手动更新设备下载Microsoft Teams 会议室[包](manual-update.md)
@@ -182,9 +188,9 @@ Teams 会议室受现代生命周期策略约束。 有关详细信息[，Teams�
 
 此更新中引入：
 - 政府社区云高 (GCCH) 支持 Teams 会议室。 具有现有 Teams 会议室 设备的 GCCH 客户可以从手动更新设备下载 4.8.19.0 [Microsoft Teams 会议室版本](manual-update.md)
-- 通过 720p 支持 (加入缩放会议) 并接收参与者的视频库
-- Skype for Business模式中删除了登录失败Teams横幅。 此更改支持组织删除Skype for Business基础结构
-- Teams会议加入链接分析现在处理 Microsoft Defender 高级威胁防护保险箱链接，以允许无缝加入外部Teams
+- 通过 720p (视频质量加入缩放会议) 并接收参与者的视频库
+- Skype for Business默认模式下删除了登录失败Teams横幅。 此更改支持组织删除Skype for Business基础结构
+- Teams会议加入链接分析现在处理 Microsoft Defender 高级威胁防护保险箱链接，以允许无缝加入Teams外部应用
 - 修复了当共享者的电脑在 Skype for Business 中设置了自定义 DPI 时，会议中的共享内容缩放Windows
 - 质量和可靠性修复
 
@@ -199,7 +205,7 @@ Teams 会议室受现代生命周期策略约束。 有关详细信息[，Teams�
 
 - 在会议与会议参与者Teams HDMI 音频
 - Cortana语音技能 (预览版) 
-- 当聊天室作为与会者加入时，防止Teams权限取消静音。 有关详细信息，请参阅[管理会议中与会者Teams权限](https://support.microsoft.com/office/manage-attendee-audio-permissions-in-teams-meetings-f9db15e1-f46f-46da-95c6-34f9f39e671a)。
+- 当聊天室作为与会者加入时，Teams基于音频权限取消静音。 有关详细信息，请参阅[管理会议中的](https://support.microsoft.com/office/manage-attendee-audio-permissions-in-teams-meetings-f9db15e1-f46f-46da-95c6-34f9f39e671a)与会者Teams权限。
 - 从会议室控制台聚焦某人Teams，在会议室显示器上使用聚焦视频
 
 > [!NOTE]
@@ -209,7 +215,7 @@ Teams 会议室受现代生命周期策略约束。 有关详细信息[，Teams�
 
 此更新中引入：
 
-- 修复了在会议调用屏幕键盘时出现白色半Teams的问题
+- 修复了在会议中调用屏幕键盘时出现白色半Teams的问题
 
 ### <a name="46200-09302020"></a>2020/09/30 (4.6.20.0) 
 
@@ -220,14 +226,14 @@ Teams 会议室受现代生命周期策略约束。 有关详细信息[，Teams�
 - 使用直接来宾加入Teams 会议室预览版从 (加入缩放) 
 
 > [!NOTE]
-> 3x3 视频库和本地实时隐藏式字幕通过 Microsoft Teams传送。 这些功能适用于应用程序Teams 会议室 4.5.37.0 及以上版本的所有设备。
+> 3x3 视频库和本地实时隐藏式字幕通过 Microsoft Teams传送。 这些功能适用于应用程序版本Teams 会议室 4.5.37.0 及以上版本的所有设备。
 
 ### <a name="45370-08142020"></a>2020/08/14 (4.5.37.0) 
 
 此更新中引入：
 
-- Microsoft Teams 和 Surface Hub 2S 协调会议
-- 修复了Skype[更新 KB4565351](https://support.microsoft.com/help/4565351/windows-10-update-kb4565351) 或 Windows 10 KB4571709 Windows 10 [For](https://support.microsoft.com/help/4571709/windows-10-update-kb4571709) Business 登录失败的问题
+- Microsoft Teams 2S Surface Hub协调会议
+- 修复了Skype [KB4565351](https://support.microsoft.com/help/4565351/windows-10-update-kb4565351) 或 Windows 10 [KB4571709](https://support.microsoft.com/help/4571709/windows-10-update-kb4571709) 更新时Windows 10 For Business 登录失败的问题
 
 ### <a name="45350-07232020"></a>2020/07/23 (4.5.35.0) 
 
@@ -254,7 +260,7 @@ Teams 会议室受现代生命周期策略约束。 有关详细信息[，Teams�
 > [!NOTE]
 > 如果设备未自动更新到版本 4.4.63.0，请按照[更新到版本 4.4.41.0 后 Microsoft Teams 会议室](https://support.microsoft.com/help/4565998/teams-rooms-application-does-not-start-after-update) 应用程序中无法启动的步骤来解决此问题。
 
-### <a name="44410-05062020"></a>4.4.41.0 (2020/05/06) 
+### <a name="44410-05062020"></a>2020/05/06 (4.4.41.0) 
 
 此更新中引入：
 
@@ -270,11 +276,11 @@ Teams 会议室受现代生命周期策略约束。 有关详细信息[，Teams�
 - 应用程序初始屏幕
 - 开放源代码软件 (OSS) 设备设置中的通知
 
-### <a name="43420-03022020"></a>2020/03/02 (4.3.42.0) 
+### <a name="43420-03022020"></a>4.3.42.0 (03/02/2020) 
 
 此更新中引入：
 
-- "适用于Windows更新"的策略更新
+- "适用于企业Windows更新"的策略更新
 - 修复了设备事件报告在 Azure Monitor 中显示错误的问题
 
 ### <a name="43330-1102020"></a>2020/1/10 (4.3.33.0) 
@@ -293,7 +299,7 @@ Teams 会议室受现代生命周期策略约束。 有关详细信息[，Teams�
 - 设备管理员设置 UI 刷新，同时在"关于"选项卡下添加设备配置
 - 会议室控件返回到主屏幕
 - 会议室 SKU 在 GCC
-- 内容相机支持基于 Surface Pro 的系统 (最低要求的应用版本：4.2.4.0) 
+- 内容相机支持Surface Pro系统 (最低要求的应用版本：4.2.4.0) 
 
 ### <a name="4240-10072019"></a>2019/10/07 (4.2.4.0) 
 
@@ -307,7 +313,7 @@ Teams 会议室受现代生命周期策略约束。 有关详细信息[，Teams�
 此更新中引入：
 
 - 新的内容相机功能，使用户能够智能地将传统白板加入其Teams会议
-- 对主机 UI 的其他改进，以减少混乱设置移动到新的侧栏中，该侧栏可通过主机上的"更多"访问
+- 对控制台 UI 的其他改进，以减少混乱设置移动到新的侧栏中，该侧栏可通过主机上的"更多"访问
 - 如果本地内容电缆未连接或内容相机未连接，则禁用共享托盘按钮
 - 修复了触摸键盘的问题，该问题仅在一次启动一个一个设计公司系统重启后，才无法首次显示
 - 质量和可靠性修复
@@ -316,30 +322,30 @@ Teams 会议室受现代生命周期策略约束。 有关详细信息[，Teams�
 
 此更新中引入：
 
-- Skype会议室系统应用商店应用品牌"更新为"Microsoft Teams 会议室"
+- Skype会议室系统应用商店应用品牌更新为"Microsoft Teams 会议室"
 - Microsoft Teams 会议室主机用户界面重新Microsoft Teams
 - 主题更新：仅在会议室显示器前保留自定义背景图像，同时使主机背景成为中性颜色，以确保主机 UI 控件满足颜色对比度 - 辅助功能要求
-- 会议呼叫/会议会议Teams呼叫控件的通用栏，以便Microsoft Teams电脑/Web/移动客户端<sup>1</sup>
+- 用于呼叫/会议的会议内呼叫控件的通用Teams栏，以提供与电脑/Web/移动Microsoft Teams一致的体验<sup>1</sup>
 - 通话/会议后通话Teams反馈分级<sup>1</sup>
-- 从电脑/Microsoft Whiteboard移动版Microsoft Teams 会议室客户端 <sup>1</sup> <sup>2</sup> 时，在会议室显示器前接收/呈现Teams呈现
+- 从电脑/Microsoft Whiteboard移动Microsoft Teams 会议室客户端共享时，在会议室显示器前接收/呈现Teams <sup>1</sup> <sup>2</sup>
 - 由于客户端Windows 10兼容性问题，删除了对版本 1809 Microsoft Teams 会议室的支持。 Windows 10版本 19H1 支持将在未来版本中添加
 
 <sup>1</sup> Microsoft Teams环推出Teams服务。 此功能可能在 4.0.105.0 客户端更新之前或之后可用
 
-<sup>2</sup> 要求 IT 管理员打开Microsoft Whiteboard。 此外，如果会议室显示器前面启用了触摸功能，则必须使用设备管理员登录名的 Windows 设置校准多个触摸显示器，以开始使用 Microsoft Whiteboard 从共享到 Teams 会议的房间显示进行协作
+<sup>2</sup> 要求 IT 管理员启用Microsoft Whiteboard。 此外，如果会议室显示器前面启用了触摸功能，则必须使用设备管理员登录名的 Windows 设置校准多个触摸显示器，以开始使用 Microsoft Whiteboard 从共享到 Teams 会议的房间显示进行协作
 
 ### <a name="40850-0482019"></a>2019/04/8 (4.0.85.0) 
 
 此更新中引入：
 
 - 修复了"提供反馈"功能的问题
-- 准备将设备升级到 Microsoft Teams 会议室 版本 1809 Windows 10优化
+- 即将将设备升级到 Microsoft Teams 会议室 版本 1809 Windows 10的优化
 
 ### <a name="40780-03142019"></a>2019/03/14 (4.0.78.0) 
 
 此更新中引入：
 
-- 修复了"在应用启动时挂起"bug，该 bug 影响旧版 RS2 Windows 10设备。
+- 修复了"在应用启动时挂起"bug，该 bug 影响旧版 RS2 Windows 10上的设备。
 
 ### <a name="40760-03042019"></a>2019/03/04 (4.0.76.0) 
 
@@ -348,18 +354,18 @@ Teams 会议室受现代生命周期策略约束。 有关详细信息[，Teams�
 - 用于 P2P Microsoft Teams PSTN 呼叫的 DTMF 键盘。 若要Microsoft Teams客户端，管理员必须将 IsTeamsDefaultClient 设置为 true
 - 将远程参与者的传入视频固定到会议室显示器前面的全屏。 使用主机上参与者名单的"固定"命令
 - 改进了大厅通知，并新增了"会议室前"通知
-- 当设备未启用蓝牙时，会议室前显示转换Microsoft Teams 会议室图标
+- 未在设备上启用蓝牙时，会议室前显示转换Microsoft Teams 会议室图标
 - 修复了会议中音量Teams问题
 
 ### <a name="40640-12142018"></a>2018/12/14 (4.0.64.0) 
 
 此更新中引入：
 
-- 在双屏幕会议室系统上 (FoR) 上显示内容
+- 在双屏幕会议室系统上 (FoR) 显示内容
 - "Theming"和"Front of Room"用户界面改进
 - TLS 1.2 客户端支持。 对于本地客户，通过 TLS 1.2 for Microsoft Teams 会议室 启用通信需要 Skype for Business Server 2015 累积更新 9 (CU9) 或 Skype for Business Server 2019 累积更新 1 (CU1) 。
 
-### <a name="40510-11172018"></a>2018/4.0.51.0 (2018/11/17) 
+### <a name="40510-11172018"></a>2018/11/17 (4.0.51.0) 
 
 此更新中引入：
 
@@ -375,9 +381,9 @@ Teams 会议室受现代生命周期策略约束。 有关详细信息[，Teams�
 
 此更新中引入：
 
-- 为以后的版本 1803 Microsoft Teams 会议室准备 Windows 10 应用所需的代码更改
-- 修复本地化的 EUL 格式问题， (挪威语) ，从而阻止超过 EULA OOBE 设置窗口
-- 在旧版 Lync 会议室Microsoft Teams 会议室运行应用程序所需的代码更改。 在此处查看 [更多信息](./lrs-migration.md)。
+- 为以后的版本 1803 Microsoft Teams 会议室准备应用Windows 10所需的代码更改
+- 修复了本地化 EULA 的格式问题， (挪威语) 防止超过 EULA OOBE 设置窗口
+- 需要更改代码，Microsoft Teams 会议室旧版 Lync Room Systems 运行应用程序。 在此处查看 [更多信息](./lrs-migration.md)。
 
 ### <a name="40190-8312018"></a>2018/8/31 (4.0.19.0) 
 
@@ -390,7 +396,7 @@ Teams 会议室受现代生命周期策略约束。 有关详细信息[，Teams�
 此更新中引入：
 
 - "报告问题"功能改进Teams模式 ("提供反馈"等效于Skype for Business模式) 
-- 支持从 SIP 呼叫Teams Skype for Business回退到呼叫模式
+- 支持从 SIP 呼叫Teams Skype for Business到呼叫模式
 - "讲述人 (放大镜"选项的辅助功能) 
 - 应用 XML 预配更改后，如果需要，自动重启应用
 - 其他修补程序
@@ -399,7 +405,7 @@ Teams 会议室受现代生命周期策略约束。 有关详细信息[，Teams�
 
 此更新中引入：
 
-- 此更新在会议室Skype for Business *Teams* 会议支持。 Teams更新后，默认会关闭该状态。 管理员可以在本地设备Teams或通过远程 xml 推送启用本地连接。
+- 此更新支持会议室Skype for Business *Teams* 会议支持。 Teams更新后，默认会关闭该状态。 管理员可以在本地设备Teams或通过远程 xml 推送来启用本地连接。
 
 ### <a name="311150-06182018"></a>2018/06/18 (3.1.115.0) 
 
@@ -447,7 +453,7 @@ Teams 会议室受现代生命周期策略约束。 有关详细信息[，Teams�
 
 - Bug/崩溃修复，以提高稳定性
 - 支持可变大小的主机
-- 外围设备音频处理卸载 (额外的媒体允许列表) 
+- 外围设备音频处理卸载 (其他媒体允许列表) 
 - 使 IT 专业人员能够使用版本 1709 1 月更新Windows 10构建自己动手映像的优化。
 
 ### <a name="30160-11272017"></a>2017/11/27 (3.0.16.0) 
@@ -462,18 +468,18 @@ Teams 会议室受现代生命周期策略约束。 有关详细信息[，Teams�
 
 - 支持 [Polycom MSR 系列扩展](https://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl) 坞硬件
 - 对 [Logitech Brio 的支持](https://www.logitech.com/product/brio)
-- 解决在 (没有活动时显示) 进入睡眠模式的问题
+- 解决在 (没有活动时，) 主机和房间前显示无法进入睡眠模式的问题
 
 ### <a name="30120-912017"></a>2017/9/1 (3.0.12.0) 
 
 此更新中引入：
 
-- 在 2017 Surface Pro (平板电脑) 运行
-- 支持Windows 10 企业版的 Update (英语版本 1703) 
+- 在 2017 Surface Pro (平板电脑上运行) 
+- 支持Windows 10 企业版创意者更新 (英语版本 1703) 
 - 支持 [Crestron SR](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system) 扩展坞硬件
-- Oem 对 Crestron (环境控制) 
+- 针对 Crestron (环境控件的 OEM) 
 
-64 位版本的 Windows 10 企业版 周年版 (英文版 1607) 自 Microsoft Teams 会议室 版本 3.0.12.0 (update 3) 起不再受支持。
+自 Microsoft Teams 会议室 版本 3.0.12.0 (update 3) 起，不再支持 64 位版本的 Windows 10 企业版 周年版 (英文版 1607) 。
 
 ### <a name="3080-842017"></a>2017/8/4 (3.0.8.0) 
 
@@ -485,7 +491,7 @@ Teams 会议室受现代生命周期策略约束。 有关详细信息[，Teams�
 
 此更新中引入：
 
-- Dual-Screen旧版 (奇偶校验的) 
+- Dual-Screen支持 (旧版系统奇偶校验) 
 - 主题 (内置主题，并能够设置自定义主题) 
 - 为公共版本提供反馈的能力
 - 改进了有关会议加入可靠性的遥测
@@ -506,7 +512,7 @@ Teams 会议室受现代生命周期策略约束。 有关详细信息[，Teams�
  **为 Skype for Business 而构建**
 
 - 一键式加入 Skype 会议
-- Skype 会议屏幕填充 HD 视频和 HD 宽带音频的会议室优化的体验
+- Skype 会议填充屏幕的 HD 视频和 HD 宽带音频的会议室优化的体验
 - 所有参与者均可使用所选设备从任意位置连接到 Skype 会议
 - 从目录中（在此可立即看到用户的状态）或通过电话呼叫邀请用户
 - 支持 Skype for Business PSTN 会议和 PSTN 呼叫，以替代会议室中的单独会议电话
@@ -517,7 +523,7 @@ Teams 会议室受现代生命周期策略约束。 有关详细信息[，Teams�
 - 重复使用会议室显示器或投影仪前面的现有投资
 - 适用于各种类型的会议室，从小型到大型会议室
 - 经认证的 Skype for Business 音频和视频设备可用于各种规模的会议室
-- 内置有线数据，可项目桌面共享到会议室和Skype 会议
+- 内置有线数据，将桌面共享项目到会议室和Skype 会议
 
  **易于部署、便于管理**
 

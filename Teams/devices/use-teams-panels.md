@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: 本文提供有关如何使用 Teams设备的指南。
-ms.openlocfilehash: bd1a7a865d6e07cec47838a518d19523afef5134
-ms.sourcegitcommit: f8b935e009895138eddfc1ae360b7b2ace747d3c
+ms.openlocfilehash: e39b54d290ac3c8d4809f9da011c2e28451c2ae7
+ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "63050898"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "63062536"
 ---
 # <a name="how-to-use-microsoft-teams-panels"></a>如何使用Microsoft Teams面板
 
@@ -204,7 +204,7 @@ Teams面板设备预安装有 Microsoft Teams，并显示通过日历或日历Ou
 
 签入和会议室释放设置允许用户在会议开始时Teams会议室的面板上签入会议。 如果用户未在会议开始时间后的一定时间内签入，会议室将释放，可供其他人预订。
 
-当Teams面板与 Android Microsoft Teams 会议室配对时，当会议延迟运行时，签入通知可以显示在会议室的前端显示上。
+当Teams面板与 Android Microsoft Teams 会议室配对时，当会议延迟运行时，签入通知可以显示在会议室前显示器上。
 
 若要启用签入和房间释放，请参阅面板上的签入和[Microsoft Teams发布](check-in-and-room-release.md)。
 

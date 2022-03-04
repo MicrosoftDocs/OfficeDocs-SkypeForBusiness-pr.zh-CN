@@ -20,17 +20,15 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
-description: 本文介绍了如何在 Microsoft Teams 中创建、编辑和管理资源帐户。
-ms.openlocfilehash: 11ba1600ca1da807711d4bd977abf1adfa09a612
-ms.sourcegitcommit: d3c48f0c147cf0c47d5eb4ea1128b5bca13be718
+description: 本文将了解如何在 Microsoft Teams 中创建、编辑和管理资源帐户。
+ms.openlocfilehash: bc49142a5e40b0bb883761cde297d01d89a3f67b
+ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62299027"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "63062556"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>在 Microsoft Teams 中管理资源帐户
-
-资源帐户是一个禁用的用户对象Azure AD，通常可用于表示资源。 例如，资源帐户可用于Exchange会议室，并允许它们具有电话号码和日历。 可以使用 2019 年 Microsoft 365 将资源帐户Skype for Business Server本地。
 
 在Microsoft Teams，每个自动助理或呼叫队列都需要一个资源帐户。 还可以为资源帐户分配服务电话号码。 这是将电话号码分配给自动助理和呼叫队列，允许来自外部呼叫Teams呼叫者进入自动助理或呼叫队列。
 
@@ -42,7 +40,7 @@ ms.locfileid: "62299027"
 - [获取服务编号](#obtain-service-numbers)
 
 > [!NOTE]
-> 已禁用资源帐户进行登录，并且必须保留。 聊天和状态不能用于这些帐户。
+> 用于自动助理和呼叫队列的资源帐户已禁用以便登录，必须保留。 聊天和状态不能用于这些帐户。
 
 ### <a name="obtain-virtual-user-licenses"></a>获取虚拟用户许可证
 
@@ -50,7 +48,7 @@ ms.locfileid: "62299027"
 
 本文稍后将介绍如何将许可证分配给资源帐户。
 
-若要获取虚拟用户许可证，Microsoft 365 管理中心，转到 **"计费** >  > ""购买服务""登录订阅"并滚动到末尾 - 会看到"电话系统 *- 虚拟用户"* 许可证。 选择" **立即购买"**。 成本为零，但仍需要按照以下步骤获取许可证。
+若要获取虚拟用户许可证，Microsoft 365 管理中心，转到 **"计费** >  > ""购买服务""登录订阅"并滚动到末尾 - 会看到"电话系统 *- 虚拟用户*"许可证。 选择" **立即购买"**。 成本为零，但仍需要按照以下步骤获取许可证。
 
 ### <a name="obtain-service-numbers"></a>获取服务编号
 
@@ -60,7 +58,7 @@ ms.locfileid: "62299027"
 
 若要获取新的服务号码，请参阅 [获取服务电话号码](getting-service-phone-numbers.md)。
 
-若要转转其他运营商的号码，请参阅[将电话号码转接到Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。
+若要转转其他运营商的号码，请参阅[将电话号码转移到Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。
 
 ## <a name="create-a-resource-account"></a>创建资源帐户
 
@@ -68,7 +66,7 @@ ms.locfileid: "62299027"
 
 ![添加资源帐户用户界面的屏幕截图。](media/resource-account-add.png)
 
-1. 在管理Teams，展开 **"语音**"，然后单击"资源 **帐户"**。
+1. 在管理Teams，展开 **"语音"**，然后单击"**资源帐户"**。
 
 2. 单击“**添加**”。
 
@@ -86,7 +84,7 @@ ms.locfileid: "62299027"
 
 1. 在Microsoft 365 管理中心，单击要为其分配许可证的资源帐户。
 
-2. 在"**许可证和应用"选项卡上的**"许可证 **"下**，选择"**Microsoft 365 电话系统 - 虚拟用户"**。
+2. 在"**许可证和应用"选项卡上的**"许可证 **"下**，Microsoft 365 电话系统 **- 虚拟用户"**。
 
 3. 单击 **保存更改**。
 
@@ -130,7 +128,7 @@ ms.locfileid: "62299027"
 
 ## <a name="skype-for-business-server-2019"></a>Skype For Business Server 2019
 
-对于托管在 Skype For Business Server 2019 上且可用于云呼叫队列和云自动助理的资源帐户，请参阅规划[云呼叫队列](/SkypeforBusiness/hybrid/plan-call-queue)或[计划云自动助理](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant)。 混合实现 (直接路由) 上的数字是使用本地 Skype for Business Server 2019 服务器上 [New-CsHybridApplicationEndpoint](/powershell/module/skype/new-cshybridapplicationendpoint) cmdlet 配置的。
+对于托管在 Skype For Business Server 2019 上且可用于云呼叫队列和云自动助理的资源帐户，请参阅规划[云](/SkypeforBusiness/hybrid/plan-call-queue)呼叫队列或[计划云自动助理](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant)。 混合 (直接路由) 上的数字是使用本地 Skype for Business Server 2019 服务器上 [New-CsHybridApplicationEndpoint](/powershell/module/skype/new-cshybridapplicationendpoint) cmdlet 配置的。
 
 创建应用程序实例时需要使用的应用程序 ID 为：
 
