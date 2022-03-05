@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4520d34c62829e2db50cc18d0edcc6450a440f25
-ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
+ms.openlocfilehash: 34614a6c1b45ea9660552b77b7c91d87e5c30d5f
+ms.sourcegitcommit: 2d4dab7a6436e53db9475d67695504753896ca86
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "63062746"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "63065240"
 ---
 # <a name="tailor-your-teams-apps-based-on-license"></a>根据许可证Teams自定义应用
 
@@ -42,13 +42,13 @@ Teams提供了一种基于许可证固定应用的方法。 当用户登录并Te
 
 为具有 F 许可证的用户固定的应用：
 
-- 活动
-- 聊天
-- Teams
-- 对讲机
-- 任务
-- 排班
-- 审批
+- [活动](https://support.microsoft.com/office/explore-the-activity-feed-in-teams-91c635a1-644a-4c60-9c98-233db3e13a56)
+- [聊天](https://support.microsoft.com/office/get-started-with-chat-0b506ce2-eb6d-4fca-9668-e56980ba755e)
+- [Teams](https://support.microsoft.com/office/teams-and-channels-in-microsoft-teams-c6d0e61d-a61e-44a6-a972-04f2a8fa4155)
+- [对讲机](https://support.microsoft.com/office/get-started-with-teams-walkie-talkie-25bdc3d5-bbb2-41b7-89bf-650fae0c8e0c)
+- [任务](https://support.microsoft.com/office/use-the-tasks-app-in-teams-e32639f3-2e07-4b62-9a8c-fd706c12c070)
+- [排班](https://support.microsoft.com/office/what-is-shifts-f8efe6e4-ddb3-4d23-b81b-bb812296b821)
+- [审批](https://support.microsoft.com/office/what-is-approvals-a9a01c95-e0bf-4d20-9ada-f7be3fc283d3)
 
 ## <a name="admin-controls"></a>管理员控件
 
@@ -66,7 +66,7 @@ Teams提供了一种基于许可证固定应用的方法。 当用户登录并Te
 
 ## <a name="scenarios"></a>方案
 
-使用下表中的信息，了解定制应用体验功能在各种方案中的工作原理，包括应用现有应用设置策略时的情况。
+使用下表中的信息，了解定制应用体验在各种方案中的工作原理，包括应用现有应用设置策略时的情况。
 
 |如果...  |然后... |
 |---------|---------|
@@ -83,5 +83,9 @@ Teams提供了一种基于许可证固定应用的方法。 当用户登录并Te
 
 ## <a name="related-articles"></a>相关文章
 
+- [在应用中管理 Walkie Talkie Teams](walkie-talkie.md)
+- [管理任务应用中Teams](manage-tasks-app.md)
+- [在应用程序中管理 Shifts Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
+- [在应用程序中管理审批Teams](approval-admin.md)
 - [在 Teams 中管理应用设置策略](teams-app-setup-policies.md)
 - [在 Teams 中管理应用权限策略](teams-app-permission-policies.md)
