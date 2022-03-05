@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 01fc283f8787ad659678b4e09ad3f573f34eb66d
-ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
+ms.openlocfilehash: e5e554672156f70556ebc18625115cd9a1ce8c58
+ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "62363028"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "63062686"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Microsoft Teams 教育版见解 IT 管理员指南
 
@@ -135,6 +135,7 @@ Insights 将从 Teams 的学生和教师活动中收集数据。它不收集来�
 | **会议** |    出席（不包括会议内容）。|
 | **[阅读进度](https://support.microsoft.com/topic/e71705a2-a79a-4d7e-bcef-a1e0aa336017)** |    准确率、最具挑战性的字词和每分钟字数。  |
 | **[反映](reflect.md)** |   签入（包括值）。|
+| **职业指导** | 学生提供了专业（学习领域）和学年、职业指导应用中的学生活动，包括：技能、技能兴趣、职业兴趣、学习兴趣、职业相关活动。|
 
 > [!NOTE]
 > 几分钟后，所收集的大部分数据都会显示在 Insights 中。在会议结束后的几个小时会出现参加课堂会议（与某个课堂频道相关的会议）的提示，通常最多不超过 24 小时。
@@ -239,12 +240,24 @@ Microsoft 已从零开始构建见解以确保数据得到保护。 我们意识
 
 * 要重新打开它，请按照[如何为 Insights 部署 SDS](/schooldatasync/how-to-deploy-sds-for-insights) 中的说明进行操作。
 
-### <a name="how-to-delete-your-data"></a>如何删除数据
-见解存储学生和教师在课堂团队环境中进行的操作。 此数据被视为混合数据集，因此一旦从组织中删除学生或教师用户帐户，就不会自动将其从服务中删除。
-注意：删除数据会损害见解分析课堂团队参与度的能力。
-* [打开支持票证](https://aka.ms/edusupport)。 支持票证必须清楚说明对 GDPR Delete DSR 操作的请求，并包含要删除的用户对象ID。 无法限制删除的数据集或时间范围。
-*   存档后，支持票证将在队列中等待一周，以便满足合规性最低保留策略的要求。 你有机会在这段时间内取消操作。
-*   一周后，教育版见解团队将采取措施，确保从服务中删除所有与用户 ID 相关的数据。 Microsoft 支持人员将监视票证，并在不超过 28 天的删除过程完成后通知你。
+### <a name="how-to-delete-user-data-from-education-insights"></a>如何从教育版见解中删除用户数据
+Insights 会存储在 Microsoft Teams 教育版中执行的学生和教师活动。
+
+Insights 收集的数据有两种类型：
+* **传入的数据**–在课堂学习活动中生成的数据。
+* **无传入（私有）数据**–Teams 教育版中学生活动收集的数据，这些数据不是课堂学习活动的一部分。 
+
+Insights 收集的完整数据在[此处](class-insights.md#data-collection)列出。
+
+为了向教师和教育领导者提供过去时间范围内数据的完全性和完整性，默认情况下，当学生或教师用户帐户关闭时，Insights 不会自动从服务中删除数据。 组织 IT 管理员可以通过执行以下步骤来请求手动删除用户（教师或学生）数据：
+* 开启[支持票证](https://aka.ms/edusupport)。 支持票证必须清楚说明对 GDPR Delete DSR 操作的请求，并包含要删除的用户对象ID。
+无法限制删除的数据集或时间范围。
+* 在请求中，IT 管理员应在以下选项中明确说明需要为该用户删除的数据类型：
+  - 所有数据（传入和专用）
+  - 所有私人数据 
+  - 仅职业指导数据
+* 存档后，支持票证将在队列中等待一周，以便满足合规性最低保留策略的要求。 你有机会在这段时间内取消操作。
+* 一周后，Education Insights 团队会确保从服务中删除与上述特定类型的用户 ID 相关的所有数据。 Microsoft 支持人员将监视票证，并在不超过 28 天的删除过程完成后通知你
 
 ## <a name="troubleshooting"></a>疑难解答
 ### <a name="why-doesnt-my-institution-see-any-data-in-insights"></a>为什么我的机构在 Insights 中看不到任何数据？

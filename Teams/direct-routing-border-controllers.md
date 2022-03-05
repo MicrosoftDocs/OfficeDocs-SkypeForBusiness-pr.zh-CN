@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 了解哪些会话边界控制器 (SBC) 已通过直接路由认证。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3805a87171a770298e41337dfdd569c1b7d76985
-ms.sourcegitcommit: 2044fdcb0c5db10dbc77c5d66e382c1b927ccdc4
+ms.openlocfilehash: 1c005d97a0d0d570cb362d6c82853e3a3f8e3116
+ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "63039990"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "63062496"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>经认证可用于直接路由的会话边界控制器
 
@@ -144,6 +144,7 @@ Microsoft 与每个供应商合作：
 |        | AP 6300 | 8.4.0.0.0 |
 |        | AP 6350 | 8.4.0.0.0 | 
 |        | VME     | 8.4.0.0.0 |
+| [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    适用于企业的 Avaya 会话边界控制器 （ASBCE）    |  10.1.2 | 
 
 
 

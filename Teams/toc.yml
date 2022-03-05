@@ -1389,6 +1389,8 @@ items:
             href: rooms/multi-tenant-management-customer.md
           - name: 会议室活动的审核日志
             href: rooms/multi-tenant-auditing.md
+          - name: 标准和会议室 Planner
+            href: rooms/standards-and-room-planner.md
       - name: 设备
         items:
           - name: 在 Teams 中管理设备

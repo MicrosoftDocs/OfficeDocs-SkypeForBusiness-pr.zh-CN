@@ -9,7 +9,7 @@
       items:
         - name: 'Skype for Business 的 IP 电话 '
           href: ../certification/devices-ip-phones.md
-        - name: Teams 的 IP 电话
+        - name: Teams Android 设备
           href: /microsoftteams/teams-ip-phones
         - name: USB 音频和视频设备
           href: ../certification/devices-usb-devices.md
