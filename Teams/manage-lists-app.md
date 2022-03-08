@@ -1,31 +1,36 @@
 ---
 title: 为组织管理 Lists 应用
-author: SerdarSoysal
-ms.author: serdars
-ms.reviewer: 'anach,v-jasuk'
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+ms.reviewer: anach,v-jasuk
+manager: prkosh
 ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
 searchScope:
-  - Microsoft Teams
-  - Microsoft Cloud for Healthcare
-  - Microsoft Cloud for Retail
+- Microsoft Teams
+- Microsoft Cloud for Healthcare
+- Microsoft Cloud for Retail
 description: 了解如何为组织中的用户管理 Lists 应用。
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.localizationpriority: medium
 ms.collection:
-  - M365-collaboration
-  - microsoftcloud-healthcare
-  - microsoftcloud-retail
-  - m365initiative-lists
+- M365-collaboration
+- microsoftcloud-healthcare
+- microsoftcloud-retail
+- m365initiative-lists
 appliesto:
-  - Microsoft Teams
-ms.custom: null
+- Microsoft Teams
+ms.custom: ''
+ms.openlocfilehash: 1028a1e5826a2519de83d8dc73b7d2f55282ca4b
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070608"
 ---
-
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中为组织管理 Lists 应用
 
 ## <a name="overview-of-lists"></a>Lists 概述
@@ -102,7 +107,7 @@ Lists 在你的组织中默认为所有 Teams 用户启用。 你可以在 Micro
 
 ## <a name="search-the-audit-log-for-list-events"></a>搜索列表事件的审核日志
 
-列表已启用企业级审核，因此可以在安全与合规中心审核日志搜索列表&项事件。 若要了解详细信息，请参阅[在安全与合规中心中搜索审核日志](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)。
+列表已启用企业级审核，因此可以在安全与合规中心审核日志列表中搜索列表&事件。 若要了解详细信息，请参阅[在安全与合规中心中搜索审核日志](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)。
 
 在 Teams 中查看与 Lists 应用有关的审核事件列表，请参阅 [SharePoint 列表活动](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#sharepoint-list-activities)。
 

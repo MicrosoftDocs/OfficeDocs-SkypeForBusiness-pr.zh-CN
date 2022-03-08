@@ -1,28 +1,33 @@
 ---
 title: 在 Microsoft Teams 中为组织管理 Tasks 应用
-author: SerdarSoysal
-ms.author: serdars
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: andfried
 search.appverid: MET150
 searchScope:
-  - Microsoft Teams
-  - Microsoft Cloud for Healthcare
-  - Microsoft Cloud for Retail
+- Microsoft Teams
+- Microsoft Cloud for Healthcare
+- Microsoft Cloud for Retail
 audience: admin
 description: 了解如何在组织中管理 Tasks 应用。
 ms.localizationpriority: medium
 MS.collection:
-  - Teams_ITAdmin_Help
-  - M365-collaboration
-  - microsoftcloud-healthcare
-  - microsoftcloud-retail
+- Teams_ITAdmin_Help
+- M365-collaboration
+- microsoftcloud-healthcare
+- microsoftcloud-retail
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
+ms.openlocfilehash: 2ad0324509849700ea74afe582d4ce7a4934dc3e
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070591"
 ---
-
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中为组织管理 Tasks 应用
 
 ## <a name="overview-of-tasks"></a>Tasks 概述
@@ -38,7 +43,7 @@ Tasks 应用为 Microsoft Teams 带来紧密的任务管理体验，通过[微�
 
 ## <a name="what-you-need-to-know-about-tasks"></a>你需要了解的 Tasks 的相关信息
 
-Tasks 同时作为应用和频道中的选项卡存在。 该应用显示 Planner 中的单个微软待办和团队任务。 该选项卡只显示团队任务。
+Tasks 同时作为应用和频道中的选项卡存在。 该应用显示 Planner 中的单个微软待办任务和团队任务。 该选项卡只显示团队任务。
 
 用户可以获得桌面、web 以及移动端的 Tasks 体验。 如果 Tasks 安装在 Teams 桌面客户端中，用户也可以在 Teams 的 web 和移动客户端上找到它。 来宾例外。 需要注意的是，使用 Teams 移动客户端的来宾只能访问 Tasks 应用。  来宾会在 Teams 桌面和 web 客户端中看到 Tasks 选项卡。
 
@@ -72,7 +77,7 @@ Tasks 在你的组织中默认为所有 Teams 用户启用。 你可以在 Micro
 
 ### <a name="use-an-app-setup-policy-to-pin-tasks-to-teams"></a>使用应用设置策略来固定 Tasks 到 Teams
 
-应用设置策略让你自定义 Teams 来突出显示组织中对用户最重要的应用。 在策略中设置的应用将固定到应用栏（Teams 桌面客户端侧边和 Teams 移动客户端底部的栏）上，用户可以在这里快速轻松地访问它们。
+应用设置策略让你自定义 Teams 来突出显示组织中对用户最重要的应用。 在策略中设置的应用将固定到应用栏（Teams 桌面客户端一侧的栏和 Teams 移动客户端的底部）中，用户可以在这里快速轻松地访问它们。
 
 要为用户固定 Tasks 应用，请编辑全局（默认为组织范围内）策略或创建并分配自定义应用设置策略。 要了解详细信息，请参阅[在 Teams 中管理应用设置策略](teams-app-setup-policies.md)。
 

@@ -1,14 +1,14 @@
 ---
 title: Teams标准用户的应用行为
-author: SerdarSoysal
-ms.author: serdars
+author: guptaashish
+ms.author: guptaashish
 ms.reviewer: joglocke
 manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: 了解应用中的应用Microsoft Teams标准用户的行为方式。
+description: 了解应用Microsoft Teams标准用户的行为方式。
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 621614b9fc3d46d4629ce8b62dbbcc7b579698db
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 4dd2a96b7df3ebcb3ae8659222744ed0f3273fa3
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62390824"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070211"
 ---
 # <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>Microsoft Teams标准用户的应用行为
 
@@ -30,7 +30,7 @@ ms.locfileid: "62390824"
 
 - **来宾用户** 不是组织的员工、学生或成员。 他们在贵组织没有学校或工作帐户。
 
-- 外部 **(联合) 用户** 属于另一个域，无法访问组织的团队或团队资源。
+- 外部 **(联合) 用户** 属于另一个域，并且无法访问组织的团队或团队资源。
 
   > [!Note]
   > 有关来宾与外部用户的更详细比较， [请参阅与其他组织的用户进行通信](./communicate-with-users-from-other-organizations.md)。
@@ -63,7 +63,7 @@ ms.locfileid: "62390824"
 
 ### <a name="install-update-and-delete-for-external-users"></a>为外部用户安装、更新和删除
 
-外部用户无法在任何上下文中安装、更新或删除应用，例如个人、聊天、频道或会议。 他们无法访问托管组织的 Teams应用商店。
+外部用户无法在任何上下文中安装、更新或删除应用，例如个人、聊天、频道或会议。 他们无法访问托管组织的Teams应用商店。
 
 ### <a name="usage-behavior-and-policy-for-external-users"></a>外部用户的使用行为和策略
 
@@ -82,7 +82,7 @@ ms.locfileid: "62390824"
 
 匿名用户不能直接在会议中使用应用。 如果存在匿名用户，本机用户可以继续使用会议应用。 如果应用在聊天中发送自适应卡，匿名用户可以与该卡交互。 有关详细信息，请阅读 [允许匿名用户加入会议](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings)。
 
-匿名用户将继承用户级全局默认权限策略。 如果用户级权限策略已启用Teams，他们可以与会议中的应用进行交互。 匿名用户只能与已在会议中可用的应用交互，并且无法获取和/或管理这些应用。
+匿名用户将继承用户级全局默认权限策略。 如果用户级权限策略已启用Teams，他们可以与会议中的应用交互。 匿名用户只能与已在会议中可用的应用交互，并且无法获取和/或管理这些应用。
 
 ## <a name="related-topics"></a>相关主题
 

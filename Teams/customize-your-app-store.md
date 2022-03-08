@@ -1,8 +1,8 @@
 ---
 title: 自定义应用存储
-author: SerdarSoysal
-ms.author: serdars
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 ms.reviewer: prem
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解应用中的自定义Microsoft Teams。
-ms.openlocfilehash: cabfc148edb793ac40b49950b3b92676a0c80bfa
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: f98b91c8a700bfc8ebb560930862e66b38a35a0e
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62399496"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070381"
 ---
 # <a name="custom-apps-store-in-microsoft-teams"></a>自定义应用存储在 Microsoft Teams
 
@@ -32,7 +32,7 @@ ms.locfileid: "62399496"
 > [!Note]
 > 品牌更改需要 24 小时才能生效。
 
-可以通过选择"自定义应用商店"来访问管理Teams **自定义** > **存储**。
+可以通过选择"自定义存储"应用在管理中心Teams **自定义** > **存储**。
 
   ![管理员控制台突出显示自定义应用商店功能。](media/customize-app-store.png)
 
@@ -60,7 +60,7 @@ ms.locfileid: "62399496"
 <a name="orglogomark"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-组织徽标标记或小徽标是表示组织品牌的图像或符号，不包括公司名称。 lovemark 可帮助团队成员识别应用应用商店。 所选徽标将显示在"应用"页Teams客户端中。
+组织徽标标记或小徽标是表示组织品牌的图像或符号，不包括公司名称。 lovemark 可帮助团队成员识别应用应用商店。 所选徽标将显示在"应用"Teams客户端中。
 
 选择" **选择图片"选项** 时，可以上传选择的文件。 徽标标记应为 32x32 像素，否则将缩放到该大小。 它不应大于 5 MB。 支持的格式包括：
 
@@ -95,7 +95,7 @@ ms.locfileid: "62399496"
 <a name="textcolor"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-请确保文本颜色与背景具有足够的对比度，以便用户可以清楚地阅读组织的名称。 文本将显示在租户标头的 **appsBuilt**  >  Teams客户端中。
+请确保文本颜色与背景具有足够的对比度，以便用户可以清楚地阅读组织的名称。 文本将显示在租户标头的 **AppsBuilt**  >  Teams客户端中。
 
 选择" **选择自定义颜色"时**，将打开颜色选择器。 通过调整颜色选择器的规模来选择想要的颜色。
 
@@ -109,7 +109,7 @@ ms.locfileid: "62399496"
 ![自定义应用应用商店预览。](media/PowerAppsInStore650w.png)
 
 > [!Note]
-> 表示形式可能与自定义应用存储的最终版本不同，因为某些默认颜色基于用户对客户端Teams版本。
+> 表示形式可能与自定义应用存储的最终版本不同，因为某些默认颜色基于用户Teams版本。
 
 ## <a name="related-article"></a>相关文章
 

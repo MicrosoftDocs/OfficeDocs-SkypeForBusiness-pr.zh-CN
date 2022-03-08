@@ -1,8 +1,8 @@
 ---
 title: 自定义应用中Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 ms.reviewer: v-tbasra
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -18,16 +18,16 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何在应用中自定义Microsoft Teams。
-ms.openlocfilehash: cac5bc4e5d2748b8e4a9143d50e40dbf96ae80a0
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 7fb940ed512c96bd4aa4519bcdabbf9adcbe86a8
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62410615"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070421"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>自定义应用中Microsoft Teams
 
- Microsoft Teams提供应用自定义来增强Teams体验。 某些应用开发人员允许由管理员自定义Teams应用。管理员可以使用管理中心"管理应用"页面，根据组织需求自定义或Teams **品牌**。 可以自定义的详细信息包括：
+ Microsoft Teams提供应用自定义来增强Teams体验。 某些应用开发人员允许应用由管理员Teams自定义。管理员可以使用管理中心"管理应用"页面，根据组织需求自定义或Teams **品牌**。 可以自定义的详细信息包括：
 
 - 短名称
 - 简短说明
@@ -51,7 +51,7 @@ ms.locfileid: "62410615"
 
 1. 登录到 Teams 管理中心。
 
-2. 展开 **Teams应用"，** 然后选择"**管理应用"**。
+2. 展开 **Teams"，** 然后选择"**管理应用"**。
 
 3. 检查 **应用列表** 的"可自定义"列，并按可自定义的应用进行排序。
 
@@ -87,7 +87,7 @@ ms.locfileid: "62410615"
 
 5. 展开" **图标"** 部分。
 
-   1. Upload图标。 使用一个全彩色图标 (192x192) PNG 格式的像素。
+   1. Upload图标。 使用一个全色图标 (192x192) PNG 格式的像素。
 
    1. 选择图标轮廓颜色。 使用一个透明 (32x32) PNG 格式的像素。
 
@@ -139,7 +139,7 @@ ms.locfileid: "62410615"
 
 1. 登录到 Teams 管理中心。
 
-2. 展开 **Teams应用"，** 然后选择"**管理应用"**。
+2. 展开 **Teams"，** 然后选择"**管理应用"**。
 
 3. 选择应用名称。
 

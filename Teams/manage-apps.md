@@ -1,8 +1,8 @@
 ---
 title: 在管理中心内Microsoft Teams应用
-author: KarliStites
-ms.author: kastites
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -17,12 +17,12 @@ description: 了解如何在 Teams 管理中心的"管理应用"页上管理Micr
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 8e0c475eaf2186c13174d27687a5bd10c2fa1057
-ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
+ms.openlocfilehash: ad1dd28f4de0bc6db0ab7b2870a1cf7b2dae007a
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "63062546"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070221"
 ---
 # <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>在管理中心内Microsoft Teams应用
 
@@ -55,7 +55,7 @@ ms.locfileid: "63062546"
 ![应用的应用详细信息页的屏幕截图。](media/app-detail-page.jpg)
 
 - **名称**：应用名称。 选择应用名称以转到应用详细信息页以查看有关该应用的详细信息。 这包括应用的说明，无论是允许还是阻止应用、版本、隐私策略、使用条款、适用于应用的类别、认证状态、支持的功能和应用 ID。
-- **认证**：如果应用已通过认证，你将看到 **Microsoft 365认证Publisher****认证**。 选择链接以查看应用的认证详细信息。 如果看到"**--**"，我们将没有应用的认证信息。 若要详细了解应用中的认证Teams，请阅读Microsoft 365[认证计划](/microsoft-365-app-certification/overview)。
+- **认证**：如果应用已通过认证，你将看到 **Microsoft 365认证Publisher****认证**。 选择链接以查看应用的认证详细信息。 如果看到 `--`，则我们没有应用的认证信息。 若要详细了解应用中的认证Teams，请阅读Microsoft 365[认证计划](/microsoft-365-app-certification/overview)。
 - **Publisher**：发布者的名称。
 - **发布状态**：自定义应用的发布状态。
 - **状态**：组织级别的应用状态，可以是下列其中一项：

@@ -17,36 +17,36 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何在托管服务Microsoft Teams 会议室注册Microsoft Teams 会议室高级版帐户。
 f1keywords: ''
-ms.openlocfilehash: 79dee52cc9c814338c6c5dc4c91245155ef2fd41
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: d00c4f84447e8ba41f0328cca9b907db45e8fdb7
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766965"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070411"
 ---
-# <a name="enroll-a-device-in-the-microsoft-teams-rooms-premium-managed-service"></a>在托管服务中Microsoft Teams 会议室高级版设备
+# <a name="enroll-a-device-in-the-microsoft-teams-rooms-premium-managed-service"></a>在托管服务Microsoft Teams 会议室高级版设备
 
-若要在Microsoft Teams 会议室服务中注册Teams 会议室 高级版设备，需要向托管服务管理员再分配一个用户，然后使用该用户完成注册步骤。
+若要在Microsoft Teams 会议室服务中注册Teams 会议室 高级版设备，需要将一个或多个用户分配到托管服务管理员，然后使用该用户完成注册步骤。
 
 ## <a name="assign-users-to-the-managed-service-administrator-role"></a>将用户分配到托管服务管理员角色
 
 完成以下步骤，将用户分配到托管服务管理员角色：
 
-1. 使用与[Teams 会议室 高级版](https://portal.rooms.microsoft.com/)登录管理员权限相同的管理员权限登录到 Microsoft 365 管理中心。
-2. 导航到  >  **设置设置**  >  **角色"，** 然后选择"**托管服务管理员"。**
-3. 在 **"托管服务管理员"** 下，选择"**分配"** 选项卡，然后选择"**添加"。**
+1. 使用与[Teams 会议室 高级版](https://portal.rooms.microsoft.com/)相同的管理员权限登录到 Microsoft 365 管理中心。
+2. 导航到"**设置** > **设置** > **Roles"，然后选择**"**托管服务管理员"**。
+3. 在 **"托管服务管理员"** 下，选择" **分配"** 选项卡，然后选择"添加 **"**。
 4. 按照向导命名分配并选择应添加到该分配的用户。 该作业将应用于所有会议室和会议室组。
-5. 在作业向导的末尾，选择"添加 **分配"。**
+5. 在作业向导的末尾，选择"添加 **分配"**。
 
-分配有托管服务管理员角色的用户负责对托管服务门户进行日常管理和Teams 会议室 高级版监视。
+分配有托管服务管理员角色的用户负责对托管服务门户Teams 会议室 高级版监视。
 
-将用户分配到托管服务管理员角色后，请继续"注册设备"部分，[](#enroll-a-teams-rooms-device)将Teams 会议室添加到托管服务门户。
+将用户分配到托管服务管理员角色后，请继续注册 Teams 会议室 [设备](enroll-a-device.md)，将 Teams 会议室设备添加到托管服务门户。
 
-## <a name="enroll-a-teams-rooms-device"></a>注册Teams 会议室设备
+<!-- ## Enroll a Teams Rooms device
 
- 若要在托管服务中Teams 会议室 高级版设备，请参阅[监视设备软件安装](monitor-software-installation-guide.md)。
+ To enroll a device in the Teams Rooms Premium managed service, see [Monitoring device software installation](monitor-software-installation-guide.md).
 
-<!--2. Select on the **?** icon at the top right-hand corner of the portal to launch the help menu. The help menu includes an [Installation guide](https://portal.rooms.microsoft.com/docs/MMR%20Monitoring%20Software%20Installation%20Guide%20Feb%202021.pdf) containing detailed enrollment instructions:
+2. Select on the **?** icon at the top right-hand corner of the portal to launch the help menu. The help menu includes an [Installation guide](https://portal.rooms.microsoft.com/docs/MMR%20Monitoring%20Software%20Installation%20Guide%20Feb%202021.pdf) containing detailed enrollment instructions:
 
     1. Review the **Pre-requisites** section in the Installation guide. Confirm that the URLs listed in the **URLs Required for Communication** list are added to your firewall's traffic allow list.
     2. Follow the instructions in the **Enabling TPM Settings** section to enable the Trusted Platform Module (TPM) functionality on your device.

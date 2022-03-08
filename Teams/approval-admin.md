@@ -1,9 +1,9 @@
 ---
 title: Teams 中的“审批”应用程序可用性
-author: SerdarSoysal
-ms.author: serdars
+author: guptaashish
+ms.author: guptaashish
 ms.reviewer: farhazk
-manager: serdars
+manager: prkosh
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea3da24dc0fa3a64d90b38a67b13be0fa4d041ce
-ms.sourcegitcommit: 5880de47e986854fca873ae75f76a7ecad194dff
+ms.openlocfilehash: 10adab9046a7cbd8cebccf6167075e38b1204dea
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "62421545"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070431"
 ---
 # <a name="teams-approvals-app-availability"></a>Teams“审批”应用可用性
 
@@ -41,7 +41,7 @@ ms.locfileid: "62421545"
 本文介绍了“审批”应用要求和角色。
 
 > [!NOTE]
-> 此功能尚未向 政府社区云 GCCH () DoD 用户 () 发布。
+> 此功能尚未向 政府社区云 GCCH () 和国防部 (DOD) 发布。
 
 ## <a name="required-permissions-and-licenses"></a>所需权限和许可证
 
@@ -53,7 +53,7 @@ ms.locfileid: "62421545"
 
 - 目标环境中的管理员角色。
 
-- [适用于 Power Automate](/power-automate/get-started-approvals)、Office 365 或 Dynamics 365 的许可证。
+- 适用于 [Power Automate](/power-automate/get-started-approvals)、Office 365 或 Dynamics 365 的许可证。
 
 - 用户需要 Microsoft Forms 许可证才能设置新的审批模板。
 
@@ -102,7 +102,7 @@ Common Data Model (CDM) 是业务和分析应用程序在 CDS 中使用的共享
 - 当管理员首次为整个组织创建模板时，它会自动为租户的所有管理员（包括全局管理员和 Teams 管理员）创建新的 Azure Active Directory (AAD) 组。 这些管理员将添加为组的所有者，以便他们可以共同管理组织模板。 创建团队后，组织中新增的管理员需要手动添加为组所有者，以便他们具有相同的权限来管理组织范围的模板。
 
 > [!Note]
-> 如果管理员删除了组，则你有一个月时间在门户中还原Azure Active Directory (AAD) 还原所有相关的数据。 一个月后，或者如果管理员在回收站中删除此组，你将丢失所有相关的数据。
+> 如果管理员删除了组，则你有一个月时间在门户Azure Active Directory (AAD) 还原所有相关的数据。 一个月后，或者如果管理员在回收站中删除此组，你将丢失所有相关的数据。
 
 ## <a name="disable-the-approvals-app"></a>禁用“审批”应用
 
@@ -110,7 +110,7 @@ Common Data Model (CDM) 是业务和分析应用程序在 CDS 中使用的共享
 
   1. 登录到 Teams 管理中心。
 
-  2. 转到"**Teams管理** > **应用"**。
+  2. 转到 “**Teams 应用**” > “**管理应用**”。
 
   3. 搜索“审批”应用。
 
@@ -202,7 +202,7 @@ Common Data Model (CDM) 是业务和分析应用程序在 CDS 中使用的共享
 
 可以使用 Teams 管理中心来控制哪些第三方电子签名提供商可供"审批"应用中用户使用。 默认情况下，电子签名提供程序在"审批"应用中启用。 禁用电子签名提供商时，用户创建审批时将无法访问该提供商。 用户还无法查看使用该提供程序创建的电子邮件签名请求。
 
-1. 在管理中心的左侧导航Teams，转到"Teams **管理** > **应用"**。
+1. 在管理中心左侧导航Teams，转到"Teams **管理** > **应用"**。
 2. 搜索"审批"应用，然后选择它。
 3. 转到"**设置**"选项卡，然后执行下列一项或多项操作：
 

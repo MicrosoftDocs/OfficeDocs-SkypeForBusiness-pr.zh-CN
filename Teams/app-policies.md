@@ -1,8 +1,8 @@
 ---
-title: 在应用程序中管理Teams
-author: karlistites
-ms.author: kastites
-manager: serdars
+title: 管理应用中的应用Teams
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: ''
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52fffd29519ea97bf95bc98c1b3de8140667e0b6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 691ad4a26a4d396b6f06dd478bd0012a94861d4f
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610389"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070541"
 ---
 # <a name="manage-app-policies-in-microsoft-teams"></a>管理应用中的应用Microsoft Teams
 
@@ -28,7 +28,7 @@ ms.locfileid: "58610389"
 
 ## <a name="app-permission-policies"></a>应用权限策略
 
-**应用权限** 策略用于控制哪些应用可供用户使用。 作为管理员，你可以允许或阻止用户从应用商店安装Teams应用。 [应用权限策略](teams-app-permission-policies.md)通过 Microsoft Teams管理中心进行管理。
+**应用权限** 策略用于控制哪些应用可供用户使用。 作为管理员，你可以允许或阻止用户从应用商店安装Teams应用。 [应用权限策略](teams-app-permission-policies.md)通过管理中心Microsoft Teams管理。
 
 ![应用权限策略的屏幕截图。](media/app-permission-policy.png)
 
@@ -40,7 +40,7 @@ ms.locfileid: "58610389"
 
 ## <a name="custom-app-policies"></a>自定义应用策略
 
-可以使用自定义应用策略 控制谁可以将自定义Teams上传到 **应用**。 [自定义应用设置和策略](teams-custom-app-policies-and-settings.md)通过 Microsoft Teams管理中心进行管理。
+你可以控制谁可以使用自定义应用策略Teams自定义 **应用应用**。 [自定义应用设置和策略](teams-custom-app-policies-and-settings.md)通过 Microsoft Teams管理中心进行管理。
 
 ![自定义应用策略的屏幕截图。](media/custom-app-policy.png)
 

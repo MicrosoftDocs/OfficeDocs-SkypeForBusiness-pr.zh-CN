@@ -1,24 +1,24 @@
 ---
 title: 在 表扬 管理中心Teams应用
-author: LanaChin
-ms.author: v-lanachin
-manager: samanro
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 ms.reviewer: rjam
 audience: admin
 ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
 description: 了解如何在 表扬 管理中心内Microsoft Teams应用。
-ms.openlocfilehash: 24ddbc66018056360e226f13669ee3dae1e78db5
-ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
+ms.openlocfilehash: 6d1382084a9c789043d699f2d935e5c50369c474
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/11/2022
-ms.locfileid: "62763307"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070191"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>在 表扬 管理中心Microsoft Teams应用
 
-表扬应用Microsoft Teams帮助用户向组织或课堂成员表示感激。 大表扬徽章旨在帮助识别从教育工作者到一线员工Teams各种工作所付出的工作。 若要了解有关详细信息，请查看向[表扬发送通知](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e)。
+表扬应用Microsoft Teams帮助用户向组织或课堂成员表示感激。 大表扬徽章旨在帮助识别用户从教育工作者到一线Teams各种工作所付出的工作。 若要了解有关详细信息，请查看向[表扬发送通知](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e)。
 
 管理员必须具有一个Teams才能访问此功能。 如果尝试在没有许可证的情况下访问Teams，则会显示一条错误消息。
 
@@ -36,7 +36,7 @@ ms.locfileid: "62763307"
 
 请记住，此设置同时影响 表扬 应用中的 表扬 应用Insights应用Teams。
 
-## <a name="enable-or-disable-praise-for-specific-users-in-your-organization"></a>为表扬用户启用或禁用注册
+## <a name="enable-or-disable-praise-for-specific-users-in-your-organization"></a>为表扬用户启用或禁用登录
 
 若要允许或阻止组织中特定用户使用 表扬，请确保表扬"管理应用"页面上为组织[启用此](manage-apps.md)应用。 然后创建自定义应用权限策略并将其分配给这些用户。 要了解详细信息，请参阅[在 Teams 中管理应用权限策略](teams-app-permission-policies.md)。
 

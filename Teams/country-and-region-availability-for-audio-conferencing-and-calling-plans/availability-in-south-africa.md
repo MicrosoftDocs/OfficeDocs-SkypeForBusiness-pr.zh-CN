@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: cccc1b801b2627ecb93eafd38b0ab944baac91aa
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+ms.openlocfilehash: 7c56d5bb6fd8ee3449b110b21b00000eda9dac55
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62190813"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070571"
 ---
 # <a name="availability-in-south-africa"></a>在南非的可用性
 
@@ -59,9 +59,10 @@ ms.locfileid: "62190813"
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|是否可购买通话套餐？  <br/> |否  <br/> |
-|通话套餐的可用分钟数  <br/> |不适用  <br/> |
-|是否可以拨打呼出电话？  <br/> |不适用  <br/> |
+|是否可购买通话套餐？  <br/> |是  <br/> |
+|通话套餐可用的分钟数。 |每个日历月有四个可用的计划选项： <ul><li>120 分钟国内呼叫计划 </li><li>240 分钟国内呼叫计划</li></li><li>1200 分钟国内呼叫计划 </li></li><li>国内和国际呼叫计划：国内 1200 分钟 -OR- 600 分钟国际呼叫 (以日历月份中首次达到者为准) </li></li></ul>|
+|能否对高级号码进行出站呼叫？  <br/> | 目前不支持。 <br/> |
+|是否可以拨打呼出电话？  <br/> | 到 196 个国家和地区，[包括这些。](users-can-make-outbound-calls-to-these-countries-and-regions.md)<br/> |
 
 如果呼叫计划不可购买，请参阅 [PSTN 连接选项](../pstn-connectivity.md) 了解所有可用选项。
    
