@@ -3,9 +3,9 @@ title: Microsoft Teams 中的应用、聊天机器人和连接器
 ms.reviewer: ''
 description: 了解应用、聊天机器人和连接器，以及如何根据组织的情况和业务需求决定在 Microsoft Teams 中部署其中的哪些。
 ms.topic: article
-author: SerdarSoysal
-ms.author: serdars
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 audience: admin
 ms.date: 02/10/2021
 ms.service: msteams
@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a2789e522e666894ca58c8b22e9d571b35a4fb26
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 05d683bbefa9b3cc564e4f97e52f0fad441f2763
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618508"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070391"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Microsoft Teams 中的应用、聊天机器人和连接器
 
@@ -37,7 +37,7 @@ Teams自带一组内置应用，包括列表、任务、表扬、审批等。 �
 
 ## <a name="use-third-party-apps"></a>使用第三方应用
 
-除了 Microsoft 提供的应用，可使用 Microsoft 认证第三方应用。 Microsoft 与 Microsoft 365 开发者合作伙伴合作，提供所需的信息，以加快做出有关使用 Teams 应用和插件的决定。有关更多信息，请参见[ Microsoft Teams 应用安全性和合规性。](/microsoft-365-app-certification/teams/teams-apps)。
+除了 Microsoft 提供的应用以外，你还可以使用 Microsoft 认证的第三方应用。Microsoft 与 Microsoft 365 开发者合作伙伴合作，提供所需的信息，以加快做出有关使用 Teams 应用和插件的决定。有关更多信息，请参见 [Microsoft Teams 应用安全性和合规性](/microsoft-365-app-certification/teams/teams-apps)。
 
 ## <a name="use-teams-templates"></a>Teams 模板
 
@@ -69,7 +69,7 @@ Teams 提供了许多由 Microsoft 和第三方发布的应用，以吸引用户
 
 ### <a name="app-permissions-and-other-considerations"></a>应用权限和其他注意事项
 
-应用由用户允许，并由管理员或 IT 专业人员通过策略进行管理。 但是，在大多数情况下，应用的权限和风险状况是在应用本身内定义的。 
+应用由用户允许，并由管理员或 IT 专业人员通过策略进行管理。 但是，应用权限和风险配置文件在应用本身中定义。
 
 | 询问你自己 | 操作 |
 |--------------|--------|
@@ -80,7 +80,7 @@ Teams 提供了许多由 Microsoft 和第三方发布的应用，以吸引用户
 
 聊天机器人是自动化程序，它们可响应查询或者提供有关用户感兴趣或想要及时了解的详细信息的更新和通知。 聊天机器人允许用户与云服务交互，例如任务管理、计划以及在 Teams 聊天中投票。 Teams 支持在私人聊天和频道中使用聊天机器人。 管理员可以控制是否允许在 Microsoft 365 和 Office 365 组织中使用机器人。
 
-| 询问你自己 | Action |
+| 询问你自己 | 操作 |
 |--------------|--------|
 |是否要允许在我的组织中使用自定义聊天机器人？|有关添加聊天机器人的详细信息，请参阅[为 Microsoft Teams 中的私人聊天和频道添加聊天机器人](/microsoftteams/platform/bots/what-are-bots)。 有关开启或关闭聊天机器人的信息，请参阅[在 Microsoft Teams 中管理应用设置](admin-settings.md)。|
 |||
@@ -89,7 +89,7 @@ Teams 提供了许多由 Microsoft 和第三方发布的应用，以吸引用户
 
 所有者和团队成员可以向频道、私人聊天和群组聊天中添加选项卡，以帮助集成其云服务。 添加选项卡可帮助用户访问并管理自己需要或最常用的数据。 在频道中，默认情况下已创建了“对话”和“文件”选项卡。 在私人聊天中，默认情况下已创建了“对话”、“文件”、“组织”和“活动”选项卡。 除了这些内置选项卡外，你还可以设计和添加自定义选项卡。 若要了解如何为你的组织开启或关闭 Teams 应用，请阅读[在 Teams 中管理应用设置](admin-settings.md)。
 
-| 询问你自己 | Action |
+| 询问你自己 | 操作 |
 |--------------|--------|
 |是否要允许在我的组织中使用自定义选项卡？|有关详细信息，请参阅[在 Teams 中使用内置和自定义选项卡](built-in-custom-tabs.md)。|
 |||
@@ -120,7 +120,7 @@ Teams 提供了许多由 Microsoft 和第三方发布的应用，以吸引用户
 
 应用模板是适用于 Microsoft Teams 的生产就绪型应用，它们由社区驱动、开放源代码且可在 GitHub 上获取。 每个模板都包含为组织部署和安装该应用的详细说明，从而提供了一个可立即安装并开始使用的即用型应用。 此外，还提供完整的源代码，以便你可以对其进行详细的研究，或获取相应代码并进行更改以满足你的特定需求。
 
-| 询问你自己 | Action |
+| 询问你自己 | 操作 |
 |--------------|--------|
 | 我是否想要安装任何 Teams 应用模板，例如 Icebreaker？ |若要了解详细信息，请参阅[适用于 Teams 的应用模板](/microsoftteams/platform/samples/app-templates?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=MicrosoftTeams%2ftoc.json)。|
 |||
