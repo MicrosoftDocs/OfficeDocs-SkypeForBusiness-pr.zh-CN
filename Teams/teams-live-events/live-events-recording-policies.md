@@ -1,7 +1,7 @@
 ---
 title: 实时事件录制策略
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,18 +17,18 @@ description: 了解实时事件录制策略。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 80489f699004ed7dbcb8d7493c32a7bc26e3e25e
-ms.sourcegitcommit: be8b820caf4b5a1a91ad444ba93da1df20bf63ae
+ms.openlocfilehash: 3725abe49c72251b8672fb5851177586be8bf871
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2021
-ms.locfileid: "61257339"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386360"
 ---
 # <a name="live-event-recording-policies-in-microsoft-teams"></a>实时事件录制策略Microsoft Teams
 
-可以使用多个选项来录制实时Microsoft Teams活动。 录制选项是使用录制策略设置的。 本文介绍各种设置。
+你有几个选项用于录制实时Microsoft Teams活动。 录制选项是使用录制策略设置的。 本文介绍各种设置。
 
-录制选项是使用 PowerShell 命令 [Set-CsTeamsMeetingBroadcastPolicy 设置的](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy)。
+录制选项是使用 [PowerShell 命令 Set-CsTeamsMeetingBroadcastPolicy 设置的](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy)。
 
 ## <a name="scheduling-and-option-behaviors"></a>计划和选项行为
 
@@ -58,7 +58,7 @@ ms.locfileid: "61257339"
 
 | 选项                                       | 省/市/自治区   | DVR                                                   | VOD                                                     | 录制                |
 | ------------------------------------------------ | ------------ | --------------------------------------------------------- | ----------------------------------------------------------- | ---------------------------- |
-| 可用于与会者的录制 | 选中     | DVR 可用，AZURE 媒体服务 (AMS) 资产存储 180 天 | 与会者可以访问和观看活动                     |                              |
+| 可用于与会者的录制 | 选中     | DVR 可用，AZURE 媒体服务 (AMS) 存储 180 天 | 与会者可以访问和观看活动                     |                              |
 |                                                  | 未选中 | DVR 可用，AMS 资产存储 180 天 | 结束后，与会者无法访问事件 |                              |
 ||已禁用 (未选择) |DVR 可用，事件后将删除 AMS 资产|结束后，与会者无法访问事件||
 | 可供制作者和演示者使用的记录 | 选中     |                                                           |                                                             | MP4 创建和存储 180 天 |

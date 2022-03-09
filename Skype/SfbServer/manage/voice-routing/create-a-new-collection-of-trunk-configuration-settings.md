@@ -1,8 +1,8 @@
 ---
 title: Skype for Business Server：创建新的中继配置设置集合
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: SIP 中继配置设置定义中介服务器与服务提供商的公用电话交换网 (PSTN) 网关、IP 公用交换机 (PBX) 或会话边界控制器 (SBC) 之间的关系。
-ms.openlocfilehash: 501785bacd13053eb3479605220d60e1a2f4d852
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: e71c78bf76ca6bbdb67bb06a04012951f0e35c0f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843845"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62402866"
 ---
 # <a name="skype-for-business-server-create-a-new-collection-of-trunk-configuration-settings"></a>Skype for Business Server：创建新的中继配置设置集合
 
@@ -25,7 +25,7 @@ SIP 中继配置设置定义了中介服务器和服务提供商的公用电话�
 - 发送实时传输控制协议 (RTCP) 数据包的条件。
 - 每个中继上是否需要安全实时协议 (SRTP) 加密。
 
-在安装Skype for Business Server时，将创建 SIP 中继配置设置的全局集合。 此外，管理员还可以在站点作用域或服务作用域（仅针对 PSTN 网关服务）内创建自定义设置集合。
+安装客户端Skype for Business Server，将创建 SIP 中继配置设置的全局集合。 此外，管理员还可以在站点作用域或服务作用域（仅针对 PSTN 网关服务）内创建自定义设置集合。
 
 使用Skype for Business Server 控制面板创建 SIP 中继配置设置时，可以使用以下选项：
 
@@ -56,10 +56,10 @@ SIP 中继配置设置定义了中介服务器和服务提供商的公用电话�
 
 **使用控制面板创建新的中继Skype for Business Server设置**
 
-1. 在"Skype for Business Server控制面板"中，单击"**语音路由**"，然后单击"**中继配置"。**
+1. 在"Skype for Business Server控制面板"中，单击"**语音路由**"，然后单击"**Trunk 配置"**。
 2. 在“Trunk 配置”选项卡上，单击“新建”，然后单击“站点 Trunk”以创建站点作用域的新设置，或“池 Trunk”创建服务作用域的新设置。
-3. 在"选择站点"或"选择服务"对话框中 (出现的对话框将取决于是创建站点作用域设置还是服务作用域设置) ，选择新配置设置的位置，然后单击"确定 **"。** 如果对话框为空，这意味着没有位置创建新设置;例如，如果"选择站点"对话框为空，则意味着所有站点已分配有中继配置站点的集合，并且每个站点 (和每个服务) 只能承载一个此类集合。 在此情况下，您可删除现有集合并创建新的集合，或只修改现有集合。
+3. 在"选择站点"或"选择服务"对话框中 (出现的对话框取决于您是创建站点范围设置还是服务范围的设置) ，选择新配置设置的位置，然后单击 **"确定"**。 如果对话框为空，这意味着没有位置创建新设置;例如，如果"选择站点"对话框为空，则意味着所有站点已分配有中继配置站点的集合，并且每个站点 (和每个服务) 只能承载一个此类集合。 在此情况下，您可删除现有集合并创建新的集合，或只修改现有集合。
 4. 在“新建 Trunk 配置”对话框中，进行适当的选择，然后单击“确定”。
 5. 集合的“状态”属性将更新为“未提交”。若要提交更改和删除集合，请单击“提交”，然后单击“全部提交”。
 6. 在“未提交的语音配置设置”对话框中，单击“确定”。
-7. 在 **"Skype for Business控制面板**"对话框中，单击"确定 **"。**
+7. 在"**Skype for Business控制面板**"对话框中，单击"确定 **"**。

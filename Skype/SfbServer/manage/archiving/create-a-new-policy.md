@@ -1,8 +1,8 @@
 ---
 title: 在存档中创建新的存档Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,13 +11,13 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 50c39731-ba2f-49c2-a571-6dc373f6aaeb
-description: 摘要：了解如何为用户创建新的存档Skype for Business Server。
-ms.openlocfilehash: d60ca9399681bf44fadcf7767b7be1499e99cb99
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: 摘要：了解如何创建新的存档策略以用于Skype for Business Server。
+ms.openlocfilehash: ffa2821ca4871a0e05d0afe2f162512a60df3897
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836444"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392634"
 ---
 # <a name="create-a-new-archiving-policy-in-skype-for-business-server"></a>在存档中创建新的存档Skype for Business Server
 
@@ -54,9 +54,9 @@ ms.locfileid: "60836444"
 6. 单击“提交”。
     
     > [!IMPORTANT]
-    > 用户策略的设置仅适用于要应用该策略的特定用户和用户组。 有关详细信息，请参阅[将存档策略应用于Skype for Business Server。](apply-a-policy-to-users.md) 
+    > 用户策略的设置仅适用于要应用该策略的特定用户和用户组。 有关详细信息，请参阅[将存档策略应用于 Skype for Business Server](apply-a-policy-to-users.md)。 
   
-## <a name="create-a-new-archiving-policy-by-using-windows-powershell"></a>使用存档策略创建新的存档Windows PowerShell
+## <a name="create-a-new-archiving-policy-by-using-windows-powershell"></a>使用策略创建新的存档Windows PowerShell
 
 您还可以使用 **New-CsArchivingPolicy** cmdlet Windows PowerShell创建新的存档策略。 有关详细信息，请参阅 [New-CsArchivingPolicy](/powershell/module/skype/new-csarchivingpolicy?view=skype-ps) cmdlet 的帮助主题。
   

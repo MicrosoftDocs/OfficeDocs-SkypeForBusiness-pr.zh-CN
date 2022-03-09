@@ -1,8 +1,8 @@
 ---
 title: 将服务器到服务器身份验证证书分配给Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c7413954-2504-47f4-a073-44548aff1c0c
 description: 摘要：为用户分配服务器到服务器身份验证Skype for Business Server。
-ms.openlocfilehash: 30d62351d92a53c107e858ce1e0f88239f615208
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: fdbfcf7e5708b1992c4e7bb10108a35085607477
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839944"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392614"
 ---
 # <a name="assign-a-server-to-server-authentication-certificate-to-skype-for-business-server"></a>将服务器到服务器身份验证证书分配给Skype for Business Server
 **摘要：** 为用户分配服务器到服务器身份验证Skype for Business Server。
@@ -29,7 +29,7 @@ ms.locfileid: "60839944"
 Get-CsCertificate -Type OAuthTokenIssuer
 ```
 
-如果没有返回任何证书信息，则必须在分配令牌颁发者证书后才能使用服务器到服务器身份验证。 一般而言，任何Skype for Business Server证书都可以用作 OAuthTokenIssuer 证书;例如，您的Skype for Business Server证书也可以用作 OAuthTokenIssuer 证书。  (OAUthTokenIssuer 证书还可以是"主题"字段中包含 SIP 域名称的任何 Web 服务器证书。) 用于服务器到服务器身份验证的证书的主要两个要求如下：1) 必须在所有前端服务器上将同一证书配置为 OAuthTokenIssuer 证书;和 2) 证书必须至少为 2048 位。
+如果没有返回任何证书信息，则必须在分配令牌颁发者证书后才能使用服务器到服务器身份验证。 一般而言，Skype for Business Server证书都可以用作 OAuthTokenIssuer 证书;例如，Skype for Business Server 默认证书也可以用作 OAuthTokenIssuer 证书。  (OAUthTokenIssuer 证书还可以是"主题"字段中包含 SIP 域名称的任何 Web 服务器证书。) 用于服务器到服务器身份验证的证书的主要两个要求如下：1) 必须在所有前端服务器上将同一证书配置为 OAuthTokenIssuer 证书;和 2) 证书必须至少为 2048 位。
   
 如果没有可用于服务器到服务器身份验证的证书，则可以获取新证书，导入新证书，然后将该证书用于服务器到服务器身份验证。在请求并获取新证书后，可以登录到任一前端服务器并使用类似如下的 Windows PowerShell 命令导入和分配该证书：
   
@@ -46,7 +46,7 @@ $x = (Get-CsCertificate -Type Default).Thumbprint
 Set-CsCertificate -Identity global -Type OAuthTokenIssuer -Thumbprint $x
 ```
 
-在上述命令中，所检索的证书配置为用作全局服务器到服务器身份验证证书；这意味着该证书将被复制到所有前端服务器并被这些服务器使用。 再强调一次，此命令只应在其中一台前端服务器上运行一次。 尽管所有前端服务器都必须使用相同证书，但您不应在每台前端服务器上都配置 OAuthTokenIssuer 证书。 相反，配置证书一次，然后让Skype for Business Server复制服务器负责将证书复制到每个服务器。
+在上述命令中，所检索的证书配置为用作全局服务器到服务器身份验证证书；这意味着该证书将被复制到所有前端服务器并被这些服务器使用。 再强调一次，此命令只应在其中一台前端服务器上运行一次。 尽管所有前端服务器都必须使用相同证书，但您不应在每台前端服务器上都配置 OAuthTokenIssuer 证书。 相反，配置证书一次，然后让Skype for Business Server复制服务器负责将证书复制到每台服务器。
   
 该Set-CsCertificate cmdlet 接受该证书并立即配置该证书以用作当前的 OAuthTokenIssuer 证书。  (Skype for Business Server保留证书类型的两个副本：当前证书和上一个证书。) 如果需要新证书立即开始用作 OAuthTokenIssuer 证书，则应该使用 Set-CsCertificate cmdlet。
   
@@ -64,13 +64,13 @@ Set-CsCertificate -Identity global -Type OAuthTokenIssuer -Thumbprint $x -Effect
 > [!CAUTION]
 > 在这种情况下，必须在每台前端服务器上执行该过程。 当通过此方式导出和导入证书Skype for Business Server不会将证书复制到每个前端服务器。 
   
-将证书导入到所有前端服务器后，可以使用部署向导而不是 Skype for Business Server 分配该证书Windows PowerShell。 要使用部署向导分配证书，请在安装了部署向导的计算机上完成以下步骤：
+将证书导入到所有前端服务器后，可以使用部署向导而不是 Skype for Business Server 分配该Windows PowerShell。 要使用部署向导分配证书，请在安装了部署向导的计算机上完成以下步骤：
   
-1. 单击"开始"，单击"所有程序"，Skype for Business Server"，然后单击"Skype for Business Server **向导"。**
+1. 单击"开始"，单击"所有程序 **"，Skype for Business Server**，然后单击"Skype for Business Server **向导"**。
     
-2. 在部署向导中，单击 **"安装或更新Skype for Business Server系统"。**
+2. 在部署向导中，单击 **"安装或更新Skype for Business Server系统"**。
     
-3. 在"Skype for Business Server页上，单击"步骤 3： 请求、安装或分配证书"标题 **下的"运行"按钮**。   (注意：如果已在此计算机上安装证书，则 **"** 运行"按钮将标记为"再次运行 **.)**
+3. 在"Skype for Business Server页上，单击"步骤 3： 请求、安装或分配证书"标题 **下的"运行"按钮**。  (注意：如果已在此计算机上安装证书，则 **"** 运行"按钮将标记为"再次 **运行"。**) 
     
 4. 在证书向导中，选择 OAuthTokenIssuer 证书，然后单击“分配”。
     

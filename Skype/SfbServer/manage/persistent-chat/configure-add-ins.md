@@ -1,8 +1,8 @@
 ---
 title: Configure add-ins for Persistent Chat rooms in Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c1037909-0750-411a-98c1-3a327eed4ae8
 description: 摘要：了解如何在 Skype for Business Server 2015 中为持久聊天服务器聊天室配置外接程序。
-ms.openlocfilehash: c23a0dd11d51bbfa1c49d8a910decda5be0ac48f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0020c85b5354738083a213e66cc7cc953e5b7e32
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854296"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62402886"
 ---
 # <a name="configure-add-ins-for-persistent-chat-rooms-in-skype-for-business-server-2015"></a>Configure add-ins for Persistent Chat rooms in Skype for Business Server 2015
  
@@ -29,7 +29,7 @@ ms.locfileid: "60854296"
  用户必须先将加载项添加到已注册加载项列表中，然后聊天室管理员或创建者需要将聊天室与加载项关联，用户才能在客户端中查看加载项。
   
 > [!NOTE]
-> 持久聊天在 2015 Skype for Business Server可用，但在 2019 年 2 月不再Skype for Business Server支持。 相同的功能在 Teams。 有关详细信息，请参阅开始[升级Microsoft Teams升级](/microsoftteams/upgrade-start-here)。 如果您需要使用持久聊天，则选择将需要此功能的用户迁移到 Teams，或者继续使用 Skype for Business Server 2015。 
+> 持久聊天在 2015 Skype for Business Server可用，但在 2019 年 2 月不再Skype for Business Server支持。 相同的功能在 Teams。 有关详细信息，请参阅开始[升级Microsoft Teams升级](/microsoftteams/upgrade-start-here)。 如果您需要使用持久聊天，您的选择是迁移需要此功能的用户以Teams或继续使用 Skype for Business Server 2015。 
 
 ## <a name="configure-add-ins-for-chat-rooms-by-using-the-control-panel"></a>使用控制面板配置聊天室的外接程序
 
@@ -57,7 +57,7 @@ ms.locfileid: "60854296"
     
 ## <a name="configure-add-ins-by-using-windows-powershell"></a>使用加载项配置Windows PowerShell
 
-您可以使用以下 cmdlet 配置聊天室的Windows PowerShell。 有关语法的详细信息，包括所有可用参数，请参阅 Skype for Business Server [2015 Management Shell](../management-shell.md)。
+您可以使用以下 cmdlet 配置聊天室Windows PowerShell外接程序。 有关语法的详细信息，包括所有可用参数，请参阅 [Skype for Business Server 2015 Management Shell](../management-shell.md)。
   
 
 |**Cmdlet**|**说明**|
@@ -71,7 +71,7 @@ ms.locfileid: "60854296"
 
 您可以使用 **New-CsPersistentChatAddin** cmdlet 创建新的外接程序。
   
-例如，以下命令创建一个新的外接程序 (名称为 ITPersistentChatAddin) 池 `atl-cs-001.contoso.com` 。 URL 参数和参数值指定 `http://atl-cs-001.contoso.com/itchat` 外接程序网页的位置：
+例如，以下命令创建一个新的外接程序 (名称为 ITPersistentChatAddin) 池 `atl-cs-001.contoso.com`。 URL 参数和参数值 `http://atl-cs-001.contoso.com/itchat` 指定外接程序网页的位置：
   
 ```PowerShell
 New-CsPersistentChatAddin -Name "ITPersistentChatAddin" -PersistentChatPoolFqdn "atl-cs-001.contoso.com" -Url "http://atl-cs-001.contoso.com/itchat"
@@ -79,7 +79,7 @@ New-CsPersistentChatAddin -Name "ITPersistentChatAddin" -PersistentChatPoolFqdn 
 
 ### <a name="configure-settings-for-an-existing-add-in"></a>配置现有外接程序的设置
 
-您可以使用 **Set-CsPersistentChatAddIn** cmdlet 配置现有外接程序的设置。 例如，以下命令修改分配给持久聊天外接程序 ITPersistentChatAddin 的 URL。 在这种情况下，URL 更改为 `http://atl-cs-001.contoso.com/itchat2` ：
+您可以使用 **Set-CsPersistentChatAddIn** cmdlet 配置现有外接程序的设置。 例如，以下命令修改分配给持久聊天外接程序 ITPersistentChatAddin 的 URL。 在这种情况下，URL 更改为 `http://atl-cs-001.contoso.com/itchat2`：
   
 ```PowerShell
 Set-CsPersistentChatAddin -Identity "atl-cs-001.contoso.com\ITPersistentChatAddin" -Url "http://atl-cs-001.contoso.com/itchat2"
@@ -95,7 +95,7 @@ Get-CsPersistentChatAddin
 
 ### <a name="remove-an-add-in"></a>删除加载项
 
-您可以使用 **Remove-CsPersistentChatAddIn** cmdlet 删除外接程序。 例如，以下命令删除在池上找到的持久聊天外接程序 ITChatAddin： `atl-cs-001.contoso.com`
+您可以使用 **Remove-CsPersistentChatAddIn** cmdlet 删除外接程序。 例如，以下命令可删除在池上找到的持久聊天外接程序 `atl-cs-001.contoso.com`ITChatAddin：
   
 ```PowerShell
 Remove-CsPersistentChatAddin -Identity "atl-cs-001.contoso.com\ITChatAddin"

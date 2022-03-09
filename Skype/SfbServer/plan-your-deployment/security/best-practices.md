@@ -1,8 +1,8 @@
 ---
-title: 适用于企业核心基础结构的最佳实践Skype for Business Server
+title: 适用于企业核心基础结构的Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,14 +12,14 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 44aff88d-536c-4613-a81e-5398c9c6a648
 description: 您可能已经着手设计系统容错能力了，做法有：确保硬件冗余，防止断电，例行安装安全更新和防病毒措施，以及监控服务器活动等。 这些做法不仅对基础结构Skype for Business Server，而且对整个网络都大有益处。 如果您尚未实施这些做法，我们建议您在部署这些做法之前Skype for Business Server。
-ms.openlocfilehash: 352541cf2dfa91eef24f09c4aebd2788c589a10f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 3cd9afbba6014536d146454144456edc91fbf9c0
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860939"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400233"
 ---
-# <a name="best-practices-for-your-core-infrastructure-in-skype-for-business-server"></a>适用于企业核心基础结构的最佳实践Skype for Business Server
+# <a name="best-practices-for-your-core-infrastructure-in-skype-for-business-server"></a>适用于企业核心基础结构的Skype for Business Server
  
 您可能已经着手设计系统容错能力了，做法有：确保硬件冗余，防止断电，例行安装安全更新和防病毒措施，以及监控服务器活动等。 这些做法不仅对基础结构Skype for Business Server，而且对整个网络都大有益处。 如果您尚未实施这些做法，我们建议您在部署这些做法之前Skype for Business Server。
   
