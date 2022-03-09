@@ -1,55 +1,55 @@
 ### YamlMime:Hub
-title: 针对用户的最终用户Microsoft Teams
+title: 适用于用户的最终用户Microsoft Teams
 summary: Microsoft 很高兴能够主持免费实时在线培训课程，这些课程专为帮助你使用 Teams 实现起步和发展。 无论你是业务决策制定者、管理员、IT 专业人员还是最终用户，你都会找到恰如你所需的课程。 加入我们，了解Microsoft Teams，解答你的问题，并与我们的现场教师互动。 若要自行查看我们的培训课程，请访问我们的按需最终用户培训。 单击下面的会话进行注册。
 brand: teams
 metadata:
-  title: 针对用户的最终用户Microsoft Teams
+  title: 适用于用户的最终用户Microsoft Teams
   description: Microsoft 很高兴提供免费、实时的虚拟培训课程，旨在帮助你使用Teams。 无论你是业务决策制定者、管理员、IT 专业人员还是最终用户，你都会找到恰如你所需的课程。 加入我们，了解Microsoft Teams，解答你的问题，并与我们的现场教师互动。 单击下面的会话进行注册，并确保在下面查看更多课程。
   ms.topic: hub-page
   author: SerdarSoysal
-  ms.author: serdars
-  ms.date: 06/16/2020
+  ms.author: samanro
+  ms.date: 03/04/2022
 highlightedContent:
   items:
-    - title: 开始使用 Microsoft Teams
+    - title: Microsoft Teams 简介
       itemType: overview
-      url: 'https://aka.ms/SayhelloTeams'
-    - title: 按需最终用户培训
+      url: 'https://youtu.be/UoWHXrmIszg'
+    - title: 开始使用 Teams
       itemType: video
-      url: 'https://support.microsoft.com/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
+      url: 'https://aka.ms/GetstartedwithMSTeams'
     - title: Microsoft 365 采用工具
       itemType: deploy
       url: 'https://adoption.microsoft.com'
 productDirectory:
   items:
-    - title: 开始使用 Teams
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/get-started-teams.svg'
-      summary: 从聊天和会议，到使用团队和频道，用户结束此课程时将掌握能够满怀信心地使用 Teams 的基础知识。 （访问群体：每个人）
-      url: 'https://aka.ms/GetstartedwithMSTeams'
-    - title: 在 Teams 中利用聊天和呼叫功能
+    - title: 呼叫和会议Teams
       imageSrc: 'https://docs.microsoft.com/office/media/icons/chat.svg'
-      summary: 了解如何从一个中央平台管理所有对话。 （访问群体：每个人）
-      url: 'https://aka.ms/ChatCallingInTeams'
-    - title: 使用 Teams 举行高效会议
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/calendar-teams.svg'
-      summary: 了解如何使会议更具吸引力、生产力和意义。 （访问群体：每个人）
-      url: 'https://aka.ms/RunmeetingsTeams'
+      summary: '使用呼叫和会议实时协作、保持联系，并随时访问共享内容以学习、计划和创新。  (级别：Teams基础知识;受众：每个人) '
+      url: 'https://aka.ms/CallingMeetingsTraining'
     - title: 浏览 Teams 中的团队和频道
       imageSrc: 'https://docs.microsoft.com/office/media/icons/users-group.svg'
-      summary: 了解如何简化项目和工作组协作。 （访问群体：每个人）
-      url: 'https://aka.ms/TeamsandchannelsinTeams'
-    - title: 在 Teams 中构建协作工作区
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/structure-teams.svg'
-      summary: 了解确定为项目和工作组创建工作区的最佳方法的方法。 （访问群体：每个人）
-      url: 'https://aka.ms/CollaborateInTeams'
-    - title: 在应用内使用专业Teams
+      summary: '了解团队和频道的价值，以及它们如何帮助你在虚拟工作区或整个组中进行协作。  (级别：Teams基础知识;受众：每个人) '
+      url: 'https://aka.ms/TeamsChannelsTraining'
+    - title: 使用技巧、快捷方式和新增功能Teams
       imageSrc: 'https://docs.microsoft.com/office/media/icons/lightbulb-idea-capture-teams.svg'
-      summary: 了解 Teams 可如何有助于组织工作日，并更轻松地与同事保持联系。 （访问群体：每个人）
+      summary: '了解成为大用户的提示和快捷方式。 了解新增功能，并找到最新功能方面的专家指导。  (级别：Teams基础知识;受众：每个人) '
       url: 'https://aka.ms/TeamsProTips'
-    - title: Microsoft Teams YouTube 上的视频
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/video-play.svg'
-      summary: 订阅并首次了解最新功能、提示和技巧等。 （访问群体：每个人）
-      url: 'https://www.youtube.com/MicrosoftTeams'
+    - title: 与会议进一步Teams一起
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/calendar-teams.svg'
+      summary: '了解会议和网络Teams的主要功能，包括协作工具、分组讨论室和访问会议资源。  (级别：Teams进一步;受众：每个人) '
+      url: 'https://aka.ms/MeetingsGoFurther'
+    - title: 使用Teams自定义应用
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/blocks-teams.svg'
+      summary: '了解应用中的应用Teams如何在单个用户界面中显示，并允许员工更好地协同工作。  (级别：Teams进一步;受众：每个人) '
+      url: 'https://aka.ms/Teamsappstraining'
+    - title: 混合工作解决方案
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/hybrid-teams.svg'
+      summary: '适应新的工作方式时，保持连接、安全、高效。 了解如何在一个地方高效工作：会议、通话、聊天、应用等。  (级别：Teams进一步;受众：每个人) '
+      url: 'https://aka.ms/HybridWorkTraining'
+    - title: 通过协作提高Teams
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/structure-teams.svg'
+      summary: '了解如何充分利用频道、聊天和连接的应用，以改进各种规模的团队之间的通信和深化协作。  (级别：Teams基础知识;受众：每个人) '
+      url: 'https://aka.ms/CollaborateInTeams'
     - title: Teams 教育版 - 网络研讨会
       imageSrc: 'https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg'
       summary: 了解如何在高等教育中使用 Teams。 （受众：教职员工、学生、学者、研究员、IT 专业人员）
@@ -60,11 +60,14 @@ productDirectory:
       url: 'https://aka.ms/upgradeworkshops'
 additionalContent:
   sections:
-    - title: 课程
+    - title: 其他培训
       items:
         - title: Teamwork 专家Learning路径
-          summary: 协作是当今工作的重要技能。 了解企业内部强大的Microsoft Teams如何保持连接并更有效地与团队合作。
+          summary: 协作是当今工作的重要技能。 了解企业内部强大的Microsoft Teams如何保持连接并更有效地与团队一起工作。
           url: /learn/paths/teamwork-specialist
         - title: 服务采用专家Learning路径
-          summary: Microsoft 服务采用专家Learning Path Teams服务和其他Microsoft 365功能。 了解如何在组织中推动Microsoft 服务采用。
+          summary: Microsoft 服务采用专家Learning Path Teams和其他Microsoft 365服务。 了解如何在组织中推动Microsoft 服务采用。
           url: /learn/paths/m365-service-adoption
+        - title: 按需培训视频
+          summary: 没有时间上课？ 浏览 Microsoft 支持人员的视频目录，了解按需培训。
+          url: 'https://support.microsoft.com/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'

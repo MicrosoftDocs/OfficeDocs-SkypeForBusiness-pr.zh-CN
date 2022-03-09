@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 了解哪些桌面电话和会议电话经过认证Microsoft Teams产生最佳结果。
-ms.openlocfilehash: 5f6c7701a3bf2979ef2c3541ec51f0f55d5e0a51
-ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
+ms.openlocfilehash: 7a4e84d7f58d8239a5493afffea71878123f47b1
+ms.sourcegitcommit: fe71ecbe35b8adfb9166188923ed1111b3b8e2a1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "63062576"
+ms.lasthandoff: 03/09/2022
+ms.locfileid: "63388074"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams Android 设备
 
@@ -48,7 +48,7 @@ Microsoft Teams 设备认证计划可确保经过认证的设备满足较高的�
 | 带和不带话筒 (的 Crestron UC-P10-T)     | `1.0.0.80`       | 2023 年 8 月 5 日            | 9 |
 | 具有和不带话筒 (的 Crestron UC-P8-T)      | `1.0.0.56`       | 2023 年 8 月 5 日            | 9 |
 | 带或不带话筒的 (UC-P10-C-T)   | `1.0.0.80`       | 2023 年 8 月 5 日            | 9 |
-| 具有和不带话筒的 (UC-P8-C-T)    | `1.0.0.80`       | 2023 年 8 月 5 日            | 9 |
+| 具有和不带话筒的 (UC-P8-C-T)    | `1.0.0.56`       | 2023 年 8 月 5 日            | 9 |
 | Audiocodes C470HD                      | `1.8.293   `                                               | 2023 年 8 月 5 日               | 9 |
 | Yealink MP52                           | `145.15.0.6 `                                              | 2023 年 8 月 5 日               | 9 |
 | AudioCodes C435HD                      | `1.12.33`                                                  | 2023 年 8 月 5 日               | 9 |
@@ -221,6 +221,7 @@ Microsoft Teams 设备认证计划可确保经过认证的设备满足较高的�
 
 | 设备模型  | 固件版本 | 包含的产品发布 |
 |:--------------|:-----------------|:-------------------------|
+| EPOS EXPAND Vision 3T |`1.2.4.22042.05`   | 2022 更新 #1 |
 | AudioCodes RXV80 | `1.16.164 `   | 2022 更新 #1 |
 | Yealink VC210 | `118.15.0.65`   | 2022 更新 #1    |
 | Yealink MeetingBar A20 | `133.15.0.80 `   | 2022 更新 #1   |
