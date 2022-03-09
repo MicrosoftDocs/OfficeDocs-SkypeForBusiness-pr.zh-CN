@@ -20,18 +20,18 @@ ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 ROBOTS: NOINDEX
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f9b4175769ea9d6cc57167c086b28ee5ef4e742d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b030ed9efd92a33ef38029088edcd8e2cf6023b5
+ms.sourcegitcommit: c5f281342c5f2af65492692ab1249789c637e457
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850525"
+ms.lasthandoff: 03/09/2022
+ms.locfileid: "63392894"
 ---
 # <a name="teams-in-30"></a>Teams 30
 <div id="main" class="v2">
     <div class="container">
-        <p>Microsoft 很高兴邀请你参加<strong>30</strong>Teams，这是一系列实时交互式研讨会，旨在帮助中型组织 (在 30 天内) 500-5000 名员工) 启动并运行 Microsoft Teams。 加入我们，了解经过时间测试的指南和最佳做法，并解答Teams问题。 研讨会参与者还将与专家一起收到开放式办公时间Teams邀请。
-           <p><font color="#6264A7">准备好跳入了吗？</font> 我们鼓励项目团队的所有成员在<i>30</i>个会话中入门团队Teams团队。 单击下面的会话标题进行注册。
+        <p>Microsoft 很高兴地邀请你<strong>参加 30</strong> Teams，这是一系列实时的交互式研讨会，旨在帮助中型组织在 30 天内 (500-5000 名员工) Microsoft Teams启动并运行。 加入我们，了解经过时间测试的指导和最佳做法，并解答Teams问题。 研讨会参与者还将与专家一起收到开放式办公时间Teams邀请。
+           <p>准备好跳入了吗？ 我们鼓励项目团队的所有成员在 <i>30</i> 个会话中入门团队Teams团队。 单击下面的会话标题进行注册。
  <ul id="home-all" class="panelContent cardsF cols cols2">        
     <li>
         <a href="https://aka.ms/GetstartedT30"target="_blank">
@@ -65,7 +65,7 @@ ms.locfileid: "60850525"
                     </div>
                     <div class="cardText">
                         <h3>最终用户准备就绪：</h3>
-                    <p>发现策略和资源，以便让用户做好准备，构建一批冠军，并确保用户被认可为用户推广Teams组件。</p><p><i>受众：采用和更改所有者</i></p>
+                    <p>发现策略和资源，以便让用户做好准备，构建一支冠军队，并确保用户被认可为用户推广Teams组件。</p><p><i>受众：采用和更改所有者</i></p>
                     </div>
                 </div>
             </div>
@@ -102,7 +102,7 @@ ms.locfileid: "60850525"
                     </div>
                     <div class="cardText">
                         <h3>准备环境 - 第 II 部分</h3>
-                    <p>现在，你已建立基础，请了解实现合规性、保留期、监管和音频会议Teams。</p><p><i>受众：IT 管理员</i></p>
+                    <p>现在你已建立基础，请了解实现合规性、保留期、监管和音频会议以用于会议Teams。</p><p><i>受众：IT 管理员</i></p>
                     </div>
                 </div>
             </div>
@@ -140,8 +140,8 @@ ms.locfileid: "60850525"
                         </div>
                     </div>
                     <div class="cardText">
-                    <h3>Teams小轮次讲座</h3>
-                    <p>这些在线互动研讨会由主题专家主持，提供了一个独一无二的机会，可了解有关这些主题中一些最流行且最具吸引力的方案的最佳实践Teams。 "会议"假设你已完成基本Teams推出。</p>
+                    <h3>Teams者讲座</h3>
+                    <p>这些在线互动研讨会由主题专家主持，提供了一个独一无二的机会，可以了解有关这些主题中一些最流行且最具吸引力的方案的最佳实践和实用Teams。 "会议"假设你已完成基本Teams推出。</p>
                     <p><strong>先决条件</strong>：Teams参加 30 场研讨会，或已Teams整个组织。</p>
                     <p><i>受众：IT 管理员</i></p>
                     </div>
