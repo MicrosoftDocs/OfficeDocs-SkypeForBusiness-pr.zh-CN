@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5ddd88bb34c383f5a712e7db1f946a156f68c1f4
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: c734fe5d6326d0fc4bfddfbc381d66339303d36e
+ms.sourcegitcommit: c5f281342c5f2af65492692ab1249789c637e457
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62389794"
+ms.lasthandoff: 03/09/2022
+ms.locfileid: "63392870"
 ---
 # <a name="use-the-teams-meeting-add-in-in-outlook"></a>在 Outlook 中使用 Teams 会议外接程序
 
@@ -32,7 +32,7 @@ ms.locfileid: "62389794"
 
 ## <a name="teams-meeting-add-in-in-outlook-for-windows"></a>Windows 版 Outlook 中的 Teams 会议加载项
 
-对于在其 Windows 电脑上安装了 Microsoft Teams 和 Office 2013、Office 2016 或 Office 2019 的用户，会自动安装 Teams 会议加载项。用户将在 Outlook 日历功能区看到 Teams 会议插件。
+对于在其 Windows 电脑上安装了 Microsoft Teams 和任一 Office 产品（Office 2013、Office 2016、Office 2019 或 Office 2021）的用户，Teams 会议加载项将自动安装。用户将在 Outlook 日历功能区上看到 Teams 会议加载项。
 
 ![Outlook 功能区中的 Teams 会议加载项屏幕截图。](media/Teams-add-in-for-Outlook.png)
 
@@ -100,7 +100,7 @@ Teams 客户端通过确定用户需要 32 位还是 64 位版本来安装正确
 
 处于孤岛模式的用户在 Outlook 中安排会议时，这些用户通常希望能够选择是安排 Skype for Business 还是 Teams 会议。 在 Outlook 网页版、Outlook Windows 和 Outlook Mac 中，用户默认处于孤岛模式时将同时看到 Skype for Business 和 Teams 加载项。 你可以配置 Teams 会议策略设置，以控制处于孤岛模式的用户是只能使用 Teams 会议加载项，还是可同时使用 Teams 会议加载项和 Skype for Business 会议加载项。
 
-由于初始版本中的某些限制，Outlook 移动版仅可以支持创建 Skype for Business **或** Teams 会议。 有关详细信息，请参阅下表。
+由于初始版本中的某些限制，Outlook 移动版仅可以支持创建 Skype for Business **或** Teams 会议。请参阅下表以了解详细信息。
 
 | Teams 管理中心中的共存模式 | Outlook 移动版中的默认会议提供商 |
 | --------------------------------------|---------------------------------------------|
