@@ -21,12 +21,12 @@ description: Teams 或 IT 管理员可以为其他域 (联合身份验证) 配�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 86a1b83ab0eb2d15810f94d61d0f7faccc226aa4
-ms.sourcegitcommit: fe71ecbe35b8adfb9166188923ed1111b3b8e2a1
+ms.openlocfilehash: ec2ee80d2475742380944b2e834b5c7b7cf24275
+ms.sourcegitcommit: c5f281342c5f2af65492692ab1249789c637e457
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 03/09/2022
-ms.locfileid: "63388094"
+ms.locfileid: "63392914"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>在 Microsoft Teams 中管理外部访问
 
@@ -46,7 +46,7 @@ ms.locfileid: "63388094"
 
 外部访问策略包括组织和用户级别的每种联合类型的控制。 无论所有用户的用户级别设置如何，在组织级别关闭策略都会将其关闭。 默认情况下启用所有外部访问设置。
 
-Teams 管理中心控制组织级别的外部访问。 若要控制用户利用点的外部访问，则必须使用 PowerShell。 有关详细信息，请参阅以下的 [使用 PowerShell](#using-powershell)。
+Teams 管理中心控制组织级别的外部访问。 大多数选项 (域限制除外) 都可在用户级别使用 PowerShell。 有关详细信息，请参阅以下的 [使用 PowerShell](#using-powershell)。
 
 > [!NOTE]
 > 如果在组织中关闭外部访问权限，则组织外部的人员仍可以通过匿名加入加入会议。 若要了解详细信息，请参阅[管理 Teams 中的会议策略](meeting-settings-in-teams.md)。
@@ -143,13 +143,13 @@ Teams 管理中心控制组织级别的外部访问。 若要控制用户利用�
 
 可以使用 [Set-CSTenantFederationConfiguration](/powershell/module/skype/set-cstenantfederationconfiguration) 配置组织级别设置，并且可以使用 [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy) 配置用户级别设置。
 
-下表显示了用于配置联合的 cmdlet 参数。 请注意，配置与特定域的联合只能在组织级别执行，而不能在用户级别完成。
+下表显示了用于配置联合的 cmdlet 参数。
 
 |配置|组织级别 (Set-CSTenantFederationConfiguration)|用户级别 (Set-CsExternalAccessPolicy)|
 |:-------|:--------|:------------------|
 |启用/禁用与其他 Teams 组织和 Skype for Business 的联合|`-AllowFederatedUsers`|`-EnableFederationAccess`|
-|启用与特定域的联合|`-AllowedDomains`|不适用|
-|禁用与特定域的联合|`-Blocked Domains`|不适用|
+|启用与特定域的联合|`-AllowedDomains`|不可用|
+|禁用与特定域的联合|`-Blocked Domains`|不可用|
 |启用/禁用与未由组织管理的 Teams 用户的联合|`-AllowTeamsConsumer`|`-EnableTeamsConsumerAccess`|
 |启用/禁用组织未管理的 Teams 用户启动的对话|`-AllowTeamsConsumerInbound`|`-EnableTeamsConsumerInbound`|
 |启用/禁用与 Skype 的联合|`-AllowPublicUsers`|`-EnablePublicCloudAccess`|
