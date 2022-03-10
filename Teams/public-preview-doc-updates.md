@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 中的公共预览版
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -18,12 +18,12 @@ description: 了解 Microsoft Teams 中的公共预览版。尝试新增功能�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: e4a223431cef73d1fd9ec0578148b9f9d6f1d6d8
-ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
+ms.openlocfilehash: 3c07244e49d0c61986ae6eb2c9c9d8e1f522e37b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "60959871"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62417325"
 ---
 # <a name="microsoft-teams-public-preview"></a>Microsoft Teams 公共预览版
 
@@ -46,7 +46,7 @@ Microsoft Teams 公共预览版提供对 Teams 中未发布的功能的早期访
 
 2. 命名更新策略，添加说明，然后选择 **显示预览版功能** 的设置。
 
-   -   **关注 Office 预览版** (默认): 此新的默认选项将为在 Office 当前频道(预览)中注册的用户自动启用 Teams 公共预览版功能。 最终用户无需执行更多操作。
+   -   **关注 Office 预览版**（默认）：此新的默认选项将为在 Office 当前频道（预览）中注册的用户自动启用 Teams 公共预览版功能。最终用户没有要求其他操作。
    -   **已启用**: 无论用户是否在 Office 当前频道(预览)中注册，此选项都将启用 Teams 公共预览版。 此外，最终用户还必须在其 Teams 应用中选择加入 Teams 公共预览版。
 
    > [!NOTE]  
