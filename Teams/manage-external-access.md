@@ -21,16 +21,16 @@ description: Teams 或 IT 管理员可以为其他域 (联合身份验证) 配�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: ae0eb1b15c44dc85a82a87dfd92786c16c65cfc4
-ms.sourcegitcommit: 109be23768ae183e07a0833fa9a9e5cb0369cb43
+ms.openlocfilehash: 86a1b83ab0eb2d15810f94d61d0f7faccc226aa4
+ms.sourcegitcommit: fe71ecbe35b8adfb9166188923ed1111b3b8e2a1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63368387"
+ms.lasthandoff: 03/09/2022
+ms.locfileid: "63388094"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>在 Microsoft Teams 中管理外部访问
 
-外部访问让组织外的 Teams 用户能够在 Teams 中进行查找、通话、聊天和设置与你之间的会议。 还可使用外部访问与仍在使用 Skype for Business（联机和本地）和 Skype 的其他组织人员进行通信。
+外部访问让组织外的 Teams 用户能够在 Teams 中进行查找、通话、聊天和设置与你之间的会议。 还可使用外部访问与仍在使用 Skype for Business (联机和本地) 和 Skype 的其他组织人员进行通信。
 
 如果希望其他组织中的人员有权访问你的团队和频道，请改用来宾访问。 有关外部访问和来宾访问之间的差异的详细信息，请参阅[比较外部访问和来宾访问](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access)。 
 
@@ -143,7 +143,7 @@ Teams 管理中心控制组织级别的外部访问。 若要控制用户利用�
 
 可以使用 [Set-CSTenantFederationConfiguration](/powershell/module/skype/set-cstenantfederationconfiguration) 配置组织级别设置，并且可以使用 [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy) 配置用户级别设置。
 
-下表显示了用于配置联合的 cmdlet 参数。
+下表显示了用于配置联合的 cmdlet 参数。 请注意，配置与特定域的联合只能在组织级别执行，而不能在用户级别完成。
 
 |配置|组织级别 (Set-CSTenantFederationConfiguration)|用户级别 (Set-CsExternalAccessPolicy)|
 |:-------|:--------|:------------------|
