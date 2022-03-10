@@ -14,12 +14,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ddcad10c08edbbd6010d5c1c576e4142a1a83383
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+ms.openlocfilehash: f2ea4c6f1257b0b206d04c4ef8591c1f2d257292
+ms.sourcegitcommit: fe71ecbe35b8adfb9166188923ed1111b3b8e2a1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62055362"
+ms.lasthandoff: 03/09/2022
+ms.locfileid: "63388194"
 ---
 # <a name="get-started-with-teams-for-frontline-workers"></a>适合一线员工的 Teams
 
@@ -34,6 +34,8 @@ ms.locfileid: "62055362"
 - [如何为一线工作人员大规模预配 Teams](flw-scripted-deployment.md)
 - [一线工作人员和经理的策略包](manage-policy-packages.md)
 - [为一线员工定制 Teams 应用](pin-teams-apps-based-on-license.md)（即将推出）
+- [登录到 Teams](sign-in-teams.md)
+- [注销 Teams](sign-out-of-teams.md)
 - Microsoft 面向一线工作人员的应用:
   - [排班](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
   - [任务](manage-tasks-app.md)
