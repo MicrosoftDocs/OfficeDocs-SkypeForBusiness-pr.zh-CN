@@ -829,6 +829,8 @@ items:
             href: dial-pad-configuration.md
           - name: 等候音乐
             href: music-on-hold.md
+          - name: 为用户配置呼叫设置
+            href: user-call-settings.md
       - name: PSTN 连接选项
         items:
           - name: 概述
@@ -1527,6 +1529,8 @@ items:
             href: non-standard-users.md
           - name: 更新应用体验
             href: apps-update-experience.md
+          - name: 跨 Microsoft 365 管理对第三方 Teams 应用的访问权限
+            href: manage-third-party-teams-apps.md
   - name: 行业和政府指南
     items:
       - name: 概述
