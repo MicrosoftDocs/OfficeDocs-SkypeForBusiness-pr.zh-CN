@@ -20,301 +20,99 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 了解每个许可证的附加Microsoft Teams许可证以及获取的功能。
-ms.openlocfilehash: 3b555e50355c2368c961ac0dc76c81b4c4586788
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 47481383c2ea4941eb29675216209e5b98a97e71
+ms.sourcegitcommit: ff975c21725e1812e6db8fc9fe37de1362f168c3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62387580"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63435696"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Microsoft Teams附加许可证
 
-## <a name="what-features-can-i-get-with-add-on-licenses"></a>通过附加许可证可获得哪些功能？
+## <a name="which-capabilities-can-i-get-with-add-on-licenses"></a>使用附加许可证可以获取哪些功能？
 
-附加许可证是针对特定 Microsoft Teams 功能的许可证。 它们可让你灵活地仅为组织中需要这些功能的用户添加功能。 若要添加功能，为每个将使用该功能的用户购买一个附加许可证。
+附加许可证是特定应用功能Microsoft Teams许可证。 它们可让你灵活地仅为组织中需要这些功能的用户添加功能。 若要添加功能，请为将使用该功能的每个用户购买一个附加许可证。
 
-可用的附加许可选项取决于Microsoft 365 Office 365计划。 若要了解哪些语音选项可供你使用，请参阅本文的"我的计划提供哪些 [语音功能？"](#what-voice-features-are-available-with-my-plan) 部分。
+可用的附加许可选项取决于Microsoft 365计划。 若要了解哪些语音呼叫和音频会议选项可供你使用，请参阅本文的"我的计划提供哪些 [Microsoft 功能？"](#which-microsoft-capabilities-are-available-with-my-plan) 部分。
 
 下面是可添加到Teams订阅的附加许可证及其功能Teams列表。
 
-<br/>
-
 |许可证|说明|
 |-------|-----------|
-|**Microsoft 365 商务语音** <br/> | Business Voice 是 Microsoft 针对中小型企业的语音功能捆绑包，但将于 2022 年 3 月 1 日弃用。 <br/> <br/> 如果你是一家小型或中型企业，我们建议购买带Teams 电话套餐的套餐（如果[](../business-voice/whats-business-voice.md)在你的地区可用）。 |
-|**Teams 电话套餐套餐** <br/> |Teams 电话套餐"是一种电话解决方案，电话系统 PBX 功能和 PSTN 连接的国内呼叫计划。 <br/> |
-|**Teams 电话** <br/> |[Teams 电话](../what-is-phone-system-in-office-365.md)是一种托管电话服务，可为你提供呼叫控制和专用分支 Exchange (PBX) 功能，以及用于连接到公共电话交换网 (PSTN) 的选项。 Teams 电话包括云语音邮件、呼叫者 ID、呼叫保留、呼叫转接、自动助理、呼叫队列、呼叫转接、呼叫 ID 等。 <br>若要了解有关详细信息，[请参阅此处是使用Teams 电话](../here-s-what-you-get-with-phone-system.md)。 有关定价信息，请参阅[定价Teams 电话](https://go.microsoft.com/fwlink/?linkid=799763)。  <br/> |
-|**通话套餐** <br/> |如果希望用户能够呼叫组织外部的电话号码，请获取呼叫 [计划](../calling-plans-for-office-365.md)。 有国内呼叫计划以及国内和国际呼叫计划。 有关定价信息，请参阅 [通话套餐定价](https://go.microsoft.com/fwlink/?linkid=799761 )。  <br/> |
-|**通信积分** |如果你希望音频会议、自动助理或呼叫队列使用免费号码，则必须 [设置通信积分](../set-up-communications-credits-for-your-organization.md)。 <br/> |
-|**音频会议** <br/> |有时，您的组织中的人员将需要使用电话而不是计算机Teams会议。 为 [安排或](../audio-conferencing-in-office-365.md) 引导会议的用户设置音频会议。 <br/> <br/>要了解你所在国家或地区是否提供视频会议，请参阅 [音频会议和通话套餐的国家/地区可用情况](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。 有关定价信息，请参阅[音频会议定价](https://go.microsoft.com/fwlink/?linkid=799762)。  <br/> <br/>从现在到 2022 年 5 月 31 日，客户可以将音频会议免费添加到 Microsoft 365 或 Office 365 订阅，最多 12 个月。 从 2022 年 3 月 1 日开始，音频会议功能将包含在所有包括Teams和Microsoft 365 Office 365许可证中。 有关详细信息，请参阅为中小型企业设置音频 [会议](../audio-conferencing-smb.md)。 <br/> <br/>组织现在可以使用第三方运营商作为音频会议号码。 有关详细信息[，请参阅连接运营商](../operator-connect-conferencing-plan.md)会议计划。 <br/>|
-|**Microsoft Teams 会议室** <br/> |[Microsoft Teams 会议室](../rooms/index.md)不是附加内容，而是将视频、音频和内容共享引入会议室的功能。 请参阅[Teams 会议室许可](../rooms/rooms-licensing.md)。  <br/> |
-|**高级通信** <br/> |[高级通信](advanced-communications.md) 包括高级会议自定义和用于管理组织通信策略的工具。 |
+|**Microsoft 365 商务语音** <br/> |Business Voice 是 Microsoft 的适用于中小型企业的语音功能捆绑包，但自 2022 年 3 月 1 日起将不再提供购买。 当前 Business Voice 订阅者可以续订其 Business Voice 许可证，直到 2022 年 6 月 30 日。 <br/> <br/> 如果你是中小型企业，我们建议使用呼叫计划许可证购买Teams 电话套餐（如果在你的地区可用）。[](../business-voice/whats-business-voice.md) <br/> <br/> 或者，您可以购买Teams 电话标准版许可证，以便连接到首选的第三方 PSTN 提供商。 |
+|**Teams 电话套餐套餐** <br/> |使用Teams 电话套餐许可证捆绑包Teams 电话系统 PBX 功能和 PSTN 连接的国内呼叫计划。 <br/> |
+|**Teams 电话 标准** <br/> |[Teams 电话系统](../what-is-phone-system-in-office-365.md)是一种托管电话服务，提供呼叫控制和专用分支Exchange (PBX) 功能。 Teams 电话标准许可证Teams 电话系统云语音邮件、呼叫者 ID、呼叫保留、呼叫转接、自动助理、呼叫队列、呼叫转接和呼叫者 ID 等所有功能。 <br/> <br/>若要了解有关电话系统，[请参阅此处](../here-s-what-you-get-with-phone-system.md)是使用Teams 电话系统。 <br/> |
+|**Microsoft Teams通话套餐** <br/> |如果你希望用户能够呼叫组织外部的电话号码，你可以购买Microsoft Teams套餐以使用 Microsoft 作为 PSTN 提供商连接到 PSTN 电话号码。[](../calling-plans-for-office-365.md) 有国内呼叫计划以及国内和国际呼叫计划。 <br/> <br/> 若要了解Teams套餐在你的国家/地区是否可用，请参阅音频会议和呼叫计划的["国家/地区可用性"](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。 |
+|**通信积分** | 通信积分提供每月分钟数池，如果所有呼叫计划分钟数均在下个月开始之前使用，则这些分钟数也可用于 PSTN 电话呼叫。 如果需要音频会议、自动助理或呼叫队列的免费号码，则需要设置通信 [积分](../set-up-communications-credits-for-your-organization.md)。 <br/> |
+|**音频会议** <br/> |有时，您的组织中的人员将需要使用电话来呼叫Teams会议，而不是计算机。 [为与需要通过电话呼叫](../set-up-audio-conferencing-in-teams.md) 的与会者安排或引导会议的用户设置音频会议。 <br/> <br/>要了解你所在国家或地区是否提供视频会议，请参阅 [音频会议和通话套餐的国家/地区可用情况](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。 有关定价信息，请参阅[音频会议定价](https://go.microsoft.com/fwlink/?linkid=799762)。  <br/> <br/>组织现在可以使用第三方运营商作为音频会议号码。 有关详细信息，请参阅[规划运营商连接会议](../operator-connect-conferencing-plan.md)。 <br/>|
+|**Microsoft Teams 会议室** <br/> | Microsoft Teams会议室是一Microsoft Teams产品，为会议室提供视频、音频和内容共享。 组织可以购买Microsoft Teams 会议室这些功能的独立许可证。 有关详细信息，请参阅 Teams 会议室 [许可](../rooms/rooms-licensing.md)。 <br/>|
 
-## <a name="what-voice-features-are-available-with-my-plan"></a>我的计划提供哪些语音功能？
+## <a name="which-microsoft-capabilities-are-available-with-my-plan"></a>我的计划提供哪些 Microsoft 功能？
 
-查看你需要哪些附加许可证才能在 Teams中获取语音功能，具体取决于你拥有的计划。
+所有Microsoft 365计划Teams使用 VoIP 技术在你的组织中进行对等呼叫。 但是，你可能希望为呼叫 PSTN 号码或设置 PBX 等功能添加不同的许可证。
 
-根据你需要的语音功能，我们建议比较切换到包含这些功能的计划是否更具成本效益。 例如，对于大多数大型组织而言，在计划内购买一Microsoft 365 企业版将降低总体成本。 通常，单独购买多个附加许可证而不是作为计划的一部分购买时，最终综合成本可能会更高。
+### <a name="audio-conferencing"></a>音频会议
 
-#### <a name="small-and-medium-businesses"></a>[**中小型企业**](#tab/small-business/)
+你可以免费 **将** 音频会议许可证添加到所有Microsoft 365订阅。
 
-如果你是一家小型或中型企业， (用户不到 300) ，则有四种方法可获取语音功能：
+Microsoft 365 E5/A5/G5 计划包括音频会议许可证，因此无需通过这些计划购买额外的音频会议许可证。
 
-- 购买Microsoft 365套餐，然后Microsoft 365 Teams 电话套餐套餐。
-- 购买一Enterprise E1 或 E3 计划，Microsoft 365 Teams 电话套餐套餐。
-- 购买一Enterprise E1 或 E3 计划并单独添加语音功能。
-- 购买包括Enterprise功能的 E5 套餐。
-  - E5 Microsoft 365 企业版包括Teams 电话，但组织仍然需要选择 [PSTN 连接选项](../pstn-connectivity.md)。
+### <a name="voice-and-pstn-connectivity"></a>语音和 PSTN 连接
 
-对于Microsoft 365 Teams 电话，有两个选项可供选择：
+无论你是小型企业、企业组织、教育机构、政府机构还是非营利组织，你都有三种方法Teams 电话系统 PSTN 连接：
 
-- **Microsoft 365 Teams 电话套餐：** 如果希望由 Microsoft 处理所有电话号码管理和计费，请获取此套餐。 检查你的Teams 电话[套餐是否可用](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
-- **Microsoft 365 Teams 电话许可证**：此许可证Teams 电话，但你仍然需要连接到 PSTN。 若要了解语音解决方案，请参阅[规划语音Teams解决方案](../cloud-voice-landing-page.md)。 若要查看所有 PSTN 连接选项，请参阅 [PSTN 连接选项](../pstn-connectivity.md)。
+- 购买 Microsoft 365 Business、E1/E3、A1/A3 或 G1/G3 计划，并添加 **Teams 电话** 套餐许可证。
+  - 此模型将让你Teams 电话系统 PBX 功能和 Microsoft 国内呼叫计划。
+  - 如果希望 Microsoft 处理所有电话号码管理和计费，请选择此设置。
+  - 检查你的Teams 电话套餐许可证的套餐[是否可用](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
 
-若要了解有关详细信息，[请参阅Teams 电话中小型企业的指南](../business-voice/whats-business-voice.md)。
+- 购买 E1/E3、A1/A3 或 G1/G3 计划，添加 **Teams 电话 标准** 版许可证，然后选择 Microsoft 独立呼叫计划或第三方 PSTN 运营商。
+  - 此模型可为您提供Teams 电话系统，但您仍然需要连接到 PSTN。
+  - 若要查看所有 PSTN 连接选项，请参阅 [PSTN 连接选项](../pstn-connectivity.md)。
+  - 若要了解所有语音解决方案，请参阅[规划Teams语音解决方案](../cloud-voice-landing-page.md)。
 
-下面是基于许可计划的摘要。
+- 购买 E5/A5/G5 计划并添加 **Microsoft 呼叫** 计划或连接到第三方 PSTN 连接提供商。
+  - Microsoft 365 E5、A5 和 G5 计划包括Teams 电话系统，但组织仍然需要选择 [PSTN 连接选项](../pstn-connectivity.md)。
 
-<table>
-<thead>
-<tr class="header">
-<th><strong>基本计划</strong></th>
-<th colspan="3"><strong>语音呼叫选项</strong></th>
-<th>&nbsp;</th>
-<th>&nbsp;</th>
-<th>&nbsp;</th>
-<th>&nbsp;</th>
-<th>&nbsp;</th>
-</tr>
-</thead>
-<tbody>
-<tr class="even">
-<td>Microsoft 365 商业基础版<br/>
-Microsoft 365 商业标准版<br/>
-Microsoft 365 商业高级版<br/>
-Microsoft Teams 协作版 (AAD 标识)</td>
-<td>Teams 电话套餐许可证<br/> <br/>国际呼叫计划 (可选)  <br/> <br/>通信信用额度 (可选) </td>
-<td>或</td>
-<td>Teams 电话独立许可证<br/> <br/>国内呼叫计划或国内和国际呼叫计划<br/> <br/>通信信用额度 (可选) </td>
-</tr>
-<tr class="odd">
-<td>Microsoft 365 企业版 E1/E3<br/>Office 365 企业版 E1/E3<br/>Microsoft 365 F3<br/>Office 365 F3<br/>Microsoft 365 F1</td>
-<td>Teams 电话套餐许可证 <br/> <br/>国际呼叫计划 (可选)  <br/> <br/>通信信用额度 (可选) </td>
-<td>或</td>
-<td>Teams 电话独立许可证<br/> <br/>国内呼叫计划或国内和国际呼叫计划<br/> <br/>通信信用额度 (可选) </td>
-</tr>
-<tr class="even">
-<td>Microsoft 365 企业版 E5<br/>Office 365 企业版 E5</td>
-<td>国内呼叫计划或国内和国际呼叫计划<br/> <br/>通信信用额度 (可选) </td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-
->[!NOTE]
->如果需要使用第三方电话服务，或者呼叫计划在你的国家/地区不可用，你可以为组织选择"连接"或"[直接](../operator-connect-plan.md)路由"。[](../direct-routing-landing-page.md)
-
-#### <a name="enterprise"></a>[**Enterprise**](#tab/enterprise/)
-
-如果你是一家大型企业或企业组织， (用户超过 300) ，则有三种方法可获取语音功能：
-
-- 购买 E1 Enterprise E3 套餐，然后Teams 电话套餐添加套餐。
-- 购买一Enterprise E1 或 E3 计划并单独添加语音功能。
-- 购买包括Enterprise功能的 E5 套餐。
-
-下面是基于许可计划的摘要。
+下面是根据你的计划购买哪些 Microsoft 语音和呼叫许可证的Microsoft 365摘要：
 
 <table>
 <thead>
 <tr class="header">
 <th><strong>基本计划</strong></th>
-<th colspan="2"><strong>语音呼叫和会议选项</strong></th>
-<th>&nbsp;</th>
-<th>&nbsp;</th>
+<th><strong>希望 Microsoft 作为 PSTN 运营商</strong></th>
+<th><strong>想要使用第三方 PSTN 运营商</strong></th>
 </tr>
 </thead>
 <tbody>
-<tr class="even">
-<td>Microsoft 365 企业版 E1/E3<br/>Office 365 企业版 E1/E3<br/>Microsoft 365 F3<br/>Office 365 F3<br/>Microsoft 365 F1</td>
-<td>Teams 电话套餐许可证<br/> <br/> 国际呼叫计划 (可选)  <br/> <br/> 通信信用额度 (可选) <br/> </td>
-<td>或者</td>
-<td>Teams 电话独立许可证<br/> <br/> 国内呼叫计划或国内和国际呼叫计划 <br/> <br/> 通信信用额度 (可选) </td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>Microsoft 365 企业版 E5<br/>Office 365 企业版 E5</td>
-<td>国内呼叫计划或国内和国际呼叫计划<br/> <br/>通信信用额度 (可选) </td>
-<td></td>
-</tr>
-</tbody>
-</table>
-
-有关详细信息，请参阅Microsoft 365 企业版[计划](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans)Office 365 企业版[计划](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans)。
-
->[!NOTE]
->如果需要使用第三方电话服务，或者呼叫计划在你的国家/地区不可用，你可以为组织选择"连接"或"[直接](../operator-connect-plan.md)路由"。[](../direct-routing-landing-page.md)
-
-#### <a name="education"></a>[**教育**](#tab/education/)
-
-对于学校和其他学术组织，有三种方法可获取语音功能。
-
-- 购买 EDU A1 或 A3 计划，Microsoft 365 Teams 电话套餐购买套餐。
-- 购买 EDU A1 或 A3 计划并单独添加语音功能。
-- 购买包括语音功能的 EDU A5 计划。
-
-下面是基于许可计划的摘要。
-
-<table>
-<thead>
-<tr class="header">
-<th><strong>基本计划</strong></th>
-<th colspan="3"><strong>语音呼叫和会议选项</strong></th>
-<th>&nbsp;</th>
-<th>&nbsp;</th>
-<th>&nbsp;</th>
-</tr>
-</thead>
-<tbody>
-<tr class="even">
-<td>Microsoft 365 企业版 A1 或 A3<br/>Office 365 教育版 A1 或 A3<br/>Microsoft 365 F3<br/>Office 365 F3</td>
-<td>Teams 电话套餐许可证 <br/> <br/>国际呼叫计划 (可选)  <br/> <br/>通信信用额度 (可选) </td>
-<td>或</td>
-<td>Teams 电话独立许可证 <br/> <br/>国内呼叫计划或国内和国际呼叫计划 <br/> <br/>通信信用额度 (可选) </td>
+<tr>
+<td>Teams Essentials (AAD 标识)  <br/> <br/>任何Microsoft 365计划，包括Teams <br/> </td>
+<td>Teams 电话套餐许可证 <br/> <br/>或者 <br/> <br/>Teams 电话标准许可证 <br/> 加号 <br/>国内呼叫计划或国内和国际呼叫计划许可证 <br/> </td>
+<td>Teams 电话标准许可证 <br/> </td>
 </tr>
 <tr>
-<td>Microsoft 365 教育版 A1 或 A3<br/>Office 365 教育版 A1 或 A3<br/>Microsoft 365 F3<br/>Office 365 F3</td>
-<td>Teams 电话套餐许可证 <br/> <br/>国际呼叫计划 (可选)  <br/> <br/>通信信用额度 (可选) </td>
-<td>或</td>
-<td>Teams 电话独立许可证 <br/> <br/>国内呼叫计划或国内和国际呼叫计划 <br/> <br/>通信信用额度 (可选) </td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>Microsoft 365 教育版 A5 <br/>Office 365 教育版 A5</td>
-<td>国内呼叫计划或国内和国际呼叫计划 <br/> <br/>通信信用额度 (可选) </td>
-<td></td>
+<td>Microsoft 365 E5/A5/G5 计划</td>
+<td>国内呼叫计划或国内和国际呼叫计划许可证 <br/> </td>
 <td></td>
 </tr>
 </tbody>
 </table>
 
-有关详细信息[，请参阅Microsoft 365 教育版](https://www.microsoft.com/education/buy-license/microsoft365)Office 365 教育版[计划](https://www.microsoft.com/education/products/office)。
+## <a name="more-guidance-on-microsoft-plans"></a>有关 Microsoft 计划的更多指南
 
->[!NOTE]
->如果需要使用第三方电话服务，或者呼叫计划在你的国家/地区不可用，你可以为组织选择"连接"或"[直接](../operator-connect-plan.md)路由"。[](../direct-routing-landing-page.md)
+详细了解 Microsoft 计划，根据组织类型获取指导：
 
-#### <a name="government"></a>[**政府**](#tab/government/)
-
-对于美国政府组织 (GCC) ，有三种方法可获取语音功能。
-
-- 购买 GOV G1 或 G3 计划并Microsoft 365 商务语音。
-- 购买 GOV G1 或 G3 计划并单独添加云语音功能。
-- 购买 GOV G5 计划，其中包括语音功能。
-
-下面是基于许可计划的摘要。
-
-<table>
-<thead>
-<tr class="header">
-<th><strong>基本计划</strong></th>
-<th colspan="3"><strong>语音呼叫和会议选项</strong></th>
-<th>&nbsp;</th>
-<th>&nbsp;</th>
-<th>&nbsp;</th>
-</tr>
-</thead>
-<tbody>
-<tr class="even">
-<td>Microsoft 365 GOV G1 或 G3<br/>Office 365 GOV G1 或 G3<br/>Microsoft 365 F3<br/>Office 365 F3</td>
-<td>Teams 电话套餐许可证 <br/> <br/>国际呼叫计划 (可选)  <br/> <br/>通信信用额度 (可选) </td>
-<td>或</td>
-<td>Teams 电话独立许可证 <br/> <br/>国内呼叫计划或国内和国际呼叫计划 <br/> <br/>通信信用额度 (可选) </td>
-</tr>
-<tr>
-<td>Microsoft 365 GOV G1 或 G3<br/>Office 365 GOV G1 或 G3<br/>Microsoft 365 F3<br/>Office 365 F3</td>
-<td>Teams 电话套餐许可证 <br/> <br/>国际呼叫计划 (可选)  <br/> <br/>通信信用额度 (可选) </td>
-<td>或</td>
-<td>Teams 电话独立许可证 <br/> <br/>国内呼叫计划或国内和国际呼叫计划 <br/> <br/>通信信用额度 (可选) </td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>Microsoft 365 GOV G5<br>Office 365 GOV G5</td>
-<td>国内呼叫计划或国内和国际呼叫计划 <br/> <br/>通信信用额度 (可选) </td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-
-有关详细信息，请参阅政府[Microsoft 365](https://www.microsoft.com/microsoft-365/government/)计划[Office 365 政府版计划](https://www.microsoft.com/microsoft-365/government/compare-office-365-government-plans)。
-
->[!NOTE]
->如果需要使用第三方电话服务，或者呼叫计划在你的国家/地区不可用，你可以为组织选择"连接"或"[直接](../operator-connect-plan.md)路由"。[](../direct-routing-landing-page.md)
-
-#### <a name="nonprofit"></a>[**非营利组织**](#tab/nonprofit/)
-
-如果你是非营利组织，有四种方法可以获取语音功能。
-
-- 购买一Microsoft 365非营利组织商业Microsoft 365或非营利组织商业标准版计划Microsoft 365 Teams 电话套餐。
-- 购买非营利组织版 E1 或 E3 计划，Microsoft 365 Teams 电话套餐购买套餐。
-- 购买非营利组织版 E1 或 E3 计划并单独添加语音功能。
-- 购买非营利组织版 E5，其中包含语音功能。
-
-下面是基于许可计划的摘要。
-
-<table>
-<thead>
-<tr class="header">
-<th><strong>基本计划</strong></th>
-<th colspan="3"><strong>语音呼叫和会议选项</strong></th>
-<th>&nbsp;</th>
-<th>&nbsp;</th>
-<th>&nbsp;</th>
-</tr>
-</thead>
-<tbody>
-<tr class="even">
-<td>Microsoft 365 非营利组织商业基本版<br/>Microsoft 365 非营利组织商业标准版</td>
-<td>Teams 电话套餐许可证 <br/> <br/> 国际呼叫计划 (可选)  <br/> <br/> 通信信用额度 (可选) </td>
-<td>或</td>
-<td>Teams 电话独立许可证 <br/> <br/>国内呼叫计划或国内和国际呼叫计划 <br/> <br/>通信信用额度 (可选) </td>
-</tr>
-<tr>
-<td>Microsoft 365非营利组织版 E1 或 E3<br/>Office 365 非营利组织版 E1 或 E3<br/>Microsoft 365 F3<br/>Office 365 F3</td>
-<td>Teams 电话套餐许可证 <br/> <br/>国际呼叫计划 (可选)  <br/> <br/>通信信用额度 (可选) </td>
-<td>或</td>
-<td>Teams 电话独立许可证 <br/> <br/>国内呼叫计划或国内和国际呼叫计划 <br/> <br/>通信信用额度 (可选) </td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>Microsoft 365非营利组织版 E1 或 E3<br>Office 365 非营利组织版 E1 或 E3<br>Microsoft 365 F3<br>Office 365 F3</td>
-<td>Teams 电话独立许可证 <br/> <br/>国内呼叫计划或国内和国际呼叫计划 <br/> <br/>通信信用额度 (可选) </td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>Microsoft 365非营利组织 E5<br>Office 365 非营利组织版 E5</td>
-<td>国内呼叫计划或国内和国际呼叫计划 <br/> <br/>通信信用额度 (可选) </td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-
-若要了解有关详细信息，请参阅[Microsoft 365 Office 365 非营利组织版产品/服务](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit-plans-and-pricing)。
-
->[!NOTE]
->如果需要使用第三方电话服务，或者呼叫计划在你的国家/地区不可用，你可以为组织选择"连接"或"[直接](../operator-connect-plan.md)路由"。[](../direct-routing-landing-page.md)
-
----
+- [中小型企业指南](../business-voice/whats-business-voice.md)
+- [企业组织计划](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans)
+- [教育机构指南](https://www.microsoft.com/education/buy-license/microsoft365)
+- [政府和政府机构的计划](https://www.microsoft.com/microsoft-365/government/)
+- [非营利组织计划](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit-plans-and-pricing)
 
 ## <a name="need-help"></a>需要帮助？
 
 需要与某人讨论附加内容选项？ [联系商业产品的支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
 
-## <a name="related-topics"></a>相关主题
+## <a name="related-content"></a>相关内容
 
 - [分配 Teams 附加许可证](assign-teams-add-on-licenses.md)
 - [管理用户对 Teams 的访问管理](../user-access.md)

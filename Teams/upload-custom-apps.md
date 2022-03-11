@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何在管理中心将自定义应用上传到Microsoft Teams应用商店。
-ms.openlocfilehash: f9cbbfb60b2bb93cb3f687e6da8c6595f5cc185b
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: b797d8728fba283ccb2f62a46bc6ac00a947c29a
+ms.sourcegitcommit: ff975c21725e1812e6db8fc9fe37de1362f168c3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070181"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63435826"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>通过上传应用包发布自定义应用
 
@@ -116,12 +116,10 @@ Microsoft <a href="/microsoftteams/platform/publishing/office-store-approval" ta
 * 已添加或删除机器人
 * 现有机器人的"botId"属性已更改
 * 更改了现有机器人的"isNotificationOnly"属性
-* 机器人的"supportsFiles"属性已更改
-* 已添加或删除消息扩展
+* 添加了机器人的 SupportsCalling、SupportsVideo 和 SupportsFiles 功能
+* 已添加消息传送扩展
 * 添加了一个新连接器
-* 添加了新的静态选项卡
-* 添加了一个新的可配置选项卡
-* "webApplicationInfo"中的属性已更改
+* "授权"中的权限已添加或已更改
 
 ![应用列表的屏幕截图，其中显示了提供新版本的应用。](media/manage-your-custom-apps-update1.png)
 

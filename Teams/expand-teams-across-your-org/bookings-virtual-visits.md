@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: 了解如何使用 Teams 中的 Bookings 应用计划、管理和执行虚拟Teams。
-ms.openlocfilehash: 6241c377cc5daa0986081fbfa30eca5fa7146efc
-ms.sourcegitcommit: 5ca04ee10e3f254e1b24506de116591fdfd51d18
+ms.openlocfilehash: ec3b2023d7413b3cb3e0710f201bea0224e49c59
+ms.sourcegitcommit: ff975c21725e1812e6db8fc9fe37de1362f168c3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "62929267"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63435926"
 ---
 # <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>使用 Microsoft Teams 和 Bookings 应用进行虚拟访问
 
@@ -38,7 +38,7 @@ Bookings 应用便于管理任何组织的复杂日程安排需求。 调度程�
 
 虚拟约会通过会议Microsoft Teams，提供可靠的视频会议功能。 例如，医生可以与患者共享其屏幕并查看测试结果。 或者，银行顾问可以请求对文档进行电子签名，从而允许他们远程关闭交易。
 
-每个虚拟约会Teams一个会议链接，该链接通过电子邮件发送给与会者，他们可以轻松地从 Web 浏览器加入会议，或者Teams设备上加入。 自动电子邮件提醒有助于减少未显示，并增强客户和客户端的参与度。
+每个虚拟约会Teams一个会议链接，该链接通过电子邮件发送给与会者，他们可以轻松地从 Web 浏览器或任何Teams加入会议。 自动电子邮件提醒有助于减少未显示，并增强客户和客户端的参与度。
 
 通过 Bookings，你可以获得针对你的行业定制的体验。 下面是一些如何在组织中使用它的示例：
 
@@ -48,13 +48,13 @@ Bookings 应用便于管理任何组织的复杂日程安排需求。 调度程�
 |零售   | 虚拟拟合和咨询 <br/>安排和管理销售人员、产品专家和设计顾问的约会，与客户进行虚拟拟合和咨询。   |
 |医疗保健   |  患者护理虚拟访问 <br/>安排和管理护理团队成员的预约，与患者或其他医疗保健提供商会面，讨论医疗保健问题。   |
 
-本文概述了如何使用 Teams 中的 Bookings 应用安排、管理和执行虚拟Teams。
+本文概述了如何使用 Teams 中的 Bookings 应用计划、管理和执行虚拟Teams。
 
 ## <a name="before-you-get-started"></a>开始之前
 
 如果你是管理员，请参阅在 Teams 中管理 [Bookings](../bookings-app-admin.md) 应用，了解在 Teams 中使用 Bookings 应用的先决条件、如何控制组织中对 Bookings 的访问，以及建议的策略和管理员设置。
 
-请记住，只有您的组织中的计划程序需要将 Bookings 应用安装在 Teams。 执行或参与虚拟约会的人员不需要该应用。 他们通过自己的日历或Teams Outlook或通过使用预订确认电子邮件中的会议链接加入约会。
+请记住，只有您的组织中的计划人员需要将 Bookings 应用安装在 Teams。 执行或参与虚拟约会的人员不需要该应用。 他们通过自己的日历或Teams Outlook或通过使用预订确认电子邮件中的会议链接加入约会。
 
 ## <a name="set-up-a-new-booking-calendar"></a>设置新的预订日历
 
@@ -72,7 +72,7 @@ Bookings 应用便于管理任何组织的复杂日程安排需求。 调度程�
 
 ### <a name="add-staff"></a>添加教职员工
 
-在预订日历中，转到"更多选项 **" (...**) >设置，**然后选择**"教职 **员工"**。 添加教职员工成员，并为每个添加的人员分配角色。 您最多可以将 100 名员工添加到预订日历中。
+在预订日历中，转到"更多选项 **" (...****) >设置，** 然后选择"教职 **员工"**。 添加教职员工成员，并为每个添加的人员分配角色。 您最多可以将 100 名员工添加到预订日历中。
 
 Bookings 应用与 Outlook。 添加教职员工后，您将能够查看此人的日历可用性并安排其预订。 若要了解详情，请参阅 [添加教职员工并查看 Bookings 日历](https://support.microsoft.com/office/add-staff-and-view-a-bookings-calendar-6c579f61-8adb-4514-9458-021de2023fa0)。  
 
@@ -94,7 +94,7 @@ Bookings 应用与 Outlook。 添加教职员工后，您将能够查看此人�
 
 ## <a name="conduct-a-visit"></a>执行访问
 
-在Teams日历Outlook，转到预订，然后选择"加入"或"Teams会议"链接。 检查音频和视频设置，然后选择"立即 **加入"**。 若要了解详情，请参阅 [进行 Bookings 约会](https://support.microsoft.com/office/conduct-a-bookings-appointment-a86a4007-e26c-4909-9893-f7036e2747cd)。
+在Teams或Outlook中，转到预订，然后选择"加入"或"Teams会议"链接。 检查音频和视频设置，然后选择"立即 **加入"**。 若要了解详情，请参阅 [进行 Bookings 约会](https://support.microsoft.com/office/conduct-a-bookings-appointment-a86a4007-e26c-4909-9893-f7036e2747cd)。
 
 ## <a name="monitor-visits-and-get-real-time-status-updates"></a>监视访问并获取实时状态更新
 
@@ -115,6 +115,12 @@ Bookings Web 应用提供其他功能。 例如，你可以发布自助在线预
 
 若要了解详情，请参阅 [Microsoft Bookings](/microsoft-365/bookings/bookings-overview)。
 
+## <a name="get-insight-into-virtual-visits-usage"></a>深入了解虚拟访问使用情况
+
+管理[中心中的虚拟](../teams-analytics-and-reports/virtual-visits-usage-report.md)访问Microsoft Teams向管理员概述Teams虚拟访问活动。 该报告显示虚拟约会的详细分析，包括 Bookings 访问。
+
+可以查看大厅等待时间和访问持续时间等关键指标。 使用此信息深入了解使用趋势，帮助优化虚拟访问，从而提供更好的业务成果。
+
 ## <a name="related-articles"></a>相关文章
 
 - [管理移动浏览器上Teams虚拟访问的加入体验](mobile-browser-join.md)
@@ -123,4 +129,4 @@ Bookings Web 应用提供其他功能。 例如，你可以发布自助在线预
 
 - [医疗保健Teams入门](healthcare/teams-in-hc.md)
 
-- [Teams帮助文档中的 Bookings 应用](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?#PickTab=Bookings)
+- [Bookings 应用Teams帮助文档](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?#PickTab=Bookings)
