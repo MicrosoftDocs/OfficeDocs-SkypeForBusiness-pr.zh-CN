@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何批准使用 Teams 应用提交 API 提交的自定义Microsoft Teams。
-ms.openlocfilehash: a1b6778c79fd389ebfd4b3ce172daa186e92b76e
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 3a4dfc0b14f20f367cd3580c5366adc26233dde9
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070401"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442328"
 ---
 # <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>通过应用提交 API 发布Teams提交的自定义应用
 
@@ -116,17 +116,17 @@ ms.locfileid: "63070401"
 
 ### <a name="control-access-to-the-app"></a>控制对应用的访问
 
-默认情况下，组织中的所有用户都可以访问组织应用商店中的应用。 若要限制和控制谁有权使用应用，可以创建并分配应用权限策略。 要了解详细信息，请参阅<a href="/microsoftteams/teams-app-permission-policies" target="_blank">在 Teams 中管理应用权限策略</a>。
+默认情况下，组织中的所有用户都可以访问组织应用商店中的应用。 若要限制和控制谁有权使用应用，可以创建并分配应用权限策略。 要了解详细信息，请参阅[在 Teams 中管理应用权限策略](teams-app-permission-policies.md)。
 
 ### <a name="pin-and-install-the-app-for-users-to-discover"></a>固定并安装应用供用户发现
 
-默认情况下，用户若要查找应用，必须转到组织的应用商店并浏览或搜索该应用。 为了方便用户访问该应用，你可以将应用固定到应用中的Teams。 为此，请创建应用设置策略并将其分配给用户。 要了解详细信息，请参阅<a href="/microsoftteams/teams-app-setup-policies" target="_blank">在 Teams 中管理应用设置策略</a>。
+默认情况下，用户若要查找应用，必须转到组织的应用商店并浏览或搜索该应用。 为了方便用户访问该应用，你可以将应用固定到应用中的Teams。 为此，请创建应用设置策略并将其分配给用户。 要了解详细信息，请参阅[在 Teams 中管理应用设置策略](teams-app-setup-policies.md)。
 
 ### <a name="search-the-audit-log-for-teams-app-events"></a>在审核日志搜索Teams事件
 
-可以搜索应用审核日志查看Teams应用中的活动。 若要详细了解如何搜索 审核日志 并查看 审核日志 中记录的 Teams 活动的列表，请参阅在 Teams 中搜索 审核日志 <a href="/microsoftteams/audit-log-events" target="_blank">事件。</a>
+可以搜索应用审核日志查看Teams应用中的活动。 若要详细了解如何搜索 审核日志 并查看 审核日志 中记录的 Teams 活动的列表，请参阅在 Teams 中搜索 审核日志 [事件。](audit-log-events.md)
 
-在搜索审核日志之前，你必须先在<a href="https://protection.office.com" target="_blank">安全与合规中心</a>中用审核。 有关详细信息，请参阅<a href="https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014" target="_blank">启用或禁用审核日志搜索</a>。 请记住，审核数据仅在你启用审核的那一刻才可用。
+在搜索审核日志之前，你必须先在[安全与合规中心](https://sip.protection.office.com/)中用审核。 有关详细信息，请参阅[启用或禁用审核日志搜索](/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide)。 请记住，审核数据仅在你启用审核的那一刻才可用。
 
 ## <a name="discover-and-adopt"></a>发现和采用
 
@@ -159,7 +159,7 @@ ms.locfileid: "63070401"
 - 应用获得批准后，任何用户都可以向应用提交更新。 这意味着其他开发人员（包括最初提交该应用的开发人员）可以提交应用更新。
 - 当开发人员提交应用并且请求挂起时，只有该开发人员才能向应用提交更新。 其他开发人员只能在应用获得批准后提交更新。
 
-有关使用 Graph API 更新应用的信息，请参阅<a href="/graph/api/teamsapp-update">此处</a>。
+有关使用 Graph API 更新应用的信息，请参阅[此处](/graph/api/teamsapp-update?view=graph-rest-1.0&tabs=http)。
 
 ## <a name="related-topics"></a>相关主题
 
@@ -169,4 +169,4 @@ ms.locfileid: "63070401"
 - [在 Teams 中管理应用权限策略](teams-app-permission-policies.md)
 - [在 Teams 中管理应用设置策略](teams-app-setup-policies.md)
 - [Teams监视和警报](alerts/teams-admin-alerts.md)
-- <a href="/graph/api/resources/teamsapp?view=graph-rest-beta" target="_blank">适用于 Graph 应用的 Microsoft Teams API</a>
+- [适用于 Graph 应用的 Microsoft Teams API](alerts/teams-admin-alerts.md)

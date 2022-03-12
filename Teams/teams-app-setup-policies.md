@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: adfdfa74dd00314cb0b7fad5524a89619e8772d2
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: b5100bd09b371d90d5bede76b440f423eb527b9c
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070741"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442338"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理应用设置策略
 
@@ -51,7 +51,7 @@ ms.locfileid: "63070741"
 
 |Teams 桌面客户端  |Teams 移动客户端 |
 |---------|---------|
-|![Teams桌面客户端。](media/app-setup-policies-desktop-app-bar.png)<br>  |   ![Teams移动客户端](media/mobile-app-ui.png)      |
+|![Teams桌面客户端。](media/app-setup-policies-desktop-app-bar.png)<  |   ![Teams移动客户端](media/mobile-app-ui.png)      |
 
 > [!NOTE]
 > 如果有Teams 教育版，必须知道"分配"应用默认已固定在全局策略中，即使当前未在全局策略中列出该应用。 它将是客户端上已固定应用列表中的第四Teams应用。
@@ -193,7 +193,7 @@ ms.locfileid: "63070741"
 |Teams 桌面客户端 |Teams 移动客户端 |
 |---------|---------|
 |在应用栏的"应用Teams，选择 **"...更多应用**。| 在靠近底部应用Teams向上轻扫。|
-|![桌面客户端中的Teams应用。](media/app-setup-policies-desktop-more-apps.png)<br>   |![Teams移动客户端中的更多应用](media/app-setup-policies-mobile-more-apps.png)  
+|![桌面客户端中的Teams应用。](media/app-setup-policies-desktop-more-apps.png)   |![Teams移动客户端中的更多应用](media/app-setup-policies-mobile-more-apps.png)  
 
 #### <a name="what-do-i-need-to-know-about-the-teams-mobile-experience"></a>我需要了解哪些Teams体验
 

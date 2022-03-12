@@ -17,12 +17,12 @@ description: 了解如何在 Teams 管理中心的"管理应用"页上管理Micr
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: ad1dd28f4de0bc6db0ab7b2870a1cf7b2dae007a
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 96acf3151c2b805fead94979010669520b7a000f
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070221"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442288"
 ---
 # <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>在管理中心内Microsoft Teams应用
 
@@ -165,7 +165,7 @@ RSC (资源) 权限允许团队所有者授予应用访问和修改团队数据�
     - **允许第三方应用**：控制用户是否可以使用第三方应用。 如果关闭此设置，用户将无法安装或使用任何第三方应用，并且这些应用的应用状态在表中显示为"阻止组织范围"。
 
         > [!NOTE]
-        > 当 **"** 允许第三方应用"关闭时，仍为所有用户启用传出 [Webhook](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) ，但可以通过应用权限策略允许或阻止传出 Webhook 应用，在用户级别控制 [它们](teams-app-permission-policies.md)。 <br><br>请注意，如果 Microsoft 应用的现有应用权限策略使用"允许特定应用并阻止所有其他应用"设置，并且希望为用户启用传出 Webhook，则向列表添加传出 Webhook 应用。[](teams-app-permission-policies.md)
+        > 当 **"** 允许第三方应用"关闭时，仍为所有用户启用传出 [Webhook](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) ，但可以通过应用权限策略允许或阻止传出 Webhook 应用，在用户级别控制 [它们](teams-app-permission-policies.md)。 请注意，如果 Microsoft 应用的现有应用权限策略使用"允许特定应用并阻止所有其他应用"设置，并且希望为用户启用传出 Webhook，则向列表添加传出 Webhook 应用。[](teams-app-permission-policies.md)
 
         > [!NOTE]
         > 主持会议或与来自其他组织的人员聊天时，Teams 用户可以添加应用。 当他们加入由其他组织主持的会议或聊天时，也可以使用由这些组织的人共享的应用。 将应用主持用户组织的数据策略，以及该用户组织共享的任何第三方应用的数据共享实践。

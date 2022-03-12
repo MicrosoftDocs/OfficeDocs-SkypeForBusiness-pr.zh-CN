@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - seo-marvel-mar2020
-ms.openlocfilehash: 391c852edc1eef06c41277a43661fc1cf15b7cd6
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: b2225429eee73ecd5c6b33b62d4d1be24da306b9
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070351"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442538"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理自定义应用策略和设置
 
@@ -56,7 +56,7 @@ ms.locfileid: "63070351"
 ### <a name="user-custom-app-policy"></a>用户自定义应用策略
 
 作为应用 [设置策略](teams-app-setup-policies.md)的一部分，管理员可以使用策略设置（Upload **自定义应用**）来控制用户是否可以将自定义应用上传到Teams。
- 
+
 如果此设置已关闭：
 
 - 用户无法将自定义应用上传到组织或个人上下文中的任何团队。
@@ -65,7 +65,7 @@ ms.locfileid: "63070351"
 如果此设置已打开：
 
 - 用户可以将自定义应用上传到允许它的团队以及他们作为所有者的团队，具体取决于组织范围的自定义应用设置。
-- 用户可以将自定义应用上传到个人上下文。 
+- 用户可以将自定义应用上传到个人上下文。
 - 用户可以与自定义应用交互，具体取决于组织范围的自定义应用设置。
 
 可以在全局应用设置策略中编辑设置，以包含你需要的应用。 如果要为组织Teams用户组自定义应用，请创建并分配一个或多个自定义应用设置策略。
@@ -81,7 +81,7 @@ ms.locfileid: "63070351"
 ### <a name="team-custom-app-setting"></a>团队自定义应用设置
 
 管理员和团队所有者可以控制团队是否允许向团队添加自定义应用。 此设置" **允许成员上传自定义** 应用"以及用户的自定义应用策略确定谁可以将自定义应用添加到特定团队。
- 
+
 如果此设置已关闭：
 
 - 团队所有者可以添加自定义应用（如果其自定义应用策略允许）。

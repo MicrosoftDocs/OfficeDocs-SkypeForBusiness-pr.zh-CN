@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: bdc2124da8fb404c289a8e4e5eda962cd66cc9b4
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 2b8eaa4cfc9743ad297c7309769a3195e84cb539
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070371"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442458"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理应用权限策略
 
@@ -52,7 +52,7 @@ ms.locfileid: "63070371"
 如果要控制可供组织中的不同用户组使用的应用，请创建并分配一个或多个自定义应用权限策略。 根据应用是由 Microsoft、第三方还是由你的组织发布，你可以创建并分配单独的自定义策略。 有一点很重要，即创建自定义策略后，如果在组织范围的应用设置中禁用了第三方应用，则无法更改该策略。
 
 1. 在 Microsoft Teams 管理中心的左侧导航中，转到“**Teams 应用**” > “**权限策略**”。
-2. 单击“**添加**”。<br>
+2. 单击“**添加**”。
     ![新应用权限策略的屏幕截图。](media/app-permission-policies-new-policy.png)
 3. 输入策略的名称和说明。
 4. 在“**Microsoft 应用**”、“**第三方应用**”和“**自定义应用**”下，选择下列选项之一：
@@ -66,7 +66,7 @@ ms.locfileid: "63070371"
 
     1. 选择“**允许应用**”。
     1. 搜索要允许的应用，然后单击“**添加**”。 搜索结果将筛选为应用发布者（**Microsoft 应用**、**第三方应用** 或 **自定义应用**）。
-    1. 选择应用列表后，单击“**允许**”。 
+    1. 选择应用列表后，单击“**允许**”。
 
 6. 同样，如果选择“**阻止特定的应用并允许其他所有应用**”，则搜索并添加要阻止的应用，然后单击“**阻止**”。
 7. 单击“**保存**”。
@@ -97,7 +97,7 @@ ms.locfileid: "63070371"
 1. 在“**权限策略**”页面上，选择“**组织范围的应用设置**”。 然后，你可以在面板中配置所需的设置。
 
     ![组织范围应用设置的屏幕截图。](media/app-permission-policies-gcc-org-wide.png)
-    
+
 2. 在“**第三方应用**”下，关闭或打开这些设置以控制对第三方应用的访问权限：
 
     - **允许第三方应用**：控制用户是否可以使用第三方应用。 如果关闭此设置，则你的用户将不能安装或使用任何第三方应用。 在 Microsoft 365 政府 - GCCH 和 DoD Teams中，此设置默认为关闭。
@@ -113,9 +113,11 @@ ms.locfileid: "63070371"
 ### <a name="working-with-app-permission-policies"></a>使用应用权限策略
 
 #### <a name="what-app-interactions-do-permission-policies-affect"></a>权限策略对哪些应用交互有影响？
+
 通过控制最终用户的安装、发现和交互，权限策略可控制应用的使用。 无论向管理员分配的权限策略如何，管理员仍可以在 Microsoft Teams 管理中心内管理应用。
 
 #### <a name="can-i-control-line-of-business-lob-apps"></a>我能否控制业务线 (LOB) 应用？
+
 是的，你可以使用应用权限策略来控制自定义业务线 (LOB) 应用的推出和分发。 你可以创建自定义策略或编辑全局策略，以根据组织的需要允许或阻止自定义应用。
 
 #### <a name="how-do-app-permission-policies-relate-to-pinned-apps-and-app-setup-policies"></a>应用权限策略如何与已固定的应用和应用设置策略相关联？

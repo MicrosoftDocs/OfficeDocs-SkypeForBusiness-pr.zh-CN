@@ -19,12 +19,12 @@ ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 59d8303943b8912f7ed0578bd911b633b618f113
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 96755d4396e47ea1a6a3c4266a157cce63008372
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070551"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442698"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Microsoft Teams 应用权限和考虑事项
 
@@ -38,7 +38,6 @@ Microsoft Teams应用是一种将一个或多个功能聚合到可安装、升�
 应用由用户许可，由 IT 从策略角度进行管理。 但是，大多数情况下，应用的权限和风险配置文件由应用包含的功能的权限和风险配置文件定义。 因此，本文重点介绍功能级别的权限和注意事项。
 
 下面以大写字母列出的权限（例如 RECEIVE_MESSAGE 和 REPLYTO_MESSAGE）不会显示在 Microsoft Teams 开发人员文档或 [Microsoft](/graph/permissions-reference) Graph 的权限中。[](/microsoftteams/platform/overview) 它们只是本文的描述性简写。
-
 
 | 标题   | 描述    |
 |-----------|------------|
@@ -71,7 +70,7 @@ Microsoft Teams应用是一种将一个或多个功能聚合到可安装、升�
 
 - RECEIVE_MESSAGE，REPLYTO_MESSAGE。 机器人可以接收来自用户的消息并回复它们。<sup>1</sup>
 
-- POST_MESSAGE_USER。 在用户向机器人发送消息后，机器人可以发送用户直接消息 (也称 *主动* 消息。
+- POST_MESSAGE_USER。 在用户向机器人发送消息后，机器人可以发送用户直接消息 (也称 _主动_ 消息。
 
 - GET_CHANNEL_LIST。 添加到团队的机器人可以获取团队中频道的名称和 ID 列表。
 
@@ -82,10 +81,10 @@ Microsoft Teams应用是一种将一个或多个功能聚合到可安装、升�
 - POST_MESSAGE_TEAM。 允许应用的机器人随时向任何团队成员 (主动) 消息，即使用户以前从未与机器人交谈。
 
 - 以下不是显式权限，但由 RECEIVE_MESSAGE 和 REPLYTO_MESSAGE 以及可以使用机器人的范围（在清单中声明）所暗示：
- 
-    - RECEIVE_MESSAGE_PERSONAL、REPLYTO_MESSAGE_PERSONAL
-    - RECEIVE_MESSAGE_GROUPCHAT、REPLYTO_MESSAGE_GROUPCHAT
-    - RECEIVE_MESSAGE_TEAM、REPLYTO_MESSAGE_TEAM
+
+  - RECEIVE_MESSAGE_PERSONAL、REPLYTO_MESSAGE_PERSONAL
+  - RECEIVE_MESSAGE_GROUPCHAT、REPLYTO_MESSAGE_GROUPCHAT
+  - RECEIVE_MESSAGE_TEAM、REPLYTO_MESSAGE_TEAM    
 
 - SEND_FILES，RECEIVE_FILES。<sup>2</sup> 控制机器人是否可以在个人聊天中发送和接收文件 (群组聊天或聊天通道是否) 。
 
@@ -105,9 +104,9 @@ Microsoft Teams应用是一种将一个或多个功能聚合到可安装、升�
 
 - 机器人可以检索 (，并) 团队中的频道列表;此数据会离开企业网络。
 
-- 将文件发送到机器人时，该文件会离开企业网络。 发送和接收文件需要用户批准每个文件。 
+- 将文件发送到机器人时，该文件会离开企业网络。 发送和接收文件需要用户批准每个文件。
 
-- 默认情况下，机器人无法代表用户操作，但机器人可以请求用户登录;用户登录后，机器人将拥有一个访问令牌，可以使用该令牌执行其他操作。 这些附加内容完全取决于机器人以及用户登录位置：机器人是一个Azure AD应用https://apps.dev.microsoft.com/，可以有自己的权限集。
+- 默认情况下，机器人无法代表用户操作，但机器人可以请求用户登录;用户登录后，机器人将拥有一个访问令牌，可以使用该令牌执行其他操作。 这些附加内容完全取决于机器人以及用户登录位置：机器人是在应用程序注册门户中注册的 Azure AD 应用，可以有自己的权限集。[](https://apps.dev.microsoft.com/?referrer=https:%2f%2fdocs.microsoft.com%2f#/appList)
 
 - 每当向团队添加或删除用户时，都会通知机器人。
 
@@ -140,7 +139,7 @@ SEND_AND_RECEIVE_WEB_DATA
 
 ### <a name="considerations"></a>注意事项
 
-- 选项卡的风险配置文件几乎与在浏览器选项卡中运行的同一网站相同。 
+- 选项卡的风险配置文件几乎与在浏览器选项卡中运行的同一网站相同。
 
 - 选项卡还会获取运行它的上下文，包括当前用户的登录名和 UPN、当前用户的 Azure AD 对象 ID、它所在的 Microsoft 365 组的 ID (（如果是团队) 、租户 ID 和用户的当前区域设置）。 但是，若要将这些 ID 映射到用户的信息，该选项卡必须让用户登录到 Azure AD。
 
@@ -177,7 +176,7 @@ REPLYTO_CONNECTOR_MESSAGE。 某些连接器支持可操作的消息，允许用
 
 ## <a name="outgoing-webhooks"></a>传出 Webhook
 
-*传出 Webhook* 由团队所有者或团队成员进行创建。 它们不是应用Teams的功能;为了完整，包含此信息。
+_传出 Webhook_ 由团队所有者或团队成员进行创建。 它们不是应用Teams的功能;为了完整，包含此信息。
 
 ### <a name="required-permissions"></a>所需权限
 

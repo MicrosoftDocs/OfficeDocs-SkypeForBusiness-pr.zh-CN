@@ -11,26 +11,28 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: 了解团队模板以及如何在管理中心内管理Microsoft Teams模板。
+description: 了解团队模板以及如何在管理中心内Microsoft Teams模板。
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dd07e375a35ea212bccd988395b5c1adbd721011
-ms.sourcegitcommit: d3c48f0c147cf0c47d5eb4ea1128b5bca13be718
+ms.openlocfilehash: e65f7a0eef62197e90f77876129af95f32f4d6bc
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62299047"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442478"
 ---
 # <a name="get-started-with-team-templates-in-the-teams-admin-center"></a>在管理中心内开始使用 Teams 模板
 
 **EDU 客户尚不支持创建自定义模板。**
 
 > [!NOTE]
-> 团队模板目前不支持专用频道和敏感度标签。 专用通道创建不包括在模板定义中。 从模板流创建团队 **中的** 敏感度标签选项不会应用于该团队。
+> - 团队模板目前不支持专用频道。 专用通道创建不包括在模板定义中。
+>
+> - 在环境中，团队模板不支持敏感度GCC标签。 "从模板创建团队"流中的敏感度标签选项不会应用于该团队。
 
 ## <a name="overview"></a>概述
 
@@ -41,7 +43,7 @@ Microsoft Teams模板是围绕业务需求或项目设计的团队结构的定�
 本文概述了在管理中心内使用Teams模板。 你将了解模板支持的属性、我们提供的预建模板、模板大小限制、如何创建和管理模板等。
 
 > [!NOTE]
-> 用户可以从[应用内](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c)预建或自定义团队模板创建Teams团队。 开发人员还可使用 Microsoft Graph 通过预建的团队模板以编程方式创建Graph。 若要了解有关详细信息，请参阅[开始使用 Microsoft Graph 团队Graph](get-started-with-teams-templates.md)。
+> 用户可以通过[预建的或自定义的团队](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c)模板在 Teams 创建团队。 开发人员还可使用 Microsoft Graph 通过预建的团队模板创建团队。 有关详细信息，请参阅[开始使用 Microsoft Graph 团队模板](get-started-with-teams-templates.md)。
 
 ## <a name="team-template-capabilities"></a>团队模板功能
 
@@ -119,7 +121,7 @@ Microsoft Teams模板是围绕业务需求或项目设计的团队结构的定�
 
 #### <a name="view-team-templates"></a>查看团队模板
 
-若要查看团队模板，在管理中心左侧导航Teams，转到 > "Teams **模板"**。 选择一个模板以查看更多详细信息，包括它包含的通道和应用。
+若要查看团队模板，在 Teams 管理 > 中心的左侧导航栏中，转到Teams **团队模板"**。 选择一个模板以查看更多详细信息，包括它包含的通道和应用。
 
 #### <a name="create-your-own-team-templates"></a>创建自己的团队模板
 

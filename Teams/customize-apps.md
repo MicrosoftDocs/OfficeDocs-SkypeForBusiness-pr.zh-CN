@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何在应用中自定义Microsoft Teams。
-ms.openlocfilehash: 7fb940ed512c96bd4aa4519bcdabbf9adcbe86a8
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 1f32b7f7d00b6737d959a1687574ce4560bd4725
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070421"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442638"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>自定义应用中Microsoft Teams
 
@@ -85,19 +85,19 @@ ms.locfileid: "63070421"
 > [!Note]
 > 只有应用开发人员已分配为可自定义的字段将可见。
 
-5. 展开" **图标"** 部分。
+1. 展开" **图标"** 部分。
 
-   1. Upload图标。 使用一个全色图标 (192x192) PNG 格式的像素。
+1. Upload图标。 使用一个全色图标 (192x192) PNG 格式的像素。
 
-   1. 选择图标轮廓颜色。 使用一个透明 (32x32) PNG 格式的像素。
+1. 选择图标轮廓颜色。 使用一个透明 (32x32) PNG 格式的像素。
 
-   1. 选择与图标匹配的应用主题色。
+1. 选择与图标匹配的应用主题色。
 
-    ![自定义图标面板颜色选项。](media/customize-app-colors.png)
+   ![自定义图标面板颜色选项。](media/customize-app-colors.png)
 
-6. 自定义应用后，选择"应用 **"**。
+1. 自定义应用后，选择"应用 **"**。
 
-7. 选择 **"** 发布"以发布自定义应用。
+1. 选择 **"** 发布"以发布自定义应用。
 
    自定义应用现已在"管理应用 **"页中** 列出。 你将只有一个版本的应用，因为自定义应用功能不会创建应用的副本。
 
@@ -110,6 +110,7 @@ ms.locfileid: "63070421"
 以下说明包含有关自定义应用的重要详细信息。
 
 > [!Note]
+>
 > - 自定义应用和与应用相关的任何说明时，请确保遵循任何自定义指南（如果应用发布者在文档或使用条款中提供）。 你还有责任尊重他人对可能使用的任何第三方图像的权利。
 > - 管理员提供的自定义数据存储在最近的区域。
 > - 你负责确保指向使用条款或隐私策略的链接有效。

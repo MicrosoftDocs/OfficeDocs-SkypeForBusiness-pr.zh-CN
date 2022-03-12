@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
 description: 了解如何在 表扬 管理中心内Microsoft Teams应用。
-ms.openlocfilehash: 6d1382084a9c789043d699f2d935e5c50369c474
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 364fb60b6a729062e358685426acd98704c7ac02
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070191"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442678"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>在 表扬 管理中心Microsoft Teams应用
 

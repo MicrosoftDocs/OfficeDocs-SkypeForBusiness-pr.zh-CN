@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 10adab9046a7cbd8cebccf6167075e38b1204dea
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 0c2ec3432a503755ba6164f4a46f7b35f9696271
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070431"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442308"
 ---
 # <a name="teams-approvals-app-availability"></a>Teams“审批”应用可用性
 
@@ -198,6 +198,7 @@ Common Data Model (CDM) 是业务和分析应用程序在 CDS 中使用的共享
 ## <a name="approvals-e-signature-integration"></a>审批电子签名集成
 
 若要使用"审批"应用电子签名功能，需要获得想要使用的特定电子签名提供商的许可证。 若要获取组织的许可证，您需要转到提供商的网站。
+
 ### <a name="enable-or-disable-e-signature-providers"></a>启用或禁用电子签名提供程序
 
 可以使用 Teams 管理中心来控制哪些第三方电子签名提供商可供"审批"应用中用户使用。 默认情况下，电子签名提供程序在"审批"应用中启用。 禁用电子签名提供商时，用户创建审批时将无法访问该提供商。 用户还无法查看使用该提供程序创建的电子邮件签名请求。

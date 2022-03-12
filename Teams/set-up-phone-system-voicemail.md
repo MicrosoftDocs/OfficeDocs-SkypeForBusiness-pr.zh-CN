@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 了解如何为用户云语音邮件帐户。
-ms.openlocfilehash: d2bb29130bad312dbd420c0adb8b16558232c258
-ms.sourcegitcommit: c5f281342c5f2af65492692ab1249789c637e457
+ms.openlocfilehash: d78942c5cbfc6af8e921c26c806378b45f480835
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2022
-ms.locfileid: "63392864"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442318"
 ---
 # <a name="set-up-cloud-voicemail"></a>设置云语音邮件
 
@@ -107,7 +107,7 @@ ms.locfileid: "63392864"
 
 启用受保护的语音邮件后，用户可以通过呼叫进入其语音邮件邮箱或在 Outlook、Outlook 网页版 或 Outlook for Android 或 iOS 中打开该邮件来收听受保护的语音邮件。 对于 Busimes，受保护的语音邮件Microsoft Teams Skype打开。
 
-若要为语音邮件创建敏感度标签，请参阅 [使用敏感度标签](/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions)。 选择 **"Outlook"，强制实施** 以下限制之一，然后选择"**不转发"** 选项。
+若要为语音邮件创建敏感度标签，请参阅 [使用敏感度标签](/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions)。 在" **加密** "部分中， **选择"允许用户在应用标签时分配权限"**。 选择 **"Outlook"，强制实施** 以下限制之一，然后选择"**不转发"** 选项。
 
 若要创建自动标记策略以将敏感度标签应用到语音邮件，请参阅如何配置自动 [标记](/microsoft-365/compliance/apply-sensitivity-label-automatically?view=o365-worldwide#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange)策略，并指定以下特定设置：
 

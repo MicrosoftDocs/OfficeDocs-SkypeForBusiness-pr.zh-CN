@@ -21,12 +21,12 @@ MS.collection:
 - microsoftcloud-retail
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2ad0324509849700ea74afe582d4ce7a4934dc3e
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 90bdf2661432a5d68b8f6a727a272855f1a52173
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070591"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442448"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中为组织管理 Tasks 应用
 
@@ -91,12 +91,12 @@ Tasks 在你的组织中默认为所有 Teams 用户启用。 你可以在 Micro
 
 通过发布任务，你的组织可以发布在组织内针对特定地点（团队）的任务列表，来定义并共享需要在那些地点完成的工作计划。
 
-- 在发布团队的人员，例如企业或地区领导，可以创建任务列表并发布给特定团队。<br>
+- 在发布团队的人员，例如企业或地区领导，可以创建任务列表并发布给特定团队。
     ![任务发布屏幕截图。](media/manage-tasks-app-publish.png)
-- 收件团队的管理者可以检查发布的任务列表并分配个人任务给团队成员。<br>
+- 收件团队的管理者可以检查发布的任务列表并分配个人任务给团队成员。
     ![分配任务的屏幕截图。](media/manage-tasks-app-assign.png)
 - 前线工作者有查看已分配任务的简便移动体验。 他们可以在适当的时候附加照片来展示工作并标记任务为已完成。
-- 发布者和管理者可以查看报告来了解各个级别的任务分配和完成状态，包括以地点（团队）、任务列表以及个人任务查看。<br>
+- 发布者和管理者可以查看报告来了解各个级别的任务分配和完成状态，包括以地点（团队）、任务列表以及个人任务查看。
     ![移动设备上已分配任务的屏幕截图。](media/manage-tasks-app-reporting.png)
 
 用户在 Tasks 应用中的 **已发布列表** 选项卡创建、管理以及发布任务列表。 此选项卡只在组织已经[设置团队目标层次结构](#set-up-your-team-targeting-hierarchy)并且用户所在团队在该结构中时显示。 此层次结构决定用户是否能够发布或接收任务列表并查看已接收列表的报告。

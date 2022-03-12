@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何在管理中心内管理对基于 Microsoft Power Platform 的自定义Microsoft Teams的访问权限。
-ms.openlocfilehash: d2ccb100a0d6354b1fca62911b17afdd3479887b
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: c093d432faa8d4977f4d931ac948a35dc6fe6509
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070531"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442668"
 ---
 # <a name="manage-microsoft-power-platform-apps-in-the-microsoft-teams-admin-center"></a>在管理中心内管理 microsoft Power Platform Microsoft Teams应用
 
@@ -76,7 +76,7 @@ ms.locfileid: "63070531"
 
 ### <a name="allow-or-block-microsoft-power-platform-apps-for-specific-users"></a>允许或阻止特定用户的 Microsoft Power Platform 应用
 
-若要允许或阻止组织中特定用户访问在 Power Apps 或 Power Virtual Agents 中创建的应用，请创建并分配一个或多个自定义[应用权限策略](teams-app-permission-policies.md)。 
+若要允许或阻止组织中特定用户访问在 Power Apps 或 Power Virtual Agents 中创建的应用，请创建并分配一个或多个自定义[应用权限策略](teams-app-permission-policies.md)。
 
 例如，若要阻止特定用户访问 Power Apps 中创建的应用，请创建自定义应用权限策略来阻止共享Power Apps，然后将该策略分配给这些用户。
 
@@ -84,7 +84,7 @@ ms.locfileid: "63070531"
 
 ### <a name="use-audit-logs-to-investigate-microsoft-power-platform-installation-activity"></a>使用审核日志调查 Microsoft Power Platform 安装活动
 
-可以使用适用于 Teams 的审核日志，以调查用户从"应用"页的"同事生成"部分安装 Microsoft  Power Platform Teams。 为此，请[审核日志](./audit-log-events.md)用户或Teams应用的"安装 ( 操作") 搜索"已安装的应用"事件。 若要查找同事 **从"生成**"安装的应用，请查找给定记录详细信息 **中 AppDistributionMode** 属性中的 **TemplatedInstance** 值。 
+可以使用适用于 Teams 的审核日志，以调查用户从"应用"页的"同事生成"部分安装 Microsoft  Power Platform Teams。 为此，请[审核日志](./audit-log-events.md)用户或Teams应用的"安装 ( 操作") 搜索"已安装的应用"事件。 若要查找同事 **从"生成**"安装的应用，请查找给定记录详细信息 **中 AppDistributionMode** 属性中的 **TemplatedInstance** 值。
 
 :::image type="content" source="media/manage-power-platform-apps-audit.png" alt-text="AppDistributionMode 属性中 TemplatedInstance 值的屏幕截图。":::
 

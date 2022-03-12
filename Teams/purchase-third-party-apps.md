@@ -16,12 +16,12 @@ description: 了解如何在管理中心购买第三方Teams应用Microsoft Team
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 0ce9458bbec59eb80d399a78e5d3bce1611ca381
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 77a54fc6c6cf45492143d0548e488324514b500a
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070201"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442648"
 ---
 # <a name="purchase-third-party-apps-for-teams"></a>购买适用于 Teams 的第三方Teams
 
@@ -39,25 +39,26 @@ Teams应用可免费安装，某些应用可能需要购买服务订阅，以体
 > 如果你希望阻止你的用户通过应用商店购买Teams，你必须阻止该应用。 若要详细了解如何阻止应用，请参阅 [管理](app-policies.md) 应用策略或了解如何在组织级别 [阻止应用](manage-apps.md#allow-and-block-apps)。
 
 1. 在 Microsoft Teams 管理中心的左侧导航中，转到“**Teams 应用**” > “**管理应用**”。 只有全局管理员或Teams才能访问页面。
-2. 搜索你需要的应用。 若要识别具有付费 SaaS 订阅的应用，请查找"许可证 **"** 列。 每个应用将具有以下值之一：
+1. 搜索你需要的应用。 若要识别具有付费 SaaS 订阅的应用，请查找"许可证 **"** 列。 每个应用将具有以下值之一：
     - **购买**：该应用提供 SaaS 订阅，可供购买。  
     - **已** 购买：该应用提供 SaaS 订阅，并且你已购买其许可证。
     - **- -**：应用未提供 SaaS 订阅。
-3. 找到应用时，单击" **购买** "转到应用详细信息 **页的** "计划和定价"选项卡。 查看应用的 SaaS 套餐的计划和定价信息。 如果需要更多信息，请选择" **了解详细信息** "以转到 [AppSource 上的应用页面](https://appsource.microsoft.com/)。
+1. 找到应用时，单击" **购买** "转到应用详细信息 **页的** "计划和定价"选项卡。 查看应用的 SaaS 套餐的计划和定价信息。 如果需要更多信息，请选择" **了解详细信息** "以转到 [AppSource 上的应用页面](https://appsource.microsoft.com/)。
 
-> [!NOTE]
-> 还可以列出专用计划进行购买，其中包括组织以前与 ISV 协商的特殊定价。 这些计划在计划 **名称下带有** "专用计划"标签。
+   > [!NOTE]
+   > 还可以列出专用计划进行购买，其中包括组织以前与 ISV 协商的特殊定价。 这些计划在计划 **名称下带有** "专用计划"标签。
 
-4. 若要订阅应用，请选择想要的计划，然后选择"购买 **"**。 结帐流将在管理中心Teams打开。
-5. 选择要购买的用户许可证数。
-6. 检查计费帐户和售达地址是否正确。 如果还没有，请通过选择"添加"来添加新 **的一个**。 有关计费帐户详细信息，请参阅 [了解计费帐户](/microsoft-365/commerce/manage-billing-accounts)。
+1. 若要订阅应用，请选择想要的计划，然后选择"购买 **"**。 结帐流将在管理中心Teams打开。
 
-> [!NOTE]
-> 只有全局管理员才能添加新的计费帐户。
+1. 选择要购买的用户许可证数。
+1. 检查计费帐户和售达地址是否正确。 如果还没有，请通过选择"添加"来添加新 **的一个**。 有关计费帐户详细信息，请参阅 [了解计费帐户](/microsoft-365/commerce/manage-billing-accounts)。
 
-7. 检查是否选择了正确的计费配置文件。 如果还没有，请通过选择"添加新项" **来添加新的一个**。 可以选择使用信用卡、借记卡或发票 [计费付款](#invoice-billing)。 计费配置文件还允许您添加采购订单编号，以便以后标识订单。 有关计费配置文件详细信息，请参阅 [了解计费配置文件](/microsoft-365/commerce/billing-and-payments/manage-billing-profiles)。
-8. 选择 **"下单"**。
-9. 选择 **"设置** "以在发布者的网站上激活订阅。 如果在购买后没有设置订阅，可以在以后选择"管理许可证 **"来设置订阅**。
+   > [!NOTE]
+   > 只有全局管理员才能添加新的计费帐户。
+
+1. 检查是否选择了正确的计费配置文件。 如果还没有，请通过选择"添加新项" **来添加新的一个**。 可以选择使用信用卡、借记卡或发票 [计费付款](#invoice-billing)。 计费配置文件还允许您添加采购订单编号，以便以后标识订单。 有关计费配置文件详细信息，请参阅 [了解计费配置文件](/microsoft-365/commerce/billing-and-payments/manage-billing-profiles)。
+1. 选择 **"下单"**。
+1. 选择 **"设置** "以在发布者的网站上激活订阅。 如果在购买后没有设置订阅，可以在以后选择"管理许可证 **"来设置订阅**。
 
 购买与 Teams 应用关联的 SaaS 产品/服务后，可以在应用详细信息页的"计划和定价"选项卡上查看以下购买详细信息。
 

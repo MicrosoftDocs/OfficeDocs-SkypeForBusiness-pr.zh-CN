@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何Teams Microsoft Power Platform 工具（包括 Power BI、Power 应用、Power automate 和 Power Virtual Agents）。
-ms.openlocfilehash: a0e0854f5827e1496147ac88123fc91bca600ed8
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: f902e0a137f5a5f996623a9207e9e192b90bb6b7
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070561"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442488"
 ---
 # <a name="teams-integration-with-microsoft-power-platform"></a>Teams Microsoft Power Platform 集成
 
@@ -47,7 +47,7 @@ Microsoft Power Platform 与 Teams 提供了许多集成功能，可在 Teams �
 
 - 有关适用于 Power Apps、Power Automate、Power Virtual Agents 和 Dataverse Teams许可要求，请参阅[许可](/power-platform/admin/about-teams-environment)。
 - 有关用户许可要求Power BI，请参阅[要求](/power-bi/collaborate-share/service-collaborate-microsoft-teams)。
- 
+
 ## <a name="how-do-i-get-started"></a>如何开始？
 
 - [Power BI 和 Teams](/power-bi/collaborate-share/service-collaborate-microsoft-teams)
