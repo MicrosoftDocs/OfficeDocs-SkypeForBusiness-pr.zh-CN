@@ -15,34 +15,34 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: 查看哪些 USB 外围设备和设备 (耳机、免提电话、网络摄像机和监视器) 认证Microsoft Teams。
-ms.openlocfilehash: d47e4723efae7ba339b54f5aa62064775d882e38
-ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
+ms.openlocfilehash: 1b9b8116ad06d58f6e77e33394ad5dd3db107c88
+ms.sourcegitcommit: 2b858f5e7281705b383522615b6ade6eba347df5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "62363188"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "63448795"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>经认证的 USB 音频和视频设备Microsoft Teams
 
-外围设备认证计划可确保 USB 外围设备 (耳机、免提电话、网络摄像机和监视器) 提供丰富的音频或视频质量。 经过认证的设备 (插件&，) 无需额外配置，并且通过 Microsoft Teams 和 Skype for Business。 这些产品为最终用户和管理员提供了出色的体验。
+外围设备认证计划可确保 USB 外围设备 (耳机、免提电话、网络摄像机和监视器等) 提供丰富的音频或视频质量。 经过认证的设备 (插件&，) 无需额外配置，并且通过 Microsoft Teams 和 Skype for Business。 这些产品为最终用户和管理员提供了出色的体验。
 
 若要浏览经测试并认证Microsoft Teams设备，请前往 Teams [商店](https://products.office.com/microsoft-teams/across-devices/devices)。
 
-有关通过耳机支持呼叫控制Teams，请参阅使用耳机[在](https://support.office.com/article/Control-calls-using-a-headset-in-Teams-65d6e104-444d-4013-b8c2-f11317dd69a8) Teams。
+有关使用耳机进行呼叫控制支持Teams，请参阅使用耳机[在](https://support.office.com/article/Control-calls-using-a-headset-in-Teams-65d6e104-444d-4013-b8c2-f11317dd69a8) Teams。
 
 > [!TIP]
-> 正在寻找经认证的设备Skype for Business？ 前往经[认证的 USB 音频和视频设备，Skype for Business](/skypeforbusiness/certification/devices-usb-devices)。
+> 正在寻找经认证的设备Skype for Business？ 前往经[认证的 USB 音频和视频设备，](/skypeforbusiness/certification/devices-usb-devices)Skype for Business。
 
 ## <a name="understanding-certification-categories"></a>了解认证类别
 
-从 Skype for Business 升级到之前认证的设备时，用户无需Teams设备。  所有经过认证的设备都受 Microsoft Teams 和 Skype for Business 用户的支持，但只有一些差异。  认证还为某些设备类别提供进一步指定。
+从 Skype for Business 升级到之前认证的设备时，用户无需Teams设备。  所有经过认证的设备都受 Microsoft Teams Skype for Business 用户的支持，但只有一些差异。  认证还为某些设备类别提供进一步指定。
 
-- **Skype for Business认证Teams** 级别认证的升级设备最初已通过 Skype for Business。 Microsoft 一直与设备制造商合作，在不更改原始硬件Teams提供最佳集成体验。 挂 *接开关* 按钮在Teams时充当一个按钮，并且可能随着时间的推移包含更多函数。  此类别中的设备可能在营销材料Teams认证徽章。
-- **此Microsoft Teams** 认证设备认证表明最新设备已通过认证，无需Teams体验。 这些设备提供之前认证的所有优势，还包括带 LED 指示器的专用Teams按钮。 对于大多数外形因素，Teams按钮是一个易于查找的具有徽标的Teams按钮。 随着时间的推移，Microsoft 将继续与设备制造商合作，通过固件更新提供新价值。
+- **Skype for Business认证Teams** 级别认证的升级设备最初已通过认证Skype for Business。 Microsoft 一直与设备制造商合作，在Teams硬件的情况下提供最佳集成体验。 挂 *接开关* 按钮在Teams时充当一个按钮，并且可能随着时间的推移包含更多函数。  此类别中的设备可能在营销材料Teams认证徽章。
+- **经过此Microsoft Teams** 认证的设备认证表明最新设备已通过认证，无需Teams体验。 这些设备提供之前认证的所有优势，还包括带 LED 指示器的专用Teams按钮。 对于大多数外形因素，Teams按钮是一个易于查找的具有徽标的Teams按钮。 随着时间的推移，Microsoft 将继续与设备制造商合作，通过固件更新提供新价值。
 
 ### <a name="special-usage-designations"></a>特殊用途指定
 
-- **高级版用于** 打开的麦克风Office所有耳机都经过测试以提供清晰的音频，但打开办公室和其他嘈杂的环境带来了更大的挑战。 具有此标志的耳机拾取耳机用户的声音，但不传输其邻居的声音。
+- **高级版麦克风打开** Office所有耳机都经过测试以提供清晰的音频，但打开办公室和其他嘈杂的环境带来了更大的挑战。 具有此标志的耳机拾取耳机用户的声音，但不传输其邻居的声音。
 - **会议室大小** 共享设备（如免提电话和摄像头）具有受支持的使用距离。 建议的距离可能有所不同，具体取决于制造商。 为了为客户提供明确的指导，所有共享设备都经过认证，针对明确定义的会议室大小和噪音环境进行测试。
 
 浏览[经认证的设备Microsoft Teams](https://products.office.com/microsoft-teams/across-devices/devices)。
@@ -52,8 +52,8 @@ ms.locfileid: "62363188"
 ### <a name="new-teams-certification-benefits"></a>新的Teams认证权益
 
 - 专用Teams按钮和 LED 指示灯。
-- 来自客户端的事件和警报的用户Teams通知 (例如会议开始、语音邮件或错过) 。
-- 能够激活Teams客户端，或者通过按按钮响应通知 (，例如，在) 。
+- 来自客户端的事件和警报的用户Teams通知 (例如会议开始、语音邮件或错过的呼叫) 。
+- 能够激活Teams客户端，或者通过按按钮响应通知 (例如，加入会议) 。
 - 旨在扩展性 (通过固件更新服务交付的新设备/客户端功能) 。
 
 ### <a name="core-certification-benefits"></a>核心认证权益
@@ -74,10 +74,11 @@ ms.locfileid: "62363188"
 
 ## <a name="certified-devices"></a>认证设备
 
-*表更新时间：2022 年 2 月*
+*表更新时间：2022 年 3 月*
 
 | 制造商        | 模型                                                     | 限定      | 认证计划                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Dell                 |免提 SP3022                                        |2/7/2022        |认证Microsoft Teams                           |
 |Dell                 |Slim Conferencing Soundbar SB522A                          |1/25/2022       |认证Microsoft Teams                           | 
 |Lenovo               |Go Wired ANC Headset                                       |1/12/2022       |认证Microsoft Teams                           |
 |Lenovo               |转到有线免提电话                                      |1/10/2022       |认证Microsoft Teams                           |
@@ -88,9 +89,9 @@ ms.locfileid: "62363188"
 |EPOS                 |IMPACT SDW 5016T                                           |12/1/2021       |认证Microsoft Teams                           |
 |EPOS                 |IMPACT SDW 5013T                                           |12/1/2021       |认证Microsoft Teams                           |
 |Jabra                |PanaCast 20                                                |11/26/2021      |认证Microsoft Teams                           |
-|Poly                 |"探索者焦点 2"和"Office者基础"                    |10/20/2021      |认证Microsoft Teams                           |
-|Poly                 |使者 4320 和Office者 Base                       |10/20/2021      |认证Microsoft Teams                           |
-|Poly                 |使者 4310 和Office者 Base                       |10/20/2021      |认证Microsoft Teams                           |
+|Poly                 |"玩家焦点 2"和"Office者基础"                    |10/20/2021      |认证Microsoft Teams                           |
+|Poly                 |使者 4320 和Office Base                       |10/20/2021      |认证Microsoft Teams                           |
+|Poly                 |使者 4310 和Office者基础                       |10/20/2021      |认证Microsoft Teams                           |
 |Jabra                |Evolve 2 75 Headset                                        |10/8/2021       |认证Microsoft Teams                           |
 |Logitech             |区域有线耳机                                         |9/2/2021        |认证Microsoft Teams                           |
 |AudioCodes           |RXVCam10                                                   |8/26/2021       |认证Microsoft Teams                           |
