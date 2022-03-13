@@ -18,16 +18,16 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 05d683bbefa9b3cc564e4f97e52f0fad441f2763
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 3a9566ceb6d99bb7d665efea975ecee048607dc9
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070391"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442498"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Microsoft Teams 中的应用、聊天机器人和连接器
 
-应用使你能通过收藏夹服务查找内容，并在 Teams 中分享。 应用可帮助你执行某些操作，例如将服务固定在频道的顶部、与聊天机器人聊天，或者共享和分配任务。 若要了解详细信息，请阅读 [Teams 中的应用概述](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0)。 
+应用使你能通过收藏夹服务查找内容，并在 Teams 中分享。 应用可帮助你执行某些操作，例如将服务固定在频道的顶部、与聊天机器人聊天，或者共享和分配任务。 若要了解详细信息，请阅读 [Teams 中的应用概述](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0)。
 
 可以通过使用 Microsoft Teams 提供的应用、使用经过认证的第三方应用和模板，以及创建自己的自定义应用将应用添加到 Teams 部署中。
 
@@ -47,7 +47,6 @@ Teams自带一组内置应用，包括列表、任务、表扬、审批等。 �
 
 可以通过使用 Teams 与[Microsoft Power Platform](teams-power-platfom-integration.md)的集成，快速构建自定义的低代码解决方案。 也可以根据自己的业务需求，创建自己的定制应用。 有关更多信息，请参阅 [为 Microsoft Teams 构建应用](/microsoftteams/platform/overview)。  
 
-
 ## <a name="apps-deployment-decisions"></a>应用部署决策
 
 Teams 为组织提供了现成的出色协作体验，并且大多数组织发现默认设置适合它们。本文可帮助你决定是否要根据组织的情况和业务需求更改任何默认设置，然后引导你完成每项更改。我们将这些设置分为两组：首先是[你更有可能更改的一组核心设置](#core-deployment-decisions)。第二组包括你可能希望根据组织的需求配置的[其他设置](#additional-deployment-decisions)。
@@ -56,11 +55,12 @@ Teams 为组织提供了现成的出色协作体验，并且大多数组织发�
 
 以下是大多数组织在默认设置不适合的情况下想要更改的应用设置。
 
-### <a name="app-availability-settings"></a>应用可用性设置 
+### <a name="app-availability-settings"></a>应用可用性设置
 
-Teams 提供了许多由 Microsoft 和第三方发布的应用，以吸引用户、支持生产力，以及将常用的业务服务集成到 Teams 中。 从 Teams 应用商店获取应用。 默认情况下，所有应用（包括你通过 [Teams 应用商店审批流程](/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process)提交的自定义应用）均对所有用户开启。 例如，用户可以使用 Planner 应用在 Teams 中构建和管理团队任务。
+Teams 提供了许多由 Microsoft 和第三方发布的应用，以吸引用户、支持生产力，以及将常用的业务服务集成到 Teams 中。
+从 Teams 应用商店获取应用。 默认情况下，所有应用（包括你通过 [Teams 应用商店审批流程](/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process)提交的自定义应用）均对所有用户开启。 例如，用户可以使用 Planner 应用在 Teams 中构建和管理团队任务。
 
-默认情况下，所有 Microsoft 提供的应用、第三方和自定义应用均可用，且你可启用或关闭单独的应用。 可通过一项全组织范围内的设置来为整个组织启用或关闭所有第三方和/或自定义应用。
+默认情况下，所有 Microsoft 提供的应用、第三方和自定义应用均可用，且你可启用或关闭单独的应用。 可通过一项全组织范围内的设置来为整个组织启用或禁用所有第三方和/或自定义应用。
 
 | 询问你自己 | 操作 |
 |--------------|--------|
@@ -68,6 +68,8 @@ Teams 提供了许多由 Microsoft 和第三方发布的应用，以吸引用户
 |||
 
 ### <a name="app-permissions-and-other-considerations"></a>应用权限和其他注意事项
+
+应用由用户允许，并由管理员或 IT 专业人员通过策略进行管理。 但总的来说，应用的权限和风险配置文件是在应用本身中定义的。
 
 应用由用户允许，并由管理员或 IT 专业人员通过策略进行管理。 但是，应用权限和风险配置文件在应用本身中定义。
 
@@ -118,7 +120,9 @@ Teams 提供了许多由 Microsoft 和第三方发布的应用，以吸引用户
 
 ### <a name="app-templates"></a>应用模板
 
-应用模板是适用于 Microsoft Teams 的生产就绪型应用，它们由社区驱动、开放源代码且可在 GitHub 上获取。 每个模板都包含为组织部署和安装该应用的详细说明，从而提供了一个可立即安装并开始使用的即用型应用。 此外，还提供完整的源代码，以便你可以对其进行详细的研究，或获取相应代码并进行更改以满足你的特定需求。
+应用模板是适用于 Microsoft Teams 的生产就绪型应用，它们由社区驱动、开放源代码且可在 GitHub 上获取。 每个模板都包含为组织部署和安装该应用的详细说明，从而提供了一个可立即安装并开始使用的即用型应用。
+
+此外，还提供完整的源代码，以便你可以对其进行详细的研究，或获取相应代码并进行更改以满足你的特定需求。
 
 | 询问你自己 | 操作 |
 |--------------|--------|
