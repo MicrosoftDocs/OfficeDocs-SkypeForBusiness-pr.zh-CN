@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 了解如何在 Microsoft Teams 中使用和管理私人频道。
-ms.openlocfilehash: 2127ada4a289a04176a2ae743299c3176df4a661
-ms.sourcegitcommit: 766199440a152d97c95c2c45b7c4654815e64d9a
+ms.openlocfilehash: 097c7e4c43c6127b59423cab94b97ac949a2df57
+ms.sourcegitcommit: b635f3765498ae23f535a33fa9ffea5068eecb14
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "62963393"
+ms.lasthandoff: 03/14/2022
+ms.locfileid: "63463745"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft Teams 中的私人频道
 
@@ -85,14 +85,14 @@ Microsoft Teams 中的私人频道创建专用空间供团队展开协作。 仅
 
 ## <a name="private-channel-sharepoint-sites"></a>私人频道 SharePoint 网站
 
-每个专用频道都有其自己的 SharePoint 网站。 单独的网站用于确保仅访问专用频道文件的成员。 默认情况下，这些网站集是使用文档库创建的，并且可通过[网站管理界面](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04)轻松增强为功能齐全的网站集。 每个网站创建在与父团队网站相同的地理区域创建。 这些轻型网站具有自定义模板 ID“TEAMCHANNEL#0”，可通过 PowerShell 和 Graph API 实现更轻松的管理。 
+每个专用频道都有其自己的 SharePoint 网站。 单独的网站用于确保仅访问专用频道文件的成员。 默认情况下，这些网站集是使用文档库创建的，并且可通过[网站管理界面](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04)轻松增强为功能齐全的网站集。 每个网站创建在与父团队网站相同的地理区域创建。 这些轻型网站具有自定义模板 ID"TEAMCHANNEL#0"或"TEAMCHANNEL#1"，以便通过 PowerShell 和图形 API更轻松地进行管理。 
 
 > [!NOTE]
 > 只有具有频道中所有者或成员权限的人员才能访问共享频道网站中的内容。 父团队和管理员中的人员将无权访问权限，除非他们也是频道成员。
 
 专用频道网站同步数据分类，并继承父团队网站的来宾访问权限。 网站集所有者和成员组的成员资格将与 Teams 中私人频道的成员资格保持同步。 无法通过 SharePoint 独立管理专用频道网站的网站权限。 
 
-团队管理专用频道网站的生命周期。 如果在 Teams 外部删除了网站集，则只要私人频道仍处于活动状态，后台作业将在四个小时内还原该网站。
+Teams 管理专用频道网站的生命周期。如果网站在 Teams 外部删除，则后台作业会在 4 小时内还原网站，前提是专用频道仍处于活动状态。
 
 如果还原了含有专用频道的专用频道或团队，网站将随其一起还原。 如果已还原私人频道网站集，并且超出了私人频道的 30 天软删除时间段，则该网站集将作为独立网站集运行。
 
