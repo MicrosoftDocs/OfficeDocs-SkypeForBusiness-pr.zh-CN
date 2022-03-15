@@ -1,7 +1,7 @@
 ---
 title: 管理Windows更新Microsoft Teams 会议室
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 ms.assetid: ''
 description: 管理员可以了解如何管理Windows更新Windows更新Microsoft Teams 会议室。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c904db6b168280619b203a1327d6477736077efe
-ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
+ms.openlocfilehash: 95b99e8869ed9fa63a372c6c40d1d0d2be28c019
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "62015002"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503749"
 ---
 # <a name="manage-windows-updates"></a>管理Windows更新
 
@@ -37,22 +37,22 @@ Windows如以下部分所述管理更新：
 
 ## <a name="windows-updates-for-business-gpo-or-intune"></a>Windows GPO (Intune)   
 
-- [Windows更新 for Business](/windows/deployment/update/waas-manage-updates-wufb)下载
-- 更新从 Windows 更新或 Windows Server Update Services (WSUS) 但配置的延迟比原始发布日期更迟。
-- 可以使用多个 US 或筛选的策略创建部署"环"，管理员可以在部署"环"中指定Teams 会议室哪些设备先安装质量更新，哪些设备稍后安装。 在整个部署中推出更新之前，可以在一部分设备上测试可靠性和性能，而无需在配置管理器中Windows更新。
-- 如果同时Windows适用于 Business 的更新提供的带宽管理和控制，[](/windows/deployment/update/waas-integrate-wufb)可以同时配置适用于Windows的 WSUS 和 Windows更新。
+- [Windows更新 for Business](/windows/deployment/update/waas-manage-updates-wufb) 下载
+- 更新从 Windows 更新或 Windows Server Update Services (WSUS) ，但配置的延迟会过原始发布日期。
+- 可以使用多个 US 或筛选的策略创建部署"环"，管理员可以在"环"中指定哪些设备Teams 会议室安装质量更新，以及哪些设备稍后安装。 在整个部署中推出更新之前，可以在一部分设备上测试可靠性和性能，而无需在配置管理器中Windows更新。
+- 如果同时Windows适用于 Business 的更新提供的带宽管理和控制，可以同时[](/windows/deployment/update/waas-integrate-wufb)配置 WSUS Windows Business 更新。
 - 功能更新。 请参阅以下备注。
 
 ## <a name="wsusconfiguration-manager"></a>WSUS/Configuration Manager
 
 - [WSUS/Configuration Manager](/windows/deployment/update/waas-manage-updates-configuration-manager) 下载
-- 与 Windows 更新 for Business 非常类似，但具有在每个"环"或整个部署中定位特定 KB 的其他选项。 可以单独部署并测试每个更新，而不是仅依赖于延迟。
+- 与 Windows 更新 for Business 非常类似，但附加的选项是在每个"环"或整个部署中定位特定知识库。 可以单独部署并测试每个更新，而不是仅依赖于延迟。
 - 功能更新。 请参阅以下备注。
 
 ### <a name="feature-updates"></a>功能更新
 
-与质量和不可延迟更新不同，Windows 10"功能更新" (主要操作系统版本) 仅在 Microsoft 使用 Microsoft Teams 会议室 测试并验证给定更新功能后安装。 即使更新已发布到 Semi-Annual Channel (或 Targeted（如果系统已设置为用于测试) 或手动推送的通道，Microsoft Teams 会议室 也不允许安装未经测试的更新。
+与质量和不可延迟更新不同，Windows 10"功能更新" (主要操作系统版本) 仅在 Microsoft 使用 Microsoft Teams 会议室 测试并验证给定更新功能后才能安装。 即使更新已发布到 Semi-Annual 通道 (或定向（如果系统已设置为用于测试) 或手动推送的通道，Microsoft Teams 会议室 也不允许安装未经测试的更新。
 
 Microsoft Teams 会议室一种动手方法，实现"开箱即用"功能。 Teams 会议室下载更新并等待下次重新启动以安装它。 除非有人手动重新启动它，否则安装仅在夜间自动重新启动时进行。 Windows更新在聊天室中应该是透明的，并且正常操作不应被更新Windows中断。
 
-如果选择将设备加入域，可以使用 Microsoft Endpoint Configuration Manager WSUS。 请特别注意在营业时间导致设备更新或强制重新启动的策略或操作。 Teams 会议室使用期间不应重启，也不应在Windows时间通过 UI 发送有关更新的警报。 如果发生此行为，请查看配置。
+如果选择对加入设备进行域设置，可以使用 Microsoft Endpoint Configuration Manager WSUS。 请特别注意在营业时间导致设备更新或强制重新启动的策略或操作。 Teams 会议室使用期间不应重启，也不应在使用Windows UI 上提醒用户更新。 如果发生此行为，请查看配置。

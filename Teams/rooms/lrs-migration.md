@@ -1,7 +1,7 @@
 ---
 title: 将 Lync Room System 设备迁移到 Microsoft Teams 会议室
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -15,20 +15,20 @@ ms.collection:
 ms.assetid: ''
 description: 阅读本主题，了解如何迁移 Lync Room System 设备以使用Microsoft Teams 会议室软件。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 98604c36a987dde15633e9d9b1a3a283c0f36fa2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: aae146767f66327e5678956a14dfe72d957a8164
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608819"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503509"
 ---
 # <a name="migrate-lync-room-system-lrs-devices-to-microsoft-teams-rooms"></a>将 Lync Room System (LRS) 设备迁移到 Microsoft Teams 会议室
 
-具有 Skype Room System 版本 1 (SRS v1) 软件的 Lync Room System (LRS) 设备于[2018 年 10](https://support.microsoft.com/help/4043450/products-reaching-end-of-support-for-2018)月 9 日终止支持。 这意味着 Skype Room Systems v1 软件将不再获得任何产品更新或修补程序。 建议安装有 Skype Room System v1 软件的 Lync Room System 设备的用户将其设备升级到 Microsoft Teams 会议室。
+具有 Skype Room (System 版本 1 (SRS v1) 软件的 Lync Room System) LRS 设备于 [2018 年 10 月 9](https://support.microsoft.com/help/4043450/products-reaching-end-of-support-for-2018) 日终止支持。 这意味着 Skype Room Systems v1 软件将不再获得任何产品更新或修补程序。 建议安装有 Skype Room System v1 软件的 Lync Room System 设备的用户将其设备升级到 Microsoft Teams 会议室。
 
 Microsoft Teams 会议室软件可以与 Microsoft Teams 一起工作，Skype for Business Server和 Online 服务在所有受支持的设备上Microsoft Teams 会议室呼叫。
 
-在支持会议室 **系统** v1 软件Skype现有设备可能继续工作。 但是，如果此软件命中需要 Microsoft 发布修补程序的软件 bug，则它将不受支持。 SRS v1 使用 TLS 1.0/ 1.1，将来 Microsoft 将弃用它。 可以详细了解如何[准备弃用 TLS 1.0/1.1。](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Preparing-for-TLS-1-0-1-1-Deprecation-O365-Skype-for-Business/bc-p/223608) 
+在支持会议室 **系统** v1 软件Skype现有设备可能继续工作。 但是，如果此软件命中需要 Microsoft 发布修补程序的软件 bug，则它将不受支持。 SRS v1 使用 TLS 1.0/ 1.1，将来 Microsoft 将弃用它。 可以详细了解如何 [准备弃用 TLS 1.0/1.1](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Preparing-for-TLS-1-0-1-1-Deprecation-O365-Skype-for-Business/bc-p/223608)。 
 
 ## <a name="which-devices-are-affected"></a>哪些设备受影响？
 
@@ -45,11 +45,11 @@ Microsoft Teams 会议室软件可以与 Microsoft Teams 一起工作，Skype fo
 
 ### <a name="crestron-hardware-trade-in-program"></a>Crestron 硬件折中计划
 
-对于所有 [Non-Crestron](https://www.crestron.com/products/featured-solutions/crestron-sr) Lync Room System 客户（例如 Smart 或 Polycom LRS (，Crestron 将提供对 Crestron SR 系统的升级或等效) 。 在此处查看此计划 [的详细信息，](https://support.crestron.com/app/answers/answer_view/a_id/1000220) 或 <!-- For details, -->[电子邮件](mailto:lrsupgrade@crestron.com) Crestron LRS 支持。  
+对于所有 Non-Crestron Lync Room System 客户（例如 Smart 或 Polycom LRS (，Crestron 将提供对 [Crestron SR](https://www.crestron.com/products/featured-solutions/crestron-sr) 系统的升级或等效) 。 在此处查看此计划 [的详细信息，](https://support.crestron.com/app/answers/answer_view/a_id/1000220) 或 <!-- For details, -->[电子邮件](mailto:lrsupgrade@crestron.com) Crestron LRS 支持。  
 
 ### <a name="crestron-rl2-upgrade-to-microsoft-teams-rooms"></a>将 Crestron RL2 升级到 Microsoft Teams 会议室
 
-现有 Crestron RL2 (也称为 Crestron RL200) 客户可以获取升级工具包，以使用 将当前 RL2 升级到 RL3，每个设备的成本最低。 在此处查看此计划 [的详细信息](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-RL-2/CCS-UC-250-KIT)。
+现有 Crestron RL2 (也称为 Crestron RL200) 客户可以获取升级工具包，以使用 将当前 RL2 升级到 RL3，每个设备的成本最低。 请在此处查看此计划 [的详细信息](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-RL-2/CCS-UC-250-KIT)。
 
 ### <a name="smart-room-systems-upgrade"></a>SMART Room Systems 升级
 

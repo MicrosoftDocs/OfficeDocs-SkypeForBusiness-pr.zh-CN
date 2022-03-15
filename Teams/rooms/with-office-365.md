@@ -1,7 +1,7 @@
 ---
 title: 使用 Office 365 部署 Microsoft Teams 会议室
-ms.author: v-lanac
-author: lanachin
+ms.author: czawideh
+author: cazawideh
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: 阅读本主题，了解如何使用 Microsoft Teams 会议室 部署Office 365。
-ms.openlocfilehash: d4c66fb863c5c41a717808ddca43002752510fb5
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+ms.openlocfilehash: f54e7f7e201127b0a61c99f09fee2084378dbbd9
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62056022"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503709"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-office-365"></a>使用 Office 365 部署 Microsoft Teams 会议室
 
@@ -28,13 +28,13 @@ ms.locfileid: "62056022"
 
 ## <a name="requirements"></a>要求
 
-使用 Microsoft Teams 会议室部署Office 365，请确保已满足要求。 有关详细信息，请参阅Microsoft Teams 会议室[要求](requirements.md)。
+使用 Microsoft Teams 会议室部署Office 365，请确保满足要求。 有关详细信息，请参阅Microsoft Teams 会议室[要求](requirements.md)。
 
 ### <a name="add-a-resource-account"></a>添加资源帐户
 
-1. 连接 PowerShell Exchange Online。 有关说明，请参阅 连接[Exchange Online PowerShell。](https://go.microsoft.com/fwlink/p/?linkid=396554)
+1. 连接 PowerShell Exchange Online。 有关说明，[请参阅 连接 Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?linkid=396554)。
 
-2. 在 Exchange Online PowerShell 中，创建新的会议室邮箱或修改现有会议室邮箱。 默认情况下，会议室邮箱没有关联的帐户。 创建或修改允许其进行身份验证的会议室邮箱时，需要添加帐户。
+2. 在 Exchange Online PowerShell 中，创建新的会议室邮箱或修改现有的会议室邮箱。 默认情况下，会议室邮箱没有关联的帐户。 创建或修改允许其进行身份验证的会议室邮箱时，需要添加帐户。
 
    - 若要创建新的会议室邮箱，请使用以下语法：
 
@@ -68,12 +68,12 @@ ms.locfileid: "62056022"
      Set-Mailbox -Identity 'ConferenceRoom02' -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '9898P@$$W0rd' -AsPlainText -Force)
      ```
 
-   有关详细的语法和参数信息，请参阅[New-Mailbox](/powershell/module/exchange/mailboxes/new-mailbox)和[Set-Mailbox。](/powershell/module/exchange/mailboxes/set-mailbox)
+   有关详细的语法和参数信息，请参阅 [New-Mailbox](/powershell/module/exchange/mailboxes/new-mailbox) 和 [Set-Mailbox](/powershell/module/exchange/mailboxes/set-mailbox)。
 
 
 3. 在 Exchange Online PowerShell 中，在会议室邮箱上配置以下设置以改进会议体验：
 
-   - AutomateProcessing：AutoAccept (邮箱自动直接做出会议室预订决策，无需人工干预。) 
+   - AutomateProcessing：自动 (邮箱自动直接做出会议室预订决策，无需人工干预。) 
 
    - AddOrganizerToSubject：$false (会议组织者未添加到会议请求的主题。) 
 
@@ -93,12 +93,12 @@ ms.locfileid: "62056022"
    Set-CalendarProcessing -Identity 'ConferenceRoom01' -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse 'This is a Microsoft Teams meeting room!'
    ```
 
-   有关详细的语法和参数信息，请参阅[Set-CalendarProcessing。](/powershell/module/exchange/mailboxes/set-calendarprocessing)
+   有关详细的语法和参数信息，请参阅 [Set-CalendarProcessing](/powershell/module/exchange/mailboxes/set-calendarprocessing)。
    
-4. 连接运行"连接-MsolService -Credential $cred"powershell cmdlet，通过 MS Online PowerShell 设置 Active Directory 值。 有关 Active Directory 的详细信息，请参阅[Azure ActiveDirectory (MSOnline) 1.0。](/powershell/azure/active-directory/overview?view=azureadps-1.0) 
+4. 连接运行"连接-MsolService -Credential $cred"powershell cmdlet，向 MS Online PowerShell 设置 Active Directory 值。 有关 Active Directory 的详细信息，请参阅 [Azure ActiveDirectory (MSOnline) 1.0](/powershell/azure/active-directory/overview?view=azureadps-1.0)。 
 
    > [!NOTE]
-   > [Azure Active Directory PowerShell 2.0。](/powershell/azure/active-directory/overview?view=azureadps-2.0) 
+   > [Azure Active Directory PowerShell 2.0](/powershell/azure/active-directory/overview?view=azureadps-2.0)。 
 
 5. 强烈建议在帐户上禁用密码Teams 会议室过期。 下面是如何为帐户 ConferenceRoom01 禁用密码过期的示例：
 
@@ -107,7 +107,7 @@ ms.locfileid: "62056022"
     ```
 
 
-1. 资源帐户需要具有有效的 Office 365 许可证才能连接到 Microsoft Teams。 还需要为设备帐户分配使用位置 ，这决定了帐户可以使用哪些许可证 SKUS。 可以使用 检索 `Get-MsolAccountSku` 租户的可用 SKUS Office 365列表。 可以使用 `Set-MsolUserLicense` cmdlet 添加许可证。
+1. 资源帐户需要具有有效的 Office 365 许可证才能连接到 Microsoft Teams。 还需要为设备帐户分配使用位置 ，这决定了帐户可以使用哪些许可证 SKUS。 可以使用 检索`Get-MsolAccountSku`租户的可用 SKUS Office 365列表。 可以使用 cmdlet 添加 `Set-MsolUserLicense` 许可证。
 
    此示例将会议室许可证分配给美国的用户。
 
@@ -118,7 +118,7 @@ ms.locfileid: "62056022"
   ``` 
 
 
-   有关详细说明，请参阅[使用 PowerShell](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)向用户帐户Office 365许可证。
+   有关详细说明，请参阅[使用 PowerShell 向用户帐户Office 365许可证](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)。
 
 
 ## <a name="validate"></a>验证
@@ -128,7 +128,7 @@ ms.locfileid: "62056022"
 ## <a name="see-also"></a>另请参阅
 [使用其他元数据更新会议室邮箱，以提供更好的搜索和会议室建议体验](/powershell/module/exchange/set-place)
 
-[配置帐户Microsoft Teams 会议室](rooms-configure-accounts.md)
+[为帐户配置Microsoft Teams 会议室](rooms-configure-accounts.md)
 
 [Microsoft Teams 会议室规划](rooms-plan.md)
 

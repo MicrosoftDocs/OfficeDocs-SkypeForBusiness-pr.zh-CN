@@ -1,7 +1,7 @@
 ---
 title: 适用于 Microsoft Teams 会议室 的发行说明
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 管理员可以阅读有关更新的Microsoft Teams 会议室说明，其中列出了 Microsoft Teams 会议室。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8a8d08bd37fe3d2f32fcdb8f3a4989dba97e8a40
-ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
+ms.openlocfilehash: 3350068646420dcd9a53b1a56c6a144783956e44
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "63062566"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63504089"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>适用于 Microsoft Teams 会议室 的发行说明
 

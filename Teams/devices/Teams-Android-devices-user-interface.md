@@ -1,7 +1,7 @@
 ---
 title: 设置Microsoft Teams Android 设备用户界面
-ms.author: mitressl
-author: flinchbot
+ms.author: czawideh
+author: cazawideh
 manager: serdars
 audience: ITPro
 appliesto:
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 description: 了解如何在 Android 设备上设置Teams界面。
-ms.openlocfilehash: 32f5129330bf46657f126fc00f7eddc2fc30f090
-ms.sourcegitcommit: 909b0a709983d21fa6f2b547a78cc6a1222188df
+ms.openlocfilehash: c1872fffef3f21c3fec6a9c693b02e218d5d8337
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2022
-ms.locfileid: "62279380"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503776"
 ---
 # <a name="set-microsoft-teams-android-devices-user-interface"></a>设置Microsoft Teams Android 设备用户界面
 
@@ -30,7 +30,7 @@ Android 设备上有三种类型的用户界面Teams：
 2. 公用区域
 3. 会议
 
-如果将[用户](/microsoftteams/user-access)许可证分配给帐户（如 E3 或 E5 许可证），Teams 设备将显示默认最终用户接口，该界面已针对大多数用户方案提供完整功能。 但是，如果设备正在执行特定功能，例如公用区域电话或会议室，则这些用法有特定的用户界面。
+如果将[用户](/microsoftteams/user-access)许可证分配给帐户（如 E3 或 E5 许可证），Teams 设备会显示默认最终用户接口，该界面已针对大多数用户方案提供完整功能。 但是，如果设备正在执行特定功能，例如公用区域电话或会议室，则这些用法有特定的用户界面。
 
 以下三个图像显示了用户界面如何根据分配给用户帐户的许可证进行更改。 
 
@@ -42,7 +42,7 @@ Android 设备上有三种类型的用户界面Teams：
 
 ## <a name="common-area-interface"></a>公共区域接口
 
-在此映像中，用户帐户已分配有"公共区域"电话[许可证](/microsoftteams/set-up-common-area-phones)。 公用区域电话主要用于拨打和接听电话。 因此，拨号盘显示在显示器上：
+在此图像中，用户帐户已分配有"公共区域"电话[许可证](/microsoftteams/set-up-common-area-phones)。 公用区域电话主要用于拨打和接听电话。 因此，拨号盘显示在显示器上：
 
 :::image type="content" source="../media/teams-android-devices-cap1.jpg" alt-text="公用区域电话接口。":::
 
@@ -69,7 +69,7 @@ Android 设备上有三种类型的用户界面Teams：
 
 ### <a name="create-a-new-policy-and-assign-to-user"></a>创建新策略并分配给用户
 
-1. 启动远程Windows PowerShell会话，并Microsoft Teams cmdlet 连接到该会话：
+1. 启动远程Windows PowerShell会话，并Microsoft Teams cmdlet 连接到远程会话：
 
     ``` Powershell
     Connect-MicrosoftTeams
@@ -97,8 +97,8 @@ Microsoft Teams管理中心允许您管理Microsoft Teams设备。 有关使用�
 
 Teams管理中心提供管理手机Teams功能。 电话根据功能筛选为三个选项卡之一：用户电话、公用区域电话和会议电话。 
 
- :::image type="content" source="../media/teams-admin-center-phones-header.png" alt-text="管理中心Teams标题。":::
+ :::image type="content" source="../media/teams-admin-center-phones-header.png" alt-text="管理中心Teams电话标题。":::
 
 与用户界面检测一样，Teams手机基于分配给登录手机的帐户的许可证进行分类。 例如，如果分配有公用区域电话许可证的帐户登录了一部手机，则该电话将显示在默认的"所有电话"部分以及"公用区电话 **"部分。**
 
-如果希望手机显示在其他部分中，可以将其他许可证分配给该手机，或者创建并分配 Teams IP 电话策略，[如上所述](#override-automatic-user-interface-detection)。
+如果希望手机显示在其他部分中，可以将其他许可证分配给该手机，或者创建并分配一个 Teams IP 电话策略，[如上所述](#override-automatic-user-interface-detection)。

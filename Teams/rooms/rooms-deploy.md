@@ -1,7 +1,7 @@
 ---
 title: 部署 Microsoft Teams 会议室
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -15,21 +15,21 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: 阅读本文以了解如何部署 Microsoft Teams 会议室（包括部署阶段）。
-ms.openlocfilehash: 1f9edd4ccd2c0de00c91b99cef4f3f27b081b9ab
-ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
+ms.openlocfilehash: 8240eaff652a0ff465c9eb06242075b0d6baeba8
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "62015232"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503679"
 ---
 # <a name="deployment-overview"></a>部署概述
 
 Microsoft Teams 会议室的部署基本上分为几个阶段：
 
-- 确认部署位置 (满足) 依赖项
-- 创建Microsoft Teams帐户Skype for Business Exchange帐户并将其分配给Teams 会议室 (请参阅为[Microsoft Teams 会议室) ](rooms-configure-accounts.md)
--  (可选) 为系统设置 Azure Monitor ([请参阅使用 Azure Monitor](azure-monitor-deploy.md) Microsoft Teams 会议室管理
-- 在Teams 会议室空间设置设备并连接所需的外围设备 (请参阅适用于您的一组设备的 OEM 文档) 
+- 确认部署位置 (空间) 满足部署依赖项要求
+- 创建Microsoft Teams帐户Skype for Business Exchange帐户并将其分配给Teams 会议室 (请参阅为Microsoft Teams 会议室[) ](rooms-configure-accounts.md)
+-  (可选) 为系统设置 Azure Monitor ([请参阅使用 Azure Monitor Microsoft Teams 会议室管理](azure-monitor-deploy.md)
+- 在Teams 会议室空间设置设备并连接所需的外围设备 (请参阅您的一组设备的 OEM 文档) 
 
 ## <a name="site-readiness"></a>网站就绪 
 
@@ -41,7 +41,7 @@ Microsoft Teams 会议室的部署基本上分为几个阶段：
 -   [证书](rooms-prep.md#certificates)
 -   [代理](rooms-prep.md#proxy)
 
-**Pro提示**- 如果必须使用代理服务器来提供对 Teams 的访问权限，请 [首先查看本文](../proxy-servers-for-skype-for-business-online.md)。 在通过代理服务器Microsoft Teams实时媒体流量时，建议完全绕过代理服务器。 Microsoft Teams流量已加密，因此代理服务器不会使其更安全，并且会为实时流量增加延迟。 作为更广泛部署的一部分，我们建议您遵循[为 Teams 准备网络](../prepare-network.md)以进行带宽规划和评估网络对实时流量的适用性中的指导。
+**Pro提示** - 如果必须使用代理服务器来提供对 Teams 的访问权限，请 [首先查看本文](../proxy-servers-for-skype-for-business-online.md)。 在通过代理服务器Microsoft Teams实时媒体流量时，建议完全绕过代理服务器。 Microsoft Teams流量已加密，因此代理服务器不会使其更安全，并且会为实时流量增加延迟。 作为更广泛部署的一部分，我们建议您遵循[为 Teams 准备网络](../prepare-network.md)以进行带宽规划和评估网络对实时流量的适用性中的指导。
 
 |  &nbsp;  | &nbsp;    |
 |-----------|------------|
@@ -53,16 +53,16 @@ Microsoft Teams 会议室的部署基本上分为几个阶段：
 要准备 Microsoft Teams 会议室部署，请执行以下关键的中心任务：
 
 -   定义Microsoft Teams 会议室帐户。
--   如果加入 Teams Room Azure Active Directory，请准备具有动态成员身份Azure AD组，以保存所有 Teams 会议室 资源帐户。 这会简化将来的管理，例如应用条件访问策略。 为了最轻松地利用Azure AD组，请确定一个命名约定，用于唯一标识Teams 会议室帐户。
+-   如果加入Teams会议室Azure Active Directory，请准备Azure AD动态成员身份的组，以保存所有Teams 会议室帐户。 这会简化将来的管理，例如应用条件访问策略。 为了最轻松地利用Azure AD组，请确定一个命名约定，用于唯一标识Teams 会议室帐户。
 -   如果加入 Teams Room 到 Active Directory，请准备组织单位和 Active Directory 组来保存 Microsoft Teams 会议室 计算机和资源帐户，并（可选）准备组策略对象 (GPO) 以启用 PowerShell 远程处理。
 
 ### <a name="define-microsoft-teams-rooms-resource-account-features"></a>定义Microsoft Teams 会议室帐户功能 
 
-根据决定通过 Microsoft Teams 会议室 部署启用的协作方案，需要确定分配给每个 Microsoft Teams 会议室的功能。
+根据你决定通过 Microsoft Teams 会议室 部署启用的协作方案，需要确定分配给每个 Microsoft Teams 会议室的功能。
 
 | **应用场景** | **说明** | **Microsoft Teams 会议室服务帐户功能** |
 |---------- |------------- | --- |
-| 交互式会议            | 使用语音、视频和屏幕共享；使 Microsoft Teams 会议室成为可预订资源                     | 为资源Microsoft Teams或Skype for Business启用;Exchange (资源邮箱)  |
+| 交互式会议            | 使用语音、视频和屏幕共享；使 Microsoft Teams 会议室成为可预订资源                     | 为 Microsoft Teams 或 Skype for Business 启用;为 Exchange (资源邮箱)  |
 | 拨入式会议            | 在主机上点击"新建会议"时有音频会议电话号码 | 为音频会议启用                                          |
 | 出站/入站 PSTN 呼叫 | 启用 Microsoft Teams 会议室控制台以拨打和接收 PSTN 呼叫                                         | 为电话系统启用                                                |
 
@@ -71,7 +71,7 @@ Microsoft Teams 会议室的部署基本上分为几个阶段：
 
 |  &nbsp;  |  &nbsp;   |
 |-----------|------------|
-| ![方案支持。](../media/audio_conferencing_image7.png) <br/>决策点|<ul><li>确定支持哪些方案，并确定资源帐户Microsoft Teams 会议室要求。</li></ul>| 
+| ![方案支持。](../media/audio_conferencing_image7.png) <br/>决策点|<ul><li>确定要支持的方案，并确定资源帐户Microsoft Teams 会议室要求。</li></ul>| 
 | ![准备主机。](../media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>准备托管计算机和资源帐户。</li></ul>| 
 
 
@@ -80,7 +80,7 @@ _资源Microsoft Teams 会议室计划表的示例_
 | **网站**  | **会议室名称** | **会议室类型** | **未来会议室容量**                                                 | **Microsoft Teams 会议室帐户功能**                                                                                         |
 |-----------|---------------|---------------|------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
 | 伦敦总部 | Curie         | 中型        | 1 个屏幕、音频和视频以及演示文稿 <br>拨入式会议访问<br> PSTN 访问  | 为资源Exchange (启用)  <br>为音频会议启用 <br>为电话系统启用 |
-| 悉尼总部 | Hill          | 大型         | 2 个屏幕、音频和视频以及演示文稿<br>拨入式会议访问<br> PSTN 访问  | 为Skype for Business <br>为资源Exchange (启用) <br> 为音频会议启用 <br>为电话系统启用 |
+| 悉尼总部 | Hill          | 大型         | 2 个屏幕、音频和视频以及演示文稿<br>拨入式会议访问<br> PSTN 访问  | 为 Skype for Business <br>为资源Exchange (启用) <br> 为音频会议启用 <br>为电话系统启用 |
 
 
 ### <a name="prepare-to-host-microsoft-teams-rooms-and-resource-accounts-optional"></a>准备托管Microsoft Teams 会议室和资源帐户 (可选) 
@@ -89,7 +89,7 @@ _资源Microsoft Teams 会议室计划表的示例_
 
 定义本地 Active Directory 或Azure Active Directory组，以Microsoft Teams 会议室所有资源帐户。 如果使用 Azure Active Directory，请考虑使用动态组自动在组中添加和删除资源帐户。
 
-在本地 Active Directory 层次结构中定义一个组织单位，用于保存所有 Microsoft Teams 会议室 计算机帐户 (如果已加入域) ，则保留一个组织单位来保存所有 Microsoft Teams 会议室 用户帐户。 禁用组策略继承，以确保仅将要应用到已加入域的域的策略Microsoft Teams 会议室。
+在本地 Active Directory 层次结构中定义一个组织单位，用于保存所有 Microsoft Teams 会议室 计算机帐户 (如果已加入域) ，则保留一个组织单位来保存所有 Microsoft Teams 会议室 用户帐户。 禁用组策略继承，确保仅将要应用到已加入域的域的策略Microsoft Teams 会议室。
 
 创建分配给组织单位的组策略对象，该组织单元包含 Microsoft Teams 会议室计算机帐户。 使用此选项可以： 
 
@@ -127,9 +127,9 @@ _资源Microsoft Teams 会议室计划表的示例_
 
 Teams 会议室由原始设备制造商和 OEM (预) 。
 
-我们提供有关如何使用 Microsoft Azure [Monitor](/skypeforbusiness/plan-your-deployment/clients-and-devices/azure-monitor)监视 Microsoft Teams 会议室 部署并报告可用性、硬件/软件错误以及Microsoft Teams 会议室版本的指南。 如果决定使用 Microsoft Operations Management Suite，则应在软件安装过程中安装 Operations Management Suite 代理，并为工作区配置工作区连接信息。 
+我们提供有关如何使用 Microsoft Azure [Monitor](/skypeforbusiness/plan-your-deployment/clients-and-devices/azure-monitor) 监视 Microsoft Teams 会议室 部署并报告可用性、硬件/软件错误以及Microsoft Teams 会议室版本的指南。 如果决定使用 Microsoft Operations Management Suite，则应在软件安装过程中安装 Operations Management Suite 代理，并为工作区配置工作区连接信息。 
 
-另一个需要考虑的问题是 Microsoft Teams 会议室是否加入域。 有关域加入的好处的信息，请参阅为用户配置[组Microsoft Teams 会议室。](rooms-operations.md#configuring-group-policy-for-microsoft-teams-rooms) 
+另一个需要考虑的问题是 Microsoft Teams 会议室是否加入域。 有关域加入的好处的信息，请参阅为用户配置组[策略Microsoft Teams 会议室](rooms-operations.md#configuring-group-policy-for-microsoft-teams-rooms)。 
 
 | &nbsp;   |  &nbsp;   |
 |-----------|------------|
@@ -177,7 +177,7 @@ _示例部署表_
 
 ### <a name="asset-management"></a>资产管理
 
-在部署中，需要将资产注册更新为聊天室名称、Microsoft Teams 会议室名称、Microsoft Teams 会议室帐户和分配的外围设备。 
+在部署中，需要将资产注册更新为聊天室名称、Microsoft Teams 会议室名称、Microsoft Teams 会议室资源帐户和分配的外围设备。 
 
 _资产表示例_
 

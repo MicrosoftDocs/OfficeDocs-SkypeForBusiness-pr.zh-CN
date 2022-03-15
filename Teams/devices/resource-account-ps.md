@@ -1,7 +1,7 @@
 ---
 title: 使用 PowerShell Microsoft Teams协作栏创建Microsoft Teams资源帐户
-ms.author: mitressl
-author: flinchbot
+ms.author: czawideh
+author: cazawideh
 manager: ericwe
 audience: ITPro
 ms.reviewer: payurevi
@@ -16,24 +16,24 @@ ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: 请阅读本主题，了解如何为用户部署协作Microsoft Teams。
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 3388e2eb1e086cd347769a50bb9603f4a0832402
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0bbafdfbfc9fb7e9b637216aeb9e5a0d6b470533
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605811"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503909"
 ---
 # <a name="create-a-microsoft-365-resource-account-using-the-powershell"></a>使用 PowerShell Microsoft 365资源帐户
 
-请阅读本主题，了解如何使用 PowerShell 为协作栏创建Microsoft Teams帐户。
+阅读本主题，了解如何使用 PowerShell 为协作栏Microsoft Teams资源帐户。
 
-创建资源帐户的最简单方法是使用Microsoft 365 管理中心。 [请参阅此文章了解如何执行此操作](resource-account-ui.md)。
+创建资源帐户的最简单方法是使用Microsoft 365 管理中心。 [请参阅此文章，了解如何执行此操作](resource-account-ui.md)。
 
 [!INCLUDE [m365-teams-resource-account-difference](../includes/m365-teams-resource-account-difference.md)]
 
 ## <a name="requirements"></a>要求
 
-使用 Microsoft Teams 会议室 部署Office 365，请确保满足要求。 有关详细信息，请参阅为用户[部署协作Microsoft Teams。](collab-bar-deploy.md)
+使用 Microsoft Teams 会议室部署Office 365，请确保满足要求。 有关详细信息，请参阅[为用户部署协作Microsoft Teams](collab-bar-deploy.md)。
 
 - 如果需要协作栏的 PSTN 功能，则需要电话系统许可证。
 
@@ -42,9 +42,9 @@ ms.locfileid: "58605811"
 
 ### <a name="add-a-resource-account"></a>添加资源帐户
 
-1. 连接 PowerShell Exchange Online。 有关说明，请参阅 连接[Exchange Online PowerShell。](/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2?view=exchange-ps#install-and-maintain-the-exchange-online-powershell-v2-module)
+1. 连接 PowerShell Exchange Online。 有关说明，[请参阅 连接 Exchange Online PowerShell](/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2?view=exchange-ps#install-and-maintain-the-exchange-online-powershell-v2-module)。
 
-2. 在 Exchange Online PowerShell 中，创建新的会议室邮箱或修改现有会议室邮箱。
+2. 在 Exchange Online PowerShell 中，创建新的会议室邮箱或修改现有的会议室邮箱。
 
    - 若要创建新的会议室邮箱，请使用以下语法：
 
@@ -78,12 +78,12 @@ ms.locfileid: "58605811"
      Set-Mailbox -Identity HuddleRoom02 -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '808P@$$W0rd' -AsPlainText -Force)
      ```
 
-   有关详细的语法和参数信息，请参阅[New-Mailbox](/powershell/module/exchange/mailboxes/new-mailbox)和[Set-Mailbox。](/powershell/module/exchange/mailboxes/set-mailbox)
+   有关详细的语法和参数信息，请参阅 [New-Mailbox](/powershell/module/exchange/mailboxes/new-mailbox) 和 [Set-Mailbox](/powershell/module/exchange/mailboxes/set-mailbox)。
 
 
 3. 在 Exchange Online PowerShell 中，在会议室邮箱上配置以下设置以改进会议体验：
 
-   - AutomateProcessing： AutoAccept (会议组织者直接接收会议室预订决策，无需人工干预：free = accept;busy = decline.) 
+   - AutomateProcessing：自动 (会议组织者直接接收会议室预订决策，无需人工干预：free = accept;busy = decline.) 
 
    - AddOrganizerToSubject：$false (会议组织者未添加到会议请求的主题。) 
 
@@ -103,12 +103,12 @@ ms.locfileid: "58605811"
    Set-CalendarProcessing -Identity "Huddle-Room-01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This room has a collaboration bar for Microsoft Teams!"
    ```
 
-   有关详细的语法和参数信息，请参阅[Set-CalendarProcessing。](/powershell/module/exchange/mailboxes/set-calendarprocessing)
+   有关详细的语法和参数信息，请参阅 [Set-CalendarProcessing](/powershell/module/exchange/mailboxes/set-calendarprocessing)。
 
-4. 连接运行 powershell cmdlet，通过 MS Online PowerShell 创建 Active `Connect-MsolService -Credential $cred` Directory 设置。   有关 Active Directory 的详细信息，请参阅[Azure ActiveDirectory (MSOnline) 1.0。](/powershell/azure/active-directory/overview?view=azureadps-1.0) 
+4. 连接运行 powershell cmdlet，通过 MS Online PowerShell 创建 Active Directory `Connect-MsolService -Credential $cred` 设置。   有关 Active Directory 的详细信息，请参阅 [Azure ActiveDirectory (MSOnline) 1.0](/powershell/azure/active-directory/overview?view=azureadps-1.0)。 
 
    > [!NOTE]
-   > [Azure Active Directory PowerShell 2.0。](/powershell/azure/active-directory/overview?view=azureadps-2.0) 
+   > [Azure Active Directory PowerShell 2.0](/powershell/azure/active-directory/overview?view=azureadps-2.0)。 
 
 5. 使用以下语法 huddleroom01@contoso.onmicrosoft.com 密码，使密码永不过期：
 
@@ -116,7 +116,7 @@ ms.locfileid: "58605811"
       Set-MsolUser -UserPrincipalName huddleroom01@contoso.onmicrosoft.com -PasswordNeverExpires $true
       ```
     
-6. 资源帐户需要具有有效的 Office 365 许可证，最好是 会议室 SKU。 还需要为设备帐户分配使用位置 ，这决定了帐户可以使用哪些许可证 SKUS。 可以使用 检索 `Get-MsolAccountSku` 租户的可用 SKUS Office 365列表。
+6. 资源帐户需要具有有效的 Office 365 许可证，最好是 会议室 SKU。 还需要为设备帐户分配使用位置 ，这决定了帐户可以使用哪些许可证 SKUS。 可以使用 检索`Get-MsolAccountSku`租户的可用 SKUS Office 365列表。
 
       ``` Powershell
       Get-MsolAccountSku
@@ -128,13 +128,13 @@ ms.locfileid: "58605811"
       Set-MsolUser -UserPrincipalName huddleroom01@contoso.onmicrosoft.com -UsageLocation "US"
       Set-MsolUserLicense -UserPrincipalName huddleroom01@contoso.onmicrosoft.com -AddLicenses contoso:meeting_room
       ```
-   有关详细说明，请参阅[使用 PowerShell](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)向用户帐户Office 365许可证。
+   有关详细说明，请参阅[使用 PowerShell 向用户帐户Office 365许可证](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)。
 
 
 
 
 [使用 PowerShell 为Microsoft Teams栏配置帐户](resource-account-ps.md)
 
-[部署协作栏Microsoft Teams](collab-bar-deploy.md)
+[为活动部署协作Microsoft Teams](collab-bar-deploy.md)
 
 [适用于 Microsoft Teams 许可的协作栏](../rooms/rooms-licensing.md)

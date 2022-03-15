@@ -1,7 +1,7 @@
 ---
-title: 配置帐户Microsoft Teams 会议室
-ms.author: dstrome
-author: dstrome
+title: 为帐户配置Microsoft Teams 会议室
+ms.author: czawideh
+author: cazawideh
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -14,33 +14,33 @@ ms.collection:
 - M365-collaboration
 ms.custom: ''
 ms.assetid: ''
-description: 阅读本主题，了解如何在 Microsoft Teams 会议室 和 Exchange 中Skype for Business。
-ms.openlocfilehash: 77e1dbe097bbb75697ec52ef7d472df4707ac9cb
-ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
+description: 阅读本主题，了解如何在 Exchange 和 Skype for Business 中Microsoft Teams 会议室帐户。
+ms.openlocfilehash: 9c898d63291d6b2d4a8d2557f2e307156b3487b4
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "61306117"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503489"
 ---
-# <a name="configure-accounts-for-microsoft-teams-rooms"></a>配置帐户Microsoft Teams 会议室
+# <a name="configure-accounts-for-microsoft-teams-rooms"></a>为帐户配置Microsoft Teams 会议室
  
-阅读本主题，了解Microsoft Teams 会议室及其如何与 Exchange Skype for Business。
+阅读本主题，了解Microsoft Teams 会议室及其如何与Exchange Skype for Business。
   
 本主题介绍了如何创建 Microsoft Microsoft Teams 会议室 和 Exchange Skype for Business。 你的基础结构很可能属于以下配置之一：
   
-- 联机部署：组织的环境完全部署在Microsoft 365 Office 365。 有关详细信息，请参阅使用 Microsoft Teams 会议室 或 Microsoft 365[部署Office 365。](with-office-365.md)
+- 联机部署：组织的环境完全部署在Microsoft 365 Office 365。 有关详细信息，请参阅使用 Microsoft Teams 会议室 [或 Microsoft 365 部署Office 365](with-office-365.md)。
     
-- 本地部署：组织有它所控制的服务器，其中 Active Directory、Exchange 和 Skype for Business Server托管。 有关详细信息，请参阅使用 Microsoft Teams 会议室[部署Skype for Business Server](with-skype-for-business-server-2015.md)
+- 本地部署：组织有它控制的服务器，其中 Active Directory、Exchange和Skype for Business Server托管。 有关详细信息，请参阅使用 Microsoft Teams 会议室 [部署Skype for Business Server](with-skype-for-business-server-2015.md)
     
-- 混合部署：组织混合了一些服务，其中一些托管在本地，一些通过 Microsoft 365 或 Office 365。 使用Microsoft Teams 会议室，支持以下混合方案：
+- 混合部署：组织混合了一些服务，其中一些托管在本地，一些通过本地或Microsoft 365联机Office 365。 使用Microsoft Teams 会议室，支持以下混合方案：
     
-  - Exchange Online本地Skype for Business Server部署。 有关详细信息，请参阅使用混合Microsoft Teams 会议室[部署Exchange Online () 。 ](with-exchange-online.md)
+  - Exchange Online本地Skype for Business Server部署。 有关详细信息，请参阅使用混合Microsoft Teams 会议室[部署Exchange Online () ](with-exchange-online.md)。
     
-  - Exchange本地使用 Microsoft Teams。 有关详细信息，请参阅使用本地Microsoft Teams 会议室[部署Exchange混合 (部署) 。 ](with-exchange-on-premises.md)
+  - Exchange本地部署Microsoft Teams。 有关详细信息，请参阅使用本地Microsoft Teams 会议室[部署Exchange混合 () ](with-exchange-on-premises.md)。
     
 你所拥有的配置类型将影响设备设置的准备方式。
   
-Microsoft Teams 会议室 Active Directory、Exchange 和 Skype for Business 中为用户分配"资源帐户"。 该帐户用于访问其会议日历并建立Microsoft Teams Skype for Business连接。 用户可通过使用此帐户安排会议来预订此帐户。 Microsoft Teams 会议室将能够加入该会议，并为与会者提供各种功能。
+Microsoft Teams 会议室 Active Directory、Exchange 和 Skype for Business。 该帐户用于访问其会议日历并建立Microsoft Teams或Skype for Business连接。 用户可通过使用此帐户安排会议来预订此帐户。 Microsoft Teams 会议室能够加入该会议，并为与会者提供各种功能。
   
 > [!IMPORTANT]
 > 如果没有资源帐户，这些功能都不起作用。 
@@ -58,25 +58,25 @@ Microsoft Teams 会议室 Active Directory、Exchange 和 Skype for Business 中
 > 强烈建议你在实际安装硬件之前完成帐户创建。 理想情况下，应在安装之前两至三周开始帐户准备工作。
 > 
 
-在混合环境中，用于 Microsoft Teams 会议室 的帐户必须在 Azure Active Directory (AAD) Sync 中启用密码同步，因为Microsoft Teams 会议室身份验证Microsoft 365或Office 365 身份验证。 设置帐户时，请确保帐户的 SIP 地址与帐户中的 UPN (用户主体名称) 匹配AAD。 
+在混合环境中，用于 Microsoft Teams 会议室 的帐户必须在 Azure Active Directory (AAD) Sync 中启用密码同步，因为Microsoft Teams 会议室身份验证Microsoft 365或Office 365 身份验证。 设置帐户时，请确保帐户的 SIP 地址与帐户中的"用户主体名称" (UPN) 匹配AAD。 
   
 您可以将资源帐户视为用户识别为会议室或共享空间的帐户的资源帐户。 当你想要使用该空间安排会议时，你邀请该帐户加入该会议。
   
-如果已针对要安装帐户的空间设置了资源邮箱帐户Microsoft Teams 会议室，可以将该帐户更改为Teams 会议室帐户。 完成后，只需使用该帐户Microsoft Teams 会议室登录。
+如果已针对要安装帐户的空间设置了资源邮箱帐户Microsoft Teams 会议室，可以将该帐户更改为Teams 会议室帐户。 完成后，只需使用该帐户登录Microsoft Teams 会议室帐户。
   
 ## <a name="basic-configuration"></a>基本配置
 
-这些属性表示资源帐户使用资源帐户的最低配置Microsoft Teams 会议室。 资源帐户可能需要进一步设置。
+这些属性表示资源帐户使用资源帐户的最低Microsoft Teams 会议室。 资源帐户可能需要进一步设置。
   
 |**属性**|**用途**|
 |:-----|:-----|
 |Exchange 2013 SP1 (Exchange更高版本的邮箱，或 Exchange Online)   <br/> |通过启用具有 Exchange 邮箱的帐户，资源帐户能够接收和发送邮件和会议请求，以及向 Microsoft Teams 会议室 显示会议日历。 Microsoft Teams 会议室邮箱必须是会议室邮箱。  <br/> |
-|Skype for Business已启用  <br/> |Skype for Business启用此功能，以便使用各种Skype for Business会议功能，例如视频呼叫、即时消息和屏幕共享。  <br/> |
+|Skype for Business已启用  <br/> |Skype for Business启用此功能，以便使用各种Skype for Business功能，例如视频呼叫、IM 和屏幕共享。  <br/> |
 |已启用密码  <br/> |必须使用密码启用资源帐户，否则它无法使用 Microsoft Teams、Exchange 或 Skype for Business Server。 应在所有资源帐户上禁用Teams 会议室过期。   <br/> |
    
 ## <a name="advanced-configuration"></a>高级配置
 
-尽管基本配置的属性允许在简单环境中设置资源帐户，但环境可能对目录帐户有其他限制，必须满足这些限制，Microsoft Teams 会议室才能成功使用该资源帐户。
+尽管基本配置的属性允许在简单环境中设置资源帐户，但环境可能对目录帐户具有其他限制，必须满足这些限制，Microsoft Teams 会议室 才能成功使用该资源帐户。
   
 |**属性**|**用途**|
 |:-----|:-----|

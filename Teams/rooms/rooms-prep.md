@@ -1,7 +1,7 @@
 ---
 title: 准备环境
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -15,18 +15,18 @@ ms.collection:
 - M365-collaboration
 description: 了解如何准备基础结构以部署Microsoft Teams 会议室以便可以利用所有功能。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b92325fe9c7c43497fd9647306cfb6b218f5fde0
-ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
+ms.openlocfilehash: 5203972feee8276d9d63c19f65965f62386ee7a0
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "62015032"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503949"
 ---
 # <a name="prepare-your-environment"></a>准备环境
 
-本部分包含准备环境所需的步骤概述，以便可以使用 Microsoft Teams 会议室。
+本部分包含准备环境所需的步骤概述，以便可以使用所有 Microsoft Teams 会议室。
   
-1. 为每台主机准备Microsoft Teams 会议室帐户。 有关详细信息[，Microsoft Teams 会议室](rooms-deploy.md)部署应用程序。
+1. 为每台主机准备一个Microsoft Teams 会议室帐户。 有关详细信息[，Microsoft Teams 会议室](rooms-deploy.md)部署应用程序。
     
 2. 确保有运行良好的网络/Internet 连接可供设备使用。
   
@@ -37,7 +37,7 @@ ms.locfileid: "62015032"
     
 ### <a name="create-and-test-a-resource-account"></a>创建和测试资源帐户
 
-*资源帐户* 是一个帐户，Microsoft Teams 会议室客户端用来从日历Exchange访问功能，以及连接到Microsoft Teams。 有关详细信息[，Microsoft Teams 会议室](rooms-deploy.md)部署应用程序。
+*资源帐户* 是一个帐户，Microsoft Teams 会议室客户端用来从日历等Exchange访问功能，以及连接到Microsoft Teams。 有关详细信息[，Microsoft Teams 会议室](rooms-deploy.md)部署应用程序。
   
 ### <a name="check-network-availability"></a>检查网络可用性
 
@@ -49,7 +49,7 @@ ms.locfileid: "62015032"
 
 - 访问 HTTP 端口 80 和 443。
 
-- 根据本地 Skype for Business Server 实现或 Microsoft 365[](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols)和 Office 365 URL 和[IP](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)地址范围的服务器端口和协议要求中所述配置的 TCP 和 UDP 端口Microsoft Teams。
+- 根据本地 Skype for Business Server 实现或 Microsoft 365 和 Office 365 URL 和 [](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols) [IP](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) 地址范围的服务器端口和协议要求中所述配置的 TCP 和 UDP 端口Microsoft Teams。
 
 如果你的网络通过代理运行，则还需要提供代理地址或脚本信息。
     
@@ -73,17 +73,17 @@ ms.locfileid: "62015032"
   
 ### <a name="proxy"></a>代理
 
-Microsoft Teams 会议室从操作系统继承代理Windows设置。 通过以下方式访问 Windows OS：
+Microsoft Teams 会议室旨在从操作系统继承代理Windows设置。 通过以下方式访问 Windows OS：
   
-1. 在 Microsoft Teams 会议室 UI 中，单击 设置 齿轮图标，系统会提示输入设备的本地管理员密码 (默认密码是 **sfb**) 。
-2. 点击 **设置，** 然后点击"转到 **Windows"** 按钮，然后点击转到"管理员登录"按钮，然后单击"管理员"按钮 (如果计算机已加入域，请选择"其他用户"，然后使用 .\admin作为用户名) 。 
-3. 在"**搜索Windows"** 框中，键入 regedit (长按屏幕或右键单击并选择"以管理员角色运行") 。 
+1. 在 Microsoft Teams 会议室 UI 中，单击 设置 齿轮图标，系统会提示你在设备上输入本地管理员密码 (默认密码是 **sfb**) 。
+2. 点击 **设置**，然后点击"转到 **Windows"** 按钮，然后点击转到"管理员登录"按钮，然后单击"管理员"按钮  (如果计算机已加入域，请选择"其他用户"，然后使用 .\admin 作为用户名) 。
+3. 在"**搜索Windows**"框中，键入 regedit (长按屏幕或右键单击并选择"以管理员角色运行") 。
 4. 单击 HKEY_USERS 文件夹（你将看到计算机用户 SID 列表），确保选择根文件夹 HKEY_USERS。
        
 5. 单击"文件"，然后选择" **加载 Hive"。**
 6. 浏览到 **C：\Users\Skype** 文件夹，键入"文件名"框 NTUSER.dat，然后按打开按钮
 
-7. 系统会提示输入新加载的 Hive 的密钥名称;键入Skype (现在应会看到"用户"Skype的注册表) 。
+7. 系统会提示输入新加载的 Hive 的密钥名称;键入 Skype (现在应会看到"用户"Skype的注册表) 。
  
 8. 打开Skype密钥并浏览HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings，然后确保输入这些设置： 
     
@@ -111,7 +111,7 @@ Microsoft Teams 会议室从操作系统继承代理Windows设置。 通过以�
     
 11. 返回登录屏幕，选择 **Skype** 用户。 如果上述所有步骤都成功，Microsoft Teams 会议室设备将成功登录。
     
-请参阅[网络安全一文](./security.md#network-security)，了解有关 FQDN、端口和 IP 地址范围进行配置所需的Microsoft Teams 会议室。
+有关 [FQDN](./security.md#network-security)、端口和 IP 地址范围的详细信息，请参阅网络安全一文，了解Microsoft Teams 会议室。
   
 ### <a name="admin-group-management"></a>管理员组管理
 
@@ -139,9 +139,9 @@ Microsoft Teams 会议室默认密码设置为"sfb"。 可以通过管理员模�
   
 ### <a name="machine-account"></a>计算机帐户
 
-与任何Windows一样，可以通过右键单击"关于重命名电脑"设置 \> **重命名** \> **计算机名称**。
+与任何Windows一\>样，可以通过右键单击"关于重命名电脑"设置 **重命名** \> **计算机名称**。
   
-如果要在将计算机加入域后重命名计算机，请使用 [Rename-Computer（PowerShell](/powershell/module/microsoft.powershell.management/rename-computer?view=powershell-7.2)命令，后跟计算机的新名称）。
+如果要在将计算机加入域后重命名计算机，请使用 [Rename-Computer](/powershell/module/microsoft.powershell.management/rename-computer?view=powershell-7.2)（PowerShell 命令，后跟计算机的新名称）。
   
 ## <a name="related-topics"></a>相关主题
 

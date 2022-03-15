@@ -1,7 +1,7 @@
 ---
 title: 管理 Microsoft Teams 会议室
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -15,24 +15,24 @@ ms.collection:
 - M365-collaboration
 description: 了解如何开发和执行持续维护和操作，以确保Microsoft Teams 会议室系统可供用户使用。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 72e6a89e23ddb8874c6fe9e262759d2aab4522e7
-ms.sourcegitcommit: fd4d7557997c537c094e79ada21c569acde65aa6
+ms.openlocfilehash: 82725093e67b0f7619ea97837b53fd841b965146
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "62312245"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63504099"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>管理 Microsoft Teams 会议室
 
-如果组织中Microsoft Teams 会议室，则有灵活的管理选项。  可以在管理所有解决方案（包括管理中心）的同一Teams集中Microsoft Teams设备。 或者，可以使用托管服务将管理责任Microsoft Teams 会议室[专家](https://portal.rooms.microsoft.com)。  还可以将管理访问权限委派给所选择的合作伙伴，以选择任一选项。
+如果组织中Microsoft Teams 会议室，可以使用灵活的管理选项。  可以在管理所有解决方案（包括管理中心）的同一Teams集中Microsoft Teams设备。 或者，可以使用托管服务将管理责任Microsoft Teams 会议室[专家](https://portal.rooms.microsoft.com)。  还可以将管理访问权限委派给所选择的合作伙伴，以选择任一选项。
 
 使用Microsoft Teams管理中心，可以：
 
 - 执行设备管理，例如重新启动设备和下载设备日志
 - 应用Teams设置
 - 检查设备及其Microsoft Teams 会议室（包括相机、显示器、麦克风等）的运行状况
-- 查看当前和过去的会议活动 (，例如有关呼叫质量、网络运行状况和连接以及会议参与者) 
-- 查看连接到 (的外围设备，例如) 投影仪Microsoft Teams 会议室
+- 查看当前和过去的会议活动 (，例如有关呼叫质量、网络运行状况和连接的详细信息，以及会议参与者) 
+- 查看外围设备 (，例如摄像机和投影仪) 连接到Microsoft Teams 会议室
 
 若要管理Teams 会议室，请打开 Microsoft Teams [管理中心，](https://admin.teams.microsoft.com)并转到Teams **设备** > Teams 会议室 **Windows**。
 
@@ -40,7 +40,7 @@ ms.locfileid: "62312245"
 
 
 > [!IMPORTANT]
-> 若要使用 Teams 管理中心管理设备，需要分配全局管理员、Teams管理员或Teams管理员角色。
+> 若要使用 Teams 管理中心管理设备，需要分配全局管理员、Teams管理员或Teams设备管理员角色。
 
 ## <a name="make-changes-to-teams-rooms-devices"></a>对设备Teams 会议室更改
 
@@ -48,12 +48,12 @@ ms.locfileid: "62312245"
 
 ### <a name="device-settings"></a>设备设置
 
-可以更改组织中一个或多个Teams 会议室上的设置。 若要更改设置，请选择要管理的设备或设备，然后选择"编辑设置 **"**。 将打开一个新窗格，其中包含可以更改的所有设置。 下表列出了可以使用管理中心更改Teams设置。 某些设置仅在选择单个应用时Teams 会议室。
+可以更改组织中一个或多个Teams 会议室的设置。 若要更改设置，请选择要管理的设备或设备，然后选择"编辑设置 **"**。 将打开一个新窗格，其中包含可以更改的所有设置。 下表列出了可以使用管理中心Teams的设置。 某些设置仅在选择单个应用时Teams 会议室。
 
 如果选择多个选项，则支持批量编辑的设置会显示以下两个选项。
 
 - **保留现有值** 如果选择此选项，不会对所选选项上的设置Teams 会议室更改。
-- **将现有值替换为** 如果选择此选项，可以使用提供的值Teams 会议室更新所选应用上的设置。
+- **将现有值替换为** 如果选择此选项，可以使用你提供的值更新Teams 会议室选项上的设置。
     > [!CAUTION]
     > 你选择更新的设置上的现有值将替换为你提供的值。 如果要添加到现有值列表，则需要包含包含要添加的值的现有值。 例如，如果设置的现有域 `contoso.com, fabrikam.com`列表为 ， `northwindtraders.com`并且你想要添加 ，则需要提供的值将是 `contoso.com, fabrikam.com, northwindtraders.com`。
     >
@@ -63,7 +63,7 @@ ms.locfileid: "62312245"
 |--------------------------------------------------------------|--------------------------------------------------------|--------------------|
 | *帐户*                                                    |                                                        |                    |
 | **电子邮件**                                                    | 电子邮件地址                                          | 否                 |
-| **支持的会议模式**                                   | Microsoft Teams仅<br>Skype for Business (默认) Microsoft Teams<br>Skype for Business和Microsoft Teams (默认) <br>Skype for Business仅|是|
+| **支持的会议模式**                                   | Microsoft Teams仅<br>Skype for Business (默认) Microsoft Teams<br>Skype for Business Microsoft Teams (默认) <br>Skype for Business仅|是|
 | **新式身份验证**                                    | 开<br>关闭                                              | 是                |
 | **Exchange地址**                                         | 电子邮件地址                                          | 否                 |
 | **域\用户名 (可选)**                               | 帐户域和用户名                           | 否                 |
@@ -107,9 +107,9 @@ ms.locfileid: "62312245"
 
 ### <a name="cortana-settings"></a>Cortana设置
 
-可以使用 PowerShell 为Cortana设备启用语音激活或推送交谈，也可以单独为每台设备启用语音激活。
+可以使用 PowerShell 为Cortana设备或每个设备启用语音激活或推送交谈。
 
-请参阅[Microsoft Teams 会议室语音Windows](../cortana-in-teams.md)"Cortana语音帮助"一Teams说明。
+请参阅[Microsoft Teams 会议室语音Windows](../cortana-in-teams.md)"Cortana语音帮助"一Teams。
 
 ### <a name="front-row-layout-settings"></a>前行布局设置
 
@@ -119,7 +119,7 @@ ms.locfileid: "62312245"
 |--------------|-------------|-----------------------|
 |Microsoft Teams 会议室上Windows | 4.11.12.0 或更高版本 (建议使用最新版本)  | 支持单显示器和双显示器;最小大小：46 英寸;纵横比 16：9（分辨率为 1920*1080）或 21：9（分辨率为 2560x1080）;所有显示器都应在设置中设置为 100% 缩放Windows设置 |
 
-请参阅[Microsoft Teams 会议室](rooms-operations.md#change-scale-and-resolution)操作，调整显示设置以满足前行的要求。
+请参阅[Microsoft Teams 会议室和操作](rooms-operations.md#change-scale-and-resolution)，调整显示设置以满足前行的要求。
 
 若要了解如何将前行设置为聊天室的默认布局或如何将其关闭，请参阅使用 XML 配置文件Microsoft Teams 会议室远程管理主机[设置](xml-config-file.md#set-front-row-as-the-default-layout)。
 
@@ -139,13 +139,13 @@ ms.locfileid: "62312245"
 
 ## <a name="remove-device"></a>删除设备
 
-删除设备时，设备将从组织中删除，不再显示在用户管理中心Teams 会议室Windows列表中Teams列表中。
+删除设备时，设备将从组织中删除，并且不再显示在 Teams 会议室 管理中心Windows列表中Teams列表中。
 
-如果删除设备，但该设备仍配置了有效的用户名和密码，则如果该设备再次连接到 Teams 会议室，则会自动Microsoft 365列表中。
+如果删除设备，但该设备仍配置了有效的用户名和密码，则当设备再次连接到 Teams 会议室 时，该设备Microsoft 365列表中。
 
 若要删除一个或多个设备，请执行下列操作：
 
-1. 转到 **Teams设备** > **Teams 会议室Windows** 并选择要删除的设备。
+1. 转到 **Teams设备** > **Teams 会议室Windows**，然后选择要删除的设备。
 2. 选择“**删除**”。
 
 ## <a name="download-device-logs"></a>下载设备日志
@@ -154,9 +154,9 @@ ms.locfileid: "62312245"
 
 若要将日志从Teams 会议室下载到计算机，请执行下列操作：
 
-1. 转到 **Teams设备** > **Teams 会议室** Windows并选择想要从其中下载日志的设备的名称。
+1. 转到 **Teams设备** > **Teams 会议室** Windows，选择要从其中下载日志的设备的名称。
 1. 选择 **"下载设备日志"**。 设备日志可能需要几分钟才能可用。
-1. 选择" **历史记录"** 选项卡，然后选择"日志文件文件" **下的链接**。 包含设备的诊断日志文件的 zip 文件将下载到浏览器的默认 Downloads 文件夹。
+1. 选择" **历史记录"** 选项卡，然后选择"日志文件文件 **"下的链接**。 包含设备的诊断日志文件的 zip 文件将下载到浏览器的默认 Downloads 文件夹。
 
 ## <a name="view-device-information"></a>查看设备信息
 
@@ -175,9 +175,9 @@ ms.locfileid: "62312245"
 - **设备状态** 显示设备的当前 **状态：空闲**、Teams **、** Skype **或"正在****"**。
 - **外围设备** 显示连接到您的会议室Teams外围设备及其运行状况。 运行状况状态可以是"已 **连接"或** "已 **断开连接"**。
 - **运行状况** 显示有关连接到您的 Teams 会议室设备、网络连接、所需服务的登录状态和软件版本信息的详细信息。
-- **详细信息** 显示制造商信息、网络 IP 地址和Teams设备串行/MAC 地址。
+- **详细信息** 显示制造商信息、网络 IP 地址Teams会议室设备串行/MAC 地址。
 - **活动** 显示过去的会议详细信息，包括会议日期和时间、参与者数、持续时间和音频质量。 有关会议详细信息的详细信息， [请参阅本文稍后](#meeting-activity-details) 的"会议活动详细信息"部分。
-- **历史记录** 显示会议室设备上管理活动的Teams，包括配置更新、设备重启和设备日志下载链接。
+- **历史记录** 显示会议室设备上管理活动的历史记录Teams，包括配置更新、设备重启和设备日志下载链接。
 
 #### <a name="meeting-activity-details"></a>会议活动详细信息
 
@@ -195,6 +195,6 @@ ms.locfileid: "62312245"
 
 ##### <a name="participant-details"></a>参与者详细信息
 
-参与者详细信息页显示该参与者会话的端到端诊断信息。 如下图所示，为参与者和设备提供了设备、系统和连接Teams 会议室信息。  **此外**，还提供了参与者与Teams 会议室之间的网络诊断信息。 选择要了解详细信息的上下文的图标。 有关其他诊断信息，请选择"高级 **"** 选项卡。
+参与者详细信息页显示该参与者会话的端到端诊断信息。 如下图所示，为参与者和设备提供了设备、系统和Teams 会议室信息。  **此外**，还提供了参与者与Teams 会议室之间的网络诊断信息。 选择要了解详细信息的上下文的图标。 有关其他诊断信息，请选择"高级 **"** 选项卡。
 
 :::image type="content" source="../media/teams-rooms-meeting-activity-participant-details.png" alt-text="Teams会议室设备呼叫详细信息。":::
