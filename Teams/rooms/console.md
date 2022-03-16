@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: 本文介绍如何设置和配置主机Microsoft Teams 会议室及其外围设备。
-ms.openlocfilehash: 42f10ffe4ed2b577e91ed13b57ea8efcae67a1a4
-ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
+ms.openlocfilehash: c13a247f2ce9d7fee7571f7f3a202310b2ce8b41
+ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "63504009"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63514717"
 ---
 # <a name="build-a-microsoft-teams-rooms-image"></a>生成Microsoft Teams 会议室映像
 
@@ -117,30 +117,36 @@ ms.locfileid: "63504009"
     
 4. 选择 **"时间语言 &amp; "**。
     
-5. 选择 **"区域语言 &amp; "**。
+5. 选择 **语言**。
     
 6. 选择“**添加语言**”。
     
 7. 选择要添加的语言。
     
-8. 选择刚刚添加到"语言"列表的语言。
+8. 安装语言功能。
     
-9. 选择“**设置为默认值**”。
+9. 不要选中"设置为我的Windows语言"。
     
-10. 对于要删除的任何语言：
+10. 选择" **安装"**。
+    
+11. 选择刚刚添加到"语言"列表的语言。
+    
+12. 设置为默认值 - 向上键以设置默认值
+
+13. 对于要删除的任何语言：
     
     a. 选择要删除的语言。
     
-    b. 选择“**删除**”。
-    
-11. 启动提升的命令提示符。
-    
-12. 运行以下命令： 
+    b. 选择“删除”。
+
+14. 启动提升的命令提示符。
+
+15. 运行以下命令： 
     ```PowerShell
     powershell -executionpolicy unrestricted c:\Rigel\x64\scripts\provisioning\scriptlaunch.ps1 ApplyCurrentRegionAndLanguage.ps1
     ```
     
-13. 重新启动系统。
+16. 重新启动系统。
     
 现在，所需语言将应用到 Microsoft Teams 会议室 控制台。
 ## <a name="initial-set-up-of-the-console"></a>主机的初始设置
@@ -154,12 +160,12 @@ ms.locfileid: "63504009"
    
 3. 选择支持的会议模式 - Microsoft Teams、Skype for Business或两个混合模式选项之一。 如有必要，请启用新式验证。
 
-4. 单击" **下一步**"。
+4. 选择"下 **一步"**。
     
 5. 如果使用Skype for Business并且Skype for Business SIP 域不同于用户的 Exchange 域，请设置"高级"部分中Skype for Business Server的 FQDN。 如果不使用特定域Skype for Business SIP 域与 Exchange域匹配，请保留此部分为空。
-6. 单击" **下一步**"。
+6. 选择"下 **一步"**。
     
-7. 单击“**完成**”。
+7. 选择" **完成"**。
     
 Microsoft Teams 会议室应用应该使用上面输入的凭据Microsoft Teams或 Skype for Business Server，并且还应使用这些相同的凭据开始将日历与 Exchange同步。 有关使用 Teams 会议室 的详细信息，请参阅Microsoft Teams 会议室[帮助](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)。
   

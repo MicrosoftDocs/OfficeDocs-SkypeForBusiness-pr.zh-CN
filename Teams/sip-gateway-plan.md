@@ -21,44 +21,44 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4c5f178c5b8da9bf2ed62b06b9c499d676c076e2
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: 817f3dc7ce7f0b6f407607417c0cadb92b65e943
+ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767715"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63514747"
 ---
 # <a name="plan-for-sip-gateway"></a>SIP 网关计划
 
-SIP 网关允许组织将任何兼容的 SIP 设备与 Microsoft Teams，以保留对 SIP 设备的投资。 现在，可以使用公司Teams登录并拨打和接听与兼容的 SIP 设备的呼叫。 兼容的设备可以是具有Skype for Business SIP 固件的 IP 电话、具有多平台 SIP 固件的 Cisco IP 电话，或者来自 Poly、Yealink 和 AudioCodes 等供应商的 SIP 设备。 若要了解如何为 SIP 网关配置 SIP 设备，请参阅 [配置 SIP 网关](sip-gateway-configure.md)。
+SIP 网关允许组织将任何兼容的 SIP 设备与 Microsoft Teams，以保留对 SIP 设备的投资。 现在，可以使用公司Teams登录，然后使用兼容的 SIP 设备拨打和接听电话。 兼容的设备可以是具有Skype for Business SIP 固件的 IP 电话、具有多平台 SIP 固件的 Cisco IP 电话，或者来自 Poly、Yealink 和 AudioCodes 等供应商的 SIP 设备。 若要了解如何为 SIP 网关配置 SIP 设备，请参阅 [配置 SIP 网关](sip-gateway-configure.md)。
 
 ## <a name="benefits-of-sip-gateway"></a>SIP 网关的好处
 
 SIP 网关将兼容的 SIP 设备连接到 Teams，以帮助用户无缝迁移到Teams服务。 使用 SIP 网关，用户可以执行以下所有操作：
 
 - **进行调用：** SIP 设备用户可以呼叫公用电话交换电话网络 (PSTN) 、呼叫其他 SIP 设备以及呼叫Teams Skype for Business用户。 SIP 设备用户只能呼叫具有电话号码的用户。
-- **接收呼叫：** SIP 设备用户可以从 PSTN、具有 SIP 设备的 Teams 或 Skype for Business 用户、来自 Teams 和 Skype for Business 客户端应用程序接收呼叫。 SIP 设备充当Teams终结点。 入站呼叫也将分叉到用户的 SIP 设备。
+- **接收呼叫：** SIP 设备用户可以从 PSTN、拥有 SIP 设备的 Teams 或 Skype for Business 用户、来自 Teams 和 Skype for Business 客户端应用程序接收呼叫。 SIP 设备充当Teams终结点。 入站呼叫也将分叉到用户的 SIP 设备。
 - **多个同时调用：** 呼叫中的 SIP 设备用户可以将呼叫置于保持状态以拨打或接听其他呼叫。 SIP 设备用户还可以召开两次通话。
-- **请勿打扰：** SIP 设备用户可以在设备上设置"请勿打扰"，以便设备不会拨打传入呼叫。 这不会影响用户在其他所有终结点上Teams状态。
+- **请勿打扰：** SIP 设备用户可以在设备上设置"请勿打扰"，以便设备不会拨打传入呼叫。 这不会影响用户对所有其他终结点Teams状态。
 - **保持/恢复和静音/取消静音：** SIP 设备用户可以通过使用设备上这些操作的功能来保持呼叫、恢复呼叫或者将呼叫静音和取消静音。
 - **语音邮件：** SIP 设备用户可以收听呼叫者留下的电子存储语音消息。
 - **消息等待指示器：** SIP 设备用户可以接收通知，在有新的语音邮件时提醒他们。
 - **登录和注销：** SIP 设备用户可以在设备上登录Teams注销。
 - **双音多频率：** SIP 设备用户可以在交互式语音响应呼叫期间按数字键提供输入。
-- **Teams会议：SIP** 设备用户Teams拨会议访问号码加入会议。 目前不支持拨打同一组织用户的电话号码。 但是，可以将来自另一组织的来宾用户添加到 Teams 会议，参与者可以拨出来宾用户号码以包括该来宾。 **注意：** 通过Teams加入请求"添加会议参与者当前不会向 SIP 设备发出警报。
+- **Teams会议：** SIP 设备用户Teams拨会议访问号码加入会议。 会议参与者可以通过拨出到用户的电话号码或只需单击"加入请求"来添加参与者，将 SIP 设备用户添加到会议，这也会提醒用户的 SIP 设备。 通过拨出来宾用户号码以包括该来宾Teams可以将来自另一组织的来宾用户添加到会议。
 - **呼叫转接：** SIP 设备用户可以转接呼叫。 SIP 网关支持失明和咨询传输。
-- **本地呼叫转发：** SIP 设备用户可以为设备设置 (、超时和) 转发规则。 如果设备已连接到 SIP 网关，则呼叫将基于设备用户设置的规则重定向到目标地址。 若要使本地呼叫转发工作，管理员必须将 `AllowCallRedirect` 中的 属性设置为 `Set-CsTeamsCallingPolicy` `Enabled` 。 
+- **本地呼叫转发：** SIP 设备用户可以为设备设置 (、超时和) 转发规则。 如果设备已连接到 SIP 网关，则呼叫将基于设备用户设置的规则重定向到目标地址。 若要使本地呼叫转发工作，管理员必须将 `AllowCallRedirect` 中的 属性设置为 `Set-CsTeamsCallingPolicy` `Enabled`。 
 
 
 ## <a name="requirements-to-use-sip-gateway"></a>使用 SIP 网关的要求
 
-Teams必须拥有已启用 PSTN 呼叫的电话号码，以便使用 SIP 网关。
+Teams必须已启用 PSTN 呼叫的电话号码，以便使用 SIP 网关。
 
 ### <a name="hardware-software-and-licenses"></a>硬件、软件和许可证
 
 如果你有 3PIP 或 SIP 设备，则必须具有： 
 - 用于通过 E5 电话系统 (或独立许可证的许可证) 
-- PSTN 启用 (，即，通过呼叫) 、直接路由Microsoft Teams或接线员连接
+- PSTN (，即，通过呼叫) 、直接路由或接线员Microsoft Teams电话号码连接
 - 适用于任何电话设备的公用区域设备许可证
 
 ## <a name="compatible-devices"></a>兼容的设备
@@ -66,6 +66,7 @@ Teams必须拥有已启用 PSTN 呼叫的电话号码，以便使用 SIP 网关�
 |供应商    |模型      |最低固件版本|已批准的固件版本|说明|链接|
 |----------|-----------|------------|-----------|------------|------------|
 |**Cisco** |           |            |           |运行企业固件的设备必须转换为多平台固件。 阅读右侧指南，了解如何操作。|[Cisco 固件转换指南](https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/unified-ip-phone-7800-series/guide-c07-742786.html)|
+|          |8832       |11.3.5MPP   |11.3.5MPP  |   |   |
 |          |6821       |11.1.1MPP   |11-3-3MPP  |   |   |
 |          |7811       |11.1.1MPP   |11-3-3MPP  |   |   |
 |          |7821       |11.1.1MPP   |11-3-3MPP  |   |   |
@@ -78,6 +79,8 @@ Teams必须拥有已启用 PSTN 呼叫的电话号码，以便使用 SIP 网关�
 |          |8861       |11.1.1MPP   |11-3-3MPP  |   |   |
 |          |8865       |11.1.1MPP   |11-3-3MPP  |   |   |
 |**Poly**  |           |            |           |设备将自动重新启动并安装所选固件。|   |
+|          |Trio 8500  |5.9.5.3182  |7.1.1.0997 |   |   |
+|          |Trio 8800  |5.9.5.3182  |7.1.1.0997 |   |   |
 |          |VVX150     |5.9.5       |6.3.1.8427 |   |   |
 |          |VVX201     |5.9.5       |6.3.1.8427 |   |   |
 |          |VVX250     |5.9.5       |6.3.1.8427 |   |   |
@@ -124,12 +127,16 @@ Teams必须拥有已启用 PSTN 呼叫的电话号码，以便使用 SIP 网关�
 |          |T40G       |83          |76.84.0.125|   |   |
 |          |T41P       |83          |36.83.0.120|   |   |
 |          |T46G       |83          |28.83.0.130|   |   |
-|**Audiocodes**|       |            |           |某些 AudioCodes SIP 设备需要预配 URL 设置。 在右侧为受影响的 AudioCodes 设备下载并安装升级文件。 |[AudioCodes 中受影响设备的可下载文件](https://audiocodes.sharefile.com/share/view/sc9cdf17f9ec45d09/fo19ecda-cf14-4a53-842b-5eab33a0b9b0)|
-|          |405         |2.2.8      |2.2.16.525 |   |   |
-|          |405HD       |3.2.1      |2.2.16.525 |   |   |
-|          |420HD       |3.2.1      |2.2.16.525 |   |   |
-|          |430HD       |3.2.1      |2.2.16.525 |   |   |
-|          |440HD       |3.2.1      |2.2.16.525 |   |   |
-|          |450HD       |3.2.1      |3.4.6.558  |   |   |
-|          |C450HD      |3.2.1      |3.4.6.558  |   |   |
-|          |445HD       |3.2.1      |3.4.6.558  |   |   |
+|**Audiocodes**|       |            |           |某些 AudioCodes SIP 设备需要预配 URL 设置。 在右侧为受影响的 AudioCodes 设备下载并安装升级文件。 |[AudioCodes 中受影响设备的可下载文件](https://audiocodes.sharefile.com/share/view/sc9cdf17f9ec45d09/fo7914a2-4f3a-4000-8957-47bd6f35a3a5)|
+|          |405         |2.2.8      |2.2.16.570 |   |   |
+|          |405HD       |3.2.1      |2.2.16.570 |   |   |
+|          |420HD       |3.2.1      |2.2.16.570 |   |   |
+|          |430HD       |3.2.1      |2.2.16.570 |   |   |
+|          |440HD       |3.2.1      |2.2.16.570 |   |   |
+|          |450HD       |3.2.1      |3.4.6.687  |   |   |
+|          |C450HD      |3.2.1      |3.4.6.687  |   |   |
+|          |445HD       |3.2.1      |3.4.6.687  |   |   |
+|          |RX50        |3.2.1      |3.4.6.687  |   |   |
+
+> [!NOTE]
+> 对于某些设备，最低固件版本大于已批准的固件版本。 这是因为 3.X 版本是 Skype for Business 版本。 我们将 SIP 版本更新为 2.X。

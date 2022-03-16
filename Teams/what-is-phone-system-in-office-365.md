@@ -21,23 +21,25 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 - intro-overview
-description: 本文介绍 Microsoft 365 中的 电话系统 技术。
-ms.openlocfilehash: 739745c288e24b1cdb7ddc4cf65644a9fd98cb9e
-ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
+description: 本文介绍 电话系统 中的Microsoft 365。
+ms.openlocfilehash: a838561b25a737025838095e643bd78a2c69af92
+ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "62518594"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63514553"
 ---
 # <a name="what-is-phone-system"></a>什么是电话系统？
 
-电话系统是 Microsoft 在云中启用呼叫控制和专用分支 Exchange (PBX) 功能的技术，Microsoft 365云Microsoft Teams。
+电话系统是 Microsoft 的技术，它使用 Microsoft Teams 在云中启用呼叫控制和专用分支 Exchange (PBX) 功能Microsoft 365。
 
-电话系统适用于Teams客户端和认证设备。 电话系统允许将现有 PBX 系统替换为一组直接从 Microsoft 365。
+电话系统适用于Teams和认证的设备。 电话系统将现有 PBX 系统替换为一组直接从 Microsoft 365。
 
-您的组织中的用户之间的呼叫在 电话系统 内部处理，永远不会转到公用电话交换网 (PSTN) ，从而消除了内部呼叫的远程成本。 
+您的组织中的用户之间的呼叫在 电话系统 内部处理，永远不会转到公用电话交换网 (PSTN) -从而消除了内部呼叫的远程成本。 
 
-对于进行外部呼叫，电话系统提供用于连接到 PSTN 的附加选项。 有关语音解决方案和 PSTN 连接选项的详细信息，请参阅规划Teams[语音解决方案连接](cloud-voice-landing-page.md) [PSTN](#connect-to-the-public-switched-telephone-network-pstn)。
+对于进行外部呼叫，电话系统提供用于连接到 PSTN 的附加选项。 有关语音解决方案和 PSTN 连接选项的详细信息，请参阅规划Teams[语音](cloud-voice-landing-page.md)解决方案连接 [PSTN。](#connect-to-the-public-switched-telephone-network-pstn)
+
+电话系统除中国澳门以外，全球均提供。 
 
 ## <a name="phone-system-features"></a>电话系统功能
 
@@ -45,18 +47,18 @@ ms.locfileid: "62518594"
 
 电话系统管理员可以从用于消息传递、协作等的同一主机管理呼叫选项和设置。
 
-有关这些功能电话系统[，](here-s-what-you-get-with-phone-system.md)请参阅此处是使用电话系统。
+有关这些功能电话系统[，请参阅此处是](here-s-what-you-get-with-phone-system.md)使用电话系统。
   
 
 ## <a name="connect-to-the-public-switched-telephone-network-pstn"></a>连接 PSTN 公用电话交换网 (PSTN) 
   
-对于外部呼叫电话系统，可通过以下几种方式之一连接到 PSTN：
+对于外部呼叫，电话系统以下几种方式之一连接到 PSTN：
   
-- 购买 Microsoft 呼叫计划 (国内或国内和国际) 。 Microsoft 呼叫计划是一种云中解决方案，Microsoft 作为 PSTN 运营商。 有关详细信息，请参阅电话系统[套餐](calling-plan-landing-page.md)。
+- 购买 Microsoft 呼叫计划 (国内或国内和国际) 。 Microsoft 呼叫计划是一种云中解决方案，Microsoft 作为 PSTN 运营商。 有关详细信息，请参阅通话[电话系统套餐](calling-plan-landing-page.md)。
 
 - 使用现有电话基础结构进行本地 PSTN 连接。
 
-  可以使用接线员呼叫或直接路由电话系统将本地电话连接连接到本地电话基础结构。 
+  可以使用接线员呼叫或直接路由电话系统本地电话连接连接到本地电话基础结构。 
 
 有关所有 PSTN 连接选项的详细信息，请参阅 [PSTN 连接选项](pstn-connectivity.md)。
 
@@ -71,7 +73,7 @@ ms.locfileid: "62518594"
 
 - **语音邮件** - 云语音邮件自动为所有用户设置Teams设置。 请参阅[设置云语音邮件](set-up-phone-system-voicemail.md)。
 
-有关功能详细信息，[请参阅此处是](here-s-what-you-get-with-phone-system.md)使用电话系统。 如果已准备好开始，请参阅在电话系统[设置帐户](setting-up-your-phone-system.md)。
+有关功能详细信息，请参阅[此处是使用](here-s-what-you-get-with-phone-system.md)电话系统。 如果已准备好开始，请参阅在电话系统[设置帐户](setting-up-your-phone-system.md)。
 
 ## <a name="related-topics"></a>相关主题
 

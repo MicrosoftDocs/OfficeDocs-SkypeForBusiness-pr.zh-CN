@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 716a18efda2c2c7f55adf68314dae4b1e07e387b
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: a00561f10e78a18acc146df4ed8a76b103c937c9
+ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60537052"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63514563"
 ---
 # <a name="sign-in-to-microsoft-teams"></a>登录 Microsoft Teams
 
@@ -92,7 +92,7 @@ Teams for iOS 和 Android 提供 IT 管理员将帐户配置推送到 Microsoft 
 
 对于已注册 Microsoft Intune 的用户，可以使用 Azure 门户中的 Intune 部署帐户配置设置。
 
-在 MDM 提供商配置帐户设置配置且用户注册其设备后，在登录页面上，Teams for iOS 和 Android 在 Teams 登录页面上仅会显示允许帐户。 用户可以在此页面上点击任何允许的帐户来登录。
+在 MDM 提供程序中配置帐户设置配置后，用户注册其设备后，在登录页上，适用于 iOS 和 Android 的 Teams 将仅在 Teams 登录页上显示允许的帐户。用户可以点击此页面上允许的任何帐户进行登录。
 
 在 Azure Intune 门户中为托管设备设置以下配置参数。
 
@@ -139,7 +139,7 @@ Windows 和 MacOS 上的 Teams 应用将支持限制登录到组织的设备策�
 
 ### <a name="global-sign-in"></a>全局登录
 
-现在，Teams Android 应用支持全局登录，为第一线工作者提供简便的登录体验。 员工可以从共享设备池中选取设备，使其在排班期间单一登录到“归为己有”。 在他们值班结束后，应能够执行注销，以便在设备上全局注销。 有关详细信息，请参阅[ Teams 注销](sign-out-of-teams.md)。 这将从设备中删除其所有个人和公司信息，以便可将设备返回到设备池。 若要获取此功能，设备必须处于共享模式。 若要了解如何设置共享设备，请参阅[如何使用 Android中的共享设备模式](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode)。
+现在，Teams Android 应用支持全局登录，为第一线工作者提供简便的登录体验。 员工可以从共享设备池中选取设备，使其在排班期间单一登录到“归为己有”。 在他们值班结束后，应能够执行注销，以便在设备上全局注销。 有关详细信息，请参阅[ Teams 注销](sign-out-of-teams.md)。 这将从设备中删除其所有个人和公司信息，以便其可以将设备返回设备池。 若要获取此功能，设备必须处于共享模式。 在退出之前，请确保在设备上结束任何活动会议或通话。若要了解如何设置共享设备，请参阅 [如何在 Android 中使用共享设备模式](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode)。
 
 该登录体验看起来类似于标准的 Teams 登录体验。
 
