@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 了解哪些会话边界控制器 (SBC) 已通过直接路由认证。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a61f7fd80a98f3813a1142aced7c1a65b6fbc157
-ms.sourcegitcommit: 2c8d6183920fd0df7e0491cf4e79b2311503dba7
+ms.openlocfilehash: 15707021292f376e922c4ed1b26bee3f651af41b
+ms.sourcegitcommit: 2deb76ad222b77a19d43beffc87714204961aa09
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63073750"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63494358"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>经认证可用于直接路由的会话边界控制器
 
@@ -50,7 +50,7 @@ Microsoft 与每个供应商合作：
 下表列出了经认证可用于直接路由的设备。 （如需了解哪些 SBC 供应商支持本地媒体优化的信息，请参阅[为直接路由配置本地媒体优化](direct-routing-media-optimization-configure.md)。）
 
 [详细了解直接路由](https://aka.ms/dr)。
-如果你对直接路由的 SBC 认证计划有任何疑问，请发送电子邮件至 drsbccertification@microsoft.com。 请注意：在进一步通知之前，我们不接受新的认证提名。
+如果你对直接路由的 SBC 认证计划有任何疑问，请发送电子邮件至 drsbccertification@microsoft.com。 请注意，在下一步通知之前，我们不会接受新的认证提名。
 <br/>
 
 ## <a name="certified-sbc-vendors"></a>认证的 SBC 供应商
@@ -75,12 +75,14 @@ Microsoft 与每个供应商合作：
 |                                                                                                                     |    SBC SWe Lite     |     &#10004;     |  &#10004;    |      8.x 或 9.x    |   &#10004;    |     &#10004;     |
 | | EdgeMarc 系列 |  &#10004; | | 15.6.1 | |  
 |                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |           |       1.4       |     |    |
-|                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |    &#10004;    |   8.3.0.0.1 |   &#10004;    |  &#10004;  |
-|    |    AP 3900           |    &#10004;     |    &#10004;   |   8.3.0.0.1  |  &#10004;    |  &#10004;  |
-|                                                                                                                    |      AP 4600         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |  &#10004;    |  &#10004;  |
-|                                                                                                                    |      AP 6300         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |  &#10004;    |  &#10004;  |
-|                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |   &#10004;   |  &#10004;  |
-|                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   &#10004;   |  &#10004;  |
+|                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |    &#10004;    |   支持 8.3.0.0.1 &  建议 8.4.x & 9.x |   &#10004;    |  &#10004;  |
+|    |    AP 3900           |    &#10004;     |    &#10004;   |   支持 8.3.0.0.1 &  建议 8.4.x & 9.x  |  &#10004;    |  &#10004;  |
+|                                                                                                                    |      AP 4600         |    &#10004;   |    &#10004;     |     支持 8.3.0.0.1 &  建议 8.4.x & 9.x |  &#10004;    |  &#10004;  |
+|                                                                                                                    |      AP 6300         |    &#10004;   |    &#10004;     |     支持 8.3.0.0.1 &  建议 8.4.x & 9.x |  &#10004;    |  &#10004;  |
+|                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     支持 8.3.0.0.1 &  建议 8.4.x & 9.x  |   &#10004;   |  &#10004;  |
+|                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     支持 8.3.0.0.1 &  建议 8.4.x & 9.x  |   &#10004;   |  &#10004;  |
+|                                                                                                                    |      AP 3950           |    &#10004;    |    &#10004;    |     支持的 9.x  |   &#10004;   |  &#10004;  |
+|                                                                                                                    |      AP 4900           |    &#10004;    |    &#10004;    |     支持的 9.x  |   &#10004;   |  &#10004;  |
 |                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      支持的 3.20（推荐 4.0）        |  &#10004;    |  &#10004;   |
 |                     [Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta SBC        |     &#10004;   | &#10004; |      4.7（4.9 支持媒体旁路）      | &#10004; | &#10004; |  
 |                     [Cisco](https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd13d.html)                               |     适用于 1000 系列集成服务路由器的 Cisco 统一边界元素 (CUBE)        |     &#10004;   | &#10004; |      支持的 IOS XE 阿姆斯特丹 17.2.1r（推荐的 17.6.1a）         |    &#10004;     |   |  
@@ -139,11 +141,13 @@ Microsoft 与每个供应商合作：
 |               | SBC 2000 | 8.1.5  |
 | [TE-SYSTEMS](https://www.anynode.de/local_media_optimization/) |  anynode          | 4.0.1+ |
 | [Oracle](https://www.oracle.com/industries/communications/enterprise-communications/session-border-controller/microsoft.html) | AP 1100 | 8.4.0.0.0 |
-|        | AP 3900 | 8.4.0.0.0 |
-|        | AP 4600 | 8.4.0.0.0 | 
-|        | AP 6300 | 8.4.0.0.0 |
-|        | AP 6350 | 8.4.0.0.0 | 
-|        | VME     | 8.4.0.0.0 |
+|        | AP 3900 | 8.4.0.0.1 & 9.x |
+|        | AP 4600 | 8.4.0.0.1 & 9.x | 
+|        | AP 6300 | 8.4.0.0.1 & 9.x |
+|        | AP 6350 | 8.4.0.0.1 & 9.x | 
+|        | VME     | 8.4.0.0.1 & 9.x |
+|        | AP 3950     | 9.x |
+|        | AP 4900     | 9.x |
 | [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    适用于企业的 Avaya 会话边界控制器 （ASBCE）    |  10.1.2 | 
 
 
@@ -158,12 +162,14 @@ Microsoft 与每个供应商合作：
 | [Audiocodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   [ATA-1](https://www.audiocodes.com/media/2373/mp-1xx-and-mp-124-datasheet.pdf)   |     &#10004;     |
 | [Audiocodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   [ATA-2](https://www.audiocodes.com/media/2399/mediapack-20x-mp-20x-analog-telephone-adapters-datasheet.pdf)   |     &#10004;     | 
 | [Cisco](https://www.cisco.com/c/en/us/products/collateral/unified-communications/ata-190-series-analog-telephone-adapters/datasheet-c78-740013.html) |  ATA 191 多平台模拟电话适配器 |     &#10004;     |
-| [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |   AP1100 软件版本 8.3.0.1.2 |     &#10004;     |
-| [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  AP3900 软件版本 8.3.0.1.2|     &#10004;     |
-| [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  AP4600 软件版本 8.3.0.1.2|     &#10004;     |
-| [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  AP6300 软件版本 8.3.0.1.2|     &#10004;     |
-| [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  AP6350 软件版本 8.3.0.1.2|     &#10004;     |
-| [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  VME 软件版本 8.3.0.1.2 |     &#10004;     |
+| [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |   AP 1100 软件版本支持 8.3.0.1.2 &推荐 8.4.x 或 9.x|     &#10004;     |
+| [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  AP 3900 软件版本支持 8.3.0.1.2 &推荐 8.4.x 或 9.x|     &#10004;     |
+| [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  AP 4600 软件版本支持 8.3.0.1.2 &推荐 8.4.x 或 9.x|     &#10004;     |
+| [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  AP 6300 软件版本支持 8.3.0.1.2 &推荐 8.4.x 或 9.x|     &#10004;     |
+| [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  AP 6350 软件版本支持 8.3.0.1.2 &推荐 8.4.x 或 9.x|     &#10004;     |
+| [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  VME 软件版本支持 8.3.0.1.2 &推荐 8.4.x 或 9.x |     &#10004;     |
+| [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  AP 3950 软件版本支持 9.x |     &#10004;     |
+| [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  AP 4900 软件版本支持 9.x |     &#10004;     |
 | [功能区](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [SBC 1000. 软件版本：8.1.1（内部版本 527）](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)   |     &#10004;     |
 | [功能区](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [SBC 2000. 软件版本：8.1.1（内部版本 527）](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)   |     &#10004;     |
 | [功能区](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [EdgeMarc 302。软件版本: 16.1.1](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)   |     &#10004;     |
