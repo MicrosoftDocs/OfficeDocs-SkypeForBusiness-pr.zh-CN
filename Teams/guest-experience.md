@@ -19,26 +19,29 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 description: 本文介绍Microsoft Teams来宾可用的高级功能。
-ms.openlocfilehash: 5d8bb9ab670da0a4002f69cf5ddec9f245cd9c13
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+ms.openlocfilehash: c7052eb22a68b146c3ee998b57ba877da82e11b4
+ms.sourcegitcommit: 640f55fe6144ff867b41b57e52f45b8a64cf779e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62190684"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63556628"
 ---
 # <a name="guest-experience-in-teams"></a>来宾体验Teams
 
 当来宾受邀加入团队时，他们将收到欢迎电子邮件。 此消息包含有关团队的一些信息，以及成为成员后期望获得的信息。 来宾必须通过在电子邮件中选择"打开Microsoft Teams才能访问团队及其频道来接受邀请。
+
+> [!NOTE]
+> 将来宾添加到团队后，可能需要几个小时才能访问。
     
 ![显示欢迎电子邮件示例的屏幕截图。](media/guest-experience-image1.png)
     
-所有团队成员将在频道线索中看到一条消息，告知团队所有者添加了来宾并提供该来宾的姓名。 团队中的所有人都可以轻松识别谁是来宾。 频道线程右上角的标记指示团队中的来宾数， (来宾) **标签显示在** 每个来宾的姓名旁边。
+所有团队成员将在频道线索中看到一条消息，告知团队所有者添加了来宾并提供该来宾的姓名。 团队中的所有人都可以轻松识别谁是来宾。 频道线程右上角的标记指示团队中的来宾数，每个来宾的姓名旁边 (来宾 **) 标签。**
 
 ![显示标记的屏幕截图，指示团队中的来宾数。](media/guest-experience-image2.png)
 
-请在以下视频中查看有关来宾体验Teams：
-- [以Teams加入会议](https://support.microsoft.com/office/join-a-teams-meeting-078e9868-f1aa-4414-8bb9-ee88e9236ee4)
-- [在会议结束后与Teams合作](https://support.microsoft.com/office/work-with-external-guests-180ed260-d3ef-4247-9f24-1984fc76d5f0)
+请查看以下视频，了解以下视频中的来宾Teams：
+- [作为Teams加入会议](https://support.microsoft.com/office/join-a-teams-meeting-078e9868-f1aa-4414-8bb9-ee88e9236ee4)
+- [在会议或会议Teams外部来宾](https://support.microsoft.com/office/work-with-external-guests-180ed260-d3ef-4247-9f24-1984fc76d5f0)
 
 ## <a name="comparison-of-team-member-and-guest-capabilities"></a>团队成员和来宾功能的比较
 

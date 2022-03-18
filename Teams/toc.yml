@@ -629,8 +629,6 @@ items:
                 href: cloud-recording.md
               - name: 使用 OneDrive for Business 和 SharePoint 或 Stream 进行会议录制
                 href: tmr-meeting-recording-change.md
-              - name: 联系人中心集成
-                href: teams-contact-center.md
               - name: 在 Outlook 中使用 Teams 会议外接程序
                 href: teams-add-in-for-outlook.md
               - name: 将 Skype 会议应用配置为与 Teams 配合使用
@@ -1287,6 +1285,8 @@ items:
                 href: add-funds-and-manage-communications-credits.md
           - name: Microsoft Teams 通话流程
             href: microsoft-teams-online-call-flows.md
+          - name: 联系人中心集成
+            href: teams-contact-center.md
   - name: 设备和会议室管理
     items:
       - name: Microsoft Teams 会议室

@@ -17,12 +17,12 @@ description: 了解如何使用 Teams 管理中心Microsoft Teams PSTN 使用情
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3c271ee710f84bed5f35b66969ce4970cd21b36a
-ms.sourcegitcommit: fe71ecbe35b8adfb9166188923ed1111b3b8e2a1
+ms.openlocfilehash: 6dca22cd88936c711aa0f41f2a230d7cd34ab186
+ms.sourcegitcommit: 640f55fe6144ff867b41b57e52f45b8a64cf779e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2022
-ms.locfileid: "63388064"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63556648"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Microsoft Teams PSTN 使用情况报告
 
@@ -64,7 +64,7 @@ Microsoft Teams Teams 管理 (PSTN) 电话交换网) 使用情况报告提供了
 |**1**   |可以查看该报告，了解过去 7 天或 28 天的趋势。 |
 |**2**   |每个报表都有一个生成日期。 报表通常反映活动时间的 24 至 48 小时延迟。 |
 |**3**   |X 轴是特定报表的选定日期范围。 Y 轴是所选时段内通话总数。<br>将鼠标悬停在给定日期上的点上以查看该日期的总调用。  |
-|**4**   |下表提供了每个呼叫的 PSTN 使用情况明细。 <ul><li>**时间戳 (UTC)** 表示调用开始的时间。</li><li>**显示** 名称显示名称用户的名称。 可以单击显示名称转到管理中心中的用户设置Microsoft Teams页面。 该名称还可以是机器人的名称，例如呼叫队列或云自动助理。 </li><li>**SIP 地址** 是接收或拨打呼叫的用户或机器人的 SIP 地址。</li><li>**呼叫方** 号码是发起呼叫的用户或机器人的号码。 </li><li>**被呼叫者** 号码是接收呼叫的用户或机器人的号码。 在向用户进行Teams呼叫时，Teams用户，在来自用户Teams的出站呼叫中，它将是 PSTN 用户。 </li><li>**呼叫** 类型是呼叫是 PSTN 出站呼叫还是入站呼叫，以及呼叫类型，例如用户拨打的呼叫还是音频会议呼叫。 你可能会看到的呼叫类型包括：<br><br>**Teams用户调用类型**<ul><li>**dr_in** - 用户收到入站 PSTN 呼叫</li><li>**dr_out** - 用户拨打了出站 PSTN 呼叫</li><li>**dr_out_user_conf** - 用户向呼叫添加了 PSTN 参与者</li><li>**user_out_transfer** - 用户将呼叫转接到 PSTN 号码</li><li>**dr_out_user_forwarding** - 用户将呼叫转发到 PSTN 号码</li><li>**dr_out_user_transfer** - 用户将呼叫转接到 PSTN 号码</li><li>**dr_emergency_out** - 用户进行了紧急呼叫</li><li>**dr_unassigned_in** - 通过直接路由到未分配号码的入站 PSTN 呼叫</li></ul><br>**Teams机器人调用类型**<ul><li>**dr_in_ucap** - 自动助理或呼叫队列Teams机器人的入站 PSTN 呼叫</li><li>**dr_out_ucap** - 来自自动助理或呼叫队列Teams机器人的出站 PSTN 呼叫</li></ul><br><li>**"调用** "表示接收呼叫的用户数。</li><li>开始时间 **(UTC)** 是 SIP 代理在出站呼叫 (Teams/) 机器人上从 SBC 收到最终应答 (SIP 消息"200 OK") 的时间，或者 SIP 代理将邀请发送到 Teams 后端中入站呼叫 (PSTN 用户到 Teams/Bot) 的下一跃点之后。 </li><li>邀请时间 **(UTC)** 是在从 Teams 用户或机器人调用到 SBC 的出站呼叫上发送初始邀请，或者从 SBC 直接路由的 SIP 代理组件在 Teams 或机器人调用的入站呼叫上收到邀请的时间。</li><li>**UTC (失败)** 是调用失败的时间。 仅适用于失败的调用。 最终 SIP 代码、最终 Microsoft 子代码和最终 SIP 短语提供调用失败的原因，可帮助进行故障排除。 </li><li>**UTC (结束时间)** 是仅针对成功的调用结束 (结束) 。</li><li>" **持续时间**"是接听呼叫的时间。</li><li>**"** 号码类型"是用户的电话号码类型，例如免费电话号码的服务。 </li><li>**媒体** 旁路指示中继是否启用了媒体旁路。 </li> <li>**SBC FQDN** 是会话边界控制器 (SBC) FQDN (完全限定) 。 </li><li>**用于媒体的 Azure** 区域是在非绕过调用中用作媒体路径的数据中心。 </li><li>**用于 Signaling 的 Azure** 区域是数据中心，用于对绕过和非绕过调用发出信号。 </li><li>**事件** 类型是调用的事件类型。 你将看到成功调用成功和尝试失败的调用。 </li><li>**最终 SIP** 代码是结束调用的代码。</li><li>**最终 Microsoft 子代码** 是一个代码，用于指示发生的特定操作。</li><li>**最终的 SIP** 短语是 SIP 代码和 Microsoft 子代码的说明。</li><li>**关联 ID** 是调用 Microsoft 支持时可以使用的呼叫的唯一标识符。</li><li>**共享关联 ID** 仅在可下载的 CSV 文件中可见，在门户中不存在。 共享关联 ID 存在于至少两个相关调用中。 请参阅下面的详细说明。</li></ul> 要查看希望在表格中显示的信息，请确保向表格添加了相关列。|
+|**4**   |下表提供了每个呼叫的 PSTN 使用情况明细。 <ul><li>**时间戳 (UTC)** 表示调用开始的时间。</li><li>**显示** 名称显示名称用户的名称。 可以单击显示名称转到管理中心中的用户设置Microsoft Teams页面。 该名称还可以是机器人的名称，例如呼叫队列或云自动助理。 </li><li>**SIP 地址** 是接收或拨打呼叫的用户或机器人的 SIP 地址。</li><li>**呼叫方** 号码是发起呼叫的用户或机器人的号码。 </li><li>**被呼叫者** 号码是接收呼叫的用户或机器人的号码。 在向用户进行Teams呼叫时，Teams用户，在来自用户Teams的出站呼叫中，它将是 PSTN 用户。 </li><li>**呼叫** 类型是呼叫是 PSTN 出站呼叫还是入站呼叫，以及呼叫类型，例如用户拨打的呼叫还是音频会议呼叫。 你可能会看到的呼叫类型包括：<br><br>**Teams用户调用类型**<ul><li>**dr_in** - 用户收到入站 PSTN 呼叫</li><li>**dr_out** - 用户拨打了出站 PSTN 呼叫</li><li>**dr_out_user_conf** - 用户向呼叫添加了 PSTN 参与者</li><li>**user_out_transfer** - 用户将呼叫转接到 PSTN 号码</li><li>**dr_out_user_forwarding** - 用户将呼叫转发到 PSTN 号码</li><li>**dr_out_user_transfer** - 用户将呼叫转接到 PSTN 号码</li><li>**dr_emergency_out** - 用户进行了紧急呼叫</li><li>**dr_unassigned_in** - 通过直接路由到未分配号码的入站 PSTN 呼叫</li></ul><br>**Teams机器人调用类型**<ul><li>**dr_in_ucap** - 自动助理或呼叫队列Teams机器人的入站 PSTN 呼叫</li><li>**dr_out_ucap** - 来自自动助理或呼叫队列Teams机器人的出站 PSTN 呼叫</li></ul><br><li>**"调用** "表示接收呼叫的用户数。</li><li>开始时间 **(UTC)** 是 SIP 代理在出站呼叫 (Teams/) 机器人上从 SBC 收到最终应答 (SIP 消息"200 OK") 的时间，或者 SIP 代理将邀请发送到 Teams 后端中入站呼叫 (PSTN 用户到 Teams/Bot) 的下一跃点之后。 </li><li>邀请时间 **(UTC)** 是在从 Teams 用户或机器人调用到 SBC 的出站呼叫上发送初始邀请，或者从 SBC 直接路由的 SIP 代理组件在 Teams 或机器人调用的入站呼叫上收到邀请的时间。</li><li>**UTC (失败)** 是调用失败的时间。 仅适用于失败的调用。 最终 SIP 代码、最终 Microsoft 子代码和最终 SIP 短语提供调用失败的原因，可帮助进行故障排除。 </li><li>**UTC (结束时间)** 是仅针对成功的调用结束 (结束) 。</li><li>**持续时间** 是呼叫连接的时间长度，从邀请到呼叫结束或失败。 对于呼叫转发，持续时间包括呼叫队列中的铃声。</li><li>**"** 号码类型"是用户的电话号码类型，例如免费电话号码的服务。 </li><li>**媒体** 旁路指示中继是否启用了媒体旁路。 </li> <li>**SBC FQDN** 是会话边界控制器 (SBC) FQDN (完全限定) 。 </li><li>**用于媒体的 Azure** 区域是在非绕过调用中用作媒体路径的数据中心。 </li><li>**用于 Signaling 的 Azure** 区域是数据中心，用于对绕过和非绕过调用发出信号。 </li><li>**事件** 类型是调用的事件类型。 你将看到成功调用成功和尝试失败的调用。 </li><li>**最终 SIP** 代码是结束调用的代码。</li><li>**最终 Microsoft 子代码** 是一个代码，用于指示发生的特定操作。</li><li>**最终的 SIP** 短语是 SIP 代码和 Microsoft 子代码的说明。</li><li>**关联 ID** 是调用 Microsoft 支持时可以使用的呼叫的唯一标识符。</li><li>**共享关联 ID** 仅在可下载的 CSV 文件中可见，在门户中不存在。 共享关联 ID 存在于至少两个相关调用中。 请参阅下面的详细说明。</li></ul> 要查看希望在表格中显示的信息，请确保向表格添加了相关列。|
 |**5**   |选择“**编辑列**”可在表格中添加或删除列。 |
 |**6**   |选择 **"全屏** "以全屏模式查看报表。 |
 |**7**   |选择 **"导出Excel** CSV (CSV) 下载逗号分隔文件中的数据，以用于脱机分析，或将其用作计费系统的输入。 |
@@ -147,7 +147,7 @@ CSV 的第一行包含列名称。 所有日期均采用 UTC 和 [ISO 8601](http
 > | 6 | 开始时间 | `datetimeoffset` | SIP 代理从出站 (Teams/机器人上的 SBC 收到最终答案 (SIP 消息"200 正常") 给 PSTN 用户) 的时间，或者 SIP 代理在入站呼叫 (PSTN 用户上将邀请发送到 Teams Teams/Bot) 后端内的下一跃点之后的时间。<br/>对于失败和未接听的调用，这相当于邀请或失败时间 |
 > | 7 | 故障时间 | `datetimeoffset` | 仅适用于未完全建立 (失败的) 调用 |
 > | 8 | 结束时间 | `datetimeoffset` | 仅适用于成功建立 (调用) 存在。 通话结束的时间 |
-> | 9 | 持续时间 (秒)  | `int` | 通话持续时间 |
+> | 9 | 持续时间 (秒)  | `int` | 从邀请到呼叫结束或失败的呼叫持续时间。 对于呼叫转发，持续时间包括呼叫队列中的铃声。 |
 > | 10 | 成功 | `nvarchar(3)` | 是/否。 成功或尝试 |
 > | 11 | 呼叫者号码 | `nvarchar(32)` | 进行呼叫的用户或机器人的数量。 在团队用户呼叫的入站时，它将是 PSTN 用户，从 Teams 用户呼叫出站时，它将是Teams号码 |
 > | 12 | 被呼叫者号码 | `nvarchar(32)` | 收到呼叫的用户或机器人的号码。 在团队用户的入站呼叫中，它将是Teams用户，在用户从Teams出站时，它将是 PSTN 用户 |

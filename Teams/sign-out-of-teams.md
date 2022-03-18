@@ -12,13 +12,18 @@ description: 了解如何注销 Microsoft Teams。
 ms.custom: seo-marvel-apr2020
 ms.localizationpriority: high
 ms.collection:
-  - M365-collaboration
+- M365-collaboration
 f1.keywords:
-  - NOCSH
+- NOCSH
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
+ms.openlocfilehash: b453295c02ef371c06c3adea4c2c8489c0a58468
+ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63514707"
 ---
-
 # <a name="sign-out-of-microsoft-teams"></a>注销 Microsoft Teams
 
 我们建议用户保持登录到 Microsoft Teams 应用，从而继续接收聊天、来电以及其他活动。 我们了解，用户有时可能出于以下几个原因想要注销 Teams 应用程序:
@@ -49,7 +54,7 @@ SSO 对注销有重要影响。当用户注销 Teams 时，系统会从 Teams �
 
 ### <a name="global-sign-in-and-sign-out-for-frontline-workers"></a>适用于一线员工的全局登录和注销
 
-现在，Teams Android 应用支持全局登录和注销，为一线员工提供简便的登录和注销体验。 员工可以从共享设备池中选取设备，并在轮班期间进行单一登录以“使其成为自己的设备”。 当轮班结束时，他们应能够执行注销以在设备上进行全局注销。 这将从设备中删除其所有个人和公司信息，以便其可以将设备返回设备池。 若要获取此功能，设备必须处于共享模式。 若要了解如何设置共享设备，请参阅[如何使用 Android中的共享设备模式](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode)。
+现在，Teams Android 应用支持全局登录和注销，为一线员工提供简便的登录和注销体验。 员工可以从共享设备池中选取设备，并在轮班期间进行单一登录以“使其成为自己的设备”。 当轮班结束时，他们应能够执行注销以在设备上进行全局注销。 这将从设备中删除其所有个人和公司信息，以便其可以将设备返回设备池。 若要获取此功能，设备必须处于共享模式。  在退出之前，请确保在设备上结束任何活动会议或通话。若要了解如何设置共享设备，请参阅 [如何在 Android 中使用共享设备模式](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode)。
 
 ## <a name="manual-cleanup"></a>手动清理
 

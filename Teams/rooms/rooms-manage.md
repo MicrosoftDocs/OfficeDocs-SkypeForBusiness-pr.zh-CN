@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 了解如何开发和执行持续维护和操作，以确保Microsoft Teams 会议室系统可供用户使用。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 82725093e67b0f7619ea97837b53fd841b965146
-ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
+ms.openlocfilehash: 12738e544e8bf0f2e46979df0a1d64ea762bfa1f
+ms.sourcegitcommit: 640f55fe6144ff867b41b57e52f45b8a64cf779e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "63504099"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63556638"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>管理 Microsoft Teams 会议室
 
@@ -117,7 +117,7 @@ ms.locfileid: "63504099"
 
 | Teams设备 | 应用版本 | 房间前显示 |
 |--------------|-------------|-----------------------|
-|Microsoft Teams 会议室上Windows | 4.11.12.0 或更高版本 (建议使用最新版本)  | 支持单显示器和双显示器;最小大小：46 英寸;纵横比 16：9（分辨率为 1920*1080）或 21：9（分辨率为 2560x1080）;所有显示器都应在设置中设置为 100% 缩放Windows设置 |
+|Microsoft Teams 会议室上Windows | 4.11.12.0 或更高版本 (建议使用最新版本)  | 支持单显示器和双显示器;最小大小：46 英寸;纵横比 16：9（分辨率为 1920x1080）或 21：9（分辨率为 2560x1080）;所有显示器都应在设置中设置为 100% 缩放Windows设置 |
 
 请参阅[Microsoft Teams 会议室和操作](rooms-operations.md#change-scale-and-resolution)，调整显示设置以满足前行的要求。
 
