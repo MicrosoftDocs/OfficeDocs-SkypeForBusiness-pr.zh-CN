@@ -23,27 +23,29 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: 获取电话号码或转网 () ，可能需要在 TNS 服务台获取帮助和支持。
-ms.openlocfilehash: c32a6ed98cc54d04783025eacd03cb178e7f9120
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+ms.openlocfilehash: b7ac8edd3c3c740f3b87feedc44535a193280a77
+ms.sourcegitcommit: 4af3638637456f21bc97f510ed9d2f7ff2da07e2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733864"
+ms.lasthandoff: 03/19/2022
+ms.locfileid: "63660687"
 ---
 # <a name="telephone-number-services-tns---service-desk"></a>电话号码服务 (TNS) - 服务台 
 
-有一个新流程可以与 TNS 服务 (电话号码服务) 交互。 现在可以在与 Teams 管理中心集成的单个位置打开票证、查看票证和跟踪通信。 本文介绍联系服务台所需的一切信息。
+有一个新流程可以与 TNS 服务 (电话号码) 交互。 现在可以在与 Teams 管理中心集成的单个位置打开票证、查看票证和跟踪通信。 本文介绍联系服务台所需的一切信息。
 
 > [!NOTE]
 > 自 2021 年 7 月 22 日起，当前电子邮件系统已停用。
 
 若要联系服务台，请执行以下操作：
 
-1. 登录到 Teams 管理中心 - admin.teams.microsoft.com。
+1. 登录到 Teams [管理中心](https://admin.teams.microsoft.com)。
 
-2. 在左侧窗格中，选择 **电话号码**。
+2. 在左窗格中，选择"**语音**"，电话 **号码**。
 
-3. 在页面顶部，选择 **获取电话号码支持**。 你将看到电话号码服务中心。  
+3. 选择" **添加"** 或" **端口"**。
+
+4. 在页面顶部，选择 **获取电话号码支持**。 你将看到电话号码服务中心。  
 
 > [!NOTE]
 > 仅允许同一租户中的某人创建案例。 也就是说，@fabrikam.com 中的某人无法代表 @contoso.com 创建案例。 
@@ -180,7 +182,7 @@ ms.locfileid: "60733864"
 
 #### <a name="description"></a>说明
 
-描述你尝试实现的目标，并列出你在 TNS 服务 (Microsoft 电话号码) 的问题。  
+介绍你尝试实现的目标，并列出你在 TNS 服务 (Microsoft 电话号码) 的问题。  
 
 #### <a name="additional-supporting-documents"></a>其他支持文档
 
@@ -192,9 +194,9 @@ ms.locfileid: "60733864"
 
 - 通过选择 **打开案例**、**所有案例** 或 **已结案例** 来 **筛选案例**。
 
-- **通过打开现有案例、向下滚动并选择** "添加注释"来与 TNS 服务台就 **案例进行沟通**。 将显示一个新窗口。 在批注框中输入消息。 附上任何可有助于请求的支持文档（如果可用），然后选择“**提交**”。  
+- **通过打开现有案例、向下滚动并选择** "添加注释"，与 TNS 服务台就案例 **进行沟通**。 将显示一个新窗口。 在批注框中输入消息。 附上任何可有助于请求的支持文档（如果可用），然后选择“**提交**”。  
 
-  TNS **服务台的响应** 将在同一时间线下显示。 当案例有更新时，将收到更新的自动电子邮件通知。 
+  **TNS 服务台的响应** 将在同一时间线下显示。 当案例有更新时，将收到更新的自动电子邮件通知。 
 
 - 通过导航到现有案例、向下滚动并选择 **取消案例**，来 **取消案例**。 从下拉列表中选择取消的原因，然后选择 **取消**。  
 

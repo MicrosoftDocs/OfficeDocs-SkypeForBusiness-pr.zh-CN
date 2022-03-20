@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 539597393f34f2f02734c57df57097281a4d7839
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 2c69737e6677a48d4fa7788e50fd97a876a67040
+ms.sourcegitcommit: 4af3638637456f21bc97f510ed9d2f7ff2da07e2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012816"
+ms.lasthandoff: 03/19/2022
+ms.locfileid: "63660597"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>在 Teams 中规划生命周期管理
 
@@ -153,7 +153,7 @@ _团队_ 是包含人员、内容和促进协作的工具的集合。 团队规�
 
 当团队的工作完成时，务必要正式确认其已结束。 这是向团队成员告知结束，此外，也防止任何人访问已过时的陈旧信息。 你可以使用团队本身完成结束事项，例如，事后剖析和执行摘要。
 
-你可以删除你知道不需要的团队（例如，只是为了测试而创建的团队，或包含敏感数据的团队）。 Teams 实际上是通过“软删除”方式删除的，IT 人员最长可以在 30 天内将其恢复。 删除团队不会影响按照合规性策略保留的任何聊天或内容。 频道也具有“软删除”，并且可在删除后的最长 21 天内恢复。 删除频道不会从 SharePoint 文档库中删除文件夹或其内容。
+你可以删除你知道不需要的团队（例如，只是为了测试而创建的团队，或包含敏感数据的团队）。 Teams 实际上是通过“软删除”方式删除的，IT 人员最长可以在 30 天内将其恢复。 删除团队不会影响按照合规性策略保留的任何聊天或内容。 频道也具有“软删除”，并且可在删除后的最长 30 天内恢复。 删除频道不会从 SharePoint 文档库中删除文件夹或其内容。
 
 你还可以使用过期和保留策略以及存档功能来减少公开不再使用或其所有者已离开组织的团队。
 

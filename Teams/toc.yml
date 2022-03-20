@@ -1539,7 +1539,7 @@ items:
             href: non-standard-users.md
           - name: 更新应用体验
             href: apps-update-experience.md
-          - name: 跨 Microsoft 365 管理对第三方 Teams 应用的访问权限
+          - name: 跨 Microsoft 365 管理对 Teams 应用的访问
             href: manage-third-party-teams-apps.md
   - name: 行业和政府指南
     items:

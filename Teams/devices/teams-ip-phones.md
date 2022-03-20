@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 了解哪些桌面电话和会议电话经过认证Microsoft Teams产生最佳结果。
-ms.openlocfilehash: 1f91af4b299223a2ac0e815f5f84b70cbc04b953
-ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
+ms.openlocfilehash: f8d2d1bcd427908c7f21a0eba20096fb12ab4e0c
+ms.sourcegitcommit: 4af3638637456f21bc97f510ed9d2f7ff2da07e2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "63503559"
+ms.lasthandoff: 03/19/2022
+ms.locfileid: "63660607"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams Android 设备
 
@@ -71,6 +71,9 @@ Microsoft Teams 设备认证计划可确保经过认证的设备满足较高的�
 
 | 设备模型 | 固件版本 | 当前认证结束日期 | 房间大小                                        |  Android OS 版本    |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|-----------------------------------|
+| 整齐条 | `NFB1.20220211.1158`     |   2024 年 3 月 17 日 |    小型会议室 (4.5 m x 4.5 m)  | 10 |
+| 整齐的键盘 | `NFA1.20220211.1158 `    | 2024 年 3 月 17 日  |    小型会议室 (4.5 m x 4.5 m)  | 9 |
+| 整齐的板 | `NFC1.20220211.1158 `  |  2024 年 3 月 17 日 |    小型会议室 (4.5 m x 4.5 m)  | 10 |
 | Logitech 用户 | `1.4.71` | 2024 年 9 月 3 日  | 450 万 (8.5 米的大型会议室)   |   10  |
 | EPOS EXPAND 80T | `1.2.2.21182.10` | 2023 年 8 月 5 日 | 与 EPOS 视觉 3T 捆绑 | 9 |
 | Logitech Tap 设备     | `1.2.982`  |   2024 年 9 月 3 日  | 与 Logitech Rally Bar 和 Rally Bar Mini 兼容 | 10 |

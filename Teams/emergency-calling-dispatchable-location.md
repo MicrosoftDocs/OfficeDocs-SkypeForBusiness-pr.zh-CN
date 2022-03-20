@@ -18,18 +18,18 @@ f1.keywords:
 - NOCSH
 description: 了解 Microsoft 如何支持可调度的位置信息来支持紧急呼叫。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 7d241cee858d3ac19747be56b5a53e157b563f64
-ms.sourcegitcommit: 05e7c8ac9d6d6f712742d08820d43118c8949bbc
+ms.openlocfilehash: d80854fc36e6914ba48e8993d298c75b136bd06f
+ms.sourcegitcommit: 4af3638637456f21bc97f510ed9d2f7ff2da07e2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/07/2021
-ms.locfileid: "61322995"
+ms.lasthandoff: 03/19/2022
+ms.locfileid: "63660707"
 ---
 # <a name="emergency-addresses-for-remote-locations"></a>远程位置的紧急地址
 
-本文介绍 Microsoft 在美国支持 911 紧急呼叫位置信息。 此支持可确保尽可能为拨打紧急电话的用户Teams最精确的可调度位置信息。 无论呼叫方位于哪个位置（在现场或在家工作）发送到公共安全应答点 (PSAP) 呼叫者的位置信息都必须准确。
+本文介绍 Microsoft 在美国支持 911 紧急呼叫位置信息。 此支持可确保尽可能为紧急呼叫的用户Teams最精确的可调度位置信息。 无论呼叫方位于哪个位置（现场或在家工作）发送到公共安全应答点 (PSAP) 信息都必须准确。
 
-本文包含有关 Microsoft 遵守 RAY BAUM 的适用于多行电话系统法案和 MLTS (的信息) 。 RAY BAUM 的法案扩展了 Kari 的法律要求，该要求于 2021 年初生效。 有关 RAY BAUM 法案和 Kari 法律的信息，请参阅 [911](https://www.fcc.gov/911-dispatchable-location) 呼叫和多线电话系统的可调度位置 - Kari 法律以及 RAY BAUM 的 [911](https://www.fcc.gov/mlts-911-requirements)直接拨号、通知和可调度位置要求。 
+本文包含有关 Microsoft 遵守 RAY BAUM 的适用于多线电话系统法案和 MLTS (的信息) 。 RAY BAUM 的法案扩展了 Kari 的法律要求，该要求于 2021 年初生效。 有关 RAY BAUM 法案和 Kari 法律的信息，请参阅 [911](https://www.fcc.gov/911-dispatchable-location) 呼叫和多线电话系统的可调度位置 [- Kari 法律以及 RAY BAUM 的 911 直接](https://www.fcc.gov/mlts-911-requirements)拨号、通知和可调度位置要求。 
 
 在家工作的用户可以设置自己的紧急地址（如果适用）。 本文介绍如何配置用户策略，以便最终用户可以设置其紧急地址。
 
@@ -64,7 +64,7 @@ ms.locfileid: "61322995"
 
 ## <a name="emergency-address-classification-and-routing"></a>紧急地址分类和路由
 
-下表显示了每种类型的紧急地址类型和关联的路由方法：呼叫是自动路由到服务 PSAP，还是在传输到服务 PSAP 之前进行准确性筛选。 美国支持所有呼叫计划用户、运营商连接和直接路由认证的紧急呼叫服务提供商的此路由行为。
+下表显示了每种类型的紧急地址类型和关联的路由方法：呼叫是自动路由到服务 PSAP，还是在传输到服务 PSAP 之前进行准确性筛选。 此路由行为在美国受所有呼叫计划用户、运营商连接合作伙伴和直接路由认证的紧急呼叫服务提供商的支持。
 
 
 | 紧急地址的类型 | 紧急路由方法 |
@@ -91,11 +91,11 @@ New-CsTeamsEmergencyCallingPolicy -Identity E911WFH -ExternalLocationLookupMode 
 Grant-CsTeamsEmergencyCallingPolicy -PolicyName E911WFH -Identity user@contoso.com
 ```
 
-为最终用户启用此功能后，用户可以从"呼叫"选项卡添加、编辑或确认紧急地址，并设置后显示地址。 
+为最终用户启用此功能后，用户可以从"呼叫"选项卡添加、编辑或确认紧急地址，并设置后显示地址。 有关最终用户如何设置位置服务的信息，请参阅在家 [紧急工作 911：启用定位服务](https://support.microsoft.com/office/work-from-home-emergency-911-enable-location-services-583dd649-87fc-4b23-aed6-f4e2279297f9?storagetype=live)。
 
-在Windows，可以通过使用组策略或 MDM (移动设备管理来管理 Windows 位置服务，以及应用程序[是否有权访问) 。 ](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesslocation)
+在Windows，可以通过使用组策略或 MDM (移动设备管理来管理 Windows 位置服务，以及应用程序[是否有权访问) ](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesslocation)。
 
-有关位置服务Windows，请参阅Windows[服务和隐私。](https://support.microsoft.com/windows/windows-location-service-and-privacy-3a8eee0a-5b0b-dc07-eede-2a5ca1c49088)
+有关位置服务Windows，请参阅Windows[服务和隐私](https://support.microsoft.com/windows/windows-location-service-and-privacy-3a8eee0a-5b0b-dc07-eede-2a5ca1c49088)。
 
 
 
@@ -114,5 +114,7 @@ Grant-CsTeamsEmergencyCallingPolicy -PolicyName E911WFH -Identity user@contoso.c
 
 ## <a name="related-topics"></a>相关主题
 
-[管理紧急呼叫](what-are-emergency-locations-addresses-and-call-routing.md)
+- [管理紧急呼叫](what-are-emergency-locations-addresses-and-call-routing.md)
+
+- [家庭紧急电话 911 工作：启用定位服务](https://support.microsoft.com/office/work-from-home-emergency-911-enable-location-services-583dd649-87fc-4b23-aed6-f4e2279297f9?storagetype=live)
 
