@@ -973,6 +973,8 @@ items:
             href: cloud-voice-network-settings.md
           - name: 管理云语音功能的网络拓扑
             href: manage-your-network-topology.md
+          - name: 管理视频和媒体设置
+            href: network-roaming-policy.md
       - name: 紧急呼叫
         items:
           - name: 概述
@@ -1364,7 +1366,7 @@ items:
               - name: 维护和操作
                 href: rooms/rooms-operations.md
               - name: 已知问题
-                href: rooms/known-issues.md
+                href: /microsoftteams/troubleshoot/teams-devices-and-rooms/rooms-known-issues
               - name: 具有 Azure Monitor 的设备
                 href: rooms/azure-monitor-manage.md
               - name: 具有 XML 文件的设置
