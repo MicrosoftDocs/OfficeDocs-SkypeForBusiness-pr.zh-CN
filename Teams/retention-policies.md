@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f1dbd1d7c586c989484fa71b1e0b0e3d1fb47550
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: b6c370eee74266d2d24df4fa8e1e95904cd08386
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727401"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711286"
 ---
 # <a name="manage-retention-policies-for-microsoft-teams"></a>管理 Microsoft Teams 的保留策略
 
@@ -36,6 +36,9 @@ ms.locfileid: "58727401"
 保留策略和 Microsoft 365 的保留标签可以帮助你更高效地管理组织中的信息。 你可以通过配置保留设置，来保留需符合组织内部策略、行业法规或法律需求的数据。 还可以通过配置保留设置来删除被视为不利因素的数据、不再需要保留的数据，或不具有法律或商业价值的数据。
 
 Teams 支持聊天和频道消息中的保留策略。因此，作为管理员，你可以主动决定是保留数据、删除数据还是将其保留一段时间后再删除。 这些操作的保留期的始终始于创建消息的时间。 可将 Teams 保留策略应用于整个组织或特定用户和团队。 Teams 不支持保留标签。
+
+> [!NOTE]
+> [保留策略](shared-channels.md)现在支持当前处于预览状态共享通道。
 
 如需详细了解 Microsoft 365 中的保留解决方案，请参阅[详细了解保留策略和保留标签](/microsoft-365/compliance/retention)。
 
@@ -73,7 +76,7 @@ Teams 支持聊天和频道消息中的保留策略。因此，作为管理员�
 
 ## <a name="create-and-manage-retention-policies-for-teams"></a>在 Teams 创建并管理保留策略：
 
-若要为邮件创建或编辑Teams策略，请使用保留策略[中的说明Teams位置](/microsoft-365/compliance/create-retention-policies#retention-policy-for-teams-locations)。
+若要为邮件创建或编辑Teams策略，请使用保留策略中的说明Teams[位置](/microsoft-365/compliance/create-retention-policies#retention-policy-for-teams-locations)。
 
 该页包含为 Microsoft 365 中其他工作负荷创建和管理保留策略的补充信息。 例如，你可能还想要为 Microsoft 365 组创建保留策略，以保留和删除可通过 Teams 访问并存储在 OneDrive 或 SharePoint 中的文件。  
 

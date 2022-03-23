@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
 - seo-marvel-may2020
-ms.openlocfilehash: 6b1e2fdc31e5f9ece9b1c52f1f0cf5881e29229b
-ms.sourcegitcommit: 47b14f57bc64544d63aec67b023ead13c71342b4
+ms.openlocfilehash: 84c0ef026b16ec19337ef8840b2285a1a98e5193
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/10/2022
-ms.locfileid: "63418834"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711726"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams 中的聊天、团队、频道和应用
 
@@ -53,7 +53,6 @@ Teams 为组织提供了现成的出色协作体验，并且大多数组织发�
 |询问你自己|操作 |
 |------------|-------|
 |我的组织是否已准备好部署 Teams？|为了回答此问题，请参阅： <ul><li>[为 Teams 准备贵组织的网络](prepare-network.md)</li><li>[URL 和 IP 地址范围](office-365-urls-ip-address-ranges.md)</li><li>[在创建团队时规划 Microsoft 365 组](plan-office-365-groups.md)</li></ul>|
-|||
 
 ## <a name="core-deployment-decisions"></a>核心部署决策
 
@@ -68,7 +67,6 @@ Teams 提供了一组可用于为组织管理 Teams 的自定义管理员角色�
 |将为谁分配 Teams 通信管理员角色？|若要详细了解 Teams 管理员角色，请参阅[使用 Microsoft Teams 管理员角色来管理 Teams](using-admin-roles.md)。|
 |将为谁分配 Teams 通信支持工程师角色？|若要分配管理员角色，请参阅[使用 Active Directory 为用户分配管理员和非管理员角色](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal)。|
 |将为谁分配 Teams 通信支持专家角色？||
-|||
 
 ### <a name="teams-owners-and-members"></a>Teams 所有者和成员
 
@@ -88,17 +86,15 @@ Teams 提供了一组可用于为组织管理 Teams 的自定义管理员角色�
 |------------|-------|
 |是否要自定义全局消息策略？|有关使用 Microsoft Teams 管理中心来更改全局消息策略或添加新策略的信息，请参阅[在 Teams 中管理消息策略](messaging-policies-in-teams.md)。|
 |是否需要多个消息策略？|若要在 PowerShell 中创建和分配消息策略，请参阅 [PowerShell 脚本示例 - 创建和分配消息策略](scripts/powershell-script-teams-messaging-policy-edu.md)。|
-|如何确定哪些用户组获取哪些消息策略？|若要了解 CsTeamsMessagingPolicy cmdlet，请参阅 [Set-CsTeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)。|
-||| 
+|如何确定哪些用户组获取哪些消息策略？|若要了解 CsTeamsMessagingPolicy cmdlet，请参阅 [Set-CsTeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy)。|
 
 ### <a name="external-access"></a>外部访问
 
-利用外部访问功能（以前称为联合），你的 Teams 和 Skype for Business 用户可以与组织外部的用户通信。通过启用此功能并将域添加到允许的列表，你的用户将能与其他域和组织中的用户通信。外部访问与来宾访问的不同之处在于，将为整个域（而不是个人）授予访问权限。默认情况下会关闭外部访问。
+通过外部访问（联盟），用户可以通过聊天与组织外部的人员进行通信。通过启用此功能并将域添加到允许列表，用户可以与其他域和组织中的用户进行通信。默认情况下，外部访问处于启用状态。
 
 |询问你自己|操作 |
 |------------|-------|
-|<ul><li>是否要为我的组织启用外部访问？</li><li>如果启用，是否要限制我的组织可以与哪些域进行通信？</li></ul> |<br>若要启用外部访问，请参阅[规划外部访问](manage-external-access.md#plan-for-external-access)。|
-|||
+|<ul><li>我是否要为我的组织禁用外部访问？</li><li>如果启用，是否要限制我的组织可以与哪些域进行通信？</li></ul> |<br>如果要启用或禁用外部访问，请参阅 [计划外部访问](manage-external-access.md#plan-for-external-access)。|
 
 ### <a name="guest-access"></a>来宾访问权限
 
@@ -110,9 +106,25 @@ Teams 中的来宾访问可让组织外部的个人访问团队和频道。可�
 
 |询问你自己|操作 |
 |------------|-------|
-|是否要为我的组织启用来宾访问？|若要启用来宾访问，请参阅[在 Teams 中启用或禁用来宾访问](set-up-guests.md)。|
+|我是否要为我的组织禁用来宾访问？|要启用或禁用来宾访问，请参阅 [在 Teams 中启用或禁用来宾访问](set-up-guests.md)。|
 |如果启用，是否要自定义可供组织中的来宾使用的功能？|若要自定义来宾访问功能可用性，请参阅[在 Teams 中授权来宾访问](teams-dependencies.md)。|
-|||
+
+### <a name="private-channels"></a>私人频道
+
+使用专用频道，一部分团队成员可以在其他团队成员无法查看或访问的专用空间中进行协作。 只要已是团队的成员（包括来宾），均可将其添加为专用渠道的成员。
+
+|询问你自己|操作 |
+|------------|-------|
+|我是否要允许团队所有者和成员创建专用频道？|要为组织设置专用频道策略，请参阅 [在 Microsoft Teams 中管理频道策略](teams-policies.md)|
+
+### <a name="shared-channels"></a>共享频道
+
+使用共享频道，可以将不是团队成员的人员添加到频道。 这包括组织外部的人员。 共享频道比来宾访问更具优势，因为组织外部的人员不需要目录中的来宾帐户。
+
+|询问你自己|操作 |
+|------------|-------|
+|何时使用共享频道与来宾访问？|请参阅 [ Microsoft Teams 中的共享频道](shared-channels.md)。|
+|<ul><li>我是否要允许团队所有者创建共享频道？</li><li>我是否要允许团队所有者与组织外部人员共享频道？</li><li>我是否要允许用户参与组织外部的共享频道？</li></ul> |<br>要设置组织的共享频道策略，请参阅 [在 Microsoft Teams 中管理频道策略](teams-policies.md)。|
 
 ### <a name="teams-settings"></a>Teams 设置
 
@@ -121,7 +133,6 @@ Teams 设置允许你针对诸如电子邮件集成、云存储选项、组织�
 |询问你自己|操作 |
 |------------|-------|
 |是否要为我的组织自定义 Teams 设置？ | 若要了解 Teams 设置以及如何自定义这些设置，请参阅 [Teams 设置](enable-features-office-365.md#teams-settings)。|
-|||
 
 ### <a name="teams-clients"></a>Teams 客户端
 
@@ -131,7 +142,6 @@ Teams 支持从 Web 到桌面直至移动客户端的多种客户端，默认配
 |------------|-------|
 |是否要为我的组织自定义 Teams 客户端可用性？|请参阅 [Teams 应用的硬件要求](hardware-requirements-for-the-teams-app.md)。 |
 |是否要为我的组织自定义 Teams 客户端设置？|了解如何[使用 MSI 安装 Teams](msi-deployment.md)。|
-|||
 
 ### <a name="teams-usage-reporting"></a>Teams 使用情况报告
 
@@ -139,8 +149,7 @@ Teams 支持从 Web 到桌面直至移动客户端的多种客户端，默认配
 
 |询问你自己|操作 |
 |------------|-------|
-|<br> 谁需要查看 Teams 使用情况报告，他们是否有查看这些报告的正确角色？ |<ul><li>如果用户不是管理员，请[分配报告阅读者角色](teams-activity-reports.md#reports-reader-role)。</li><li>请参阅[角色和权限](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)以及[查看和分配角色](/azure/active-directory/users-groups-roles/directory-manage-roles-portal)，了解如何在 Azure Active Directory 中分配管理员角色。 |
-|||
+|<br> 谁需要查看 Teams 使用情况报告，他们是否有查看这些报告的正确角色？ |<ul><li>如果用户不是管理员，请[分配报告阅读者角色](teams-activity-reports.md#reports-reader-role)。</li><li>请参阅[角色和权限](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)以及[查看和分配角色](/azure/active-directory/users-groups-roles/directory-manage-roles-portal)，了解如何在 Azure Active Directory 中分配管理员角色。|
 
 ### <a name="teams-default-apps"></a>Teams 默认应用 
 
@@ -154,21 +163,19 @@ Teams 提供一些第一方（Microsoft 提供）和第三方应用来吸引用�
 
 ### <a name="teams-licensing"></a>Teams 许可
 
-Teams 作为许多 Microsoft 365 或 Office 365 许可证的一部分提供。若要了解有关 Teams 许可的详细信息，请参阅 [Microsoft Teams 服务说明](/office365/servicedescriptions/teams-service-description)。
+Teams 作为许多 Microsoft 365 许可证的一部分提供。
 
 |询问你自己|操作 |
 |------------|-------|
 |我的用户是否有使用要部署的所有 Teams 功能所需的许可证？ | 若要了解有关许可要求的信息，请参阅 [Microsoft Teams 服务说明](/office365/servicedescriptions/teams-service-description)。|
-|||
 
 ### <a name="exchange-and-sharepoint-interoperability"></a>Exchange 和 SharePoint 互操作性
 
-为了获得全面的 Teams 体验，应该为每个用户启用 Exchange Online、SharePoint Online 和 Microsoft 365 组创建。下列文章概述的信息与以下各项相关：各种环境中托管的 Exchange 邮箱、Exchange 与 Teams 的交互方式，以及 SharePoint 和 OneDrive for Business 的类似注意事项。
+为了获得全面的 Teams 体验，应该为每个用户启用 Exchange、SharePoint 和 Microsoft 365 组创建。下列文章概述的信息与以下各项相关：在各种环境中托管的 Exchange 邮箱、Exchange 与 Teams 的交互方式，以及 SharePoint 和 OneDrive 的类似注意事项。
 
 |询问你自己|操作 |
 |------------|-------|
-| 是否能随当前 Exchange 和 SharePoint 部署一起部署所需的 Teams 功能？ |有关 Teams 中的 Exchange 和 SharePoint 的详细信息，请参阅：<ul><li> [Exchange 与 Teams 如何交互](exchange-teams-interact.md)</li><li>[SharePoint Online 和 OneDrive for Business 与 Teams 如何交互](sharepoint-onedrive-interact.md)|
-|||
+| 是否能随当前 Exchange 和 SharePoint 部署一起部署所需的 Teams 功能？ |有关 Teams 中的 Exchange 和 SharePoint 的详细信息，请参阅：<ul><li> [Exchange 与 Teams 如何交互](exchange-teams-interact.md)</li><li>[ SharePoint Online 和 OneDrive 如何与 Teams 交互](sharepoint-onedrive-interact.md)|
 
 ### <a name="teams-limits-and-specifications"></a>Teams 限制和规范 
 
@@ -177,16 +184,14 @@ Teams 作为许多 Microsoft 365 或 Office 365 许可证的一部分提供。�
 |询问你自己|操作 |
 |------------|-------|
 | 我的 Teams 部署可能会遇到什么限制？ | 若要了解详细信息，请阅读 [Teams 的限制和规范](limits-specifications-teams.md)。 |
-|||
 
 ### <a name="urls-and-ports"></a>URL 和端口
 
-对其 Internet 流量保持精细控制的组织应阅读 [URL 和 IP 地址范围](/office365/enterprise/urls-and-ip-address-ranges)，了解必须为 Teams 正确配置的 URL、IP 地址、端口和协议的最新列表。Microsoft 一直在改进 Microsoft 365 和 Office 365 服务并添加新功能，因此，所需端口、URL 和 IP 地址可能会随时间变化。建议你通过 RSS 订阅，以在此信息更新或更改时收到通知。至少需确保你已打开在上述[聊天部署先决条件](#chat-deployment-prerequisites)中列出的端口。
+对其 Internet 流量保持精细控制的组织应阅读 [URL 和 IP 地址范围](/office365/enterprise/urls-and-ip-address-ranges)，以获取必须为 Teams 正确配置的 URL、IP 地址、端口和协议的最新列表。Microsoft 一直在改进 Microsoft 365 服务并添加新功能，因此，所需端口、URL 和 IP 地址可能会随时间更改。我们建议通过 RSS 订阅，以在此信息更新或更改时收到通知。至少需确保你已打开在上述 [聊天部署先决条件](#chat-deployment-prerequisites) 中列出的端口。
 
 |询问你自己|操作 |
 |------------|-------|
 | 是否需要 Internet 访问规则才能让用户使用 Teams，或者开放最少所需的端口是否足够？ | 若要了解详细信息，请参阅 [URL 和 IP 地址范围](office-365-urls-ip-address-ranges.md)。|
-|||
 
 ### <a name="governance-naming-conventions-who-can-create-teams"></a>管理（命名约定，可创建团队的人员）
 
@@ -197,7 +202,6 @@ Teams 作为许多 Microsoft 365 或 Office 365 许可证的一部分提供。�
 |--------------|--------|
 |是否需要对谁可以创建团队进行控制？| 请阅读[在 Teams 中规划管理](plan-teams-governance.md)。|
 |是否需要对团队的命名方式进行控制？|请阅读[在 Azure AD 中为 Microsoft 365 组实施命名策略](/azure/active-directory/users-groups-roles/groups-naming-policy)。|
-|||
 
 ### <a name="teams-application-policy-side-rail-control"></a>Teams 应用程序策略（侧边栏控制）
 
@@ -207,7 +211,6 @@ Teams 作为许多 Microsoft 365 或 Office 365 许可证的一部分提供。�
 |--------------|--------|
 |是否应该创建一组预先配置的固定 Teams 应用程序？ | 请阅读 [Teams 中应用的管理员设置](admin-settings.md)。|
 |如何决定哪些组接收这些应用分组？|请阅读[团队应用权限和注意事项](app-permissions.md)。|
-|||
 
 ### <a name="archiving-and-compliance"></a>存档与合规性 
 
@@ -218,17 +221,14 @@ Teams 作为许多 Microsoft 365 或 Office 365 许可证的一部分提供。�
 |是否需要配置团队保留？|若要设置保留策略，请参阅[设置 Teams 保留策略](retention-policies.md)。|
 |是否需要配置团队存档？|若要存档或还原团队，请参阅[存档或还原团队](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7)。|
 |是否需要配置其他合规性设置？|有关安全性和合规性的详细信息，请参阅 [Teams 中的安全性和合规性概述](security-compliance-overview.md)。|
-|||
 
 ### <a name="conditional-access"></a>条件访问 
 
-对于核心工作效率方案（包括会议、日历、互操作聊天和文件共享），Teams 高度依赖 Exchange Online、SharePoint Online 和 Skype for Business Online。当用户在任何客户端上直接登录 Teams 时，为这些云应用设置的条件访问策略将应用于 Teams。为这些云应用设置的条件访问策略控制各个方面，例如用户是否可从某些网络访问 Teams 服务。
+对于核心工作效率方案（包括会议、日历、互操作聊天和文件共享），Teams 高度依赖 Exchange 和 SharePoint。当用户在任何客户端上直接登录 Teams 时，为这些云应用设置的条件访问策略将应用于 Teams。为这些云应用设置的条件访问策略控制各个方面，例如用户是否可从某些网络访问 Teams 服务。
 
 | 询问你自己 | 操作 |
 |--------------|--------|
 |<br>是否需要为 Teams 配置条件访问？|<ul><li>若要了解访问策略的工作方式，请参阅[条件访问策略如何在 Teams 中发挥作用？](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)</li><li>若要为 Teams 设置多重身份验证 (MFA)，请参阅：<ul><li>[快速入门：具有 Azure Active Directory 条件访问权限的特定应用需要 MFA](/azure/active-directory/conditional-access/app-based-mfa)</li><li>[Azure Active Directory 条件访问设置参考](/azure/active-directory/conditional-access/technical-reference)</li></ul></ul>|
-|||
-
 
 ### <a name="education-edu"></a>教育版 (EDU) 
 
@@ -239,7 +239,6 @@ Teams 作为许多 Microsoft 365 或 Office 365 许可证的一部分提供。�
 |是否要使用特定于 EDU 的 Teams 模板？ |若要详细了解 Teams 教育版，请参阅[面向管理员的 Microsoft 教育管理常见问题](plan-teams-governance-edu.md)。|
 |是否要部署范围限定的搜索？|若要为 EDU 设置 Teams，请参阅[快速入门 - Teams 教育版管理](teams-quick-start-edu.yml)。|
 |是否要将 Teams 与 School Data Sync 服务集成来配置用户帐户？|[面向教育版管理员的 Teams 资源](resources-teams-edu.md)|
-|||
 
 ### <a name="government---gcc-considerations"></a>政府版 - GCC 注意事项
 
@@ -248,7 +247,6 @@ Teams 作为许多 Microsoft 365 或 Office 365 许可证的一部分提供。�
 | 询问你自己 | 操作 |
 |--------------|--------|
 | 是否要在 Office 365 政府版 – GCC 环境中部署 Teams？ | 有关部署注意事项，请参阅[规划 Office 365 政府版 - GCC 部署](plan-for-government-gcc.md)。|
-|||
 
 ## <a name="next-steps"></a>后续步骤
 - [推动采用](adopt-microsoft-teams-landing-page.md)聊天、团队、频道和应用。

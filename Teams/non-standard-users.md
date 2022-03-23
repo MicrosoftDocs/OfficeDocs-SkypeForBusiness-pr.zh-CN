@@ -1,5 +1,5 @@
 ---
-title: Teams标准用户的应用行为
+title: Teams用户类型创建应用行为
 author: guptaashish
 ms.author: guptaashish
 ms.reviewer: joglocke
@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: 了解应用Microsoft Teams标准用户的行为方式。
+description: 了解应用中Microsoft Teams不同类型的用户的行为。
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -17,16 +17,16 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4dd2a96b7df3ebcb3ae8659222744ed0f3273fa3
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 765c0b97d5e277bd086ac4b25ee11ac80cb6fc11
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070211"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711476"
 ---
-# <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>Microsoft Teams标准用户的应用行为
+# <a name="microsoft-teams-apps-behavior-based-on-types-of-users"></a>Microsoft Teams类型的用户创建应用行为
 
-本文介绍当来宾Teams外部用户 (联合用户) 和匿名用户时，Teams的行为。
+Teams，当来宾、外部 (联合) 和匿名用户存在于外部上下文时，Teams行为。
 
 - **来宾用户** 不是组织的员工、学生或成员。 他们在贵组织没有学校或工作帐户。
 

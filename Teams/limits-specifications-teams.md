@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3260ec894de12b405e0fea8e0d3c75a550d896d4
-ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
+ms.openlocfilehash: 647e5e12f7140abc3da8dc63964d5b94d9785e16
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "60959911"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711506"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 
@@ -59,7 +59,10 @@ ms.locfileid: "60959911"
 
 <sup>5</sup> 28 KB 是近似限制，因为它包括邮件本身（文本、图像链接等）、@提及、连接线数目以及反应。
 
-<sup>GCC</sup> 6 个工作组可容纳 25，000 名成员，但 GCCH/DoD 中的团队仅能容纳 2，500 个成员。 进一步请注意，拥有 10，000 多个成员的团队/频道提及将被阻止。
+<sup>6</sup> 来自团队外部的共享频道成员计入此限制。 GCC 中的团队可容纳 25,000 名成员，但 GCCH/DoD 中的团队仅能容纳 2,500 名成员。 进一步请注意，拥有 10，000 多个成员的团队/频道提及将被阻止。
+
+> [!NOTE]
+> 有关共享频道预览版的限制，请参阅 [共享频道（预览）的限制](/MicrosoftTeams/shared-channels#limits-for-shared-channels-preview)。
 
 ## <a name="messaging"></a>消息传递
 

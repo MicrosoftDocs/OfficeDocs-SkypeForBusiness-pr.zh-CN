@@ -18,12 +18,12 @@ ms.localizationpriority: high
 f1.keywords:
 - NOCSH
 description: 从 Slack 迁移到 Microsoft Teams 的完整指南。
-ms.openlocfilehash: 9342c7e251cc7466df0d70e8cb699d7e514455b4
-ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
+ms.openlocfilehash: 7879e839c8f5597761827fe42ea75b1f0c8dddf9
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "59456352"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711886"
 ---
 # <a name="migrate-from-slack-to-microsoft-teams"></a>从 Slack 迁移到 Microsoft Teams
 
@@ -55,7 +55,7 @@ Slack 服务计划将明确可以迁移和无法迁移的内容。例如，某�
 ### <a name="assess-your-slack-workspaces"></a>评估你的 Slack 工作区
 在制定组织迁移计划之前，你需要综合分析 Slack 工作区的某些信息。 了解 Slack 工作区的使用方式有助于确定迁移的范围。 例如，你要迁移多少个工作区？ 这些工作区由某个特定部门、多个部门还是整个组织使用？
 
-如果你是要迁移的 Slack 工作区的成员，可以转至 *\<your Slack workspace\>.slack.com/stats* 自行分析使用情况。查看“频道”和“成员”选项卡，了解使用模式。 确定要迁移的工作区（和要保留的工作区）。 
+如果你是要迁移的 Slack 工作区的成员，可以通过转到 *\<your Slack workspace\>.slack.com/stats* 来自行分析使用情况。查看“频道和成员”选项卡以查找使用模式。确定要迁移的工作区（以及要保留的工作区）。 
 
 > [!NOTE]
 > 如果你无权访问统计信息页面，则说明你不是管理员或所有者。 

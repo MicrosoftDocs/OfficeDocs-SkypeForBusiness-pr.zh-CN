@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6c18871756c8081b7013666d98d1599cfec4117f
-ms.sourcegitcommit: b635f3765498ae23f535a33fa9ffea5068eecb14
+ms.openlocfilehash: f70378e2be1dd47126ee3d83009759c63643ae2f
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2022
-ms.locfileid: "63463735"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711756"
 ---
 # <a name="skype-for-business-online-retirement"></a>Skype for Business Online 停用
 
@@ -31,9 +31,7 @@ ms.locfileid: "63463735"
 
 ## <a name="why-is-skype-for-business-online-retiring"></a>为什么 Skype for Business Online 停用？
 
-自其简介Skype for Business，Skype for Business Online 已成为全球数百万用户的重要工具。 通过将即时消息、呼叫和视频相结合，Skype for Business Online 为业务通信建立了新的可能性。 Teams是该愿景的下一章。 
-
-Microsoft Teams的功能超出了 Skype for Business Online 的功能。 持续进行的平台创新与开发Teams用户受益于更丰富的性能、功能、灵活性和安全性。 通过将以下功能组合到单个体验中，Teams新的工作方式：
+自其简介Skype for Business，Skype for Business Online 已成为全球数百万用户的重要工具。 通过将即时消息、呼叫和视频相结合，Skype for Business Online 为业务通信建立了新的可能性。 Teams是该愿景的下一章。  Microsoft Teams的功能超出了 Skype for Business Online 的功能。 持续进行的平台创新与开发Teams用户受益于更丰富的性能、功能、灵活性和安全性。 通过将以下功能组合到单个体验中，Teams新的工作方式：
 
 - 聊天
 - 视频
@@ -43,15 +41,13 @@ Microsoft Teams的功能超出了 Skype for Business Online 的功能。 持续�
 
 Teams升级不仅仅是升级 Skype for Business Online。 它是一个功能强大的工具，可让学校和组织变得更灵活，并提高关键工作流的效率。 在 Forrester 白皮书 forrester[™](https://www.microsoft.com/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams.pdf?rtc=1)（Teams）的"总体经济影响"中详细了解 Microsoft Teams。
 
-有关联机停用Skype for Business，请参阅[常见问题解答 - 从 Skype for Business 升级到 Microsoft Teams](FAQ-journey.yml)。
-
 ## <a name="organizations-with-skype-for-business-online"></a>使用 Skype for Business Online 的组织
 
 Microsoft 提供辅助升级过程，帮助组织将剩余的用户Skype for Business Online 用户Teams迁移。 Teams商业和Microsoft 365计划Enterprise，现有许可投资会一Teams。 现在 Skype for Business Online 中作为优质工作负荷的功能将继续在 Teams 中作为优质工作负荷。 例如，如果你独立购买了音频会议，或者作为 E5 的一部分Skype for Business，音频会议将在 Teams 中启用。
 
 ## <a name="organizations-with-on-premises-deployments-of-skype-for-business-server"></a>在本地部署 Skype for Business Server
 
-停用 Skype for Business Online 不会影响对 Skype for Business Server 和 Lync Server 2013 本地部署的支持。 但是，混合使用联机和本地用户混合的混合客户必须升级任何 *联机* 用户。 必须使用 TeamsUpgradePolicy Teams这些联机用户分配"仅"模式。 Microsoft 提供辅助升级，以帮助自动将剩余的 Skype for Business Online 用户升级到Teams模式。 由于此 *停用，混合* Skype for Business用户无需将其本地用户移到云中。 Microsoft 完全支持混合使用混合混合Teams仅用户和本地Skype for Business用户。 使用混合部署 Skype for Business Server 或 Lync Server 2013 的客户应查看即将停用 [Skype for Business Online 的影响](/skypeforbusiness/hybrid/plan-hybrid-connectivity#implications-of-the-upcoming-retirement-of-skype-for-business-online)。
+停用 Skype for Business Online 不会影响对 Skype for Business Server 和 Lync Server 2013 本地部署的支持。 但是，混合使用联机和本地用户混合的混合客户必须升级任何 *联机* 用户。 必须使用 TeamsUpgradePolicy Teams这些联机用户分配"仅"模式。 Microsoft 提供辅助升级，以帮助自动将剩余的 Skype for Business Online 用户升级到Teams模式。 由于此 *停用，混合* Skype for Business用户无需将其本地用户移到云中。 Microsoft 完全支持混合使用混合混合Teams仅用户和本地Skype for Business用户。 使用混合部署 Skype for Business Server Lync Server 2013 的客户应查看停用 Skype for Business [Online 的影响](/skypeforbusiness/hybrid/plan-hybrid-connectivity#implications-of-the-upcoming-retirement-of-skype-for-business-online)。
 
 ## <a name="what-to-expect-post-retirement"></a>停用后预期结果
 
@@ -87,7 +83,8 @@ Microsoft 提供辅助升级过程，帮助组织将剩余的用户Skype for Bus
 
 - [Microsoft Teams博客](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/bg-p/MicrosoftTeamsBlog) - Teams新功能、采用和使用资源、Teams设备以及与其他业务应用程序集成的新闻。
 
-如果你是当前在线客户Skype for Business，请立即开始规划升级到 Teams。 我们很高兴你能够体验其强大的通信和协作功能，我们一直致力于帮助。
+如果你是当前在线客户Skype for Business，请立即开始规划升级到 Teams。 我们很高兴你能够体验其强大的通信和协作功能，我们一直致力于帮助。  有关联机停用Skype for Business，请参阅[常见问题解答 - 从 Skype for Business 升级到 Microsoft Teams](FAQ-journey.yml)。
+
 
 
 

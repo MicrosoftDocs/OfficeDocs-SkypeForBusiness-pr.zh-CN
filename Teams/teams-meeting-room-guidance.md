@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb74dcb92328890b71317818b3230571151fd0a6
-ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
+ms.openlocfilehash: b02e3f441ad7a4a338c86e89b2740561d3d552d7
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "63062709"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711566"
 ---
 # <a name="meeting-room-guidance-for-teams"></a>会议会议室指南Teams
 
@@ -536,11 +536,12 @@ Microsoft Teams 会议室通过软件更新提供以人为中心的混合会议�
 
 ### <a name="displays"></a>显示
 
--   一种短时引发、高分辨率的激光投影仪，具有在睡眠功能期间自动同步和冷却的唤醒功能。
+- 短引发或超短引发、高分辨率和高亮度激光投影仪，在睡眠功能期间自动同步唤醒和冷却。 低增益投影仪屏幕具有环境光拒绝属性，可提供明亮房间的最佳图片质量。
 
-如下所示：
+如下所示： 
 
-Epson EpiqVision™ Ultra LS500
+- [带 ELPLX01S 超级短镜头的 Epson EB-PU1007 投影仪](https://epson.com/For-Work/Projectors/Large-Venue/EB-PU1007B-WUXGA-3LCD-Laser-Projector-with-4K-Enhancement/p/V11HA34820)
+- [Da-Lite UTB 分布屏幕|HD Progressive 0.6 屏幕|Cinemascope 138" 对角线](https://www.legrandav.com/products/da-lite/screens/fixed_frame_screens/utb_contour)
 
 其他选项：
 

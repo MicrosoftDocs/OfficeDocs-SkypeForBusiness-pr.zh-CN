@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何Teams Microsoft Power Platform 工具（包括 Power BI、Power 应用、Power automate 和 Power Virtual Agents）。
-ms.openlocfilehash: f902e0a137f5a5f996623a9207e9e192b90bb6b7
-ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
+ms.openlocfilehash: a89068e5e70387275e21e2d5f8167980c57f51ee
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63442488"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711266"
 ---
 # <a name="teams-integration-with-microsoft-power-platform"></a>Teams Microsoft Power Platform 集成
 
@@ -39,7 +39,10 @@ Microsoft Power Platform 与 Teams 提供了许多集成功能，可在 Teams �
 - 在应用和服务之间创建自动化工作流，以使用 Power Automate 同步文件、获取通知、**收集数据Power Automate**。
 - 使用引导式无代码图形界面使用 Power Virtual Agents 在机器人内轻松创建数字助理Teams并可供同事聊天。
 
-用于创建应用、机器人和工作流的新功能由适用于 Teams 的新内置低代码数据平台（[Dataverse for Teams](/powerapps/teams/overview-data-platform)）提供关系数据存储、丰富的数据类型、企业级治理和一键式解决方案部署。 Dataverse for Teams构建在 [Microsoft Dataverse 的顶层](/powerapps/maker/common-data-service/data-platform-intro)。 借助 Dataverse for Teams，Teams用户可以从展示跨行业常见方案的 Teams 应用商店中查找并安装自定义的现成解决方案。 可以自定义和扩展这些自定义解决方案，以适应组织的品牌和要求。
+用于创建应用、机器人和工作流的新功能由适用于 Teams 的新内置低代码数据平台（[Dataverse for Teams](/powerapps/teams/overview-data-platform)）提供关系数据存储、丰富的数据类型、企业级治理和一键式解决方案部署。
+
+Dataverse for Teams构建在 [Microsoft Dataverse 的顶层](/powerapps/maker/common-data-service/data-platform-intro)。 Teams用户可以从展示跨行业常见方案的 Teams 应用商店中查找并安装自定义的现成解决方案。
+可以自定义和扩展这些自定义解决方案，以适应组织的品牌和要求。
 
 ## <a name="licensing"></a>许可
 
@@ -54,3 +57,6 @@ Microsoft Power Platform 与 Teams 提供了许多集成功能，可在 Teams �
 - [Power Apps 和 Teams](/powerapps/teams/overview)
 - [Power Automate和Teams](/power-automate/teams/overview)
 - [Power Virtual Agents和Teams](/power-virtual-agents/teams/fundamentals-what-is-power-virtual-agents-teams)
+
+<!--- TBD: Remove this article from admin doc set. Belongs in dev doc set.
+--->

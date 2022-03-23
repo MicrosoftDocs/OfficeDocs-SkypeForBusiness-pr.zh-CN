@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 了解如何在 Microsoft Teams 中使用和管理私人频道。
-ms.openlocfilehash: 097c7e4c43c6127b59423cab94b97ac949a2df57
-ms.sourcegitcommit: b635f3765498ae23f535a33fa9ffea5068eecb14
+ms.openlocfilehash: e3b8208f760d2ec549e242d390190fce8acba5fd
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2022
-ms.locfileid: "63463745"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711466"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft Teams 中的私人频道
 
@@ -97,7 +97,7 @@ Teams 管理专用频道网站的生命周期。如果网站在 Teams 外部删�
 如果还原了含有专用频道的专用频道或团队，网站将随其一起还原。 如果已还原私人频道网站集，并且超出了私人频道的 30 天软删除时间段，则该网站集将作为独立网站集运行。
 
 > [!NOTE]
-> 在 Microsoft Teams 中创建新团队或专用频道时，将自动创建 SharePoint 中的团队网站。 若要编辑此团队网站的网站说明或分类，请转到相应频道的[在 Microsoft Teams 中设置](https://support.microsoft.com/office/change-a-team-s-data-security-classification-in-teams-bf39798f-90d2-44fb-a750-55fa05a56f1d)。
+> 在 Microsoft Teams 中创建新团队、专用频道或共享频道时，将自动创建 SharePoint 中的团队网站。 若要编辑此团队网站的网站说明或分类，请转到相应频道的[在 Microsoft Teams 中设置](https://support.microsoft.com/office/change-a-team-s-data-security-classification-in-teams-bf39798f-90d2-44fb-a750-55fa05a56f1d)。
 >
 > 了解有关管理 [Microsoft Teams 连接的团队网站](/SharePoint/teams-connected-sites)的详细信息。
 
@@ -105,7 +105,7 @@ Teams 管理专用频道网站的生命周期。如果网站在 Teams 外部删�
 
 在专用频道中发送的消息的合规性副本将传递到所有专用频道成员的邮箱，而不是发送到组邮箱。 合规性副本的标题格式化为指示它们是从哪个专用频道发送的。
 
-有关对私人频道消息执行电子数据展示搜索的详细信息，请参阅[私人频道的电子数据展示](ediscovery-investigation.md#ediscovery-of-private-channels)。
+有关对私人频道消息执行电子数据展示搜索的详细信息，请参阅[私人频道的电子数据展示](ediscovery-investigation.md#ediscovery-of-private-and-shared-channels)。
 
 ## <a name="considerations-around-file-access-in-private-channels"></a>有关专用频道中的文件访问的注意事项
 
@@ -123,11 +123,13 @@ Teams 管理专用频道网站的生命周期。如果网站在 Teams 外部删�
 
 从现有团队创建团队时，不会复制现有团队中任何专用频道。
 
-目前错过的活动电子邮件中不包含来自专用频道的通知。
+错过的活动电子邮件中不包含来自专用频道的通知。
 
 无法安排频道会议。
 
 ## <a name="related-topics"></a>相关主题
+
+[Microsoft Teams 中的共享频道](/MicrosoftTeams/shared-channels)
 
 [Teams 中的团队和频道概述](teams-channels-overview.md)
 

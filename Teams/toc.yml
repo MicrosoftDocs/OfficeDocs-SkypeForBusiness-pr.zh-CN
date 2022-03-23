@@ -277,6 +277,8 @@ items:
         items:
           - name: 信息屏障
             href: information-barriers-in-teams.md
+          - name: 信息屏障和共享频道
+            href: information-barriers-shared-channels.md
           - name: 使用 PowerShell 脚本更改信息屏障模式
             href: information-barriers-mode-script.md
           - name: 保留策略
@@ -477,6 +479,8 @@ items:
         href: teams-channels-overview.md
       - name: 私人频道概述
         href: private-channels.md
+      - name: 共享频道概述
+        href: shared-channels.md
       - name: 在 Teams 中分配团队所有者和成员
         href: assign-roles-permissions.md
       - name: 团队的动态成员资格概述
@@ -1469,11 +1473,11 @@ items:
             href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
           - name: 规划电话和显示部署
             href: devices/plan-device-deployment.md
-  - name: 应用、机器人和连接器
+  - name: 在 Teams 中管理应用、机器人和连接器
     items:
       - name: 概述
         href: deploy-apps-microsoft-teams-landing-page.md
-      - name: Microsoft 提供的应用
+      - name: 管理 Microsoft 提供的示例应用
         items:
           - name: 管理 Bookings 应用
             href: bookings-app-admin.md
@@ -1487,33 +1491,33 @@ items:
             href: approval-admin.md
           - name: 管理班次应用
             href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
-      - name: 第三方应用
+      - name: 管理第三方应用
         items:
-          - name: 应用认证
+          - name: 第三方应用的安全性、合规性、隐私和数据处理
             href: /microsoft-365-app-certification/overview
           - name: 购买适用于 Teams 的第三方应用
             href: purchase-third-party-apps.md
       - name: 适用于 Teams 的应用模板
         href: /microsoftteams/platform/samples/app-templates?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json
-      - name: 如何生成和自定义应用
+      - name: 管理自定义业务线应用
         items:
           - name: 与 Power Platform 集成
             href: teams-power-platfom-integration.md
           - name: 在 Microsoft Teams 管理中心内管理 Power Platform 应用
             href: manage-power-platform-apps.md
-          - name: 发布通过 Teams 应用提交 API 所提交的自定义应用
+          - name: 在组织商店中发布自定义应用
             href: submit-approve-custom-apps.md
           - name: 通过上载应用包来发布自定义应用
             href: upload-custom-apps.md
           - name: 在 Teams 中自定义应用
             href: customize-apps.md
-          - name: 自定义应用存储
+          - name: 打造组织应用商店品牌
             href: customize-your-app-store.md
           - name: 使用内置和自定义选项卡
             href: built-in-custom-tabs.md
-      - name: 管理适用于 Teams 的应用
+      - name: 管理员控制和应用治理
         items:
-          - name: 概述
+          - name: 管理员的应用管理概述
             href: manage-apps.md
           - name: 应用策略
             items:
@@ -1527,22 +1531,24 @@ items:
                 href: teams-custom-app-policies-and-settings.md
           - name: 根据许可证定制 Teams 应用
             href: pin-teams-apps-based-on-license.md
-          - name: 查看应用权限并授予管理员许可
+          - name: 查看 Azure AD 权限并授予管理员同意
             href: app-permissions-admin-center.md
-          - name: 资源特定许可
+          - name: 为组织管理特定于资源的同意
             href: resource-specific-consent.md
-          - name: 应用权限和注意事项
+          - name: 了解应用权限和对资源的访问
             href: app-permissions.md
           - name: Teams 中应用程序的管理设置
             href: admin-settings.md
           - name: 使用 Microsoft 365 或 Office 365 连接器和自定义连接器
             href: Office-365-custom-connectors.md
-          - name: 非标准用户的 Teams 应用行为
+          - name: 基于用户类型的应用行为
             href: non-standard-users.md
-          - name: 更新应用体验
+          - name: 以最终用户身份将应用更新到较新版本
             href: apps-update-experience.md
           - name: 跨 Microsoft 365 管理对 Teams 应用的访问
             href: manage-third-party-teams-apps.md
+      - name: 应用使用情况报告
+        href: teams-analytics-and-reports/app-usage-report.md
   - name: 行业和政府指南
     items:
       - name: 概述

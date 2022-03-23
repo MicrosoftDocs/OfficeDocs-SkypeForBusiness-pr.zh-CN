@@ -21,17 +21,17 @@ ms.custom:
 - Reporting
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
-description: 了解如何使用呼叫质量仪表板Power BI报表来查看自动助理和呼叫队列历史数据。
-ms.openlocfilehash: bb83a31b083387bc945f7f4b4388ee6643c00f10
-ms.sourcegitcommit: eb5fadedacbf4651ed5b05f1b0d6abf57e9eda2d
+description: 了解如何使用呼叫质量仪表板Power BI报表来查看自动助理呼叫队列历史数据。
+ms.openlocfilehash: 57552af3a1df108dbbf86172793bb9ea86ed1b10
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "62921870"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711486"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>自动助理 &队列历史报告
 
-"Teams 自动助理 &队列历史报告Power BI模板提供以下三个报告：
+呼叫Teams 自动助理 &历史记录报告模板Power BI提供以下三个报告：
 
 - [自动助理](media/cqd-teams-aa-cq-historical-report-sample-aa.png) - 显示对进入自动助理的呼叫的分析。
 - [呼叫队列](media/cqd-teams-aa-cq-historical-report-sample-cq.png) - 显示对进入呼叫队列的呼叫的分析。
@@ -42,7 +42,7 @@ ms.locfileid: "62921870"
 ## <a name="prerequisites"></a>先决条件
 
 ### <a name="power-bi-desktop"></a>Power BI Desktop
-需要安装Power BI Desktop。 可以从 Microsoft Store Windows[安装它](https://aka.ms/pbidesktopstore)。
+需要安装Power BI Desktop。 可以从 Microsoft Store Windows[它](https://aka.ms/pbidesktopstore)。
 
 可以使用免费版本的 Power BI Desktop。 最低兼容版本为 2020 年 9 月 (2.85.681.0) 。
 
@@ -60,7 +60,7 @@ ms.locfileid: "62921870"
 
 - 双击 zip 文件以打开它。
 
-- 双击"CQ 和 AA 组合分析 20201105.pbit"模板文件。 该Power BI Desktop应启动。
+- 双击"CQ 和 AA 组合分析 20201105.pbit"模板文件。 应Power BI Desktop启动。
 
 - 系统会提示选择 CQD 数据管道区域。 选择租户所在的区域。
 
@@ -138,7 +138,7 @@ ms.locfileid: "62921870"
 
 |报表表名称            |源表名称            |正在处理       |
 |:----------------------------|:----------------------------|:----------------|
-|fAutoAttendant               |AutoAttendant                |Source = AutoAttendant， <br>#"Filtered Rows" = Table.SelectRows (Source，每个 true) ， <br>#"自动助理" = Table.AddColumn (#"Filtered Rows"， "AA Name"， each List.First (Text.Split ([AAIdentity]， "@") ) ) ， <br>#"Changed Type" = Table.TransformColumnTypes (#"自动助理"，{{"AAStartTime"， type datetime}}) ， <br>#"Removed Columns" = Table.RemoveColumns (#"Changed Type"，{"AAIdentity"})  |
+|fAutoAttendant               |AutoAttendant                |Source = AutoAttendant， <br>#"筛选的行" = Table.SelectRows (Source，每个 true) ， <br>#"自动助理" = Table.AddColumn (#"Filtered Rows"， "AA Name"， each List.First (Text.Split ([AAIdentity]， "@") ) ) ， <br>#"Changed Type" = Table.TransformColumnTypes (#"自动助理"，{{"AAStartTime"， type datetime}}) ， <br>#"Removed Columns" = Table.RemoveColumns (#"Changed Type"，{"AAIdentity"})  |
 
 
 |报表部分                                  |已 (字段) 字段                              |应用的筛选器     |
@@ -146,7 +146,7 @@ ms.locfileid: "62921870"
 |日期选择器                                   |AAStartTime                                |无                |
 |自动助理                                  |AA 名称                                    |无                |
 |传入呼叫源<sup>1</sup>                |呼叫类型<br>TotalCallCount                |外部呼叫：呼叫类型为外部<br>内部呼叫：呼叫类型为内部 |
-|目录搜索方法总计                  |AADirectorySearchMethod<br>TotalCallCount  |AADirectorySearchMethod abs_search_dtmf或abs_search_name    |
+|目录搜索方法总计                  |AADirectorySearchMethod<br>TotalCallCount  |AADirectorySearchMethod abs_search_dtmf 或 abs_search_name    |
 |调用方操作                                  |AATransferAction<br>TotalCallCount         |无                                                             |
 |AA 中的平均秒数<br>平均调用方操作 |AAChainDuration<br>AACallerActionCount     |无                                                             |
 |调用结果                                    |AACallResult<br>TotalCallCount             |无                                                             |
@@ -161,7 +161,7 @@ ms.locfileid: "62921870"
 |AACallerActionCount                     |全数             |汇总：总和<br>呼叫方在呼叫期间自动助理的操作计数  |
 |AACallFlow                              |文本                     |封装调用的不同自动助理状态 - 可能的值：<br><br>§ abs_search<br>§ 公告<br>§ automatic_menu<br>§ call_termination<br>§ call_transfer<br>§ first_level_menu<br>§ main_menu<br>§ speech_input_confirmation<br>§ user_selection |
 |AACallResult                            |文本                     |最终调用结果 - 可能的值：<br><br>§ failed_to_establish_media<br>§ failover_to_operator<br>§ oaa_chain_too_long<br>§ oaa_session_too_long<br>§ service_declined<br>§ service_terminated<br>§ terminated_automatic_selection<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>***§ transferred_to_operator***<br>§ transferred_to_receptionist<br>§ transferred_to_self<br>§ transferred_to_shared_voicemail<br>§ transferred_to_user<br>§ unknown<br>§ user_terminated |
-|AAChainDuration                         |十进制数           |汇总：总和<br>通话持续时间（以自动助理                     |
+|AAChainDuration                         |十进制数           |汇总：总和<br>通话持续时间（自动助理                     |
 |AAChainIndex                            |文本                     |                                                                         |
 |AAConnectivityType                      |文本                     |调用类型 - 可能的值：<br><br>§ ExternalCall<br>§ InternalCall |
 |AACount                                 |文本                     |呼叫中涉及的自动助理数                               |
@@ -183,7 +183,7 @@ ms.locfileid: "62921870"
 |传入呼叫源<sup>1</sup>        |按内部/外部呼叫源分布呼叫              |
 |呼叫量                             |按呼叫队列分布的呼叫                                |
 |调用方结果                           |按通话结果分布的呼叫                                |
-|超时/溢出调用总数操作      |未转发的已放弃 (的) 按调用结果分布       |
+|超时/溢出调用总数操作      |按调用结果 (放弃) 的未转发呼叫分布       |
 |转移/转发目标总计          |按呼叫结果转发的呼叫分布                      |
 |已放弃的通话比率                   |成功与放弃的呼叫计数的比率                        |
 |平均会话长度 (秒)         |按放弃/成功调用分组的呼叫长度（以秒数表示）       |
@@ -201,7 +201,7 @@ ms.locfileid: "62921870"
 |fCallQueueAnalytics          |CallQueueAnalytics           |无             |
 |fCallQueueFinalStateAction   |CallQueueFinalStateAction    |无             |
 
-|报表部分                      |表 -> 字段 (字段) 已用                |应用的筛选器       |
+|报表部分                      |表 -> 字段 () 已用                |应用的筛选器       |
 |:-----------------------------------|:-------------------------------------|:---------------------|
 |日期选择器                       |Dates -> DateTime                     |无                  |
 |调用队列标识                 |dCQ-CQIdentity ->调用队列标识 |无                  |
@@ -209,7 +209,7 @@ ms.locfileid: "62921870"
 |平均等待时间                    |fCallQueueFinalStateAction ->平均呼叫持续时间 (秒)  |转接之前：呼叫队列呼叫结果agent_joined_conference或transferred_to_agent<br>挂断之前：呼叫队列呼叫结果agent_joined_conference或transferred_to_agent |
 |通话结果                         |fCallQueueAnalytics ->呼叫计数<br>fCallQueueAnalytics ->呼叫队列呼叫结果 | 无 |
 |超时/溢出调用总数操作 |fCallQueueFinalStateAction ->调用计数<br>fCallQueueFinalStateAction ->调用队列最终状态操作 |调用队列最终状态操作未转发 |
-|传输/Forard 目标总计       |fCallQueueAnalytics ->呼叫计数<br>fCallQueueAnalytics ->调用队列目标类型 |无 |
+|传输/Forard 目标总计       |fCallQueueAnalytics ->呼叫计数<br>fCallQueueAnalytics ->队列目标类型 |无 |
 |呼叫量                        |fCallQueueAnalytics ->呼叫计数<br>fCallQueueAnalytics ->调用队列标识<br>fCallQueueAnalytics -> Date |无 |
 |已放弃的呼叫                     |fCallQueueAnalytics -> %已放弃的调用<br>fCallQueueAnalytics ->呼叫计数<br>fCallQueueAnalytics -> Date<br>fCallQueueAnalytics -> IsAbandoned |IsAbandoned 为 True |
 |平均会话长度 (秒)     |fCallQueueFinalStateAction ->平均呼叫持续时间<br>fCallQueueFinalStateAction -> Date<br>fCallQueueFinalStateAction -> IsAbandoned |无 |
@@ -262,7 +262,7 @@ ms.locfileid: "62921870"
 |报表部分                                          |说明                                                  |
 |:-------------------------------------------------------|:------------------------------------------------------------|
 |代理调用的个次                                        |按呼叫队列和代理分布呼叫                 |
-|代理和 (呼叫队列) 总呼叫持续时间   |代理 (呼叫队列) 的总持续时间（秒）     |
+|代理和 (队列) 总呼叫持续时间   |代理 (呼叫队列) 的总持续时间（秒）     |
 |按代理名称 (平均) 秒数           |代理 (呼叫) 的平均持续时间（秒）                  |
 
 #### <a name="report-to-cqd-table-and-field-mapping"></a>报告到 CQD 表和字段映射
@@ -288,10 +288,10 @@ ms.locfileid: "62921870"
 
 |名称                                    |数据类型                |说明                                         |
 |:---------------------------------------|:------------------------|:---------------------------------------------------|
-|代理名称                              |文本                     |用户 UPN<br>如果输入完整的用户名 **user@microsoft.com** 则此值为： **user** |
-|平均呼叫持续时间 (秒)           |十进制数           |汇总：总和<br>呼叫队列调用的平均持续时间（以秒数） |
-|呼叫计数                              |全数             |汇总：总和<br>代理处理的调用数                    |
-|通话持续时间 (分钟)                   |全数             |汇总：总和<br>呼叫队列呼叫的总呼叫持续时间（分钟）  |
+|代理名称                              |文本                     |用户 UPN<br>如果输入 **完整的用户名 user@microsoft.com** 则此值为： **user** |
+|平均呼叫持续时间 (秒)           |十进制数           |汇总：总和<br>应答的呼叫队列调用的平均持续时间（以秒数表示） |
+|呼叫计数                              |全数             |汇总：总和<br>代理呈现和应答的呼叫数     |
+|通话持续时间 (分钟)                   |全数             |汇总：总和<br>已应答呼叫队列呼叫的总呼叫持续时间（以分钟 (向下舍入到最接近的分钟)   |
 |呼叫队列名称                         |文本                     |附加到呼叫队列的资源帐户的名称<br><br>如果完整资源帐户名称 cq_test@microsoft.com 则此值为：**cq_test** |
 |日期                                    |日期                     |                                                    |
 

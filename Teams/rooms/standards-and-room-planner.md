@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 根据环境的智能建议生成和策展标准。
 f1keywords: ''
-ms.openlocfilehash: 2eb0681999664cd3fd29876fbfa3550eee9fb507
-ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
+ms.openlocfilehash: 978975bdd4ed02f248cf0a36d88109d2e281b8d4
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "63062782"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711519"
 ---
 # <a name="standards-and-room-planner"></a>标准和会议室规划器
 
@@ -45,15 +45,15 @@ ms.locfileid: "63062782"
 
 1. 选择 **"创建一个标准版"**，然后提供一般详细信息，例如标准的名称和说明。
 
-   ![标准选择选项的会议室](../media/standards-and-room-planner-002.png)
+   ![标准选择类型会议室屏幕截图](../media/standards-and-room-planner-002.png)
 
 1. 为此标准选择你的会议室类型。
 
    ![标准选择推荐设备的屏幕截图](../media/standards-and-room-planner-003.png)
 
-1. 在硬件清单中，从推荐的Teams选择会议室设备。
+1. 在硬件清单中Teams推荐的已认证房间模板。 该列表因上一步中所选房间类型而异。
 
-   ![标准常规详细信息的屏幕截图](../media/standards-and-room-planner-004.png)
+   ![选择标准 MTR 的屏幕截图](../media/standards-and-room-planner-004.png)
 
 
 1. 查看"公司标准版"信息。
@@ -64,14 +64,13 @@ ms.locfileid: "63062782"
 
    ![发布标准的位置的屏幕截图。](../media/standards-and-room-planner-006.png)
 
-完成工作流后，标准将成功创建并发布到网站、区域、建筑物或会议室。 现在，这些标准将用于规划目的。
+发布后，标准用于规划目的。
 
 ![成功发布的标准"的屏幕截图](../media/standards-and-room-planner-008.png)
 ### <a name="discovered-devices"></a>已发现设备
 
 在"标准" **中，选择** "已发现设备"，查看组织内部发现的所有非标准设备。
 
-![聊天室的已发现设备的屏幕截图](../media/standards-and-room-planner-008.png)
 
 可以采取措施，查看和创建库存中这些已发现设备的标准。
 

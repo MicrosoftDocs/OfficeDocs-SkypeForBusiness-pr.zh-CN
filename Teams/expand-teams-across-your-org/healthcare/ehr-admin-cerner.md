@@ -23,16 +23,14 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: 了解如何集成 Teams EHR 连接器，使贵组织的医疗保健提供商能够直接从 Cerner EHR 系统与 Teams 中的患者或其他提供商进行虚拟访问。
-ms.openlocfilehash: d7f34be9729989f7930cc6f478738b43b716f6ac
-ms.sourcegitcommit: ff975c21725e1812e6db8fc9fe37de1362f168c3
+ms.openlocfilehash: 6c0f0020cbbee5ba6ecbb186681454b8d8b8a103
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63435876"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711746"
 ---
 # <a name="virtual-visits-with-teams---integration-into-cerner-ehr"></a>使用虚拟访问Teams - 集成到 Cerner EHR
-
-[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
 借助 Microsoft Teams EHR (EHR) 连接器，医生可以轻松直接从 Cerner EHR 系统启动虚拟患者访问或咨询 Microsoft Teams 中的其他提供商。 基于 Microsoft 365 云Teams，在支持符合 HIPAA、HITECH 认证等要求的单一中心内，使用聊天、视频、语音和医疗保健工具实现简单、安全的协作和通信。
 

@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 了解如何为公司中的大型组织设置和测试Microsoft Teams。
-ms.openlocfilehash: 1b212edfc750210aa7ab66bb0184dfa07541280e
-ms.sourcegitcommit: 4af3638637456f21bc97f510ed9d2f7ff2da07e2
+ms.openlocfilehash: 3a501ee9cdea0cf04466be1cbbd9c8f4407a9842
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/19/2022
-ms.locfileid: "63660587"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711916"
 ---
 # <a name="set-up-an-auto-attendant"></a>设置自动助理
 
@@ -149,6 +149,8 @@ ms.locfileid: "63660587"
 
 > [!NOTE]
 > 如果要同时使用"按姓名拨叫"和"按分机拨叫"功能，可以在主自动助理上分配拨号键，以使用为"按姓名拨叫"启用 **的自动助理**。 在此自动助理中，你可以分配没有与之关联的 (1 个密钥，) 电话分机 **自动** 助理。
+
+有关详细信息 [，请参阅拨号和](dial-voice-reference.md) 语音参考。
 
 选择目录搜索选项后， **选择** "下一步 **"**。
 

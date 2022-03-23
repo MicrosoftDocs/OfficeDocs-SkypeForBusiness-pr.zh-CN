@@ -16,16 +16,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 666a623f955cd10fd4ad3e0983ccff83c9725a6b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a9ca46e3fa967019e674651ea27299b6552144a7
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586728"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711956"
 ---
 # <a name="assign-team-owners-and-members-in-microsoft-teams"></a>在 Microsoft Teams 中分配团队所有者和成员
 
-在 Microsoft Teams 中有两种用户角色：**所有者** 和 **成员**。 默认情况下，会为创建新团队的用户授予所有者状态。 此外，团队所有者和成员可以拥有频道的审核员功能（前提是设置了审核）。 如果团队是通过现有 Microsoft 365 组创建的，则会继承权限。
+在 Microsoft Teams 中有两种用户角色：**所有者** 和 **成员**。 默认情况下，会为创建新团队的用户授予所有者状态。 此外，团队所有者和成员可以拥有频道的审核员功能（前提是设置了审核）。 如果从现有组创建Microsoft 365组，则继承权限。
 
 下表显示了所有者与成员之间的权限差异。
 
@@ -42,6 +42,9 @@ ms.locfileid: "58586728"
 |          ***添加私人频道**          |    是     |    是<sup>2</sup>|
 | ***编辑私人频道名称/说明** |    否     |    不适用|
 |        ***删除专用通道**         |    是     |    否|
+|          **添加共享通道**          |    是     |    否|
+| **编辑共享频道名称/说明** |    弱     |    <sup>No6</sup>|
+|        **删除共享通道**         |    是     |    <sup>No6</sup>|
 |          **添加成员**          |  是<sup>3</sup>   |     否<sup>4</sup>    |
 |          **请求添加成员**          |  不适用   |     是<sup>5</sup>     |
 |           **添加应用**            |    是     |    是<sup>2</sup>|
@@ -50,7 +53,8 @@ ms.locfileid: "58586728"
 <sup>2</sup> 所有者可以在团队级别关闭这些项目，在这种情况下，成员将不能访问它们。<br>
 <sup>3</sup> 向团队添加成员后，所有者也可以将成员提升到所有者状态。 此外，所有者也可以将自己的状态降级为成员。<br>
 <sup>4</sup> 团队成员可以向公共团队中添加其他成员。<br>
-<sup>5</sup> 尽管团队成员无法直接将成员添加到私人团队，但可以请求将某人添加到他们所属的团队。 当成员请求将某人添加到团队时，团队所有者将收到通知，告知他们有一个可接受或拒绝的待定请求。
+<sup>5</sup> 尽管团队成员无法直接将成员添加到私人团队，但可以请求将某人添加到他们所属的团队。 当成员请求将某人添加到团队时，团队所有者将收到通知，告知他们有一个可接受或拒绝的待定请求。<br>
+<sup>6</sup> 如果团队成员是共享频道所有者，他们可以执行此操作。
 
 了解更多关于私人频道访问权限的信息，请参阅[Teams 中的私人频道](private-channels.md)。
 
@@ -67,7 +71,7 @@ ms.locfileid: "58586728"
 
 ## <a name="assign-a-user-role"></a>分配用户角色
 
-若要分配用户角色，请在 Teams 中选择团队名称，然后单击“更多选项” > “管理团队”。 在“成员”选项卡上，可以添加成员并选择所有者和审核员（如果你有足够的权限）。 有关详细信息，请参阅 [Teams 中的团队设置](https://support.office.com/article/ce053b04-1b8e-4796-baa8-90dc427b3acc)
+若要分配用户角色，请在 Teams 中选择团队名称，然后单击“更多选项” > “管理团队”。 在“成员”选项卡上，可以添加成员并选择所有者和审核员（如果你有足够的权限）。 有关详细信息，请参阅更改 [Teams 中的团队Teams](https://support.office.com/article/ce053b04-1b8e-4796-baa8-90dc427b3acc)。
 
 ## <a name="permissions-to-create-teams"></a>创建团队的权限
 
