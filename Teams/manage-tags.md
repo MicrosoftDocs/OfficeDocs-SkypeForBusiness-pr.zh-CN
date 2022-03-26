@@ -16,12 +16,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何管理标签在组织中在 Microsoft Teams。
-ms.openlocfilehash: 2e099c611cbbfd22cc2cc32c189edc8243ea362d
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: af9855f1ca771cb9f5d4739194e26cba746859ff
+ms.sourcegitcommit: caaed4b48b8f2b05d035c1bdea00a61301bc9f05
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711576"
+ms.locfileid: "63740199"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>管理 Microsoft Teams 中的标记
 
@@ -35,7 +35,7 @@ ms.locfileid: "63711576"
 - **按排班** 标记：使用此功能，将自动为人员分配与日程安排匹配的标记，以及组中 [Shifts](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_openshiftsappdesktop) 应用中的排班Teams。 例如，在聊天或频道帖子中使用标记时，"EngineerOnCall"标记将到达在 Shifts 中计划工作的所有工程师。 使用按轮班Teams，当用户需要快速中继信息时，无需知道轮班员工的姓名， 通过将主要员工管理系统（如 JDA、Kronos 和 AMiON）与工作团队中的 Shift 集成，还可以支持按班次进行Teams。 若要详细了解如何设置此功能，请参阅 [按 Shift 设置标记](#set-up-tagging-by-shift)。
 
 > [!NOTE]
-> 专用或共享通道不支持标记。 在 DoD 组织的国防部 (中) 标记。 
+> 专用或共享通道不支持标记。  
 
 ## <a name="how-tags-work"></a>标记工作
 

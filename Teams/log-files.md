@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 了解调试、媒体和桌面日志Microsoft Teams、可在何处找到它们，以及它们如何帮助进行监视和故障排除。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 56a665be7f2b647c3133b3dcd0617779b1e4165e
-ms.sourcegitcommit: 5b1d8d6f811fab0b350a09e5187d982f952d0edb
+ms.openlocfilehash: 3cb6718c88f3b084f8a38f039a7e707e65c344d7
+ms.sourcegitcommit: b91d83739a078b175770c797c17d602eb5c83a4f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "63047122"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63774081"
 ---
 # <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>使用日志文件监视和排查Microsoft Teams
 
@@ -107,6 +107,9 @@ ms.locfileid: "63047122"
 请参阅 _收集和启用日志记录_ 部分，了解 Windows 和 Mac 的说明。 媒体日志包含有关会议中音频、视频和屏幕共享的Teams数据。 它们对于链接到呼叫相关问题的支持案例是必需的。
 
 默认情况下，媒体日志记录已关闭。 若要记录会议Teams数据，用户必须在客户端中打开Teams选项。 转到 **设置** > **General**，选中"为会议诊断启用日志记录 (Teams) "复选框，重新启动Teams并重现问题。 
+
+> [!NOTE]
+> 注销媒体日志Teams，媒体日志记录将重置为默认值。 
 
 将日志文件发送给 Microsoft 支持人员时，请验证日志文件的时间戳，确保日志涵盖重现问题的时间范围。
 

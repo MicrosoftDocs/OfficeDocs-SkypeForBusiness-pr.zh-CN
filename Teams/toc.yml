@@ -1529,7 +1529,7 @@ items:
                 href: teams-app-setup-policies.md
               - name: 在 Teams 中管理自定义应用策略和设置
                 href: teams-custom-app-policies-and-settings.md
-          - name: 根据许可证定制 Teams 应用
+          - name: 为一线员工定制 Teams 应用
             href: pin-teams-apps-based-on-license.md
           - name: 查看 Azure AD 权限并授予管理员同意
             href: app-permissions-admin-center.md

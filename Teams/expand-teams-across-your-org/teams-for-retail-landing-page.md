@@ -20,21 +20,20 @@ searchScope:
 - Microsoft Cloud for Retail
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb32190c05dcbe165e203d9e4f097622d60943b8
-ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
+ms.openlocfilehash: f611afe731bc178759427efff2fe35d925ca0def
+ms.sourcegitcommit: 42c355d3f4bbe52c063b8f2119baefc0b88f9563
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/11/2022
-ms.locfileid: "62763397"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "64403963"
 ---
 # <a name="get-started-with-teams-for-retail"></a>Teams for Retail 入门
 
-零售环境及其轮换计划和随地员工的需求与其他组织非常不同。 若要为零售组织获得最大好处，首先选择 Teams 可在日常业务运营中帮助你处理的方案，然后确保使用正确的基础知识、团队和应用来准备 Teams 环境，以支持这些方案。
+其轮换计划和流动员工需求等零售环境与其他组织大不相同。若要为零售组织带来最大益处，首先选择哪些 Teams 方案有助于日常业务运营，然后确保使用正确的基础知识、团队和应用来准备 Teams 环境，以支持这些方案。
 
 1. [选择要为业务实现的方案](#choose-your-scenarios)。
 显示 Teams 零售方案的:::image type="content" source="../media/retail-teams-scenarios.png" alt-text="图。" lightbox="../media/retail-teams-scenarios.png":::
-1. [设置基础知识](#set-up-the-fundamentals) - 为员工提供基础知识：管理帐户和设备，并确保应用适当的 Teams 策略。
-:::image type="content" source="../media/retail-teams-fundamentals.png" alt-text="图显示了基础知识，包括 Teams 策略、帐户和设备。" lightbox="../media/retail-teams-fundamentals.png":::
+1. [设置基础知识](#set-up-the-fundamentals) - 为员工提供基础知识：管理帐户和设备，并确保应用适当的 Teams 策略。:::image type="content" source="../media/retail-teams-fundamentals.png" alt-text="图显示了基础知识，包括 Teams 策略、帐户和设备。" lightbox="../media/retail-teams-fundamentals.png":::
 1. [设置团队和应用](#set-up-teams-and-apps) - 使用团队模板快速设置所需的团队，包括业务所需的频道和应用。 根据需要从 Microsoft 添加其他应用，以支持你的方案。
 :::image type="content" source="../media/retail-teams-apps.png" alt-text="图，其中显示了可以包含的团队、团队模板和应用。" lightbox="../media/retail-teams-apps.png":::
 
@@ -42,7 +41,7 @@ ms.locfileid: "62763397"
 
 ## <a name="choose-your-scenarios"></a>选择你的方案
 
-Microsoft 365和 Microsoft Teams 提供了多种功能，可帮助零售组织实现日常运营和数字化转型。 对于零售组织，我们建议使用以下方案：
+Microsoft 365 和 Microsoft Teams 提供了多种功能，有助于零售组织实现日常运营和数字化转型。我们建议使用以下方案：
 
 [![店内通信和协作。](../media/retail-scenarios-in-store.png)](#in-store-communication-and-collaboration) [![跨存储通信和协作。](../media/retail-scenarios-cross-store.png)](#cross-store-communication-and-collaboration) [![虚拟拟合和咨询。](../media/retail-scenarios-virtual-visits.png)](#virtual-fittings-and-consultations) [![简化业务流程。](../media/retail-scenarios-business-processes.png)](#simplify-business-processes) [![公司通信。](../media/retail-scenarios-corp-comms.png)](#corporate-communications) [![载入新员工。](../media/retail-scenarios-onboarding.png)](#onboarding-new-employees)
 
@@ -79,7 +78,7 @@ Microsoft Teams 中的 Bookings 应用为组织提供了一种为同事和客户
 
 ### <a name="simplify-business-processes"></a>简化业务流程
 
-可以使用 Teams 应用、Power Apps和Power BI来简化业务流程。 例如，你能够：
+可以使用 Teams 应用、Power Apps 和Power BI 来简化业务流程。例如，可以：
 
 - 使用班次为员工设置和维护日程安排。
 - 使用Power Apps开展商店演练和库存。
@@ -168,7 +167,7 @@ Teams 与 Shifts 应用和一线工作人员集成，可用于协调班次人员
 | Microsoft 提供的更多应用和服务 | 说明 | 管理 | 帮助 |
 | ----- | ----- | ----- | ----- |
 | Bookings | 启用虚拟拟合和咨询。 | [使用 Microsoft Teams 和 Bookings 应用进行虚拟访问](bookings-virtual-visits.md) | [使用 Bookings](https://support.microsoft.com/en-us/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5) |
-| Power Apps和Power Platform | 集成业务流程并快速更新数据，例如商店库存、销售编号、事件报告等。 | [Teams 与 Microsoft Teams 管理中心Microsoft Power Platform](../teams-power-platfom-integration.md) 和 [管理Microsoft Power Platform应用的集成](../manage-power-platform-apps.md) | -  |
+| Power Apps和Power Platform | 集成业务流程并快速更新数据，例如商店库存、销售编号、事件报告等。 | [Teams 与 Microsoft Teams 管理中心Microsoft Power Platform](/microsoftteams/platform/samples/teams-low-code-solutions) 和 [管理Microsoft Power Platform应用的集成](../manage-power-platform-apps.md) | -  |
 | SharePoint | 创建新团队时，将创建新的 SharePoint 网站并将其连接到该团队。 上述许多方案都依赖于 Teams 中已嵌入的 SharePoint 功能，例如共享文档以进行团队协作。 | [Teams 和 SharePoint 集成](/sharepoint/teams-connected-sites) | [在 Teams 中将 SharePoint 页面、列表或文档库添加为选项卡](https://support.microsoft.com/office/add-a-sharepoint-page-list-or-document-library-as-a-tab-in-teams-131edef1-455f-4c67-a8ce-efa2ebf25f0b)|
 | Viva Connections | Viva Connections 在 Teams 中创建一个中心，零售员工可在其中查看组织中定制的新闻源和包含所需资源的个性化仪表板。 | [Viva Connections 概述](/sharepoint/viva-connections-overview) | [Microsoft Teams 中的 Viva Connections](https://support.microsoft.com/office/your-intranet-is-now-in-microsoft-teams-8b4e7f76-f305-49a9-b6d2-09378476f95b) |
 | Viva Learning | 根据需要直接在其工作流程中提供培训。 | [管理 Viva Learning](/microsoft-365/learning/) | [使用 Viva Learning（预览版）](https://support.microsoft.com/office/viva-learning-preview-01bfed12-c327-41e0-a68f-7fa527dcc98a) |
@@ -190,7 +189,7 @@ Teams 与 Shifts 应用和一线工作人员集成，可用于协调班次人员
 
 ## <a name="get-ready-to-roll-out-your-scenarios---identify-roles-and-responsibilities-for-scenarios"></a>准备好推出方案 - 确定方案的角色和职责
 
-了解要实施的方案以及需要支持哪些方案后，便可以收集团队，以便可以规划、推出和监视它们在组织中的工作方式。 例如，可能需要以下角色才能在组织中推出这些方案：
+了解要实施的方案和需要支持方案的内容后，便可以召集团队，以便在组织中可以对工作进行规划、跟踪和监控。例如，可能需要以下角色才能在组织中推出这些方案：
 
 | 图像 | 角色 | 责任 | 部门 |
 | ---- | ---- | ----- | ----- |

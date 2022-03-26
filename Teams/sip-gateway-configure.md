@@ -21,22 +21,22 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1af44c5e3962f89346cae166bf40efa6a8622338
-ms.sourcegitcommit: eddc03f777ce78bd5273708da9b1ab609ee20099
+ms.openlocfilehash: 4b94251de11c302c18f7de725c76cfaaaa8b8f76
+ms.sourcegitcommit: b91d83739a078b175770c797c17d602eb5c83a4f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/18/2022
-ms.locfileid: "62065178"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63774161"
 ---
 # <a name="configure-sip-gateway"></a>配置 SIP 网关
 
-本文介绍如何配置 SIP 网关，以便组织可以将兼容的 SIP 设备与 Microsoft Teams。 若要了解 SIP 网关可以为组织执行哪些工作，以及组织需要哪些硬件、软件和许可证，请阅读 SIP [网关计划](sip-gateway-plan.md)。
+本文介绍如何配置 SIP 网关，以便组织可以将兼容的 SIP 设备与 Microsoft Teams。 若要了解 SIP 网关可以为组织执行哪些工作，以及组织需要哪些硬件、软件和许可证，请阅读 [SIP 网关计划](sip-gateway-plan.md)。
 
 在配置 SIP 网关之前，请执行下列操作：
 
 - **将 SIP 设备重置为出厂默认设置。** 你或组织的用户必须将与 SIP 网关一起使用的每个 SIP 设备重置为出厂默认设置。 若要了解如何操作，请参阅制造商的说明。
 
-- **打开防火墙以Microsoft 365 Teams。** 打开网络的防火墙以Microsoft 365 Teams URL 和 IP 地址Office 365[中所述](/microsoft-365/enterprise/urls-and-ip-address-ranges)的流量。
+- **打开防火墙以Microsoft 365 Teams。** 打开网络的防火墙，根据Microsoft 365和 [IP](/microsoft-365/enterprise/urls-and-ip-address-ranges) Teams中所述Office 365流量。
 
 - **确保 SIP 设备不在代理后面。** 确保 http/s 流量绕过任何企业 http/s 代理。
 
@@ -65,9 +65,9 @@ ms.locfileid: "62065178"
 
 - [验证 SIP 网关是否可用于组织](#verify-that-sip-gateway-is-available-for-your-organization)。
 
-- [为组织中用户启用 SIP 网关](#enable-sip-gateway-for-the-users-in-your-organization)。
+- [为贵组织的用户启用 SIP 网关](#enable-sip-gateway-for-the-users-in-your-organization)。
 
-- [设置 SIP 网关预配服务器 URL。](#set-the-sip-gateway-provisioning-server-url)
+- [设置 SIP 网关预配服务器 URL](#set-the-sip-gateway-provisioning-server-url)。
 
 本文还介绍如何：
 
@@ -80,9 +80,9 @@ ms.locfileid: "62065178"
 
 ## <a name="verify-that-sip-gateway-is-available-for-your-organization"></a>验证 SIP 网关是否可用于组织
 
-1. 登录到管理[Teams中心](https://admin-teams.microsoft.com/)。
+1. 登录到 Teams [管理中心](https://admin.teams.microsoft.com/)。
 
-2. 在左侧选择 **"Teams"，** 查看 **"SIP 设备**"选项卡是否可见。 如果是，则为组织启用 SIP 网关服务。
+2. 在左侧选择"**Teams**"，查看 **"SIP 设备**"选项卡是否可见。 如果是，则为组织启用 SIP 网关服务。
 
 ## <a name="enable-sip-gateway-for-the-users-in-your-organization"></a>为贵组织的用户启用 SIP 网关
 
@@ -92,20 +92,20 @@ ms.locfileid: "62065178"
 
 若要在管理中心Teams SIP 网关，请执行以下步骤：
 
-1. 转到 Teams[管理中心](https://admin.teams.microsoft.com/)
+1. 转到 Teams [管理中心](https://admin.teams.microsoft.com/)
 
-2. 在左侧的"语音 **"下**，选择"**呼叫策略"。**
+2. 在左侧的"语音 **"下**，选择" **呼叫策略"**。
 
 3. 在"管理 **策略**"下的右侧，选择分配给用户的适当调用策略，或者，如有必要，创建新的呼叫策略并将其分配给所需的用户。
 
-4. 选择 **"管理策略**"，选择一个策略，然后选择"编辑 **"。**
+4. 选择 **"管理策略**"，选择一个策略，然后选择"编辑 **"**。
 
-5. 打开"SIP 设备 **可用于通话**"的设置，然后选择"保存 **"。**
+5. 打开 **SIP 设备的设置** 可用于呼叫，然后选择"保存 **"**。
 
 
 ### <a name="by-using-powershell"></a>使用 PowerShell
 
-也可使用 PowerShell [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps) cmdlet 启用 SIP 网关。 若要为 SIP 设备启用用户，请选择一个策略，将 `-AllowSIPDevicesCalling` 属性设置为 `True` 。 默认值为 ，因此用户将无法使用其 SIP 设备， `False` 除非你启用它们。
+也可使用 PowerShell [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps) cmdlet 启用 SIP 网关。 若要为 SIP 设备启用用户，请选择一个策略，将 `-AllowSIPDevicesCalling` 属性设置为 `True`。 默认值为 `False`，因此用户将无法使用其 SIP 设备，除非你启用它们。
 
 
 > [!NOTE]
@@ -123,7 +123,7 @@ ms.locfileid: "62065178"
 - 美洲： `http://noam.ipp.sdg.teams.microsoft.com`
 - APAC： `http://apac.ipp.sdg.teams.microsoft.com`
 
-在 DHCP 服务器中配置Teams SIP 网关预配服务器 URL，将 SIP 设备添加到组织。 若要详细了解 DHCP 服务器，请参阅[部署和管理 DHCP。](/learn/modules/deploy-manage-dynamic-host-configuration-protocol) 此外，可以使用 DHCP 选项 42 指定网络时间协议 (NTP) 服务器，并使用 DHCP 选项 2 指定协调世界时 (UTC) 的偏移量（以秒计）。 您的组织中的设备将路由到 SIP 网关预配服务器。 成功预配的 SIP 电话将显示Teams徽标和用于登录的软按钮。
+在 DHCP 服务器中配置Teams SIP 网关预配服务器 URL，将 SIP 设备添加到组织。 若要详细了解 DHCP 服务器，请参阅 [部署和管理 DHCP](/learn/modules/deploy-manage-dynamic-host-configuration-protocol)。 此外，可以使用 DHCP 选项 42 指定网络时间协议 (NTP) 服务器，并使用 DHCP 选项 2 指定协调世界时 (UTC) 的偏移量（以秒计）。 您的组织中的设备将路由到 SIP 网关预配服务器。 成功预配的 SIP 电话将显示Teams徽标和用于登录的软按钮。
 
 确保 SIP 设备在载入时支持的最低固件版本。 在载入期间，SIP 网关将默认配置和身份验证用户界面推送到设备。 若要了解 SIP 设备所需的固件版本，请参阅 [SIP 网关计划](sip-gateway-plan.md)。
 
@@ -131,7 +131,7 @@ ms.locfileid: "62065178"
 
 远程工作的用户必须使用以下步骤手动配置其 SIP 设备的预配服务器 URL：
 
-1. 打开 **设置，** 并获取设备的 IP 地址。
+1. 打开 **设置**，并获取设备的 IP 地址。
 
 2. 打开浏览器窗口，输入设备的 IP 地址， (登录) 并配置设备 Web 实用工具中的预配服务器的 URL。
 
@@ -166,21 +166,21 @@ ms.locfileid: "62065178"
 > [!NOTE]
 > 必须先将 SIP 设备载入 SIP 网关，然后才能注册该设备。
 
-若要简化任务，可以在管理中心内注册 SIP Teams一次一个或分批注册。 操作步骤如下：
+为了简化任务，可以在管理中心内注册 SIP Teams一次一个或成批注册。 操作步骤如下：
 
-1. 登录到管理 [**Teams中心**](https://admin.teams.microsoft.com)。
+1. 登录到 Teams [**管理中心**](https://admin.teams.microsoft.com)。
 
-2. 选择 **Teams**  >  **SIP 设备"。**
+2. 选择 **Teams设备** > **""IP 设备"**。
 
-3. 在右上角，选择"**操作**  >  **""预配设备**"，然后执行以下步骤之一：
+3. 在右上角，选择" **操作** > **""预配设备** "，然后执行以下步骤之一：
 
   - **预配一个设备：**
 
-     a. 在 **"正在等待激活"下，** 选择"**添加"。**
+     a. 在 **"正在等待激活"下，** 选择" **添加"**。
 
-     b. 在"**添加 MAC 地址"** 窗格中，输入设备的 **MAC** 地址和位置，然后选择"应用 **"。**
+     b. 在"**添加 MAC 地址"** 窗格中，输入 **设备的 MAC** 地址和位置，然后选择"应用 **"**。
      
-     c. 在 **"正在等待激活"** 下，选择刚添加的设备，然后选择"**生成验证码"。**
+     c. 在 **"正在等待激活"** 下，选择刚添加的设备，然后选择" **生成验证码"**。
      
      d. 在" **预配设备"** 窗格的" **验证码"下**，记下 SIP 设备的验证码。
 
@@ -188,39 +188,39 @@ ms.locfileid: "62065178"
 
      a. 在 **"正在等待激活"** 下的右侧，选择"导出 (Microsoft Excel图标) 。
      
-     b. 在"**预配设备"** 窗格的 **Upload，选择**"下载 **模板"。**
+     b. 在"**预配设备"** 窗格的Upload **，选择**"下载 **模板"**。
      
      c. 将 **Template_Provisioning.csv** 保存到计算机，并填写 **"MAC ID"和** " **位置"** 字段。
     
-     d. 在"**预配设备"** 窗格中，Upload **多个 MAC 地址。** 
+     d. 在"**预配设备"** 窗格中，**Upload多个 MAC 地址**。 
 
-     e. 在"MAC 地址"Upload右侧，选择"选择文件"，然后选择 **Template_Provisioning.csv数据的文件**。 
+     e. 在"MAC 地址"Upload右侧，选择"选择文件"，然后选择 **Template_Provisioning.csv数据的文件**。
 
      f. 在"**预配设备**"窗格的"等待激活"下，选择一个设备，然后选择"生成验证码"，为每台预配的设备生成一次验证码。 记下每个 SIP 设备的验证码。
 
-4. 在 SIP 设备上，先拨打注册功能代码，然后拨打验证码。 在 SIP 设备上，拨打 SIP 网关用于注册一次验证码验证) 的注册功能代码 55* (，然后拨打此特定设备的 Teams 管理 \* 中心中生成的验证码。 例如，如果验证码为 123456，请拨打 \* 55 \* 123456注册设备。
+4. 在 SIP 设备上，先拨打注册功能代码，然后拨打验证码。 在 SIP \*设备上，拨打 SIP 网关用于注册一次验证码验证) 的注册功能代码 55* (，然后是在此特定设备的 Teams 管理中心中生成的验证码。 例如，如果验证码123456，请拨打 \*55\* 123456注册设备。
 
-5.  在"**预配设备"** 窗格的"**等待登录"下，** 选择"**注销"。**
+5.  在" **预配设备"** 窗格的" **等待登录"下，** 选择" **注销"**。
 
 6. 在 **"登录用户"对话框中** ，复制或记下 SIP 设备的配对代码。
 
-7. 转到 [https://microsoft.com/devicelogin](https://microsoft.com/devicelogin) ，在 **"输入代码"** 下输入 SIP 设备的配对代码，然后选择"下一步 **"。**
+7. 转到 ， [https://microsoft.com/devicelogin](https://microsoft.com/devicelogin)在 **"输入代码"** 下输入 SIP 设备的配对代码，然后选择"下一步 **"**。
 
-8. 在"Microsoft **登录"页面上** 的"**电子邮件** 或电话"字段中，输入 SIP 设备的电子邮件地址，然后选择"下一步 **"。**
+8. 在"Microsoft **登录"页面上** 的" **电子邮件** 或电话"字段中，输入 SIP 设备的电子邮件地址，然后选择"下一步 **"**。
 
-9. 在 **"密码**"页上，输入 SIP 设备的电子邮件地址的密码，然后选择"**登录"。**
+9. 在 **"密码** "页上，输入 SIP 设备的电子邮件地址的密码，然后选择" **登录"**。
 
-10. 在"**是否尝试登录到 SIP Teams"页上**，选择"继续 **"。**
+10. 在"**是否尝试登录到 SIP 设备Teams页上，** 选择"继续 **"**。
 
 ## <a name="how-to-sign-in-and-sign-out"></a>如何登录和注销
 
 用户的个人设备仅支持本地登录。 若要从管理中心注销设备，请执行以下步骤：
 
-1. 登录到管理 [**Teams中心**](https://admin.teams.microsoft.com)。
+1. 登录到 Teams [**管理中心**](https://admin.teams.microsoft.com)。
 
-2. 选择 **Teams**  >  **SIP 设备"。**
+2. 选择 **Teams设备** > **""IP 设备"**。
 
-3. 在右侧选择 SIP 设备，然后选择"**注销"。**
+3. 在右侧选择一个 SIP 设备，然后选择" **注销"**。
 
 
 ### <a name="user-pairing-and-sign-in"></a>用户配对和登录
@@ -234,7 +234,7 @@ ms.locfileid: "62065178"
 3. 在 Web 身份验证应用中输入 SIP 手机上显示的配对代码，将 SIP 电话与用户帐户配对。 成功登录（可能需要一段时间）时，如果设备支持，SIP 电话会显示电话号码和用户名。
 
 > [!NOTE]
-> 设备在 Web 身份验证应用Azure Active Directory的位置是设备连接到的 SIP 网关数据中心。 范围中的 SIP 电话不支持 OAuth，因此 SIP 网关通过 Web 身份验证应用对用户进行身份验证，然后将设备与用户的凭据配对。 在此处了解有关详细信息[：Microsoft 标识平台和 OAuth 2.0 设备授权授权流](/azure/active-directory/develop/v2-oauth2-device-code)。
+> Web 身份验证应用上显示Azure Active Directory的位置是设备连接到的 SIP 网关数据中心。 范围中的 SIP 电话不支持 OAuth，因此 SIP 网关通过 Web 身份验证应用对用户进行身份验证，然后将设备与用户的凭据配对。 有关详细信息，请Microsoft 标识平台 [OAuth 2.0 设备授权流](/azure/active-directory/develop/v2-oauth2-device-code)。
 
 ### <a name="sign-out"></a>注销
 
@@ -244,34 +244,34 @@ ms.locfileid: "62065178"
 
 若要在管理中心注销Teams：
 
-1. 登录到管理 [**Teams中心**](https://admin.teams.microsoft.com)。
+1. 登录到 Teams [**管理中心**](https://admin.teams.microsoft.com)。
 
-2. 选择 **Teams**  >  **SIP 设备"。**
+2. 选择 **Teams设备** > **""IP 设备"**。
 
-3. 在右侧 **"SIP 设备"** 窗格中，选择设备。
+3. 在右侧" **SIP 设备"** 窗格中，选择设备。
 
-4. 在设备的"详细信息 **"窗格中，** 选择"详细信息"选项卡，在"操作"菜单右上角选择"**注销"。** 
+4. 在设备的"详细信息 **"窗格中，** 选择"详细信息"选项卡，在"操作"菜单右上角选择"**注销"**。 
 
 
 ## <a name="view-and-monitor-sip-devices"></a>查看和监视 SIP 设备
 
 设备用户至少登录一次后，Teams管理中心查看和监视 SIP 设备清单。 操作步骤如下：
 
-1. 登录到管理[Teams中心](https://admin.teams.microsoft.com/)。
+1. 登录到 Teams [管理中心](https://admin.teams.microsoft.com/)。
 
-2. 选择 **Teams**  >  **SIP 设备"。** 所有已登录的 SIP 设备都列在右侧。
+2. 选择 **Teams设备** > **""IP 设备"**。 所有已登录的 SIP 设备都列在右侧。
 
 ## <a name="restart-a-sip-device"></a>重新启动 SIP 设备
 
-1. 登录到管理[Teams中心](https://admin.teams.microsoft.com)。
+1. 登录到 Teams [管理中心](https://admin.teams.microsoft.com)。
 
-2. 选择 **Teams**  >  **SIP 设备"。** 
+2. 选择 **Teams设备** > **""IP 设备"**。 
 
-3. 在右侧，选择要重新启动的 SIP 设备，然后选择"重新启动 **"。**
+3. 在右侧，选择要重新启动的 SIP 设备，然后选择"重启 **"**。
 
 ## <a name="sync-policy-changes-to-sip-devices-to-enforce-policies"></a>将策略更改同步到 SIP 设备以强制实施策略
 
-用户登录时，用户详细信息和策略将提取到 SIP 设备。 此后，登录用户的任何策略更改都将在一小时内同步到设备。 设备必须定期使用 SIP 网关刷新其注册。 SIP 电话依赖于呼叫重定向，因此管理员必须将 中的 `AllowCallRedirect` 属性 `Set-CsTeamsCallingPolicy` 设置为 `Enabled` 。
+用户登录时，用户详细信息和策略将提取到 SIP 设备。 此后，登录用户的任何策略更改都将在一小时内同步到设备。 设备必须定期使用 SIP 网关刷新其注册。 SIP 电话依赖于呼叫重定向，因此管理员必须将 `AllowCallRedirect` 中的 属性设置为 `Set-CsTeamsCallingPolicy` `Enabled`。
 
 
 ## <a name="set-a-sip-devices-ui-language"></a>设置 SIP 设备的 UI 语言
@@ -289,7 +289,7 @@ SIP 设备通常可以显示多种语言的信息。 设置其 UI 语言会影�
 
 |语言名称|语言代码]
 |-------------|-------------|
-|默认 (英语) |en       |
+|英语 (默认) |en       |
 |西班牙语      |es           |
 |日语     |ja           |
 |德语       |de           |
@@ -303,11 +303,11 @@ SIP 设备通常可以显示多种语言的信息。 设置其 UI 语言会影�
 > - 如果 **"** 登录以拨打紧急呼叫文本"未翻译为其他语言，由于屏幕限制，以下 IP 电话型号上的"按登录"上仅提供英文缩写版本：
 >   - Poly VVX 150、VVX 201
 >   - Cisco CP-6821、CP-7811、CP-7821、CP-7841、CP-7861
->   - 由于字符串长度限制，对于 Poly VVX，语音邮件软键标签使用所有语言的 **VM** 文本进行硬编码。
+>   - 由于字符串长度限制，对于 Poly VVX，语音邮件软键标签使用 **所有语言的 VM** 文本进行硬编码。
 
-## <a name="microsoft-teams-and-ipv6"></a>Microsoft Teams和 IPv6
+## <a name="microsoft-teams-and-ipv6"></a>Microsoft Teams 和 IPv6
 
-SIP 网关仅支持 IPv4。 Microsoft Teams服务和客户端都支持 IPv4 和 IPv6。 若要控制与用户之间的Microsoft Teams，请使用 URL 和 IP Microsoft 365[中的 IP 地址范围](/microsoft-365/enterprise/urls-and-ip-address-ranges)。
+SIP 网关仅支持 IPv4。 Microsoft Teams服务和客户端都支持 IPv4 和 IPv6。 若要控制通信，Microsoft Teams URL 和 IP 地址Microsoft 365 [IP 地址范围](/microsoft-365/enterprise/urls-and-ip-address-ranges)。
 
 ## <a name="emergency-calling"></a>紧急呼叫
 
@@ -315,4 +315,4 @@ SIP 网关仅支持静态（也称为已注册）紧急地址。 目前，直接
 
 ## <a name="report-problems-to-microsoft"></a>向 Microsoft 报告问题
 
-若要报告问题，请联系 [Microsoft 支持部门](https://support.microsoft.com)。
+若要报告问题，请联系 [Microsoft 支持](https://support.microsoft.com)部门。

@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 了解如何为用户启用 Microsoft Teams 电话直接路由。
-ms.openlocfilehash: be2f0e0f33bd236591c8c8a2d9cf415972e018d6
-ms.sourcegitcommit: e9b0a274fdfee3d5bc8211cb099155546b281fe0
+ms.openlocfilehash: e82865abcc7bb37835009fb9ab7f93e11c423d66
+ms.sourcegitcommit: b91d83739a078b175770c797c17d602eb5c83a4f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "62926295"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63774091"
 ---
 # <a name="enable-users-for-direct-routing"></a>为用户启用直接路由
 
@@ -37,7 +37,7 @@ ms.locfileid: "62926295"
 
 准备好为用户启用直接路由时，请执行以下步骤： 
 
-1. 在 Microsoft 365 创建用户，并分配电话系统许可证。  
+1. 在许可证中Microsoft 365用户，并分配电话系统许可证。  
 2. 确保用户已联机进行家庭管理。
 3. 配置电话号码并启用企业语音。 
 4. 将Teams模式分配给用户。
@@ -57,26 +57,26 @@ ms.locfileid: "62926295"
 
 此步骤适用于Skype for Business Server 企业语音直接路由的已启用Teams的用户。
 
-直接路由要求用户联机进行归居。 可以通过查看 RegistrarPool 参数进行检查，该参数需要在 infra.lync.com 中。 Microsoft 建议（但不要求）在将用户迁移到直接路由时将 LineURI 从本地更改为Teams联机。 
+直接路由要求用户联机进行归居。 可以通过查看 RegistrarPool 参数来检查，该参数需要在 infra.lync.com 中。 Microsoft 建议（但不要求）在将用户迁移到直接路由时将 LineURI 从本地更改为Teams联机。 
 
 1. 连接 PowerShell Microsoft Teams会话。
 
 2. 发出命令： 
 
     ```PowerShell
-    Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri
+    Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUri,LineUri
     ``` 
-    如果 OnPremLineUriManuallySet 设置为 False，并且 LineUri 填充了 <E.164 电话号码>，则电话号码已在本地分配并同步到 Microsoft 365。 如果要联机管理电话号码，在使用 Skype for Business PowerShell 配置电话号码之前，使用本地 Skype for Business 命令行管理程序清除 参数，Microsoft 365同步到 Teams。 
+    如果 OnPremLineUri 中填充了 <E.164>，则电话号码已在本地分配并同步到Microsoft 365。 如果要联机管理电话号码，在使用 Microsoft 365 PowerShell 配置电话号码之前，使用本地 Skype for Business 命令行管理程序清理参数Teams同步到 Teams。 
 
-1. 从 Skype for Business 命令行管理程序发出命令： 
+1. 从 Skype for Business命令行管理程序发出命令： 
 
    ```PowerShell
    Set-CsUser -Identity "<User name>" -LineUri $null
     ``` 
  > [!NOTE]
- > 请勿将 EnterpriseVoiceEnabled 设置为 False，因为不需要这样做，如果使用旧版 Skype for Business 手机并且使用 UseOnPremDialPlan $True 设置租户混合配置，则可能会导致拨号计划规范化问题。 
+ > 请勿将 EnterpriseVoiceEnabled 设置为 False，因为不需要这样做，如果使用旧版 Skype for Business 手机并使用 UseOnPremDialPlan $True 设置租户混合配置，则可能会导致拨号计划规范化问题。 
     
-   将更改同步到 Microsoft 365 预期输出`Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri`为：
+   将更改同步到 Microsoft 365预期输出`Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri`为：
 
    ```console
    RegistrarPool                        : pool.infra.lync.com
@@ -85,11 +85,11 @@ ms.locfileid: "62926295"
    LineURI                              : 
    ```
  > [!NOTE]
- > 必须先联机管理用户的手机属性，然后才能将本地设备Skype for Business[环境](/skypeforbusiness/hybrid/decommission-on-prem-overview)。 
+ > 必须先联机管理用户的手机属性，然后才能将本地Skype for Business[环境](/skypeforbusiness/hybrid/decommission-on-prem-overview)。 
 
 ## <a name="configure-the-phone-number-and-enable-enterprise-voice"></a>配置电话号码并启用企业语音 
 
-创建用户并分配许可证后，必须配置用户的联机电话设置。 请注意，云语音邮件自动配置，无需执行其他配置。
+创建用户并分配许可证后，必须配置用户的联机电话设置。 请注意，云语音邮件自动配置;无需执行其他配置。
 
 可以使用管理中心或 PowerShell Teams配置Teams电话号码。
 
@@ -101,7 +101,7 @@ ms.locfileid: "62926295"
 
 2. 在"**帐户****常规信息"下**，选择"**编辑"**。
 
-3. 在 **"分配电话号码"** 下，**电话"** 号码类型"下拉菜单中，选择"**直接路由"**。
+3. 在 **"分配电话号码"** 下，**电话**"号码类型"下拉菜单中，选择"直接 **路由"**。
 
 4. 如果可请求，请输入分配的电话号码和电话号码分机号。
 
@@ -114,7 +114,7 @@ ms.locfileid: "62926295"
 
 1. 连接 PowerShell Microsoft Teams会话。 
 
-2. 接下来的步骤取决于是在本地还是在线管理用户的电话号码。 如果在本地管理电话号码，则必须使用本地 Skype for Business 命令行管理程序、控制面板或决定在提交后如何管理属性中介绍的方法之一。[](/skypeforbusiness/hybrid/cloud-consolidation-managing-attributes)
+2. 接下来的步骤取决于是在本地还是在线管理用户的电话号码。 如果在本地管理电话号码，则必须使用本地 Skype for Business 命令行管理程序、控制面板或决定在提交后如何管理属性中介绍的方法之[一。](/skypeforbusiness/hybrid/cloud-consolidation-managing-attributes)
 
    - 如果在本地管理用户的电话号码，则需要确保通过以下命令企业语音启用用户：
 
@@ -149,9 +149,9 @@ ms.locfileid: "62926295"
 
 ## <a name="configure-sending-calls-directly-to-voicemail"></a>配置将呼叫直接发送到语音邮件
 
-直接路由允许你结束对用户的呼叫，并将其直接发送到用户的语音邮件。 如果要将呼叫直接发送到语音邮件，请将 opaque=app：voicemail 附加到请求 URI 标头。 例如，"sip：user@yourdomain.com;opaque=app：voicemail"。 呼叫Teams不会收到呼叫通知，呼叫将直接连接到用户的语音邮件。
+直接路由允许你结束对用户的呼叫，并将其直接发送到用户的语音邮件。 如果要将呼叫直接发送到语音邮件，请将 opaque=app：voicemail 附加到请求 URI 标头。 例如，"sip：user@yourdomain.com;opaque=app：voicemail"。 Teams不会收到呼叫通知，呼叫将直接连接到用户的语音邮件。
 
-## <a name="assign-teams-only-mode-to-users-to-ensure-calls-land-in-microsoft-teams"></a>为Teams分配"仅通话"模式，确保呼叫进入Microsoft Teams
+## <a name="assign-teams-only-mode-to-users-to-ensure-calls-land-in-microsoft-teams"></a>将Teams仅模式分配给用户，以确保呼叫进入Microsoft Teams
 
 直接路由要求用户进入"仅Teams模式，以确保传入的呼叫进入Teams客户端。 若要将用户置于Teams模式，请为其分配 TeamsUpgradePolicy 的"UpgradeToTeams"实例。 有关详细信息，请参阅适用于 [IT 管理员的升级策略](upgrade-to-teams-on-prem-implement.md)。 如果组织使用Skype for Business Server，请参阅以下文章，了解 Skype 与 Teams 之间的互操作性：迁移和[Skype for Business。](migration-interop-guidance-for-teams-with-skype.md)
 

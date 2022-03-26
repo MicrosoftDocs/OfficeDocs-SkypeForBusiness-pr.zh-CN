@@ -18,16 +18,16 @@ description: 了解向用户和组中用户和组分配策略Microsoft Teams。
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 1aabc2472f612e7fff547c73c231a7b6301cc0d9
-ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
+ms.openlocfilehash: 82fa6f1469b0ffc65ec95d057c5e944728209078
+ms.sourcegitcommit: b878c57b8e822913b7aac8c105f476bc4ebfcd7d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "62518584"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63761936"
 ---
 # <a name="assign-policies-to-users-and-groups"></a>将策略分配给用户和组
 
-本文介绍向用户和组中用户和组分配策略Microsoft Teams。 在阅读之前，请确保已阅读在 Teams [- 入门。](policy-assignment-overview.md)
+本文介绍向用户和组中用户和组分配策略Microsoft Teams。 在阅读之前，请确保已阅读"在 Teams [- 入门"](policy-assignment-overview.md)。
 
 ## <a name="assign-a-policy-to-individual-users"></a>向单个用户分配策略
 
@@ -44,7 +44,7 @@ ms.locfileid: "62518584"
 ![在管理中心向用户Teams策略。](media/assign-policy-user.png)
 
 > [!NOTE]
-> 若要从用户取消分配专用策略，可以将每个策略设置为"全局" (**"组织范围内的默认) "**。
+> 若要从用户取消分配专用策略，可以将每个策略设置为"全局" (**"组织范围的默认) "**。
 
 还可以执行以下操作，将策略分配给用户：
 
@@ -60,12 +60,12 @@ ms.locfileid: "62518584"
 
 每个策略类型都有其自己的一组 cmdlet 用于管理它。 `Grant-`使用给定策略类型的 cmdlet 分配策略。 例如，使用 `Grant-CsTeamsMeetingPolicy` cmdlet 向用户Teams会议策略。 这些 cmdlet 包含在 Teams PowerShell 模块中，并记录在 Skype for Business [cmdlet 参考中](/powershell/skype)。
 
- 下载并Teams [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) 公共 (（如果尚未) ，然后运行以下连接。
+ 下载并安装[Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) (（如果尚未) ，然后运行以下连接。
 
 > [!NOTE]
 > Skype for Business Online 连接器目前是最新 Teams PowerShell 模块的一部分。
 >
-> 如果使用最新的 [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) Teams版本，则无需安装 Skype for Business Online 连接器。
+> 如果使用最新的 [PowerShell Teams](https://www.powershellgallery.com/packages/MicrosoftTeams/)版本，则无需安装 Skype for Business Online 连接器。
 
 ```powershell
   # When using Teams PowerShell Module
@@ -85,7 +85,7 @@ Grant-CsTeamsMeetingPolicy -Identity reda@contoso.com -PolicyName "Student Meeti
 
 ## <a name="assign-a-policy-to-a-group"></a>向组分配策略
 
-通过向组分配策略，可以将策略分配给一组用户，例如安全组或通讯组列表。 根据优先级规则，将策略分配传播到组中的成员。 将成员添加到组或从组中删除成员时，将相应更新其继承的策略分配。
+通过向组分配策略，可以将策略分配给一组用户，例如安全组、组织单位或通讯组列表。 根据优先级规则，将策略分配传播到组中的成员。 将成员添加到组或从组中删除成员时，将相应更新其继承的策略分配。
 
 建议对最多 50，000 名用户的组分配组的策略分配，但也适用于较大的组。
 
@@ -103,7 +103,7 @@ Grant-CsTeamsMeetingPolicy -Identity reda@contoso.com -PolicyName "Student Meeti
 
 - 直接分配给用户的策略优先于分配给组的相同类型的其他任何策略。 换言之，如果直接为用户分配了给定类型的策略，该用户将不会从组继承相同类型的策略。 这也意味着，如果用户具有直接分配给他们的给定类型的策略，则你必须从用户中删除该策略，然后才能从组继承相同类型的策略。
 - 如果用户没有直接分配的策略，并且是两个或多个组的成员，并且每个组分配了相同类型的策略，则用户将继承具有最高排名的组分配策略。
-- 如果用户不是分配了策略的任何组的成员，则适用于该策略类型的全局 (组织范围默认) 策略将应用于该用户。
+- 如果用户不是分配有策略的任何组的成员，则适用于该策略类型的全局 (组织范围默认) 策略将应用于该用户。
 
 根据以下规则更新用户的有效策略：
 
@@ -158,7 +158,7 @@ Grant-CsTeamsMeetingPolicy -Identity reda@contoso.com -PolicyName "Student Meeti
 
 使用 [New-CsGroupPolicyAssignment cmdlet](/powershell/module/teams/new-csgrouppolicyassignment) 将策略分配给组。 可以使用对象 ID、SIP 地址或电子邮件地址指定组。
 
-本示例将名为零售Teams会议策略分配给作业排名为 1 的组。
+本示例将名为"零售Teams会议策略"的会议策略分配给作业排名为 1 的组。
 
 ```powershell
 New-CsGroupPolicyAssignment -GroupId d8ebfa45-0f28-4d2d-9bcc-b158a49e2d17 -PolicyType TeamsMeetingPolicy -PolicyName "Retail Managers Meeting Policy" -Rank 1
@@ -251,7 +251,7 @@ Group          Vendor Live Events 566b8d39-5c5c-4aaa-bc07-4f36278a1b38
 Grant-CsTeamsMeetingBroadcastPolicy -Identity daniel@contoso.com -PolicyName $null
 ```
 
-在 PowerShell 模块Teams以下 cmdlet，通过批处理策略分配（其中 $users是指定的用户列表）大规模地完成此操作。
+在 PowerShell 模块Teams以下 cmdlet 通过批处理策略分配（其中 $users是指定的用户列表）大规模地执行此操作。
 
 ```powershell
 New-CsBatchPolicyAssignmentOperation -OperationName "Assigning null at bulk" -PolicyType TeamsMeetingBroadcastPolicy -PolicyName $null -Identity $users  
@@ -268,7 +268,7 @@ New-CsBatchPolicyAssignmentOperation -OperationName "Assigning null at bulk" -Po
 3. 在 **&#x2713;**（复选标记）列，选择用户。 若要选择所有用户，请单击表格顶部的 &#x2713;（复选标记）。
 4. 选择 **"编辑** 设置"，进行您需要的更改，然后选择"应用 **"**。
 
-若要查看策略分配的状态，请在选择"应用"以提交策略分配后，在"用户"页面顶部出现的横幅中选择"活动 **日志"**。 或者，在管理中心的左侧导航Microsoft Teams，转到"仪表板"，然后在"活动日志"下选择"查看 **详细信息"**。 "活动日志"显示过去 30 天内通过 Microsoft Teams管理中心向 20 多个用户的批次分配策略。 有关详细信息，请参阅 [在活动日志中查看策略分配](activity-log.md)。
+若要查看策略分配的状态，请在选择"应用"以提交策略分配后，在"用户"页面顶部出现的横幅中选择"活动 **日志"**。 或者，在管理中心的左侧导航Microsoft Teams，转到"仪表板"，然后在"活动日志"下选择"查看 **详细信息"**。 "活动日志"显示过去 30 天内通过 Microsoft Teams管理中心向超过 20 个用户进行的策略分配。 有关详细信息，请参阅 [在活动日志中查看策略分配](activity-log.md)。
 
 ### <a name="use-powershell-method"></a>使用 PowerShell 方法
 
@@ -277,7 +277,7 @@ New-CsBatchPolicyAssignmentOperation -OperationName "Assigning null at bulk" -Po
 
 使用批处理策略分配，可以一次向大量用户分配策略，而无需使用脚本。 使用 [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) cmdlet 提交一批用户和要分配的策略。 作业将作为后台操作处理，并为每个批处理生成操作 ID。 然后，可以使用 [Get-CsBatchPolicyAssignmentOperation](/powershell/module/teams/get-csbatchpolicyassignmentoperation) cmdlet 来跟踪批处理中分配的进度和状态。
 
-根据用户的对象 ID 或会话启动协议 (SIP) 地址。 用户的 SIP 地址通常具有与 UPN (或电子邮件地址) "用户主体名称"相同的值，但这不是必需的。 如果用户是使用其 UPN 或电子邮件指定的，但其值不同于其 SIP 地址，则策略分配将失败。 如果批处理包含重复用户，则在处理之前将从批处理中删除重复项，并且只会为批中剩余的唯一用户提供状态。
+根据用户的对象 ID 或会话启动协议 (SIP) 地址。 用户的 SIP 地址通常与 UPN 或电子邮件地址 (用户主体名称) 相同，但这不是必需的。 如果用户是使用其 UPN 或电子邮件指定的，但其值不同于其 SIP 地址，则策略分配将失败。 如果批处理包含重复用户，则在处理之前将从批处理中删除重复项，并且只会为批中剩余的唯一用户提供状态。
 
 批处理最多可包含 5,000 个用户。 为获得最佳结果，不要一次提交多个批次。 允许批处理在提交更多批之前完成处理。
 
@@ -299,7 +299,7 @@ Connect-MicrosoftTeams
 
 #### <a name="install-and-connect-to-the-azure-ad-powershell-for-graph-module-optional"></a>安装并连接到 Azure AD PowerShell for Graph 模块 (可选) 
 
-如果尚未下载并连接到) Azure AD，可能还需要下载并安装 [Azure AD PowerShell for Graph](/powershell/azure/active-directory/install-adv2) 模块 (，以便检索组织中用户的列表。
+可能还需要下载并安装 [Azure AD PowerShell for Graph](/powershell/azure/active-directory/install-adv2) 模块 (（如果尚未) 并连接到 Azure AD，以便可以检索组织中用户的列表。
 
 运行以下代码连接到 Azure AD。
 
@@ -318,7 +318,7 @@ $user_ids = Get-Content .\users_ids.txt
 New-CsBatchPolicyAssignmentOperation -PolicyType TeamsAppSetupPolicy -PolicyName "HR App Setup Policy" -Identity $user_ids -OperationName "Example 1 batch"
 ```
 
-本示例连接到 Azure AD检索用户集合，然后将名为"新员工消息策略"的消息策略分配给使用其 SIP 地址指定的一批用户。
+本示例连接到 Azure AD检索用户集合，然后将名为"新员工消息策略"的消息传送策略分配给使用其 SIP 地址指定的一批用户。
 
 ```powershell
 Connect-AzureAD

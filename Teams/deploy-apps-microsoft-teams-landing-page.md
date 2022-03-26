@@ -18,14 +18,14 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3a9566ceb6d99bb7d665efea975ecee048607dc9
-ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
+ms.openlocfilehash: be7ee83b510096d8d6ffc0c4a0a5984917ad55c5
+ms.sourcegitcommit: 42c355d3f4bbe52c063b8f2119baefc0b88f9563
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63442498"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "64403973"
 ---
-# <a name="apps-bots--connectors-in-microsoft-teams"></a>Microsoft Teams 中的应用、聊天机器人和连接器
+# <a name="about-apps-in-microsoft-teams"></a>关于 Microsoft Teams 的应用
 
 应用使你能通过收藏夹服务查找内容，并在 Teams 中分享。 应用可帮助你执行某些操作，例如将服务固定在频道的顶部、与聊天机器人聊天，或者共享和分配任务。 若要了解详细信息，请阅读 [Teams 中的应用概述](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0)。
 
@@ -33,19 +33,19 @@ ms.locfileid: "63442498"
 
 ## <a name="use-microsoft-provided-apps"></a>使用 Microsoft 提供的应用
 
-Teams自带一组内置应用，包括列表、任务、表扬、审批等。 我们建议在最初的Teams推出中加入Teams特色应用 - 例如Planner。 在推动 Teams 采用的过程中添加其他应用、聊天机器人和连接器。
+Teams自带一组内置应用，包括列表、任务、表扬、审批等。 我们建议在最初的 Teams 推出中加入 Teams 特色应用 - 例如 Planner。 在推动 Teams 采用的过程中添加其他应用、聊天机器人和连接器。
 
 ## <a name="use-third-party-apps"></a>使用第三方应用
 
 除了 Microsoft 提供的应用以外，你还可以使用 Microsoft 认证的第三方应用。Microsoft 与 Microsoft 365 开发者合作伙伴合作，提供所需的信息，以加快做出有关使用 Teams 应用和插件的决定。有关更多信息，请参见 [Microsoft Teams 应用安全性和合规性](/microsoft-365-app-certification/teams/teams-apps)。
 
-## <a name="use-teams-templates"></a>Teams 模板
+## <a name="use-open-source-sample-apps-provided-by-microsoft"></a>使用 Microsoft 提供的开源示例应用
 
 你也可以使用 [Teams模板](/microsoftteams/platform/samples/app-templates?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json)，Microsoft Teams 生产就绪的应用是由社区驱动，开源，且在GitHub上可用的。
 
 ## <a name="create-custom-apps"></a>创建自定义应用
 
-可以通过使用 Teams 与[Microsoft Power Platform](teams-power-platfom-integration.md)的集成，快速构建自定义的低代码解决方案。 也可以根据自己的业务需求，创建自己的定制应用。 有关更多信息，请参阅 [为 Microsoft Teams 构建应用](/microsoftteams/platform/overview)。  
+可以通过使用 Teams 与[Microsoft Power Platform](/microsoftteams/platform/samples/teams-low-code-solutions)的集成，快速构建自定义的低代码解决方案。 也可以根据自己的业务需求，创建自己的定制应用。 有关更多信息，请参阅 [为 Microsoft Teams 构建应用](/microsoftteams/platform/overview)。  
 
 ## <a name="apps-deployment-decisions"></a>应用部署决策
 
@@ -65,7 +65,6 @@ Teams 提供了许多由 Microsoft 和第三方发布的应用，以吸引用户
 | 询问你自己 | 操作 |
 |--------------|--------|
 |是否要更改默认 Teams 应用设置？ | 要详细了解可用于管理组织内部应用的策略和设置，请参阅 [Microsoft Teams 中针对应用的管理员设置](admin-settings.md)。|
-|||
 
 ### <a name="app-permissions-and-other-considerations"></a>应用权限和其他注意事项
 
@@ -76,7 +75,6 @@ Teams 提供了许多由 Microsoft 和第三方发布的应用，以吸引用户
 | 询问你自己 | 操作 |
 |--------------|--------|
 |<br>希望允许访问哪些应用？ 不希望允许访问哪些应用？  | <ul><li>有关在允许访问应用、聊天机器人、选项卡或连接器时要考虑的事项的列表，请参阅 [Microsoft Teams 应用权限和注意事项](app-permissions.md)。</li><li>有关将应用提供给组织中的用户的信息，请参阅“[在 Microsoft Teams 管理中心管理应用](manage-apps.md)”。</li></ul>|
-|||
 
 ### <a name="bots-for-private-chats-and-channels"></a>用于私人聊天和频道的聊天机器人
 
@@ -85,7 +83,6 @@ Teams 提供了许多由 Microsoft 和第三方发布的应用，以吸引用户
 | 询问你自己 | 操作 |
 |--------------|--------|
 |是否要允许在我的组织中使用自定义聊天机器人？|有关添加聊天机器人的详细信息，请参阅[为 Microsoft Teams 中的私人聊天和频道添加聊天机器人](/microsoftteams/platform/bots/what-are-bots)。 有关开启或关闭聊天机器人的信息，请参阅[在 Microsoft Teams 中管理应用设置](admin-settings.md)。|
-|||
 
 ### <a name="built-in-and-custom-tabs"></a>内置和自定义选项卡
 
@@ -94,7 +91,6 @@ Teams 提供了许多由 Microsoft 和第三方发布的应用，以吸引用户
 | 询问你自己 | 操作 |
 |--------------|--------|
 |是否要允许在我的组织中使用自定义选项卡？|有关详细信息，请参阅[在 Teams 中使用内置和自定义选项卡](built-in-custom-tabs.md)。|
-|||
 
 ### <a name="custom-connectors"></a>自定义连接器
 
@@ -103,7 +99,6 @@ Teams 提供了许多由 Microsoft 和第三方发布的应用，以吸引用户
 | 询问你自己 | 操作 |
 |--------------|--------|
 |是否希望允许用户创建自定义连接器？|有关详细信息，请参阅[在 Teams 中使用自定义连接器](office-365-custom-connectors.md)。|
-|||
 
 ## <a name="additional-deployment-decisions"></a>其他部署决策
 
@@ -116,7 +111,6 @@ Teams 提供了许多由 Microsoft 和第三方发布的应用，以吸引用户
 | 询问你自己 | 操作 |
 |--------------|--------|
 | <br>谁需要查看活动报告，他们是否有查看这些报告的正确权限？ |<ul><li>如果不想为用户分配管理员角色，则可以[分配报告阅读者角色](teams-activity-reports.md#reports-reader-role)。</li><li>有关在 Azure Active Directory 中分配管理员角色的信息，请参阅[角色和权限](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)以及[查看和分配角色](/azure/active-directory/users-groups-roles/directory-manage-roles-portal)。</li></ul> |
-|||
 
 ### <a name="app-templates"></a>应用模板
 
@@ -127,4 +121,3 @@ Teams 提供了许多由 Microsoft 和第三方发布的应用，以吸引用户
 | 询问你自己 | 操作 |
 |--------------|--------|
 | 我是否想要安装任何 Teams 应用模板，例如 Icebreaker？ |若要了解详细信息，请参阅[适用于 Teams 的应用模板](/microsoftteams/platform/samples/app-templates?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=MicrosoftTeams%2ftoc.json)。|
-|||

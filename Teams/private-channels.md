@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 了解如何在 Microsoft Teams 中使用和管理私人频道。
-ms.openlocfilehash: e3b8208f760d2ec549e242d390190fce8acba5fd
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: 908432588c1744027b03efee44b9506ea4388fa2
+ms.sourcegitcommit: b878c57b8e822913b7aac8c105f476bc4ebfcd7d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711466"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63761914"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft Teams 中的私人频道
 
@@ -122,6 +122,8 @@ Teams 管理专用频道网站的生命周期。如果网站在 Teams 外部删�
 每个团队最多可拥有 30 个私人频道，每个私人频道最多可拥有 250 个成员。 30 个私人频道限制是对每个团队 200 个标准频道限制的补充。 
 
 从现有团队创建团队时，不会复制现有团队中任何专用频道。
+
+无法将私人频道转换为其他频道类型。
 
 错过的活动电子邮件中不包含来自专用频道的通知。
 

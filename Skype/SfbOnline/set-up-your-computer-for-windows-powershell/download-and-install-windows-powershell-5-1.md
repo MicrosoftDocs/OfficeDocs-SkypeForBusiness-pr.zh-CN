@@ -22,7 +22,7 @@ ms.custom:
 description: 下载、安装并使用 Windows PowerShell 5.1 创建连接到 Skype for Business Online 的远程 PowerShell 会话。
 ms.openlocfilehash: 2cbfa65f3170dd516e8bb46365ef663fd237d542
 ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 08/26/2021
 ms.locfileid: "58612831"
@@ -61,7 +61,7 @@ ms.locfileid: "58612831"
     
 如果运行的是 Windows 8，请完成此过程：
   
-1. 访问超级按钮栏，单击“**搜索**”，然后右键单击“**Windows PowerShell**”。 可以通过按住 Windows 键并按 C 来在任何 Windows 8 计算机（触摸屏或非触摸屏）上快速访问超级按钮栏。
+1. 访问超级按钮栏，单击“**搜索**”，然后右键单击“**Windows PowerShell**”。可以通过按住 Windows 徽标键并按 C 来在任何 Windows 8 计算机（触摸屏或非触摸屏）上快速访问超级按钮栏。
     
 2. 在屏幕底部的工具栏中，单击“**以管理员身份运行**”。
     
@@ -94,11 +94,11 @@ Get-ExecutionPolicy
     
 - 如果计算机正在运行 Windows 7，请确保已安装 Windows 7 Service Pack 1。
 
-如果不确定正在运行的 Windows 版本，或者不确定是否已安装 Windows 7 Service Pack 1，请单击“**开始**”，右键单击“**计算机**”，然后单击“**属性**”。 “系统”对话框中将报告此信息。
+如果不确定正在运行的 Windows 版本，或者不确定是否已安装 Windows 7 Service Pack 1，请单击“**开始**”，右键单击“**计算机**”，然后单击“**属性**”。“系统”对话框中将报告此信息。
   
 要安装 Windows Management Framework 5.1，请完成[安装和配置 WMF 5.1](/powershell/scripting/wmf/setup/install-configure) 中的程序。
   
-计算机重新启动后，验证 Windows PowerShell 是否可以启动以及应用程序是否可在管理凭据下运行。 要执行此操作：
+计算机重新启动后，验证 Windows PowerShell 是否可以启动以及应用程序是否可在管理凭据下运行。如果要执行此操作：
   
 1. 单击“**启动**”，依次单击“**所有程序**”、“**附件**”、“**Windows PowerShell**”，然后右键单击“**Windows PowerShell**”，单击“**以管理员身份运行**”。
     

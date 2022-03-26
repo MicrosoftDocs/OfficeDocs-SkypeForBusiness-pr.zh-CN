@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: b5100bd09b371d90d5bede76b440f423eb527b9c
-ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
+ms.openlocfilehash: 677ee2b0d57477ee79a9af7510d0ccf2dfbcae28
+ms.sourcegitcommit: b91d83739a078b175770c797c17d602eb5c83a4f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63442338"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63774011"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理应用设置策略
 
@@ -35,6 +35,9 @@ ms.locfileid: "63442338"
 - **Upload自定义应用**：应用设置策略允许用户将自定义应用上传到Teams。 有关详细信息，请参阅自定义[Upload应用](#upload-custom-apps)。
 
 ## <a name="pin-apps"></a>固定应用
+
+> [!NOTE]
+> 对于组织的一线员工，建议使用定制的一线应用体验。 此功能固定了应用中最相关的Teams，供拥有 [F 许可证的用户使用](https://www.microsoft.com/en-us/microsoft-365/enterprise/frontline?rtc=1#office-SKUChooser-0dbn8nt)。 有关详细信息，请参阅[为一线Teams定制应用](pin-teams-apps-based-on-license.md)。
 
 固定应用允许你展示组织中用户所需的应用，包括由第三方或你组织的开发人员构建的应用。
 
