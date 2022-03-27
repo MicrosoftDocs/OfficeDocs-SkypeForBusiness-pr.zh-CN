@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5ff97fae1fb2483dcddf301715018b6a94f908a7
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: d0f2364471b3800042e7536d1013b82d76209a02
+ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711436"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64457065"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>适用于虚拟化桌面基础结构的 Teams
 
@@ -487,6 +487,10 @@ if($cleanup){
 - Teams应按用户或每台计算机部署。 不支持Teams每个用户和每台计算机的并发数进行部署。 若要从每台计算机或每个用户迁移到其中一种模式，请按照卸载过程操作并重新部署到任一模式。
 - Azure 虚拟桌面目前不支持基于 macOS 和 Linux 的客户端。
 - 快速租户切换可能会导致 VDI 上与调用相关的问题，例如屏幕共享不可用。 重新启动客户端将缓解这些问题。
+
+### <a name="notifications"></a>通知
+
+- 主机上不支持Windows消息计数通知和Windows Server 2016状态。
 
 ### <a name="calling-and-meetings"></a>呼叫和会议
 

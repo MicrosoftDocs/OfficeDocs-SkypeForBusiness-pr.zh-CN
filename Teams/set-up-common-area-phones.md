@@ -21,18 +21,18 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: '了解如何为大厅、接收区和会议室设置公用区域电话 '
-ms.openlocfilehash: 144e32e1bf56bc3e2d64d0c6a1a137fd501442b7
-ms.sourcegitcommit: 5aae5eace62e491dac655882d24974824ce1aa07
+ms.openlocfilehash: 313a17d1829c8f3584ec5fb7f37e5f1ec49231d0
+ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "62856660"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456935"
 ---
 # <a name="deploy-common-area-phones-for-microsoft-teams"></a>为用户部署常用Microsoft Teams
 
 公用区域电话通常放置在大厅等区域，或者供许多人进行呼叫的另一区域;例如，前台区域、大厅或会议电话。 常用区域电话使用与公用区域服务许可证绑定电话登录。
 
-本文概述了如何将手机部署和Teams共享空间的公用区域电话。 要获得更完整的会议室体验（包括音频会议），请考虑购买具有会议室设备的专用会议许可证。
+本文概述了如何将手机部署和Teams共享空间的公用区域电话。 为获得更完整的会议室体验（包括音频会议），请考虑购买会议室设备专用会议许可证。
 
 ## <a name="overview"></a>概述
 
@@ -65,7 +65,7 @@ ms.locfileid: "62856660"
 
 2. 如果" **按类别** 查看"部分尚未显示，请转到"从 **Microsoft** 购买"，然后选择" **查看产品"**。 然后选择" **协作和通信"**。  
 
-3. 在产品列表中，找到 **"常用区域"电话** 并选择"**详细信息"**。
+3. 在产品列表中，找到 **"常用区域"电话** 并选择"详细信息 **"**。
 
 4. 输入所需的许可证数，然后选择"购买 **"**。
 
@@ -82,11 +82,11 @@ ms.locfileid: "62856660"
 
 如果要部署一个设备：
 
-1. 在Microsoft 365 管理中心，转到"**用户** > **""活动用户** > **""将用户"。**
+1. 在Microsoft 365 管理中心，转到"**用户** > **""活动** > **用户""将用户"。**
 
 2. 输入用户名，例如"Main"作为名字，输入"接收"作为第二个名称。
 
-3. 如果没有自动生成显示名称如"主前台"，请输入一个密码。
+3. 如果显示名称自动生成"主前台"这样的服务，请输入一个密码。
 
 4. 输入用户名，例如"MainReception"或"Mainlobby"。
 
@@ -95,7 +95,7 @@ ms.locfileid: "62856660"
     >[!Important]
     > 强烈建议为常用区域电话手动设置密码，以防止最终用户出现登录问题。
 
-6. 选择设备的使用位置，并将"公用区域"电话许可证分配给帐户。 如果需要任何其他许可证（如呼叫计划），请分配它们。
+6. 选择设备的使用位置，并将"公共区域"电话许可证分配给帐户。 如果需要任何其他许可证（如呼叫计划），请分配它们。
 
 >[!NOTE]
 > 无需添加许可证电话系统许可证。 许可证包含在公共区域电话许可证中。
@@ -104,7 +104,7 @@ ms.locfileid: "62856660"
 
 ### <a name="using-powershell"></a>使用 PowerShell
 
-若要同时为多个用户帐户创建和分配许可证，请使用 PowerShell。 有关详细信息[，Microsoft 365 PowerShell](/microsoft-365/enterprise/create-user-accounts-with-microsoft-365-powershell?view=o365-worldwide) 创建用户帐户和Microsoft 365 [PowerShell](/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell?view=o365-worldwide) 为用户帐户分配许可证。
+若要同时为多个用户帐户创建和分配许可证，请使用 PowerShell。 有关详细信息[，Microsoft 365 PowerShell](/microsoft-365/enterprise/create-user-accounts-with-microsoft-365-powershell?view=o365-worldwide) 创建用户帐户和Microsoft 365 [PowerShell 为用户帐户](/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell?view=o365-worldwide)分配许可证。
 
 ## <a name="step-3---set-policies-for-common-area-phones"></a>步骤 3 - 设置常用区域电话的策略
 
@@ -121,9 +121,9 @@ ms.locfileid: "62856660"
 
 ### <a name="calling-policies"></a>通话策略
 
-使用呼叫策略在公用区域电话上启用私人呼叫、使用呼叫转发或同时拨打。 有关详细信息[，请参阅](teams-calling-policy.md)在 Teams 呼叫和呼叫转发。
+使用呼叫策略在公用区域电话上启用私人呼叫、使用呼叫转发或同时拨打。 有关详细信息[，请参阅](teams-calling-policy.md)Teams呼叫和呼叫转发。
 
-默认情况下，不为公用区域电话启用呼叫停放。 需要创建一个策略来启用它。 有关详细信息[，请参阅呼叫Microsoft Teams](call-park-and-retrieve.md)和检索。
+默认情况下，不为公用区域电话启用呼叫停放。 需要创建一个策略来启用它。 有关详细信息[，请参阅呼叫Microsoft Teams](call-park-and-retrieve.md)中检索。
 
 ## <a name="step-4---acquire-and-assign-phone-numbers"></a>步骤 4 - 获取和分配电话号码
 
@@ -147,6 +147,9 @@ ms.locfileid: "62856660"
 
 3. 按照设备的登录说明操作。 登录后，手机会显示常见的区域电话用户体验。
 
+> [!NOTE]
+> 如果使用取消固定呼叫应用的自定义设置策略，拨号盘不会显示在"公用区域"电话。 有关设置策略Teams，请参阅[在应用程序中管理应用Microsoft Teams](/microsoftteams/teams-app-setup-policies)。
+
 ### <a name="sign-in-from-another-device"></a>从另一台设备登录
 
 您也可以使用代码从另一台设备登录到公用区域电话。 这样登录时，你将在另一台设备上输入用户名和密码，而不是在手机本身上输入。
@@ -159,11 +162,11 @@ ms.locfileid: "62856660"
 
 ### <a name="sign-in-using-the-teams-admin-center"></a>使用 Teams 管理中心登录
 
-作为管理员，可以从管理中心远程预配和登录到Teams电话。 这是一次部署大量电话时最有效的登录方法。 有关详细信息[，请参阅远程预配Teams Android 设备的](devices/remote-provision-remote-login.md)登录。
+作为管理员，可以从管理中心远程预配和登录到公用Teams电话。 这是一次部署大量电话时最有效的登录方法。 有关详细信息[，请参阅Teams Android 设备的远程](devices/remote-provision-remote-login.md)预配和登录。
 
 ## <a name="next-steps"></a>后续步骤
 
-为组织设置并登录公用区域电话后，可以在管理中心内Teams电话。 有关详细信息[Microsoft Teams请参阅管理](devices/device-management.md)设备。
+为组织设置并登录公用区域电话后，可以在管理中心内Teams电话。 请参阅[Microsoft Teams：管理设备](devices/device-management.md)以了解更多信息。
 
 ## <a name="related-topics"></a>相关主题
 

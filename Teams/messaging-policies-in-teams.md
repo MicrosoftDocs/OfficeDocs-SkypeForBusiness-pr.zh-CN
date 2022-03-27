@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: 了解消息传送策略以及如何使用它们来控制聊天消息传送Teams。
-ms.openlocfilehash: 9716fe3ba9a2162a3c6c85cfa61ef5541f34fb38
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: 0f4001fc2a646b83f005d9cc48948fbbb314f042
+ms.sourcegitcommit: 867e8b4120e81c93c029c0c1b9cb69c161fc87a4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711716"
+ms.lasthandoff: 03/26/2022
+ms.locfileid: "64480664"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>在 Teams 中管理消息传递策略
 
@@ -34,6 +34,9 @@ ms.locfileid: "63711716"
 消息传送策略用于控制哪些聊天和频道消息传送功能可供用户在 ([所有者](assign-roles-permissions.md)) 成员Microsoft Teams。 可以使用自动创建的 (组织范围的默认) 策略，或者创建和分配自定义消息传送策略。
 
 除非创建并分配自定义策略，否则组织中的用户将自动获取全局策略。 编辑全局策略中的设置，或创建并分配一个或多个自定义策略以打开或关闭您需要的功能。
+
+> [!NOTE]
+> 为了确保在策略更改后同步，某些实例可能需要重新启动。 
 
 ## <a name="create-a-custom-messaging-policy"></a>创建自定义消息传送策略
 
@@ -106,7 +109,8 @@ ms.locfileid: "63711716"
 - **从群组聊天中删除用户** 打开此设置，让用户从群组聊天中删除其他用户。 此功能允许你继续与一小组人员聊天，而不会丢失聊天历史记录。
 - **文本预测** 打开此设置，让用户获取聊天消息的文本预测。
 - **建议的答复**  打开此设置，为聊天消息启用建议的答复。
-- **聊天权限角色** 使用此设置定义用户的监督聊天角色。  深入了解如何 [的聊天](supervise-chats-edu.md)。
+- **聊天权限角色** 使用此设置定义用户的监督聊天角色。 深入了解如何 [的聊天](supervise-chats-edu.md)。
+- **具有完全聊天权限的用户可以删除任何消息** 使用此设置可允许具有完全权限的用户删除任何组或会议聊天消息。
 
 > [!NOTE]
 > 其中一些设置（例如使用 Giphys）也可由团队所有者在团队级别配置，在专用或共享频道级别由频道所有者配置。

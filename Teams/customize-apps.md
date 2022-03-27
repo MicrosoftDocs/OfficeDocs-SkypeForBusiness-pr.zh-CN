@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何在应用中自定义Microsoft Teams。
-ms.openlocfilehash: 1f32b7f7d00b6737d959a1687574ce4560bd4725
-ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
+ms.openlocfilehash: a8862e5c8b8d7d63f88274ed47cf647572b54401
+ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63442638"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456895"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>自定义应用中Microsoft Teams
 
@@ -67,7 +67,7 @@ ms.locfileid: "63442638"
 
      ![自定义选择选项 2.](media/app-details-customizable.png)
 
-   - 选择应用名称，然后从"操作 **"** 下拉列表 **中选择"自定义** "。
+   - 选择应用名称，单击"溢出 **"菜单，将** 鼠标悬停在 **"操作"上** ，然后选择"自定义"。
 
      ![自定义选择选项 3.](media/customize-action-menu.png)
 

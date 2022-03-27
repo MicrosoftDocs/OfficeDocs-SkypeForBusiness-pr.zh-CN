@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何批准使用 Teams 应用提交 API 提交的自定义Microsoft Teams。
-ms.openlocfilehash: 3a4dfc0b14f20f367cd3580c5366adc26233dde9
-ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
+ms.openlocfilehash: c414bf8af8dc7edbea8376031592260142d67732
+ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63442328"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456915"
 ---
 # <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>通过应用提交 API 发布Teams提交的自定义应用
 
@@ -50,17 +50,17 @@ ms.locfileid: "63442328"
 
 ### <a name="submit-the-app"></a>提交应用
 
-当应用准备好在生产环境中使用时，开发人员可以使用 Teams 应用提交 API 提交应用，该应用可以从 [Graph API](/graph/api/teamsapp-publish?view=graph-rest-beta&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog)、集成开发环境 (IDE) （如 Visual Studio Code）或平台（如 Power Apps 和 Power Virtual Agents）. 这样，应用就可以在管理中心的"[](/microsoftteams/manage-apps)管理Microsoft Teams页面上使用，可以在其中查看和批准该应用。
+当应用准备好在生产环境中使用时，开发人员可以使用 Teams 应用提交 API 提交应用，该应用可以从 [Graph API](/graph/api/teamsapp-publish?view=graph-rest-beta&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog&preserve-view=true)、集成开发环境 (IDE) （如 Visual Studio Code）或平台（如 Power Apps 和 Power Virtual Agents）. 这样，应用就可以在管理中心的"[](/microsoftteams/manage-apps)管理Teams页面上使用，可以在其中查看和批准该应用。
 
-基于 [Microsoft Graph](/graph/api/teamsapp-publish?tabs=http&view=graph-rest-beta#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog) 构建的 Teams 应用提交 API 允许组织在自己选择的平台上进行开发，并自动执行自定义应用在 Teams 上的提交审批过程。
+基于 [Microsoft Graph](/graph/api/teamsapp-publish?tabs=http&view=graph-rest-beta#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog&preserve-view=true) 构建的 Teams 应用提交 API 允许组织在自己选择的平台上进行开发，并自动执行自定义应用在 Teams 上的提交审批过程。
 
 下面是此应用提交步骤在应用中的外观Visual Studio Code：
 
 ![在 Visual Studio Code 中提交应用。](media/custom-app-lifecycle-submit-app.png)
 
-请记住，这不会将应用发布到组织的应用商店。 此步骤将应用提交到Microsoft Teams管理中心，可以在其中批准该应用发布到组织的应用商店。
+请记住，这不会将应用发布到组织的应用商店。 此步骤将应用提交到Teams管理中心，可以在其中批准该应用发布到组织的应用商店。
 
-有关使用 Graph API 提交应用的信息，请参阅[此处](/graph/api/teamsapp-publish?tabs=http&view=graph-rest-beta#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog)。
+有关使用 Graph API 提交应用的信息，请参阅[此处](/graph/api/teamsapp-publish?tabs=http&view=graph-rest-beta#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog&preserve-view=true)。
 
 ## <a name="notify"></a>通知
 
@@ -89,7 +89,7 @@ ms.locfileid: "63442328"
 
 ## <a name="validate"></a>验证
 
-左侧 [导航](/microsoftteams/manage-apps)栏中Microsoft Teams管理 ("管理应用"页，转到 [**"Teams 应用** > ](https://admin.teams.microsoft.com/manage-apps)""管理应用) "，查看组织的所有 Teams 应用。 页面 **顶部的** "挂起审批"小组件可让你了解何时提交自定义应用进行审批。
+在 [](/microsoftteams/manage-apps)左侧导航Teams管理中心 ("管理应用"页，转到"[**Teams 应用** > ""](https://admin.teams.microsoft.com/manage-apps)管理应用) "，查看组织的所有 Teams 应用。 页面 **顶部的** "挂起审批"小组件可让你了解何时提交自定义应用进行审批。
 
 在表中，新提交的应用会自动显示"已提交"和"**已阻止状态****"的发布状态**。 你可以按降 **序对"发布状态** "列进行排序以快速查找应用。
 
@@ -99,14 +99,15 @@ ms.locfileid: "63442328"
 
 ![已提交应用的应用详细信息页面。](media/custom-app-lifecycle-app-details.png)
 
-有关使用 Graph API 检查发布 **状态的信息**，请参阅 [此处](/graph/api/appcatalogs-list-teamsapps?tabs=http&view=graph-rest-beta#example-3-find-application-based-on-the-teams-app-manifest-id)。
+有关使用 Graph API 检查发布 **状态的信息**，请参阅 [此处](/graph/api/appcatalogs-list-teamsapps?tabs=http&view=graph-rest-beta#example-3-find-application-based-on-the-teams-app-manifest-id&preserve-view=true)。
 
 ## <a name="publish"></a>发布
 
 当你准备好使应用可供用户使用时，请发布该应用。
 
-1. 在 Microsoft Teams 管理中心的左侧导航中，转到“**Teams 应用**” > “**管理应用**”。
-2. 单击应用名称转到应用详细信息页，然后在 **"发布状态** "框中选择"发布 **"**。
+1. 登录到 [Teams管理中心](https://admin.teams.microsoft.com/dashboard)。
+1. 在左窗格中，转到"Teams **管理** > **应用"**。
+1. 选择应用名称以转到应用详细信息页，然后在 **"发布状态** "框中选择"发布 **"**。
 
     ![应用详细信息页上的"发布"按钮。](media/submitted-app-pending-action.png)
 
@@ -126,7 +127,7 @@ ms.locfileid: "63442328"
 
 可以搜索应用审核日志查看Teams应用中的活动。 若要详细了解如何搜索 审核日志 并查看 审核日志 中记录的 Teams 活动的列表，请参阅在 Teams 中搜索 审核日志 [事件。](audit-log-events.md)
 
-在搜索审核日志之前，你必须先在[安全与合规中心](https://sip.protection.office.com/)中用审核。 有关详细信息，请参阅[启用或禁用审核日志搜索](/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide)。 请记住，审核数据仅在你启用审核的那一刻才可用。
+在搜索审核日志之前，你必须先在[安全与合规中心](https://sip.protection.office.com/)中用审核。 有关详细信息，请参阅[启用或禁用审核日志搜索](/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide&preserve-view=true)。 请记住，审核数据仅在你启用审核的那一刻才可用。
 
 ## <a name="discover-and-adopt"></a>发现和采用
 
@@ -146,7 +147,7 @@ ms.locfileid: "63442328"
 
 查看和发布应用更新：
 
-1. 在 Microsoft Teams 管理中心的左侧导航中，转到“**Teams 应用**” > “**管理应用**”。
+1. 在管理中心左侧导航Teams，转到"Teams **管理** > **应用"**。
 2. 单击应用名称转到应用详细信息页，然后选择"可用更新"查看更新的详细信息。
 
     ![应用详细信息页面。](media/custom-app-lifecycle-update-app.png)
@@ -159,7 +160,7 @@ ms.locfileid: "63442328"
 - 应用获得批准后，任何用户都可以向应用提交更新。 这意味着其他开发人员（包括最初提交该应用的开发人员）可以提交应用更新。
 - 当开发人员提交应用并且请求挂起时，只有该开发人员才能向应用提交更新。 其他开发人员只能在应用获得批准后提交更新。
 
-有关使用 Graph API 更新应用的信息，请参阅[此处](/graph/api/teamsapp-update?view=graph-rest-1.0&tabs=http)。
+有关使用 Graph API 更新应用的信息，请参阅[此处](/graph/api/teamsapp-update?view=graph-rest-1.0&tabs=http&preserve-view=true)。
 
 ## <a name="related-topics"></a>相关主题
 

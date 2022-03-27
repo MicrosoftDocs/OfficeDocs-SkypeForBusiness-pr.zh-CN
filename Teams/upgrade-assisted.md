@@ -18,31 +18,31 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8becd4a83bb544747fa59a823bae37461c3642c3
-ms.sourcegitcommit: d3d3d5a70a69359fc71f072ad6c651556f4eda00
+ms.openlocfilehash: a162a9151413137282d80e47f8f2b08c841e171a
+ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/24/2022
-ms.locfileid: "63783891"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456885"
 ---
 # <a name="assisted-upgrades-from-skype-for-business-online-to-microsoft-teams"></a>从 Skype for Business Online 到 Microsoft Teams 的辅助升级
 
 Microsoft 于 2021 Skype for Business 31 日停用了 Online。  Microsoft 提供辅助升级过程，帮助组织将剩余的用户Skype for Business Online 用户Teams迁移。  无论你的组织是以下组织，Microsoft 辅助升级都减少了技术任务的数量，并简化了在无需Skype for Business Online 的情况下过渡到世界：
  - 一个纯在线组织，*需要从 Skype for Business Online 升级为* 纯Teams，或
- - 一个混合组织，其用户同时位于 *Skype for Business Online*  和本地 *Skype for Business Server* 环境中，只需将 Skype for Business *Online* 中的用户升级到Teams。
+ - 一个混合组织，其用户同时位于 *Skype for Business Online*  和本地 *Skype for Business Server* 环境中，这只能将 Skype for Business *Online* 用户升级到Teams环境。
 
 建议在升级之前 [查看升级](https://aka.ms/SkypeToTeams) 指南。 我们的升级指南包括建议的活动和有用的资源，用于完成从 Skype for Business Online 升级到 Teams。 本指南适用于任何计划升级到 Teams的组织，无论他们管理升级的所有方面还是使用辅助过程。
 
 ## <a name="the-assisted-upgrade-experience"></a>辅助升级体验
 Skype for Business计划向 Teams 进行辅助升级的联机客户将收到各种通知：计划更改 Microsoft 365 消息中心中的帖子、Teams 管理中心中的升级仪表板通知，以及向最终用户发送的应用内标志。 消息中心和 Teams 管理中心中的升级通知包括辅助升级的计划日期，以及用于升级资源和培训的链接，以帮助推动用户采用和Teams。
 
-辅助升级体验略有不同，具体取决于组织是否将任何用户放在本地Skype for Business Server环境：
-- **纯在线组织** 对于 *没有任何针对* Busineess Server `TeamsUpgradeOverridePolicy` Skype本地部署的组织，辅助升级过程会向组织应用策略。 应用此策略后，Skype for Business Online 的所有用户将处于"仅Teams模式。
-- **具有本地用户混合Skype for Business** 包括任何用户位于 Skype for Business Server 的组织，无论是否已配置混合。 这些组织的用户可能分为以下类别之一：
+辅助升级体验略有不同，具体取决于组织是否将任何用户放在本地Skype for Business Server环境中：
+- **纯在线组织：** 对于 *没有任何针对* Busineess Server `TeamsUpgradeOverridePolicy` Skype本地部署的组织，辅助升级过程会向组织应用策略。 应用此策略后，Skype for Business Online 的所有用户将处于 TeamsOnly 模式。
+- **具有本地用户Skype for Business** 混合组织：这包括任何用户位于 Skype for Business Server 的组织，无论是否已配置混合。 这些组织的用户可能分为以下类别之一：
 
   - 本地用户位于可能Skype for Business Server (也可能不使用 Teams，但并非仅Teams用户) 
-  - Teams仅支持 Skype for Business Online 的用户
-  - 非Teams仅家庭在 Skype for Business Online 中的用户
+  - 在 Skype for Business Online 中Skype for Business的 TeamsOnly 用户
+  - 在 Skype for Business Online 中管理的非 TeamsOnly 用户
 
 辅助升级过程将仅影响最后一类用户：非Teams仅位于 Skype for Business Online 中的用户将升级到Teams模式。 本地Skype for Business现有 TeamsOnly 用户不会受辅助升级过程的影响。
 
