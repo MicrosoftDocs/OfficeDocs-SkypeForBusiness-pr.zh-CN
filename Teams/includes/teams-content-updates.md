@@ -3,6 +3,86 @@
 
 
 
+## <a name="week-of-march-21-2022"></a>2022 年 3 月 21 日周
+
+
+| 发布日期 |主题标题 | 更改 |
+|------|------------|--------|
+| 3/21/2022 | [Microsoft Teams 中的共享频道（预览版）](/MicrosoftTeams/shared-channels) | 添加内容 |
+| 3/21/2022 | [在 Microsoft Teams 中分配团队所有者和成员](/MicrosoftTeams/assign-roles-permissions) | 修改内容 |
+| 3/21/2022 | [在 Microsoft Teams 中搜索审核日志查找事件](/MicrosoftTeams/audit-log-events) | 修改内容 |
+| 3/21/2022 | [组织团队的最佳实践](/MicrosoftTeams/best-practices-organizing) | 修改内容 |
+| 3/21/2022 | [Microsoft Teams 中的聊天、团队、频道和应用](/MicrosoftTeams/deploy-chat-teams-channels-microsoft-teams-landing-page) | 修改日期 |
+| 3/21/2022 | [支持 Teams 的设备](/MicrosoftTeams/devices/teams-ip-phones) | 修改内容 |
+| 3/21/2022 | [对内容进行电子数据展示调查](/MicrosoftTeams/ediscovery-investigation) | 修改内容 |
+| 3/21/2022 | [Teams 教育版策略向导，轻松应用安全学习的策略](/MicrosoftTeams/easy-policy-setup-edu) | 修改内容 |
+| 3/21/2022 | [使用虚拟访问Teams - 集成到 Cerner EHR](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin-cerner) | 修改内容 |
+| 3/21/2022 | [在管理中心内开始使用 Teams 模板](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | 修改内容 |
+| 3/21/2022 | [Microsoft Teams 中的来宾访问](/MicrosoftTeams/guest-access) | 修改内容 |
+| 3/21/2022 | [将 Microsoft Teams 用户或团队置于法律上的暂停状态](/MicrosoftTeams/legal-hold) | 修改日期 |
+| 3/21/2022 | [Microsoft Teams 的限制和规范](/MicrosoftTeams/limits-specifications-teams) | 修改内容 |
+| 3/21/2022 | [设置和管理频道审核](/MicrosoftTeams/manage-channel-moderation-in-teams) | 修改内容 |
+| 3/21/2022 | [管理 Microsoft Teams 中的标记](/MicrosoftTeams/manage-tags) | 修改内容 |
+| 3/21/2022 | [在 Teams 中管理消息传递策略](/MicrosoftTeams/messaging-policies-in-teams) | 修改内容 |
+| 3/21/2022 | [从 Slack 迁移到 Microsoft Teams](/MicrosoftTeams/migrate-slack-to-teams) | 修改内容 |
+| 3/21/2022 | [Teams用户类型创建应用行为](/MicrosoftTeams/non-standard-users) | 修改内容 |
+| 3/21/2022 | [在 Teams 中规划管理 - Microsoft Teams](/MicrosoftTeams/plan-teams-governance) | 修改内容 |
+| 3/21/2022 | [Microsoft Teams 中的私人频道](/MicrosoftTeams/private-channels) | 修改内容 |
+| 3/21/2022 | [Skype for Business Online 停用](/MicrosoftTeams/skype-for-business-online-retirement) | 修改内容 |
+| 3/21/2022 | [Microsoft Teams 中的团队和频道概述](/MicrosoftTeams/teams-channels-overview) | 修改内容 |
+| 3/21/2022 | [管理频道策略Microsoft Teams](/MicrosoftTeams/teams-policies) | 修改内容 |
+| 3/21/2022 | [Teams Microsoft Power Platform 集成](/MicrosoftTeams/teams-power-platfom-integration) | 修改内容 |
+| 3/21/2022 | [预览版中的信息屏障 (共享) ](/MicrosoftTeams/information-barriers-shared-channels) | 添加内容 |
+| 3/21/2022 | [数据中的信息Microsoft Teams](/MicrosoftTeams/information-barriers-in-teams) | 修改内容 |
+| 3/21/2022 | [使用 CQD Power BI报表查看自动助理 &队列历史报告](/MicrosoftTeams/cqd-teams-aa-cq-historical-report) | 修改内容 |
+| 3/21/2022 | [自动助理 &队列历史报告](/MicrosoftTeams/aa-cq-cqd-historical-reports) | 修改内容 |
+| 3/21/2022 | [设置自动助理Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 修改内容 |
+| 3/21/2022 | [在 Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | 修改内容 |
+| 3/21/2022 | [自动助理和呼叫队列拨号和语音识别参考](/MicrosoftTeams/dial-voice-reference) | 修改内容 |
+| 3/21/2022 | [管理 Microsoft Teams 的保留策略](/MicrosoftTeams/retention-policies) | 修改内容 |
+| 3/21/2022 | [Microsoft Teams 会议室要求](/MicrosoftTeams/rooms/requirements) | 修改内容 |
+| 3/21/2022 | [会议会议室指南Teams](/MicrosoftTeams/teams-meeting-room-guidance) | 修改内容 |
+| 3/22/2022 | [Microsoft Teams 会议室标准和会议室规划](/MicrosoftTeams/rooms/standards-and-room-planner) | 修改内容 |
+| 3/22/2022 | [Microsoft Teams 中的团队和频道概述](/MicrosoftTeams/teams-channels-overview) | 修改内容 |
+| 3/22/2022 | [适用于虚拟化桌面基础结构的 Teams](/MicrosoftTeams/teams-for-vdi) | 修改内容 |
+| 3/22/2022 | [Microsoft Teams PowerShell 发行说明](/MicrosoftTeams/teams-powershell-release-notes) | 修改内容 |
+| 3/22/2022 | [管理 Microsoft Teams 中的标记](/MicrosoftTeams/manage-tags) | 修改内容 |
+| 3/23/2022 | [将策略分配给用户和组](/MicrosoftTeams/assign-policies-users-and-groups) | 修改内容 |
+| 3/23/2022 | [Microsoft Teams管理员文档 #< 60 个字符](/MicrosoftTeams/index) | 修改内容 |
+| 3/23/2022 | [Microsoft Teams 中的私人频道](/MicrosoftTeams/private-channels) | 修改内容 |
+| 3/23/2022 | [使用 Azure Monitor Microsoft Teams 会议室监视设备](/MicrosoftTeams/rooms/azure-monitor-manage) | 修改内容 |
+| 3/23/2022 | [Teams PowerShell 模块 - 支持的版本](/MicrosoftTeams/teams-powershell-supported-versions) | 修改内容 |
+| 3/23/2022 | [有关Teams会议呼叫的基于策略的录制&简介](/MicrosoftTeams/teams-recording-policy) | 修改内容 |
+| 3/23/2022 | [经认证可用于直接路由的会话边界控制器](/MicrosoftTeams/direct-routing-border-controllers) | 修改内容 |
+| 3/23/2022 | [为用户启用直接路由](/MicrosoftTeams/direct-routing-enable-users) | 修改内容 |
+| 3/23/2022 | [电话系统直接路由](/MicrosoftTeams/direct-routing-protocols-sip) | 修改内容 |
+| 3/23/2022 | [在对 Microsoft Teams 进行故障排除时使用日志文件](/MicrosoftTeams/log-files) | 修改内容 |
+| 3/23/2022 | [在管理中心内Microsoft Teams应用](/MicrosoftTeams/manage-apps) | 修改内容 |
+| 3/23/2022 | [为Teams员工定制应用](/MicrosoftTeams/pin-teams-apps-based-on-license) | 修改内容 |
+| 3/23/2022 | [配置 SIP 网关](/MicrosoftTeams/sip-gateway-configure) | 修改内容 |
+| 3/23/2022 | [在 Microsoft Teams 中管理应用设置策略](/MicrosoftTeams/teams-app-setup-policies) | 修改内容 |
+| 3/24/2022 | [支持 Teams 的设备](/MicrosoftTeams/devices/teams-ip-phones) | 修改内容 |
+| 3/24/2022 | [Skype for Business Online 停用](/MicrosoftTeams/skype-for-business-online-retirement) | 修改内容 |
+| 3/24/2022 | [Teams PowerShell 模块 - 支持的版本](/MicrosoftTeams/teams-powershell-supported-versions) | 修改内容 |
+| 3/24/2022 | [辅助升级Skype \| Business Online Teams升级](/MicrosoftTeams/upgrade-assisted) | 修改内容 |
+| 3/24/2022 | [Microsoft Teams 中的应用、聊天机器人和连接器](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | 修改内容 |
+| 3/24/2022 | [维度和度量 - 呼叫质量仪表板 (CQD) ](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | 修改内容 |
+| 3/24/2022 | [适用于零售业的 Teams](/MicrosoftTeams/expand-teams-across-your-org/teams-for-retail-landing-page) | 修改内容 |
+| 3/24/2022 | [管理内容共享的会议策略](/MicrosoftTeams/meeting-policies-content-sharing) | 修改内容 |
+| 3/24/2022 | Teams Microsoft Power Platform 集成 | 删除内容 |
+| 3/25/2022 | [为用户分配、更改或删除电话号码](/MicrosoftTeams/assign-change-or-remove-a-phone-number-for-a-user) | 修改内容 |
+| 3/25/2022 | [自定义应用中Microsoft Teams](/MicrosoftTeams/customize-apps) | 修改内容 |
+| 3/25/2022 | [Teams设备存储](/MicrosoftTeams/devices/device-store) | 修改内容 |
+| 3/25/2022 | [在 Microsoft Teams 管理中心中管理团队](/MicrosoftTeams/manage-teams-in-modern-portal) | 修改内容 |
+| 3/25/2022 | [为 Teams 准备贵组织的网络](/MicrosoftTeams/prepare-network) | 修改内容 |
+| 3/25/2022 | [设置"公共区域"电话许可证](/MicrosoftTeams/set-up-common-area-phones) | 修改内容 |
+| 3/25/2022 | [使用 Teams 应用提交 API 提交和审批自定义应用](/MicrosoftTeams/submit-approve-custom-apps) | 修改内容 |
+| 3/25/2022 | [在 Microsoft Teams 中管理应用权限策略](/MicrosoftTeams/teams-app-permission-policies) | 修改内容 |
+| 3/25/2022 | [适用于虚拟化桌面基础结构的 Teams](/MicrosoftTeams/teams-for-vdi) | 修改内容 |
+| 3/25/2022 | [辅助升级Skype \| Business Online Teams升级](/MicrosoftTeams/upgrade-assisted) | 修改内容 |
+| 3/25/2022 | [使用 Microsoft Teams 管理员角色管理 Teams](/MicrosoftTeams/using-admin-roles) | 修改内容 |
+
+
 ## <a name="week-of-march-14-2022"></a>2022 年 3 月 14 日周
 
 

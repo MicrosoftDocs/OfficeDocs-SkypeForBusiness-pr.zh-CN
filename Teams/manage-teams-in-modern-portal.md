@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b84957e7451b75b804d2c279e160a260dabfbea8
-ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
+ms.openlocfilehash: d00cc5cd41d0b48f55564894a78f066406288151
+ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60579532"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456945"
 ---
 # <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 管理中心中管理团队
 
@@ -32,18 +32,19 @@ ms.locfileid: "60579532"
 
 本文概括介绍了 Microsoft Teams 管理中心中的 Teams 管理工具。
 
-管理员可能需要查看或更新组织为协作而设置的团队，或者可能需要执行修正操作，例如为无主团队分配所有者。 可以通过 Microsoft Teams PowerShell 模块和 Microsoft Teams 管理中心管理组织中使用的团队。 可以在 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 访问管理中心。 若要获得使用这两个工具集的完整管理功能，应确保为你分配以下角色之一：
+管理员可能需要查看或更新组织为协作而设置的团队，或者可能需要执行修正操作，例如为无主团队分配所有者。 可以通过 Microsoft Teams PowerShell 模块和 Microsoft Teams 管理中心管理组织中使用的团队。 可以在 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 访问管理中心。 要获得使用这两个工具集的完整管理功能，应确保向你分配以下角色之一：
 
 - 全局管理员
 - Teams 管理员
 
 可以在[使用 Microsoft Teams 管理员角色管理 Teams](using-admin-roles.md) 中详细了解 Teams 中的管理员角色，还可以阅读有关如何在 [Microsoft Teams cmdlet 参考](/powershell/teams/)中使用 PowerShell cmdlet 管理团队的详细信息。
 
-
+> [!NOTE]
+> Skype for Business Online 管理员可以通过 PowerShell 同时管理 **Teams** 和 **Skype for Business Online** 应用策略。
 
 ## <a name="teams-overview-grid"></a>Teams 概述网格
 
-团队管理工具位于 Microsoft Teams 管理中心的“**团队**”节点下。 （在管理中心，选择“**团队**” > “**管理团队**”。）每个团队都由 Microsoft 365 组提供支持，此节点提供了组织中已启用 Microsoft Teams 的组视图。
+团队的管理工具位于 Microsoft Teams 管理中心的 **Teams** 节点下。（在管理中心，选择“**Teams**” > “**管理团队**”。）每个团队都由一个 Microsoft 365 组提供支持，并且此节点提供组织中已启用 Microsoft Teams 的组的视图。
 
 ![Teams 概述网格屏幕截图。](media/manage-teams-in-modern-portal-grid.png)  
 
@@ -65,7 +66,7 @@ ms.locfileid: "60579532"
 
 ### <a name="add"></a>添加
 
-若要添加新团队，请单击“**添加**”。 在“**添加新团队**”窗格中，为团队提供名称和说明，设置是将其设为私人团队还是公共团队，并设置分类。
+要添加新团队，请点击“**添加**”。在“**添加新团队**”窗格中，为团队提供名称和说明，设置希望将其设为私人团队还是公共团队，并设置分类。
 
 > [!NOTE]
 > 与 Outlook 等其他客户端的体验不同，新创建的团队可以立即在“Teams 管理中心”中管理。

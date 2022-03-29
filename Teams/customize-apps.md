@@ -18,16 +18,16 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何在应用中自定义Microsoft Teams。
-ms.openlocfilehash: a8862e5c8b8d7d63f88274ed47cf647572b54401
-ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
+ms.openlocfilehash: 2696768bbd7ed930652d8671600f9721f15960b7
+ms.sourcegitcommit: ecc67b7b9378cc72f85517f30c32680045056fda
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64456895"
+ms.lasthandoff: 03/28/2022
+ms.locfileid: "64504122"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>自定义应用中Microsoft Teams
 
- Microsoft Teams提供应用自定义来增强Teams体验。 某些应用开发人员允许应用由管理员Teams自定义。管理员可以使用管理中心"管理应用"页面，根据组织需求自定义或Teams **品牌**。 可以自定义的详细信息包括：
+ Microsoft Teams提供应用自定义来增强Teams体验。 某些应用开发人员允许应用由管理员Teams自定义。管理员可以使用管理中心"管理应用"页，根据组织需求自定义或Microsoft Teams **品牌**。 可以自定义的详细信息包括：
 
 - 短名称
 - 简短说明
@@ -49,7 +49,7 @@ ms.locfileid: "64456895"
 
 若要开始自定义应用，请完成以下步骤：
 
-1. 登录到 Teams 管理中心。
+1. 登录到 Teams [管理中心](https://admin.teams.microsoft.com/dashboard)。
 
 2. 展开 **Teams"，** 然后选择"**管理应用"**。
 
@@ -63,7 +63,7 @@ ms.locfileid: "64456895"
 
      ![自定义选择选项 1.](media/select-app-to-customize1.png)
 
-   - 选择应用名称，然后选择"可 **自定义"**。
+   - 选择应用名称，然后选择"可自定义"中的编辑 **图标**。
 
      ![自定义选择选项 2.](media/app-details-customizable.png)
 

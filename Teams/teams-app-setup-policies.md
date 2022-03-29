@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 677ee2b0d57477ee79a9af7510d0ccf2dfbcae28
-ms.sourcegitcommit: b91d83739a078b175770c797c17d602eb5c83a4f
+ms.openlocfilehash: 1ed41c595a386607942c81dda8f151435a1d1ac7
+ms.sourcegitcommit: ecc67b7b9378cc72f85517f30c32680045056fda
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "63774011"
+ms.lasthandoff: 03/28/2022
+ms.locfileid: "64504142"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理应用设置策略
 
@@ -61,28 +61,30 @@ ms.locfileid: "63774011"
 
 若要创建应用设置策略以固定应用，请执行以下步骤：
 
-1. 在管理中心左侧导航Teams [](https://www.admin.teams.microsoft.com)，转到"Teams **设置** > **策略"**。
+1. 登录到 Microsoft Teams[管理中心](https://admin.teams.microsoft.com)。
 
-2. 选择“**添加**”。
+1. 在左窗格中，转到"Teams **设置** > **策略"**。
 
-3. 输入策略的名称和说明。
+1. 选择“**添加**”。
 
-4. 打开 **"用户固定"**。
+1. 输入策略的名称和说明。
+
+1. 打开 **"用户固定"**。
 
    > [!NOTE]
    > Microsoft 365 政府社区云 (GCC)  环境 (GCC、GCC High 和 DoD) 中的 Teams 管理中心提供"用户固定"设置，但目前不起作用。
 
-5. 在 **"固定的应用"下**，选择" **添加应用"**。
+1. 在 **"固定的应用"下**，选择" **添加应用"**。
 
-6. 在" **添加固定应用** "窗格中，搜索要添加的应用，然后选择"添加 **"**。 还可以按应用权限策略筛选应用。
+1. 在" **添加固定应用** "窗格中，搜索要添加的应用，然后选择"添加 **"**。 还可以按应用权限策略筛选应用。
 
-7. 选择“**添加**”。
+1. 选择“**添加**”。
 
-8. 在 **"应用栏**"或"**消息** 传送扩展"下，按照希望应用在应用中显示的顺序Teams。
+1. 在 **"应用栏**"或"**消息** 传送扩展"下，按照希望应用在应用中显示的顺序Teams。
 
    !["固定的应用"部分。](media/pin-messaging-extensions.png)
 
-9. 选择“**保存**”。
+1. 选择“**保存**”。
 
 ## <a name="install-apps"></a>安装应用
 

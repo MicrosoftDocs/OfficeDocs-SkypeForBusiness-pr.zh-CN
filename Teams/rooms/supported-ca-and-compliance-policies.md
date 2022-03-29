@@ -12,12 +12,12 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 description: 了解受支持的推荐条件访问和 Intune 设备符合性策略，Microsoft Teams 会议室。
-ms.openlocfilehash: f3b115430779324a260232ce45ba125859abdde8
-ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
+ms.openlocfilehash: ea27f71a7d4f64bc1d9e8c8a3cd3d7b2a52151f3
+ms.sourcegitcommit: ecc67b7b9378cc72f85517f30c32680045056fda
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63689061"
+ms.lasthandoff: 03/28/2022
+ms.locfileid: "64504192"
 ---
 # <a name="supported-conditional-access-and-intune-device-compliance-policies-for-microsoft-teams-rooms"></a>支持的条件访问和 Intune 设备符合性策略Microsoft Teams 会议室
 
@@ -28,7 +28,7 @@ ms.locfileid: "63689061"
 
 ## <a name="supported-conditional-access-policies"></a>支持的条件访问策略  
 
-以下列表包括受支持的条件访问策略，Teams 会议室 Android Windows上：
+以下列表包括受支持的条件访问策略，适用于 Teams 会议室 和 Android Windows应用。 支持的 Android 策略适用于所有 Android 设备、手机和面板。
 
 | 分配 | Windows | Android |
 |------------|---------|---------|

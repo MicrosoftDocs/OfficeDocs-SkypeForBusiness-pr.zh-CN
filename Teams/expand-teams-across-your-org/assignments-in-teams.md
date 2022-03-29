@@ -17,16 +17,16 @@ ms.custom:
 - ms.teamsadmincenter.assignments.tooltip.emaildigest
 - ms.teamsadmincenter.assignments.tooltip.makecode
 - ms.teamsadmincenter.assignments.tooltip.turnitin
-description: 了解如何在 Teams 教育版 的 Microsoft Teams 管理中心内管理Teams 教育版。
+description: 了解如何在 Teams 教育版 Microsoft Teams 管理中心内管理Teams 教育版。
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 88414131b5ba8fee750efef8d0b6f6f5313e13fd
-ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
+ms.openlocfilehash: 529240db27824ce8bf872d23636b904198ef7db1
+ms.sourcegitcommit: ecc67b7b9378cc72f85517f30c32680045056fda
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "62363138"
+ms.lasthandoff: 03/28/2022
+ms.locfileid: "64504132"
 ---
 # <a name="assignments-in-teams-for-education"></a>Teams 教育版中的分配
 
@@ -39,20 +39,20 @@ ms.locfileid: "62363138"
 
 ## <a name="assignments-integrations-in-the-microsoft-teams-admin-center"></a>作业管理中心Microsoft Teams集成
 
-使用管理中心中的Microsoft Teams设置，你可以为组织内部教师及其学生启用或关闭功能。 下面是与分配相关的设置：
+使用管理中心内的Microsoft Teams设置，你可以为组织内部教师及其学生启用或关闭功能。 下面是与分配相关的设置：
 
 <a name="#bkemaildigest"> </a>
 
 ### <a name="weekly-guardian-email-digest"></a>每周监护人电子邮件摘要
 
-每个周末向家长或监护人发送监护人电子邮件。 电子邮件包含有关前一周和即将到来的一周的作业的信息。 可以使用"家长和监护人同步["设置学校数据同步](/schooldatasync/parent-contact-sync)。
+每个周末向家长或监护人发送监护人电子邮件。 电子邮件包含有关前一周和即将到来的一周的作业的信息。 可以使用密码设置家长和监护人[学校数据同步](/schooldatasync/parent-contact-sync)。
 
 1. 在 SDS 中通过家长和监护人同步导入家长联系信息。 有关如何启用家长和监护人同步的说明，请参阅 [启用家长和监护人同步](/schooldatasync/parent-contact-sync#enabling-parent-and-guardian-sync)。
 
-2. 在管理中心中Microsoft Teams"守护者设置"，因为此设置默认已关闭。 这样，教师可以每周发送摘要。
+2. 在管理中心Microsoft Teams"守护者设置"，因为此设置默认已关闭。 这样，教师可以每周发送摘要。
 
    > [!NOTE]
-   > 教师可以通过取消选择他们自己的个人课堂团队中的设置来选择退出摘要 ("设置 >**/监护人** 电子邮件") 。
+   > 教师可以通过取消选择他们自己的个人课堂团队中的设置来选择退出摘要 (作业设置 >**家长/监护人** 电子邮件) 。
 
 若要验证家长是否收到电子邮件，以下三项必须为 true：
 
@@ -74,7 +74,7 @@ MakeCode 是 Microsoft 产品，受 Microsoft [使用条款和](https://go.micro
 
 此功能的默认设置为 - **关闭**。
 
-若要在 Teams中启用 MakeCode 分配，请转到 Teams **管理中心**，导航到"分配"部分，将 MakeCode 切换选项 **打开。** 单击“**保存**”。 为这些设置留出几个小时才能生效。
+若要在 Teams中启用 MakeCode 分配，请转到 Teams **管理中心**，导航到"分配"部分，将"MakeCode"切换选项切换为 **"开"**。 选择“**保存**”。 为这些设置留出几个小时才能生效。
 
 有关此功能工作原理详细信息，请观看 [此视频演示](https://makecode.com/blog/teams/teams-assignments)。
 
@@ -88,7 +88,7 @@ MakeCode 是 Microsoft 产品，受 Microsoft [使用条款和](https://go.micro
 
 此功能的默认设置为 - **关闭**。
 
-若要为组织启用 Turnitin，需要 Turnitin 订阅。 然后，可以输入以下信息，这些信息可在 Turnitin 管理控制台中找到：
+若要为组织启用 Turnitin，需要一个 Turnitin 订阅。 然后，可以输入以下信息，这些信息可在 Turnitin 管理控制台中找到：
 
 - **TurnitinApiKey**：这是一个 32 个字符的 GUID，位于"集成"下的管理控制台中。
 - **TurnitinApiUrl**：这是 Turnitin 管理控制台的 HTTPS URL。
@@ -113,22 +113,22 @@ MakeCode 是 Microsoft 产品，受 Microsoft [使用条款和](https://go.micro
 
 ## <a name="assignments-data"></a>分配数据
 
-作业存储教师和学生生成的信息。 所有数据在教师和特定学生之间共同共享，而该信息用于课堂。 有两个存储，SharePoint和外部存储SharePoint。
+作业存储教师和学生生成的信息。 所有数据在教师和特定学生之间共同共享，而该信息用于课堂。 此数据存储有两个存储，SharePoint存储SharePoint。
 
 >[!NOTE]
 >相同的规则也适用于第一方集成，例如读取进度。
 
 ### <a name="assignments-data-in-sharepoint-document-libraries"></a>文档库中SharePoint分配数据
 
-与作业提交相关联的学生文件存储在名为"学生作业" (文档库中) 。  与教师创建且学生可访问的作业关联的文件存储在另一个文档库中 (*名为：课堂* 文件) 的相应课堂团队 SharePoint 网站。 第一方集成还可以将作业数据存储在相同的对应课堂团队网站SharePoint网站 (名为：作业标题 *+* 时间戳) 。
+与作业提交相关联的学生文件存储在名为"学生作业" (的文档库中) 。  与教师创建且学生可访问的作业关联的文件存储在另一个文档库中 (*名为：课堂* 文件) 的相应课堂团队 SharePoint 网站。 第一方集成还可以将作业数据存储在同一相应的课堂团队网站SharePoint网站 (名为：作业标题 *+* 时间戳) 。
 
 #### <a name="files-associated-with-the-student"></a>与学生关联的文件
 
-IT 管理员可以使用内容搜索工具搜索学生文件 (学生作业、课堂文件或其他第一方集成文件) 这些文件与作业提交和与作业相关的文件相关。 例如，管理员可以搜索组织SharePoint的所有网站，并使用学生的姓名和课堂或作业名称在搜索查询中查找与 DSR (请求) 。
+IT 管理员可以使用内容搜索工具搜索学生文件 (*学生* 作业、课堂文件或其他第一方集成文件 ) ，这些文件与作业提交和与作业相关的文件相关。 例如，管理员可以搜索组织SharePoint的所有网站，并使用学生的姓名和课堂或作业名称在搜索查询中查找与 DSR (请求相关的) 数据。
 
 #### <a name="files-associated-with-the-teacher"></a>与教师关联的文件
 
-IT 管理员可以使用内容搜索工具搜索教师文件 (*学生* 作业、课堂文件或其他第一方集成文件 ) ，这些文件与作业相关，以及教师在作业中分发给学生的文件。 例如，管理员可以搜索SharePoint的所有网站，并使用教师的姓名和课堂或作业名称在搜索查询中查找与 DSR 相关的数据。
+IT 管理员可以使用内容搜索工具搜索教师文件 (*学生* 作业、课堂文件或其他第一方集成文件 ) ，这些文件与作业中教师分发给学生的作业和文件相关。 例如，管理员可以搜索SharePoint的所有网站，并使用教师的姓名和课堂或作业名称在搜索查询中查找与 DSR 相关的数据。
 
 ### <a name="assignments-data-outside-of-sharepoint-document-libraries"></a>文档库SharePoint分配数据
 
@@ -168,12 +168,45 @@ IT 管理员可以使用内容搜索工具搜索教师文件 (*学生* 作业、
 
 由于教师作业的数据在整个课堂中共享，因此没有批量删除选项。 相反，管理员可以将自己添加到课堂，转到应用，然后删除作业。
 
-有关详细信息，请参阅配置 [Teams](/microsoft-365/education/deploy/configure-assignments-for-teams)。
+有关详细信息，请参阅 [配置Teams](/microsoft-365/education/deploy/configure-assignments-for-teams)。
 
 ## <a name="removing-assignments-and-grades"></a>删除作业和成绩
 
 还可使用Teams策略删除特定用户或整个租户的作业和成绩。
 
-若要删除单个用户的作业和成绩，请转到Teams管理中心 **并** 导航Teams应用>**"** 权限策略"以创建新的应用权限策略定义。  创建新的策略定义时，将 **Microsoft 应用** 策略设置为"阻止特定应用"，并允许其他所有应用，将"分配"添加到阻止的应用程序列表。 保存新策略定义后，将其分配给相应的用户。
+若要删除单个用户的作业和成绩，请转到 Teams **管理** 中心并导航Teams应用>**"权限策略**"以创建新的应用权限策略定义。  创建新的策略定义时，将 **Microsoft 应用** 策略设置为"阻止特定应用"，并允许其他所有应用，将"分配"添加到阻止的应用程序列表。 保存新策略定义后，将其分配给相应的用户。
 
-若要删除整个租户的作业和成绩，请转到 Teams **管理** 中心，导航到 Teams **应用>"管理** 应用"，然后从应用程序列表中搜索并选择"作业"。 将"分配应用程序设置"页中的状态设置更改为 _"已阻止"_。
+若要删除整个租户的作业和成绩，请转到 Teams **管理** 中心，导航到 Teams **应用>"管理应用"，** 然后从应用程序列表中搜索并选择"作业"。 将"分配应用程序设置"页中的状态设置更改为 _"已阻止"_。
+
+## <a name="assignments-diagnostic-tool-for-users"></a>用户的分配诊断工具
+
+Microsoft 支持部门已创建一个工具，用于收集 Microsoft 工程团队的诊断数据，以调查与作业功能相关的问题。
+
+可在用户遇到问题的任何屏幕上的"分配"内访问此工具。
+
+若要在诊断工具中拉取Teams，用户可以：
+
+- **在桌面和 Web 上：**
+  - 选择 Ctrl+/
+- **在移动设备上：**
+  - 用两根手指触摸屏幕，将手指旋转 45 度，或
+  - 用三根手指点击屏幕 15 秒
+
+弹出诊断工具后，用户将看到 Microsoft 技术支持可能需要的数据列表。
+
+提取的数据可能包括：
+
+- 组 ID
+- 租户 ID
+- 会话 ID
+- 工作分配 ID
+- 提交 ID
+- 用户 ID
+
+此数据不会自动发送到 Microsoft。 用户需要将有关支持票证的数据复制并粘贴到 Microsoft 支持代理。
+
+如果用户拉取诊断工具并关闭它，则不发送任何数据。
+
+当数据发送到 Microsoft 支持代理时，它将根据组织的服务协议处理为Microsoft 365数据。
+
+有关使用此诊断工具（可以与教师和学生共享）的说明，请参阅 [获取诊断数据对作业进行故障排除](https://support.microsoft.com/topic/b40793f5-dbae-4c8a-841a-6baa7f232e2e)。

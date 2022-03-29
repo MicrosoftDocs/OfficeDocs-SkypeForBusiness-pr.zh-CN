@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: be7ee83b510096d8d6ffc0c4a0a5984917ad55c5
-ms.sourcegitcommit: 42c355d3f4bbe52c063b8f2119baefc0b88f9563
+ms.openlocfilehash: bd5ab3395aa870d0be073a0afcd08aafe9110637
+ms.sourcegitcommit: 867e8b4120e81c93c029c0c1b9cb69c161fc87a4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/24/2022
-ms.locfileid: "64403973"
+ms.lasthandoff: 03/26/2022
+ms.locfileid: "64480654"
 ---
 # <a name="about-apps-in-microsoft-teams"></a>关于 Microsoft Teams 的应用
 
@@ -94,7 +94,7 @@ Teams 提供了许多由 Microsoft 和第三方发布的应用，以吸引用户
 
 ### <a name="custom-connectors"></a>自定义连接器
 
-连接器可将内容和更新从你经常使用的服务直接传递到频道中，从而使你的团队能够获得最新内容。 通过使用连接器，你的 Teams 用户可以在其 Teams 聊天中接收来自常用服务（例如 Twitter、Trello、Wunderlist、GitHub 和 Azure DevOps Services）的更新。
+连接器可将内容和更新从你经常使用的服务直接传递到频道中，从而使你的团队能够获得最新内容。 通过使用连接器，你的 Teams 用户可以在其 Teams 聊天中接收来自常用服务（例如 Trello、奇妙清单、GitHub 和 Azure DevOps 服务）的更新。
 
 | 询问你自己 | 操作 |
 |--------------|--------|

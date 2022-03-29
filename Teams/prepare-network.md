@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: f9e11a089c75f1060e509dc9895e97176fc30345
-ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
+ms.openlocfilehash: 748380aec60c578ff6c2b7687cd51a8a07a8024c
+ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "59456342"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64457055"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>为 Microsoft Teams 准备组织网络 
 
@@ -39,7 +39,7 @@ ms.locfileid: "59456342"
     >
     >|DNS 记录  |服务  |协议  |优先级  |权重  |端口  |目标  |
     >|---------|---------|---------|---------|---------|---------|---------|
-    >|SRV     |sipfederationtls     |TCP     |100     |{1}     |5061     |sipfed.online.lync.com     |
+    >|SRV     |sipfederationtls     |TCP     |100     |1     |5061     |sipfed.online.lync.com     |
     
 2.  您是否拥有 Microsoft 365 或 Office 365 的验证域（例如，contoso.com）？
     
@@ -91,7 +91,7 @@ ms.locfileid: "59456342"
 </tr>
 <tr class="even">
 <td>Teams 顾问</td>
-<td><a href="/microsoftteams/use-advisor-teams-roll-out">Teams 顾问</a> 是 <a href="https://admin.teams.microsoft.com">Teams 管理中心</a> 的一部分。 它将评估 Microsoft 365 或 Office 365 环境并确定更新或修改所需的最常用配置，帮助你成功推出 Teams。</td>
+<td><a href="/microsoftteams/use-advisor-teams-roll-out">Teams 顾问</a> 是 <a href="https://admin.teams.microsoft.com">Teams 管理中心</a> 的一部分。它将评估 Microsoft 365 或 Office 365 环境，并确定更新或修改所需的最常用配置，以帮助你成功推出 Teams。</td>
 </tr>
 <tr class="odd">
 <td>外部名称解析</td>
@@ -106,7 +106,7 @@ ms.locfileid: "59456342"
 </tr>
 <tr class="even">
 <td>路由至 Microsoft 数据中心</td>
-<td><a href="/office365/enterprise/client-connectivity">实现到 Microsoft 数据中心的最有效的路由</a>。 尽可能有效地识别可使用本地或区域出口点连接到 Microsoft 网络的位置。</td>
+<td><a href="/office365/enterprise/client-connectivity">实现到 Microsoft 数据中心的最高效路由</a>。确定可以使用本地或区域出口点的位置，以尽可能高效地连接到 Microsoft 网络。</td>
 </tr>
 <tr class="odd">
 <td>入侵检测和防护指南</td>
@@ -153,7 +153,7 @@ Teams 旨在不受网络条件限制，提供最佳音频、视频和内容共�
       **形态**
    :::column-end:::
    :::column span="3":::
-      **带宽要求（比特率 Kb/s 向上/向下）**
+      **带宽要求（比特率 KB/s 向上/向下）**    
    :::column-end:::
 :::row-end:::
 :::row:::
