@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a9ca46e3fa967019e674651ea27299b6552144a7
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: b2f14993f47cdea5690413a32c9d286587db7324
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711956"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556343"
 ---
 # <a name="assign-team-owners-and-members-in-microsoft-teams"></a>在 Microsoft Teams 中分配团队所有者和成员
 
@@ -43,8 +43,8 @@ ms.locfileid: "63711956"
 | ***编辑私人频道名称/说明** |    否     |    不适用|
 |        ***删除专用通道**         |    是     |    否|
 |          **添加共享通道**          |    是     |    否|
-| **编辑共享频道名称/说明** |    弱     |    <sup>No6</sup>|
-|        **删除共享通道**         |    是     |    <sup>No6</sup>|
+| **编辑共享频道名称/说明** |    否     |    <sup>No6</sup>|
+|        **删除共享频道**         |    是     |    <sup>No6</sup>|
 |          **添加成员**          |  是<sup>3</sup>   |     否<sup>4</sup>    |
 |          **请求添加成员**          |  不适用   |     是<sup>5</sup>     |
 |           **添加应用**            |    是     |    是<sup>2</sup>|
@@ -63,7 +63,7 @@ ms.locfileid: "63711956"
 
 ## <a name="moderator-capabilities"></a>审核员功能
 
-除了其他功能之外，团队所有者和成员还可以拥有频道的审核员功能（前提是针对团队启用了审核）。 审核员可以在频道中发布新帖子，并控制团队成员能否回复现有频道消息。 他们还可以控制机器人和连接器是否可以提交频道邮件。
+除了其他功能之外，团队所有者和成员还可以拥有频道的审核员功能（前提是针对团队启用了审核）。 审核员可以在频道中发布新帖子，并控制团队成员能否回复现有频道消息。 审查器还可以控制具有机器人和连接器功能的应用是否可以提交通道消息。
 
 审核员功能在频道级别分配。 默认情况下，团队所有者拥有审核员功能。 默认情况下，团队成员已关闭审核员功能，但是团队所有者可向团队成员提供频道审核员功能。 频道内的审核员可在该渠道中添加或删除其他审核员。
 

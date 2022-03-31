@@ -855,6 +855,8 @@ items:
                 href: operator-connect-configure.md
           - name: 直接路由
             items:
+              - name: 新增功能
+                href: direct-routing-whats-new.md
               - name: 概述
                 href: direct-routing-landing-page.md
               - name: 规划直接路由

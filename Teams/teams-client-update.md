@@ -18,12 +18,12 @@ ms.localizationpriority: high
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 65421d36c0a8c19d8c7118e348222e3b62175a95
-ms.sourcegitcommit: a9a056b93b4add3a4d978bb341ea4b66a042b4d0
+ms.openlocfilehash: 00b8079a360dbec05b14f1487755e96bfc98b76f
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/18/2022
-ms.locfileid: "62893521"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556513"
 ---
 # <a name="teams-update-process"></a>Teams 更新过程
 
@@ -43,11 +43,6 @@ Teams Web 应用每周更新一次。
 
 Teams 遵循其自己的更新过程，如上所述。 Teams 不遵循其他 Office 应用（如 Word 和 Excel）的更新过程。 若要了解详细信息，请阅读 [Microsoft 365 应用版更新频道概述](/DeployOffice/overview-update-channels)。
 
-## <a name="what-about-updates-to-teams-on-vdi"></a>VDI 上的 Teams 更新怎么样？
-
-
-虚拟桌面基础结构 (VDI) 上的 Teams 客户端不会像非 VDI Teams 客户端那样自动更新。 必须按照有关[在 VDI 上安装 Teams](teams-for-vdi.md) 的说明所述，通过安装新的 MSI 来更新 VM 映像。 必须卸载当前版本才能更新到较新版本。
-
 ## <a name="can-admins-deploy-updates-instead-of-teams-auto-updating"></a>管理员能否部署更新而不是 Teams 自动更新？
 
 Teams 不向管理员提供通过任何传递机制部署更新的功能。
@@ -61,3 +56,7 @@ Teams 不向管理员提供通过任何传递机制部署更新的功能。
 政府云上的 Teams 桌面客户端目前对此服务协议有例外，请等待另行通知。
 
 有关新版本发布的信息，请查看“[消息中心](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter)”或转到客户端中的“**帮助**” > “**新增功能**”。
+
+## <a name="what-about-updates-to-teams-on-vdi"></a>VDI 上的 Teams 更新怎么样？
+
+虚拟桌面基础结构 (VDI) 上的 Teams 客户端不会像非 VDI Teams 客户端那样自动更新。 必须按照有关[在 VDI 上安装 Teams](teams-for-vdi.md) 的说明所述，通过安装新的 MSI 来更新 VM 映像。 必须卸载当前版本才能更新到较新版本。

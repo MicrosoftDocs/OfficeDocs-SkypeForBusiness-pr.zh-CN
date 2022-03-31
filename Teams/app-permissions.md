@@ -19,32 +19,36 @@ ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2b15625ae6e487a54fb5dbad122064148465b0ad
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: c95f5ab273112b29b91a312111000ba2dac76f9e
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711696"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556323"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Microsoft Teams 应用权限和考虑事项
 
-Microsoft Teams应用是一种将一个或多个功能聚合到可安装、升级和卸载的应用包的方法。 这些功能包括：
+Microsoft Teams应用是一种将一个或多个功能聚合到可安装、升级和卸载的应用的方法。 应用的功能包括：
 
 * 机器人
 * 消息传送扩展
 * 选项卡
 * 连接器
 
-应用由用户许可，由 IT 从策略角度进行管理。 但是，应用的权限和风险配置文件由应用包含的功能的权限和风险配置文件定义。 因此，本文重点介绍功能级别的权限和注意事项。
+作为管理员，你仅管理应用。 但是，本文重点介绍功能级别的权限和注意事项，因为应用中的功能会影响应用所需的权限和风险配置文件。 对于使用情况，应用由用户同意，由 IT 专业人员从策略角度进行管理。
 
-下面以大写字母列出的权限（例如 RECEIVE_MESSAGE 和 REPLYTO_MESSAGE）不会显示在 Microsoft Teams 开发人员文档或 [Microsoft](/graph/permissions-reference) Graph 的权限中。[](/microsoftteams/platform/overview)
+下面以大写字母列出的权限（例如 `RECEIVE_MESSAGE` 和 ） `REPLYTO_MESSAGE` 仅用于说明和说明目的。 这些字符串或权限不会显示在开发人员文档或 Microsoft Microsoft Teams权限的[](/microsoftteams/platform/overview)[任意位置](/graph/permissions-reference)Graph。
 
-| 标题   | 描述    |
+<!--- TBD: What does this table mean? The icons are not used anywhere in this article so commenting this for now.
+
+| Title   | Description    |
 |-----------|------------|
-| ![描述决策点的图标](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>使用下表作为指南，了解正在调查的应用正在请求哪些权限。</li></ul> |
-| ![描述后续步骤的图标](media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>研究应用或服务本身，确定是否允许在组织中访问它。 例如，机器人发送和接收来自用户的消息，并且（企业自定义机器人除外）位于符合性边界之外。 因此，包含机器人的任何应用都需要这些权限，并且具有该最低风险配置文件。 </li></ul>|
+| ![An icon depicting a decision point](media/audio_conferencing_image7.png) <br/>Decision point|<ul><li>Use the tables below as a guide to understand which permissions the apps you're investigating are requesting.</li></ul> |
+| ![An icon depicting the next step](media/audio_conferencing_image9.png)<br/>Next step|<ul><li>Research the app or service itself to decide whether you want to allow access to it within your organization. For example, bots send and receive messages from users, and—except for enterprise custom bots—they're located outside the compliance boundary. Therefore, any app that includes a bot requires those permissions and has that minimum risk profile. </li></ul>|
 
-另请参阅["请求设备权限"，了解Microsoft Teams选项卡](/microsoftteams/platform/concepts/device-capabilities/native-device-permissions)。
+See also [Request device permissions for your Microsoft Teams tab](/microsoftteams/platform/concepts/device-capabilities/native-device-permissions).
+
+--->
 
 ## <a name="global-app-permissions-and-considerations"></a>全局应用权限和注意事项
 
@@ -62,7 +66,7 @@ Microsoft Teams应用是一种将一个或多个功能聚合到可安装、升�
 
 * [特定于资源的许可](resource-specific-consent.md) 提供应用可以请求的一组权限，显示在应用的安装屏幕上。 若要详细了解特定于资源的许可权限，请参阅Graph[引用](/graph/permissions-reference#teams-resource-specific-consent-permissions)。
 
-* 应用可能还需要除特定于资源的许可权限外的权限。 安装应用后，应用可以通过Graph请求权限。 有关详细信息，请参阅了解[Azure AD许可体验](/azure/active-directory/develop/application-consent-experience)。 可以在 Azure 门户中配置 API 权限和许可。 若要了解有关详细信息，请参阅Azure Active Directory[框架](/azure/active-directory/develop/consent-framework)。
+* 应用可能还需要除特定于资源的许可权限外的权限。 安装应用后，应用可以通过Graph请求权限。 有关详细信息，请参阅了解[Azure AD许可体验](/azure/active-directory/develop/application-consent-experience)。 可以在应用程序配置 API 权限和Azure 门户。 若要了解有关详细信息，请参阅Azure Active Directory[框架](/azure/active-directory/develop/consent-framework)。
 
 ## <a name="bots-and-messaging-extensions"></a>机器人和消息传送扩展
 
@@ -94,8 +98,7 @@ Microsoft Teams应用是一种将一个或多个功能聚合到可安装、升�
 
   * RECEIVE_MESSAGE_PERSONAL、REPLYTO_MESSAGE_PERSONAL
   * RECEIVE_MESSAGE_GROUPCHAT、REPLYTO_MESSAGE_GROUPCHAT
-  * RECEIVE_MESSAGE_TEAM、REPLYTO_MESSAGE_TEAM    
-
+  * RECEIVE_MESSAGE_TEAM、REPLYTO_MESSAGE_TEAM
 
 * SEND_FILES，RECEIVE_FILES：<sup>2</sup> 控制机器人是否可以在个人聊天中发送和接收文件 (尚不支持群聊或频道聊天) 。
 

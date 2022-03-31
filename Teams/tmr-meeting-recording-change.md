@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bf1f393c8f6caf27a53ec45af0f04401f93b6793
-ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
+ms.openlocfilehash: 8d2863517ae4a147f9ded902dffff40ef315642e
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63514533"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556333"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>将OneDrive for Business和SharePoint流用于会议录制
 
@@ -37,7 +37,7 @@ ms.locfileid: "63514533"
 |从 2021 年 3 月 1 日开始推出<br> *（完成）*  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**仅限 GCC-High 和 DoD**<br> 现在，客户可以首次在其 Microsoft Teams 中启用云会议录制。 默认情况下，这些录音将存储并OneDrive SharePoint播放。 |
 |从 2021 年 8 月 16 日开始以增量方式推出 <br> *（完成）* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**所有客户（企业版、教育版和 GCC）**<br>无法将新的会议录制保存到 Microsoft Stream (经典) ;所有客户将自动将会议录制保存到 OneDrive for Business SharePoint即使他们更改了Teams会议策略进行流式传输。<br><br> 为了更好地控制组织中的更改，建议客户在对更改感到满意时选择加入，而不是等待更改发生。 |
 
-Microsoft Teams 推出了一种保存会议记录的新方法。 作为从经典 Microsoft Stream 过渡到新流的第一阶段，此方法[](/stream/streamnew/new-stream)将录制存储在 Microsoft OneDrive for Business 和 SharePoint Microsoft 365 中，并提供许多优势。
+Microsoft Teams 推出了一种保存会议记录的新方法。 作为从经典流Microsoft Stream流的第一阶段，此方法将录制存储在 Microsoft OneDrive for Business [](/stream/streamnew/new-stream)和 SharePoint Microsoft 365 中，并提供许多优势。
 
 > [!NOTE]
 > 如果Teams录制无法成功上载到 OneDrive/SharePoint，将显示"录制意外结束"错误消息，录制内容将暂时保存到 Azure 媒体服务 (AMS) 。 存储在 AMS 中后，不会尝试自动将录制内容上传到OneDrive/SharePoint流。
@@ -133,7 +133,7 @@ Microsoft Teams 推出了一种保存会议记录的新方法。 作为从经典
 
 默认情况下，所有录制文件都将转到OneDrive"录制"的用户 **的帐户。** 对于频道会议，录制内容将始终转到SharePoint的录制网站。 管理员不能更改录制内容存储位置。
 
-**如何处理以前员工的录音？**
+**如何实现处理以前员工的录音？**
 
 由于视频与视频和视频OneDrive for Business文件SharePoint，因此，处理员工离职后的所有权和保留期将遵循OneDrive for Business SharePoint[过程](/onedrive/retention-and-deletion)。
 
@@ -171,13 +171,13 @@ Teams会议录制文件以OneDrive for Business SharePoint并包含在这些服�
 
 **如果计划弃用添加到流，现有视频是否将保持现有和持续多久？**
 
-在不久的将来，不会弃用作为平台的流。 流中当前提供的视频将一直留在该位置，直到我们开始迁移。 迁移后，这些视频也将迁移到OneDrive for Business或SharePoint视频。 有关详细信息 [，请查看流式](/stream/streamnew/classic-migration) 传输经典迁移。
+在不久的将来，不会弃用作为平台的流。 流中当前提供的视频将一直留在该位置，直到我们开始迁移。 迁移后，这些视频也将迁移到OneDrive for Business或SharePoint视频。 有关详细信息 [，请查看](/stream/streamnew/migration-details) 迁移详细信息。
 
-**如何对会议录制应用保留Microsoft Teams标签？**
+**如何实现将保留标签应用于Microsoft Teams录制？**
 
 请参阅 [如何自动应用保留标签](/microsoft-365/compliance/apply-retention-labels-automatically)。
 
-**如何向用户分配策略Microsoft Teams哪些策略优先？**
+**如何实现向用户分配策略Microsoft Teams哪些策略优先？**
 
 请参阅 [哪个策略优先？](./policy-assignment-overview.md#which-policy-takes-precedence)。
 

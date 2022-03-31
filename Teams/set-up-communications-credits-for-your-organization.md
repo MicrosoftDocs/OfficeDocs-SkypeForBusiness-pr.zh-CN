@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - seo-marvel-apr2020
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: 39ee93d35bbcb5055a6c5565df4f92374a18ed2e
-ms.sourcegitcommit: c5f281342c5f2af65492692ab1249789c637e457
+ms.openlocfilehash: f13580dcfa6d40802b414999e5fe047f3371b87e
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2022
-ms.locfileid: "63392904"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556463"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>设置组织的通信点数
 
@@ -60,11 +60,13 @@ ms.locfileid: "63392904"
 
 1. 使用工作[或Microsoft 365 管理中心](https://portal.office.com/Adminportal)登录帐户。
     
-2. 在页面左侧导航Microsoft 365 管理中心，转到 **"计费** > **""购买服务"**。 向下滚动并选择 **"附加内容"**。
+2. 在页面左侧导航Microsoft 365 管理中心，转到 **"计费** > **""购买服务"**。
 
-3. 选择 **"通信信用额度"**。
+3. 在附加 **内容类别** 下查找"通信信用额度"，或在"搜索所有产品类别"搜索框中搜索"通信信用额度"，然后选择"详细信息 **"**。
     
-4. 在" **通信信用额度订阅** "页上，填写你的信息，然后单击"下一步 **"**：
+4. 查看服务信息，然后选择"购买 **"**。  (注意：每个订单自动选择固定数量的通信信用额度许可证) 
+
+5. 在"结帐"页面上，输入付款信息并填写所需信息：
     
    - **添加资金** 输入要添加到帐户的金额。 如果未启用自动充值，这些资金耗尽后，使用通信信用额度启用的呼叫功能 (如入站免费服务) 。 为了避免每次余额达到 0 或零 (，) 手动补充通信信用额度余额，我们建议您启用自动充值功能。
     
@@ -81,7 +83,7 @@ ms.locfileid: "63392904"
      > 
      > 使用自动充值功能时，当达到触发金额并处理充值交易时，将生成通信积分的开票。 通信信用额度以先出先出的方式使用。 若要了解如何检查每月使用情况，请阅读 [PSTN Microsoft Teams报告](/microsoftteams/teams-analytics-and-reports/pstn-usage-report)。
     
-5. 输入您的付款信息并单击 **下订单** 。
+6. 选择 **"下单"**。
     >[!IMPORTANT]
     >如果您是批量授权客户，则可以选择您的企业协议编号进行付款。 如果您有多个企业协议编号，您将能够选择要用于付款的企业协议。 您还将获得一个机会，指定要与企业协议编号关联的采购订单编号 （如果适用）。
     

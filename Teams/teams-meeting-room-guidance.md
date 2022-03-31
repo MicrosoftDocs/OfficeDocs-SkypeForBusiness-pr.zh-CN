@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b02e3f441ad7a4a338c86e89b2740561d3d552d7
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: ac7ac28eca8a139d9a7d1ff5a8100af1de772955
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711566"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556273"
 ---
 # <a name="meeting-room-guidance-for-teams"></a>会议会议室指南Teams
 
@@ -232,7 +232,7 @@ Microsoft Teams 会议室通过软件更新提供以人为中心的混合会议�
 
 超宽角度相机位于显示器下方房间的前面，用于捕获空间中每个人。
 
-超大规模相机功能对会议参与者进行智能跟踪，以便他们可以在大型视图中单独表示，而不是作为整个会议室大图像中的人脸进行表示。
+超宽角度相机功能对会议参与者进行智能跟踪，以便他们可以在大型视图中单独表示，而不是作为整个会议室大图像中的人脸进行表示。
 
 ![从开销视图呈现增强的会议室。](media/emr5.png)
 
@@ -246,7 +246,7 @@ Microsoft Teams 会议室通过软件更新提供以人为中心的混合会议�
 
 会议内容由上下文流畅的组件（如议程、任务和笔记）环绕，这些组件可以实时更新，帮助参与者保持参与和高效。 此外，会议聊天清晰可见，以便从 Teams 会议室Teams加入 Teams 会议时，可以轻松实时查看并参与对话。 在增强Microsoft Teams聊天室中，此内容显示在宽纵横比屏幕上，以最大化会议内容的大小以及可同时查看的参与者数。
 
-单显示器和双显示器配置都支持此布局，并且可以通过新的Teams 会议室提供。 虽然前行布局在增强型房间中影响特别大，但前行可用于 Teams 上运行的任何 Windows 会议室，而不考虑家具与硬件配置。
+单显示器和双显示器配置都支持此布局。 虽然前行布局在增强型房间中影响特别大，但前行可用于 Teams 上运行的任何 Windows 会议室，而不考虑家具与硬件配置。
 
 ### <a name="how-do-you-co-create-content"></a>如何共同创建内容？
 

@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 了解每个许可证的附加Microsoft Teams许可证以及获取的功能。
-ms.openlocfilehash: 47481383c2ea4941eb29675216209e5b98a97e71
-ms.sourcegitcommit: ff975c21725e1812e6db8fc9fe37de1362f168c3
+ms.openlocfilehash: b5282cfe166a04cd58dbe5042cc2fc3e25e7405f
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63435696"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556303"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Microsoft Teams附加许可证
 
@@ -42,7 +42,7 @@ ms.locfileid: "63435696"
 |**Microsoft 365 商务语音** <br/> |Business Voice 是 Microsoft 的适用于中小型企业的语音功能捆绑包，但自 2022 年 3 月 1 日起将不再提供购买。 当前 Business Voice 订阅者可以续订其 Business Voice 许可证，直到 2022 年 6 月 30 日。 <br/> <br/> 如果你是中小型企业，我们建议使用呼叫计划许可证购买Teams 电话套餐（如果在你的地区可用）。[](../business-voice/whats-business-voice.md) <br/> <br/> 或者，您可以购买Teams 电话标准版许可证，以便连接到首选的第三方 PSTN 提供商。 |
 |**Teams 电话套餐套餐** <br/> |使用Teams 电话套餐许可证捆绑包Teams 电话系统 PBX 功能和 PSTN 连接的国内呼叫计划。 <br/> |
 |**Teams 电话 标准** <br/> |[Teams 电话系统](../what-is-phone-system-in-office-365.md)是一种托管电话服务，提供呼叫控制和专用分支Exchange (PBX) 功能。 Teams 电话标准许可证Teams 电话系统云语音邮件、呼叫者 ID、呼叫保留、呼叫转接、自动助理、呼叫队列、呼叫转接和呼叫者 ID 等所有功能。 <br/> <br/>若要了解有关电话系统，[请参阅此处](../here-s-what-you-get-with-phone-system.md)是使用Teams 电话系统。 <br/> |
-|**Microsoft Teams通话套餐** <br/> |如果你希望用户能够呼叫组织外部的电话号码，你可以购买Microsoft Teams套餐以使用 Microsoft 作为 PSTN 提供商连接到 PSTN 电话号码。[](../calling-plans-for-office-365.md) 有国内呼叫计划以及国内和国际呼叫计划。 <br/> <br/> 若要了解Teams套餐在你的国家/地区是否可用，请参阅音频会议和呼叫计划的["国家/地区可用性"](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。 |
+|**Microsoft Teams 通话套餐** <br/> |如果你希望用户能够呼叫组织外部的电话号码，你可以购买Microsoft Teams 通话套餐 Microsoft 作为 PSTN 提供商连接到 [](../calling-plans-for-office-365.md) PSTN 电话号码。 有国内呼叫计划以及国内和国际呼叫计划。 <br/> <br/> 若要了解Teams套餐在你的国家/地区是否可用，请参阅音频会议和呼叫计划的["国家/地区可用性"](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。 |
 |**通信积分** | 通信积分提供每月分钟数池，如果所有呼叫计划分钟数均在下个月开始之前使用，则这些分钟数也可用于 PSTN 电话呼叫。 如果需要音频会议、自动助理或呼叫队列的免费号码，则需要设置通信 [积分](../set-up-communications-credits-for-your-organization.md)。 <br/> |
 |**音频会议** <br/> |有时，您的组织中的人员将需要使用电话来呼叫Teams会议，而不是计算机。 [为与需要通过电话呼叫](../set-up-audio-conferencing-in-teams.md) 的与会者安排或引导会议的用户设置音频会议。 <br/> <br/>要了解你所在国家或地区是否提供视频会议，请参阅 [音频会议和通话套餐的国家/地区可用情况](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。 有关定价信息，请参阅[音频会议定价](https://go.microsoft.com/fwlink/?linkid=799762)。  <br/> <br/>组织现在可以使用第三方运营商作为音频会议号码。 有关详细信息，请参阅[规划运营商连接会议](../operator-connect-conferencing-plan.md)。 <br/>|
 |**Microsoft Teams 会议室** <br/> | Microsoft Teams会议室是一Microsoft Teams产品，为会议室提供视频、音频和内容共享。 组织可以购买Microsoft Teams 会议室这些功能的独立许可证。 有关详细信息，请参阅 Teams 会议室 [许可](../rooms/rooms-licensing.md)。 <br/>|
@@ -97,6 +97,12 @@ Microsoft 365 E5/A5/G5 计划包括音频会议许可证，因此无需通过这
 </tr>
 </tbody>
 </table>
+
+## <a name="unassign-licenses-from-users"></a>取消分配用户的许可证
+
+有两种方法可删除用户对某些产品的访问权限：取消分配特定用户的产品许可证，或者取消分配特定产品的用户许可证。
+
+有关如何取消分配许可证的说明，请参阅 [取消分配用户的许可证](/microsoft-365/admin/manage/remove-licenses-from-users)。
 
 ## <a name="more-guidance-on-microsoft-plans"></a>有关 Microsoft 计划的更多指南
 

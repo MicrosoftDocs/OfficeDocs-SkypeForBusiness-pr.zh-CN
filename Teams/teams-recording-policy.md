@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 18e7b02a52a0ddc7c380ed3fb4c5879b45fe18dc
-ms.sourcegitcommit: b878c57b8e822913b7aac8c105f476bc4ebfcd7d
+ms.openlocfilehash: 554c2e893272ca8dfca1fde6c746e72f1b462f1e
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "63761926"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556553"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>有关Teams会议呼叫的基于策略的录制&简介
 
@@ -138,7 +138,7 @@ Azure 和 Windows VM 要求仅适用于 Teams 机器人组件，这意味着合�
 
 ## <a name="compliance-recording-policy-assignment-and-provisioning"></a>符合性记录策略分配和预配
 
-IT 管理员可以通过创建和分配符合性记录策略来确定要记录哪些用户以及每个用户使用哪个记录器。 当通信交互发生时，记录器会自动根据这些策略的配置邀请其参与对话。 合规性记录策略使用 [Microsoft PowerShell](./teams-powershell-overview.md) 进行管理，可在租户、每个用户和安全组级别针对每个组织应用。 有关用于会议策略、呼叫策略和组策略[](./meeting-policies-overview.md)的 Microsoft Docs，[可](./teams-calling-policy.md)[找到详细信息](./assign-policies-users-and-groups.md#assign-a-policy-to-a-group)。
+IT 管理员可以通过创建和分配符合性记录策略来确定要记录哪些用户以及每个用户使用哪个记录器。 当通信交互发生时，记录器会自动根据这些策略的配置邀请其参与对话。 合规性记录策略使用 [Microsoft PowerShell](./teams-powershell-overview.md) 进行管理，可在租户、每个用户和安全组级别针对每个组织应用。 有关会议策略、[Microsoft Docs策略和](./meeting-policies-overview.md)组策略[的信息](./teams-calling-policy.md)，可[找到详细信息](./assign-policies-users-and-groups.md#assign-a-policy-to-a-group)。
 
 1. 在租户中创建应用程序实例。
 
@@ -226,7 +226,8 @@ IT 管理员可以通过创建和分配符合性记录策略来确定要记录�
 |CallCabinet |[https://www.callcabinet.com/compliance-microsoft-teams-call-recording](https://www.callcabinet.com/compliance-microsoft-teams-call-recording ) |
 |配音器 |[https://www.dubber.net/call-recording/](https://www.dubber.net/call-recording/) |
 |Insightful Technology |[https://insightfultechnology.com/teams/](https://insightfultechnology.com/teams/) |
-|NICE |[https://www.niceactimize.com/compliance/ms-teams-recording.html](https://www.niceactimize.com/compliance/ms-teams-recording.html) |
+|NICE Engage |[https://www.nice.com/products/workforce-engagement/call-recording/air-and-engage](https://www.nice.com/products/workforce-engagement/call-recording/air-and-engage) |
+|NICE NTR |[https://www.niceactimize.com/compliance/ms-teams-recording.html](https://www.niceactimize.com/compliance/ms-teams-recording.html) |
 |Numonix |[https://numonix.cloud](https://numonix.cloud)    |
 |Oak Innovation |[https://www.oakinnovate.com/clarify](https://www.oakinnovate.com/clarify) |
 |Red Box |[https://www.redboxvoice.com/compliance-recording-for-microsoft-teams](https://www.redboxvoice.com/compliance-recording-for-microsoft-teams)  |

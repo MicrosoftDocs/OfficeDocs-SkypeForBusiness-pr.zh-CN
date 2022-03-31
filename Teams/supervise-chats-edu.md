@@ -15,20 +15,20 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解会议中监督Microsoft Teams聊天。
-ms.openlocfilehash: a16e2cb1113e47efd7affb0014a0160f4077a568
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 5027e214de2ee85c2898676b15f4fa04352e1566
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62387620"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556483"
 ---
-# <a name="supervised-chats-in-microsoft-teams"></a>在聊天中监督Microsoft Teams
+# <a name="supervised-chats-in-microsoft-teams"></a>在对话中监督Microsoft Teams
 
 教育机构为学生提供安全、健康的数字空间。 数字空间包括电子邮件、联机会议和呼叫，以及电子邮件Teams。 为了防止不适当的消息传送行为，许多学校禁止在Teams。 遗憾的是，禁用聊天也会阻止教师私下联系学生进行个性化学习。 禁用聊天后，学生不希望在课堂团队中公开发布消息时，无法与教师联系。
 
 监督式聊天允许指定的教师发起与学生的聊天，并阻止学生开始新聊天，除非有合适的教师。 启用聊天监督后，主管不允许离开聊天，不允许其他参与者删除聊天，从而确保涉及学生的聊天受到适当的监督。
 
-这些限制仅适用于在完全启用监督聊天后创建的新私人聊天。 它们不适用于现有私人聊天、会议聊天或频道。 若要详细了解会议聊天、频道安全和确保学生安全的最佳做法，请观看使用视频时确保学生[Teams](https://support.microsoft.com/topic/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8?ui=en-us&rs=en-us&ad=us#ID0EBBAAA=For_educators&ID0EDD=For_educators)。
+这些限制仅适用于在完全启用监督聊天后创建的新私人聊天。 它们不适用于现有私人聊天、会议聊天或频道。 若要了解有关会议聊天、频道安全和确保学生安全[方面](https://support.microsoft.com/topic/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8?ui=en-us&rs=en-us&ad=us#ID0EBBAAA=For_educators&ID0EDD=For_educators)最佳做法，请观看使用视频时确保学生Teams。
 
 > [!Note]
 > 监督聊天保护在强制实施该功能后创建的新聊天。  它不会保护现有聊天。
@@ -58,11 +58,11 @@ ms.locfileid: "62387620"
 
 - *受限权限* - 此角色非常适合仅对学生拥有监督访问权限且对其他教职员工和教师具有完全访问权限的员工。 他们可以开始与任何完整或受限用户聊天，但不能开始与受限用户聊天。 如果具有完全权限的用户开始与受限用户聊天，可以将受限用户带到对话中。 发生此访问的原因是具有完全权限的用户可以监督受限和受限用户之间的协作。
 
-- *受限权限* - 此角色非常适合需要监督的学生。 他们只能与具有完全权限的用户开始聊天。 他们可以参与具有完全权限的用户邀请他们参与的任何对话。 在联合聊天案例中，只有具有完全权限的用户（来自受限用户的租户）才能将受限用户添加到聊天中。
+- *受限权限* - 此角色非常适合需要监督的学生。 他们只能与具有完全权限的用户开始聊天。 他们可以参与具有完全权限的用户启动的任何对话，然后邀请他们加入。 在联合聊天案例中，只有具有完全权限的用户（来自受限用户的租户）才能将受限用户添加到聊天中。
 
 若要设置用户的聊天权限角色，请使用管理员门户中消息策略选项内找到的聊天权限Teams策略。 可以使用 PowerShell 通过 ChatPermissionRole 策略定义角色，其值为 Full、Limited 或 Restricted。 此策略位于 CsTeamsMessagingPolicy 下。
 
-详细了解设置。 Teams策略请参阅 Teams 教育策略和策略包和向大量用户分配策略指南。
+详细了解设置。 Teams策略请参阅Teams教育策略和策略包和向大量用户分配策略指南。
 
 无法将角色分配给租户中的来宾。 为来宾分配受限角色。
 

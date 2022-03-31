@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 765c0b97d5e277bd086ac4b25ee11ac80cb6fc11
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: fe3ad067844de3c7a5dda0a042dee837a9638eae
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711476"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556283"
 ---
 # <a name="microsoft-teams-apps-behavior-based-on-types-of-users"></a>Microsoft Teams类型的用户创建应用行为
 
@@ -49,7 +49,7 @@ Teams，当来宾、外部 (联合) 和匿名用户存在于外部上下文时�
 
 #### <a name="bots-installed-to-a-channel"></a>安装到通道的机器人
 
-机器人可以主动向来宾用户发送消息，但来宾无法与机器人交互。 来宾无法一对一地向机器人发送消息、提及机器人，或与与机器人通信的自适应卡交互。
+来宾用户可以提及机器人并与自适应卡交互。
 
 #### <a name="personal-bots-installed-with-policies"></a>使用策略安装的个人机器人
 

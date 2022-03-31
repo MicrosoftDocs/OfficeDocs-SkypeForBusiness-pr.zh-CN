@@ -24,12 +24,12 @@ ms.custom:
 - seo-marvel-apr2020
 - intro-get-started
 description: 分步指南，详细说明如何在 Microsoft 365 中为组织Teams 电话系统设置Microsoft 365。
-ms.openlocfilehash: 3a5c275c7d7d881ff770e6e84a3d4fa935d2827f
-ms.sourcegitcommit: 71edff2670367082312de59c4e21775682871418
+ms.openlocfilehash: 6b56c68e7316c78c7c1881d6e9d6ca39b13823b1
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "63043340"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556293"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>在组织中设置电话系统
 
@@ -50,7 +50,7 @@ ms.locfileid: "63043340"
 
 ## <a name="step-1-buy-and-assign-a-phone-system-license"></a>步骤 1：购买并分配电话系统许可证
 
-若要将电话系统许可证分配给单个用户，步骤与分配许可证Microsoft 365相同。 也可以批量向多个用户分配许可证。 有关可用许可证电话系统以及如何获取和分配许可证 [，请参阅Teams](/microsoftteams//teams-add-on-licensing/microsoft-teams-add-on-licensing)附加许可证和分配 [Microsot Teams附加许可证](/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses)。
+若要将电话系统许可证分配给单个用户，步骤与分配许可证Microsoft 365相同。 也可以批量向多个用户分配许可证。 有关可用许可证电话系统以及如何获取和分配许可证 [，请参阅Teams](/microsoftteams//teams-add-on-licensing/microsoft-teams-add-on-licensing)附加许可证和分配Microsoft Teams[许可证](/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses)。
 
 ## <a name="step-2-choose-a-pstn-connectivity-option"></a>第 2 步 选择 PSTN 连接选项 
  
@@ -58,7 +58,7 @@ ms.locfileid: "63043340"
 
 - 调用计划。 以 Microsoft 作为 PSTN 运营商的全云解决方案。 
 
-- 运算符连接。 如果你的现有运营商参与 Microsoft 运营商连接计划，他们可以管理 PSTN 呼叫和会话边界控制器 (SDC) 你。 
+- 运营商连接。 如果你的现有运营商参与 Microsoft 运营商连接计划，他们可以管理 PSTN 呼叫和会话边界控制器 (SDC) 你。 
 
 - 直接路由。 通过将 SDC 连接到其他 SDC，使用自己的 PSTN 电话系统。 
 
@@ -81,12 +81,12 @@ ms.locfileid: "63043340"
 
 除了为用户获取电话号码外，还可以获取自动助理和呼叫队列等服务的收费或免费电话号码。 服务号码可以同时处理数百个呼叫，而用户的电话号码只能同时处理几个呼叫。   
 
-可以从 Microsoft 获取许可中包含的服务编号。 如果你通过运营商或直接连接建立 PSTN 连接，可以使用自己的运营商或运营商提供的服务号码。 
+可以从 Microsoft 获取许可中包含的服务编号。 如果你通过直接路由运营商连接 PSTN 连接，可以使用自己的运营商或运营商提供的服务号码。 
 
 有关详细信息，请参阅：
 
 - [为组织管理电话号码](manage-phone-numbers-landing-page.md) - 提供电话号码类型的概述，其中提供了特定文章的链接，这些文章根据 PSTN 连接选项获取和管理号码。  
-介绍 [许可](manage-phone-numbers-landing-page.md#service-telephone-numbers) 中包含的 Microsoft 提供的服务电话号码。 有关接线员或直接连接提供的服务号码的信息，请与提供商联系。 
+介绍 [许可](manage-phone-numbers-landing-page.md#service-telephone-numbers) 中包含的 Microsoft 提供的服务电话号码。 有关由用户或直接路由运营商连接服务号码的信息，请与提供商联系。 
 
 - [可以获取的电话号码](how-many-phone-numbers-can-you-get.md) 数 - 描述可以获取的电话号码数，具体取决于你购买和分配的电话号码类型和许可证类型。 
 

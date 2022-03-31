@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: 了解消息传送策略以及如何使用它们来控制聊天消息传送Teams。
-ms.openlocfilehash: 0f4001fc2a646b83f005d9cc48948fbbb314f042
-ms.sourcegitcommit: 867e8b4120e81c93c029c0c1b9cb69c161fc87a4
+ms.openlocfilehash: 74b9474eda7fd3c6bfe7224f62fbf58f61689743
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/26/2022
-ms.locfileid: "64480664"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556243"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>在 Teams 中管理消息传递策略
 
@@ -80,6 +80,7 @@ ms.locfileid: "64480664"
 
 - **所有者可以删除已发送的消息**  使用此设置，让所有者删除用户发送的频道消息或帖子。
 - **删除已发送的消息** 使用此设置可让用户删除他们在聊天中发送的消息。
+- **删除聊天** 使用此设置可让用户删除他们在聊天中发送的消息。
 - **编辑已发送的消息** 使用此设置可让用户编辑他们在聊天中发送的消息。
 - **已读回执** 阅读回执允许当收件人在 1：1 和群聊 20 人或更少人中阅读其消息时，聊天消息的发送者收到通知。 消息已读回执会不确定地删除消息是否已阅读，并改进团队沟通。 电子数据展示报告不会捕获已读回执。  
     - **用户控制** 这意味着用户需要决定是打开还是关闭已读回执。 应用中的默认设置为"打开"。 然后，用户可以将其关闭。
