@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e02013ddc158e1e64386bc22652404ec387aee1
-ms.sourcegitcommit: a9a056b93b4add3a4d978bb341ea4b66a042b4d0
+ms.openlocfilehash: 4b922607955d8b825006217bd2fe333eaadbc1ce
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/18/2022
-ms.locfileid: "62893551"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556563"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>获取 Microsoft Teams 的客户端
 
@@ -46,7 +46,7 @@ Teams 桌面客户端作为独立应用程序提供，并作为以下操作系�
 - Linux（采用 `.deb` 和 `.rpm` 格式）
 - Chrome OS（有关详细信息，请参阅[如何在 Chromebook 上使用 Microsoft Office](https://support.office.com/article/how-to-install-and-run-microsoft-office-on-a-chromebook-32f14a23-2c1a-4579-b973-d4b1d78561ad)）
 
-如果最终用户具有适当的本地权限，则可以直接从 [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) 下载和安装桌面客户端。 在 Windows 电脑上安装 Teams 客户端不需要管理员权限，但在 Mac 上需要。
+最终用户可以直接从[https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754)下载和安装桌面客户端（如果他们具有适当的本地权限）。在 Windows 电脑上安装 Teams 客户端不需要管理员权限，但在 Mac 上是必需的。
 
 IT 专业人员可以选择将安装文件分发到其组织中计算机上的首选方法。 一些示例包括 Microsoft Endpoint Configuration Manager (Windows) 或 Jamf Pro (macOS)。 有关分发 Teams 的详细信息，请参阅以下内容。
 
@@ -63,7 +63,7 @@ IT 专业人员可以选择将安装文件分发到其组织中计算机上的�
 
 Windows 版 Teams 在 [32 位](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)、[64 位](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)和 [ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true) 体系结构中提供可下载的 MSI 安装程序。 Teams 的 x86 体系结构（32 位与 64 位）与已安装的 Windows 和 Office 的体系结构无关。 建议在 64 位系统上使用 64 位版本的 Teams。
 
-Teams 需要 .NET Framework 4.5 或更高版本。 如果未安装 .NET Framework 或更高版本，Teams 安装程序将提供供你安装。
+Teams 需要 .NET Framework 4.5 或更高版本。如果未安装 .NET Framework 或更高版本，则 Teams 安装程序将为你提供安装。
 
 Windows 客户端部署到位于用户配置文件中的 AppData 文件夹中。 部署到用户的本地配置文件后，无需提升的权限即可安装客户端。 Windows 客户端会利用以下位置：
 
@@ -205,4 +205,4 @@ Teams 移动应用支持的移动平台如下：
 
 [!INCLUDE [browser-support](includes/browser-support.md)]
 
-浏览器客户端在连接到 [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753) 时执行浏览器版本检测。 如果检测到不支持的浏览器版本，它将阻止对浏览器界面的访问，并建议用户下载桌面客户端或移动应用。
+浏览器客户端在连接到 [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)时执行浏览器版本检测。如果检测到不受支持的浏览器版本，它将阻止对浏览器界面的访问，并建议用户下载桌面客户端或移动应用。

@@ -1,7 +1,7 @@
 ---
-title: Microsoft Teams 中的应用、聊天机器人和连接器
+title: 了解 Microsoft Teams 中的应用
 ms.reviewer: ''
-description: 了解应用、聊天机器人和连接器，以及如何根据组织的情况和业务需求决定在 Microsoft Teams 中部署其中的哪些。
+description: 了解应用，并根据组织的用户配置和业务要求决定在 Teams 中允许哪些应用。
 ms.topic: article
 author: guptaashish
 ms.author: guptaashish
@@ -18,26 +18,26 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bd5ab3395aa870d0be073a0afcd08aafe9110637
-ms.sourcegitcommit: 867e8b4120e81c93c029c0c1b9cb69c161fc87a4
+ms.openlocfilehash: b6fd5ef344550cf85420faef1748c34f6e87e88b
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/26/2022
-ms.locfileid: "64480654"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556523"
 ---
 # <a name="about-apps-in-microsoft-teams"></a>关于 Microsoft Teams 的应用
 
-应用使你能通过收藏夹服务查找内容，并在 Teams 中分享。 应用可帮助你执行某些操作，例如将服务固定在频道的顶部、与聊天机器人聊天，或者共享和分配任务。 若要了解详细信息，请阅读 [Teams 中的应用概述](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0)。
+应用允许用户从他们喜爱的服务中查找内容，并在 Teams 中共享。 它们使你能够执行多种任务，例如在频道顶部固定服务、使用机器人自动执行通知或共享和分配任务。 若要详细了解应用的用途，请阅读 [针对最终用户的应用概述](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0)。
 
-可以通过使用 Microsoft Teams 提供的应用、使用经过认证的第三方应用和模板，以及创建自己的自定义应用将应用添加到 Teams 部署中。
+最终用户可在 Teams 中使用的不同类型的应用包括 Microsoft 创建的应用、经过认证的第三方应用以及你自己的组织创建的自定义应用。
 
 ## <a name="use-microsoft-provided-apps"></a>使用 Microsoft 提供的应用
 
-Teams自带一组内置应用，包括列表、任务、表扬、审批等。 我们建议在最初的 Teams 推出中加入 Teams 特色应用 - 例如 Planner。 在推动 Teams 采用的过程中添加其他应用、聊天机器人和连接器。
+Teams自带一组内置应用，包括列表、任务、表扬、审批等。 我们建议在最初的 Teams 推出中加入 Teams 特色应用 - 例如 Planner。 在你推动 Teams 采用时添加其他应用。 某些默认功能（如活动流、聊天、日历和通话）默认为可用，并已固定以方便最终用户访问。
 
 ## <a name="use-third-party-apps"></a>使用第三方应用
 
-除了 Microsoft 提供的应用以外，你还可以使用 Microsoft 认证的第三方应用。Microsoft 与 Microsoft 365 开发者合作伙伴合作，提供所需的信息，以加快做出有关使用 Teams 应用和插件的决定。有关更多信息，请参见 [Microsoft Teams 应用安全性和合规性](/microsoft-365-app-certification/teams/teams-apps)。
+除了 Microsoft 提供的应用，还可以使用经 Microsoft 验证的第三方应用。Microsoft 与 Microsoft 365 开发人员合作伙伴合作，提供加快使用 Teams 应用决策所需的信息。有关详细信息，请参阅 [Microsoft Teams 应用安全性和合规性](/microsoft-365-app-certification/teams/teams-apps)。
 
 ## <a name="use-open-source-sample-apps-provided-by-microsoft"></a>使用 Microsoft 提供的开源示例应用
 
@@ -68,41 +68,43 @@ Teams 提供了许多由 Microsoft 和第三方发布的应用，以吸引用户
 
 ### <a name="app-permissions-and-other-considerations"></a>应用权限和其他注意事项
 
-应用由用户允许，并由管理员或 IT 专业人员通过策略进行管理。 但总的来说，应用的权限和风险配置文件是在应用本身中定义的。
-
 应用由用户允许，并由管理员或 IT 专业人员通过策略进行管理。 但是，应用权限和风险配置文件在应用本身中定义。
 
 | 询问你自己 | 操作 |
 |--------------|--------|
 |<br>希望允许访问哪些应用？ 不希望允许访问哪些应用？  | <ul><li>有关在允许访问应用、聊天机器人、选项卡或连接器时要考虑的事项的列表，请参阅 [Microsoft Teams 应用权限和注意事项](app-permissions.md)。</li><li>有关将应用提供给组织中的用户的信息，请参阅“[在 Microsoft Teams 管理中心管理应用](manage-apps.md)”。</li></ul>|
 
-### <a name="bots-for-private-chats-and-channels"></a>用于私人聊天和频道的聊天机器人
+<!--- TBD: Rewrite this to talk about bots and tabs as a capability of apps. Admins do not govern bots, tabs, etc. Admins only govern apps that contain capabilities such as connectors, bots, etc. This writeup gives an impression that admins manage apps + bots + tabs + connectors, etc.
 
-聊天机器人是自动化程序，它们可响应查询或者提供有关用户感兴趣或想要及时了解的详细信息的更新和通知。 聊天机器人允许用户与云服务交互，例如任务管理、计划以及在 Teams 聊天中投票。 Teams 支持在私人聊天和频道中使用聊天机器人。 管理员可以控制是否允许在 Microsoft 365 和 Office 365 组织中使用机器人。
+### Bots for private chats and channels
 
-| 询问你自己 | 操作 |
+Bots are automated programs that respond to queries or give updates and notifications about details users find interesting or want to stay informed about. Bots allow users to interact with cloud services such as task management, scheduling, and polling in a Teams chat. Teams supports bots in private chats and channels. Administrators can control whether the use of bots is allowed in a Microsoft 365 or Office 365 organization.
+
+| Ask yourself | Action |
 |--------------|--------|
-|是否要允许在我的组织中使用自定义聊天机器人？|有关添加聊天机器人的详细信息，请参阅[为 Microsoft Teams 中的私人聊天和频道添加聊天机器人](/microsoftteams/platform/bots/what-are-bots)。 有关开启或关闭聊天机器人的信息，请参阅[在 Microsoft Teams 中管理应用设置](admin-settings.md)。|
+|Do I want to allow custom bots in my organization?|For more information about adding bots, see [Add bots for private chats and channels in Microsoft Teams](/microsoftteams/platform/bots/what-are-bots). For information about turning custom bots on or off, see [Admin settings for apps in Microsoft Teams](admin-settings.md).|
 
-### <a name="built-in-and-custom-tabs"></a>内置和自定义选项卡
+### Built-in and custom tabs
 
-所有者和团队成员可以向频道、私人聊天和群组聊天中添加选项卡，以帮助集成其云服务。 添加选项卡可帮助用户访问并管理自己需要或最常用的数据。 在频道中，默认情况下已创建了“对话”和“文件”选项卡。 在私人聊天中，默认情况下已创建了“对话”、“文件”、“组织”和“活动”选项卡。 除了这些内置选项卡外，你还可以设计和添加自定义选项卡。 若要了解如何为你的组织开启或关闭 Teams 应用，请阅读[在 Teams 中管理应用设置](admin-settings.md)。
+Owners and team members can add tabs to a channel, private chat, and group chat to help integrate their cloud services. Add tabs to help users access and manage the data they need or use the most. In channels, the Conversations and Files tabs are created by default. In every private chat, the Conversations, Files, Organization, and Activity tabs are created by default. In addition to these built-in tabs, you can design and add custom tabs. To learn about turning Teams apps on or off for your organization, read [Admin settings for apps in Teams](admin-settings.md).
 
-| 询问你自己 | 操作 |
+| Ask yourself | Action |
 |--------------|--------|
-|是否要允许在我的组织中使用自定义选项卡？|有关详细信息，请参阅[在 Teams 中使用内置和自定义选项卡](built-in-custom-tabs.md)。|
+|Do I want to allow custom tabs in my organization?|For more information, see [Use built-in and custom tabs in Teams](built-in-custom-tabs.md).|
 
-### <a name="custom-connectors"></a>自定义连接器
+### Custom connectors
 
-连接器可将内容和更新从你经常使用的服务直接传递到频道中，从而使你的团队能够获得最新内容。 通过使用连接器，你的 Teams 用户可以在其 Teams 聊天中接收来自常用服务（例如 Trello、奇妙清单、GitHub 和 Azure DevOps 服务）的更新。
+Connectors keep your team current by delivering content and updates from services you frequently use directly into a channel. With connectors, your Teams users can receive updates from popular services such as Trello, Wunderlist, GitHub, and Azure DevOps Services in their Teams chats.
 
-| 询问你自己 | 操作 |
+| Ask yourself | Action |
 |--------------|--------|
-|是否希望允许用户创建自定义连接器？|有关详细信息，请参阅[在 Teams 中使用自定义连接器](office-365-custom-connectors.md)。|
+|Do I want to allow users to create custom connectors?|For more information, see [Use custom connectors in Teams](office-365-custom-connectors.md).|
+
+--->
 
 ## <a name="additional-deployment-decisions"></a>其他部署决策
 
-你可能需要根据组织的需求和配置更改这些设置。
+可以根据组织的需求和配置更改这些设置。
 
 ### <a name="activity-reports"></a>活动报告
 
@@ -114,7 +116,7 @@ Teams 提供了许多由 Microsoft 和第三方发布的应用，以吸引用户
 
 ### <a name="app-templates"></a>应用模板
 
-应用模板是适用于 Microsoft Teams 的生产就绪型应用，它们由社区驱动、开放源代码且可在 GitHub 上获取。 每个模板都包含为组织部署和安装该应用的详细说明，从而提供了一个可立即安装并开始使用的即用型应用。
+应用模板是适用于 Microsoft 的生产就绪应用，它们由社区驱动、开源，并可在 GitHub 上使用。 每个应用都包含为组织部署和安装它的详细说明，并且是一个随时可用的应用，你可以立即安装并开始使用。
 
 此外，还提供完整的源代码，以便你可以对其进行详细的研究，或获取相应代码并进行更改以满足你的特定需求。
 

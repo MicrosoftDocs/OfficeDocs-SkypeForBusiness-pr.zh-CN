@@ -415,6 +415,8 @@ items:
                 href: use-call-analytics-to-troubleshoot-poor-call-quality.md
               - name: 使用实时遥测来解决会议质量不佳的问题
                 href: use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md
+              - name: 添加和更新报告标签
+                href: learn-more-about-site-upload.md
           - name: 服务质量 (QoS)
             items:
               - name: 在 Teams 中设置 QoS
@@ -839,6 +841,8 @@ items:
             href: pstn-connectivity.md
           - name: 通话套餐
             items:
+              - name: Microsoft 365 通话套餐
+                href: calling-plans-for-office-365.md
               - name: 哪种通话套餐适合你？
                 href: calling-plan-landing-page.md
               - name: 为组织设置通话套餐
@@ -963,7 +967,7 @@ items:
             href: operator-connect-configure.md#set-up-phone-numbers
           - name: 管理直接路由的电话号码
             href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice
-      - name: 语音路由
+      - name: 拨号计划和路由
         items:
           - name: 什么是拨号计划？
             href: what-are-dial-plans.md
@@ -971,8 +975,6 @@ items:
             href: create-and-manage-dial-plans.md
           - name: 将呼叫路由到未分配的号码
             href: routing-calls-to-unassigned-numbers.md
-          - name: 添加和更新报告标签
-            href: learn-more-about-site-upload.md
       - name: 网络设置和拓扑
         items:
           - name: 云语音功能的网络设置
@@ -1573,6 +1575,12 @@ items:
                 items:
                   - name: 概述
                     href: expand-teams-across-your-org/shifts/shifts-connectors.md
+                  - name: 使用排班连接器向导设置与 Blue Yonder WFM 的连接
+                    href: expand-teams-across-your-org/shifts/shifts-connector-wizard.md
+                  - name: 使用 PowerShell 设置与 Blue Yonder WFM 的连接
+                    href: expand-teams-across-your-org/shifts/shifts-connector-blue-yonder-powershell-setup.md
+                  - name: 使用 PowerShell 管理排班与 Blue Yonder WFM 的连接
+                    href: expand-teams-across-your-org/shifts/shifts-connector-powershell-manage.md
               - name: 排班数据常见问题解答
                 href: expand-teams-across-your-org/shifts/shifts-data-faq.md
       - name: Teams 教育版

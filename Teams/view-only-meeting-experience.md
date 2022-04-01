@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 104540c047f499f8b82139e0c76c93e4b4625f62
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 032036c6f08dac76cae9ed124ffe7bc8439e4c32
+ms.sourcegitcommit: 9e868a155bcd20dd5dafdedcff091ff77ca7398b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62401136"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64584257"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Teams 仅查看会议体验
 
@@ -119,6 +119,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled
 - 在会议中举手。
 - 发送或查看反应。
 - 与集成到 Teams 会议中的任何 3P 应用交互，包括投票。
+- 访问会议录制。
 
 ## <a name="view-only-feature-limitations"></a>仅查看功能限制
 

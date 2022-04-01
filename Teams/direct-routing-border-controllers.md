@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 了解哪些会话边界控制器 (SBC) 已通过直接路由认证。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fb9d411ea98476cc670c7bc2642d643ea39f9f25
-ms.sourcegitcommit: b91d83739a078b175770c797c17d602eb5c83a4f
+ms.openlocfilehash: d8a1a3e739188859cf34ea60c0160e9532a9ab3d
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "63774021"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556573"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>经认证可用于直接路由的会话边界控制器
 
@@ -105,6 +105,7 @@ Microsoft 与每个供应商合作：
 |                     [Ekinops](https://www.ekinops.com/solutions/voice-data-access/microsoft-direct-routing-sbc)|    Ekinops Session Border Controller (ONeSBC)   |     &#10004;     |     &#10004;     |      6.6.1m5ha1      |     |    |
 |                     |    Ekinops Virtual Session Border Controller (ONEvSBC)   |     &#10004;     |    &#10004;      |      6.6.1m5ha1      |     |    |
 |                     [46 Labs LLC](https://46labs.com/docs/hcvoice/teams/)|    超融合语音   |     &#10004;     |     &#10004;      |      HCVoice 1.0.6       |     |    |
+|                     [Frafos](https://www.frafos.com/ms-teams-abc-sbc)|    ABC SBC  |     &#10004;     |          |     4.6       |     |    |
 
 <br/>
 

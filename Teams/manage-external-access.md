@@ -21,12 +21,12 @@ description: Teams 或 IT 管理员可以为其他域 (联合身份验证) 配�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: ec2ee80d2475742380944b2e834b5c7b7cf24275
-ms.sourcegitcommit: c5f281342c5f2af65492692ab1249789c637e457
+ms.openlocfilehash: 8505a57ff0ab9bb2e79607ffe13768058bab26d6
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2022
-ms.locfileid: "63392914"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556313"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>在 Microsoft Teams 中管理外部访问
 
@@ -49,7 +49,7 @@ ms.locfileid: "63392914"
 Teams 管理中心控制组织级别的外部访问。 大多数选项 (域限制除外) 都可在用户级别使用 PowerShell。 有关详细信息，请参阅以下的 [使用 PowerShell](#using-powershell)。
 
 > [!NOTE]
-> 如果在组织中关闭外部访问权限，则组织外部的人员仍可以通过匿名加入加入会议。 若要了解详细信息，请参阅[管理 Teams 中的会议策略](meeting-settings-in-teams.md)。
+> 如果在组织中关闭外部访问权限，组织外部的人员仍可以通过匿名加入加入会议。若要了解详细信息，请参阅 [管理 Teams 中的会议设置](meeting-settings-in-teams.md)。
 
 > [!NOTE]
 > 主持会议或与来自其他组织的人员聊天时，Teams 用户可以添加应用。 当他们加入由其他组织主持的会议或聊天时，也可以使用由这些组织的人共享的应用。 将应用主持用户组织的数据策略，以及该用户组织共享的任何第三方应用的数据共享实践。
@@ -149,12 +149,12 @@ Teams 管理中心控制组织级别的外部访问。 大多数选项 (域限�
 |:-------|:--------|:------------------|
 |启用/禁用与其他 Teams 组织和 Skype for Business 的联合|`-AllowFederatedUsers`|`-EnableFederationAccess`|
 |启用与特定域的联合|`-AllowedDomains`|不可用|
-|禁用与特定域的联合|`-Blocked Domains`|不可用|
+|禁用与特定域的联合|`-BlockedDomains`|不可用|
 |启用/禁用与未由组织管理的 Teams 用户的联合|`-AllowTeamsConsumer`|`-EnableTeamsConsumerAccess`|
 |启用/禁用组织未管理的 Teams 用户启动的对话|`-AllowTeamsConsumerInbound`|`-EnableTeamsConsumerInbound`|
 |启用/禁用与 Skype 的联合|`-AllowPublicUsers`|`-EnablePublicCloudAccess`|
 
-请务必注意，禁用从租户到用户的策略“下滚”。 例如：
+请务必注意，禁用策略将从租户“下滚”到用户。例如：
 
 ```PowerShell
 Set-CsTenantFederationConfiguration -AllowFederatedUsers $false

@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: 了解消息传送策略以及如何使用它们来控制聊天消息传送Teams。
-ms.openlocfilehash: 74b9474eda7fd3c6bfe7224f62fbf58f61689743
-ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
+ms.openlocfilehash: 00146d35faac13ef511a06b6c442341832867bcc
+ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/30/2022
-ms.locfileid: "64556243"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64592787"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>在 Teams 中管理消息传递策略
 
@@ -99,7 +99,7 @@ ms.locfileid: "64556243"
 - **URL 预览** 使用此设置可打开或关闭邮件中的自动 URL 预览。
 - **翻译邮件** 打开此设置，让用户自动将Teams翻译为个人语言设置指定的语言，Microsoft 365 Office 365。
 - **消息的沉浸式阅读器** 打开此设置，让用户在 Microsoft 沉浸式阅读器 中查看消息。 沉浸式阅读器是一种学习工具，可提供全屏阅读体验以提高文本可读性。
-- **使用优先级通知发送紧急消息** 如果启用此功能，用户可以使用优先级通知 [发送消息](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462)。 优先级通知每 2 分钟通知用户 20 分钟，或直到收件人选取并阅读标记为紧急的邮件。 此功能增加了及时处理消息的可能性。
+- **使用优先级通知发送紧急消息** 如果启用此功能，用户可以使用优先级通知 [发送消息](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462)。 优先级通知每 2 分钟通知用户 20 分钟，或直到收件人选取并阅读标记为紧急的邮件。 此功能增加了及时处理消息的可能性。 发送紧急邮件后，无法对其进行编辑。
 - **创建语音消息**
   > [!Important]
   > 电子数据展示报告不会捕获音频消息。

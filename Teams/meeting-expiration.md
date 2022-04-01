@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: 了解如何使用会议策略设置来控制会议Microsoft Teams。
-ms.openlocfilehash: d4752251f65dac0afb41ba357ad03063b3f6dfb0
-ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
+ms.openlocfilehash: ed76ea0278cdbf8a00bbd0d3e8434103aad2f270
+ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63514685"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64592807"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>会议策略和会议到期时间Microsoft Teams
 
@@ -76,9 +76,6 @@ ms.locfileid: "63514685"
 > 如果会议是由代理发送的，而该代理人有权代表其他人（例如经理）发送会议邀请，则会议策略设置将应用于向经理 (权限) 。
 
 ## <a name="changes-to-meeting-expiration"></a>对会议过期的更改
-
-> [!IMPORTANT]
-> 如果要在租户上Teams过期，请申请Microsoft Teams[提前采用者计划](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR8YMDA0A9INMv_DZ8yW5uG1URDc3U1VVMklPTzVMS0RLR0pUQTlWU1BEVC4u)。
 
 所有新创建的Teams会议录制 (TMR) 的默认过期时间为 120 天。 默认情况下，所有租户都启用此选项。 这意味着默认情况下，启用此功能 *后* 创建的所有 TMR 将在创建日期后的 120 天后删除。 管理员还可以将会议设置为 **永不自动过期**。 OneDrive和SharePoint系统将监视所有 TMR 上设置的过期日期，并会在 TMR 过期日期自动将其移到回收站。
 
@@ -155,7 +152,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -NewMeetingRecordingExpirationDays 50
 
 当录制内容无法上传到 OneDrive 或 SharePoint 时，Teams 应用程序会在聊天中显示一条消息，指出用户在从 Teams 服务器永久删除 TMR 之前最多有 21 天的下载时间。 由于 TMR 上传失败而存在的这种过期体验与帮助文档中OneDrive SharePoint和自动过期功能没有关系。
 
-### <a name="how-do-i-know-the-distribution-of-tmr-playbacks-so-i-know-what-the-optimal-auto-expiration-default-should-be-for-my-tenant"></a>如何知道 TMR 播放的分布，以便知道最适合我的租户的自动过期默认值是什么？
+### <a name="how-do-i-know-the-distribution-of-tmr-playbacks-so-i-know-what-the-optimal-auto-expiration-default-should-be-for-my-tenant"></a>如何实现 TMR 播放的分布情况，以便知道最适合租户的自动过期默认值是什么？
 
 1. 在库中查找视频。
 1. 选择 **...。** > **详细信息**

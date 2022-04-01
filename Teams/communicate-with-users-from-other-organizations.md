@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
 description: 了解如何使用外部访问（联盟）和来宾访问在 Microsoft Teams 中与组织外部的人员进行通话和聊天以及查找和添加这些人员。
-ms.openlocfilehash: ab6a15edc1aa8d0de6f77b96ed176171ff5d65ae
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
+ms.openlocfilehash: db5d29a9d7afd121c3cecc47aa3ce717bb815f54
+ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288430"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64592737"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>使用来宾访问权限和外部访问权限与组织外部的人员进行协作
 
@@ -97,7 +97,7 @@ ms.locfileid: "62288430"
 <sup>1</sup> 前提是已将用户添加为来宾，并且对方已使用来宾帐户登录。<br>
 <sup>2</sup> 仅通过电子邮件或会话初始协议 (SIP) 地址。<br>
 <sup>3</sup> 支持来自不同组织的仅 Teams 对仅 Teams 用户的一对一聊天。 <br>
-<sup>4</sup> 默认情况下，外部参与者看不到拨入参与者的电话号码。 如果想要保持这些电话号码的隐私，请选择“**进入/退出公告类型**”的“**提示音**”（这会阻止 Teams 读出电话号码）。 若要了解详细信息，请参阅[在 Microsoft Teams 中打开或关闭会议的进入和退出公告](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)。 <br>
+<sup>4</sup> 默认情况下，外部参与者无法看到已拨入的参与者的电话号码。如果想要维持这些电话号码的隐私，请为“**进入/退出公告类型**”选择“**音调**”（这会阻止 Teams 读取号码）。若要了解更多详细信息，请参阅 [在 Microsoft Teams 中打开或关闭会议的进入和退出公告](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)。<br>
 <sup>5</sup> 默认允许，但可由 Teams 管理员禁用
 
 ## <a name="related-topics"></a>相关主题

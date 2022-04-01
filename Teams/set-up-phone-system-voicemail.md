@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 了解如何为用户云语音邮件帐户。
-ms.openlocfilehash: d78942c5cbfc6af8e921c26c806378b45f480835
-ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
+ms.openlocfilehash: dd98275ac768990337a47f1f4ba6dacbdb385087
+ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63442318"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64592717"
 ---
 # <a name="set-up-cloud-voicemail"></a>设置云语音邮件
 
@@ -37,11 +37,11 @@ ms.locfileid: "63442318"
 
 ## <a name="cloud-voicemail-provisioning"></a>云语音邮件预配
 
-对于Teams用户，云语音邮件自动设置和预配。 *无需Microsoft Teams 电话许可证，云语音邮件。*
+对于Teams用户，云语音邮件自动设置和预配。 *Microsoft Teams 电话不需要许可证云语音邮件。*
 
 为 Teams 用户预配与为联机用户预配Skype for Business不同。 对于 Skype for Business Online 用户，云语音邮件用户分配了一个 电话系统 许可证，并且预配系统企业语音自动设置和预配用户。
 
-对于Skype for Business Server用户，云语音邮件自动设置和预配。 但是，必须将 Skype for Business Server 环境配置为将调用路由到云语音邮件。 有关详细信息，请参阅[为云语音邮件计划服务](/skypeforbusiness/hybrid/plan-cloud-voicemail.md)。
+对于Skype for Business Server用户，云语音邮件自动设置和预配。 但是，必须将 Skype for Business Server 环境配置为将调用路由到云语音邮件。 有关详细信息，请参阅[为云语音邮件计划服务](/skypeforbusiness/hybrid/plan-cloud-voicemail)。
 
 ## <a name="cloud-voicemail-storage"></a>云语音邮件存储
 
@@ -55,7 +55,7 @@ ms.locfileid: "63442318"
 
 从路由到云语音邮件的Microsoft 365开始录制和听录云语音邮件。 然后，邮件将传递到用户的邮箱Exchange邮箱。
 
-例如，如果呼叫通过会话边界控制器 (SBC) 进入不可用的直接路由用户，则语音邮件录制和听录在欧洲完成。 然后，邮件将传递到用户的邮箱Exchange邮箱。 另举一例，假设北美Teams用户调用了欧洲Teams不可用的用户。 在这种情况下，呼叫将在北美开始，处理将在北美进行，然后语音邮件将传递到用户在欧洲Exchange邮箱。
+例如，如果呼叫通过会话边界控制器 (SBC) 进入不可用的直接路由用户，则语音邮件录制和听录在欧洲完成。 然后，邮件将传递到用户的邮箱Exchange邮箱。 另举一例，假设Teams用户北美调用欧洲Teams不可用的用户。 在这种情况下，呼叫从 北美 开始，处理发生在 北美 中，然后将语音邮件传送到用户的 Exchange 邮箱。
 
 与任何其他电子邮件一样，Exchange使用简单的邮件传输协议 (SMTP) 将语音邮件传递到其他邮箱。
 
@@ -75,7 +75,7 @@ ms.locfileid: "63442318"
 
 为 云语音邮件 预配的所有用户的默认设置是允许将调用路由到 云语音邮件，以及允许用户将呼叫转发到 云语音邮件。
 
-可以通过将 Set-CsTeamsCallingPolicy cmdlet 与 AllowVoicemail 参数云语音邮件将调用路由到 Teams。 有关详细信息，请参阅 [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy.md)。
+可以通过将 Set-CsTeamsCallingPolicy cmdlet 与 AllowVoicemail 参数云语音邮件将调用路由到 Teams。 有关详细信息，请参阅 [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)。
 
 - 如果将 AllowVoicemail 设置为 AlwaysDisabled，则无论用户的呼叫转发或未接听设置如何，呼叫都永远不会路由到语音邮件。 语音邮件不能作为呼叫转发或呼叫呼叫中未Teams。
 
@@ -105,7 +105,7 @@ ms.locfileid: "63442318"
 
 若要加密语音邮件，可以创建敏感度标签。 使用自动标记功能，你可以确保自动将标签应用于传入的语音邮件。 
 
-启用受保护的语音邮件后，用户可以通过呼叫进入其语音邮件邮箱或在 Outlook、Outlook 网页版 或 Outlook for Android 或 iOS 中打开该邮件来收听受保护的语音邮件。 对于 Busimes，受保护的语音邮件Microsoft Teams Skype打开。
+启用受保护的语音邮件后，用户可以通过呼叫进入其语音邮件邮箱或在 Outlook、Outlook 网页版 或 Outlook for Android 或 iOS 中打开该邮件来收听受保护的语音邮件。 受保护的语音邮件无法通过语音信箱或Microsoft Teams Skype for Business。
 
 若要为语音邮件创建敏感度标签，请参阅 [使用敏感度标签](/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions)。 在" **加密** "部分中， **选择"允许用户在应用标签时分配权限"**。 选择 **"Outlook"，强制实施** 以下限制之一，然后选择"**不转发"** 选项。
 

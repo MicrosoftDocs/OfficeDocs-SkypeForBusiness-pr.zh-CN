@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: anwara
-description: Learning M365 通信合规性功能的一部分，从 Microsoft Teams 的角度来看， (是内部风险解决方案集的一) 。
+description: Learning M365 通信符合性功能的一部分，从 Microsoft Teams 的角度来看，这是内部风险解决方案集的一 (通信符合性) 。
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -16,41 +16,53 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: accdfbb8edc7e47013a96574c1a0a0b1ed46a89e
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 33a2f72307b82fa4264f264e0f98a4d0aed45ae4
+ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731071"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64592837"
 ---
 # <a name="communication-compliance-with-microsoft-teams"></a>与 Microsoft Teams 通信符合性
 
 通信合规性是一种内部风险解决方案，Microsoft 365帮助检测、捕获和操作组织中不适当的邮件，从而最大程度地降低通信风险。
 
-对于Microsoft Teams，通信符合性可帮助识别 Teams 通道、[](/microsoft-365/compliance/communication-compliance-feature-reference)专用 Teams 通道或 1 对 1 和群组聊天中的以下不适当内容类型：
+对于Microsoft Teams，通信符合性可帮助识别 Teams 通道、专用 Teams [](/microsoft-365/compliance/communication-compliance-feature-reference) 通道或 1 对 1 和群组聊天中的以下不适当内容类型：
 
 - 冒犯性、亵渎和攻击性语言
 - 成人、不性与成人图像
 - 共享敏感信息
 
-有关通信符合性以及如何为组织配置策略的信息，请参阅中通信[Microsoft 365。](/microsoft-365/compliance/communication-compliance)
+有关通信符合性以及如何为组织配置策略的信息，请参阅通信符合性[Microsoft 365。](/microsoft-365/compliance/communication-compliance) 有关包含通信Microsoft 365订阅的信息，请参阅[预览体验计划风险解决方案](/microsoft-365/compliance/insider-risk-solution-overview#communication-compliance)。
 
-## <a name="how-to-use-communication-compliance-in-microsoft-teams"></a>如何在 Microsoft Teams 中使用通信Microsoft Teams
+## <a name="how-to-use-communication-compliance-in-microsoft-teams"></a>如何在 Microsoft Teams
 
 通信合规性Microsoft Teams紧密集成，有助于将组织中通信风险降至最低。 配置第一个通信符合性策略后，可以主动管理Microsoft Teams警报中自动标记的不适宜的邮件和内容。
 
 ### <a name="getting-started"></a>入门
 
-Microsoft Teams通信符合性入门，首先规划和创建预定义或自定义策略，[](/microsoft-365/compliance/communication-compliance-plan)以识别 Teams 通道或 1：1 和组中不适宜的用户活动。 请记住，需要在配置过程中配置一些权限[](/microsoft-365/compliance/communication-compliance-configure)和基本先决条件。
+在 Microsoft Teams 通信符合性入门，首先规划和创建预定义或自定义策略[](/microsoft-365/compliance/communication-compliance-plan)，以识别 Teams 通道或 1：1 和组中不适宜的用户活动。 请记住，需要在配置过程中配置一些权限[](/microsoft-365/compliance/communication-compliance-configure)和基本先决条件。
 
-Teams管理员可在以下级别配置通信符合性策略：
+Teams管理员可以在下列级别配置通信符合性策略：
 
-- **用户级别**：此级别的策略适用于单个Teams用户，也可以应用于Teams用户。 这些策略涵盖这些用户可以在 1：1 或群组聊天中发送的消息。 用户的聊天通信会在用户作为成员的所有Microsoft Teams自动监视。
-- **Teams级别**：此级别的策略适用于Microsoft Teams通道，包括专用通道。 这些策略仅涵盖在 Teams 中发送的消息。
+- **用户** 级别：此级别的策略适用于单个Teams用户，也可以应用于Teams用户。 这些策略涵盖这些用户可以在 1：1 或群组聊天中发送的消息。 用户的聊天通信会在用户作为成员的所有Microsoft Teams自动监视。
+- **Teams级别**：此级别的策略适用于 Microsoft Teams通道，包括专用通道。 这些策略仅涵盖在 Teams 中发送的消息。
+
+### <a name="report-a-concern-in-microsoft-teams"></a>报告问题Microsoft Teams
+
+默认情况下 *，"* Teams消息中的"报告关注"选项已启用，并且可以通过 Teams 管理中心中的Teams [策略进行控制](/microsoftteams/manage-teams-in-modern-portal)。 这样，您的组织中的用户能够提交不适宜的消息，供策略的通信符合性评审者审阅。 有关通信符合性中用户报告的消息详细信息，请参阅 [通信符合性策略](/microsoft-365/compliance/communication-compliance-policies#user-reported-messages-policy)。
+
+![报告关注菜单。](./media/communication-compliance-report-a-concern-full-menu.png)
+
+提交邮件供审阅后，用户会收到提交内容在Microsoft Teams。 聊天中的其他参与者看不到此通知。
+
+![报告关注确认。](./media/communication-compliance-report-a-concern.png)
+
+除非创建并分配自定义策略，否则组织中用户会自动获取全局策略。 编辑全局策略中的设置，或创建并分配一个或多个自定义策略以启用或关闭此功能。 有关详细信息，请参阅管理 [Teams 中的消息Teams](/microsoftteams/messaging-policies-in-teams)。
 
 ### <a name="act-on-inappropriate-messages-in-microsoft-teams"></a>在邮件中处理Microsoft Teams
 
-配置策略并收到针对 Microsoft Teams 消息的通信符合性警报后，组织中的符合性评审者可以针对这些邮件采取措施。 审阅者可以通过查看通信符合性警报和删除邮件视图中的标记邮件来帮助保护Microsoft Teams。
+配置策略并收到针对这些邮件的通信Microsoft Teams警报后，组织中的符合性评审者可以处理这些消息。 如果为组织启用此功能，这还将包括用户报告的消息。 审阅者可以通过查看通信符合性警报和删除邮件视图中的标记邮件来帮助保护Microsoft Teams。
 
 ![删除邮件Teams。](./media/communication-compliance-remove-teams-message.png)
 
@@ -60,7 +72,7 @@ Teams管理员可在以下级别配置通信符合性策略：
 
 ![发送方的策略提示。](./media/communication-compliance-warning-1.png)
 
-发件人看到的策略条件通知示例：
+发件人看到的策略通知示例：
 
 ![发件人的策略条件信息。](./media/communication-compliance-warning-2.png)
 
