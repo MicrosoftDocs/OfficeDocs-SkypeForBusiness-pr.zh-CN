@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 了解如何在 Microsoft Teams（预览版）中使用和管理共享频道。
-ms.openlocfilehash: 3a5b7f1005af95580f56b87188bc8a67325d440d
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: 0c66d308ef5182c6ace69a7bdcd004c865109bec
+ms.sourcegitcommit: 3e7c491d2bb13c86ac8e73b1c6c9735660c673e3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63712110"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64590380"
 ---
 # <a name="shared-channels-in-microsoft-teams-preview"></a>Microsoft Teams 中的共享频道（预览版）
 
@@ -43,7 +43,7 @@ Microsoft Teams 中的共享频道可创建协作空间，你可以在其中邀�
 
 ## <a name="getting-started-with-shared-channels"></a>共享频道入门
 
-默认情况下 Teams 中的共享频道处于启用状态。 你可以选择用户是否可以创建共享频道、他们是否可以与组织外部的人员共享该频道，以及他们是否可以通过 [创建频道策略](/MicrosoftTeams/teams-policies) 来参与外部共享频道。
+共享频道在 Teams 中默认启动。你可以选择用户是否可以创建共享频道、他们是否可以与组织外部的人员共享该频道，以及他们是否可以通过 [创建频道策略](/MicrosoftTeams/teams-policies) 来参与外部共享频道。
 
 如果计划与组织外部人员共享频道，请阅读 [计划外部协作](/microsoft-365/solutions/plan-external-collaboration) 以了解重要的规划注意事项。
 
@@ -73,7 +73,7 @@ Microsoft Teams 中的共享频道可创建协作空间，你可以在其中邀�
 
 如果共享频道所有者是一个或多个共享频道的最后一个所有者，则无法通过 Teams 客户端将其删除。
 
-如果共享频道所有者离开组织，或者从与团队关联的 Microsoft 365 组中被删除，则将自动提升一名共享频道成员成为共享频道所有者。 请考虑添加多个所有者以避免出现这种情况。
+如果共享频道所有者离开组织，或者从与团队关联的 Microsoft 365 组中被删除，则将自动提升一名共享频道成员成为共享频道所有者。请考虑添加一位以上所有者以预防此情况。
 
 ## <a name="channel-owner-settings"></a>频道所有者设置
 
@@ -122,6 +122,22 @@ Microsoft Teams 中的共享频道可创建协作空间，你可以在其中邀�
 如果通过 SharePoint 向用户授予对共享频道中文件、文件夹或笔记本的访问权限，则从团队或共享频道中删除用户将不会删除用户对文件、文件夹或笔记本的访问权限。
 
 如果将现有笔记本作为选项卡添加到共享频道，则不更改对共享频道的访问权限，且笔记本将保留其现有权限。
+
+## <a name="resources-for-your-users"></a>为你的用户准备的资源
+
+以下文章可能对组织中的用户在使用共享频道时有所帮助。
+
+[在 Teams 中创建共享频道](https://support.microsoft.com/office/80712457-579e-42b2-b54f-112329578aaa)
+
+[与 Teams 中的人员共享频道](https://support.microsoft.com/office/5f60de2d-0080-4e55-b26f-33a9dafa120e)
+
+[与团队共享频道](https://support.microsoft.com/office/b2e89992-2708-4583-b11e-bbb6edb4f1c3)
+
+[为什么在 Teams 中使用共享频道或其他频道类型？](https://support.microsoft.com/office/e6ad61d0-6b3f-4e1b-baac-63e2978bd92e)
+
+[Teams 中的来宾和共享频道](https://support.microsoft.com/office/612de4ce-e7a3-4579-b086-bb8ff9f2d11e)
+
+[在 Teams 中共享频道所有者和成员角色](https://support.microsoft.com/office/75b379f4-8e9c-4202-acf1-6ffc3878a2d7)
 
 ## <a name="limits-for-shared-channels-preview"></a>共享频道的限制（预览版）
 

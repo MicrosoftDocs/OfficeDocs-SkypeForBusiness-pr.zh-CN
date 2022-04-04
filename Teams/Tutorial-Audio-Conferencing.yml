@@ -22,12 +22,12 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 667f6964cf5a41992656a59b027e7db93bd9df41
-  ms.sourcegitcommit: f8b935e009895138eddfc1ae360b7b2ace747d3c
+  ms.openlocfilehash: 1ff41ead7e06d0aae227c64befb066031068ce3a
+  ms.sourcegitcommit: e3a4df81721abe83886714a7c3c798e4c0888c35
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 03/02/2022
-  ms.locfileid: "63050888"
+  ms.lasthandoff: 04/01/2022
+  ms.locfileid: "64617653"
 items:
 - durationInMinutes: 1
   content: >
@@ -89,7 +89,7 @@ items:
 - title: 驱动器值
   durationInMinutes: 1
   content: "\n从报告角度来看，有两个方面需要查看：\n-   使用情况：举行了多少次会议？\n-   质量：会议的质量如何？\n\n你应该认真监视两个方面：\n-   低使用率意味着用户出于某种原因没有使用产品。 仅可通过进一步调查来确定原因。\n    原因可能包括从认为会议未达到用户要求，到缺少意识或培训或存在质量问题。\n-   另一方面，低质量意味着用户与 Office 365 之间存在连接问题。 低质量可能导致用户体验不佳和使用率下降。 请参阅[管理中心内的 Office 365 报告 - Microsoft Teams 用户活动](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524)（预计阅读时间为 5 分钟）以了解有关使用情况报告的详细信息。\n\n管理质量超出了此培训的范围，但你可参阅下面的培训材料：\n\n-   [操作服务](./1-drive-value-operate-my-service.md)\n"
-- title: 下一步
+- title: 后续步骤
   durationInMinutes: 1
   content: >-
     此培训涵盖了以下主要学习内容：
@@ -113,4 +113,4 @@ items:
         - 关注 [Teams 博客](https://aka.ms/teamsblog)。
         - 阅读 [Teams 路线图](https://aka.ms/O365Roadmap)。
         - 在[发行说明](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de)中了解最新发行的功能。
-    4.  浏览[更多培训和教程](/OfficeDocs-SkypeForBusiness-pr/blob/master/Teams/ITAdmin-readiness#technical-training)。
+    4.  浏览[更多培训和教程](/microsoftteams/ITAdmin-readiness#technical-training)。

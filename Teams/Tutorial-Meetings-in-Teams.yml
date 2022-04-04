@@ -20,12 +20,12 @@ metadata:
   - Teams_ITAdmin_RemoteWorkers
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 1737461b1eface3038957a862ab2bcb743ca4615
-  ms.sourcegitcommit: eb5fadedacbf4651ed5b05f1b0d6abf57e9eda2d
+  ms.openlocfilehash: 0a8f7affd933fbe8661609e90fa934a8597e4d3a
+  ms.sourcegitcommit: a77116a0b0fd7e3cf14de694c559338bea198851
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 02/25/2022
-  ms.locfileid: "62960054"
+  ms.lasthandoff: 04/03/2022
+  ms.locfileid: "64628336"
 items:
 - durationInMinutes: 1
   content: >
@@ -108,9 +108,9 @@ items:
 
     2.  向我们发送反馈：
         - 在此页面底部的“评论”部分发布。
-        - 若要向我们Teams产品反馈或请求新功能，请转到Teams[门户。](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472)
+        - 若要提供Teams反馈或请求新功能，请转到Teams[门户](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472)。
     3.  获取最新信息：
         - 关注 [Teams 博客](https://aka.ms/teamsblog)。
         - 阅读 [Teams 路线图](https://aka.ms/O365Roadmap)。
         - 在[发行说明](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de)中了解最新发行的功能
-    4.  浏览[更多培训和教程](/OfficeDocs-SkypeForBusiness-pr/blob/master/Teams/ITAdmin-readiness#technical-training)。
+    4.  浏览[更多培训和教程](/microsoftteams/ITAdmin-readiness#technical-training)。
