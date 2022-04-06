@@ -17,23 +17,23 @@ description: 连接器可将内容和更新从你经常使用的服务直接传�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e42ef850c089633a6c9145935d6e70a92cdb6801
-ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
+ms.openlocfilehash: 7fef0b28d9663cdb472f4daf79076c2d4eefcd66
+ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63442688"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "64642976"
 ---
 # <a name="use-microsoft-365-and-custom-connectors-in-microsoft-teams"></a>在 Microsoft 365 中使用 Microsoft Teams 和自定义连接器
 
-连接器将常用内容和服务更新直接交付到频道，让团队保持最新状态。 使用连接器，Microsoft Teams用户可以从常用服务（例如 Trello、奇妙清单、GitHub 和 Azure DevOps Services）在其团队的聊天流中接收更新。
+为了让团队保持更新，连接器将常用内容和服务更新直接传送至Teams频道。 使用连接器，Teams用户可以从常用服务（如 Trello、奇妙清单、GitHub 和 Azure DevOps Services）接收更新。 更新将直接发布在团队的聊天流中。
 
-如果团队权限允许，团队的任何成员都可以使用连接器将其团队连接到热门云服务，并通知所有团队成员该服务的活动。 即使最初设置连接器的成员已离开，连接器仍将正常运行。 任何有权添加\删除的团队成员都可以修改其他成员设置的连接器。
+Microsoft 365连接器同时用于Microsoft Teams组Microsoft 365组，使所有成员能够更轻松地保持同步并快速接收相关信息。 Microsoft Teams 和 Exchange 使用相同的连接器模型，这样，你可以在两个平台中使用相同的连接器。 但值得注意的是，禁用团队所依赖的 Microsoft 365 组的连接器也禁用了为该团队创建连接器的能力。
 
-Microsoft 365连接器可以与 Microsoft Teams Microsoft 365 组一起使用，使所有成员能够更轻松地保持同步并快速接收相关信息。 Microsoft Teams 和 Exchange 使用相同的连接器模型，这样，你可以在两个平台中使用相同的连接器。 但值得注意的是，禁用团队所依赖的 Microsoft 365 组的连接器也会禁用为该团队创建连接器的能力。
+如果团队权限允许，团队的任何成员都可以使用连接器将其团队连接到热门云服务，并通知所有团队成员该服务的活动。 在最初设置连接器的成员离开后，连接器将继续工作。 具有添加或删除权限的任何团队成员都可以修改其他成员设置的连接器。
 
 > [!NOTE]
-> 在政府云环境环境中，连接器Community (GCC) 禁用。 如果需要启用它们，请设置 ConnectorsEnabled 或 ConnectorsEnabledForTeams 参数$true SetOrganizationConfig cmdlet。 需要连接到 [PowerShell Exchange Online。](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps)
+> 在政府云环境环境中，连接器Community (GCC) 禁用。 若要启用这些参数，请通过 `ConnectorsEnabled` `$true` `SetOrganizationConfig` cmdlet 将 或 `ConnectorsEnabledForTeams` 参数设置为 。 连接 [PowerShell Exchange Online。](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps)
 
 ## <a name="add-a-connector-to-a-channel"></a>将连接器添加到通道
 
@@ -59,7 +59,8 @@ Microsoft 365连接器可以与 Microsoft Teams Microsoft 365 组一起使用，
     > [!div class="mx-imgBorder"]
     > ![Teams 界面屏幕截图，显示一个频道中的一个对话。](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image4.png)
 
-<!---Delete this section after customer migration to new Webhook URL is complete--->
+<!---Delete this section after customer migration to new Webhook URL is complete --->
+
 > [!IMPORTANT]
 > **连接器 URL 更新通知**
 >
@@ -73,6 +74,6 @@ Microsoft 365连接器可以与 Microsoft Teams Microsoft 365 组一起使用，
 > 4. 成功更新 URL 后，会看到一条消息"URL 是最新的"。
 > !["URL 是最新的"消息的屏幕截图。](media/Teams_URL_up_to_date.png)
 
-## <a name="develop-custom-connectors"></a>开发自定义连接器
+## <a name="see-also"></a>另请参阅
 
-还可以生成自定义连接器，以及传入和传出 Webhook。 有关详细信息，请参阅“[开发人员文档](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors)”。
+* [生成自定义连接器和 Webhook](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors)

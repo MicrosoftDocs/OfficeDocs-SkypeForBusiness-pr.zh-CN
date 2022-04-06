@@ -19,12 +19,12 @@ searchScope:
 - Microsoft Cloud for Retail
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dfe825f1ab21aab3dad2617236d61859ab6b90d8
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
-ms.translationtype: HT
+ms.openlocfilehash: 6f8f831b3e24018dfc3f5ba3cbf2a7767b66398b
+ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288854"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "64643086"
 ---
 # <a name="simplify-business-processes-in-retail-environments"></a>简化零售环境中的业务流程
 
@@ -52,7 +52,7 @@ Teams 包含许多应用，可帮助你和零售团队管理其日常工作:
 
 ## <a name="track-key-performance-indicators-kpis-with-power-bi-reports"></a>使用 Power BI 报告跟踪关键绩效指标(KPI)
 
-在 Microsoft Teams 频道和聊天中共享并协作处理交互式 Power BI 内容。 可以将 [Power BI 选项卡](../built-in-custom-tabs.md) 添加到 Teams，从而在 Teams 中嵌入有关报告的交互式报告和聊天，同时在 Teams 活动源中，当 Power BI 发生重大事件时收到通知。
+在 Microsoft Teams 频道和聊天中共享并协作处理交互式 Power BI 内容。 可以将 [Power BI 选项卡](/microsoftteams/platform/tabs/what-are-tabs) 添加到 Teams，从而在 Teams 中嵌入有关报告的交互式报告和聊天，同时在 Teams 活动源中，当 Power BI 发生重大事件时收到通知。
 
 详细信息: [使用 Power BI在 Microsoft Teams 中进行协作](/power-bi/collaborate-share/service-collaborate-microsoft-teams)。
 

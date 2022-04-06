@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: 本文提供有关如何使用 Teams设备的指南。
-ms.openlocfilehash: e39b54d290ac3c8d4809f9da011c2e28451c2ae7
-ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
+ms.openlocfilehash: 2928bb64881cad5fb5c6615d26767e963f725dcd
+ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "63062536"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "64643036"
 ---
 # <a name="how-to-use-microsoft-teams-panels"></a>如何使用Microsoft Teams面板
 
@@ -33,7 +33,7 @@ Teams面板设备预安装有 Microsoft Teams，并显示通过日历或日历Ou
 
 有关面板设备的概述，以及有关如何在组织中计划、传送和管理它们的指导，请参阅部署Microsoft Teams[面板](teams-panels.md)。
 
-有关快速入门，请查看快速入门[Teams面板](https://support.microsoft.com/office/get-started-with-teams-panels-fa5e85d1-7ff3-4f11-b0b0-277e2302c8be)。
+有关快速入门，请查看开始[面板Teams功能](https://support.microsoft.com/office/get-started-with-teams-panels-fa5e85d1-7ff3-4f11-b0b0-277e2302c8be)。
 
 ## <a name="teams-panels-end-user-experience"></a>Teams面板最终用户体验
 
@@ -90,7 +90,7 @@ Teams面板设备预安装有 Microsoft Teams，并显示通过日历或日历Ou
 
 该磁贴以绿色显示，表示可用的会议空间。 它 **以** 醒目的文本显示"可用"，并且还会显示"保留"按钮，您可以点击以保留临时 [会议的会议空间](#reserve-meeting-spaces-for-ad-hoc-meetings)。 您可以在右下 (磁贴中查看即将) 日历，以决定临时会议结束时间。
 
-:::image type="content" source="../media/panels-right-tile-available-status.png" alt-text="此屏幕截图显示Teams可用会议空间时，"开始"面板的显示方式。":::
+:::image type="content" source="../media/panels-right-tile-available-status.png" alt-text="此屏幕截图显示Teams可用会议空间时，&quot;开始&quot;面板的显示方式。":::
 
 ## <a name="reserve-meeting-spaces-for-ad-hoc-meetings"></a>为临时会议保留会议空间
 
@@ -104,7 +104,7 @@ Teams面板设备预安装有 Microsoft Teams，并显示通过日历或日历Ou
 为临时会议保留可用的会议空间：
 
 1. 在"主页"屏幕上，点击" **保留"** 按钮。
-    :::image type="content" source="../media/panels-reserve.png" alt-text="Teams显示"保留"按钮的主屏幕。":::
+    :::image type="content" source="../media/panels-reserve.png" alt-text="Teams显示&quot;保留&quot;按钮的主屏幕。":::
 2. 在 **临时会议屏幕** 中，查看可用的结束时间选项。 可以使用向右或向左箭头浏览可用的结束时间选项。
 
     :::image type="content" source="../media/panels-reserve-endtime.png" alt-text="显示结束时间槽位的临时会议屏幕。":::
@@ -158,7 +158,7 @@ Teams面板设备预安装有 Microsoft Teams，并显示通过日历或日历Ou
 
 ## <a name="teams-panels-admin-experience"></a>Teams面板管理员体验
 
-如果你是面板的资源 [Teams](teams-panels.md\#resource-account-provisioning)管理员，则你是设备上 **"面板应用**"的管理员。 作为 **面板应用** 管理员，除了管理设备上面板应用设置之外，还可以执行最终用户体验部分 [](#teams-panels-end-user-experience)中提到的所有功能。
+如果你是用户资源Teams 面板管理员，则 [](teams-panels.md\#resource-account-provisioning)你是设备上 **"面板应用**"的管理员。 作为 **面板应用** 管理员，除了管理设备上面板应用设置之外，还可以执行最终用户体验部分 [](#teams-panels-end-user-experience)中提到的所有功能。
 
 你的面板设备提供两种类型的管理员设置。 只有设备管理员才能访问可用的管理员设置。 最终用户无法访问这些设置。
 
@@ -185,16 +185,18 @@ Teams面板设备预安装有 Microsoft Teams，并显示通过日历或日历Ou
 5. 点击右侧 **屏幕上的"设置** 应用"按钮。
     将显示具有可用 **面板应用设置的** 屏幕。
 
-    :::image type="content" source="../media/panels-app-settings-screen.png" alt-text="此屏幕截图显示具有可用"面板"应用设置的屏幕。":::
+    :::image type="content" source="../media/panels-app-settings-screen.png" alt-text="此屏幕截图显示具有可用&quot;面板&quot;应用设置的屏幕。":::
 
     使用此屏幕更新设备的 **以下面板** 应用设置：
 
     - [壁纸](#update-the-wallpaper)
     - [LED 指示器](#change-the-busy-state-led-color)
 
-#### <a name="pair-a-teams-panel-with-a-microsoft-teams-room-on-android"></a>将 Teams 面板与 Android Microsoft Teams会议室配对
+#### <a name="pair-a-teams-panel-with-a-microsoft-teams-room-on-android"></a>将 Teams 面板 与 android Microsoft Teams 会议室配对
 
-在Teams面板中，使用管理员凭据登录。  
+若要在 Android Teams 面板与 Teams会议室配对，这两台设备必须登录到同一资源帐户。
+
+在Teams 面板，使用管理员凭据登录。
 
 1. 转到"**设置 >设备设置 >"设置 >"应用设置 >">设备配对"。**
 
@@ -208,6 +210,24 @@ Teams面板设备预安装有 Microsoft Teams，并显示通过日历或日历Ou
 
 若要启用签入和房间释放，请参阅面板上的签入和[Microsoft Teams发布](check-in-and-room-release.md)。
 
+#### <a name="room-capacity-warning"></a>会议室容量警告
+
+Teams Android 上的会议室Teams，当会议室容量超过或超过容量时，可显示警告消息。 若要使用此功能，Teams会议室必须具有支持人员计数的摄像机。 Teams 会议室 Android 支持会议室容量警告，无需Teams 面板。
+
+默认情况下，会议室容量警告已关闭。 若要从设备打开Teams 面板，请首先将 Teams 面板 与 Android Microsoft Teams[会议室配对](#pair-a-teams-panel-with-a-microsoft-teams-room-on-android)。 面板和Teams必须登录到同一资源帐户。
+
+ 然后，转到"**设置 >设置">"">"面板应用设置"**。 然后，在" **会议"** 下，打开 **"最大占用空间"通知**。
+
+#### <a name="view-room-equipment"></a>查看会议室设备
+
+启用此功能后，最终用户可以查看空间中空间内可用的设备Teams 面板。
+
+默认情况下，此功能已关闭，并且可以按设备启用。 若要将其打开，请使用 PowerShell 中的 ["](/powershell/module/exchange/set-place?view=exchange-ps) 设置位置" `AudioDeviceName`配置 、 `DisplayDeviceName`、 `VideoDeviceName`、 `Tags`和 的显示名称 `IsWheelChairAccessible`。
+
+或者，可以在管理中心Exchange此功能。 有关详细信息 [，请参阅](/exchange/recipients-in-exchange-online/manage-resource-mailboxes#edit-a-resource) 编辑资源。
+
+
+
 #### <a name="update-the-wallpaper"></a>更新壁纸
 
 更改主屏幕壁纸图像。
@@ -216,7 +236,7 @@ Teams面板设备预安装有 Microsoft Teams，并显示通过日历或日历Ou
 2. 点击 **"壁纸"**。
 3. 从 **"选择图像**"中，选择要设置为主屏幕背景图像的图像。 预览"背景"下的所选 **图像**。
 :::image type="content" source="../media/panels-wallpapers-setting.png" alt-text="此屏幕截图显示壁纸设置屏幕。":::
-4. 返回到主屏幕，验证壁纸已更新。
+4. 返回主屏幕，并验证壁纸是否更新。
 
 #### <a name="change-the-busy-state-led-color"></a>更改繁忙状态 LED 颜色
 
@@ -226,7 +246,7 @@ Teams面板设备预安装有 Microsoft Teams，并显示通过日历或日历Ou
 2. 点击 **"LED 设置"**。
 3. 从 **"选择 LED 颜色"** 中选择所需的颜色。
 :::image type="content" source="../media/panels-led-settings.png" alt-text="此屏幕截图显示 LED 颜色忙状态设置。":::
-4. 返回到主屏幕，验证是否更新了忙态的 LED 颜色。 如果会议空间当前可用，请尝试安排一个测试会议来验证忙状态 LED 颜色的变化。
+4. 返回主屏幕，并验证忙态的 LED 颜色已更新。 如果会议空间当前可用，请尝试安排一个测试会议来验证忙状态 LED 颜色的变化。
 
 ## <a name="frequently-asked-questions"></a>常见问题解答
 

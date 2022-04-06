@@ -16,12 +16,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何管理标签在组织中在 Microsoft Teams。
-ms.openlocfilehash: af9855f1ca771cb9f5d4739194e26cba746859ff
-ms.sourcegitcommit: caaed4b48b8f2b05d035c1bdea00a61301bc9f05
+ms.openlocfilehash: 67bbc53b5619c47117ae227396ad8352aa1a382a
+ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63740199"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "64642906"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>管理 Microsoft Teams 中的标记
 
@@ -61,7 +61,7 @@ ms.locfileid: "63740199"
 
 默认情况下，团队所有者可以添加自定义标记。 您可以更改此设置以允许团队所有者和团队成员创建、编辑、删除和管理标记，也可以关闭组织的标记。
 
-1. 在管理中心的左侧导航Microsoft Teams，单击"**组织范围的设置** > Teams **设置"**。
+1. 在管理中心左侧导航Microsoft Teams，单击" > Teams **Teams设置"**。
 2. 在 **"标记**"下的 **"标记管理方式"旁边**，选择以下选项之一：
 
     - **团队所有者和成员**：允许团队所有者和成员管理标记。
@@ -72,7 +72,7 @@ ms.locfileid: "63740199"
 
 可以配置以下标记设置来控制如何在组织中使用自定义标记。
 
-1. 在管理中心的左侧导航Microsoft Teams，单击"**组织范围的设置** > Teams **设置"**。
+1. 在管理中心左侧导航Microsoft Teams，单击" > Teams **Teams设置"**。
 2. 在 **"标记**"下，根据组织的需求设置以下各项。
 
     - 让团队所有者替代谁可以管理标记：启用此设置时，团队所有者可以设置团队成员是否可以在团队内创建和管理标记，并且"标记"的值通过设置为每个团队的默认值进行管理。 如果关闭此设置，则 **不能** 更改每个团队的"通过设置管理标记"。

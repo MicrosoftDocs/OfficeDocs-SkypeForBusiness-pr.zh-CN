@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 了解如何管理用户在组织中安排的 Teams 会议的设置。
-ms.openlocfilehash: 294bbac570d1f1741449c7c81cb9389b20cdcdc6
-ms.sourcegitcommit: eb5fadedacbf4651ed5b05f1b0d6abf57e9eda2d
-ms.translationtype: HT
+ms.openlocfilehash: 10afbcc30404122e9e4d497570bf0b69e4ef6fa7
+ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "62960024"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "64642916"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理会议设置
 
@@ -70,7 +70,7 @@ ms.locfileid: "62960024"
 
 任何其他值组合都将阻止匿名用户加入会议。
 > [!NOTE]
-> 如果要对按组织禁用匿名加入的组织使用按组织者策略，管理员需要创建一个策略，然后将其分配给用户。 要了解如何执行此操作，请参阅 [Microsoft Teams 中的管理会议策略](/microsoftteams/meeting-policies-overview)。
+> 若要详细了解如何管理会议策略，请参阅[管理会议Microsoft Teams](/microsoftteams/meeting-policies-overview)。
 
 ### <a name="blocking-anonymous-join-for-specific-client-types"></a>阻止特定客户端类型的匿名联接
 

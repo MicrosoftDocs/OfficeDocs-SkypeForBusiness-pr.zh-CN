@@ -21,12 +21,12 @@ description: Teams 或 IT 管理员可以为其他域 (联合身份验证) 配�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 8505a57ff0ab9bb2e79607ffe13768058bab26d6
-ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
-ms.translationtype: HT
+ms.openlocfilehash: 06243ca47e26f66dd4194a9ec9e50cc5a6bfbde7
+ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/30/2022
-ms.locfileid: "64556313"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "64642846"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>在 Microsoft Teams 中管理外部访问
 
@@ -106,6 +106,9 @@ Teams 管理中心控制组织级别的外部访问。 大多数选项 (域限�
 若要与其他租户通信，他们必须启用 **允许所有外部域** 或按照上述相同步骤将租户添加到允许的域列表中。  
 
 ## <a name="manage-contact-with-external-teams-users-not-managed-by-an-organization"></a>管理与组织未管理的外部 Teams 用户的联系人
+
+> [!NOTE]
+> 本文Teams的 Teams 和 Skype 互操作功能在 GCC、GCC High 或 DOD 部署或私有云环境中不可用。
 
 管理员可以选择启用或禁用与不受组织管理的外部 Teams 用户 (“非托管”) 的通信。 如果启用，他们还可以进一步控制具有非托管 Teams 帐户的人员是否可以发起联系人 (请参阅下图)。 如果关闭 **组织未托管的 Teams 帐户的外部用户可以联系我组织中的用户**，则非托管 Teams 用户将无法搜索完整的电子邮件地址以查找组织联系人，并且必须由组织用户启动与非托管 Teams 用户的所有通信。
 

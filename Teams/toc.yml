@@ -1495,6 +1495,8 @@ items:
         items:
           - name: 第三方应用的安全性、合规性、隐私和数据处理
             href: /microsoft-365-app-certification/overview
+          - name: 使用 Microsoft 365 或 Office 365 连接器和自定义连接器
+            href: Office-365-custom-connectors.md
           - name: 购买适用于 Teams 的第三方应用
             href: purchase-third-party-apps.md
       - name: 适用于 Teams 的应用模板
@@ -1511,8 +1513,6 @@ items:
             href: customize-apps.md
           - name: 打造组织应用商店品牌
             href: customize-your-app-store.md
-          - name: 使用内置和自定义选项卡
-            href: built-in-custom-tabs.md
       - name: 管理员控制和应用治理
         items:
           - name: 管理员的应用管理概述
@@ -1537,8 +1537,6 @@ items:
             href: app-permissions.md
           - name: Teams 中应用程序的管理设置
             href: admin-settings.md
-          - name: 使用 Microsoft 365 或 Office 365 连接器和自定义连接器
-            href: Office-365-custom-connectors.md
           - name: 基于用户类型的应用行为
             href: non-standard-users.md
           - name: 以最终用户身份将应用更新到较新版本
