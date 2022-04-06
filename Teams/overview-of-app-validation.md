@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9accce27ded20f8ce78d4d5b80f6aff474213675
-ms.sourcegitcommit: c2a77ef9c1c9e6f00b3a4589bf02b100c37f5801
+ms.openlocfilehash: 384a57abb724ee29feb5f93fa171d0bc5ec96f3d
+ms.sourcegitcommit: 4847f24e8c644336d2b2f48aa09e2cf91360e4dd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "64649012"
+ms.lasthandoff: 04/06/2022
+ms.locfileid: "64686489"
 ---
 # <a name="checks-and-validation-performed-by-microsoft-on-teams-apps"></a>Microsoft 对Teams应用执行的检查和验证
 
@@ -31,15 +31,10 @@ Microsoft 要求所有应用在应用商店中列出最终用途之前，必须�
 
 所有应用都必须遵循 Microsoft 应用认证策略。 Teams应用商店团队执行 400 多个测试，以确保应用可用，并遵守高标准的隐私和安全性。
 
-若要了解应用开发人员遵守的详细验证准则，请参阅 [面向开发人员的验证指南](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/teams-store-validation-guidelines)。
+若要了解应用开发人员遵守的详细验证准则，请参阅 [面向开发人员的验证指南](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/teams-store-validation-guidelines)。 本指南基于[Teams应用的认证策略](/legal/marketplace/certification-policies#1140-teams)。
 
 > [!NOTE]
 > Microsoft 的验证和检查不适用于自定义应用，因为自定义应用是在组织内开发的，并且仅适用于组织成员。
-
-<!--- TBD: Add the link later. 
-To review the certification policies of any app, see [App certification policies]().
-Is the link /microsoft-365-app-certification/teams/teams-apps
---->
 
 ## <a name="app-validation-and-testing"></a>应用验证和测试
 

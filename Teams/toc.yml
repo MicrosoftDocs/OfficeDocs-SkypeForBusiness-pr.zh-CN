@@ -1493,6 +1493,10 @@ items:
             href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
       - name: 管理第三方应用
         items:
+          - name: 了解第三方应用
+            href: overview-third-party-apps.md
+          - name: 了解 Microsoft 提供的应用验证
+            href: overview-of-app-validation.md
           - name: 第三方应用的安全性、合规性、隐私和数据处理
             href: /microsoft-365-app-certification/overview
           - name: 使用 Microsoft 365 或 Office 365 连接器和自定义连接器
