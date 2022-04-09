@@ -1,9 +1,8 @@
 ---
-title: 使用 Microsoft Teams 范围目录搜索
-author: SerdarSoysal
-ms.author: serdars
+title: 限制用户在Teams中搜索目录时可以看到的用户
+author: MikePlumleyMSFT
+ms.author: mikeplum
 manager: serdars
-ms.date: 06/21/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -12,52 +11,42 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: 了解如何使用Microsoft Teams范围目录搜索来提供目录的自定义视图。
+description: 了解如何限制用户在Teams中搜索目录时可以看到的用户。
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 108a5895bf568207246ec6b1d7711e13e6c87069
-ms.sourcegitcommit: 5c88a07f07f9faad294d614d507e43173efc5f46
+ms.openlocfilehash: 8b073cdd67d89de7d934990abc33cb0586d0fc76
+ms.sourcegitcommit: 5fe5516f6118ce3fa0449ab194a6fe87bf48c664
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/19/2021
-ms.locfileid: "61111982"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "64732220"
 ---
-# <a name="use-microsoft-teams-scoped-directory-search"></a>使用 Microsoft Teams 范围目录搜索
+# <a name="limit-who-users-can-see-when-searching-the-directory-in-teams"></a>限制用户在Teams中搜索目录时可以看到的用户
 
-Microsoft Teams范围的目录搜索允许组织创建虚拟边界，控制用户如何查找和与组织中其他用户通信。 
+Microsoft Teams允许组织向其用户提供目录的自定义视图。 如果有以下情况，则这些视图可能很有用：
 
-Microsoft Teams允许组织向用户提供目录的自定义视图。 Microsoft Teams信息[屏障策略来支持](/microsoft-365/compliance/information-barriers)这些自定义视图。 启用策略后，将搜索其他用户返回的结果 (例如，启动聊天或将成员添加到团队) 将按照配置的策略进行范围设置。 当范围搜索生效时，用户将无法搜索或发现任何团队，但这些团队中的现有成员可以添加用户，这是活动信息屏障策略所允许的。
+- 贵组织的租户中有多家你要保持独立的公司。
+- 业务策略要求防止组织内的某些组相互通信。
+- 贵学校要限制教职员工与学生之间的聊天。
 
-> [!NOTE]
-> 在Exchange混合环境中，此功能仅适用于Exchange Online邮箱，而与本地邮箱不同。
+有两个选项用于限制用户在Teams中搜索目录时可以看到谁：
 
-另请参阅[中的通讯簿Exchange Online。](/exchange/address-books/address-book-policies/address-book-policies)
+- [Microsoft Teams中的信息障碍](/MicrosoftTeams/information-barriers-in-teams)
+- [Exchange Online中的通讯簿策略](/exchange/address-books/address-book-policies/address-book-policies)
 
-## <a name="when-should-you-use-scoped-directory-searches"></a>何时应该使用范围目录搜索？
+如果使用任一选项，则必须在Teams管理中心按名称启用搜索。
 
-受益于范围目录搜索的方案类似于通讯簿策略方案。 例如，你可能想要在下列情况下使用范围目录搜索：
+如果组织满足 [所需的许可证和权限](/microsoft-365/compliance/information-barriers#required-licenses-and-permissions)，建议使用信息屏障。
 
-- 贵组织的租户中有多家你要保持独立的公司。 
-- 贵学校要限制教职员工与学生之间的聊天。 
- 
-若要了解如何使用通讯簿策略，请阅读中的信息[屏障Exchange Online。](/microsoft-365/compliance/information-barriers)
+按名称启用搜索
 
-> [!IMPORTANT]
-> 通讯簿策略仅从目录角度提供用户虚拟隔离。 另请注意，在强制执行新的或更新的通讯簿策略之前，已缓存的任何用户数据将保留最多 30 天。
+1. 在Microsoft Teams管理中心，选择 **Teams** >  **Teams设置**。
 
-## <a name="turn-on-scoped-directory-search"></a>打开范围目录搜索
+1. 在 **"按名称搜索**"下，**使用Exchange通讯簿策略在 Scope 目录搜索** 旁边 **打开切换。**
 
-1. 使用信息屏障策略将组织配置为虚拟子组。 有关详细信息，请参阅 [定义信息屏障策略](/microsoft-365/compliance/information-barriers-policies)。
-
-2. 在Microsoft Teams管理中心，选择"Teams Teams  >  **设置"。**
-
-3. 在 **"按名称搜索"** 下，在"Teams **通讯簿策略Exchange"范围目录搜索"** 旁边，打开 **开关**。
-
-    ![在管理中心中Microsoft Teams目录搜索。](media/teams-scoped-directory-search-image1.png)
-
-> [!IMPORTANT]
-> 此更改可能需要几个小时才能复制。
+> [!Note]
+> 此更改可能需要几个小时才能生效。
