@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 了解Microsoft Teams的加载项许可证以及每个许可证的功能。
-ms.openlocfilehash: 785ae1495e3a210883f489528ac401ad9442b526
-ms.sourcegitcommit: 4847f24e8c644336d2b2f48aa09e2cf91360e4dd
+ms.openlocfilehash: 000678a0b41e660371de295ae40d2c6359774efe
+ms.sourcegitcommit: b70f01d7eae2e3e6f7495c685518a2037aaece31
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "64686379"
+ms.lasthandoff: 04/11/2022
+ms.locfileid: "64756948"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Microsoft Teams加载项许可证
 
@@ -50,12 +50,6 @@ ms.locfileid: "64686379"
 ## <a name="which-microsoft-capabilities-are-available-with-my-plan"></a>我的计划提供了哪些 Microsoft 功能？
 
 所有Microsoft 365计划都允许Teams用户使用 VoIP 技术在组织内进行对等呼叫。 但是，你可能希望在不同的许可证上添加对 PSTN 号码的调用或设置 PBX 等功能。
-
-### <a name="audio-conferencing"></a>音频会议
-
-可以免费向所有Microsoft 365订阅添加 **音频会议** 许可证。
-
-Microsoft 365 E5/A5/G5 计划包括音频会议许可证，因此无需使用这些计划购买额外的音频会议许可证。
 
 ### <a name="voice-and-pstn-connectivity"></a>语音和 PSTN 连接
 
