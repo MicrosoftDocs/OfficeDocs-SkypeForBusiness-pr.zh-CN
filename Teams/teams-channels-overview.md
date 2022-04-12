@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 97af2abe8542a885f8a0056ed90f2a61330ba8a0
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: 4bd98159e9e209cba855e1a0f2d0ee853b3ba889
+ms.sourcegitcommit: b70f01d7eae2e3e6f7495c685518a2037aaece31
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711926"
+ms.lasthandoff: 04/11/2022
+ms.locfileid: "64756888"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams 中的团队和频道概述
 
@@ -96,6 +96,9 @@ Teams 中有两个主要角色：
 |频道可以直接与其父团队共享。|不适用|否|是|
 |来宾可以参与频道。|是|是|否|
 |外部参与者（B2B 直接连接）可以参与频道。|否|否|是|
+|裁决|是|否|否|
+|分组讨论室|是|否|否|
+|复制频道链接|是|否|否|
 |每个频道都有一个专用的 SharePoint 网站。|否|是|是|
 |计划内会议|是|否|是|
 |Planner|是|否|否|
