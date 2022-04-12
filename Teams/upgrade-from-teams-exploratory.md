@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d4816f3f05c37fe1a690ffea7f48789c41fd2603
-ms.sourcegitcommit: 949fbc3215f96e48c01b75b13c400bdb47c37e4b
+ms.openlocfilehash: 95dd3f01d07a2e393414013ab40ca97ec1a63bb6
+ms.sourcegitcommit: b70f01d7eae2e3e6f7495c685518a2037aaece31
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/29/2021
-ms.locfileid: "61216668"
+ms.lasthandoff: 04/11/2022
+ms.locfileid: "64756968"
 ---
 # <a name="upgrade-users-from-the-teams-exploratory-trial"></a>从 Teams 探索试用版升级用户
 
@@ -37,7 +37,7 @@ ms.locfileid: "61216668"
 
 ## <a name="step-1-when-to-upgrade"></a>步骤 1：何时升级  
 
-要检查组织的 Teams 探索试用版何时到期以及有多少活跃用户，请在 Microsoft 365 管理中心内转到“**计费”>** <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">“<b>你的产品</b>”</a>。 在 Teams 探索试用版到期之前，你还将收到通知。
+要检查组织的 Teams 探索试用版何时到期以及有多少活跃用户，请在 Microsoft 365 管理中心内转到 **“计费”>**“<a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank"><b>你的产品</b></a>”。你还会在 Teams 探索试用版到期前收到通知。
 
 > [!IMPORTANT]
 > 应当制定计划，以在到期日期之前将用户升级到付费许可证，以免用户失去对 Teams 的访问权限。
@@ -45,6 +45,9 @@ ms.locfileid: "61216668"
 > 用户在试用版到期日期后 30 天时将失去对 Teams 的访问权限。 只要在到期日期后 60 天内为用户分配付费许可证，他们就可以重新获得对 Teams 的访问权限，并且所有内容仍然存在。 但 60 天后将删除用户的数据。 向用户分配新许可证以启用 Teams 功能后，如果他们是在宽限期内添加的，则保留所有内容。 有关详细信息，请参阅 <a href="/microsoft-365/commerce/subscriptions/what-if-my-subscription-expires?view=o365-worldwide" target="_blank">我的订阅结束后对我的数据和访问权限有何影响？</a>
 
 ## <a name="step-2-choose-an-upgrade-path"></a>步骤 2：选择升级路径
+
+> [!TIP]
+> 对于希望升级其即将到期的 Teams 探索试用版的客户，建议将 Teams Essentials 作为主要选项。 有关详细信息，请参阅 [ 比较 Microsoft Teams Essentials 和其他计划](get-started-with-teams-essentials.md#how-does-microsoft-teams-essentials-compare-to-other-microsoft-teams-plans)。
 
 根据组织当前拥有的订阅，有三种方法可以从 Microsoft Teams 探索试用版升级到付费许可证：
 
@@ -67,7 +70,7 @@ ms.locfileid: "61216668"
 
 ### <a name="auto-claim-policies"></a>自动声明策略
 
-下次升级时，使用自动声明策略为组织创建策略，以自动将付费订阅中的许可证分配给尚未获取 Teams 许可证的新用户。 有关详细信息，请参阅 <a href="/microsoft-365/commerce/licenses/manage-auto-claim-policies?view=o365-worldwide" target="_blank">管理自动声明策略</a>。
+下次升级时，使用自动声明策略为组织创建策略，以自动将付费订阅中的许可证分配给尚未获取 Teams 许可证的新用户。有关详细信息，请参阅 <a href="/microsoft-365/commerce/licenses/manage-auto-claim-policies?view=o365-worldwide" target="_blank">管理自动声明策略</a>。
 
 ## <a name="related-topics"></a>相关主题
 
