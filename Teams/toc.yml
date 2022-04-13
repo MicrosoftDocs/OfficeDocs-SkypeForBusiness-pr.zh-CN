@@ -1483,7 +1483,7 @@ items:
     items:
       - name: 概述
         href: deploy-apps-microsoft-teams-landing-page.md
-      - name: 管理 Microsoft 提供的示例应用
+      - name: 管理 Microsoft 提供的应用
         items:
           - name: 管理 Bookings 应用
             href: bookings-app-admin.md

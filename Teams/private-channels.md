@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 了解如何在 Microsoft Teams 中使用和管理私人频道。
-ms.openlocfilehash: 908432588c1744027b03efee44b9506ea4388fa2
-ms.sourcegitcommit: b878c57b8e822913b7aac8c105f476bc4ebfcd7d
+ms.openlocfilehash: 775019bc0151215557e7b0962619c4fe8fb8fe85
+ms.sourcegitcommit: 3beef904411a9d5787a73678464003a868630649
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "63761914"
+ms.lasthandoff: 04/12/2022
+ms.locfileid: "64817823"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft Teams 中的私人频道
 
@@ -39,6 +39,8 @@ Microsoft Teams 中的私人频道创建专用空间供团队展开协作。 仅
 锁定图标表示私人频道。只有私人频道的成员才能查看和参与他们添加到的私人频道。
 
 创建私人频道后，它将链接到父团队，并且无法移动到其他团队。 此外，不能将私人频道转换为标准频道，反之亦然。
+
+[比较专用频道和其它类型的频道](/microsoftteams/teams-channels-overview#channel-feature-comparison)。
 
 ![团队中专用频道的屏幕截图。](media/private-channels-in-teams.png)
 
