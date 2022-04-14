@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4b922607955d8b825006217bd2fe333eaadbc1ce
-ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
+ms.openlocfilehash: b5b67137aa581aae5a27ccc18935f621f51d5093
+ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/30/2022
-ms.locfileid: "64556563"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "64839013"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>获取 Microsoft Teams 的客户端
 
@@ -39,8 +39,8 @@ Microsoft Teams 可以安装在电脑、Mac 和移动设备上，也可以通过
 
 Teams 桌面客户端作为独立应用程序提供，并作为以下操作系统的 [Microsoft 365 企业应用版](/deployoffice/teams-install)的一部分提供：
 
-- 32 位和 64 位版本的 Windows（8.1 或更高版本）
-- 适用于 ARM 上的 Windows 10 的 ARM64
+- 32 位和 64 位版本的 Windows（8.1 或更高版本，不包括 Windows 10 LTSC） 
+- 适用于 ARM 上的 Windows 10 的 ARM64 
 - Windows Server（2012 R2 或更高版本）
 - macOS
 - Linux（采用 `.deb` 和 `.rpm` 格式）
