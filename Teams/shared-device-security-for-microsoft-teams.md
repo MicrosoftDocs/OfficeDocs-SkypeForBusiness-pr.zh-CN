@@ -1,14 +1,13 @@
 ---
-title: Microsoft Teams 安全指南：在共享计算机上安全地使用 Teams
+title: Microsoft Teams 零信任安全指南：在共享计算机上安全地使用 Teams
 author: MSFTTracyP
 ms.author: tracyp
 manager: dansimp
-ms.date: 08/21/2020
 ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: pawa
-description: 在工作场所共享计算机上使用 Microsoft Teams 的安全指南。
+description: 在工作场所共享计算机上使用 Microsoft Teams 的零信任安全指南。
 ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
@@ -20,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c97ebd8cf9e43ada8d077ffbd33f6b39c8d9c64c
-ms.sourcegitcommit: a9a056b93b4add3a4d978bb341ea4b66a042b4d0
+ms.openlocfilehash: 83fc071aa50ed076fc2a6798cfaee9d4770a36a5
+ms.sourcegitcommit: 3beef904411a9d5787a73678464003a868630649
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/18/2022
-ms.locfileid: "62893541"
+ms.lasthandoff: 04/12/2022
+ms.locfileid: "64817673"
 ---
 # <a name="use-microsoft-teams-securely-on-shared-computers"></a>在共享计算机上安全使用 Microsoft Teams
 
@@ -54,17 +53,17 @@ ms.locfileid: "62893541"
 如果无法满足上述指导，我们建议使用其他浏览器安全最佳做法：
 
 1. 应用浏览器安全功能。
-    1. 启用隐私浏览模式，尽量减少保留在磁盘上的数据与历史记录。 例如，[在 Microsoft Edge 中以 inPrivate 模式进行浏览](https://support.microsoft.com/help/4533513/microsoft-edge-browse-inprivate)， [在Google Chrome 中以无痕模式进行浏览](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DDesktop&hl=en)，或使用其他浏览器的隐私浏览功能。 
-    1. 建议将系统行为设置为 *默认使用* 隐私浏览模式。 
+    1. 启用隐私浏览模式，尽量减少保留在磁盘上的数据与历史记录。 例如，[在 Microsoft Edge 中以 inPrivate 模式进行浏览](https://support.microsoft.com/help/4533513/microsoft-edge-browse-inprivate)， [在Google Chrome 中以无痕模式进行浏览](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DDesktop&hl=en)，或使用其他浏览器的隐私浏览功能。
+    1. 建议将系统行为设置为 *默认使用* 隐私浏览模式。
 
 2. 浏览到并使用 [Teams web 应用](https://teams.microsoft.com) （或称为 *web* 客户端），而不用可下载的 Teams 客户端。
 
-3. 使用完共享系统后，您必须： 
+3. 使用完共享系统后，您必须：
     1. [注销 Teams](https://support.microsoft.com/office/sign-out-of-teams-a6d76e69-e1dd-4bc4-8e5f-04ba48384487)。
     1. 关闭所有浏览器选项卡和窗口。
     1. 注销此设备。
 
-上述项目不是涵盖所有情况的最佳做法或安全控制措施的综合列表，并且可能在你的环境中执行额外的操作（例如，如果你 [Office 365 ATP 计划 1 或 2](/microsoft-365/security/office-365-security/office-365-atp#office-365-atp-plan-1-and-plan-2)，安全管理员可以选择使用 Teams 的安全链接和安全附件）。但是，这些步骤是构建有关从共享设备使用 Teams 的指南的起点。
+上述项目不是涵盖所有情况的最佳做法或安全控制措施的综合列表，并且可能在你的环境中执行额外的操作（例如，如果你有 [Microsoft Defender for Office 365 计划 1 或 2](/microsoft-365/security/office-365-security/overview?view=o365-worldwide)，安全管理员可以选择使用 Teams 的安全链接和安全附件）。但是，这些步骤是构建有关从共享设备使用 Teams 的指南的起点。
 
 ## <a name="more-information"></a>详细信息
 

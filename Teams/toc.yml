@@ -369,10 +369,6 @@ items:
                 href: guest-experience.md
               - name: 启用或禁用来宾访问
                 href: set-up-guests.md
-              - name: 在团队中查看来宾
-                href: view-guests.md
-              - name: 编辑来宾信息
-                href: edit-guests-information.md
       - name: 监视和管理通话质量
         items:
           - name: 监视和改善通话质量

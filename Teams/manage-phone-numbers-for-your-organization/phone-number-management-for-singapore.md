@@ -1,5 +1,5 @@
 ---
-title: 电话新加坡的号码管理
+title: 新加坡电话号码管理
 author: cazawideh
 ms.author: czawideh
 manager: serdars
@@ -19,29 +19,29 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: 使用此表查找有关获取和管理新加坡的电话号码的信息，Microsoft Teams。
-ms.openlocfilehash: 4db07ac8e89583bfce2127b2b30de2df08ad064e
-ms.sourcegitcommit: ecc67b7b9378cc72f85517f30c32680045056fda
+description: 使用此表可查找有关在新加坡获取和管理Microsoft Teams电话号码的信息。
+ms.openlocfilehash: 968e44e8189bb5eebd50797983cbc639160cd3be
+ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2022
-ms.locfileid: "64504202"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "64839003"
 ---
-# <a name="phone-number-management-for-singapore"></a>电话新加坡的号码管理
+# <a name="phone-number-management-for-singapore"></a>新加坡电话号码管理
 
 [!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
-使用此表查找有关获取和管理新加坡的电话号码的信息，Microsoft Teams。
+使用此表可查找有关在新加坡获取和管理Microsoft Teams电话号码的信息。
   
 有关详细信息，请参阅[为你的组织管理电话号码](manage-phone-numbers-for-your-organization.md)。
   
 |**你要做什么？**|**下载正确的表单**|
 |:-----|:-----|
-|获取未在管理中心中列出的新用户Microsoft Teams电话号码。 |新加坡可以使用管理中心获取组织Microsoft Teams电话号码。 您也可以通过下载表单提交新的电话号码请求，并 [联系 TNS 服务台以请求说明](contact-tns-service-desk.md)。<br/><br/>[新加坡新电话号码请求 (v.1.0)  (en-sg) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true)。 <br/><br/>在将电话号码分配给你之前，必须下载以下"了解你的客户"表单之一：<ul><li>[了解客户新加坡 - 中文 v1.0 zn-CN](https://download.microsoft.com/download/1/4/7/147324ac-06a5-4c7b-a38b-7efa0166fdf7/know-your-customer-for-singapore-(v1.0)-(zh-CN).pdf)</li><li>[了解新加坡的客户 - 泰米尔语 v1.0 ta-IN](https://download.microsoft.com/download/b/4/8/b48457c1-cef1-4bc7-ae44-71c5302e5eb2/know-your-customer-for-singapore-(v1.0)-(ta-IN).pdf)</li><li>[了解客户新加坡 - 马来语 v1.0 ms-MY](https://download.microsoft.com/download/f/5/9/f597a754-9478-4d5b-88af-a2a2fe5bbd62/know-your-customer-for-singapore-(v1.0)-(ms-MY).pdf)</li></ul>请完整完成，并 [联系 TNS 服务台以请求说明](contact-tns-service-desk.md)。<br/><br/>新订单可能需要两到三周来填充此市场。  |
-|获取转接给我们的电话号码。  <br/> | 下载此表单。 <br/>[新加坡的 (LOA) 授权书 (所有)  (v.2.0)  (en-sg) ](<https://download.microsoft.com/download/e/9/5/e959053a-4b35-49f9-a23e-7085575c46f2/Letter of Authorization (LOA) for Singapore (all numbers) (v.2.0) (en-sg).pdf>)<br/> <br/>填写它并 [联系 TNS 服务台，了解说明](contact-tns-service-desk.md)。 <br/><br/>转移号码可能需要一到六周才能在此市场中完成，具体取决于端口的复杂性。 <br/><br/>这些号码目前不能用于会议。  |
-|发布/取消发布 () 电话号码。  <br/> |[有关要](contact-tns-service-desk.md) 发布/取消发布的电话号码列表的说明，请联系 TNS 服务台。 <br/> |
-|将用户号码更改为服务号码。  <br/> |[有关要转换为](contact-tns-service-desk.md) 服务号码的用户号码列表的说明，请联系 TNS 服务台。 <br/> |
-|更新目录服务以呼叫队列或自动助理号码|若要添加或更改呼叫队列或自动助理号码，请联系 [TNS 服务台获得说明](contact-tns-service-desk.md)。|
+|获取Microsoft Teams管理中心未列出的新用户或服务电话号码。 |在新加坡，可以使用Microsoft Teams管理中心获取组织的电话号码。 还可以通过下载表单来提交新的电话号码请求 [，并联系 TNS 服务台以获取说明](contact-tns-service-desk.md)。<br/><br/>[新电话号码请求新加坡 (v.1.0)  (en-sg) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true)。 <br/><br/>必须先下载以下其中一个了解客户表单，然后才能向你分配电话号码：<ul><li>[了解客户新加坡 - 中文 v1.0 zn-CN](https://download.microsoft.com/download/1/4/7/147324ac-06a5-4c7b-a38b-7efa0166fdf7/know-your-customer-for-singapore-(v1.0)-(zh-CN).pdf)</li><li>[了解你的新加坡客户 - 泰米尔语 v1.0 ta-IN](https://download.microsoft.com/download/b/4/8/b48457c1-cef1-4bc7-ae44-71c5302e5eb2/know-your-customer-for-singapore-(v1.0)-(ta-IN).pdf)</li><li>[了解客户新加坡 - 马来 v1.0 ms-MY](https://download.microsoft.com/download/f/5/9/f597a754-9478-4d5b-88af-a2a2fe5bbd62/know-your-customer-for-singapore-(v1.0)-(ms-MY).pdf)</li></ul>完整完成，并 [联系 TNS 服务台以获取说明](contact-tns-service-desk.md)。<br/><br/>新订单可能需要两到三周才能填补这个市场。  |
+|获取传输给我们的电话号码。  <br/> | 下载此表单。 <br/>[适用于新加坡的 LOA)  (授权书 (所有数字)  (en-sg) ](<https://download.microsoft.com/download/e/9/5/e959053a-4b35-49f9-a23e-7085575c46f2/LOA-EN-SG-TN.pdf>)<br/> <br/>填写并 [联系 TNS 服务台以获取说明](contact-tns-service-desk.md)。 <br/><br/>传输号码可能需要一到六周才能在此市场完成，具体取决于端口的复杂性。 <br/><br/>这些数字目前不能用于会议。  |
+|在全国电话目录中发布/取消发布电话号码 () 。  <br/> |有关要发布/取消发布的电话号码列表的[说明，请与 TNS 服务台联系](contact-tns-service-desk.md)。 <br/> |
+|将用户的号码更改为服务编号。  <br/> |有关要转换为服务号码的用户号列表的[说明，请与 TNS 服务台联系](contact-tns-service-desk.md)。 <br/> |
+|进行目录服务更新以调用队列或自动助理号码|若要添加或更改呼叫队列或自动助理号码，请联系 [TNS 服务台以获取说明](contact-tns-service-desk.md)。|
    
 ## <a name="related-topics"></a>相关主题
 
