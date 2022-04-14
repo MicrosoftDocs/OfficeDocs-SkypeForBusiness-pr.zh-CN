@@ -1,5 +1,5 @@
 ---
-title: 使用 Teams 进行虚拟访问 - 集成到 Epic EHR
+title: 使用 Teams 的虚拟约会 - 集成到 Epic EHR
 author: LanaChin
 ms.author: v-lanachin
 manager: samanro
@@ -22,31 +22,31 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
-description: 了解如何集成 Teams EHR 连接器，使组织中的医疗保健提供商能够直接从 Epic EHR 系统Teams患者或其他提供商进行虚拟访问。
-ms.openlocfilehash: e573c30720383554c9bda8467221ff48a1369e0b
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+description: 了解如何集成 Teams EHR 连接器，使组织中的医疗保健提供商能够直接从 Epic EHR 系统Teams与患者或其他提供商进行虚拟预约。
+ms.openlocfilehash: baef8aeda05413ce2f307a4bbea7259490ecfb83
+ms.sourcegitcommit: 68162a8c9dee9a27af596353baabeda9b8fa64f3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 04/14/2022
-ms.locfileid: "64703598"
+ms.locfileid: "64853053"
 ---
-# <a name="virtual-visits-with-teams---integration-into-epic-ehr"></a>使用 Teams 进行虚拟访问 - 集成到 Epic EHR
+# <a name="virtual-appointments-with-teams---integration-into-epic-ehr"></a>使用 Teams 的虚拟约会 - 集成到 Epic EHR
 
-Microsoft Teams电子健康记录 (EHR) 连接器使临床医生可以轻松地直接从 Epic EHR 系统Microsoft Teams发起虚拟患者探视或咨询。 Teams构建在Microsoft 365云之上，在支持符合 HIPAA、HITECH 认证等的单个中心内，通过聊天、视频、语音和医疗保健工具实现简单、安全的协作和通信。
+Microsoft Teams电子健康记录 (EHR) 连接器使临床医生可以轻松地直接从 Epic EHR 系统Microsoft Teams中启动虚拟患者预约或咨询其他提供程序。 Teams构建在Microsoft 365云之上，在支持符合 HIPAA、HITECH 认证等的单个中心内，通过聊天、视频、语音和医疗保健工具实现简单、安全的协作和通信。
 
 Teams的沟通和协作平台使临床医生能够轻松地解决碎片系统杂乱无章的问题，以便他们能够专注于提供尽可能最好的护理。 使用Teams EHR 连接器，可以：
 
-- 使用集成的临床工作流从 Epic EHR 系统启动Teams虚拟访问。
-- 使患者能够从患者门户或短信加入Teams虚拟访问。
+- 使用集成的临床工作流从 Epic EHR 系统启动Teams虚拟约会。
+- 使患者能够从患者门户或短信加入Teams虚拟约会。
 - 支持其他方案，包括多参与者、组访问和解释器服务。
-- 将有关在与会者连接、断开连接并启用自动审核和记录保存时Teams虚拟访问记录的元数据写回 EHR 系统。
-- 查看与 EHR 连接的访问的消耗数据报告和可自定义呼叫质量信息。
+- 将有关Teams虚拟约会的元数据写回到 EHR 系统，以便在与会者连接、断开连接并启用自动审核和记录保存时记录。
+- 查看与 EHR 连接的约会的消耗数据报告和可自定义呼叫质量信息。
 
-查看此视频，了解如何从 EHR 门户管理虚拟访问。
+查看此视频，了解如何从 EHR 门户管理虚拟约会的概述。
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HAtn]
 
-本文介绍如何设置和配置 Teams EHR 连接器以与医疗保健组织中的 Epic 平台集成。 它还概述了 Epic EHR 系统中的Teams虚拟访问体验。
+本文介绍如何设置和配置 Teams EHR 连接器以与医疗保健组织中的 Epic 平台集成。 它还概述了 Epic EHR 系统Teams虚拟约会体验。
 
 ## <a name="before-you-begin"></a>开始之前
 
@@ -130,7 +130,7 @@ Microsoft 365管理员可以配置单个组织或多个组织来测试集成。 
 > [!NOTE]
 > 短信通知目前仅在美国中可用。 我们正在努力使此功能在将来版本的Teams的其他区域中可用，并在可用时更新本文。
 
-如果组织希望 Microsoft 管理患者短信通知，请完成此步骤。 启用短信通知时，患者将收到计划访问的确认和提醒消息。
+如果组织希望 Microsoft 管理患者短信通知，请完成此步骤。 启用短信通知时，患者将收到计划约会的确认和提醒消息。
 
 若要启用短信通知，Microsoft 365管理员执行以下操作：
 
@@ -159,8 +159,8 @@ Microsoft 365管理员可以配置单个组织或多个组织来测试集成。 
 
     :::image type="content" source="media/ehr-connector-epic-sms-setup.png" alt-text="显示 SMS 设置设置的屏幕截图。" lightbox="media/ehr-connector-epic-sms-setup.png":::
 
-    - **确认短信**：在 EHR 系统中计划、更新或取消访问时，会向患者发送通知。
-    - **提醒短信**：通知将根据指定的时间间隔和计划的访问时间发送给患者。
+    - **确认短信**：在 EHR 系统中计划、更新或取消预约时，会向患者发送通知。
+    - **提醒短信**：通知将根据指定的时间间隔和约会的计划时间发送给患者。
 
     选择" **保存**"。
 
@@ -197,7 +197,7 @@ Microsoft 365管理员可以配置单个组织或多个组织来测试集成。 
 - SMS 配置记录
 - 设备测试配置记录
 
-Epic 客户分析师必须向 Epic 提供这些记录，才能在 Epic 中完成虚拟访问配置。 有关详细信息，请参阅 [Epic-Microsoft Teams Telehealth 集成指南](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357)。
+Epic 客户分析师必须向 Epic 提供这些记录，才能在 Epic 中完成虚拟约会配置。 有关详细信息，请参阅 [Epic-Microsoft Teams Telehealth 集成指南](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357)。
 
 > [!Note]  
 > 任何时候，Microsoft 365或 Epic 客户分析师都可以登录到配置门户，查看集成记录并根据需要更改组织配置。
@@ -207,11 +207,11 @@ Epic 客户分析师必须向 Epic 提供这些记录，才能在 Epic 中完成
 > [!Note]
 > Epic 客户分析师必须完成由Microsoft 365管理员配置的每个 FHIR 基本 URL 的审批过程。
 
-## <a name="launch-teams-virtual-visits"></a>启动Teams虚拟访问
+## <a name="launch-teams-virtual-appointments"></a>启动Teams虚拟约会
 
-完成 EHR 连接器步骤和 Epic 配置后，组织可以使用Teams支持视频访问。
+完成 EHR 连接器步骤和 Epic 配置后，组织可以使用Teams支持视频约会。
 
-### <a name="virtual-visits-prerequisites"></a>虚拟访问先决条件
+### <a name="virtual-appointments-prerequisites"></a>虚拟约会先决条件
 
 - 系统必须满足Teams的所有[软件和浏览器要求](../../hardware-requirements-for-the-teams-app.md)。
 
@@ -219,53 +219,53 @@ Epic 客户分析师必须向 Epic 提供这些记录，才能在 Epic 中完成
 
 ### <a name="provider-experience"></a>提供商体验
 
-组织中的医疗保健提供商可以使用其 Epic 提供程序应用 (Hyperspace、Haiku、Canto) 中的Teams加入访问。 提供商流中嵌入了“**开始虚拟就诊**”按钮。
+组织中的医疗保健提供商可以使用其 Epic 提供程序应用 (Hyperspace、Haiku、Canto) 中的Teams加入约会。 提供商流中嵌入了“**开始虚拟就诊**”按钮。
 
 提供商体验的主要功能：
 
-- 提供程序可以使用受支持的浏览器或Teams应用加入访问。
+- 提供程序可以使用受支持的浏览器或Teams应用加入约会。
 
-- 首次加入访问时，提供商必须使用其Microsoft 365帐户进行一次性登录。
+- 首次加入约会时，提供商必须使用其Microsoft 365帐户进行一次性登录。
 
 - 一次性登录后，提供程序将直接转到Teams中的虚拟约会。  (必须将提供程序登录到Teams) 。
 
-- 提供程序可以看到针对给定约会连接和断开连接的参与者的实时更新。 提供程序可以查看患者何时连接到访问。
+- 提供程序可以看到针对给定约会连接和断开连接的参与者的实时更新。 提供程序可以查看患者何时连接到约会。
 
-  ![与患者一起访问的提供程序体验。](media/ehc-provider-experience-6.png)
+  ![与患者预约的提供程序体验。](media/ehc-provider-experience-6.png)
 
 > [!NOTE]
 > 应下载、复制和通知医疗记录连续性或保留目的所需的会议聊天中输入的任何信息。 聊天不构成合法医疗记录或指定的记录集。 聊天中的消息基于Microsoft Teams管理员创建的设置进行存储。
 
 ### <a name="patient-experience"></a>患者体验
 
-连接器支持患者通过 MyChart Web 和移动设备加入访问。 预约时，患者可以使用 **“开始虚拟访问** ”按钮从 MyChart 开始访问。
+连接器支持患者通过 MyChart Web 和移动设备加入约会。 预约时，患者可以使用 **“开始虚拟访问** ”按钮从 MyChart 开始预约。
 
 患者体验的主要功能：
 
-- 患者可以在[桌面和移动设备上加入新式 Web 浏览器的访问，而无需安装Teams应用](../browser-join.md)。
+- 患者可以在[桌面和移动设备上加入新式 Web 浏览器的约会，而无需安装Teams应用](../browser-join.md)。
 
-- 患者只需单击一次即可加入访问，无需其他帐户或登录。
+- 患者只需单击一次即可加入约会，无需其他帐户或登录。
 
-- 患者无需创建 Microsoft 帐户或登录即可发起访问。
+- 患者无需创建 Microsoft 帐户或登录即可启动预约。
 
 - 患者被安置在大厅中，直到提供程序加入并接受他们。
 
-- 患者可以在加入访问之前在大厅中测试他们的视频和麦克风。
+- 患者可以在加入预约之前在大厅中测试他们的视频和麦克风。
 
-  ![患者访问体验。](media/ehc-virtual-visit-5.png)
+  ![预约的病人体验。](media/ehc-virtual-visit-5.png)
 
 > [!Note]
 > Epic、MyChart、Haiku 和 Canto 是 Epic Systems Corporation 的商标。
 
-## <a name="get-insight-into-virtual-visits-usage"></a>深入了解虚拟访问使用情况
+## <a name="get-insight-into-virtual-appointments-usage"></a>深入了解虚拟约会使用情况
 
-Microsoft Teams管理中心的[“虚拟访问”使用情况报告](../../teams-analytics-and-reports/virtual-visits-usage-report.md)为管理员提供了组织中Teams虚拟访问活动的概述。 该报告显示虚拟约会的详细分析，包括从 EHR 系统进行的Teams与 EHR 集成的会议。
+Microsoft Teams管理中心的[“虚拟访问使用情况”报告](../../teams-analytics-and-reports/virtual-visits-usage-report.md)为管理员提供了组织中Teams虚拟约会活动的概述。 该报告显示虚拟约会的详细分析，包括从 EHR 系统进行的Teams与 EHR 集成的会议。
 
-可以查看关键指标，例如大厅等待时间和访问持续时间。 使用此信息可深入了解使用趋势，帮助优化虚拟访问以提供更好的业务成果。
+可以查看关键指标，例如大厅等待时间和约会持续时间。 使用此信息可深入了解使用趋势，帮助优化虚拟约会以提供更好的业务成果。
 
 ### <a name="privacy-and-location-of-data"></a>隐私和数据位置
 
-Teams集成到 EHR 系统会优化集成和虚拟访问流期间使用和存储的数据量。 该解决方案遵循“Teams 隐私”中概述的总体 Teams 隐私和数据管理原则和准则。
+Teams集成到 EHR 系统会优化集成和虚拟约会流期间使用和存储的数据量。 该解决方案遵循“Teams 隐私”中概述的总体 Teams 隐私和数据管理原则和准则。
 
 Teams EHR 连接器不会从 EHR 系统存储或传输患者或医疗保健提供者的任何可识别个人数据或任何健康记录。 EHR 连接器存储的唯一数据是 EHR 用户的唯一 ID，该 ID 在 Teams 会议设置期间使用。
 

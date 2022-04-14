@@ -26,18 +26,18 @@ description: 了解 Microsoft Teams 括号、EHR 集成、第一线工作者系�
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 9ca90625fc8b3229d282d9f86ba4e12fdfa56f49
-ms.sourcegitcommit: f8b935e009895138eddfc1ae360b7b2ace747d3c
+ms.openlocfilehash: 6332f9fb5020e654401b9802e6d4a9dbe942d3ac
+ms.sourcegitcommit: 68162a8c9dee9a27af596353baabeda9b8fa64f3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "63050868"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "64853043"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>适用于医疗保健组织的 Teams 入门
 
 Microsoft Teams 提供对医疗保健和其他医疗保健组织有用的许多电话服务功能。 Teams 功能正在开发中，有助于有助于：
 
-- 虚拟访问和电子医疗保健记录 (EHR) 集成
+- 虚拟约会和电子医疗保健记录 (EHR) 集成
 - Teams 策略包
 - 安全消息传递
 - Teams 模板
@@ -45,7 +45,7 @@ Microsoft Teams 提供对医疗保健和其他医疗保健组织有用的许多�
 
 此功能是 Microsoft Cloud for Healthcare 的一部分。 深入了解如何使用此解决方案，它汇集了 [Microsoft Cloud for Healthcare](/industry/healthcare)中 Azure、Dynamics 365 和 Microsoft 365 的功能。
 
-观看以下视频，详细了解如何使用医疗保健集合来增强健康团队在Teams。
+观看以下视频，详细了解如何使用医疗保健集合来增强Teams中的运行状况团队协作。
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Hqan]
 
@@ -56,23 +56,23 @@ Microsoft Teams 提供对医疗保健和其他医疗保健组织有用的许多�
 
 | 方案 | 说明 | 要求 |
 | -------- | -------- | -------- |
-| [使用电子医疗保健记录与 EHR (集成) 虚拟访问](#virtual-visits-and-electronic-healthcare-record-ehr-integration) | 安排、管理和与患者进行虚拟预约。 此方案将Teams Cerner 或长篇故事平台连接到一起，以支持虚拟访问。 | 活动订阅 Microsoft Cloud for Healthcare 或订阅，Microsoft Teams EHR 连接器独立产品/服务。 <br> 用户必须具有适当的Microsoft 365或Office 365许可证，Teams会议*。 <br> 组织必须具有 Cerner 版本 2018 年 11 月或更高版本或 2018 年 11 月版或更高版本。 <br>[Cerner EHR 和](ehr-admin-cerner.md#before-you-begin)[长篇 EHR 要求](ehr-admin.md#before-you-begin)的详细信息 |
-| [Microsoft Bookings 和 Bookings 应用的虚拟访问](#virtual-visits-and-electronic-healthcare-record-ehr-integration) | 安排、管理和与患者进行虚拟预约。 此方案依赖于 Microsoft Bookings 来支持虚拟访问。 | 必须为组织启用 Microsoft Bookings。 <br> Bookings 应用的所有用户以及参与会议的教职员工必须具有支持 Teams 会议安排*的许可证。 <br>[Bookings 要求的详细信息](../../bookings-app-admin.md#prerequisites-to-use-the-bookings-app-in-teams)|
+| [使用电子医疗保健记录 (EHR) 集成的虚拟约会](#virtual-appointments-and-electronic-healthcare-record-ehr-integration) | 安排、管理和与患者进行虚拟预约。 此方案连接Teams和 Cerner 或 Epic 平台以支持虚拟约会。 | Microsoft Cloud for Healthcare 的活动订阅或订阅Microsoft Teams EHR 连接器独立产品/服务。 <br> 用户必须具有适当的Microsoft 365或Office 365许可证，其中包括Teams会议*。 <br> 组织必须具有 Cerner 版本 2018 年 11 月或更高版本或 2018 年 11 月或更高版本。 <br>[Cerner EHR](ehr-admin-cerner.md#before-you-begin) 和 [Epic EHR](ehr-admin.md#before-you-begin) 要求的详细信息 |
+| [使用Microsoft Bookings和Bookings应用进行虚拟约会](#virtual-appointments-and-electronic-healthcare-record-ehr-integration) | 安排、管理和与患者进行虚拟预约。 此方案依赖于Microsoft Bookings来支持虚拟约会。 | 必须为组织启用 Microsoft Bookings。 <br> Bookings 应用的所有用户以及参与会议的教职员工必须具有支持 Teams 会议安排*的许可证。 <br>[Bookings 要求的详细信息](../../bookings-app-admin.md#prerequisites-to-use-the-bookings-app-in-teams)|
 | [Teams 策略包](#teams-policy-packages)| 确保患者、信息工作者和患者会议室设备可以适当访问 Teams 功能。| 用户必须具有适当的许可证*。 |
 | [安全消息传递](#secure-messaging) | 更快地关注紧急邮件，并放心收到并阅读了该邮件。 | 用户必须具有适当的许可证*。  |
 | [Teams 模板](#teams-templates-for-healthcare-organizations) | 创建包含设置、通道和预安装的应用的预定义模板，用于在医院、<3> <2> <3>或部门，或在医院内的多个帐户、频道和部门之间沟通和协作。 | 用户必须具有适当的许可证*。  |
 | [护理协调与协作](#care-coordination-and-collaboration) | 医师和教职员工可以在排程、文档、任务等进行内部协作。| 用户必须具有适当的许可证*。 |
 
-*Office 365 A3、A5、E3、E5、F1、F3、Microsoft 365 A3、A5、E3 和 E5、Business Standard。 有关常规 Teams 许可详细信息，请参阅"管理 [Teams](../../user-access.md)。
+*Office 365 A3、A5、E3、E5、F1、F3、Microsoft 365 A3、A5、E3 和 E5，支持业务标准。 有关常规 Teams 许可详细信息，请参阅"管理 [Teams](../../user-access.md)。
 
-## <a name="virtual-visits-and-electronic-healthcare-record-ehr-integration"></a>虚拟访问和电子医疗保健记录 (EHR) 集成
+## <a name="virtual-appointments-and-electronic-healthcare-record-ehr-integration"></a>虚拟约会和电子医疗保健记录 (EHR) 集成
 
-使用完整的会议平台Teams安排、管理和与患者进行虚拟预约。
+使用Teams中的完整会议平台安排、管理和与患者进行虚拟约会。
 
-- 如果组织已使用电子运行状况记录或 EHR，可以集成Teams，获得更无缝的体验。 Teams EHR (EHR) 连接器使医生能够轻松地直接从 EHR 系统在 Teams 中发起虚拟患者访问或咨询。 有关详细信息，请参阅使用 Teams 虚拟访问 [- 集成到 Cerner EHR](ehr-admin-cerner.md) 和虚拟访问与 Teams - 集成到[长篇 EHR](ehr-admin.md) 中。
-- 如果使用的不是受支持的 EHR，可以在 Teams 中使用 Microsoft Bookings 和 Bookings 应用。 若要了解详情，请参阅使用 Teams [和 Bookings 应用进行虚拟访问](../bookings-virtual-visits.md)。
+- 如果组织已使用电子运行状况记录或 EHR，则可以集成Teams以获得更无缝的体验。 Teams电子健康记录 (EHR) 连接器，临床医生可以轻松地直接从 EHR 系统Teams发起虚拟患者预约或咨询。 若要了解详细信息，请参阅[包含 Teams 的虚拟约会 - 集成到 Cerner EHR](ehr-admin-cerner.md) 和[虚拟约会与 Teams - 集成到 Epic EHR](ehr-admin.md)。
+- 如果使用的不是受支持的 EHR，可以在 Teams 中使用 Microsoft Bookings 和 Bookings 应用。 若要了解详细信息，请参阅[包含Teams和Bookings应用的虚拟约会](../bookings-virtual-visits.md)。
 
-![使用虚拟访问Microsoft Teams。](../../media/virtual-visits-teams.png)
+![具有Microsoft Teams的虚拟约会。](../../media/virtual-visits-teams.png)
 
 ## <a name="teams-policy-packages"></a>Teams 策略包
 
@@ -103,11 +103,11 @@ Microsoft Teams 提供对医疗保健和其他医疗保健组织有用的许多�
 
 ## <a name="care-coordination-and-collaboration"></a>护理协调与协作
 
-将健康团队汇集在一起，以协调护理工作并与Teams。
+将运行状况团队聚集在一起，协调护理，并与Teams协作。
 
-![医疗保健：在医疗保健团队的配合下Teams。](../../media/teams-healthcare-collaborate-in-teams.png)
+![医疗保健：在 Teams 中与运行状况团队协作。](../../media/teams-healthcare-collaborate-in-teams.png)
 
-Teams使医生、医生、护士和其他人员能够使用包括到其他服务中的协作功能进行Teams协作，例如：
+Teams使医生、临床医生、护士和其他工作人员能够使用Teams中包含的协作功能进行高效协作，例如：
 
 - 为运行状况团队和信息工作者设置团队和频道。 将带选项卡的频道用作组织工作结构的方法，从选项卡中可固定信息源的更多帮助。
 - 聊天、发布消息和交流。你的团队可就需要关注的不同患者进行长时间的对话。
@@ -162,4 +162,4 @@ Teams 与 Shifts 应用和一线工作人员集成，可用于协调班次人员
 
 - 如果只是 [使用 Teams，或者将 Teams 扩展到组织的更多领域，请访问 ](https://adoption.microsoft.com/microsoft-teams/) 团队采用中心，了解有关推出 Teams 的建议。
 - 请考虑设置自定义 [学习](https://adoption.microsoft.com/microsoft-365-learning-pathways/) ，以便你的用户只涵盖其需要执行的任务。
-- 在支持站点上获取有关如何在 Teams 中执行基本Teams任务的帮助和培训，[包括](https://support.microsoft.com/teams)[快速培训视频](https://support.microsoft.com/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)。 此网站还包括 Teams 应用的帮助和培训，包括 [列表](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)、 [任务](https://support.microsoft.com/office/use-the-tasks-app-in-teams-e32639f3-2e07-4b62-9a8c-fd706c12c070)、 [审批](https://support.microsoft.com/office/what-is-approvals-a9a01c95-e0bf-4d20-9ada-f7be3fc283d3)、 [Bookings](https://support.microsoft.com/office/overview-of-the-bookings-app-in-teams-7b8569e1-0c8a-444e-b712-d9968b05110b)和 [Shift](https://support.microsoft.com/office/what-is-shifts-f8efe6e4-ddb3-4d23-b81b-bb812296b821)。
+- 获取有关如何在Teams[支持网站上](https://support.microsoft.com/teams)Teams执行基本任务的帮助和培训，包括[快速培训视频](https://support.microsoft.com/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)。 此网站还包括 Teams 应用的帮助和培训，包括 [列表](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)、 [任务](https://support.microsoft.com/office/use-the-tasks-app-in-teams-e32639f3-2e07-4b62-9a8c-fd706c12c070)、 [审批](https://support.microsoft.com/office/what-is-approvals-a9a01c95-e0bf-4d20-9ada-f7be3fc283d3)、 [Bookings](https://support.microsoft.com/office/overview-of-the-bookings-app-in-teams-7b8569e1-0c8a-444e-b712-d9968b05110b)和 [Shift](https://support.microsoft.com/office/what-is-shifts-f8efe6e4-ddb3-4d23-b81b-bb812296b821)。

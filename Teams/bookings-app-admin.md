@@ -21,16 +21,16 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: 了解如何为组织中的用户管理Teams中的Bookings应用。
-ms.openlocfilehash: 98834770d48e0fd35f146b155e4970df7ddaaba3
-ms.sourcegitcommit: 1e8cff687b12348d4ecc538084ab57bbba23b523
+ms.openlocfilehash: aab7ce7a4813d851574f9a5796f5ce21d44774ff
+ms.sourcegitcommit: 68162a8c9dee9a27af596353baabeda9b8fa64f3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/07/2022
-ms.locfileid: "64703608"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "64853063"
 ---
 # <a name="manage-the-bookings-app-in-microsoft-teams"></a>在Microsoft Teams中管理Bookings应用
 
-Microsoft Teams中的Bookings应用提供了一种安排亲自约会和虚拟约会的简单方法。 例如，医疗保健访问、财务咨询、面试、客户支持和教育办公时间。 若要了解详细信息，请参阅[Teams和Bookings应用的虚拟访问](expand-teams-across-your-org/bookings-virtual-visits.md)。
+Microsoft Teams中的Bookings应用提供了一种安排亲自约会和虚拟约会的简单方法。 例如，医疗保健访问、财务咨询、面试、客户支持和教育办公时间。 若要了解详细信息，请参阅[包含Teams和Bookings应用的虚拟约会](expand-teams-across-your-org/bookings-virtual-visits.md)。
 
 计划程序可以从单个体验中管理多个部门和员工日历以及与内部和外部与会者的通信。 虚拟约会通过提供强大视频会议功能的Microsoft Teams会议进行。
 
@@ -47,7 +47,7 @@ Microsoft Teams中的Bookings应用提供了一种安排亲自约会和虚拟约
 
 ## <a name="availability-of-bookings-in-teams"></a>Teams 中 Bookings 可用性
 
-桌面和 Web 上提供了适用于Teams的Microsoft Bookings应用。 可以在 [Teams中的"应用](https://teams.microsoft.com/l/app/4c4ec2e8-4a2c-4bce-8d8f-00fc664a4e5b?source=store-copy-link)"和"**管理** 应用"下的Teams管理中心中找到它。
+桌面和 Web 上提供了适用于Teams的Microsoft Bookings应用。 可以在 [Teams中的“应用](https://teams.microsoft.com/l/app/4c4ec2e8-4a2c-4bce-8d8f-00fc664a4e5b?source=store-copy-link)”和“**管理** 应用”下的Teams管理中心中找到它。
 
 ### <a name="control-access-to-bookings-within-your-organization"></a>控制组织内对 Bookings 的访问权限
 
@@ -94,11 +94,11 @@ Set-Mailbox -identity business@domain.onmicrosoft.com -WindowsEmailAddress busin
 * 功能差距或缺失的功能
 * bug 或问题
   
-若要发送反馈，请选择左侧导航栏Teams底部的 **"帮助**"选项，然后选择 **"报告所有问题的问题**"。 在反馈报告的开头指示你正在发送有关"Bookings"的反馈，以便我们可以轻松识别Bookings问题。
+若要发送反馈，请选择左侧导航栏Teams底部的 **“帮助**”选项，然后选择 **“报告所有问题的问题**”。 在反馈报告的开头指示你正在发送有关“Bookings”的反馈，以便我们可以轻松识别Bookings问题。
 
 ## <a name="related-articles"></a>相关文章
 
-[管理浏览器上Teams虚拟访问的联接体验](expand-teams-across-your-org/browser-join.md)
+[管理浏览器上Teams虚拟约会的联接体验](expand-teams-across-your-org/browser-join.md)
 
 
   [适用最终用户的 Bookings 文档](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?ui=en-US&rs=en-US&ad=US#PickTab=Bookings)
