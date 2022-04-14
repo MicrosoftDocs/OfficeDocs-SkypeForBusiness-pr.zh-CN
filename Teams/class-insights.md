@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e5e554672156f70556ebc18625115cd9a1ce8c58
-ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
+ms.openlocfilehash: 234121449025512f8a5ffe37814804cc775b7b37
+ms.sourcegitcommit: 0d61ca384e7d76612743de41c8fea4729072fb5e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "63062686"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "64837455"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Microsoft Teams 教育版见解 IT 管理员指南
 
@@ -94,7 +94,7 @@ ms.locfileid: "63062686"
 **在 Teams 中添加见解应用：**
 * 单击应用栏上的“**…**” 。
 * 搜索“**见解**”并选择它。
-* 此时将打开说明屏幕。 单击“**添加**”。
+* 将打开说明屏幕。请点单击 **添加**。
 
 :::image type="content" source="media/insights-add-personal-app.png" alt-text="向 Teams 添加 Insights。":::
 
@@ -106,7 +106,7 @@ ms.locfileid: "63062686"
 > 还可通过此链接查找 Insights 应用：[https://aka.ms/addInsights](https://aka.ms/addInsights)
 
 ## <a name="when-is-insights-used"></a>何时使用见解？ 
-见解在整个 **学习周期** 中为学习社区提供支持。 借助跨多个维度的实时指标，见解支持学校社区成员之间不断地增进了解、反思、讨论和采取行动。
+Insights 支持整个学习周期的 **学习社区**。借助跨多个维度的实时指标，Insights 支持学校社区成员之间识别、反射、讨论和采取行动的持续循环。
 *   **了解** 学生与教师、课程材料及其同伴进行互动的方式和时间，以及他们如何完成作业。 
 *   **反思** 投入的资源如何为学生取得成功提供支持，确定发展的领域以及需要协助的地方。
 *   与学生和学校社区 **讨论** 调查结果，以加强人际关系、设定目标、执行自我评估、激发协作并改善成果。
@@ -141,15 +141,17 @@ Insights 将从 Teams 的学生和教师活动中收集数据。它不收集来�
 > 几分钟后，所收集的大部分数据都会显示在 Insights 中。在会议结束后的几个小时会出现参加课堂会议（与某个课堂频道相关的会议）的提示，通常最多不超过 24 小时。
 
 > [!NOTE]
-> 在教育见解中收集的数据一直保留，直到 IT 管理员关闭 [教育分析切换](#turn-sds-for-insights-on-or-off) 或租户的 Office 订阅结束。 关闭 Teams 中的特定功能不会删除历史数据。
+> 在教育版 Insights 中收集的数据将一直保留，直到 IT 管理员关闭 [“教育版分析”切换](#turn-sds-for-insights-on-or-off) 或租户的 Office 订阅结束。关闭 Teams 中的特定功能不会删除历史数据。
 
 ### <a name="privacy-and-security"></a>隐私和安全
-通过见解收集和显示的信息符合[ 90 多个法规和行业标准](/compliance/regulatory/offering-home)，包括 [GDPR](/compliance/regulatory/gdpr) 和关于学生和儿童安全的[《家庭教育权利和隐私法案》(FERPA)](/compliance/regulatory/offering-ferpa)，以及其他类似的面向隐私的法规。
+作为 Microsoft 365 的一部分，教育版 Insights 符合国家/地区、区域和行业特定的数据收集和使用法规，包括保护学生教育记录的隐私的 [GDPR](/compliance/regulatory/gdpr) 和 [“家庭教育权利”和“隐私法案” (FERPA)](/compliance/regulatory/offering-ferpa)。
 
 数据归机构所有，Microsoft 仅收集并存储数据。 Microsoft 人员无法访问或查看数据，除非合规性法规允许以经过审核的方式维护服务（例如数据恢复）。
 
-> [!NOTE]
-> 访问 [Microsoft 信任中心](https://www.microsoft.com/trust-center)，以深入了解 Microsoft 如何保护你的数据。
+> [!TIP]
+> * 访问 [Microsoft 信任中心](https://www.microsoft.com/trust-center)，以深入了解 Microsoft 如何保护你的数据。
+> * 请访问 [Microsoft 合规性产品/服务](/compliance/regulatory/offering-home) ，了解 Microsoft 365 如何帮助机构满足法规合规性标准。
+
 
 ### <a name="performance-and-reliability"></a>性能和可靠性
 见解旨在以最佳性能和可靠性处理从 Teams 收集的大量数据。 我们不能保证 100％ 的可用性，但是我们会努力提供尽可能接近该目标的可用性。
@@ -191,7 +193,7 @@ Microsoft 已从零开始构建见解以确保数据得到保护。 我们意识
 若要了解详细信息，请阅读 [**将学生信息系统 (SIS) 数据与教育版见解同步**](education-insights-sis-data-sync.md)。
 
 ## <a name="manage-permissions"></a>管理权限
-作为 IT 管理员，你可以为教育领导者、地区领导、学校校长、班主任、辅导员、学区主管、项目主管、社会工作者和心理学家提供权限。 如果教师拥有课堂团队，则会 *自动* 获得权限。
+作为 IT 管理员，你可以为教育领导、地区领导、校长、教导主任、教师、学习领域负责人、项目主任、社会工作者和心理医生提供权限。教育工作者在拥有一个班级团队时，会 *自动* 获得权限。
 
 若要了解更多信息，请阅读 [**管理用户对教育版 Insights 的访问权限**](education-insights-manage-access.md)。
 
@@ -273,7 +275,7 @@ Insights 收集的完整数据在[此处](class-insights.md#data-collection)列�
 
 
 ### <a name="why-do-i-see-data-for-some-students-or-classes-not-all"></a>为什么会看到某些学生或班级的数据，而不是全部？
-我们仅收集 *已授权* 学生的数据，因此最可能的原因就是有来宾学生参与课程，不会收集他们的数据。 你可能看到他们的姓名，但没有任何数据。
+我们仅收集 *许可的* 学生数据，因此最可能的原因就是你有来宾学生在课堂上，而没有收集他们的数据。你可能会看到他们的姓名，但没有任何数据。
 
 检查学生的状态，确保所有学生都有学生许可证。 
 
