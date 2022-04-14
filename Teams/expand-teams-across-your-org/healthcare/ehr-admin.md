@@ -24,10 +24,10 @@ appliesto:
 ms.reviewer: ansantam
 description: 了解如何集成 Teams EHR 连接器，使组织中的医疗保健提供商能够直接从 Epic EHR 系统Teams患者或其他提供商进行虚拟访问。
 ms.openlocfilehash: e573c30720383554c9bda8467221ff48a1369e0b
-ms.sourcegitcommit: 1e8cff687b12348d4ecc538084ab57bbba23b523
+ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/07/2022
+ms.lasthandoff: 04/14/2022
 ms.locfileid: "64703598"
 ---
 # <a name="virtual-visits-with-teams---integration-into-epic-ehr"></a>使用 Teams 进行虚拟访问 - 集成到 Epic EHR
@@ -123,7 +123,7 @@ Microsoft 365管理员可以配置单个组织或多个组织来测试集成。 
 
 1. 添加 Epic 客户分析师的用户名，他们将在后续步骤中批准配置。
 
-    :::image type="content" source="media/ehr-connector-epic-configure.png" alt-text="&quot;配置&quot;页的屏幕截图，其中显示了正在添加的审批者。" lightbox="media/ehr-connector-epic-configure.png":::
+    :::image type="content" source="media/ehr-connector-epic-configure.png" alt-text="“配置”页的屏幕截图，其中显示了正在添加的审批者。" lightbox="media/ehr-connector-epic-configure.png":::
 
 ### <a name="enable-sms-notifications-optional"></a>启用 SMS 通知 (可选) 
 
@@ -134,20 +134,20 @@ Microsoft 365管理员可以配置单个组织或多个组织来测试集成。 
 
 若要启用短信通知，Microsoft 365管理员执行以下操作：
 
-1. 在"短信通知"页上，选中以下两个同意复选框：
+1. 在“短信通知”页上，选中以下两个同意复选框：
 
     - 允许 Microsoft 代表你的组织向患者发送短信通知。
     - 确认你将确保与会者已同意发送和接收短信。
     
-    :::image type="content" source="media/ehr-connector-epic-sms-notifications.png" alt-text="&quot;短信通知&quot;页的屏幕截图，其中显示了同意复选框和生成电话号码的选项。" lightbox="media/ehr-connector-epic-sms-notifications.png":::
+    :::image type="content" source="media/ehr-connector-epic-sms-notifications.png" alt-text="“短信通知”页的屏幕截图，其中显示了同意复选框和生成电话号码的选项。" lightbox="media/ehr-connector-epic-sms-notifications.png":::
 
-1. 在 **电话号码** 下，选择 **"生成新电话号码** "，为组织生成电话号码。 执行此操作将启动请求和生成新电话号码的过程。 此过程可能需要长达 2 分钟才能完成。
+1. 在 **电话号码** 下，选择 **“生成新电话号码** ”，为组织生成电话号码。 执行此操作将启动请求和生成新电话号码的过程。 此过程可能需要长达 2 分钟才能完成。
 
     生成电话号码后，它将显示在屏幕上。 此号码将用于向患者发送短信确认和提醒。 该数字已预配，但尚未链接到 FHIR 基 URL。 在下一步中执行此操作。
 
     :::image type="content" source="media/ehr-connector-epic-phone-number.png" alt-text="显示生成的电话号码示例的屏幕截图。" lightbox="media/ehr-connector-epic-phone-number.png":::
 
-    选择 **"完成**"，然后选择 **"下一步**"。
+    选择 **“完成**”，然后选择 **“下一步**”。
 
 1. 若要将电话号码链接到 FHIR 基 URL，请在 **SMS 配置** 部分的 **电话号** 下选择该号码。 针对要为其启用短信通知的每个 FHIR 基 URL 执行此操作。
 
@@ -170,7 +170,7 @@ Microsoft 365管理员可以配置单个组织或多个组织来测试集成。 
 
     当连接器用于发送短信提醒时，当在 Epic 中创建约会时，Epic 会在 HL7v2 有效负载中发送患者的电话号码。 这些数字存储在组织的地理位置中的每个约会中，并保留到约会进行为止。 若要详细了解如何配置 HL7v2 消息，请[参阅 Epic-Microsoft Teams Telehealth Integration Guide](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357)。
 
-    选择 **"下一步**"。
+    选择 **“下一步**”。
 
 > [!NOTE]
 > 任何时候，Microsoft 365管理员都可以更新任何短信设置。 请记住，更改设置可能会导致 SMS 服务停机。 有关如何查看短信报表的详细信息，请[参阅Teams EHR 连接器管理员报告](ehr-admin-reports.md)。
@@ -182,11 +182,11 @@ Microsoft 365管理员可以配置单个组织或多个组织来测试集成。 
 > [!Note]
 > 如果Microsoft 365管理员和 Epic 客户分析师是同一个人，你仍需要登录到 Epic 来验证访问权限。 Epic 登录仅用于验证 FHIR 基 URL。 Microsoft 不会使用此登录存储凭据或访问 EHR 数据。
 
-:::image type="content" source="media/ehr-connector-epic-login-approve.png" alt-text="&quot;批准&quot;或&quot;查看配置&quot;页的屏幕截图，其中显示了&quot;登录和批准&quot;选项。" lightbox="media/ehr-connector-epic-login-approve.png":::
+:::image type="content" source="media/ehr-connector-epic-login-approve.png" alt-text="“批准”或“查看配置”页的屏幕截图，其中显示了“登录和批准”选项。" lightbox="media/ehr-connector-epic-login-approve.png":::
 
 成功登录到 Epic 后，Epic 客户分析师 **必须** 批准配置。 如果配置不正确，则Microsoft 365管理员可以登录到配置门户并更改设置。
 
-:::image type="content" source="media/ehr-connector-epic-approve.png" alt-text="&quot;批准&quot;或&quot;查看配置&quot;页的屏幕截图，其中显示了&quot;批准&quot;选项。" lightbox="media/ehr-connector-epic-approve.png":::
+:::image type="content" source="media/ehr-connector-epic-approve.png" alt-text="“批准”或“查看配置”页的屏幕截图，其中显示了“批准”选项。" lightbox="media/ehr-connector-epic-approve.png":::
 
 ### <a name="review-and-finish-the-configuration"></a>查看和完成配置
 
@@ -202,7 +202,7 @@ Epic 客户分析师必须向 Epic 提供这些记录，才能在 Epic 中完成
 > [!Note]  
 > 任何时候，Microsoft 365或 Epic 客户分析师都可以登录到配置门户，查看集成记录并根据需要更改组织配置。
 
-:::image type="content" source="media/ehr-connector-epic-finish.png" alt-text="&quot;审阅和完成&quot;页的屏幕截图，其中显示了集成信息。" lightbox="media/ehr-connector-epic-finish.png":::
+:::image type="content" source="media/ehr-connector-epic-finish.png" alt-text="“审阅和完成”页的屏幕截图，其中显示了集成信息。" lightbox="media/ehr-connector-epic-finish.png":::
 
 > [!Note]
 > Epic 客户分析师必须完成由Microsoft 365管理员配置的每个 FHIR 基本 URL 的审批过程。
@@ -238,7 +238,7 @@ Epic 客户分析师必须向 Epic 提供这些记录，才能在 Epic 中完成
 
 ### <a name="patient-experience"></a>患者体验
 
-连接器支持患者通过 MyChart Web 和移动设备加入访问。 预约时，患者可以使用 **"开始虚拟访问** "按钮从 MyChart 开始访问。
+连接器支持患者通过 MyChart Web 和移动设备加入访问。 预约时，患者可以使用 **“开始虚拟访问** ”按钮从 MyChart 开始访问。
 
 患者体验的主要功能：
 
@@ -259,7 +259,7 @@ Epic 客户分析师必须向 Epic 提供这些记录，才能在 Epic 中完成
 
 ## <a name="get-insight-into-virtual-visits-usage"></a>深入了解虚拟访问使用情况
 
-Microsoft Teams管理中心的["虚拟访问"使用情况报告](../../teams-analytics-and-reports/virtual-visits-usage-report.md)为管理员提供了组织中Teams虚拟访问活动的概述。 该报告显示虚拟约会的详细分析，包括从 EHR 系统进行的Teams与 EHR 集成的会议。
+Microsoft Teams管理中心的[“虚拟访问”使用情况报告](../../teams-analytics-and-reports/virtual-visits-usage-report.md)为管理员提供了组织中Teams虚拟访问活动的概述。 该报告显示虚拟约会的详细分析，包括从 EHR 系统进行的Teams与 EHR 集成的会议。
 
 可以查看关键指标，例如大厅等待时间和访问持续时间。 使用此信息可深入了解使用趋势，帮助优化虚拟访问以提供更好的业务成果。
 

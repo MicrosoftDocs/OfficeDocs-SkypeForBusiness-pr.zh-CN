@@ -24,10 +24,10 @@ appliesto:
 ms.reviewer: ansantam
 description: 了解如何集成 Teams EHR 连接器，使组织中的医疗保健提供商能够直接从 Cerner EHR 系统Teams中与患者或其他提供商进行虚拟访问。
 ms.openlocfilehash: b5a5a860036b3b561d5a6e18a13b71e072998aa4
-ms.sourcegitcommit: 1e8cff687b12348d4ecc538084ab57bbba23b523
+ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/07/2022
+ms.lasthandoff: 04/14/2022
 ms.locfileid: "64703688"
 ---
 # <a name="virtual-visits-with-teams---integration-into-cerner-ehr"></a>使用 Teams 进行虚拟访问 - 集成到 Cerner EHR
@@ -79,15 +79,15 @@ Microsoft 365管理员可以配置单个部门或多个部门来测试集成。 
 
 接下来，若要设置集成，Microsoft 365管理员从 Cerner 添加快速运行状况互操作性资源 (FHIR) 基 URL 并指定环境。 根据需要配置任意数量的 FHIR 基本 URL，具体取决于组织的需求和要测试的环境。
 
-:::image type="content" source="media/ehr-admin-cerner-configuration.png" alt-text="Teams EHR 连接器配置门户的&quot;配置信息&quot;页的屏幕截图。" lightbox="media/ehr-admin-cerner-configuration.png":::
+:::image type="content" source="media/ehr-admin-cerner-configuration.png" alt-text="Teams EHR 连接器配置门户的“配置信息”页的屏幕截图。" lightbox="media/ehr-admin-cerner-configuration.png":::
 
 - FHIR 基 URL 是与服务器 FHIR API 终结点相对应的静态地址。 示例 URL 为 `https://lamnahealthcare.org/fihr/auth/connect-ocurprd-oauth/api/FHDST`。
 
 - 可以为测试和生产环境设置集成。 对于初始设置，我们鼓励你在迁移到生产环境之前从测试环境中配置连接器。
 
-验证 FHIR 基 URL 并选择环境后，选择 **"完成**"。 然后，根据需要为其他环境添加更多 FHIR 基本 URL。
+验证 FHIR 基 URL 并选择环境后，选择 **“完成**”。 然后，根据需要为其他环境添加更多 FHIR 基本 URL。
 
-选择 **"下** 一步"转到下一步。
+选择 **“下** 一步”转到下一步。
 
 ### <a name="enable-sms-notifications-optional"></a>启用 SMS 通知 (可选) 
 
@@ -95,20 +95,20 @@ Microsoft 365管理员可以配置单个部门或多个部门来测试集成。 
 
 若要启用短信通知，Microsoft 365管理员执行以下操作：
 
-1. 在"短信通知"页上，选中以下两个同意复选框：
+1. 在“短信通知”页上，选中以下两个同意复选框：
 
     - 允许 Microsoft 代表你的组织向患者发送短信通知。
     - 确认你将确保与会者已同意发送和接收短信。
 
-    :::image type="content" source="media/ehr-admin-cerner-sms-notifications.png" alt-text="&quot;短信通知&quot;页的屏幕截图，其中显示了同意复选框和生成电话号码的选项。" lightbox="media/ehr-admin-cerner-sms-notifications.png":::
+    :::image type="content" source="media/ehr-admin-cerner-sms-notifications.png" alt-text="“短信通知”页的屏幕截图，其中显示了同意复选框和生成电话号码的选项。" lightbox="media/ehr-admin-cerner-sms-notifications.png":::
 
-1. 在 **电话号码** 下，选择 **"生成新电话号码** "，为组织生成电话号码。 执行此操作将启动请求和生成新电话号码的过程。 此过程可能需要长达 2 分钟才能完成。
+1. 在 **电话号码** 下，选择 **“生成新电话号码** ”，为组织生成电话号码。 执行此操作将启动请求和生成新电话号码的过程。 此过程可能需要长达 2 分钟才能完成。
 
     生成电话号码后，它将显示在屏幕上。 此号码将用于向患者发送短信确认和提醒。 该数字已预配，但尚未链接到 FHIR 基 URL。 在下一步中执行此操作。
 
     :::image type="content" source="media/ehr-admin-cerner-phone-number.png" alt-text="显示生成的电话号码示例的屏幕截图。" lightbox="media/ehr-admin-cerner-phone-number.png":::
 
-    选择 **"完成**"，然后选择 **"下一步**"。
+    选择 **“完成**”，然后选择 **“下一步**”。
 
 1. 若要将电话号码链接到 FHIR 基 URL，请在 **SMS 配置** 部分的 **电话号** 下选择该号码。 针对要为其启用短信通知的每个 FHIR 基 URL 执行此操作。
 
@@ -116,7 +116,7 @@ Microsoft 365管理员可以配置单个部门或多个部门来测试集成。 
 
     如果这是你第一次配置连接器，你将看到在前面的步骤中输入的 FHIR 基 URL。 相同的电话号码可以链接到多个 FHIR 基本 URL，这意味着患者将收到来自不同组织和/或部门的相同电话号码的短信通知。
 
-     选择 **"下一步**"。
+     选择 **“下一步**”。
 
 ### <a name="review-and-finish-the-configuration"></a>查看和完成配置
 
@@ -164,7 +164,7 @@ Microsoft 365管理员可以配置单个部门或多个部门来测试集成。 
 
 ## <a name="get-insight-into-virtual-visits-usage"></a>深入了解虚拟访问使用情况
 
-Microsoft Teams管理中心的["虚拟访问"使用情况报告](../../teams-analytics-and-reports/virtual-visits-usage-report.md)为管理员提供了组织中Teams虚拟访问活动的概述。 该报告显示虚拟约会的详细分析，包括从 EHR 系统进行的Teams与 EHR 集成的会议。
+Microsoft Teams管理中心的[“虚拟访问”使用情况报告](../../teams-analytics-and-reports/virtual-visits-usage-report.md)为管理员提供了组织中Teams虚拟访问活动的概述。 该报告显示虚拟约会的详细分析，包括从 EHR 系统进行的Teams与 EHR 集成的会议。
 
 可以查看关键指标，例如大厅等待时间和访问持续时间。 使用此信息可深入了解使用趋势，帮助优化虚拟访问以提供更好的业务成果。
 

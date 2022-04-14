@@ -19,10 +19,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 37c899c1507a28f51bb881a9e7e66de6d7af0d58
-ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
+ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/05/2022
+ms.lasthandoff: 04/14/2022
 ms.locfileid: "64643066"
 ---
 # <a name="teams-approvals-app-availability"></a>Teams“审批”应用可用性
@@ -34,14 +34,14 @@ ms.locfileid: "64643066"
 
 用户可以固定“审批”应用以将其保存到菜单栏。
 
- ![显示具有固定选项的审批应用。](media/approvalApp-pin.png)
+ ![显示具有 pin 选项的审批应用。](media/approvalApp-pin.png)
 
-从应用创建的第一审批将触发在默认 Microsoft Dataverse 环境中预配审批解决方案。 审批应用创建审批将存储在默认的 Microsoft Dataverse 环境中。
+从审批应用创建的第一个审批将在默认的 Microsoft Dataverse 环境中触发审批解决方案的预配。 从审批应用创建的审批将存储在默认的 Microsoft Dataverse 环境中。
 
 本文介绍了“审批”应用要求和角色。
 
 > [!NOTE]
-> 此功能尚未向 政府社区云 GCCH () 和国防部 (DOD) 发布。
+> 此功能尚未发布政府社区云高 (GCCH) 和国防部 (DOD) 用户。
 
 ## <a name="required-permissions-and-licenses"></a>所需权限和许可证
 
@@ -49,28 +49,28 @@ ms.locfileid: "64643066"
 
 - 创建 Microsoft Dataverse 数据库的权限。
 
-- powerautomate.microsoft.com [](https://powerautomate.microsoft.com/)
+- powerautomate.microsoft.com [上的帐户](https://powerautomate.microsoft.com/)
 
 - 目标环境中的管理员角色。
 
-- 适用于 [Power Automate](/power-automate/get-started-approvals)、Office 365 或 Dynamics 365 的许可证。
+- [Power Automate](/power-automate/get-started-approvals)、Office 365 或 Dynamics 365 的许可证。
 
-- 用户Microsoft Forms审批模板时需要许可证。
+- 用户需要Microsoft Forms许可证才能设置新的审批模板。
 
-若要使用 审批 应用，需要一个 Power Automate 许可证，你的帐户将在第一次审批分配时自动添加到目标审批用户角色。
+若要使用审批应用，需要Power Automate许可证，并且你的帐户将在第一次审批分配时自动添加到目标环境中的审批用户角色。
 
-## <a name="storage-with-microsoft-dataverse"></a>存储 Microsoft Dataverse
+## <a name="storage-with-microsoft-dataverse"></a>使用 Microsoft Dataverse 存储
 
-COMMON Data Model (CDM) 是 Microsoft Dataverse 中的业务和分析应用程序使用的共享数据语言。 它由 Microsoft 和我们的合作伙伴发布的一组标准化可扩展数据架构组成，可跨应用程序和业务流程实现数据的一致性及其含义。 了解有关 [Microsoft Power Platform 的 Common Data Model](/power-automate/get-started-approvals) 的详细信息。
+通用数据模型 (CDM) 是 Microsoft Dataverse 中的业务和分析应用程序使用的共享数据语言。 它由 Microsoft 和合作伙伴发布的一组标准化、可扩展的数据架构组成，这些架构可实现数据的一致性及其在应用程序和业务流程中的含义。 了解有关 [Microsoft Power Platform 的 Common Data Model](/power-automate/get-started-approvals) 的详细信息。
 
 了解有关[审批工作流](/power-automate/modern-approvals)的详细信息。
 
-审批模板创建的数据仍存储在 Microsoft Dataverse 中，例如其标题、详细信息、模板 ID 等。 在审批请求中提交的响应存储在 Forms 中。 详细了解用于 [存储数据的Microsoft Forms](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe)。
+从模板创建的审批仍会将数据存储在 Microsoft Dataverse 中，例如其标题、详细信息、模板 ID 等。 针对审批请求提交的响应存储在 Forms 中。 详细了解 [Microsoft Forms的数据存储](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe)。
 
 >[!Note]
->如果删除网站中的表单Microsoft Forms，将中断审批模板，用户将无法启动请求。 用户尝试打开在"审批"模板上删除的审批模板时，收到"CDB TableNotFound"Microsoft Forms。
+>如果在Microsoft Forms网站上删除表单模板，则会中断审批模板，用户将无法启动请求。 用户在尝试打开已在Microsoft Forms上删除的审批模板时会收到错误“CDB TableNotFound”。
 
-组织范围的模板共享租户的相同生存期，团队范围的模板共享团队的相同生存期。 因此，永久删除团队会删除相关的模板。
+组织范围的模板共享租户的相同生存期，团队范围的模板共享团队的相同生存期。 因此，永久删除团队会删除相关模板。
 
 ## <a name="approvals-teams-app-permissions"></a>“审批”Teams 应用权限
 
@@ -99,10 +99,10 @@ COMMON Data Model (CDM) 是 Microsoft Dataverse 中的业务和分析应用程�
 
 - 所有团队所有者都可以为他们拥有的团队创建审批模板。
 
-- 当管理员首次为整个组织创建模板时，它会自动为租户的所有管理员（包括全局管理员和 Teams 管理员）创建新的 Azure Active Directory (AAD) 组。 这些管理员将添加为组的所有者，以便他们可以共同管理组织模板。 创建团队后，组织中新增的管理员需要手动添加为组所有者，以便他们具有相同的权限来管理组织范围的模板。
+- 当管理员首次为其整个组织创建模板时，它将自动为租户的所有管理员（包括全局管理员和Teams服务管理员）创建新的Azure Active Directory (AAD) 组。 这些管理员将添加为组的所有者，以便他们能够共同管理组织模板。 创建团队后对组织不了解的管理员需要手动添加为组所有者，以便他们具有相同的权限来管理组织范围内的模板。
 
 > [!Note]
-> 如果管理员删除了组，则你有一个月时间在门户Azure Active Directory (AAD) 还原所有相关的数据。 一个月后，或者如果管理员在回收站中删除此组，你将丢失所有相关的数据。
+> 如果管理员删除了该组，则有一个月的时间在Azure Active Directory (AAD) 门户中还原该组以还原所有相关数据。 一个月后，或者如果管理员在回收站中删除此组，则将丢失所有相关数据。
 
 ## <a name="disable-the-approvals-app"></a>禁用“审批”应用
 
@@ -114,29 +114,29 @@ COMMON Data Model (CDM) 是 Microsoft Dataverse 中的业务和分析应用程�
 
   3. 搜索“审批”应用。
 
-     ![显示管理中心导航，Teams应用>"管理应用"。](media/manage-approval-apps.png)
+     ![显示管理中心导航，其中突出显示了Teams应用>管理应用。](media/manage-approval-apps.png)
 
-  4. 选择 **"审批"**。
+  4. 选择 **审批**。
 
   5. 选择切换开关以为你的组织禁用该应用。
 
-     :::image type="content" alt-text="显示应用审批的详细信息。" source="media/approvals-details-new.png" lightbox="media/approvals-details-new.png":::
+     :::image type="content" alt-text="显示审批应用的详细信息。" source="media/approvals-details-new.png" lightbox="media/approvals-details-new.png":::
 
 ## <a name="app-policies"></a>应用策略
 
 ### <a name="retention-policy"></a>保留策略
 
-审批应用创建审批存储在默认的 Microsoft Dataverse 环境中，该环境目前不支持备份。 详细了解如何[备份和还原环境 - Power Platform\| Microsoft Docs](/power-platform/admin/backup-restore-environments)。
+从审批应用创建的审批存储在默认的 Microsoft Dataverse 环境中，该环境目前不支持备份。 详细了解如何[备份和还原环境 - Power Platform\| Microsoft Docs](/power-platform/admin/backup-restore-environments)。
 
-在团队所有者从 Web 应用中的已删除表单选项卡中清理之前，不会删除存储在窗体Microsoft Forms数据。
+在团队所有者从Microsoft Forms Web 应用中 **删除的窗体** 选项卡中清理数据之前，不会删除窗体中存储的数据。
 
 ### <a name="conditional-access-policies"></a>条件访问策略
 
-目前，审批应用Teams不支持为应用设置的条件访问Microsoft Teams。
+目前，Teams中的审批应用不支持为Microsoft Teams设置的条件访问策略。
 
 ## <a name="data-limitations"></a>数据限制
 
-每个团队最多可以包含 400 个审批模板，每个模板可以基于当前功能收集最多 50，000 个请求，Microsoft Forms。
+每个团队最多可以包含 400 个审批模板，每个模板最多可以根据Microsoft Forms中的当前功能收集 50，000 个请求。
 
 ## <a name="auditing"></a>审核
 
@@ -168,11 +168,11 @@ COMMON Data Model (CDM) 是 Microsoft Dataverse 中的业务和分析应用程�
 
 - 已向审批请求添加了电子签名
 
-- 查看了电子签名请求详细信息
+- 查看的电子签名请求详细信息
 
 - 已审阅电子签名请求
 
-- 已取消电子签名请求
+- 已取消的电子签名请求
 
 - 创建新模板
 
@@ -182,7 +182,7 @@ COMMON Data Model (CDM) 是 Microsoft Dataverse 中的业务和分析应用程�
 
 - 查看的模板
 
-若要在审核环境中访问更多审核Power Automate，请为主要审批实体启用和配置默认环境中审核：审批、审批请求和审批响应。 创建、更新和删除操作是审批记录的可审核事件。 详细了解[安全性和合规性的审核数据和用户活动 - Power Platform\| Microsoft Docs](/power-platform/admin/audit-data-user-activity)。
+若要在Power Automate中访问更多审核审批，请在默认环境中为主要审批实体启用和配置审核审批、审批请求和审批响应。 创建、更新和删除操作是审批记录的可审核事件。 详细了解[安全性和合规性的审核数据和用户活动 - Power Platform\| Microsoft Docs](/power-platform/admin/audit-data-user-activity)。
 
 可在 [Microsoft 365 安全与合规中心](https://support.office.com/article/go-to-the-office-365-security-compliance-center-7e696a40-b86b-4a20-afcc-559218b7b1b8?ui=en-US&rs=en-US&ad=US)中进一步自定义。
 
@@ -203,18 +203,18 @@ COMMON Data Model (CDM) 是 Microsoft Dataverse 中的业务和分析应用程�
 
 ## <a name="approvals-e-signature-integration"></a>审批电子签名集成
 
-若要使用审批签名功能，需要特定电子签名提供商的许可证才能使用。 若要获取组织的许可证，您需要转到提供商的网站。
+若要使用审批应用电子签名功能，需要要使用的特定电子签名提供程序的许可证。 若要获取组织的许可证，需要转到提供商的站点。
 
 ### <a name="enable-or-disable-e-signature-providers"></a>启用或禁用电子签名提供程序
 
-可以使用 Teams 管理中心来控制哪些第三方电子签名提供商可供用户在 审批 应用中使用。 默认情况下，电子签名提供程序在应用审批启用。 禁用电子签名提供商时，用户创建审批时将无法访问该提供商。 用户还无法查看使用该提供程序创建的电子邮件签名请求。
+可以使用Teams管理中心控制哪些第三方电子签名提供程序可用于审批应用中的用户。 默认情况下，审批应用中启用了电子签名提供程序。 禁用电子签名提供程序时，用户在创建审批时将无权访问该提供程序。 用户也无法查看使用该提供程序创建的电子签名请求。
 
-1. 在管理中心左侧导航Teams，转到"Teams **管理** > **应用"**。
+1. 在Teams管理中心的左侧导航中，转到 **appsManage 应用****Teams** > 。
 2. 搜索审批应用，然后选择它。
-3. 转到"**设置**"选项卡，然后执行下列一项或多项操作：
+3. 转到 **“设置**”选项卡，然后执行以下一个或多个操作：
 
-    - 若要启用或禁用 Adobe Sign，请切换为"开 **"或** " **关"**。
-    - 若要启用或禁用 DocuSign，请切换为"开 **"或** " **关"**。
-4. 选择" **提交"**。
+    - 若要启用或禁用 Adobe Sign，请将开关切换到 **“打开** ”或 **“关闭**”。
+    - 若要启用或禁用 DocuSign，请将开关切换到 **“打开** ”或 **“关闭**”。
+4. 选择 **“提交**”。
 
-从应用程序创建的电子签名审批存储在所选提供商的云环境中。 若要导出有关电子签名的数据，您需要转到提供商的网站。 有关电子签名协议的存储、导出和保留详细信息，请参阅提供商的文档。
+从审批应用创建的电子签名审批存储在所选提供商的云环境中。 若要导出有关电子签名的数据，需要转到提供程序的站点。 有关电子签名协议的存储、导出和保留的详细信息，请参阅提供程序的文档。

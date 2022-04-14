@@ -13,14 +13,17 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 本文讨论如何配置组织和Teams 会议室设备，以支持加入 Cisco WebEx 和 Zoom 的第三方会议。
-ms.openlocfilehash: 04be17003e39890ba74d6c7c4fc2393ba809f5c6
-ms.sourcegitcommit: 3beef904411a9d5787a73678464003a868630649
+ms.openlocfilehash: 6defa9c9287b130eb5534f0aea158a78f2de8b18
+ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64817663"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "64846601"
 ---
 # <a name="enable-teams-room-devices-to-join-third-party-meetings"></a>启用Teams会议室设备加入第三方会议
+
+> [!NOTE]
+> 此功能目前仅在Windows上的Teams 会议室上可用。
 
 Microsoft Teams 会议室设备支持加入第三方联机会议（也称为直接来宾加入）的一次性体验。 启用后，可以使用Teams 会议室加入在 Cisco WebEx 和 Zoom 上托管的会议，就像可以加入托管在 Microsoft Teams 中的会议一样容易。
 
