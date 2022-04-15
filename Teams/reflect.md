@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 27a3ed1d46626cb5f46aa3279246953b1dbe9a23
-ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
+ms.openlocfilehash: d17409a09cbadc535e3b7971d6224b4e2fcb678b
+ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "62363118"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "64839033"
 ---
 # <a name="it-admin-guide-to-reflect-in-microsoft-teams"></a>Microsoft Teams 中 Reflect 的 IT 管理员指南
 
@@ -31,14 +31,20 @@ T本文件提供有关 [Reflect](https://aka.ms/reflect) 的信息– 它是 [Mi
 
 
 ## <a name="privacy-and-security"></a>隐私和安全
-Reflect 遵循与教育版 Insights 相同的隐私和安全标准来保护学生的敏感信息。
+Reflect 遵循与 [教育版 Insights](class-insights.md) 相同的隐私和安全标准来保护学生的敏感信息。
 
-通过 Reflect 收集和显示的信息符合[ 90 多个监管和行业标准](/compliance/regulatory/offering-home)，包括 [GDPR](/compliance/regulatory/gdpr) 和关于学生和儿童安全的[《家庭教育权利和隐私法案》(FERPA)](/compliance/regulatory/offering-ferpa)，以及其他类似的面向隐私的法规。
+Reflec 作为 Microsoft 365 的一部分，符合国家、地区和行业特定的数据收集和使用法规，包括 [GDPR](/compliance/regulatory/gdpr) 和 [家庭教育权利和隐私法案 (FERPA)](/compliance/regulatory/offering-ferpa) 保护学生教育记录的隐私。
+
+数据归机构所有，Microsoft 仅收集并存储数据。 Microsoft 人员无法访问或查看数据，除非合规性法规允许以经过审核的方式维护服务（例如数据恢复）。
 
 学生们 *绝不会* 看到其他学生的名字，只看到他们反应如何。 虽然他们可以看到反应的分布，但他们 *无法* 看到与每个反映相关的名字。 
 
 > [!NOTE]
 > 如果作出反应的学生少于5人，则不向学生展示数据。 这是为了尽可能减少学生识别彼此反应的可能性。
+
+> [!TIP]
+> * 访问 [Microsoft 信任中心](https://www.microsoft.com/trust-center)，以深入了解 Microsoft 如何保护你的数据。
+> * 请访问 [Microsoft 合规性产品/服务](/compliance/regulatory/offering-home)，了解 Microsoft 365 如何帮助你的机构符合法规合规性标准。
 
 ## <a name="data-collection-and-storage"></a>数据收集和存储
 数据归教育机构所有，Microsoft 仅收集并存储数据。 Microsoft 人员无法访问或查看数据，除非合规性法规允许以经过审核的方式维护服务（例如数据恢复）。
@@ -75,4 +81,4 @@ Reflect 收集学生信息，但不会收集来宾数据。 **如果将学生定
 > 还可通过此链接查找 Reflect 应用：[https://aka.ms/getReflect](https://aka.ms/getReflect)
 
 > [!TIP]
-> 有关详细信息，请访问 [ Reflect 支持页面](https://support.microsoft.com/topic/e9198f62-7860-4532-821f-53ef14afa79a)。 本页提供适用于教育工作者和学生的指南，并可帮助他们如何创建第一个 Reflect 签到。
+> 有关详细信息，请访问 [ Reflect 支持页面](https://support.microsoft.com/topic/e9198f62-7860-4532-821f-53ef14afa79a)。本页提供适用于教育工作者和学生的指南，并可帮助他们如何创建第一个 Reflect 签到。
