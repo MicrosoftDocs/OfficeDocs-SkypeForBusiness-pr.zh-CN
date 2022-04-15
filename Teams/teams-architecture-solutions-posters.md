@@ -16,12 +16,12 @@ search.appverid:
 f1.keywords:
 - NOCSH
 description: 总结：了解 Microsoft 365 中生产力服务的逻辑体系结构，以 Microsoft Teams 为主导。
-ms.openlocfilehash: ec608f192c08a33b9505008eacb6f6549780e7bd
-ms.sourcegitcommit: abe942c294ed5fca70efdf039d38d611b9c21fe9
+ms.openlocfilehash: 6ac6f7f88ec838b445d382dbc6ba8d5ee4ec1bcf
+ms.sourcegitcommit: 204e4654f2c3977db260670f3ee1784d1ad6ed17
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63564744"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "64866187"
 ---
 # <a name="microsoft-teams-it-architecture-and-voice-solutions-posters"></a>Microsoft Teams IT 体系结构和语音解决方案海报
 
@@ -37,7 +37,7 @@ Teams 是 Microsoft 365 中生产力服务的逻辑体系结构的中心 - 包�
 
 这是针对 Microsoft 365 中的组，IT 架构师需要了解的信息。 这些图示详细介绍了不同类型的组，如何创建和管理这些组，以及一些治理建议。
 
-[![组信息图的缩略图。](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups-architecture-thumb.png)](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups.pdf)  <br/> [PDF](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups.pdf) | [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups.vsdx)
+[![组信息图的缩略图。](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups-architecture-thumb.png)](https://download.microsoft.com/download/6/3/0/6309218f-a169-4f2d-af4c-2fe49e30ba17/msft-m365-groups.pdf)  <br/> [PDF](https://download.microsoft.com/download/6/3/0/6309218f-a169-4f2d-af4c-2fe49e30ba17/msft-m365-groups.pdf) | [Visio](https://download.microsoft.com/download/6/3/0/6309218f-a169-4f2d-af4c-2fe49e30ba17/msft-m365-groups.vsdx)
 
 ## <a name="microsoft-voice-solutions"></a>Microsoft 语音解决方案
 
