@@ -1567,6 +1567,8 @@ items:
                 href: expand-teams-across-your-org/browser-join.md
               - name: 虚拟就诊使用情况报告
                 href: teams-analytics-and-reports/virtual-visits-usage-report.md
+              - name: 帮助客户使用虚拟约会
+                href: expand-teams-across-your-org/virtual-appointments-toolkit.md
           - name: Teams 中的班次
             items:
               - name: 排班入门
