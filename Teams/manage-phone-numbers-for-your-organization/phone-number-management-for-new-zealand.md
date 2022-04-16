@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 使用此表可查找有关在新西兰获取和管理Microsoft Teams电话号码的信息。
-ms.openlocfilehash: c9f70b50542788b7098c2456ff80d7c8d0fa9ae8
-ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
+ms.openlocfilehash: 7a2ea252b5e3a232e0ff87f1204183411d7207b3
+ms.sourcegitcommit: 5bfd2e210617e4388241500eeda7b50d5f2a0ba3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "64839043"
+ms.lasthandoff: 04/16/2022
+ms.locfileid: "64884990"
 ---
 # <a name="phone-number-management-for-new-zealand"></a>新西兰电话号码管理
 
@@ -37,7 +37,7 @@ ms.locfileid: "64839043"
   
 |**你要做什么？**|**下载正确的表单**|
 |:-----|:-----|
-|获取Microsoft Teams管理中心未列出的新用户或服务电话号码。|在新西兰，可以使用Microsoft Teams管理中心获取组织的电话号码。 还可以通过下载表单来提交新的电话号码请求 [，并联系 TNS 服务台以获取说明](contact-tns-service-desk.md)。<br/><br/>[新西兰 (米-nz) 的新电话号码请求 ](https://download.microsoft.com/download/4/a/a/4aa04212-a13d-46bf-b09e-1efbcbb2e622/new-phone-number-request-for-new-zealand-(v1.0)-(mi-NZ).pdf)。 <br/><br/> 在将电话号码分配给你之前，必须下载“了解客户”表单，完整完成，并 [联系 TNS 服务台以获取说明](contact-tns-service-desk.md)。<br/><br/>新订单可能需要两到三周才能填补这个市场。  |
+|获取Microsoft Teams管理中心未列出的新用户或服务电话号码。|在新西兰，可以使用Microsoft Teams管理中心获取组织的电话号码。 还可以通过下载表单来提交新的电话号码请求 [，并联系 TNS 服务台以获取说明](contact-tns-service-desk.md)。<br/><br/>[新西兰 (新电话号码请求) ](https://download.microsoft.com/download/e/6/7/e67f46ef-e1cd-4e70-a5cc-f53fd74285aa/LNS-EN-NZ-TN.pdf)。 <br/><br/>[新西兰 (米-nz) 的新电话号码请求 ](https://download.microsoft.com/download/4/a/a/4aa04212-a13d-46bf-b09e-1efbcbb2e622/new-phone-number-request-for-new-zealand-(v1.0)-(mi-NZ).pdf)。 <br/><br/> 在将电话号码分配给你之前，必须下载“了解客户”表单，完整完成，并 [联系 TNS 服务台以获取说明](contact-tns-service-desk.md)。<br/><br/>新订单可能需要两到三周才能填补这个市场。  |
 |获取传输给我们的电话号码。  <br/> | 下载此表单。 <br/>[新西兰 (LOA) 的授权书 (所有数字)  (v.1.0)  (en-nz) ](https://download.microsoft.com/download/e/6/7/e67f46ef-e1cd-4e70-a5cc-f53fd74285aa/LOA-EN-NZ-TN.pdf) <br/> <br/>填写并 [联系 TNS 服务台以获取说明](contact-tns-service-desk.md)。 <br/><br>传输号码可能需要一到六周才能在此市场完成，具体取决于端口的复杂性。<br/><br/>这些数字目前不能用于会议。  |
 |在全国电话目录中发布/取消发布电话号码 () 。  <br/> |有关要发布/取消发布的电话号码列表的[说明，请与 TNS 服务台联系](contact-tns-service-desk.md)。 <br/> |
 |将用户的号码更改为服务编号。  <br/> |有关要转换为服务号码的用户号列表的[说明，请与 TNS 服务台联系](contact-tns-service-desk.md)。 <br/> |

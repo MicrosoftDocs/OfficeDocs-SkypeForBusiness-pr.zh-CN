@@ -1559,7 +1559,7 @@ items:
         items:
           - name: Teams 中的 Bookings
             items:
-              - name: 使用 Teams 和 Bookings 进行虚拟访问
+              - name: 通过 Teams 和 Bookings 进行虚拟约会
                 href: expand-teams-across-your-org/bookings-virtual-visits.md
               - name: 管理 Bookings 应用
                 href: bookings-app-admin.md
@@ -1683,15 +1683,15 @@ items:
         items:
           - name: 适用于医疗保健组织的 Teams 入门
             href: expand-teams-across-your-org/healthcare/teams-in-hc.md
-          - name: 虚拟访问
+          - name: 虚拟约会
             items:
-              - name: 通过 Teams 进行虚拟访问 - 与 Cerner EHR 集成
+              - name: 通过 Teams 进行虚拟约会 - 与 Cerner EHR 集成
                 href: expand-teams-across-your-org/healthcare/ehr-admin-cerner.md
-              - name: 通过 Teams 进行虚拟访问 - 与 Epic EHR 集成
+              - name: 通过 Teams 进行虚拟约会 - 与 Epic EHR 集成
                 href: expand-teams-across-your-org/healthcare/ehr-admin.md
               - name: EHR 管理员报告
                 href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
-              - name: 使用 Teams 和 Bookings 进行虚拟访问
+              - name: 通过 Teams 和 Bookings 进行虚拟约会
                 href: expand-teams-across-your-org/bookings-virtual-visits.md
               - name: 虚拟就诊使用情况报告
                 href: teams-analytics-and-reports/virtual-visits-usage-report.md
