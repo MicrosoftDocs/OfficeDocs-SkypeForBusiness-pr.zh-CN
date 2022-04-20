@@ -12,15 +12,15 @@ f1.keywords:
 - NOCSH
 ms.reviewer: anwara
 search.appverid: MET150
-description: 了解如何从Microsoft 365 合规中心中的审核日志中检索Microsoft Teams数据。
+description: 了解如何在 Microsoft Purview 合规性门户中从审核日志中检索Microsoft Teams数据。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cdca912b77969e4157af641076dc683c3d17921c
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+ms.openlocfilehash: 744a18f2a8f7f2ed406853ef7efbc9842d0096f5
+ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "63711326"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "64922633"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>在 Microsoft Teams 中搜索事件的审核日志
 
@@ -42,7 +42,7 @@ ms.locfileid: "63711326"
 
 ## <a name="turn-on-auditing-in-teams"></a>在 Teams 中启用审核
 
-在查看审核数据之前，必须先在Microsoft 365 合规中心中启用审核。 有关详细信息，请参阅 [打开或关闭审核](/microsoft-365/compliance/turn-audit-log-search-on-or-off)。
+在查看审核数据之前，必须先在 Microsoft Purview 合规性门户中启用审核。 有关详细信息，请参阅 [打开或关闭审核](/microsoft-365/compliance/turn-audit-log-search-on-or-off)。
 
 > [!IMPORTANT]
 > 仅从启用审核时起，审核数据才可用。
@@ -235,4 +235,4 @@ Defender for Cloud应用中的[异常情况检测策略](/cloud-app-security/ano
 
 ## <a name="related-topics"></a>相关主题
 
-- [在Microsoft 365 合规中心中搜索审核日志](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
+- [在 Microsoft Purview 合规性门户中搜索审核日志](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)

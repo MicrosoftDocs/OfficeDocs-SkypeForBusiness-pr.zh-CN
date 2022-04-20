@@ -16,19 +16,19 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dcbbc25de23018a66dd807ee47f5486103d8e32d
-ms.sourcegitcommit: c2a77ef9c1c9e6f00b3a4589bf02b100c37f5801
-ms.translationtype: MT
+ms.openlocfilehash: 6d5a9e3318ac0c72360487dbfc08b63bd39dc55e
+ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "64648951"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "64922423"
 ---
 # <a name="set-up-microsoft-teams-in-your-enterprise"></a>在你的 Office 365 组织中设置 Microsoft Teams
 
 使用本文中的信息指导你在你的组织中完成 Teams 的部署。
 
 > [!NOTE]
-> 若尚未进行部署，强烈建议通过试点开始 Teams 部署。 试点将允许你和一些早期采用者在规划和推出之前熟悉 Teams 及其功能。若要详细了解如何开始进行试点，请参阅 [Microsoft Teams](get-started-with-teams-quick-start.md)。
+> 如果尚未执行此操作，我们强烈建议你部署 Team 时先进行试点。试点使你和一些早期采用者能够在规划和最终推出之前熟悉 Teams 及其功能。有关如何启动试点的更多信息，请查看 [Microsoft Teams 入门](get-started-with-teams-quick-start.md)。
 
 在大范围推出 Teams 之前，请参阅[确保你已准备就绪](get-started-with-teams-quick-start.md#make-sure-youre-ready)中的项目确保组织已做好准备。
 
@@ -78,8 +78,8 @@ ms.locfileid: "64648951"
 
 | 决定 | 说明 |
 |--|--|
-| 应该启用外部访问吗？ | 通过外部访问，其他组织中的任何人都可以与组织中的人员交谈。当你与另一个组织（如供应商）保持密切关系，并希望使任一组织中的人员都能够轻松地互相聊天、召开会议等时，此功能非常有用。<p>外部访问不同于来宾访问。 通过外部访问，组织内部所有人都可以访问与组织内部人员进行交互。 来宾访问邀请特定人员进行访问，与组织内部人员进行交互。<p>默认情况下，外部访问处于 **打开状态** 。<p>[在 Microsoft Teams 中管理外部访问](manage-external-access.md)  |
-| 应该启用来宾访问吗？ |来宾访问允许组织内部人员邀请外部人员访问团队和频道。 来宾访问通常用于与组织外部人员进行协作，他们一般和你无正式关系。 例如，你可邀请项目规划员临时负责项目。<p>来宾访问不同于外部访问。 来宾访问邀请特定人员进行访问，与组织内部人员进行交互。 通过外部访问，另一个组织中所有人可与其内部人员进行交互。 <p>默认情况下，来宾访问处于 **打开状态** 。 <p>[与团队中的来宾协作](/microsoft-365/solutions/collaborate-as-team)  |
+| 应该启用外部访问吗？ | 通过外部访问，其他组织中的任何人都可以与组织中的人员交谈。当你与另一个组织（如供应商）保持密切关系，并希望使任一组织中的人员都能够轻松地互相聊天、召开会议等时，此功能非常有用。<p>外部访问不同于来宾访问。 通过外部访问，组织内部所有人都可以访问与组织内部人员进行交互。 来宾访问邀请特定人员进行访问，与组织内部人员进行交互。<p>默认情况下，外部访问处于 **打开** 状态。<p>[在 Microsoft Teams 中管理外部访问](manage-external-access.md)  |
+| 应该启用来宾访问吗？ |来宾访问允许组织内部人员邀请外部人员访问团队和频道。 来宾访问通常用于与组织外部人员进行协作，他们一般和你无正式关系。 例如，你可邀请项目规划员临时负责项目。<p>来宾访问不同于外部访问。 来宾访问邀请特定人员进行访问，与组织内部人员进行交互。 通过外部访问，另一个组织中所有人可与其内部人员进行交互。 <p>默认情况下，来宾访问处于 **打开** 状态。 <p>[在团队中与来宾协作](/microsoft-365/solutions/collaborate-as-team)  |
 
 #### <a name="meetings-and-audio-conferencing"></a>[会议和音频会议](#tab/MeetingsAudioConferencing)
 
@@ -118,7 +118,7 @@ ms.locfileid: "64648951"
 | 是否希望替换本地电话系统？ | 设置电话系统、配置自动助理、呼叫计划、呼叫队列等。 <p> [在组织中设置电话系统](setting-up-your-phone-system.md)|
 | 是否想要设置云语音邮件策略？| 你可以控制哪些云语音邮件功能可供用户使用，以及其操作方法。 例如，可启用或禁用整个组织的语音邮件脚本、启用或禁用特定用户的语音信箱掩码等。<p> [设置云语音邮件](set-up-phone-system-voicemail.md) |
 | 是否想要启用动态紧急呼叫？| 使用动态紧急呼叫，可以根据网络设置和其他元数据配置位置映射，以确定在用户拨打紧急呼叫时派遣应急人员的位置。可以配置网络设置、将紧急地址分配到位置等。<p>[规划和配置动态紧急呼叫](configure-dynamic-emergency-calling.md) |
-| 是否想要自定义呼叫方 ID 行为？ | 默认情况下，Teams用户拨打电话时显示的电话号码是用户的电话号码。 你可以将号码更改为公司的主号码、阻止电话号码、设置匿名号码或其他服务编号。 Teams 具有适用于所有人的全球策略。<p>如果希望对所有人应用相同的策略，只需更改此全局策略。 <p>如果希望对不同人员组使用不同的策略（例如，一个针对办公室工作人员的策略，而另一个策略针对主管人员），可以创建和分配策略。 将策略分配给用户时，全局策略不再适用。<p> [在 Microsoft Teams 中管理呼叫方 ID 策略](caller-id-policies.md) |
+| 是否想要自定义呼叫方 ID 行为？ | 默认情况下，Teams 用户拨打电话时显示的电话号码是用户的电话号码。 你可以将号码更改为公司的主号码、阻止电话号码、设置匿名号码或其他服务编号。 Teams 具有适用于所有人的全球策略。<p>如果希望对所有人应用相同的策略，只需更改此全局策略。 <p>如果希望对不同人员组使用不同的策略（例如，一个针对办公室工作人员的策略，而另一个策略针对主管人员），可以创建和分配策略。 将策略分配给用户时，全局策略不再适用。<p> [在 Microsoft Teams 中管理呼叫方 ID 策略](caller-id-policies.md) |
 
 ---
 
@@ -145,16 +145,16 @@ Teams 和 Microsoft 365 提供了许多工具，可帮助你符合公司及其�
 | [通信合规性](communication-compliance.md)| 通过识别并针对攻击性、攻击性、专业性以及宣传语言采取行动，帮助降低通信风险;和 Gory 图像;以及共享敏感信息。 |
 | [呼叫和会议基于策略的录制](teams-recording-policy.md)| 允许控制何时或是否在何时自动存储和存储呼叫和会议，供以后处理、保留或分析。|
 | [敏感度标签](sensitivity-labels.md)| 通过创建实施所选隐私选项的标签，帮助保护和控制对敏感信息的访问。|
-| [数据丢失防护](/microsoft-365/compliance/dlp-microsoft-teams?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)| 让你创建规则来确定如何处理某些信息，如社会保险号码、信用卡号等。 可阻止发送特定信息、阻止其离开组织等。|
+| [Microsoft Purview 数据丢失防护](/microsoft-365/compliance/dlp-microsoft-teams?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)| 让你创建规则来确定如何处理某些信息，如社会保险号码、信用卡号等。 可阻止发送特定信息、阻止其离开组织等。|
 | [电子数据展示](eDiscovery-investigation.md)| 当您的组织在法律诉讼中收到发现要求时，帮助您搜索和检索您组织的内容。 |
 | [法定保留](legal-hold.md)| 帮助您在法律诉讼过程中需要时保留您组织的信息，即使用户将其删除，在电子数据展示调查期间也可以发现这些信息。 |
 | [内容搜索](content-search.md)| 提供查询查询 Exchange、SharePoint Online 和 OneDrive for Business 的 Teams 信息的方法。|
-| [Auditing](audit-log-events.md)| 让你能够查看有关指定操作的信息，包括执行该操作的人、执行的操作时间、使用的 IP 地址等。 操作包括创建或删除团队、创建频道、更改Teams中的设置等。|
+| [Auditing](audit-log-events.md)| 让你能够查看有关指定操作的信息，包括执行该操作的人、执行的操作时间、使用的 IP 地址等。 操作包括创建或删除团队、创建频道、在 Teams 中更改设置等。|
 | [客户密钥](/microsoft-365/compliance/customer-key-tenant-level?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)| 让你能够使用你提供的加密密钥创建数据加密策略。|
 
 ## <a name="clients"></a>客户端
 
-在准备好允许用户开始使用 Teams 后，他们便可在 Windows、Mac、Linux PC 或 Android、iOS 设备上安装 Teams 客户端。 用户可直接从<https://teams.microsoft.com/downloads>下载 Teams 客户端。
+当你准备好让用户开始使用 Teams 时，他们可以在其 Windows、Mac、或 Linux 电脑上或者在其 Android 或 iOS 设备上安装 Teams 客户端。用户可以直接从 <https://teams.microsoft.com/downloads> 下载 Teams 客户端。
 
 请确保所有使用 Teams 的人员拥有 Teams 许可证。 有关分配 Teams 许可证的详细信息，请参阅[管理 Teams 用户访问权限](user-access.md#using-the-microsoft-365-admin-center)。
 

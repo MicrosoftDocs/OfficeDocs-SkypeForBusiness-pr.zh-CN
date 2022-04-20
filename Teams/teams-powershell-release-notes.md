@@ -13,12 +13,12 @@ ms.collection:
 description: 了解 Teams PowerShell 中的最新更改。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2bc774532f14e04e66018713bcd1c271151fe476
-ms.sourcegitcommit: 0d61ca384e7d76612743de41c8fea4729072fb5e
+ms.openlocfilehash: 66ed3281b2376810e4a87db8103b4b140e4675bd
+ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "64837465"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "64922443"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams PowerShell 发行说明
 
@@ -31,10 +31,10 @@ ms.locfileid: "64837465"
 
 | 日期 | 版本 | 更新 |
 |------- | -------------------- | ------------------------------ |
-| 2022 年 4 月 | [4.2.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.2.0) |<li>对与Teams相关的所有 cmdlet 的代理支持。 支持的 cmdlet 正在逐步推出。</li><li>修复了与 PSListModifier 类型参数一起使用时 [NewSet\|]- 现代化策略 cmdlet 的问题。</li><li>[重大更改]PSListModifier 类型参数将仅接受包含“添加”或“删除”的哈希表。 现在不支持使用 Replace 的哈希表，而是可以直接在参数中设置值 () 。</li><li>修复了 [GetNew\|] - (CsVideoInteropServiceProvider、CsInboundBlockedNumberPattern、CsTeamsComplianceRecordingApplication、CsTeamsTranslationRule、CsTeamsUnassignedNumberTreatment、CsVoiceNormalizationRule) 的少数现代化 Policy cmdlet 的格式问题。</li><li>使用现代化 cmdlet 改进了管道输入处理的性能。</li><li>修复管道输入结果的次要问题。</li><li>Get-CsOnlineUser：在早于 3.x.x) 的版本中添加了国家/地区属性 (称为 CountryOrRegionDisplayName。</li><li>[重大更改]Get-CsOnlineUser：CountryAbbreviation 属性现在仅在与 -Identity 参数一起使用时才可用。</li><li>[重大更改] Get-CsOnlineVoicemailPolicy以字符串格式（而不是 TimeSpan）返回 MaximumRecordingLength 的数据。 </li>
+| 2022 年 4 月 | [4.2.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.2.0) |<li>对与Teams相关的所有 cmdlet 的代理支持。 支持的 cmdlet 正在逐步推出。</li><li>修复了与 PSListModifier 类型参数一起使用时 [NewSet\|]- 现代化策略 cmdlet 的问题。</li><li>[重大更改]PSListModifier 类型参数将仅接受包含“添加”或“删除”的哈希表。 现在不支持使用 Replace 的哈希表，而是可以直接在参数中设置值 () 。</li><li>修复了 [GetNew\|] - (CsVideoInteropServiceProvider、CsInboundBlockedNumberPattern、CsTeamsComplianceRecordingApplication、CsTeamsTranslationRule、CsTeamsUnassignedNumberTreatment、CsVoiceNormalizationRule) 的少数现代化 Policy cmdlet 的格式问题。</li><li>使用现代化 cmdlet 改进了管道输入处理的性能。</li><li>修复管道输入结果的次要问题。</li><li>Get-CsOnlineUser：在早于 3.x.x) 的版本中添加了国家/地区属性 (称为 CountryOrRegionDisplayName。</li><li>[重大更改]Get-CsOnlineUser：CountryAbbreviation 属性现在仅在与 -Identity 参数一起使用时才可用。</li>
 | 2022 年 3 月 | [4.1.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.1.0) |<li>修复了警告和错误变量的问题。</li><li>修复了将现代化 cmdlet 与 PowerShell Runspaces 配合使用的问题。</li><li>版本 [GetNewSetRemove\|\|\|]-CsTeamsShiftsConnectionInstance Cmdlet。</li><li>版本 [GetNewRemove\|\|]-CsTeamsShiftsConnectionTeamMap Cmdlet。</li><li>发布 Get-CsTeamsShiftsConnectionWfm[UserTeam\|] Cmdlet。</li><li>Releases Get-CsTeamsShiftsConnectionConnector， Get-CsTeamsShiftsConnectionSyncResult， New-CsTeamsShiftsConnectionBatchTeamMap， Remove-CsTeamsShiftsScheduleRecord， Test-CsTeamsShiftsConnectionValidate， Get-CsTeamsShiftsConnectionOperation & Get-CsTeamsShiftsConnectionErrorReport Cmdlet.</li>
 | 2022 年 3 月 | [4.0.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.0.1-preview) |<li>修复了 ErrorAction 常见参数的问题。</li>
-| 2022 年 3 月 | [4.0.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.0.0) |<li>此 GA 版本完成与仅Teams组织相关的所有 cmdlet 的现代化。 新式版本将逐步推出，因此一些组织将继续看到较旧的远程处理版本。</li><li>在 GA 中发布 [NewSetRemove\|\|]-CsUserCallingDelegate 和 [GetSet\|]-CsUserCallingSettings cmdlet。</li><li>[重大更改]New-CsVoiceNormalizationRule 除外;其他 cmdlet 不再支持 InMemory 开关。</li><li>弃用以下 cmdlet：ConvertTo-JsonForPSWS， Set-CsUserServicesPolicy、[GetSet]-CsNetworkConfiguration、[SetRemove\|]-CsTenantNetworkConfiguration、New-CsNetworkMediaBypassConfiguration、[GetGrantNewRemoveSet\|\|\|\|]-CsTeamsVerticalPackagePolicy，[GetRemoveSet\|\|]-CsVoiceNormalizationRule。\|</li>
+| 2022 年 3 月 | [4.0.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.0.0) |<li>此 GA 版本完成与仅Teams组织相关的所有 cmdlet 的现代化。 新式版本将逐步推出，因此一些组织将继续看到较旧的远程处理版本。</li><li>在 GA 中发布 [NewSetRemove\|\|]-CsUserCallingDelegate 和 [GetSet\|]-CsUserCallingSettings cmdlet。</li><li>[重大更改]New-CsVoiceNormalizationRule 除外;其他 cmdlet 不再支持 InMemory 开关。</li><li>弃用以下 cmdlet：ConvertTo-JsonForPSWS， Set-CsUserServicesPolicy、[GetSet]-CsNetworkConfiguration、[SetRemove\|]-CsTenantNetworkConfiguration、New-CsNetworkMediaBypassConfiguration、[GetGrantNewRemoveSet\|\|\|\|]-CsTeamsVerticalPackagePolicy，[GetRemoveSet\|\|]-CsVoiceNormalizationRule。\|</li><li>[重大更改] Get-CsOnlineVoicemailPolicy以字符串格式（而不是 TimeSpan）返回 MaximumRecordingLength 的数据。 </li>
 | 2022 年 2 月 | [3.2.0-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/3.2.0-preview) |<li>此版本将完成与仅Teams组织相关的所有 cmdlet 的现代化。 新式版本将逐步推出，因此一些组织将继续看到较旧的远程处理版本。</li><li>[重大更改]New-CsVoiceNormalizationRule 除外;其他 cmdlet 不再支持 InMemory 开关。</li><li>Connect-MicrosoftTeams性能改进。</li><li>使用前缀修复Import-Module。</li><li>修复了在 [GetSetRemove\|\|]-CsOnlineLisPort 中使用斜杠字符“/”处理端口的问题。</li><li>发布Test-CsTeamsUnassignedNumberTreatment cmdlet。</li><li>弃用以下 cmdlet：ConvertTo-JsonForPSWS， Set-CsUserServicesPolicy、[GetSet]-CsNetworkConfiguration、[SetRemove\|]-CsTenantNetworkConfiguration、New-CsNetworkMediaBypassConfiguration、[GetGrantNewRemoveSet\|\|\|\|]-CsTeamsVerticalPackagePolicy、[GetRemoveSet\|\|]-CsVoiceNormalizationRule。\|</li>
 | 2022 年 2 月 | [3.1.1](https://www.powershellgallery.com/packages/MicrosoftTeams/3.1.1) |<li>Import-Module 的性能改进。</li><li>PSListModifier 反序列化问题已修复。</li>
 | 2022 年 1 月 | [3.1.0](https://www.powershellgallery.com/packages/MicrosoftTeams/3.1.0) |<li>将 cmdlet 从Get-CsTeamsShiftsConnectionUser重命名为 Get-CsTeamsShiftsConnectionWfmUser。</li><li>为 Get-CsOnlineUser 发布新的参数 ResultSize 和 SkipUserPolicies。 </li><li>为 Get-CsOnlineDialInConferencingUser 发布新参数 ResultSize。</li><li>发布新参数 First、NumberAssigned、NumberNotAssigned、PSTNConnectivity、EnterpriseVoiceStatus、CivicAddressId、LocationId for Get-CsOnlineVoiceUser。</li>

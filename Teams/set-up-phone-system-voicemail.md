@@ -21,120 +21,120 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: 了解如何为用户云语音邮件帐户。
-ms.openlocfilehash: dd98275ac768990337a47f1f4ba6dacbdb385087
-ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
+description: 了解如何为用户设置云语音邮件。
+ms.openlocfilehash: 96c96f85625d0cda7e6d7a28a59d6c9415f2bb79
+ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "64592717"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "64922623"
 ---
 # <a name="set-up-cloud-voicemail"></a>设置云语音邮件
 
-本文适用于Microsoft 365用户设置云语音邮件管理员。
+本文适用于想要为其用户设置云语音邮件的Microsoft 365管理员。
 
-云语音邮件将语音邮件置于用户的邮箱Exchange语音邮件。 云语音邮件不支持第三方电子邮件系统。 有关Exchange Online要求，请参阅Exchange Online[说明](/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description#features-available-to-all-plans)。 有关管理员角色的信息，请参阅 [关于管理员角色](/microsoft-365/admin/add-users/about-admin-roles)。
+云语音邮件将语音邮件存放在用户的Exchange邮箱中。 云语音邮件不支持第三方电子邮件系统。 有关Exchange Online许可要求，[请参阅Exchange Online服务说明](/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description#features-available-to-all-plans)。 有关管理员角色的详细信息， [请参阅“关于管理员角色](/microsoft-365/admin/add-users/about-admin-roles)”。
 
 ## <a name="cloud-voicemail-provisioning"></a>云语音邮件预配
 
-对于Teams用户，云语音邮件自动设置和预配。 *Microsoft Teams 电话不需要许可证云语音邮件。*
+对于Teams用户，会自动设置和预配云语音邮件。 *云语音邮件不需要Microsoft Teams 电话许可证。*
 
-为 Teams 用户预配与为联机用户预配Skype for Business不同。 对于 Skype for Business Online 用户，云语音邮件用户分配了一个 电话系统 许可证，并且预配系统企业语音自动设置和预配用户。
+针对Teams用户的预配与Skype for Business联机用户的预配不同。 对于Skype for Business联机用户，云语音邮件在为用户分配电话系统许可证并由预配系统企业语音启用时自动设置和预配。
 
-对于Skype for Business Server用户，云语音邮件自动设置和预配。 但是，必须将 Skype for Business Server 环境配置为将调用路由到云语音邮件。 有关详细信息，请参阅[为云语音邮件计划服务](/skypeforbusiness/hybrid/plan-cloud-voicemail)。
+对于Skype for Business Server本地用户，会自动设置和预配云语音邮件。 但是，必须将Skype for Business Server环境配置为将调用路由到云语音邮件。 有关详细信息，请参阅[本地用户的计划云语音邮件服务](/skypeforbusiness/hybrid/plan-cloud-voicemail)。
 
 ## <a name="cloud-voicemail-storage"></a>云语音邮件存储
 
-由 云语音邮件 生成的语音邮件将传递到用户的 Exchange 邮箱并存储在Exchange Online中或Exchange Server。 没有用于语音邮件的特定存储或其他存储空间。 访问语音邮件的 (例如，Microsoft Outlook、Microsoft Teams 或 Skype for Business) 通过 Exchange 邮箱和提供的 API 来访问语音邮件。
+云语音邮件生成的语音邮件将传送到用户的Exchange邮箱中，无论是在Exchange Online中还是在Exchange Server中。 语音邮件没有特定存储或附加存储空间。 访问语音邮件 (的客户端，例如 Microsoft Outlook、Microsoft Teams 或Skype for Business) 通过Exchange邮箱和提供的 API 执行此操作。
 
-语音邮件包含附加的音频文件，其中包含语音消息和语音邮件听录 (（如果) ）。
+语音邮件包含附加的音频文件，其中包含语音消息和语音邮件听录 (（如果启用）) 。
 
-用户的Exchange邮箱存储任何自定义录制的问候语。 这些问候语由 云语音邮件传入呼叫期间根据需要检索。
+用户Exchange邮箱存储任何自定义录制的问候语。 在传入呼叫期间，云语音邮件会根据需要检索这些问候语。
 
 ## <a name="cloud-voicemail-processing"></a>云语音邮件处理
 
-从路由到云语音邮件的Microsoft 365开始录制和听录云语音邮件。 然后，邮件将传递到用户的邮箱Exchange邮箱。
+云语音邮件的录制和听录从Microsoft 365开始，从路由到云语音邮件的呼叫的来源开始。 然后，邮件将传递到用户的Exchange邮箱。
 
-例如，如果呼叫通过会话边界控制器 (SBC) 进入不可用的直接路由用户，则语音邮件录制和听录在欧洲完成。 然后，邮件将传递到用户的邮箱Exchange邮箱。 另举一例，假设Teams用户北美调用欧洲Teams不可用的用户。 在这种情况下，呼叫从 北美 开始，处理发生在 北美 中，然后将语音邮件传送到用户的 Exchange 邮箱。
+例如，如果通过会话边界控制器 (欧洲的 SBC) 向不可用的直接路由用户发出呼叫，则语音邮件录制和听录将在欧洲完成。 然后，邮件将传递到用户的Exchange邮箱。 对于另一个示例，假定北美中的Teams用户在欧洲调用不可用的Teams用户。 在这种情况下，呼叫从北美开始，处理在北美中进行，然后语音邮件传送到用户在欧洲的Exchange邮箱。
 
-与任何其他电子邮件一样，Exchange使用简单的邮件传输协议 (SMTP) 将语音邮件传递到其他邮箱。
+将语音邮件传递到Exchange邮箱是使用简单邮件传输协议 (SMTP) 执行的，就像任何其他电子邮件一样。
 
-## <a name="manage-cloud-voicemail-for-users"></a>管理云语音邮件用户的用户
+## <a name="manage-cloud-voicemail-for-users"></a>为用户管理云语音邮件
 
-若要云语音邮件用户的功能，请使用 powerShell Teams，如下所示。
+若要为用户管理云语音邮件功能，请使用 Teams PowerShell 模块，如下所示。
 
-若要管理云语音邮件组用户的功能，请使用 [New-CsOnlineVoicemailPolicy](/powershell/module/skype/new-csonlinevoicemailpolicy) cmdlet。
-你可以为呼叫应答规则、语音邮件听录、听录亵渎内容屏蔽、听录翻译和系统提示语言等功能配置和分配现有或新的语音邮件策略。 有关详细信息，请参阅 [New-CsOnlineVoicemailPolicy](/powershell/module/skype/new-csonlinevoicemailpolicy)。
+若要管理云语音邮件用户组的功能，请使用 [New-CsOnlineVoicemailPolicy](/powershell/module/skype/new-csonlinevoicemailpolicy) cmdlet。
+可以针对呼叫应答规则、语音邮件听录、听录亵渎屏蔽、听录翻译和系统提示语言等功能配置和分配现有或新的语音邮件策略。 有关详细信息，请参阅 [New-CsOnlineVoicemailPolicy](/powershell/module/skype/new-csonlinevoicemailpolicy)。
 
-若要管理云语音邮件用户设置，请使用 [Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings) cmdlet。 云语音邮件用户设置包括呼叫应答规则、提示语言、默认文本到语音和假期问候语。 有关详细信息，请参阅 [Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings)。
- (请注意，最终用户 -> 还可以在 Teams 客户端中配置这些设置，只需设置 **CallsConfigure** ->  **Voicemail**.) 
+若要管理单个用户的云语音邮件设置，请使用 [Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings) cmdlet。 可以应用于单个用户的云语音邮件设置包括呼叫应答规则、提示语言、语音默认文本和假期问候语。 有关详细信息，请参阅 [Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings)。
+ (请注意，最终用户还可以通过转到 **设置****CallsConfigure** ->  Voicemail.) 在 Teams  ->  客户端中配置这些设置
 
-还可使用 [Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings) cmdlet 云语音邮件将 VoicemailEnabled 参数设置为 $false。 此设置将确保云语音邮件不再为用户录制语音邮件。
+还可以使用 [Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings) cmdlet 将 VoicemailEnabled 参数设置为$false，为用户禁用云语音邮件。 此设置将确保云语音邮件无法再为用户录制语音邮件。
 
-## <a name="control-routing-of-calls-to-cloud-voicemail"></a>控制对调用的路由云语音邮件
+## <a name="control-routing-of-calls-to-cloud-voicemail"></a>控制调用云语音邮件的路由
 
-为 云语音邮件 预配的所有用户的默认设置是允许将调用路由到 云语音邮件，以及允许用户将呼叫转发到 云语音邮件。
+为云语音邮件预配的所有用户的默认设置是允许路由对云语音邮件的调用，并允许用户将呼叫转发到云语音邮件。
 
-可以通过将 Set-CsTeamsCallingPolicy cmdlet 与 AllowVoicemail 参数云语音邮件将调用路由到 Teams。 有关详细信息，请参阅 [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)。
+可以通过将Set-CsTeamsCallingPolicy cmdlet 与 AllowVoicemail 参数配合使用，控制是否允许Teams用户路由对云语音邮件的调用。 有关详细信息，请参阅 [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)。
 
-- 如果将 AllowVoicemail 设置为 AlwaysDisabled，则无论用户的呼叫转发或未接听设置如何，呼叫都永远不会路由到语音邮件。 语音邮件不能作为呼叫转发或呼叫呼叫中未Teams。
+- 如果将 AllowVoicemail 设置为 AlwaysDisabled，则调用永远不会路由到语音邮件，无论用户的呼叫转发或未答复的设置如何。 语音邮件在Teams中不可用作呼叫转接或未应答设置。
 
-- 如果将 AllowVoicemail 设置为 AlwaysEnabled，则呼叫始终在响铃 30 秒后转发到未接听的语音邮件 - 无论用户的未接听呼叫转发设置如何。
+- 如果将 AllowVoicemail 设置为 AlwaysEnabled，则在响铃 30 秒后，呼叫始终会转发到未答复的语音邮件中，而不管用户的呼叫转发设置如何。
 
-- 如果将 AllowVoicemail 设置为 UserOverride，则呼叫将基于用户的呼叫转发和/或未答设置转发到语音邮件。
+- 如果将 AllowVoicemail 设置为 UserOverride，则会根据用户的呼叫转接和/或未应答设置将呼叫转发到语音邮件。
 
-## <a name="set-up-cloud-voicemail-to-work-with-on-premises-users"></a>设置云语音邮件本地用户
+## <a name="set-up-cloud-voicemail-to-work-with-on-premises-users"></a>设置云语音邮件以与本地用户协作
 
-您可以使用 云语音邮件 为您的 Exchange 服务器上具有邮箱的用户或正在使用邮箱的用户提供语音邮件Skype for Business Server。
+可以使用云语音邮件为在Exchange服务器上拥有邮箱的用户或使用Skype for Business Server的用户提供语音邮件功能。
 
-本部分介绍如何为邮箱云语音邮件设置Exchange Server组。 若要了解如何为云语音邮件配置Skype for Business Server，请参阅[为云语音邮件用户规划服务](/skypeforbusiness/hybrid/plan-cloud-voicemail)。
+本部分介绍如何为Exchange Server邮箱用户设置云语音邮件。 有关如何为Skype for Business Server用户配置云语音邮件的信息，[请参阅本地用户的计划云语音邮件服务](/skypeforbusiness/hybrid/plan-cloud-voicemail)。
 
-### <a name="set-up-cloud-voicemail-for-exchange-server-mailbox-users"></a>为云语音邮件用户Exchange Server设置邮箱
+### <a name="set-up-cloud-voicemail-for-exchange-server-mailbox-users"></a>为Exchange Server邮箱用户设置云语音邮件
 
-以下信息用于配置云语音邮件，以便Teams邮箱位于 Exchange Server 的用户。
+以下信息介绍如何将云语音邮件配置为与Exchange Server上有邮箱的Teams用户配合使用。
 
-1. 语音邮件通过 SMTP 通过 Exchange 发送到用户的邮箱Exchange Online Protection。 若要成功传递这些消息，请确保在 Exchange 服务器和服务器之间正确配置Exchange连接器Exchange Online Protection。 有关详细信息，请参阅[使用连接器配置邮件Flow](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)。
+1. 语音邮件通过通过Exchange Online Protection路由的 SMTP 传递到用户的Exchange邮箱。 若要成功传递这些消息，请确保在Exchange服务器和Exchange Online Protection之间正确配置了Exchange连接器。 有关详细信息，请参阅[使用连接器配置邮件Flow](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)。
 
-2. 若要在客户端中启用语音邮件功能，例如自定义Teams和可视语音邮件，必须在 Microsoft 365 和 Exchange Server 邮箱之间设置连接。 若要启用此连接，必须配置配置 Exchange 与 Exchange Online 组织之间的 [OAuth](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help) 身份验证中所述的新 Exchange Oauth 身份验证协议，或者从 Exchange 2013 CU5 或更高版运行 Exchange 混合向导。 此外，还必须在 Teams 和 Exchange Server 之间配置集成和 [OAuth 中所述Teams OAuth Exchange Server](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)。
+2. 若要在Teams客户端中启用语音邮件功能（例如自定义问候语和视觉语音邮件），必须设置Microsoft 365与Exchange Server邮箱之间的连接。 若要启用此连接，必须配置Exchange和Exchange Online[组织之间配置 OAuth 身份验证中所述的新Exchange Oauth 身份验证](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)协议，或从 Exchange 2013 CU5 或更高版本运行Exchange混合向导。 还必须在Teams和Exchange Server之间的配置集成和 OAuth 中所述的Teams[和Exchange Server之间配置集成和 Oauth](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)。
 
 ## <a name="enable-protected-voicemail-in-your-organization"></a>在组织中启用受保护的语音邮件
 
-当某人为您的组织中的用户留下语音邮件时，语音邮件作为电子邮件附件传送到用户的邮箱。 
+当某人为组织中的用户留下语音邮件时，语音邮件将作为电子邮件附件传递到用户的邮箱。 
 
-使用Microsoft 信息保护，您可以加密内部和外部呼叫者留下的语音邮件。 还可以阻止用户转发这些消息。 具有邮箱的用户支持Exchange Online此功能。
+使用 Microsoft Purview 信息保护，可以加密内部和外部调用方留下的语音邮件。 还可以阻止用户转发这些消息。 具有Exchange Online邮箱的用户支持此功能。
 
-若要加密语音邮件，可以创建敏感度标签。 使用自动标记功能，你可以确保自动将标签应用于传入的语音邮件。 
+若要加密语音邮件，可以创建敏感度标签。 使用自动标记功能，可以确保将标签自动应用于传入的语音邮件。 
 
-启用受保护的语音邮件后，用户可以通过呼叫进入其语音邮件邮箱或在 Outlook、Outlook 网页版 或 Outlook for Android 或 iOS 中打开该邮件来收听受保护的语音邮件。 受保护的语音邮件无法通过语音信箱或Microsoft Teams Skype for Business。
+启用受保护的语音邮件时，用户可以通过调用语音邮件邮箱或在 Android 或 iOS Outlook、Outlook 网页版 或Outlook中打开邮件来收听受保护的语音邮件。 无法在Microsoft Teams或Skype for Business中打开受保护的语音邮件。
 
-若要为语音邮件创建敏感度标签，请参阅 [使用敏感度标签](/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions)。 在" **加密** "部分中， **选择"允许用户在应用标签时分配权限"**。 选择 **"Outlook"，强制实施** 以下限制之一，然后选择"**不转发"** 选项。
+若要为语音邮件创建敏感度标签，请参阅 [“使用敏感度标签](/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions)”。 在 **“加密”** 部分，选择 **“允许用户在应用标签时分配** 权限”。 **在Outlook中选择，强制实施以下限制之一**，然后选择 **“不转发”** 选项。
 
-若要创建自动标记策略以将敏感度标签应用到语音邮件，请参阅如何配置自动 [标记](/microsoft-365/compliance/apply-sensitivity-label-automatically?view=o365-worldwide#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange)策略，并指定以下特定设置：
+若要创建自动标记策略以将敏感度标签应用于语音邮件，请参阅 [如何配置自动标记策略](/microsoft-365/compliance/apply-sensitivity-label-automatically?view=o365-worldwide#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange)，并指定以下特定设置：
 
--   对于 **"选择要应用此标签的信息"，请选择**" **自定义策略"**。
+-   对于 **要应用此标签的“选择”信息**，请选择 **“自定义策略**”。
 
--   对于 **"选择要应用标签的位置"**，请选择"位置：Exchange **所有用户使用"**
+-   对于 **要应用标签的“选择位置**”，请选择 **“位置”：所有用户Exchange**。
 
--   对于  **"设置常见规则"或"高级规则"**，请选择" **高级规则"**。
+-   对于  **设置通用或高级规则**，请选择 **“高级规则**”。
 
 - Exchange规则：
     - 条件：<br>
         - **标头匹配模式：**<br>
               Content-Class = Voice-CA
-       -  **发送方 IP 地址为：**<br>
+       -  **发件人 IP 地址为：**<br>
                13.107.64.0/18, 52.112.0.0/14, 52.120.0.0/14, 52.238.119.141/32, 52.244.160.207/32
 
-- 对于 **"选择要自动应用的标签"**，请选择在以上步骤中为语音邮件创建的敏感度标签。
+- 若 **要选择要自动应用的标签**，请在上面的步骤中选择为语音邮件创建的敏感度标签。
 
-- 有关 **电子邮件的其他设置，请选择****"对从** 组织外部收到的电子邮件应用加密"，并指定权限管理所有者。
+- 有关 **电子邮件的其他设置**，请选择“ **对从组织外部收到的电子邮件应用加密**”，并指定权限管理所有者。
 
-发件人 IP 地址中指定的 IP V4 范围基于 URL 和 IP 地址范围中 ID 12 Office 365[列表](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide#skype-for-business-online-and-microsoft-teams)。
+发件人 IP 地址中指定的 IP V4 范围基于 ID 12 中[Office 365 URL 和 IP 地址范围中的](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide#skype-for-business-online-and-microsoft-teams)列表。
 
-有关邮件加密详细信息，请参阅定义邮件 [流规则以加密电子邮件](/microsoft-365/compliance/define-mail-flow-rules-to-encrypt-email)。
+有关邮件加密的详细信息，请参阅 [“定义邮件流规则”来加密电子邮件](/microsoft-365/compliance/define-mail-flow-rules-to-encrypt-email)。
 
 ## <a name="help-your-users-learn-about-cloud-voicemail-features"></a>帮助用户了解云语音邮件功能
 
-若要帮助用户了解如何使用和管理云语音邮件，可以推荐以下文章：
+若要帮助用户了解如何使用和管理云语音邮件功能，可以推荐以下文章：
 
-- [在语音信箱中Teams](https://support.microsoft.com/office/check-your-voicemail-in-teams-f8d568ce-7329-4fe2-a6a2-325ec2e2b419)
-- [在通话中管理Teams](https://support.microsoft.com/office/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
+- [在Teams中检查语音邮件](https://support.microsoft.com/office/check-your-voicemail-in-teams-f8d568ce-7329-4fe2-a6a2-325ec2e2b419)
+- [在Teams中管理呼叫设置](https://support.microsoft.com/office/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)

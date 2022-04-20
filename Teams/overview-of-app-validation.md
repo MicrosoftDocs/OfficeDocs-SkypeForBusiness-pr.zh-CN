@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fa6a03c5408afcd7cce1d3e48b78b3b1ddb3675a
-ms.sourcegitcommit: b70f01d7eae2e3e6f7495c685518a2037aaece31
+ms.openlocfilehash: a916d6bdd57c2956c076461d7f36df64d5c503d9
+ms.sourcegitcommit: 745d707ec63685ce7f973785e7056628472b9c45
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/11/2022
-ms.locfileid: "64756988"
+ms.lasthandoff: 04/18/2022
+ms.locfileid: "64910898"
 ---
 # <a name="validation-performed-by-microsoft-for-all-teams-apps"></a>Microsoft 对所有 Teams 应用执行的验证
 
@@ -53,14 +53,6 @@ Microsoft 要求所有应用在应用商店中上架以供最终使用之前通�
 * ISV 的联系人详细信息可在应用商店一览及其各自的[发布者证明页面](/microsoft-365-app-certification/teams/teams-apps)上找到。
 
 此外，Microsoft 鼓励应用开发人员参与其合规性计划，这是一种严格的双层方法，可确保应用质量、安全性、合规性。 Teams 应用商店中有数百个超越了已经很详尽的验证准则并符合这些计划的应用。
-
-## <a name="publisher-verification"></a>发布者验证
-
-应用开发人员必须先进行验证，然后才能将其应用提交给 Microsoft。 发布者使用其 Microsoft 合作伙伴网络 (MPN) 帐户验证其身份，并将此 MPN 帐户与其应用注册相关联。 发布者验证可帮助管理员和终端用户了解到与 Microsoft 标识平台集成的应用开发人员的真实性。 发布者验证具有以下优势：
-
-* 提高了客户的透明度和风险降低 - 此功能可帮助客户了解他们信任的开发人员发布的组织中使用的应用。
-* 改进了品牌打造 - `verified` 徽章会显示在 Azure Active Directory 许可提示、企业应用页面以及最终用户和管理员使用的其他用户界面上。
-* 更顺畅的企业采用 - 管理员可以配置用户同意策略，将发布者验证状态作为主要策略条件。
 
 ## <a name="see-also"></a>另请参阅
 

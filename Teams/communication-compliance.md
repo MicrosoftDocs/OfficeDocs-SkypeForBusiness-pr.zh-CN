@@ -16,16 +16,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b4ab8adcbe4a717e62e0dff66ecf00fb1650e31b
-ms.sourcegitcommit: 823ad7fe5f7a27f681c95b2d369ce2cbe71cfdfe
+ms.openlocfilehash: 091fe5eba9d17cefc442978cb3090aaca87844d8
+ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "64691447"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "64922643"
 ---
 # <a name="communication-compliance-with-microsoft-teams"></a>与Microsoft Teams的通信合规性
 
-通信合规性是Microsoft 365中的内部风险解决方案，可帮助你检测、捕获和处理组织中的不当消息，从而最大限度地降低通信风险。
+Microsoft Purview 通信合规性是Microsoft 365中的内部风险解决方案，可帮助你检测、捕获和处理组织中的不当消息，从而最大程度地降低通信风险。
 
 对于Microsoft Teams，通信合规性有助于识别Teams频道、专用Teams频道或 1：1 和群聊中的[以下类型](/microsoft-365/compliance/communication-compliance-feature-reference)不当内容：
 
@@ -33,7 +33,7 @@ ms.locfileid: "64691447"
 - 成人、活泼和血腥图像
 - 共享敏感信息
 
-有关通信合规性以及如何为组织配置策略的详细信息，请参阅[Microsoft 365中的通信符合性](/microsoft-365/compliance/communication-compliance)。 有关包含通信合规性的Microsoft 365订阅的信息，请参[阅预览体验成员风险解决方案](/microsoft-365/compliance/insider-risk-solution-overview#communication-compliance)。
+有关通信合规性以及如何为组织配置策略的详细信息，请 [参阅了解通信合规性](/microsoft-365/compliance/communication-compliance)。
 
 ## <a name="how-to-use-communication-compliance-in-microsoft-teams"></a>如何在Microsoft Teams中使用通信符合性
 
@@ -53,7 +53,7 @@ Teams管理员可以在以下级别配置通信符合性策略：
 >[!NOTE]
 >从 2022 年 5 月开始，用户报告的消息将开始提供给获得[通信合规性和](/microsoft-365/compliance/communication-compliance-configure#subscriptions-and-licensing)Microsoft Teams许可的组织。 此功能应在 2022 年 8 月 31 日之前适用于所有许可组织。
 
-默认情况下，Teams消息中的"*报告关注*"选项已启用，可以通过Teams [管理中心](/microsoftteams/manage-teams-in-modern-portal)中的Teams消息传送策略进行控制。 这允许组织中的用户提交不适当的消息，供通信合规性评审者对策略进行评审。 有关通信合规性中用户报告的消息的详细信息，请参阅 [通信符合性策略](/microsoft-365/compliance/communication-compliance-policies#user-reported-messages-policy)。
+默认情况下，Teams消息中的“*报告关注*”选项已启用，可以通过Teams [管理中心](/microsoftteams/manage-teams-in-modern-portal)中的Teams消息传送策略进行控制。 这允许组织中的用户提交不适当的消息，供通信合规性评审者对策略进行评审。 有关通信合规性中用户报告的消息的详细信息，请参阅 [通信符合性策略](/microsoft-365/compliance/communication-compliance-policies#user-reported-messages-policy)。
 
 ![报告关注菜单。](./media/communication-compliance-report-a-concern-full-menu.png)
 

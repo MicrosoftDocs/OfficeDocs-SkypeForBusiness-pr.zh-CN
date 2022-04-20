@@ -14,28 +14,28 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
-description: 了解如何使用 Microsoft 365 合规中心 中的内容搜索搜索 Microsoft Teams 存储在 Exchange Online、SharePoint Online、OneDrive for Business 和 OneNote 中的内容。
+description: 了解如何在 Microsoft Purview 合规性门户中使用内容搜索来搜索存储在 Exchange Online、SharePoint Online、OneDrive for Business 和 OneNote 中的Microsoft Teams内容。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6810355304371564a2a305c82290df7667f5efd41889e598021636cc9ccd11d4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 00de0bb3ecdcaf6dc674f08438b896abaaa49448
+ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54278210"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "64922473"
 ---
-# <a name="use-content-search-in-microsoft-teams"></a>在"搜索"中Microsoft Teams
+# <a name="use-content-search-in-microsoft-teams"></a>在Microsoft Teams中使用内容搜索
 
 > [!NOTE]
-> 在专用通道中对消息和文件 [进行](private-channels.md) 内容搜索的方式与在标准通道中不同。 若要了解有关详细信息，请参阅 [专用频道的内容搜索](#content-search-of-private-channels)。
+> [在专用频道](private-channels.md)中对消息和文件的内容搜索的工作方式不同于标准频道中的内容搜索。 若要了解详细信息，请参阅 [专用频道的内容搜索](#content-search-of-private-channels)。
 
-内容搜索提供了一种方法，Microsoft Teams跨 Exchange、SharePoint Online 和 OneDrive for Business。
+内容搜索提供了一种查询跨Exchange、SharePoint联机和OneDrive for Business Microsoft Teams信息的方法。
 
-若要了解有关详细信息，请参阅[在 中搜索Microsoft 365。](/microsoft-365/compliance/content-search)
+若要了解详细信息，请参阅[Microsoft 365中的内容搜索](/microsoft-365/compliance/content-search)。
 
-例如，对制造规范邮箱和制造规范 SharePoint 网站使用内容搜索，可以搜索 Exchange 中的 Teams 标准频道对话、SharePoint Online 中的文件上传和修改以及 OneNote 更改。
+例如，对“制造规范”邮箱和制造规范SharePoint网站使用 **内容搜索**，可以搜索来自Exchange的Teams标准频道对话、文件上传和来自 SharePoint Online 的修改，以及OneNote更改。
 
-还可以向内容搜索添加查询 **条件，** 以缩小返回的结果范围。 在以上示例中，可以查找使用了关键字"**新工厂规范"** 的内容。
+还可以将查询条件添加到 **内容搜索** ，以缩小返回的结果范围。 在上面的示例中，可以查找使用关键字“**新建工厂规范”** 的内容。
 
 > [!TIP]
 > 添加搜索条件后，可以将报表或实际内容导出到计算机进行分析。
@@ -44,22 +44,22 @@ ms.locfileid: "54278210"
 
 在私人频道中发送的消息记录将传递到所有私人频道成员的邮箱，而不是传递到组邮箱。 记录的标题已格式化为指示它们是从哪个私人频道发送的。
 
-由于每个专用频道都有自己的SharePoint网站集，独立于父团队网站，因此专用频道中的文件独立于父团队进行管理。
+由于每个专用频道都有自己的SharePoint与父团队网站分开的网站集，因此专用频道中的文件独立于父团队进行管理。
 
-Teams不支持单个频道的内容搜索，因此必须搜索整个团队。 若要执行专用频道的内容搜索，请在整个团队中搜索、与专用频道 (关联的网站集以包含文件) ，以及专用频道成员的邮箱 (以包含) 。
+Teams不支持单个频道的内容搜索，因此必须搜索整个团队。 若要对专用频道执行内容搜索，请在团队中进行搜索，与专用频道关联的网站集 (包含文件) ，以及 (包含邮件) 的专用频道成员的邮箱。
 
-使用以下步骤识别专用通道中的文件和消息，以包括在内容搜索中。
+使用以下步骤标识专用通道中要包含在内容搜索中的文件和消息。
 
 ### <a name="include-private-channel-files-in-a-content-search"></a>在内容搜索中包括专用频道文件
 
-执行这些步骤之前，请安装[SharePoint Online 命令行管理程序并连接到 SharePoint Online。](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)
+在执行这些步骤之前，请安装 [SharePoint Online Management Shell 并连接到 SharePoint Online](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)。
 
-1. 运行以下代码，获取与SharePoint专用频道关联的所有网站集的列表。
+1. 运行以下命令，获取与团队中的专用频道关联的所有SharePoint网站集的列表。
 
     ```PowerShell
     Get-SPOSite
     ```
-2. 运行以下 PowerShell 脚本，获取与团队中专用SharePoint关联的所有网站集 URL 的列表，以及父团队组 ID。
+2. 运行以下 PowerShell 脚本，获取与团队中的专用频道和父团队组 ID 关联的所有SharePoint网站集 URL 的列表。
 
     ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
@@ -75,20 +75,20 @@ Teams不支持单个频道的内容搜索，因此必须搜索整个团队。 �
 
 ### <a name="include-private-channel-messages-in-a-content-search"></a>在内容搜索中包括专用频道消息
 
-执行这些步骤之前，请确保已安装最新版本Teams [PowerShell 模块](teams-powershell-overview.md)。
+在执行这些步骤之前，请确保已安装[最新版本的 Teams PowerShell 模块](teams-powershell-overview.md)。
 
-1. 运行以下代码，获取团队中的专用频道列表。
+1. 运行以下命令以获取团队中专用频道的列表。
 
     ```PowerShell
     Get-TeamChannel -GroupId <GroupID> -MembershipType Private
     ```
-2. 运行以下代码获取专用频道成员的列表。
+2. 运行以下命令以获取专用频道成员的列表。
 
     ```PowerShell
     Get-TeamChannelUser -GroupId <GroupID> -DisplayName "Engineering" -Role Member
     ```
-3. 在内容搜索查询中包括团队中每个专用频道中所有成员的邮箱。
+3. 将团队中每个专用频道中所有成员的邮箱作为内容搜索查询的一部分。
 
 ## <a name="related-topics"></a>相关主题
 
-- [Microsoft 365合规中心中的电子数据展示事例](/Office365/SecurityCompliance/ediscovery-cases)
+- [Microsoft Purview 合规性门户中的电子数据展示案例](/Office365/SecurityCompliance/ediscovery-cases)

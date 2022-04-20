@@ -22,12 +22,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 712f0fe4fbfd6a4374b42df7a1e881149a7713d8
-ms.sourcegitcommit: 3beef904411a9d5787a73678464003a868630649
+ms.openlocfilehash: e2e0238439bb79a7ca7833ef082f4f499c082aa9
+ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64817693"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "64922613"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft Teams的安全性和符合性
 
@@ -97,31 +97,31 @@ Microsoft Teams桌面应用程序支持 AppLocker。  有关 AppLocker 先决条
 
 ## <a name="compliance"></a>合规性
 
-Teams提供广泛的信息来帮助你了解合规性领域，包括频道、聊天和附件的通信符合性、保留策略、数据丢失保护 (DLP) 、电子数据展示和法律保留、频道、聊天和文件、审核日志搜索以及使用 Microsoft Intune 进行移动应用程序管理。 我们提供了有关下面所有这些主题的一些信息，你可以转到[Microsoft 365 合规中心](https://compliance.microsoft.com)来管理这些设置。
+Teams提供了各种信息来帮助你了解合规性领域，包括频道、聊天和附件的通信合规性、保留策略、数据丢失防护 (DLP) 、电子数据展示和法律保留、聊天和文件、审核日志搜索以及使用Microsoft Intune的移动应用程序管理。 我们提供了有关下面所有这些主题的一些信息，你可以转到[Microsoft 365 合规中心](https://compliance.microsoft.com)来管理这些设置。
 
 ### <a name="information-barriers"></a>信息屏障
 
-信息屏障是Teams管理员实施的策略，用于在不需要人员或组进行通信 (，或者出于法规原因阻止他们这样做) ，它还允许您设置与查阅和电子数据展示 (下) 所涵盖的相关策略。 这些策略可能会影响 1：1 聊天、群聊或团队级别的用户。 信息屏障功能在公有云中可用，从 2021 年 1 月开始，它已推出到GCC云。
+Microsoft Purview 信息屏障是Teams管理员制定的策略，用于在用户或组无需业务需求时 (彼此通信，或者出于法规原因阻止他们这样做) ，它还允许你设置与查阅和电子数据展示 (下) 所述的相关策略。 这些策略可能会影响 1：1 聊天、群聊或团队级别的用户。 信息屏障功能在公有云中可用，从 2021 年 1 月开始，它已推出到GCC云。
 
 若要进一步阅读本主题，请转到[Microsoft Teams中的信息障碍](information-barriers-in-teams.md)。
 
 ### <a name="communication-compliance"></a>通信合规性
 
-通过Microsoft 365中的通信符合性，可以将用户添加到可配置为检查Microsoft Teams通信的范围内策略，了解攻击性语言、敏感信息以及与内部和法规标准相关的信息。 可以扫描公共和专用Teams频道、单个聊天和附件中的聊天通信和关联附件，以帮助最大程度地降低组织中的通信风险。 有关如何配置策略以帮助检测、捕获和采取不适当Teams通信操作的详细信息，请参阅[Microsoft 365中的通信合规性](/microsoft-365/compliance/communication-compliance)。
+Microsoft Purview 通信符合性允许你将用户添加到可配置为检查Microsoft Teams通信的范围内策略，以了解攻击性语言、敏感信息以及与内部和法规标准相关的信息。 可以扫描公共和专用Teams频道、单个聊天和附件中的聊天通信和关联附件，以帮助最大程度地降低组织中的通信风险。 有关如何配置策略以帮助检测、捕获和采取不适当Teams通信操作的详细信息，请参阅[了解通信合规性](/microsoft-365/compliance/communication-compliance)。
 
 ### <a name="sensitivity-labels"></a>敏感度标签
 
 应用 [敏感度标签](/microsoft-365/compliance/sensitivity-labels) 来保护和规范对团队内协作期间创建的敏感组织内容的访问。 例如，应用用于配置团队公共或专用)  (隐私、控制来宾访问和外部共享以及管理来自非托管设备的访问的标签。 有关详细信息，请查看[Microsoft Teams中的敏感度标签](sensitivity-labels.md)。
 
-### <a name="data-loss-prevention-dlp"></a>数据丢失防护 (DLP) 
+### <a name="microsoft-purview-data-loss-prevention-dlp"></a>Microsoft Purview 数据丢失防护 (DLP) 
 
-Microsoft Teams中的数据丢失防护 (DLP) ，以及Microsoft 365或Office 365的较大 DLP 故事，围绕在保护敏感文档和数据方面的业务准备情况展开。 无论你对消息或文档中的敏感信息有顾虑，DLP 策略都可以帮助确保用户不会与错误的人共享此敏感数据。
+数据丢失防护 (Microsoft Teams中的 DLP) ，以及 Microsoft Purview 的较大 DLP 故事，围绕在保护敏感文档和数据方面的业务准备情况展开。 无论你对消息或文档中的敏感信息有顾虑，DLP 策略都可以帮助确保用户不会与错误的人共享此敏感数据。
 
-有关Teams中的数据丢失防护的信息，请查看 [DLP 以获取Microsoft Teams](/microsoft-365/compliance/dlp-microsoft-teams)。 O365 DLP 关注的一篇好文章是 [数据丢失防护概述](/microsoft-365/compliance/data-loss-prevention-policies)。
+有关Teams中的数据丢失防护的信息，请查看 [DLP 以获取Microsoft Teams](/microsoft-365/compliance/dlp-microsoft-teams)。 DLP 关注的一篇好文章是 [了解数据丢失防护](/microsoft-365/compliance/dlp-learn-about-dlp)。
 
 ### <a name="customer-key"></a>客户密钥
 
-Microsoft 365在内容的服务加密的基础上提供额外的加密层。 使用你提供的密钥，客户密钥在Microsoft Teams中加密多种不同类型的数据。 在应用程序级别使用客户密钥，客户密钥将加密Teams存储在 SharePoint Online 中的文件。 有关信息，请参阅 [使用客户密钥进行服务加密](/microsoft-365/compliance/customer-key-overview)。 
+Microsoft 365在内容的服务加密的基础上提供额外的加密层。 使用你提供的密钥，客户密钥在Microsoft Teams中加密多种不同类型的数据。 在应用程序级别使用客户密钥，客户密钥将加密Teams存储在 SharePoint Online 中的文件。 有关信息，请参阅 [Microsoft Purview 客户密钥的服务加密](/microsoft-365/compliance/customer-key-overview)。
 
 在租户级别使用客户密钥，客户密钥加密：
 - Teams聊天消息 (1：1 聊天、群集聊天、会议聊天和频道对话) 
@@ -129,7 +129,9 @@ Microsoft 365在内容的服务加密的基础上提供额外的加密层。 使
 - Teams存储在 Teams 存储中的呼叫和会议录制
 - Teams聊天通知
 - 通过Cortana Teams聊天建议
-- Teams状态消息有关详细信息，请参阅[租户级别Microsoft 365的客户密钥概述](/microsoft-365/compliance/customer-key-tenant-level)，并阅读Microsoft Teams博客，其中介绍[客户密钥对公共预览版中Microsoft Teams的支持](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/customer-key-support-for-microsoft-teams-now-in-public-preview/ba-p/1999893)。 有关在租户级别包含客户密钥的Microsoft 信息保护版本的信息，请阅读[“宣布新的Microsoft 信息保护功能，以了解和保护敏感数据](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-new-microsoft-information-protection-capabilities-to/ba-p/1999692)。
+- Teams状态消息
+
+有关详细信息，请参阅[租户级别的客户密钥概述](/microsoft-365/compliance/customer-key-tenant-level)，并阅读Microsoft Teams博客，其中介绍了[客户密钥对公共预览版中Microsoft Teams的支持](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/customer-key-support-for-microsoft-teams-now-in-public-preview/ba-p/1999893)。 有关在租户级别包含客户密钥的Microsoft 信息保护版本的信息，请阅读[“宣布新的Microsoft 信息保护功能，以了解和保护敏感数据](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-new-microsoft-information-protection-capabilities-to/ba-p/1999692)。
 
 ### <a name="retention-policies"></a>保留策略
 
@@ -139,7 +141,7 @@ Microsoft Teams中的保留策略允许你保留组织出于法规、法律、�
 
 电子发现（即电子数据展示）是识别、收集和生成电子存储信息的电子方面， (ESI) 响应法律诉讼或调查中生产的要求。 功能包括事例管理、保存、搜索、分析和导出Teams数据。 这包括聊天、消息和文件、会议和通话摘要。 对于Teams会议和通话，会在电子数据展示中创建和提供会议和呼叫中发生的事件摘要。
 
-有关如何在Microsoft 365 合规中心中使用电子数据展示工具搜索Teams内容的更多详细信息，请转到以下链接：
+有关如何在 Microsoft Purview 合规性门户中使用电子数据展示工具搜索Teams内容的更多详细信息，请转到以下链接：
 
 - [电子数据展示](/microsoft-365/compliance/manage-legal-investigations)
 
@@ -169,11 +171,11 @@ Microsoft Teams中的保留策略允许你保留组织出于法规、法律、�
 
 在任一情况下，设置保留后，它确保即使最终用户删除或编辑组邮箱中的频道邮件，该内容的不可变副本也可通过电子数据展示搜索进行维护和提供。 法律保留通常在电子数据展示案例的上下文中适用。
 
-请参阅[保留策略概述](/microsoft-365/compliance/retention-policies)，了解有关保留和保留Microsoft 365 合规中心的详细信息。 有关法律保留的更多特定Teams信息，我们还让[Microsoft Teams用户或团队处于法定保留状态](legal-hold.md)，以便你了解详细信息。
+请参阅 [保留策略概述](/microsoft-365/compliance/retention-policies) ，详细了解 Microsoft Purview 合规性门户中的保留和保留。 有关法律保留的更多特定Teams信息，我们还让[Microsoft Teams用户或团队处于法定保留状态](legal-hold.md)，以便你了解详细信息。
 
 ### <a name="content-search"></a>内容搜索
 
-内容搜索可用于通过丰富的筛选功能搜索所有Teams数据。 生成的数据可以导出到特定容器，以获得合规性和诉讼支持。 在有无电子数据展示案例的情况下，均可执行此操作。 这使合规性管理员能够跨所有用户收集Teams数据，查看并导出数据以供进一步处理。 请参阅[内容搜索](/microsoft-365/compliance/content-search)，详细了解如何在Microsoft 365 合规中心中对Microsoft Teams和其他Microsoft 365或Office 365内容进行合规性内容搜索。
+内容搜索可用于通过丰富的筛选功能搜索所有Teams数据。 生成的数据可以导出到特定容器，以获得合规性和诉讼支持。 在有无电子数据展示案例的情况下，均可执行此操作。 这使合规性管理员能够跨所有用户收集Teams数据，查看并导出数据以供进一步处理。 请参阅[内容搜索](/microsoft-365/compliance/content-search)，详细了解如何在 Microsoft Purview 合规性门户中对Microsoft Teams和其他Microsoft 365或Office 365内容进行合规性内容搜索。
 
 > [!TIP]
 > 使用内容搜索，可以根据需要筛选到仅Microsoft Teams内容，例如聊天和频道消息、会议和通话。
@@ -182,7 +184,7 @@ Microsoft Teams中的保留策略允许你保留组织出于法规、法律、�
 
 ### <a name="auditing"></a>审核
 
-审核日志搜索直接插入到Microsoft 365 合规中心中，并允许导出特定工作负载或泛型事件集，以便在不受限制的审核时间线中使用和调查，从而能够设置警报以及报告审核事件。 可以为Microsoft 365 合规中心中的所有审核日志数据设置警报，并筛选和导出此数据以进行进一步分析。 若要详细了解如何在Microsoft 365 合规中心中搜索Microsoft Teams事件，请[参阅在审核日志中搜索Microsoft Teams中的事件](audit-log-events.md)。
+审核日志搜索会直接插入 Microsoft Purview 合规性门户，并允许导出特定工作负载或泛型事件集，以便在不受限制的审核时间线中使用和调查，从而设置警报以及报告审核事件。 可以在 Microsoft Purview 合规性门户中为所有审核日志数据设置警报，并筛选和导出此数据以供进一步分析。 若要详细了解如何在 Microsoft Purview 合规性门户中搜索Microsoft Teams事件，请参阅[在审核日志中搜索Microsoft Teams中的事件](audit-log-events.md)。
 
 ## <a name="privacy"></a>隐私
 
@@ -214,7 +216,7 @@ Microsoft Teams中的保留策略允许你保留组织出于法规、法律、�
 有关确定许可需要实现安全性和合规性功能的信息，请查看安全性和合规性功能的 [许可要求](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance) 。
 
 > [!NOTE]
-> 无需在Microsoft 365 合规中心中启用内容搜索、核心电子数据展示和Advanced eDiscovery即可正常工作。 有关详细信息，请参阅[Microsoft 365电子数据展示解决方案](/microsoft-365/compliance/ediscovery)。
+> 无需在 Microsoft Purview 合规性门户中启用内容搜索、核心电子数据展示和Advanced eDiscovery即可正常工作。 有关详细信息，请参阅[Microsoft 365电子数据展示解决方案](/microsoft-365/compliance/ediscovery)。
 
 ## <a name="location-of-data-in-teams"></a>Teams 中的数据的位置
 
