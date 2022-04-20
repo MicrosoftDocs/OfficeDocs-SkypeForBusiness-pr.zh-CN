@@ -1,5 +1,5 @@
 ---
-title: 使用 PowerShell 将 Shifts 连接到 Blue Yonder Workforce Management
+title: 使用 PowerShell 将班次连接到 Blue Yonder 员工管理
 author: LanaChin
 ms.author: v-lanachin
 ms.reviewer: ''
@@ -15,31 +15,31 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9b78f45919649fda29f09ea338a160c2ab376c1a
-ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
+ms.openlocfilehash: ad0f7e84dcd65f844e457d4821717ff7593593ce
+ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "64593653"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "64976012"
 ---
-# <a name="use-powershell-to-connect-shifts-to-blue-yonder-workforce-management"></a>使用 PowerShell 将 Shifts 连接到 Blue Yonder Workforce Management
+# <a name="use-powershell-to-connect-shifts-to-blue-yonder-workforce-management"></a>使用 PowerShell 将班次连接到 Blue Yonder 员工管理
 
 ## <a name="overview"></a>概述
 
-使用 [Blue Yonder 的 Microsoft Teams Shifts](shifts-connectors.md#microsoft-teams-shifts-connector-for-blue-yonder) 连接器将 Microsoft Teams 中的 Shifts 应用与 Blue Yonder Workforce Management (Blue Yonder WFM) 。 设置连接后，一线员工可以从 Shifts 中无缝查看和管理 Blue Yonder WFM 中的计划。
+使用 [blue Yonder 的 Microsoft Teams Shifts 连接器](shifts-connectors.md#microsoft-teams-shifts-connector-for-blue-yonder)将 Microsoft Teams 中的 Shifts 应用与 Blue Yonder Workforce Management (Blue Yonder WFM) 集成。 建立连接后，一线工作人员可以从 Shifts 中无缝查看和管理 Blue Yonder WFM 中的日程安排。
 
-本文将演练如何使用 PowerShell 设置和配置连接器，以将 Shifts 与 Blue Yonder WFM 集成。
+本文介绍如何使用 PowerShell 设置和配置连接器以将 Shifts 与 Blue Yonder WFM 集成。
 
-若要设置连接，请运行 PowerShell 脚本。 该脚本配置连接器、应用同步设置、创建连接，以及将 Blue Yonder WFM 站点映射到团队。 同步设置确定 Shifts 中启用的功能，以及 Blue Yonder WFM 和 Shifts 之间同步的计划信息。 映射定义 Blue Yonder WFM 站点与云中团队Teams。 可以映射到现有团队和新团队。
+若要设置连接，请运行 PowerShell 脚本。 脚本配置连接器，应用同步设置，创建连接，并将 Blue Yonder WFM 站点映射到团队。 同步设置确定在 Shifts 中启用的功能以及在 Blue Yonder WFM 和 Shifts 之间同步的计划信息。 映射定义了 Blue Yonder WFM 站点与Teams中的团队之间的同步关系。 可以映射到现有团队和新团队。
 
-我们提供了两个脚本。 可以使用任一脚本，具体取决于是映射到现有团队还是创建新团队进行映射。
+我们提供两个脚本。 可以使用任一脚本，具体取决于是要映射到现有团队还是创建要映射到的新团队。
 
-可以设置多个连接，每个连接具有不同的同步设置。 例如，如果组织有多个具有不同计划要求的位置，请为每个位置创建具有唯一同步设置的连接。 请记住，在任何给定时间，蓝色 Yonder WFM 站点只能映射到一个团队。 如果网站已映射到团队，则不能映射到另一个团队。
+可以设置多个连接，每个连接都具有不同的同步设置。 例如，如果你的组织具有多个具有不同计划要求的位置，请为每个位置创建具有唯一同步设置的连接。 请记住，蓝色 Yonder WFM 站点只能在任何给定时间映射到一个团队。 如果网站已映射到团队，则无法将其映射到另一个团队。
 
-使用 Blue Yonder WFM 作为记录系统，一线员工可以在他们的设备上查看和调班、管理其可用性以及请求请假。 一线经理可以继续使用 Blue Yonder WFM 来设置计划。
+使用 Blue Yonder WFM 作为记录系统，一线工作人员可以在设备上的 Shifts 中查看和交换班次、管理其可用性和请求休假时间。 一线经理可以继续使用 Blue Yonder WFM 来设置计划。
 
 > [!NOTE]
-> 还可使用"[Shifts 连接器"向导Microsoft 365 管理中心](shifts-connector-wizard.md) Shifts 连接到 Blue Yonder WFM。
+> 还可以使用Microsoft 365 管理中心中的 [Shifts 连接器向导](shifts-connector-wizard.md)将 Shifts 连接到 Blue Yonder WFM。
 
 ## <a name="before-you-begin"></a>开始之前
 
@@ -55,51 +55,61 @@ ms.locfileid: "64593653"
 
 [!INCLUDE [shifts-connector-set-up-environment](../../includes/shifts-connector-set-up-environment.md)]
 
+## <a name="connect-to-teams"></a>连接Teams
+
+运行以下命令以连接到Teams。
+
+```powershell
+Connect-MicrosoftTeams
+```
+
+出现提示时，请使用管理员凭据登录。 现在，你已设置为运行本文和 Shifts 连接器 cmdlet 中的脚本。
+
 ## <a name="identify-the-teams-you-want-to-map"></a>确定要映射的团队
 
 > [!NOTE]
 > 如果要将 Blue Yonder WFM 站点映射到现有团队，请完成此步骤。 如果要创建要映射到的新团队，可以跳过此步骤。
 
-在Azure 门户，转到"所有组"页，[](https://ms.portal.azure.com/#blade/Microsoft_AAD_IAM/GroupsManagementMenuBlade/AllGroups)获取组织中团队的 TeamId 列表。
+在Azure 门户中，转到[“所有组](https://ms.portal.azure.com/#blade/Microsoft_AAD_IAM/GroupsManagementMenuBlade/AllGroups)”页面，获取组织中团队的 TeamId 的列表。
 
 记下要映射的团队的 TeamId。 该脚本将提示输入此信息。
 
 > [!NOTE]
-> 如果一个或多个团队已有计划，脚本会从这些团队中删除计划。 否则，你将看到重复的班次。
+> 如果一个或多个团队有现有计划，则脚本将从这些团队中删除计划。 否则，你将看到重复的班次。
 
 ## <a name="run-the-script"></a>运行脚本
 
 运行脚本：
 
-- 若要设置连接并创建新团队进行映射，请 [运行此脚本](#set-up-a-connection-and-create-new-teams-to-map)。
-- 若要设置连接并映射到现有团队，请 [运行此脚本](#set-up-a-connection-and-map-to-existing-teams)。
+- 若要设置连接并创建新的团队进行映射， [请运行此脚本](#set-up-a-connection-and-create-new-teams-to-map)。
+- 若要设置连接并映射到现有团队， [请运行此脚本](#set-up-a-connection-and-map-to-existing-teams)。
 
 该脚本执行以下操作。 系统会提示输入设置和配置详细信息。
 
-1. 使用输入的 Blue Yonder WFM 服务帐户凭据和服务 URL 测试并验证与 Blue Yonder WFM 的连接。
+1. 使用你输入的 Blue Yonder WFM 服务帐户凭据和服务 URL 测试和验证与 Blue Yonder WFM 的连接。
 1. 配置 Shifts 连接器。
-1. 应用同步设置。 这些设置包括同步频率 (分钟) 以及 Blue Yonder WFM 和 Shifts 之间同步的计划数据。 计划数据在下列参数中定义：
+1. 应用同步设置。 这些设置包括同步频率 (分钟) 以及在 Blue Yonder WFM 和 Shifts 之间同步的计划数据。 计划数据在以下参数中定义：
 
-    - **enabledConnectorScenarios** 参数定义从 Blue Yonder WFM 同步到 Shifts 的数据。 选项包括 `Shift`、`SwapRequest`、、`UserShiftPreferences`、`OpenShiftRequest``OpenShift`、`TimeOff`、`TimeOffRequest`、 。
-    - **enabledWfiScenarios** 参数定义从 Shifts 同步到 Blue Yonder WFM 的数据。 选项包括 `SwapRequest`、 `OpenShiftRequest`、 `TimeOffRequest`、 `UserShiftPreferences`。
+    - **enabledConnectorScenarios** 参数定义从 Blue Yonder WFM 同步到 Shifts 的数据。 选项包括`Shift`： ， `UserShiftPreferences``SwapRequest`， ， `OpenShift`， `TimeOff``OpenShiftRequest``TimeOffRequest`
+    - **enabledWfiScenarios** 参数定义从 Shifts 同步到 Blue Yonder WFM 的数据。 选项包括`SwapRequest`： `OpenShiftRequest``TimeOffRequest``UserShiftPreferences`
 
-    有关详细信息，请参阅 [New-CsTeamsShiftsConnectionInstance](/powershell/module/teams/new-csteamsshiftsconnectioninstance?view=teams-ps)。 若要查看每个参数支持的同步选项列表，请运行 [Get-CsTeamsShiftsConnectionConnector](/powershell/module/teams/get-csteamsshiftsconnectionconnector?view=teams-ps)。
+    若要了解详细信息，请参阅 [New-CsTeamsShiftsConnectionInstance](/powershell/module/teams/new-csteamsshiftsconnectioninstance?view=teams-ps)。 若要查看每个参数支持的同步选项列表，请运行 [Get-CsTeamsShiftsConnectionConnector](/powershell/module/teams/get-csteamsshiftsconnectionconnector?view=teams-ps)。
 
     > [!IMPORTANT]
-    > 该脚本为所有这些选项启用同步。 如果要更改同步设置，可以在设置连接后更改同步设置。 有关详细信息，请参阅 [使用 PowerShell 管理与 Blue Yonder Workforce Management 的 Shifts 连接](shifts-connector-powershell-manage.md)。
+    > 该脚本为所有这些选项启用同步。 如果要更改同步设置，则可以在设置连接后执行此操作。 若要了解详细信息，请参阅 [使用 PowerShell 管理与 Blue Yonder Workforce Management 的 Shifts 连接](shifts-connector-powershell-manage.md)。
 
 1. 创建连接。
-1. 地图团队访问 Blue Yonder WFM 网站。 映射基于你输入的 Blue Yonder WFM 站点 ID 和 TeamId 或你创建的新团队，具体取决于运行的脚本。 如果团队已有计划，脚本会删除指定日期和时间范围的计划数据。
+1. 将 Blue Yonder WFM 站点地图到团队。 映射基于你输入的 Blue Yonder WFM 站点 ID 和 TeamIds 或创建的新团队，具体取决于运行的脚本。 如果团队有现有计划，则脚本将删除指定的日期和时间范围的计划数据。
 
-屏幕上的"成功"消息表示已成功设置连接。
+屏幕上的“成功”消息指示已成功设置连接。
 
-## <a name="if-you-need-to-make-changes-to-a-connection"></a>如果需要对连接进行更改
+## <a name="if-you-need-to-make-changes-to-a-connection"></a>如果需要更改连接
 
-若要在设置连接后对连接进行更改，请参阅使用 [PowerShell 管理与 Blue Yonder Workforce Management 的 Shifts 连接](shifts-connector-powershell-manage.md)。 例如，可以更新同步设置、团队映射和禁用连接的同步。
+若要在连接设置后对其进行更改，请参阅 [使用 PowerShell 管理与 Blue Yonder Workforce Management 的 Shifts 连接](shifts-connector-powershell-manage.md)。 例如，可以更新同步设置、团队映射和禁用连接同步。
 
 ## <a name="scripts"></a>脚本
 
-### <a name="set-up-a-connection-and-create-new-teams-to-map"></a>设置连接并创建新团队进行映射
+### <a name="set-up-a-connection-and-create-new-teams-to-map"></a>设置连接并创建新的团队以映射
 
 ```powershell
 #Map WFM sites to teams script
@@ -113,12 +123,6 @@ try {
 } catch {
     throw
 }
-
-#Authenticate with powershell as to the authorization capabilities of the caller.
-#Connect to Teams
-Write-Host "Connecting to Teams"
-Connect-MicrosoftTeams
-Write-Host "Connected"
 
 #Connect to MS Graph
 Connect-MgGraph -Scopes "User.Read.All","Group.ReadWrite.All"
@@ -178,7 +182,7 @@ $InstanceResponse = New-CsTeamsShiftsConnectionInstance -Name $InstanceName -Con
 $InstanceId = $InstanceResponse.id
 $Etag = $InstanceResponse.etag
 if ($InstanceId -ne $null){
-    Write-Host "Suceess"
+    Write-Host "Success"
 } else {
     throw "Connector instance creation failed"
 }
@@ -255,7 +259,6 @@ if ($decision -eq 1) {
 #The Teams admin was set as an owner directly when creating a new team, removing it from owners
 Remove-TeamUser -GroupId $TeamsTeamId -User $currentUser -Role Owner
 Disconnect-MgGraph
-Disconnect-MicrosoftTeams
 ```
 
 ### <a name="set-up-a-connection-and-map-to-existing-teams"></a>设置连接并映射到现有团队
@@ -272,12 +275,6 @@ try {
 } catch {
     throw
 }
-
-#Authenticate with powershell as to the authorization capabilities of the caller.
-#Connect to Teams
-Write-Host "Connecting to Teams"
-Connect-MicrosoftTeams
-Write-Host "Connected"
 
 #Connect to MS Graph
 Connect-MgGraph -Scopes "User.Read.All","Group.ReadWrite.All"
@@ -393,12 +390,11 @@ if ($decision -eq 1) {
 }
 }
 Disconnect-MgGraph
-Disconnect-MicrosoftTeams
 ```
 
 ## <a name="shifts-connector-cmdlets"></a>Shifts 连接器 cmdlet
 
-有关 Shifts 连接器 cmdlet（包括脚本中使用的 cmdlet）的帮助，请搜索 [Teams PowerShell cmdlet 参考中的](/powershell/teams/intro?view=teams-ps) **CsTeamsShiftsConnection**。 下面是一些常用 cmdlet 的链接。
+有关 Shifts 连接器 cmdlet（包括脚本中使用的 cmdlet）的帮助，请在 [Teams PowerShell cmdlet 参考](/powershell/teams/intro?view=teams-ps)中搜索 **CsTeamsShiftsConnection**。 下面是一些常用 cmdlet 的链接。
 
 - [Get-CsTeamsShiftsConnectionOperation](/powershell/module/teams/get-csteamsshiftsconnectionoperation?view=teams-ps)
 - [New-CsTeamsShiftsConnectionInstance](/powershell/module/teams/new-csteamsshiftsconnectioninstance?view=teams-ps)
@@ -418,7 +414,7 @@ Disconnect-MicrosoftTeams
 
 ## <a name="related-articles"></a>相关文章
 
-- [Shifts 连接线](shifts-connectors.md)
+- [Shifts 连接器](shifts-connectors.md)
 - [使用 PowerShell 管理与 Blue Yonder Workforce Management 的 Shifts 连接](shifts-connector-powershell-manage.md)
 - [管理 Shifts 应用](manage-the-shifts-app-for-your-organization-in-teams.md)
 - [Teams PowerShell 概览](../../teams-powershell-overview.md)
