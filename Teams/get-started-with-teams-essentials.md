@@ -17,10 +17,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 3c80b93ef457048d006fb7a7eb6085b3ed5d8eb4
-ms.sourcegitcommit: 1190cd73656dbc9131d46e0a827e28bcd960dfc5
+ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2022
+ms.lasthandoff: 04/20/2022
 ms.locfileid: "62864025"
 ---
 # <a name="microsoft-teams-essentials-quickstart-guide-for-small-businesses"></a>适用于小型企业的 Microsoft Teams Essentials 快速入门指南
@@ -97,7 +97,7 @@ Microsoft Teams Essentials 可通过 Microsoft 的直接网站和选择 Microsof
 
 
 > [!IMPORTANT] 
-> 若要获得增强的管理和完整的 Teams 功能集，需要为用户购买适当的 [Microsoft 365 或 Office 365 订阅计划](https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options) 升级到 Teams 的完整版本。 我们建议这样做，因为你可以更灵活地管理组织协作的方式。
+> 若要获得增强的管理和完整的 Teams 功能集，需要通过为用户购买适当的 [Microsoft 365或 Office 365 订阅计划](https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options) 升级到 Teams 的完整版本。我们建议这样做，因为你可以更灵活地管理组织协作的方式。
 
 ## <a name="administration-limits-and-specifications-for-microsoft-teams-essentials"></a>Microsoft Teams Essentials 的管理限制和规范
 
@@ -111,7 +111,7 @@ Microsoft Teams Essentials 可通过 Microsoft 的直接网站和选择 Microsof
 
 1. **购买订阅。** 转到 [适用于小型企业的 Microsoft Teams Essentials](https://www.microsoft.com/microsoft-teams/compare-microsoft-teams-options)，然后在 Microsoft Teams Essentials 下选择 **立即购买**。
 2. **使用现有电子邮件地址进行注册。** 使用现有电子邮件地址并按照说明购买用户许可证。
-3. **评论 Teams 服务说明。** 请访问 [Microsoft Teams 服务说明](/office365/servicedescriptions/teams-service-description) 以了解更多有关 Microsoft Teams 的信息。
+3. **查看 Teams 服务说明。** 访问 [Microsoft Teams 服务说明](/office365/servicedescriptions/teams-service-description) 了解有关 Microsoft Teams 的详细信息。
 
 完成这些任务后，即可规划、部署和使用 Teams 应用。
 
@@ -166,10 +166,10 @@ Microsoft Teams Essentials 可通过 Microsoft 的直接网站和选择 Microsof
 
 ### <a name="can-i-use-an-existing-email-system-with-microsoft-teams-essentials"></a>能否将现有电子邮件系统与 Microsoft Teams Essentials 配合使用？  
 
-是。 可以保留现有电子邮件系统，并利用 Teams Essentials 进行会议、聊天和协作。  
+是的。你可以保留现有电子邮件系统，并利用 Teams Essentials 进行会议、聊天和协作。  
 
 ### <a name="can-i-connect-my-existing-calendar-solution-with-teams-essentials"></a>是否可以将现有日历解决方案与 Teams Essentials 相连接?
-是。 可以将 Outlook.com 和 Google 现有日历与 Teams Essentials 进行同步。
+是的。可以使用 Teams Essentials 从 Outlook.com 和 Google 同步现有日历。
 
 若要将现有日历解决方案与 Teams Essentials (AAD 标识) 连接，请按照本文后面的说明进行操作。
 

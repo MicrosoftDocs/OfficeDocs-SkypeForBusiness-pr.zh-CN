@@ -19,10 +19,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: d061fa0cda1620980e7da68a345fc13acb6fc12a
-ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
+ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2022
+ms.lasthandoff: 04/20/2022
 ms.locfileid: "62362978"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>开始使用 Microsoft Teams 进行远程学习
@@ -42,7 +42,7 @@ ms.locfileid: "62362978"
 > - 借助 [**入门单页报告**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true)，可让整个教育机构快速在 Teams 上运行。
 > - 下载 [**如何开始使用团队**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Teams-for-Education-ITAdmin-get-started-guide.pptx?raw=true)：面向IT专业人员的指南，其中包含有关安全性和变更管理的有用实践。
 > - 面向教师的文章集合，包括 [**在 Teams 中进行教学的首要步骤**](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114)的操作方法。
-> - Microsoft 教师中心中的 1 小时在线课程介绍了教师在职业生活中如何使用 Teams。 [**与 Microsoft Teams 一起转变学习方法**](https://education.microsoft.com/course/9c9f5c11/overview)。
+> - Microsoft 教师中心中一个 1 小时的在线课程演示教师如何在其专业生活中使用 Teams。[**使用 Microsoft Teams**](https://education.microsoft.com/course/9c9f5c11/overview)转换学习。
 > - Microsoft 教师中心中的 1 小时在线课程将指导教师完成班级团队的教学。 [**与班级团队一起营造协作学习环境**](https://education.microsoft.com/course/b1e15cfc/overview)。
 > - 如果你是教师、学生或家长或监护人，请获取有关 [**使用 Office 365 进行远程教学**](https://aka.ms/RemoteLearningHelp)的更多指导。
 > - 家长和监护人也可以转到我们的 [**家长支持页面**](https://support.office.com/article/remote-learning-with-office-365-guidance-for-parents-and-guardians-89d514f9-bf5e-4374-a731-a75d38ddd588)，获得有关远程学习的帮助。
@@ -232,7 +232,7 @@ SDS 以两个步骤创建团队。 第一步在 Azure Active Directory (Azure AD
 
 - 尽早部署，以确保所有东西都能有效地工作，并为开学第一天做好准备。
 - 如果你有超过 50 万的团队，我们建议使用[教师指导团队创建方法](#educator-led-team-creation-from-office-365-class-groups)。 它仅创建相关和所需的课堂团队，减少未使用的团队和垃圾邮件。  
-- 如果通过 SDS 自动创建团队时存在任何问题（例如，缺少课程），并且教师立即需要它们，则他们可以使用[由教师领导的团队创建方法](#educator-led-team-creation-from-office-365-class-groups)重试。 [手动创建团队](#manual-team-creation)是另一种解决方案，但是，它不会更新您的团队成员。  
+- 如果 SDS 自动创建团队时出现任何问题（例如缺少课堂），并且教师需要立即创建，则他们可以使用  [教师引导的团队创建方法](#educator-led-team-creation-from-office-365-class-groups) 重试。 [手动创建团队](#manual-team-creation) 是另一种解决方案，但它不会使团队成员身份保持更新。  
 - 租户团队限制为50万个团队。 因此，管理员应该主动尝试减少未使用团队的数量，以避免达到这些限制以至延长设置时间。 有关限制的详细信息，请参阅[ Microsoft Teams 的限制和规范](limits-specifications-teams.md)。  
 
 #### <a name="early-access-to-class-teams"></a>提早访问课堂团队
