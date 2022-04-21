@@ -17,17 +17,17 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: f97b2aea15fe626c7780f022e2d024729ad02589
-ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
+ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2022
+ms.lasthandoff: 04/20/2022
 ms.locfileid: "62363178"
 ---
 # <a name="manage-user-access-to-education-insights"></a>管理用户对 Education Insights 的访问权限
 
 本文档提供了管理用户对 [Microsoft Teams 中 Education Insights](class-insights.md) 的访问权限所需的步骤。
 
-你需要为教育领导者、地区领导、学校校长、班主任、辅导员、学区主管、项目主管、社会工作者和心理学家提供权限。 如果教师拥有课堂团队，则会 *自动* 获得权限。
+你需要为教育领导、地区领导、校长、教导主任、教师、学习领域负责人、项目主任、社会工作者和心理医生提供权限。教育工作者在拥有一个班级团队时，会 *自动* 获得权限。
 
 若要提供组织级别的见解，你必须[从学生信息系统 (SIS) 导入数据](education-insights-sis-data-sync.md)，以便 Insights 能够正确映射教育系统的层次结构。
 
@@ -50,7 +50,7 @@ ms.locfileid: "62363178"
 
 ## <a name="role-based-permissions"></a>基于角色的权限
 
-如果使用 [SDS V2.1 文件格式](/schooldatasync/sds-v2.1-csv-file-format)或 [SDS V2 文件格式](/schooldatasync/sds-v2-csv-file-format)，则可以在教育系统中导入所有角色和学校的完整层次结构。 通过此完整映射，可以向角色分配权限。 
+如果使用 [SDS V2.1 文件格式](/schooldatasync/sds-v2.1-csv-file-format) 或 [SDS V2 文件格式](/schooldatasync/sds-v2-csv-file-format)，则可以在教育系统中导入所有角色和学校的完整层次结构。通过此完整映射，可以向角色分配权限。 
 
 > [!NOTE]
 > 为用户分配角色时，他们将自动获得正确的权限，用以查看与他们相关的数据。
@@ -92,14 +92,14 @@ ms.locfileid: "62363178"
 * 单击屏幕左上角的 **授予单个权限**。
 * 输入每个用户的用户名或电子邮件地址。
 * 选择权限级别：
-  * **所有** 意味着用户会看到所有级别的所有组织单位。 这很少使用。
+  * **所有** 表示用户看到所有级别的所有组织单位。这很少使用。
   * **特定组织** 意味着用户会看到所选组织单位及其下的所有组织单位。 开始键入并从列表中选择组织单位。
 * 单击 **授予权限** 来保存。
 
 ### <a name="change-the-individual-permission-of-a-user"></a>更改用户的单个权限
 * 对于相关用户，请单击铅笔图标以选择单个权限级别。
 * 选择权限级别：
-  * **所有** 意味着用户会看到所有级别的所有组织单位。 这很少使用。
+  * **所有** 表示用户看到所有级别的所有组织单位。这很少使用。
   * **特定组织** 意味着用户会看到所选组织单位及其下的所有组织单位。 开始键入并从列表中选择组织单位。
   * **无** 表示用户只能看到由其角色自动分配的组织单位（如果有）。
   
