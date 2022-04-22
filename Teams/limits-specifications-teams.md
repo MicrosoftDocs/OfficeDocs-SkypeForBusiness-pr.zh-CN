@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 647e5e12f7140abc3da8dc63964d5b94d9785e16
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: 0d9cb6888243f86e1967105720e3859fa905cfb5
+ms.sourcegitcommit: 06d1c50c9b55b062d61844a856676d9837fd5abe
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711506"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "65030898"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 
@@ -124,6 +124,7 @@ ms.locfileid: "63711506"
 |------------|---------------|
 |会议中的人数（可聊天和通话）  | 1000，包括 GCC、GCCH 和 DoD，但不包括 A1 (300)。 “**仅供查看**”允许最多 20，000 名仅收听的参与者加入组织者拥有 E3/E5/A3/A5 SKU 以及政府版（GCC、GCC High 和 DoD）许可证。 仅查看体验很快也可用于网络研讨会。 了解关于 [仅供查看体验](view-only-meeting-experience.md) 的详细信息。<sup>1，2</sup>|
 |通过视频或音频通话聊天的人员数 | 20 |
+|同时处于活动状态的通话数量 | 4 |
 |PowerPoint 文件的最大大小 | 2GB|
 |Teams 保留了不会上传到 Microsoft Stream 且可供本地下载的[会议记录](cloud-recording.md) | 20 天 |
   
