@@ -1,7 +1,7 @@
 ---
 title: 对内容进行电子数据展示调查
-author: markjjo
-ms.author: markjjo
+author: v-tophillips
+ms.author: v-tophillips
 manager: laurawi
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ description: 了解在需要执行电子数据展示时应执行的操作，例�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d0906e24cc4bb749779bf432fe27c9c2af6ac0e3
-ms.sourcegitcommit: 204e4654f2c3977db260670f3ee1784d1ad6ed17
+ms.openlocfilehash: 207164f3e16768b7643d2bba2177d52d6b3940f3
+ms.sourcegitcommit: 7d5266ae7e4a440ee45ab1873a30f4056bdcca1f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64866197"
+ms.lasthandoff: 04/22/2022
+ms.locfileid: "65031917"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>在 Microsoft Teams 中对内容进行电子数据展示调查
 
@@ -82,7 +82,7 @@ ms.locfileid: "64866197"
   > [!div class="mx-imgBorder"]
   > ![符合性副本中的会议元数据。](media/conversationOption3.png)
 
-有关进行电子数据展示调查的详细信息，请参阅[核心电子数据展示开始](/microsoft-365/compliance/get-started-core-ediscovery)。
+有关进行电子数据展示调查的详细信息，请参阅开始电子[数据展示 (标准) ](/microsoft-365/compliance/get-started-core-ediscovery)。
 
 Microsoft Teams数据将在Excel电子数据展示导出输出中显示为 IM 或对话。 可以在Outlook中打开`.pst`该文件，以便在导出这些消息后查看这些消息。
 
@@ -131,7 +131,7 @@ Microsoft Teams数据将在Excel电子数据展示导出输出中显示为 IM �
     Get-TeamChannelUser -GroupId <parent team GroupId> -DisplayName "Partner Shared Channel"
    ```
 
-4. 在核心电子数据展示中或在Advanced eDiscovery中[标识和收集保管人内容](/microsoft-365/compliance/add-custodians-to-case)时，将专用频道的所有者和成员的邮箱作为电子[数据展示搜索查询](/microsoft-365/compliance/search-for-content-in-core-ediscovery)的一部分包括在内。
+4. 在电子数据展示 (标准) 或在电子数据展示 (高级版) [中标识和收集保管人内容](/microsoft-365/compliance/add-custodians-to-case)时，包括专用频道的所有者和成员的邮箱作为电子数据展示[搜索查询](/microsoft-365/compliance/search-for-content-in-core-ediscovery)的一部分。
 
 ### <a name="identifying-the-sharepoint-site-for-private-and-shared-channels"></a>标识专用和共享频道的SharePoint站点
 
@@ -166,7 +166,7 @@ Microsoft Teams数据将在Excel电子数据展示导出输出中显示为 IM �
     foreach ($site in $sites) {$x= Get-SpoSite -Identity $site.url -Detail; if ($x.RelatedGroupId -eq $groupID) {$x.RelatedGroupId;$x.url}}
     ```
 
-4. 将与专用频道或共享频道关联的网站作为核心电子数据[展示中电子数据展示搜索查询的](/microsoft-365/compliance/search-for-content-in-core-ediscovery)一部分，或[在Advanced eDiscovery中标识和收集保管人内容](/microsoft-365/compliance/add-custodians-to-case)时包含。
+4. 在电子数据[展示 (标准) ](/microsoft-365/compliance/search-for-content-in-core-ediscovery)或在电子数据展示 (高级版) [中标识和收集保管人内容](/microsoft-365/compliance/add-custodians-to-case)时，将与专用或共享通道关联的网站作为电子数据展示搜索查询的一部分。
 
 ## <a name="search-for-content-for-guest-users"></a>搜索来宾用户的内容
 
@@ -251,6 +251,6 @@ Microsoft Teams数据将在Excel电子数据展示导出输出中显示为 IM �
 ## <a name="related-topics"></a>相关主题
 
 - [Microsoft 365电子数据展示解决方案](/microsoft-365/compliance/ediscovery)
-- [使用 Core 电子数据展示开始](/microsoft-365/compliance/get-started-core-ediscovery)
-- [Teams Advanced eDiscovery中的工作流](/microsoft-365/compliance/teams-workflow-in-advanced-ediscovery)
+- [使用电子数据展示 (标准) 开始](/microsoft-365/compliance/get-started-core-ediscovery)
+- [电子数据展示 (高级版) 中的Teams工作流](/microsoft-365/compliance/teams-workflow-in-advanced-ediscovery)
 - [Teams PowerShell 概览](teams-powershell-overview.md)

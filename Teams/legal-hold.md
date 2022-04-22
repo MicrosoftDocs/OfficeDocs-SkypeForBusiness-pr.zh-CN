@@ -1,7 +1,7 @@
 ---
 title: 将 Microsoft Teams 用户或团队置于法定保留状态
-author: markjjo
-ms.author: markjjo
+author: v-tophillips
+ms.author: v-tophillips
 manager: laurawi
 ms.topic: article
 ms.service: msteams
@@ -15,12 +15,12 @@ f1.keywords:
 description: 了解如何使用 Microsoft Purview 合规性门户将Microsoft Teams用户或团队置于法定保留状态，并了解需要基于数据要求的法律保留。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d56bece07fe7342c4156abdae73508a1a149864
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 1f0ea852b564ac339ac390994384258cc5d68ea1
+ms.sourcegitcommit: 7d5266ae7e4a440ee45ab1873a30f4056bdcca1f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922453"
+ms.lasthandoff: 04/22/2022
+ms.locfileid: "65031907"
 ---
 # <a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a>将 Microsoft Teams 用户或团队置于法定保留状态
 
@@ -35,7 +35,7 @@ ms.locfileid: "64922453"
 > 将用户置于保留状态并不会自动将组置于保留状态，反之亦然。
 > 无法将活动源中发送的通知置于保留状态。
 
-若要在核心电子数据展示案例中将用户或团队置于法定保留状态，请执行以下操作：
+若要在电子数据展示 (标准) 案例中将用户或团队置于法定保留状态：
 
 1. 转到 [Microsoft Purview 合规性门户](https://compliance.microsoft.com)。 创建新案例时，系统会显示将邮箱或网站置于保留状态的选项。
 
@@ -44,7 +44,7 @@ ms.locfileid: "64922453"
    ![Microsoft Teams选中电子数据展示选项卡，显示“创建事例”按钮。](media/LegalHold1.png)
 
    > [!NOTE]
-   > 还可以将用户置于与Advanced eDiscovery案例关联的保留状态。 有关详细信息，请参阅[Advanced eDiscovery中的“管理保留](/microsoft-365/compliance/managing-holds)”。
+   > 还可以将用户置于与电子数据展示 (高级) 案例关联的保留状态。 有关详细信息，请参阅 [电子数据展示 (高级) 中的管理保留 ](/microsoft-365/compliance/managing-holds)。
 
 3. 转到顶部菜单上的 **“保留** ”选项卡，然后单击 **“创建** ”以创建保留。 将用户或团队置于保留状态会保留这些用户交换的所有消息。 创建新案例时，系统会显示将邮箱或网站置于保留状态的选项。
 

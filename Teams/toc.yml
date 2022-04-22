@@ -1547,8 +1547,6 @@ items:
             href: resource-specific-consent.md
           - name: 了解应用权限和对资源的访问
             href: app-permissions.md
-          - name: Teams 中应用程序的管理设置
-            href: admin-settings.md
           - name: 基于用户类型的应用行为
             href: non-standard-users.md
           - name: 以最终用户身份将应用更新到较新版本

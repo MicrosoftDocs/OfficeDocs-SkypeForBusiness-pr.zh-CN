@@ -22,12 +22,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2e0238439bb79a7ca7833ef082f4f499c082aa9
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 1c41ac53e95c179fc62b5e2e469bb614cbdcd516
+ms.sourcegitcommit: 7d5266ae7e4a440ee45ab1873a30f4056bdcca1f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922613"
+ms.lasthandoff: 04/22/2022
+ms.locfileid: "65031897"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft Teams的安全性和符合性
 
@@ -43,7 +43,7 @@ Microsoft Teams构建在Microsoft 365和Office 365超大规模企业级云之上
 
 本文将提供有关特定于Teams的安全性和合规性的进一步信息。 不要错过有关安全性和合规性的 Microsoft 力学视频：
 
-- [IT Microsoft Teams 协作版：安全性和合规性](https://youtu.be/91lHNKVVvQ4) (12：42 分钟) 
+- [MICROSOFT TEAMS IT 基础：安全性和合规性](https://youtu.be/91lHNKVVvQ4) (12：42 分钟) 
 - [Microsoft Teams安全性和合规性控制](https://www.youtube.com/watch?v=Km4T4hMM__k) (10：54 分钟) 
 
 > [!IMPORTANT]
@@ -66,15 +66,15 @@ Microsoft Defender for Office 365可用于与内容管理Teams集成的Microsoft
 
 检测后如何管理受影响的内容，必须满足你在Microsoft 365或Office 365中选择的设置。 我们强烈建议在配置Defender for Office 365时考虑所有应用程序，若要进一步阅读[安全链接的工作原理概述，以及设置安全链接的步骤](/microsoft-365/security/office-365-security/safe-links?view=o365-worldwide)，请参阅此处了解有关入门的详细信息。
 
-### <a name="safe-links-in-microsoft-teams"></a>Microsoft Teams中的保险箱链接
+### <a name="safe-links-in-microsoft-teams"></a>Microsoft Teams中的安全链接
 
-Microsoft Teams中提供了Defender for Office 365安全链接。 若要获取有关什么是安全链接以及如何处理此功能的详细信息，请阅读[Teams的安全链接设置](/microsoft-365/security/office-365-security/safe-links?view=o365-worldwide)。 保险箱链接Defender for Office 365[计划 1 和计划 2](/microsoft-365/security/office-365-security/overview?view=o365-worldwide) 中均可用。
+Microsoft Teams中提供了Defender for Office 365安全链接。 若要获取有关什么是安全链接以及如何处理此功能的详细信息，请阅读[Teams的安全链接设置](/microsoft-365/security/office-365-security/safe-links?view=o365-worldwide)。 Defender for Office 365[计划 1 和计划 2](/microsoft-365/security/office-365-security/overview?view=o365-worldwide) 中都提供了安全链接。
 
-### <a name="safe-attachments"></a>保险箱附件
+### <a name="safe-attachments"></a>安全附件
 
-保险箱附件是一项功能，旨在通过检查和检测恶意附件来增强用户安全性。 全局或安全管理员 [启用该功能](/microsoft-365/security/office-365-security/turn-on-mdo-for-spo-odb-and-teams?view=o365-worldwide) 并 [创建](/microsoft-365/security/office-365-security/set-up-safe-attachments-policies?view=o365-worldwide) 策略来处理这些可疑的恶意附件，以防止向用户发送、单击和执行操作。
+安全附件是一项功能，旨在通过检查和检测恶意附件来增强用户安全性。 全局或安全管理员 [启用该功能](/microsoft-365/security/office-365-security/turn-on-mdo-for-spo-odb-and-teams?view=o365-worldwide) 并 [创建](/microsoft-365/security/office-365-security/set-up-safe-attachments-policies?view=o365-worldwide) 策略来处理这些可疑的恶意附件，以防止向用户发送、单击和执行操作。
 
-保险箱附件保护可用于SharePoint、OneDrive和Microsoft Teams，并在Microsoft Defender for Office 365计划中Microsoft 365或Office 365 [1 和计划 2](/microsoft-365/security/office-365-security/overview?view=o365-worldwide)。 在[本文](/microsoft-365/security/office-365-security/set-up-safe-attachments-policies?view=o365-worldwide)中详细了解保险箱附件及其如何帮助保护组织。
+安全附件保护可用于SharePoint、OneDrive和Microsoft Teams，Microsoft Defender for Office 365[计划 1 和计划 2](/microsoft-365/security/office-365-security/overview?view=o365-worldwide) 中Microsoft 365或Office 365。 在 [本文](/microsoft-365/security/office-365-security/set-up-safe-attachments-policies?view=o365-worldwide)中详细了解安全附件及其如何帮助保护组织。
 
 ### <a name="secure-score"></a>安全分数
 
@@ -87,11 +87,11 @@ Microsoft 安全分数是衡量组织安全状况的度量值，较高数字表�
 
 ### <a name="how-conditional-access-policies-work-for-teams"></a>条件访问策略如何适用于Teams
 
-Microsoft Teams严重依赖 Exchange Online、SharePoint 和 Skype for Business Online 来实现核心生产力方案，例如会议、日历、互操作聊天和文件共享。 当用户直接登录到任何客户端上的Microsoft Teams时，为这些云应用设置的条件访问策略将应用于Microsoft Teams。
+Microsoft Teams严重依赖联机Exchange、SharePoint和Skype for Business联机进行核心工作效率方案，例如会议、日历、互操作聊天和文件共享。 当用户直接登录到任何客户端上的Microsoft Teams时，为这些云应用设置的条件访问策略将应用于Microsoft Teams。
 
-Azure Active Directory条件访问策略中，Microsoft Teams作为云应用单独受支持。 为Microsoft Teams云应用设置的条件访问策略适用于用户登录时Microsoft Teams。 但是，如果没有对其他应用（如Exchange Online和SharePoint）的正确策略，用户仍可直接访问这些资源。 有关在Azure 门户中设置条件访问策略的详细信息，[请参阅Azure Active Directory快速入门](/azure/active-directory/active-directory-conditional-access-azure-portal-get-started)。
+Microsoft Teams在 Azure Active Directory 条件访问策略中作为云应用单独受支持。 为Microsoft Teams云应用设置的条件访问策略适用于用户登录时Microsoft Teams。 但是，如果没有对其他应用（如 Exchange Online 和 SharePoint）的正确策略，用户仍可直接访问这些资源。 有关在Azure 门户中设置条件访问策略的详细信息，请参阅 [Azure Active Directory 快速入门](/azure/active-directory/active-directory-conditional-access-azure-portal-get-started)。
 
-Microsoft Teams桌面客户端Windows和 Mac 支持新式身份验证。 新式身份验证基于Azure Active Directory身份验证库 (ADAL) 引入登录，以便跨平台Microsoft Office客户端应用程序。
+Microsoft Teams适用于 Windows 和 Mac 的桌面客户端支持新式身份验证。 新式身份验证基于 Azure Active Directory 身份验证库 (ADAL) 实现登录，以便跨平台Microsoft Office客户端应用程序。
 
 Microsoft Teams桌面应用程序支持 AppLocker。  有关 AppLocker 先决条件的详细信息，请参阅：使用 [AppLocker](/windows/security/threat-protection/windows-defender-application-control/applocker/requirements-to-use-applocker) 的要求。
 
@@ -101,7 +101,7 @@ Teams提供了各种信息来帮助你了解合规性领域，包括频道、聊
 
 ### <a name="information-barriers"></a>信息屏障
 
-Microsoft Purview 信息屏障是Teams管理员制定的策略，用于在用户或组无需业务需求时 (彼此通信，或者出于法规原因阻止他们这样做) ，它还允许你设置与查阅和电子数据展示 (下) 所述的相关策略。 这些策略可能会影响 1：1 聊天、群聊或团队级别的用户。 信息屏障功能在公有云中可用，从 2021 年 1 月开始，它已推出到GCC云。
+Microsoft Purview 信息屏障是Teams管理员制定的策略，用于在用户或组无需业务需求时 (彼此通信，或者出于法规原因阻止他们这样做) ，它还允许你设置与查阅和电子数据展示 (下) 所述的相关策略。 这些策略可能会影响 1：1 聊天、群聊或团队级别的用户。 信息屏障功能在公有云中可用，从 2021 年 1 月起已推出到 GCC 云。
 
 若要进一步阅读本主题，请转到[Microsoft Teams中的信息障碍](information-barriers-in-teams.md)。
 
@@ -128,7 +128,7 @@ Microsoft 365在内容的服务加密的基础上提供额外的加密层。 使
 - Teams (图像、代码片段、视频和 wiki 图像的媒体消息) 
 - Teams存储在 Teams 存储中的呼叫和会议录制
 - Teams聊天通知
-- 通过Cortana Teams聊天建议
+- Teams Cortana 的聊天建议
 - Teams状态消息
 
 有关详细信息，请参阅[租户级别的客户密钥概述](/microsoft-365/compliance/customer-key-tenant-level)，并阅读Microsoft Teams博客，其中介绍了[客户密钥对公共预览版中Microsoft Teams的支持](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/customer-key-support-for-microsoft-teams-now-in-public-preview/ba-p/1999893)。 有关在租户级别包含客户密钥的Microsoft 信息保护版本的信息，请阅读[“宣布新的Microsoft 信息保护功能，以了解和保护敏感数据](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-new-microsoft-information-protection-capabilities-to/ba-p/1999692)。
@@ -149,9 +149,9 @@ Microsoft Teams中的保留策略允许你保留组织出于法规、法律、�
 
 在Microsoft Teams中[对内容进行电子数据展示调查](eDiscovery-investigation.md)时，我们提供了一篇特定于Teams的文章，了解详细信息。
 
-客户可以根据自己的要求利用电子数据展示或[Advanced eDiscovery](/microsoft-365/compliance/office-365-advanced-ediscovery)。 下表概括列出了这两者之间的差异：
+客户可以根据自己的要求利用电子数据展示或 [电子数据展示 (高级) ](/microsoft-365/compliance/office-365-advanced-ediscovery) 。 下表概括列出了这两者之间的差异：
 
-|&nbsp; |电子数据展示  |高级电子数据展示  |
+|&nbsp; |电子数据展示  |电子数据展示 (高级)   |
 |---------|---------|---------|
 |案例管理     |X        |X         |
 |访问控制  |X         |X         |
@@ -216,13 +216,13 @@ Microsoft Teams中的保留策略允许你保留组织出于法规、法律、�
 有关确定许可需要实现安全性和合规性功能的信息，请查看安全性和合规性功能的 [许可要求](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance) 。
 
 > [!NOTE]
-> 无需在 Microsoft Purview 合规性门户中启用内容搜索、核心电子数据展示和Advanced eDiscovery即可正常工作。 有关详细信息，请参阅[Microsoft 365电子数据展示解决方案](/microsoft-365/compliance/ediscovery)。
+> 无需在 Microsoft Purview 合规性门户中启用内容搜索、电子数据展示 (标准) 和电子数据展示 (高级) 即可正常工作。 有关详细信息，请参阅[Microsoft 365电子数据展示解决方案](/microsoft-365/compliance/ediscovery)。
 
 ## <a name="location-of-data-in-teams"></a>Teams 中的数据的位置
 
 Teams 中的数据位于与 Microsoft 365 或 Office 365 组织关联的地理区域中。 若要查看当前支持哪些区域，请查看[Microsoft Teams中的数据位置](location-of-data-in-teams.md)。
 
-如果需要查看租户的哪个区域包含数据，请转到 [Microsoft 365 管理中心](https://portal.office.com/adminportal/home) > **设置** > **组织配置文件**。 向下滚动到 **数据位置**。
+如果需要查看租户的哪个区域包含数据，请转到 [Microsoft 365 管理中心](https://portal.office.com/adminportal/home) > **SettingsOrganization** >  **配置文件**。 向下滚动到 **数据位置**。
 
 > [!div class="mx-imgBorder"]
 > ![数据位置表的屏幕截图，包括管理中心中的Teams。](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)

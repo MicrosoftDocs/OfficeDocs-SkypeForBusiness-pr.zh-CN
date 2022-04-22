@@ -3,7 +3,7 @@ title: 保留附加到Skype for Business会议的大型文件
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.reviewer: brendonb, markjjo
+ms.reviewer: brendonb, v-tophillips
 ms.topic: article
 ms.assetid: 12203a1a-4a9f-4838-88c5-3740ea16ed8d
 ms.tgt.pltfrm: cloud
@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 可以将文件附加到Skype for Business会议，然后参与者可以打开并下载这些文件。 附加到Skype for Business会议的文件将保留在任何参与者的邮箱中，其邮箱置于诉讼保留中、应用了Microsoft 365或Office 365保留策略，或被置于与 Microsoft Purview 合规性门户中的电子数据展示案例相关联的保留中。 此内容保存到参与者邮箱中的“可恢复邮件”文件夹。
-ms.openlocfilehash: 35792e3415d3def0b8ac45ab39e9dec65f2f7725
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: b799c1a471ac3884aa1b22cc1a681e53ee8284e9
+ms.sourcegitcommit: 7d5266ae7e4a440ee45ab1873a30f4056bdcca1f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922433"
+ms.lasthandoff: 04/22/2022
+ms.locfileid: "65031867"
 ---
 # <a name="retaining-large-files-attached-to-a-skype-for-business-meeting"></a>保留附加到Skype for Business会议的大型文件
 
