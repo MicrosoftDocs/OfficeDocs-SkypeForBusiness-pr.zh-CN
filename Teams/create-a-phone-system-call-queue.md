@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: 了解如何在Microsoft Teams中为大型组织设置呼叫队列，这些组织提供问候消息、保持音乐、呼叫重定向和其他功能。
-ms.openlocfilehash: 4e194a315abecdf779a2df48c7fbb7b6412693cc
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+ms.openlocfilehash: 0a62abc27eed0008a337b900f563f8e7e2a75097
+ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "64846541"
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059083"
 ---
 # <a name="create-a-call-queue"></a>创建呼叫队列
 
@@ -207,6 +207,9 @@ Teams在呼叫者在队列中处于保留状态时为其提供默认音乐。 Te
 
 > [!TIP]
 > 建议将 **代理警报时间** 设置为 **20 秒** 。
+
+> [!NOTE]
+> [调用超时处理](#call-timeout-handling)设置优先于代理警报时间。 如果已达到为呼叫超时处理配置的最大队列时间，即使尚未达到代理警报时间限制，调用也将从代理 () 中拉回。
 
 ## <a name="call-overflow-handling"></a>呼叫溢出处理
 

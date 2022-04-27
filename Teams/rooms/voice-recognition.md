@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6afd8cbf6a62665dbdb4c472df9620d623011452
-ms.sourcegitcommit: 3beef904411a9d5787a73678464003a868630649
+ms.openlocfilehash: 95f3b03ddad75cd36bb6dbbfd51eac08d7742aac
+ms.sourcegitcommit: 20d44ce9a62ba2fb60f989d2e7bbc9333055e783
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64817703"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "65063253"
 ---
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>管理智能扬声器的语音识别技术控制
 
@@ -44,7 +44,7 @@ ms.locfileid: "64817703"
 支持 Epos、Sennheiser 和 Yealink 智能扬声器。
 
 > [!NOTE]
-> 智能扬声器在除印度以外的所有国家和地区均可用，但尚不受支持。 有关当前支持生物识别注册和会议内听录的区域设置列表，请参阅 [支持的区域](#supported-locales) 设置。
+> 智能扬声器在所有国家和地区均可用。 有关当前支持生物识别注册和会议内听录的区域设置列表，请参阅 [支持的区域](#supported-locales) 设置。
 
 ## <a name="set-up-an-intelligent-speaker"></a>设置智能扬声器
 

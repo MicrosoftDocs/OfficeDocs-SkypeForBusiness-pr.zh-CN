@@ -17,12 +17,12 @@ description: 了解如何在Microsoft Teams管理中心的“管理应用”页�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: a6e6adbfbed5e1b371655ca74aa6ca6c717490c9
-ms.sourcegitcommit: 06d1c50c9b55b062d61844a856676d9837fd5abe
+ms.openlocfilehash: 2a4062bbf71c3ad112a52a10ad9c1b3ff71f3dad
+ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65030938"
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059073"
 ---
 # <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>在Microsoft Teams管理中心管理Teams应用
 
@@ -30,15 +30,15 @@ ms.locfileid: "65030938"
 
 ![“管理应用”页的屏幕截图。](media/manage-apps.png)
 
-若要管理应用，请使用以下策略来控制用户的权限、应用安装以及在组织中创建的自定义应用的上传。 若要了解策略，请参阅 [应用策略概述](app-policies.md)。
+若要使用Teams管理中心，必须是全局管理员或Teams服务管理员。有关详细信息，请参阅[Teams管理员角色](./using-admin-roles.md)。
 
-若要了解如何获取管理员角色和权限，[请参阅Teams管理员角色](./using-admin-roles.md)。
+若要管理应用，请使用策略来控制用户的权限、应用安装以及在组织中创建的自定义应用的上传。 若要了解策略，请参阅 [应用策略概述](app-policies.md)。
 
 > [!NOTE]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 > [!NOTE]
-> Microsoft 365政府社区云高 (GCCH) 或国防部 (DoD) 部署Teams中不提供“管理应用”页面。
+> Microsoft 365 政府社区云高 (GCCH) 或国防部 (DoD) 部署Teams中，无法使用“管理应用”页面。
 
 <!--- TBD: This info belongs in the app policy overview article. Title it as mentioned in the spreadsheet.
 
@@ -105,7 +105,7 @@ To see the information that you want in the table, select **Edit Column** in the
 使用“管理应用”页面发布专门为组织构建的应用。 发布自定义应用后，它可供组织应用商店中的用户使用。 有两种方法可以将自定义应用发布到组织的应用商店。 使用方式取决于获取应用的方式。
 
 * [批准自定义应用](#approve-a-custom-app)：如果开发人员使用Teams应用提交 API 将应用直接提交到“管理应用”页面，请使用此方法。 然后，可以直接从应用详细信息页查看和发布 (或拒绝) 应用。
-* [上传应用包](#upload-an-app-package)：如果开发人员以.zip格式向你发送应用包，请使用此方法。 可以通过上传应用包来发布应用。
+* [Upload应用包](#upload-an-app-package)：如果开发人员以.zip格式向你发送应用包，请使用此方法。 可以通过上传应用包来发布应用。
 
 ### <a name="approve-a-custom-app"></a>批准自定义应用
 
@@ -115,11 +115,11 @@ To see the information that you want in the table, select **Edit Column** in the
 
 若要了解详细信息，请参阅[发布通过Teams应用提交 API 提交的自定义应用](submit-approve-custom-apps.md)。
 
-### <a name="upload-an-app-package"></a>上传应用包
+### <a name="upload-an-app-package"></a>Upload应用包
 
 开发人员使用 Teams [App Studio 创建Teams应用](/microsoftteams/platform/get-started/get-started-app-studio)包，然后以.zip格式将其发送给你。 拥有应用包后，可以将其上传到组织的应用商店。
 
-若要上传新的自定义应用，请选择 **“上传** ”以上传应用包。 应用上传后不会突出显示，因此需要在“管理应用”页上搜索应用列表才能找到它。
+若要上传新的自定义应用，请选择 **Upload** 上传应用包。 应用上传后不会突出显示，因此需要在“管理应用”页上搜索应用列表才能找到它。
 
 若要在上传应用后更新应用，请在“管理应用”页上的应用列表中选择应用名称，然后选择 **“更新**”。 执行此操作将替换现有应用，并且所有应用权限策略和应用设置策略仍会针对更新后的应用强制执行。
 
@@ -164,7 +164,7 @@ To see the information that you want in the table, select **Edit Column** in the
 
 ## <a name="grant-admin-consent-to-apps"></a>向应用授予管理员许可
 
-可以代表组织中的所有用户对请求权限的应用进行评审并授予许可。 为此，用户无需在启动应用时查看和接受应用请求的权限。 “ **权限** ”列指示应用是否具有需要同意的权限。 你将看到 Azure AD 中注册的每个应用的 **视图详细信息** 链接，该链接具有需要同意的权限。 若要了解详细信息，请参阅[Microsoft Teams管理中心查看应用权限并授予管理员许可](app-permissions-admin-center.md)。
+可以代表组织中的所有用户对请求权限的应用进行评审并授予许可。 为此，用户无需在启动应用时查看和接受应用请求的权限。 “ **权限** ”列指示应用是否具有需要同意的权限。 你将看到在Azure AD中注册的每个应用的 **视图详细信息** 链接，该链接具有需要同意的权限。 若要了解详细信息，请参阅[Microsoft Teams管理中心查看应用权限并授予管理员许可](app-permissions-admin-center.md)。
 
 ## <a name="view-resource-specific-consent-permissions"></a>查看特定于资源的许可权限
 
@@ -175,7 +175,7 @@ To see the information that you want in the table, select **Edit Column** in the
 使用组织范围的应用设置来控制拥有 [F 许可证](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt) 的用户是否获得定制的一线应用体验、用户是否可以安装第三方应用，以及用户是否可以上传或与组织中的自定义应用交互。 组织范围的应用设置可控制所有用户的行为，并且可覆盖分配给用户的任何其他应用权限策略。 你可以使用它们控制恶意应用或有问题的应用。
 
 > [!NOTE]
-> 若要了解如何在Microsoft 365政府 - 政府社区云高 GCCH 和国防部 (DoD) 部署Teams中使用组织范围的应用设置，请参阅[Teams中的管理应用权限策略](teams-app-permission-policies.md)。
+> 若要了解如何在Microsoft 365政府中使用组织范围的应用设置 - 政府社区云高 GCCH 和国防部 (DoD) 部署Teams，请[参阅Teams中的管理应用权限策略](teams-app-permission-policies.md)。
 
 1. 在“管理应用”页上，选择 **组织范围的应用设置**。 然后，可以在窗格中配置所需的设置。
 

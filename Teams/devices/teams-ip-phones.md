@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 了解哪些桌面电话和会议电话经过认证，Microsoft Teams可产生最佳效果。
-ms.openlocfilehash: 29cc086cd88ccf801eb1b19e56833f36e6ef86b6
-ms.sourcegitcommit: 06d1c50c9b55b062d61844a856676d9837fd5abe
+ms.openlocfilehash: de2dca728ede7c54480763a439296cde225d1447
+ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65030888"
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059223"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams认证的 Android 设备
 
@@ -66,9 +66,9 @@ Microsoft Teams设备认证计划确保认证设备符合高标准，在整个Te
 | Yealink MP56 | `122.15.0.6` | 2023 年 8 月 5 日  | 9 |
 | Yealink VP59 | `91.15.0.16` | 2023 年 8 月 5 日  | 9 |
 
-## <a name="certified-teams-rooms-on-android"></a>Android 上的认证Teams会议室
+## <a name="certified-teams-rooms-on-android"></a>Android 上的认证Teams 会议室
 
-以下设备在 Android 认证计划Microsoft Teams会议室下进行认证：
+以下设备根据 Android 认证计划的Microsoft Teams 会议室进行认证：
 
 | 设备模型 | 固件版本 | 当前认证结束日期 | 会议室大小                                        |  Android OS 版本    |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|-----------------------------------|
@@ -214,9 +214,9 @@ Microsoft Teams设备认证计划确保认证设备符合高标准，在整个Te
 
 请参阅[Microsoft Teams显示。](teams-displays.md)
 
-### <a name="product-release-information-for-teams-rooms-on-android"></a>Android 上Teams会议室的产品发布信息
+### <a name="product-release-information-for-teams-rooms-on-android"></a>Android 上Teams 会议室的产品发布信息
 
-以下是 Android 应用和固件版本上的最新Teams会议室。
+以下是 Android 应用和固件版本上的最新Teams 会议室。
 
 #### <a name="app-versions"></a>应用版本
 
@@ -314,6 +314,7 @@ Microsoft Teams设备认证计划确保认证设备符合高标准，在整个Te
 
 |产品版本| 发布日期 | Microsoft Teams应用版本 | 公司门户版本 | 管理员代理版本 |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+|2022 更新 #2  | 2022 年 4 月 25 日 | `1449/1.0.97.2022733702` | `5.0.5304.0`  | `322` |
 |2022 更新#1A | 2022 年 2 月 25 日 | `1449/1.0.97.2022730007` | `5.0.5304.0`  | `322` |
 |2022 更新 #1  | 2022 年 2 月 22 日 |`1449/1.0.97.2021726501` | `5.0.5304.0 `  | `322` |
 |2021 更新 #1  | 2021 年 8 月 12 日 |`1449/1.0.97.2021070601`   | `5.0.5211.0`   |  `268`|

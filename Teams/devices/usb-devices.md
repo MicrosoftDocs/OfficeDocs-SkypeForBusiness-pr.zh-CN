@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: 请参阅 (哪些 USB 外围设备（例如耳机、免提电话、网络摄像头和监视器）) 已通过Microsoft Teams认证。
-ms.openlocfilehash: e9196c52d74d8cdc7b0f511a3310e93228fe1bae
-ms.sourcegitcommit: 3beef904411a9d5787a73678464003a868630649
+ms.openlocfilehash: ee6f3c2634b44c4c510deb2c7a50818f6bc5ef7c
+ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64817653"
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059213"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>经认证为Microsoft Teams的 USB 音频和视频设备
 
@@ -75,6 +75,9 @@ ms.locfileid: "64817653"
 ## <a name="certified-devices"></a>认证设备
 
 *表更新时间：2022 年 4 月*
+
+> [!NOTE]
+> 日期格式为 MMDDYYYY。
 
 | 制造商        | 模型                                                     | 合格      | 认证计划                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|

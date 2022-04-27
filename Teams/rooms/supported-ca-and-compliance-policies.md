@@ -12,12 +12,12 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 description: 了解支持和推荐的条件访问和Intune设备符合性策略，以便Microsoft Teams 会议室。
-ms.openlocfilehash: befe8faae5db204f5e15e307cadcc24f6867a487
-ms.sourcegitcommit: 5fe5516f6118ce3fa0449ab194a6fe87bf48c664
+ms.openlocfilehash: 19e4593a6135c79eb156a1b34847ab518d6e8ea4
+ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "64732290"
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059233"
 ---
 # <a name="supported-conditional-access-and-intune-device-compliance-policies-for-microsoft-teams-rooms"></a>支持的条件访问和Intune设备符合性策略Microsoft Teams 会议室
 
@@ -28,7 +28,10 @@ ms.locfileid: "64732290"
 
 ## <a name="supported-conditional-access-policies"></a>支持的条件访问策略  
 
-以下列表包括Windows和 Android 上Teams 会议室支持的条件访问策略。 支持的 Android 策略适用于共享空间中的所有 Android 设备，包括通用区域电话和面板。
+以下列表包括Windows和 Android 上Teams 会议室支持的条件访问策略。 
+
+> [!NOTE]
+> 支持的 Android 策略适用于共享空间中的所有 Android 设备，包括 Andourd 上的Teams 会议室、通用区域电话和面板。
 
 | 分配 | Windows | Android |
 |------------|---------|---------|
@@ -75,7 +78,7 @@ Android 上Windows和Teams 会议室上的Microsoft Teams 会议室支持不同�
 |要求在设备上启用安全启动 |支持 |安全启动是Teams 会议室的要求。 |
 |要求代码完整性 |支持  | 代码完整性已是Teams 会议室的要求。 |
 | [**设备属性**](/mem/intune/protect/compliance-policy-create-windows%22%20/l%20%22device-properties) | -- | -- |
-|操作系统版本 (最小、最大)  |不支持 | Teams 会议室自动更新新版本的Windows，并在此处设置值可能会阻止 OS 更新后成功登录。|
+|操作系统版本 (最小、最大)  |不支持 | Teams 会议室自动更新到较新版本的Windows，在此处设置值可能会阻止操作系统更新后成功登录。|
 |移动设备的 OS 版本 (最小、最大)  | 不支持。 | 不适用 |
 | 有效的操作系统生成 | 不支持 | 不适用 |
 | [**Configuration Manager符合性**](/mem/intune/protect/compliance-policy-create-windows%22%20/l%20%22device-properties) | -- | -- |
