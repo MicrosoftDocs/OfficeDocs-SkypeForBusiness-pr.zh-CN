@@ -22,13 +22,13 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: '请参阅Microsoft Teams步骤，将电话拨入式会议许可证和会议 ID 分配给用户和许多其他电话拨入式会议设置。 '
-ms.openlocfilehash: e9a464df1d4c3eb01815a652b2e55c6c269b837d
-ms.sourcegitcommit: 296fbefe0481c0b8b94aee925118474375cdf138
+description: 请参阅Microsoft Teams步骤，将电话拨入式会议许可证和会议 ID 分配给用户和许多其他电话拨入式会议设置。
+ms.openlocfilehash: 6d8270d21c90d363ebb74089ce0b37e6c558ecb1
+ms.sourcegitcommit: 0967f725aad0a7b9c430b2e30a37ea333007558a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65016614"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "65106327"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中管理贵组织的音频会议设置
 
@@ -70,7 +70,7 @@ ms.locfileid: "65016614"
 
 4. 单击“**保存**”。
 
-### <a name="enable-or-disable-using-windows-powershell"></a>使用 Windows PowerShell 启用或禁用
+### <a name="enable-or-disable-using-windows-powershell"></a>使用Windows PowerShell启用或禁用
 
 有关详细信息，请参阅 [Microsoft Teams PowerShell 参考](/powershell/module/teams/?view=teams-ps)。
   
@@ -199,11 +199,11 @@ ms.locfileid: "65016614"
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>想要了解有关 Windows PowerShell 的详细信息？
 
-Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 借助 Windows PowerShell，可以使用单个管理点来管理Microsoft 365或Office 365，以便在需要执行多个任务时简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
+Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用Windows PowerShell，可以使用单个管理点来管理Microsoft 365或Office 365，以便在需要执行多个任务时简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
 
 - [为何需要使用 Microsoft 365 或 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
-- [使用 Windows PowerShell 管理Microsoft 365或Office 365的最佳方法](/previous-versions//dn568025(v=technet.10))
+- [使用Windows PowerShell管理Microsoft 365或Office 365的最佳方法](/previous-versions//dn568025(v=technet.10))
 
 有关 Windows PowerShell 的详细信息，请参阅 [Microsoft Teams PowerShell 参考](/powershell/module/teams/?view=teams-ps)了解详细信息。
 
