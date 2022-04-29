@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft Teams 中管理外部访问（联合身份验证）
+title: 管理外部会议和聊天
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -17,20 +17,20 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.externalaccess.overview
 - seo-marvel-mar2020
-description: Teams 或 IT 管理员可以为其他域 (联合身份验证) 配置外部访问权限，以便这些域中的用户可以查找、呼叫、聊天以及设置与用户的会议。
+description: Teams 或 IT 管理员可以为其他域 (联合身份验证) 配置外部会议和聊天，以便这些域中的用户可以查找、呼叫、聊天以及设置与用户的会议。
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 06243ca47e26f66dd4194a9ec9e50cc5a6bfbde7
-ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
-ms.translationtype: MT
+ms.openlocfilehash: b3b1fb8a51993f0c1510a000e835bbae3098e11b
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "64642846"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125717"
 ---
-# <a name="manage-external-access-in-microsoft-teams"></a>在 Microsoft Teams 中管理外部访问
+# <a name="manage-external-meetings-and-chat-in-microsoft-teams"></a>在 Microsoft Teams 中管理外部会议和聊天
 
-外部访问让组织外的 Teams 用户能够在 Teams 中进行查找、通话、聊天和设置与你之间的会议。 还可使用外部访问与仍在使用 Skype for Business (联机和本地) 和 Skype 的其他组织人员进行通信。
+可以使用 *外部访问* 功能在 Teams 中配置外部会议和聊天。 外部访问让组织外的 Teams 用户能够在 Teams 中进行查找、通话、聊天和设置与你之间的会议。 还可使用外部访问与仍在使用 Skype for Business (联机和本地) 和 Skype 的其他组织人员进行通信。
 
 如果希望其他组织中的人员有权访问你的团队和频道，请改用来宾访问。 有关外部访问和来宾访问之间的差异的详细信息，请参阅[比较外部访问和来宾访问](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access)。 
 
@@ -42,7 +42,7 @@ ms.locfileid: "64642846"
 
 - 你希望世界各地使用 Teams 的所有其他人都能够通过使用你的电子邮件地址找到并联系你。 
 
-## <a name="plan-for-external-access"></a>规划外部访问
+## <a name="plan-for-external-meetings-and-chat"></a>规划外部会议和聊天
 
 外部访问策略包括组织和用户级别的每种联合类型的控制。 无论所有用户的用户级别设置如何，在组织级别关闭策略都会将其关闭。 默认情况下启用所有外部访问设置。
 
@@ -108,7 +108,7 @@ Teams 管理中心控制组织级别的外部访问。 大多数选项 (域限�
 ## <a name="manage-contact-with-external-teams-users-not-managed-by-an-organization"></a>管理与组织未管理的外部 Teams 用户的联系人
 
 > [!NOTE]
-> 本文Teams的 Teams 和 Skype 互操作功能在 GCC、GCC High 或 DOD 部署或私有云环境中不可用。
+> 本文中讨论的 Teams 和 Skype 互操作功能在 GCC、GCC 高部署或 DOD 部署或私有云环境中不可用。
 
 管理员可以选择启用或禁用与不受组织管理的外部 Teams 用户 (“非托管”) 的通信。 如果启用，他们还可以进一步控制具有非托管 Teams 帐户的人员是否可以发起联系人 (请参阅下图)。 如果关闭 **组织未托管的 Teams 帐户的外部用户可以联系我组织中的用户**，则非托管 Teams 用户将无法搜索完整的电子邮件地址以查找组织联系人，并且必须由组织用户启动与非托管 Teams 用户的所有通信。
 
@@ -124,7 +124,7 @@ Teams 管理中心控制组织级别的外部访问。 大多数选项 (域限�
 1. 开启 **组织中的人员可以与帐户不受组织管理的 Teams 用户进行通信** 设置。
 2. 清除 **具有不由组织管理的 Teams 帐户的外部用户可以联系我组织中用户** 的复选框。
 
-若要让组织中的 Teams 用户与帐户不受组织管理的外部 Teams 用户进行通信，并接收与这些外部 Teams 用户通信的请求:
+若要让组织中的 Teams 用户与帐户不受组织管理的外部 Teams 用户进行通信，并接收与这些外部 Teams 用户通信的请求：
 1. 开启 **组织中的人员可以与帐户不受组织管理的 Teams 用户进行通信** 设置。
 2. 选择 **具有不由组织管理的 Teams 帐户的外部用户可以联系我组织中用户** 的复选框。
 
