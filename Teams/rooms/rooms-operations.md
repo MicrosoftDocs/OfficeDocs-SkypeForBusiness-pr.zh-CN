@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 了解如何管理Microsoft Teams 会议室。
-ms.openlocfilehash: e214d0b438ea7dd9b710a7aba8597de6c5b76bdf
-ms.sourcegitcommit: 0967f725aad0a7b9c430b2e30a37ea333007558a
+ms.openlocfilehash: d57f84aa07c90b6a75693f0cbf739402a6e90a4c
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "65106257"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125467"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft Teams 会议室维护和操作
  
@@ -37,6 +37,15 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 ```
 
 日志将以 ZIP 文件的形式输出至 c:\rigel 中。
+
+### <a name="managing-disk-space"></a>管理磁盘空间
+<a name="Space"> </a>
+
+设备上下载的日志可以占用磁盘空间。 如果日志未定期清理，可能会干扰会议室的正常功能。 Teams 会议室在 30 天后删除下载的日志。 IT 管理员可以使用设备注册表设置替代日志清理。
+
+|设置|允许|
+|:-----|:-----|
+|HKLM\SOFTWARE\Microsoft\PPI\SkypeSettings\LogCleanupAgeThreshold  <br/> |30 天后清理日志。  <br/> |
   
 ## <a name="front-of-room-display-settings"></a>会议室前显示设置
 <a name="Display"> </a>

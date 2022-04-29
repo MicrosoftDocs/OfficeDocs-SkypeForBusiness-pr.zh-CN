@@ -1,5 +1,5 @@
 ---
-title: Teams联系中心
+title: Teams联系人中心
 author: cazawideh
 ms.author: czawideh
 manager: serdars
@@ -10,47 +10,47 @@ ms.reviewer: anblak
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
-description: CCaaS) 解决方案的集成联系中心作为服务 (概述Microsoft Teams
+description: 集成联系人中心即服务 (CCaaS) 解决方案的概述Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52de716c35e934e13140af278814a93620dd4962
-ms.sourcegitcommit: 2c8d6183920fd0df7e0491cf4e79b2311503dba7
+ms.openlocfilehash: 6ed7e2df1af7ceab02119d52ef9ed7bc5811a87c
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63073740"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125637"
 ---
-# <a name="contact-center-integrations-for-microsoft-teams"></a>适用于联系人的联系人中心Microsoft Teams
+# <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft Teams的联系人中心集成
 
-  本文概述如何将联系中心解决方案与参与"已连接"Microsoft Teams认证计划Microsoft Teams解决方案提供商集成。
+  本文概述了如何将联系人中心解决方案与Microsoft Teams和参与Microsoft Teams连接联系人中心认证计划的解决方案提供商集成。
 
-## <a name="what-is-contact-center-integration-for-microsoft-teams"></a>什么是适用于联系人的联系人中心Microsoft Teams？
+## <a name="what-is-contact-center-integration-for-microsoft-teams"></a>什么是Microsoft Teams的联系人中心集成？
 
-Microsoft Teams客户交互工作流，它充当其通信模式（包括聊天、视频会议和通话）的内部和外部客户连接的中心。 对于一些Microsoft Teams，云[语音](./cloud-voice-landing-page.md)功能（包括[自动助理](./what-are-phone-system-auto-attendants.md)和呼叫[队列](./create-a-phone-system-call-queue.md)）可满足其需求。
+Microsoft Teams通过充当其通信模式（包括聊天、视频会议和呼叫）的内部和外部客户连接中心，支持客户交互工作流。 对于某些组织，Microsoft Teams云[语音功能](./cloud-voice-landing-page.md)（包括[自动助理](./what-are-phone-system-auto-attendants.md)和[呼叫队列）](./create-a-phone-system-call-queue.md)满足其需求。
 
-对于希望使用业务工具和工作流的解决方案驱动客户旅程的组织，Microsoft Teams 的联系中心集成允许联系中心即服务 (CCaaS) 解决方案提供商将其解决方案集成到 Teams。
+对于希望使用业务工具和工作流的解决方案来推动客户旅程的组织，Microsoft Teams联系中心集成允许联系中心即服务 (CCaaS) 解决方案提供商将其解决方案集成到Teams。
 
 
-## <a name="connected-contact-center-for-microsoft-teams-certification-program"></a>用于认证计划的Microsoft Teams联系中心
+## <a name="connected-contact-center-for-microsoft-teams-certification-program"></a>Microsoft Teams认证计划的已连接联系人中心
 
-用于认证计划的Microsoft Teams联系中心验证每个参与提供商的解决方案是否提供他们期望从 Microsoft 解决方案获得的质量、兼容性和可靠性。
+Microsoft Teams认证计划的连接联系人中心验证每个参与提供商的解决方案是否提供他们期望从 Microsoft 解决方案获得的质量、兼容性和可靠性。
 
-如果你的组织正在寻找集成的联系中心解决方案，请参阅为联系中心认证的 [Microsoft Teams](https://cloudpartners.transform.microsoft.com/contact-center-solutions) 解决方案，了解经过认证的解决方案提供商的列表，并参阅连接的联系中心解决方案，了解认证过程中提供商[](#connected-contact-center-solutions)的列表。
+如果你是一个正在查找集成联系人中心解决方案的组织，请参阅[联系人中心的认证Microsoft Teams解决方案](https://cloudpartners.transform.microsoft.com/contact-center-solutions)，获取认证解决方案提供商列表，并查看认证过程中提供商列表的[连接联系人中心解决方案](#connected-contact-center-solutions)。
 
-如果你是希望加入认证计划的供应商，请发送电子邮件至 <Teamscategorypartner@microsoft.com>。
+如果你是寻求加入认证计划的供应商，请将 [此表单](https://aka.ms/CallingPlatformIntake) 填写为下一步。 如果需要提供其他上下文和详细信息，请向 [Teamscategorypartner@microsoft.com](mailto:Teamscategorypartner@microsoft.com) 发送邮件。
 
 [!INCLUDE [contact-center-integration-models](./includes/contact-center-integration-models.md)]
 
 
-## <a name="connected-contact-center-solutions"></a>连接的联系中心解决方案
+## <a name="connected-contact-center-solutions"></a>连接的联系人中心解决方案
 
-以下提供商提供联系人中心解决方案，这些解决方案Teams集成模型之一连接、扩展或 Power 集成模型。
+以下提供商提供使用连接、扩展或 Power 集成模型之一集成到Teams的联系人中心解决方案。
 
 ### <a name="certified-solutions"></a>认证解决方案
 
 ![认证徽章。](media/English_Solution_Certified_Teams_badge_noBkgrd_GrayText_RGB_500px.png)
 
-|  解决方案提供商                                                                                                                               |  解决方案网站                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|  解决方案提供程序                                                                                                                               |  解决方案网站                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `8x8` | https://www.8x8.com/8/8x8-contact-center-for-microsoft-teams                                                    |
 | `Anywhere365` | https://anywhere365.io/direct-routing-contact-center-for-microsoft-teams/                                      |
@@ -62,9 +62,9 @@ Microsoft Teams客户交互工作流，它充当其通信模式（包括聊天�
 | `NICE inContact` | https://www.niceincontact.com/microsoft-teams                                                            |
 | `Tendfor` | https://www.tendfor.com                                                            |
 
-### <a name="solutions-currently-in-the-certification-process"></a>当前在认证过程中的解决方案
+### <a name="solutions-currently-in-the-certification-process"></a>当前正在认证过程中的解决方案
 
-|  解决方案提供商                                                                                                                               |  解决方案网站                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|  解决方案提供程序                                                                                                                               |  解决方案网站                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `Competella` | https://www.competella.com/microsoft-teams-skype-for-business                                  |
 | `ContactCenter4All` | www.contactcenter4all.com |
@@ -77,7 +77,8 @@ Microsoft Teams客户交互工作流，它充当其通信模式（包括聊天�
 | `Luware` | https://luware.com/en/solutions/                                                                                       |
 | `Mida Solutions` | https://www.midasolutions.com/c3-cloud-contact-center-for-teams/                                        |
 | `Netcall` | https://www.netcall.com/platform/contact-centre/                         |
-| `novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
-| `talkdesk` | https://www.talkdesk.com/cloud-contact-center/integrations/microsoft-teams/                                  |
+| `Novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
+| `Puzzel` | https://www.puzzel.com/microsoft-teams                            |
+| `Talkdesk` | https://www.talkdesk.com/cloud-contact-center/integrations/microsoft-teams/                                  |
 
 随着更多解决方案提供商加入并满足认证条件，此列表将更新。

@@ -16,16 +16,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b2f14993f47cdea5690413a32c9d286587db7324
-ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
+ms.openlocfilehash: 76ca4a5dfd6d120b71e23d899ec9c7749db99827
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/30/2022
-ms.locfileid: "64556343"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125487"
 ---
 # <a name="assign-team-owners-and-members-in-microsoft-teams"></a>在 Microsoft Teams 中分配团队所有者和成员
 
-在 Microsoft Teams 中有两种用户角色：**所有者** 和 **成员**。 默认情况下，会为创建新团队的用户授予所有者状态。 此外，团队所有者和成员可以拥有频道的审核员功能（前提是设置了审核）。 如果从现有组创建Microsoft 365组，则继承权限。
+在 Microsoft Teams 中有两种用户角色：**所有者** 和 **成员**。 默认情况下，会为创建新团队的用户授予所有者状态。 此外，团队所有者和成员可以拥有频道的审核员功能（前提是设置了审核）。 如果团队是从现有Microsoft 365组创建的，则会继承权限。
 
 下表显示了所有者与成员之间的权限差异。
 
@@ -63,7 +63,7 @@ ms.locfileid: "64556343"
 
 ## <a name="moderator-capabilities"></a>审核员功能
 
-除了其他功能之外，团队所有者和成员还可以拥有频道的审核员功能（前提是针对团队启用了审核）。 审核员可以在频道中发布新帖子，并控制团队成员能否回复现有频道消息。 审查器还可以控制具有机器人和连接器功能的应用是否可以提交通道消息。
+除了其他功能之外，团队所有者和成员还可以拥有频道的审核员功能（前提是针对团队启用了审核）。 审核员可以在频道中发布新帖子，并控制团队成员能否回复现有频道消息。 审查器还可以控制具有机器人和连接器功能的应用是否可以提交频道消息。
 
 审核员功能在频道级别分配。 默认情况下，团队所有者拥有审核员功能。 默认情况下，团队成员已关闭审核员功能，但是团队所有者可向团队成员提供频道审核员功能。 频道内的审核员可在该渠道中添加或删除其他审核员。
 
@@ -71,7 +71,10 @@ ms.locfileid: "64556343"
 
 ## <a name="assign-a-user-role"></a>分配用户角色
 
-若要分配用户角色，请在 Teams 中选择团队名称，然后单击“更多选项” > “管理团队”。 在“成员”选项卡上，可以添加成员并选择所有者和审核员（如果你有足够的权限）。 有关详细信息，请参阅更改 [Teams 中的团队Teams](https://support.office.com/article/ce053b04-1b8e-4796-baa8-90dc427b3acc)。
+若要分配用户角色，请在Teams中选择团队名称，然后选择 (**...**) >**管理团队** 的 **更多选项**。 在“成员”选项卡上，可以添加成员并选择所有者和审核员（如果你有足够的权限）。 有关详细信息，请参阅[Teams中的更改团队设置](https://support.office.com/article/ce053b04-1b8e-4796-baa8-90dc427b3acc)。
+
+> [!NOTE]
+> 对于固定频道，不会显示“ **管理团队** ”选项。 在下方的 *“团队*”下选择团队名称，然后选择 (**...**) 名称右侧的 **“更多”选项**。
 
 ## <a name="permissions-to-create-teams"></a>创建团队的权限
 

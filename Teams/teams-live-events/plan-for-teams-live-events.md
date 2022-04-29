@@ -20,12 +20,12 @@ description: 在本文中，你将了解在 Microsoft Teams 中设置实时事�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f7ce782db18c15e3b08367e0956003f7af2dde75
-ms.sourcegitcommit: 5b1d8d6f811fab0b350a09e5187d982f952d0edb
+ms.openlocfilehash: 8c48c322c913b71eb47e1c093e40200d926d26f3
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "63047142"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125667"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中规划实时事件
 
@@ -178,18 +178,9 @@ ms.locfileid: "63047142"
 - 阿拉伯联合酋长国
 - 英国
 
-**不支持这些国家/地区和云**
-
-- 政府社区云 (GCC)-H
-- 国防部 (DOD)
-
 **排除和注意事项**
 
 - **数据位置:** 暂不支持上述数据地点以外的团队数据地点。
-
->[!Note]
-> 实时事件依赖于 Azure CDN 服务，可能在某些国家/地区无法使用。 作为管理员，可能需要根据所有适用的法律和法规设置 VPN，以连接到公司网络，以便这些应用无缝工作。 完成后，组织中的人员可以安排和参加实时事件。
-
 
 ## <a name="next-steps"></a>后续步骤
 

@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: 远程管理Microsoft Teams 会议室设备使用的默认设置，包括应用自定义主题和创建主设置文件。
-ms.openlocfilehash: ae529b99fc2e76aeb6c7f511de533be57b65ac08
-ms.sourcegitcommit: 0967f725aad0a7b9c430b2e30a37ea333007558a
+ms.openlocfilehash: c363dce55df4d9bdcf125492c2ca92b3b20feba7
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "65106277"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125457"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>使用 XML 配置文件远程管理Microsoft Teams 会议室控制台设置
 
@@ -64,6 +64,8 @@ ms.locfileid: "65106277"
   <DisableTeamsAudioSharing>true</DisableTeamsAudioSharing>
   <FrontRowEnabled>true</FrontRowEnabled>
   <DefaultFoRExperience>0</DefaultFoRExperience>
+  <EnablePublicPreview>false</EnablePublicPreview>
+  <NoiseSuppressionDefault>0</NoiseSuppressionDefault>
   <SendLogs>
     <EmailAddressForLogsAndFeedback>username@microsoft.com</EmailAddressForLogsAndFeedback>
     <SendLogsAndFeedback>True</SendLogsAndFeedback>
@@ -137,6 +139,8 @@ ms.locfileid: "65106277"
 | \<DisableTeamsAudioSharing\>                | 布尔&#x2777;            | 第一&#x2776; | 设置为 true 可在会议Teams中禁用与会议参与者的 HDMI 音频共享。 默认为 false。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | \<FrontRowEnabled>                          | 布尔&#x2777;            | 第一&#x2776; | 默认为启用。 如果为 false，则禁用前行。
 | \<DefaultFoRExperience>                     | 布尔&#x2777;            | 第一&#x2776; | 默认情况下，库视图。 放置 1 以将默认布局从库视图更改为前行。
+| \<EnablePublicPreview\>                     | 布尔&#x2777;            | 第一&#x2776; | 默认情况下处于禁用状态。 如果为 true，则启用公共预览，最终用户可以在启用Teams 会议室时访问公共预览版中的功能。 有关详细信息，请参阅[公共预览Microsoft Teams 会议室Windows](../public-preview-doc-updates.md#public-preview-for-microsoft-teams-rooms-on-windows)。 |
+| \<NoiseSuppressionDefault\>                 | 布尔&#x2777;            | 第一&#x2776; | 默认为启用。 放置 0 以禁用。 禁用不会影响桌面设置，这仅适用于Teams会议室帐户。
 | \<CortanaWakewordEnabled\>                  | 布尔&#x2777;            | 第一&#x2776; | 设置为 true 以启用Cortana唤醒词“Hey Cortana”。 除非在您的国家或地区支持Cortana服务，并且连接的音频外围设备支持Cortana，否则此设置没有任何效果。 默认为 false。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | \<SendLogs\>                                | 容器                   | 第一&#x2776; |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | \<EmailAddressForLogsAndFeedback\>          | 字符串&#x2778;            |                | 设置一个可选的电子邮件地址，当“提供反馈”窗口出现时，可以将日志发送到该地址。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -274,7 +278,7 @@ XML 配置文件必须在设备启动时更新以识别主题图像。 处理并
 
 ## <a name="turn-off-front-row"></a>关闭前行
 
-默认情况下，前排已启用。 如果不希望允许最终用户在特定会议室中使用 Front 行，请关闭 Front 行。 为此，请添加 ```<FrontRowEnabled>false</FrontRowEnabled>``` 到 XML 配置文件。
+默认情况下，前排已启用。 如果不想允许最终用户在特定的会议室中使用 Front 行，请关闭 Front 行。 为此，请添加 ```<FrontRowEnabled>false</FrontRowEnabled>``` 到 XML 配置文件。
 
 ## <a name="set-front-of-room-scale-and-resolution"></a>设置会议室前刻度和分辨率
 

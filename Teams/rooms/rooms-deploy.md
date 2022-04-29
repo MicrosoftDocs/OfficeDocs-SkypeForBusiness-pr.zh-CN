@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: 阅读本文以了解如何部署 Microsoft Teams 会议室（包括部署阶段）。
-ms.openlocfilehash: 61fce84f9f3737f771e0417443de566444cc2ca2
-ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
+ms.openlocfilehash: 18a5d72fb9c11b34bb994734b8d064c3aaa2cdae
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "64839073"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125767"
 ---
 # <a name="deployment-overview"></a>部署概述
 
@@ -53,12 +53,12 @@ Microsoft Teams 会议室的部署基本上分为几个阶段：
 要准备 Microsoft Teams 会议室部署，请执行以下关键的中心任务：
 
 -   定义Microsoft Teams 会议室资源帐户。
--   如果加入Teams会议室以Azure Active Directory，请准备一个具有动态成员身份的Azure AD组来保存所有Teams 会议室资源帐户。 这将简化未来的管理，例如应用条件访问策略。 为了最轻松地利用Azure AD动态组，请确定唯一标识Teams 会议室资源帐户的命名约定。
--   如果将Teams会议室加入 Active Directory，请准备一个组织单位和 Active Directory 组来保存Microsoft Teams 会议室计算机和资源帐户，并且（可选）准备组策略对象 (GPO) 以启用 PowerShell 远程处理。
+-   如果加入Teams 会议室Azure Active Directory，请准备一个具有动态成员身份的Azure AD组，以保存所有Teams 会议室资源帐户。 这将简化未来的管理，例如应用条件访问策略。 为了最轻松地利用Azure AD动态组，请确定唯一标识Teams 会议室资源帐户的命名约定。
+-   如果将Teams 会议室加入 Active Directory，请准备一个组织单位和 Active Directory 组来保存Microsoft Teams 会议室计算机和资源帐户，并且（可选）准备组策略对象 (GPO) 以启用 PowerShell 远程处理。
 
 ### <a name="define-microsoft-teams-rooms-resource-account-features"></a>定义Microsoft Teams 会议室资源帐户功能 
 
-根据你决定通过Microsoft Teams 会议室部署启用的协作方案，需要确定分配给每个启用的Microsoft Teams会议室的功能和功能。
+根据你决定通过Microsoft Teams 会议室部署启用的协作方案，需要确定分配给启用的每个Microsoft Teams 会议室的功能和功能。
 
 | **应用场景** | **说明** | **Microsoft Teams 会议室服务帐户功能** |
 |---------- |------------- | --- |

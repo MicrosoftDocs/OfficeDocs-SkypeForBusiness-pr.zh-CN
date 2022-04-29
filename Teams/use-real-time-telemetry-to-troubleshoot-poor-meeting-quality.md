@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: 使用实时遥测来详细了解设备、网络和连接，以排查Microsoft Teams计划会议的用户问题。
-ms.openlocfilehash: 09c31b7734a849740cf1b0ff5749e4d82c667faf
-ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
+ms.openlocfilehash: 4f56e50ddc8ac861e109bbc4d4a2a74533043d24
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "62518724"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125797"
 ---
 # <a name="use-real-time-telemetry-to-troubleshoot-poor-meeting-quality"></a>使用实时遥测来解决会议质量不佳的问题
 
@@ -57,11 +57,11 @@ Teams管理员可以完全访问每个用户的所有实时遥测数据。 此�
 
 若要获取有关正在进行的会议参与者的其他信息，包括其设备、网络和音频统计信息，请在 **“最近会议** ”中查找会议，然后选择“ **参与者** ”列下的链接。
 
-:::image type="content" alt-text="参与者详细信息表的屏幕截图。" source="media/participant-details.png" lightbox="media/participant-details.png":::
+:::image type="content" alt-text="参与者详细信息表的屏幕截图。" source="media/participant-details-edit.png" lightbox="media/participant-details-edit.png":::
 
 若要查看正在进行的会议的给定用户的遥测数据，包括有关设备、网络、音频、视频和内容共享详细信息的信息，请选择 **会议 ID**。
 
-:::image type="content" alt-text="呼叫分析用户会话数据的屏幕截图。" source="media/real-time-telemetry.png" lightbox="media/real-time-telemetry.png":::
+:::image type="content" alt-text="呼叫分析用户会话数据的屏幕截图。" source="media/real-time-telemetry-edit.png" lightbox="media/real-time-telemetry-edit.png":::
 
 ## <a name="measures-available-in-real-time-analytics"></a>Real-Time分析中提供的度量值
 
