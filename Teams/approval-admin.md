@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 37c899c1507a28f51bb881a9e7e66de6d7af0d58
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+ms.openlocfilehash: 45f663f2c75d12a21fe38c4bbc71e2b3d93d8247
+ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "64643066"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65137123"
 ---
 # <a name="teams-approvals-app-availability"></a>Teams“审批”应用可用性
 
@@ -57,7 +57,7 @@ ms.locfileid: "64643066"
 
 - 用户需要Microsoft Forms许可证才能设置新的审批模板。
 
-若要使用审批应用，需要Power Automate许可证，并且你的帐户将在第一次审批分配时自动添加到目标环境中的审批用户角色。
+若要使用审批应用，需要Power Automate许可证，并且你的帐户会在第一次审批分配时自动添加到目标环境中的审批用户角色。
 
 ## <a name="storage-with-microsoft-dataverse"></a>使用 Microsoft Dataverse 存储
 
@@ -68,7 +68,7 @@ ms.locfileid: "64643066"
 从模板创建的审批仍会将数据存储在 Microsoft Dataverse 中，例如其标题、详细信息、模板 ID 等。 针对审批请求提交的响应存储在 Forms 中。 详细了解 [Microsoft Forms的数据存储](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe)。
 
 >[!Note]
->如果在Microsoft Forms网站上删除表单模板，则会中断审批模板，用户将无法启动请求。 用户在尝试打开已在Microsoft Forms上删除的审批模板时会收到错误“CDB TableNotFound”。
+>如果删除Microsoft Forms网站上的表单模板，则会中断审批模板，并且用户无法启动请求。 用户在尝试打开在Microsoft Forms上删除的审批模板时收到错误“CDB TableNotFound”。
 
 组织范围的模板共享租户的相同生存期，团队范围的模板共享团队的相同生存期。 因此，永久删除团队会删除相关模板。
 
@@ -99,7 +99,7 @@ ms.locfileid: "64643066"
 
 - 所有团队所有者都可以为他们拥有的团队创建审批模板。
 
-- 当管理员首次为其整个组织创建模板时，它将自动为租户的所有管理员（包括全局管理员和Teams服务管理员）创建新的Azure Active Directory (AAD) 组。 这些管理员将添加为组的所有者，以便他们能够共同管理组织模板。 创建团队后对组织不了解的管理员需要手动添加为组所有者，以便他们具有相同的权限来管理组织范围内的模板。
+- 当管理员首次为其整个组织创建模板时，它将自动为租户的所有管理员（包括全局管理员和Teams服务管理员）创建新的Azure Active Directory (AAD) 组。 这些管理员添加为组的所有者，因此他们可以共同管理组织模板。 创建团队后对组织不了解的管理员需要手动添加为组所有者，以便他们具有相同的权限来管理组织范围内的模板。
 
 > [!Note]
 > 如果管理员删除了该组，则有一个月的时间在Azure Active Directory (AAD) 门户中还原该组以还原所有相关数据。 一个月后，或者如果管理员在回收站中删除此组，则将丢失所有相关数据。
@@ -199,7 +199,7 @@ ms.locfileid: "64643066"
 在 Teams“审批”应用中，用户能够创建新的审批并查看其已发送和接收的审批。 用户无法访问其他人创建的审批，除非他们是请求的回应者或查看者。
 
 > [!Note]
-> 如果用户属于创建审批的聊天或频道的一部分，则他们将被赋予请求的查看者角色。 如果在创建审批时他们未获得该角色，则他们无法对请求执行操作。
+> 如果用户是创建审批的聊天或频道的一部分，则为用户提供请求的查看者角色。 如果在创建审批时他们未获得该角色，则他们无法对请求执行操作。
 
 ## <a name="approvals-e-signature-integration"></a>审批电子签名集成
 
@@ -207,9 +207,9 @@ ms.locfileid: "64643066"
 
 ### <a name="enable-or-disable-e-signature-providers"></a>启用或禁用电子签名提供程序
 
-可以使用Teams管理中心控制哪些第三方电子签名提供程序可用于审批应用中的用户。 默认情况下，审批应用中启用了电子签名提供程序。 禁用电子签名提供程序时，用户在创建审批时将无权访问该提供程序。 用户也无法查看使用该提供程序创建的电子签名请求。
+可以使用Teams管理中心来控制哪些第三方电子签名提供程序可用于审批应用中的用户。 默认情况下，审批应用中启用了电子签名提供程序。 禁用电子签名提供程序时，用户在创建审批时将无权访问该提供程序。 用户也无法查看使用该提供程序创建的电子签名请求。
 
-1. 在Teams管理中心的左侧导航中，转到 **appsManage 应用****Teams** > 。
+1. 在Teams管理中心的左窗格中，转到 **appsManage 应用****Teams** > 。
 2. 搜索审批应用，然后选择它。
 3. 转到 **“设置**”选项卡，然后执行以下一个或多个操作：
 

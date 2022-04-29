@@ -18,12 +18,12 @@ description: 了解 Microsoft Teams 中的公共预览版。尝试新增功能�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 3c07244e49d0c61986ae6eb2c9c9d8e1f522e37b
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: f814483cee8941d3fd29d2442d653c444915d1a5
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62417325"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125777"
 ---
 # <a name="microsoft-teams-public-preview"></a>Microsoft Teams 公共预览版
 
@@ -46,20 +46,22 @@ Microsoft Teams 公共预览版提供对 Teams 中未发布的功能的早期访
 
 2. 命名更新策略，添加说明，然后选择 **显示预览版功能** 的设置。
 
-   -   **关注 Office 预览版**（默认）：此新的默认选项将为在 Office 当前频道（预览）中注册的用户自动启用 Teams 公共预览版功能。最终用户没有要求其他操作。
-   -   **已启用**: 无论用户是否在 Office 当前频道(预览)中注册，此选项都将启用 Teams 公共预览版。 此外，最终用户还必须在其 Teams 应用中选择加入 Teams 公共预览版。
+   -   **关注 Office 预览版**（默认）
+       - 此新的默认选项将为在 Office 当前频道（预览）中注册的用户自动启用 Teams 公共预览版功能。 
+       - 最终用户无需执行更多操作。
+   -   **已启用**
+       - 无论用户是否在 Office 当前频道（预览）中注册，此选项都将启用 Teams 公共预览版。 
+       - 此外，最终用户还必须在其 Teams 应用中选择加入 Teams 公共预览版。
 
    > [!NOTE]  
    > 对于 Teams 公共预览版中不在 **当前频道(预览)** 中的现有用户，IT 管理员需要从默认的 **关注 Office 预览版** 切换为 **已启用**。
  
-   - **未启用**: 最终用户将无法使用 Teams 公共预览版功能。
+   - **未启用** 
+     - 最终用户将无法使用 Teams 公共预览版功能。
 
     ![显示预览版设置对话。](media/public-preview-policy.png)  
 
 还可以同时使用 PowerShell `Set-CsTeamsUpdateManagementPolicy` cmdlet 和 `-AllowPublicPreview` 参数以设置策略。
-
-> [!NOTE]   
-> AllowPreview 参数将很快被弃用。
 
 ## <a name="enable-public-preview"></a>启用公共预览版
 
@@ -72,9 +74,17 @@ Microsoft Teams 公共预览版提供对 Teams 中未发布的功能的早期访
 > [!NOTE]  
 > 只有当 **显示预览版功能** 设置为 **已启用** 时，此选项才可用。
 
+### <a name="public-preview-for-microsoft-teams-rooms-on-windows"></a>Windows 上 Microsoft Teams 会议室的公共预览版
+
+默认情况下，公共预览版处于关闭状态。 启用公共预览版后，最终用户可以访问启用的 Teams 会议室上的公共预览版功能。 若要启用公共预览版，请将 ```<EnablePublicPreview>True</EnablePublicPreview>``` 添加到 XML 配置文件。
+
+建议将 5-10 台设备注册到公共预览版。 
+
+所有公共预览版功能均在 [Microsoft Teams 公共预览版 - Microsoft 技术社区](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview) 中公布
+
 ## <a name="teams-now-follows-office-preview-users"></a>当前，Teams 关注 Office 预览版用户
 
-如果用户位于 Windows 上的 Office 365 客户端的当前频道(预览)中，则 **关注 Office 预览版** 的新全局策略默认设置将允许用户自动位于 Teams 的公共预览版频道中。
+如果用户位于 Windows 和 Mac 上的 Office 365 客户端的当前频道(预览)中，则 **关注 Office 预览版** 的新全局策略默认设置将允许用户自动位于 Teams 的公共预览版频道中。
 
 Microsoft Office 将继续从当前频道(预览)接收更新，同时 Teams 客户端将通过公共预览版频道接收更新。 此策略不会基于 Teams 频道切换 Office 频道。 
 
@@ -85,10 +95,6 @@ Microsoft Office 将继续从当前频道(预览)接收更新，同时 Teams 客
 **如何选择退出此设置?**
 
 可以禁用 Teams 管理中心的设置，从 **关注 Office 预览版** 切换为 **未启用** (请参阅 [设置更新策略](#set-the-update-policy))
-
-## <a name="known-issues"></a>已知问题
-
-当 Office 当前频道(预览)用户的更新策略设置为 **关注 Office 预览版** 时，其可以通过 Teams 客户端“关于”菜单退出 Teams 公共预览版。 此功能非预期功能，未来将被删除。 如果用户位于 Office 的当前频道(预览)中，则下次设备处于空闲状态时，Teams 客户端可能会自动将自己设置回公共预览版。
 
 ## <a name="related-topics"></a>相关主题
 

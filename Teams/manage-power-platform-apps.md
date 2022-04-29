@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何在Microsoft Teams管理中心管理基于 Microsoft Power Platform 构建的自定义应用的访问权限。
-ms.openlocfilehash: c093d432faa8d4977f4d931ac948a35dc6fe6509
-ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
+ms.openlocfilehash: 9f212cf52ec757fc4860f081fb67da2cb1b4fcd5
+ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "63442668"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65136993"
 ---
 # <a name="manage-microsoft-power-platform-apps-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 管理中心管理 Microsoft Power Platform 应用
 
@@ -66,7 +66,7 @@ ms.locfileid: "63442668"
 
 默认情况下，允许组织中的所有Teams用户使用 **共享Power Apps** 和 **共享 Power Virtual Agent 应用**。 可以在Microsoft Teams管理中心的[“管理应用](manage-apps.md)”页上阻止或允许它们处于组织级别。  
 
-1. 在 Microsoft Teams 管理中心的左侧导航中，转到“**Teams 应用**” > “**管理应用**”。 必须是全局管理员或Teams服务管理员才能访问该页面。
+1. 在Microsoft Teams管理中心的左窗格中，转到 **Teams** **appsManage** >  应用。 必须是全局管理员或Teams服务管理员才能访问该页面。
 2. 在应用列表中，执行下列操作之一。
 
     :::image type="content" source="media/manage-power-platform-apps-manage-apps.png" alt-text="“管理应用”页的屏幕截图，其中显示了共享的 Microsoft Power Platform 应用":::

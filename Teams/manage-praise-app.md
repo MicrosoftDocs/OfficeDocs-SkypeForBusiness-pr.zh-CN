@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
 description: 了解如何在Microsoft Teams管理中心管理表扬应用。
-ms.openlocfilehash: 364fb60b6a729062e358685426acd98704c7ac02
-ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
+ms.openlocfilehash: 16f59a8fbe0958a63f824762cfede020dbf54b8e
+ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "63442678"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65136973"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>在Microsoft Teams管理中心管理表扬应用
 
@@ -31,7 +31,7 @@ Microsoft Teams中的表扬应用可帮助用户向组织或课堂成员表示�
 
 :::image type="content" source="media/manage-praise-app-admin-center.png" alt-text="Teams管理中心“表扬应用详细信息”页的屏幕截图，其中显示了“状态”切换。":::
 
-1. 在 Microsoft Teams 管理中心的左侧导航中，转到“**Teams 应用**” > “**管理应用**”。
+1. 在Microsoft Teams管理中心的左窗格中，转到 **Teams** **appsManage** >  应用。
 2. 在应用列表中，搜索表扬应用，选择它，然后将 **状态** 切换为 **“已阻止**”或 **“允许**”。
 
 请记住，此设置会影响Teams中Viva Insights应用中的表扬应用和表扬功能。
