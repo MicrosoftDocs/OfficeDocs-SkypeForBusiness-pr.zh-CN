@@ -451,8 +451,6 @@ items:
                 href: teams-analytics-and-reports/pstn-minute-pools-report.md
               - name: PSTN 使用报告
                 href: teams-analytics-and-reports/pstn-usage-report.md
-              - name: Teams 音频会议拨出使用情况报告
-                href: audio-conferencing-dial-out-usage-report.md
               - name: Teams 实时事件使用情况报表
                 href: teams-analytics-and-reports/teams-live-event-usage-report.md
               - name: Teams 信息保护许可证报告
