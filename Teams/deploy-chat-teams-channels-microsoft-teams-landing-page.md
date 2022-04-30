@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
 - seo-marvel-may2020
-ms.openlocfilehash: 84c0ef026b16ec19337ef8840b2285a1a98e5193
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: a2d6ee4129128df8acf17906b0bc45140b57f6f4
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711726"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125497"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams 中的聊天、团队、频道和应用
 
@@ -94,7 +94,7 @@ Teams 提供了一组可用于为组织管理 Teams 的自定义管理员角色�
 
 |询问你自己|操作 |
 |------------|-------|
-|<ul><li>我是否要为我的组织禁用外部访问？</li><li>如果启用，是否要限制我的组织可以与哪些域进行通信？</li></ul> |<br>如果要启用或禁用外部访问，请参阅 [计划外部访问](manage-external-access.md#plan-for-external-access)。|
+|<ul><li>我是否要为我的组织禁用外部访问？</li><li>如果启用，是否要限制我的组织可以与哪些域进行通信？</li></ul> |<br>若要打开或关闭外部会议和聊天，请参阅 [管理外部会议和聊天](manage-external-access.md)。|
 
 ### <a name="guest-access"></a>来宾访问权限
 

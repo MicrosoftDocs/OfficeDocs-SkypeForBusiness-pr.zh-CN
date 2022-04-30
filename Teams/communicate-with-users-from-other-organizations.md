@@ -17,24 +17,24 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-description: 了解如何使用外部访问（联盟）和来宾访问在 Microsoft Teams 中与组织外部的人员进行通话和聊天以及查找和添加这些人员。
-ms.openlocfilehash: db5d29a9d7afd121c3cecc47aa3ce717bb815f54
-ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
+description: 了解如何使用外部访问和来宾访问在 Microsoft Teams 中与组织外部的人员进行通话和聊天以及查找和添加这些人员。
+ms.openlocfilehash: c2cf4a3820cceacf1f84401161d130995ecbc98f
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "64592737"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125477"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>使用来宾访问权限和外部访问权限与组织外部的人员进行协作
 
-当需要与组织外部的人员进行通信和协作时，Microsoft Teams 可为你提供两种选择：
+本文介绍与组织外部人员协作的两个选项：
 
 - **外部访问** - 一种联盟，允许用户查找其他组织中的人员以及与其通话和聊天。 除非作为来宾受到邀请，否则这些人员无法添加到团队。
 - **来宾访问** - 来宾访问允许邀请组织外部人员加入团队。 受邀人员将在 Azure Active Directory 中获得来宾帐户。
 
-请注意，Teams 允许邀请组织外部人员参加会议。 这不需要配置外部或来宾访问。
+有关 Microsoft 365 中的外部协作的完整概述，请参阅 [Microsoft 365 中的外部协作选项概述](/microsoft-365/enterprise/external-guest-access)。
 
-## <a name="external-access-federation"></a>外部访问（联盟）
+## <a name="external-access-external-chat-and-meetings"></a>外部访问（外部聊天和会议） 
 
 针对组织外部使用 Teams、Skype for Business（联机或本地）或 Skype 的人员，如果需要查找此类人员、与其通话和聊天以及设置与此类人员的会议，可设置外部访问。 
 

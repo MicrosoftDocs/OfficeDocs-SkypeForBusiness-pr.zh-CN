@@ -20,12 +20,12 @@ ms.custom:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何在Microsoft Teams中使用和管理策略包，以简化、简化和帮助在管理用户组的策略时提供一致性。
-ms.openlocfilehash: 173d5d1488196ea048a64ce12916f8115362c572
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+ms.openlocfilehash: d38384889e48e7d666036675b1a52ae194ea9582
+ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "63055302"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65144918"
 ---
 # <a name="manage-policy-packages-for-microsoft-teams"></a>管理Microsoft Teams的策略包
 
@@ -87,7 +87,7 @@ Teams当前包含以下策略包。
 
 若要创建新的自定义策略包，请执行以下操作：
 
-1. 在Microsoft Teams管理中心的左侧导航中，选择“**策略”包**，然后单击 **“添加**”。
+1. 在Microsoft Teams管理中心的左窗格中，选择“**策略”包**，然后单击 **“添加**”。
 
     :::image type="content" source="media/policy-packages-add.png" alt-text="管理中心“策略包”页上的“添加”按钮的屏幕截图。":::
 
@@ -97,7 +97,7 @@ Teams当前包含以下策略包。
 
 3. 选择要包含在包中的策略类型和策略名称。
 
-4. 单击“**保存**”。
+4. 选择“**保存**”。
 
 ## <a name="how-to-use-policy-packages"></a>如何使用策略包
 
@@ -120,17 +120,17 @@ Teams当前包含以下策略包。
 
 ### <a name="view-the-settings-of-a-policy-in-a-policy-package"></a>查看策略包中策略的设置
 
-1. 在Microsoft Teams管理中心的左侧导航中，选择策略 **包**，然后单击包名称左侧选择策略包。
+1. 在Microsoft Teams管理中心的左窗格中，选择策略 **包**，然后单击包名称左侧选择策略包。
 
-2. 单击要查看的策略。
+2. 选择要查看的策略。
 
 ### <a name="customize-policies-in-a-policy-package"></a>自定义策略包中的策略
 
 可以通过策略 **包** 页或直接转到Microsoft Teams管理中心的策略页来编辑策略的设置。
 
-1. 在Microsoft Teams管理中心的左侧导航中，执行下列操作之一：
-    - 单击 **“策略”包**，然后单击包名称左侧选择策略包。
-    - 单击策略类型。  例如，单击 **“消息传递”策略**。
+1. 在Microsoft Teams管理中心的左窗格中，执行下列操作之一：
+    - 选择 **“策略”包**，然后单击包名称左侧，选择策略包。
+    - 选择策略类型。  例如，单击 **“消息传递”策略**。
 
 2. 选择要编辑的策略。 链接到策略包的策略与策略包的名称相同。
 

@@ -451,6 +451,8 @@ items:
                 href: teams-analytics-and-reports/pstn-minute-pools-report.md
               - name: PSTN 使用报告
                 href: teams-analytics-and-reports/pstn-usage-report.md
+              - name: Teams 音频会议拨出使用情况报告
+                href: audio-conferencing-dial-out-usage-report.md
               - name: Teams 实时事件使用情况报表
                 href: teams-analytics-and-reports/teams-live-event-usage-report.md
               - name: Teams 信息保护许可证报告
@@ -543,9 +545,9 @@ items:
         items:
           - name: 与其他组织的用户通信
             href: communicate-with-users-from-other-organizations.md
-          - name: 外部访问（联合身份验证）
+          - name: 外部会议和聊天
             items:
-              - name: 管理外部访问
+              - name: 管理外部会议和聊天
                 href: manage-external-access.md
               - name: 本机 Teams 聊天
                 href: native-chat-for-external-users.md

@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 了解哪些会话边界控制器 (SBC) 已通过直接路由认证。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d8a1a3e739188859cf34ea60c0160e9532a9ab3d
-ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
+ms.openlocfilehash: 2ebc88b42257ca6f6f6cdce482d042b0dc3b406c
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/30/2022
-ms.locfileid: "64556573"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125757"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>经认证可用于直接路由的会话边界控制器
 
@@ -49,9 +49,7 @@ Microsoft 与每个供应商合作：
 
 下表列出了经认证可用于直接路由的设备。 （如需了解哪些 SBC 供应商支持本地媒体优化的信息，请参阅[为直接路由配置本地媒体优化](direct-routing-media-optimization-configure.md)。）
 
-[详细了解直接路由](https://aka.ms/dr)。
-如果你对直接路由的 SBC 认证计划有任何疑问，请发送电子邮件至 drsbccertification@microsoft.com。 请注意，在下一步通知之前，我们不会接受新的认证提名。
-<br/>
+[详细了解直接路由](https://aka.ms/dr)。请注意，在下一步通知之前，我们不会接受新的认证提名。<br/>
 
 ## <a name="certified-sbc-vendors"></a>认证的 SBC 供应商
 
@@ -91,8 +89,7 @@ Microsoft 与每个供应商合作：
 |                                 |     适用于 1000 系列聚合服务路由器的 Cisco 统一边界元素 (CUBE)      |     &#10004;   | &#10004; |      支持的 IOS XE 阿姆斯特丹 17.2.1r（推荐的 17.6.1a）         |    &#10004;     |    |
 |                                 |     适用于 Catalyst 8000 Edge 平台的 Cisco 统一边框元素 (CUBE)      |     &#10004;   | &#10004; |      支持的 IOS XE 阿姆斯特丹 17.3.2（推荐的 17.6.1a）      |    &#10004;     |    |
 |                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    适用于企业的 Avaya 会话边界控制器 （ASBCE）    |     &#10004;     |       &#10004;     |       8.1.1 版本（8.1.2 支持媒体旁路）      |     |    |
-|                     [诺基亚](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    诺基亚会话边界控制器。    |     &#10004;     |           |       19.5 (1908)       |     |    |
-|                     |    诺基亚会话边界控制器。    |     &#10004;     |           |       20.8       |      &#10004;        |    |
+|                     [诺基亚](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    诺基亚会话边界控制器。    |     &#10004;     |      &#10004;     |       22.0       |   &#10004;  |    |
 |                     [Italtel](https://www.italtel.com/italtel-provides-direct-routing-sbc-for-microsoft-teams/)|    NetMatch-S CI     |     &#10004;     |      &#10004;     |       支持的 5.0、5.1 (推荐 5.3)      |     |    |
 |                     [爱立信](https://www.ericsson.com/en/portfolio/digital-services/cloud-communication/enterprise-communication/business-communication-services-and-enablers/sip-trunking)|    vSBC 2.16     |     &#10004;     |           |              |     |    |
 |                     [Cataleya](https://cataleya.com/orchidplatforms/)|    Orchid Link    |     &#10004;     |           |      3.1        |     |    |

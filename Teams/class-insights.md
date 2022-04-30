@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 234121449025512f8a5ffe37814804cc775b7b37
-ms.sourcegitcommit: 0d61ca384e7d76612743de41c8fea4729072fb5e
+ms.openlocfilehash: 3ce84036102407c31076ea2ec12fb5dc96e6b082
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "64837455"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125617"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Microsoft Teams 教育版见解 IT 管理员指南
 
@@ -231,6 +231,17 @@ Microsoft 已从零开始构建见解以确保数据得到保护。 我们意识
 
 > [!NOTE]
 > 如果已关闭 Insights，则删除已收集的数据。 选择退出时删除的数据无法在以后还原，即使重新启用了 Insights 也是如此。
+
+
+### <a name="turn-machine-learning-in-insights-on-or-off"></a>打开或关闭 Insights 中的机器学习
+
+默认情况下，关闭 Insights 中基于计算机的体验。 若要允许这些见解，需要 **允许基于机器学习的 Insights**。 打开此开关不会收集除教育版 Insights 已收集的数据以外的任何其他数据。
+
+* 若要验证此项，请打开 [SDS 管理中心](https://sds.microsoft.com/)，转到“**设置**” > “**管理教育版 Insights**”。 
+* **调整基于允许机器学习的 Insights** 切换到关闭或打开。
+
+> [!NOTE]
+> 此切换取决于 **用于 Insights 切换的收集活动数据**。 关闭 **Insights 的收集活动数据** 也会关闭 **基于允许机器学习的 Insights** 切换。
 
 ### <a name="turn-sds-for-insights-on-or-off"></a>打开或关闭用于 Insights 的 SDS
 
