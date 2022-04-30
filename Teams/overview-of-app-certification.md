@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5a8edd0afc2adde7a6867242dd0bdc0b406ca682
-ms.sourcegitcommit: 745d707ec63685ce7f973785e7056628472b9c45
+ms.openlocfilehash: 85277e9948dac1e083eb587f9bfc3787be3644a6
+ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "64910908"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65137153"
 ---
 # <a name="microsoft-365-app-compliance-program-for-security-compliance-and-privacy-of-third-party-apps"></a>Microsoft 365 应用合规性计划，适用于第三方应用的安全性、合规性和隐私
 
@@ -80,7 +80,7 @@ Microsoft 合规性计划根据派生自领先的行业标准框架的控件检�
 
 * 在 Web 上收集有关应用的详细信息时，请参阅 Microsoft 文档中有关该应用的防护图标。
 
-  :::image type="content" source="media/attested-app-doc-details.png" alt-text="在有关应用的安全性和符合性的详细帮助文章中查看 Microsoft 365 认证信息。":::
+  :::image type="content" source="media/attested-app-doc-details.png" alt-text="在有关应用的安全性和符合性的详细帮助文章中查看 Microsoft 365 认证信息":::
 
 * 在 Teams 管理中心检查应用程序时，请使用“认证”列对应用列表进行排序。 请参阅图标，并可以选择链接以访问上面提到的特定于应用的页面。
 
@@ -92,13 +92,35 @@ Microsoft 合规性计划根据派生自领先的行业标准框架的控件检�
 
 * 在 Teams 管理中心内向应用授予权限时，应用名称前面的蓝色复选标记会指示应用是经过发布者证明的应用，还是经过 Microsoft 365 认证的应用。
 
-   :::image type="content" source="media/attested-app-tac2.png" alt-text="在 Teams 管理中心的授予权限对话框中，管理员可以查看蓝色复选标记，确保应用已获得 Microsoft 365 证明。":::
+   :::image type="content" source="media/attested-app-tac2.png" alt-text="在 Teams 管理中心的授予权限对话框中，管理员可以查看蓝色复选标记，确保应用已获得 Microsoft 365 证明":::
 
-## <a name="view-security-compliance-and-privacy-information-in-microsoft-documentation"></a>在 Microsoft 文档中查看安全性、合规性和隐私信息
+## <a name="view-security-compliance-and-privacy-information"></a>查看安全性、合规性、隐私信息
 
-对于经过证明或认证的应用，有关每个应用的安全性、隐私性、合规性等详细信息，请参阅 [Microsoft Teams 应用安全性和合规性](/microsoft-365-app-certification/teams/teams-apps) 链接的特定于应用的帮助文章。
+你可以在 Microsoft 文档和 Teams 管理中心找到有关受证明或认证的应用的安全性、隐私、合规性、行为的信息。
+
+### <a name="microsoft-documentation"></a>Microsoft 文档
+
+有关每个列出应用的安全性、隐私性、合规性等详细信息，请参阅 [Microsoft Teams 应用安全性和合规性](/microsoft-365-app-certification/teams/teams-apps)中链接的特定于应用的帮助文章。
 
 :::image type="content" source="media/attested-app-doc-details.png" alt-text="为接受 Microsoft 合规性计划的应用提供的详细信息。":::
+
+### <a name="teams-admin-center"></a>Teams 管理中心
+
+为组织评估应用时，可以使用独立的 Cloud Access Security Brokers (CASB)（如 Microsoft Cloud App Security (MCAS)）来查找有关应用的安全性和行为的信息。 Teams 管理中心包含 MCAS 中针对 Microsoft 365 认证应用的安全性和符合性的信息，可用于检查应用是否满足你的需求。
+
+> [!NOTE]
+> 无论你的组织是否有支持 MCAS 的许可证，此功能都可供所有管理员使用。
+
+若要访问应用的 MCAS 信息，请执行以下操作：
+
+1. 在 Teams 管理中心中，选择 **Teams 应用** 下的 **管理应用**。
+1. 选择 **认证** 对应用进行排序，并将所有 Microsoft 365 认证应用推送到表的顶部。
+1. 选择 Microsoft 365 认证应用。
+1. 选择 **安全性和符合性** 选项卡。
+
+   :::image type="content" source="media/mcas.png" alt-text="Teams 管理中心安全性和合规性选项卡的屏幕截图":::
+
+   若要获取有关应用支持的功能的更多详细信息，请选择每个类别的下拉列表。
 
 <!--- TBD: Move to the permissions article 
 
@@ -119,7 +141,7 @@ After admins grant the org-wide permissions to an app, they can review the Graph
 
 在 Teams 管理中心内，每个应用页面都链接到应用的隐私声明和使用条款。
 
-:::image type="content" source="media/tac-app-tou-privacy-info1.png" alt-text="在 Teams 管理中心，管理员可以访问指向每个应用的隐私策略和使用条款的链接。" lightbox="media/tac-app-tou-privacy-info2.png":::
+:::image type="content" source="media/tac-app-tou-privacy-info1.png" alt-text="在 Teams 管理中心，管理员可以访问指向每个应用的隐私策略和使用条款的链接" lightbox="media/tac-app-tou-privacy-info2.png":::
 
 <!--- TBD: Parking some content for later review. Check if this content needs to be published.
 
