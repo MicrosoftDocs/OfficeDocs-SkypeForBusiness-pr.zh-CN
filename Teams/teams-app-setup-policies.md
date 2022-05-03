@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 328f2676ccec6cd1450166d7032877e176d5f1cd
-ms.sourcegitcommit: 745d707ec63685ce7f973785e7056628472b9c45
+ms.openlocfilehash: 7c00a5e70684a93f31a11d48ac542920fca3b697
+ms.sourcegitcommit: 9f7372f7568b4275169590510d2b7a0c0ad7577b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "64910818"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "65171728"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理应用设置策略
 
@@ -80,7 +80,7 @@ ms.locfileid: "64910818"
 
 1. 在 **“应用栏**”或 **“消息传递”扩展** 名下，按希望应用在Teams中显示的顺序排列应用。
 
-   ![固定应用部分。](media/pin-messaging-extensions.png)
+   :::image type="content" source="media/pin-messaging-extensions.png" alt-text="固定应用部分"border="true":::
 
 1. 选择“**保存**”。
 
