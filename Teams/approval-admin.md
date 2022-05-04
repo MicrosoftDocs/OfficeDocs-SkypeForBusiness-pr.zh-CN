@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45f663f2c75d12a21fe38c4bbc71e2b3d93d8247
-ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
+ms.openlocfilehash: 205f0869e699384c9a37590db50e690b5b8bd804
+ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65137123"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "65186978"
 ---
 # <a name="teams-approvals-app-availability"></a>Teams“审批”应用可用性
 
@@ -122,15 +122,29 @@ ms.locfileid: "65137123"
 
      :::image type="content" alt-text="显示审批应用的详细信息。" source="media/approvals-details-new.png" lightbox="media/approvals-details-new.png":::
 
-## <a name="app-policies"></a>应用策略
+## <a name="pin-approvals-to-teams"></a>将审批固定到Teams
 
-### <a name="retention-policy"></a>保留策略
+### <a name="use-the-tailored-frontline-app-experience-to-pin-approvals-and-other-apps-to-teams"></a>使用定制的一线应用体验固定审批和其他应用以Teams
+
+Teams中定制的一线应用体验为拥有 [F 许可证](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt)的用户固定Teams中最相关的应用。 固定应用包括 审批、Walkie Talkie、Tasks 和 Shifts。 默认情况下，此功能处于启用状态，为一线员工提供根据其需求定制的现新体验。
+
+应用固定到应用栏（Teams桌面客户端侧面和Teams移动客户端底部的栏），用户可在其中快速轻松地访问它们。
+
+若要了解详细信息，包括体验如何与你设置的应用策略配合使用，请参阅 [Tailor Teams一线员工的应用](pin-teams-apps-based-on-license.md)。
+
+### <a name="use-an-app-setup-policy-to-pin-approvals-to-teams"></a>使用应用设置策略固定审批以Teams
+
+通过应用设置策略，可以自定义Teams以固定用户中对用户最重要的应用。
+
+若要为用户固定审批应用，可以编辑全局 (组织范围的默认) 策略，或创建和分配自定义应用设置策略。 要了解详细信息，请参阅[在 Teams 中管理应用设置策略](teams-app-setup-policies.md)。
+
+## <a name="retention-policy"></a>保留策略
 
 从审批应用创建的审批存储在默认的 Microsoft Dataverse 环境中，该环境目前不支持备份。 详细了解如何[备份和还原环境 - Power Platform\| Microsoft Docs](/power-platform/admin/backup-restore-environments)。
 
 在团队所有者从Microsoft Forms Web 应用中 **删除的窗体** 选项卡中清理数据之前，不会删除窗体中存储的数据。
 
-### <a name="conditional-access-policies"></a>条件访问策略
+## <a name="conditional-access-policies"></a>条件访问策略
 
 目前，Teams中的审批应用不支持为Microsoft Teams设置的条件访问策略。
 

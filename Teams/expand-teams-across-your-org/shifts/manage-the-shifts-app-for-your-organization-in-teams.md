@@ -24,12 +24,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2dcc945795da34ed3045ffadbc55445303b48281
-ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
+ms.openlocfilehash: 2cd0032291054e5a4c7ee8d9204d6173cdcdebdf
+ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65137003"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "65186998"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中为组织管理“班次”应用
 
@@ -71,9 +71,19 @@ Teams 可用的所有企业 SKU 中均提供“班次”。
 
 若要允许或阻止组织中的特定用户使用 Shifts，请确保在 [“管理应用](../../manage-apps.md) ”页上为组织启用了 Shifts。 然后创建自定义应用权限策略并将其分配给这些用户。 要了解详细信息，请参阅[在 Teams 中管理应用权限策略](../../teams-app-permission-policies.md)。
 
-### <a name="use-an-app-setup-policy-to-pin-shifts-to-teams"></a>使用应用设置策略将 Shifts 固定到Teams
+### <a name="pin-shifts-to-teams"></a>将移位固定到Teams
 
-应用设置策略让你自定义 Teams 来突出显示组织中对用户最重要的应用。 在策略中设置的应用会固定到应用栏（&mdash;Teams 桌面客户端的边栏以及 Teams 移动客户端的底栏&mdash;），用户可以快速方便地访问。
+#### <a name="use-the-tailored-frontline-app-experience-to-pin-shifts-and-other-apps-to-teams"></a>使用定制的一线应用体验固定 Shifts 和其他应用以Teams
+
+Teams中定制的一线应用体验为拥有 [F 许可证](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt)的用户固定Teams中最相关的应用。 固定应用包括 Shifts、Walkie Talkie、Tasks 和 审批。 默认情况下，此功能处于启用状态，为一线员工提供根据其需求定制的现新体验。
+
+应用固定到应用栏（Teams桌面客户端侧面和Teams移动客户端底部的栏），用户可在其中快速轻松地访问它们。
+
+若要了解详细信息，包括体验如何与你设置的应用策略配合使用，请参阅 [Tailor Teams一线员工的应用](../../pin-teams-apps-based-on-license.md)。  
+
+#### <a name="use-an-app-setup-policy-to-pin-shifts-to-teams"></a>使用应用设置策略将 Shifts 固定到Teams
+
+通过应用设置策略，可以自定义Teams以固定对用户最重要的应用。
 
 可以通过添加 Shifts [应用创建自定义应用设置策略](../../teams-app-setup-policies.md) ，然后将 [策略分配](../../assign-policies-users-and-groups.md) 给用户。 或者，可以使用属于一线辅助角色和一线管理器策略包的应用设置策略。
 

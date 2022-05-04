@@ -21,12 +21,12 @@ MS.collection:
 - microsoftcloud-retail
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e4d410d643dcf0c3753e87fa03e4040812dd9a5a
-ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
+ms.openlocfilehash: 051ea9a68cda344cf10bc297c84b3cbda6e61437
+ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65137033"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "65186988"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中为组织管理 Tasks 应用
 
@@ -37,7 +37,7 @@ Tasks 应用为 Microsoft Teams 带来紧密的任务管理体验，通过[微�
 > [!NOTE]
 > 我们正在推出 Teams 桌面客户端上的 Tasks 体验，应用会首先显示为 **Planner**。 然后，此名称会暂时更改为 **Tasks by Planner 和微软代办**，之后会重命名为 **Tasks**。 在 Teams 移动客户端上，用户会始终看到应用名为 **Tasks**。 桌面体验可用后，移动体验的可用性可能会有短暂的延迟。
 
-   ![Teams列表上的任务列表视图的屏幕截图。](media/manage-tasks-app-tasks.png)
+:::image type="content" source="media/manage-tasks-app-tasks.png" alt-text="任务列表视图的屏幕截图。" lightbox="media/manage-tasks-app-tasks.png":::
 
 对于想要简化对前线工作者任务管理的组织，Tasks 也有在前线工作人员中大规模确定目标、发布以及跟踪任务的功能。 比如，企业和地区领导可以创建并发布面向相关地区的任务列表，例如具体的零售店，并通过实时报告跟踪进度。 管理者可以分配任务给员工和地区内的直接活动，前线工作者会在手机和桌面上收到分配任务的优先级清单。 若要启用 [任务发布](#task-publishing)，请首先为组织设置一个团队目标层次结构，该层次结构定义层次结构中的所有团队相互关联的方式。
 
@@ -75,9 +75,19 @@ Tasks 在你的组织中默认为所有 Teams 用户启用。 你可以在 Micro
 
 要在你的组织中允许或阻止特定用户使用 Tasks，请确保在[管理应用](manage-apps.md)页面中 Tasks 已为你的组织打开，然后创建自定义应用权限策略并将其分配给特定用户。 要了解详细信息，请参阅[在 Teams 中管理应用权限策略](teams-app-permission-policies.md)。
 
-### <a name="use-an-app-setup-policy-to-pin-tasks-to-teams"></a>使用应用设置策略来固定 Tasks 到 Teams
+### <a name="pin-tasks-to-teams"></a>将任务固定到Teams
 
-应用设置策略让你自定义 Teams 来突出显示组织中对用户最重要的应用。 在策略中设置的应用固定到应用栏（Teams桌面客户端和Teams移动客户端底部的栏），用户可以快速轻松地访问它们。
+#### <a name="use-the-tailored-frontline-app-experience-to-pin-tasks-and-other-apps-to-teams"></a>使用定制的一线应用体验将任务和其他应用固定到Teams
+
+Teams中定制的一线应用体验为拥有 [F 许可证](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt)的用户固定Teams中最相关的应用。 固定应用包括任务、Walkie Talkie、Shifts 和 审批。 默认情况下，此功能处于启用状态，为一线员工提供根据其需求定制的现新体验。
+
+应用固定到应用栏（Teams桌面客户端侧面和Teams移动客户端底部的栏），用户可在其中快速轻松地访问它们。
+
+若要了解详细信息，包括体验如何与你设置的应用策略配合使用，请参阅 [Tailor Teams一线员工的应用](pin-teams-apps-based-on-license.md)。
+
+#### <a name="use-an-app-setup-policy-to-pin-tasks-to-teams"></a>使用应用设置策略来固定 Tasks 到 Teams
+
+通过应用设置策略，可以自定义Teams以固定用户中对用户最重要的应用。
 
 要为用户固定 Tasks 应用，请编辑全局（默认为组织范围内）策略或创建并分配自定义应用设置策略。 要了解详细信息，请参阅[在 Teams 中管理应用设置策略](teams-app-setup-policies.md)。
 
@@ -92,12 +102,13 @@ Tasks 在你的组织中默认为所有 Teams 用户启用。 你可以在 Micro
 通过发布任务，你的组织可以发布在组织内针对特定地点（团队）的任务列表，来定义并共享需要在那些地点完成的工作计划。
 
 - 在发布团队的人员，例如企业或地区领导，可以创建任务列表并发布给特定团队。
-    ![任务发布的屏幕截图。](media/manage-tasks-app-publish.png)
+
+    :::image type="content" source="media/manage-tasks-app-publish.png" alt-text="任务发布的屏幕截图。" lightbox="media/manage-tasks-app-publish.png":::
 - 收件团队的管理者可以检查发布的任务列表并分配个人任务给团队成员。
-    ![分配任务的屏幕截图。](media/manage-tasks-app-assign.png)
+    :::image type="content" source="media/manage-tasks-app-assign.png" alt-text="分配任务的屏幕截图。" lightbox="media/manage-tasks-app-assign.png":::
 - 前线工作者有查看已分配任务的简便移动体验。 他们可以在适当的时候附加照片来展示工作并标记任务为已完成。
 - 发布者和管理者可以查看报告来了解各个级别的任务分配和完成状态，包括以地点（团队）、任务列表以及个人任务查看。
-    ![移动设备上分配的任务的屏幕截图。](media/manage-tasks-app-reporting.png)
+    :::image type="content" source="media/manage-tasks-app-reporting.png" alt-text="已发布任务的屏幕截图。" lightbox="media/manage-tasks-app-reporting.png":::
 
 用户在 Tasks 应用中的 **已发布列表** 选项卡创建、管理以及发布任务列表。 此选项卡只在组织已经[设置团队目标层次结构](#set-up-your-team-targeting-hierarchy)并且用户所在团队在该结构中时显示。 此层次结构决定用户是否能够发布或接收任务列表并查看已接收列表的报告。
 

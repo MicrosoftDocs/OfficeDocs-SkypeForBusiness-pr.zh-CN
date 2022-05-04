@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5c3112740ab2b25b0f0107823d41c5b5e2d68f0f
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: 4f717672c4cb297d7f3d2e95ceaa038eeceaa2ee
+ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059303"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "65187118"
 ---
 # <a name="tailor-teams-apps-for-your-frontline-workers"></a>为一线员工定制 Teams 应用
 
@@ -29,7 +29,7 @@ ms.locfileid: "65059303"
 
 ## <a name="overview"></a>概述
 
-Teams提供了一种为一线员工固定应用的简便方法。 此功能基于许可证固定应用，为一线员工提供根据其需求量身定制的Teams的现新体验。
+Teams根据许可证固定应用，为一线员工提供适合其需求的Teams的现现体验。 
 
 凭借量身定制的一线应用体验，你的一线员工可在Teams中获取最相关的应用，而无需管理员执行任何操作。
 

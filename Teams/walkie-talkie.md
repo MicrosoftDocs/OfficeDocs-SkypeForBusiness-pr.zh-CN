@@ -18,12 +18,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c19894106dfd06c13ec9936657837aa42fcdade0
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+ms.openlocfilehash: 776f0f31d54788fbffd86bbcbedd44e30ada28a3
+ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "62015012"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "65186968"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft Teams中的 Walkie Talkie 应用
 
@@ -35,23 +35,25 @@ Teams中的 Walkie Talkie 应用为团队提供即时推 (PTT) 通信，现在�
 
 ### <a name="deploying-walkie-talkie"></a>部署 Walkie Talkie
 
-使用 Google 移动服务 (GMS) 和 iOS 设备的 Android 设备支持 Walkie Talkie。 
+使用 Google 移动服务 (GMS) 和 iOS 设备的 Android 设备支持 Walkie Talkie。
 
-目前，Walkie Talkie 尚未预安装。 若要为组织中的用户启用此功能，需要将 Walkie Talkie 添加到从 [Teams 管理中心](https://admin.teams.microsoft.com/)分配给用户的 [App 安装策略](teams-app-setup-policies.md) 。 启用后，Walkie Talkie 将在 48 小时内在应用上推出。
+### <a name="pin-walkie-talkie-to-teams"></a>将 Walkie Talkie 固定到Teams
 
-### <a name="adding-walkie-talkie-to-your-app-list"></a>将 Walkie Talkie 添加到应用列表
+#### <a name="use-the-tailored-frontline-app-experience-to-pin-walkie-talkie-and-other-apps-to-teams"></a>使用定制的一线应用体验固定 Walkie Talkie 和其他应用以Teams
 
-在Microsoft Teams管理中心，**在 Teams** **appSetup** >  策略下，应将 **“允许用户固定**”设置为 **“打开**”。 然后，在“固定应用”部分下，单击 **“+添加应用**”。
+Teams中定制的一线应用体验为拥有 [F 许可证](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt)的用户固定Teams中最相关的应用。 固定应用包括 Walkie Talkie、Shifts、Tasks 和 审批。 默认情况下，此功能处于启用状态，为一线员工提供根据其需求定制的现新体验。
 
-:::image type="content" source="media/deploy-walkie-talkie-1.png" alt-text="显示要选择的“固定应用”部分和“添加应用”按钮。":::
+应用固定到应用栏（Teams桌面客户端侧面和Teams移动客户端底部的栏），用户可在其中快速轻松地访问它们。
 
-在右侧显示的 **“添加固定应用** ”面板上，使用 **“搜索** ”文本框查找 Walkie Talkie。 将它作为搜索结果时，选择名称右侧的 **“添加** ”按钮以将其添加到列表中。
+若要了解详细信息，包括体验如何与你设置的应用策略配合使用，请参阅 [Tailor Teams一线员工的应用](pin-teams-apps-based-on-license.md)。
 
-:::image type="content" source="media/deploy-walkie-talkie-2.png" alt-text="显示“添加固定应用”边栏，其中在搜索窗格中输入了 Walkie，搜索结果中显示 Walkie Talkie 应用，旁边有“添加”按钮。":::
+#### <a name="use-an-app-setup-policy-to-pin-walkie-talkie-to-teams"></a>使用应用设置策略将 Walkie Talkie 固定到Teams
 
-Walkie Talkie 应用现在应显示在固定应用列表中，单击“ **保存** ”按钮后可供使用。
+通过应用设置策略，可以自定义Teams以固定用户中对用户最重要的应用。
 
-:::image type="content" source="media/deploy-walkie-talkie-3.png" alt-text="显示已固定应用列表，其中添加了 Walkie Talkie 应用，并在列表下方显示“保存”按钮。":::
+若要为用户固定 Walkie Talkie 应用，可以编辑全局 (组织范围的默认) 策略或创建和分配自定义应用设置策略。 要了解详细信息，请参阅[在 Teams 中管理应用设置策略](teams-app-setup-policies.md)。
+
+:::image type="content" source="media/deploy-walkie-talkie-2.png" alt-text="显示在“添加固定应用”窗格中将 Walkie Talkie 添加到固定应用列表的屏幕截图。" lightbox="media/deploy-walkie-talkie-2.png":::
 
 ### <a name="network-documentation"></a>网络文档
 

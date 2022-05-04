@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 管理员可以阅读Microsoft Teams 会议室的发行说明，其中列出了Microsoft Teams 会议室中的累积改进。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ff29da1f78c39163dbb8262e1a94687dad6c4aac
-ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+ms.openlocfilehash: f91c286f08046d1a521d3758f1fc297bf2aa0d59
+ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65125707"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "65187018"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Microsoft Teams 会议室发行说明
 
@@ -230,7 +230,7 @@ Teams 会议室受现代生命周期策略的约束。 有关详细信息，请�
 
 - 在Teams会议中向会议参与者共享 HDMI 音频
 - 预览)  (Cortana语音技能
-- 当Teams会议室以与会者身份加入时，请防止基于音频权限取消调用。 有关详细信息，请参阅[Teams会议中管理与会者音频权](https://support.microsoft.com/office/manage-attendee-audio-permissions-in-teams-meetings-f9db15e1-f46f-46da-95c6-34f9f39e671a)限。
+- 当Teams 会议室以与会者身份加入时，请防止基于音频权限取消调用。 有关详细信息，请参阅[Teams会议中管理与会者音频权](https://support.microsoft.com/office/manage-attendee-audio-permissions-in-teams-meetings-f9db15e1-f46f-46da-95c6-34f9f39e671a)限。
 - 从会议室控制台Teams聚焦某人的视频，并在会议室显示屏上使用聚焦视频
 
 > [!NOTE]
