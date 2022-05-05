@@ -1,5 +1,5 @@
 ---
-title: 面板上的签入和Microsoft Teams释放
+title: Microsoft Teams面板上的签入和会议室发布
 ms.author: czawideh
 author: cazawideh
 manager: serdars
@@ -14,50 +14,50 @@ ms.collection:
 - M365-voice
 ms.topic: reference
 search.appverid: MET150
-description: 本文提供有关如何在面板设备上启用签入和Teams发布的指导。
-ms.openlocfilehash: 9e90916c5db4d5ec32a40f0e021f9bf7b294d09f
-ms.sourcegitcommit: f8b935e009895138eddfc1ae360b7b2ace747d3c
+description: 本文提供有关如何启用签入和会议室发布Teams面板设备的指导。
+ms.openlocfilehash: 3cf1f48a71f88f012c6d33ba608ee40b53cda474
+ms.sourcegitcommit: e102d72e67ab1c440c29ae6a048fc2cf8545fe01
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "63689052"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65218016"
 ---
-# <a name="check-in-and-room-release-on-microsoft-teams-panels"></a>面板上的签入和Microsoft Teams释放
+# <a name="check-in-and-room-release-on-microsoft-teams-panels"></a>Microsoft Teams面板上的签入和会议室发布
 
-启用签入和会议室释放后，用户Teams会议开始时预订的会议室的面板上登录。 如果用户未在会议开始时间后的一定时间内签入，会议室将拒绝会议邀请，向会议组织者发送取消消息，会议室可供其他人保留。  
+启用签入和会议室释放后，用户会在会议开始时保留的会议室内签入Teams面板。 如果用户在会议开始时间之后的一定时间内未签入，会议室会拒绝会议邀请，向会议组织者发送取消消息，并且会议室可供其他人保留。  
 
 ## <a name="requirements"></a>要求 
 
-此功能可在独立部署面板部署Teams使用。 还可以将 Teams 面板与 Android 上的 Teams 会议室 与应用版本 1449/1.0.96.2022011305 或更高版本配对，了解其他功能，如签入通知。  
+此功能可在独立Teams 面板部署中使用。 还可以将 Teams 面板与 Android 上的Teams 会议室与应用版本 1449/1.0.96.2022011305 或更高版本配对，以获取其他功能，例如签入通知。  
 
-## <a name="enable-check-in-and-room-release"></a>启用签入和房间释放 
+## <a name="enable-check-in-and-room-release"></a>启用签入和会议室发布 
 
-默认情况下，签入和房间释放已关闭。 若要将其打开，  
+默认情况下，签入和会议室版本处于关闭状态。 若要将其打开，  
 
-1. 在Teams"面板上，使用管理员凭据登录。  
+1. 在Teams 面板上，使用管理员凭据登录。  
 
-2. 转到"**设置 >"设置 >"设置 >"应用设置 >会议"**。
+2. 转到 **设置 >设备设置>管理设置> Teams管理设置>会议**。
 
-3. 如果没有人检查，请打开"发布空间"。
+3. 如果没有人签入，请打开发布室。
 
-4. 若要调整用户在房间释放前必须签入的时间量，请转到"发布后" **，** 然后从下拉列表中选择一个选项。  
+4. 若要调整用户在会议室发布前必须签入的时间量，请转到 **“发布”后：** 从下拉列表中选择一个选项。  
 
-当Teams面板与 Android Teams会议室配对时，用户可以在会议室中签入加入Teams会议。  
+当Teams面板与 Android 上的Teams会议室配对时，用户可以在Teams会议室中签入会议。  
 
 ## <a name="turn-on-check-in-notifications"></a>打开签入通知
 
 > [!NOTE]
-> 此功能目前仅在与 Android Teams会议室配对的 Teams 面板上可用。 Teams面板Teams聊天室必须登录到同一资源帐户。 若要[了解Teams，](use-teams-panels.md#pair-a-teams-panel-with-a-microsoft-teams-room-on-android)请参阅将 Teams 面板与 Android Microsoft Teams会议室配对。  
+> 此功能目前仅适用于与 Android 上的Teams会议室配对的Teams面板。 Teams 面板和Teams室必须登录到同一资源帐户。 请参阅[将Teams 面板与 Android 上的Microsoft Teams会议室配对](use-teams-panels.md#pair-a-teams-panel-with-a-microsoft-teams-room-on-android)以了解详细信息。  
 
-当会议继续超过其保留的时间段时，将发送签入通知。 下一次会议中的用户进入后，通知将显示在预定的会议开始时间的会议室显示前，让以前的会议参与者知道他们的预订已结束，并且用户正在等待空间。  
+当会议继续超过其预留时间段时，将发送签入通知。 下一次会议的用户签入后，通知将显示在其计划的会议开始时间的会议室前部显示，以便上一个会议参与者知道他们的预订已结束，用户正在等待空间。  
 
-若要打开签入通知，  
+若要打开签入通知，请执行以下操作：  
 
-1. 在Teams"面板上，使用管理员凭据登录。 
+1. 在Teams 面板上，使用管理员凭据登录。 
 
-2. 转到"**设置 >"设置 >"设置 >"应用设置 >会议"**。
+2. 转到 **设置 >设备设置>管理设置> Teams管理设置>会议**。
 
-3. 转到 **"签入"并** 打开" **发送签入通知"**。
+3. 转到 **签入** 并打开 **“发送签入通知**”。
 
 ## <a name="related-topics"></a>相关主题
 

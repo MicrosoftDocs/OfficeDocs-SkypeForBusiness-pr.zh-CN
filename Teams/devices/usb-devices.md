@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: 请参阅 (哪些 USB 外围设备（例如耳机、免提电话、网络摄像头和监视器）) 已通过Microsoft Teams认证。
-ms.openlocfilehash: ee6f3c2634b44c4c510deb2c7a50818f6bc5ef7c
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: 272d0c0eb1b3885da9a313666c8eac2d7bb09fe0
+ms.sourcegitcommit: e102d72e67ab1c440c29ae6a048fc2cf8545fe01
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059213"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65217916"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>经认证为Microsoft Teams的 USB 音频和视频设备
 
@@ -74,13 +74,16 @@ ms.locfileid: "65059213"
 
 ## <a name="certified-devices"></a>认证设备
 
-*表更新时间：2022 年 4 月*
+*表更新时间：2022 年 5 月*
 
 > [!NOTE]
 > 日期格式为 MMDDYYYY。
 
 | 制造商        | 模型                                                     | 合格      | 认证计划                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Yealink              |UH38 耳机                                               |5/2/2022        |Microsoft Teams认证                           |   
+|Yealink              |BH72 耳机                                               |5/2/2022        |Microsoft Teams认证                           |
+|罗技             |区域 True 无线耳塞                                 |5/2/2022        |Microsoft Teams认证                           |
 |联想               |转到无线 ANC 耳机                                    |4/11/2022       |Microsoft Teams认证                           |
 |EPOS                 |ADAPT 661                                                  |3/11/2022       |Microsoft Teams认证                           |
 |EPOS                 |ADAPT 461T                                                 |3/11/2022       |Microsoft Teams认证                           |
