@@ -331,8 +331,6 @@ items:
         href: using-admin-roles.md
       - name: 在 Teams 管理中心中管理团队
         href: manage-teams-in-modern-portal.md
-      - name: 为你的组织管理 Teams 设置
-        href: enable-features-office-365.md
       - name: 管理策略
         items:
           - name: 概述
@@ -349,6 +347,8 @@ items:
             href: manage-policy-packages.md
       - name: 与组织外的人员一起工作
         items:
+          - name: 使用 Teams 保护文件共享和协作
+            href: /microsoft-365/solutions/setup-secure-collaboration-with-teams?wt.mc_id=TeamsTOCSecureCollab001
           - name: 与其他组织的用户通信
             href: communicate-with-users-from-other-organizations.md
           - name: 外部访问（联合身份验证）
@@ -451,6 +451,8 @@ items:
                 href: teams-analytics-and-reports/pstn-minute-pools-report.md
               - name: PSTN 使用报告
                 href: teams-analytics-and-reports/pstn-usage-report.md
+              - name: Teams 音频会议拨出使用情况报告
+                href: audio-conferencing-dial-out-usage-report.md
               - name: Teams 实时事件使用情况报表
                 href: teams-analytics-and-reports/teams-live-event-usage-report.md
               - name: Teams 信息保护许可证报告
