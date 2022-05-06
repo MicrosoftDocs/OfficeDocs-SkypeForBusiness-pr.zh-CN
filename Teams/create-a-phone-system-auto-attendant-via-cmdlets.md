@@ -22,57 +22,57 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 了解如何通过 cmdlet 配置自动助理
-ms.openlocfilehash: 3911010b201e2b19376c24c6c4b84ae8dbcc5db8
-ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
+ms.openlocfilehash: 8161071a277f7f98633d5e2f5b80a069c1908215
+ms.sourcegitcommit: c06d806778f3e6ea4b184bae271e55c34fd9594d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62457462"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "65244919"
 ---
 # <a name="create-an-auto-attendant-via-cmdlets"></a>通过 cmdlet 创建自动助理
 
 ## <a name="assumptions"></a>假设
-1)  PowerShell 已安装在计算机上
-- 为计算机[设置Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+1)  PowerShell 安装在计算机上
+- 为计算机设置[Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 - 已安装 MSTeams 模块 ````  (Install-Module -Name MicrosoftTeams -Force -AllowClobber) ````
 - 已安装 MSOnline 模块 ```` Install-Module -Name MSOnline -Force -AllowClobber ````
 2)  你拥有租户管理权限
-3)  你已购买Microsoft Teams 电话
-4)  已按照使用 [PowerShell cmdlet](create-a-phone-system-call-queue-via-cmdlets.md) 创建呼叫队列指南设置下面提到的呼叫队列。
+3)  已购买Microsoft Teams 电话
+4)  下面提到的呼叫队列已按照 [PowerShell cmdlet 创建呼叫队列](create-a-phone-system-call-queue-via-cmdlets.md) 指南进行设置。
                                                                                                
-注意：下面引用的一些 cmdlet 可能是 PowerShell 模块的公共预览Teams的一部分。  有关详细信息，请参阅安装 Teams [PowerShell 公共预览](teams-powershell-install.md)版，Microsoft Teams [PowerShell 发行说明](teams-powershell-release-notes.md)。
+注意：下面引用的某些 cmdlet 可能是公共预览版 Teams PowerShell 模块的一部分。  有关详细信息，请参阅[“安装Teams PowerShell 公共预览版](teams-powershell-install.md)”，另请参阅 [Microsoft Teams PowerShell 发行说明](teams-powershell-release-notes.md)。
 
-已安装 MicrosoftTeams 模块 ````Update-Module MicrosoftTeams```` 的用户应确保已安装最新版本。
+已安装 MicrosoftTeams 模块的用户应 ````Update-Module MicrosoftTeams```` 确保安装最新版本。
 
 ## <a name="scenario"></a>使用场景
 
 将生成以下自动助理呼叫流：
 
-![使用 cmdlet 构建的自动模具调用流的示意图。](media/create-a-phone-system-auto-attendant-via-cmdlets.png)
+![使用 cmdlet 生成的自动租户调用流图。](media/create-a-phone-system-auto-attendant-via-cmdlets.png)
 
 其他配置信息：
 
 - 自动助理：Contso Main
-- - 运算符：Adele Vance
+- - 运算符：阿黛尔·万斯
 - - 启用语音输入：关闭
 - - 目录搜索：无
-- - Holidays：
+- - 假期：
 - - - 2022 年 1 月 1 日
 - - - 2022 年 12 月 24 日
 - - - 2022 年 12 月 25 日
 
-- 自动助理：Contoso 按姓名拨叫
-- - 运算符：Adele Vance
+- 自动助理：Contoso 按名称拨号
+- - 运算符：阿黛尔·万斯
 - - 时区：UTC
 - - 语言：美国英语
 - - 启用语音输入：打开
 - - 问候语：无
-- - 菜单：TTS，"请说或输入你要联系的人的姓名。 若要返回上一菜单，请按 9"
-- - 目录搜索：按名称拨叫
+- - 菜单：TTS，“请说出或输入要联系的人员的姓名。 若要返回到上一个菜单，请按 9”
+- - 目录搜索：按名称拨号
 - - 拨号范围：销售&支持成员
 
 ## <a name="login"></a>登录
-系统会提示输入管理员Teams凭据。
+系统将提示输入Teams管理员凭据。
 ```
 $credential = Get-Credential
 Connect-MicrosoftTeams -Credential $credential
@@ -81,13 +81,13 @@ Connect-MsolService -Credential $credential
 
 ## <a name="get-operator-information"></a>获取操作员信息
 ````
-$operatorID = (Get-CsOnlineUser -Identity “sip:adele@contoso.com”).ObjectID
+$operatorID = (Get-CsOnlineUser -Identity “sip:adele@contoso.com”).Identity
 
 $operatorEntity = New-CsAutoAttendantCallableEntity -Identity $operatorID -Type User
 ````
 
 ## <a name="dial-by-name-auto-attendant---resource-account-creation"></a>按名称拨号自动助理 - 创建资源帐户
-注意：在此处创建资源帐户，以便可以在主自动助理上引用它。  稍后将创建实际的"按姓名拨叫"自动助理。
+注意：在此处创建资源帐户，以便可以在主自动助理上引用它。  稍后将创建实际的“按名称拨号”自动助理。
 
 ### <a name="get-license-types"></a>获取许可证类型
 ````
@@ -95,7 +95,7 @@ Get-MsolAccountSku
 ````
 
 ### <a name="create-and-assign-resource-account"></a>创建和分配资源帐户
-注意：电话呼叫队列是前端的，因此此处不需要自动助理
+注意：此处不需要电话号码，因为呼叫队列由自动助理预先结束
 - ApplicationID
 - - 自动助理：ce933385-9390-45d1-9512-c8d228074e07
 - - 呼叫队列：11cd3e2e-fccb-42ad-ad00-878b93575e07
@@ -110,7 +110,7 @@ $dialByNameApplicationInstanceID = (Get-CsOnlineUser "ContosoDialByNameAA-RA@con
 ````
 
 ## <a name="contoso-main-menu-auto-attendant"></a>Contoso 主菜单自动助理
-### <a name="create-holiday-schedules"></a>创建假日日程安排
+### <a name="create-holiday-schedules"></a>创建假日计划
 ````
 $dtr = New-CsOnlineDateTimeRange -Start "24/12/2022" -End "25/12/2022"
 
@@ -149,7 +149,7 @@ $newyearCallFlow = New-CsAutoAttendantCallFlow -Name "New Year" -Greetings @($ne
 $newyearCallHandlingAssociation = New-CsAutoAttendantCallHandlingAssociation -Type Holiday -ScheduleId $newyearSchedule.Id -CallFlowId $newyearCallFlow.Id
 ````
 
-### <a name="create-after-hours-schedules"></a>创建"工作时间"计划
+### <a name="create-after-hours-schedules"></a>创建下班后计划
 ````
 $timerangeMoFr = New-CsOnlineTimeRange -Start 08:30 -end 17:00
 
@@ -158,7 +158,7 @@ $timerangeSa = New-CsOnlineTimeRange -Start 10:00 -end 16:00
 $afterHoursSchedule = New-CsOnlineSchedule -Name "After Hours Schedule" -WeeklyRecurrentSchedule -MondayHours @($timerangeMoFr) -TuesdayHours @($timerangeMoFr) -WednesdayHours @($timerangeMoFr) -ThursdayHours @($timerangeMoFr) -FridayHours @($timerangeMoFr) -SaturdayHours @($timerangeSa) -Complement
 ````
 
-### <a name="create-after-hours-prompts-and-menu-options"></a>创建"工作时间提示"和"菜单选项"
+### <a name="create-after-hours-prompts-and-menu-options"></a>创建下班后提示和菜单选项
 ````
 $afterHoursGreetingPrompt = New-CsAutoAttendantPrompt -TextToSpeechPrompt "Thank you for calling Contoso. Our offices are now closed. Regular business hours are Monday through Friday from 8:30 am to 5:00 pm and Saturday from 10:00 am to 4:00 pm eastern time."
 
@@ -176,7 +176,7 @@ $afterHoursMenuOption2Entity = New-CsAutoAttendantCallableEntity -Identity $afte
 
 $afterHoursMenuOption2 = New-CsAutoAttendantMenuOption -Action TransferCallToTarget -DtmfResponse Tone2 -CallTarget $afterHoursMenuOption2Entity
 
-$dialbynameAAOption3Target = (Get-CsOnlineUser -Identity “ContosoDialByNameAA-RA@contso.com”).ObjectID
+$dialbynameAAOption3Target = (Get-CsOnlineUser -Identity “ContosoDialByNameAA-RA@contso.com”).Identity
 
 $dialbynameAAMenuOption3Entity = New-CsAutoAttendantCallableEntity -Identity $dialbynameAAOption3Target -Type applicationendpoint
 
@@ -185,7 +185,7 @@ $dialbynameAAMenuOption3 = New-CsAutoAttendantMenuOption -Action TransferCallToT
 $afterHoursMenuOption4 = New-CsAutoAttendantMenuOption -Action Announcement -DtmfResponse Tone4 -Prompt $addressPrompt
 ````
 
-### <a name="create-after-hours-menu-and-call-flow"></a>"创建营业时间"菜单和"呼叫Flow
+### <a name="create-after-hours-menu-and-call-flow"></a>创建“下班后”菜单和呼叫Flow
 ````
 $afterHoursMenu = New-CsAutoAttendantMenu -Name "After Hours Menu" -MenuOptions @($afterHoursMenuOption1, $afterHoursMenuOption2, $dialbynameAAMenuOption3, $afterHoursMenuOption4) -Prompt $afterHoursMenuPrompt
 
@@ -194,7 +194,7 @@ $afterHoursCallFlow = New-CsAutoAttendantCallFlow -Name "After Hours Call Flow" 
 $afterHoursCallHandlingAssociation = New-CsAutoAttendantCallHandlingAssociation -Type AfterHours -ScheduleId $afterHoursSchedule.Id -CallFlowId $afterHoursCallFlow.Id
 ````
 
-### <a name="create-open-hours-prompts-and-menu-options"></a>创建营业时间提示和菜单选项
+### <a name="create-open-hours-prompts-and-menu-options"></a>创建开放时间提示和菜单选项
 ````
 $openHoursGreetingPrompt = New-CsAutoAttendantPrompt -TextToSpeechPrompt " Thank you for calling Contoso."
 
@@ -217,7 +217,7 @@ $openHoursMenuOption4 = New-CsAutoAttendantMenuOption -Action Announcement -Dtmf
 $openHoursMenuOption0 = New-CsAutoAttendantMenuOption -Action TransferCallToOperator -DtmfResponse Tone0
 ````
 
-### <a name="create-open-hours-menu"></a>"创建营业时间"菜单
+### <a name="create-open-hours-menu"></a>“创建开放时间”菜单
 ````
 $openHoursMenu = New-CsAutoAttendantMenu -Name "Open Hours Menu" -MenuOptions @($openHoursMenuOption1, $openHoursMenuOption2, $dialbynameAAMenuOption3, $openHoursMenuOption4, $openHoursMenuOption0) -Prompt $openHoursMenuPrompt
 
@@ -245,26 +245,26 @@ Set-MsolUser -UserPrincipalName "ContosoMainAA-RA@contoso.com" -UsageLocation US
 
 Set-MsolUserLicense -UserPrincipalName “ContosoMainAA-RA@contoso.com” -AddLicenses "contoso:PHONESYSTEM_VIRTUALUSER"
 
-$applicationInstanceID = (Get-CsOnlineUser "ContosoMainAA-RA@contoso.com").ObjectID
+$applicationInstanceID = (Get-CsOnlineUser "ContosoMainAA-RA@contoso.com").Identity
 
 $autoAttendantID = (Get-CsAutoAttendant -NameFilter "Contoso Main").Identity
 
 New-CsOnlineApplicationInstanceAssociation -Identities @($applicationInstanceID) -ConfigurationID $autoAttendantID -ConfigurationType AutoAttendant
 ````
 
-### <a name="get-list-of-unassigned-service-numbers"></a>获取未分配服务编号的列表
+### <a name="get-list-of-unassigned-service-numbers"></a>获取未分配服务号码的列表
 ````
 Get-CsOnlineTelephoneNumber -IsNotAssigned -InventoryType Service
 ````
 
 #### <a name="assign-available-phone-number"></a>分配可用电话号码
-注意：分配给电话号码的使用位置必须与分配给资源帐户的使用位置匹配。
+注意：分配给电话号码的使用情况位置必须与分配给资源帐户的使用位置匹配。
 
 ````
 Set-CsPhoneNumberAssignment -Identity ContosoMainAA-RA@contoso.com -PhoneNumber +{spare number from output of above command} -PhoneNumberType CallingPlan
 ````
 
-## <a name="dial-by-name-auto-attendant---completion"></a>按名字拨叫自动助理 - 完成
+## <a name="dial-by-name-auto-attendant---completion"></a>按名称拨号自动助理 - 完成
 ### <a name="create-dial-scope"></a>创建拨号范围
 ````
 $salesGroupID = Find-CsGroup -SearchQuery "Sales" | % { $_.Id }
@@ -278,7 +278,7 @@ $dialScope = New-CsAutoAttendantDialScope -GroupScope -GroupIds @($salesGroupID,
 ````
 $dialByNameMenuPrompt = New-CsAutoAttendantPrompt -TextToSpeechPrompt "Please say or enter the name of the person you would like to reach. To return to the previous menu press 9”
 
-$dialByNameMenuOption9Target = (Get-CsOnlineUser "ContosoMainAA-RA@contoso.com").ObjectID
+$dialByNameMenuOption9Target = (Get-CsOnlineUser "ContosoMainAA-RA@contoso.com").Identity
 
 $dialByNameMenuOption9Entity = New-CsAutoAttendantCallableEntity -Identity $dialByNameMenuOption9Target -Type applicationendpoint
 
