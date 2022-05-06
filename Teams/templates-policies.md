@@ -1,5 +1,5 @@
 ---
-title: 管理中心中的管理团队模板
+title: 在管理中心管理团队模板
 author: serdars
 ms.author: serdars
 manager: serdars
@@ -17,123 +17,122 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 了解如何在管理中心中管理团队模板
-ms.openlocfilehash: 470194c8a31236e5bed000fa2837c9b1fa05003e
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+description: 了解如何在管理中心管理团队模板
+ms.openlocfilehash: c753a92205844ebade9a713a8442837039232339
+ms.sourcegitcommit: 140c34f20f9cd48d7180ff03fddd60f5d1d3459f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62401176"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "65248934"
 ---
-# <a name="manage-team-templates-in-the-admin-center"></a>管理中心中的管理团队模板
+# <a name="manage-team-templates-in-the-admin-center"></a>在管理中心管理团队模板
 
-在管理中心创建模板策略，管理最终用户看到的团队模板。 在每个模板策略中，可以指定显示或隐藏哪些模板。
-将不同的用户分配到不同的模板策略，以便用户仅查看指定的团队模板子集。
+通过在管理中心创建模板策略来管理最终用户看到的团队模板。 在每个模板策略中，可以指定显示或隐藏哪些模板。
+将不同的用户分配到不同的模板策略，以便用户仅查看指定的团队模板的子集。
 
 观看此简短视频，了解如何管理模板策略。
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWyXL9]
 
-## <a name="create-template-policies-and-assign-available-templates"></a>创建模板策略并分配可用模板
+## <a name="create-templates-policies-and-assign-available-templates"></a>创建模板策略并分配可用模板
 
 1. 登录到 Teams 管理中心。
 
-2. 展开 **Teams** > **模板策略**。
+2. 转到 **Teams** >  **Templates 策略**。
 
-3. 选择“**添加**”。
+3. 选择" **添加**"。
 
-    ![将选择模板策略，并突出显示"添加"。](media/template-policies-1.png)
+    ![已选择模板策略，并突出显示“添加”。](media/template-policies-1.png)
 
-1. 在"**模板策略设置** 部分中，完成以下字段：
+1. 为策略命名并添加简短说明。
 
-    - 模板策略名称
+2. 在 **“可查看模板** ”列表中，选择要隐藏的模板，然后选择 **“隐藏**”。
 
-    - 模板策略简短说明
+    ![所选模板，其中突出显示了隐藏。](media/template-policies-2.png)
 
-2. 在 **"可查看的模板"** 表中，选择要隐藏的模板，然后选择"隐藏 **"**。
+    可以在 **“隐藏模板** ”列表中看到选择隐藏的模板。
 
-    ![突出显示"隐藏"的所选模板。](media/template-policies-2.png)
+1. 若要取消隐藏某些模板，请转到 **“隐藏模板** ”列表。
 
-    可以在"隐藏模板"表中查看已选择 **隐藏的模板。**
-
-1. 若要取消隐藏某些模板，请滚动到"隐藏 **模板"** 表。
-
-2. 选择要取消隐藏模板，然后选择"显示 **"**。
+2. 选择要取消隐藏的模板，然后选择 **“显示**”。
 
    ![未隐藏的所选模板。](media/template-policies-3.png)
 
-   所选模板将显示在"可查看的模板 **"** 表中。
-3. 选择“**保存**”。
+   所选模板将显示在 **可查看模板** 列表中。
+3. 选择" **保存**"。
 
-   新模板策略显示在"模板 **策略"** 列表中。
+   新模板策略显示在 **模板策略** 列表中。
 
-## <a name="assign-users-to-the-template-policies"></a>将用户分配到模板策略
+## <a name="assign-templates-policies-to-users"></a>向用户分配模板策略
 
-分配到策略的用户只能查看该策略中的可查看模板。
-
-1. 在 **"模板策略"** 中，选择一个策略，然后选择" **管理用户"**。
-
-2. 键入要分配到此策略的用户。
-
-   ![将用户分配到模板策略。](media/template-policies-4.png)
-
-3. 选择" **应用"**。
+可以通过批处理分配直接向用户单独或大规模分配模板策略。 请记住，新策略可能需要长达 24 小时才能对用户生效。
 
 > [!Note]
-> 新策略最多可能需要 24 小时才能对最终用户生效。
+> 目前不支持根据组成员身份（例如安全组中的所有用户）向用户分配模板策略。 此功能将来将可用。
 
-## <a name="size-limits-for-template-policies"></a>模板策略的大小限制
+有关如何在Teams中分配策略的概述，请参阅[Teams中的分配策略](policy-assignment-overview.md)。
 
-可以隐藏每个策略最多 100 个模板。 如果 **给定** 策略已隐藏 100 个模板，则禁用"隐藏"按钮。
+### <a name="assign-a-templates-policy-to-individual-users"></a>向单个用户分配模板策略
+
+可以使用Teams管理中心或 PowerShell 一次向单个用户或少量用户分配模板策略。 若要了解详细信息，请参阅 [为单个用户分配策略](assign-policies-users-and-groups.md#assign-a-policy-to-individual-users)。
+
+### <a name="assign-a-templates-policy-to-a-batch-of-users"></a>向一批用户分配模板策略
+
+可以使用 PowerShell 一次向大型用户集分配模板策略。 为此，请将 [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) cmdlet 与 TeamsTemplatePermissionPolicy 一起用作 ```PolicyType``` 提交一批用户和要分配的模板策略。 例如：
+
+```powershell
+New-CsBatchPolicyAssignmentOperation -OperationName <Any operation name> -PolicyType TeamsTemplatePermissionPolicy -PolicyName <policy name> -Identity <users identity | list of user identities>
+```
+
+作业将作为后台操作处理，并为每个批处理生成操作 ID。 然后，可以使用 [Get-CsBatchPolicyAssignmentOperation](/powershell/module/teams/get-csbatchpolicyassignmentoperation) cmdlet 跟踪批处理中分配的进度和状态。
+
+若要了解详细信息，请参阅 [使用 PowerShell 向一批用户分配](assign-policies-users-and-groups.md#use-powershell-method)策略。
+
+## <a name="size-limits-for-templates-policies"></a>模板策略的大小限制
+
+每个策略最多可以隐藏 100 个模板。 如果给定的策略已隐藏 100 个模板，则禁用 **“隐藏** ”按钮。
 
 ## <a name="frequently-asked-questions"></a>常见问题解答
 
-**问：能否批量将用户分配到团队模板策略？**
-  
-答：是的，我们支持在 PowerShell 中对模板策略进行批处理分配。 此操作的策略类型是 TeamsTemplatePermissionPolicy。 [了解详细信息](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
+**问：如果创建了新模板，模板是否会包含在我的策略中？**
 
-**问：能否将组分配到团队模板策略？**
+答：默认情况下，任何新模板都将可见。 可以选择在“模板策略”部分的管理中心隐藏模板。
 
-答：目前没有。 将来会提供此功能。
-
-**问：如果创建了一个新模板，该模板是否包含在我的策略中？**
-
-答：默认情况下，任何新模板都可见。 可以选择在"模板策略"部分的管理中心中隐藏模板。
-
-**问：删除模板时会发生什么情况？**
+**问：删除模板后会发生什么情况？**
 
 答：任何已删除的模板将不再存在于任何模板策略中。
 
-**问：能否将多个用户分配到管理中心中的Teams策略？**
+**问：是否可以在Teams管理中心将多个用户分配到模板策略？**
 
-答：可以。
+答：是的。
 
-1. 在管理中心，转到"用户 **"**。
-1. 在"用户"列表表中，选择要分配到特定模板策略的用户。
-1. 选择"编辑设置"，并更改"模板策略"字段。
-1. 选择"应用"。 [了解详细信息](./assign-policies-users-and-groups.md#assign-a-policy-to-a-batch-of-users)。
+1. 在Teams管理中心，转到 **UsersManage** >  用户。
+1. 在用户列表中，选择要分配给模板策略的用户。
+1. 选择 **“编辑设置**”，然后在 **“模板”策略** 下，选择要分配的策略。
+1. 选择 **“应用**”。
 
-**问：如何查看分配到特定策略的所有用户？**
+若要了解详细信息，请参阅 [为单个用户分配策略](assign-policies-users-and-groups.md#assign-a-policy-to-individual-users)。
 
-答：在管理中心：
+**问：如何实现查看分配给特定策略的所有用户？**
 
-1. 转到"用户 **"** 部分。
-2. 在"用户"列表表中选择筛选器，并筛选团队模板策略。
-3. 选择" **应用"**。
+答：在Teams管理中心：
 
-![所选模板策略和查看用户。](media/template-policies-5.png)
+1. 转到 **UsersManage** >  用户。
+2. 选择 **“筛选器**”，为模板策略设置筛选器，然后选择 **“应用**”。
 
-**问：能否通过 PowerShell 管理模板策略？**
+    ![所选模板策略并查看用户。](media/template-policies-5.png)
 
-答：不支持在 PowerShell 中管理模板。
+**问：是否可以通过 PowerShell 管理模板策略？**
 
-**问：模板策略是否适用于 EDU？**
+答：不支持在 PowerShell 中管理模板策略。 但是，可以使用 PowerShell 向用户 [分配模板策略](#assign-templates-policies-to-users) 。
+
+**问：模板策略适用于 EDU 吗？**
 
 答：不支持 EDU 的模板策略。
 
-## <a name="related-topics"></a>相关主题
+## <a name="related-articles"></a>相关文章
 
-- [管理中心中的团队模板入门](./get-started-with-teams-templates-in-the-admin-console.md)
+- [在管理中心使用团队模板开始](./get-started-with-teams-templates-in-the-admin-console.md)
 
 - [创建自定义团队模板](./create-a-team-template.md)
 
@@ -141,6 +140,6 @@ ms.locfileid: "62401176"
 
 - [从现有团队模板创建团队模板](./create-template-from-existing-template.md)
 
-- [在 Microsoft Docs 中为Microsoft Teams分配 \| Microsoft Teams策略](./policy-assignment-overview.md)
+- [在Microsoft Teams中为用户分配策略 - Microsoft Teams \| Microsoft Docs](./policy-assignment-overview.md)
 
-- [将用户批量分配到策略](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
+- [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
