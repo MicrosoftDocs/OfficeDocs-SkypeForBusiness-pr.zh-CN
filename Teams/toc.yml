@@ -429,36 +429,32 @@ items:
         href: teams-scoped-directory-search.md
       - name: 常见问题解答：支持远程工作人员
         href: FAQ-support-remote-workforce.md
-      - name: 报表
+      - name: 报告
         items:
-          - name: Microsoft 365 管理中心中的活动报告
-            href: teams-activity-reports.md
-          - name: Teams 管理中心中的分析和报告
-            items:
-              - name: 概述
-                href: teams-analytics-and-reports/teams-reporting-reference.md
-              - name: Teams 使用情况报告
-                href: teams-analytics-and-reports/teams-usage-report.md
-              - name: Teams 用户活动报告
-                href: teams-analytics-and-reports/user-activity-report.md
-              - name: Teams 应用使用情况报告
-                href: teams-analytics-and-reports/app-usage-report.md
-              - name: Teams 设备使用报告
-                href: teams-analytics-and-reports/device-usage-report.md
-              - name: PSTN 阻止的用户报告
-                href: teams-analytics-and-reports/pstn-blocked-users-report.md
-              - name: PSTN 分钟池报告
-                href: teams-analytics-and-reports/pstn-minute-pools-report.md
-              - name: PSTN 使用报告
-                href: teams-analytics-and-reports/pstn-usage-report.md
-              - name: Teams 音频会议拨出使用情况报告
-                href: audio-conferencing-dial-out-usage-report.md
-              - name: Teams 实时事件使用情况报表
-                href: teams-analytics-and-reports/teams-live-event-usage-report.md
-              - name: Teams 信息保护许可证报告
-                href: teams-analytics-and-reports/information-protection-license-report.md
-              - name: Teams 虚拟就诊使用情况报告
-                href: teams-analytics-and-reports/virtual-visits-usage-report.md
+          - name: 概述
+            href: teams-analytics-and-reports/teams-reporting-reference.md
+          - name: Teams 使用情况报告
+            href: teams-analytics-and-reports/teams-usage-report.md
+          - name: Teams 用户活动报告
+            href: teams-analytics-and-reports/user-activity-report.md
+          - name: Teams 应用使用情况报告
+            href: teams-analytics-and-reports/app-usage-report.md
+          - name: Teams 设备使用报告
+            href: teams-analytics-and-reports/device-usage-report.md
+          - name: PSTN 阻止的用户报告
+            href: teams-analytics-and-reports/pstn-blocked-users-report.md
+          - name: PSTN 分钟池报告
+            href: teams-analytics-and-reports/pstn-minute-pools-report.md
+          - name: PSTN 使用报告
+            href: teams-analytics-and-reports/pstn-usage-report.md
+          - name: Teams 音频会议拨出使用情况报告
+            href: audio-conferencing-dial-out-usage-report.md
+          - name: Teams 实时事件使用情况报表
+            href: teams-analytics-and-reports/teams-live-event-usage-report.md
+          - name: Teams 信息保护许可证报告
+            href: teams-analytics-and-reports/information-protection-license-report.md
+          - name: Teams 虚拟就诊使用情况报告
+            href: teams-analytics-and-reports/virtual-visits-usage-report.md
       - name: 日志文件、服务运行状况和支持
         items:
           - name: 使用日志文件监视 Teams 和排除 Teams 故障

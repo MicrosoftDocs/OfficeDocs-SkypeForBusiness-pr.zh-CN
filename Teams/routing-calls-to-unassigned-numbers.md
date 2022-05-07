@@ -1,5 +1,5 @@
 ---
-title: 将呼叫路由到未分配号码
+title: 路由对未分配号码的调用
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -20,29 +20,29 @@ f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
-description: 了解如何将呼叫路由到组织中未分配号码。
-ms.openlocfilehash: f53e83b3d4f26123feed70bdecad32cb45bc5588
-ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
+description: 了解如何将呼叫路由到组织中的未分配号码。
+ms.openlocfilehash: cc464419375b6391d0d95d6e99441777a40da9cb
+ms.sourcegitcommit: bc73017b4a3fe6271830bc8c5044bfd43eec80c0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63442790"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "65266916"
 ---
-# <a name="routing-calls-to-unassigned-numbers"></a>将呼叫路由到未分配号码
+# <a name="routing-calls-to-unassigned-numbers"></a>路由对未分配号码的调用
 
-作为管理员，可以将呼叫路由到组织中未分配号码。 例如，你可能希望将调用路由到未分配号码，如下所示： 
+作为管理员，可以将呼叫路由到组织中未分配的号码。 例如，你可能希望将调用路由到未分配号码，如下所示： 
 
-- 将所有调用路由到给定的未分配号码到自定义公告。
+- 将给定未分配号码的所有调用路由到自定义公告。
 
-- 将所有调用路由到给定的未分配号码到主切换板。
+- 将给定未分配号码的所有调用路由到主交换板。
 
-可以将对未分配号码的呼叫路由到用户、与 自动助理 或呼叫队列关联的资源帐户，或者路由到将为呼叫者播放自定义音频文件的公告服务。
+可以将未分配号码的呼叫路由到用户、与自动助理或呼叫队列关联的资源帐户，或者路由到将自定义音频文件播放给调用方的公告服务。
 
 ## <a name="configuration"></a>配置
 
-若要将调用路由到未分配号码，请使用 Teams PowerShell 模块 2.5.1 或更高版本中提供的 New/Get/Set/Remove-CsTeamsUnassignedNumberTreatment cmdlet。
+若要将调用路由到未分配的号码，请使用 PowerShell 模块 2.5.1 或更高版本 Teams中提供的 New/Get/Set/Remove-CsTeamsUnassignedNumberTreatment cmdlet。
 
-需要指定被叫号码或号码范围，以及调用这些号码的关联路由。 例如，以下命令指定对号码 +1 (555) 222-3333 的所有调用都将路由到资源帐户 aa@contoso.com：
+需要指定调用这些数字或号码范围以及调用这些号码的关联路由。 例如，以下命令指定对数字 +1 的所有调用 (555) 222-3333 将路由到资源帐户 aa@contoso.com：
 
 ``` PowerShell
 $RAObjectId = (Get-CsOnlineApplicationInstance -Identity aa@contoso.com).ObjectId
@@ -51,7 +51,7 @@ $RAObjectId = (Get-CsOnlineApplicationInstance -Identity aa@contoso.com).ObjectI
 New-CsTeamsUnassignedNumberTreatment -Identity MainAA -Pattern "^\+15552223333$" -TargetType ResourceAccount -Target $RAObjectId -TreatmentPriority 1
 ```
 
-下一个示例指定对号码范围 +1 (555) 333-0000 到 +1 (555) 333-9999 的所有调用都将路由到公告服务，它将向调用方播放音频文件 MainAnnouncement.wav。
+下一个示例指定，对号码范围 +1 (555) 333-0000 到 +1 (555) 333-9999 的所有调用都将路由到公告服务，该服务会将音频文件 MainAnnouncement.wav 播放到调用方。
 
 ```PowerShell
 $Content = Get-Content "C:\Media\MainAnnoucement.wav" -Encoding byte -ReadCount 0
@@ -67,11 +67,15 @@ New-CsTeamsUnassignedNumberTreatment -Identity TR1 -Pattern "^\+1555333\d{4}$" -
 
 - 如果路由到公告，音频文件将播放一次给调用方。
 
-- 若要将呼叫路由到未分配的 Microsoft 呼叫计划订阅者号码，租户需要具有可用的 [通信积分](what-are-communications-credits.md)。
+- 若要将呼叫路由到未分配的 Microsoft 呼叫计划订阅者号码，租户需要具有可用 [的通信额度](what-are-communications-credits.md)。
 
-- 若要将调用路由到未分配的 Microsoft 呼叫计划服务号码，租户至少需要具有一电话系统 – 虚拟用户许可证。
+- 若要将呼叫路由到未分配的 Microsoft 呼叫计划服务号码，租户需要至少具有一个电话系统 – 虚拟用户许可证。
 
-- 支持自定义音频文件的格式是 WAV (未压缩的线性 PCM，单声道或立体声) 中深度为 8/16/32 位，WMA (单声道) 和 MP3。 音频文件内容不能超过 5 MB。
+- 支持的自定义音频文件格式为 WAV (未压缩的线性 PCM，采用单声道或立体声) 的 8/16/32 位深度，WMA (单声道仅) 和 MP3。 音频文件内容不能超过 5 MB。
+
+- 从Microsoft Teams调用Microsoft Teams和出站呼叫的入站调用都将针对未分配的号码范围检查调用号码。
+
+- 如果指定的模式/范围包含分配给租户中的用户或资源帐户的电话号码，则对这些电话号码的呼叫将路由到相应的目标，而不会路由到指定的未分配号码处理。 没有对范围内的数字进行其他检查。 如果该区域包含有效的外部电话号码，则将根据处理方式路由从Microsoft Teams到该电话号码的出站呼叫。
 
 ## <a name="related-topics"></a>相关主题
 
