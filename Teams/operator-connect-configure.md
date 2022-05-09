@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4bcb26d86e9b95ee629c252ea7cec25fc5f3eaf4
-ms.sourcegitcommit: 5bfd2e210617e4388241500eeda7b50d5f2a0ba3
+ms.openlocfilehash: 222ea1852ef4336c21cfb24c977c20665a667ff3
+ms.sourcegitcommit: 9968ef7d58c526e35cb58174db3535fd6b2bd1db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2022
-ms.locfileid: "64885000"
+ms.lasthandoff: 05/09/2022
+ms.locfileid: "65284067"
 ---
 # <a name="configure-operator-connect"></a>配置运营商连接
 
@@ -104,52 +104,51 @@ ms.locfileid: "64885000"
 
 #### <a name="step-1---remove-existing-direct-routing-numbers"></a>步骤 1 - 删除现有的直接路由编号。
 
-删除现有直接路由号码的方式取决于该号码是分配在本地还是联机。 若要检查，请运行以下命令：
+删除现有直接路由号码的方式取决于该号码是分配在本地还是联机。 若要检查，请运行以下 Teams PowerShell 模块命令：
     
 ```PowerShell
-Get-CsOnlineUser -Identity <user> | fl RegistrarPool,OnPremLineURIManuallySet, OnPremLineURI, LineURI 
+Get-CsOnlineUser -Identity <user> | fl RegistrarPool, OnPremLineURI, LineURI 
 ```
 
-如果`OnPremLineUriManuallySet`设置为`False``LineUri`并填充了 E.164 电话号码，则将电话号码分配到本地并同步到Office 365。
+如果`OnPremLineUri`用 E.164 电话号码填充，则将电话号码分配到本地并同步到Office 365。
     
-**若要删除在本地分配的直接路由号码，请** 运行以下命令：
+**若要删除在本地分配的直接路由号码，** 请运行以下 Skype for Business Server PowerShell 命令：
     
 ```PowerShell
 Set-CsUser -Identity <user> -LineURI $null 
 ```
 
-删除生效所需的时间取决于配置。 若要检查本地号码是否已删除且更改已同步，请运行以下 PowerShell 命令： 
+删除生效所需的时间取决于配置。 若要检查本地号码是否已删除且更改已同步，请运行以下 Teams PowerShell 模块命令： 
     
 ```PowerShell
-Get-CsOnlineUser -Identity <user> | fl RegistrarPool,OnPremLineURIManuallySet, OnPremLineURI, LineURI 
+Get-CsOnlineUser -Identity <user> | fl RegistrarPool, OnPremLineURI, LineURI 
 ```
        
 更改同步到联机目录Office 365后，预期输出为： 
        
  ```console
 RegistrarPool                        : pool.infra.lync.com
- OnPremLineURIManuallySet             : True
- OnPremLineURI                        : 
+OnPremLineURI                        : 
 LineURI                              : 
 ```
 
-<br> **若要删除联机分配的现有联机直接路由号码，** 请运行以下 PowerShell 命令：
+<br> **若要删除联机分配的现有联机直接路由号码，** 请运行以下 Teams PowerShell 模块命令：
 
 
 ```PowerShell
 Remove-CsPhoneNumberAssignment -Identity <user> -PhoneNumber <pn> -PhoneNumberType DirectRouting
 ```
 
-删除电话号码可能需要长达 10 分钟的时间。 在极少数情况下，最多可能需要 24 小时。 若要检查本地号码是否已删除且更改已同步，请运行以下 PowerShell 命令： 
+删除电话号码可能需要长达 10 分钟的时间。 在极少数情况下，最多可能需要 24 小时。 若要检查是否删除了电话号码，请运行以下 Teams PowerShell 模块命令： 
 
 
 ```PowerShell
-Get-CsOnlineUser -Identity <user> | fl Number
+Get-CsOnlineUser -Identity <user> | fl LineUri
 ```
 
 #### <a name="step-2---remove-the-online-voice-routing-policy-associated-with-your-user"></a>步骤 2 - 删除与用户关联的联机语音路由策略
 
-取消分配号码后，请运行以下 PowerShell 命令，删除与用户关联的联机语音路由策略：
+取消分配号码后，请运行以下 Teams PowerShell 模块命令，删除与用户关联的联机语音路由策略：
 
 ```PowerShell
 Grant-CsOnlineVoiceRoutingPolicy -Identity <user> -PolicyName $Null
