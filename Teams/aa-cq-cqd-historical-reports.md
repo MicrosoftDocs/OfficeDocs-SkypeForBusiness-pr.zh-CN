@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: 了解如何使用呼叫质量仪表板Power BI报表查看自动助理和呼叫队列历史数据。
-ms.openlocfilehash: 57552af3a1df108dbbf86172793bb9ea86ed1b10
-ms.sourcegitcommit: f3c380f745af4c3aaa2720234860b45696a0c333
+ms.openlocfilehash: 66394094f51d58344f151b8ebb7059c2e390c089
+ms.sourcegitcommit: 56d529cdbd8d8733350625316082f339ae8d66c9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/09/2022
-ms.locfileid: "63711486"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "65294093"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>自动助理&调用队列历史报告
 
@@ -99,7 +99,7 @@ Teams自动助理&呼叫队列历史报告Power BI模板提供以下三个报告
 
 可以自定义报表的某些可视化效果方面，例如添加或删除要在各种可视化效果中显示的字段、更改图表类型等。
 
-不能向报表添加其他数据字段。
+无法向报表添加更多数据字段。
 
 ### <a name="change-color-schema"></a>更改颜色架构 
 
@@ -157,18 +157,18 @@ Teams自动助理&呼叫队列历史报告Power BI模板提供以下三个报告
 
 |名称                                    |数据类型                |说明                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
-|AA 名称                                 |文本                     |附加到自动助理的资源帐户的名称<br><br>如果 **aa_test@microsoft.com** 完整资源帐户名称，则此值将为： **aa_test** |
+|AA 名称                                 |文本                     |附加到自动助理的资源帐户的名称<br><br>如果 **aa_test@microsoft.com** 完整的资源帐户名称，则此值将为： **aa_test** |
 |AACallerActionCount                     |整数             |汇总：总和<br>呼叫期间由自动助理中的调用方选择的操作计数  |
-|AACallFlow                              |文本                     |封装自动助理呼叫的不同状态 -- 可能的值：<br><br>§ abs_search<br>§ 公告<br>§ automatic_menu<br>§ call_termination<br>§ call_transfer<br>§ first_level_menu<br>§ main_menu<br>§ speech_input_confirmation<br>§ user_selection |
-|AACallResult                            |文本                     |最终调用结果 -- 可能的值：<br><br>§ failed_to_establish_media<br>§ failover_to_operator<br>§ oaa_chain_too_long<br>§ oaa_session_too_long<br>§ service_declined<br>§ service_terminated<br>§ terminated_automatic_selection<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>***§ transferred_to_operator***<br>§ transferred_to_receptionist<br>§ transferred_to_self<br>§ transferred_to_shared_voicemail<br>§ transferred_to_user<br>§ 未知<br>§ user_terminated |
+|AACallFlow                              |文本                     |封装自动助理呼叫的不同状态 -可能的值：<br><br>§ abs_search<br>§ 公告<br>§ automatic_menu<br>§ call_termination<br>§ call_transfer<br>§ first_level_menu<br>§ main_menu<br>§ speech_input_confirmation<br>§ user_selection |
+|AACallResult                            |文本                     |最终调用结果--可能的值：<br><br>§ failed_to_establish_media<br>§ failover_to_operator<br>§ oaa_chain_too_long<br>§ oaa_session_too_long<br>§ service_declined<br>§ service_terminated<br>§ terminated_automatic_selection<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>***§ transferred_to_operator***<br>§ transferred_to_receptionist<br>§ transferred_to_self<br>§ transferred_to_shared_voicemail<br>§ transferred_to_user<br>§ 未知<br>§ user_terminated |
 |AAChainDuration                         |小数           |汇总：总和<br>自动助理呼叫的持续时间                     |
 |AAChainIndex                            |文本                     |                                                                         |
-|AAConnectivityType                      |文本                     |调用类型 -- 可能的值：<br><br>§ ExternalCall<br>§ InternalCall |
+|AAConnectivityType                      |文本                     |调用类型--可能的值：<br><br>§ ExternalCall<br>§ InternalCall |
 |AACount                                 |文本                     |呼叫中涉及的自动助理数                               |
-|AADirectorySearchMethod                 |文本                     |最后一个通讯簿搜索方法 -- 可能的值：<br><br>§ abs_search_dtmf<br>§ abs_search_extension_x<br>§ abs_search_name |
+|AADirectorySearchMethod                 |文本                     |上一个通讯簿搜索方法--可能的值：<br><br>§ abs_search_dtmf<br>§ abs_search_extension_x<br>§ abs_search_name |
 |AAStartTime                             |日期/时间                |自动助理呼叫开始时间                                           |
-|AATransferAction                        |文本                     |调用传输目标类型 -- 可能的值：<br><br>***§ 应用程序 - 语音应用程序实体**_<br>§ external_pstn<br>_*_§ hunt_group - 呼叫队列实体_*_<br>_*_§ orgaa - 组织自动助理实体_**<br>§ shared_voicemail<br>§ 未知<br>§ 用户 |
-|呼叫类型 <sup>1</sup>                   |文本                     |调用类型 -- 可能的值：<br><br>§ 外部<br>§ 内部         |
+|AATransferAction                        |文本                     |调用传输目标类型--可能的值：<br><br>***§ 应用程序 - 语音应用程序实体**_<br>§ external_pstn<br>_*_§ hunt_group - 呼叫队列实体_*_<br>_*_§ orgaa - 组织自动助理实体_**<br>§ shared_voicemail<br>§ 未知<br>§ 用户 |
+|呼叫类型 <sup>1</sup>                   |文本                     |调用类型--可能的值：<br><br>§ 外部<br>§ 内部         |
 |IsAAInvolved                            |文本                     |始终 1                                                                 |
 |PSTNMinutes                             |整数             |汇总：总和<br>总分钟使用量                                     |
 |TotalCallCount                          |整数             |汇总：总和<br>Always 1 - 用于提供所有调用的总和            |
@@ -218,7 +218,7 @@ Teams自动助理&呼叫队列历史报告Power BI模板提供以下三个报告
 
 |名称                                    |数据类型                |说明                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
-|呼叫队列标识                     |文本                     |附加到呼叫队列的资源帐户的名称<br><br>如果 **cq_test@microsoft.com** 完整资源帐户名称，则此值将为： **cq_test** |
+|呼叫队列标识                     |文本                     |附加到呼叫队列的资源帐户的名称<br><br>如果完整资源帐户名称 **cq_test@microsoft.com**，则此值将为： **cq_test** |
 
 #### <a name="fcallqueueanalytics-cqd-fields-description"></a>fCallQueueAnalytics CQD 字段说明
 
@@ -226,12 +226,12 @@ Teams自动助理&呼叫队列历史报告Power BI模板提供以下三个报告
 |:---------------------------------------|:------------------------|:--------------------------------------------------------------------------|
 |呼叫计数                              |整数             |汇总：总和<br>通话的数量                                          |
 |呼叫队列调用结果                  |文本                     |呼叫队列调用最终状态 -- 可能的值：<br><br>§ agent_joined_conference<br>§ 已拒绝<br>§ 已断开连接<br>§ 错误<br>§ 失败<br>§ 无效<br>§ 溢出<br>§ timed_out<br>§ transferred_to_agent |
-|呼叫队列标识                     |文本                     |附加到呼叫队列的资源帐户的名称<br><br>如果 **cq_test@microsoft.com** 完整资源帐户名称，则此值将为： **cq_test** |
-|呼叫队列目标类型                  |文本                     |***调用重定向目标类型 -- 可能的值：***<br><br>§ ApplicationEndpoint<br>§ 邮箱<br>§ 其他<br>§ 用户 |
-|呼叫类型 <sup>1</sup>                   |文本                     |调用类型 -- 可能的值：<br><br>§ 外部<br>§ 内部           |
+|呼叫队列标识                     |文本                     |附加到呼叫队列的资源帐户的名称<br><br>如果完整资源帐户名称 **cq_test@microsoft.com**，则此值将为： **cq_test** |
+|呼叫队列目标类型                  |文本                     |***调用重定向目标类型--可能的值：***<br><br>§ ApplicationEndpoint<br>§ 邮箱<br>§ 其他<br>§ 用户 |
+|呼叫类型 <sup>1</sup>                   |文本                     |调用类型--可能的值：<br><br>§ 外部<br>§ 内部           |
 |日期                                    |日期/时间                |呼叫队列呼叫开始日期和时间 (小时)  (UTC)                            | 
 |IsAbandoned                             |True/false               |如此 如果代理未接听呼叫                                   |
-|PSTN 连接类型                  |文本                     |调用类型 -- 可能的值：<br><br>§ ExternalCall<br>§ InternalCall   |
+|PSTN 连接类型                  |文本                     |调用类型--可能的值：<br><br>§ ExternalCall<br>§ InternalCall   |
 |PSTN 总分钟数                      |整数             |汇总：总和<br>PSTN 调用的总分钟数                       |
 
 #### <a name="fcallqueueanalytics-measures-description"></a>fCallQueueAnalytics 度量值说明
@@ -248,9 +248,9 @@ Teams自动助理&呼叫队列历史报告Power BI模板提供以下三个报告
 |:---------------------------------------|:------------------------|:--------------------------------------------------|
 |平均通话持续时间 (秒)          |小数           |汇总：总和<br>平均通话持续时间（以秒为单位） |
 |呼叫计数                              |整数             |汇总：总和<br>通话的数量                  |
-|呼叫队列调用结果                  |文本                     |呼叫队列调用最终状态 -- 可能的值：<br><br>§ agent_joined_conference<br>§ 已拒绝<br>§ 已断开连接<br>§ 错误<br>§ 失败<br>§ 无效<br>§ 溢出<br>§ timed_out<br>§ transferred_to_agent |
+|呼叫队列调用结果                  |文本                     |呼叫队列调用最终状态 - 可能的值：<br><br>§ agent_joined_conference<br>§ 已拒绝<br>§ 已断开连接<br>§ 错误<br>§ 失败<br>§ 无效<br>§ 溢出<br>§ timed_out<br>§ transferred_to_agent |
 |调用队列最终状态操作           |文本                     |调用队列最终操作 -- 可能的值：<br><br>§ 断开 (timed_out调用) <br>§ disconnect_with_busy (溢出的呼叫) <br>§ failed_to_accept_call<br>§ forward<br>§ shared_voicemail<br>§ 其他<br>§ 语音邮件 |
-|呼叫队列标识                     |文本                     |附加到呼叫队列的资源帐户的名称<br><br>如果 **cq_test@microsoft.com** 完整资源帐户名称，则此值将为： **cq_test** |
+|呼叫队列标识                     |文本                     |附加到呼叫队列的资源帐户的名称<br><br>如果完整资源帐户名称 **cq_test@microsoft.com**，则此值将为： **cq_test** |
 |日期                                    |日期/时间                |呼叫队列呼叫开始日期和时间 (小时)  (UTC)    |
 |IsAbandoned                             |True/false               |如此 如果代理未接听呼叫           |
 
@@ -288,11 +288,11 @@ Teams自动助理&呼叫队列历史报告Power BI模板提供以下三个报告
 
 |名称                                    |数据类型                |说明                                         |
 |:---------------------------------------|:------------------------|:---------------------------------------------------|
-|代理名称                              |文本                     |用户 UPN<br>如果 user@microsoft.com 完整用户名 **，则此** 值将为： **用户** |
+|代理名称                              |文本                     |用户 UPN<br>如果 user@microsoft.com 完整用户 **名，则** 此值将为： **用户** |
 |平均通话持续时间 (秒)           |小数           |汇总：总和<br>应答呼叫队列呼叫的平均持续时间（以秒为单位） |
-|呼叫计数                              |整数             |汇总：总和<br>代理显示和应答的呼叫数     |
+|呼叫计数                              |整数             |汇总：总和<br>向代理发出的调用数     |
 |呼叫持续时间 (分钟)                   |整数             |汇总：总和<br>应答呼叫队列呼叫的总呼叫持续时间（以分钟为单位）， (舍入到最接近的分钟)   |
-|呼叫队列名称                         |文本                     |附加到呼叫队列的资源帐户的名称<br><br>如果 **cq_test@microsoft.com** 完整资源帐户名称，则此值将为： **cq_test** |
+|呼叫队列名称                         |文本                     |附加到呼叫队列的资源帐户的名称<br><br>如果完整资源帐户名称 **cq_test@microsoft.com**，则此值将为： **cq_test** |
 |日期                                    |日期                     |                                                    |
 
 
