@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
 description: 了解如何在Microsoft Teams管理中心管理表扬应用。
-ms.openlocfilehash: 16f59a8fbe0958a63f824762cfede020dbf54b8e
-ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
+ms.openlocfilehash: 495000af61c2b5d48dfdc30fe3b013a4ca8b8811
+ms.sourcegitcommit: d847256fca80e4e8954f767863c880dc8472ca04
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65136973"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "65303984"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>在Microsoft Teams管理中心管理表扬应用
 
@@ -35,6 +35,8 @@ Microsoft Teams中的表扬应用可帮助用户向组织或课堂成员表示�
 2. 在应用列表中，搜索表扬应用，选择它，然后将 **状态** 切换为 **“已阻止**”或 **“允许**”。
 
 请记住，此设置会影响Teams中Viva Insights应用中的表扬应用和表扬功能。
+
+如果将状态设置为“已阻止”，则会在几分钟内阻止表扬应用。 但是，Viva Insights中的表扬可能需要 7-9 天才能被阻止。
 
 ## <a name="enable-or-disable-praise-for-specific-users-in-your-organization"></a>为组织中的特定用户启用或禁用表扬
 

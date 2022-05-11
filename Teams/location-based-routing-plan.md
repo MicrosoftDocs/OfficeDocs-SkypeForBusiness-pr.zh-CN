@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b6361e9454f6df301c0fbf1c91e39158115f2300
-ms.sourcegitcommit: 3beef904411a9d5787a73678464003a868630649
+ms.openlocfilehash: 4f156b287969303edbf195c0054b3bb1eb631db2
+ms.sourcegitcommit: d847256fca80e4e8954f767863c880dc8472ca04
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64817793"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "65303994"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>为直接路由计划基于位置的路由
 
@@ -169,11 +169,11 @@ Location-Based路由的工作原理是根据用户Teams终结点的 IP 地址确
 
   - 是否允许传输基于以下内容：
   
-    - 接收传输呼叫的用户的Location-Based路由设置。
+    - 要传输到 PSTN 的用户的Location-Based路由设置。
     - 终结点网络站点位置。
     - 是否为Location-Based路由启用了该位置。
 
-    如果接收传输呼叫的用户能够使用同一 PSTN 网关在其当前位置进行 PSTN 调用，则允许传输。
+    如果正在传输的用户能够使用同一 PSTN 网关在其当前位置进行 PSTN 调用，则允许传输。
 
 - **对于传入或传出 PSTN 呼叫并传输到另一Teams用户**，是否允许传输取决于以下内容：
 
@@ -299,15 +299,15 @@ Location-Based路由的工作原理是根据用户Teams终结点的 IP 地址确
 
     - 如果调用方启用了Location-Based路由，则只能将其传输到位于同一网络站点的已启用Location-Based路由网关。
  
-下表显示了Location-Based路由如何影响从 Site1 的 User1 到不同位置的用户的 VOIP 调用路由，这些用户将调用转移到 PSTN 终结点或将呼叫转发到 PSTN 终结点。  
+下表显示了Location-Based路由如何影响 VOIP 调用从 Site1 中启用Location-Based路由的 User1 路由到不同位置的用户，这些用户将调用传输或转发到 PSTN 终结点。  
 
-|发起呼叫传输或转发的用户  |传输到 PSTN  |转发到 PSTN  |
-|---------|---------|---------|
-|同一网络站点，用于Location-Based路由 (User2)    |呼叫传输只能基于 User2 的语音路由策略通过 Site1 中启用了路由的 Gateway1 Location-Based路由         |只能根据 User2 的语音路由策略，通过 Site1 上启用了路由的 Gateway1 Location-Based路由         |
-|不同的网络站点，站点启用了Location-Based路由 (User3)     |只能根据 User3 的语音路由策略，通过 Site1 中启用了路由的 Gateway1 Location-Based路由呼叫传输         |只能根据 User3 的语音路由策略，通过 Site1 上启用了路由的 Gateway1 Location-Based路由         |
-|不同的网络站点，站点未启用Location-Based路由 (User4)     |呼叫传输只能基于 User4 的语音路由策略通过站点 1 中启用了路由的 Gateway1 Location-Based路由         |只能基于 User4 的语音路由策略，通过 Site1 上启用了路由的 Gateway1 Location-Based路由         |
-|未知的内部网络 (User5)      |呼叫传输只能基于 User5 的语音路由策略通过站点 1 中启用了路由的 Gateway1 Location-Based路由         |只能基于 User5 的语音路由策略，通过 Site1 上启用了路由的 Gateway1 Location-Based路由         |
-|未知外部网络 (User6)    |只能根据 User6 的语音路由策略，通过 Site1 中启用了路由的 Gateway1 Location-Based路由呼叫传输        |只能基于 User6 的语音路由策略，通过 Site1 上启用了路由的 Gateway1 Location-Based路由         |
+|发起呼叫传输或转发的用户  |传输或转发到 PSTN  |
+|---------|---------|
+|同一网络站点，用于Location-Based路由 (User2)    |仅当基于 User2 语音路由策略的计算路由导致路由通过站点 1 启用了路由的 Gateway1 Location-Based路由时，才允许生成的 PSTN 调用         |
+|不同的网络站点，站点启用了Location-Based路由 (User3)     |仅当基于 User3 语音路由策略的计算路由导致路由通过站点 1 中启用了Location-Based路由的 Gateway1 时，才允许生成的 PSTN 调用 |
+|不同的网络站点，站点未启用Location-Based路由 (User4)     |仅当基于 User4 语音路由策略的计算路由导致路由在 Site1 中启用了Location-Based路由的 Gateway1 时，才允许生成的 PSTN 调用          |
+|未知的内部网络 (User5)      |仅当基于 User5 语音路由策略的计算路由导致路由通过 Site1 中启用了Location-Based路由的 Gateway1 时，才允许生成的 PSTN 调用          |
+|未知外部网络 (User6)    |仅当基于 User6 语音路由策略的计算路由导致路由通过站点 1 启用了路由的 Gateway1 Location-Based路由时，才允许生成的 PSTN 调用          |
 
 ### <a name="simultaneous-ringing"></a>同时响铃
 
@@ -328,19 +328,19 @@ Location-Based路由的工作原理是根据用户Teams终结点的 IP 地址确
 
 #### <a name="simultaneous-ringing-to-a-pstn-endpoint"></a>同时响铃到 PSTN 终结点
 
-下表显示了从 Site1 的 User1 到不同位置的用户的入站 VoIP 呼叫的Location-Based路由行为，同时将通道设置为 PSTN 号码。 
+下表显示了站点 1 中启用了 Location-Based Routing User1 的入站 VoIP 调用的Location-Based路由行为，这些用户位于不同位置，同时将通道设置为 PSTN 号码。 
 
 |调用用户终结点位置  |同时环目标为 PSTN 终结点 |
 |---------|---------|
-|同一网络站点，用于Location-Based路由 (User2)     |只能根据 User2 的语音路由策略，通过 Site1 的Location-Based路由网关 1 路由呼叫       |
-|为用户 3 (Location-Based路由启用了不同的网络站点)     |只能根据 User3 的语音路由策略，通过 Site1 的Location-Based路由网关 1 路由呼叫        |
-|不同网络站点未启用Location-Based路由 (User4)     |只能根据 User4 的语音路由策略，通过 Site1 的Location-Based路由网关 1 路由呼叫         |
-|未知的内部网络 (User5)     |只能根据 User5 的语音路由策略，通过 Site1 的Location-Based路由网关 1 路由呼叫         |
-|未知外部网络 (User6)    |只能根据 User6 的语音路由策略，通过 Site1 的Location-Based路由网关 1 路由呼叫         |
+|同一网络站点，用于Location-Based路由 (User2)     |仅当基于 User2 语音路由策略的计算路由导致路由通过站点 1 启用了路由的 Gateway1 Location-Based路由时，才允许生成的 PSTN 调用        |
+|为用户 3 (Location-Based路由启用了不同的网络站点)     |仅当基于 User3 语音路由策略的计算路由导致路由通过站点 1 中启用了Location-Based路由的 Gateway1 时，才允许生成的 PSTN 调用         |
+|不同网络站点未启用Location-Based路由 (User4)     |仅当基于 User4 语音路由策略的计算路由导致路由在 Site1 中启用了Location-Based路由的 Gateway1 时，才允许生成的 PSTN 调用          |
+|未知的内部网络 (User5)     |仅当基于 User5 语音路由策略的计算路由导致路由通过 Site1 中启用了Location-Based路由的 Gateway1 时，才允许生成的 PSTN 调用          |
+|未知外部网络 (User6)    |仅当基于 User6 语音路由策略的计算路由导致路由通过站点 1 启用了路由的 Gateway1 Location-Based路由时，才允许生成的 PSTN 调用          |
 
 #### <a name="inbound-calls-through-voice-apps-auto-attendant-or-call-queue"></a>通过语音应用 (自动助理或呼叫队列) 进行入站呼叫
 
-允许从启用了路由Location-Based网关的入站 PSTN 呼叫连接到自动助理或呼叫队列。 
+允许从启用了路由Location-Based网关的入站 PSTN 调用连接到自动助理或呼叫队列。 
 
 启用了Location-Based路由的用户在位于入站 PSTN 呼叫源自的同一站点时，支持接收这些应用程序的入站呼叫传输。
  
@@ -372,7 +372,7 @@ Teams用户可以选择代表其发出和接听呼叫的代表。 Teams中的委
 
 支持以下Teams客户端：
 - Teams桌面客户端 (Windows和 Mac) 
-- Teams iOS 和 Android)  (移动客户端
+- Teams移动客户端 (iOS和Android) 
 - Teams IP 电话
 
 不支持Teams Web 客户端和Skype for Business客户端。
@@ -395,7 +395,7 @@ Location-Based路由不适用于以下类型的交互。 Location-Based在以下
 
 如果启用了Location-Based路由的用户从未启用Location-Based路由的内部站点加入电话会议，则不会强制执行上述段落中的限制。 
 
-不得使用印度的任何电话设备部署音频会议的网络会议。
+不得使用印度的任何电话设备部署用于音频会议的网络会议。
 
 
 ### <a name="media-bypass-requirement-for-location-based-routing"></a>Location-Based路由的媒体旁路要求

@@ -17,87 +17,87 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 ms.custom: ''
-description: 摘要：在启用了混合Skype for Business Server本地部署中，可以在本地环境和云之间移动用户。
-ms.openlocfilehash: 35df23b0d71daa4e3631a4c6a733af51e370f195
-ms.sourcegitcommit: 1190cd73656dbc9131d46e0a827e28bcd960dfc5
+description: 摘要：在为混合启用Skype for Business Server的本地部署中，可以在本地环境和云之间移动用户。
+ms.openlocfilehash: 15e237fdf54854a86216bc3890ae26209449c146
+ms.sourcegitcommit: d847256fca80e4e8954f767863c880dc8472ca04
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "62863925"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "65304000"
 ---
 # <a name="move-users-between-on-premises-and-cloud"></a>在本地与云之间移动用户
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-在启用了混合Skype for Business Server部署中，您可以在本地环境和本地环境之间移动Teams。 无论用户位于本地还是在云中，均称为用户的 Skype for Business 主页：
+在为混合启用Skype for Business Server的本地部署中，可以在本地环境和Teams之间移动用户。 无论用户位于本地还是在云中，均称为用户的 Skype for Business 主页：
 
-- 本地用户与本地服务器交互Skype for Business服务器。
-- 联机的用户可以与联机Teams交互。
+- 本地用户与本地Skype for Business服务器交互。
+- 联机用户可以与Teams服务交互。
 
-*Teams用户本身拥有Skype for Business，无论他们是否Skype for Business家庭。* 如果你拥有本地Skype for Business用户也使用并行Teams (，) 本地用户。 Teams本地 Skype for Business 的用户无法从 Teams 客户端与 Skype for Business 用户进行互操作，也无法从 Teams 与联盟组织的用户进行通信。 只有在将用户从本地环境移动到联机Skype for Business TeamsOnly 后，此功能才完全可用。 强烈建议将用户移动到 TeamsOnly 模式，这将确保所有传入聊天和呼叫的路由都到达其 Teams 客户端。 有关更多详细信息，请参阅 [Teams](/microsoftteams/coexistence-chat-calls-presence)共存和Skype for Business迁移和互操作性指南，这些指南适用于将 Teams [与 Skype for Business](/microsoftteams/migration-interop-guidance-for-teams-with-skype)。
+*Teams用户本身就有一个Skype for Business家庭，无论他们是否使用Skype for Business。* 如果本地Skype for Business用户也并行使用Teams () ，则这些用户位于本地。 Teams本地有Skype for Business的用户无法与其Teams客户端中的Skype for Business用户进行互操作，也无法从Teams与联合组织中的用户进行通信。 仅当用户从本地Skype for Business移动到联机并创建 TeamsOnly 后，此类功能才完全可用。 建议将用户移动到 TeamsOnly 模式，以确保所有传入聊天和呼叫的路由都位于其Teams客户端中。 有关详细信息，请参阅[Teams与Skype for Business和迁移共存](/microsoftteams/coexistence-chat-calls-presence)，[以及组织使用Teams和Skype for Business的互操作性指南](/microsoftteams/migration-interop-guidance-for-teams-with-skype)。
 
 ## <a name="prerequisites"></a>先决条件
 
-将用户移动到 TeamsOnly 模式的先决条件：
+将用户移到 TeamsOnly 模式的先决条件：
 
-- 组织必须已Azure AD 连接配置并同步用户的所有相关属性，如配置 [Azure AD 连接 中所述。](configure-azure-ad-connect.md)
-- Skype for Business配置混合，如配置混合Skype for Business[中所述](configure-federation-with-skype-for-business-online.md)。
-- 用户必须分配有 Teams 和 Skype for Business Online (2) 。 即使停用 Skype for Business Online，Skype for Business仍要求使用 Skype for Business Online 许可证。  此外：
-    - 如果用户在本地启用了电话拨入式会议，则用户还必须在 Teams 中分配音频会议许可证，然后才能将用户联机。 迁移到云后，将在云中为用户预配音频会议。 
-    - 如果在本地为用户企业语音，则用户必须在 电话系统 中分配一个 Teams 许可证，然后才能将用户联机。 迁移到云后，用户将被预配电话系统云中。 
+- 组织必须正确配置 Azure AD 连接并同步用户的所有相关属性，如配置 [Azure AD 连接](configure-azure-ad-connect.md) 中所述。
+- Skype for Business必须配置混合，如配置[混合](configure-federation-with-skype-for-business-online.md)Skype for Business中所述。
+- 必须为用户分配Teams和Skype for Business联机 (计划 2) 的许可证。 即使在Skype for Business联机停用后，仍需要Skype for Business联机许可证。  此外：
+    - 如果用户已启用本地电话拨入式会议，则用户还必须在Teams中分配音频会议许可证，然后才能将用户联机移动。 迁移到云后，将在云中为用户预配音频会议。 
+    - 如果用户已启用本地企业语音，则用户必须在Teams中分配电话系统许可证，然后才能将用户联机移动。 迁移到云后，将为用户预配云中的电话系统。 
 
 
 ## <a name="moving-users"></a>移动用户
 
 将用户从本地移动到云时：
 
-- Teams用户能够与 Skype for Business 进行互操作，如果他们是 TeamsOnly，则还可以与其他组织联盟。
+- Teams用户启用了与Skype for Business用户的互操作性，如果用户是 TeamsOnly，他们也可以与其他组织联合。
 
-- 将来自本地的联系人移动到Teams。
+- 本地联系人将移至Teams。
 
-- 他们以后安排的现有会议将转换为Teams会议。 会议迁移异步进行，大约在移动用户 90 分钟后开始。  若要确定会议迁移的状态，可使用 [Get-csMeetingMigrationStatus](../../SfbOnline/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md#managing-mms)。 请注意，会议之前上传的任何内容都不会移动。
+- 他们今后安排的现有会议将转换为Teams会议。 会议迁移异步进行，大约在移动用户 90 分钟后开始。  若要确定会议迁移的状态，可使用 [Get-csMeetingMigrationStatus](../../SfbOnline/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md#managing-mms)。 不会移动在会议之前上传的任何内容。
 
-若要将用户Teams，请使用 Move-CsUser cmdlet 或 Skype for Business 管理控制面板，这两者都是本地工具。 这些工具支持以下移动路径：
+若要将用户移到Teams，请使用Move-CsUser cmdlet 或Skype for Business管理员控制面板，这两者都是本地工具。 这些工具支持以下移动路径：
 
-- [从Skype for Business Server (内部部署) 直接Teams仅。](move-users-from-on-premises-to-teams.md)  从内部部署直接移动到 Teams Only 的行为现在自动执行，Skype for Business Server Lync Server 使用哪个版本。 不再需要指定开关 `-MoveToTeams` 获取此行为。  
-- [从联机 (（Teams是否) ）到本地](move-users-from-the-cloud-to-on-premises.md)。
+- [从本地Skype for Business Server (直接) 到仅Teams](move-users-from-on-premises-to-teams.md)。  直接从本地移动到Teams的行为现在是自动的，无论使用哪个版本的Skype for Business Server或 Lync Server。 不再需要指定 `-MoveToTeams` 开关来获取此行为。  
+- [从联机 (是否仅Teams) ，到本地](move-users-from-the-cloud-to-on-premises.md)。
 
 > [!NOTE] 
-> 不再需要在部署中指定 -MoveToTeams Move-CsUser将用户直接从本地移动到 TeamsOnly。 以前，如果未指定此开关，则用户从本地Skype for Business Server转换为 Skype for Business Online，其模式保持不变。 现在，使用 Move-CsUser 将用户从本地迁移到云时，系统会自动为用户分配 TeamsOnly 模式，其从本地会议自动转换为 Teams `-MoveToTeams` 会议，就像已指定交换机一样，无论是否实际指定了交换机。 
+> 不再需要在Move-CsUser中指定 -MoveToTeams 开关，以便将用户直接从本地移动到 TeamsOnly。 以前，如果未指定此开关，则用户将从本地Skype for Business Server主机转换为 Skype for Business Online，并且其模式保持不变。 现在，当使用 Move-CsUser 将用户从本地移动到云时，用户会自动分配 TeamsOnly 模式，并且从本地的会议会自动转换为Teams会议，就像已指定开关一样`-MoveToTeams`，而不管是否实际指定了开关。 
 > 
 
 ## <a name="required-administrative-credentials"></a>所需管理凭据
 
-若要在本地和云之间移动用户，必须在本地部署环境以及云组织中使用具有足够Skype for Business Server的帐户Teams帐户。 您可以使用一个拥有所有必要权限的帐户，或者可以使用两个帐户，在这种情况下，您将使用本地凭据访问本地工具，然后在这些工具中，您将为 Teams 管理帐户提供其他凭据。  
+若要在本地和云之间移动用户，必须在本地Skype for Business Server环境中和Teams组织中使用具有足够权限的帐户。 可以使用一个具有所有必要权限的帐户，也可以使用两个帐户。 如果使用两个帐户，则可以使用本地凭据访问本地工具，然后在这些工具中，为Teams管理帐户提供其他凭据。  
 
-- 在本地环境中，执行移动的用户必须在 Skype for Business Server 中具有 CSServerAdministrator、CsUserAdministrator 和 RTCUniversalUserAdmins 角色。
+- 在本地环境中，执行移动的用户必须在Skype for Business Server中具有 CSServerAdministrator、CsUserAdministrator 和 RTCUniversalUserAdmins 角色。
 - 在Teams中，执行移动的用户必须至少是以下角色之一的成员：
   - 全局管理员角色
   - Teams管理员角色
   - Skype for Business管理员角色。  
 
     > [!Important]
-    > - 如果使用管理Skype for Business控制面板，系统将提示你提供具有适当角色Microsoft 365帐户的凭据，如上所述。 必须提供以 .onmicrosoft.com 结尾的帐户。 如果不可能，请使用 Move-CsUser cmdlet。
-    >- 如果在 PowerShell 中使用 Move-CsUser，可以使用以 .onmicrosoft.com 结尾的帐户，或者可以使用同步到 Azure AD 的任何本地帐户，但还必须在 cmdlet 中指定 HostedMigrationOverrideUrl 参数。 托管迁移替代 URL 的值是以下 URL 的变体： https://adminXX.online.lync.com/HostedMigration/hostedmigrationService.svc<br>在以上 URL 中，将 XX 替换为两个或三个字符，按如下方式确定：
-    >   - 在 powerShell Teams中，运行以下 cmdlet：<br>`Get-CsTenant|ft identity`
-    >   - 生成的值将采用以下格式：<br>`OU=<guid>,OU=OCS Tenants,DC=lyncXX001,DC=local`
-    >   - 两位或三位代码是部分 DC=lyncXX001 中包含的 XX。 如果是两个字符的代码，它将是一个数字，后跟一个数字 (例如 0a) 。 如果是三个字符的代码，它将是两个字母，后跟一个数字 (如 jp1) 。 在所有情况下，在 XX 代码后会立即看到 001。
+    > - 如果使用Skype for Business管理员控制面板，系统将提示你为具有相应角色的Microsoft 365帐户提供凭据，如上所述。 必须提供以 .onmicrosoft.com 结尾的帐户。 如果不可行，请使用Move-CsUser cmdlet。
+    >- 如果在 PowerShell 中使用Move-CsUser，可以使用以 .onmicrosoft.com 结尾的帐户，也可以使用任何同步到 Azure AD 的本地帐户，前提是还可在 cmdlet 中指定 HostedMigrationOverrideUrl 参数。 托管迁移替代 URL 的值是以下 URL 的变体： https://adminXX.online.lync.com/HostedMigration/hostedmigrationService.svc<br>在上述 URL 中，将 XX 替换为两个或三个字符，确定如下所示：
+    >   - 在 Teams PowerShell 会话中，运行以下 cmdlet：<br>`Get-CsTenant | ft ServiceInstance`
+    >   - 生成的值将采用以下格式：<br>`MicrosoftCommunicationsOnline/YYYY-XX-ZZ`
+    >   - 两个或三个字符的代码是 YYYY-XX-ZZ 部分中包含的 XX。 如果它是两个字符的代码，它将是一个数字，后跟数字 (如 4A) 。 如果是三个字符的代码，则为两个字母，后跟一个数字 (，如 JP1) 。 例如 NOAM-4A-S7。
 
 
 ## <a name="voice-configuration-requirements"></a>语音配置要求
 
-如果在本地为用户配置了企业语音，则需要在将用户移至联机时协调更新其语音配置，或者，您也可以迁移这些用户而不使用电话功能。 可用选项取决于用户联机后是Teams还是Skype for Business客户端：
+如果在本地为企业语音配置了用户，则在将用户移动到联机时，需要协调更新其语音配置。 或者，可以迁移它们，而无需电话功能。 可用选项取决于用户在联机后是使用Teams还是Skype for Business客户端：
 
-- 可以将用户的电话服务提供商更新为使用 [Microsoft 通话套餐](/microsoftteams/calling-plans-for-office-365)。 此选项是用户使用客户端还是Teams Skype for Business客户端。
+- 可以更新用户的电话提供商以使用 [Microsoft 呼叫计划](/microsoftteams/calling-plans-for-office-365)。 这是一个选项，无论用户是使用Teams还是Skype for Business客户端。
 - 可以继续使用本地 PSTN 提供程序：
-  - 必须使用直接路由配置Teams语音[用户](/microsoftteams/direct-routing-plan)。 直接路由仅在用户将用户从本地移动到联机之后可用。
-  - 必须在联机移动后Skype for Business客户端的语音用户配置为使用Skype for Business 混合语音功能。
+  - 必须为将使用Teams的语音用户配置为[直接路由](/microsoftteams/direct-routing-plan)。 直接路由仅在用户从本地移动到联机后才可用。
+  - 在将Skype for Business客户端移动到联机后将使用该客户端的语音用户必须配置为Skype for Business 混合语音功能。
 
-有关混合环境中电话选项以及可支持性矩阵的更多详细信息，请参阅使用 [PSTN 连接的混合环境中用户帐户](/microsoftteams/direct-routing-user-accounts-in-a-hybrid-environment)。
+有关混合环境中的电话选项（包括可支持性矩阵）的详细信息，请参阅 [具有 PSTN 连接的混合环境中的用户帐户](/microsoftteams/direct-routing-user-accounts-in-a-hybrid-environment)。
 
 ## <a name="other-considerations"></a>其他注意事项
 
-本地和联机环境中的策略（例如控制邮件、会议和呼叫行为）是各自独立的。 在将用户从本地迁移到云之前，你可能要考虑配置环境中的任何策略并将其分配给用户，以便他们一旦迁移到联机环境，就会获得正确的配置。
+本地和联机环境中的策略（例如控制邮件、会议和呼叫行为）是各自独立的。 在将该用户从本地移动到云之前，可能需要考虑在环境中配置任何策略并将其分配给用户，以便在迁移到联机后立即获得正确的配置。
 
 ## <a name="see-also"></a>另请参阅
 
