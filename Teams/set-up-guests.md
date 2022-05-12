@@ -22,16 +22,16 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 description: 了解如何以Office 365管理员身份在Microsoft Teams中打开或关闭来宾访问功能。
-ms.openlocfilehash: 1658ef97dd172209a965088caa2842a71e09e4e7
-ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
+ms.openlocfilehash: 935fac44863ef2c3da4a9fc4f07fcd7e34265024
+ms.sourcegitcommit: cd9a1f7afaaf053741c81022e7052bf6f8008fcc
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "64839193"
+ms.lasthandoff: 05/12/2022
+ms.locfileid: "65370805"
 ---
 # <a name="turn-guest-access-in-microsoft-teams-on-or-off"></a>打开或关闭Microsoft Teams中的来宾访问权限
 
-本文介绍如何在Teams中配置来宾访问设置（包括呼叫、会议和聊天）。 Teams中的来宾访问还需要在Microsoft 365中配置其他设置，包括Azure AD、Microsoft 365 组和SharePoint中的设置。 如果你已准备好开始邀请来宾加入 Teams，请阅读以下内容之一：
+本文介绍如何在Teams中配置来宾访问设置（包括呼叫、会议和聊天）。 Teams中的来宾访问还需要在Microsoft 365中配置其他设置，包括 Azure AD、Microsoft 365 组 和 SharePoint 中的设置。 如果你已准备好开始邀请来宾加入 Teams，请阅读以下内容之一：
 
 - 若要为 Teams 配置来宾访问以供一般使用，请参阅[在团队中与来宾协作](/microsoft-365/solutions/collaborate-as-team)。
 - 若要与使用 Azure Active Directory 的合作伙伴组织进行协作，并允许来宾自行注册以实现团队访问，请参阅[创建托管有来宾的 B2B 外联网](/microsoft-365/solutions/b2b-extranet)。
@@ -60,6 +60,7 @@ ms.locfileid: "64839193"
       - **立即开会** – **打开** 此设置，允许来宾在Microsoft Teams中使用“立即见面”功能。
       - **编辑已发送的消息** - **打开** 此设置以允许来宾编辑他们以前发送的消息。
       - **删除已发送的消息** – **打开** 此设置以允许来宾删除之前发送的消息。
+      - **删除聊天** - **打开** 此设置以允许来宾删除整个聊天对话。
       - **聊天** - **打开** 此设置，使来宾能够在Teams中使用聊天。
       - **对话中的 Giphy** – **打开** 此设置以允许来宾在对话中使用 Giphys。 Giphy 是一个联机数据库和搜索引擎，允许用户搜索和共享动画 GIF 文件。 为每个 Giphy 分配一个内容分级。
       - **Giphy 内容分级** – 从下拉列表中选择分级：
