@@ -21,23 +21,23 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 了解哪些桌面电话和会议电话经过认证，Microsoft Teams可产生最佳效果。
-ms.openlocfilehash: 6a17faead9926ea6a7a7475eb867804d974f700e
-ms.sourcegitcommit: e102d72e67ab1c440c29ae6a048fc2cf8545fe01
+ms.openlocfilehash: e5588662279a1eda0728b57553d0e0a4a473e2da
+ms.sourcegitcommit: 73df40ce6fbd1d305fd381140f293a2feb0d27bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "65217936"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "65359782"
 ---
-# <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams认证的 Android 设备
+# <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams认证的Android设备
 
 Microsoft Teams设备认证计划确保认证设备符合高标准，在整个Teams体验中具有更高的性能目标和质量指标， (音频、视频、用户界面) 。 Microsoft 和 OEM 合作伙伴正在积极合作，确保设备满足所有认证要求，包括安全性、音频和视频质量、Teams体验和辅助功能。
 
-认证计划旨在确保所有经过认证的设备都运行 Android 版本，其中包含Teams和Teams管理中心所需的功能集。 认证结束日期基于进入认证计划时在设备上运行的 Android OS 版本。 我们的 OEM 合作伙伴正在努力通过升级 Android OS 版本并重新认证或发布最先进的新模型来延长认证的生存期。
+认证计划旨在确保所有认证设备都运行Android版本，其中包含Teams和Teams管理中心所需的功能集。 认证结束日期基于设备进入认证计划时在设备上运行的Android OS 版本。 我们的 OEM 合作伙伴正在努力通过升级Android OS 版本和重新认证，或发布最先进的新模型来延长认证的生存期。
 
 在认证期结束后的两年内，Microsoft 将致力于支持此类设备上最新版本的Teams客户端。
 
 >[!NOTE]
->认证结束日期将根据 OEM 合作伙伴计划定期更新，以升级到较新的 Android OS 版本。
+>认证结束日期将根据 OEM 合作伙伴计划定期更新，以升级到较新的Android OS 版本。
 
 ## <a name="certified-teams-phones"></a>认证Teams手机
 
@@ -66,9 +66,9 @@ Microsoft Teams设备认证计划确保认证设备符合高标准，在整个Te
 | Yealink MP56 | `122.15.0.6` | 2023 年 8 月 5 日  | 9 |
 | Yealink VP59 | `91.15.0.16` | 2023 年 8 月 5 日  | 9 |
 
-## <a name="certified-teams-rooms-on-android"></a>Android 上的认证Teams 会议室
+## <a name="certified-teams-rooms-on-android"></a>Android上的认证Teams 会议室
 
-以下设备根据 Android 认证计划的Microsoft Teams 会议室进行认证：
+以下设备根据Android认证计划的Microsoft Teams 会议室进行认证：
 
 | 设备模型 | 固件版本 | 当前认证结束日期 | 会议室大小                                        |  Android OS 版本    |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|-----------------------------------|
@@ -92,7 +92,7 @@ Microsoft Teams设备认证计划确保认证设备符合高标准，在整个Te
 
 ## <a name="certified-teams-displays"></a>已认证Teams显示
 
-以下设备根据Microsoft Teams显示 Android 认证计划进行认证：
+以下设备根据Microsoft Teams显示Android认证计划进行认证：
 
 | 设备模型 | 固件版本 | 当前认证结束日期  | Android OS 版本 |
 |:------------------------|:-----------------|:--------------|----------------------------------|
@@ -218,9 +218,9 @@ Microsoft Teams设备认证计划确保认证设备符合高标准，在整个Te
 
 请参阅[Microsoft Teams显示。](teams-displays.md)
 
-### <a name="product-release-information-for-teams-rooms-on-android"></a>Android 上Teams 会议室的产品发布信息
+### <a name="product-release-information-for-teams-rooms-on-android"></a>Android上Teams 会议室的产品发布信息
 
-以下是 Android 应用和固件版本上的最新Teams 会议室。
+以下是Android应用和固件版本的最新Teams 会议室。
 
 #### <a name="app-versions"></a>应用版本
 
@@ -241,6 +241,7 @@ Microsoft Teams设备认证计划确保认证设备符合高标准，在整个Te
 
 | 设备模型  | 固件版本 | 包含的产品版本 |
 |:--------------|:-----------------|:-------------------------|
+| Logi Roommate |   `1.6.290`   | 2022 更新 #1    |
 | Logi Rallybar Mini   |   `1.6.272`   | 2022 更新 #1  |
 | Logi Rallybar    |   `1.6.272`   | 2022 更新 #1   |
 | Logi Roommate |   `1.5.705`   | 2022 更新 #1    |
