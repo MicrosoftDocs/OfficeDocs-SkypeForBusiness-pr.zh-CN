@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3a488d026a0879da29a448381e1f2b800a2d9504
-ms.sourcegitcommit: 56d529cdbd8d8733350625316082f339ae8d66c9
+ms.openlocfilehash: 94d59c27841e873c4e178a1b5c0d09df6942c1fc
+ms.sourcegitcommit: a388fd72e399f6e205c34707dc92cc309997e737
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "65294103"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "65400238"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 
@@ -124,9 +124,9 @@ ms.locfileid: "65294103"
 |------------|---------------|
 |会议中的人数（可聊天和通话）  | 1000，包括 GCC、GCCH 和 DoD，但不包括 A1 (300)。 “**仅供查看**”允许最多 20，000 名仅收听的参与者加入组织者拥有 E3/E5/A3/A5 SKU 以及政府版（GCC、GCC High 和 DoD）许可证。 仅查看体验很快也可用于网络研讨会。 了解关于 [仅供查看体验](view-only-meeting-experience.md) 的详细信息。<sup>1，2</sup>|
 |通过视频或音频通话聊天的人员数 | 20 |
-|同时处于活动状态的通话数量 | 4 |
-|PowerPoint 文件的最大大小 | 2GB|
+|PowerPoint 文件的最大大小 | 2 GB|
 |Teams 保留了不会上传到 Microsoft Stream 且可供本地下载的[会议记录](cloud-recording.md) | 20 天 |
+| 会议记录最大长度 | 4 小时或 1.5 GB。 达到此限制后，录制将结束并自动重启。
   
 <sup>1</sup> 为了在大型会议、网络研讨会和直播活动中获得最佳体验，Microsoft 建议使用最新版本的 Teams 桌面客户端或 Teams 移动客户端。
 
