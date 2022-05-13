@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d80006e46598d03dd8defffe7baf4ada17415fe2
-ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
+ms.openlocfilehash: 1f08ddd68d036d18e4ea18073dd0711e32e0c91e
+ms.sourcegitcommit: 0c7d199b2f7580dbfa8ce755eda97ec70bc86978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "65187108"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "65393866"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>在Microsoft Teams 教育版中设置父连接
 
@@ -41,7 +41,7 @@ Teams 教育版中的家长连接可帮助教师使用Teams安全地与班级团
 
 家长连接允许教师和监护人使用Teams聊天、发送电子邮件和呼叫。
 
-- Teams保护者联系人数据使用 学校数据同步 (SDS) 在 SIS 中保持最新状态。
+- Teams保护者联系人数据在 SIS 中使用学校数据同步 (SDS) 保持最新状态。
 - 它适用于监督聊天。 有关详细信息，请参阅[Microsoft Teams中使用监督式聊天](supervise-chats-edu.md)。
   - 默认情况下，监护人具有受限权限，因此他们无法与学生聊天或从聊天中删除用户。
   - 租户管理员可以更改此设置。
@@ -71,31 +71,41 @@ Teams 教育版中的家长连接可帮助教师使用Teams安全地与班级团
 - 你需要学校数据同步 (SDS) 来填充每个学生的家长和监护人 **相关的联系** 信息。
   - [部署 SDS](/schooldatasync/parents-and-guardians-in-sds)
 
-- 如果在为租户中的学生设置 SDS 和填充家长和监护人 **相关联系人** 方面需要帮助，请通过以下方式联系 EDU 客户成功团队：
+- 如果在为租户中的学生设置SDS和填充家长和监护人 **相关联系人** 方面需要帮助，请通过以下方式联系 EDU 客户成功团队：
   - 在[FastTrack](https://www.microsoft.com/fasttrack?rtc=1)完成 RFA 过程。
   - 在 [支持](https://aka.ms/sdssupport)处打开票证。
 
-- 目前，SDS 仅支持父联系人基于 CSV 的数据引入;但是，可以对所有名册数据使用 [PowerSchool API 同步](/schooldatasync/how-to-deploy-school-data-sync-by-using-powerschool-sync) 或 [OneRoster API 同步](/schooldatasync/how-to-deploy-school-data-sync-by-using-oneroster-sync) ，只需使用 CSV 添加父联系人即可。
+- 目前，SDS仅支持父联系人基于 CSV 的数据引入;但是，可以对所有名册数据使用 [PowerSchool API 同步](/schooldatasync/how-to-deploy-school-data-sync-by-using-powerschool-sync)或 [OneRoster API 同步](/schooldatasync/how-to-deploy-school-data-sync-by-using-oneroster-sync)，只需使用 CSV 添加父联系人即可。
   - 使用 [SDS v1 CSV 同步格式](/schooldatasync/school-data-sync-format-csv-files-for-sds)创建第二个同步配置文件。
   - 拉取两个填充的 [父文件](/schooldatasync/parent-contact-sync-file-format) ，其余 v1 文件为空 (仅) 标头。
     - User.csv
     - Guardianrelationship.csv
   - 若要查看 v1 CSV 文件的示例集，请参阅GitHub[文件的最低必需属性](https://github.com/OfficeDev/O365-EDU-Tools/tree/master/CSV%20Samples/SDS%20Format/Min%20Required%20Attributes)。
   - 如果要在初始同步后自动拉取 CSV 文件，请阅读 [CSV 文件同步自动化文档](/schooldatasync/csv-file-sync-automation)。
-  - 有关设置 SDS 数据同步的帮助，请联系 [我们的客户成功团队](https://www.microsoft.com/fasttrack?rtc=1) 或 [开具支持票证](https://edusupport.microsoft.com/support?product_id=data_sync)。
+  - 有关设置SDS数据同步的帮助，请联系[我们的客户成功团队](https://www.microsoft.com/fasttrack?rtc=1)或[开具支持票证](https://edusupport.microsoft.com/support?product_id=data_sync)。
 
-### <a name="teams-admin-center---policies"></a>Teams管理中心 - 策略
+### <a name="teams-admin-center-policies"></a>Teams管理中心策略
 
 - 班级团队所有者必须打开Teams聊天。
 - 类团队所有者必须具有外部访问权限 **，Teams未由启用的组织管理的帐户**。
-  - 必须在租户级别和用户级别启用此功能。 可以在 **用户>管理中心Teams外部访问** 中找到租户级别设置。 也可以通过 PowerShell 访问此设置。 只能通过 PowerShell 访问用户级别的外部访问策略。 有关进一步指南，请参阅下面的 PowerShell 命令。
+  - 必须在租户级别和用户级别启用此功能。 可以在Teams管理中心的 **用户>外部访问** 中找到租户级别设置。 也可以通过 PowerShell 访问此设置。 只能通过 PowerShell 访问用户级别的外部访问策略。 有关进一步指南，请参阅下面的 PowerShell 命令。
 
-> [!NOTE]
->父母和监护人在“父母”功能中被归类为外部用户，这意味着他们没有完整的租户权限。 他们只能访问添加到聊天或聊天以及聊天中共享的文件、图像和其他内容。
->
->此外，外部用户还可以查看组织用户的脱机、可用、忙碌等 )  (状态，但可以使用 PowerShell 关闭此状态以保护用户的隐私。 在 PowerShell 中，使用 [Set-CsPrivacyConfiguration](/powershell/module/skype/set-csprivacyconfiguration) 和 set ``EnablePrivacyMode=true``。
->
->尽管父母和监护人是外部用户，但他们对聊天的贡献是可以发现的。 了解如何通过阅读Microsoft Teams中[的内容电子数据展示调查](ediscovery-investigation.md)来进行Teams电子数据展示调查。
+#### <a name="parent-and-guardian-restrictions"></a>家长和监护人限制
+父母和监护人在“父母连接”中被归类为外部用户，这意味着他们没有完整的租户权限。 他们只能访问添加到的聊天或聊天，以及聊天中共享的文件、图像和其他内容。
+
+此外，外部用户还可以查看组织用户的脱机、可用、忙碌等 )  (状态，但可以使用 PowerShell 关闭此状态以保护用户的隐私。 在 PowerShell 中，使用 [Set-CsPrivacyConfiguration](/powershell/module/skype/set-csprivacyconfiguration) 和 set ``EnablePrivacyMode=true``。
+
+尽管父母和监护人是外部用户，但他们对聊天的贡献是可以发现的。 了解如何通过阅读Microsoft Teams中[的内容电子数据展示调查](ediscovery-investigation.md)来进行Teams电子数据展示调查。
+
+#### <a name="blocking-a-parent-or-guardian-in-a-chat"></a>在聊天中阻止家长或监护人
+教师可以在“父连接”中发起的聊天中阻止监护人。
+
+类所有者可以：
+
+1. 打开监护人的配置文件卡，选择省略号并 **阻止用户**。 
+2. 然后，从聊天中删除监护人。 
+
+被阻止的用户将无法与类所有者开始其他聊天。
 
 ## <a name="allow-external-access-with-teams-accounts-not-managed-by-an-organization"></a>允许使用组织未管理的Teams帐户进行外部访问
 

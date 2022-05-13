@@ -11,14 +11,14 @@ metadata:
   author: lanachin
   ms.author: v-lanac
   ms.date: 06/23/2020
-  ms.openlocfilehash: b4ebe6851e6ee92d5b43fd781a3111fd015ba062
-  ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+  ms.openlocfilehash: feaab2b9acf9fa7d76ae564233930a00fb243006
+  ms.sourcegitcommit: 0c7d199b2f7580dbfa8ce755eda97ec70bc86978
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 09/30/2021
-  ms.locfileid: "60014896"
+  ms.lasthandoff: 05/13/2022
+  ms.locfileid: "65393726"
 landingContent:
-- title: 关于 Skype for Business Server 2015
+- title: 关于 2015 Skype for Business Server
   linkLists:
   - linkListType: overview
     links:
@@ -30,10 +30,6 @@ landingContent:
       url: https://support.office.com/article/what-is-a-skype-meeting-broadcast-c472c76b-21f1-4e4b-ab58-329a6c33757d
     - text: 技术图示
       url: ./technical-diagrams.md
-  - linkListType: download
-    links:
-    - text: 立即下载！
-      url: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server
 - title: 计划
   linkLists:
   - linkListType: overview
@@ -58,7 +54,7 @@ landingContent:
       url: ./deploy/upgrade-to-skype-for-business-server.md
     - text: 部署企业语音
       url: ./deploy/deploy-enterprise-voice/deploy-enterprise-voice.md
-    - text: 为本地广播配置Skype 会议部署
+    - text: 为本地部署配置Skype 会议广播
       url: ./deploy/configure-skype-meeting-broadcast.md
   - linkListType: how-to-guide
     links:
