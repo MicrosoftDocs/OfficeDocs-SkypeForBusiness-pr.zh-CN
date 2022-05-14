@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: 请参阅 (哪些 USB 外围设备（例如耳机、免提电话、网络摄像头和监视器）) 已通过Microsoft Teams认证。
-ms.openlocfilehash: 272d0c0eb1b3885da9a313666c8eac2d7bb09fe0
-ms.sourcegitcommit: e102d72e67ab1c440c29ae6a048fc2cf8545fe01
+ms.openlocfilehash: 91f7a1a8d3e8ea68b113d98d667aeaae9a90dd4e
+ms.sourcegitcommit: 4b0bd129af9cd487123ef6a5dc19ace0ec5a6c41
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "65217916"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "65406398"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>经认证为Microsoft Teams的 USB 音频和视频设备
 
@@ -81,6 +81,7 @@ ms.locfileid: "65217916"
 
 | 制造商        | 模型                                                     | 合格      | 认证计划                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|聚                 |Studio P21 Monitor                                         |5/12/2022       |Microsoft Teams认证                           |
 |Yealink              |UH38 耳机                                               |5/2/2022        |Microsoft Teams认证                           |   
 |Yealink              |BH72 耳机                                               |5/2/2022        |Microsoft Teams认证                           |
 |罗技             |区域 True 无线耳塞                                 |5/2/2022        |Microsoft Teams认证                           |

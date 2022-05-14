@@ -19,12 +19,12 @@ description: 在 Teams 中部署云语音功能的实用指南，用于记录 Te
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: aab8f71ec8c9eb5ad1e984a68985a8a425e21f16
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 72ad8b9349681dbb10c3df848f99cc0250711543
+ms.sourcegitcommit: cd9a1f7afaaf053741c81022e7052bf6f8008fcc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922663"
+ms.lasthandoff: 05/12/2022
+ms.locfileid: "65370815"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 云会议录制
 
@@ -147,8 +147,9 @@ Set-CsTeamsMeetingPolicy -Identity Global -ChannelRecordingDownload Block
   
 启用此设置将创建与会议记录一起存储的脚本，它在会议录制内容中启用“**搜索**”、“**CC**”和“**脚本**”。
 
+
 > [!NOTE]
-> 录制会议的转录目前仅支持英语 (美国)、英语 (加拿大)、英语 (印度)、英语 (英国)、英语 (澳大利亚)、英语 (新西兰)、德语 (德国)、葡萄牙语 (巴西)、荷兰语 (荷兰)、荷兰语 (比利时)、法语 (法国)、西班牙语 (西班牙)、日语 (日本)、法语 (加拿大)、中文 (粤语、繁体)、中文 (普通话、简体)、印地语 (印度)、意大利语 (意大利)、韩语 (韩国)、西班牙语 (墨西哥)、瑞典语 (瑞典)、波兰语 (波兰)、阿拉伯语 (阿拉伯联合酋长国)、阿拉伯语 (沙特阿拉伯)、丹麦语 (丹麦)、芬兰语 (芬兰)、挪威语 (挪威)和俄语 (俄罗斯)。它们会与会议录音一起存储在 OneDrive for Business 和 SharePoint Online 云存储中。
+> 录制会议的转录目前只支持英语 (美国)、英语 (加拿大)、英语 (印度)、英语 (英国)、英语 (澳大利亚)、英语 (新西兰)、阿拉伯语 (阿拉伯联合酋长国)、阿拉伯语 (沙特阿拉伯)、中文 (粤语)、中文 (普通话)、捷克语 (捷克)、丹麦语 (丹麦)、荷兰语 (比利时)、荷兰 (荷兰)、法语 (加拿大)。法语 (法国)、芬兰语 (芬兰)、德语 (德国)、希伯来语 (以色列)、印地语 (印度)、意大利语 (意大利)、日语 (日本)、韩语 (韩国)、挪威语 (挪威)、波兰语 (波兰)、葡萄牙语 (巴西)、葡萄牙语 (葡萄牙)、俄语 (俄罗斯)、西班牙语 (墨西哥)、西班牙语 (西班牙)、瑞典语 (瑞典)、泰语 (泰国)、土耳其 (土耳其)、越南 (越南)。 它们与会议录制内容一起存储在 OneDrive for Business 和 SharePoint Online 云存储中。
 
 你可以使用 Microsoft Teams 管理中心或 PowerShell 来设置 Teams 会议策略，以控制录制发起人是否可以选择转录会议录制。
 

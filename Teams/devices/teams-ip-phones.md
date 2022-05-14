@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 了解哪些桌面电话和会议电话经过认证，Microsoft Teams可产生最佳效果。
-ms.openlocfilehash: e5588662279a1eda0728b57553d0e0a4a473e2da
-ms.sourcegitcommit: 73df40ce6fbd1d305fd381140f293a2feb0d27bf
+ms.openlocfilehash: b63adbf126936bf7a4fcf004ab18338351b09565
+ms.sourcegitcommit: 4b0bd129af9cd487123ef6a5dc19ace0ec5a6c41
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "65359782"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "65406388"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams认证的Android设备
 
@@ -141,6 +141,9 @@ Microsoft Teams设备认证计划确保认证设备符合高标准，在整个Te
 
 | 设备模型  | 固件版本  | 包含的产品版本  |
 |:----------------|:--------------|:----------------------------|
+|Yealink T55A/T56A/T58A   | `58.15.0.157`     | 2022 更新#2A  |
+|Yealink VP59             | `91.15.0.90`      | 2022 更新#2A  |
+|Yealink CP960            | `73.15.0.153`     | 2022 更新#2A  |
 |音频代码 C470HD  | `1.17.561` | 2022 更新#1C |
 |Yealink MP54/MP56/MP58   | `122.15.0.80`     | 2022 更新#2A  |
 |Yealink MP52 | `145.15.0.28`  | 2022 更新#2A         |
