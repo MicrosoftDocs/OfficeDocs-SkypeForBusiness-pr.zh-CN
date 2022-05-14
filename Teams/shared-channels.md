@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 了解如何在 Microsoft Teams（预览版）中使用和管理共享频道。
-ms.openlocfilehash: feecbdfe45e890b1e302d49bfdcaf7b6d3e19157
-ms.sourcegitcommit: 3beef904411a9d5787a73678464003a868630649
+ms.openlocfilehash: 1f222d8994c435c315a91deaba77e383b55cba42
+ms.sourcegitcommit: 0c7d199b2f7580dbfa8ce755eda97ec70bc86978
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64817843"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "65393876"
 ---
 # <a name="shared-channels-in-microsoft-teams-preview"></a>Microsoft Teams 中的共享频道（预览版）
 
@@ -150,7 +150,7 @@ Microsoft Teams 中的共享频道可创建协作空间，你可以在其中邀�
 |团队中的成员|25,000|包括团队中的所有用户和共享频道中的直接成员。|
 |每个团队的共享频道数|50|托管并与团队共享。 （包括 30 天恢复时段内已删除的频道。）|
 |可以与团队共享的频道|50|排除父级团队|
-|共享频道中的成员|1,000 个直接成员，包括最多 50 个团队。 （出于此限制的目的，将与之共享频道的每个团队计作一个成员。）|实时更新一次仅对 25,000 个用户可用，并且在频道列表中仅显示 25,000 个用户。|
+|共享频道中的成员|5,000 个直接成员，包括最多 50 个团队。 （出于此限制的目的，将与之共享频道的每个团队计作一个成员。）|实时更新一次仅对 25,000 个用户可用，并且在频道列表中仅显示 25,000 个用户。|
 
 以下限制也适用：
 
