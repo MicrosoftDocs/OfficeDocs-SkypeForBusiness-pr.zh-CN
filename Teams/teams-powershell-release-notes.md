@@ -13,12 +13,12 @@ ms.collection:
 description: 了解 Teams PowerShell 中的最新更改。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 169519741bb0107086679a0472ead65c0e512529
-ms.sourcegitcommit: 3aa1c3cbd8ba9919e2a4dd4c7d4b95c40ed3d55d
+ms.openlocfilehash: 2bd7507767cb7f8747d8abbf4a23adda39738182
+ms.sourcegitcommit: 54cb804e6e8338f2d09499e53416e6d55ef1cc40
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "65230976"
+ms.lasthandoff: 05/17/2022
+ms.locfileid: "65442028"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams PowerShell 发行说明
 
@@ -31,6 +31,7 @@ ms.locfileid: "65230976"
 
 | 日期 | 版本 | 更新 |
 |------- | -------------------- | ------------------------------ |
+| 2022 年 5 月 | [4.3.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.3.1-preview) |<li>模块大小的改进。</li><li>所有 cmdlet 的现代化版本中不支持的参数将导致错误。</li><li>修复了 [GetSet\|]-CsOnlineDialInConferencingUser、Get-CsOnlineDialInConferencingBridge、[GetSetRegisterUnregister\|\|\|]-CsOnlineDialInConferencingServiceNumber & Get-CsOnlineDialInConferencingLanguagesSupported cmdlet 的错误处理。</li><li>在预览版中发布 Scale cmdlet 部署 - New-CsBatchTeamsDeployment & Get-CsBatchTeamsDeploymentStatus。</li>
 | 2022 年 5 月 | [4.3.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.3.0) |<li>修复 [SetRemove\|]-CsPhoneNumberAssignment cmdlet 的错误处理。</li><li>[获取\|SetRemove\|]-CsOnlineLisSubnet - 新式化 cmdlet 中子网参数的修复。</li><li>[获取\|Set]-CsOnlineLisLocation & [GetSet\|]-CsOnlineLisCivicAddress – 修复了现代化 cmdlet 中支持的参数， (相应公共文档) 中的更多详细信息。</li>
 | 2022 年 4 月 | [4.2.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.2.1-preview) |<li>修复 [SetRemove\|]-CsPhoneNumberAssignment cmdlet 的错误处理。</li><li>[获取\|SetRemove\|]-CsOnlineLisSubnet - 新式化 cmdlet 中子网参数的修复。</li><li>[获取\|Set]-CsOnlineLisLocation & [GetSet\|]-CsOnlineLisCivicAddress - 修复了现代化 cmdlet 中支持的参数。</li>
 | 2022 年 4 月 | [4.2.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.2.0) |<li>对与Teams相关的所有 cmdlet 的代理支持。 支持的 cmdlet 正在逐步推出。</li><li>修复了与 PSListModifier 类型参数一起使用时 [NewSet\|]- 现代化策略 cmdlet 的问题。</li><li>[重大更改]PSListModifier 类型参数将仅接受包含“添加”或“删除”的哈希表。 现在不支持使用 Replace 的哈希表，而是可以直接在参数中设置值 () 。</li><li>修复了 [GetNew\|] - (CsVideoInteropServiceProvider、CsInboundBlockedNumberPattern、CsTeamsComplianceRecordingApplication、CsTeamsTranslationRule、CsTeamsUnassignedNumberTreatment、CsVoiceNormalizationRule) 的少数现代化 Policy cmdlet 的格式问题。</li><li>使用现代化 cmdlet 改进了管道输入处理的性能。</li><li>修复管道输入结果的次要问题。</li><li>Get-CsOnlineUser：在早于 3.x.x) 的版本中添加了国家/地区属性 (称为 CountryOrRegionDisplayName。</li><li>[重大更改]Get-CsOnlineUser：CountryAbbreviation 属性现在仅在与 -Identity 参数一起使用时才可用。</li>

@@ -13,14 +13,14 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 本文讨论如何配置组织和Teams 会议室设备，以支持加入 Cisco WebEx 和 Zoom 的第三方会议。
-ms.openlocfilehash: 6defa9c9287b130eb5534f0aea158a78f2de8b18
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+ms.openlocfilehash: 91b730f998a1c17ed41f42a1e2990c82045d3117
+ms.sourcegitcommit: 54cb804e6e8338f2d09499e53416e6d55ef1cc40
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "64846601"
+ms.lasthandoff: 05/17/2022
+ms.locfileid: "65441998"
 ---
-# <a name="enable-teams-room-devices-to-join-third-party-meetings"></a>启用Teams会议室设备加入第三方会议
+# <a name="enable-teams-rooms-devices-to-join-third-party-meetings"></a>启用Teams 会议室设备加入第三方会议
 
 > [!NOTE]
 > 此功能目前仅在Windows上的Teams 会议室上可用。
@@ -65,8 +65,8 @@ Microsoft Teams 会议室设备支持加入第三方联机会议（也称为直�
 
 下面是可能需要添加到Defender for Office 365 保险箱链接 *不重写* 列表或第三方 URL 重写异常列表的一些示例条目：
 
-- **Cisco WebEx** `*.webex.com*`
-- **缩放**`*.zoom.us*`， `*.zoom.com*``*.zoomgov.com*`
+- **Cisco WebEx** `*.webex.com/*`
+- **缩放**`*.zoom.us/*`， `*.zoom.com/*``*.zoomgov.com/*`
 
 有关要添加到Defender for Office 365 保险箱链接 *不重写* 列表或第三方 URL 重写异常列表的完整 URL 列表，请联系要接受会议邀请的第三方会议服务提供商。
 
