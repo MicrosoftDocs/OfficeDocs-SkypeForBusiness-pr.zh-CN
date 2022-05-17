@@ -3,6 +3,25 @@
 
 
 
+## <a name="week-of-may-09-2022"></a>2022 年 5 月 9 日当周
+
+
+| 发布日期 |主题标题 | 更改 |
+|------|------------|--------|
+| 5/9/2022 | [为用户启用直接路由](/MicrosoftTeams/direct-routing-enable-users) | 修改内容 |
+| 5/9/2022 | [配置运营商连接](/MicrosoftTeams/operator-connect-configure) | 修改内容 |
+| 5/9/2022 | [在Teams中分配策略](/MicrosoftTeams/policy-assignment-overview) | 修改内容 |
+| 5/9/2022 | [自动助理&调用队列历史报告](/MicrosoftTeams/aa-cq-cqd-historical-reports) | 修改内容 |
+| 5/10/2022 | [为直接路由计划基于位置的路由](/MicrosoftTeams/location-based-routing-plan) | 修改内容 |
+| 5/10/2022 | [Microsoft Teams中的调用策略：呼叫和呼叫转发功能](/MicrosoftTeams/teams-calling-policy) | 修改内容 |
+| 5/10/2022 | [Microsoft Teams 会议室应用版本支持](/MicrosoftTeams/rooms/rooms-lifecycle-support) | 修改内容 |
+| 5/12/2022 | [管理语音邮件策略](/MicrosoftTeams/manage-voicemail-policies) | 修改内容 |
+| 5/12/2022 | [配置 SIP 网关](/MicrosoftTeams/sip-gateway-configure) | 修改内容 |
+| 5/12/2022 | [Teams 教育版中“家长”的管理员设置](/MicrosoftTeams/edu-parents-app) | 修改内容 |
+| 5/13/2022 | [Microsoft Teams中的 Walkie Talkie 应用](/MicrosoftTeams/walkie-talkie) | 修改内容 |
+| 5/13/2022 | [Microsoft Teams 会议室要求](/MicrosoftTeams/rooms/requirements) | 修改内容 |
+
+
 ## <a name="week-of-may-02-2022"></a>2022 年 5 月 2 日当周
 
 
@@ -82,7 +101,7 @@
 | 4/19/2022 | [根据用户类型Teams应用行为](/MicrosoftTeams/non-standard-users) | 修改内容 |
 | 4/19/2022 | [安全性和符合性概述](/MicrosoftTeams/security-compliance-overview) | 修改内容 |
 | 4/20/2022 | [音频会议免费号码策略](/MicrosoftTeams/audio-conferencing-toll-free-numbers-policy) | 添加内容 |
-| 4/20/2022 | [在音频会议桥上更改电话号码](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge) | 修改内容 |
+| 4/20/2022 | [更改音频会议桥上的电话号码](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge) | 修改内容 |
 | 4/20/2022 | [对特定 Teams 用户禁用免费电话号码](/MicrosoftTeams/disabling-toll-free-numbers-for-specific-teams-users) | 修改日期 |
 | 4/20/2022 | [管理音频会议设置](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-my-organization-in-teams) | 修改内容 |
 | 4/20/2022 | [设置包含在邀请中的电话号码](/MicrosoftTeams/set-the-phone-numbers-included-on-invites-in-teams) | 修改内容 |
