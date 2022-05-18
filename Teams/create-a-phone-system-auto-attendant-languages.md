@@ -1,7 +1,7 @@
 ---
-title: Microsoft Teams自动助理支持的语言
-ms.author: mikeplum
-author: MikePlumleyMSFT
+title: Microsoft Teams 自动助理支持的语言
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -20,61 +20,61 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: Microsoft Teams自动助理支持的语言
-ms.openlocfilehash: 52dc175b5c8d7379d538c3a80b28b763279c7c41
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Microsoft Teams 自动助理支持的语言
+ms.openlocfilehash: 0a513e31f94052abc07707ddd57bc116c4768aff
+ms.sourcegitcommit: 2c3c067cccd7b84064b5619a0b5f87242af52984
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605831"
+ms.lasthandoff: 05/18/2022
+ms.locfileid: "65462036"
 ---
-# <a name="microsoft-teams-auto-attendant-supported-languages"></a>Microsoft Teams自动助理支持的语言
+# <a name="microsoft-teams-auto-attendant-supported-languages"></a>Microsoft Teams 自动助理支持的语言
 
-自动助理支持以下语言的文本到语音 (TTS) 和语音识别：
+自动助理支持以下语言，用于文本转语音 (TTS) 和语音识别：
 
-|语言                                |文本到语音 (TTS)      |语音识别                     |
+|语言                                |文本转语音 (TTS)      |语音识别                     |
 |:---------------------------------------|:-----------------------:|:-------------------------------------:|
-|阿拉伯 (埃及)                           |Y                        |                                       |
+|阿拉伯语 (埃及)                           |Y                        |                                       |
 |加泰罗尼亚语 (加泰罗尼亚语)                        |Y                        |Y                                      |
-|简 (简体中文)                |Y                        |Y                                      |
-|繁 (繁体中文、香港特别行政区)         |Y                        |                                       |
-|繁 (繁体中文，台湾)            |Y                        |                                       |    
+|中文 (简体，中国)                |Y                        |Y                                      |
+|中国 (传统，香港)         |Y                        |                                       |
+|中国 (传统，台湾)            |Y                        |                                       |    
 |克罗地亚 (克罗地亚)                       |Y                        |                                       |    
-|捷克共和国 (捷克共和国)                   |Y                        |                                       |    
+|捷克 (捷克共和国)                   |Y                        |                                       |    
 |丹麦 (丹麦)                         |Y                        |                                       |    
-|荷兰语 (荷兰)                      |Y                        |                                       |    
-|澳大利亚 (英语)                      |Y                        |Y                                      |
-|加拿大 (英语)                         |Y                        |Y                                      |
-|印度 (英语)                          |Y                        |Y                                      |
-|英国 (英语)                 |Y                        |Y                                      |
-|美国 (英语)                  |Y                        |Y                                      |
+|荷兰 (荷兰)                      |Y                        |                                       |    
+|英语 (澳大利亚)                      |Y                        |Y                                      |
+|英语 (加拿大)                         |Y                        |Y                                      |
+|英语 (印度)                          |Y                        |Y                                      |
+|英国英语 ()                 |Y                        |Y                                      |
+|英语 (美国)                  |Y                        |Y                                      |
 |芬兰 (芬兰)                        |Y                        |                                       |    
-|加拿大 (法语)                          |Y                        |Y                                      |
-|法语 (法国)                          |Y                        |Y                                      |
-|德语 (德国)                         |Y                        |Y                                      |
+|法国 (加拿大)                          |Y                        |Y                                      |
+|法国 (法国)                          |Y                        |Y                                      |
+|德国 (德国)                         |Y                        |Y                                      |
 |希腊 (希腊)                           |Y                        |                                       |
 |匈牙利 (匈牙利)                      |Y                        |                                       |
 |印度尼西亚 (印度尼西亚)                   |Y                        |                                       |
 |意大利 (意大利)                          |Y                        |Y                                      |
-|日语 (日本)                         |Y                        |Y                                      |
-|朝鲜 (韩国)                           |Y                        |                                       |    
-|挪威博克马尔语 (挪威)                |Y                        |                                       |    
+|日本 (日本)                         |Y                        |Y                                      |
+|韩国 (韩国)                           |Y                        |                                       |    
+|挪威博克马尔 (挪威)                |Y                        |                                       |    
 |波兰 (波兰)                          |Y                        |                                       |    
-|巴西 (葡萄牙语)                      |Y                        |Y                                      |
-|葡萄牙语 (葡萄牙)                    |Y                        |                                       |    
+|葡萄牙 (巴西)                      |Y                        |Y                                      |
+|葡萄牙 (葡萄牙)                    |Y                        |                                       |    
 |罗马尼亚 (罗马尼亚)                       |Y                        |                                       |    
 |俄罗斯 (俄罗斯)                         |Y                        |                                       |    
 |斯洛伐克 (斯洛伐克)                        |Y                        |                                       |    
-|斯洛文尼亚语 (斯洛文尼亚)                     |Y                        |                                       |    
-|墨西哥 (西班牙语)                         |Y                        |Y                                      |
-|西班牙语 (西班牙、国际)           |Y                        |Y                                      |
-|瑞典语 (瑞典)                         |Y                        |                                       |    
+|斯洛文尼亚 (斯洛文尼亚)                     |Y                        |                                       |    
+|西班牙 (墨西哥)                         |Y                        |Y                                      |
+|西班牙 (西班牙，国际)           |Y                        |Y                                      |
+|瑞典 (瑞典)                         |Y                        |                                       |    
 |泰国 (泰国)                          |Y                        |                                       |    
 |土耳其 (土耳其)                         |Y                        |                                       |    
-|越南 (越南)                     |Y                        |                                       |    
+|越南语 (越南)                     |Y                        |                                       |    
 
 > [!NOTE]
-> 选择不支持语音识别的语言将禁用菜单中的语音输入选项，按名称拨叫将限制为使用键盘 (DTMF) 条目。 有关详细信息，请参阅 [DTMF (键盘) 按](dial-voice-reference.md#dial-by-name---keypad-dtmf-entry) 名字拨叫。
+> 选择不支持语音识别的语言将禁用菜单中的语音输入选项，并且按名称拨号将仅限于使用键盘 (DTMF) 条目。 有关详细信息，请参阅 [“按名称拨号 - 键盘 (DTMF) 条目](dial-voice-reference.md#dial-by-name---keypad-dtmf-entry) 。
 
 > [!NOTE]
-> 使用文本到语音转换时，必须以所选语言输入文本，因为系统不执行翻译。
+> 使用文本转语音时，必须以所选语言输入文本，因为系统不执行翻译。
