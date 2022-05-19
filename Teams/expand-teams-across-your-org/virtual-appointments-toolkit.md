@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: 了解如何在Microsoft Teams中使用Bookings应用来计划、管理和执行虚拟约会。
-ms.openlocfilehash: 5693049942d48da8c18e46b05f4a8d0bb2ebae0a
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+ms.openlocfilehash: 3fb6b28b9e9e1b7581ef80d9830bce97f6a7070d
+ms.sourcegitcommit: 02fcd6686a2f7a59c0ad67430c2b85f809c1b662
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "64846639"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "65534377"
 ---
 # <a name="help-your-clients-and-customers-use-virtual-appointments"></a>帮助客户和客户使用虚拟约会
 
@@ -113,6 +113,7 @@ ms.locfileid: "64846639"
 | [![金融服务信息图的图像](../media/vv-finserv-thumbnail.png)](//download.microsoft.com/download/8/5/7/85784cd8-6945-4fcc-a3c3-972bd88d3fef/VirtualVisit_Financial_Infographic.pdf) | 金融服务组织的可自定义信息图 <br> [作为 PDF 下载](//download.microsoft.com/download/8/5/7/85784cd8-6945-4fcc-a3c3-972bd88d3fef/VirtualVisit_Financial_Infographic.pdf) <br> [下载为PowerPoint](//download.microsoft.com/download/8/5/7/85784cd8-6945-4fcc-a3c3-972bd88d3fef/VirtualVisit_Financial_Infographic.pptx)
 | [![零售信息图的图像](../media/vv-retail-thumbnail.png)](//download.microsoft.com/download/a/b/5/ab5c07d9-cf7a-47b3-ba54-05a8a0a2a1bd/VirtualVisit_Retail_Infographic.pdf) | 零售组织的可自定义信息图 <br> [作为 PDF 下载](//download.microsoft.com/download/a/b/5/ab5c07d9-cf7a-47b3-ba54-05a8a0a2a1bd/VirtualVisit_Retail_Infographic.pdf) <br> [下载为PowerPoint](//download.microsoft.com/download/a/b/5/ab5c07d9-cf7a-47b3-ba54-05a8a0a2a1bd/VirtualVisit_Retail_Infographic.pptx) |
 | [![医疗保健信息图的图像](../media/vv-healthcare-thumbnail.png)](//download.microsoft.com/download/4/d/3/4d3d9c53-0304-4aea-a56a-60a16402c58f/VirtualVisit_Healthcare_Infographic.pdf) | 医疗保健组织的可自定义信息图 <br> [作为 PDF 下载](//download.microsoft.com/download/4/d/3/4d3d9c53-0304-4aea-a56a-60a16402c58f/VirtualVisit_Healthcare_Infographic.pdf) <br> [下载为PowerPoint](//download.microsoft.com/download/4/d/3/4d3d9c53-0304-4aea-a56a-60a16402c58f/VirtualVisit_Healthcare_Infographic.pptx) |
+| [![非行业特定信息图的图像。](../media/va-generic-thumb.png)](//download.microsoft.com/download/c/6/9/c69d3f29-a8f5-462b-a645-79119beab406/VirtualVisit_Generic_Infographic.pdf) | 不特定于特定行业的可自定义信息图 <br> [作为 PDF 下载](//download.microsoft.com/download/c/6/9/c69d3f29-a8f5-462b-a645-79119beab406/VirtualVisit_Generic_Infographic.pdf) <br> [下载为PowerPoint](//download.microsoft.com/download/c/6/9/c69d3f29-a8f5-462b-a645-79119beab406/VirtualVisit_Generic_Infographic.pptx) |
 
 ### <a name="customize-your-infographic"></a>自定义信息图
 
