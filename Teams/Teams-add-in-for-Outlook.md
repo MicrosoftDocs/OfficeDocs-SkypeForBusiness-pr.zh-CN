@@ -19,14 +19,16 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c734fe5d6326d0fc4bfddfbc381d66339303d36e
-ms.sourcegitcommit: c5f281342c5f2af65492692ab1249789c637e457
+ms.openlocfilehash: 8415ee8dc79c8c67189ae801b1287c56115e6d72
+ms.sourcegitcommit: 2c3c067cccd7b84064b5619a0b5f87242af52984
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2022
-ms.locfileid: "63392870"
+ms.lasthandoff: 05/18/2022
+ms.locfileid: "65462026"
 ---
 # <a name="use-the-teams-meeting-add-in-in-outlook"></a>在 Outlook 中使用 Teams 会议外接程序
+
+本文详细介绍了 Outlook 中面向最终用户的 Teams 会议加载项的身份验证要求和功能。 它还展示了如何在孤岛模式下启用私人会议和调整用户的策略设置。 如果在使用加载项时遇到问题，请参阅我们[最新的故障排除指南](/MicrosoftTeams/troubleshoot/meetings/resolve-teams-meeting-add-in-issues)。
 
 借助 Teams 会议加载项，用户可以从 Outlook 安排 Teams 会议。 此加载项适用于 Windows 版 Outlook、Mac 版 Outlook、Outlook 网页版以及 Outlook 移动版。
 
@@ -126,59 +128,6 @@ Teams 会议外接程序仍是正在构建的功能，因此请注意以下事�
 - 用户无法在 Outlook 中安排直播活动。 若要安排直播活动，请转到 Teams。 有关详细信息，请参阅[什么是 Microsoft Teams 直播活动？](teams-live-events/what-are-teams-live-events.md)。
 
 详细了解 [Microsoft Teams 中的会议和通话](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)。
-
-## <a name="troubleshooting"></a>疑难解答
-
-使用以下步骤解决 Teams 会议加载项的问题。
-
-> [!NOTE]
-> 还可以使用 [命令行版本的Microsoft 支持和恢复助手](/office365/troubleshoot/administration/sara-command-line-version) SaRAcmd.exe -S TeamsAddinScenario -AcceptEula -CloseOutlook 来管理此方案。
-
-### <a name="teams-meeting-add-in-in-outlook-for-windows-does-not-show"></a>Windows 版 Outlook 中的 Teams 会议加载项未显示
-
-若无法安装 Outlook 的 Teams 会议加载项，请尝试下列故障排除步骤。
-
-[下载](https://aka.ms/SaRA-TeamsAddInScenario)并运行 [Microsoft 支持恢复助手](https://aka.ms/SaRA_Home)以执行自动故障排除步骤和修复。
-
-或者，手动执行以下步骤：
-
-- Windows 7 用户必须安装 [Windows 通用 C 运行时更新](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows)，Teams 会议加载项才能工作。
-- 检查用户是否具有允许在 Teams 中安排会议的 Teams 升级策略。 有关更多详细信息，请参阅[从 Skype for Business 升级到 Teams](/microsoftteams/meeting-policies-in-teams-general)。
-- 检查用户是否具有允许 Outlook 加载项的 Teams 会议策略。 详情请参阅 [会议策略设置 - 常规](./meeting-policies-in-teams-general.md#outlook-add-in)。
-- 确保用户已安装 Teams 桌面客户端。 仅使用 Teams Web 客户端时，不会安装会议加载项。
-- 确保用户安装了 Outlook 2013 或更高版本。
-- 确保用户具有执行 regsvr32.exe 的权限。
-- 确保已应用 Outlook 桌面客户端的所有可用更新。
-- 请按以下步骤操作：
-  - 重启 Teams 桌面客户端。
-  - 注销，然后重新登录到 Teams 桌面客户端。
-  - 重启 Outlook 桌面客户端。 （请确保 Outlook 未在管理员模式下运行。）
-
-如果仍然看不到该加载项，请确保它在 Outlook 中未被禁用。
-
-- 在 Outlook 中，选择“**文件**”，然后选择“**选项**”。
-- 选择“**Outlook 选项**”对话框的“**加载项**”选项卡。
-- 确认“**活动应用程序加载项**”列表中列出了“**Microsoft Office 的 Microsoft Teams 会议加载项**”
-- 如果 Teams 会议加载项列在“**禁用的应用程序加载项**”列表中，请在“**管理**”中选择“**COM 加载项**”，然后选择“**转到…**”
-- 设置“**Microsoft Office 的 Microsoft Teams 会议加载项**”旁边的复选框。
-- 在所有对话框中选择“**确定**”，然后重新启动 Outlook。
-
-有关如何管理加载项的一般指导，请参阅[在 Office 程序中查看、管理和安装加载项](https://support.office.com/article/View-manage-and-install-add-ins-in-Office-programs-16278816-1948-4028-91E5-76DCA5380F8D)。
-
-如果加载项仍未显示，请按照以下步骤验证注册表设置。
-
-> [!NOTE]
-> 不正确地编辑注册表可能会对系统造成严重损坏。 更改注册表之前，应对计算机上的所有重要数据进行备份。
-- 启动 RegEdit.exe
-- 导航到 HKEY_CURRENT_USER\Software\Microsoft\Office\Outlook\Addins
-- 验证 TeamsAddin.FastConnect 是否存在。
-- 在 TeamsAddin.FastConnect 中，验证 LoadBehavior 是否存在并设置为 3。
-  - 如果 LoadBehavior 具有非 3 值，请将其更改为 3，然后重新启动 Outlook。
-
-### <a name="delegate-scheduling-does-not-work"></a>代理计划不起作用
-
-若管理员已配置 Microsoft Exchange 来[控制对 Exchange Web Server (EWS) 的访问](/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)，则代理无法代表上级安排 Teams 会议。 此配置的解决方案正在开发中，未来将予以发布。 若要解决该问题，管理员可将以下字符串添加到 EWS 允许列表：“*SchedulingService*”。 
-
 
 ## <a name="related-topics"></a>相关主题
 
