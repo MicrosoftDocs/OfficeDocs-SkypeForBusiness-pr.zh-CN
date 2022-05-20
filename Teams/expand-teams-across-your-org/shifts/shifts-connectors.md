@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 930f4b7a311acc7c34e60b7916071d10349c0313
-ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
+ms.openlocfilehash: a4759bc010367e6531a557e2a5ff951d1b613505
+ms.sourcegitcommit: 3b86e55787c34da76428d6915964ac4f3c6239fc
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "64592887"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "65598355"
 ---
 # <a name="shifts-connectors"></a>Shifts 连接器
 
@@ -30,7 +30,7 @@ ms.locfileid: "64592887"
 
 将 WFM 系统连接到Teams使一线员工能够更有效地管理计划，并简化日常流程，提高参与度和工作效率。 你的一线工作人员有一个位置来安排、沟通和协作，需要从任何位置、任何设备完成工作。
 
-我们提供托管和开源 Shifts 连接器。 本文概述了 Shifts 连接器及其工作原理。
+本文概述了 Shifts 连接器及其工作原理。
 
 ## <a name="how-shifts-connectors-work"></a>Shifts 连接器的工作原理
 
@@ -115,17 +115,6 @@ Alex 需要请一些假，并使用 Shifts 请求休息一天。 请求通过连
 - 在班次中请求休假、打开班次、交换和提供班次。
 
 若要了解详细信息，请转到 https://connect.zebra.com/microsoft-connectors。
-
-## <a name="open-source-shifts-connectors"></a>开源 Shifts 连接器
-
-开源 Shifts 连接器是基于 [Shifts Graph API 构建的](/graph/api/resources/shift)社区驱动集成。 以下开源连接器可用：
-
-- Kronos 到Teams本地 WFC
-- 适用于 Blue Yonder 版本 2017 到 2020.2 版的 JDA 到 Teams Shifts 连接器 () 
-
-每个连接器都附带详细的部署和配置指南。 其中包括 Azure 资源管理器 (ARM) 部署脚本，这些脚本允许你在Microsoft Azure中托管所有必要的服务。 源代码和部署脚本可用于在[GitHub存储库](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors)中下载。 可以按计划进行部署，也可以根据需要自定义或扩展。
-
-若要了解详细信息，请参阅 [生产就绪的 Shifts 连接器](/microsoftteams/platform/samples/shifts-wfm-connectors)。
 
 ## <a name="related-articles"></a>相关文章
 

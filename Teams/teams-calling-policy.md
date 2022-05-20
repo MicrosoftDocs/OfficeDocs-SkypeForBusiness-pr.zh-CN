@@ -20,12 +20,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5097586825b231decd220a30bdde85bf258e27fc
-ms.sourcegitcommit: d847256fca80e4e8954f767863c880dc8472ca04
+ms.openlocfilehash: 6a52b30e1ced457377d7dd1c820192cb856827ba
+ms.sourcegitcommit: 3b86e55787c34da76428d6915964ac4f3c6239fc
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "65313104"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "65601591"
 ---
 # <a name="calling-and-call-forwarding-in-teams"></a>Teams中的呼叫和呼叫转接
 
@@ -99,7 +99,7 @@ ms.locfileid: "65313104"
 
 此设置使用户能够使用Teams Web 客户端调用 PSTN 号码。
 
-### <a name="incoming-meeting-invites-are-automatically-answered"></a>将自动答复传入会议邀请
+### <a name="automatically-answer-incoming-meeting-invites"></a>自动回答传入会议邀请
 
 此设置控制是否自动应答传入会议邀请。 默认情况下处于禁用状态。 请记住，此设置仅适用于传入的会议邀请。 它不适用于其他类型的调用。
 
