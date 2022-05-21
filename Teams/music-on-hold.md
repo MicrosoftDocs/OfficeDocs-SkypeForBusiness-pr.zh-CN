@@ -15,18 +15,18 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom: ''
 description: 了解如何在电话系统中管理音乐保留功能。
-ms.openlocfilehash: 3e3e9c12eb459fdf52506be4577dfea88943ffa7
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 4899ffd2a3b6bfda80164ca2df4a5460a2b005e2
+ms.sourcegitcommit: 4435ac0efcb95e4e5e1f21289e46761e79482ab5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922653"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "65624237"
 ---
 # <a name="music-on-hold"></a>音乐保留
 
 当Microsoft Teams用户暂停传入呼叫时，调用方可以收听所选的音乐。
 
-播放的音乐是 Microsoft 提供的默认音乐，或者是上传和配置的自定义音乐。 作为租户管理员，可以通过创建Teams调用策略并将策略分配给Teams用户来配置保留音乐是否可用。
+播放的音乐是 Microsoft 提供的默认音乐，或者是上传和配置的自定义音乐。 租户管理员，通过创建Teams调用策略并将策略分配给Teams用户来配置保留音乐是否可用。
 
 Microsoft Teams调用方案中提供的默认音乐不含组织支付的任何版税。
 
@@ -69,7 +69,7 @@ Microsoft Teams调用方案中提供的默认音乐不含组织支付的任何�
 
 保留时自定义音乐的配置从上传音频文件开始。 为此，请使用 PowerShell cmdlet [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile) 。
 
-下面显示了使用 PowerShell 接口上传 MP3 音频文件的示例：
+下面显示了使用 Windows PowerShell 5.1 上传 MP3 音频文件的示例。 有关其他示例，请参阅 [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile)。
 
 ```PowerShell
 C:\> $content = Get-Content "C:\tmp\customMoH1.mp3" -Encoding byte -ReadCount 0
@@ -132,6 +132,10 @@ C:\> Grant-CsTeamsCallHoldPolicy -PolicyName "CustomMoH1" -Identity user1@contos
 
 - [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
 
+- [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile)
+
+- [Export-CsOnlineAudioFile](/powershell/module/skype/export-csonlineaudiofile)
+
 - [Get-CsOnlineAudioFile](/powershell/module/skype/get-csonlineaudiofile)
 
 - [Remove-CsOnlineAudioFile](/powershell/module/skype/remove-csonlineaudiofile)
@@ -144,6 +148,3 @@ C:\> Grant-CsTeamsCallHoldPolicy -PolicyName "CustomMoH1" -Identity user1@contos
 
 - [Remove-CsTeamsCallHoldPolicy](/powershell/module/skype/remove-csteamscallholdpolicy)
 
-- [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile)
-
-- [Export-CsOnlineAudioFile](/powershell/module/skype/export-csonlineaudiofile)

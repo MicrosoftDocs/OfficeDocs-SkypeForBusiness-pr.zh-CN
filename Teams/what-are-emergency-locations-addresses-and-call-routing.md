@@ -25,12 +25,12 @@ ms.custom:
 - Direct Routing
 - seo-marvel-mar2020
 description: 了解紧急呼叫，包括有关紧急地址、紧急呼叫路由和动态紧急呼叫的信息。
-ms.openlocfilehash: f059f55281df2925511b85941fefbb675d781852
-ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+ms.openlocfilehash: 2806499e81b524168944e6cca2e9a6acb4d0b6a7
+ms.sourcegitcommit: 4435ac0efcb95e4e5e1f21289e46761e79482ab5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65125447"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "65624126"
 ---
 # <a name="manage-emergency-calling"></a>管理紧急呼叫
 
@@ -148,7 +148,7 @@ Microsoft 建议使用Teams管理中心中的地图搜索功能创建紧急地�
 
 每个运营商连接用户都会自动启用紧急呼叫。 对于给定号码，紧急呼叫会自动路由到运营商连接运营商。
 
-租户管理员为运营商连接用户设置注册地址的能力取决于当承运商将其上传到客户清单时分配给数字的功能。 根据此设置，租户管理员可以设置、修改或删除用户的紧急位置，也可能不是必需&mdash;&mdash;者。 
+租户管理员为运营商连接用户设置注册地址的能力取决于当承运商将其上传到客户清单时分配给数字的功能。 根据此设置，租户管理员可以设置、修改或删除用户的紧急位置，也可能不是必需&mdash;&mdash;的。 
 
 ### <a name="dynamic-emergency-calling-for-operator-connect"></a>动态紧急呼叫运营商连接
 
@@ -275,9 +275,6 @@ Microsoft 呼叫计划、运营商连接和直接路由均提供安全服务台�
 ### <a name="custom-emergency-disclaimer"></a>自定义紧急免责声明
 
 管理员能够在租户中为其用户添加自定义横幅以启用 E911。 用户在确认地址时可以关闭横幅，当重新启动Teams时，横幅将重新出现。 若要启用此功能，请在Teams紧急呼叫策略下设置 **紧急服务免责声明**，并输入要显示给用户的字符串消息。 设置自定义策略时，此字段是可选的，字符串字段限制为 250 个字符。
-
-> [!NOTE]
-> 目前，可将 PowerShell 与 EnhancedEmergencyServicesDisclaimer 策略配合使用。 将来，这也可以在Teams管理中心进行配置。
 
     
 ## <a name="related-topics"></a>相关主题
