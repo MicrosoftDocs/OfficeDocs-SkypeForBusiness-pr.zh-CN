@@ -1,7 +1,7 @@
 ---
 title: Kaizala和Microsoft Teams
-author: Benny-54
-ms.author: v-bshilpa
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: reference
 ms.service: msteams
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 search.appverid: ''
 ms.collection: ''
 ms.custom: ''
-ms.openlocfilehash: a0760e95f1b91cc12320142fd666c5e837da623d
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: a81aac5cb0a23ad8cadfa988bf4f28e72df0c6f9
+ms.sourcegitcommit: d425748a50964ebc78e5d38fce564a444a449f43
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059313"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "65635350"
 ---
 # <a name="kaizala-and-microsoft-teams"></a>Kaizala和Microsoft Teams 
 
@@ -52,7 +52,7 @@ Kaizala 专业版功能现已在Teams中提供，包括现在作为Teams[应用�
 
 ## <a name="what-can-i-do-to-prepare-for-the-transition-of-kaizala-to-teams"></a>如何为Kaizala过渡到Teams做好准备？
 
-现在开始将Teams用于能够促进组织间通信的解决方案。 Teams不仅仅是Kaizala的升级，它是一个强大的工具，打开了全新的经营方式的大门。 Teams对于各种一线工作人员用户方案具有独特的定位，这要归功于[为中小型企业 (SMB) 而设计的Teams概要](https://www.microsoft.com/microsoft-365/blog/2021/12/01/new-microsoft-teams-essentials-is-built-for-small-businesses/)，以及[通过输入电话号码或完整电子邮件地址以供个人使用Teams来与外部用户协作的能力](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-users-can-now-chat-with-any-teams-user-outside/ba-p/3070832)。
+"开始"菜单使用当前的Teams来实现可在组织间进行通信的解决方案。 Teams不仅仅是Kaizala的升级，它是一个强大的工具，打开了全新的经营方式的大门。 Teams对于各种一线工作人员用户方案具有独特的定位，这要归功于[为中小型企业 (SMB) 而设计的Teams概要](https://www.microsoft.com/microsoft-365/blog/2021/12/01/new-microsoft-teams-essentials-is-built-for-small-businesses/)，以及[通过输入电话号码或完整电子邮件地址以供个人使用Teams来与外部用户协作的能力](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-users-can-now-chat-with-any-teams-user-outside/ba-p/3070832)。
 
 ## <a name="will-i-be-able-to-use-teams-to-collaborate-with-customers-and-partners-outside-my-organization-using-a-phone-number"></a>我能否使用Teams使用电话号码与组织外部的客户和合作伙伴进行协作？
 

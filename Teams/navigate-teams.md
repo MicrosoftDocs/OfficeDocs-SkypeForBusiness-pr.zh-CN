@@ -1,7 +1,7 @@
 ---
 title: 导航到Microsoft Teams
-author: Benny-54
-ms.author: v-bshilpa
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: reference
 ms.service: msteams
@@ -13,16 +13,16 @@ ms.localizationpriority: medium
 search.appverid: ''
 ms.collection: ''
 ms.custom: ''
-ms.openlocfilehash: 5c87bca0eacfdc85ca39d997488a97faedaf0824
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 9bf52e68f8db5ecacfb4683b0a4809437a860d77
+ms.sourcegitcommit: d425748a50964ebc78e5d38fce564a444a449f43
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922673"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "65635240"
 ---
 # <a name="navigate-microsoft-teams"></a>导航Microsoft Teams
 
-现在，你已清楚地了解了组织的独特路径和需求，是时候开始与Microsoft Teams进行强大协作了。 使用以下部分了解如何在 Teams 中导航 Kaziala 的功能。
+现在，你已清楚地了解了组织的独特路径和需求，是时候开始与Microsoft Teams进行强大协作了。 使用以下部分了解如何在Teams中导航Kaizala的功能。
 
 | 从Kaizala | 若要Teams |
 |---------|-----------------------|
@@ -42,7 +42,7 @@ ms.locfileid: "64922673"
 | | [对于最终用户](#end-user-guidance) |
 | Kaizala组解散| [Kaizala组解散](#kaizala-group-dissolution) |
 | Kaizala租户数据导出| [导出Kaizala租户数据](#export-kaizala-tenant-data)  |
-| 与外部用户合作 (供应商/供应商/合作伙伴) | [将Teams用于工作和Teams以实现个人使用互操作性](#collaborating-with-external-usersvendorssupplierspartners) |
+| 与外部用户合作 (供应商/供应商/合作伙伴) | [将Teams组织外部的人员添加或邀请到聊天](#collaborating-with-external-usersvendorssupplierspartners) |
 
 ## <a name="getting-started"></a>入门
 
@@ -93,7 +93,7 @@ Teams由频道组成，这些 **频道** 是你与队友的特定于主题的对
 
 可以创建Teams群聊，以便与多达 250 名参与者进行快速的拥挤和暂时性对话。 通过群聊，组织中的人员可以有一个开放式聊天的中心位置，可以将任何人添加到聊天中。
 
-1. 开始和命名群组聊天。
+1. "开始"菜单和命名群聊。
 
     ![命名群组聊天](media/kaizala-to-teams-image4.png)
 
@@ -159,9 +159,9 @@ Teams由频道组成，这些 **频道** 是你与队友的特定于主题的对
 
 ### <a name="use-teams-and-channels-to-broadcast-important-news"></a>使用Teams和频道广播重要新闻
 
-在Kaizala广播组中，管理员可以向目标组发送消息和操作。 同样，可以跨多个频道发布以在Teams中广播消息。 若要直接关注重要消息，请创建公告帖子。
+在Kaizala广播组中，管理员可以向目标组发送消息和操作。 同样，可以跨多个频道帖子以在Teams中广播消息。 若要直接关注重要消息，请创建公告帖子。
 
-通道审查允许你控制谁可以发布和答复消息。 可以跨团队选择频道，让广播公司能够接触到更多的观众。 只能限制对公告的交互，只允许选择能够答复的管理员和审查器。 按照以下步骤在Teams通道中建立通道审查。
+通道审查允许你控制谁可以帖子和答复消息。 可以跨团队选择频道，让广播公司能够接触到更多的观众。 只能限制对公告的交互，只允许选择能够答复的管理员和审查器。 按照以下步骤在Teams通道中建立通道审查。
 
 **步骤 1**：设置通道审查。
 
@@ -185,15 +185,16 @@ Teams由频道组成，这些 **频道** 是你与队友的特定于主题的对
 - 键入标题、更改其背景色或添加标题区域的背景图像。
 
 - 在“添加子标题”区域中键入公告的主题，然后键入邮件正文，然后选择“发送”按钮。
+
     ![移动公告](media/kaizala-to-teams-image10.png)
 
 **步骤 3**：选择用于消息广播的频道。
 
-当你有需要联系大量人员的重要公告和信息时，可以跨多个Teams和频道进行交叉发布。
+当你有需要联系大量人员的重要公告和信息时，可以跨多个Teams和频道进行交叉帖子。
 
   ![选择广播频道](media/kaizala-to-teams-image11.png)
 
-若要了解详细信息，请参阅[Teams中的频道对话交叉发布](https://support.microsoft.com/office/cross-post-a-channel-conversation-in-teams-9c1252a3-67ef-498e-a7c1-dd7147b3d295?ui=en-us&rs=en-us&ad=us)。
+若要了解详细信息，请[参阅Teams中的跨帖子频道对话](https://support.microsoft.com/office/cross-post-a-channel-conversation-in-teams-9c1252a3-67ef-498e-a7c1-dd7147b3d295?ui=en-us&rs=en-us&ad=us)。
 
 ## <a name="getting-work-done-in-teams"></a>在Teams中完成工作
 
@@ -202,21 +203,21 @@ Microsoft Teams为Kaizala中的“开箱即用操作”卡提供了多种功能�
 
 ![通过Teams与你的人员互动](media/kaizala-to-teams-image12.png)
 
-Teams平台允许通过集成到Microsoft Teams以及现成的Microsoft 365应用程序和第三方应用来使用现有组织工具。 Microsoft Teams目前有 300 多个外部应用程序可用。
+Teams平台允许通过集成到Microsoft Teams以及现成的Microsoft 365应用程序和第三方应用来使用现有组织工具。 Microsoft Teams目前有 800 多个外部应用程序可用。
 
 ### <a name="polls-surveys-and-checklists-in-teams"></a>Teams中的轮询、调查和清单
 
 [轮询](https://github.com/OfficeDev/microsoft-teams-apps-poll/wiki)、[调查](https://github.com/OfficeDev/microsoft-teams-apps-survey)和[清单](https://github.com/OfficeDev/microsoft-teams-app-checklist)操作卡现已在GitHub上用作随时安装[Teams消息扩展](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions)应用模板。
 
-**通过轮询** ，用户可以在聊天或频道中快速创建和发送投票，以了解其团队的意见。 所有平台都支持轮询应用 - Teams桌面、浏览器、iOS 和 Android 客户端。 它已准备好作为现有Microsoft 365订阅的一部分进行部署
+**通过轮询** ，用户可以在聊天或频道中快速创建和发送投票，以了解其团队的意见。 投票应用在所有平台（Teams桌面、浏览器、iOS和Android客户端）均受支持。 它已准备好作为现有Microsoft 365订阅的一部分进行部署
 
 ![轮询Teams中的应用模板](media/polltemplatecompose.gif)
 
-**通过调查** ，用户可以在聊天或频道中创建调查，以提出一系列问题并获取可操作的见解。 使用调查 - 注册、注册、反馈、推荐、潜在顾客捕获、报告、投诉和评估。 调查应用在所有平台（Teams桌面、浏览器、iOS 和 Android 客户端）均受支持。 它已准备好作为现有Microsoft 365订阅的一部分进行部署。
+**通过调查** ，用户可以在聊天或频道中创建调查，以提出一系列问题并获取可操作的见解。 使用调查 - 注册、注册、反馈、推荐、潜在顾客捕获、报告、投诉和评估。 调查应用在所有平台（Teams桌面、浏览器、iOS和Android客户端）均受支持。 它已准备好作为现有Microsoft 365订阅的一部分进行部署。
 
 ![Teams中的调查应用模板](media/surveytemplatecompose.gif)
 
-**清单** 允许你通过在聊天或频道中创建共享清单来与团队协作。 清单应用在所有平台（Teams桌面、浏览器、iOS 和 Android 客户端）均受支持。 它已准备好作为现有Microsoft 365订阅的一部分进行部署。
+**清单** 允许你通过在聊天或频道中创建共享清单来与团队协作。 清单应用在所有平台（Teams桌面、浏览器、iOS和Android客户端）均受支持。 它已准备好作为现有Microsoft 365订阅的一部分进行部署。
 
 ![Teams中的清单应用模板](media/checklisttemplatecompose.gif)
 
@@ -248,7 +249,7 @@ Teams平台允许通过集成到Microsoft Teams以及现成的Microsoft 365应�
 
 ### <a name="quiz-in-teams"></a>Teams中的测验
 
-测验是一种自定义[Teams消息传递扩展](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions)，可用于在聊天或频道中创建测验以获取知识检查和即时结果。 你可以在团队中使用测验、课堂内和脱机考试、知识检查以及团队中的趣味测验。 测验应用支持跨多个平台，例如Teams桌面、浏览器、iOS 和 Android 客户端。 此应用已准备好作为现有Microsoft 365订阅的一部分进行部署。
+测验是一种自定义[Teams消息传递扩展](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions)，可用于在聊天或频道中创建测验以获取知识检查和即时结果。 你可以在团队中使用测验、课堂内和脱机考试、知识检查以及团队中的趣味测验。 测验应用支持跨多个平台，例如Teams桌面、浏览器、iOS和Android客户端。 此应用已准备好作为现有Microsoft 365订阅的一部分进行部署。
 
 [在GitHub上获取它](https://github.com/OfficeDev/microsoft-teams-apps-quiz)
 
@@ -258,7 +259,7 @@ Teams平台允许通过集成到Microsoft Teams以及现成的Microsoft 365应�
 
 [使用“员工检查”](/microsoftteams/platform/samples/app-templates#staff-check-ins)应用模板，使一线员工可以直接从Teams提供计划或临时提供时间关键信息和状态更新。 该应用支持实时位置、照片、笔记、提醒通知和自动化工作流。
 
-使用Teams为组织提供轻松的培训。 培训是一种自定义[Teams消息传递扩展](/microsoftteams/platform/what-are-messaging-extensions)应用，使用户能够在聊天或频道中发布培训以进行脱机知识共享和提升技能。 该应用在多个Teams平台客户端（如桌面、浏览器、iOS 和 Android）中受支持。 此应用已准备好作为Microsoft 365订阅的一部分进行部署。
+使用Teams为组织提供轻松的培训。 培训是一种自定义[Teams消息传递扩展](/microsoftteams/platform/what-are-messaging-extensions)应用，使用户能够在聊天或频道中发布培训以进行脱机知识共享和提升技能。 该应用支持跨多个Teams平台客户端，如桌面、浏览器、iOS和Android。 此应用已准备好作为Microsoft 365订阅的一部分进行部署。
 
 [在GitHub上获取它](https://github.com/OfficeDev/microsoft-teams-apps-training)
 
@@ -282,29 +283,29 @@ Teams平台允许通过集成到Microsoft Teams以及现成的Microsoft 365应�
 
 3. 根据使用频率和复杂性探索以下方法。
 
-    - 探索使用[本机Microsoft Teams功能的](/microsoftteams/platform/concepts/capabilities-overview)解决方法
+    - 利用本机Microsoft Teams功能
 
-    - 使用 [3P 应用集成](deploy-apps-microsoft-teams-landing-page.md)
+    - 使用 [第三方应用集成并浏览应用商店](deploy-apps-microsoft-teams-landing-page.md)
 
     - 发现 [应用模板](/microsoftteams/platform/samples/app-templates)
 
-    - 生成 [自定义解决方案开发](/microsoftteams/platform/overview)
+    - [使用Teams平台生成自定义应用](/microsoftteams/platform/overview)
 
 ## <a name="management-in-microsoft-teams"></a>Microsoft Teams中的管理
 
 ### <a name="it-professionals"></a>IT 专业人员
 
-从Kaizala管理门户向Microsoft Teams管理中心进行管理转换。 Teams管理中心主要用于管理员角色。
+从Kaizala管理门户向Microsoft Teams 管理员中心进行管理转换。 Teams管理中心主要用于管理员角色。
 
 管理员可以管理整个Teams工作负载，也可以拥有委派权限来排查呼叫质量问题或管理组织的电话需求。
 
-若要导航管理中心，请访问[Microsoft Teams管理中心](https://admin.teams.microsoft.com/)。
+若要导航管理中心，请访问[Microsoft Teams 管理员中心](https://admin.teams.microsoft.com/)。
 
-可以使用 [Microsoft Purview 合规性门户](/microsoft-365/compliance/microsoft-365-compliance-center)和 [Microsoft 安全中心](/microsoft-365/security/defender/overview-security-center)跨Microsoft 365监视组织的安全性和合规性。
+可以通过Microsoft Purview 合规门户和 [Microsoft 安全中心](/microsoft-365/security/defender/overview-security-center)跨Microsoft 365监视组织的安全[性和合规](/microsoft-365/compliance/microsoft-365-compliance-center)性。
 
 保护业务，并在[Azure Active Directory管理中心](https://aad.portal.azure.com/#@microsoft.onmicrosoft.com/dashboard/private/c7736064-7b28-4f3d-b366-2740a8d48020)为用户提供支持，你可以在其中查看跨Microsoft 365的组、标识、许可证和访问权限。
 
-## <a name="kaizala-management-portal-to-teams-admin-center"></a>Kaizala 管理门户Teams管理中心
+## <a name="kaizala-management-portal-to-teams-admin-center"></a>Kaizala 管理门户到Teams 管理员中心
 
 ### <a name="end-user-guidance"></a>最终用户指南
 
@@ -315,12 +316,12 @@ Teams平台允许通过集成到Microsoft Teams以及现成的Microsoft 365应�
 | 创建组 (连接到组织)  | 通过桌面或移动应用 **创建团队** |
 | 批量添加用户 | 若要将用户批量添加到团队 - 请考虑通过 O365 组、O365 DLL 或安全组创建团队 |
 | 目录 | 通过团队中的 **搜索栏搜索** 组织中的任何人。 搜索结果还将返回文件、消息和帖子 |
-| 分析 (操作卡)  | **投票**、**调查和** Checklists **在报表中内置了可下载数据。还可以在****Tasksin 规划器的帮助下分配作业。其他第三方应用（如** Trello **、** Wrike**）也可轻松使用Microsoft Teams |
+| 分析 (操作卡)  | **投票**、 **调查** 和 **清单** 内置了包含可下载数据的报表。 还可以在Teams中的 Tasks 应用帮助下分配作业，可供用户使用。 对于更多方案，还可以探索 **Trello**、**Asana** 等第三方应用，以便在Teams中使用。 |
 | 扩展 - 连接器 | 对于需要连接器的任何通道，请使用菜单 (...) 的 **“连接器** ”选项。 |
-| 分析 (使用情况) 采用报告、使用情况报告、活动报告 | 团队所有者可以通过从 (...) 菜单导航来 **管理团队** > **的** 报表。 |
+| [分析 (使用情况) 采用报告](teams-analytics-and-reports/view-analytics.md)、 [使用情况报告](teams-analytics-and-reports/teams-usage-report.md)、 [活动报告](teams-analytics-and-reports/user-activity-report.md) | 团队所有者可以通过从 (...) 菜单导航来 **管理团队** > **的** 报表。 |
 
 > [!NOTE]
-> Teams最终用户可以使用桌面或移动设备上的Teams来管理其各个团队和频道，并且无需访问Teams管理中心。
+> Teams最终用户可以使用桌面或移动设备上的Teams来管理其各个团队和频道，并且无需访问Teams 管理员中心。
 
 ## <a name="kaizala-group-dissolution"></a>Kaizala组解散
 
@@ -373,7 +374,7 @@ Teams平台允许通过集成到Microsoft Teams以及现成的Microsoft 365应�
        ![选项](media/kaizala-to-teams-image18.png)
 
      > [!NOTE]
-     > 管理员仍然可以在组中发布。
+     > 管理员仍然可以在组中帖子。
 
 ### <a name="to-delete-a-group"></a>删除组
 
@@ -415,20 +416,27 @@ Teams平台允许通过集成到Microsoft Teams以及现成的Microsoft 365应�
 
 ## <a name="collaborating-with-external-usersvendorssupplierspartners"></a>与外部用户 (供应商/供应商/合作伙伴) 协作
 
-与供应商、供应商、合作伙伴和其他外部用户协作比以往更容易Microsoft Teams。 使用Teams，用户可以使用电话号码添加外部用户。 Microsoft Teams Connect支持此功能。 组织内的用户可以使用工作Teams与外部用户通信，并Teams个人帐户互操作性。 Teams中的外部用户协作也可以使用个人或官方电子邮件通过来宾访问来宾。 Teams支持跨团队和频道交叉发布公告。 例如：供应商和供应商可以将公告发送到彼此单独的Teams频道或团队。 访问[向频道发送公告](https://support.microsoft.com/office/send-an-announcement-to-a-channel-8f244ea6-235a-4dcc-9143-9c5b801b4992)，详细了解我们在Teams中支持的内容。
+Microsoft Teams提供了安全的解决方案，可与外部各方协作，Microsoft Teams Connect我们更轻松地与组织外部的任何人协作。 Teams使商业用户能够与其他组织中的商业用户（即商业用户）聊天。 基于此权限，我们允许你与组织外部的团队成员聊天，即使他们使用的是Teams个人帐户。 SMB 经常使用这些帐户，因此此新功能有助于加强与外部合作伙伴的关系。
 
-## <a name="what-is-external-access-in-teams"></a>Teams中的外部访问是什么？
+如之前在 [Ignite](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-ignite-fall-2021-innovations-coming-to-microsoft-teams/ba-p/2824127) 中宣布的那样，你可以通过输入要访问的完整电子邮件地址或电话号码邀请任何Teams用户聊天，并与任何拥有 Microsoft 个人帐户且无需进行租户切换的用户进行一对一或群组聊天。
 
-外部访问让整个外部域中的 Teams 用户能够在 Teams 中进行查找、通话、聊天和安排与你之间的会议。 若要详细了解如何管理外部访问，请访问 [“管理外部访问](/microsoftteams/manage-external-access)”。
+无需切换租户即可与外部用户聊天，从而更快地获得所需的结果。 让我们更深入地了解它的工作原理。
 
-## <a name="what-is-guest-access-in-teams"></a>Teams中的来宾访问是什么？
+根据组织和Teams个人帐户用户的管理设置，可以开始与外部Teams个人帐户用户对话，外部Teams个人帐户用户可以开始与工作用户Teams对话。
 
-通过 [来宾访问](/MicrosoftTeams/guest-access)，你可以向组织外部的人员提供对团队、频道中的文档、资源、聊天和应用程序的访问权限，同时保持对公司数据的控制。 无需额外许可即可将来宾添加到Teams中。
+Teams组织管理的用户可以通过输入其完整的电子邮件地址或电话号码来邀请Teams要与其聊天的个人帐户用户。 Teams个人用户可以输入要联系的用户的确切组织电子邮件地址，并尝试开始聊天。
 
-## <a name="who-can-be-a-guest-in-teams"></a>Who可以成为Teams的来宾？
+如果要与之聊天的用户尚未Teams用户，他们将收到一封电子邮件或短信，邀请他们使用个人帐户加入对话。 当他们注册并登录到Teams个人帐户时，他们将能够加入聊天。
 
-来宾不是员工或组织成员。 他们没有组织的工作帐户。 例如，来宾可以包括合作伙伴、供应商、提供商或顾问。
-任何不属于组织的人都可以[在Teams中添加为来宾](/MicrosoftTeams/guest-access#how-a-guest-becomes-a-member-of-a-team)。 这意味着，任何拥有业务帐户 (，即Azure Active Directory帐户) 或使用者电子邮件帐户 (，例如，outlook.com、gmail.com 等) 都可以以来宾身份参与Teams访问团队和频道体验。
+邀请的人员接受邀请后，可以开始新的一对一或群聊，甚至将其添加到现有的外部群聊。 此聊天线程将与其他聊天一起显示，无需进行租户切换即可查看聊天。
+
+作为聊天的一部分，可以通过发送和接收丰富的消息、GIF 和媒体来表达自己。
+
+可以选择仅保留在要参与的对话中。 可以阻止来自外部用户的消息或离开群组聊天。
+
+Teams组织管理的用户以及Teams个人帐户用户可以选择拒绝外部邀请。 在外部用户接受消息之前，用户最多可以发送 10 次消息，但如果 10 条消息后未接受，则无法向此用户发送其他消息。
+
+查看[支持页面](https://support.microsoft.com/en-us/office/add-or-invite-people-outside-your-teams-org-to-a-chat-6897ab47-9f60-4db6-8b95-18599714fe57)并阅读[博客](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-users-can-now-chat-with-any-teams-user-outside/ba-p/3070832)，详细了解Teams如何让你在受信任Teams工作区的安全性范围内与外部客户和合作伙伴无缝协作。
 
 ## <a name="next-steps"></a>后续步骤
 

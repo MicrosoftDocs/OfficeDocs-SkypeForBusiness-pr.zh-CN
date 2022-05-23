@@ -1,7 +1,7 @@
 ---
 title: 推动一线工人从Kaizala采用到Microsoft Teams
-author: Benny-54
-ms.author: v-bshilpa
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: reference
 ms.service: msteams
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 search.appverid: ''
 ms.collection: ''
 ms.custom: ''
-ms.openlocfilehash: ed0221576b42c01de7a8c3d93188a94af2f74317
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: e531ab60379bc1aadc0601ff4191c9c1c936934d
+ms.sourcegitcommit: d425748a50964ebc78e5d38fce564a444a449f43
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059283"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "65635380"
 ---
 # <a name="microsoft-teams-for-frontline"></a>适用于前线的Microsoft Teams
 
@@ -36,7 +36,7 @@ Microsoft 致力于尽我们所能，应对 Covid-19 的经济和社会影响。
 
 对Microsoft Teams进行一线培训，提供引人入胜的教育[视频](https://support.microsoft.com/office/what-is-shifts-f8efe6e4-ddb3-4d23-b81b-bb812296b821)。
 
-有关Teams一线工人的更多管理员指南，请参阅我们的[Microsoft Teams一线工人 - 快速入门指南](/Microsoftteams/flw-quickstart)。
+有关Teams一线工人的更多管理员指南，请参阅[我们的Microsoft Teams一线工人 - 快速"开始"菜单指南](/Microsoftteams/flw-quickstart)。
 
 通过访问我们的[产品和定价页面](https://www.microsoft.com/microsoft-365/enterprise/frontline)，详细了解如何通过Microsoft 365优化一线影响。
 
