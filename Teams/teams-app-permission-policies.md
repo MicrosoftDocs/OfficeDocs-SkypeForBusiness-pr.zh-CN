@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: a7276c2a538eacefc579a7233bb99fb7882afb8f
-ms.sourcegitcommit: 54cb804e6e8338f2d09499e53416e6d55ef1cc40
+ms.openlocfilehash: ba84fbfbdcdc6bc6ad1455971a0acec0fd79121f
+ms.sourcegitcommit: 3f046142c40b3b776165e964f2b8718e2fe55df3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2022
-ms.locfileid: "65442038"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "65661683"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理应用权限策略
 
@@ -40,34 +40,36 @@ ms.locfileid: "65442038"
 > [!NOTE]
 > 组织范围的应用设置将覆盖全局策略以及你创建并分配给用户的任何自定义策略。
 
-如果你的组织已在 Teams 上，则你在 Microsoft 365 管理中心“**租户范围内的设置**”中配置的应用设置将反映在“[管理应用](manage-apps.md)”页面上的组织范围的应用设置中。 如果你是 Teams 的新手并且刚入门，则默认情况下，将在全局策略中允许所有应用。 这包括由 Microsoft、第三方和你的组织发布的应用。
+如果你的组织已在 Teams 上，则你在 Microsoft 365 管理中心“**租户范围内的设置**”中配置的应用设置将反映在“[管理应用](manage-apps.md)”页面上的组织范围的应用设置中。 如果你是 Teams 的新手并且刚入门，则默认情况下，将在全局策略中允许所有应用。 它包括 Microsoft、第三方软件提供商和组织发布的应用。
 
-例如，假设你想阻止所有第三方应用，并允许组织中的人力资源团队使用 Microsoft 的特定应用。 首先，转到“[管理应用](manage-apps.md)”页面，并确保在组织级别允许可供人力资源团队使用的应用。 然后，创建一个名为“人力资源应用权限策略”的自定义策略，将其设置为阻止和允许所需的应用，并将其分配给人力资源团队中的用户。
+例如，假设你只想为组织中的 HR 团队允许一些特定的应用。 首先，在 [“管理应用](https://admin.teams.microsoft.com/policies/manage-apps) ”页上，确保允许 HR 团队使用的应用处于组织级别。 然后，创建自定义策略，将其设置为阻止和允许所需的应用，并将策略分配给 HR 团队中的用户。
 
 > [!NOTE]
-> 如果在Microsoft 365 政府社区云高 (GCCH) 和国防部 (DoD) 环境中部署了Teams，请参阅[管理组织范围的应用设置，以便Microsoft 365政府](#manage-org-wide-app-settings-for-microsoft-365-government)了解有关 GCCH 和 DoD 特有的第三方应用设置的详细信息。
+> 若要了解Microsoft 365 政府社区云高 (GCCH) 和国防部 (DoD) 环境特有的第三方应用设置，请参阅[Microsoft 365政府管理组织范围的应用设置](#manage-org-wide-app-settings-for-microsoft-365-government)。
 
 ## <a name="create-a-custom-app-permission-policy"></a>创建自定义应用权限策略
 
-如果要控制可供组织中的不同用户组使用的应用，请创建并分配一个或多个自定义应用权限策略。 根据应用是由 Microsoft、第三方还是由你的组织发布，你可以创建并分配单独的自定义策略。 有一点很重要，即创建自定义策略后，如果在组织范围的应用设置中禁用了第三方应用，则无法更改该策略。
+如果要控制适用于不同用户组的应用，请使用一个或多个自定义应用权限策略。 根据应用是由 Microsoft、第三方还是由你的组织发布，你可以创建并分配单独的自定义策略。 创建自定义策略后，如果在组织范围的应用设置中禁用了第三方应用，则无法对其进行更改。
 
 1. 登录到[Teams管理中心](https://admin.teams.microsoft.com/dashboard)
-1. 在左侧面板中，转到 **Teams** **appsPermission** >  策略。
+1. 在左侧面板中，转到 **Teams应用** > **权限策略**。
 1. 选择“**添加**”。
+
     ![新应用权限策略的屏幕截图。](media/app-permission-policies-new-policy.png)
-1. 输入策略的名称和说明。
+
+1. 提供策略的名称和说明。
 1. 在“**Microsoft 应用**”、“**第三方应用**”和“**自定义应用**”下，选择下列选项之一：
 
-    - **允许所有应用**
-    - **允许特定的应用并阻止其他所有应用**
-    - **阻止特定的应用并允许其他所有应用**
-    - **阻止所有应用**
+    * **允许所有应用**
+    * **允许特定的应用并阻止其他所有应用**
+    * **阻止特定的应用并允许其他所有应用**
+    * **阻止所有应用**
 
 1. 如果选择“**允许特定的应用并阻止其他所有应用**”，请添加要允许的应用：
 
     1. 选择“**允许应用**”。
-    1. 搜索要允许的应用，然后单击“**添加**”。 搜索结果将筛选为应用发布者（**Microsoft 应用**、**第三方应用** 或 **自定义应用**）。
-    1. 选择应用列表后，单击“**允许**”。
+    1. 搜索要允许的应用，然后选择 **“添加**”。 搜索结果将筛选为应用发布者（**Microsoft 应用**、**第三方应用** 或 **自定义应用**）。
+    1. 选择应用列表后，选择 **“允许**”。
 
 1. 同样，如果选择了 **阻止特定应用并允许所有其他应用**，请搜索并添加要阻止的应用，然后选择 **“阻止**”。
 1. 选择“**保存**”。
@@ -76,7 +78,7 @@ ms.locfileid: "65442038"
 
 可以使用Teams管理中心编辑策略，包括创建的全局策略和自定义策略。
 
-1. 在Microsoft Teams管理中心的左窗格中，转到 **Teams** **appsPermission** >  策略。
+1. 在Microsoft Teams管理中心的左窗格中，转到 **Teams应用** > **权限策略**。
 1. 通过单击策略名称的左侧选择策略，然后选择 **“编辑”**。
 1. 在此处根据需要进行更改。 你可以根据应用发布者来管理设置，也可以基于允许/阻止设置来添加和删除应用。
 1. 选择“**保存**”。
@@ -93,23 +95,38 @@ ms.locfileid: "65442038"
 
 使用组织范围的应用设置来控制用户是否可以安装第三方应用。 组织范围的应用设置可控制所有用户的行为，并且可覆盖分配给用户的任何其他应用权限策略。 你可以使用它们控制恶意应用或有问题的应用。
 
-1. 在“**权限策略**”页面上，选择“**组织范围的应用设置**”。 然后，你可以在面板中配置所需的设置。
+<!---
+1. On the **Permission policies** page, select **Org-wide app settings**. You can then configure the settings you want in the panel. --->
 
-    ![组织范围应用设置的屏幕截图。](media/app-permission-policies-gcc-org-wide.png)
+### <a name="for-gcc-clouds"></a>对于GCC云
+
+1. 在“ **管理应用** ”页上，选择 **组织范围的应用设置**。 然后，你可以在面板中配置所需的设置。
+
+  ![GCC中组织范围应用设置的屏幕截图。](media/app-permission-policies-gcc-org-wide.png)
 
 1. 在“**第三方应用**”下，关闭或打开这些设置以控制对第三方应用的访问权限：
 
-    - **允许第三方应用**：控制用户是否可以使用第三方应用。 如果关闭此设置，则你的用户将不能安装或使用任何第三方应用。 在Microsoft 365政府 - GCCH 和 DoD 部署Teams中，此设置默认处于关闭状态。
-    - **默认情况下，允许发布到应用商店的所有新的第三方应用**：控制发布到 Teams 应用商店的新第三方应用是否在 Teams 中自动可用。 仅在允许第三方应用时才能设置此选项。
+    * **允许第三方应用**：此选项控制用户是否可以使用第三方应用。 如果关闭此设置，则你的用户将不能安装或使用任何第三方应用。 在Microsoft 365政府 - GCCH 和 DoD 部署Teams中，此设置默认处于关闭状态。
+    * **允许默认发布到应用商店的任何新的第三方应用**：此选项控制发布到Teams应用商店的新第三方应用是否在Teams中自动可用。 仅在允许第三方应用时才能设置此选项。
 
-1. 在“**阻止的应用**”下，添加要在整个组织内阻止的应用。 在Microsoft 365政府 - GCCH 和 DoD 部署Teams中，默认情况下，所有第三方应用都会添加到此列表中。 对于想要在组织中允许的任何第三方应用，请从此阻止的应用列表中移除该应用。 当你在组织范围内阻止某个应用时，无论是否在任何应用权限策略中允许此应用，系统都会自动为所有用户阻止该应用。
+1. 在“**阻止的应用**”下，添加要在整个组织内阻止的应用。 在Microsoft 365政府 - GCCH 和 DoD 部署Teams中，默认情况下，所有第三方应用都会添加到此列表中。 对于想要在组织中允许的任何第三方应用，请从此阻止的应用列表中移除该应用。 当你阻止应用组织范围时，无论是否允许在任何应用权限策略中使用应用，应用都会自动阻止所有用户。
+
 1. 选择 **“保存** ”以实现组织范围的应用设置。
 
-如前文所述，若要允许第三方应用，你可以编辑和使用全局（组织范围的默认）策略，也可以创建并分配自定义策略。
+若要允许第三方应用，请编辑和使用全局 (组织范围的默认) 策略，或者创建和分配自定义策略。
+
+### <a name="for-gcch-and-dod-clouds"></a>对于 GCCH 和 DoD 云
+
+1. 在“**权限策略**”页面上，选择“**组织范围的应用设置**”。 然后，你可以在面板中配置所需的设置。
+
+  ![GCCH 和 DoD 中组织范围应用设置的屏幕截图。](media/app-permission-policies-gcch-dod-org-wide.png)
+
+1. 在“**阻止的应用**”下，添加要在整个组织内阻止的应用。 在Microsoft 365政府 - GCCH 和 DoD 部署Teams中，默认情况下，所有第三方应用都会添加到此列表中。 当你阻止应用组织范围时，无论是否允许在任何应用权限策略中使用应用，应用都会自动阻止所有用户。
+1. 选择 **“保存** ”以实现组织范围的应用设置。
 
 ## <a name="faq"></a>常见问题
 
-### <a name="working-with-app-permission-policies"></a>使用应用权限策略
+### <a name="work-with-app-permission-policies"></a>使用应用权限策略
 
 #### <a name="what-app-interactions-do-permission-policies-affect"></a>权限策略对哪些应用交互有影响？
 
@@ -139,21 +156,21 @@ ms.locfileid: "65442038"
 
 用户无法与被阻止的应用或其功能（例如机器人、选项卡和消息传递扩展）进行交互。 在共享上下文（如团队或群组聊天）中，机器人仍可向该上下文的所有参与者发送消息。 当应用被阻止时，Teams 会向用户发出指示。
 
-例如，当某个应用被阻止时，用户将无法执行以下任何操作：
+例如，当应用被阻止时，用户无法执行以下任何任务：
 
-- 单独添加应用，或将其添加到聊天或团队
-- 向应用机器人发送消息
-- 执行将信息发送回应用的按钮操作，例如可操作邮件  
-- 查看应用的选项卡
-- 设置连接器以接收通知
-- 使用应用的消息传递扩展
+* 单独添加应用，或将其添加到聊天或团队
+* 向应用机器人发送消息
+* 执行将信息发送回应用的按钮操作，例如可操作邮件  
+* 查看应用的选项卡
+* 设置连接器以接收通知
+* 使用应用的消息传递扩展
 
 旧版门户允许在组织级别控制应用，这意味着当应用被阻止时，系统将为组织中的所有用户阻止该应用。 在“[管理应用](manage-apps.md)”页面上阻止应用的方式完全相同。
 
 对于分配给特定用户的应用权限策略，如果允许然后阻止具有机器人或连接器功能的应用，并且仅允许共享上下文中的某些用户使用该应用，则群聊或频道中没有应用权限的成员可以查看机器人或连接器发布的消息历史记录和消息，但不能与其进行交互。
 
-## <a name="related-topics"></a>相关主题
+## <a name="see-also"></a>另请参阅
 
-[Teams 中应用的管理设置](admin-settings.md)
-
-[向 Teams 中的用户分配策略](policy-assignment-overview.md)
+* [Teams 中应用的管理设置](admin-settings.md)
+* [向 Teams 中的用户分配策略](policy-assignment-overview.md)
+* [Teams功能可用性比较](/office365/servicedescriptions/teams-service-description#feature-availability)
