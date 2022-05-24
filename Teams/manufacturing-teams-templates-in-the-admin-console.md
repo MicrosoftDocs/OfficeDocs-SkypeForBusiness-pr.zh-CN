@@ -1,8 +1,8 @@
 ---
-title: 管理中心中的制造团队模板入门
-author: SerdarSoysal
-ms.author: serdars
-manager: serdars
+title: 在管理中心使用制造团队模板开始
+author: LanaChin
+ms.author: v-lanachin
+manager: samanro
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 了解如何通过使用管理中心提供预定义的设置、频道和预安装的应用，使用团队模板创建专为制造需求设计的团队结构。
+description: 了解如何使用团队模板通过使用管理中心提供预定义的设置、通道和预安装的应用来创建专为制造需求设计的团队结构。
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,28 +19,28 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 18fbc93923177c97b4c2d395d10e62311d05d567
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: cd2f7329e293d8b3b20747382686599d18d47bea
+ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62400096"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "65646321"
 ---
 # <a name="use-manufacturing-team-templates-in-the-admin-center"></a>在管理中心使用制造团队模板
 
-使用团队模板，通过提供设置、频道和预安装应用的预定义模板，可以快速轻松地创建团队。
+使用团队模板，可以通过提供预定义的设置、通道和预安装应用模板来快速轻松地创建团队。
 
-团队模板具有围绕制造需求设计的团队结构的预生成定义。 还可以扩展团队模板，创建根据特定组织需求定制的团队。
+团队模板具有围绕制造需求设计的团队结构的预构建定义。 还可以扩展团队模板，以创建根据特定组织需求定制的团队。
 
-本文介绍每个团队模板，并推荐其使用方法。
+本文介绍每个团队模板，并建议如何使用它们。
 
-如果你负责规划、部署和管理整个制造组织的多个团队，则本文适合你。 你已在贵组织内部署 Teams 服务。 如果尚未部署 Teams，首先请阅读[如何部署 Microsoft Teams](./deploy-overview.md)。
+如果你负责在整个制造组织中规划、部署和管理多个团队，则本文适用于你。 你已在贵组织内部署 Teams 服务。 如果尚未部署 Teams，首先请阅读[如何部署 Microsoft Teams](./deploy-overview.md)。
 
-若要了解有关团队模板的一般信息，请参阅 [团队模板入门](get-started-with-teams-templates-in-the-admin-console.md)。
+若要详细了解团队模板，请参阅[团队模板开始](get-started-with-teams-templates-in-the-admin-console.md)。
 
 ## <a name="quality-and-safety"></a>质量和安全
 
-与制造工厂团队集中通信、访问资源和工厂运营。 包括策略和过程文档、培训视频、安全通知、轮班转移流程。
+与制造工厂团队集中通信、访问资源和工厂运营。 包括策略和过程文档、培训视频、安全通知、轮班交接流程。
 
 | 基本模板类型|baseTemplateId| 此基本模板包含的属性 |
 | ------------------|-- |----------------------------------------------------- |

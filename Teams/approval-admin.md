@@ -1,9 +1,9 @@
 ---
 title: Teams 中的“审批”应用程序可用性
-author: guptaashish
-ms.author: guptaashish
+author: mkbond007
+ms.author: mabond
 ms.reviewer: farhazk
-manager: prkosh
+manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 205f0869e699384c9a37590db50e690b5b8bd804
-ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
+ms.openlocfilehash: f31df258558e052e887a679321dd6ed2db48f344
+ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "65186978"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "65646251"
 ---
 # <a name="teams-approvals-app-availability"></a>Teams“审批”应用可用性
 
@@ -99,10 +99,10 @@ ms.locfileid: "65186978"
 
 - 所有团队所有者都可以为他们拥有的团队创建审批模板。
 
-- 当管理员首次为其整个组织创建模板时，它将自动为租户的所有管理员（包括全局管理员和Teams服务管理员）创建新的Azure Active Directory (AAD) 组。 这些管理员添加为组的所有者，因此他们可以共同管理组织模板。 创建团队后对组织不了解的管理员需要手动添加为组所有者，以便他们具有相同的权限来管理组织范围内的模板。
+- 当管理员首次为其整个组织创建模板时，它将自动为租户的所有管理员（包括全局管理员和Teams服务管理员）创建新的 Azure Active Directory (AAD) 组。 这些管理员添加为组的所有者，因此他们可以共同管理组织模板。 创建团队后对组织不了解的管理员需要手动添加为组所有者，以便他们具有相同的权限来管理组织范围内的模板。
 
 > [!Note]
-> 如果管理员删除了该组，则有一个月的时间在Azure Active Directory (AAD) 门户中还原该组以还原所有相关数据。 一个月后，或者如果管理员在回收站中删除此组，则将丢失所有相关数据。
+> 如果管理员删除了该组，则有一个月的时间在 Azure Active Directory (AAD) 门户中还原该组，以还原所有相关数据。 一个月后，或者如果管理员在回收站中删除此组，则将丢失所有相关数据。
 
 ## <a name="disable-the-approvals-app"></a>禁用“审批”应用
 
@@ -114,7 +114,7 @@ ms.locfileid: "65186978"
 
   3. 搜索“审批”应用。
 
-     ![显示管理中心导航，其中突出显示了Teams应用>管理应用。](media/manage-approval-apps.png)
+     ![显示管理员中心导航，其中突出显示了Teams应用>管理应用。](media/manage-approval-apps.png)
 
   4. 选择 **审批**。
 

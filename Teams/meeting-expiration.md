@@ -1,7 +1,7 @@
 ---
 title: 会议策略和会议到期时间Microsoft Teams
-author: KarliStites
-ms.author: kastites
+author: mkbond007
+ms.author: mabond
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: 了解如何使用会议策略设置控制Microsoft Teams中的会议过期。
-ms.openlocfilehash: 74b47d296b06d2ef9462dfafec136a99ebff0a34
-ms.sourcegitcommit: 54cb804e6e8338f2d09499e53416e6d55ef1cc40
+ms.openlocfilehash: 014989cd2fda0ce28ef96ee53c82908f814ee8c7
+ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2022
-ms.locfileid: "65442018"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "65646211"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>会议策略和会议到期时间Microsoft Teams
 
@@ -112,7 +112,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -NewMeetingRecordingExpirationDays 50
 
 可以根据 **会议策略** 在Teams管理中心设置过期日期。 启用 **会议自动过期后，** 你将获得设置录制过期的选项。
 
-![会议过期策略的管理中心屏幕截图。](media/meeting-expiration-policy.jpg)
+![管理员会议过期策略的中心屏幕截图。](media/meeting-expiration-policy.jpg)
 
 ### <a name="security-and-compliance"></a>安全性和合规性
 

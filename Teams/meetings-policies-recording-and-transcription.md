@@ -1,7 +1,7 @@
 ---
 title: 管理用于录制和听录的会议策略
-author: KarliStites
-ms.author: kastites
+author: mkbond007
+ms.author: mabond
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,33 +17,33 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.recordingandtranscription
-description: 了解如何在录制和听录Teams管理会议策略设置。
-ms.openlocfilehash: ee558ae87d7bea781cae3d2bc267f82bc1fdb18a
-ms.sourcegitcommit: faeb8976299375e7658499ff31d25e8ef6003144
+description: 了解如何在Teams中管理会议策略设置以进行录制和听录。
+ms.openlocfilehash: da7a5d43231abcb00339f2ffc2c57c7e90ff2d2e
+ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "62224069"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "65646361"
 ---
-# <a name="meeting-policy-settings-for-recording--transcription"></a>用于录制听录&会议策略设置
+# <a name="meeting-policy-settings-for-recording--transcription"></a>记录&听录的会议策略设置
 
-本文介绍特定于录制和听录的会议策略设置，包括以下内容：
+本文介绍特定于录制和听录的会议策略设置，包括：
 
 - [允许转录](#allow-transcription)
 - [允许云录制](#allow-cloud-recording)
-- [在自己国家/地区之外存储录制内容](#store-recordings-outside-of-your-country-or-region)
+- [Microsoft Store您所在国家或地区以外的录音](#store-recordings-outside-of-your-country-or-region)
 
 ## <a name="allow-transcription"></a>允许转录
 
-这是按组织者和按用户策略的组合。 此设置控制播放会议录制内容期间是否提供字幕和转录功能。 开始录制的人需要启用此设置，这些功能可以处理其录制。
+这是按组织者和按用户策略的组合。 此设置控制播放会议录制内容期间是否提供字幕和转录功能。 启动录制的人员需要打开此设置，才能使用这些功能进行录制。
 
-打开此设置会创建与会议录制一起存储的脚本的副本，该副本在会议录制中启用搜索、**抄** 送和脚本。
+启用此设置将创建与会议记录一起存储的脚本，它在会议录制内容中启用“**搜索**”、“**CC**”和“**脚本**”。
 
-目前仅录制的会议的听录功能仅支持在会议中设置其语言或Teams听录。
+录制会议的听录目前仅支持在Teams会议中将其语言设置为或说英语的用户。
 
 ## <a name="allow-cloud-recording"></a>允许云录制
 
-此设置是按组织者和按用户策略的组合，用于控制是否可以录制会议。 如果为参与者打开策略设置，并且他们是同一组织的经过身份验证的用户，则会议组织者或其他会议参与者可以启动录制。
+此设置是每个组织者和每个用户策略的组合，并控制是否可以记录会议。 如果为参与者启用了策略设置，并且他们是来自同一组织的经过身份验证的用户，则会议组织者或其他会议参与者可以启动录制。
 
 组织之外的人员，如联合和匿名用户，无法启动录制。 来宾用户无法启动或停止录制。
 
@@ -57,19 +57,19 @@ ms.locfileid: "62224069"
 |Amanda | Location1MeetingPolicy | 开|
 |John (外部用户) | 不适用 | 不适用|
 
-- 无法录制由 Daniela 组织的会议。
-- Amanda 无法录制 Daniela 组织的会议。
-- 可以录制 Amanda 组织的会议。
-- Daniela 无法录制 Amanda 组织的会议。
-- John 无法录制 Amanda 组织的会议。
+- 达妮拉组织的会议无法录制。
+- 阿曼达无法录制丹妮拉组织的会议。
+- 可以录制阿曼达组织的会议。
+- 丹妮拉无法录制阿曼达组织的会议。
+- 约翰无法录制阿曼达组织的会议。
 
 若要了解有关云会议记录的更多信息，请参阅 [Teams 云会议录制](cloud-recording.md)。
 
-## <a name="store-recordings-outside-of-your-country-or-region"></a>在自己国家/地区之外存储录制内容
+## <a name="store-recordings-outside-of-your-country-or-region"></a>Microsoft Store您所在国家或地区以外的录音
 
-此策略控制会议记录是否可以永久存储在另一个国家/地区。 如果已启用，则不能迁移录制内容。 有关云会议和录制内容存储位置详细信息，请参阅Teams[录制的云会议](cloud-recording.md)。
+此策略控制会议记录是否可以永久存储在另一个国家或地区。 如果已启用，则无法迁移录制内容。 有关云会议和记录存储位置的详细信息，请[参阅Teams云会议录制](cloud-recording.md)。
 
 ## <a name="related-topics"></a>相关主题
 
-- [向用户分配策略Teams](policy-assignment-overview.md)
+- [将策略分配给Teams中的用户](policy-assignment-overview.md)
 - [云会议录制](cloud-recording.md)

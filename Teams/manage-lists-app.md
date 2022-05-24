@@ -1,9 +1,9 @@
 ---
 title: 为组织管理 Lists 应用
-author: guptaashish
-ms.author: guptaashish
+author: mkbond007
+ms.author: mabond
 ms.reviewer: anach,v-jasuk
-manager: prkosh
+manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -24,12 +24,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 9156c54748849c6d510bbb72aa4bbce17c20ba8e
-ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
+ms.openlocfilehash: 6c756fcdf8251bc2b468be1f89c98b1f069a1779
+ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65136983"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "65646491"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中为组织管理 Lists 应用
 
@@ -60,7 +60,7 @@ Lists 中的模版为用户跟踪信息的应用场景量身打造。 每个模�
 
 会议过后，邮递员进行收件并开始派送。 派送路途中会发生事件，比如汽车事故、和狗有关的问题或社会不安抗议。 当邮递员遇到事件时，它们可以在移动设备上使用 Teams 来记录事件的详细信息，该信息在团队频道中的列表中受到跟踪。 团队里的所有人，包括现场的邮递员，都可以看到这个消息并保持知情。
 
-在迁移到Teams之前，邮递员必须返回邮局才能完成硬复制表单，以报告事件，该事件随后在Excel电子表格中输入。 Teams 给邮递员们创造了一份移动优先的体验，它们可以使用 Lists 现场实时报告事件，与团队成员共享事件的详细信息，和他们在频道中交谈，并促进事件解决。
+在迁移到Teams之前，邮递员必须返回帖子办公室才能完成一份硬复制表来报告事件，该事件随后在Excel电子表格中输入。 Teams 给邮递员们创造了一份移动优先的体验，它们可以使用 Lists 现场实时报告事件，与团队成员共享事件的详细信息，和他们在频道中交谈，并促进事件解决。
 
 ## <a name="what-you-need-to-know-about-lists"></a>你需要了解的 Lists 相关信息
 

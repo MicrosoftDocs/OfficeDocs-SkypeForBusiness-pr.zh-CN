@@ -1,8 +1,8 @@
 ---
 title: 在Microsoft Teams中管理Bookings应用
-author: guptaashish
-ms.author: guptaashish
-manager: prkosh
+author: mkbond007
+ms.author: mabond
+manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: msteams
@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: 了解如何为组织中的用户管理Teams中的Bookings应用。
-ms.openlocfilehash: 5740da885fb271af212ba755d7db0228a996b429
-ms.sourcegitcommit: e102d72e67ab1c440c29ae6a048fc2cf8545fe01
+ms.openlocfilehash: 92c5a986ff745cd8010d310f1f716538c303c2c8
+ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "65217926"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "65646441"
 ---
 # <a name="manage-the-bookings-app-in-microsoft-teams"></a>在Microsoft Teams中管理Bookings应用
 
