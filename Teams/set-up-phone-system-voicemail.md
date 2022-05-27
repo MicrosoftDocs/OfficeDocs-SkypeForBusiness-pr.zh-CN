@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 了解如何为用户设置云语音邮件。
-ms.openlocfilehash: 96c96f85625d0cda7e6d7a28a59d6c9415f2bb79
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 6a75856954da509677a1c9ccdb54e34055f171ed
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922623"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681403"
 ---
 # <a name="set-up-cloud-voicemail"></a>设置云语音邮件
 
@@ -67,7 +67,7 @@ ms.locfileid: "64922623"
 可以针对呼叫应答规则、语音邮件听录、听录亵渎屏蔽、听录翻译和系统提示语言等功能配置和分配现有或新的语音邮件策略。 有关详细信息，请参阅 [New-CsOnlineVoicemailPolicy](/powershell/module/skype/new-csonlinevoicemailpolicy)。
 
 若要管理单个用户的云语音邮件设置，请使用 [Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings) cmdlet。 可以应用于单个用户的云语音邮件设置包括呼叫应答规则、提示语言、语音默认文本和假期问候语。 有关详细信息，请参阅 [Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings)。
- (请注意，最终用户还可以通过转到 **设置****CallsConfigure** ->  Voicemail.) 在 Teams  ->  客户端中配置这些设置
+ (请注意，最终用户还可以通过转到 设置 **Calls** -> **Configure Voicemail**.) 在 **Teams** ->  客户端中配置这些设置
 
 还可以使用 [Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings) cmdlet 将 VoicemailEnabled 参数设置为$false，为用户禁用云语音邮件。 此设置将确保云语音邮件无法再为用户录制语音邮件。
 
@@ -75,7 +75,7 @@ ms.locfileid: "64922623"
 
 为云语音邮件预配的所有用户的默认设置是允许路由对云语音邮件的调用，并允许用户将呼叫转发到云语音邮件。
 
-可以通过将Set-CsTeamsCallingPolicy cmdlet 与 AllowVoicemail 参数配合使用，控制是否允许Teams用户路由对云语音邮件的调用。 有关详细信息，请参阅 [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)。
+可以通过将Set-CsTeamsCallingPolicy cmdlet 与 AllowVoicemail 参数配合使用，控制是否允许Teams用户路由对云语音邮件的调用。 有关详细信息，请参阅 [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)。
 
 - 如果将 AllowVoicemail 设置为 AlwaysDisabled，则调用永远不会路由到语音邮件，无论用户的呼叫转发或未答复的设置如何。 语音邮件在Teams中不可用作呼叫转接或未应答设置。
 
@@ -99,36 +99,34 @@ ms.locfileid: "64922623"
 
 ## <a name="enable-protected-voicemail-in-your-organization"></a>在组织中启用受保护的语音邮件
 
-当某人为组织中的用户留下语音邮件时，语音邮件将作为电子邮件附件传递到用户的邮箱。 
+当某人为组织中的用户留下语音邮件时，语音邮件将作为电子邮件附件传递到用户的邮箱。
 
-使用 Microsoft Purview 信息保护，可以加密内部和外部调用方留下的语音邮件。 还可以阻止用户转发这些消息。 具有Exchange Online邮箱的用户支持此功能。
+使用Microsoft Purview 信息保护，可以加密内部和外部调用方留下的语音邮件。 还可以阻止用户转发这些消息。 具有Exchange Online邮箱的用户支持此功能。
 
-若要加密语音邮件，可以创建敏感度标签。 使用自动标记功能，可以确保将标签自动应用于传入的语音邮件。 
+若要加密语音邮件，可以创建敏感度标签。 使用自动标记功能，可以确保将标签自动应用于传入的语音邮件。
 
-启用受保护的语音邮件时，用户可以通过调用语音邮件邮箱或在 Android 或 iOS Outlook、Outlook 网页版 或Outlook中打开邮件来收听受保护的语音邮件。 无法在Microsoft Teams或Skype for Business中打开受保护的语音邮件。
+启用受保护的语音邮件时，用户可以通过调用语音邮件邮箱或在Outlook、Outlook 网页版或Outlook中为Android或iOS打开邮件来收听受保护的语音邮件。 无法在Microsoft Teams或Skype for Business中打开受保护的语音邮件。
 
-若要为语音邮件创建敏感度标签，请参阅 [“使用敏感度标签](/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions)”。 在 **“加密”** 部分，选择 **“允许用户在应用标签时分配** 权限”。 **在Outlook中选择，强制实施以下限制之一**，然后选择 **“不转发”** 选项。
+若要为语音邮件创建敏感度标签，请参阅 [“使用敏感度标签](/microsoft-365/compliance/encryption-sensitivity-labels#let-users-assign-permissions)”。 在 **“加密”** 部分，选择 **“允许用户在应用标签时分配** 权限”。 **在Outlook中选择，强制实施以下限制之一**，然后选择 **“不转发”** 选项。
 
-若要创建自动标记策略以将敏感度标签应用于语音邮件，请参阅 [如何配置自动标记策略](/microsoft-365/compliance/apply-sensitivity-label-automatically?view=o365-worldwide#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange)，并指定以下特定设置：
+若要创建自动标记策略以将敏感度标签应用于语音邮件，请参阅 [如何配置自动标记策略](/microsoft-365/compliance/apply-sensitivity-label-automatically#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange)，并指定以下特定设置：
 
--   对于 **要应用此标签的“选择”信息**，请选择 **“自定义策略**”。
+- 对于 **要应用此标签的“选择”信息**，请选择 **“自定义策略**”。
 
--   对于 **要应用标签的“选择位置**”，请选择 **“位置”：所有用户Exchange**。
+- 对于 **要应用标签的“选择位置**”，请选择 **“位置”：所有用户Exchange**。
 
--   对于  **设置通用或高级规则**，请选择 **“高级规则**”。
+- 对于  **设置通用或高级规则**，请选择 **“高级规则**”。
 
 - Exchange规则：
-    - 条件：<br>
-        - **标头匹配模式：**<br>
-              Content-Class = Voice-CA
-       -  **发件人 IP 地址为：**<br>
-               13.107.64.0/18, 52.112.0.0/14, 52.120.0.0/14, 52.238.119.141/32, 52.244.160.207/32
+  - 条件：
+    - **标头匹配模式**：Content-Class = Voice-CA
+    - **发件人 IP 地址为**：13.107.64.0/18、 52.112.0.0/14、52.120.0.0/14、52.238.119.141/32、52.244.160.207/32
 
 - 若 **要选择要自动应用的标签**，请在上面的步骤中选择为语音邮件创建的敏感度标签。
 
-- 有关 **电子邮件的其他设置**，请选择“ **对从组织外部收到的电子邮件应用加密**”，并指定权限管理所有者。
+- 有关 **电子邮件的其他设置**，请选择“**对从组织外部接收的电子邮件应用加密**”，并指定Rights Management所有者。
 
-发件人 IP 地址中指定的 IP V4 范围基于 ID 12 中[Office 365 URL 和 IP 地址范围中的](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide#skype-for-business-online-and-microsoft-teams)列表。
+发件人 IP 地址中指定的 IP V4 范围基于 ID 12 中[Office 365 URL 和 IP 地址范围中的](/microsoft-365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)列表。
 
 有关邮件加密的详细信息，请参阅 [“定义邮件流规则”来加密电子邮件](/microsoft-365/compliance/define-mail-flow-rules-to-encrypt-email)。
 

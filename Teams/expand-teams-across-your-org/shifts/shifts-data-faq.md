@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d4fc6e36c0c78bdf86e1384fe6269f292f20deb7
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 35447b432118737821f578ddaee364e780f18e0d
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922823"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675344"
 ---
 # <a name="shifts-data-faq"></a>转移数据常见问题解答
 
@@ -45,9 +45,9 @@ ms.locfileid: "64922823"
 
 ## <a name="can-i-access-and-export-or-delete-a-users-personal-data-in-shifts"></a>是否可以在 Shifts 中访问和导出或删除用户的个人数据？
 
-换班是符合 GDPR (一般数据保护法规) 。 (称为数据主体) 对其个人数据采取行动的人员的正式请求称为数据主体请求 (DSR) 。 可以在 Shifts 中查找和处理个人数据，以响应 DSR。
+换班是符合 GDPR (一般数据保护法规) 。  (称为数据主体) 对其个人数据采取行动的人员的正式请求称为数据主体请求 (DSR) 。 可以在 Shifts 中查找和处理个人数据，以响应 DSR。
 
-可以使用 Microsoft Purview 合规性门户中的内容搜索电子数据展示工具来搜索和导出计划和时间时钟数据以Excel。 对于所有其他 Shifts 数据，可以拍摄数据的屏幕截图。
+可以使用Microsoft Purview 合规门户中的内容搜索电子数据展示工具来搜索和导出计划和时间时钟数据以Excel。 对于所有其他 Shifts 数据，可以拍摄数据的屏幕截图。
 
 若要了解详细信息，请参阅 [OFFICE 365 GDPR 和 CCPA 的数据主体请求](/microsoft-365/compliance/gdpr-dsr-office365)。
 
@@ -63,7 +63,7 @@ ms.locfileid: "64922823"
 
 如果 (支持它的Microsoft 365组或Teams) 中的团队还原，则可以恢复已删除的计划。
 
-默认情况下，已删除的Microsoft 365组将保留 30 天。 此 30 天时间段称为“软删除”，因为您仍然可以还原组。 若要了解详细信息，请参阅[还原已删除的Microsoft 365组](/microsoft-365/admin/create-groups/restore-deleted-group?view=o365-worldwide&tabs=admin-center)。
+默认情况下，已删除的Microsoft 365组将保留 30 天。 此 30 天时间段称为“软删除”，因为您仍然可以还原组。 若要了解详细信息，请参阅[还原已删除的Microsoft 365组](/microsoft-365/admin/create-groups/restore-deleted-group?tabs=admin-center)。
 
 ## <a name="can-i-use-custom-retention-policies-for-shifts-data"></a>是否可以对 Shifts 数据使用自定义保留策略？
 
@@ -77,7 +77,7 @@ ms.locfileid: "64922823"
 
 ## <a name="what-type-of-encryption-does-shifts-use-for-data-at-rest-and-in-transit"></a>Shifts 对静态数据和传输中的数据使用哪种类型的加密？
 
-迁移数据由 Azure Cosmos DB 和 Azure 存储 进行静态加密。 若要了解详细信息，请参阅 [Azure](/azure/security/fundamentals/encryption-atrest) Cosmos [DB 中的静态 Azure 数据加密和数据加密](/azure/cosmos-db/database-encryption-at-rest)。
+移位数据由 Azure Cosmos DB 和Azure 存储进行静态加密。 若要了解详细信息，请参阅 [Azure](/azure/security/fundamentals/encryption-atrest) Cosmos [DB 中的静态 Azure 数据加密和数据加密](/azure/cosmos-db/database-encryption-at-rest)。
 
 班次遵循Microsoft 365有关传输中数据加密的准则。 若要了解详细信息，请参阅传输 [中数据的加密](/compliance/assurance/assurance-encryption-in-transit)。
 

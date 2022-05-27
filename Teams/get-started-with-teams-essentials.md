@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c80b93ef457048d006fb7a7eb6085b3ed5d8eb4
-ms.sourcegitcommit: 8cda22925ccddb612f91351a7593b521eee10f0e
+ms.openlocfilehash: 46624ff1e1eeeede5066cf6972cc92469cf8979c
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "62864025"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675044"
 ---
 # <a name="microsoft-teams-essentials-quickstart-guide-for-small-businesses"></a>适用于小型企业的 Microsoft Teams Essentials 快速入门指南
 
@@ -37,7 +37,7 @@ Microsoft Teams Essentials 可通过 Microsoft 的直接网站和选择 Microsof
 
 ## <a name="what-microsoft-teams-essentials-subscription-do-i-have"></a>我有哪些 Microsoft Teams Essentials 订阅?  
 
-如果通过 Microsoft 网站 (直接) 购买了 Teams Essentials，则拥有 **Microsoft Teams Essentials**。
+如果通过 Microsoft 网站（直接）购买了 Teams Essentials，则拥有 **Microsoft Teams Essentials**。
 
 如果通过 Microsoft 认证合作伙伴购买了 Teams Essentials，则拥有 **Microsoft Teams Essentials (AAD 标识)**。
 
@@ -153,20 +153,20 @@ Microsoft Teams Essentials 可通过 Microsoft 的直接网站和选择 Microsof
 
 #### <a name="how-do-i-upgrade-my-organization"></a>如何实现升级我的组织?
 
-若要升级到 Teams 的 Microsoft Teams Essentials 版本，请选择 **…** 在顶部导航菜单中。 接下来，在出现的下拉菜单底部选择 **升级**  按钮。   :::image type="content" source="media/teams-free-upgrade-essentials.png" alt-text="显示升级按钮的屏幕截图"::: 
+若要升级到 Microsoft Teams Essentials 版本的 Teams，请在顶部导航菜单中选择 **...**。 接下来，在出现的下拉菜单底部选择 **升级** 按钮。   :::image type="content" source="media/teams-free-upgrade-essentials.png" alt-text="显示升级按钮的屏幕截图"::: 
 
 在 Teams 中选择 **升级** 按钮后，你将定向到此处: [适用于小型企业的 Microsoft Teams](https://www.microsoft.com/microsoft-teams/upgrade-teams)
 
 输入当前用于登录 Teams 的电子邮件地址，然后购买 Microsoft Teams Essentials 计划。
 
 
-### <a name="can-i-purchase-teams-essentials-using-aad-identity-through-microsofts-website"></a>是否可以通过 Microsoft 网站使用 AAD 标识购买 Teams Essentials?  
+### <a name="can-i-purchase-teams-essentials-using-aad-identity-through-microsofts-website"></a>是否可以通过 Microsoft 网站使用 AAD 标识购买 Teams Essentials？  
 
 不能。 具有 AAD 标识的 Teams Essentials 仅通过选择的 Microsoft 云合作伙伴提供。 如果你对与合作伙伴合作感兴趣，请访问 [查找 Microsoft 合作伙伴云解决方案提供商](https://partner.microsoft.com/membership/cloud-solution-provider/find-a-provider)。
 
-### <a name="can-i-use-an-existing-email-system-with-microsoft-teams-essentials"></a>能否将现有电子邮件系统与 Microsoft Teams Essentials 配合使用？  
+### <a name="can-i-use-an-existing-email-system-with-microsoft-teams-essentials"></a>能否将现有电子邮件系统与 Microsoft Teams Essentials 配合使用？  
 
-是的。你可以保留现有电子邮件系统，并利用 Teams Essentials 进行会议、聊天和协作。  
+是的。你可以保留现有电子邮件系统，并利用 Teams Essentials 进行会议、聊天和协作。  
 
 ### <a name="can-i-connect-my-existing-calendar-solution-with-teams-essentials"></a>是否可以将现有日历解决方案与 Teams Essentials 相连接?
 是的。可以使用 Teams Essentials 从 Outlook.com 和 Google 同步现有日历。

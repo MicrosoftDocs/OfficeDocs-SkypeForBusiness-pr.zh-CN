@@ -17,12 +17,12 @@ description: 了解在需要执行电子数据展示时应执行的操作，例�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 207164f3e16768b7643d2bba2177d52d6b3940f3
-ms.sourcegitcommit: 7d5266ae7e4a440ee45ab1873a30f4056bdcca1f
+ms.openlocfilehash: a89f2ac8fc94505ec0d97bb426bc8fc92901aa52
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2022
-ms.locfileid: "65031917"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675304"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>在 Microsoft Teams 中对内容进行电子数据展示调查
 
@@ -36,27 +36,26 @@ ms.locfileid: "65031917"
 
 并非所有Teams内容都是可电子数据展示的。 下表显示了可以使用 Microsoft 电子数据展示工具搜索的内容类型：
 
-| 内容类型 | 电子数据展示 | 注释 |
-|:--- | :--- |:--- |
-|音频录制 | 不支持 | |
+|内容类型|电子数据展示|注释|
+|---|---|---|
+|音频录制|否||
 |卡片内容|是|有关详细信息，请参阅 [“搜索卡片内容](#search-for-card-content) ”。|
-|聊天链接 | 是 | |
-|聊天消息 | 是 |这包括标准Teams频道中的内容、1：1 聊天、1：N 组聊天以及与来宾用户参与者的聊天。  |
-|代码片段 | 否 | |
-|编辑的消息 | 是 | 如果用户处于保留状态，则还会保留以前版本的编辑消息。 |
-|表情符号、GIF 和贴纸 | 是 | |
-|源通知 | 不支持 | |
-|内联图像 | 是 | |
-|Loop组件| 是|循环组件中的内容保存在存储在发送循环组件的用户的OneDrive for Business帐户中的 .fluid 文件中。 这意味着，在循环组件中搜索内容时，必须将OneDrive作为数据源包括在内。 |
-|会议 IM 对话 | 是 | |
-|会议元<sup>数据 1</sup> | 是 |  |
-|通道的名称 | 是 | |
-|专用和共享频道聊天消息 | 是 | |
-|报价 | 是 | 引用的内容是可搜索的。 但是，搜索结果并不指示已引用内容。 |
-|喜欢、心和其他反应等 (反应)  | 不支持 | |
-|主题 | 是 | |
-|表 | 是 | |
-||||
+|聊天链接|是||
+|聊天消息|是|这包括标准Teams频道中的内容、1：1 聊天、1：N 组聊天以及与来宾用户参与者的聊天。|
+|代码片段|否||
+|编辑的消息|是|如果用户处于保留状态，则还会保留以前版本的编辑消息。|
+|表情符号、GIF 和贴纸|是||
+|源通知|否||
+|内联图像|是||
+|Loop组件|是|循环组件中的内容保存在存储在发送循环组件的用户的OneDrive for Business帐户中的 .fluid 文件中。 这意味着，在循环组件中搜索内容时，必须将OneDrive作为数据源包括在内。|
+|会议 IM 对话|是||
+|会议元数据<sup>1</sup>|是||
+|通道的名称|是||
+|专用和共享频道聊天消息|是||
+|报价|是|引用的内容是可搜索的。 但是，搜索结果并不指示已引用内容。|
+|喜欢、心和其他反应等 (反应) |否||
+|主题|是||
+|表|是||
 
 <sup>1</sup> 会议 (和呼叫) 元数据包括：
 
@@ -207,7 +206,7 @@ Microsoft Teams数据将在Excel电子数据展示导出输出中显示为 IM �
    Start-ComplianceSearch <search name>
    ```
 
-6. 转到 [https://compliance.microsoft.com](https://compliance.microsoft.com)，然后单击 **“显示** **allContent** >  搜索”。
+6. 转到 [https://compliance.microsoft.com](https://compliance.microsoft.com) ，然后单击 **“显示所有** > **内容搜索**”。
 
 7. 在搜索列表中，选择在步骤 4 中创建的搜索以显示浮出控件页。
 
@@ -234,11 +233,11 @@ Microsoft Teams数据将在Excel电子数据展示导出输出中显示为 IM �
 ![Teams频道消息中的卡片内容。](media/CardContentTeams.png)
 
 ### <a name="card-content-in-search-results"></a>搜索结果中的卡片内容
-  
+
 ![内容搜索结果中的相同卡片内容。](media/CardContentEdiscoverySearchResults.png)
 
 > [!NOTE]
-> 若要在搜索结果中显示卡片内容中的图像， (如上一屏幕截图) 中的复选标记，必须在用于查看搜索结果的同一浏览器会话的不同选项卡中登录到Teams (https://teams.microsoft.com)。 否则，将显示图像占位符。
+> 若要在搜索结果中显示卡片内容中的图像， (如上一个屏幕截图) 中的复选标记，必须在用于<https://teams.microsoft.com>查看搜索结果的同一浏览器会话的不同选项卡中) 登录到Teams (。 否则，将显示图像占位符。
 
 ## <a name="ediscovery-in-federated-and-non-federated-environments"></a>联合环境和非联合环境中的电子数据展示
 

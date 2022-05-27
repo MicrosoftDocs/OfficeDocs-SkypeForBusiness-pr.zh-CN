@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d061fa0cda1620980e7da68a345fc13acb6fc12a
-ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
+ms.openlocfilehash: 67be704ae81379a122a9c205305da1c4d4a5dcbd
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "62362978"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675644"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>开始使用 Microsoft Teams 进行远程学习
 
@@ -106,12 +106,12 @@ Teams 策略可用于控制可向特定用户或用户组提供的选项。 通�
 
 ### <a name="create-class-teams-for-secure-classroom-use"></a>创建课堂团队，以便安全地使用课堂
 
-Microsoft Teams 教育版提供了针对教育用途的  [特定团队类型](https://support.office.com/article/choose-a-team-type-to-collaborate-in-microsoft-teams-0a971053-d640-4555-9fd7-f785c2b99e67) 。 [课堂团队类型](https://support.office.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b)是为课堂使用而设计的，并带有支持课堂需要的特定功能，包括：  
+Microsoft Teams 教育版提供了针对教育用途的[特定团队类型](https://support.office.com/article/choose-a-team-type-to-collaborate-in-microsoft-teams-0a971053-d640-4555-9fd7-f785c2b99e67)。 [课堂团队类型](https://support.office.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b)是为课堂使用而设计的，并带有支持课堂需要的特定功能，包括：  
 
 - 分配
 - 分数
 - OneNote 课堂笔记本  
-- [课堂材料文件夹](https://support.office.com/article/Use-folders-to-create-read-only-files-for-students-or-other-team-members-0e7791d7-8c9c-4749-9bca-984289477988) 确保学生只读内容
+- [课堂材料文件夹](https://support.office.com/article/Use-folders-to-create-read-only-files-for-students-or-other-team-members-0e7791d7-8c9c-4749-9bca-984289477988)放置为学生准备的只读内容
 - [见解](./class-insights.md)，可提供有关每课堂的学生参与度、作业和幸福感的实时数据。 
 - [教师提前访问](https://support.microsoft.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78)先设置班级，再添加学生 
 - 可以静音处理捣乱的学生及其他特殊权限  
@@ -127,7 +127,7 @@ Microsoft Teams 教育版提供了针对教育用途的  [特定团队类型](
 
 #### <a name="automatic-team-creation-using-sds"></a>使用 SDS 自动创建团队
 
-自动创建团队可节省 IT 管理员和教师的时间。 它确保教师已经创建了所有课堂团队，并已准备好在登录时设置。 [学校数据同步 (SDS)](/SchoolDataSync)是一款免费的 Office 365 教育工具，可以从教育机构的记录系统中读取数据，例如学生信息系统（SIS）或学习管理系统（LMS）。 SDS 使用这些数据以多种方式丰富 Office 365 的设置，包括批量创建课堂团队，以及与信息系统保持同步，以便在注册情况发生变化时随时更新教师和学生成员。 SDS 可以导入任何记录系统中的数据，并将内置连接器用于许多世界现有[ SIS 供应商](/schooldatasync/frequently-asked-questions#what-sismis-vendors-does-school-data-sync-support)。 我们强烈推荐使用SDS，因为它有以下优点。  
+自动创建团队可节省 IT 管理员和教师的时间。 它确保教师已经创建了所有课堂团队，并已准备好在登录时设置。 [学校数据同步 (SDS)](/SchoolDataSync)是一款免费的 Office 365 教育工具，可以从教育机构的记录系统中读取数据，例如学生信息系统（SIS）或学习管理系统（LMS）。 SDS 使用这些数据以多种方式丰富 Office 365 的设置，包括批量创建课堂团队，以及与信息系统保持同步，以便在注册情况发生变化时随时更新教师和学生成员。 SDS 可以导入任何记录系统中的数据，并将内置连接器用于许多现实中已有的 [SIS 供应商](/schooldatasync/frequently-asked-questions#what-sismis-vendors-does-school-data-sync-support)。 我们强烈推荐使用SDS，因为它有以下优点。  
 
 ###### <a name="benefits"></a>优点
 
@@ -249,7 +249,7 @@ SDS 以两个步骤创建团队。 第一步在 Azure Active Directory (Azure AD
 
 ##### <a name="how-do-i-activate-a-class-for-an-educator"></a>如何为教师激活班级？
 
-使用[“更新团队”API](/graph/api/team-update?tabs=http&view=graph-rest-beta&preserve-view=true) 并将 ```isMembershipLimitedToOwners``` 属性设置为 false，以便代表教师激活团队。 请注意，激活团队后无法撤消。
+使用“[更新团队](/graph/api/team-update?tabs=http&view=graph-rest-beta&preserve-view=true)”API 并将 ```isMembershipLimitedToOwners``` 属性设置为 false，以便代表教师激活团队。 请注意，激活团队后无法撤消。
 
 ### <a name="create-staff-teams-for-staff-communication-and-collaboration"></a>创建职员团队，促进其沟通和协作
 

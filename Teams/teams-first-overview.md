@@ -15,12 +15,12 @@ description: 使用本指南将Microsoft Teams作为第一个Microsoft 365或Off
 ROBOTS: NOINDEX, NOFOLLOW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f6dba57003aaa58b9d0b72e7e866da261bed578e
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 2621ea94e2a35e7de9eed3dac2994f9b1932b0bb
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922683"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681723"
 ---
 # <a name="roll-out-microsoft-teams-first"></a>首先推出Microsoft Teams
 
@@ -39,8 +39,8 @@ Microsoft Teams可以帮助员工保持联系和协作，尤其是在目前远�
 
 1.  使用域名配置的Microsoft 365或Office 365组织
 
-2.  Azure Active Directory连接 (AAD连接) 或类似的云标识同步解决方案 - 与租户同步的所有必需属性  
-    若要了解与AAD同步同步的属性，请读[取Azure AD 连接同步：同步到Azure Active Directory](/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)
+2.  Azure Active Directory连接 (AAD 连接) 或类似的云标识同步解决方案 - 与租户同步的所有必需属性  
+    若要了解与 AAD 同步同步的属性，请阅读 [Azure AD 连接同步：已同步到Azure Active Directory](/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)
 
 3.  为Teams分配的适当用户许可证  
     若要了解Teams许可，请阅读[Microsoft Teams服务说明](/office365/servicedescriptions/teams-service-description)。
@@ -111,7 +111,7 @@ Teams支持两种类型的 PSTN 连接。 Microsoft 呼叫计划，当 Microsoft
 <tr class="odd">
 <td>在Teams中创建和查看会议</td>
 <td><p>能够通过Outlook加载项创建内部和外部会议。</p>
-<p>音频会议许可证提供 PSTN 拨入和拨出功能。</p>
+<p>PSTN 拨入和拨入功能可用于音频会议许可证。</p>
 <p>Teams日历访问需要在本地部署 Exchange 2016 CU3+ 并建立Exchange混合：<a href="/exchange/hybrid-deployment/deploy-hybrid">使用混合配置向导创建混合部署。</a> </p>
 
 除了Exchange混合配置，还建立Exchange OAuth 身份验证：[在Exchange和Exchange Online组织之间配置 OAuth 身份验证](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)。 
@@ -136,7 +136,7 @@ Teams中的 VoIP/PSTN</td>
 <tr class="odd">
 <td>应用程序平台</td>
 <td>用户将能够根据公司策略使用为其指定的应用。<br />
-在此处了解详细信息：<a href="/microsoftteams/admin-settings">Teams中的应用的管理员设置</a></td>
+在此处了解详细信息：<a href="/microsoftteams/admin-settings">管理员Teams中的应用设置</a></td>
 </tr>
 <tr class="even">
 <td>安全性和符合性功能</td>
@@ -152,7 +152,7 @@ Teams中的 VoIP/PSTN</td>
 
 ### <a name="enablement-steps-for-organizations-without-skype-for-business-or-lync-server"></a>没有Skype for Business或 Lync Server 的组织的启用步骤
 
-1.  满足上述“开始此处”部分中详述的先决条件
+1.  满足上述“"开始"菜单此处”部分中详述的先决条件
 
 2.  仅) ：[设置共存和升级设置](setting-your-coexistence-and-upgrade-settings.md)，将租户切换到Teams仅限现有租户的模式 (。
 
@@ -190,7 +190,7 @@ Teams中的 VoIP/PSTN</td>
 <tr class="odd">
 <td>在Teams中创建和查看会议</td>
 <td><p>能够通过Outlook加载项创建内部和外部会议。</p>
-<p>音频会议许可证提供 PSTN 拨入和拨出功能。</p>
+<p>PSTN 拨入和拨入功能可用于音频会议许可证。</p>
 <p>Teams日历访问需要Exchange 2016 CU3+ 本地部署且已建立Exchange混合：<br />
 <a href="/exchange/hybrid-deployment/deploy-hybrid">使用混合配置向导创建混合部署。</a></p>
 <p>管理员可以通过Teams会议策略的 PreferredMeetingProviderForIslandsMode 属性控制Skype for Business Outlook外接程序：<a href="/powershell/module/skype/set-csteamsmeetingpolicy">set-csteamsmeetingpolicy</a>。</p> 
@@ -214,7 +214,7 @@ Teams中的 VoIP/PSTN</td>
 <tr class="odd">
 <td>应用程序平台</td>
 <td>用户将能够根据公司策略使用为其指定的应用。<br />
-在此处了解详细信息：<a href="/microsoftteams/admin-settings">Teams中的应用的管理员设置</a></td>
+在此处了解详细信息：<a href="/microsoftteams/admin-settings">管理员Teams中的应用设置</a></td>
 </tr>
 <tr class="even">
 <td>安全性和符合性功能</td>
@@ -232,7 +232,7 @@ Teams中的 VoIP/PSTN</td>
 
 ### <a name="enablement-steps-for-organizations-with-skype-for-business-server"></a>具有Skype for Business Server的组织的启用步骤  
 
-1.  满足上述“开始此处”部分中详述的先决条件。
+1.  满足上述“"开始"菜单此处”部分中详述的先决条件。
 
 2.  将租户切换到 2019 年 9 月 1 日之后预配的租户的“岛”模式 (，请联系支持部门进行此更改)   
     [设置共存和升级设置](setting-your-coexistence-and-upgrade-settings.md)

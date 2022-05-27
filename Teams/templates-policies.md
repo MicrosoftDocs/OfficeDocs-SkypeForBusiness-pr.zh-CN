@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何在管理中心管理团队模板
-ms.openlocfilehash: c753a92205844ebade9a713a8442837039232339
-ms.sourcegitcommit: 140c34f20f9cd48d7180ff03fddd60f5d1d3459f
+ms.openlocfilehash: 46b59d42ae464a5f09e9f24ecc91378bd6464034
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "65248934"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681393"
 ---
 # <a name="manage-team-templates-in-the-admin-center"></a>在管理中心管理团队模板
 
@@ -106,7 +106,7 @@ New-CsBatchPolicyAssignmentOperation -OperationName <Any operation name> -Policy
 
 答：是的。
 
-1. 在Teams管理中心，转到 **UsersManage** >  用户。
+1. 在Teams管理中心，转到 **“用户** > **管理用户**”。
 1. 在用户列表中，选择要分配给模板策略的用户。
 1. 选择 **“编辑设置**”，然后在 **“模板”策略** 下，选择要分配的策略。
 1. 选择 **“应用**”。
@@ -117,7 +117,7 @@ New-CsBatchPolicyAssignmentOperation -OperationName <Any operation name> -Policy
 
 答：在Teams管理中心：
 
-1. 转到 **UsersManage** >  用户。
+1. 转到 **“用户** > **管理用户**”。
 2. 选择 **“筛选器**”，为模板策略设置筛选器，然后选择 **“应用**”。
 
     ![所选模板策略并查看用户。](media/template-policies-5.png)

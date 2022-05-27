@@ -1,5 +1,5 @@
 ---
-title: 使用日历连接 Microsoft Teams 协作版 (AAD标识) 到现有电子邮件系统
+title: 连接 Microsoft Teams 协作版 (AAD 标识) 到包含日历的现有电子邮件系统
 author: adjoseph
 ms.author: adjoseph
 ms.reviewer: jimmyw
@@ -10,7 +10,7 @@ ms.service: msteams
 searchScope:
 - Microsoft Teams
 search.appverid: MET150
-description: 了解如何使用日历（如 Google Workspace）将Microsoft Teams 协作版 (AAD标识) 连接到现有电子邮件系统
+description: 了解如何使用日历（如 Google Workspace）将Microsoft Teams 协作版 (AAD 标识) 连接到现有电子邮件系统
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -18,18 +18,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3b05fb30b6e7e4a3f3725ca8e591cc5caf56fdde
-ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
+ms.openlocfilehash: 8bc388f533d39d6e1bc0140bcd975d6354898d5a
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "62279240"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674904"
 ---
-# <a name="connect-microsoft-teams-essentials-aad-identity-to-an-existing-email-system-with-calendar"></a>使用日历连接 Microsoft Teams 协作版 (AAD标识) 到现有电子邮件系统
+# <a name="connect-microsoft-teams-essentials-aad-identity-to-an-existing-email-system-with-calendar"></a>连接 Microsoft Teams 协作版 (AAD 标识) 到包含日历的现有电子邮件系统
 
-本指南提供有关使用日历将Microsoft Teams 协作版 (AAD标识) 连接到现有电子邮件系统的配置步骤。
+本指南提供用于将Microsoft Teams 协作版 (AAD 标识) 连接到具有日历的现有电子邮件系统的配置步骤。
 
-Microsoft Teams 协作版 (AAD标识) 将最佳Teams与会议、聊天、通话和协作结合在一起。 Teams Essentials (AAD标识) 可以连接到现有电子邮件系统，以提供集成体验，例如在现有电子邮件收件箱中包含所有Teams通知、Teams中的所有日历事件，以及使用现有电子邮件地址登录Teams的能力。
+Microsoft Teams 协作版 (AAD 标识) 将最佳Teams与会议、聊天、通话和协作结合在一起。 Teams Essentials (AAD 标识) 可以连接到现有电子邮件系统，以提供集成体验，例如在现有电子邮件收件箱中包含所有Teams通知、Teams中的所有日历事件，以及使用现有电子邮件地址登录到Teams的功能。
 
 连接后，可以在邮箱和Microsoft Teams中看到对计划会议和邀请的响应。 还可以使用 Teams 和第三方会议软件（例如 Google Workspace）从日历查看和与传入会议进行交互。
 
@@ -40,7 +40,7 @@ Microsoft Teams 协作版 (AAD标识) 将最佳Teams与会议、聊天、通话�
 若要启用自动转发，请执行以下操作：
 
 1. 转到Microsoft 365 Defender门户<https://security.microsoft.com/>
-2. 在左侧导航菜单下，转到“策略”部分 **中的电子邮件&** **collaborationPolicies** >  & **rulesThreat** >  **policiesAnti-spam** > 
+2. 在左侧导航菜单下，转到“策略”部分 **中的电子邮件&协作** > 策略 **&规则** > **威胁策略** > **反垃圾邮件**
 3. 在 **“反垃圾邮件策略**”页上，从列表 **中选择“反垃圾邮件出站策略 (默认)**
 4. 在显示的策略详细信息浮出控件中，选择 **“编辑保护设置** ”以修改自动前移规则。
 5. 在 **“转发规则**”下，将自动转发条件更改为 **“启用 - 转发”** 并保存更改。
@@ -51,9 +51,9 @@ Microsoft Teams 协作版 (AAD标识) 将最佳Teams与会议、聊天、通话�
 
 ## <a name="connect-teams-essentials-to-exchange-online-with-exchange-on-premises"></a>连接 Teams使用本地Exchange Exchange Online的基本信息
 
-可以使用混合方法配置与本地Exchange的Microsoft Teams和Exchange Online之间的连接，从而享受Teams Essentials (AAD) 必须提供的一切。
+可以使用混合方法配置与本地Exchange的Microsoft Teams和Exchange Online之间的连接，从而享受 AAD)  (要提供的所有Teams概要。
 
-若要使日历访问适用于本地邮箱，请遵循在配置[Teams本地邮箱的日历访问权 Exchange限时提供的指南 - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/exchange-team-blog/configuring-teams-calendar-access-for-exchange-on-premises/ba-p/1484009)
+若要使日历访问适用于本地邮箱，请遵循配置[本地邮箱的Teams日历访问 Exchange权限时提供的指南 - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/exchange-team-blog/configuring-teams-calendar-access-for-exchange-on-premises/ba-p/1484009)
 
 若要在具有本地Exchange的混合环境中部署Microsoft Teams 会议室，请访问使用[本地Exchange部署Microsoft Teams 会议室 - Microsoft Teams |Microsoft Docs](rooms/with-exchange-on-premises.md)
 
@@ -71,11 +71,11 @@ Microsoft 365中生成的所有电子邮件都转发到 Google Workspace，以�
 
 这些示例依赖于作为 Exchange Online [PowerShell V2 模块](/powershell/exchange/exchange-online-powershell-v2&preserve-view=true)一部分的 [连接-ExchangeOnline](/powershell/module/exchange/connect-exchangeonline?view=exchange-ps&preserve-view=true) PowerShell 命令。 如果在运行 连接-ExchangeOnline 时收到错误，请确保已按照建议的说明使用[安装 EXO V2 模块安装模块](/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps&preserve-view=true)。 当Connect-ExchangeOnline提示输入凭据时，请务必使用租户管理员帐户。
 
-**步骤一：设置新的Microsoft 365租户域**
+#### <a name="step-one-set-up-a-new-microsoft-365-tenant-domain"></a>步骤一：设置新的Microsoft 365租户域
 
 1. 转到管理中心 <https://admin.microsoft.com>。
 
-2. 转到 **“设置** **UpDomains** > ”，然后选择 **“添加域**”以添加现有域。 如果不添加域，组织中的人员将使用其电子邮件地址的 onmicrosoft.com 域，直到你这样做。 在添加用户之前，请务必添加域，因此无需设置两次。
+2. 转到 **“设置域”** > ，然后选择 **“添加域**”以添加现有域。 如果不添加域，组织中的人员将使用其电子邮件地址的 onmicrosoft.com 域，直到你这样做。 在添加用户之前，请务必添加域，因此无需设置两次。
 
 3. 按照 [使用 TXT 记录的 Verify 中的步骤验证具有 TXT 记录的](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider?view=o365-worldwide&preserve-view=true)域。
 
@@ -89,7 +89,7 @@ Microsoft 365中生成的所有电子邮件都转发到 Google Workspace，以�
 
 8. 登录到Microsoft 365 管理中心处<https://admin.microsoft.com/AdminPortal/>以启用 DKIM
 
-9. 在左侧导航面板中，选择 **SetupDomains**  > 
+9. 在左侧导航面板中，选择 **“设置** > **域**”
 
 10. 使用复选框，从当前域列表中选择现有的非 Microsoft 域 (ex：TomislavK@thephone-company.com) 。
 
@@ -102,11 +102,11 @@ Microsoft 365中生成的所有电子邮件都转发到 Google Workspace，以�
 
     有关将域添加到Microsoft 365的更多指导，请按照“[将域添加到Microsoft 365](https://support.office.com/article/add-a-domain-to-office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611?ui=en-US&rs=en-US&ad=US)中所述的步骤进行操作。
 
-**步骤 2：添加用户并分配 Teams Essentials 许可证**
+#### <a name="step-two-add-users-and-assign-teams-essentials-licenses"></a>步骤 2：添加用户并分配 Teams Essentials 许可证
 
 1. 转到管理中心 <https://admin.microsoft.com> 添加单个用户
 
-2. 转到 **UsersActive** >  用户，然后选择 **“添加用户**”
+2. 转到 **用户** > **活动用户**，然后选择 **“添加用户**”
 
 3. 在 **“设置基本信息** ”窗格中，填写基本用户信息，然后选择 **“下一步**”。
     - **名字：** 填写名字和姓氏、显示名称和用户名。
@@ -121,7 +121,7 @@ Microsoft 365中生成的所有电子邮件都转发到 Google Workspace，以�
 
 若要同时添加多个用户，请按照[“添加用户”中的推荐步骤并分配许可证 - Microsoft 365管理员|Microsoft Docs](/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true)
 
-**步骤 3：配置 Google Workspace**
+#### <a name="step-three-configure-google-workspace"></a>步骤 3：配置 Google Workspace
 
 ***将电子邮件双重传递配置为Microsoft 365和条带附件：***
 
@@ -129,7 +129,7 @@ Microsoft 365中生成的所有电子邮件都转发到 Google Workspace，以�
 
 2. 为Office 365添加路由
 
-    - 转到 Google 管理控制台， <https://admin.google.com>) 
+    - 在) 转到 Google 管理员 控制台<https://admin.google.com>
     - 转到应用> Google 工作区> Gmail >主机。
     - 输入路由名称。  (例如，Microsoft 365) 
     - 选择“单一主机”，输入为域指定的 MX 记录Microsoft 365 (例如：ContosoLandscaping2-m365master-com.mail.protection.outlook.com) 
@@ -142,9 +142,9 @@ Microsoft 365中生成的所有电子邮件都转发到 Google Workspace，以�
 
 3. 配置路由以Office 365
 
-    - 打开 **Google 管理控制台**<https://admin.google.com>
+    - 打开 **Google 管理员控制台**<https://admin.google.com>
 
-    - 转到 **AppsGoogle** >  **WorkspaceGmailRouting** >  > 
+    - 转到 **应用** > **Google 工作区** > **Gmail** > **路由**
 
     - 在“ **路由”** 选项卡上，选择 **“配置”**
 
@@ -170,9 +170,9 @@ Microsoft 365中生成的所有电子邮件都转发到 Google Workspace，以�
 
   接下来，你将创建有关Microsoft 365邮箱到子域的转发规则。 选择要在 Google Workspace 中使用的子域以接收来自Microsoft 365 (的电子邮件，例如，g.contosolandscaping2.m365master.com) 
 
-1. 从 **Google 管理控制台** (开始，admin.google.com) 
+1. **谷歌管理员控制台的"开始"菜单** (admin.google.com) 
 
-2. 转到 **AccountDomainsManage** >  >  **域**
+2. 转到 **帐户** > **域** > **管理域**
 
 3. 选择 **“添加域”**
 
@@ -198,9 +198,9 @@ Microsoft 365中生成的所有电子邮件都转发到 Google Workspace，以�
 
 3. 选择唯一标识来自Microsoft 365租户的邮件的电子邮件标头。  (例如，X-MS-Exchange-CrossTenant-id：92f60fc7-eab3-403b-9d7d-9d683bf0a4b5) 
 
-4. 转到 **Google 管理控制台**<https://admin.google.com>
+4. 转到 **Google 管理员控制台**<https://admin.google.com>
 
-5. 转到 **AppsGoogle** >  **WorkspaceGmailCompliance** >  > 
+5. 转到 **应用** > **Google 工作区** > **Gmail** > **合规性**
 
 6. 导航到 **内容符合性** 并选择 **“配置”**
 
@@ -224,15 +224,15 @@ Microsoft 365中生成的所有电子邮件都转发到 Google Workspace，以�
 
 16. 选择 **“保存”**
 
-**步骤四：为集成配置Microsoft 365设置**
+#### <a name="step-four-configure-microsoft-365-settings-for-the-integration"></a>步骤四：为集成配置Microsoft 365设置
 
 *配置连接器以将邮件从Microsoft 365路由到 Gmail：*
 
-1. 转到 **Microsoft 管理中心**<https://admin.microsoft.com/AdminPortal>
+1. 转到 **Microsoft 管理员中心**<https://admin.microsoft.com/AdminPortal>
 
 2. 在左侧导航菜单中选择 **“全部显示** ”。
 
-3. 在 **管理中心** 下，选择 **Exchange** 以在新选项卡中打开Exchange管理中心
+3. **在管理员中心** 下，选择 **Exchange** 以在新选项卡中打开Exchange管理中心
 
 4. 在 **Exchange管理中心的** 左侧导航菜单中，选择 **“邮件流** > **连接器**”，打开溢出菜单 (...) ，然后选择“添加连接器”
 
@@ -256,7 +256,7 @@ Microsoft 365中生成的所有电子邮件都转发到 Google Workspace，以�
 
 14. 看到连接器创建的通知时，按 **“完成”**
 
-*将邮件从Microsoft 365邮箱转发到 Gmail*
+*将邮件从Microsoft 365邮箱转发到 Gmail：*
 
 1. 使用 **Microsoft 365 管理中心** 更新每个邮箱，也可以使用 **PowerShell** 脚本，如以下内容：
 
@@ -265,29 +265,29 @@ Microsoft 365中生成的所有电子邮件都转发到 Google Workspace，以�
     Connect-ExchangeOnline
     $Mailboxes = Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -eq "UserMailbox"}
     Foreach ($mbx in $mailboxes) {
-    
+
     Set-Mailbox $mbx.Identity -DeliverToMailboxAndForward $true -ForwardingSMTPAddress $($mbx.Alias,$forwardingDomain -join "@")
-    } 
+    }
     ```
 
     **连接-ExchangeOnline 疑难解答：**
 
-    运行 连接-ExchangeOnline 时是否遇到错误？ 这可能是组织自动电子邮件转发规则的结果。 默认情况下，自动转发处于禁用状态。 若要将 Teams Essentials 连接到 Google Workspace，必须启用该规则。  
+    运行 连接-ExchangeOnline 时是否遇到错误？ 这可能是组织自动电子邮件转发规则的结果。 默认情况下，自动转发处于禁用状态。 若要将 Teams Essentials 连接到 Google Workspace，必须启用该规则。
 
     输入以下脚本：
 
    ```powershell
-    Set-ExecutionPolicy Unrestricted 
+    Set-ExecutionPolicy Unrestricted
      ```
 
     之后，运行以下命令：
 
     ```powershell
-    Enable-OrganizationCustomization 
+    Enable-OrganizationCustomization
     Get-HostOutboundSpamFilterPolicy | set-HostedOutboundSpamFilterPolicy -AutoForwardingMode On
     ```
 
-*配置Exchange Online直接到日历传输规则*
+*配置Exchange Online直接到日历传输规则：*
 
 1. 配置此设置将自动接受日历邀请，以便它们显示在Teams日历中，而无需用户在Outlook Web App中与邀请交互。
 
@@ -297,14 +297,14 @@ Microsoft 365中生成的所有电子邮件都转发到 Google Workspace，以�
     Connect-ExchangeOnline
     New-TransportRule -Name "Direct to Calendar" -MessageTypeMatches Calendaring -SetHeaderName "X-MS-Exchange-Organization-CalendarBooking-Response" -SetHeaderValue Tentative
     New-TransportRule -Name "Direct to Calendar triage action" -MessageTypeMatches Calendaring -SetHeaderName "X-MS-Exchange-Organization-CalendarBooking-TriageAction" -SetHeaderValue MoveToDeletedItems
-    
+
     ```
 
-*禁用邮箱Outlook 网页版*
+*禁用邮箱Outlook 网页版：*
 
 1. 按照在Exchange Online中[启用或禁用邮箱Outlook 网页版](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app)的说明禁用邮箱Outlook 网页版。
 
-2. 可以使用Exchange **管理中心** 或 **PowerShell** 禁用Outlook 网页版。 可以使用以下 PowerShell 示例为所有邮箱禁用Outlook 网页版：
+2. 可以使用Exchange 管理员中心或 **PowerShell** 禁用 **Outlook 网页版**。 可以使用以下 PowerShell 示例为所有邮箱禁用Outlook 网页版：
 
     ```powershell
     Connect-ExchangeOnline
@@ -314,15 +314,15 @@ Microsoft 365中生成的所有电子邮件都转发到 Google Workspace，以�
     }
     ```
 
-**步骤 5：为内部中继配置Exchange Online域**
+#### <a name="step-five-configure-exchange-online-domain-for-internal-relay"></a>步骤 5：为内部中继配置Exchange Online域
 
 此步骤可确保将电子邮件发送到第三方系统以进行最终解决。
 
-1. 转到 **Microsoft 管理中心**<https://admin.microsoft.com/AdminPortal>
+1. 转到 **Microsoft 管理员中心**<https://admin.microsoft.com/AdminPortal>
 
 2. 在左侧导航中，选择 **“全部显示”**
 
-3. 在 **“管理中心**”下，选择 **Exchange** 以在新选项卡中打开Exchange管理中心
+3. **在管理员中心** 下，选择 **Exchange** 以在新选项卡中打开Exchange管理中心
 
 4. 在 **Exchange管理中心**，从左侧导航菜单中选择 **“邮件流**”，然后选择 **“已接受的域”**
 
@@ -334,35 +334,34 @@ Microsoft 365中生成的所有电子邮件都转发到 Google Workspace，以�
 
     :::image type="content" source="media/essentials-internalrelay2.png" alt-text="显示保存内部中继设置的操作的图像。":::
 
-**步骤 6：创建一个规则，用于删除除日历之外Exchange Online的所有入站邮件**
+#### <a name="step-six-create-a-rule-to-delete-all-inbound-mail-to-exchange-online-except-for-calendaring"></a>步骤 6：创建一个规则，用于删除除日历之外Exchange Online的所有入站邮件
 
-1. 可以在 **Exchange管理中心** 或 **PowerShell** 中配置此规则。 可以使用以下 **PowerShell** 示例创建规则：
+1. 可以在 **Exchange 管理员中心** 或 **PowerShell** 中配置此规则。 可以使用以下 **PowerShell** 示例创建规则：
 
     ```powershell
     Connect-ExchangeOnline
-    New-TransportRule -Name "Delete all except Calendaring" -ExceptIfMessageTypeMatches Calendaring -FromScope NotInOrganization -DeleteMessage:$true 
-    
+    New-TransportRule -Name "Delete all except Calendaring" -ExceptIfMessageTypeMatches Calendaring -FromScope NotInOrganization -DeleteMessage:$true
     ```
 
 ### <a name="connect-teams-essentials-to-third-party-email-not-using-vanity-domain-gmail-example"></a>连接 Teams概要到第三方电子邮件不使用虚荣域 (Gmail 示例) 
 
-通过将使用者 Gmail 帐户连接到主要依赖于 Teams [G Suite Add On](https://support.microsoft.com/en-us/office/install-the-teams-meeting-add-on-for-google-workspace-bba2dfbe-0b2b-4ee7-be10-261ad80ddb60) 的 Teams Essentials，可以直接从 Google Workspace 安排和加入Teams会议。 这使你有机会通过屏幕共享、会议聊天、数字白板等来安排视频和音频会议。
+通过将使用者 Gmail 帐户连接到主要依赖于 Teams [G Suite Add On](https://support.microsoft.com/office/install-the-teams-meeting-add-on-for-google-workspace-bba2dfbe-0b2b-4ee7-be10-261ad80ddb60) 的 Teams Essentials，可以直接从 Google Workspace 安排和加入Teams会议。 这使你有机会通过屏幕共享、会议聊天、数字白板等来安排视频和音频会议。
 
 你将将 Gmail 配置为从Exchange Online拉取电子邮件，以确保在 Microsoft 365 中生成的邮件Teams成功到达 Gmail。 可能需要禁用安全默认值才能完成此连接，这使使用强唯一密码变得至关重要。 此方案不需要自定义域，但如果要使用自定义域，则可在 Microsoft 365 中配置该域，以便在 Gmail 中使用。
 
 :::image type="content" source="media/essentials-gmail.png" alt-text="描述 Teams Essentials 和 Gmail 之间的邮件流的图像":::
 
-**确保已设置 Gmail 帐户。**
+#### <a name="1-ensure-that-you-have-a-gmail-account-set-up"></a>1. 确保已设置 Gmail 帐户
 
 如果已有帐户，可以继续执行下一步。 如果没有，请访问 [“创建新的 Google 帐户](https://accounts.google.com/SignUp?hl=en) ”以设置新的 Gmail 帐户。
 
-**2.设置Microsoft 365租户**
+#### <a name="2-set-up-your-microsoft-365-tenant"></a>2.设置Microsoft 365租户
 
-*配置Teams AAD用户*
+*配置Teams AAD 用户：*
 
-1. 遵循 [AtAdd 用户的指南并分配许可证](/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true) 以添加多个用户
+1. 遵循[“添加用户”指南并分配许可证](/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true) 以添加多个用户
 
-*配置标识保护*
+*配置标识保护：*
 
 1. 如果处于活动状态，则禁用安全默认值。
 
@@ -370,7 +369,7 @@ Microsoft 365中生成的所有电子邮件都转发到 Google Workspace，以�
 
 3. 如果使用条件访问，请务必为 POP 访问邮箱设置异常
 
-*将域添加到Microsoft 365 管理中心 (可选)*
+*将域添加到Microsoft 365 管理中心 (可选) ：*
 
 1. 在导航下，选择设置 >域，然后选择“添加域”
 
@@ -386,9 +385,9 @@ Microsoft 365中生成的所有电子邮件都转发到 Google Workspace，以�
 
 7. 完成为Microsoft 365配置 DKIM TXT 记录的说明
 
-8. 通过注销并重新登录到管理中心来验证 DKIM 是否已启用
+8. 通过注销并重新登录到管理员中心来验证 DKIM 是否已启用
 
-**3. 配置 Gmail**
+#### <a name="3-configure-gmail"></a>3. 配置 Gmail
 
 1. 配置 Gmail 以将Exchange Online邮件拉入其系统
 

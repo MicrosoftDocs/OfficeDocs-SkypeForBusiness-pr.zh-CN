@@ -1,5 +1,5 @@
 ---
-title: 使用 PSTN 的混合环境中用户帐户
+title: 使用 PSTN 的混合环境中的用户帐户
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -17,57 +17,55 @@ f1.keywords:
 - NOCSH
 description: 了解用户创建的不同组合以及支持或不支持的组合。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 34a531c19ba0b7aebc16b09b360c363eff4a1198
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e97d1a3ac433db78792ca3cc512d32c5a8fec243
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634846"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65676414"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>采用 PSTN 连接的混合环境中的用户帐户
 
 ## <a name="about-the-environment"></a>关于环境
 
-本文适用于具有以下所有功能的环境： 
- 
-- Skype for Business Server Lync Server 2013 
-- 组织Microsoft 365或Office 365组织 
-- 在租户之间配置的混合Skype for Business Server Skype for Business Online Microsoft Teams租户 
-- 已启用与客户端建立和接收公用电话交换网的用户 (PSTN) 呼叫
+本文适用于具有以下所有内容的环境：
 
- 
-如果具有不同的环境 (例如 Skype for Business 云连接器版本) 、未配置混合，或者未为用户启用 PSTN 呼叫，则可支持性矩阵会有所不同。  
-
-## <a name="about-the-combinations-and-the-supportability-statement"></a>关于组合和可支持性声明  
-
-使用Skype for Business PSTN 连接的混合环境在用户服务的提供位置以及如何预配和管理用户帐户方面提供了灵活性。 但是，选项的丰富可能会创建一些不受支持的组合。 本部分介绍用户创建的不同组合，后跟可支持性声明。
+- Skype for Business Server或 Lync Server 2013
+- Microsoft 365或Office 365组织
+- 在 Skype for Business Server 和 Skype for Business Online 或 Microsoft Teams 租户之间配置的混合连接
+- 启用并接收公共交换电话网络 (PSTN 的用户) 客户端和客户端的呼叫
 
 
-**定义：**   
-- **企业语音：** 为使用本地用户帐户的用户提供 PSTN Skype for Business的选项。 本地中介Skype for Business服务器提供与 PSTN 的互连。  
-- **混合语音连接：** 为具有联机帐户的用户提供 PSTN Skype for Business的选项。 本地中介Skype for Business服务器提供与 PSTN 的互连。 
-- **直接路由：** 为具有联机登录帐户的用户提供 PSTN Skype for Business选项，Microsoft Teams客户端Microsoft Teams许可证。 无需 Microsoft 提供的任何本地软件Microsoft 365或 Office 365 SBC 即可连接到 SIP 代理。
+如果具有不同的环境 (（例如Skype for Business 云连接器版本) 、未配置混合或未为用户启用 PSTN 调用，则可支持性矩阵将有所不同。
 
-  
+## <a name="about-the-combinations-and-the-supportability-statement"></a>关于组合和可支持性声明
+
+具有 PSTN 连接的Skype for Business混合环境提供了有关提供用户服务的位置以及如何预配和管理用户帐户的灵活性。 但是，大量的选项可能会创建一些不受支持的组合。 本部分介绍用户创建的不同组合，后跟可支持性语句。
+
+**定义：**
+
+- **企业语音：** 为具有本地Skype for Business用户帐户的用户提供对 PSTN 的访问权限的选项。 本地Skype for Business中介服务器提供与 PSTN 的互连。
+- **混合语音连接：** 为具有 Skype for Business Online 帐户的用户提供对 PSTN 的访问权限的选项。 本地Skype for Business中介服务器提供与 PSTN 的互连。
+- **直接路由：** 使用Microsoft Teams客户端为具有联机Skype for Business帐户、Microsoft Teams许可证的用户提供对 PSTN 的访问权限的选项。 SBC 在 Microsoft 365 或 Office 365 中连接到 SIP 代理，而无需 Microsoft 提供任何本地软件。
+
 **环境支持以下组合：**
-- **方案 1：** 本地 Skype for Business 中的用户帐户，Skype for Business客户端企业语音
-- **方案 2：** 适用于企业Skype中的用户帐户，将 Skype for Business 客户端与混合语音连接一起使用
-- **方案 3：** 使用 Skype for Business 许可证Microsoft Teams联机登录的用户帐户，Teams客户端
- 
+
+- **方案 1：** 本地Skype for Business中的用户帐户，并将Skype for Business客户端与企业语音
+- **方案 2：** 联机业务Skype中的用户帐户，并将Skype for Business客户端与混合语音连接配合使用
+- **方案 3：** 使用Microsoft Teams许可证联机Skype for Business用户帐户，并将使用Teams客户端
+
 ### <a name="supportability-matrix"></a>可支持性矩阵
 
+|在其中创建的用户对象|用户的Skype for Business服务提供程序|用户的客户端|语音选项|支持|
+|---|---|---|---|---|
+|本地 AD|内部部署|Skype for Business|企业语音|是|
+|本地 AD|Online|Skype for Business|混合语音连接|是|
+|本地 AD|Online|Microsoft Teams|直接路由|是|
+|**不支持的组合**|||||
+|Azure AD|本地/联机|Skype for Business/Microsoft Teams|企业语音/混合语音连接/直接路由|否，必须先在本地 AD 中创建用户对象|
+|本地 AD|内部部署|Microsoft Teams|企业语音/混合语音连接/直接路由|否，本地Skype for Business不支持Microsoft Teams客户端|
+|本地 AD|Online|Skype for Business|直接路由|否，Skype for Business客户端不支持直接路由|
 
-|**在 中创建的用户对象**  |**用户的 Skype for Business 服务提供商**|**用户的客户端**|**语音选项**|**支持**|
-| ------------ | --------- | --------- | --------- | -------- |
-|本地 AD| 内部部署 |Skype for Business   | 企业语音   |是|
-|本地 AD|Online| Skype for Business  | 混合语音连接   |是 |
-|本地 AD|Online |Microsoft Teams |直接路由  |是 |
-|**不支持的组合**    | |         |         |      |
-|Azure AD| 本地/联机 | Skype for Business/Microsoft Teams|企业语音/混合语音连接/直接路由  |否，必须先在本地 AD 中创建用户对象 |
-|本地 AD  |内部部署| Microsoft Teams| 企业语音/混合语音连接/直接路由   |否Microsoft Teams，本地客户端不支持Skype for Business |     
-|本地 AD  |Online |Skype for Business  | 直接路由  |否，客户端不支持直接Skype for Business路由  |
+### <a name="supportability-statement-for-the-hybrid-environment-with-pstn"></a>使用 PSTN 的混合环境的支持性语句
 
-
-### <a name="supportability-statement-for-the-hybrid-environment-with-pstn"></a>使用 PSTN 的混合环境的可支持性声明
-
-对于所有用户，必须在本地 AD 中创建用户对象，然后使用 Azure AD 连接 Azure AD。  如果用户对象是在混合Teams Azure AD 中直接创建的，则不支持为用户启用 Teams/Skype for Business。 对于新用户（例如新雇员）将直接启用 Teams，必须使用本地 Skype for Business 管理工具Skype for Business用户。 不支持在不Skype for Business或Teams的情况下在本地池中创建企业语音 **用户**。 有关详细信息，请参阅在 电话系统[中计划本地 PSTN 连接Skype for Business Server。](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)
+对于所有用户，**必须在** 本地 AD 中创建用户对象，并使用 Azure AD 连接 工具同步到 Azure AD。 如果直接在混合配置中的 Azure AD 中创建用户对象，**则不支持** 为用户启用Teams/Skype for Business。 对于将直接为Teams启用的新用户（例如新员工），必须为用户启用Skype for Business使用本地Skype for Business管理工具。 **不支持** 在不首先在具有企业语音的本地池中启用用户的情况下，在联机Skype for Business或Teams中创建用户。 有关详细信息，请参阅 Skype for Business Server 中具有[本地 PSTN 连接的计划电话系统](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)。

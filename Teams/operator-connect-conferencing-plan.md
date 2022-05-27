@@ -15,31 +15,31 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 - ms.teamsadmincenter.directrouting.overview
-description: 详细了解运营商连接会议，例如要求和部署规划。
+description: 详细了解运营商连接会议，例如部署的要求和规划。
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d910fd9d464d1c4ff452da70a3bde039e4748123
-ms.sourcegitcommit: be8b820caf4b5a1a91ad444ba93da1df20bf63ae
+ms.openlocfilehash: 881df7d9bd2d2d2bcbf6775654a97066a2927250
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/01/2021
-ms.locfileid: "61257502"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65676014"
 ---
 # <a name="plan-for-operator-connect-conferencing"></a>规划运营商连接会议
 
-Microsoft 音频会议提供使用公用电话交换网和 PSTN 电话拨入 (拨入) 呼叫的能力。  参与者Microsoft Teams仅音频会议网桥加入会议。
+Microsoft 音频会议提供使用公共交换电话网络 (PSTN) 电话号码拨入会议和从会议中拨号的功能。  参与者使用仅限音频的会议桥参加Microsoft Teams会议。
 
-借助连接会议功能，组织可以使用来自第三方运营商的电话号码加入Microsoft Teams会议。 如果你的当前接线员是 Microsoft 接线员连接计划的一部分，你可以将你的接线员的电话号码添加到音频会议网桥，并使用它们加入会议。
+使用运营商连接会议功能，组织可以使用第三方运营商的电话号码加入Microsoft Teams会议。 如果当前操作员是 Microsoft 运营商连接 计划的一部分，则可以将运营商的电话号码添加到音频会议网桥，并使用它们加入会议。
 
-如果没有连接会议功能，组织只能将 Microsoft 提供的电话号码用于其音频会议网桥。
+如果没有运营商连接会议功能，组织只能将 Microsoft 提供的电话号码用于其音频会议网桥。
 
 >[!NOTE]
->本文中引用属于 Microsoft 接线员连接的电话号码提供商为"接线员"。
+>本文将属于 Microsoft 运营商连接 程序的电话号码提供程序引用为“操作员”。
 >
->若要了解操作员是否参与 Microsoft Operator 连接计划，请参阅 Microsoft 365 Operator[连接 目录](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory)。
+>若要查看操作员是否参与 Microsoft 运营商连接 计划，请参阅[Microsoft 365 运营商连接目录](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory)。
 
 本文介绍运营商连接会议：
 
@@ -47,61 +47,61 @@ Microsoft 音频会议提供使用公用电话交换网和 PSTN 电话拨入 (�
 - [许可要求和计费](#licensing-requirements-and-billing)
 - [有关 Microsoft 音频会议的其他信息](#additional-information-on-microsoft-audio-conferencing)
 
-有关为会议配置连接的信息，请参阅[配置连接会议"](operator-connect-conferencing-configure.md)。
+有关配置运营商连接会议的信息，请参阅[配置运营商连接会议](operator-connect-conferencing-configure.md)。
 
-如果你组织的一些用户需要向 PSTN 电话号码进行外部呼叫，你仍然需要呼叫计划。 若要了解如何使用第三方运营商进行外部 PSTN 连接，请参阅[规划操作员](operator-connect-plan.md)连接。
+如果组织的某些用户需要对 PSTN 电话号码进行外部呼叫，则仍需要呼叫计划。 若要了解如何使用第三方运算符进行外部 PSTN 连接，请参阅[计划运营商连接](operator-connect-plan.md)。
 
 ## <a name="benefits"></a>优点
 
 运营商连接会议提供以下优势：
 
-- **在运营商和 Microsoft 之间灵活分配电话号码。** 将来自 Microsoft 和您的运营商的电话号码 (仅与 Microsoft 音频会议标准版订阅一起使用) ，或者仅将接线员 (的电话号码与接线员 连接 会议许可证) 。
+- **在运营商和 Microsoft 之间灵活分配电话号码。** 将 Microsoft 和运营商的电话号码 (与仅) 的 Microsoft 音频会议 标准版订阅一起使用，或者仅将运营商 (的电话号码与仅) 运营商连接会议许可证一起使用。
 
-- **操作员管理的基础结构。**  操作员管理 SDC (边界控制器) 与 Microsoft 的互连，从而节省额外的硬件购买和管理费用。
+- **操作员管理的基础结构。** 操作员管理会话边框控制器 (SBC) 和与 Microsoft 的互连，从而使你免于额外的硬件购买和管理。
 
-- **更快、更轻松地部署。**  从管理中心快速连接到接线员并将电话号码分配给Teams网桥。
+- **更快、更轻松的部署。** 快速连接到操作员，并将电话号码从Teams管理中心分配到音频会议桥。
 
-- **增强的支持和可靠性。**  操作员提供技术支持和共享服务级别协议来改善服务支持，由 Azure 提供支持的直接对等互连可创建一对一网络连接以提高可靠性。
+- **增强了支持和可靠性。** 操作员提供技术支持和共享服务级别协议来改进服务支持，而由 Azure 提供支持的直接对等互连会创建一对一网络连接，以提高可靠性。
 
-当连接时，运营商电话会议可能是适合你的组织的解决方案：
+运营商连接会议可能是组织在以下情况下的正确解决方案：
 
-- 您希望 **保留与现有** 电话号码提供商的合同
+- 你希望保留与现有电话号码提供商 **的合同**
 
-- 您希望扩展 **现有** Microsoft 音频会议网桥的全球覆盖范围
+- 你希望扩大现有 Microsoft 音频会议网桥的 **全局覆盖范围**
 
-- 您希望从 **新的电话号码提供商获取** 音频会议的电话号码
+- 你想要从新的 **电话号码提供商获取音频会议的电话号码**
 
-- **Microsoft 音频会议在你的地理位置不可用**
+- **Microsoft 音频会议在地理位置不可用**
 
-- 您希望 **利用采用** 按分钟付费模式的音频会议服务的运营商，例如，使用免费号码和从 Teams 会议拨打出站呼叫到订阅中未包含的国家/地区的电话号码
+- 你希望 **利用运营商为具有按分钟付费模式的音频会议服务**，例如使用免费号码，以及从Teams会议到订阅中未包含的国家/地区的电话号码进行出站呼叫
 
 ## <a name="licensing-requirements-and-billing"></a>许可要求和计费
 
-需要接线员连接号码才能加入他们组织的会议的用户必须分配有 Microsoft 音频会议标准订阅或 Microsoft 连接 会议许可证。
+需要运营商连接会议号码才能加入其组织的会议的用户必须具有 Microsoft 音频会议 标准订阅或 Microsoft 运营商连接会议许可证。
 
 ### <a name="audio-conferencing-standard-subscription"></a>音频会议标准订阅
 
-Microsoft Audio Conferencing Standard 订阅可以购买为 Microsoft Teams 许可证的附加内容，并且也包含在 Microsoft 365 E5 和 Office 365 E5 订阅中。
+Microsoft 音频会议 标准订阅可以作为Microsoft Teams许可证的加载项购买，并且也包含在Microsoft 365 E5和Office 365 E5订阅中。
 
-音频会议标准版订阅允许订阅者使用 Microsoft 提供的电话号码，并扩展其音频会议网桥以及运营商提供的电话号码。 订阅者还可以决定从会议Teams通过 Microsoft 路由的出站呼叫，以及通过操作员路由的呼叫。
+音频会议标准订阅允许订阅者使用来自 Microsoft 的电话号码，并使用运营商提供的数字扩展其音频会议网桥。 订阅者还可以决定通过 Microsoft 路由Teams会议的出站呼叫，以及通过运营商路由哪些呼叫。
 
-有关详细信息，请参阅 [**配置运营商连接会议。**](operator-connect-conferencing-configure.md)
+有关详细信息，请参阅配置 [**运营商连接会议**](operator-connect-conferencing-configure.md)。
 
 ### <a name="operator-connect-conferencing-license"></a>运营商连接会议许可证
 
-可以将 Microsoft 连接会议许可证作为附加内容获取到 Microsoft Teams 许可证。
+Microsoft 运营商连接会议许可证可以作为Microsoft Teams许可证的加载项获取。
 
-接线员连接会议许可证允许订阅者使用来自运营商的电话号码，但它不包括来自 Microsoft 的电话号码。 来自会议的所有Teams必须通过运营商路由。
+运营商连接会议许可证允许订阅者使用运营商提供的电话号码，但不包括来自 Microsoft 的电话号码。 必须通过操作员路由来自Teams会议的所有出站呼叫。
 
-有关详细信息，请参阅 [**配置运营商连接会议。**](operator-connect-conferencing-configure.md)
+有关详细信息，请参阅配置 [**运营商连接会议**](operator-connect-conferencing-configure.md)。
 
 >[!Note]
->会议参与者不需要音频会议标准订阅许可证或接线员 连接 会议许可证来加入由具有"电话连接"功能的用户组织的会议。
+>会议参与者不需要音频会议标准订阅许可证或运营商连接会议许可证才能加入由具有运营商连接会议功能的用户组织的会议。
 
-使用接线连接会议，Microsoft 根据组织使用的音频会议许可证的类型、Microsoft 音频会议或运营商 连接 会议以及 Microsoft 提供的任何电话号码向组织进行帐单。
+借助运营商连接会议，Microsoft 会根据组织使用的音频会议许可证类型、Microsoft 音频会议或运营商连接会议以及 Microsoft 提供的任意电话号码的使用向组织收费。
 
-你的运营商向组织支付使用运营商连接他们提供的会议号码的费用。
+操作员向组织索要使用他们提供的运营商连接会议号码。
 
 ## <a name="additional-information-on-microsoft-audio-conferencing"></a>有关 Microsoft 音频会议的其他信息
 
-Microsoft 音频会议允许参与者Microsoft Teams PSTN 电话号码拨入或拨打 PSTN 电话号码来加入会议。 有关组织可用的 Microsoft 音频会议功能的信息，请参阅音频[会议](audio-conferencing-in-office-365.md)Microsoft 365。
+Microsoft 音频会议允许参与者通过使用 PSTN 电话号码拨入或拨打 PSTN 电话号码加入Microsoft Teams会议。 有关组织可用的 Microsoft 音频会议 功能的详细信息，请参阅[Microsoft 365中的音频会议](audio-conferencing-in-office-365.md)。

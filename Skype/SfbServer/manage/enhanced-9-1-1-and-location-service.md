@@ -10,33 +10,33 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-description: Skype for Business Server支持增强型 9-1-1 (E9-1-1) 客户端Skype for Business呼叫。 为 E9-1-1 配置 Skype for Business Server 时，从 Skype for Business 拨打的紧急呼叫包括紧急响应位置 (ERL) 位置信息服务数据库中的信息。
-ms.openlocfilehash: 6fb6b539e51bc1178df46baf5990f48d85c44318
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+description: Skype for Business Server支持从Skype for Business客户端调用增强型 9-1-1 (E9-1-1) 。 为 E9-1-1 配置Skype for Business Server时，从Skype for Business发出的紧急呼叫包括来自位置信息服务数据库的紧急响应位置 (ERL) 信息。
+ms.openlocfilehash: 5b002e4043cb400b5f22a4b11bc70941a88abc2a
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62395364"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65676004"
 ---
-# <a name="manage-enhanced-9-1-1-and-the-location-service-in-skype-for-busines-server"></a>管理 Skype for Busines Server 中的增强型 9-1-1 和位置服务
+# <a name="manage-enhanced-9-1-1-and-the-location-service-in-skype-for-busines-server"></a>管理增强型 9-1-1 和 Busines Server Skype中的位置服务
 
-Skype for Business Server支持增强型 9-1-1 (E9-1-1) 客户端Skype for Business呼叫。 为 E9-1-1 配置 Skype for Business Server 时，从 Skype for Business 拨打的紧急呼叫包括紧急响应位置 (ERL) 位置信息服务数据库中的信息。 使用本文中的过程管理位置策略。
+Skype for Business Server支持从Skype for Business客户端调用增强型 9-1-1 (E9-1-1) 。 为 E9-1-1 配置Skype for Business Server时，从Skype for Business发出的紧急呼叫包括来自位置信息服务数据库的紧急响应位置 (ERL) 信息。 使用本文中的过程来管理位置策略。
 
 > [!Note]
-> 有关部署高级 企业语音功能（如 E9-1-1 和位置信息服务）的详细信息，请参阅部署[高级企业语音功能](../deploy/deploy-enterprise-voice/deploy-advanced-enterprise-voice-features.md)。
+> 有关部署高级企业语音功能（如 E9-1-1 和位置信息服务）的详细信息，请[参阅部署高级企业语音功能](../deploy/deploy-enterprise-voice/deploy-advanced-enterprise-voice-features.md)。
 
-在 Skype for Business Server 中，可以使用位置策略应用与增强型 9-1-1 (E9-1-1) 功能以及用户或联系人的位置设置相关的设置。 位置策略可确定用户是否启用了 E9-1-1，以及在启用了该服务时紧急呼叫的行为。 例如，您可以使用位置策略定义哪些数字构成紧急呼叫（例如，美国的 911）、是否应自动通知企业安全人员以及应如何路由该呼叫。
+在Skype for Business Server中，可以使用位置策略应用与增强型 9-1-1 (E9-1-1) 功能相关的设置以及用户或联系人的位置设置。 位置策略可确定用户是否启用了 E9-1-1，以及在启用了该服务时紧急呼叫的行为。 例如，您可以使用位置策略定义哪些数字构成紧急呼叫（例如，美国的 911）、是否应自动通知企业安全人员以及应如何路由该呼叫。
 
-可以从控制面板 **中的"网络** 配置"组中配置Skype for Business Server策略。 从Skype for Business Server控制面板中，可以查看、创建、修改或删除位置策略。 可使用以下过程查看位置策略的信息。 
+可以在Skype for Business Server 控制面板中从 **网络配置** 组配置位置策略。 从Skype for Business Server 控制面板可以查看、创建、修改或删除位置策略。 可使用以下过程查看位置策略的信息。 
 
 
 ## <a name="view-location-policy-information"></a>查看位置策略信息 
 
-1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
+1.  从 RTCUniversalServerAdmins 组的成员 (或具有等效用户权限) 或分配给 CsAdministrator 角色的用户帐户登录到内部部署中的任何计算机。
 
-2.  打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。 
+2.  打开浏览器窗口，然后输入管理员 URL 以打开Skype for Business Server 控制面板。 
 
-3.  在左侧导航栏中，单击" **网络配置"**，然后单击"位置 **策略"**。
+3.  在左侧导航栏中，单击 **“网络配置**”，然后单击 **“位置策略**”。
 
 4.  在“位置策略”页上，选择要修改的位置策略。
 
@@ -50,16 +50,16 @@ Skype for Business Server支持增强型 9-1-1 (E9-1-1) 客户端Skype for Busin
 
 ## <a name="create-or-modify-a-location-policy"></a>创建或修改位置策略 
 
-在Skype for Business Server中，您可以覆盖从位置信息服务请求位置更新的客户端之间的默认时间。 默认值为 4 小时。 使用带 LocationRefreshInterval 参数的 **Set-CsLocationPolicy** cmdlet 可覆盖该默认值。
+在Skype for Business Server中，可以替代客户端请求位置信息服务进行位置更新之间的默认时间。 默认值为 4 小时。 使用带 LocationRefreshInterval 参数的 **Set-CsLocationPolicy** cmdlet 可覆盖该默认值。
 
 
-### <a name="to-create-a-new-location-policy-in-the-skype-for-business-server-control-panel"></a>在"控制面板"中Skype for Business Server位置策略
+### <a name="to-create-a-new-location-policy-in-the-skype-for-business-server-control-panel"></a>若要在Skype for Business Server 控制面板中创建新的位置策略
 
-1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
+1.  从 RTCUniversalServerAdmins 组的成员 (或具有等效用户权限) 或分配给 CsAdministrator 角色的用户帐户登录到内部部署中的任何计算机。
 
-2.  打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。 
+2.  打开浏览器窗口，然后输入管理员 URL 以打开Skype for Business Server 控制面板。 
 
-3.  在左侧导航栏中，单击" **网络配置"**，然后单击"位置 **策略"**。
+3.  在左侧导航栏中，单击 **“网络配置**”，然后单击 **“位置策略**”。
 
 4.  在“位置策略”页上，单击“新建”，然后选择要创建的策略类型：
     
@@ -69,7 +69,7 @@ Skype for Business Server支持增强型 9-1-1 (E9-1-1) 客户端Skype for Busin
 
 5.  按如下所示填写剩余字段：
     
-      - **启用增强型紧急服务**   选中此复选框可启用与此策略关联的 E9-1-1 用户。 启用紧急服务后，Skype for Business Server客户端将在注册时检索位置信息，并包含进行紧急呼叫时的信息。
+      - **启用增强的紧急服务**   选中此复选框可使与此策略相关联的用户启用 E9-1-1。 启用紧急服务后，Skype for Business Server客户端将检索有关注册的位置信息，并在发出紧急呼叫时包含该信息。
     
       - **位置**   指定以下值之一：
         
@@ -77,10 +77,10 @@ Skype for Business Server支持增强型 9-1-1 (E9-1-1) 客户端Skype for Busin
         
           - **可选**   将不提示用户输入位置。发出呼叫而未包含位置信息时，紧急服务提供商将应答该呼叫并询问位置。
         
-          - **免责声明**   此选项与"必需" **相同，只是** 用户在未输入位置信息的情况下无法消除提示。 用户仍可以完成紧急呼叫，但在未输入信息的情况下无法完成其他呼叫。 此外，还将向用户显示免责声明文本，提醒他们拒绝输入位置信息的后果。 若要设置免责声明文本，必须使用 Skype for Business Server 命令行管理程序运行带 EnhancedEmergencyServiceDisclaimer 参数的 **Set-CsLocationPolicy** cmdlet 或 **New-CsLocationPolicy** cmdlet。 有关详细信息，请参阅 [Set-CsLocationPolicy](/powershell/module/skype/Set-CsLocationPolicy) 或 [New-CsLocationPolicy](/powershell/module/skype/New-CsLocationPolicy)。
+          - **免责 声明**   此选项与 **必需** 选项相同，但用户在不输入位置信息的情况下无法关闭提示。 用户仍然可以完成紧急呼叫，但在不输入信息的情况下无法完成其他呼叫。 此外，还会向用户显示免责声明文本，以提醒用户拒绝输入位置信息的后果。 若要设置免责声明文本，必须使用 Skype for Business Server Management Shell 运行 **Set-CsLocationPolicy** cmdlet 或 **New-CsLocationPolicy** cmdlet 和 EnhancedEmergencyServiceDisclaimer 参数。 有关详细信息，请参阅 [Set-CsLocationPolicy](/powershell/module/skype/Set-CsLocationPolicy) 或 [New-CsLocationPolicy](/powershell/module/skype/New-CsLocationPolicy)。
           
     
-      - **将位置用于** 紧急服务Skype for Business，由于各种原因， (例如，通知队友你的当前位置) 。 选中该复选框可确保位置信息只能用于紧急呼叫。
+      - **仅将位置用于紧急服务** Skype for Business可以出于各种原因使用位置信息 (例如，通知队友当前位置) 。 选中该复选框可确保位置信息只能用于紧急呼叫。
     
       - **PSTN 用法**   公用电话交换网 (PSTN) 用法，用于确定将使用哪个语音路由来路由使用此配置文件的客户端发出的紧急呼叫。与此用法关联的路由应指向专用于紧急呼叫的 SIP 中继或指向将紧急呼叫路由到最近的公共安全应答点 (PSAP) 的紧急位置标识号 (ELIN) 网关。
     
@@ -107,16 +107,16 @@ Skype for Business Server支持增强型 9-1-1 (E9-1-1) 客户端Skype for Busin
 
 
     > [!IMPORTANT]  
-    > 创建用户策略时，起初该策略不会应用于任何用户或网络站点。 要将此策略应用于某个用户，请单击左侧导航栏中的“用户”。 查找您希望应用此策略的用户。 在“编辑”菜单上，单击“显示详细信息”。 在"**编辑服务器用户**"页上，从"位置策略"下拉列表中选择新位置策略，然后单击"提交 **"**。<BR>要将此策略应用于某个网络站点，请单击左侧导航栏中的“网络配置”，然后单击“站点”。查找您希望应用此策略的网络站点。在“编辑”菜单上，单击“显示详细信息”。在“编辑站点”中，从“位置策略”下拉列表中选择新的位置策略，然后单击“提交”。
+    > 创建用户策略时，起初该策略不会应用于任何用户或网络站点。 要将此策略应用于某个用户，请单击左侧导航栏中的“用户”。 查找您希望应用此策略的用户。 在“编辑”菜单上，单击“显示详细信息”。 在 **“编辑服务器用户** ”页上，从 **“位置** 策略”下拉列表中选择新的位置策略，然后单击 **“提交**”。<BR>要将此策略应用于某个网络站点，请单击左侧导航栏中的“网络配置”，然后单击“站点”。查找您希望应用此策略的网络站点。在“编辑”菜单上，单击“显示详细信息”。在“编辑站点”中，从“位置策略”下拉列表中选择新的位置策略，然后单击“提交”。
 
 
-### <a name="to-modify-a-location-policy-in-the-skype-for-business-server-control-panel"></a>修改"控制面板"中Skype for Business Server策略
+### <a name="to-modify-a-location-policy-in-the-skype-for-business-server-control-panel"></a>若要修改Skype for Business Server 控制面板中的位置策略
 
-1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
+1.  从 RTCUniversalServerAdmins 组的成员 (或具有等效用户权限) 或分配给 CsAdministrator 角色的用户帐户登录到内部部署中的任何计算机。
 
-2.  打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。 
+2.  打开浏览器窗口，然后输入管理员 URL 以打开Skype for Business Server 控制面板。 
 
-3.  在左侧导航栏中，单击" **网络配置"**，然后单击"位置 **策略"**。
+3.  在左侧导航栏中，单击 **“网络配置**”，然后单击 **“位置策略**”。
 
 4.  在“位置策略”页上，选择要修改的位置策略。
 
@@ -130,11 +130,11 @@ Skype for Business Server支持增强型 9-1-1 (E9-1-1) 客户端Skype for Busin
 ## <a name="delete-a-location-policy"></a>删除位置策略
 
 
-1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
+1.  从 RTCUniversalServerAdmins 组的成员 (或具有等效用户权限) 或分配给 CsAdministrator 角色的用户帐户登录到内部部署中的任何计算机。
 
-2.  打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。 
+2.  打开浏览器窗口，然后输入管理员 URL 以打开Skype for Business Server 控制面板。 
 
-3.  在左侧导航栏中，单击" **网络配置"**，然后单击"位置 **策略"**。
+3.  在左侧导航栏中，单击 **“网络配置**”，然后单击 **“位置策略**”。
 
 4.  在“位置策略”页上，选择要删除的位置策略。
    

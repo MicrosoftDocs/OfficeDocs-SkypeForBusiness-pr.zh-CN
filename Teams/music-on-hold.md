@@ -15,12 +15,12 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom: ''
 description: 了解如何在电话系统中管理音乐保留功能。
-ms.openlocfilehash: 4899ffd2a3b6bfda80164ca2df4a5460a2b005e2
-ms.sourcegitcommit: 4435ac0efcb95e4e5e1f21289e46761e79482ab5
+ms.openlocfilehash: 3f5121e72436966a82b38917453bcd21d8efa10f
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "65624237"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674414"
 ---
 # <a name="music-on-hold"></a>音乐保留
 
@@ -36,11 +36,11 @@ Microsoft Teams调用方案中提供的默认音乐不含组织支付的任何�
 
 若要在保留时配置音乐：
 
-1.  在Teams管理中心的左侧导航中，转到 **语音>呼叫策略**。
+1. 在Teams管理中心的左侧导航中，转到 **语音>呼叫策略**。
 
-2.  在“ **管理策略** ”选项卡上，选择现有策略之一或创建一个新策略。
+2. 在“ **管理策略** ”选项卡上，选择现有策略之一或创建一个新策略。
 
-3.  在 **PSTN 调用方字段的“音乐保留**”中，在下拉菜单中选择 **“启用**”。
+3. 在 **PSTN 调用方字段的“音乐保留**”中，在下拉菜单中选择 **“启用**”。
 
 还可以使用 Teams PowerShell 模块在保留时配置音乐。 在 TeamsCallingPolicy 中，将 MusicOnHoldEnabledType 参数更改为“已启用”，然后将该策略实例授予一个或多个用户。
 
@@ -57,7 +57,6 @@ Microsoft Teams调用方案中提供的默认音乐不含组织支付的任何�
 若要在 Hold 上配置自定义音乐，请在 Teams PowerShell 模块 3.0.0 或更高版本中使用 PowerShell cmdlet New/Get/Set/Grant/Remove-CsTeamsCallHoldPolicy 和 Import/Get/Remove/Export-CsOnlineAudioFile。
 
 有关支持的音频格式和最大文件大小，请参阅 [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile)
-
 
 1. 确保Teams用户已在Teams调用策略中为设置为“已启用”的 PSTN 调用方音乐保留。 
 
@@ -104,7 +103,6 @@ C:\> Grant-CsTeamsCallHoldPolicy -PolicyName "CustomMoH1" -Identity user1@contos
 
 下表指示客户端和设备支持哪些功能音乐保留和自定义音乐保留。 Microsoft 将继续添加功能支持，因此请经常返回以获取额外的可用性。
 
-
 | 功能 | 桌面 <br> Windows/Mac OS | 浏览器 | 移动 <br> iOS | 移动 <br> Android | Teams 电话 |
 | :------------| :------- | :------- | :------- | :------- | :------- |
 | 按住 1：1 PSTN 呼叫 | -音乐保留<br>-保留时自定义音乐 | -音乐保留<br>-保留时自定义音乐 | -音乐保留<br>-保留时自定义音乐 | -音乐保留<br>-保留时自定义音乐 | -音乐保留<br>-保留时自定义音乐 |
@@ -147,4 +145,3 @@ C:\> Grant-CsTeamsCallHoldPolicy -PolicyName "CustomMoH1" -Identity user1@contos
 - [Grant-CsTeamsCallHoldPolicy](/powershell/module/skype/grant-csteamscallholdpolicy)
 
 - [Remove-CsTeamsCallHoldPolicy](/powershell/module/skype/remove-csteamscallholdpolicy)
-

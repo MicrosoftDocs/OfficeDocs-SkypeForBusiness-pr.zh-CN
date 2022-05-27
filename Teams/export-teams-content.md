@@ -1,5 +1,5 @@
 ---
-title: 使用导出 API Microsoft Teams内容
+title: 使用Microsoft Teams导出 API 导出内容
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: reference
 audience: admin
 ms.service: msteams
 ms.reviewer: vikramju
-description: 本文将了解如何使用导出 API Teams导出Microsoft Teams内容。
+description: 本文介绍如何使用Microsoft Teams导出 API 导出Teams内容。
 ms.localizationpriority: medium
 f1.keywords:
 - CSH
@@ -18,82 +18,84 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 84f53b5c75c9e99e3a3bfc2877c096b32fe3b9c0
-ms.sourcegitcommit: 26ce61afcb743c8b9e06b4fa048ad93ab70c31c5
+ms.openlocfilehash: 2f59b275d3caaaa94fc55cf7bc2418ebe0aee4ba
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "60082862"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674214"
 ---
-# <a name="export-content-with-the-microsoft-teams-export-apis"></a>使用导出 API Microsoft Teams内容
+# <a name="export-content-with-the-microsoft-teams-export-apis"></a>使用Microsoft Teams导出 API 导出内容
 
-Teams使用导出 API，你可以从游戏导出 1：1、群组聊天、会议聊天和Microsoft Teams。 如果组织需要导出Microsoft Teams，可以使用导出 API Teams它们。 *聊天消息* 表示频道 [或聊天中的](/graph/api/resources/channel?view=graph-rest-beta) 单个聊天 [消息](/graph/api/resources/chat?view=graph-rest-beta)。 聊天消息可以是聊天消息中的根聊天消息或由聊天消息中的 **replyToId** 属性定义的回复线程的一部分。
+Teams导出 API，可以从Microsoft Teams导出 1：1、群聊、会议聊天和频道消息。 如果组织需要导出Microsoft Teams消息，则可以使用Teams导出 API 提取它们。 *聊天消息* 表示 [频道](/graph/api/resources/channel) 或聊天中的单个 [聊天](/graph/api/resources/chat)消息。 聊天消息可以是根聊天消息或由聊天消息中的 **replyToId** 属性定义的回复线程的一部分。
 
-下面是一些有关如何使用这些导出 API 的示例：
+下面是有关如何使用这些导出 API 的一些示例：
 
-- **示例 1：** 如果已启用Microsoft Teams，并且想要通过传递给定用户或团队的日期范围，以编程方式导出所有 Microsoft Teams 消息。
-- **示例 2：** 如果要通过提供日期范围以编程方式每天导出所有用户或团队消息。 导出 API 可以检索在给定日期范围内创建或更新的所有消息。
+- **示例 1**：如果已在组织中启用Microsoft Teams，并且想要通过传递给定用户或团队的日期范围，以编程方式导出所有Microsoft Teams消息。
+- **示例 2**：如果要通过提供日期范围以编程方式每天导出所有用户或团队消息。 导出 API 可以检索在给定日期范围内创建或更新的所有消息。
 
-## <a name="what-is-supported-by-the-teams-export-apis"></a>导出 API 支持Teams哪些功能？
+## <a name="what-is-supported-by-the-teams-export-apis"></a>Teams导出 API 支持什么？
 
-- 批量导出 Teams 消息 **：Teams** 导出 API 支持每个租户最多 200 个 RPS，应用程序最多支持 600 个 RPS，这些限制应该可以批量导出 Teams 消息。
-- **应用程序上下文**：若要调用 Microsoft Graph，你的应用必须从应用程序获取访问Microsoft 标识平台。 访问令牌包含有关应用的信息，以及该应用对通过 Microsoft Graph 提供的资源和 API 的权限。 若要获取访问令牌，你的应用必须注册到 Microsoft 标识平台并且由用户或管理员授权才能访问所需的 Microsoft Graph资源。
+- **批量导出Teams消息：** Teams导出 API 支持每个租户最多 200 个 RPS，应用程序支持 600 个 RPS，这些限制应能够批量导出Teams消息。
+- **应用程序上下文**：若要调用 Microsoft Graph，应用必须从Microsoft 标识平台获取访问令牌。 访问令牌包含有关应用的信息，以及它对通过 Microsoft Graph 提供的资源和 API 拥有的权限。 若要获取访问令牌，必须向Microsoft 标识平台注册应用，并经用户或管理员授权才能访问所需的 Microsoft Graph资源。
 
-    如果已熟悉将应用与应用集成Microsoft 标识平台获取令牌，请参阅"下一步"部分，了解特定于[](/graph/auth/auth-concepts?view=graph-rest-1.0#next-steps)Microsoft Graph。
-- **混合环境：** 导出 API 支持在本地和本地混合环境中预配 (用户Exchange Teams) 。 为混合环境配置的用户发送的任何消息都可以使用导出 API 访问。
-- **用户已删除的消息：** 用户从客户端中删除的消息Teams自删除起最多 21 天内使用导出 API 访问。
-- **邮件附件：** 导出 API 包括作为邮件的一部分发送的附件的链接。 使用导出 API 可以检索邮件中附加的文件。
-- **聊天消息属性：** 请参阅此处导出 API 支持Teams的完整 [属性列表](/graph/api/resources/chatmessage?view=graph-rest-beta#properties)。
+    如果已熟悉将应用与Microsoft 标识平台集成以获取令牌，请[参阅“后续步骤”](/graph/auth/auth-concepts#next-steps)部分，了解特定于 Microsoft Graph 的信息和示例。
+- **混合环境：** 导出 API 支持在混合环境上预配的用户发送的消息 (本地Exchange和Teams) 。 配置为混合环境的用户发送的任何消息都可以使用导出 API 访问。
+- **用户已删除的消息：** 用户从Teams客户端中删除的消息可以使用导出 API 访问，从删除时间起最多 21 天。
+- **消息附件：** 导出 API 包括指向作为消息一部分发送的附件的链接。 使用导出 API 可以检索消息中附加的文件。
+- **聊天消息属性：** 请参阅 [此](/graph/api/resources/chatmessage#properties)处Teams导出 API 支持的属性的完整列表。
 
->[!NOTE]
->导出 API 不支持 *回应*。
+> [!NOTE]
+> 导出 API 不支持 *响应*。
 
-## <a name="how-to-access-teams-export-apis"></a>如何访问Teams API
+## <a name="how-to-access-teams-export-apis"></a>如何访问Teams导出 API
 
-- **示例 1** 是一个简单的查询，用于检索用户或团队的所有消息，而无需任何筛选器：
+- **示例 1** 是一个简单的查询，用于在没有任何筛选器的情况下检索用户或团队的所有消息：
 
-    ```HTTP
-    GET https://graph.microsoft.com/v1.0/users/{id}/chats/getAllMessages
-    ```
-     ```HTTP
-    GET https://graph.microsoft.com/v1.0/teams/{id}/channels/getAllMessages
-    ```
+  ```HTTP
+  GET https://graph.microsoft.com/v1.0/users/{id}/chats/getAllMessages
+  ```
+
+  ```HTTP
+  GET https://graph.microsoft.com/v1.0/teams/{id}/channels/getAllMessages
+  ```
 
 - **示例 2** 是一个示例查询，用于通过指定日期时间筛选器和前 50 条消息来检索用户或团队的所有消息：
 
-    ```HTTP
-    GET https://graph.microsoft.com/v1.0/users/{id}/chats/getAllMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
-    ```
-    ```HTTP
-    GET https://graph.microsoft.com/v1.0/teams/{id}/channels/getAllMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
-    ```
->[!NOTE]
->如果有多个结果，API 会返回包含下一页链接的响应。 要获取下一组结果，只需从 @odata.nextlink 对 url 调用 GET。 如果@odata.nextlink 不存在或为 null，则检索所有消息。
+  ```HTTP
+  GET https://graph.microsoft.com/v1.0/users/{id}/chats/getAllMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
+  ```
 
-## <a name="prerequisites-to-access-teams-export-apis"></a>访问导出 API Teams的先决条件 
+  ```HTTP
+  GET https://graph.microsoft.com/v1.0/teams/{id}/channels/getAllMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
+  ```
 
-- Microsoft TeamsMicrosoft 中用于Graph敏感数据的 API 被视为受保护的 API。 导出 API 需要具有除权限和许可之外的附加验证才能使用它们。 若要请求访问这些受保护的 API，请完成 [请求表单](https://aka.ms/teamsgraph/requestaccess)。
-- 应用程序权限由在没有登录用户的情况下运行的应用使用;应用程序权限只能由管理员许可。 需要以下权限：
+> [!NOTE]
+> 如果出现多个结果，API 将返回具有下一页链接的响应。 若要获取下一组结果，只需从 @odata.nextlink 调用 GET。 如果不存在 @odata.nextlink 或 null，则检索所有消息。
 
-    - *Chat.Read.All：* 允许访问所有 1：1、群组聊天和会议聊天消息 
-    - *ChannelMessage.Read.All：* 允许访问所有通道消息  
-    - *User.Read.All：* 允许访问租户的用户列表
+## <a name="prerequisites-to-access-teams-export-apis"></a>访问Teams导出 API 的先决条件
 
-## <a name="license-requirements-for-teams-export-apis"></a>导出 API Teams许可证要求
+- Microsoft Graph中访问敏感数据的Microsoft Teams API 被视为受保护的 API。 导出 API 要求在使用 API 之前，必须具有超出权限和许可的其他验证。 若要请求访问这些受保护的 API，请完成 [请求表单](https://aka.ms/teamsgraph/requestaccess)。
+- 应用程序权限由在没有登录用户存在的情况下运行的应用使用;应用程序权限只能由管理员同意。 需要以下权限：
+  - *Chat.Read.All*：允许访问所有 1：1、组聊天和会议聊天消息
+  - *ChannelMessage.Read.All*：允许访问所有通道消息
+  - *User.Read.All*：允许访问租户的用户列表
 
-导出 API 通过模型查询 (S+C) 和常规使用方案支持安全性和符合性。 模型 A (的 S+C 方案) 包括种子容量，并且需要 E5 订阅和常规使用方案 (模型 B) 可用于所有订阅，并且仅消耗。 有关种子容量和消耗费用详细信息，请参阅 Microsoft Graph Teams API 的许可[和付款要求](/graph/teams-licenses)。
+## <a name="license-requirements-for-teams-export-apis"></a>Teams导出 API 的许可证要求
+
+导出 API 通过模型查询参数支持安全性和符合性 (S+C) 和常规使用方案。  (模型 A) 的 S+C 方案包括种子化容量，并且需要 E5 订阅和常规使用方案 (模型 B) 适用于所有订阅，并且仅供使用。 有关种子容量和消耗费的详细信息，请参阅 [Microsoft Graph Teams API 的许可和付款要求](/graph/teams-licenses)。
 
 ### <a name="scmodel-a-scenarios"></a>S+C/模型 A 方案
 
-限制为执行安全性和/或符合性功能的应用程序，用户必须具有特定的 E5 许可证，以便使用此功能并接收种子容量。 种子容量按用户计算，按月计算，在租户级别聚合。 对于超出种子容量的使用，应用所有者将按 API 使用计费。 模型 A 只能访问来自具有已分配 E5 许可证的用户的消息。
+仅限于执行安全性和/或符合性功能的应用程序，用户必须具有特定的 E5 许可证才能使用此功能并接收种子容量。 种子容量是每个用户，按月计算，在租户级别进行聚合。 对于超出种子容量的使用情况，应用所有者需按 API 使用量计费。 模型 A 只能访问分配有 E5 许可证的用户的消息。
 
-### <a name="general-usagemodel-b-scenarios"></a>常规用法/模型 B 方案
+### <a name="general-usagemodel-b-scenarios"></a>常规使用情况/B 模型方案
 
-适用于所有非 S+C 相关方案，没有许可证要求或种子容量。 当消耗指标可用时，将针对所有每月 API 调用向应用所有者收费。 
+适用于所有非 S+C 相关方案，没有许可证要求或种子化容量。 当使用计量变为可用时，应用所有者将针对所有每月 API 调用收费。
 
 ### <a name="evaluation-mode-default"></a>评估模式 (默认) 
 
-没有任何模型声明允许访问每个请求应用程序的使用量有限的 API，以便进行评估。 
+任何模型声明都无法访问每个请求应用程序的 API，但出于评估目的，每个请求应用程序的使用率有限。
 
 ## <a name="json-representation"></a>JSON 表示形式
 
@@ -135,5 +137,5 @@ Teams使用导出 API，你可以从游戏导出 1：1、群组聊天、会议�
 }
 ```
 
->[!NOTE]
->有关 chatMessage 资源的更多详细信息，请参阅 [chatMessage 资源类型一](/graph/api/resources/chatmessage) 文。
+> [!NOTE]
+> 有关 chatMessage 资源的详细信息，请参阅 [chatMessage 资源类型](/graph/api/resources/chatmessage) 文章。

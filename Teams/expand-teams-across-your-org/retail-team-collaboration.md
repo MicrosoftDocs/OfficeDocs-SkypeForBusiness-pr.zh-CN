@@ -12,6 +12,9 @@ ms.date: 03/01/2019
 ms.service: msteams
 ms.collection:
 - M365-collaboration
+- microsoftcloud-retail
+- m365solution-retail
+- m365solution-scenario
 ms.localizationpriority: high
 search.appverid: MET150
 searchScope:
@@ -19,12 +22,12 @@ searchScope:
 - Microsoft Cloud for Retail
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f86550586a28e1d5261cacb17941b9501d5402a1
-ms.sourcegitcommit: 1190cd73656dbc9131d46e0a827e28bcd960dfc5
+ms.openlocfilehash: a82512fbc692390615d883a428d48a46b5876fc0
+ms.sourcegitcommit: 55926815f13efce42fb45f63d95515a5765e0d40
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "62864045"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65753115"
 ---
 # <a name="retail-team-collaboration"></a>零售团队协作
 

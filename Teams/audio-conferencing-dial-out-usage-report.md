@@ -21,28 +21,28 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 了解哪些国家和地区有电话拨入式会议号码，以及如何自动分配电话。
-ms.openlocfilehash: 16cdae3a377d5ce87c218affc4944051f14f2631
-ms.sourcegitcommit: 0967f725aad0a7b9c430b2e30a37ea333007558a
+ms.openlocfilehash: 067ff702478e6b7bae38db458a7088021386e6ec
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "65106438"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675424"
 ---
 # <a name="audio-conferencing-dial-out-usage-report"></a>音频会议拨出使用情况报告
 
-Teams管理中心的音频会议拨出使用情况报告概述了音频会议拨出服务的使用情况和支出。 此报表允许管理员根据所用通信额度和拨出分钟数使用用户级数据。 它将帮助管理员确定未来任何时间点所需的通信额度。
+Teams管理中心的音频会议拨号使用情况报告概述了音频会议拨出服务的使用情况和支出。 此报表允许管理员根据所用通信额度和拨出分钟数使用用户级数据。 它将帮助管理员确定未来任何时间点所需的通信额度。
 
 ## <a name="view-the-audio-conferencing-dial-out-usage-report"></a>查看音频会议拨出使用情况报告
 
-在Microsoft Teams管理中心的左侧导航中， **selectAnalytics & reportsUsage** >  **报表**。 在  **“视图报** 表”下  **报** 表中，选择 **“音频会议”拨出使用情况报告**。
+在Microsoft Teams管理中心的左侧导航中，选择 **“分析”&报告** \> **使用情况报告**。 在 **“查看报表**”选项卡上的 **“报** 表”下，选择 **音频会议拨号使用情况报表**。
 
-在 **“不足”范围内**，可以选择 7 天或 28 天的预定义范围，或设置自定义范围。
+在 **“日期”范围内**，可以选择 7 天或 28 天的预定义范围，或设置自定义范围。
 
-下 **国家/地区预配**，选择首选国家/地区，或全部选择，然后选择 **Run 报表**。
+在 **“国家预配**”下，选择首选国家/地区，或全部选择，然后选择 **“运行报表**”。
 
 ## <a name="report-details"></a>报表详细信息
 
-音频会议拨号使用情况报告有三个主要选项卡，这些选项卡将根据上面下拉列表中选择的范围以图表格式显示信息：
+音频会议拨出使用情况报表有三个主要选项卡，这些选项卡将根据上面下拉列表中选择的范围以图表格式显示信息：
 
 - “ **成本** ”选项卡显示所选时间段内的通信额度，下表提供用户级别的详细信息。
 - “ **使用分钟** 数”选项卡显示所选时间段内的总拨出分钟数，下表提供了用户级别详细信息。

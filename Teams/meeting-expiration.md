@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: 了解如何使用会议策略设置控制Microsoft Teams中的会议过期。
-ms.openlocfilehash: 014989cd2fda0ce28ef96ee53c82908f814ee8c7
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+ms.openlocfilehash: 08cdcd9b7d7f18dafa468bd33ca065dafb5768a6
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646211"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675354"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>会议策略和会议到期时间Microsoft Teams
 
@@ -131,7 +131,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -NewMeetingRecordingExpirationDays 50
 
 ### <a name="will-this-feature-enforce-file-retention"></a>此功能是否会强制文件进行保留？
 
-否，文件不会因此功能或其设置而保留。 如果具有删除权限的用户尝试删除有到期设置的 TMR，则将执行该用户的删除操作。
+否，文件不会因此功能或其设置而保留。 如果具有删除权限的用户尝试删除具有过期设置的 TMR，则将执行该用户的删除操作。
 
 ### <a name="what-skus-are-required-for-this-feature"></a>此功能需要哪些 SKU？
 

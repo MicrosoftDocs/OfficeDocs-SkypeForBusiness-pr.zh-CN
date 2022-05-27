@@ -16,16 +16,16 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e57686e2decb5b2d663f75f1ad7884220a9ff4c2
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 38698179e2a3b4c6ca402190c98f89f329820d6e
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922803"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675404"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft Teams中的信息障碍
 
-[Microsoft Purview 信息屏障](/microsoft-365/compliance/information-barriers) (IB) 是管理员可以配置的策略，以防止个人或组相互通信。 例如，如果一个部门正在处理不应与其他部门共享的信息，则 IB 非常有用。 当需要隔离或阻止组与该组外部的任何人通信时，IB 也非常有用。 信息屏障支持Microsoft Teams中的共享通道。 根据共享类型，信息屏障策略可能会以某些方式限制共享。 有关共享通道和信息屏障行为的详细信息，请参阅 [信息屏障和共享通道](information-barriers-shared-channels.md)。
+[Microsoft Purview信息屏障](/microsoft-365/compliance/information-barriers) (IB) 是管理员可以配置的策略，以防止个人或组相互通信。 例如，如果一个部门正在处理不应与其他部门共享的信息，则 IB 非常有用。 当需要隔离或阻止组与该组外部的任何人通信时，IB 也非常有用。 信息屏障支持Microsoft Teams中的共享通道。 根据共享类型，信息屏障策略可能会以某些方式限制共享。 有关共享通道和信息屏障行为的详细信息，请参阅 [信息屏障和共享通道](information-barriers-shared-channels.md)。
 
 对于Microsoft Teams，信息屏障可以确定和防止以下类型的未经授权的协作：
 
@@ -37,7 +37,7 @@ ms.locfileid: "64922803"
 
 >[!NOTE]
 >- 无法跨租户创建信息屏障组。
->- 版本 1 不支持使用机器人、Azure Active Directory (Azure AD) 应用、发送活动源通知的 API 以及添加用户的某些 API。
+>- 版本 1 不支持使用机器人、Azure Active Directory (Azure AD) 应用、用于发送活动源通知的 API 以及用于添加用户的某些 API。
 >- 专用通道符合你配置的信息屏障策略。
 >- 有关支持SharePoint连接到Teams的站点的屏障的信息，请参阅[与Microsoft Teams站点关联的段](/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites)。
 
@@ -67,14 +67,14 @@ IB 的主要驱动力来自金融服务行业。 金融行业监管局 ([FINRA](
 
 ## <a name="managing-information-barrier-policies"></a>管理信息屏障策略
 
-IB 策略在 Microsoft Purview 合规性门户中管理， (使用 PowerShell cmdlet 的 SCC) 。 有关详细信息，请参阅 [定义信息屏障的策略](/office365/securitycompliance/information-barriers-policies)。
+IB 策略使用 PowerShell cmdlet 在 Microsoft Purview 合规门户 (SCC) 中进行管理。 有关详细信息，请参阅 [定义信息屏障的策略](/office365/securitycompliance/information-barriers-policies)。
 
 >[!IMPORTANT]
 >在设置或定义策略之前，必须在Microsoft Teams中启用作用域内目录搜索。 启用作用域内目录搜索后，请等待至少几个小时，然后才能为信息屏障设置或定义策略。 有关详细信息，请参阅 [“定义信息屏障策略](/office365/securitycompliance/information-barriers-policies#prerequisites)”。
 
 ## <a name="information-barriers-administrator-role"></a>信息屏障管理员角色
 
-IB 合规性管理角色负责管理 IB 策略。 有关此角色的详细信息，请参阅 [Microsoft Purview 合规性门户中的权限](/office365/securitycompliance/permissions-in-the-security-and-compliance-center)。
+IB 合规性管理角色负责管理 IB 策略。 有关此角色的详细信息，请参阅[Microsoft Purview 合规门户中的权限](/office365/securitycompliance/permissions-in-the-security-and-compliance-center)。
 
 ## <a name="information-barrier-triggers"></a>信息屏障触发器
 

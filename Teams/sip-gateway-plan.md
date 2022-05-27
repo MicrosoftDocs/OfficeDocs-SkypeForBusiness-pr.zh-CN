@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 77d33d29a51fe32fff6901fdcb8ba33ecad107f7
-ms.sourcegitcommit: cd9a1f7afaaf053741c81022e7052bf6f8008fcc
+ms.openlocfilehash: 0a1a178c279a418c0555f100c48a63c9efe71717
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/12/2022
-ms.locfileid: "65370895"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681783"
 ---
 # <a name="plan-for-sip-gateway"></a>规划 SIP 网关
 
@@ -47,8 +47,7 @@ SIP 网关将兼容的 SIP 设备连接到Teams，以帮助用户无缝迁移到
 - **双色调多频：** SIP 设备用户可以按数字键在交互式语音响应呼叫期间提供输入。
 - **Teams会议：** SIP 设备用户可以通过拨打会议访问号码加入Teams会议。 会议参与者可以通过拨出用户的电话号码将 SIP 设备用户添加到会议，或者只需单击“加入请求”添加参与者，也会提醒用户的 SIP 设备。 另一个组织的来宾用户可由参与者添加到Teams会议，该参与者会拨通来宾用户的号码以包括该来宾。
 - **呼叫传输：** SIP 设备用户可以传输呼叫。 SIP 网关支持盲目传输和协商传输。
-- **本地呼叫转接：** SIP 设备用户可以始终 (超时和设备忙) 设置转发规则。 如果设备已连接到 SIP 网关，则会根据设备用户设置的规则将调用重定向到目标地址。 若要使本地呼叫转接正常工作，管理员必须将属性`Set-CsTeamsCallingPolicy`设置`AllowCallRedirect`为 `Enabled`。 
-
+- **本地呼叫转接：** SIP 设备用户可以始终 (超时和设备忙) 设置转发规则。 如果设备已连接到 SIP 网关，则会根据设备用户设置的规则将调用重定向到目标地址。 若要使本地呼叫转接正常工作，管理员必须将属性`Set-CsTeamsCallingPolicy`设置`AllowCallRedirect`为 `Enabled`。
 
 ## <a name="requirements-to-use-sip-gateway"></a>使用 SIP 网关的要求
 
@@ -56,7 +55,8 @@ Teams用户必须具有启用了 PSTN 呼叫的电话号码才能使用 SIP 网�
 
 ### <a name="hardware-software-and-licenses"></a>硬件、软件和许可证
 
-如果有 3PIP 或 SIP 设备，则必须具有： 
+如果有 3PIP 或 SIP 设备，则必须具有：
+
 - 通过 E5 或独立许可证) 电话系统 (的许可证
 - PSTN 启用 (，即通过Microsoft Teams呼叫计划、直接路由或运营商连接) 电话号码
 - 任何公共区域设备的通用区域电话许可证

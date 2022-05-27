@@ -1,5 +1,5 @@
 ---
-title: Teams 教育版中“家长”的管理员设置
+title: 管理员在Teams 教育版中设置家长
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f08ddd68d036d18e4ea18073dd0711e32e0c91e
-ms.sourcegitcommit: 0c7d199b2f7580dbfa8ce755eda97ec70bc86978
+ms.openlocfilehash: ccc69a07d523b046298643ad387e31e25138096f
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2022
-ms.locfileid: "65393866"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65676124"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>在Microsoft Teams 教育版中设置父连接
 
@@ -102,8 +102,8 @@ Teams 教育版中的家长连接可帮助教师使用Teams安全地与班级团
 
 类所有者可以：
 
-1. 打开监护人的配置文件卡，选择省略号并 **阻止用户**。 
-2. 然后，从聊天中删除监护人。 
+1. 打开监护人的配置文件卡，选择省略号并 **阻止用户**。
+2. 然后，从聊天中删除监护人。
 
 被阻止的用户将无法与类所有者开始其他聊天。
 

@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 90395ab4bd9563a6bd9ad12ae6d9c1d164ddc89b
-ms.sourcegitcommit: 745d707ec63685ce7f973785e7056628472b9c45
+ms.openlocfilehash: acdb924476ca9239b4298700d7f3186d7e80106a
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "64910868"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675014"
 ---
 # <a name="overview-of-third-party-apps-in-microsoft-teams"></a>Microsoft Teams 中的第三方应用概述
 
@@ -37,6 +37,6 @@ Microsoft Teams 中的第三方应用不受 Microsoft 控制或拥有，不受 M
 
 1. Microsoft 应用合规性计划：
 
-   * [发布者验证](overview-of-app-certification.md#publisher-verification)
-   * [发布者证明](overview-of-app-certification.md#publisher-attestation)
-   * [Microsoft 365 认证](overview-of-app-certification.md#microsoft-365-certification)
+   - [发布者验证](overview-of-app-certification.md#publisher-verification)
+   - [发布者证明](overview-of-app-certification.md#publisher-attestation)
+   - [Microsoft 365 认证](overview-of-app-certification.md#microsoft-365-certification)

@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 222ea1852ef4336c21cfb24c977c20665a667ff3
-ms.sourcegitcommit: 9968ef7d58c526e35cb58174db3535fd6b2bd1db
+ms.openlocfilehash: 8d3b56a7935f31413829c89285fc81ee70023ab4
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "65284067"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675764"
 ---
 # <a name="configure-operator-connect"></a>配置运营商连接
 
@@ -71,7 +71,7 @@ ms.locfileid: "65284067"
 4. **分配数字。** 操作员完成订单后，会将数字上传到租户。 可以通过转到语音> 电话数字来查看Teams管理中心 **中的数字** 和提供程序。 从Teams管理中心或使用 PowerShell 向用户分配数字。 有关详细信息，请参阅 [分配数字](#assign-numbers)。
 
 > [!NOTE]
-> 除了 [为用户输入电话号码](getting-phone-numbers-for-your-users.md)外，还可以为会议桥) 、自动助理和呼叫队列等服务（例如音频会议 (、自动助理和呼叫队列）获取收费或免费电话号码 (也称为服务号码) 。 服务电话号码具有比用户或订阅者电话号码更高的并发呼叫容量。 例如，服务号码可以同时处理数百个呼叫，而用户的电话号码只能同时处理几个呼叫。 若要获取服务号码，请联系你的操作员。
+> 除了[为用户获取电话号码](getting-phone-numbers-for-your-users.md)外，还可以为会议桥 音频会议 () 、自动助理和呼叫队列等服务获取收费或免费电话号码 (也称为服务号码) 。 服务电话号码具有比用户或订阅者电话号码更高的并发呼叫容量。 例如，服务号码可以同时处理数百个呼叫，而用户的电话号码只能同时处理几个呼叫。 若要获取服务号码，请联系你的操作员。
 
 ### <a name="emergency-addresses"></a>紧急地址
 

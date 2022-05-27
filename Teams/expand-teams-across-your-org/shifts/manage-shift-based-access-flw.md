@@ -1,5 +1,5 @@
 ---
-title: 管理工作电话中一线员工基于排班Teams
+title: 管理Teams中一线工人的基于轮班的访问权限
 author: SerdarSoysal
 ms.author: serdars
 ms.reviewer: aaku
@@ -8,62 +8,62 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: 了解如何管理组织中一线Teams基于班次的访问。
+description: 了解如何管理组织中一线工作者Teams中基于班次的访问权限。
 ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d177ac362b7b8c0d1f91be5322fb49696a5cc9b7
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 9cb488dfb95647079b51269059ee5c0b120cb9cc
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62393484"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675214"
 ---
-# <a name="manage-shift-based-access-for-frontline-workers-in-teams"></a>管理工作电话中一线员工基于排班Teams
+# <a name="manage-shift-based-access-for-frontline-workers-in-teams"></a>管理Teams中一线工人的基于轮班的访问权限
 ## <a name="overview"></a>概述
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
-"Microsoft Teams状态"表示用户当前的可用性和其他用户的状态。 一线员工的存在通常不如其他员工预测，因为每天的工作时间通常不同。 作为管理员，您可以配置Teams为您的组织中的一线员工显示一组基于排班的显示状态，以指示他们何时上班和下班。
+Microsoft Teams中的状态向其他用户指示用户的当前可用性和状态。 一线工人的存在往往比其他工作人员更难以预测，因为他们的工作时间通常不是每天相同的。 作为管理员，你可以将Teams配置为显示一组基于班次的状态，供组织中的一线工作人员指示他们何时上下班。
 
-这些基于班次的显示状态&mdash;![Solid 绿色对号，表示"正在轮班"。](../../media/flw-presence-on-shift.png) **在 shift 时**，带 ![x 的灰色圆圈表示"关班"。](../../media/flw-presence-off-shift.png) **"关班**"![（实心红色圆圈&mdash;](../../media/flw-presence-busy.png)）表示"忙碌"与 [](../../presence-admins.md)"正在"状态的默认状态集Teams。 借助这两组状态，你可以根据用户的角色为组织成员配置不同的体验。
+这些基于班次的状态表示&mdash;![纯绿色复选标记，指示“轮班”。](../../media/flw-presence-on-shift.png) **轮班时**， ![带有 x 的灰色圆圈指示“脱班”。](../../media/flw-presence-off-shift.png) **脱班**，![纯红色圆圈，指示 **忙碌**&mdash;](../../media/flw-presence-busy.png)与Teams中的 [默认状态集](../../presence-admins.md)分开。 使用这两组状态，可以根据组织中人员的角色为其配置不同的体验。
 
-使用基于排班的访问，可以在一线Teams排班时管理对员工的访问权限。 例如，可以设置Teams以显示一条消息，即一线员工必须先确认，Teams排班时才能使用。  
+使用基于轮班的访问权限，可以在一线工作人员轮班时管理对Teams的访问。 例如，可以将Teams设置为显示一条消息，一线工作人员必须先确认该消息，然后才能在未按计划轮班时使用Teams。  
 
 ## <a name="scenario"></a>使用场景
 
-下面是组织如何管理基于班次的访问的示例。
+下面是组织如何管理基于班次的访问权限的示例。
 
-您的组织中的一线员工只应支付其经理安排和批准的排班工时。 不应为在计划排班外工作的时间支付这些费用，包括使用 Teams 应用。 设置一条自定义消息，显示"Teams 非工作时间不计入应付时间"，当一线员工尝试在轮班时访问 Teams 时，会显示该消息。 如果他们选择使用Teams，则单击"我接受"，了解这一次不会付费。
+你的组织中有一线工作人员，他们只应在经理安排和批准的轮班上工作数小时。 不应为在计划班次之外工作的时间（包括使用Teams应用）付费。 你设置了一条自定义消息，显示“轮班时Teams时间不计入应付费时间”，当一线工作人员尝试在下班时访问Teams时，会显示该消息。 如果他们选择使用Teams，他们单击 **我接受** 的理解，他们不会支付这一次。
 
-您组织中还有一些具有薪金和不工作班次的信息工作者。 将信息工作者配置为使用默认状态Teams同时为一线员工提供基于班次的显示。
+组织中还有受薪、不轮班工作的信息工作者。 将信息工作者配置为使用Teams中的默认状态，同时为一线工作人员提供基于轮班的状态。
 
 ## <a name="shift-based-presence-states"></a>基于班次的状态
 
-下面是基于班次的"状态"。
+下面是基于班次的状态。
 
 |应用配置 |用户配置  |更多信息  |
 |---------|---------|---------|
-|![实心绿色对号，表示"上移"。](../../media/flw-presence-on-shift.png) 轮班     |         |在班次开始时自动设置         |
-|![带 x 的灰色圆圈，指示"关班"](../../media/flw-presence-off-shift.png) 非班次     |         |在班次结束时自动设置         |
-|![实心红色圆圈，表示忙碌。](../../media/flw-presence-busy.png) 忙碌      | ![实心红色圆圈，表示忙碌](../../media/flw-presence-busy.png) 忙碌         |自动设置。 还可以在一线工作人员上班时手动设置。|
+|![纯绿色复选标记，指示启用班次。](../../media/flw-presence-on-shift.png) 轮班时     |         |在班次开始时自动设置         |
+|![带有 x 的灰色圆圈，指示关闭班次](../../media/flw-presence-off-shift.png) 关闭班次     |         |在班次结束时自动设置         |
+|![实心红色圆圈，表示忙碌。](../../media/flw-presence-busy.png) 忙碌      | ![实心红色圆圈，表示忙碌](../../media/flw-presence-busy.png) 忙碌         |自动设置。 也可以在一线工作人员轮班时手动设置。|
 
-## <a name="off-shift-access-to-teams"></a>不轮班访问Teams
+## <a name="off-shift-access-to-teams"></a>离班访问Teams
 
-此功能允许管理在一线Teams员工排班时对员工的访问权限。 您可以设置Teams，在一线员工在轮班时访问Teams向一线员工显示消息。 一线员工必须 **单击"我接受**"才能确认消息，才能Teams。
+使用此功能，可在一线工作人员轮班时管理对Teams的访问权限。 如果一线工作人员在下班时访问Teams，则可以设置Teams以向他们显示一条消息。 一线工作人员必须单击 **“我接受**”以确认消息，然后才能使用Teams。
 
-您可以使用默认消息，从一组预定义邮件中选择，或自定义邮件以显示任何需要的文本。 下面是默认消息：
+可以使用默认消息、从一组预定义的消息中进行选择，或自定义消息以显示所需的任何文本。 默认消息如下：
 
 ![默认消息的屏幕截图。](../../media/shifts-presence-message.png)
 
-还可以设置显示消息的频率，并设置介于第一个轮班开始或最后一个轮班结束和限制对Teams之间的宽限期。
+还可以设置显示消息的频率，并设置从第一个班次开始或最后一个班次结束到限制对Teams的访问之间的宽限期。
 
 ## <a name="manage-shift-based-access"></a>管理基于班次的访问
 
-作为管理员，您可以使用策略来控制组织中一线员工基于排班的存在。 可以使用以下 PowerShell cmdlet 管理这些策略：
+作为管理员，可以使用策略来控制组织中一线员工基于班次的存在。 使用以下 PowerShell cmdlet 管理这些策略：
 
 - [New-CsTeamsShiftsPolicy](/powershell/module/teams/new-csteamsshiftspolicy)
 - [Get-CsTeamsShiftsPolicy](/powershell/module/teams/get-csteamsshiftspolicy)
@@ -71,53 +71,53 @@ ms.locfileid: "62393484"
 - [Grant-CsTeamsShiftsPolicy](/powershell/module/teams/grant-csteamsshiftspolicy)
 - [Remove-CsTeamsShiftsPolicy](/powershell/module/teams/remove-csteamsshiftspolicy)
 
-使用 New-CsTeamsShiftsPolicy cmdlet 创建新策略，设置想要的策略设置，然后使用 Grant-CsTeamsShiftsPolicy cmdlet 将策略分配给用户。
+使用New-CsTeamsShiftsPolicy cmdlet 创建新策略、设置所需的策略设置，然后使用Grant-CsTeamsShiftsPolicy cmdlet 将策略分配给用户。
 
-此处为一些示例。 有关每个策略设置和参数的详细信息，包括可以选择的预定义班次消息列表，请参阅 [New-CsTeamsShiftsPolicy](/powershell/module/teams/new-csteamsshiftspolicy)。
+此处为一些示例。 有关每个策略设置和参数的详细信息，包括可从中选择的预定义的脱班消息列表，请参阅 [New-CsTeamsShiftsPolicy](/powershell/module/teams/new-csteamsshiftspolicy)。
 
 ### <a name="example-1"></a>示例 1
 
-本示例创建名为 Off Shift 的新策略Teams访问默认消息。 在此策略中，基于班次的显示状态将打开，并且每当分配了此策略的用户在轮班时访问Teams会显示默认消息。 如果用户接受Teams，则用户可以在轮班时使用该模式，以及第一个班次开始或最后一个轮班结束到限制访问之间的宽限期为 10 分钟。  
+在此示例中，我们将创建名为“关闭班次”的新策略Teams访问默认消息。 在此策略中，将启用基于班次的状态，并且每次分配此策略的用户在停班时访问Teams时都会显示默认消息。 如果用户接受消息，则用户可以在脱班时使用Teams;第一个班次开始或最后一班结束以及访问受限时间为 10 分钟之间的宽限期。  
 
 ```powershell
-New-CsTeamsShiftsPolicy -Identity "Off Shift Teams Access Default Message" -EnableShiftPresence $true -ShiftNoticeFrequency always -ShiftNoticeMessageType DefaultMessage -AccessType UnrestrictedAccess_TeamsApp -AccessGracePeriodMinutes 10
+New-CsTeamsShiftsPolicy -Identity "Off Shift Teams Access Default Message" -EnableShiftPresence $true -ShiftNoticeFrequency always -ShiftNoticeMessageType DefaultMessage -AccessType UnrestrictedAccess_TeamsApp -AccessGracePeriodMinutes 10
 ```
 
 > [!NOTE]
-> 使用 **ShiftNoticeMessageType** 参数设置要显示的消息。 若要查看为此参数可以选择的预定义消息的列表，请参阅 [New-CsTeamsShiftsPolicy](/powershell/module/teams/new-csteamsshiftspolicy)。
+> 使用 **ShiftNoticeMessageType** 参数设置要显示的消息。 若要查看可为此参数选择的预定义消息的列表，请参阅 [New-CsTeamsShiftsPolicy](/powershell/module/teams/new-csteamsshiftspolicy)。
 
 ### <a name="example-2"></a>示例 2 
 
-本示例创建名为 Off Shift 的新策略Teams Access 自定义消息。 在此策略中，每次分配此策略的用户在轮班时访问基于班次Teams显示自定义消息。 如果用户接受Teams，则用户可以在轮班时，以及第一个轮班开始或最后一个轮班结束到限制访问之间的宽限期为 15 分钟。  
+在此示例中，我们将创建名为“关闭班次”的新策略Teams访问自定义消息。 在此策略中，将启用基于班次的状态，并且每次分配此策略的用户在停班时访问Teams时都会显示自定义消息。 如果用户接受消息，则用户可以在脱班时使用Teams;第一个班次开始或最后一班结束以及限制访问时间为 15 分钟之间的宽限期。  
 
 ```powershell
 New-CsTeamsShiftsPolicy -Identity "Off Shift Teams Access Custom Message" -EnableShiftPresence $true -ShiftNoticeFrequency always -ShiftNoticeMessageType CustomMessage -ShiftNoticeMessageCustom "Your time on Teams when on off shift won't count toward payable hours" -AccessType UnrestrictedAccess_TeamsApp -AccessGracePeriodMinutes 15
 ```
 
 > [!NOTE]
-> 使用 **ShiftNoticeMessageType** 参数设置要显示的消息。 有关详细信息，请参阅 [New-CsTeamsShiftsPolicy](/powershell/module/teams/new-csteamsshiftspolicy)。
+> 使用 **ShiftNoticeMessageType** 参数设置要显示的消息。 若要了解详细信息，请参阅 [New-CsTeamsShiftsPolicy](/powershell/module/teams/new-csteamsshiftspolicy)。
 
 ### <a name="example-3"></a>示例 3
 
-本示例创建名为 Off Shift 的新策略Teams Access Message1。 在此策略中，启用基于班次的显示状态，并且每次分配此策略的用户在轮班时访问Teams显示以下预定义消息。
+在此示例中，我们将创建名为“关闭班次”的新策略Teams访问消息 1。 在此策略中，将打开基于班次的状态，并且每次分配此策略的用户在轮班时访问Teams时，都会显示以下预定义消息。
 
-  "您的雇主不会授权或批准非豁免或每小时员工在其非工作时间使用其网络、应用程序、系统或工具。 通过接受，即表示你确认Teams非授权且您将不获得补偿。" 
+  “你的雇主不授权或批准非豁免或每小时员工在其非工作时间使用其网络、应用程序、系统或工具。 通过接受，你确认在轮班期间使用Teams未获得授权，你将不会得到补偿。 
 
-如果用户接受Teams，则用户可以在轮班时，以及第一个轮班开始或最后一个轮班结束到限制访问之间的宽限期为 3 分钟。  
+如果用户接受消息，则用户可以在脱班时使用Teams;第一个班次开始或最后一个班次结束和限制访问时间之间的宽限期为 3 分钟。  
 
 ```powershell
-New-CsTeamsShiftsPolicy -Identity "Off Shift Teams Access Message1" -EnableShiftPresence $true -ShiftNoticeFrequency always -ShiftNoticeMessageType Message1 -AccessType  UnrestrictedAccess_TeamsApp -AccessGracePeriodMinutes 3
+New-CsTeamsShiftsPolicy -Identity "Off Shift Teams Access Message1" -EnableShiftPresence $true -ShiftNoticeFrequency always -ShiftNoticeMessageType Message1 -AccessType  UnrestrictedAccess_TeamsApp -AccessGracePeriodMinutes 3
 ```
 
 > [!NOTE]
-> 使用 **ShiftNoticeMessageType** 参数设置要显示的消息。 若要查看为此参数可以选择的预定义消息的列表，请参阅 [New-CsTeamsShiftsPolicy](/powershell/module/teams/new-csteamsshiftspolicy)。
+> 使用 **ShiftNoticeMessageType** 参数设置要显示的消息。 若要查看可为此参数选择的预定义消息的列表，请参阅 [New-CsTeamsShiftsPolicy](/powershell/module/teams/new-csteamsshiftspolicy)。
 
 ### <a name="example-4"></a>示例 4
 
-本示例将名为 Off Shift 的策略Teams Access 自定义消息"分配给名为 remy@contoso.com。
+在此示例中，我们将名为 Off Shift Teams访问自定义消息的策略分配给名为 remy@contoso.com 的用户。
 
 ```powershell
-Grant-CsTeamsShiftsPolicy -Identity remy@contoso.com -PolicyName "Off Shift Teams Access Custom Message"
+Grant-CsTeamsShiftsPolicy -Identity remy@contoso.com -PolicyName "Off Shift Teams Access Custom Message"
 ```
 
 ## <a name="related-topics"></a>相关主题

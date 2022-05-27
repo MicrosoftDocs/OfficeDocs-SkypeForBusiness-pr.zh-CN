@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: 获取有关调用质量仪表板 (CQD) 用于Microsoft Teams和联机Skype for Business的维度和度量的详细信息。
-ms.openlocfilehash: 01159d64a1c9fdb48321bdb82b6199d6861c4bfa
-ms.sourcegitcommit: 2c3c067cccd7b84064b5619a0b5f87242af52984
+ms.openlocfilehash: f5614f7f0d14aa0053a613f5f471ae5e5315f1cf
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "65462046"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675934"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>通话质量仪表板 (CQD) 中提供的维度和度量
 
@@ -753,7 +753,7 @@ CQD 使用的字符串通常派生自数据文件，这些字符串几乎可以�
 |P50 数据包丢失率 | 百分比 | 50% 的请求应低于给定的数据包丢失率。|
 |PSTN 传出拨号延迟| 毫秒 | 从拨打号码到呼叫方或被调用方听到呼叫方听到铃声之前，对传出呼叫发生的延迟。|
 |PSTN 拨号延迟后传入 | 毫秒 | 从拨打号码到呼叫方或被调用方听到铃声之前，对传入呼叫所发生的时间或延迟进行测量。|
-|PSTN NER 良好百分比 | 百分比 | NER 通过测量发送的呼叫数与发送给收件人的呼叫数来度量网络传送呼叫的能力。<br/>NER = (应答呼叫 + 用户忙 + 环无应答 + 终端拒绝扣押）/ 尝试呼叫总数 x 100。此度量值的误差高达 0.2%。 有关详细信息，请参阅下面的说明。|
+|PSTN NER 良好百分比 | 百分比 | NER 通过测量发送的呼叫数与发送给收件人的呼叫数来度量网络传送呼叫的能力。<br/>NER = (应答呼叫 + 用户忙 + 环无应答 + 终端拒绝检索) /尝试呼叫总数 x 100。 此度量值的误差高达 0.2%。 有关详细信息，请参阅下面的说明。|
 | Avg 自动助理链持续时间秒 | 整型 | 用户在自动助理中花费的平均持续时间（以秒为单位）。 |
 | Avg 呼叫队列持续时间秒 | 整型 | 用户等待呼叫队列由代理应答的平均持续时间（以秒为单位）。 |
 

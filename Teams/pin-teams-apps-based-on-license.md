@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f717672c4cb297d7f3d2e95ceaa038eeceaa2ee
-ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
+ms.openlocfilehash: b59753e1ad1e5a0be36ed8a0d924d7fa6d6658a2
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "65187118"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675514"
 ---
 # <a name="tailor-teams-apps-for-your-frontline-workers"></a>为一线员工定制 Teams 应用
 
@@ -37,7 +37,7 @@ Teams根据许可证固定应用，为一线员工提供适合其需求的Teams�
 
 ## <a name="tailored-frontline-app-experience"></a>定制的一线应用体验
 
-应用固定到应用栏，这是 iOS 和 Android)  (Teams 移动客户端底部以及Teams桌面客户端的一侧的条形图。 以下应用针对拥有 [F 许可证](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt)的用户进行固定：
+应用固定到应用栏，应用栏是Teams移动客户端底部的栏， (iOS和Android) 以及Teams桌面客户端的一侧。 以下应用针对拥有 [F 许可证](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt)的用户进行固定：
 
 - [活动](https://support.microsoft.com/office/explore-the-activity-feed-in-teams-91c635a1-644a-4c60-9c98-233db3e13a56)
 - [聊天](https://support.microsoft.com/office/get-started-with-chat-0b506ce2-eb6d-4fca-9668-e56980ba755e)
@@ -55,7 +55,7 @@ Teams根据许可证固定应用，为一线员工提供适合其需求的Teams�
 
 :::image type="content" source="media/tailored-teams-apps-desktop.png" alt-text="Teams桌面上定制的一线应用体验" lightbox="media/tailored-teams-apps-desktop.png"::: 
 
-## <a name="admin-controls"></a>管理控件
+## <a name="admin-controls"></a>管理员控件
 
 > [!NOTE]
 > 必须在全局 (组织范围的默认) [应用设置策略](teams-app-setup-policies.md)中启用 **用户固定** 设置，才能使此功能生效。
@@ -66,7 +66,7 @@ Teams根据许可证固定应用，为一线员工提供适合其需求的Teams�
 
 默认情况下，启用此功能。 但是，如果不希望 Microsoft 提供定制的一线应用体验，则可以关闭该功能。 若要关闭或打开该功能，请执行以下操作：
 
-1. 在Microsoft Teams管理中心的左侧导航中，转到 **Teams** **appsManage** >  应用，然后选择 **组织范围的应用设置**。
+1. 在Microsoft Teams管理中心的左侧导航中，转到 **Teams应用** > **管理应用**，然后选择 **组织范围的应用设置**。
 2. 在 **“定制应用**”下，将 **“显示定制应用** ”切换到 **“关闭** ”或 **“打开**”。
 
     :::image type="content" source="media/tailored-teams-apps-admin-center.png" alt-text="Teams管理中心的“管理应用”页上的“显示定制应用”设置的屏幕截图" lightbox="media/tailored-teams-apps-admin-center.png":::

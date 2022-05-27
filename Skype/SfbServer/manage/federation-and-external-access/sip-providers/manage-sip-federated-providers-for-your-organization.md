@@ -14,15 +14,15 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-description: 了解如何配置对 SIP 联盟提供程序用户的支持。
-ms.openlocfilehash: b6a28714ec3ad81470f362f49605d0be4805dbe2
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+description: 了解如何配置对 SIP 联合提供商用户的支持。
+ms.openlocfilehash: dbbf01de2c1538c0761550b073ace573cde44eb7
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62392554"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65676204"
 ---
-# <a name="manage-sip-federated-providers-for-your-organization-in-skype-for-business-server"></a>在组织中管理组织的 SIP 联盟Skype for Business Server
+# <a name="manage-sip-federated-providers-for-your-organization-in-skype-for-business-server"></a>在Skype for Business Server中管理组织的 SIP 联合提供商
 
 要配置对 SIP 联盟提供程序用户的支持，需要执行以下操作：
 
@@ -32,22 +32,22 @@ ms.locfileid: "62392554"
 
   - 指定要支持哪些公共 IM 提供程序
 
-## <a name="create-or-edit-public-sip-federated-providers-in-skype-for-business-server"></a>在服务中创建或编辑公共 SIP 联盟Skype for Business Server
+## <a name="create-or-edit-public-sip-federated-providers-in-skype-for-business-server"></a>在Skype for Business Server中创建或编辑公共 SIP 联合提供程序
 
-公共即时消息 (IM) 连接使贵组织的用户能够使用 IM 与公共提供商提供的 IM 服务的用户进行通信。
+公共即时消息 (即时消息) 连接使组织中的用户能够使用 IM 与公共提供商提供的 IM 服务用户通信。
 
 Skype for Business Server具有用于即时消息的公共提供程序配置。 每个公共提供程序均使用提供程序的边缘服务器完全限定域名和默认验证级别“仅允许用户与其联系人列表中使用此提供程序的人员进行通信”进行配置。
 
-作为默认设置，将不启用任何公共提供程序。 您应先完成许可协议和设置工作，然后再启用公共提供程序。 您可以先启用提供程序，然后再完成许可和设置工作。 在完成首要工作之前，用户将无法与这些提供程序的联系人进行通信。 有关公共提供商的许可和设置的详细信息，请参阅配置[策略以控制公共用户访问。](../external-access-policies/configure-policies-to-control-public-user-access.md)
+作为默认设置，将不启用任何公共提供程序。 您应先完成许可协议和设置工作，然后再启用公共提供程序。 您可以先启用提供程序，然后再完成许可和设置工作。 在完成首要工作之前，用户将无法与这些提供程序的联系人进行通信。 有关公共提供商的许可和预配的详细信息，请参阅 [配置策略以控制公共用户的加入](../external-access-policies/configure-policies-to-control-public-user-access.md)。
 
-使用以下过程可创建或编辑公共提供程序。
+使用以下过程创建或编辑公共提供程序。
 
 
 ### <a name="to-create-or-edit-public-providers"></a>创建或编辑公共提供程序
 
-1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
+1.  从 RTCUniversalServerAdmins 组的成员 (或具有等效用户权限) 或分配给 CsAdministrator 角色的用户帐户登录到内部部署中的任何计算机。
 
-2.  打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。 
+2.  打开浏览器窗口，然后输入管理员 URL 以打开Skype for Business Server 控制面板。 
 
 3.  在左侧导航栏中，单击“联盟和外部访问”，然后单击“SIP 联盟提供程序”。
 
@@ -69,19 +69,19 @@ Skype for Business Server具有用于即时消息的公共提供程序配置。 
 
 7.  配置完这些设置后，请单击“提交”以进行保存，或单击“取消”以放弃更改。
 
-## <a name="create-or-edit-hosted-sip-federated-providers-in-skype-for-business-server"></a>在网站创建或编辑托管 SIP 联盟Skype for Business Server
+## <a name="create-or-edit-hosted-sip-federated-providers-in-skype-for-business-server"></a>在Skype for Business Server中创建或编辑托管的 SIP 联合提供程序
 
-托管提供商即时消息 (IM) 连接使贵组织的用户能够使用 IM 与宿主提供商提供的 IM 服务的用户进行通信。
+托管提供商即时消息 (即时消息) 连接使组织中的用户能够使用 IM 与托管提供商提供的 IM 服务的用户通信。
 
 使用提供程序的边缘服务器的完全限定域名以及默认验证级别 **仅允许用户与其联系人列表上使用此提供程序的人员进行通信** 来配置每个托管提供程序。
 
-使用以下过程可创建或编辑托管提供程序。
+使用以下过程创建或编辑托管提供程序。
 
 ### <a name="to-create-or-edit-hosted-providers"></a>创建或编辑托管提供程序
 
-1.  从 RTCUniversalServerAdmins 组 (或具有同等用户权限) 或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任意计算机。
+1.  从 RTCUniversalServerAdmins 组的成员 (或具有等效用户权限) 或分配给 CsAdministrator 角色的用户帐户登录到内部部署中的任何计算机。
 
-2.  打开浏览器窗口，然后输入管理 URL 以打开Skype for Business Server控制面板。 
+2.  打开浏览器窗口，然后输入管理员 URL 以打开Skype for Business Server 控制面板。 
 
 3.  在左侧导航栏中，单击“联盟和外部访问”，然后单击“SIP 联盟提供程序”。
 
@@ -107,7 +107,7 @@ Skype for Business Server具有用于即时消息的公共提供程序配置。 
 ## <a name="see-also"></a>另请参阅
 
 
-[配置策略以控制公共用户访问](../external-access-policies/configure-policies-to-control-public-user-access.md)
+[配置策略以控制公共用户累加](../external-access-policies/configure-policies-to-control-public-user-access.md)
 
 [启用或禁用联盟和公共 IM 连接](../access-edge/enable-or-disable-federation-and-public-im-connectivity.md)
 

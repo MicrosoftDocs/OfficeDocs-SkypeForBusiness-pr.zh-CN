@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: ba84fbfbdcdc6bc6ad1455971a0acec0fd79121f
-ms.sourcegitcommit: 3f046142c40b3b776165e964f2b8718e2fe55df3
+ms.openlocfilehash: 648150f67471f1721a035e2fd19fded274ecd05e
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2022
-ms.locfileid: "65661683"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681593"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理应用权限策略
 
@@ -59,11 +59,10 @@ ms.locfileid: "65661683"
 
 1. 提供策略的名称和说明。
 1. 在“**Microsoft 应用**”、“**第三方应用**”和“**自定义应用**”下，选择下列选项之一：
-
-    * **允许所有应用**
-    * **允许特定的应用并阻止其他所有应用**
-    * **阻止特定的应用并允许其他所有应用**
-    * **阻止所有应用**
+   - **允许所有应用**
+   - **允许特定的应用并阻止其他所有应用**
+   - **阻止特定的应用并允许其他所有应用**
+   - **阻止所有应用**
 
 1. 如果选择“**允许特定的应用并阻止其他所有应用**”，请添加要允许的应用：
 
@@ -105,9 +104,8 @@ ms.locfileid: "65661683"
   ![GCC中组织范围应用设置的屏幕截图。](media/app-permission-policies-gcc-org-wide.png)
 
 1. 在“**第三方应用**”下，关闭或打开这些设置以控制对第三方应用的访问权限：
-
-    * **允许第三方应用**：此选项控制用户是否可以使用第三方应用。 如果关闭此设置，则你的用户将不能安装或使用任何第三方应用。 在Microsoft 365政府 - GCCH 和 DoD 部署Teams中，此设置默认处于关闭状态。
-    * **允许默认发布到应用商店的任何新的第三方应用**：此选项控制发布到Teams应用商店的新第三方应用是否在Teams中自动可用。 仅在允许第三方应用时才能设置此选项。
+   - **允许第三方应用**：此选项控制用户是否可以使用第三方应用。 如果关闭此设置，则你的用户将不能安装或使用任何第三方应用。 在Microsoft 365政府 - GCCH 和 DoD 部署Teams中，此设置默认处于关闭状态。
+   - **允许默认发布到应用商店的任何新的第三方应用**：此选项控制发布到Teams应用商店的新第三方应用是否在Teams中自动可用。 仅在允许第三方应用时才能设置此选项。
 
 1. 在“**阻止的应用**”下，添加要在整个组织内阻止的应用。 在Microsoft 365政府 - GCCH 和 DoD 部署Teams中，默认情况下，所有第三方应用都会添加到此列表中。 对于想要在组织中允许的任何第三方应用，请从此阻止的应用列表中移除该应用。 当你阻止应用组织范围时，无论是否允许在任何应用权限策略中使用应用，应用都会自动阻止所有用户。
 
@@ -158,12 +156,12 @@ ms.locfileid: "65661683"
 
 例如，当应用被阻止时，用户无法执行以下任何任务：
 
-* 单独添加应用，或将其添加到聊天或团队
-* 向应用机器人发送消息
-* 执行将信息发送回应用的按钮操作，例如可操作邮件  
-* 查看应用的选项卡
-* 设置连接器以接收通知
-* 使用应用的消息传递扩展
+- 单独添加应用，或将其添加到聊天或团队
+- 将消息发送到应用的机器人
+- 执行将信息发送回应用的按钮操作，例如可操作邮件  
+- 查看应用的选项卡
+- 设置连接器以接收通知
+- 使用应用的消息传递扩展
 
 旧版门户允许在组织级别控制应用，这意味着当应用被阻止时，系统将为组织中的所有用户阻止该应用。 在“[管理应用](manage-apps.md)”页面上阻止应用的方式完全相同。
 
@@ -171,6 +169,6 @@ ms.locfileid: "65661683"
 
 ## <a name="see-also"></a>另请参阅
 
-* [Teams 中应用的管理设置](admin-settings.md)
-* [向 Teams 中的用户分配策略](policy-assignment-overview.md)
-* [Teams功能可用性比较](/office365/servicedescriptions/teams-service-description#feature-availability)
+- [Teams 中应用的管理设置](admin-settings.md)
+- [向 Teams 中的用户分配策略](policy-assignment-overview.md)
+- [Teams功能可用性比较](/office365/servicedescriptions/teams-service-description#feature-availability)

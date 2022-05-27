@@ -21,12 +21,12 @@ description: Teams 或 IT 管理员可以为其他域 (联合身份验证) 配�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: b3b1fb8a51993f0c1510a000e835bbae3098e11b
-ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+ms.openlocfilehash: 7d45fea1b0b2fdb5d659f0a025b74473050b3616
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65125717"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674224"
 ---
 # <a name="manage-external-meetings-and-chat-in-microsoft-teams"></a>在 Microsoft Teams 中管理外部会议和聊天
 
@@ -117,14 +117,17 @@ Teams 管理中心控制组织级别的外部访问。 大多数选项 (域限�
 ![外部帐户设置的屏幕截图](./media/external-access-accounts-not-managed-by-org.png)
 
 若要阻止组织中的 Teams 用户与帐户不由组织管理的外部 Teams 用户进行通信:
+
 1. 关闭 **组织中的人员可以与帐户不受组织管理的 Teams 用户进行通信** 设置。
 2. 清除 **具有不由组织管理的 Teams 帐户的外部用户可以联系我组织中用户** 的复选框。
 
 如果你的 Teams 用户已启动联系人，则要让组织中的 Teams 用户与其帐户未由组织管理的外部 Teams 用户通信:
+
 1. 开启 **组织中的人员可以与帐户不受组织管理的 Teams 用户进行通信** 设置。
 2. 清除 **具有不由组织管理的 Teams 帐户的外部用户可以联系我组织中用户** 的复选框。
 
 若要让组织中的 Teams 用户与帐户不受组织管理的外部 Teams 用户进行通信，并接收与这些外部 Teams 用户通信的请求：
+
 1. 开启 **组织中的人员可以与帐户不受组织管理的 Teams 用户进行通信** 设置。
 2. 选择 **具有不由组织管理的 Teams 帐户的外部用户可以联系我组织中用户** 的复选框。
 
@@ -134,7 +137,7 @@ Teams 管理中心控制组织级别的外部访问。 大多数选项 (域限�
 
 ![Skype 用户设置的屏幕截图。](./media/external-access-skype-settings.png)
 
-**使用 Microsoft Teams 管理中心**
+### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 管理中心
 
 1. 在左侧导航栏中，转到 **用户** > **外部域**。
 
@@ -142,7 +145,7 @@ Teams 管理中心控制组织级别的外部访问。 大多数选项 (域限�
 
 若要深入了解 Teams 用户和 Skype 用户之间的通信方式（包括适用的限制），请参阅 [Teams 和 Skype 的互操作性](teams-skype-interop.md)。
 
-## <a name="using-powershell"></a>使用 PowerShell
+### <a name="using-powershell"></a>使用 PowerShell
 
 可以使用 [Set-CSTenantFederationConfiguration](/powershell/module/skype/set-cstenantfederationconfiguration) 配置组织级别设置，并且可以使用 [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy) 配置用户级别设置。
 

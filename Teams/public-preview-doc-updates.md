@@ -18,25 +18,25 @@ description: 了解 Microsoft Teams 中的公共预览版。尝试新增功能�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: f814483cee8941d3fd29d2442d653c444915d1a5
-ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+ms.openlocfilehash: 49ea7fe244b46840e80bfa4093706d314c708dcb
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65125777"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675064"
 ---
 # <a name="microsoft-teams-public-preview"></a>Microsoft Teams 公共预览版
 
 > [!NOTE] 
-> 预览版中包含的功能可能不完整，且可能会在公共版本中可用之前进行更改。这些功能仅用于评估和浏览目的。Office 365 政府社区云(GCC) 不支持预览版功能。
+> 预览版中包含的功能可能不完整，在公开发布之前可能会发生更改。 它们仅用于评估和探索目的。 Office 365 政府社区云 (GCC) 不支持预览功能。
 
-Microsoft Teams 公共预览版提供对 Teams 中未发布的功能的早期访问权限。预览版允许浏览并测试即将推出的功能。此外，我们还欢迎针对公共预览版中的任何功能提供反馈。我们已为每个团队用户启用公共预览版，因此无需担心会影响整个组织。
+Microsoft Teams 的公共预览版可让用户抢先体验 Teams 中的未发布功能。预览版允许探索和测试即将推出的功能。我们也欢迎大家对公共预览版中的任何功能提出反馈意见。公共预览版是为每个 Teams 用户单独启用的，因此不必担心影响整个组织。
 
 有关 Teams 公共预览版中可用内容的列表，请访问 [Microsoft Teams 公共预览版技术说明](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview)、 [Teams 管理功能的发布说明](/OfficeUpdates/teams-admin)，以及 [Teams 中的新增内容](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de)。
 
 ## <a name="set-the-update-policy"></a>设置更新策略
 
-我们已为每个用户启用公共预览版，并在管理策略中控制启用公共预览版的选项。更新策略用于管理 Teams 和 Office 预览版用户，这些用户将在 Teams 应用中查看预发布或预览版功能。可以使用全局(默认为组织范围内)策略并对其进行自定义，或为用户创建一个或多个自定义策略。由于策略不会覆盖全局策略，因此需将其分配给特定用户。
+为每个用户启用公共预览，并在管理策略中控制打开公共预览的选项。更新策略用于管理 Teams 和 Office 预览用户，这些用户将会在 Teams 应用中看到预发布或预览功能。你可以使用全局（Org-wide默认）策略并对其进行自定义，或者为用户创建一个或多个自定义策略。
 
 1. 登录到 [Microsoft Teams 管理中心](https://admin.teams.microsoft.com/)。
 

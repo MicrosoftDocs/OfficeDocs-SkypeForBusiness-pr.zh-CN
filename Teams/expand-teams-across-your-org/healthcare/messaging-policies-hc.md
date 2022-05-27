@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: ''
 description: 了解如何为 Microsoft Teams 自定义安全消息传递策略，其中可包括已读回执和优先级通知。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ededfabcca1ab61ec822f201502658f4d8ac498a
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: c450bb298e0a0e01440442d0813708048005a652
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60045514"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674864"
 ---
 # <a name="secure-messaging-for-healthcare-organizations"></a>医疗保健组织的安全消息传递
 
@@ -37,11 +37,11 @@ ms.locfileid: "60045514"
 
 通过使用管理员凭据登录并在左侧导航窗格中选择“**消息传递策略**”，可以在 [Microsoft Teams 管理中心](https://admin.teams.microsoft.com)中轻松管理策略。
 
- :::image type="content" source="../../media/hc-messaging-policy-admin-center-new.png" alt-text="消息策略页的屏幕截图。" lightbox="../../media/hc-messaging-policy-admin-center-new.png":::
+ :::image type="content" source="../../media/hc-messaging-policy-admin-center-new.png" alt-text="“消息传递策略”页的屏幕截图。" lightbox="../../media/hc-messaging-policy-admin-center-new.png":::
  
  若要为组织编辑现有默认消息传递策略，请单击“**全局（组织范围的默认设置）**”，然后进行更改。 若要创建新的自定义消息传递策略，请单击“**添加**”，然后选择你的设置。 完成后，选择“**保存**”。
 
-![消息策略设置的屏幕截图。](../../media/hc-messaging-policy.png)
+![消息传递策略设置的屏幕截图。](../../media/hc-messaging-policy.png)
 
 以下设置对于医疗保健应用程序特别有意义，在设计医疗保健领域使用的自定义策略时应考虑这些设置：
 

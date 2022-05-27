@@ -17,18 +17,18 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a00561f10e78a18acc146df4ed8a76b103c937c9
-ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
+ms.openlocfilehash: b6fb93bf7f8e3278ba4fba16604769c6f8f10e36
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63514563"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681603"
 ---
 # <a name="sign-in-to-microsoft-teams"></a>登录 Microsoft Teams
 
 ## <a name="windows-users"></a>Windows 用户
 
-Microsoft 建议组织使用具有混合域 Join 或 Azure AD Join 配置的最新版本 Windows 10。使用最新版本可确保在 Windows 的 Web 帐户管理器中准备好用户帐户，进而支持 Teams 和其他 Microsoft 应用程序的单一登录。单一登录可提供更好的用户体验（静默式登录）和更好的安全状况。
+Microsoft 建议组织使用带有“混合域加入”或“Azure AD 加入”配置的最新版 Windows 10。 使用最近的版本可以确保用户的账户在Windows的Web账户管理器中处于预先准备状态，从而实现单点登录到Teams和其他Microsoft应用程序。 单点登录提供了更好的用户体验（无声登录）和更好的安全状况。
 
 Microsoft Teams 使用新式身份验证使登录体验简单而安全。若要了解用户如何登录Teams，请参阅 [登录Teams](https://support.office.com/article/sign-in-to-teams-ea4b1443-d11b-4791-8ae1-9977e7723055)。
 
@@ -84,7 +84,7 @@ Teams for iOS 和 Android 支持多个工作、学校和多个个人帐户并行
 
 ## <a name="restrict-sign-in-to-teams"></a>无法登录到 Teams
 
-组织可能希望限制企业批准的应用在托管设备上的使用方式，例如限制学生或员工从其他组织访问数据或将公司批准的应用用于个人方案的能力。可以通过设置 Teams 应用程序识别的设备策略来强制实施这些限制。
+组织可能希望限制在受管理的设备上使用公司许可的应用的方式，例如，限制学生或员工访问其他组织中的数据，或将公司许可的应用用于个人的情况。 可通过设置 Teams 应用程序识别的设备策略来强制实施这些限制。
 
 ### <a name="how-to-restrict-sign-in-on-mobile-devices"></a>如何限制移动设备上的登录
 

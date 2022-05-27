@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ce8e702682ebcc4b05e94f077882d51f09aac0ff
-ms.sourcegitcommit: 4435ac0efcb95e4e5e1f21289e46761e79482ab5
+ms.openlocfilehash: 5b85befa685458f5460ab21bb962af3f0df4f004
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "65624146"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681583"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>适用于虚拟化桌面基础结构的 Teams
 
@@ -102,6 +102,9 @@ VMware Horizon 是一种新式平台，用于跨混合云安全交付虚拟桌�
 
 使用每台计算机安装时，会禁用自动更新。 这意味着，若要更新Teams应用，必须卸载当前版本才能更新到较新的版本。 通过按用户安装，将启用自动更新。
 
+> [!IMPORTANT]
+> 使 VDI 环境中的Teams桌面应用保持最新状态。 不支持发布日期比[当前版本的发布日期](/officeupdates/teams-app-versioning)早 90 天以上的Teams桌面应用版本。 不受支持的Teams桌面应用版本会向用户显示阻止页面，并要求用户更新其应用。
+
 对于大多数 VDI 部署，建议使用每台计算机安装部署Teams。 若要更新到最新Teams版本，请从卸载过程开始，后跟最新的Teams版本部署。
 
 若要使 VDI 环境中的Teams AV 优化正常工作，精简客户端设备必须有权访问 Internet。 如果精简客户端设备无法访问 Internet，优化启动将不会成功。 这意味着用户处于非优化媒体状态。
@@ -116,7 +119,7 @@ VMware Horizon 是一种新式平台，用于跨混合云安全交付虚拟桌�
 |---------|---------|---------|
 |vCPU   |    2 个核心     |  4、6 或 8 个内核<br>请务必了解 NUMA) 配置的基础非统一内存访问 (并相应地配置 VM。     |
 |RAM     |   4 GB      | 每个用户 512 MB 到 1 GB        |
-|存储空间    | 8 GB        | 40 GB 到 60 GB        |
+|存储    | 8 GB        | 40 GB 到 60 GB        |
 
 #### <a name="non-persistent-setup"></a>非永久性设置
 
@@ -299,8 +302,8 @@ Chrome 浏览器上的Teams无法使用 AV 优化来替代用于 VDI 的Teams桌
 或者，还可以执行以下操作：
 
 1. 在Teams管理中心的左侧导航中，转到要分配的策略。 例如：
-    - 转到 **VoiceCalling** >  策略，然后单击 **“DisallowCalling**”。
-    - 转到 **MeetingsMeeting** >  策略，然后单击 **AllOff**。
+    - 转到 **语音** > **呼叫策略**，然后单击 **“DisallowCalling**”。
+    - 转到 **会议会议** > **策略**，然后单击 **“AllOff**”。
 2. 选择“管理用户”。
 3. 在“管理用户”窗格中，按显示名称或用户名搜索用户，选择用户名，然后单击“添加”。 对想要添加的每一个用户重复此步骤。
 4. 添加完用户后，单击“ **保存**”。
@@ -355,8 +358,8 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity "user email id"
 或者，还可以执行以下操作：
 
 1. 在Teams管理中心的左侧导航中，转到要分配的策略。 例如：
-    - 转到 **VoiceCalling** >  策略，然后单击 **AllowCalling**。
-    - 转到 **MeetingsMeeting** >  策略，然后单击 **AllOn**。
+    - 转到 **语音** > **呼叫策略**，然后单击 **AllowCalling**。
+    - 转到 **会议会议** > **策略**，然后单击 **“AllOn**”。
 2. 选择“管理用户”。
 3. 在“管理用户”窗格中，按显示名称或用户名搜索用户，选择用户名，然后单击“添加”。 对想要添加的每一个用户重复此步骤。
 4. 添加完用户后，单击“ **保存**”。

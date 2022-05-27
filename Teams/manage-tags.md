@@ -16,12 +16,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何在组织中Microsoft Teams中使用标记。
-ms.openlocfilehash: 0fa615f2bbcdd7965777925b2413717779ad4a7a
-ms.sourcegitcommit: 54cb804e6e8338f2d09499e53416e6d55ef1cc40
+ms.openlocfilehash: 62ac77c6467a17da10fdc3ba66350383d7c8016c
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/17/2022
-ms.locfileid: "65442008"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675544"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>在Microsoft Teams中管理标记
 
@@ -35,7 +35,7 @@ Microsoft Teams中的标记使用户能够快速轻松地与团队中的一部�
 - **按班次标记**：使用此功能，将自动分配与Teams中 [Shifts 应用](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_openshiftsappdesktop)中的计划和班次组名称匹配的标记。 例如，“EngineerOnCall”标记会到达在聊天或频道帖子中使用标记时计划在 Shifts 中工作的所有工程师。 通过按班次标记，当用户需要快速中继信息时，Teams将猜测从知道轮班员工的姓名中获取。 通过将 JDA、Kronos 和 AMiON 等主要员工管理系统与 Teams 中的 Shifts 集成，按班次标记也可以提供支持。 若要详细了解如何设置此功能，请参阅 [按班次设置标记](#set-up-tagging-by-shift)。
 
 > [!NOTE]
-> 专用频道或共享频道不支持标记。  
+> 专用频道或共享频道不支持标记。
 
 ## <a name="how-tags-work"></a>标记的工作原理
 
@@ -55,7 +55,7 @@ Microsoft Teams中的标记使用户能够快速轻松地与团队中的一部�
 
 ![Microsoft Teams管理中心中标记设置的屏幕截图。](media/manage-tags-admin-settings.png)
 
-团队最多可以有 100 个标记，最多可以为 200 个团队成员分配标记，并且可以将同一团队中的最多 25 个标记分配给单个用户。 
+团队最多可以有 100 个标记，最多可以为 200 个团队成员分配标记，并且可以将同一团队中的最多 25 个标记分配给单个用户。
 
 ### <a name="set-who-can-add-custom-tags"></a>设置谁可以添加自定义标记
 
@@ -91,15 +91,15 @@ Microsoft Teams中的标记使用户能够快速轻松地与团队中的一部�
 
 ### <a name="create-and-assign-custom-tags"></a>创建和分配自定义标记
 
-若要创建和分配自定义标记，请选择应用左侧的 **Teams**，然后在列表中找到团队。 选择 **“̇ ̇ ̇ 更多选项**”，然后选择 **“管理标记**”。 在这里，可以创建标记并将其分配给团队中的人员。
+若要创建和分配自定义标记，请选择应用左侧的 **Teams**，然后在列表中找到团队。 选择 **...更多选项**，然后选择 **“管理标记**”。 在这里，可以创建标记并将其分配给团队中的人员。
 
 ![如何在Teams客户端中应用标记的屏幕截图。](media/manage-tags-teams.png)
 
-若要删除标记，请选择 **̇ ̇ ̇** 标记旁边的更多选项，然后选择 **“删除”标记**。
+若要删除标记，请选择 **...标记** 旁边的更多选项，然后选择 **“删除”标记**。
 
 ### <a name="set-up-tagging-by-shift"></a>按班次设置标记
 
-按班次标记可让用户实时联系轮班人员。 Teams自动从 Shifts 应用分配具有与其计划匹配的标记和班次组名称的用户，从而启用基于角色的动态消息传送。 通知仅发送给在使用标记开始聊天或频道帖子时轮班的人员。 
+按班次标记可让用户实时联系轮班人员。 Teams自动从 Shifts 应用分配具有与其计划匹配的标记和班次组名称的用户，从而启用基于角色的动态消息传送。 通知仅发送给在使用标记开始聊天或频道帖子时轮班的人员。
 
 1. 在Teams中，转到 [Shifts 应用](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_openshiftsappdesktop)。
 2. 创建 [班次组](https://support.microsoft.com/office/fill-out-a-schedule-in-shifts-2d58df9b-1c6c-4c84-b0c3-835de7ad13ea#bkmk_organizeshiftsbygroup) ，并将其命名为角色等属性。 例如，EngineerOnCall。 班次组名称将是标记的名称。

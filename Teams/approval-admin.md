@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f31df258558e052e887a679321dd6ed2db48f344
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+ms.openlocfilehash: 93b0a74feb2d9333d634b9a7858ff6136ca5b5ec
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646251"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65676494"
 ---
 # <a name="teams-approvals-app-availability"></a>Teams“审批”应用可用性
 
@@ -65,7 +65,7 @@ ms.locfileid: "65646251"
 
 了解有关[审批工作流](/power-automate/modern-approvals)的详细信息。
 
-从模板创建的审批仍会将数据存储在 Microsoft Dataverse 中，例如其标题、详细信息、模板 ID 等。 针对审批请求提交的响应存储在 Forms 中。 详细了解 [Microsoft Forms的数据存储](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe)。
+从模板创建的审批仍会将数据存储在 Microsoft Dataverse 中，例如其标题、详细信息、模板 ID 等。 针对审批请求提交的响应存储在 Forms 中。 详细了解[Microsoft Forms的数据存储](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe)。
 
 >[!Note]
 >如果删除Microsoft Forms网站上的表单模板，则会中断审批模板，并且用户无法启动请求。 用户在尝试打开在Microsoft Forms上删除的审批模板时收到错误“CDB TableNotFound”。
@@ -223,7 +223,7 @@ Teams中定制的一线应用体验为拥有 [F 许可证](https://www.microsoft
 
 可以使用Teams管理中心来控制哪些第三方电子签名提供程序可用于审批应用中的用户。 默认情况下，审批应用中启用了电子签名提供程序。 禁用电子签名提供程序时，用户在创建审批时将无权访问该提供程序。 用户也无法查看使用该提供程序创建的电子签名请求。
 
-1. 在Teams管理中心的左窗格中，转到 **appsManage 应用****Teams** > 。
+1. 在Teams管理中心的左窗格中，转到 **Teams应用** > **管理应用**。
 2. 搜索审批应用，然后选择它。
 3. 转到 **“设置**”选项卡，然后执行以下一个或多个操作：
 

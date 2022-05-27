@@ -1,5 +1,5 @@
 ---
-title: Teams设备进行共享空间功能比较，Windows Android
+title: Teams设备的共享空间功能比较Windows和Android
 author: cazawideh
 ms.author: czawideh
 manager: jsarrasin
@@ -9,7 +9,7 @@ audience: ITPro
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: ''
-description: 有关在 Teams 和 Android 之间共享空间功能Windows指南。
+description: 比较Windows和Android之间共享空间功能的Teams设备的指南。
 ms.collection:
 - M365-voice
 - M365-collaboration
@@ -20,67 +20,67 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 23f8421bbe0249114cbdbd2925f5ee9232137ddc
-ms.sourcegitcommit: abe942c294ed5fca70efdf039d38d611b9c21fe9
+ms.openlocfilehash: 30e1bc6043d48ff222963c2794ad5099af9308ca
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63564828"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65676294"
 ---
-# <a name="teams-devices-for-shared-spaces-feature-comparison-between-windows-and-android"></a>Teams设备进行共享空间功能比较，Windows Android 
-Microsoft Teams 会议室客户设计体验。 每个客户都有独特的需求，因此 Microsoft 提供了多种选项，包括Teams 会议室和 Android Windows应用。 
+# <a name="teams-devices-for-shared-spaces-feature-comparison-between-windows-and-android"></a>Teams设备的共享空间功能比较Windows和Android 
+Microsoft Teams 会议室体验是考虑到客户而设计的。 每个客户都有独特的需求，这就是为什么 Microsoft 提供了广泛的选项，包括Windows和Android上的Teams 会议室。 
 
-核心功能在这两个平台上均可用，因此最终用户始终可以拥有出色的音频和视频体验，使用一键式加入加入会议，以及访问非独占功能（如实时字幕和举手）。 
+核心功能在这两个平台上都可用，因此最终用户始终可以拥有出色的音频和视频体验、使用一触式联接加入会议，以及访问包含功能（如实时字幕和举手）。 
 
-随着 Microsoft 为 Teams 和 Teams 会议室 引入新功能，我们努力将它们引入所有平台，但由于多种因素，这些功能可能会在不同时间推出，包括技术可行性和每个平台的客户反馈等。 这意味着在 Android 平台推出之前，Windows某些功能推出。 
+随着 Microsoft 为Teams和Teams 会议室带来新功能，我们努力将其引入所有平台，但由于多种因素（包括技术可行性和每个平台的客户反馈等因素），功能可能会在不同时间推出。 这意味着，在一些功能进入Android平台之前，可能会在Windows上推出一些功能。 
 
-为了帮助你了解不同平台上可用的功能，你可以参考下面的图表，该图表将定期更新。 此列表Teams 会议室所有产品/服务功能，因此请继续查阅产品指南Microsoft 365 Microsoft 销售代表，了解[](https://www.microsoft.com/en-us/microsoft-365/roadmap)更多详细信息。    
+若要帮助你了解不同平台上可用的功能，可以参考下面的图表，这些图表将定期更新。 并非所有Teams 会议室功能都将包含在此列表中，因此请继续咨询[Microsoft 365路线图](https://www.microsoft.com/en-us/microsoft-365/roadmap)和 Microsoft 销售代表以了解更多详细信息。    
 
-## <a name="teams-devices-for-shared-spaces"></a>Teams共享空间的设备
-### <a name="feature-comparison-between-windows-and-android"></a>Windows 和 Android 之间的功能比较
- (2022 年 3 月)  
+## <a name="teams-devices-for-shared-spaces"></a>Teams用于共享空间的设备
+### <a name="feature-comparison-between-windows-and-android"></a>Windows和Android之间的功能比较
+ (2022年3月)  
 
 | &ensp; | 功能 |Windows|Android|
 |-----------------------|---------|--------|--------|
-|**会议加入**|One-touch-join |在线  |有空 |
-||邻近联接 |在线  |有空 |
+|**会议加入**|一触式联接 |在线  |有空 |
+||邻近加入 |在线  |有空 |
 ||立即开会 |在线  |有空 |
 ||直接来宾加入 |在线  |即将提供 |
-|**会议参与和协作**|直观、有目的的应用体验 |在线  |有空 |
-||视频和内容布局 (例如，"共同模式"、大型库、仅库以及库和)  |在线  |有空 |
+|**会议参与和协作**|直观的、专门构建的应用体验 |在线  |有空 |
+||视频和内容布局 (例如“一起模式”、“大型库”、“仅限库”以及库和内容)  |在线  |有空 |
 ||聊天气泡|在线 |即将提供 |
-||举手，低手 |在线  |有空 |
+||举手，下手 |在线  |有空 |
 ||固定多个参与者 |在线  |即将提供 |
 ||聚焦多个参与者 |在线 |有空 |
-||实时回应 |在线  |有空 |
-||小助手模式 |在线 |有空 |
-||实时隐藏式字幕 |在线  |有空 |
+||实时反应 |在线  |有空 |
+||配套模式 |在线 |有空 |
+||实时隐藏字幕 |在线  |有空 |
 ||云录制和会议听录 |在线  |有空 |
-||使用会议协调Surface Hub |在线 |不可用 |
-||Microsoft Whiteboard (触摸屏屏幕显示界面提供屏幕墨迹)  |在线  |有空 |
+||与Surface Hub协调会议 |在线 |不可用 |
+||Microsoft Whiteboard (可使用触摸屏显示) 的屏幕上墨迹 |在线  |有空 |
 ||智能内容捕获 |在线  |即将提供 |
-|**会议和设备控件**|移动设备上的会议室远程控制 |在线  |有空 |
+|**会议和设备控件**|移动设备上的房间远程控件 |在线  |有空 |
 ||无线共享 |在线  |有空 |
 ||从移动设备强制转换 |在线  |有空 |
-||视频和内容分辨率：1080p、30 FPS |在线  |有空 |
+||视频和内容解析：1080p、30 FPS |在线  |有空 |
 ||会议参与者名单 |在线  |有空 |
 ||Cortana语音技能 |在线  |即将提供 |
-||双屏幕支持 |在线  |有空 |
-|**安全性**|安全装载、安全锁槽 (Kensington 锁定) 、I/O 端口访问 |在线  |有空 |
+||双屏支持 |在线  |有空 |
+|**安全性**|安全装载，安全锁槽 (肯辛顿锁) ，I/O 端口访问 |在线  |有空 |
 ||操作系统 |Windows 10  |Android 8.1+ |
-||OS 安全功能 |TPM 2.0， 禁用特定端口， 安全启动， 凭据防护， OOBE 设置访问控制， 直接内存访问保护， 网络安全 |Android 完整光盘加密，OEM 特定的功能 |
+||OS 安全功能 |TPM 2.0，禁用特定端口、安全启动、凭据防护、OOBE 设置访问控制、直接内存访问保护、网络安全 |Android全光盘加密、特定于 OEM 的功能 |
 ||展台模式 |在线  |有空 |
-|**管理和管理**|安全地将管理访问权限委派给合作伙伴 |在线  |有空 |
+|**管理和管理**|安全地将管理访问权限委托给合作伙伴 |在线  |有空 |
 ||基于角色的访问控制 |在线  |有空 |
 ||设备清单视图 |在线  |有空 |
-||总体设备运行状况监视 |在线  |有空 |
-||连接的外围设备运行状况监视 |在线  |即将提供 |
+||整体设备运行状况监视 |在线  |有空 |
+||连接的外围运行状况监视 |在线  |即将提供 |
 ||远程配置 (重启、设置、日志收集)  |在线  |有空 |
 ||自动Teams应用更新 |在线  |有空 |
 ||设备自动注册 |在线 |即将提供 |
-||呼叫质量分析 |在线  |有空 |
-|**适合/空间**|关注 (2-4)  |在线  |有空 |
-||小型 (4-6 人)  |在线  |有空 |
-||中型 (6-12 人)  |在线  |有空 |
+||调用质量分析 |在线  |有空 |
+|**适用于/空间**|焦点 (2-4 人)  |在线  |有空 |
+||小 (4-6 人)  |在线  |有空 |
+||中等 (6-12 人)  |在线  |有空 |
 ||大型 (12-16 人)  |在线  |有空 |
-||16 人 (的多功能)  |在线  |不可用 |
+||多用途房间 (16 人以上)  |在线  |不可用 |

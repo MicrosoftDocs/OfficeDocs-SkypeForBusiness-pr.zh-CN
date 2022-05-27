@@ -19,12 +19,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f37e364450104b07adfe6a48c8cc29bab607470
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+ms.openlocfilehash: 7123d45819f6e956ecf562fd321e7762b50e5ae6
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "61545003"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674654"
 ---
 # <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>如何为一线工作人员大规模预配 Teams
 
@@ -214,8 +214,8 @@ Connect-MicrosoftTeams -Credential $teams_cred
 
 可以自定义以下设置以满足你的业务需求。 我们已根据最佳实践选择了一些推荐的选项，并提高了大规模加入新用户的轻松度。 有关详细信息，请单击[此处](teams-app-setup-policies.md)。
 
-1. 在 Microsoft Teams 管理中心的左侧导航中，转到“ **Teams 应用**” >“ **设置策略**”。
-2. 单击“ **添加**”。  
+1. 在 Microsoft Teams 管理中心的左侧导航中，转到“**Teams 应用**” > “**设置策略**”。
+2. 单击“**添加**”。  
 3. 输入策略的名称和说明。 例如，一线管理人员应用设置策略图像。
     :::image type="content" source="media/flw-flm-app-setup-policy.png" alt-text="一线管理人员应用设置策略示例名称和说明的屏幕截图。":::
 
@@ -227,7 +227,7 @@ Connect-MicrosoftTeams -Credential $teams_cred
     :::image type="content" source="media/flw-add-pinned-apps.png" alt-text="屏幕截图：“添加固定的应用”屏幕，显示班次应用。“班次”应用的“添加”按钮":::
 
 7. 删除呼叫，如果出现的话。删除此功能不会针对用户禁用它，但会阻止它出现在应用栏，从而简化最终用户体验。
-8. 按以下顺序排列应用以指定其在 Teams 应用栏中的顺序，然后单击“ **保存**”。
+8. 按以下顺序排列应用以指定其在 Teams 应用栏中的顺序，然后单击“**保存**”。
 
     - 活动
     - 聊天
@@ -241,8 +241,8 @@ Connect-MicrosoftTeams -Credential $teams_cred
 
 可以自定义以下设置以满足你的业务需求。 我们已根据最佳实践选择了一些推荐的选项，并提高了大规模加入新用户的轻松度。 有关详细信息，请单击[此处](teams-app-setup-policies.md)。
 
-1. 在 Microsoft Teams 管理中心的左侧导航中，转到“ **Teams 应用**” >“ **设置策略**”。
-2. 单击“ **添加**”。
+1. 在 Microsoft Teams 管理中心的左侧导航中，转到“**Teams 应用**” > “**设置策略**”。
+2. 单击“**添加**”。
 3. 输入策略的名称和说明。 例如，一线工作人员应用设置策略。
     :::image type="content" source="media/flw-flw-app-setup-policy.png" alt-text="一线员工应用设置策略示例名称和说明的屏幕截图。":::
 
@@ -255,7 +255,7 @@ Connect-MicrosoftTeams -Credential $teams_cred
     :::image type="content" source="media/flw-add-pinned-apps.png" alt-text="屏幕截图：“添加固定的应用”屏幕，显示班次应用。“班次”应用的“添加”按钮":::
 
 7. 删除会议和呼叫，如果它们出现的话。删除这些功能不会针对用户禁用它们，但会阻止它们出现在应用栏，从而简化最终用户体验。
-8. 按以下顺序排列应用以指定其在 Teams 应用栏中的顺序，然后单击“ **保存**”。
+8. 按以下顺序排列应用以指定其在 Teams 应用栏中的顺序，然后单击“**保存**”。
     - 活动
     - 聊天
     - Teams
@@ -273,31 +273,31 @@ Connect-MicrosoftTeams -Credential $teams_cred
 
 可以自定义以下设置以满足你的业务需求。 这些是基于最佳实践的一些推荐选项，可以提高新用户大规模登录的便利性。 有关详细信息，请单击[此处](teams-app-permission-policies.md)。
 
-1. 在 Microsoft Teams 管理中心的左侧导航中，转到“ **Teams 应用**” >“ **权限策略**”。
-2. 单击“ **添加**”。
+1. 在 Microsoft Teams 管理中心的左侧导航中，转到“**Teams 应用**” > “**权限策略**”。
+2. 单击“**添加**”。
 
     :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="添加应用权限策略页面的屏幕截图。":::
 
 3. 输入策略的名称和说明。 例如，一线管理人员应用权限策略。
-4. 在  **Microsoft 应用** 下，选择“**允许所有应用**”。
-5. 在  **第三方应用** 下，选择“**允许所有应用**”。
+4. 在“**Microsoft 应用**”下，选择“**允许所有应用**”。
+5. 在“**第三方应用**”下，选择“**允许所有应用**”。
 6. 在“**自定义应用**”下，选择“**允许所有应用**”。
-7. 单击“ **保存**”。
+7. 单击“**保存**”。
 
 #### <a name="create-the-frontline-worker-app-permission-policy"></a>创建一线员工应用权限策略
 
 可以自定义以下设置以满足你的业务需求。 这些是基于最佳实践的一些推荐选项，可以提高新用户大规模登录的便利性。 有关详细信息，请单击[此处](teams-app-permission-policies.md)。
 
-1. 在 Microsoft Teams 管理中心的左侧导航中，转到“ **Teams 应用**” >“ **权限策略**”。
-2. 单击“ **添加**”。
+1. 在 Microsoft Teams 管理中心的左侧导航中，转到“**Teams 应用**” > “**权限策略**”。
+2. 单击“**添加**”。
 
     :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="添加应用权限策略页面的屏幕截图。":::
 
 3. 输入策略的名称和说明。 例如，一线员工应用权限策略。
-4. 在  **Microsoft 应用** 下，选择“**允许所有应用**”。
-5. 在  **第三方应用** 下，选择“**阻止所有应用**”。
+4. 在“**Microsoft 应用**”下，选择“**允许所有应用**”。
+5. 在“**第三方应用**”下，选择“**阻止所有应用**”。
 6. 在“**自定义应用**”下，选择“**允许所有应用**”。
-7. 单击“ **保存**”。
+7. 单击“**保存**”。
 
 ## <a name="users-and-security-groups"></a>用户和安全组
 

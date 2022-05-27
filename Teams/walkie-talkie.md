@@ -18,12 +18,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29a632efc433a14d578eff80fdeb74a6f167dfc3
-ms.sourcegitcommit: a388fd72e399f6e205c34707dc92cc309997e737
+ms.openlocfilehash: 3e311fb94996e1c51bb5f73190539cd0e1f9f127
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2022
-ms.locfileid: "65400228"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681893"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft Teams中的 Walkie Talkie 应用
 
@@ -97,7 +97,7 @@ Teams中的 Walkie Talkie 需要 Internet 连接，并且需要低于网络条�
 
 ### <a name="license-requirements"></a>许可证要求
 
-Walkie Talkie 应用包含在Office 365订阅中Teams的所有付费许可证[中](/office365/servicedescriptions/teams-service-description)。 有关获取Teams的详细信息，请查看 [如何实现获取Microsoft Teams的访问权限](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)？
+Walkie Talkie 应用包含在Office 365订阅中Teams的所有付费许可证[中](/office365/servicedescriptions/teams-service-description)。 有关获取Teams的详细信息，[请查看如何实现访问Microsoft Teams](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)？
 
 ## <a name="further-information"></a>详细信息
 

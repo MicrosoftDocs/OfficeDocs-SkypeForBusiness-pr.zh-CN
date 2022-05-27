@@ -20,12 +20,12 @@ f1.keywords:
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2bf4066675755e0f93844644a6a59404af678a38
-ms.sourcegitcommit: d425748a50964ebc78e5d38fce564a444a449f43
+ms.openlocfilehash: 1f9d2e3b17f852dcd020dc11c323bbc24c2dfc30
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65635410"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675904"
 ---
 # <a name="microsoft-teams-appsline-of-business-lob-app-support-on-teams-panels"></a>Microsoft Teams应用/业务线 (LOB) Teams面板上的应用支持
 
@@ -36,7 +36,7 @@ Teams面板添加了对[Teams应用/业务线 (LOB) 应用](/microsoftteams/plat
 
 ## <a name="teams-app-experience-on-teams-panels"></a>Teams Teams面板上的应用体验
 
-![Teams管理中心的屏幕截图，其中显示了允许用户导航到应用的部分。](media/tac1update.png) 
+![Teams管理中心的屏幕截图，其中显示了允许用户导航到应用的部分。](media/tac1update.png)
 
 *Teams面板主屏幕包含应用导航选项，在屏幕截图中以红色显示。请注意，这些是示例图标，可能不可用。*
 
@@ -44,7 +44,7 @@ Teams面板添加了对[Teams应用/业务线 (LOB) 应用](/microsoftteams/plat
 
 *当最终用户点击其中一个应用图标时，他们将看到上一屏幕截图中显示的Teams应用屏幕。屏幕截图中的灰色矩形是应用在Teams 面板上显示的位置。应用栏已修复，是Teams面板应用的一部分。*
 
-## <a name="set-up-and-manage-teams-panels-apps-in-teams-admin-center"></a>在Teams管理中心设置和管理Teams面板应用 
+## <a name="set-up-and-manage-teams-panels-apps-in-teams-admin-center"></a>在Teams管理中心设置和管理Teams面板应用
 
 Microsoft Teams应用将关键信息、常用工具和受信任的流程带到人们收集、学习和工作的位置。 Teams应用[通过集成功能工作](/microsoftteams/platform/concepts/capabilities-overview)。 现在，作为 IT 管理员，可以选择要包含在组织Teams面板设备中的应用，并通过[Teams管理中心](https://admin.teams.microsoft.com/)自定义权限。
 
@@ -62,11 +62,11 @@ Microsoft Teams应用将关键信息、常用工具和受信任的流程带到�
 
 由于Teams提供了显示各种应用的功能，因此管理员可以确定哪些应用对组织最为重要，并且仅将这些应用固定在Teams面板 **主** 屏幕中，以便快速访问。 如果有五个以上的固定应用或任何未固定的应用，它们将显示在 **“更多** ”屏幕下。 Microsoft 建议专门为Teams面板创建自定义应用设置策略。
 
-![应用设置策略页的用户界面屏幕截图。](media/appsetup1.png) 
+![应用设置策略页的用户界面屏幕截图。](media/appsetup1.png)
 
 若要管理Teams面板上显示的固定应用，请登录到组织的Teams管理中心并导航到 **Teams应用** \> **安装策略** \> **选择或创建新的策略** \> **固定应用**。
 
-![用户界面内固定应用部分的屏幕截图。](media/appsetup2.png) 
+![用户界面内固定应用部分的屏幕截图。](media/appsetup2.png)
 
 *此映像中包含的应用只是示例，可能无法使用。*
 
@@ -74,7 +74,7 @@ Microsoft 建议关闭 **Upload自定义应用** 和 **用户固定**，以便�
 
 有关固定应用的详细信息，请参阅 [“管理应用设置策略](/microsoftteams/teams-app-setup-policies)”。
 
-## <a name="manage-apps-display-order-in-teams-panels"></a>管理Teams面板中的应用显示顺序 
+## <a name="manage-apps-display-order-in-teams-panels"></a>管理Teams面板中的应用显示顺序
 
 ![用户界面中“应用”部分的屏幕截图。](media/appsetup3.png)
 
@@ -122,6 +122,6 @@ Microsoft 建议关闭 **Upload自定义应用** 和 **用户固定**，以便�
 
 ![用户界面内设置策略部分的屏幕截图，其中弹出了确认用户固定处于活动状态。](media/appsetup4.png)
 
-*此映像中包含的应用只是示例，可能无法使用。* 
+*此映像中包含的应用只是示例，可能无法使用。*
 
 对于共享空间中的设备，此行为是意料之中的，有助于防止意外应用固定。

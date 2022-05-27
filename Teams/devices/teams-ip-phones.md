@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 了解哪些桌面电话和会议电话经过认证，Microsoft Teams可产生最佳效果。
-ms.openlocfilehash: 43e408defc9f1202cb31d6d46cccbc8df7704254
-ms.sourcegitcommit: c53c22069b1babce7a2364de631057ff501ca1c0
+ms.openlocfilehash: c5b4ab39768d0485de5fb5f6060d5567d035a343
+ms.sourcegitcommit: de0233e51364b7730c4b307fd41a2166eda3c3fc
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65671778"
+ms.lasthandoff: 05/26/2022
+ms.locfileid: "65741894"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams认证的Android设备
 
@@ -48,8 +48,6 @@ Microsoft Teams设备认证计划确保认证设备符合高标准，在整个Te
 | AudioCodes C450HD                      | `1.17.443`                                                  |    2023 年 8 月 5 日              | 9 |
 | AudioCodes C448HD (上限模式仅)        |  `1.17.443`                                                   | 2023 年 8 月 5 日            | 9 |
 | Yealink CP965    | `143.15.0.7 `          | 2025 年 9 月 3 日     | 11 |
-| AudioCodes C450HD                      | `C450HD_TEAMS_0.225`                                                  | 2022 年 4 月 22 日               | 7.1.x |
-| AudioCodes C448HD (上限模式仅)        | `C450HD_TEAMS_0.225`                                                  | 2022 年 4 月 22 日               | 7.1.x |
 | Crestron UC-P10/T/CT                   | `1.0.0.80`       | 2023 年 8 月 5 日            | 9 |
 | Crestron UC-P8/T /CT                   | `1.0.0.56`       | 2023 年 8 月 5 日            | 9 |
 | 音频代码 C470HD                      | `1.8.293   `                                               | 2023 年 8 月 5 日               | 9 |
@@ -231,6 +229,7 @@ Microsoft Teams设备认证计划确保认证设备符合高标准，在整个Te
 
 | 产品版本| 发布日期 | Microsoft Teams应用版本 | 公司门户版本 | 管理员代理版本 |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+| 2022 更新 #2  | 2022 年 5 月 25 日 |`1449/1.0.96.2022051102`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
 | 2022 更新 #1  | 2022 年 2 月 24 日 |`1449/1.0.96.2022011305`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
 | 2021 更新#2A | 2021 年 7 月 15 日  |`1449/1.0.96.2021070803`|  `5.0.5088.0` |  `1.0.0.202104280345.product version code: 262` |
 | 2021 更新 #2 | 2021 年 6 月 28 日  |`1449/1.0.96.2021051904`|  `5.0.5088.0` |  `1.0.0.202104280345.product version code: 262` |

@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 39ec36c8162acb4bc95430afa48dac7bb80c772e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 162c761d58e47dc287ee76d29a512aea9ce7a990
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617398"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674844"
 ---
 # <a name="microsoft-teams-for-realwear"></a>Microsoft Teams for RealWear
 
@@ -36,7 +36,7 @@ ms.locfileid: "58617398"
 
 ## <a name="required-licenses"></a>需要的许可证
 
-Microsoft Teams 许可证是 Microsoft 365 和 Office 365 订阅的一部分。 使用 Teams for RealWear 不需要其他许可证。 有关获取 Teams 的详细信息，请参阅 [如何访问 Microsoft Teams](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)。
+Microsoft Teams 许可证是 Microsoft 365 和 Office 365 订阅的一部分。 使用 Teams for RealWear 不需要其他许可证。 有关获取 Teams 的详细信息，请参阅[如何获取 Microsoft Teams](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)。
 
 ## <a name="managing-realwear-devices"></a>管理 RealWear 设备
 

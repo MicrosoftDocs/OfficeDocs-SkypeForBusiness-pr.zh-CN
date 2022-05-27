@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: acolonna
 description: 了解状态为“离开”或“请勿打扰”的用户如何在其状态消息中明确将其他用户设置为代理人。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: fd1b11038d4dbd0f1ea773065628170d7f55a33c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 14f58861074ed8b9291ca725f60ff1612534f4dc
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596186"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674204"
 ---
 # <a name="message-delegation"></a>消息委派
 
@@ -62,7 +62,7 @@ ms.locfileid: "58596186"
   
 没有直观的迹象表明备注是从 Skype for Business 设置的。
 
-Skype for Business 对于状态备注不强制实施字符限制。 Microsoft Teams 将仅显示从 Skype for Business 设置的备注的前 280 个字符。 备注末尾的省略号 (…) 表示截断。
+Skype for Business 对于状态备注不强制实施字符限制。 Microsoft Teams 将仅显示从 Skype for Business 设置的备注的前 280 个字符。 笔记末尾的省略号 (...) 表示截断。
   
 Skype for Business 不支持备注的过期时间。
 

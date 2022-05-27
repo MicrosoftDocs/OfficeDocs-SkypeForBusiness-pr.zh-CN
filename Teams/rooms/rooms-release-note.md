@@ -12,14 +12,14 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
-description: 管理员可以阅读Microsoft Teams 会议室的发行说明，其中列出了Microsoft Teams 会议室中的累积改进。
+description: 管理员可以阅读Microsoft Teams 会议室的发行说明，其中列出了Microsoft Teams 会议室的累积改进。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f91c286f08046d1a521d3758f1fc297bf2aa0d59
-ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
+ms.openlocfilehash: 03a23ecb47fb0efca19ce3a7085a1fcc41b80dc3
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "65187018"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674194"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Microsoft Teams 会议室发行说明
 
@@ -95,9 +95,9 @@ Teams 会议室受现代生命周期策略的约束。 有关详细信息，请�
 
 在此更新中引入：
 - IT 管理员可以注册Teams会议室设备，通过 XML 设置接收公共预览版功能。 注册后，设备将开始接收 beta 功能。 所有用于 beta 测试的功能均在[公共预览版Microsoft Teams中公布 - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview) <sup>1，2</sup>  
-- IT 管理员可以通过 XML 设置 <sup>2</sup> 设置会议室前显示分辨率和远程缩放
-- IT 管理员可以通过 XML 设置 <sup>3</sup> 禁用 Microsoft 干扰抑制 
-- IT 管理员可以通过注册表项设置 <sup>4</sup> 覆盖设备上的下载文件夹清理
+- IT 管理员可以通过 XML 设置<sup>2</sup> 设置会议室前显示分辨率和远程缩放
+- IT 管理员可以通过 XML 设置<sup>3</sup> 禁用 Microsoft 干扰抑制 
+- IT 管理员可以通过注册表项设置<sup>4</sup> 覆盖设备上的下载文件夹清理
 - 使用户能够加入托管在另一个云 (Teams会议，即 GCCH 客户可以加入在商业云上托管的Teams会议，反之亦然)  
 - Teams会议室现在阻止从PowerPoint Live中的 URL 启动边缘浏览器，作为对带触摸显示器的Teams会议室的附加安全措施 
 - 现已改善会议体验，为用户添加邀请用户到会议室的说明 
@@ -108,7 +108,7 @@ Teams 会议室受现代生命周期策略的约束。 有关详细信息，请�
 > 
 > <sup>2</sup> 会议室前显示分辨率和通过 XML 远程缩放可[在此](../rooms/xml-config-file.md#set-front-of-room-scale-and-resolution)处找到
 >
-> <sup>3</sup> 此时，仅发布管理员设置。 2022 年 5 月 4.12 版发布后，用户将控制和启用干扰抑制。 
+> <sup>3</sup> 此时，仅发布管理员设置。 在 2022 年 5 月发布帖子 4.12 之后，用户将控制和启用干扰抑制。 
 >
 > <sup>4</sup> 设备清理说明可[在此](../rooms/rooms-operations.md#collecting-logs-on-microsoft-teams-rooms)处找到
 > 
@@ -125,21 +125,21 @@ Teams 会议室受现代生命周期策略的约束。 有关详细信息，请�
 
 在此更新中引入：
 - Windows <sup>1</sup> 上 MTR 预览版)  (前排布局 
-- 将 Front 行布局设置为默认设置的管理员设置  
-- 立即开会并仅调用应用更新Teams，Teams默认客户端模式 <sup>1，2</sup>
-- 在会议Teams多个摄像机之间切换<sup>1</sup> 
+- 管理员设置，将前排布局设置为默认设置  
+- 立即开会，仅调用应用更新Teams，Teams默认客户端模式<sup>1，2</sup>
+- 在Teams会议<sup>1</sup> 中切换多个摄像机 
 - 默认视频相机设置 
 - Cortana MTR 控制台上的推送对话图标更新 
 - Azure AD Premium 1 个包含在会议室标准版和 高级版 SKU 中的许可证 
-- AAD条件访问策略支持 <sup>3</sup> 
+- AAD 条件访问策略支持<sup>3</sup> 
 - 默认情况下在 OOBE 中启用Cortana语音激活
-- 远程 PTZ 控件支持 <sup>4</sup>
+- 远程 PTZ 控件支持<sup>4</sup>
 
 > <sup>1</sup> 使用Teams Web 客户端推出这些功能，并将在未来几周内完成推出。 详细了解[Teams更新](../teams-client-update.md)。
 > 
 > <sup>Windows</sup>仅Microsoft Teams或Skype for Business运行的 2 个Teams会议室和Microsoft Teams (默认) 使用新的会议和呼叫体验进行更新，但此更新不会影响其他模式。
 > 
-> <sup>3</sup> 请参阅有关为Teams 会议室设置[AAD条件访问策略的](../rooms/rooms-authentication.md#azure-ad-conditional-access)附加详细信息。
+> <sup>3</sup> 请参阅有关为Teams 会议室设置 [AAD 条件访问策略的](../rooms/rooms-authentication.md#azure-ad-conditional-access)附加详细信息。
 > 
 > <sup>4</sup> 此功能要求 IT 管理员配置Teams桌面客户端远程 PTZ 控件应用。
 > 
@@ -247,7 +247,7 @@ Teams 会议室受现代生命周期策略的约束。 有关详细信息，请�
 在此更新中引入：
 
 - 在会议室显示器前查看包含 3x3 视频库的更多视频  
-- 从 MTR 开始本地实时隐藏字幕
+- "开始"菜单地铁的本地直播隐藏字幕
 - 通过直接来宾加入Teams 会议室加入 Zoom 会议 (预览版) 
 
 > [!NOTE]
@@ -265,7 +265,7 @@ Teams 会议室受现代生命周期策略的约束。 有关详细信息，请�
 在此更新中引入：
 
 - 通过直接来宾加入从Teams 会议室加入 Cisco WebEx 会议
-- Teams管理中心启用和自动注册
+- Teams 管理员中心启用和自动注册
 - Windows 10 1909 版本支持
 - 即使存在内容，也可切换到视频库布局
 - 虚拟举手支持与会者和演示者控制
@@ -321,7 +321,7 @@ Teams 会议室受现代生命周期策略的约束。 有关详细信息，请�
 在此更新中引入：
 
 - 自动应答基于邻近的调用和管理设置来控制此问题
-- 设备管理员设置 UI 刷新，在“关于”选项卡下添加设备配置
+- 设备管理员 设置 UI 刷新，在“关于”选项卡下添加设备配置
 - 房间控件回到主屏幕
 - 会议室 SKU 在 GCC 中可用
 - 基于Surface Pro系统的内容相机支持 (所需的最低应用版本：4.2.4.0) 
@@ -350,9 +350,9 @@ Teams 会议室受现代生命周期策略的约束。 有关详细信息，请�
 - Skype会议室系统应用商店应用将品牌重塑为“Microsoft Teams 会议室”
 - Microsoft Teams 会议室控制台用户界面重新调整为Microsoft Teams
 - 主题更新：仅在会议室显示器前保留自定义背景图像，同时使控制台背景成为中性颜色，以确保控制台 UI 控件满足颜色对比度 - 辅助功能要求
-- 用于Teams呼叫/会议的会议内呼叫控件的通用栏，以提供与Microsoft Teams电脑/Web/移动客户<sup>端一</sup>致的体验1
-- Teams呼叫/会议 <sup>1</sup> 后调用质量反馈评级
-- 从电脑/Web/移动Teams客户端 <sup>1</sup> <sup>2</sup> 共享时，在会议室前Microsoft Teams 会议室显示器上接收/呈现Microsoft Whiteboard
+- 用于Teams呼叫/会议的会议内呼叫控件的通用栏，以提供与Microsoft Teams电脑/Web/移动客户<sup>端 1</sup> 的一致体验
+- Teams呼叫/会议<sup>1</sup> 后调用质量反馈评级
+- 从电脑/Web/移动Teams客户端<sup>1</sup> <sup>2</sup> 共享时，在会议室显示Microsoft Teams 会议室前接收/呈现Microsoft Whiteboard
 - 由于Microsoft Teams 会议室客户端的兼容性问题，删除了对版本 1809 升级Windows 10支持。 Windows 10版本 19H1 支持将在将来的版本中添加
 
 <sup>使用</sup>Teams环推出 1 个Microsoft Teams服务。 此功能可能早于或晚于 4.0.105.0 客户端更新
@@ -422,7 +422,7 @@ Teams 会议室受现代生命周期策略的约束。 有关详细信息，请�
 
 - Teams模式中的“报告问题”功能改进 (等效于Skype for Business模式下的“提供反馈) 
 - 为 SIP 调用启用从Teams回退到Skype for Business模式的功能
--  (讲述人、放大镜) 的辅助功能改进
+- 辅助功能改进 (讲述人、放大镜) 
 - 应用 XML 预配更改后，在需要时自动重启应用
 - 其他修补程序
 
@@ -521,7 +521,7 @@ Teams 会议室受现代生命周期策略的约束。 有关详细信息，请�
 - 为公共生成提供反馈的能力
 - 改进了有关会议联接可靠性的遥测
 - 改进了 OMS 报告
-- IT 管理员能够远程配置设备
+- IT 管理员远程配置设备的能力
 
 ### <a name="2020-03152017"></a>2.0.2.0 (2017/03/15) 
 

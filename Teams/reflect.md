@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d17409a09cbadc535e3b7971d6224b4e2fcb678b
-ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
+ms.openlocfilehash: 5df52ff5de4db994cb049db1dde2b27c2465dce5
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "64839033"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675754"
 ---
 # <a name="it-admin-guide-to-reflect-in-microsoft-teams"></a>Microsoft Teams 中 Reflect 的 IT 管理员指南
 
@@ -69,7 +69,7 @@ Reflect 收集学生信息，但不会收集来宾数据。 **如果将学生定
 > 有关详细信息，请参阅 [如何允许一个应用或将其添加到课堂团队](manage-apps.md#allow-and-block-apps)。
 
 ## <a name="where-do-educators-find-reflect"></a>教育工作者在哪里找到 Reflect？
-启用 Reflect 后，教育工作者转到该课堂，选择 **新对话**。 然后，选择 **...**"以显示邮件扩展，然后在搜索输入 **Reflect**。 该对话框将指导他们定义问题以及设置哪些人可以看到哪些内容。
+启用 Reflect 后，教育工作者转到该课堂，选择 **新对话**。 然后，选择“**...**”以显示邮件扩展，然后在搜索栏中输入 **Reflect**。 该对话框将指导他们定义问题以及设置哪些人可以看到哪些内容。
 
 :::image type="content" source="media/reflect-add-app.png" alt-text="向课堂团队添加“反思”。":::
 

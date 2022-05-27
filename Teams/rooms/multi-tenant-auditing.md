@@ -15,57 +15,57 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 审核 TRM 的日志记录。
+description: TRM 的审核日志记录。
 f1keywords: ''
-ms.openlocfilehash: bb002ad546553e906339b03ff7b36ff2ccce8506
-ms.sourcegitcommit: 848e462c4f0c94548d3f90f28fb1c69a9bce64be
+ms.openlocfilehash: 3681f50f0e15a7688a944c14e69907ba53dd2817
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "61620526"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65676605"
 ---
-# <a name="audit-logging-in-the-teams-rooms-managed-service"></a>审核托管服务Teams 会议室日志记录
+# <a name="audit-logging-in-the-teams-rooms-managed-service"></a>Teams 会议室托管服务中的审核日志记录
 
-使用 Teams 会议室 托管 (TRM) 服务中的审核功能可以搜索审核记录，查找用户和管理员在门户中执行的活动。 此功能默认已启用。 只有托管服务管理员有权导出并查看日志。
+Teams 会议室托管 (TRM) 服务中的审核允许你搜索用户和管理员在门户中执行的活动的审核记录。 默认情况下启用此功能。 只有托管服务管理员有权导出，然后查看日志。
 
 > [!NOTE]
-> TRM 服务中执行的操作不会记录到Microsoft 365 Office 365审核 
+> 在 TRM 服务中执行的操作不会登录Microsoft 365或Office 365审核 
 
 ## <a name="exporting-logs"></a>导出日志
 
-导出 审核日志 搜索的所有结果时，统一 审核日志 中的原始数据将复制到下载到本地计算机的逗号分隔值 (CSV) 文件中。 
+导出审核日志搜索的所有结果时，将统一审核日志中的原始数据复制到一个逗号分隔值 (CSV) 文件，该文件将下载到本地计算机。 
 
 **下载日志** 
 
-1. 转到"**常规设置 >">审核日志"。**
-1. 若要定义感兴趣的日志的日期范围，请输入 **"开始日期"和** " **结束日期"。**
+1. 转到 **设置 >常规>审核日志**。
+1. 若要定义感兴趣的日志的日期范围，请输入 **"开始"菜单日期** 和 **结束日期。**
 
    > [!NOTE]
    > 日志最多只能使用 180 天。
 
-1. 选择" **下载日志"。**
+1. 选择 **“下载日志”。**
 
    ![审核日志日期范围](../media/multi-tenant-auditing.png)
 
-   窗口底部显示的消息会提示打开或保存 CSV 文件。 
+   窗口底部显示的消息提示你打开或保存 CSV 文件。 
 
-1. 选择 **"**  >  **另存为**"，将 CSV 文件保存到本地计算机。 
+1. 选择 **“另存** > **为**”，并将 CSV 文件保存到本地计算机。 
 
-1. 搜索所有活动时，或在广泛的日期范围内下载许多搜索结果需要一段时间。 CSV 文件下载完成后，窗口底部会显示一条消息。
+1. 在搜索所有活动时或在广泛的日期范围内下载许多搜索结果需要一段时间。 下载完 CSV 文件后，会显示窗口底部的消息。
 
-## <a name="detailed-properties-in-the-audit-log"></a>属性中的详细审核日志
+## <a name="detailed-properties-in-the-audit-log"></a>审核日志中的详细属性
 
 下表描述了 CSV 中包含的属性。
 
 |属性|说明|
 | - | - |
-|activity.category|<p>执行的操作所针对的对象的类别。 可能的值：</p><p>**用户、分配、合作伙伴邀请、角色**</p>|
+|activity.category|<p>所执行操作的对象的类别。 可能的值：</p><p>**用户、分配、PartnerInvitation、角色**</p>|
 |activity.objectName|已修改的对象的名称。|
-|activity.operation|执行的操作类型。 可能的值为 **：Create、Update、Delete** |
-|activity.resultStatus|<p>指示在 **activity.operation** (中指定的操作) 是否成功。</p><p>值为"成功 **"** 或"**失败"。**</p>|
-|activity.tenantId|执行该操作的租户的 GUID|
-|creationTime|用户执行活动时，协调世界时 (UTC) 采用 ISO 格式。|
+|activity.operation|执行的操作类型。 可能的值为： **创建、更新、删除** |
+|activity.resultStatus|<p>指示 **activity.operation** 属性中指定的操作 () 是否成功。</p><p>值为 **“成功** ”或 **“失败**”。</p>|
+|activity.tenantId|执行操作的租户的 GUID|
+|creationTime|协调世界时 (UTC 的日期和时间在用户执行活动时) ISO 格式。|
 |user.userId|执行导致记录记录的操作的用户。|
-|user.userTenantId|执行该操作的用户的租户 GUID|
+|user.userTenantId|执行操作的用户的租户 GUID|
 
 

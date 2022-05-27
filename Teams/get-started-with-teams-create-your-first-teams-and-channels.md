@@ -18,26 +18,28 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f5b8cf1295d29b8a74ec9b63b84c9568c15997e8
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 3fc00dd5c73601af7e646578016d18e16e95bda5
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62385330"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674624"
 ---
 # <a name="create-your-first-teams-and-channels-in-microsoft-teams"></a>在 Microsoft Teams 中创建首批团队和频道
 
-设置和使用你的第一批团队和频道可让你积累 Teams 相关经验，并确定可帮助在整个组织内推动采用 Teams 的支持者。 如果尚未安装 Teams，请参阅[获取 Teams 客户端](get-clients.md)和[使用新式身份验证登录到 Teams](sign-in-teams.md)。
+设置和使用你的第一批团队和频道可让你积累 Teams 相关经验，并确定可帮助在整个组织内推动采用 Teams 的支持者。
+如果尚未安装 Teams，请参阅[获取 Teams 客户端](get-clients.md)和[使用新式身份验证登录到 Teams](sign-in-teams.md)。
 
 ## <a name="suggestions-for-your-first-teams-and-channels"></a>针对你的第一批团队和频道的建议
 
- 团队是围绕共同目标聚集在一起的一些人。 频道是团队内完成实际工作的协作空间。 
+ 团队是围绕共同目标聚集在一起的一些人。 频道是团队内完成实际工作的协作空间。
 
 若要了解详细信息，请参阅 [Teams 中的团队和频道概述](teams-channels-overview.md)以及[在 Teams 中组织团队的最佳做法](best-practices-organizing.md)。
 
- 建议你首先创建一个“了解 Teams”团队，早期采用者可以在该团队中尝试各种操作、询问问题，并发现 Teams 的功能。 为了在你开始体验 Teams 时取得成功，此团队可能非常重要。 
+ 建议你首先创建一个“了解 Teams”团队，早期采用者可以在该团队中尝试各种操作、询问问题，并发现 Teams 的功能。 为了在你开始体验 Teams 时取得成功，此团队可能非常重要。
 
 ### <a name="get-to-know-teams-team"></a>“了解 Teams”团队
+
 项目团队可以使用“了解 Teams”团队确保他们准备好使用 Teams 客户端、进行一些初始对话，并浏览 Teams 的功能。 你的组织中可能已经有抢先试用过新功能的一群人。 当你针对这些用户上线产品时，这可能就形成了其最初的团队之一，并将帮助你获得早期反馈。
 
 下面是建议的团队结构。
@@ -52,9 +54,10 @@ ms.locfileid: "62385330"
 | 支持 | 如果某些功能未按预期方式工作，请使用此频道来获得帮助。 ||
 
 ## <a name="get-your-first-teams-up-and-running"></a>启动并运行你的第一批团队
-作为管理员，你可以在 Teams 客户端或 Microsoft Teams 管理中心中创建和管理团队及频道。 可将团队创建为公共团队或私有团队。 你也可以创建[组织范围团队](create-an-org-wide-team.md)。 组织中使用 Teams 的任何人都可加入公共团队。 对于私有团队，团队所有者可管理团队成员身份。 对于组织范围团队，会自动添加组织中的每个人。 
 
-若要开始，我们建议你创建私有团队，并添加另一个所有者来管理团队设置和成员身份。 
+作为管理员，你可以在 Teams 客户端或 Microsoft Teams 管理中心中创建和管理团队及频道。 可将团队创建为公共团队或私有团队。 你也可以创建[组织范围团队](create-an-org-wide-team.md)。 组织中使用 Teams 的任何人都可加入公共团队。 对于私有团队，团队所有者可管理团队成员身份。 对于组织范围团队，会自动添加组织中的每个人。
+
+若要开始，我们建议你创建私有团队，并添加另一个所有者来管理团队设置和成员身份。
 
 > [!NOTE]
 > 在后面的步骤中，我们使用 Teams 桌面客户端来创建团队和频道。 请记住，作为管理员，你还可以在 Microsoft Teams 管理中心中执行这些任务。
@@ -63,25 +66,28 @@ ms.locfileid: "62385330"
 
 在 Teams 的左侧, 单击“**团队**”，在团队列表底部单击“**加入或创建团队**”，然后单击“**创建新团队**”。
 
-创建团队后，邀请人加入其中。 可以添加单个用户、 组，甚至可添加整个联系人组 （以前称为“通讯组列表”）。 
+创建团队后，邀请人加入其中。 可以添加单个用户、 组，甚至可添加整个联系人组 （以前称为“通讯组列表”）。
 
-![示例团队的屏幕截图，其中显示了团队名称和说明。](media/get-started-with-teams-create-team.png "“了解 Teams”示例团队的屏幕截图，显示团队名称和说明") 
+![示例团队的屏幕截图，其中显示了团队名称和说明。](media/get-started-with-teams-create-team.png "“了解 Teams”示例团队的屏幕截图，显示团队名称和说明")
 
 ### <a name="add-a-team-owner"></a>添加团队所有者
-找到你创建的团队，单击“**更多选项˙˙˙**” > “**管理团队**”。 然后转到“**成员**”选项卡。找到想要指定为团队所有者的人。 在“**角色**”下，单击“**所有者**”。
+
+找到你创建的团队，单击“**更多选项...**” > “**管理团队**”。 然后转到“**成员**”选项卡。找到想要指定为团队所有者的人。 在“**角色**”下，单击“**所有者**”。
 
 ### <a name="create-a-channel-in-a-team"></a>在团队中创建频道
-找到你创建的团队，单击“**更多选项˙˙˙**” > “**添加频道**”。 也可以单击“**管理团队**”，并在“**频道**”选项卡中添加频道。 
 
-![单击“更多选项”时可用选项的屏幕截图。](media/get-started-with-teams-add-channel.png "在团队上单击“更多选项”时可用的“添加频道”选项、“管理团队”选项和其他选项的屏幕截图") 
+找到你创建的团队，单击“**更多选项˙˙˙**” > “**添加频道**”。 也可以单击“**管理团队**”，并在“**频道**”选项卡中添加频道。
 
-为频道指定一个描述性名称，让用户能够更轻松地了解该频道的用途。 
+![单击“更多选项”时可用选项的屏幕截图。](media/get-started-with-teams-add-channel.png "在团队上单击“更多选项”时可用的“添加频道”选项、“管理团队”选项和其他选项的屏幕截图")
 
-作为团队所有者，你可以为整个团队自动收藏频道，让团队中的每个人可以更容易看到这些频道。 你也可以将选项卡固定到频道来添加工具（例如 OneNote）、网页链接和其他内容，方便用户找到所需的内容和分享想法。  
+为频道指定一个描述性名称，让用户能够更轻松地了解该频道的用途。
 
-下面是“了解 Teams”团队中的“如何”频道的示例，显示链接到 Teams 网页的固定选项卡 &ndash; Teams 视频培训、Teams 帮助中心和 Teams 下载链接。 
+作为团队所有者，你可以为整个团队自动收藏频道，让团队中的每个人可以更容易看到这些频道。 你也可以将选项卡固定到频道来添加工具（例如 OneNote）、网页链接和其他内容，方便用户找到所需的内容和分享想法。
 
-![固定到示例团队的选项卡的屏幕截图。](media/get-started-with-teams-add-tabs.png "固定到“了解 Teams”示例团队的选项卡的屏幕截图。") 
+下面是“了解 Teams”团队中的“如何”频道的示例，显示链接到 Teams 网页的固定选项卡 &ndash; Teams 视频培训、Teams 帮助中心和 Teams 下载链接。
+
+![固定到示例团队的选项卡的屏幕截图。](media/get-started-with-teams-add-tabs.png "固定到“了解 Teams”示例团队的选项卡的屏幕截图。")
 
 ## <a name="next-steps"></a>后续步骤
+
 转到[为早期采用者上线产品](get-started-with-teams-onboard-early-adopters.md)。

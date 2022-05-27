@@ -20,12 +20,12 @@ f1.keywords:
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3f50a76eb6dfafdabfb2ea679fe86b91954c364f
-ms.sourcegitcommit: d425748a50964ebc78e5d38fce564a444a449f43
+ms.openlocfilehash: 52bc9b577b545ff7658b0317baca7eb6098dd335
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65635470"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675134"
 ---
 # <a name="teams-devices-for-education"></a>Teams教育版设备
 
@@ -33,17 +33,17 @@ ms.locfileid: "65635470"
 
 ### <a name="hybrid-and-blended-education-is-here-to-stay"></a>混合和混合教育在这里停留
 
-未来的Learning将是混合和混合的。 教师和学生都需要在一系列空间中实现流畅的体验，其动机是在学习方式和地点方面需要灵活性。 教育不会局限于物理教室或严格虚拟环境：远程参与将和亲自学习一样有活力。 混合和混合学习提供的灵活性，虽然对所有人都不新鲜，但对许多人而言将是全新的，并将产生深远的影响。 
+未来的Learning将是混合和混合的。 教师和学生都需要在一系列空间中实现流畅的体验，其动机是在学习方式和地点方面需要灵活性。 教育不会局限于物理教室或严格虚拟环境：远程参与将和亲自学习一样有活力。 混合和混合学习提供的灵活性，虽然对所有人都不新鲜，但对许多人而言将是全新的，并将产生深远的影响。
 
-现代混合教室将是无边界的。 学生和教育工作者将通过同步和异步学习以及互动的多模式参与来获得支持，这些互动活动旨在满足每一个学生在每种情况下的需求。 Teams设备已设计为支持一系列空格，因此没有声音闻所未闻。 
+现代混合教室将是无边界的。 学生和教育工作者将通过同步和异步学习以及互动的多模式参与来获得支持，这些互动活动旨在满足每一个学生在每种情况下的需求。 Teams设备已设计为支持一系列空格，因此没有声音闻所未闻。
 
 ### <a name="student-and-educators-alike-excel-with-microsoft-teams-rooms"></a>学生和教师都擅长Microsoft Teams 会议室
 
--   Microsoft Teams 会议室实现安全、安全、以学生为中心的学习，从课堂集成到分组室，以实现更集中的协作，甚至一对一地解决特定的学生需求和问题。
+- Microsoft Teams 会议室实现安全、安全、以学生为中心的学习，从课堂集成到分组室，以实现更集中的协作，甚至一对一地解决特定的学生需求和问题。
 
--   在数字或混合学习环境中使用个人和共享设备可帮助学生社交并获得他们一生中将使用的关键技能。
+- 在数字或混合学习环境中使用个人和共享设备可帮助学生社交并获得他们一生中将使用的关键技能。
 
--   Teams功能不限于课堂。 教师和管理员可以轻松地与同一所学校内或整个学区内的其他教职员工从他们的家、办公室或他们优化环境的其他地方联系。 借Teams，可以随时随地访问专业开发。
+- Teams功能不限于课堂。 教师和管理员可以轻松地与同一所学校内或整个学区内的其他教职员工从他们的家、办公室或他们优化环境的其他地方联系。 借Teams，可以随时随地访问专业开发。
 
 ### <a name="bring-digital-flexibility-to-physical-spaces"></a>为物理空间带来数字灵活性
 
@@ -62,19 +62,19 @@ Teams 会议室通过提供独特的室内功能（如单击联接、以智能�
 
 依赖外部服务或自带设备连接的非本机和自建系统永远不会真正与本机Teams室的易用性或沉浸式质量相匹配。
 
-**专为Teams而构建** 
+**专为Teams而构建**：
 
 高级音频、视频和共享
 
-**适用于任何房间的扩展设备组合**
+**适用于任何房间的扩展设备组合**：
 
 从跨Android或Windows操作系统的完全模块化或集成外形因素中进行选择
 
-**重新构想的房间体验**
+**重新构想的房间体验**：
 
 参加无摩擦Teams会议，为学生和教育工作者参与包容性的协作会议
 
-**从一个位置轻松管理**
+**从一个位置轻松管理**：
 
 完全管理和使设备保持最新状态，并准备好进入Teams 管理员中心，并使用 Microsoft Teams 会议室高级版 从 Microsoft 启用 24x7 主动管理
 
@@ -98,7 +98,7 @@ Teams 会议室通过提供独特的室内功能（如单击联接、以智能�
 
 *空间中的活动是否侧重于协作共同创建？*
 
-创意需要布局和围绕用户协作设计的技术部署。 适当的空间可无缝地促进用户与技术之间的工作，甚至消除大多数新手用户的摩擦。 Teams设备旨在使年轻学生能够熟练地进行导航，并且教育工作者可以从首次使用开始进行控制和自定义。 
+创意需要布局和围绕用户协作设计的技术部署。 适当的空间可无缝地促进用户与技术之间的工作，甚至消除大多数新手用户的摩擦。 Teams设备旨在使年轻学生能够熟练地进行导航，并且教育工作者可以从首次使用开始进行控制和自定义。
 
 *与亲自参与者和远程参与者共享内容是优先级的空间又如何呢？*
 
@@ -108,7 +108,7 @@ Teams 会议室通过提供独特的室内功能（如单击联接、以智能�
 
 正确的音频和视频技术选择将帮助用户充分利用其Microsoft Teams会议。
 
-*音频*
+*音频*：
 
 音频注意事项对于确保可以清楚地听到和理解远程参与者和室内参与者至关重要。 麦克风和扬声器覆盖必须包括房间里的每一个座位，而不会留下空隙。
 
@@ -116,19 +116,16 @@ Teams 会议室通过提供独特的室内功能（如单击联接、以智能�
 
 将每个空间的右麦克风和扬声器配对，将提供最佳结果，以便在不分心的情况下清楚地听到。
 
--   在可能嘈杂的空间（例如家里的公共房间或教室的办公桌上），耳机仅限制会议参与者的声音，从而提供最佳体验。 耳机麦克风设计为仅选取会议语音，并且包含扬声器，以便只有与会者才能听到正在发生的事情。
+- 在可能嘈杂的空间（例如家里的公共房间或教室的办公桌上），耳机仅限制会议参与者的声音，从而提供最佳体验。 耳机麦克风设计为仅选取会议语音，并且包含扬声器，以便只有与会者才能听到正在发生的事情。
 
--   在更多私人设置 (例如，学生的卧室) ，设备选择可以扩展为包括个人免提电话等内容。 这些个人设备允许与耳机上相同级别的聊天质量，但不受必须佩戴设备的限制。
+- 在更多私人设置 (例如，学生的卧室) ，设备选择可以扩展为包括个人免提电话等内容。 这些个人设备允许与耳机上相同级别的聊天质量，但不受必须佩戴设备的限制。
 
--   在共享空间中，选项会扩展，但相同的原则仍然存在：需要听取会议参与者并清楚地听取其他人的声音。
+- 在共享空间中，选项会扩展，但相同的原则仍然存在：需要听取会议参与者并清楚地听取其他人的声音。
+  - 一体式音频设备是更小空间的易于部署的高质量选项，并且相对靠近音频设备的参与者数量有限。
+  - 在较大的空格中，麦克风和扬声器分开以确保空间中所有参与者的最大覆盖范围。 许多用于中型到大型会议室的解决方案都作为工具包的一部分提供，无需配置，只需物理安装麦克风和扬声器。
+  - 在最大和最复杂的空间中，可以使用各种麦克风和扬声器类型的解决方案，例如从大大厅捕获讲师和观众的声音，同时向每个人发出呼叫。 这些解决方案最好由 [Microsoft 合作伙伴](https://cloudpartners.transform.microsoft.com/teams-mrpp) 部署，该合作伙伴在设计和部署技术性更丰富的解决方案方面具有专业知识。
 
-    -   一体式音频设备是更小空间的易于部署的高质量选项，并且相对靠近音频设备的参与者数量有限。
-
-    -   在较大的空格中，麦克风和扬声器分开以确保空间中所有参与者的最大覆盖范围。 许多用于中型到大型会议室的解决方案都作为工具包的一部分提供，无需配置，只需物理安装麦克风和扬声器。
-
-    -   在最大和最复杂的空间中，可以使用各种麦克风和扬声器类型的解决方案，例如从大大厅捕获讲师和观众的声音，同时向每个人发出呼叫。 这些解决方案最好由 [Microsoft 合作伙伴](https://cloudpartners.transform.microsoft.com/teams-mrpp) 部署，该合作伙伴在设计和部署技术性更丰富的解决方案方面具有专业知识。
-
-*Video*
+*视频*：
 
 视频和音频一样重要。 捕获面部表情或手势等物理、非语言通信与课堂或会议内容一样重要，以确保最大程度的参与和理解。 会议室需要配备适当尺寸的显示，以便每个人都可以正确体验会议，无论是在会议室还是远程会议。 会议室还需要拥有适当的摄像头覆盖和视图 (FOV) ，以便有效地捕获远程加入的所有会议室内会议参与者。
 
@@ -136,11 +133,11 @@ Teams 会议室通过提供独特的室内功能（如单击联接、以智能�
 
 高质量的视频是现代Teams协作的必要条件。 相机技术已显著提高，高质量的摄像头现在可用于所有空间。
 
--   笔记本电脑和平板电脑等设备中包含的摄像头是参与视频通话的个人使用的绝佳起点。 对于希望为个人空间带来更丰富的视频体验的用户，外部摄像头表示从嵌入式设备上迈出的一步，并可用于更多方案和配置，确保呼叫参与者共享自己最优质的视图。 这些设备使用在每个电脑上找到的简单 USB 连接轻松安装。
+- 笔记本电脑和平板电脑等设备中包含的摄像头是参与视频通话的个人使用的绝佳起点。 对于希望为个人空间带来更丰富的视频体验的用户，外部摄像头表示从嵌入式设备上迈出的一步，并可用于更多方案和配置，确保呼叫参与者共享自己最优质的视图。 这些设备使用在每个电脑上找到的简单 USB 连接轻松安装。
 
--   在共享空间中，选项和功能会展开。 较小的房间可能由一体式音频设备（如声栏）中包含的摄像机覆盖。 这些相机通常具有广泛的视野，确保在一次拍摄中捕获空间中的每个参与者。 其中许多相机还具有智能框架图像 (，使相机只显示会议中的人员，而不是空椅子) 跟踪和了解空间利用率。
+- 在共享空间中，选项和功能会展开。 较小的房间可能由一体式音频设备（如声栏）中包含的摄像机覆盖。 这些相机通常具有广泛的视野，确保在一次拍摄中捕获空间中的每个参与者。 其中许多相机还具有智能框架图像 (，使相机只显示会议中的人员，而不是空椅子) 跟踪和了解空间利用率。
 
--   在较大的会议室中，摄像头采用了在不同距离的不同位置捕获参与者所需的技术。 这些相机可以捕获组或专注于特定的个人，同时保持良好的视觉清晰度。 只能跟踪和功能仅活动扬声器的设备会定期在更大的空间中使用，以便许多参与者在参与他们的想法时，可以在会议中单独参与。
+- 在较大的会议室中，摄像头采用了在不同距离的不同位置捕获参与者所需的技术。 这些相机可以捕获组或专注于特定的个人，同时保持良好的视觉清晰度。 只能跟踪和功能仅活动扬声器的设备会定期在更大的空间中使用，以便许多参与者在参与他们的想法时，可以在会议中单独参与。
 
 ### <a name="how-do-you-interact-virtually-beyond-video-streams"></a>如何在视频流之外进行虚拟交互？
 
@@ -150,7 +147,7 @@ Teams会议不仅仅是针对参与者的音频和视频呼叫。 可以通过�
 
 对于来自物理世界的内容，具有Microsoft Teams会议室系统的空格可以处理白板或文档相机，以便协调审查和讨论空间中的内容。
 
-为了获得完全交互式体验，交互式显示 (（例如Surface Hub系列产品和 Microsoft 数字白板) 可轻松地为亲身学生和远程学生以交互方式创建内容。 
+为了获得完全交互式体验，交互式显示 (（例如Surface Hub系列产品和 Microsoft 数字白板) 可轻松地为亲身学生和远程学生以交互方式创建内容。
 
 ## <a name="example-spaces"></a>示例空格
 
@@ -170,19 +167,17 @@ Teams会议不仅仅是针对参与者的音频和视频呼叫。 可以通过�
 
 *示例**设备：*
 
--   [HP 笔记本电脑 - 14t-dq200](https://www.hp.com/shop/pdp/hp-laptop-14t-dq200-touch-optional-2d129av-1?jumpid=ma_intel-optane_product-tile_clamshell-laptops_1_2d129av-1_hp-laptop---14t-dq20)
+- [HP 笔记本电脑 - 14t-dq200](https://www.hp.com/shop/pdp/hp-laptop-14t-dq200-touch-optional-2d129av-1?jumpid=ma_intel-optane_product-tile_clamshell-laptops_1_2d129av-1_hp-laptop---14t-dq20)
 
--   备用笔记本电脑选项包括：
+- 备用笔记本电脑选项包括：
+  - [Microsoft Surface Laptop 4](https://www.microsoft.com/d/surface-laptop-4/946627FB12T1?OCID=AID2200083_SEM_6341646f18fa14c7e4d80565e0debe72%3aG%3as&ef_id=6341646f18fa14c7e4d80565e0debe72%3aG%3as&s_kwcid=AL!4249!10!79302431130415!79302713431201&msclkid=6341646f18fa14c7e4d80565e0debe72&activetab=pivot%3aoverviewtab) - 适用于高等教育的更高版本
+  - [Microsoft Surface Go 笔记本电脑](https://www.microsoft.com/d/surface-laptop-go/94FC0BDGQ7WV?OCID=AID2200083_SEM_215e2d5fa8281476bdd84c555fcf1fad%3aG%3as&ef_id=215e2d5fa8281476bdd84c555fcf1fad%3aG%3as&s_kwcid=AL!4249!10!78890114459337!78890368468596&msclkid=215e2d5fa8281476bdd84c555fcf1fad&activetab=pivot%3aoverviewtab) - 适用于 K-12
 
-    -   [Microsoft Surface Laptop 4](https://www.microsoft.com/d/surface-laptop-4/946627FB12T1?OCID=AID2200083_SEM_6341646f18fa14c7e4d80565e0debe72%3aG%3as&ef_id=6341646f18fa14c7e4d80565e0debe72%3aG%3as&s_kwcid=AL!4249!10!79302431130415!79302713431201&msclkid=6341646f18fa14c7e4d80565e0debe72&activetab=pivot%3aoverviewtab) – 高等教育
-
-    -   [Microsoft Surface Go 笔记本电脑](https://www.microsoft.com/d/surface-laptop-go/94FC0BDGQ7WV?OCID=AID2200083_SEM_215e2d5fa8281476bdd84c555fcf1fad%3aG%3as&ef_id=215e2d5fa8281476bdd84c555fcf1fad%3aG%3as&s_kwcid=AL!4249!10!78890114459337!78890368468596&msclkid=215e2d5fa8281476bdd84c555fcf1fad&activetab=pivot%3aoverviewtab) - 适用于 K-12
-
--   [EPOS Sennheiser 头戴耳机 - 自适应 560](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/epos-sennheiser-adapt-560/467)
+- [EPOS Sennheiser 头戴耳机 - 自适应 560](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/epos-sennheiser-adapt-560/467)
 
 *安装或设置此解决方案包括：*
 
-非常简单。 这完全可由最终用户处理，只需将电脑与经过认证的耳机进行音频和视频通话即可。 
+非常简单。 这完全可由最终用户处理，只需将电脑与经过认证的耳机进行音频和视频通话即可。
 
 ### <a name="personal-space"></a>个人空间
 
@@ -202,11 +197,11 @@ Teams会议不仅仅是针对参与者的音频和视频呼叫。 可以通过�
 
 *显示的设备：*
 
--   具有Windows 10和外部显示的个人电脑
+- 具有Windows 10和外部显示的个人电脑
 
--   [Yealink USB Webcam - UVC20](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/yealink-uvc20/854)
+- [Yealink USB Webcam - UVC20](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/yealink-uvc20/854)
 
--   [Poly Speakerphone – Sync 20](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/poly-sync-20/825)
+- [Poly Speakerphone – Sync 20](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/poly-sync-20/825)
 
 *示例 B：*
 
@@ -222,9 +217,9 @@ Teams会议不仅仅是针对参与者的音频和视频呼叫。 可以通过�
 
 *显示的设备：*
 
--   具有Windows 10和外部显示的个人电脑
+- 具有Windows 10和外部显示的个人电脑
 
--   [Poly Soundbar – Studio P15](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/poly-studio-p15/821)
+- [Poly Soundbar – Studio P15](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/poly-studio-p15/821)
 
 *安装或设置此解决方案包括：*
 
@@ -246,19 +241,18 @@ Teams会议不仅仅是针对参与者的音频和视频呼叫。 可以通过�
 
 *显示的设备：*
 
--   会议室系统 - [Microsoft Surface Hub 2S](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/microsoft-surface-hub-2s/822)
+- 会议室系统 - [Microsoft Surface Hub 2S](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/microsoft-surface-hub-2s/822)
+  - 请注意，Surface Hub解决方案表示协作和交互式使用的高级体验。 与大型显示器配对的[Microsoft Teams会议室解决方案](https://www.microsoft.com/microsoft-teams/across-devices/devices/category/teams-rooms/20?page=1&filterIds=)可以用作此方案中的替代方法。
 
-    -   请注意，Surface Hub解决方案表示协作和交互式使用的高级体验。 与大型显示器配对的[Microsoft Teams会议室解决方案](https://www.microsoft.com/microsoft-teams/across-devices/devices/category/teams-rooms/20?page=1&filterIds=)可以用作此方案中的替代方法。
+- 模拟白板捕获 - [Logitech Brio 内容相机工具包](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/logitech-brio-content-camera-kit/349)
 
--   模拟白板捕获 - [Logitech Brio 内容相机工具包](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/logitech-brio-content-camera-kit/349)
+- 相机和音频 - [Logitech Rally Plus 工具包](https://www.logitech.com/products/video-conferencing/room-solutions/rally-ultra-hd-conferencecam.html)
 
--   相机和音频 - [Logitech Rally Plus 工具包](https://www.logitech.com/products/video-conferencing/room-solutions/rally-ultra-hd-conferencecam.html)
-
--   会议室控件的触摸控制台 - [Logitech TAP](https://www.logitech.com/products/video-conferencing/room-solutions/tap.html?crid=1691)
+- 会议室控件的触摸控制台 - [Logitech TAP](https://www.logitech.com/products/video-conferencing/room-solutions/tap.html?crid=1691)
 
 *安装或设置此解决方案包括：*
 
-复杂。 此会议室提供物理安装（包括布线），要求知识渊博的 AV 部署合作伙伴正确规划和部署相机和音频解决方案，以便它们能够无缝地为空间中的最终用户工作。 
+复杂。 此会议室提供物理安装（包括布线），要求知识渊博的 AV 部署合作伙伴正确规划和部署相机和音频解决方案，以便它们能够无缝地为空间中的最终用户工作。
 
 ### <a name="lecture-halls"></a>讲堂
 
@@ -276,13 +270,13 @@ Teams会议不仅仅是针对参与者的音频和视频呼叫。 可以通过�
 
 *显示的设备：*
 
--   会议室系统 - 使用已安装的投影仪和基于购物车的显示器[Teams的 Crestron Flex C100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)
+- 会议室系统 - 使用已安装的投影仪和基于购物车的显示器[Teams的 Crestron Flex C100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)
 
--   可选数字白板 - [Microsoft Surface Hub 2S](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/microsoft-surface-hub-2s/822)
+- 可选数字白板 - [Microsoft Surface Hub 2S](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/microsoft-surface-hub-2s/822)
 
--   相机 – [AVer CAM520 Pro](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/aver-cam520-pro-standard/575)
+- 相机 – [AVer CAM520 Pro](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/aver-cam520-pro-standard/575)
 
--   已安装音频 - [适用于大型会议室的 QSC 和 Sennheiser](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-in-ceiling-speakers/701)
+- 已安装音频 - [适用于大型会议室的 QSC 和 Sennheiser](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-in-ceiling-speakers/701)
 
 *安装或设置此解决方案包括：*
 
@@ -300,13 +294,13 @@ Teams几乎可以在任何可以想到的教育或多用途空间中实现。 �
 
 *显示的设备：*
 
--   会议室系统 - 使用已安装的投[影仪Teams的 Crestron Flex C100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)
+- 会议室系统 - 使用已安装的投[影仪Teams的 Crestron Flex C100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)
 
--   可选双数字白板 - [Microsoft Surface Hub 2S](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/microsoft-surface-hub-2s/822)
+- 可选双数字白板 - [Microsoft Surface Hub 2S](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/microsoft-surface-hub-2s/822)
 
--   相机 – [Yealink UVC84](https://www.yealink.com/product/camera-uvc84)
+- 相机 – [Yealink UVC84](https://www.yealink.com/product/camera-uvc84)
 
--   已安装音频 - [适用于大型会议室的 QSC 和 Sennheiser](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-in-ceiling-speakers/701)
+- 已安装音频 - [适用于大型会议室的 QSC 和 Sennheiser](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-in-ceiling-speakers/701)
 
 *安装或设置此解决方案包括：*
 
@@ -314,7 +308,7 @@ Teams几乎可以在任何可以想到的教育或多用途空间中实现。 �
 
 ## <a name="dont-forget-security"></a>不要忘记安全性
 
-确保解决方案安全免受网络威胁至关重要。 使用Teams 会议室系统或设备时，Microsoft 使用尖端 AI 和自动化来确保数据和专用信息的安全。 保护学校或机构首先通过Intune/AutoPilot) 通过Azure Active Directory) 和设备管理 (进行标识和访问管理 (。 
+确保解决方案安全免受网络威胁至关重要。 使用Teams 会议室系统或设备时，Microsoft 使用尖端 AI 和自动化来确保数据和专用信息的安全。 保护学校或机构首先通过Intune/AutoPilot) 通过Azure Active Directory) 和设备管理 (进行标识和访问管理 (。
 
 ## <a name="more-information"></a>更多信息
 
