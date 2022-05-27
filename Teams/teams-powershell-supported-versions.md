@@ -12,12 +12,12 @@ ms.collection:
 description: 了解用于管理Microsoft Teams的 Teams PowerShell 模块支持的版本。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80465e1685ea05d6f49c6119110ddf2004098055
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+ms.openlocfilehash: 6915448d76de64a65a9ac50e5c66e3ca41e051ef
+ms.sourcegitcommit: 8ce73ea99be607f5cdccb22a5366bc96e8fb09c8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681913"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65758310"
 ---
 # <a name="teams-powershell-module---supported-versions"></a>Teams PowerShell 模块 - 支持的版本
 
@@ -29,11 +29,11 @@ Microsoft Teams PowerShell 模块 (4.x.x 系列或更高版本中的 TPM) 版本
 
 ## <a name="current-organizations-non-tpm-active"></a>当前组织 (非 TPM 活动) 
 
- (1 月 22 日 – 3 月 22 日) ，在过去三个月中未使用过 Teams PowerShell 模块的组织只能从 2022 年 4 月 1 日起在 4.x.x 系列或更高版本中使用 Teams PowerShell 模块。
+在 1 月 22 日 - 3 月 22 日期间未使用过 Teams PowerShell 模块的组织只能从 2022 年 4 月 1 日起在 4.x.x 系列或更高版本中使用 Teams PowerShell 模块。
 
 ## <a name="current-organizations-tpm-active"></a>当前组织 (TPM 活动) 
 
-在过去三个月中使用 Teams PowerShell 模块的组织 (1 月 22 日 – 3 月 22 日) ，从 2022 年 6 月 15 日开始，只能在 4.x.x 系列或更高版本中使用 Teams PowerShell 模块。 消息中心帖子供参考 - MC350371。
+在 1 月 22 日 - 3 月 22 日期间使用过 Teams PowerShell 模块的组织只能从 2022 年 6 月 15 日起在 4.x.x 系列或更高版本中使用 Teams PowerShell 模块。 消息中心帖子供参考 - MC350371。
 
 ## <a name="important-notes"></a>重要说明
 
@@ -54,7 +54,9 @@ Microsoft Teams PowerShell 模块 (4.x.x 系列或更高版本中的 TPM) 版本
 
   - 电话数字分配的更改 - [Set-CsUser](/powershell/module/skype/set-csuser)、[Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser)、[Set-CsOnlineApplicationInstance](/powershell/module/skype/set-csonlineapplicationinstance) & [Set-CsOnlineVoiceApplicationInstance](/powershell/module/skype/set-csonlinevoiceapplicationinstance) (消息中心帖子中的更多详细信息 – MC316139) 。
 
-  - Get-CsTenant中的参数更改 - [Get-CsTenant 中的](/powershell/module/skype/get-cstenant)更多详细信息。
+  - Get-CsTenant中的参数更改 - [Get-CsTenant](/powershell/module/skype/get-cstenant) (消息中心帖子 - MC365397) 中的更多详细信息。
+  
+  - 如果脚本将 New/Set of Policy 或 Configuration cmdlet 与 PSListModifier 类型参数配合使用，建议使用最新版本 (4.2.0 或更高版本) 。
 
 - 在使用 TPM 4.x.x 或更高版本时，建议不要使用 [下面](#deprecated-cmdlets)提到的任何已弃用或不受支持的 cmdlet。
 
@@ -77,7 +79,7 @@ Microsoft Teams PowerShell 模块 (4.x.x 系列或更高版本中的 TPM) 版本
   - [Grant|Get|设置|新增功能|Remove]-CsClientPolicy
   - [Grant|Get]-CsHostedVoicemailPolicy
   - [Grant|Get|设置|新增功能|Remove]-CsMobilityPolicy
-  - [Grant|Get] CsVoiceRoutingPolicy
+  - [Grant|Get]-CsVoiceRoutingPolicy
   - [Grant|Get]-CsBroadcastMeetingPolicy
   - [Grant|Get]-CsCloudMeetingPolicy
   - [Grant|Get]-CsGraphPolicy
@@ -96,7 +98,7 @@ Microsoft Teams PowerShell 模块 (4.x.x 系列或更高版本中的 TPM) 版本
   - Get-CsHostingProvider
   - [Get|设置|注册|Unregister]-CsHybridPSTNAppliance
   - [Get|设置|新增功能|Remove]-CsHybridPSTNSite
-  - [Get|Set]- CsHybridMediationServer
+  - [Get|Set]-CsHybridMediationServer
   - [Get|设置|新增功能|Remove]-CsTenantUpdateTimeWindow
   - Get-CsUserLocationStatus
   - Invoke-CsUcsRollback

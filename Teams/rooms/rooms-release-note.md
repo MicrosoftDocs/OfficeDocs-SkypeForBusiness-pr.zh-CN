@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 管理员可以阅读Microsoft Teams 会议室的发行说明，其中列出了Microsoft Teams 会议室的累积改进。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 03a23ecb47fb0efca19ce3a7085a1fcc41b80dc3
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: eadeea6648da5ef2a5b5210b45bb3c884a1cabe8
+ms.sourcegitcommit: 55926815f13efce42fb45f63d95515a5765e0d40
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674194"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65753055"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Microsoft Teams 会议室发行说明
 
@@ -39,6 +39,7 @@ Teams 会议室受现代生命周期策略的约束。 有关详细信息，请�
 
 |释放 |发布到 <br/> Microsoft Store |
 |--- |--- |
+|4.12.138.0 |5/26/2022 |
 |4.12.126.0 |4/27/2022 |
 |4.11.17.0 |3/3/2022 |
 |4.11.12.0 |1/24/2022 |
@@ -90,6 +91,13 @@ Teams 会议室受现代生命周期策略的约束。 有关详细信息，请�
 |RTM (1.0.8)  |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft Teams 会议室功能简介和问题解决
+
+### <a name="4121380-5262022"></a>4.12.138.0 (5/26/2022) 
+
+在此更新中引入：
+- Jabra Panacast 50 的 Bug 修复
+- 跨云匿名会议加入的 Bug 修复
+- 质量和可靠性修复
 
 ### <a name="4121260-4272022"></a>4.12.126.0 (2022/4/27) 
 

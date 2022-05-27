@@ -429,7 +429,7 @@ items:
         href: teams-scoped-directory-search.md
       - name: 常见问题解答：支持远程工作人员
         href: FAQ-support-remote-workforce.md
-      - name: 报表
+      - name: 报告
         items:
           - name: 概述
             href: teams-analytics-and-reports/teams-reporting-reference.md
@@ -1640,6 +1640,8 @@ items:
         items:
           - name: 适合一线员工的 Teams
             href: flw-landing-page.md
+          - name: 从一线试用版开始
+            href: flw-trial.md
           - name: 适合一线员工的许可选项
             href: flw-licensing-options.md
           - name: 一线员工快速入门指南
