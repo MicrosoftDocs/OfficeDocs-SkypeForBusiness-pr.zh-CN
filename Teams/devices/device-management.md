@@ -1,7 +1,7 @@
 ---
 title: 在 Microsoft Teams 中管理设备
-author: cazawideh
-ms.author: czawideh
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -20,12 +20,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e4346d82e490d28840e029d257cbeeb4c4e10765
-ms.sourcegitcommit: e102d72e67ab1c440c29ae6a048fc2cf8545fe01
+ms.openlocfilehash: 576c22d95dbbbb16105eb8e365c717ba7140cfb8
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "65220344"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65767238"
 ---
 # <a name="microsoft-teams-managing-your-devices"></a>Microsoft Teams：管理设备 
 
@@ -66,13 +66,13 @@ ms.locfileid: "65220344"
 | 查看会议活动                  | 选择设备名称以打开活动>设备详细 **信息。** 打开 **“活动”** 选项卡时，可以看到设备参与的所有会议。 此摘要视图显示会议开始时间、参与者数、持续时间和总体通话质量。                                                                                        |
 | 查看会议详细信息                   | 选择设备名称以打开设备详细信息> **活动** >选择会议。 打开会议的详细信息时，可以看到会议中的所有参与者、他们在呼叫中的时间、Teams会话类型及其单个呼叫质量。 如果要查看有关参与者呼叫的技术信息，请选择参与者的呼叫开始时间。 |
 
-## <a name="manage-phones-teams-rooms-on-android-teams-displays-and-teams-panels"></a>在 Android 上管理手机、Teams 会议室、Teams显示器和Teams面板 
+## <a name="manage-phones-teams-rooms-on-android-teams-displays-and-teams-panels"></a>管理手机、Teams 会议室Android、Teams显示器和Teams面板 
 
-在Teams管理中心，可以查看和管理电话、Android 上的Teams 会议室、Teams显示器以及Teams在组织中注册Teams的面板。 对于每个设备，你将看到的信息包括设备名称、制造商、模型、用户、状态、操作、上次查看时间和历史记录。 可以自定义视图以显示符合你需求的信息。
+在Teams管理中心，可以查看和管理电话、Teams 会议室Android、Teams显示器以及Teams组织中注册的Teams面板。 对于每个设备，你将看到的信息包括设备名称、制造商、模型、用户、状态、操作、上次查看时间和历史记录。 可以自定义视图以显示符合你需求的信息。
 
-如果你已注册手机、Android 上的Teams 会议室、Teams显示器和Teams面板，则会自动在Microsoft Intune中注册。 注册设备后，将确认设备符合性，并将条件访问策略应用到设备。
+如果已注册手机、Teams 会议室Android、Teams显示器和Teams面板，则会自动在Microsoft Intune中注册。 注册设备后，将确认设备符合性，并将条件访问策略应用到设备。
 
-下面是一些示例，说明如何在 Android 上管理手机、Teams 会议室、Teams显示和Teams面板。  
+下面是一些示例，说明如何在组织中管理手机、Teams 会议室Android、Teams显示和Teams面板。  
 
 | 要执行此操作...                           | 执行此操作                                                                                                                                                                                                                                                                                                      |
 |-----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -87,13 +87,13 @@ ms.locfileid: "65220344"
 
 ### <a name="use-configuration-profiles-in-teams"></a>在Teams中使用配置文件
 
-使用配置文件管理组织中不同Teams设备的设置和功能，包括 Android 上的Teams 会议室、Teams显示、Teams手机和Teams面板。 可以创建或上传配置文件，包括要启用或禁用的设置和功能，然后将配置文件分配给设备或设备集。 
+使用配置文件管理组织中不同Teams设备的设置和功能，包括Android上的Teams 会议室、Teams显示器、Teams手机和Teams面板。 可以创建或上传配置文件，包括要启用或禁用的设置和功能，然后将配置文件分配给设备或设备集。 
 
 #### <a name="create-a-configuration-profile"></a>创建配置文件
 
 若要为Teams设备类型创建配置文件，请执行以下操作：
 
-1. 在左侧导航栏中，转到 **Teams设备**>选择Teams设备类型>**配置文件**。 例如，选择 **Teams设备** > **Teams** **panelConfiguration** >  配置文件，为Teams面板创建新的配置文件。
+1. 在左侧导航栏中，转到 **Teams设备**>选择Teams设备类型>**配置文件**。 例如，选择 **Teams设备** > **Teams面板** > **配置文件**，为Teams面板创建新的配置文件。
 2. 单击“**添加**”。
 3. 输入配置文件的名称，并可以选择添加友好说明。
 4. 指定配置文件所需的设置，然后单击 **“保存**”。
