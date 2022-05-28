@@ -1,7 +1,7 @@
 ---
 title: Teams 会议室中语音识别 (语音配置文件) 的租户管理控制
-author: cazawideh
-ms.author: czawideh
+author: dstrome
+ms.author: dstrome
 ms.reviewer: parisataheri
 manager: serdars
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95f3b03ddad75cd36bb6dbbfd51eac08d7742aac
-ms.sourcegitcommit: 20d44ce9a62ba2fb60f989d2e7bbc9333055e783
+ms.openlocfilehash: 3d5caa402be0ea282d70bfe17cc9d2d728e6ec2c
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "65063253"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65760924"
 ---
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>管理智能扬声器的语音识别技术控制
 

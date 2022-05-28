@@ -1,7 +1,7 @@
 ---
 title: 部署 Microsoft Teams 会议室
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: 阅读本文以了解如何部署 Microsoft Teams 会议室（包括部署阶段）。
-ms.openlocfilehash: 18a5d72fb9c11b34bb994734b8d064c3aaa2cdae
-ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+ms.openlocfilehash: 0111e8723d70b753c2d8de64350387252db8f8f7
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65125767"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65760914"
 ---
 # <a name="deployment-overview"></a>部署概述
 
@@ -53,7 +53,7 @@ Microsoft Teams 会议室的部署基本上分为几个阶段：
 要准备 Microsoft Teams 会议室部署，请执行以下关键的中心任务：
 
 -   定义Microsoft Teams 会议室资源帐户。
--   如果加入Teams 会议室Azure Active Directory，请准备一个具有动态成员身份的Azure AD组，以保存所有Teams 会议室资源帐户。 这将简化未来的管理，例如应用条件访问策略。 为了最轻松地利用Azure AD动态组，请确定唯一标识Teams 会议室资源帐户的命名约定。
+-   如果加入Teams 会议室Azure Active Directory，请准备具有动态成员身份的 Azure AD 组，以保存所有Teams 会议室资源帐户。 这将简化未来的管理，例如应用条件访问策略。 为了最轻松地利用 Azure AD 动态组，请确定唯一标识Teams 会议室资源帐户的命名约定。
 -   如果将Teams 会议室加入 Active Directory，请准备一个组织单位和 Active Directory 组来保存Microsoft Teams 会议室计算机和资源帐户，并且（可选）准备组策略对象 (GPO) 以启用 PowerShell 远程处理。
 
 ### <a name="define-microsoft-teams-rooms-resource-account-features"></a>定义Microsoft Teams 会议室资源帐户功能 
@@ -113,38 +113,38 @@ _资源帐户规划表Microsoft Teams 会议室示例_
 
 ### <a name="resource-account-provisioning"></a>资源帐户预配 
 
-每个Microsoft Teams 会议室设备都需要一个专用且唯一的资源帐户，该帐户必须为Microsoft Teams或Skype for Business和Exchange启用。 此帐户必须在Exchange上托管一个会议室邮箱。 必须配置日历处理，以便设备可以自动接受传入的会议请求。 有关创建这些帐户的详细信息，请参阅[为 Microsoft Teams 会议室配置帐户](rooms-configure-accounts.md)。 
+每个 Microsoft Teams 会议室设备都需要一个专用且唯一的资源帐户，该帐户必须同时为 Microsoft Teams 或 Skype for Business 和 Exchange 启用。 此帐户必须在 Exchange 上托管一个会议室邮箱。 必须配置日历处理，以便设备可以自动接受传入的会议请求。 有关创建这些帐户的详细信息，请参阅[为 Microsoft Teams 会议室配置帐户](rooms-configure-accounts.md)。 
 
 **专业提示** - 每个 Microsoft Teams 会议室必须在网络上有有效且唯一的计算机名称。 许多监视和警报系统将计算机名称显示为密钥标识符，因此为 Microsoft Teams 会议室部署开发命名约定非常重要，该约定允许支持人员轻松找到标记为需要操作的 Microsoft Teams 会议室。 例如，可以使用 MTR-*地点*-*会议室名称* (MTR-LON-CURIE) 模式。 
 
 |  &nbsp;  | &nbsp;    |
 |-----------|------------|
-| ![决定命名约定。](../media/audio_conferencing_image7.png) <br/>决策点|<ul><li>确定Microsoft Teams 会议室资源帐户的命名约定。</li><li>决定是创建单个帐户还是使用批量配置脚本。</li></ul>| 
+| ![决定命名约定。](../media/audio_conferencing_image7.png) <br/>决策点|<ul><li>确定 Microsoft Teams 会议室资源帐户的命名约定。</li><li>决定是创建单个帐户还是使用批量配置脚本。</li></ul>| 
 | ![后续步骤。](../media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>开始计划设备部署。</li></ul>| 
 
 
 ### <a name="device-software-installation"></a>设备软件安装 
 
-Teams 会议室由原始设备制造商 (OEM) 预安装。
+Teams 会议室由原始设备制造商预安装 (OEM) 。
 
-我们提供有关如何使用[Microsoft Azure监视器](/skypeforbusiness/plan-your-deployment/clients-and-devices/azure-monitor)监视Microsoft Teams 会议室部署的指导，并报告可用性、硬件/软件错误以及Microsoft Teams 会议室应用程序版本。 如果决定使用 Microsoft Operations Management Suite，则应在软件安装过程中安装 Operations Management Suite 代理，并为工作区配置工作区连接信息。 
+我们提供有关如何使用 [Microsoft Azure Monitor](/skypeforbusiness/plan-your-deployment/clients-and-devices/azure-monitor) 监视 Microsoft Teams 会议室部署的指导，并报告可用性、硬件/软件错误以及 Microsoft Teams 会议室应用程序版本。 如果决定使用 Microsoft Operations Management Suite，则应在软件安装过程中安装 Operations Management Suite 代理，并为工作区配置工作区连接信息。 
 
-另一个需要考虑的问题是 Microsoft Teams 会议室是否加入域。 有关域加入的好处的信息，请参阅为[Microsoft Teams 会议室配置组策略](rooms-operations.md#configuring-group-policy-for-microsoft-teams-rooms)。 
+另一个需要考虑的问题是 Microsoft Teams 会议室是否加入域。 有关加入域的好处的信息，请参阅为 [Microsoft Teams 会议室配置组策略](rooms-operations.md#configuring-group-policy-for-microsoft-teams-rooms)。 
 
 | &nbsp;   |  &nbsp;   |
 |-----------|------------|
-| ![决策点设备命名。](../media/audio_conferencing_image7.png) <br/>决策点|<ul><li>确定要在部署期间使用的Microsoft Teams 会议室资源帐户命名约定。</li><li>确定是否将Microsoft Teams 会议室设备加入域。 </li><li>决定是否使用 Azure Monitor 监视Microsoft Teams 会议室部署。</li> 
+| ![决策点设备命名。](../media/audio_conferencing_image7.png) <br/>决策点|<ul><li>确定要在部署期间使用的 Microsoft Teams 会议室资源帐户命名约定。</li><li>确定是否将 Microsoft Teams 会议室设备加入域。 </li><li>决定是否使用 Azure Monitor 监视 Microsoft Teams 会议室部署。</li> 
 | ![后续步骤计划设备。](../media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>开始计划设备部署方法。</li></ul>| 
 
 
 ### <a name="device-deployment"></a>设备部署
 
-决定如何创建和管理Microsoft Teams 会议室资源帐户后，创建计划，将设备及其分配的外围设备寄送到会议室，然后继续安装和配置。
+决定如何创建和管理 Microsoft Teams 会议室资源帐户后，创建计划，将设备及其分配的外围设备寄送到您的会议室，然后继续安装和配置。
 
 
 |  &nbsp;  |   &nbsp;  |
 |-----------|------------|
-| ![管理逐站点部署。](../media/audio_conferencing_image7.png) <br/>决策点|<ul><li>决定管理站点到站点部署的人员。</li><li> 确定将在现场安装Microsoft Teams 会议室并进行配置和测试的资源。</li></ul>| 
+| ![管理逐站点部署。](../media/audio_conferencing_image7.png) <br/>决策点|<ul><li>决定管理站点到站点部署的人员。</li><li> 确定将在现场安装 Microsoft Teams 会议室并进行配置和测试的资源。</li></ul>| 
 | ![启动设备测试。](../media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>开始设备测试.</li></ul>| 
 
 _示例部署表_
@@ -156,9 +156,9 @@ _示例部署表_
 
 ### <a name="microsoft-teams-rooms-application-and-peripheral-device-configuration"></a>Microsoft Teams 会议室应用程序和外围设备配置 
 
-在物理部署每个Microsoft Teams 会议室系统并连接受支持的外围设备后，需要将Microsoft Teams 会议室应用程序配置为分配Microsoft Teams 会议室资源帐户和密码，使Teams 会议室能够登录到Microsoft Teams或Skype for Business，并Exchange。
+在物理部署每个 Microsoft Teams 会议室系统并连接受支持的外围设备后，需要配置 Microsoft Teams 会议室应用程序以分配 Microsoft Teams 会议室资源帐户和密码，使 Teams 会议室能够登录到 Microsoft Teams 或 Skype for Business 和 Exchange。
 
-可手动配置每个 Microsoft Teams 会议室系统。 或者，可以使用集中存储的按Teams 会议室 XML 配置文件来管理应用程序设置。
+可手动配置每个 Microsoft Teams 会议室系统。 或者，可以使用集中存储的每个 Teams 会议室 XML 配置文件来管理应用程序设置。
 
 有关如何使用 XML 配置文件的详细信息，请参阅[使用 XML 配置文件远程管理 Microsoft Teams 会议室控制台设置](xml-config-file.md)。 
 
@@ -171,7 +171,7 @@ _示例部署表_
 
 ### <a name="testing"></a>测试
 
-部署Teams 会议室后，应对其进行测试。 检查 [Microsoft Teams 会议室帮助](https://support.microsoft.com/en-us/office/microsoft-teams-rooms-help-e667f40e-5aab-40c1-bd68-611fe0002ba2?ui=en-us&rs=en-us&ad=us)中列出的功能是否在部署的设备上正常工作。 我们强烈建议部署团队验证Microsoft Teams 会议室是否出现在Teams管理中心。 同样重要的是要做一些测试电话和会议来检查质量。 有关更多信息，请参阅此[有用的部署清单](console.md#microsoft-teams-rooms-deployment-checklist)。
+部署 Teams 会议室后，应对其进行测试。 检查 [Microsoft Teams 会议室帮助](https://support.microsoft.com/en-us/office/microsoft-teams-rooms-help-e667f40e-5aab-40c1-bd68-611fe0002ba2?ui=en-us&rs=en-us&ad=us)中列出的功能是否在部署的设备上正常工作。 强烈建议部署团队验证 Microsoft Teams 会议室是否出现在 Teams 管理中心。 同样重要的是要做一些测试电话和会议来检查质量。 有关更多信息，请参阅此[有用的部署清单](console.md#microsoft-teams-rooms-deployment-checklist)。
 
 我们建议作为常规 Teams 或 Skype for Business 推出的一部分，配置通话质量仪表板 (CQD) 的构建文件，监控质量趋势，并参与体验质量审查过程。 有关更多信息，请参阅[改善和监控 Teams 通话质量](../monitor-call-quality-qos.md)。 
 

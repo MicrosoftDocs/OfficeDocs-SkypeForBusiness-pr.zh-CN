@@ -1,7 +1,7 @@
 ---
 title: 管理 Microsoft Teams 会议室
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 了解如何开发和执行持续维护和操作，以确保Microsoft Teams 会议室系统可供用户使用。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 47f1c170fd0c41331dfaffa2d81386ac3c2fb722
-ms.sourcegitcommit: 0967f725aad0a7b9c430b2e30a37ea333007558a
+ms.openlocfilehash: 0252d44b073353aea43fec838f439ecb2233c43f
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "65106267"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65761294"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>管理 Microsoft Teams 会议室
 
@@ -86,22 +86,22 @@ ms.locfileid: "65106267"
 | **使用反馈发送日志**                                  | 开<br>关闭                                              | 是                |
 | **日志和反馈的电子邮件地址**                      | 电子邮件地址                                          | 是                |
 | *坐标会议*                                                     |                                                        |                    |
-| **协调会议** | 开<br>关闭                                 | 否                |
-| **打开此设备的麦克风** | 开<br>关闭                                 | 否                |
-| **允许用户在加入会议时启用** | 选中<br>未选中                                 | 否                |
-| **打开此设备的相机** | 开<br>关闭                                 | 否                |
-| **允许用户在加入会议时启用** | 选中<br>未选中                                 | 否                |
+| **协调会议** | 开<br>关闭                                 | 不支持                |
+| **打开此设备的麦克风** | 开<br>关闭                                 | 不支持                |
+| **允许用户在加入会议时启用** | 选中<br>未选中                                 | 不支持                |
+| **打开此设备的相机** | 开<br>关闭                                 | 不支持                |
+| **允许用户在加入会议时启用** | 选中<br>未选中                                 | 不支持                |
 | **为此设备启用白板** | 开<br>关闭                                 | 否                |
 | **受信任的设备帐户 (使用逗号) 分开** | 设备列表                              | 否                |
 | *外设*                                                |                                                        |                    |
 | **会议麦克风**                                  | 可用麦克风列表                          | 否                 |
 | **会议扬声器**                                     | 可用扬声器列表                             | 否                 |
-| **默认卷**                                           | 0-100                                                  | 否                 |
+| **默认卷**                                           | 0-100                                                  | 不支持                 |
 | **默认扬声器**                                          | 可用扬声器列表                             | 否                 |
 | **默认卷**                                           | 0-100                                                  | 否                 |
-| **内容相机**                                           | 可用相机列表                              | 否                 |
-| **内容相机增强功能**                              | 开<br>关闭                                              | 否                 |
-| **旋转内容相机 180 度**                        | 开<br>关闭                                              | 否                 |
+| **内容相机**                                           | 可用相机列表                              | 不支持                 |
+| **内容相机增强功能**                              | 开<br>关闭                                              | 不支持                 |
+| **将内容旋转相机 180 度**                        | 开<br>关闭                                              | 不支持                 |
 | *主题*                                                    |                                                        |                    |
 |                                                              | 默认值<br>无主题<br>自 定义<br>内置主题列表   | 是                |
 

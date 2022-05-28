@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 会议室的条件访问和符合性最佳做法
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 description: 了解建议的条件访问和Intune设备符合性策略以及Microsoft Teams 会议室的最佳做法。
-ms.openlocfilehash: b4e1d3cb91ff68e664d590c8e180e55211ca93b0
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 1221060121f47154549c6c6fc926415f4feabbe5
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675484"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65761304"
 ---
 # <a name="conditional-access-and-intune-compliance-for-microsoft-teams-rooms"></a>条件访问和Intune符合Microsoft Teams 会议室
 

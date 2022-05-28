@@ -1,7 +1,7 @@
 ---
 title: 准备环境
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 了解如何为部署Microsoft Teams 会议室准备基础结构，以便可以利用所有功能。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b04ecd5b10f82e3f331bc2e888f59927de52e18c
-ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
+ms.openlocfilehash: 4e479a3bc51cdab49a742d9084601505f13020d8
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "64838993"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65761244"
 ---
 # <a name="prepare-your-environment"></a>准备环境
 
@@ -43,7 +43,7 @@ ms.locfileid: "64838993"
 
 若要正常运行，Microsoft Teams 会议室必须有权访问满足以下要求的有线网络：
   
-- 访问 Active Directory 或 Azure Active Directory (Azure AD) 实例，以及 Microsoft Exchange和Microsoft Teams。
+- 访问 Active Directory 或 Azure Active Directory (Azure AD) 实例，以及 Microsoft Exchange 和Microsoft Teams。
 
 - 可访问能够使用 DHCP 提供 IP 地址的服务器。 Microsoft Teams 会议室无法在第一个单元启动时使用静态 IP 地址进行配置。
 
@@ -79,7 +79,7 @@ Microsoft Teams 会议室设备使用证书Exchange Web 服务、Microsoft Teams
 Microsoft Teams 会议室旨在从Windows OS 继承代理设置。 通过以下方式访问 Windows OS：
   
 1. 在Microsoft Teams 会议室 UI 中，单击设置齿轮图标，系统会提示你在设备上输入本地管理员密码， (默认密码为 **sfb**) 。
-2. 点击 **设置**，然后点击 **“转到Windows**”按钮，然后点击 **“转到管理员登录**”按钮，然后单击“**管理员**”按钮 (如果计算机已加入域，请选择 **“其他用户”，** 然后使用 .\admin 作为用户名) 。
+2. 点击 **设置**，然后点击 **“转到Windows**”按钮，然后点击 **“转到管理员登录**”按钮，然后单击 **“管理员**”按钮 (如果计算机已加入域，请选择 **“其他用户”，** 然后使用 .\admin 作为用户名) 。
 3. 在 **“搜索Windows** 框的左下方键入 regedit (长按屏幕或右键单击并选择 **”以管理员身份运行**) 。
 4. 单击 HKEY_USERS 文件夹（你将看到计算机用户 SID 列表），确保选择根文件夹 HKEY_USERS。
        
@@ -131,14 +131,14 @@ Teams 会议室包含名为“Skype”的无密码本地帐户。 此帐户用�
   
 ### <a name="admin---local-administrator-account"></a>“Admin”- 本地管理员帐户
 
-Microsoft Teams 会议室默认密码设置为“sfb”。 可以通过管理模式或AutoUnattend.xml文件在本地更改密码 (使用 ADK 中的Windows系统映像管理器对 xml 文件) 进行更改。
+Microsoft Teams 会议室默认密码设置为“sfb”。 密码可以通过管理员模式或AutoUnattend.xml文件在本地更改， (使用 ADK 中的Windows系统映像管理器对 xml 文件) 进行更改。
   
 > [!CAUTION]
 > 请务必尽快更改Microsoft Teams 会议室密码。 
   
 本地管理员密码不是安装过程中的一个选项。
 
-可以在[Microsoft Teams 会议室安全](security.md)性文章中阅读有关管理员帐户的详细信息。
+可以在Microsoft Teams 会议室安全性文章中阅读有关[管理员](security.md)帐户的详细信息。
   
 ### <a name="machine-account"></a>计算机帐户
 

@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 会议室维护和操作
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 了解如何管理Microsoft Teams 会议室。
-ms.openlocfilehash: d57f84aa07c90b6a75693f0cbf739402a6e90a4c
-ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+ms.openlocfilehash: df9760694bd8e0c650be25eec7d435efcae02127
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65125467"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65761054"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft Teams 会议室维护和操作
  
@@ -30,7 +30,7 @@ Microsoft Teams 会议室是 Microsoft 的会议解决方案，旨在将会议�
 
 若要在管理中心Teams收集日志，请转到 **Windows上> Teams 会议室Teams设备**。 选择要为其提供日志的设备的显示名称。 在顶部面板中，选择“下载设备日志”。 确认后，日志将在几分钟后准备好在“历史记录”选项卡中下载。
 
-还可以使用 PowerShell 收集日志。 必须调用随Microsoft Teams 会议室应用附带的日志收集脚本。 在 [管理模式](rooms-operations.md)下，启动提升的命令提示符，并发出以下命令：
+还可以使用 PowerShell 收集日志。 必须调用随Microsoft Teams 会议室应用附带的日志收集脚本。 在[管理员模式](rooms-operations.md)下，启动提升的命令提示符，并发出以下命令：
   
 ```PowerShell
 powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1
@@ -96,11 +96,11 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 
 |工作组 |未加入域|加入域|
 |:-----|:-----|:-----|
-|重新启动  <br/> |Teams管理中心  <br/> 远程桌面  <br/> 远程 PowerShell  <br/> | <br/>远程桌面 (需要进一步配置)   <br/> 远程 PowerShell (需要进一步配置)   <br/> 配置管理器  <br/> |
+|重新启动  <br/> |Teams 管理中心  <br/> 远程桌面  <br/> 远程 PowerShell  <br/> | <br/>远程桌面 (需要进一步配置)   <br/> 远程 PowerShell (需要进一步配置)   <br/> 配置管理器  <br/> |
 |更新操作系统  <br/> |Windows 更新  <br/> |Windows 更新  <br/> WSUS  <br/> |
 |应用更新  <br/> |Windows 应用商店  <br/> |Windows 应用商店  <br/> 配置管理器  <br/> |
-|帐户配置  <br/> |Teams管理中心  <br/> |Teams管理中心  <br/> |
-|访问日志  <br/> |Teams管理中心  <br/> PowerShell  <br/> |Teams管理中心 <br/> PowerShell  <br/>  |
+|帐户配置  <br/> |Teams 管理中心  <br/> |Teams 管理中心  <br/> |
+|访问日志  <br/> |Teams 管理中心  <br/> PowerShell  <br/> |Teams 管理中心 <br/> PowerShell  <br/>  |
    
 ## <a name="configuring-group-policy-for-microsoft-teams-rooms"></a>为Microsoft Teams 会议室配置组策略
 <a name="GroupPolicy"> </a>
@@ -162,7 +162,7 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 1. 在Microsoft Teams 会议室设备上以管理员身份登录。
 2. 打开提升的 PowerShell 命令提示符。
 3. 输入以下命令： `Enable-PSRemoting -SkipNetworkProfileCheck -Force`
-4. 打开本地安全策略，并将 *管理员* 安全组添加到 **安全设置** > **Local PoliciesUser** >  **Rights** **AssignmentAccess** >  this computer from the network.
+4. 打开本地安全策略，并将 *管理员* 安全组添加到 **安全设置** > **本地策略** > **用户权限分配** > **从网络访问此计算机**。
 
 执行管理操作：
   
@@ -221,7 +221,7 @@ Copy-Item $movefile $targetDevice
 ## <a name="software-updates"></a>软件更新
 <a name="SWupdate"> </a>
 
-默认情况下，Microsoft Teams 会议室尝试连接到 Windows Store 以获取最新版本的 Microsoft Teams 会议室 软件。 因此，Teams 会议室需要定期访问 Internet。 在遇到支持问题之前，请确保Microsoft Teams 会议室加载了最新版本的应用。
+默认情况下，Microsoft Teams 会议室尝试连接到Windows Microsoft Store以获取最新版本的Microsoft Teams 会议室软件。 因此，Teams 会议室需要定期访问 Internet。 在遇到支持问题之前，请确保Microsoft Teams 会议室加载了最新版本的应用。
   
 Microsoft Teams 会议室连接到Windows 更新以检索操作系统和外围设备固件更新。 它还连接到Microsoft Store以检索应用程序更新。
 
@@ -230,14 +230,14 @@ Microsoft Teams 会议室连接到Windows 更新以检索操作系统和外围�
 ## <a name="admin-mode-and-device-management"></a>管理模式和设备管理
 <a name="AdminMode"> </a>
 
-某些管理功能（例如手动安装专用 CA 证书）需要将Teams 会议室置于管理模式。 
+某些管理功能（例如手动安装专用 CA 证书）需要将Teams 会议室置于管理员模式。 
   
-### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running"></a>切换到管理模式并在Microsoft Teams 会议室应用运行时返回
+### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running"></a>切换到管理员模式并在Microsoft Teams 会议室应用运行时返回
 
 1. 挂断任何正在进行的呼叫，并返回到主屏幕。
 2. 选择“齿轮”图标，并显示菜单 (**选项设置**、**辅助功能** 和 **重启设备**) 。
 3. 选择“**设置**”。
-4. 输入管理员密码。 将显示“设置”屏幕。  如果设备未加入域，则默认情况下将使用本地管理帐户 (用户名“Admin”) 。 此帐户的默认密码为“sfb”。 尽快更改此密码。 如果计算机已加入域，则可以使用适当的特权域帐户登录。
+4. 输入管理员密码。 将显示“设置”屏幕。  如果设备未加入域，默认情况下将使用本地管理帐户 (用户名“管理员”) 。 此帐户的默认密码为“sfb”。 尽快更改此密码。 如果计算机已加入域，则可以使用适当的特权域帐户登录。
 5. 在左列中选择 **Windows 设置**。
 6. 用你的管理凭据登录桌面。 你将拥有管理设备所需的权限。
 7. 执行必要的管理任务。
@@ -245,9 +245,9 @@ Microsoft Teams 会议室连接到Windows 更新以检索操作系统和外围�
     
 现在，控制台将返回其标准运行模式。 下面的过程要求将键盘连接至设备（如果尚未连接）。 
   
-### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-crashes"></a>切换到管理模式并在Microsoft Teams 会议室应用崩溃时返回
+### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-crashes"></a>切换到管理员模式并在Microsoft Teams 会议室应用崩溃时返回
 
-1. 快速连续按 Windows 键五次。此时将显示 Windows 登录屏幕。 
+1. 快速连续按 Windows 键五次。 此时将显示 Windows 登录屏幕。 
 2. 用你的管理凭据登录桌面。
 3. 执行必要的管理任务。
 4. 完成后重启计算机。

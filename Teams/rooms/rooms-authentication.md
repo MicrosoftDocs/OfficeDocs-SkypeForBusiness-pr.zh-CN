@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 会议室中的身份验证
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -14,18 +14,18 @@ ms.assetid: ''
 ms.collection:
 - M365-collaboration
 description: 了解如何为Microsoft Teams 会议室配置新式身份验证
-ms.openlocfilehash: de1487cce0c8a79d2a6c672f5cb729e247966c50
-ms.sourcegitcommit: 0967f725aad0a7b9c430b2e30a37ea333007558a
+ms.openlocfilehash: 5667b4bc2ab356ff9776282a6142a22abd33caa1
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "65106297"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65760874"
 ---
 # <a name="authentication-in-microsoft-teams-rooms"></a>Microsoft Teams 会议室中的身份验证
 
 Microsoft Teams 会议室的帐户管理在应用程序级别进行处理。 应用程序连接到Microsoft Teams、Skype for Business和Exchange，以获取资源帐户的资源，以启用通话和会议体验。 Teams 会议室使用专用资源帐户来允许始终启用功能、为使用调用计划) 配置的设备调用方案 (，以及自定义锁定机制。 这意味着Teams 会议室的身份验证以不同于最终用户设备的方式进行。  
 
-建议所有将Microsoft Teams 会议室与Microsoft 365或Office 365结合使用的客户进行新式身份验证。 如果在本地部署Exchange服务器或Skype for Business服务器，请使用Azure Active Directory (Azure AD) 配置[混合新式身份验证](/office365/enterprise/hybrid-modern-auth-overview)以使用新式身份验证。
+建议所有将Microsoft Teams 会议室与Microsoft 365或Office 365结合使用的客户进行新式身份验证。 如果在本地部署Exchange服务器或Skype for Business服务器，请使用 Azure Active Directory (Azure AD) 配置[混合新式身份验证](/office365/enterprise/hybrid-modern-auth-overview)以使用新式身份验证。
 
 Microsoft Teams 会议室版本 4.4.25.0 及更高版本支持新式身份验证。
 
@@ -61,7 +61,7 @@ Microsoft Teams 会议室版本 4.4.25.0 及更高版本支持新式身份验证
 
 ## <a name="prepare-your-environment-for-modern-authentication"></a>为新式身份验证准备环境
 
-在开始之前，请确保了解用于Office 365和Azure AD的标识模型。 可以在[Office 365标识模型和Azure Active Directory](/Office365/Enterprise/about-office-365-identity)以及用于[Microsoft 365或Office 365的混合标识和目录同步](/Office365/Enterprise/plan-for-directory-synchronization)处找到详细信息。
+在开始之前，请确保了解要与 Office 365 和 Azure AD 一起使用的标识模型。 可以在[Office 365标识模型和Azure Active Directory](/Office365/Enterprise/about-office-365-identity)以及用于[Microsoft 365或Office 365的混合标识和目录同步](/Office365/Enterprise/plan-for-directory-synchronization)处找到详细信息。
 
 ### <a name="enable-modern-authentication-in-microsoft-365-or-office-365"></a>在Microsoft 365或Office 365中启用新式身份验证
 
@@ -73,7 +73,7 @@ Microsoft Teams 会议室版本 4.4.25.0 及更高版本支持新式身份验证
 
 ## <a name="hybrid-modern-authentication"></a>混合新式身份验证
 
-若要确保本地Exchange服务器和/或Skype for Business服务器的身份验证成功，必须确保将与Microsoft Teams 会议室一起使用的资源帐户配置为从Azure AD获取授权。
+若要确保本地Exchange服务器和/或Skype for Business服务器的身份验证成功，必须确保将与Microsoft Teams 会议室一起使用的资源帐户配置为从 Azure AD 获取授权。
 
 Teams 会议室身份验证流因身份验证配置而异。 对于使用托管域的客户，Teams 会议室将 [OAuth 2.0 资源所有者密码凭据](/azure/active-directory/develop/v2-oauth-ropc)与Azure Active Directory配合使用。 但是，对于使用联合域的客户，将使用 [OAuth 2.0 SAML 持有者断言Flow](/azure/active-directory/develop/v2-saml-bearer-assertion)。
 
@@ -91,7 +91,7 @@ Teams 会议室身份验证流因身份验证配置而异。 对于使用托管�
 - 必须Skype for Business Server 2015 CU5 或更高版本，或 Skype for Business Server 2019 或更高版本。
 - 无论你拥有什么拓扑，都不支持 MFA。
 - Microsoft Teams 会议室不支持 SIP 和 UPN 不匹配。 必须创建具有相同 UPN 和 SIP 的Microsoft Teams 会议室帐户才能正常工作。
-- 如果使用Azure AD支持的第三方身份验证提供程序，则它必须支持通过 WS-Trust 的活动身份验证流。
+- 如果使用 Azure AD 支持的第三方身份验证提供程序，则必须支持通过 WS-Trust 的活动身份验证流。
 - 对于与应用程序配置的资源帐户，请勿使用设备级条件访问策略。 这样做将导致登录失败。 而是在Microsoft Intune中注册设备并应用符合性策略。 有关详细信息，请参阅[条件访问和Intune符合Microsoft Teams 会议室](conditional-access-and-compliance-for-devices.md)。
 
 ### <a name="configure-exchange-server"></a>配置Exchange Server
@@ -106,7 +106,7 @@ Teams 会议室身份验证流因身份验证配置而异。 对于使用托管�
 
 如果安装程序不允许混合新式身份验证，或者需要删除或禁用Exchange或Skype for Business的混合新式身份验证，请参阅[从Skype for Business和Exchange中删除或禁用混合新式身份验证](/Office365/Enterprise/remove-or-disable-hybrid-modern-authentication-from-skype-for-business-and-excha)。
 
-### <a name="azure-ad-conditional-access"></a>Azure AD条件访问
+### <a name="azure-ad-conditional-access"></a>Azure AD 条件访问
 
 可以配置与基于 IP/位置的访问Microsoft Teams 会议室一起使用的资源帐户。 若要了解详细信息，请参阅 [条件访问：按位置阻止访问](/azure/active-directory/conditional-access/howto-conditional-access-policy-location)。
 

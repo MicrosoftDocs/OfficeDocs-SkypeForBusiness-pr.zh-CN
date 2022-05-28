@@ -1,7 +1,7 @@
 ---
 title: 如何使用Microsoft Teams面板设备
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: weizxue
 ms.topic: reference
@@ -15,216 +15,216 @@ ms.collection:
 - M365-voice
 search.appverid: MET150
 ms.localizationpriority: medium
-description: 本文提供有关如何使用 Teams设备的指南。
-ms.openlocfilehash: 2928bb64881cad5fb5c6615d26767e963f725dcd
-ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
+description: 本文提供有关如何使用Teams面板设备的指导。
+ms.openlocfilehash: 00d2657179e35e2a5e43cbc0665a6d1533ec70d1
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "64643036"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65760904"
 ---
 # <a name="how-to-use-microsoft-teams-panels"></a>如何使用Microsoft Teams面板
 
-Microsoft Teams面板是安装在会议空间外（通常位于入口旁）的紧凑数字显示设备。 这些触摸屏面板是专用的Microsoft Teams设备，可一目了然地查看会议空间和计划的会议。 使用颜色编码的 LED 和主屏幕指示器，可以确定空间是可用还是保留一定距离。 您可以使用Teams为临时会议保留可用的会议空间。
+Microsoft Teams面板是小型数字显示设备，安装在会议空间外部，通常位于入口旁边。 这些触摸屏面板是专用Microsoft Teams设备，可提供有关会议空间和计划会议的一览视图。 使用充满活力的彩色编码 LED 和主屏幕指示器，可以确定空间是可用的还是从远处保留的。 可以使用Teams面板现场为临时会议保留可用会议空间。
 
-Teams面板设备预安装有 Microsoft Teams，并显示通过日历或日历Outlook Teams会议详细信息。
+Teams面板设备预装了Microsoft Teams，并显示通过Outlook或Teams日历安排的会议详细信息。
 
-本文为最终用户和管理员提供有关如何使用 Teams设备的指南。 它还提供有关使用这些 [设备的](#frequently-asked-questions) 常见问题的解答。
+本文向最终用户和管理员提供有关如何使用Teams面板设备的指导。 它还提供有关使用这些设备的 [常见问题的解答](#frequently-asked-questions) 。
 
-有关面板设备的概述，以及有关如何在组织中计划、传送和管理它们的指导，请参阅部署Microsoft Teams[面板](teams-panels.md)。
+有关面板设备的概述，以及有关如何在组织中规划、交付和管理这些设备的指南，请参阅[“部署Microsoft Teams面板](teams-panels.md)。
 
-有关快速入门，请查看开始[面板Teams功能](https://support.microsoft.com/office/get-started-with-teams-panels-fa5e85d1-7ff3-4f11-b0b0-277e2302c8be)。
+有关快速入门，请使用[Teams面板查看开始](https://support.microsoft.com/office/get-started-with-teams-panels-fa5e85d1-7ff3-4f11-b0b0-277e2302c8be)。
 
 ## <a name="teams-panels-end-user-experience"></a>Teams面板最终用户体验
 
-浏览[会议面板设备的](#explore-teams-panels-home-screen)Teams屏幕以查看会议空间和会议详细信息。 或者，点击并滚动触摸屏面板以执行其他操作。
+浏览Teams面板设备的[主屏幕](#explore-teams-panels-home-screen)以查看会议空间和会议详细信息。 或者，点击触摸屏面板并滚动以执行其他操作。
 
-使用Teams面板设备可以：
+使用Teams面板设备执行以下操作：
 
-- [查看会议空间详细信息和可用性、会议详细信息、即将到来的预订](#explore-teams-panels-home-screen)
+- [查看会议空间详细信息和可用性、会议详细信息、即将进行的预留](#explore-teams-panels-home-screen)
 - [保留可用的会议空间](#reserve-meeting-spaces-for-ad-hoc-meetings)
 - [报告问题](#report-a-problem)
 - [查看或更新设备设置](#view-or-update-a-device-setting)
 
-## <a name="explore-teams-panels-home-screen"></a>浏览Teams"主屏幕"
+## <a name="explore-teams-panels-home-screen"></a>浏览Teams面板主屏幕
 
-主屏幕是主机面板设备的主要Teams界面。  
+主屏幕是Teams面板设备的主视觉界面。  
 
-在主屏幕中，可以查看位置和会议详细信息、预留空间、查看即将到来的预订，以及确定当前可用性状态。
+在“主页”屏幕中，可以查看位置和会议详细信息、保留空间、查看即将进行的预留以及确定当前可用性状态。
 
-以下屏幕截图显示"主页"面板上的Teams或磁贴：
+以下屏幕截图显示了Teams面板主屏幕上的不同部分或磁贴：
 
-:::image type="content" source="../media/panels-home-screen-explanation.png" alt-text="此屏幕截图显示主屏幕上的Teams区域。":::
+:::image type="content" source="../media/panels-home-screen-explanation.png" alt-text="此屏幕截图显示Teams面板主屏幕上的不同区域。":::
 
-请参阅下表，了解每个磁贴的说明：
+有关每个磁贴的说明，请参阅下表：
 
-磁贴 | 说明
+瓦 | 说明
 :---|:---
-**1-当前时间、日期、日期和会议空间详细信息** | 显示当前时间、日期、日期和会议空间名称。 会议空间名称是登录到面板的资源帐户的名称。
-**2-会议空间可用性和会议详细信息** | 指示会议空间可用性并显示会议详细信息。 请参阅 [会议空间可用性和会议详细信息磁贴](#meeting-space-availability-and-meeting-details-tile)。
-**3-即将到来的日历** | 显示从当前小时开始最多 24 小时的会议空间日历和可用性。 向上或向下滚动，确定哪些时间段可用，哪些是保留的。
-**4-设置** | 显示 **设置** 图标。 点击它以报告问题或更新可用的设备设置。
+**1-Current 时间、日期、日期和会议空间详细信息** | 显示当前时间、日期、日期和会议空间名称。 会议空间名称是登录到面板的资源帐户的名称。
+**2 会议空间可用性和会议详细信息** | 指示会议空间可用性并显示会议详细信息。 请参阅 [会议空间可用性和会议详细信息磁贴](#meeting-space-availability-and-meeting-details-tile)。
+**3-即将推出的日历** | 显示会议空间日历和可用性，从当前小时开始最多 24 小时。 向上或向下滚动以确定哪些时间段可用，哪些时间段是保留的。
+**4-设置** | 显示 **设置** 图标。 点击它以报告问题或更新可用设备设置。
 
 ### <a name="meeting-space-availability-and-meeting-details-tile"></a>会议空间可用性和会议详细信息磁贴
 
-此磁贴的外观及其功能因会议空间可用性和预订类型而异。
+此磁贴的外观及其功能因会议空间可用性和预留类型而异。
 
 #### <a name="meeting-space-is-reserved-for-a-scheduled-meeting"></a>为计划的会议保留会议空间
 
-对于为通过会议或会议计划的会议 (保留的会议空间，磁贴Outlook Teams) 。 它以醒目文本显示会议标题、会议开始时间和结束时间以及会议组织者的姓名。 对于Teams会议，还会Teams徽标。 在突出显示会议详细信息后，与会者可以轻松确认他们位于正确的会议空间、适当的时间以及正确的会议。
+磁贴以紫色显示，用于为通过Outlook或Teams) 安排的计划会议 (保留的会议空间。 它以突出文本、会议开始和结束时间以及会议组织者的姓名显示会议标题。 对于Teams会议，也会显示Teams徽标。 突出显示会议详细信息后，与会者可以轻松确认他们在正确的会议空间、正确的时间和正确的会议。
 
-:::image type="content" source="../media/panels-right-tile-scheduled-meeting.png" alt-text="Teams面板主屏幕，显示会议空间已预留给计划的会议。":::
+:::image type="content" source="../media/panels-right-tile-scheduled-meeting.png" alt-text="Teams面板主屏幕显示为计划会议保留会议空间。":::
 
 > [!NOTE]
 >
-> - 安排会议后，最多可能需要 90 秒才能同步日历，并反映在面板屏幕上。
-> - 对于[标记为私密的计划](https://support.microsoft.com/office/make-an-appointment-or-meeting-private-dc3898f0-22f5-45c6-8cc8-b4d4db84111d)会议，将显示"私人会议"，而不是实际的会议标题。
+> - 安排会议后，日历可能需要长达 90 秒的时间才能同步并在面板屏幕上进行反映。
+> - 对于 [标记为专用的预定会议](https://support.microsoft.com/office/make-an-appointment-or-meeting-private-dc3898f0-22f5-45c6-8cc8-b4d4db84111d)，将显示 **专用会议** ，而不是实际会议标题。
 
 #### <a name="meeting-space-is-reserved-for-an-ad-hoc-meeting"></a>为临时会议保留会议空间
 
-为临时会议保留的会议空间的磁贴显示为 [紫色](#reserve-meeting-spaces-for-ad-hoc-meetings)。 它以 **醒目** 文本显示"保留"以及会议开始时间和结束时间。 临时会议自动安排为Teams会议，因此Teams徽标始终显示在屏幕上。
+该磁贴以紫色显示为 [临时会议保留的会议](#reserve-meeting-spaces-for-ad-hoc-meetings)空间。 它以突出文本显示 **保留** ，以及会议开始和结束时间。 临时会议自动安排为Teams会议，因此Teams徽标始终显示在屏幕上。
 
-:::image type="content" source="../media/panels-right-tile-reserved-adhoc.png" alt-text="Teams面板主屏幕，显示为临时会议保留了会议空间。":::
+:::image type="content" source="../media/panels-right-tile-reserved-adhoc.png" alt-text="Teams面板主屏幕显示为临时会议保留会议空间。":::
 
 #### <a name="meeting-space-is-available"></a>会议空间可用
 
-该磁贴以绿色显示，表示可用的会议空间。 它 **以** 醒目的文本显示"可用"，并且还会显示"保留"按钮，您可以点击以保留临时 [会议的会议空间](#reserve-meeting-spaces-for-ad-hoc-meetings)。 您可以在右下 (磁贴中查看即将) 日历，以决定临时会议结束时间。
+磁贴以绿色显示为可用会议空间。 它以突出文本显示 **“可用** ”，同时还会显示一个 **“保留** ”按钮，你可以点击此按钮 [来保留临时会议的会议空间](#reserve-meeting-spaces-for-ad-hoc-meetings)。 可以查看即将开始的会议空间日历 (右下磁贴) 以确定临时会议的结束时间。
 
-:::image type="content" source="../media/panels-right-tile-available-status.png" alt-text="此屏幕截图显示Teams可用会议空间时，&quot;开始&quot;面板的显示方式。":::
+:::image type="content" source="../media/panels-right-tile-available-status.png" alt-text="此屏幕截图显示了当会议空间可用时，Teams面板主屏幕的显示方式。":::
 
 ## <a name="reserve-meeting-spaces-for-ad-hoc-meetings"></a>为临时会议保留会议空间
 
-可以直接从 [临时会议](#meeting-space-is-available) 面板中保留可用的会议空间。 所有临时会议都自动安排为Teams会议。 但是，一旦保留，你无法通过面板释放或取消保留该会议空间。 只有设备资源帐户的管理员可以通过 (或 Outlook 日历取消临时Teams) 来取消空间。
+可以直接从临时会议的面板中保留 [可用的会议空间](#meeting-space-is-available) 。 所有临时会议将自动安排为Teams会议。 但是，保留后，无法通过面板释放或保留该会议空间。 只有设备资源帐户的管理员才能通过Outlook或Teams日历) 取消临时会议 (，以保留空间。
 
 对于直接从面板预订的临时会议：
 
-- 开始时间始终是当前时间，因此不能计划将来的时间。
-- 结束时间可以到下一次计划会议，也可以从当前小时开始最多 24 小时（以较早者为准）。 检查 **"开始"屏幕上的** "即将到来的日历"磁贴，确定会议空间可用或预定的时间段。
+- 开始时间始终是当前时间，因此无法在将来安排它。
+- 结束时间可以是到下一次计划的会议，或者从当前时间（以更早者为准）的 24 小时。 检查主屏幕上 **的“即将开始的日历”** 磁贴，以确定会议空间可用或预订的时间段。
 
-为临时会议保留可用的会议空间：
+为临时会议保留可用会议空间：
 
-1. 在"主页"屏幕上，点击" **保留"** 按钮。
-    :::image type="content" source="../media/panels-reserve.png" alt-text="Teams显示&quot;保留&quot;按钮的主屏幕。":::
-2. 在 **临时会议屏幕** 中，查看可用的结束时间选项。 可以使用向右或向左箭头浏览可用的结束时间选项。
+1. 在“主页”屏幕上，点击 **“保留** ”按钮。
+    :::image type="content" source="../media/panels-reserve.png" alt-text="显示“保留”按钮的Teams面板主屏幕。":::
+2. 在 **临时会议** 屏幕中，查看可用的结束时间选项。 可以使用向右或向左箭头浏览可用的结束时间选项。
 
-    :::image type="content" source="../media/panels-reserve-endtime.png" alt-text="显示结束时间槽位的临时会议屏幕。":::
+    :::image type="content" source="../media/panels-reserve-endtime.png" alt-text="显示结束时间段的临时会议屏幕。":::
 
     > [!Note]
     >
-    > - 结束时间选项以一小时的 15 分钟间隔显示。
-    > - 结束时间默认为下一个 15 分钟时间间隔，该间隔至少是当前时间后的五分钟。 例如，如果当前时间为下午 1：57，则默认结束时间显示为下午 2：15，而不是下午 2：00。 这可以防止用户预订空间 5 分钟或更小时。 在以上屏幕截图中，默认结束时间显示为下午 2：00，这是当前时间 (1：53 pm) 之后至少五分钟的下一个 15 分钟时间间隔。
-    > - 上述规则的例外情况是，下一次会议的开始时间为从当前时间开始的五分钟内。 在这种情况下，您可以预订空间，直到下一次会议开始时间。 例如，如果当前时间是下午 1：57，下一个会议开始时间是下午 2：00，则下午 2：00 将显示为唯一的结束时间选项，你可以将空间保留三分钟。
+    > - 结束时间选项以 15 分钟的间隔显示，间隔为 1 小时。
+    > - 结束时间默认为下一个 15 分钟间隔，即在当前时间之后至少 5 分钟。 例如，如果当前时间是下午 1：57，则默认结束时间显示为下午 2：15，而不是下午 2：00。 这会阻止用户预订空间 5 分钟或更短的时间。 在上面的屏幕截图中，默认结束时间显示为下午 2：00，这是下一个 15 分钟的间隔，在当前时间 (下午 1：53) 后至少 5 分钟。
+    > - 上述规则的例外情况是下一次会议的开始时间在当前时间的五分钟内。 在这种情况下，可以预订空间，直到下一次会议开始时间。 例如，如果当前时间是下午 1：57，而下一次会议开始时间是下午 2：00，则下午 2：00 将显示为唯一的结束时间选项，你可以将空间保留三分钟。
 
-3. 点击所需的结束时间间隔，然后点击"保留 **"**。
+3. 点击所需的结束时间间隔，然后点击 **“保留**”。
 
-    将显示一个确认窗口，显示一个缩略图，显示表情符号、会议开始时间和结束时间以及会议空间名称。
+    此时会显示一个确认窗口，其中包含竖起大拇指的表情符号、会议开始和结束时间以及会议空间名称。
     :::image type="content" source="../media/panels-reserve-confirmation.png" alt-text="临时会议确认消息。":::
-"开始"屏幕上的右磁贴现在以紫色显示，并显示保留文本和Teams徽标。 这表示现在为临时临时会议保留Teams空间。
+“主页”屏幕上的右侧磁贴现在以紫色显示，并显示 **保留** 文本和Teams徽标。 这表示会议空间现在已保留给临时Teams会议。
   
-    :::image type="content" source="../media/panels-right-tile-reserved-adhoc.png" alt-text="显示为临时会议保留会议空间的主屏幕。":::
+    :::image type="content" source="../media/panels-right-tile-reserved-adhoc.png" alt-text="显示临时会议保留会议空间的主屏幕。":::
 
     > [!NOTE]
-    > 如果会议室是会议室Microsoft Teams，您可以使用会议室Teams会议室或Microsoft Teams加入Surface Hub会议。
+    > 如果会议空间是Microsoft Teams会议室，则可以使用会议室内Microsoft Teams或Surface Hub设备 _加入_ 此Teams会议。
 
 ### <a name="report-a-problem"></a>报告问题
 
-若要报告设备或会议空间的问题、请求功能更新或提供任何反馈，请使用主屏幕上的"设置"图标。
+若要报告设备或会议空间的问题，若要请求功能更新或提供任何反馈，请使用主屏幕上的 **“设置”** 图标。
 
-1. 点击 **设置** 屏幕上的"齿轮"图标。
+1. 点击主屏幕上 **的设置** 齿轮图标。
 
-2. 点击" **报告问题"** 选项。
+2. 点击 **“报表问题** ”选项。
 
-    " **发送反馈** "屏幕以表单格式显示。
-3. 从 **"类型** "下拉列表中，选择请求的类型。
-4. 从" **问题** "下拉列表中，选择类别。
-5. 在" **标题** "文本字段中，使用面板键盘键入标题。
-6. 如有必要，在"标题 **"** 下面的文本字段中键入其他详细信息。
+    **“发送反馈**”屏幕以窗体格式显示。
+3. 从 **“类型** ”下拉列表中，选择请求的类型。
+4. 从 **“问题** ”下拉列表中，选择类别。
+5. 在 **“标题** ”文本字段中，使用面板键盘键入标题。
+6. 在 **“标题”** 下方的文本字段中，键入其他详细信息（如有必要）。
 
     > [!NOTE]
     > 请勿包含任何个人身份信息。
 
-7. 查看条目，然后点击"发送 **"**。
+7. 查看条目并点击 **“发送**”。
 
 ### <a name="view-or-update-a-device-setting"></a>查看或更新设备设置
 
-有几个设备设置，例如关于、辅助功能、重新启动和隐私策略，可以直接从面板查看或更新。 可用的设备设置可能因原始设备制造商 (OEM) 设备。 有关特定于设备的设置的信息，请参阅 OEM 文档。
+可直接从面板查看或更新多个设备设置，例如关于、辅助功能、重启和隐私策略。 可用设备设置可能因设备的原始设备制造商 (OEM) 而有所不同。 有关特定于设备的设置的信息，请参阅 OEM 文档。
 
-若要查看或更新设备设置，请：
+若要查看或更新设备设置，请执行以下操作：
 
-1. 点击 **设置** 屏幕上的"设置"图标。
-2. 在屏幕 **设置**，点击"**设备设置"**。
-3. 在 **"设置**"屏幕中，点击要查看或更新的设置。
+1. 点击主屏幕上的 **设置** 图标。
+2. 在 **设置** 屏幕中，点击 **“设备设置**”。
+3. 在 **“设备设置**”屏幕上，点击要查看或更新的设置。
 4. 按照屏幕上的提示查看或更新设置。
 
 ## <a name="teams-panels-admin-experience"></a>Teams面板管理员体验
 
-如果你是用户资源Teams 面板管理员，则 [](teams-panels.md\#resource-account-provisioning)你是设备上 **"面板应用**"的管理员。 作为 **面板应用** 管理员，除了管理设备上面板应用设置之外，还可以执行最终用户体验部分 [](#teams-panels-end-user-experience)中提到的所有功能。
+如果你是 [Teams 面板资源帐户的](teams-panels.md\#resource-account-provisioning)管理员，那么你也是设备上的 **面板应用** 的管理员。 作为 **面板应用** 管理员，除了管理设备上的 **面板应用** 设置外，还可以执行 [最终用户体验](#teams-panels-end-user-experience)部分中提到的所有函数。
 
-你的面板设备提供两种类型的管理员设置。 只有设备管理员才能访问可用的管理员设置。 最终用户无法访问这些设置。
+面板设备提供两种类型的管理员设置。 必须是设备管理员才能访问可用的管理员设置。 最终用户无法访问这些设置。
 
-- 特定于设备的管理员设置，例如显示、时间和日期、语言、蓝牙、WiFi 等。 若要详细了解这些设置，请参阅 OEM 文档。
-- 特定于设备上"面板应用"的管理员设置，例如壁纸和 LED 指示器颜色。 只有面板 **应用的管理员可以** 访问这些设置。 由于 **"面板"** 应用设置作为管理员设置的一部分提供，因此必须具有设备和面板应用的管理员登录凭据才能访问 **面板应用** 设置。
+- 管理员特定于设备的设置，例如显示、时间和日期、语言、蓝牙、WiFi 等。 请参阅 OEM 文档，详细了解这些设置。
+- 管理员特定于设备上的 **面板应用** 的设置，例如壁纸和 LED 指示器颜色。 只有 **面板应用** 的管理员才能访问这些设置。 由于 **面板应用** 设置作为管理员设置的一部分可用，因此必须具有设备和 **面板应用** 的管理员登录凭据才能访问 **面板应用** 设置。
 
 > [!NOTE]
-> 通过设备 **对面板应用** 设置所做的任何更新都仅适用于该特定设备。 这些更新不会影响组织的其他面板设备。 例如，如果从"面板应用"设置更改主屏幕 **壁纸图像，** 则壁纸图像将仅针对该特定设备更改。
+> 通过设备完成的 **面板应用** 设置的任何更新都仅适用于该特定设备。 这些更新不会影响组织中的其他面板设备。 例如，如果从 **面板应用** 设置更改主屏幕壁纸图像，则墙纸图像将仅针对该特定设备进行更改。
 
 ### <a name="access-panels-app-settings"></a>访问面板应用设置
 
-可以使用管理员 **设置** 下的"面板应用"**设置访问"** 面板"应用特定的设置。 访问面板 **应用** 设置步骤可能因设备的 OEM 不同而不同。
+可以使用管理设置下的 **面板应用设置** 选项访问 **面板应用** 特定的设置。 访问 **面板应用设置** 的步骤可能因设备的 OEM 而异。
 
-若要访问 **"面板应用"设置** 选项：
+若要访问 **面板应用设置** 选项：
 
-1. 点击 **设置** 屏幕上的"设置"图标。
-2. 在屏幕 **设置**，点击"**设备设置"**。
-3. 点击"**管理员设置"**。
+1. 点击主屏幕上的 **设置** 图标。
+2. 在 **设置** 屏幕上，点击 **“设备设置**”。
+3. 点击 **管理员 设置**。
 
     > [!NOTE]
-    > 根据设备的 OEM，你可能需要现在或下一步后输入设备管理员密码。
+    > 根据设备的 OEM，可能需要立即或在下一步之后输入设备管理员密码。
 
-4. 向下滚动找到"面板 **应用"设置** 选项。 点击它。
-5. 点击右侧 **屏幕上的"设置** 应用"按钮。
-    将显示具有可用 **面板应用设置的** 屏幕。
+4. 向下滚动以查找 **面板应用设置** 选项。 点击它。
+5. 点击右侧屏幕上的 **“面板应用设置**”按钮。
+    将显示具有可用 **面板应用** 设置的屏幕。
 
-    :::image type="content" source="../media/panels-app-settings-screen.png" alt-text="此屏幕截图显示具有可用&quot;面板&quot;应用设置的屏幕。":::
+    :::image type="content" source="../media/panels-app-settings-screen.png" alt-text="此屏幕截图显示具有可用面板应用设置的屏幕。":::
 
-    使用此屏幕更新设备的 **以下面板** 应用设置：
+    使用此屏幕更新设备的以下 **面板应用** 设置：
 
     - [壁纸](#update-the-wallpaper)
     - [LED 指示器](#change-the-busy-state-led-color)
 
-#### <a name="pair-a-teams-panel-with-a-microsoft-teams-room-on-android"></a>将 Teams 面板 与 android Microsoft Teams 会议室配对
+#### <a name="pair-a-teams-panel-with-a-microsoft-teams-room-on-android"></a>将Teams 面板与Android上的Microsoft Teams会议室配对
 
-若要在 Android Teams 面板与 Teams会议室配对，这两台设备必须登录到同一资源帐户。
+若要在Android上配对Teams 面板和Teams会议室，必须将这两个设备登录到同一资源帐户。
 
-在Teams 面板，使用管理员凭据登录。
+在Teams 面板上，使用管理员凭据登录。
 
-1. 转到"**设置 >设备设置 >"设置 >"应用设置 >">设备配对"。**
+1. 转到 **设置 >设备设置 > 管理员 设置 >面板应用设置 >会议>设备配对。**
 
-2. 会议室显示前 Android Teams 会议室上会显示一个六位数的代码。 在"操作面板"Teams代码。  
+2. 一个六位数的代码将显示在会议室显示Android前的Teams 会议室上。 在Teams面板上输入代码。  
 
-#### <a name="meeting-check-in-and-room-release"></a>会议签入和会议室释放
+#### <a name="meeting-check-in-and-room-release"></a>会议签入和会议室发布
 
-签入和会议室释放设置允许用户在会议开始时Teams会议室的面板上签入会议。 如果用户未在会议开始时间后的一定时间内签入，会议室将释放，可供其他人预订。
+通过签入和会议室发布设置，用户可在会议开始时保留的会议室的Teams面板上签入会议。 如果用户在会议开始时间之后的一定时间内未签入，则会释放会议室并可供其他人保留。
 
-当Teams面板与 Android Microsoft Teams 会议室配对时，当会议延迟运行时，签入通知可以显示在会议室前显示器上。
+当Teams面板与Android上的Microsoft Teams会议室配对时，当会议运行较晚时，签入通知可以显示在会议室前显示。
 
-若要启用签入和房间释放，请参阅面板上的签入和[Microsoft Teams发布](check-in-and-room-release.md)。
+若要启用签入和会议室发布，请[参阅Microsoft Teams面板上的签入和会议室版本](check-in-and-room-release.md)。
 
 #### <a name="room-capacity-warning"></a>会议室容量警告
 
-Teams Android 上的会议室Teams，当会议室容量超过或超过容量时，可显示警告消息。 若要使用此功能，Teams会议室必须具有支持人员计数的摄像机。 Teams 会议室 Android 支持会议室容量警告，无需Teams 面板。
+Teams与Android上的Teams会议室配对的面板可以在会议室容量达到或超过容量时显示警告消息。 若要使用此功能，Teams会议室必须具有支持人员计数的相机。 Teams 会议室不带Teams 面板的Android支持会议室容量警告。
 
-默认情况下，会议室容量警告已关闭。 若要从设备打开Teams 面板，请首先将 Teams 面板 与 Android Microsoft Teams[会议室配对](#pair-a-teams-panel-with-a-microsoft-teams-room-on-android)。 面板和Teams必须登录到同一资源帐户。
+默认情况下，会议室容量警告处于关闭状态。 若要从Teams 面板打开设置，请先[配对Android上带有Microsoft Teams会议室的Teams 面板](#pair-a-teams-panel-with-a-microsoft-teams-room-on-android)。 面板和Teams会议室必须登录到同一资源帐户。
 
- 然后，转到"**设置 >设置">"">"面板应用设置"**。 然后，在" **会议"** 下，打开 **"最大占用空间"通知**。
+ 然后，转到 **设置 >“面板”应用设置> 管理员设置>设备设置**。 然后，在 **“会议**”下，打开 **Max 会议室占用通知**。
 
 #### <a name="view-room-equipment"></a>查看会议室设备
 
-启用此功能后，最终用户可以查看空间中空间内可用的设备Teams 面板。
+启用此功能后，最终用户可以查看Teams 面板空间中可用的设备。
 
-默认情况下，此功能已关闭，并且可以按设备启用。 若要将其打开，请使用 PowerShell 中的 ["](/powershell/module/exchange/set-place?view=exchange-ps) 设置位置" `AudioDeviceName`配置 、 `DisplayDeviceName`、 `VideoDeviceName`、 `Tags`和 的显示名称 `IsWheelChairAccessible`。
+默认情况下，此功能处于关闭状态，并且可以为每个设备启用此功能。 若要打开它，请在 PowerShell [中使用 Set-Place](/powershell/module/exchange/set-place?view=exchange-ps) 来配置显示名称`AudioDeviceName`、`Tags``DisplayDeviceName``VideoDeviceName`、和 。`IsWheelChairAccessible`
 
-或者，可以在管理中心Exchange此功能。 有关详细信息 [，请参阅](/exchange/recipients-in-exchange-online/manage-resource-mailboxes#edit-a-resource) 编辑资源。
+或者，可以在Exchange管理中心启用此功能。 有关详细信息，请参阅 [“编辑资源](/exchange/recipients-in-exchange-online/manage-resource-mailboxes#edit-a-resource) ”。
 
 
 
@@ -233,30 +233,30 @@ Teams Android 上的会议室Teams，当会议室容量超过或超过容量时�
 更改主屏幕壁纸图像。
 
 1. [访问 **面板应用设置**](#access-panels-app-settings)。
-2. 点击 **"壁纸"**。
-3. 从 **"选择图像**"中，选择要设置为主屏幕背景图像的图像。 预览"背景"下的所选 **图像**。
+2. 点击 **壁纸**。
+3. 从 **“选择图像**”中，选择要设置为主屏幕背景图像的图像。 在“ **背景**”下预览所选图像。
 :::image type="content" source="../media/panels-wallpapers-setting.png" alt-text="此屏幕截图显示壁纸设置屏幕。":::
-4. 返回主屏幕，并验证壁纸是否更新。
+4. 返回到主屏幕并验证壁纸是否已更新。
 
-#### <a name="change-the-busy-state-led-color"></a>更改繁忙状态 LED 颜色
+#### <a name="change-the-busy-state-led-color"></a>更改忙碌状态 LED 颜色
 
-管理员可以选择红色或紫色作为 LED 颜色，以指示会议空间正忙或已预留。 指示可用空间的 LED 颜色始终为绿色，不能更改。
+管理员可以选择红色或紫色作为 LED 颜色，以指示会议空间繁忙或保留。 指示可用空间的 LED 颜色始终为绿色，无法更改。
 
 1. [访问 **面板应用设置**](#access-panels-app-settings)。
-2. 点击 **"LED 设置"**。
-3. 从 **"选择 LED 颜色"** 中选择所需的颜色。
+2. 点击 **LED 设置**。
+3. 从 **“选择 LED 颜色**”中，选择所需的颜色。
 :::image type="content" source="../media/panels-led-settings.png" alt-text="此屏幕截图显示 LED 颜色忙状态设置。":::
-4. 返回主屏幕，并验证忙态的 LED 颜色已更新。 如果会议空间当前可用，请尝试安排一个测试会议来验证忙状态 LED 颜色的变化。
+4. 返回到主屏幕，并验证忙碌状态的 LED 颜色是否已更新。 如果会议空间当前可用，请尝试安排测试会议，以验证忙碌状态的 LED 颜色更改。
 
 ## <a name="frequently-asked-questions"></a>常见问题解答
 
-查找有关面板设备Teams问题的答案。
+查找有关Teams面板设备的常见问题的解答。
 
-**我可以在将来的多远时间查看会议空间的计划详细信息？**  
-在"开始"屏幕 (右下角) "即将到来的日历"磁贴中，你可以看到从当前小时开始最多 24 小时的会议空间的计划详细信息。
+**将来能看出会议空间的计划详细信息有多远？**  
+在主屏幕右下)  (**“即将到来的日历”** 磁贴中，可以看到会议空间的日程安排详细信息（从当前时间开始长达 24 小时）。
 
-**能否从仪表板设备为将来的Teams空间？**  
-否，不能从面板保留将来的会议空间。 开始时间始终是从面板安排临时会议的当前时间。
+**是否可以从Teams面板设备保留会议空间？**  
+不可以，不能在将来从面板中保留会议空间。 开始时间始终是从小组安排的临时会议的当前时间。
 
-**我可以为临时会议保留可用会议空间多久？**  
-你可以保留从当前时间开始到下一个计划会议时间，或者从当前小时开始最多 24 小时（以较早者为准）的可用会议空间。 例如，如果当前时间为上午 10 点，下一个会议开始时间为下午 2 点，您可以保留上午 10 点到下午 2 点的会议空间。
+**可以为临时会议保留可用会议空间多长时间？**  
+可以保留从当前时间开始到下一个计划会议时间的可用会议空间，或者从当前时间（以更早者为准）最多 24 小时。 例如，如果当前时间是上午 10 点，而下一个会议开始时间是下午 2 点，则可以保留上午 10 点到下午 2 点的会议空间。

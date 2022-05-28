@@ -1,7 +1,7 @@
 ---
 title: 支持的条件访问和Intune设备符合性策略Microsoft Teams 会议室
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 ms.reviewer: kspiess
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 description: 了解支持和推荐的条件访问和Intune设备符合性策略，以便Microsoft Teams 会议室。
-ms.openlocfilehash: 1c355280622d03cf0a8100f0ee4a23dd17df88a1
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 8492f94106423498c7e301e48c8f4d046d569674
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675234"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65761464"
 ---
 # <a name="supported-conditional-access-and-intune-device-compliance-policies-for-microsoft-teams-rooms-and-teams-android-devices"></a>支持的条件访问和Intune设备符合性策略，适用于Microsoft Teams 会议室和Teams Android设备
 
@@ -188,11 +188,11 @@ Android上Microsoft Teams 会议室Windows和Teams 会议室支持不同的设�
 | 公司门户应用运行时完整性                                                                                                    | 支持     |                                                                               |
 | 受限应用                                                                                                                         | 不支持 |                                                                               |
 | 阻止设备上的 USB 调试                                                                                                           | 支持     |                                                                               |
-| [**所有Android设备*](/mem/intune/protect/compliance-policy-create-android#all-android-devices)                                      | --            | --                                                                            |
+| [**所有 Android 设备*](/mem/intune/protect/compliance-policy-create-android#all-android-devices)                                      | --            | --                                                                            |
 | 需要密码之前的最大非活动分钟数                                                                              | 不支持 |                                                                               |
 | 需要密码才能解锁移动设备                                                                                             | 不支持 |                                                                               |
 | [**Android 10 及更高版本**](/mem/intune/protect/compliance-policy-create-android#android-10-and-later)                                   | --            | --                                                                            |
-| [**Android 9 及更早版本或三星诺克斯**](/mem/intune/protect/compliance-policy-create-android#android-9-and-earlier-or-samsung-knox) | --            | --                                                                            |
+| [**Android 9 及更早版本或 Samsung Knox**](/mem/intune/protect/compliance-policy-create-android#android-9-and-earlier-or-samsung-knox) | --            | --                                                                            |
 | 必需密码类型                                                                                                                  | 不支持 |                                                                               |
 
 ---

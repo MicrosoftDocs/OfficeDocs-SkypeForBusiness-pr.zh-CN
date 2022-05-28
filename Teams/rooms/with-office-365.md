@@ -1,7 +1,7 @@
 ---
 title: 为会议室和共享Teams设备创建资源帐户
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -15,16 +15,16 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: 请阅读本文，了解如何为会议室和共享设备创建资源帐户，包括Microsoft Teams 会议室、Surface Hub上的Teams 会议室以及Teams显示器上的热桌面。
-ms.openlocfilehash: e788ca2086faf86f602ef0938d520ea03dce4ef4
-ms.sourcegitcommit: 5bfd2e210617e4388241500eeda7b50d5f2a0ba3
+ms.openlocfilehash: 53d69a5dd91e012bc948bad1b9d7350afcbbb1b2
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2022
-ms.locfileid: "64885020"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65760884"
 ---
 # <a name="create-and-configure-resource-accounts-for-rooms-and-shared-teams-devices"></a>为会议室和共享Teams设备创建和配置资源帐户
 
-本文提供了为共享空间和设备创建资源帐户的步骤，其中包括为Windows、Android 上的 Microsoft Teams 会议室Teams 会议室、Surface Hub上的Teams 会议室和Teams显示器上的热桌面配置资源帐户的步骤.
+本文提供了为共享空间和设备创建资源帐户的步骤，其中包括在Windows、Android Teams 会议室、Surface Hub上Teams 会议室和热桌面上为Microsoft Teams 会议室配置资源帐户的步骤Teams显示。
 
 Microsoft 365资源帐户是专用于特定资源（如会议室或投影机）的邮箱和Teams帐户。 这些资源帐户可以使用创建时定义的规则自动响应会议邀请。 例如，如果你有一个常见的资源（例如会议室），则可以为该会议室设置一个资源帐户，该帐户将根据会议室的日历可用性自动接受或拒绝会议邀请。 
 
@@ -62,7 +62,7 @@ Microsoft 365资源帐户是专用于特定资源（如会议室或投影机）�
 
 - **PSTN 调用** 如果希望资源拨打或接听外部电话号码（ (称为公共交换电话网络或 PSTN 呼叫) ）的呼叫，则需要Microsoft 365 电话系统或Microsoft 365 商务语音许可证。 只需在以下概述中完成步骤 1。 然后，有关详细信息，请参阅[Microsoft Teams加载项许可证](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
 
-- 如果仅使用资源帐户来预订资源&mdash;，请邀请资源加入会议，并让其自动接受或拒绝邀请&mdash;，无需向资源帐户分配许可证，只需在以下概述中完成步骤 1。  
+- 如果仅使用资源帐户来预订资源&mdash;，请邀请资源加入会议，并让其自动接受或拒绝不需要向资源帐户分配许可证的邀请&mdash;，并且只需在以下概述中完成步骤 1。  
 
 ## <a name="overview"></a>概述
 
@@ -104,9 +104,9 @@ Microsoft 365资源帐户是专用于特定资源（如会议室或投影机）�
       - 最长持续时间 (小时) ：24
     - 自动接受会议请求
 
-    如果要更改它们，请在选择 **“关闭**”之前选择 **“设置计划选项**”。 如果以后要更改它们，请转到 **ResourceRooms** >  **&设备**，选择资源帐户。 然后在 **“预订”选项** 下，选择 **“编辑**”。
+    如果要更改它们，请在选择 **“关闭**”之前选择 **“设置计划选项**”。 如果以后要更改它们，请转到 **资源** > **室&设备**，选择资源帐户。 然后在 **“预订”选项** 下，选择 **“编辑**”。
 
-6. 转到 **UsersActive** >  用户，然后选择创建的房间以打开属性面板。
+6. 转到 **用户** > **活动用户**，然后选择创建的房间以打开属性面板。
 
 7. 接下来，将密码分配给资源帐户。 在面板中，选择 **“重置密码**”。
  
@@ -202,7 +202,7 @@ Set-Mailbox -Identity ConferenceRoom02 -EnableRoomMailboxAccount $true -RoomMail
 > [!IMPORTANT]
 > 如果仅使用此资源帐户来预订空间并自动接受或拒绝邀请，则已完成设置。 如果使用此资源帐户进行 PSTN 调用，请参阅[Microsoft Teams加载项许可证](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)以确定它需要什么许可证。
 >
-> 仅当资源帐户用于Windows上的Teams 会议室、Android 上的Teams 会议室、Surface Hub上的Teams 会议室或热桌面的Teams显示时，才继续下一部分。
+> 仅当资源帐户用于Windows上的Teams 会议室、Android上的Teams 会议室、Surface Hub上的Teams 会议室或热桌面的Teams显示时，才继续执行下一部分。
 
 ## <a name="configure-mailbox-properties"></a>配置邮箱属性
 
@@ -310,12 +310,12 @@ Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -PasswordPolicies Disable
 > [!NOTE]
 > Microsoft Teams 会议室标准版和Microsoft Teams 会议室高级版是共享会议室设备（包括Teams 会议室）的两个可用 SKU。 使用热桌面Teams显示器需要会议室许可证。 有关详细信息，请参阅[Teams会议室许可](rooms-licensing.md)。
 
-若要使用Microsoft 365 管理中心分配许可证，请参阅[向用户分配许可证](/microsoft-365/admin/manage/assign-licenses-to-users)。 若要使用Azure AD分配许可证，请参阅以下选项卡之一：
+若要使用Microsoft 365 管理中心分配许可证，请参阅[向用户分配许可证](/microsoft-365/admin/manage/assign-licenses-to-users)。 若要使用 Azure AD 分配许可证，请参阅以下选项卡之一：
 
 #### <a name="active-directory-20"></a>[**Active Directory 2.0**](#tab/active-directory2-license/)
 
 
-1. 连接Azure AD
+1. 连接到 Azure AD
   
     ```PowerShell
     Connect-AzureAD

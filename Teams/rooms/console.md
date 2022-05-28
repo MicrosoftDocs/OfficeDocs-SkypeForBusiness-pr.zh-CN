@@ -1,7 +1,7 @@
 ---
 title: 生成Microsoft Teams 会议室映像
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 ms.reviewer: Travis-Snoozy
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: 本文介绍如何设置和配置Microsoft Teams 会议室控制台及其外围设备。
-ms.openlocfilehash: 9c1358b5e9561f197dc1142c40144646b5a11ce4
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: d3c4f534fbd5395c7e0cda8e095b5a6d7a2b8def
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65676384"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65761254"
 ---
 # <a name="build-a-microsoft-teams-rooms-image"></a>生成Microsoft Teams 会议室映像
 

@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 会议室 (Windows) 发行说明
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 管理员可以阅读Microsoft Teams 会议室的发行说明，其中列出了Microsoft Teams 会议室的累积改进。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: eadeea6648da5ef2a5b5210b45bb3c884a1cabe8
-ms.sourcegitcommit: 55926815f13efce42fb45f63d95515a5765e0d40
+ms.openlocfilehash: cbf840eb8abc60cbdc53325e41b3d9f95e6b4713
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 05/27/2022
-ms.locfileid: "65753055"
+ms.locfileid: "65761104"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Microsoft Teams 会议室发行说明
 
@@ -95,8 +95,8 @@ Teams 会议室受现代生命周期策略的约束。 有关详细信息，请�
 ### <a name="4121380-5262022"></a>4.12.138.0 (5/26/2022) 
 
 在此更新中引入：
-- Jabra Panacast 50 的 Bug 修复
-- 跨云匿名会议加入的 Bug 修复
+- 针对 Jabra Panacast 50 中的多个同时同步视频流的 Bug 修复 (会议视频、内容相机视频) 
+- 跨云会议现在可以使用默认会议音频设备
 - 质量和可靠性修复
 
 ### <a name="4121260-4272022"></a>4.12.126.0 (2022/4/27) 

@@ -23,12 +23,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: 了解如何集成 Teams EHR 连接器，使组织中的医疗保健提供商能够直接从 Epic EHR 系统Teams与患者或其他提供商进行虚拟预约。
-ms.openlocfilehash: abe826b1e71c37e0932404233c234282ec90b7f9
-ms.sourcegitcommit: 3cb40132e36717dfbdc6dfe83e7ea319f3ec9347
+ms.openlocfilehash: c34c8fbb32d78c1380267ce6876e947b877ce383
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "65465433"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65760944"
 ---
 # <a name="virtual-appointments-with-teams---integration-into-epic-ehr"></a>使用 Teams 的虚拟约会 - 集成到 Epic EHR
 
@@ -62,7 +62,7 @@ Teams的沟通和协作平台使临床医生能够轻松地解决碎片系统杂
 
 需要请求对Teams应用的访问权限。
 
-1. 请求在 [Epic App Orchard 市场](https://apporchard.epic.com/Gallery?id=6153)中下载Teams应用。 这样做会触发从 Epic 到 Microsoft EHR 连接器团队的请求。
+1. 请求在 [Epic App Orchard 市场](https://apporchard.epic.com/Gallery?id=16793)中下载Teams应用。 这样做会触发从 Epic 到 Microsoft EHR 连接器团队的请求。
 1. 发出请求后，使用组织名称、租户 ID 和 Epic 技术联系人的电子邮件地址向 [TeamsForHealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com) 发送电子邮件。
 1. Microsoft EHR 连接器团队将在确认启用后回复电子邮件。
 

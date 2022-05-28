@@ -1,7 +1,7 @@
 ---
 title: Teams设备存储
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: rahulimi
 ms.topic: article
@@ -15,55 +15,55 @@ ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
-description: 了解如何在管理中心设备Teams和购买设备
-ms.openlocfilehash: f83fd22192a8145167ff04a2bd73b88746dd3ce7
-ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
+description: 了解如何在Teams管理中心设备存储中浏览和购买设备
+ms.openlocfilehash: da520b6396fa7e47288f4fdaa6b9f028ba16b3dd
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64457075"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65761444"
 ---
-# <a name="purchase-devices-in-the-teams-device-store"></a>在应用商店中购买Teams设备
+# <a name="purchase-devices-in-the-teams-device-store"></a>在Teams设备存储中购买设备
 
 >[!NOTE]
->目前Teams预览版提供应用商店 **。** 公共预览版允许测试即将推出的功能并提供反馈。 公共预览版中包含的功能可能不完整，可能发生更改，在云中不受Office 365 政府版支持。
+>Teams设备存储目前仅在 **公共预览版** 中可用。 公共预览版允许你测试即将推出的功能并提供反馈。 公共预览版中包含的功能可能无法完成，可能会发生更改，Office 365 政府版云中不支持这些功能。
 
-使用 Teams 管理中心中的设备存储，可以浏览、购买和预配经认证Microsoft Teams。  
+Teams管理中心的设备存储允许你浏览、购买和预配经认证的Microsoft Teams设备。  
 
- 若要在管理中心内使用Teams存储，请转到"设备>**应用商店"**。
+ 若要在Teams管理中心使用设备存储，请转到 **设备> Microsoft Store**。
 
 ## <a name="requirements"></a>要求
 
-若要使用设备存储，你必须是全局管理员、Teams管理员或Teams管理员。
+若要使用设备存储，必须是全局管理员、Teams管理员或Teams设备管理员。
 
-## <a name="browse-the-store"></a>浏览应用商店
+## <a name="browse-the-store"></a>浏览存储区
 
-设备存储包括经 Teams 认证的所有设备，包括耳机、Web 摄像头和 Teams 设备（如 Teams 会议室、桌面电话和 Teams 显示器）。 可以排序、筛选或搜索以查找组织所需的设备。
+设备存储包括所有经过Teams认证的设备，包括耳机、Web 摄像头和Teams设备，如Teams 会议室、桌面电话和Teams显示器。 可以排序、筛选或搜索以查找组织所需的设备。
 
 ## <a name="purchase-devices"></a>购买设备
 
-从设备商店购买设备时，付款和履行（包括发货和交付）由 microsoft 第三方履行 UnifiedCommunications.com 方处理。  
+从设备商店购买设备时，付款和履行（包括发货和交付）由 Microsoft 第三方履行合作伙伴 UnifiedCommunications.com 处理。  
 
-可以使用信用卡或采购订单付款。 采购订单付款要求与履行提供商进行一次设置。
+可以使用信用卡或购买订单付款。 购买订单付款需要与履行提供程序一次性设置。
 
-所有订单可在交付后最多 30 天内退回。
+所有订单在交付后最多可返回 30 天。
 
 ## <a name="data-handling-and-sharing"></a>数据处理和共享
 
-设备Teams需要共享基本用户和公司信息，包括用户和租户 GUID，UnifiedCommunications.com 在 Teams 管理中心进行购买。
+Teams设备存储需要共享基本的用户和公司信息，包括用户和租户 GUID，UnifiedCommunications.com 才能在Teams管理中心进行购买。
 
-默认情况下，数据共享已关闭。 若要启用它，请转到Teams存储，选择设置图标，然后打开设置。  
+默认情况下，数据共享处于关闭状态。 若要启用它，请转到Teams设备存储，选择设置图标，然后打开设置。  
 
-当此设置关闭时，数据不会共享，你可以浏览Teams设备存储，但不能进行购买。 设置启用时收集并共享到履行提供商的数据按照隐私声明中的指定进行处理。
+关闭此设置时，不会共享数据，并且可以浏览Teams设备存储，但无法进行购买。 在设置打开时收集的数据，并与履行提供程序共享的数据按照其隐私声明中指定的处理方式进行处理。
 
 ## <a name="order-tracking-and-history"></a>订单跟踪和历史记录
 
-您可以通过在"订单历史记录"中>"订单历史记录"查看订单历史记录，其中包括您和组织中其他管理员下的所有订单。 订单历史记录还包括订单的发货状态。 有关订单跟踪、退货或退款的问题，请联系 UnifiedCommunications.com。 他们的联系信息在"订单历史记录"页面上提供。
+可以通过转到 **订单历史记录Microsoft Store >查看订单历史记录**，其中包括你和组织中的其他管理员下的所有订单。 订单历史记录还包括订单的发货状态。 有关订单跟踪、退货或退款的问题，请联系 UnifiedCommunications.com。 订单历史记录页上提供了他们的联系人信息。
 
-在设备存储Teams下的订单及其关联的任何数据归类为租户订单和租户数据。
+Teams设备存储中放置的订单以及与之关联的任何数据都归类为租户订单和租户数据。
 
 ## <a name="provision-devices"></a>预配设备
 
-购买支持远程预配的设备时，这些设备的 MAC 地址会在设备发货时Teams自动添加到管理中心。 MAC 地址可能需要大约 5 天才能显示在管理中心，具体取决于订单和Teams时间。
+购买支持远程预配的设备时，这些设备的 MAC 地址会在设备发货时自动添加到Teams管理中心。 MAC 地址可能需要大约 5 天的时间才能显示在Teams管理中心，具体取决于订单和发货时间。
 
-传送设备后，请参阅 [远程预配设备](remote-provision-remote-login.md#generate-a-verification-code) 以完成预配和登录过程。
+交付设备后，请参阅 [远程预配设备](remote-provision-remote-login.md#generate-a-verification-code) 以完成预配和登录过程。
