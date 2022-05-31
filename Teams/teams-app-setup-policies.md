@@ -19,49 +19,41 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 7c00a5e70684a93f31a11d48ac542920fca3b697
-ms.sourcegitcommit: 9f7372f7568b4275169590510d2b7a0c0ad7577b
+ms.openlocfilehash: 05e70d9b1e69ff72eda8e984af1cb1228842f5da
+ms.sourcegitcommit: e8a78c24fda7e56c7b217a843a8a5f1c30aa95f6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "65171728"
+ms.lasthandoff: 05/31/2022
+ms.locfileid: "65786002"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理应用设置策略
 
-作为管理员，可以使用应用设置策略来安装和固定应用，以推广组织中最常用的应用，并确定是否希望用户将自定义应用上传到Teams。
+作为管理员，可以使用应用设置策略来安装和固定应用，并允许用户上传自定义应用。 固定有助于促进组织中相关应用的采用。
 
-- **固定应用：** 应用设置策略允许你选择要固定的应用，设置它们在Teams应用栏或撰写消息区域中为用户显示的顺序，并控制用户是否可以固定自己的应用。 有关详细信息，请参阅 [Pin 应用](#pin-apps)。
-- **安装应用：** 应用设置策略允许你在用户开始Teams和会议期间代表用户安装应用。 有关详细信息，请参阅 [“安装应用](#install-apps)”。
-- **Upload自定义应用：** 应用设置策略允许用户将自定义应用上传到Teams。 有关详细信息，请参阅[Upload自定义应用](#upload-custom-apps)。
+* **固定应用：** 应用设置策略允许你选择要固定的应用，设置应用在Teams应用栏或撰写消息区域中为用户显示的顺序。 管理员还可以控制最终用户是否可以固定自己的应用。 请参阅 [Pin 应用](#pin-apps)。
+* **安装应用：** 应用设置策略允许你在用户开始Teams和会议期间代表用户安装应用。 有关详细信息，请参阅 [“安装应用](#install-apps)”。
+* **Upload自定义应用：** 应用设置策略允许用户将自定义应用上传到Teams。 有关详细信息，请参阅[Upload自定义应用](#upload-custom-apps)。
 
 ## <a name="pin-apps"></a>固定应用
 
-> [!NOTE]
-> 对于组织中的一线员工，我们建议使用定制的一线应用体验。 此功能为拥有 [F 许可证](https://www.microsoft.com/en-us/microsoft-365/enterprise/frontline?rtc=1#office-SKUChooser-0dbn8nt)的用户固定Teams中最相关的应用。 若要了解详细信息，请参阅[为一线员工Teams应用](pin-teams-apps-based-on-license.md)。
+固定应用可以突出显示组织中用户最需要的应用。 固定适用于 Microsoft、ISV 公司和组织内开发人员提供的应用。 通过应用设置策略固定应用也会安装它。 使用应用设置策略可以执行以下任务：
 
-固定应用可让你展示组织中用户需要的应用，包括由第三方或组织中的开发人员生成的应用。
+* 自定义 Teams 以突出显示对用户最为重要的应用。 选择要固定的应用并设置它们显示的顺序。
+* 控制用户是否可以固定应用。
 
-使用应用设置策略可以执行以下任务：
-
-- 自定义 Teams 以突出显示对用户最为重要的应用。 选择要固定的应用并设置它们显示的顺序。
-- 控制用户是否可以将应用固定到 Teams。
-
-应用固定到应用栏，应用栏是Teams桌面客户端左侧的栏，位于 iOS 和 Android)  (Teams移动客户端底部。
+应用固定到Teams桌面客户端左侧和Teams移动客户端底部的应用栏。
 
 |Teams 桌面客户端  |Teams 移动客户端 |
 |---------|---------|
-|![Teams桌面客户端。](media/app-setup-policies-desktop-app-bar.png).  |   ![Teams移动客户端](media/mobile-app-ui.png)      |
+|![桌面客户端Teams应用栏。](media/app-setup-policies-desktop-app-bar.png).  |   ![Teams移动客户端中的应用栏。](media/mobile-app-ui.png)      |
 
 消息传递扩展插件在撰写消息区域的底部可用。
-
-> [!NOTE]
-> 如果已Teams 教育版，请务必知道工作分配应用默认固定在全局策略中，即使当前未在全局策略中列出。
 
 若要创建用于固定应用的应用设置策略，请执行以下步骤：
 
 1. 登录到[Microsoft Teams管理中心](https://admin.teams.microsoft.com)。
 
-1. 在左窗格中，转到 **Teams** **appsSetup** >  策略。
+1. 在左窗格中，转到 **Teams应用** > **设置策略**。
 
 1. 选择“**添加**”。
 
@@ -84,30 +76,33 @@ ms.locfileid: "65171728"
 
 1. 选择“**保存**”。
 
-## <a name="install-apps"></a>安装应用
-
-你可以选择默认情况下为用户在其个人Teams环境中安装的应用、将应用安装为[消息传递扩展](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions)，以及指定要在会议中安装的应用。
-
-使用应用设置策略可以执行以下任务：
-
-- 在其个人Teams环境中为用户安装应用
-- 为用户安装应用作为消息传递扩展
-- 在会议组织者的会议中安装应用
+> [!NOTE]
+> 在Teams 教育版中，分配应用默认固定在全局策略中，即使未在全局策略中列出。
 
 > [!NOTE]
-> 如果分配给他们的 [应用权限策略](teams-app-permission-policies.md) 允许，用户仍然可以自行安装应用。
+> 对于组织中的一线员工，我们建议使用定制的一线应用体验。 此功能为拥有 [F 许可证](https://www.microsoft.com/en-us/microsoft-365/enterprise/frontline?rtc=1#office-SKUChooser-0dbn8nt)的用户固定Teams中最相关的应用。 若要了解详细信息，请参阅[为一线员工Teams应用](pin-teams-apps-based-on-license.md)。
+
+## <a name="install-apps"></a>安装应用
+
+使用应用设置策略，管理员可以完成以下任务：
+
+* 默认情况下，在其个人Teams环境中为最终用户安装应用。
+* 为最终用户安装应用作为 [消息传递扩展](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions)。
+* 在会议组织者的会议中安装应用。
+
+如果 [应用权限](teams-app-permission-policies.md) 策略允许，最终用户可以自行安装应用。
 
 若要创建应用安装策略以安装应用，请执行以下步骤：
 
-1. 在Microsoft Teams管理中心的左侧导航中，转到 **Teams** **appsSetup** >  策略。
+1. 登录到Teams管理中心并访问 **Teams应用** > **设置策略**。
 
 2. 选择“**添加**”。
 
-3. 输入策略的名称和说明。
+3. 提供策略的名称和说明。
 
 4. 在 **“已安装的应用**”下，选择 **“添加应用**”。
 
-5. 在 **“添加已安装的应用** ”窗格中，搜索要为用户自动安装的应用。 还可以按应用权限策略筛选应用。
+5. 在 **“添加已安装的应用** ”窗格中，搜索要为用户安装的应用。 还可以按应用权限策略筛选应用。
 
 6. 选择“**添加**”。
 
@@ -118,34 +113,32 @@ ms.locfileid: "65171728"
 
 ## <a name="upload-custom-apps"></a>Upload自定义应用
 
-可以使用Microsoft Teams管理中心创建允许用户将自定义应用上传到Teams的自定义策略。
+若要创建允许用户上传自定义应用的自定义策略，请执行以下步骤：
 
-若要创建应用设置策略以允许用户将自定义应用上传到Teams，请执行以下步骤：
-
-1. 在Microsoft Teams管理中心的左侧导航中，转到 **Teams** **appsSetup** >  策略。
+1. 登录到Teams管理中心并访问 **Teams应用** > **设置策略**。
 
 2. 选择“**添加**”。
 
-3. 输入策略的名称和说明。
+3. 提供策略的名称和说明。
 
-4. 打开或关闭 **Upload自定义应用**，具体取决于是否允许用户将自定义应用上传到Teams。
+4. 打开或关闭 **Upload自定义应用**。
 
 > [!NOTE]
-> 如果在 [组织范围的应用设置](manage-apps.md#manage-org-wide-app-settings)中关闭 **第三方应用**，则无法更改此设置。
+> 若要更改此设置，租户的 [组织范围应用设置](manage-apps.md#manage-org-wide-app-settings) 必须允许 **第三方应用**。
 
 ## <a name="manage-app-setup-policies"></a>管理应用设置策略
 
-在Microsoft Teams管理中心管理应用设置策略。 使用全局 (组织范围的默认) 策略或创建和分配自定义策略。  除非你创建并分配了自定义策略，你组织中的用户将自动获取全局策略。 必须是全局管理员或 Teams 服务管理员才能管理这些策略。
+在Microsoft Teams管理中心管理应用设置策略。 使用全局 (组织范围的默认) 策略或创建和分配自定义策略。 最终用户获取全局策略。 如果创建自定义策略，它将替代全局策略。 全局管理员或Teams服务管理员可以管理这些策略。
 
 编辑全局策略中的设置以包含所需的应用。 若要自定义组织中不同用户组的Teams，请创建并分配一个或多个自定义策略。
 
-![“应用设置策略”页。](media/app-setup-policies-update.png)
+![用于管理策略或添加新策略的应用设置策略页。](media/app-setup-policies-update.png)
 
 ### <a name="edit-an-app-setup-policy"></a>编辑应用设置策略
 
 可以使用Microsoft Teams管理中心编辑策略，包括创建的全局 (组织范围的默认) 策略和自定义策略。
 
-1. 在Microsoft Teams管理中心的左侧导航中，转到 **Teams** **appsSetup** >  策略。
+1. 在 Microsoft Teams 管理中心的左侧导航中，转到“**Teams 应用**” > “**设置策略**”。
 
 2. 选择要编辑的策略，然后选择 **“编辑**”。
 
@@ -157,15 +150,18 @@ ms.locfileid: "65171728"
 
 有关向用户和组分配策略的详细信息，请参阅 [为用户和组分配策略](assign-policies-users-and-groups.md)。
 
-## <a name="faq"></a>常见问题
+## <a name="faqs"></a>常见问题 解答
+
+<!--- TBD: Incorporate these pointers in the content itself.
+--->
 
 ### <a name="working-with-app-setup-policies"></a>使用应用设置策略
 
 #### <a name="what-built-in-app-setup-policies-are-included-in-the-microsoft-teams-admin-center"></a>Microsoft Teams管理中心包含哪些内置应用设置策略
 
-- **全局 (组织范围的默认)**：此默认策略适用于组织中的所有用户，除非你分配了另一个策略。 编辑全局策略以固定对用户最重要的应用。
+* **全局 (组织范围的默认)**：此默认策略适用于组织中的所有用户，除非你分配了另一个策略。 编辑全局策略以固定对用户最重要的应用。
 
-- **前线工人**：这项政策适用于一线工人。 可以将其分配给组织中的一线工作者。 请务必知道，与创建的自定义策略一样，必须将策略分配给用户才能使设置处于活动状态。 有关详细信息，请转到本文的“ [向用户分配自定义应用设置策略](#assign-a-custom-app-setup-policy-to-users-and-groups) ”部分。
+* **前线工人**：这项政策适用于一线工人。 可以将其分配给组织中的一线工作者。 请务必知道，与创建的自定义策略一样，必须将策略分配给用户才能使设置处于活动状态。 有关详细信息，请转到本文的“ [向用户分配自定义应用设置策略](#assign-a-custom-app-setup-policy-to-users-and-groups) ”部分。
 
 #### <a name="why-cant-i-find-an-app-in-the-add-pinned-apps-pane"></a>为什么在“添加固定应用”窗格中找不到应用
 
@@ -179,7 +175,7 @@ ms.locfileid: "65171728"
 
 #### <a name="how-many-pinned-apps-can-be-added-to-a-policy"></a>可将多少个固定应用添加到策略
 
- (iOS 和 Android) ，至少必须将两个应用固定到Teams移动客户端。 如果策略的应用少于两个，则移动客户端不会反映策略设置，而是将继续使用现有配置。
+至少必须将两个应用固定到Teams移动客户端 (iOS和Android) 。 如果策略的应用少于两个，则移动客户端不会反映策略设置，而是将继续使用现有配置。
 
 可以添加到策略的固定应用数量没有限制。
 
@@ -200,9 +196,9 @@ ms.locfileid: "65171728"
 
 #### <a name="what-do-i-need-to-know-about-the-teams-mobile-experience"></a>我需要了解哪些关于Teams移动体验的信息
 
-Teams移动客户端 (iOS 和 Android) 使用静态选项卡支持个人应用。 固定到Teams桌面客户端的应用将显示在Teams移动客户端中。 个人机器人将显示在移动客户端上的聊天中。
+Teams移动客户端 (iOS和Android) 使用静态选项卡支持个人应用。 固定到Teams桌面客户端的应用将显示在Teams移动客户端中。 个人机器人将显示在移动客户端上的聊天中。
 
-第三方应用 (可从Teams应用商店下载) 需要获得批准，然后才能在移动设备上显示。 如果管理员固定了 Microsoft for Mobile 未批准的应用，它将显示在Teams桌面上，但不会显示在移动设备上。 有关详细信息，请参阅 [移动客户](/microsoftteams/platform/tabs/what-are-tabs#mobile-clients) 端。
+可以从Teams Microsoft Store) 下载的第三方应用 (需要获得批准，然后才能在移动设备上显示。 如果管理员固定了 Microsoft for Mobile 未批准的应用，它将显示在Teams桌面上，但不会显示在移动设备上。 有关详细信息，请参阅 [移动客户](/microsoftteams/platform/tabs/what-are-tabs#mobile-clients) 端。
 
 借助Teams移动客户端，用户将看到活动、聊天和Teams等核心Teams应用，并且可以固定 Microsoft 的一些第一方应用，如 Shifts。
 
@@ -212,7 +208,7 @@ Teams移动客户端 (iOS 和 Android) 使用静态选项卡支持个人应用�
 
 #### <a name="does-user-pinning-take-precedence"></a>用户固定是否优先
 
-管理员引脚始终优先。 如果启用 **了“用户固定** ”选项，则用户会将其固定的应用保留在管理员固定应用下面。 如果“ **用户固定** ”选项被关闭，则用户将丢失其预先存在的引脚，并且应用栏中将仅存在管理员固定的应用。
+管理员固定始终优先。 如果启用 **了“用户固定** ”选项，则用户会将其固定的应用保留在管理员固定应用下面。 如果“ **用户固定** ”选项被关闭，则用户将丢失其预先存在的引脚，并且应用栏中将仅存在管理员固定的应用。
 
 ### <a name="custom-teams-apps"></a>自定义Teams应用
 
@@ -220,8 +216,7 @@ Teams移动客户端 (iOS 和 Android) 使用静态选项卡支持个人应用�
 
 提交应用之前，请确保遵循徽标准则。 若要了解详细信息，请参阅 [卖家仪表板提交清单](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/overview)。
 
-## <a name="related-articles"></a>相关文章
+## <a name="see-also"></a>另请参阅
 
-[Teams 中应用的管理设置](admin-settings.md)
-
-[向 Teams 中的用户分配策略](assign-policies-users-and-groups.md)
+* [Teams 中应用的管理设置](admin-settings.md)
+* [将策略分配给Teams中的最终用户](assign-policies-users-and-groups.md)

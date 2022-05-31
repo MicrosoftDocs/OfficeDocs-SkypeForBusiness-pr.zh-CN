@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 4872cb6222d8841bb2efe6be0e19fa17d3557e33
-ms.sourcegitcommit: b8098d6ea36f10ee3a630a230ebd84bc2d96e37a
+ms.openlocfilehash: 20993aea7665893d71be1fd1094df9f0d1acdc91
+ms.sourcegitcommit: e8a78c24fda7e56c7b217a843a8a5f1c30aa95f6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 05/31/2022
-ms.locfileid: "65780638"
+ms.locfileid: "65785952"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理应用权限策略
 
@@ -55,7 +55,7 @@ ms.locfileid: "65780638"
 1. 在左侧面板中，转到 **Teams应用** > **权限策略**。
 1. 选择“**添加**”。
 
-    ![新应用权限策略的屏幕截图。](media/app-permission-policies-new-policy.png)
+   ![新应用权限策略的屏幕截图。](media/app-permission-policies-new-policy.png)
 
 1. 提供策略的名称和说明。
 1. 在“**Microsoft 应用**”、“**第三方应用**”和“**自定义应用**”下，选择下列选项之一：
@@ -102,7 +102,7 @@ ms.locfileid: "65780638"
 
 1. 在“ **管理应用** ”页上，选择 **组织范围的应用设置**。 然后，你可以在面板中配置所需的设置。
 
-  ![GCC中组织范围应用设置的屏幕截图。](media/app-permission-policies-gcc-org-wide.png)
+   ![GCC中组织范围应用设置的屏幕截图。](media/app-permission-policies-gcc-org-wide.png)
 
 1. 在“**第三方应用**”下，关闭或打开这些设置以控制对第三方应用的访问权限：
 
@@ -119,7 +119,7 @@ ms.locfileid: "65780638"
 
 1. 在“**权限策略**”页面上，选择“**组织范围的应用设置**”。 然后，你可以在面板中配置所需的设置。
 
-  ![GCCH 和 DoD 中组织范围应用设置的屏幕截图。](media/app-permission-policies-gcch-dod-org-wide.png)
+   ![GCCH 和 DoD 中组织范围应用设置的屏幕截图。](media/app-permission-policies-gcch-dod-org-wide.png)
 
 1. 在“**阻止的应用**”下，添加要在整个组织内阻止的应用。 在Microsoft 365政府 - GCCH 和 DoD 部署Teams中，默认情况下，所有第三方应用都会添加到此列表中。 当你阻止应用组织范围时，无论是否允许在任何应用权限策略中使用应用，应用都会自动阻止所有用户。
 1. 选择 **“保存** ”以实现组织范围的应用设置。
