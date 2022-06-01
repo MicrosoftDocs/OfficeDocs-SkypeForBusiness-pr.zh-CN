@@ -11,16 +11,16 @@ audience: admin
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 通过确定关键利益干系Microsoft Teams、业务成果、成功措施和管理活动，为组织制定变更管理策略。
+description: 通过确定市场活动的关键利益干系人、业务成果、成功措施和管理，为Microsoft Teams创建更改管理策略。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9340d33f4f22af551fd9fb3421dc3e9ca2a1eff9
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 65bd3c7c4ded22f2ca8286215171408f7d86b1e1
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58232827"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823241"
 ---
 # <a name="create-a-change-management-strategy-for-microsoft-teams"></a>为 Microsoft Teams 制定变更管理策略
 
@@ -59,10 +59,10 @@ Teams 变更管理最佳实践：
 |图标  |说明  |
 |---------|---------|
 |![执行发起人图标。](media/Create_a_change_management_strategy_for_Microsoft_Teams_image1.png)     |**执行发起人** 是组织中的关键领导者，在推动员工采用过程中，他们的参与必不可少。 他们对公司文化的影响最大，可以积极传达新技术和方式的价值和优势。         |
-|![服务所有者图标。](media/Create_a_change_management_strategy_for_Microsoft_Teams_image2.png)     |**服务所有者** 负责确保大家使用服务并从中获得价值。 在组织中设置服务所有者对于确保实现为Microsoft 365或Office 365业务目标非常重要。         |
-|![支持者图标。](media/Create_a_change_management_strategy_for_Microsoft_Teams_image3.png)     |得到组织中每个用户的认可是一项挑战。 **支持** 者可以帮助缓解这一挑战，在采用或Microsoft 365 Office 365。 他们拥有丰富的知识、积极充实其专业知识且愿意提供同伴指导和协助。 它们有助于Microsoft 365或Office 365部门或团队的实际情况。         |
+|![服务所有者图标。](media/Create_a_change_management_strategy_for_Microsoft_Teams_image2.png)     |**服务所有者** 负责确保大家使用服务并从中获得价值。 在组织中设置服务所有者对于确保实现为Microsoft 365或Office 365设置的业务目标非常重要。         |
+|![支持者图标。](media/Create_a_change_management_strategy_for_Microsoft_Teams_image3.png)     |得到组织中每个用户的认可是一项挑战。 **冠军** 可以帮助缓解这一挑战，并在采用Microsoft 365或Office 365方面发挥重要作用。 他们拥有丰富的知识、积极充实其专业知识且愿意提供同伴指导和协助。 他们帮助将Microsoft 365或Office 365转化为部门或团队的现实。         |
 
-我们建议与这些利益干系人定期召开会议，使其及时了解你的计划的进度。 根据你的公司文化，启动"协作委员会"以允许反馈和讨论可能是一个有用的工具。
+我们建议与这些利益干系人定期召开会议，使其及时了解你的计划的进度。 根据你的企业文化，发起一个“协作委员会”以允许反馈和讨论可能是一个有用的工具。
 
 
 
@@ -138,15 +138,15 @@ Teams 变更管理最佳实践：
 
 ## <a name="measure-and-share-success"></a>度量和分享成功
 
-项目团队应包含你的组织的 IT 管理员。 这些个人将有权访问内置在 Microsoft 365 体验Office 365 Microsoft Teams或Microsoft 365 管理中心报表。 此信息可以显示 Microsoft Teams 在贵公司的使用情况。 我们还建议直接从用户获取关于 Teams 体验以及他们对使用的其他想法的反馈。 从自己公司内部共享这些实际示例对于在用户社区实现持续变更非常有价值。  
+项目团队应包含你的组织的 IT 管理员。 这些人将有权访问内置于Microsoft 365 管理中心体验中的Microsoft 365或Office 365 Microsoft Teams使用情况报告。 此信息可以显示 Microsoft Teams 在贵公司的使用情况。 我们还建议直接从用户获取关于 Teams 体验以及他们对使用的其他想法的反馈。 从自己公司内部共享这些实际示例对于在用户社区实现持续变更非常有价值。  
 
-在此处了解Microsoft Teams使用情况报告Microsoft 365 管理中心[](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524)
+详细了解Microsoft 365 管理中心中Microsoft 365 管理中心[Microsoft Teams使用情况报表中的Microsoft Teams使用情况报告](/microsoftteams/teams-analytics-and-reports/user-activity-report)。
 
 > [!TIP]
 > 使用公共团队或 Yammer 社区收集使用见解。 使用 #TeamsStories 标记共享这些见解以便于检索。  在 Intranet 上每月共享 #TeamsStory 以重点介绍支持变更以提高工作效率和增强环境协作的员工。  
 
 ## <a name="ongoing-adoption"></a>持续采用
 
-在组织中推动变更是一项持续性的活动，而不是一次性活动。 启动会议只是鼓励用户更高效地协作的开端。 必须在此旅程中规划一些时刻，以突出你的成功、引入新功能并与 IT 部门将制定的总体 Microsoft 365 或 Office 365 服务策略联系。 确保你的用户非常投入而不是不知所措，这将减少他们的变更疲劳，并支持他们放弃旧习惯（例如通过电子邮件发送附件），接受新做法（例如将文档存储在云中）。
+在组织中推动变更是一项持续性的活动，而不是一次性活动。 启动会议只是鼓励用户更高效地协作的开端。 请务必计划此旅程中突出成功、引入新功能以及与整体Microsoft 365或Office 365服务策略建立联系（IT 部门将制定这些策略）。 确保你的用户非常投入而不是不知所措，这将减少他们的变更疲劳，并支持他们放弃旧习惯（例如通过电子邮件发送附件），接受新做法（例如将文档存储在云中）。
 
-在 Microsoft Technical Office 365 网站中的推动采用社区中Teams服务采用Microsoft 365或Community的问题[](https://techcommunity.microsoft.com/t5/Driving-Adoption/ct-p/DrivingAdoption)。 我们将在你的采用旅程中随时倾听你的意见并为你提供帮助。
+在 Microsoft 技术Community网站上的[“驾驶采用”社区](https://techcommunity.microsoft.com/t5/Driving-Adoption/ct-p/DrivingAdoption)中，分享有关服务采用Teams、Microsoft 365或Office 365的问题。 我们将在你的采用旅程中随时倾听你的意见并为你提供帮助。

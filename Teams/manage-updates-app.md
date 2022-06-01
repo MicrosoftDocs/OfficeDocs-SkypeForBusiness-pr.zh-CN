@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 8c538a4de417bcc6b19e579162357e56c444abdb
-ms.sourcegitcommit: b8098d6ea36f10ee3a630a230ebd84bc2d96e37a
+ms.openlocfilehash: 39b0e358e57a8780918c6969a562b28d9e3fe49d
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2022
-ms.locfileid: "65781022"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823723"
 ---
 # <a name="manage-the-updates-app-for-your-organization-in-microsoft-teams"></a>在Microsoft Teams中管理组织的更新应用
 
@@ -53,6 +53,8 @@ Microsoft Teams应用中的更新为组织成员提供了一个集中的位置�
 ![移动设备上每周安全演练模板的图像。](media/updates-mobile.png)
 
 与此同时，一个远程工人团队正在更新商店的网站。 它们分布在时区之间，因此每天的站立会议并不方便。 相反，每个团队成员都会向团队领导提交关于其进度的每日更新报告。
+
+[下载“更新”查找簿](https://go.microsoft.com/fwlink/?linkid=2197649&clcid=0x409) ，查看有关可以使用更新执行的更多示例。
 
 ## <a name="required-permissions-and-licenses"></a>所需权限和许可证
 

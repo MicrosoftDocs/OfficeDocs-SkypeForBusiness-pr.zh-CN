@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b9b12d77823f6fcf5417370b496507b627858c6c
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+ms.openlocfilehash: 6a86535c701b38b65d1610dc3aa8af2b5616d4a3
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681983"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823001"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>Teams会议呼叫的基于策略 &的录制简介
 
@@ -230,7 +230,7 @@ IT 管理员可以通过创建和分配符合性记录策略来确定要记录�
 |NICE NTR |[https://www.niceactimize.com/compliance/ms-teams-recording.html](https://www.niceactimize.com/compliance/ms-teams-recording.html) |
 |Numonix |[https://numonix.cloud](https://numonix.cloud)    |
 |橡树创新 |[https://www.oakinnovate.com/clarify](https://www.oakinnovate.com/clarify) |
-|红框 |[https://www.redboxvoice.com/compliance-recording-for-microsoft-teams](https://www.redboxvoice.com/compliance-recording-for-microsoft-teams)  |
+|红框 |[https://www.redboxvoice.com/compliance-recording-for-microsoft-teams](https://www.redboxvoice.com/red-box-partners/microsoft-integration/compliance-recording-for-microsoft-teams)  |
 |Theta Lake |[https://thetalake.com/integrations/microsoft/](https://thetalake.com/integrations/microsoft/) |
 |Verint |[https://www.verba.com/solutions/microsoft-teams-recording](https://www.verba.com/solutions/microsoft-teams-recording) |
 |橡树创新 |[https://www.oakinnovate.com/clarify](https://www.oakinnovate.com/clarify) |

@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8bc388f533d39d6e1bc0140bcd975d6354898d5a
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: dcea261be727c01382d55c4a2861541291fcb343
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674904"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823583"
 ---
 # <a name="connect-microsoft-teams-essentials-aad-identity-to-an-existing-email-system-with-calendar"></a>连接 Microsoft Teams 协作版 (AAD 标识) 到包含日历的现有电子邮件系统
 
@@ -69,7 +69,7 @@ Microsoft 365中生成的所有电子邮件都转发到 Google Workspace，以�
 
 :::image type="content" source="media/essentials-googleworkspace.png" alt-text="描述 EXO 和 Gmail 之间的邮件流关系图的图像":::
 
-这些示例依赖于作为 Exchange Online [PowerShell V2 模块](/powershell/exchange/exchange-online-powershell-v2&preserve-view=true)一部分的 [连接-ExchangeOnline](/powershell/module/exchange/connect-exchangeonline?view=exchange-ps&preserve-view=true) PowerShell 命令。 如果在运行 连接-ExchangeOnline 时收到错误，请确保已按照建议的说明使用[安装 EXO V2 模块安装模块](/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps&preserve-view=true)。 当Connect-ExchangeOnline提示输入凭据时，请务必使用租户管理员帐户。
+这些示例依赖于作为 Exchange Online [PowerShell V2 模块](/powershell/exchange/exchange-online-powershell-v2?preserve-view=true&view=exchange-ps)一部分的 [连接-ExchangeOnline](/powershell/module/exchange/connect-exchangeonline) PowerShell 命令。 如果在运行 连接-ExchangeOnline 时收到错误，请确保已按照建议的说明使用[安装 EXO V2 模块安装模块](/powershell/exchange/exchange-online-powershell-v2#install-and-maintain-EXO-v2-module)。 当Connect-ExchangeOnline提示输入凭据时，请务必使用租户管理员帐户。
 
 #### <a name="step-one-set-up-a-new-microsoft-365-tenant-domain"></a>步骤一：设置新的Microsoft 365租户域
 

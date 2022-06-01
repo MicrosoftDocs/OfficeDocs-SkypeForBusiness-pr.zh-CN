@@ -228,7 +228,7 @@ items:
                   - name: 禁用混合以仅完成到 Teams 的迁移
                     href: /SkypeForBusiness//hybrid/cloud-consolidation-disabling-hybrid
                   - name: 更新 DNS 条目
-                    href: /SkypeForBusiness//hybrid/decommission-manage-dns-entries.md
+                    href: /SkypeForBusiness//hybrid/decommission-manage-dns-entries
                   - name: 决定如何在解除授权后管理属性
                     href: /SkypeForBusiness//hybrid/cloud-consolidation-managing-attributes
               - name: 将应用程序终结点移动到云
@@ -1838,7 +1838,7 @@ items:
           - name: 从 Skype for Business Online 连接器移动到 Teams PowerShell 模块
             href: teams-powershell-move-from-sfbo.md
           - name: Teams 的 Cmdlet 参考
-            href: /powershell/module/teams/?view=teams-ps
+            href: /powershell/module/teams
       - name: Teams 开发人员文档
         href: /microsoftteams/platform
       - name: Teams 内容更新

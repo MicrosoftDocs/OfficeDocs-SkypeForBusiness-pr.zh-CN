@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 745500dd0ac30d717e37ec9287618342554b26c9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1cf7d4e9670d8ea282105eaa057347fa7e9f6dac
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627024"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65822991"
 ---
 # <a name="azure-sentinel-and-microsoft-teams"></a>Azure Sentinel 和 Microsoft Teams
 
@@ -220,13 +220,13 @@ SigninLogs
 
 **感谢你们的内容协作，Pete Bryan、Nicholas DiCola 和 Matthew Lowe。** 牛娇和合作人员继续为 Teams 开发检测和查询查询。
 
-使用 Git Hub [更新](https://github.com/Azure/Azure-Sentinel/tree/master/Hunting%20Queries/TeamsLogs) 保持联络。
+使用 Git Hub [更新](https://github.com/Azure/Azure-Sentinel/tree/master/Hunting%20Queries/) 保持联络。
 
 监控本文中使用的[分析器](https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/Teams_parser.txt)和[逻辑应用](https://github.com/Azure/Azure-Sentinel/tree/master/Playbooks/Get-O365Data)的更新。
 
 你也可以加入并参与 [Azure Sentinel 社区](https://github.com/Azure/Azure-Sentinel/wiki)。 我们正在积极寻找有关本文的反馈，因此请使用下面的反馈选项。 谢谢，快乐你。
 
-[在 Azure AD 中注册应用程序](/skype-sdk/ucwa/registeringyourapplicationinazuread%C2%A0%20%20%C2%A0)
+[在 Azure AD 中注册应用程序](/skype-sdk/trusted-application-api/docs/registrationinazureactivedirectory)
 
 [启用或禁用审核日志搜索](/microsoft-365/compliance/turn-audit-log-search-on-or-off)
 

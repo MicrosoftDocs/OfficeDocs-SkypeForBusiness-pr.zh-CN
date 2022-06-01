@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 了解如何配置一个会话边界控制器 (SBC) ，为 Microsoft 合作伙伴和/或 PSTN 运营商提供多个租户。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7a465945a55482c84b9d6373240bc89850b80e3a
-ms.sourcegitcommit: 3f046142c40b3b776165e964f2b8718e2fe55df3
+ms.openlocfilehash: be75743752f34024baf7b2fd017557c2f0044ba6
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/24/2022
-ms.locfileid: "65661673"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823683"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>为多个租户配置会话边界控制器
 
@@ -52,7 +52,7 @@ Microsoft 不管理运营商。 Microsoft 提供电话系统（专用分支Excha
 2. 激活子域名称。
 3. 将中继从运营商配置为客户租户并预配用户。
 
-*请确保了解 DNS 基础知识以及如何在Microsoft 365中管理域名。请参阅 [有关Microsoft 365域的帮助](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)，然后再继续。*
+*请确保了解 DNS 基础知识以及如何在Microsoft 365中管理域名。请参阅 [有关Microsoft 365域的帮助](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)，然后再继续。*
 
 ## <a name="deploy-and-configure-the-sbc"></a>部署和配置 SBC
 
@@ -83,7 +83,7 @@ Microsoft 不管理运营商。 Microsoft 提供电话系统（专用分支Excha
 
 当呼叫到达Microsoft 365直接路由接口时，该接口使用联系人标头查找应查找用户的租户。 直接路由不会在“邀请”上使用电话号码查找，因为某些客户的非 DID 号码可能在多个租户中重叠。 因此，联系人标头中的 FQDN 名称需要标识确切的租户才能按电话号码查找用户。
 
-*有关在Microsoft 365组织中创建域名的详细信息，[请参阅有关Microsoft 365域的帮助](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)。*
+*有关在Microsoft 365组织中创建域名的详细信息，[请参阅有关Microsoft 365域的帮助](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)。*
 
 下图汇总了对基本域、子域和联系人标头的要求。
 
@@ -139,7 +139,7 @@ SBC 需要证书才能对连接进行身份验证。 对于 SBC 托管方案，�
 > [!NOTE]
 > 承运商租户必须保留至少一个分配给租户的电话系统许可证，以避免删除Skype for Business配置。 
 
-*有关在Microsoft 365组织中添加用户的详细信息，[请参阅有关Microsoft 365域的帮助](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)。*
+*有关在Microsoft 365组织中添加用户的详细信息，[请参阅有关Microsoft 365域的帮助](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)。*
 
 例如：test@customers.adatum.biz
 
@@ -196,7 +196,7 @@ SBC 需要证书才能对连接进行身份验证。 对于 SBC 托管方案，�
 
 注册域名后，需要通过添加至少一个用户并分配 SIP 地址的 FQDN 部分（与客户租户中创建的子域匹配）来激活该域名。 
 
-*有关在Microsoft 365组织中添加用户的详细信息，[请参阅有关Microsoft 365的帮助](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)。*
+*有关在Microsoft 365组织中添加用户的详细信息，[请参阅有关Microsoft 365的帮助](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)。*
 
 例如：test@sbc1.customers.adatum.biz
 

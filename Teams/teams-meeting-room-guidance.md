@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4fb3eb61de1372012f2a530be86d394ca46893a6
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+ms.openlocfilehash: 8df4740d6f5facc427900e7af760b11a9c8cb43f
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681743"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823397"
 ---
 # <a name="meeting-room-guidance-for-teams"></a>会议室Teams指南
 
@@ -83,7 +83,7 @@ Teams 会议室通过提供独特的室内功能（如单击联接、以智能�
 
 可从此计划开始，解决所有非 AV 或非协作设备会议空间的问题。 即使这些会议室尚未安装Teams设备，你仍然可以利用会议室中的Teams。
 
-*音频：* 一个很好的桥梁，一个完整的Teams会议室是规划会议技术，要么为您的个人用户提供Teams认证的音频设备，为较小的房间和组，或通过部署他们在会议室之前，一个完整的Teams 会议室解决方案，为较大的组，其中小设备不会削减它。
+*音频：* 实现完整Teams 会议室的一个很好的桥梁是规划会议技术，方法是为个人用户提供Teams认证的小型会议室和组的音频设备，或者将它们部署在会议室中，以获得适用于大型组的较大空间的完整Teams 会议室解决方案，其中小型设备不会对其进行剪切。
 
 *视频：* 使用这些会议室时，单个用户可以自带设备共享Teams会议内容，并使用各自的相机捕获其表达式。 然后，用户可以指定某人为本地组的单一音频源，将该个人设备连接到经过认证的音频设备，以便 (本地和远程) 的每个人都能体验到会议音频。
 

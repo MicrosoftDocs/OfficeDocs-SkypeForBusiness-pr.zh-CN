@@ -22,19 +22,19 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Find the dial-in conferencing language for each country or region and the culture ID assigned (en-US, da-DK, de-DE, etc)
-ms.openlocfilehash: 38277b1b4b24c544cd271c9bbdb52f53d407fceb
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+ms.openlocfilehash: 63cc7b7f20fd121801a00e43b95e1c7e33762d93
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62055452"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823447"
 ---
 # <a name="audio-conferencing-supported-languages"></a>音频会议支持的语言
 
-在 Microsoft 365 或 Office 365 中设置和配置音频会议时，可以选择呼叫者拨入 Skype for Business 或 Microsoft Teams 会议时使用的主要和辅助 () 语言。 下面是音频会议支持的语言列表：
+在Microsoft 365或Office 365中设置和配置音频会议时，可以选择当呼叫者拨入Skype for Business或Microsoft Teams会议时使用的最多 4 种) 语言的主要和辅助 (。 下面是支持音频会议语言的列表：
   
 > [!IMPORTANT]
-> 只能在专用音频会议电话号码上更改主要和辅助语言。
+> 只能对专用音频会议电话号码更改主要语言和辅助语言。
   
 ## <a name="currently-supported-languages"></a>当前支持的语言
 
@@ -85,21 +85,21 @@ ms.locfileid: "62055452"
 |土耳其语  <br/> |土耳其  <br/> |tr-TR  <br/> |
 |乌克兰语  <br/> |乌克兰  <br/> |uk-UA  <br/> |
 
-如果你正在寻找可以购买音频会议的国家/地区，请参阅音频会议和呼叫计划的 [国家和地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
+如果要查找可以购买音频会议的国家或地区，请参阅[音频会议和通话套餐的国家/地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
   
-如果你要查找具有音频会议电话号码的特定国家和地区，请参阅 Microsoft Teams 中的音频会议 电话 号码或[Skype for Business](phone-numbers-for-audio-conferencing-in-teams.md) [Online](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)中的音频会议 电话 号码。
+如果要查找具有音频会议电话号码的特定国家或地区，请参阅 [Skype for Business](phone-numbers-for-audio-conferencing-in-teams.md) Online 中音频会议的音频会议Microsoft Teams或[电话号码的电话号码](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)。
   
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>想知道如何使用 Windows PowerShell 进行管理吗？
 
 - 若要节省时间或自动执行此操作，可以使用 [Get-CsOnlineDialInConferencingLanguagesSupported](/powershell/module/skype/Get-CsOnlineDialInConferencingLanguagesSupported) 或 [Set-CsOnlineDialInConferencingServiceNumber](/powershell/module/skype/Set-CsOnlineDialInConferencingServiceNumber) cmdlet。
 
-- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用Windows PowerShell，Microsoft 365 Office 365单点管理来管理任务或任务，当您有多个任务需要执行时，可以简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
+- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用Windows PowerShell，可以使用单个管理点来管理Microsoft 365或Office 365，以便在需要执行多个任务时简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
 
   - [为什么要使用 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
-  - [使用 Microsoft 365 Office 365 管理Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [使用Windows PowerShell管理Microsoft 365或Office 365的最佳方法](/previous-versions//dn568025(v=technet.10))
 
-- Windows PowerShell比仅使用 Microsoft 365 管理中心 具有许多速度、简单性和工作效率优势，例如，一次为许多用户更改设置时。 通过以下主题了解这些优势：
+- Windows PowerShell在速度、简单性和工作效率方面具有许多优势，而不是仅使用Microsoft 365 管理中心，例如每次对许多用户进行设置更改时。 通过以下主题了解这些优势：
 
   - [Windows PowerShell 和 Skype for Business Online 简介](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
@@ -108,8 +108,8 @@ ms.locfileid: "62055452"
   - [使用 Windows PowerShell 执行常见的 Skype for Business Online 管理任务](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
     > [!NOTE]
-    > [!注释] 使用适用于 Skype for Business Online 的 Windows PowerShell 模块，你可以创建连接到 Skype for Business Online 的远程 Windows PowerShell 会话。此模块仅在 64 位计算机上受支持，可以从 Microsoft 下载中心的[适用于 Skype for Business Online 的 Windows PowerShell 模块](https://go.microsoft.com/fwlink/?LinkId=294688)下载。
+    > [!注释] 使用适用于 Skype for Business Online 的 Windows PowerShell 模块，你可以创建连接到 Skype for Business Online 的远程 Windows PowerShell 会话。此模块仅在 64 位计算机上受支持，可以从 Microsoft 下载中心的[适用于 Skype for Business Online 的 Windows PowerShell 模块](/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-windows-powershell-5-1)下载。
   
 ## <a name="related-topics"></a>相关主题
 
-[尝试或购买音频会议Microsoft 365或Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[尝试或购买Microsoft 365或Office 365中的音频会议](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

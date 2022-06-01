@@ -1,5 +1,5 @@
 ---
-title: Teams Contoso 案例研究升级计划
+title: Teams语音 Contoso 案例研究升级计划
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,29 +13,29 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Teams公司的语音案例研究：升级规划。
+description: Teams跨国企业语音案例研究：升级规划。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c2d64e93e8f9ab53cd2a696af69de4b7f0d4f7348fec27a189b60896ee1ec02
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 39cfd66f0ff34fb0f8792871ddfdcceebb2b9961
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350174"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65822981"
 ---
 # <a name="contoso-case-study-teams-upgrade-plan"></a>Contoso 案例研究：Teams升级计划
 
-在决定从 Skype for Business 迁移到 Teams 时，Contoso 希望为最终用户提供简单的过渡体验。 他们决定设置混合Teams，并使用重叠功能方法将用户移动到 Teams，而不是将所有人同时切换到 Teams。 这允许Teams Skype for Business本地用户共享状态和进行通信。 随着用户进入试验阶段电话系统，他们已移动到Teams模式。
+在决定从Skype for Business迁移到Teams时，Contoso 希望为最终用户提供简单的过渡体验。 他们决定设置混合连接，并使用重叠功能方法将用户移动到Teams，而不是同时将所有人切换到Teams。 这允许Teams和本地Skype for Business用户共享状态和通信。 当用户进入试点进行电话系统时，他们被移动到“仅Teams模式”。
 
-若要了解有关升级、方法和模式的基本概念，Contoso 请阅读以下文章：
+为了了解有关升级、方法和模式的基本概念，Contoso 阅读以下文章：
 
 - [开始 Microsoft Teams 升级](upgrade-start-here.md)
-- [适用于 IT 管理员的升级策略](upgrade-to-teams-on-prem-implement.md) 
+- [IT 管理员的升级策略](upgrade-to-teams-on-prem-implement.md) 
 - [迁移和互操作性指南](migration-interop-guidance-for-teams-with-skype.md)
  
-Contoso 还参加 Ignite 2019 会话设计从 Skype for Business[到 Teams。](https://myignite.techcommunity.microsoft.com/sessions/81820?source=sessions) Contoso 学习了：
+Contoso 还参加了 Ignite 2019 会话，[设计从Skype for Business到Teams的路径](https://myignite.microsoft.com/archives/IG20-OD251)。 Contoso 了解以下内容：
 
-- 互操作性、联合身份验证和升级行为等基本概念 
+- 基本概念，如互操作性、联合身份验证和升级行为 
 
 - 基于 TeamsUpgradePolicy 的共存模式和管理 
 
@@ -43,18 +43,18 @@ Contoso 还参加 Ignite 2019 会话设计从 Skype for Business[到 Teams。](h
 
   - 聊天和通话 
 
-  - 会议安排 
+  - 会议日程安排 
 
-  - 客户端中协作功能Teams的可用性 
+  - Teams客户端中协作功能的可用性 
 
-若要计划和配置混合连接，将本地环境迁移到云的第一步，Contoso 请阅读规划混合连接和[配置混合](/SkypeForBusiness/hybrid/configure-hybrid-connectivity)连接，了解如何： [](/SkypeForBusiness/hybrid/plan-hybrid-connectivity) 
+若要规划和配置混合连接，Contoso 将本地环境迁移到云的第一步是阅读 [计划混合连接](/SkypeForBusiness/hybrid/plan-hybrid-connectivity) 并 [配置混合连接](/SkypeForBusiness/hybrid/configure-hybrid-connectivity) 以了解如何： 
 
-  - 将其本地环境服务配置为与 Office 365。 
+  - 配置其本地环境服务以与Office 365联合。 
 
-  - 配置其本地环境以信任Office 365并启用共享 SIP 地址空间Office 365 
+  - 将本地环境配置为信任Office 365，并使用Office 365启用共享 SIP 地址空间 
 
-  - 在租户中启用共享 SIP Office 365空间。
+  - 在其Office 365租户中启用共享 SIP 地址空间。
 
-  - 在技术试点期间使用群岛模式。
+  - 在技术试点期间使用“岛屿”模式。
 
-  - 为用户启用登录后，将用户切换到 TeamsOnly 电话系统。 调用计划和直接路由需要 TeamsOnly 模式。
+  - 为用户启用电话系统后，将用户切换到 TeamsOnly 模式。 调用计划和直接路由需要 TeamsOnly 模式。

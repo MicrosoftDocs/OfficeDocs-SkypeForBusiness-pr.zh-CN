@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 search.appverid: ''
 ms.collection: ''
 ms.custom: ''
-ms.openlocfilehash: 2455d386e9bdf297995880f679e5db74b299e64d
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: cbea53abb94bc3cb591d98781187ac2f4cb68dfd
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674834"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823457"
 ---
 # <a name="navigate-microsoft-teams"></a>导航Microsoft Teams
 
@@ -259,7 +259,7 @@ Teams平台允许通过集成到Microsoft Teams以及现成的Microsoft 365应�
 
 [使用“员工检查”](/microsoftteams/platform/samples/app-templates#staff-check-ins)应用模板，使一线员工可以直接从Teams提供计划或临时提供时间关键信息和状态更新。 该应用支持实时位置、照片、笔记、提醒通知和自动化工作流。
 
-使用Teams为组织提供轻松的培训。 培训是一种自定义[Teams消息传递扩展](/microsoftteams/platform/what-are-messaging-extensions)应用，使用户能够在聊天或频道中发布培训以进行脱机知识共享和提升技能。 该应用支持跨多个Teams平台客户端，如桌面、浏览器、iOS和Android。 此应用已准备好作为Microsoft 365订阅的一部分进行部署。
+使用Teams为组织提供轻松的培训。 培训是一种自定义[Teams消息传递扩展](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions?tabs=dotnet)应用，使用户能够在聊天或频道中发布培训以进行脱机知识共享和提升技能。 该应用支持跨多个Teams平台客户端，如桌面、浏览器、iOS和Android。 此应用已准备好作为Microsoft 365订阅的一部分进行部署。
 
 [在GitHub上获取它](https://github.com/OfficeDev/microsoft-teams-apps-training)
 
