@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: 请参阅 (哪些 USB 外围设备（例如耳机、免提电话、网络摄像头和监视器）) 已通过Microsoft Teams认证。
-ms.openlocfilehash: 912d6d3481ba6f9885a79e0600f74c9ecd031c8c
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: ac06ca93423039714de87a5bce036b18becedb27
+ms.sourcegitcommit: 18a26d07a335184dbcda71908452e82a6ddc3158
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65760894"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65840964"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>经认证为Microsoft Teams的 USB 音频和视频设备
 
@@ -74,13 +74,14 @@ ms.locfileid: "65760894"
 
 ## <a name="certified-devices"></a>认证设备
 
-*表更新时间：2022 年 5 月*
+*表更新时间：2022 年 6 月*
 
 > [!NOTE]
 > 日期格式为 MMDDYYYY。
 
 | 制造商        | 模型                                                     | 合格      | 认证计划                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|EPOS                 |C10/C20/C50 系列耳机                                |5/31/2022       |Microsoft Teams认证                           |
 |聚                 |Studio P21 Monitor                                         |5/12/2022       |Microsoft Teams认证                           |
 |Yealink              |UH38 耳机                                               |5/2/2022        |Microsoft Teams认证                           |   
 |Yealink              |BH72 耳机                                               |5/2/2022        |Microsoft Teams认证                           |
@@ -146,8 +147,8 @@ ms.locfileid: "65760894"
 |联想               |Pro有线 VoIP 立体声耳机                              |12/21/2020      |Skype for Business升级到Microsoft Teams      |
 |聚                 |救世Office 7320                                           |12/18/2020      |Microsoft Teams认证                           |
 |聚                 |救世Office 7310                                           |12/18/2020      |Microsoft Teams认证                           |
-|Jabra                |Evolve 75e Headset                                         |12/16/2020      |Skype for Business升级到Microsoft Teams      |
-|Jabra                |Evolve 65e Headset                                         |12/16/2020      |Skype for Business升级到Microsoft Teams      |
+|Jabra                |75e/ 标准版耳机                                         |12/16/2020      |Skype for Business升级到Microsoft Teams      |
+|Jabra                |65e/ 标准版耳机                                         |12/16/2020      |Skype for Business升级到Microsoft Teams      |
 |戴尔                 |C3422WE Monitor                                            |12/11/2020      |Microsoft Teams认证                           |
 |戴尔                 |C2722DE Monitor                                            |12/11/2020      |Microsoft Teams认证                           |
 |戴尔                 |C2422HE Monitor                                            |12/11/2020      |Microsoft Teams认证                           |

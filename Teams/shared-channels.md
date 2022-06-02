@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 了解如何在 Microsoft Teams 中使用和管理共享频道。
-ms.openlocfilehash: afaae423b09b36845b0eeadd9276de1356d0fca0
-ms.sourcegitcommit: e8a78c24fda7e56c7b217a843a8a5f1c30aa95f6
+ms.openlocfilehash: 72701d71712a553c9a02cf9ab41ce0ced0597c3a
+ms.sourcegitcommit: c74c83fdb3fdbf1a5ebc9398bf0379d33f888d1b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2022
-ms.locfileid: "65785982"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65795634"
 ---
 # <a name="shared-channels-in-microsoft-teams"></a>Microsoft Teams 中的共享频道
 
@@ -150,11 +150,78 @@ Microsoft Teams 中的共享频道可创建协作空间，你可以在其中邀�
 
 - 共享频道支持除 Stream、Planner 和 Forms 以外的选项卡。
 
-- 不支持 LOB 应用、机器人、连接器、消息扩展。
+- 不支持 LOB 应用、机器人、连接器和消息扩展。
 
 - 根据现有团队创建团队时，将不会复制现有团队中的任何共享频道。
 
 - 错过的活动电子邮件中不包含来自共享频道的通知。
+
+## <a name="supported-apps-in-shared-channels"></a>共享频道中支持的应用
+
+有关如何为共享频道准备应用的信息，请参阅[如何开放应用以通过 Microsoft Teams Connect 进行跨组织协作](https://mybuild.microsoft.com/sessions/4d84d73c-08de-4f56-990b-2a73b2037df1)。
+
+共享频道中支持使用以下应用。 
+
+- 活动
+- Adobe Acrobat Sign
+- Asana
+- 日历
+- Calendar Pro
+- 通话
+- 聊天
+- Code by Vivani
+- Conceptboard
+- Excel
+- FileBrowser
+- 文件
+- Flipgrid
+- Freehand by InVision
+- HeyTaco
+- Jira Cloud
+- Kahoot！
+- 列表
+- Lucidchart
+- Lumio
+- MeisterTask
+- MindMeister
+- Mindomo
+- Miro
+- Monday.com
+- MURAL
+- Nearpod
+- OneNote
+- PDF
+- Pear Deck
+- PowerPoint
+- Priority Matrix
+- Quicklinks
+- Quizlet
+- Saved
+- Scrum-Poker
+- 搜索
+- SharePoint
+- SharePoint Pages
+- Slido
+- Smartsheet
+- SurveyMonkey
+- Tasks in a Box
+- Teams
+- Teams Manager
+- TeamViewer
+- 团队合作
+- Testportal
+- TrackingTime
+- Trello
+- Vevox
+- Visio
+- VSTS
+- Wakelet
+- Web
+- Wooclap
+- Word
+- YouTube
+- Zendesk
+- Zoho Projects
 
 ## <a name="related-topics"></a>相关主题
 

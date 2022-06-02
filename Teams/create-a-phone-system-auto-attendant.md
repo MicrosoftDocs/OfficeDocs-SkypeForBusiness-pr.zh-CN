@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 了解如何在Microsoft Teams中为大型组织设置和测试自动助理。
-ms.openlocfilehash: 5f4b4f21f2e1cca8c8bbc350541cdd861b1bda3f
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: f177f1dd34f4f8f9497e7800007b5be868230dfe
+ms.sourcegitcommit: 18a26d07a335184dbcda71908452e82a6ddc3158
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674364"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65840974"
 ---
 # <a name="set-up-an-auto-attendant"></a>设置自动助理
 
@@ -44,6 +44,7 @@ ms.locfileid: "65674364"
 - **组织中的人员** - 组织中可以接收语音呼叫的人员。 此人可以是使用Skype for Business Server在本地托管的联机用户或用户。
 - **语音应用** - 另一个自动助理或呼叫队列。  (选择此目标时与自动助理或呼叫队列关联的资源帐户。) 
 - **语音邮件** - 与指定的Microsoft 365组关联的语音邮箱。 可以选择是否需要语音邮件听录和“请在音调后留下邮件”。 系统提示。
+- - 在 M365 管理员中心中，为你特定的Microsoft 365组启用“让组织外部人员向此团队发送电子邮件”
 - **外部电话号码** - 任何电话号码。  (请参阅 [外部传输技术详细信息](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)) 。
 - **通知 (音频文件)** - 播放音频文件。 上传的已录制公告消息，保存为音频。WAV、.MP3或 .WMA 格式。 录制内容不得大于 5 MB。 系统播放公告，然后返回到自动助理菜单。
 - **公告 (键入)** - 键入消息。 希望系统读取的文本。 最多可以输入 1000 个字符。 系统播放公告，然后返回到自动助理菜单。
