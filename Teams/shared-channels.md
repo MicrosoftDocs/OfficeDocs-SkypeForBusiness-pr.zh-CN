@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 中的共享频道（预览版）
+title: Microsoft Teams 中的共享频道
 author: MikePlumleyMSFT
 ms.author: mikeplum
 manager: serdars
@@ -17,15 +17,15 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
 search.appverid: MET150
-description: 了解如何在 Microsoft Teams（预览版）中使用和管理共享频道。
-ms.openlocfilehash: 1f222d8994c435c315a91deaba77e383b55cba42
-ms.sourcegitcommit: 0c7d199b2f7580dbfa8ce755eda97ec70bc86978
+description: 了解如何在 Microsoft Teams 中使用和管理共享频道。
+ms.openlocfilehash: afaae423b09b36845b0eeadd9276de1356d0fca0
+ms.sourcegitcommit: e8a78c24fda7e56c7b217a843a8a5f1c30aa95f6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2022
-ms.locfileid: "65393876"
+ms.lasthandoff: 05/31/2022
+ms.locfileid: "65785982"
 ---
-# <a name="shared-channels-in-microsoft-teams-preview"></a>Microsoft Teams 中的共享频道（预览版）
+# <a name="shared-channels-in-microsoft-teams"></a>Microsoft Teams 中的共享频道
 
 Microsoft Teams 中的共享频道可创建协作空间，你可以在其中邀请部署于团队的人员。 仅具有共享频道所有者或成员身份的用户可以访问该频道。 虽然无法将来宾（组织中具有 Azure Active Directory 来宾帐户的人员）添加到共享频道，但可通过使用 Azure AD B2B 直接连接邀请组织外部人员参与共享频道。
 
@@ -36,12 +36,6 @@ Microsoft Teams 中的共享频道可创建协作空间，你可以在其中邀�
 创建共享频道后，该频道将链接到父级团队，并且无法移动到其他团队。 此外，共享频道无法转换为标准频道，反之亦然。
 
 [比较共享频道和其它类型的频道](/microsoftteams/teams-channels-overview#channel-feature-comparison)。
-
-## <a name="best-practices-for-the-shared-channels-preview"></a>共享频道预览版的最佳做法
-
-共享频道处于预览状态，并且需要你已配置 [Microsoft Teams 公共预览版](/MicrosoftTeams/public-preview-doc-updates)。 如果计划与其他组织共享频道，他们还必须配置 Teams 公共预览版。
-
-我们建议为所有用户启用预览。 未为其启用预览的用户无法创建共享频道，但仍可将其添加到共享频道。 为所有用户启用预览可以帮助确保一致的体验。
 
 ## <a name="getting-started-with-shared-channels"></a>共享频道入门
 
@@ -141,14 +135,14 @@ Microsoft Teams 中的共享频道可创建协作空间，你可以在其中邀�
 
 [在 Teams 中共享频道所有者和成员角色](https://support.microsoft.com/office/75b379f4-8e9c-4202-acf1-6ffc3878a2d7)
 
-## <a name="limits-for-shared-channels-preview"></a>共享频道的限制（预览版）
+## <a name="limits-for-shared-channels"></a>共享频道的限制
 
 下表说明了频道和成员数的上限。
 
 |最大值...|值|注释|
 |:---------|:----|:----|
 |团队中的成员|25,000|包括团队中的所有用户和共享频道中的直接成员。|
-|每个团队的共享频道数|50|托管并与团队共享。 （包括 30 天恢复时段内已删除的频道。）|
+|每个团队的共享频道数|200|托管并与团队共享。 （包括 30 天恢复时段内已删除的频道。）|
 |可以与团队共享的频道|50|排除父级团队|
 |共享频道中的成员|5,000 个直接成员，包括最多 50 个团队。 （出于此限制的目的，将与之共享频道的每个团队计作一个成员。）|实时更新一次仅对 25,000 个用户可用，并且在频道列表中仅显示 25,000 个用户。|
 
@@ -156,7 +150,7 @@ Microsoft Teams 中的共享频道可创建协作空间，你可以在其中邀�
 
 - 共享频道支持除 Stream、Planner 和 Forms 以外的选项卡。
 
-- 公共预览版不支持 LOB 应用、机器人、连接器和消息扩展。
+- 不支持 LOB 应用、机器人、连接器、消息扩展。
 
 - 根据现有团队创建团队时，将不会复制现有团队中的任何共享频道。
 
