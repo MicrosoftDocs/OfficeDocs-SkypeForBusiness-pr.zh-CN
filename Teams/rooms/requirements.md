@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 了解支持Microsoft Teams 会议室的要求，包括选择合适的设备、麦克风、扬声器、相机和显示器。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 91d9740e987c93dc05ea969b50ecd8e8a12de6b4
-ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+ms.openlocfilehash: 29b58a57d052acb529bc4c21db184589ed3739d8
+ms.sourcegitcommit: e99471689ff60f9ab1095bc075f8b4c5569c9634
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65823633"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65860603"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams 会议室要求
 
@@ -206,7 +206,7 @@ Microsoft Teams 会议室缩放到不同的房间大小。 Teams 会议室根据
 |[Shure Intellimix P300 音频会议处理器](https://www.shure.com/products/mixers/p300)+</br>[Shure MXA 310 桌面矩阵麦克风](https://www.shure.com/products/microphones/mxa310) | 4.1 |
 |[Shure Intellimix P300 音频会议处理器](https://www.shure.com/products/mixers/p300) +</br>[带 Intellimix 天花板矩阵麦克风的 Shure MXA 910](https://www.shure.com/products/microphones/mxa910) | 4.1|
 |[Shure Intellimix P300 音频会议处理器](https://www.shure.com/products/mixers/p300)+</br>[Shure MXA 310 表数组麦克风 ](https://www.shure.com/products/microphones/mxa310) +</br>[MXN5W-C Ceiling 扬声器](https://www.shure.com/en-US/products/loudspeakers/mxn5)| P300 DSP：4.1.11 </br> MXA310 表数组麦克风：4.1.41 </br> MXN5W-C 扬声器：1.0.4 |
-|[Shure Intellimix P300 音频会议处理器](https://www.shure.com/products/mixers/p300) + </br>[使用 Intellimix Ceiling Array Mic 的 Shure MXA 910](https://www.shure.com/products/microphones/mxa910) +</br>[MXN5W-C Ceiling 扬声器](https://www.shure.com/en-US/products/loudspeakers/mxn5)| P300 DSP：4.1.11 </br> MXA910 天花板数组麦克风：4.1.41 </br> MXN5W-C 扬声器：1.0.4 |
+|[Shure Intellimix P300 音频会议处理器](https://www.shure.com/products/mixers/p300) + </br>[使用 Intellimix Ceiling Array Mic 的 Shure MXA 920](https://www.shure.com/en-US/products/microphones/mxa920?utm_source=linkedin&utm_medium=social&sfid=&prod=) +</br>[MXN5W-C Ceiling 扬声器](https://www.shure.com/en-US/products/loudspeakers/mxn5)| P300 DSP：4.7.7 </br> MXA920 天花板数组麦克风：1.1.56 </br> MXN5W-C 扬声器：1.5.6 |
 |[Shure MXA 710 2 英尺表线性阵列麦克风](https://www.shure.com/products/microphones/mxa710) + </br>[Shure Intellimix P300 音频会议处理器](https://www.shure.com/products/mixers/p300) +</br>[MXN5-C 天花板扬声器](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 2 英尺表线性数组麦克风：1.2.0 </br> P300 DSP：4.4.8 </br> MXN5-C 扬声器：1.1.1 |
 |[Shure MXA 710 4 英尺墙体线性阵列麦克风](https://www.shure.com/products/microphones/mxa710) + </br>[Shure Intellimix P300 音频会议处理器](https://www.shure.com/products/mixers/p300) +</br>[MXN5-C 天花板扬声器](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 4 英尺墙体线性数组麦克风：1.2.0 </br> P300 DSP：4.4.8 </br> MXN5-C 扬声器：1.1.1 |
 |[使用 Intellimix Ceiling Array 麦克风的 Shure MXA 910](https://www.shure.com/products/microphones/mxa910) + </br> [Shure Intellimix Room Software](https://www.shure.com/products/software/intellimix_room) +</br> [Crestron UC-C100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)| Shure Intellimix Room Software： 3.0.4.14 </br> 使用 Intellimix Ceiling Array 麦克风的 Shure MXA 910：4.4.11 </br> Shure MXN5-C 扬声器：1.2.1 </br> 使用 ASUS Tek Computer INC 9934 计算的 Crestron UC-C100-T | 
