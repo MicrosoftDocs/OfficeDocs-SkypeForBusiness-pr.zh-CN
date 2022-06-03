@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 了解哪些桌面电话和会议电话经过认证，Microsoft Teams可产生最佳效果。
-ms.openlocfilehash: 2daf43e3166c70c0947706d3d8f9ce8166fc1e91
-ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+ms.openlocfilehash: a5ebc44e3fb7f4f49f97efe61cec59828b6b5e7c
+ms.sourcegitcommit: e99471689ff60f9ab1095bc075f8b4c5569c9634
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65823021"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65860743"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams认证的Android设备
 
@@ -245,6 +245,7 @@ Microsoft Teams设备认证计划确保认证设备符合高标准，在整个Te
 
 | 设备模型  | 固件版本 | 包含的产品版本 |
 |:--------------|:-----------------|:-------------------------|
+| Logi Tap 设备  |  `1.5.705`   | 2022 更新 #1    |
 | Poly Studio X30 | `3.11.0.364021`          | 2022 更新 #1    |
 | Poly Studio X50 | `3.11.0.364021`          | 2022 更新 #1    |
 | Logi Roommate |   `1.6.290`   | 2022 更新 #1    |

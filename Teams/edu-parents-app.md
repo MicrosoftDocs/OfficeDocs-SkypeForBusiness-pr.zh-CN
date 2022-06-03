@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ccc69a07d523b046298643ad387e31e25138096f
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 7c26f70bb6592c418968b77c9ef2a495cb98648a
+ms.sourcegitcommit: e99471689ff60f9ab1095bc075f8b4c5569c9634
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65676124"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65860793"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>在Microsoft Teams 教育版中设置父连接
 
@@ -56,13 +56,13 @@ Teams 教育版中的家长连接可帮助教师使用Teams安全地与班级团
 > - 公共分支Exchange (PBX) 功能。
 > - 连接到 PSTN。
 >
-> Microsoft 365 A1和 A3 计划不包括 PBX 功能和 PSTN 连接。 可以 [购买每个加载项许可证](/teams-add-on-licensing/microsoft-teams-add-on-licensing)。
+> Microsoft 365 A1和 A3 计划不包括 PBX 功能和 PSTN 连接。 可以 [购买每个加载项许可证](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)。
 >
 > Microsoft 365 A5计划仅包括使用Teams 电话系统的 PBX 功能。 仍需[购买Teams呼叫计划，或使用第三方解决方案](pstn-connectivity.md)连接到 PSTN 上的外部号码。
 >
 > 有关获取 PSTN 连接的所有选项的详细信息，请参阅 [PSTN 连接选项](pstn-connectivity.md)。
 >
-> 有关Teams调用许可的详细信息，请[参阅Teams附加许可选项](/teams-add-on-licensing/microsoft-teams-add-on-licensing)。
+> 有关Teams调用许可的详细信息，请[参阅Teams附加许可选项](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)。
 
 ## <a name="requirements"></a>要求
 
@@ -91,13 +91,20 @@ Teams 教育版中的家长连接可帮助教师使用Teams安全地与班级团
   - 必须在租户级别和用户级别启用此功能。 可以在Teams管理中心的 **用户>外部访问** 中找到租户级别设置。 也可以通过 PowerShell 访问此设置。 只能通过 PowerShell 访问用户级别的外部访问策略。 有关进一步指南，请参阅下面的 PowerShell 命令。
 
 #### <a name="parent-and-guardian-restrictions"></a>家长和监护人限制
-父母和监护人在“父母连接”中被归类为外部用户，这意味着他们没有完整的租户权限。 他们只能访问添加到的聊天或聊天，以及聊天中共享的文件、图像和其他内容。
 
-此外，外部用户还可以查看组织用户的脱机、可用、忙碌等 )  (状态，但可以使用 PowerShell 关闭此状态以保护用户的隐私。 在 PowerShell 中，使用 [Set-CsPrivacyConfiguration](/powershell/module/skype/set-csprivacyconfiguration) 和 set ``EnablePrivacyMode=true``。
+父母和监护人在“父母连接”中被归类为 *外部用户* ，这意味着他们没有完整的租户权限。 他们只能访问聊天或聊天的一部分以及聊天中共享的文件、图像和其他内容。
+
+对于外部聊天，内部和外部用户都可以将用户添加到聊天中。 若要详细了解外部聊天体验，请参阅[Microsoft Teams中管理外部会议和聊天](manage-external-access.md)。
+
+此外，外部用户还可以看到组织用户 (脱机、可用、忙碌等) 状态，但可以使用 PowerShell 关闭此状态以保护用户的隐私。 在 PowerShell 中，使用 [Set-CsPrivacyConfiguration](/powershell/module/skype/set-csprivacyconfiguration) 和 set ``EnablePrivacyMode=true``。
 
 尽管父母和监护人是外部用户，但他们对聊天的贡献是可以发现的。 了解如何通过阅读Microsoft Teams中[的内容电子数据展示调查](ediscovery-investigation.md)来进行Teams电子数据展示调查。
 
+> [!IMPORTANT]
+> IT 管理员应让所有班主了解通过聊天共享学生信息的最佳做法，包括学生隐私风险。
+
 #### <a name="blocking-a-parent-or-guardian-in-a-chat"></a>在聊天中阻止家长或监护人
+
 教师可以在“父连接”中发起的聊天中阻止监护人。
 
 类所有者可以：
