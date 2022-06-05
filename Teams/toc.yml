@@ -455,6 +455,8 @@ items:
             href: teams-analytics-and-reports/information-protection-license-report.md
           - name: Teams 虚拟就诊使用情况报告
             href: teams-analytics-and-reports/virtual-visits-usage-report.md
+          - name: Teams EHR 连接器虚拟约会报告
+            href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
       - name: 日志文件、服务运行状况和支持
         items:
           - name: 使用日志文件监视 Teams 和排除 Teams 故障
@@ -1693,7 +1695,7 @@ items:
                 href: expand-teams-across-your-org/healthcare/ehr-admin-cerner.md
               - name: 通过 Teams 进行虚拟约会 - 与 Epic EHR 集成
                 href: expand-teams-across-your-org/healthcare/ehr-admin.md
-              - name: EHR 连接器虚拟约会报告
+              - name: Teams EHR 连接器虚拟约会报告
                 href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
               - name: 通过 Teams 和 Bookings 进行虚拟约会
                 href: expand-teams-across-your-org/bookings-virtual-visits.md

@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 94d59c27841e873c4e178a1b5c0d09df6942c1fc
-ms.sourcegitcommit: a388fd72e399f6e205c34707dc92cc309997e737
+ms.openlocfilehash: 16ca31652f3b5b9daa0216e683d80e6d9b0c809d
+ms.sourcegitcommit: e3931446943684db155bb3edf7d7e52d41775013
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2022
-ms.locfileid: "65400238"
+ms.lasthandoff: 06/04/2022
+ms.locfileid: "65886629"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 
@@ -97,6 +97,8 @@ ms.locfileid: "65400238"
 |每个文件附件的大小 | 小于 10 MB |
 |内嵌图像数<sup>2</sup> |50   |
 
+> [!NOTE]
+> 可以向频道发送的电子邮件数量存在限制。 限制是每个用户每个渠道每 10 秒 6 封邮件，每个用户每个租户每 10 秒 8 封邮件。
 <sup>1</sup>如果邮件数超过此限制，则会生成一封预览邮件，并要求用户通过所提供的链接下载和查看原始电子邮件。
 
 <sup>2</sup>如果附件或图像数超过此限制，你将看到一条错误消息。
