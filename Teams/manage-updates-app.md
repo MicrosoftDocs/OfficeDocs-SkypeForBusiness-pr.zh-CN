@@ -10,7 +10,7 @@ ms.service: msteams
 search.appverid: MET150
 searchScope:
 - Microsoft Teams
-description: 了解如何为组织中的用户管理Teams更新应用。
+description: 了解如何在 Teams 中为组织中的用户管理更新应用。
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -19,34 +19,34 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 39b0e358e57a8780918c6969a562b28d9e3fe49d
-ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+ms.openlocfilehash: 393793e5c0a5c4a305f26427951968c5614c052f
+ms.sourcegitcommit: 5640e8264b61c1f8cf8eb212315eeba1a794e494
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65823723"
+ms.lasthandoff: 06/07/2022
+ms.locfileid: "65928855"
 ---
-# <a name="manage-the-updates-app-for-your-organization-in-microsoft-teams"></a>在Microsoft Teams中管理组织的更新应用
+# <a name="manage-the-updates-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中管理组织的更新应用
 
 ## <a name="what-is-the-updates-app"></a>什么是更新应用
 
-Microsoft Teams应用中的更新为组织成员提供了一个集中的位置来创建、审阅和提交更新。 通过创建模板，可以使用更新应用跟踪组织所需的任何内容。 更新适用于桌面版和移动版。
+Microsoft Teams 应用中的“更新”为组织成员提供了一个集中的位置来创建、查看和提交更新。 通过创建模板，可以使用更新应用跟踪组织所需的任何内容。 更新适用于桌面版和移动版。
 
-在Teams中，用户可以从Teams应用商店获取更新。 他们将在“ **提交** ”页上看到需要提交的所有更新。
+在 Teams 中，用户可以从 Teams 应用商店获取更新。 他们将在“ **提交** ”页上看到需要提交的所有更新。
 
-[![桌面Teams中的“提交”页的图像。](media/updates-submit-small.png)](media/updates-submit.png#lightbox)
+[![Teams 桌面版中“提交”页的图像。](media/updates-submit-small.png)](media/updates-submit.png#lightbox)
 
 用户可以在 **“审阅** ”页中查看已分配的更新。
 
-[![桌面版Teams中“审阅”页的图像。](media/updates-home-small.png)](media/updates-home.png#lightbox)
+[![Teams 桌面版中“审阅”页的图像。](media/updates-home-small.png)](media/updates-home.png#lightbox)
 
-为用户分配更新时，它将显示在其Teams活动源中。 用户还可以在更新应用中查看其当前的所有更新请求和以前的提交。 此外，任何人都可以创建模板并发送更新请求。
+为用户分配更新后，更新将显示在其 Teams 活动源中。 用户还可以在更新应用中查看其当前的所有更新请求和以前的提交。 此外，任何人都可以创建模板并发送更新请求。
 
 更新附带了适用于常见业务方案的现新模板和创建自己的模板的选项。 任何人都可以为新类型的更新创建模板。
 
 ## <a name="example-scenario"></a>应用场景示例
 
-服装店的员工负责每天开店和关门。 每天早上，班长都会填写Microsoft Store打开更新，这是更新应用中的现现模板。 在此更新中，他们描述了前一天晚上的关闭的任何问题，回答有关商店清洁性的问题，并报告任何需要补充的用品。 提交更新使他们能够快速高效地传达对存储的需求和任何问题。 每日更新还让店员有机会突出显示运行状况。
+服装店的员工负责每天开店和关门。 每天早上，班长都会填写应用商店开门更新，这是更新应用中的现现模板。 在此更新中，他们描述了前一天晚上的关闭的任何问题，回答有关商店清洁性的问题，并报告任何需要补充的用品。 提交更新使他们能够快速高效地传达对存储的需求和任何问题。 每日更新还让店员有机会突出显示运行状况。
 
 在商店的制造设施中，员工使用移动设备对更新进行安全检查。
 
@@ -68,20 +68,20 @@ Microsoft Teams应用中的更新为组织成员提供了一个集中的位置�
 
 - Power Automate、Office 365 或 Dynamics 365 的许可证。
 
-- 用户需要Microsoft Forms许可证才能设置新模板。
+- 用户需要 Microsoft Forms 许可证才能设置新模板。
 
-## <a name="storage-with-microsoft-dataverse"></a>使用 Microsoft Dataverse 存储
+## <a name="storage-with-microsoft-dataverse"></a>使用 Microsoft Dataverse 进行存储
 
 通用数据模型 (CDM) 是 Microsoft Dataverse 中的业务和分析应用程序使用的共享数据语言。 它由 Microsoft 和合作伙伴发布的一组标准化、可扩展的数据架构组成，这些架构可实现数据的一致性及其在应用程序和业务流程中的含义。 详细了解 [Common Data Model](/common-data-model/)。
 
-从模板创建的更新仍会将数据存储在 Microsoft Dataverse 中，例如其标题、详细信息、模板 ID 等。 详细了解 [Microsoft Forms的数据存储](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe)。
+从模板创建的更新仍会将数据存储在 Microsoft Dataverse 中，例如其标题、详细信息、模板 ID 等。 详细了解  [Microsoft Forms 的数据存储](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe)。
 
 >[!Note]
->如果在Microsoft Forms网站上删除表单模板，它将中断更新模板，并且用户无法提交更新。 用户在尝试打开已在Microsoft Forms上删除的模板时收到错误“CDB TableNotFound”。
+>如果在 Microsoft Forms 网站上删除表单模板，它将中断更新模板，并且用户无法提交更新。 用户在尝试打开已在 Microsoft Forms 上删除的模板时收到错误“CDB TableNotFound”。
 
-## <a name="updates-teams-app-permissions"></a>更新Teams应用权限
+## <a name="updates-teams-app-permissions"></a>更新 Teams 应用权限
 
-更新Teams应用允许你访问以下功能：
+更新 Teams 应用允许你访问以下功能：
 
 - 接收你向其提供的消息和数据。
 
@@ -112,26 +112,16 @@ Microsoft Teams应用中的更新为组织成员提供了一个集中的位置�
 
   3. 搜索更新应用。
 
-     [![管理员中心导航的屏幕截图，其中突出显示了Teams应用>管理应用。](media/manage-updates-small.png)](media/manage-updates.png#lightbox)
+     [![“管理中心”导航的屏幕截图，其中突出显示了 Teams 应用>管理应用。](media/manage-updates-small.png)](media/manage-updates.png#lightbox)
 
   4. 选择 **“更新**”。
 
   5. 选择切换开关以为你的组织禁用该应用。
     ![用于启用或禁用更新的切换的图像。](media/toggle-updates.png)
 
-## <a name="pin-updates-to-teams"></a>将更新固定到Teams
+## <a name="pin-updates-to-teams"></a>将更新固定到 Teams
 
-### <a name="use-the-tailored-frontline-app-experience-to-pin-updates-and-other-apps-to-teams"></a>使用定制的一线应用体验固定更新和其他应用以Teams
-
-Teams中定制的一线应用体验为拥有 [F 许可证](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt)的用户固定Teams中最相关的应用。 固定应用包括更新、审批、Walkie Talkie、Tasks 和 Shifts。 默认情况下，此功能处于启用状态，为一线员工提供根据其需求定制的现新体验。
-
-应用固定到应用栏（Teams桌面客户端侧面和Teams移动客户端底部的栏），用户可在其中快速轻松地访问它们。
-
-若要了解详细信息，包括体验如何与你设置的应用策略配合使用，请参阅 [Tailor Teams一线员工的应用](pin-teams-apps-based-on-license.md)。
-
-### <a name="use-an-app-setup-policy-to-pin-updates-to-teams"></a>使用应用设置策略将更新固定到Teams
-
-通过应用设置策略，可以自定义Teams以固定用户中对用户最重要的应用。
+通过应用设置策略，可以自定义 Teams 以固定用户中对用户最重要的应用。 应用固定到应用栏（Teams 桌面客户端侧面和 Teams 移动客户端底部的栏），用户可在其中快速轻松地访问应用栏。
 
 若要为用户固定更新应用，可以编辑全局 (组织范围的默认) 策略或创建和分配自定义应用设置策略。 要了解详细信息，请参阅[在 Teams 中管理应用设置策略](teams-app-setup-policies.md)。
 
@@ -139,19 +129,19 @@ Teams中定制的一线应用体验为拥有 [F 许可证](https://www.microsoft
 
 从更新应用创建的更新存储在默认的 Microsoft Dataverse 环境中，该环境目前不支持备份。 详细了解如何[备份和还原环境 - Power Platform\| Microsoft Docs](/power-platform/admin/backup-restore-environments)。
 
-在模板创建者从Microsoft Forms Web 应用中 **已删除的窗体** 选项卡中清理数据之前，不会删除窗体中存储的数据。
+在模板创建者从 Microsoft Forms Web 应用中 **已删除的窗体** 选项卡中清理数据之前，不会删除窗体中存储的数据。
 
 ## <a name="conditional-access-policies"></a>条件访问策略
 
-目前，Teams中的更新应用不支持为Microsoft Teams设置的条件访问策略。
+目前，Teams 中的更新应用不支持为 Microsoft Teams 设置的条件访问策略。
 
 ## <a name="data-limitations"></a>数据限制
 
-每个用户最多可以创建 400 个更新模板，每个模板最多可以根据Microsoft Forms中的当前功能收集 50，000 个请求。
+每个用户最多可以创建 400 个更新模板，每个模板最多可以根据 Microsoft Forms 中的当前功能收集 50，000 个请求。
 
 ## <a name="security"></a>安全性
 
-从Teams更新应用中，用户有权创建新更新并查看已发送和接收的更新。 除非用户是请求的查看者，否则用户将无法访问其他人创建的更新。
+在 Teams 更新应用中，用户有权创建新更新并查看已发送和接收的更新。 除非用户是请求的查看者，否则用户将无法访问其他人创建的更新。
 
 > [!Note]
 > 如果用户是创建更新报表的聊天或频道的一部分，或者模板创建者手动将其添加为查看者，则为用户提供请求的查看者角色。 如果在创建报表时未赋予该角色，他们将无法对请求采取行动。
