@@ -18,20 +18,20 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bb3d38060a9538196795e3da7b325840321814d8
-ms.sourcegitcommit: 4847f24e8c644336d2b2f48aa09e2cf91360e4dd
-ms.translationtype: MT
+ms.openlocfilehash: 1392678e77d96eb34445be1848a6cbfbb559bc5c
+ms.sourcegitcommit: 1ac37cc27d4ccb3e1dae20ca1929214e17be2075
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "64686389"
+ms.lasthandoff: 06/07/2022
+ms.locfileid: "65913410"
 ---
 # <a name="about-apps-in-microsoft-teams"></a>关于 Microsoft Teams 的应用
 
-应用是将工作区工具和服务汇集在一起并与他人协作的好方法。 应用可帮助最终用户在日常任务中提高工作效率、协作性和效率。 组织使用应用与其客户进行连接、提供服务和共享信息。 通过应用，用户可以更有效地Teams聊天、会议和频道。 例如，最终用户在Teams中使用固定日历快速与他人协作，使用机器人功能通知用户在Teams通道中使用 Web 服务的 QoS 的应用，以及用于在频道中共享任务并向各种最终用户分配任务的应用。
+应用是将工作区工具和服务汇集在一起并与他人协作的好方法。 应用可帮助最终用户在日常任务中提高工作效率、协作性和效率。 组织使用应用与其客户进行连接、提供服务和共享信息。 应用可让用户的 Teams 聊天、会议和频道中更加高效。 例如，最终用户在 Teams 中使用固定日历快速与他人协作，使用带有机器人功能的应用可以通知用户在 Teams 频道中使用 Web 服务 QoS，以及用于在频道中共享任务，并向各种最终用户分配任务的应用。
 
-我们在应用商店中广泛选择经过验证和安全的应用，使最终用户能够访问组织每天需要的工具和服务。 Microsoft Teams应用是基于 Web 的 SaaS 应用，不需要部署。 最终用户只能根据你提供的权限在Teams中使用应用。 作为管理员，只需批准或阻止对组织用户使用任何应用。 可跨会议、聊天和频道控制所有用户的应用可用性。
+我们在应用商店提供各种经过验证、具有安全性的应用，让最终用户能够使用组织每天所需的工具和服务。 Microsoft Teams 应用是基于 Web 的 SaaS 应用，无需部署。 最终用户只能根据你提供的 [权限](https://admin.teams.microsoft.com/policies/app-permission) 在 Teams 中使用应用。 管理员只需负责对组织用户使用应用进行批准或阻止即可。 可在各个会议、聊天和频道中控制所有用户的应用访问权。
 
-若要为最终用户提供所需的应用，请继续阅读以了解应用类型以及用户访问这些应用的位置。 若要详细了解应用的使用情况，请阅读 [最终用户的应用概述](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0)
+若要为最终用户提供所需的应用，请继续阅读以了解应用类型，以及用户访问这些应用的位置。 若要详细了解应用的用途，请阅读 [针对最终用户的应用概述](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0)。
 
 <!--- Commenting the previous content as part of this article revamp.
 
@@ -39,44 +39,44 @@ Apps let users find content from their favorite services and share it in Teams. 
 
 --->
 
-最终用户可在Teams中使用的不同类型的应用包括：
+最终用户可在 Teams 中使用不同类型的应用包括：
 
-* [属于Teams的核心应用](#core-apps)。
+* [属于 Teams 的核心应用](#core-apps)。
 * [Microsoft 创建的其他应用](#microsoft-provided-apps)。
-* 由合作伙伴 (Microsoft) 验证的第[三方应用](#third-party-apps-validated-by-microsoft)。
-* 由自己的组织创建的[自定义应用](#custom-apps)。
+* 合作伙伴[提供的第三方应用](#third-party-apps-validated-by-microsoft) （由 Microsoft 验证）。
+* 由自己组织创建的[自定义应用](#custom-apps)。
 
 ## <a name="core-apps"></a>核心应用
 
-默认情况下，某些默认功能（例如活动源、Teams频道、聊天、日历和呼叫）可用并固定，以方便最终用户访问。 作为管理员，可以使用 [安装策略](/microsoftteams/teams-app-setup-policies)修改默认行为。
+默认情况下，某些功能（如活动源、Teams 频道、聊天、日历和通话）是启用状态并已固定，以便最终用户能够轻松访问。 作为管理员，可以使用 [安装策略](/microsoftteams/teams-app-setup-policies)修改默认行为。
 
-:::image type="content" source="media/core-apps-pinned1.png" alt-text="核心应用是默认情况下固定在Teams中的应用。" lightbox="media/core-apps-pinned2.png":::
+:::image type="content" source="media/core-apps-pinned1.png" alt-text="核心应用是默认情况下固定在 Teams 中的应用。" lightbox="media/core-apps-pinned2.png":::
 
 ## <a name="microsoft-provided-apps"></a>Microsoft 提供的应用
 
-Microsoft 提供了许多应用来提高工作效率和协作。 你和最终用户可以通过查找 Microsoft 作为管理中心中的Publisher或在 Team 应用商店中列为提供程序来查找这些应用。
+Microsoft 提供了许多应用来提高工作效率和协作。 你和最终用户可以通过在管理中心中查找列为发布服务器或在 Team 应用商店中列为提供程序的 Microsoft 来查找这些应用。
 
 Teams自带一组内置应用，包括列表、任务、表扬、审批等。 我们建议在最初的 Teams 推出中加入 Teams 特色应用 - 例如 Planner。
 
-:::image type="content" source="media/microsoft-apps-in-tac1.png" alt-text="Teams管理中心的 Microsoft 应用" lightbox="media/microsoft-apps-in-tac2.png":::
+:::image type="content" source="media/microsoft-apps-in-tac1.png" alt-text="Teams 管理中心中的 Microsoft 应用" lightbox="media/microsoft-apps-in-tac2.png":::
 
 ## <a name="third-party-apps-validated-by-microsoft"></a>由 Microsoft 验证的第三方应用
 
-除了 Microsoft 提供的应用，还可以使用 Microsoft 验证的第三方应用。 Microsoft 先验证这些应用的功能和安全性，然后再在 Teams 存储中提供这些应用。 若要了解应用验证的好处，请参阅 [第三方应用的验证](overview-of-app-validation.md)。
+除了 Microsoft 提供的应用，可使用 Microsoft 认证第三方应用。 Microsoft 在 Teams 应用商店中提供这些应用之前，先验证这些应用的功能和安全性。 若要了解应用验证的优势，请参阅 [第三方应用的验证](overview-of-app-validation.md)。
 
-:::image type="content" source="media/3p-apps-in-teams.png" alt-text="Teams存储中第三方应用的示例":::
+:::image type="content" source="media/3p-apps-in-teams.png" alt-text="Teams 应用商店中第三方应用的示例":::
 
 ## <a name="custom-apps"></a>自定义应用
 
-组织中开发人员创建的应用称为自定义应用。 根据组织的具体要求委托开发此类应用，并且你拥有允许或禁止此类应用的控件。 组织中的开发人员可以使用与 [Microsoft Power Platform](/microsoftteams/platform/samples/teams-low-code-solutions) 的Teams集成快速生成自定义低代码解决方案。
+组织中开发人员创建的应用称为自定义应用。 根据组织的具体要求委托开发此类应用，并且你拥有允许或禁止此类应用的控件。 组织中的开发人员可以通过使用 Teams 与 [Microsoft Power Platform](/microsoftteams/platform/samples/teams-low-code-solutions) 的集成，快速构建自定义的低代码解决方案。
 
-管理员允许使用自定义应用后，最终用户通过单击Teams存储的左侧导航中 **为组织生成** 的应用来查找此类应用。
+管理员允许使用自定义应用后，最终用户在 Teams 应用商店的左侧导航栏中单击 “**为组织生成** ”即可找到此类应用。
 
-:::image type="content" source="media/built-for-your-org1.png" alt-text="Teams桌面应用中Teams存储中的自定义应用" lightbox="media/built-for-your-org2.png":::
+:::image type="content" source="media/built-for-your-org1.png" alt-text="Teams 桌面应用中的 Teams 应用商店中的自定义应用" lightbox="media/built-for-your-org2.png":::
 
 ### <a name="understand-sideloading-of-custom-apps"></a>了解自定义应用的旁加载
 
-开发自定义应用时，在将自定义应用分发到最终用户之前，开发人员会通过将应用添加到应用商店进行测试来自行测试，或与旁加载该应用的团队一起测试。 此方法称为应用旁加载，仅适用于自定义应用。
+开发自定义应用时，在将自定义应用分发到最终用户之前，开发人员会通过将应用添加到应用商店进行测试，或与旁加载该应用的团队一起测试。 此方法称为应用旁加载，仅适用于自定义应用。
 
 开发人员可以旁加载应用，使其可供特定团队的成员使用，通常用于测试开发不足的应用。 如果允许旁加载，则不需要管理员批准。 作为管理员，可以禁止任何开发人员旁加载。
 
@@ -84,23 +84,23 @@ Teams自带一组内置应用，包括列表、任务、表扬、审批等。 �
 
 ### <a name="about-app-templates"></a>关于应用模板
 
-适用于Teams的应用模板是 Microsoft 创建的功能性、生产就绪的示例应用，用于说明常用用例、展示应用开发最佳做法，并提供开发人员可以扩展的开源应用来创建自定义应用。 组织开发人员通过对GitHub中提供的代码进行简单更改，自定义组织需要的应用模板。 作为管理员，可将这些应用作为最终用户的自定义应用提供。
+Teams 的应用模板是 Microsoft 创建的具有功能性、可以用于生产准备的示例应用，介绍了常见用例、展示应用开发最佳做法，并提供开源应用，开发者可以扩展创建自定义应用。 组织开发人员通过对 GitHub 中提供的代码进行简单更改，自定义组织需要的应用模板。 作为管理员，可将这些应用作为最终用户的自定义应用提供。
 
-若要了解详细信息，请参阅[Microsoft Teams应用模板](https://adoption.microsoft.com/microsoft-teams/app-templates/)。
+若要了解详细信息，请参阅 [Microsoft Teams 应用模板](https://adoption.microsoft.com/microsoft-teams/app-templates/)。
 
 ## <a name="understand-app-capabilities"></a>了解应用功能
 
-为了提供丰富的体验，使最终用户能够在Teams中工作，应用开发人员可以利用以下应用功能。 消息传递扩展允许用户与 Web 服务Teams客户端交互。 它们在外部系统中搜索或启动操作。 可以将交互结果作为格式丰富的卡片发送到Teams客户端。 会议扩展性应用将开发人员的应用集成到会议中，并提供响应式会议内体验。
+为了提供丰富的体验，让最终用户能够在 Teams 内部工作，应用开发人员可以利用以下应用功能。 消息传递扩展允许用户与 Web 服务 Teams 客户端进行交互。 在外部系统中搜索或启动操作。 可以将交互结果作为丰富地格式化卡片发送到 Teams 客户端。 会议扩展性应用将开发人员的应用集成到会议中，并提供响应式的会议体验。
 
-机器人也称为聊天机器人或聊天机器人。 它是执行简单重复任务的应用。 机器人交互可以是快速问答，也可以是提供服务访问或帮助的复杂对话。 用户可以与一对一或频道进行一对一聊天。 例如，可以使用 Polly 应用创建快速调查、获取反馈和进行脉冲检查。
+机器人也称为聊天机器人或对话机器人。 它是执行简单重复任务的应用。 机器人交互可以是快速问答，也可以是提供服务或协助访问的复杂对话。 用户可以一对一或在频道里进行聊天。 例如，可以使用 Polly 应用创建快速调查、获取反馈和进行脉冲检查。
 
-选项卡Teams感知网页固定在频道或聊天的顶部。 选项卡允许你使用类似 Web 的体验与内容和服务交互。 可以将选项卡作为频道的一部分添加到团队内部，为单个用户添加群组聊天或个人应用。
+选项卡是固定在频道顶部或聊天的 Teams 感知网页。 选项卡允许你使用类似 Web 的体验与内容和服务交互。 可以将选项卡作为频道的一部分添加到团队内部，为单个用户添加群组聊天或个人应用。
 
-Webhook 和连接器从最终用户经常使用 (（如 Jira Cloud 和 Bitbucket）的服务提供内容和更新，) 直接进入频道对话。 使用此功能的应用可以与外部应用通信，并且可以从外部服务发送或接收通知和消息。
+Webhook 和连接器将最终用户经常使用的服务（如 Jira Cloud 和 Bitbucket）内容和更新直接传送到频道对话中。 使用此功能应用可以与外部应用通信，并且可以从外部服务发送或接收通知和消息。
 
-消息传递扩展是插入应用内容或对消息执行操作的快捷方式，最终用户无需从对话中导航即可。 消息传递扩展插件可以具有搜索命令，供最终用户快速查找外部内容并将其插入消息或操作命令中。
+消息传递扩展是插入应用内容或对消息执行操作的快捷方式，最终用户无需从对话中导航即可。 消息传递扩展插件可以具有搜索命令，供最终用户快速查找外部内容，并将其插入消息或操作命令中。
 
-若要查看映射到Teams功能的常见用例，请参阅[将用例映射到Teams应用功能](/microsoftteams/platform/concepts/design/map-use-cases)。
+若要查看映射到 Teams 功能的常见用例，请参阅 [将用例映射到 Teams 应用功能](/microsoftteams/platform/concepts/design/map-use-cases)。
 
 <!--- TBD: Admins do many considerations and decisions around app adoption and app governance. These are to be covered in a separate article. Commenting the below content for now as part of this article revamp.
 

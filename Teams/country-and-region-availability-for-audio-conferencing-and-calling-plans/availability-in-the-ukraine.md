@@ -1,5 +1,5 @@
 ---
-title: 在乌克兰的可用性
+title: 乌克兰的可用性
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是适用于乌克兰Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: 90009ddb0d35e920c13389caa5acfb838204adbb
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+description: 以下是适用于 Skype for Business 和 Microsoft Teams 的 Microsoft 365 和 Office 365 服务，适用于乌克兰。
+ms.openlocfilehash: 27fa2f6985eaadc345cc8b8e52148603feb9da7c
+ms.sourcegitcommit: 1ac37cc27d4ccb3e1dae20ca1929214e17be2075
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62191443"
+ms.lasthandoff: 06/07/2022
+ms.locfileid: "65913400"
 ---
-# <a name="availability-in-the-ukraine"></a>在乌克兰的可用性
+# <a name="availability-in-ukraine"></a>乌克兰的可用性
 
 [查找其他国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或详细了解可以在哪些国家/地区使用音频会议和通话套餐。
 
-以下是适用于乌克兰Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
+以下是适用于 Skype for Business 和 Microsoft Teams 的 Microsoft 365 和 Office 365 服务，适用于乌克兰。
   
 ## <a name="audio-conferencing"></a>音频会议
 
@@ -44,7 +44,7 @@ ms.locfileid: "62191443"
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
 |是否会为音频会议自动分配电话号码？  <br/> |电话号码没有关联到特定城市或位置。 如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../getting-service-phone-numbers.md)。  <br/> |
-|使用“呼叫我”功能的拨出功能  <br/> |需要通信信用额度  <br/> |
+|使用“呼叫我”功能的拨出功能  <br/> |需要通信额度  <br/> |
    
 ## <a name="phone-system"></a>电话系统
 
@@ -63,7 +63,7 @@ ms.locfileid: "62191443"
 |通话套餐的可用分钟数  <br/> |不适用  <br/> |
 |是否可以拨打呼出电话？  <br/> |不适用  <br/> |
 
-如果呼叫计划不可购买，请参阅 [PSTN 连接选项](../pstn-connectivity.md) 了解所有可用选项。
+如果通话套餐不可购买，请参阅所有可用 [选项的 PSTN 连接选项](../pstn-connectivity.md) 。
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服务的收费和免费电话号码
 
@@ -71,7 +71,7 @@ ms.locfileid: "62191443"
 |:-----|:-----|
 |你可以获取哪些首都或大城市的收费电话号码？  <br/> |电话号码没有关联到特定城市或位置。  <br/> |
 |是否提供收费电话号码？  <br/> |是  <br/> |
-|是否提供免费电话号码？  <br/> |否  <br/> |
+|是否提供免费电话号码？  <br/> |不支持  <br/> |
    
  如果你想要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../getting-service-phone-numbers.md)。
   

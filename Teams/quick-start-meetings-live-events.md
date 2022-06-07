@@ -20,12 +20,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ffd0ad9f9b765839a4543dd8600b558000fa164f
-ms.sourcegitcommit: abe942c294ed5fca70efdf039d38d611b9c21fe9
+ms.openlocfilehash: 330faa00c2ba14f03e5219642fa274fc24eb8765
+ms.sourcegitcommit: 1ac37cc27d4ccb3e1dae20ca1929214e17be2075
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63564734"
+ms.lasthandoff: 06/07/2022
+ms.locfileid: "65913420"
 ---
 # <a name="meetings-webinars-and-live-events"></a>会议、网络研讨会和直播活动 
 
@@ -51,9 +51,9 @@ ms.locfileid: "63564734"
 | 直播活动 | 最多 20，000 人** |- 向大量受众广播。 <br>- 针对受众交互的审核问答。 <br> - 可以指定制作者和演示者，包括外部演示者。<br>- 支持更高级的生产功能。 | 弱 |
 ||||
 
-*由通常的 10,000 人增加到 2022 年 6 月 30 日的 20,000 人。<br>
+*由通常的 10,000 人增加到 2022 年 12 月 31 日的 20,000 人。<br>
 
-**由通常的 10,000 人增加到 2022 年 6 月 30 日的 20,000 人。 在 Yammer 和/或 Microsoft Stream 中，可以安排人数更为庞大的直播活动。 有关详细信息，请参阅 [跨 Microsoft 365 的直播活动](/stream/live-event-m365)。 请注意，如果与会者人数超过 20,000 人，则活动需要 [直播活动协助计划](/stream/live-events-assistance)。 
+**由通常的 10,000 人增加到 2022 年 12 月 31 日的 20,000 人。 在 Yammer 和/或 Microsoft Stream 中，可以安排人数更为庞大的直播活动。 有关详细信息，请参阅 [跨 Microsoft 365 的直播活动](/stream/live-event-m365)。 请注意，如果与会者人数超过 20,000 人，则活动需要 [直播活动协助计划](/stream/live-events-assistance)。 
 
 请注意，NDI 在会议、网络研讨会和直播活动中完全受支持，从而允许使用 OBS 和 Wirecast 等工具生成广播。有关详细信息，请参阅 [在 Microsoft Teams 中使用 NDI® 技术](use-ndi-in-meetings.md)。
 
