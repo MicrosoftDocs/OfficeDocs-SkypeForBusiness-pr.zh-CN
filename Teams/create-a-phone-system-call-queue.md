@@ -22,13 +22,13 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
-description: 了解如何在Microsoft Teams中为大型组织设置呼叫队列，这些组织提供问候消息、保持音乐、呼叫重定向和其他功能。
-ms.openlocfilehash: 7678d132b8711ea828bf643201df5501323ab77e
-ms.sourcegitcommit: 18a26d07a335184dbcda71908452e82a6ddc3158
+description: 了解如何在Microsoft Teams中为大型组织设置呼叫队列。 呼叫队列提供问候消息、保持音乐、呼叫重定向和其他功能。
+ms.openlocfilehash: d6dd0d7211f9e430dbb716ff905c82443d5f4830
+ms.sourcegitcommit: 193aec6f3f6b6ac14b07e778b3485eed813f5e99
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/02/2022
-ms.locfileid: "65840984"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046434"
 ---
 # <a name="create-a-call-queue"></a>创建呼叫队列
 
@@ -39,23 +39,17 @@ ms.locfileid: "65840984"
 
 呼叫队列提供：
 
-- 问候语。
+- 问候语
 
-- 当人们在队列中等待等待时音乐。
+- 当人们在队列中等待等待时音乐
 
-- 调用路由 - *在第一个 In，First Out* (FIFO) 顺序 - 代理。
+- 调用路由 - *在第一个，第一个出* (FIFO) 顺序 - 代理
 
-- 处理队列溢出和超时的选项。
+- 队列溢出和超时处理选项
 
-请务必阅读[Teams自动助理和呼叫队列的计划](plan-auto-attendant-call-queue.md)，并遵循[入门步骤](plan-auto-attendant-call-queue.md#getting-started)，然后再按照本文中的过程操作。
+按照本文中的过程操作之前，请确保已阅读[了Teams自动助理和呼叫队列的计划](plan-auto-attendant-call-queue.md)，并遵循[了入门步骤](plan-auto-attendant-call-queue.md#getting-started)。
 
 **有关详细信息，请参阅下面的 [呼叫队列功能兼容性](#call-queue-feature-compatibility) 矩阵。**
-
-## <a name="video-demonstration"></a>视频演示
-
-此视频演示如何在Teams中创建呼叫队列的基本示例。
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWCF23?autoplay=false]
 
 ## <a name="create-the-call-queue"></a>创建呼叫队列
 
@@ -77,13 +71,13 @@ ms.locfileid: "65840984"
 
 **适用于Teams频道/协作呼叫桌面用户和Teams具有标准呼叫队列的移动客户端用户**
 
-可以通过指定一个或多个具有电话号码的资源帐户为代理分配出站呼叫者 ID 号码。 代理可以选择要用于每个出站呼叫的出站调用者 ID 号。
+可以通过指定一个或多个具有电话号码的资源帐户为代理分配出站呼叫者 ID 号码。 代理可以选择要用于每个出站呼叫的出站调用者 ID 号。 在呼叫应用中，代理可以使用其呼叫队列 (CQ) /自动助理 (AA) 号码或其自己的个人直接向内拨号 (DID) 。
 
 单击 **“添加**”，搜索要允许代理在进行出站呼叫时用于调用方 ID 的资源帐户，单击 **“添加**”，然后单击 **“添加**”。
 
 **标准呼叫队列**
 
-对于Teams桌面用户和标准呼叫队列，请考虑将呼叫队列成员的呼叫者 ID 直接设置为呼叫队列的服务号或适当的自动助理。 有关详细信息，请参阅[Microsoft Teams中的“管理调用方 ID”策略](caller-id-policies.md)。
+对于Teams桌面用户和标准呼叫队列，请考虑将呼叫队列成员的呼叫者 ID 设置为呼叫队列的服务号或适当的自动助理。 有关详细信息，请参阅[Microsoft Teams中的“管理调用方 ID”策略](caller-id-policies.md)。
 
 > [!NOTE]
 > 用于调用 ID 目的的资源帐户必须具有Microsoft Teams 电话系统虚拟用户许可证，并分配了下列选项之一：
@@ -118,7 +112,7 @@ Teams在呼叫者在队列中处于保留状态时为其提供默认音乐。 Te
 
 ##### <a name="teams-channel"></a>Teams通道
 
-可以通过Teams通道添加多达 200 个代理。 必须是团队成员、创建者或频道所有者才能向队列添加通道。
+可以通过Teams通道添加多达 200 个代理。 必须是团队成员或频道的创建者或所有者才能向队列添加通道。
 
 如果要 [使用Teams通道管理队列](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)，请选择 **“选择团队**”选项，然后单击 **“添加频道**”。 搜索要使用的团队，选择该团队，然后单击 **“添加**”。 选择要使用的通道 (仅支持标准通道) 并单击“ **应用**”。 
 
@@ -129,12 +123,14 @@ Teams在呼叫者在队列中处于保留状态时为其提供默认音乐。 Te
 
 > [!NOTE]
 > 如果使用此选项，调用队列可能需要长达 24 小时才能完全正常运行。
+>
+> 如果团队中有 200 多个成员，则只有前 200 个成员将按字母顺序添加为呼叫队列中的代理。
 
 ##### <a name="users-and-groups"></a>用户和组
 
 可以通过组单独添加最多 20 个代理，最多可添加 200 个代理。
 
-如果要将单个用户或组添加到队列，请选择 **“选择用户和组** ”选项。 
+如果要将单个用户或组添加到队列，请选择 **“选择用户和组**”。 
 
 若要将用户添加到队列，请单击 **“添加用户**”，搜索用户，单击 **“添加**”，然后单击 **“添加**”。
 
@@ -142,17 +138,19 @@ Teams在呼叫者在队列中处于保留状态时为其提供默认音乐。 Te
 
 > [!NOTE]
 > 添加到组的新用户可能需要长达 8 小时才能到达其第一个呼叫。
+>
+> 如果组中有 200 多个成员，则只有前 200 个成员将按字母顺序添加为调用队列中的代理。
 
 ## <a name="call-routing"></a>呼叫路由
 
 ![会议模式和路由方法设置的屏幕截图。](media/call-queue-conference-mode-routing-method.png)
 
-在代理接受呼叫后，**会议模式** 可显著减少调用方连接到代理所需的时间。 若要使会议模式正常工作，呼叫队列中的代理必须使用以下客户端之一：
+**会议模式** 减少了调用方在代理接受呼叫后连接到代理所需的时间。 若要使会议模式正常工作，呼叫队列中的代理必须使用以下客户端之一：
 
   - Microsoft Teams桌面客户端、Android应用或iOS应用的最新版本
   - Microsoft Teams 电话版本 1449/1.0.94.2020051601 或更高版本
   
-代理的Teams帐户必须设置为仅限Teams模式。 不符合要求的代理不包括在呼叫路由列表中。 如果代理都使用兼容的客户端，建议为呼叫队列启用会议模式。
+代理Teams帐户必须设置为 TeamsOnly 模式。 不符合要求的代理不包括在呼叫路由列表中。 如果代理使用兼容的客户端，建议为呼叫队列启用会议模式。
 
 > [!NOTE]
 > 如果电话呼叫从启用了基于位置的路由的直接路由网关路由到队列，则不支持会议模式。
@@ -180,7 +178,7 @@ Teams在呼叫者在队列中处于保留状态时为其提供默认音乐。 Te
 > 
 > 使用 **最长空闲** 状态时，当队列中的呼叫少于可用代理时，只有前两个最长的空闲代理会显示来自队列的调用。
 > 
-> 使用 **“最长空闲** 时间”时，有时代理在不可用后不久收到来自队列的呼叫，或者在出现可用后从队列接收呼叫的短暂延迟。
+> 使用 **最长空闲** 时，有时代理在不可用后不久收到队列的呼叫，或在可用后从队列接收呼叫时出现短暂延迟。
 > 
 > 对代理的呼叫队列调用演示可能与基于位置的路由限制冲突。 在这种情况下，代理将收到调用 toast，但无法接听呼叫。 此条件将继续，直到另一个代理可用于接听呼叫、调用方挂起或呼叫队列超时条件发生。  
 
@@ -196,7 +194,7 @@ Teams在呼叫者在队列中处于保留状态时为其提供默认音乐。 Te
 > [!NOTE]
 > 选择 **“最长空闲时间** ”作为路由方法时，需要并自动启用基于状态的路由，即使基于状态的路由切换将 **关闭** 并灰显。
 >
-> 如果未启用基于状态的路由，并且队列中有多个调用，系统会同时向代理显示这些调用，而不考虑代理的状态。 这将导致多个给代理的呼叫通知，特别是当某些代理未响应向其发出的初始调用时。
+> 如果未启用基于状态的路由，并且队列中有多个调用，系统会同时向代理提供这些调用，而不管代理的状态如何。 此操作将导致向代理发出多个呼叫通知，特别是当某些代理未响应向其发出的初始调用时。
 >
 > 使用 **基于状态的路由** 时，有时代理在不可用后不久收到来自队列的呼叫，或在可用后接收来自队列的呼叫的短暂延迟。
 > 
@@ -222,7 +220,7 @@ Teams在呼叫者在队列中处于保留状态时为其提供默认音乐。 Te
 可以选择断开呼叫连接或将其重定向到任何呼叫路由目标。 例如，你可能让调用方为队列中的代理保留语音邮件。 有关外部传输，请参阅 [先决条件](plan-auto-attendant-call-queue.md#prerequisites) 和 [外部电话号码传输 - 数字格式的技术详细信息](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) 。
 
 > [!NOTE]
-> 如果最大呼叫数设置为 0，则问候消息将不会播放。
+> 如果最大呼叫数设置为 0，则问候消息将不播放。
 >
 > 重定向到共享语音邮件时，请确保为Microsoft 365 管理中心中的团队/组启用 **此组织外部的人员电子邮件**。
 
@@ -252,42 +250,41 @@ Teams在呼叫者在队列中处于保留状态时为其提供默认音乐。 Te
 
 ## <a name="call-queue-feature-compatibility"></a>呼叫队列功能兼容性
 
-|功能                          |Teams桌面<sup>1</sup> |Teams移动<sup>2</sup> |Lync |IP 电话 | 标准呼叫队列 |基于通道的呼叫队列 | 注释 |
-|:--------------------------------|:------------------------:|:-----------------------:|:---:|:--------:|:--------------------:|:------------------------:|:-------------|
-|**代理路由方法**        |                          |                         |     |          |                      |                          |              |
-|`Attendant Routing`              |Y                         |Y                        |Y    |Y         |Y                     |Y                         |*Default*     |
-|`Longest Idle`<sup>3</sup>       |Y                         |Y                        |N    |Y         |Y                     |Y                         |*建议* |
-|`Round Robin`                    |Y                         |Y                        |Y    |Y         |Y                     |Y                         |*建议* |
-|`Serial`                         |Y                         |Y                        |Y    |Y         |Y<sup>4</sup>         |Y<sup>4</sup>             |              |
-|**代理路由选项**        |                          |                         |     |          |                      |                          |              |
-|`Presence Based Routing`<sup>3</sup>|Y                        |Y                        |N    |Y         |Y                     |Y                         |*建议* |
-|`Agents can Opt-out`               |Y                         |Y                        |Y<sup>7</sup>|Y<sup>7</sup>|Y          |Y                         |*Default*     |
-|**传输模式**               |                          |                         |     |          |                      |                          |              |
-|`Conference Mode`<sup>5</sup>    |Y                         |Y                        |N    |Y<sup>6</sup>|Y                  |Y                         |*建议* |
-|`Transfer Mode`                  |Y                         |Y                        |Y    |Y         |Y                     |Y                         |*Default*              |
-|**协作呼叫**        |                          |                         |     |          |                      |                          |              |
-|`Channel Based Queues`             |Y                         |N                        |否    |否         |n/a                   |Y<sup>8</sup>             |              |
-|**动态调用方 ID**            |                          |                         |     |          |                      |                          |              |
-|`Standard call queue`            |N                         |Y                        |N    |否         |是                     |n/a                       |              |
-|`Channel based call queue`       |Y                         |n/a                      |n/a  |n/a       |n/a                   |Y                         |              |
-|**PSTN 连接方法**    |                          |                         |     |          |                      |                          |请参阅注释 10   |
-|`Calling Plans`                  |Y                         |Y                        |Y    |Y         |Y                     |Y                         |              |
-|`Direct Routing`                 |Y                         |Y                        |N    |否         |Y                     |Y                         |              |
-|`Operator Connect`               |Y                         |Y                        |     |          |Y                     |Y                         |              |
-|**杂项**    |                          |                         |     |          |                      |                          |请参阅注释 10   |
-|`Call toast shows Resource Account Name` |Y<sup>9</sup>       |Y                        |Y    |          |Y                     |Y                         |              |
+|功能                          |Teams桌面<sup>1</sup> |Teams Web | Teams移动<sup>2</sup> |Lync |IP 电话 | 标准呼叫队列 |基于通道的呼叫队列 | 注释 |
+|:--------------------------------|:------------------------:|:--------:|:--------------:|:---:|:--------:|:--------------------:|:------------------------:|:--------|
+|**代理路由方法**        |                          |          |                |     |          |                      |                          |   |
+|`Attendant Routing`              |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |*Default*     |
+|`Longest Idle`<sup>3</sup>       |Y                         |Y         |Y               |N    |Y         |Y                     |Y                         |*建议* |
+|`Round Robin`                    |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |*建议* |
+|`Serial`                         |Y                         |Y         |Y               |Y    |Y         |Y<sup>4</sup>         |Y<sup>4</sup>             |   |
+|**代理路由选项**        |                          |          |                |     |          |                      |                          |   |
+|`Presence Based Routing`<sup>3</sup>|Y                      |Y         |Y               |N    |Y         |Y                     |Y                         |*建议* |
+|`Agents can Opt-out`               |Y                       |Y         |Y               |Y<sup>7</sup>|Y<sup>7</sup>|Y          |Y                         |*Default*     |
+|**传输模式**               |                          |          |                |     |          |                      |                          |   |
+|`Conference Mode`<sup>5</sup>    |Y                         |Y         |Y               |N    |Y<sup>6</sup>|Y                  |Y                         |*建议* |
+|`Transfer Mode`                  |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |*Default*              |
+|**协作呼叫**        |                          |          |                |     |          |                      |                          |   |
+|`Channel Based Queues`             |Y                       |N         |否               |否    |否         |n/a                   |Y<sup>8</sup>             |   |
+|**动态调用方 ID**            |                          |          |                |     |          |                      |                          |   |
+|`Standard call queue`            |N                         |否         |Y               |N    |否         |是                     |n/a                       |   |
+|`Channel based call queue`       |Y                         |n/a       |n/a             |n/a  |n/a       |n/a                   |Y                         |   |
+|**PSTN 连接方法**    |                          |          |                |     |          |                      |                          |请参阅注释 9   |
+|`Calling Plans`                  |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |   |
+|`Direct Routing`                 |Y                         |Y         |Y               |N    |否         |Y                     |Y                         |   |
+|`Operator Connect`               |Y                         |Y         |Y               |     |          |Y                     |Y                         |   |
+|**杂项**                |                          |          |                |     |          |                      |                          |   |
+|`Call toast shows Resource Account Name` |Y                 |N         |Y               |Y    |          |Y                     |Y                         |              |
 
 注意：
-1. Microsoft Teams Windows客户端，Microsoft Teams Mac 客户端，Microsoft Teams虚拟化桌面基础结构，Microsoft Teams Web 客户端。
+1. Microsoft Teams Windows客户端，Microsoft Teams Mac 客户端，Microsoft Teams虚拟化桌面基础结构。
 2. Microsoft Teams iPhone应用，Microsoft Teams Android应用。
 3. 为代理路由方法选择“最长空闲时间”将自动启用基于状态的路由。
 4. 只能在将单个用户添加为标准呼叫队列的一部分时设置顺序。 使用分发列表或Teams通道时，顺序将按字母顺序排列。
 5. 如果电话呼叫从启用了基于位置的路由的直接路由网关路由到队列，则不支持会议模式。
-6. 仅Microsoft Teams手机。
-7. 通过“用户设置门户”页面https://aka.ms/vmsettings
+6. 仅Microsoft Teams 电话。
+7. 通过“用户设置门户”页。https://aka.ms/vmsettings
 8. 仅支持公共频道。
-9. 排除Teams Web 客户端。
-10. 自动助理和呼叫队列无法在 PSTN 连接方法之间传输调用。
+9. 自动助理和呼叫队列无法在 PSTN 连接方法之间传输调用。
 
 
 ## <a name="supported-clients"></a>支持的客户端
@@ -308,7 +305,7 @@ Teams在呼叫者在队列中处于保留状态时为其提供默认音乐。 Te
   - Microsoft Teams Android 应用
 
     > [!NOTE]
-    > 分配有直接路由号码的呼叫队列不支持Skype for Business客户端、Lync 客户端或Skype for Business IP Phone 作为代理。 仅Teams共[存模式支持Teams](/microsoftteams/setting-your-coexistence-and-upgrade-settings)客户端。
+    > 分配有直接路由号码的呼叫队列不支持Skype for Business客户端、Lync 客户端或Skype for Business IP Phone 作为代理。 Teams客户端仅支持 [TeamsOnly 共存模式](/microsoftteams/setting-your-coexistence-and-upgrade-settings)。
 
 ## <a name="call-queue-cmdlets"></a>呼叫队列 cmdlet
 

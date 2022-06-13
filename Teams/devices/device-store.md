@@ -16,12 +16,12 @@ search.appverid: MET150
 f1.keywords:
 - CSH
 description: 了解如何在Teams管理中心设备存储中浏览和购买设备
-ms.openlocfilehash: da520b6396fa7e47288f4fdaa6b9f028ba16b3dd
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: e5cedb84d50111d90d90d47802f667fb6fdbc106
+ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65761444"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66045641"
 ---
 # <a name="purchase-devices-in-the-teams-device-store"></a>在Teams设备存储中购买设备
 
@@ -34,7 +34,7 @@ Teams管理中心的设备存储允许你浏览、购买和预配经认证的Mic
 
 ## <a name="requirements"></a>要求
 
-若要使用设备存储，必须是全局管理员、Teams管理员或Teams设备管理员。
+若要使用设备存储，必须是全局管理员或Teams管理员。
 
 ## <a name="browse-the-store"></a>浏览存储区
 

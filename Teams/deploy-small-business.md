@@ -1,7 +1,7 @@
 ---
 title: 小型企业设置 Microsoft Teams
-author: dstrome
-ms.author: dstrome
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 audience: admin
@@ -18,19 +18,19 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: bdf55403f807ddb8929da71d082adffcbcb7877d
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: c3afa62cfaca28c0c428c15b44868e7237973955
+ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767145"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66045441"
 ---
 # <a name="set-up-microsoft-teams-in-your-small-business"></a>小型企业设置 Microsoft Teams
 
 自定义 Teams 的方法很多。 以下几节将展示如何设置每个 Teams 工作负载: **聊天、团队和频道**; **会议和电话会议**; 以及 **语音解决方案**。 设置各工作负载的顺序可自行决定。 我们建议先设置聊天、团队和频道工作负载，但也可从会话和电话会议、甚至云语音开始设置。 选择权在你。
 
 > [!NOTE]
-> 若尚未进行部署，强烈建议通过试点开始 Teams 部署。 试点将允许你和一些早期采用者在规划和推出之前熟悉 Teams 及其功能。若要详细了解如何开始进行试点，请参阅 [Microsoft Teams](get-started-with-teams-quick-start.md)。
+> 如果尚未执行此操作，我们强烈建议你部署 Team 时先进行试点。试点使你和一些早期采用者能够在规划和最终推出之前熟悉 Teams 及其功能。有关如何启动试点的更多信息，请查看 [Microsoft Teams 入门](get-started-with-teams-quick-start.md)。
 
 在大范围推出 Teams 之前，请参阅[确保你已准备就绪](get-started-with-teams-quick-start.md#make-sure-youre-ready)中的项目确保组织已做好准备。
 
@@ -86,7 +86,7 @@ Teams 默认启用会议，不过你仍然可控制组织者和参与者的会�
 
 ## <a name="deploy-clients"></a>部署客户端
 
-在准备好允许用户开始使用 Teams 后，他们便可在 Windows、Mac、Linux PC 或 Android、iOS 设备上安装 Teams 客户端。 用户可直接从<https://teams.microsoft.com/downloads>下载 Teams 客户端。
+当你准备好让用户开始使用 Teams 时，他们可以在其 Windows、Mac、或 Linux 电脑上或者在其 Android 或 iOS 设备上安装 Teams 客户端。用户可以直接从 <https://teams.microsoft.com/downloads> 下载 Teams 客户端。
 
 请确保所有使用 Teams 的人员拥有 Teams 许可证。 有关分配 Teams 许可证的详细信息，请参阅[管理 Teams 用户访问权限](user-access.md#using-the-microsoft-365-admin-center)。
 

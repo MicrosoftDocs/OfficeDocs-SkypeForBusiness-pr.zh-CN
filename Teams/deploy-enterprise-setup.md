@@ -1,7 +1,7 @@
 ---
 title: 在你的 Office 365 组织中设置 Microsoft Teams
-author: dstrome
-ms.author: dstrome
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d5a9e3318ac0c72360487dbfc08b63bd39dc55e
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: f350e894148ef278a10e379d8a32b48202acd85d
+ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922423"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66045991"
 ---
 # <a name="set-up-microsoft-teams-in-your-enterprise"></a>在你的 Office 365 组织中设置 Microsoft Teams
 

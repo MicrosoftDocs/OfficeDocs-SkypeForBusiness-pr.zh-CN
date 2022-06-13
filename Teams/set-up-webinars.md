@@ -1,7 +1,7 @@
 ---
 title: 在 Microsoft Teams 中为网络研讨会进行设置
-author: mkbond007
-ms.author: mabond
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: sachung, emryan
 ms.topic: article
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 了解如何管理Teams会议的网络研讨会策略。
-ms.openlocfilehash: 2cf3af39b64506fc8802eafd1e2c45f35b7a4d00
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+ms.openlocfilehash: 247d5c560075dfd0498ea76b476d5515d0fc6f07
+ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646241"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66045701"
 ---
 # <a name="set-up-for-webinars-in-microsoft-teams"></a>在 Microsoft Teams 中为网络研讨会进行设置
 
@@ -41,7 +41,7 @@ ms.locfileid: "65646241"
 
 ## <a name="allow-users-to-schedule-webinars-in-the-teams-admin-center"></a>允许用户在Teams管理中心计划网络研讨会
 
-可以使用Teams管理中心为组织设置网络研讨会。 你会在 **MeetingsMeeting** **策略下** > 的Teams管理中心找到设置网络研讨会的策略。
+可以使用Teams管理中心为组织设置网络研讨会。 你将根据 **会议** > 会议策略在Teams管理中心找到设置网络研讨会 **的策略**。
 
 ### <a name="meeting-registration"></a>会议注册
 

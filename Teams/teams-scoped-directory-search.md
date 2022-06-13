@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8b073cdd67d89de7d934990abc33cb0586d0fc76
-ms.sourcegitcommit: 5fe5516f6118ce3fa0449ab194a6fe87bf48c664
+ms.openlocfilehash: c20c5acdafff69e5a43f02093b515b456daa8ff7
+ms.sourcegitcommit: 193aec6f3f6b6ac14b07e778b3485eed813f5e99
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "64732220"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046424"
 ---
 # <a name="limit-who-users-can-see-when-searching-the-directory-in-teams"></a>限制用户在Teams中搜索目录时可以看到的用户
 
@@ -46,7 +46,9 @@ Microsoft Teams允许组织向其用户提供目录的自定义视图。 如果�
 
 1. 在Microsoft Teams管理中心，选择 **Teams** >  **Teams设置**。
 
-1. 在 **"按名称搜索**"下，**使用Exchange通讯簿策略在 Scope 目录搜索** 旁边 **打开切换。**
+1. 在 **“按名称搜索**”下，**使用Exchange通讯簿策略在 Scope 目录搜索** 旁边 **打开切换。**
 
 > [!Note]
 > 此更改可能需要几个小时才能生效。
+> 
+> 按名称启用搜索会隐藏“加入”中的 **搜索团队** 框和公共团队列表，或在Teams中 **创建团队**。 它还将通过在Teams顶部的命令框中键`/join`入来禁用加入团队。

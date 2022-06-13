@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: 了解如何使用呼叫质量仪表板Power BI报表查看自动助理和呼叫队列历史数据。
-ms.openlocfilehash: 66394094f51d58344f151b8ebb7059c2e390c089
-ms.sourcegitcommit: 56d529cdbd8d8733350625316082f339ae8d66c9
+ms.openlocfilehash: e2d71410d10fb809debd1699afcf452c71a6e088
+ms.sourcegitcommit: 193aec6f3f6b6ac14b07e778b3485eed813f5e99
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "65294093"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046444"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>自动助理&调用队列历史报告
 
@@ -42,7 +42,7 @@ Teams自动助理&呼叫队列历史报告Power BI模板提供以下三个报告
 ## <a name="prerequisites"></a>先决条件
 
 ### <a name="power-bi-desktop"></a>Power BI Desktop
-需要安装Power BI Desktop。 可以从 [Microsoft Windows Store](https://aka.ms/pbidesktopstore) 安装它。
+需要安装Power BI Desktop。 可以从 [Microsoft Windows Microsoft Store](https://aka.ms/pbidesktopstore)安装它。
 
 可以使用免费版本的Power BI Desktop。 最低兼容版本为 2020 年 9 月)  (2.85.681.0。
 
@@ -122,7 +122,7 @@ Teams自动助理&呼叫队列历史报告Power BI模板提供以下三个报告
 
 |报表部分                          |说明                                                       |
 |:---------------------------------------|:-----------------------------------------------------------------|
-|传入呼叫源 <sup>1</sup>        |由内部/外部呼叫源分发调用             |
+|传入呼叫源<sup>1</sup>        |由内部/外部呼叫源分发调用             |
 |目录搜索方法总计          |按搜索类型分发调用                               |
 |调用方操作                           |通过呼叫接收器分发呼叫                             |
 |调用结果                             |按最终调用状态分配呼叫                          |
@@ -145,7 +145,7 @@ Teams自动助理&呼叫队列历史报告Power BI模板提供以下三个报告
 |:-----------------------------------------------|:------------------------------------------|:-------------------|
 |日期选择器                                   |AAStartTime                                |无                |
 |自动助理                                  |AA 名称                                    |无                |
-|传入呼叫源 <sup>1</sup>                |呼叫类型<br>TotalCallCount                |外部调用：呼叫类型为外部<br>内部调用：呼叫类型为内部 |
+|传入呼叫源<sup>1</sup>                |呼叫类型<br>TotalCallCount                |外部调用：呼叫类型为外部<br>内部调用：呼叫类型为内部 |
 |目录搜索方法总计                  |AADirectorySearchMethod<br>TotalCallCount  |AADirectorySearchMethod 是abs_search_dtmf或abs_search_name    |
 |调用方操作                                  |AATransferAction<br>TotalCallCount         |无                                                             |
 |AA 中的平均秒数<br>平均调用方操作 |AAChainDuration<br>AACallerActionCount     |无                                                             |
@@ -160,7 +160,7 @@ Teams自动助理&呼叫队列历史报告Power BI模板提供以下三个报告
 |AA 名称                                 |文本                     |附加到自动助理的资源帐户的名称<br><br>如果 **aa_test@microsoft.com** 完整的资源帐户名称，则此值将为： **aa_test** |
 |AACallerActionCount                     |整数             |汇总：总和<br>呼叫期间由自动助理中的调用方选择的操作计数  |
 |AACallFlow                              |文本                     |封装自动助理呼叫的不同状态 -可能的值：<br><br>§ abs_search<br>§ 公告<br>§ automatic_menu<br>§ call_termination<br>§ call_transfer<br>§ first_level_menu<br>§ main_menu<br>§ speech_input_confirmation<br>§ user_selection |
-|AACallResult                            |文本                     |最终调用结果--可能的值：<br><br>§ failed_to_establish_media<br>§ failover_to_operator<br>§ oaa_chain_too_long<br>§ oaa_session_too_long<br>§ service_declined<br>§ service_terminated<br>§ terminated_automatic_selection<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>***§ transferred_to_operator***<br>§ transferred_to_receptionist<br>§ transferred_to_self<br>§ transferred_to_shared_voicemail<br>§ transferred_to_user<br>§ 未知<br>§ user_terminated |
+|AACallResult                            |文本                     |最终调用结果--可能的值：<br><br>§ failed_to_establish_media (无法建立呼叫的媒体部分) <br>§ failover_to_operator (调用通常由于系统错误) <br>§ oaa_chain_too_long (AA) 中腿部过多<br>§ oaa_session_too_long (AA 会话持续时间过长) <br>§ service_declined (AA 不接受呼叫) <br>§ service_terminated (AA 配置断开呼叫) <br>§ terminated_automatic_selection (AA 配置断开调用) <br>§ terminated_no_operator (调用因错误而终止，未定义运算符)  <br>§ terminated_transfer_failed (调用因传输失败而终止 - 通常为外接号码) <br>***§ transferred_to_operator*** (调用已转移到操作员 - 通常是由于用户输入错误) <br>§ transferred_to_receptionist (与transferred_to_operator) 相同<br>§ transferred_to_self (调用返回到 AA 的开头 - 通常从菜单公告选项) <br>§ transferred_to_shared_voicemail (呼叫已转移到共享语音邮件) <br>§ transferred_to_user (呼叫已传输给用户 - 包括呼叫队列) <br>§ 未知 (发生未知错误) <br>§ user_terminated (调用方挂起)  |
 |AAChainDuration                         |小数           |汇总：总和<br>自动助理呼叫的持续时间                     |
 |AAChainIndex                            |文本                     |                                                                         |
 |AAConnectivityType                      |文本                     |调用类型--可能的值：<br><br>§ ExternalCall<br>§ InternalCall |
@@ -168,7 +168,7 @@ Teams自动助理&呼叫队列历史报告Power BI模板提供以下三个报告
 |AADirectorySearchMethod                 |文本                     |上一个通讯簿搜索方法--可能的值：<br><br>§ abs_search_dtmf<br>§ abs_search_extension_x<br>§ abs_search_name |
 |AAStartTime                             |日期/时间                |自动助理呼叫开始时间                                           |
 |AATransferAction                        |文本                     |调用传输目标类型--可能的值：<br><br>***§ 应用程序 - 语音应用程序实体**_<br>§ external_pstn<br>_*_§ hunt_group - 呼叫队列实体_*_<br>_*_§ orgaa - 组织自动助理实体_**<br>§ shared_voicemail<br>§ 未知<br>§ 用户 |
-|呼叫类型 <sup>1</sup>                   |文本                     |调用类型--可能的值：<br><br>§ 外部<br>§ 内部         |
+|呼叫类型<sup>1</sup>                   |文本                     |调用类型--可能的值：<br><br>§ 外部<br>§ 内部         |
 |IsAAInvolved                            |文本                     |始终 1                                                                 |
 |PSTNMinutes                             |整数             |汇总：总和<br>总分钟使用量                                     |
 |TotalCallCount                          |整数             |汇总：总和<br>Always 1 - 用于提供所有调用的总和            |
@@ -180,7 +180,7 @@ Teams自动助理&呼叫队列历史报告Power BI模板提供以下三个报告
 
 |报表部分                          |说明                                                        |
 |:---------------------------------------|:------------------------------------------------------------------|
-|传入呼叫源 <sup>1</sup>        |按内部/外部调用源分配呼叫              |
+|传入呼叫源<sup>1</sup>        |按内部/外部调用源分配呼叫              |
 |呼叫量                             |按呼叫队列分配呼叫                                |
 |调用方结果                           |按调用结果分配呼叫                                |
 |超时/溢出调用总操作数      |未转发 (通过调用结果放弃) 调用的分布       |
@@ -205,7 +205,7 @@ Teams自动助理&呼叫队列历史报告Power BI模板提供以下三个报告
 |:-----------------------------------|:-------------------------------------|:---------------------|
 |日期选择器                       |Date -> DateTime                     |无                  |
 |呼叫队列标识                 |dCQ-CQIdentity ->调用队列标识 |无                  |
-|传入呼叫源 <sup>1</sup>    |fCallQueueAnalytics ->调用计数<br>fCallQueueAnalytics -> 调用类型    |外部调用：呼叫类型为外部<br>内部调用：呼叫类型为内部 |
+|传入呼叫源<sup>1</sup>    |fCallQueueAnalytics ->调用计数<br>fCallQueueAnalytics -> 调用类型    |外部调用：呼叫类型为外部<br>内部调用：呼叫类型为内部 |
 |Avg 等待时间                    |fCallQueueFinalStateAction ->平均通话持续时间 (秒)  |传输前：呼叫队列呼叫结果agent_joined_conference或transferred_to_agent<br>挂起前：呼叫队列呼叫结果未agent_joined_conference或transferred_to_agent |
 |调用结果                         |fCallQueueAnalytics ->调用计数<br>fCallQueueAnalytics ->呼叫队列调用结果 | 无 |
 |超时/溢出调用总操作数 |fCallQueueFinalStateAction ->调用计数<br>fCallQueueFinalStateAction ->调用队列最终状态操作 |呼叫队列最终状态操作未转发 |
@@ -225,10 +225,10 @@ Teams自动助理&呼叫队列历史报告Power BI模板提供以下三个报告
 |名称                                    |数据类型                |说明                                                                |
 |:---------------------------------------|:------------------------|:--------------------------------------------------------------------------|
 |呼叫计数                              |整数             |汇总：总和<br>通话的数量                                          |
-|呼叫队列调用结果                  |文本                     |呼叫队列调用最终状态 -- 可能的值：<br><br>§ agent_joined_conference<br>§ 已拒绝<br>§ 已断开连接<br>§ 错误<br>§ 失败<br>§ 无效<br>§ 溢出<br>§ timed_out<br>§ transferred_to_agent |
+|呼叫队列调用结果                  |文本                     |呼叫队列调用最终状态 -- 可能的值：<br><br>§ agent_joined_conference (接听会议模式呼叫) <br>§ 已拒绝<br>§ 已断开连接<br>§ 错误<br>§ 失败<br>§ 无效<br>§ 溢出 (溢出条件满足) <br>§ timed_out (超时条件满足) <br>§ transferred_to_agent (应答 tranfer 模式调用 {default})  |
 |呼叫队列标识                     |文本                     |附加到呼叫队列的资源帐户的名称<br><br>如果完整资源帐户名称 **cq_test@microsoft.com**，则此值将为： **cq_test** |
 |呼叫队列目标类型                  |文本                     |***调用重定向目标类型--可能的值：***<br><br>§ ApplicationEndpoint<br>§ 邮箱<br>§ 其他<br>§ 用户 |
-|呼叫类型 <sup>1</sup>                   |文本                     |调用类型--可能的值：<br><br>§ 外部<br>§ 内部           |
+|呼叫类型<sup>1</sup>                   |文本                     |调用类型--可能的值：<br><br>§ 外部<br>§ 内部           |
 |日期                                    |日期/时间                |呼叫队列呼叫开始日期和时间 (小时)  (UTC)                            | 
 |IsAbandoned                             |True/false               |如此 如果代理未接听呼叫                                   |
 |PSTN 连接类型                  |文本                     |调用类型--可能的值：<br><br>§ ExternalCall<br>§ InternalCall   |
@@ -248,7 +248,7 @@ Teams自动助理&呼叫队列历史报告Power BI模板提供以下三个报告
 |:---------------------------------------|:------------------------|:--------------------------------------------------|
 |平均通话持续时间 (秒)          |小数           |汇总：总和<br>平均通话持续时间（以秒为单位） |
 |呼叫计数                              |整数             |汇总：总和<br>通话的数量                  |
-|呼叫队列调用结果                  |文本                     |呼叫队列调用最终状态 - 可能的值：<br><br>§ agent_joined_conference<br>§ 已拒绝<br>§ 已断开连接<br>§ 错误<br>§ 失败<br>§ 无效<br>§ 溢出<br>§ timed_out<br>§ transferred_to_agent |
+|呼叫队列调用结果                  |文本                     |呼叫队列调用最终状态 - 可能的值：<br><br>§ agent_joined_conference (接听会议模式呼叫) <br>§ 已拒绝<br>§ 已断开连接<br>§ 错误<br>§ 失败<br>§ 无效<br>§ 溢出 (溢出条件满足) <br>§ timed_out (超时条件满足) <br>§ transferred_to_agent (应答传输模式调用 {default} |
 |调用队列最终状态操作           |文本                     |调用队列最终操作 -- 可能的值：<br><br>§ 断开 (timed_out调用) <br>§ disconnect_with_busy (溢出的呼叫) <br>§ failed_to_accept_call<br>§ forward<br>§ shared_voicemail<br>§ 其他<br>§ 语音邮件 |
 |呼叫队列标识                     |文本                     |附加到呼叫队列的资源帐户的名称<br><br>如果完整资源帐户名称 **cq_test@microsoft.com**，则此值将为： **cq_test** |
 |日期                                    |日期/时间                |呼叫队列呼叫开始日期和时间 (小时)  (UTC)    |
@@ -304,8 +304,8 @@ Teams自动助理&呼叫队列历史报告Power BI模板提供以下三个报告
 
 - 呼叫队列和自动助理由资源帐户的 ID 而不是呼叫队列/自动助理名称显示。  若要显示自动助理或呼叫队列的所有流量，必须选择分配给自动助理或呼叫队列的所有资源帐户。
 
-- 仪表板中只有 28 天的历史记录可用，因为呼叫队列/自动助理数据被视为个人数据，并且受数据隐私保留策略的约束。
+- 仪表板中只有 28 天的历史记录可用，因为呼叫队列/自动助理数据被视为个人数据，并且受数据隐私保留策略约束。
 
 - 在某些情况下，云呼叫队列代理时间线报表上的代理应答呼叫计数可能不同于Teams客户端呼叫历史记录中显示的呼叫数。 Teams客户端调用历史记录是正确的。 支持部门正在调查，但目前估计没有时间进行修复。
 
-- <sup>1</sup> 自动助理和呼叫队列图中的 **传入呼叫源** 显示最终呼叫腿源，而不是初始呼叫腿源。 例如，如果自动助理收到外部呼叫并将呼叫转移到另一个自动助理或呼叫队列，则 **传入呼叫源** 将报告为内部呼叫源。
+- <sup>1</sup> 自动助理和呼叫队列图中的 **传入呼叫源** 显示最终的呼叫腿源，而不是初始调用腿源。 例如，如果自动助理接收外部呼叫并将呼叫传输到另一自动助理或呼叫队列，则 **传入呼叫源** 将报告为“内部”。

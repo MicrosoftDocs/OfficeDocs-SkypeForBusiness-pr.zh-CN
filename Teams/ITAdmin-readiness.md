@@ -1,8 +1,8 @@
 ---
-title: 管理员定型资源 - Microsoft Teams
+title: 管理员培训资源 - Microsoft Teams
 ms.reviewer: jhwang
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -19,12 +19,12 @@ ms.custom:
 description: 为管理员提供有关如何规划、部署和运行Microsoft Teams的培训视频、PowerPoint平台、教程和其他资源。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0bc4841e67606f467bc13940755a7de77038d7b6
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 3cda81a54bce9310454cd6b0607e943eb7c2bb37
+ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675584"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66045851"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Microsoft Teams管理员培训入门
 
@@ -96,7 +96,7 @@ ms.locfileid: "65675584"
 | 标题                                                                       | 抽象                                                                                                                                                                                                               |  指向指南的链接                             |
 |-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
 | 标识、访问管理& Teams的威胁防护                   | 了解如何使用 Microsoft 管理中心和 PowerShell 配置访问和标识策略，并为Teams启用Office 365高级威胁防护                                                            | [Teams安全指南](https://aka.ms/teamsesecurityinteractiveguide)         |
-| Microsoft Purview数据丢失防护 (DLP) 策略Microsoft Teams                     | 了解如何将Microsoft Teams添加到现有 DLP 策略，以及如何创建新策略，无论是基于模板还是完全自定义到组织的数据保护需求。                        | [Teams DLP 指南](https://aka.ms/teamsdlpguide)         |
+| 用于Microsoft Teams的 DLP) 策略 (Microsoft Purview 数据丢失防护                     | 了解如何将Microsoft Teams添加到现有 DLP 策略，以及如何创建新策略，无论是基于模板还是完全自定义到组织的数据保护需求。                        | [Teams DLP 指南](https://aka.ms/teamsdlpguide)         |
 | 在Teams中管理合规性                                                | 使用Microsoft 365安全性、Microsoft 365合规性和Microsoft Teams管理中心以及Windows PowerShell来管理和配置Office 365组织的Microsoft Teams策略和设置。 | [管理Teams指南中的合规性](https://aka.ms/complianceinteamsinteractiveguide)      |
 | Teams 顾问：在Microsoft Teams中部署聊天、团队、频道和应用 | 了解如何使用Teams顾问来评估环境并制定部署聊天、团队、频道和应用的计划。                                                                                         |  [Teams 顾问指南](https://aka.ms/MicrosoftTeamsAdvisorInteractiveguide)  |
 | 使用 PowerShell 和动态组简化Teams管理        | 将Office 365组从静态成员身份转换为动态，并使用Windows PowerShell向所有成员分配新的应用权限策略。                                                                         |  [精简Teams管理指南](https://aka.ms/StreamliningTeamsadminInteractiveGuide) |
@@ -105,7 +105,7 @@ ms.locfileid: "65675584"
 | 配置直接路由：连接 SBC 和语音路由                 | 使用Microsoft Teams 电话系统直接路由与现有的电话基础结构集成。                                                                                                              | [配置直接路由指南](https://aka.ms/DirectRoutingInteractiveGuide)          |
 | 在Microsoft Teams中配置治理                                     | 了解如何为组织创建Teams消息传递保留策略，以及如何存档、删除和还原单个Teams                                                                                   |  [在Microsoft Teams指南中配置治理](https://aka.ms/TeamsGovernanceInteractiveGuide)        |
 | 配置和部署Microsoft Teams会议                          | 逐步完成为Microsoft Teams部署会议工作负荷的过程。                                                                                                                                       |  [配置和部署Microsoft Teams会议指南](https://aka.ms/TeamsMeetingsInteractiveGuide)          |
-| 为Microsoft Teams配置音频会议                            | 了解Teams中音频会议功能，并了解如何分配会议网桥和拨入电话号码。                                                                                          |  [为Microsoft Teams指南配置音频会议](https://aka.ms/AudioConferencingInteractiveGuide)      |
+| 为Microsoft Teams配置音频会议                            | 了解音频会议在Teams中的功能，并了解如何分配会议网桥和拨入电话号码。                                                                                          |  [为Microsoft Teams指南配置音频会议](https://aka.ms/AudioConferencingInteractiveGuide)      |
 | 为第一线辅助角色配置Microsoft Teams                           | 了解如何为第一线员工配置和部署正确的Microsoft Teams环境。                                                                                                                  | [为第一线工作者配置Microsoft Teams指南](https://aka.ms/ConfigFLWInteractiveGuide)              |
 | 一线员工的身份：增强 IT、经理和一线员工的能力                    | 了解如何将Microsoft Teams与现有 HR 系统集成，配置轻型委派标识管理，并为使用共享设备的用户配置简化的登录和无缝转换。                                                                                                                  | [一线工作人员标识指南](https://aka.ms/FLWIdentityIG)              |
 | 部署Microsoft Teams 会议室                           | 了解如何创建和配置用于Microsoft Teams 会议室的帐户，以及如何在管理中心Microsoft Teams管理设备。                                                                                                                  | [部署Microsoft Teams 会议室](https://aka.ms/teamsroomslab)              |

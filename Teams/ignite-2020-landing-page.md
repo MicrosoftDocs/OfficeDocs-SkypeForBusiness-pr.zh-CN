@@ -1,19 +1,19 @@
 ---
 title: 在 Ignite 2020 上Teams会话
 description: 查找适用于 Business Central 的所有可用学习。
-author: SerdarSoysal
+ms.author: mikeplum
+author: MikePlumleyMSFT
 ms.date: 09/21/2020
 ms.topic: article
 ms.service: msteams
-ms.author: serdars
 audience: admin
 manager: serdars
-ms.openlocfilehash: 35ec6c883c880543c9d27a18a9af87d3cff7ab6d
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: a956af4c9eedf5e9b4c10c61c219651da94f4ffb
+ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675114"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046011"
 ---
 # <a name="teams-sessions-at-ignite-2020"></a>在 Ignite 2020 上Teams会话
 
@@ -26,7 +26,7 @@ ms.locfileid: "65675114"
 |[创建具有Microsoft Teams的复原、包容性和混合工作场所](https://aka.ms/IG20-DB156-R1) |组织正在迁移到混合工作场所，以支持远程和现场员工的需求。 在第一部分，了解团队如何通过Teams会议、虚拟事件和通话以及新的设备体验保持联系。 我们将介绍Teams平台如何帮助简化工作流、改进决策并集成应用程序生态系统。 <br> 另请查看此系列的第二部分，即会话代码 DB158。|妮可·赫斯科维茨                 |
 |[通过Microsoft Teams会议更智能地开会，保持专注，并取得更多成就](https://aka.ms/IG20-DB151)  |会议是工作完成方式的基石。 了解Teams会议如何帮助你和组织提高工作效率，同时适应新的工作方式。  |设拉子杯|
 |[Microsoft Teams调用变得简单](https://aka.ms/IG20-DB149)  |Enterprise Teams中调用易于部署和使用。 了解Teams通话的基础知识，同时了解通话中的最新信息，例如新的呼叫体验和协作呼叫。 |保罗·坎农、劳拉·克莱默、芭芭拉·金|
-|[管理员管理Microsoft Teams的一个位置：可管理性Teams新增功能](https://aka.ms/IG20-DB144) |Teams管理员具有灵活而精细的管理功能。 通过这些功能，他们能够为组织打造最能满足业务需求的自定义体验。 在本会话中，我们将介绍团队管理员中心门户中的最新和最大功能，讨论策略、应用管理、设备管理、报告、分析和故障排除以及 PowerShell 中的新增功能。 |罗尼特·本-谢弗，杰米·斯塔克|
+|[管理员管理Microsoft Teams的一个位置：可管理性Teams新增功能](https://aka.ms/IG20-DB144) |Teams管理员具有灵活而精细的管理功能。 通过这些功能，他们能够为组织打造最能满足业务需求的自定义体验。 在本会话中，我们将介绍团队管理中心门户的最新和最大功能，讨论策略、应用管理、设备管理、报告、分析和故障排除以及 PowerShell 中的新增功能。 |罗尼特·本-谢弗，杰米·斯塔克|
 |[使用Microsoft Teams缩放和自定义虚拟会议和事件](https://aka.ms/IG20-DB138)|会议采用各种形状和大小 - 了解如何使用Teams来构建和管理下一个大型事件。 Teams可以根据组织的需求无缝缩放，为各种规模的活动提供自定义和提供最佳与会者体验的方法。  |克里斯蒂娜·托鲁克，阿什温·阿皮亚|
 |[使用Microsoft Teams设备在混合工作场所中提供新式会议体验](https://aka.ms/IG20-DB147) |Microsoft Teams设备简介。 Teams设备旨在帮助用户最大化Teams的功能，并弥合远程和共享工作区之间的差距。 了解旨在提供以人为中心的会议室体验和重新构想的个人工作区的设备，这些设备可为Microsoft Teams设备提供更具包容性和协作性的体验。  |肯德拉·贝克，格雷格·巴里博尔特|
 |[使用Microsoft Teams平台改造现代工作场所](https://aka.ms/IG20-DB157) |了解Teams平台中的所有新扩展点和现有扩展点。 了解如何创建功能强大的应用和解决方案来解决业务需求。|阿查纳·萨塞塔兰，米哈尔·莱西茨卡|
