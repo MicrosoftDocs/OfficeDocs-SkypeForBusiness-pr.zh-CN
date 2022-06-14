@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cdbae6cacd861602baea69ec9682f8069dc720a0
-ms.sourcegitcommit: 1ac37cc27d4ccb3e1dae20ca1929214e17be2075
+ms.openlocfilehash: 2d31474233057d930ccdbc0bdfea27262cc5dc04
+ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/07/2022
-ms.locfileid: "65913430"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046001"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 
@@ -45,8 +45,8 @@ ms.locfileid: "65913430"
 |每个团队的频道数    | 200（包括已删除的频道）<sup>4</sup>        |
 |各团队专用频道数    |30（包括已删除的频道）<sup>4</sup>        |
 |专用频道中的成员数    |250|
-|可导入到团队中的通讯组列表、安全组或 Office 365 组的最大大小    |3,500|
-|Office 365 组中最多可以有多少名成员以转换为团队    |10,000<sup>6</sup>     |
+|可导入到团队中的通讯组列表、安全组或 Microsoft 365 组的最大大小    |3,500|
+|Microsoft 365 组中可转换为团队的最大成员数    |10,000<sup>6</sup>     |
 |频道对话文章大小 | 每个帖子约 28 KB<sup>5</sup> |
 
 <sup>1</sup> Azure Active Directory 中的目录对象均计入此限额。与使用[应用程序权限](/graph/permissions-reference)调用 Microsoft Graph 的应用一样，全局管理员不受此限制约束。
@@ -62,7 +62,7 @@ ms.locfileid: "65913430"
 <sup>6</sup> 来自团队外部的共享频道成员计入此限制。 进一步请注意，拥有 10，000 多个成员的团队/频道提及将被阻止。
 
 > [!NOTE]
-> 有关共享频道预览版的限制，请参阅 [共享频道（预览）的限制](/MicrosoftTeams/shared-channels#limits-for-shared-channels-preview)。
+> 有关共享频道的限制，请参阅[共享频道的限制](/MicrosoftTeams/shared-channels#limits-for-shared-channels)。
 
 ## <a name="messaging"></a>消息传递
 
