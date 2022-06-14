@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 了解Microsoft Teams生成的调试、媒体和桌面日志，以及它们如何帮助监视和故障排除。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4d8e3ab079498ecfca11a7d2ba48736aaf457329
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: 178e89ff91de4638f6a9ff56a4dcb935d18f6f91
+ms.sourcegitcommit: e38776625a3623216b0d5f092fffaff67519b1a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059103"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66056942"
 ---
 # <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>使用日志文件监视和排查Microsoft Teams
 
@@ -95,12 +95,16 @@ ms.locfileid: "65059103"
 -   通话/对话
 
 若要收集 Linux 的日志，请执行以下操作：
-- 键盘快捷方式：<kbd>CtrlAltShift1</kbd> + <kbd></kbd> + <kbd></kbd> + <kbd></kbd>  
+- 键盘快捷方式： <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd>  
 - 文件将在其中可用 `~/Downloads`
 
 若要收集浏览器和Windows日志，
-- 键盘快捷方式：<kbd>CtrlAltShift1</kbd> + <kbd></kbd> + <kbd></kbd> + <kbd></kbd>  
+- 键盘快捷方式： <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd>  
 - 文件将在其中可用 `%userprofile%\Downloads`
+
+若要收集 Mac 日志，请执行以下操作：
+- 键盘快捷方式： <kbd>选项</kbd> + <kbd>命令</kbd> + <kbd>班次</kbd> + <kbd>1</kbd>  
+- 文件将在其中可用 `~/Downloads`
 
 ## <a name="media-logs"></a>媒体日志
 
@@ -153,7 +157,11 @@ ms.locfileid: "65059103"
 若要收集 Linux 的日志，请执行以下操作：
 - 单击系统托盘中的Microsoft Teams图标，然后选择 **“获取日志**”。
 - 这些文件将在其中可用 `~/.config/Microsoft/Microsoft Teams/logs.txt`。
-  
+
+若要收集 Mac 日志，请执行以下操作：
+- 单击Microsoft Teams中的“帮助”菜单，然后选择 **“收集支持文件**”。
+- 该 `logs.txt` 文件将位于 _MSTeams 诊断日志 \<local date and time>_ 文件夹内的桌面文件夹中。
+
 若要收集Windows日志，
 - 单击系统托盘中的Microsoft Teams图标，然后选择 **“收集支持文件**”。
 - 该`logs.txt`文件将在记事本中自动打开。

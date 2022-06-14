@@ -13,12 +13,12 @@ f1.keywords:
 description: 集成联系人中心即服务 (CCaaS) 解决方案的概述Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e4df6a7f8fbdc907bb4fc88e95fe119fbbbdf47
-ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+ms.openlocfilehash: f441785af609c9336fd03707f9eee334070fb885
+ms.sourcegitcommit: e38776625a3623216b0d5f092fffaff67519b1a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65823427"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66056932"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft Teams的联系人中心集成
 
@@ -68,6 +68,8 @@ Microsoft Teams认证计划的连接联系人中心验证每个参与提供商�
 
 |  解决方案提供程序                                                                                                                               |  解决方案网站                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `CentrePal` | https://www.centrepal.com/                                 |
+| `Cisco` | https://www.cisco.com/c/en/us/products/contact-center/webex-contact-center/index.html                                |
 | `Competella` | https://www.competella.com/microsoft-teams-skype-for-business                                  |
 | `ContactCenter4All` | www.contactcenter4all.com |
 | `Cirrus` | https://www.cirrusresponse.com/cloud-contact-centre/microsoft-teams/ |
@@ -84,6 +86,5 @@ Microsoft Teams认证计划的连接联系人中心验证每个参与提供商�
 | `Sikom` | http://www.sikom.de/microsoft-teams/                            |
 | `Talkdesk` | https://www.talkdesk.com/cloud-contact-center/integrations/microsoft-teams/                                  |
 | `Vonage` |  https://www.vonage.com/contact-centers/integrations/microsoft-teams/                                 |
-| `GuardRec` | https://www.guardrec.com/en/teams-compliance-recording                          |
 
 随着更多解决方案提供商加入并满足认证条件，此列表将更新。

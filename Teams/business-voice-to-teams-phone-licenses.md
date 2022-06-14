@@ -6,23 +6,20 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
-f1.keywords:
-- NOCSH
 ms.localizationpriority: medium
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-- m365initiative-voice
 search.appverid: MET150
 description: 了解如何将 Business Voice 许可证更改为Teams 电话许可证。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 39e374175b4ba0a7613405305c4db3baa0e69171
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
+ms.openlocfilehash: e9e973d00761e62e62a3c749163f9e6dcaa8a636
+ms.sourcegitcommit: e38776625a3623216b0d5f092fffaff67519b1a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 06/13/2022
-ms.locfileid: "66046098"
+ms.locfileid: "66057092"
 ---
 # <a name="move-from-business-voice-to-teams-phone-licenses"></a>从商务语音移动到Teams 电话许可证
 
@@ -38,6 +35,11 @@ Business Voice 捆绑了以下三Teams加载项许可证：
 
 本文适用于需要将商务语音许可证更改为Microsoft Teams 电话和音频会议许可证，同时维护相同功能的 IT 管理员。
 
+> [!WARNING]
+> 密切遵循本文的说明。 如果说明指示不要选择 **“保存** ”按钮，请不要选择“ **保存** ”按钮。
+>
+> 过早保存可能导致失去电话号码分配、拨号计划、自动助理和呼叫队列。
+
 ## <a name="acquire-new-licenses"></a>获取新许可证
 
 在替换商务语音许可证之前，首先需要为用户购买替换许可证。
@@ -52,18 +54,17 @@ Business Voice 捆绑了以下三Teams加载项许可证：
 
 | 旧的许可证计划 | 建议的许可证计划 | 说明 |
 | ---------------- | ------------------------ | ----------- |
-| 包含通话套餐的商务语音 | 包含通话套餐的 Teams 电话 | 提供基于云的电话系统功能和以 Microsoft 为 PSTN 提供商的国内通话计划。 |
-| 不使用通话套餐的业务语音 | Teams 电话标准 | 提供基于云的电话系统功能，可[通过第三方 PSTN 提供程序使用运营商连接或直接路由与调用计划](pstn-connectivity.md)相结合 |
-| Business Voice (任何版本)  | Microsoft 团队音频会议选择拨号或音频会议 | 为持牌用户组织的会议与会者提供拨入和拨入功能 |
+| 包含通话套餐的商务语音 | Teams 电话通话套餐和Microsoft Teams音频会议以及拨出到美国/CAN | 提供基于云的电话系统功能、将 Microsoft 作为 PSTN 提供商的国内呼叫计划，以及拨入和拨入功能，以便由许可用户组织的会议与会者。 |
+| 不使用通话套餐的业务语音 | Teams 电话标准和Microsoft Teams音频会议与拨号到美国/CAN | 提供基于云的电话系统功能，这些功能可[与第三方呼叫计划与 PSTN 提供商结合使用运营商连接或直接路由](pstn-connectivity.md)、拨入和拨入和拨入功能，以与许可用户组织的与会者会面。 |
 
 ## <a name="how-to-update-licenses"></a>如何更新许可证
 
 有四种方法可以更新许可证：
 
-- 通过Microsoft 365 管理中心更新单个用户许可证。
-- 通过Microsoft 365 管理中心进行批量用户许可证更新。
-- 使用 PowerShell 脚本进行批量用户许可证更新。
-- 使用基于 Azure 组的许可进行批量用户许可证更新。
+- 通过Microsoft 365 管理中心更新单个用户许可证
+- 通过Microsoft 365 管理中心进行批量用户许可证更新
+- 使用 PowerShell 脚本进行批量用户许可证更新
+- 使用基于 Azure 组的许可进行批量用户许可证更新
 
 # <a name="option-1-single-user-in-admin-center"></a>[选项 1：管理中心中的单个用户](#tab/single-user)
 
