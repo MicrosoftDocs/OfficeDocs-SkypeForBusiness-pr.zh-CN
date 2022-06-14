@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: 了解如何在Microsoft Teams中为大型组织设置呼叫队列。 呼叫队列提供问候消息、保持音乐、呼叫重定向和其他功能。
-ms.openlocfilehash: d6dd0d7211f9e430dbb716ff905c82443d5f4830
-ms.sourcegitcommit: 193aec6f3f6b6ac14b07e778b3485eed813f5e99
+ms.openlocfilehash: 0d871572f1b1c9b3baa727d35e66f21d93be1f58
+ms.sourcegitcommit: cd34cb3082392d4ca3390b2ecf5bcfe1db7d1046
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66046434"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "66068677"
 ---
 # <a name="create-a-call-queue"></a>创建呼叫队列
 
@@ -155,6 +155,8 @@ Teams在呼叫者在队列中处于保留状态时为其提供默认音乐。 Te
 > [!NOTE]
 > 如果电话呼叫从启用了基于位置的路由的直接路由网关路由到队列，则不支持会议模式。
 >
+> 如果电话呼叫从Skype for Business Server路由到队列，则不支持会议模式。
+> 
 > 如果Teams用户需要使用呼叫队列来咨询/转移呼叫，则需要会议模式。
 
 > [!TIP]
