@@ -1,5 +1,5 @@
 ---
-title: 循环中组件Teams
+title: Teams中的Loop组件概述
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -11,75 +11,87 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: 了解如何在服务中管理循环Teams。
+description: 了解如何在Teams中管理Loop组件。
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3f9ca97a0088c703dc482d69406a9e9c2c8b2a22
-ms.sourcegitcommit: 71edff2670367082312de59c4e21775682871418
+ms.openlocfilehash: 2fb436ef2e8b32f737fcfa10823b54dc0e6a7cca
+ms.sourcegitcommit: 07abd8fdb653e57a839ded72620d0179049f25dc
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "63043370"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "66088578"
 ---
-# <a name="overview-of-loop-components-in-teams"></a>循环中组件Teams
+# <a name="overview-of-loop-components-in-teams"></a>Teams中的Loop组件概述
 
-在聊天Teams循环组件提供了一种共同构思、创建和做出决策的新方式。 发送一个组件（如表格、任务列表或段落），其中聊天中的每个人都可以内联编辑并查看所做的更改。 
+Teams聊天中的Loop组件提供了一种一起构想、创建和决策的新方法。 发送组件（如表、任务列表或段落），其中聊天中的每个人都可以内联编辑并查看所做的更改。 
 
 > [!Note]
-> 循环组件是 Microsoft Loop 应用的第一[项功能](https://www.microsoft.com/en-us/microsoft-loop)，可在 Teams。 
+> Loop组件是[Microsoft Loop应用在Teams](https://www.microsoft.com/en-us/microsoft-loop)中可用的第一项功能。 
 
-**一起更快地完成任务。** 对议程进行众源处理、跟踪组的操作项目或共同做笔记。 这些只是使用循环组件简化的一些方案。
+**一起更快地完成任务。** 为议程众源，跟踪组的操作项目，或集体做笔记。 这些只是Loop组件更易于使用的一些方案。
 
-**共享组件。** 在此版本中，你可以将循环组件共享到不同的聊天Teams中。 收件人可以从他们身在何处进行编辑，并即时查看更新，无论更改发生在何处。
+**共享组件。** 在此版本中，可以将Loop组件共享到不同的Teams聊天中。 无论在何处进行更改，收件人都可以从任何位置进行编辑，并立即查看更新。
 
-**从聊天开始，从该聊天开始生成。** 从聊天Teams创建的每一个组件都会自动保存到聊天OneDrive。 因此，你可能会开始在聊天中协作，然后移动到文件，在这里，你具有更大的可视空间进行编辑，并可以添加任何喜欢的组件。
+**"开始"菜单聊天中，从那里生成。** 从聊天Teams创建的每个组件都会自动保存到OneDrive中的文件。 因此，你可以开始在聊天中协作，然后移动到文件，在该文件中，你具有更大的可编辑视觉空间，并且可以添加任意数量的组件。
 
-有关循环中组件的管理员设置Teams，请参阅管理 SharePoint 中的[循环组件](/sharepoint/manage-loop-components)。
+有关Teams中Loop组件的管理员设置的信息，请参阅[SharePoint中的管理Loop组件](/sharepoint/manage-loop-components)。
 
 ## <a name="clients-and-platforms"></a>客户端和平台
 
-适用于 Teams、Windows、Linux、iOS 和 Android 上的应用。
+可在 Windows、Mac、Linux、iOS 和 Android 上的Teams应用上使用。
 
-## <a name="loop-components-and-loop-files"></a>循环组件和 .loop 文件
+## <a name="loop-components-and-fluid-files"></a>Loop组件和 .fluid 文件
 
-在 Teams 中创建的循环组件由创建者的 OneDrive 中存储的 .loop 文件OneDrive。 作为一个文件OneDrive意味着用户可以创建、发现和管理循环组件 (.loop 文件) 与任何文档Office一样。 .loop 文件可处理电子数据展示、审核、报告和法定保留等数据管理功能。
+在Teams中创建的Loop组件由存储在创建者OneDrive中的 .fluid 文件提供支持。 作为OneDrive中的文件意味着用户可以像任何Office文档一样轻松地创建、发现和管理 (.fluid 文件) Loop组件。 
 
-## <a name="how-are-loop--files-stored"></a>如何存储 .loop 文件？
+## <a name="how-are-fluid--files-stored"></a>如何存储 .fluid 文件？
 
-.loop 文件显示在 Office.com 和 OneDrive 上，例如"最近"和"建议"区域。 用户可以从 Office.com 和 OneDrive 搜索 .loop 文件中的内容。 .loop 文件可以从 OneDrive 还原到以前的OneDrive。 若要创建循环组件，聊天参与者必须具有OneDrive帐户。 如果没有有效的OneDrive帐户，聊天参与者仍可以协作处理由具有有效帐户的其他用户创建OneDrive组件，但不能创建自己的组件。 
+.fluid 文件显示在 Office.com 和OneDrive上，例如“最近”和“推荐”区域。 用户可以从 Office.com 和 OneDrive 搜索 .fluid 文件中的内容。 .fluid 文件可以从OneDrive还原到以前的版本。 若要创建Loop组件，聊天参与者必须具有OneDrive帐户。 如果没有有效的OneDrive帐户，聊天参与者可能仍能够协作处理由具有有效OneDrive帐户但无法创建自己的帐户的其他用户创建的组件。 
 
-将 .loop 文件从 OneDrive 移动到 SharePoint 网站将导致实时组件无法加载到聊天Teams中。
+将 .fluid 文件从OneDrive移动到SharePoint站点将导致实时组件无法加载Teams聊天。
 
-## <a name="what-happens-if-the-owner-of-the-file-leaves-the-company"></a>如果文件的所有者离开了公司，会发生什么情况？
+## <a name="what-happens-if-the-owner-of-the-file-leaves-the-company"></a>如果文件所有者离开公司，会发生什么情况？
 
-OneDrive策略适用于 .loop 文件，就像应用于用户创建的其他内容一样。
+OneDrive保留策略适用于 .fluid 文件，就像它们适用于用户创建的其他内容一样。
 
-## <a name="how-are-loop-files-shared"></a>如何共享 .loop 文件？
+## <a name="how-are-fluid-files-shared"></a>如何共享 .fluid 文件？
 
-可以在聊天中插入循环组件Teams从一个聊天复制到另一个聊天。  (通道尚不支持循环组件。) 它们默认为组织的现有权限，但用户可以在发送之前更改权限，以确保每个人都具有访问权限。
+Loop组件可以插入Teams聊天中，也可以从一个聊天复制到另一个聊天中。 频道尚不支持 (Loop组件。) 它们默认为组织的现有权限，但用户可以在发送之前更改权限，以确保每个人都具有访问权限。
 
-在 Office.com 中从 Teams 聊天打开组件在窗口顶部提供共享功能，类似于为其他 Office 文档提供的共享选项。
+在 Office.com 中打开Teams聊天中的组件可在窗口顶部提供共享功能，类似于为其他Office文档提供的共享选项。
 
-## <a name="what-if-a-loop-file-becomes-corrupted-or-damaged"></a>如果 .loop 文件损坏或损坏，该做什么？
+## <a name="what-if-a-fluid-file-becomes-corrupted-or-damaged"></a>如果 .fluid 文件损坏或损坏，该怎么办？
 
-版本历史记录允许查看和复制文件的先前版本。
+使用版本历史记录可以查看和复制文件的早期版本。
 
-## <a name="what-apps-can-open-and-edit-loop-files"></a>哪些应用可以打开和编辑 .loop 文件？
+## <a name="what-apps-can-open-and-edit-fluid-files"></a>哪些应用可以打开和编辑 .fluid 文件？
 
-.loop 文件只能在浏览器（例如 Office.com）中作为链接打开，在聊天中作为循环Teams打开。 如果已下载，则它们不能再次打开，而无需先将其上载回OneDrive或SharePoint。
+.fluid 文件只能作为浏览器中的链接（如 Office.com）打开，并作为Teams聊天中的Loop组件打开。 如果已下载，则无法在不先将它们上传到OneDrive或SharePoint的情况下再次打开它们。
+
+## <a name="does-fluid-files-support-ediscovery"></a>.fluid 文件是否支持电子数据展示？
+
+.fluid 文件是可发现的，但电子数据展示工作流支持有限。 目前，.fluid 文件存储在创建者的OneDrive中，可用于在电子数据展示 (标准) 和电子数据展示 (高级版) 中进行搜索和收集。 但是，它们不会以预览版呈现，并且现有工具无法使用导出格式供审阅。 若要查看导出的内容，请将其上传到任何OneDrive。 如果需要，可以根据[设置管理](/sharepoint/manage-loop-components#settings-management)部分中所述暂时禁用这些体验。
+
+## <a name="if-loop-is-disabled-from-the-admin-switch-what-will-the-user-experience-be"></a>如果从管理开关禁用Loop，用户体验会是什么？
+
+如果按照[设置管理](/sharepoint/manage-loop-components#settings-management)部分中所述禁用这些体验，将应用以下体验更改：
+
+- 将隐藏Teams消息传送中的创建/插入入口点。 用户将无法创建新的 .fluid 文件。
+- 以前作为交互式Loop组件呈现的现有消息将改为呈现为超链接“Loop组件”。 Teams中不会显示交互式内容。
+- 当最终用户单击“Loop组件”超链接或浏览到OneDrive for Business中的 .fluid 文件并单击打开时，它将在单独的浏览器选项卡中打开该文件，但最终用户将无法编辑该文件。
 
 ## <a name="known-issues"></a>已知问题
 
-- 在 Android 上使用聊天时Office 应用聊天Teams组件。
-- 如果租户默认文件权限设置为"特定 *人员" (* 则仅用户指定) ，并且发件人在创建组件时从权限对话框中的"特定人员"列表中删除某些用户，则这些用户可能仍有权访问内容。
-- 将租户默认文件权限设置为"特定人员" (仅用户指定) ，将链接复制到实时组件并粘贴到另一个聊天中需要发件人使用权限对话框，并添加"特定人员"选项中的收件人以正确授予访问权限。
-- 将租户默认文件权限设置为"特定人员" (仅用户指定) 的用户，在包含 20 多个成员的群组聊天中创建实时组件需要发件人手动选择该组件的权限选项。
-- 在搜索中搜索循环Teams将返回指向聊天 office.com 的链接，而不是聊天消息本身。
-- 在联合聊天中禁用循环组件。
-- B2B 来宾无法协作处理通过公司共享链接共享实时组件。 将权限设置为" **当前在此聊天中的人员"** ，以与 B2B 来宾共享组件。
-- 循环组件在 Teams 中不受支持。
-- 只有当文件移动到不同的库时，聊天中的循环组件才加载。 如果文件移动到不同的文件夹，则该文件将继续在聊天中加载。
+- 在Android上使用Teams时，无法通过Office 应用编辑聊天中的Loop组件。
+- 如果将租户默认文件权限设置为 *特定人员* (用户指定) 的人员，并且发件人在创建组件时从权限对话框的 *“特定人员* ”列表中删除某些用户，则这些用户可能仍然有权访问该内容。
+- 将租户默认文件权限设置为 *特定人员* (仅用户指定的人员) ，将链接复制到实时组件并粘贴到另一个聊天中，则要求发件人使用权限对话框，并在“特定人员”选项中添加收件人以正确授予访问权限。
+- 将租户默认文件权限设置为 *特定人员* (用户指定) 的人员时，在包含 20 多个成员的群聊中创建实时组件将要求发件人手动选择组件的权限选项。
+- 在Teams搜索中搜索Loop组件将返回指向 office.com 中的组件的链接，而不是聊天消息本身的链接。
+- 在联合聊天中禁用Loop组件。
+- B2B 来宾将无法协作处理通过公司共享链接与他们共享的实时组件。 将权限设置为 **当前在此聊天中的人员** ，以便与 B2B 来宾共享组件。
+- Teams通道不支持Loop组件。
+- 仅当文件移动到不同的库时，聊天中的Loop组件才会加载。 如果将文件移动到不同的文件夹，则它将继续在聊天中加载。
