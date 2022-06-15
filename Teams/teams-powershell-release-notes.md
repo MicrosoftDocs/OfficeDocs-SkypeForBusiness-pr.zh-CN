@@ -13,12 +13,12 @@ ms.collection:
 description: 了解 Teams PowerShell 中的最新更改。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 55b942cb3bf57c169d0f278a90e94d9792c315eb
-ms.sourcegitcommit: e8a78c24fda7e56c7b217a843a8a5f1c30aa95f6
+ms.openlocfilehash: 87f3a65821b243372dcf990071b3bf1a2eb3b484
+ms.sourcegitcommit: 39fc58109da6b4628ffb658f2c6b94099e0ab604
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2022
-ms.locfileid: "65785992"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "66103219"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams PowerShell 发行说明
 
@@ -31,6 +31,7 @@ ms.locfileid: "65785992"
 
 | 日期 | 版本 | 更新 |
 |------- | -------------------- | ------------------------------ |
+| 2022 年 6 月 | [4.4.3-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.4.3-preview) |<li>支持 Get-CsAutoAttendantStatus cmdlet 的 IncludeResources 参数。</li><li>支持 Get-CsOnlineUser cmdlet 的 SoftDeletedUsers 参数。</li><li>版本 [获取\|授权]-CsTeamsMediaLoggingPolicy cmdlet。</li><li>支持 [New\|Set]-CsAutoAttendant & [New\|Set]-CsCallQueue cmdlet 的 AuthorizedUsers 可选参数。</li><li>修复了共享语音邮件提示参数，其中提示类型在设置为Set-CsCallQueue cmdlet 后无法切换。</li><li> 修复了 [New\|Set]-CsOnlineSchedule cmdlet 以欧洲日期时间格式工作。</li>
 | 2022 年 5 月 | [4.4.1](https://www.powershellgallery.com/packages/MicrosoftTeams/4.4.1) |<li>模块大小的改进。</li><li>所有 cmdlet 的现代化版本中不支持的参数将导致错误。</li><li>修复了 [Get Set\|]-CsOnlineDialInConferencingUser、Get-CsOnlineDialInConferencingBridge、[Get Set\|\|Register\|Unregister]-CsOnlineDialInConferencingServiceNumber & Get-CsOnlineDialInConferencingLanguagesSupported cmdlet 的错误处理。</li><li>弃用Test-CsOnlineLisCivicAddress cmdlet。</li><li>用户主体名称 (UPN) & GUID 现在可以用作现代化 [Get Remove\|]-CsOnlineApplicationInstanceAssociation cmdlet 中的标识。</li><li> [中断性变更] Get-CsOnlineUser - 如果用户未分配该策略，输出中的策略属性现在将为 null。 这些属性曾经是早期版本的空 UserPolicyDefinition 对象， (3.0.0 到 4.3.1) 。</li><li>修复了Set-CsCallQueue以允许输入参数中为 null 或空数组值。</li><li>Get-CsPhoneNumberAssignment - 将 City & IsoSubdivision 属性添加到输出中。</li>
 | 2022 年 5 月 | [4.3.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.3.1-preview) |<li>模块大小的改进。</li><li>所有 cmdlet 的现代化版本中不支持的参数将导致错误。</li><li>修复了 [Get Set\|]-CsOnlineDialInConferencingUser、Get-CsOnlineDialInConferencingBridge、[Get Set\|\|Register\|Unregister]-CsOnlineDialInConferencingServiceNumber & Get-CsOnlineDialInConferencingLanguagesSupported cmdlet 的错误处理。</li><li>在预览版中发布 Scale cmdlet 部署 - New-CsBatchTeamsDeployment & Get-CsBatchTeamsDeploymentStatus。</li><li>用户主体名称 (UPN) & GUID 现在可以用作现代化 [Get Remove\|]-CsOnlineApplicationInstanceAssociation cmdlet 中的标识。</li>
 | 2022 年 5 月 | [4.3.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.3.0) |<li>修复 [Set\|Remove]-CsPhoneNumberAssignment cmdlet 的错误处理。</li><li>[获取\|设置\|Remove]-CsOnlineLisSubnet – 新式化 cmdlet 中子网参数的修补程序。</li><li>[获取\|Set]-CsOnlineLisLocation & [Get\|Set]-CsOnlineLisCivicAddress – 修复了现代化 cmdlet 中支持的参数， (相应公共文档) 中的更多详细信息。</li>

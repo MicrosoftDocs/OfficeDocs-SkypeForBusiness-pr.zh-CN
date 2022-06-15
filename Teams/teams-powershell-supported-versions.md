@@ -12,28 +12,19 @@ ms.collection:
 description: 了解用于管理Microsoft Teams的 Teams PowerShell 模块支持的版本。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6915448d76de64a65a9ac50e5c66e3ca41e051ef
-ms.sourcegitcommit: 8ce73ea99be607f5cdccb22a5366bc96e8fb09c8
+ms.openlocfilehash: ad20cc285a9e882c45d2d158601ebcc90236dbf5
+ms.sourcegitcommit: 39fc58109da6b4628ffb658f2c6b94099e0ab604
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65758310"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "66103369"
 ---
 # <a name="teams-powershell-module---supported-versions"></a>Teams PowerShell 模块 - 支持的版本
 
-Microsoft Teams PowerShell 模块 (4.x.x 系列或更高版本中的 TPM) 版本将是未来唯一支持的版本。 所有早期版本都在停用路径上。 建议将 Teams PowerShell 模块更新到最新版本。
+Microsoft Teams PowerShell 模块 (4.x.x 系列或更高版本中的 TPM) 版本是目前支持的唯一版本。 自 2022 年 6 月 15 日起，所有早期版本都将完全停用，&将停止 (消息中心帖子进行引用 - MC350371) 。 
 
-## <a name="new-organizations"></a>新组织
+建议更新到最新的 Teams PowerShell 模块版本。
 
-从 2022 年 4 月 1 日起，新加入Teams的组织只能在 4.x.x 系列或更高版本中使用 Teams PowerShell 模块。
-
-## <a name="current-organizations-non-tpm-active"></a>当前组织 (非 TPM 活动) 
-
-在 1 月 22 日 - 3 月 22 日期间未使用过 Teams PowerShell 模块的组织只能从 2022 年 4 月 1 日起在 4.x.x 系列或更高版本中使用 Teams PowerShell 模块。
-
-## <a name="current-organizations-tpm-active"></a>当前组织 (TPM 活动) 
-
-在 1 月 22 日 - 3 月 22 日期间使用过 Teams PowerShell 模块的组织只能从 2022 年 6 月 15 日起在 4.x.x 系列或更高版本中使用 Teams PowerShell 模块。 消息中心帖子供参考 - MC350371。
 
 ## <a name="important-notes"></a>重要说明
 
