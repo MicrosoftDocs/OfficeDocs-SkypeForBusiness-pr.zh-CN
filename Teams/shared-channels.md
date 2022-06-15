@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 了解如何在 Microsoft Teams 中使用和管理共享频道。
-ms.openlocfilehash: 72701d71712a553c9a02cf9ab41ce0ced0597c3a
-ms.sourcegitcommit: c74c83fdb3fdbf1a5ebc9398bf0379d33f888d1b
+ms.openlocfilehash: 11abe6245dea7ee72bc2f71b412addbed5aa6e30
+ms.sourcegitcommit: e38776625a3623216b0d5f092fffaff67519b1a6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65795634"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66057052"
 ---
 # <a name="shared-channels-in-microsoft-teams"></a>Microsoft Teams 中的共享频道
 
@@ -96,10 +96,12 @@ Microsoft Teams 中的共享频道可创建协作空间，你可以在其中邀�
 
 每个共享频道都有 [自己的 SharePoint 网站](/SharePoint/teams-connected-sites)。 单独的网站用于确保只有共享频道成员才能有权访问共享频道文件。 默认情况下，这些网站集是使用文档库创建的，并且可通过[网站管理界面](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04)轻松增强为功能齐全的网站集。 每个网站创建在与父团队网站相同的地理区域创建。 这些轻型网站具有自定义模板 ID“TEAMCHANNEL#0”，可通过 PowerShell 和 Graph API 实现更轻松的管理。 
 
+共享频道网站继承父团队的敏感度标签。 即使频道直接与另一个团队共享，也是如此。
+
 > [!NOTE]
 > 只有具有频道中所有者或成员权限的人员才能访问共享频道网站中的内容。 父团队和管理员中的人员将无权访问权限，除非他们也是频道成员。
 
-共享频道站点从父团队的站点同步数据分类。 网站所有者和成员组的成员资格将与共享频道的成员资格保持同步。 无法通过 SharePoint 独立管理共享频道网站的网站权限。 
+网站所有者和成员组的成员资格将与共享频道的成员资格保持同步。 无法通过 SharePoint 独立管理共享频道网站的网站权限。 
 
 团队管理共享频道网站的生命周期。 如果网站在 Teams 外部删除，则只要共享频道仍处于活动状态，该站点就会在四小时内自动还原。 如果已永久删除该网站，则将为该共享频道预配新的网站。
 
