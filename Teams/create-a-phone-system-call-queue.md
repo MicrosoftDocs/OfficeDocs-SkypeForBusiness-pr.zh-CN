@@ -22,133 +22,189 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
-description: 了解如何在Microsoft Teams中为大型组织设置呼叫队列。 呼叫队列提供问候消息、保持音乐、呼叫重定向和其他功能。
-ms.openlocfilehash: 0d871572f1b1c9b3baa727d35e66f21d93be1f58
-ms.sourcegitcommit: cd34cb3082392d4ca3390b2ecf5bcfe1db7d1046
+description: 了解如何在Microsoft Teams中设置呼叫队列。 呼叫队列提供问候消息、保持音乐、呼叫重定向和其他功能。
+ms.openlocfilehash: 6761fc7c6864b03f66ff56df3fc419e6e8aa38d6
+ms.sourcegitcommit: e38dc23e3968f55625e90c8883884045f80d22ee
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "66068677"
+ms.lasthandoff: 06/16/2022
+ms.locfileid: "66124387"
 ---
 # <a name="create-a-call-queue"></a>创建呼叫队列
 
-呼叫队列提供一种将呼叫者路由到组织中可帮助处理特定问题或问题的人员的方法。 呼叫一次分发给队列 (称为 *代理*) 的人员。 
-
-> [!TIP]
-> 本文适用于大型组织。 如果你的组织是小型企业，请改为阅读 [“创建呼叫队列 - 小型企业教程](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb) ”。
+呼叫队列将呼叫者路由到组织中可以帮助处理特定问题或问题的人员。 呼叫一次分发给队列中称为 *代理* 的人员。
 
 呼叫队列提供：
 
-- 问候语
-
-- 当人们在队列中等待等待时音乐
-
-- 调用路由 - *在第一个，第一个出* (FIFO) 顺序 - 代理
-
-- 队列溢出和超时处理选项
+- 问候语。
+- 当人们在队列中等待等待时音乐。
+- 调用路由 - *在第一个 In，First Out* (FIFO) 顺序 - 代理。
+- 处理队列溢出和超时的选项。
 
 按照本文中的过程操作之前，请确保已阅读[了Teams自动助理和呼叫队列的计划](plan-auto-attendant-call-queue.md)，并遵循[了入门步骤](plan-auto-attendant-call-queue.md#getting-started)。
 
-**有关详细信息，请参阅下面的 [呼叫队列功能兼容性](#call-queue-feature-compatibility) 矩阵。**
+设置呼叫队列的步骤包括：
 
-## <a name="create-the-call-queue"></a>创建呼叫队列
+1. 设置常规信息
+1. 设置问候语和音乐
+1. 设置呼叫应答
+1. 选择并分配代理
+1. 设置呼叫溢出处理
+1. 设置呼叫超时处理
 
-若要设置呼叫队列，请在Teams管理中心展开 **“语音**”，单击 **“呼叫队列**”，然后单击 **“添加**”。
+本文中概述的步骤使用Teams管理中心创建呼叫队列。 有关使用 PowerShell 创建呼叫队列的说明，请参阅 [使用 PowerShell cmdlet 创建呼叫队列](create-a-phone-system-call-queue-via-cmdlets.md)。
 
-键入呼叫队列的名称。
+## <a name="follow-these-steps-to-set-up-your-call-queue"></a>按照以下步骤设置呼叫队列
 
-## <a name="resource-accounts"></a>资源帐户
+# <a name="step-1-general-info"></a>[步骤 1：常规信息](#tab/general-info)
 
-![资源帐户设置的屏幕截图。](media/call-queue-name-language.png)
+## <a name="step-1-set-up-general-information"></a>步骤 1：设置常规信息
 
-单击 **“添加帐户**”，搜索要用于此呼叫队列的资源帐户，单击 **“添加**”，然后单击 **“添加**”。  (代理在收到传入呼叫时将看到资源帐户名称。) 
+若要设置呼叫队列，请在 [Teams管理中心](https://go.microsoft.com/fwlink/p/?linkid=2066851)展开 **语音**，选择 **呼叫队列**，然后选择 **“添加**”。
+
+在顶部框中键入呼叫队列的名称。
+
+### <a name="add-a-resource-account"></a>添加资源帐户
+
+若要添加现有资源帐户，请执行以下操作：
+
+1. 在 **“资源帐户**”下，单击 **“添加** ”按钮添加此呼叫队列的资源帐户。
+1. 在 **“添加帐户** ”窗格中，搜索要添加的资源帐户。
+1. 选择要分配给此呼叫队列的资源帐户旁边的 **“添加** ”按钮。
+1. 在窗格底部，选择 **“添加** ”按钮。
+
+如果需要创建资源帐户：
+
+1. 在 **“资源帐户**”下，单击 **“添加** ”按钮添加此呼叫队列的资源帐户。
+1. 在 **“添加帐户** ”窗格中，搜索任意一组字母以拉取结果下拉列表。
+1. 选择结果底部的 **“+ 添加资源帐户** ”按钮。
+1. 在 **“添加资源帐户** ”窗格上：
+    1. 键入描述性 **显示名称**，该名称对代理可见。
+    1. 键入资源帐户的描述性 **用户名** 。
+    1. 选择 **“资源帐户”类型** 下拉列表，然后选择 **“呼叫队列**”。
+1. 在窗格底部，选择“ **保存** ”按钮。
+1. 在 **“资源帐户** ”窗格上，选择 **“添加** ”按钮。
+
+代理在收到传入呼叫时将看到资源帐户名称。
 
 有关详细信息，请参阅[管理Teams资源帐户](manage-resource-accounts.md)。
 
-## <a name="dynamic-caller-id"></a>动态调用方 ID
+### <a name="assign-a-calling-id-optional"></a> (可选) 分配呼叫 ID
 
-![调用 ID 设置的屏幕截图。](media/call-queue-assign-calling-id.png)
-
-**适用于Teams频道/协作呼叫桌面用户和Teams具有标准呼叫队列的移动客户端用户**
+**适用于Teams频道/协作呼叫桌面用户和Teams具有标准呼叫队列的移动客户端用户。**
 
 可以通过指定一个或多个具有电话号码的资源帐户为代理分配出站呼叫者 ID 号码。 代理可以选择要用于每个出站呼叫的出站调用者 ID 号。 在呼叫应用中，代理可以使用其呼叫队列 (CQ) /自动助理 (AA) 号码或其自己的个人直接向内拨号 (DID) 。
 
-单击 **“添加**”，搜索要允许代理在进行出站呼叫时用于调用方 ID 的资源帐户，单击 **“添加**”，然后单击 **“添加**”。
-
-**标准呼叫队列**
-
-对于Teams桌面用户和标准呼叫队列，请考虑将呼叫队列成员的呼叫者 ID 设置为呼叫队列的服务号或适当的自动助理。 有关详细信息，请参阅[Microsoft Teams中的“管理调用方 ID”策略](caller-id-policies.md)。
-
 > [!NOTE]
-> 用于调用 ID 目的的资源帐户必须具有Microsoft Teams 电话系统虚拟用户许可证，并分配了下列选项之一：
+> 用于调用 ID 目的的资源帐户必须具有 **Microsoft Teams 电话系统 - 虚拟用户** 许可证和以下分配之一：
 >
 > - 呼叫计划许可证和分配的电话号码
 > - 分配的运营商连接电话号码
 > - 使用直接路由) 时，在线语音路由策略 (电话号码分配是可选的
 
+1. 在 **“分配呼叫 ID**”下，选择 **“添加** ”按钮。
+1. 在 **“添加帐户** ”窗格中，搜索要允许代理用于出站调用方 ID 的资源帐户 () 。
+1. 选择分配有电话号码的资源帐户旁边的 **“添加** ”按钮。
+1. 选择窗格底部的 **“添加** ”按钮。
 
-## <a name="language"></a>语言
+如果没有分配有电话号码的资源帐户：
 
-![语言设置的屏幕截图。](media/call-queue-language.png)
+1. 在 **“资源帐户**”下，单击 **“添加** ”按钮添加资源帐户。
+1. 在 **“添加帐户** ”窗格中，搜索任意一组字母以拉取结果下拉列表。
+1. 选择结果底部的 **“+ 添加资源帐户** ”按钮。
+1. 在 **“添加资源帐户** ”窗格上：
+    1. 键入描述性 **显示名称**，该名称对呼叫收件人可见。
+    1. 键入资源帐户的描述性 **用户名** 。
+    1. 选择 **“资源帐户”类型** 下拉列表，然后选择 **“呼叫队列**”。
+1. 在窗格底部，选择“ **保存** ”按钮。
+1. 在 **“资源帐户** ”窗格上，选择 **“添加** ”按钮。
 
-选择 [支持的语言](create-a-phone-system-call-queue-languages.md)。 如果) 启用系统生成的语音提示和语音邮件听录 (，则将使用此语言。
+创建此用于调用 ID 的新资源帐户后，仍需要：
 
-## <a name="greetings-and-music-on-hold-in-queue"></a>队列中保留的问候语和音乐
+- 分配[Teams 电话标准版 - 虚拟用户许可证](manage-resource-accounts.md#assign-a-license)
+- 分配 Microsoft 呼叫计划许可证、分配运营商连接电话号码或为直接路由分配联机语音路由策略
+- 如果使用的是 Microsoft 呼叫计划[，请将服务电话号码分配到资源帐户](manage-resource-accounts.md#assign-a-service-number)
 
-![队列设置中保留的问候语和音乐的屏幕截图。](media/call-queue-greetings-music.png)
+### <a name="set-the-call-queue-language"></a>设置呼叫队列语言
 
-指定在呼叫者到达队列时是否要向他们打招呼。 必须上传包含要播放的问候语的 MP3、WAV 或 WMA 文件。 上传的录制不得大于 5 MB。
+选择 [支持的语言](create-a-phone-system-call-queue-languages.md)。
 
-Teams在呼叫者在队列中处于保留状态时为其提供默认音乐。 Teams呼叫队列中提供的默认音乐不含组织支付的任何版税。 如果要播放特定的音频文件，请选择 **“播放音频文件** ”并上传 MP3、WAV 或 WMA 文件。
+如果启用，此语言将用于系统生成的语音提示和语音邮件听录。
+
+选择语言后，选择 **“添加呼叫队列**”页底部的 **“下** 一步”按钮。
+
+# <a name="step-2---greeting-and-music"></a>[步骤 2 - 问候语和音乐](#tab/greeting-music)
+
+## <a name="step-2-add-a-greeting-and-on-hold-music"></a>步骤 2：添加问候语和保持音乐
+
+指定在呼叫者到达队列时是否要向他们打 *招呼* 。
+
+如果选择 **“播放音频文件**”，则必须上传包含要播放的问候语的 MP3、WAV 或 WMA 文件。 上传的录制不得大于 5 MB。
+
+Teams在呼叫者在 *队列中处于保留状态* 时为其提供默认音乐。
+
+- Teams呼叫队列中提供的默认音乐不含组织支付的任何版税。
+- 如果要播放特定的音频文件，请选择 **“播放音频文件** ”并上传 MP3、WAV 或 WMA 文件。
 
 > [!NOTE]
 > 你负责独立清理和保护将任何音乐或音频文件与你的Microsoft Teams服务结合使用的所有必要权利和权限，这些权利和权限可能包括任何音乐、声音效果、音频、品牌、名称以及音频文件中所有相关权利持有者（可能包括艺术家、演员）中的其他权利， 表演者、音乐家、词曲作者、作曲家、唱片公司、音乐出版商、工会、公会、权利协会、集体管理组织以及拥有、控制或许可音乐版权、音效、音频和其他知识产权的任何其他各方。
 
-## <a name="call-agents"></a>呼叫代理
+选择问候语和保持音乐后，选择 **“添加呼叫队列**”页面底部的 **“下一步**”按钮。
+
+# <a name="step-3---call-answering"></a>[步骤 3 - 呼叫应答](#tab/call-answering)
+
+## <a name="step-3-set-up-who-will-answer-incoming-calls"></a>步骤 3：设置谁将接听传入呼叫
 
 查看 [将代理添加到呼叫队列的先决条件](plan-auto-attendant-call-queue.md#prerequisites)。
 
-![呼叫队列的用户和组设置的屏幕截图。](media/call-queue-users-groups.png)
-
-##### <a name="teams-channel"></a>Teams通道
+### <a name="teams-channel"></a>Teams通道
 
 可以通过Teams通道添加多达 200 个代理。 必须是团队成员或频道的创建者或所有者才能向队列添加通道。
 
-如果要 [使用Teams通道管理队列](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)，请选择 **“选择团队**”选项，然后单击 **“添加频道**”。 搜索要使用的团队，选择该团队，然后单击 **“添加**”。 选择要使用的通道 (仅支持标准通道) 并单击“ **应用**”。 
+如果要[使用Teams通道来管理队列](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)：
 
-对呼叫队列使用Teams通道时，支持以下客户端： 
+1. 选择 **“选择团队** 单选”按钮，然后选择 **“添加频道**”。
+1. 搜索要使用的团队，选择该团队，然后选择 **“添加**”。
+1. 选择要使用的通道 (仅支持标准通道) 并选择 **“应用**”。
 
-  - Microsoft Teams Windows客户端
-  - Microsoft Teams Mac 客户端
+对呼叫队列使用Teams通道时，支持以下客户端：
+
+- Microsoft Teams Windows客户端
+- Microsoft Teams Mac 客户端
 
 > [!NOTE]
 > 如果使用此选项，调用队列可能需要长达 24 小时才能完全正常运行。
 >
 > 如果团队中有 200 多个成员，则只有前 200 个成员将按字母顺序添加为呼叫队列中的代理。
 
-##### <a name="users-and-groups"></a>用户和组
+### <a name="users-and-groups"></a>用户和组
 
 可以通过组单独添加最多 20 个代理，最多可添加 200 个代理。
 
-如果要将单个用户或组添加到队列，请选择 **“选择用户和组**”。 
+如果要将单个用户或组添加到队列：
 
-若要将用户添加到队列，请单击 **“添加用户**”，搜索用户，单击 **“添加**”，然后单击 **“添加**”。
+1. 选择 **“选择用户和组** ”单选按钮。
 
-若要将组添加到队列，请单击 **“添加组**”，搜索组，单击 **“添加**”，然后单击 **“添加**”。 可以使用通讯组列表、安全组和Microsoft 365组或Microsoft Teams团队。
+若要将 **用户添加** 到队列，请执行以下操作：
+
+1. 选择 **“添加用户**”，搜索用户，单击 **“添加**”，然后单击 **“添加**”。
+
+若要将 **组添加** 到队列，请执行以下操作：
+
+1. 选择 **“添加组**”，搜索组，单击 **“添加**”，然后单击 **“添加**”。 
+    1. 可以使用通讯组列表、安全组和Microsoft 365组或Microsoft Teams团队。
 
 > [!NOTE]
 > 添加到组的新用户可能需要长达 8 小时才能到达其第一个呼叫。
 >
 > 如果组中有 200 多个成员，则只有前 200 个成员将按字母顺序添加为调用队列中的代理。
 
-## <a name="call-routing"></a>呼叫路由
-
-![会议模式和路由方法设置的屏幕截图。](media/call-queue-conference-mode-routing-method.png)
+### <a name="conference-mode"></a>会议模式
 
 **会议模式** 减少了调用方在代理接受呼叫后连接到代理所需的时间。 若要使会议模式正常工作，呼叫队列中的代理必须使用以下客户端之一：
 
-  - Microsoft Teams桌面客户端、Android应用或iOS应用的最新版本
-  - Microsoft Teams 电话版本 1449/1.0.94.2020051601 或更高版本
+- Microsoft Teams桌面客户端、Android应用或iOS应用的最新版本
+- Microsoft Teams 电话版本 1449/1.0.94.2020051601 或更高版本
   
 代理Teams帐户必须设置为 TeamsOnly 模式。 不符合要求的代理不包括在呼叫路由列表中。 如果代理使用兼容的客户端，建议为呼叫队列启用会议模式。
 
@@ -162,7 +218,15 @@ Teams在呼叫者在队列中处于保留状态时为其提供默认音乐。 Te
 > [!TIP]
 > 建议设置“将 **会议模式** 设置为 **打开** ”。
 
-**路由方法** 确定代理从队列接收呼叫的顺序。 从以下选项中进行选择：
+选择呼叫应答选项后，选择 **“添加呼叫队列**”页底部的 **“下一步**”按钮。
+
+# <a name="step-4---agent-routing"></a>[步骤 4 - 代理路由](#tab/agent-routing)
+
+## <a name="step-4-select-your-agent-routing-options"></a>步骤 4：选择代理路由选项
+
+**路由方法** 确定代理从队列接收呼叫的顺序。
+
+从以下选项中进行选择：
 
 - **助理路由** 同时将队列中的所有代理都响铃。 第一个接听呼叫的呼叫代理获取呼叫。
 
@@ -170,28 +234,36 @@ Teams在呼叫者在队列中处于保留状态时为其提供默认音乐。 Te
 
 - **轮循机制** 平衡传入调用的路由，以便每个调用代理从队列中获取相同数量的调用。 在入站销售环境中，可能需要使用此路由方法来保证所有调用代理之间的机会均等。
 
-- **最长的空闲** 路由每次调用已空闲时间最长的代理。 如果代理的状态可用，则代理被视为空闲状态。 在将状态更改为“可用”之前，其状态不可用的代理将无法接收呼叫。 
+- **最长的空闲** 路由每次调用已空闲时间最长的代理。 如果代理的状态可用，则代理被视为空闲状态。 在将状态更改为“可用”之前，其状态不可用的代理将无法接收呼叫。
 
-> [!TIP]
-> 建议设置将 **路由方法** 设置为 **轮循机制** 或 **最长空闲** 状态。
+建议将 **路由方法** 设置为 **轮循机制** 或 **最长空闲**。
 
 > [!NOTE]
 > 如果代理上启用了 [合规性录制](teams-recording-policy.md) ，则不支持 **会议模式** 和 **助理路由** 的组合。 如果需要使用 **会议模式**，请选择 **串行路由**、 **轮循机制** 或 **“最长空闲”** 作为 **路由方法**。 如果需要使用 **助理路由**，请将 **会议模式** 设置为 **“关闭**”。
-> 
+>
 > 使用 **最长空闲** 状态时，当队列中的呼叫少于可用代理时，只有前两个最长的空闲代理会显示来自队列的调用。
-> 
+>
 > 使用 **最长空闲** 时，有时代理在不可用后不久收到队列的呼叫，或在可用后从队列接收呼叫时出现短暂延迟。
-> 
+>
 > 对代理的呼叫队列调用演示可能与基于位置的路由限制冲突。 在这种情况下，代理将收到调用 toast，但无法接听呼叫。 此条件将继续，直到另一个代理可用于接听呼叫、调用方挂起或呼叫队列超时条件发生。  
 
+### <a name="presence-based-call-routing"></a>基于状态的呼叫路由
 
-![路由、选择退出和警报时间设置的屏幕截图。](media/call-queue-presence-agents-time.png)
+**基于状态的呼叫路由** 使用调用代理的可用性状态来确定是否应将代理包含在所选路由方法的呼叫路由列表中。
 
-**基于状态的路由** 使用调用代理的可用性状态来确定是否应将代理包含在所选路由方法的呼叫路由列表中。 可用性状态设置为 **“可用”** 的呼叫代理包含在呼叫路由列表中，可以接收呼叫。 其可用性状态设置为任何其他状态的代理将从呼叫路由列表中排除，并且在可用性状态更改回 **“可用**”之前不会接收呼叫。 
+可用性状态设置为 **“可用”** 的呼叫代理包含在呼叫路由列表中，可以接收呼叫。 其可用性状态设置为任何其他状态的代理将从呼叫路由列表中排除，并且在可用性状态更改回 **“可用**”之前不会接收呼叫。
 
-可以使用任何路由方法启用基于状态的调用路由。
+可以使用任何路由方法启用 **基于状态的调用路由** 。
 
-如果代理选择不接听呼叫，则无论其可用性状态设置为何种，它们都不会包含在呼叫路由列表中。 
+如果代理选择不接听呼叫，则无论其可用性状态设置为何种，它们都不会包含在呼叫路由列表中。
+
+建议启用 **基于状态的路由**。
+
+### <a name="call-agents-can-opt-out-of-taking-calls"></a>呼叫代理可以选择不接听呼叫
+
+可以指定呼叫代理是否能够选择不接听呼叫。
+
+建议启用 **呼叫代理可以选择不接听呼叫**。
 
 > [!NOTE]
 > 选择 **“最长空闲时间** ”作为路由方法时，需要并自动启用基于状态的路由，即使基于状态的路由切换将 **关闭** 并灰显。
@@ -199,46 +271,60 @@ Teams在呼叫者在队列中处于保留状态时为其提供默认音乐。 Te
 > 如果未启用基于状态的路由，并且队列中有多个调用，系统会同时向代理提供这些调用，而不管代理的状态如何。 此操作将导致向代理发出多个呼叫通知，特别是当某些代理未响应向其发出的初始调用时。
 >
 > 使用 **基于状态的路由** 时，有时代理在不可用后不久收到来自队列的呼叫，或在可用后接收来自队列的呼叫的短暂延迟。
-> 
+>
 > 启用基于状态的路由时，使用Skype for Business客户端的代理不会包含在呼叫路由列表中。 如果代理使用Skype for Business，请勿启用基于状态的呼叫路由。
 
-> [!TIP]
-> 建议将 **基于状态的路由** 设置为 **“打开** ”。
+### <a name="agent-alert-time"></a>代理警报时间
 
 **代理警报时间** 指定在队列将呼叫重定向到下一个代理之前代理的电话将响多长时间。
 
-> [!TIP]
-> 建议将 **代理警报时间** 设置为 **20 秒** 。
+建议将 **代理警报时间** 设置为 **20 秒**。
 
-> [!NOTE]
-> [调用超时处理](#call-timeout-handling)设置优先于代理警报时间。 如果已达到为呼叫超时处理配置的最大队列时间，即使尚未达到代理警报时间限制，调用也将从代理 () 中拉回。
+选择代理呼叫路由选项后，选择 **“添加呼叫队列**”页底部的 **“下一步**”按钮。
 
-## <a name="call-overflow-handling"></a>呼叫溢出处理
+# <a name="step-5---call-overflow"></a>[步骤 5 - 呼叫溢出](#tab/call-overflow)
 
-![呼叫溢出设置的屏幕截图。](media/call-queue-overflow-handling.png)
+## <a name="step-5-set-how-to-handle-call-overflow"></a>步骤 5：设置如何处理呼叫溢出
 
-**队列中的最大调用** 指定可在任何给定时间在队列中等待的最大调用数。 默认值为 50，但范围为 0 到 200。 达到此限制后，将按照 **达到最大呼叫数** 的设置指定处理调用。
+**队列中的最大调用** 指定可在任何给定时间在队列中等待的最大调用数。
 
-可以选择断开呼叫连接或将其重定向到任何呼叫路由目标。 例如，你可能让调用方为队列中的代理保留语音邮件。 有关外部传输，请参阅 [先决条件](plan-auto-attendant-call-queue.md#prerequisites) 和 [外部电话号码传输 - 数字格式的技术详细信息](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) 。
+默认值为 50，但范围为 0 到 200。
+
+达到此限制后，将按照 **达到最大呼叫数** 的设置指定处理调用。
+
+可以选择 **断开呼叫连接** 或将其 **重定** 向到任何呼叫路由目标。
+
+例如，你可能让调用方为队列中的代理保留语音邮件。
+
+有关外部传输，请参阅 [先决条件](./plan-auto-attendant-call-queue.md#prerequisites) 和 [外部电话号码传输 - 数字格式的技术详细信息](./create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) 。
 
 > [!NOTE]
 > 如果最大呼叫数设置为 0，则问候消息将不播放。
 >
 > 重定向到共享语音邮件时，请确保为Microsoft 365 管理中心中的团队/组启用 **此组织外部的人员电子邮件**。
 
+选择呼叫超时选项后，选择 **“添加呼叫队列**”页底部的 **“下一步**”按钮。
 
-## <a name="call-timeout-handling"></a>呼叫超时处理
+# <a name="step-6---call-timeout"></a>[步骤 6 - 调用超时](#tab/call-timeout)
 
-![呼叫超时设置的屏幕截图。](media/call-queue-timeout-handling.png)
+## <a name="step-6-set-how-to-handle-call-timeouts"></a>步骤 6：设置如何处理呼叫超时
 
-**呼叫超时：最大等待时间** 指定调用在重定向或断开连接之前在队列中可以保持的最大时间。 可以指定从 0 秒到 45 分钟的值。
+**呼叫超时：最大等待时间** 指定调用在重定向或断开连接之前在队列中可以保持的最大时间。
 
-可以选择断开呼叫连接或将其重定向到某个呼叫路由目标。 例如，你可能让调用方为队列中的代理保留语音邮件。 有关外部传输，请参阅 [先决条件](plan-auto-attendant-call-queue.md#prerequisites) 和 [外部电话号码传输 - 数字格式的技术详细信息](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) 。
+可以指定从 0 秒到 45 分钟的值。
+
+可以选择 **断开呼叫连接** 或将其 **重定** 向到某个呼叫路由目标。
+
+例如，你可能让调用方为队列中的代理保留语音邮件。
+
+有关外部传输，请参阅 [先决条件](./plan-auto-attendant-call-queue.md#prerequisites) 和 [外部电话号码传输 - 数字格式的技术详细信息](./create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) 。
 
 > [!NOTE]
 > 重定向到共享语音邮件时，请确保为Microsoft 365 管理中心中的团队/组启用 **此组织外部的人员电子邮件**。
 
-选择呼叫超时选项后，单击“ **保存**”。
+选择代理呼叫路由选项后，选择 **“添加呼叫队列**”页底部的“**提交**”按钮。
+
+# <a name="additional-resources"></a>[其他资源](#tab/additional-resources)
 
 ## <a name="summary-of-recommended-call-queue-settings"></a>建议的呼叫队列设置摘要
 
@@ -248,7 +334,6 @@ Teams在呼叫者在队列中处于保留状态时为其提供默认音乐。 Te
 - **路由方法** 到 **轮循机制** 或 **最长空闲**
 - **基于状态的路由** 到 **On**
 - **代理警报时间：** 至 **20 秒**
-
 
 ## <a name="call-queue-feature-compatibility"></a>呼叫队列功能兼容性
 
@@ -277,99 +362,43 @@ Teams在呼叫者在队列中处于保留状态时为其提供默认音乐。 Te
 |**杂项**                |                          |          |                |     |          |                      |                          |   |
 |`Call toast shows Resource Account Name` |Y                 |N         |Y               |Y    |          |Y                     |Y                         |              |
 
-注意：
+### <a name="notes"></a>注释
+
 1. Microsoft Teams Windows客户端，Microsoft Teams Mac 客户端，Microsoft Teams虚拟化桌面基础结构。
 2. Microsoft Teams iPhone应用，Microsoft Teams Android应用。
 3. 为代理路由方法选择“最长空闲时间”将自动启用基于状态的路由。
 4. 只能在将单个用户添加为标准呼叫队列的一部分时设置顺序。 使用分发列表或Teams通道时，顺序将按字母顺序排列。
 5. 如果电话呼叫从启用了基于位置的路由的直接路由网关路由到队列，则不支持会议模式。
 6. 仅Microsoft Teams 电话。
-7. 通过“用户设置门户”页。https://aka.ms/vmsettings
+7. 通过“用户设置门户”页。[https://aka.ms/vmsettings](https://aka.ms/vmsettings)
 8. 仅支持公共频道。
 9. 自动助理和呼叫队列无法在 PSTN 连接方法之间传输调用。
-
 
 ## <a name="supported-clients"></a>支持的客户端
 
 呼叫队列中的呼叫代理支持以下客户端：
 
-  - Skype for Business桌面客户端 2016 (32 位和 64 位版本) 
-  - Lync 桌面客户端 2013 (32 位和 64 位版本) 
-  - Microsoft Teams支持的所有 IP 手机型号。 请参阅[获取适用于 Skype for Business Online 的电话](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online)。
-  - Mac Skype for Business 客户端（版本 16.8.196 及更高版本）
-  - Android Skype for Business 客户端（版本 6.16.0.9 及更高版本）
-  - iPhone Skype for Business 客户端（版本 6.16.0 及更高版本）
-  - iPad Skype for Business 客户端（版本 6.16.0 及更高版本）
-  - Microsoft Teams Windows客户端 (32 位和 64 位版本) 
-  - Microsoft Teams Mac 客户端
-  - 虚拟[化桌面基础](/microsoftteams/teams-for-vdi)结构 (Windows虚拟桌面、Citrix 和 VMware) 上的Microsoft Teams
-  - Microsoft Teams iPhone 应用
-  - Microsoft Teams Android 应用
+- Skype for Business桌面客户端 2016 (32 位和 64 位版本) 
+- Lync 桌面客户端 2013 (32 位和 64 位版本) 
+- Microsoft Teams支持的所有 IP 手机型号。 请参阅[获取适用于 Skype for Business Online 的电话](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online)。
+- Mac Skype for Business 客户端（版本 16.8.196 及更高版本）
+- Android Skype for Business 客户端（版本 6.16.0.9 及更高版本）
+- iPhone Skype for Business 客户端（版本 6.16.0 及更高版本）
+- iPad Skype for Business 客户端（版本 6.16.0 及更高版本）
+- Microsoft Teams Windows客户端 (32 位和 64 位版本) 
+- Microsoft Teams Mac 客户端
+- 虚拟[化桌面基础](teams-for-vdi.md)结构 (Windows虚拟桌面、Citrix 和 VMware) 上的Microsoft Teams
+- Microsoft Teams iPhone 应用
+- Microsoft Teams Android 应用
 
-    > [!NOTE]
-    > 分配有直接路由号码的呼叫队列不支持Skype for Business客户端、Lync 客户端或Skype for Business IP Phone 作为代理。 Teams客户端仅支持 [TeamsOnly 共存模式](/microsoftteams/setting-your-coexistence-and-upgrade-settings)。
-
-## <a name="call-queue-cmdlets"></a>呼叫队列 cmdlet
-
-Windows PowerShell允许你通过命令行以批处理或编程方式创建和管理呼叫队列。
-
-使用以下 cmdlet 可以管理呼叫队列：
-
-- [New-CsCallQueue](/powershell/module/skype/New-CsCallQueue)
-- [Get-CsCallQueue](/powershell/module/skype/Get-CsCallQueue)
-- [Set-CsCallQueue](/powershell/module/skype/Set-CsCallQueue)
-- [Remove-CsCallQueue](/powershell/module/skype/Remove-CsCallQueue)
-
-还需要以下附加 cmdlet 来管理将用于呼叫队列的用户、资源帐户、Microsoft Teams 电话许可证、电话号码、音频文件和支持的语言：
-
-用户/Teams
-
-- 用户
-- - [Get-CsOnlineUser](/powershell/module/skype/Get-CsOnlineUser)
-
-- Teams： 
-- - [Get-Team](/powershell/module/teams/Get-Team)
-- - [Get-TeamChannel](/powershell/module/teams/Get-TeamChannel)
-
-资源帐户：
-
-- [New-CsOnlineApplicationInstance](/powershell/module/skype/New-CsOnlineApplicationInstance)
-- [Find-CsOnlineApplicationInstance](/powershell/module/skype/Find-CsOnlineApplicationInstance)
-- [Get-CsOnlineApplicationInstance](/powershell/module/skype/Get-CsOnlineApplicationInstance)
-- [Set-CsOnlineApplicationInstance](/powershell/module/skype/Set-CsOnlineApplicationInstance)
-- [New-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/New-CsOnlineApplicationInstanceAssociation)
-- [Get-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/Get-CsOnlineApplicationInstanceAssociation)
-- [Remove-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/Remove-CsOnlineApplicationInstanceAssociation)
-- [Get-CsOnlineApplicationInstanceAssociationStatus](/powershell/module/skype/Get-CsOnlineApplicationInstanceAssociationStatus)
-
-虚拟Teams 电话许可证：
-
-- [Get-MsolAccountSku](/powershell/module/msonline/get-msolaccountsku)
-- [Set-MsolUserLicense](/powershell/module/msonline/set-msoluserlicense)
-
-电话数字分配：
-
-- [Get-CsOnlineTelephoneNumber](/powershell/module/skype/Get-CsOnlineTelephoneNumber)
-- [Set-CsPhoneNumberAssignment](/powershell/module/teams/Set-csphonenumberassignment)
-
-音频文件
-
-- [Get-CsOnlineAudioFile](/powershell/module/skype/Get-CsOnlineAudioFile)
-- [Import-CsOnlineAudioFile](/powershell/module/skype/Import-CsOnlineAudioFile)
-- [Export-CsOnlineAudioFile](/powershell/module/skype/Export-CsOnlineAudioFile)
-- [Remove-CsOnlineAudioFile](/powershell/module/skype/Remove-CsOnlineAudioFile)
-
-支持语言列表
-
-- [Get-CsAutoAttendantSupportedLanguage](/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage)
-
-有关使用 PowerShell 创建呼叫队列的分步指南，请参阅使用 [PowerShell cmdlet 创建呼叫队列](create-a-phone-system-call-queue-via-cmdlets.md)
+  > [!NOTE]
+  > 分配有直接路由号码的呼叫队列不支持Skype for Business客户端、Lync 客户端或Skype for Business IP Phone 作为代理。 仅Teams共[存模式支持Teams](setting-your-coexistence-and-upgrade-settings.md)客户端。
 
 ## <a name="call-queue-diagnostic-tool"></a>呼叫队列诊断工具
 
 如果你是管理员，则可以使用以下诊断工具来验证呼叫队列是否能够接收呼叫：
 
-1. 选择下面 **运行测试**，这将在 Microsoft 365 管理中心中弹出诊断结果。 
+1. 选择下面 **运行测试**，这将在 Microsoft 365 管理中心中弹出诊断结果。
 
    > [!div class="nextstepaction"]
    > [运行测试：Teams呼叫队列](https://aka.ms/TeamsCallQueueDiag)
@@ -377,6 +406,8 @@ Windows PowerShell允许你通过命令行以批处理或编程方式创建和�
 2. 在“运行诊断”窗格中，在 **“用户名”或“电子邮件** ”字段中输入资源帐户，然后选择 **“运行测试**”。
 
 3. 测试将返回处理任何租户、策略和资源帐户配置的最佳后续步骤，以验证呼叫队列是否能够接收呼叫。
+
+---
 
 ## <a name="related-topics"></a>相关主题
 
