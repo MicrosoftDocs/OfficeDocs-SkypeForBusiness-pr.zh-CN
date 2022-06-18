@@ -805,11 +805,13 @@ items:
                 href: more-about-calling-line-id-and-calling-party-name.md
           - name: 自动助理和呼叫队列
             items:
-              - name: 规划
+              - name: 规划自动助理和呼叫队列
                 href: plan-auto-attendant-call-queue.md
-              - name: 自动助理设置
+              - name: 规划呼叫路由流
+                href: plan-your-call-routing-flow.md
+              - name: 设置自动助理
                 href: create-a-phone-system-auto-attendant.md
-              - name: 呼叫队列设置
+              - name: 设置呼叫队列
                 href: create-a-phone-system-call-queue.md
               - name: 管理 Teams 资源帐户
                 href: manage-resource-accounts.md
@@ -819,6 +821,8 @@ items:
                 href: answer-auto-attendant-and-call-queue-calls.md
               - name: 报表
                 href: aa-cq-cqd-historical-reports.md
+              - name: 自动助理和呼叫队列的 PowerShell cmdlet 参考
+                href: call-queue-auto-attendant-cmdlets.md
               - name: 拨号和语音参考
                 href: dial-voice-reference.md
           - name: 阻止拨入通话
@@ -1056,7 +1060,7 @@ items:
               - name: 步骤 5：向用户分配电话号码
                 href: business-voice/set-up-assign-numbers.md
               - name: 步骤 6：设置自动助理
-                href: business-voice/set-up-auto-attendant.md
+                href: create-a-phone-system-auto-attendant.md
               - name: 步骤 7：端口电话号码（可选）
                 href: business-voice/port-phone-numbers.md
               - name: 设置后的资源
@@ -1072,13 +1076,9 @@ items:
               - name: 创建更多用户
                 href: business-voice/create-users.md
               - name: 设置呼叫队列
-                href: business-voice/create-a-phone-system-call-queue-smb.md
-              - name: 设置自动助理
-                href: business-voice/create-a-phone-system-auto-attendant-smb.md
+                href: create-a-phone-system-call-queue.md
           - name: 管理电话系统设置
             items:
-              - name: 创建一个或多个用户
-                href: business-voice/create-users.md
               - name: 管理设备
                 href: business-voice/manage-devices.md
               - name: 监视通话质量
@@ -1793,7 +1793,7 @@ items:
             href: teams-add-on-licensing/advanced-communications.md
           - name: 消息策略许可
             href: teams-add-on-licensing/pri-message.md
-          - name: Microsoft 365 电话系统 - 虚拟用户许可证
+          - name: Microsoft Teams 电话标准版 –虚拟用户许可证
             href: teams-add-on-licensing/virtual-user.md
           - name: Teams Essentials 入门
             href: get-started-with-teams-essentials.md
