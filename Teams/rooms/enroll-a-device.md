@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 将Teams 会议室设备载入托管服务
 f1keywords: ''
-ms.openlocfilehash: d40daed54a04ca7d9949ecc63f57c379aee6b666
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 901cf212d6eaeb7ca98b8a158de517b0687ba517
+ms.sourcegitcommit: 5bb00d639828c744951a39705fefe81ed6698efe
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675784"
+ms.lasthandoff: 06/20/2022
+ms.locfileid: "66167316"
 ---
 # <a name="enroll-device-into-managed-service"></a>将设备注册到托管服务
 
@@ -85,10 +85,10 @@ ms.locfileid: "65675784"
 > [!NOTE]
 > 如果计算机 *已加入域*，请选择 **“其他用户**”，然后使用 **.\admin** 或设备中配置为用户名的本地管理员的用户名。
 
-执行必要的管理任务后返回到 Microsoft Teams Room 应用：
+执行必要的管理任务后返回到Microsoft Teams 会议室应用：
 
 1. 从Windows ***"开始"菜单***，从管理员帐户注销。
-1. 通过选择屏幕最左侧的用户帐户图标，然后选择Skype，返回到 **Microsoft Teams** 会议室。
+1. 通过选择屏幕最左侧的用户帐户图标，然后选择Skype，返回 **到Microsoft Teams 会议室**。
 
 > [!NOTE]
 > 如果未列出Skype用户，请选择“其他用户”并输入 ***.\skype*** 作为用户名，然后登录。
