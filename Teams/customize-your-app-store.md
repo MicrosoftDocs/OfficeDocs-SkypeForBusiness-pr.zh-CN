@@ -17,13 +17,13 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 了解如何在Microsoft Teams中自定义组织的应用商店。
-ms.openlocfilehash: 18ea62e608fe7f357ca0848a1b39fa5a337c7442
-ms.sourcegitcommit: b8098d6ea36f10ee3a630a230ebd84bc2d96e37a
+description: 了解如何通过添加徽标、自定义背景和自定义文本颜色来自定义组织的Teams应用商店。
+ms.openlocfilehash: a838164ffc9d2403d4755cdef8b1bdcdb153958e
+ms.sourcegitcommit: 9946c6c1faa78617ccd7bdf115457090ebce5619
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/31/2022
-ms.locfileid: "65780628"
+ms.lasthandoff: 06/21/2022
+ms.locfileid: "66190302"
 ---
 # <a name="customize-your-organizations-app-store-in-microsoft-teams"></a>在Microsoft Teams中自定义组织的应用商店
 

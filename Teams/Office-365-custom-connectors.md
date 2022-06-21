@@ -13,16 +13,16 @@ ms.reviewer: lucarras
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 连接器可将内容和更新从你经常使用的服务直接传递到频道中，从而使你的团队能够获得最新内容。
+description: 了解连接器如何通过经常将内容和更新直接传送到所用服务的Teams通道来使团队保持更新。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2dea5ee50d75ff8913bc88f2f3947d9f665cb4dd
-ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
+ms.openlocfilehash: de0c0398d511aca05a69220e0e35a28268535c59
+ms.sourcegitcommit: 9946c6c1faa78617ccd7bdf115457090ebce5619
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65137013"
+ms.lasthandoff: 06/21/2022
+ms.locfileid: "66190442"
 ---
 # <a name="manage-microsoft-365-and-custom-connectors"></a>管理Microsoft 365和自定义连接器
 

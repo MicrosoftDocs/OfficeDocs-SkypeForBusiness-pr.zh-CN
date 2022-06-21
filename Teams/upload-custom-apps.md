@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何在Microsoft Teams管理中心将自定义应用上传到组织的应用商店。
-ms.openlocfilehash: 33f2a1234c041029b44f63f42f224784cc487fdc
-ms.sourcegitcommit: e38dc23e3968f55625e90c8883884045f80d22ee
+ms.openlocfilehash: 01a74422ef5bc1f9c63c6ea1c7ecf2e05cc377a4
+ms.sourcegitcommit: 9946c6c1faa78617ccd7bdf115457090ebce5619
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "66124347"
+ms.lasthandoff: 06/21/2022
+ms.locfileid: "66190352"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>通过上传应用包发布自定义应用
 
@@ -41,7 +41,7 @@ Microsoft Teams开发人员平台使开发人员能够轻松集成自己的应�
 
 ### <a name="get-the-app-package"></a>获取应用包
 
-当应用准备好在生产环境中使用时，开发人员将生成一个应用包。 他们可以为此使用 [App Studio](/microsoftteams/platform/concepts/build-and-test/app-studio-overview) 。 他们将以.zip格式向你发送文件。
+当应用准备好在生产环境中使用时，开发人员应生成一个应用包。 他们可以使用 [App Studio](/microsoftteams/platform/concepts/build-and-test/app-studio-overview)。 他们将以.zip格式向你发送文件。
 
 Teams应用商店中的所有应用都通过强制[应用验证](overview-of-app-validation.md)，以符合全球Teams应用商店的质量和安全标准。 此外，Microsoft 强烈鼓励应用开发人员参与可选 [应用符合性计划，该计划](overview-of-app-certification.md) 指示增强的合规性、安全和隐私控制。 有关详细信息，请参阅[Teams应用验证指南](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/teams-store-validation-guidelines)。
 

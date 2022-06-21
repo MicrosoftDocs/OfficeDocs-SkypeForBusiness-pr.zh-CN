@@ -17,13 +17,13 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 了解如何在Microsoft Teams中自定义应用。
-ms.openlocfilehash: 3f8a8a3c1922de230573628926a1aff2eee6ee06
-ms.sourcegitcommit: e38dc23e3968f55625e90c8883884045f80d22ee
+description: 了解如何通过编辑应用详细信息和元数据来更改应用的外观并重塑应用的品牌。
+ms.openlocfilehash: 62924c6b3ffb4561427d921a4edc26d4888b4d6b
+ms.sourcegitcommit: 9946c6c1faa78617ccd7bdf115457090ebce5619
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "66124367"
+ms.lasthandoff: 06/21/2022
+ms.locfileid: "66190342"
 ---
 # <a name="customize-appearance-of-apps-in-your-organizations-teams-store"></a>自定义组织Teams存储中的应用外观
 

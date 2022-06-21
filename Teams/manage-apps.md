@@ -13,16 +13,16 @@ ms.reviewer: vaibhava
 search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.manageapps.overview
-description: 了解如何在Microsoft Teams管理中心的“管理应用”页上管理Teams应用。
+description: 了解如何管理Teams应用。 了解如何允许或阻止应用、检查组织级别状态和应用属性、上传自定义应用和管理应用设置。
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: b73041f85abceeaa7eb6817fea040bd1912ba961
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
+ms.openlocfilehash: 8ff77c528f51fa1c3cf21e0fce636a664291d3ce
+ms.sourcegitcommit: 9946c6c1faa78617ccd7bdf115457090ebce5619
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66045971"
+ms.lasthandoff: 06/21/2022
+ms.locfileid: "66190513"
 ---
 # <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>在Microsoft Teams管理中心管理Teams应用
 

@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: ''
 search.appverid: ''
-description: 了解Teams应用程序中的策略。
+description: 了解用于管理Microsoft Teams中的应用的应用权限策略、应用设置策略和自定义应用策略。
 audience: admin
 ms.localizationpriority: medium
 MS.collection:
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95adb8d95f003dc85596a55b16af594be828a1c2
-ms.sourcegitcommit: 06d1c50c9b55b062d61844a856676d9837fd5abe
+ms.openlocfilehash: bea917ef962d0ba6af80a04c375a95d70bf0dec7
+ms.sourcegitcommit: 9946c6c1faa78617ccd7bdf115457090ebce5619
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65030878"
+ms.lasthandoff: 06/21/2022
+ms.locfileid: "66190332"
 ---
 # <a name="overview-of-app-policies-used-to-manage-apps-in-microsoft-teams"></a>用于在Microsoft Teams中管理应用的应用策略概述
 

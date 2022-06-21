@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7c26f70bb6592c418968b77c9ef2a495cb98648a
-ms.sourcegitcommit: e99471689ff60f9ab1095bc075f8b4c5569c9634
+ms.openlocfilehash: 6a38bfbcc8ec7de5e9c1535b1a597b534e46d009
+ms.sourcegitcommit: 9946c6c1faa78617ccd7bdf115457090ebce5619
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/02/2022
-ms.locfileid: "65860793"
+ms.lasthandoff: 06/21/2022
+ms.locfileid: "66190612"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>在Microsoft Teams 教育版中设置父连接
 
@@ -41,12 +41,11 @@ Teams 教育版中的家长连接可帮助教师使用Teams安全地与班级团
 
 家长连接允许教师和监护人使用Teams聊天、发送电子邮件和呼叫。
 
-- Teams保护者联系人数据在 SIS 中使用学校数据同步 (SDS) 保持最新状态。
+- 教师可以与监护人开始聊天。
+  - 如果监护人没有Teams使用者帐户，他们将收到来自教师的初始消息和电子邮件邀请，邀请他们转到Teams。
 - 它适用于监督聊天。 有关详细信息，请参阅[Microsoft Teams中使用监督式聊天](supervise-chats-edu.md)。
   - 默认情况下，监护人具有受限权限，因此他们无法与学生聊天或从聊天中删除用户。
   - 租户管理员可以更改此设置。
-- 教师可以与监护人开始聊天。
-  - 如果监护人没有Teams使用者帐户，他们将收到来自教师的初始消息和电子邮件邀请，邀请他们转到Teams。
 - 教师可以单击监护人的电子邮件，使用本机电子邮件客户端向他们发送电子邮件。
 - 教师可以单击监护人的电话号码，在Teams中呼叫他们。
 
@@ -66,7 +65,17 @@ Teams 教育版中的家长连接可帮助教师使用Teams安全地与班级团
 
 ## <a name="requirements"></a>要求
 
+你需要使用 Microsoft Graph或学校数据同步 (SDS) 来填充每个学生的家长和监护人相关的联系信息。
+
+### <a name="graph-api"></a>Graph API
+
+如果已使用 [Microsoft Graph PowerShell SDK](/powershell/microsoftgraph/overview) 创建学生标识，则可以轻松包含[相关Contact 资源类型](/graph/api/resources/relatedcontact)。
+
 ### <a name="school-data-sync"></a>学校数据同步
+
+Teams在设置为定期同步SDS时，使用 学校数据同步 (SDS) 在 SIS 中保持最新联系人数据。
+
+如果从 *学生* 记录中删除监护人，任何涉及他们的现有聊天都将包含聊天所有者可见的横幅。 此横幅将使聊天所有者意识到更改，要求他们从聊天中删除监护人。 Microsoft 不会自动更新聊天成员身份以删除监护人。
 
 - 你需要学校数据同步 (SDS) 来填充每个学生的家长和监护人 **相关的联系** 信息。
   - [部署 SDS](/schooldatasync/parents-and-guardians-in-sds)

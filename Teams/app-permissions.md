@@ -12,19 +12,19 @@ ms.collection:
 - M365-collaboration
 search.appverid: MET150
 ms.reviewer: rowille
-description: 管理员可以了解应用Microsoft Teams从其组织请求的数据和权限。
+description: 管理员可以了解Microsoft Teams应用从其组织请求的数据和权限。
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a9ce3fccd8974bd7f8cba04d01bf16738772ea11
-ms.sourcegitcommit: e38dc23e3968f55625e90c8883884045f80d22ee
+ms.openlocfilehash: 925136660ef6adda6374fab1acccf10a2b9f1722
+ms.sourcegitcommit: 9946c6c1faa78617ccd7bdf115457090ebce5619
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "66124177"
+ms.lasthandoff: 06/21/2022
+ms.locfileid: "66190282"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Microsoft Teams 应用权限和考虑事项
 
@@ -73,13 +73,13 @@ Microsoft Teams应用是将一个或多个功能聚合到可安装、升级和�
 
 * POST_MESSAGE_TEAM：允许应用的机器人随时向团队成员发送直接 (主动) 消息，即使用户从未与机器人交互。
 
-* 下面不是显式权限，但由RECEIVE_MESSAGE和REPLYTO_MESSAGE以及机器人可使用的范围（在清单中声明）隐含：
+* 下面不是显式权限，但由RECEIVE_MESSAGE和REPLYTO_MESSAGE以及机器人可以使用的范围（在清单中声明）隐含：
 
   * RECEIVE_MESSAGE_PERSONAL、REPLYTO_MESSAGE_PERSONAL
   * RECEIVE_MESSAGE_GROUPCHAT、REPLYTO_MESSAGE_GROUPCHAT
   * RECEIVE_MESSAGE_TEAM、REPLYTO_MESSAGE_TEAM
 
-* 下面不是显式权限，但由RECEIVE_MESSAGE和REPLYTO_MESSAGE以及机器人可使用的范围（在清单中声明）隐含：
+* 下面不是显式权限，但由RECEIVE_MESSAGE和REPLYTO_MESSAGE以及机器人可以使用的范围（在清单中声明）隐含：
 
   * RECEIVE_MESSAGE_PERSONAL、REPLYTO_MESSAGE_PERSONAL
   * RECEIVE_MESSAGE_GROUPCHAT、REPLYTO_MESSAGE_GROUPCHAT
