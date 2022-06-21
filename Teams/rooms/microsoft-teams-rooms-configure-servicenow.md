@@ -1,9 +1,9 @@
 ---
 title: 为 Teams 会议室 配置 ServiceNow
-author: dstrome
-ms.author: dstrome
+author: donnah007
+ms.author: v-donnahill
 manager: serdars
-ms.reviewer: ''
+ms.reviewer: ronmart
 ms.topic: article
 ms.service: msteams
 audience: Admin
@@ -12,18 +12,21 @@ appliesto:
 localization_priority: Normal
 description: 了解如何在 Teams 会议室 高级版 门户中配置 ServiceNow
 f1keywords: ''
-ms.openlocfilehash: c11a4e3cf4f128c8043ad2451f7d0a7a2ffe1c2e
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: 6362d0bed4263ce374c1fb5cfd05d4d8815044c2
+ms.sourcegitcommit: 5bb00d639828c744951a39705fefe81ed6698efe
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65761494"
+ms.lasthandoff: 06/20/2022
+ms.locfileid: "66167306"
 ---
 # <a name="configure-servicenow-for-teams-rooms"></a>为 Teams 会议室 配置 ServiceNow
 
 本文介绍在Teams 会议室 高级版门户中配置 ServiceNow 环境的先决条件和步骤。
 
-## <a name="before-you-begin"></a>开始之前
+## <a name="watch-microsoft-teams-rooms--managed-services-service-now-integration"></a>观看：Microsoft Teams 会议室 - 托管服务现在集成
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4ZK4B]
+
 
 ### <a name="teams-rooms-prerequisites"></a>Teams 会议室先决条件
 
@@ -76,7 +79,7 @@ ms.locfileid: "65761494"
 
 - **assignment_group**：ServiceNow 中的分配组字段用于组织事件。 分配组等效于Teams 会议室 高级版门户中的会议室组。 默认情况下，有一个会议室组，可以添加更多。 你决定有多少组以及如何对事件进行分组。 例如，可以选择按位置组织事件。
 
-- **严重性**：ServiceNow 中的严重性字段用于按优先级组织事件。 指定优先级的值是可自定义的。 严重性等效于Teams 会议室 高级版门户中的 Ring 字段。 若要在Teams 会议室 高级版门户中自定义环，请转到左侧导航菜单中的 **“更新**”。 然后转到 **“指环”** 选项卡，然后选择 **“添加戒指**”。
+- **严重性**：ServiceNow 中的严重性字段用于按优先级组织事件。 指定优先级的值是可自定义的。 严重性等效于Teams 会议室 高级版门户中的 Ring 字段。 若要在Teams 会议室 高级版门户中自定义环，请转到左侧导航菜单中的 **更新**。 然后转到 **“指环”** 选项卡，然后选择 **“添加戒指**”。
 
 - **注释**：注释是 ServiceNow 中的可选字段，用于在Teams 会议室 高级版门户配置中包含 ServiceNow 实例中的自定义必需字段。 等效的注释是Teams 会议室 高级版门户中的自定义值。
 
