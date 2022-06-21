@@ -3,6 +3,38 @@
 
 
 
+## <a name="week-of-june-13-2022"></a>2022 年 6 月 13 日当周
+
+
+| 发布日期 |主题标题 | 更改 |
+|------|------------|--------|
+| 6/13/2022 | [在Microsoft Teams中创建呼叫队列](/MicrosoftTeams/create-a-phone-system-call-queue) | 修改内容 |
+| 6/13/2022 | [使用Power BI分析Microsoft Teams的 CQD 数据](/MicrosoftTeams/cqd-power-bi-query-templates) | 修改内容 |
+| 6/13/2022 | [从商务语音移动到Teams 电话许可证](/MicrosoftTeams/business-voice-to-teams-phone-licenses) | 修改内容 |
+| 6/13/2022 | [在对 Microsoft Teams 进行故障排除时使用日志文件](/MicrosoftTeams/log-files) | 修改内容 |
+| 6/13/2022 | [数据和隐私信息](/MicrosoftTeams/rooms/data-and-privacy-info) | 修改内容 |
+| 6/13/2022 | [Microsoft Teams 会议室更新管理](/MicrosoftTeams/rooms/update-management) | 修改内容 |
+| 6/15/2022 | [Teams PowerShell 模块 - 支持的版本](/MicrosoftTeams/teams-powershell-supported-versions) | 修改内容 |
+| 6/16/2022 | [自动助理和呼叫队列的 PowerShell cmdlet 参考](/MicrosoftTeams/call-queue-auto-attendant-cmdlets) | 添加内容 |
+| 6/16/2022 | [为Microsoft Teams规划呼叫路由流](/MicrosoftTeams/plan-your-call-routing-flow) | 添加内容 |
+| 6/16/2022 | [Microsoft Teams 应用权限和考虑事项](/MicrosoftTeams/app-permissions) | 修改日期 |
+| 6/16/2022 | [为用户分配、更改或删除电话号码](/MicrosoftTeams/assign-change-or-remove-a-phone-number-for-a-user) | 修改内容 |
+| 6/16/2022 | 为Microsoft Teams设置自动助理 - 小型企业教程 | 删除内容 |
+| 6/16/2022 | 在Microsoft Teams 电话系统中创建呼叫队列 - 小型企业教程 | 删除内容 |
+| 6/16/2022 | [将Teams 电话系统电话号码分配给用户](/MicrosoftTeams/business-voice/set-up-assign-numbers) | 修改内容 |
+| 6/16/2022 | 为公司主电话号码设置自动助理 | 删除内容 |
+| 6/16/2022 | [设置Microsoft Teams 电话系统资源帐户](/MicrosoftTeams/business-voice/set-up-resource-account) | 修改内容 |
+| 6/16/2022 | [Teams 电话系统中小型企业指南](/MicrosoftTeams/business-voice/whats-business-voice) | 修改内容 |
+| 6/16/2022 | [为Microsoft Teams设置自动助理](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 修改内容 |
+| 6/16/2022 | [在Microsoft Teams中创建呼叫队列](/MicrosoftTeams/create-a-phone-system-call-queue) | 修改内容 |
+| 6/16/2022 | [修改组织Teams存储中应用的外观](/MicrosoftTeams/customize-apps) | 修改内容 |
+| 6/16/2022 | [自动助理和呼叫队列拨号和语音识别参考](/MicrosoftTeams/dial-voice-reference) | 修改内容 |
+| 6/16/2022 | [在 Teams 中管理资源帐户](/MicrosoftTeams/manage-resource-accounts) | 修改内容 |
+| 6/16/2022 | [规划Teams自动助理和呼叫队列](/MicrosoftTeams/plan-auto-attendant-call-queue) | 修改内容 |
+| 6/16/2022 | [在Microsoft Teams管理中心Upload自定义应用](/MicrosoftTeams/upload-custom-apps) | 修改内容 |
+| 6/16/2022 | [管理参与者和来宾的会议策略](/MicrosoftTeams/meeting-policies-participants-and-guests) | 修改内容 |
+
+
 ## <a name="week-of-june-06-2022"></a>2022 年 6 月 6 日当周
 
 
@@ -37,7 +69,7 @@
 | 6/1/2022 | [在Microsoft Teams中创建呼叫队列](/MicrosoftTeams/create-a-phone-system-call-queue) | 修改内容 |
 | 6/2/2022 | [Microsoft Teams 的硬件要求](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | 修改内容 |
 | 6/2/2022 | [Teams 策略中的特殊字符限制](/MicrosoftTeams/special-character-restrictions-in-policy-names) | 修改内容 |
-| 6/2/2022 | [Teams 教育版中“家长”的管理员设置](/MicrosoftTeams/edu-parents-app) | 修改内容 |
+| 6/2/2022 | [管理员在Teams 教育版中设置家长](/MicrosoftTeams/edu-parents-app) | 修改内容 |
 | 6/3/2022 | [Microsoft Teams EHR 连接器虚拟约会报表](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin-reports) | 修改内容 |
 
 
@@ -56,10 +88,10 @@
 | 5/25/2022 | [在 Microsoft Teams 中存档或删除团队](/MicrosoftTeams/archive-or-delete-a-team) | 修改内容 |
 | 5/25/2022 | [为用户分配、更改或删除电话号码](/MicrosoftTeams/assign-change-or-remove-a-phone-number-for-a-user) | 修改内容 |
 | 5/25/2022 | [音频会议拨出使用情况报告](/MicrosoftTeams/audio-conferencing-dial-out-usage-report) | 修改内容 |
-| 5/25/2022 | [音频会议的网络会议](/MicrosoftTeams/audio-conferencing-on-network) | 修改内容 |
+| 5/25/2022 | [网络会议音频会议](/MicrosoftTeams/audio-conferencing-on-network) | 修改内容 |
 | 5/25/2022 | [在 Microsoft Teams 中搜索审核日志查找事件](/MicrosoftTeams/audit-log-events) | 修改内容 |
 | 5/25/2022 | [阻止Microsoft Teams中的入站调用](/MicrosoftTeams/block-inbound-calls) | 修改内容 |
-| 5/25/2022 | [在音频会议桥上更改电话号码](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge) | 修改内容 |
+| 5/25/2022 | [更改音频会议桥上的电话号码](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge) | 修改内容 |
 | 5/25/2022 | [Microsoft Teams 教育版见解 IT 管理员指南](/MicrosoftTeams/class-insights) | 修改内容 |
 | 5/25/2022 | [设置 Microsoft Teams 的云视频互操作性](/MicrosoftTeams/cloud-video-interop-for-teams-set-up) | 修改内容 |
 | 5/25/2022 | [连接 Microsoft Teams 协作版 (AAD 标识) 到包含日历的现有电子邮件系统](/MicrosoftTeams/connect-teams-essentials-to-email) | 修改内容 |
@@ -77,7 +109,7 @@
 | 5/25/2022 | [使用 PSTN 的混合环境中的用户帐户](/MicrosoftTeams/direct-routing-user-accounts-in-a-hybrid-environment) | 修改内容 |
 | 5/25/2022 | [对内容进行电子数据展示调查](/MicrosoftTeams/ediscovery-investigation) | 修改内容 |
 | 5/25/2022 | [Teams 教育版策略向导轻松应用策略以进行安全学习](/MicrosoftTeams/easy-policy-setup-edu) | 修改内容 |
-| 5/25/2022 | [Teams 教育版中“家长”的管理员设置](/MicrosoftTeams/edu-parents-app) | 修改内容 |
+| 5/25/2022 | [管理员在Teams 教育版中设置家长](/MicrosoftTeams/edu-parents-app) | 修改内容 |
 | 5/25/2022 | [将学生信息系统 (SIS) 数据与教育版见解同步](/MicrosoftTeams/education-insights-sis-data-sync) | 修改内容 |
 | 5/25/2022 | [Teams 的分配](/MicrosoftTeams/expand-teams-across-your-org/assignments-in-teams) | 修改内容 |
 | 5/25/2022 | [使用 PowerShell 将班次连接到 Blue Yonder 员工管理](/MicrosoftTeams/expand-teams-across-your-org/shifts/shifts-connector-blue-yonder-powershell-setup) | 修改内容 |
@@ -153,22 +185,3 @@
 | 5/20/2022 | [管理直接路由的紧急呼叫路由策略](/MicrosoftTeams/manage-emergency-call-routing-policies) | 修改内容 |
 | 5/20/2022 | [在Microsoft Teams中管理紧急呼叫策略](/MicrosoftTeams/manage-emergency-calling-policies) | 修改内容 |
 | 5/20/2022 | [Microsoft Teams PowerShell 发行说明](/MicrosoftTeams/teams-powershell-release-notes) | 修改内容 |
-
-
-## <a name="week-of-may-09-2022"></a>2022 年 5 月 9 日当周
-
-
-| 发布日期 |主题标题 | 更改 |
-|------|------------|--------|
-| 5/9/2022 | [为用户启用直接路由](/MicrosoftTeams/direct-routing-enable-users) | 修改内容 |
-| 5/9/2022 | [配置运营商连接](/MicrosoftTeams/operator-connect-configure) | 修改内容 |
-| 5/9/2022 | [在Teams中分配策略](/MicrosoftTeams/policy-assignment-overview) | 修改内容 |
-| 5/9/2022 | [自动助理&调用队列历史报告](/MicrosoftTeams/aa-cq-cqd-historical-reports) | 修改内容 |
-| 5/10/2022 | [为直接路由计划基于位置的路由](/MicrosoftTeams/location-based-routing-plan) | 修改内容 |
-| 5/10/2022 | [Microsoft Teams中的调用策略：呼叫和呼叫转发功能](/MicrosoftTeams/teams-calling-policy) | 修改内容 |
-| 5/10/2022 | [Microsoft Teams 会议室应用版本支持](/MicrosoftTeams/rooms/rooms-lifecycle-support) | 修改内容 |
-| 5/12/2022 | [管理语音邮件策略](/MicrosoftTeams/manage-voicemail-policies) | 修改内容 |
-| 5/12/2022 | [配置 SIP 网关](/MicrosoftTeams/sip-gateway-configure) | 修改内容 |
-| 5/12/2022 | [Teams 教育版中“家长”的管理员设置](/MicrosoftTeams/edu-parents-app) | 修改内容 |
-| 5/13/2022 | [Microsoft Teams中的 Walkie Talkie 应用](/MicrosoftTeams/walkie-talkie) | 修改内容 |
-| 5/13/2022 | [Microsoft Teams 会议室要求](/MicrosoftTeams/rooms/requirements) | 修改内容 |
