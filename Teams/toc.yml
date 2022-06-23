@@ -429,7 +429,7 @@ items:
         href: teams-scoped-directory-search.md
       - name: 常见问题解答：支持远程工作人员
         href: FAQ-support-remote-workforce.md
-      - name: 报告
+      - name: 报表
         items:
           - name: 概述
             href: teams-analytics-and-reports/teams-reporting-reference.md
@@ -1487,7 +1487,7 @@ items:
             href: rooms/with-skype-for-business-server-2015.md
   - name: 管理应用
     items:
-      - name: 概述
+      - name: 了解 Teams 中的应用
         href: deploy-apps-microsoft-teams-landing-page.md
       - name: 管理 Microsoft 提供的应用
         items:
@@ -1513,7 +1513,7 @@ items:
             href: overview-of-app-validation.md
           - name: 第三方应用的安全性、合规性和隐私
             href: overview-of-app-certification.md
-          - name: 使用 Microsoft 365 或 Office 365 连接器和自定义连接器
+          - name: 管理 Microsoft 365 和自定义连接器
             href: Office-365-custom-connectors.md
           - name: 购买适用于 Teams 的第三方应用
             href: purchase-third-party-apps.md
@@ -1533,7 +1533,7 @@ items:
             href: customize-your-app-store.md
       - name: 管理员控制以管理应用
         items:
-          - name: 管理员的应用管理概述
+          - name: 应用管理概述
             href: manage-apps.md
           - name: 应用策略
             items:
@@ -1547,7 +1547,7 @@ items:
                 href: teams-custom-app-policies-and-settings.md
           - name: 为一线员工定制 Teams 应用
             href: pin-teams-apps-based-on-license.md
-          - name: 关于 Azure AD 权限和管理员同意
+          - name: Azure AD 中的图形权限和管理员同意
             href: app-permissions-admin-center.md
           - name: 为组织管理特定于资源的同意
             href: resource-specific-consent.md
@@ -1555,11 +1555,11 @@ items:
             href: app-permissions.md
           - name: 基于用户类型的应用行为
             href: non-standard-users.md
-          - name: 以最终用户身份将应用更新到较新版本
+          - name: 应用更新和管理员角色
             href: apps-update-experience.md
           - name: 跨 Microsoft 365 管理对 Teams 应用的访问
             href: manage-third-party-teams-apps.md
-      - name: 应用使用情况报告
+      - name: 应用使用情况报告和分析
         href: teams-analytics-and-reports/app-usage-report.md
   - name: 行业和政府指南
     items:
