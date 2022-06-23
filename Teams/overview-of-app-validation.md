@@ -1,7 +1,7 @@
 ---
 title: Microsoft 提供的应用验证和应用测试概述
 ms.reviewer: ''
-description: 了解为 Teams 应用完成的质量检查和应用验证。
+description: 了解基于市场认证策略的 Teams 应用验证指南。 了解 Microsoft 如何确保 Teams 应用遵守隐私和安全的高标准。
 ms.topic: article
 author: guptaashish
 ms.author: guptaashish
@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a916d6bdd57c2956c076461d7f36df64d5c503d9
-ms.sourcegitcommit: 745d707ec63685ce7f973785e7056628472b9c45
+ms.openlocfilehash: 8172db3e67ad895427e90ed3821e1c6fb61f5df9
+ms.sourcegitcommit: 9946c6c1faa78617ccd7bdf115457090ebce5619
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "64910898"
+ms.lasthandoff: 06/21/2022
+ms.locfileid: "66190484"
 ---
 # <a name="validation-performed-by-microsoft-for-all-teams-apps"></a>Microsoft 对所有 Teams 应用执行的验证
 
