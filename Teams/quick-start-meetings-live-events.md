@@ -20,12 +20,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 330faa00c2ba14f03e5219642fa274fc24eb8765
-ms.sourcegitcommit: 1ac37cc27d4ccb3e1dae20ca1929214e17be2075
+ms.openlocfilehash: f33ab77f2b615bcdd08f14512585b653027c38e8
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/07/2022
-ms.locfileid: "65913420"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66240971"
 ---
 # <a name="meetings-webinars-and-live-events"></a>会议、网络研讨会和直播活动 
 
@@ -176,6 +176,8 @@ Teams 中的 **会议** 包括最多 1,000 人的音频、视频和屏幕共享�
 ### <a name="guidelines-for-your-end-users"></a>最终用户指南
 
 组织者和演示者应实施以下建议：
+
+- 对于参与者超过 10 人的会议，使用“[问答](/MicrosoftTeams/manage-qna-for-teams)”让参与者有机会正式提出问题并获得答案，并参与结构化讨论。
 
 - 为了创建流畅的会议，活动组织者可以设置预定义的演示者。 会议开始后，演示者还可以将其他与会者提升为演示者角色。
 
