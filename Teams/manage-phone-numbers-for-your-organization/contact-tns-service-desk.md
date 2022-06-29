@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: 获取电话号码或端口 (为组织转移) 号码时，可能需要在 TNS 服务台获得帮助和支持。
-ms.openlocfilehash: aac4598bfcbf4a26cf20375b39dae8c79df82202
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: bd12ac951e6a0f23ffeebf7a9d2e7655ce73d906
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675624"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66240721"
 ---
 # <a name="telephone-number-services-tns---service-desk"></a>电话号码服务 (TNS) - 服务台
 
@@ -39,20 +39,18 @@ ms.locfileid: "65675624"
 
 若要联系服务台，请执行以下操作：
 
-1. 登录到[Teams管理中心](https://admin.teams.microsoft.com)。
+1. 登录到 [Teams 管理中心](https://admin.teams.microsoft.com)。
 
-2. 在左侧窗格中，选择 **“语音**”，然后 **电话数字**。
+2. 在左侧窗格中，选择 **“语音**”，然后选择 **电话号码**。
 
-3. 选择 **“添加** ”或“ **端口**”。
-
-4. 在页面顶部，选择 **获取电话号码支持**。 你将看到电话号码服务中心。
+3. 在页面右上角，单击 **“操作**”，然后选择 **“获取电话号码支持**”。 你将转到 **电话号码服务中心** (服务台门户) 。
 
 > [!NOTE]
-> 仅允许同一租户中的某人创建案例。 也就是说，@fabrikam.com 中的某人无法代表 @contoso.com 创建案例。
+> 仅允许同一租户中的某个人创建案例。 例如，@fabrikam.com 中的某人无法代表 @contoso.com 创建案例。
 
 在电话号码服务中心，可以创建新案例、查看现有案例、与服务台通信以及管理用户配置文件。以下各节更详细地描述了这些任务。
 
-- **电话数字服务中心** - 导航到门户主页。
+- **电话号码服务中心** - 导航到门户主页。
 
 - **[创建新案例](#create-a-new-case)** - 提交新请求或常规查询。
 
@@ -78,7 +76,7 @@ ms.locfileid: "65675624"
 
 2. 提供案例详细信息，如[下一部分](#provide-case-details)中所述。
 
-3. 输入所有值后，选择 **提交**。 你将看到一个新屏幕，可在其中查看案例编号。
+3. 输入所有值后，选择 **“提交**”。 你将看到一个新屏幕，可在其中查看事例编号。
 
 ### <a name="provide-case-details"></a>提供案例详细信息
 
@@ -134,7 +132,7 @@ ms.locfileid: "65675624"
 
   - **首选日期/时间*** - 要更改数字清单类型的日期和时间。 有关详细信息，请参阅日期和时间。
 
-  - **复选框 – 了解若要更新清单类型，电话号码需要未分配** - 除非未分配租户中的电话号码，否则 Microsoft 无法处理电话号码类型更改请求。 如果在将来的日期请求此更改，则需要确保在请求的日期和时间之前未分配数字。
+  - **复选框 - 我了解，若要更新清单类型，我的电话号码需要未分配** - 除非未分配租户中的电话号码，否则 Microsoft 无法处理电话号码类型更改请求。 如果在将来的日期请求此更改，则需要确保在请求的日期和时间之前未分配数字。
 
   - **电话号码列表** - 要更改其类型的电话号码列表。 上传包含电话号码列表的 csv 文件。
 
@@ -142,7 +140,7 @@ ms.locfileid: "65675624"
 
   - **数字类型** - 选择数字的类型。 请参阅[电话号码类型](../different-kinds-of-phone-numbers-used-for-calling-plans.md)。
 
-  - **尝试从 Teams 管理中心门户获取电话号码** - 是否尝试从 Microsoft Teams 管理中心门户购买这些电话号码，可以自助服务吗？
+  - **尝试从 Teams 管理员中心门户获取电话号码** - 是否尝试从 Microsoft Teams 管理员中心购买这些电话号码？
 
   - **所需的电话号码数量 - 要购买的电话号码数量。**
 
@@ -158,7 +156,7 @@ ms.locfileid: "65675624"
 
   - **将端口订单命名** - 为端口申请提供易于记住的名称。
 
-  - **请求的移植日期/时间*** - 要将数字移植到 Microsoft 的日期和时间。 请注意，无法保证日期，因为当前号码所有者必须先批准我们的端口请求。 查看日期和时间。
+  - **请求的移植日期/时间*** - 要将数字移植到 Microsoft 的日期和时间。 这不是保证的移植日期，因为当前号码所有者必须先批准我们的端口请求。 查看日期和时间。
 
   - **移植号码列表** - 要移植到 Microsoft 的电话号码列表。 上传包含电话号码列表的 csv 文件。
 
@@ -195,7 +193,7 @@ ms.locfileid: "65675624"
 
 - 通过选择 **打开案例**、**所有案例** 或 **已结案例** 来 **筛选案例**。
 
-- 通过打开现有案例、向下滚动并选择 **“添加注释**”，**与 TNS 服务台就案例进行通信**。 将显示一个新窗口。 在批注框中输入消息。 附上任何可有助于请求的支持文档（如果可用），然后选择“**提交**”。
+- 通过打开现有案例、向下滚动并选择 **“添加注释**”，**与 TNS 服务台就案例进行通信**。 将显示一个新窗口。 在批注框中输入消息。 如果) 可用，请将任何支持文档附加 (，然后选择“ **提交**”。
 
   **来自 TNS 服务台** 的响应将显示在同一时间线下。 当案例有更新时，将收到更新的自动电子邮件通知。
 
@@ -209,7 +207,7 @@ ms.locfileid: "65675624"
 
 - 若要了解所在国家或地区的可用功能，请参阅[音频会议和通话套餐的国家/地区可用情况](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
 
-- 有关可为组织选择适当类型的电话号码的信息，请参阅 [不同类型的电话号码](../different-kinds-of-phone-numbers-used-for-calling-plans.md)。
+- 有关组织电话号码 () 适当类型的信息，请参阅 [不同类型的电话号码](../different-kinds-of-phone-numbers-used-for-calling-plans.md)。
 
 - 有关管理组织电话号码的信息，请参阅 [管理组织的电话号码](manage-phone-numbers-for-your-organization.md)。
 

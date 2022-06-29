@@ -1,5 +1,5 @@
 ---
-title: 为Microsoft Teams设置自动助理
+title: 为 Microsoft Teams 设置自动助理
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -19,28 +19,28 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom:
 - Phone System
-description: 了解如何在Microsoft Teams中设置和管理自动助理。
-ms.openlocfilehash: 7cfce516946d38f794e9803e5ecfb30c128cb149
-ms.sourcegitcommit: e38dc23e3968f55625e90c8883884045f80d22ee
+description: 了解如何在 Microsoft Teams 中设置和管理自动助理。
+ms.openlocfilehash: 37326ec03c22c91de5f4c4edb94aaad67f52bde5
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "66124167"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66240941"
 ---
 # <a name="set-up-an-auto-attendant"></a>设置自动助理
 
-自动助理允许用户呼叫你的组织并导航菜单系统，以便与正确的部门、呼叫队列、人员或操作员交谈。 可以使用Microsoft Teams管理中心或 PowerShell 为组织创建自动助理。
+自动助理允许用户呼叫你的组织并导航菜单系统，以便与正确的部门、呼叫队列、人员或操作员交谈。 可以使用 Microsoft Teams 管理中心或 PowerShell 为组织创建自动助理。
 
-请务必阅读[Teams自动助理和呼叫队列的计划](plan-auto-attendant-call-queue.md)，并遵循[入门步骤](plan-auto-attendant-call-queue.md#getting-started)，然后再按照本文中的过程操作。
+请确保已阅读 Teams [自动助理计划和呼叫队列](plan-auto-attendant-call-queue.md) ，并在遵循本文中的过程之前遵循 [入门步骤](plan-auto-attendant-call-queue.md#getting-started) 。
 
 自动助理可以根据呼叫者的输入将呼叫定向到以下目标之一：
 
 - **运算符** - 为自动助理定义的运算符。 定义运算符是可选的。 可将运算符定义为此列表中的任何其他目标。
 - **组织中的人员** - 组织中可以接收语音呼叫的人员。 此人可以是使用Skype for Business Server在本地托管的联机用户或用户。
 - **语音应用** - 另一个自动助理或呼叫队列。  (选择此目标时与自动助理或呼叫队列关联的资源帐户。) 
-- **语音邮件** - 与指定的Microsoft 365组关联的语音邮箱。 可以选择是否需要语音邮件听录和“请在音调后留下邮件”。 系统提示。
-  - 在 M365 管理员中心中，为指定的Microsoft 365组启用“让组织外部人员向此团队发送电子邮件”
-- **外部电话号码** - 任何电话号码。  (请参阅 [外部传输技术详细信息](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)) 。
+- **语音邮件** - 与指定的 Microsoft 365 组关联的语音邮箱。 可以选择是否需要语音邮件听录和“请在音调后留下邮件”。 系统提示。
+  - 在 M365 管理员中心，为指定的 Microsoft 365 组启用“让组织外部人员向此团队发送电子邮件”
+- **外部电话号码** - 任何电话号码。 请参阅 [外部传输技术详细信息](create-a-phone-system-auto-attendant.md?tabs=additional-resources)。
 - **通知 (音频文件)** - 播放音频文件。 上传的已录制公告消息，保存为音频。WAV、.MP3或 .WMA 格式。 录制内容不得大于 5 MB。 系统播放公告，然后返回到自动助理菜单。
 - **公告 (键入)** - 键入消息。 希望系统读取的文本。 最多可以输入 1000 个字符。 系统播放公告，然后返回到自动助理菜单。
 
@@ -53,15 +53,15 @@ ms.locfileid: "66124167"
 1. 设置拨号范围。
 1. 设置资源帐户。
 
-本文中概述的步骤使用Teams管理中心创建自动助理。 有关 **使用 PowerShell 创建自动助理的** 说明，请参阅使用 [PowerShell cmdlet 创建自动助理](create-a-phone-system-auto-attendant-via-cmdlets.md)。
+本文中概述的步骤使用 Teams 管理中心创建自动助理。 有关 **使用 PowerShell 创建自动助理的** 说明，请参阅使用 [PowerShell cmdlet 创建自动助理](create-a-phone-system-auto-attendant-via-cmdlets.md)。
 
 ## <a name="follow-these-steps-to-set-up-your-auto-attendant"></a>按照以下步骤设置自动助理
-
-若要设置自动助理，请在 [Teams管理中心](https://go.microsoft.com/fwlink/p/?linkid=2066851)展开 **“语音**”，选择 **“自动助理**”，然后选择 **“添加**”。
 
 # <a name="step-1---general-info"></a>[步骤 1 - 常规信息](#tab/general-info)
 
 ## <a name="step-1---set-the-auto-attendants-general-information"></a>步骤 1 - 设置自动助理的常规信息
+
+若要设置自动助理，请在 [Teams 管理中心](https://go.microsoft.com/fwlink/p/?linkid=2066851)展开 **“语音**”，选择 **“自动助理**”，然后选择 **“添加**”。
 
 1. 在顶部框中键入自动助理的名称。
 
@@ -78,13 +78,14 @@ ms.locfileid: "66124167"
 
 设置自动助理的常规信息后，选择 **“下一步**”。
 
+
 # <a name="step-2---basic-call-flow"></a>[步骤 2 - 基本呼叫流](#tab/call-flow)
 
 ## <a name="step-2---set-up-the-basic-call-flow"></a>步骤 2 - 设置基本调用流
 
 ### <a name="set-a-greeting"></a>设置问候语
 
-- 如果选择 **“播放音频文件**”，则可以使用 **Upload文件** 按钮上传保存为音频的录制问候消息。WAV、.MP3或 .WMA 格式。 录制内容不得大于 5 MB。
+- 如果选择 **“播放音频文件** ”，则可以使用 **“上传文件** ”按钮上传保存为音频的录制问候消息。WAV、.MP3或 .WMA 格式。 录制内容不得大于 5 MB。
 
 - 如果选择 **“键入问候语”消息**，系统会在自动助理接听呼叫时读取 (最多 1000 个字符) 键入的文本。
 
@@ -144,7 +145,7 @@ ms.locfileid: "66124167"
 
 如果希望对下班后呼叫者进行单独的呼叫路由，请指定每天的工作时间。
 
-1. 在表中的工作日旁边，有时调整 **"开始"菜单** 和 **结束** 时间。
+1. 在表中的工作日旁边，有时调整 **开始** 时间和 **结束** 时间。
 1. 如果需要，请选择 **“添加新时间** ”以指定给定一天的多个小时数集，例如，指定午休时间。
 1. 选择下班后的呼叫路由选项。 相同的常规呼叫流选项也可用于下班后。
 
@@ -181,7 +182,7 @@ ms.locfileid: "66124167"
 
 拨 *号范围* 定义当调用方使用按名称拨号或按扩展拨号时，哪些用户可在目录中使用。 **所有联机用户** 的默认值包括组织中使用 Skype for Business Server 的联机用户或托管在本地的所有用户。
 
-可以通过选择“**包括** 或 **排除**”下的 **自定义用户组** 并选择一个或多个Microsoft 365组、通讯组列表或安全组来包括或排除特定用户。 例如，你可能希望从拨号目录中排除组织中的高管。
+可以通过选择“**包括** 或 **排除**”下的 **自定义用户组** 并选择一个或多个 Microsoft 365 组、通讯组列表或安全组来包括或排除特定用户。 例如，你可能希望从拨号目录中排除组织中的高管。
 
 如果用户在这两个列表中，则将从目录中排除用户。
 
@@ -200,7 +201,7 @@ ms.locfileid: "66124167"
 
 添加资源帐户后，选择 **“下一步**”。
 
-有关详细信息，请参阅[“管理Teams资源帐户](manage-resource-accounts.md)”。
+有关详细信息，请参阅 [“管理 Teams”资源帐户](manage-resource-accounts.md) 。
 
 # <a name="additional-resources"></a>[其他资源](#tab/additional-resources)
 
@@ -210,13 +211,13 @@ ms.locfileid: "66124167"
 
 请参阅 [先决条件](plan-auto-attendant-call-queue.md#prerequisites) ，以允许自动助理在外部传输呼叫。  另外：
 
-- 对于具有[通话套餐许可证](calling-plans-for-office-365.md)或[运营商连接](operator-connect-plan.md)号码的资源帐户，必须以 E.164 格式输入外部传输电话号码 (+[国家/地区代码][地区代码][电话号码]) 。
+- 对于具有 [呼叫计划许可证](calling-plans-for-office-365.md) 或 [操作员连接](operator-connect-plan.md) 号码的资源帐户，必须以 E.164 格式输入外部传输电话号码 (+[国家/地区代码][区域代码][电话号码]) 。
 
 - 对于具有Microsoft Teams 电话许可证和直接路由联机语音路由策略的资源帐户，外部传输电话号码格式取决于[会话边界控制器 (SBC) ](direct-routing-connect-the-sbc.md)设置。
 
 显示的出站电话号码按如下所示确定：
 
-- 对于呼叫计划和运营商连接号码，将显示原始呼叫者的电话号码。
+- 对于呼叫计划和操作员连接号码，将显示原始呼叫者的电话号码。
 - 对于直接路由号码，发送的数字基于 SBC 上的 P-Asserted-Identity (PAI) 设置，如下所示：
   - 如果设置为“已禁用”，则显示原始呼叫者的电话号码。 这是默认和建议的设置。
   - 如果设置为“已启用”，则会显示资源帐户电话号码。
@@ -230,7 +231,7 @@ ms.locfileid: "66124167"
 1. 选择下面 **运行测试**，这将在 Microsoft 365 管理中心中弹出诊断结果。
 
    > [!div class="nextstepaction"]
-   > [运行测试：Teams自动助理](https://aka.ms/TeamsAADiag)
+   > [运行测试：Teams 自动助理](https://aka.ms/TeamsAADiag)
 
 2. 在“运行诊断”窗格中，在 **“用户名”或“电子邮件** ”字段中输入资源帐户，然后选择 **“运行测试**”。
 
@@ -240,7 +241,7 @@ ms.locfileid: "66124167"
 
 ### <a name="related-topics"></a>相关主题
 
-[下面是Teams 电话](./here-s-what-you-get-with-phone-system.md)
+[下面是使用 Teams 电话获取的内容](./here-s-what-you-get-with-phone-system.md)
 
 [获取服务电话号码](./getting-service-phone-numbers.md)
 
