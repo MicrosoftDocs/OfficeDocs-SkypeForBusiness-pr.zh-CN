@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 了解支持Microsoft Teams 会议室的要求，包括选择合适的设备、麦克风、扬声器、相机和显示器。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f3bdfc24344f481a2846790ae13b6c964c69d4c2
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 3b725dc6a39ac777e7f15e3fbf2e4389b5f4333b
+ms.sourcegitcommit: bdb919a6f53556f76dd4a71759412023e6e18fbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 06/29/2022
-ms.locfileid: "66241021"
+ms.locfileid: "66529714"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams 会议室要求
 
@@ -90,6 +90,8 @@ Microsoft Teams 会议室缩放到不同的房间大小。 Teams 会议室根据
   |使用联想核心计算的 Logitech TAP 控制台 |Core i5|8 GB|128 GB|
   |[Logitech Tap 和 Lenovo ThinkSmart Tiny](https://www.logitech.com/video-collaboration/partners/lenovo.html)|Core i5|8 GB |128 GB|
   |[Poly G10-T 与联想 ThinkSmart Tiny](https://www.poly.com/us/en/products/video-conferencing/g/g10) |Core i5| 8 GB | 128 GB|
+  |[Poly G40-T Kit with Poly Studio USB， with Lenovo](https://www.poly.com/us/en/support/products/video-conferencing/poly-room-solutions/g40) |Core i5| 8 GB | 128 GB|
+  |[Poly G85-T 套件与 Poly Eagle Eye Director II，与联想](https://www.poly.com/us/en/support/products/video-conferencing/poly-room-solutions/g85) |Core i5| 8 GB | 128 GB|
   |Poly GC8 控制台与联想思想智能核心|Core i5|8 GB|128 GB|
   |使用 Dell Optiplex 7080 的 Poly GC8 控制台|Core i5|8 GB|128 GB|
   |[使用 Intel NUC 的 Yealink MVC300](https://www.yealink.com/products_154.html)|Core i5|8 GB |128 GB |

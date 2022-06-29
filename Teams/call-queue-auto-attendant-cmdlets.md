@@ -19,17 +19,17 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom:
 - Phone System - seo-marvel-apr2020
-description: 请参阅本文介绍 PowerShell cmdlet，以便在Microsoft Teams中创建和管理自动助理和呼叫队列。
-ms.openlocfilehash: 33e553f90677eb0b1fa3e230215ff97d8d05066c
-ms.sourcegitcommit: e38dc23e3968f55625e90c8883884045f80d22ee
+description: 请参阅本文介绍 PowerShell cmdlet，以便在 Microsoft Teams 中创建和管理自动助理和呼叫队列。
+ms.openlocfilehash: afb3b6d7992c828c85cebdf83d89a2b17fff6065
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "66124565"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66494809"
 ---
-# <a name="powershell-cmdlet-reference-for-call-queues-and-auto-attendants"></a>呼叫队列和自动助理的 PowerShell cmdlet 参考
+# <a name="powershell-cmdlet-reference-for-auto-attendants-and-call-queues"></a>自动助理和呼叫队列的 PowerShell cmdlet 参考
 
-以下 cmdlet 引用适用于Microsoft Teams自动助理和呼叫队列。
+以下 cmdlet 引用适用于 Microsoft Teams 自动助理和呼叫队列。
 
 ## <a name="auto-attendant-cmdlets"></a>自动助理 cmdlet
 
@@ -56,50 +56,8 @@ ms.locfileid: "66124565"
 - [Get-CsAutoAttendantStatus](/powershell/module/skype/Get-CsAutoAttendantStatus)
 - [Get-CsAutoAttendantTenantInformation](/powershell/module/skype/Get-CsAutoAttendantTenantInformation)
 
-还需要以下 cmdlet 来管理将与自动助理一起使用的用户、资源帐户、Microsoft Teams 电话许可证、电话号码、音频文件和支持的语言：
-
-### <a name="usersteams"></a>用户/Teams
-
-- 用户
-  - [Get-CsOnlineUser](/powershell/module/skype/Get-CsOnlineUser)
-
-- Teams：
-  - [Get-Team](/powershell/module/teams/Get-Team)
-
-### <a name="resource-accounts"></a>资源帐户
-
-- [New-CsOnlineApplicationInstance](/powershell/module/skype/New-CsOnlineApplicationInstance)
-- [Find-CsOnlineApplicationInstance](/powershell/module/skype/Find-CsOnlineApplicationInstance)
-- [Get-CsOnlineApplicationInstance](/powershell/module/skype/Get-CsOnlineApplicationInstance)
-- [Set-CsOnlineApplicationInstance](/powershell/module/skype/Set-CsOnlineApplicationInstance)
-- [New-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/New-CsOnlineApplicationInstanceAssociation)
-- [Get-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/Get-CsOnlineApplicationInstanceAssociation)
-- [Remove-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/Remove-CsOnlineApplicationInstanceAssociation)
-- [Get-CsOnlineApplicationInstanceAssociationStatus](/powershell/module/skype/Get-CsOnlineApplicationInstanceAssociationStatus)
-
-### <a name="virtual-teams-phone-licenses"></a>虚拟Teams 电话许可证
-
-- [Get-MsolAccountSku](/powershell/module/msonline/get-msolaccountsku)
-- [Set-MsolUserLicense](/powershell/module/msonline/set-msoluserlicense)
-
-### <a name="phone-number-assignment"></a>电话数字分配
-
-- [Get-CsOnlineTelephoneNumber](/powershell/module/skype/Get-CsOnlineTelephoneNumber)
-- [Set-CsPhoneNumberAssignment](/powershell/module/teams/Set-CsPhoneNumberAssignment)
-
-### <a name="audio-files"></a>音频文件
-
-- [Get-CsOnlineAudioFile](/powershell/module/skype/Get-CsOnlineAudioFile)
-- [Import-CsOnlineAudioFile](/powershell/module/skype/Import-CsOnlineAudioFile)
-- [Export-CsOnlineAudioFile](/powershell/module/skype/Export-CsOnlineAudioFile)
-- [Remove-CsOnlineAudioFile](/powershell/module/skype/Remove-CsOnlineAudioFile)
-
-### <a name="support-languages-and-time-zones"></a>支持语言和时区
-
-- [Get-CsAutoAttendantSupportedLanguage](/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage)
-- [Get-CsAutoAttendantSupportedTimeZone](/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone)
-
 有关使用 PowerShell 创建自动助理的分步指南，请参阅使用 [PowerShell cmdlet 创建自动助理](create-a-phone-system-auto-attendant-via-cmdlets.md)
+
 
 ## <a name="call-queue-cmdlets"></a>呼叫队列 cmdlet
 
@@ -110,14 +68,20 @@ ms.locfileid: "66124565"
 - [Set-CsCallQueue](/powershell/module/skype/Set-CsCallQueue)
 - [Remove-CsCallQueue](/powershell/module/skype/Remove-CsCallQueue)
 
-还需要以下 cmdlet 来管理将用于呼叫队列的用户、资源帐户、Microsoft Teams 电话许可证、电话号码、音频文件和支持的语言：
 
-### <a name="users-and-teams"></a>用户和Teams
+有关使用 PowerShell 创建呼叫队列的分步指南，请参阅使用 [PowerShell cmdlet 创建呼叫队列](create-a-phone-system-call-queue-via-cmdlets.md)
+
+
+## <a name="common-cmdlets-used-by-both-auto-attendants-and-call-queues"></a>自动助理和呼叫队列使用的常见 cmdlet
+
+还需要以下 cmdlet 来管理将与自动助理一起使用的用户、资源帐户、Microsoft Teams 电话许可证、电话号码、音频文件和支持的语言：
+
+### <a name="users-and-teams"></a>用户和 Teams
 
 - 用户
   - [Get-CsOnlineUser](/powershell/module/skype/Get-CsOnlineUser)
 
-- Teams：
+- 团队：
   - [Get-Team](/powershell/module/teams/Get-Team)
   - [Get-TeamChannel](/powershell/module/teams/Get-TeamChannel)
 
@@ -132,15 +96,18 @@ ms.locfileid: "66124565"
 - [Remove-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/Remove-CsOnlineApplicationInstanceAssociation)
 - [Get-CsOnlineApplicationInstanceAssociationStatus](/powershell/module/skype/Get-CsOnlineApplicationInstanceAssociationStatus)
 
-### <a name="virtual-teams-phone-standard-licenses"></a>虚拟Teams 电话标准版许可证
+
+### <a name="virtual-teams-phone-licenses"></a>虚拟 Teams 电话许可证
 
 - [Get-MsolAccountSku](/powershell/module/msonline/get-msolaccountsku)
 - [Set-MsolUserLicense](/powershell/module/msonline/set-msoluserlicense)
 
-### <a name="assign-phone-numbers"></a>分配电话号码
 
-- [Get-CsOnlineTelephoneNumber](/powershell/module/skype/Get-CsOnlineTelephoneNumber)
-- [Set-CsPhoneNumberAssignment](/powershell/module/teams/Set-csphonenumberassignment)
+### <a name="phone-number-assignment"></a>电话号码分配
+
+- [Get-CsPhoneNumberAssignment](/powershell/module/teams/Get-CsPhoneNumberAssignment)
+- [Set-CsPhoneNumberAssignment](/powershell/module/teams/Set-CsPhoneNumberAssignment)
+
 
 ### <a name="audio-files"></a>音频文件
 
@@ -149,8 +116,9 @@ ms.locfileid: "66124565"
 - [Export-CsOnlineAudioFile](/powershell/module/skype/Export-CsOnlineAudioFile)
 - [Remove-CsOnlineAudioFile](/powershell/module/skype/Remove-CsOnlineAudioFile)
 
-### <a name="support-language-lists"></a>支持语言列表
+
+### <a name="support-languages-and-time-zones"></a>支持语言和时区
 
 - [Get-CsAutoAttendantSupportedLanguage](/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage)
+- [Get-CsAutoAttendantSupportedTimeZone](/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone)
 
-有关使用 PowerShell 创建呼叫队列的分步指南，请参阅使用 [PowerShell cmdlet 创建呼叫队列](create-a-phone-system-call-queue-via-cmdlets.md)

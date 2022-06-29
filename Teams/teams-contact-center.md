@@ -1,5 +1,5 @@
 ---
-title: Teams联系人中心
+title: Teams 联系人中心
 author: cazawideh
 ms.author: czawideh
 manager: serdars
@@ -10,32 +10,32 @@ ms.reviewer: anblak
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
-description: 集成联系人中心即服务 (CCaaS) 解决方案的概述Microsoft Teams
+description: Microsoft Teams 的集成联系人中心即服务 (CCaaS) 解决方案概述
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f441785af609c9336fd03707f9eee334070fb885
-ms.sourcegitcommit: e38776625a3623216b0d5f092fffaff67519b1a6
+ms.openlocfilehash: d43b698b18aaca09eedbd4f7a1f8afdac91753ff
+ms.sourcegitcommit: bdb919a6f53556f76dd4a71759412023e6e18fbb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66056932"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66529654"
 ---
-# <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft Teams的联系人中心集成
+# <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft Teams 的联系人中心集成
 
-  本文概述了如何将联系人中心解决方案与Microsoft Teams和参与Microsoft Teams连接联系人中心认证计划的解决方案提供商集成。
+  本文概述了如何将联系人中心解决方案与 Microsoft Teams 和参与 Microsoft Teams 连接联系人中心认证计划的解决方案提供商集成。
 
-## <a name="what-is-contact-center-integration-for-microsoft-teams"></a>什么是Microsoft Teams的联系人中心集成？
+## <a name="what-is-contact-center-integration-for-microsoft-teams"></a>什么是 Microsoft Teams 的联系人中心集成？
 
-Microsoft Teams通过充当其通信模式（包括聊天、视频会议和呼叫）的内部和外部客户连接中心，支持客户交互工作流。 对于某些组织，Microsoft Teams云[语音功能](./cloud-voice-landing-page.md)（包括[自动助理](./what-are-phone-system-auto-attendants.md)和[呼叫队列）](./create-a-phone-system-call-queue.md)满足其需求。
+Microsoft Teams 通过充当跨其通信模式（包括聊天、视频会议和呼叫）的内部和外部客户连接中心来支持客户交互工作流。 对于某些组织，Microsoft Teams 的[云语音功能](./cloud-voice-landing-page.md)（包括[自动助理](./what-are-phone-system-auto-attendants.md)和[呼叫队列）](./create-a-phone-system-call-queue.md)满足其需求。
 
-对于希望使用业务工具和工作流的解决方案来推动客户旅程的组织，Microsoft Teams联系中心集成允许联系中心即服务 (CCaaS) 解决方案提供商将其解决方案集成到Teams。
+对于希望使用业务工具和工作流的解决方案来推动客户旅程的组织，Microsoft Teams 联系中心集成允许联系中心即服务 (CCaaS) 解决方案提供商将其解决方案集成到 Teams 中。
 
 
-## <a name="connected-contact-center-for-microsoft-teams-certification-program"></a>Microsoft Teams认证计划的已连接联系人中心
+## <a name="connected-contact-center-for-microsoft-teams-certification-program"></a>Microsoft Teams 认证计划的连接联系人中心
 
-Microsoft Teams认证计划的连接联系人中心验证每个参与提供商的解决方案是否提供他们期望从 Microsoft 解决方案获得的质量、兼容性和可靠性。
+Microsoft Teams 认证计划的连接联系人中心验证每个参与提供商的解决方案是否提供他们期望从 Microsoft 解决方案获得的质量、兼容性和可靠性。
 
-如果你是一个正在查找集成联系人中心解决方案的组织，请参阅[联系人中心的认证Microsoft Teams解决方案](https://cloudpartners.transform.microsoft.com/contact-center-solutions)，获取认证解决方案提供商列表，并查看认证过程中提供商列表的[连接联系人中心解决方案](#connected-contact-center-solutions)。
+如果你是一个正在查找集成联系人中心解决方案的组织，请参阅 [联系中心的经认证的 Microsoft Teams 解决方案](https://cloudpartners.transform.microsoft.com/contact-center-solutions) ，了解认证解决方案提供商列表，并查看 [连接联系人中心解决方案](#connected-contact-center-solutions) ，了解认证过程中提供程序的列表。
 
 如果你是寻求加入认证计划的供应商，请将 [此表单](https://aka.ms/CallingPlatformIntake) 填写为下一步。 如果需要提供其他上下文和详细信息，请向 [Teamscategorypartner@microsoft.com](mailto:Teamscategorypartner@microsoft.com) 发送邮件。
 
@@ -44,7 +44,7 @@ Microsoft Teams认证计划的连接联系人中心验证每个参与提供商�
 
 ## <a name="connected-contact-center-solutions"></a>连接的联系人中心解决方案
 
-以下提供商提供使用连接、扩展或 Power 集成模型之一集成到Teams的联系人中心解决方案。
+以下提供商提供使用连接、扩展或 Power 集成模型之一集成到 Teams 的联系人中心解决方案。
 
 ### <a name="certified-solutions"></a>认证解决方案
 
@@ -84,6 +84,7 @@ Microsoft Teams认证计划的连接联系人中心验证每个参与提供商�
 | `Novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
 | `Puzzel` | https://www.puzzel.com/microsoft-teams                            |
 | `Sikom` | http://www.sikom.de/microsoft-teams/                            |
+| `Solgari` | https://solgari.com/converse-for-teams/                       |
 | `Talkdesk` | https://www.talkdesk.com/cloud-contact-center/integrations/microsoft-teams/                                  |
 | `Vonage` |  https://www.vonage.com/contact-centers/integrations/microsoft-teams/                                 |
 

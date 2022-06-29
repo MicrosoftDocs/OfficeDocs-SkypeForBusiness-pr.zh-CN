@@ -637,6 +637,8 @@ items:
                 href: set-up-the-call-me-feature-for-your-users.md
               - name: 获取会议出席情况报告
                 href: teams-analytics-and-reports/meeting-attendance-report.md
+              - name: 管理问答 Teams 会议中的问答
+                href: manage-qna-for-teams.md
               - name: 在 Teams 中管理白板
                 href: manage-whiteboard.md
               - name: 为 Google Workspace 设置 Teams 会议加载项
@@ -785,10 +787,12 @@ items:
             href: set-up-common-area-phones.md
           - name: 语音邮件
             items:
-              - name: 设置云语音邮件
+              - name: 管理云语音邮件
                 href: set-up-phone-system-voicemail.md
               - name: 管理语音邮件策略
                 href: manage-voicemail-policies.md
+              - name: 管理语音邮件设置
+                href: manage-voicemail-settings.md
               - name: 更改语音邮件的默认语言
                 href: change-the-default-language-for-greetings-and-emails.md
               - name: 语音邮件问候和消息所使用的语言
@@ -1618,7 +1622,7 @@ items:
             href: easy-policy-setup-edu.md
           - name: Teams 教育版中的家长连接
             href: edu-parents-app.md
-          - name: Teams 教育版中的“职业指导”应用
+          - name: Teams 教育版中的“职业指导”
             href: career-coach.md
           - name: 监督 Teams 中的聊天
             href: supervise-chats-edu.md
@@ -1658,8 +1662,8 @@ items:
             href: flw-quickstart.yml
           - name: 一线员工载入向导
             href: flw-onboarding-wizard.md
-          - name: 一线员工脚本化部署
-            href: flw-scripted-deployment.md
+          - name: 为一线工作人员大规模部署 Teams
+            href: deploy-teams-at-scale.md
           - name: 为一线员工定制 Teams 应用
             href: pin-teams-apps-based-on-license.md
           - name: 管理排班应用
@@ -1743,8 +1747,8 @@ items:
             href: get-started-with-retail-teams-templates.md
           - name: 一线员工载入向导
             href: flw-onboarding-wizard.md
-          - name: 一线员工脚本化部署
-            href: flw-scripted-deployment.md
+          - name: 为一线工作人员大规模部署 Teams
+            href: deploy-teams-at-scale.md
           - name: Teams 中的班次
             items:
               - name: Teams 中的班次
