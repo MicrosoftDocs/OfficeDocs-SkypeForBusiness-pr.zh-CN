@@ -1,9 +1,9 @@
 ---
 title: 管理语音邮件策略
-author: dstrome
-ms.author: dstrome
+author: crowe
+ms.author: crowe
 manager: serdars
-ms.reviewer: colongma
+ms.reviewer: jenstr
 ms.topic: article
 ms.assetid: 9c590873-b014-4df3-9e27-1bb97322a79d
 ms.tgt.pltfrm: cloud
@@ -22,21 +22,26 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 管理用户的语音邮件策略。
-ms.openlocfilehash: 3f4c64194fc9e2b24c59dc7bc06ed972e801a6a8
-ms.sourcegitcommit: cd9a1f7afaaf053741c81022e7052bf6f8008fcc
+ms.openlocfilehash: 7af4fa89dd495679a3ec755dd2e902012ad1ef77
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/12/2022
-ms.locfileid: "65370825"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66240511"
 ---
-# <a name="setting-voicemail-policies-in-your-organization"></a>设置组织的语音邮件策略
+# <a name="manage-cloud-voicemail-policies-for-your-users"></a>为用户管理云语音邮件策略
 
 > [!WARNING]
-> 对于Skype for Business客户，通过Microsoft Teams呼叫策略禁用语音邮件也可能禁用Skype for Business用户的语音邮件服务。
+> 对于Skype for Business客户，通过 Microsoft Teams 呼叫策略禁用语音邮件也可能禁用Skype for Business用户的语音邮件服务。
 
-可以使用语音邮件策略来控制与云语音邮件相关的不同功能。
+语音邮件策略允许你配置现有或新的语音邮件策略并将其分配给用户组，以获取诸如呼叫应答规则、语音邮件听录、听录亵渎屏蔽、听录翻译和系统提示语言等功能。
 
-## <a name="voicemail-organization-defaults-for-all-users"></a>语音邮件组织默认为所有用户
+在指定策略之前，应阅读[“设置云语音邮件](set-up-phone-system-voicemail.md)”。 有关管理单个用户的设置的信息，请参阅 [“管理语音邮件设置](manage-voicemail-settings.md)”。
+
+若要管理语音邮件策略，可以使用 Teams 管理中心或 New-CsOnlineVoicemailPolicy PowerShell cmdlet。 
+
+用户的默认策略为：
+
 - 已启用语音邮件听录。
 - 已启用语音邮件听录翻译。
 - 语音邮件听录猥亵屏蔽被禁用。
@@ -46,73 +51,74 @@ ms.locfileid: "65370825"
 
 可以使用自动创建或创建和分配自定义策略的全局 (组织范围的默认) 策略。
 
-## <a name="create-a-custom-voicemail-policy"></a>创建自定义语音邮件策略
+> [!IMPORTANT]
+> Microsoft 365 中的语音邮件服务会缓存语音邮件策略，并每隔 6 小时更新一次缓存。 因此，你所做的策略更改最多可能需要 6 小时才能应用。
+
+## <a name="use-teams-admin-center"></a>使用 Teams 管理中心
+
+### <a name="create-a-custom-voicemail-policy"></a>创建自定义语音邮件策略
 
 按照以下步骤创建自定义语音邮件策略。
 
-1. 在Microsoft Teams管理中心的左侧导航中，转到 **VoiceVoicemail** >  策略。
+1. 在 Microsoft Teams 管理中心的左侧导航中，转到 **语音** > **邮件策略**。
+
 2. 选择“**添加**”。
+
 3. 打开或关闭要在语音邮件策略中使用的功能。
+
 4. 选择“**保存**”。
 
-## <a name="edit-a-voicemail-policy"></a>编辑语音邮件策略
+### <a name="edit-a-voicemail-policy"></a>编辑语音邮件策略
 
 按照以下步骤编辑现有语音邮件策略。
 
-1. 在Microsoft Teams管理中心的左侧导航中，选择 **VoiceVoicemail** >  策略。
+1. 在 Microsoft Teams 管理中心的左侧导航中，选择 **语音** > **邮件策略**。
+
 2. 单击要修改的策略旁边，然后选择 **“编辑**”。
+
 3. 进行所需的更改，然后单击 **“保存**”。
 
 > [!IMPORTANT]
 > 无法编辑或删除名为 TranscriptionDisabled 和 TranscriptionProfanityMaskingEnabled 的预配置策略实例。
 
 
-## <a name="assign-a-custom-voicemail-policy-to-users"></a>向用户分配自定义语音邮件策略
+### <a name="assign-a-custom-voicemail-policy-to-users"></a>向用户分配自定义语音邮件策略
 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
+## <a name="use-powershell"></a>使用 PowerShell
+
+还可以使用 PowerShell 配置和分配现有或新的语音邮件策略。 若要使用 PowerShell 管理策略，请使用以下 cmdlet：
+
+- [New-CsOnlineVoicemailPolicy](/powershell/module/skype/new-csonlinevoicemailpolicy)
+
+- [Set-CsOnlineVoicemailPolicy](/powershell/module/skype/set-csonlinevoicemailpolicy)
+
+- [Get-CsOnlineVoicemailPolicy](/powershell/module/skype/get-csonlinevoicemailpolicy)
+
+- [Grant-CsOnlineVoicemailPolicy](/powershell/module/skype/grant-csonlinevoicemailpolicy)
+
+- [Remove-CsOnlineVoicemailPolicy](/powershell/module/skype/remove-csonlinevoicemailpolicy)
+
 ## <a name="voicemail-policy-settings"></a>语音邮件策略设置
   
-### <a name="enable-transcription"></a>启用听录
+- **启用听录** - 此设置控制云语音邮件服务是否会生成录制的语音邮件的文本转录，并将其包含在语音邮件中。 听录将基于记录的语音邮件中检测到的语言进行。
 
-此设置控制云语音邮件服务是否会生成录制的语音邮件的文本转录，并将其包含在语音邮件中。 听录将基于记录的语音邮件中检测到的语言进行。
+- **听录翻译** - 此设置控制云语音邮件服务是否会翻译录制的语音邮件的听录。 将尝试翻译为语音邮件接收器的首选语言。
 
-### <a name="transcription-translation"></a>听录翻译
+- **听录亵渎屏蔽** - 此设置控制云语音邮件服务是否会掩盖在语音邮件听录中发现的亵渎行为。
 
-此设置控制云语音邮件服务是否会翻译录制的语音邮件的听录。 将尝试翻译为语音邮件接收器的首选语言。
+- **最大录制持续时间** - 最大录制长度控制可以录制语音邮件的最大时间。 默认值为 5 分钟。
 
-### <a name="transcription-profanity-masking"></a>听录亵渎屏蔽
+- **呼叫应答规则** - 此设置控制是否允许用户在 Microsoft Teams 中配置语音邮件呼叫应答规则。
 
-此设置控制云语音邮件服务是否会掩盖在语音邮件听录中发现的亵渎行为。
-
-### <a name="maximum-recording-duration"></a>最大录制持续时间
-
-最大录制长度控制可以录制语音邮件的最大时间。 默认值为 5 分钟。
-
-### <a name="call-answering-rules"></a>呼叫应答规则
-
-此设置控制是否允许用户在Microsoft Teams中配置语音邮件呼叫应答规则。
-
-### <a name="dual-language-system-prompts"></a>双语言系统提示
-
-默认情况下，语音邮件系统提示将以用户在设置语音邮件时选择的语言呈现给呼叫者。 如果业务要求以两种语言显示语音信箱系统提示，则可以设置主要语言和辅助语言，并且它们可能不一样。
+- **双语言系统提示** - 默认情况下，语音邮件系统提示会显示给用户在设置语音邮件时所选语言的调用方。 如果业务要求以两种语言显示语音信箱系统提示，则可以设置主要语言和辅助语言，并且它们可能不一样。
 
 ### <a name="share-data-for-service-improvements"></a>共享用于服务改进的数据
 
 指定是否与服务共享语音邮件和听录数据以进行训练和提高准确性。 如果设置为 false，则无论用户选择如何，都不会共享语音邮件数据。
 
 
-> [!IMPORTANT]
-> Microsoft 365和Office 365中的语音邮件服务会缓存语音邮件策略，并每 6 小时更新一次缓存。 因此，你所做的策略更改最多可能需要 6 小时才能应用。
-
 ## <a name="related-articles"></a>相关文章
 
-[New-CsOnlineVoicemailPolicy](/powershell/module/skype/new-csonlinevoicemailpolicy)
 
-[Set-CsOnlineVoicemailPolicy](/powershell/module/skype/set-csonlinevoicemailpolicy)
-
-[Get-CsOnlineVoicemailPolicy](/powershell/module/skype/get-csonlinevoicemailpolicy)
-
-[Grant-CsOnlineVoicemailPolicy](/powershell/module/skype/grant-csonlinevoicemailpolicy)
-
-[Remove-CsOnlineVoicemailPolicy](/powershell/module/skype/remove-csonlinevoicemailpolicy)

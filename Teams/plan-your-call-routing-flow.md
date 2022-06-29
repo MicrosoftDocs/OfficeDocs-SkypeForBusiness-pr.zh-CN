@@ -1,5 +1,5 @@
 ---
-title: 为Microsoft Teams规划呼叫路由流
+title: 为 Microsoft Teams 规划呼叫路由流
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -19,13 +19,13 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom:
 - Phone System
-description: 了解如何在Microsoft Teams中为自动助理和呼叫队列规划呼叫路由流。
-ms.openlocfilehash: 3be72f17f876eb694d3b46293f039ccc07d65fbb
-ms.sourcegitcommit: e38dc23e3968f55625e90c8883884045f80d22ee
+description: 了解如何在 Microsoft Teams 中为自动助理和呼叫队列规划呼叫路由流。
+ms.openlocfilehash: 7788bbe07b33a133af04c8a7fe8333ba66f7f2df
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "66124566"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66240981"
 ---
 # <a name="plan-your-call-routing-flow"></a>规划呼叫路由流
 
@@ -47,8 +47,9 @@ ms.locfileid: "66124566"
 
 - **组织中的人员** - 组织中能够接收语音呼叫的人员。 这可以是使用Skype for Business Server托管在本地的联机用户或用户。
 - **语音应用** - 另一个自动助理或呼叫队列。 选择与目标关联的资源帐户。
-- **外部电话号码** - 任何电话号码。  (请参阅 [外部传输技术详细信息](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)) 。
-- **语音邮件** - 与指定的Microsoft 365组关联的语音邮箱。 可以选择是否需要语音邮件听录和“请在音调后留下邮件”。 系统提示。
+- **外部电话号码** - 任何电话号码。 请参阅 [外部传输技术详细信息](create-a-phone-system-auto-attendant.md?tabs=additional-resources)。
+
+- **语音邮件** - 与指定的 Microsoft 365 组关联的语音邮箱。 可以选择是否需要语音邮件听录和“请在音调后留下邮件”。 系统提示。
 - **运算符** (自动助理仅) - 为自动助理定义的运算符。 定义运算符是可选的。 运算符可以是此列表中的任何其他目标。
 
 自动助理为在工作时间以外和节假日接听的呼叫提供单独的呼叫路由选项。

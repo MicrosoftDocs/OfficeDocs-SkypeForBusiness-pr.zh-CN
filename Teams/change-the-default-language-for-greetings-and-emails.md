@@ -1,7 +1,7 @@
 ---
 title: 更改问候语和电子邮件的默认语言
-author: dstrome
-ms.author: dstrome
+author: crowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: jenstr
 ms.topic: article
@@ -22,13 +22,13 @@ f1.keywords:
 ms.custom:
 - Phone System
 - seo-marvel-mar2020
-description: 了解如何设置Microsoft Teams和Skype for Business以使用组织默认语音邮件问候语的另一种语言。
-ms.openlocfilehash: 5e486e94470fd6303d132fdaa9c23b0ca6f65b98
-ms.sourcegitcommit: 4435ac0efcb95e4e5e1f21289e46761e79482ab5
+description: 了解如何设置 Microsoft Teams 并Skype for Business为组织的默认语音邮件问候语使用其他语言。
+ms.openlocfilehash: 30e122c0d41c93326cdfa39de4c0ceb3a6d55cd2
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "65624086"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66241121"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>更改问候语和电子邮件的默认语言
 
@@ -59,33 +59,36 @@ ms.locfileid: "65624086"
 云语音邮件将根据为用户指定的首选语言或默认租户语言的优先顺序，使用语言模板生成语音邮件。
 
 ## <a name="setting-the-preferred-language-for-a-user"></a>为用户设置首选语言
-可以在Azure Active Directory或本地 Active Directory中使用 PowerShell 为用户设置首选语言。 有关详细信息，请参阅[如何为Microsoft 365或Office 365设置语言和区域设置](/office365/troubleshoot/access-management/set-language-and-region)。
+可以在 Azure Active Directory 或本地 Active Directory中使用 PowerShell 为用户设置首选语言。 有关详细信息，请参阅[如何为 Microsoft 365 或Office 365设置语言和区域设置](/office365/troubleshoot/access-management/set-language-and-region)。
 
-用户可以在登录后通过自己的设置更改自己的首选语言。 有关详细信息，请参阅 [Microsoft 365 for Business 中更改显示语言和时区](https://support.office.com/article/change-your-display-language-and-time-zone-in-microsoft-365-for-business-6f238bff-5252-441e-b32b-655d5d85d15b?ui=en-US&rs=en-US&ad=US)
+用户可以在登录后通过自己的设置更改自己的首选语言。 有关详细信息，请参阅 [Microsoft 365 for Business 中的“更改显示语言和时区](https://support.office.com/article/change-your-display-language-and-time-zone-in-microsoft-365-for-business-6f238bff-5252-441e-b32b-655d5d85d15b?ui=en-US&rs=en-US&ad=US)”
 
 ## <a name="change-the-system-language-for-everyone-in-your-organization"></a>更改组织内所有用户的系统语言
 
 1. 使用 [全局管理员](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) 帐户 [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)登录。
 
-2. 在Microsoft 365 管理中心中，选择 **设置** > **Org settingsOrganization** >  **配置文件**。
+2. 在Microsoft 365 管理中心中，选择 **“设置** > **组织设置** > **”组织配置文件**。
+
 3. 选择 **组织信息**。
+
 4. 从“**首选语言**”列表中为组织中的所有用户选择语言。
+
 5. 选择“**保存**”。
 
 **对你可用的语言取决于组织所在的位置**。 例如，如果你的组织位于美国，你可以将默认语言设置为英语或西班牙语。 如果你的组织位于加拿大，你可以在英语和法语之间选择。
 
 ## <a name="supported-languages-in-cloud-voicemail"></a>云语音邮件中支持的语言
-有关云语音邮件Microsoft Teams和Skype for Business支持的语言列表，[请参阅云语音邮件支持的语言](languages-for-voicemail-greetings-and-messages.md)。
+有关 Microsoft Teams 和 Skype for Business 云语音邮件中支持的语言列表，[请参阅云语音邮件支持的语言](languages-for-voicemail-greetings-and-messages.md)。
   
 
 ## <a name="custom-greeting-recorded-by-a-user"></a>用户录制的自定义问候语
-用户可以记录自己的自定义和外出自定义问候语。 请参阅[Teams桌面客户端设置](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)，[并检查Skype for Business语音邮件和选项](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8)。
+用户可以记录自己的自定义和外出自定义问候语。 请参阅 [Teams 桌面客户端设置](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)，[并检查Skype for Business语音邮件和选项](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8)。
 
 ## <a name="custom-text-to-speech-greeting-specified-for-a-user"></a>为用户指定的自定义文本转语音问候语
-租户管理员可以使用 [Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings) cmdlet 为用户指定自定义文本转语音问候语和提示语言。
+租户管理员可以通过使用 Teams 管理中心用户详细信息页上的 Voicemail 选项卡或使用 [Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings) cmdlet 为用户指定自定义文本转语音问候语和提示语言。
 
 ## <a name="custom-text-to-speech-greeting-specified-by-a-user"></a>用户指定的自定义文本转语音问候语
-用户可以指定自己的自定义文本转语音问候语和用于问候语的语言。 对于Microsoft Teams - 用户可以从[Teams桌面客户端设置](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)更改其语音邮件问候语。 对于Skype for Business - [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) 在 **“提示语言**”下选择新语言。 
+用户可以指定自己的自定义文本转语音问候语和用于问候语的语言。 对于 Microsoft Teams - 用户可以从 [Teams 桌面客户端设置](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)更改其语音邮件问候语。 对于Skype for Business - [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) 在 **“提示语言**”下选择新语言。 
 
 
 ## <a name="related-articles"></a>相关文章

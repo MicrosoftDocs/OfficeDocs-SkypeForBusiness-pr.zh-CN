@@ -18,13 +18,13 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
-description: 了解如何在参与者和来宾的Teams中管理会议策略设置。
-ms.openlocfilehash: f63056740ab42c3dde0e05e8b9321173ea20091f
-ms.sourcegitcommit: c73f27ee7a208ae73784edf5b23adc699cf69327
+description: 了解如何在 Teams 中为参与者和来宾管理会议策略设置。
+ms.openlocfilehash: 5770c4d998a28edf2b8fc8131650b98420e826f9
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "66130765"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66241131"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>会议策略设置 - 参与者和来宾
 
@@ -44,14 +44,14 @@ ms.locfileid: "66130765"
 
 ## <a name="let-anonymous-people-join-a-meeting"></a>让匿名人员加入会议
 
-此按组织者设置允许任何人通过选择会议邀请中的链接以匿名用户身份加入会议。 要了解更多信息，请参阅[在没有 Teams 帐户的情况下加入会议](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508)。 匿名用户加入会议的能力也会在组织级别受到控制，限制性越高，设置就越有效。 若要了解详细信息，请参阅[使用Microsoft Teams管理中心配置组织范围的策略](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings)。
+此按组织者设置允许任何人通过选择会议邀请中的链接以匿名用户身份加入会议。 要了解更多信息，请参阅[在没有 Teams 帐户的情况下加入会议](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508)。 匿名用户加入会议的能力也会在组织级别受到控制，限制性越高，设置就越有效。 若要了解详细信息，请参阅 [使用 Microsoft Teams 管理中心配置组织范围的策略](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings)。
 
 ## <a name="let-anonymous-people-start-a-meeting"></a>允许匿名人员发起会议
 
 此设置是允许无领导电话拨入式会议的按组织者策略。 此设置控制拨入用户是否可以在没有组织中经过身份验证的用户的情况下加入会议。 默认情况下，此设置处于关闭状态，这意味着拨入用户将在大厅中等待，直到组织中经过身份验证的用户加入会议。
 
 > [!NOTE]
-> 如果此设置已关闭，并且拨入用户首先加入会议并放置在大厅中，则组织用户必须与Teams客户端一起加入会议，才能从大厅中接纳该用户。 拨号用户没有大厅控制功能。
+> 如果此设置已关闭，并且拨入用户首先加入会议并放置在大厅中，则组织用户必须与 Teams 客户端一起加入会议，才能从大厅中接纳该用户。 拨号用户没有大厅控制功能。
 
 ## <a name="automatically-admit-people"></a>自动允许人员
 
@@ -70,15 +70,15 @@ ms.locfileid: "66130765"
 |**组织中用户和来宾**     |组织内经过身份验证的用户（包括来宾）直接加入会议，而无需在大厅中等待。 来自可信组织的用户和匿名用户在大厅里等待。 这是默认设置。    |
 |**我的组织中人员、受信任的组织和来宾**     |组织内经过身份验证的用户（包括来宾和受信任组织的用户）直接加入会议，而无需在大厅中等待。  匿名用户在大厅里等待。   |
 |**我的组织中人员**    |组织内经过身份验证的用户直接加入会议，无需在大厅中等待。  来自受信任组织、来宾和匿名用户的用户在大厅中等待。          |
-|**仅管理器**    |只有会议组织者才能直接参加会议，无需在大厅等待。 其他所有人（包括组织内经过身份验证的用户、来宾、受信任组织的用户和匿名用户）必须在大厅中等待。 在Teams客户端会议选项页上，它显示为“只有我”。          |
-|**仅邀请用户**    |只有受邀的用户和会议组织者才能直接加入会议，而无需在大厅中等待。 其他所有人（包括组织内经过身份验证的用户、来宾、受信任组织的用户和匿名用户）必须在大厅中等待。 在Teams客户端会议选项页上，它显示为“我邀请的人员”。 作为通讯组的一部分添加的用户必须经过大厅。      |
+|**仅管理器**    |只有会议组织者才能直接参加会议，无需在大厅等待。 其他所有人（包括组织内经过身份验证的用户、来宾、受信任组织的用户和匿名用户）必须在大厅中等待。 在 Teams 客户端会议选项页上，它显示为“仅限我”。          |
+|**仅邀请用户**    |只有受邀的用户和会议组织者才能直接加入会议，而无需在大厅中等待。 其他所有人（包括组织内经过身份验证的用户、来宾、受信任组织的用户和匿名用户）必须在大厅中等待。 在 Teams 客户端会议选项页上，它显示为“我邀请的人员”。 作为通讯组的一部分添加的用户必须经过大厅。      |
 
  > [!NOTE]
-> 受信任的组织是允许在Teams中进行联合通信的域。 如果在Teams管理中心启用 **允许所有外部域** 进行外部访问，则任何Teams组织中的任何经过身份验证的用户都将受信任。 如果选择指定允许的外部域并阻止所有其他域，则允许的域将成为受信任的组织。 任何被阻止的域都被视为不受信任的组织。
+> 受信任的组织是允许在 Teams 中进行联合通信的域。 如果在 Teams 管理中心启用 **允许所有外部域** 进行外部访问，则任何 Teams 组织中任何经过身份验证的用户都将受信任。 如果选择指定允许的外部域并阻止所有其他域，则允许的域将成为受信任的组织。 任何被阻止的域都被视为不受信任的组织。
 
 ## <a name="allow-dial-in-users-to-bypass-the-lobby"></a>允许拨入用户绕过大厅
 
-这是按组织者的策略。 此设置可控制通过电话拨入的人是直接加入会议还是在大厅等待，而不考虑 **“自动接收人员”** 设置。 默认情况下，此设置已关闭。 当此设置关闭时，拨号用户将在大厅中等待，直到组织用户用 Teams 客户端加入会议并接收他们。 打开此设置后，当组织用户使用Teams客户端加入会议时，拨入用户将自动加入会议。
+这是按组织者的策略。 此设置可控制通过电话拨入的人是直接加入会议还是在大厅等待，而不考虑 **“自动接收人员”** 设置。 默认情况下，此设置已关闭。 当此设置关闭时，拨号用户将在大厅中等待，直到组织用户用 Teams 客户端加入会议并接收他们。 打开此设置后，当组织用户与 Teams 客户端加入会议时，拨入用户将自动加入会议。
 
 > [!NOTE]
 > 如果拨号用户在组织用户加入会议之前加入会议，将放置他们在大厅中，直到组织用户使用 Teams 客户端加入会议并接纳他们。 如果更改任何用户的默认设置，它将适用于该用户组织的所有新会议以及该用户没有修改会议选项的任何之前会议。
@@ -110,9 +110,20 @@ ms.locfileid: "66130765"
 
 <a name="bkparticipantsandguests"> </a>
 
+## <a name="qa-in-meetings"></a>会议中的 Q&A
+
+这是按组织者的策略。 此设置控制组织者是否可以向其会议添加 Q&A 体验。 默认情况下，此设置已关闭。 在此处详细了解 Q [&A。](/manage-qna-for-meetings) 
+
+若要参数 QnAEngagementMode 在 PowerShell 和 Q&A 中控制此策略，也可以在管理门户中进行调整。
+
+|设置值 |行为  |
+|---------|---------|
+|**已启用**     | 组织者可以在创建会议时添加 Q&A。 |
+|**禁用**     | 组织者在创建会议时无法选择添加 Q&A。  |
+
 ## <a name="enable-meeting-policy-settings"></a>启用会议策略设置
 
-若要启用会议策略设置，可以使用 [Teams管理中心](https://admin.teams.microsoft.com/policies/meetings) (**会议策略** > **编辑** > **策略参与者&来宾**) 或 Teams PowerShell 中的 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet。 
+若要启用会议策略设置，可以使用 [Teams 管理中心](https://admin.teams.microsoft.com/policies/meetings) (**会议策略** > **编辑** > **策略参与者&来宾**) 或 Teams PowerShell 中的 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet。 
 
 在此示例中，我们使用 PowerShell 修改全局会议策略，以允许任何人开始或加入会议。
 
