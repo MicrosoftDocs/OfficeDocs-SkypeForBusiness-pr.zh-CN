@@ -19,12 +19,13 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7123d45819f6e956ecf562fd321e7762b50e5ae6
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ROBOTS: NOINDEX, NOFOLLOW
+ms.openlocfilehash: 0c51c0e2225d73d140f424535f3dc1bd7a302afa
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674654"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66240411"
 ---
 # <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>如何为一线工作人员大规模预配 Teams
 
@@ -105,7 +106,7 @@ ms.locfileid: "65674654"
 > [!IMPORTANT]
 > 这些脚本中的凭据管理方式可能不适合你使用，而且它们可轻松更改以满足你的要求。 始终遵循公司的标准和做法来保护服务帐户和托管身份。
 
-这些脚本使用以 XML 文件形式存储在 $ENV:LOCALAPPDATA\keys（即 AppData\Local 文件夹）中的凭据。 需要调用模块 **BulkAddFunctions.psm1** 中的 helper 函数 **Set-Creds** 来设置用于运行这些脚本的凭据。 此技术消除了在维护本地存储中的凭据时对各种服务终结点进行身份验证的需要。 在每个脚本中，将使用 helper 函数 **Get-Creds** 读取相应的凭据，这些凭据用于连接到各种服务。
+脚本使用在 `$ENV:LOCALAPPDATA\keys` 中（即 AppData\Local 文件夹）存储为 XML 文件的凭据。 需要调用模块 **BulkAddFunctions.psm1** 中的 helper 函数 **Set-Creds** 来设置用于运行这些脚本的凭据。 此技术消除了在维护本地存储中的凭据时对各种服务终结点进行身份验证的需要。 在每个脚本中，将使用 helper 函数 **Get-Creds** 读取相应的凭据，这些凭据用于连接到各种服务。
 
 当你调用 **Set-Creds** 时，系统将提示你提供要写入到 $ENV:LOCALAPPDATA\keys 的 XML 文件名称。 你可能需要为不同的服务使用不同的凭据。 例如，你可能对 MicrosoftTeams、AzureAD 和 MSonline 使用不同的凭据，在这种情况下，你可以多次运行 **Set-Creds**，使用有意义的名称保存每个凭据文件。
 
