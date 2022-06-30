@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 01b51694b22d44ace9980f2b98fdb89a9150a12d
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: b96108f3bf548475cd19822967ba4e484fb26703
+ms.sourcegitcommit: b383b309dbdf9caac7ad7e4a94df8d89016dc485
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 06/29/2022
-ms.locfileid: "66240741"
+ms.locfileid: "66551199"
 ---
 # <a name="communication-compliance-with-microsoft-teams"></a>与 Microsoft Teams 的通信合规性
 
@@ -53,7 +53,7 @@ Teams 管理员可以在以下级别配置通信符合性策略：
 >[!NOTE]
 >2022 年 5 月开始为许可和使用 [通信合规性和](/microsoft-365/compliance/communication-compliance-configure#subscriptions-and-licensing) Microsoft Teams 的组织提供用户报告的消息。 此功能将于 2022 年 8 月 31 日前提供给所有获得许可并使用通信合规性的组织，直至 2022 年 7 月。 对于在 2022 年 7 月之后开始使用通信合规性的组织，用户报告的消息策略可用性可能需要从许可之日起最多 30 天，并首次使用通信合规性。
 
-默认情况下，Teams 内部聊天消息中的 *“报告关注* ”选项已启用，可以通过 [Teams 管理中心的 Teams](/microsoftteams/manage-teams-in-modern-portal) 消息传递策略进行控制。 这允许组织中的用户提交不适当的内部聊天消息，供通信合规性评审者对策略进行评审。 有关通信合规性中用户报告的消息的详细信息，请参阅 [通信符合性策略](/microsoft-365/compliance/communication-compliance-policies#user-reported-messages-policy)。
+默认情况下，Teams 个人和群组聊天消息的 *“报告关注* ”选项已启用，可以通过 [Teams 管理中心的 Teams](/microsoftteams/manage-teams-in-modern-portal) 消息传递策略进行控制。 这允许组织中的用户提交不适当的内部聊天消息，供通信合规性评审者对策略进行评审。 有关通信合规性中用户报告的消息的详细信息，请参阅 [通信符合性策略](/microsoft-365/compliance/communication-compliance-policies#user-reported-messages-policy)。
 
 ![报告关注菜单。](./media/communication-compliance-report-a-concern-full-menu.png)
 
