@@ -1,14 +1,14 @@
 ---
 title: 为直接路由计划基于位置的路由
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: roykuntz
 search.appverid: MET150
-description: 了解如何为Teams 电话直接路由规划Location-Based路由。
+description: 了解如何为 Teams 电话直通路由规划Location-Based路由。
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -16,18 +16,18 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f156b287969303edbf195c0054b3bb1eb631db2
-ms.sourcegitcommit: d847256fca80e4e8954f767863c880dc8472ca04
+ms.openlocfilehash: d282a2cd9588c2e7104b3093d03da082e9cf388b
+ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "65303994"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66562621"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>为直接路由计划基于位置的路由
 
 在一些国家和地区，绕过公共交换电话网络 (PSTN) 提供商来降低长途通话成本是非法的。 
 
-本文介绍使用Location-Based路由来限制Microsoft Teams用户基于其地理位置的通行费旁路所需了解的内容。 本文仅适用于直接路由。 Location-Based路由不适用于呼叫计划或运营商连接。
+本文介绍使用Location-Based路由来限制 Microsoft Teams 用户基于其地理位置的通行费旁路所需了解的内容。 本文仅适用于直接路由。 Location-Based路由不适用于呼叫计划或运算符连接。
 
 准备好启用Location-Based路由后，请参阅：
 
@@ -44,9 +44,9 @@ Location-Based路由允许根据策略和用户在入站或出站 PSTN 调用时
 
 Location-Based路由使用你为网络区域、站点和子网定义的网络拓扑。 如果某个位置限制了通行费旁路，则会将该位置的每个 IP 子网和每个 PSTN 网关关联到网络站点。 
 
-在 PSTN 调用时，用户的位置由用户Teams终结点连接到的 IP 子网决定。 如果用户在不同站点上有多个Teams客户端，则Location-Based路由会根据Teams终结点的位置分别强制执行每个客户端的路由。
+在 PSTN 调用时，用户的位置由用户的 Teams 终结点连接到的 IP 子网决定。 如果用户在不同站点上有多个 Teams 客户端，则Location-Based路由会根据 Teams 终结点的位置分别强制执行每个客户端的路由。
 
-有关网络设置的详细信息，请参阅[Teams中云语音功能的网络设置](cloud-voice-network-settings.md)。
+有关网络设置的详细信息，请参阅 [Teams 中云语音功能的网络设置](cloud-voice-network-settings.md)。
 
 本文假定网络站点可以处于以下状态之一：
 
@@ -58,27 +58,27 @@ Location-Based路由使用你为网络区域、站点和子网定义的网络拓
 
 ### <a name="toll-bypass-evaluation-and-outcome"></a>通行费旁路评估和结果
 
-使用Location-Based路由时，将评估Teams用户与 PSTN 之间的调用以确定是否限制了通行费旁路。 根据结果，调用将或不会完成。 
+使用Location-Based路由时，会评估 Teams 用户与 PSTN 之间的调用以确定是否限制了通行费旁路。 根据结果，调用将或不会完成。 
 
-如果为用户启用了Location-Based路由，并且用户位于Location-Based路由限制生效的站点，则该用户将限制通行费旁路。 Teams使用以下信息来确定是否限制通行费旁路： 
+如果为用户启用了Location-Based路由，并且用户位于Location-Based路由限制生效的站点，则该用户将限制通行费旁路。 Teams 使用以下信息来确定是否限制通行费旁路： 
 
-- 是否为Teams用户启用Location-Based路由，如用户的Teams调用策略中定义的那样。
+- Teams 用户是否已启用Location-Based路由，如用户的 Teams 呼叫策略中定义的那样。
 
-- Teams用户的终结点网络站点位置，以及站点是否启用Location-Based路由。
+- Teams 用户的终结点网络站点位置以及站点是否启用Location-Based路由。
 
 - 呼叫正在使用的 PSTN 网关的网络站点位置。
 
 - 调用使用的 PSTN 网关是否已启用Location-Based路由。
 
-- 对于传输方案，PSTN 呼叫的路由基于传输呼叫的人员的路由设置，以及要将呼叫传输到的Teams用户的Location-Based路由设置。  
+- 对于传输方案，PSTN 呼叫的路由基于传输呼叫的人员的路由设置，以及要将呼叫传输到的 Teams 用户的Location-Based路由设置。  
 
-- 对于会议和组呼叫方案，是限制了通行费旁路的Teams用户是还是属于呼叫的一部分。
+- 对于会议和组呼叫方案，收费旁路受限的 Teams 用户是调用还是已参与呼叫。
 
-如果呼叫无法完成，则会通知Teams用户，如下所示：
+如果呼叫无法完成，Teams 用户将收到如下通知：
 
 - 对于出站 PSTN 调用，呼叫窗口中会显示以下消息：由于组织的设置，不允许呼叫。
 
-- 对于入站 PSTN 调用，调用基于调用的Teams用户未应答的呼叫转发设置（通常为语音邮件）进行路由。 如果Teams用户未配置未答复的呼叫设置，则调用将断开连接。
+- 对于入站 PSTN 调用，调用基于调用的 Teams 用户的未接听呼叫转发设置（通常为语音邮件）进行路由。 如果 Teams 用户未配置未答复的呼叫设置，则调用将断开连接。
 
 ## <a name="apply-location-based-routing"></a>应用Location-Based路由
 
@@ -106,7 +106,7 @@ Location-Based路由使用你为网络区域、站点和子网定义的网络拓
 
 如果用户受到收费旁路限制，则必须为该用户启用Location-Based路由。 当启用的用户位于启用了Location-Based路由的站点时，用户必须通过既连接到站点又已启用Location-Based路由的网关进行调用。 
 
-Location-Based路由的工作原理是根据用户Teams终结点的 IP 地址确定用户的当前位置，并相应地应用规则。 为Location-Based路由启用的用户的位置可按如下所示进行分类： 
+Location-Based路由的工作原理是根据用户 Teams 终结点的 IP 地址确定用户的当前位置，并相应地应用规则。 为Location-Based路由启用的用户的位置可按如下所示进行分类： 
 
 - **用户位于与分配其 DID 的 PSTN 网关关联的已启用路由Location-Based站点。**<br>在此方案中，用户位于已为Location-Based路由启用的已配置网络站点中，并且用户的直接向内拨号 (DID) 号码会在同一网络站点中的 PSTN 网关上终止。 例如，用户在其办公室。 
 
@@ -141,7 +141,7 @@ Location-Based路由的工作原理是根据用户Teams终结点的 IP 地址确
 
 ## <a name="restriction-rules"></a>限制规则
 
-限制规则取决于是否为Location-Based路由启用Teams用户。
+限制规则取决于 Teams 用户是否已启用Location-Based路由。
 
 ### <a name="user-is-enabled-for-location-based-routing"></a>用户已启用Location-Based路由
 
@@ -163,7 +163,7 @@ Location-Based路由的工作原理是根据用户Teams终结点的 IP 地址确
 
    - 在任何其他情况下，例如，如果用户正在漫游，则不允许呼叫，并且会路由到用户未接听的呼叫转接设置， (通常语音邮件) 。  
    
-- **对于 1：1 Teams VoIP 调用并传输到 PSTN**，请注意以下事项：
+- **对于 1：1 Teams VoIP 调用并转移到 PSTN**，请注意以下事项：
 
   - 呼叫的路由（即要从其发出呼叫的 PSTN 网关）基于用户传输呼叫的路由设置。
 
@@ -175,7 +175,7 @@ Location-Based路由的工作原理是根据用户Teams终结点的 IP 地址确
 
     如果正在传输的用户能够使用同一 PSTN 网关在其当前位置进行 PSTN 调用，则允许传输。
 
-- **对于传入或传出 PSTN 呼叫并传输到另一Teams用户**，是否允许传输取决于以下内容：
+- **对于传入或传出的 PSTN 呼叫并传输到另一个 Teams 用户**，是否允许传输取决于以下内容：
 
    - 接收传输呼叫的用户的路由设置。 
    - 终结点网络站点位置。
@@ -186,7 +186,7 @@ Location-Based路由的工作原理是根据用户Teams终结点的 IP 地址确
 
 ### <a name="user-is-not-enabled-for-location-based-routing"></a>未为用户启用Location-Based路由
 
-如果未为Teams用户启用Location-Based路由，则该用户的所有调用都必须通过未启用Location-Based路由的 PSTN 网关路由。 通过启用了Location-Based路由的 PSTN 网关路由到此类用户的入站呼叫将路由到用户未接听的呼叫转接设置 (通常是语音邮件) 。
+如果未为 Teams 用户启用Location-Based路由，则该用户的所有调用都必须通过未为Location-Based路由启用的 PSTN 网关路由。 通过启用了Location-Based路由的 PSTN 网关路由到此类用户的入站呼叫将路由到用户未接听的呼叫转接设置 (通常是语音邮件) 。
 
 ### <a name="decision-flows-for-inbound-and-outbound-calls"></a>入站和出站调用的决策流
 
@@ -205,10 +205,10 @@ Location-Based路由的工作原理是根据用户Teams终结点的 IP 地址确
 
 本部分介绍使用Location-Based路由限制通行费旁路的不同方案。 这些方案比较了未启用Location-Based路由的用户与启用了Location-Based路由的用户的呼叫路由方式。
 
-- [Teams用户向 PSTN 发出出站调用](#teams-user-places-an-outbound-call-to-the-pstn)
-- [Teams用户从 PSTN 接收入站呼叫](#teams-user-receives-an-inbound-call-from-the-pstn)
-- [Teams用户转移或转发对另一Teams用户的调用](#teams-user-transfers-or-forwards-call-to-another-teams-user)
-- [Teams用户传输或转发对 PSTN 终结点的调用](#teams-user-transfers-or-forwards-call-to-pstn-endpoint)
+- [Teams 用户向 PSTN 发出出站调用](#teams-user-places-an-outbound-call-to-the-pstn)
+- [Teams 用户从 PSTN 接收入站呼叫](#teams-user-receives-an-inbound-call-from-the-pstn)
+- [Teams 用户转移或转发对另一个 Teams 用户的调用](#teams-user-transfers-or-forwards-call-to-another-teams-user)
+- [Teams 用户传输或转发对 PSTN 终结点的调用](#teams-user-transfers-or-forwards-call-to-pstn-endpoint)
 - [同时响铃](#simultaneous-ringing)
 - [委派](#delegation)
 
@@ -216,7 +216,7 @@ Location-Based路由的工作原理是根据用户Teams终结点的 IP 地址确
 
 ![显示Location-Based路由方案的示意图。](media/lbr-direct-routing.png "显示Location-Based路由方案的示意图")
 
-### <a name="teams-user-places-an-outbound-call-to-the-pstn"></a>Teams用户向 PSTN 发出出站调用
+### <a name="teams-user-places-an-outbound-call-to-the-pstn"></a>Teams 用户向 PSTN 发出出站调用
 
 #### <a name="user-not-enabled-for-location-based-routing"></a>用户未启用Location-Based路由
 
@@ -234,7 +234,7 @@ Location-Based路由的工作原理是根据用户Teams终结点的 IP 地址确
 |未知的内部网络 (Location4)     |  除非网关将 GatewayLbrEnabledUserOverride 设置为 True，否则不允许 PSTN 调用       |
 |未知的外部网络 (Location5)     | 除非网关将 GatewayLbrEnabledUserOverride 设置为 True，否则不允许 PSTN 调用       |
 
-### <a name="teams-user-receives-an-inbound-call-from-the-pstn"></a>Teams用户从 PSTN 接收入站呼叫
+### <a name="teams-user-receives-an-inbound-call-from-the-pstn"></a>Teams 用户从 PSTN 接收入站呼叫
 
 #### <a name="user-not-enabled-for-location-based-routing"></a>用户未启用Location-Based路由
 
@@ -252,11 +252,11 @@ Location-Based路由的工作原理是根据用户Teams终结点的 IP 地址确
 |未知的内部网络 (Location4)    | 未路由到 Location4 中的终结点的调用        |
 |未知的外部网络 (Location5)      | 未路由到 Location5 中的终结点的调用        |
 
-### <a name="teams-user-transfers-or-forwards-call-to-another-teams-user"></a>Teams用户转移或转发对另一Teams用户的调用
+### <a name="teams-user-transfers-or-forwards-call-to-another-teams-user"></a>Teams 用户转移或转发对另一个 Teams 用户的调用
 
 涉及 PSTN 终结点时，Location-Based路由会分析是否为一个或两个用户启用了Location-Based路由，并根据两个终结点的位置确定是否应传输或转发调用。 
  
-呼叫传输要求发起用户接听呼叫，而呼叫转接不需要应答初始调用。 即使 User1 不在接收入站呼叫的位置，也可以转发调用， (看到[Teams用户从 PSTN 部分接收入站呼叫](#teams-user-receives-an-inbound-call-from-the-pstn)) ，如果 User1 无法接收入站呼叫，则无法传输呼叫。 
+呼叫传输要求发起用户接听呼叫，而呼叫转接不需要应答初始调用。 即使 User1 不在接收入站呼叫的位置，也可以转发呼叫， (看到 [Teams 用户中的表从 PSTN 部分接收入站呼叫](#teams-user-receives-an-inbound-call-from-the-pstn)) 如果 User1 无法接收入站呼叫，则无法传输呼叫。 
 
 #### <a name="user-not-enabled-for-location-based-routing"></a>用户未启用Location-Based路由
 
@@ -268,7 +268,7 @@ Location-Based路由的工作原理是根据用户Teams终结点的 IP 地址确
 
 仅当目标用户启用了Location-Based路由并位于同一站点时，才允许从已启用Location-Based路由的网关传输和转发入站 PSTN 调用。 否则，不允许传输和转发调用。 
 
-下表显示是否允许呼叫转接和呼叫传输，具体取决于目标用户的位置。 在此表中，位于 Site1 的 User1 启动传输或转发给其他Teams用户，这些用户也已启用Location-Based路由，并且位于不同位置。  
+下表显示是否允许呼叫转接和呼叫传输，具体取决于目标用户的位置。 在此表中，位于 Site1 中的 User1 启动传输或转发给其他 Teams 用户，这些用户也已启用Location-Based路由，并且位于不同位置。  
 
 |目标用户终结点位置|User1 启动呼叫传输 |User1 启动呼叫转发|
 |---------|---------|---------|
@@ -278,7 +278,7 @@ Location-Based路由的工作原理是根据用户Teams终结点的 IP 地址确
 |未知的内部网络 (User5) | 不允许|不允许|
 |未知外部网络 (User6) | 不允许|不允许|
 
-### <a name="teams-user-transfers-or-forwards-call-to-pstn-endpoint"></a>Teams用户传输或转发对 PSTN 终结点的调用
+### <a name="teams-user-transfers-or-forwards-call-to-pstn-endpoint"></a>Teams 用户传输或转发对 PSTN 终结点的调用
 
 #### <a name="user-not-enabled-for-location-based-routing"></a>用户未启用Location-Based路由
 
@@ -313,7 +313,7 @@ Location-Based路由的工作原理是根据用户Teams终结点的 IP 地址确
 
 当启用了Location-Based路由的用户收到呼叫并同时启用了呼叫时，Location-Based路由会分析调用方的位置和调用方的终结点，以确定是否应路由呼叫。 同时响铃遵循与调用传输和转发相同的Location-Based规则。 
 
-#### <a name="simultaneous-ringing-for-another-teams-user"></a>另一Teams用户同时响铃
+#### <a name="simultaneous-ringing-for-another-teams-user"></a>另一个 Teams 用户同时响铃
 
 下表显示了Location-Based路由是否允许为 User1 的入站 PSTN 调用同时向不同用户响铃。
 
@@ -350,11 +350,11 @@ Location-Based路由的工作原理是根据用户Teams终结点的 IP 地址确
 
 ### <a name="delegation"></a>委派
 
-Teams用户可以选择代表其发出和接听呼叫的代表。 Teams中的委派功能受Location-Based路由的影响，如下所示： 
+Teams 用户可以选择代表其发出和接听呼叫的代表。 Teams 中的委派功能受Location-Based路由的影响，如下所示： 
 
-- 对于代表委托人从启用了Location-Based路由委托的出站调用，适用相同的规则。 呼叫路由基于委托的呼叫授权策略、语音路由策略和位置。 有关详细信息，请参阅[Teams用户向 PSTN 发出出站调用](#teams-user-places-an-outbound-call-to-the-pstn)。 
+- 对于代表委托人从启用了Location-Based路由委托的出站调用，适用相同的规则。 呼叫路由基于委托的呼叫授权策略、语音路由策略和位置。 有关详细信息，请参阅 [Teams 用户对 PSTN 进行出站调用](#teams-user-places-an-outbound-call-to-the-pstn)。 
 
-- 对于委托者的入站 PSTN 调用，适用于呼叫转接或同时向其他用户发出呼叫的相同Location-Based路由规则也适用于委托。 有关详细信息，请参阅[Teams用户转移或转发对另一Teams用户的调](#teams-user-transfers-or-forwards-call-to-another-teams-user)用，[Teams用户传输或转发对 PSTN 终结点的调用](#teams-user-transfers-or-forwards-call-to-pstn-endpoint)，[以及同时响铃](#simultaneous-ringing)。 当委托将 PSTN 终结点设置为同时响铃目标时，委托的语音路由策略用于将调用路由到 PSTN。 
+- 对于委托者的入站 PSTN 调用，适用于呼叫转接或同时向其他用户发出呼叫的相同Location-Based路由规则也适用于委托。 有关详细信息，请参阅 [Teams 用户转移或转发对另一个 Teams 用户的调用](#teams-user-transfers-or-forwards-call-to-another-teams-user)、 [Teams 用户传输或转发对 PSTN 终结点的调用](#teams-user-transfers-or-forwards-call-to-pstn-endpoint)，以及 [同时响铃](#simultaneous-ringing)。 当委托将 PSTN 终结点设置为同时响铃目标时，委托的语音路由策略用于将调用路由到 PSTN。 
 
 - 对于委派，Microsoft 建议委派人和关联委托位于同一网络站点中。 
 
@@ -370,20 +370,20 @@ Teams用户可以选择代表其发出和接听呼叫的代表。 Teams中的委
 
 ### <a name="client-support-for-location-based-routing"></a>客户端对Location-Based路由的支持
 
-支持以下Teams客户端：
-- Teams桌面客户端 (Windows和 Mac) 
-- Teams移动客户端 (iOS和Android) 
+支持以下 Teams 客户端：
+- Windows 和 Mac (Teams 桌面客户端) 
+-  (iOS 和 Android) 的 Teams 移动客户端
 - Teams IP 电话
 
-不支持Teams Web 客户端和Skype for Business客户端。
+不支持 Teams Web 客户端和Skype for Business客户端。
 
 ### <a name="capabilities-not-supported-by-location-based-routing"></a>基于位置的路由不支持的功能
 
-Location-Based路由不适用于以下类型的交互。 Location-Based在以下方案中Teams终结点与 PSTN 终结点交互时，不会强制执行路由： 
+Location-Based路由不适用于以下类型的交互。 在以下情况下，当 Teams 终结点与 PSTN 终结点交互时，不会强制执行Location-Based路由： 
 
 - 通过呼叫寄存对 PSTN 呼叫进行呼叫寄存或检索 
 
-- 本地Skype for Business用户或 Skype for Business Online 用户调用Teams用户  
+- 本地Skype for Business用户或Skype for Business联机用户调用 Teams 用户  
 
 ### <a name="location-based-routing-for-conferencing"></a>Location-Based会议路由
 
@@ -395,7 +395,7 @@ Location-Based路由不适用于以下类型的交互。 Location-Based在以下
 
 如果启用了Location-Based路由的用户从未启用Location-Based路由的内部站点加入电话会议，则不会强制执行上述段落中的限制。 
 
-不得使用印度的任何电话设备部署用于音频会议的网络会议。
+不得使用印度的任何电话设备部署音频会议的网络会议。
 
 
 ### <a name="media-bypass-requirement-for-location-based-routing"></a>Location-Based路由的媒体旁路要求
@@ -410,4 +410,4 @@ Location-Based路由不适用于以下类型的交互。 Location-Based在以下
 ## <a name="related-articles"></a>相关文章
 
 - [为直接路由启用基于位置的路由](location-based-routing-enable.md)
-- [Teams中云语音功能的网络设置](cloud-voice-network-settings.md)
+- [Teams 中云语音功能的网络设置](cloud-voice-network-settings.md)

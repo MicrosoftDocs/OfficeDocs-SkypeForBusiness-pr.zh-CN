@@ -1,7 +1,7 @@
 ---
 title: 在 Microsoft Teams 中配置桌面共享
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: jastark
 ms.date: 03/22/2019
@@ -11,18 +11,18 @@ ms.service: msteams
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 了解如何配置会议策略，让用户在聊天或会议中共享Teams桌面。
+description: 了解如何配置会议策略以允许用户在 Teams 聊天或会议中共享其桌面。
 ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c5db10ce87dc98cfb793eefb1daa953385c95f6d
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: 6c94991255b7309e1510a934645f1f4cf0b7e049
+ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205283"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66562381"
 ---
 # <a name="configure-desktop-sharing-in-microsoft-teams"></a>在 Microsoft Teams 中配置桌面共享
 
@@ -41,9 +41,9 @@ ms.locfileid: "61205283"
 
     ![已选择会议策略。](media/configure-desktop-sharing-image1.png)
 
-2. 在"**会议策略"** 页面上，选择"**添加"。**
+2. 在 **“会议策略** ”页上，选择 **“添加**”。
 
-    !["会议策略"消息。](media/addMeeting.png)
+    ![会议策略消息。](media/addMeeting.png)
 
 3. 为策略提供唯一的标题，并输入简要说明。
 
@@ -56,12 +56,12 @@ ms.locfileid: "61205283"
     ![共享模式选项。](media/configure-desktop-sharing-image3.png)
 
   > [!Note]
-  > 你不必启用呼叫策略，用户就可使用聊天中的屏幕共享。 但是，在取消静音之前，他们的音频将关闭。 此外，共享屏幕的用户可以单击" **添加音频"** 以启用音频。 如果呼叫策略被禁用，用户将无法从聊天会话将音频添加到屏幕共享。
+  > 无需启用调用策略即可让用户在聊天中使用屏幕共享。 但是，他们的音频会关闭，直到它们自行取消静音。 此外，共享屏幕的用户可以单击 **“添加音频** ”以启用音频。 如果禁用调用策略，用户将无法从聊天会话向屏幕共享添加音频。
 
 5. 打开或关闭以下设置：
 
-    - **允许参与者授予或请求控制权** – 允许团队成员授予或请求控制演示者的桌面或应用程序。
-    - **允许外部参与者授予或请求控制权** – 这是按用户的策略。 无论会议组织者设置了什么，组织是否为用户设置了这个功能，都无法控制外部参与者的行为。 该参数控制是否可以让外部参与者控制或请求控制共享者的屏幕，这取决于共享者在其组织的会议策略中设置的内容。
+    - **允许参与者提供或请求控制** - 允许团队成员授予或请求对演示者桌面或应用程序的控制。
+    - **允许外部参与者提供或请求控制** – 这是每个用户的策略。 无论会议组织者设置了什么，组织是否为用户设置了这个功能，都无法控制外部参与者的行为。 该参数控制是否可以让外部参与者控制或请求控制共享者的屏幕，这取决于共享者在其组织的会议策略中设置的内容。
     - **允许 PowerPoint 共享** - 允许用户创建可上传和共享 PowerPoint 演示文稿的会议。
     - **允许白板** - 允许用户共享白板。
     - **允许共享笔记** - 允许用户记录共享笔记。

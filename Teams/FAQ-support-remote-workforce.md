@@ -1,7 +1,7 @@
 ---
 title: 常见问题解答：支持远程工作人员
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 使用本指南支持在家中工作 (WFH) 的远程员工提高生产力，来应对新型冠状病毒（COVID-19）的爆发。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eeb38564006794a5b880141d4017fc099d352b7a
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 70980463f71ad9fb8fa12fd71c4a6772a23ca9fd
+ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674454"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66562591"
 ---
 # <a name="faq-support-your-remote-workforce"></a>常见问题解答：支持远程工作人员
 

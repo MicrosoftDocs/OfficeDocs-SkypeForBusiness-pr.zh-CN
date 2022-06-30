@@ -1,7 +1,7 @@
 ---
 title: 在 Microsoft Teams 中分配团队所有者和成员
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 audience: admin
@@ -16,16 +16,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 76ca4a5dfd6d120b71e23d899ec9c7749db99827
-ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+ms.openlocfilehash: 1a8993882bb281dc7c9bd6b8bde95387a183b637
+ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65125487"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66562761"
 ---
 # <a name="assign-team-owners-and-members-in-microsoft-teams"></a>在 Microsoft Teams 中分配团队所有者和成员
 
-在 Microsoft Teams 中有两种用户角色：**所有者** 和 **成员**。 默认情况下，会为创建新团队的用户授予所有者状态。 此外，团队所有者和成员可以拥有频道的审核员功能（前提是设置了审核）。 如果团队是从现有Microsoft 365组创建的，则会继承权限。
+在 Microsoft Teams 中有两种用户角色：**所有者** 和 **成员**。 默认情况下，会为创建新团队的用户授予所有者状态。 此外，团队所有者和成员可以拥有频道的审核员功能（前提是设置了审核）。 如果团队是从现有 Microsoft 365 组创建的，则会继承权限。
 
 下表显示了所有者与成员之间的权限差异。
 
@@ -43,8 +43,8 @@ ms.locfileid: "65125487"
 | ***编辑私人频道名称/说明** |    否     |    不适用|
 |        ***删除专用通道**         |    是     |    否|
 |          **添加共享通道**          |    是     |    否|
-| **编辑共享频道名称/说明** |    否     |    <sup>No6</sup>|
-|        **删除共享频道**         |    是     |    <sup>No6</sup>|
+| **编辑共享频道名称/说明** |    弱     |    No<sup>6</sup>|
+|        **删除共享频道**         |    是     |    No<sup>6</sup>|
 |          **添加成员**          |  是<sup>3</sup>   |     否<sup>4</sup>    |
 |          **请求添加成员**          |  不适用   |     是<sup>5</sup>     |
 |           **添加应用**            |    是     |    是<sup>2</sup>|
@@ -71,7 +71,7 @@ ms.locfileid: "65125487"
 
 ## <a name="assign-a-user-role"></a>分配用户角色
 
-若要分配用户角色，请在Teams中选择团队名称，然后选择 (**...**) >**管理团队** 的 **更多选项**。 在“成员”选项卡上，可以添加成员并选择所有者和审核员（如果你有足够的权限）。 有关详细信息，请参阅[Teams中的更改团队设置](https://support.office.com/article/ce053b04-1b8e-4796-baa8-90dc427b3acc)。
+若要分配用户角色，请在 Teams 中选择团队名称，然后 (**...**) >**管理团队** 选择 **更多选项**。 在“成员”选项卡上，可以添加成员并选择所有者和审核员（如果你有足够的权限）。 有关详细信息，请参阅 [Teams 中的更改团队设置](https://support.office.com/article/ce053b04-1b8e-4796-baa8-90dc427b3acc)。
 
 > [!NOTE]
 > 对于固定频道，不会显示“ **管理团队** ”选项。 在下方的 *“团队*”下选择团队名称，然后选择 (**...**) 名称右侧的 **“更多”选项**。

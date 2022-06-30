@@ -1,8 +1,8 @@
 ---
-title: 排查客户端Teams问题
+title: 排查 Teams 客户端的连接问题
 ms.reviewer: ''
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: troubleshooting
 ms.service: msteams
@@ -16,16 +16,16 @@ description: 解决 Microsoft Teams 客户端的连接问题（主要由防火�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 524a78f5a588b0a3a233385f7892624c46e5bac541f7e8a13f647e541b0ffbff
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8974aa7cf54ab61cb15650b839185daad1b82cc7
+ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308951"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66562161"
 ---
 # <a name="troubleshoot-connectivity-issues-with-the-microsoft-teams-client"></a>使用 Microsoft Teams 客户端解决连接性问题
 
-已发现的有关 Microsoft Teams 客户端的大多数问题都可追溯到防火墙或代理连接。 验证是否在防火墙或代理中打开了所需的 URL、IP 地址和端口可最大程度地减少不必要的故障排除。 有关应用程序所需的 URL 和 IP Microsoft Teams，请参阅 Microsoft 365 和 Office 365 URL 和[IP 地址](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2)支持一文。 以下方案需要在防火墙中打开特定 URL 和端口。
+已发现的有关 Microsoft Teams 客户端的大多数问题都可追溯到防火墙或代理连接。 验证是否在防火墙或代理中打开了所需的 URL、IP 地址和端口可最大程度地减少不必要的故障排除。 有关 Microsoft Teams 所需的 URL 和 IP 的特定信息，请参阅 [Microsoft 365 和Office 365 URL 和 IP 地址](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2)支持文章。 以下方案需要在防火墙中打开特定 URL 和端口。
 
 - 身份验证
 
@@ -43,9 +43,9 @@ ms.locfileid: "54308951"
 
 - Skype for Business 客户端互操作性
 
-## <a name="when-teams-is-offline-or-in-low-bandwidth-conditions"></a>当Teams处于脱机或低带宽情况下时
+## <a name="when-teams-is-offline-or-in-low-bandwidth-conditions"></a>当 Teams 处于脱机状态或带宽不足时
 
-好消息是，Teams处于脱机状态或低带宽情况下仍保持运行。 Teams将现有聊天的所有未发送消息 (保存最多 24 小时) 当您重新联机时立即发送这些消息。 如果脱机时间超过 24 小时，Teams选择重新发送或删除未发送的邮件。 我们正在努力将此功能添加到新聊天，并且将在本文档可用时更新此文档。
+好消息是，即使你处于脱机状态或在低带宽条件下运行，Teams 也将继续运行。 Teams 将现有聊天的所有未发送邮件保存 (长达 24 小时) 并在你重新联机后立即发送。 如果脱机时间超过 24 小时，Teams 允许你选择重新发送或删除未发送的消息。 我们正在努力将此功能添加到新聊天，并在可用时更新此文档。
 
 ## <a name="related-topics"></a>相关主题
 

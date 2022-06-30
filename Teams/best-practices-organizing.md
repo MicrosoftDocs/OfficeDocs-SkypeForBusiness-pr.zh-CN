@@ -1,8 +1,8 @@
 ---
-title: 组织团队的最佳实践
+title: 组织团队的最佳做法
 ms.reviewer: pbethi
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 523d35fd1e7981a52e5972232f0c00c276435f7f
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: 959a2936a762584ceee8c3292cc9ced343d33fc5
+ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711876"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66562751"
 ---
 # <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>在 Microsoft Teams 中组织团队的最佳做法
 
@@ -41,13 +41,13 @@ ms.locfileid: "63711876"
 
 ## <a name="create-channels-to-focus-discussions"></a>创建以讨论为重点的频道
 
-创建团队后，建议开始考虑需要支持的不同项目和对话类型。 请创建初始频道，这样成员就知道在哪里参与并查找现有对话。 命名描述性频道名称，这样成员就更容易知道到哪里查找每个对话。 请将工具（如 OneNote、Power BI 或 Planner）作为选项卡添加到频道中，这样成员就可以直接在频道中使用所需的一切功能。 也可以将常用网页作为选项卡添加到频道中。
+创建团队后，最好开始考虑需要支持的不同项目和对话类型。 请创建初始频道，这样成员就知道在哪里参与并查找现有对话。 命名描述性频道名称，这样成员就更容易知道到哪里查找每个对话。 请将工具（如 OneNote、Power BI 或 Planner）作为选项卡添加到频道中，这样成员就可以直接在频道中使用所需的一切功能。 也可以将常用网页作为选项卡添加到频道中。
 
 若要详细了解这些面向最终用户的快速提示与技巧，请参阅[在团队中工作](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_teams)。
 
 最佳做法：创建包含更大一组成员和更多频道的团队。 最大限度地减少需要个人参与的团队数量。 应将团队中的频道看作是主题或工作流程，用于帮助团队组织工作来实现共同目标。 没有要求应创建特定数量的频道。 每个团队都应根据自身的工作、优先级和风格来设计频道。
 
-对团队中每个人都可以参与的对话使用标准频道。 当需要 [具有一组](private-channels.md) 选定团队成员的重点协作空间时，可以利用专用频道。 需要 [与团队](shared-channels.md) 外部人员协作时，请使用共享频道。
+对团队中每个人都可以参与的对话使用标准频道。 当你需要具有一组选择的团队成员的专注协作空间时，请利用 [专用频道](private-channels.md) 。 需要与团队外部人员协作时，请使用 [共享频道](shared-channels.md) 。
 
 更大型的组织不妨将团队创建为“模板”，以标准化捕获到的特定类型工作相关信息。 这对于战略客户管理、课堂管理、医疗保健方案、索赔管理、事件管理以及适用于特定行业的其他方案很有用。 若要了解详细信息，请查看[开始使用 Teams 模板](get-started-with-teams-templates.md)和[适用于中小型企业的 Teams 模板](smb-templates.md)。
 
