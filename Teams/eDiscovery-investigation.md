@@ -17,12 +17,12 @@ description: 了解在需要执行电子数据展示时应执行的操作，例�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6f24c780944bfed6bb10fb8b1cd7634edc1ce850
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.openlocfilehash: 4b5a0ca0cb52c4b444769b7bfc25b17cab80a02b
+ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562421"
+ms.locfileid: "66563940"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>在 Microsoft Teams 中对内容进行电子数据展示调查
 
@@ -38,7 +38,7 @@ ms.locfileid: "66562421"
 
 |内容类型|电子数据展示|注释|
 |---|---|---|
-|音频录制|弱||
+|音频录制|是||
 |卡片内容|是|有关详细信息，请参阅 [“搜索卡片内容](#search-for-card-content) ”。|
 |聊天链接|是||
 |聊天消息|是|这包括标准 Teams 频道中的内容、1：1 聊天、1：N 组聊天以及与来宾用户参与者的聊天。|
@@ -51,7 +51,6 @@ ms.locfileid: "66562421"
 |会议 IM 对话|是||
 |会议元数据<sup>1</sup>|是||
 |通道的名称|是||
-|专用和共享频道聊天消息|是||
 |报价|是|引用的内容是可搜索的。 但是，搜索结果并不指示已引用内容。|
 |喜欢、心和其他反应等 (反应) |是||
 |主题|是||

@@ -1,14 +1,14 @@
 ---
-title: 载入清单 - 配置直接路由 - Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+title: 加入清单 - 配置直接路由 - Microsoft Teams
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 06/07/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: 在 Teams 中配置直接路由时，请遵循此清单中的核心、Teams。
+description: 在 Teams 中配置直接路由时，请按照此清单中的核心、要执行的任务和活动进行操作。
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -16,38 +16,38 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 7791aa7f9597b70201501a7326956e931cb9fee7
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: b25bea2fb2b3e6994259f9f9d606b8bda6fa22c8
+ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62417385"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66563900"
 ---
-# <a name="configure-direct-routing-in-microsoft-teams"></a>在服务中配置直接Microsoft Teams
+# <a name="configure-direct-routing-in-microsoft-teams"></a>在 Microsoft Teams 中配置直接路由
 
 ## <a name="direct-routing"></a>直接路由
 
-| 否 | 活动或任务 | 说明 | 已完成？ | 其他信息 |
+| 弱 | 活动或任务 | 说明 | 已完成？ | 其他信息 |
 |----|-------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|1|确定将针对组织位置部署哪些 PSTN 连接|Microsoft 提供替代方法，以便使用客户端或 Microsoft 365 为用户提供 PSTN Office 365 电话系统。<ul><li>电话系统套餐 ("呼叫计划") ：Skype for Business Online Teams<li>电话系统直接路由 ("直接路由") ：Teams路由<li>电话系统本地 PSTN 连接：仅 Skype for Business Online<li>Skype for Business 云连接器版本：Skype for Business Online</ul>直接路由为组织提供与呼叫计划相同的优势，不过 PSTN 连接由第三方提供商而不是 Microsoft 提供。 这允许部署在呼叫计划不可用的国家/地区，或者需要维护现有 PSTN 服务提供商合同或需要与某些本地系统互操作性的部署中。<br><br>确定最适合 () 哪个选项。 | |[音频会议和通话套餐的国家/地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)<br><br>[加入音频会议和通话计划的清单](./onboarding-checklist-configure-cloud-voice-workloads-in-microsoft-teams.md) |
-|2|验证用户列表和启用直接路由的部署节奏|检查是否具有"直接路由"范围内具有"直接路由"的业务部门或Teams。 使用目标和关键结果模型，确定哪些用户将参与直接路由。 我们建议你按站点工作，以便专注于资源。<br><br>作为启用计划的一部分，请确定要启用的用户， (试点、站点 1、站点 2 等时启用) 。||[直接路由构想](./direct-routing-landing-page.md)|
-|3|计划和获取许可证|直接路由的用户必须在用户或用户Microsoft 365分配Office 365：<ul><li>Skype for Business Online（计划 2）<li>Microsoft 电话 系统<li>Microsoft Teams<li>Microsoft 音频会议</ul>直接路由还支持获得呼叫计划许可的用户。 电话系统套餐时，可以使用直接路由接口路由某些调用。<br><br>通过拨出或提供拨入号码将外部参与者添加到计划会议需要音频会议许可证。||[直接路由许可](direct-routing-plan.md)|
-|4|规划 SBC (的会话) 控制器|SBC 域名必须来自租户的"域"中注册的名称之一。<br><br>**注意：** 不能将 *.onmicrosoft.com 用于 SBC 的 FQDN (完全) 域名。<br><br>在规划每个 SBC 所需的证书时，SBC 域名也很重要。||[SBC 域名](direct-routing-plan.md)|
-|5|规划证书|强烈建议通过 CSR 证书生成证书签名请求来请求 SBC (证书) 。<br><br>证书需要在主题、公用名或主题备用名称字段中具有 SBC FQDN。 或者，直接路由支持公用名或主题备用名称中的通配符。<br><br>有关为 SBC 生成 CSR 的详细说明，请参阅 SBC 供应商提供的文档。<br><br>"其他信息 **"列中** 的文章列出了支持的根证书颁发机构。||[SBC 的公共受信任证书](direct-routing-plan.md)|
-|6|计划和配置防火墙端口|直接路由的连接点为以下三个 FQDN：<ul><li>sip.pstnhub.microsoft.com<li>sip2.pstnhub.microsoft.com<li>sip3.pstnhub.microsoft.com</ul>必须在企业防火墙上允许这些连接点与 SDC 之间的流量。 配置 SBC 时，在 SBC 上定义 TCP 端口。<br><br>媒体流量位于 UDP 上。 此类流量流入和流出媒体处理器组件。 还必须在防火墙上允许 SDC 与媒体处理器之间的双向流量。<br><br>**注意：** 媒体处理器具有动态 IP 地址，静态 IP 地址稍后可用。 必须允许 Azure 数据中心 IP 范围中列出的任何 [IP 地址](https://www.microsoft.com/download/details.aspx?id=41653)。||[SIP 信号：FQDN 和防火墙端口](direct-routing-plan.md)<br><br>[媒体流量：IP 地址和端口范围](direct-routing-plan.md)<br><br>[Azure 数据中心 IP 范围](https://www.microsoft.com/download/details.aspx?id=41653)|
-|7|配置 SDC|Microsoft 仅支持通过认证的 SDC 与直接路由配对。<br><br>使用特定于供应商的指南和"其他信息"列中文章中的说明配置 **SDC** 。||[支持的会话边界控制器 (SDC) ](direct-routing-plan.md)|
-|8|将 SDC 与直接路由配对|每个站点中的 SDC 必须与直接路由配对，以便使用自己的中继提供拨号音和 PSTN 呼叫功能。<br><br>验证该特定站点中的 SBC 已与直接路由配对，或者配置配对（如果以前未执行）。<br><br>Microsoft 仅支持通过认证的 SBC 与直接路由配对。 验证该站点中的 SBC 是否经过认证。||[将 SBC 与服务的直接路由服务电话系统](direct-routing-configure.md)|
-|9|验证 SBC 配对|为为 `Get-CsOnlinePSTNGateway` 特定站点配对的每个 SBC 运行 cmdlet，并验证参数 **Enabled** 是否显示 **值 True**。<br><br>使用 SBC 管理接口验证 SBC 是否收到对传出 SIP 选项 **的 200 个**  "确定"响应。|||
-|10|验证用户配置|验证用户帐户是直接在 目录中创建的，还是同步到Microsoft 365，Office 365目录同步进行同步。<br><br>验证是否向用户分配了所需的许可证。<br><br>对于与直接路由的 PSTN 连接，你的用户必须Skype for Business Online 中并启用Microsoft Teams。||[为用户启用直接路由服务](direct-routing-configure.md)|
-|11|配置用户的电话号码|必须为位于直接路由范围的所有用户分配其电话号码。<br><br> 使用 `Set-CsPhoneNumberAssignment` cmdlet 将电话号码分配给用户。||[配置电话号码并启用企业语音和语音邮件](direct-routing-configure.md)|
-|12|配置语音路由|电话系统路由机制，允许将调用发送到基于：<ul><li>已调用数字模式<li>呼叫号码模式 + 进行呼叫的特定用户</ul>通过创建以下命令为用户配置语音路由：<ul><li>语音路由策略<li>PSTN 使用情况<li>语音路由<li>联机 PSTN 网关</ul>||[配置语音路由](direct-routing-configure.md)|
-|13|将Microsoft Teams设置为用户的首选呼叫客户端|在用户可以看到 Microsoft Teams 中的"呼叫"选项卡之前，需要在 Microsoft Teams 中为租户启用专用呼叫，并且必须将 Teams 客户端配置为用户的首选呼叫客户端。||[为用户启用Microsoft Teams](direct-routing-configure.md)<br><br>[将Microsoft Teams设置为用户的首选呼叫客户端](direct-routing-configure.md)|
-|14|为用户启用直接路由|通过配置的 SBC 使用直接路由将语音路由策略分配给将拨打和接听 PSTN 呼叫的用户。||[为用户启用直接路由服务](direct-routing-configure.md)|
-|15|准备并执行用户验收测试|准备并执行用户验收测试，包括拨入和拨出方案。||[在云中测试云语音Teams](1-onboard-prepare-my-service.md)|
-|16|报告使用情况、运行状况、关键成功 (KSIs) 和质量|报告在"构想"阶段定义的使用情况、运行状况、KSIS 和质量。||[《操作指南》](1-drive-value-operate-my-service.md)|
+|1|确定要为组织的位置部署哪些 PSTN 连接|Microsoft 提供了使用 Microsoft 365 或 Office 365 电话系统 为用户提供 PSTN 连接的替代方法。<ul><li>具有呼叫计划的电话系统 (“呼叫计划”) ：Skype for Business联机和 Teams<li>电话系统直接路由 (“直接路由”) ：仅限 Teams<li>具有本地 PSTN 连接的电话系统：仅Skype for Business联机<li>Skype for Business 云连接器版本：仅Skype for Business联机</ul>直接路由为组织提供与通话套餐相同的优势，但 PSTN 连接是由第三方提供商而不是 Microsoft 促进的。 这允许在通话套餐不可用的国家/地区或需要维护现有 PSTN 服务提供商合同或与某些本地系统互操作性的部署中进行部署。<br><br>确定哪个选项 () 最适合你的组织。 | |[音频会议和通话套餐的国家/地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)<br><br>[加入音频会议和通话套餐的清单](./onboarding-checklist-configure-cloud-voice-workloads-in-microsoft-teams.md) |
+|2|验证用户列表以及启用直接路由的部署节奏|检查是否在 Teams 直接路由范围内包含业务单位或站点的列表。 使用目标和关键结果模型，确定哪些用户将在直接路由范围内。 我们建议你逐站点工作，以便可以集中资源。<br><br>作为启用计划的一部分，通过 (“试点”、“站点 1”、“站点 2”等) 来确定要启用的用户。||[直接路由构想](./direct-routing-landing-page.md)|
+|3|规划和获取许可证|直接路由的用户必须在 Microsoft 365 或Office 365中分配以下许可证：<ul><li>Skype for Business Online（计划 2）<li>Microsoft Phone 系统<li>Microsoft Teams<li>Microsoft 音频会议</ul>直接路由还支持获得通话套餐许可的用户。 具有通话套餐的电话系统可以使用直接路由接口路由某些呼叫。<br><br>音频会议许可证是将外部参与者添加到计划会议所必需的，方法是向他们拨号或提供拨入号码。||[直接路由许可](direct-routing-plan.md)|
+|4|规划会话边框控制器 (SBC) 域名|SBC 域名必须来自租户的“域”中注册的某个名称。<br><br>**注意：** 不能对 SBC 的 FQDN)  (完全限定的域名使用 *.onmicrosoft.com。<br><br>在规划每个 SBC 所需的证书时，SBC 域名也很重要。||[SBC 域名](direct-routing-plan.md)|
+|5|规划证书|强烈建议通过生成证书签名请求 (CSR) 来请求 SBC 的证书。<br><br>证书需要在使用者、公用名称或使用者备用名称字段中具有 SBC FQDN。 或者，直接路由支持公用名称或使用者备用名称中的通配符。<br><br>有关为 SBC 生成 CSR 的具体说明，请参阅 SBC 供应商提供的文档。<br><br>“ **其他信息** ”列中的文章列出了支持的根证书颁发机构。||[SBC 的公共受信任证书](direct-routing-plan.md)|
+|6|规划和配置防火墙端口|直接路由的连接点是以下三个 FQDN：<ul><li>sip.pstnhub.microsoft.com<li>sip2.pstnhub.microsoft.com<li>sip3.pstnhub.microsoft.com</ul>必须在公司防火墙上允许这些连接点与 SBC 之间的流量。 配置 SBC 时，可在 SBC 上定义 TCP 端口。<br><br>媒体流量位于 UDP 上。 此类流量流向和流出媒体处理器组件。 还必须在防火墙上允许 SBC 与媒体处理器之间的双向流量。<br><br>**注意：** 媒体处理器具有动态 IP 地址，静态 IP 地址稍后将可用。 请务必允许 [Azure 数据中心 IP 范围](https://www.microsoft.com/download/details.aspx?id=41653)中列出的任何 IP 地址。||[SIP 信号：FQDN 和防火墙端口](direct-routing-plan.md)<br><br>[媒体流量：IP 地址和端口范围](direct-routing-plan.md)<br><br>[Azure 数据中心 IP 范围](https://www.microsoft.com/download/details.aspx?id=41653)|
+|7|配置 SBC|Microsoft 仅支持通过认证的 SBC 与直接路由配对。<br><br>使用特定于供应商的指南和“ **其他信息** ”列中文章中的说明配置 SBC。||[支持的会话边框控制器 (SBC) ](direct-routing-plan.md)|
+|8|将 SBC 与直接路由配对|每个站点中的 SBC 必须与直接路由配对，才能使用自己的中继提供拨号音和 PSTN 呼叫功能。<br><br>验证该特定站点中的 SBC 已与直接路由配对，或者配置该对（如果之前未执行）。<br><br>Microsoft 仅支持经认证的 SBC 与直接路由配对。 验证该站点中的 SBC 是否已通过认证。||[将 SBC 与电话系统的直接路由服务配对](direct-routing-configure.md)|
+|9|验证 SBC 配对|`Get-CsOnlinePSTNGateway`运行针对特定站点配对的每个 SBC 的 cmdlet，并验证 **启用** 的参数是否显示值 **True**。<br><br>使用 SBC 管理接口验证 SBC 是否获取对传出 SIP OPTIONS 的 **200 个“确定”**  响应。|||
+|10|验证用户配置|验证用户帐户是直接在 Microsoft 365 中创建的，还是通过使用目录同步Office 365。<br><br>验证是否已将所需的许可证分配给用户。<br><br>对于 PSTN 与直接路由的连接，用户必须驻留在 Skype for Business Online 中并为 Microsoft Teams 启用。||[为用户启用直接路由服务](direct-routing-configure.md)|
+|11|配置用户的电话号码|必须为直接路由范围内的所有用户分配其电话号码。<br><br> 使用 `Set-CsPhoneNumberAssignment` cmdlet 将电话号码分配给用户。||[配置电话号码并启用企业语音和语音邮件](direct-routing-configure.md)|
+|12|配置语音路由|电话系统有一个路由机制，允许基于以下情况将呼叫发送到特定 SBC：<ul><li>调用的数字模式<li>调用号码模式 + 进行呼叫的特定用户</ul>通过创建以下方法为用户配置语音路由：<ul><li>语音路由策略<li>PSTN 使用情况<li>语音路由<li>联机 PSTN 网关</ul>||[配置语音路由](direct-routing-configure.md)|
+|13|将 Microsoft Teams 设置为用户的首选呼叫客户端|用户在 Microsoft Teams 中看到 **“呼叫”** 选项卡之前，需要为 Microsoft Teams 中的租户启用 **专用呼叫** ，并且 Teams 客户端必须配置为用户的 **首选呼叫客户端** 。||[启用 Microsoft Teams 通话](direct-routing-configure.md)<br><br>[将 Microsoft Teams 设置为用户的首选呼叫客户端](direct-routing-configure.md)|
+|14|为用户启用直接路由|通过配置的 SBC 使用直接路由将语音路由策略分配给将发出和获取 PSTN 呼叫的用户。||[为用户启用直接路由服务](direct-routing-configure.md)|
+|15|准备并执行用户接受测试|准备和执行用户接受测试，包括拨入和拨出方案。||[在 Teams 中测试云语音工作负荷](1-onboard-prepare-my-service.md)|
+|16|报告使用情况、运行状况、关键成功指标 (KSIS) 和质量|报告在构想阶段定义的使用情况、运行状况、KIS 和质量。||[《操作指南》](1-drive-value-operate-my-service.md)|
 
 ## <a name="next-steps"></a>后续步骤
 
-完成此清单后，你已成功配置直接路由和Teams部署。
+完成此清单后，你将使用 Teams 部署成功配置直接路由。
 
-下一步，使用 [Voice (Playbook) 网站启用 Playbook 来帮助 ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) 你在每个网站上加入用户，并帮助确保你计划和执行重要的特定于网站的活动。
+下一步，请使用 [“语音 (Playbook 网站启用 Playbook) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) 来帮助你在每个网站上载入用户，并帮助确保规划和执行特定于网站的重要活动。

@@ -1,7 +1,7 @@
 ---
 title: Teams 医疗保健策略包
-author: serdars
-ms.author: serdars
+ms.author: mabond
+author: mkbond007
 manager: serdars
 ms.reviewer: aaglick
 ms.topic: article
@@ -21,12 +21,12 @@ searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
 description: 了解如何使用和管理适用于医疗保健组织的 Teams 策略包。
-ms.openlocfilehash: d61075f03af034148205520f1d9f08c313b739ed
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: c4a1d6909cd6a2c7f58c3a30353a3d4398c4c70e
+ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62417375"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66563720"
 ---
 # <a name="teams-policy-packages-for-healthcare"></a>Teams 医疗保健策略包
 
@@ -56,7 +56,7 @@ Teams 当前包括以下医疗保健策略包。
 
 将为每个单独的策略提供策略包的名称，以便你可以轻松识别链接到该策略包的策略。 例如，当你将医疗保健临床工作者策略包分配给组织中的临床医师时，系统将为该策略包中的每个策略创建一个名为 Healthcare_ClinicalWorker 的策略。
 
-![医疗保健患者包中策略的屏幕截图。](media/policy-packages-healthcare-clinical-worker.png)
+![医疗保健临床辅助角色包中策略的屏幕截图。](media/policy-packages-healthcare-clinical-worker.png)
 
 ## <a name="get-started-with-policy-packages"></a>开始使用策略包
 

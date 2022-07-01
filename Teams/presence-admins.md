@@ -1,7 +1,7 @@
 ---
 title: Teams 中的用户状态
-author: dmaguire
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a928b532dcfb87a866f25502f4523078ce9cd48
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 7e1c436e6bcd204eb383228a73a115a70ae29e08
+ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012956"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66563760"
 ---
 # <a name="user-presence-in-teams"></a>Teams 中的用户状态
 
@@ -48,7 +48,7 @@ ms.locfileid: "60012956"
 |  ![带白线的红色圆圈，表示请勿打扰。](media/Presence_DND.png) 请勿打扰 ||
 || ![带白线的红色圆圈，表示正在演示。](media/Presence_DND.png) 正在演示|
 || ![带白线的红色圆圈，表示正在专注。](media/Presence_DND.png) 正在专注。当用户在日历的 MyAnalytics/Insights 中安排专注时间后，就会发生专注。|
-| ![黄色时钟图标，表示离开。](media/Presence_Away.png) Away - 离开| ![黄色时钟图标，表示离开。](media/Presence_Away.png) 离开|
+| ![黄色时钟图标，表示离开。](media/Presence_Away.png) Away - 离开| ![黄色时钟图标，表示离开。](media/Presence_Away.png) Away - 离开|
 || ![黄色时钟图标，表示离开](media/Presence_Away.png)上次上线 *时间* 离开|
 |![黄色时钟图标，表示离开但马上回来。](media/Presence_Away.png) 马上回来| |
 |![带 x 的灰色圆圈，表示脱机。](media/Presence_Offline.png) 显示为脱机|![带 x 的灰色圆圈，表示脱机](media/Presence_Offline.png) 脱机。如果用户在几分钟内未登录其任何设备，则将显示为脱机。 |

@@ -22,12 +22,12 @@ searchScope:
 - Microsoft Cloud for Retail
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 03b68923ae47324525f192949d442e94e36685c2
-ms.sourcegitcommit: 55926815f13efce42fb45f63d95515a5765e0d40
+ms.openlocfilehash: f965e69e3dda921cf5fdf348a728db403fc26a84
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65753045"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66494729"
 ---
 # <a name="get-started-with-teams-for-retail"></a>Teams for Retail 入门
 
@@ -127,7 +127,7 @@ Microsoft Teams 中的 Bookings 应用为组织提供了一种为同事和客户
 
 借助高流动率，快速添加和删除帐户以及分配正确策略的能力是关键。 开始在Microsoft 365 管理中心中使用一线工作人员载入向导。 该向导为一线工作人员设置一个团队，并向每个团队成员分配许可证和策略包。 有关详细信息，请参阅 [使用一线工作人员载入向导启动并运行](../flw-onboarding-wizard.md)。
 
-如果要添加大量用户（超过 100 个），则可以快速预配用户和团队，并为一线工作人员分配[脚本部署的所有相关策略](../flw-scripted-deployment.md)。
+如果要部署的团队很多，请参阅[为一线工作人员大规模部署团队](../deploy-teams-at-scale.md)。
 
 与其他员工相比，一线工作人员的状态通常不太可预测，因为他们的工作时间通常不是每天一样。 作为管理员，你可以将 Teams 配置为具有基于排班的访问权限（预览版），以显示组织中一线工作人员的一组基于班次的状态，以指示他们何时启用和下班。 你还可以在一线工作人员下班时管理对 Teams 的访问权限。 有关详细信息，请参阅 [管理一线工作人员](shifts/manage-shift-based-access-flw.md)的基于班次的访问权限。
 
