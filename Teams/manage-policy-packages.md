@@ -1,7 +1,7 @@
 ---
-title: 在Microsoft Teams中管理策略包
-author: SerdarSoysal
-ms.author: serdars
+title: 在 Microsoft Teams 中管理策略包
+ms.author: mabond
+author: mkbond007
 manager: serdars
 ms.reviewer: sekrantz, aaglick
 ms.topic: article
@@ -19,32 +19,32 @@ ms.custom:
 - seo-marvel-apr2020
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 了解如何在Microsoft Teams中使用和管理策略包，以简化、简化和帮助在管理用户组的策略时提供一致性。
-ms.openlocfilehash: d38384889e48e7d666036675b1a52ae194ea9582
-ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
+description: 了解如何在 Microsoft Teams 中使用和管理策略包，以简化、简化和帮助在管理用户组的策略时提供一致性。
+ms.openlocfilehash: 7ba8f21014f892d2170684a8a4cccdfce21cee91
+ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65144918"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66572193"
 ---
-# <a name="manage-policy-packages-for-microsoft-teams"></a>管理Microsoft Teams的策略包
+# <a name="manage-policy-packages-for-microsoft-teams"></a>管理 Microsoft Teams 的策略包
 
 Microsoft Teams 中的策略包是一组预定义的策略和策略设置，你可以将其分配给组织中具有类似角色的用户。 我们构建了策略包，以简化、简化和帮助在管理组织中用户组的策略时提供一致性。  
 
-可以使用[Teams中包含的策略包](#policy-packages-included-in-teams)，也可以[创建自己的自定义策略包](#custom-policy-packages)。
+可以使用 [Teams 中包含的策略包](#policy-packages-included-in-teams) ，或 [创建自己的自定义策略包](#custom-policy-packages)。
 
 :::image type="content" source="media/policy-packages-admin-center.png" alt-text="管理中心“策略包”页的屏幕截图。":::
 
-可以自定义策略包中策略的设置，以满足用户的需求。 更改包中的策略设置时，分配给该包的所有用户都会获得更新的设置。 使用Microsoft Teams管理中心或 PowerShell 管理策略包。
+可以自定义策略包中策略的设置，以满足用户的需求。 更改包中的策略设置时，分配给该包的所有用户都会获得更新的设置。 使用 Microsoft Teams 管理中心或 PowerShell 管理策略包。
 
 > [!NOTE]
-> 此功能暂时在公共预览版中提供给所有Microsoft Teams客户。 若要在预览后获取此功能，每个用户都需要高级通信加载项许可证。 有关详细信息，请参阅 [Microsoft Teams 高级通信附加产品](/microsoftteams/teams-add-on-licensing/advanced-communications)。
+> 此功能在所有 Microsoft Teams 客户的公共预览版中暂时可用。 若要在预览后获取此功能，每个用户都需要高级通信加载项许可证。 有关详细信息，请参阅 [Microsoft Teams 高级通信附加产品](/microsoftteams/teams-add-on-licensing/advanced-communications)。
 
 ## <a name="what-is-a-policy-package"></a>什么是策略包？
 
-使用策略包可以控制要允许或限制组织中特定人员集的Teams功能。 Teams中的每个策略包都是围绕用户角色设计的，包括预定义的策略和策略设置，这些策略和策略设置支持该角色的典型协作和通信活动。
+通过策略包，可以控制想要允许或限制组织中特定人员集的 Teams 功能。 Teams 中的每个策略包都围绕用户角色进行设计，包括预定义的策略和策略设置，这些策略和策略设置支持该角色的典型协作和通信活动。
 
-策略包支持以下Teams策略类型：
+策略包支持以下 Teams 策略类型：
 
 - 消息传递策略
 - 会议策略
@@ -52,9 +52,9 @@ Microsoft Teams 中的策略包是一组预定义的策略和策略设置，你�
 - 呼叫策略
 - 实时事件策略
 
-## <a name="policy-packages-included-in-teams"></a>Teams中包含的策略包
+## <a name="policy-packages-included-in-teams"></a>Teams 中包含的策略包
 
-Teams当前包含以下策略包。
+Teams 当前包含以下策略包。
 
 | 包名称 | 说明 |
 |---------|---------|
@@ -69,12 +69,12 @@ Teams当前包含以下策略包。
 |医疗保健临床工作者  |创建一组策略和策略设置，以使临床工作者（例如注册护士、护士长、医师和社会工作者）可以完全访问聊天、通话、轮班管理和会议。 |
 |医疗保健信息工作者  |创建一组策略和策略设置，以使信息工作者（例如 IT 人员、信息学人员、财务人员和合规专员）可以完全访问聊天、通话和会议。|
 |医疗保健病房  |创建一组适用于医疗保健组织中病房的策略和策略设置。|
-|使用通话套餐捆绑包 (Teams 电话系统的中小型企业用户)  |创建一个应用设置策略，其中包含具有通话计划捆绑包体验的Teams 电话系统的应用。|
-|中小型企业用户 (未使用通话套餐捆绑包Teams 电话系统)  |创建与中小型企业相关的应用设置策略，Teams用户 (具有通话套餐捆绑包体验的非Teams 电话系统) 。
+|中小型企业用户 (具有通话套餐捆绑包的 Teams 电话系统)  |创建一个应用设置策略，其中包含具有通话套餐捆绑包体验的 Teams 电话系统的应用。|
+|中小型企业用户 (没有具有通话套餐捆绑包的 Teams 电话系统)  |创建与中小型企业 Teams 用户相关的应用设置策略， (具有通话套餐捆绑包体验的非 Teams 电话系统) 。
 |公共安全官员   |创建一组适用于组织中的公共安全人员的策略和策略设置。|
 
 > [!NOTE]
-> 我们将在将来的Teams版本中添加更多策略包，因此请重新查看最新信息。  
+> 我们将在 Teams 的未来版本中添加更多策略包，因此请查看最新信息。  
 
 将为每个单独的策略提供策略包的名称，以便你可以轻松识别链接到该策略包的策略。
 例如，将教育 (教师) 策略包分配给学校中的教师时，将为包中的每个策略创建一个名为Education_Teacher的策略。
@@ -87,7 +87,7 @@ Teams当前包含以下策略包。
 
 若要创建新的自定义策略包，请执行以下操作：
 
-1. 在Microsoft Teams管理中心的左窗格中，选择“**策略”包**，然后单击 **“添加**”。
+1. 在 Microsoft Teams 管理中心的左窗格中，选择“ **策略”包**，然后单击 **“添加**”。
 
     :::image type="content" source="media/policy-packages-add.png" alt-text="管理中心“策略包”页上的“添加”按钮的屏幕截图。":::
 
@@ -116,19 +116,19 @@ Teams当前包含以下策略包。
 > [!NOTE]
 > 分配包后，还可以更改策略包中的策略设置。 对策略设置所做的任何更改都将自动应用到已分配了该包的用户。
 
-下面是有关如何在Microsoft Teams管理中心查看、分配和自定义策略包的步骤。
+下面是有关如何在 Microsoft Teams 管理中心查看、分配和自定义策略包的步骤。
 
 ### <a name="view-the-settings-of-a-policy-in-a-policy-package"></a>查看策略包中策略的设置
 
-1. 在Microsoft Teams管理中心的左窗格中，选择策略 **包**，然后单击包名称左侧选择策略包。
+1. 在 Microsoft Teams 管理中心的左窗格中，选择策略 **包**，然后单击包名称左侧选择策略包。
 
 2. 选择要查看的策略。
 
 ### <a name="customize-policies-in-a-policy-package"></a>自定义策略包中的策略
 
-可以通过策略 **包** 页或直接转到Microsoft Teams管理中心的策略页来编辑策略的设置。
+可以通过“策略 **包** ”页或直接转到 Microsoft Teams 管理中心的策略页来编辑策略的设置。
 
-1. 在Microsoft Teams管理中心的左窗格中，执行下列操作之一：
+1. 在 Microsoft Teams 管理中心的左窗格中，执行以下操作之一：
     - 选择 **“策略”包**，然后单击包名称左侧，选择策略包。
     - 选择策略类型。  例如，单击 **“消息传递”策略**。
 
@@ -143,6 +143,6 @@ Teams当前包含以下策略包。
 ## <a name="related-topics"></a>相关主题
 
 - [分配策略包](assign-policy-packages.md)
-- [Teams EDU 管理员的策略包](policy-packages-edu.md)
+- [适用于 EDU 管理员的 Teams 策略包](policy-packages-edu.md)
 - [Teams 医疗保健策略包](policy-packages-healthcare.md)
-- [为政府Teams策略包](policy-packages-gov.md)
+- [适用于政府的 Teams 策略包](policy-packages-gov.md)
