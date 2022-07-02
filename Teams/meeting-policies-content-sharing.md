@@ -18,13 +18,13 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.contentsharing
 - seo-marvel-apr2020
-description: 了解如何在用于内容共享的Teams管理会议策略设置。
-ms.openlocfilehash: dccf36a257cde5731c140f2000e3d0733d3366c3
-ms.sourcegitcommit: 42c355d3f4bbe52c063b8f2119baefc0b88f9563
+description: 了解如何管理 Teams 中用于内容共享的会议策略设置。
+ms.openlocfilehash: cd493d21b774e260f2188ac8d174d1208cf4eba7
+ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/24/2022
-ms.locfileid: "64403983"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "66605841"
 ---
 # <a name="meeting-policy-settings---content-sharing"></a>会议策略设置 - 内容共享
 
@@ -41,7 +41,7 @@ ms.locfileid: "64403983"
 
 ## <a name="screen-sharing-mode"></a>屏幕共享模式
 
-此设置是按组织者和按用户策略的组合。 此设置控制是否在用户的会议中允许桌面和窗口共享。 未分配任何策略的会议参与者 (例如，匿名、嘉宾、B2B和联合参与者) 继承会议组织者的策略。
+此设置是每个组织者和每个用户策略的组合。 此设置控制是否允许在用户的会议中共享桌面和窗口。 未分配任何策略的会议参与者 (例如，匿名、嘉宾、B2B和联合参与者) 继承会议组织者的策略。
 
 |设置值 |行为  |
 |---------|---------|
@@ -56,13 +56,13 @@ ms.locfileid: "64403983"
 |Daniela  | 全局   | 整个屏幕 |
 |Amanda   | Location1MeetingPolicy  | 已禁用 |
 
-由 Daniela 主持的会议允许会议参与者分享他们的整个屏幕或特定的应用程序。 如果 Amanda 加入 Daniela 的会议，Amanda 则无法分享她的屏幕或特定的应用程序，因为她已禁用她的策略设置。 在 Amanda 主持的会议中，无论分配给他们的屏幕共享模式策略是什么，都不允许任何人共享他们的屏幕或单个应用程序。  因此，Daniela 无法共享她的屏幕或 Amanda 会议中的单个应用程序。  
+由 Daniela 主持的会议允许会议参与者分享他们的整个屏幕或特定的应用程序。 如果 Amanda 加入 Daniela 的会议，Amanda 则无法分享她的屏幕或特定的应用程序，因为她已禁用她的策略设置。 在 Amanda 主持的会议中，无论分配给他们的屏幕共享模式策略是什么，都不允许任何人共享他们的屏幕或单个应用程序。  因此，Daniela 无法在 Amanda 的会议中共享她的屏幕或单个应用程序。  
 
 目前，如果用户使用谷歌浏览器，就无法在 Teams 会议中播放视频或分享屏幕。
 
 ## <a name="allow-a-participant-to-give-or-request-control"></a>允许参加者授予或请求控制权
 
-此设置是按用户的策略。 此设置可控制用户是否可以将共享桌面或窗口的控制权交给其他会议参与者。 若要想进行控制，请将鼠标悬停在屏幕上方。
+此设置是每用户策略。 此设置可控制用户是否可以将共享桌面或窗口的控制权交给其他会议参与者。 若要想进行控制，请将鼠标悬停在屏幕上方。
 
 如果为用户开启此设置，则在共享会话中的顶部栏中会显示 **“授予控制”** 选项。
 
@@ -79,7 +79,7 @@ ms.locfileid: "64403983"
 |Daniela   | 全局   | 开       |
 |Babek    | Location1MeetingPolicy        | 关闭   |
 
-Daniela 可以将共享桌面或窗口的控制权授予由 Babek 组织的会议的其他参与者。 但是，Babek 无法将控制权授予其他参与者。
+Daniela 可以将共享桌面或窗口的控制权授予 Babek 组织的会议中的其他参与者。 但是，Babek 无法将控制权授予其他参与者。
 
 若要使用 PowerShell 来控制可以授予控制权或接受控制权请求的人选，请使用 AllowParticipantGiveRequestControl cmdlet。
 
@@ -88,7 +88,7 @@ Daniela 可以将共享桌面或窗口的控制权授予由 Babek 组织的会�
 
 ## <a name="allow-an-external-participant-to-give-or-request-control"></a>允许外部参加者授予或请求控制权
 
-此设置是按用户的策略。 无论组织是否为用户设置了此策略，无论会议组织者设置什么，都无法控制外部参与者可以执行哪些操作。 该参数控制是否可以让外部参与者控制或请求控制共享者的屏幕，这取决于共享者在其组织的会议策略中设置的内容。 Teams 会议的外部与会者可分为以下几类:  
+此设置是每用户策略。 组织是否为用户设置了此策略，无论会议组织者设置了什么，都无法控制外部参与者可以执行的操作。 该参数控制是否可以让外部参与者控制或请求控制共享者的屏幕，这取决于共享者在其组织的会议策略中设置的内容。 Teams 会议的外部与会者可分为以下几类:  
 
 - 匿名用户
 - 来宾用户  
@@ -114,7 +114,7 @@ Amanda 无法在会议上共享 PowerPoint 幻灯片，即使她是会议组织�
 
 ## <a name="whiteboard"></a>白板
 
-此设置是按用户的策略。 此设置控制用户是否可以在会议中共享白板。 外部用户，包括匿名用户、B2B用户和联盟用户，继承会议组织者的策略。
+此设置是每用户策略。 此设置控制用户是否可以在会议中共享白板。 外部用户，包括匿名用户、B2B用户和联盟用户，继承会议组织者的策略。
 
 查看以下示例。
 
@@ -123,11 +123,17 @@ Amanda 无法在会议上共享 PowerPoint 幻灯片，即使她是会议组织�
 |Daniela   | 全局   | 开       |
 |Amanda   | Location1MeetingPolicy        | 关闭   |
 
-Amanda 不能在会议上共享白板，即使她是会议组织者。 Daniela 可以共享白板，即使会议是由 Amanda 组织的。  
+Amanda 不能在会议上共享白板，即使她是会议组织者。 Daniela 可以共享白板，即使会议是由 Amanda 组织的。
+
+若要使用 PowerShell 启用 Whiteboard，请将 IsWBFluidEnabled cmdlet 设置为从 [Set-SPOTenant $true。](/powershell/module/sharepoint-online/set-spotenant)
+
+### <a name="annotation"></a>注释
+
+启用白板后，用户将可以选择使用 [批注](/office/use-annotation-while-sharing-your-screen-in-teams)，这一功能允许参与者在 Teams 会议中共享屏幕时进行协作。 如果禁用白板，用户将无法访问批注。
 
 ## <a name="shared-notes"></a>共享笔记
 
-此设置是按用户的策略。 此设置控制用户是否可以在会议中创建和共享笔记。 外部用户，包括匿名用户、B2B用户和联盟用户，继承会议组织者的策略。 " **会议笔记"** 选项卡当前仅在参与者数少于 20 个的会议中受支持。
+此设置是每用户策略。 此设置控制用户是否可以在会议中创建和共享笔记。 外部用户，包括匿名用户、B2B用户和联盟用户，继承会议组织者的策略。 “ **会议笔记”** 选项卡目前仅在参与者少于 20 的会议中受支持。
 
 查看以下示例。
 

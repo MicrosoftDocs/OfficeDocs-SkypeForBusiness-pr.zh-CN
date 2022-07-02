@@ -1,7 +1,7 @@
 ---
 title: 欢迎使用 Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -20,12 +20,12 @@ ms.custom:
 - intro-overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 57ec8ab827eae0d0c6334e11fa75b068544f8505
-ms.sourcegitcommit: 3b5ae6ebf4384166c628f66a4f17e6fe4455b708
+ms.openlocfilehash: 9b91bff459d93dee392a428e1a141622c8937c70
+ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/29/2021
-ms.locfileid: "61625923"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "66606241"
 ---
 # <a name="welcome-to-microsoft-teams"></a>欢迎使用 Microsoft Teams
 如果你是贵组织的 Microsoft Teams 管理员，本文正适合你。 准备好使用 Teams 时，请从 [如何推出 Teams](./deploy-overview.md) 和 [设置与 Microsoft 365 和 Microsoft Teams 的安全协作](/microsoft-365/solutions/setup-secure-collaboration-with-teams) 开始。
@@ -34,7 +34,7 @@ ms.locfileid: "61625923"
 
 不要错过我们的视频“欢迎使用 Teams（针对 Teams 管理员）”（3 分多钟）：
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vxW4]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE47cdp]
 
 若要获取最终用户 Teams 帮助，请单击应用左侧的“**帮助**”，或转到 [Microsoft Teams 帮助中心](https://support.office.com/teams)。若要获取培训，请转到 [Microsoft Teams 培训](training-microsoft-teams-landing-page.md)。 
 

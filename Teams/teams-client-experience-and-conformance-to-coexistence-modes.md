@@ -1,80 +1,85 @@
 ---
 title: Teams 客户端体验和共存模式的一致性
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: bjwhalen
 audience: admin
-description: 了解Teams体验以及符合共存模式 (SfBOnly、SfBWithTeamsCollab、SfBWithTeamsCollabAndMeetings) 。
+description: 了解 SfBOnly、SfBWithTeamsCollab、SfBWithTeamsCollab (、SfBWithTeamsCollabAndMeetings) 的 Teams 客户端体验和共存模式的一致性。
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
-  - CSH
+- CSH
 ms.custom:
-  - Teams-upgrade-guidance
-  - seo-marvel-apr2020
+- Teams-upgrade-guidance
+- seo-marvel-apr2020
 ms.collection:
-  - Teams_ITAdmin_JourneyFromSfB
-  - M365-collaboration
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
+ms.openlocfilehash: 91ea07d74bf9b08f627d86191ea08fc0eda1ac4c
+ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "66605831"
 ---
-
 # <a name="teams-client-experience-and-conformance-to-coexistence-modes"></a>Teams 客户端体验和共存模式的一致性
 
 <a name="about-upgrade-basic"></a>
 
-Skype for Business 共存模式 (SfBOnly、SfBWithTeamsCollab、SfBWithTeamsCollabAndMeetings) 的目的是在组织从 Skype for Business 过渡到 Teams 时为最终用户提供简单且可预测的体验。  对于迁移到 Teams 的组织，Teams 仅模式是每个用户的最终目标，尽管并非所有用户都需要同时分配 Teams **(** 或任何其他模式) 。  在用户进入 TeamsOnly 模式之前，组织可以使用任何 Skype for Business 共存模式来确保仅拥有 Teams 用户与尚未登录的用户之间的通信可预测。 
+Skype for Business共存模式 (SfBOnly、SfBWithTeamsCollab、SfBWithTeamsCollabAndMeetings) 的目的是在组织从Skype for Business过渡到 Teams 时为最终用户提供一种简单、可预测的体验。  对于迁移到 Teams 的组织， **仅限 Teams** 模式是每个用户的最终目标，但并非所有用户都需要同时分配 **Teams (** 或任何其他模式) 。  在用户达到 TeamsOnly 模式之前，组织可以使用任何Skype for Business共存模式来确保 **仅限 Teams** 的用户与尚未使用的用户之间进行可预测的通信。 
 
-当用户在任何聊天模式下Skype for Business，所有传入聊天和呼叫将路由到该用户的Skype for Business客户端。 为了避免最终用户混淆并确保正确的路由，当用户处于任何聊天模式时Teams客户端中的呼叫和聊天Skype for Business禁用。 同样，当用户处于 SfBOnly 或 SfBWithTeamsCollab 模式时，显式禁用 Teams 中的会议计划，当用户处于 SfBWithTeamsCollabAndMeetings 模式时显式启用会议计划。
+当用户处于任何Skype for Business模式时，所有传入聊天和呼叫都会路由到用户的Skype for Business客户端。 为了避免最终用户混淆并确保正确的路由，当用户处于任何Skype for Business模式时，Teams 客户端中的呼叫和聊天功能将被禁用。 同样，当用户处于 SfBOnly 或 SfBWithTeamsCollab 模式时，Teams 中的会议计划会被显式禁用，并在用户处于 SfBWithTeamsCollabAndMeetings 模式时显式启用。
 
-由于状态通过聊天和呼叫指示可联系性，因此当禁用聊天和呼叫时，Teams (中的自我状态，即，在 Teams 客户端的用户的图片中显示自己的状态也会隐藏) 。 
+因为存在是通过聊天和通话实现的一个指示，所以当聊天和呼叫被禁用时，Teams 中的自我存在 (即，用户图片) 中 Teams 客户端中显示自己的状态也会被隐藏。 
 
-## <a name="how-the-available-functionality-in-teams-client-changes-based-on-mode"></a>客户端中的可用功能Teams模式更改
+## <a name="how-the-available-functionality-in-teams-client-changes-based-on-mode"></a>Teams 客户端中的可用功能如何根据模式进行更改
 
-Teams中的可用功能取决于 TeamsUpgradePolicy 设置的共存模式。 下表汇总了行为：
+Teams 中的可用功能取决于 TeamsUpgradePolicy 设置的用户共存模式。 下表总结了以下行为：
 
-|用户的有效模式|客户端Teams体验|
+|用户的有效模式|Teams 客户端中的体验|
 |---|---|
-|任何Skype for Business模式|通话、聊天和自我状态被禁用。|
-|SfBWithTeamsCollabAndMeetings|会议安排可用|
-|SfBWithTeamsCollab 或 SfBOnly1<sup></sup>|会议计划不可用|
+|任何Skype for Business模式|呼叫、聊天和自我存在被禁用。|
+|SfBWithTeamsCollabAndMeetings|会议日程安排可用|
+|SfBWithTeamsCollab 或 SfBOnly<sup>1</sup>|会议日程安排不可用|
 |||
 
-以下屏幕截图演示了"仅Teams或群岛模式 **与** 所有其他模式的区别。 请注意，聊天和呼叫图标默认可用于"仅Teams"或"群岛"模式 (屏幕截图) ，但不适用于其他模式 (屏幕截图) ：
+以下屏幕截图说明了 **Teams Only** 或 **Islands** 模式与所有其他模式之间的差异。 请注意，默认情况下，聊天和呼叫图标在 **“仅限 Teams** ”或 **“岛屿** ”模式 (左侧屏幕截图) 可用，但不适用于其他模式 (右侧屏幕截图) ：
 
-![并行比较不同模式Teams比较。](media/teams-mode-comparison.png)
+![Teams 模式的并行比较。](media/teams-mode-comparison.png)
 
-此外，自我状态在其他模式下不可用，如下所示。
+此外，自存在在其他模式下不可用，如下所示。
 
-!["会议第一"中的自我存在的屏幕截图。](media/meetings-first-no-self-presence-general.png)
+![“会议第一”中自我状态的屏幕截图。](media/meetings-first-no-self-presence-general.png)
  
 **注意：**
-<sup>1</sup> 目前，SfBwithTeamsCollab 和 SfBOnly 的行为相同，但 SfBOnly 模式的目的是在 Teams 中禁用通道和文件功能。 在过渡期间，可以使用应用权限策略隐藏通道。
+<sup>1</sup> 目前，SfBwithTeamsCollab 和 SfBOnly 的行为相同，但意图是 SfBOnly 模式也禁用 Teams 中的频道和文件功能。 在此期间，可以使用应用权限策略隐藏通道。
 
 
 ## <a name="impact-of-mode-on-other-policy-settings"></a>模式对其他策略设置的影响
-如上所述，用户的共存模式会影响用户的客户端中可用的Teams功能。 这意味着 mode 的值可以优先于其他策略设置的值，具体取决于模式。 具体而言，共存模式会影响是否遵循以下策略设置：
+如上所述，用户的共存模式影响是用户 Teams 客户端中可用的功能。 这意味着模式的值可以优先于其他策略设置的值，具体取决于模式。 具体而言，共存模式会影响是否遵循以下策略设置：
 
-|**Modality (App)**|**Policy.Setting**|
+|**应用)  (模式**|**Policy.Setting**|
 |---|---|
 |聊天|TeamsMessagingPolicy.AllowUserChat|
 |通话|TeamsCallingPolicy.AllowPrivateCalling|
-|会议安排|TeamsMeetingPolicy.AllowPrivateMeetingScheduling</br>TeamsMeetingPolicy.AllowChannelMeetingScheduling|
+|会议日程安排|TeamsMeetingPolicy.AllowPrivateMeetingScheduling</br>TeamsMeetingPolicy.AllowChannelMeetingScheduling|
 |||
 
-使用共存 *模式* 时，管理员无需显式设置这些策略设置，但必须了解这些设置在给定模式下的行为方式如下。 
+管理员在使用共存模式时 *不需要* 显式设置这些策略设置，但务必了解这些设置在给定模式下的行为方式是否有效。 
 
 |模式|AllowUserChat|AllowPrivateCalling|AllowPrivateMeetingScheduling|AllowChannelMeetingScheduling|
 |---|---|---|---|---|
-|TeamsOnly 或群岛|已启用|已启用|已启用|已启用|
+|TeamsOnly 或 Islands|已启用|已启用|已启用|已启用|
 |SfBWithTeamsCollabAndMeetings|已禁用|已禁用|已启用|已启用|
 |SfBWithTeamsCollab 或 SfBOnly|已禁用|已禁用|已禁用|已禁用|
 ||||||
 
-使用 PowerShell `Grant-CsTeamsUpgradePolicy` 时，该 cmdlet 会检查 TeamsMessagingPolicy、TeamsCallingPolicy 和 TeamsMeetingPolicy 中相应设置的配置，以确定这些设置是否被 TeamsUpgradePolicy 取代，如果是，PowerShell 中会提供一条信息性消息。  如上所述，不再需要设置这些其他策略设置。 下面是 PowerShell 警告的示例：
+使用 PowerShell 时， `Grant-CsTeamsUpgradePolicy` cmdlet 会检查 TeamsMessagingPolicy、TeamsCallingPolicy 和 TeamsMeetingPolicy 中相应设置的配置，以确定这些设置是否会被 TeamsUpgradePolicy 取代，如果是，PowerShell 中会提供一条信息性消息。  如上所述，不再需要设置这些其他策略设置。 下面是 PowerShell 警告的外观示例：
 
 `Grant-CsTeamsUpgradePolicy -Identity user1@contoso.com -PolicyName SfBWithTeamsCollab`
 

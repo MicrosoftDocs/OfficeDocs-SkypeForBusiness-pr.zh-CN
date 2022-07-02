@@ -1,7 +1,7 @@
 ---
 title: 在管理中心管理团队模板
-author: serdars
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: yinchang
 ms.topic: article
@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何在管理中心管理团队模板
-ms.openlocfilehash: 46b59d42ae464a5f09e9f24ecc91378bd6464034
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+ms.openlocfilehash: 9f2044f059414f9afe1ff335f8204cd26861164b
+ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681393"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "66605901"
 ---
 # <a name="manage-team-templates-in-the-admin-center"></a>在管理中心管理团队模板
 
@@ -38,7 +38,7 @@ ms.locfileid: "65681393"
 
 1. 登录到 Teams 管理中心。
 
-2. 转到 **Teams** >  **Templates 策略**。
+2. 转到 **Teams** > **模板策略**。
 
 3. 选择" **添加**"。
 
@@ -70,11 +70,11 @@ ms.locfileid: "65681393"
 > [!Note]
 > 目前不支持根据组成员身份（例如安全组中的所有用户）向用户分配模板策略。 此功能将来将可用。
 
-有关如何在Teams中分配策略的概述，请参阅[Teams中的分配策略](policy-assignment-overview.md)。
+有关在 Teams 中分配策略的方法的概述，请参阅 [Teams 中的分配策略](policy-assignment-overview.md)。
 
 ### <a name="assign-a-templates-policy-to-individual-users"></a>向单个用户分配模板策略
 
-可以使用Teams管理中心或 PowerShell 一次向单个用户或少量用户分配模板策略。 若要了解详细信息，请参阅 [为单个用户分配策略](assign-policies-users-and-groups.md#assign-a-policy-to-individual-users)。
+可以使用 Teams 管理中心或 PowerShell 一次向单个用户或少量用户分配模板策略。 若要了解详细信息，请参阅 [为单个用户分配策略](assign-policies-users-and-groups.md#assign-a-policy-to-individual-users)。
 
 ### <a name="assign-a-templates-policy-to-a-batch-of-users"></a>向一批用户分配模板策略
 
@@ -102,11 +102,11 @@ New-CsBatchPolicyAssignmentOperation -OperationName <Any operation name> -Policy
 
 答：任何已删除的模板将不再存在于任何模板策略中。
 
-**问：是否可以在Teams管理中心将多个用户分配到模板策略？**
+**问：是否可以将多个用户分配到 Teams 管理中心的模板策略？**
 
 答：是的。
 
-1. 在Teams管理中心，转到 **“用户** > **管理用户**”。
+1. 在 Teams 管理中心，转到 **“用户** > **管理用户**”。
 1. 在用户列表中，选择要分配给模板策略的用户。
 1. 选择 **“编辑设置**”，然后在 **“模板”策略** 下，选择要分配的策略。
 1. 选择 **“应用**”。
@@ -115,7 +115,7 @@ New-CsBatchPolicyAssignmentOperation -OperationName <Any operation name> -Policy
 
 **问：如何实现查看分配给特定策略的所有用户？**
 
-答：在Teams管理中心：
+答：在 Teams 管理中心：
 
 1. 转到 **“用户** > **管理用户**”。
 2. 选择 **“筛选器**”，为模板策略设置筛选器，然后选择 **“应用**”。
@@ -132,7 +132,7 @@ New-CsBatchPolicyAssignmentOperation -OperationName <Any operation name> -Policy
 
 ## <a name="related-articles"></a>相关文章
 
-- [在管理中心使用团队模板开始](./get-started-with-teams-templates-in-the-admin-console.md)
+- [管理中心中的团队模板入门](./get-started-with-teams-templates-in-the-admin-console.md)
 
 - [创建自定义团队模板](./create-a-team-template.md)
 
@@ -140,6 +140,6 @@ New-CsBatchPolicyAssignmentOperation -OperationName <Any operation name> -Policy
 
 - [从现有团队模板创建团队模板](./create-template-from-existing-template.md)
 
-- [在Microsoft Teams中为用户分配策略 - Microsoft Teams \| Microsoft Docs](./policy-assignment-overview.md)
+- [在 Microsoft Teams 中为用户分配策略 - Microsoft Teams \| Microsoft Docs](./policy-assignment-overview.md)
 
 - [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
