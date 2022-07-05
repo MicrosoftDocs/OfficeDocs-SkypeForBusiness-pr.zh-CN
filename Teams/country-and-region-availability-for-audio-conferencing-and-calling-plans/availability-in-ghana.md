@@ -1,7 +1,7 @@
 ---
-title: 在尼日利亚的可用性
-author: SerdarSoysal
-ms.author: serdars
+title: 加纳的可用性
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -23,27 +23,27 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是适用于 Microsoft 365 Office 365 的 Skype for Business Microsoft Teams 服务。
-ms.openlocfilehash: 28c3611dd2c108a84ba15ebcd1d3c9f55f2ef91b
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+description: 以下是适用于加纳的适用于Skype for Business和 Microsoft Teams 的 Microsoft 365 和 Office 365 服务。
+ms.openlocfilehash: bb0ed535f39a98aefde6f1ca90af58f3c25ed5b2
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62394644"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66615898"
 ---
-# <a name="availability-in-ghana"></a>在尼日利亚的可用性
+# <a name="availability-in-ghana"></a>加纳的可用性
 
 [查找其他国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或详细了解可以在哪些国家/地区使用音频会议和通话套餐。
 
-以下是适用于 Microsoft 365 Office 365 的 Skype for Business Microsoft Teams 服务。
+以下是适用于加纳的适用于Skype for Business和 Microsoft Teams 的 Microsoft 365 和 Office 365 服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|是否可购买音频会议？  <br/> |是 [，仅按分钟](../audio-conferencing-pay-per-minute.md) 付费 <br/> |
-|是否自动分配音频会议的电话号码？  <br/> |否  <br/> |
-|使用“呼叫我”功能的拨出功能  <br/> | 需要通信信用额度 <br/> |
+|是否可购买音频会议？  <br/> |是的，仅[按分钟付费](../audio-conferencing-pay-per-minute.md) <br/> |
+|是否自动分配音频会议的电话号码？  <br/> |弱  <br/> |
+|使用“呼叫我”功能的拨出功能  <br/> | 需要通信额度 <br/> |
    
 ## <a name="phone-system"></a>电话系统
 
@@ -62,17 +62,17 @@ ms.locfileid: "62394644"
 |通话套餐的可用分钟数  <br/> |不适用  <br/> |
 |是否可以拨打呼出电话？  <br/> |不适用  <br/> |
 
-如果呼叫计划不可购买，请参阅 [PSTN 连接选项](../pstn-connectivity.md) 了解所有可用选项。
+如果通话套餐不可购买，请参阅所有可用 [选项的 PSTN 连接选项](../pstn-connectivity.md) 。
    
-## <a name="toll-and-toll-free-numbers-for-services"></a>服务的收费和免费电话号码
+## <a name="toll-and-toll-free-numbers-for-services"></a>服务的收费和免费号码
 
 |**功能**|**详细信息**|
 |:-----|:-----|
 |你可以获取哪些首都或大城市的收费电话号码？   | 非地区号码。 电话号码没有关联到特定城市或位置。 <br/> |
 |是否提供收费电话号码？  <br/> |是  <br/> |
-|免费电话号码是否可用？  <br/> |否  <br/> |
+|免费收费号码是否可用？  <br/> |弱  <br/> |
    
- 如果要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅获取电话和Skype for Business [Microsoft Teams](../getting-service-phone-numbers.md)。
+ 若要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅[获取Skype for Business和 Microsoft Teams 的服务电话号码](../getting-service-phone-numbers.md)。
   
 ## <a name="communications-credits"></a>通信点数
 

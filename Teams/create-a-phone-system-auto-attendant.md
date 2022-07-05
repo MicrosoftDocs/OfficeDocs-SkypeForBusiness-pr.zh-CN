@@ -20,12 +20,12 @@ ms.localizationpriority: medium
 ms.custom:
 - Phone System
 description: 了解如何在 Microsoft Teams 中设置和管理自动助理。
-ms.openlocfilehash: 37326ec03c22c91de5f4c4edb94aaad67f52bde5
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 384c7aae5e11c938a6bf8ab5f82924d0379a83aa
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66240941"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66616108"
 ---
 # <a name="set-up-an-auto-attendant"></a>设置自动助理
 
@@ -57,9 +57,9 @@ ms.locfileid: "66240941"
 
 ## <a name="follow-these-steps-to-set-up-your-auto-attendant"></a>按照以下步骤设置自动助理
 
-# <a name="step-1---general-info"></a>[步骤 1 - 常规信息](#tab/general-info)
+# <a name="step-1-general-info"></a>[步骤 1：常规信息](#tab/general-info)
 
-## <a name="step-1---set-the-auto-attendants-general-information"></a>步骤 1 - 设置自动助理的常规信息
+## <a name="step-1-set-the-auto-attendants-general-information"></a>步骤 1：设置自动助理的一般信息
 
 若要设置自动助理，请在 [Teams 管理中心](https://go.microsoft.com/fwlink/p/?linkid=2066851)展开 **“语音**”，选择 **“自动助理**”，然后选择 **“添加**”。
 
@@ -78,10 +78,9 @@ ms.locfileid: "66240941"
 
 设置自动助理的常规信息后，选择 **“下一步**”。
 
+# <a name="step-2-basic-call-flow"></a>[步骤 2：基本调用流](#tab/call-flow)
 
-# <a name="step-2---basic-call-flow"></a>[步骤 2 - 基本呼叫流](#tab/call-flow)
-
-## <a name="step-2---set-up-the-basic-call-flow"></a>步骤 2 - 设置基本调用流
+## <a name="step-2-set-up-the-basic-call-flow"></a>步骤 2：设置基本调用流
 
 ### <a name="set-a-greeting"></a>设置问候语
 
@@ -131,9 +130,9 @@ ms.locfileid: "66240941"
 
 设置基本呼叫流选项后，选择 **“下一步**”。
 
-# <a name="step-3---after-hours-call-flow"></a>[步骤 3 - 下班后呼叫流](#tab/after-hours)
+# <a name="step-3-after-hours-call-flow"></a>[步骤 3：下班后呼叫流](#tab/after-hours)
 
-## <a name="step-3---set-up-call-flow-for-after-hours-optional"></a>步骤 3 - 设置下班后的呼叫流 (可选) 
+## <a name="step-3-set-up-call-flow-for-after-hours-optional"></a>步骤 3：设置下班后的呼叫流 (可选) 
 
 可以为每个自动助理设置营业时间。
 
@@ -151,9 +150,9 @@ ms.locfileid: "66240941"
 
 添加数小时后的呼叫流后，选择 **“下一步**”。
 
-# <a name="step-4---holiday-call-flow"></a>[步骤 4 - 假日呼叫流](#tab/holidays)
+# <a name="step-4-holiday-call-flow"></a>[步骤 4：假日呼叫流](#tab/holidays)
 
-## <a name="step-4---set-up-call-flows-for-holidays-optional"></a>步骤 4 - 为假期设置呼叫流 (可选) 
+## <a name="step-4-set-up-call-flows-for-holidays-optional"></a>步骤 4：为假期设置呼叫流 (可选) 
 
 你的自动助理可以为你[设置的每个假日](set-up-holidays-in-teams.md)都有一个呼叫流。 可以为每个自动助理添加最多 20 个计划假日。
 
@@ -176,9 +175,9 @@ ms.locfileid: "66240941"
 
 添加所有假期后，选择 **“下一步**”。
 
-# <a name="step-5---dial-scope"></a>[步骤 5 - 拨号范围](#tab/dial-scope)
+# <a name="step-5-dial-scope"></a>[步骤 5：拨号范围](#tab/dial-scope)
 
-## <a name="step-5---set-up-dial-scope-optional"></a>步骤 5 - 设置拨号范围 (可选) 
+## <a name="step-5-set-up-dial-scope-optional"></a>步骤 5：设置拨号范围 (可选) 
 
 拨 *号范围* 定义当调用方使用按名称拨号或按扩展拨号时，哪些用户可在目录中使用。 **所有联机用户** 的默认值包括组织中使用 Skype for Business Server 的联机用户或托管在本地的所有用户。
 
@@ -191,9 +190,9 @@ ms.locfileid: "66240941"
 
 选择 **拨号范围** 选项后，选择 **“下一步**”。
 
-# <a name="step-6---resource-accounts"></a>[步骤 6 - 资源帐户](#tab/resource-accounts)
+# <a name="step-6-resource-accounts"></a>[步骤 6：资源帐户](#tab/resource-accounts)
 
-## <a name="step-6---set-up-resource-accounts-optional"></a>步骤 6 - 设置资源帐户 (可选) 
+## <a name="step-6-set-up-resource-accounts-optional"></a>步骤 6： (可选) 设置资源帐户
 
 所有自动助理都必须具有关联的资源帐户。  一级自动助理将需要至少一个具有关联服务号的资源帐户。 如果需要，可以将多个资源帐户分配给一个自动助理，每个帐户都有一个单独的服务编号。
 
@@ -203,9 +202,9 @@ ms.locfileid: "66240941"
 
 有关详细信息，请参阅 [“管理 Teams”资源帐户](manage-resource-accounts.md) 。
 
-# <a name="additional-resources"></a>[其他资源](#tab/additional-resources)
+---
 
-## <a name="resources-for-more-complex-scenarios"></a>适用于更复杂方案的资源
+## <a name="resources-for-complex-scenarios"></a>复杂方案的资源
 
 ### <a name="external-phone-number-transfers---technical-details"></a>外部电话号码传输 - 技术详细信息
 
@@ -236,8 +235,6 @@ ms.locfileid: "66240941"
 2. 在“运行诊断”窗格中，在 **“用户名”或“电子邮件** ”字段中输入资源帐户，然后选择 **“运行测试**”。
 
 3. 测试将标识阻止自动助理接听呼叫的租户、策略或资源帐户配置，并提供解决标识的任何问题的步骤。
-
----
 
 ### <a name="related-topics"></a>相关主题
 

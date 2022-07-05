@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 了解如何为用户设置云语音邮件。
-ms.openlocfilehash: 259072194dc474d88a979ac3afb591e72eb51248
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 9d6752098ff9dee6294d53fb24f6b7df6ee8e21c
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66494369"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66616248"
 ---
 # <a name="set-up-cloud-voicemail"></a>设置云语音邮件
 
@@ -105,7 +105,7 @@ Teams 用户的预配与Skype for Business联机用户的预配不同。 对于S
 
 若要加密语音邮件，可以创建敏感度标签。 使用自动标记功能，可以确保将标签自动应用于传入的语音邮件。
 
-启用受保护的语音邮件时，用户可以通过调用语音邮件邮箱或在 Outlook、Outlook 网页版 或 Outlook for Android 或 iOS 中打开邮件来收听受保护的语音邮件。 无法在 Microsoft Teams 或 Skype for Business 中打开受保护的语音邮件。
+启用受保护的语音邮件时，用户可以通过在 Outlook、Outlook 网页版 或 Outlook for Android 或 iOS 中打开邮件来收听受保护的语音邮件。 无法在 Microsoft Teams 或 Skype for Business 中打开受保护的语音邮件。
 
 若要为语音邮件创建敏感度标签，请参阅 [“使用敏感度标签](/microsoft-365/compliance/encryption-sensitivity-labels#let-users-assign-permissions)”。 在 **“加密”** 部分，选择 **“允许用户在应用标签时分配** 权限”。 **在 Outlook 中选择，强制实施以下限制之一**，然后选择 **“不转发”** 选项。
 

@@ -1,44 +1,49 @@
 ---
 title: 阿尔巴尼亚的可用性
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: fafan
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-  - M365-collaboration
-  - M365-voice
+- M365-collaboration
+- M365-voice
 search.appverid: MET150
 audience: Admin
 appliesto:
-  - Skype for Business
-  - Microsoft Teams
+- Skype for Business
+- Microsoft Teams
 ms.localizationpriority: medium
-ROBOTS: 'NOINDEX, NOFOLLOW'
+ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.custom:
-  - Audio Conferencing
-  - Phone System
-  - Calling Plans
-description: 以下是适用于Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
+- Audio Conferencing
+- Phone System
+- Calling Plans
+description: 以下是适用于阿尔巴尼亚的适用于Skype for Business和 Microsoft Teams 的 Microsoft 365 和 Office 365 服务。
+ms.openlocfilehash: 84a439d3ea508ec766498c6c4ac1d1c97aa62148
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66616214"
 ---
-
 # <a name="availability-in-albania"></a>阿尔巴尼亚的可用性
 
 [查找其他国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或详细了解可以在哪些国家/地区使用音频会议和通话套餐。
 
-以下是适用于Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
+以下是适用于阿尔巴尼亚的适用于Skype for Business和 Microsoft Teams 的 Microsoft 365 和 Office 365 服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|是否可购买音频会议？  <br/> |是。 每分钟付费  <br/> |
-|是否自动分配音频会议的电话号码？  <br/> | 否 |
-|使用“呼叫我”功能的拨出功能  <br/> | 需要通信信用额度 <br/> |
+|是否可购买音频会议？  <br/> |是。 每分钟仅付费  <br/> |
+|是否自动分配音频会议的电话号码？  <br/> | 弱 |
+|使用“呼叫我”功能的拨出功能  <br/> | 需要通信额度 <br/> |
    
 ## <a name="phone-system"></a>电话系统
 
@@ -59,15 +64,15 @@ description: 以下是适用于Microsoft 365 Office 365的Skype for Business Mic
 
 如果通话套餐不可购买，不妨使用[电话系统直接路由](../direct-routing-landing-page.md)。 使用直接路由，可以结合使用电话系统与几乎任何电话运营商。
    
-## <a name="toll-and-toll-free-numbers-for-services"></a>服务的收费和免费电话号码
+## <a name="toll-and-toll-free-numbers-for-services"></a>服务的收费和免费号码
 
 |**功能**|**详细信息**|
 |:-----|:-----|
 |你可以获取哪些首都或大城市的收费电话号码？   | 地拉那 <br/> |
 |是否提供收费电话号码？  <br/> |是（[应要求](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)） <br/> |
-|免费电话号码是否可用？  <br/> |否  <br/> |
+|免费收费号码是否可用？  <br/> |弱  <br/> |
    
- 如果要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅获取电话和Skype for Business [Microsoft Teams](../getting-service-phone-numbers.md)。
+ 若要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅[获取Skype for Business和 Microsoft Teams 的服务电话号码](../getting-service-phone-numbers.md)。
   
 ## <a name="communications-credits"></a>通信点数
 

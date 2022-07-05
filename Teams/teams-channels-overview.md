@@ -6,6 +6,7 @@ ms.reviewer: ''
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
+ms.subservice: teams-chat
 audience: admin
 search.appverid: MET150
 description: 了解可用于各种需求（例如财务、活动计划、销售等）的不同团队、频道和应用。
@@ -18,16 +19,17 @@ ms.custom:
 - ms.teamsadmincenter.teamschannel.overview
 - ms.teamsadmincenter.teamssettings.overview
 - okr_smb
+- intro-overview
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4bd98159e9e209cba855e1a0f2d0ee853b3ba889
-ms.sourcegitcommit: b70f01d7eae2e3e6f7495c685518a2037aaece31
+ms.openlocfilehash: 74f4580eee7ee7ee935b405cfe51c4a3e49ef98c
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/11/2022
-ms.locfileid: "64756888"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66616278"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams 中的团队和频道概述
 
@@ -75,7 +77,7 @@ Teams 中有两个主要角色：
 
 如果是 Microsoft 365 中的 Teams 管理员，则可以在 Teams 管理中心访问系统范围的设置。 这些设置可能会影响团队所有者在团队设置下看到的选项和默认设置。 例如，可以为团队范围的公告、讨论和资源启用默认频道“常规”，它将在所有团队中显示。
 
-默认情况下，所有用户都有权创建团队。若要对此进行修改，请参阅[在 Teams 中分配角色和权限](assign-roles-permissions.md)。
+默认情况下，所有用户都有权创建团队。 若要修改此设置，请参阅[在 Teams 中分配角色和权限](assign-roles-permissions.md)。
 
 吸引用户使用 Teams 的一项关键早期计划活动是帮助人们考虑和了解 Teams 如何在其日常生活中增强协作。 与其他用户交谈，帮助他们选择当前以分散方式协作的业务场景。 将他们带入具有可帮助他们完成工作的相关选项卡的频道。 Teams 最强大的用例之一是任何跨组织流程。
 

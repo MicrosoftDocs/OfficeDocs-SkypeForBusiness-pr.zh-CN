@@ -1,13 +1,13 @@
 ---
-title: Microsoft Teams电子邮件和调查转换|基本升级
-author: SerdarSoysal
-ms.author: serdars
+title: Microsoft Teams 转换电子邮件和调查|基本升级
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: 示例电子邮件和调查，在 conjunciton 中与加速的十步操作计划一起使用，用于从 Skype for Business Teams
+description: 要在 conjunciton 中使用的示例电子邮件和调查，以及从Skype for Business升级到 Teams 的加速十步行动计划
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 928ccad80670a140bfe72eaf42c94b145c0134e0
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: bb091735402abf89a7eb20b681252bbb1b681ee3
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62409805"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66615628"
 ---
 # <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>升级基本通信的示例电子邮件和调查
 
@@ -31,7 +31,7 @@ ms.locfileid: "62409805"
 
 <a name="step-1-email"></a>
 
-### <a name="stakeholder-email-for-step-1"></a>适用于步骤 1 的利益干系人电子邮件
+### <a name="stakeholder-email-for-step-1"></a>第 1 步的利益干系人电子邮件
 
 主题行：
 
@@ -53,7 +53,7 @@ Microsoft has provided an upgrade checklist outlining the essential tasks we sho
 
 <a name="step-4-email"></a>
 
-### <a name="notify-users-email-for-step-4"></a>通知用户有关步骤 4 的电子邮件
+### <a name="notify-users-email-for-step-4"></a>通知用户电子邮件，获取步骤 4
 
 主题行：
 
@@ -82,7 +82,7 @@ If you have questions or need help, please reach out to <<insert company support
 
 <a name="step-6-email"></a>
 
-### <a name="remind-users-email-for-step-6"></a>提醒用户有关步骤 6 的电子邮件
+### <a name="remind-users-email-for-step-6"></a>为步骤 6 提醒用户电子邮件
 
 主题行：提醒：准备好升级到 Teams
 
@@ -113,7 +113,7 @@ Should you have questions about this upgrade, contact <<insert alias or contact 
 
 <a name="step-7-email"></a>
 
-### <a name="welcome-users-email-from-the-executive-sponsor-for-step-7"></a>欢迎执行发起人发送的用户电子邮件，以便执行步骤 7
+### <a name="welcome-users-email-from-the-executive-sponsor-for-step-7"></a>欢迎用户发送来自执行发起人的电子邮件，适用于步骤 7
 
 主题行：
 
@@ -170,7 +170,7 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 <a name="step-10-email"></a>
 
-### <a name="email-to-ask-users-to-give-teams-and-channels-a-try-for-step-10"></a>电子邮件，要求用户试用团队和频道，步骤 10
+### <a name="email-to-ask-users-to-give-teams-and-channels-a-try-for-step-10"></a>电子邮件，要求用户给团队和频道尝试，步骤 10
 
 主题行：
 
@@ -201,29 +201,29 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 ## <a name="sample-surveys"></a>示例调查
 
-指示你有多熟练地在 Teams 中执行以下活动，以及是否有一个或多个活动需要了解更多信息。
+指示你在 Teams 中执行以下活动的熟练程度，以及是否要了解一个或多个活动。
 
-| &nbsp; | 非常熟练 | 有点熟练 | 完全不熟练 | 想要了解更多信息 | 不适用 | 不确定/不熟悉 |&nbsp; | &nbsp;|&nbsp; |&nbsp; |
+| &nbsp; | 非常熟练 | 有点熟练 | 一点也不熟练 | 想要了解详细信息 | 不适用 | 不确定/不熟悉 |&nbsp; | &nbsp;|&nbsp; |&nbsp; |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 使用Teams其他人进行即时消息/聊天 | | | | | | | | | | |
-| 使用Teams联机会议 | | | | | | | | | | |
-| 使用Teams团队 (频道进行协作)  | | | | | | | | | | |
-| 在Teams设备上使用 | | | | | | | | | | |
+| 使用 Teams 进行即时消息/与他人聊天 | | | | | | | | | | |
+| 将 Teams 用于联机会议 | | | | | | | | | | |
+| 将 Teams 用于协作 (团队和频道)  | | | | | | | | | | |
+| 在我的移动设备上使用 Teams | | | | | | | | | | |
 
-| **什么（如果有）阻止你使用Microsoft Teams？** | **选择所有适用项** |
+| **是什么阻止你使用 Microsoft Teams？** | **选择所有适用项** |
 |---|---|
-| 我从未听说过它 | &#9744; |
-| 我的计算机上未安装它 | &#9744; |
-| 我不知道它如何为我或我合作的人带来好处 | &#9744; |
-| 我没有时间评估它以满足我的需要 | &#9744; |
-| 我已使用满足通信和协作需求的其他应用程序 | &#9744; |
-| 在使用它之前，我需要培训 | &#9744; |
-| 我尝试使用过它，但遇到技术问题或不好的体验 | &#9744; |
-| 我们的支持人员无法帮助我解决我的问题 | &#9744; |
-| 没有，我当前使用它 | &#9744; |
+| 我从没听说过 | &#9744; |
+| 我的计算机上没有安装它 | &#9744; |
+| 我不明白它将如何有利于我或我一起工作的人 | &#9744; |
+| 我没有时间根据我的需求评估它 | &#9744; |
+| 我已经使用其他应用程序来满足我的通信和协作需求 | &#9744; |
+| 在使用它之前，我需要进行培训 | &#9744; |
+| 我曾尝试使用它，但有技术问题或不良体验 | &#9744; |
+| 我们的支持人员无法帮助我解决问题 | &#9744; |
+| 无， 我当前使用它 | &#9744; |
 | 其他 (请指定)  | &#9744; |
 
-**你向朋友/同事推荐Microsoft Teams的可能性有多大？ (0=完全不可能...10=极可能)**
+**向朋友/同事推荐 Microsoft Teams 的可能性有多大？ (0=根本不可能...10=极有可能)**
 
 | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
 | ---| --- | ---|---|---|---|---|---|---|---|---|

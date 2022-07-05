@@ -1,5 +1,5 @@
 ---
-title: 规划Teams自动助理和呼叫队列
+title: 规划 Teams 自动助理和呼叫队列
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -24,14 +24,14 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 了解自动助理和呼叫队列，以及如何使用它们帮助呼叫者通过菜单系统来联系组织中的人员或部门。
-ms.openlocfilehash: 958a0ccbf49ef7c35ecbe586262005964bfbf704
-ms.sourcegitcommit: e38dc23e3968f55625e90c8883884045f80d22ee
+ms.openlocfilehash: 1f439ca0a6eb9ff3487582253cdd0aad7b2fad6c
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "66124287"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66616078"
 ---
-# <a name="plan-for-teams-auto-attendants-and-call-queues"></a>规划Teams自动助理和呼叫队列
+# <a name="plan-for-teams-auto-attendants-and-call-queues"></a>规划 Teams 自动助理和呼叫队列
 
 自动助理允许你设置菜单选项，以基于调用方输入路由呼叫。 自动助理的菜单选项（例如“对于销售，按 1--For Services 按 2”）让组织提供一系列选项，引导呼叫者快速转到目标，而无需依靠人工操作员来处理传入呼叫。
 
@@ -61,7 +61,7 @@ ms.locfileid: "66124287"
 
 与自动助理一样，呼叫队列都有语言设置。 如果使用多种语言进行业务，则可以使用不同的呼叫队列。 如果代理是多语言的，则可以是多个队列的成员。
 
-对于每个呼叫队列，可以指定队列中的代理是否可以选择不接听呼叫，以及是否应根据呼叫在Teams中的状态指示将呼叫路由到他们。
+对于每个呼叫队列，可以指定队列中的代理是否可以选择不接听呼叫，以及是否应根据其在 Teams 中的状态指示将呼叫路由到他们。
 
 可以将电话号码分配给呼叫队列，但呼叫队列在休息时间和节假日不提供单独的呼叫路由。 除非呼叫队列配备 24/7，否则建议将电话号码分配给在工作时间重定向到呼叫队列的自动助理。
 
@@ -70,9 +70,9 @@ ms.locfileid: "66124287"
 若要配置自动助理和呼叫队列，需要以下资源：
 
 - 每个自动助理和每个呼叫队列的资源帐户
-- 从Teams用户或外部电话号码直接拨入的每个资源帐户的免费Microsoft 电话系统 - 虚拟用户许可证
-- 至少一个 [Microsoft 服务号码](getting-service-phone-numbers.md)、运营商连接号码、直接路由号码或要从外部电话号码直接拨号的每个资源帐户的混合号码
- - 服务号码可以是收费或免费号码
+- 可直接从 Teams 用户或外部电话号码拨入的每个资源帐户的免费Microsoft Teams 电话资源帐户许可证
+- 希望从外部电话号码直接拨号的每个资源帐户至少有一个 [Microsoft 服务号码](getting-service-phone-numbers.md)、运算符连接号码、直接路由号码或混合号码
+  - 服务号码可以是收费或免费号码
 
 > [!NOTE]
 > 已禁用资源帐户进行登录，并且必须保持此状态。 聊天和状态不可用于这些帐户。
@@ -80,20 +80,20 @@ ms.locfileid: "66124287"
 必须企业语音联机或本地用户启用从呼叫队列接收呼叫的代理。 此外，如果呼叫队列使用直接路由号码，则需要会议或转移呼叫的代理还需要：
 
 - 如果呼叫队列使用传输模式，则分配联机语音路由策略
-- 如果呼叫队列使用会议模式，则分配音频会议许可证或联机语音路由策略
+- 如果呼叫队列使用会议模式，则分配有音频会议许可证或联机语音路由策略
 
-如果代理使用Microsoft Teams应用进行呼叫队列调用，则它们需要处于 TeamsOnly 模式。
+如果代理使用 Microsoft Teams 应用进行呼叫队列调用，则它们需要处于 TeamsOnly 模式。
 
-使用资源帐户在呼叫队列中调用行 ID 时，资源帐户必须具有电话系统虚拟用户许可证，并分配了下列选项之一：
+在呼叫队列中使用资源帐户进行呼叫行 ID 时，资源帐户必须具有 Teams 电话资源帐户许可证和以下分配之一：
 
 - 呼叫 [计划](calling-plans-for-office-365.md) 许可证和分配的电话号码
-- 分配[的运营商连接](operator-connect-plan.md)电话号码
+- 分配的 [运算符连接](operator-connect-plan.md) 电话号码
 - 使用直接路由) 时，在线 [语音路由策略](manage-voice-routing-policies.md) (电话号码分配是可选的
 
-当自动助理或呼叫队列将调用传输到外部号码时，如下所述的特定资源帐户必须具有电话系统虚拟用户许可证和以下分配之一：
+当自动助理或呼叫队列将呼叫传输到外部号码时，如下所述的特定资源帐户必须具有 Teams 电话资源帐户许可证和以下分配之一：
 
 - 呼叫 [计划](calling-plans-for-office-365.md) 许可证和分配的电话号码
-- 分配[的运营商连接](operator-connect-plan.md)电话号码
+- 分配的 [运算符连接](operator-connect-plan.md) 电话号码
 - 使用直接路由) 时，在线 [语音路由策略](manage-voice-routing-policies.md) (电话号码分配是可选的
 
 要许可的资源帐户：
@@ -103,9 +103,9 @@ ms.locfileid: "66124287"
 > [!NOTE]
 > 如果分配给资源帐户的呼叫计划被禁用或删除，则将使用 [通信额度](what-are-communications-credits.md)（如果在租户中可用 (而未分配给资源帐户) ）。 如果没有呼叫计划或通信额度，则调用将失败。
 >
-> 仅Microsoft Teams用户和呼叫代理支持自动助理和呼叫队列的直接路由服务号码。
+> 仅 Microsoft Teams 用户和呼叫代理支持针对自动助理和呼叫队列的直接路由服务号码。
 > 
-> 不支持呼叫计划、运营商连接和直接路由中继之间的传输。
+> 不支持呼叫计划、运算符连接和直接路由中继之间的传输。
 > 
 > 在混合方案中，必须在本地创建资源帐户。 有关详细信息，请参阅 [计划云呼叫队列](/skypeforbusiness/hybrid/plan-call-queue)。
 
@@ -132,20 +132,20 @@ ms.locfileid: "66124287"
 - 单个用户
 - 通讯组列表
 - 安全组，包括启用邮件的安全组
-- Microsoft 365 组或Teams
+- Microsoft 365 组或 Teams
 
-如果需要，可以对每个队列使用这些选项的组合。 具有电子邮件地址的组可用于语音邮件。 使用Teams提供了许多优势，包括共享文件存储和代理之间的聊天、可接收语音邮件的常见邮箱，以及可扩展的平台，包括与业务线应用程序或Power Apps的集成。
+如果需要，可以对每个队列使用这些选项的组合。 具有电子邮件地址的组可用于语音邮件。 使用 Teams 提供许多优势，包括共享文件存储和代理之间的聊天、可接收语音邮件的常见邮箱，以及可扩展的平台，包括与业务线应用程序或 Power Apps 的集成。
 
 建议在开始配置之前选择将呼叫代理添加到队列的策略。
 
-如果你有现有的自动助理和呼叫队列基础结构，并且要迁移到Teams，则需要计划将现有电话号码传输到新的自动助理和呼叫队列。 可能需要创建 [端口订单](phone-number-calling-plans/port-order-overview.md) 才能从其他提供程序移动数字。 建议暂时获取一个或多个新电话号码，并测试自动助理和呼叫队列流，然后再将它们切换到当前服务中的数字上。
+如果你有现有的自动助理和呼叫队列基础结构，并且要迁移到 Teams，则需要计划将现有电话号码传输到新的自动助理和呼叫队列。 可能需要创建 [端口订单](phone-number-calling-plans/port-order-overview.md) 才能从其他提供程序移动数字。 建议暂时获取一个或多个新电话号码，并测试自动助理和呼叫队列流，然后再将它们切换到当前服务中的数字上。
 
-**会议模式** 是呼叫队列中的一个选项，可显著减少将TEAMS VOIP 呼叫和 PSTN 调用连接到代理所需的时间。 若要使会议模式正常工作，呼叫队列中的代理必须使用以下客户端之一：
+**会议模式** 是呼叫队列中的一个选项，可显著减少将 Teams VOIP 呼叫和 PSTN 调用连接到代理所需的时间。 若要使会议模式正常工作，呼叫队列中的代理必须使用以下客户端之一：
 
-- Microsoft Teams桌面客户端、Android应用或iOS应用的最新版本
-- Microsoft 电话系统版本 1449/1.0.94.2020051601 或更高版本
+- 最新版本的 Microsoft Teams 桌面客户端、Android 应用或 iOS 应用
+- Microsoft Phone System 版本 1449/1.0.94.2020051601 或更高版本
   
-将代理的Teams帐户设置为仅限Teams模式。 不符合要求的代理不包括在呼叫路由列表中。
+将代理的 Teams 帐户设置为仅限 Teams 的模式。 不符合要求的代理不包括在呼叫路由列表中。
 
 如果代理都使用兼容的客户端，建议为呼叫队列启用会议模式。
 
@@ -157,9 +157,9 @@ ms.locfileid: "66124287"
 
 1. 获取需要自动助理和呼叫队列的服务号码，通过从组织外部直接拨号即可访问这些服务号码。 这可能包括 [从其他提供商转移号码](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) 或 [请求新的服务号码](getting-service-phone-numbers.md)。
 
-2. 获取电话系统 - 计划创建的每个资源帐户的[虚拟用户许可证](teams-add-on-licensing/virtual-user.md)。 这些许可证是免费的，因此建议在将来决定对资源帐户进行更改时额外获取一些许可证。
+2. 获取计划创建的每个资源 [帐户的 Teams 电话资源帐户许可证](teams-add-on-licensing/virtual-user.md) 。 这些许可证是免费的，因此建议在将来决定对资源帐户进行更改时额外获取一些许可证。
 
-3. 为要创建的每个自动助理和调用队列[创建资源帐户](manage-resource-accounts.md)。 为每个帐户分配一个电话系统 - 虚拟用户许可证和一个服务编号（可选）。
+3. 为要创建的每个自动助理和调用队列[创建资源帐户](manage-resource-accounts.md)。 为每个帐户分配一个 Teams 电话资源帐户许可证，以及一个服务号码（可选）。
 
 4. [创建要在](set-up-holidays-in-teams.md) 自动助理中单独进行呼叫路由的假期。
 
@@ -167,7 +167,7 @@ ms.locfileid: "66124287"
 
 6. 创建要用于包含呼叫队列的调用代理的组。
 
-7. 如果计划允许按扩展拨号，请确保已将用户的扩展号添加到其Azure Active Directory配置文件。
+7. 如果计划允许按扩展拨号，请确保已将用户的扩展号添加到其 Azure Active Directory 配置文件。
 
 完成上述步骤后，即可创建自动助理和呼叫队列。 由于自动助理和呼叫队列可以将呼叫重定向到彼此，因此请参阅创建的工作流图，以确定应首先创建哪个自动助理或呼叫队列。 在上图中的示例中，你将在创建 Contoso 主自动助理之前创建销售和支持呼叫队列，因为主自动助理需要将调用方定向到销售和支持呼叫队列。
 
@@ -176,7 +176,7 @@ ms.locfileid: "66124287"
 - [设置自动助理](create-a-phone-system-auto-attendant.md)
 - [创建呼叫队列](create-a-phone-system-call-queue.md)
 
-如果需要更广泛的功能，例如与工作流、机器人和短信集成，请考虑[Azure 通信服务](/azure/communication-services/overview)。
+如果需要更广泛的功能（例如与工作流、机器人和短信集成），请考虑[Azure 通信服务](/azure/communication-services/overview)。
 
 ## <a name="related-topics"></a>相关主题
 

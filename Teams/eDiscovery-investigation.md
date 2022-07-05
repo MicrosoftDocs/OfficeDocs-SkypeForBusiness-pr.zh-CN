@@ -17,12 +17,12 @@ description: 了解在需要执行电子数据展示时应执行的操作，例�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4b5a0ca0cb52c4b444769b7bfc25b17cab80a02b
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
+ms.openlocfilehash: ac4aa6e8182342f36da0434aaf78123937d6d8ce
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66563940"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66616408"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>在 Microsoft Teams 中对内容进行电子数据展示调查
 
@@ -52,7 +52,7 @@ ms.locfileid: "66563940"
 |会议元数据<sup>1</sup>|是||
 |通道的名称|是||
 |报价|是|引用的内容是可搜索的。 但是，搜索结果并不指示已引用内容。|
-|喜欢、心和其他反应等 (反应) |是||
+|喜欢、心和其他反应等 (反应) |是|2022 年 6 月 1 日之后，所有商业客户都支持响应。 此日期之前的反应不可用于电子数据展示。 已计划政府云支持。 没有法律上对反应的支持。|
 |主题|是||
 |表|是||
 

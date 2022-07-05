@@ -5,6 +5,8 @@ ms.author: guptaashish
 manager: prkosh
 ms.topic: article
 ms.service: msteams
+ms.subservice: teams-apps
+ms.custom: intro-get-started
 audience: admin
 ms.collection:
 - Teams_ITAdmin_Help
@@ -17,18 +19,18 @@ description: 了解如何管理 Teams 应用。 了解如何允许或阻止应�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 25e540a7709ab12b73a97cc94b1350630c302197
-ms.sourcegitcommit: bdb919a6f53556f76dd4a71759412023e6e18fbb
+ms.openlocfilehash: 82ab9372f925e40beac41d4075b49b34118f8851
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66529724"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66616048"
 ---
 # <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 管理中心管理 Teams 应用
 
 在 Teams 管理中心门户的 **Teams 应用** 页中管理组织的应用。 使用“管理应用”页面查看和管理组织应用目录中的所有 Teams 应用。
 
-![“管理应用”页的屏幕截图。](media/manage-apps.png)
+:::image type="content" source="media/manage-apps.png" alt-text="“管理应用”页的屏幕截图。" lightbox="media/manage-apps.png":::
 
 若要使用 Teams 管理中心，必须具有全局管理员或 Teams 管理员角色。 有关详细信息，请参阅以下帮助文章：
 
@@ -156,7 +158,7 @@ Teams 管理中心提供了用于完成大多数应用管理用例的选项。 �
 1. 按应用名称搜索应用，然后选择该应用。 请勿打开应用详细信息页。
 1. 选择 **“添加到团队**”。
 
-   :::image type="content" source="media/manage-apps-add-app-team-trimmed.png" alt-text="可添加到团队范围的应用的“添加到团队”选项的屏幕截图。" lightbox="media/manage-apps-add-app-team.png":::
+   :::image type="content" source="media/manage-apps-add-app-team-trimmed.png" alt-text="可添加到团队范围的应用的“添加到团队”选项的屏幕截图。":::
 
 1. 在 **“添加到团队** ”窗格中，搜索要将应用添加到的团队，选择团队，然后选择 **“应用**”。
 

@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: 了解如何在 Microsoft Teams 中设置呼叫队列。 呼叫队列提供问候消息、保持音乐、呼叫重定向和其他功能。
-ms.openlocfilehash: b90dc937d9df1b8578e80c34c96030caf2db5bad
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: cd5e0cc291b353b8bb46d82333275cc44ef860d3
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66494689"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66616168"
 ---
 # <a name="create-a-call-queue"></a>创建呼叫队列
 
@@ -96,7 +96,7 @@ ms.locfileid: "66494689"
 可以通过指定一个或多个具有电话号码的资源帐户为代理分配出站呼叫者 ID 号码。 代理可以选择要用于每个出站呼叫的出站调用者 ID 号。 在呼叫应用中，代理可以使用其呼叫队列 (CQ) /自动助理 (AA) 号码或其自己的个人直接向内拨号 (DID) 。
 
 > [!NOTE]
-> 用于调用 ID 目的的资源帐户必须具有 **Microsoft Teams 电话系统 - 虚拟用户** 许可证和以下分配之一：
+> 用于调用 ID 目的的资源帐户必须具有 **Microsoft Teams 电话资源帐户** 许可证，并分配了下列选项之一：
 >
 > - 呼叫计划许可证和分配的电话号码
 > - 分配的运算符连接电话号码
@@ -121,7 +121,7 @@ ms.locfileid: "66494689"
 
 创建此用于调用 ID 的新资源帐户后，仍需要：
 
-- 分配[Teams 电话标准版 - 虚拟用户许可证](manage-resource-accounts.md#assign-a-license)
+- 分配 [Teams 电话资源帐户许可证](manage-resource-accounts.md#assign-a-license)
 - 分配 Microsoft 呼叫计划许可证、分配操作员连接电话号码或为直接路由分配联机语音路由策略
 - 如果使用的是 Microsoft 呼叫计划[，请将服务电话号码分配到资源帐户](manage-resource-accounts.md#assign-a-service-number)
 
@@ -133,7 +133,7 @@ ms.locfileid: "66494689"
 
 选择语言后，选择 **“添加呼叫队列**”页底部的 **“下** 一步”按钮。
 
-# <a name="step-2---greeting-and-music"></a>[步骤 2 - 问候语和音乐](#tab/greeting-music)
+# <a name="step-2-greeting-and-music"></a>[步骤 2：问候语和音乐](#tab/greeting-music)
 
 ## <a name="step-2-add-a-greeting-and-on-hold-music"></a>步骤 2：添加问候语和保持音乐
 
@@ -151,7 +151,7 @@ ms.locfileid: "66494689"
 
 选择问候语和保持音乐后，选择 **“添加呼叫队列**”页面底部的 **“下一步**”按钮。
 
-# <a name="step-3---call-answering"></a>[步骤 3 - 呼叫应答](#tab/call-answering)
+# <a name="step-3-call-answering"></a>[步骤 3：呼叫应答](#tab/call-answering)
 
 ## <a name="step-3-set-up-who-will-answer-incoming-calls"></a>步骤 3：设置谁将接听传入呼叫
 
@@ -223,7 +223,7 @@ ms.locfileid: "66494689"
 
 选择呼叫应答选项后，选择 **“添加呼叫队列**”页底部的 **“下一步**”按钮。
 
-# <a name="step-4---agent-routing"></a>[步骤 4 - 代理路由](#tab/agent-routing)
+# <a name="step-4-agent-routing"></a>[步骤 4：代理路由](#tab/agent-routing)
 
 ## <a name="step-4-select-your-agent-routing-options"></a>步骤 4：选择代理路由选项
 
@@ -285,7 +285,7 @@ ms.locfileid: "66494689"
 
 选择代理呼叫路由选项后，选择 **“添加呼叫队列**”页底部的 **“下一步**”按钮。
 
-# <a name="step-5---call-overflow"></a>[步骤 5 - 呼叫溢出](#tab/call-overflow)
+# <a name="step-5-call-overflow"></a>[步骤 5：呼叫溢出](#tab/call-overflow)
 
 ## <a name="step-5-set-how-to-handle-call-overflow"></a>步骤 5：设置如何处理呼叫溢出
 
@@ -308,7 +308,7 @@ ms.locfileid: "66494689"
 
 选择呼叫超时选项后，选择 **“添加呼叫队列**”页底部的 **“下一步**”按钮。
 
-# <a name="step-6---call-timeout"></a>[步骤 6 - 调用超时](#tab/call-timeout)
+# <a name="step-6-call-timeout"></a>[步骤 6：调用超时](#tab/call-timeout)
 
 ## <a name="step-6-set-how-to-handle-call-timeouts"></a>步骤 6：设置如何处理呼叫超时
 
@@ -327,9 +327,11 @@ ms.locfileid: "66494689"
 
 选择代理呼叫路由选项后，选择 **“添加呼叫队列**”页底部的“**提交**”按钮。
 
-# <a name="additional-resources"></a>[其他资源](#tab/additional-resources)
+---
 
-## <a name="summary-of-recommended-call-queue-settings"></a>建议的呼叫队列设置摘要
+## <a name="resources-for-complex-scenarios"></a>复杂方案的资源
+
+### <a name="summary-of-recommended-call-queue-settings"></a>建议的呼叫队列设置摘要
 
 建议使用以下设置：
 
@@ -338,7 +340,7 @@ ms.locfileid: "66494689"
 - **基于状态的路由** 到 **On**
 - **代理警报时间：** 至 **20 秒**
 
-## <a name="call-queue-feature-compatibility"></a>呼叫队列功能兼容性
+### <a name="call-queue-feature-compatibility"></a>呼叫队列功能兼容性
 
 |功能                          |Teams 桌面<sup>1</sup> |Teams Web | Teams Mobile<sup>2</sup> |Lync |IP 电话 | 标准呼叫队列 |基于通道的呼叫队列 | 注释 |
 |:--------------------------------|:------------------------:|:--------:|:--------------:|:---:|:--------:|:--------------------:|:------------------------:|:--------|
@@ -356,7 +358,7 @@ ms.locfileid: "66494689"
 |**协作呼叫**        |                          |          |                |     |          |                      |                          |   |
 |`Channel Based Queues`             |Y                       |N         |否               |否    |否         |n/a                   |Y<sup>8</sup>             |   |
 |**动态调用方 ID**            |                          |          |                |     |          |                      |                          |   |
-|`Standard call queue`            |N                         |否         |Y               |N    |否         |是                     |n/a                       |   |
+|`Standard call queue`            |Y                         |Y         |Y               |N    |否         |是                     |n/a                       |   |
 |`Channel based call queue`       |Y                         |n/a       |n/a             |n/a  |n/a       |n/a                   |Y                         |   |
 |**PSTN 连接方法**    |                          |          |                |     |          |                      |                          |请参阅注释 9   |
 |`Calling Plans`                  |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |   |
@@ -365,7 +367,7 @@ ms.locfileid: "66494689"
 |**杂项**                |                          |          |                |     |          |                      |                          |   |
 |`Call toast shows Resource Account Name` |Y                 |N         |Y               |Y    |          |Y                     |Y                         |              |
 
-### <a name="notes"></a>注释
+#### <a name="notes"></a>注释
 
 1. Microsoft Teams Windows 客户端、Microsoft Teams Mac 客户端、虚拟化桌面基础结构上的 Microsoft Teams。
 2. Microsoft Teams iPhone 应用，Microsoft Teams Android 应用。
@@ -377,7 +379,7 @@ ms.locfileid: "66494689"
 8. 仅支持公共频道。
 9. 自动助理和呼叫队列无法在 PSTN 连接方法之间传输调用。
 
-## <a name="supported-clients"></a>支持的客户端
+### <a name="supported-clients"></a>支持的客户端
 
 呼叫队列中的呼叫代理支持以下客户端：
 
@@ -397,7 +399,7 @@ ms.locfileid: "66494689"
   > [!NOTE]
   > 分配有直接路由号码的呼叫队列不支持Skype for Business客户端、Lync 客户端或Skype for Business IP Phone 作为代理。 Teams 客户端仅支持 [Teams 的共存模式](setting-your-coexistence-and-upgrade-settings.md)。
 
-## <a name="call-queue-diagnostic-tool"></a>呼叫队列诊断工具
+### <a name="call-queue-diagnostic-tool"></a>呼叫队列诊断工具
 
 如果你是管理员，则可以使用以下诊断工具来验证呼叫队列是否能够接收呼叫：
 
@@ -410,9 +412,7 @@ ms.locfileid: "66494689"
 
 3. 测试将返回处理任何租户、策略和资源帐户配置的最佳后续步骤，以验证呼叫队列是否能够接收呼叫。
 
----
-
-## <a name="related-topics"></a>相关主题
+### <a name="related-topics"></a>相关主题
 
 [下面是Microsoft Teams 电话](here-s-what-you-get-with-phone-system.md)
 

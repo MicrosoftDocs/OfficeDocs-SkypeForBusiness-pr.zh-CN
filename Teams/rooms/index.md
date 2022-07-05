@@ -8,6 +8,7 @@ audience: ITPro
 ms.topic: article
 feedback_system: None
 ms.service: msteams
+ms.subservice: teams-devices
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -15,21 +16,21 @@ ms.collection:
 - m365initiative-meetings
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: 了解如何设置Microsoft Teams 会议室，包括规划、部署和管理系统以创建理想的虚拟会议室。
-ms.custom: seo-marvel-may2020
-ms.openlocfilehash: 917b260bc7377c47be52c71179a7a027649846b4
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.custom: seo-marvel-may2020; intro-overview
+ms.openlocfilehash: e4ef69f21ed47c283f9576984d38730ddbd5c2d6
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65761124"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66615408"
 ---
 # <a name="microsoft-teams-rooms"></a>Microsoft Teams 会议室
 
 :::row:::
     :::column span="2":::
-       将会议空间从小拥挤区域转换为大型会议室，具有丰富的协作Teams体验，易于使用、部署和管理。
+       将会议空间从小拥挤区域转换为大型会议室，具有丰富的协作 Teams 体验，易于使用、部署和管理。
 
-       使用一触式联接按时"开始"菜单会议，然后立即投影到会议室中的显示屏，并与远程参与者共享。
+       使用一触式联接按时开始会议，然后立即投影到会议室中的显示屏，并与远程参与者共享。
 
        从我们的合作伙伴之一选择正确的系统和音频视频外围设备：Dell、Yealink、Logitech、Crestron、Polycom、Lenovo 和 HP。
 
@@ -46,11 +47,10 @@ ms.locfileid: "65761124"
 | ------------- | ------------- | ------------- |
 |  **[规划](./rooms-plan.md)** |  **[部署](./rooms-deploy.md)** |  **[管理](./rooms-manage.md)** |
 
-
 [:::image type="content" source="../media/teams-rooms-microsoft-mechanics.jpg" alt-text="Microsoft Teams 会议室 Microsoft 力学视频。":::](https://www.youtube.com/watch?v=z4N-Z6mT09Q)
 
 > [!NOTE]
-> Microsoft Teams 会议室用于 Microsoft Teams、2019 Skype for Business Server或 2015 Skype for Business Server。
+> Microsoft Teams 会议室适用于 Microsoft Teams、Skype for Business Server 2019 或 2015 Skype for Business Server。
 >
 > 早期平台（如 Lync Server 2013）不支持Microsoft Teams 会议室。
 
