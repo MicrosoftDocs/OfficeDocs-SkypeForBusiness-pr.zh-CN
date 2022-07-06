@@ -429,7 +429,7 @@ items:
         href: teams-scoped-directory-search.md
       - name: 常见问题解答：支持远程工作人员
         href: FAQ-support-remote-workforce.md
-      - name: 报表
+      - name: 报告
         items:
           - name: 概述
             href: teams-analytics-and-reports/teams-reporting-reference.md
@@ -1563,6 +1563,8 @@ items:
             href: apps-update-experience.md
           - name: 跨 Microsoft 365 管理对 Teams 应用的访问
             href: manage-third-party-teams-apps.md
+          - name: 审核应用管理活动和事件
+            href: audit-app-management-activities.md
       - name: 应用使用情况报告和分析
         href: teams-analytics-and-reports/app-usage-report.md
   - name: 行业和政府指南
@@ -1797,7 +1799,7 @@ items:
             href: teams-add-on-licensing/advanced-communications.md
           - name: 消息策略许可
             href: teams-add-on-licensing/pri-message.md
-          - name: Microsoft Teams 电话标准版 –虚拟用户许可证
+          - name: Microsoft Teams 电话资源帐户许可证
             href: teams-add-on-licensing/virtual-user.md
           - name: Teams Essentials 入门
             href: get-started-with-teams-essentials.md

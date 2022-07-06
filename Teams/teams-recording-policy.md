@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04e3ede83b5a89f58fb9ad1827f3567fa37ef495
-ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
+ms.openlocfilehash: da74dcb2203eb43ca5b7174697cbc074f5d50855
+ms.sourcegitcommit: 4be2a5db44972b35bdde5752eea0d74cf831607a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "66605711"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "66642747"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>有关通话&会议的基于 Teams 策略的录制简介
 
@@ -243,10 +243,12 @@ IT 管理员可以通过创建和分配符合性记录策略来确定要记录�
 |GuardRec |[https://www.guardrec.com/en/teams-compliance-recording/](https://www.guardrec.com/en/teams-compliance-recording/) |
 |Landis 技术 |[https://landistechnologies.com/](https://landistechnologies.com/) |
 |Luware |[https://luware.com/en/solution/microsoft-teams-recording/](https://luware.com/en/solution/microsoft-teams-recording/) |
+|Mida Solutions |[https://www.midasolutions.com/recorder-for-teams/](https://www.midasolutions.com/recorder-for-teams/) |
 |Redwood Technologies |[https://www.contentguru.com/compliance-recording-for-microsoft-teams/](https://www.contentguru.com/compliance-recording-for-microsoft-teams/) |
 
 
 随着更多合作伙伴加入并满足认证条件，此列表将更新。
+
 
 ## <a name="next-steps"></a>后续步骤
 
