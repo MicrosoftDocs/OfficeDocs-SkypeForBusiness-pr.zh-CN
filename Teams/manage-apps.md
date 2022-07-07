@@ -19,12 +19,12 @@ description: 了解如何管理 Teams 应用。 了解如何允许或阻止应�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 82ab9372f925e40beac41d4075b49b34118f8851
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: 92f7c6d69fbc9f680c204f0210aaa80742dd6384
+ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616048"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "66647744"
 ---
 # <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 管理中心管理 Teams 应用
 
@@ -62,7 +62,7 @@ Teams 管理中心提供了用于完成大多数应用管理用例的选项。 �
 | 更新策略用于管理 Teams 和 Office 预览版用户，这些用户将在 Teams 应用中看到预发布或预览功能。  | [Teams 更新策略](https://admin.teams.microsoft.com/policies/updatemanagement) | [Teams 公共预览版](public-preview-doc-updates.md) |
 | **Teams 管理中心外部** | | |
 | 在Microsoft 365 管理中心中管理第三方应用的许可证和订阅 | [Microsoft 365 管理中心](https://admin.microsoft.com/#/licenses) | [管理第三方应用订阅](/microsoft-365/commerce/manage-saas-apps) |
-| 审核 Microsoft Purview 合规门户 上的 Teams 应用事件。 | [审计](https://compliance.microsoft.com/auditlogsearch?viewid=Async%20Search) | [Teams 活动](audit-log-events.md#teams-activities) |
+| 审核 Microsoft Purview 合规门户 上的 Teams 应用事件。 | [审计](https://compliance.microsoft.com/auditlogsearch?viewid=Async%20Search) | [Teams 活动](audit-app-management-activities.md) |
 | 可以通过三种方法向应用程序授予对组织及其数据的权限：管理员同意所有用户的应用程序、用户向应用程序授予许可，或管理员集成应用程序并启用自助服务访问或将用户直接分配给应用程序。 验证应用的 Graph 权限。 验证用户提供的权限或管理员委托的权限。 | [Azure AD 门户](https://aad.portal.azure.com/) | [查看授予应用程序的权限](/azure/active-directory/manage-apps/manage-application-permissions) |
 
 <!---

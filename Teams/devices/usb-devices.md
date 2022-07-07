@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: 查看 (哪些 USB 外围设备（例如耳机、免提电话、网络摄像头和监视器）) 通过 Microsoft Teams 认证。
-ms.openlocfilehash: a2f106b71cc6494594ad34b9aa8dbfb61789a67a
-ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
+ms.openlocfilehash: 7df6ca32a359931a62935d68257583c4d499aa93
+ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "66605701"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "66647654"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>经 Microsoft Teams 认证的 USB 音频和视频设备
 
@@ -149,8 +149,8 @@ ms.locfileid: "66605701"
 |联想               |Pro Wired VoIP 立体声耳机                              |12/21/2020      |Skype for Business升级到 Microsoft Teams      |
 |聚                 |Savi Office 7320                                           |12/18/2020      |Microsoft Teams 认证                           |
 |聚                 |Savi Office 7310                                           |12/18/2020      |Microsoft Teams 认证                           |
-|Jabra                |Evolve 75e / SE Headset                                         |12/16/2020      |Skype for Business升级到 Microsoft Teams      |
-|Jabra                |Evolve 65e / SE Headset                                         |12/16/2020      |Skype for Business升级到 Microsoft Teams      |
+|Jabra                |Evolve 75e Headset                                         |12/16/2020      |Skype for Business升级到 Microsoft Teams      |
+|Jabra                |Evolve 65e Headset                                         |12/16/2020      |Skype for Business升级到 Microsoft Teams      |
 |戴尔                 |C3422WE Monitor                                            |12/11/2020      |Microsoft Teams 认证                           |
 |戴尔                 |C2722DE Monitor                                            |12/11/2020      |Microsoft Teams 认证                           |
 |戴尔                 |C2422HE Monitor                                            |12/11/2020      |Microsoft Teams 认证                           |
@@ -167,8 +167,8 @@ ms.locfileid: "66605701"
 |EPOS/Sennheiser      |使用 USB-ED CC 01 MS 连接器影响 SC 660               |8/20/2020       |Skype for Business升级到 Microsoft Teams      |
 |EPOS/Sennheiser      |使用 USB-ED CC 01 MS 连接器影响 SC 630               |8/20/2020       |Skype for Business升级到 Microsoft Teams      |
 |EPOS/Sennheiser      |使用 USB-ED CC 01 MS 连接器影响 SC 260               |8/20/2020       |Skype for Business升级到 Microsoft Teams      |
-|Jabra                |Evolve 75 耳机                                          |7/31/2020       |Skype for Business升级到 Microsoft Teams      |
-|Jabra                |Evolve 65 耳机                                          |7/31/2020       |Skype for Business升级到 Microsoft Teams      |
+|Jabra                |Evolve 75 / SE Headset                                          |7/31/2020       |Skype for Business升级到 Microsoft Teams      |
+|Jabra                |Evolve 65 / SE Headset                                          |7/31/2020       |Skype for Business升级到 Microsoft Teams      |
 |Jabra                |参与 50 个耳机                                          |7/31/2020       |Skype for Business升级到 Microsoft Teams      |
 |Avocor               |WCD- AVW-6555                                              |7/30/2020       |Microsoft Teams 认证                           |
 |Jabra                |Evolve2 85 耳机                                         |7/17/2020       |Microsoft Teams 认证                           |

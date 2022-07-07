@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ffbea482ac15d1362eabc720fe2c05a8b5954954
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.openlocfilehash: b508b368629ce716a1269380eb1fffe2137620c8
+ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562641"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "66647644"
 ---
 # <a name="export-content-with-the-microsoft-teams-export-apis"></a>使用 Microsoft Teams 导出 API 导出内容
 
@@ -43,10 +43,9 @@ ms.locfileid: "66562641"
 - **混合环境：** 导出 API 支持在混合环境 (本地 Exchange 和 Teams) 上预配的用户发送的消息。 配置为混合环境的用户发送的任何消息都可以使用导出 API 访问。
 - **用户已删除的消息：** 用户从 Teams 客户端中删除的消息可以使用导出 API 访问，从删除时间起最多 21 天。
 - **消息附件：** 导出 API 包括指向作为消息一部分发送的附件的链接。 使用导出 API 可以检索消息中附加的文件。
+- **反应：** 导出 API 支持用户对 Teams 消息发出的反应。 目前支持的反应是心，愤怒，喜欢，悲伤，惊讶，笑。
 - **聊天消息属性：** 请参阅 [此](/graph/api/resources/chatmessage#properties)处 Teams 导出 API 支持的属性的完整列表。
 
-> [!NOTE]
-> 导出 API 不支持 *响应*。
 
 ## <a name="how-to-access-teams-export-apis"></a>如何访问 Teams 导出 API
 
