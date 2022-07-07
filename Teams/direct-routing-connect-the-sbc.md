@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 了解如何配置 SBC 并将其连接到 Teams 电话系统直接路由。
-ms.openlocfilehash: e33f9538fdf69696e0a87da84dc5aec8e8d304af
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 0423c374e903aab2e283ee45bcabf9ceb31ef869
+ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66241101"
+ms.lasthandoff: 07/07/2022
+ms.locfileid: "66682661"
 ---
 # <a name="connect-your-session-border-controller-sbc-to-direct-routing"></a>将会话边框控制器 (SBC) 连接到直接路由
 
@@ -95,6 +95,8 @@ New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignalingPort <SBC SIP Port> -MaxCo
   > 除了在租户中注册的域外，还必须有具有该域的用户以及分配的 E3 或 E5 许可证。 如果没有，则会收到以下错误：<br/>
   `Can not use the "sbc.contoso.com" domain as it was not configured for this tenant`.
   > 3. 不支持在 SBC 端使用同一 FQDN 映射的多个 IP。
+  > 4. 为了向客户提供一流的加密，Microsoft 将强制使用 TLS1.2 直接路由 SIP 接口。
+  > 若要避免任何服务影响，请确保 SBC 配置为支持 TLS1.2，并且可以使用以下密码套件之一进行连接：TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384即。 ECDHE-RSA-AES256-GCM-SHA384 TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256，即 ECDHE-RSA-AES128-GCM-SHA256 TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384，即 ECDHE-RSA-AES256-SHA384 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256，即 ECDHE-RSA-AES128-SHA256
 
 下面是一个示例：
 
@@ -167,17 +169,17 @@ Enabled               : True
 |必填？|Teams 管理中心设置|PowerShell 参数|描述|默认值|可能的值|类型和限制|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |是|**为 SBC 添加 FQDN**|FQDN |无|FQDN 名称，限制 63 个字符|字符串，请参阅 [Active Directory 中针对计算机、域、站点和 OU 的命名约定允许和不允许的](https://support.microsoft.com/help/909264)字符的列表|
-|否|**已启用**|已启用|用于启用 SBC 进行出站调用。 在更新 SBC 时或在维护期间，可以使用此功能暂时从服务中删除 SBC。 |False|True<br/>False|Boolean|
+|弱|**已启用**|已启用|用于启用 SBC 进行出站调用。 在更新 SBC 时或在维护期间，可以使用此功能暂时从服务中删除 SBC。 |False|True<br/>False|Boolean|
 |是|**SIP 信号端口**|SipSignalingPort |这是侦听端口，用于使用传输层 (TLS) 协议与直接路由通信。|无|任何端口|0 到 65535 |
-|否|**发送 SIP 选项**|SendSIPOptions |定义 SBC 是否会发送 SIP 选项消息。 强烈建议启用此设置。 关闭此设置时，SBC 将从监视和警报系统中排除。|True|True<br/>False|Boolean|
-|否|**转发呼叫历史记录**|ForwardCallHistory |指示是否通过中继转发调用历史记录信息。 启用此操作时，Microsoft 365 代理将发送历史记录信息和“引用”标头。 |False|True<br/>False|Boolean|
-|否|**转发 P-Asserted-identity (PAI) 标头**|ForwardPAI|指示是否将 PAI 标头与调用一起转发。 PAI 标头提供了一种验证呼叫者身份的方法。 如果启用此设置，也会发送 Privacy：ID 标头。|False|True<br/>False|Boolean|
-|否|**并发调用容量**|MaxConcurrentSessions |设置值时，当并发会话数为 90% 或高于此值时，警报系统会通知你。 如果未设置值，则不会生成警报。 但是，监视系统将每 24 小时报告一次并发会话数。 |空|空<br/>1 到 100，000 ||
-|否|**故障转移响应代码**|FailoverResponseCodes<br>|如果直接路由在响应传出邀请时收到任何 4xx 或 6xx SIP 错误代码，则默认情况下会将调用视为已完成。 传出意味着从 Teams 客户端到流量流的 PSTN 的呼叫：Teams 客户端 ->直接路由 -> SBC ->电话网络) 。 指定故障转移响应代码时，如果用户的语音路由策略中存在另一个 SBC (，则会强制直接路由在接收指定代码时) 如果 SBC 因网络或其他问题而无法进行调用，则会强制尝试另一个 SBC (。 若要了解详细信息，请参阅 [从会话边界控制器 (SBC) 接收的特定 SIP 代码的故障转移 ](direct-routing-trunk-failover-on-outbound-call.md)。|408, 503, 504||Int|
-|否|**故障转移时间 (秒)**|FailoverTimeSeconds |设置值时，网关在设置时未响应的出站调用会路由到下一个可用中继。 如果没有其他中继，则会自动删除调用。 默认值为 10 秒。 在网络和网关响应缓慢的组织中，这可能会导致调用被不必要地丢弃。|10|数字|Int|
-|否|**媒体流量的首选国家或地区**|MediaRelayRoutingLocationOverride | 不适用于直接路由。 此参数保留用于通话套餐中的托管运营商 |无|||
-|否|**SBC 支持 PIDF/LO 进行紧急呼叫**|PidfloSupported|指定 SBC 是否支持针对紧急呼叫 (PIDF/LO) 的状态信息数据格式位置对象。||||
-|否| - |MediaBypass|此设置指示 SBC 是否支持媒体旁路，以及是否要将其用于此 SBC。 |无|True<br/>False|Boolean|
+|弱|**发送 SIP 选项**|SendSIPOptions |定义 SBC 是否会发送 SIP 选项消息。 强烈建议启用此设置。 关闭此设置时，SBC 将从监视和警报系统中排除。|True|True<br/>False|Boolean|
+|弱|**转发呼叫历史记录**|ForwardCallHistory |指示是否通过中继转发调用历史记录信息。 启用此操作时，Microsoft 365 代理将发送历史记录信息和“引用”标头。 |False|True<br/>False|Boolean|
+|弱|**转发 P-Asserted-identity (PAI) 标头**|ForwardPAI|指示是否将 PAI 标头与调用一起转发。 PAI 标头提供了一种验证呼叫者身份的方法。 如果启用此设置，也会发送 Privacy：ID 标头。|False|True<br/>False|Boolean|
+|弱|**并发调用容量**|MaxConcurrentSessions |设置值时，当并发会话数为 90% 或高于此值时，警报系统会通知你。 如果未设置值，则不会生成警报。 但是，监视系统将每 24 小时报告一次并发会话数。 |空|空<br/>1 到 100，000 ||
+|弱|**故障转移响应代码**|FailoverResponseCodes<br>|如果直接路由在响应传出邀请时收到任何 4xx 或 6xx SIP 错误代码，则默认情况下会将调用视为已完成。 传出意味着从 Teams 客户端到流量流的 PSTN 的呼叫：Teams 客户端 ->直接路由 -> SBC ->电话网络) 。 指定故障转移响应代码时，如果用户的语音路由策略中存在另一个 SBC (，则会强制直接路由在接收指定代码时) 如果 SBC 因网络或其他问题而无法进行调用，则会强制尝试另一个 SBC (。 若要了解详细信息，请参阅 [从会话边界控制器 (SBC) 接收的特定 SIP 代码的故障转移 ](direct-routing-trunk-failover-on-outbound-call.md)。|408, 503, 504||Int|
+|弱|**故障转移时间 (秒)**|FailoverTimeSeconds |设置值时，网关在设置时未响应的出站调用会路由到下一个可用中继。 如果没有其他中继，则会自动删除调用。 默认值为 10 秒。 在网络和网关响应缓慢的组织中，这可能会导致调用被不必要地丢弃。|10|数字|Int|
+|弱|**媒体流量的首选国家或地区**|MediaRelayRoutingLocationOverride | 不适用于直接路由。 此参数保留用于通话套餐中的托管运营商 |无|||
+|弱|**SBC 支持 PIDF/LO 进行紧急呼叫**|PidfloSupported|指定 SBC 是否支持针对紧急呼叫 (PIDF/LO) 的状态信息数据格式位置对象。||||
+|弱| - |MediaBypass|此设置指示 SBC 是否支持媒体旁路，以及是否要将其用于此 SBC。 |无|True<br/>False|Boolean|
 
 ## <a name="see-also"></a>另请参阅
 

@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: 获取有关 Microsoft Teams 和 Skype for Business Online 的调用质量仪表板 (CQD) 使用的维度和度量的详细信息。
-ms.openlocfilehash: 27b7800efd8835254c5f093781881296b4db2464
-ms.sourcegitcommit: b383b309dbdf9caac7ad7e4a94df8d89016dc485
+ms.openlocfilehash: bc2289f06641e206f3188c865b936962e5f1b1f5
+ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66551219"
+ms.lasthandoff: 07/07/2022
+ms.locfileid: "66682531"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>通话质量仪表板 (CQD) 中提供的维度和度量
 
@@ -551,6 +551,9 @@ CQD 使用的字符串通常派生自数据文件，这些字符串几乎可以�
 |是否涉及呼叫队列|Boolean|如果为 True，则给定呼叫或流中涉及呼叫队列。 ||
 |**会议**||||
 |计划源应用 ID|String |预订会议的第一方或第三方计划客户端的 AppID。|计划客户端未通过遥测提供此参数。|
+|**常见**||||
+| 第一个 ACS 资源 ID |String |与第一个终结点关联的 Azure 通信服务的不可变资源标识符。 <br/> **示例：** 00000000-0000-0000-00000000000000 | 终结点未使用Azure 通信服务 API|
+| 第二个 ACS 资源 ID |String |与第二终结点关联的 Azure 通信服务的不可变资源标识符。 <br/> **示例：** 00000000-0000-0000-00000000000000 | 终结点未使用Azure 通信服务 API|
 |**Datapair**||||
 | Network Connection Detail Pair  | 枚举对 <br/>**可能的值：** <br/> wifi : wifi <br/> wifi : 有线 <br/> 有线 : wifi <br/> 有线 : 有线 <br/> MobileBB : MobileBB <br/> MobileBB : 其他 <br/> MobileBB : 隧道 <br/> MobileBB : wifi <br/> MobileBB : 有线 <br/> 其他 : 其他 <br/> 其他 : wifi <br/> 其他 : 有线 <br/> 隧道 : 隧道 <br/> 隧道 : wifi <br/> 隧道 : 有线 <br/> : MobileBB <br/> : 其他 <br/> : 隧道 <br/> : wifi <br/> : 有线 <br/> :  | 表示第一和第二终结点的网络连接详情的成对值。  | &bull; 终结点网络连接类型未知。 当无法建立通话时可能会出现这种情况。   |
 | User Agent Category Pair  | 枚举对  | 表示第一和第二终结点的用户代理类别的成对值。 <br/> **示例值：** AV-MCU： OC  | &bull; 终结点用户代理不是已知类型  |

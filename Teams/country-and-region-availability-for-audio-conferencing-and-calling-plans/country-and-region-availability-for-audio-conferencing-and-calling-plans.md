@@ -25,13 +25,13 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 - seo-marvel-mar2020
-description: 了解音频会议、电话系统、通话套餐、通信信用额度以及收费和免费电话号码是否在一个国家或地区可用。
-ms.openlocfilehash: 71aa417de6a6ec9f6388ac414512f42a881be001
-ms.sourcegitcommit: 4847f24e8c644336d2b2f48aa09e2cf91360e4dd
+description: 了解某个国家或地区是否提供音频会议、电话系统、通话套餐、通信信用额度以及免费电话号码和免费电话号码。
+ms.openlocfilehash: 7693ae0421d186d1ac230d48bf4df2369aa4e3f8
+ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "64686309"
+ms.lasthandoff: 07/07/2022
+ms.locfileid: "66682461"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>音频会议和通话套餐的国家/地区可用性
 
@@ -161,7 +161,7 @@ ms.locfileid: "64686309"
 
 ***
 
-验证其中一个Skype for Business或Microsoft Teams服务是否可用后，可以看到[Skype for Business和Microsoft Teams加载项许可](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)，以帮助你购买许可证并将其分配给用户。
+验证其中一个Skype for Business或 Microsoft Teams 服务是否可用后，可以看到[Skype for Business和 Microsoft Teams 加载项许可](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)，以帮助你购买许可证并将其分配给用户。
 
 > [!NOTE]
 >
@@ -171,12 +171,12 @@ ms.locfileid: "64686309"
 
 ### <a name="audio-conferencing"></a>音频会议
 
-有时，组织中的人员需要使用电话拨入会议。 Skype for Business和Microsoft Teams仅适用于这种情况的音频会议功能！ 可以使用电话拨入会议，而无需在移动设备或电脑上使用 Skype for Business 和 Microsoft Teams 应用。 当你决定要为组织举办音频会议时，请为组织中计划/主持音频会议的每个人购买一个 **音频会议** 许可证。
+有时，组织中的人员需要使用电话拨入会议。 Skype for Business和 Microsoft Teams 仅针对这种情况包含音频会议功能！ 可以使用电话拨入会议，而无需在移动设备或电脑上使用 Skype for Business 和 Microsoft Teams 应用。 当你决定要为组织举办音频会议时，请为组织中计划/主持音频会议的每个人购买一个 **音频会议** 许可证。
   
 借助音频会议，用户可以使用免费电话号码和免费电话号码拨入会议。 在以下国家/地区中，如果组织已启用音频会议，收费号码会自动作为共享音频会议号码分配给组织。 可以从其他城市向组织分配专用收费和免费号码。
 
 > [!IMPORTANT]
-> 没有包含所有音频会议拨入号码列表的资源。 若要确定你所在区域或国家/地区是否有可用的拨入电话号码，请依次转到“Skype for Business 管理中心” > “语音” > “电话号码”，然后依次单击“添加”和“新服务号码”。 使用“国家/地区”、“省/直辖市/自治区/地区”和“城市”列表来筛选搜索结果。 如果要查找免费服务号码，请从 **"州/地区**"列表中选择 **免费** 收费。
+> 没有包含所有音频会议拨入号码列表的资源。 若要确定你所在区域或国家/地区是否有可用的拨入电话号码，请依次转到“Skype for Business 管理中心” > “语音” > “电话号码”，然后依次单击“添加”和“新服务号码”。 使用“国家/地区”、“省/直辖市/自治区/地区”和“城市”列表来筛选搜索结果。 如果要查找免费服务号码，请从 **“州/地区**”列表中选择 **免费** 收费。
 
 若要详细了解音频会议，请参阅[音频会议常见问题](../audio-conferencing-common-questions.md)
 
@@ -184,7 +184,7 @@ ms.locfileid: "64686309"
   
 #### <a name="using-the-call-me-feature-or-when-adding-other-people-to-a-meeting-so-they-can-join-it"></a>使用“呼叫我”功能，或在将其他人添加到会议时让其他人加入会议
 
-在音频会议中，"*呼叫我*"功能用于让其他人加入电话拨入式会议。 使用本文中的下拉列表搜索国家/地区，并查看此功能是否可用。
+在音频会议中，“*呼叫我*”功能用于让其他人加入电话拨入式会议。 使用本文中的下拉列表搜索国家/地区，并查看此功能是否可用。
 
 > [!CAUTION]
 > 拨出免费或免费电话号码可能是不可能的，因为某些免费号码只能从某个国家/地区的某个国家或地区运行。 例如，如果从美国拨打巴西的免费号码，呼叫可能不会成功，因为呼叫并非来自巴西境内或巴西境内的特定区域。 拨出免费号码的能力因拨打的免费号码的限制而异。 遗憾的是，我们无法控制此行为，因此，您的体验可能因拨号的免费号码和免费号码的限制而异。
@@ -193,7 +193,7 @@ ms.locfileid: "64686309"
   
 ### <a name="phone-system"></a>电话系统
 
-使用电话系统，可以创建自动助理和呼叫队列， (使用收费或免费号码) 来接听组织的传入呼叫。 为用户添加呼叫计划时，他们可以使用Skype for Business来处理基本的呼叫控制任务，例如拨打和接听呼叫、转移呼叫以及静音和取消呼叫。 **电话系统** 用户单击通讯簿中的姓名，Skype for Business会给该人打电话。 若要接听和接听电话，**电话系统** 用户使用其移动设备、带笔记本电脑或电脑的耳机，或使用Skype for Business的众多 IP 电话之一。
+使用电话系统，可以创建自动助理和呼叫队列， (使用收费或免费号码) 来接听组织的传入呼叫。 为用户添加呼叫计划时，他们可以使用Skype for Business来处理基本的呼叫控制任务，例如拨打和接听呼叫、转移呼叫以及静音和取消呼叫。 **电话系统** 用户在其通讯簿中单击一个名称，Skype for Business会给该人打电话。 为了拨打电话和接听电话，**电话系统** 用户使用其移动设备、带笔记本电脑或电脑的耳机，或使用Skype for Business的众多 IP 电话之一。
 
 其中一些位置的收费电话号码的可用性可能在任意给定时间因库存级别而异。 除了为单个用户获取电话号码外，还可以搜索和获取会议桥) 、自动助理和呼叫队列等服务的收费或免费电话号码，例如音频会议 (。 这些称为“服务号码”。 若要获取电话号码，请参阅[获取服务电话号码](../getting-service-phone-numbers.md)。 不过，对于用户，在将通话套餐分配给他们后，你可以分配用户电话号码，以便他们能够拨打和接听电话。 若要查找这些电话号码，请参阅[为用户获取电话号码](../getting-phone-numbers-for-your-users.md)。 还可以参阅[为用户分配、更改或删除电话号码](../assign-change-or-remove-a-phone-number-for-a-user.md)。
 
@@ -206,7 +206,7 @@ ms.locfileid: "64686309"
 
 ### <a name="calling-plans"></a>通话套餐
 
-除了电话系统外，用户还可以通过通话套餐拨打和接听电话。 首先获取用户 (订阅者) 电话号码 (不是要分配给用户的服务号码) ，然后分配呼叫计划。 有三种类型的通话套餐可用： **国内**、 **国际** 、 **国内和国际**。 有关详细信息，请参阅[电话系统和通话套餐](../calling-plan-landing-page.md)。
+除了电话系统外，用户还可以通过通话套餐拨打和接听电话。 首先获取用户 (订阅者) 电话号码 (不是要分配给用户的服务号码) ，然后分配呼叫计划。 有两种类型的通话套餐可用：**国内****和国际**。 有关详细信息，请参阅[电话系统和通话套餐](../calling-plan-landing-page.md)。
 
 有关许可信息，还可以参阅[电话系统和通话套餐许可](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
 

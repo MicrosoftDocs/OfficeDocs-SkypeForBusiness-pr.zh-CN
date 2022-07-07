@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams加载项许可证
+title: Microsoft Teams 加载项许可证
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -19,56 +19,56 @@ ms.custom:
 - Licensing
 - LIL_Placement
 - seo-marvel-mar2020
-description: 了解Microsoft Teams的加载项许可证以及每个许可证的功能。
-ms.openlocfilehash: 000678a0b41e660371de295ae40d2c6359774efe
-ms.sourcegitcommit: b70f01d7eae2e3e6f7495c685518a2037aaece31
+description: 了解 Microsoft Teams 的加载项许可证以及每个许可证的功能。
+ms.openlocfilehash: f3d7b7aacf611592898b6d2aeef0fb3dde854fdf
+ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/11/2022
-ms.locfileid: "64756948"
+ms.lasthandoff: 07/07/2022
+ms.locfileid: "66682481"
 ---
-# <a name="microsoft-teams-add-on-licenses"></a>Microsoft Teams加载项许可证
+# <a name="microsoft-teams-add-on-licenses"></a>Microsoft Teams 加载项许可证
 
 ## <a name="which-capabilities-can-i-get-with-add-on-licenses"></a>可以使用加载项许可证获得哪些功能？
 
-加载项许可证是特定Microsoft Teams功能的许可证。 它们使你能够灵活地仅为组织中需要这些功能的用户添加功能。 若要添加功能，请为将使用该功能的每个用户购买一个加载项许可证。
+加载项许可证是特定 Microsoft Teams 功能的许可证。 它们使你能够灵活地仅为组织中需要这些功能的用户添加功能。 若要添加功能，请为将使用该功能的每个用户购买一个加载项许可证。
 
-可用的加载项许可选项取决于你拥有的Microsoft 365计划。 若要查看哪些语音呼叫和音频会议选项可供你使用，请参阅我的[计划中哪些 Microsoft 功能可用？](#which-microsoft-capabilities-are-available-with-my-plan)
+可用的附加许可选项取决于你拥有的 Microsoft 365 计划。 若要查看哪些语音呼叫和音频会议选项可供你使用，请参阅我的[计划中哪些 Microsoft 功能可用？](#which-microsoft-capabilities-are-available-with-my-plan)
 
-下面是可添加到Teams订阅的Teams加载项许可证及其功能的列表。
+下面是可以添加到 Teams 订阅的 Teams 加载项许可证及其功能的列表。
 
 |许可证|说明|
 |-------|-----------|
-|**Microsoft 365 商务语音** <br/> |Business Voice 是 Microsoft 面向中小企业的语音功能捆绑包，但从 2022 年 3 月 1 日起将不再可供购买。 当前商务语音订阅者可以续订其商务语音许可证，直至 2022 年 6 月 30 日。 <br/> <br/> 如果你是一家中小型企业，建议购买[具有通话套餐许可证的Teams 电话](../business-voice/whats-business-voice.md)（如果在你所在的区域中可用）。 <br/> <br/> 或者，可以购买Teams 电话标准许可证，以便连接到首选的第三方 PSTN 提供程序。 |
-|**Teams 电话调用计划捆绑包** <br/> |具有通话套餐许可证的Teams 电话捆绑Teams 电话系统的 PBX 功能和用于 PSTN 连接的国内通话计划。 <br/> |
-|**Teams 电话标准** <br/> |[Teams 电话系统](../what-is-phone-system-in-office-365.md)是一种托管电话服务，提供呼叫控制和专用分支Exchange (PBX) 功能。 Teams 电话标准许可证提供云语音邮件、呼叫者 ID、呼叫寄存、呼叫转接、自动助理、呼叫队列、呼叫转移和呼叫者 ID 等所有Teams 电话系统功能。 <br/> <br/>若要了解有关电话系统的详细信息，请参阅[下面的Teams 电话系统](../here-s-what-you-get-with-phone-system.md)。 <br/> |
-|**Microsoft Teams 通话套餐** <br/> |如果希望用户能够在组织外部拨打电话号码，可以购买[Microsoft Teams 通话套餐](../calling-plans-for-office-365.md)以 Microsoft 作为 PSTN 提供商连接到 PSTN 电话号码。 有国内通话套餐、国际通话套餐以及国内和国际通话套餐。 <br/> <br/> 若要了解Teams通话套餐是否在您的国家或地区可用，请参阅[音频会议和通话套餐的国家/地区可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。 |
+|**Microsoft 365 商务语音** <br/> |Business Voice 是 Microsoft 面向中小企业的语音功能捆绑包，但从 2022 年 3 月 1 日起将不再可供购买。 当前商务语音订阅者可以续订其商务语音许可证，直至 2022 年 6 月 30 日。 <br/> <br/> 如果你是一家中小型企业，建议购买具有 [通话套餐许可证的 Teams 电话](../business-voice/whats-business-voice.md)（如果在你所在的区域中可用）。 <br/> <br/> 或者，可以购买允许连接到首选第三方 PSTN 提供商的Teams 电话标准版许可证。 |
+|**Teams 电话通话通话套餐捆绑包** <br/> |具有通话套餐许可证的 Teams 电话捆绑 Teams 电话系统的 PBX 功能和用于 PSTN 连接的国内呼叫计划。 <br/> |
+|**Teams 电话标准版** <br/> |[Teams 电话系统](../what-is-phone-system-in-office-365.md) 是一种托管电话服务，提供呼叫控制和专用分支交换 (PBX) 功能。 Teams 电话标准版许可证为你提供所有 Teams 电话系统功能，如云语音邮件、呼叫者 ID、呼叫寄存、呼叫转接、自动助理、呼叫队列、呼叫转移和呼叫者 ID。 <br/> <br/>若要了解有关电话系统的详细信息，请参阅 [下面的 Teams 电话系统](../here-s-what-you-get-with-phone-system.md)。 <br/> |
+|**Microsoft Teams 通话套餐** <br/> |如果希望用户能够在组织外部拨打电话号码，可以购买[Microsoft Teams 通话套餐](../calling-plans-for-office-365.md)以 Microsoft 作为 PSTN 提供商连接到 PSTN 电话号码。 有国内通话套餐和国际通话套餐。 <br/> <br/> 若要了解 Teams 通话套餐是否在您的国家或地区可用，请参阅 [音频会议和通话套餐的国家/地区可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。 |
 |**通信额度** | 通信信用额度提供每月分钟数池，如果所有通话套餐分钟数在下月初之前使用，也可以用于 PSTN 电话呼叫。 如果想要音频会议、自动助理或呼叫队列的免费号码，则需要 [设置通信额度](../set-up-communications-credits-for-your-organization.md)。 <br/> |
-|**音频会议** <br/> |有时，组织中的人员需要使用电话来呼叫Teams会议，而不是他们的计算机。 为与需要使用电话呼叫的与会者安排或主持会议的用户[设置音频会议](../set-up-audio-conferencing-in-teams.md)。 <br/> <br/>要了解你所在国家或地区是否提供视频会议，请参阅 [音频会议和通话套餐的国家/地区可用情况](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。 有关定价信息，请参阅[音频会议定价](https://go.microsoft.com/fwlink/?linkid=799762)。  <br/> <br/>组织现在可以将第三方运算符用于其音频会议号码。 有关详细信息，请参阅[计划运营商连接会议](../operator-connect-conferencing-plan.md)。 <br/>|
-|**Microsoft Teams 会议室** <br/> | Microsoft Teams会议室是将视频、音频和内容共享引入会议室的附加Microsoft Teams产品。 组织可以为这些功能购买Microsoft Teams 会议室独立许可证。 有关详细信息，请参阅[Teams 会议室许可](../rooms/rooms-licensing.md)。 <br/>|
+|**音频会议** <br/> |有时，组织中的人员需要使用电话来呼叫 Teams 会议，而不是他们的计算机。 为与需要使用电话呼叫的与会者安排或主持会议的用户[设置音频会议](../set-up-audio-conferencing-in-teams.md)。 <br/> <br/>要了解你所在国家或地区是否提供视频会议，请参阅 [音频会议和通话套餐的国家/地区可用情况](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。 有关定价信息，请参阅[音频会议定价](https://go.microsoft.com/fwlink/?linkid=799762)。  <br/> <br/>组织现在可以将第三方运算符用于其音频会议号码。 有关详细信息，请参阅[计划运营商连接会议](../operator-connect-conferencing-plan.md)。 <br/>|
+|**Microsoft Teams 会议室** <br/> | Microsoft Teams 会议室是一种额外的 Microsoft Teams 产品，可将视频、音频和内容共享引入会议室。 组织可以为这些功能购买Microsoft Teams 会议室独立许可证。 有关详细信息，请参阅 [Teams 会议室许可](../rooms/rooms-licensing.md)。 <br/>|
 
 ## <a name="which-microsoft-capabilities-are-available-with-my-plan"></a>我的计划提供了哪些 Microsoft 功能？
 
-所有Microsoft 365计划都允许Teams用户使用 VoIP 技术在组织内进行对等呼叫。 但是，你可能希望在不同的许可证上添加对 PSTN 号码的调用或设置 PBX 等功能。
+所有 Microsoft 365 计划都允许 Teams 用户使用 VoIP 技术在组织内进行对等呼叫。 但是，你可能希望在不同的许可证上添加对 PSTN 号码的调用或设置 PBX 等功能。
 
 ### <a name="voice-and-pstn-connectivity"></a>语音和 PSTN 连接
 
-无论你是小企业、企业组织、教育机构、政府机构还是非营利组织，都有三种方法可以实现Teams 电话系统和 PSTN 连接：
+无论你是小企业、企业组织、教育机构、政府机构还是非营利组织，都有三种方法可以实现 Teams 电话系统和 PSTN 连接：
 
-- 购买Microsoft 365业务、E1/E3、A1/A3 或 G1/G3 计划，并使用 **通话套餐** 捆绑包许可证添加Teams 电话。
-  - 此模型将为你提供Teams 电话系统 PBX 功能和 Microsoft 国内通话计划。
+- 购买 Microsoft 365 商业版、E1/E3、A1/A3 或 G1/G3 计划，并添加 **具有通话套餐** 捆绑许可证的 Teams 电话。
+  - 此模型将为你提供 Teams 电话系统 PBX 功能和 Microsoft 国内通话计划。
   - 如果希望 Microsoft 处理所有电话号码管理和计费，请选择此设置。
-  - 检查区域中是否[提供了具有通话套餐捆绑包许可证的Teams 电话](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
+  - 检查你的区域中是否 [提供了包含通话套餐捆绑包许可证的 Teams 电话](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
 
-- 购买 E1/E3、A1/A3 或 G1/G3 计划，添加 **Teams 电话标准** 许可证，并选择 Microsoft 独立呼叫计划或第三方 PSTN 运营商。
-  - 此模型将为你提供Teams 电话系统，但仍需要连接到 PSTN。
+- 购买 E1/E3、A1/A3 或 G1/G3 计划，添加 **Teams 电话标准版** 许可证，并选择 Microsoft 独立呼叫计划或第三方 PSTN 运营商。
+  - 此模型将为你提供 Teams 电话系统，但仍需要连接到 PSTN。
   - 若要查看所有 PSTN 连接选项，请参阅 [PSTN 连接选项](../pstn-connectivity.md)。
-  - 若要了解所有语音解决方案，请参阅[规划Teams语音解决方案](../cloud-voice-landing-page.md)。
+  - 若要了解所有语音解决方案，请参阅 [规划 Teams 语音解决方案](../cloud-voice-landing-page.md)。
 
 - 购买 E5/A5/G5 计划并添加 **Microsoft 呼叫计划** 或连接到第三方 PSTN 连接提供商。
-  - Microsoft 365 E5、A5 和 G5 计划包括Teams 电话系统，但组织仍需要选择 [PSTN 连接选项](../pstn-connectivity.md)。
+  - Microsoft 365 E5、A5 和 G5 计划包括 Teams 电话系统，但组织仍需要选择 [PSTN 连接选项](../pstn-connectivity.md)。
 
-下面是根据Microsoft 365计划购买哪些 Microsoft 语音和呼叫许可证的摘要：
+下面是根据 Microsoft 365 计划购买哪些 Microsoft 语音和呼叫许可证的摘要：
 
 <table>
 <thead>
@@ -80,13 +80,13 @@ ms.locfileid: "64756948"
 </thead>
 <tbody>
 <tr>
-<td>Teams概要 (AAD标识)  <br/> <br/>包含Teams的任何Microsoft 365计划 <br/> </td>
-<td>使用通话计划捆绑包许可证Teams 电话 <br/> <br/>或者 <br/> <br/>Teams 电话标准许可证 <br/> 加 <br/>国内通话套餐、国际通话套餐或国内和国际通话套餐许可证 <br/> </td>
-<td>Teams 电话标准许可证 <br/> </td>
+<td>Teams Essentials (AAD 标识)  <br/> <br/>包含 Teams 的任何 Microsoft 365 计划 <br/> </td>
+<td>具有通话套餐捆绑许可证的 Teams 电话 <br/> <br/>或者 <br/> <br/>Teams 电话标准版许可证 <br/> 加 <br/>国内通话套餐或国际通话套餐许可证 <br/> </td>
+<td>Teams 电话标准版许可证 <br/> </td>
 </tr>
 <tr>
 <td>Microsoft 365 E5/A5/G5 计划</td>
-<td>国内通话套餐、国际通话套餐或国内和国际通话套餐许可证 <br/> </td>
+<td>国内通话套餐或国际通话套餐许可证 <br/> </td>
 <td></td>
 </tr>
 </tbody>
@@ -116,4 +116,4 @@ ms.locfileid: "64756948"
 
 - [分配 Teams 附加许可证](assign-teams-add-on-licenses.md)
 - [管理用户对 Teams 的访问管理](../user-access.md)
-- [Teams服务说明](/office365/servicedescriptions/teams-service-description)
+- [Teams 服务说明](/office365/servicedescriptions/teams-service-description)
