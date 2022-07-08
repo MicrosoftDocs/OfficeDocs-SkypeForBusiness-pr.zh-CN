@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: 获取电话号码或端口 (为组织转移) 号码时，可能需要在 TNS 服务台获得帮助和支持。
-ms.openlocfilehash: bd12ac951e6a0f23ffeebf7a9d2e7655ce73d906
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 8fd5bb73ebdf5aba4cbadeb885404e1a6a6b4fca
+ms.sourcegitcommit: 9175c6d542dd825ce965d0cb7c67264f22315202
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66240721"
+ms.lasthandoff: 07/07/2022
+ms.locfileid: "66687868"
 ---
 # <a name="telephone-number-services-tns---service-desk"></a>电话号码服务 (TNS) - 服务台
 
@@ -43,7 +43,7 @@ ms.locfileid: "66240721"
 
 2. 在左侧窗格中，选择 **“语音**”，然后选择 **电话号码**。
 
-3. 在页面右上角，单击 **“操作**”，然后选择 **“获取电话号码支持**”。 你将转到 **电话号码服务中心** (服务台门户) 。
+3. 在页面右上角，单击 **“操作**”，然后选择 **“获取电话号码支持**”。 你将转到 [电话号码服务中心](https://pstnsd.powerappsportals.com/)
 
 > [!NOTE]
 > 仅允许同一租户中的某个人创建案例。 例如，@fabrikam.com 中的某人无法代表 @contoso.com 创建案例。
