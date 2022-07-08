@@ -429,7 +429,7 @@ items:
         href: teams-scoped-directory-search.md
       - name: 常见问题解答：支持远程工作人员
         href: FAQ-support-remote-workforce.md
-      - name: 报告
+      - name: 报表
         items:
           - name: 概述
             href: teams-analytics-and-reports/teams-reporting-reference.md
@@ -1561,9 +1561,9 @@ items:
             href: non-standard-users.md
           - name: 应用更新和管理员角色
             href: apps-update-experience.md
-          - name: 跨 Microsoft 365 管理对 Teams 应用的访问
+          - name: 跨 Microsoft 365 管理对应用的访问
             href: manage-third-party-teams-apps.md
-          - name: 审核应用管理活动和事件
+          - name: 审核应用管理活动
             href: audit-app-management-activities.md
       - name: 应用使用情况报告和分析
         href: teams-analytics-and-reports/app-usage-report.md

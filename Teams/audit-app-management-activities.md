@@ -15,14 +15,14 @@ description: 了解如何审核组织中用户和管理员的 Teams 应用活动
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: d75773db33f1648e3fff0c7bf06944da133f0604
-ms.sourcegitcommit: 4be2a5db44972b35bdde5752eea0d74cf831607a
+ms.openlocfilehash: 77c7ac5d80304e82f1309e3a22b21c17d106a58c
+ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 07/06/2022
-ms.locfileid: "66642882"
+ms.locfileid: "66647837"
 ---
-# <a name="search-the-audit-logs-for-app-events"></a>搜索应用事件的审核日志
+# <a name="audit-for-app-management-activities-and-events"></a>审核应用管理活动和事件
 
 Microsoft 365 中的 Microsoft Purview 审核（标准版），可以搜索最终用户和管理员在各种 Microsoft 365 服务中执行的活动审核记录。
 
@@ -32,7 +32,7 @@ Microsoft 365 中的 Microsoft Purview 审核（标准版），可以搜索最�
 * [在 Microsoft Purview 合规门户中启用审核](/microsoft-365/compliance/turn-audit-log-search-on-or-off)。
 * [分配用于搜索审核日志的权限](/microsoft-365/compliance/set-up-basic-audit)。
 
-## <a name="audit-logs-for-app-events-in-teams"></a>Teams 中应用事件的审核日志
+## <a name="search-the-audit-logs-for-app-events-in-teams"></a>搜索 Teams 中的应用事件的审核日志
 
 Teams 中应用事件的审核日志可帮助你调查特定操作。 虽然你可以在日志中搜索各种操作，但下表列出了记录的一些 Teams 应用操作。 此外，还可以搜索与连接器、机器人、选项卡等相关的活动。
 

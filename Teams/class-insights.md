@@ -14,14 +14,15 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+- m365initiative-edu
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7ff797e0793373d0cb7b476b31411ccdf377639c
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 2694981d18bfbee7f75ea8157fb656d77675a71d
+ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674374"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "66647684"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Microsoft Teams 教育版见解 IT 管理员指南
 
@@ -252,15 +253,17 @@ Microsoft 已从零开始构建见解以确保数据得到保护。 我们意识
 > [!NOTE]
 > 如果已关闭 Insights，则删除已收集的数据。 选择退出时删除的数据无法在以后还原，即使重新启用了 Insights 也是如此。
 
-### <a name="turn-machine-learning-in-insights-on-or-off"></a>打开或关闭 Insights 中的机器学习
+### <a name="turn-on-and-off-advanced-inferences-in-insights"></a>在见解中打开和关闭高级推理
 
-默认情况下，关闭 Insights 中基于计算机的体验。 若要允许这些见解，需要 **允许基于机器学习的 Insights**。 打开此开关不会收集除教育版 Insights 已收集的数据以外的任何其他数据。
+启用教育见解的“**允许高级推理**”开关后，Education Insights 可能会向学生、教师和教育领导者提供有关学习的高级推理（如参与警告）。 这些推理允许教师为学生提供更量身定制的支持。 该开关还控制如何使用租户数据进行建模。
+
+打开此开关不会收集除教育版 Insights 已收集的数据以外的任何其他数据。
 
 - 若要验证此项，请打开 [SDS 管理中心](https://sds.microsoft.com/)，转到“**设置**” > “**管理教育版 Insights**”。
-- **调整基于允许机器学习的 Insights** 切换到关闭或打开。
+- 将“**允许高级推理**”开关调整为关闭或打开。
 
 > [!NOTE]
-> 此切换取决于 **用于 Insights 切换的收集活动数据**。 关闭 **Insights 的收集活动数据** 也会关闭 **基于允许机器学习的 Insights** 切换。
+> 此切换取决于 **用于 Insights 切换的收集活动数据**。 关闭 **“收集见解”活动数据** 也将关闭“**允许高级推理**”切换。
 
 ### <a name="turn-sds-for-insights-on-or-off"></a>打开或关闭用于 Insights 的 SDS
 
