@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: 了解 Microsoft 直接路由如何使你能够将受支持的客户提供的会话边界控制器 (SBC) 连接到电话系统。
-ms.openlocfilehash: a5ccb8534ed8772124ae6e2506af81e5b63134d0
-ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
+ms.openlocfilehash: fd5f2733fc11511e6cfc2e646c0bb78aff26b522
+ms.sourcegitcommit: 15ec17eff4ad4c962d00b8683513f9b269d82917
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "66682511"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "66695055"
 ---
 # <a name="plan-direct-routing"></a>规划直接路由
 
@@ -160,6 +160,9 @@ contoso.com|是|**有效名称：**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.com
 
 SBC 只需要一个 FQDN，并且可以从配对租户中的任何地址空间为用户提供服务。 例如，具有名称 sbc1.contoso.com 的 SBC 可以接收和发送具有地址 user@contoso.com 和 user@fabrikam.com 的用户的 PSTN 流量，前提是这些 SIP 地址空间已在同一租户中注册。  
 
+ > [!NOTE]
+ > Azure 通信服务直接路由中的 SBC FQDN 必须不同于 Teams 直接路由中的 SBC FQDN。
+  
 ## <a name="public-trusted-certificate-for-the-sbc"></a>SBC 的公共受信任证书
 
 Microsoft 建议通过生成证书签名请求 (CSR) 来请求 SBC 的证书。 有关为 SBC 生成 CSR 的具体说明，请参阅 SBC 供应商提供的互连说明或文档。 

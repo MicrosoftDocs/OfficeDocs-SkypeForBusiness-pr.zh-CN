@@ -19,12 +19,12 @@ description: 了解如何管理 Teams 应用。 了解如何允许或阻止应�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 92f7c6d69fbc9f680c204f0210aaa80742dd6384
-ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
+ms.openlocfilehash: f9bf05364ae990930da89a64643fa86b2b0467c4
+ms.sourcegitcommit: 15ec17eff4ad4c962d00b8683513f9b269d82917
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "66647744"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "66695065"
 ---
 # <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 管理中心管理 Teams 应用
 
@@ -119,7 +119,7 @@ Teams 管理中心提供了用于完成大多数应用管理用例的选项。 �
 
  1. 登录 Teams 管理中心并选择 [“管理应用”](https://admin.teams.microsoft.com/policies/manage-apps)
 
-    :::image type="content" source="media/requested-apps1.png" alt-text="用户的请求" lightbox="media/requested-apps.png" border="true":::
+    :::image type="content" source="media/requested-apps1.png" alt-text="最终用户对被阻止应用的请求将显示在 Teams 管理中心标题为“用户请求”的列中。" lightbox="media/requested-apps.png":::
 
  1. 若要查看和检查每个应用的请求数，请 **按用户列对“请求** ”列中的请求进行排序。
  1. 选择要取消阻止的应用的名称，并打开应用详细信息页。
