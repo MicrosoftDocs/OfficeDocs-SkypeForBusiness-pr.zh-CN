@@ -1489,7 +1489,7 @@ items:
             href: devices/plan-device-deployment.md
           - name: Skype for Business Server 的资源帐户
             href: rooms/with-skype-for-business-server-2015.md
-  - name: 管理应用
+  - name: 在 Teams 中管理应用
     items:
       - name: 了解 Teams 中的应用
         href: deploy-apps-microsoft-teams-landing-page.md
@@ -1517,10 +1517,10 @@ items:
             href: overview-of-app-validation.md
           - name: 第三方应用的安全性、合规性和隐私
             href: overview-of-app-certification.md
-          - name: 管理 Microsoft 365 和自定义连接器
-            href: Office-365-custom-connectors.md
           - name: 购买适用于 Teams 的第三方应用
             href: purchase-third-party-apps.md
+          - name: 管理 Microsoft 365 和自定义连接器
+            href: Office-365-custom-connectors.md
       - name: 适用于 Teams 的应用模板
         href: /microsoftteams/platform/samples/app-templates?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json
       - name: 管理自定义业务线应用
@@ -1531,9 +1531,9 @@ items:
             href: submit-approve-custom-apps.md
           - name: 通过上载应用包来发布自定义应用
             href: upload-custom-apps.md
-          - name: 在 Teams 中自定义应用
+          - name: 自定义应用的外观和元数据
             href: customize-apps.md
-          - name: 打造组织应用商店品牌
+          - name: 为组织应用商店打造品牌
             href: customize-your-app-store.md
       - name: 管理员控制以管理应用
         items:
@@ -1541,13 +1541,13 @@ items:
             href: manage-apps.md
           - name: 应用策略
             items:
-              - name: 在 Teams 中管理应用策略
+              - name: 了解应用策略
                 href: app-policies.md
-              - name: 在 Teams 中管理应用权限策略
+              - name: 管理应用权限策略
                 href: teams-app-permission-policies.md
-              - name: 在 Teams 中管理应用设置策略
+              - name: 管理应用设置策略
                 href: teams-app-setup-policies.md
-              - name: 在 Teams 中管理自定义应用策略和设置
+              - name: 管理自定义应用策略和设置
                 href: teams-custom-app-policies-and-settings.md
           - name: 为一线员工定制 Teams 应用
             href: pin-teams-apps-based-on-license.md
@@ -1557,16 +1557,16 @@ items:
             href: resource-specific-consent.md
           - name: 了解应用权限和对资源的访问
             href: app-permissions.md
-          - name: 基于用户类型的应用行为
-            href: non-standard-users.md
-          - name: 应用更新和管理员角色
-            href: apps-update-experience.md
           - name: 跨 Microsoft 365 管理对应用的访问
             href: manage-third-party-teams-apps.md
           - name: 审核应用管理活动
             href: audit-app-management-activities.md
-      - name: 应用使用情况报告和分析
-        href: teams-analytics-and-reports/app-usage-report.md
+          - name: 应用使用情况报告和分析
+            href: teams-analytics-and-reports/app-usage-report.md
+          - name: 基于用户类型的应用行为
+            href: non-standard-users.md
+          - name: 应用更新和管理员角色
+            href: apps-update-experience.md
   - name: 行业和政府指南
     items:
       - name: 概述
