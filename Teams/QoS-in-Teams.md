@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6015c7b7cf1e7be5bc6b9b3e1fe0577a7f707377
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
+ms.openlocfilehash: 5b9c049942808da9b2df97d031ff850949bca211
+ms.sourcegitcommit: 8d7a926758971bee491d24f23b1ad14f5e5c6f7f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66564140"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "66713310"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>在 Microsoft Teams 中实现服务质量 (QoS) 
 
@@ -151,7 +151,7 @@ _建议的初始端口范围_
 
 - 所有客户端（包括移动客户端和 Teams 设备）都将使用这些端口范围，并且会受到你实施的任何使用这些源端口范围的 DSCP 策略的影响。 唯一将继续使用动态端口的客户端是基于浏览器的客户端 (客户端，这些客户端允许参与者使用浏览器) 加入会议。
 
-- 尽管 Mac 客户端使用相同的端口范围，但它也对音频 (EF) 和视频使用硬编码值 (AF41) 。 这些值不可配置。
+- 尽管 Mac 客户端使用相同的端口范围，但它也对音频 (EF) 和视频以及应用程序/屏幕共享 (AF41) 使用硬编码值。 这些值不可配置。
 
 - 如果以后需要调整端口范围以提高用户体验，则端口范围不能重叠，并且应该彼此相邻。
 

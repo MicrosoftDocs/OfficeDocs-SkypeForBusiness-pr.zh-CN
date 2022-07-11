@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 了解如何在 Teams 中为参与者和来宾管理会议策略设置。
-ms.openlocfilehash: 5770c4d998a28edf2b8fc8131650b98420e826f9
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 7f9cb76e12671425ee2b7b0543263195796e04d5
+ms.sourcegitcommit: 8d7a926758971bee491d24f23b1ad14f5e5c6f7f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66241131"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "66713350"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>会议策略设置 - 参与者和来宾
 
@@ -112,9 +112,11 @@ ms.locfileid: "66241131"
 
 ## <a name="qa-in-meetings"></a>会议中的 Q&A
 
-这是按组织者的策略。 此设置控制组织者是否可以向其会议添加 Q&A 体验。 默认情况下，此设置已关闭。 在此处详细了解 Q [&A。](/manage-qna-for-meetings) 
+这是按组织者的策略。 此设置使 Microsoft 365 租户管理员能够 (Q&A) 启用或禁用问题&解答体验。
 
-若要参数 QnAEngagementMode 在 PowerShell 和 Q&A 中控制此策略，也可以在管理门户中进行调整。
+当组织者创建或更新会议时，将强制执行此设置。 默认情况下，此设置已关闭。 在此处详细了解 Q [&A。](/manage-qna-for-meetings)
+
+参数 QnAEngagementMode 在 PowerShell 中控制此策略。 Q&A 也可以在管理门户中进行调整。
 
 |设置值 |行为  |
 |---------|---------|

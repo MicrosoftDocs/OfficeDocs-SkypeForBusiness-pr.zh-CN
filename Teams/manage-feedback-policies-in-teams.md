@@ -17,16 +17,14 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何使用反馈策略来控制组织中的 Teams 用户是否可以向 Microsoft 提交有关 Teams 的反馈。
-ms.openlocfilehash: 206533faba3ae7c79c5e6bed54eb738061ed37bb
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.openlocfilehash: 7fcfa1738f7dbbc0f7c70afec86e9e2f181d6d21
+ms.sourcegitcommit: 8d7a926758971bee491d24f23b1ad14f5e5c6f7f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562441"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "66713340"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理反馈策略
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 组织中的用户可以发送有关 Microsoft Teams 的反馈，让我们知道我们是如何直接从 Teams 桌面、Web 客户端和移动设备中执行的。 我们正在不断改进 Teams 体验，并使用此反馈使 Teams 变得更好。
 

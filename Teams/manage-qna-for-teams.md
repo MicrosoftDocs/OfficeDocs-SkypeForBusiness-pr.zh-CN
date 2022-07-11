@@ -15,16 +15,16 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 description: 了解 IT 管理员如何在 Teams Q&A 中设置、使用和管理 Q&A，以采用结构化方法收集问题、组织讨论、删除单个消息、使用可用语言以及了解数据生命周期以及数据保留和删除策略。
-ms.openlocfilehash: 17de45280809ae6c5fffdce64067fe97020965ec
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 387f66967a4448ff15374d6765e10ae25a72d7c0
+ms.sourcegitcommit: 8d7a926758971bee491d24f23b1ad14f5e5c6f7f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66494830"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "66713440"
 ---
 # <a name="manage-qa-in-teams-meetings"></a>在 Teams 会议中管理 Q&A
 
-Q&A 是一种集成会议体验，让参与者有机会正式提问和回答问题，并参与结构化讨论。 此体验是与超过 10 名参与者的会议的最佳做法。
+Q&A 允许演示者从与会者中获取问题并实时回答这些问题。 此功能最适合大型结构化会议，例如市政厅、网络研讨会、全手会议和培训。
 
 本文介绍如何管理 Q&A 和用户级策略，这些策略决定了组织者是否可以在会议中启用 Teams Q&A。
 
@@ -46,9 +46,6 @@ Q&A 可由以下用户类型使用：
 - 常规用户 - 租户中具有 Microsoft 365 凭据的用户。
 - 联合用户 - 具有 Microsoft 365 凭据的用户到其他租户。
 - 来宾用户 - 添加到 Microsoft Teams、SharePoint 或 Azure Active Directory 的任何来宾。
-
-> [!NOTE]
-> Q&A 目前不支持匿名用户。
 
 当管理员启用 Q&A 时，具有组织者角色的用户可以在创建或更新会议时打开 Q&A。 通过 Teams 和 Outlook 会议选项，组织者还可以从之前添加的会议中删除 Q&A，以阻止与会者使用该功能。
 
@@ -113,6 +110,7 @@ Q&A 将默认为 Teams 的用户语言。 当 Teams 与 Yammer 可用的语言�
 - 如果在租户的 Teams 应用程序中使用 Teams Q&A，则无论 Yammer 网络的配置或存在，此内容都将在电子数据展示中提供。 若要将电子数据展示用于标准 Yammer 内容，Yammer 网络需要处于 [本机模式](/yammer/configure-your-yammer-network/overview-native-mode)。
 - 执行电子数据展示时，可以确定消息是在 Yammer 中生成的还是通过 Teams 中的 Q&A 生成的。 在“文件元数据”部分中，可以在“项目类”字段中找到该信息。
 - 如果你的组织使用由 Yammer 支持的 Teams Q&A，则 Q&A 生成的内容被视为 Yammer 内容，并且可以发现。 有关 Microsoft 365 应用中的电子数据展示的详细信息，请参阅 [Microsoft 365 中的电子数据展示解决方案。](/microsoft-365/compliance/ediscovery)
+- 如果会议组织者启用匿名发布，则会将与会者发布的问题引入组织者的电子数据展示邮箱中。
 
 ## <a name="data-storage"></a>数据存储
 
