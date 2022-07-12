@@ -3,6 +3,30 @@
 
 
 
+## <a name="week-of-july-04-2022"></a>2022 年 7 月 4 日当周
+
+
+| 发布日期 |主题标题 | 更改 |
+|------|------------|--------|
+| 7/5/2022 | [自动助理和呼叫队列的 PowerShell cmdlet 参考](/MicrosoftTeams/call-queue-auto-attendant-cmdlets) | 修改内容 |
+| 7/5/2022 | [为 Microsoft Teams 设置自动助理](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 修改内容 |
+| 7/5/2022 | [在 Microsoft Teams 中创建呼叫队列](/MicrosoftTeams/create-a-phone-system-call-queue) | 修改内容 |
+| 7/5/2022 | [Microsoft Teams 中的会议](/MicrosoftTeams/deploy-meetings-microsoft-teams-landing-page) | 修改内容 |
+| 7/5/2022 | [配置会话边框控制器 - 多个租户](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | 修改内容 |
+| 7/5/2022 | [规划 Teams 自动助理和呼叫队列](/MicrosoftTeams/plan-auto-attendant-call-queue) | 修改内容 |
+| 7/5/2022 | [会议、网络研讨会和直播活动](/MicrosoftTeams/quick-start-meetings-live-events) | 修改内容 |
+| 7/5/2022 | [Microsoft Teams 电话资源帐户许可证](/MicrosoftTeams/teams-add-on-licensing/virtual-user) | 修改内容 |
+| 7/5/2022 | [Teams 语音 Contoso 案例研究：自动助理和呼叫队列](/MicrosoftTeams/voice-case-study-call-queues) | 修改内容 |
+| 7/5/2022 | [搜索应用管理事件的审核日志](/MicrosoftTeams/audit-app-management-activities) | 添加内容 |
+| 7/6/2022 | [Microsoft Teams 教育版见解 IT 管理员指南](/MicrosoftTeams/class-insights) | 修改内容 |
+| 7/6/2022 | [使用 PowerShell 将 Shifts 连接到 Blue Yonder Workforce Management](/MicrosoftTeams/expand-teams-across-your-org/shifts/shifts-connector-blue-yonder-powershell-setup) | 修改内容 |
+| 7/6/2022 | [使用 Shifts 连接器向导将 Shifts 连接到 Blue Yonder Workforce Management](/MicrosoftTeams/expand-teams-across-your-org/shifts/shifts-connector-wizard) | 修改内容 |
+| 7/6/2022 | [如何在你的组织中使用来电显示](/MicrosoftTeams/how-can-caller-id-be-used-in-your-organization) | 修改内容 |
+| 7/7/2022 | 了解 Microsoft Teams 中的通话功能 | 删除内容 |
+| 7/7/2022 | [Microsoft 365 的通话套餐](/MicrosoftTeams/calling-plans-for-office-365) | 修改内容 |
+| 7/8/2022 | [使用 Microsoft Teams 和 Bookings 应用进行虚拟约会](/MicrosoftTeams/expand-teams-across-your-org/bookings-virtual-visits) | 修改内容 |
+
+
 ## <a name="week-of-june-27-2022"></a>2022 年 6 月 27 日当周
 
 
@@ -85,22 +109,3 @@
 | 6/10/2022 | [为 Microsoft Teams 中的一线工作人员大规模部署团队](/MicrosoftTeams/deploy-teams-at-scale) | 修改内容 |
 | 6/10/2022 | [从商务语音移动到 Teams 电话许可证](/MicrosoftTeams/business-voice-to-teams-phone-licenses) | 添加内容 |
 | 6/10/2022 | [启用Teams 会议室设备加入第三方会议](/MicrosoftTeams/rooms/third-party-join) | 修改内容 |
-
-
-## <a name="week-of-may-30-2022"></a>2022 年 5 月 30 日当周
-
-
-| 发布日期 |主题标题 | 更改 |
-|------|------------|--------|
-| 5/31/2022 | [管理组织的更新应用](/MicrosoftTeams/manage-updates-app) | 添加内容 |
-| 5/31/2022 | [在 Teams 中自定义应用商店](/MicrosoftTeams/customize-your-app-store) | 修改内容 |
-| 5/31/2022 | [在 Microsoft Teams 中管理应用权限策略](/MicrosoftTeams/teams-app-permission-policies) | 修改内容 |
-| 5/31/2022 | [Microsoft Teams 中的共享频道](/MicrosoftTeams/shared-channels) | 修改内容 |
-| 5/31/2022 | [在 Microsoft Teams 中管理应用设置策略](/MicrosoftTeams/teams-app-setup-policies) | 修改内容 |
-| 6/1/2022 | [经认证可用于直接路由的会话边界控制器](/MicrosoftTeams/direct-routing-border-controllers) | 修改内容 |
-| 6/1/2022 | [远程位置的紧急地址](/MicrosoftTeams/emergency-calling-dispatchable-location) | 修改内容 |
-| 6/1/2022 | [在 Microsoft Teams 中创建呼叫队列](/MicrosoftTeams/create-a-phone-system-call-queue) | 修改内容 |
-| 6/2/2022 | [Microsoft Teams 的硬件要求](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | 修改内容 |
-| 6/2/2022 | [Teams 策略中的特殊字符限制](/MicrosoftTeams/special-character-restrictions-in-policy-names) | 修改内容 |
-| 6/2/2022 | [管理员在Teams 教育版中设置家长](/MicrosoftTeams/edu-parents-app) | 修改内容 |
-| 6/3/2022 | [Microsoft Teams EHR 连接器虚拟约会报表](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin-reports) | 修改内容 |
