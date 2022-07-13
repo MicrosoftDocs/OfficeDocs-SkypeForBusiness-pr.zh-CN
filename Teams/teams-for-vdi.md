@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8dc80503c2b949fb77cc8d593ba5a8dd71e68654
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 90e577f9d6ef7567387fbc7a26a944d20e976f66
+ms.sourcegitcommit: 8fc2d6a824e1e119f54ea2347bc5c10cc076956d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66240441"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "66773701"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>适用于虚拟化桌面基础结构的 Teams
 
@@ -119,7 +119,7 @@ VMware Horizon 是一种新式平台，用于跨混合云安全交付虚拟桌�
 |---------|---------|---------|
 |vCPU   |    2 个核心     |  4、6 或 8 个内核<br>请务必了解 NUMA) 配置的基础非统一内存访问 (并相应地配置 VM。     |
 |RAM     |   4 GB      | 每个用户 512 MB 到 1 GB        |
-|存储空间    | 8 GB        | 40 GB 到 60 GB        |
+|存储    | 8 GB        | 40 GB 到 60 GB        |
 
 #### <a name="non-persistent-setup"></a>非永久性设置
 
@@ -176,8 +176,6 @@ Microsoft 365 企业应用版不支持每台计算机安装 Teams。 若要使�
 
     > [!NOTE]
     > 有关政府云，请参阅 [使用 Windows Installer (MSI) 批量安装 Teams ](msi-deployment.md) 以获取 MSI 文件的下载链接。
-
-    所需的 Teams 桌面应用的最低版本是版本 1.3.00.4461。 早期版本不支持 PSTN 保留。
 
 2. 运行以下命令之一，将 MSI 安装到 VDI VM：
 
