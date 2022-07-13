@@ -34,7 +34,7 @@ ms.locfileid: "66606241"
 
 不要错过我们的视频“欢迎使用 Teams（针对 Teams 管理员）”（3 分多钟）：
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE47cdp]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vxW4]
 
 若要获取最终用户 Teams 帮助，请单击应用左侧的“**帮助**”，或转到 [Microsoft Teams 帮助中心](https://support.office.com/teams)。若要获取培训，请转到 [Microsoft Teams 培训](training-microsoft-teams-landing-page.md)。 
 
