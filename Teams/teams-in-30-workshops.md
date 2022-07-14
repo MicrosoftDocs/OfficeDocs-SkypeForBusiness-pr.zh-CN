@@ -1,7 +1,7 @@
 ---
-title: Teams 30
-author: SerdarSoysal
-ms.author: serdars
+title: 30 中的 Teams
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 07/01/2019
 ms.service: msteams
@@ -13,25 +13,25 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 ms.reviewer: landerl, nsuter
 search.appverid: MET150
-description: 实时交互式研讨会，旨在让你在 30 天内Microsoft Teams运行。
+description: 实时交互式研讨会，旨在让你在 30 天内开始使用 Microsoft Teams 并运行。
 f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 ROBOTS: NOINDEX
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b030ed9efd92a33ef38029088edcd8e2cf6023b5
-ms.sourcegitcommit: c5f281342c5f2af65492692ab1249789c637e457
+ms.openlocfilehash: aaa02c0db57f253d080cc616ff91ae7fa2a287b5
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2022
-ms.locfileid: "63392894"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66794170"
 ---
-# <a name="teams-in-30"></a>Teams 30
+# <a name="teams-in-30"></a>30 中的 Teams
 <div id="main" class="v2">
     <div class="container">
-        <p>Microsoft 很高兴地邀请你<strong>参加 30</strong> Teams，这是一系列实时的交互式研讨会，旨在帮助中型组织在 30 天内 (500-5000 名员工) Microsoft Teams启动并运行。 加入我们，了解经过时间测试的指导和最佳做法，并解答Teams问题。 研讨会参与者还将与专家一起收到开放式办公时间Teams邀请。
-           <p>准备好跳入了吗？ 我们鼓励项目团队的所有成员在 <i>30</i> 个会话中入门团队Teams团队。 单击下面的会话标题进行注册。
+        <p>Microsoft 很高兴在 <strong>30</strong> 中邀请你加入 Teams，这是一系列实时的交互式研讨会，旨在帮助中型组织 (500-5000 名员工在 30 天内) 和运行 Microsoft Teams。 请加入我们，了解经过时间测试的指南和最佳做法，并回答 Teams 问题。 研讨会参与者还将与 Teams 专家一起收到开放式办公时间的独家邀请。
+           <p>准备好跳进去了吗？ 我们鼓励项目团队的所有成员 <i>在 30</i> 个会话中从 Teams 入门开始。 单击下面的会话标题进行注册。
  <ul id="home-all" class="panelContent cardsF cols cols2">        
     <li>
         <a href="https://aka.ms/GetstartedT30"target="_blank">
@@ -44,9 +44,9 @@ ms.locfileid: "63392894"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>30 Teams入门 (从此处开始！) </h3>
-                        <P>在Teams 30 次旅程中开始创建。 了解计划、应参与人员以及可用于确保成功的资源。</P>
-                        <p><i>受众：业务发起人、IT 管理员、采用和更改所有者</i></p>
+                        <h3>从 30 开始使用 Teams (从此处开始！) </h3>
+                        <P>在右脚的 30 个旅程中启动 Teams。 了解计划、应参与的人员，以及可以使用哪些资源来确保成功。</P>
+                        <p><i>受众：业务发起人、IT 管理员、采用者和变更所有者</i></p>
                     </div>
                 </div>
             </div>
@@ -65,7 +65,7 @@ ms.locfileid: "63392894"
                     </div>
                     <div class="cardText">
                         <h3>最终用户准备就绪：</h3>
-                    <p>发现策略和资源，以便让用户做好准备，构建一支冠军队，并确保用户被认可为用户推广Teams组件。</p><p><i>受众：采用和更改所有者</i></p>
+                    <p>发现策略和资源，以便为用户做好准备，构建一支冠军队伍，并确保用户作为 Teams 推出的核心组件接受。</p><p><i>受众：采用和更改所有者</i></p>
                     </div>
                 </div>
             </div>
@@ -84,7 +84,7 @@ ms.locfileid: "63392894"
                     </div>
                     <div class="cardText">
                     <h3>准备环境 - 第 I 部分</h3>
-                    <p>设置部署部署Teams基础。 确定Teams先决条件、网络和安全最佳做法、共存策略、分析和报告以及客户端分发建议。</p><p><i>受众：IT 管理员</i></p>
+                    <p>为 Teams 推出设置基础。 确定 Teams 先决条件、网络和安全最佳做法、共存策略、分析和报告以及客户端分发建议。</p><p><i>受众：IT 管理员</i></p>
 </div>
                 </div>
             </div>
@@ -101,8 +101,8 @@ ms.locfileid: "63392894"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>准备环境 - 第 II 部分</h3>
-                    <p>现在你已建立基础，请了解实现合规性、保留期、监管和音频会议以用于会议Teams。</p><p><i>受众：IT 管理员</i></p>
+                        <h3>准备环境 - 第二部分</h3>
+                    <p>现已建立基础，了解实现 Teams 合规性、保留、治理和音频会议的最佳做法。</p><p><i>受众：IT 管理员</i></p>
                     </div>
                 </div>
             </div>
@@ -121,8 +121,8 @@ ms.locfileid: "63392894"
                     </div>
                     <div class="cardText">
                     <h3>优化和扩展</h3>
-                    <p>设计一个计划，其中包括优化服务性能、扩展Teams功能，以及登记新用户。</p>
-                    <p><i>受众：业务发起人、IT 管理员、采用和更改所有者</i></p>
+                    <p>设计一个计划，其中包括优化服务性能、扩展 Teams 功能和加入新用户。</p>
+                    <p><i>受众：业务发起人、IT 管理员、采用者和变更所有者</i></p>
                     </div>
                 </div>
             </div>
@@ -140,9 +140,9 @@ ms.locfileid: "63392894"
                         </div>
                     </div>
                     <div class="cardText">
-                    <h3>Teams者讲座</h3>
-                    <p>这些在线互动研讨会由主题专家主持，提供了一个独一无二的机会，可以了解有关这些主题中一些最流行且最具吸引力的方案的最佳实践和实用Teams。 "会议"假设你已完成基本Teams推出。</p>
-                    <p><strong>先决条件</strong>：Teams参加 30 场研讨会，或已Teams整个组织。</p>
+                    <h3>Teams 粉笔会谈</h3>
+                    <p>在主题专家的协助下，这些在线互动研讨会提供了一个独特的机会，用于了解有关 Teams 中一些最受欢迎和最吸引人的方案的最佳做法和实践指导。 粉笔会谈假设你已完成基本的 Teams 推出。</p>
+                    <p><strong>先决条件</strong>：团队在 30 个研讨会中出勤或已为整个组织中的 Teams 启用。</p>
                     <p><i>受众：IT 管理员</i></p>
                     </div>
                 </div>

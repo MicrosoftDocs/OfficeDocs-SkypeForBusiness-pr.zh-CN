@@ -1,7 +1,7 @@
 ---
 title: 调用质量仪表板 (CQD) 中的流分类
-ms.author: serdars
-author: lolaj
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: gageames
 ms.topic: article
@@ -19,17 +19,17 @@ f1.keywords:
 - CSH
 ms.custom:
 - Optimization
-description: 了解如何在用于Microsoft Teams和联机Skype for Business的呼叫质量仪表板 (CQD) 中对流质量进行分类。
-ms.openlocfilehash: 5ee2575cf952eb9d7e78f14b2b8ba7693cd3f878
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+description: 了解如何在 Microsoft Teams 和 Skype for Business Online 的呼叫质量仪表板 (CQD) 中对流质量进行分类。
+ms.openlocfilehash: 9b17cf115759e96edbccdb85369ac42fd5861ff7
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059253"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66794290"
 ---
 # <a name="stream-classification-in-call-quality-dashboard-cqd"></a>调用质量仪表板中的流分类 (CQD) 
 
-使用用于Microsoft Teams和联机Skype for Business的呼叫质量仪表板 (CQD) ，可以深入了解使用Microsoft Teams和Skype for Business服务进行的呼叫的质量。 本主题提供有关媒体流质量分类的详细信息。 若要详细了解 CQD 以及如何设置它，请参阅 [“设置呼叫质量仪表板](turning-on-and-using-call-quality-dashboard.md)”。
+使用适用于 Microsoft Teams 和 Skype for Business Online 的呼叫质量仪表板 (CQD) ，可以深入了解使用 Microsoft Teams 和Skype for Business服务进行的呼叫的质量。 本主题提供有关媒体流质量分类的详细信息。 若要详细了解 CQD 以及如何设置它，请参阅 [“设置呼叫质量仪表板](turning-on-and-using-call-quality-dashboard.md)”。
 
 ## <a name="classifier-definitions"></a>分类器定义
 
@@ -48,7 +48,7 @@ CQD 中的流根据可用的关键质量指标的值分类为 _“好_”、“ 
 
 ### <a name="video-classifier-due-to-freeze"></a>由于冻结而导致的视频分类器
 
-根据生成的分类器分数的值将视频流标记为  _“好_ ”或 _“差_ ”，以估计最终用户经历了“冻结视频”。 此分类器仅适用于Microsoft Teams产品。
+根据生成的分类器分数的值将视频流标记为  _“好_ ”或 _“差_ ”，以估计最终用户经历了“冻结视频”。 此分类器仅适用于 Microsoft Teams 产品。
 
 |步骤编号|指标|使用场景|条件 |如果条件为真的分类 |如果条件为假的分类 |如果指标不可用的分类 |解释 |
 |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |
@@ -113,13 +113,13 @@ VBSS 流根据以下顺序中第一个可用指标的值标记为 _“好_ ”�
   > "Packet Utilization" 维度和 "Avg Packet Utilization" 度量可用于确定流的数据包活动。
 
 ## <a name="related-topics"></a>相关主题
-[改进和监视Teams的呼叫质量](monitor-call-quality-qos.md)
+[改进和监视 Teams 的呼叫质量](monitor-call-quality-qos.md)
 
 [什么是 CQD？](CQD-what-is-call-quality-dashboard.md)
 
 [设置呼叫质量仪表板 (CQD) ](turning-on-and-using-call-quality-dashboard.md)
 
-[Upload租户和生成数据](CQD-upload-tenant-building-data.md)
+[上传租户和生成数据](CQD-upload-tenant-building-data.md)
 
 [CQD 数据和报表](CQD-data-and-reports.md)
 
@@ -127,4 +127,4 @@ VBSS 流根据以下顺序中第一个可用指标的值标记为 _“好_ ”�
 
 [CQD 中可用的维度和度量值](dimensions-and-measures-available-in-call-quality-dashboard.md)
 
-[使用Power BI分析 CQD 数据](CQD-Power-BI-query-templates.md)
+[使用 Power BI 分析 CQD 数据](CQD-Power-BI-query-templates.md)

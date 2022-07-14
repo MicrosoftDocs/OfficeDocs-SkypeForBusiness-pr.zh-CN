@@ -1,8 +1,9 @@
 ---
 title: Microsoft Teams 管理培训
 ms.reviewer: ''
-description: 获取管理组织中用户所需的管理员Microsoft Teams支持。
-author: SerdarSoysal
+description: 获取管理组织中的 Microsoft Teams 所需的管理员培训和支持。
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: admin
 ms.date: 01/22/2018
@@ -19,17 +20,16 @@ f1.keywords:
 - NOCSH
 search.appverid: MET150
 ms.topic: landing-page
-ms.author: serdars
-ms.openlocfilehash: f784fa8c171a204c58f33a11eda2e48ce234cbf9
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 83185e267f1a3aa44158c5e6252e5b964868af5f
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62387490"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66794280"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams 管理培训
 
-了解如何管理Teams服务。
+了解如何为组织管理 Teams。
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -43,7 +43,7 @@ ms.locfileid: "62387490"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>新建：教师指导培训Teams</h3>
+                        <h3>新增功能：Teams 讲师主导的培训</h3>
                     </div>
                 </div>
             </div>

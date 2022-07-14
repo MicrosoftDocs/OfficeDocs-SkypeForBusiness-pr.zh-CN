@@ -21,45 +21,45 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a715e913966040c5406901403b90d5a6a421e2e4
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
+ms.openlocfilehash: 6bf8e6ab6f2a5ba7303887e9e7d7d72d22c50964
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66045871"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66794680"
 ---
 # <a name="plan-for-sip-gateway"></a>规划 SIP 网关
 
-SIP 网关允许组织将任何兼容的 SIP 设备与Microsoft Teams配合使用，以保留对 SIP 设备的投资。 现在，可以使用公司凭据登录Teams，并使用兼容的 SIP 设备进行和接听呼叫。 兼容设备可以Skype for Business具有标准 SIP 固件的 IP 电话、具有多平台 SIP 固件的 Cisco IP 电话，或来自 Poly、Yealink 和 AudioCode 等供应商的 SIP 设备。 若要了解如何为 SIP 网关配置 SIP 设备，请参阅 [配置 SIP 网关](sip-gateway-configure.md)。
+SIP 网关允许组织使用与 Microsoft Teams 兼容的任何兼容 SIP 设备来保留对 SIP 设备的投资。 现在，可以使用公司凭据登录 Teams，并使用兼容的 SIP 设备发出和接听呼叫。 兼容设备可以Skype for Business具有标准 SIP 固件的 IP 电话、具有多平台 SIP 固件的 Cisco IP 电话，或来自 Poly、Yealink 和 AudioCode 等供应商的 SIP 设备。 若要了解如何为 SIP 网关配置 SIP 设备，请参阅 [配置 SIP 网关](sip-gateway-configure.md)。
 
 ## <a name="benefits-of-sip-gateway"></a>SIP 网关的优势
 
-SIP 网关将兼容的 SIP 设备连接到Teams，以帮助用户无缝迁移到Teams电话。 使用 SIP 网关，用户可以执行以下所有操作：
+SIP 网关将兼容的 SIP 设备连接到 Teams，以帮助用户无缝迁移到 Teams 电话。 使用 SIP 网关，用户可以执行以下所有操作：
 
-- **进行呼叫：** SIP 设备用户可以调用公共交换电话网络 (PSTN) 、其他 SIP 设备，以及Teams和Skype for Business用户。 SIP 设备用户只能呼叫具有电话号码的用户。
-- **接收呼叫：** SIP 设备用户可以从 PSTN、具有 SIP 设备的Teams或Skype for Business用户以及Teams和Skype for Business客户端应用程序接听呼叫。 SIP 设备充当Teams终结点。 入站调用也将分叉到用户的 SIP 设备。
+- **进行呼叫：** SIP 设备用户可以调用公共交换电话网络 (PSTN) 、其他 SIP 设备以及 Teams 和Skype for Business用户。 SIP 设备用户只能呼叫具有电话号码的用户。
+- **接收呼叫：** SIP 设备用户可以从 PSTN、拥有 SIP 设备的 Teams 或Skype for Business用户以及 Teams 和Skype for Business客户端应用程序接听呼叫。 SIP 设备充当 Teams 终结点。 入站调用也将分叉到用户的 SIP 设备。
 - **多个同时调用：** 呼叫中的 SIP 设备用户可以暂停呼叫以发出或接收其他呼叫。 SIP 设备用户还可以召开两次电话会议。
-- **请勿打扰：** SIP 设备用户可以在设备上设置不打扰，这样设备就不会为传入呼叫响铃。 这不会影响用户对所有其他Teams终结点的状态。
+- **请勿打扰：** SIP 设备用户可以在设备上设置不打扰，这样设备就不会为传入呼叫响铃。 这对用户在所有其他 Teams 终结点上的状态没有影响。
 - **保留/恢复和静音/取消静音：** SIP 设备用户可以使用设备上这些操作的功能来保留、恢复或静音和取消调用。
 - **语音 信箱：** SIP 设备用户可以侦听呼叫者留给他们的电子存储语音消息。
 - **消息等待指示器：** SIP 设备用户可以在收到新的语音邮件时接收通知，并发出警报。
-- **登录和注销：** SIP 设备用户可以在设备上登录和注销Teams。
+- **登录和注销：** SIP 设备用户可以在设备上登录和注销 Teams。
 - **双色调多频：** SIP 设备用户可以按数字键在交互式语音响应呼叫期间提供输入。
-- **Teams会议：** SIP 设备用户可以通过拨打会议访问号码加入Teams会议。 会议参与者可以通过拨出用户的电话号码将 SIP 设备用户添加到会议，或者只需单击“加入请求”添加参与者，也会提醒用户的 SIP 设备。 另一个组织的来宾用户可由参与者添加到Teams会议，该参与者会拨通来宾用户的号码以包括该来宾。
+- **Teams 会议：** SIP 设备用户可以通过拨打会议访问号码加入 Teams 会议。 会议参与者可以通过拨出用户的电话号码将 SIP 设备用户添加到会议，或者只需单击“加入请求”添加参与者，也会提醒用户的 SIP 设备。 另一个组织的来宾用户可以被一个参与者添加到 Teams 会议中，该参与者会拨出来宾用户的号码以包括该来宾。
 - **呼叫传输：** SIP 设备用户可以传输呼叫。 SIP 网关支持盲目传输和协商传输。
 - **本地呼叫转接：** SIP 设备用户可以始终 (超时和设备忙) 设置转发规则。 如果设备已连接到 SIP 网关，则会根据设备用户设置的规则将调用重定向到目标地址。 若要使本地呼叫转接正常工作，管理员必须将属性`Set-CsTeamsCallingPolicy`设置`AllowCallRedirect`为 `Enabled`。
 
 ## <a name="requirements-to-use-sip-gateway"></a>使用 SIP 网关的要求
 
-Teams用户必须具有启用了 PSTN 呼叫的电话号码才能使用 SIP 网关。
+Teams 用户必须具有已启用 PSTN 呼叫的电话号码才能使用 SIP 网关。
 
 ### <a name="hardware-software-and-licenses"></a>硬件、软件和许可证
 
 如果有 3PIP 或 SIP 设备，则必须具有：
 
-- 通过 E5 或独立许可证) 电话系统 (的许可证
-- PSTN 启用 (，即通过Microsoft Teams呼叫计划、直接路由或运营商连接) 电话号码
-- 任何公共区域设备的通用区域电话许可证
+- 通过 E5 或独立许可证 (电话系统) 
+- PSTN 启用 (，即通过 Microsoft Teams 呼叫计划、直接路由或操作员连接) 电话号码
+- 适用于任何公共区域设备的通用区域电话许可证
 
 ## <a name="compatible-devices"></a>兼容的设备
 
@@ -137,6 +137,27 @@ Teams用户必须具有启用了 PSTN 呼叫的电话号码才能使用 SIP 网�
 |          |C450HD      |3.2.1      |3.4.6.687  |   |   |
 |          |445HD       |3.2.1      |3.4.6.687  |   |   |
 |          |RX50        |3.2.1      |3.4.6.687  |   |   |
+|**Spectralink**|       |           |           |   |[Spectralink 支持](https://support.spectralink.com)|
+|          |7202        |PCS22B     |PCS22B     |手机 |   |
+|          |7212        |PCS22B     |PCS22B     |手机 |   |
+|          |7502        |PCS22B     |PCS22B     |手机 |   |
+|          |7522        |PCS22B     |PCS22B     |手机 |   |
+|          |7532        |PCS22B     |PCS22B     |手机 |   |
+|          |7622        |PCS22B     |PCS22B     |手机 |   |
+|          |7642        |PCS22B     |PCS22B     |手机 |   |
+|          |7722        |PCS22B     |PCS22B     |手机 |   |
+|          |7742        |PCS22B     |PCS22B     |手机 |   |
+|          |IP-DECT Server 200 |PCS22Ab |PCS22Ab |IP-DECT 服务器 |   |
+|          |IP-DECT Server 400 |PCS22Ab |PCS22Ab |IP-DECT 服务器 |   |
+|          |IP-DECT Server 6500 |PCS22Ab |PCS22Ab |IP-DECT 服务器 |   |
+|          |虚拟 IP-DECT 服务器一 |PCS22Ab |PCS22Ab |IP-DECT 服务器 |   |
+|          |IP-DECT 基站 |PCS22Ab |PCS22Ab |IP-DECT 服务器 |   |
+
+> [!NOTE]
+> Spectralink 手机从 Spectralink IP-DECT 服务器通过空中接收固件更新。
+
+> [!NOTE]
+> 对于支持查询，将 IP-DECT 系统与 Teams SIP 网关配合使用的客户应与其 DECT 制造商或其实现渠道合作伙伴联系。
 
 > [!NOTE]
 > 对于某些设备，最低固件版本大于批准的固件版本。 这是因为 3.X 版本是Skype for Business版本。 我们更新 SIP 版本，该版本为 2.X。

@@ -1,7 +1,7 @@
 ---
 title: 使用通话分析来排查通话质量不良问题
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, vkorlep
 ms.topic: article
@@ -21,33 +21,33 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.callanalytics
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
-description: 使用有关设备、网络和连接的按用户呼叫分析详细信息来排查Microsoft Teams呼叫和会议的用户问题。
-ms.openlocfilehash: 47b60eb979c36508ed1911a70f531695c03533e5
-ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+description: 使用有关设备、网络和连接的按用户呼叫分析详细信息来排查 Microsoft Teams 呼叫和会议的用户问题。
+ms.openlocfilehash: 38636d911be55648ec17628bcec7d4cee21358c5
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65125647"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66794310"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>使用通话分析来排查通话质量不良问题
 
-本文介绍如果担任Teams管理员、Teams通信支持专家或Teams通信支持工程师角色，如何使用呼叫分析来排查个别用户Microsoft Teams通话或会议质量不佳的问题。
+本文介绍如果担任 Teams 管理员、Teams 通信支持专家或 Teams 通信支持工程师角色，如何使用呼叫分析来排查个别用户的 Microsoft Teams 通话或会议质量不佳的问题。
 
 ## <a name="call-analytics-permissions"></a>调用分析权限
 
-本文假定你已设置呼叫分析。 如果没有，请阅读[“为Teams设置呼叫分析](set-up-call-analytics.md)”。
+本文假定你已设置呼叫分析。 如果没有，请阅读 [“为 Teams 设置呼叫分析](set-up-call-analytics.md)”。
 
 ## <a name="introduction-to-call-analytics"></a>通话分析简介
 
-呼叫分析显示有关Office 365帐户中每个用户的Teams呼叫和会议的详细信息。 它包括有关设备、网络、连接和呼叫质量的信息 (其中任何一项都可能是通话或会议质量不佳) 的一个因素。 如果上传建筑物、站点和租户信息，此信息也将显示在每个呼叫和会议中。 使用呼叫分析来帮助你找出用户通话或会议体验不佳的原因。
+呼叫分析显示有关Office 365帐户中每个用户的 Teams 呼叫和会议的详细信息。 它包括有关设备、网络、连接和呼叫质量的信息 (其中任何一项都可能是通话或会议质量不佳) 的一个因素。 如果上传建筑物、站点和租户信息，此信息也将显示在每个呼叫和会议中。 使用呼叫分析来帮助你找出用户通话或会议体验不佳的原因。
 
-呼叫分析显示呼叫或会议的每一站-例如，从一个参与者到另一个参与者。 通过分析这些详细信息，Teams管理员可以隔离问题区域并找出质量不佳的根本原因。
+呼叫分析显示呼叫或会议的每一站-例如，从一个参与者到另一个参与者。 通过分析这些详细信息，Teams 管理员可以隔离问题区域并确定质量不佳的根本原因。
 
-作为Teams管理员，可以完全访问每个用户的所有呼叫分析数据。 此外，可以分配Azure Active Directory角色来支持员工。 若要了解有关这些角色的详细信息，请阅读 [“授予支持人员和支持人员”的权限](set-up-call-analytics.md#give-permission-to-support-and-helpdesk-staff)。 请勿错过[每个Teams支持角色的作用？](#what-does-each-teams-support-role-do)
+作为 Teams 管理员，可以完全访问每个用户的所有通话分析数据。 此外，还可以分配 Azure Active Directory 角色来支持员工。 若要了解有关这些角色的详细信息，请阅读 [“授予支持人员和支持人员”的权限](set-up-call-analytics.md#give-permission-to-support-and-helpdesk-staff)。 请勿错过[每个 Teams 支持角色的作用？](#what-does-each-teams-support-role-do)
 
 ## <a name="where-to-find-per-user-call-analytics"></a>查找每个用户呼叫分析的位置
 
-若要查看用户的所有呼叫信息和数据，请转到[Teams管理中心](https://admin.teams.microsoft.com)。 在 **“用户**”下，选择一个用户，然后在用户的个人资料页上打开“ **会议&呼叫** ”选项卡。 在这里，你将找到该用户过去 30 天的所有呼叫和会议。
+若要查看用户的所有呼叫信息和数据，请转到 [Teams 管理中心](https://admin.teams.microsoft.com)。 在 **“用户**”下，选择一个用户，然后在用户的个人资料页上打开“ **会议&呼叫** ”选项卡。 在这里，你将找到该用户过去 30 天的所有呼叫和会议。
 
 ![所有分析用户数据的屏幕截图。](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image1.png)
 
@@ -55,11 +55,11 @@ ms.locfileid: "65125647"
 
 ![呼叫分析用户会话数据的屏幕截图。](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image2.png)
 
-## <a name="what-does-each-teams-support-role-do"></a>每个Teams支持角色的作用是什么？
+## <a name="what-does-each-teams-support-role-do"></a>每个 Teams 支持角色的作用是什么？
 
-**Teams通信支持专家** (第 1 层支持) 处理基本的呼叫质量问题。 他们不调查会议的问题。 相反，他们收集相关信息，然后升级到Teams通信支持工程师。
+**Teams 通信支持专家** (第 1 层支持) 处理基本的呼叫质量问题。 他们不调查会议的问题。 相反，他们收集相关信息，然后升级到 Teams 通信支持工程师。
 
-**Teams通信支持工程师** (第 2 层支持) 查看通信支持专家 Teams隐藏的详细呼叫日志中的信息。 下表列出了可用于每个Teams通信支持角色的信息。
+**Teams 通信支持工程师** (第 2 层支持) 查看 Teams 通信支持专家隐藏的详细呼叫日志中的信息。 下表列出了每个 Teams 通信支持角色可用的信息。
 
 下表介绍了每个通信支持角色的每个用户信息。
 
@@ -81,7 +81,7 @@ ms.locfileid: "65125647"
 
 ## <a name="troubleshoot-user-call-quality-problems"></a>排查用户呼叫质量问题
 
-1. 打开Teams管理中心 () <https://admin.teams.microsoft.com> 并使用Teams通信支持或Teams管理员凭据登录。
+1. 打开 Teams 管理中心 (<https://admin.teams.microsoft.com>) 并使用 Teams 通信支持或 Teams 管理员凭据登录。
 
 2. 在 **仪表板** 上的 **“用户搜索**”中，开始键入要排查其呼叫的用户的名称或 SIP 地址，或选择 **“查看用户** ”以查看用户列表。
 

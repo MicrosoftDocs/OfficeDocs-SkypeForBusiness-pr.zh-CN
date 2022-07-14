@@ -1,13 +1,13 @@
 ---
-title: 使用 CQD 在Microsoft Teams中管理呼叫和会议质量
-author: SerdarSoysal
-ms.author: serdars
+title: 使用 CQD 管理 Microsoft Teams 中的通话和会议质量
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: vkorlep, siunies, gageames
 audience: admin
-description: 了解如何使用调用质量仪表板 (CQD) 来分析和管理Microsoft Teams中的实时媒体性能。
+description: 了解如何使用呼叫质量仪表板 (CQD) 分析和管理 Microsoft Teams 中的实时媒体性能。
 ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
@@ -18,16 +18,16 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 45a52e438fb74286a571cd81461e3de174f9a38f
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 182cd98825948a4d7732513c9f2eb3a884539354
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675054"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66794580"
 ---
-#  <a name="use-cqd-to-manage-call-and-meeting-quality-in-microsoft-teams"></a>使用 CQD 在Microsoft Teams中管理呼叫和会议质量 
+#  <a name="use-cqd-to-manage-call-and-meeting-quality-in-microsoft-teams"></a>使用 CQD 管理 Microsoft Teams 中的通话和会议质量 
 
-本文将帮助你（Teams管理员、支持人员和帮助人员工程师）使用Microsoft Teams呼叫质量仪表板 (CQD) ，为组织制定监视和维护呼叫和会议质量的过程。 我们的指南强调音频质量方案，因为你为改善音频体验而所做的任何网络改进都将转化为视频和共享方面的改进。
+本文将帮助你（Teams 管理员、支持人员和帮助人员工程师）使用 Microsoft Teams 呼叫质量仪表板 (CQD) ，为组织制定监视和维护呼叫和会议质量的过程。 我们的指南强调音频质量方案，因为你为改善音频体验而所做的任何网络改进都将转化为视频和共享方面的改进。
 
 本指南的关键是两个 [精心策划的 CQD 模板](https://aka.ms/QERtemplates) - 建议在完成本文中的指南之前下载它们。
 
@@ -36,7 +36,7 @@ ms.locfileid: "65675054"
 
 ## <a name="categories-to-monitor-and-maintain"></a>要监视和维护的类别
 
-在Teams中推出会议和语音后，你将需要一个持续监视和维护的计划。 这样做将确保Teams始终以最佳方式运行。 此计划应包括下面列出的关键区域。 还应为质量指标制定目标，并制定一个计划，以便在问题发生时进行故障排除和隔离。
+在 Teams 中推出会议和语音后，需要计划持续监视和维护。 这样做将确保 Teams 始终以最佳方式运行。 此计划应包括下面列出的关键区域。 还应为质量指标制定目标，并制定一个计划，以便在问题发生时进行故障排除和隔离。
 
 <table>
 <thead>
@@ -136,7 +136,7 @@ CQD 中的实际度量因工作负荷而异，但出于本文的目的，我们�
 
 | 指标平均值     | 说明     | 用户体验 |
 |-------------|-----------------|-----------------|
-| 抖动 \>30 毫秒        | 这是连续数据包之间的延迟平均变化。 Teams和Skype for Business可以通过缓冲适应某些级别的抖动。 只有当抖动超出缓冲区时，参与者才会注意到抖动的影响。      | 以不同速度到达的数据包会导致说话人的声音发出机器人的声音。   |
+| 抖动 \>30 毫秒        | 这是连续数据包之间的延迟平均变化。 团队和Skype for Business可以通过缓冲适应某些级别的抖动。 只有当抖动超出缓冲区时，参与者才会注意到抖动的影响。      | 以不同速度到达的数据包会导致说话人的声音发出机器人的声音。   |
 | 数据包丢失率 \>10% 或 0.1        | 这通常定义为丢失的数据包的百分比。 数据包丢失直接影响音频质量-从小，个别丢失的数据包，几乎没有影响背靠背突发损失，导致音频完全切断。     | 数据包被丢弃且未到达预期目标会导致媒体出现缺口，导致缺少音节和单词，以及断断续续的视频和共享。 |
 | 往返时间 \>500 毫秒        | 这是从点 A 到点 B 以及从点到点 A 获取 IP 数据包所需的时间。此网络传播延迟与两个点和光速之间的物理距离相关联，包括网络路径中各种设备占用的额外开销。      | 数据包到达目标的时间过长会导致对讲机效果。   |
 
@@ -151,7 +151,7 @@ CQD 中的实际度量因工作负荷而异，但出于本文的目的，我们�
 
  - 例如，如果设备预算有限，并且希望仅为大量音频用户提供设备，请使用音频使用情况报告 (VoIP) 和筛选出站流和会议。 查找在内置麦克风中讲话的高容量音频用户 - 这些音频用户可能与较差的通话质量 (相关，你可能希望为这些用户提供音频设备) 。 为了提高清晰度，可以筛选数据包利用率，这使你能够面向特别大容量的音频用户。 
 
-  - 另一个示例涉及屏幕共享。 如果客户使用旧Teams客户端，屏幕共享性能可能会受到影响。 可以通过为执行大量屏幕共享的人员确定客户端升级的优先级来解决此问题。
+  - 另一个示例涉及屏幕共享。 如果客户使用旧的 Teams 客户端，屏幕共享性能可能会受到影响。 可以通过为执行大量屏幕共享的人员确定客户端升级的优先级来解决此问题。
 
  - 通过确定流的哪个方向导致调用质量不佳，可以确定是否存在与 QoS 或带宽相关的问题。 如果尚未完全实现 QoS，或者仅在客户端标记数据包，而不是在入站流中标记数据包，则可能会看到调用质量较差。 通过查看流方向，可以更精细地查看特定方向的数据包丢失、延迟或抖动。 
 
@@ -212,7 +212,7 @@ CQD 中的实际度量因工作负荷而异，但出于本文的目的，我们�
 
 #### <a name="rate-my-call"></a>对我的呼叫进行评分 
 
- (RMC) 内置于Teams和Skype for Business中。 它每 10 个调用中就有 1 个或 10% 后自动弹出。 此简短调查要求用户对呼叫进行评分，并为呼叫质量可能较差的原因提供一些上下文。 一两个分级被认为是差的，三到四是好的，五个是优秀的。 虽然它有点滞后指示器，但这是一个有用的指标，用于发现服务指标可能错过的问题。
+ (RMC) 中内置了 Teams 和 Skype for Business。 它每 10 个调用中就有 1 个或 10% 后自动弹出。 此简短调查要求用户对呼叫进行评分，并为呼叫质量可能较差的原因提供一些上下文。 一两个分级被认为是差的，三到四是好的，五个是优秀的。 虽然它有点滞后指示器，但这是一个有用的指标，用于发现服务指标可能错过的问题。
 
 > [!Note]
 > 人为因素：当呼叫质量良好时，用户通常会忽略调查，并且在呼叫质量不佳时填写。 因此，即使服务指标良好，RMC 报告也可能偏向于较差的一面。
@@ -225,12 +225,12 @@ CQD 中的实际度量因工作负荷而异，但出于本文的目的，我们�
 
 ##### <a name="client-readiness"></a>客户端就绪情况
 
-使Teams客户端保持最新状态可确保用户始终获得最佳体验。 Microsoft 会频繁发布[对Teams客户端的更新](teams-client-update.md)， (更新会在后台自行安装，除非你已关闭此功能-我们不建议) 。 还必须记住修补网络、视频、USB 和音频驱动程序，因为它们通常被忽视，可能会影响通话和会议质量。 请考虑将网络、Wi-Fi、视频、USB 和音频驱动程序添加到当前的修补程序管理过程中。
+使 Teams 客户端保持最新状态可确保用户始终获得最佳体验。 Microsoft 会频繁发布 [Teams 客户端更新](teams-client-update.md) (更新会在后台安装，除非你已关闭此功能-我们不建议) 。 还必须记住修补网络、视频、USB 和音频驱动程序，因为它们通常被忽视，可能会影响通话和会议质量。 请考虑将网络、Wi-Fi、视频、USB 和音频驱动程序添加到当前的修补程序管理过程中。
 
 
 ##### <a name="device-readiness"></a>设备就绪情况
 
-没有一个策略比设备就绪策略更能影响用户体验。 例如，依赖笔记本电脑扬声器和麦克风的用户在通话和会议中会遇到很多背景噪音。 Teams设计用于处理几乎所有设备，但如果遇到与设备相关的问题，请查看[电话Teams](./devices/phones-for-teams.md)。
+没有一个策略比设备就绪策略更能影响用户体验。 例如，依赖笔记本电脑扬声器和麦克风的用户在通话和会议中会遇到很多背景噪音。 Teams 设计用于处理几乎任何设备，但如果遇到与设备相关的问题，请查看 [Teams 电话](./devices/phones-for-teams.md)。
 
 
 ### <a name="categories-of-quality"></a>质量类别
@@ -243,11 +243,11 @@ CQD 中的实际度量因工作负荷而异，但出于本文的目的，我们�
 
 -   **服务管理：** 此类别包括两个部分：
 
-    -   首先是 Microsoft 负责管理和维护Teams和Skype for Business联机服务。
+    -   首先是 Microsoft 负责管理和维护 Teams 和 Skype for Business Online 服务。
 
     -   第二是组织为确保对服务的可靠访问而管理的任务，例如更新生成信息，以及在将基础结构添加到服务时维护新Office 365 IP 地址的防火墙。
 
-![Graph组织中的质量类别。](media/qerguide-image-categories.png "组织中的质量类别：服务管理、终结点和网络。")
+![组织中质量类别的图形。](media/qerguide-image-categories.png "组织中的质量类别：服务管理、终结点和网络。")
 
 查看以下建议用于保持质量的任务列表。 应定期执行这些任务，例如每周执行一次。
 
@@ -257,13 +257,13 @@ CQD 中的实际度量因工作负荷而异，但出于本文的目的，我们�
 
 #### <a name="network-tasks"></a>网络任务
 
-网络任务分为两类：可靠性和质量。 可靠性侧重于衡量用户成功拨打呼叫和保持连接的能力。 质量侧重于用户客户端在呼叫期间和结束后发送到Teams和联机Skype for Business的聚合遥测数据。 
+网络任务分为两类：可靠性和质量。 可靠性侧重于衡量用户成功拨打呼叫和保持连接的能力。 质量侧重于用户客户端在呼叫期间和结束之后发送到 Teams 和 Skype for Business Online 的聚合遥测数据。 
 
 鉴于可靠性对用户体验产生的关键影响，建议在深入了解质量之前评估和调查可靠性指标。 
 
 #### <a name="endpoints-tasks"></a>终结点任务
 
-此类别中的主要任务消除了常规[Teams客户端更新](teams-client-update.md)的任何障碍。 默认情况下，Teams会定期 (自动更新，除非你关闭此设置，我们不建议) 。 
+此类别中的主要任务消除了对常规 [Teams 客户端更新](teams-client-update.md)的任何障碍。 默认情况下，Teams 会定期 (更新，除非你关闭该设置，我们不建议) 。 
 
 还应监视设备，并在发现与设备相关的问题时提供更新。
 
@@ -271,7 +271,7 @@ CQD 中的实际度量因工作负荷而异，但出于本文的目的，我们�
 
 [设置 CQD](turning-on-and-using-call-quality-dashboard.md) 后，即可开始使用它来管理组织的通话和会议质量。
 
-Teams性能的大多数问题都归入以下类别：
+Teams 性能的大多数问题都归入以下类别：
 
 -   防火墙或代理配置不完整
 -   Wi-Fi 覆盖范围较小
@@ -281,32 +281,32 @@ Teams性能的大多数问题都归入以下类别：
 -   未优化或内置音频设备
 -   子网或网络设备存在问题
 
-如果在推出Teams来评估这些方面并修正任何缺陷之前花费一些时间，则会减少为所有用户维护高质量Teams体验所需的工作量。 若要帮助评估网络以准备Teams推出，请阅读[Teams的顾问](use-advisor-teams-roll-out.md)，[并为Teams准备网络](prepare-network.md)。
+如果在推出 Teams 之前花费一些时间来评估这些领域并修正任何缺陷，则会减少为所有用户维护高质量 Teams 体验所需的工作量。 若要帮助评估网络以准备 Teams 推出，请阅读 [Teams 顾问](use-advisor-teams-roll-out.md) 并 [准备 Teams 网络](prepare-network.md)。
 
 ### <a name="expectations-using-cqd"></a>使用 CQD 的预期
 
-使用呼叫质量仪表板 (CQD) ，通过使用Teams和Skype for Business服务来深入了解呼叫的质量。 CQD 旨在帮助Teams和Skype for Business管理员和网络工程师优化网络，并密切关注质量、可靠性和用户体验。 CQD 查看整个组织的聚合遥测数据，其中整体模式可能会变得明显;这使你能够进行明智的评估和计划修正。 CQD 提供指标报告，可深入了解总体质量、可靠性和用户体验。
+使用呼叫质量仪表板 (CQD) ，深入了解使用 Teams 和Skype for Business服务进行的呼叫的质量。 CQD 旨在帮助 Teams 和Skype for Business管理员和网络工程师优化网络，并密切关注质量、可靠性和用户体验。 CQD 查看整个组织的聚合遥测数据，其中整体模式可能会变得明显;这使你能够进行明智的评估和计划修正。 CQD 提供指标报告，可深入了解总体质量、可靠性和用户体验。
 
 CQD 虽然可用于分析趋势和子网，但并不总是为给定方案提供特定原因。 请务必了解这一点，并在使用 CQD 时设置正确的预期：
 
 -   CQD 不会为每个方案提供根本原因
--   CQD 不包含电话系统流或音频会议流
+-   CQD 不包含电话系统或音频会议流
 -   CQD 将根据趋势调用区域进行进一步调查
 
 ### <a name="cqd-reports-overview"></a>CQD 报告概述
 
 使用屏幕顶部的下拉菜单打开报表。 有关每个报表中提供的数据列表，请读取 [CQD 报表中可用的数据](CQD-data-and-reports.md#data-available-in-cqd-reports)。
 
-2020 年 1 月新增功能：[下载 CQD 的Power BI查询模板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)。 可自定义的Power BI模板，可用于分析和报告 CQD 数据。
+2020 年 1 月新增功能： [下载适用于 CQD 的 Power BI 查询模板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)。 可用于分析和报告 CQD 数据的可自定义 Power BI 模板。
 
 
-### <a name="teams-vs-skype-for-business"></a>Teams与Skype for Business
+### <a name="teams-vs-skype-for-business"></a>Teams 与 Skype for Business
 
-CQD 可以报告Teams和Skype for Business。 但是，有时可能需要开发报表来查看与Skype for Business分开的Teams遥测数据。
+CQD 可以报告 Teams 和 Skype for Business。 但是，有时可能需要开发报表来查看独立于Skype for Business的 Teams 遥测数据。
 
 #### <a name="summary-reports"></a>摘要报表
 
-若要修改摘要报表页以仅查看Teams或Skype for Business，请从屏幕顶部选择 **“产品筛选器**”下拉菜单，然后选择所需的产品。
+若要修改摘要报表页以仅查看 Teams 或Skype for Business，请从屏幕顶部选择 **“产品筛选器**”下拉菜单，然后选择所需的产品。
 
 ![显示筛选器选项的下拉菜单的屏幕截图。](media/qerguide-image-productfilter.png)
 
@@ -447,7 +447,7 @@ CQD 中的许多维度和度量值都归类为第一个或第二个。 CQD 不�
 | 呼叫设置失败原因       | 典型原因                    |
 |----------------------------------|----------------------------------|
 | 缺少 FW 深包检查豁免规则 | 指示路径沿线的网络设备由于深度数据包检查规则而阻止建立媒体路径。 这可能是由于防火墙规则未正确配置。 在此方案中，TCP 握手成功，但 SSL 握手未成功。      |
-| 缺少 FW IP 块异常规则      | 指示沿路径的网络设备阻止将媒体路径建立到Microsoft 365或Office 365网络。 这可能是由于代理或防火墙规则未正确配置为允许访问用于Teams和Skype for Business流量的 IP 地址和端口。 |
+| 缺少 FW IP 块异常规则      | 指示沿路径的网络设备阻止将媒体路径建立到 Microsoft 365 或Office 365网络。 这可能是由于代理或防火墙规则未正确配置为允许访问用于 Teams 和Skype for Business流量的 IP 地址和端口。 |
 
 开始修正时，可以将工作重点放在特定的建筑物或子网上。 如上表所示，这些问题是由于防火墙或代理配置造成的。 查看下表中有关修正操作的选项。
 
@@ -457,7 +457,7 @@ CQD 中的许多维度和度量值都归类为第一个或第二个。 CQD 不�
 
 ### <a name="drop-failures"></a>删除失败
 
-与安装失败代码不同，CQD 没有删除失败代码来指示发生删除失败的原因，这使无法隔离特定的根本原因。 若要更好地对删除失败进行会审，请使用推断方法。 通过修正媒体感兴趣的任何领域、修补客户端和驱动程序，以及推动Teams和Skype for Business认证设备的使用，可能会导致故障下降。
+与安装失败代码不同，CQD 没有删除失败代码来指示发生删除失败的原因，这使无法隔离特定的根本原因。 若要更好地对删除失败进行会审，请使用推断方法。 通过修正媒体、修补客户端和驱动程序的任何感兴趣的领域，并推动 Teams 和Skype for Business认证设备的使用，可以预期下降失败率会下降。
 
 #### <a name="drop-failure-trend-analysis"></a>删除失败趋势分析
 
@@ -499,10 +499,10 @@ CQD 中的许多维度和度量值都归类为第一个或第二个。 CQD 不�
 
 | 修复                              | 指引                      |
 |------------------------------------------|-------------------------------|
-| **网络/Internet**                         | **拥塞**：请与网络团队合作，监视特定建筑物/子网的带宽，以确认过度使用存在问题。 如果确认存在网络拥塞，请考虑增加该建筑物的带宽或应用 QoS。 使用包含 [的质量差流摘要报表](#quality-investigations) 查看问题子网，了解抖动、延迟和数据包丢失问题，因为这些问题通常会在删除流之前出现。<br><br>**QoS**：如果增加带宽不切实际或成本过高，请考虑实现 QoS。 此工具在管理拥挤的流量方面非常有效，可以保证托管网络上的媒体数据包优先于非媒体流量。 或者，如果没有明确的证据表明带宽是罪魁祸首，请考虑以下解决方案：<ul><li>[Microsoft Teams QoS 指南](qos-in-teams.md)</li></ul><br>**执行网络就绪性评估**：网络评估提供有关预期带宽使用情况、如何应对带宽和网络更改的详细信息，以及Teams和Skype for Business建议的网络做法。 使用上表作为源，你有一个建筑物或子网列表，这些建筑物或子网是评估的优秀候选项。<ul><li>[为 Teams 准备贵组织的网络](prepare-network.md)</li></ul> |
+| **网络/Internet**                         | **拥塞**：请与网络团队合作，监视特定建筑物/子网的带宽，以确认过度使用存在问题。 如果确认存在网络拥塞，请考虑增加该建筑物的带宽或应用 QoS。 使用包含 [的质量差流摘要报表](#quality-investigations) 查看问题子网，了解抖动、延迟和数据包丢失问题，因为这些问题通常会在删除流之前出现。<br><br>**QoS**：如果增加带宽不切实际或成本过高，请考虑实现 QoS。 此工具在管理拥挤的流量方面非常有效，可以保证托管网络上的媒体数据包优先于非媒体流量。 或者，如果没有明确的证据表明带宽是罪魁祸首，请考虑以下解决方案：<ul><li>[Microsoft Teams QoS 指南](qos-in-teams.md)</li></ul><br>**执行网络就绪性评估**：网络评估提供有关预期带宽使用情况、如何应对带宽和网络更改的详细信息，以及 Teams 和Skype for Business建议的网络做法。 使用上表作为源，你有一个建筑物或子网列表，这些建筑物或子网是评估的优秀候选项。<ul><li>[为 Teams 准备贵组织的网络](prepare-network.md)</li></ul> |
 | **客户端仅 (Skype for Business联机)** | 一些较旧Skype for Business客户端已经知道，并记录了媒体可靠性问题。 查看来自多个受影响用户的呼叫分析报告，或在 CQD 中创建自定义客户端版本表报表，该报表筛选到具有“总呼叫删除失败百分比”度量值的特定建筑物或子网。 此信息将帮助你了解该特定生成中的调用删除与客户端的特定版本之间是否存在关系。     |
-| **Devices**                                  |如果设备是呼叫质量问题的罪魁祸首，请考虑更新违规设备。 阅读[电话Teams](./devices/phones-for-teams.md)了解详细信息。 |
-| **用户行为**                            | 如果确定网络、设备或客户端都不是问题所在，请考虑制定用户采用策略，以教育用户如何最好地加入和退出会议。 更智能的Teams和Skype for Business用户将为会议中的所有参与者提供更好的用户体验。 例如，通过关闭盖子 () 而不退出会议将笔记本电脑置于睡眠状态的用户将被归类为意外呼叫删除。   |
+| **Devices**                                  |如果设备是呼叫质量问题的罪魁祸首，请考虑更新违规设备。 阅读 [适用于 Teams 的电话](./devices/phones-for-teams.md) 以了解详细信息。 |
+| **用户行为**                            | 如果确定网络、设备或客户端都不是问题所在，请考虑制定用户采用策略，以教育用户如何最好地加入和退出会议。 更智能的 Teams 和Skype for Business用户将为会议中的所有参与者提供更好的用户体验。 例如，通过关闭盖子 () 而不退出会议将笔记本电脑置于睡眠状态的用户将被归类为意外呼叫删除。   |
 
 ## <a name="quality-investigations"></a>质量调查
 
@@ -565,22 +565,22 @@ PSR 百分比用于指示组织是否满足给定焦点区域的定义指标目�
 
 | 修复                              | 指引                         |
 |------------------------------------------|----------------------------------|
-| **网络**                                 | **拥塞**：过度使用或预配不足的网络可能会导致媒体质量问题。 与网络团队合作，确定从用户到 Internet 出口点的网络连接是否有足够的带宽来支持媒体。 <br><br>**执行网络就绪性评估**：网络评估提供有关预期带宽使用情况、如何应对带宽和网络更改的详细信息，以及Teams和Skype for Business建议的网络做法。 使用上表作为源，你有一个建筑物或子网列表，这些建筑物或子网是评估的优秀候选项。<ul><li>[为 Teams 准备贵组织的网络](prepare-network.md)</li></ul>|
+| **网络**                                 | **拥塞**：过度使用或预配不足的网络可能会导致媒体质量问题。 与网络团队合作，确定从用户到 Internet 出口点的网络连接是否有足够的带宽来支持媒体。 <br><br>**执行网络就绪性评估**：网络评估提供有关预期带宽使用情况、如何应对带宽和网络更改的详细信息，以及 Teams 和Skype for Business建议的网络做法。 使用上表作为源，你有一个建筑物或子网列表，这些建筑物或子网是评估的优秀候选项。<ul><li>[为 Teams 准备贵组织的网络](prepare-network.md)</li></ul>|
 | **服务质量 (QoS)**  | QoS 是一种经过验证的工具，可帮助在拥挤的网络上确定数据包的优先级，以确保数据包能够完整、按时到达目标。 考虑在整个组织中实现 QoS，以最大程度地提高受约束带宽的用户体验的质量。 QoS 将帮助解决通常与高数据包丢失以及更小程度的抖动和往返时间相关的问题。<ul><li>[Teams QoS 指南](qos-in-teams.md)</li></ul> |
-| **Wi-Fi**               | Wi-Fi可能会对调用质量产生重大影响。 Wi-Fi部署通常不考虑 VoIP 服务的网络要求，通常是质量不佳的来源。 有关优化Wi-Fi基础结构的详细信息，请参阅 [本文介绍Wi-Fi规划](/skypeforbusiness/certification/plan-wifi)。<br><br>**无线驱动程序**：确保无线驱动程序是最新的。 这将有助于缓解与过时驱动程序相关的任何不良用户体验。 许多组织在其修补程序周期中不包括无线驱动程序，这些驱动程序可以取消修补多年。 许多无线问题通过确保无线驱动程序是最新的来解决的。<br><br>**WMM**： (WMM) （也称为Wi-Fi多媒体）的无线多媒体扩展为无线网络提供基本的 QoS 功能。 新式无线网络必须支持许多设备。 这些设备争夺带宽，并可能导致 VoIP 服务的质量问题，其中速度和延迟至关重要。 请咨询无线供应商了解具体信息，并考虑在无线网络上实现 WMM，以确定Skype for Business和Teams媒体的优先级。<br><br>**访问点密度**：访问点可能相距太远或不位于理想位置。 若要最大程度地减少潜在的干扰，请将额外的访问点放置在会议室和不被墙壁或Wi-Fi信号较弱的其他对象阻碍的位置。<br><br>**2.4 GHz 与 5 GHz**：5 GHz 提供较少的后台干扰和更高的速度，在通过 Wi-Fi 部署 VoIP 时应优先考虑。 但是，5 GHz 并不像 2.4 GHz 那么强大，也不会那么容易穿透墙壁。 查看生成布局以确定可以依赖哪种频率来实现最佳连接。 |
+| **Wi-Fi**               | Wi-Fi可能会对调用质量产生重大影响。 Wi-Fi部署通常不考虑 VoIP 服务的网络要求，通常是质量不佳的来源。 有关优化Wi-Fi基础结构的详细信息，请参阅 [本文介绍Wi-Fi规划](/skypeforbusiness/certification/plan-wifi)。<br><br>**无线驱动程序**：确保无线驱动程序是最新的。 这将有助于缓解与过时驱动程序相关的任何不良用户体验。 许多组织在其修补程序周期中不包括无线驱动程序，这些驱动程序可以取消修补多年。 许多无线问题通过确保无线驱动程序是最新的来解决的。<br><br>**WMM**： (WMM) （也称为Wi-Fi多媒体）的无线多媒体扩展为无线网络提供基本的 QoS 功能。 新式无线网络必须支持许多设备。 这些设备争夺带宽，并可能导致 VoIP 服务的质量问题，其中速度和延迟至关重要。 请咨询无线供应商了解具体信息，并考虑在无线网络上实现 WMM，以确定Skype for Business和 Teams 媒体的优先级。<br><br>**访问点密度**：访问点可能相距太远或不位于理想位置。 若要最大程度地减少潜在的干扰，请将额外的访问点放置在会议室和不被墙壁或Wi-Fi信号较弱的其他对象阻碍的位置。<br><br>**2.4 GHz 与 5 GHz**：5 GHz 提供较少的后台干扰和更高的速度，在通过 Wi-Fi 部署 VoIP 时应优先考虑。 但是，5 GHz 并不像 2.4 GHz 那么强大，也不会那么容易穿透墙壁。 查看生成布局以确定可以依赖哪种频率来实现最佳连接。 |
 |**网络设备** | 大型组织可能有数百台设备分布在网络中。 请与网络团队协作，确保维护从用户到 Internet 的网络设备，并保持最新状态。 |
 | **VPN**  | VPN 设备通常不用于处理实时媒体工作负荷。 某些 VPN 配置禁止使用 UDP (这是媒体) 的首选协议，仅依赖于 TCP。 请考虑实现 VPN 拆分隧道解决方案，以帮助减少 VPN 作为质量不佳的根源。 |
 | **客户端** <br>仅 (Skype for Business联机)  | 确保定期更新所有客户端。 |
-| **Devices** | 如果设备是呼叫质量问题的罪魁祸首，请考虑更新违规设备。 阅读[电话Teams](./devices/phones-for-teams.md)了解详细信息。 |
+| **Devices** | 如果设备是呼叫质量问题的罪魁祸首，请考虑更新违规设备。 阅读 [适用于 Teams 的电话](./devices/phones-for-teams.md) 以了解详细信息。 |
 | **司机** | 修补网络 (以太网和 Wi-Fi) 、音频、视频和 USB 驱动程序应是整个修补程序管理策略的一部分。 许多质量问题都是通过更新驱动程序来解决的。 |
-| **Wi-Fi 上的会议室** | 强烈建议使用至少 1 Gbps 以太网连接将会议室设备连接到网络。 会议室设备通常包括多个音频和视频流以及会议内容（如屏幕共享），并且比其他Teams或Skype for Business终结点具有更高的网络要求。 根据定义，会议室是固定设备，Wi-Fi仅在安装期间提供权益。<br><br>会议室需要格外小心和注意，以确保使用这些设备的体验符合或超出预期。 会议室的质量问题通常会迅速升级，因为高级职员经常使用这些问题。<br><br>除了方便) 之外，所有内容都相等 (，Wi-Fi性能通常小于有线连接。 随着“自带设备”策略的兴起和笔记本电脑的激增，Wi-Fi接入点往往被过度利用。 实时媒体可能不会在Wi-Fi网络上设置优先级，这可能会在使用高峰期导致质量问题。 这种繁重的使用可能与一个会议同时发生，其中可能有十几个人出席，每个会议都有自己的笔记本电脑和智能手机，都连接到与会议室设备相同的Wi-Fi接入点。<br><br>Wi-Fi应仅被视为临时解决方案、移动安装或已正确预配Wi-Fi以支持基于业务类的实时媒体。 |
+| **Wi-Fi 上的会议室** | 强烈建议使用至少 1 Gbps 以太网连接将会议室设备连接到网络。 会议室设备通常包括多个音频和视频流以及会议内容（如屏幕共享），并且具有比其他 Teams 或Skype for Business终结点更高的网络要求。 根据定义，会议室是固定设备，Wi-Fi仅在安装期间提供权益。<br><br>会议室需要格外小心和注意，以确保使用这些设备的体验符合或超出预期。 会议室的质量问题通常会迅速升级，因为高级职员经常使用这些问题。<br><br>除了方便) 之外，所有内容都相等 (，Wi-Fi性能通常小于有线连接。 随着“自带设备”策略的兴起和笔记本电脑的激增，Wi-Fi接入点往往被过度利用。 实时媒体可能不会在Wi-Fi网络上设置优先级，这可能会在使用高峰期导致质量问题。 这种繁重的使用可能与一个会议同时发生，其中可能有十几个人出席，每个会议都有自己的笔记本电脑和智能手机，都连接到与会议室设备相同的Wi-Fi接入点。<br><br>Wi-Fi应仅被视为临时解决方案、移动安装或已正确预配Wi-Fi以支持基于业务类的实时媒体。 |
 
 
 ### <a name="tcp"></a>TCP 
 
 传输控制协议 (TCP) 被视为故障回复传输，而不是实时媒体所需的主要传输。 故障回复传输的原因是 TCP 的有状态性质。 例如，如果在潜在网络上进行调用，而媒体数据包被延迟，那么几秒钟前的数据包（不再有用）会争用带宽来到达接收方，这可能会使情况变得更糟。 这使得音频愈合器缝合和拉伸音频，导致可听见的项目，往往以抖动的形式。
 
-本部分中的报表不区分好流和差流。 鉴于首选 UDP，报表将查找 TCP 用于音频、视频和基于视频的屏幕共享 (VBSS) 。 提供低流速率有助于比较 UDP 质量与 TCP 质量，以便你可以在影响最大的位置集中工作。 TCP 使用量主要由不完整的防火墙规则导致。 有关Teams和联机Skype for Business防火墙规则的详细信息，请参阅[Microsoft 365和Office 365 URL 和 IP 地址范围](/microsoft-365/enterprise/urls-and-ip-address-ranges)。
+本部分中的报表不区分好流和差流。 鉴于首选 UDP，报表将查找 TCP 用于音频、视频和基于视频的屏幕共享 (VBSS) 。 提供低流速率有助于比较 UDP 质量与 TCP 质量，以便你可以在影响最大的位置集中工作。 TCP 使用量主要由不完整的防火墙规则导致。 有关 Teams 和 Skype for Business Online 防火墙规则的详细信息，请参阅 [Microsoft 365 和 Office 365 URL 和 IP 地址范围](/microsoft-365/enterprise/urls-and-ip-address-ranges)。
 
 > [!Note]
 > 音频、视频和 VBSS 都倾向于将 UDP 作为主要传输方式。 旧版 RDP 应用程序共享工作负载仅使用 TCP。
@@ -625,14 +625,14 @@ TCP 使用的最常见原因是防火墙或代理中缺少异常规则。 我们
 
 | 修复        | 指引     |
 |--------------------|--------------------------------------|
-| 配置防火墙 | 验证是否从防火墙中排除[Microsoft 365或Office 365 IP 端口和地址](/microsoft-365/enterprise/urls-and-ip-address-ranges)。 对于与媒体相关的 TCP 问题，请将初始工作重点放在以下方面：<ul><li>验证客户端媒体子网 13.107.64.0/18 和 52.112.0.0/14 是否在防火墙规则中。</li><li>UDP 端口 3478-3481 是必需的媒体端口，必须打开，否则客户端将故障回复到 TCP 端口 443。</li></ul> |
-| 验证             | 使用 [Microsoft 网络评估工具](https://www.microsoft.com/download/details.aspx?id=53885)检查与特定Microsoft 365或从受影响的建筑物或子网Office 365 IP 地址和端口的连接问题。    |
+| 配置防火墙 | 验证是否从防火墙中排除 [Microsoft 365 或 Office 365 IP 端口和地址](/microsoft-365/enterprise/urls-and-ip-address-ranges)。 对于与媒体相关的 TCP 问题，请将初始工作重点放在以下方面：<ul><li>验证客户端媒体子网 13.107.64.0/18 和 52.112.0.0/14 是否在防火墙规则中。</li><li>UDP 端口 3478-3481 是必需的媒体端口，必须打开，否则客户端将故障回复到 TCP 端口 443。</li></ul> |
+| 验证             | 使用 [Microsoft 网络评估工具](https://www.microsoft.com/download/details.aspx?id=53885)检查与特定 Microsoft 365 或Office 365 IP 地址和来自受影响的建筑物或子网的端口的连接问题。    |
 
 ### <a name="http-proxy"></a>HTTP 代理
 
 由于多种原因，HTTP 代理不是建立媒体会话的首选路径。 许多数据包都包含深度数据包检查功能，这些功能可防止完成与服务的连接并导致中断。 此外，几乎所有代理都强制使用 TCP，而不是允许 UDP，建议使用 UDP 来获得最佳音频质量。
 
-我们始终建议将客户端配置为直接连接到Teams和Skype for Business服务。 这对基于媒体的流量尤其重要。
+我们始终建议将客户端配置为直接连接到 Teams 和Skype for Business服务。 这对基于媒体的流量尤其重要。
 
 
 > [!IMPORTANT]
@@ -647,9 +647,9 @@ TCP 使用的最常见原因是防火墙或代理中缺少异常规则。 我们
 
 ##### <a name="analysis"></a>分析
 
-你希望看到尽可能少的 HTTP 媒体流。 如果有遍历代理的流，请咨询网络团队，确保存在适当的排除项，以便客户端直接路由到Teams或Skype for Business联机媒体子网。
+你希望看到尽可能少的 HTTP 媒体流。 如果有遍历代理的流，请咨询网络团队，确保已设置正确的排除项，以便客户端直接路由到 Teams 或Skype for Business联机媒体子网。
 
-如果组织中只有一个 Internet 代理，请验证正确的[Microsoft 365或Office 365 URL 和 IP 地址范围排除项](/microsoft-365/enterprise/urls-and-ip-address-ranges)。 如果组织中配置了多个 Internet 代理，请使用 HTTP 子报表隔离受影响的生成或子网。
+如果组织中只有一个 Internet 代理，请验证正确的 [Microsoft 365 或Office 365 URL 和 IP 地址范围排除项](/microsoft-365/enterprise/urls-and-ip-address-ranges)。 如果组织中配置了多个 Internet 代理，请使用 HTTP 子报表隔离受影响的生成或子网。
 
 对于无法绕过代理的组织，请确保Skype for Business客户端在位于代理后面时配置为正确登录，如文章中所述[Skype for Business应使用代理服务器登录，而不是尝试直接连接](https://support.microsoft.com/help/3207112/skype-for-business-should-use-proxy-server-to-sign-in-instead-of-tryin)。 
 
@@ -661,11 +661,11 @@ TCP 使用的最常见原因是防火墙或代理中缺少异常规则。 我们
 
 ##### <a name="remediation"></a>修复
 
-[建议始终](proxy-servers-for-skype-for-business-online.md)绕过代理Skype for Business和Teams，尤其是媒体流量。 代理不会使Skype for Business更安全，因为它的流量已加密。 环境中可能会出现由于延迟和数据包丢失而引起的与性能相关的问题。 诸如此类的问题将导致音频、视频和屏幕共享的负面体验，而实时流是必不可少的。
+[建议始终](proxy-servers-for-skype-for-business-online.md)绕过Skype for Business和 Teams 的代理，尤其是媒体流量。 代理不会使Skype for Business更安全，因为它的流量已加密。 环境中可能会出现由于延迟和数据包丢失而引起的与性能相关的问题。 诸如此类的问题将导致音频、视频和屏幕共享的负面体验，而实时流是必不可少的。
 
 HTTP 使用率的最常见原因是代理中缺少异常规则。 通过使用提供的生成或子网，可以快速确定需要为媒体旁路配置的代理。
 
-验证是否将所需的[Microsoft 365或Office 365 FQDN](/microsoft-365/enterprise/urls-and-ip-address-ranges) 添加到代理中的允许列表中。
+验证是否将所需的 [Microsoft 365 或 Office 365 FQDN](/microsoft-365/enterprise/urls-and-ip-address-ranges) 添加到代理中的允许列表。
 
 ## <a name="endpoint-investigations"></a>终结点调查
 
@@ -679,7 +679,7 @@ HTTP 使用率的最常见原因是代理中缺少异常规则。 通过使用�
 这些报告侧重于标识Skype for Business使用的客户端版本及其在环境中的相对卷。
 
 > [!IMPORTANT]
-> 目前，Teams客户端通过 Azure 内容分发网络自动分发和更新，服务将保持最新状态。 因此，无需监视Teams客户端版本 (，除非关闭自动更新，我们不建议) 。
+> 目前，Teams 客户端通过 Azure 内容分发网络自动分发和更新，服务将保持最新状态。 因此，无需监视 Teams 客户端版本 (，除非关闭自动更新，我们不建议) 。
 
 除非排除联合参与者数据，否则这些报告将包括联合终结点中的客户端遥测数据。 若要排除联合终结点，必须向组织的 [租户 ID](CQD-data-and-reports.md#how-to-find-your-tenant-id) 添加第二租户 ID 的查询筛选器。 或者，可以使用 [URL 筛选器](CQD-data-and-reports.md#url-filters) 排除联合参与者遥测。
 
@@ -696,9 +696,9 @@ HTTP 使用率的最常见原因是代理中缺少异常规则。 通过使用�
 
 将部署限制为 6 个月以下的客户端版本将通过减少需要支持的版本数来改善整体用户体验并提高可管理性。
 
-如果只使用Office即点即用，则会在六个月的窗口内自动使用。 无需执行进一步操作。
+如果只使用 Office 即点即用，则会在六个月的窗口内自动使用。 无需执行进一步操作。
 
-如果混合使用即点即用和安装程序包 (MSI) ，则可以使用报表来验证 MSI 客户端是否正在定期更新。 如果发现客户端落后，请与负责管理Office更新的团队协作，并确保他们定期批准和部署客户端修补程序。
+如果混合使用即点即用和安装程序包 (MSI) ，则可以使用报表来验证 MSI 客户端是否正在定期更新。 如果发现客户端落后，请与负责管理 Office 更新的团队协作，并确保他们定期批准和部署客户端修补程序。
 
 同样重要的是要考虑并确保网络、视频、USB 和音频驱动程序也得到修补。 可以很容易地忽略这些驱动程序，而不会将其包含在修补程序管理策略中。
 
@@ -716,11 +716,11 @@ HTTP 使用率的最常见原因是代理中缺少异常规则。 通过使用�
 
 在ACR主观测试中，有相当一部分人将其经验质量从1 (不良) 到5 (优秀) 。 分数的平均值为 MOS。 生成的 MOS 取决于向组公开的体验范围以及被评级的体验类型。
 
-由于对实时通信系统进行语音质量的主观测试是不切实际的，因此Microsoft Teams和Skype for Business使用高级算法客观预测主观测试的结果来生成 MOS 值。
+由于对实时通信系统进行语音质量的主观测试是不切实际的，因此 Microsoft Teams 和Skype for Business使用高级算法客观地预测主观测试的结果来生成 MOS 值。
 
 可用的 MOS 集和关联的指标提供了音频设备传递给用户的体验质量的视图。 
 
-通过向用户提供经过Teams和Skype for Business认证的设备，可以降低由于设备本身 (（例如，内置笔记本电脑扬声器和麦克风) ）而遇到负面体验的可能性。 有关详细信息，请参阅有关 [认证计划](/SkypeForBusiness/certification/overview) 和 [合作伙伴解决方案目录](https://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs)的这些文章。
+通过向用户提供经过 Teams 和 Skype for Business 认证的设备，可以降低因设备本身 (而遇到负面体验的可能性，例如，使用内置笔记本电脑扬声器和麦克风) 的可能性更大。 有关详细信息，请参阅有关 [认证计划](/SkypeForBusiness/certification/overview) 和 [合作伙伴解决方案目录](https://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs)的这些文章。
 
 设备报表用于按音量和 MOS 分数评估设备使用情况， (仅) 音频，并且可以在客户端&设备下的随附模板中找到。 
 
@@ -735,13 +735,13 @@ HTTP 使用率的最常见原因是代理中缺少异常规则。 通过使用�
 
 通常，需要发现和逐步淘汰未经认证的设备，并将它们替换为经过认证的设备。 查看设备报表时的一些注意事项包括：
 
--   正在使用的设备是否有Teams和Skype for Business认证？ 
+-   使用的设备是否有 Teams 和Skype for Business认证？ 
 -   可以使用 [每用户呼叫分析](use-call-analytics-to-troubleshoot-poor-call-quality.md)来标识特定设备的用户。 检查以确保他们拥有最新的设备驱动程序，并且其设备未通过 USB 中心或停靠站连接。 
 -   正在使用多少不同版本的各种驱动程序？ 它们定期修补吗？ 确保定期修补音频、视频和Wi-Fi驱动程序将有助于消除这些驱动程序作为质量问题的根源，并使用户体验更具可预测性和一致性。
 
 ##### <a name="audio"></a>音频
 
-下一个任务是确定 [经认证的音频设备](https://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs)的总体使用情况。 我们建议至少 80% 的所有音频流都使用经过认证的音频设备。 最好将麦克风设备报表导出到Excel，以计算经认证或批准的设备的使用情况。 组织通常保留所有已批准设备的列表，因此，对数据进行筛选和排序应非常简单。
+下一个任务是确定 [经认证的音频设备](https://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs)的总体使用情况。 我们建议至少 80% 的所有音频流都使用经过认证的音频设备。 最好将麦克风设备报表导出到 Excel，以计算已认证或已批准设备的使用情况。 组织通常保留所有已批准设备的列表，因此，对数据进行筛选和排序应非常简单。
 
 ##### <a name="video"></a>视频
 
@@ -754,7 +754,7 @@ Wi-Fi驱动程序也需要按常规节奏进行修补，并且应包含在修补
 
 ## <a name="related-topics"></a>相关主题
 
-[将顾问用于Teams](use-advisor-teams-roll-out.md)
+[使用 Teams 顾问](use-advisor-teams-roll-out.md)
 
 [准备用于 Teams 的网络](prepare-network.md)
 
@@ -764,13 +764,13 @@ Wi-Fi驱动程序也需要按常规节奏进行修补，并且应包含在修补
 
 [在 Teams 中管理设备](./devices/device-management.md)
 
-[改进和监视Teams的呼叫质量](monitor-call-quality-qos.md)
+[改进和监视 Teams 的呼叫质量](monitor-call-quality-qos.md)
 
 [什么是 CQD？](CQD-what-is-call-quality-dashboard.md)
 
 [设置呼叫质量仪表板 (CQD) ](turning-on-and-using-call-quality-dashboard.md)
 
-[Upload租户和生成数据](CQD-upload-tenant-building-data.md)
+[上传租户和生成数据](CQD-upload-tenant-building-data.md)
 
 [CQD 数据和报表](CQD-data-and-reports.md)
 
@@ -778,4 +778,4 @@ Wi-Fi驱动程序也需要按常规节奏进行修补，并且应包含在修补
 
 [CQD 中的流分类](stream-classification-in-call-quality-dashboard.md)
 
-[使用Power BI分析 CQD 数据](CQD-Power-BI-query-templates.md)
+[使用 Power BI 分析 CQD 数据](CQD-Power-BI-query-templates.md)

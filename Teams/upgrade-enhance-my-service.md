@@ -1,13 +1,13 @@
 ---
-title: Microsoft Teams要求|增强服务
-author: SerdarSoysal
-ms.author: serdars
+title: Microsoft Teams 要求|增强服务
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: 定期评估升级后Teams服务的机会，监视Teams的有趣功能增强功能。
+description: 在升级后定期评估增强 Teams 服务的机会，监视 Teams 路线图以获取任何有趣的功能增强功能。
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -18,30 +18,30 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ed54d4498f02f57131e6665291a6ffa7416722a9
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 38b6036d0a2e948485afd0e168b427eebd559e87
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62393452"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66794360"
 ---
-# <a name="get-the-most-out-of-teams-after-upgrading"></a>升级后，Teams功能
+# <a name="get-the-most-out-of-teams-after-upgrading"></a>升级后充分利用 Teams
 
-![升级过程图，强调"运营优化"阶段。](media/upgrade-banner-op-excellence.png "升级旅程的阶段，着重强调&quot;运营优化&quot;阶段")
+![升级旅程图，强调卓越运营阶段。](media/upgrade-banner-op-excellence.png "升级过程的各个阶段，重点是“卓越运营”阶段")
 
-本文是升级过程的操作优化阶段的一部分，完成从 Skype for Business 到 Teams。
+本文是升级过程的卓越运营阶段的一部分，在完成从 Skype for Business 到 Teams 的升级后，该阶段会立即开始。
 
-本文概述了在升级后最Teams运行的要求。 通过持续Teams监视服务功能，你可以确保为组织提供最大的价值。
+本文概述了在升级后充分利用运行 Teams 的要求。 通过持续监视 Teams 服务功能，可以确保为组织提供最大的价值。
 
 ## <a name="enhance-your-service-overview"></a>增强服务概述
 
-成功将服务Teams组织，并运行具有质量和可靠性的服务后，下一步是定期评估是否有机会增强服务。 这是持续服务改进规划的一部分，是云服务管理的现代标准。
+成功将 Teams 部署到组织并以质量和可靠性运行服务后，下一步是定期评估是否有机会增强服务。 这是持续服务改进计划的一部分，它是云服务管理的新式标准。
 
-确保始终充分利用服务的一种好方法就是监视 [Teams](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) 公共路线图，了解组织可能感兴趣的新功能增强功能。 如果您有权访问该Microsoft 365 管理中心，您将通过消息中心收到有关新功能和更改功能的定期更新。
+确保始终充分利用服务的好方法是监视 [Teams 公共路线图](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) ，以获取组织可能感兴趣的新功能增强功能。 如果有权访问Microsoft 365 管理中心，则会通过消息中心定期收到有关新功能和更改功能的更新。
 
-如果看到了增强服务的机会，请花些时间正确执行。 重新[访问在游戏和](deploy-chat-teams-channels-microsoft-teams-landing-page.md)实现阶段部署Microsoft Teams、团队、频道和应用，并端到端[](deploy-chat-teams-channels-microsoft-teams-landing-page.md)应用相同的指导。 进行小规模的增量更改时，不太可能需要完整完成所有活动和任务，但应一路评估每个活动和任务，为自己提供成功结果的最佳机会。
+当你看到增强服务的机会时，请花时间做正确的事。 在 Microsoft Teams 和[我们的实现阶段](deploy-chat-teams-channels-microsoft-teams-landing-page.md)[中重新部署聊天、团队、频道和应用](deploy-chat-teams-channels-microsoft-teams-landing-page.md)，并端到端应用相同的指导。 进行微小的增量更改时，不太可能需要完整完成所有活动和任务，但一路上应确保评估每个活动和任务，以给自己获得成功结果的最佳机会。
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>确定谁将监视公共路线图和其他服务公告，以发现您的组织可能受益于的新功能或服务。</li><li>确定通过你的指导委员会向关键利益干系人报告这些新功能或服务的节奏。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>实施策略，使服务保持最新状态，为组织实现最大价值。</li><li>在完整的项目生命周期中推动服务增强功能，确保已正确考虑到它们对部署的影响。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>确定谁将监视公共路线图和其他服务公告，了解组织可能从中受益的新功能或服务。</li><li>确定通过指导委员会向主要利益干系人报告这些新功能或服务的节奏。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>实施与服务保持最新关系的策略，以获得组织最大的价值。</li><li>通过完整的项目生命周期驱动服务增强功能，以确保正确考虑它们对部署的影响。</li></ul></td></tr>
 </table>
