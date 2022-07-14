@@ -1,7 +1,7 @@
 ---
-title: 阻止Microsoft Teams中的入站调用
-ms.author: serdars
-author: SerdarSoysal
+title: 阻止 Microsoft Teams 中的入站调用
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -15,18 +15,18 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom: ''
 description: 了解如何使用 PowerShell 管理入站调用阻止。
-ms.openlocfilehash: 25b271cbcf62acd732463e9dd34d4189479d2417
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 217a4fe6770d916e9013acf7f90ebf6a5556b837
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674384"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789597"
 ---
 # <a name="block-inbound-calls"></a>阻止入站调用
 
-Microsoft 呼叫计划、直接路由和运营商连接所有支持阻止来自公共交换电话网络的入站呼叫 (PSTN) 。 此功能允许管理员在租户全局级别定义号码模式列表，以便可以针对该列表检查每个传入的 PSTN 调用的调用方 ID 以进行匹配。 如果进行了匹配，则会拒绝传入调用。
+Microsoft 呼叫计划、直接路由和运营商连接支持阻止来自公共交换电话网络的入站呼叫 (PSTN) 。 此功能允许管理员在租户全局级别定义号码模式列表，以便可以针对该列表检查每个传入的 PSTN 调用的调用方 ID 以进行匹配。 如果进行了匹配，则会拒绝传入调用。
 
-此入站调用阻止功能仅适用于源自 PSTN 且仅适用于租户全局级别的入站调用。 单个Teams用户无法操作此列表。 Teams客户端确实允许单个用户阻止 PSTN 调用。 有关最终用户如何实现呼叫阻止的信息，请参阅[Teams中的“管理呼叫设置](https://support.microsoft.com/office/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)”。
+此入站调用阻止功能仅适用于源自 PSTN 且仅适用于租户全局级别的入站调用。 单个 Teams 用户无法操作此列表。 Teams 客户端确实允许单个用户阻止 PSTN 调用。 有关最终用户如何实现呼叫阻止的信息，请参阅 [Teams 中的“管理呼叫设置](https://support.microsoft.com/office/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)”。
 
 > [!NOTE]
 > 被阻止的调用方在被阻止时可能会遇到略有不同的行为。 此行为基于被阻止调用方的运营商如何处理不允许成功完成呼叫的通知。 示例可能包括一条运营商消息，指出呼叫无法以拨号方式完成，或者只是删除呼叫。
@@ -53,13 +53,13 @@ Microsoft 呼叫计划、直接路由和运营商连接所有支持阻止来自�
 
 #### <a name="block-a-number"></a>阻止数字
 
-在下面的示例中，租户管理员想要阻止来自数字范围 1 (312) 555-0000 到 1 (312) 555-9999 的所有呼叫。 创建数字模式，以便匹配带 + 前缀的范围内的数字和不带 + 前缀的范围内的数字。 无需在电话号码中包含符号和 () ，因为系统会在匹配之前对这些符号进行条带。  若要打开数字模式， **已启用** 参数设置为 True。 若要禁用此特定数字模式，请将参数设置为 False。
+在下面的示例中，租户管理员希望阻止来自号码范围 1 (312) 555-0000 到 1 (312) 555-9999 的所有呼叫。 创建数字模式，以便匹配带 + 前缀的范围内的数字和不带 + 前缀的范围内的数字。 无需在电话号码中包含符号和 () ，因为系统会在匹配之前对这些符号进行条带。  若要打开数字模式， **已启用** 参数设置为 True。 若要禁用此特定数字模式，请将参数设置为 False。
 
 ```PowerShell
 New-CsInboundBlockedNumberPattern -Name "BlockRange1" -Enabled $True -Description "Block Contoso" -Pattern "^\+?1312555\d{4}$"
 ```
 
-在下一个示例中，租户管理员想要阻止来自 1 号 (412) 555-1234 的所有呼叫。 若要打开数字模式， **已启用** 参数设置为 True。
+在下一个示例中，租户管理员希望阻止来自 1 号 (412) 555-1234 的所有呼叫。 若要打开数字模式， **已启用** 参数设置为 True。
 
 ```PowerShell
 New-CsInboundBlockedNumberPattern -Name "BlockNumber1" -Enabled $True -Description "Block Fabrikam" -Pattern "^\+?14125551234$"
@@ -75,7 +75,7 @@ New-CsInboundBlockedNumberPattern -Name "BlockNumber1" -Enabled $True -Descripti
 
 #### <a name="allow-a-number"></a>允许数字
 
-可以通过删除阻止的号码模式来允许号码调用。 在以下示例中，租户管理员希望允许 1 (412) 555-1234 再次拨打电话。
+可以通过删除阻止的号码模式来允许号码调用。 在以下示例中，租户管理员希望允许 1 (412) 555-1234 再次进行呼叫。
 
 ```PowerShell
 Remove-CsInboundBlockedNumberPattern -Identity "BlockNumber1"
@@ -108,7 +108,7 @@ Get-CsInboundBlockedNumberPattern
 
 #### <a name="add-a-number-exception"></a>添加数字异常
 
-在以下示例中，租户管理员希望允许电话号码 1 (312) 555-8882 和 1 (312) 555-8883 呼叫租户，即使这两个电话号码在上面的示例中已被阻止的范围。 若要启用此功能，将创建新的数字异常模式，如下所示：
+在以下示例中，租户管理员希望允许电话号码 1 (312) 555-8882 和 1 (312) 555-8883 呼叫租户，即使这两个电话号码在上面的示例中已阻止的范围。 若要启用此功能，将创建新的数字异常模式，如下所示：
 
 ```PowerShell
 New-CsInboundExemptNumberPattern  -Identity "AllowContoso1" -Pattern "^\+?1312555888[2|3]$" -Description "Allow Contoso helpdesk" -Enabled $True

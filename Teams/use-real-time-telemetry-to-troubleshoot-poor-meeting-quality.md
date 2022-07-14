@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: 使用实时遥测来详细了解设备、网络和连接，以排查 Microsoft Teams 计划会议的用户问题。
-ms.openlocfilehash: 794c0097c3bdcc757e0a469cb0f65b5eb4e6c285
-ms.sourcegitcommit: ce1cbdcfce8c785c66f6a51ef8e84092124f3ef0
+ms.openlocfilehash: 26ee7b809d7b18bb07a7f8ae57852c2333b26d94
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2022
-ms.locfileid: "66716798"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789617"
 ---
 # <a name="use-real-time-telemetry-to-troubleshoot-poor-meeting-quality"></a>使用实时遥测来解决会议质量不佳的问题
 
@@ -155,7 +155,7 @@ Real-Time分析显示有关Office 365帐户中每个用户的 Teams 会议的详
 - 如果外部参与者或匿名用户加入会议，则其显示名称将显示为 **不可** 保留跨租户隐私。
 
 > [!NOTE]
-> 作为有限时间公共预览版的一部分，实时遥测数据当前在会议结束后 **的 7 天内** 可用。 公共预览结束后，上述限制将适用。
+> 作为有限时间公共预览版的一部分，实时遥测数据当前在会议结束后 **的 7 天内** 可用。 预览版结束后，只有具有高级通信加载项许可的租户才能在延长的 7 天时间段内使用遥测数据。 所有其他租户都将受到上述限制的限制。
 
 ## <a name="related-topics"></a>相关主题
 

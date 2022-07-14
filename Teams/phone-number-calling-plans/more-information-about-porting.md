@@ -1,39 +1,44 @@
 ---
-title: 有关移植的信息
-author: SerdarSoysal
-ms.author: serdars
+title: 有关移植的详细信息
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
-ms.reviewer: 'tonysmit,jastark'
+ms.reviewer: tonysmit,jastark
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection:
-  - M365-voice
+- M365-voice
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-ROBOTS: 'NOINDEX, NOFOLLOW'
+ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
-  - CSH
+- CSH
 ms.custom: ms.teamsadmincenter.voice.phonenumbers.porting.moreinfo
-description: 获取将电话号码移植到 Microsoft Teams。
+description: 获取将电话号码移植到 Microsoft Teams 所需的指导。
+ms.openlocfilehash: 6edb3f617a890659d6aeedb817b38fba4a2c1da1
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66790357"
 ---
+# <a name="more-information-about-porting"></a>有关移植的详细信息
 
-# <a name="more-information-about-porting"></a>有关移植的信息
+在这里，你将找到有关将电话号码移植到 Microsoft Teams 的详细信息。
 
-可在此处找到有关将电话号码移植到 Microsoft Teams。
-
-有关完整的分步说明，请参阅[将电话号码转移到Teams](transfer-phone-numbers-to-teams.md)。
+有关完整的分步说明，请参阅 [将电话号码传输到 Teams](transfer-phone-numbers-to-teams.md)。
 
 如果需要帮助或需要获取更多电话号码，请联系 [TNS 服务台帮助](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)。
 
-## <a name="port-order-account-information"></a>移植订单帐户信息
+## <a name="port-order-account-information"></a>端口订单帐户信息
 
-在移植向导的"添加帐户信息"页上提交移植订单时，你几乎会输入在 LOA 中提供的所有相同信息，包括：
+当你在移植向导的 **“添加帐户信息** ”页上提交端口订单时，你将输入在 LOA 中提供的几乎所有相同的信息，包括：
   
-- 服务提供商或运营商的帐户编号
+- 服务提供商或运营商的帐号
     
 - 付费电话号码 (BTN)
     
@@ -42,7 +47,7 @@ description: 获取将电话号码移植到 Microsoft Teams。
 - 组织名称
     
     > [!NOTE]
-    > 这仅接受 25 个字符，包括空格。 如果组织名称超过 25 个字符，将提交名称的前 25 个字符，并且仍将处理移植订单。
+    > 这仅接受 25 个字符，包括空格。 如果组织名称超过 25 个字符，则将提交名称的前 25 个字符，并且仍将处理端口顺序。
   
 - 有权对帐户进行更改的人员的姓名
     
@@ -51,59 +56,59 @@ description: 获取将电话号码移植到 Microsoft Teams。
   
 - 服务地址
   
-若要轻松提交移植订单并避免错误，请确保执行以下操作：
+若要简化提交端口订单并避免错误，请确保执行以下操作：
   
-- 删除与 (相关联的任何功能，) "寻线组"。 请确保这些电话号码上未启用高级呼叫控制功能，例如"呼叫寻线"或"独特圈"。
+- 删除任何 (功能，例如与数字关联) 搜寻组。 请确保这些电话号码上未启用高级呼叫控制功能，例如呼叫搜寻或独特环。
     
-- 确保尚未下任何新的服务订单或与当前服务提供商断开连接。
+- 确保未下任何新的服务订单或与当前服务提供商断开连接。
     
 - 请确保所有号码来自同一个运营商和同一帐户。
     
-- 确保你提供的帐户信息与你的电话运营商记录的信息完全匹配。 不匹配的信息是最常见的错误原因，可能会延迟你的移植订单。
+- 确保你提供的帐户信息与你的电话运营商记录的信息完全匹配。 信息不匹配是导致错误的最常见原因，可能会延迟端口顺序。
     
 > [!CAUTION]
-> 不要断开服务与服务提供商或运营商的连接。 必须保持以前的服务处于活动状态，才能将电话号码移植到Teams。 不要冻结你的服务提供商或运营商的帐户。 冻结帐户将导致运营商无法更改帐户。 获得授权的用户需要向当前运营商提交订单来取消冻结。 此过程可能需要一到三周的时间，具体取决于运营商。
+> 请勿断开服务提供商或运营商的连接。 必须保持以前的服务处于活动状态，才能将电话号码移植到 Teams。 请勿冻结服务提供商或运营商的帐户。 冻结帐户将导致运营商无法更改帐户。 获得授权的用户需要向当前运营商提交订单来取消冻结。 此过程可能需要一到三周的时间，具体取决于承运商。
 
-## <a name="authorized-person-on-the-account"></a>帐户的授权人员
+## <a name="authorized-person-on-the-account"></a>帐户上的授权人员
 
-在移植向导中，必须输入有权对服务提供商或运营商的帐户进行更改的人员的姓名。 该名称不用于处理移植订单，但用于争议，或者当号码移植时存在错误的情况。 此人负责处理转 (LOA) 授权书。
+在移植向导中，必须输入有权使用服务提供商或运营商更改帐户的人员的姓名。 该名称不用于处理端口顺序，但在发生争议时使用，或者在移植数字时出现错误时使用。 此人负责端口订单的授权书 (LOA) 。
   
 > [!NOTE]
-> 此框限制为 15 个字符 (包括空格) 。 框中没有完整名称不会延迟或取消移植订单。
+> 该框限制为 15 个字符 (包括空格) 。 框中没有完整名称不会延迟或取消端口订单。
   
-## <a name="whats-my-billing-telephone-number"></a>我的付费电话号码是什么？
+## <a name="whats-my-billing-telephone-number"></a>我的计费电话号码是什么？
 
-按 BTN (收费) 是包含在帐单上且由服务提供商或运营商计费的主电话号码。 如果要从只有一个电话号码的帐户转移电话号码，则需要输入此电话号码。 如果要从具有多个帐户转移电话号码，可以查看帐单或联系服务提供商或运营商，确定您的帐户的 BTN 是什么。
+ (BTN) 的计费电话号码是账单上包含的主要电话号码，由服务提供商或运营商计费。 如果要从只有一个电话号码的帐户传输电话号码，则需要输入此电话号码。 如果要从拥有多个帐户的帐户传输电话号码，可以查看帐单或联系服务提供商或运营商以确定你的帐户的 BTN。
 
-## <a name="what-should-i-put-in-for-the-account-number"></a>我应该为帐号放入什么？
+## <a name="what-should-i-put-in-for-the-account-number"></a>应该为帐号放什么？
 
-通常，可以在服务提供商或运营商提供的任何帐单或发票上找到帐号，也可以登录到运营商的网站。 如果仍然不知道帐号，可以联系服务提供商或运营商获取。
+通常，你可以从服务提供商或运营商处找到任何帐单或发票上的帐号，也可以登录到运营商的网站。 如果仍然不知道帐户号，可以联系服务提供商或运营商来获取它。
   
 > [!CAUTION]
->  请务必确保在输入服务提供商或运营商帐号时不使用空格、短划线或连字符。
+>  输入服务提供商或运营商帐户号时，请务必确保不使用空格、短划线或连字符。
 
-## <a name="what-should-i-put-in-for-the-organization-name"></a>我应该输入什么作为组织名称？
+## <a name="what-should-i-put-in-for-the-organization-name"></a>我应该为组织名称输入哪些内容？
 
-这是组织的名称。 组织名称限制为 25 个字符，其中包括空格。 公司名称不用于处理移植订单请求。 它在存在争议时或当电话号码被移植时出错时使用。 如果框中不能容纳公司全名，它不会延迟或取消移植订单。
+这是组织的名称。 组织名称限制为 25 个字符，其中包括空格。 公司名称不用于处理端口订单请求。 在发生争执时或在转网电话号码时出现错误时，将使用它。 如果无法将公司的整个名称装在框中，则不会延迟或取消端口订单。
   
-## <a name="what-should-i-put-in-for-the-service-address"></a>我应该输入什么作为服务地址？
+## <a name="what-should-i-put-in-for-the-service-address"></a>应为服务地址放入哪些内容？
 
-服务地址不同于向电话服务提供商或运营商注册的帐单或紧急地址。 如果不知道此地址，请联系服务提供商或运营商，了解帐户上列出的服务地址。
+服务地址不同于已向电话服务提供商或运营商注册的计费或紧急地址。 如果不知道这一点，请联系服务提供商或运营商，了解帐户上列出的服务地址。
 
-## <a name="how-should-i-enter-the-phone-numbers"></a>如何输入电话号码？
+## <a name="how-should-i-enter-the-phone-numbers"></a>应如何输入电话号码？
 <a name="bkadding"> </a>
 
-提交移植订单时，必须使用格式正确的 CSV 文件来提交电话号码。 下面是 CSV 文件的要求：
+提交端口订单时，必须使用格式正确的 CSV 文件提交电话号码。 以下是 CSV 文件的要求：
 
- - 你可以为文件指定任何需要的名称。
- - 该文件必须只有一列，其标头名为 PhoneNumber。
- - 每个电话号码必须位于单独的行中。
- - 电话数字只能是数字，也可以采用 E.164 格式。
- - 电话号码格式必须与所选国家/地区匹配。 例如，如果在移植向导中选择"英国"，请使用 44，即国家/地区代码，后跟具有正确位数的电话号码。 例如，4420812341234。
+ - 可以为文件提供所需的任何名称。
+ - 该文件只能有一个标题为 PhoneNumber 的列。
+ - 每个电话号码必须位于单独的行上。
+ - 电话号码只能是数字或 E.164 格式。
+ - 电话号码格式必须与所选国家/地区匹配。 例如，如果在移植向导中选择英国，请使用 44，即国家/地区代码，后跟电话号码和正确的数字。 例如，4420812341234。
 
-## <a name="how-do-i-see-the-status-of-my-port-order"></a>如何查看我的移植订单的状态？
+## <a name="how-do-i-see-the-status-of-my-port-order"></a>如何实现查看我的端口订单的状态？
 
-[请参阅你的移植订单的状态是什么？](port-order-status.md)
+查看 [端口订单的状态如何？](port-order-status.md)
 
 ## <a name="related-topics"></a>相关主题
 

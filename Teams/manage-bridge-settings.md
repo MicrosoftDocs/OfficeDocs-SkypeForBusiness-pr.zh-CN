@@ -1,7 +1,7 @@
 ---
-title: 管理 Teams 中的网桥设置
-author: SerdarSoysal
-ms.author: serdars
+title: 在 Teams 中管理网桥设置
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: ''
 ms.topic: article
@@ -17,19 +17,19 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 了解如何在 Microsoft Teams
-ms.openlocfilehash: 4fb6a51b7413f9a4137cda70467003d7c0009498
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+description: 了解如何在 Microsoft Teams 中管理网桥设置
+ms.openlocfilehash: 2246092be07c68e38534f20e6e370c1a73aaae76
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62401636"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789347"
 ---
-# <a name="manage-bridge-settings-in-teams"></a>管理 Teams 中的网桥设置
+# <a name="manage-bridge-settings-in-teams"></a>在 Teams 中管理网桥设置
 
-在会议或电话Microsoft Teams之前和期间，会议组织者有几个选项用于选择网桥设置。 有关详细信息，请参阅以下文章：
+在 Microsoft Teams 会议或电话呼叫之前和期间，会议组织者有多个选择网桥设置的选项。 有关详细信息，请参阅以下文章：
 
-- [当用户的设置更改时发送给用户的电子邮件Teams](emails-sent-to-users-when-their-settings-change-in-teams.md)
-- [允许用户在加入会议时录制其姓名](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
-- [关闭会议中的进入和退出Teams公告](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
-- [屏蔽电话号码](ptsn-mask-phone-numbers.md)
+- [当用户在 Teams 中的设置更改时发送给用户的电子邮件](emails-sent-to-users-when-their-settings-change-in-teams.md)
+- [让用户在加入会议时记录其姓名](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
+- [在 Teams 会议中关闭进入和退出批注](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
+- [掩码电话号码](ptsn-mask-phone-numbers.md)

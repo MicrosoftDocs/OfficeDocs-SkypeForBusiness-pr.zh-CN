@@ -1,7 +1,7 @@
 ---
 title: 云语音部署指导委员会
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
@@ -16,12 +16,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 0aee75ce49734dad37d4e75b77c224fa82301f0b
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 46fc7550e5ee1e29b603d4124ffc5d6fe9b45951
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674674"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789547"
 ---
 # <a name="steering-committee"></a>指导委员会
 
@@ -71,11 +71,11 @@ ms.locfileid: "65674674"
 | 执行发起人 | 倡导该项目，确保其方向与组织的愿景保持一致。 作为最终权力， 做出委员会不能同意的决定。 | | |
 | 业务决策者 ()  | 倡导该项目，确保其方向与组织的愿景保持一致 | | |
 | 建筑师 | 确保技术决策是可以实现的，并符合商定的业务成果。 | | |
-| 核心Project团队 | 提供有关任何特定组件（技术或非技术 (（例如采用和更改管理）的详细信息)  | | |
+| 核心项目团队 | 提供有关任何特定组件（技术或非技术 (（例如采用和更改管理）的详细信息)  | | |
 | 质量冠军 | 负责汇总质量指标。 | | |
 | Program/Project Manager | 负责将反馈的演示和收集纳入项目。 | | |
 | 合作伙伴帐户团队 | 从更广的角度，从合作伙伴的角度提供反馈，其他合作伙伴活动。 | | |
-| 合作伙伴Project团队 | 从合作伙伴的角度提供有关项目交付的反馈 | | |
+| 合作伙伴项目团队 | 从合作伙伴的角度提供有关项目交付的反馈 | | |
 
 ## <a name="schedule-steering-committee-meetings"></a>安排指导委员会会议 
 
@@ -88,13 +88,13 @@ ms.locfileid: "65674674"
 
 ### <a name="prepare-for-the-meeting"></a>为会议做准备
 
-为了充分利用每个人的时间，你需要为会议做准备。 核心团队可以开始为指导委员会会议准备材料。 可以创建PowerPoint演示文稿来帮助为会议做准备。
+为了充分利用每个人的时间，你需要为会议做准备。 核心团队可以开始为指导委员会会议准备材料。 可以创建 PowerPoint 演示文稿来帮助为会议做准备。
 
 应完成以下资产，并将其包含在会议的演示文稿中：
 
 -   对之前指导委员会操作项的后续操作
 
--   指导委员会PowerPoint，项目高级状态报告
+-   指导委员会 PowerPoint，项目高级状态报告
 
     -   从每月/每季度/每年类型评审开始查看项目。
 
@@ -108,7 +108,7 @@ ms.locfileid: "65674674"
 
     -   关于确定对委员会很重要的 OKR 的报告;请务必包括使用情况、用户情绪、质量和可靠性指标。
 
--   指导委员会PowerPoint，项目每周状态报告
+-   指导委员会 PowerPoint，项目每周状态报告
 
     -   包含突出显示和低光、关键问题和操作项以及后续步骤。
 
@@ -128,7 +128,7 @@ ms.locfileid: "65674674"
 
         -   确定后续步骤以及委员会成员可能需要哪些援助。
 
--   质量概述：使用“[为Teams准备网络](prepare-network.md)”指南。
+-   质量概述：使用 Teams [网络准备](prepare-network.md)指南。
 
     -   准备好深入解释这些质量报告的结果，并包括修正所述任何问题的建议。
 
@@ -190,7 +190,7 @@ ms.locfileid: "65674674"
 
     -   验证策略是否与 OKR 保持一致。
 
-4.  "开始"菜单每次对话中的驱动质量：
+4.  在每次对话中开始提高驾驶质量：
 
     -   阐明了拥有高质量冠军的重要性。
 

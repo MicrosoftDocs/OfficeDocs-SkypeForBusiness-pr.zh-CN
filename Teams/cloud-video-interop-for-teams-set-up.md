@@ -1,7 +1,7 @@
 ---
 title: 设置 Microsoft Teams 的云视频互操作性
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b76e7c5e79b3928c7fb19ad9c5f5fb8f241b29a
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: f9ae7d59a97989d7f0677bf56b46c0a3d51f3e49
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674734"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789327"
 ---
 # <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>设置 Microsoft Teams 的云视频互操作性
 
@@ -32,7 +32,7 @@ ms.locfileid: "65674734"
 
 ## <a name="plan"></a>规划
 
-有关确定要在组织中使用的合作伙伴或合作伙伴的信息，请参阅[云视频互操作Microsoft Teams](cloud-video-interop.md)。
+有关确定要在组织中使用的合作伙伴的信息，请参阅 [适用于 Microsoft Teams 的云视频互操作](cloud-video-interop.md) 。
 
 若要规划基于用户/并发/站点范围的启用：
 
@@ -78,7 +78,7 @@ ms.locfileid: "65674734"
 
 需要为视频电话会议设备提供权限许可 (VTC) 才能通过合作伙伴服务加入组织会议。 此同意链接也将由你的合作伙伴提供。
 
-完成这些步骤后，通过上述 Grant cmdlet 单独启用的用户或组织中的所有用户（如果已启用租户）将在他们安排的所有Teams会议中具有 VTC 坐标。 任何 VTC 都可以通过这些坐标加入这些会议。
+完成这些步骤后，通过上述 Grant cmdlet 单独启用的用户或组织中的所有用户（如果已启用租户）将在他们安排的所有 Teams 会议中具有 VTC 坐标。 任何 VTC 都可以通过这些坐标加入这些会议。
 
 |名称|应用程序权限短说明| 说明|
 |---|---|---|
@@ -89,21 +89,21 @@ ms.locfileid: "65674734"
 
 ## <a name="schedule"></a>附表
 
-接下来，使用视频互操作坐标安排Teams会议。 已启用的用户可以通过以下方式安排团队会议：
+接下来，使用视频互操作坐标安排 Teams 会议。 已启用的用户可以通过以下方式安排团队会议：
 
-- [Teams会议外接程序Outlook](teams-add-in-for-outlook.md)
-- Teams客户端桌面和移动设备
+- [适用于 Outlook 的 Teams 会议加载项](teams-add-in-for-outlook.md)
+- Teams 客户端桌面和移动设备
 
 ## <a name="join"></a>Join
 
-可以通过以下方式与 VTC 设备加入Teams会议：
+可以通过以下方式将 Teams 会议与 VTC 设备联接：
 
 - IVR (交互式语音响应) 
   - 可以使用tenantkey@domain拨入合作伙伴的 IVR。
-  - 加入合作伙伴 IVR 后，系统会提示输入 VTC conferenceId，然后将你连接到Teams会议。
+  - 加入合作伙伴 IVR 后，系统会提示输入 VTC conferenceId，然后将你连接到 Teams 会议。
 - 直拨
-  - 可以使用租户密钥的完整字符串使用直接拨号功能直接拨入Teams会议，而无需与合作伙伴的 IVR 进行交互。VTC ConferenceId@domain。
+  - 可以使用租户密钥的完整字符串使用直接拨号功能直接拨入 Teams 会议，而无需与合作伙伴的 IVR 进行交互。VTC ConferenceId@domain。
 - 单击拨号
-  - 如果你有一个集成的Teams室，则可以使用合作伙伴 (提供的一触式拨号功能，而无需键入任何拨号字符串) 。
+  - 如果你有一个集成的 Teams 会议室，则可以使用合作伙伴 (提供的一触式拨号功能，而无需键入任何拨号字符串) 。
 
-最后，使用音频、视频和内容共享与会议中的Teams用户互动。
+最后，在会议中使用音频、视频和内容共享与 Teams 用户互动。

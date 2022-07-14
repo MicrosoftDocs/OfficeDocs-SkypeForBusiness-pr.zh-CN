@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: 查看 (哪些 USB 外围设备（例如耳机、免提电话、网络摄像头和监视器）) 通过 Microsoft Teams 认证。
-ms.openlocfilehash: 7df6ca32a359931a62935d68257583c4d499aa93
-ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
+ms.openlocfilehash: c56b6c50ff9873aa2eace6a790f484065697f855
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "66647654"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789157"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>经 Microsoft Teams 认证的 USB 音频和视频设备
 
@@ -84,6 +84,9 @@ ms.locfileid: "66647654"
 |戴尔                 |WB5023 相机                                              |6/29/2022       |Microsoft Teams 认证                           |
 |EPOS                 |ADAPT 560 II 耳机                                       |6/22/2022       |Microsoft Teams 认证                           |
 |EPOS                 |C10/C20/C50 系列耳机                                |5/31/2022       |Microsoft Teams 认证                           |
+|Jabra                |Engage55 Mono/Stereo 耳机                               |5/25/2022       |Microsoft Teams 认证                           |
+|EPOS                 |EXPAND 40T 扬声器                                    |5/24/2022       |Microsoft Teams 认证                           | 
+|戴尔                 |U3223QZ Monitor                                            |5/24/2022       |Microsoft Teams 认证                           |
 |聚                 |Studio P21 Monitor                                         |5/12/2022       |Microsoft Teams 认证                           |
 |Yealink              |UH38 耳机                                               |5/2/2022        |Microsoft Teams 认证                           |   
 |Yealink              |BH72 耳机                                               |5/2/2022        |Microsoft Teams 认证                           |

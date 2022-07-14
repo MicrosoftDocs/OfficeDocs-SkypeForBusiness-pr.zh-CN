@@ -1,7 +1,7 @@
 ---
 title: Teams 教育版策略向导轻松应用策略以进行安全学习
-author: serdars
-ms.author: serdars
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: shajohri, angch
 ms.topic: article
@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何使用Teams 教育版策略向导轻松地为学生和教师应用策略，以确保学习环境的安全。
 f1keywords: ''
-ms.openlocfilehash: 245739f06d86459f119d9f5d0a37e67ac4098953
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 833e4b16ca617d06fcc3ace770e2548f6e05a0bb
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675914"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66790227"
 ---
 # <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>使用Teams 教育版策略向导轻松为安全学习环境应用策略
 
@@ -30,9 +30,9 @@ ms.locfileid: "65675914"
 
 Microsoft Teams 教育版策略向导简化了对学生和教师的管理策略。 使用它可以轻松快速地应用与创建安全高效的学习体验相关的最重要的一组策略。
 
-Teams中的策略可让你控制Teams在环境中的行为方式以及用户可用的功能。 例如，有调用策略、会议策略和消息传送策略（仅举几例），并且可以自定义每个策略区域以满足组织的需求。
+Teams 中的策略允许你控制 Teams 在环境中的行为方式以及用户可用的功能。 例如，有调用策略、会议策略和消息传送策略（仅举几例），并且可以自定义每个策略区域以满足组织的需求。
 
-若要维护安全且专注的学习环境，请务必设置策略来控制学生在Teams中可以执行的操作。 例如，可以使用策略来控制谁可以使用私人聊天和私人呼叫、谁可以安排会议以及哪些内容类型可以共享。 还可以使用策略启用Teams功能，从而丰富学习体验。
+若要维护安全且专注的学习环境，请务必设置策略来控制学生在 Teams 中可以执行的操作。 例如，可以使用策略来控制谁可以使用私人聊天和私人呼叫、谁可以安排会议以及哪些内容类型可以共享。 还可以使用策略来启用用于丰富学习体验的 Teams 功能。
 
 必须调整学生和教师的政策，以确保学习体验的安全。 学生的政策需要更加严格，以降低他们获得不当访问权限的风险。 教师和工作人员需要一组单独的政策，这些政策可以更宽松，使他们能够取得成功。 例如，允许教师安排会议并限制学生这样做。
 
@@ -56,7 +56,7 @@ Teams中的策略可让你控制Teams在环境中的行为方式以及用户可�
 
 只需运行向导一次。 新学生会自动获取向导应用的全局 (组织范围的默认) 策略定义，而你添加到所选组的新员工会自动分配自定义策略。
 
-此外，每当向Teams添加新功能时，该功能的相应 EDU 相关默认值将自动添加到全局 (组织范围的默认) ，而无需任何管理员干预。 这有助于确保制定正确的策略来保证学生的安全和参与。
+此外，每当向 Teams 添加新功能时，该功能的相应 EDU 相关默认值将自动添加到全局 (组织范围的默认) ，而无需任何管理员干预。 这有助于确保制定正确的策略来保证学生的安全和参与。
 
 > [!NOTE]
 > 有关向导应用的策略定义的详细列表，请参阅 [向导应用](#policies-applied-by-the-wizard) 的策略。
@@ -69,7 +69,7 @@ Teams中的策略可让你控制Teams在环境中的行为方式以及用户可�
 
 按照以下步骤运行向导。
 
-1. 如果你是新Teams，向导会自动启动。 否则，可以随时从仪表板启动向导。 在Microsoft Teams管理中心的左侧导航中，转到 **“开始**”，然后在 **“简易策略”设置中选择安全学习环境** 磁贴，选择 **“快速设置**”。
+1. 如果你是 Teams 的新手，向导会自动启动。 否则，可以随时从仪表板启动向导。 在 Microsoft Teams 管理中心的左侧导航中，转到 **“主页**”，然后在 **“简易策略设置”中，选择安全学习环境** 磁贴，选择 **“快速设置**”。
 
     :::image type="content" source="media/easy-policy-setup-quick-setup.png" alt-text="仪表板中向导的屏幕截图。":::
 
@@ -97,15 +97,15 @@ Teams中的策略可让你控制Teams在环境中的行为方式以及用户可�
 ### <a name="step-1-remove-existing-policy-assignments-that-conflict-with-policies-applied-by-the-wizard"></a>步骤 1：删除与向导应用的策略冲突的现有策略分配
 
 > [!IMPORTANT]
-> **仅当在运行向导之前已将现有策略分配给学生、教师和教职员工 *时* ，才完成此步骤**。 如果你不新Teams，并且除了向导创建的策略之外没有任何现有策略，请跳过此策略并转到步骤 2。
+> **仅当在运行向导之前已将现有策略分配给学生、教师和教职员工 *时* ，才完成此步骤**。 如果你是 Teams 的新手，并且除了向导创建的策略之外没有任何现有策略，请跳过此策略并转到步骤 2。
 
-在Teams中，对于给定策略区域，可以通过以下方式将策略应用到用户：
+在 Teams 中，对于给定策略区域，可以通过以下方式将策略应用到用户：
 
 - 直接分配给用户
 - 分配给用户所属的组
 - 如果用户未直接分配策略或不是分配了策略的任何组的成员，则用户会自动获取全局 (组织范围的默认) 策略
 
-如果用户存在多个策略分配，Teams使用以下顺序来确定哪些策略分配生效。 有关详细信息，请参阅 [哪个策略对组具有优先级](policy-assignment-overview.md#which-policy-takes-precedence) 或 [优先级规则](assign-policies-users-and-groups.md#precedence-rules)。
+如果用户存在多个策略分配，Teams 将使用以下顺序来确定哪些策略分配生效。 有关详细信息，请参阅 [哪个策略对组具有优先级](policy-assignment-overview.md#which-policy-takes-precedence) 或 [优先级规则](assign-policies-users-and-groups.md#precedence-rules)。
 
 |用户的策略分配|生效的策略|
 |---|---|
@@ -131,15 +131,15 @@ Teams中的策略可让你控制Teams在环境中的行为方式以及用户可�
 
 向导会自动调整并应用 [这些策略](#policies-applied-by-the-wizard)。 几乎没有其他措施，你可能希望根据你的机构的需要来确保安全。
 
-有关其他安全建议，请参阅[使用Teams进行远程学习时确保学生的安全](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8#ID0EBBAAA)。
+有关其他安全建议，请参阅 [使用 Teams 进行远程学习时确保学生的安全](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8#ID0EBBAAA) 。
 
 <a name="polwiz_mc"> </a>
 
 ### <a name="step-3-check-message-center-for-policy-updates"></a>步骤 3：检查消息中心是否有策略更新
 
-目前，向导在运行时应用建议的策略。 请务必知道，随着新策略在Teams中可用，向导会自动更新全局 (组织范围的针对学生安全的默认) 设置。
+目前，向导在运行时应用建议的策略。 请务必知道，随着新策略在 Teams 中可用，向导会自动更新全局 (组织范围的针对学生安全的默认) 设置。
 
-但是，请经常检查Microsoft 365 管理中心) 中[的消息中心](https://admin.microsoft.com/AdminPortal/Home?#/MessageCenter) (，了解新功能及其Teams中的策略和策略设置。
+但是，请经常检查Microsoft 365 管理中心) 中[的消息中心](https://admin.microsoft.com/AdminPortal/Home?#/MessageCenter) (，以随时了解 Teams 中的新功能及其策略和策略设置。
 
 ## <a name="make-changes-in-the-wizard"></a>在向导中进行更改
 
@@ -147,7 +147,7 @@ Teams中的策略可让你控制Teams在环境中的行为方式以及用户可�
 
 如果在运行向导后需要进行更改，可以重新运行该向导并更改所选内容。
 
-1. 在Microsoft Teams管理中心的左侧导航中，转到 **“开始**”，然后在 **“简易策略”设置中选择“安全学习环境**”磁 **贴。**
+1. 在 Microsoft Teams 管理中心的左侧导航中，转到 **“开始**”，然后在 **“简易策略”设置中选择“安全学习环境** ”磁贴，选择 **“更改**”。
 2. 在此处，请继续浏览向导的每个页面以进行更改。 可以更改你的机构类型、要为其分配策略的教师和工作人员组，或者同时更改这两者。
 
 下表汇总了在向导中进行更改时发生的情况。
@@ -164,7 +164,7 @@ Teams中的策略可让你控制Teams在环境中的行为方式以及用户可�
 
 ### <a name="policy-areas"></a>策略区域
 
-下面是向导涵盖的策略区域和相应的策略名称。 若要查找这些策略，请转到Microsoft Teams管理中心，然后在左侧导航中转到每个策略区域页面。
+下面是向导涵盖的策略区域和相应的策略名称。 若要查找这些策略，请转到 Microsoft Teams 管理中心，然后在左侧导航中转到每个策略区域页面。
 
 #### <a name="students"></a>[**学生**](#tab/students/)
 
@@ -182,7 +182,7 @@ Teams中的策略可让你控制Teams在环境中的行为方式以及用户可�
 
 |策略区域|主要或辅助策略名称|高等教育策略名称|
 |---|---|---|
-|Teams 策略|初级或辅助教师和教职员工 - Teams|高等教育教师和教职员工 - Teams|
+|Teams 策略|初级或辅助教师和教职员工 - Teams|高等教育教师和教职员工 - 团队|
 |会议策略|初级或辅助教师和教职员工 - 会议|高等教育教师和教职员工 - 会议|
 |实时事件策略|主要或辅助教师和教职员工 - 直播活动|高等教育教师和教职员工 - 直播活动|
 |消息传递策略|主要或辅助教师和教职员工 - 消息传送|高等教育教师和教职员工 - 消息传送|
@@ -210,7 +210,7 @@ Teams中的策略可让你控制Teams在环境中的行为方式以及用户可�
 |||允许安排频道会议|关闭|开|
 |||允许安排私人会议|关闭|开|
 |||允许会议注册|开|开|
-|||Who可以注册|组织中的每个人|组织中的每个人|
+|||谁可以注册|组织中的每个人|组织中的每个人|
 ||音频&视频|转录|开|开|
 |||云录制|关闭|开|
 |||IP 音频模式|已启用传出和传入音频|已启用传出和传入音频|
@@ -221,7 +221,7 @@ Teams中的策略可让你控制Teams在环境中的行为方式以及用户可�
 ||内容共享|屏幕共享模式|整个屏幕|整个屏幕|
 |||允许参加者授予或请求控制权|开|开|
 |||允许外部参加者授予或请求控制权|开|开|
-|||PowerPoint共享|开|开|
+|||PowerPoint 共享|开|开|
 |||白板|开|开|
 |||共享笔记|开|开|
 ||参与者&来宾|允许匿名人员发起会议|关闭|开|
@@ -234,7 +234,7 @@ Teams中的策略可让你控制Teams在环境中的行为方式以及用户可�
 |实时事件策略||实时事件计划|关闭|关闭|
 |||与会者听录|开|开|
 |||可以加入已计划实时事件的用户|组织中的每个人|组织中的每个人|
-|||Who可以记录事件|总是|总是|
+|||谁可以记录事件|总是|总是|
 |消息传递策略||所有者可以删除已发送的消息|关闭|开|
 |||删除已发送的消息|关闭|开|
 |||编辑已发送的消息|关闭|开|
@@ -254,7 +254,7 @@ Teams中的策略可让你控制Teams在环境中的行为方式以及用户可�
 |应用权限策略||Microsoft 应用|阻止特定应用并允许其他所有> Walkie Talkie 被阻止|允许所有应用|
 |||第三方应用|允许所有应用|允许所有应用|
 |||自定义应用|允许所有应用|允许所有应用|
-|应用设置策略||Upload自定义应用|关闭|关闭|
+|应用设置策略||上传自定义应用|关闭|关闭|
 |||用户固定|开|开|
 |||已安装的应用|无|无|
 |||固定应用|活动、日历、Teams|活动、聊天、Teams、日历、呼叫、文件
@@ -283,7 +283,7 @@ Teams中的策略可让你控制Teams在环境中的行为方式以及用户可�
 |||允许安排频道会议|开|开|
 |||允许安排私人会议|开|开|
 |||允许会议注册|开|开|
-|||Who可以注册|组织中的每个人|组织中的每个人|
+|||谁可以注册|组织中的每个人|组织中的每个人|
 ||音频&视频|转录|开|开|
 |||云录制|开|开|
 |||IP 音频模式|已启用传出和传入音频|已启用传出和传入音频|
@@ -294,7 +294,7 @@ Teams中的策略可让你控制Teams在环境中的行为方式以及用户可�
 ||内容共享|屏幕共享模式|整个屏幕|整个屏幕|
 |||允许参加者授予或请求控制权|开|开|
 |||允许外部参加者授予或请求控制权|开|开|
-|||PowerPoint共享|开|开|
+|||PowerPoint 共享|开|开|
 |||白板|开|开|
 |||共享笔记|开|开|
 ||参与者&来宾|允许匿名人员发起会议|开|开|
@@ -307,7 +307,7 @@ Teams中的策略可让你控制Teams在环境中的行为方式以及用户可�
 |实时事件策略||实时事件计划|开|开|
 |||与会者听录|开|开|
 |||可以加入已计划实时事件的用户|组织中的每个人|组织中的每个人|
-|||Who可以记录事件|Always record|Always record|
+|||谁可以记录事件|Always record|Always record|
 |消息传递策略||所有者可以删除已发送的消息|开|开|
 |||删除已发送的消息|开|开|
 |||编辑已发送的消息|开|开|
@@ -338,4 +338,4 @@ Teams中的策略可让你控制Teams在环境中的行为方式以及用户可�
 
 - [用于教育的 Teams 策略和策略包](policy-packages-edu.md)
 - [为学校中的大量用户分配策略](batch-group-policy-assignment-edu.md)
-- [在使用Teams进行远程学习时确保学生安全](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8)
+- [使用 Teams 进行远程学习时确保学生安全](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8)

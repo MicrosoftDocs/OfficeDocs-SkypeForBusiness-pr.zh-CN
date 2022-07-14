@@ -1,7 +1,7 @@
 ---
 title: 'CQD (调用质量仪表板) 常见问题解答 (常见问题解答) '
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, siunies, gageames
 ms.topic: article
@@ -20,13 +20,13 @@ f1.keywords:
 ms.custom:
 - Reporting
 - seo-marvel-apr2020
-description: 阅读常见问题解答 (常见问题解答) ，以及有关Microsoft Teams呼叫质量仪表板 (CQD) 的解答。
-ms.openlocfilehash: f320bab549ee322c1254babd0feb49cc24419215
-ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+description: 阅读常见问题解答 (常见问题解答) 以及有关 Microsoft Teams 通话质量仪表板 (CQD) 的解答。
+ms.openlocfilehash: 862967138321b1855f2fdc5b0c8b6ce6caca887f
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65823201"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789387"
 ---
 # <a name="call-quality-dashboard-cqd-frequently-asked-questions-faq"></a>CQD (调用质量仪表板) 常见问题解答 (常见问题解答) 
 
@@ -40,13 +40,13 @@ ms.locfileid: "65823201"
 
 [我尝试将 CQD 用于使用情况类型的报表，发现某些数据不完整 - 为什么会这样？](#im-trying-to-use-cqd-for-usage-type-reports-and-find-that-some-of-the-data-is-incomplete----why-is-that)
 
-[仅筛选Teams时，为什么在 CQD 中看到Skype for Business信息？](#why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only)
+[为什么在仅针对 Teams 进行筛选时，在 CQD 中看到Skype for Business信息？](#why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only)
 
 [为什么当我知道应该有更多的条目时，我的自定义报表最多只返回 10，000 行？](#why-do-my-custom-reports-only-return-a-maximum-of-10000-rows-when-i-know-there-should-be-more-entries)
 
 [为什么Wi-Fi VPN 连接显示为有线而不是 Wi-Fi？](#why-do-wi-fi-vpn-connections-show-as-wired-instead-of-wi-fi)
 
-[我在Teams中启用了基于策略的录制，现在对等呼叫被标记为会议 - 发生了什么？](#i-turned-on-policy-based-recording-in-teams-and-now-peer-to-peer-calls-are-being-marked-as-conferences----what-happened)
+[我在 Teams 中启用了基于策略的录制，现在对等呼叫被标记为会议 - 发生了什么？](#i-turned-on-policy-based-recording-in-teams-and-now-peer-to-peer-calls-are-being-marked-as-conferences----what-happened)
 
 ### <a name="why-does-cqd-mark-a-call-as-good-if-one-or-more-meeting-participants-had-a-poor-experience"></a>如果一个或多个会议参与者体验不佳，为什么 CQD 会将呼叫标记为“良好”？
 
@@ -83,44 +83,44 @@ ms.locfileid: "65823201"
 
 这些管理员角色可以访问 CQD，但无法查看 EUII (最终用户可识别信息) ：
 
-- Microsoft 365报表读取者
-- Teams通信支持专家
+- Microsoft 365 报表阅读器
+- Teams 通信支持专家
 
 若要详细了解可访问 CQD 的角色（包括 EUII），请阅读 [分配用于访问 CQD 的角色](turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd)。
 
 ### <a name="im-trying-to-use-cqd-for-usage-type-reports-and-find-that-some-of-the-data-is-incomplete----why-is-that"></a>我尝试将 CQD 用于使用情况类型的报表，发现某些数据不完整 - 为什么会这样？
 
-CQD、呼叫分析、CallRecord 图形 API 和实时分析等呼叫质量管理工具基于诊断遥测数据。 我们在Teams呼叫质量管理工具中显示的信息仅与我们从参与呼叫的客户端收到的遥测数据一样完整。 我们可能无法收到完整的遥测数据（例如网络中断、 [防火墙或代理配置错误](/microsoft-365/enterprise/urls-and-ip-address-ranges)）的原因有多种。 我们将继续努力提高Teams客户端向服务提供遥测数据的可靠性和复原能力。
+CQD、呼叫分析、CallRecord 图形 API 和实时分析等呼叫质量管理工具基于诊断遥测数据。 我们在 Teams 呼叫质量管理工具中显示的信息仅与我们从参与呼叫的客户端收到的遥测数据一样完整。 我们可能无法收到完整的遥测数据（例如网络中断、 [防火墙或代理配置错误](/microsoft-365/enterprise/urls-and-ip-address-ranges)）的原因有多种。 我们将继续努力提高 Teams 客户端向服务提供遥测数据的可靠性和复原能力。
 
-考虑到这一点，我们不支持使用调用质量管理工具进行使用情况报告。 它们不是为适应这些类型的报告方案而设计的，也不适用于这些类型的报告方案，而且许多使用情况统计信息在这些工具中不可用且不可用。 Teams 管理员中心提供一系列[使用情况报告](teams-analytics-and-reports/teams-reporting-reference.md)，并直接从Teams客户端提供[会议出席情况报告](teams-analytics-and-reports/meeting-attendance-report.md)。
+考虑到这一点，我们不支持使用调用质量管理工具进行使用情况报告。 它们不是为适应这些类型的报告方案而设计的，也不适用于这些类型的报告方案，而且许多使用情况统计信息在这些工具中不可用且不可用。 Teams 管理员中心提供一系列[使用情况报告](teams-analytics-and-reports/teams-reporting-reference.md)，并且可以直接从 Teams 客户端获得[会议出席情况报告](teams-analytics-and-reports/meeting-attendance-report.md)。
 
-### <a name="why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only"></a>仅筛选Teams时，为什么在 CQD 中看到Skype for Business信息？
+### <a name="why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only"></a>为什么在仅针对 Teams 进行筛选时，在 CQD 中看到Skype for Business信息？
 
-仅在 CQD 报表 (isTeams = 1) 中筛选Teams时，将筛选 *第一个终结点* Teams的所有调用。 如果Skype for Business第 *二个终结点*，则该信息将显示在 CQD 报表中。 根据客户的方案，在配置[呼叫数据连接器](/skypeforbusiness/hybrid/plan-call-data-connector)时，CQD 可能包括 2019 Skype for Business Server调用。 它还可能包括 Skype 机器人调用 (AA、CVI、VDI) 、实时事件和 PSTN 调用。
+仅在 CQD 报表中筛选 Teams (isTeams = 1) 时，将筛选 *第一个终结点* 为 Teams 的所有调用。 如果Skype for Business第 *二个终结点*，则该信息将显示在 CQD 报表中。 根据客户的方案，在配置[呼叫数据连接器](/skypeforbusiness/hybrid/plan-call-data-connector)时，CQD 可能包括 2019 Skype for Business Server调用。 它可能还包括 Skype Bot 呼叫 (AA、CVI、VDI) 、实时事件和 PSTN 调用。
 
 可以通过筛选第一个 *用户代理类别* 和第二个 *用户代理类别* 等维度，从查询中删除Skype for Business信息。 还可以使用将第一个和第二个维度合并为单个筛选器的 *用户代理类别对* 。
 
 ### <a name="why-do-my-custom-reports-only-return-a-maximum-of-10000-rows-when-i-know-there-should-be-more-entries"></a>为什么当我知道应该有更多的条目时，我的自定义报表最多只返回 10，000 行？
 
-CQD 专为汇总的数据查询而设计，并非为数据导出而设计。 建议尽可能重新调整报表，以防止超过 10，000 行限制。 "开始"菜单使用更广泛的低基数维度（如月份、年份、日期、区域、国家/地区等）查看 KPI。 可以从那里向下钻取到越来越高的基数维度。 Helpdesk 和 Location-Enhanced 报表都提供了此向下钻取工作流的良好示例。
+CQD 专为汇总的数据查询而设计，并非为数据导出而设计。 建议尽可能重新调整报表，以防止超过 10，000 行限制。 首先，使用更广泛的低基数维度（如月份、年份、日期、区域、国家/地区等）查看 KPI。 可以从那里向下钻取到越来越高的基数维度。 Helpdesk 和 Location-Enhanced 报表都提供了此向下钻取工作流的良好示例。
 
 ### <a name="why-do-wi-fi-vpn-connections-show-as-wired-instead-of-wi-fi"></a>为什么Wi-Fi VPN 连接显示为有线而不是 Wi-Fi？
 
 这是预期行为。 VPN 供应商创建了一个虚拟以太网适配器，该适配器被视为有线连接。 由于未正确标记，因此操作系统不知道它是一个Wi-Fi连接，并将其报告为有线连接。
 
-### <a name="i-turned-on-policy-based-recording-in-teams-and-now-peer-to-peer-calls-are-being-marked-as-conferences----what-happened"></a>我在Teams中启用了基于策略的录制，现在对等呼叫被标记为会议 - 发生了什么？
+### <a name="i-turned-on-policy-based-recording-in-teams-and-now-peer-to-peer-calls-are-being-marked-as-conferences----what-happened"></a>我在 Teams 中启用了基于策略的录制，现在对等呼叫被标记为会议 - 发生了什么？
 
-在Microsoft Teams中启用基于策略的录制时，这是预期的行为。 基于策略的录制使用部署在Microsoft Azure中的Teams记录器机器人来捕获会议内容以实现合规性目的。 在呼叫质量管理中，“对等”是对媒体流量的描述，而不是用户之间的交互。 由于记录器机器人本身是呼叫的一方，因此调用不再是对等的，而是多方调用。 多方呼叫按Microsoft Teams分类为会议，因此当你在 CQD 和其他呼叫质量工具中查看这些呼叫时，会显示这些呼叫。
+在 Microsoft Teams 中启用基于策略的录制时，这是预期的行为。 基于策略的录制使用部署在 Microsoft Azure 中的 Teams 记录器机器人来捕获会议内容以实现符合性目的。 在呼叫质量管理中，“对等”是对媒体流量的描述，而不是用户之间的交互。 由于记录器机器人本身是呼叫的一方，因此调用不再是对等的，而是多方调用。 多方呼叫被 Microsoft Teams 分类为会议，因此在 CQD 和其他呼叫质量工具中查看这些呼叫时，会显示这些呼叫。
 
 ## <a name="related-articles"></a>相关文章
 
-[改进和监视Teams的呼叫质量](monitor-call-quality-qos.md)
+[改进和监视 Teams 的呼叫质量](monitor-call-quality-qos.md)
 
 [什么是 CQD？](CQD-what-is-call-quality-dashboard.md)
 
 [设置呼叫质量仪表板 (CQD) ](turning-on-and-using-call-quality-dashboard.md)
 
-[Upload租户和生成数据](CQD-upload-tenant-building-data.md)
+[上传租户和生成数据](CQD-upload-tenant-building-data.md)
 
 [CQD 数据和报表](CQD-data-and-reports.md)
 
@@ -130,6 +130,6 @@ CQD 专为汇总的数据查询而设计，并非为数据导出而设计。 建
 
 [CQD 中的流分类](stream-classification-in-call-quality-dashboard.md)
 
-[使用Power BI分析 CQD 数据](CQD-Power-BI-query-templates.md)
+[使用 Power BI 分析 CQD 数据](CQD-Power-BI-query-templates.md)
 
 [Teams 疑难解答](/MicrosoftTeams/troubleshoot/teams)

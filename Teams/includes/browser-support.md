@@ -23,4 +23,4 @@ Teams 完全支持以下 Internet 浏览器，存在特别提出的通话和会�
 > [!NOTE]
 > 在浏览器中运行 Teams，支持符合 [Microsoft Teams 最低硬件要求](../hardware-requirements-for-the-teams-app.md) 的电脑和 Mac。 例如，可以通过在 Linux 操作系统上运行 Firefox 来使用 Teams。
 >
-> 在移动设备上，建议使用 Teams 应用。 Teams 应用可从 Android 和 iOS 商店获得。 支持在移动设备上的浏览器中运行 Teams，但许多功能不可用。
+> 在移动设备上，建议使用 Teams 应用。 Teams 应用可从 Android 和 iOS 商店获得。
