@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 了解如何在 Microsoft Teams 中使用和管理共享频道。
-ms.openlocfilehash: 11abe6245dea7ee72bc2f71b412addbed5aa6e30
-ms.sourcegitcommit: e38776625a3623216b0d5f092fffaff67519b1a6
+ms.openlocfilehash: 9a547963854f981e723d29b1472c2bda808b90c2
+ms.sourcegitcommit: 8fc2d6a824e1e119f54ea2347bc5c10cc076956d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66057052"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "66773761"
 ---
 # <a name="shared-channels-in-microsoft-teams"></a>Microsoft Teams 中的共享频道
 
@@ -94,7 +94,7 @@ Microsoft Teams 中的共享频道可创建协作空间，你可以在其中邀�
 
 ## <a name="shared-channel-sharepoint-sites"></a>共享频道 SharePoint 网站
 
-每个共享频道都有 [自己的 SharePoint 网站](/SharePoint/teams-connected-sites)。 单独的网站用于确保只有共享频道成员才能有权访问共享频道文件。 默认情况下，这些网站集是使用文档库创建的，并且可通过[网站管理界面](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04)轻松增强为功能齐全的网站集。 每个网站创建在与父团队网站相同的地理区域创建。 这些轻型网站具有自定义模板 ID“TEAMCHANNEL#0”，可通过 PowerShell 和 Graph API 实现更轻松的管理。 
+每个共享频道都有 [自己的 SharePoint 网站](/SharePoint/teams-connected-sites)。 单独的网站用于确保只有共享频道成员才能有权访问共享频道文件。 默认情况下，这些网站集是使用文档库创建的，并且可通过[网站管理界面](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04)轻松增强为功能齐全的网站集。 每个网站创建在与父团队网站相同的地理区域创建。 这些轻型网站具有自定义模板 ID "TEAMCHANNEL#1"，可通过 PowerShell 和 Graph API 实现更轻松的管理。 
 
 共享频道网站继承父团队的敏感度标签。 即使频道直接与另一个团队共享，也是如此。
 
