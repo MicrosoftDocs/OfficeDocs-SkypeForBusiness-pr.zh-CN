@@ -1,7 +1,7 @@
 ---
 title: 管理会议设置
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: sonua
 ms.topic: article
@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 了解如何管理用户在组织中安排的 Teams 会议的设置。
-ms.openlocfilehash: 10afbcc30404122e9e4d497570bf0b69e4ef6fa7
-ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
-ms.translationtype: MT
+ms.openlocfilehash: c76267ae5cd9a19cae272d995a24077a58a7ec6f
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "64642916"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789787"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理会议设置
 
@@ -70,7 +70,7 @@ ms.locfileid: "64642916"
 
 任何其他值组合都将阻止匿名用户加入会议。
 > [!NOTE]
-> 若要详细了解如何管理会议策略，请参阅[管理会议Microsoft Teams](/microsoftteams/meeting-policies-overview)。
+> 要了解有关管理会议策略的详细信息，请参阅 [管理 Microsoft Teams 中的会议策略](/microsoftteams/meeting-policies-overview)。
 
 ### <a name="blocking-anonymous-join-for-specific-client-types"></a>阻止特定客户端类型的匿名联接
 
@@ -179,7 +179,7 @@ ms.locfileid: "64642916"
 |:---             |:---                         |:---    |:---      |:---      |
 |音频            | 50,000–50,019               |TCP/UDP |46        |加速转发 (EF)|
 |视频            | 50,020–50,039               |TCP/UDP |34        |保证转发 (AF41)|
-|应用程序/屏幕共享| 50,040–50,059      |TCP/UDP |18        |保证转发 (AF21)|
+|应用程序/屏幕共享| 50,040–50,059      |TCP/UDP |18         |保证转发 (AF21)|
 | | | | |
 
 \* 分配的端口区域不能重叠，并且应该彼此相邻。
