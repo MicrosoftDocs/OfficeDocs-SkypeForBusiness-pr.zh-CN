@@ -20,21 +20,21 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 46ea03016b329801b5cdd4b422192ff35496dbdd
-ms.sourcegitcommit: e3931446943684db155bb3edf7d7e52d41775013
+ms.openlocfilehash: c7b61ebcc5fa650e7282b48d45862b2649783af7
+ms.sourcegitcommit: 2871c05e00458a0cc76d919ff822b0b354bd1f72
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2022
-ms.locfileid: "65886699"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66810164"
 ---
 # <a name="teams-devices-for-shared-spaces-feature-comparison-between-windows-and-android"></a>Windows 和 Android 之间共享空间的 Teams 设备功能比较 
-Microsoft Teams 会议室体验是考虑到客户设计的。 每个客户都有独特的需求，这就是为什么 Microsoft 提供了广泛的选项，包括 Windows 和 Android 上的 Teams 会议室。 
+Microsoft Teams 会议室体验是考虑到客户而设计的。 每个客户都有独特的需求，这就是为什么 Microsoft 提供了广泛的选项，包括 Windows 和 Android 上的Teams 会议室。 
 
 核心功能在这两个平台上都可用，因此最终用户始终可以拥有出色的音频和视频体验、使用一触式联接加入会议，以及访问包含功能（如实时字幕和举手）。 
 
-随着 Microsoft 为 Teams 和 Teams 会议室带来新功能，我们努力将其引入所有平台，但由于多种因素（包括技术可行性和每个平台的客户反馈等因素），功能可能会在不同时间推出。 这意味着，在一些功能进入 Android 平台之前，可能会在 Windows 上推出一些功能。 
+随着 Microsoft 为 Teams 和Teams 会议室带来新功能，我们努力将其引入所有平台，但由于多种因素（包括技术可行性和每个平台的客户反馈等因素），功能可能会在不同时间推出。 这意味着，在一些功能进入 Android 平台之前，可能会在 Windows 上推出一些功能。 
 
-若要帮助你了解不同平台上可用的功能，可以参考下面的图表，这些图表将定期更新。 并非所有 Teams 会议室功能都将包含在此列表中，因此请继续咨询 [Microsoft 365 路线图](https://www.microsoft.com/en-us/microsoft-365/roadmap) 和 Microsoft 销售代表以了解其他详细信息。    
+若要帮助你了解不同平台上可用的功能，可以参考下面的图表，这些图表将定期更新。 并非所有Teams 会议室功能都将包含在此列表中，因此请继续咨询 [Microsoft 365 路线图](https://www.microsoft.com/en-us/microsoft-365/roadmap)和 Microsoft 销售代表以了解更多详细信息。    
 
 ## <a name="teams-devices-for-shared-spaces"></a>用于共享空间的 Teams 设备
 ### <a name="feature-comparison-between-windows-and-android"></a>Windows 和 Android 之间的功能比较
@@ -77,10 +77,11 @@ Microsoft Teams 会议室体验是考虑到客户设计的。 每个客户都有
 ||连接的外围运行状况监视 |在线  |即将提供 |
 ||远程配置 (重启、设置、日志收集)  |在线  |有空 |
 ||自动 Teams 应用更新 |在线  |有空 |
-||设备自动注册 |在线 |即将提供 |
+||设备自动注册 |在线 |有空 |
 ||调用质量分析 |在线  |有空 |
 |**适用于/空间**|焦点 (2-4 人)  |在线  |有空 |
 ||小 (4-6 人)  |在线  |有空 |
 ||中等 (6-12 人)  |在线  |有空 |
 ||大型 (12-16 人)  |在线  |有空 |
 ||多用途房间 (16 人以上)  |在线  |不可用 |
+

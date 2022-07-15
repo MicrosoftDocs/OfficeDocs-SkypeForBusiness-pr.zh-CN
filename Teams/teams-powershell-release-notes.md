@@ -13,12 +13,12 @@ ms.collection:
 description: 了解 Teams PowerShell 中的最新更改。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 67a05d19d6996062690d00099aa455b3eb60fd57
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.openlocfilehash: 96f2b119c36b26a0c8805bcce29edc2830e1568f
+ms.sourcegitcommit: 2871c05e00458a0cc76d919ff822b0b354bd1f72
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562351"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66810114"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams PowerShell 发行说明
 
@@ -31,6 +31,7 @@ ms.locfileid: "66562351"
 
 | 日期 | 版本 | 更新 |
 |------- | -------------------- | ------------------------------ |
+| 2022 年 7 月 | [4.5.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.5.1-preview) |<li>为 Get-CsOnlineUser cmdlet 发布 AccountType 参数，该参数允许查询特定类型的用户。</li><li>AccountType 属性在指示用户类型的Get-CsOnlineUser输出中添加。 AccountType 的可能值为：“User” (用户帐户) ，“ResourceAccount” (应用终结点或资源帐户) ，“来宾” (来宾帐户) &“未知” (用户类型未知) 。</li><li>修复了 Grant-Cs\<PolicyName\> cmdlet 中排名&组参数的问题。</li>
 | 2022 年 6 月 | [4.5.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.5.0) |<li>支持 Get-CsAutoAttendantStatus cmdlet 的 IncludeResources 参数。</li><li>支持 Get-CsOnlineUser cmdlet 的 SoftDeletedUsers 参数。</li><li>版本 [获取\|授权]-CsTeamsMediaLoggingPolicy cmdlet。</li><li>支持 [New\|Set]-CsAutoAttendant & [New\|Set]-CsCallQueue cmdlet 的 AuthorizedUsers 可选参数。</li><li>修复了共享语音邮件提示参数，其中提示类型在设置为Set-CsCallQueue cmdlet 后无法切换。</li><li> 修复了 [New\|Set]-CsOnlineSchedule cmdlet 以欧洲日期时间格式工作。</li><li>版本 [新建\|Get\|Set\|Remove\|Grant]-CsTeamsVoiceApplicationsPolicy cmdlet。</li><li>发布Get-CsHybridTelephoneNumber cmdlet。</li><li>发布 [New\|Remove]-CsHybridTelephoneNumber cmdlet 的现代化版本。</li><li>支持 ToneStar 和 TonePound 作为 New-CsAutoAttendantMenuOption cmdlet 中 DtmfResponse 参数的值。</li><li> 修复了现代化Set-CsTenantFederationConfiguration cmdlet 中 AllowedDomainsAsAList 参数中的 PSListModifier 问题。</li><li> 支持所有 Grant-Cs cmdlet 的\<PolicyName\> 组和排名参数。</li><li> 发布Test-CsTeamsTranslationRule cmdlet。</li>
 | 2022 年 6 月 | [4.4.3-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.4.3-preview) |<li>支持 Get-CsAutoAttendantStatus cmdlet 的 IncludeResources 参数。</li><li>支持 Get-CsOnlineUser cmdlet 的 SoftDeletedUsers 参数。</li><li>版本 [获取\|授权]-CsTeamsMediaLoggingPolicy cmdlet。</li><li>支持 [New\|Set]-CsAutoAttendant & [New\|Set]-CsCallQueue cmdlet 的 AuthorizedUsers 可选参数。</li><li>修复了共享语音邮件提示参数，其中提示类型在设置为Set-CsCallQueue cmdlet 后无法切换。</li><li> 修复了 [New\|Set]-CsOnlineSchedule cmdlet 以欧洲日期时间格式工作。</li>
 | 2022 年 5 月 | [4.4.1](https://www.powershellgallery.com/packages/MicrosoftTeams/4.4.1) |<li>模块大小的改进。</li><li>所有 cmdlet 的现代化版本中不支持的参数将导致错误。</li><li>修复了 [Get Set\|]-CsOnlineDialInConferencingUser、Get-CsOnlineDialInConferencingBridge、[Get Set\|\|Register\|Unregister]-CsOnlineDialInConferencingServiceNumber & Get-CsOnlineDialInConferencingLanguagesSupported cmdlet 的错误处理。</li><li>弃用Test-CsOnlineLisCivicAddress cmdlet。</li><li>用户主体名称 (UPN) & GUID 现在可以用作现代化 [Get Remove\|]-CsOnlineApplicationInstanceAssociation cmdlet 中的标识。</li><li> [中断性变更] Get-CsOnlineUser - 如果用户未分配该策略，输出中的策略属性现在将为 null。 这些属性曾经是早期版本的空 UserPolicyDefinition 对象， (3.0.0 到 4.3.1) 。</li><li>修复了Set-CsCallQueue以允许输入参数中为 null 或空数组值。</li><li>Get-CsPhoneNumberAssignment - 将 City & IsoSubdivision 属性添加到输出中。</li>
