@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams中的 Walkie Talkie 应用
+title: Microsoft Teams 中的 Walkie Talkie 应用
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -18,18 +18,18 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e311fb94996e1c51bb5f73190539cd0e1f9f127
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+ms.openlocfilehash: bfd87dbd6b8cc96377c8163294a3fda41934d801
+ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681893"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66819257"
 ---
-# <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft Teams中的 Walkie Talkie 应用
+# <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft Teams 中的 Walkie Talkie 应用
 
-Teams中的 Walkie Talkie 应用为团队提供即时推 (PTT) 通信，现已在Android & iOS上提供。 Walkie Talkie 允许用户使用其成员所在的相同基础频道与其团队进行连接。 只有在频道中连接到 Walkie Talkie 的用户才会成为参与者，并且可以使用推转对话相互通信，一次一个。
+Teams 中的 Walkie Talkie 应用为团队提供即时推 (PTT) 通信，现在可在 Android & iOS 上使用。 Walkie Talkie 允许用户使用其成员所在的相同基础频道与其团队进行连接。 只有在频道中连接到 Walkie Talkie 的用户才会成为参与者，并且可以使用推转对话相互通信，一次一个。
 
-使用Teams中的 Walkie Talkie，一线工作人员现在可以安全地与熟悉的 PTT 体验进行通信，而无需携带大容量的收音机，而 Walkie Talkie 可与 WiFi 或手机网络 Internet 连接一起在任何地方工作。
+使用 Teams 中的 Walkie Talkie，一线工作人员现在可以安全地与熟悉的 PTT 体验通信，而无需携带笨重的收音机，而 Walkie Talkie 可与 WiFi 或手机网络 Internet 连接一起在任何地方工作。
 
 > [!NOTE]
 > Walkie Talkie 目前在中国不可用。
@@ -38,21 +38,21 @@ Teams中的 Walkie Talkie 应用为团队提供即时推 (PTT) 通信，现已�
 
 ### <a name="deploying-walkie-talkie"></a>部署 Walkie Talkie
 
-使用 Google 移动服务 (GMS) 和iOS设备的Android设备支持 Walkie Talkie。
+使用 Google Mobile Services (GMS) 和 iOS 设备的 Android 设备支持 Walkie Talkie。
 
-### <a name="pin-walkie-talkie-to-teams"></a>将 Walkie Talkie 固定到Teams
+### <a name="pin-walkie-talkie-to-teams"></a>将 Walkie Talkie 固定到 Teams
 
-#### <a name="use-the-tailored-frontline-app-experience-to-pin-walkie-talkie-and-other-apps-to-teams"></a>使用定制的一线应用体验固定 Walkie Talkie 和其他应用以Teams
+#### <a name="use-the-tailored-frontline-app-experience-to-pin-walkie-talkie-and-other-apps-to-teams"></a>使用定制的一线应用体验将 Walkie Talkie 和其他应用固定到 Teams
 
-Teams中定制的一线应用体验为拥有 [F 许可证](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt)的用户固定Teams中最相关的应用。 固定应用包括 Walkie Talkie、Shifts、Tasks 和 审批。 默认情况下，此功能处于启用状态，为一线员工提供根据其需求定制的现新体验。
+Teams 中定制的一线应用体验为拥有 [F 许可证](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt)的用户固定 Teams 中最相关的应用。 固定应用包括 Walkie Talkie、Shifts、Tasks 和 Approvals。 默认情况下，此功能处于启用状态，为一线员工提供根据其需求定制的现新体验。
 
-应用固定到应用栏（Teams桌面客户端侧面和Teams移动客户端底部的栏），用户可在其中快速轻松地访问它们。
+应用固定到应用栏（Teams 桌面客户端侧面和 Teams 移动客户端底部的栏），用户可在其中快速轻松地访问应用栏。
 
-若要了解详细信息，包括体验如何与你设置的应用策略配合使用，请参阅 [Tailor Teams一线员工的应用](pin-teams-apps-based-on-license.md)。
+若要了解详细信息，包括体验如何与你设置的应用策略配合使用，请参阅 [一线员工的 Tailor Teams 应用](/microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)。
 
-#### <a name="use-an-app-setup-policy-to-pin-walkie-talkie-to-teams"></a>使用应用设置策略将 Walkie Talkie 固定到Teams
+#### <a name="use-an-app-setup-policy-to-pin-walkie-talkie-to-teams"></a>使用应用设置策略将 Walkie Talkie 固定到 Teams
 
-通过应用设置策略，可以自定义Teams以固定用户中对用户最重要的应用。
+通过应用设置策略，可以自定义 Teams 以固定用户中对用户最重要的应用。
 
 若要为用户固定 Walkie Talkie 应用，可以编辑全局 (组织范围的默认) 策略或创建和分配自定义应用设置策略。 要了解详细信息，请参阅[在 Teams 中管理应用设置策略](teams-app-setup-policies.md)。
 
@@ -60,7 +60,7 @@ Teams中定制的一线应用体验为拥有 [F 许可证](https://www.microsoft
 
 ### <a name="network-documentation"></a>网络文档
 
-Teams中的 Walkie Talkie 需要 Internet 连接，并且需要低于网络条件才能获得最佳体验。
+Teams 中的 Walkie Talkie 需要 Internet 连接，并且需要低于网络条件才能获得最佳体验。
 
 |指标 | 必需 |
 |---|---|
@@ -81,31 +81,31 @@ Teams中的 Walkie Talkie 需要 Internet 连接，并且需要低于网络条�
 一线工作人员经常需要说话和接听对讲机电话，即使他们的电话被锁定。 此体验可以通过具有专用 PTT 按钮的专用设备实现。
 
 - **耳机**
-  - 无线耳机 (iOS & Android) 
+  - Android & iOS (无线耳机) 
     - [BlueParrott](https://www.blueparrott.com/microsoft-teams-walkie-talkie)
-  - 有线耳机仅 (Android) 
+  - Android (有线耳机仅) 
     - [克莱因电子](https://www.kleinelectronics.com/poc-accessories/mtwt/)
-- **坚固的Android手机**
-  - 三星[银河 XCover Pro](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/)， [银河 XCover 5](https://www.samsung.com/de/smartphones/others/galaxy-xcover-5-black-64gb-sm-g525fzkdeeb/buy)， [Galaxy Tab Active 3](https://www.samsung.com/us/business/tablets/galaxy-tab-active/buy/)
-    - 手动设置 - 安装Teams后，导航到 XCover/Active 密钥>设置 >高级功能。 打开“使用应用控制 XCover 密钥”，然后选择“Teams”
+- **坚固的 Android 手机**
+  - Samsung [Galaxy XCover Pro](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/)， [Galaxy XCover 5](https://www.samsung.com/de/smartphones/others/galaxy-xcover-5-black-64gb-sm-g525fzkdeeb/buy)， [Galaxy Tab Active 3](https://www.samsung.com/us/business/tablets/galaxy-tab-active/buy/)
+    - 手动设置 - 安装 Teams 后，导航到“设置”>高级功能> XCover/Active 密钥。 打开“使用应用控制 XCover 密钥”，然后选择“Teams”
     - [MDM 设置](https://docs.samsungknox.com/admin/knox-service-plugin/intune-teams.htm)
   - Zebra [TC5x](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc52-tc57-series-touch-computer.html)、 [TC7x](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc72-tc77-series-touch-computer.html)、 [TC2x](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc21-tc26.html)、 [EC5x](https://www.zebra.com/us/en/products/mobile-computers/handheld/ec50-ec55.html)、 [EC30](https://www.zebra.com/us/en/products/mobile-computers/handheld/ec30.html)、 [MC3300](https://www.zebra.com/us/en/products/mobile-computers/handheld/mc3300.html)、 [MC9300](https://www.zebra.com/us/en/products/mobile-computers/handheld/mc9300.html) 
-    - 手动设置 - 安装Teams后，默认情况下，专用 PTT 按钮 (LEFT_TRIGGER_2) 适用于 Walkie Talkie
+    - 手动设置 - 安装 Teams 后，默认情况下，专用 PTT 按钮 (LEFT_TRIGGER_2) 可与 Walkie Talkie 配合使用
     
 > [!NOTE]
-> 这些设备未Teams认证。 他们已被验证为使用Teams对讲机。
+> 这些设备未通过 Teams 认证。 他们已被验证为使用 Teams Walkie Talkie。
 
 ### <a name="license-requirements"></a>许可证要求
 
-Walkie Talkie 应用包含在Office 365订阅中Teams的所有付费许可证[中](/office365/servicedescriptions/teams-service-description)。 有关获取Teams的详细信息，[请查看如何实现访问Microsoft Teams](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)？
+Walkie Talkie 应用包含在 Office 365 订阅中 Teams 的所有付费许可证[中](/office365/servicedescriptions/teams-service-description)。 有关获取 Teams 的详细信息，请查看[如何实现访问 Microsoft Teams](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)？
 
 ## <a name="further-information"></a>详细信息
 
 - IT 管理员可以通过应用策略来控制谁在使用 Walkie Talkie。
-- 如果你的一线工作人员使用移动数据通过Teams进行通信，Walkie Talkie 将使用相同的方法。
+- 如果你的一线工作人员使用移动数据通过 Teams 进行通信，Walkie Talkie 将使用相同的方法。
 - Walkie Talkie 应在低带宽的情况下或智能手机连接和工作的情况中正常工作。 当根本没有连接时，Walkie Talkie 将无法工作。
 
 有关最终用户体验的进一步阅读，请参阅：
 
-- [使用 Teams Walkie Talkie 开始](https://support.microsoft.com/office/get-started-with-teams-walkie-talkie-25bdc3d5-bbb2-41b7-89bf-650fae0c8e0c)
+- [Teams Walkie Talkie 入门](https://support.microsoft.com/office/get-started-with-teams-walkie-talkie-25bdc3d5-bbb2-41b7-89bf-650fae0c8e0c)
 - [与你的团队与 Walkie Talkie 通信](https://support.microsoft.com/office/communicate-with-your-team-in-walkie-talkie-e4342550-5516-4451-b9ec-93166b60f8a4)

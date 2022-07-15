@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: b040eb7d595a50b92d69a9722ae1e134cd098ff8
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 9c18d1ce0e7b9d75245dc62a5990c7dfbbad7246
+ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66241111"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66819457"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理应用设置策略
 
@@ -80,7 +80,7 @@ ms.locfileid: "66241111"
 > 在Teams 教育版中，分配应用默认固定在全局策略中，即使未在全局策略中列出。
 
 > [!NOTE]
-> 对于组织中的一线员工，我们建议使用定制的一线应用体验。 此功能为拥有 [F 许可证](https://www.microsoft.com/en-us/microsoft-365/enterprise/frontline?rtc=1#office-SKUChooser-0dbn8nt)的用户固定 Teams 中最相关的应用。 若要了解详细信息，请参阅 [一线员工的裁缝 Teams 应用](pin-teams-apps-based-on-license.md)。
+> 对于组织中的一线员工，我们建议使用定制的一线应用体验。 此功能为拥有 [F 许可证](https://www.microsoft.com/en-us/microsoft-365/enterprise/frontline?rtc=1#office-SKUChooser-0dbn8nt)的用户固定 Teams 中最相关的应用。 若要了解详细信息，请参阅 [一线员工的裁缝 Teams 应用](/microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)。
 
 ## <a name="install-apps"></a>安装应用
 

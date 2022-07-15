@@ -1,8 +1,8 @@
 ---
 title: Teams 医疗保健策略包
-ms.author: mabond
-author: mkbond007
-manager: serdars
+ms.author: v-lanachin
+author: LanaChin
+manager: samanro
 ms.reviewer: aaglick
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -21,12 +21,12 @@ searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
 description: 了解如何使用和管理适用于医疗保健组织的 Teams 策略包。
-ms.openlocfilehash: c4a1d6909cd6a2c7f58c3a30353a3d4398c4c70e
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
+ms.openlocfilehash: a4613716b1c5ce626e5a00ce2ed884cfb208f097
+ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66563720"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66819417"
 ---
 # <a name="teams-policy-packages-for-healthcare"></a>Teams 医疗保健策略包
 
@@ -101,9 +101,7 @@ Teams 当前包括以下医疗保健策略包。
 
 #### <a name="assign-a-policy-package-to-a-group"></a>将策略包分配给组。
 
-**此功能在私有预览版中**
-
-通过将策略包分配到组，可将多个策略分配给一组用户，例如安全组或通讯组列表。 根据优先级规则，将策略分配传播到组中的成员。 将成员添加到组或从组中删除成员时，将相应更新其继承的策略分配。 建议将此方法用于最多 50,000 个用户的组，但也可使用更大的组。
+通过策略包分配给组，可以将多个策略分配给一组用户，例如安全组或通讯组列表。 根据优先级规则，将策略分配传播到组中的成员。 将成员添加到组或从组中删除成员时，将相应更新其继承的策略分配。 建议将此方法用于最多 50,000 个用户的组，但也可使用更大的组。
 
 若要了解详细信息，请参阅[将策略包分配到组](assign-policy-packages.md#assign-a-policy-package-to-a-group)。
 
@@ -111,7 +109,7 @@ Teams 当前包括以下医疗保健策略包。
 
 使用批处理策略包分配，每次向大型用户组分配策略包。 使用 [New-CsBatchPolicyPackageAssignmentOperation](/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) cmdlet 提交要分配的一批用户和策略包。 作业将作为后台操作处理，并为每个批处理生成操作 ID。
 
-批处理最多可包含 5,000 个用户。 可通过对象 Id、UPN、SIP 地址或电子邮件地址指定用户。 若要了解详细信息，请参阅[将策略包分配给批次用户](assign-policy-packages.md#assign-a-policy-package-to-a-batch-of-users)。
+批处理最多可包含 5,000 个用户。 可以按用户的对象 ID、UPN、SIP 地址或电子邮件地址指定用户。 若要了解详细信息，请参阅[将策略包分配给批次用户](assign-policy-packages.md#assign-a-policy-package-to-a-batch-of-users)。
 
 ## <a name="related-topics"></a>相关主题
 
