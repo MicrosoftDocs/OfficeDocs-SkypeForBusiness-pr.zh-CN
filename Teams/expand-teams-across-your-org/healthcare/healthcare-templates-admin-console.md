@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: yinchang
 description: 了解如何管理和使用 Teams 管理中心和 Microsoft Graph 中的医疗保健团队模板，以快速轻松地为医疗保健组织创建团队。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 78269b393c384af82e48284e3ffefe8785013975
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: 831e4e257277ce2fca6dc007ac5f3bfe963bca35
+ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60045998"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66819437"
 ---
 # <a name="use-healthcare-team-templates"></a>使用医疗保健团队模板
 
@@ -48,7 +48,7 @@ Teams 包括专为医疗保健组织设计的模板。 使用这些预建模板�
 
 作为管理人员，你可以在 Microsoft Teams 管理中心内管理团队模板。 可在此处查看有关每个模板的详细信息。 还可以[创建模板策略](../../templates-policies.md)并将其分配给员工，以确定在 Teams 中使用哪些模板来[创建团队](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)。
 
-若要了解有关团队模板的详细信息，请参阅[管理中心的 Teams模板入门](../../get-started-with-teams-templates-in-the-admin-console.md)。
+若要了解有关团队模板的详细信息，请参阅[管理中心的 Teams 模板入门](../../get-started-with-teams-templates-in-the-admin-console.md)。
 
 我们目前提供以下预构建的医疗保健团队模板。 若要查看，请在 Teams 管理中心的左侧导航栏中，转到 **Teams** > **团队模板**。
 ### <a name="patient-care"></a>患者护理
@@ -73,7 +73,7 @@ Teams 包括专为医疗保健组织设计的模板。 使用这些预建模板�
 &sup1;将应用作为选项卡添加到频道中。
 ## <a name="use-team-templates-with-microsoft-graph"></a>将 Teams 模板与 Microsoft Graph 一起使用
 
-开发人员可以使用 Microsoft Graph 基于预建的团队模板创建团队。若要详细了解如何将团队模板与 Microsoft Graph 配合使用，请参阅[使用 Microsoft Graph 团队模板入门](../../get-started-with-teams-templates.md)，[Microsoft Teams API 概述](/graph/teams-concept-overview?view=graph-rest-1.0)，[teamsTemplate 资源类型](/graph/api/resources/teamstemplate?view=graph-rest-1.0)。
+开发人员可以使用 Microsoft Graph 基于预建的团队模板创建团队。若要详细了解如何将团队模板与 Microsoft Graph 配合使用，请参阅[使用 Microsoft Graph 团队模板入门](../../get-started-with-teams-templates.md)，[Microsoft Teams API 概述](/graph/teams-concept-overview)，[teamsTemplate 资源类型](/graph/api/resources/teamstemplate)。
 
 下面是预建的医疗保健团队模板。
 ### <a name="ward"></a>病房
@@ -214,4 +214,4 @@ Teams 包括专为医疗保健组织设计的模板。 使用这些预建模板�
 - [基于模板创建团队](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)
 - [在管理中心内开始使用 Teams 模板](../../get-started-with-teams-templates-in-the-admin-console.md)
 - [开始使用 Microsoft Graph 的团队模板](../../get-started-with-teams-templates.md)
-- [适用于医疗保健组织的 Teams 入门](teams-in-hc.md)
+- [适用于医疗保健组织的 Teams 入门](/microsoft-365/frontline/teams-in-hc?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)

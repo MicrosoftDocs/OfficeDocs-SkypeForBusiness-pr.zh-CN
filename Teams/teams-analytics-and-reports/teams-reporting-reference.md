@@ -18,12 +18,12 @@ description: 本文介绍 Microsoft Teams 管理中心提供的 Teams 报表。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f0891b9267039d8c07d437cb8e67eb2b982a0016
-ms.sourcegitcommit: cf2f2d23e6dcda0c03f22a5800a210a1c88e583f
+ms.openlocfilehash: ad17bd2932786253f7dd3a925856d46780032204
+ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "65883545"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66819307"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft Teams 分析和报告
 
@@ -31,12 +31,12 @@ Microsoft Teams 管理中心提供了适用于 Microsoft Teams 的新分析和�
 
 ## <a name="how-to-access-the-reports"></a>如何访问报表
 
-若要访问报表，必须是 Microsoft 365 或 Office 365 中的全局管理员、Microsoft 365 或 Office 365 中的全局读者、Teams 服务管理员或 Skype for Business 管理员。若要详细了解 Teams 管理员角色以及每个管理员角色可以访问哪些报告，请参阅 [使用 Teams 管理员角色来管理 Teams](../using-admin-roles.md)。
+若要访问报表，必须是 Microsoft 365 或 Office 365、Microsoft 365 或 Office 365 中的全局读者、Teams 服务管理员或Skype for Business管理员。若要详细了解 Teams 管理员角色以及每个管理员角色可以访问哪些报告，请参阅[使用 Teams 管理员角色来管理 Teams](../using-admin-roles.md)。
 
 转到 Microsoft Teams 管理中心，在左侧导航栏中，选择 **“分析”&报** 表，然后在 **“查看报表**”下选择要运行的报表。
 
 > [!NOTE]
-> Microsoft Teams 管理中心中的报表与作为 Microsoft 365 管理中心 Microsoft 365 报表的一部分的 Teams 活动报告是分开的。 有关 Microsoft 365 管理中心中的活动报告的详细信息，请参阅 [Microsoft 365 管理中心的 Teams 活动报告](../teams-activity-reports.md)
+> Microsoft Teams 管理中心中的报表与属于 Microsoft 365 管理中心 中 Microsoft 365 报表的 Teams 活动报表是分开的。 有关Microsoft 365 管理中心中的活动报告的详细信息，请参阅 [Microsoft 365 管理中心 中的 Teams 活动报告](../teams-activity-reports.md)
 
 ## <a name="teams-reporting-reference"></a>Teams 报告参考
 
@@ -55,17 +55,17 @@ Microsoft Teams 管理中心提供了适用于 Microsoft Teams 的新分析和�
 |[Teams PSTN 使用情况报告 - 呼叫计划](pstn-usage-report.md#calling-plans)|  时间戳<br>用户名<br>电话号码<br>呼叫类型 <br>调用到<br>到国家或地区 <br>从中调用 <br>从国家或地区<br>负责<br>货币<br>持续时间<br>国内/国际<br>呼叫 ID<br>数字类型<br>国家或地区<br>会议 ID<br>功能 (许可证) |
 |[Teams PSTN 使用情况报告 - 直接路由](pstn-usage-report.md#direct-routing)  |  时间戳<br>显示名称<br>SIP 地址<br>电话号码 <br>呼叫类型<br>调用到<br>开始时间<br>邀请时间<br>失败时间<br>结束时间<br>持续时间<br>数字类型<br>媒体旁路<br>SBC FQDN<br>Azure 区域<br>事件类型<br>最终 SIP 代码<br>最终 Microsoft 子代码<br>最终 SIP 短语<br>相关 ID  |
 |[Teams 信息保护许可证报告](information-protection-license-report.md)  | <br>用户是否具有通过更改通知推送其消息的有效许可证</br><br>用户触发的更改通知事件总数<br><br>哪些应用正在侦听组织范围的更改通知事件<br>|
-|[Teams 虚拟访问使用情况报告](virtual-visits-usage-report.md)  | 虚拟约会数<br>预订约会数<br>与 EHR) 集成的约会 (Teams 电子运行状况记录数<br>约会的平均持续时间<br>与会者的平均大厅等待时间<br>开始时间<br>会议 ID<br>大厅等待时间<br>持续时间<br>地位<br>产品类型<br>与会者<br>发送的短信
-|[Teams EHR 连接器虚拟约会报告](../expand-teams-across-your-org/healthcare/ehr-admin-reports.md) | 开始时间<br>持续时间<br>会议组织者) 的主要 (名称<br>主机的电子邮件 (会议组织者的电子邮件) <br>部门<br>服务员<br>大厅等待时间<br>约会是否在分配限制范围内
+|[Teams 虚拟访问使用情况报告](/microsoft-365/frontline/virtual-visits-usage-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)  | 虚拟约会数<br>预订约会数<br>与 EHR) 集成的约会 (Teams 电子运行状况记录数<br>约会的平均持续时间<br>与会者的平均大厅等待时间<br>开始时间<br>会议 ID<br>大厅等待时间<br>持续时间<br>地位<br>产品类型<br>与会者<br>发送的短信
+|[Teams EHR 连接器虚拟约会报表](/microsoft-365/frontline/ehr-connector-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json) | 开始时间<br>持续时间<br>会议组织者) 的主要 (名称<br>主机的电子邮件 (会议组织者的电子邮件) <br>部门<br>服务员<br>大厅等待时间<br>约会是否在分配限制范围内|
 [!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
 
 ## <a name="make-the-user-specific-data-anonymous"></a>使用户特定的数据匿名
 
-若要使 Teams 用户活动和 Teams 设备使用情况报表中的数据匿名，必须是全局管理员。 这会隐藏报表及其导出中的可识别信息，例如显示名称、电子邮件和 Microsoft Azure Active Directory ID。
+若要使 Teams 用户活动和 Teams 设备使用情况报表中的数据匿名，必须是全局管理员。 这会隐藏报表及其导出中的可识别信息，例如显示名称、电子邮件和Microsoft Azure Active Directory ID。
 
-1. 在 Microsoft 365 管理中心，转到 **“设置** \> **组织设置”**，然后在 **“服务** ”选项卡下选择 **“报表**”。
+1. 在Microsoft 365 管理中心中，转到 **“设置** \> **组织设置”**，然后在 **“服务”** 选项卡下选择 **“报表**”。
     
-2. 选择 **“报** 表”，然后选择 **在所有报表中显示隐藏的用户、组和网站名称**。 此设置同时应用于 Microsoft 365 管理中心和 Teams 管理中心的使用情况报告。
+2. 选择 **“报** 表”，然后选择 **在所有报表中显示隐藏的用户、组和网站名称**。 此设置同时应用于Microsoft 365 管理中心和 Teams 管理中心的使用情况报告。
   
 3. 选择 **“保存更改**”。
 

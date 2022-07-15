@@ -1,8 +1,8 @@
 ---
 title: 在 Microsoft Teams 中管理 Bookings 应用
-author: mkbond007
-ms.author: mabond
-manager: serdars
+author: LanaChin
+ms.author: v-lanachin
+manager: samanro
 audience: ITPro
 ms.topic: article
 ms.service: msteams
@@ -21,16 +21,16 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: 了解如何在 Teams 中为组织中的用户管理 Bookings 应用。
-ms.openlocfilehash: 45ce6c29cd7bfbaedf53c1b75178142a925157cb
-ms.sourcegitcommit: 15ec17eff4ad4c962d00b8683513f9b269d82917
+ms.openlocfilehash: f11739784dcb9897bf9a3fcbffdadc8aea00d3e0
+ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "66695035"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66819287"
 ---
 # <a name="manage-the-bookings-app-in-microsoft-teams"></a>在 Microsoft Teams 中管理 Bookings 应用
 
-Microsoft Teams 中的 Bookings 应用提供了一种安排亲自约会和虚拟约会的简单方法。 例如，医疗保健访问、财务咨询、面试、客户支持和教育办公时间。 若要了解详细信息，请参阅 [Teams 和 Bookings 应用的虚拟约会](expand-teams-across-your-org/bookings-virtual-visits.md)。
+Microsoft Teams 中的 Bookings 应用提供了一种安排亲自约会和虚拟约会的简单方法。 例如，医疗保健访问、财务咨询、面试、客户支持和教育办公时间。 若要了解详细信息，请参阅 [Teams 和 Bookings 应用的虚拟约会](/microsoft-365/frontline/bookings-virtual-visits)。
 
 计划程序可以从单个体验中管理多个部门和员工日历以及与内部和外部与会者的通信。 虚拟约会通过提供强大视频会议功能的 Microsoft Teams 会议进行。
 
@@ -100,7 +100,7 @@ Set-Mailbox -identity business@domain.onmicrosoft.com -WindowsEmailAddress busin
 
 ## <a name="related-articles"></a>相关文章
 
-[管理浏览器上的 Teams 虚拟约会的联接体验](expand-teams-across-your-org/browser-join.md)
+[管理浏览器上的 Teams 虚拟约会的联接体验](/microsoft-365/frontline/browser-join)
 
 
   [适用最终用户的 Bookings 文档](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?ui=en-US&rs=en-US&ad=US#PickTab=Bookings)
