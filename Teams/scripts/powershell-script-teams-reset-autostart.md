@@ -1,30 +1,35 @@
 ---
-title: PowerShell 脚本示例 - 重置 Teams 中的自动Teams
-author: SerdarSoysal
-ms.author: serdars
+title: PowerShell 脚本示例 - 在 Teams 中重置自动入门设置
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.reviewer: amitsri
 ms.service: msteams
 audience: admin
-description: 使用此 PowerShell 脚本，根据Teams重置自动启动设置。
+description: 使用此 PowerShell 脚本在 Teams 中按用户重置自动启动设置。
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
-  - M365-collaboration
+- M365-collaboration
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
+ms.openlocfilehash: fbe75347317b625a45e2e74eb26c6ba43886df2a
+ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66825476"
 ---
+# <a name="powershell-script-sample---reset-the-autostart-setting-in-teams"></a>PowerShell 脚本示例 - 在 Teams 中重置自动入门设置
 
-# <a name="powershell-script-sample---reset-the-autostart-setting-in-teams"></a>PowerShell 脚本示例 - 重置 Teams 中的自动Teams
+使用此脚本可按用户重置 Teams 自动启动设置。 这包括用户或 Teams 应用设置的任何值。 默认情况下，当用户在安装计算机后登录到其计算机时，Teams 会自动启动。
 
-使用此脚本可Teams用户重置自动启动设置。 这包括用户或应用设置的任何Teams值。 默认情况下，Teams安装后登录到其计算机时，系统会自动启动。
+如果已部署 Teams，并希望在[安装后将阻止 Microsoft Teams 自动启动组策略设置](../msi-deployment.md#use-group-policy-recommended)以禁用 Teams 自动启动，则需要先将组策略设置设置为所需的值，然后运行此脚本。
 
-如果已部署 Teams 并且想要将"安装后阻止 [Microsoft Teams](../msi-deployment.md#use-group-policy-recommended) 自动启动组策略"设置设置为禁用 Teams 自动启动，则需要先将"组策略"设置设置为所需的值，然后运行此脚本。
-
-为Teams启动自动启动设置后，无法通过使用组策略禁用自动启动设置。
+为用户启动 Teams 后，无法使用组策略禁用自动入门设置。
 
 ## <a name="sample-script"></a>示例脚本
 
@@ -145,4 +150,4 @@ if($null -eq $teamsProc) {
 ## <a name="related-topics"></a>相关主题
 
 - [使用 MSI 安装 Teams](../msi-deployment.md)
-- [使用 Teams 部署Microsoft 365 企业应用版](/deployoffice/teams-install)
+- [使用Microsoft 365 企业应用版部署 Teams](/deployoffice/teams-install)

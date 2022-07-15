@@ -7,8 +7,8 @@ metadata:
   audience: IT Pro
   level: Intermediate
   displayType: one-column
-  ms.author: serdars
-  author: SerdarSoysal
+  ms.author: mikeplum
+  author: MikePlumleyMSFT
   ms.reviewer: shalenc
   manager: serdars
   ms.service: msteams
@@ -20,16 +20,16 @@ metadata:
   - Teams_ITAdmin_RemoteWorkers
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 3ada1b46f057c4c1f6f7d715c038c78e1e0eecd1
-  ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+  ms.openlocfilehash: 101be689ff6fba7facf7a550d3affd31cf423d5a
+  ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 06/01/2022
-  ms.locfileid: "65823011"
+  ms.lasthandoff: 07/15/2022
+  ms.locfileid: "66825526"
 items:
 - durationInMinutes: 1
   content: >
-    在此培训中，我们将介绍 Microsoft Teams 中的会议。 除了Teams的要求和规划注意事项外，我们还将介绍Teams会议的功能。
+    在此培训中，我们将介绍 Microsoft Teams 中的会议。 除了 Teams 的要求和规划注意事项外，我们还将介绍 Teams 中的会议功能。
 
 
     [!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-note.md)]
@@ -67,7 +67,7 @@ items:
     -   在本教程的“后续步骤”页底部的“注释”部分中发布。
 
 
-    若要向我们提供有关Teams的产品反馈，例如新功能的想法，请访问[Teams反馈门户](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472)。
+    若要向我们提供有关 Teams 的产品反馈，例如新功能的想法，请访问 [Teams 反馈门户](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472)。
 - title: Teams 中的会议
   durationInMinutes: 16
   content: "\n要了解 Teams 中的会议，请参阅以下内容：\n-   [会议和通话](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)中的“开会” (估计阅读时间为 6 分钟) \n\n-   [立即开会](https://support.office.com/article/Video-Meet-now-26e06837-853d-4df1-a729-06bf700d4ecf)视频（1:45 分钟）\n\n-   [安排的会议](https://support.office.com/article/Video-Scheduled-meetings-ba44d0fd-da3c-4541-a3eb-a868f5e2b137)视频（1:45 分钟）\n\n-   [Microsoft Teams 会议的 9 条提示](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444)，以了解会议大厅、以匿名方式加入会议等信息（预计阅读时间为 6 分钟）\n"
@@ -85,7 +85,7 @@ items:
   content: "\n作为 IT 管理员，你可以设置会议策略和设置以定义会议体验。\n\n### <a name=\"meeting-policies\"></a>会议策略\n\n使用 Teams 会议策略控制由组织中用户安排的会议中对会议参与者可用的功能。 若要了解详细信息，请参阅[管理 Teams 中的会议策略](meeting-policies-overview.md)（预计阅读时长 16 分钟）。 \n\n### <a name=\"meeting-settings\"></a>会议设置\n\n使用 Teams 会议设置来控制匿名用户是否可以加入 Teams 会议、自定义会议邀请，并在想要启用服务质量 (QoS) 的情况下设置实时流量端口范围。 这些设置适用于用户在组织中安排的所有 Teams 会议。 若要了解详细信息，请参阅[管理 Teams 中的会议策略](./meeting-settings-in-teams.md)。\n（预计阅读时间 4 分钟）。\n"
 - title: 练习 - 配置会议
   durationInMinutes: 20
-  content: "\n在本练习中，你将有机会在Teams中测试会议。 虽然我们不描述如何执行每个操作，但我们建议尝试一些方案。\n\n### <a name=\"requirements\"></a>要求\n-   具有适当的 Teams 许可证的 Office 365 组织\n    -   强烈建议你使用专用的测试租户。\n    -   如果没有测试租户，可以在 [Office 365 企业版 E5 试用](https://go.microsoft.com/fwlink/p/?LinkID=698279)版注册试用租户。\n    -   不要在生产环境中运行任何测试。 更改设置或策略可能会对所有用户造成负面影响，并可能会影响其用户体验。\n-   至少两个端点\n   -   这可以是两台 PC，但你还可以在移动电话上使用该客户端。\n\n### <a name=\"suggested-scenarios-to-test\"></a>建议进行测试的方案\n-   从 Teams 客户端内安排不同的会议类型：频道会议、临时会议、私人会议。\n-   使用 [Outlook 外接程序](./teams-add-in-for-outlook.md)安排会议。\n-   对于已安排的会议，请在会议开始前启动聊天（例如讨论议程）。\n-   加入会议并测试不同的方案和工作负荷：例如，仅音频、视频、桌面共享。\n-   在不登录租户的情况下从浏览器加入会议 (你可能想要使用“InPrivate”浏览) 查看匿名加入会议的感觉。\n-   登录到管理员门户并更改会议的某些设置（例如，禁止安排私人会议）。 这对用户体验有何影响？\n-   作为会议组织者，为所有与会者退出会议。    \n"
+  content: "\n在本练习中，你将有机会在 Teams 中测试会议。 虽然我们不描述如何执行每个操作，但我们建议尝试一些方案。\n\n### <a name=\"requirements\"></a>要求\n-   具有适当的 Teams 许可证的 Office 365 组织\n    -   强烈建议你使用专用的测试租户。\n    -   如果没有测试租户，可以在 [Office 365 企业版 E5 试用](https://go.microsoft.com/fwlink/p/?LinkID=698279)版注册试用租户。\n    -   不要在生产环境中运行任何测试。 更改设置或策略可能会对所有用户造成负面影响，并可能会影响其用户体验。\n-   至少两个端点\n   -   这可以是两台 PC，但你还可以在移动电话上使用该客户端。\n\n### <a name=\"suggested-scenarios-to-test\"></a>建议进行测试的方案\n-   从 Teams 客户端内安排不同的会议类型：频道会议、临时会议、私人会议。\n-   使用 [Outlook 外接程序](./teams-add-in-for-outlook.md)安排会议。\n-   对于已安排的会议，请在会议开始前启动聊天（例如讨论议程）。\n-   加入会议并测试不同的方案和工作负荷：例如，仅音频、视频、桌面共享。\n-   在不登录租户的情况下从浏览器加入会议 (你可能想要使用“InPrivate”浏览) 查看匿名加入会议的感觉。\n-   登录到管理员门户并更改会议的某些设置（例如，禁止安排私人会议）。 这对用户体验有何影响？\n-   作为会议组织者，为所有与会者退出会议。    \n"
 - title: 报告
   durationInMinutes: 2
   content: "\n从报告角度看，有两个方面需要检查：\n-   使用情况：举行了多少次会议？\n-   质量：会议的质量如何？\n\n你应该认真监视两个方面：\n-   低使用率意味着用户由于某种原因而不使用该产品。 你只能通过执行其他调查来确定原因。 原因可能包括从认为会议未达到用户要求，到缺少意识或培训或存在质量问题。\n-   另一方面，低质量意味着用户与 Office 365 之间存在连接问题。 低质量可能导致用户体验不佳和使用率下降。\n    请参阅[管理中心内的 Office 365 报告 - Microsoft Teams 用户活动](https://docs.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-teams-user-activity-preview?view=o365-worldwide)（预计阅读时间为 5 分钟）以了解有关使用情况报告的详细信息。\n\n管理质量超出了此培训的范围，但你可参阅下面的培训材料：\n\n-   有关质量支持者的角色的信息，请参阅[质量支持者角色](./prepare-network.md)。\n-   有关通话质量仪表板的信息，请参阅[使用 CQD 调查媒体质量](https://aka.ms/sof-cqd)。\n"
@@ -104,11 +104,11 @@ items:
     ### <a name="next-steps"></a>后续步骤
 
 
-    1."开始"菜单使用Teams中的会议。
+    1.在 Teams 中开始使用会议。
 
     2.  向我们发送反馈：
         - 在此页面底部的“评论”部分发布。
-        - 若要向我们提供Teams产品反馈或请求新功能，请转到[Teams反馈门户](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472)。
+        - 若要向我们提供 Teams 产品反馈或请求新功能，请转到 [Teams 反馈门户](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472)。
     3.  获取最新信息：
         - 关注 [Teams 博客](https://aka.ms/teamsblog)。
         - 阅读 [Teams 路线图](https://aka.ms/O365Roadmap)。

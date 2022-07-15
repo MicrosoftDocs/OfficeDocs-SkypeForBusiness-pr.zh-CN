@@ -1,7 +1,7 @@
 ---
 title: 瑞典的免费拨号限制
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: davlick, krkilaru
 ms.topic: reference
@@ -21,28 +21,28 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: 这将帮助你了解如何拨打每个国家/地区的免费电话号码。 选择国家/地区后，将进入特定国家/地区页面，其中包含提供免费服务的免费服务可用性的特定详细信息、限制和限制。 拨号格式或格式将显示每个国家/地区拨打免费电话号码所需的访问代码。
-ms.openlocfilehash: ac318cb2be4991ff9bd39677ace7b69b2bf272e1
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+description: 这有助于了解如何在每个国家/地区拨打免费号码。 选择国家/地区后，将转到一个特定于国家/地区的页面，其中包含免费服务可用的免费服务的特定详细信息、限制和限制。 拨号格式或格式将显示每个国家/地区内拨打免费号码所需的访问代码。
+ms.openlocfilehash: 208d41af4196eaac46adef9d92dd1e98e392ef51
+ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62418315"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66825896"
 ---
 # <a name="toll-free-dialing-restrictions-in-sweden"></a>瑞典的免费拨号限制
 
-[查找另一个](../toll-free-dialing-limitations-and-restrictions.md)国家/地区，或了解有关免费拨号限制和限制的更多内容。
+[查找其他国家或地区](../toll-free-dialing-limitations-and-restrictions.md)，或详细了解免费拨号限制和限制。
 
 
 |**详细信息**|**说明**|
 |:-----|:-----|
-|是否提供免费呼叫？  <br/> |是  <br/> |
-|拨号格式 ()   <br/> | 020 <br/> |
+|免费呼叫是否可用？  <br/> |是  <br/> |
+| () 的拨号格式  <br/> | 020 <br/> |
 |国家/地区 ISO 代码  <br/> |SE  <br/> |
-|涵盖的岛屿/区域  <br/> |不适用  <br/> |
-|未涵盖的岛屿/区域  <br/> |不适用  <br/> |
-|有线/固定线路可用性  <br/> |是  <br/> |
-|移动网络可用性  <br/> |否  <br/> |
+|涵盖的岛屿/领土  <br/> |不适用  <br/> |
+|未覆盖的岛屿/领土  <br/> |不适用  <br/> |
+|有线/固定行可用性  <br/> |是  <br/> |
+|移动网络可用性  <br/> |不支持  <br/> |
 |注释、限制和访问问题  <br/> |无  <br/> |
    
 ## <a name="related-topics"></a>相关主题

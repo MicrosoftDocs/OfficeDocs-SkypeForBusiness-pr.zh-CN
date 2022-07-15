@@ -1,7 +1,7 @@
 ---
-title: 消息传送Teams优先级通知
-ms.author: serdars
-author: SerdarSoysal
+title: Teams 消息传送中的优先级通知
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: salu
 ms.topic: reference
@@ -19,18 +19,18 @@ ms.custom:
 - Licensing
 - LIL_Placement
 - seo-marvel-apr2020
-description: 了解消息传送中的Microsoft Teams通知。
-ms.openlocfilehash: 7144f52fb0795acffbe755ba0ce1e600dbc24d56
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+description: 了解 Microsoft Teams 消息传送中的优先级通知。
+ms.openlocfilehash: cca511df23aced6dac453736f532be985cd97928
+ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62387500"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66825866"
 ---
 # <a name="messaging-policies-licensing"></a>消息策略许可
 
-我们听到全球客户说，COVID-19 (Corona) （科罗纳多斯）的制造者在努力应对日常运营中的重大变化时，带来了一些挑战。 能够在快速变化的情况下直接与团队成员快速联系对于在应对紧急事件期间保持业务连续性以及我们中的许多人返回工作区至关重要。
+我们从世界各地的客户处听到，COVID-19 (科罗纳病毒) 大流行是如何带来新的挑战的，因为他们努力应对日常操作的剧烈变化。 能够在快速变化的条件下直接和快速地与队友联系对于在危机应对期间保持业务连续性至关重要，而且我们中的许多人也回到了工作场所。
 
-Microsoft Teams 的优先级通知最初在 2019 年 [](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462) 6 月宣布，它授予用户持续发送每两分钟重复一次通知的能力，对于标记为紧急的所有邮件，最多 20 分钟。 优先级通知已在 2020 年下Teams作为促销提供给所有客户。
+最初在 2019 年 6 月宣布，Microsoft Teams [的优先级通知](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462) 使用户能够持续发送通知，每两分钟重复一次，最多 20 分钟，针对标记为紧急的所有消息。 在 2020 年下半年之前，已向所有 Teams 客户提供优先级通知作为促销。
 
-我们立即结束此促销，并作为基本功能Teams所有客户提供优先通知。 用户现在将能够发送和接收无限制的紧急消息和优先级通知。 [详细了解如何管理优先级通知](../messaging-policies-in-teams.md)。
+立即生效，我们已结束此促销，并将优先级通知作为基本功能提供给所有 Teams 客户。 用户现在可以发送和接收无限制的紧急消息和优先级通知。 [详细了解如何管理优先级通知](../messaging-policies-in-teams.md)。

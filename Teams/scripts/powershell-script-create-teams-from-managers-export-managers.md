@@ -1,7 +1,7 @@
 ---
-title: PowerShell 脚本示例 - 导出管理器及其指导
-author: SerdarSoysal
-ms.author: serdars
+title: PowerShell 脚本示例 - 导出管理器及其直接报表
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.reviewer: brandber
@@ -16,16 +16,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 436f9566031a2cd9bc3b06a23df7b3b7346d3bec
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: fbd1758c0de6d0cb7751b4a447e21ab386f823ba
+ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674174"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66825666"
 ---
-# <a name="powershell-script-sample---export-managers-and-their-directs"></a>PowerShell 脚本示例 - 导出管理器及其指导
+# <a name="powershell-script-sample---export-managers-and-their-direct-reports"></a>PowerShell 脚本示例 - 导出管理器及其直接报表
 
-使用此 PowerShell 脚本可导出组织经理及其指导的列表。 使用此脚本准备为每个经理创建一个人员经理团队，并将其直接报告作为团队成员。
+使用此 PowerShell 脚本为组织导出经理列表及其直接报表。 使用此脚本准备为每个经理创建一个人员经理团队，并将其直接报告作为团队成员。
 
 若要了解此 PowerShell 脚本，请参阅 [“创建人员管理器团队](../create-manager-directs-teams.md)”。
 

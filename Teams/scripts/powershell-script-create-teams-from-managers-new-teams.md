@@ -1,13 +1,13 @@
 ---
 title: PowerShell 脚本示例 - 创建新的人员管理器团队
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.reviewer: brandber
 ms.service: msteams
 audience: admin
-description: 使用此 PowerShell 脚本为每个经理创建一个团队，其直接作为团队成员。
+description: 使用此 PowerShell 脚本为每个经理创建一个团队，其直接报表是团队成员。
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -16,20 +16,20 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 05f5a53974444341ecc7da8431525b69bc8f1923
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+ms.openlocfilehash: 0b8eb4f60b5bf15e54821181ffedc584d9202669
+ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681553"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66825656"
 ---
 # <a name="powershell-script-sample---create-new-people-manager-teams"></a>PowerShell 脚本示例 - 创建新的人员管理器团队
 
-使用此 PowerShell 脚本为每个经理创建一个团队，其直接作为团队成员。 运行此脚本之前，请运行 [导出管理器](powershell-script-create-teams-from-managers-export-managers.md) 脚本，从 Active Directory 导出 () 组织经理及其指导的列表。
+使用此 PowerShell 脚本为每个经理创建一个团队，其直接报表是团队成员。 运行此脚本之前，请运行 [导出管理器](powershell-script-create-teams-from-managers-export-managers.md) 脚本，从 Active Directory 导出 () 管理器列表及其针对组织的直接报表。
 
 若要了解此 PowerShell 脚本，请阅读 [“创建人员管理器团队](../create-manager-directs-teams.md)”。
 
-如果你不了解 PowerShell 并需要入门帮助，请参阅 [Azure PowerShell 概述](/powershell/azure/overview)。
+如果你不熟悉 PowerShell，需要有关入门的帮助，请参阅[Azure PowerShell概述](/powershell/azure/overview)。
 
 ## <a name="create-new-people-manager-teams"></a>创建新的人员管理器团队
 
