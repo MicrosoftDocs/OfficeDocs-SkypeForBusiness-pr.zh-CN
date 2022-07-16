@@ -1,7 +1,7 @@
 ---
 title: 使用 Microsoft Teams 支持远程政府工作者
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 使用本指南可帮助政府组织中的远程工作者使用 Microsoft Teams 高效工作，尤其是当他们在家办公 (WFH) 来应对 COVID-19（新型冠状病毒肺炎）的爆发时。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 42d4b94a23bb2e3b9003f62a467c07eaf9c328e6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d245055d84025867705c1d83391510324ca7a22f
+ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608979"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66825746"
 ---
 # <a name="support-remote-government-workers-using-microsoft-teams"></a>使用 Microsoft Teams 支持远程政府工作者
 
