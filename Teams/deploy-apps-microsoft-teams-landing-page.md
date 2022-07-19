@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: f802506ff815745aaf555501e37171ebddfc7f91
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: 24115de31c06c38ff1f0217868cf19993aa24555
+ms.sourcegitcommit: 791d0a341ff873145fa893ece05055729b0b8d50
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66615858"
+ms.lasthandoff: 07/18/2022
+ms.locfileid: "66838857"
 ---
 # <a name="about-apps-in-microsoft-teams"></a>关于 Microsoft Teams 的应用
 
@@ -83,9 +83,15 @@ Teams自带一组内置应用，包括列表、任务、表扬、审批等。 �
 
 如果不允许旁加载，开发人员仍然可以在 [测试租户](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant)中测试其应用。 自定义应用开发完成后，开发人员会请求管理员将其自定义应用分发给最终用户。 有关详细信息，请参阅 [如何发布自定义应用](/microsoftteams/upload-custom-apps)。 作为管理员，可以允许或禁止对特定用户使用自定义应用。
 
-### <a name="about-app-templates"></a>关于应用模板
+## <a name="about-app-templates"></a>关于应用模板
 
-Teams 的应用模板是 Microsoft 创建的具有功能性、可以用于生产准备的示例应用，介绍了常见用例、展示应用开发最佳做法，并提供开源应用，开发者可以扩展创建自定义应用。 组织开发人员通过对 GitHub 中提供的代码进行简单更改，自定义组织需要的应用模板。 作为管理员，可将这些应用作为最终用户的自定义应用提供。
+Teams 的应用模板是 Microsoft 为实现以下目的而创建的功能性和生产就绪示例应用：
+
+* 说明常用用例
+* 展示应用开发最佳做法
+* 提供开发人员可扩展以创建自定义应用的开源应用
+
+组织开发人员通过对 GitHub 中提供的代码进行简单更改来自定义应用模板。 为满足任何组织需求，可将这些应用作为自定义应用提供给最终用户。
 
 若要了解详细信息，请参阅 [Microsoft Teams 应用模板](https://adoption.microsoft.com/microsoft-teams/app-templates/)。
 

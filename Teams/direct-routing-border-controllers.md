@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 了解哪些会话边界控制器 (SBC) 已通过直接路由认证。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bb4363fec70a7bcf139929541a7dfe3686089937
-ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+ms.openlocfilehash: 3a0db349d1e828a238a6b7a68d8f005e7389182b
+ms.sourcegitcommit: 791d0a341ff873145fa893ece05055729b0b8d50
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65823544"
+ms.lasthandoff: 07/18/2022
+ms.locfileid: "66838847"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>经认证可用于直接路由的会话边界控制器
 
@@ -178,3 +178,6 @@ Microsoft 与每个供应商合作：
 请注意授予主要版本的认证。 这意味着主要版本后 SBC 固件中任意编号的固件均受支持。
 
 如要提供有关 Teams 的反馈（例如，新功能的想法），请参阅 [Microsoft 反馈门户](https://feedbackportal.microsoft.com/)。
+
+> [!NOTE]
+> 不支持媒体重新定位。 在直接路由呼叫期间，如果 SBC 向 Teams 直接路由发送新的媒体 IP，尽管它是在 SIP 信令中协商的，但媒体永远不会从 Teams 直接路由发送到新的 IP 地址。
