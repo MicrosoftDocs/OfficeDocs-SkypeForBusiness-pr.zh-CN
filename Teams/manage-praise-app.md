@@ -1,56 +1,56 @@
 ---
-title: 在Teams管理中心管理表扬应用
-author: mkbond007
-ms.author: mabond
-manager: serdars
+title: 在 Teams 管理中心管理“表扬”应用
+author: LanaChin
+ms.author: v-lanachin
+manager: samanro
 ms.reviewer: rjam
 audience: admin
 ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
-description: 了解如何在Microsoft Teams管理中心管理表扬应用。
-ms.openlocfilehash: e9da2a1903c53f469d6a64c6773715bfe1697743
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+description: 了解如何在 Microsoft Teams 管理中心管理“表扬”应用。
+ms.openlocfilehash: 0b2e733478f309df8ff1c8253b21f01f92d800f9
+ms.sourcegitcommit: ea9cbb8e32b7f23c17930eadc0a1dcbd906449ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646271"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66842238"
 ---
-# <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>在Microsoft Teams管理中心管理表扬应用
+# <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 管理中心管理“表扬”应用
 
-Microsoft Teams中的表扬应用可帮助用户向组织或课堂成员表示欣赏。 表扬的徽章旨在帮助识别Teams用户所做的各种工作，从教师到一线工作人员。 若要了解详细信息，请查看[向用户发送表扬](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e)。
+Microsoft Teams 中的“表扬”应用可帮助用户向组织或课堂成员表示赞赏。 “赞美”中的徽章旨在帮助识别 Teams 用户在从教师到一线工作者等各种工作中所做的努力。 若要了解详细信息，请查看 [“向他人发送表扬](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e)”。
 
-管理员必须具有Teams许可证才能访问此功能。 如果尝试在没有Teams许可证的情况下访问此功能，则会收到一条错误消息。
+管理员必须具有 Teams 许可证才能访问此功能。 如果尝试在没有 Teams 许可证的情况下访问此功能，将收到一条错误消息。
 
 > [!NOTE]
-> 表扬应用适用于GCC云环境，但不适用于 GCC High 或 DoD。
+> Praise 应用适用于 GCC 云环境，但不适用于 GCC High 或 DoD。
 
-## <a name="enable-or-disable-praise-in-your-organization"></a>在组织中启用或禁用表扬
+## <a name="enable-or-disable-praise-in-your-organization"></a>在组织中启用或禁用“表扬”
 
-默认情况下，表扬为组织中的所有Teams用户启用。 你可以在 Microsoft Teams 管理中心的[管理应用](manage-apps.md)页面在组织级别关闭或打开此应用。
+默认情况下，会为组织中的所有 Teams 用户启用“表扬”。 你可以在 Microsoft Teams 管理中心的[管理应用](manage-apps.md)页面在组织级别关闭或打开此应用。
 
-:::image type="content" source="media/manage-praise-app-admin-center.png" alt-text="Teams管理中心“表扬应用详细信息”页的屏幕截图，其中显示了“状态”切换。":::
+:::image type="content" source="media/manage-praise-app-admin-center.png" alt-text="Teams 管理中心中“表扬应用详细信息”页的屏幕截图，其中显示了“状态”切换。":::
 
-1. 在Microsoft Teams管理中心的左窗格中，转到 **Teams** **appsManage** >  应用。
-2. 在应用列表中，搜索表扬应用，选择它，然后将 **状态** 切换为 **“已阻止**”或 **“允许**”。
+1. 在 Microsoft Teams 管理中心的左窗格中，转到 **Teams 应用** > **管理应用**。
+2. 在应用列表中，搜索“表扬”应用，选择它，然后将 **“状态** ”切换为 **“已阻止** ”或 **“允许**”。
 
-请记住，此设置会影响Teams中Viva Insights应用中的表扬应用和表扬功能。
+请记住，此设置会影响 Teams 中Viva Insights应用中的“表扬”应用和“表扬”功能。
 
-如果将状态设置为“已阻止”，则Teams会在几分钟内阻止表扬应用。 但是，Viva Insights中的表扬可能需要 7-9 天才能被阻止。
+如果将状态设置为“已阻止”，则 Teams 会在几分钟内阻止“表扬”应用。 但是，Viva Insights中的表扬可能需要 7-9 天才能被阻止。
 
-## <a name="enable-or-disable-praise-for-specific-users-in-your-organization"></a>为组织中的特定用户启用或禁用表扬
+## <a name="enable-or-disable-praise-for-specific-users-in-your-organization"></a>为组织中的特定用户启用或禁用“表扬”
 
-若要允许或阻止组织中的特定用户使用表扬，请确保在“[管理应用](manage-apps.md)”页上为组织启用表扬。 然后创建自定义应用权限策略并将其分配给这些用户。 要了解详细信息，请参阅[在 Teams 中管理应用权限策略](teams-app-permission-policies.md)。
+若要允许或阻止组织中的特定用户使用“表扬”，请确保在 [“管理应用](manage-apps.md) ”页上为组织启用了“表扬”。 然后创建自定义应用权限策略并将其分配给这些用户。 要了解详细信息，请参阅[在 Teams 中管理应用权限策略](teams-app-permission-policies.md)。
 
 ## <a name="badges"></a>徽章
 
-下面是表扬中的默认徽章集。 Teams组织中的用户可以使用这些锁屏提醒来识别他们的对等方在工作上超越。
+下面是“表扬”中的默认徽章集。 组织中的 Teams 用户可以使用这些锁屏提醒来识别其对等方在工作上超越或超越这些徽章。
 
 :::image type="content" source="media/default-set-praise.png" alt-text="默认徽章集中的徽章图像。":::
 
 > [!NOTE]
-> 从 2022 年 2 月开始，人们只能发送和接收默认徽章。 自定义徽章不再可用，自定义徽章的选项已从Teams管理中心删除。
+> 从 2022 年 2 月开始，人们只能发送和接收默认徽章。 自定义徽章不再可用，自定义徽章的选项已从 Teams 管理中心删除。
 
 ## <a name="related-articles"></a>相关文章
 
-[在Microsoft Teams管理中心管理应用](manage-apps.md)
+[在 Microsoft Teams 管理中心管理应用](manage-apps.md)

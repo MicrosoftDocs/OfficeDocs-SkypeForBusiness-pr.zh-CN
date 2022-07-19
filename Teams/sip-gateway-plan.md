@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6bf8e6ab6f2a5ba7303887e9e7d7d72d22c50964
-ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.openlocfilehash: bbb03bcf092d1379065ced1d95e3aa61980febcc
+ms.sourcegitcommit: 791d0a341ff873145fa893ece05055729b0b8d50
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66794680"
+ms.lasthandoff: 07/18/2022
+ms.locfileid: "66838997"
 ---
 # <a name="plan-for-sip-gateway"></a>规划 SIP 网关
 
@@ -52,6 +52,9 @@ SIP 网关将兼容的 SIP 设备连接到 Teams，以帮助用户无缝迁移�
 ## <a name="requirements-to-use-sip-gateway"></a>使用 SIP 网关的要求
 
 Teams 用户必须具有已启用 PSTN 呼叫的电话号码才能使用 SIP 网关。
+
+> [!NOTE]
+> SIP 网关不适用于 GCC、GCC High 和 DoD)  (政府环境。
 
 ### <a name="hardware-software-and-licenses"></a>硬件、软件和许可证
 

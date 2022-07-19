@@ -1,66 +1,72 @@
 ### YamlMime:Hub
-title: Microsoft Teams小轮次讲座
-summary: 为 IT 专业人员和决策者设计，Teams会议提供了一个独一无二的机会，方便你了解有关某些最热门和极具吸引力的方案的最佳实践和实用Teams。
+title: Microsoft Teams 粉笔会谈
+summary: Teams 粉笔讲座专为 IT 专业人员和决策者设计，提供了一个独特的机会，用于了解有关 Teams 中一些最受欢迎和最吸引人的方案的最佳做法和实践指导。
 brand: teams
 metadata:
-  title: Microsoft Teams对话
-  description: 为 IT 专业人员和决策者设计，Teams会议提供了一个独一无二的机会，方便你了解有关某些最热门和极具吸引力的方案的最佳实践和实用Teams。 这些在线互动研讨会由主题专家主持，将向您提供见解，以增强Teams实现并为最终用户提供更多价值。 单击下面的任何研讨会标题，查看可用的日期和时间，并立即注册！
+  title: Microsoft Teams 粉笔对话
+  description: Teams 粉笔讲座专为 IT 专业人员和决策者设计，提供了一个独特的机会，用于了解有关 Teams 中一些最受欢迎和最吸引人的方案的最佳做法和实践指导。 在主题专家的推动下，这些在线交互式研讨会将为你提供见解，以增强 Teams 实现，并为最终用户提供额外的价值。 单击下面的任何研讨会标题以查看可用日期和时间，并立即注册！
   ms.service: msteams
   ms.topic: hub-page
-  author: SerdarSoysal
-  ms.author: serdars
+  author: MikePlumleyMSFT
+  ms.author: mikeplum
   manager: serdars
   ms.date: 06/17/2020
   ms.reviewer: nsuter
   audience: admin
   f1.keywords:
-    - NOCSH
+  - NOCSH
   ms.localizationpriority: medium
-  ROBOTS: 'NOINDEX, NOFOLLOW'
+  ROBOTS: NOINDEX, NOFOLLOW
   ms.collection:
-    - Teams_ITAdmin_JourneyFromSfB
-    - M365-collaboration
+  - Teams_ITAdmin_JourneyFromSfB
+  - M365-collaboration
   ms.custom:
-    - seo-marvel-apr2020
+  - seo-marvel-apr2020
   search.appverid: MET150
   appliesto:
-    - Microsoft Teams
+  - Microsoft Teams
+  ms.openlocfilehash: 75ccc3c0953df013b2e13868f960a13d10ac13f0
+  ms.sourcegitcommit: 791d0a341ff873145fa893ece05055729b0b8d50
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 07/18/2022
+  ms.locfileid: "66838887"
 productDirectory:
-  summary: 单击研讨会标题以注册或访问按需录制。
+  summary: 单击工作坊标题以注册或访问按需录制。
   items:
-    - title: 负责视频中音频/视频Teams
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/health-teams.svg'
-      summary: 想要确保用户具有最佳的会议和语音功能体验？ 我们将讨论可帮助你管理服务质量的工具、报告和最佳做法 - 从建立主动策略到解决常见问题。
-      url: 'https://aka.ms/ChalkTalkAVQuality'
-    - title: 那么...你想使用你的电话Teams？
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/headset-teams.svg'
-      summary: 加入我们，深入了解将 PSTN 呼叫功能添加到 Teams 部署。 我们将一起演练调用术语、关键概念和配置。
-      url: 'https://aka.ms/ChalkTalkCalling'
-    - title: 使用视频激活实时Microsoft Teams
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/presenter-teams.svg'
-      summary: 使用 Microsoft Teams，通过大型在线虚拟活动吸引受众并Microsoft Teams。 了解确保事件成功的最佳实践。
-      url: 'https://aka.ms/ChalkTalksVirtualEvents'
-    - title: Teams 基础中的应用
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/blocks-teams.svg'
-      summary: 此基础会话涵盖基本功能，包括应用管理和安全性。 了解如何将工作流、效率应用和日常使用的服务集成到单个统一的体验中。
-      url: 'https://aka.ms/ChalkTalkApps'
-    - title: 将关键工作流与应用程序中的应用Teams
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/bandwidth-efficiency-teams.svg'
-      summary: 连接将组织依赖的应用引入应用，从而改进系统、提高自动化，以及为用户提供改进Teams。
-      url: 'https://aka.ms/ChalkTalkKeyApps'
-    - title: 让一线员工能够使用 Teams
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/devices-2-teams.svg'
-      summary: 探索最佳做法，为一线员工计划和实现简化的体验，实现高效对话、信息共享和计划管理。
-      url: 'https://aka.ms/TeamsFLW'
+  - title: 负责 Teams 中的音频/视频质量
+    imageSrc: https://docs.microsoft.com/office/media/icons/health-teams.svg
+    summary: 希望确保用户在会议和语音功能上拥有最佳体验？ 我们将讨论帮助你管理服务质量的工具、报告和最佳做法，从制定主动策略到解决常见问题。
+    url: https://aka.ms/ChalkTalkAVQuality
+  - title: 所以。。。你想要使用 Teams 进行呼叫？
+    imageSrc: https://docs.microsoft.com/office/media/icons/headset-teams.svg
+    summary: 与我们一起深入了解如何将 PSTN 调用功能添加到 Teams 部署。 我们将一起演练调用术语、关键概念和配置。
+    url: https://aka.ms/ChalkTalkCalling
+  - title: 使用 Microsoft Teams 为实时事件提供活力
+    imageSrc: https://docs.microsoft.com/office/media/icons/presenter-teams.svg
+    summary: 使用 Microsoft Teams 通过大型联机虚拟事件吸引和激励受众。 了解确保事件成功的最佳做法。
+    url: https://aka.ms/ChalkTalksVirtualEvents
+  - title: Teams 基础知识中的应用
+    imageSrc: https://docs.microsoft.com/office/media/icons/blocks-teams.svg
+    summary: 此基础会话涵盖基本功能，包括应用管理和安全性。 了解如何将工作流、生产力应用和每天使用的服务集成到单个统一体验中。
+    url: https://aka.ms/ChalkTalkApps
+  - title: 使用 Teams 中的应用增压密钥工作流
+    imageSrc: https://docs.microsoft.com/office/media/icons/bandwidth-efficiency-teams.svg
+    summary: 通过将组织所依赖的应用引入 Teams，连接系统，提高自动化程度，并为用户提供改进的体验。
+    url: https://aka.ms/ChalkTalkKeyApps
+  - title: 使一线员工能够使用 Teams 执行更多操作
+    imageSrc: https://docs.microsoft.com/office/media/icons/devices-2-teams.svg
+    summary: 探索最佳做法，为一线员工规划和实施高效对话、信息共享和计划管理的简化体验。
+    url: https://aka.ms/TeamsFLW
 additionalContent:
   sections:
-    - items:
-        - title: 仍在使用Skype for Business？
-          summary: 查看升级研讨会系列。
-          url: 'https://aka.ms/upgradeworkshops'
-        - title: 准备用户
-          summary: 使用实时培训让用户Teams运行。
-          url: ./instructor-led-training-teams-landing-page.yml
-        - title: 不熟悉 Teams？
-          summary: 详细了解如何开始使用 Teams。
-          url: ./teams-overview.md
+  - items:
+    - title: 仍在使用Skype for Business？
+      summary: 查看我们的升级研讨会系列。
+      url: https://aka.ms/upgradeworkshops
+    - title: 准备用户
+      summary: 使用 Teams Live Training 让用户启动并运行。
+      url: ./instructor-led-training-teams-landing-page.yml
+    - title: 不熟悉 Teams？
+      summary: 详细了解 Teams 入门。
+      url: ./teams-overview.md

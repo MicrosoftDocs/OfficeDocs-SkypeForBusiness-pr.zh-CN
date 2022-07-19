@@ -1,8 +1,8 @@
 ---
 title: Microsoft Teams 中的 Walkie Talkie 应用
-author: MicrosoftHeidi
-ms.author: heidip
-manager: serdars
+author: LanaChin
+ms.author: v-lanachin
+manager: samanro
 ms.topic: reference
 ms.service: msteams
 audience: admin
@@ -18,12 +18,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bfd87dbd6b8cc96377c8163294a3fda41934d801
-ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
+ms.openlocfilehash: 27410562a32f620d8a20e058b0d460c1209e0121
+ms.sourcegitcommit: ea9cbb8e32b7f23c17930eadc0a1dcbd906449ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66819257"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66842218"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft Teams 中的 Walkie Talkie 应用
 

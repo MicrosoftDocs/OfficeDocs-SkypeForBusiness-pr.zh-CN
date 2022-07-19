@@ -1,13 +1,13 @@
 ---
 title: PowerShell 脚本示例 - 为学校中的教师和学生创建安全组
-author: serdars
-ms.author: serdars
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 ms.reviewer: angch
 ms.service: msteams
 audience: admin
-description: 使用此 PowerShell 脚本创建安全组，以便为学校中的教师和学生管理Teams策略。
+description: 使用此 PowerShell 脚本创建安全组，以便为学校中的教师和学生管理 Teams 策略。
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -17,16 +17,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f46bd50e47640c575489788ccd3e5db0ce778564
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+ms.openlocfilehash: 99c4e10cc37513323eb3dcfb8159977b269a667d
+ms.sourcegitcommit: 791d0a341ff873145fa893ece05055729b0b8d50
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681543"
+ms.lasthandoff: 07/18/2022
+ms.locfileid: "66838787"
 ---
 # <a name="powershell-script-sample---create-security-groups-for-educators-and-students-in-your-school"></a>PowerShell 脚本示例 - 为学校中的教师和学生创建安全组
 
-使用此 PowerShell 脚本创建管理学校中Microsoft Teams策略所需的安全组。 通过Teams中[对组](../assign-policies-users-and-groups.md#assign-a-policy-to-a-group)功能的策略分配，可以将策略分配给一组用户，例如安全组。 根据优先级规则，将策略分配传播到组中的成员。 将成员添加到组或从组中删除成员时，将相应更新其继承的策略分配。
+使用此 PowerShell 脚本创建需要在学校管理 Microsoft Teams 策略的安全组。 通过 Teams 中组功能的 [策略分配](../assign-policies-users-and-groups.md#assign-a-policy-to-a-group) ，可以将策略分配给一组用户，例如安全组。 根据优先级规则，将策略分配传播到组中的成员。 将成员添加到组或从组中删除成员时，将相应更新其继承的策略分配。
 
 此 PowerShell 脚本基于许可证类型创建两个安全组，一个用于教职员工和教师，另一个用于学校学生。 然后，可以将策略分配给创建的安全组。 有关使用此脚本的详细信息，请参阅 [为学校中的大量用户分配策略](../batch-group-policy-assignment-edu.md)。
 
@@ -45,7 +45,7 @@ ms.locfileid: "65681543"
 
 下载并安装 [Skype for Business Online PowerShell 模块](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)，然后在出现提示时重启计算机。
 
-若要精简更多内容，请参阅 [Office 365 PowerShell 和 Teams](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) [PowerShell 概述管理 Skype for Business](../teams-powershell-overview.md) Online。
+若要精简更多内容，请参阅[使用 Office 365 PowerShell 和 Teams PowerShell 管理联机Skype for Business](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)[概述](../teams-powershell-overview.md)。
 
 
 ## <a name="sample-script"></a>示例脚本

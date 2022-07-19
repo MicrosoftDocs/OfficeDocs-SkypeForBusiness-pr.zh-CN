@@ -3,6 +3,51 @@
 
 
 
+## <a name="week-of-july-11-2022"></a>2022 年 7 月 11 日当周
+
+
+| 发布日期 |主题标题 | 更改 |
+|------|------------|--------|
+| 7/13/2022 | [保留音乐](/MicrosoftTeams/music-on-hold) | 修改内容 |
+| 7/14/2022 | [规划 SIP 网关](/MicrosoftTeams/sip-gateway-plan) | 修改内容 |
+| 7/15/2022 | [Microsoft Teams 会议室 (Windows) 发行说明](/MicrosoftTeams/rooms/rooms-release-note) | 修改内容 |
+| 7/15/2022 | [适用于一线工作人员的 Teams 策略包](/MicrosoftTeams/policy-packages-flw) | 添加内容 |
+| 7/15/2022 | [在 Microsoft Teams 中管理审批应用](/MicrosoftTeams/approval-admin) | 修改内容 |
+| 7/15/2022 | [在 Microsoft Teams 中管理 Bookings 应用](/MicrosoftTeams/bookings-app-admin) | 修改内容 |
+| 7/15/2022 | 为 Microsoft Teams 中的一线工作人员大规模部署团队 | 删除内容 |
+| 7/15/2022 | 使用 Microsoft Teams 和 Bookings 应用进行虚拟约会 | 删除内容 |
+| 7/15/2022 | 管理浏览器上的 Teams 虚拟约会的联接体验 | 删除内容 |
+| 7/15/2022 | [在组织中推广 Microsoft Teams](/MicrosoftTeams/expand-teams-across-your-org/expand-teams-across-your-organization-landing-page) | 修改内容 |
+| 7/15/2022 | 使用 Teams 进行虚拟约会 - 集成到 Cerner EHR | 删除内容 |
+| 7/15/2022 | Microsoft Teams EHR 连接器虚拟约会报表 | 删除内容 |
+| 7/15/2022 | 与 Teams 的虚拟约会 - 集成到 Epic EHR | 删除内容 |
+| 7/15/2022 | 消息委派 | 删除内容 |
+| 7/15/2022 | 使用 Microsoft Teams 的医疗保健组织的安全消息传递 | 删除内容 |
+| 7/15/2022 | 适用于医疗保健组织的 Teams 入门 | 删除内容 |
+| 7/15/2022 | 简化零售环境中的业务流程 | 删除内容 |
+| 7/15/2022 | 零售团队协作 | 删除内容 |
+| 7/15/2022 | Teams 中的排班 | 删除内容 |
+| 7/15/2022 | 管理 Teams 中一线员工基于班次的访问权限 | 删除内容 |
+| 7/15/2022 | [为组织管理“班次”应用](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | 修改内容 |
+| 7/15/2022 | 管理班次管理的计划所有者 | 删除内容 |
+| 7/15/2022 | 使用 PowerShell 将 Shifts 连接到 Blue Yonder Workforce Management | 删除内容 |
+| 7/15/2022 | 使用 PowerShell 管理与 Blue Yonder Workforce Management 的 Shifts 连接 | 删除内容 |
+| 7/15/2022 | 使用 Shifts 连接器向导将 Shifts 连接到 Blue Yonder Workforce Management | 删除内容 |
+| 7/15/2022 | Shifts 连接器 | 删除内容 |
+| 7/15/2022 | 适用于零售业的 Teams | 删除内容 |
+| 7/15/2022 | 帮助客户和客户使用虚拟约会 | 删除内容 |
+| 7/15/2022 | [适合一线员工的 Teams](/MicrosoftTeams/flw-landing-page) | 修改内容 |
+| 7/15/2022 | 了解一线工作人员用户类型和许可 | 删除内容 |
+| 7/15/2022 | 使用"一线工作人员载入向导"使一线工作人员启动并运行 | 删除内容 |
+| 7/15/2022 | 一线工作者快速入门指南 | 删除内容 |
+| 7/15/2022 | 在 Teams 中管理一线试用版 | 删除内容 |
+| 7/15/2022 | 为一线员工定制 Teams 应用 | 删除内容 |
+| 7/15/2022 | [Teams 医疗保健策略包](/MicrosoftTeams/policy-packages-healthcare) | 修改内容 |
+| 7/15/2022 | Microsoft Teams 虚拟访问使用情况报告 | 删除内容 |
+| 7/15/2022 | [PowerShell 脚本示例 - 导出管理器及其直接报表](/MicrosoftTeams/scripts/powershell-script-create-teams-from-managers-export-managers) | 修改内容 |
+| 7/15/2022 | [PowerShell 脚本示例 - 创建新的人员管理器团队](/MicrosoftTeams/scripts/powershell-script-create-teams-from-managers-new-teams) | 修改内容 |
+
+
 ## <a name="week-of-july-04-2022"></a>2022 年 7 月 4 日当周
 
 
@@ -90,22 +135,3 @@
 | 6/16/2022 | [规划 Teams 自动助理和呼叫队列](/MicrosoftTeams/plan-auto-attendant-call-queue) | 修改内容 |
 | 6/16/2022 | [在 Microsoft Teams 管理中心上传自定义应用](/MicrosoftTeams/upload-custom-apps) | 修改内容 |
 | 6/16/2022 | [管理参与者和来宾的会议策略](/MicrosoftTeams/meeting-policies-participants-and-guests) | 修改内容 |
-
-
-## <a name="week-of-june-06-2022"></a>2022 年 6 月 6 日当周
-
-
-| 发布日期 |主题标题 | 更改 |
-|------|------------|--------|
-| 6/6/2022 | [跨 Microsoft 365 管理对 Teams 应用的访问](/MicrosoftTeams/manage-third-party-teams-apps) | 修改内容 |
-| 6/7/2022 | [管理组织的更新应用](/MicrosoftTeams/manage-updates-app) | 修改内容 |
-| 6/7/2022 | [为 Microsoft Teams 中的一线工作人员大规模部署团队](/MicrosoftTeams/deploy-teams-at-scale) | 添加内容 |
-| 6/8/2022 | [启用Teams 会议室设备加入第三方会议](/MicrosoftTeams/rooms/third-party-join) | 修改内容 |
-| 6/9/2022 | [基于用户类型的 Teams 应用行为](/MicrosoftTeams/non-standard-users) | 修改内容 |
-| 6/9/2022 | [设置通用区域电话许可证](/MicrosoftTeams/set-up-common-area-phones) | 修改内容 |
-| 6/9/2022 | [在 Microsoft Teams 中创建呼叫队列](/MicrosoftTeams/create-a-phone-system-call-queue) | 修改内容 |
-| 6/9/2022 | [设置组织的通信点数](/MicrosoftTeams/set-up-communications-credits-for-your-organization) | 修改内容 |
-| 6/10/2022 | [移动应用扩展](/MicrosoftTeams/rooms/extended-mobile-app) | 添加内容 |
-| 6/10/2022 | [为 Microsoft Teams 中的一线工作人员大规模部署团队](/MicrosoftTeams/deploy-teams-at-scale) | 修改内容 |
-| 6/10/2022 | [从商务语音移动到 Teams 电话许可证](/MicrosoftTeams/business-voice-to-teams-phone-licenses) | 添加内容 |
-| 6/10/2022 | [启用Teams 会议室设备加入第三方会议](/MicrosoftTeams/rooms/third-party-join) | 修改内容 |

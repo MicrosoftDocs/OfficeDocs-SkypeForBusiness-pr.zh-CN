@@ -19,26 +19,26 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 9c18d1ce0e7b9d75245dc62a5990c7dfbbad7246
-ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
+ms.openlocfilehash: b97f6c490f562cbd860e6c69a09e3659340dea99
+ms.sourcegitcommit: 791d0a341ff873145fa893ece05055729b0b8d50
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66819457"
+ms.lasthandoff: 07/18/2022
+ms.locfileid: "66838797"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理应用设置策略
 
 作为管理员，可以使用应用设置策略来安装和固定应用，并允许用户上传自定义应用。 固定有助于促进组织中相关应用的采用。
 
 * **固定应用：** 应用设置策略允许你选择要固定的应用，设置应用在 Teams 应用栏或撰写消息区域中为用户显示的顺序。 管理员还可以控制最终用户是否可以固定自己的应用。 请参阅 [Pin 应用](#pin-apps)。
-* **安装应用：** 应用设置策略允许你在启动 Teams 时和会议期间代表用户安装应用。 有关详细信息，请参阅 [“安装应用](#install-apps)”。
+* **安装应用：** 应用设置策略允许你在启动 Teams 和会议期间代表用户安装允许的应用。 有关详细信息，请参阅 [“安装应用](#install-apps)”。
 * **上传自定义应用：** 应用设置策略允许用户将自定义应用上传到 Teams。 有关详细信息，请参阅 [上传自定义应用](#upload-custom-apps)。
 
 ## <a name="pin-apps"></a>固定应用
 
-固定应用可以突出显示组织中用户最需要的应用。 固定适用于 Microsoft、ISV 公司和组织内开发人员提供的应用。 通过应用设置策略固定应用也会安装它。 使用应用设置策略可以执行以下任务：
+固定应用可以突出显示组织中用户最需要的应用。 固定适用于 Microsoft、ISV 公司和组织内开发人员提供的应用。 如果允许用户使用应用，则通过应用设置策略固定应用也会安装它。 使用应用设置策略可以执行以下任务：
 
-* 自定义 Teams 以突出显示对用户最为重要的应用。 选择要固定的应用并设置它们显示的顺序。
+* 为最终用户自定义 Microsoft Teams，以突出显示其最重要的应用。 选择要固定的应用以及应用显示的顺序。
 * 控制用户是否可以固定应用。
 
 应用固定到 Teams 桌面客户端左侧和 Teams 移动客户端底部的应用栏。
@@ -88,7 +88,6 @@ ms.locfileid: "66819457"
 
 * 默认情况下，在其个人 Teams 环境中为最终用户安装应用。
 * 为最终用户安装应用作为 [消息传递扩展](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions)。
-* 在会议组织者的会议中安装应用。
 
 如果 [应用权限](teams-app-permission-policies.md) 策略允许，最终用户可以自行安装应用。
 
@@ -201,7 +200,7 @@ ms.locfileid: "66819457"
 
  (iOS 和 Android) Teams 移动客户端支持具有静态选项卡的个人应用。 固定到 Teams 桌面客户端的应用将显示在 Teams 移动客户端中。 个人机器人将显示在移动客户端上的聊天中。
 
-第三方应用 (可从 Teams 应用商店下载) 需要获得批准，然后才能在移动设备上显示。 如果管理员固定了 Microsoft for Mobile 未批准的应用，它将显示在 Teams 桌面上，但不会显示在移动设备上。 有关详细信息，请参阅 [移动客户](/microsoftteams/platform/tabs/what-are-tabs#mobile-clients) 端。
+第三方应用 (可从 Teams 应用商店下载) 需要获得批准，然后才能在移动设备上显示。 如果管理员固定了 Microsoft for Mobile 未批准的应用，它将显示在 Teams 桌面上，但不会显示在移动设备上。 有关详细信息，请参阅 [移动客户端](/microsoftteams/platform/tabs/what-are-tabs#mobile-clients)。
 
 借助 Teams 移动客户端，用户将看到核心 Teams 应用，如活动、聊天和 Teams，你可以固定 Microsoft 的一些第一方应用，例如 Shifts。
 

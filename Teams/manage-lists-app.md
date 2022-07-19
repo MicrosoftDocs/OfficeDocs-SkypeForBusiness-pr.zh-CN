@@ -1,9 +1,9 @@
 ---
 title: 为组织管理 Lists 应用
-author: mkbond007
-ms.author: mabond
+author: LanaChin
+ms.author: v-lanachin
 ms.reviewer: anach,v-jasuk
-manager: serdars
+manager: samanro
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -24,12 +24,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 6c756fcdf8251bc2b468be1f89c98b1f069a1779
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+ms.openlocfilehash: efb9f2ce1f96dbddef049166e34fd999a5ed987e
+ms.sourcegitcommit: ea9cbb8e32b7f23c17930eadc0a1dcbd906449ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646491"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66842228"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中为组织管理 Lists 应用
 
@@ -60,7 +60,7 @@ Lists 中的模版为用户跟踪信息的应用场景量身打造。 每个模�
 
 会议过后，邮递员进行收件并开始派送。 派送路途中会发生事件，比如汽车事故、和狗有关的问题或社会不安抗议。 当邮递员遇到事件时，它们可以在移动设备上使用 Teams 来记录事件的详细信息，该信息在团队频道中的列表中受到跟踪。 团队里的所有人，包括现场的邮递员，都可以看到这个消息并保持知情。
 
-在迁移到Teams之前，邮递员必须返回帖子办公室才能完成一份硬复制表来报告事件，该事件随后在Excel电子表格中输入。 Teams 给邮递员们创造了一份移动优先的体验，它们可以使用 Lists 现场实时报告事件，与团队成员共享事件的详细信息，和他们在频道中交谈，并促进事件解决。
+在迁移到 Teams 之前，邮递员必须返回邮局才能完成硬复制表单以报告事件，该事件随后在 Excel 电子表格中输入。 Teams 给邮递员们创造了一份移动优先的体验，它们可以使用 Lists 现场实时报告事件，与团队成员共享事件的详细信息，和他们在频道中交谈，并促进事件解决。
 
 ## <a name="what-you-need-to-know-about-lists"></a>你需要了解的 Lists 相关信息
 
@@ -95,7 +95,7 @@ SharePoint 中的权限集应用于 Lists 应用中创建的列表。 列表默�
 
 Lists 在你的组织中默认为所有 Teams 用户启用。 你可以在 Microsoft Teams 管理中心的[管理应用](manage-apps.md)页面在组织级别关闭或打开此应用。
 
-1. 在Microsoft Teams管理中心的左窗格中，转到 **Teams** **appsManage** >  应用。
+1. 在 Microsoft Teams 管理中心的左窗格中，转到 **Teams 应用** > **管理应用**。
 2. 执行下列操作之一：
 
     - 若要关闭组织的列表，请搜索“列表”应用，选择它，然后选择 **“阻止**”。
@@ -119,7 +119,7 @@ Lists 工作流支持 [Power Automate](/power-automate/flow-types)，列表表�
 
 ## <a name="give-feedback-or-report-an-issue"></a>提供反馈或报告问题
   
-若要向我们发送反馈或报告问题，请在Teams中选择左窗格底部附近的 **“帮助**”，然后选择 **“报告问题**”。 选择 **LIsts**，然后输入反馈或关于你正在经历的问题的详细信息。
+若要向我们发送反馈或报告问题，请在 Teams 的左窗格底部附近选择 **“帮助** ”，然后选择 **“报告问题**”。 选择 **LIsts**，然后输入反馈或关于你正在经历的问题的详细信息。
 
 ## <a name="related-articles"></a>相关文章
 

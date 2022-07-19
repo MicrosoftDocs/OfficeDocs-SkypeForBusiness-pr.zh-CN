@@ -2,7 +2,7 @@
 title: Microsoft Teams 会议室客户报告的事件
 author: donnah007
 ms.author: v-donnahill
-ms.date: 06/27/2022
+ms.date: 07/08/2022
 manager: serdars
 ms.reviewer: dstrome
 ms.topic: article
@@ -17,12 +17,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 合作伙伴/客户可以手动关闭事件，并确保准确报告 MTRP 中的会议室运行状况。
-ms.openlocfilehash: 3f765627e2d18d52a6b3db8abbdd2ad59cee7019
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: f28462c6fab02a2a6b8e7db00b1f89ff30b80da1
+ms.sourcegitcommit: ea9cbb8e32b7f23c17930eadc0a1dcbd906449ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66494648"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66842299"
 ---
 # <a name="customer-reported-incident-tickets"></a>客户报告的事件票证
 
@@ -31,6 +31,11 @@ ms.locfileid: "66494648"
 ![事件>报告事件的屏幕截图](../media/customer-reported-incidents-001.png)
 
 在“说明”字段中，尽可能地描述需要 Microsoft 帮助的问题。 可以添加一个或多个会议室。
+
+检查  **事件** 是否导致服务或关键室的运行状况严重恶化。 若要帮助 Microsoft 正确确定请求的优先级，请详细描述影响很大的原因。
+
+> [!NOTE]
+> 不要将此字段用于一般问题、会议室和/或没有可用缓解措施的问题。
 
 ![受影响的事件报告室的屏幕截图](../media/customer-reported-incidents-002.png)
 
