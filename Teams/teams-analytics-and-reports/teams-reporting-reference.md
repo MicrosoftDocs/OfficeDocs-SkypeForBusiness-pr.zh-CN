@@ -18,12 +18,12 @@ description: 本文介绍 Microsoft Teams 管理中心提供的 Teams 报表。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 02acd95084b814e6f49634972eebeedfdeeb9472
-ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
+ms.openlocfilehash: bd6be2023745390a0f1225224e6ebbe9bcbde1dc
+ms.sourcegitcommit: e6f3e1e499ed1298b3e6f7a1b53f6cb8ba73c9b1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66825856"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "66906957"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft Teams 分析和报告
 
@@ -36,7 +36,7 @@ Microsoft Teams 管理中心提供了适用于 Microsoft Teams 的新分析和�
 转到 Microsoft Teams 管理中心，在左侧导航栏中，选择 **“分析”&报** 表，然后在 **“查看报表**”下选择要运行的报表。
 
 > [!NOTE]
-> Microsoft Teams 管理中心中的报表与属于 Microsoft 365 管理中心 中 Microsoft 365 报表的 Teams 活动报表是分开的。 有关Microsoft 365 管理中心中的活动报告的详细信息，请参阅 [Microsoft 365 管理中心 中的 Teams 活动报告](../teams-activity-reports.md)
+> Microsoft Teams 管理中心中的报表与属于 Microsoft 365 管理中心 中 Microsoft 365 报表的 Teams 活动报表是分开的。 有关Microsoft 365 管理中心中的活动报表的详细信息，请参阅[管理中心的 Microsoft 365 报表](/microsoft-365/admin/activity-reports/activity-reports)。
 
 ## <a name="teams-reporting-reference"></a>Teams 报告参考
 
