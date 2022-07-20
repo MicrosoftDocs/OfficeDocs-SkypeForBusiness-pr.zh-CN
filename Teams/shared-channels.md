@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 了解如何在 Microsoft Teams 中使用和管理共享频道。
-ms.openlocfilehash: 9a547963854f981e723d29b1472c2bda808b90c2
-ms.sourcegitcommit: 8fc2d6a824e1e119f54ea2347bc5c10cc076956d
+ms.openlocfilehash: 2c15567c78000de187877477554c233b59c5e58f
+ms.sourcegitcommit: 312ff79ecab91412918793ec882bfc6e0143d30a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/13/2022
-ms.locfileid: "66773761"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66884911"
 ---
 # <a name="shared-channels-in-microsoft-teams"></a>Microsoft Teams 中的共享频道
 
@@ -157,6 +157,8 @@ Microsoft Teams 中的共享频道可创建协作空间，你可以在其中邀�
 - 根据现有团队创建团队时，将不会复制现有团队中的任何共享频道。
 
 - 错过的活动电子邮件中不包含来自共享频道的通知。
+
+- 课堂团队不支持共享频道。
 
 ## <a name="supported-apps-in-shared-channels"></a>共享频道中支持的应用
 
