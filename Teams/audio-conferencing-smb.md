@@ -21,23 +21,23 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '了解如何为需要使用电话呼叫会议的人员在中小型企业中设置音频会议。 '
-ms.openlocfilehash: 91db0bc151d48b2aa7e9557fff7157626ca4ef4f
-ms.sourcegitcommit: 296fbefe0481c0b8b94aee925118474375cdf138
+ms.openlocfilehash: b7b5fbc958c67aa966619c961e011cda9450faf3
+ms.sourcegitcommit: 312ff79ecab91412918793ec882bfc6e0143d30a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65016584"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66884821"
 ---
 # <a name="set-up-audio-conferencing-for-small-and-medium-businesses"></a>中小型企业设置音频会议
 
-借助音频会议，用户可以使用电话呼叫Teams会议，而不是在移动设备或计算机上使用Teams应用。  
+借助音频会议，人们可以使用电话来呼叫 Teams 会议，而不是在移动设备或计算机上使用 Teams 应用。  
 
 如果你是一家拥有最多 300 个用户的中小型企业，并且当前没有任何音频会议许可证，则可以免费获得音频会议一年。 此免费套餐从 2020 年 10 月 1 日开始提供。
 
-音频会议加载项许可证可以应用于具有Microsoft 365 商业基础版、业务标准、商业高级版、企业 E1 或企业 E3 许可证的用户。 若要了解详细信息，请参阅[Teams加载项许可证](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+音频会议加载项许可证可以应用于具有Microsoft 365 商业基础版、业务标准、商业高级版、企业 E1 或企业 E3 许可证的用户。 若要了解详细信息，请参阅 [Teams 加载项许可证](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 
 > [!NOTE]
-> 如果有企业版 E5 或 Microsoft 365商务语音，则无法使用免费的音频会议套餐，因为这些许可证已包括音频会议。
+> 如果有企业 E5 或Microsoft 365 商务语音，则无法使用免费的音频会议套餐，因为这些许可证已包括音频会议。
 
 本文介绍如何设置音频会议。 你只需为打算安排或主持会议的人设置音频会议。 参加会议的与会者不需要许可证或其他设置。 若要了解详细信息，请参阅 [音频会议](audio-conferencing-in-office-365.md)。
 
@@ -52,8 +52,8 @@ ms.locfileid: "65016584"
 
 为每个主持会议的用户获取一个音频会议许可证。 使用Microsoft 365 管理中心执行此操作。
 
-1. 在Microsoft 365 管理中心中，转到 **BillingPurchase** >  服务，然后在页面底部选择 **加载项**。
-2. 选择 **Microsoft 365音频会议采用 PromoDetails** > ，然后选择 **“立即获取**”。
+1. 在Microsoft 365 管理中心中，转到“ > **计费****购买”服务**，然后在页面底部选择 **“加载项**”。
+2. 选择 **Microsoft 365 音频会议采用促销** > **详细信息**，然后选择 **“立即获取**”。
 3. 输入会议组织者所需的许可证数，然后完成订单。
 
     :::image type="content" source="media/audio-conferencing-smb-add.png" alt-text="音频会议采用促销许可证的屏幕截图。":::
@@ -67,20 +67,23 @@ ms.locfileid: "65016584"
 
 #### <a name="assign-a-license-to-one-user"></a>将许可证分配给一个用户
 
-1. 在Microsoft 365 管理中心中，转到 **UsersActive** >  用户。  
+1. 在Microsoft 365 管理中心中，转到 **用户** > **活动用户**。  
 2. 选择要将许可证分配到的用户行，然后在窗格中选择 **“许可证”和“应用**”。
-3. 选中 **“Microsoft 365音频会议”** 复选框，然后选择 **“保存更改**”。
+3. 选中 **Microsoft 365 音频会议** 复选框，然后选择 **“保存更改**”。
 
 #### <a name="assign-a-license-to-multiple-users"></a>向多个用户分配许可证
 
-1. 在Microsoft 365 管理中心中，转到 **UsersActive** >  用户。  
+1. 在Microsoft 365 管理中心中，转到 **用户** > **活动用户**。  
 2. 选择要向其分配许可证的用户旁边的圆圈，然后选择 **“管理产品许可证**”。
 3. 在“ **管理产品许可证** ”窗格中，选择 **“分配更多**”。
-4. 选中 **“Microsoft 365音频会议”** 复选框，然后选择 **“保存更改**”。  
+4. 选中 **Microsoft 365 音频会议** 复选框，然后选择 **“保存更改**”。  
 
-## <a name="schedule-teams-meetings-in-outlook"></a>在Outlook中安排Teams会议
+> [!IMPORTANT]
+> 分配的电话号码最多可能需要 24 小时才能显示在会议邀请中。 如果未显示更新的数字，请等待至少 24 小时，然后再联系支持人员。
 
-你的会议组织者现在可以在Outlook安排会议。 在Outlook中，转到 **“日历**”，然后选择 **“新建Teams会议**”按钮。 会议拨入号码和会议 ID 会自动添加到发送给与会者的会议邀请中。 若要了解详细信息，请参阅[Outlook中安排Teams会议](https://support.microsoft.com/office/schedule-a-teams-meeting-from-outlook-883cc15c-580f-441a-92ea-0992c00a9b0f)。
+## <a name="schedule-teams-meetings-in-outlook"></a>在 Outlook 中安排 Teams 会议
+
+你的会议组织者现在可以在 Outlook 中安排会议。 在 Outlook 中，转到 **“日历**”，然后选择 **“新建 Teams 会议** ”按钮。 会议拨入号码和会议 ID 会自动添加到发送给与会者的会议邀请中。 若要了解详细信息，请参阅 [Outlook 中的“计划 Teams 会议](https://support.microsoft.com/office/schedule-a-teams-meeting-from-outlook-883cc15c-580f-441a-92ea-0992c00a9b0f)”。
 
 > [!NOTE]
 > 如果需要，可以自定义会议邀请以添加公司徽标、指向支持网站和法律免责声明的链接，以及仅限文本的页脚。 若要了解详细信息，请参阅 [自定义会议邀请](meeting-settings-in-teams.md#customize-meeting-invitations)。
@@ -93,7 +96,7 @@ ms.locfileid: "65016584"
 
 共享号码是跨所有组织共享的数字。 共享号码是收费号码，在设置音频会议时会自动分配。
 
-若要查看分配给会议网桥的默认号码，请在Microsoft Teams管理中心的左侧导航栏中，转到 **MeetingsConference** >  桥，然后找到离你最近的位置的号码。
+若要查看分配给会议网桥的默认号码，请在 Microsoft Teams 管理中心的左侧导航中转到 **会议** > **会议网桥**，然后找到离你最近的位置的号码。
 
 ### <a name="dedicated-numbers"></a>专用数字
 
@@ -103,23 +106,23 @@ ms.locfileid: "65016584"
 
 请记住，如果使用免费号码，则必须先向主持会议的每个人分配通信信用额度许可证。 若要了解详细信息，请参阅 [为组织设置通信额度](set-up-communications-credits-for-your-organization.md)。
 
-拥有号码后，将其分配到会议网桥。 使用Microsoft Teams管理中心执行此操作。
+拥有号码后，将其分配到会议网桥。 使用 Microsoft Teams 管理中心执行此操作。
 
-1. 在Microsoft Teams管理中心的左侧导航中，转到 **MeetingsConference** >  桥。
+1. 在 Microsoft Teams 管理中心的左侧导航中，转到 **会议** > **会议网桥**。
 2. 选择 **“添加**”，然后选择 **“收费号码** ”或 **“免费收费号码**”。
 3. 在 **“添加电话号码** ”窗格中，选择号码，然后选择 **“应用**”。
 
 #### <a name="assign-dial-in-phone-numbers-for-users-who-lead-meetings"></a>为主持会议的用户分配拨入电话号码
 
-请参阅[设置Microsoft Teams中邀请中包含的电话号码](set-the-phone-numbers-included-on-invites-in-teams.md)。
+请参阅 [设置 Microsoft Teams 中邀请中包含的电话号码](set-the-phone-numbers-included-on-invites-in-teams.md)。
 
 > [!NOTE]
-> 还可以通过将电话号码添加到 *TeamsAudioconferencingpolicy* 并将策略分配给用户来设置电话号码。 添加到策略的收费和免费电话号码优先于通过音频会议设置窗格为用户单独设置的电话号码。 如果未将电话号码添加到 *Teamsaudioconferencingpolicy*，则通过音频会议设置窗格为用户单独设置的电话号码将显示在Microsoft Teams会议请求中。 [用于收费和免费号码的音频会议策略设置](audio-conferencing-toll-free-numbers-policy.md) 包含更多信息。
+> 还可以通过将电话号码添加到 *TeamsAudioconferencingpolicy* 并将策略分配给用户来设置电话号码。 添加到策略的收费和免费电话号码优先于通过音频会议设置窗格为用户单独设置的电话号码。 如果未将电话号码添加到 *Teamsaudioconferencingpolicy*，则通过音频会议设置窗格为用户单独设置的电话号码将显示在 Microsoft Teams 会议请求中。 [用于收费和免费号码的音频会议策略设置](audio-conferencing-toll-free-numbers-policy.md) 包含更多信息。
 
 ## <a name="related-topics"></a>相关主题
 
 - [音频会议](audio-conferencing-in-office-365.md)
-- [为Teams设置音频会议](set-up-audio-conferencing-in-teams.md)
+- [为 Teams 设置音频会议](set-up-audio-conferencing-in-teams.md)
 - [音频会议的电话号码](phone-numbers-for-audio-conferencing-in-teams.md)
 - [音频会议常见问题](audio-conferencing-common-questions.md)
 - [获取服务编号](getting-service-phone-numbers.md)

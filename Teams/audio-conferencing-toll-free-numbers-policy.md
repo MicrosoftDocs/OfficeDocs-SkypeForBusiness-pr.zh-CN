@@ -21,29 +21,29 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - ms.teamsadmincenter.audioconferencing.overview
-description: 了解Microsoft 365或Office 365中的音频会议如何允许用户通过手机呼叫会议。
-ms.openlocfilehash: 11e1e493db38b5e830b3334f659d23f86b6b56ba
-ms.sourcegitcommit: 296fbefe0481c0b8b94aee925118474375cdf138
+description: 了解 Microsoft 365 或Office 365中的音频会议如何允许用户通过手机呼叫会议。
+ms.openlocfilehash: 1a03faf129a40d61605474e95c759067ce20841e
+ms.sourcegitcommit: 312ff79ecab91412918793ec882bfc6e0143d30a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65016994"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66884901"
 ---
 # <a name="audio-conferencing-policy-settings-for-toll-and-toll-free-numbers"></a>用于收费和免费号码的音频会议策略设置
 
-## <a name="teams-audio-conferencing-policy"></a>Teams音频会议策略
+## <a name="teams-audio-conferencing-policy"></a>Teams 音频会议策略
 
-使用音频会议策略管理音频会议收费和免费号码，以显示在组织内用户创建的会议邀请中。 可以使用两个自动创建的策略之一，也可以创建和分配自定义策略。 两个自动创建的策略是全局 (组织范围内的默认) 和 AllowTollFreeDialinFalse (分配给组织内所有未启用免费拨入号码) 的现有用户。 在Microsoft Teams管理中心或使用 [PowerShell](teams-powershell-overview.md) 管理音频会议策略。
+使用音频会议策略管理音频会议收费和免费号码，以显示在组织内用户创建的会议邀请中。 可以使用两个自动创建的策略之一，也可以创建和分配自定义策略。 两个自动创建的策略是全局 (组织范围内的默认) 和 AllowTollFreeDialinFalse (分配给组织内所有未启用免费拨入号码) 的现有用户。 在 Microsoft Teams 管理中心或使用 [PowerShell](teams-powershell-overview.md) 管理音频会议策略。
 
-- 无法再通过Teams管理中心或 PowerShell 为单个用户管理 AllowTollFreeDialin 的设置。 租户管理员只能通过新的音频会议策略管理此设置。
-- 无法从Teams管理中心修改全局策略。
+- 无法再通过 Teams 管理中心或 PowerShell 为单个用户管理 AllowTollFreeDialin 的设置。 租户管理员只能通过新的音频会议策略管理此设置。
+- 无法从 Teams 管理中心修改全局策略。
 
-在租户中启用Teams音频会议策略时，租户中将提供两个自动创建的策略。 两个自动创建的策略及其默认设置为：
+在租户中启用 Teams 音频会议策略时，租户中将提供两个自动创建的策略。 两个自动创建的策略及其默认设置为：
 
 ### <a name="global-org-wide-default"></a>全局 (组织范围的默认) 
 
 在此策略中， **AllowTollfreedialin** 的值将设置为 ON，并且策略中不会定义任何电话号码。 对于在启动时 **已将 AllowTollfreedialin** 设置为 **On** 的租户中的所有用户，这将是默认策略。
-由于该策略未定义任何电话号码，因此当此策略的用户创建Teams会议时，其会议中提供的电话号码将与用户在策略之前的电话号码相同。 这些电话号码通常默认为用户的国家/地区，除非租户管理员更改了单个用户。
+由于该策略未定义任何电话号码，因此当此策略的用户创建 Teams 会议时，其会议中提供的电话号码将与用户在策略之前的电话号码相同。 这些电话号码通常默认为用户的国家/地区，除非租户管理员更改了单个用户。
 
 例如，如果基于德国的用户在启动音频会议策略之前分配了德国通行费和免费电话号码，则在启动时将为用户分配全局策略，并且他们在会议邀请中继续看到的电话号码将与应用策略之前相同 (也就是说， 德国通行费和免费号码) 。 启动策略时，最终用户不会看到任何更改。 但是，如果租户管理员修改了全局策略，并将特定电话号码包含到与之前不同的策略中，则策略的所有用户将只看到策略中所安排的任何会议中包含的电话号码。
 
@@ -64,7 +64,7 @@ ms.locfileid: "65016994"
 
 步骤概述：
 
-1. 在Microsoft Teams管理中心的左侧导航中，转到会议>音频会议。
+1. 在 Microsoft Teams 管理中心的左侧导航中，转到会议>音频会议。
 1. 选择“添加”。
 1. 输入策略的名称和说明。 名称不能包含特殊字符或超过 64 个字符。
 1. 选择想要的设置。
@@ -76,7 +76,7 @@ ms.locfileid: "65016994"
 
 ### <a name="step-by-step-instructions-on-creating-a-custom-policy-based-on-the-example"></a>有关基于示例创建自定义策略的分步说明
 
-1. 在Microsoft Teams管理中心的左侧导航中，转到 **MeetingsAudio** >  会议。
+1. 在 Microsoft Teams 管理中心的左侧导航中，转到 **会议** > **音频会议**。
 2. 选择“**添加**”。
 3. 输入策略的名称和说明。 名称不能包含特殊字符或超过 64 个字符。
 4. 选择是否在此策略的用户创建的会议中包含免费号码。 将此设置为 **“打开”** 可在此策略中添加免费电话号码。
@@ -94,9 +94,9 @@ ms.locfileid: "65016994"
 
 ## <a name="edit-a-meeting-policy"></a>编辑会议策略
 
-可以编辑创建的任何自定义策略。  (请注意，无法从Teams管理中心编辑全局策略) 
+可以编辑创建的任何自定义策略。  (请注意，无法从 Teams 管理中心编辑全局策略) 
 
-1. 在Microsoft Teams管理中心的左侧导航中，转到 **MeetingsAudio** >  会议。
+1. 在 Microsoft Teams 管理中心的左侧导航中，转到 **会议** > **音频会议**。
 1. 选择要编辑的策略，选择策略名称左侧，然后选择 **“编辑**”。
 1. 进行编辑。
 1. 选择“**保存**”。
@@ -116,6 +116,9 @@ ms.locfileid: "65016994"
 > [!NOTE]
 > 用户一次只能分配一个音频会议策略。
 
+> [!IMPORTANT]
+> 分配的电话号码最多可能需要 24 小时才能显示在会议邀请中。 如果未显示更新的数字，请等待至少 24 小时，然后再联系支持人员。
+
 ### <a name="known-issue"></a>已知问题
 
-当你使用“**立即开会**”选项从Microsoft Teams >日历>会议母版开始会议时，如果然后选择省略号...菜单选项，然后会议信息，将有一个问题，在或调用下的部分的下半部分 **(音频只)**。 将显示策略中定义的所有电话号码，但号码的对齐使得读取变得困难。
+当你使用 Microsoft Teams 的“ **立即开会** ”选项开始会议时，>日历>“满足 Mow”，如果然后选择省略号...菜单选项，然后会议信息，将有一个问题，在或调用下的部分的下半部分 **(音频只)**。 将显示策略中定义的所有电话号码，但号码的对齐使得读取变得困难。

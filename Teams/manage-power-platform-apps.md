@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何管理对 Teams 管理中心中使用 Microsoft Power Platform 生成的自定义应用的访问权限。
-ms.openlocfilehash: bf75d65f9ebc84ec836dd64839b3e6178d828867
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 85aa9904b22dd03e1056b353bf91904909c11f59
+ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66240521"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66880256"
 ---
 # <a name="manage-microsoft-power-platform-apps-in-the-teams-admin-center"></a>在 Teams 管理中心管理 Microsoft Power Platform 应用
 
@@ -39,7 +39,7 @@ ms.locfileid: "66240521"
 
 创建或共享 Microsoft Power Platform 应用时，用户可以通过转到 Power **Platform 生成**，在“应用”页面上查看并安装它。  (创建或共享应用后，可能需要几分钟时间才能在此处显示应用。) 
 
-:::image type="content" source="media/manage-power-platform-apps-apps-page.png" alt-text="“应用”页的屏幕截图，其中显示了“使用 Power Platform 生成”中列出的 Microsoft Power Platform 应用":::
+:::image type="content" source="media/manage-power-platform-apps-apps-page.png" alt-text="“应用”页的屏幕截图，其中显示了“使用 Power Platform 生成”中列出的 Microsoft Power Platform 应用。":::
 
 如果应用满足以下条件之一，最终用户将看到使用 **Power Platform 内置** 的应用。
 
@@ -53,7 +53,7 @@ ms.locfileid: "66240521"
 
 作为管理员，你可以控制 Microsoft Power Platform 应用是否在 Teams 的“应用”页面的“ **使用 Power Platform 生成** ”中列出。 可以集体阻止或允许在 Power Apps 中创建的所有应用，或者在“ [管理应用](manage-apps.md) ”页面上的组织级别或使用 [应用权限策略](teams-app-permission-policies.md)的特定用户的 Power Virtual Agents 中创建的所有应用。
 
-组织应用商店中的 **共享 Power Apps** 和 **共享 Power Virtual Agent Apps 应用** 表示在该特定平台上创建的所有应用。 如果为整个组织或特定用户阻止一个或两个应用，则用户可以查看被阻止的应用，但无法在 Teams 中安装这些应用。 用户可以 [请求管理员批准以取消阻止应用](manage-apps.md#manage-user-requests-to-unblock-apps)。
+组织应用商店中的 **共享 Power Apps** 和 **共享 Power Virtual Agent Apps 应用** 表示在该特定平台上创建的所有应用。 如果为整个组织或特定用户阻止一个或两个应用，则用户可以查看被阻止的应用，但无法在 Teams 中安装它们。 用户可以 [请求管理员批准以取消阻止应用](manage-apps.md#manage-user-requests-to-unblock-apps)。
 
 请记住，你可以控制对 Power Apps 和 Power Virtual Agents 中创建的所有应用的访问，但不能允许或阻止单个应用。 应用创建者决定谁可以通过 Power Apps 和 Power Virtual Agents 中的共享功能访问他们创建的应用。 如果创建者与用户共享他们在 Power Virtual Agents 中创建的应用，并且你阻止了该用户的 **共享 Power Virtual Agents 应用** ，则用户将无法在 Teams 中查看或安装来自该平台的任何应用。
 
@@ -69,10 +69,10 @@ ms.locfileid: "66240521"
 1. 在 Microsoft Teams 管理中心的左窗格中，转到 **Teams 应用** > **管理应用**。 必须是全局管理员或 Teams 服务管理员才能访问该页面。
 2. 在应用列表中，执行下列操作之一。
 
-    :::image type="content" source="media/manage-power-platform-apps-manage-apps.png" alt-text="“管理应用”页的屏幕截图，其中显示了共享的 Microsoft Power Platform 应用":::
+    :::image type="content" source="media/manage-power-platform-apps-manage-apps.png" alt-text="“管理应用”页的屏幕截图，其中显示了共享的 Microsoft Power Platform 应用。":::
 
-    - 若要阻止在 Power Apps 或 Power Virtual Agents 中为组织中的所有用户创建的应用，请搜索 **共享 Power Apps** 或 **共享 Power Virtual Agent Apps**，选择它，然后单击 **“阻止**”。
-    - 若要允许在 Power Apps 或 Power Virtual Agent 中为组织中的所有用户创建应用，请搜索 **共享 Power Apps** 或 **共享 Power Virtual Agent Apps**，选择它，然后单击“ **允许**”。
+    * 若要阻止在 Power Apps 或 Power Virtual Agent 中为组织中的所有用户创建的应用，请搜索 **共享 Power Apps** 或 **共享 Power Virtual Agent Apps**，然后选择“ **阻止**”。
+    * 若要允许在 Power Apps 或 Power Virtual Agent 中为组织中的所有用户创建应用，请搜索 **共享 Power Apps** 或 **共享 Power Virtual Agent Apps**，然后选择“ **允许**”。
 
 ### <a name="allow-or-block-microsoft-power-platform-apps-for-specific-users"></a>允许或阻止特定用户的 Microsoft Power Platform 应用
 
@@ -91,10 +91,10 @@ ms.locfileid: "66240521"
 > [!NOTE]
 > 可以导出 CSV 格式的审核记录，以便更轻松地进行筛选。
 
-## <a name="related-topics"></a>相关主题
+## <a name="related-articles"></a>相关文章
 
-- [在 Power Apps 中共享画布应用](/powerapps/maker/canvas-apps/share-app)
-- [与其他用户共享机器人](/power-virtual-agents/admin-share-bots)
-- [在 Microsoft Teams 管理中心管理应用](manage-apps.md)
-- [在 Teams 中管理应用权限策略](teams-app-permission-policies.md)
-- [发布通过 Teams 应用提交 API 提交的自定义应用](submit-approve-custom-apps.md)
+* [在 Power Apps 中共享画布应用](/powerapps/maker/canvas-apps/share-app)
+* [与其他用户共享机器人](/power-virtual-agents/admin-share-bots)
+* [在 Microsoft Teams 管理中心管理应用](manage-apps.md)
+* [在 Teams 中管理应用权限策略](teams-app-permission-policies.md)
+* [发布通过 Teams 应用提交 API 提交的自定义应用](submit-approve-custom-apps.md)

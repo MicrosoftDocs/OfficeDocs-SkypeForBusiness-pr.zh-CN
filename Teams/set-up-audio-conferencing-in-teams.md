@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: '了解如何为业务中需要使用电话加入电话会议的人员设置拨号或音频会议。 '
-ms.openlocfilehash: 2098ec90223ec7242f24368f2b6dc7687d3370fd
-ms.sourcegitcommit: 296fbefe0481c0b8b94aee925118474375cdf138
+ms.openlocfilehash: 701c1b4826a52400d91d18d4aa26f11aac07d266
+ms.sourcegitcommit: 312ff79ecab91412918793ec882bfc6e0143d30a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65016634"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66884831"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>设置 Microsoft Teams 的音频会议
 
@@ -52,7 +52,7 @@ ms.locfileid: "65016634"
     >[!NOTE]
     > Office 365 企业版 E5 许可证中包含音频会议，并用作加载项。
 
-2. 购买的音频会议许可证后，你需要将其分配给组织中打算安排或主持会议的那些人员。 请参阅为[你购买的业务Microsoft 365或Office 365中的用户分配许可证](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)给组织中要安排或领导会议的人员。
+2. 购买的音频会议许可证后，你需要将其分配给组织中打算安排或主持会议的那些人员。 请参阅向 [Microsoft 365 或Office 365商业版中的用户分配许可证](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)，这些用户将购买给组织中要安排或领导会议的人员。
 
 3. 我们还建议你将通信点数许可证（它们不值什么钱）分配给你在上一步骤中分配到许可证的相同人员。 若要了解如何设置通信点数，请参阅[为你的组织设置通信点数](set-up-communications-credits-for-your-organization.md)。
 
@@ -65,7 +65,7 @@ ms.locfileid: "65016634"
   
 - **使用 Microsoft Teams 管理中心**。 某些国家/地区内，你可以使用 Microsoft Teams 管理中心获取会议网桥服务号码。 参见[获取服务电话号码](./getting-service-phone-numbers.md)。
 
-- **转网现有服务号码**。 将现有号码从当前服务提供商或电话运营商移植或传输到Microsoft 365或Office 365。 有关详细信息，请参阅[将电话号码转移到 Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) 或[管理你的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)，从而帮助你执行此操作。  
+- **转网现有服务号码**。 将现有号码从当前服务提供商或电话运营商移植或传输到 Microsoft 365 或Office 365。 有关详细信息，请参阅[将电话号码转移到 Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) 或[管理你的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)，从而帮助你执行此操作。  
   
 - **使用新号码的请求表单**。 有时（具体取决于你的国家/地区），你无法使用 Microsoft Teams 管理中心获取新服务号码，或你需要特定的电话号码或区号。 如果是这样，则需下载表单并将其发回给我们。 有关详细信息，请参阅[管理你的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
 
@@ -75,9 +75,9 @@ ms.locfileid: "65016634"
 
 按照下列步骤将新的电话号码分配给音频会议网桥。
 
- **使用Microsoft Teams管理中心**：
+ **使用 Microsoft Teams 管理中心**：
 
- 1. 从“家”转到 **VoicePhone** >  **号码**。
+ 1. 从家里转到 **语音** > **电话号码**。
  2. 选择电话号码，然后单击“**分配**”。
 
 有关详细信息，参见[更改音频会议网桥中的电话号码](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)。
@@ -86,30 +86,33 @@ ms.locfileid: "65016634"
 
  接下来，需要[在 Microsoft 团队中为音频会议设置自动助理语言](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)， 会议自动助理在拨入电话号码进行音频会议时欢迎主叫方。
 
- **使用Microsoft Teams管理中心**：
+ **使用 Microsoft Teams 管理中心**：
 
-1. 从家里，转到 **MeetingsConference** >  桥。
+1. 从家里，去 **会议** > **会议桥**。
 2. 选择会议网桥电话号码，单击“**编辑**”，然后选择默认语言。
 
 ## <a name="step-6-set-your-conferencing-bridge-settings"></a>第 6 步：设置你的会议网桥设置
 
 设置你的会议网桥之后，请验证默认设置，如进入/退出通知和 PIN 长度是想要使用；如果不是，你可以更改它们。
 
- **使用Microsoft Teams管理中心**：
+ **使用 Microsoft Teams 管理中心**：
 
-1. 从家里，转到 **MeetingsConference** >  桥。
+1. 从家里，去 **会议** > **会议桥**。
 2. 选择“**网桥设置**”。 这将打开 **网桥设置** 窗格。
 
 有关详细信息，请参阅[更改音频会议网桥的设置](change-the-settings-for-an-audio-conferencing-bridge.md)。
 
 ## <a name="step-7-assign-dial-in-phone-numbers-for-users-who-lead-meetings"></a>第 7 步：给主持会议的用户分配电话拨入式电话号码
 
-请参阅[设置Microsoft Teams中邀请中包含的电话号码](set-the-phone-numbers-included-on-invites-in-teams.md)。
+请参阅 [设置 Microsoft Teams 中邀请中包含的电话号码](set-the-phone-numbers-included-on-invites-in-teams.md)。
 
 如果需要更多详细信息，请参阅[将 Microsoft 指定为音频会议提供商](/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)。
 
 > [!NOTE]
-> 还可以通过将电话号码添加到 *TeamsAudioconferencingpolicy* 并将策略分配给用户来设置电话号码。 添加到策略的收费和免费电话号码优先于通过音频会议设置窗格为用户单独设置的电话号码。 如果未将电话号码添加到 *Teamsaudioconferencingpolicy*，则通过音频会议设置窗格为用户单独设置的电话号码将显示在Microsoft Teams会议请求中。 [用于收费和免费号码的音频会议策略设置](audio-conferencing-toll-free-numbers-policy.md) 包含更多信息。
+> 还可以通过将电话号码添加到 *TeamsAudioconferencingpolicy* 并将策略分配给用户来设置电话号码。 添加到策略的收费和免费电话号码优先于通过音频会议设置窗格为用户单独设置的电话号码。 如果未将电话号码添加到 *Teamsaudioconferencingpolicy*，则通过音频会议设置窗格为用户单独设置的电话号码将显示在 Microsoft Teams 会议请求中。 [用于收费和免费号码的音频会议策略设置](audio-conferencing-toll-free-numbers-policy.md) 包含更多信息。
+
+> [!IMPORTANT]
+> 分配的电话号码最多可能需要 24 小时才能显示在会议邀请中。 如果未显示更新的数字，请等待至少 24 小时，然后再联系支持人员。
 
 ## <a name="step-8-set-up-meeting-invitations-optional"></a>第 8 步：设置会议邀请（可选）
 
