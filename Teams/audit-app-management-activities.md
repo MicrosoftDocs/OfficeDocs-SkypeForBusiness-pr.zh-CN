@@ -15,12 +15,12 @@ description: 了解如何审核组织中用户和管理员的 Teams 应用活动
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 77c7ac5d80304e82f1309e3a22b21c17d106a58c
-ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
+ms.openlocfilehash: 54cf634fb8da78081023fad3940daf4ef33450c2
+ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "66647837"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66880396"
 ---
 # <a name="audit-for-app-management-activities-and-events"></a>审核应用管理活动和事件
 
@@ -72,6 +72,7 @@ Teams 中应用事件的审核日志可帮助你调查特定操作。 虽然你�
 
 ## <a name="see-also"></a>另请参阅
 
+* [使用审核日志调查 Microsoft Power Platform 安装活动](manage-power-platform-apps.md#use-audit-logs-to-investigate-microsoft-power-platform-installation-activity)
 * [在合规性门户中搜索审核登录](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)。
 * [Microsoft Purview 审核高级版概述](/microsoft-365/compliance/advanced-audit)。
 * [打开或关闭审核](/microsoft-365/compliance/turn-audit-log-search-on-or-off)。

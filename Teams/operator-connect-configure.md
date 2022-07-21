@@ -1,7 +1,7 @@
 ---
 title: 配置运算符连接
-author: cazawideh
-ms.author: czawideh
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.date: 09/30/2021
 ms.topic: article
@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c37c6e52eac53e2cf3e43e45566243a6c83025a7
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: e9a773e7c8767164480374826a2410050681505a
+ms.sourcegitcommit: 5a8a077b30a0eab2342afc422869adaa682a015b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66240501"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "66915190"
 ---
 # <a name="configure-operator-connect"></a>配置运算符连接
 
@@ -91,18 +91,15 @@ ms.locfileid: "66240501"
 
 1. 请联系操作员，将号码移植到 Operator Connect。 请参阅 [Microsoft 365 Operator Connect 目录](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory) 以查找操作员的网站。
 
-2. 操作员完成移植订单后，可以取消分配用户的呼叫计划电话号码，并删除呼叫计划许可证。 然后，操作员可以将数字上传到租户。
+2. 操作员完成移植订单后，操作员会将数字上传到租户。
 
 3. 使用 Teams 管理中心或使用 PowerShell 向用户分配运算符连接号码。 有关详细信息，请参阅 [分配数字](#assign-numbers)。
 
 ### <a name="move-numbers-from-direct-routing-to-operator-connect"></a>将数字从直接路由移到运算符连接
 
-若要将数字从直接路由移到运算符连接，必须从分配给的用户中删除由操作员上传到租户的现有直接路由号码。 然后，将数字迁移到运算符连接后，可以将该号码重新分配给用户。 若要使用本地或联机电话号码从直接路由移动到 Operator Connect，请执行以下步骤：
+若要使用本地或联机电话号码从直接路由移动到 Operator Connect，请执行以下步骤：
 
->[!IMPORTANT]
-> 在迁移过程中，电话号码将处于服务外，因此在开始之前，请与 Operator Connect 操作员协调。
-
-#### <a name="step-1---remove-existing-direct-routing-numbers"></a>步骤 1 - 删除现有的直接路由编号。
+#### <a name="step-1---identify-if-the-existing-direct-routing-numbers-are-assigned-online-or-on-premises"></a>步骤 1 - 确定现有直接路由号码是联机还是在本地分配。
 
 运行 Teams PowerShell 模块命令检查是否为用户分配了直接路由号码：
 
@@ -119,9 +116,13 @@ Get-CsOnlineUser -Identity <user> | fl RegistrarPool, OnPremLineURI, LineURI
 ```
 
 如果 `OnPremLineUri` 填充了 E.164 电话号码，则将电话号码分配到本地并同步到 Microsoft 365。
-    
-**若要删除在本地分配的直接路由号码，** 请运行以下 Skype for Business Server PowerShell 命令：
-    
+
+**若要将在线分配的现有直接路由号码迁移到运算符连接**，请联系你的操作员。 若要查找操作员的网站，请参阅 [Microsoft 365 运算符连接目录](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory)。 在约定的日期和时间，操作员会将号码从直接路由迁移到运算符连接。
+
+**若要将本地分配的直接路由号码迁移到 Operator Connect**，请运行以下 Skype for Business Server PowerShell 命令：
+>[!IMPORTANT]
+> 在迁移过程中，电话号码将处于服务外，因此在开始之前，请与 Operator Connect 操作员协调。
+
 ```PowerShell
 Set-CsUser -Identity <user> -LineURI $null 
 ```
@@ -140,7 +141,7 @@ OnPremLineURI                        :
 LineURI                              : 
 ```
 
-<br> **若要删除联机分配的现有联机直接路由号码，** 请运行以下 Teams PowerShell 模块命令：
+
 
 
 ```PowerShell

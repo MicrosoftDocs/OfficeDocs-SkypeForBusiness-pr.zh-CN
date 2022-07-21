@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: da74dcb2203eb43ca5b7174697cbc074f5d50855
-ms.sourcegitcommit: 4be2a5db44972b35bdde5752eea0d74cf831607a
+ms.openlocfilehash: e2e934e0dd9896c507e4d5818a77a1637cdcb2b3
+ms.sourcegitcommit: 5a8a077b30a0eab2342afc422869adaa682a015b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "66642747"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "66915210"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>有关通话&会议的基于 Teams 策略的录制简介
 
@@ -206,8 +206,8 @@ IT 管理员可以通过创建和分配符合性记录策略来确定要记录�
 **其他终结点 - 音频通知**
 - SIP 手机
 - Skype for Business
-- 音频会议
-- PSTN 调用方
+- 音频会议 (电话拨入号码或用户选择的语言) 中的音频通知
+- PSTN 呼叫者 (Teams 用户的默认语言) 中的音频通知
 
 > [!NOTE]
 > 会议模式呼叫队列不支持合规性录制。 请使用传输模式呼叫队列。
