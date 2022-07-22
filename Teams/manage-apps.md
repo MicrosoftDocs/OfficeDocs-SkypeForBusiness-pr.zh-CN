@@ -19,25 +19,22 @@ description: 了解如何管理 Teams 应用。 了解如何允许或阻止应�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: f9bf05364ae990930da89a64643fa86b2b0467c4
-ms.sourcegitcommit: 15ec17eff4ad4c962d00b8683513f9b269d82917
+ms.openlocfilehash: 5e1b5f53ba648d1096460572562b91397b74ab3b
+ms.sourcegitcommit: 70185cd963c5a9d539e65e302d4230018209ecae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "66695065"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "66958057"
 ---
 # <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 管理中心管理 Teams 应用
 
-在 Teams 管理中心门户的 **Teams 应用** 页中管理组织的应用。 使用“管理应用”页面查看和管理组织应用目录中的所有 Teams 应用。
+在 Teams 管理中心门户的 **Teams 应用** 页中管理组织的应用。 使用“管理应用”页面查看和管理组织应用目录中的所有 Teams 应用，满足应用管理的突出用例，使用策略定义对应用的访问权限等。
 
 :::image type="content" source="media/manage-apps.png" alt-text="“管理应用”页的屏幕截图。" lightbox="media/manage-apps.png":::
 
-若要使用 Teams 管理中心，必须具有全局管理员或 Teams 管理员角色。 有关详细信息，请参阅以下帮助文章：
-
-* [Teams 管理员角色](./using-admin-roles.md)。
-* [Microsoft 365 管理员角色](/microsoft-365/admin/add-users/about-admin-roles)
-
 若要管理应用，请使用策略来控制用户的权限、应用安装以及在组织中创建的自定义应用的上传。 若要了解策略，请参阅 [应用策略概述](app-policies.md)。
+
+若要使用 Teams 管理中心，必须具有全局管理员或 Teams 管理员角色。 有关详细信息，请参阅 [Teams 管理员角色](./using-admin-roles.md) 和 [Microsoft 365 管理员角色](/microsoft-365/admin/add-users/about-admin-roles)。
 
 > [!NOTE]
 > Microsoft 365 政府社区云高 (GCCH) 或国防部 (DoD) Teams 部署中不提供“管理应用”页面。
@@ -46,7 +43,7 @@ ms.locfileid: "66695065"
 
 ## <a name="app-management-use-cases-and-the-available-interfaces"></a>应用管理用例和可用接口
 
-Teams 管理中心提供了用于完成大多数应用管理用例的选项。 此外，其他门户中还提供了一些选项。
+Teams 管理中心提供了用于完成大多数应用管理用例的选项。 此外，一些选项也可在同一门户中的其他门户或不同的管理中心页面中使用。
 
 | 应用管理用例 | 指向接口的链接 | 文档 |
 |:----|:----|:----|
@@ -69,45 +66,20 @@ Teams 管理中心提供了用于完成大多数应用管理用例的选项。 �
 | xxx | [Manage users](https://admin.teams.microsoft.com/users) | [Add users and assign licenses](/microsoft-365/admin/add-users/add-users?view=o365-worldwide) |  
 --->
 
-## <a name="publish-a-custom-app-to-your-organizations-app-store"></a>将自定义应用发布到组织的应用商店
-
-使用“管理应用”页面发布专门为组织构建的应用。 发布自定义应用后，它可供组织应用商店中的用户使用。 有两种方法可以将自定义应用发布到组织的应用商店。 使用方式取决于获取应用的方式。
-
-* [批准自定义应用](#approve-a-custom-app)：如果开发人员使用 Teams 应用提交 API 将应用直接提交到“管理应用”页面，请使用此方法。 然后，可以直接从应用详细信息页查看和发布 (或拒绝) 应用。
-* [上传应用包](#upload-an-app-package)：如果开发人员以.zip格式向你发送应用包，请使用此方法。 可以通过上传应用包来发布应用。
-
-### <a name="approve-a-custom-app"></a>批准自定义应用
-
-“管理应用”页上的 **“挂起审批** ”小组件在开发人员使用 Teams 应用提交 API 提交应用时通知你。 新提交的应用列出了 **发布状态** 为 **“已提交**”和“**已阻止****状态**”。 转到应用详细信息页，查看有关应用的详细信息，然后将其发布，将 **发布状态** 设置为 **“发布**”。
-
-开发人员将更新提交到自定义应用时，也会收到通知。 然后，可以在应用详细信息页上查看和发布 (或拒绝) 更新。 所有应用权限策略和应用设置策略仍会针对更新后的应用强制实施。
-
-若要了解详细信息，请参阅 [发布通过 Teams 应用提交 API 提交的自定义应用](submit-approve-custom-apps.md)。
-
-### <a name="upload-an-app-package"></a>上传应用包
-
-开发人员使用 [Teams App Studio 创建 Teams 应用](/microsoftteams/platform/get-started/get-started-app-studio)包，然后以.zip格式将其发送给你。 拥有应用包后，可以将其上传到组织的应用商店。
-
-若要上传新的自定义应用，请选择 **“上传** ”以上传应用包。 应用上传后不会突出显示，因此需要在“管理应用”页上搜索应用列表才能找到它。
-
-若要在上传应用后更新应用，请在“管理应用”页上的应用列表中选择应用名称，然后选择 **“更新**”。 执行更新将替换现有应用，并且所有应用权限策略和应用设置策略仍会针对更新后的应用强制执行。
-
-若要了解详细信息，请参阅 [通过上传应用包发布自定义应用](upload-custom-apps.md)。
-
 ## <a name="allow-and-block-apps"></a>允许和阻止应用
 
-“管理应用”页是允许或阻止组织级别的单个应用的位置。 它显示每个可用的应用及其当前组织级别的应用状态。
+“管理应用”页是允许或阻止组织级别的单个应用的位置。 该页面显示所有可用的应用及其当前组织级别的应用状态。 应用列表包括 Microsoft、第三方开发人员和组织内开发人员提供的应用。
 
 若要允许或阻止应用，请执行以下操作：
 
-1. 转到 Teams 管理中心> Teams 应用>管理应用。
-1. 从应用列表中选择应用。
-1. 选择 **“允许** ”或 **“阻止**”。
+1. 登录到 Teams 管理中心。
+1. “访问 **Teams 应用** > **[管理应用”](https://admin.teams.microsoft.com/policies/manage-apps)** 页。
+1. 从应用列表中选择应用。 可以按应用的名称进行搜索，然后选择它。
+1. 选择 **“允许** ”或 **“阻止** ”选项。
 
-在“管理应用”页上阻止或允许应用时，会阻止或允许组织中的所有用户使用该应用。  在 Teams 应用权限策略中阻止或允许应用时，系统会阻止或允许分配该策略的用户使用该应用。 若要使用户能够安装任何应用并与之交互，必须在“管理应用”页上的组织级别以及分配给用户的应用权限策略中允许该应用。
+如果在 Teams 管理中心的“ [管理应用](https://admin.teams.microsoft.com/policies/manage-apps) ”页上允许 (或阻止) 应用，则允许组织中的所有用户 (或阻止特定应用) 。 此方法不同于上下文中的应用权限策略，即允许通过权限策略 (或阻止) 应用，只会影响分配策略的特定用户。
 
- > [!NOTE]
- > 若要卸载应用，请右键单击应用，然后单击 **“卸载** ”或使用左侧的 **“更多应用** ”菜单。
+仅当允许应用通过租户范围设置并允许用户通过权限策略时，用户才能安装和使用应用。
 
 ## <a name="manage-user-requests-to-unblock-apps"></a>管理用户请求以取消阻止应用
 
@@ -141,42 +113,13 @@ Teams 管理中心提供了用于完成大多数应用管理用例的选项。 �
 
 如果管理员驳回了请求，则不会通知最终用户其请求已执行。 用户必须访问应用商店中的应用，以检查应用是否已解除阻止。
 
-## <a name="apps-blocked-by-publishers"></a>被发布者阻止的应用
+## <a name="allow-the-apps-that-are-blocked-by-the-developers"></a>允许被开发人员阻止的应用
 
-当 ISV 将应用发布到全局应用商店时，他们可能需要管理员来配置或自定义应用体验。 管理员可以在设置应用时将其提供给最终用户。
+当开发人员将应用发布到 Teams 应用商店时，他们可能需要管理员来配置或自定义应用体验。 管理员会在设置应用时向最终用户提供体验。
 
-例如，Contoso 电子版是一个 ISV，它为 Microsoft Teams 创建了一个技术支持。 Contoso Electronics 希望其客户设置应用的某些属性，以便当用户与应用交互时，它按预期运行。 在管理员允许或阻止应用程序之前，它将在 Teams 管理中心显示为 **“被发布者阻止** ”，并且默认情况下会对最终用户隐藏。 按照发布者的指南设置应用后，可以通过将状态更改为 **“允许**”来使其可供用户使用，或者通过将状态更改为 **“已阻止**”来阻止用户使用该应用。
+例如，Contoso 电子版是一个 ISV，它为 Microsoft Teams 创建了一个技术支持。 Contoso Electronics 希望其客户设置应用的某些属性，以便当用户与应用交互时，它按预期运行。 在管理员允许或阻止应用程序之前，它会在 Teams 管理中心显示为 **“被发布者阻止** ”，默认情况下对最终用户隐藏。 按照发布者的指南设置应用后，可以通过将状态更改为 **“允许**”来使其可供用户使用。
 
-<!--- 
-![Screenshot of blocked by publisher status in teams admin center.](media/blocked-by-publisher.png)
---->
-
-## <a name="add-an-app-to-a-team"></a>将应用添加到团队
-
-使用 **“添加到团队** ”按钮将应用安装到团队。 此选项仅适用于可在团队范围内安装的应用。 此选项不适用于只能安装在个人范围内的应用。
-
-1. 按应用名称搜索应用，然后选择该应用。 请勿打开应用详细信息页。
-1. 选择 **“添加到团队**”。
-
-   :::image type="content" source="media/manage-apps-add-app-team-trimmed.png" alt-text="可添加到团队范围的应用的“添加到团队”选项的屏幕截图。":::
-
-1. 在 **“添加到团队** ”窗格中，搜索要将应用添加到的团队，选择团队，然后选择 **“应用**”。
-
-## <a name="customize-an-app"></a>自定义应用
-
-现在可以自定义应用，以便根据组织的需求包含特定的外观。 请参阅 [Teams 中的自定义应用](customize-apps.md)。
-
-## <a name="purchase-services-for-third-party-apps"></a>购买第三方应用的服务
-
-可以直接从“管理应用”页搜索并购买组织中用户的第三方应用提供的服务许可证。 表中的 **“许可证”** 列指示应用是否提供付费 SaaS 订阅。 **立即选择“购买**”以查看计划和定价信息，并为用户购买许可证。 若要了解详细信息，请参阅 [Microsoft Teams 管理中心中 Teams 第三方应用的购买服务](purchase-third-party-apps.md)。
-
-## <a name="grant-permissions-and-consent-to-apps-to-use-end-user-information"></a>向应用授予使用最终用户信息的权限和许可
-
-可以代表组织中的所有用户对请求权限的应用进行评审并授予许可。 为此，用户无需在启动应用时查看和接受应用请求的权限。 “ **权限** ”列指示应用是否具有需要同意的权限。 你将看到 Azure AD 中注册的每个应用的 **视图详细信息** 链接，该链接具有需要同意的权限。 若要了解详细信息，请参阅 [Microsoft Teams 管理中心中的“查看应用权限”并授予管理员许可](app-permissions-admin-center.md)。
-
-## <a name="view-resource-specific-consent-permissions"></a>查看特定于资源的许可权限
-
-特定于资源的许可 (RSC) 权限允许团队所有者授予应用访问和修改团队数据的许可。 RSC 权限是精细的、特定于 Teams 的权限，用于定义应用在特定团队中可以执行的操作。 可以在应用详细信息页的“ **权限** ”选项卡上查看 RSC 权限。 若要了解详细信息，请参阅 [Microsoft Teams 管理中心中的“查看应用权限”并授予管理员许可](app-permissions-admin-center.md)。
+:::image type="content" source="media/blocked-by-publisher.png" alt-text="Teams 管理中心中被发布者状态阻止的屏幕截图。":::
 
 ## <a name="manage-org-wide-app-settings"></a>管理组织范围的应用设置
 
@@ -207,6 +150,6 @@ Teams 管理中心提供了用于完成大多数应用管理用例的选项。 �
 1. 在 **“自定义应用**”下，关闭或启用 **允许与自定义应用的交互**。 此设置控制用户是否可以与自定义应用交互。 要了解详细信息，请参阅[在 Teams 中管理自定义应用策略和设置](teams-custom-app-policies-and-settings.md)。
 1. 选择 **“保存** ”以实现组织范围的应用设置。
 
-## <a name="see-also"></a>另请参阅
+## <a name="related-article"></a>相关文章
 
 * [在从Skype for Business管理中心过渡期间管理 Teams](manage-teams-skypeforbusiness-admin-center.md)

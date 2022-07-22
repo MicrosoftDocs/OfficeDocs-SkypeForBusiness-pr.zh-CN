@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何在 Microsoft Teams 管理中心将自定义应用上传到组织的应用商店。
-ms.openlocfilehash: 5ef5992e01b5de4e2f4feaed51b50e2d0f16c0d8
-ms.sourcegitcommit: 4be2a5db44972b35bdde5752eea0d74cf831607a
+ms.openlocfilehash: 8f7968a53b70ac8ffa871d03adacd648ec047c52
+ms.sourcegitcommit: 70185cd963c5a9d539e65e302d4230018209ecae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "66642757"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "66958047"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>通过上传应用包发布自定义应用
 
@@ -57,20 +57,20 @@ Teams 应用商店中的所有应用都通过强制 [应用验证](overview-of-a
 1. 启用 **允许与自定义应用** 组织范围应用设置的交互。 要执行此操作：
 
     1. 在 Microsoft Teams 管理中心的左侧导航中，转到 **Teams 应用** > **管理应用**，然后单击 **组织范围的应用设置**。
-    
-    2. 在 **“自定义应用**”下，打开 **“允许与自定义应用交互**”，然后单击“ **保存**”。
-    
+
+    1. 在 **“自定义应用**”下，打开 **“允许与自定义应用交互**”，然后单击“ **保存**”。
+
 1. 在全局应用设置策略中关闭 **“上传自定义应用** ”设置。 要执行此操作：
 
     1. 在 Microsoft Teams 管理中心的左侧导航中，转到 **Teams 应用** > **设置策略**，然后单击 **全局 (组织范围的默认)** 策略。
-    
-    2. 关闭 **“上传自定义应用**”，然后单击 **“保存**”。
-    
+
+    1. 关闭 **“上传自定义应用**”，然后单击 **“保存**”。
+
 1. 创建允许上传自定义应用并将其分配给受信任用户集的新应用设置策略。 要执行此操作：
 
     1. 在 Microsoft Teams 管理中心的左侧导航中，转到 **Teams 应用** > **设置策略**，然后单击 **“添加**”。 为新策略提供名称和说明，打开 **“上传自定义应用**”，然后单击“ **保存**”。
-    
-    2. 选择创建的新策略，然后单击 **“管理用户**”。 搜索用户，单击 **“添加**”，然后单击“ **应用**”。 重复此步骤，将策略分配给所有受信任的用户。
+
+    1. 选择创建的新策略，然后单击 **“管理用户**”。 搜索用户，单击 **“添加**”，然后单击“ **应用**”。 重复此步骤，将策略分配给所有受信任的用户。
 
        ![“添加应用设置策略”页的屏幕截图](media/manage-your-lob-apps-new-app-setup-policy.png)
 
@@ -119,7 +119,17 @@ Teams 应用商店中的所有应用都通过强制 [应用验证](overview-of-a
 
 在大多数情况下，完成应用更新后，会自动为最终用户显示新版本。 有关详细信息，请参阅 [最终用户更新体验](apps-update-experience.md)。
 
-## <a name="related-topics"></a>相关主题
+## <a name="remove"></a>删除
+
+若要删除应用，请执行以下步骤：
+
+1. 登录到 Teams 管理中心。
+1. “访问 **Teams 应用** > **[管理应用”](https://admin.teams.microsoft.com/policies/manage-apps)** 页。
+1. 单击应用的名称以打开应用详细信息页。
+1. 在应用横幅旁边，选择“**删除****操作** > ”。
+1. 在对话框中，选择 **“删除**”。
+
+## <a name="related-articles"></a>相关文章
 
 * [发布通过 Teams 应用提交 API 提交的自定义应用](submit-approve-custom-apps.md)
 * [在 Microsoft Teams 管理中心管理应用](manage-apps.md)
