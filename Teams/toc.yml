@@ -429,7 +429,7 @@ items:
         href: teams-scoped-directory-search.md
       - name: 常见问题解答：支持远程工作人员
         href: FAQ-support-remote-workforce.md
-      - name: 报表
+      - name: 报告
         items:
           - name: 概述
             href: teams-analytics-and-reports/teams-reporting-reference.md
@@ -1513,6 +1513,8 @@ items:
             href: expand-teams-across-your-org/shifts/shifts-data-faq.md
           - name: 管理更新应用
             href: manage-updates-app.md
+          - name: 管理无线电对讲机应用
+            href: walkie-talkie.md
       - name: 管理第三方应用
         items:
           - name: 了解第三方应用

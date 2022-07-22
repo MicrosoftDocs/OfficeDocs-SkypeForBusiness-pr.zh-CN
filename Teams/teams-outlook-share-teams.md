@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: db4b3adabecf147f5adf9cadb9891892b5a82e5a
-ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
+ms.openlocfilehash: e2ac9a38e16000829b391e77dffdd718ed349299
+ms.sourcegitcommit: f5546acf02ec644225f6d0fb41f38b1912da6adf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "66606221"
+ms.lasthandoff: 07/21/2022
+ms.locfileid: "66952756"
 ---
 # <a name="share-to-teams-from-outlook"></a>从 Outlook 共享到 Teams
 
@@ -30,9 +30,9 @@ ms.locfileid: "66606221"
 “共享到 Teams”功能需要 Outlook 加载项。 每当用户登录 Teams Web 应用或 Teams 桌面客户端时，都会自动安装此加载项。
 
 > [!NOTE]
-> 请务必[查看 Exchange Online 中的 Outlook 加](/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/add-ins-for-outlook)载项和[Exchange Online中的客户端访问规则](/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules)，以确保 Outlook 加载项正常运行。 此外，禁用连接体验可能会阻止 Outlook 加载项正常工作。 有关详细信息，请参阅 [Office 中的连接体验](https://support.microsoft.com/topic/connected-experiences-in-office-8d2c04f7-6428-4e6e-ac58-5828d4da5b7c) 。  
+> 请务必[查看 Exchange Online 中的 Outlook 加](/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/add-ins-for-outlook)载项和[Exchange Online中的客户端访问规则](/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules)，以确保 Outlook 加载项正常运行。 此外，禁用连接体验可能会阻止 Outlook 加载项正常工作。 有关详细信息，请参阅 [Office 中的连接体验](https://support.microsoft.com/topic/connected-experiences-in-office-8d2c04f7-6428-4e6e-ac58-5828d4da5b7c) 。 外接程序不支持共享邮箱。 
 
-共享到 Teams 使用与用户通过电子邮件发送频道相同的传输机制。 对于共享聊天，电子邮件 (包括电子邮件附件) 将复制到发件人的 OneDrive。 若要共享到频道，电子邮件和附件将复制到 SharePoint 中 **的电子邮件** 文件夹。
+共享到 Teams 使用与用户通过电子邮件发送频道相同的传输机制。 对于共享聊天，电子邮件 (包括电子邮件附件) 将复制到发件人的 OneDrive。 若要共享到频道，电子邮件和附件将复制到 SharePoint **中Email邮件** 文件夹。
 
 Outlook Add-in for Share to Teams 使用要求集 1.7，如 [Outlook 外接程序文档中](/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/add-ins-for-outlook)所述，其中包括有关 Outlook 外接程序的详细信息、Outlook 外接程序的环境要求，以及要求集 1.7 支持的特定 Outlook 客户端。
 
