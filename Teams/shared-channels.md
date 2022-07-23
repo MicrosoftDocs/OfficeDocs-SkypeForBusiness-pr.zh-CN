@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 了解如何在 Microsoft Teams 中使用和管理共享频道。
-ms.openlocfilehash: 2c15567c78000de187877477554c233b59c5e58f
-ms.sourcegitcommit: 312ff79ecab91412918793ec882bfc6e0143d30a
+ms.openlocfilehash: 8bd0fe39031fdae6d47e7c738a1c883b6b066f7d
+ms.sourcegitcommit: 1398570f56d5918d309f95fb734a2e8c5b4981b5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66884911"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "66968903"
 ---
 # <a name="shared-channels-in-microsoft-teams"></a>Microsoft Teams 中的共享频道
 
@@ -149,6 +149,8 @@ Microsoft Teams 中的共享频道可创建协作空间，你可以在其中邀�
 |共享频道中的成员|5,000 个直接成员，包括最多 50 个团队。 （出于此限制的目的，将与之共享频道的每个团队计作一个成员。）|实时更新一次仅对 25,000 个用户可用，并且在频道列表中仅显示 25,000 个用户。|
 
 以下限制也适用：
+
+- 外部参与者仅支持Azure AD工作或学校帐户。
 
 - 共享频道支持除 Stream、Planner 和 Forms 以外的选项卡。
 
