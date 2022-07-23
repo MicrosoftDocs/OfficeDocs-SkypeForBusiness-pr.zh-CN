@@ -14,46 +14,46 @@ ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 了解如何配置 Microsoft 呼叫计划并电话系统直接路由动态紧急呼叫功能。
+description: 了解如何配置 Microsoft 呼叫计划和电话系统直接路由动态紧急呼叫功能。
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 23b55c9c99c58ad1a332b047f282bd917fa5d416
-ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
+ms.openlocfilehash: 9da8f8f082812063de7d2fb81c7d5b716ad1e07a
+ms.sourcegitcommit: 911fdb6df0511b4a4d9e4705799877045a09113c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63514493"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "66972787"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>规划和配置动态紧急呼叫 
 
-Microsoft 呼叫计划、接线员连接和直接路由的动态紧急呼叫提供配置和路由紧急呼叫的功能，并基于客户端的当前位置通知Teams人员。  
+针对 Microsoft 呼叫计划、操作员连接和直接路由的动态紧急呼叫可根据 Teams 客户端的当前位置配置和路由紧急呼叫并通知安全人员。  
 
-根据租户管理员定义的 (地址) 关联的网络元素的网络拓扑，Teams 客户端在向位置信息服务 (LIS) 的请求中提供网络连接信息。 如果存在匹配项，LIS 会向客户端返回一个位置。
+Teams 客户端基于与租户管理员定义) 的紧急地址关联的网络拓扑 (网络元素，在请求位置信息服务 (LIS) 时提供网络连接信息。 如果存在匹配项，LIS 会向客户端返回一个位置。
 
-客户端Teams紧急呼叫中包含位置数据。 然后，紧急服务提供机构会使用这些数据来确定适当的公共安全应答点 (PSAP) ，以及将呼叫路由到该 PSAP，以便 PSAP 调度程序获取调用方的位置。  
+Teams 客户端在紧急呼叫中包含位置数据。 然后，紧急服务提供商使用此数据来确定适当的公共安全应答点 (PSAP) ，并将呼叫路由到该 PSAP，从而使 PSAP 调度程序能够获取调用方的位置。  
 
-对于动态紧急呼叫，必须发生以下情况：
+对于动态紧急呼叫，必须执行以下操作：
 
-1. 网络管理员配置网络设置和 LIS 以创建网络/紧急位置地图。
+1. 网络管理员配置网络设置和 LIS 以创建网络/紧急位置映射。
 
-2. 在启动期间和之后定期，或者当网络连接发生更改时，Teams客户端会向网络设置和 LIS 发送包含其网络连接信息的位置请求。
+2. 在启动期间和之后，或者当网络连接发生更改时，Teams 客户端会向网络设置和 LIS 发送包含其网络连接信息的位置请求。
 
-   - 如果存在网络设置站点匹配 ，则紧急呼叫策略将返回到Teams客户端。  (有关策略详细信息，请参阅 [配置紧急) ](#configure-emergency-policies) 。
+   - 如果有网络设置站点匹配 - 紧急调用策略将从该站点返回到 Teams 客户端。  (有关策略的详细信息，请参阅 [配置紧急](#configure-emergency-policies) 策略) 。
 
-   - 如果存在 LIS 匹配 ，则客户端连接到的网络元素Teams紧急位置将返回到Teams客户端。 按以下顺序执行匹配，并返回第一个匹配的结果：
+   - 如果存在 LIS 匹配 - Teams 客户端连接到的网络元素中的紧急位置将返回到 Teams 客户端。 按照以下顺序执行匹配，并返回第一个匹配的结果：
        - WAP
        - 以太网交换机/端口
        - 以太网交换机
        - 子网
 
-3. 当Teams进行紧急呼叫时，紧急位置将传达给 PSTN 网络。
+3. 当 Teams 客户端发出紧急呼叫时，紧急位置将传递给 PSTN 网络。
 
-执行自动路由到相应的公共安全应答点 (PSAP) 取决于用户使用Teams国家/地区。
+执行自动路由到适当的公共安全应答点 (PSAP) 的能力因 Teams 用户的使用情况而异。
 
-Microsoft 呼叫计划和运营商连接包括适用于美国和加拿大用户的动态紧急路由服务。
+Microsoft 呼叫计划和运营商连接合作伙伴包括适用于美国和加拿大用户的动态紧急路由服务。
 
-但是，对于直接路由，路由紧急呼叫可能需要其他配置，并且可能还需要进行合作伙伴连接。 管理员必须通过在联机 PSTN 网关对象上将参数 PidfloSupported 设置为 True，确保路由紧急呼叫的 PSTN 网关已配置为向传出 INVITE (添加位置信息。 此外，管理员还必须配置与紧急路由服务 (ERS) 提供程序 (美国和加拿大) **的连接，或者** 为紧急位置标识号 (ELIN) 应用程序配置会话边界控制器 (SBC) 。 有关 ERS 提供程序的信息，请参阅 [通过直接路由认证的会话边界控制器](direct-routing-border-controllers.md)。
+但是，对于直接路由，需要其他配置才能路由紧急呼叫，并且可能用于合作伙伴连接。 管理员必须确保已将路由紧急呼叫的 PSTN 网关配置为通过在联机 PSTN 网关对象上将参数 PidfloSupported 设置为 True，将位置信息添加到传出 INVITE (。 此外，管理员必须配置与紧急路由服务 (ERS) 提供程序 (美国的连接，加拿大) **或** 为 ELIN) 应用程序 (紧急位置标识号配置会话边界控制器 (SBC) 。 有关 ERS 提供程序的信息，请参阅 [经过直接路由认证的会话边界控制器](direct-routing-border-controllers.md)。
 
 本文包含以下部分。
 
@@ -64,35 +64,35 @@ Microsoft 呼叫计划和运营商连接包括适用于美国和加拿大用户�
 - [启用用户和网站](#enable-users-and-sites)
 - [测试紧急呼叫](#test-emergency-calling)
 
-有关紧急呼叫的信息，包括有关紧急地址和紧急呼叫路由的信息、特定于国家/地区的信息，以及有关网络设置和网络拓扑的信息，请参阅以下内容：
+有关紧急呼叫的详细信息，包括有关紧急地址和紧急呼叫路由的信息、特定于国家/地区的信息，以及有关网络设置和网络拓扑的信息，请参阅以下内容：
 
 - [管理紧急呼叫](what-are-emergency-locations-addresses-and-call-routing.md)
 - [管理云语音功能的网络设置](cloud-voice-network-settings.md)
 - [管理云语音功能的网络拓扑](manage-your-network-topology.md)
 
-有关政府云中可用的功能详细信息 [，请参阅本文](#government-support) 末尾的"政府支持"。
+有关哪些功能在政府云中可用的详细信息，请参阅本文末尾的 [政府支持](#government-support) 。
 
 
 ## <a name="supported-clients"></a>支持的客户端
 
-目前支持以下客户端。  请经常返回查看此列表的更新。
+目前支持以下客户端。  经常返回查看此列表的更新。
 
-- Teams Microsoft 桌面客户端Windows
-- Teams Apple macOS 的桌面客户端
-- Teams Apple iOS 客户端版本 1.0.92.2019121004 和 App Store 版本 1.0.92 及更高的移动客户端
-- Teams Android 客户端和 Google Play 应用商店版本 1416/1.0.0.2019121201 及更大版本的移动客户端
-- Teams 1449/1.0.94.2019110802 及更大版本
-- Teams 会议室 4.4.25.0 及更大版本
-
-> [!NOTE]
-> 所有受支持的客户端都支持基于子网和 WiFi Teams位置。 <br><br>
-> 支持以太网/ (LLDP) ：
-> - Windows版本 10.0 及更高版本。<br>
-> - Mac OS，需要 [LLDP 启用软件](https://www.microsoft.com/download/details.aspx?id=103383)。<br>
-> - Teams Teams应用版本 1449/1.0.94.202111010101 及更高版本的手机。
+- 适用于 Microsoft Windows 的 Teams 桌面客户端
+- 适用于 Apple macOS 的 Teams 桌面客户端
+- 适用于 Apple iOS 客户端版本 1.0.92.2019121004 和 App Store 版本 1.0.92 及更高版本的 Teams 移动客户端
+- 适用于 Android 客户端和 Google Play 商店版本 1416/1.0.0.2019121201 及更高版本的 Teams 移动客户端
+- Teams 手机版本 1449/1.0.94.2019110802 及更高版本
+- Teams 会议室版本 4.4.25.0 及更高版本
 
 > [!NOTE]
-> Web 客户端不支持动态紧急呼叫，包括安全Teams通知。 若要防止用户使用 Teams Web 客户端呼叫 PSTN 号码，您可以设置 Teams呼叫策略并关闭"允许 **Web PSTN** 呼叫"设置。 有关详细信息，[请参阅在 Teams](teams-calling-policy.md) [和 Set-CsTeamsCallingPolicy 中调用策略](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)。 
+> 所有受支持的 Teams 客户端都支持基于子网和基于 WiFi 的位置。 <br><br>
+> 支持以太网/交换机 (LLDP) ：
+> - Windows 版本 10.0 及更高版本。<br>
+> - 需要 [LLDP 启用软件的](https://www.microsoft.com/download/details.aspx?id=103383) Mac OS。<br>
+> - Teams 手机与 Teams 应用版本 1449/1.0.94.2021110101 及更高版本。
+
+> [!NOTE]
+> Teams Web 客户端不支持动态紧急呼叫（包括安全台通知）。 若要防止用户使用 Teams Web 客户端调用 PSTN 号码，可以设置 Teams 呼叫策略并关闭 **“允许 Web PSTN 呼叫** ”设置。 若要了解详细信息，请参阅 Teams 和 [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps) 中的[通话](teams-calling-policy.md)策略。 
 
 > [!NOTE]
 > 3PIP 电话不支持动态紧急呼叫。 
@@ -105,151 +105,151 @@ Microsoft 呼叫计划和运营商连接包括适用于美国和加拿大用户�
 
 - 调用计划用户。
 
-- 运营商连接&mdash;在运营商将用户上载到客户的库存时，指定分配给号码的功能。
+- To Operator Connect 用户&mdash;，具体取决于运营商将用户上传到客户清单时分配给数字的功能。
 
 - 到动态获取位置所需的网络标识符。 
 
-若要支持美国境内紧急呼叫的自动路由，必须确保分配给网络标识符的紧急位置包含关联的地理代码。  (没有地理代码的紧急地址不能分配给动态位置.) 
+若要支持自动路由美国内的紧急呼叫，必须确保分配给网络标识符的紧急位置包括关联的地理代码。  (没有地理代码的紧急地址无法分配给动态位置所需的网络标识符。) 
 
-Azure 地图 用于基于位置的服务。 使用管理中心输入紧急Microsoft Teams时，Teams Azure 地图检查地址：
+Azure Maps用于基于位置的服务。 使用 Microsoft Teams 管理中心输入紧急地址时，Teams 会检查Azure Maps地址：
 
 - 如果找到匹配项，则会自动包含地理代码。
 
-- 如果未找到匹配项，你将有机会手动创建紧急地址。 可以使用 PIN 拖放功能来这样做。 
+- 如果找不到匹配项，你将有机会手动创建紧急地址。 可以使用 PIN 删除功能来执行此操作。 
 
 > [!NOTE]
-> 超过数年的紧急地址不能分配给网络标识符。 需要重新创建旧地址。
+> 无法将超过两年的紧急地址分配给网络标识符。 需要重新创建较旧的地址。
 
-在管理中心或 PowerShell Microsoft Teams和分配紧急地址。 有关详细信息，请参阅 [为组织添加紧急](add-change-remove-emergency-location-organization.md) 位置和 [为用户分配紧急位置](assign-change-emergency-location-user.md)。
+在 Microsoft Teams 管理中心或使用 PowerShell 添加和分配紧急地址。 有关详细信息，请参阅[为组织添加紧急位置并为](add-change-remove-emergency-location-organization.md)[用户分配紧急位置](assign-change-emergency-location-user.md)。
 
 ## <a name="configure-network-settings"></a>配置网络设置
 
-网络设置用于确定紧急Teams的位置，以及动态获取紧急呼叫策略和紧急位置。 你可以根据组织希望紧急呼叫如何工作来配置网络设置。
+网络设置用于确定 Teams 客户端的位置，以及动态获取紧急呼叫策略和紧急位置。 可以根据组织希望紧急呼叫的运作方式配置网络设置。
 
-网络设置包括包含子网集合的站点，这些子网专门用于向用户动态分配策略。 例如，可以将紧急呼叫策略和紧急呼叫路由策略分配给"雷德蒙德站点"，以便从家里或其他 Microsoft 位置漫游的任何用户都配置了特定于雷德蒙德的紧急号码、路由和安全服务台。  
+网络设置包括包含子网集合的站点，这些网站专门用于向用户进行动态策略分配。 例如，可以将紧急呼叫策略和紧急呼叫路由策略分配给“Redmond 站点”，以便使用特定于 Redmond 的紧急号码、路由和安全台配置从家里或其他 Microsoft 位置漫游的任何用户。  
 
-受信任的 IP 地址包含企业网络的 Internet 外部 IP 地址的集合，用于确定用户的终结点是否位于企业网络中。 只有在用户的外部 IP 地址与受信任的 IP 地址中的 IP 地址匹配时，才尝试获取动态策略或位置。
+受信任的 IP 地址包含企业网络的 Internet 外部 IP 地址集合，用于确定用户的终结点是否在公司网络内。 仅当用户的外部 IP 地址与受信任 IP 地址中的 IP 地址匹配时，才会尝试获取动态策略或位置。
 
-有关 IP 地址、网络区域、站点和子网地址的信息，请参阅云 [语音功能的网络设置](cloud-voice-network-settings.md)。
+有关 IP 地址、网络区域、站点和子网地址的详细信息，请参阅 [云语音功能的网络设置](cloud-voice-network-settings.md)。
 
-在管理中心或Microsoft Teams PowerShell 配置网络设置。 有关详细信息，请参阅 [管理云语音功能的网络拓扑](manage-your-network-topology.md)。
+在 Microsoft Teams 管理中心或使用 PowerShell 配置网络设置。 若要了解详细信息，请参阅 [管理云语音功能的网络拓扑](manage-your-network-topology.md)。
 
-请注意，可能需要一些时间 () 才能对网络设置进行一些更改 (例如新地址、网络标识符等) 才能传播并可供 Teams 客户端使用。  
+请注意，) 对网络设置的某些更改（例如新地址、网络标识符等） () 进行一些更改， (最多需要几个小时才能传播并提供给 Teams 客户端。  
 
 > [!Note]
-> 子网还可以在 LIS 中定义，并可以与紧急位置相关联。  LIS 子网必须由与分配给客户端的子网 IP 范围匹配的网络 ID 定义。 例如，10.10.10.150/25 的客户端 IP/掩码的网络 ID 为 10.10.10.128。 有关详细信息，请参阅 [了解 TCP/IP 寻址和子网设置基础知识](/troubleshoot/windows-client/networking/tcpip-addressing-and-subnetting)。
+> 子网也可以在 LIS 中定义，并且可以与紧急位置相关联。  LIS 子网必须由与分配给客户端的子网 IP 范围匹配的网络 ID 定义。 例如，客户端 IP/掩码 10.10.10.150/25 的网络 ID 为 10.10.10.128。 有关详细信息，请参阅 [了解 TCP/IP 寻址和子网基础知识](/troubleshoot/windows-client/networking/tcpip-addressing-and-subnetting)。
 
 > [!Important]
-> 修改源 IP 地址的云代理服务部署不支持网络配置设置查找Teams客户端。
+> 修改 Teams 客户端的源 IP 地址的云代理服务部署不支持网络配置设置查找。
 
 
 
-**对于呼叫计划和接线员连接用户：**
+**对于呼叫计划和运算符连接用户：**
 
-- 如果需要动态配置安全服务台通知，则必须同时配置受信任的 IP 地址和网络站点。
+- 如果需要动态配置安全桌面通知，则必须配置受信任的 IP 地址和网络站点。
 
-- 如果只需要动态位置，则必须仅配置受信任的 IP 地址;不需要配置网络设置。
+- 如果仅需要动态位置，则必须仅配置受信任的 IP 地址;不需要配置网络设置。
 
 - 如果两者都不需要，则不需要配置网络设置。 
 
 **对于直接路由用户：**
 
-- 如果需要动态启用紧急呼叫或安全服务台通知的动态配置，则必须同时配置受信任的 IP 地址和网络站点。
+- 如果需要动态启用紧急呼叫或动态配置安全台通知，则必须配置受信任的 IP 地址和网络站点。
 
-- 如果只需要动态位置，则必须仅配置受信任的 IP 地址;不需要配置数据设置。
+- 如果仅需要动态位置，则必须仅配置受信任的 IP 地址;不需要配置元工作设置。
 
 - 如果两者都不需要，则不需要配置网络设置。
 
 
 ## <a name="configure-location-information-service"></a>配置位置信息服务
 
-客户端Teams从与不同网络标识符关联的位置获取紧急地址。 
+Teams 客户端从与不同网络标识符关联的位置获取紧急地址。 
 
-若要让客户端获取位置，必须使用子网、 (、交换机、端口和紧急位置的网络标识符) LIS。 可以在管理中心或Microsoft Teams PowerShell 中执行此操作。
+若要使客户端获取位置，必须使用网络标识符填充 LIS， (子网、WAP、交换机、端口) 和紧急位置。 可以在 Microsoft Teams 管理中心或 PowerShell 中执行此操作。
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 管理中心
 
-1. 在左侧导航栏中，转到 **"位置** > **""&位置"**。
-2. 单击表示要添加的网络标识符的选项卡。 例如，单击 **"子网**、 **Wlan 接入点**、 **交换机** 或端口 **"**。 然后单击" **添加"**。
-3. 填写字段，添加紧急位置，然后单击"应用 **"**。
+1. 在左侧导航栏中，转到 **“位置** > **网络”&位置**。
+2. 单击表示要添加的网络标识符的选项卡。 例如，单击 **子网**、 **Wi-Fi 访问点**、 **交换机** 或 **端口**。 然后单击 **“添加**”。
+3. 完成字段，添加紧急位置，然后单击“ **应用**”。
 
 ### <a name="using-powershell"></a>使用 PowerShell
 
 使用以下 cmdlet 将端口、交换机、子网和 WAP 添加到 LIS。
 
-- [获取](/powershell/module/skype/get-csonlinelissubnet?view=skype-ps)[、设置](/powershell/module/skype/set-csonlinelissubnet?view=skype-ps)、[删除](/powershell/module/skype/remove-csonlinelissubnet?view=skype-ps) -CsOnlineLisSubnet
-- [获取](/powershell/module/skype/get-csonlinelisport?view=skype-ps)[、设置](/powershell/module/skype/set-csonlinelisport?view=skype-ps)、[删除](/powershell/module/skype/remove-csonlinelisport?view=skype-ps) -CsOnlineLisPort
-- [获取](/powershell/module/skype/get-csonlineliswirelessaccesspoint?view=skype-ps)[、设置](/powershell/module/skype/set-csonlineliswirelessaccesspoint?view=skype-ps)、[删除](/powershell/module/skype/remove-csonlineliswirelessaccesspoint?view=skype-ps) -CsOnlineLisWirelessAccessPoint
-- [获取](/powershell/module/skype/get-csonlinelisswitch?view=skype-ps)[、设置](/powershell/module/skype/set-csonlinelisswitch?view=skype-ps)、[删除](/powershell/module/skype/remove-csonlinelisswitch?view=skype-ps) -CsOnlineLisSwitch
+- [Get](/powershell/module/skype/get-csonlinelissubnet?view=skype-ps)、 [Set](/powershell/module/skype/set-csonlinelissubnet?view=skype-ps)、 [Remove](/powershell/module/skype/remove-csonlinelissubnet?view=skype-ps) -CsOnlineLisSubnet
+- [Get](/powershell/module/skype/get-csonlinelisport?view=skype-ps)、 [Set](/powershell/module/skype/set-csonlinelisport?view=skype-ps)、 [Remove](/powershell/module/skype/remove-csonlinelisport?view=skype-ps) -CsOnlineLisPort
+- [Get](/powershell/module/skype/get-csonlineliswirelessaccesspoint?view=skype-ps)、 [Set](/powershell/module/skype/set-csonlineliswirelessaccesspoint?view=skype-ps)、 [Remove](/powershell/module/skype/remove-csonlineliswirelessaccesspoint?view=skype-ps) -CsOnlineLisWirelessAccessPoint
+- [Get](/powershell/module/skype/get-csonlinelisswitch?view=skype-ps)、 [Set](/powershell/module/skype/set-csonlinelisswitch?view=skype-ps)、 [Remove](/powershell/module/skype/remove-csonlinelisswitch?view=skype-ps) -CsOnlineLisSwitch
 
 >[!Important]
->如果将子网用作网络网站的一部分，则必须在位置信息服务中重新定义子网，以呈现动态位置。
+>如果子网用作网络站点的一部分，则必须在位置信息服务中重新定义子网以呈现动态位置。
 
 ## <a name="configure-emergency-policies"></a>配置紧急策略
 
-使用以下策略配置紧急呼叫。 可以在管理中心内或Microsoft Teams PowerShell 管理这些策略。
+使用以下策略配置紧急呼叫。 可以在 Microsoft Teams 管理中心或使用 PowerShell 管理这些策略。
 
-- **紧急呼叫路由策略 - 仅适用于直接路由**。 此策略配置紧急号码、每个号码的掩码（如果需要）和每个号码的 PSTN 路由。 可以将此策略分配给用户、网络站点或两者。 有关详细信息，请参阅管理 [直接路由的紧急呼叫路由策略](manage-emergency-call-routing-policies.md)。  
+- **紧急呼叫路由策略 - 仅适用于直接路由**。 此策略配置紧急号码、每个数字的掩码（如果需要）和每个数字的 PSTN 路由。 可以将此策略分配给用户、网络站点或两者。 若要了解详细信息，请参阅 [管理直接路由的紧急呼叫路由策略](manage-emergency-call-routing-policies.md)。  
 
-    (呼叫计划和接线员连接根据用户的使用位置或使用位置，使用国家/地区紧急号码自动Microsoft 365 Office 365呼叫) 
+    (呼叫计划和操作员连接用户根据其 Microsoft 365 或Office 365使用位置自动启用来自该国的紧急呼叫。) 
 
-- **紧急呼叫策略 - 适用于呼叫计划、连接和直接路由。** 此策略配置进行紧急呼叫时的安全服务台通知体验。 可以设置要通知谁以及如何通知他们。 例如，自动通知组织的安全服务台，让他们接听紧急呼叫。  可以将此策略分配给用户或网络站点，也可以同时分配给这两者。 有关详细信息，请参阅管理[紧急呼叫策略Teams](manage-emergency-calling-policies.md)。
+- **紧急呼叫策略 - 适用于呼叫计划、操作员连接和直接路由。** 此策略在发出紧急呼叫时配置安全台通知体验。 可以设置要通知的人员及其通知方式。 例如，自动通知组织的安全部门，并让他们侦听紧急呼叫。  此策略可以分配给用户或网络站点，也可以同时分配给两者。 若要了解详细信息，请参阅 [Teams 中的管理紧急呼叫策略](manage-emergency-calling-policies.md)。
 
 ## <a name="enable-users-and-sites"></a>启用用户和网站
 
-可以将紧急呼叫路由策略和紧急呼叫策略分配给用户和站点。 请记住，紧急呼叫路由策略仅适用于直接路由。  (虽然可以将此策略分配给呼叫计划或接线员连接，但该策略将不起作用。) 
+可以向用户和站点分配紧急呼叫路由策略和紧急呼叫策略。 请记住，紧急呼叫路由策略仅适用于直接路由。  (虽然可以将此策略分配给呼叫计划或运算符连接用户，但该策略将不起作用。) 
 
-在管理中心Microsoft Teams PowerShell 分配策略。 若要了解详细信息，请参阅：
+在 Microsoft Teams 管理中心或使用 PowerShell 分配策略。 若要了解详细信息，请参阅：
 
 - [管理直接路由的紧急呼叫路由策略](manage-emergency-call-routing-policies.md)
-- [管理紧急呼叫策略Teams](manage-emergency-calling-policies.md)
+- [在 Teams 中管理紧急呼叫策略](manage-emergency-calling-policies.md)
 
 下面是 PowerShell 示例：
 
-若要为安全服务台通知启用特定用户，请使用以下命令：
+若要为安全台通知启用特定用户，请使用以下命令：
 
 ```PowerShell
 Grant-CsTeamsEmergencyCallingPolicy -Identity user1 -PolicyName SecurityDeskNotification
 ```
 
-若要将名为"Contoso 紧急呼叫策略 1"的策略分配到站点 1，请使用以下命令：
+若要将名为“Contoso 紧急呼叫策略 1”的策略分配到站点 1，请使用以下命令：
 
 ```PowerShell
 Set-CsTenantNetworkSite -identity "site1" -EmergencyCallingPolicy "Contoso Emergency Calling Policy 1"
 ```
 
-若要为特定的直接路由用户启用紧急呼叫，请使用以下命令：
+若要为紧急呼叫启用特定的直接路由用户，请使用以下命令：
 
 ```PowerShell
 Grant-CsTeamsEmergencyCallRoutingPolicy -Identity user1 -PolicyName UnitedStates
 ```
 
-若要将名为"Contoso New York 紧急呼叫路由"的策略分配到站点 1，请使用以下命令：
+若要将名为“Contoso 纽约紧急呼叫路由”的策略分配到站点 1，请使用以下命令：
 
 ```PowerShell
 Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Contoso New York Emergency Call Routing"
 ```
 
-如果向网络站点和用户分配了紧急呼叫策略，并且该用户位于该网络站点，则分配给网络站点的策略将覆盖分配给用户的策略。
+如果向网络站点和用户分配了紧急呼叫策略，并且该用户位于该网络站点，则分配给网络站点的策略将替代分配给用户的策略。
 
 ## <a name="test-emergency-calling"></a>测试紧急呼叫
 
-美国某些紧急路由 (ERSP) 提供紧急呼叫测试机器人。
+美国中的一些紧急路由服务提供商 (ERSP) 提供紧急呼叫测试机器人。
 
-- **呼叫计划和接线员连接** 美国或加拿大的用户可以使用预定义的测试紧急号码 933 来验证其紧急呼叫配置。 此号码将路由到机器人，机器人随后回显呼叫方电话号码 (呼叫线路 ID) 、紧急地址或位置，以及呼叫是自动路由到 PSAP 还是先进行筛选。
+- **美国或加拿大中的呼叫计划和运算符连接用户** 可以使用预定义的测试紧急号码 933 来验证其紧急呼叫配置。 此号码将路由到机器人，然后它会回显呼叫者电话号码 (呼叫行 ID) 、紧急地址或位置，以及呼叫是自动路由到 PSAP 还是首先进行筛选。
 
-- **美国直接路由客户应** 协调其 ERSP 以测试服务。
+- **美国中的直接路由客户** 应与其测试服务的 ERSP 协调。
 
 ## <a name="government-support"></a>政府支持
 
-下表显示了对政府云中的动态紧急呼叫的支持：
+下表显示了对政府云中动态紧急呼叫的支持：
 
 | 云 | 可用性 |
 | :------------|:-------|
-| 万维多租户 | 在所有客户端Teams可用 |
-| GCC | 在所有客户端Teams可用 |
-| GCCH | -在桌面Teams可用 <br> -适用于 Teams 移动客户端 <br> -在手机上挂起Teams可用性 |
-| DoD | Pending |
+| 万维多租户 | 在所有 Teams 客户端上可用 |
+| GCC | 在所有 Teams 客户端上可用 |
+| GCCH | -在 Teams 桌面上可用 <br> -在 Teams 移动客户端上可用 <br> -在 Teams 手机上可用，应用版本：1449/1.0.94.2022061702 |
+| 国防部 | Pending |
 
  ## <a name="related-topics"></a>相关主题
 

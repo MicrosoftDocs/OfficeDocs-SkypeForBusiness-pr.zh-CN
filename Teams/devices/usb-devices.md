@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: 查看 (哪些 USB 外围设备（例如耳机、免提电话、网络摄像头和监视器）) 通过 Microsoft Teams 认证。
-ms.openlocfilehash: 956034bff42cdf3694c648306caf218057bca1da
-ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
+ms.openlocfilehash: 63813ca51626ae16903b57e56de9b47345f44c10
+ms.sourcegitcommit: 911fdb6df0511b4a4d9e4705799877045a09113c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66880386"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "66972777"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>经 Microsoft Teams 认证的 USB 音频和视频设备
 
@@ -41,6 +41,12 @@ ms.locfileid: "66880386"
 - **Microsoft Teams 认证** 在此级别认证的设备指示经过认证的最新设备，以获得不妥协的 Teams 体验。 这些设备提供之前认证的所有优势，还包含包含 LED 指示器的专用 Teams 按钮。 在大多数外形因素中，“Teams”按钮将是一个带有 Teams 徽标的易于查找的触觉按钮。 随着时间的推移，Microsoft 将继续与设备制造商合作，通过固件更新提供新价值。
 
 ### <a name="special-usage-designations"></a>特殊使用情况指定
+
+- **本机蓝牙认证音频外围设备**  大多数经 Microsoft Teams 认证的蓝牙耳机和免提电话都设计为与 USB 加密机一起使用，以便连接到电脑和 Mac 主机。 许多用户一直要求选择将设备与主机直接配对，因为他们没有足够的 USB 端口，或者他们不想记得在不同位置工作时带 USB 加密机。
+
+    Windows 电脑支持本机蓝牙认证设备，包括耳机和免提电话， (MacOS 可能在将来) 受支持。 设备经过音频性能、呼叫控制和 Teams 按钮集成的测试，无论使用还是不使用 USB 加密机。
+
+    本机蓝牙模式下的性能受到主机电脑上的蓝牙无线电的影响，因此建议安装设备和蓝牙收音机的最新固件更新。 一小部分用户可能需要继续使用 USB 加密机，例如在高密度无线电环境中工作时，如果他们的电脑蓝牙被多个配对设备大量使用，或者某些电脑的蓝牙收音机性能不佳。
 
 - **适用于 Open Office 的高级麦克风** 所有耳机都经过测试以提供清晰的音频，但开放式办公和其他嘈杂的环境会带来更大的挑战。 具有此指定的耳机会接收耳机用户的声音，但不会传输其邻居的声音。
 - **会议室大小** 扬声器和摄像头等共享设备的使用距离受支持。 建议的距离可能因制造商而异。 为了给客户提供明确的指导，所有共享设备在认证时都会根据定义完善的房间大小和噪音环境进行测试。
