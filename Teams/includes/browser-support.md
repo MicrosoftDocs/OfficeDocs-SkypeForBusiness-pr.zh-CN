@@ -9,7 +9,7 @@ Teams 完全支持以下 Internet 浏览器，存在特别提出的通话和会�
 |Google Chrome 的最新版本及前两个版本       |完全支持 |完全支持 <br> <br>在 Chrome 版本 72 或更高版本上支持共享，无需任何插件或扩展。       |
 |Safari 14 及以上     |不支持 1 对 1 通话。 完全支持组呼叫。<br><br>视频：完全支持<br><br>共享：完全支持         |会议：完全支持<br><br>视频：完全支持<br><br>共享：完全支持     |
 |Safari 13.1+     |不支持 1 对 1 通话。 支持组通话（完整音频支持）。<br><br>视频：仅限接收<br><br>共享：完全支持         |支持会议（完整音频支持）。<br><br>视频：仅限接收<br><br>共享：完全支持     |
-|Firefox 的最新版本及前两个版本     |不支持         |仅当会议包含 PSTN 坐标时才支持会议。 用户必须下载 Teams 桌面客户端，才能在没有 PSTN 坐标的情况下参加 Firefox 上的会议。<br><br>视频：不支持<br><br>共享：仅限传入的共享（不传出）     |
+|Firefox 的最新版本及前两个版本     |不支持         |仅当会议包含 PSTN 坐标时才支持会议。 用户必须下载 Teams 桌面客户端，才能在没有 PSTN 坐标的情况下参加 Firefox 上的会议。<br><br>视频：不支持<br><br>共享：仅限传入的共享（不传出）<br><br>请注意，用户需要在 Firefox 中安装 OpenH264 插件以获得完全支持。 没有此插件的浏览器可能会在会议中经历包括屏幕共享活动等的中断。 有关详细信息，请参阅 [Mozilla Firefox 支持](https://support.mozilla.org/kb/open-h264-plugin-firefox)。      |
 |版本 13 之前的 Safari     | 不支持        |仅当会议包含 PSTN 坐标时才支持会议。 用户必须下载 Teams 桌面客户端，才能在没有 PSTN 坐标的情况下参加 Safari 上的会议。<br><br>视频：不支持<br><br>共享：仅限传入的共享（不传出）<br><br>在预览阶段中，将在 11.1 及更高版本上启用 Safari。 处于预览阶段时，Safari 的“智能跟踪预防”功能存在[已知问题](https://support.office.com/article/safari-browser-support-1aac0a7c-35a8-42c1-a7df-f674afe234df)。      |
 
 <sup>1</sup> 为了[在共享过程中授予或获得对共享内容的控制权](../meeting-policies-content-sharing.md#allow-a-participant-to-give-or-request-control)，双方必须都使用 Teams 桌面客户端。 如果任何一方在浏览器中运行 Teams，则不支持控制。 这是由我们计划修复的一个技术限制造成。

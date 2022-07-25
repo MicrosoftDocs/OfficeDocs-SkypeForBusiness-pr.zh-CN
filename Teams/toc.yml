@@ -1525,6 +1525,8 @@ items:
             href: overview-of-app-certification.md
           - name: 购买适用于 Teams 的第三方应用
             href: purchase-third-party-apps.md
+          - name: 在 Teams 中 Adobe Acrobat 作为默认 PDF 查看器
+            href: adobe-acrobat-pdf-viewer-teams.md
           - name: 管理 Microsoft 365 和自定义连接器
             href: Office-365-custom-connectors.md
       - name: 管理自定义业务线应用
