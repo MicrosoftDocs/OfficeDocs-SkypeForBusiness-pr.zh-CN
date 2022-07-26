@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: 了解如何使用会议策略设置来控制 Microsoft Teams 中的会议过期。
-ms.openlocfilehash: 08ca5a75b8dd470b006d44e562eb795f814faba6
-ms.sourcegitcommit: bdb919a6f53556f76dd4a71759412023e6e18fbb
+ms.openlocfilehash: 3d79041cf6e8e16ed4ebd680cf5f4370e04cd62a
+ms.sourcegitcommit: f5d784df59a8010b390691bbb20c4ea66c46280b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66529684"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67005332"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>Microsoft Teams 中的会议策略和会议过期
 
@@ -101,8 +101,8 @@ Microsoft Teams 中的[会议策略](meeting-policies-overview.md)用于控制�
 可按如下所示设置过期日期值：
 
 - 最小值： **1 天**
-- 最大值： **99，999 天**
-- 还可以将到期日期设置为 **-1** ，以便录制不会过期。
+- 最大值： **99999 天**
+- 还可以在 PowerShell 中将到期日期设置为 **-1** ，以便录制不会过期。
 
 示例 PowerShell 命令：
 
@@ -114,24 +114,19 @@ Set-CsTeamsMeetingPolicy -Identity Global -NewMeetingRecordingExpirationDays 50
 
 ![管理员会议过期策略的中心屏幕截图。](media/meeting-expiration-policy.jpg)
 
-### <a name="security-and-compliance"></a>安全性和合规性
+### <a name="compliance"></a>合规性
 
-#### <a name="should-i-rely-on-this-feature-for-strict-security-and-compliance-adherence"></a>是否应依赖此功能来严格遵守安全性和合规性？
+不应依赖 TMR 过期设置进行法律保护，因为最终用户可以修改他们控制的任何录制的到期日期。
 
-不可以，不应依赖此项进行法律保护，因为最终用户可以修改他们控制的任何录制的过期日期。
+#### <a name="teams-meeting-recording-expiration-settings-and-microsoft-365-retention-policies-in-microsoft-purview"></a>Teams 会议在 Microsoft Purview 中记录过期设置和 Microsoft 365 保留策略
 
-#### <a name="will-a-retention-andor-deletion-policy-ive-set-in-the-security--compliance-center-override-the-teams-meeting-recording-expiration-setting"></a>我在安全&合规中心设置的保留和/或删除策略是否会替代 Teams 会议记录过期设置？
+文件保留优先于文件删除。 在保留期完成之前，TMR 过期策略无法删除具有 Purview 保留策略的会议录制。 例如，如果你有 Purview 租入策略，该策略规定文件将保留 5 年，TMR 过期策略设置为 60 天，则 TMR 过期策略将在五年后删除记录。  
 
-是的，你在合规中心设置的任何策略都具有完全优先级。
+如果 TMR 过期策略和 Purview 删除策略具有不同的删除日期，则将在两个日期中最早删除该文件。 例如，如果有 Purview 删除策略，该策略显示文件将在一年后删除，TMR 过期设置为 120 天，则 TMR 过期设置将在 120 天后删除该文件。
 
-例如：
+### <a name="enforcement-of-file-retention-with-the-teams-meeting-recording-expiration-setting"></a>使用 Teams 会议记录过期设置强制执行文件保留
 
-- 如果你有一个策略，指出网站中的所有文件必须保留 100 天，并且 Teams 会议录制的到期设置为 30 天，则录制将保留整整 100 天。
-- 如果你有一个删除策略，指出所有 Teams 会议录制将在五天后删除，并且 Teams 会议录制的过期设置为 30 天，则录制将在五天后删除。
-
-### <a name="will-this-feature-enforce-file-retention"></a>此功能是否会强制文件进行保留？
-
-否，文件不会因此功能或其设置而保留。 如果具有删除权限的用户尝试删除具有过期设置的 TMR，则将执行该用户的删除操作。
+由于此功能或其设置，文件不会保留。 如果具有删除权限的用户尝试删除具有过期设置的 TMR，则将执行该用户的删除操作。
 
 ### <a name="what-skus-are-required-for-this-feature"></a>此功能需要哪些 SKU？
 

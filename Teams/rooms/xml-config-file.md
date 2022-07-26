@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: 远程管理Microsoft Teams 会议室设备使用的默认设置，包括应用自定义主题和创建主设置文件。
-ms.openlocfilehash: d991c90fb9d5f652e684343a292cf61d0043c61d
-ms.sourcegitcommit: bdb919a6f53556f76dd4a71759412023e6e18fbb
+ms.openlocfilehash: b31c6519c04070c644d297071b07cc75c7dfc0f6
+ms.sourcegitcommit: f5d784df59a8010b390691bbb20c4ea66c46280b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66529664"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67005342"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>使用 XML 配置文件远程管理Microsoft Teams 会议室控制台设置
 
@@ -63,6 +63,7 @@ ms.locfileid: "66529664"
   <DuplicateIngestDefault>true</DuplicateIngestDefault>
   <DisableTeamsAudioSharing>true</DisableTeamsAudioSharing>
   <FrontRowEnabled>true</FrontRowEnabled>
+  <SingleFoRDefaultContentLayout>1</SingleFoRDefaultContentLayout>
   <DefaultFoRExperience>0</DefaultFoRExperience>
   <EnablePublicPreview>false</EnablePublicPreview>
   <NoiseSuppressionDefault>1</NoiseSuppressionDefault>
@@ -139,8 +140,9 @@ ms.locfileid: "66529664"
 | `<DisableTeamsAudioSharing>`                | 布尔&#x2777;            | 第一&#x2776; | 设置为 true 以禁用 Teams 会议中会议参与者的 HDMI 音频共享。 默认为 false。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | `<FrontRowEnabled>`                          | 布尔&#x2777;            | 第一&#x2776; | 默认为启用。 如果为 false，则禁用前行。
 | `<DefaultFoRExperience>`                     | 布尔&#x2777;            | 第一&#x2776; | 默认情况下，库视图。 放置 1 以将默认布局从库视图更改为前行。
+| `<SingleFoRDefaultContentLayout>`           | String                      |                 | 在单一显示模式下，只能在 Content+people 和 Content 之间设置默认布局：<br><ul><li><b>0</b> 仅限内容</li><li><b>1</b> 个 Content+人员 (默认) </li></ul>|
 | `<EnablePublicPreview>`                     | 布尔&#x2777;            | 第一&#x2776; | 默认情况下处于禁用状态。 如果为 true，则启用公共预览，最终用户可以在启用Teams 会议室时访问公共预览版中的功能。 有关详细信息，请参阅 [Windows 上Microsoft Teams 会议室的公共预览](../public-preview-doc-updates.md#public-preview-for-microsoft-teams-rooms-on-windows)版。 |
-| `<NoiseSuppressionDefault>`                 | 布尔&#x2777;            | 第一&#x2776; | 控制 Teams 中的干扰抑制级别。<br><ul><li><b>0</b> 关闭。 仅使用 OEM 提供的干扰抑制。</li><li><b>1</b> 自动 (默认) 。 Teams 根据本地噪音决定最佳降噪级别。</li><li><b>2</b> 低。 抑制低水平的持久性背景噪音，如计算机风扇或空调。</li><li><b>3</b> 高。 抑制所有不是语音的背景声音。</li></ul>
+| `<NoiseSuppressionDefault>`                 | String                      | 第一&#x2776; | 控制 Teams 中的干扰抑制级别。<br><ul><li><b>0</b> 关闭。 仅使用 OEM 提供的干扰抑制。</li><li><b>1</b> 自动 (默认) 。 Teams 根据本地噪音决定最佳降噪级别。</li><li><b>2</b> 低。 抑制低水平的持久性背景噪音，如计算机风扇或空调。</li><li><b>3</b> 高。 抑制所有不是语音的背景声音。</li></ul>
 | `<CortanaWakewordEnabled>`                  | 布尔&#x2777;            | 第一&#x2776; | 设置为 true 以启用 Cortana 唤醒词“Hey Cortana”。 除非你的国家或地区支持 Cortana 服务，并且连接的音频外围设备支持 Cortana，否则此设置没有任何效果。 默认为 false。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | `<SendLogs>`                                | 容器                   | 第一&#x2776; |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | `<EmailAddressForLogsAndFeedback>`          | 字符串&#x2778;            |                | 设置一个可选的电子邮件地址，当“提供反馈”窗口出现时，可以将日志发送到该地址。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |

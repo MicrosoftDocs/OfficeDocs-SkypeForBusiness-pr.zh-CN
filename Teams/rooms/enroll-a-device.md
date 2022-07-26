@@ -1,9 +1,9 @@
 ---
-title: 将Teams会议室设备注册到托管服务
+title: 将 Teams 会议室设备注册到托管服务
 author: donnah007
 ms.author: v-donnahill
 manager: serdars
-ms.reviewer: ''
+ms.date: 07/22/2022
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -17,16 +17,16 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 将Teams 会议室设备载入托管服务
 f1keywords: ''
-ms.openlocfilehash: 901cf212d6eaeb7ca98b8a158de517b0687ba517
-ms.sourcegitcommit: 5bb00d639828c744951a39705fefe81ed6698efe
+ms.openlocfilehash: 124d301a37fde8802b60f3e59ad5f1a1dd19862c
+ms.sourcegitcommit: f5d784df59a8010b390691bbb20c4ea66c46280b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/20/2022
-ms.locfileid: "66167316"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67005432"
 ---
 # <a name="enroll-device-into-managed-service"></a>将设备注册到托管服务
 
-部署需要将Microsoft Teams 会议室设备载入到Microsoft Teams 会议室托管服务。 监视服务代理用于经认证的Microsoft Teams会议室 (地铁) 系统和外围设备。
+部署需要将Microsoft Teams 会议室设备载入到Microsoft Teams 会议室托管服务。 监视服务代理用于经认证的 Microsoft Teams 会议室 (MTR) 系统和外围设备。
 
 ## <a name="prerequisites"></a>先决条件
 
@@ -35,12 +35,12 @@ ms.locfileid: "66167316"
 ### <a name="adding-proxy-settings-optional"></a> (可选) 添加代理设置
 
 1. 以管理员身份登录，将[执行操作作为 MTR 设备的管理员用户](#performing-operations-as-the-admin-user-of-the-mtr-device)进行操作。
-1. 在屏幕)  (左下部分的Windows ***Search** _字段中，输入 _ *cmd** (长按屏幕或右键选择，然后选择 **_“以管理员身份运行_**) ”。
+1. 在屏幕) 左下 (的 Windows ***Search** _ 字段中，输入 _ *cmd** (长按屏幕或右选择，然后选择 **_“以管理员身份运行_** ”) 。
 1. 在命令结束时运行以下命令 (双引号非常重要) ：
 
    - 如果使用单个 ***代理服务器***： `bitsadmin /Util /SetIEProxy LOCALSYSTEM MANUAL_PROXY <proxyserver>:<port> ""`
 
-     *例子：*
+     *示例：*
 
      ```DOS
      bitsadmin /Util /SetIEProxy LOCALSYSTEM MANUAL_PROXY contosoproxy.corp.net:8080 ""
@@ -48,7 +48,7 @@ ms.locfileid: "66167316"
 
    - 如果使用 ***pac*** 文件： `bitsadmin /Util /SetIEProxy LOCALSYSTEM AUTOSCRIPT <pac file url>`
 
-     *例子：*
+     *示例：*
 
      ```DOS
      bitsadmin /Util /SetIEProxy LOCALSYSTEM AUTOSCRIPT `http://contosoproxy.corp.net/proxy.pac`
@@ -77,21 +77,21 @@ ms.locfileid: "66167316"
 以管理员身份登录到设备 (本地管理员) ：
 
 1. 确保挂起任何正在进行的呼叫并返回到主屏幕。
-1. 在Microsoft Teams会议室用户界面中，选择 **“更多**”，然后选择 **设置**，系统会提示你在设备上输入本地管理员密码， (默认密码为 **_sfb_**) 。
-1. 选择 **设置**，然后选择 **Windows 设置** 以本地管理员身份访问Windows。
+1. 在 Microsoft Teams 会议室用户界面中，选择  **“更多**”，然后选择 **“设置”**，提示你在设备上输入本地管理员密码， (默认密码为 **_sfb_**) 。
+1. 选择 **“设置”**，然后选择  **“Windows 设置”**  以本地管理员身份访问 Windows。
 
-1. 从Windows登录屏幕中显示的用户列表中，选择 **“管理员**” (或设备) 的相应本地管理员。
+1. 从 Windows 登录屏幕中显示的用户列表中，选择  **“管理员** ” (或设备) 的相应本地管理员。
 
 > [!NOTE]
 > 如果计算机 *已加入域*，请选择 **“其他用户**”，然后使用 **.\admin** 或设备中配置为用户名的本地管理员的用户名。
 
 执行必要的管理任务后返回到Microsoft Teams 会议室应用：
 
-1. 从Windows ***"开始"菜单***，从管理员帐户注销。
-1. 通过选择屏幕最左侧的用户帐户图标，然后选择Skype，返回 **到Microsoft Teams 会议室**。
+1. 在“Windows ***开始”菜单*** 中，从管理员帐户注销。
+1. 通过选择屏幕最左侧的用户帐户图标，然后选择 **Skype**，返回到Microsoft Teams 会议室。
 
 > [!NOTE]
-> 如果未列出Skype用户，请选择“其他用户”并输入 ***.\skype*** 作为用户名，然后登录。
+> 如果未列出 Skype 用户，请选择“其他用户”并输入 ***.\skype*** 作为用户名，然后登录。
 
 ## <a name="urls-required-for-communication"></a>通信所需的 URL
 
@@ -116,7 +116,7 @@ mmrprodnoamstor.blob.core.windows.net
 
 注册过程涉及以下步骤：
 
-1. 在 Microsoft Teams 会议室 - 托管服务门户的左侧导航栏上 [http://portal.rooms.microsoft.com](https://portal.rooms.microsoft.com/)，展开 **设置** 并选择 **“常规**”。
+1. 在 Microsoft Teams 会议室 - 托管服务门户的左侧导航栏上 [http://portal.rooms.microsoft.com](https://portal.rooms.microsoft.com/)，展开 **“设置”** 并选择“**常规**”。
 1. 在 *“注册会议室*”下，选择 **“下载安装程序**  ”以下载监视代理软件。
 1. **选：** 设置代理的代理设置;请参阅 [ (可选) 添加代理设置](#adding-proxy-settings-optional)。
 1. 安装代理安装程序 (下载在地铁设备上的第 2 步) 中，方法是：在地铁设备上本地运行 MSI，或者通过将 MSI 应用程序大规模发布到环境中的设备的正常方式 (组策略等) 
@@ -125,17 +125,17 @@ mmrprodnoamstor.blob.core.windows.net
    ![设置和自注册密钥的屏幕截图。](../media/software-installation-005new.png)
 
 > [!NOTE]
-> 如果需要安装代理，而不使用 MTR 上的Teams应用登录到Teams，则可以使用我们的注册密钥作为可选过程。 转到“？” (门户右上角的“帮助) ”，然后选择“下载密钥 (可选) ”。 安装代理时，请将之前从门户下载的“自注册密钥” () 放在设备 **的 C：\Rigel** 目录上。
+> 如果需要安装代理，而 MTR 上的 Teams 应用无法登录 Teams，则可以使用我们的注册密钥作为可选过程。 转到“？” (门户右上角的“帮助) ”，然后选择“下载密钥 (可选) ”。 安装代理时，请将之前从门户下载的“自注册密钥” () 放在设备 **的 C：\Rigel** 目录上。
 
 ## <a name="installation"></a>安装
 
 从门户或使用上述) 提供的 AKA.ms URL 从 Microsoft (下载安装程序后，解压缩其内容以访问文件 **ManagedRoomsInstaller.msi**。
 
-有两种安装模式：1) 个本地计算机安装，2 个) 大规模部署模式通常通过类似方法) 的组策略 (。 建议对未加入域的计算机或无法远程运行 MSI 安装程序的计算机进行单独安装。
+有两种安装模式：1) 个本地计算机安装，2 个) 大规模部署模式通常通过类似方法) Intune (。 建议对未加入域的计算机或无法远程运行 MSI 安装程序的计算机进行单独安装。
 
-由于客户可以通过多种方式在大规模部署模式下运行 MSI 应用程序，本文档仅逐步讲解单个模式下的安装。
+由于客户可以通过多种方式在大规模部署模式下运行 MSI 应用程序，本文档仅逐步讲解在单个模式下以及批量安装Intune注册的设备上。
 
-## <a name="individual-devicemdashdomain-joined-walkthrough"></a>单个设备&mdash;已加入域的演练
+### <a name="individual-device-installation"></a>单个设备安装
 
 1. 以管理员身份登录到设备。 确保 *按照设备步骤的管理员用户执行操作*。
 
@@ -154,13 +154,56 @@ mmrprodnoamstor.blob.core.windows.net
     > [!NOTE]
     > 请勿关闭窗口。 安装完成后，向导将显示“完成”按钮。
 
+### <a name="intune-enrolled-device-bulk-deployment"></a>Intune注册的设备批量部署
+
+以下组件是成功安装的先决条件： 
+
+- **Intune注册**：Windows 设备上的Teams 会议室必须在Intune中注册。
+  有关如何在 Intune 中的 Windows 设备上注册Teams 会议室的详细信息，请参阅使用 [Microsoft Endpoint Manager 在 Windows 设备上注册Microsoft Teams 会议室 - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/intune-customer-success/enrolling-microsoft-teams-rooms-on-windows-devices-with/ba-p/3246986)
+- **将 Windows 设备上的所有Teams 会议室作为成员的 Azure AD 组** - 在 Azure AD 中创建的组，其中包括应属于Microsoft Teams 会议室高级版服务的 Windows 设备上的所有Teams 会议室。 此组将用于针对 MTRP 代理的部署。
+  
+> [!NOTE]
+> 可以考虑将 Azure AD 中的动态组用于此目的，详细了解如何使用 [Microsoft Endpoint Manager 在 Windows 设备上注册Microsoft Teams 会议室 - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/intune-customer-success/enrolling-microsoft-teams-rooms-on-windows-devices-with/ba-p/3246986)
+- **下载 MTRP 代理****安装程序** - 从<https://aka.ms/serviceportalagentmsi>中下载代理的 zip 文件，并将 zip (ManagedRoomsInstaller.msi) 的内容提取到本地临时文件夹。
+
+**使用Intune进行安装**
+
+1. 登录到 [Microsoft Endpoint Manager 管理中心](https://go.microsoft.com/fwlink/?linkid=2109431)。
+1. 选择 **“所有****应用** 添加的 **应用** >  > ”。
+1. 在 **“选择应用类型** ”窗格中，在 **“其他** 应用类型”下，选择 **业务线应用**。
+1. 单击 **“选择**”。 **将显示“添加应用**”步骤。 
+1. 在 **“添加应用** ”窗格中，单击 **“选择应用包文件**”。
+   1. 在 **“应用包文件** ”窗格中，选择  **“浏览**”。 然后，选择之前下载 **的ManagedRoomsInstaller.msi** 文件 (引用先决条件部分) 。
+   1. 完成后，在 **“应用包文件**”窗格中选择 **“确定**”以添加应用。
+1. 在 **“应用信息** ”页中，执行以下更改：
+   1. 发布者：输入 **Microsoft Corporation**。
+   1. 忽略应用版本：选择 **“是**”。
+
+      > [!NOTE]
+      > MTRP 代理正在自我更新;因此，应显式忽略应用版本 (任何基线版本都可以自动更新) 。
+
+   1.  (可选) 类别：选择 **计算机管理**。
+   
+1. 单击 **“下一步** ”以显示 **“分配”** 页。
+   1. 在“ **必需** ”部分下，单击 **“+ 添加组** ”以面向一组设备以安装代理。
+   1. 在 **“选择组** ”窗格中，在“搜索”框中键入组名称 (引用) 上方的先决条件，然后单击所需的 **组** ，然后单击 **“选择**”。
+      有关详细信息，请参阅[“添加组”以组织用户和设备](https://go.microsoft.com/fwlink/?linkid=2202166)，并将[应用分配给具有Microsoft Intune的组](https://go.microsoft.com/fwlink/?linkid=2202270)。
+1. 单击 **“下一步** ”以显示 **“审阅 + 创建”** 页。
+1. 查看为应用输入的值和设置。 完成后，单击 **“创建**”将应用添加到Intune。
+
+完成此过程后，设备将在几分钟后开始安装 MTRP 代理。
+
+> [!NOTE]
+> 安装后，MTRP 代理可能需要长达 8 小时才能对最新版本执行自我更新，并会在 MTRP 门户中列出。
+若要加快 MTRP 门户中的自动注册，请考虑在代理部署后重启 MTR 设备。
+
 ## <a name="completing-enrollment"></a>完成注册
 
-安装完成后，等待 5-10 分钟并刷新门户，设备将列出，报告为 *载入* 状态。
+安装完成后，请等待 5-10 分钟，然后刷新门户以查看列表中的设备，报告为 *载入* 状态。
 
 在 *载入* 状态下，会显示和更新会议室的状态，但不会引发任何警报或创建调查票证。
 
-选择会议室，然后选择 **“注册**  ”以开始获取事件警报、调查票证或报告事件。
+选择会议室，然后选择 **“注册**  ”以开始接收事件警报、调查票证或报告事件。
 
 对于任何问题，请在门户中打开客户报告的事件，或联系 managedroomsupport@microsoft.com。
 
@@ -171,7 +214,7 @@ mmrprodnoamstor.blob.core.windows.net
 1. 在受监视的设备上，以管理员身份登录设备。 请务必按照 *作为设备管理员用户执行操作的* 步骤操作。
 1. 从 [aka.ms/MTRPDeviceOffBoarding](https://aka.ms/MTRPDeviceOffBoarding) 下载重置脚本。
 1. 在设备上的某个位置提取脚本并复制路径。
-1. 以管理员身份打开 PowerShell：在屏幕) 的Windows ***Search** _字段 (左下部分，输入“Powershell”，然后右键单击 “_*_Windows PowerShell_**”。
+1. 以管理员身份打开 PowerShell：在屏幕) 左下 (的 Windows ***Search** _ 字段中，输入“Powershell”，然后右键单击 _*_Windows PowerShell_**。
 1. 选择 *“以管理员身份运行”* 并接受 UAC 提示。
 1. 输入 *Set-ExecutionPolicy –ExecutionPolicy RemoteSigned* ，然后在下一个提示符下按 **Y** 。
 1. 将解压缩的离载脚本的完整路径粘贴或键入到 PowerShell 窗口中，然后按 **Enter**。
@@ -202,6 +245,6 @@ C：\Windows\ServiceProfiles\LocalService\AppData\Local\ServicePortalAgent\ app-
 |||
 |你会收到一条错误消息，指出： </p><p> ***找不到 TPM 数据***|确保设备在其 BIOS 中启用了 TPM (受信任的平台模块) 。 这通常在设备 BIOS 的安全设置中找到。|
 |||
-|你会收到一条错误消息： </p><p> ***错误：找不到名为“管理员”或“Skype”的本地用户帐户***|确保用户帐户存在于经过认证的Microsoft Teams会议室系统设备上。|
+|你会收到一条错误消息： </p><p> ***错误：找不到名为“管理员”或“Skype”的本地用户帐户***|确保已认证的 Microsoft Teams 会议室系统设备上存在用户帐户。|
 |||
-|你将收到上述未涵盖的任何错误状态消息。|请向Microsoft Teams系统支持代理提供安装日志的副本。|
+|你将收到上述未涵盖的任何错误状态消息。|请向 Microsoft Teams 系统支持代理提供安装日志的副本。|
