@@ -17,12 +17,12 @@ description: 了解在需要执行电子数据展示时应执行的操作，例�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ac4aa6e8182342f36da0434aaf78123937d6d8ce
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: 1d548149f978764bbfbe3d0cd3475704ad6a76c2
+ms.sourcegitcommit: 9b08e2826b5b210abd9daa2ef40d4693a5000e33
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616408"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "67039639"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>在 Microsoft Teams 中对内容进行电子数据展示调查
 
@@ -42,10 +42,10 @@ ms.locfileid: "66616408"
 |卡片内容|是|有关详细信息，请参阅 [“搜索卡片内容](#search-for-card-content) ”。|
 |聊天链接|是||
 |聊天消息|是|这包括标准 Teams 频道中的内容、1：1 聊天、1：N 组聊天以及与来宾用户参与者的聊天。|
-|代码片段|弱||
+|代码片段|否||
 |编辑的消息|是|如果用户处于保留状态，则还会保留以前版本的编辑消息。|
 |表情符号、GIF 和贴纸|是||
-|源通知|弱||
+|源通知|否||
 |内联图像|是||
 |循环组件|是|循环组件中的内容保存在存储在发送循环组件的用户的OneDrive for Business帐户中的 .fluid 文件中。 这意味着，在循环组件中搜索内容时，必须将 OneDrive 作为数据源。|
 |会议 IM 对话|是||
@@ -69,16 +69,13 @@ ms.locfileid: "66616408"
 
 ![Teams 中参与者之间的对话。](media/MeetingIMConversations.png)
 
-[!div class="mx-imgBorder"]
-
 下面是电子数据展示工具中查看的同一聊天对话的符合性副本的示例。
 
 ![电子数据展示搜索结果中参与者之间的对话。](media/MeetingImConversation2.png)
 
 下面是会议元数据的示例。
 
-  > [!div class="mx-imgBorder"]
-  > ![符合性副本中的会议元数据。](media/conversationOption3.png)
+![符合性副本中的会议元数据。](media/conversationOption3.png)
 
 有关进行电子数据展示调查的详细信息，请参阅电子数据 [展示 (标准) ](/microsoft-365/compliance/get-started-core-ediscovery)入门。
 
