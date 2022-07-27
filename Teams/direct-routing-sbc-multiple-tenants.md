@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 了解如何配置一个会话边界控制器 (SBC) ，为 Microsoft 合作伙伴和/或 PSTN 运营商提供多个租户。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8880f912ae21af3bf269e86469241f345bc33f74
-ms.sourcegitcommit: f5d784df59a8010b390691bbb20c4ea66c46280b
+ms.openlocfilehash: 9d7ee3960f88b1c6ed4ee140b4f291162e37da30
+ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 07/26/2022
-ms.locfileid: "67005352"
+ms.locfileid: "67024015"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>为多个租户配置会话边界控制器
 
@@ -246,7 +246,7 @@ SBC 需要证书才能对连接进行身份验证。 对于 SBC 托管方案，�
 例子：
 - Customers.adatum.biz - 需要在承运人租户中创建的承运人中继。
 
-- Sbc1.customers.adatum.biz - 客户租户中的派生中继。 可以在联机语音路由策略中将派生中继的名称添加到客户租户中，而无需创建它。
+- Sbc1.customers.adatum.biz - 客户租户中的派生中继。 可以在语音路由中添加客户租户中派生中继的名称，而无需创建它。
 
 - 承运商需要设置 DNS 记录解析派生中继 FQDN 到运营商 SBC IP 地址。
 

@@ -16,12 +16,12 @@ ms.reviewer: mikedav
 description: 了解如何为音频会议、电话系统和通话套餐等功能的用户分配 Teams 加载项许可证。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 380abec55466d831722c76c9e552055378ecf1df
-ms.sourcegitcommit: 791d0a341ff873145fa893ece05055729b0b8d50
+ms.openlocfilehash: 07196e26f38042b6046d6761bd60dfad64f89c7d
+ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/18/2022
-ms.locfileid: "66838817"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67023673"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>向用户分配 Teams 加载项许可证
 
@@ -64,18 +64,10 @@ ms.locfileid: "66838817"
 
 下面是一个示例，说明如何使用脚本向用户分配许可证。
 
-1. 安装适用于 [IT 专业人员 RTW 的 Microsoft Online Services 登录助手](/collaborate/connect-redirect?DownloadID=59185)的 64 位版本。
-2. 安装用于Windows PowerShell的Microsoft Azure Active Directory模块：
-    1. 打开提升的Windows PowerShell命令提示符 (以管理员) 身份运行Windows PowerShell。
-    2. 运行以下命令：
-        ```powershell
-        Install-Module MSOnline
-        ```
-    3. 如果系统提示安装 NuGet 提供程序，请键入 **Y**，然后按 Enter。
-    4. 如果系统提示从 PSGallery 安装模块，请键入 **Y**，然后按 Enter。
-3. 在Windows PowerShell命令提示符处，运行以下脚本，将许可证分配给用户，组织名称和要分配的许可证的标识符在哪里\<CompanyName:License>。 例如，litwareinc：MCOMEETADV。
+1. [安装用于Windows PowerShell的Microsoft Azure Active Directory模块](/powershell/azure/active-directory/install-msonlinev1)。
+2. 在Windows PowerShell命令提示符处，运行以下脚本，将许可证分配给用户，组织名称和要分配的许可证的标识符在哪里`CompanyName:License`。 例如， `litwareinc:MCOMEETADV`.
 
-    标识符不同于许可证的友好名称。 例如，音频会议的标识符是 MCOMEETADV。 若要了解详细信息，请参阅 [产品名称和 SKU 标识符以获取许可](#product-names-and-sku-identifiers-for-licensing)。
+    标识符不同于许可证的友好名称。 例如，音频会议的标识符是 `MCOMEETADV`。 若要了解详细信息，请参阅 [产品名称和 SKU 标识符以获取许可](#product-names-and-sku-identifiers-for-licensing)。
 
     ```powershell
     #Create a text file with a single column that lists the user principal names (UPNs) of users to assign licenses to. The MSOL service uses the UPN to license user accounts.

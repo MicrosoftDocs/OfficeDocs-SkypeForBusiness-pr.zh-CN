@@ -459,8 +459,10 @@ items:
             href: /microsoft-365/frontline/ehr-connector-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
       - name: 日志文件、服务运行状况和支持
         items:
-          - name: 使用日志文件监视 Teams 和排除 Teams 故障
+          - name: 配置日志文件以在 Teams 中进行监控和故障排除
             href: log-files.md
+          - name: Teams 的浏览器日志和跟踪
+            href: browser-logs-and-tracing-for-teams.md
           - name: 验证 Teams 的服务运行状况
             href: service-health.md
           - name: 如何查找你的支持 PIN
@@ -977,6 +979,8 @@ items:
             href: operator-connect-configure.md#set-up-phone-numbers
           - name: 管理直接路由的电话号码
             href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice
+          - name: 许可和电话号码管理
+            href: phone-numbers-licensing-changes.md
       - name: 拨号计划和路由
         items:
           - name: 概述

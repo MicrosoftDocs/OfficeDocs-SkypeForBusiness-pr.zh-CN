@@ -18,12 +18,12 @@ description: 了解如何配置 Microsoft 呼叫计划和电话系统直接路�
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9da8f8f082812063de7d2fb81c7d5b716ad1e07a
-ms.sourcegitcommit: 911fdb6df0511b4a4d9e4705799877045a09113c
+ms.openlocfilehash: bc7fb0ae87cda84dfbf7b164d38b709b7ef2eef9
+ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "66972787"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67023693"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>规划和配置动态紧急呼叫 
 
@@ -156,7 +156,7 @@ Azure Maps用于基于位置的服务。 使用 Microsoft Teams 管理中心输�
 
 - 如果需要动态启用紧急呼叫或动态配置安全台通知，则必须配置受信任的 IP 地址和网络站点。
 
-- 如果仅需要动态位置，则必须仅配置受信任的 IP 地址;不需要配置元工作设置。
+- 如果仅需要动态位置，则必须仅配置受信任的 IP 地址;不需要配置网络设置。
 
 - 如果两者都不需要，则不需要配置网络设置。
 

@@ -21,17 +21,17 @@ ms.custom:
 - Reporting
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
-description: 了解如何使用呼叫质量仪表板Power BI报表查看自动助理和呼叫队列历史数据。
-ms.openlocfilehash: e2d71410d10fb809debd1699afcf452c71a6e088
-ms.sourcegitcommit: 193aec6f3f6b6ac14b07e778b3485eed813f5e99
+description: 了解如何使用呼叫质量仪表板 Power BI 报表查看自动助理和呼叫队列历史数据。
+ms.openlocfilehash: b9bb3cf0990058cd16ed35d52d07f63be6cd90fb
+ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66046444"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67024005"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>自动助理&调用队列历史报告
 
-Teams自动助理&呼叫队列历史报告Power BI模板提供以下三个报告：
+Teams 自动助理&呼叫队列历史报表 Power BI 模板提供以下三个报表：
 
 - [自动助理](media/cqd-teams-aa-cq-historical-report-sample-aa.png) - 显示针对进入自动助理的呼叫的分析。
 - [呼叫队列](media/cqd-teams-aa-cq-historical-report-sample-cq.png) - 显示对进入呼叫队列的呼叫的分析。
@@ -39,10 +39,12 @@ Teams自动助理&呼叫队列历史报告Power BI模板提供以下三个报告
 
 这些报表使用 [来自呼叫质量仪表板](CQD-Power-BI-query-templates.md) 数据存储的数据。 这些报告允许组织报告自动助理和呼叫队列正在处理的呼叫数。  这些报表还提供对调用队列中的代理性能的见解。
 
+### <a name="v160-published-on-july-22-2022"></a>2022 年 7 月 22 日发布的 V1.60
+
 ## <a name="prerequisites"></a>先决条件
 
 ### <a name="power-bi-desktop"></a>Power BI Desktop
-需要安装Power BI Desktop。 可以从 [Microsoft Windows Microsoft Store](https://aka.ms/pbidesktopstore)安装它。
+需要安装Power BI Desktop。 可以从 [Microsoft Windows 应用商店](https://aka.ms/pbidesktopstore)安装它。
 
 可以使用免费版本的Power BI Desktop。 最低兼容版本为 2020 年 9 月)  (2.85.681.0。
 
@@ -56,11 +58,11 @@ Teams自动助理&呼叫队列历史报告Power BI模板提供以下三个报告
 
 执行以下步骤：
 
-- 下载 [CQD Power BI查询模板](https://www.microsoft.com/download/details.aspx?id=102291)，并将 zip 文件保存到计算机上的目录。
+- 下载 [CQD Power BI 查询模板](https://www.microsoft.com/download/details.aspx?id=102291) 并将 zip 文件保存到计算机上的目录。
 
 - 双击 zip 文件以将其打开。
 
-- 双击“CQ 和 AA 组合分析 20201105.pbit”模板文件。 应启动Power BI Desktop。
+- 双击“CQD Teams 自动助理&呼叫队列历史报告 V1.60.pbit”模板文件。 应启动Power BI Desktop。
 
 - 系统将提示你选择 CQD 数据管道区域。 选择租户所在的区域。
 
@@ -83,23 +85,23 @@ Teams自动助理&呼叫队列历史报告Power BI模板提供以下三个报告
 
    :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="选择刷新选项的屏幕截图。":::
 
-- 然后，系统会提示你登录。 选择 **组织帐户** ，然后选择 **“登录**”。
+- 系统会提示你登录。 选择 **组织帐户** ，然后选择 **“登录**”。
 
   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="显示登录名的屏幕截图。":::
 
-- 选择 **连接** 并观看数据刷新。
+- 选择 **“连接”** 并观看数据刷新。
 
 ## <a name="data-latency-and-aa--cq-analytics"></a>数据延迟和 AA & CQ 分析
 
-数据将在 30 分钟内在 CQD 数据管道中提供。
+数据通常在呼叫完成后 30 分钟内可用;但是，有时可能需要几个小时才能显示数据。 
 
-必须刷新数据才能查看新的分析数据。 
+必须刷新数据才能查看任何新数据。
 
 ## <a name="customization"></a>定制 
 
 可以自定义报表的某些可视化效果方面，例如添加或删除要在各种可视化效果中显示的字段、更改图表类型等。
 
-无法向报表添加更多数据字段。
+报表包含当前可用的所有数据指标。
 
 ### <a name="change-color-schema"></a>更改颜色架构 
 
@@ -225,7 +227,7 @@ Teams自动助理&呼叫队列历史报告Power BI模板提供以下三个报告
 |名称                                    |数据类型                |说明                                                                |
 |:---------------------------------------|:------------------------|:--------------------------------------------------------------------------|
 |呼叫计数                              |整数             |汇总：总和<br>通话的数量                                          |
-|呼叫队列调用结果                  |文本                     |呼叫队列调用最终状态 -- 可能的值：<br><br>§ agent_joined_conference (接听会议模式呼叫) <br>§ 已拒绝<br>§ 已断开连接<br>§ 错误<br>§ 失败<br>§ 无效<br>§ 溢出 (溢出条件满足) <br>§ timed_out (超时条件满足) <br>§ transferred_to_agent (应答 tranfer 模式调用 {default})  |
+|呼叫队列调用结果                  |文本                     |呼叫队列调用最终状态 - 可能的值：<br><br>§ agent_joined_conference (接听会议模式呼叫) <br>§ 已拒绝<br>§ 已断开连接<br>§ 错误<br>§ 失败<br>§ 无效<br>§ 溢出 (溢出条件满足) <br>§ timed_out (超时条件满足) <br>§ transferred_to_agent (应答 tranfer 模式调用 {default})  |
 |呼叫队列标识                     |文本                     |附加到呼叫队列的资源帐户的名称<br><br>如果完整资源帐户名称 **cq_test@microsoft.com**，则此值将为： **cq_test** |
 |呼叫队列目标类型                  |文本                     |***调用重定向目标类型--可能的值：***<br><br>§ ApplicationEndpoint<br>§ 邮箱<br>§ 其他<br>§ 用户 |
 |呼叫类型<sup>1</sup>                   |文本                     |调用类型--可能的值：<br><br>§ 外部<br>§ 内部           |
@@ -306,6 +308,15 @@ Teams自动助理&呼叫队列历史报告Power BI模板提供以下三个报告
 
 - 仪表板中只有 28 天的历史记录可用，因为呼叫队列/自动助理数据被视为个人数据，并且受数据隐私保留策略约束。
 
-- 在某些情况下，云呼叫队列代理时间线报表上的代理应答呼叫计数可能不同于Teams客户端呼叫历史记录中显示的呼叫数。 Teams客户端调用历史记录是正确的。 支持部门正在调查，但目前估计没有时间进行修复。
+- 在某些情况下，云呼叫队列代理时间线报表上的代理应答呼叫计数可能不同于 Teams 客户端呼叫历史记录中显示的呼叫数。 Teams 客户端调用历史记录正确。 支持部门正在调查，但目前估计没有时间进行修复。
 
 - <sup>1</sup> 自动助理和呼叫队列图中的 **传入呼叫源** 显示最终的呼叫腿源，而不是初始调用腿源。 例如，如果自动助理接收外部呼叫并将呼叫传输到另一自动助理或呼叫队列，则 **传入呼叫源** 将报告为“内部”。
+
+## <a name="version-history"></a>版本历史记录
+|版本  |发布日期     |文件名                                                           |说明                                         |
+|:--------|:------------------|:------------------------------------------------------------------|:---------------------------------------------------|
+|1.60     |2022 年 7 月 22 日      |CQD Teams 自动助理&调用队列历史报告 V1.60.pbit |请参阅：<br>CQD Teams 自动助理&呼叫队列历史报告 - 更改下载的 zip 文件中的Log.docx以获取更改列表                                                                             |
+|1.00     |2020 年 11 月 5 日   |CQ 和 AA 组合分析 20201105.pbit                         |初始版本                                     |
+
+
+
