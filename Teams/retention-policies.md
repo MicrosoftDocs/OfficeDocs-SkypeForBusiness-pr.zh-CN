@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 508f10c07a25bb2dc3cef7af84d7dacc62989f28
-ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
+ms.openlocfilehash: 000c279c32237fd7477a375bf9968db03ec5376d
+ms.sourcegitcommit: 644374fcad6372494e87d729de690af4c060f635
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67023683"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "67054923"
 ---
 # <a name="manage-retention-policies-for-microsoft-teams"></a>管理 Microsoft Teams 的保留策略
 
@@ -42,7 +42,7 @@ Teams 支持聊天和频道消息中的保留策略。因此，作为管理员�
 
 如需详细了解 Microsoft 365 中的保留解决方案，请参阅[详细了解保留策略和保留标签](/microsoft-365/compliance/retention)。
 
-受 Teams 保留策略约束的用户必须收到正式许可，例如 Office 365 E3 或 Office 365 A3。 有关这些保留策略的其他许可选项，请参阅 [Microsoft 365 安全与合规性许可指南中的](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-governance)[信息治理](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-governance)部分。 如需了解有关 Teams 许可的详细信息，请参阅 [Microsoft Teams 服务说明](/office365/servicedescriptions/teams-service-description)。
+受 Teams 保留策略约束的用户必须收到正式许可，例如 Office 365 E3 或 Office 365 A3。 有关这些保留策略的其他许可选项，请参阅 [](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#microsoft-purview-data-lifecycle-management) [Microsoft 365 许可指南中有关安全&合规性的Microsoft Purview 数据生命周期管理](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-governance)部分。 如需了解有关 Teams 许可的详细信息，请参阅 [Microsoft Teams 服务说明](/office365/servicedescriptions/teams-service-description)。
 
 ## <a name="how-teams-retention-policies-support-retain-and-delete-actions"></a>Teams 保留策略如何支持保留和删除操作
 
