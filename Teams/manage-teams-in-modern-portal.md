@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 735fc17c7e82c1c2362b235508b28b9b4a392439
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
+ms.openlocfilehash: d99dacdd0580d2ee9eaf775d843c5c46a0960259
+ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66563970"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67023995"
 ---
 # <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 管理中心中管理团队
 
@@ -58,7 +58,7 @@ ms.locfileid: "66563970"
 - **隐私** - Microsoft 365 支持组的可见性/访问类型。
 - **状态** - 此团队的“已存档”或“活动”状态。 在[存档或还原团队](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7)中详细了解如何存档团队。
 - **说明** - Microsoft 365 支持组的说明。
-- **分类** - 分配给 Microsoft 365 支持组的分类（如果在组织中使用）。 有关分类的详细信息，请参阅[为组织中的 Office 组创建分类](/office365/enterprise/powershell/manage-office-365-groups-with-powershell#create-classifications-for-office-groups-in-your-organization)。
+- **分类** - 分配给 Microsoft 365 支持组的分类（如果在组织中使用）。 有关分类的详细信息，请参阅 [为组织中的 Microsoft 365 组创建分类](/microsoft-365/enterprise/manage-microsoft-365-groups-with-powershell#create-classifications-for-microsoft-365-groups-in-your-organization)。
 - **组 ID** - Microsoft 365 支持组的唯一组 ID。
 
 > [!NOTE]

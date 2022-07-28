@@ -19,20 +19,20 @@ description: 在 Teams 中部署云语音功能的实用指南，用于记录 Te
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 72ad8b9349681dbb10c3df848f99cc0250711543
-ms.sourcegitcommit: cd9a1f7afaaf053741c81022e7052bf6f8008fcc
+ms.openlocfilehash: 7e68c0563420ad2c4e2d53421dc8dfaecfc23cd1
+ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/12/2022
-ms.locfileid: "65370815"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67023975"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 云会议录制
 
-在 Microsoft Teams 中，用户可录制其 Teams 会议和组内通话，以便捕获音频、视频和屏幕共享活动。 还有一个用于为录制内容添加自动转录功能的选项，这样用户就能够回放包含隐藏式字幕的会议录像，并在转录文本中搜索重要的讨论事项。 录制在云中进行，并保存在 Microsoft OneDrive for Business 和 Microsoft SharePoint Online 中，因此用户可以安全地在组织中共享录像。
+在 Microsoft Teams 中，用户可录制其 Teams 会议和组内通话，以便捕获音频、视频和屏幕共享活动。 还有一个用于为录制内容添加自动转录功能的选项，这样用户就能够回放包含隐藏式字幕的会议录像，并在转录文本中搜索重要的讨论事项。 录制在云中进行，并保存在 OneDrive 和 SharePoint 中，因此用户可以安全地在组织中共享录制内容。
 
 录制会议时，自动执行以下操作：
 
-- 上传到 OneDrive for Business 或 SharePoint Online。
+- 上传到 OneDrive 或 SharePoint
 - 向受邀加入会议的人员授予权限
 - 在会议聊天中链接
 - 在 Teams 日历中会议的“录制和脚本”选项卡中显示
@@ -42,18 +42,18 @@ ms.locfileid: "65370815"
 相关：[Teams 会议录制最终用户文档](https://support.microsoft.com/en-us/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24)
 
 >[!Note]
-> 从使用 Microsoft Stream（经典）到 OneDrive for Business 和 SharePoint Online 进行会议录制的更改将于 2021 年 8 月自动发生。 有关详细信息，请参阅 [使用 OneDrive for Business 和 SharePoint Online 或 Stream 进行会议录制](tmr-meeting-recording-change.md)。
+> 从使用 Microsoft Stream（经典）到 OneDrive 和 SharePoint 进行会议录制的更改将于 2021 年 8 月自动发生。 有关详细信息，请参阅 [使用 OneDrive 和 SharePoint 或 Stream 进行会议录制](tmr-meeting-recording-change.md)。
 
 > [!NOTE]
 > 有关在 Teams 会议中使用角色以及如何更改用户角色的信息，请参阅 [Teams 会议中的角色](https://support.microsoft.com/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019)。 有关实时事件录制选项，请参阅 [Teams 中的实时事件录制策略](teams-live-events/live-events-recording-policies.md)。
 
 ## <a name="prerequisites-for-teams-cloud-meeting-recording"></a>Teams 云会议录制的先决条件
 
-要录制 Teams 用户的会议，必须为租户启用 OneDrive for Business 和 SharePoint Online。 此外，会议组织者和将启动录制的人员都需要满足下列先决条件：
+要录制 Teams 用户的会议，必须为租户启用 OneDrive 和 SharePoint。 此外，会议组织者和将启动录制的人员都需要满足下列先决条件：
 
-- 用户在 OneDrive for Business 中有足够的存储空间，以保存非频道会议录制内容。
+- 用户在 OneDrive 中具有足够的存储空间，可用于保存非频道会议录制内容。
 
-- Teams 的频道在 SharePoint Online 中有足够的存储空间，可以保存频道会议录制内容。
+- Teams 的频道在 SharePoint 中具有足够的存储空间，可用于保存频道会议录制内容。
 
 - 用户已将 `CsTeamsMeetingPolicy -AllowCloudRecording` 设置设置为 true，以便录制会议和群组通话。
 
@@ -67,7 +67,7 @@ ms.locfileid: "65370815"
 
 > [!IMPORTANT]
 >
-> 如果希望用户仅录制和下载录制内容，则用户将无需启用 OneDrive for Business 或 SharePoint Online。 这意味着录制内容不会存储在 OneDrive for Business 或 SharePoint Online 中，而是改为存储在临时 Teams 存储中 21 天，之后才会删除。 目前，管理员无法对其进行控制、管理或删除。
+> 如果希望用户仅录制和下载录制内容，则用户将无需启用 OneDrive for 或 SharePoint。 这意味着录制内容不会存储在 OneDrive 或 SharePoint 中，而是改为存储在临时 Teams 存储中 21 天，之后才会删除。 目前，管理员无法对其进行控制、管理或删除。
 >
 > 有关 [临时会议录制内容存储工作原理的详细信息](#temp-storage)，请参阅下文。  
 
@@ -115,7 +115,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $true
 
 此设置的两个值为：
 
-- **允许**（默认）- 将频道会议录制内容保存到频道中的“录制内容”文件夹。 录制文件的权限将基于频道 SharePoint Online 权限。 这与为频道上传的任何其他文件相同。
+- **允许**（默认）- 将频道会议录制内容保存到频道中的“录制内容”文件夹。 录制文件的权限将基于频道 SharePoint 权限。 这与为频道上传的任何其他文件相同。
 
 - **阻止** - 将频道会议录制内容保存到频道中的“录制内容\仅供查看”文件夹。 频道所有者将具有对此文件夹中录制内容的完全权限，但频道成员将仅拥有读取权限，而无法下载。
 
@@ -149,7 +149,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -ChannelRecordingDownload Block
 
 
 > [!NOTE]
-> 录制会议的转录目前只支持英语 (美国)、英语 (加拿大)、英语 (印度)、英语 (英国)、英语 (澳大利亚)、英语 (新西兰)、阿拉伯语 (阿拉伯联合酋长国)、阿拉伯语 (沙特阿拉伯)、中文 (粤语)、中文 (普通话)、捷克语 (捷克)、丹麦语 (丹麦)、荷兰语 (比利时)、荷兰 (荷兰)、法语 (加拿大)。法语 (法国)、芬兰语 (芬兰)、德语 (德国)、希伯来语 (以色列)、印地语 (印度)、意大利语 (意大利)、日语 (日本)、韩语 (韩国)、挪威语 (挪威)、波兰语 (波兰)、葡萄牙语 (巴西)、葡萄牙语 (葡萄牙)、俄语 (俄罗斯)、西班牙语 (墨西哥)、西班牙语 (西班牙)、瑞典语 (瑞典)、泰语 (泰国)、土耳其 (土耳其)、越南 (越南)。 它们与会议录制内容一起存储在 OneDrive for Business 和 SharePoint Online 云存储中。
+> 该录制会议听录目前仅支持英语（美国）、英语（加拿大）、英语（印度）、英语（英国）、英语（澳大利亚）、英语（新西兰）、阿拉伯语（阿拉伯联合酋长国）、阿拉伯语（阿拉伯联合酋长国）、阿拉伯语（沙特阿拉伯）、中文（简体，中国）、中文（繁体，香港特别行政区）、中文（繁体，中国台湾）、捷克语（捷克语）、丹麦语（丹麦）、荷兰语（比利时）、荷兰语（荷兰）、荷兰语（荷兰）、法语（加拿大）、法语（法国）、芬兰语（芬兰）、德语（德国）、希腊语（希腊）、希伯来语（以色列）、印地语（印度）、匈牙利语（匈牙利）、意大利语（意大利）、日语（日本）、韩语（韩国）、挪威语（挪威）、波兰语（波兰）、葡萄牙语（巴西）、葡萄牙语（葡萄牙）、罗马尼亚语（罗马尼亚）、俄语（俄罗斯）、斯洛伐克语（斯洛伐克）、西班牙语（墨西哥）、西班牙语（西班牙）、瑞典语（瑞典）、泰语（泰国）、土耳其语（土耳其）、乌克兰语（乌克兰）、越南语（越南）。 它们与会议录制内容一起存储在 OneDrive 和 SharePoint 云存储中。
 
 你可以使用 Microsoft Teams 管理中心或 PowerShell 来设置 Teams 会议策略，以控制录制发起人是否可以选择转录会议录制。
 
@@ -202,15 +202,15 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 ## <a name="permissions-and-storage"></a>权限和存储
 
-会议录制内容存储在 OneDrive for Business 和 SharePoint Online 云存储中。 位置和权限取决于会议类型和用户在会议中的角色。 下面列出了应用于录制内容的默认权限，对视频录制文件具有完全编辑权限的用户可以更改权限，并稍后根据需要与其他人共享。
+会议录制内容存储在 OneDrive 和 SharePoint 云存储中。 位置和权限取决于会议类型和用户在会议中的角色。 下面列出了应用于录制内容的默认权限，对视频录制文件具有完全编辑权限的用户可以更改权限，并稍后根据需要与其他人共享。
 
 ### <a name="non-channel-meetings"></a>非频道会议
 
-- 录制内容存储在单击“录制”用户的 OneDrive for Business 中名为 **录制内容** 的文件夹中。 
+- 录制内容存储在单击“录制”的用户的 OneDrive 中名为“**录制内容**”的文件夹中。 
 
-  示例：<i>录制者的 OneDrive for Business</i>/**录制内容**
+  示例：<i>录制者的 OneDrive</i>/**录制内容**
 
-- 受邀加入会议的人员（外部用户除外）将自动获得对录制文件的查看权限，但无法下载。
+- 受邀加入会议的人员（外部参与者除外）将自动获得对录制文件的查看权限，但无法下载。
 
 - 会议所有者和单击“录制”的人员将获得完全的编辑权限，能够更改权限并与其他人共享。
 
@@ -224,7 +224,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 - 单击“录制”的成员对录制内容具有编辑权限。
 
-- 其他每个成员的权限都基于频道 SharePoint Online 权限。
+- 其他每个成员的权限都基于频道 SharePoint 权限。
 
 如果将 `Set-CsTeamsMeetingPolicy -ChannelRecordingDownload` 设置为阻止，则：
 
@@ -240,27 +240,27 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 | 会议类型  | 谁单击了“录制”？| 录制内容位于何处？ | 谁具有访问权限？ R/W、R 或共享  |
 |-------------|-----------------------|------------------------|------------------------|
-|与内部参与方进行 1 对 1 通话             |呼叫方                 |呼叫方的 OneDrive for Business 账户                        |呼叫方是所有者，且具有完全权限。 <br /><br />被呼叫方（如果在同一租户中）具有只读访问权限。没有共享访问权限。 <br /><br /> 被呼叫方（如果位于不同租户中）没有访问权限。 呼叫方必须将其共享给被呼叫方。|
-|与内部参与方的 1 对 1 通话             |被呼叫方                 |被呼叫方的 OneDrive for Business 账户                        |被呼叫方是所有者，且具有完全权限。 <br /><br />呼叫方（如果在同一租户中）具有只读访问权限。 <br /><br />呼叫方（如果位于不同的租户中）无访问权限。 被呼叫方必须将其共享给呼叫方。|
-|使用外部呼叫进行 1：1 通话             |呼叫方                 |呼叫方的 OneDrive for Business 账户                        |呼叫方是所有者，且具有完全权限。<br /> <br />被呼叫方没有访问权限。 呼叫方必须将其共享给被呼叫方。|
-|使用外部呼叫进行 1：1 通话             |被呼叫方                 |被呼叫方的 OneDrive for Business 账户                        |被呼叫方是所有者，且具有完全权限。<br /><br />呼叫方没有访问权限。 被呼叫方必须将其共享给呼叫方。|
-|群组通话                                 |通话的任何成员 |单击“录制”的组成员的 OneDrive for Business 帐户  |单击“录制”的成员具有完全权限。 <br /><br /> 来自同一租户的其他成员具有读取权限。 <br /><br /> 来自不同租户的其他组成员则没有权限。|
-|临时/计划的会议                    |组织者              |组织者的 OneDrive for Business 账户                     |组织者对录制内容具有完全权限。 <br /><br /> 会议的所有其他成员都具有读取权限，但无法下载。|
+|与内部参与方进行 1 对 1 通话             |呼叫方                 |呼叫方的 OneDrive 帐户                        |呼叫方是所有者，且具有完全权限。 <br /><br />被呼叫方（如果在同一租户中）具有只读访问权限。没有共享访问权限。 <br /><br /> 被呼叫方（如果位于不同租户中）没有访问权限。 呼叫方必须将其共享给被呼叫方。|
+|与内部参与方的 1 对 1 通话             |被呼叫方                 |被呼叫方的 OneDrive 帐户                        |被呼叫方是所有者，且具有完全权限。 <br /><br />呼叫方（如果在同一租户中）具有只读访问权限。 <br /><br />呼叫方（如果位于不同的租户中）无访问权限。 被呼叫方必须将其共享给呼叫方。|
+|使用外部呼叫进行 1：1 通话             |呼叫方                 |呼叫方的 OneDrive 帐户                        |呼叫方是所有者，且具有完全权限。<br /> <br />被呼叫方没有访问权限。 呼叫方必须将其共享给被呼叫方。|
+|使用外部呼叫进行 1：1 通话             |被呼叫方                 |被呼叫方的 OneDrive 帐户                        |被呼叫方是所有者，且具有完全权限。<br /><br />呼叫方没有访问权限。 被呼叫方必须将其共享给呼叫方。|
+|群组通话                                 |通话的任何成员 |单击“录制”的 OneDrive 帐户的组成员  |单击“录制”的成员具有完全权限。 <br /><br /> 来自同一租户的其他成员具有读取权限。 <br /><br /> 来自不同租户的其他组成员则没有权限。|
+|临时/计划的会议                    |组织者              |组织者的 OneDrive 帐户                     |组织者对录制内容具有完全权限。 <br /><br /> 会议的所有其他成员都具有读取权限，但无法下载。|
 |临时/计划的会议                    |其他会议成员   |单击“录制”的会议成员                                  |单击“录制”的成员对录制内容具有完全权限。 <br /><br />组织者具有编辑权限，且可以共享。<br /><br /> 所有其他会议成员都具有读取权限，但无法下载。|
-|与外部用户的临时/计划会议|组织者              |组织者的 OneDrive for Business 账户                     |组织者对录制内容具有完全权限。<br /> <br /> 来自组织者所在同一租户的会议的所有其他成员都具有读取权限，但无法下载。 <br /><br /> 所有其他外部成员均无访问权限，并且组织者必须将其共享给他们。|
-|与外部用户的临时/计划会议|其他会议成员   |单击“录制”的成员                                  |单击“录制”的成员对录制内容具有完全权限。 组织者具有编辑权限，且可以共享。 <br /><br /> 来自组织者所在同一租户的会议的所有其他成员都具有读取权限，但无法下载。 <br /><br />所有其他外部成员均无访问权限，并且组织者必须将其共享给他们。|
-|频道会议                            |频道成员         |该频道 Teams 的 SharePoint Online 位置                   |如果将 Set-CsTeamsMeetingPolicy -ChannelRecordingDownload 设置为允许（默认），则单击“录制”的成员具有对录制内容的编辑权限。 其他每个成员的权限都基于频道 SharePoint Online 权限。<Br><Br>如果将 Set-CsTeamsMeetingPolicy -ChannelRecordingDownload 设置为阻止，则频道所有者将对录制内容具有完全权限，但频道成员将仅具有读取权限，而无法下载。|
+|与外部参与者的临时/计划会议|组织者              |组织者的 OneDrive 帐户                     |组织者对录制内容具有完全权限。<br /> <br /> 来自组织者所在同一租户的会议的所有其他成员都具有读取权限，但无法下载。 <br /><br /> 所有其他外部成员均无访问权限，并且组织者必须将其共享给他们。|
+|与外部参与者的临时/计划会议|其他会议成员   |单击“录制”的成员                                  |单击“录制”的成员对录制内容具有完全权限。 组织者具有编辑权限，且可以共享。 <br /><br /> 来自组织者所在同一租户的会议的所有其他成员都具有读取权限，但无法下载。 <br /><br />所有其他外部成员均无访问权限，并且组织者必须将其共享给他们。|
+|频道会议                            |频道成员         |该频道 Teams 的 SharePoint 位置                   |如果将 Set-CsTeamsMeetingPolicy -ChannelRecordingDownload 设置为允许（默认），则单击“录制”的成员具有对录制内容的编辑权限。 其他每个成员的权限都基于频道 SharePoint 权限。<Br><Br>如果将 Set-CsTeamsMeetingPolicy -ChannelRecordingDownload 设置为阻止，则频道所有者将对录制内容具有完全权限，但频道成员将仅具有读取权限，而无法下载。|
 
 <a name="temp-storage"></a>
-### <a name="temporary-storage-when-unable-to-upload-to-onedrive-for-business-and-sharepoint-online"></a>无法上传到 OneDrive for Business 和 SharePoint Online 时的临时存储
+### <a name="temporary-storage-when-unable-to-upload-to-onedrive-and-sharepoint"></a>无法上传到 OneDrive 和 SharePoint 时的临时存储
 
-如果会议录制内容无法上传到 OneDrive for Business 和 SharePoint Online，则将在删除之前的 21 天内可以暂时从 Teams 下载。 目前管理员无法对其进行控制和管理，也无法将其删除。
+如果会议录制内容无法上传到 OneDrive 和 SharePoint，则将在删除之前的 21 天内暂时可从 Teams 下载。 目前管理员无法对其进行控制和管理，也无法将其删除。
 
 会议录制内容可能由于以下原因存储在此临时存储中：
 
-- 对于非频道会议，如果用户录制内容未设置 OneDrive for Business 或 OneDrive for Business 已达到其存储配额
-- 对于频道会议，如果 SharePoint Online 网站已达到其存储配额，或网站尚未预配
-- 如果启用了特定的 OneDrive for Business 和 SharePoint Online 策略，则限制用户在不在特定 IP 范围内时上传文件，等等。
+- 对于非频道会议，如果正在录制的用户没有 OneDrive 或其 OneDrive 已达到其存储配额
+- 对于频道会议，如果 SharePoint 网站已达到其存储配额，或网站尚未预配
+- 如果启用了特定的 OneDrive 和 SharePoint 策略，则限制用户在未处于特定 IP 范围内时上传文件等。
 
 因此而进行的录制内容保留是临时存储，受到聊天消息本身的影响。 因此，如果删除录制内容的原始聊天消息，用户将无法访问该录制内容。 有两种方案可能会影响到此情况：
 
@@ -270,7 +270,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 ### <a name="planning-for-storage"></a>存储规划
 
-1 小时录像的大小为 400 MB。 请确保你已了解已录制文件所需的容量，并在 OneDrive for Business 和 SharePoint Online 中有足够的存储空间。  阅读 [设置 OneDrive for Business 的默认存储空间](/onedrive/set-default-storage-space) 和 [管理 SharePoint Online 网站存储限制](/sharepoint/manage-site-collection-storage-limits)，以了解订阅中包含的基本存储空间以及如何购买其他存储空间。
+1 小时录像的大小为 400 MB。 请确保已了解录制文件所需的容量，并在 OneDrive 和 SharePoint 中有足够的可用存储空间。  阅读 [设置 OneDrive 的默认存储空间](/onedrive/set-default-storage-space) 和 [管理 SharePoint 网站存储限制](/sharepoint/manage-site-collection-storage-limits)，以了解订阅中包含的基本存储空间以及如何购买额外存储空间。
 
  <a name="auto-expiration"></a>
 ### <a name="auto-expiration-of-teams-meeting-recordings"></a>Teams 会议录制的自动过期
@@ -283,9 +283,9 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
   
 ## <a name="manage-meeting-recordings"></a>管理会议录制内容
 
-会议录制内容作为视频文件存储在 OneDrive for Business 和 SharePoint Online 中，并遵循这些平台中提供的管理和治理选项。 有关详细信息，请参阅 [SharePoint Online 治理概述](/sharepoint/governance-overview)、[适用于企业的 OneDrive for Business 指南](/onedrive/plan-onedrive-enterprise)，或 [适用于小型企业OneDrive for Business 指南](/onedrive/one-drive-quickstart-small-business)。
+会议录制内容作为视频文件存储在 OneDrive 和 SharePoint 中，并遵循这些平台中提供的管理和治理选项。 有关详细信息，请参阅 [SharePoint 治理概述](/sharepoint/governance-overview)。
 
-对于非频道会议，录制内容存储在录制者的 OneDrive for Business 中，因此在员工离职后所有权处理和保留将遵循常规的 [OneDrive for Business 和 SharePoint Online 流程](/onedrive/retention-and-deletion#the-onedrive-deletion-process)。
+对于非频道会议，录制内容存储在录制者的 OneDrive 中，因此员工离职后所有权和保留的处理将遵循常规的 [OneDrive 和 SharePoint 流程](/onedrive/retention-and-deletion#the-onedrive-deletion-process)。
 
 ## <a name="closed-captions-for-recordings"></a>录制内容的隐藏式字幕
 
@@ -293,7 +293,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 作为所有者，你可以隐藏会议录制内容中的字幕，尽管会议脚本仍可在 Teams 上使用，除非你将其从 Teams 删除。
 
-现在，录制视频文件的隐藏式字幕已关联到 Teams 会议脚本。在大多数情况下，此链接将在文件的生命周期内一直保存，但如果在同一 OneDrive for Business 或 SharePoint Online 网站中复制该视频文件，则链接可能会损坏，这将导致字幕在复制的视频文件上不可用。
+今天,录制内容视频文件的隐藏式字幕已链接到 Teams 会议脚本。 在大多数情况下，此链接将在文件的生命周期内一直保存，但如果在同一 OneDrive 或 SharePoint 网站中复制该视频文件，则链接可能会损坏，这将导致字幕在复制的视频文件上不可用。
 
 将来对 Teams 中脚本和录制内容之间的链接所做的任何更改都将在此处和消息中心通知中进行阐明。 如果将来有任何更改，我们将确保录制时间不到 60 天的录制文件将会议的脚本显示为字幕。
 
@@ -304,9 +304,9 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 ### <a name="ediscovery"></a>电子数据展示
 
-会议录制内容存储在 OneDrive for Business 和 SharePoint Online 中，符合 Microsoft 365 和 Office 365 D 层的要求。 为了支持对会议或通话录制感兴趣的合规性管理员的电子数据展示请求，我们在 Microsoft Teams 的合规性内容搜索功能中提供了录制已完成消息。 合规性管理员可在合规性内容搜索预览中的项目主题行中查找关键字“录像”，找到组织中的会议和通话录像。
+会议录制内容存储在 OneDrive 和 SharePoint 中，符合 Microsoft 365 和 Office 365 D 层的要求。 为了支持对会议或通话录制感兴趣的合规性管理员的电子数据展示请求，我们在 Microsoft Teams 的合规性内容搜索功能中提供了录制已完成消息。 合规性管理员可在合规性内容搜索预览中的项目主题行中查找关键字“录像”，找到组织中的会议和通话录像。
 
-此外，还可以通过电子数据展示搜索 SharePoint Online 和 OneDrive for Business 上的文件来找到会议录制内容视频文件。
+此外，还可以通过电子数据展示搜索 SharePoint 和 OneDrive 上的文件来查找会议录制内容视频文件。
 
 要了解有关电子数据展示的详细信息，请参阅 [Microsoft 365 的电子数据展示解决方案](/microsoft-365/compliance/ediscovery)
 
@@ -316,7 +316,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 ### <a name="microsoft-purview-data-loss-prevention-dlp-policies"></a>Microsoft Purview 数据丢失防护 (DLP) 策略
 
-也可以通过 ProgID 属性将 DLP 策略应用于会议录制文件。 在 SharePoint Online 和 OneDrive for Business 中的文件的 DLP 规则中，条件设置为：
+也可以通过 ProgID 属性将 DLP 策略应用于会议录制文件。 在 SharePoint 和 OneDrive 中文件的 DLP 规则中，将条件设置为：
 
 - Document 属性 = *ProgID*
 - 值 = *Media.Meeting*

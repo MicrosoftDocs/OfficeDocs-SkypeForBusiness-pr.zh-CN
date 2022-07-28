@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
 description: 了解如何使用外部访问和来宾访问在 Microsoft Teams 中与组织外部的人员进行通话和聊天以及查找和添加这些人员。
-ms.openlocfilehash: c2cf4a3820cceacf1f84401161d130995ecbc98f
-ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+ms.openlocfilehash: 829f763c77578fdc9e17a29386ebad30e52f4986
+ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65125477"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67023985"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>使用来宾访问权限和外部访问权限与组织外部的人员进行协作
 
@@ -42,6 +42,11 @@ ms.locfileid: "65125477"
 
 ![外部访问设置的屏幕截图。](media/external-access-federation-settings.png)
 
+外部访问可供以下租户使用：
+
+- 跨商业、GCC 和 GCC High
+- 仅在 DOD 之间
+
 若要配置外部访问，请参阅[管理外部访问](manage-external-access.md)。 
 
 >[!NOTE]
@@ -52,6 +57,12 @@ ms.locfileid: "65125477"
 使用来宾访问将组织外部人员添加到团队，他们可在其中聊天、通话、开会和协作处理文件。 来宾可以获得几乎与本地团队成员相同的 Teams 功能。 有关详细信息，请参阅 [Teams 中的来宾体验](guest-experience.md)。
 
 来宾将作为 B2B 用户添加到组织的 Azure Active Directory，且必须使用他们的来宾帐户登录到 Teams。 这意味着，他们可能需要从自己的组织注销才能登录到你的组织。
+
+来宾访问权限可供以下租户使用：
+
+- 商业和 GCC 之间
+- 仅在 GCC High 之间
+- 仅在 DOD 之间
 
 若要为 Teams 配置来宾访问，请参阅[在团队中与来宾协作](/microsoft-365/solutions/collaborate-as-team)。
 

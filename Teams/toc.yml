@@ -1600,8 +1600,16 @@ items:
             href: easy-policy-setup-edu.md
           - name: Teams 教育版中的家长连接
             href: edu-parents-app.md
-          - name: Teams 教育版中的“职业指导”
-            href: career-coach.md
+          - name: 职业指导
+            items:
+              - name: 职业指导入门
+                href: career-coach.md
+              - name: 设置和配置职业指导
+                href: career-coach-set-up-steps.md
+              - name: 职业指导疑难解答
+                href: career-coach-troubleshoot.md
+              - name: 职业指导资源
+                href: career-coach-resources.md
           - name: 监督 Teams 中的聊天
             href: supervise-chats-edu.md
           - name: 教育见解
@@ -1998,6 +2006,8 @@ items:
             href: complaint-handling-code-for-the-united-kingdom-u-k.md
           - name: 紧急呼叫条款和条件
             href: emergency-calling-terms-and-conditions.md
+      - name: 共享频道错误
+        href: shared-channels-errors.md
       - name: 升级发现调查表
         href: upgrade-plan-journey-discovery-questionnaire.md
       - name: Teams 管理员功能的发行说明

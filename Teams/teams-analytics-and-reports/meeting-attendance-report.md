@@ -17,12 +17,12 @@ description: 从 Teams 内部获取会议出席情况报告。 此报告是对 T
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: ff591bbb48a194dd7924aa329248fb56d7369cee
-ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.openlocfilehash: dd3ee2b46af430be271e5c257132f9b6cc8087eb
+ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66794470"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67023753"
 ---
 # <a name="microsoft-teams-meeting-attendance-report"></a>Microsoft Teams 会议出席情况报告
 
@@ -32,7 +32,7 @@ ms.locfileid: "66794470"
 
 对于教育租户，此报告可用于跟踪学生在在线课程中的出席情况。 例如，教师可以在课程开始时下载出席情况报告，以此简单地执行“滚动呼叫”。 若要了解详细信息，请阅读[在 Teams 中下载出席情况报告](https://support.office.com/article/download-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310)。
 
-管理员可通过设置 Teams 会议策略来控制会议组织者是否可以下载会议出席情况报告。 默认情况下，下载该报告的功能处于关闭状态。 有关如何启用此功能的步骤，请参阅[会议策略设置 - 允许参与报告](../meeting-policies-in-teams-general.md#engagement-report)。
+管理员可通过设置 Teams 会议策略来控制会议组织者是否可以下载会议出席情况报告。 默认情况下，下载该报告的功能处于启用状态。 有关如何禁用此功能的步骤，请参阅 [会议策略设置 - 允许参与报告](../meeting-policies-in-teams-general.md#engagement-report)。
 
 如果会议组织者需要访问比会议中提供的报告更多的会议出席情况数据，则可以分配“*报告读取者*”角色，以便他们可以自行访问 Teams 管理员报告。 若要了解此信息，请阅读[谁可以访问 Teams 活动报告](../teams-activity-reports.md#who-can-access-the-teams-activity-reports)。 
 
