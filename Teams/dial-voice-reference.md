@@ -21,29 +21,29 @@ ms.custom:
 - ms.teamsadmincenter.autoattendants.overview
 - Phone System
 - seo-marvel-apr2020
-description: 了解Teams中的自动助理和呼叫队列拨号和语音识别选项。
-ms.openlocfilehash: 784dcbf16c5122c165dc1a949fa237769c9837d3
-ms.sourcegitcommit: e38dc23e3968f55625e90c8883884045f80d22ee
+description: 了解 Teams 中的自动助理和呼叫队列拨号和语音识别选项。
+ms.openlocfilehash: 93a20be62f09ed7b636c593ecac48927d70e237f
+ms.sourcegitcommit: 55ba3ed53421da6619724a360d15e80262241079
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "66124187"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "67070723"
 ---
 # <a name="auto-attendant-and-call-queue-dialing-and-voice-recognition-reference"></a>自动助理和呼叫队列拨号和语音识别参考
 
-按名称或扩展拨号是一项自动助理功能，使呼叫者能够访问组织中Teams用户。 使用语音或电话键盘呼叫者可以说出或输入要联系的人员的完整或部分姓名或扩展名。 自动助理将搜索公司目录，找到该人员，然后将调用方转移到他们。  按名称拨号或按扩展拨号是在[自动助理中配置呼叫流设置](create-a-phone-system-auto-attendant.md?tabs=call-flow)时设置的选项。
+按名称或扩展拨号是一项自动助理功能，使呼叫者能够访问组织中的 Teams 用户。 使用语音或电话键盘呼叫者可以说出或输入要联系的人员的完整或部分姓名或扩展名。 自动助理将搜索公司目录，找到该人员，然后将呼叫者转移到他们。  按名称拨号或按扩展拨号是在 [自动助理中配置呼叫流设置](create-a-phone-system-auto-attendant.md?tabs=call-flow)时设置的选项。
 
 ## <a name="searching-for-users"></a>搜索用户
 
-Teams使用“按名称拨号”访问的用户 **不需要有电话号码或分配有呼叫计划，但必须为Skype for Business Server用户启用企业语音**。 对于多国家组织，按名称拨号会查找呼叫者，并将呼叫者转移到位于不同国家或地区的Microsoft Teams用户。
+使用“按名称拨号”联系的 Teams 用户 **不需要有电话号码或分配有呼叫计划，但必须企业语音为Skype for Business Server用户启用这些用户**。 对于跨国组织，按名称拨号会查找呼叫者，并将呼叫者转移到位于不同国家或地区的 Microsoft Teams 用户。
 
-使用“按扩展拨号”联系的Teams用户 **不需要有电话号码或分配有呼叫计划，但必须企业语音为Skype for Business Server用户启用这些用户**。 还需要为用户提供适当配置的拨号计划。 对于多国家组织，按扩展拨号会查找呼叫者，并将呼叫者转移到位于不同国家或地区的Microsoft Teams用户。
+使用“按扩展拨号”联系的 Teams 用户 **不需要有电话号码或分配有呼叫计划，但必须企业语音为Skype for Business Server用户启用这些用户**。 还需要为用户提供适当配置的拨号计划。 对于跨国组织，按扩展拨号会查找呼叫者，并将呼叫者转移到位于不同国家或地区的 Microsoft Teams 用户。
 
 根据所涉及的先决条件，在配置自动助理时，必须显式启用按名称或扩展拨号。
 
 ### <a name="maximum-directory-size"></a>目录最大大小
 
-当呼叫者搜索特定人员时，Active Directory 用户按名称拨号和按扩展拨号可以支持的数量没有限制。 调用方可以输入部分或全名 (FirstName + LastName，也可以输入 LastName + FirstName) ，但需要完整的扩展号。 使用语音识别，单个自动助理可以支持的最大名称列表大小为 80，000 个用户。
+当呼叫者搜索特定人员时，Active Directory 用户按名称拨号和按扩展拨号可以支持的数量没有限制。 调用方可以输入部分或全名 (FirstName + LastName，也可以输入 LastName + FirstName) ，但需要完整的扩展号。 单个自动助理可以使用语音识别支持的最大名称列表大小为 80，000 个用户。
   
 |输入类型|搜索格式|组织中的最大用户数|
 |:-----|:-----|:-----|
@@ -90,7 +90,7 @@ Teams使用“按名称拨号”访问的用户 **不需要有电话号码或分
 
 用户可以使用语音搜索组织中的其他人 (语音识别) 。 他们还可以通过说出他们试图找到的人员的完整或部分姓名来联系 Active Directory 中的任何人。 使用语音输入可以识别各种格式的名称，包括 FirstName、LastName、FirstName + LastName 或 LastName + FirstName。
   
-可以为自动助理启用语音识别，但未禁用 DTMF)  (手机键盘条目。 电话键盘条目可以随时使用，即使在自动助理上启用了语音识别。
+可以为自动助理启用语音识别，但未禁用 DTMF (手机键盘条目) 。 即使在自动助理上启用了语音识别，也可以随时使用手机键盘条目。
   
 与电话键盘条目一样，如果找到多个名称，则呼叫者将听到要从中选择的名称列表。
 
@@ -113,11 +113,11 @@ Teams使用“按名称拨号”访问的用户 **不需要有电话号码或分
 
 ### <a name="dial-by-extension"></a>按扩展拨号
 
-要用于 **Dial By Extension 的** 用户需要将扩展指定为 Active Directory (中定义的以下电话属性之一，并通过 Azure AD 连接) 或Azure Active Directory进行同步。  (有关详细信息，请参阅 [单独或批量添加用户](/microsoft-365/admin/add-users/add-users) 。) 
+要用于 **Dial By Extension 的** 用户需要将扩展指定为 Active Directory (中定义的以下手机属性之一，并通过 Azure AD Connect) 或 Azure Active Directory 进行同步。  (有关详细信息，请参阅 [单独或批量添加用户](/microsoft-365/admin/add-users/add-users) 。) 
 
-- OfficePhone/PhoneNumber (AD 和 Azure AD) 
+- PhoneNumber (AD 和 Azure AD) 
 - HomePhone (AD) 
-- Mobile/MobilePhone (AD 和 Azure AD) 
+- 移动 (AD 和 Azure AD) 
 - OtherTelephone (AD) 
 
 在用户电话号码字段中输入扩展所需的格式可以是以下格式之一：
@@ -130,7 +130,11 @@ Teams使用“按名称拨号”访问的用户 **不需要有电话号码或分
 - 示例 2：Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber “+1555555678x5678”
 - 示例 3：Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber “x5678”
 
-可以在[Microsoft 365 管理中心](https://admin.microsoft.com/)或[Azure Active Directory管理中心](https://aad.portal.azure.com)设置扩展。 最多可能需要 12 小时才能向自动助理和呼叫队列提供更改。
+可以在[Microsoft 365 管理中心](https://admin.microsoft.com/)或 [Azure Active Directory 管理中心](https://aad.portal.azure.com)设置扩展。 最多可能需要 12 小时才能向自动助理和呼叫队列提供更改。
+
+> [!NOTE]
+>  如果使用“电话编号”字段定义扩展，Microsoft 建议使用格式 *+\<phone number>;ext=\<extension>*。 如果还为用户分配了 Teams 电话号码，则应以相同的方式定义这两个号码。
+
 
 ## <a name="language-support"></a>语言支持
 
