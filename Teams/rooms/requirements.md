@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 了解支持Microsoft Teams 会议室的要求，包括选择合适的设备、麦克风、扬声器、相机和显示器。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3d8084c1136ef462dcced10b73879d2de2a48671
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: fc7c56ff41eb5d5cab01162468acf6b4dd11b344
+ms.sourcegitcommit: 3f6ae7946b64e857f6358019be2f0fdf19a207ad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66789757"
+ms.lasthandoff: 07/29/2022
+ms.locfileid: "67074640"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams 会议室要求
 
@@ -30,7 +30,7 @@ Microsoft Teams 会议室缩放到不同的房间大小。 Teams 会议室根据
 
 部署涉及资源帐户创建和设置Teams 会议室，如[部署Microsoft Teams 会议室](rooms-deploy.md)中所述。
 
-请参阅：
+指：
 
 - [基于计划的许可证选项：Microsoft Teams 会议室](rooms-licensing.md)
 
@@ -133,8 +133,8 @@ Microsoft Teams 会议室缩放到不同的房间大小。 Teams 会议室根据
 
 可在[会议室系统配件产品展示](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=73&page=1&filterIds=)和 [https://office.com/teamsdevices](https://office.com/teamsdevices) 中找到这些设备。
 
-|Microsoft Teams 会议室外围设备|认证的固件版本 | 相机支持内容相机使用|
-|:--- |:--- | :--- |
+|Microsoft Teams 会议室外围设备|认证的固件版本 | 支持内容相机|智能相机|
+|:--- |:--- | :--- |:--- |
 |[Aver VC520 专业相机 + 免提电话](https://www.averusa.com/products/conference-camera/vc520pro) |1004.35|
 |[Aver VC520 PRO2 会议系统](https://www.averusa.com/products/conference-camera/vc520pro2) | 00.0.7200.79 |
 |[Aver VB342+ 相机声栏](https://www.averusa.com/products/conference-camera/vb342plus) | 声栏：0.0.0000.97|
@@ -158,7 +158,7 @@ Microsoft Teams 会议室缩放到不同的房间大小。 Teams 会议室根据
 |带 Crestron UC-M70-T MTR 工具包的 Huddly L1 相机 | Huddly L1 相机：1.2.1 </br> 使用 ASUS Tek Computer INC 9934 计算 1.0.20.246 或更高版本的 Crestron UC-M70-T |
 |带 Crestron UC-MX70-T MTR 工具包的 Huddly L1 相机 | Huddly L1 相机：1.2.1 </br> Crestron UC-MX70-T 与 ASUS Tek Computer INC 9934 计算 1.0.20.246 或更高版本 |
 |[Jabra Panacast3 相机](https://www.jabra.com/business/video-conferencing/jabra-panacast)|1.3.9.12|
-|[Jabra Panacast 50 视频栏](https://www.jabra.com/business/video-conferencing/jabra-panacast-50)|3.4.0| &#x2714; |
+|[Jabra Panacast 50 视频栏](https://www.jabra.com/business/video-conferencing/jabra-panacast-50)|4.0.15| &#x2714; | &#x2714;|
 |[联想 ThinkSmart Cam 相机](https://www.lenovo.com/us/en/accessories-and-monitors/webcams-and-video/webcams/SMARTOF-BO-ThinkSmart-Cam/p/4Y71C41660)|1.0.111.4|
 |[联想 ThinkSmart Bar](https://www.lenovo.com/us/en/virtual-reality-and-smart-devices/smart-collaboration/thinksmart/ThinkSmart-Bar/p/11SP1TSSDBR)|0.9.3|
 |联想 ThinkSmart Bar Expand XL|5.9.5|
