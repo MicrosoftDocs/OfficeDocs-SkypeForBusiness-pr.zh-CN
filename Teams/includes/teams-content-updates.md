@@ -3,6 +3,29 @@
 
 
 
+## <a name="week-of-july-25-2022"></a>2022 年 7 月 25 日当周
+
+
+| 发布日期 |主题标题 | 更改 |
+|------|------------|--------|
+| 7/25/2022 | [电话号码和许可更改](/MicrosoftTeams/phone-numbers-licensing-changes) | 添加内容 |
+| 7/25/2022 | [Microsoft Teams 中的会议策略和会议过期](/MicrosoftTeams/meeting-expiration) | 修改内容 |
+| 7/25/2022 | [将 Teams 会议室设备注册到托管服务](/MicrosoftTeams/rooms/enroll-a-device) | 修改内容 |
+| 7/25/2022 | [Teams 的浏览器日志和跟踪](/MicrosoftTeams/browser-logs-and-tracing-for-teams) | 添加内容 |
+| 7/25/2022 | [在 Teams 中配置日志文件以进行监视和故障排除](/MicrosoftTeams/log-files) | 修改内容 |
+| 7/26/2022 | [Microsoft Teams 中职业教练集成的资源](/MicrosoftTeams/career-coach-resources) | 添加内容 |
+| 7/26/2022 | [为 Microsoft Teams 设置和配置职业教练](/MicrosoftTeams/career-coach-set-up-steps) | 添加内容 |
+| 7/26/2022 | [Microsoft Teams 职业教练疑难解答](/MicrosoftTeams/career-coach-troubleshoot) | 添加内容 |
+| 7/26/2022 | [Microsoft Teams 中的共享频道错误](/MicrosoftTeams/shared-channels-errors) | 添加内容 |
+| 7/26/2022 | [Microsoft Teams 职业教练入门](/MicrosoftTeams/career-coach) | 修改内容 |
+| 7/26/2022 | [Microsoft Teams 职业教练入门](/MicrosoftTeams/cloud-recording) | 修改内容 |
+| 7/26/2022 | [使用来宾访问权限和外部访问权限与组织外部的人员进行协作](/MicrosoftTeams/communicate-with-users-from-other-organizations) | 修改内容 |
+| 7/26/2022 | [面向客户的合作伙伴管理](/MicrosoftTeams/rooms/multi-tenant-management-customer) | 修改内容 |
+| 7/26/2022 | [合作伙伴的多租户客户管理](/MicrosoftTeams/rooms/multi-tenant-management-partner) | 修改内容 |
+| 7/26/2022 | [向用户分配 Teams 加载项许可证](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses) | 修改内容 |
+| 7/29/2022 | [管理组织的电话号码](/MicrosoftTeams/manage-phone-numbers-landing-page) | 修改内容 |
+
+
 ## <a name="week-of-july-18-2022"></a>2022 年 7 月 18 日当周
 
 
@@ -108,20 +131,3 @@
 | 6/27/2022 | [管理参与者和来宾的会议策略](/MicrosoftTeams/meeting-policies-participants-and-guests) | 修改内容 |
 | 6/28/2022 | [配置会话边框控制器 - 多个租户](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | 修改内容 |
 | 6/29/2022 | [远程管理Microsoft Teams 会议室设备设置](/MicrosoftTeams/rooms/xml-config-file) | 修改内容 |
-
-
-## <a name="week-of-june-20-2022"></a>2022 年 6 月 20 日当周
-
-
-| 发布日期 |主题标题 | 更改 |
-|------|------------|--------|
-| 6/20/2022 | [为 Teams 会议室 配置 ServiceNow](/MicrosoftTeams/rooms/microsoft-teams-rooms-configure-servicenow) | 修改内容 |
-| 6/21/2022 | [管理员在Teams 教育版中设置家长](/MicrosoftTeams/edu-parents-app) | 修改内容 |
-| 6/21/2022 | [自动助理和呼叫队列的 PowerShell cmdlet 参考](/MicrosoftTeams/call-queue-auto-attendant-cmdlets) | 修改内容 |
-| 6/21/2022 | [在 Microsoft Teams 中创建呼叫队列](/MicrosoftTeams/create-a-phone-system-call-queue) | 修改内容 |
-| 6/21/2022 | [在 Microsoft Teams 管理中心管理 Microsoft Power Platform 应用](/MicrosoftTeams/manage-power-platform-apps) | 修改内容 |
-| 6/22/2022 | [使用实时遥测来解决会议质量不佳的问题](/MicrosoftTeams/use-real-time-telemetry-to-troubleshoot-poor-meeting-quality) | 修改内容 |
-| 6/23/2022 | [在 Microsoft Teams 管理中心管理 Microsoft Power Platform 应用](/MicrosoftTeams/manage-power-platform-apps) | 修改内容 |
-| 6/23/2022 | [购买、配置和启用职业教练Microsoft Teams 教育版](/MicrosoftTeams/career-coach) | 修改内容 |
-| 6/23/2022 | [配置运算符连接](/MicrosoftTeams/operator-connect-configure) | 修改内容 |
-| 6/24/2022 | [在 Microsoft Teams 管理中心管理应用](/MicrosoftTeams/manage-apps) | 修改内容 |
