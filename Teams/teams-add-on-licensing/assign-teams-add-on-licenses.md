@@ -16,12 +16,12 @@ ms.reviewer: mikedav
 description: 了解如何为音频会议、电话系统和通话套餐等功能的用户分配 Teams 加载项许可证。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 07196e26f38042b6046d6761bd60dfad64f89c7d
-ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
+ms.openlocfilehash: 1bef1464b94f736a10cc184a2bdb88e2cdf6df88
+ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67023673"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67156970"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>向用户分配 Teams 加载项许可证
 
@@ -54,7 +54,7 @@ ms.locfileid: "67023673"
 
 有关分步说明，请参阅[向用户分配许可证](/microsoft-365/admin/manage/assign-licenses-to-users)。
 
-如果需要为大量用户（例如成百上千的用户）分配许可证，请 [在 Azure Active Directory 中使用 Powershell 或基于组的许可 (Azure AD) ](/azure/active-directory/users-groups-roles/licensing-groups-assign)。
+如果需要为大量用户（例如数百或数千个用户）分配许可证，请 [在 Azure Active Directory 中使用 PowerShell 或基于组的许可 (Azure AD) ](/azure/active-directory/users-groups-roles/licensing-groups-assign)。
 
 ## <a name="using-powershell"></a>使用 PowerShell
 
@@ -142,6 +142,8 @@ ms.locfileid: "67023673"
 | 每个国家/地区的国内通话计划 (每个用户/月 120 分钟)  </br>*此计划在美国中不可用。* | MCOPSTN5 |
 | 每个国家/地区的国内通话计划 (每个用户/月 240 分钟)  </br>*此计划在美国中不可用。* | MCOPSTN6 |
 | 通信点数 | MCOPSTNPP |
+| 区域 1 国家/地区 (即用即付呼叫计划)  | MCOPSTN_PAYG_1 |
+| 区域 2 国家/地区 (即用即付呼叫计划)  | MCOPSTN_PAYG_2 |
 
 ## <a name="related-content"></a>相关内容
 

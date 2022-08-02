@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: 5021087c900141c97e534b521d3789dbe7f5eb72
-ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
+ms.openlocfilehash: 2c47c240da6c25369a6276ee61d4a7b97eda60e4
+ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "66682521"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67156820"
 ---
 # <a name="calling-plans-for-microsoft-365"></a>Microsoft 365 的通话套餐
 
@@ -39,16 +39,18 @@ ms.locfileid: "66682521"
   
 下面是通话套餐选项：
   
-- **国内呼叫计划**：许可用户可以调用位于 Microsoft 365 或Office 365中分配号码的国家/地区。
+- **国内呼叫计划**：许可用户可以调用位于 Microsoft 365 中分配号码的国家/地区。 包括无限制的传入分钟数。 根据购买的许可证包含传出分钟数。
 
-- **国际呼叫计划**：许可用户可以拨打位于其 Microsoft 365 或Office 365许可证的国家/地区，根据用户位置向用户分配号码，以及 [196 个国家/地区的](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md)国际号码。
+- **国际呼叫计划**：许可用户可以根据用户位置向用户分配 Microsoft 365 许可证的国家/地区以及 [196 个国家/地区的](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md)国际号码调用号码。 包括无限制的传入分钟数。 根据购买的许可证包含传出分钟数。
+
+- **即用即付呼叫计划**：许可用户可以根据用户位置向用户分配 Microsoft 365 许可证的国家/地区以及  [196 个国家/地区的](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md)国际号码调用号码。 包括无限制的传入分钟数。 不包括传出分钟数。 所有传出呼叫均根据所用分钟数（通信额度或发薪后计费）收费。
 
 同一国家/地区中的所有用户 (这是在具有相同通话套餐的Microsoft 365 管理中心) 许可区域中定义的用户国家/地区位置，共享一个分钟数池。 例如，如果你有 100 个用户位于分配了 120 分钟的国内通话计划所在的同一国家/地区，则他们共享一个 12，000 分钟的池。 超过这些分钟的所有呼叫每分钟计费。
 
 访问 [国家/地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ，了解每个国家/地区中每个组织每月可用的分钟数。
   
 > [!IMPORTANT]
-> 国家/地区基于用户许可证在 **Microsoft 365 管理中心** > **Active 用户** 中的位置，**而不是****Microsoft 365 管理中心** 中 **“组织配置文件**”下列出的计费地址。 
+> 国家/地区基于用户许可证在 **Microsoft 365 管理中心** > **Active 用户** 中的位置，**而不是****Microsoft 365 管理中心** 中 **“组织配置文件**”下列出的计费地址。
 
 > [!NOTE]
 > 池仅适用于相同的调用计划。
@@ -59,14 +61,14 @@ ms.locfileid: "66682521"
   
 ## <a name="how-to-buy-a-calling-plan"></a>如何购买通话套餐
 
-1. <strong>必须先购买**电话系统</strong>加载项许可证 <strong>。为此，[请登录到Microsoft 365 管理中心](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)，然后选择“</strong>**立即购买** 计费 > **购买服务** > **加载项** > 订阅”。
+1. 必须先购买 **电话系统加载项许可证**。 为此，[请登录到Microsoft 365 管理中心并选择](https://go.microsoft.com/fwlink/p/?linkid=868433)“**立即购买** 计 > 费 **购买服务** > **”附加订阅** > 。
 
     ![显示购买语音呼叫计划的选项的屏幕截图。](media/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
   
     > [!NOTE]
     > 根据你的计划，可能需要购买更多的加载项，然后才能购买电话系统许可证。 若要了解详细信息，请参阅 [Microsoft Teams 加载项许可](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
   
-2. 购买电话系统许可证后，可以通过登录 **到Microsoft 365 管理中心**、选择 **计费** > **购买服务** > **加载项订阅**，然后单击“**立即购买**”来购买通话套餐。 你将在那里看到通话套餐。
+2. 购买电话系统许可证后，可以通过 [登录到Microsoft 365 管理中心并选择计 **费**](https://go.microsoft.com/fwlink/p/?linkid=868433) > **购买服务** > **加载项订阅**，然后选择 **“立即购买**”来购买通话套餐。 你将在那里看到通话套餐。
 
 可以根据组织的需求，购买不同的呼叫计划并将其分配给不同的用户。 选择所需的呼叫计划后，继续签出。 向Microsoft 365 管理中心中的每个用户分配计划。 若要了解如何操作，请参阅 [分配 Microsoft Teams 加载项许可证](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
   
@@ -89,7 +91,7 @@ ms.locfileid: "66682521"
 - [Microsoft Teams 附加许可](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 - [以下是在 Microsoft 365 或 Office 365 中使用电话系统获得的内容](./here-s-what-you-get-with-phone-system.md)
 
-## <a name="related-topics"></a>相关主题
+## <a name="related-articles"></a>相关文章
 
 - [设置 Skype for Business Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
 - [设置云语音邮件 - 管理员帮助](set-up-phone-system-voicemail.md)

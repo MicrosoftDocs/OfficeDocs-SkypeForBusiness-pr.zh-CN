@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: 查看 (哪些 USB 外围设备（例如耳机、免提电话、网络摄像头和监视器）) 通过 Microsoft Teams 认证。
-ms.openlocfilehash: 63813ca51626ae16903b57e56de9b47345f44c10
-ms.sourcegitcommit: 911fdb6df0511b4a4d9e4705799877045a09113c
+ms.openlocfilehash: 003a532331ad7a1c3e88addad3f2f73a8b5b1f61
+ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "66972777"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67156940"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>经 Microsoft Teams 认证的 USB 音频和视频设备
 
@@ -44,7 +44,7 @@ ms.locfileid: "66972777"
 
 - **本机蓝牙认证音频外围设备**  大多数经 Microsoft Teams 认证的蓝牙耳机和免提电话都设计为与 USB 加密机一起使用，以便连接到电脑和 Mac 主机。 许多用户一直要求选择将设备与主机直接配对，因为他们没有足够的 USB 端口，或者他们不想记得在不同位置工作时带 USB 加密机。
 
-    Windows 电脑支持本机蓝牙认证设备，包括耳机和免提电话， (MacOS 可能在将来) 受支持。 设备经过音频性能、呼叫控制和 Teams 按钮集成的测试，无论使用还是不使用 USB 加密机。
+    Windows 电脑支持本机蓝牙认证设备，包括耳机和免提电话， (macOS 可能在将来) 受支持。 设备经过音频性能、呼叫控制和 Teams 按钮集成的测试，无论使用还是不使用 USB 加密机。
 
     本机蓝牙模式下的性能受到主机电脑上的蓝牙无线电的影响，因此建议安装设备和蓝牙收音机的最新固件更新。 一小部分用户可能需要继续使用 USB 加密机，例如在高密度无线电环境中工作时，如果他们的电脑蓝牙被多个配对设备大量使用，或者某些电脑的蓝牙收音机性能不佳。
 
@@ -85,25 +85,26 @@ ms.locfileid: "66972777"
 > [!NOTE]
 > 日期格式为 MMDDYYYY。
 
-| 制造商        | 模型                                                     | 合格      | 认证计划                                      |
+| 制造商        | 型                                                     | 合格      | 认证计划                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
 |Logi                 |Dock 扬声器                                          |7/13/2022       |Microsoft Teams 认证                           |
-|戴尔                 |WB5023 相机                                              |6/29/2022       |Microsoft Teams 认证                           |
+|山谷                 |WB5023 相机                                              |6/29/2022       |Microsoft Teams 认证                           |
 |EPOS                 |ADAPT 560 II 耳机                                       |6/22/2022       |Microsoft Teams 认证                           |
 |EPOS                 |C10/C20/C50 系列耳机                                |5/31/2022       |Microsoft Teams 认证                           |
 |Jabra                |Engage55 Mono/Stereo 耳机                               |5/25/2022       |Microsoft Teams 认证                           |
 |EPOS                 |EXPAND 40T 扬声器                                    |5/24/2022       |Microsoft Teams 认证                           | 
-|戴尔                 |U3223QZ Monitor                                            |5/24/2022       |Microsoft Teams 认证                           |
+|山谷                 |U3223QZ Monitor                                            |5/24/2022       |Microsoft Teams 认证                           |
 |聚                 |Studio P21 Monitor                                         |5/12/2022       |Microsoft Teams 认证                           |
 |Yealink              |UH38 耳机                                               |5/2/2022        |Microsoft Teams 认证                           |   
 |Yealink              |BH72 耳机                                               |5/2/2022        |Microsoft Teams 认证                           |
-|罗技             |区域 True 无线耳塞                                 |5/2/2022        |Microsoft Teams 认证                           |
+|Logitech             |区域 True 无线耳塞                                 |5/2/2022        |Microsoft Teams 认证                           |
 |联想               |转到无线 ANC 耳机                                    |4/11/2022       |Microsoft Teams 认证                           |
 |EPOS                 |ADAPT 661                                                  |3/11/2022       |Microsoft Teams 认证                           |
 |EPOS                 |ADAPT 461T                                                 |3/11/2022       |Microsoft Teams 认证                           |
 |EPOS                 |ADAPT 361                                                  |3/11/2022       |Microsoft Teams 认证                           |
-|戴尔                 |免提电话 SP3022                                        |2/7/2022        |Microsoft Teams 认证                           |
-|戴尔                 |精简会议声栏 SB522A                          |1/25/2022       |Microsoft Teams 认证                           | 
+|山谷                 |免提电话 SP3022                                        |2/7/2022        |Microsoft Teams 认证                           |
+|山谷                 |精简会议声栏 SB522A                          |1/25/2022       |Microsoft Teams 认证                           |
+|聚                 |同步 10                                                    |1/18/2022       |Microsoft Teams 认证                           |
 |联想               |转到有线 ANC 耳机                                       |1/12/2022       |Microsoft Teams 认证                           |
 |联想               |转到有线扬声器                                      |1/10/2022       |Microsoft Teams 认证                           |
 |EPOS                 |IMPACT SDW 5066T                                           |12/1/2021       |Microsoft Teams 认证                           |
@@ -117,21 +118,21 @@ ms.locfileid: "66972777"
 |聚                 |旅行者 4320 和旅行者 Office 基地                       |10/20/2021      |Microsoft Teams 认证                           |
 |聚                 |旅行者 4310 和旅行者 Office 基地                       |10/20/2021      |Microsoft Teams 认证                           |
 |Jabra                |Evolve 2 75 耳机                                        |10/8/2021       |Microsoft Teams 认证                           |
-|罗技             |区域有线耳塞                                         |9/2/2021        |Microsoft Teams 认证                           |
+|Logitech             |区域有线耳塞                                         |9/2/2021        |Microsoft Teams 认证                           |
 |AudioCodes           |RXVCam10                                                   |8/26/2021       |Microsoft Teams 认证                           |
 |聚                 |旅行者 4320                                               |8/6/2021        |Microsoft Teams 认证                           |
 |聚                 |旅行者 4310                                               |8/6/2021        |Microsoft Teams 认证                           |
 |EPOS/Sennheiser      |ADAPT 160T ANC                                             |6/24/2021       |Microsoft Teams 认证                           |
-|戴尔                 |Ultrasharp Webcam WB7022                                   |6/16/2021       |Microsoft Teams 认证                           |
+|山谷                 |Ultrasharp Webcam WB7022                                   |6/16/2021       |Microsoft Teams 认证                           |
 |NEC                  |WD551 Windows 协作显示                        |5/21/2021       |Microsoft Teams 认证                           |
 |聚                 |EncorePro 520 和 DA85-M                                   |4/26/2021       |Microsoft Teams 认证                           |
 |聚                 |EncorePro 510 和 DA85-M                                   |4/26/2021       |Microsoft Teams 认证                           |
 |聚                 |EncorePro 525-M                                            |4/26/2021       |Microsoft Teams 认证                           |
 |聚                 |EncorePro 515-M                                            |4/26/2021       |Microsoft Teams 认证                           |
-|戴尔                 |WL7022 顶级无线 ANC 耳机                        |4/22/2021       |Microsoft Teams 认证                           |
-|戴尔                 |WL5022 专业无线耳机                                |4/22/2021       |Microsoft Teams 认证                           |
-|戴尔                 |WH3022 Pro Wired 耳机                                   |4/22/2021       |Microsoft Teams 认证                           |
-|罗技             |C920e Webcam                                               |4/22/2021       |Microsoft Teams 认证                           |
+|山谷                 |WL7022 顶级无线 ANC 耳机                        |4/22/2021       |Microsoft Teams 认证                           |
+|山谷                 |WL5022 专业无线耳机                                |4/22/2021       |Microsoft Teams 认证                           |
+|山谷                 |WH3022 Pro Wired 耳机                                   |4/22/2021       |Microsoft Teams 认证                           |
+|Logitech             |C920e Webcam                                               |4/22/2021       |Microsoft Teams 认证                           |
 |聚                 |Studio P5 Webcam                                           |4/22/2021       |Microsoft Teams 认证                           |
 |Jabra                |Biz 2400 II                                                |4/22/2021       |Skype for Business升级到 Microsoft Teams      |
 |Jabra                |Biz 2300                                                   |4/22/2021       |Skype for Business升级到 Microsoft Teams      |
@@ -154,16 +155,16 @@ ms.locfileid: "66972777"
 |Yealink              |WH63 DECT 耳机                                          |12/23/2020      |Microsoft Teams 认证                           |
 |Yealink              |WH62 双/Mono DECT 耳机                                |12/23/2020      |Microsoft Teams 认证                           |
 |EPOS/Sennheiser      |调整 100 系列耳机                                  |12/22/2020      |Microsoft Teams 认证                           |
-|戴尔                 |Pro 立体声耳机 - UC350                                 |12/21/2020      |Skype for Business升级到 Microsoft Teams      |
-|戴尔                 |Pro 立体声耳机 - UC150                                 |12/21/2020      |Skype for Business升级到 Microsoft Teams      |
+|山谷                 |Pro 立体声耳机 - UC350                                 |12/21/2020      |Skype for Business升级到 Microsoft Teams      |
+|山谷                 |Pro 立体声耳机 - UC150                                 |12/21/2020      |Skype for Business升级到 Microsoft Teams      |
 |联想               |Pro Wired VoIP 立体声耳机                              |12/21/2020      |Skype for Business升级到 Microsoft Teams      |
 |聚                 |Savi Office 7320                                           |12/18/2020      |Microsoft Teams 认证                           |
 |聚                 |Savi Office 7310                                           |12/18/2020      |Microsoft Teams 认证                           |
 |Jabra                |Evolve 75e Headset                                         |12/16/2020      |Skype for Business升级到 Microsoft Teams      |
 |Jabra                |Evolve 65e Headset                                         |12/16/2020      |Skype for Business升级到 Microsoft Teams      |
-|戴尔                 |C3422WE Monitor                                            |12/11/2020      |Microsoft Teams 认证                           |
-|戴尔                 |C2722DE Monitor                                            |12/11/2020      |Microsoft Teams 认证                           |
-|戴尔                 |C2422HE Monitor                                            |12/11/2020      |Microsoft Teams 认证                           |
+|山谷                 |C3422WE Monitor                                            |12/11/2020      |Microsoft Teams 认证                           |
+|山谷                 |C2722DE Monitor                                            |12/11/2020      |Microsoft Teams 认证                           |
+|山谷                 |C2422HE Monitor                                            |12/11/2020      |Microsoft Teams 认证                           |
 |聚                 |将 20 + 扬声器与 Poly BT600 USB Dongle 同步          |11/9/2020       |Microsoft Teams 认证                           |
 |聚                 |同步 20 扬声器                                       |11/9/2020       |Microsoft Teams 认证                           |
 |Jabra                |Evolve 65t Headset                                         |10/31/2020      |Skype for Business升级到 Microsoft Teams      |
@@ -215,9 +216,9 @@ ms.locfileid: "66972777"
 | EPOS/Sennheiser     | 影响 SC 660 USB MS                                      | 4/9/2020       | Skype for Business升级到 Microsoft Teams     |
 | EPOS/Sennheiser     | 影响 SC 660 ANC USB                                     | 4/9/2020       | Skype for Business升级到 Microsoft Teams     |
 | EPOS/Sennheiser     | 影响 SC 665 USB                                         | 4/9/2020       | Skype for Business升级到 Microsoft Teams     |
-| 罗技            | 区域无线                                             | 4/8/2020       | Microsoft Teams 认证                          |
+| Logitech            | 区域无线                                             | 4/8/2020       | Microsoft Teams 认证                          |
 | 聚                | 旅行者 8200 耳机                                      | 3/26/2020      | Skype for Business升级到 Microsoft Teams     |
-| 罗技            | 区域有线                                                | 3/26/2020      | Microsoft Teams 认证                          |
+| Logitech            | 区域有线                                                | 3/26/2020      | Microsoft Teams 认证                          |
 | Jabra               | Evolve2 40 耳机                                        | 3/26/2020      | Microsoft Teams 认证                          |
 | 聚                | 旅行者 6200 耳机                                      | 3/23/2020      | Skype for Business升级到 Microsoft Teams     |
 | 聚                | 旅行者 4245 Office                                       | 3/23/2020      | Microsoft Teams 认证                          |
@@ -235,7 +236,7 @@ ms.locfileid: "66972777"
 | 聚                | Blackwire 3325-M                                          | 03/05/2020     | Microsoft Teams 认证                          |
 | 聚                | Calisto 3200-M                                            | 01/27/2020     | Microsoft Teams 认证                          |
 | Crestron            | CCS-UCA-MIC                                               | 12/18/2019     | Microsoft Teams 认证                          |
-| 森海塞尔          | SP 30T                                                    | 12/05/2019     | Microsoft Teams 认证                          |
+| Sennheiser          | SP 30T                                                    | 12/05/2019     | Microsoft Teams 认证                          |
 | Polycom             | Elara                                                     | 11/06/2019     | Microsoft Teams 认证                          |
 | Polycom             | Studio Soundbar                                           | 10/18/2019     | Microsoft Teams 认证                          |
 | Yealink             | UVC30                                                     | 10/18/2019     | Microsoft Teams 认证                          |

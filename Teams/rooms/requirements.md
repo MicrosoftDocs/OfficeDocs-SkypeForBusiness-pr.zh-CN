@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 了解支持Microsoft Teams 会议室的要求，包括选择合适的设备、麦克风、扬声器、相机和显示器。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fc7c56ff41eb5d5cab01162468acf6b4dd11b344
-ms.sourcegitcommit: 3f6ae7946b64e857f6358019be2f0fdf19a207ad
+ms.openlocfilehash: 271e75787c9659dc453eeb1d6f3260aa7bd0dd3b
+ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/29/2022
-ms.locfileid: "67074640"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67156810"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams 会议室要求
 
@@ -82,6 +82,8 @@ Microsoft Teams 会议室缩放到不同的房间大小。 Teams 会议室根据
   |[HP Elite Slice for Meeting Rooms G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5 |8 GB |128 GB |
   |[带 Microsoft Teams 会议室的 HP Elite Slice G2 Audio Ready](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) |Core i5 |8 GB |128 GB |
   |[HP 切片合作伙伴已准备好使用 Logitech TAP]( https://www.logitech.com/video-collaboration/partners/hp.html)|Core i5|8 GB|128 GB| 
+  |[具有Microsoft Teams 会议室的 HP 状态小型空间解决方案](https://www.hp.com/us-en/solutions/presence.html)|Core i5|8 GB|128 GB|
+  |[具有 Microsoft Teams 会议室 的 HP 状态小型空间解决方案加上 AI 相机](https://www.hp.com/us-en/solutions/presence.html)|Core i5|8 GB|128 GB|
   | Lenovo ThinkSmart Hub 500 |Core i5 |8 GB |128 GB |
   |[联想思想智能中心](https://news.lenovo.com/pressroom/press-releases/new-thinksmart-hub-collaboration-solution-from-lenovo-helps-organizations-embrace-hybrid-working-model/) |Core i5 |8 GB |128 GB|
   |联想 ThinkSmart Core 工具包 |Core i5|8 GB|128 GB|
@@ -148,6 +150,7 @@ Microsoft Teams 会议室缩放到不同的房间大小。 Teams 会议室根据
 |[带天花板麦克风的 Biamp Devio SCR-20CX Web-Based会议中心](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) |2.2.0.9|
 |[使用桌面麦克风将 Biamp Devio SCR-20TX Web-Based会议中心](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) |2.2.0.9 |
 |[Crestron Huddly IQ](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/CCS-CAM-USB-F-400)   | 1.02.09.33901  | 
+|HP 状态查看相机| 1.0.23.0 |
 |[Huddly Canvas](https://www.huddly.com/blog/say-hello-to-huddly-canvas-our-latest-ai-technology-for-content-capture-and-enhancement/) | 1.3.25 |  &#x2714; |
 |[Huddly IQ](https://www.huddly.com/conference-cameras/iq/) |1.3.22|
 |[Huddly IQ Lite](https://www.huddly.com/conference-cameras/iq/) |1.3.29|
