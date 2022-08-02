@@ -19,17 +19,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b3c4ff65fb87bed077e1020764382314d5d15c62
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.openlocfilehash: 78aaad6506a7130d336d3847c55e0c0ec08c4450
+ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562431"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67156781"
 ---
 # <a name="cortana-voice-assistance-in-teams"></a>Teams 中的 Cortana 语音协助
 
 > [!NOTE]
-> 适用于 iOS 和 Android 的 Microsoft Teams 移动应用支持 Cortana 语音帮助，Microsoft Teams 为美国、英国、加拿大、印度和澳大利亚的用户显示。 Windows 上的Microsoft Teams 会议室仅支持区域设置为 en-us 的设备。 Cortana 语音协助目前不适用于 GCC、GCC-High、DoD 和非美国 EDU 租户。 Teams 移动应用中的 Cortana 语音协助现在适用于 EN-US 中的 EDU 客户。 在将来的版本中，将扩展到其他语言和区域。
+> 适用于 iOS 和 Android 的 Microsoft Teams 移动应用、Microsoft Teams 显示和 Windows 上的Microsoft Teams 会议室支持 Cortana 语音帮助，适用于美国、英国、加拿大、印度和澳大利亚的用户。 Teams 移动应用中的 Cortana 语音协助现在适用于 EN-US 中的 EDU 客户。 在将来的版本中，将扩展到其他语言和区域。 Cortana 语音协助目前不适用于 GCC、GCC-High、DoD 和非美国 EDU 租户。
 
 在 Teams 移动应用、Windows Microsoft Teams 会议室和 Microsoft Teams 显示设备上的 Cortana 语音协助使Microsoft 365 企业版用户能够使用口语自然语言简化通信、协作和会议相关任务。 用户可以通过选择 Teams 移动应用右上角的麦克风按钮，或在 Microsoft Teams 会议室或使用 Microsoft Teams 显示器时说出“Cortana”，与 Cortana 交谈。 若要快速与团队进行免提连接，并且在外出时，用户可以说出诸如“呼叫 Megan”或“向下一次会议发送消息”之类的查询。 用户还可以通过说“加入我的下一次会议”来加入会议，并使用语音帮助来共享文件、检查其日历等。 这些语音协助体验是使用 [Cortana 企业级服务](/microsoft-365/admin/misc/cortana-integration)提供的，这些服务完全符合Office 365的隐私、安全和合规性承诺，如[在线服务条款 (OST) ](https://www.microsoft.com/licensing/product-licensing/products?rtc=1&preserve-view=true)所反映。
 
@@ -125,7 +125,7 @@ PS C:\> Set-CsTeamsCortanaPolicy -Identity EmployeeCortanaPolicy -CortanaVoiceIn
 如果你使用的是联想中心 500，或者有以下任何设备连接到你的会议室，则可以启用 Cortana _语音激活_ ：
 
 - Jabra Panacast 50
-- Rally 麦克风
+- Logi Rally Plus 会议系统
 - Bose 视频栏 VB1
 - EPOS EXPAND 捕获 5
 - Yealink MSpeech

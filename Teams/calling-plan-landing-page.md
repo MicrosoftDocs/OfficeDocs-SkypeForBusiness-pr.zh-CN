@@ -18,12 +18,12 @@ description: 确定哪种 Microsoft 电话系统呼叫计划最适合在 Teams �
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e11c6f6cbb53808ba259afd90420ac9855c9731d
-ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
+ms.openlocfilehash: 0040814b12e98c4f44d1dff5939651938580fa4d
+ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "66682471"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67156550"
 ---
 # <a name="which-calling-plan-is-right-for-you"></a>哪种通话套餐适合你？
 
@@ -43,18 +43,19 @@ ms.locfileid: "66682471"
 
 若要将 Microsoft 用作电话运营商，需要获取通话套餐许可证并将其分配给电话系统用户。
 
-有两种类型的通话套餐可用：
+有三种类型的通话套餐可用：
 
 - 国内通话套餐
 - 国际通话套餐
+- 即用即付呼叫计划
 
-|询问你自己|操作 |
-|------------|-------|
-|通话套餐是否在我的区域中可用？ 哪些用户位置将具有呼叫计划服务？ | 有关详细信息，请参阅 [音频会议和通话套餐的国家/地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。 |
-我的用户是否需要国际呼叫？ | 有关详细信息，请参阅 [Microsoft 365 或 Office 365 的通话套餐](calling-plans-for-office-365.md)。 |
-我的用户是否具有通话套餐许可证？ | 若要购买和分配许可证，请参阅 [步骤 2：购买和分配许可证](set-up-calling-plans.md#step-2-buy-and-assign-licenses)。 |
-我的用户是否都有直接向内拨号 () 电话号码？ | 若要获取电话号码，请参阅 [步骤 3：获取电话号码](set-up-calling-plans.md#step-3-get-phone-numbers)。 |
-|||
+| 询问你自己 | 操作 |
+|--------------|--------|
+| 通话套餐是否在我的区域中可用？ 哪些用户位置将具有呼叫计划服务？ | 有关详细信息，请参阅 [音频会议和通话套餐的国家/地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。 |
+| 我的用户是否需要国际呼叫？ | 有关详细信息，请参阅 [Microsoft 365 或 Office 365 的通话套餐](calling-plans-for-office-365.md)。 |
+| 如果我的某些用户未进行大量传出呼叫，则即用即付呼叫计划是否是他们最经济的选择？ | 有关详细信息，请参阅 [Microsoft 365 或 Office 365 的通话套餐](calling-plans-for-office-365.md)。 |
+| 我的用户是否具有通话套餐许可证？ | 若要购买和分配许可证，请参阅 [步骤 2：购买和分配许可证](set-up-calling-plans.md#step-2-buy-and-assign-licenses)。 |
+| 我的用户是否都有直接向内拨号 () 电话号码？ | 若要获取电话号码，请参阅 [步骤 3：获取电话号码](set-up-calling-plans.md#step-3-get-phone-numbers)。 |
 
 ### <a name="transfer-phone-numbers-to-microsoft-365-or-office-365"></a>将电话号码传输到 Microsoft 365 或Office 365
 

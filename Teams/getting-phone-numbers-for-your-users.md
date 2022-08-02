@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 了解如何获取 Teams 的新号码、端口号码或传输现有号码，以及如何向用户显示更改。
-ms.openlocfilehash: 18dd5a84110dc25721d9f8c027dffe861d29cbd1
-ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
+ms.openlocfilehash: b0ed990cd16a7e4878c2819a95fac29f46a9d770
+ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "66682541"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67156540"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>为用户获取电话号码
 
@@ -42,31 +42,34 @@ ms.locfileid: "66682541"
   
 > [!NOTE]
 > 如果需要帮助为组织设置电话号码，请[联系企业产品支持联系人 - 管理员帮助](/microsoft-365/admin/contact-support-for-business-products)。
+
 ## <a name="get-new-phone-numbers-for-your-users"></a>为用户获取新电话号码
 
- **使用 Microsoft Teams 管理中心**
+**使用 Microsoft Teams 管理中心**
 
 必须是 Teams 服务管理员才能管理这些策略。 请参阅 [Teams 管理员角色管理 Teams](./using-admin-roles.md) ，了解管理员角色和权限。
 
 1. 转到 Microsoft Teams 管理员中心。
 
-2. 在左侧导航栏中，转到 **“语音** > **电话号码**”，然后单击 **“添加**”。
+2. 在左侧导航栏中，转到 **语音** > **电话号码**，然后选择 **“添加**”。
 
 3. 输入订单的名称并添加说明。
 
 4. 在“位置和数量”页上，执行以下操作：
     1. 在 **“国家或地区**”下，选择一个国家或地区。
     2. 在 **“数字”类型** 下，选择 **“用户 (订阅服务器)**”。
-    3. 在 **“位置”** 下，选择一个位置。 如果需要创建新位置，请单击 **“添加位置**”。
+    3. 在 **“位置”** 下，选择一个位置。 如果需要创建新位置，请选择 **“添加位置**”。
     4. 在 **“区域代码**”下，选择一个区域代码。
-    5. 在 **“数量**”下，输入组织所需的数字数，然后单击 **“下一步** ”选择数字。
+    5. 在 **“数量**”下，输入组织所需的数字数，然后选择 **“下一步** ”以选择数字。
 
 5. 选择所需的数字。 有 10 分钟的时间选择电话号码并下订单。 如果花费超过 10 分钟，电话号码将返回到号码池。
 
-6. 准备好下订单后，单击 **“放置”订单**。
+6. 准备好下订单后，选择 **“放置”订单**。
 
     > [!IMPORTANT]
-    > 用户 (订户) 的电话号码数等于你分配的 **国内通话套餐****和国际通话套餐** 许可证总数乘以 1.1，外加 10 个额外的电话号码。 例如，如果你有 50 个用户与国内通话计划和/或国际通话计划，你可以获取 **65** 个电话号码 **(50 x 1.1 + 10)**。 有关详细信息，请参阅[可以获取多少电话号码？](./how-many-phone-numbers-can-you-get.md) 如果需要获得比这更多的电话号码，请[联系企业产品支持联系人 - 管理员帮助](/microsoft-365/admin/contact-support-for-business-products)。
+    > 用户 (订户) 的电话号码数等于你分配的 **国内通话套餐****和国际通话套餐** 许可证总数乘以 1.1，外加 10 个额外的电话号码。 例如，如果你有 50 个用户与国内通话计划和/或国际通话计划，你可以获取 **65** 个电话号码 **(50 x 1.1 + 10)**。 请注意，如果有即用即付呼叫计划，则每个分配的许可证只能获取 1 个电话号码。
+    >
+    > 有关详细信息，请参阅[可以获取多少电话号码？](./how-many-phone-numbers-can-you-get.md) 如果需要获得比这更多的电话号码，请[联系企业产品支持联系人 - 管理员帮助](/microsoft-365/admin/contact-support-for-business-products)。
   
 ## <a name="port-or-transfer-phone-numbers-from-your-service-provider-or-phone-carrier"></a>将你的服务提供商或电话运营商提供的电话号码转网或转移
   
@@ -76,7 +79,7 @@ ms.locfileid: "66682541"
 
 ## <a name="view-the-phone-numbers-for-your-organization"></a>查看组织的电话号码
 
- **使用 Microsoft Teams 管理中心**
+**使用 Microsoft Teams 管理中心**
 
 在管理中心的左侧导航中，转到 **语音** > **电话号码** 以查看组织的号码，包括位置、号码类型和状态信息。
   
@@ -87,9 +90,9 @@ ms.locfileid: "66682541"
 > [!NOTE]
 > 如果需要获得比这更多的电话号码，请[联系企业产品支持联系人 - 管理员帮助](/microsoft-365/admin/contact-support-for-business-products)。
 
-## <a name="related-topics"></a>相关主题
+## <a name="related-articles"></a>相关文章
 
-[关于转移电话号码的常见问题](./phone-number-calling-plans/port-order-overview.md)
+[转接电话号码常见问题](./phone-number-calling-plans/port-order-overview.md)
 
 [用于通话套餐的不同类型的电话号码](./different-kinds-of-phone-numbers-used-for-calling-plans.md)
 

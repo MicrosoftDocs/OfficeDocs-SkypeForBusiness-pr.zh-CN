@@ -17,12 +17,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何使用反馈策略来控制组织中的 Teams 用户是否可以向 Microsoft 提交有关 Teams 的反馈。
-ms.openlocfilehash: 7fcfa1738f7dbbc0f7c70afec86e9e2f181d6d21
-ms.sourcegitcommit: 8d7a926758971bee491d24f23b1ad14f5e5c6f7f
+ms.openlocfilehash: f9d001fba9503f6d5f2e482a437bc8f38c8ffc7d
+ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/11/2022
-ms.locfileid: "66713340"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67156520"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理反馈策略
 
@@ -60,7 +60,7 @@ ms.locfileid: "66713340"
 
 例如，你希望允许组织中的所有用户发送反馈并接收调查，但培训中的新员工除外。 在此方案中，你将创建一个自定义策略来关闭这两个功能，并将其分配给新员工。 组织中的所有其他用户都会在启用功能后获取全局策略。  
 
-使用 PowerShell 管理反馈策略。 使用 [**New-CsTeamsFeedbackPolicy** cmdlet](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) 创建自定义策略。 使用 **Grant-CsTeamsFeedbackPolicy** cmdlet 将其分配给一个或多个用户或用户组，例如安全组或通讯组。 使用 **Set-CsTeamsFeedbackPolicy** 设置特定标志。
+使用 PowerShell 管理反馈策略。 使用 [**New-CsTeamsFeedbackPolicy** cmdlet](/powershell/module/skype/new-csteamsfeedbackpolicy) 创建自定义策略。 使用 **Grant-CsTeamsFeedbackPolicy** cmdlet 将其分配给一个或多个用户或用户组，例如安全组或通讯组。 使用 **Set-CsTeamsFeedbackPolicy** 设置特定标志。
 
 若要关闭和打开功能，请设置以下参数：
 
@@ -68,7 +68,7 @@ ms.locfileid: "66713340"
 
  - **调查**：将 **receiveSurveysMode** 参数设置为 **启用** ，以允许分配策略的用户接收调查。 若要让用户接收调查并允许他们选择退出，请将参数设置为 **enabledUserOverride**。 在 Teams 中，用户可以转到 **“设置隐私”** > ，并选择是否要参与调查。 将参数设置为 **禁用** 会关闭该功能，分配策略的用户将不会收到调查。
 
- - **电子邮件**：使用 **AllowEmailCollection** 标志添加电子邮件字段。
+ - **Email**：使用 **AllowEmailCollection** 标志添加电子邮件字段。
  - **日志收集**：使用 **AllowLogCollection** 标志为用户添加日志收集选择加入。 日志收集当前仅在移动设备上启用。 有关通过日志共享的数据的更多详细信息，请 [了解详细信息](https://go.microsoft.com/fwlink/?linkid=2168178)。
 
 ## <a name="create-a-custom-feedback-policy"></a>创建自定义反馈策略

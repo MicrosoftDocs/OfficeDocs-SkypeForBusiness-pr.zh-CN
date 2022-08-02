@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 了解 Microsoft Teams 的加载项许可证以及每个许可证的功能。
-ms.openlocfilehash: a44851194543c58fed7f3449fcbe5b4bedbf6074
-ms.sourcegitcommit: 791d0a341ff873145fa893ece05055729b0b8d50
+ms.openlocfilehash: b4c416720a618cff106552126e0f7e1aaa87b1bc
+ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/18/2022
-ms.locfileid: "66838827"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67156800"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Microsoft Teams 加载项许可证
 
@@ -42,7 +42,7 @@ ms.locfileid: "66838827"
 |**Microsoft 365 商务语音** <br/> |Business Voice 是 Microsoft 面向中小企业的语音功能捆绑包，但从 2022 年 3 月 1 日起将不再可供购买。 当前商务语音订阅者可以续订其商务语音许可证，直至 2022 年 6 月 30 日。 <br/> <br/> 如果你是一家中小型企业，建议购买具有 [通话套餐许可证的 Teams 电话](../business-voice/whats-business-voice.md)（如果在你所在的区域中可用）。 <br/> <br/> 或者，可以购买允许连接到首选第三方 PSTN 提供商的Teams 电话标准版许可证。 |
 |**Teams 电话通话通话套餐捆绑包** <br/> |具有通话套餐许可证的 Teams 电话捆绑 Teams 电话系统的 PBX 功能和用于 PSTN 连接的国内呼叫计划。 <br/> |
 |**Teams 电话标准版** <br/> |[Teams 电话系统](../what-is-phone-system-in-office-365.md) 是一种托管电话服务，提供呼叫控制和专用分支交换 (PBX) 功能。 Teams 电话标准版许可证为你提供所有 Teams 电话系统功能，如云语音邮件、呼叫者 ID、呼叫寄存、呼叫转接、自动助理、呼叫队列、呼叫转移和呼叫者 ID。 <br/> <br/>若要了解有关电话系统的详细信息，请参阅 [下面的 Teams 电话系统](../here-s-what-you-get-with-phone-system.md)。 <br/> |
-|**Microsoft Teams 通话套餐** <br/> |如果希望用户能够在组织外部拨打电话号码，可以购买[Microsoft Teams 通话套餐](../calling-plans-for-office-365.md)以 Microsoft 作为 PSTN 提供商连接到 PSTN 电话号码。 有国内通话套餐和国际通话套餐。 <br/> <br/> 若要了解 Teams 通话套餐是否在您的国家或地区可用，请参阅 [音频会议和通话套餐的国家/地区可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。 |
+|**Microsoft Teams 通话套餐** <br/> |如果希望用户能够在组织外部拨打电话号码，可以购买[Microsoft Teams 通话套餐](../calling-plans-for-office-365.md)以 Microsoft 作为 PSTN 提供商连接到 PSTN 电话号码。 有国内通话套餐、国际通话套餐和即用即付呼叫计划。 <br/> <br/> 若要了解 Teams 通话套餐是否在您的国家或地区可用，请参阅 [音频会议和通话套餐的国家/地区可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。 |
 |**通信额度** | 通信信用额度提供每月分钟数池，如果所有通话套餐分钟数在下月初之前使用，也可以用于 PSTN 电话呼叫。 如果想要音频会议、自动助理或呼叫队列的免费号码，则需要 [设置通信额度](../set-up-communications-credits-for-your-organization.md)。 <br/> |
 |**音频会议** <br/> |有时，组织中的人员需要使用电话来呼叫 Teams 会议，而不是他们的计算机。 为与需要使用电话呼叫的与会者安排或主持会议的用户[设置音频会议](../set-up-audio-conferencing-in-teams.md)。 <br/> <br/>要了解你所在国家或地区是否提供视频会议，请参阅 [音频会议和通话套餐的国家/地区可用情况](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。 有关定价信息，请参阅[音频会议定价](https://go.microsoft.com/fwlink/?linkid=799762)。  <br/> <br/>组织现在可以将第三方运算符用于其音频会议号码。 有关详细信息，请参阅[计划运营商连接会议](../operator-connect-conferencing-plan.md)。 <br/>|
 |**Microsoft Teams 会议室** <br/> | Microsoft Teams 会议室是一种额外的 Microsoft Teams 产品，可将视频、音频和内容共享引入会议室。 组织可以为这些功能购买Microsoft Teams 会议室独立许可证。 有关详细信息，请参阅 [Teams 会议室许可](../rooms/rooms-licensing.md)。 <br/>|

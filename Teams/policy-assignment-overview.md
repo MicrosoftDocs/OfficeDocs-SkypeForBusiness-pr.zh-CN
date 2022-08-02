@@ -1,5 +1,5 @@
 ---
-title: 在Teams中分配策略
+title: 在 Teams 中分配策略
 author: mkbond007
 ms.author: mabond
 manager: serdars
@@ -14,24 +14,24 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 了解在Microsoft Teams中为用户和组分配策略和策略包的不同方法。
+description: 了解向 Microsoft Teams 中的用户和组分配策略和策略包的不同方法。
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: c618653199a41bc358f4b2a14bdf1c0e8923d9b7
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+ms.openlocfilehash: 3dec8bf23167c5166302942140fcfe49e9ea3720
+ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646411"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67156510"
 ---
-# <a name="assign-policies-in-teams--getting-started"></a>在Teams中分配策略 – 入门
+# <a name="assign-policies-in-teams--getting-started"></a>在 Teams 中分配策略 - 入门
 
-作为管理员，可以使用策略来控制组织中用户可用的Teams功能。 例如，有调用策略、会议策略和消息传递策略，仅举几例。
+作为管理员，可以使用策略来控制组织中用户可用的 Teams 功能。 例如，有调用策略、会议策略和消息传递策略，仅举几例。
 
 组织具有具有独特需求的不同类型的用户。 创建和分配的自定义策略允许根据这些需求为不同的用户集定制策略设置。
 
-若要轻松管理组织中的策略，Teams提供了多种方法来向用户分配策略。 通过批处理分配将策略直接分配给用户，或者直接分配给用户是其成员的组。 还可以使用策略包向组织中具有类似角色的用户分配策略的预设集合。 选择的选项取决于所管理的策略数以及要向其分配策略的用户数。 全局 (组织范围内的默认) 策略适用于组织中数量最多的用户。 只需将策略分配给那些需要专用策略的用户。
+为了轻松管理组织中的策略，Teams 提供了多种方法来向用户分配策略。 通过批处理分配将策略直接分配给用户，或者直接分配给用户是其成员的组。 还可以使用策略包向组织中具有类似角色的用户分配策略的预设集合。 选择的选项取决于所管理的策略数以及要向其分配策略的用户数。 全局 (组织范围内的默认) 策略适用于组织中数量最多的用户。 只需将策略分配给那些需要专用策略的用户。
 
 本文介绍可为用户分配策略的不同方式，以及何时使用策略的建议方案。
 
@@ -47,7 +47,7 @@ ms.locfileid: "65646411"
 
 如果未直接为用户分配给定类型的策略，则分配给用户所属的组的策略优先。 如果用户是多个组的成员，则对给定策略类型具有最高 ([组分配排名](assign-policies-users-and-groups.md#group-assignment-ranking)) 的策略优先。
 
-在此视觉示例中，用户的有效策略是 Exec Teams和 HD 策略，它相对于用户所属的其他组具有最高的分配排名，并且还分配了相同策略类型的策略。  
+在此视觉示例中，用户的有效策略是 Exec Teams 和 HD 策略，它相对于用户所属的其他组具有最高的分配排名，并且还分配了相同策略类型的策略。  
 
 ![显示从组继承的策略优先级的示意图。](media/assign-policies-example-group.png)
 
@@ -63,14 +63,17 @@ ms.locfileid: "65646411"
 
 在将策略分配给单个用户或组之前，首先 [设置全局 (组织范围的默认) 策略](#set-the-global-policies) ，以便它们适用于组织中数量最多的用户。  设置全局策略后，只需将策略分配给那些需要专用策略的用户。
 
-|执行此操作  |如果。。。  | 使用。。。
+|执行此操作  |如果。。。  | 用。。。
 |---------|---------|----|
-|[向单个用户分配策略](assign-policies-users-and-groups.md#assign-a-policy-to-individual-users)   | 你刚开始Teams，或者只需要向少数用户分配一个或几个策略。 |Teams PowerShell 模块中的Microsoft Teams管理中心或 PowerShell cmdlet
-|[将策略分配给组](assign-policies-users-and-groups.md#assign-a-policy-to-a-group) |根据用户的组成员身份分配策略。 例如，将策略分配给安全组或通讯组列表中的所有用户。| Teams PowerShell 模块中的Microsoft Teams管理中心或 PowerShell cmdlet|
-|[将策略分配给一批用户](assign-policies-users-and-groups.md#assign-a-policy-to-a-batch-of-users)   | 将策略分配给大型用户集。 例如，一次向组织中的数百或数千名用户分配策略。 |Teams PowerShell 模块中的Microsoft Teams管理中心或 PowerShell cmdlet|
-|[向用户分配策略包](assign-policy-packages.md#assign-a-policy-package-to-users)  |将多个策略分配给组织中具有相同或相似角色的特定用户集。 例如，将教育 (教师) 策略包分配给学校中的教师，让他们能够完全访问聊天、通话和会议。 将教育 (中学生) 政策包分配给中学生，以限制某些功能，如私人呼叫。  |Teams PowerShell 模块中的Microsoft Teams管理中心或 PowerShell cmdlet|
-|[将策略包分配给组。](assign-policy-packages.md#assign-a-policy-package-to-a-group)  |将多个策略分配给组织中具有相同或相似角色的一组用户。 例如，将策略包分配给安全组或通讯组列表中的所有用户。 |Microsoft Teams管理中心 (即将在 Teams PowerShell 模块中) 或 PowerShell cmdlet|
+|[向单个用户分配策略](assign-policies-users-and-groups.md#assign-a-policy-to-individual-users)   | 你刚开始使用 Teams，或者只需将一个或几个策略分配给少量用户。 |Teams PowerShell 模块中的 Microsoft Teams 管理中心或 PowerShell cmdlet
+|[将策略分配给组](assign-policies-users-and-groups.md#assign-a-policy-to-a-group) |根据用户的组成员身份分配策略。 例如，将策略分配给安全组或通讯组列表中的所有用户。| Teams PowerShell 模块中的 Microsoft Teams 管理中心或 PowerShell cmdlet|
+|[将策略分配给一批用户](assign-policies-users-and-groups.md#assign-a-policy-to-a-batch-of-users)   | 将策略分配给大型用户集。 例如，一次向组织中的数百或数千名用户分配策略。 |Teams PowerShell 模块中的 Microsoft Teams 管理中心或 PowerShell cmdlet|
+|[向用户分配策略包](assign-policy-packages.md#assign-a-policy-package-to-users)  |将多个策略分配给组织中具有相同或相似角色的特定用户集。 例如，将教育 (教师) 策略包分配给学校中的教师，让他们能够完全访问聊天、通话和会议。 将教育 (中学生) 政策包分配给中学生，以限制某些功能，如私人呼叫。  |Teams PowerShell 模块中的 Microsoft Teams 管理中心或 PowerShell cmdlet|
+|[将策略包分配给组。](assign-policy-packages.md#assign-a-policy-package-to-a-group)  |将多个策略分配给组织中具有相同或相似角色的一组用户。 例如，将策略包分配给安全组或通讯组列表中的所有用户。 |Microsoft Teams 管理中心 (即将在 Teams PowerShell 模块中) 或 PowerShell cmdlet|
 |[将策略包分配给一批用户](assign-policy-packages.md#assign-a-policy-package-to-a-batch-of-users)|将多个策略分配给组织中具有相同或相似角色的一批用户。 例如，使用批量分配将教育 (教师) 策略包分配给学校中的所有教师，使他们能够完全访问聊天、通话和会议。 将教育 (中学生) 政策包分配给一批中学生，以限制某些能力，如私人呼叫。|Teams PowerShell 模块中的 PowerShell cmdlet|
+
+> [!NOTE]
+> 若要取消分配策略，可以为直接分配给策略的所有用户批量删除分配。 若要了解详细信息，请 [批量阅读 Unassign 策略](assign-policies-users-and-groups.md#unassign-policies-in-bulk)。
 
 ## <a name="set-the-global-policies"></a>设置全局策略
 
@@ -78,15 +81,15 @@ ms.locfileid: "65646411"
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 管理中心
 
-1. 在Microsoft Teams管理中心的左侧导航中，转到要更新的策略类型的策略页。 例如，**Teams** >  **Teams** 策略、**MeetingsMeetings** >  策略、**消息传送策略** 或 **VoiceCalling** >  策略。
+1. 在 Microsoft Teams 管理中心的左侧导航中，转到要更新的策略类型的策略页。 例如， **Teams Teams** > **策略**、 **会议** > **策略**、 **消息传递策略** 或 **语音** > **呼叫策略**。
 2. 选择 **全局 (组织范围的默认)** 策略以查看当前设置。
 3. 根据需要更新策略，然后选择 **“应用**”。
 
-![更新Teams管理中心的全局策略。](media/assign-globalpolicy.png)
+![更新 Teams 管理中心的全局策略。](media/assign-globalpolicy.png)
 
 ### <a name="using-powershell"></a>使用 PowerShell
 
-若要使用 PowerShell 设置全局策略，请使用全局标识符。  "开始"菜单查看当前的全局策略以确定要更改的设置。
+若要使用 PowerShell 设置全局策略，请使用全局标识符。  首先，查看当前的全局策略以确定要更改的设置。
 
 ```powershell
 Get-CsTeamsMessagingPolicy -Identity Global
@@ -120,13 +123,13 @@ Set-CsTeamsMessagingPolicy -Identity Global -AllowUserEditMessage $false
 
 ## <a name="view-your-policy-assignments-in-the-activity-log"></a>在活动日志中查看策略分配
 
-将策略分配给Microsoft Teams管理中心中的用户时，可以在[活动日志](https://admin.teams.microsoft.com/activitylog)中查看这些策略分配的状态。 活动日志显示网络记录上传信息、来自Teams管理中心和 PowerShell 的组策略操作，以及过去 30 天内从Teams管理中心) 的 20 多名用户 (批处理策略操作。
+在 Microsoft Teams 管理中心向用户分配策略时，可以在 [活动日志](https://admin.teams.microsoft.com/activitylog)中查看这些策略分配的状态。 活动日志显示网络记录上传信息、Teams 管理中心和 PowerShell 中的组策略操作，以及过去 30 天内从 Teams 管理中心) 的 20 多名用户 (批处理策略操作。
 
 ![“活动日志”页的屏幕截图。](media/Activity_Log.png)
 
 若要在活动日志中查看策略操作，请执行以下操作：
 
-1. 在Microsoft Teams管理中心的左侧导航中，转到 **仪表板**，然后在 **“活动日志**”下选择 **“查看详细信息**”。
+1. 在 Microsoft Teams 管理中心的左侧导航中，转到 **仪表板**，然后在 **“活动日志**”下选择 **“查看详细信息**”。
 2. 你将看到有关每个策略操作的以下信息：
     - **活动**：策略操作的名称。 例如： **组策略分配**
     - **组名称**：策略操作已完成的组的名称。
@@ -150,5 +153,5 @@ Set-CsTeamsMessagingPolicy -Identity Global -AllowUserEditMessage $false
 
 - [将策略分配给用户和组](assign-policies-users-and-groups.md)
 - [将策略包分配给用户和组](assign-policy-packages.md)
-- [使用策略管理Teams](manage-teams-with-policies.md)
+- [使用策略管理 Teams](manage-teams-with-policies.md)
 - [Teams PowerShell 概览](teams-powershell-overview.md)
