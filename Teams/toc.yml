@@ -865,6 +865,8 @@ items:
                 href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
           - name: 运营商连接
             items:
+              - name: 最近更新
+                href: operator-connect-whats-new.md
               - name: 运营商连接计划
                 href: operator-connect-plan.md
               - name: 配置运营商连接
@@ -1622,6 +1624,8 @@ items:
                 href: education-insights-manage-access.md
               - name: 开始使用 Reflect
                 href: reflect.md
+              - name: 了解阅读进度 Insights
+                href: insights-for-reading-progress.md
           - name: Teams 教育版中的分配
             href: expand-teams-across-your-org/assignments-in-teams.md
           - name: 面向教育版管理员的 Teams 资源
