@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 了解哪些桌面和会议电话已通过 Microsoft Teams 认证，以产生最佳结果。
-ms.openlocfilehash: 346ef66bf0c042024f897d30b97fd5afed12d7f7
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 4c2426b2a63feadfc9fc1569efaffbca99771e16
+ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156700"
+ms.locfileid: "67175696"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams 认证的 Android 设备
 
@@ -253,6 +253,7 @@ Microsoft Teams 设备认证计划确保认证设备符合高标准，在整个 
 
 | 设备模型  | 固件版本 | 包含的产品版本 |
 |:--------------|:-----------------|:-------------------------|
+| AudioCodes RXV80 | `1.16.191` | 2022 更新#2A   |
 | Poly Studio X30 | `3.12.0.366027` | 2022 更新 #1   |
 | Poly Studio X50 | `3.12.0.366027` | 2022 更新 #1  |
 | Logi Rallybar    | `1.6.552`         | 2022 更新 #2    |

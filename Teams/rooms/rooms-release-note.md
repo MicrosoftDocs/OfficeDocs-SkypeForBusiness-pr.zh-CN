@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 管理员可以阅读Microsoft Teams 会议室的发行说明，其中列出了Microsoft Teams 会议室的累积改进。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 07b4661df5df7ac766c17a07c2bdd940b3d2cb6b
-ms.sourcegitcommit: 2871c05e00458a0cc76d919ff822b0b354bd1f72
+ms.openlocfilehash: b5630636ce5dc8f26d430e6d883bff0dc2bcc71f
+ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66810104"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67175846"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Microsoft Teams 会议室发行说明
 
@@ -27,7 +27,7 @@ ms.locfileid: "66810104"
 
 Teams 会议室有两种类型的更新：Teams 会议室应用更新和 Teams Web 客户端。 
 
-Teams 会议室应用更新通过 Microsoft Store 或[手动更新](manual-update.md)进行。 更新应用于在设备上本地安装的通用 Windows 平台 (UWP) 应用程序。
+Teams 会议室应用更新通过 Microsoft Store 或[手动更新](manual-update.md)进行。 汇报应用于设备本地安装的通用 Windows 平台 (UWP) 应用程序。
 
 Teams Web 客户端更新通过 Teams Web 应用交付服务进行。 Teams Web 客户端是基于云的服务，不需要更新设备上安装的本地 UWP 应用程序。
 
@@ -39,6 +39,7 @@ Teams 会议室受现代生命周期策略的约束。 有关详细信息，请�
 
 |释放 |发布到 <br/> Microsoft Store |
 |--- |--- |
+|4.13.132.0 |8/2/2022 |
 |4.12.139.0 |7/14/2022 |
 |4.12.138.0 |5/26/2022 |
 |4.12.126.0 |4/27/2022 |
@@ -92,6 +93,29 @@ Teams 会议室受现代生命周期策略的约束。 有关详细信息，请�
 |RTM (1.0.8)  |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft Teams 会议室功能简介和问题解决
+
+### <a name="4131320-822022"></a>4.13.132.0 (2022/8/2) 
+
+在此更新中引入：
+
+- 使用会议 ID 加入 Teams 会议
+- 一对一 Teams 调用<sup>1</sup> 的端到端加密 
+- Teams 会议<sup>2</sup> 中的干扰抑制
+- 共享托盘体验更新
+- 在会议室视频中静音和取消静音状态
+- 默认管理员仅限内容布局的设置  
+- 默认情况下，新式身份验证处于启用状态
+
+ <sup>1</sup> 在为来自 Teams 会议室设备的调用启用端到端加密之前，需要为设备的用户帐户配置策略。 可以从 Teams 管理中心或使用 Teams PowerShell 更新用户的策略。 有关详细信息，请参阅 [为 Teams 会议室用户帐户配置策略。](../teams-end-to-end-encryption.md)
+
+ <sup>2</sup> Teams 会议室在版本 4.12 中添加了对使用管理员替代的干扰抑制的支持。
+
+> [!IMPORTANT]
+> 通过此更新，新的Teams 会议室设备现在默认为在连接到 Microsoft Teams 和Exchange Online时使用新式身份验证。
+>
+> 强烈建议在 8 月底之前为其会议室帐户启用新式身份验证来测试Teams 会议室设备。
+>
+> 此更改有助于为即将在 Exchange Online 中更新做好准备，以便从 2022 年 10 月 1 日开始关闭基本身份验证。 有关详细信息，请参阅 [Exchange Online - 2022 年 5 月更新中的基本身份验证弃](https://techcommunity.microsoft.com/t5/exchange-team-blog/basic-authentication-deprecation-in-exchange-online-may-2022/ba-p/3301866)用。  
 
 ### <a name="4121390-7142022"></a>4.12.139.0 (2022/7/14) 
 
@@ -323,7 +347,7 @@ Teams 会议室受现代生命周期策略的约束。 有关详细信息，请�
 
 在此更新中引入：
 
-- “适用于企业的 Windows 更新”的策略更新
+- “适用于企业的 Windows 汇报”的策略更新
 - 修复了在 Azure Monitor 中显示错误的设备事件报告
 
 ### <a name="43330-1102020"></a>4.3.33.0 (2020/10) 
@@ -460,7 +484,7 @@ Teams 会议室受现代生命周期策略的约束。 有关详细信息，请�
 
 在此更新中引入：
 
-- 使 Microsoft 能够更灵活地管理 Windows 更新的更改。
+- 使 Microsoft 能够更灵活地管理 Windows 汇报的更改。
 - 对最终用户体验没有更改。
 
 ### <a name="311120-06052018"></a>3.1.112.0 (2018/06/05) 

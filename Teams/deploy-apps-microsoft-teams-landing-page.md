@@ -19,26 +19,20 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: a74128c7732d649c33ee50c73255eee956053260
-ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
+ms.openlocfilehash: 8fa6763641edf1b4eff29e16fb7ecdeaa4111edf
+ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66880376"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67156680"
 ---
-# <a name="about-apps-in-microsoft-teams"></a>关于 Microsoft Teams 的应用
+# <a name="understand-microsoft-teams-apps"></a>了解 Microsoft Teams 应用
 
 应用是将工作区工具和服务汇集在一起并与他人协作的好方法。 应用可帮助最终用户在日常任务中提高工作效率、协作性和效率。 组织使用应用与其客户进行连接、提供服务和共享信息。 例如，最终用户在 Teams 中使用固定日历应用快速与他人协作，使用带有机器人功能的应用可以通知用户在 Teams 频道中使用 Web 服务质量的应用，以及用于在频道中共享任务，并向各种最终用户分配任务的应用。
 
-我们在应用商店提供各种经过验证、具有安全性的应用，让最终用户能够使用组织每天所需的工具和服务。 Microsoft Teams 应用是基于 Web 的 SaaS 应用，无需部署。 最终用户只能根据你提供的 [权限](https://admin.teams.microsoft.com/policies/app-permission) 在 Teams 中使用应用。 管理员只需负责对组织用户使用应用进行批准或阻止即可。 可在各个会议、聊天和频道中控制所有用户的应用访问权。
+Teams 应用商店提供各种经过验证、具有安全性应用的大量目录，让最终用户能够使用组织每天所需的工具和服务。 Microsoft Teams 应用是基于 Web 的 SaaS 应用，无需部署。 最终用户只能根据 [你提供的权限](app-policies.md) 在 Teams 中使用应用。 作为管理员，可以使用企业级策略来允许或阻止组织用户的任何应用。 可在各种上下文（如会议、聊天和频道）中控制每个用户的应用可用性。
 
-若要为最终用户提供所需的应用，请继续阅读以了解应用类型，以及用户访问这些应用的位置。 若要详细了解应用的用途，请阅读 [针对最终用户的应用概述](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0)。
-
-<!--- Commenting the previous content as part of this article revamp.
-
-Apps let users find content from their favorite services and share it in Teams. They let you do tasks such as pin services at the top of a channel, automate notifications using bots, or share and assign tasks.
-
---->
+本文可帮助你了解应用的类型以及用户访问这些应用的位置。 若要详细了解应用的用途，请阅读 [针对最终用户的应用概述](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0)。
 
 最终用户可在 Teams 中使用不同类型的应用包括：
 
@@ -49,7 +43,7 @@ Apps let users find content from their favorite services and share it in Teams. 
 
 ## <a name="core-apps"></a>核心应用
 
-默认情况下，某些功能（如活动源、Teams 频道、聊天、日历和通话）是启用状态并已固定，以便最终用户能够轻松访问。 作为管理员，可以使用 [安装策略](/microsoftteams/teams-app-setup-policies)修改默认行为。
+默认情况下，某些 Teams 功能（如活动源、频道、聊天、日历和通话）是启用状态并已固定，以便最终用户能够轻松访问。 作为管理员，可以使用 [安装策略](/microsoftteams/teams-app-setup-policies)修改默认行为。
 
 :::image type="content" source="media/core-apps-pinned1.png" alt-text="核心应用是默认情况下固定在 Teams 中的应用。" lightbox="media/core-apps-pinned2.png":::
 
@@ -69,15 +63,17 @@ Teams自带一组内置应用，包括列表、任务、表扬、审批等。 �
 
 ## <a name="custom-apps"></a>自定义应用
 
-组织中开发人员创建的应用称为自定义应用。 根据组织的具体要求委托开发此类应用，并且你拥有允许或禁止此类应用的控件。 组织中的开发人员可以通过使用 Teams 与 [Microsoft Power Platform](/microsoftteams/platform/samples/teams-low-code-solutions) 的集成，快速构建自定义的低代码解决方案。
+组织中开发人员创建的应用称为自定义应用（或业务线应用）。 组织可以根据组织特定的要求委托创建自定义应用。 你有权为整个组织或特定用户允许或阻止此类应用。 组织中的开发人员可以通过使用 Teams 与 [Microsoft Power Platform](/microsoftteams/platform/samples/teams-low-code-solutions) 集成，快速构建自定义低代码解决方案。
 
 管理员允许使用自定义应用后，最终用户在 Teams 应用商店的左侧导航栏中单击 “**为组织生成** ”即可找到此类应用。
 
 :::image type="content" source="media/built-for-your-org1.png" alt-text="Teams 桌面应用中 Teams 应用商店中自定义应用的屏幕截图。" lightbox="media/built-for-your-org2.png":::
 
+<!--- TBD - new article on custom app overview and sideloading. --->
+
 ### <a name="understand-sideloading-of-custom-apps"></a>了解自定义应用的旁加载
 
-开发自定义应用时，在将自定义应用分发到最终用户之前，开发人员会通过将应用添加到应用商店进行测试，或与旁加载该应用的团队一起测试。 此方法称为应用旁加载，仅适用于自定义应用。
+开发自定义应用时，在将自定义应用分发到最终用户之前，开发人员会通过将应用添加到 Teams 应用商店进行测试。 开发人员可以自行或使用指定的用户组进行测试，但该应用对组织中的其他最终用户不可用。 此方法称为应用旁加载，仅适用于自定义应用。
 
 开发人员可以旁加载应用，使其可供特定团队的成员使用，通常用于测试开发不足的应用。 以这种方式使用应用会将其使用限制为应用开发人员，并且只要管理员允许在 Teams 中旁加载，就不需要管理员批准。 作为管理员，你可以禁止为所有开发人员旁加载应用。
 
