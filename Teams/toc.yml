@@ -117,8 +117,6 @@ items:
         items:
           - name: Teams 管理员培训
             href: itadmin-readiness.md
-          - name: 在 Ignite 的 Teams 会话
-            href: ignite-2020-landing-page.md
           - name: Teams 的最终用户培训
             href: instructor-led-training-teams-landing-page.yml
   - name: 从 Skype for Business 升级
@@ -429,7 +427,7 @@ items:
         href: teams-scoped-directory-search.md
       - name: 常见问题解答：支持远程工作人员
         href: FAQ-support-remote-workforce.md
-      - name: 报告
+      - name: 报表
         items:
           - name: 概述
             href: teams-analytics-and-reports/teams-reporting-reference.md
@@ -1624,7 +1622,7 @@ items:
                 href: education-insights-manage-access.md
               - name: 开始使用 Reflect
                 href: reflect.md
-              - name: 了解阅读进度 Insights
+              - name: 了解有关阅读进度的见解
                 href: insights-for-reading-progress.md
           - name: Teams 教育版中的分配
             href: expand-teams-across-your-org/assignments-in-teams.md
