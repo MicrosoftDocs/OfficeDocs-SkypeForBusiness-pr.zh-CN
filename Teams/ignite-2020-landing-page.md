@@ -8,13 +8,15 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 manager: serdars
+ms.collection:
+- M365-collaboration
 ROBOTS: NOINDEX
-ms.openlocfilehash: 763c65fae26956483f6950a9f573b1b41d7efa9e
-ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
+ms.openlocfilehash: 1dc9c743c6d122b55b69efffca5e9b9d110f2f18
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67175816"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269897"
 ---
 # <a name="teams-sessions-at-ignite-2020"></a>Ignite 2020 的 Teams 会话
 
@@ -92,7 +94,7 @@ ms.locfileid: "67175816"
 |[构建无摩擦应用&使用授权和身份验证功能和 Microsoft Graph 实现无缝采用](https://aka.ms/PR137)|开发具有强大功能的应用，例如单Sign-On (SSO) 、Resource-Specific许可 (RSC) 和精细权限。 IT 管理员可以了解如何利用 Graph API 自动执行应用生命周期/管理。|400|尼克·克莱默|
 
 
-### <a name="industry"></a>工业
+### <a name="industry"></a>行业
 
 | 标题 | 抽象            | 等级| 扬声器 |
 |---|----------|---|---|

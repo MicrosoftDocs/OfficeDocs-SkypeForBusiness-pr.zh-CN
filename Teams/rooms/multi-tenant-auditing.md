@@ -10,26 +10,26 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- m365initiative-meetings
+- Teams_ITAdmin_MTRP
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: TRM 的审核日志记录。
 f1keywords: ''
-ms.openlocfilehash: 3681f50f0e15a7688a944c14e69907ba53dd2817
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: de7f01a3c93dc31ff10c9e00cb3d0f3ef5806cb3
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65676605"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269098"
 ---
 # <a name="audit-logging-in-the-teams-rooms-managed-service"></a>Teams 会议室托管服务中的审核日志记录
 
 Teams 会议室托管 (TRM) 服务中的审核允许你搜索用户和管理员在门户中执行的活动的审核记录。 默认情况下启用此功能。 只有托管服务管理员有权导出，然后查看日志。
 
 > [!NOTE]
-> 在 TRM 服务中执行的操作不会登录Microsoft 365或Office 365审核 
+> 在 TRM 服务中执行的操作不会记录在 Microsoft 365 或Office 365审核中 
 
 ## <a name="exporting-logs"></a>导出日志
 
@@ -37,8 +37,8 @@ Teams 会议室托管 (TRM) 服务中的审核允许你搜索用户和管理员�
 
 **下载日志** 
 
-1. 转到 **设置 >常规>审核日志**。
-1. 若要定义感兴趣的日志的日期范围，请输入 **"开始"菜单日期** 和 **结束日期。**
+1. 转到 **“设置”>常规>审核日志**。
+1. 若要定义感兴趣的日志的日期范围，请输入 **开始日期** 和 **结束日期。**
 
    > [!NOTE]
    > 日志最多只能使用 180 天。

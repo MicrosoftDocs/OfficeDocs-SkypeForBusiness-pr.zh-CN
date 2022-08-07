@@ -16,12 +16,14 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 515dcd3438db958eb09554671ad1fd28195c720d
-ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.collection:
+- M365-voice
+ms.openlocfilehash: 8a3591ea6787fe118399d4f5045465ca88a7b209
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66794570"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268387"
 ---
 # <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>促进用户采用新的在线电话系统
 

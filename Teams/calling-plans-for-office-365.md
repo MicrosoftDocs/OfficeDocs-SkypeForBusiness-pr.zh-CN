@@ -11,6 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
+- m365initiative-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -25,13 +26,13 @@ ms.custom:
 - Licensing
 - LIL_Placement
 - seo-marvel-apr2020
-description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: 2c47c240da6c25369a6276ee61d4a7b97eda60e4
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+description: Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization.
+ms.openlocfilehash: 624b155bb6a114a1b1dbe71220379e4c3d9d7ede
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156820"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269217"
 ---
 # <a name="calling-plans-for-microsoft-365"></a>Microsoft 365 的通话套餐
 

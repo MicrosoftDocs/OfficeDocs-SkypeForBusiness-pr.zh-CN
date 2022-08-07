@@ -13,14 +13,15 @@ ms.localizationpriority: medium
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_Rooms
 description: 了解支持Microsoft Teams 会议室的要求，包括选择合适的设备、麦克风、扬声器、相机和显示器。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 271e75787c9659dc453eeb1d6f3260aa7bd0dd3b
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 4222f0fa1b0e52634e0e12cede50d3d9c5d0bba8
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156810"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268347"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams 会议室要求
 
@@ -30,7 +31,7 @@ Microsoft Teams 会议室缩放到不同的房间大小。 Teams 会议室根据
 
 部署涉及资源帐户创建和设置Teams 会议室，如[部署Microsoft Teams 会议室](rooms-deploy.md)中所述。
 
-指：
+请参阅：
 
 - [基于计划的许可证选项：Microsoft Teams 会议室](rooms-licensing.md)
 

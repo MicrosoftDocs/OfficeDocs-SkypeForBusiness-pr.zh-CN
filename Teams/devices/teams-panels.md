@@ -13,15 +13,16 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-voice
+- Teams_ITAdmin_Devices
 search.appverid: MET150
 ms.localizationpriority: medium
 description: 本文概述了 Microsoft Teams 面板支持的功能。
-ms.openlocfilehash: 313d0b8abbf1dcd703bc617e52173fc7403cc743
-ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.openlocfilehash: 745e592e1c8451a47038c33a9f30d29a7a99d63c
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66794550"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268557"
 ---
 # <a name="microsoft-teams-panels"></a>Microsoft Teams 面板
 

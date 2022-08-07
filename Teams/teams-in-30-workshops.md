@@ -10,7 +10,6 @@ ms.topic: article
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_JourneyFromSfB
-- Teams_ITAdmin_RemoteWorkers
 ms.reviewer: landerl, nsuter
 search.appverid: MET150
 description: 实时交互式研讨会，旨在让你在 30 天内开始使用 Microsoft Teams 并运行。
@@ -20,12 +19,12 @@ ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 ROBOTS: NOINDEX
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aaa02c0db57f253d080cc616ff91ae7fa2a287b5
-ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.openlocfilehash: 29800a84ff3ea74ac384acd2adb950ae979869c3
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66794170"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268157"
 ---
 # <a name="teams-in-30"></a>30 中的 Teams
 <div id="main" class="v2">

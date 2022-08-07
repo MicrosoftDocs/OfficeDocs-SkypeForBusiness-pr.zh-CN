@@ -11,7 +11,6 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
-- m365initiative-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -20,16 +19,16 @@ ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
-- ms.teamsadmincenter.callqueues.overview"
+- ms.teamsadmincenter.callqueues.overview
 - Phone System
 - seo-marvel-apr2020
 description: 了解如何通过 cmdlet 配置呼叫队列
-ms.openlocfilehash: 8d62d3648d35cc302e333c2efa552bb2094cb14d
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: b2439bf6b71fc7381494030c326db88660fa5eaf
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674574"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268797"
 ---
 # <a name="create-a-call-queue-via-cmdlets"></a>通过 cmdlet 创建呼叫队列
 
@@ -51,9 +50,9 @@ ms.locfileid: "65674574"
 
 2. 你拥有租户管理权限
 3. 已购买Microsoft Teams 电话
-4. 已创建下面提到的代理、通讯组列表和Teams通道
+4. 已创建下面提到的代理、通讯组列表和 Teams 通道
 
-注意：下面使用的Teams频道 cmdlet 是公共预览版 Teams PowerShell 模块的一部分。  有关详细信息，请参阅[“安装Teams PowerShell 公共预览版](teams-powershell-install.md)”，另请参阅 [Microsoft Teams PowerShell 发行说明](teams-powershell-release-notes.md)。
+注意：下面使用的 Teams 频道 cmdlet 是 Teams PowerShell 模块的公共预览版的一部分。  有关详细信息，请 [参阅“安装 Teams PowerShell”公共预览版](teams-powershell-install.md) ，并参阅 [Microsoft Teams PowerShell 发行说明](teams-powershell-release-notes.md)。
 
 已安装 MicrosoftTeams 模块的用户应 `Update-Module MicrosoftTeams` 确保安装最新版本。
 
@@ -67,7 +66,7 @@ ms.locfileid: "65674574"
 - 从 PSTN 直接调用：否
 - 语言：美国英语
 - 问候语：无
-- 音乐保留：播放音频文件
+- 保留音乐：播放音频文件
   - 文件名：sales-hold-in-queue-music.wav
 - 呼叫应答：用户
   - Bill@contoso.com
@@ -89,7 +88,7 @@ ms.locfileid: "65674574"
 - 语言：英国英语
 - 问候语：播放音频文件
   - Filename： support-greeting.wav
-- 音乐保留：播放音频文件
+- 保留音乐：播放音频文件
   - 文件名：support-hold-in-queue-music.wav
 - 呼叫应答：支持分发列表
   - Support@contoso.com
@@ -113,7 +112,7 @@ ms.locfileid: "65674574"
 - 从 PSTN 直接调用：没有仅 (内部呼叫) 
 - 语言：法语 FR
 - 问候语：无
-- 音乐保留：默认值
+- 保留音乐：默认
 - 呼叫应答：团队：设施
 - 呼叫应答通道：技术支持
   - 频道所有者：Fred@contoso.com
@@ -129,7 +128,7 @@ ms.locfileid: "65674574"
 
 ## <a name="login"></a>登录
 
-系统将提示输入Teams管理员凭据。
+系统将提示输入 Teams 管理员凭据。
 
 ```powershell
 $credential = Get-Credential

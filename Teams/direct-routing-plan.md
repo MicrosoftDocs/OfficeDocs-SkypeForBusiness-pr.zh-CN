@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: 了解 Microsoft 直接路由如何使你能够将受支持的客户提供的会话边界控制器 (SBC) 连接到电话系统。
-ms.openlocfilehash: fd5f2733fc11511e6cfc2e646c0bb78aff26b522
-ms.sourcegitcommit: 15ec17eff4ad4c962d00b8683513f9b269d82917
+ms.openlocfilehash: f3fe1e9f6f2244c7d33528488f07e66797509d2a
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "66695055"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67267777"
 ---
 # <a name="plan-direct-routing"></a>规划直接路由
 
@@ -151,7 +151,7 @@ SBC 域名必须来自租户域中注册的某个名称。 不能将 \*.onmicros
 |DNS 名称|可用于 SBC FQDN|FQDN 名称示例|
 |:--- |:--- |:--- |
 contoso.com|是|**有效名称：**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.com<br/>europe.contoso.com|
-|contoso.onmicrosoft.com|弱|SBC 名称不支持使用 *.onmicrosoft.com 域
+|contoso.onmicrosoft.com|否|SBC 名称不支持使用 *.onmicrosoft.com 域
 
 假设要使用新域名。 例如，租户已 contoso.com 为在租户中注册的域名，并且你希望使用 sbc1.sip.contoso.com。 必须先在租户的域中注册域名 sip.contoso.com，然后才能将 SBC 与名称 sbc1.sip.contoso.com 配对。 如果在注册域名之前尝试将 SBC 与 sbc1.sip.contoso.com 配对，则会收到以下错误：“无法使用”sbc1.sip.contoso.com“域，因为它未为此租户配置。
 添加域名后，还需要使用 UPN user@sip.contoso.com 创建用户并分配 Teams 许可证。 将域名添加到租户的域、创建新名称的用户以及向用户分配许可证后，可能需要长达 24 小时才能完全预配域名。 
@@ -256,8 +256,8 @@ FQDN sip.pstnhub.gov.teams.microsoft.us 将从以下子网解析为 IP 地址：
 
 |交通|从|到|源端口|目标端口|
 |:--- |:--- |:--- |:--- |:--- |
-|SIP/TLS|SIP 代理|SBC|1024 – 65535|在 SBC (为Office 365 GCC High/DoD 定义的端口 5061 必须) |
-SIP/TLS|SBC|SIP 代理|在 SBC 上定义|5061|
+|SIP/TLS|SIP 代理|Sbc|1024 – 65535|在 SBC (为Office 365 GCC High/DoD 定义的端口 5061 必须) |
+SIP/TLS|Sbc|SIP 代理|在 SBC 上定义|5061|
 ||||||
 
 ### <a name="failover-mechanism-for-sip-signaling"></a>SIP 信号的故障转移机制
@@ -295,8 +295,8 @@ SBC 发出 DNS 查询来解析 sip.pstnhub.microsoft.com。 根据 SBC 位置和
 
 |交通|从|到|源端口|目标端口|
 |:--- |:--- |:--- |:--- |:--- |
-|UDP/SRTP|媒体处理器|SBC|3478-3481 和 49152 – 53247|在 SBC 上定义|
-|UDP/SRTP|SBC|媒体处理器|在 SBC 上定义|3478-3481 和 49152 – 53247|
+|UDP/SRTP|媒体处理器|Sbc|3478-3481 和 49152 – 53247|在 SBC 上定义|
+|UDP/SRTP|Sbc|媒体处理器|在 SBC 上定义|3478-3481 和 49152 – 53247|
 
   > [!NOTE]
   > Microsoft 建议在 SBC 上每次并发调用至少两个端口。
@@ -334,7 +334,7 @@ SBC 发出 DNS 查询来解析 sip.pstnhub.microsoft.com。 根据 SBC 位置和
 在云媒体处理器和 Microsoft Teams 客户端之间，使用 SILK 或 G.722。 此腿上的编解码器选择基于 Microsoft 算法，这些算法考虑了多个参数。 
 
   > [!NOTE]
-  > 不支持媒体重新定位。 在直接路由调用期间，如果 SBC 向 Teams 直接路由发送新媒体 IP，尽管它是在 SIP 信号中协商的，但永远不会从 Teams 直接路由将媒体发送到新的 IP 地址。
+  > 不支持媒体重新定位。 在直接路由呼叫期间，如果 SBC 向 Teams 直接路由发送新的媒体 IP，尽管它是在 SIP 信令中协商的，但媒体永远不会从 Teams 直接路由发送到新的 IP 地址。
 
 ## <a name="supported-session-border-controllers-sbcs"></a>支持的会话边框控制器 (SBC) 
 
@@ -344,6 +344,8 @@ Microsoft 仅支持通过认证的 SBC 与直接路由配对。 由于企业语�
 
 有关支持的 SBC 的详细信息，请参阅 [经直接路由认证的会话边界控制器](direct-routing-border-controllers.md)。
 
+## <a name="support-boundaries"></a>支持边界
+Microsoft 仅在与认证设备一起使用时支持具有直接路由的电话系统。 如果出现问题，必须先联系 SBC 供应商的客户支持。 如果需要，SBC 供应商将通过内部渠道将问题呈报给 Microsoft。 Microsoft 保留在非认证设备通过直接路由连接电话系统的情况下拒绝提供支持的权利。 如果 Microsoft 确定客户的直接路由问题与供应商的 SBC 设备有关，则客户需要重新联系 SBC 供应商以获得支持。
  
 ## <a name="see-also"></a>另请参阅
 

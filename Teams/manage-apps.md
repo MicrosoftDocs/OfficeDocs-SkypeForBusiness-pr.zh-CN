@@ -9,7 +9,6 @@ ms.subservice: teams-apps
 ms.custom: intro-get-started
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: vaibhava
 search.appverid: MET150
@@ -19,12 +18,12 @@ description: 了解如何管理 Teams 应用。 了解如何允许或阻止应�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 51874c55cf9a3e6dd77af40447dcaf6d21932668
-ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
+ms.openlocfilehash: bda9146bf2f5fd8a4b321be498e50e39be8f5965
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67175676"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271837"
 ---
 # <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 管理中心管理 Teams 应用
 

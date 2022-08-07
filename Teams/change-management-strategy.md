@@ -15,12 +15,14 @@ description: 通过确定主要利益干系人、业务成果、成功措施和�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 589294402d093afef8686dd7a376f0d88d7025cb
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.collection:
+- M365-collaboration
+ms.openlocfilehash: f9ed4b0a2ac694b13054818f53bcf64a628d4dd3
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562371"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268777"
 ---
 # <a name="create-a-change-management-strategy-for-microsoft-teams"></a>为 Microsoft Teams 制定变更管理策略
 
@@ -149,4 +151,4 @@ Teams 变更管理最佳实践：
 
 在组织中推动变更是一项持续性的活动，而不是一次性活动。 启动会议只是鼓励用户更高效地协作的开端。 请务必计划此旅程中突出成功、引入新功能以及与整体 Microsoft 365 或Office 365服务策略建立联系（IT 部门将制定这些策略）。 确保你的用户非常投入而不是不知所措，这将减少他们的变更疲劳，并支持他们放弃旧习惯（例如通过电子邮件发送附件），接受新做法（例如将文档存储在云中）。
 
-在 Microsoft 技术社区网站上的[驾驶采用社区](https://techcommunity.microsoft.com/t5/Driving-Adoption/ct-p/DrivingAdoption)中，分享有关 Teams 和 Microsoft 365 或Office 365的服务采用问题。 我们将在你的采用旅程中随时倾听你的意见并为你提供帮助。
+在Microsoft Technical Community网站上的[“驾驶采用”社区](https://techcommunity.microsoft.com/t5/Driving-Adoption/ct-p/DrivingAdoption)中，分享有关服务采用 Teams 和 Microsoft 365 或Office 365的问题。 我们将在你的采用旅程中随时倾听你的意见并为你提供帮助。

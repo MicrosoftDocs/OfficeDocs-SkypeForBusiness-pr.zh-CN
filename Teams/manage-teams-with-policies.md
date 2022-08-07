@@ -10,17 +10,16 @@ search.appverid: ''
 description: 关注 Teams 策略。
 audience: admin
 ms.localizationpriority: medium
-MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b56e617321cea25fe677b7d9a7a00afba0940b07
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.collection:
+- M365-collaboration
+ms.openlocfilehash: acaa1280e00ad2e86a49c2bbd8e7f4464bd0c0e7
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156530"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268757"
 ---
 # <a name="manage-teams-with-policies"></a>使用策略管理 Teams
 
@@ -34,7 +33,7 @@ ms.locfileid: "67156530"
 
 策略可以通过多种不同的方式分配，具体取决于组织尝试完成的操作。 可以在 Teams 管理中心进行和查看分配。
 
-![组策略分配的屏幕截图。](media/group-policy-assignment.png)
+:::image type="content" source="media/group-policy-assignment.png" alt-text="Teams 组策略分配的屏幕截图。" lightbox="media/group-policy-assignment.png":::
 
 在此处详细了解如何[分配策略。](policy-assignment-overview.md)
 
@@ -47,17 +46,17 @@ ms.locfileid: "67156530"
 
 例如，应用设置策略允许用户上传自定义应用、代表用户安装应用，并将应用固定到 Teams 应用栏。 这些策略是在 Teams 管理中心配置的。
 
-![应用设置策略的屏幕截图。](media/app-setup-policy.png)
+:::image type="content" source="media/app-setup-policy.png" alt-text="应用设置策略的屏幕截图。" lightbox="media/app-setup-policy.png":::
 
 此外，会议策略可用于控制 Teams 会议中的音频和视频设置，例如听录、云录制和 IP 音频/视频。
 
-![会议策略的屏幕截图。](media/engineering-meeting-policy.png)
+:::image type="content" source="media/engineering-meeting-policy.png" alt-text="会议策略的屏幕截图。" lightbox="media/engineering-meeting-policy.png":::
 
 ### <a name="teams-for-education"></a>Teams 教育版
 
 还可以使用[Teams 教育版策略向导](easy-policy-setup-edu.md)轻松设置和管理学习环境的策略。
 
-![Teams 教育版策略向导的屏幕截图。](media/easy-policy-setup-quick-setup.png)
+:::image type="content" source="media/easy-policy-setup-quick-setup.png" alt-text="Teams 教育版策略向导的屏幕截图。" lightbox="media/easy-policy-setup-quick-setup.png":::
 
 ## <a name="types-of-policies"></a>策略类型
 

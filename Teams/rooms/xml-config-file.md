@@ -13,15 +13,16 @@ ms.localizationpriority: medium
 ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_Rooms
 ms.custom:
 - seo-marvel-mar2020
 description: 远程管理Microsoft Teams 会议室设备使用的默认设置，包括应用自定义主题和创建主设置文件。
-ms.openlocfilehash: b31c6519c04070c644d297071b07cc75c7dfc0f6
-ms.sourcegitcommit: f5d784df59a8010b390691bbb20c4ea66c46280b
+ms.openlocfilehash: df9cc718ddcedb9745807dadd70c8e1a78748c6f
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67005342"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67272097"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>使用 XML 配置文件远程管理Microsoft Teams 会议室控制台设置
 
@@ -162,7 +163,7 @@ ms.locfileid: "67005342"
 | `<GreenComponent>`                          | 字节 (0-255)                |                | 代表绿色组件。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | `<BlueComponent>`                           | 字节 (0-255)                |                | 代表蓝色组件。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | `<CoordinatedMeetings>`                     | 布尔&#x2777;            | 第一&#x2776; | 协调会议的配置元素的容器。 此元素具有一个属性：<ul><li><b>启用</b> 确定 Teams 是否配置为与其他设备一起参加协调会议。</li></ul>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| `<TrustedAccounts>`                         | String                      |                | 这是每个 Teams 会议室设备或 Surface Hub 的逗号分隔的 UPN 列表，设备应接受来自的会议加入请求，或者应将会议加入请求发送到其中。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| `<TrustedAccounts>`                         | String                      |                | 这是设备应接受会议加入请求的每个Teams 会议室设备或 Surface Hub 的逗号分隔的 UPN 列表，或者应向其发送会议加入请求。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | `<Settings>`                                | 容器                   |                | 协调会议的配置音频和视频配置元素的容器。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | `<Audio>`                                   | 布尔&#x2777;            |                | 控制Teams 会议室设备上的音频配置。 此元素具有两个属性：<br><ul><li><b>默认</b> 确定会议开始时麦克风将处于活动状态的设备。 只有一个设备 (通常Teams 会议室设备) 可以设置`true`此字段，而其余设备必须设置此字段以避免`false`音频回显和反馈。</li><li><b>启用</b> 确定会议中的参与者是否可以打开或关闭麦克风。 **将音频默认** 设置为`false`的设备应设置`false`此设置，以便参与者不能意外打开麦克风并引起音频回显或反馈。<p>如果 **音频默认** 设置为 `true`“音频”，则忽略 **已启用音频** 的设置，参与者可以静音或取消静音麦克风。</li></ul>                        |
 | `<Video>`                                   | 布尔&#x2777;            |                | 控制Teams 会议室设备上的视频配置。 此元素具有两个属性：<br><ul><li><b>默认</b> 确定在会议开始时相机将处于活动状态的设备。 为了获得最佳体验，我们建议仅将Teams 会议室设备设置为`true``false`所有其他设备。</li><li><b>启用</b> 确定会议中的参与者是否可以打开或关闭相机。 可以在事件参与者希望共享不同视频透视的任何其他设备上将其设置 `true` 为 (例如参与者使用 Surface Hub 白板) 。 如果不希望参与者在设备上打开或关闭相机，请将其设置为 `false`。<p> 如果 **视频默认** 设置为 `true`“视频”，则忽略 **启用视频** 的设置，参与者可以打开或关闭相机。</li></ul> |
@@ -286,7 +287,7 @@ XML 配置文件必须在设备启动时更新以识别主题图像。 处理并
 
 若要设置会议室前显示器的规模和分辨率，请使用容器添加 `<EnableResolutionAndScalingSetting>true</EnableResolutionAndScalingSetting>` 到 XML 配置文件 `<MainFoRDisplay>` 。 如果设备使用双显示器，请也包括 `<ExtendedFoRDisplay>` 容器。 
 
-如果同时使用单个显示器将 Teams 会议室和`<ExtendedFoRDisplay>`容器一起使用`<MainFoRDisplay>`，`<ExtendedFoRDisplay>`则将忽略该容器。 有关详细信息，请参阅上面的示例 XML 和元素表。
+`<MainFoRDisplay>`如果使用单个显示器将两者和`<ExtendedFoRDisplay>`容器一起用于Teams 会议室，`<ExtendedFoRDisplay>`则将忽略该容器。 有关详细信息，请参阅上面的示例 XML 和元素表。
 
 ## <a name="see-also"></a>另请参阅
 

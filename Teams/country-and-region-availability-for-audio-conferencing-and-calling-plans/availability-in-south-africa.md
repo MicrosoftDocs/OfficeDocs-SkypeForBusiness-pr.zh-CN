@@ -24,26 +24,26 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是适用于Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: 7c56d5bb6fd8ee3449b110b21b00000eda9dac55
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+description: 以下是适用于南非的适用于Skype for Business和 Microsoft Teams 的 Microsoft 365 和 Office 365 服务。
+ms.openlocfilehash: 34b45b9cbff9808d94aaeb44611565c6666b46a5
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070571"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270987"
 ---
 # <a name="availability-in-south-africa"></a>在南非的可用性
 
 [查找其他国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或详细了解可以在哪些国家/地区使用音频会议和通话套餐。
 
-以下是适用于Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
+以下是适用于南非的适用于Skype for Business和 Microsoft Teams 的 Microsoft 365 和 Office 365 服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 
 |**功能**|**详细信息**|
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
-|是否会为音频会议自动分配电话号码？  <br/> |是，适用于： <br/><ul><li> 开普达</ul>如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../getting-service-phone-numbers.md)。  <br/> |
+|是否会为音频会议自动分配电话号码？  <br/> |是，适用于： <br/><ul><li> 开普敦</ul>如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../getting-service-phone-numbers.md)。  <br/> |
 |使用“呼叫我”功能的拨出功能  <br/> |可用  <br/> |
    
 ## <a name="phone-system"></a>电话系统
@@ -59,18 +59,18 @@ ms.locfileid: "63070571"
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|是否可购买通话套餐？  <br/> |是  <br/> |
-|通话套餐可用的分钟数。 |每个日历月有四个可用的计划选项： <ul><li>120 分钟国内呼叫计划 </li><li>240 分钟国内呼叫计划</li></li><li>1200 分钟国内呼叫计划 </li></li><li>国内和国际呼叫计划：国内 1200 分钟 -OR- 600 分钟国际呼叫 (以日历月份中首次达到者为准) </li></li></ul>|
-|能否对高级号码进行出站呼叫？  <br/> | 目前不支持。 <br/> |
-|是否可以拨打呼出电话？  <br/> | 到 196 个国家和地区，[包括这些。](users-can-make-outbound-calls-to-these-countries-and-regions.md)<br/> |
+|是否可购买通话套餐？  |是          |   
+|通话套餐可用分钟数。    |每个日历月有五个可用的计划选项： <ul><li>即用即付呼叫计划 </li><li> 120 分钟国内呼叫计划 </li><li> 240 分钟国内呼叫计划 </li><li> 1200 分钟国内呼叫计划 </li><li> 国际呼叫计划：1200分钟的国内或600分钟的国际呼叫 (以日历月) </li></ul>|
+|是否可以对高级号码进行出站调用？  <br/> | 目前不支持。 <br/> |
+|是否可以拨打呼出电话？  <br/> | 到 196 个国家或地区，包括 [这些](users-can-make-outbound-calls-to-these-countries-and-regions.md)国家或地区。<br/> |
 
-如果呼叫计划不可购买，请参阅 [PSTN 连接选项](../pstn-connectivity.md) 了解所有可用选项。
+如果通话套餐不可购买，请参阅所有可用 [选项的 PSTN 连接选项](../pstn-connectivity.md) 。
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服务的收费和免费电话号码
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|你可以获取哪些首都或大城市的收费电话号码？  <br/> |<ul><li>开普达 <li>  D一 <li>  卢森堡 </ul> |
+|你可以获取哪些首都或大城市的收费电话号码？  <br/> |<ul><li>开普敦 <li>  德班 <li>  约翰内斯堡 </ul> |
 |是否提供收费电话号码？  <br/> |是  <br/> |
 |是否提供免费电话号码？  <br/> |是  <br/> |
    

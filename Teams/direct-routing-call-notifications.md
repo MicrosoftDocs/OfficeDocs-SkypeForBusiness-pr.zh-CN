@@ -8,7 +8,6 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 ms.reviewer: filippse
 search.appverid: MET150
@@ -18,36 +17,36 @@ description: 直接路由呼叫通知
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 4af5d65a3d92fbe104b7c998cd8045b6fb52c653
-ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
+ms.openlocfilehash: 4aa8e6a6f75141f7858e2342b65fb59d09326c33
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62457182"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268427"
 ---
 # <a name="manage-call-notifications"></a>管理呼叫通知
 
-本文介绍如何管理直接路由用户的呼叫通知。 可以将呼叫终结点配置为同时Teams第三方专用分支 Exchange (PBX) 或会话边界控制器 (SBC) 。 此设置非常有用，例如，如果要同时向用户的移动电话和桌面电话发送呼叫。   
+本文介绍如何管理直接路由用户的呼叫通知。 可以将呼叫终结点配置为 Teams 和第三方专用分支交换 (PBX) 或会话边界控制器 (SBC) 。 例如，如果要同时向用户的移动电话和桌面电话发送呼叫，此设置非常有用。   
 
-下图中，用户 Irena 有两个终结点：
+在下图中，用户 Irena 有两个终结点：
 
-- Teams终结点
+- Teams 终结点
 - 连接到第三方 SBC 的 SIP 电话
 
-当呼叫到达时，SBC 将分叉直接路由和第三方 SBC 之间的呼叫。
+呼叫到达时，SBC 会分叉直接路由和第三方 SBC 之间的呼叫。
 
 
-![显示分叉终结点的Teams图。](media/direct-routing-call-notification-1.png)
+![显示分叉 Teams 终结点的图示。](media/direct-routing-call-notification-1.png)
 
-如果第三方 SBC (在分叉 2 上接受) ，Teams将生成"未接呼叫"通知。  
+如果第三方 SBC) 在分叉 2 (接受呼叫，Teams 将生成“错过呼叫”通知。  
 
-可以通过将 SBC 配置为在分叉 1 上发送取消来阻止"错过的呼叫"通知，如下所示：
+可通过将 SBC 配置为在 Fork 1 上发送“取消”通知来阻止“错过呼叫”通知，如下所示：
 
-原因：SIP;cause=200;text"Callcompleted else" 
+原因：SIP;cause=200;text“Call completed elsewhere” 
 
-呼叫不会在呼叫详细信息记录中注册，Teams 电话系统成功调用。 该调用将注册为最终 SIP 代码"487"、最终 Microsoft 子代码"540200"和最终 SIP 代码短语"已在其他位置完成呼叫"的"尝试"。   (要查看呼叫详细信息记录，请转到 Teams 管理中心 -> **Analytics and** **ReportsUsage** ->  Reports，然后选择 **PSTN 使用情况**.) 
+呼叫不会在 Teams 电话系统的通话详细信息记录中注册为成功呼叫。 调用将注册为具有最终 SIP 代码“487”、最终 Microsoft 子代码“540200”和最终 SIP 代码短语“调用在其他位置完成”的“尝试”。   (若要查看呼叫详细信息记录，请转到 Teams 管理员中心 ->**分析和报** -> 表 **使用情况报告**，然后选择 **PSTN 使用** 情况.) 
 
 
-下图演示了分叉 1 的 SIP 阶梯，解释了呼叫流以及"取消"消息中的预期原因。 
+下图演示了 Fork 1 的 SIP 阶梯、调用流以及取消消息中的预期原因。 
 
-![关系图显示分叉Teams终结点。](media/direct-routing-call-notification-2.png)
+![图中显示了分叉的 Teams 终结点。](media/direct-routing-call-notification-2.png)

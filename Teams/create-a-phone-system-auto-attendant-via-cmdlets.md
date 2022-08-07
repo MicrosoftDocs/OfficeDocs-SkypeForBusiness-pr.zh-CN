@@ -11,7 +11,6 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
-- m365initiative-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -22,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 了解如何通过 cmdlet 配置自动助理
-ms.openlocfilehash: 4dccd4e5026d78dada222cedf98659cdcd5ce6e5
-ms.sourcegitcommit: 6fb15729b2ff5ca142cb90605f3c98112cb36804
+ms.openlocfilehash: fa52f84f822635505e3d3390855195ba579406f7
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2022
-ms.locfileid: "66744318"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270137"
 ---
 # <a name="create-an-auto-attendant-via-cmdlets"></a>通过 cmdlet 创建自动助理
 
@@ -58,7 +57,7 @@ ms.locfileid: "66744318"
 
 ## <a name="scenario"></a>使用场景
 
-将生成以下自动助理调用流：
+将生成以下自动助理呼叫流：
 
 ![使用 cmdlet 生成的自动助理呼叫流图。](media/create-a-phone-system-auto-attendant-via-cmdlets.png)
 
@@ -143,7 +142,7 @@ $dtr = New-CsOnlineDateTimeRange -Start "01/01/2022" -End "02/01/2022"
 $newyearSchedule = New-CsOnlineSchedule -Name "New Year" -FixedSchedule -DateTimeRanges @($dtr)
 ```
 
-### <a name="create-address-fax-and-email-information-prompt"></a>创建地址、传真和电子邮件信息提示
+### <a name="create-address-fax-and-email-information-prompt"></a>创建地址、传真和Email信息提示
 
 ```PowerShell
 $addressPrompt = New-CsAutoAttendantPrompt -TextToSpeechPrompt "To repeat this information at any time press the * key. Our mailing address is: 123 Main Street, Any town, Any Place, County. Our email address is: info@contoso.com. Our fax number is: 929-555-0151"

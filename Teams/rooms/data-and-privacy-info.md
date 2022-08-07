@@ -11,19 +11,19 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- m365initiative-meetings
+- Teams_ITAdmin_MTRP
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 数据和隐私信息
 f1keywords: Microsoft Teams Rooms Managed Service Data and Privacy Information
-ms.openlocfilehash: 3fa24a1009c5480c308dfc35306286d470178820
-ms.sourcegitcommit: e38776625a3623216b0d5f092fffaff67519b1a6
+ms.openlocfilehash: 5799288005a5d30152a6f810c0aa40d451198390
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66057082"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270297"
 ---
 # <a name="approach"></a>方法
 
@@ -37,7 +37,7 @@ ms.locfileid: "66057082"
 > [!Note]
 > 在使用设备期间，活动日志中可能存在对单个用户的附带引用。
 
-## <a name="who-can-access-data"></a>Who可以访问数据
+## <a name="who-can-access-data"></a>谁可以访问数据
 
 托管服务采取有力措施，帮助保护客户数据免受未经授权人员的不当访问或使用。 这些措施包括限制 Microsoft 人员和分包商的访问。
 
@@ -73,8 +73,8 @@ Microsoft 受数据传输、存储、使用和保留的严格标准约束。 Mic
  
 |类别|详细信息|查询原因|
 | :- | :- | :- |
-|正在进行的数据收集和管理|IP 地址、会议室帐户 (Exchange标识、Skype for Business和/或Teams) 、位置坐标、电子邮件以及门户中与 Microsoft 或软件的通信|标识并连接到管理下的系统;识别、诊断和缓解故障;跟踪使用情况、分析和见解;查询和修复连接状态|
-|临时数据收集和管理|事件日志信息、会议室用户在日志文件中登录的用户活动/标识以及诊断信息、Windows系统查询 (示例：USB 设备列表、电源状态等) |识别、诊断和缓解故障以及使用情况、分析和见解|
+|正在进行的数据收集和管理|IP 地址、会议室帐户的标识 (Exchange、Skype for Business和/或 Teams) 、位置坐标、电子邮件以及门户中与 Microsoft 或软件的通信|标识并连接到管理下的系统;识别、诊断和缓解故障;跟踪使用情况、分析和见解;查询和修复连接状态|
+|临时数据收集和管理|事件日志信息、来自登录日志文件的会议室用户的活动/标识以及诊断信息、Windows 系统查询 (示例：USB 设备列表、电源状态等) |识别、诊断和缓解故障以及使用情况、分析和见解|
 
 设备活动日志中的某些敏感数据在本地进行编辑 (托管服务未收集) ：
 
@@ -100,4 +100,4 @@ Microsoft 受数据传输、存储、使用和保留的严格标准约束。 Mic
 
 ## <a name="more-resources"></a>更多资源
 
-Microsoft Teams 会议室安全：/microsoftteams/rooms/security Microsoft 隐私声明： https://aka.ms/privacyMicrosoft 的数据管理：https://www.microsoft.com/trust-center/privacy/data-management托管服务服务说明：[Microsoft Teams会议室托管服务](microsoft-teams-rooms-premium.md)
+Microsoft Teams 会议室安全：/microsoftteams/rooms/security Microsoft 隐私声明： https://aka.ms/privacyMicrosoft 的数据管理：https://www.microsoft.com/trust-center/privacy/data-management托管服务服务说明：[Microsoft Teams 会议室托管服务](microsoft-teams-rooms-premium.md)

@@ -18,12 +18,12 @@ description: 了解向 Microsoft Teams 中的用户和组分配策略和策略�
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 3dec8bf23167c5166302942140fcfe49e9ea3720
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: e7cf7ba085c7bad22fea4b14f79b9eb3d4e6e2aa
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156510"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268417"
 ---
 # <a name="assign-policies-in-teams--getting-started"></a>在 Teams 中分配策略 - 入门
 
@@ -63,7 +63,7 @@ ms.locfileid: "67156510"
 
 在将策略分配给单个用户或组之前，首先 [设置全局 (组织范围的默认) 策略](#set-the-global-policies) ，以便它们适用于组织中数量最多的用户。  设置全局策略后，只需将策略分配给那些需要专用策略的用户。
 
-|执行此操作  |如果。。。  | 用。。。
+|执行此操作  |如果。。。  | 使用。。。
 |---------|---------|----|
 |[向单个用户分配策略](assign-policies-users-and-groups.md#assign-a-policy-to-individual-users)   | 你刚开始使用 Teams，或者只需将一个或几个策略分配给少量用户。 |Teams PowerShell 模块中的 Microsoft Teams 管理中心或 PowerShell cmdlet
 |[将策略分配给组](assign-policies-users-and-groups.md#assign-a-policy-to-a-group) |根据用户的组成员身份分配策略。 例如，将策略分配给安全组或通讯组列表中的所有用户。| Teams PowerShell 模块中的 Microsoft Teams 管理中心或 PowerShell cmdlet|
@@ -83,9 +83,9 @@ ms.locfileid: "67156510"
 
 1. 在 Microsoft Teams 管理中心的左侧导航中，转到要更新的策略类型的策略页。 例如， **Teams Teams** > **策略**、 **会议** > **策略**、 **消息传递策略** 或 **语音** > **呼叫策略**。
 2. 选择 **全局 (组织范围的默认)** 策略以查看当前设置。
-3. 根据需要更新策略，然后选择 **“应用**”。
+3. 根据需要更新策略，然后选择 **“保存**”。
 
-![更新 Teams 管理中心的全局策略。](media/assign-globalpolicy.png)
+:::image type="content" source="media/teams-meetings-policies-global-general.png" alt-text="显示 Teams 管理中心中的更新全局策略的屏幕截图。" lightbox="media/teams-meetings-policies-global-expanded.png":::
 
 ### <a name="using-powershell"></a>使用 PowerShell
 
@@ -125,7 +125,7 @@ Set-CsTeamsMessagingPolicy -Identity Global -AllowUserEditMessage $false
 
 在 Microsoft Teams 管理中心向用户分配策略时，可以在 [活动日志](https://admin.teams.microsoft.com/activitylog)中查看这些策略分配的状态。 活动日志显示网络记录上传信息、Teams 管理中心和 PowerShell 中的组策略操作，以及过去 30 天内从 Teams 管理中心) 的 20 多名用户 (批处理策略操作。
 
-![“活动日志”页的屏幕截图。](media/Activity_Log.png)
+:::image type="content" source="media/teams-activity-log.png" alt-text="“活动日志”页的屏幕截图。" lightbox="media/Activity_Log.png":::
 
 若要在活动日志中查看策略操作，请执行以下操作：
 

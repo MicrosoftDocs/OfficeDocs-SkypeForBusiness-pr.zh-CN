@@ -11,18 +11,18 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
-MS.collection:
-- M365-voice
 description: 了解如何在 Microsoft Teams 管理中心使用 Teams PSTN 使用情况报告，以大致了解组织中的通话和音频会议使用情况。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 15c14e05c1f283971b4882cf3f6e8d3758a2d8ba
-ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
+ms.collection:
+- M365-voice
+ms.openlocfilehash: 1539f679225334f71855300a54c4fba950ddd8f8
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67023764"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67267627"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Microsoft Teams PSTN 使用情况报告
 
@@ -49,7 +49,7 @@ Microsoft Teams 管理中心中的 Teams PSTN (公共交换电话网络) 使用�
 |**1**   |可以查看报表，了解过去 7 天、28 天或设置的自定义日期范围的趋势。 |
 |**2**   |每个报表都有生成日期。 报表通常反映活动时间的 24 至 48 小时延迟。 |
 |**3**   |X 轴是特定报表的选定日期范围。 Y 轴是所选时间段内的调用总数。 <br>将鼠标悬停在给定日期上的点上，以查看该日期的总调用量。  |
-|**4**   |该表提供每个调用的 PSTN 使用情况的细目。 <ul><li>**UTC)  (时间戳** 是开始调用的时间。</li><li>**显示名称** 是用户的显示名称。 可以单击显示名称，转到 Microsoft Teams 管理中心的用户设置页面。</li><li>**用户名** 是用户的登录名称。</li><li>**电话号码** 是接听入站呼叫或为出站呼叫拨号的号码。</li><li>**呼叫类型** 是呼叫是 PSTN 出站呼叫还是入站呼叫，以及呼叫类型（例如用户或音频会议的呼叫）。 你可能会看到的调用类型包括：<br><br>**Teams 用户呼叫类型**<ul><li>**user_in** - 用户收到入站 PSTN 呼叫</li><li>**user_out** - 用户放置了出站 PSTN 调用</li><li>**user_out_conf** - 用户向呼叫添加了两个或更多 PSTN 参与者，例如三向电话会议</li><li>**user_out_transfer** - 用户将呼叫转移到 PSTN 号码</li><li>**user_out_forwarding** - 用户将呼叫转发到 PSTN 号码</li><li>**conf_in** - 音频会议网桥的入站调用</li><li>**conf_out** - 音频会议网桥的出站呼叫通常用于向会议添加 PSTN 号码</li><li>**unassigned_in** - 通过呼叫计划通过未分配号码的入站 PSTN 呼叫</li></ul><br>**Teams 机器人调用类型**<ul><li>**ucap_in** - 对 Teams 机器人（例如自动助理或呼叫队列）的入站 PSTN 调用</li><li>**ucap_out** - 来自 Teams 机器人的出站 PSTN 呼叫，例如自动助理或呼叫队列</li></ul><br><li>**调用的** 号码是拨号。</li><li>**拨入国家或地区的国家或地区** 。</li><li>**调用** 的是放置调用的号码。</li><li>**从国家或地区** 是呼叫所在的国家或地区。</li><li>**费用** 是向帐户收取的电话费用或费用。 </li><li>**货币** 是用于计算调用成本的货币类型。 </li><li>" **持续时间**"是接听呼叫的时间。</li><li>**国内/国际** 会根据用户的位置告知呼叫是国家或地区内部 () 还是国家或地区以外的国际 () 。</li><li>**呼叫 ID** 是呼叫的呼叫 ID。 它是调用Microsoft 支持部门时可以使用的呼叫的标识符。</li><li>**号码类型** 是用户的电话号码类型，例如免费号码服务。 </li><li>**国家或地区** 是使用位置。 </li> <li>**会议 ID** 是音频会议的会议 ID。 </li><li>**功能** 是用于调用的许可证。 可能看到的许可证类型包括：<ul><li>**MCOEV 或MCOEV_VIRTUALUSER或MCOEV_VIRTUALUSER_GOV** - 语音应用程序，如自动助理或呼叫队列</li><li>**FREECALL** - 如果出现阻止我们为呼叫定价的技术问题，将免费提供呼叫并使用此功能显示</li><li>**MCOPSTN1** - 国内通话计划 (3000分钟美国/1200分钟欧盟计划) </li><li>**MCOPSTN2** - 国际呼叫计划</li><li>**MCOPSTN5** - 国内通话套餐 (120分钟通话套餐) </li><li>**MCOPSTN6** - 国内通话套餐 (240 分钟通话套餐) </li><li>**MCOPSTN8** - 每个用户的国内呼叫计划 120 分钟 (没有像其他呼叫计划那样跨用户共用) </li><li>**MCOPSTN9** - 国际通话计划</li><li>**MCOPSTNCAP** - 公用区域电话</li><li>**MCOPSTNPP** - 通信额度</li><li>**MCOMEETADD** - 音频会议</li><li>**MCOMEETADD_DIALOUT_US** - 美国和加拿大音频会议拨号计划</li><li>**MCOMEETADD_CN_GLOBAL** - 面向非中国用户的音频会议</li><li>**MCOMEETADD_TATA** - Tata Communications Connections</li><li>**MCOMEETACPEA** - 音频会议每分钟付费 </li><li>**MCOMEETACPEA_GOV** - 政府每分钟付费的音频会议</li></ul></li></ul> 要查看希望在表格中显示的信息，请确保向表格添加了相关列。|
+|**4**   |该表提供每个调用的 PSTN 使用情况的细目。 <ul><li>**UTC)  (时间戳** 是开始调用的时间。</li><li>**显示名称** 是用户的显示名称。 可以单击显示名称，转到 Microsoft Teams 管理中心的用户设置页面。</li><li>**用户名** 是用户的登录名称。</li><li>**电话号码** 是接听入站呼叫或为出站呼叫拨号的号码。</li><li>**呼叫类型** 是呼叫是 PSTN 出站呼叫还是入站呼叫，以及呼叫类型（例如用户或音频会议的呼叫）。 你可能会看到的调用类型包括：<br><br>**Teams 用户呼叫类型**<ul><li>**user_in** - 用户收到入站 PSTN 呼叫</li><li>**user_out** - 用户放置了出站 PSTN 调用</li><li>**user_out_conf** - 用户向呼叫添加了两个或更多 PSTN 参与者，例如三向电话会议</li><li>**user_out_transfer** - 用户将呼叫转移到 PSTN 号码</li><li>**user_out_forwarding** - 用户将呼叫转发到 PSTN 号码</li><li>**conf_in** - 音频会议网桥的入站调用</li><li>**conf_out** - 音频会议网桥的出站呼叫通常用于向会议添加 PSTN 号码</li><li>**unassigned_in** - 通过呼叫计划通过未分配号码的入站 PSTN 呼叫</li></ul><br>**Teams 机器人调用类型**<ul><li>**ucap_in** - 对 Teams 机器人的入站 PSTN 呼叫，例如自动助理或呼叫队列</li><li>**ucap_out** - 来自 Teams 机器人的出站 PSTN 呼叫，例如自动助理或呼叫队列</li></ul><br><li>**调用的** 号码是拨号。</li><li>**拨入国家或地区的国家或地区** 。</li><li>**调用** 的是放置调用的号码。</li><li>**从国家或地区** 是呼叫所在的国家或地区。</li><li>**费用** 是向帐户收取的电话费用或费用。 </li><li>**货币** 是用于计算调用成本的货币类型。 </li><li>" **持续时间**"是接听呼叫的时间。</li><li>**国内/国际** 会根据用户的位置告知呼叫是国家或地区内部 () 还是国家或地区以外的国际 () 。</li><li>**呼叫 ID** 是呼叫的呼叫 ID。 它是调用Microsoft 支持部门时可以使用的呼叫的标识符。</li><li>**号码类型** 是用户的电话号码类型，例如免费号码服务。 </li><li>**国家或地区** 是使用位置。 </li> <li>**会议 ID** 是音频会议的会议 ID。 </li><li>**功能** 是用于调用的许可证。 可能看到的许可证类型包括：<ul><li>**MCOEV 或MCOEV_VIRTUALUSER或MCOEV_VIRTUALUSER_GOV** - 语音应用程序，如自动助理或呼叫队列</li><li>**FREECALL** - 如果出现阻止我们为呼叫定价的技术问题，将免费提供呼叫并使用此功能显示</li><li>**MCOPSTN1** - 国内通话计划 (3000分钟美国/1200分钟欧盟计划) </li><li>**MCOPSTN2** - 国际呼叫计划</li><li>**MCOPSTN5** - 国内通话套餐 (120分钟通话套餐) </li><li>**MCOPSTN6** - 国内通话套餐 (240 分钟通话套餐) </li><li>**MCOPSTN8** - 每个用户的国内呼叫计划 120 分钟 (没有像其他呼叫计划那样跨用户共用) </li><li>**MCOPSTN9** - 国际通话计划</li><li>**MCOPSTNCAP** - 公用区域电话</li><li>**MCOPSTNPP** - 通信额度</li><li>**MCOMEETADD** - 音频会议</li><li>**MCOMEETADD_DIALOUT_US** - 美国和加拿大音频会议拨号计划</li><li>**MCOMEETADD_CN_GLOBAL** - 面向非中国用户的音频会议</li><li>**MCOMEETADD_TATA** - Tata Communications Connections</li><li>**MCOMEETACPEA** - 音频会议每分钟付费 </li><li>**MCOMEETACPEA_GOV** - 政府每分钟付费的音频会议</li></ul></li></ul> 要查看希望在表格中显示的信息，请确保向表格添加了相关列。|
 |**5**   |选择“**编辑列**”可在表格中添加或删除列。 |
 |**6**   |选择 **“筛选器** ”按用户名或调用类型筛选报表。 |
 |**7**   |选择 **“全屏** ”以全屏模式查看报表。 |
@@ -64,7 +64,7 @@ Microsoft Teams 管理中心中的 Teams PSTN (公共交换电话网络) 使用�
 |**1**   |可以查看该报告，了解过去 7 天或 28 天内的趋势。 |
 |**2**   |每个报表都有生成日期。 报表通常反映活动时间的 24 至 48 小时延迟。 |
 |**3**   |X 轴是特定报表的选定日期范围。 Y 轴是所选时间段内的调用总数。<br>将鼠标悬停在给定日期上的点上，以查看该日期的总调用量。  |
-|**4**   |该表提供每个调用的 PSTN 使用情况的细目。 <ul><li>**UTC)  (时间戳** 是开始调用的时间。</li><li>**显示名称** 是用户的显示名称。 可以单击显示名称，转到 Microsoft Teams 管理中心的用户设置页面。 该名称也可以是机器人的名称，例如呼叫队列或云自动助理。 </li><li>**SIP 地址** 是接收或拨打呼叫的用户或机器人的 SIP 地址。</li><li>**呼叫方号码** 是进行呼叫的用户或机器人的号码。 </li><li>**被调用方号码** 是收到呼叫的用户或机器人的号码。 在对 Teams 用户的入站调用中，它将是 Teams 用户，在 Teams 用户的出站呼叫中，它将是 PSTN 用户。 </li><li>**呼叫类型** 是呼叫是 PSTN 出站呼叫还是入站呼叫，以及呼叫类型（例如用户或音频会议的呼叫）。 你可能会看到的呼叫类型包括：<br><br>**Teams 用户呼叫类型**<ul><li>**dr_in** - 用户收到入站 PSTN 呼叫</li><li>**dr_out** - 用户放置了出站 PSTN 调用</li><li>**dr_out_user_conf** - 用户向呼叫添加了 PSTN 参与者</li><li>**dr_out_user_forwarding** - 用户将调用转发到 PSTN 号码</li><li>**dr_out_user_transfer** - 用户将呼叫转移到 PSTN 号码</li><li>**dr_emergency_out** - 用户发出紧急呼叫</li><li>**dr_unassigned_in** - 通过直接路由到未分配号码的入站 PSTN 调用</li></ul><br>**Teams 机器人调用类型**<ul><li>**dr_in_bot** - 对 Teams 机器人（例如自动助理或呼叫队列）的入站 PSTN 调用</li><li>**dr_out_bot** - 来自 Teams 机器人的出站 PSTN 呼叫，例如自动助理或呼叫队列</li></ul><br><li>**调用** 到的是接听呼叫的用户的号码。</li><li>**开始时间 (UTC)** 是 SIP 代理收到 SIP 消息“200 正常”的最终答案 (SIP 消息“200 确定”) 从 SBC 在出站呼叫 (Teams/Bot 发送到 PSTN 用户) ，或在 SIP 代理将邀请发送到 Teams 后端的下一跃点后，在入站呼叫 (PSTN 用户到 Teams/机器人) 。 </li><li>**邀请时间 (UTC)** 是在 Teams 用户或机器人调用 SBC 的出站呼叫中发送初始邀请，或者通过 SBC 直接路由的 SIP 代理组件对 Teams 或机器人调用的入站调用收到邀请的时间。</li><li>**UTC)  (失败时间** 是呼叫失败的时间。 仅适用于失败的调用。 最终 SIP 代码、最终 Microsoft 子代码和最终 SIP 短语提供了调用失败的原因，并有助于进行故障排除。 </li><li>**结束时间 (UTC)** 是仅) 成功调用 (呼叫结束的时间。</li><li>**持续时间** 是呼叫连接的时间，从邀请到呼叫结束或失败。 对于呼叫转接，持续时间包括呼叫队列中的响铃。</li><li>**号码类型** 是用户的电话号码类型，例如免费号码服务。 </li><li>**媒体旁路** 指示是否为媒体旁路启用了中继。 </li> <li>**SBC FQDN** 是会话边界控制器 (SBC) 的完全限定域名 (FQDN) 。 </li><li>**Azure Media 区域** 是非旁路调用中用作媒体路径的数据中心。 </li><li>**用于信号的 Azure 区域** 是用于对旁路和非旁路调用发出信号的数据中心。 </li><li>**事件类型** 是调用的事件类型。 你将看到成功调用和尝试失败的调用成功。 </li><li>**最终 SIP 代码** 是结束调用的代码。</li><li>**最终 Microsoft 子代码** 是一个代码，指示发生的特定操作。</li><li>**最终 SIP 短语** 是 SIP 代码和 Microsoft 子代码的说明。</li><li>**关联 ID** 是调用Microsoft 支持部门时可以使用的呼叫的唯一标识符。</li><li>**共享相关 ID** 仅在可下载的 CSV 文件中可见，在门户中不存在。 共享相关 ID 至少存在于两个相关调用中。 请参阅下面的详细说明。</li></ul> 要查看希望在表格中显示的信息，请确保向表格添加了相关列。|
+|**4**   |该表提供每个调用的 PSTN 使用情况的细目。 <ul><li>**UTC)  (时间戳** 是开始调用的时间。</li><li>**显示名称** 是用户的显示名称。 可以单击显示名称，转到 Microsoft Teams 管理中心的用户设置页面。 该名称也可以是机器人的名称，例如呼叫队列或云自动助理。 </li><li>**SIP 地址** 是接收或拨打呼叫的用户或机器人的 SIP 地址。</li><li>**呼叫方号码** 是进行呼叫的用户或机器人的号码。 </li><li>**被调用方号码** 是收到呼叫的用户或机器人的号码。 在对 Teams 用户的入站调用中，它将是 Teams 用户，在 Teams 用户的出站呼叫中，它将是 PSTN 用户。 </li><li>**呼叫类型** 是呼叫是 PSTN 出站呼叫还是入站呼叫，以及呼叫类型（例如用户或音频会议的呼叫）。 你可能会看到的呼叫类型包括：<br><br>**Teams 用户呼叫类型**<ul><li>**dr_in** - 用户收到入站 PSTN 呼叫</li><li>**dr_out** - 用户放置了出站 PSTN 调用</li><li>**dr_out_user_conf** - 用户向呼叫添加了 PSTN 参与者</li><li>**dr_out_user_forwarding** - 用户将调用转发到 PSTN 号码</li><li>**dr_out_user_transfer** - 用户将呼叫转移到 PSTN 号码</li><li>**dr_emergency_out** - 用户发出紧急呼叫</li><li>**dr_unassigned_in** - 通过直接路由到未分配号码的入站 PSTN 调用</li></ul><br>**Teams 机器人调用类型**<ul><li>**dr_in_bot** - 对 Teams 机器人（例如自动助理或呼叫队列）的入站 PSTN 呼叫</li><li>**dr_out_bot** - 来自 Teams 机器人的出站 PSTN 呼叫，例如自动助理或呼叫队列</li></ul><br><li>**调用** 到的是接听呼叫的用户的号码。</li><li>**开始时间 (UTC)** 是 SIP 代理收到 SIP 消息“200 正常”的最终答案 (SIP 消息“200 确定”) 从 SBC 在出站呼叫 (Teams/Bot 发送到 PSTN 用户) ，或在 SIP 代理将邀请发送到 Teams 后端的下一跃点后，在入站呼叫 (PSTN 用户到 Teams/机器人) 。 </li><li>**邀请时间 (UTC)** 是在 Teams 用户或机器人调用 SBC 的出站呼叫中发送初始邀请，或者通过 SBC 直接路由的 SIP 代理组件对 Teams 或机器人调用的入站调用收到邀请的时间。</li><li>**UTC)  (失败时间** 是呼叫失败的时间。 仅适用于失败的调用。 最终 SIP 代码、最终 Microsoft 子代码和最终 SIP 短语提供了调用失败的原因，并有助于进行故障排除。 </li><li>**结束时间 (UTC)** 是仅) 成功调用 (呼叫结束的时间。</li><li>**持续时间** 是呼叫连接的时间，从邀请到呼叫结束或失败。 对于呼叫转接，持续时间包括呼叫队列中的响铃。</li><li>**号码类型** 是用户的电话号码类型，例如免费号码服务。 </li><li>**媒体旁路** 指示是否为媒体旁路启用了中继。 </li> <li>**SBC FQDN** 是会话边界控制器 (SBC) 的完全限定域名 (FQDN) 。 </li><li>**Azure Media 区域** 是非旁路调用中用作媒体路径的数据中心。 </li><li>**用于信号的 Azure 区域** 是用于对旁路和非旁路调用发出信号的数据中心。 </li><li>**事件类型** 是调用的事件类型。 你将看到成功调用和尝试失败的调用成功。 </li><li>**最终 SIP 代码** 是结束调用的代码。</li><li>**最终 Microsoft 子代码** 是一个代码，指示发生的特定操作。</li><li>**最终 SIP 短语** 是 SIP 代码和 Microsoft 子代码的说明。</li><li>**关联 ID** 是调用Microsoft 支持部门时可以使用的呼叫的唯一标识符。</li><li>**共享相关 ID** 仅在可下载的 CSV 文件中可见，在门户中不存在。 共享相关 ID 至少存在于两个相关调用中。 请参阅下面的详细说明。</li></ul> 要查看希望在表格中显示的信息，请确保向表格添加了相关列。|
 |**5**   |选择“**编辑列**”可在表格中添加或删除列。 |
 |**6**   |选择 **“全屏** ”以全屏模式查看报表。 |
 |**7**   |选择 **“导出到 Excel** ”以下载逗号分隔文件中的数据 (CSV) 进行脱机分析，或将其用作计费系统的输入。 |
@@ -136,7 +136,7 @@ CSV 的第一行包含列名。 所有日期均为 UTC 和 [ISO 8601](https://en
 > | 2 | 会议 ID | `nvarchar(64)` | 音频会议 ID |
 > | 3 | 用户位置 | `nvarchar(2)` | 用户的国家/地区代码， [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
 > | 4 | AAD ObjectId | `uniqueidentifier` | 在 Azure Active Directory 中调用用户 ID。<br/> 对于机器人调用类型 (ucap_in，此和其他用户信息将为 null/空，ucap_out)  |
-> | 5 | UPN | `nvarchar(128)` | UserPrincipalName (Azure Active Directory 中的登录名称) 。<br/>这通常与用户的 SIP 地址相同，并且可以与用户的电子邮件地址相同 |
+> | 5 | Upn | `nvarchar(128)` | UserPrincipalName (Azure Active Directory 中的登录名称) 。<br/>这通常与用户的 SIP 地址相同，并且可以与用户的电子邮件地址相同 |
 > | 6 | 用户显示名称 | `nvarchar(128)` | 显示用户的名称 |
 > | 7 | 来电显示 | `nvarchar(128)` | 接收入站呼叫呼叫的号码或为出站呼叫拨号的号码。 [E.164](https://en.wikipedia.org/wiki/E.164) 格式 |
 > | 8 | 呼叫类型 | `nvarchar(32)` | 呼叫是 PSTN 出站呼叫还是入站呼叫，以及呼叫类型（例如用户或音频会议的呼叫） |
@@ -161,7 +161,7 @@ CSV 的第一行包含列名。 所有日期均为 UTC 和 [ISO 8601](https://en
 > | :-: | :-: | :-: |:------------------- |
 > | 0 | CorrelationId | `uniqueidentifier` | 调用标识符。 同一调用的多个腿可以共享相同的 CorrelationId |
 > | 1 | AAD ObjectId | `uniqueidentifier` | 在 Azure Active Directory 中调用用户 ID。<br/> 对于机器人调用类型，此信息和其他用户信息可以为 null/空 |
-> | 2 | UPN | `nvarchar(128)` | UserPrincipalName (用户或机器人的登录名称、Azure Active Directory) 。<br/>这通常与用户的 SIP 地址相同，并且可以与用户的电子邮件地址相同 |
+> | 2 | Upn | `nvarchar(128)` | UserPrincipalName (用户或机器人的登录名称、Azure Active Directory) 。<br/>这通常与用户的 SIP 地址相同，并且可以与用户的电子邮件地址相同 |
 > | 3 | 显示名称 | `nvarchar(128)` | 用户或调用机器人的名称 (例如，呼叫队列或自动助理) 设置在Microsoft 365 管理中心 |
 > | 4 | 用户国家/地区 | `nvarchar(2)` | 用户的国家/地区代码， [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
 > | 5 | 邀请时间 | `datetimeoffset` | 当初始邀请从 Teams 用户或机器人在出站时发送到 SBC，或者通过 SBC 直接路由的 SIP 代理组件在入站到 Teams 或机器人调用时接收 |

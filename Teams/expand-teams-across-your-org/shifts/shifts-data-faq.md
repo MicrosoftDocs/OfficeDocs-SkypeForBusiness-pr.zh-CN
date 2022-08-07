@@ -17,17 +17,16 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_FLW
 - microsoftcloud-healthcare
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 35447b432118737821f578ddaee364e780f18e0d
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: f05ba56086a9c9dd3cbad046c1cfad34733ee2ee
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675344"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268187"
 ---
 # <a name="shifts-data-faq"></a>转移数据常见问题解答
 
@@ -35,19 +34,19 @@ ms.locfileid: "65675344"
 
 ## <a name="where-is-shifts-data-stored"></a>Shifts 数据存储在何处？
 
-移位数据存储在三个地理位置之一 () ：亚太地区 (APAC) 、欧盟 (欧盟) 或美国。 每个地理位置将数据存储在至少两个 Azure 数据中心区域中，以实现高可用性 (HA) 和灾难恢复 (DR) 。 今天，美国/北美地理位置使用中北部和中南部美国的数据中心。 若要了解详细信息，请参阅[Microsoft 365存储的客户数据的位置](/microsoft-365/enterprise/o365-data-locations)。
+移位数据存储在三个地理位置之一 () ：亚太地区 (APAC) 、欧盟 (欧盟) 或美国。 每个地理位置将数据存储在至少两个 Azure 数据中心区域中，以实现高可用性 (HA) 和灾难恢复 (DR) 。 今天，美国/北美地理位置使用中北部和中南部美国的数据中心。 若要了解详细信息，请参阅 [Microsoft 365 客户数据的存储位置](/microsoft-365/enterprise/o365-data-locations)。
 
 目前，Shifts 在澳大利亚、加拿大、法国、日本和英国提供数据驻留。 我们正积极努力将支持扩展到更多位置。
 
 ## <a name="can-i-choose-where-shifts-data-is-stored"></a>是否可以选择 Shifts 数据的存储位置？
 
-首次设置Teams时，选择在订阅级别设置的国家或地区。 Shifts 遵循此选择，并使用Teams中设置的区域设置（如果我们支持该区域）。 如果尚未在该区域中，我们会将数据存储在我们支持的附近区域中。 将来，我们计划将现有数据（如果存储在附近区域）迁移到Teams中预配的区域。
+首次设置 Teams 时，选择在订阅级别设置的国家或地区。 Shifts 遵循此选择，并使用 Teams 中设置的区域设置（如果我们支持该区域）。 如果尚未在该区域中，我们会将数据存储在我们支持的附近区域中。 将来，我们计划将现有数据（如果存储在附近区域）迁移到 Teams 中预配的区域。
 
 ## <a name="can-i-access-and-export-or-delete-a-users-personal-data-in-shifts"></a>是否可以在 Shifts 中访问和导出或删除用户的个人数据？
 
 换班是符合 GDPR (一般数据保护法规) 。  (称为数据主体) 对其个人数据采取行动的人员的正式请求称为数据主体请求 (DSR) 。 可以在 Shifts 中查找和处理个人数据，以响应 DSR。
 
-可以使用Microsoft Purview 合规门户中的内容搜索电子数据展示工具来搜索和导出计划和时间时钟数据以Excel。 对于所有其他 Shifts 数据，可以拍摄数据的屏幕截图。
+可以使用Microsoft Purview 合规门户中的内容搜索电子数据展示工具搜索计划和时间时钟数据并将其导出到 Excel。 对于所有其他 Shifts 数据，可以拍摄数据的屏幕截图。
 
 若要了解详细信息，请参阅 [OFFICE 365 GDPR 和 CCPA 的数据主体请求](/microsoft-365/compliance/gdpr-dsr-office365)。
 
@@ -57,19 +56,19 @@ ms.locfileid: "65675344"
 
 如果删除租户，则会在保留期结束后删除所有 Shifts 数据。
 
-没有仅删除 Shifts 数据的选项。 如果在Teams中删除团队，则会在保留期结束后删除与该团队关联的 Shifts 计划数据。 若要了解详细信息，请参阅[Microsoft 365中的数据保留、删除和销毁](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview)。
+没有仅删除 Shifts 数据的选项。 如果在 Teams 中删除团队，则在保留期结束后删除与该团队关联的 Shifts 计划数据。 若要了解详细信息，请参阅 [Microsoft 365 中的数据保留、删除和销毁](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview)。
 
 ## <a name="can-i-recover-a-shifts-schedule-that-was-deleted"></a>是否可以恢复已删除的 Shifts 计划？
 
-如果 (支持它的Microsoft 365组或Teams) 中的团队还原，则可以恢复已删除的计划。
+如果支持它的 Microsoft 365 组 (或 Teams) 中的团队还原，则可以恢复已删除的计划。
 
-默认情况下，已删除的Microsoft 365组将保留 30 天。 此 30 天时间段称为“软删除”，因为您仍然可以还原组。 若要了解详细信息，请参阅[还原已删除的Microsoft 365组](/microsoft-365/admin/create-groups/restore-deleted-group?tabs=admin-center)。
+默认情况下，已删除的 Microsoft 365 组将保留 30 天。 此 30 天时间段称为“软删除”，因为您仍然可以还原组。 若要了解详细信息，请参阅 [还原已删除的 Microsoft 365 组](/microsoft-365/admin/create-groups/restore-deleted-group?tabs=admin-center)。
 
 ## <a name="can-i-use-custom-retention-policies-for-shifts-data"></a>是否可以对 Shifts 数据使用自定义保留策略？
 
 目前，Shifts 不支持自定义保留策略。
 
-若要详细了解Teams中的保留策略，请[参阅有关Teams的保留](/microsoft-365/compliance/retention-policies-teams)情况，[以及管理Teams的保留策略](../../retention-policies.md)。
+若要详细了解 Teams 中的保留策略，请 [参阅了解 Teams 的保留](/microsoft-365/compliance/retention-policies-teams) 情况 [和管理 Teams 的保留策略](../../retention-policies.md)。
 
 ## <a name="can-i-retrieve-shifts-data-for-a-user-whose-license-was-revoked"></a>是否可以检索已吊销许可证的用户的 Shifts 数据？
 
@@ -77,9 +76,9 @@ ms.locfileid: "65675344"
 
 ## <a name="what-type-of-encryption-does-shifts-use-for-data-at-rest-and-in-transit"></a>Shifts 对静态数据和传输中的数据使用哪种类型的加密？
 
-移位数据由 Azure Cosmos DB 和Azure 存储进行静态加密。 若要了解详细信息，请参阅 [Azure](/azure/security/fundamentals/encryption-atrest) Cosmos [DB 中的静态 Azure 数据加密和数据加密](/azure/cosmos-db/database-encryption-at-rest)。
+移位数据由 Azure Cosmos DB 和 Azure 存储进行静态加密。 若要了解详细信息，请参阅 Azure [Cosmos DB](/azure/cosmos-db/database-encryption-at-rest) [中的静态 Azure 数据](/azure/security/fundamentals/encryption-atrest)加密和数据加密。
 
-班次遵循Microsoft 365有关传输中数据加密的准则。 若要了解详细信息，请参阅传输 [中数据的加密](/compliance/assurance/assurance-encryption-in-transit)。
+班次遵循 Microsoft 365 传输中数据加密指南。 若要了解详细信息，请参阅传输 [中数据的加密](/compliance/assurance/assurance-encryption-in-transit)。
 
 SOC2 合规性审核每年验证静态和传输中数据的班次加密。
 
@@ -91,17 +90,17 @@ SOC2 合规性审核每年验证静态和传输中数据的班次加密。
 
 班次的某些方面是无法更改的，某些方面是可以更改的。 例如，可以编辑诸如备注和颜色等移位详细信息，类似于在 Shifts 应用中更改它们的方式。 除非撤回请求，否则无法编辑班次请求。
 
-若要查看哪些字段已更改，可以搜索 Shifts 事件的Microsoft 365审核日志。 若要详细了解Microsoft 365审核日志中为 Shifts 活动记录的事件，请参阅[Teams活动中的 Shifts](../../audit-log-events.md#shifts-in-teams-activities)。
+若要查看哪些字段已更改，可以搜索 Shifts 事件的 Microsoft 365 审核日志。 若要详细了解在 Microsoft 365 审核日志中为 Shifts 活动记录的事件，请参阅 [Teams 中的 Shifts 活动](../../audit-log-events.md#shifts-in-teams-activities)。
 
 ## <a name="my-organization-uses-a-workforce-management-system-for-scheduling-can-we-integrate-with-and-access-shifts-data"></a>我的组织使用员工管理系统进行计划。 我们能否与 Shifts 数据集成并访问 Shifts 数据？
 
-通过Graph API 的轮班，可以将 Shifts 数据与外部员工管理 (WFM) 系统集成。 若要了解详细信息，请参阅 [Shifts Graph API](/graph/api/resources/shift)。
+通过 Shifts Graph API，可以将 Shifts 数据与外部员工管理 (WFM) 系统集成。 若要了解详细信息，请参阅 [Shifts Graph API](/graph/api/resources/shift)。
 
-我们还提供托管 Shifts 连接器和开源 Shifts 连接器。 使用这些连接器，可以直接将 WFM 系统与 Shifts 集成。 若要详细了解 Shifts 连接器和支持的 WFM 系统，请 [参阅 Shifts 连接器](shifts-connectors.md)。
+我们还提供托管 Shifts 连接器和开源 Shifts 连接器。 借助这些连接器，可以直接将WFM系统与 Shifts 集成。 若要详细了解 Shifts 连接器和支持的WFM系统，请[参阅 Shifts 连接器](shifts-connectors.md)。
 
 ## <a name="can-shifts-data-be-deleted-permanently-after-a-specified-period-of-time"></a>在指定的时间段后，是否可以永久删除 Shifts 数据？
 
-今天，我们根本不会删除 Shifts 数据。 使用 [Shifts Graph API](/graph/api/resources/shift)，可以[使用Power Apps创建应用](/powerapps/maker/)来保留指定时间段的数据。 但是，我们不以本机方式支持此功能。
+今天，我们根本不会删除 Shifts 数据。 使用 [Shifts Graph API](/graph/api/resources/shift)，可以 [使用 Power Apps 创建应用](/powerapps/maker/) 来保留指定时间段的数据。 但是，我们不以本机方式支持此功能。
 
 ## <a name="can-shifts-data-be-moved-in-a-tenant-to-tenant-migration"></a>是否可以在租户到租户的迁移中移动 Shifts 数据？
 

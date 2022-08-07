@@ -18,12 +18,12 @@ description: 了解向 Microsoft Teams 中的用户和组分配策略的不同�
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: d3a77082fe3fb2e1f070c11f1ff85e6d883b2704
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 9d286d4451ce143a54beda6e457c12ba059832b3
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156560"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67267577"
 ---
 # <a name="assign-policies-to-users-and-groups"></a>将策略分配给用户和组
 
@@ -41,7 +41,7 @@ ms.locfileid: "67156560"
 2. 单击用户名左侧选择用户，然后选择 **“编辑设置**”。
 3. 选择要分配的策略，然后选择 **“应用**”。
 
-![将策略分配给 Teams 管理中心中的用户。](media/assign-policy-user.png)
+    :::image type="content" source="media/assign-policies-users-edit-settings.png"  alt-text="“管理用户”下的“编辑设置”窗格的屏幕截图。" lightbox="media/assign-policies-users-edit-settings-expanded.png":::
 
 > [!NOTE]
 > 若要取消向用户分配专用策略，可以将每个策略设置为 **全局 (组织范围的默认)**。 还可以为直接分配给策略的所有用户批量删除策略分配。 若要了解详细信息，请 [批量阅读 Unassign 策略](#unassign-policies-in-bulk)。
@@ -50,11 +50,11 @@ ms.locfileid: "67156560"
 
 1. 在 Microsoft Teams 管理中心的左侧导航中，转到策略页。
 2. 单击策略名称左侧，选择要分配的策略。
-3. 选择“管理用户”。
+3. 选择 **“分配用户**”。
 4. 在“**管理用户**”窗格中，按显示名称或用户名搜索用户，选择用户名，然后选择“**添加**”。 对想要添加的每一个用户重复此步骤。
 5. 添加完用户后，选择 **“应用**”。
 
-![通过第二种方法将策略分配给 Teams 管理中心中的用户。](media/assign-policy-user2.png)
+    :::image type="content" source="media/assign-policies-user-example.png" alt-text="显示如何通过第二种方法在 Teams 管理中心向用户分配策略的屏幕截图。" lightbox="media/assign-policies-user-example-expanded.png":::
 
 ### <a name="use-powershell"></a>使用 PowerShell
 
@@ -122,7 +122,7 @@ Grant-CsTeamsMeetingPolicy -Identity reda@contoso.com -PolicyName "Student Meeti
 
 例如，有两个组：Store Employees 和 Store Manager。 这两个组分别分配有 Teams 呼叫策略、应用商店员工呼叫策略和应用商店经理呼叫策略。 对于属于这两个组的商店经理来说，他们作为经理的角色比他们作为员工的角色更相关，因此分配给 Store Manager 组的调用策略应具有更高的排名。
 
-|群 |调用策略名称的 Teams  |等级|
+|组 |调用策略名称的 Teams  |等级|
 |---------|---------|---|
 |Store Manager   |应用商店经理呼叫策略         |1|
 |应用商店员工    |应用商店员工呼叫策略      |2|
@@ -142,7 +142,7 @@ Grant-CsTeamsMeetingPolicy -Identity reda@contoso.com -PolicyName "Student Meeti
     3. 选择要分配的策略。
     4. 选择 **“应用**”。
 
-![将策略分配给 Teams 管理中心的组。](media/assign-policy-group.png)
+        :::image type="content" source="media/assign-policies-groups-messaging.png" alt-text="显示如何将策略分配给 Teams 管理中心中的组的屏幕截图。" lightbox="media/assign-policies-groups-messaging-expanded.png":::
 
 若要删除组策略分配，请在策略页的“ **组策略分配** ”选项卡上选择组分配，然后选择 **“删除**”。
 

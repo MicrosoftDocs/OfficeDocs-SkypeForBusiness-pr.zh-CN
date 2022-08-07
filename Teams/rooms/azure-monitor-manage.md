@@ -13,14 +13,15 @@ ms.localizationpriority: medium
 ms.assetid: f8109905-3279-475f-a64b-31d37af48bfe
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_Rooms
 description: 本文讨论如何使用 Azure Monitor 以集成方式监视Microsoft Teams 会议室设备。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 38238d4b1d0bc33182f002e7dcf6389028315c48
-ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
+ms.openlocfilehash: 2f0878e7553e2d151f781c3f522a9b533b4b56d8
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66880206"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268967"
 ---
 # <a name="monitor-microsoft-teams-rooms-devices-with-azure-monitor"></a>使用 Azure Monitor 监视Microsoft Teams 会议室设备
 

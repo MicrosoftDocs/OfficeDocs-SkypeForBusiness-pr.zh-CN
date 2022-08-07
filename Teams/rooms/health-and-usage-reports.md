@@ -11,19 +11,19 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- m365initiative-meetings
+- Teams_ITAdmin_MTRP
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 报告报表运行状况和使用情况的节点数据
 f1keywords: ''
-ms.openlocfilehash: f3c8ceec383d801c5992b0e8275cfe5360ef5bfe
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 87a04860a69799bf00492691dc24498076bd4924
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674814"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271427"
 ---
 # <a name="health-and-usage-reports"></a>运行状况和使用情况报告
 
@@ -109,7 +109,7 @@ ms.locfileid: "65674814"
 
 <!--![A screenshot of a Reports meeting impact](../media/health-and-usage-015.png)-->
 
-设置选项卡显示会议室的元数据，例如硬件信息、设备设置、BIOS 信息、应用设置和位置。
+“设置”选项卡显示会议室的元数据，例如硬件信息、设备设置、BIOS 信息、应用设置和位置。
 
 ## <a name="usage"></a>用法
 
@@ -123,7 +123,7 @@ ms.locfileid: "65674814"
 - 有多少人没有预订过任何会议，无论是脱机会议还是联机会议
 - 租户中房间使用率的百分比
 - 通过交换预订的会议总数
-- 包含Skype或Teams链接的已预订会议百分比
+- 包含 Skype 或 Teams 链接的已预订会议百分比
 - 参与会议室的总呼叫数
 - 对所有调用使用“良好”质量分类的所有调用聚合调用性能分数。 
 
@@ -132,7 +132,7 @@ ms.locfileid: "65674814"
 |列|说明|
 |---|---|
 |利用|在所选时间内，在工作时间内预订房间的时间百分比。 前。 时间段设置为 7 天。 80% 的利用率超过预订了 32/40 小时的房间|
-|联机预订|在已预订的会议中，使用Teams启用的百分比。 前。 预订了 10 次会议。 其中，8 个链接Teams。 已预订联机 = 80%|
+|联机预订|在已预订的会议中，使用 Teams 启用的百分比。 前。 预订了 10 次会议。 其中 8 个具有 Teams 链接。 已预订联机 = 80%|
 |计划内会议|会议室中安排的会议的绝对数量|
 |总呼叫数|以参与者身份与会议室通话的绝对次数。|
 调用性能|具有“良好”分级的调用的百分比。 对每个调用进行评估，并收到“良好”、“差”、“未知”分级。 此指标是根据好调用/总调用数计算得出的|
@@ -141,12 +141,12 @@ ms.locfileid: "65674814"
 
 ## <a name="usage-details-of-a-room"></a>会议室的使用情况详细信息
 
-单击列表视图中的某个房间会提示浮出控件，其中包含更深入的信息。 浮出控件的“利用率”选项卡下是一个显示过去五个工作日使用小时数的图表。 每天有两个条形：蓝色表示已预订的会议时间：紫色表示已启用Teams/Skype会议的计划时间。 在底部，计算过去五个工作日的平均会议预订和持续时间。
+单击列表视图中的某个房间会提示浮出控件，其中包含更深入的信息。 浮出控件的“利用率”选项卡下是一个显示过去五个工作日使用小时数的图表。 每天有两个条形：蓝色表示已预订的会议时间：紫色表示已启用 Teams/Skype 的会议的计划时间。 在底部，计算过去五个工作日的平均会议预订和持续时间。
 
 <!--![A screenshot of utilization by hours per day](../media/health-and-usage-012.png)-->
 
-**呼叫** 表显示会议室参与Teams呼叫的会议。 会议室音频质量仅针对会议室（而不是所有参与者）进行评估。 若要查看特定呼叫的所有参与者的呼叫质量，请单击"开始"菜单时间选择呼叫。
+**“呼叫**”表显示会议室参与 Teams 呼叫的会议。 会议室音频质量仅针对会议室（而不是所有参与者）进行评估。 若要查看特定呼叫的所有参与者的呼叫质量，请单击“开始时间”选择呼叫。
 
 <!--!![A screenshot of room audio quality](../media/health-and-usage-016.png)-->
 
-若要查看会议室的流详细信息，请单击“会话"开始"菜单时间”。
+若要查看会议室的流详细信息，请单击“会话开始时间”。

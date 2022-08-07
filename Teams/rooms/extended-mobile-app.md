@@ -3,27 +3,27 @@ title: 移动应用扩展
 author: donnah007
 ms.author: v-donnahill
 manager: serdars
-ms.date: 06/02/2022
+ms.date: 07/25/2022
 ms.reviewer: dstrome
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection:
-- MTMR-collaboration
-- MTMRinitiative-meetings
+- M365-collaboration
+- Teams_ITAdmin_MTRP
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 适用于Teams 会议室的移动应用程序扩展
 f1keywords: Microsoft Teams Rooms Managed Service mobile app extension
-ms.openlocfilehash: 939ac7d5bd61f51a229400b2c1aee1bd38047369
-ms.sourcegitcommit: ea9cbb8e32b7f23c17930eadc0a1dcbd906449ae
+ms.openlocfilehash: e0e3839c1d2e801d8cb34ca251056f386fd2ce41
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66842318"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270927"
 ---
 # <a name="teams-rooms-mobile-client-application-features"></a>Teams 会议室移动客户端应用程序功能
 
@@ -33,10 +33,22 @@ ms.locfileid: "66842318"
 你必须是 Microsoft 365 组织中的管理员才能使用Teams 会议室移动应用。
 从 Apple App Store 或 [Google Play 应用商店](https://play.google.com/store/search?q=Microsoft%20Teams%20Rooms&c=apps)下载[Teams 会议室](https://apps.apple.com/app/apple-store/id761397963?pt=80423&ct=docsaboutadminapp&mt=8)移动应用。
 
+移动客户端提供在组织内创建票证和管理事件功能。
+
+## <a name="next-steps"></a>后续步骤
+
 **获取 MTMS 移动应用**
 
 1. 在应用商店中为设备搜索Teams 会议室托管服务并安装它。
 2. 使用全局管理员电子邮件地址登录，并查看仪表板以查看服务运行状况、监视用户许可证以及查看消息和服务请求。
+
+**使用Teams 会议室移动应用**
+
+1. 从 [Apple App Store]() 或 [Google Play 应用商店]()下载应用。
+1. 确保拥有有效的 Microsoft 365 订阅。
+1. 使用工作凭据访问Teams 会议室桌面应用。
+
+
 ## <a name="managing-incidents"></a>管理事件
 
 下面是移动应用上用于管理事件的一些功能。
@@ -48,84 +60,47 @@ ms.locfileid: "66842318"
 - 查看票证附件和文件。
 - 从用户面板注销 (通知/消息在注销) 时会被禁用。
 
-### <a name="incidents-page"></a>事件页
-
 “事件”页显示打开事件的类型。
 
 ![MTMS 移动应用程序事件页面屏幕](../media/mtms-extended-app-001.png)
 
-## <a name="managing-tickets"></a>管理票证
+### <a name="report-an-incident"></a>报告事件
+
+![显示 MTMS 移动应用程序报告事件的屏幕截图。](../media/mtms-extended-app-012.png)
+### <a name="view-an-incident-by-category"></a>按类别查看事件
+
+![显示 MTMS 移动应用程序会议室问题屏幕的屏幕截图。](../media/mtms-extended-app-001.png)
+
+### <a name="managing-tickets"></a>管理票证
 下面是移动应用上用于管理票证的一些功能。
 
 - 确认事件 (标记为读) 。
 - 读取、发布和回复票证上的邮件。
 - 切换到深色模式。
 - 添加附件 (拍摄和上传图片) 。
-- 报告事件 (创建票证) 。
+- 创建用于报告事件的票证。
+- 使用 Microsoft Defender 与专家的托管安全和通信
 
-### <a name="ticket-messages"></a>票证消息
-
-![MTMS 移动应用程序票证消息](../media/mtms-extended-app-003.png)
-
-![MTMS 移动应用程序票证附件](../media/mtms-extended-app-007.png)
-
-
-### <a name="ticket-details"></a>票证详细信息
+应用在单独的选项卡下显示票证详细信息、消息和文件。
 
 ![MTMS 移动应用程序票证详细信息 01 ](../media/mtms-extended-app-002.png)
 
-![MTMS 移动应用程序票证详细信息 02](../media/mtms-extended-app-004.png)
-
-![MTMS 移动应用程序票证详细信息 03](../media/mtms-extended-app-009.png)
+![显示 MTMS 移动应用程序票证消息的屏幕截图。](../media/mtms-extended-app-003.png)
 
 
-### <a name="report-an-incident"></a>报告事件
+<!--![Screenshot that shows MTMS mobile application ticket details 02.](../media/mtms-extended-app-004.png)
 
-![MTMS 移动应用程序报告事件](../media/mtms-extended-app-012.png)
-### <a name="view-an-incident-by-category"></a>按类别查看事件
+![Screenshot that shows MTMS mobile application ticket details 03.](../media/mtms-extended-app-009.png)
 
-![MTMS 移动应用程序会议室问题屏幕](../media/mtms-extended-app-001.png)<!--Microsoft 已批准的每个 author 映像。>
-### <a name="managed-security-with-microsoft-defender"></a>Microsoft Defender 的托管安全性
+![MTMS mobile application managed security screen](../media/mtms-extended-app-009.png)
+![MTMS mobile application Messages screen](../media/mtms-extended-app-008.png)
+### Sign out
 
-![MTMS 移动应用程序托管安全屏幕](../media/mtms-extended-app-009.png)
-### <a name="communication-with-experts"></a>与专家沟通
-![MTMS 移动应用程序消息屏幕](../media/mtms-extended-app-008.png)
-### <a name="sign-out"></a>注销
+![Screenshot that shows the MTMS mobile application signout page.](../media/mtms-extended-app-011.png)-->
 
-![MTMS 移动应用程序注销页页](../media/mtms-extended-app-011.png)<!--Microsoft 已批准的每个 author 映像。>
-## <a name="frequently-asked-questions"></a>常见问题解答
-
-下面是常见问题的解答。
-
-**若要使用应用，我需要做什么？**
-
-若要使用应用，需要具有管理员权限和有效的 Microsoft 365 订阅。
-
-
-**应用支持哪些语言？**
-
-
-**如何与组织的其他成员共享事件和消息？**
-
-
-**是否可以将此应用用于多个帐户或租户？**
-
-
-**我无法登录，或者我的应用表现得很有趣。可以做些什么来排查或解决此问题？**
+## <a name="troubleshooting"></a>疑难解答
 
 可以尝试一些常见的移动应用故障排除步骤：
 - 关闭并重新打开应用。
-- 卸载并重新安装应用。确保使用的是最新版本的应用。
+- 卸载并重新安装应用。 确保使用的是最新版本的应用。
 - 如果设备上安装了 Microsoft Authenticator 或公司门户应用，请尝试重新安装或更新到最新版本。 如果这不起作用，你可以在 feedback365@microsoft.com 给我们发电子邮件，告诉我们。
-
-**如果我的问题没有回答，我该怎么办？**
-
-## <a name="next-steps"></a>后续步骤
-
-移动客户端提供在组织内创建票证和管理事件功能。
-
-**使用Teams 会议室移动应用**
-
-1. 将应用从 [Apple App Store]() 或 [Google Play 应用商店]()下载
-1. 确保拥有有效的 Microsoft 365 订阅。
-1. 使用工作凭据访问Teams 会议室桌面应用。

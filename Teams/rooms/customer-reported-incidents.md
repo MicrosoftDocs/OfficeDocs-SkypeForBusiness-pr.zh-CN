@@ -11,18 +11,18 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- m365initiative-meetings
+- Teams_ITAdmin_MTRP
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 合作伙伴/客户可以手动关闭事件，并确保准确报告 MTRP 中的会议室运行状况。
-ms.openlocfilehash: f28462c6fab02a2a6b8e7db00b1f89ff30b80da1
-ms.sourcegitcommit: ea9cbb8e32b7f23c17930eadc0a1dcbd906449ae
+ms.openlocfilehash: 308e2d4578637e4b50a8324a3f98bad82ad5c5d0
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66842299"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270307"
 ---
 # <a name="customer-reported-incident-tickets"></a>客户报告的事件票证
 

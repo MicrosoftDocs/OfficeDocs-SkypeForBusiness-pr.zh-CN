@@ -17,12 +17,14 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 列出通话套餐支持的费率中心和覆盖范围。
-ms.openlocfilehash: cd991c55c62eeba620d7a8d7f9f75cb7344507a9
-ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.collection:
+- M365-voice
+ms.openlocfilehash: eb40c3adf77aed6d88363986f3ab01fc7191b9f2
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66794100"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270857"
 ---
 # <a name="supported-rate-centers-and-coverage-for-calling-plans"></a>支持通话套餐的费率中心和覆盖范围
 

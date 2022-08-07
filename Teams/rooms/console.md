@@ -12,15 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_Rooms
 ms.custom: seo-marvel-apr2020
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: 本文介绍如何设置和配置Microsoft Teams 会议室控制台及其外围设备。
-ms.openlocfilehash: d3c4f534fbd5395c7e0cda8e095b5a6d7a2b8def
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: 2a38154ebca1dfae282722fdb64e76389627ca15
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65761254"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270107"
 ---
 # <a name="build-a-microsoft-teams-rooms-image"></a>生成Microsoft Teams 会议室映像
 
@@ -29,7 +30,7 @@ ms.locfileid: "65761254"
 > [!NOTE]
 > 只有在为大规模部署创建 [基于 WIM 的映像](/windows-hardware/manufacture/desktop/capture-and-apply-an-image) 时，才应使用以下步骤。 如果要恢复单个设备，请联系原始设备制造商 (OEM) 以获取支持。
 
-仅当已根据部署Microsoft Teams 会议室中所述创建和测试必要的Microsoft Teams或Skype for Business和[Exchange](rooms-deploy.md)帐户时，才应执行这些步骤。 需要Microsoft Teams 会议室要求中所述[的](requirements.md)硬件和软件。 本主题包括以下部分：
+仅当已创建和测试必要的 Microsoft Teams 或 Skype for Business 和 Exchange 帐户时，才应执行这些步骤，如[部署Microsoft Teams 会议室](rooms-deploy.md)中所述。 需要Microsoft Teams 会议室要求中所述[的](requirements.md)硬件和软件。 本主题包括以下部分：
   
 - [准备安装媒体](console.md#Prep_Media)
 - [在控制台上安装专用 CA 证书](console.md#Certs)
@@ -46,10 +47,10 @@ ms.locfileid: "65761254"
 > 未能根据这些说明创建Microsoft Teams 会议室安装媒体可能会导致意外行为。
 
 > [!NOTE]
-> 下面的过程是创建安装介质以映像新Microsoft Teams 会议室设备。 默认情况下，现有设备会从Windows 更新和Windows Microsoft Store自动更新。
+> 下面的过程是创建安装介质以映像新Microsoft Teams 会议室设备。 默认情况下，现有设备会从 Windows 更新 和 Windows 应用商店自动更新。
 
 > [!IMPORTANT]
-> 用于创建Microsoft Teams 会议室安装介质的Windows 10计算机必须位于与目标安装介质相同的或更高版本的Windows上。
+> 用于创建Microsoft Teams 会议室安装介质的Windows 10计算机必须位于与目标安装介质相同的或更高版本的 Windows 上。
   
 1. 下载 [CreateSrsMedia.ps1脚本](https://go.microsoft.com/fwlink/?linkid=867842)。
 2. 在 Windows 10 计算机上，在提升的提示符下运行 CreateSrsMedia.ps1 脚本。
@@ -62,7 +63,7 @@ ms.locfileid: "65761254"
 CreateSrsMedia.ps1脚本自动执行以下任务：
 
 1. 下载适用于Microsoft Teams 会议室的最新 MSI 安装程序。
-2. 确定用户必须提供的Windows的生成。 最近发布的版本可能或未经过测试，并且支持用于Microsoft Teams 会议室设备。
+2. 确定用户必须提供的 Windows 的内部版本。 最近发布的版本可能或未经过测试，并且支持用于Microsoft Teams 会议室设备。
 3. 下载必要的支持组件。
 4. 在安装介质上组装所需的组件。
 
@@ -105,7 +106,7 @@ CreateSrsMedia.ps1脚本自动执行以下任务：
 在 Creator 的更新中，你需要在隐式语言选择不为用户提供所需的实际应用程序语言的情况下使用ApplyCurrentRegionAndLanguage.ps1脚本 (例如，他们希望控制台应用以法语出现，但它以英语) 出现。
   
 > [!NOTE]
-> 以下说明仅适用于使用 Windows Creator 的 Update (Windows 10 20H1) 或更高版本创建的控制台。
+> 以下说明仅适用于使用 Windows Creator 的更新 (Windows 10 20H1) 或更高版本创建的控制台。
   
 ### <a name="to-apply-your-desired-language"></a>应用你需要的语言
 
@@ -125,7 +126,7 @@ CreateSrsMedia.ps1脚本自动执行以下任务：
     
 8. 安装语言功能。
     
-9. 请勿将“设置”选为我的Windows显示语言。
+9. 请勿检查“设置为我的 Windows 显示语言”。
     
 10. 选择 **“安装**”。
     
@@ -152,22 +153,22 @@ CreateSrsMedia.ps1脚本自动执行以下任务：
 ## <a name="initial-set-up-of-the-console"></a>控制台的初始设置
 <a name="Initial"> </a>
 
-安装Windows后，Microsoft Teams 会议室应用将进入其初始安装过程。
+安装 Windows 后，Microsoft Teams 会议室应用将进入其初始安装过程。
   
 1. 将显示“用户帐户”屏幕。 输入要与控制台一起使用的会议室帐户) user@domain格式的 Microsoft Exchange 资源帐户登录地址 (。
     
 2. 输入会议室帐户的密码，再重新输入以进行确认。
    
-3. 选择支持的会议模式 - 仅Microsoft Teams、仅Skype for Business或两个混合模式选项之一。 如有必要，请启用新式身份验证。
+3. 选择支持的会议模式 - 仅限 Microsoft Teams、仅Skype for Business或两个混合模式选项之一。 如有必要，请启用新式身份验证。
 
 4. 选择 **“下一步**”。
     
-5. 如果使用Skype for Business，并且Skype for Business SIP 域与用户的Exchange域不同，请在“高级”部分为Skype for Business Server设置 FQDN。 如果未使用Skype for Business或 SIP 域与Exchange域匹配，请将此部分留空。
+5. 如果使用Skype for Business，并且Skype for Business SIP 域与用户的 Exchange 域不同，请在“高级”部分为Skype for Business Server设置 FQDN。 如果未使用Skype for Business或 SIP 域与 Exchange 域匹配，请将此部分留空。
 6. 选择 **“下一步**”。
     
 7. 选择 **“完成**”。
     
-Microsoft Teams 会议室应用应使用上面输入的凭据登录到Microsoft Teams或Skype for Business Server，还应开始使用这些相同的凭据将日历与Exchange同步。 有关使用Teams 会议室的详细信息，请参阅[Microsoft Teams 会议室帮助](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)。
+Microsoft Teams 会议室应用应使用上面输入的凭据登录到 Microsoft Teams 或Skype for Business Server，还应开始使用这些相同的凭据将其日历与 Exchange 同步。 有关使用Teams 会议室的详细信息，请参阅[Microsoft Teams 会议室帮助](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)。
   
 > [!IMPORTANT]
 > Microsoft Teams 会议室依赖于已认证的控制台硬件。 即使包含Microsoft Teams 会议室控制台应用的正确创建映像也不会通过初始设置过程启动，除非检测到控制台硬件。 对于基于Surface Pro的解决方案，必须将Surface Pro连接到其随附的码头硬件才能通过此检查。
@@ -242,7 +243,7 @@ Add-Computer -DomainName redmond.corp.microsoft.com -OUPath "OU=Microsoft_Teams_
 |完成 |检查 |
 |:-----:|:-----|
 |☐   |摄像头外围设备固件版本正确（如果适用）   |
-|☐   |相机功能且位置最佳   |
+|☐   |相机功能和定位最佳   |
 |☐   |将用于播放默认设备和播放默认通信设备的设置设为预期的音频外围设备   |
 |☐   |将用于录制默认通信设备的设置设为预期的音频外围设备   |
 |☐   |音频外围设备固件版本正确（如果适用）   |

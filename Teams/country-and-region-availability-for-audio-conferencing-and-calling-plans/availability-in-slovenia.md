@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是适用于斯洛文尼亚Microsoft 365 Office 365和Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: 35c529a3953e6798ad4a05ba85c0f6705319d38e
-ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
+description: 以下是适用于斯洛文尼亚的适用于Skype for Business和 Microsoft Teams 的 Microsoft 365 和 Office 365 服务。
+ms.openlocfilehash: 717812a2c5bc8e896c7a82c8ef81f7b1c794e542
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "59941845"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268597"
 ---
 # <a name="availability-in-slovenia"></a>在斯洛文尼亚的可用性
 
 [查找其他国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或详细了解可以在哪些国家/地区使用音频会议和通话套餐。
 
-以下是适用于斯洛文尼亚Microsoft 365 Office 365和Skype for Business Microsoft Teams服务。
+以下是适用于斯洛文尼亚的适用于Skype for Business和 Microsoft Teams 的 Microsoft 365 和 Office 365 服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 
@@ -59,16 +59,16 @@ ms.locfileid: "59941845"
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|是否可购买通话套餐？  <br/> |是  <br/> |
-|通话套餐可用的分钟数。 |每个日历月有四个可用的计划选项： <ul><li>120 分钟国内呼叫计划 </li><li>240 分钟国内呼叫计划</li></li><li>1200 分钟国内呼叫计划 </li></li><li>国内和国际呼叫计划：国内 1200 分钟 -或 600 分钟国际呼叫 (以日历月份中首次达到者为准) </li></li></ul>|
-|能否对高级号码进行出站呼叫？  <br/> | 目前不支持。 <br/> |
-|是否可以拨打呼出电话？  <br/> | 到 196 个国家和地区， [包括这些](users-can-make-outbound-calls-to-these-countries-and-regions.md)。<br/> 
+|是否可购买通话套餐？  |是          |   
+|通话套餐可用分钟数。    |每个日历月有五个可用的计划选项： <ul><li>即用即付呼叫计划 </li><li> 120 分钟国内呼叫计划 </li><li> 240 分钟国内呼叫计划 </li><li> 1200 分钟国内呼叫计划 </li><li> 国际呼叫计划：1200分钟的国内或600分钟的国际呼叫 (以日历月) </li></ul>|
+|是否可以对高级号码进行出站调用？  <br/> | 目前不支持。 <br/> |
+|是否可以拨打呼出电话？  <br/> | 到 196 个国家或地区，包括 [这些](users-can-make-outbound-calls-to-these-countries-and-regions.md)国家或地区。<br/> 
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服务的收费和免费电话号码
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|你可以获取哪些首都或大城市的收费电话号码？  <br/> |<ul><li>切尔吉 <li>  卢布尔雅那 <li>  波利堡市 </ul> |
+|你可以获取哪些首都或大城市的收费电话号码？  <br/> |<ul><li>Celje <li>  卢布尔雅那 <li>  马里博尔市 </ul> |
 |是否提供收费电话号码？  <br/> |是  <br/> |
 |是否提供免费电话号码？  <br/> |是  <br/> |
    

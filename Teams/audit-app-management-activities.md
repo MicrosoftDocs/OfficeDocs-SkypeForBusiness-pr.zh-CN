@@ -7,7 +7,6 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
 f1keywords: ''
@@ -15,12 +14,12 @@ description: 了解如何审核组织中用户和管理员的 Teams 应用活动
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 54cf634fb8da78081023fad3940daf4ef33450c2
-ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
+ms.openlocfilehash: 0ad20fc8d5efd6c243ce29c3255b787bae322994
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66880396"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269717"
 ---
 # <a name="audit-for-app-management-activities-and-events"></a>审核应用管理活动和事件
 

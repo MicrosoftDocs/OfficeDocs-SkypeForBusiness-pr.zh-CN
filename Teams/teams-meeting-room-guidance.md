@@ -1,5 +1,5 @@
 ---
-title: 会议室Teams指南
+title: Teams 会议室指南
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -9,25 +9,23 @@ audience: ITPro
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: ''
-description: 有关使用Teams会议室解决方案和设备进行会议室优化的查找手册和指南。
+description: 有关使用 Teams 会议室解决方案和设备进行会议室优化的查找手册和指南。
 ms.collection:
 - M365-voice
 - M365-collaboration
-- skype-for-business-itpro
-- skype-for-business-online
 f1.keywords:
 - NOCSH
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8df4740d6f5facc427900e7af760b11a9c8cb43f
-ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+ms.openlocfilehash: 8abd332f29ab23cbdf2dd36150942de06228f645
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65823397"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67272237"
 ---
-# <a name="meeting-room-guidance-for-teams"></a>会议室Teams指南
+# <a name="meeting-room-guidance-for-teams"></a>Teams 会议室指南
 
 本文旨在指导用户如何使用Microsoft Teams 会议室解决方案和设备优化会议空间。 它包括有关Teams 会议室设备和解决方案使用、布局和规范的信息。
 
@@ -49,13 +47,13 @@ Microsoft Teams 会议室解决方案提供了在传统会议室没有的整个�
 
 会议和共同创建会议通常不太正式，优先于共同创建、墨迹书写和白板。 访问个人文件也是此存储桶的重点。 设备可以是移动设备，鼓励用户站起来、收集设备并与之交互。
 
-正确的空间无缝地连接用户和技术，甚至消除了大多数新手用户的摩擦。 Teams设备设计为对用户足够友好，使年轻学生或新用户能够熟练地导航，并且教育工作者或管理员可以从首次使用开始进行控制和自定义。
+正确的空间无缝地连接用户和技术，甚至消除了大多数新手用户的摩擦。 Teams 设备旨在使年轻学生或新用户能够熟练地进行导航，并且让教师或管理员能够从首次使用开始进行控制和自定义。
 
 **满足并共同创建空间布局：** 表和共同创建设备可以具有灵活的位置，并且应容纳在表或设备上工作的人员组。
 
 ### <a name="presentation-and-co-creation-focused-meetings"></a>以演示文稿和共同创建为重点的会议
 
-请记住，这两种类型的会议室都可以在需要时处理这两种类型的体验。 会议室还可以通过每种用途都提供技术来轻松适应这两者。 重要的是要记住，无论你装备什么空间，从私人办公室到讲堂，都需要Teams启用。
+请记住，这两种类型的会议室都可以在需要时处理这两种类型的体验。 会议室还可以通过每种用途都提供技术来轻松适应这两者。 要记住的重要事项是，无论你装备什么空间，从私人办公室到讲堂，都需要启用 Teams。
 
 **组合演示文稿和共同创建空间布局：** 可以结合其他会议方案中的用例，形成多用途会议室，其中以演示为中心的会议以及共同创建工作可以以同等效率实现，通常同时实现。
 
@@ -65,29 +63,29 @@ Microsoft Teams 会议室解决方案提供了在传统会议室没有的整个�
 
 ### <a name="native-teams-rooms-experiences-versus-other-devices"></a>本机Teams 会议室体验与其他设备相比
 
-Teams 会议室通过提供独特的室内功能（如单击联接、以智能方式将物理白板共享到会议中的内容摄像头）以及邻近功能（如将Teams会议从个人设备无缝传输到会议室）来超越个人设备上的Teams。
+Teams 会议室通过提供独特的室内功能（如单触式联接、以智能方式将物理白板共享到会议中的内容摄像头）以及邻近功能（如将 Teams 会议从个人设备无缝传输到会议室）来超越在个人设备上完成的操作。
 
-依赖外部服务或自带设备连接的非本机和自建系统永远不会真正与本机Teams室的易用性或沉浸式质量相匹配。
+依赖外部服务或自带设备连接的非本机和自建系统永远不会真正与本机 Teams 会议室的易用性或沉浸式质量相匹配。
 
-据了解，在部署过程中，可能需要执行中间步骤 (例如快速部署自带设备会议室，) 在会议空间中实现完全本机Teams体验的路径上实现。
+据了解，在部署过程中，可能需要执行中间步骤 (例如快速部署自带设备会议室，) 在会议空间中实现完全本机 Teams 体验的路径上实现。
 
-### <a name="using-teams-to-create-the-best-possible-meeting-experience"></a>使用Teams创建最佳的会议体验
+### <a name="using-teams-to-create-the-best-possible-meeting-experience"></a>使用 Teams 创建最佳会议体验
 
-通过在所有个人设备上Teams，并在所有空间中正确部署Microsoft Teams 会议室，你将能够为每个用户提供最佳的会议体验。 在计划实现最佳体验时，需要在技术部署和最终用户指导和培训方面解决所有空间问题。
+通过将两个 Teams 都部署在所有个人设备上，并在所有空间中正确部署Microsoft Teams 会议室，你将能够为每个用户提供尽可能最佳的会议体验。 在计划实现最佳体验时，需要在技术部署和最终用户指导和培训方面解决所有空间问题。
 
-当计划大规模、全公司范围内的推出时，这是正常的，因为有些会议室在不同时间看到技术添加，甚至某些组件安装得早于其他 (例如部署Teams面板，以便在特定建筑的每个房间进行调度，同时一次安装Teams 会议室解决方案一层甚至一个房间) 。
+当计划大规模、全公司范围内的推出时，这是正常的，因为有些会议室在不同时间看到技术添加，甚至某些组件安装得比其他会议室更早， (例如部署 Teams 面板，以便在特定建筑的每个房间进行调度，同时一次安装一层甚至一个房间的Teams 会议室解决方案) 。
 
-准备用户分阶段执行此操作，以便在一路上的每一个点最大化Teams会议体验。
+准备用户分阶段执行此操作，以便在一路上的每一个点最大化 Teams 会议体验。
 
 #### <a name="good-experience--personal-devices-alone-in-a-meeting-space"></a>良好的体验 - 单独在会议空间中使用个人设备
 
-可从此计划开始，解决所有非 AV 或非协作设备会议空间的问题。 即使这些会议室尚未安装Teams设备，你仍然可以利用会议室中的Teams。
+可从此计划开始，解决所有非 AV 或非协作设备会议空间的问题。 即使这些会议室尚未安装 Teams 设备，你仍然可以利用会议室中的 Teams。
 
-*音频：* 实现完整Teams 会议室的一个很好的桥梁是规划会议技术，方法是为个人用户提供Teams认证的小型会议室和组的音频设备，或者将它们部署在会议室中，以获得适用于大型组的较大空间的完整Teams 会议室解决方案，其中小型设备不会对其进行剪切。
+*音频：* 实现完整Teams 会议室的一个很好的桥梁是规划会议技术，方法是为个人用户提供小型会议室和组的 Teams 认证音频设备，或者在完整Teams 会议室解决方案之前将它们部署到会议技术，该解决方案适用于小型设备不会剪切的较大组的较大空间。
 
-*视频：* 使用这些会议室时，单个用户可以自带设备共享Teams会议内容，并使用各自的相机捕获其表达式。 然后，用户可以指定某人为本地组的单一音频源，将该个人设备连接到经过认证的音频设备，以便 (本地和远程) 的每个人都能体验到会议音频。
+*视频：* 使用这些会议室时，单个用户可以自带设备在 Teams 会议内容中共享，并使用各自的相机捕获其表达式。 然后，用户可以指定某人为本地组的单一音频源，将该个人设备连接到经过认证的音频设备，以便 (本地和远程) 的每个人都能体验到会议音频。
 
-*订婚：* 为会议室提供更好的Teams会议体验（即使需要使用个人设备和外围设备）仍可让用户扩展他们可使用Teams执行的操作。 当用户位于私人办公室和单个工作站时，除了与远程参与者互动外，Teams还可促进亲自讨论。
+*订婚：* 为会议室启用更好的 Teams 会议体验（即使需要使用个人设备和外围设备）仍可让用户扩展他们可以使用 Teams 执行的操作。 当用户位于私人办公室和单个工作站时，Teams 除了与远程参与者互动外，还可促进现场讨论。
 
 #### <a name="better-experience--teams-rooms-solutions-and-no-personal-devices"></a>更好的体验 - Teams 会议室解决方案，没有个人设备
 
@@ -109,11 +107,11 @@ Teams 会议室通过提供独特的室内功能（如单击联接、以智能�
 
 *订婚：* 聊天可以保持动态，所有参与者，本地和远程，参与和参与。 通过Teams 会议室和单个摄像机的视频共享，远程参与者可以感受到与每个人的参与。
 
-在所有设备上使用Teams可确保本地会议室用户和远程用户平等地参与会议。
+在所有设备上使用 Teams 可确保本地会议室用户和远程用户同样参与会议。
 
 ## <a name="technology-considerations"></a>技术注意事项
 
-正确的音频和视频技术选择将帮助用户充分利用其Microsoft Teams会议。
+正确的音频和视频技术选择将帮助用户充分利用其 Microsoft Teams 会议。
 
 ### <a name="audio"></a>音频
 
@@ -139,7 +137,7 @@ Teams 会议室通过提供独特的室内功能（如单击联接、以智能�
 
 *每个空间的正确摄像头*：
 
-与良好的音频一样重要，高质量的视频是现代Teams协作的必要条件。 相机技术已显著提高，高质量的摄像头现在可用于所有空间。
+与良好的音频一样重要，高质量的视频是现代 Teams 协作的必要条件。 相机技术已显著提高，高质量的摄像头现在可用于所有空间。
 
 - 所有会议都应使用笔记本电脑和平板电脑等设备中包含的摄像头，以确保每个人都能被看到和听到。 对于希望为 **个人空间** 带来更丰富的视频体验的用户，外部摄像头表示从嵌入式设备上迈出的一步，并可用于更多方案和配置，确保呼叫参与者共享自己最优质的视图。 这些设备使用在每个电脑上找到的简单 USB 连接轻松安装。
 
@@ -147,13 +145,13 @@ Teams 会议室通过提供独特的室内功能（如单击联接、以智能�
 
 - 在 **较大的会议室** 中，摄像头采用了在不同距离的不同位置捕获参与者所需的技术。 这些相机可以捕获组或专注于特定的个人，同时保持良好的视觉清晰度。 只能跟踪和功能仅活动扬声器的设备会定期在更大的空间中使用，以便许多参与者在参与他们的想法时，可以在会议中单独参与。
 
-# <a name="enhanced-microsoft-teams-room"></a>[增强Microsoft Teams室](#tab/emtr)
+# <a name="enhanced-microsoft-teams-room"></a>[增强的 Microsoft Teams 会议室](#tab/emtr)
 
-## <a name="enhanced-microsoft-teams-room"></a>增强Microsoft Teams室
+## <a name="enhanced-microsoft-teams-room"></a>增强的 Microsoft Teams 会议室
 
 ![呈现增强的会议室。](media/emr1.png)
 
-本部分介绍 Microsoft 如何将标准会议室转换为增强型Microsoft Teams 会议室，从而提供最佳的新Teams前排体验。 将本文用于会议室设计和技术指南、推荐产品和 Microsoft 企业设施参考规范。
+本部分介绍 Microsoft 如何将标准会议室转换为增强的Microsoft Teams 会议室，从而提供最佳的新 Teams 前排体验。 将本文用于会议室设计和技术指南、推荐产品和 Microsoft 企业设施参考规范。
 
 ## <a name="microsofts-vision-for-the-future-of-meeting-rooms"></a>Microsoft 对会议室未来的愿景
 
@@ -163,11 +161,11 @@ Microsoft 看到了会议沉浸式会议和围绕人员设计的空格的未来�
 
 会议未来的愿景基于一个简单的信念：会议应该提供的不仅仅是一次性事务。 会议将专为每个人设计，无论是在会议室里还是在世界各地。
 
-## <a name="what-is-an-enhanced-microsoft-teams-room"></a>什么是增强Microsoft Teams会议室？
+## <a name="what-is-an-enhanced-microsoft-teams-room"></a>什么是增强的 Microsoft Teams 会议室？
 
-在 Microsoft 的混合工作场所中，下一代会议室标准由远程和室内参与者的需求告知。 增强的会议室是一个Microsoft Teams会议室，旨在提供 *提升* 的混合会议体验，培养更自然和沉浸式连接，同时让会议中的每个人都感到被包容、代表和富有成效。 会议室遵循一系列原则，通过结合Teams 会议室软件和硬件功能和房间配置指南来实现。
+在 Microsoft 的混合工作场所中，下一代会议室标准由远程和室内参与者的需求告知。 增强的会议室是一个 Microsoft Teams 会议室，旨在提供 *提升* 的混合会议体验，培养更自然和沉浸式连接，同时让会议中的每个人都感到被包容、代表和高效。 会议室遵循一系列原则，通过结合Teams 会议室软件和硬件功能和房间配置指南来实现。
 
-增强Microsoft Teams会议室的概念围绕一组体验原则支持的两个关键目标进行设计。
+增强的 Microsoft Teams 会议室的概念围绕一组体验原则支持的两个关键目标进行设计。
 
 **目标 1：会议中的每个人都感到被包括、代表和富有成效。**
 
@@ -189,19 +187,19 @@ Microsoft 看到了会议沉浸式会议和围绕人员设计的空格的未来�
 
 特定功能部署的示例：
 
-- 利用我们在所有类型的会议空间中的新前排前厅显示体验，其中有一个支持它的Microsoft Teams会议室解决方案。
+- 利用我们在所有类型的会议空间中的新前排前厅显示体验，其中有一个支持它的 Microsoft Teams 会议室解决方案。
 
-- 使用传统的Microsoft Teams会议室体验实现曲线表和正面布局，以促进会议室中更好的人际连接，同时保持所有会议空间的体验连续性。
+- 使用传统的 Microsoft Teams 会议室体验实现曲线表和正面布局，以促进会议室中更好的人际连接，同时保持所有会议空间的体验连续性。
 
 ## <a name="when-should-you-deploy-this-room-type"></a>何时应部署此会议室类型？
 
-增强的Microsoft Teams 会议室不是取代组织内所有其他会议空间，而是作为现有会议空间的补充，利用Microsoft Teams。 它们应在组织内战略性地部署到与远程会议参与者进行面对面交互最受重视的空间和位置。
+增强的Microsoft Teams 会议室不是取代组织内所有其他会议空间，而是作为利用 Microsoft Teams 的现有会议空间的补充。 它们应在组织内战略性地部署到与远程会议参与者进行面对面交互最受重视的空间和位置。
 
-Microsoft Teams 会议室将继续提供通过软件更新提供的以人为中心的混合会议体验。 但是，有硬件技术和房间配置指南在优化一些增强的体验方面起着关键作用。 这是这些组件的组合，这些组件构成了增强的Microsoft Teams会议室。 在评估要演变为增强Microsoft Teams会议室的Microsoft Teams 会议室数时，请考虑以下事项：
+Microsoft Teams 会议室将继续提供通过软件更新提供的以人为中心的混合会议体验。 但是，有硬件技术和房间配置指南在优化一些增强的体验方面起着关键作用。 这是构成增强的 Microsoft Teams 会议室的这些组件的组合。 在评估要演变为增强的 Microsoft Teams 会议室的Microsoft Teams 会议室数时，请考虑以下事项：
 
 - 需要进行哪些硬件升级和/或投资。
 
-- 大多数会议室旨在最大化有价值的平方间，在会议室尺寸和会议室容量之间有着密切的关系。 增强的Microsoft Teams会议室将会议体验置于最大化面积之上。 并不是每个组织都能为每个会议空间设置这种优先级，因为这样可以减少他们能够拥有的会议室数。
+- 大多数会议室旨在最大化有价值的平方间，在会议室尺寸和会议室容量之间有着密切的关系。 增强的 Microsoft Teams 会议室将会议体验放在优先级，高于最大程度地提高面积。 并不是每个组织都能为每个会议空间设置这种优先级，因为这样可以减少他们能够拥有的会议室数。
 
 ### <a name="understanding-this-space"></a>了解此空间
 
@@ -213,9 +211,9 @@ Microsoft Teams 会议室将继续提供通过软件更新提供的以人为中�
 
 ### <a name="what-is-this-space-used-for"></a>此空间的用途是什么？
 
-此空间专门为物理室中的一小群人提供最身临其境的Teams会议体验。
+此空间专门为物理室中的一小群人提供最身临其境的 Teams 会议体验。
 
-与典型的Microsoft Teams会议室一样，会议参与者能够远程和本地会面，在演示和共同创建内容的同时无缝协作。
+与典型的 Microsoft Teams 会议室一样，会议参与者能够远程和本地会面，在演示和共同创建内容的同时无缝协作。
 
 ### <a name="how-is-this-space-laid-out"></a>此空间是如何布局的？
 
@@ -239,21 +237,21 @@ Microsoft Teams 会议室将继续提供通过软件更新提供的以人为中�
 
 ### <a name="how-do-the-front-of-room-displays-work"></a>会议室前显示器的工作原理如何？
 
-此会议室针对名为前排的Microsoft Teams 会议室布局进行了优化，并通过专用的短抛高分辨率投影器显示，创建了专门为Teams会议设计的沉浸式会议前体验。
+此会议室针对名为前排的Microsoft Teams 会议室布局进行了优化，并通过专用的短抛高分辨率投影器显示，创建了专门为 Teams 会议设计的沉浸式会议室前体验。
 
 ### <a name="what-is-front-row"></a>什么是前行？
 
 为了使会议室中的人员能够更好地与远程参与者建立联系，并支持在会议之前、期间和之后进行协作，Microsoft 为称为前排Microsoft Teams 会议室引入了新的内容布局。 在视觉上，此新布局将视频库移到屏幕底部，并按特定比率进行固定，以保持人脸的大小保持逼真。 使用此布局，室内参与者可以在水平平面上面对面地看到远程同事，就像他们在同一个房间一样。
 
-会议内容由上下文流体组件（如议程、任务和笔记）包围，这些组件可以实时更新，帮助参与者保持参与和高效工作。 此外，会议聊天会清晰地呈现在视图中，以便在从Teams会议室加入Teams会议时，可以实时轻松地查看和参与对话。 在增强的Microsoft Teams会议室中，此内容显示在宽纵横比屏幕上，以最大化会议内容的大小和可同时查看的参与者数。
+会议内容由上下文流体组件（如议程、任务和笔记）包围，这些组件可以实时更新，帮助参与者保持参与和高效工作。 此外，会议聊天会清晰地呈现在视图中，以便在从 Teams 会议室加入 Teams 会议时，可以轻松地实时查看和参与对话。 在增强的 Microsoft Teams 会议室中，此内容显示在宽纵横比屏幕上，以最大化会议内容的大小和可以同时查看的参与者数。
 
-单一和双显示配置都支持此布局。 虽然前排布局在增强的会议室中尤其有影响，但无论家具和硬件配置如何，前排都可以在Windows上运行的任何Teams会议室中使用。
+单一和双显示配置都支持此布局。 虽然前排布局在增强的会议室中尤其有影响，但无论家具和硬件配置如何，前排都可以在 Windows 上运行的任何 Teams 会议室中使用。
 
 ### <a name="how-do-you-co-create-content"></a>如何共同创建内容？
 
-在Microsoft Teams 会议室中，用户可以使用智能捕获功能利用传统的模拟白板。 对于所有参与者可以一起绘制和墨迹的现代化体验，可以使用触摸屏前厅显示器、电脑、手机或平板电脑等配套设备以及通过Microsoft Surface Hub来访问Microsoft Whiteboard。
+在Microsoft Teams 会议室中，用户可以使用智能捕获功能利用传统的模拟白板。 对于所有参与者可以一起绘制和墨迹的现代化体验，可以使用触摸屏前厅显示器、电脑、手机或平板电脑等配套设备以及通过Microsoft Surface Hub访问 Microsoft Whiteboard。
 
-## <a name="enhanced-microsoft-teams-room-design-guidance"></a>增强Microsoft Teams会议室设计指南
+## <a name="enhanced-microsoft-teams-room-design-guidance"></a>增强的 Microsoft Teams 会议室设计指南
 
 本部分旨在介绍如何从头开始建造一个房间。
 
@@ -267,7 +265,7 @@ Microsoft Teams 会议室将继续提供通过软件更新提供的以人为中�
 
 #### <a name="room-capacity"></a>会议室容量
 
-此增强Microsoft Teams会议室针对 6 到 8 人进行了优化。
+此增强的 Microsoft Teams 会议室针对 6 到 8 人进行了优化。
 
 #### <a name="room-furniture"></a>会议室家具
 
@@ -277,11 +275,11 @@ Microsoft Teams 会议室将继续提供通过软件更新提供的以人为中�
 
 #### <a name="equipment-mounting"></a>设备装载
 
-选择硬件位置通常由在给定会议空间中使用的Teams会议室认证硬件的选择所驱动。
+选择硬件位置通常由在给定会议空间中使用的 Teams 会议室认证硬件的选择所驱动。
 
 对于 Microsoft 设施中增强型会议室的初始部署，我们选择将Microsoft Teams 会议室计算和触摸控制台装载到表中，并使用集成相机和音栏设备 (空间音频的离散左通道和右通道音频) 安装在专用家具上，位于显示图像的下方以及会议室前投影和表格之间。 请务必使控制台在参与者的触手可及范围内，而不会妨碍他们使用表来处理个人设备和/或文档。 对于显示器，使用短抛高分辨率投影器。
 
-大多数参与者将通过个人设备加入Teams会议，选择在此类会议室中共享内容。 但是，对于无法加入会议呼叫的用户，还应以易于访问的方式在表中提供室内本地视频演示文稿。
+大多数参与者将通过个人设备加入 Teams 会议，选择在此类型的会议室中共享内容。 但是，对于无法加入会议呼叫的用户，还应以易于访问的方式在表中提供室内本地视频演示文稿。
 
 #### <a name="touch-console-placement"></a>触摸控制台放置
 
@@ -289,7 +287,7 @@ Microsoft Teams 会议室触摸控制台应安装在会议参与者轻松到达�
 
 #### <a name="local-video-presentation"></a>本地视频演示文稿
 
-虽然许多参与者可以选择通过个人设备加入Teams会议来共享此类会议室中的内容 Teams，但还应以易于访问的方式在表中提供会议室内的本地视频演示文稿。
+虽然许多参与者可以选择通过个人设备加入 Teams 会议来共享此类会议室中的内容，但还应以易于访问的方式在表中提供室内本地视频演示文稿。
 
 ## <a name="infrastructure"></a>基础 设施
 
@@ -321,7 +319,7 @@ Microsoft Teams 会议室触摸控制台应安装在会议参与者轻松到达�
 
 ### <a name="microsoft-teams-rooms-solution"></a>Microsoft Teams 会议室解决方案
 
-增强的Microsoft Teams会议室需要在 Microsoft Windows上使用Microsoft Teams 会议室。
+Microsoft Teams 的增强会议室需要在 Microsoft Windows 上使用Microsoft Teams 会议室。
 
 ### <a name="cameras"></a>相机
 
@@ -395,17 +393,17 @@ Microsoft Teams 会议室触摸控制台应安装在会议参与者轻松到达�
 
 #### <a name="microsoft-whiteboard"></a>Microsoft Whiteboard
 
-所有Teams 会议室都可以通过交互式协作设备（例如Microsoft Surface Hub、触摸屏前台显示器）以及电脑、手机或平板电脑等配套设备来利用Microsoft Whiteboard。
+所有Teams 会议室都可以通过交互式协作设备（例如Microsoft Surface Hub、触摸屏前厅显示器以及电脑、手机或平板电脑等配套设备）利用 Microsoft Whiteboard。
 
 #### <a name="traditional-whiteboard"></a>传统白板
 
-Windows上的所有Teams 会议室都可以使用智能捕获功能和辅助内容相机在Teams会议中利用传统的白板。
+Windows 上的所有Teams 会议室都可以使用智能捕获功能和辅助内容相机在 Teams 会议中利用传统的白板。
 
 ## <a name="recommended-products-for-this-space"></a>此空间的建议产品
 
-### <a name="microsoft-teams-room-console-and-compute"></a>Microsoft Teams会议室控制台和计算
+### <a name="microsoft-teams-room-console-and-compute"></a>Microsoft Teams 会议室控制台和计算
 
-- 基于Windows的Microsoft Teams 会议室解决方案。
+- 基于 Windows 的Microsoft Teams 会议室解决方案。
 
 如下所示：
 

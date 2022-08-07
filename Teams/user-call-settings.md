@@ -11,23 +11,21 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
-- m365initiative-voice
 audience: Admin
-appliesto:
-- Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
-- ms.teamsadmincenter.callqueues.overview"
-- Phone System - seo-marvel-apr2020
+- ms.teamsadmincenter.callqueues.overview
+- Phone System
+- seo-marvel-apr2020
 description: 了解如何为呼叫转接和委派配置用户设置。
-ms.openlocfilehash: 41d954f468166fd8600601f98ea98d5be129eccd
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+ms.openlocfilehash: 64907043448f44ff861ede026d0a4343899ad98b
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681993"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67272227"
 ---
 # <a name="configure-call-settings-for-your-users"></a>为用户配置呼叫设置
 
@@ -37,17 +35,17 @@ ms.locfileid: "65681993"
 - 你需要检查部门中所有用户的呼叫转发设置，并根据需要对其进行更正。
 - 已雇用一名新助理，你需要将助理添加为一组员工的代理人。
 
-可以使用Teams管理中心或 Teams PowerShell cmdlet 来查看和更改用户的呼叫设置。
+可以使用 Teams 管理中心或 Teams PowerShell cmdlet 查看和更改用户的呼叫设置。
 
-若要为用户设置呼叫设置，用户必须具有分配Microsoft 电话系统许可证。
+若要为用户设置呼叫设置，用户必须具有分配的 Microsoft Phone 系统许可证。
 
-## <a name="use-the-teams-admin-center"></a>使用Teams管理中心
+## <a name="use-the-teams-admin-center"></a>使用 Teams 管理中心
 
-可以使用Teams管理中心为用户配置呼叫转发和未应答设置、组呼叫取件和呼叫委派。
+可以使用 Teams 管理中心为用户配置呼叫转发和未应答设置、组呼叫取件和呼叫委派。
 
 若要配置即时调用转发设置，请执行以下操作：
 
-1. 在Teams管理中心，转到 **“用户** > **管理用户”** 并选择用户。
+1. 在 Teams 管理中心，转到 **“用户** > **管理用户”** ，然后选择一个用户。
 
 2. 在“用户详细信息”页上，转到 **“语音”** 选项卡。
 
@@ -61,7 +59,7 @@ ms.locfileid: "65681993"
 
 ## <a name="use-powershell"></a>使用 PowerShell
 
-可以使用 PowerShell 为用户配置呼叫转发和委派设置。  你将使用以下 cmdlet，这些 cmdlet 在 Teams PowerShell 模块版本 4.0 或更高版本中提供：
+可以使用 PowerShell 为用户配置呼叫转发和委派设置。  你将使用以下 cmdlet，这些 cmdlet 在 Teams PowerShell 模块版本 4.0 或更高版本中可用：
 
 - [Get-CsUserCallingSettings](/powershell/module/teams/get-csusercallingsettings) - 显示用户的呼叫转发设置、委托和委派者信息。
 - [Set-CsUserCallingSettings](/powershell/module/teams/set-csusercallingsettings) - 设置用户的调用转发设置。

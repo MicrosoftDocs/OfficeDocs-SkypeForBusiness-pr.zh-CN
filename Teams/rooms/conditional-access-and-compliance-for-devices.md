@@ -11,13 +11,14 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_Rooms
 description: 了解建议的条件访问和Intune设备符合性策略以及Microsoft Teams 会议室的最佳做法。
-ms.openlocfilehash: 1221060121f47154549c6c6fc926415f4feabbe5
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: a1d86b002a4960e58541650643574428a2c3ede5
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65761304"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271027"
 ---
 # <a name="conditional-access-and-intune-compliance-for-microsoft-teams-rooms"></a>条件访问和Intune符合Microsoft Teams 会议室
 
@@ -25,17 +26,17 @@ ms.locfileid: "65761304"
 
 ## <a name="requirements"></a>要求
 
-Teams 会议室必须已部署在要将条件访问策略分配到的设备上。 如果尚未部署Teams 会议室，请参阅[为会议室和共享Teams设备创建资源帐户](with-office-365.md)，并在[Android上部署Microsoft Teams 会议室](../devices/collab-bar-deploy.md)，了解详细信息。
+Teams 会议室必须已部署在要将条件访问策略分配到的设备上。 如果尚未部署Teams 会议室，请参阅[为会议室和共享 Teams 设备创建资源帐户](with-office-365.md)，并在 [Android 上部署Microsoft Teams 会议室](../devices/collab-bar-deploy.md)，了解详细信息。
 
-使用条件访问需要Azure Active Directory P1 服务计划。 它包含在Microsoft Teams 会议室许可证中。
+使用条件访问需要 Azure Active Directory P1 服务计划。 它包含在Microsoft Teams 会议室许可证中。
 
 ## <a name="teams-rooms-conditional-access-best-practices"></a>Teams 会议室条件访问最佳做法
 
-条件访问策略可以在共享空间中且由多人使用的设备上保护登录过程。 有关Azure Active Directory (Azure AD) 中的条件访问概述，[请参阅Azure Active Directory中的条件访问是什么？](/azure/active-directory/conditional-access/overview)
+条件访问策略可以在共享空间中且由多人使用的设备上保护登录过程。 有关 Azure Active Directory (Azure AD) 中的条件访问概述，[请参阅 Azure Active Directory 中的条件访问是什么？](/azure/active-directory/conditional-access/overview)
 
 使用条件访问保护Teams 会议室时，请考虑以下最佳做法：
 
--   若要简化部署和管理，请在一个用户组中包含与Teams 会议室关联的所有Microsoft 365室资源帐户。
+-   若要简化部署和管理，请将与Teams 会议室关联的所有 Microsoft 365 会议室资源帐户包含在一个用户组中。
 
 -   为所有Teams 会议室资源帐户制定命名标准。 例如，帐户名称“mtr-room1@contoso.com”和“mtr-room2@contoso.com”都以前缀“mtr-”开头。
     当帐户名称标准化时，可以使用 Azure AD 中的动态组一次性自动将条件访问策略应用到所有这些帐户。 有关动态组的详细信息，请参阅 [动态填充组成员身份的规则](/azure/active-directory/enterprise-users/groups-dynamic-membership) 。
@@ -48,13 +49,13 @@ Teams 会议室必须已部署在要将条件访问策略分配到的设备上�
 
 1.  登录帐户必须是特定用户组的成员，在此示例中为“共享设备”组。
 
-2.  登录帐户必须仅尝试访问 Exchange Online、Microsoft Teams 或 SharePoint Online。 将拒绝登录任何其他客户端应用的尝试。
+2.  登录帐户必须仅尝试访问Exchange Online、Microsoft Teams 或 SharePoint Online。 将拒绝登录任何其他客户端应用的尝试。
 
-3.  资源帐户必须在Windows设备平台上登录。
+3.  资源帐户必须在 Windows 设备平台上登录。
 
 4.  资源帐户还必须从已知的受信任位置登录。
 
-如果成功满足这些条件，并且用户输入了正确的用户名和密码，则资源帐户将登录到Teams。
+如果成功满足这些条件，并且用户输入了正确的用户名和密码，则资源帐户将登录到 Teams。
 
 ## <a name="conditional-access-with-microsoft-intune-compliance-for-teams-rooms"></a>具有Microsoft Intune符合性的条件访问Teams 会议室
 
@@ -62,16 +63,16 @@ Teams 会议室必须已部署在要将条件访问策略分配到的设备上�
 
 有关Teams 会议室支持的Intune符合性策略的列表，请参阅[受支持的设备符合性策略](supported-ca-and-compliance-policies.md#supported-device-compliance-policies)。
 
-有关使用Teams Android设备设置Intune的详细信息，请参阅[配置Intune以注册基于Teams Android的设备](../devices/phones-displays-deploy.md#configure-intune-to-enroll-teams-android-based-devices)。
+有关使用 Teams Android 设备设置Intune的详细信息，请参阅[配置Intune以注册基于 Teams Android 的设备](../devices/phones-displays-deploy.md#configure-intune-to-enroll-teams-android-based-devices)。
 
-## <a name="example-windows-only-conditional-access-with-intune-device-compliance"></a>仅 (Windows) 示例：具有设备符合性Intune条件访问
+## <a name="example-windows-only-conditional-access-with-intune-device-compliance"></a>仅) windows (示例：具有设备符合性Intune条件访问
 
-在此示例中Teams 会议室Windows
+在此示例中，在 Windows 上Teams 会议室
 
-1. 要求在Windows上的Teams 会议室上运行防火墙。
+1. 要求在 Windows 上的Teams 会议室上运行防火墙。
 
 2. 要求 Microsoft Defender 在Teams 会议室上运行。
 
-3. 如果Teams会议室不符合上述任一要求，则不会将其标记为合规，并且设备不会登录。
+3. 如果 Teams 会议室不符合上述任一要求，则不会将其标记为合规，并且设备不会登录。
 
-此符合性策略适用于所有用户，而不仅仅是Teams资源帐户。
+此符合性策略适用于所有用户，而不仅仅是 Teams 资源帐户。

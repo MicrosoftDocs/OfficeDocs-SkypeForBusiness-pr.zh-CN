@@ -10,19 +10,19 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- m365initiative-meetings
+- Teams_ITAdmin_MTRP
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解Microsoft Teams 会议室托管服务。
 f1keywords: ''
-ms.openlocfilehash: 432e09204ae157ece03b2dd0c1f4ac3336adec52
-ms.sourcegitcommit: de0233e51364b7730c4b307fd41a2166eda3c3fc
+ms.openlocfilehash: 322e67a0bc6e03db7960e64d2cd5e7a97b930dbc
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/26/2022
-ms.locfileid: "65741874"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269577"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>Microsoft Teams 会议室托管服务
 
@@ -60,10 +60,10 @@ Microsoft Teams 会议室托管服务建立在 Microsoft 在启用软件的终�
 |**会议室规划和推出**   |会议室规划功能，让你了解房间设备清单，并决定新房间部署的设备标准。         |
 |**监视和故障排除**  |检测会议室系统和外围设备问题并提供由 Microsoft 驱动的主动事件管理响应的会议室运行状况监视。         |
 |**更新管理**    |管理和交付由 Microsoft 执行的会议室系统及其外围设备的应用程序和固件更新。         |
-|**Insights和建议**     |Insights客户运行状况、使用情况、使用率和设备可靠性。         |
+|**见解和建议**     |深入了解客户运行状况、使用情况、利用率和设备可靠性。         |
 |**合规性和认证**   |满足 Microsoft Online Services 的所有适用标准。         |
 |**客户支持**   |24x7x365 票证支持通过专用Microsoft Teams 会议室托管服务运营中心 (SOC) 。 如果适用，请代表你向其他主要供应商升级。 若要了解详细信息，请参阅 [客户支持](#customer-support)。|
-|**支持的设备**    |经过认证的Microsoft Teams 会议室系统及其外围设备。<br>*2021 年下半年Surface Hub支持*        |
+|**支持的设备**    |经过认证的Microsoft Teams 会议室系统及其外围设备。<br>*2021 年下半年将提供 Surface Hub 支持*        |
 |**支持的区域**    |请参阅 [支持的区域](#supported-regions)。        |
 |**集成**    |可与客户托管的“立即服务”集成。         |
 
@@ -79,7 +79,7 @@ Microsoft Teams 会议室托管服务建立在 Microsoft 在启用软件的终�
 |**监视**    |应用程序、操作系统、外围设备和固件运行状况监视。 自动检测因外围运行状况等问题而影响会议体验的问题。 通过Microsoft Teams 会议室托管服务门户对整个房间的房地产和事件进行运行状况概述。|
 |**故障排除和修正**     |在适用的情况下自动诊断和自动修正。 Microsoft Teams 会议室非自动化案例的托管服务 SOC 辅助事件修正。 服务现在集成以进行事件协调。         |
 |**更新管理**   |基于客户可配置部署通道的自动化会议应用程序和固件更新业务流程         |
-|**Insights和建议**   |使用情况、事件、运行状况和总体报告 (历史视图)          |
+|**见解和建议**   |使用情况、事件、运行状况和总体报告 (历史视图)          |
 
 ## <a name="service-prerequisites"></a>服务先决条件
 
@@ -124,7 +124,7 @@ Microsoft Teams 会议室高级版许可证在以下国家/地区可用，无需
 |包含的内容 |排除的内容 |已排除项的支持渠道  |
 |---------|---------|---------|
 |**服务配置**   |         |         |
-|有关Microsoft Teams 会议室 Windows配置的调查和指南，包括Microsoft Teams 会议室应用设置、第一方网络配置、第一方软件设置以及建议的电源设置和配置。     |不直接属于Microsoft Teams会议室应用的任何第三方软件配置和调查。 此外，需要第一方窗口外部配置的任何特定于 OEM 的配置，或Microsoft Teams会议室应用设置。         |第三方标准支持渠道         |
+|有关Microsoft Teams 会议室 Windows 配置的调查和指导，包括Microsoft Teams 会议室应用设置、第一方网络配置、第一方软件设置以及建议的电源设置和配置。     |不直接属于 Microsoft Teams 会议室应用的任何第三方软件配置和调查。 此外，需要在第一方窗口或 Microsoft Teams 会议室应用设置之外进行配置的任何特定于 OEM 的配置。         |第三方标准支持渠道         |
 |**会议室帐户设置**    |         |         |
 |有关应请求设置会议室帐户的可用文档的方向。 对于登录或帐户配置问题，执行初始调查。     |执行建议的修正或执行建议的修正、配置第三方身份验证提供程序以及配置单个帐户功能时出现的问题。        |Microsoft 主流支持和第三方身份验证提供程序支持         |
 |**外围支持**    |         |         |

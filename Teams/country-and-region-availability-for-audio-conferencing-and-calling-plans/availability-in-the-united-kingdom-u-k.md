@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 下面是适用于Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
-ms.openlocfilehash: 62c19b6e0fd029068238da0e654dc6c30ac1783d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 以下是适用于英国Skype for Business和 Microsoft Teams 的 Microsoft 365 和 Office 365 服务。
+ms.openlocfilehash: e22ffd5870bd28232ff4358fbb532c8a9e6b40d8
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610359"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271627"
 ---
 # <a name="availability-in-the-united-kingdom-uk"></a>在英国 (U.K.) 的可用性
 
 [查找其他国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或详细了解可以在哪些国家/地区使用音频会议和通话套餐。
 
-下面是适用于Microsoft 365 Office 365的Skype for Business Microsoft Teams服务。
+以下是适用于英国Skype for Business和 Microsoft Teams 的 Microsoft 365 和 Office 365 服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 
@@ -59,16 +59,16 @@ ms.locfileid: "58610359"
     
 |**功能**|**详细信息**|
 |:-----|:-----|
-|是否可购买通话套餐？  <br/> |是  <br/> |
-|通话套餐可用的分钟数。 |每个日历月有四个可用的计划选项： <ul><li>120 分钟国内呼叫计划 </li><li>240 分钟国内呼叫计划</li></li><li>1200 分钟国内呼叫计划 </li></li><li>国内和国际呼叫计划：国内 1200 分钟 -OR- 600 分钟国际呼叫 (以日历月份中首次达到者为准) </li></li> 
-|能否对高级号码进行出站呼叫？ <br/> | 部分支持：使用通信信用额度每分钟支付一次，支持对共享成本号码的调用 (前缀 44843、44844、44845、44870、44871、44872) 。  不支持调用 449XX 前缀。 <br/> |
+|是否可购买通话套餐？  |是          |   
+|通话套餐可用分钟数。    |每个日历月有五个可用的计划选项： <ul><li>即用即付呼叫计划 </li><li> 120 分钟国内呼叫计划 </li><li> 240 分钟国内呼叫计划 </li><li> 1200 分钟国内呼叫计划 </li><li> 国际呼叫计划：1200分钟的国内或600分钟的国际呼叫 (以日历月) </li></ul>| 
+|是否可以对高级号码进行出站调用？ <br/> | 部分支持：使用通信额度每分钟支付通信额度支持调用共享成本号码 (前缀 44843、44844、44845、44870、44871、44872) 。  不支持调用 449XX 前缀。 <br/> |
 |是否可以拨打呼出电话？  <br/> | 可向 196 国家/地区（包括[这些国家/地区](users-can-make-outbound-calls-to-these-countries-and-regions.md)）拨打。<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服务的收费和免费电话号码
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|你可以获取哪些首都或大城市的收费电话号码？  <br/> |<ul><li>比林多 <li>  Bolton <li>  Bournebourne <li>  Bradford <li>  Brighton <li>  Bristol <li>  Coventry <li>  外壳 <li>  Leeds <li>  西布斯 <li>  英格兰 <li>  伦敦 <li>  英国 <li>  Newcastle <li>  Nott一 <li>  Plymouth <li>  谢ffield <li>  Stoke-on-Trent <li>  Teesside (Middlesbrough)  </ul> |
+|你可以获取哪些首都或大城市的收费电话号码？  <br/> |<ul><li>伯明翰 <li>  博尔顿 <li>  伯恩茅斯 <li>  布拉德福德 <li>  布莱顿 <li>  布里斯托尔 <li>  考文垂 <li>  船体 <li>  利兹 <li>  莱斯特 <li>  利物浦 <li>  伦敦 <li>  曼彻斯特 <li>  纽卡斯尔 <li>  诺 丁 汉 <li>  普利茅斯 <li>  谢菲尔德 <li>  特伦特河畔斯托克 <li>  蒂塞德 (米德尔斯堡)  </ul> |
 |是否提供收费电话号码？  <br/> |是  <br/> |
 |是否提供免费电话号码？  <br/> |是  <br/> |
    

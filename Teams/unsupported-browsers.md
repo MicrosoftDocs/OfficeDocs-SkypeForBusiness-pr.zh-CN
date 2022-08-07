@@ -6,8 +6,6 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-MS.collection:
-- M365-collaboration
 ms.reviewer: nakulm
 f1.keywords:
 - NOCSH
@@ -16,12 +14,14 @@ search.appverid: MET150
 description: 了解 Teams 如何在不受支持的浏览器中支持音频和视频。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 134700ad29dac89174e5c05db697dd46911a86f9
-ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.collection:
+- M365-collaboration
+ms.openlocfilehash: 71fb02fae88f2f61d2d6435e126e20093a5a3baf
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66794120"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67267817"
 ---
 # <a name="microsoft-teams-meetings-on-unsupported-browsers"></a>不支持的浏览器上的 Microsoft Teams 会议
 

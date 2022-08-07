@@ -13,6 +13,7 @@ ms.collection:
 - M365-voice
 - m365solution-voice
 - m365solution-scenario
+- m365initiative-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -25,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 了解如何设置通话套餐，包括查看区域中可用的计划、购买&分配许可证、获取电话号码以及&位置添加紧急地址。
-ms.openlocfilehash: ddf2cc5559ae61a741de24e5b2157826617e5ca2
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: a4acb51bad8e8ad309357fcd497c1554fc568928
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156670"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271567"
 ---
 # <a name="set-up-calling-plans"></a>设置通话套餐
 

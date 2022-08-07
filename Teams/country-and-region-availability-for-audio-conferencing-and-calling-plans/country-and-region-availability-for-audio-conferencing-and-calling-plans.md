@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 了解某个国家或地区是否提供音频会议、电话系统、通话套餐、通信信用额度以及免费电话号码和免费电话号码。
-ms.openlocfilehash: 7693ae0421d186d1ac230d48bf4df2369aa4e3f8
-ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
+ms.openlocfilehash: 0bc0013f27e890e56224dcc1c645afbaf94b699a
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "66682461"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269177"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>音频会议和通话套餐的国家/地区可用性
 
@@ -205,6 +205,11 @@ ms.locfileid: "66682461"
 使用页面顶部的下拉列表搜索国家/地区，以确定哪些服务可用。
 
 ### <a name="calling-plans"></a>通话套餐
+
+|功能     |详细信息  |
+|----------|-----------|
+|是否可购买通话套餐？  |是          |   
+|通话套餐可用分钟数。    |每个日历月有五个可用的计划选项： <ul><li>即用即付呼叫计划 </li><li> 120 分钟国内呼叫计划 </li><li> 240 分钟国内呼叫计划 </li><li> 1200 分钟国内呼叫计划 </li><li> 国际呼叫计划：1200分钟的国内或600分钟的国际呼叫 (以日历月) </li></ul>|
 
 除了电话系统外，用户还可以通过通话套餐拨打和接听电话。 首先获取用户 (订阅者) 电话号码 (不是要分配给用户的服务号码) ，然后分配呼叫计划。 有两种类型的通话套餐可用：**国内****和国际**。 有关详细信息，请参阅[电话系统和通话套餐](../calling-plan-landing-page.md)。
 

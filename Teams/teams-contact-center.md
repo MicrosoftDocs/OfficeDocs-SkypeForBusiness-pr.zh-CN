@@ -13,12 +13,14 @@ f1.keywords:
 description: Microsoft Teams 的集成联系人中心即服务 (CCaaS) 解决方案概述
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 78dc2c412302aa4fdcadde6c77e56dcf6757f3cf
-ms.sourcegitcommit: 4be2a5db44972b35bdde5752eea0d74cf831607a
+ms.collection:
+- M365-voice
+ms.openlocfilehash: 3125c79c5af23106420e2f6825128f170db4ff82
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "66642737"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269977"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft Teams 的联系人中心集成
 
@@ -26,7 +28,7 @@ ms.locfileid: "66642737"
 
 ## <a name="what-is-contact-center-integration-for-microsoft-teams"></a>什么是 Microsoft Teams 的联系人中心集成？
 
-Microsoft Teams 通过充当跨其通信模式（包括聊天、视频会议和呼叫）的内部和外部客户连接中心来支持客户交互工作流。 对于某些组织，Microsoft Teams 的[云语音功能](./cloud-voice-landing-page.md)（包括[自动助理](./what-are-phone-system-auto-attendants.md)和[呼叫队列）](./create-a-phone-system-call-queue.md)满足其需求。
+Microsoft Teams 通过充当跨其通信模式（包括聊天、视频会议和呼叫）的内部和外部客户连接中心来支持客户交互工作流。 对于某些组织，Microsoft Teams 的 [云语音功能](./cloud-voice-landing-page.md)（包括 [自动助理](./what-are-phone-system-auto-attendants.md) 和 [呼叫队列）](./create-a-phone-system-call-queue.md)满足其需求。
 
 对于希望使用业务工具和工作流的解决方案来推动客户旅程的组织，Microsoft Teams 联系中心集成允许联系中心即服务 (CCaaS) 解决方案提供商将其解决方案集成到 Teams 中。
 

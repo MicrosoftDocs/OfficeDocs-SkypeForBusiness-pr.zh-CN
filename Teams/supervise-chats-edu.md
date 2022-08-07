@@ -15,12 +15,14 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解 Microsoft Teams 会议中监督式聊天。
-ms.openlocfilehash: c355730424ec164c2853d4f4dc55956fb7554ce2
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.collection:
+- M365-collaboration
+ms.openlocfilehash: 5cee0678e48a0fcdeb340b90e95981c3b1759f83
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66789977"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271467"
 ---
 # <a name="supervised-chats-in-microsoft-teams"></a>Microsoft Teams 中的监督聊天
 

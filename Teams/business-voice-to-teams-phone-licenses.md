@@ -1,5 +1,5 @@
 ---
-title: 从商务语音移动到Teams 电话许可证
+title: 从商务语音移动到 Teams 电话许可证
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -7,27 +7,26 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.localizationpriority: medium
-MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 search.appverid: MET150
-description: 了解如何将 Business Voice 许可证更改为Teams 电话许可证。
+description: 了解如何将 Business Voice 许可证更改为 Teams Phone 许可证。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e9e973d00761e62e62a3c749163f9e6dcaa8a636
-ms.sourcegitcommit: e38776625a3623216b0d5f092fffaff67519b1a6
+ms.collection:
+- M365-voice
+ms.openlocfilehash: 6e7622e4b78e57f45209b90a525eb5fefbe8cd66
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66057092"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67271227"
 ---
-# <a name="move-from-business-voice-to-teams-phone-licenses"></a>从商务语音移动到Teams 电话许可证
+# <a name="move-from-business-voice-to-teams-phone-licenses"></a>从商务语音移动到 Teams 电话许可证
 
 到 2022 年 6 月底，Business Voice 将停用，因此[我们建议企业切换到Microsoft Teams 电话及通话套餐捆绑许可证](https://techcommunity.microsoft.com/t5/small-and-medium-business-blog/teams-phone-with-calling-plan-available-in-33-markets-on-january/ba-p/2967643)。
 
-Business Voice 捆绑了以下三Teams加载项许可证：
+Business Voice 捆绑了以下三个 Teams 加载项许可证：
 
-- **Microsoft Teams** 中基于云的电话系统的Microsoft Teams 电话。
+- **Microsoft Teams 电话** Microsoft Teams 中基于云的电话系统。
 - **用于** 电话拨入式会议和会议拨号会议的音频会议。
 - 面向公共交换电话网络的国内呼叫 **的 Microsoft 呼叫计划** (PSTN) 连接。
 
@@ -54,8 +53,8 @@ Business Voice 捆绑了以下三Teams加载项许可证：
 
 | 旧的许可证计划 | 建议的许可证计划 | 说明 |
 | ---------------- | ------------------------ | ----------- |
-| 包含通话套餐的商务语音 | Teams 电话通话套餐和Microsoft Teams音频会议以及拨出到美国/CAN | 提供基于云的电话系统功能、将 Microsoft 作为 PSTN 提供商的国内呼叫计划，以及拨入和拨入功能，以便由许可用户组织的会议与会者。 |
-| 不使用通话套餐的业务语音 | Teams 电话标准和Microsoft Teams音频会议与拨号到美国/CAN | 提供基于云的电话系统功能，这些功能可[与第三方呼叫计划与 PSTN 提供商结合使用运营商连接或直接路由](pstn-connectivity.md)、拨入和拨入和拨入功能，以与许可用户组织的与会者会面。 |
+| 包含通话套餐的商务语音 | Teams Phone with Calling Plan and Microsoft Teams 音频会议，拨出到美国/CAN | 提供基于云的电话系统功能、以 Microsoft 为 PSTN 提供商的国内呼叫计划，以及拨入和拨入功能，以与许可用户组织的与会者会面。 |
+| 不使用通话套餐的业务语音 | Teams 电话标准版和Microsoft Teams 音频会议拨出到美国/CAN | 提供基于云的电话系统功能，这些功能可以 [与第三方呼叫计划与 PSTN 提供商结合使用 Operator Connect 或直接路由](pstn-connectivity.md) ，以及拨入和拨入功能，以便与许可用户组织的与会者会面。 |
 
 ## <a name="how-to-update-licenses"></a>如何更新许可证
 
@@ -78,7 +77,7 @@ Business Voice 捆绑了以下三Teams加载项许可证：
 1. 在 **“许可证和应用** ”屏幕上，取消选择商务语音许可证。
     > [!IMPORTANT]
     > 尚不保存更改。 如果在不添加新许可证的情况下保存更改，则将取消预配用户帐户并取消分配电话号码。
-1. 取消选择商务语音后，请检查新的Teams 电话和音频会议许可证。
+1. 取消选择商务语音后，请检查新的 Teams 电话和音频会议许可证。
 1. 现在，可以通过选择“保存更改”来安全地 **保存所做的更改**。
 
 用户的许可证将更新，不应影响服务可用性。
@@ -96,13 +95,13 @@ Business Voice 捆绑了以下三Teams加载项许可证：
     > [!IMPORTANT]
     > “ **替换** ”选项将删除所选用户的所有现有许可证。  因此，必须为用户选择所需的许可状态，包括正在使用的任何其他许可证，如Microsoft 365 商业高级版。
     >
-    > 此外，如果所选用户具有不同的基本许可证配置，则它们将被所选许可证覆盖，这可能会影响Microsoft 365的其他领域。
+    > 此外，如果所选用户具有不同的基本许可证配置，则它们将被所选许可证覆盖，这可能会影响 Microsoft 365 的其他领域。
     >
     > 对于具有混合许可证设置的租户，建议将 [批量更新选项与 PowerShell 脚本配合](#option-3-bulk-user-license-update-using-a-powershell-script)使用。
 1. 在 **“许可证和应用** ”屏幕上，取消选择商务语音许可证。
     > [!IMPORTANT]
     > 尚不保存更改。 如果在不添加新许可证的情况下保存更改，则将取消预配所选用户的帐户，并取消分配电话号码。
-1. 取消选择商务语音后，请检查新的Teams 电话和音频会议许可证。
+1. 取消选择商务语音后，请检查新的 Teams 电话和音频会议许可证。
 1. 现在，可以通过选择“保存更改”来安全地 **保存所做的更改**。
   用户的许可证将更新，不应影响服务可用性。
 
@@ -115,10 +114,10 @@ Business Voice 捆绑了以下三Teams加载项许可证：
 若要使用此方法，你将遵循以下常规步骤：
 
 1. 获取当前 Business Voice 许可证的特定于租户的许可证计划标识符。
-1. 获取新Teams 电话和音频会议许可证计划的租户特定标识符。
+1. 获取新的 Teams 电话和音频会议许可证计划的租户特定标识符。
 1. 验证新许可证计划是否具有与当前商务语音许可证相同的服务计划。
 1. 查找获得商业语音许可的租户用户 (或修改脚本以包含筛选器，以便根据需要选择一部分用户) 。
-1. 使用Teams 电话和音频会议计划更新用户的许可证配置。
+1. 使用 Teams 电话和音频会议计划更新用户的许可证配置。
 
 > [!IMPORTANT]
 > 提供的脚本是代码示例。 脚本不应按原样复制并在生产租户中运行，而无需对特定环境进行测试、验证和自定义。
@@ -132,7 +131,7 @@ Business Voice 捆绑了以下三Teams加载项许可证：
     Import-Module AzureAD
     ```
 
-1. 连接到Microsoft 365租户并提供租户管理员凭据。
+1. 连接到 Microsoft 365 租户并提供租户管理员凭据。
 
     ```powershell
     Connect-AzureAD
@@ -167,16 +166,16 @@ Business Voice 捆绑了以下三Teams加载项许可证：
     $skuSourceBV = Get-AzureADSubscribedSku  | where {$_.SkuPartNumber -eq "BUSINESS_VOICE_MED2_TELCO"}
     ```
 
-1. 使用下表标识新的Teams 电话和音频会议许可证 SKU 代码。
+1. 使用下表标识新的 Teams 电话和音频会议许可证 SKU 代码。
 
     | SKU 代码 | 许可证类型 |
     | -------- | ------------ |
     | MCOTEAMS_ESSENTIALS | 包含通话套餐的 Teams 电话 |
-    | MCOEV | Teams 电话标准 (无呼叫计划)  |
+    | MCOEV | Teams 电话标准版 (无呼叫计划)  |
     | MCOMEETADV | 音频会议 |
-    | Microsoft_Teams_Audio_Conferencing_select_dial_out | Microsoft Teams音频会议选择拨号 |
+    | Microsoft_Teams_Audio_Conferencing_select_dial_out | Microsoft Teams 音频会议选择“拨出” |
 
-1. 创建 PowerShell 变量以存储唯一的Teams 电话和音频会议 SKU 代码。
+1. 创建 PowerShell 变量以存储唯一的 Teams 电话和音频会议 SKU 代码。
     1. 请确保将标签替换 `SkuPartNumber` 为租户中可用的 SKU 代码。
     1. 在此示例中 `MCOTEAM_ESSENTIALS` ，我们使用的是 SKU 代码和 `MCOMEETADV` SKU 代码。
 
@@ -193,7 +192,7 @@ Business Voice 捆绑了以下三Teams加载项许可证：
     $servicePlan_CP = $skuSourceBV.ServicePlans | where {$_.ServicePlanName.ToString() -like "*PSTN*"}
     ```
 
-1. 在继续操作之前，请验证源 SKU (Business Voice) 和目标 SKU (Teams 电话和音频会议) 是否包含相同的服务计划。
+1. 继续操作之前，请验证源 SKU (Business Voice) 和目标 SKU (Teams 电话和音频会议) 是否包含相同的服务计划。
     1. 不匹配可能会触发许可证更改，从而中断用户的语音和音频会议服务。
     2. 创建变量以验证源 SKU 中的所有服务计划是否会替换为相同的目标服务计划。
 
@@ -249,14 +248,14 @@ Business Voice 捆绑了以下三Teams加载项许可证：
     Get-AzureAdUser | ForEach { $BVlicensed=$False ; For ($i=0; $i -le ($_.AssignedLicenses | Measure).Count ; $i++) { If($_.AssignedLicenses[$i].SkuId -eq $skuSourceBV.SkuId) { $BVlicensed=$true } } ; If( $BVlicensed -eq $true) { $usersLicensedOldSKU.Add($_)} }
     ```
 
-1. 现在，使用新的用户列表，执行更新活动以删除 Business Voice 许可证，并使用``$LicensesToUpdate``之前创建的对象添加Teams 电话和音频会议许可证。
+1. 现在，使用新的用户列表，使用前面创建的对象执行更新活动以删除 Business Voice 许可证并添加 Teams 电话和音频会议许可证 ``$LicensesToUpdate`` 。
 
     ```powershell
     $usersLicensedOldSKU | ForEach { Set-AzureADUserLicense -ObjectId $_.ObjectId -AssignedLicenses $LicensesToUpdate; Write-Host "Completed Update of user " $_.UserPrincipalName;  }
     ```
 
 > [!NOTE]
-> 如果没有足够的可用Teams 电话和/或音频会议许可证来替换 Business Voice，则在用户分配期间，只要许可证池耗尽，就会收到使用 **SKU guid 的订阅没有任何可用许可证** 的错误。
+> 如果没有足够的可用 Teams 电话和/或音频会议许可证来替换商务语音，则在用户分配期间，只要许可证池耗尽，就会收到使用 **SKU guid 的订阅没有任何可用许可证** 的错误。
 
 ### <a name="full-script"></a>完整脚本
 
@@ -341,7 +340,7 @@ $usersLicensedOldSKU | ForEach { Set-AzureADUserLicense -ObjectId $_.ObjectId -A
 ### <a name="how-to-bulk-update-licenses-using-group-based-licensing"></a>如何使用基于组的许可批量更新许可证
 
 1. 转到 [portal.azure.com](https://portal.azure.com) 并使用管理员凭据登录。
-1. 转到 **Azure Active Directory**，然后在左侧菜单中选择 **“许可证**”。
+1. 转到 **Azure Active Directory** ，然后在左侧菜单中选择 **“许可证**”。
 1. 若要验证分配有商务语音许可证的组，请选择 **“所有产品** ”，然后选择“商务语音”计划。
 1. 选择 **许可组** 或 **许可用户**。 你将在右侧窗格中找到许可组的列表。
 1. 选择组名称以打开组分配详细信息。
@@ -363,4 +362,4 @@ $usersLicensedOldSKU | ForEach { Set-AzureADUserLicense -ObjectId $_.ObjectId -A
 1. 在工具栏上选择 **“管理产品许可证** ”。
 1. 在 **“许可证和应用** ”屏幕上，查看他们分配给他们的许可证。
 
-如果所有目标用户都分配了正确的许可证，则你已完成将 Business Voice 许可证更新为Teams 电话和音频会议许可证。
+如果所有目标用户都分配了正确的许可证，则你已完成将商务语音许可证更新到 Teams 电话和音频会议许可证。

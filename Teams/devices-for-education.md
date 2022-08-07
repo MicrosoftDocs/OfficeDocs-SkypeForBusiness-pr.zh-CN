@@ -1,5 +1,5 @@
 ---
-title: Teams教育版设备
+title: 适用于教育的 Teams 设备
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -13,29 +13,27 @@ description: 概述了Teams 会议室系统和设备在各种空间和教师设�
 ms.collection:
 - M365-voice
 - M365-collaboration
-- skype-for-business-itpro
-- skype-for-business-online
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52bc9b577b545ff7658b0317baca7eb6098dd335
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 7e7ba6b94466874a1e1ab07496ece0d3c4f34dfb
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675134"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269347"
 ---
-# <a name="teams-devices-for-education"></a>Teams教育版设备
+# <a name="teams-devices-for-education"></a>适用于教育的 Teams 设备
 
 ## <a name="overview"></a>概述
 
 ### <a name="hybrid-and-blended-education-is-here-to-stay"></a>混合和混合教育在这里停留
 
-未来的Learning将是混合和混合的。 教师和学生都需要在一系列空间中实现流畅的体验，其动机是在学习方式和地点方面需要灵活性。 教育不会局限于物理教室或严格虚拟环境：远程参与将和亲自学习一样有活力。 混合和混合学习提供的灵活性，虽然对所有人都不新鲜，但对许多人而言将是全新的，并将产生深远的影响。
+将来的学习将是混合和混合的。 教师和学生都需要在一系列空间中实现流畅的体验，其动机是在学习方式和地点方面需要灵活性。 教育不会局限于物理教室或严格虚拟环境：远程参与将和亲自学习一样有活力。 混合和混合学习提供的灵活性，虽然对所有人都不新鲜，但对许多人而言将是全新的，并将产生深远的影响。
 
-现代混合教室将是无边界的。 学生和教育工作者将通过同步和异步学习以及互动的多模式参与来获得支持，这些互动活动旨在满足每一个学生在每种情况下的需求。 Teams设备已设计为支持一系列空格，因此没有声音闻所未闻。
+现代混合教室将是无边界的。 学生和教育工作者将通过同步和异步学习以及互动的多模式参与来获得支持，这些互动活动旨在满足每一个学生在每种情况下的需求。 Teams 设备已设计为支持一系列空格，因此没有声音闻所未闻。
 
 ### <a name="student-and-educators-alike-excel-with-microsoft-teams-rooms"></a>学生和教师都擅长Microsoft Teams 会议室
 
@@ -43,7 +41,7 @@ ms.locfileid: "65675134"
 
 - 在数字或混合学习环境中使用个人和共享设备可帮助学生社交并获得他们一生中将使用的关键技能。
 
-- Teams功能不限于课堂。 教师和管理员可以轻松地与同一所学校内或整个学区内的其他教职员工从他们的家、办公室或他们优化环境的其他地方联系。 借Teams，可以随时随地访问专业开发。
+- Teams 功能不限于课堂。 教师和管理员可以轻松地与同一所学校内或整个学区内的其他教职员工从他们的家、办公室或他们优化环境的其他地方联系。 借助 Teams，可以随时随地访问专业开发。
 
 ### <a name="bring-digital-flexibility-to-physical-spaces"></a>为物理空间带来数字灵活性
 
@@ -52,31 +50,31 @@ ms.locfileid: "65675134"
 ![将来的技术呈现显示在物理室中显示的远程与会者。](media/devices1.png)
 *此映像表示未来的技术。*
 
-## <a name="why-choose-a-native-teams-experience"></a>为何选择本机Teams体验？
+## <a name="why-choose-a-native-teams-experience"></a>为何选择本机 Teams 体验？
 
-Microsoft Teams经过认证的外围设备和会议室是专门构建的本机呼叫和会议解决方案，在经过Teams认证的第一方和第三方硬件上提供完整的Teams会议体验、高清音频和视频。
+Microsoft Teams 认证的外围设备和会议室是专门构建的本机呼叫和会议解决方案，在 Teams 认证的第一方和第三方硬件上提供完整的 Teams 会议体验，具有高清音频和视频。
 
-当我们说“专用和本机”时，我们指的是 Microsoft 为Teams用户专门和周到地设计体验。
+当我们说“用途生成和本机”时，我们指的是 Microsoft 为 Teams 用户专门和周到地设计体验。
 
-Teams 会议室通过提供独特的室内功能（如单击联接、以智能方式将物理白板共享到会议中的内容摄像头）以及邻近功能（如将Teams会议从个人设备无缝传输到会议室）来超越个人设备上的Teams。
+Teams 会议室通过提供独特的室内功能（如单触式联接、以智能方式将物理白板共享到会议中的内容摄像头）以及邻近功能（如将 Teams 会议从个人设备无缝传输到会议室）来超越在个人设备上完成的操作。
 
-依赖外部服务或自带设备连接的非本机和自建系统永远不会真正与本机Teams室的易用性或沉浸式质量相匹配。
+依赖外部服务或自带设备连接的非本机和自建系统永远不会真正与本机 Teams 会议室的易用性或沉浸式质量相匹配。
 
-**专为Teams而构建**：
+**专为 Teams 构建**：
 
 高级音频、视频和共享
 
 **适用于任何房间的扩展设备组合**：
 
-从跨Android或Windows操作系统的完全模块化或集成外形因素中进行选择
+在 Android 或 Windows 操作系统中从完全模块化或集成的外形因素中进行选择
 
 **重新构想的房间体验**：
 
-参加无摩擦Teams会议，为学生和教育工作者参与包容性的协作会议
+无摩擦加入 Teams 会议，为学生和教育工作者参与包容性的协作会议
 
 **从一个位置轻松管理**：
 
-完全管理和使设备保持最新状态，并准备好进入Teams 管理员中心，并使用 Microsoft Teams 会议室高级版 从 Microsoft 启用 24x7 主动管理
+完全管理和使设备保持最新状态，并准备好进入 Teams 管理员中心，并使用 Microsoft Teams 会议室高级版 从 Microsoft 启用 24x7 主动管理
 
 ## <a name="space-considerations"></a>空间注意事项
 
@@ -90,23 +88,23 @@ Teams 会议室通过提供独特的室内功能（如单击联接、以智能�
 
 对于新空间，预期使用房间应同时考虑家具和技术注意事项。 例如，在设计用于促进多个用途的房间时， (（例如单个工作和组交互) ）时，应将空间分隔成两个单独的区域，以获得最大效率。
 
-以下图像配对演示了现有教室空间 (顶部) 和新的多用途空间 (底部) 中的优化Teams设置：
+以下一对映像演示了现有教室空间 (顶级) 和新的多用途空间 (底部) 中的优化 Teams 设置：
 
-![呈现在现有教室中显示Teams设备。](media/devices2.png) ![呈现在有目的设计的空间中显示本机Teams设置。](media/devices3.png)
+![呈现在现有教室中显示 Teams 设备。](media/devices2.png) ![呈现在有目的设计的空间中显示本机 Teams 设置。](media/devices3.png)
 
 ### <a name="what-is-the-function-of-the-space"></a>空间的功能是什么？
 
 *空间中的活动是否侧重于协作共同创建？*
 
-创意需要布局和围绕用户协作设计的技术部署。 适当的空间可无缝地促进用户与技术之间的工作，甚至消除大多数新手用户的摩擦。 Teams设备旨在使年轻学生能够熟练地进行导航，并且教育工作者可以从首次使用开始进行控制和自定义。
+创意需要布局和围绕用户协作设计的技术部署。 适当的空间可无缝地促进用户与技术之间的工作，甚至消除大多数新手用户的摩擦。 Teams 设备设计为用户友好，使年轻学生能够熟练地导航，教育工作者可以从首次使用开始进行控制和自定义。
 
 *与亲自参与者和远程参与者共享内容是优先级的空间又如何呢？*
 
-内容共享和远程协作各自需要不同的物理布局和技术体验。 适当的空间有助于讨论，并使每个人都能够轻松地查看和查看共享内容。 无论你装备什么空间，从宿舍弹性空间到讲堂，都需要启用Teams。
+内容共享和远程协作各自需要不同的物理布局和技术体验。 适当的空间有助于讨论，并使每个人都能够轻松地查看和查看共享内容。 无论你装备什么空间，从宿舍弹性空间到讲堂，都需要启用 Teams。
 
 ## <a name="technology-considerations"></a>技术注意事项
 
-正确的音频和视频技术选择将帮助用户充分利用其Microsoft Teams会议。
+正确的音频和视频技术选择将帮助用户充分利用其 Microsoft Teams 会议。
 
 *音频*：
 
@@ -131,7 +129,7 @@ Teams 会议室通过提供独特的室内功能（如单击联接、以智能�
 
 ### <a name="what-are-the-right-cameras-for-each-space"></a>每个空间有哪些合适的摄像头？
 
-高质量的视频是现代Teams协作的必要条件。 相机技术已显著提高，高质量的摄像头现在可用于所有空间。
+高质量的视频是现代 Teams 协作的必要条件。 相机技术已显著提高，高质量的摄像头现在可用于所有空间。
 
 - 笔记本电脑和平板电脑等设备中包含的摄像头是参与视频通话的个人使用的绝佳起点。 对于希望为个人空间带来更丰富的视频体验的用户，外部摄像头表示从嵌入式设备上迈出的一步，并可用于更多方案和配置，确保呼叫参与者共享自己最优质的视图。 这些设备使用在每个电脑上找到的简单 USB 连接轻松安装。
 
@@ -141,13 +139,13 @@ Teams 会议室通过提供独特的室内功能（如单击联接、以智能�
 
 ### <a name="how-do-you-interact-virtually-beyond-video-streams"></a>如何在视频流之外进行虚拟交互？
 
-Teams会议不仅仅是针对参与者的音频和视频呼叫。 可以通过多种方式与内容动态共享和交互。
+Teams 会议不仅仅是针对参与者的音频和视频呼叫。 可以通过多种方式与内容动态共享和交互。
 
 常见的方案是直接从参与者的设备共享内容。 单个用户可以直接将各个应用程序的完整音频和视觉体验或屏幕的全部内容共享到会议，供每个人查看。 这会扩展到所有已安装设备的共享空间。 Microsoft Teams 会议室还可以选择使用有线监视器连接来允许参与者共享，即使他们无法单独加入会议。
 
-对于来自物理世界的内容，具有Microsoft Teams会议室系统的空格可以处理白板或文档相机，以便协调审查和讨论空间中的内容。
+对于来自物理世界的内容，具有 Microsoft Teams 会议室系统的空格可以处理白板或文档相机，以便协调审查和讨论空间中的内容。
 
-为了获得完全交互式体验，交互式显示 (（例如Surface Hub系列产品和 Microsoft 数字白板) 可轻松地为亲身学生和远程学生以交互方式创建内容。
+为了获得完全交互式的体验，交互式显示 (如 Surface Hub 产品系列和 Microsoft 数字白板) 使你能够轻松地与亲身学生和远程学生以交互方式创建内容。
 
 ## <a name="example-spaces"></a>示例空格
 
@@ -159,18 +157,18 @@ Teams会议不仅仅是针对参与者的音频和视频呼叫。 可以通过�
 
 *显示的解决方案如下：*
 
-用于认证Teams耳机的个人计算机设备。
+与经认证的 Teams 耳机一起使用的个人计算机设备。
 
 *为什么使用此布局和设备类型？*
 
-运行Teams的笔记本电脑可确保用户不局限于一个工作区，并且无需登录和退出任何会议即可移动其设置。 带内置麦克风的耳机将音频限制为会议参与者，并筛选背景噪音。 笔记本电脑的内置摄像头可确保所有会议参与者都能看到用户。
+运行 Teams 的笔记本电脑可确保用户不局限于一个工作区，并且无需登录和退出任何会议即可移动其设置。 带内置麦克风的耳机将音频限制为会议参与者，并筛选背景噪音。 笔记本电脑的内置摄像头可确保所有会议参与者都能看到用户。
 
 *示例**设备：*
 
 - [HP 笔记本电脑 - 14t-dq200](https://www.hp.com/shop/pdp/hp-laptop-14t-dq200-touch-optional-2d129av-1?jumpid=ma_intel-optane_product-tile_clamshell-laptops_1_2d129av-1_hp-laptop---14t-dq20)
 
 - 备用笔记本电脑选项包括：
-  - [Microsoft Surface Laptop 4](https://www.microsoft.com/d/surface-laptop-4/946627FB12T1?OCID=AID2200083_SEM_6341646f18fa14c7e4d80565e0debe72%3aG%3as&ef_id=6341646f18fa14c7e4d80565e0debe72%3aG%3as&s_kwcid=AL!4249!10!79302431130415!79302713431201&msclkid=6341646f18fa14c7e4d80565e0debe72&activetab=pivot%3aoverviewtab) - 适用于高等教育的更高版本
+  - [Microsoft Surface 笔记本电脑 4](https://www.microsoft.com/d/surface-laptop-4/946627FB12T1?OCID=AID2200083_SEM_6341646f18fa14c7e4d80565e0debe72%3aG%3as&ef_id=6341646f18fa14c7e4d80565e0debe72%3aG%3as&s_kwcid=AL!4249!10!79302431130415!79302713431201&msclkid=6341646f18fa14c7e4d80565e0debe72&activetab=pivot%3aoverviewtab) - 适用于高等教育的更高版本
   - [Microsoft Surface Go 笔记本电脑](https://www.microsoft.com/d/surface-laptop-go/94FC0BDGQ7WV?OCID=AID2200083_SEM_215e2d5fa8281476bdd84c555fcf1fad%3aG%3as&ef_id=215e2d5fa8281476bdd84c555fcf1fad%3aG%3as&s_kwcid=AL!4249!10!78890114459337!78890368468596&msclkid=215e2d5fa8281476bdd84c555fcf1fad&activetab=pivot%3aoverviewtab) - 适用于 K-12
 
 - [EPOS Sennheiser 头戴耳机 - 自适应 560](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/epos-sennheiser-adapt-560/467)
@@ -185,7 +183,7 @@ Teams会议不仅仅是针对参与者的音频和视频呼叫。 可以通过�
 
 *示例 A：*
 
-![使用个人扬声器呈现个人电脑设置，并在桌面上运行Teams。](media/devices5.png)
+![在桌面上运行个人扬声器和 Teams 的个人电脑设置的呈现。](media/devices5.png)
 
 *显示的解决方案如下：*
 
@@ -193,7 +191,7 @@ Teams会议不仅仅是针对参与者的音频和视频呼叫。 可以通过�
 
 *为什么使用此布局和设备类型？*
 
-更小、更安静、更专注的个人空间意味着用户不会分散公共共享空间或传统教室的干扰。 运行Teams的电脑允许专用工作区，USB 摄像头可确保用户在会议中看到高质量。 在会议音频不必与其他噪音和干扰竞争的专用空间中，免得使用免提电话设备。
+更小、更安静、更专注的个人空间意味着用户不会分散公共共享空间或传统教室的干扰。 运行 Teams 的电脑允许专用工作区，USB 相机可确保用户在会议中看到高质量。 在会议音频不必与其他噪音和干扰竞争的专用空间中，免得使用免提电话设备。
 
 *显示的设备：*
 
@@ -213,7 +211,7 @@ Teams会议不仅仅是针对参与者的音频和视频呼叫。 可以通过�
 
 *为什么使用此布局和设备类型？*
 
-此解决方案与示例 A 的用途相同，可解决集中的个人空间问题。 运行Teams的电脑允许将专用工作区与 USB 相机、麦克风和扬声器声栏组合在一起。
+此解决方案与示例 A 的用途相同，可解决集中的个人空间问题。 运行 Teams 的电脑允许将专用工作区与 USB 相机、麦克风和扬声器音栏组合在一起。
 
 *显示的设备：*
 
@@ -229,7 +227,7 @@ Teams会议不仅仅是针对参与者的音频和视频呼叫。 可以通过�
 
 教室，包括传统教室和反向教室，需要在场的所有人的积极参与。 各方之间有效的指导、讨论和协作是关键。
 
-![呈现配备Teams设备的教室。](media/devicesnew2.jpg)
+![呈现配备 Teams 设备的教室。](media/devicesnew2.jpg)
 
 *显示的解决方案如下：*
 
@@ -237,12 +235,12 @@ Teams会议不仅仅是针对参与者的音频和视频呼叫。 可以通过�
 
 *为什么使用此布局和设备类型？*
 
-大型显示器为远程参与者提供在会议室内的物理状态，以及会议室前扬声器，让所有人，甚至在离源最远的办公桌上听到他们的声音。 麦克风位于会议室的前面，让老师和学生都能听到。 可以捕获用于模拟内容的传统白板，并与会议室内和远程参与者共享。 数字Microsoft Whiteboard也是远程和亲自学生之间协作以及帖子课堂参考的良好解决方案。
+大型显示器为远程参与者提供在会议室内的物理状态，以及会议室前扬声器，让所有人，甚至在离源最远的办公桌上听到他们的声音。 麦克风位于会议室的前面，让老师和学生都能听到。 可以捕获用于模拟内容的传统白板，并与会议室内和远程参与者共享。 数字 Microsoft Whiteboard 也是远程学生和亲自学生之间协作以及课后参考的良好解决方案。
 
 *显示的设备：*
 
 - 会议室系统 - [Microsoft Surface Hub 2S](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/microsoft-surface-hub-2s/822)
-  - 请注意，Surface Hub解决方案表示协作和交互式使用的高级体验。 与大型显示器配对的[Microsoft Teams会议室解决方案](https://www.microsoft.com/microsoft-teams/across-devices/devices/category/teams-rooms/20?page=1&filterIds=)可以用作此方案中的替代方法。
+  - 请注意，Surface Hub 解决方案表示协作和交互式使用的高级体验。 在同一方案中，可以使用与大型显示器配对的 [Microsoft Teams 会议室解决方案](https://www.microsoft.com/microsoft-teams/across-devices/devices/category/teams-rooms/20?page=1&filterIds=) 作为替代方法。
 
 - 模拟白板捕获 - [Logitech Brio 内容相机工具包](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/logitech-brio-content-camera-kit/349)
 
@@ -258,7 +256,7 @@ Teams会议不仅仅是针对参与者的音频和视频呼叫。 可以通过�
 
 和教室一样，讲堂里有很多学生，他们必须专注于教育者和他们正在展示的任何信息。 然而，讲堂通常不需要学生之间的相同程度的互动。 重点是信息，而不是协作。
 
-![呈现配备Teams设备的讲堂。](media/devices9.png)
+![呈现配备 Teams 设备的讲堂。](media/devices9.png)
 
 *显示的解决方案如下：*
 
@@ -270,54 +268,54 @@ Teams会议不仅仅是针对参与者的音频和视频呼叫。 可以通过�
 
 *显示的设备：*
 
-- 会议室系统 - 使用已安装的投影仪和基于购物车的显示器[Teams的 Crestron Flex C100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)
+- 会议室系统 - 具有已安装的投影仪和基于购物车的显示器的 [Crestron Flex C100 for Teams](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)
 
 - 可选数字白板 - [Microsoft Surface Hub 2S](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/microsoft-surface-hub-2s/822)
 
-- 相机 – [AVer CAM520 Pro](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/aver-cam520-pro-standard/575)
+- 相机 - [AVer CAM520 Pro](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/aver-cam520-pro-standard/575)
 
 - 已安装音频 - [适用于大型会议室的 QSC 和 Sennheiser](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-in-ceiling-speakers/701)
 
 *安装或设置此解决方案包括：*
 
-高度复杂。 此会议室具有物理安装功能，需要知识渊博的 AV 部署合作伙伴来正确规划和部署相机和音频解决方案，以便它们能够无缝地为空间中的最终用户工作。 安装需要专业知识，因为它涉及到布线、音频配置以及正确配置Microsoft Teams会议室系统和关联的Surface Hub 2 设备。
+高度复杂。 此会议室具有物理安装功能，需要知识渊博的 AV 部署合作伙伴来正确规划和部署相机和音频解决方案，以便它们能够无缝地为空间中的最终用户工作。 安装需要专业知识，因为它与 Microsoft Teams 会议室系统和关联的 Surface Hub 2 设备的布线、音频配置和正确配置相关。
 
 ### <a name="multi-purpose-spaces"></a>多用途空格
 
-Teams几乎可以在任何可以想到的教育或多用途空间中实现。 库、混合用途演示文稿和协作空间、咖啡馆空间和露天空间都可以配备Teams系统或Teams设备。
+团队几乎可以在任何可以想到的教育或多用途空间中实现。 库、混合用途演示文稿和协作空间、咖啡馆空间和露天空间都可以配备 Teams 系统或 Teams 设备。
 
-![具有Teams设备的多用途空间的图像。](media/devices11.png)
+![具有 Teams 设备的多用途空间的图像。](media/devices11.png)
 
 *此解决方案显示为：*
 
-具有大型基于投影器的前厅显示器、多个用于操作的触摸控制台以及多个Surface Hub 2 台设备的会议室系统，供广泛使用。
+具有大型基于投影器的前厅显示、多个用于操作的触摸控制台和多个 Surface Hub 2 设备的会议室系统，供广泛使用。
 
 *显示的设备：*
 
-- 会议室系统 - 使用已安装的投[影仪Teams的 Crestron Flex C100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)
+- 会议室系统 - 具有已安装投影仪[的适用于 Teams 的 Crestron Flex C100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)
 
 - 可选双数字白板 - [Microsoft Surface Hub 2S](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/microsoft-surface-hub-2s/822)
 
-- 相机 – [Yealink UVC84](https://www.yealink.com/product/camera-uvc84)
+- 相机 - [Yealink UVC84](https://www.yealink.com/product/camera-uvc84)
 
 - 已安装音频 - [适用于大型会议室的 QSC 和 Sennheiser](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-in-ceiling-speakers/701)
 
 *安装或设置此解决方案包括：*
 
-高度复杂。 如所述，多用途空间要求知识渊博的 AV 部署合作伙伴正确规划和部署基于投影仪的显示和相机和音频解决方案，以及正确配置Microsoft Teams会议室系统和关联的Surface Hub 2 台设备，以便它们能够无缝地为空间中的最终用户工作。
+高度复杂。 如所述，多用途空间要求知识渊博的 AV 部署合作伙伴正确规划和部署基于投影仪的显示和相机和音频解决方案，以及正确配置 Microsoft Teams 会议室系统和关联的 Surface Hub 2 设备，以便它们能够无缝地为空间中的最终用户工作。
 
 ## <a name="dont-forget-security"></a>不要忘记安全性
 
-确保解决方案安全免受网络威胁至关重要。 使用Teams 会议室系统或设备时，Microsoft 使用尖端 AI 和自动化来确保数据和专用信息的安全。 保护学校或机构首先通过Intune/AutoPilot) 通过Azure Active Directory) 和设备管理 (进行标识和访问管理 (。
+确保解决方案安全免受网络威胁至关重要。 使用Teams 会议室系统或设备时，Microsoft 使用尖端 AI 和自动化来确保数据和专用信息的安全。 保护学校或机构首先通过 Azure Active Directory) 和设备管理 (通过 Intune/AutoPilot) 进行标识和访问管理 (。
 
 ## <a name="more-information"></a>更多信息
 
-查看以下页面，详细了解Teams设备和合作伙伴：
+查看以下页面，了解有关 Teams 设备和合作伙伴的详细信息：
 
-[Microsoft Teams 教育版](https://www.microsoft.com/education/products/teams) – 在教育中使用Microsoft Teams的绝佳信息来源
+[Microsoft Teams 教育版](https://www.microsoft.com/education/products/teams) – 在教育中使用 Microsoft Teams 的绝佳信息来源
 
-[Microsoft Teams认证的设备](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/poly-sync-20/825) - Microsoft Teams认证的设备的综合列表
+[Microsoft Teams 认证的设备](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/poly-sync-20/825) - Microsoft Teams 认证的设备的完整列表
 
 [详细了解Microsoft Teams 会议室](/microsoftteams/rooms) – 有关规划、部署和使用情况的Microsoft Teams 会议室指南
 
-[Teams 会议室合作伙伴计划](https://cloudpartners.transform.microsoft.com/teams-mrpp) - 可用于规划和部署Teams会议室系统的全球合作伙伴列表
+[Teams 会议室合作伙伴计划](https://cloudpartners.transform.microsoft.com/teams-mrpp) - 可用于规划和部署 Teams 会议室系统的全球合作伙伴列表

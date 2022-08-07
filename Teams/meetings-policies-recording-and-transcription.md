@@ -17,13 +17,13 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.recordingandtranscription
-description: 了解如何在Teams中管理会议策略设置以进行录制和听录。
-ms.openlocfilehash: da7a5d43231abcb00339f2ffc2c57c7e90ff2d2e
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+description: 了解如何在 Teams 中管理用于录制和听录的会议策略设置。
+ms.openlocfilehash: 12f8be910c713a9ce023ac17c956ef50f5889792
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646361"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268977"
 ---
 # <a name="meeting-policy-settings-for-recording--transcription"></a>记录&听录的会议策略设置
 
@@ -31,7 +31,7 @@ ms.locfileid: "65646361"
 
 - [允许转录](#allow-transcription)
 - [允许云录制](#allow-cloud-recording)
-- [Microsoft Store您所在国家或地区以外的录音](#store-recordings-outside-of-your-country-or-region)
+- [将录制内容存储在国家或地区之外](#store-recordings-outside-of-your-country-or-region)
 
 ## <a name="allow-transcription"></a>允许转录
 
@@ -39,7 +39,7 @@ ms.locfileid: "65646361"
 
 启用此设置将创建与会议记录一起存储的脚本，它在会议录制内容中启用“**搜索**”、“**CC**”和“**脚本**”。
 
-录制会议的听录目前仅支持在Teams会议中将其语言设置为或说英语的用户。
+录制会议的听录目前仅支持在 Teams 会议中将其语言设置为或说英语的用户。
 
 ## <a name="allow-cloud-recording"></a>允许云录制
 
@@ -65,11 +65,12 @@ ms.locfileid: "65646361"
 
 若要了解有关云会议记录的更多信息，请参阅 [Teams 云会议录制](cloud-recording.md)。
 
-## <a name="store-recordings-outside-of-your-country-or-region"></a>Microsoft Store您所在国家或地区以外的录音
+## <a name="store-recordings-outside-of-your-country-or-region"></a>将录制内容存储在国家或地区之外
 
-此策略控制会议记录是否可以永久存储在另一个国家或地区。 如果已启用，则无法迁移录制内容。 有关云会议和记录存储位置的详细信息，请[参阅Teams云会议录制](cloud-recording.md)。
+此策略控制会议记录是否可以永久存储在另一个国家或地区。 如果已启用，则无法迁移录制内容。 有关云会议和记录存储位置的详细信息，请参阅 [Teams 云会议录制](cloud-recording.md)。
 
 ## <a name="related-topics"></a>相关主题
 
-- [将策略分配给Teams中的用户](policy-assignment-overview.md)
+- [在 Teams 中为用户分配策略](policy-assignment-overview.md)
 - [云会议录制](cloud-recording.md)
+- [Microsoft Teams 中的会议策略和会议过期](meeting-expiration.md)

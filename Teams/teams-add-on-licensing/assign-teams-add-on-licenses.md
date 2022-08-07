@@ -8,7 +8,6 @@ ms.topic: article
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_RemoteWorkers
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -16,12 +15,12 @@ ms.reviewer: mikedav
 description: 了解如何为音频会议、电话系统和通话套餐等功能的用户分配 Teams 加载项许可证。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1bef1464b94f736a10cc184a2bdb88e2cdf6df88
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 3b482781ee29094986c310158fe74f02662f790d
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156970"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268167"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>向用户分配 Teams 加载项许可证
 

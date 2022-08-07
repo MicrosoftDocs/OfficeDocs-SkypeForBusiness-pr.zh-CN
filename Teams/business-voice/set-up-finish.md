@@ -1,5 +1,5 @@
 ---
-title: 已完成Teams 电话系统套餐设置
+title: 已完成的 Teams 电话系统和通话套餐设置
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -9,54 +9,52 @@ audience: admin
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
-- Teams_Business_Voice
 search.appverid: MET150
-description: 了解资源，以帮助在设置完成后Teams 电话系统套餐的采用。
+description: 了解在安装完成后，通过通话套餐帮助采用 Teams 电话系统的资源。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e4e08aee61d3ddd002f0adcefb09e7309792aade
-ms.sourcegitcommit: e86e3824c300c24e022d5cb1848338278a5a96a8
+ms.collection:
+- M365-voice
+ms.openlocfilehash: 506b665193c0bab98e4d76e2471def85d6235aa1
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/03/2022
-ms.locfileid: "63053001"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269247"
 ---
-# <a name="finished-teams-phone-system-with-calling-plan-setup"></a>已完成Teams 电话系统套餐设置
+# <a name="finished-teams-phone-system-with-calling-plan-setup"></a>已完成的 Teams 电话系统和通话套餐设置
 
-你已完成使用呼叫计划Teams 电话系统基本设置。 以下是一些有用的资源，用于通过电话系统套餐管理会议，并帮助用户获取其新的电话、会议和音频会议体验。
+你已完成使用通话套餐的 Teams 电话系统的基本设置。 以下是一些有用的资源，用于使用通话套餐捆绑包管理电话系统，并帮助用户充分利用其新电话、会议和音频会议体验。
 
-下表列出了可帮助您充分利用套餐和通话套餐Teams电话系统的资源。
+下表列出了可帮助你充分利用 Teams 和电话系统以及通话套餐捆绑包的资源。
 
 ## <a name="training"></a>培训
 
-使用以下培训资源，通过"呼叫计划"捆绑包Teams电话系统用户。
+使用以下训练资源，通过 Teams 和电话系统以及通话套餐捆绑包，使你和你的用户能够跟上速度。
 
 |资源  |说明  |
 |---------|---------|
-| [Microsoft Teams 培训](../training-microsoft-teams-landing-page.md)    | 针对新用户管理员和最终用户的培训Teams。        |
-| [Microsoft Teams快速入门指南](https://download.microsoft.com/download/D/9/F/D9FE8B9E-22F5-47BF-A1AB-09539C41FCD0/Teams%20QS.pdf)    | 一个可打印的 PDF 文件，Teams客户端以及如何执行常见活动。        |
-| [如何将 Teams用作手机](https://support.microsoft.com/office/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8?ad=US#ID0EAABAAA=Calls)    | 有关如何拨打和接听呼叫、设置和检查语音邮件、转接和合并呼叫等的培训。        |
+| [Microsoft Teams 培训](../training-microsoft-teams-landing-page.md)    | 面向不属于 Teams 的管理员和最终用户的培训。        |
+| [Microsoft Teams 快速入门指南](https://download.microsoft.com/download/D/9/F/D9FE8B9E-22F5-47BF-A1AB-09539C41FCD0/Teams%20QS.pdf)    | 解释 Teams 客户端以及如何执行常见活动的可打印 PDF 文件。        |
+| [如何将 Teams 用作手机](https://support.microsoft.com/office/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8?ad=US#ID0EAABAAA=Calls)    | 有关如何拨打和接听电话、设置和检查语音邮件、传输和合并呼叫等的培训。        |
 
-## <a name="customize-teams-phone-system-with-calling-plan"></a>使用Teams 电话系统计划自定义呼叫
+## <a name="customize-teams-phone-system-with-calling-plan"></a>使用呼叫计划自定义 Teams 电话系统
 
-使用以下资源根据特定Teams 电话系统套餐自定义套餐。
+根据特定要求，使用以下资源使用通话套餐自定义 Teams 电话系统。
 
 | 资源 | 说明  |
 |---------|---------|
-| [Microsoft Teams 中的呼叫策略](set-up-policies.md)    | 控制用户是否可以进行私人呼叫、转发呼叫或设置同时拨打、将呼叫路由到语音邮件等。        |
-| [管理策略包Microsoft Teams](policy-packages.md)    | 创建可分配给类似角色的用户的策略组。        |
-| [创建呼叫计划Teams 电话系统并为其分配电话号码](create-users.md)    | 向呼叫计划Teams 电话系统用户，然后使用电话号码进行设置。        |
+| [Microsoft Teams 中的呼叫策略](set-up-policies.md)    | 控制用户是否可以进行私人呼叫、转发呼叫或设置同时拨打电话、将呼叫路由到语音邮件等。        |
+| [在 Microsoft Teams 中管理策略包](policy-packages.md)    | 创建可分配给类似角色用户的策略组。        |
+| [使用呼叫计划用户创建和许可 Teams 电话系统，并为其分配电话号码](create-users.md)    | 使用呼叫计划将更多用户添加到 Teams 电话系统，并使用电话号码设置用户。        |
 | [创建呼叫队列 - 小型企业教程](create-a-phone-system-call-queue-smb.md)    | 创建呼叫队列以支持呼叫中心环境，例如销售、客户服务、技术支持等。        |
 
-## <a name="manage-teams-phone-system-with-calling-plan"></a>使用Teams 电话系统计划管理呼叫
+## <a name="manage-teams-phone-system-with-calling-plan"></a>使用呼叫计划管理 Teams 电话系统
 
-使用以下资源在日常Teams Teams 电话系统套餐管理呼叫和通话。
+在日常活动中，使用以下资源通过通话套餐管理 Teams 和 Teams 电话系统。
 
 |资源  |说明  |
 |---------|---------|
-| [在 Microsoft Teams 中管理设备](manage-devices.md)    | 为连接到 Teams 的设备创建策略并Teams。        |
-| [监视和改进呼叫质量Microsoft Teams](monitor-quality.md)    | 监视谁拨打或接听电话或参加联机会议、监视和排查呼叫质量问题等。        |
-| [使用 CQD (设置呼叫质量) ](analytics-dashboard.md)| 设置呼叫使用情况和质量监视，确保用户具有Teams 电话系统计划体验的最佳状态。|
+| [在 Microsoft Teams 中管理设备](manage-devices.md)    | 为连接到 Teams 的设备创建策略并监视这些设备。        |
+| [监视和提高 Microsoft Teams 的呼叫质量](monitor-quality.md)    | 监视谁拨打或接听电话或参加联机会议、监视和排查呼叫质量等。        |
+| [设置呼叫质量仪表板 (CQD) ](analytics-dashboard.md)| 设置呼叫使用情况和质量监视，以确保用户拥有最佳的 Teams 电话系统和通话套餐体验。|

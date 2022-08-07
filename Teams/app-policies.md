@@ -10,17 +10,16 @@ search.appverid: ''
 description: 了解用于在 Microsoft Teams 中管理应用的应用权限策略、应用设置策略和自定义应用策略。
 audience: admin
 ms.localizationpriority: high
-MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 547db7e0545247629ade5ed49d039a2b9ac95556
-ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
+ms.collection:
+- M365-collaboration
+ms.openlocfilehash: a4f70ab7efcd0c2d51063ef2b0466c99bd878cc8
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67175636"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270667"
 ---
 # <a name="overview-of-app-policies-used-to-manage-apps"></a>用于管理应用的应用策略概述
 

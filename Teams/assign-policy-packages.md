@@ -14,51 +14,49 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 了解在Microsoft Teams中为用户和组分配策略包的不同方法。
+description: 了解向 Microsoft Teams 中的用户和组分配策略包的不同方法。
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 48391db005ca7d40081c0aeb22f71be58fcc9f9f
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+ms.openlocfilehash: cd6cbaab900ce1e9e5f4a2bd19731573c66ab7eb
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646521"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67272047"
 ---
 # <a name="assign-policy-packages-to-users-and-groups"></a>将策略包分配给用户和组
 
-本文介绍将策略包分配给Microsoft Teams中的用户和组的不同方法。 阅读前，请确保已[阅读 Teams 中的分配策略 - 入门](policy-assignment-overview.md)。
+本文介绍向 Microsoft Teams 中的用户和组分配策略包的不同方法。 阅读前，请确保已 [阅读 Teams 中的分配策略 - 入门](policy-assignment-overview.md)。
 
 > [!NOTE]
 > 为了接受自定义策略包分配，每位用户都需要高级通信加载附加产品。 有关详细信息，请参阅 [Microsoft Teams 高级通信附加产品](/microsoftteams/teams-add-on-licensing/advanced-communications)。
 
 ## <a name="assign-a-policy-package-to-users"></a>向用户分配策略包
 
-Teams中的策略包是预定义的策略和策略设置的集合，你可以将其分配给在组织中具有相同或类似角色的用户。 每个策略包都是围绕用户角色设计的，包括预定义的策略和策略设置，这些策略和策略设置支持该角色的典型活动。 一些策略包示例包括教育 (教师) 包和医疗保健 (临床工作者) 包。 若要了解详细信息，请参阅[Teams中的管理策略包](manage-policy-packages.md)。
+Teams 中的策略包是预定义的策略和策略设置的集合，你可以将其分配给在组织中具有相同或类似角色的用户。 每个策略包都是围绕用户角色设计的，包括预定义的策略和策略设置，这些策略和策略设置支持该角色的典型活动。 一些策略包示例包括教育 (教师) 包和医疗保健 (临床工作者) 包。 若要了解详细信息，请参阅 [Teams 中的管理策略包](manage-policy-packages.md)。
 
 ### <a name="assign-a-policy-package-to-one-user"></a>将策略包分配给一个用户
 
-1. 在Microsoft Teams管理中心的左侧导航中，转到 **“用户**”，然后选择用户。
+1. 在 Microsoft Teams 管理中心的左侧导航中，转到 **“用户**”，然后选择用户。
 
 2. 在用户的页面上，选择“ **策略**”，然后在“ **策略”包** 旁边选择 **“编辑**”。
 
-3. 在 **“分配策略包** ”窗格中，选择要分配的包，然后选择 **“保存**”。
+3. 在 **“分配策略包** ”窗格中，选择要分配的包，然后选择 **“应用**”。
 
-![Teams管理中心屏幕截图，用于向用户分配策略包。](media/assign-policypackages-user.png)
+    :::image type="content" source="media/assign-policy-package-one-user.png" alt-text="显示向用户分配策略包的 Teams 管理中心的屏幕截图。" lightbox="media/assign-policy-package-one-user-expanded.png":::
 
 ### <a name="assign-a-policy-package-to-multiple-users"></a>将策略包分配给多个用户
 
-1. 在Microsoft Teams管理中心的左侧导航中，转到“策略 **”包**，然后单击包名称左侧，选择要分配的策略包。
+1. 在 Microsoft Teams 管理中心的左侧导航中，转到策略 **包**，然后单击包名称左侧，选择要分配的策略包。
 
 2. 选择“管理用户”。
 
 3. 在“**管理用户**”窗格中，按显示名称或用户名搜索用户，选择用户名，然后选择“**添加**”。 对想要添加的每一个用户重复此步骤。
 
-4. 添加完用户后，选择 **“保存**”。
+4. 添加完用户后，选择 **“应用**”。
 
-
-![Teams管理中心屏幕截图，用于向多个用户分配策略包。](media/assign-policypackages-multipleusers.png)
-
+    :::image type="content" source="media/assign-policy-package-multiple-users.png" alt-text="显示 Teams 管理中心策略包分配给多个用户的屏幕截图。" lightbox="media/assign-policy-package-multiple-users-expanded.png":::
 
 ## <a name="assign-a-policy-package-to-a-group"></a>将策略包分配给组。
 
@@ -73,13 +71,11 @@ Teams中的策略包是预定义的策略和策略设置的集合，你可以将
 
 ### <a name="assign-a-policy-package-to-a-group-of-users-in-the-admin-center"></a>将策略包分配给管理中心内的一组用户
 
-1. 登录到 Teams 管理中心。
+1. 在 Microsoft Teams 管理中心的左侧导航中，转到“ **策略包** ”页。
 
-2. 在左侧导航栏中，转到策略包页。
+2. 选择“ **组包分配** ”选项卡。
 
-3. 选择“组策略分配”选项卡。
-
-4. 选择 **“添加组**”，然后在“将策略包分配到组”窗格中，执行以下操作：
+3. 选择 **“添加**”，然后在 **“将策略包分配到组** ”窗格中执行以下操作：
 
     1. 搜索并添加要将策略包分配到的组。
 
@@ -89,18 +85,17 @@ Teams中的策略包是预定义的策略和策略设置的集合，你可以将
 
     1. 选择 **“应用**”。
 
+       :::image type="content" source="media/assign-policy-package-group.png" alt-text="将策略包分配到组窗格的屏幕截图。" lightbox="media/assign-policy-package-group-expanded.png":::
 
-       ![显示组策略分配。](media/group-pkg-assignment.png)
+4. 若要管理特定策略类型的排名，请导航到特定策略页。
 
-5. 若要管理特定策略类型的排名，请导航到特定策略页。
-
-6. 若要将策略包重新分配到组，请先删除组策略分配。 然后，按照上述步骤将策略包分配给组。
+5. 若要将策略包重新分配到组，请先删除组策略分配。 然后，按照上述步骤将策略包分配给组。
 
 ### <a name="work-with-powershell"></a>使用 PowerShell
 
 #### <a name="get-the-teams-powershell-module"></a>获取 Teams PowerShell 模块
 
-有关分步指南，请[参阅安装Teams PowerShell](teams-powershell-install.md)。
+有关分步指南，请 [参阅安装 Teams PowerShell](teams-powershell-install.md)。
 
 #### <a name="assign-a-policy-package-to-a-group-of-users"></a>将策略包分配给一组用户
 
@@ -128,7 +123,7 @@ Grant-CsGroupPolicyPackageAssignment -GroupId "dae90bb4-120f-4a3e-a15d-30f142e79
 Install-Module -Name MicrosoftTeams
 ```
 
-运行以下命令以连接到Teams并启动会话。
+运行以下命令以连接到 Teams 并启动会话。
 
 ```powershell
 Connect-MicrosoftTeams
@@ -162,7 +157,7 @@ Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367
 
 ## <a name="related-topics"></a>相关主题
 
-- [使用策略管理Teams](manage-teams-with-policies.md)
-- [在Microsoft Teams中管理策略包](manage-policy-packages.md)
+- [使用策略管理 Teams](manage-teams-with-policies.md)
+- [在 Microsoft Teams 中管理策略包](manage-policy-packages.md)
 - [Teams PowerShell 概览](teams-powershell-overview.md)
-- [在Teams中分配策略 - 入门](policy-assignment-overview.md)
+- [在 Teams 中分配策略 - 入门](policy-assignment-overview.md)

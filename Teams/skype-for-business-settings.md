@@ -8,7 +8,8 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
-ms.collection: ''
+ms.collection:
+- M365-collaboration
 f1.keywords:
 - CSH
 - ms.teamsadmincenter.org-widesettings.skypeforbusiness.overview
@@ -22,12 +23,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何在 Microsoft Teams 管理中心管理Skype for Business功能的设置。
-ms.openlocfilehash: 06c5cc4a199a7b29f2db97159850583d6927fc13
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
+ms.openlocfilehash: 26b2ba51d42a7be227b513d72add3e34f07d0fcd
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66563700"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67269757"
 ---
 # <a name="manage-skype-for-business-settings-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 管理中心管理Skype for Business设置
 

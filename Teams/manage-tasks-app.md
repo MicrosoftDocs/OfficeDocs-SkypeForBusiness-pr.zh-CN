@@ -14,19 +14,16 @@ searchScope:
 audience: admin
 description: 了解如何在组织中管理 Tasks 应用。
 ms.localizationpriority: medium
-MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
-- microsoftcloud-healthcare
-- microsoftcloud-retail
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1749c4b21c6b67f40eddd437ff0766918b5dc5df
-ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
+ms.collection:
+- M365-collaboration
+ms.openlocfilehash: 5eeea688d2fcaa67b2125ff67e15d80b981a03df
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66819267"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67267847"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中为组织管理 Tasks 应用
 
