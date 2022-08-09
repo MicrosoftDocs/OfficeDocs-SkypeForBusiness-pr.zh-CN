@@ -16,18 +16,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e6fdb36148f87ce243fff044a08a3bdcdd28d58
-ms.sourcegitcommit: f5546acf02ec644225f6d0fb41f38b1912da6adf
+ms.openlocfilehash: a7cb846cfeafeff3009890b8745e9b13fc6bdd97
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "66952766"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67268377"
 ---
 # <a name="it-admin-guide-to-reflect-in-microsoft-teams"></a>Microsoft Teams 中 Reflect 的 IT 管理员指南
 
-T本文件提供有关 [Reflect](https://aka.ms/reflect) 的信息– 它是 [Microsoft Teams 教育版 Insights ](class-insights.md)不可或缺的一部分。 Reflect 通过提供定期的分享和倾听的机会，帮助学生认识并管理自己的情绪。 Reflect 可以帮助学习者扩大情感词汇量，深化对同伴的情感，同时也为教育者提供有价值的反馈，以建立健康的课堂氛围。
+本文档提供了有关 [Microsoft Reflect](https://aka.ms/reflect) 的信息 - 它是 [Microsoft Teams 教育版 Insights](class-insights.md) 的组成部分。 Reflect 通过提供定期的分享和倾听的机会，帮助学生认识并管理自己的情绪。 Reflect 可以帮助学习者扩大情感词汇量，深化对同伴的情感，同时也为教育者提供有价值的反馈，以建立健康的课堂氛围。
 
-这款签到应用使用表情符号和基于研究支持的情感粒度，支持教育工作者将社交和情感学习添加到已经繁忙的日常工作中。
+此免费签入应用使用表情符号和字符来帮助学习者培养情感粒度。 研究表明，社交和情感技能的显式教学可提高学生的学术和行为表现，并具有终生的积极影响。
 
 ## <a name="privacy-and-security"></a>隐私和安全
 
@@ -69,16 +69,7 @@ Reflect 收集学生信息，但不会收集来宾数据。 **如果将学生定
 > 有关详细信息，请参阅 [如何允许一个应用或将其添加到课堂团队](manage-apps.md#allow-and-block-apps)。
 
 ## <a name="where-do-educators-find-reflect"></a>教育工作者在哪里找到 Reflect？
-启用 Reflect 后，教育工作者转到该课堂，选择 **新对话**。 然后，选择“**...**”以显示邮件扩展，然后在搜索栏中输入 **Reflect**。 该对话框将指导他们定义问题以及设置哪些人可以看到哪些内容。
-
-:::image type="content" source="media/reflect-add-app.png" alt-text="向课堂团队添加“反思”。":::
-
-他们可右键单击“反思”图标，然后选择“**固定**”以轻松访问。
-
-:::image type="content" source="media/reflect-pin-app.png" alt-text="固定“反思”应用。":::
-
-> [!TIP]
-> 还可通过此链接查找 Reflect 应用：[https://aka.ms/getReflect](https://aka.ms/getReflect)
+默认情况下，在任何课堂或教职员工团队中都可以使用 Reflect。 要访问应用，请导航到所需的团队，然后选择“Reflect”选项卡。
 
 > [!TIP]
 > 有关详细信息，请访问 [ Reflect 支持页面](https://support.microsoft.com/topic/e9198f62-7860-4532-821f-53ef14afa79a)。本页提供适用于教育工作者和学生的指南，并可帮助他们如何创建第一个 Reflect 签到。

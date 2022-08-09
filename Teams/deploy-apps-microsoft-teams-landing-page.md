@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 8fa6763641edf1b4eff29e16fb7ecdeaa4111edf
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 77d33fc464ab67945c8d3c588c4ce47366c2ba2d
+ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156680"
+ms.lasthandoff: 08/07/2022
+ms.locfileid: "67270257"
 ---
 # <a name="understand-microsoft-teams-apps"></a>了解 Microsoft Teams 应用
 
@@ -43,7 +43,7 @@ Teams 应用商店提供各种经过验证、具有安全性应用的大量目�
 
 ## <a name="core-apps"></a>核心应用
 
-默认情况下，某些 Teams 功能（如活动源、频道、聊天、日历和通话）是启用状态并已固定，以便最终用户能够轻松访问。 作为管理员，可以使用 [安装策略](/microsoftteams/teams-app-setup-policies)修改默认行为。
+一些 Teams 功能（例如活动源、团队、聊天、日历、通话、文件和作业 [教育版租户]）是默认可用的，并且默认固定，以便最终用户可以轻松访问。 对于一线工作人员，则仅提供和固定了活动、班次、聊天和通话功能。 作为管理员，可以使用 [安装策略](/microsoftteams/teams-app-setup-policies)修改默认行为。
 
 :::image type="content" source="media/core-apps-pinned1.png" alt-text="核心应用是默认情况下固定在 Teams 中的应用。" lightbox="media/core-apps-pinned2.png":::
 
