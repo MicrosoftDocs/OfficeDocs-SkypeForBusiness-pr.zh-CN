@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b547990a05d6c4ff0bd7a3bd36fdf3fbe431202e
-ms.sourcegitcommit: 70185cd963c5a9d539e65e302d4230018209ecae
+ms.openlocfilehash: 73f11abed8101031361e92d008c4edbd89b9a31c
+ms.sourcegitcommit: 903abff4ce79c10bf1fb936b8ad71f6315a43c18
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "66958137"
+ms.lasthandoff: 08/08/2022
+ms.locfileid: "67278766"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>在Microsoft Teams 教育版中设置父连接
 
@@ -181,7 +181,7 @@ Teams 教育版中的家长连接可帮助教师使用 Teams 安全地与班级�
 
 ## <a name="turn-on-the-parents-app-in-the-teams-admin-center"></a>在 Teams 管理中心打开“父级”应用
 
-家长应用默认处于关闭状态，因此，在通过 Teams 管理中心允许之前，课堂团队所有者不会在课堂团队中看到它。 使用 [发布者阻止的允许应用](manage-apps.md#allow-the-apps-that-are-blocked-by-the-developers)在 Teams 管理中心中启用“家长”应用。
+家长应用默认处于关闭状态，因此，在通过 Teams 管理中心允许之前，课堂团队所有者不会在课堂团队中看到它。 使用开发人员 [阻止的允许应用](manage-apps.md#allow-the-apps-that-are-blocked-by-the-developers)在 Teams 管理中心中启用“家长”应用。
 
 可以随时在租户级别使用“允许”关闭应用，并在 Teams 管理中心 [阻止应用](manage-apps.md#allow-and-block-apps) 。 如果在租户级别将其关闭，则会阻止所有用户，即使已启用用户级权限。
 

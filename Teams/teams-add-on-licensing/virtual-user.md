@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 了解如何将免费 Teams 电话资源帐户许可证或付费Teams 电话标准版用户许可证分配到组织中的资源帐户。
-ms.openlocfilehash: 07b47b2ec5b24b1edbfb599dc5a61e96169a02a2
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: f8aaf7480fc228fc78879ed5905aaaf7092777ab
+ms.sourcegitcommit: 6e677c7d0dfe9e380d70adaca748eea88ca95705
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66615398"
+ms.lasthandoff: 08/09/2022
+ms.locfileid: "67298292"
 ---
 # <a name="microsoft-teams-phone-resource-account-licenses"></a>Microsoft Teams 电话资源帐户许可证
 
@@ -34,7 +34,7 @@ ms.locfileid: "66615398"
 所有自动助理和呼叫队列都需要关联的资源帐户。 需要电话号码的资源帐户需要免费 *Microsoft Teams 电话资源帐户* 许可证或 *付费Teams 电话标准版* 用户许可证，然后才能将电话号码应用到资源帐户。
 
 > [!TIP]
-> 对于将用于嵌套自动助理或未分配电话号码的呼叫队列的资源帐户，无需许可证。 请参阅下图供参考。
+> 对于将用于嵌套自动助理或未分配电话号码的呼叫队列的资源帐户，无需许可证。
 
 ## <a name="resource-account-license-allocation"></a>资源帐户许可证分配
 
@@ -43,13 +43,13 @@ ms.locfileid: "66615398"
 > [!NOTE]
 > Teams 电话标准版和 Teams 电话通话套餐是所有 Microsoft 365 订阅者的附加许可证。 Teams 电话标准版许可证也作为Microsoft 365 E5计划的一部分包含在内。
 
-如果你的组织在创建自动助理或调用队列节点时使用免费 *Microsoft Teams 电话资源帐户* 许可证，你仍然可以将付费 *Teams 电话标准版* 许可证与资源帐户一起使用。 大多数组织将根据缩放计划获得足够的资源帐户许可证。
+如果你的组织在创建自动助理或呼叫队列节点时使用免费 *Microsoft Teams 电话资源帐户* 许可证，你仍然可以将付费 *Teams 电话标准版* 许可证与资源帐户一起使用。 大多数组织将根据缩放计划获得足够的资源帐户许可证。
 
 ### <a name="license-allocation-example"></a>许可证分配示例
 
 Contoso， Inc. 为每个员工) 购买了 600 个许可证，其中包括电话系统 (一个。 Contoso 分配了初始 25 加 60 *Microsoft Teams 电话资源帐户* 许可证，总共 85 个。 他们的组织有 90 个呼叫队列和具有电话号码的自动助理。 他们需要分配所有 *Microsoft Teams 电话资源帐户* 许可证，并获取五个固定价格 *的Teams 电话标准版* 许可证。
 
-Contoso 应考虑重新设计自动助理和调用队列系统。 如果他们使用更少的电话号码和更多不需要电话号码的嵌套节点，则可以简化实现并降低成本。
+Contoso 应考虑重新设计自动助理和呼叫队列系统。 如果他们使用更少的电话号码和更多不需要电话号码的嵌套节点，则可以简化实现并降低成本。
 
 ## <a name="how-to-buy-microsoft-teams-phone-resource-account-licenses"></a>如何购买Microsoft Teams 电话资源帐户许可证
 

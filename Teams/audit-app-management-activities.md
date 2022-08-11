@@ -1,6 +1,6 @@
 ---
 title: 搜索应用管理事件的审核日志
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 ms.topic: article
@@ -13,13 +13,13 @@ f1keywords: ''
 description: 了解如何审核组织中用户和管理员的 Teams 应用活动。
 appliesto:
 - Microsoft Teams
-ms.localizationpriority: high
-ms.openlocfilehash: 0ad20fc8d5efd6c243ce29c3255b787bae322994
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.localizationpriority: medium
+ms.openlocfilehash: 5eb1ffe4a637c61efc8e64e970f25474933914a7
+ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269717"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67299251"
 ---
 # <a name="audit-for-app-management-activities-and-events"></a>审核应用管理活动和事件
 
@@ -69,7 +69,7 @@ Teams 中应用事件的审核日志可帮助你调查特定操作。 虽然你�
 > [!NOTE]
 > 当用户或管理员执行上述活动之一时，Teams 会生成并存储审核记录。 在审核（标准版）中，记录将保留 90 天，这意味着可以搜索过去三个月内发生的活动。
 
-## <a name="see-also"></a>另请参阅
+## <a name="related-articles"></a>相关文章
 
 * [使用审核日志调查 Microsoft Power Platform 安装活动](manage-power-platform-apps.md#use-audit-logs-to-investigate-microsoft-power-platform-installation-activity)
 * [在合规性门户中搜索审核登录](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)。
