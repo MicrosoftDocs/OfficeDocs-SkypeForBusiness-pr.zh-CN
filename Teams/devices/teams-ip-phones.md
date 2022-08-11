@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 了解哪些桌面和会议电话已通过 Microsoft Teams 认证，以产生最佳结果。
-ms.openlocfilehash: f78ef3b4d637f166ac3c20d50e16532eff9db790
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 7feb5cbf411884bfe5249ebf0bbe237c4547fcbc
+ms.sourcegitcommit: 976d49c8c1104282c205ac533ed10450a5371950
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271327"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67304071"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams 认证的 Android 设备
 
@@ -152,6 +152,12 @@ Microsoft Teams 设备认证计划确保认证设备符合高标准，在整个 
 
 | 设备模型  | 固件版本  | 包含的产品版本  |
 |:----------------|:--------------|:----------------------------|
+|Yealink T55A/T56A/T58A   | `58.15.0.168`     | 2022 更新#3A  |
+|Yealink VP59  | `91.15.0.102`     | 2022 更新#3A  |
+|Yealink CP960  | `73.15.0.163`     | 2022 更新#3A  |
+|Yealink CP965  | `143.15.0.12`     | 2022 更新#3A  |
+|Yealink MP54/MP56/MP58  | `122.15.0.91`     | 2022 更新#3A  |
+|Yealink MP52  | `145.15.0.42`     | 2022 更新#3A  |
 |Poly Trio C60 | `7.3.1.0813` | 2022 更新#1C |
 |Poly CCX400/CCX500/CCX600/CCX505 | `7.3.1.0811` | 2022 更新#1C
 |Yealink T55A/T56A/T58A   | `58.15.0.157`     | 2022 更新#2A  |
@@ -240,6 +246,7 @@ Microsoft Teams 设备认证计划确保认证设备符合高标准，在整个 
 
 | 产品版本| 发布日期 | Microsoft Teams 应用版本 | 公司门户版本 | 管理员代理版本 |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+| 2022 更新#2A  | 2022 年 8 月 8 日 |`1449/1.0.96.2022072103`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
 | 2022 更新 #2  | 2022 年 5 月 25 日 |`1449/1.0.96.2022051102`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
 | 2022 更新 #1  | 2022 年 2 月 24 日 |`1449/1.0.96.2022011305`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
 | 2021 更新#2A | 2021 年 7 月 15 日  |`1449/1.0.96.2021070803`|  `5.0.5088.0` |  `1.0.0.202104280345.product version code: 262` |

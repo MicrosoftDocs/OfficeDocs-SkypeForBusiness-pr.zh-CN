@@ -16,12 +16,12 @@ ms.collection:
 ms.topic: reference
 search.appverid: MET150
 description: 本文提供有关如何启用签入和会议室版本 Teams 面板设备的指导。
-ms.openlocfilehash: 5f411979c9fb121bb80c999b102332b0208efb81
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 31cdab94ddb6a5c6fdc017b537f446e58aa1c2c5
+ms.sourcegitcommit: 6e677c7d0dfe9e380d70adaca748eea88ca95705
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268217"
+ms.lasthandoff: 08/09/2022
+ms.locfileid: "67298322"
 ---
 # <a name="check-in-and-room-release-on-microsoft-teams-panels"></a>Microsoft Teams 面板上的签入和会议室发布
 
@@ -29,7 +29,9 @@ ms.locfileid: "67268217"
 
 ## <a name="requirements"></a>要求 
 
-此功能可在独立Teams 面板部署中使用。 还可以将 Teams 面板与 Android 上的Teams 会议室与应用版本 1449/1.0.96.2022011305 或更高版本配对，以获取其他功能，例如签入通知。  
+此功能可在独立Teams 面板部署中使用。 还可以将 Teams 面板与 Android 上的Teams 会议室与应用版本 1449/1.0.96.2022011305 或更高版本配对，以获取其他功能，例如签入通知。
+
+与Teams 面板关联的共享邮箱需要设置正确的时区才能使此功能正常工作。 有关如何为共享邮箱设置时区的信息，请参阅[Outlook 网页版中共享邮箱的时区设置](/exchange/troubleshoot/outlook-on-the-web-issues/shared-mailboxes-time-zone-setting)。
 
 ## <a name="enable-check-in-and-room-release"></a>启用签入和会议室发布 
 
