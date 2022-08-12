@@ -1,24 +1,23 @@
 ---
 title: 在 Microsoft Teams 管理中心中查看应用权限并授予管理员同意
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
-ms.reviewer: vaibhava
 manager: prkosh
 ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: 了解如何在 Microsoft Teams 管理中心的“管理应用”页上查看应用请求的权限并向应用授予管理员同意。
-ms.localizationpriority: high
+ms.localizationpriority: medium
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e3d7ca4f86660080cb387a9d4cd80927f296040
-ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
+ms.openlocfilehash: f5bd84ce2fa19fc7a9aa823250fa77f1980055f0
+ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67175646"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67299051"
 ---
 # <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 管理中心中查看应用权限并授予管理员同意
 
@@ -86,9 +85,9 @@ RSC 权限在应用清单中定义，而不是在 Azure AD 中定义。 将应�
 
 ### <a name="the-view-details-link-isnt-displayed-in-the-permissions-column-for-some-third-party-apps-that-request-permissions"></a>对于某些请求权限的第三方应用，“查看详细信息”链接将不会显示在“权限”列中
 
-目前，所有请求权限的在 Azure AD 中注册的第三方应用都无法查看权限和授予许可。 你将在“**权限**”列中看到 **--**，而不是“**查看详细信息**”链接。 我们正在与 ISV 合作，以便为其应用启用此功能。
+查看权限和授予同意的功能不适用于所有第三方应用。 通常，当应用请求权限时，第三方应用会在 Azure Active Directory 中注册。 你将在“权限”列中看到 **`--`**，而不是“**查看详细信息**”链接。
 
-## <a name="related-topics"></a>相关主题
+## <a name="related-articles"></a>相关文章
 
 * [在 Microsoft Teams 管理中心中管理应用](manage-apps.md)
 * [Microsoft 标识平台终结点中的权限和同意](/azure/active-directory/develop/v2-permissions-and-consent)

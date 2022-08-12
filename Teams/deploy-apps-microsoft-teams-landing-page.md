@@ -3,7 +3,7 @@ title: 了解 Microsoft Teams 中的应用
 ms.reviewer: ''
 description: 了解应用，并根据组织的用户配置和业务要求决定在 Teams 中允许哪些应用。
 ms.topic: article
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 audience: admin
@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 77d33fc464ab67945c8d3c588c4ce47366c2ba2d
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: b7e95c04a2a8632fbda566c322e474809703de03
+ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270257"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67298911"
 ---
 # <a name="understand-microsoft-teams-apps"></a>了解 Microsoft Teams 应用
 
@@ -49,7 +49,7 @@ Teams 应用商店提供各种经过验证、具有安全性应用的大量目�
 
 ## <a name="microsoft-provided-apps"></a>Microsoft 提供的应用
 
-Microsoft 提供了许多应用来提高工作效率和协作。 你和最终用户可以通过在管理中心中查找列为发布服务器或在 Team 应用商店中列为提供程序的 Microsoft 来查找这些应用。
+Microsoft 提供了许多应用来提高工作效率和协作。 若要找到这些应用，你和最终用户可以在 Teams 管理中心中查找发布者为 Microsoft 的应用，或在 Team 应用商店中查找提供者为 Microsoft 的应用。
 
 Teams自带一组内置应用，包括列表、任务、表扬、审批等。 建议在初始 Teams 推出中包括 Planner 等特色应用。
 
@@ -65,19 +65,11 @@ Teams自带一组内置应用，包括列表、任务、表扬、审批等。 �
 
 组织中开发人员创建的应用称为自定义应用（或业务线应用）。 组织可以根据组织特定的要求委托创建自定义应用。 你有权为整个组织或特定用户允许或阻止此类应用。 组织中的开发人员可以通过使用 Teams 与 [Microsoft Power Platform](/microsoftteams/platform/samples/teams-low-code-solutions) 集成，快速构建自定义低代码解决方案。
 
-管理员允许使用自定义应用后，最终用户在 Teams 应用商店的左侧导航栏中单击 “**为组织生成** ”即可找到此类应用。
+管理员允许使用自定义应用后，最终用户在 Teams 应用商店的左侧导航中选择“**专为组织构建**”即可找到此类应用。
 
 :::image type="content" source="media/built-for-your-org1.png" alt-text="Teams 桌面应用中 Teams 应用商店中自定义应用的屏幕截图。" lightbox="media/built-for-your-org2.png":::
 
-<!--- TBD - new article on custom app overview and sideloading. --->
-
-### <a name="understand-sideloading-of-custom-apps"></a>了解自定义应用的旁加载
-
-开发自定义应用时，在将自定义应用分发到最终用户之前，开发人员会通过将应用添加到 Teams 应用商店进行测试。 开发人员可以自行或使用指定的用户组进行测试，但该应用对组织中的其他最终用户不可用。 此方法称为应用旁加载，仅适用于自定义应用。
-
-开发人员可以旁加载应用，使其可供特定团队的成员使用，通常用于测试开发不足的应用。 以这种方式使用应用会将其使用限制为应用开发人员，并且只要管理员允许在 Teams 中旁加载，就不需要管理员批准。 作为管理员，你可以禁止为所有开发人员旁加载应用。
-
-如果不允许旁加载，开发人员仍可以通过 [创建单独的测试租户](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant) 来测试其应用。 自定义应用开发完成后，开发人员会请求管理员将其自定义应用分发给最终用户。 有关详细信息，请参阅 [如何发布自定义应用](/microsoftteams/upload-custom-apps)。 作为管理员，可以允许或禁止对特定用户使用自定义应用。
+有关详细信息，请参阅[了解和管理自定义和旁加载应用](custom-app-overview.md)。
 
 ## <a name="about-app-templates"></a>关于应用模板
 

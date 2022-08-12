@@ -1,6 +1,5 @@
 ---
 title: Microsoft 提供的应用验证和应用测试概述
-ms.reviewer: ''
 description: 了解基于市场认证策略的 Teams 应用验证指南。 了解 Microsoft 如何确保 Teams 应用遵守隐私和安全的高标准。
 ms.topic: article
 author: guptaashish
@@ -18,12 +17,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 43a75e22fd5d42af50651151cde2876474300c4b
-ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
+ms.openlocfilehash: c6ca0590f254a0567eec8946ae3c4323bf541f05
+ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66880406"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67299231"
 ---
 # <a name="validation-performed-by-microsoft-for-all-teams-apps"></a>Microsoft 对所有 Teams 应用执行的验证
 
@@ -42,18 +41,18 @@ Microsoft 要求所有应用在应用商店中上架以供最终使用之前通�
 
 * 确保应用请求的 Graph 权限确实是应用功能需要的权限，而不是任何额外权限。 定期检查现有应用的图形权限，以确保应用无需额外权限。
 * 要求用户登录的应用具有注销选项。
-* 所有应用发布者都会在 Microsoft 合作伙伴中心上进行详细验证过程。 验证包括电子邮件验证、业务验证等。 若要详细了解应用发布，请参阅[开发人员如何创建合作伙伴中心帐户](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/create-partner-center-dev-account)、[面向开发人员的提交指南](/office/dev/store/add-in-submission-guide)、[开发人员如何发布应用](https://aka.ms/PublishToTeamsStore)。
-* 只有来自已验证发布服务器的应用可以从最终用户寻求 Graph 权限。
+* 所有应用开发人员都会在 Microsoft 合作伙伴中心上进行详细验证过程。 验证包括电子邮件验证、业务验证等。 若要详细了解应用发布，请参阅[开发人员如何创建合作伙伴中心帐户](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/create-partner-center-dev-account)、[面向开发人员的提交指南](/office/dev/store/add-in-submission-guide)、[开发人员如何发布应用](https://aka.ms/PublishToTeamsStore)。
+* 只有来自经过验证的开发人员的应用才能向最终用户寻求 Graph 权限。
 * 没有应用可以下载可执行文件。
-* 测试应用是否不包含广告、其他应用的促销
+* 测试应用是否不包含广告、其他应用的促销。
 * 应用程序经过测试，符合工作需要，没有攻击性语言、网络攻击机器人、垃圾邮件或诈骗内容。
 * 应用中的所有链接都可正常运行，并且仅与应用产品相关。
 * 作为应用商店运行状况检查的一部分，我们会定期测试和评估所有发布的 Teams 应用。
-* 涵盖 Teams 应用的隐私策略和使用条款由 ISV 发布
-* ISV 的联系人详细信息可在应用商店一览及其各自的[发布者证明页面](/microsoft-365-app-certification/teams/teams-apps)上找到。
+* 涵盖 Teams 应用的隐私策略和使用条款由应用开发人员发布。
+* 应用开发人员的联系详细信息可在应用商店一览及其各自的[发布者证明页面](/microsoft-365-app-certification/teams/teams-apps)上找到。
 
 此外，Microsoft 鼓励应用开发人员参与其合规性计划，这是一种严格的双层方法，可确保应用质量、安全性、合规性。 Teams 应用商店中有数百个超越了已经很详尽的验证准则并符合这些计划的应用。
 
-## <a name="see-also"></a>另请参阅
+## <a name="related-article"></a>相关文章
 
 * [Microsoft 365 应用合规性计划的管理员概述](overview-of-app-certification.md)

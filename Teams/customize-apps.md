@@ -3,7 +3,6 @@ title: 修改组织 Teams 应用商店中应用的外观
 author: guptaashish
 ms.author: guptaashish
 manager: prkosh
-ms.reviewer: v-tbasra
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -14,15 +13,15 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.localizationpriority: high
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何通过编辑应用详细信息和元数据来更改应用的外观并重新命名应用。
-ms.openlocfilehash: 32c526e2cbbb4ef464e0daa777228e0a17dd391b
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 304aa0b5d8becae641f69b0c389ca41160ad2e2f
+ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269077"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67298881"
 ---
 # <a name="customize-appearance-of-apps-in-your-organizations-teams-store"></a>自定义组织 Teams 应用商店中应用的外观
 
@@ -102,13 +101,13 @@ Microsoft Teams 允许管理员自定义 Teams 应用，以增强应用商店体
 
 请注意以下有关自定义应用的详细信息：
 
-* 自定义应用以及与应用相关的任何说明时，请确保遵循任何自定义准则（如果由应用发布者在其文档或使用条款中提供）。 你还负责尊重其他人对你可能使用的任何第三方映像的权利。
+* 自定义应用以及与应用相关的任何说明时，请确保遵循应用开发人员在其文档或使用条款中提供的任何自定义准则。 你还负责尊重其他人对你可能使用的任何第三方映像的权利。
 
 * 管理员提供的自定义数据存储在最近的区域中。
 
 * 你有责任确保使用条款或隐私策略的链接有效。
 
-* 如果应用发布者不再允许可自定义字段，则应用详细信息页上会显示一条消息，通知管理员无法再自定义的字段。 对该字段所做的所有更改都将还原为原始值。
+* 如果应用开发人员不再允许自定义字段，则应用详细信息页上会显示一条消息，通知管理员无法再自定义的字段。 对该字段所做的所有更改都将还原为原始值。
 
 * 建议在生产环境中进行这些更改之前，先在 Teams 测试租户中测试应用自定义更改。
 

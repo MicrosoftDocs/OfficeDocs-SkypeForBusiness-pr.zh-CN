@@ -1,6 +1,5 @@
 ---
 title: Microsoft 应用认证概述
-ms.reviewer: ''
 description: 了解 Microsoft 365 应用合规性计划，包括第三方应用的安全性、合规性、隐私。
 ms.topic: article
 author: guptaashish
@@ -18,12 +17,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b18e8e596fc1b8180a056c5a141b45e60bd7f889
-ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
+ms.openlocfilehash: 9918c1ce81464f2fbe9a0c16bc0373e54858d79b
+ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66880416"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67299081"
 ---
 # <a name="microsoft-365-app-compliance-program-for-security-compliance-and-privacy-of-third-party-apps"></a>Microsoft 365 应用合规性计划，适用于第三方应用的安全性、合规性和隐私
 
@@ -35,7 +34,7 @@ Microsoft 合规性计划根据派生自领先的行业标准框架的控件检�
 
 ## <a name="publisher-verification"></a>发布者验证
 
-应用开发人员必须先进行验证，然后才能将其应用提交给 Microsoft。 发布者使用其 Microsoft 合作伙伴网络 (MPN) 帐户验证其标识，并将此 MPN 帐户与其应用注册相关联。 发布者验证可帮助管理员和最终用户了解应用程序开发人员的真实性。 发布者验证具有以下优势：
+应用开发人员必须先进行验证，然后才能将其应用提交给 Microsoft。 开发人员使用其 Microsoft 合作伙伴网络 (MPN) 帐户验证其标识，并将此 MPN 帐户与其应用注册相关联。 发布者验证可帮助管理员和最终用户了解应用程序开发人员的真实性。 发布者验证具有以下优势：
 
 * 提高了客户的透明度和风险降低 - 此功能可帮助客户了解他们信任的开发人员发布的组织中使用的应用。
 * 改进了品牌打造 - `verified` 徽章会显示在 Azure Active Directory 许可提示、企业应用页面以及最终用户和管理员使用的其他用户界面上。

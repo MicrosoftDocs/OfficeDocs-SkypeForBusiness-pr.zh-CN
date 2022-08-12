@@ -1,9 +1,8 @@
 ---
 title: Microsoft Teams 应用权限和考虑事项
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
-ms.date: 06/27/2019
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
@@ -15,16 +14,16 @@ ms.reviewer: rowille
 description: 管理员可以了解 Microsoft Teams 应用从其组织请求的数据和权限。
 f1.keywords:
 - NOCSH
-ms.localizationpriority: high
+ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2cb641bb8756802820cf6ec6a311e3328c3887ca
-ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
+ms.openlocfilehash: 05be32bff1069d11ea26d28e6eb5377ec04e65e9
+ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67175666"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67299061"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Microsoft Teams 应用权限和考虑事项
 
@@ -191,7 +190,7 @@ RECEIVE_MESSAGE，REPLYTO_MESSAGE。 可以接收来自用户的消息并回复�
 
 * 传出 Webhook 类似于机器人，但特权较少。 必须像机器人一样显式提及它们。
 
-* 注册传出 Webhook 时，将生成一个机密，允许传出 Webhook 验证发件人是否为 Microsoft Teams 而不是恶意攻击者。 此机密应保留为机密;有权访问它的任何人都可以模拟 Microsoft Teams。 如果机密泄露，则可以删除并重新创建传出 Webhook，并生成新机密。
+* 注册传出 Webhook 时，将生成一个机密，允许传出 Webhook 验证发件人是否为 Microsoft Teams 而不是恶意攻击者。 此机密应保留为机密;有权访问它的任何人都可以模拟 Microsoft Teams。 如果机密遭到入侵，请删除并重新创建传出 Webhook 以生成新机密。
 
 * 尽管可以创建不验证机密的传出 Webhook，但我们建议对其进行验证。
 
