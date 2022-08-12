@@ -1533,14 +1533,18 @@ items:
             href: adobe-acrobat-pdf-viewer-teams.md
           - name: 管理 Microsoft 365 和自定义连接器
             href: Office-365-custom-connectors.md
-      - name: 管理自定义业务线应用
+      - name: 管理自定义应用
         items:
+          - name: 管理自定义和旁加载的应用
+            href: custom-app-overview.md
+          - name: 管理自定义应用策略和设置
+            href: teams-custom-app-policies-and-settings.md
+          - name: 发布使用 API 提交的自定义应用
+            href: submit-approve-custom-apps.md
+          - name: 发布作为包提交的自定义应用
+            href: upload-custom-apps.md
           - name: 在 Teams 管理中心内管理 Power Platform 应用
             href: manage-power-platform-apps.md
-          - name: 在组织商店中发布自定义应用
-            href: submit-approve-custom-apps.md
-          - name: 通过上载应用包来发布自定义应用
-            href: upload-custom-apps.md
       - name: 管理员控制以管理应用
         items:
           - name: 应用管理概述
@@ -1557,7 +1561,7 @@ items:
                 href: teams-custom-app-policies-and-settings.md
           - name: 为一线员工定制 Teams 应用
             href: /microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
-          - name: Azure AD 中的图形权限和管理员同意
+          - name: 查看 Azure AD 权限并授予管理员同意
             href: app-permissions-admin-center.md
           - name: 为组织管理特定于资源的同意
             href: resource-specific-consent.md
