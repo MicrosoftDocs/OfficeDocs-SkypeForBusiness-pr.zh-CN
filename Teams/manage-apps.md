@@ -18,12 +18,12 @@ description: 了解如何管理 Teams 应用。 了解如何允许或阻止应�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: bda9146bf2f5fd8a4b321be498e50e39be8f5965
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: bbad8eb283fe3e27397b2ddd5d22a91fc6570394
+ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271837"
+ms.lasthandoff: 08/10/2022
+ms.locfileid: "67298861"
 ---
 # <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 管理中心管理 Teams 应用
 
@@ -42,7 +42,7 @@ ms.locfileid: "67271837"
 
 ## <a name="app-management-use-cases-and-the-available-interfaces"></a>应用管理用例和可用接口
 
-Teams 管理中心提供用于完成大多数应用管理用例的选项。 此外，一些选项也可在同一门户的其他门户或不同的管理中心页面中使用。
+Teams 管理中心提供用于完成大多数应用管理用例的选项。 此外，其他门户或 Teams 管理中心的不同页面中也提供了一些选项。
 
 | 应用管理用例 | 添加到接口 | 文档 |
 |:----|:----|:----|
@@ -55,7 +55,7 @@ Teams 管理中心提供用于完成大多数应用管理用例的选项。 此�
 | Teams 应用使用情况报表提供有关正在使用的应用、活动用户和其他应用使用情况信息的信息。 | [使用率报告](https://admin.teams.microsoft.com/analytics/reports) | [Teams 应用使用情况报告](teams-analytics-and-reports/app-usage-report.md) |
 | 用户可以在主持会议或与来宾聊天时添加应用。 他们还可以使用来宾在加入外部托管的会议或聊天时共享的应用。 将应用托管用户组织的数据策略，以及该用户组织共享的任何第三方应用的数据共享做法。 | [外部访问](https://admin.teams.microsoft.com/company-wide-settings/external-communications) | [应用行为，具体取决于用户类型](non-standard-users.md) |
 | 通过来宾访问，你可以向组织外部的人员提供对应用程序和其他 Teams 功能的访问权限，同时保持对公司数据的控制。 | [来宾访问](https://admin.teams.microsoft.com/company-wide-settings/guest-configuration) | [Teams 中的来宾访问](guest-access.md) |
-| 更新策略用于管理 Teams 和 Office 预览版用户，这些用户将在 Teams 应用中看到预发布或预览功能。  | [Teams 更新策略](https://admin.teams.microsoft.com/policies/updatemanagement) | [Teams 公共预览版](public-preview-doc-updates.md) |
+| 更新策略用于管理 Teams 和 Office 预览版用户，这些用户将在 Teams 应用中看到预发布或预览功能。 | [Teams 更新策略](https://admin.teams.microsoft.com/policies/updatemanagement) | [Teams 公共预览版](public-preview-doc-updates.md) |
 | **Teams 管理中心外部** | | |
 | 在 Microsoft 365 管理中心 中管理第三方应用的许可证和订阅 | [Microsoft 365 管理中心](https://admin.microsoft.com/#/licenses) | [管理第三方应用订阅](/microsoft-365/commerce/manage-saas-apps) |
 | 审核 Microsoft Purview 合规性门户上的 Teams 应用事件。 | [审核](https://compliance.microsoft.com/auditlogsearch?viewid=Async%20Search) | [Teams 活动](audit-app-management-activities.md) |
@@ -80,27 +80,27 @@ Teams 管理中心提供用于完成大多数应用管理用例的选项。 此�
 
 仅当通过租户范围的设置允许应用并通过权限策略允许用户使用时，用户才能安装和使用应用。
 
-## <a name="manage-user-requests-to-unblock-apps"></a>管理用户请求以解除阻止应用
+## <a name="manage-user-requests-to-allow-apps"></a>管理用户请求以允许应用
 
-可以查看请求，使阻止的应用可供使用。 请求将发送给 IT 管理员，他们可以在 Teams 管理中心查看和管理用户请求。
+最终用户可以查看但不能使用 Teams 应用商店中被阻止的应用。 对于被阻止的应用，可以选择请求管理员审批。 这些请求在 Teams 管理中心进行整理，管理员可以在需要时查看和管理这些请求。 强烈建议定期对最终用户请求进行会审检查。
 
-  :::image type="content" source="media/user-request.png" alt-text="发出请求以进行阻止的应用审批":::
+  :::image type="content" source="media/user-request-blocked-apps.png" alt-text="通过在 Teams 应用商店中选择“请求审批”选项，请求管理员批准被阻止的应用。":::
 
 ### <a name="view-a-request"></a>查看请求
 
- 1. 登录 Teams 管理中心并选择 [“管理应用”](https://admin.teams.microsoft.com/policies/manage-apps)
+ 1. 登录 Teams 管理中心并选择“**Teams 应用**” > **“[管理应用](https://admin.teams.microsoft.com/policies/manage-apps)”**。
 
     :::image type="content" source="media/requested-apps1.png" alt-text="针对被阻止应用的最终用户请求显示在 Teams 管理中心标题为“用户请求”的列中。" lightbox="media/requested-apps.png":::
 
- 1. 若要查看和检查每个应用的请求数，请 **按用户** 列对“请求”中的请求进行排序。
- 1. 选择要取消阻止的应用的名称，并打开应用详细信息页。
- 1. 选择 **“管理请求** ”并完成弹出对话框中显示的步骤。 批准应用的步骤因用于阻止应用的方法而异。
+ 1. 若要查看和检查每个应用的请求数，请 **按用户** 列对“请求”中的请求进行排序。 无法查看请求应用程序的用户名称。
+ 1. 要允许应用程序，请选择应用程序的名称，并打开应用程序详细信息页面。
+ 1. 选择 **“管理请求** ”并完成弹出对话框中显示的步骤。 根据用于阻止应用程序的方法，需要以下一个或多个步骤来取消阻止：
 
     * 如果使用权限策略阻止应用，请通过修改 [权限策略](teams-app-permission-policies.md)来允许应用。
     * 如果为所有用户阻止应用，请 [允许该应用](#allow-and-block-apps)。
     * 如果所有用户都阻止了所有应用，请修改 [组织范围的设置](#manage-org-wide-app-settings)。
 
- 如果管理员允许应用，则不会通知最终用户其请求已处理。 用户必须访问应用商店中的应用，以检查应用是否已解除阻止。
+ 如果管理员允许应用，那么 Teams 不会通知最终用户其请求已处理。 用户可以在 Teams 应用商店中查看应用程序，以检查是否可以将应用程序添加到其 Teams 客户端。 如果应用程序得到管理员的批准，用户可以添加它。 或者，如果和管理员不批准请求并将其消除，则最终用户可以再次请求。
 
 ### <a name="dismiss-a-user-request"></a>关闭用户请求
 
@@ -108,21 +108,23 @@ Teams 管理中心提供用于完成大多数应用管理用例的选项。 此�
  1. 选择 **“管理请求** ”，然后选择“消除对话框上 **的所有请求** ”。
  1. 当请求被消除时，它会将用户请求重置为零。
 
-  :::image type="content" source="media/reject.png" alt-text="已阻止应用拒绝。"border="true":::
+  :::image type="content" source="media/reject.png" alt-text="管理员可以通过允许应用程序批准用户请求，也可以消除请求且不进行任何操作。":::
 
-如果管理员关闭请求，则不会通知最终用户其请求已执行。 用户必须访问应用商店中的应用，以检查应用是否已解除阻止。
+如果管理员关闭请求，则不会通知最终用户其请求已执行。 管理员消除请求后，最终用户可以再次请求应用程序。
 
 ## <a name="allow-the-apps-that-are-blocked-by-the-developers"></a>允许开发人员阻止的应用
 
-当开发人员将应用发布到 Teams 应用商店时，他们可能需要管理员来配置或自定义应用体验。 设置应用时，管理员可向最终用户提供体验。
+当开发人员将应用发布到 Teams 应用商店时，某些应用可能需要管理员来配置应用。 设置完应用程序后，管理员向最终用户提供应用程序。
 
-例如，Contoso Electronics 是为 Microsoft Teams 创建支持应用的 ISV。 Contoso Electronics 希望其客户设置应用的某些属性，以便当用户与应用交互时，它按预期运行。 在管理员允许或阻止应用程序之前，它将在 Teams 管理中心显示为 **“被发布者阻止** ”，默认情况下对最终用户隐藏。 按照发布者的指南设置应用后，可以通过将状态更改为“ **允许**”，使其可供用户使用。
+例如，Contoso Electronics 是为 Microsoft Teams 创建技术支持应用的应用开发人员。 Contoso Electronics 希望其客户设置应用的某些属性，以便当用户与应用交互时，它按预期运行。 在管理员允许应用程序之前，它将在 Teams 管理中心显示为“**被发布者阻止**”，默认情况下对最终用户隐藏。 按照发布者的指南设置应用后，可以通过将状态更改为“ **允许**”，使其可供用户使用。
 
 :::image type="content" source="media/blocked-by-publisher.png" alt-text="Teams 管理中心中被发布者状态阻止的屏幕截图。":::
 
+有关开发人员在默认情况下如何阻止应用程序的信息，请参阅 [隐藏应用程序，直到管理员批准](/microsoftteams/platform/concepts/design/enable-app-customization#hide-teams-app-until-admin-approves)。
+
 ## <a name="manage-org-wide-app-settings"></a>管理组织范围的应用设置
 
-使用组织范围的应用设置来控制具有 [F 许可证](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt) 的用户是否获得定制的一线应用体验、用户是否可以安装第三方应用，以及用户是否可以上传或与组织中的自定义应用交互。 组织范围的应用设置可控制所有用户的行为，并且可覆盖分配给用户的任何其他应用权限策略。 你可以使用它们控制恶意应用或有问题的应用。
+使用组织范围的应用设置来控制具有 [F 许可证](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt) 的用户是否获得定制的一线应用体验、用户是否可以安装第三方应用，以及用户是否可以上传或与组织中的自定义应用交互。 组织范围的应用设置可控制所有用户的行为，并且可覆盖分配给用户的任何其他应用权限策略。
 
 > [!NOTE]
 > 若要了解如何在 Microsoft 365 Government 中使用组织范围的应用设置 - 政府社区云 Teams 的高 GCCH 和国防部 （DoD） 部署，请参阅 [在 Teams 中管理应用权限策略](teams-app-permission-policies.md)。
