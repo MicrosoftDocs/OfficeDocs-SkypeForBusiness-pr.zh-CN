@@ -12,12 +12,12 @@ ms.localizationpriority: high
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7b506352052924b8394cbdfc712ce96750b96523
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: fb96b6130ce87d8d1453f6ea4ee40af2bb84050d
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67298891"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396463"
 ---
 # <a name="resource-specific-consent-in-microsoft-teams"></a>Microsoft Teams 中的资源特定同意
 
@@ -31,7 +31,7 @@ Microsoft Teams 中的资源特定同意使团队所有者能够同意应用访�
 
 下面是必须设置的设置，以控制团队所有者是否可以向应用表示同意。 请务必查看以下所有设置。
 
-### <a name="settings-in-azure-ad"></a>Azure AD 中的设置
+### <a name="settings-in-azure-active-directory-portal"></a>Azure Active Directory 门户中的设置
 
 以下两个设置确定团队所有者是否可以向应用表示同意。
 
@@ -62,8 +62,8 @@ Microsoft Teams 中的资源特定同意使团队所有者能够同意应用访�
 
 此组织范围的应用设置控制组织中的用户是否可以使用第三方应用。 必须启用此设置，团队所有者才能表示同意。 若要管理此设置，请执行以下操作：
 
-1. 在 Microsoft Teams 管理中心的左侧导航栏中，转到 **“管理** 应用” > Teams **应用**，然后单击 **组织范围的应用设置**。
-2. 在“**第三方应用**”下，关闭或打开“**允许第三方应用**”。
+1. 登录到 Teams 管理中心并访问 **Teams 应用** > **[管理应用](https://admin.teams.microsoft.com/policies/manage-apps)**。
+1. 选择 **组织范围的应用设置** ，在第 **三方应用** 下，关闭或打开 **“允许第三方应用**”。
 
     ![Teams 中的“允许第三方应用”设置的屏幕截图](media/resource-specific-consent-org-wide-setting.png)
 
@@ -73,8 +73,8 @@ Microsoft Teams 中的资源特定同意使团队所有者能够同意应用访�
 
 在“[管理应用](manage-apps.md#allow-and-block-apps)”页面上阻止或允许应用时，将对组织中的所有用户阻止或允许该应用。 仅当允许应用时，团队所有者才能对应用表示同意。 若要在组织级别允许或阻止应用，请执行以下操作：
 
-1. 在 Microsoft Teams 管理中心的左侧导航中，转到“**Teams 应用**” > “**管理应用**”。
-2. 在“管理应用”页面上，选择应用，然后单击“**阻止**”以阻止它，或者单击“**允许**”以允许它。
+1. 登录到 Teams 管理中心并访问 **Teams 应用** > **[管理应用](https://admin.teams.microsoft.com/policies/manage-apps)**。
+1. 在“管理应用”页上，选择应用，然后选择 **“阻止** ”以阻止它或选择 **“允许** ”以允许它。
 
     ![组织范围设置中被阻止的应用的屏幕截图。](media/resource-specific-consent-allow-block-apps.png)
 
@@ -83,16 +83,16 @@ Microsoft Teams 中的资源特定同意使团队所有者能够同意应用访�
 团队所有者只能对其应用权限策略允许运行的应用表示同意。 若要查看和管理分配给团队所有者的应用权限策略，请执行以下操作：
 
 1. 在 Microsoft Teams 管理中心的左侧导航中，转到“**用户**”。
-2. 双击团队所有者的显示名称，然后单击“**策略**”。
-3. 分配给团队所有者的策略在“**应用权限策略**”下列出。
-    - 若要分配其他策略，请单击“**编辑**”，然后选择要分配的策略。
-    - 若要编辑分配给团队所有者的策略的设置，请单击策略名称，然后进行所需的更改。  
+1. 双击团队所有者的显示名称，然后选择 **“策略**”。
+1. 分配给团队所有者的策略在“**应用权限策略**”下列出。
+    - 若要分配其他策略，请选择 **“编辑**”，然后选择要分配的策略。
+    - 若要编辑分配给团队所有者的策略设置，请选择策略名称，然后进行所需的更改。  
 
-## <a name="uploading-custom-apps"></a>上传自定义应用
+## <a name="upload-custom-apps"></a>上传自定义应用
 
 上传使用资源特定同意的自定义应用（也称为旁加载）时，应用必须来自要安装到的租户。 换句话说，Azure AD 应用必须从此租户注册。 全局管理员不受此限制，可以直接将自定义应用从任何租户上传到团队（旁加载）或租户应用目录。
 
-## <a name="related-topics"></a>相关主题
+## <a name="related-articles"></a>相关文章
 
 - [可用的 RSC 权限](/microsoftteams/platform/graph-api/rsc/resource-specific-consent)
 - [Microsoft Graph](https://developer.microsoft.com/graph)

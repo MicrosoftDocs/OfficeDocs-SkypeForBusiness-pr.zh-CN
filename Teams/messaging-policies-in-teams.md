@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: 了解消息传送策略以及如何在 Teams 中使用它们来控制聊天消息传送。
-ms.openlocfilehash: f74ae28176f147d768e8e551ac07d1bcf189836b
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
+ms.openlocfilehash: 1975262b6fdd404d9314c3644ebba79b6cb5bd9a
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66563960"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396513"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>在 Teams 中管理消息传递策略
 
@@ -112,6 +112,7 @@ ms.locfileid: "66563960"
 - **建议的答复**  打开此设置，为聊天消息启用建议的答复。
 - **聊天权限角色** 使用此设置定义用户的监督聊天角色。 深入了解如何 [的聊天](supervise-chats-edu.md)。
 - **具有完全聊天权限的用户可以删除任何消息** 使用此设置可让具有完全权限的用户删除任何组或会议聊天消息。
+- **视频消息** 如果希望组织中的用户能够使用 Teams 应用向聊天中的其他人发送视频消息，请启用此设置。
 
 > [!NOTE]
 > 其中一些设置（例如使用 Giphys）也可以由团队所有者在团队级别以及由频道所有者在专用或共享频道级别进行配置。

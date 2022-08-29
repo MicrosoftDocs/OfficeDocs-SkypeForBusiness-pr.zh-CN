@@ -20,15 +20,16 @@ ms.collection:
 - M365-collaboration
 - microsoftcloud-healthcare
 - microsoftcloud-retail
+- m365-frontline
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ec51237ff9a3b0dff1894581364756afbfd6f5cf
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 759e0cb846b6bca404276e50ca00a1ff28d5725c
+ms.sourcegitcommit: 17f4baf85e1ac6a2af5f5c6ea2d5aae763efd917
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269007"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "67405134"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中为组织管理“班次”应用
 
@@ -89,6 +90,17 @@ Teams 中定制的一线应用体验为拥有 [F 许可证](https://www.microsof
 Teams 中的 [策略包](../../manage-policy-packages.md) 是预定义的策略和策略设置的集合，你可以将其分配给在组织中具有类似角色的用户。 一线工作者和一线管理器策略包中的一组策略包括一个应用设置策略，该策略固定 Shifts 应用和其他支持该角色的通信和协作活动的应用。
 
 建议使用前线辅助角色和一线管理器策略包，以简化、简化和帮助在管理一线员工的策略时提供一致性。
+
+### <a name="enable-shift-based-tags-in-teams"></a>在 Teams 中启用基于班次的标记
+
+Teams [中的标记](https://support.microsoft.com/office/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e)使用户能够轻松地与团队中的一部分人员进行连接。 使用基于班次的标记，会自动分配与 Shifts 中的日程安排和班次组名称匹配的标记。 该标记可用于@mentions聊天中的 **To** 行或团队任何标准频道的帖子中。
+
+通过基于班次的标记，用户可以实时联系轮班人员。 通知仅发送给在聊天或频道帖子中使用标记时处于轮班状态的人员。 例如：
+
+- 商店经理使用@Cashiers标记将公告发布到所有轮班收银员的频道。
+- 护士使用@CardiologistsOnCall标记开始与所有呼叫心脏病专家聊天。
+
+可以在 Microsoft Teams 管理中心打开或关闭该功能。 若要了解详细信息，请参阅[管理 Teams 中的标记](../../manage-tags.md)。
 
 ## <a name="search-the-audit-log-for-shifts-events"></a>在审核日志中搜索“班次”事件
 

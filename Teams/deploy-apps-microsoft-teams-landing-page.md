@@ -7,11 +7,11 @@ author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 audience: admin
-ms.date: 04/05/2022
 ms.service: msteams
 ms.subservice: teams-apps
 ms.collection:
 - M365-collaboration
+- m365-frontline
 f1.keywords:
 - NOCSH
 ms.localizationpriority: high
@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: b7e95c04a2a8632fbda566c322e474809703de03
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: 78f0f0857884f70d5e758b1c52e13341c15faa0e
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67298911"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397193"
 ---
 # <a name="understand-microsoft-teams-apps"></a>了解 Microsoft Teams 应用
 
@@ -73,13 +73,13 @@ Teams自带一组内置应用，包括列表、任务、表扬、审批等。 �
 
 ## <a name="about-app-templates"></a>关于应用模板
 
-Teams 的应用模板是 Microsoft 为实现以下目的而创建的功能性和生产就绪示例应用：
+Microsoft 使用应用开发方法创建并提供功能和生产就绪的示例应用。 这些应用统称为 Teams 的应用模板，并提供给：
 
-* 说明常用用例。
-* 展示应用开发最佳做法。
-* 提供开发人员可扩展以创建自定义应用的开源应用。
+* 说明 Teams 中的一些协作用例。
+* 展示应用开发最佳做法和方法。
+* 提供开发人员可以扩展的开源应用来创建自己的应用。
 
-组织开发人员通过对 GitHub 中提供的代码进行简单更改来自定义应用模板。 为满足任何组织需求，可将这些应用作为自定义应用提供给最终用户。
+组织开发人员通过对提供的源代码进行简单更改自定义应用模板。 为满足任何组织需求，可将这些应用作为自定义应用提供给最终用户。
 
 若要了解详细信息，请参阅 [Microsoft Teams 应用模板](https://adoption.microsoft.com/microsoft-teams/app-templates/)。
 
@@ -167,3 +167,7 @@ You can use activity reports to see how users in your organization are using Tea
 | Who needs to see the activity reports, and do they have the correct permissions to view them? |<ul><li>If you don't want to assign an admin role to a user, you can [assign the Reports reader role](teams-activity-reports.md#reports-reader-role).</li><li>See [Roles and permissions](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) and [View and assign roles](/azure/active-directory/users-groups-roles/directory-manage-roles-portal) for information about assigning admin roles in Azure Active Directory.</li></ul> |
 
 --->
+
+## <a name="related-articles"></a>相关文章
+
+* [详细了解 Teams 的应用模板](/microsoftteams/platform/samples/app-templates)。

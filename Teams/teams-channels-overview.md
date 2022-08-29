@@ -24,12 +24,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 74f4580eee7ee7ee935b405cfe51c4a3e49ef98c
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
-ms.translationtype: HT
+ms.openlocfilehash: 28a816dee54d8f5ac2aead0deeb6aedf3f8076f7
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616278"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396923"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams 中的团队和频道概述
 
@@ -85,6 +85,10 @@ Teams 中有两个主要角色：
 > 在 Teams 中创建新团队或专用或共享频道时，将自动在 SharePoint 中创建团队网站。 要编辑此团队网站的网站说明或分类，请转到相应频道的“[在 Microsoft Teams 中设置](https://support.microsoft.com/office/bf39798f-90d2-44fb-a750-55fa05a56f1d)”。
 >
 > 了解有关管理 [Microsoft Teams 连接的团队网站](/SharePoint/teams-connected-sites)的详细信息。
+
+此视频演示查看和管理用户团队成员身份的步骤。
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53x1L?autoplay=false]
 
 ## <a name="channel-feature-comparison"></a>频道功能比较
 

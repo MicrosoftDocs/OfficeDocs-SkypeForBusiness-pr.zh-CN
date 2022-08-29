@@ -11,6 +11,7 @@ audience: Admin
 ms.collection:
 - M365-collaboration
 - microsoftcloud-healthcare
+- m365-frontline
 appliesto:
 - Microsoft Teams
 f1.keywords: ''
@@ -21,12 +22,12 @@ searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
 description: 了解如何使用和管理适用于医疗保健组织的 Teams 策略包。
-ms.openlocfilehash: a4613716b1c5ce626e5a00ce2ed884cfb208f097
-ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
+ms.openlocfilehash: 29192cfeec6545cdbbb5528eeabc1298146e4577
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66819417"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397253"
 ---
 # <a name="teams-policy-packages-for-healthcare"></a>Teams 医疗保健策略包
 
@@ -101,7 +102,7 @@ Teams 当前包括以下医疗保健策略包。
 
 #### <a name="assign-a-policy-package-to-a-group"></a>将策略包分配给组。
 
-通过策略包分配给组，可以将多个策略分配给一组用户，例如安全组或通讯组列表。 根据优先级规则，将策略分配传播到组中的成员。 将成员添加到组或从组中删除成员时，将相应更新其继承的策略分配。 建议将此方法用于最多 50,000 个用户的组，但也可使用更大的组。
+通过向组分配策略包，可以将多个策略分配给一组用户，例如安全组或通讯组列表。 根据优先级规则，将策略分配传播到组中的成员。 将成员添加到组或从组中删除成员时，将相应更新其继承的策略分配。 建议将此方法用于最多 50,000 个用户的组，但也可使用更大的组。
 
 若要了解详细信息，请参阅[将策略包分配到组](assign-policy-packages.md#assign-a-policy-package-to-a-group)。
 
