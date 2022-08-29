@@ -17,12 +17,12 @@ search.appverid: MET150
 description: 了解 Microsoft Teams 会议中非教育租户的监督聊天。
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: 8b587dbc7537c612d2b48f5b202cd94e55e4d8f6
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 6f499845f77ededf47fa907961624081197b65b1
+ms.sourcegitcommit: 2d873e774c1a1182326e22e5de6ee5df4d50f41e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270457"
+ms.lasthandoff: 08/27/2022
+ms.locfileid: "67446765"
 ---
 # <a name="supervised-chats-for-non-educational-tenants"></a>非教育租户的监督聊天
 
@@ -56,7 +56,7 @@ ms.locfileid: "67270457"
 
 ## <a name="allow-supervised-chat"></a>允许监督聊天
 
-默认情况下，租户禁用监督聊天。 为用户设置聊天权限角色后，可以通过转到 **组织范围的设置** **Teams 设置**\>并将 **基于角色的聊天权限** 策略设置为 **“打开**”，在租户中启用监督式聊天。 还可以使用 PowerShell 通过将 AllowRoleBasedChatPermissions 设置为 True 来启用监督聊天。 此 cmdlet 位于 [CsTeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration) 下。
+默认情况下，租户禁用监督聊天。 为用户设置聊天权限角色后，可以通过转到 **Teams Teams** \> **设置** 并将 **基于角色的聊天权限** 策略设置为 **“打开**”，在租户中启用监督式聊天。 还可以使用 PowerShell 通过将 AllowRoleBasedChatPermissions 设置为 True 来启用监督聊天。 此 cmdlet 位于 [CsTeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration) 下。
 
 必须为租户中的所有用户启用监督聊天，并且不能仅为部分用户启用监督聊天。
 

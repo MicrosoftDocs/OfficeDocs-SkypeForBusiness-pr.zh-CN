@@ -20,12 +20,12 @@ ms.localizationpriority: medium
 ms.custom:
 - Phone System
 description: 了解如何在 Microsoft Teams 中设置和管理自动助理。
-ms.openlocfilehash: e54ffdeac8db21ebcc6cc00f51893769e0d194bb
-ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
+ms.openlocfilehash: 913ac62ceb251f166852ec8c6d5ba84b7c0777ea
+ms.sourcegitcommit: 850038f2248c1ea412f7b5daca26c0598baffa3c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67176096"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "67443399"
 ---
 # <a name="set-up-an-auto-attendant"></a>设置自动助理
 
@@ -46,6 +46,15 @@ ms.locfileid: "67176096"
 
 > [!NOTE]
 > 将呼叫重定向到 **组织中的人员** 时，必须启用该人员的语音。 有关启用语音的详细信息，请参阅 [向用户分配 Teams 加载项许可证](teams-add-on-licensing/assign-teams-add-on-licenses.md)。
+>
+> 虽然定义 **运算符** 是可选的，但建议这样做。  如果调用方未在菜单上进行选择、反复选择无效选项或按名称或号码拨号，自动助理会将呼叫重定向到操作员。  如果未定义运算符，自动助理将放弃呼叫。
+
+## <a name="whats-new-for-auto-attendants-in-the-past-6-months"></a>过去 6 个月自动助理的新增功能
+ 
+ - 8 月 - 呼叫流中的 **播放菜单选项** 、下班后的呼叫流和节假日期间的呼叫流现在支持 \* (星号) 和 \# (磅) 键。
+ - 7 月 - 假期期间的呼叫流现在支持 **“播放”菜单选项**。
+ 
+## <a name="steps-to-create-an-auto-attendant"></a>创建自动助理的步骤
 
 添加自动助理的步骤包括：
 
@@ -99,10 +108,9 @@ ms.locfileid: "67176096"
 
 #### <a name="play-menu-options"></a>播放菜单选项
 
-对于拨号选项，请将电话键盘上的 0-9 个密钥分配给某个呼叫路由目标。 星号 () 和\# (磅) 的键\*由系统保留，无法重新分配。 按下其中任一键将重复当前菜单。
+*新增 - \* (星号) 和 \# (磅) 键现在可用于菜单选项。*
 
-> [!NOTE]
-> # 键仅备份到最新的自动助理。 将边界交叉到新的自动助理后，#键将无法将你带到上一个自动助理。
+对于拨号选项，请将电话键盘上的 0-9、 \* (星号) 和 \# (磅) 密钥分配到呼叫路由目标之一。 
 
 密钥映射不必是连续的。 可以创建一个菜单，其中键 0、1 和 3 映射到选项，而不使用数字 2 键。
 
@@ -159,6 +167,8 @@ ms.locfileid: "67176096"
 
 你的自动助理可以为你 [设置的每个假日有](set-up-holidays-in-teams.md)一个呼叫流。 可以为每个自动助理添加最多 20 个计划假日。
 
+*新增功能 - **“播放”菜单选项** 现已在假日呼叫流中提供。*
+
 1. 在“假日呼叫设置”页上，选择 **“添加**”。
 
 1. 键入此假日设置的名称。
@@ -167,7 +177,7 @@ ms.locfileid: "67176096"
 
 1. 选择要使用的问候语类型。
 
-1. 选择是要 **断开连接** 还是 **重定向** 调用。
+1. 选择是否要 **断开连接**、 **重定向** 或 **播放菜单选项** 的调用。
 
     1. 如果选择重定向，请选择呼叫的呼叫路由目标。
     1. 如果选择播放菜单选项，请配置 **“播放”菜单选项**。

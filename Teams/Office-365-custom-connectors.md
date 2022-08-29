@@ -3,7 +3,6 @@ title: 管理 Microsoft 365 和自定义连接器
 author: guptaashish
 ms.author: guptaashish
 manager: prkosh
-ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -16,14 +15,14 @@ f1.keywords:
 description: 了解连接器如何通过经常将内容和更新直接传送到你所使用的 Teams 频道来保持团队更新。
 appliesto:
 - Microsoft Teams
-ms.localizationpriority: high
+ms.localizationpriority: medium
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9bfc425fbabc5270a3b24cfa2248a9ee2eb7b833
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: 22d14ec191fcc6c13e8384cae0396b5175a0de0a
+ms.sourcegitcommit: 903abff4ce79c10bf1fb936b8ad71f6315a43c18
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267607"
+ms.lasthandoff: 08/08/2022
+ms.locfileid: "67278466"
 ---
 # <a name="manage-microsoft-365-and-custom-connectors"></a>管理 Microsoft 365 和自定义连接器
 

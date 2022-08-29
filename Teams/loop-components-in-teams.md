@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 041a2fbf54eb513c74348adf09df7452dabb4368
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: e468622d4aac30756e54127072045831374c5425
+ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268117"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "67418641"
 ---
 # <a name="overview-of-loop-components-in-teams"></a>Teams 中的循环组件概述
 
@@ -90,6 +90,6 @@ OneDrive 保留策略适用于 .fluid 文件，就像它们适用于用户创建
 - 将租户默认文件权限设置为 *特定人员* (用户指定) 的人员时，在包含 20 多个成员的群聊中创建实时组件将要求发件人手动选择组件的权限选项。
 - 在 Teams 搜索中搜索循环组件将返回指向 office.com 中的组件的链接，而不是聊天消息本身的链接。
 - 联合聊天中禁用循环组件。
-- B2B 来宾将无法协作处理通过公司共享链接与他们共享的实时组件。 将权限设置为 **当前在此聊天中的人员** ，以便与 B2B 来宾共享组件。
+- 来宾将无法协作处理通过公司共享链接与他们共享的实时组件。 设置 **当前在此聊天中人员** 的权限，以便与来宾共享组件。
 - Teams 频道不支持循环组件。
 - 仅当文件移动到不同的库时，聊天中的循环组件才会加载。 如果将文件移动到不同的文件夹，则它将继续在聊天中加载。
