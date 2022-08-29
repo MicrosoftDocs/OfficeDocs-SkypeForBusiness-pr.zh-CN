@@ -1,7 +1,7 @@
 ---
 title: 在 Microsoft Teams 中创建呼叫队列
-author: CarolynRowe
-ms.author: crowe
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: 了解如何在 Microsoft Teams 中设置呼叫队列。 呼叫队列提供问候消息、保持音乐、呼叫重定向和其他功能。
-ms.openlocfilehash: f14c0644c7a4be2a63e74ae59705bb7e3bc0cb76
+ms.openlocfilehash: c95365701760c7db4c0d80ea0875920a91f814e1
 ms.sourcegitcommit: 850038f2248c1ea412f7b5daca26c0598baffa3c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 08/26/2022
-ms.locfileid: "67443329"
+ms.locfileid: "67443499"
 ---
 # <a name="create-a-call-queue"></a>创建呼叫队列
 

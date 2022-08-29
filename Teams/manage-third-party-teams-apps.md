@@ -17,20 +17,20 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 了解如何跨Microsoft 365管理对 Teams 应用的访问。
-ms.openlocfilehash: 114b16dad2a574b217ebc9bf815f42e579b740e8
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: 76385d60d185fd9ad522348e4e438ac06dd4e896
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271407"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396893"
 ---
 # <a name="manage-access-to-teams-apps-across-microsoft-365"></a>跨 Microsoft 365 管理对 Teams 应用的访问
 
 除了在 Teams 中工作的应用外，应用开发人员还可以增强其 Microsoft Teams 应用以在 Outlook 和 Office.com 上工作。 在增强后，最终用户可以在 Teams、Microsoft Outlook 和 Microsoft Office.com 上使用增强的应用。 目前，只有定向版本中的最终用户才能在 Teams、Outlook 和 Office.com 中查看和使用这些特定应用。 现有的 Teams 管理员体验适用于管理对这些应用的访问。 [消息中心](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter/:/messages/MC334280)中提供了有关此更改的通知。 作为 Teams 管理员，你可以允许特定的最终用户使用增强的应用，或管理他们在 Teams、Outlook 和 Office.com 上对增强应用的访问权限。 Teams 管理员使用 Teams 管理中心来管理应用访问权限。
 
-为了在 Outlook 和 Office.com 中使用，增强型应用将继续使用 Teams 中授予的现有权限。 增强型 [应用的权限没有变化](https://devblogs.microsoft.com/microsoft365dev/ignite-2021-building-apps-for-collaboration-in-a-hybrid-world/#personal-tabs)。
+为了在 Outlook 和 Office.com 中使用，增强型应用将继续使用 Teams 中授予的现有权限。 增强应用的 [权限没有变化](https://devblogs.microsoft.com/microsoft365dev/ignite-2021-building-apps-for-collaboration-in-a-hybrid-world/#personal-tabs)。
 
-下面是增强的应用列表：
+下面列出了增强的应用：
 
 * [Monday.com](https://teams.microsoft.com/l/app/eab2d3ce-6d6a-4415-abc4-5f40a8317b1f)
 * [Mural](https://teams.microsoft.com/l/app/c738b607-88dd-4f16-aefe-6a824c65d25d)

@@ -1,6 +1,6 @@
 ---
 title: 购买适用于 Teams 的第三方应用
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 ms.topic: article
@@ -15,12 +15,12 @@ description: 了解如何使用信用卡、借记卡或通过发票计费从 Tea
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 41882a241a911e7c482a2a9a16c9fa9cfd649e9d
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: 680f48fd75c85b219a4c1ed5b18289962637401b
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67299191"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396303"
 ---
 # <a name="purchase-third-party-apps-for-teams"></a>购买适用于 Teams 的第三方应用
 
@@ -34,9 +34,9 @@ Teams 应用可以免费安装，但有些应用可能需要购买服务订阅�
 
 ## <a name="purchase-apps-in-the-teams-admin-center"></a>在 Teams 管理中心购买应用
 
-若要在 Teams 管理中心购买应用，请执行以下步骤： 
+若要在 Teams 管理中心购买应用，请执行以下步骤：
 
-1. 在 Microsoft Teams 管理中心的左侧窗格中，转到“**Teams 应用**” > **“[管理应用](https://admin.teams.microsoft.com/policies/manage-apps)”**。 必须是全局管理员或 Teams 服务管理员才能访问该页面。
+1. 登录到 Teams 管理中心并访问 **Teams 应用** > **[管理应用](https://admin.teams.microsoft.com/policies/manage-apps)**。 必须是全局管理员或 Teams 服务管理员才能访问该页面。
 
 1. 按应用名称搜索所需的应用。 要标识具有付费 SaaS 订阅的应用，请查看“**许可证**”列。 每个应用都有以下值之一：
     * **购买**：该应用提供 SaaS 订阅，并且可供购买。  

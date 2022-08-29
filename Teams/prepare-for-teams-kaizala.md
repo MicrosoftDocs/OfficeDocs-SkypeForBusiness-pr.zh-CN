@@ -14,14 +14,17 @@ search.appverid: ''
 ms.collection:
 - M365-collaboration
 ms.custom: ''
-ms.openlocfilehash: 7256d91a8a306f88e7f40b728158747971497262
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 73376cbc26708cc5ec810e13b710e057ba603a44
+ms.sourcegitcommit: 850038f2248c1ea412f7b5daca26c0598baffa3c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271417"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "67443469"
 ---
 # <a name="charting-your-kaizala-to-teams-journey"></a>绘制 Kaizala 到 Teams 旅程的图表
+
+> [!Important]
+> Microsoft Kaizala 将于 2023 年 8 月 31 日停用。 建议升级到 Microsoft Teams 以继续连接、共享和协作。 停用日期后，将停止对 Kaizala 的访问和支持。
 
 你已决定从 Kaizala 迁移到 Microsoft Teams。
 

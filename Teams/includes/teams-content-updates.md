@@ -3,6 +3,77 @@
 
 
 
+## <a name="week-of-august-15-2022"></a>2022 年 8 月 15 日当周
+
+
+| 发布日期 |主题标题 | 更改 |
+|------|------------|--------|
+| 8/15/2022 | [经认证可用于直接路由的会话边界控制器](/MicrosoftTeams/direct-routing-border-controllers) | 修改内容 |
+| 8/16/2022 | [Microsoft Teams 的通话套餐](/MicrosoftTeams/calling-plans-for-office-365) | 修改内容 |
+| 8/17/2022 | [在 Teams 中自定义应用商店](/MicrosoftTeams/customize-your-app-store) | 修改内容 |
+| 8/17/2022 | [支持 Teams 的设备](/MicrosoftTeams/devices/teams-ip-phones) | 修改内容 |
+| 8/17/2022 | [Microsoft Teams 中的资源特定同意](/MicrosoftTeams/resource-specific-consent) | 修改内容 |
+| 8/17/2022 | [在 Microsoft Teams 中管理应用权限策略](/MicrosoftTeams/teams-app-permission-policies) | 修改内容 |
+| 8/17/2022 | [管理自定义应用策略和设置](/MicrosoftTeams/teams-custom-app-policies-and-settings) | 修改内容 |
+| 8/17/2022 | [在 Microsoft Teams 管理中心上传自定义应用](/MicrosoftTeams/upload-custom-apps) | 修改内容 |
+| 8/18/2022 | [在 Microsoft Teams 管理中心中查看应用权限并授予管理员同意](/MicrosoftTeams/app-permissions-admin-center) | 修改内容 |
+| 8/18/2022 | 新增功能 - 运算符连接 | 删除内容 |
+| 8/18/2022 | [在 Microsoft Teams 管理中心上传自定义应用](/MicrosoftTeams/upload-custom-apps) | 修改内容 |
+| 8/19/2022 | [在 Microsoft Teams 管理中心中管理团队](/MicrosoftTeams/manage-teams-in-modern-portal) | 修改内容 |
+| 8/19/2022 | [管理参与者和来宾的会议策略](/MicrosoftTeams/meeting-policies-participants-and-guests) | 修改内容 |
+| 8/19/2022 | [Teams 可选连接体验](/MicrosoftTeams/teams-privacy-oce-overview) | 修改内容 |
+| 8/20/2022 | [使用直接路由规划媒体旁路](/MicrosoftTeams/direct-routing-plan-media-bypass) | 修改内容 |
+| 8/20/2022 | [为 Teams 准备贵组织的网络](/MicrosoftTeams/prepare-network) | 修改内容 |
+| 8/20/2022 | [适用于 Microsoft Teams 的电话和设备](/MicrosoftTeams/devices/usb-devices) | 修改内容 |
+| 8/20/2022 | [在管理中心使用 Teams 模板](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | 修改内容 |
+| 8/20/2022 | [购买适用于 Teams 的第三方应用](/MicrosoftTeams/purchase-third-party-apps) | 修改内容 |
+| 8/20/2022 | [Microsoft Teams 中的团队和频道概述](/MicrosoftTeams/teams-channels-overview) | 修改内容 |
+| 8/20/2022 | [将本地Skype for Business升级到 Microsoft Teams](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinesshybridonprem) | 修改内容 |
+| 8/20/2022 | [管理语音邮件策略](/MicrosoftTeams/manage-voicemail-policies) | 添加内容 |
+| 8/20/2022 | [为用户分配、更改或删除电话号码](/MicrosoftTeams/assign-change-or-remove-a-phone-number-for-a-user) | 修改内容 |
+| 8/20/2022 | [Teams Android 设备的远程预配和登录](/MicrosoftTeams/devices/remote-provision-remote-login) | 修改内容 |
+| 8/20/2022 | [为组织管理“班次”应用](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | 修改内容 |
+| 8/20/2022 | [配置运算符连接](/MicrosoftTeams/operator-connect-configure) | 修改内容 |
+| 8/20/2022 | [运营商与 Microsoft for Operator Connect 之间的数据传输](/MicrosoftTeams/operator-connect-data-transfer) | 修改内容 |
+| 8/20/2022 | [运算符连接](/MicrosoftTeams/operator-connect-plan) | 修改内容 |
+| 8/20/2022 | [搜索用户的电话号码](/MicrosoftTeams/search-for-phone-numbers-for-users) | 修改内容 |
+| 8/20/2022 | [在 Microsoft Teams 中配置实时事件设置](/MicrosoftTeams/teams-live-events/configure-teams-live-events) | 修改内容 |
+| 8/20/2022 | [在 Microsoft Teams 中为实时事件进行设置](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | 修改内容 |
+| 8/20/2022 | [在 Microsoft Teams 中为用户设置会议拨出确认](/MicrosoftTeams/set-up-meeting-dial-out-confirmation) | 修改内容 |
+
+
+## <a name="week-of-august-08-2022"></a>2022 年 8 月 8 日当周
+
+
+| 发布日期 |主题标题 | 更改 |
+|------|------------|--------|
+| 8/8/2022 | [Microsoft Teams 中的应用更新体验](/MicrosoftTeams/apps-update-experience) | 修改内容 |
+| 8/8/2022 | [在 Microsoft Teams 管理中心管理应用](/MicrosoftTeams/manage-apps) | 修改内容 |
+| 8/8/2022 | [对内容进行电子数据展示调查](/MicrosoftTeams/ediscovery-investigation) | 修改内容 |
+| 8/9/2022 | [在 Teams 中管理应用的应用策略概述](/MicrosoftTeams/app-policies) | 修改内容 |
+| 8/9/2022 | 云语音部署指导委员会 | 删除内容 |
+| 8/9/2022 | 加入清单 - 配置云语音工作负荷 - Microsoft Teams | 删除内容 |
+| 8/9/2022 | 加入清单 - 配置直接路由 - Microsoft Teams | 删除内容 |
+| 8/9/2022 | 加入清单 - 配置核心功能 - Microsoft Teams | 删除内容 |
+| 8/9/2022 | 加入清单 - 启用 Microsoft 365 或Office 365服务 | 删除内容 |
+| 8/9/2022 | Microsoft Teams 会议室参考 | 删除内容 |
+| 8/9/2022 | [管理自定义和旁加载应用](/MicrosoftTeams/custom-app-overview) | 添加内容 |
+| 8/9/2022 | [了解 Microsoft Teams 中的应用](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | 修改内容 |
+| 8/9/2022 | [Microsoft 提供的应用验证和应用测试概述](/MicrosoftTeams/overview-of-app-validation) | 修改内容 |
+| 8/9/2022 | [了解 Microsoft Teams 中的第三方应用](/MicrosoftTeams/overview-third-party-apps) | 修改内容 |
+| 8/9/2022 | [购买适用于 Teams 的第三方应用](/MicrosoftTeams/purchase-third-party-apps) | 修改内容 |
+| 8/9/2022 | [在 Microsoft Teams 中管理应用权限策略](/MicrosoftTeams/teams-app-permission-policies) | 修改内容 |
+| 8/9/2022 | [在 Microsoft Teams 中管理应用设置策略](/MicrosoftTeams/teams-app-setup-policies) | 修改内容 |
+| 8/9/2022 | [管理自定义应用策略和设置](/MicrosoftTeams/teams-custom-app-policies-and-settings) | 修改内容 |
+| 8/10/2022 | 直接路由 | 删除内容 |
+| 8/11/2022 | [了解 Microsoft Teams 中的应用](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | 修改内容 |
+| 8/11/2022 | [在 Microsoft Teams 管理中心管理应用](/MicrosoftTeams/manage-apps) | 修改内容 |
+| 8/11/2022 | [在 Microsoft Teams 中管理应用设置策略](/MicrosoftTeams/teams-app-setup-policies) | 修改内容 |
+| 8/12/2022 | [为 Microsoft Teams 设置自动助理](/MicrosoftTeams/create-a-phone-system-auto-attendant-smb) | 添加内容 |
+| 8/12/2022 | [在 Microsoft Teams 中创建呼叫队列](/MicrosoftTeams/create-a-phone-system-call-queue-smb) | 添加内容 |
+| 8/12/2022 | [Microsoft Teams 中的 Walkie Talkie 应用](/MicrosoftTeams/walkie-talkie) | 修改内容 |
+
+
 ## <a name="week-of-august-01-2022"></a>2022 年 8 月 1 日当周
 
 
@@ -142,75 +213,6 @@
 | 7/20/2022 | [配置运算符连接](/MicrosoftTeams/operator-connect-configure) | 修改内容 |
 | 7/21/2022 | [Microsoft Teams 教育版见解 IT 管理员指南](/MicrosoftTeams/class-insights) | 修改内容 |
 | 7/21/2022 | [Microsoft Teams 中的应用更新体验](/MicrosoftTeams/apps-update-experience) | 修改内容 |
-| 7/21/2022 | [在 Microsoft Teams 管理中心中管理应用](/MicrosoftTeams/manage-apps) | 修改内容 |
+| 7/21/2022 | [在 Microsoft Teams 管理中心管理应用](/MicrosoftTeams/manage-apps) | 修改内容 |
 | 7/21/2022 | [使用 Teams 应用提交 API 提交和批准自定义应用](/MicrosoftTeams/submit-approve-custom-apps) | 修改内容 |
 | 7/21/2022 | [在 Microsoft Teams 管理中心上传自定义应用](/MicrosoftTeams/upload-custom-apps) | 修改内容 |
-
-
-## <a name="week-of-july-11-2022"></a>2022 年 7 月 11 日当周
-
-
-| 发布日期 |主题标题 | 更改 |
-|------|------------|--------|
-| 7/13/2022 | [保留音乐](/MicrosoftTeams/music-on-hold) | 修改内容 |
-| 7/14/2022 | [规划 SIP 网关](/MicrosoftTeams/sip-gateway-plan) | 修改内容 |
-| 7/15/2022 | [Microsoft Teams 会议室 (Windows) 发行说明](/MicrosoftTeams/rooms/rooms-release-note) | 修改内容 |
-| 7/15/2022 | [适用于一线工作人员的 Teams 策略包](/MicrosoftTeams/policy-packages-flw) | 添加内容 |
-| 7/15/2022 | [在 Microsoft Teams 中管理审批应用](/MicrosoftTeams/approval-admin) | 修改内容 |
-| 7/15/2022 | [在 Microsoft Teams 中管理 Bookings 应用](/MicrosoftTeams/bookings-app-admin) | 修改内容 |
-| 7/15/2022 | 为 Microsoft Teams 中的一线工作人员大规模部署团队 | 删除内容 |
-| 7/15/2022 | 使用 Microsoft Teams 和 Bookings 应用进行虚拟约会 | 删除内容 |
-| 7/15/2022 | 管理浏览器上的 Teams 虚拟约会的联接体验 | 删除内容 |
-| 7/15/2022 | [在组织中推广 Microsoft Teams](/MicrosoftTeams/expand-teams-across-your-org/expand-teams-across-your-organization-landing-page) | 修改内容 |
-| 7/15/2022 | 使用 Teams 进行虚拟约会 - 集成到 Cerner EHR | 删除内容 |
-| 7/15/2022 | Microsoft Teams EHR 连接器虚拟约会报表 | 删除内容 |
-| 7/15/2022 | 与 Teams 的虚拟约会 - 集成到 Epic EHR | 删除内容 |
-| 7/15/2022 | 消息委派 | 删除内容 |
-| 7/15/2022 | 使用 Microsoft Teams 的医疗保健组织的安全消息传递 | 删除内容 |
-| 7/15/2022 | 适用于医疗保健组织的 Teams 入门 | 删除内容 |
-| 7/15/2022 | 简化零售环境中的业务流程 | 删除内容 |
-| 7/15/2022 | 零售团队协作 | 删除内容 |
-| 7/15/2022 | Teams 中的排班 | 删除内容 |
-| 7/15/2022 | 管理 Teams 中一线员工基于班次的访问权限 | 删除内容 |
-| 7/15/2022 | [为组织管理“班次”应用](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | 修改内容 |
-| 7/15/2022 | 管理班次管理的计划所有者 | 删除内容 |
-| 7/15/2022 | 使用 PowerShell 将 Shifts 连接到 Blue Yonder Workforce Management | 删除内容 |
-| 7/15/2022 | 使用 PowerShell 管理与 Blue Yonder Workforce Management 的 Shifts 连接 | 删除内容 |
-| 7/15/2022 | 使用 Shifts 连接器向导将 Shifts 连接到 Blue Yonder Workforce Management | 删除内容 |
-| 7/15/2022 | Shifts 连接器 | 删除内容 |
-| 7/15/2022 | 适用于零售业的 Teams | 删除内容 |
-| 7/15/2022 | 帮助客户和客户使用虚拟约会 | 删除内容 |
-| 7/15/2022 | [适合一线员工的 Teams](/MicrosoftTeams/flw-landing-page) | 修改内容 |
-| 7/15/2022 | 了解一线工作人员用户类型和许可 | 删除内容 |
-| 7/15/2022 | 使用"一线工作人员载入向导"使一线工作人员启动并运行 | 删除内容 |
-| 7/15/2022 | 一线工作者快速入门指南 | 删除内容 |
-| 7/15/2022 | 在 Teams 中管理一线试用版 | 删除内容 |
-| 7/15/2022 | 为一线员工定制 Teams 应用 | 删除内容 |
-| 7/15/2022 | [Teams 医疗保健策略包](/MicrosoftTeams/policy-packages-healthcare) | 修改内容 |
-| 7/15/2022 | Microsoft Teams 虚拟访问使用情况报告 | 删除内容 |
-| 7/15/2022 | [PowerShell 脚本示例 - 导出管理器及其直接报表](/MicrosoftTeams/scripts/powershell-script-create-teams-from-managers-export-managers) | 修改内容 |
-| 7/15/2022 | [PowerShell 脚本示例 - 创建新的人员管理器团队](/MicrosoftTeams/scripts/powershell-script-create-teams-from-managers-new-teams) | 修改内容 |
-
-
-## <a name="week-of-july-04-2022"></a>2022 年 7 月 4 日当周
-
-
-| 发布日期 |主题标题 | 更改 |
-|------|------------|--------|
-| 7/5/2022 | [自动助理和呼叫队列的 PowerShell cmdlet 参考](/MicrosoftTeams/call-queue-auto-attendant-cmdlets) | 修改内容 |
-| 7/5/2022 | [为 Microsoft Teams 设置自动助理](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 修改内容 |
-| 7/5/2022 | [在 Microsoft Teams 中创建呼叫队列](/MicrosoftTeams/create-a-phone-system-call-queue) | 修改内容 |
-| 7/5/2022 | [Microsoft Teams 中的会议](/MicrosoftTeams/deploy-meetings-microsoft-teams-landing-page) | 修改内容 |
-| 7/5/2022 | [配置会话边框控制器 - 多个租户](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | 修改内容 |
-| 7/5/2022 | [规划 Teams 自动助理和呼叫队列](/MicrosoftTeams/plan-auto-attendant-call-queue) | 修改内容 |
-| 7/5/2022 | [会议、网络研讨会和直播活动](/MicrosoftTeams/quick-start-meetings-live-events) | 修改内容 |
-| 7/5/2022 | [Microsoft Teams 电话资源帐户许可证](/MicrosoftTeams/teams-add-on-licensing/virtual-user) | 修改内容 |
-| 7/5/2022 | [Teams 语音 Contoso 案例研究：自动助理和呼叫队列](/MicrosoftTeams/voice-case-study-call-queues) | 修改内容 |
-| 7/5/2022 | [搜索应用管理事件的审核日志](/MicrosoftTeams/audit-app-management-activities) | 添加内容 |
-| 7/6/2022 | [Microsoft Teams 教育版见解 IT 管理员指南](/MicrosoftTeams/class-insights) | 修改内容 |
-| 7/6/2022 | [使用 PowerShell 将 Shifts 连接到 Blue Yonder Workforce Management](/MicrosoftTeams/expand-teams-across-your-org/shifts/shifts-connector-blue-yonder-powershell-setup) | 修改内容 |
-| 7/6/2022 | [使用 Shifts 连接器向导将 Shifts 连接到 Blue Yonder Workforce Management](/MicrosoftTeams/expand-teams-across-your-org/shifts/shifts-connector-wizard) | 修改内容 |
-| 7/6/2022 | [如何在你的组织中使用来电显示](/MicrosoftTeams/how-can-caller-id-be-used-in-your-organization) | 修改内容 |
-| 7/7/2022 | 了解 Microsoft Teams 中的通话功能 | 删除内容 |
-| 7/7/2022 | [Microsoft 365 的通话套餐](/MicrosoftTeams/calling-plans-for-office-365) | 修改内容 |
-| 7/8/2022 | [使用 Microsoft Teams 和 Bookings 应用进行虚拟约会](/MicrosoftTeams/expand-teams-across-your-org/bookings-virtual-visits) | 修改内容 |

@@ -16,12 +16,12 @@ description: 了解 Microsoft Teams 管理中心提供的 Teams 警报和通知�
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: c4acbbb085bbf47339b0b0b2bcb7000466953b70
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: 452bcbebeffa3936b9d05270626e11923caf5cda
+ms.sourcegitcommit: 72b6f7ab2a44dec395622bfe64119a48094960bd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616288"
+ms.lasthandoff: 08/08/2022
+ms.locfileid: "67283083"
 ---
 # <a name="microsoft-teams-monitoring-and-alerting"></a>Microsoft Teams 监视和警报
 
@@ -32,6 +32,9 @@ Teams 管理中心提供了 Microsoft Teams 的新监视和警报功能。 使�
 - 自动管理 Teams 功能
 - 如果显示意外内容，则会发出警报。
 - 采取纠正措施，使事情回到正轨。
+
+> [!NOTE]
+> Teams 管理中心内的警报功能在 GCC/GCC-High 环境中不可用。
 
 ## <a name="how-to-manage-monitoring-and-alerting"></a>如何管理监视和警报
 

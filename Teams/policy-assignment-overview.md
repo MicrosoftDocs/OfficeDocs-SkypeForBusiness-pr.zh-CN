@@ -18,12 +18,12 @@ description: 了解向 Microsoft Teams 中的用户和组分配策略和策略�
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: e7cf7ba085c7bad22fea4b14f79b9eb3d4e6e2aa
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 7c9855a56031d3eb22cdcbc1ac1b27dfa075db49
+ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268417"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "67418451"
 ---
 # <a name="assign-policies-in-teams--getting-started"></a>在 Teams 中分配策略 - 入门
 
@@ -87,6 +87,9 @@ ms.locfileid: "67268417"
 
 :::image type="content" source="media/teams-meetings-policies-global-general.png" alt-text="显示 Teams 管理中心中的更新全局策略的屏幕截图。" lightbox="media/teams-meetings-policies-global-expanded.png":::
 
+> [!NOTE]
+> 提交任何策略操作后，系统会提示你使用弹出对话框进行确认。 这包括策略分配、更改现有策略以及创建新的自定义策略。 必须确认启动策略操作，也可以取消并稍后返回。
+
 ### <a name="using-powershell"></a>使用 PowerShell
 
 若要使用 PowerShell 设置全局策略，请使用全局标识符。  首先，查看当前的全局策略以确定要更改的设置。
@@ -148,6 +151,10 @@ Set-CsTeamsMessagingPolicy -Identity Global -AllowUserEditMessage $false
 
 > [!NOTE]
 > 还可以从 **“用户** ”页访问活动日志。 选择 **“应用** ”以提交批量策略分配后，页面顶部会显示横幅。 选择横幅中的 **活动日志** 链接。
+
+此视频演示查看和管理用户分配的有效策略的步骤。
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53x4E?autoplay=false]
 
 ## <a name="related-topics"></a>相关主题
 

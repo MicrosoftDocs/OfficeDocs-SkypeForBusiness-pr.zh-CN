@@ -12,12 +12,12 @@ ms.collection:
 description: 了解用于管理 Microsoft Teams 的 Teams PowerShell 模块支持的版本。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 175d9785cd32d18db7eebd363d08840538baa0df
-ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
+ms.openlocfilehash: 5ae244a16e934b70085b2193bee3ef21a277f7ed
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66819547"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397283"
 ---
 # <a name="teams-powershell-module---supported-versions"></a>Teams PowerShell 模块 - 支持的版本
 
@@ -41,13 +41,15 @@ Microsoft Teams PowerShell 模块 (4.x.x 系列或更高版本中的 TPM) 版本
 - 在更新期间，建议不要将 TPM 4.x.x/3.x.x 与低于 3.0.0 的版本一起使用。 例如，不建议将版本 4.x.x & 2.6.0 一起用于同一组织中的不同管理员操作。
 
 - 相关更改
-  - 更新到 TPM 3.x.x 及更高版本中Get-CsOnlineUser & Get-CsOnlineVoiceUser - [Get-CsOnlineUser](/powershell/module/skype/get-csonlineuser) & [Get-CsOnlineVoiceUser](/powershell/module/skype/get-csonlinevoiceuser) (消息中心帖子 - MC340774) 中的更多详细信息。
+  - 汇报到 TPM 3.x.x 及更高版本中Get-CsOnlineUser & Get-CsOnlineVoiceUser - [Get-CsOnlineUser](/powershell/module/skype/get-csonlineuser) & [Get-CsOnlineVoiceUser](/powershell/module/skype/get-csonlinevoiceuser) (消息中心帖子中的更多详细信息 – MC340774) 。
 
   - 电话号码分配的更改 - [Set-CsUser](/powershell/module/skype/set-csuser)、 [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser)、 [Set-CsOnlineApplicationInstance](/powershell/module/skype/set-csonlineapplicationinstance) & [Set-CsOnlineVoiceApplicationInstance](/powershell/module/skype/set-csonlinevoiceapplicationinstance) (消息中心帖子中的更多详细信息 – MC316139) 。
 
   - Get-CsTenant中的参数更改 - [Get-CsTenant](/powershell/module/skype/get-cstenant) (Message center post - MC365397) 中的更多详细信息。
   
   - 如果脚本将 New/Set of Policy 或 Configuration cmdlet 与 PSListModifier 类型参数配合使用，建议使用最新版本 (4.2.0 或更高版本) 。 消息中心帖子供参考 - MC397428。
+
+  - [新建|Get-CsCloudCallDataConnection cmdlet 现在支持从版本 4.6.0 或更高版本 (消息中心文章 - MC408993) 。
 
 - 在使用 TPM 4.x.x 或更高版本时，建议不要使用 [下面](#deprecated-cmdlets)提到的任何已弃用或不受支持的 cmdlet。
 

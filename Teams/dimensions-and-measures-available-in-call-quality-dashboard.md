@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: 获取有关 Microsoft Teams 和 Skype for Business Online 的调用质量仪表板 (CQD) 使用的维度和度量的详细信息。
-ms.openlocfilehash: d206a4249a086914bb9bf1cf168c03dd1544eb3c
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: 8dda15990385db8e8ca9aeba7c56eba9d6b400ce
+ms.sourcegitcommit: 830357674103c0c5c99bd73d40261afe02a2da49
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66790257"
+ms.lasthandoff: 08/09/2022
+ms.locfileid: "67291418"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>通话质量仪表板 (CQD) 中提供的维度和度量
 
@@ -237,8 +237,8 @@ CQD 使用的字符串通常派生自数据文件，这些字符串几乎可以�
 |**UserAgent** | | | |
 | First Domain  | 字符串  | 第一个终结点用户的域。 如果第一个终结点是会议服务器，则它使用会议组织者的域。 也可能是场景中使用的服务帐户的域。  <br/> **示例值：** contoso.com <span></span> | |
 | Second Domain  | 字符串  | 第二终结点用户的域。 如果第二个终结点是会议服务器，则它使用会议组织者的域。 也可能是场景中使用的服务帐户的域。 <br/> **示例值：** contoso.com <span></span>  | |
-| First User Agent Category  | 字符串  | 第一终结点的用户代理的类别。 <br/> **示例值：** OC | &bull; 用户代理当前没有映射    |
-| Second User Agent Category  | 字符串  | 第二终结点的用户代理的类别。 <br/> **示例值：** OC | &bull; 用户代理当前没有映射    |
+| First User Agent Category  | 字符串  | 第一终结点的用户代理的类别。 <br/> **示例值：** Oc | &bull; 用户代理当前没有映射    |
+| Second User Agent Category  | 字符串  | 第二终结点的用户代理的类别。 <br/> **示例值：** Oc | &bull; 用户代理当前没有映射    |
 | First User Agent  | 字符串  | 第一终结点的用户代理字符串。 <br/> **示例值：** UCCAPI/16.0.7766.5281 OC/16.0.7766.2047 (Skype for Business)  | &bull; 第一终结点未报告用户代理   |
 | Second User Agent  | 字符串  | 第二终结点的用户代理字符串。 <br/> **示例值：** UCCAPI/16.0.7766.5281 OC/16.0.7766.2047 (Skype for Business)  | &bull; 第二终结点未报告任何用户代理   |
 | Conference Type  | 枚举 <br/>**可能的值：** <br/>&bull; conf：applicationsharing <br/>&bull; conf：audio-video <br/>&bull; conf：focus | 会议 URI 的类型。  <br/> **示例值：** conf：audio-video | &bull; 非会议方案。   |
@@ -247,7 +247,7 @@ CQD 使用的字符串通常派生自数据文件，这些字符串几乎可以�
 | Second Client App Version  | 字符串  | 第二终结点使用的应用程序的版本。数据从用户代理字符串解析。<br/> **示例值：** 16.0.7766.2047 | &bull; 无法分析版本字符串 <br/>&bull; 未报告该值。 |
 |会议 ID |String |创建会议时生成的会议标识符。  <br/> **示例值：** 19：meeting_MzB...zIw@thread.v2| |
 |**网络**||| |
-| Transport  | 枚举 <br/>**可能的值：** <br/>&bull; UDP <br/>&bull; TCP <br/>&bull; 未知  | 流使用的网络传输类型。  无法识别表示系统无法确定传输类型是 TCP 还是 UDP。  | &bull; 未报告传输类型 <br/>&bull; 媒体路径未建立  |
+| Transport  | 枚举 <br/>**可能的值：** <br/>&bull; Udp <br/>&bull; Tcp <br/>&bull; 未知  | 流使用的网络传输类型。  无法识别表示系统无法确定传输类型是 TCP 还是 UDP。  | &bull; 未报告传输类型 <br/>&bull; 媒体路径未建立  |
 | First Connectivity Ice  | 枚举 <br/>**可能的值：** <br/>&bull; DIRECT= 直接网络路径 <br/>&bull; RELAY = 通过中继 <br/>&bull; HTTP = 通过 HTTP 代理 <br/>&bull; FAILED = 连接失败 | 第一终结点使用的 ICE 连接类型。  |&bull; 未报告传输类型 <br/>&bull; 媒体路径未建立   |
 | Second Connectivity Ice  | 枚举 <br/>**可能的值：** <br/>&bull; DIRECT= 直接网络路径 <br/>&bull; RELAY = 通过中继 <br/>&bull; HTTP = 通过 HTTP 代理 <br/>&bull; FAILED = 连接失败  | 第二终结点使用的 ICE 连接类型。    | &bull; 未报告传输类型 <br/>&bull; 媒体路径未建立    |
 | First IP Address  | 字符串  | 第一终结点的 IP 地址。请注意，此维度可能包含过多的行，导致无法用作报告中的一个维度。它可能会转为用作筛选器。<br/> **示例值：** 10.0.0.10  | &bull; 未报告传输类型 <br/>&bull; 媒体路径未建立   |
@@ -469,7 +469,7 @@ CQD 使用的字符串通常派生自数据文件，这些字符串几乎可以�
 |**呼叫诊断**||||
 | Error Report Sender  | 字符串  | 指示发送流的通话错误报告的终结点。此报告包含额外的遥测并可能指出通话中的通话设置或断线问题。<br/> **示例值：** 第一 | &bull; 指示未收到呼叫错误报告。  |
 | Is Media Error  | 字符串  | 指示为流报告的通话错误是否为媒体级错误。此报告包含额外的遥测并可能指出通话中的通话设置或断线问题。    | &bull; 指示未收到呼叫错误报告。 |
-| Media Failure Type  | 枚举 <br/>**可能的值：** <br/>&bull; Midcall <br/>&bull;  CallSetup <br/>&bull;  NotMediaFailure。 | 与流关联的媒体故障的类型。 <br/> 注意：“NotMediaFailure”并不表示发生了非媒体故障，只表示没有发生媒体故障。   | &bull; 指示未收到呼叫错误报告。   |
+| Media Failure Type  | 枚举 <br/>**可能的值：** <br/>&bull; Midcall <br/>&bull;  CallSetup <br/>&bull; MediaFailureUnknownType <br/>&bull;  NotMediaFailure | 与流关联的媒体故障的类型。 <br/> 注意：“NotMediaFailure”并不表示发生了非媒体故障，只表示没有发生媒体故障。 MediaFailureUnknownType 指示检测到媒体故障，但未属于 MidCall 或 CallSetup 分类，因为是边缘事例方案或缺少遥测数据。   | &bull; 指示未收到呼叫错误报告。   |
 | 呼叫分类| 枚举 |分配给调用的可靠性分类。 <br/> **可能的值**：Success、Failure、ClassificationUnavailable | |
 | 分类原因|String|将分类分配给流的原因。| |
 | 测试呼叫类型|枚举|指示此调用是常规调用还是测试调用。 如果是测试调用，则表示测试调用的类型。 <br/>**可能的值：** NonTest、Silent、UserInitiated、Synthetic <br/>**意义：** <br/> 非测试 - 常规呼叫 <br/> 无提示 - 无提示测试呼叫 <br/> UserInitiated – 用户发起的测试调用 <br/>合成 - ST 终结点发起的调用||
@@ -481,7 +481,7 @@ CQD 使用的字符串通常派生自数据文件，这些字符串几乎可以�
 | 具有媒体诊断 Blob  | Boolean  | 如何会话具有媒体诊断数据，则为 True，否则为 False。   | &bull; 未为此流收集一些信号数据   |
 | Call Setup Failure Reason  | 枚举  | 通话未能建立媒体连接的原因分类。 <br/>**可能的值：** <br/> **缺少 FW 深包检查豁免规则** - 指示路径沿线的网络设备可能由于深度数据包检查规则而阻止建立媒体路径。 这可能是因为未正确配置代理或防火墙规则。 <br/> **缺少 FW IP 块豁免规则** - 指示沿路径的网络设备可能阻止媒体路径建立到Office 365网络。 这可能是因为未正确将代理或防火墙规则配置为允许访问用于 Skype for Business 流量的 IP 地址和端口。 <br/> **其他** - 指示无法建立调用的媒体路径，但根本原因无法分类。 <br/> 不是媒体故障 - 指示在建立媒体路径时未检测到任何问题。  | &bull; 由于未知媒体问题，呼叫设置失败  |
 | 会话类型  | 枚举 <br/>**可能的值：** <br/> Conf、P2P  | 指示呼叫会话类型是会议 (Conf) 还是对等呼叫 (P2P) 方案。 <br/> **示例值：** Conf | |
-| CDR 响应原因  | 枚举 <br/>**可能的值：** <br/> 0 或 200 = “确定” <br/> 410 = “MediaConnectivityErrors”<br/> 480 = “UserUnavailable”<br/> 487 = “PickupTimedOut” <br/> 603 = “CallDeclined” <br/> 所有其他 CDR 代码 = “其他” | 提供结束呼叫会话的原因，无论呼叫是否成功，并允许在不完整的呼叫之间进行区分 (无应答、忙碌、拒绝) 和失败的呼叫 (媒体机构) 。 <br/> **示例值：** 还行 | <br/>&bull; “其他”的值意味着在 Microsoft 工程团队之外，响应代码在诊断上没有用处 |
+| CDR 响应原因  | 枚举 <br/>**可能的值：** <br/> 0 或 200 = “确定” <br/> 410 = “MediaConnectivityErrors”<br/> 480 = “UserUnavailable”<br/> 487 = “PickupTimedOut” <br/> 603 = “CallDeclined” <br/> 所有其他 CDR 代码 = “其他” | 提供结束呼叫会话的原因，无论呼叫是否成功，并允许在不完整的呼叫之间进行区分 (无应答、忙碌、拒绝) 和失败的呼叫 (媒体机构) 。 请注意，410 错误可能并不总是与“失败”分类相关：这是由于标识的排除项，因此不被视为影响媒体故障。 <br/> **示例值：** 还行 | <br/>&bull; “其他”的值意味着在 Microsoft 工程团队之外，响应代码在诊断上没有用处 |
 |**DNS**||||
 | 已使用的 DNS 解析缓存  | Boolean  | 如果终结点使用了 DNS 缓存来解析媒体中继地址，则为 True，否则为 False。    | <br/>&bull; 终结点未报告此数据    |
 |**UserData**| |||

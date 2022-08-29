@@ -17,12 +17,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9918c1ce81464f2fbe9a0c16bc0373e54858d79b
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: d1fb640e6bf43d4a91eb1c672244cdf33cefd059
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67299081"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396433"
 ---
 # <a name="microsoft-365-app-compliance-program-for-security-compliance-and-privacy-of-third-party-apps"></a>Microsoft 365 应用合规性计划，适用于第三方应用的安全性、合规性和隐私
 
@@ -112,7 +112,7 @@ Microsoft 合规性计划根据派生自领先的行业标准框架的控件检�
 
 若要访问应用的 MCAS 信息，请执行以下操作：
 
-1. 在 Teams 管理中心中，选择 **Teams 应用** > **[管理应用](https://admin.teams.microsoft.com/policies/manage-apps)**。
+1. 登录到 Teams 管理中心并访问 **Teams 应用** > **[管理应用](https://admin.teams.microsoft.com/policies/manage-apps)**。
 
 1. 选择 **认证** 对应用进行排序，并将所有 Microsoft 365 认证应用推送到表的顶部。
 

@@ -20,12 +20,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 了解如何为呼叫转接和委派配置用户设置。
-ms.openlocfilehash: 64907043448f44ff861ede026d0a4343899ad98b
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: c9d085027ed1b365e8aa47b5908c946c4234e5ca
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67272227"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397353"
 ---
 # <a name="configure-call-settings-for-your-users"></a>为用户配置呼叫设置
 
@@ -56,6 +56,10 @@ ms.locfileid: "67272227"
 若要配置未答复的设置，请在同一页上选择“ **If 未应答** ”下拉列表中的相应设置。 在 **重定向** 下拉列表之前的环形中，指定要等待的秒数。
 
 呼叫委派和组呼叫取件的配置通过选择适当的类型集成到呼叫转发和未答复的设置中。 例如，若要配置调用也应响铃用户委托，请在同一页上选择“**也允许**”下的 **呼叫委** 派。 然后，通过选择 **“添加人员** ”并单击“ **保存**”来添加相应的委托。
+
+此视频演示查看和编辑用户语音设置的步骤。
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE546F7?autoplay=false]
 
 ## <a name="use-powershell"></a>使用 PowerShell
 

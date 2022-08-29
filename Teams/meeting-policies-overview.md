@@ -1,5 +1,5 @@
 ---
-title: 管理会议Microsoft Teams
+title: 在 Microsoft Teams 中管理会议策略
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -18,15 +18,15 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.overview
 - seo-marvel-apr2020
-description: 了解如何在会议中管理会议策略Teams并使用它们来控制可供会议参与者用于用户安排的会议的功能。
-ms.openlocfilehash: ccfcb15cb5456a25b8bbad0383481f20d4c81e9b
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+description: 了解如何在 Teams 中管理会议策略设置，并使用它们来控制用户安排的会议的会议参与者可用的功能。
+ms.openlocfilehash: 99c84f6c0dfcbd20824a90af49739eace200ecd2
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205532"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396543"
 ---
-# <a name="manage-meeting-policies-in-microsoft-teams"></a>管理会议Microsoft Teams
+# <a name="manage-meeting-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理会议策略
 
 <a name="bkautomatically-admit-people"> </a>
 
@@ -43,9 +43,9 @@ ms.locfileid: "61205532"
 
 |实施类型  |说明  |
 |---------|---------|
-|按组织者    |如果你实现按组织者策略，所有会议参加者都会继承组织者的策略。 例如 **，"自动** 允许人员"是按组织者的策略，用于控制用户是直接加入会议，还是等待分配有该策略的用户安排的会议。          |
-|按用户    |实施按用户策略时，只有每用户策略适用于限制组织者和/或会议参与者的某些功能。 例如， **频道中的"现在开会** "是按用户的策略。     |
-|按组织者和按用户     |当实施按组织者和按用户策略的组合时，会根据会议参与者的策略和组织者的策略对其进行某些功能限制。 例如， **云录制** 是按组织者和按用户的策略。 打开此设置以允许会议组织者和参与者开始和停止录制。
+|按组织者    |如果你实现按组织者策略，所有会议参加者都会继承组织者的策略。 例如， **自动允许人员** 是按组织者策略，并控制用户是直接加入会议还是在大厅中等待由分配策略的用户安排的会议。          |
+|按用户    |实施按用户策略时，只有每用户策略适用于限制组织者和/或会议参与者的某些功能。 例如， **频道中的“立即开会”** 是按用户的策略。     |
+|按组织者和按用户     |当实施按组织者和按用户策略的组合时，会根据会议参与者的策略和组织者的策略对其进行某些功能限制。 例如， **云录制** 是按组织者和按用户的策略。 启用此设置以允许会议组织者和参与者开始和停止录制。
 
 可编辑全局策略中的设置，或创建和分配一个或多个自定义策略。 除非创建并指定一个自定义策略，否则用户将获得全局策略。
 
@@ -71,9 +71,13 @@ ms.locfileid: "61205532"
 
 - 禁用屏幕共享模式。
 - 关闭白板。
-- 关闭"共享笔记"。
+- 关闭共享笔记。
 
 然后将此策略分配给用户。
+
+此视频演示创建自定义会议策略的步骤，并向用户 (或用户) 分配自定义会议策略。
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53Wv0?autoplay=false]
 
 ## <a name="edit-a-meeting-policy"></a>编辑会议策略
 
@@ -87,6 +91,10 @@ ms.locfileid: "61205532"
 > [!NOTE]
 > 一次只能向一个用户分配一个会议策略。
 
+此视频演示编辑组织范围的默认会议策略的步骤。
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53MoG?autoplay=false]
+
 ## <a name="assign-a-meeting-policy-to-users"></a>将会议策略分配给用户
 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
@@ -96,7 +104,7 @@ ms.locfileid: "61205532"
 
 ## <a name="meeting-policy-settings"></a>会议策略设置
 
-在"会议策略"页面上选择现有策略或选择"添加"以添加新策略时，可以配置以下设置。
+在 **“会议策略** ”页上选择现有策略或选择 **“添加** 以添加新策略”时，可以配置以下设置。
 
 - [常规](meeting-policies-in-teams-general.md)
 - [音频和视频](meeting-policies-audio-and-video.md)

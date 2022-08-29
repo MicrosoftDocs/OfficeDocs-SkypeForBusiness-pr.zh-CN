@@ -18,12 +18,12 @@ ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 05be32bff1069d11ea26d28e6eb5377ec04e65e9
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: 2f4809d615d97aa46ecad3b46c2b723c33b4619e
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67299061"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396863"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Microsoft Teams 应用权限和考虑事项
 
@@ -96,7 +96,7 @@ Microsoft Teams 应用是一种将一个或多个功能聚合到可安装、升�
 
 * 当用户与机器人进行交互时，如果机器人存储用户的 ID，则它可以随时发送用户直接消息。
 
-* 从理论上讲，机器人消息可能包含指向网络钓鱼或恶意软件站点的链接。 但是，用户、租户管理员或 Microsoft 可以全局阻止机器人。 [应用验证和验证检查](overview-of-app-validation.md) 可确保任何虚假应用在 Teams 应用商店中不可用。
+* 从理论上讲，机器人消息可能包含指向网络钓鱼或恶意软件站点的链接。 但是，用户、租户管理员或 Microsoft 可以全局阻止机器人。 [应用验证和验证检查](overview-of-app-validation.md) 可确保 Teams 应用商店中不提供任何虚假应用。
 
 * 机器人可以检索（并可能存储）应用已添加到的团队成员的基本标识信息，或在个人或群组聊天中为单个用户检索基本标识信息。 若要获取有关这些用户的更多信息，机器人必须要求他们登录到Azure Active Directory（Azure AD）。
 
@@ -105,8 +105,6 @@ Microsoft Teams 应用是一种将一个或多个功能聚合到可安装、升�
 * 默认情况下，机器人无法代表用户执行操作，但机器人可以要求用户登录;用户登录后，机器人将拥有一个访问令牌，可以使用该令牌执行其他操作。 这些其他内容的确切内容取决于机器人以及用户登录的位置：机器人是在 https://apps.dev.microsoft.com/ 注册的Azure AD应用，可以有自己的权限集。
 
 * 将文件发送到机器人时，该文件将离开公司网络。 发送和接收文件需要用户批准每个文件。
-
-* 默认情况下，机器人无法代表用户执行操作，但机器人可以要求用户登录;用户登录后，机器人将拥有一个访问令牌，可以使用该令牌执行其他操作。 这些附加内容具体取决于机器人以及用户登录的位置：机器人是在应用程序 [注册门户](https://apps.dev.microsoft.com/?referrer=https:%2f%2fdocs.microsoft.com%2f#/appList) 中注册的Azure AD应用，可以有自己的权限集。
 
 * 每当向团队添加或删除用户时，都会通知机器人。
 

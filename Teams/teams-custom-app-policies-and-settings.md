@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - seo-marvel-mar2020
-ms.openlocfilehash: 45b6ec9809fe0c86f1a4acb69ef78c5c5f30f230
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: 7ff0a37d815b3118aea0eb63abc8a414c4a99bd5
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67299131"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397243"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理自定义应用策略和设置
 
@@ -64,11 +64,11 @@ ms.locfileid: "67299131"
 
 #### <a name="set-a-user-custom-app-policy"></a>设置用户自定义应用策略
 
-1. 在 Microsoft Teams 管理中心的左侧导航中，转到“**Teams 应用**” > “**设置策略**”。
-2. 单击“**添加**”。
-3. 启用或禁用“**上传自定义应用**”。
-4. 选择要用于策略的任何其他设置。
-5. 单击“**保存**”。
+1. 登录到 Teams 管理中心并访问 **Teams 应用** > **[设置策略](https://admin.teams.microsoft.com/policies/app-setup)**。
+1. 选择“**添加**”。
+1. 启用或禁用“**上传自定义应用**”。
+1. 选择要用于策略的任何其他设置。
+1. 选择“**保存**”。
 
 ### <a name="team-custom-app-setting"></a>团队自定义应用设置
 
@@ -86,8 +86,8 @@ ms.locfileid: "67299131"
 
 #### <a name="configure-the-team-custom-app-setting"></a>配置团队自定义应用设置
 
-1. 在 Teams 中，转到团队，单击“**更多选项 ...**” > “**管理团队**”。
-2. 点击“**设置**”，然后展开“**成员权限**”。
+1. 在 Teams 中，转到团队，然后选择 **“更多”选项...** > **管理团队**。
+2. 选择 **“设置”** 并展开 **成员权限**。
 3. 选中或清除“**允许成员上传自定义应用**”复选框。
 
     ![显示团队自定义应用设置的屏幕截图。](media/teams-custom-app-policy-and-settings-team.png)
@@ -98,9 +98,9 @@ ms.locfileid: "67299131"
 
 #### <a name="configure-the-org-wide-custom-app-setting"></a>配置组织范围内的自定义应用设置
 
-1. 在 Microsoft Teams 管理中心的左侧导航中，转到“**Teams 应用**” > “**管理应用**”。
-2. 单击“**组织范围内的应用设置**”。
-3. 在“**自定义应用**”下，启用或禁用“**允许与自定义应用交互**”。
+1. 登录到 Teams 管理中心并访问 **Teams 应用** > **[管理应用](https://admin.teams.microsoft.com/policies/manage-apps)**。
+1. 选择 **组织范围的应用设置**。
+1. 在“**自定义应用**”下，启用或禁用“**允许与自定义应用交互**”。
 
     ![显示组织范围内的自定义应用设置的屏幕截图。](media/teams-custom-app-policy-and-settings-org-wide.png)
 
@@ -125,8 +125,7 @@ ms.locfileid: "67299131"
 | 开     | 开     | 关闭         | 用户无法上传自定义应用。       |
 | 开    | 开        | 开        | 用户可以将自定义应用上传到团队，无论用户是否是团队所有者。 用户可以将自定义应用上传到个人上下文中。       |
 
-## <a name="related-topics"></a>相关主题
+## <a name="related-articles"></a>相关文章
 
-[Teams 中应用的管理设置](admin-settings.md)
-
-[向 Teams 中的用户分配策略](assign-policies-users-and-groups.md)
+- [管理员 Teams 中应用的设置](admin-settings.md)。
+- [在 Teams 中为用户分配策略](assign-policies-users-and-groups.md)。

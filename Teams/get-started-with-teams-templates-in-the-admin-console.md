@@ -11,6 +11,7 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
+- m365-frontline
 description: 了解团队模板以及如何在 Microsoft Teams 管理中心管理它们。
 f1.keywords:
 - CSH
@@ -18,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0bff3c2c63b94df4c1e19a748d3e9e9912574faa
-ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
+ms.openlocfilehash: e4fb9c538335a50271bd0ae15249ec8aec7af95b
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66819353"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396723"
 ---
 # <a name="get-started-with-team-templates-in-the-teams-admin-center"></a>在管理中心内开始使用 Teams 模板
 
@@ -43,7 +44,7 @@ Microsoft Teams 中的团队模板是围绕业务需求或项目设计的团队�
 本文概述了如何在 Teams 管理中心使用团队模板。 你将了解模板中支持的属性、我们提供的预生成模板、模板大小限制、如何创建和管理模板等。
 
 > [!NOTE]
-> 用户可以在 Teams 应用中 [从预生成或自定义团队模板创建团队](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c) 。 开发人员还可以使用 Microsoft Graph 以编程方式从预构建的团队模板创建团队。 若要了解详细信息，请参阅 [使用 Microsoft Graph 的团队模板入](get-started-with-teams-templates.md)门。
+> 用户可以在 Teams 应用中 [从预生成或自定义团队模板创建团队](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c) 。 开发人员还可以使用 Microsoft Graph 以编程方式从预生成或自定义团队模板创建团队。 若要了解详细信息，请参阅 [使用 Microsoft Graph 的团队模板入](get-started-with-teams-templates.md)门。
 
 ## <a name="team-template-capabilities"></a>团队模板功能
 
@@ -54,7 +55,7 @@ Microsoft Teams 中的团队模板是围绕业务需求或项目设计的团队�
 | 模板类型 | 团队成员资格 |
 | 团队名称 | 团队图片 |
 | 团队说明 | 通道设置 |
-| 公共或专用)  (团队可见性 | 连接 |
+| 公共或专用)  (团队可见性 | 连接器 |
 | 团队设置 (例如成员、来宾、@提及)  | 文件和内容 |
 | Autofavorite 通道 | |
 | 已安装的应用 | |

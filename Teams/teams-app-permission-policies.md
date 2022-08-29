@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: a82e6f57ca819194554c38bbd51504567bc65d37
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: e82dbc8ad122e3d427b86a52c39a10f89df88098
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67298901"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396833"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理应用权限策略
 
@@ -50,8 +50,7 @@ ms.locfileid: "67298901"
 
 如果要控制可用于不同用户组的应用，请使用一个或多个自定义应用权限策略。 根据应用是由 Microsoft、第三方还是由你的组织发布，你可以创建并分配单独的自定义策略。 创建自定义策略后，如果在组织范围的应用设置中禁用了第三方应用，则无法对其进行更改。
 
-1. 登录到 [Teams 管理中心](https://admin.teams.microsoft.com/dashboard)
-1. 在左侧面板中，转到“**Teams 应用**” > “**权限策略**”。
+1. 登录到 Teams 管理中心并访问 **Teams 应用** > **[权限策略](https://admin.teams.microsoft.com/policies/app-permission)**。
 1. 选择“**添加**”。
 
    ![新应用权限策略的屏幕截图。](media/app-permission-policies-new-policy.png)
@@ -77,7 +76,7 @@ ms.locfileid: "67298901"
 
 你可以使用 Teams 管理中心来编辑策略，包括全局策略和你创建的自定义策略。
 
-1. 在 Microsoft Teams 管理中心的左侧窗格中，转到“**Teams 应用**” > “**权限策略**”。
+1. 登录到 Teams 管理中心并访问 **Teams 应用** > **[权限策略](https://admin.teams.microsoft.com/policies/app-permission)**。
 1. 通过单击策略名称的左侧选择策略，然后选择 **“编辑”**。
 1. 在此处根据需要进行更改。 你可以根据应用开发人员来管理设置，也可以基于允许/阻止设置来添加和删除应用。
 1. 选择“**保存**”。
@@ -99,7 +98,7 @@ ms.locfileid: "67298901"
 
 ### <a name="for-gcc-clouds"></a>对于 GCC 云
 
-1. 在“**管理应用**”页面上，选择“**组织范围的应用设置**”。 然后，你可以在面板中配置所需的设置。
+1. 在 **“Teams 应用** > **[管理应用](https://admin.teams.microsoft.com/policies/manage-apps)** ”页上，选择 **组织范围的应用设置**。 然后，你可以在面板中配置所需的设置。
 
    ![GCC 中组织范围的应用设置的屏幕截图。](media/app-permission-policies-gcc-org-wide.png)
 
@@ -116,11 +115,12 @@ ms.locfileid: "67298901"
 
 ### <a name="for-gcch-and-dod-clouds"></a>对于 GCCH 和 DoD 云
 
-1. 在“**权限策略**”页面上，选择“**组织范围的应用设置**”。 然后，你可以在面板中配置所需的设置。
+1. 登录 Teams 管理中心并访问 **Teams 应用** > **[权限策略](https://admin.teams.microsoft.com/policies/app-permission)**。
 
-   ![GCCH 和 DoD 中组织范围应用设置的屏幕截图。](media/app-permission-policies-gcch-dod-org-wide.png)
+1. 选择 **组织范围的应用设置**。 在“**阻止的应用**”下，添加要在整个组织内阻止的应用。 在 Teams 的 Microsoft 365 政府版 - GCCH 和 DoD 部署中，默认情况下，所有第三方应用都会添加到此列表。 当你在组织范围内阻止某个应用时，无论是否在任何应用权限策略中允许此应用，系统都会自动为所有用户阻止该应用。
 
-1. 在“**阻止的应用**”下，添加要在整个组织内阻止的应用。 在 Teams 的 Microsoft 365 政府版 - GCCH 和 DoD 部署中，默认情况下，所有第三方应用都会添加到此列表。 当你在组织范围内阻止某个应用时，无论是否在任何应用权限策略中允许此应用，系统都会自动为所有用户阻止该应用。
+   :::image type="content" source="media/app-permission-policies-gcch-dod-org-wide.png" alt-text="GCCH 和 DoD 中组织范围应用设置的屏幕截图。":::
+
 1. 单击“**保存**”以使组织范围的应用设置生效。
 
 ## <a name="faq"></a>常见问题

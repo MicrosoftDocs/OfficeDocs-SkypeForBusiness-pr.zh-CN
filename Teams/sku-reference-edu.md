@@ -16,16 +16,18 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 列出教育教职员工和学生许可计划和 SKU ID。
 f1keywords: ''
-ms.openlocfilehash: c6fe915950189dfe3ee46acc6187636fbe34da5a
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: f0b1f51b18ba7c43b4cb5eed9b7626100e9a950f
+ms.sourcegitcommit: c19ac3be42cc4b8409c8d512bbe3156736af0309
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66790167"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "67426859"
 ---
 # <a name="education-sku-reference"></a>教育 SKU 参考
 
-本文列出了教育教职员工和学生许可计划 (SKU) 和 SKU ID，在使用 PowerShell 按许可证类型标识组织中的用户时，可以将其用作参考。
+本文列出了教育教职员工和学生许可计划 (SKU) 和 SKU ID。
+
+使用 PowerShell 按许可证类型标识组织中的用户时，请使用此参考。
 
 ## <a name="faculty-licenses"></a>教职员工许可证
 

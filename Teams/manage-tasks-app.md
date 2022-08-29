@@ -18,12 +18,13 @@ appliesto:
 - Microsoft Teams
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: 5eeea688d2fcaa67b2125ff67e15d80b981a03df
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+- m365-frontline
+ms.openlocfilehash: 23c75051268de176cc14a9b8df426e8d67f5a2d3
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267847"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396493"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中为组织管理 Tasks 应用
 
@@ -59,7 +60,7 @@ Tasks 同时作为应用和频道中的选项卡存在。 该应用显示来自 
 
 Tasks 在你的组织中默认为所有 Teams 用户启用。 你可以在 Microsoft Teams 管理中心的[管理应用](manage-apps.md)页面在组织级别关闭或打开此应用。
 
-1. 在 Microsoft Teams 管理中心的左窗格中，转到 **Teams 应用** > **管理应用**。
+1. 在 Microsoft Teams 管理中心的左侧窗格中，转到“**Teams 应用**” > “**管理应用**”。
 2. 在应用列表中，执行下列操作之一：
 
     - 若要关闭组织的“任务”，请搜索“任务”应用，选择它，然后选择 **“阻止**”。

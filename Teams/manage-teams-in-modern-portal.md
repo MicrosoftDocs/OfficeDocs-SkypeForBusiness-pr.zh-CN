@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d99dacdd0580d2ee9eaf775d843c5c46a0960259
-ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
-ms.translationtype: HT
+ms.openlocfilehash: fca16f3b09fc153717b24161eb8717f419171677
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67023995"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396323"
 ---
 # <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 管理中心中管理团队
 
@@ -44,7 +44,7 @@ ms.locfileid: "67023995"
 
 ## <a name="teams-overview-grid"></a>Teams 概述网格
 
-团队的管理工具位于 Microsoft Teams 管理中心的 **Teams** 节点下。（在管理中心，选择“**Teams**” > “**管理团队**”。）每个团队都由一个 Microsoft 365 组提供支持，并且此节点提供组织中已启用 Microsoft Teams 的组的视图。
+团队管理工具位于 Microsoft Teams 管理中心的“**团队**”节点下。  (在管理中心中，选择 **Teams** > **管理团队**。) 每个团队都由 Microsoft 365 组提供支持，此节点提供已在组织中启用了 Microsoft Teams 的组的视图。
 
 ![Teams 概述网格屏幕截图。](media/manage-teams-in-modern-portal-grid.png)  
 
@@ -54,7 +54,7 @@ ms.locfileid: "67023995"
 - **频道** - 团队中所有频道的计数，包括默认常规频道。
 - **团队成员** - 用户总数，包括租户的所有者、来宾和成员。
 - **所有者** - 此团队的所有者计数。
-- **来宾** - 属于此团队成员的 Azure Active Directory B2B 来宾用户计数。
+- **来宾** - 作为此团队成员的 Azure Active Directory B2B 来宾计数。
 - **隐私** - Microsoft 365 支持组的可见性/访问类型。
 - **状态** - 此团队的“已存档”或“活动”状态。 在[存档或还原团队](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7)中详细了解如何存档团队。
 - **说明** - Microsoft 365 支持组的说明。
@@ -71,9 +71,17 @@ ms.locfileid: "67023995"
 > [!NOTE]
 > 与 Outlook 等其他客户端的体验不同，新创建的团队可以立即在“Teams 管理中心”中管理。
 
+此视频演示为其创建新团队和频道的步骤。
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53TXG?autoplay=false]
+
 ### <a name="edit"></a>编辑
 
 若要编辑组和团队特定设置，请单击团队名称左侧以选择组，然后选择“**编辑**”。
+
+此视频演示查看和编辑现有团队详细信息的步骤。
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE53JpG?autoplay=false]
 
 ### <a name="archive"></a>存档
 

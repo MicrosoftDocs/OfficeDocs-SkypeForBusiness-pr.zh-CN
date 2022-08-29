@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 了解如何获取 Teams 的新号码、端口号码或传输现有号码，以及如何向用户显示更改。
-ms.openlocfilehash: b0ed990cd16a7e4878c2819a95fac29f46a9d770
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 4f3c06986943be42d6a39c22101645e1ff1b0058
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156540"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396333"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>为用户获取电话号码
 
@@ -89,6 +89,10 @@ ms.locfileid: "67156540"
 
 > [!NOTE]
 > 如果需要获得比这更多的电话号码，请[联系企业产品支持联系人 - 管理员帮助](/microsoft-365/admin/contact-support-for-business-products)。
+
+此视频演示向用户分配电话号码的步骤。
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE54mbS?autoplay=false]
 
 ## <a name="related-articles"></a>相关文章
 

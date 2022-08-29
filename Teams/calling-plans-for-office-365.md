@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 的通话套餐
+title: Microsoft Teams 的通话套餐
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -27,14 +27,14 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization.
-ms.openlocfilehash: 624b155bb6a114a1b1dbe71220379e4c3d9d7ede
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: eb10b681b867461122fe6b5e89f6f0a519d60ae7
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269217"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396843"
 ---
-# <a name="calling-plans-for-microsoft-365"></a>Microsoft 365 的通话套餐
+# <a name="calling-plans-for-microsoft-teams"></a>Microsoft Teams 的通话套餐
 
 对其他Skype for Business和 Microsoft Teams 用户的呼叫是免费的，但如果希望用户能够拨打普通电话，并且你还没有服务提供商进行语音呼叫，则需要购买通话套餐。 有关详细信息，请参阅 [电话系统和呼叫计划](calling-plan-landing-page.md)。
   
@@ -44,7 +44,11 @@ ms.locfileid: "67269217"
 
 - **国际呼叫计划**：许可用户可以根据用户位置向用户分配 Microsoft 365 许可证的国家/地区以及 [196 个国家/地区的](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md)国际号码调用号码。 包括无限制的传入分钟数。 根据购买的许可证包含传出分钟数。
 
-- **即用即付呼叫计划**：许可用户可以根据用户位置向用户分配 Microsoft 365 许可证的国家/地区以及  [196 个国家/地区的](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md)国际号码调用号码。 包括无限制的传入分钟数。 不包括传出分钟数。 所有传出呼叫均根据所用分钟数（通信额度或发薪后计费）收费。
+- **即用即付呼叫计划**：许可用户可以根据用户位置向用户分配 Microsoft 365 许可证的国家/地区以及  [196 个国家/地区的](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md)国际号码调用号码。 包括无限制的传入分钟数。 不包括传出分钟数。 所有传出呼叫均根据所用分钟数（通信额度或发薪后计费）收费。 许可证根据用户的位置分配给用户。 有 2 个选项可供选择：
+  - **即用即付呼叫计划区域 1**：为美国中的用户（包括波多黎各、加拿大和英国）购买此服务。
+    - 区域 1 许可证目前不能在美国和波多黎各出售，但如果在其他国家购买，则可以将其预配给美国和波多黎各用户。
+  - **即用即付呼叫计划区域-2**：为奥地利、比利时、克罗地亚、捷克共和国、丹麦、爱沙尼亚、芬兰、法国、德国、匈牙利、爱尔兰、意大利、拉脱维亚、立陶宛、卢森堡、荷兰、新西兰、挪威、波兰、葡萄牙、罗马尼亚、新加坡、斯洛伐克、斯洛文尼亚、南非、西班牙、瑞典和瑞士的用户购买此套餐。
+    - 区域 2 许可证目前不能在美国和波多黎各出售。
 
 同一国家/地区中的所有用户 (这是在具有相同通话套餐的Microsoft 365 管理中心) 许可区域中定义的用户国家/地区位置，共享一个分钟数池。 例如，如果你有 100 个用户位于分配了 120 分钟的国内通话计划所在的同一国家/地区，则他们共享一个 12，000 分钟的池。 超过这些分钟的所有呼叫每分钟计费。
 

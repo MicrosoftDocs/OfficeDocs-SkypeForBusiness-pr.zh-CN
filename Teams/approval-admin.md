@@ -16,14 +16,15 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+- m365-frontline
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 888bd2a3cc9b53595625f43e04ab3b1603645944
-ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
+ms.openlocfilehash: 2ed0eaeaeb7deb98de09f8c2eb06316985e7176b
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66819277"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397043"
 ---
 # <a name="manage-the-approvals-app-in-microsoft-teams"></a>在 Microsoft Teams 中管理审批应用
 

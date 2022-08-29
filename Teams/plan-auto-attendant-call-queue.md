@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 了解自动助理和呼叫队列，以及如何使用它们帮助呼叫者通过菜单系统来联系组织中的人员或部门。
-ms.openlocfilehash: 218377b2082d1a057f503abbf83d37ff78686986
-ms.sourcegitcommit: 55ba3ed53421da6619724a360d15e80262241079
+ms.openlocfilehash: f97081e641574c0d2ea192820100861b39b48d9b
+ms.sourcegitcommit: 850038f2248c1ea412f7b5daca26c0598baffa3c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2022
-ms.locfileid: "67070733"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "67443349"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>规划 Teams 自动助理和呼叫队列
 
@@ -175,6 +175,18 @@ ms.locfileid: "67070733"
 
 - [设置自动助理](create-a-phone-system-auto-attendant.md)
 - [创建呼叫队列](create-a-phone-system-call-queue.md)
+
+> [!IMPORTANT]
+> 用户的 Azure Active Directory (AAD) GUID 令牌在用户配置为：
+>
+>  - 自动助理或呼叫队列 **授权用户**。
+>  - 自动助理 **操作员**。
+>  - **组织中人员** 转移点。
+>  - 呼叫队列的单个成员。
+> 
+> 自动助理和呼叫队列配置不会与 AAD 生命周期事件同步。  当配置中包含的用户离开组织时，Teams 管理员需要手动更新自动助理和呼叫队列配置以删除此个人数据。
+>
+> 这不适用于通过通讯组列表或频道配置的呼叫队列代理成员身份。 它也不适用于通过自动助理的 **“按名称拨号** ”或“ **按号码拨号** ”功能联系的用户。
 
 如果需要更广泛的功能（例如与工作流、机器人和短信集成），请考虑[Azure 通信服务](/azure/communication-services/overview)。
 

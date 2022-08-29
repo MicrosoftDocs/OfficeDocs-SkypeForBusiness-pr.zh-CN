@@ -14,14 +14,17 @@ search.appverid: ''
 ms.collection:
 - M365-collaboration
 ms.custom: ''
-ms.openlocfilehash: 0eccd8107ee0aa9a33d5525350da87899dccc99a
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: fd039c732d1a7e55a3cfb8aa59a3f78cf5f2cfe9
+ms.sourcegitcommit: 850038f2248c1ea412f7b5daca26c0598baffa3c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268147"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "67443479"
 ---
 # <a name="kaizala-and-microsoft-teams"></a>Kaizala 和 Microsoft Teams 
+
+>[!Important]
+> Microsoft Kaizala 将于 2023 年 8 月 31 日停用。 建议升级到 Microsoft Teams 以继续连接、共享和协作。 停用日期后，将停止对 Kaizala 的访问和支持。
 
 2019 年 4 月，我们 [宣布了](https://techcommunity.microsoft.com/t5/microsoft-kaizala-blog/update-on-kaizala-features-coming-to-microsoft-teams/ba-p/974525) 将 Kaizala 与 Microsoft Teams 结合使用的计划。 Kaizala 的功能补充了 Teams 的强大通信和协作功能，Teams 是 Microsoft 365 中团队合作的中心。
 
@@ -42,10 +45,6 @@ Kaizala 专业版功能现在在 Teams 中可用，包括 Kaizala 操作，这�
 ## <a name="when-should-my-organization-move-from-kaizala-to-teams"></a>我的组织何时应从 Kaizala 迁移到 Teams？
 
 我们鼓励所有 Microsoft 365 和Office 365客户立即开始使用 [Teams](https://www.microsoft.com/microsoft-teams/group-chat-software?ms.officeurl=teams&rtc=1&OCID=AID2388518_SEM_Ks5ySdZ9)，以利用 Teams 提供的丰富功能。 这些功能包括为 46 种语言和 181 个市场中的移动用户提供简单而强大的体验。 通过 Microsoft Flow 和 PowerApps 为一线工作人员提供轮班管理、来宾访问以及对自定义工作流和应用的支持等功能。 对于 Teams 中尚不可用的特定 Kaizala 功能，我们将在将来发布更新的时间线。
-
-## <a name="how-can-i-continue-to-use-kaizala-pro-if-i-had-purchased-the-standalone-offering"></a>如果我购买了独立产品/服务，如何继续使用Kaizala 专业版？
-
-截至 2020 年 7 月 1 日，Microsoft 已终止Kaizala 专业版独立服务的销售。 作为 [Microsoft 365 和 Office 365 计划的一部分，](/Office365/Kaizala/migrate-kaizala-pro)Kaizala 和 Teams 将继续可供访问。
 
 ## <a name="how-can-i-get-started-with-teams"></a>如何开始使用 Teams？
 

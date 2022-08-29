@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: 请阅读本文，了解如何为会议室和共享设备创建资源帐户，包括 Microsoft Teams 会议室、Surface Hub 上的Teams 会议室和 Teams 上的热桌面显示。
-ms.openlocfilehash: eaa95efde1db01d3c7a346309f50eca2427af4e8
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 45cd61b476f10f673150653144bdb79a47604962
+ms.sourcegitcommit: 17f4baf85e1ac6a2af5f5c6ea2d5aae763efd917
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271707"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "67405154"
 ---
 # <a name="create-and-configure-resource-accounts-for-rooms-and-shared-teams-devices"></a>为会议室和共享 Teams 设备创建和配置资源帐户
 
@@ -95,7 +95,7 @@ Microsoft 365 资源帐户是专用于特定资源（例如会议室或投影机
 
 3. 转到左侧面板中的 **“资源** ”，然后选择 **“会议室”&设备**。 如果这些选项在左侧面板中不可用，则可能需要先选择 **“全部显示** ”。
 
-4. 选择 **“添加资源”邮箱** 以创建新的会议室帐户。 输入帐户的显示名称和电子邮件地址，选择 **“添加**”，然后选择 **“关闭**”。
+4. 选择 **“添加资源** ”以创建新的会议室帐户。 输入帐户的显示名称和电子邮件地址，选择 **“添加**”，然后选择 **“关闭**”。
 
 5. 默认情况下，资源帐户配置有以下设置：
 
@@ -105,13 +105,13 @@ Microsoft 365 资源帐户是专用于特定资源（例如会议室或投影机
       - 最长持续时间 (小时) ：24
     - 自动接受会议请求
 
-    如果要更改它们，请在选择 **“关闭**”之前选择 **“设置计划选项**”。 如果以后要更改它们，请转到 **资源** > **室&设备**，选择资源帐户。 然后在 **“预订”选项** 下，选择 **“编辑**”。
+    如果要更改这些选项，请在选择 **“关闭**”之前选择 **“编辑预订”选项**。 如果以后要更改它们，请转到 **资源** > **室&设备**，选择资源帐户。 然后在 **“预订”选项** 下，选择 **“编辑**”。
 
 6. 转到 **用户** > **活动用户**，然后选择创建的房间以打开属性面板。
 
 7. 接下来，将密码分配给资源帐户。 在面板中，选择 **“重置密码**”。
  
-8. 要求用户更改共享设备上的密码会导致登录问题。 取消选中 **要求此用户在首次登录时更改其密码**，然后选择 **“重置**”。
+8. 要求用户更改共享设备上的密码会导致登录问题。 取消选中 **要求此用户在首次登录时更改其密码**，然后选择 **“重置密码**”。
 
 9. 在 **“许可证和应用** ”部分中，将 **“选择”位置** 设置为将安装设备的国家或地区。 然后选择要分配的许可证，例如会议室，然后选择 **“保存更改**”。 许可证可能因组织而异。
 
@@ -250,7 +250,7 @@ Set-CalendarProcessing -Identity "ConferenceRoom01" -AutomateProcessing AutoAcce
    Connect-AzureAD
 ```
 
-然后，请参阅 [“将密码设置为永不过期](/microsoft-365/admin/add-users/set-password-to-never-expire?view=o365-worldwide#set-a-password-to-never-expire)”。
+然后，请参阅 [“将密码设置为永不过期](/microsoft-365/admin/add-users/set-password-to-never-expire#set-a-password-to-never-expire)”。
 
 本示例将帐户 ConferenceRoom01@contoso.com 的密码设置为永不过期。
 
@@ -288,7 +288,7 @@ Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -PasswordPolicies Disable
        Import-Module ActiveDirectory
     ```
     
-    有关 Active Directory PowerShell 的详细信息，请参阅 [ActiveDirectory](/powershell/module/activedirectory/?view=windowsserver2022-ps)。
+    有关 Active Directory PowerShell 的详细信息，请参阅 [ActiveDirectory](/powershell/module/activedirectory/)。
 
 2. 使用以下语法将密码设置为永不过期：
 

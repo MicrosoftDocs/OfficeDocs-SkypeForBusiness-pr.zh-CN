@@ -12,14 +12,15 @@ description: 了解如何使用 Teams 授权给组织中的一线工作人员。
 ms.localizationpriority: high
 ms.collection:
 - M365-collaboration
+- m365-frontline
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c4fcfa15bb6aa49ff7d367a614f0aac1ad50ec89
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: c9fa4b9f5b361c5cf8bad9dc5b1d2c74dff8ad99
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268177"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397083"
 ---
 # <a name="get-started-with-teams-for-frontline-workers"></a>适合一线员工的 Teams
 

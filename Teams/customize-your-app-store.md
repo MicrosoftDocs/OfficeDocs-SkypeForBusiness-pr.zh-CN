@@ -17,25 +17,18 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 了解如何通过添加徽标、自定义背景和自定义文本颜色来自定义组织的 Teams 应用商店。
-ms.openlocfilehash: 01648e3c45540e5f9e7a0eb82921cf74937d9f62
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: 5982b3e1e1a6145b9617fb899e7941b7f31a22e9
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269067"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397033"
 ---
 # <a name="customize-your-organizations-app-store-in-microsoft-teams"></a>在 Microsoft Teams 中自定义组织的应用商店
 
-现可通过添加徽标、自定义背景、自定义文本颜色，使用公司品牌在 Teams 中自定义组织的应用商店，使其更吸引最终用户。
+可以自定义组织的应用商店，以反映公司品牌。 可以添加徽标、自定义背景和自定义文本颜色，使其更吸引最终用户。
 
-> [!NOTE]
-> 对品牌的更改可能需要长达 24 小时才能生效。
-
-可以选择 **Teams 应用** > **自定义商店**，访问管理中心中的自定义商店。
-
-  ![突出显示了管理控制台自定义存储功能。](media/customize-app-store.png)
-
-本文介绍自定义应用商店功能以及如何使用它们。
+可以通过选择 **Teams 应用** > **[自定义存储](https://admin.teams.microsoft.com/policies/customize-appstore)** 来访问 Teams 管理中心中的自定义存储。 请按照以下说明了解更改的详细信息。
 
 ## <a name="customize-your-organization-logo"></a>自定义组织徽标
 
@@ -87,14 +80,14 @@ Teams 应用商店在 **为租户生成** 部分旁边显示徽标。
 
 选择“**选择自定义颜色**”时，将打开颜色选择器。 通过调整颜色选择器的刻度来选择所需的颜色。
 
- ![颜色选择器。](media/choose-a-custom-color.png)
+:::image type="content" source="media/choose-a-custom-color.png" alt-text="用于选择颜色的对话框的屏幕截图。":::
 
 ## <a name="complete-the-customization-of-your-team-apps-store"></a>完成团队应用商店的自定义设置
 
 自定义应用商店后，请务必选择“**保存**”以保存所做更改。
 若要预览更改，请选择“**预览应用商店**”以查看自定义应用商店的表示形式。
 
-![自定义应用商店的预览版。](media/PowerAppsInStore650w.png)
+:::image type="content" source="media/PowerAppsInStore650w.png" alt-text="显示自定义应用存储的示例的屏幕截图。":::
 
 > [!NOTE]
 > 表示形式可能与自定义应用商店的最终版本不同，因为某些默认颜色是基于用户的 Teams 客户端版本。

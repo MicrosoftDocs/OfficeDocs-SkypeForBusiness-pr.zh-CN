@@ -14,14 +14,17 @@ search.appverid: ''
 ms.collection:
 - M365-collaboration
 ms.custom: ''
-ms.openlocfilehash: b74ce30621f415417859fc5f6d95a23a2e5db89d
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 0e9c9920826a664aaa948a6b6c9d5470a4dd3298
+ms.sourcegitcommit: 850038f2248c1ea412f7b5daca26c0598baffa3c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269627"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "67443449"
 ---
 # <a name="planning-for-a-successful-transition-from-kaizala-to-microsoft-teams"></a>规划从 Kaizala 到 Microsoft Teams 的成功过渡
+
+> [!Important]
+> Microsoft Kaizala 将于 2023 年 8 月 31 日停用。 建议升级到 Microsoft Teams 以继续连接、共享和协作。 停用日期后，将停止对 Kaizala 的访问和支持。
 
 从 Kaizala 迁移到 Microsoft Teams 时，请务必花时间 [规划](/microsoftteams/deploy-enterprise-setup?tabs=ChatTeamsChannels#plan-your-deployment) 成功的转换。 可靠的过渡计划为移动提供了结构，并确保所有利益干系人都在努力实现共同目标。 使用经过验证的框架来实现更改可帮助你立即开始转换。
 

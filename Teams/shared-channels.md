@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 了解如何在 Microsoft Teams 中使用和管理共享频道。
-ms.openlocfilehash: 55d1956b1f112e0f1685ac6c4126f564cf40bdb1
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: 767773d8c7f91bb290332fbd0976fb638edb2b8b
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67272257"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397223"
 ---
 # <a name="shared-channels-in-microsoft-teams"></a>Microsoft Teams 中的共享频道
 
@@ -70,6 +70,9 @@ Microsoft Teams 中的共享频道可创建协作空间，你可以在其中邀�
 如果共享频道所有者是一个或多个共享频道的最后一个所有者，则无法通过 Teams 客户端将其删除。
 
 如果共享频道所有者离开组织，或者从与团队关联的 Microsoft 365 组中被删除，则将自动提升一名共享频道成员成为共享频道所有者。请考虑添加一位以上所有者以预防此情况。
+
+> [!NOTE]
+> 如果两者在 Azure Active Directory 中不匹配，则必须使用其 UPN 而不是电子邮件地址添加外部参与者。
 
 ## <a name="channel-owner-settings"></a>频道所有者设置
 
@@ -154,7 +157,7 @@ Microsoft Teams 中的共享频道可创建协作空间，你可以在其中邀�
 
 - 共享频道支持除 Stream、Planner 和 Forms 以外的选项卡。
 
-- 不支持 LOB 应用、机器人、连接器和消息扩展。
+- 不支持机器人、连接器和消息扩展。
 
 - 根据现有团队创建团队时，将不会复制现有团队中的任何共享频道。
 

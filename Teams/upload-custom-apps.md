@@ -16,12 +16,12 @@ f1.keywords:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 了解如何在 Microsoft Teams 管理中心将自定义应用上传到组织的应用商店。
-ms.openlocfilehash: 52977d9663f5dbee915e2227075127fe1c6575ad
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: d95635546da7337c9c18ee0fddf7b40a5bf061c3
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67299021"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397113"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>通过上载应用包来发布自定义应用
 
@@ -55,23 +55,23 @@ Teams 应用商店中的所有应用都通过强制 [应用验证](overview-of-a
 
 1. 打开 **“允许与自定义应用** 组织范围的应用交互”设置。 要执行此操作：
 
-    1. 在 Microsoft Teams 管理中心的左侧导航栏中，转到 **“管理** 应用” > Teams **应用**，然后单击 **组织范围的应用设置**。
+    1. 在 Microsoft Teams 管理中心的左侧导航中，转到 **Teams 应用** > **管理应用**，然后选择 **组织范围的应用设置**。
 
-    1. 在 **“自定义应用**”下，打开 **“允许与自定义应用交互**”，然后单击“ **保存**”。
+    1. 在 **“自定义应用**”下，打开 **“允许与自定义应用交互**”，然后选择 **“保存**”。
 
 1. 关闭全局应用设置策略中的 **“上传自定义应用** ”设置。 要执行此操作：
 
-    1. 在 Microsoft Teams 管理中心的左侧导航栏中，转到 **Teams 应用** > **安装** 策略，然后单击 **“全局（组织范围默认）”** 策略。
+    1. 在 Microsoft Teams 管理中心的左侧导航中，转到 **Teams 应用** > **设置策略**，然后选择 **全局 (组织范围的默认)** 策略。
 
-    1. 关闭 **“上传自定义应用**”，然后单击“ **保存**”。
+    1. 关闭 **“上传自定义应用**”，然后选择 **“保存**”。
 
 1. 创建允许上传自定义应用并将其分配给受信任用户集的新应用设置策略。 要执行此操作：
 
-    1. 在 Microsoft Teams 管理中心的左侧导航栏中，转到 **Teams 应用** > **安装** 策略，然后单击 **“添加**”。 为新策略提供名称和说明，打开“ **上传自定义应用**”，然后单击“ **保存**”。
+    1. 在 Microsoft Teams 管理中心的左侧导航中，转到 **Teams 应用** > **设置策略**，然后选择 **“添加**”。 为新策略提供名称和说明，打开 **“上传自定义应用**”，然后选择 **“保存**”。
 
-    1. 选择创建的新策略，然后单击 **“管理用户**”。 搜索用户，单击 **“添加**”，然后单击“ **应用**”。 重复此步骤，将策略分配给所有受信任的用户。
+    1. 选择创建的新策略，然后选择 **“管理用户**”。 搜索用户，选择 **“添加**”，然后选择 **“应用**”。 重复此步骤，将策略分配给所有受信任的用户。
 
-       ![“添加应用设置策略”页的屏幕截图](media/manage-your-lob-apps-new-app-setup-policy.png)
+       :::image type="content" source="media/manage-your-lob-apps-new-app-setup-policy.png" alt-text="“添加应用设置策略”页的屏幕截图。":::
 
 这些用户现在可以上传应用清单，以验证应用是否在生产租户中正常工作。
 
@@ -80,9 +80,10 @@ Teams 应用商店中的所有应用都通过强制 [应用验证](overview-of-a
 若要使应用可供组织应用商店中的用户使用，请上传该应用。
 
 1. 在 Microsoft Teams 管理中心的左侧导航栏中，转到 **“管理** 应用” > Teams **[应用](https://admin.teams.microsoft.com/policies/manage-apps)**。
-1. 选择 **“上传”**，单击“ **上传**”，选择从开发人员处收到的应用包，然后选择“ **打开**”。
 
-   ![在管理中心上传应用的屏幕截图。](media/manage-your-lob-apps-upload-new-app.png)
+1. 选择 **“上传**”，选择 **“上传**”，选择从开发人员处收到的应用包，然后选择 **“打开**”。
+
+   ![管理中心内自定义应用上传的屏幕截图。](media/manage-your-lob-apps-upload-new-app.png)
 
 ## <a name="set-up-and-manage"></a>设置和管理
 
@@ -92,7 +93,7 @@ Teams 应用商店中的所有应用都通过强制 [应用验证](overview-of-a
 
 ### <a name="pin-and-install-the-app-for-users-to-discover"></a>固定并安装应用供用户发现
 
-默认情况下，用户若要查找应用，必须转到组织的应用商店并浏览或搜索它。 为了方便用户访问应用，可以将应用固定到 Teams 中的应用栏。 为此，请创建应用设置策略并将其分配给用户。 要了解详细信息，请参阅[在 Teams 中管理应用设置策略](teams-app-setup-policies.md)。
+默认情况下，用户若要查找应用，必须转到组织的应用商店并浏览或搜索它。 为了方便用户访问应用，可以将应用固定到 Teams 中的应用栏。 若要固定应用，请创建应用设置策略并将其分配给用户。 要了解详细信息，请参阅[在 Teams 中管理应用设置策略](teams-app-setup-policies.md)。
 
 ### <a name="search-the-audit-log-for-teams-app-events"></a>搜索 Teams 应用事件的审核日志
 
@@ -108,24 +109,24 @@ Teams 应用商店中的所有应用都通过强制 [应用验证](overview-of-a
 
 如果创建并分配了应用设置策略，应用将固定到 Teams 中的应用栏，以便为分配了策略的用户轻松访问。
 
-## <a name="update"></a>更新
+## <a name="update-a-custom-app"></a>更新自定义应用
 
 若要更新应用，开发人员请按照“ [创建应用](#create-your-app) ”和 [“验证”](#validate) 部分中的步骤操作。
 
-你可以在 Microsoft Teams 管理中心的“管理应用”页上更新应用。 为此，请在 Microsoft Teams 管理中心的左侧导航栏中，转到 **“管理** 应用” > Teams **应用**。 单击应用名称，然后单击 **“更新**”。 执行此操作将替换现有应用，并且所有应用权限策略和应用设置策略仍会对更新后的应用强制执行。
+你可以在 Microsoft Teams 管理中心的“管理应用”页上更新应用。 若要更新应用，请在 Microsoft Teams 管理中心的左侧导航中转到 **Teams 应用** > **管理应用**。 选择应用名称，然后选择 **“更新**”。 更新应用将替换现有应用，并且所有应用权限策略和应用设置策略仍会针对更新后的应用强制实施。
 
 ### <a name="end-user-update-experience"></a>最终用户更新体验
 
 在大多数情况下，完成应用更新后，会自动为最终用户显示新版本。 有关详细信息，请参阅 [最终用户更新体验](apps-update-experience.md)。
 
-## <a name="remove"></a>删除
+## <a name="remove-a-custom-app-from-your-organizations-store"></a>从组织的存储中删除自定义应用
 
 若要删除应用，请执行以下步骤：
 
 1. 登录到 Teams 管理中心。
 1. “访问 **Teams 应用** > **[管理应用](https://admin.teams.microsoft.com/policies/manage-apps)** ”页面。
 1. 单击应用的名称以打开应用详细信息页。
-1. 在应用横幅旁边，选择“ **操作** > **删除**”。
+1. 在应用横幅旁边，选择“**删除****操作** > ”。
 1. 在对话框中，选择 **“删除**”。
 
 ## <a name="related-articles"></a>相关文章

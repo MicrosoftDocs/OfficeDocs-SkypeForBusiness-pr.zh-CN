@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-edu
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 02a425d325721dc732e0bd06aa3aee8fd3973dda
-ms.sourcegitcommit: f5546acf02ec644225f6d0fb41f38b1912da6adf
-ms.translationtype: HT
+ms.openlocfilehash: 1f95f9c1a3ad6a65dbefa4d48c0c5277e01b65f2
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "66952776"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67397269"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Microsoft Teams 教育版见解 IT 管理员指南
 
@@ -256,13 +256,15 @@ Microsoft 已从零开始构建见解以确保数据得到保护。 我们意识
 1. 转到“**设置**” > “**管理教育版 Insights**”。
 1. 将 **为 Insights 收集活动数据** 的开关调整为打开或关闭。
 
-![SDS 管理中心内用于关闭和打开 Insights 的开关的屏幕截图](media/manage-insights-toggles.png)
+![SDS 管理中心切换以关闭和打开 Insights 的屏幕截图。](media/manage-insights-toggles.png)
 
 #### <a name="turn-on-and-off-insights-from-the-teams-client"></a>从 Teams 客户端打开和关闭 Insights
 
 1. 如果没有固定 *教育版 Insights* 个人应用，请按照 [这些说明](class-insights.md#education-leaders)添加它。
 1. 通过 Microsoft 365 管理员帐户，使用 *教育版 Insights* 右上角的省略号图标打开“**管理员设置**”页。
 1. 将 **为 Insights 收集活动数据** 的开关调整为打开或关闭。
+
+![Teams 客户端切换以关闭和打开 Insights 的屏幕截图。](media/admin-settings-main-screen.png)
 
 > [!NOTE]
 > 如果已关闭 Insights，则删除已收集的数据。 选择退出时删除的数据无法在以后还原，即使重新启用了 Insights 也是如此。

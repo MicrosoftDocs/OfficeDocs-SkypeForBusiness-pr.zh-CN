@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7e1c436e6bcd204eb383228a73a115a70ae29e08
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
-ms.translationtype: HT
+ms.openlocfilehash: 1b28dfccd79c99d633d56480963f06632cd758ae
+ms.sourcegitcommit: 72b6f7ab2a44dec395622bfe64119a48094960bd
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66563760"
+ms.lasthandoff: 08/08/2022
+ms.locfileid: "67283093"
 ---
 # <a name="user-presence-in-teams"></a>Teams 中的用户状态
 
@@ -91,7 +91,7 @@ ms.locfileid: "66563760"
 
 以下管理员设置在 Skype for Business 和 Teams 中是不同的：
 
-- 在 Teams 中，状态共享对组织中的用户始终是启用的。 Teams 中没有隐私（定义了谁能看到状态）配置。
+- 在 Teams 中，除非启用隐私模式，否则始终为组织中的用户启用状态共享。 在隐私模式下，外部用户看不到状态。
 - 在 Teams 中，“与所有人(包括联合服务)共享状态”对用户始终是启用的。 在“聊天”>“联系人”或“通话”>“联系人”下，可以看到用户的联系人列表（如果 Skype for Business 中有）。
 - 在 Teams 中，“客户端请勿打扰”和“特许”功能对用户始终是启用的。
 - 如果 Teams 已与 Outlook 集成，“日历(包括外出和其他日历信息)集成”对用户始终是启用的。

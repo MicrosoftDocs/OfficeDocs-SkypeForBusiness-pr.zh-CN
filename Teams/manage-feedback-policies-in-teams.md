@@ -17,12 +17,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何使用反馈策略来控制组织中的 Teams 用户是否可以向 Microsoft 提交有关 Teams 的反馈。
-ms.openlocfilehash: f9d001fba9503f6d5f2e482a437bc8f38c8ffc7d
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 933c6971058c107ab881cb48bb0f2a9dbd74900d
+ms.sourcegitcommit: 44fd07d8e6e5fcbe5051de2300e180f295eaaad3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156520"
+ms.lasthandoff: 08/15/2022
+ms.locfileid: "67339796"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理反馈策略
 
@@ -68,6 +68,7 @@ ms.locfileid: "67156520"
 
  - **调查**：将 **receiveSurveysMode** 参数设置为 **启用** ，以允许分配策略的用户接收调查。 若要让用户接收调查并允许他们选择退出，请将参数设置为 **enabledUserOverride**。 在 Teams 中，用户可以转到 **“设置隐私”** > ，并选择是否要参与调查。 将参数设置为 **禁用** 会关闭该功能，分配策略的用户将不会收到调查。
 
+ - **屏幕截图**：使用 **AllowScreenshotCollection** 标志为用户添加屏幕截图集合选择加入。
  - **Email**：使用 **AllowEmailCollection** 标志添加电子邮件字段。
  - **日志收集**：使用 **AllowLogCollection** 标志为用户添加日志收集选择加入。 日志收集当前仅在移动设备上启用。 有关通过日志共享的数据的更多详细信息，请 [了解详细信息](https://go.microsoft.com/fwlink/?linkid=2168178)。
 

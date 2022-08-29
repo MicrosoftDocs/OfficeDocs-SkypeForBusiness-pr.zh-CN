@@ -18,15 +18,16 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - microsoftcloud-healthcare
+- m365-frontline
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f05ba56086a9c9dd3cbad046c1cfad34733ee2ee
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: f7132f79936616ba66565cd133e5ab8616541254
+ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268187"
+ms.lasthandoff: 08/20/2022
+ms.locfileid: "67396853"
 ---
 # <a name="shifts-data-faq"></a>转移数据常见问题解答
 
@@ -96,7 +97,7 @@ SOC2 合规性审核每年验证静态和传输中数据的班次加密。
 
 通过 Shifts Graph API，可以将 Shifts 数据与外部员工管理 (WFM) 系统集成。 若要了解详细信息，请参阅 [Shifts Graph API](/graph/api/resources/shift)。
 
-我们还提供托管 Shifts 连接器和开源 Shifts 连接器。 借助这些连接器，可以直接将WFM系统与 Shifts 集成。 若要详细了解 Shifts 连接器和支持的WFM系统，请[参阅 Shifts 连接器](shifts-connectors.md)。
+我们还提供托管 Shifts 连接器。 借助这些连接器，可以直接将WFM系统与 Shifts 集成。 若要详细了解 Shifts 连接器和支持的WFM系统，请[参阅 Shifts 连接器](/microsoft-365/frontline/shifts-connectors)。
 
 ## <a name="can-shifts-data-be-deleted-permanently-after-a-specified-period-of-time"></a>在指定的时间段后，是否可以永久删除 Shifts 数据？
 

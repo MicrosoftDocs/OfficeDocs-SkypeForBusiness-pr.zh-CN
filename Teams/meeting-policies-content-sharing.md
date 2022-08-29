@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.contentsharing
 - seo-marvel-apr2020
 description: 了解如何管理 Teams 中用于内容共享的会议策略设置。
-ms.openlocfilehash: cd493d21b774e260f2188ac8d174d1208cf4eba7
-ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
+ms.openlocfilehash: c2baa0328cd1ff0271d2b1ecbf8e1fab76f24846
+ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "66605841"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "67418611"
 ---
 # <a name="meeting-policy-settings---content-sharing"></a>会议策略设置 - 内容共享
 
@@ -34,14 +34,14 @@ ms.locfileid: "66605841"
 
 - [屏幕共享模式](#screen-sharing-mode)
 - [允许参与者授予或请求控制权](#allow-a-participant-to-give-or-request-control)
-- [允许外部参与者授予或请求控制权](#allow-an-external-participant-to-give-or-request-control)
+- [外部参与者可以提供或请求控制](#external-participants-can-give-or-request-control)
 - [PowerPoint Live](#powerpoint-live)
 - [白板](#whiteboard)
 - [共享笔记](#shared-notes)
 
 ## <a name="screen-sharing-mode"></a>屏幕共享模式
 
-此设置是每个组织者和每个用户策略的组合。 此设置控制是否允许在用户的会议中共享桌面和窗口。 未分配任何策略的会议参与者 (例如，匿名、嘉宾、B2B和联合参与者) 继承会议组织者的策略。
+此设置是每个组织者和每个用户策略的组合。 此设置控制是否允许在用户的会议中共享桌面和窗口。 没有分配任何策略的会议参与者 (例如，外部参与者) 继承会议组织者的策略。
 
 |设置值 |行为  |
 |---------|---------|
@@ -86,22 +86,21 @@ Daniela 可以将共享桌面或窗口的控制权授予 Babek 组织的会议�
 > [!NOTE]
 > 若要在共享过程中授予并控制共享内容，双方必须都使用 Teams 桌面客户端。 如果任何一方在浏览器中运行 Teams，则不支持控制。 这是由我们计划修复的一个技术限制造成。
 
-## <a name="allow-an-external-participant-to-give-or-request-control"></a>允许外部参加者授予或请求控制权
+## <a name="external-participants-can-give-or-request-control"></a>外部参与者可以提供或请求控制
 
 此设置是每用户策略。 组织是否为用户设置了此策略，无论会议组织者设置了什么，都无法控制外部参与者可以执行的操作。 该参数控制是否可以让外部参与者控制或请求控制共享者的屏幕，这取决于共享者在其组织的会议策略中设置的内容。 Teams 会议的外部与会者可分为以下几类:  
 
-- 匿名用户
-- 来宾用户  
-- B2B 用户
-- 联合用户  
+- 匿名参与者
+- 来宾
+- 外部访问用户
 
-联合用户在共享时是否可以将控制权交给外部用户，由组织中的 **允许外部参与者授予或请求控制权** 设置控制。
+外部访问用户是否可以在共享时将控制权授予其他外部参与者，外部 **参与者可以在其组织中提供或请求控制** 设置。
 
 要使用 PowerShell 来控制外部参与者是否可以授予控制权或接受控制权请求，请使用AllowExternalParticipantGiveRequestControl cmdlet。
 
 ### <a name="powerpoint-live"></a>PowerPoint Live
 
-这是按用户策略。 此设置可控制用户是否可以在会议中共享 PowerPoint 幻灯片。 外部用户，包括匿名用户、来宾用户和联合用户，继承会议组织者的策略。
+这是按用户策略。 此设置可控制用户是否可以在会议中共享 PowerPoint 幻灯片。 外部参与者（包括匿名、来宾和外部访问用户）继承会议组织者的策略。
 
 查看以下示例。
 
@@ -114,7 +113,7 @@ Amanda 无法在会议上共享 PowerPoint 幻灯片，即使她是会议组织�
 
 ## <a name="whiteboard"></a>白板
 
-此设置是每用户策略。 此设置控制用户是否可以在会议中共享白板。 外部用户，包括匿名用户、B2B用户和联盟用户，继承会议组织者的策略。
+此设置是每用户策略。 此设置控制用户是否可以在会议中共享白板。 外部参与者（包括匿名、来宾和外部访问用户）继承会议组织者的策略。
 
 查看以下示例。
 
@@ -133,7 +132,7 @@ Amanda 不能在会议上共享白板，即使她是会议组织者。 Daniela �
 
 ## <a name="shared-notes"></a>共享笔记
 
-此设置是每用户策略。 此设置控制用户是否可以在会议中创建和共享笔记。 外部用户，包括匿名用户、B2B用户和联盟用户，继承会议组织者的策略。 “ **会议笔记”** 选项卡目前仅在参与者少于 20 的会议中受支持。
+此设置是每用户策略。 此设置控制用户是否可以在会议中创建和共享笔记。 外部参与者（包括匿名、来宾和外部访问）继承会议组织者的策略。 “ **会议笔记”** 选项卡目前仅在参与者少于 20 的会议中受支持。
 
 查看以下示例。
 
