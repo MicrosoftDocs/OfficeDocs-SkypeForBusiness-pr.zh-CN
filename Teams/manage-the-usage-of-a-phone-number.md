@@ -20,16 +20,18 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 了解如何更改要用作服务号码或用户号码的电话号码的使用情况。
-ms.openlocfilehash: f2db1b3bd0b0e437d02bf1fbfe9a92690877b2eb
-ms.sourcegitcommit: dcf4664ea8ceb6ed40d0a406e7f4467e14d6817b
+ms.openlocfilehash: e07255420cf9b480aa28e25a635b799eed94bd0f
+ms.sourcegitcommit: d0cbc23e10219dd2889011421010215a5d246031
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "67432114"
+ms.lasthandoff: 08/30/2022
+ms.locfileid: "67460692"
 ---
 # <a name="manage-the-usage-of-a-phone-number"></a>管理电话号码的使用情况
 
 获取或移植到组织后，可能需要更改电话号码的使用情况。 可以使用 Teams 管理中心更改电话号码使用情况，无论是服务还是用户号码。
+
+## <a name="how-to-manage-the-usage-of-a-phone-number"></a>如何管理电话号码的使用情况
 
 若要使用 Teams 管理中心更改电话号码的使用情况：
 
