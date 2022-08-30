@@ -14,12 +14,12 @@ description: 了解如何审核组织中用户和管理员的 Teams 应用活动
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 5eb1ffe4a637c61efc8e64e970f25474933914a7
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: 33e308dec79163b2b3ccbc82870352555d0aa80f
+ms.sourcegitcommit: d7a86b3a72005764c18acb60eedf5163523ffae3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67299251"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "67457272"
 ---
 # <a name="audit-for-app-management-activities-and-events"></a>审核应用管理活动和事件
 
@@ -68,6 +68,9 @@ Teams 中应用事件的审核日志可帮助你调查特定操作。 虽然你�
 
 > [!NOTE]
 > 当用户或管理员执行上述活动之一时，Teams 会生成并存储审核记录。 在审核（标准版）中，记录将保留 90 天，这意味着可以搜索过去三个月内发生的活动。
+
+> [!TIP]
+> 作为管理员，如果要创建每用户报表来了解用户是否已阻止或静音机器人，请参阅 [了解阻止、静音或卸载机器人的人员](/microsoftteams/platform/bots/how-to/conversations/send-proactive-messages?#understand-who-blocked-muted-or-uninstalled-a-bot)。
 
 ## <a name="related-articles"></a>相关文章
 

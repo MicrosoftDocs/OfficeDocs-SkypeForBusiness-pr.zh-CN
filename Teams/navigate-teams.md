@@ -14,16 +14,19 @@ search.appverid: ''
 ms.collection:
 - M365-collaboration
 ms.custom: ''
-ms.openlocfilehash: 65fdd80fe8eb9073c53267da3ea390ab570cfc96
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: c3b83f33db2c4c91a5f2e8ad00706e225f4b01d5
+ms.sourcegitcommit: d7a86b3a72005764c18acb60eedf5163523ffae3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270317"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "67457122"
 ---
 # <a name="navigate-microsoft-teams"></a>导航 Microsoft Teams
 
 现在，你已清楚地了解了组织的独特路径和需求，接下来就可以开始与 Microsoft Teams 进行强大的协作了。 使用以下部分了解如何在 Teams 中导航 Kaizala 的功能。
+
+> [!Important]
+> Microsoft Kaizala 将于 2023 年 8 月 31 日停用。 建议迁移到 Microsoft Teams 以继续连接、共享和协作。 停用日期后，将停止对 Kaizala 的访问和支持。
 
 | 从凯扎拉 | 到 Teams |
 |---------|-----------------------|
