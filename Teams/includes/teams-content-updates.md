@@ -3,12 +3,42 @@
 
 
 
+## <a name="week-of-august-22-2022"></a>2022 年 8 月 22 日当周
+
+
+| 发布日期 |主题标题 | 更改 |
+|------|------------|--------|
+| 8/22/2022 | [为组织管理“班次”应用](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | 修改内容 |
+| 8/22/2022 | [在 Microsoft Teams 中管理标记](/MicrosoftTeams/manage-tags) | 修改内容 |
+| 8/22/2022 | [为会议室和共享 Teams 设备创建资源帐户](/MicrosoftTeams/rooms/with-office-365) | 修改内容 |
+| 8/23/2022 | [使用来宾访问权限和外部访问权限与组织外部的人员进行协作](/MicrosoftTeams/communicate-with-users-from-other-organizations) | 修改内容 |
+| 8/23/2022 | [管理内容共享的会议策略](/MicrosoftTeams/meeting-policies-content-sharing) | 修改内容 |
+| 8/23/2022 | [Teams：管理会议策略](/MicrosoftTeams/meeting-policies-in-teams) | 修改内容 |
+| 8/24/2022 | [快速入门 - 设置Ta'lim uchun Microsoft Teams](/MicrosoftTeams/teams-quick-start-guide-edu) | 添加内容 |
+| 8/24/2022 | 快速入门 - Microsoft Teams 教育版管理员 | 删除内容 |
+| 8/24/2022 | [排查 Teams 的低带宽方案](/MicrosoftTeams/edu-remote-low-bandwidth) | 修改内容 |
+| 8/24/2022 | [Teams 教育版](/MicrosoftTeams/expand-teams-across-your-org/teams-for-education-landing-page) | 修改内容 |
+| 8/24/2022 | [适用于 IT 管理员的 Microsoft 教育常见问题解答](/MicrosoftTeams/plan-teams-governance-edu) | 修改内容 |
+| 8/24/2022 | [管理适用于教育的 Microsoft Teams 策略和策略包](/MicrosoftTeams/policy-packages-edu) | 修改内容 |
+| 8/24/2022 | [开始使用 Microsoft Teams 进行远程学习](/MicrosoftTeams/remote-learning-edu) | 修改内容 |
+| 8/24/2022 | [共享 Teams 采用资源](/MicrosoftTeams/resources-teams-edu) | 修改内容 |
+| 8/24/2022 | [为教育分配 Microsoft Teams 许可证](/MicrosoftTeams/teams-edu-licensing) | 修改内容 |
+| 8/24/2022 | [管理电话号码的使用情况](/MicrosoftTeams/manage-the-usage-of-a-phone-number) | 添加内容 |
+| 8/25/2022 | [Ma'mur培训资源 - Microsoft Teams](/MicrosoftTeams/itadmin-readiness) | 修改内容 |
+| 8/26/2022 | [自动助理&调用队列历史报告](/MicrosoftTeams/aa-cq-cqd-historical-reports) | 修改内容 |
+| 8/26/2022 | [为 Microsoft Teams 设置自动助理](/MicrosoftTeams/create-a-phone-system-auto-attendant-smb) | 修改内容 |
+| 8/26/2022 | [为 Microsoft Teams 设置自动助理](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 修改内容 |
+| 8/26/2022 | [在 Microsoft Teams 中创建呼叫队列](/MicrosoftTeams/create-a-phone-system-call-queue-smb) | 修改内容 |
+| 8/26/2022 | [在 Microsoft Teams 中创建呼叫队列](/MicrosoftTeams/create-a-phone-system-call-queue) | 修改内容 |
+| 8/26/2022 | [规划 Teams 自动助理和呼叫队列](/MicrosoftTeams/plan-auto-attendant-call-queue) | 修改内容 |
+
+
 ## <a name="week-of-august-15-2022"></a>2022 年 8 月 15 日当周
 
 
 | 发布日期 |主题标题 | 更改 |
 |------|------------|--------|
-| 8/15/2022 | [经认证可用于直接路由的会话边界控制器](/MicrosoftTeams/direct-routing-border-controllers) | 修改内容 |
+| 8/15/2022 | [经认证可用于直接路由的会话边界控制器列表](/MicrosoftTeams/direct-routing-border-controllers) | 修改内容 |
 | 8/16/2022 | [Microsoft Teams 的通话套餐](/MicrosoftTeams/calling-plans-for-office-365) | 修改内容 |
 | 8/17/2022 | [在 Teams 中自定义应用商店](/MicrosoftTeams/customize-your-app-store) | 修改内容 |
 | 8/17/2022 | [支持 Teams 的设备](/MicrosoftTeams/devices/teams-ip-phones) | 修改内容 |
@@ -56,7 +86,7 @@
 | 8/9/2022 | 加入清单 - 配置直接路由 - Microsoft Teams | 删除内容 |
 | 8/9/2022 | 加入清单 - 配置核心功能 - Microsoft Teams | 删除内容 |
 | 8/9/2022 | 加入清单 - 启用 Microsoft 365 或Office 365服务 | 删除内容 |
-| 8/9/2022 | Microsoft Teams 会议室参考 | 删除内容 |
+| 8/9/2022 | Microsoft Teams xonasi参考 | 删除内容 |
 | 8/9/2022 | [管理自定义和旁加载应用](/MicrosoftTeams/custom-app-overview) | 添加内容 |
 | 8/9/2022 | [了解 Microsoft Teams 中的应用](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | 修改内容 |
 | 8/9/2022 | [Microsoft 提供的应用验证和应用测试概述](/MicrosoftTeams/overview-of-app-validation) | 修改内容 |
@@ -91,7 +121,7 @@
 | 8/1/2022 | [什么是通信点数？](/MicrosoftTeams/what-are-communications-credits) | 修改内容 |
 | 8/1/2022 | [了解见解阅读进度建议](/MicrosoftTeams/insights-for-reading-progress) | 添加内容 |
 | 8/1/2022 | [新增功能 - 运算符连接](/MicrosoftTeams/operator-connect-whats-new) | 添加内容 |
-| 8/2/2022 | [Microsoft Teams 会议室 (Windows) 发行说明](/MicrosoftTeams/rooms/rooms-release-note) | 修改内容 |
+| 8/2/2022 | [Microsoft Teams xonasi (Windows) 发行说明](/MicrosoftTeams/rooms/rooms-release-note) | 修改内容 |
 | 8/3/2022 | [添加、更改、删除紧急位置](/MicrosoftTeams/add-change-remove-emergency-location-organization) | 修改内容 |
 | 8/3/2022 | [添加、更改、删除紧急位置的位置](/MicrosoftTeams/add-change-remove-emergency-place-organization) | 修改内容 |
 | 8/3/2022 | [Microsoft Teams 应用/业务线 (LOB) Teams 面板上的应用支持](/MicrosoftTeams/app-support-on-teams-panels) | 修改内容 |
@@ -109,13 +139,13 @@
 | 8/3/2022 | [将 Teams 电话系统电话号码分配给用户](/MicrosoftTeams/business-voice/set-up-assign-numbers) | 修改内容 |
 | 8/3/2022 | [使用呼叫计划紧急位置设置Microsoft Teams 电话系统](/MicrosoftTeams/business-voice/set-up-emergency-locations) | 修改内容 |
 | 8/3/2022 | [已完成的 Teams 电话系统和通话套餐设置](/MicrosoftTeams/business-voice/set-up-finish) | 修改内容 |
-| 8/3/2022 | [分配Microsoft Teams 电话及通话套餐捆绑许可证](/MicrosoftTeams/business-voice/set-up-licenses) | 修改内容 |
+| 8/3/2022 | [分配Microsoft Teams telefoni, Qo'ng'iroqlar rejasi bilan捆绑许可证](/MicrosoftTeams/business-voice/set-up-licenses) | 修改内容 |
 | 8/3/2022 | [为中小型企业设置Microsoft Teams 电话通话套餐系统](/MicrosoftTeams/business-voice/set-up-overview) | 修改内容 |
 | 8/3/2022 | [使用呼叫计划电话号码设置Microsoft Teams 电话系统](/MicrosoftTeams/business-voice/set-up-phone-numbers) | 修改内容 |
 | 8/3/2022 | [设置策略](/MicrosoftTeams/business-voice/set-up-policies) | 修改内容 |
 | 8/3/2022 | [设置Microsoft Teams 电话系统资源帐户](/MicrosoftTeams/business-voice/set-up-resource-account) | 修改内容 |
 | 8/3/2022 | [设置 Business Voice 后要尝试的事项](/MicrosoftTeams/business-voice/things-to-try) | 修改内容 |
-| 8/3/2022 | [购买Microsoft 365 商务语音所需的管理员权限](/MicrosoftTeams/business-voice/ui/admin-perms-needed) | 修改内容 |
+| 8/3/2022 | [Ma'mur购买 Microsoft 365 商业语音所需的权限](/MicrosoftTeams/business-voice/ui/admin-perms-needed) | 修改内容 |
 | 8/3/2022 | [适用于中小企业的 Teams 电话系统指南](/MicrosoftTeams/business-voice/whats-business-voice) | 修改内容 |
 | 8/3/2022 | [通过 cmdlet 创建自动助理](/MicrosoftTeams/create-a-phone-system-auto-attendant-via-cmdlets) | 修改内容 |
 | 8/3/2022 | [适用于教育的 Teams 设备](/MicrosoftTeams/devices-for-education) | 修改内容 |
@@ -147,7 +177,7 @@
 | 8/3/2022 | [在 Teams 会议中举手](/MicrosoftTeams/raise-hand-meetings) | 修改内容 |
 | 8/3/2022 | [将 Teams 会议室设备注册到托管服务](/MicrosoftTeams/rooms/enroll-a-device) | 修改内容 |
 | 8/3/2022 | [Microsoft Teams 会议室](/MicrosoftTeams/rooms/index) | 修改内容 |
-| 8/3/2022 | [Microsoft Teams 会议室中的身份验证](/MicrosoftTeams/rooms/rooms-authentication) | 修改内容 |
+| 8/3/2022 | [Microsoft Teams xonasi中的身份验证](/MicrosoftTeams/rooms/rooms-authentication) | 修改内容 |
 | 8/3/2022 | [Microsoft Teams 会议室规划](/MicrosoftTeams/rooms/rooms-plan) | 修改内容 |
 | 8/3/2022 | [Windows 和 Android 之间用于共享空间的 Teams 设备功能比较](/MicrosoftTeams/rooms/teams-devices-feature-comparison) | 修改内容 |
 | 8/3/2022 | [Microsoft Teams 中的共享频道](/MicrosoftTeams/shared-channels) | 修改内容 |
@@ -194,25 +224,3 @@
 | 7/26/2022 | [合作伙伴的多租户客户管理](/MicrosoftTeams/rooms/multi-tenant-management-partner) | 修改内容 |
 | 7/26/2022 | [向用户分配 Teams 加载项许可证](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses) | 修改内容 |
 | 7/29/2022 | [管理组织的电话号码](/MicrosoftTeams/manage-phone-numbers-landing-page) | 修改内容 |
-
-
-## <a name="week-of-july-18-2022"></a>2022 年 7 月 18 日当周
-
-
-| 发布日期 |主题标题 | 更改 |
-|------|------------|--------|
-| 7/18/2022 | [了解 Microsoft Teams 中的应用](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | 修改内容 |
-| 7/18/2022 | [在 Microsoft Teams 中管理应用设置策略](/MicrosoftTeams/teams-app-setup-policies) | 修改内容 |
-| 7/18/2022 | 为一线工作人员大规模预配 Microsoft Teams | 删除内容 |
-| 7/19/2022 | [管理 Microsoft 365 和自定义连接器](/MicrosoftTeams/office-365-custom-connectors) | 修改内容 |
-| 7/19/2022 | [了解 Microsoft Teams 中的应用](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | 修改内容 |
-| 7/19/2022 | [在 Microsoft Teams 管理中心管理 Microsoft Power Platform 应用](/MicrosoftTeams/manage-power-platform-apps) | 修改内容 |
-| 7/19/2022 | [在 Teams 会议中管理 Q&A](/MicrosoftTeams/manage-qna-for-teams) | 修改内容 |
-| 7/19/2022 | [Microsoft 应用认证概述](/MicrosoftTeams/overview-of-app-certification) | 修改内容 |
-| 7/19/2022 | [购买适用于 Teams 的第三方应用](/MicrosoftTeams/purchase-third-party-apps) | 修改内容 |
-| 7/20/2022 | [配置运算符连接](/MicrosoftTeams/operator-connect-configure) | 修改内容 |
-| 7/21/2022 | [Microsoft Teams 教育版见解 IT 管理员指南](/MicrosoftTeams/class-insights) | 修改内容 |
-| 7/21/2022 | [Microsoft Teams 中的应用更新体验](/MicrosoftTeams/apps-update-experience) | 修改内容 |
-| 7/21/2022 | [在 Microsoft Teams 管理中心管理应用](/MicrosoftTeams/manage-apps) | 修改内容 |
-| 7/21/2022 | [使用 Teams 应用提交 API 提交和批准自定义应用](/MicrosoftTeams/submit-approve-custom-apps) | 修改内容 |
-| 7/21/2022 | [在 Microsoft Teams 管理中心上传自定义应用](/MicrosoftTeams/upload-custom-apps) | 修改内容 |
