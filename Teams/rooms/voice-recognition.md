@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9052812a669a808536cbd0179d6c16b9228296c4
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 29a048ccc02082ec019bb64dca9e89b7f265ff83
+ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270037"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67465970"
 ---
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>管理智能扬声器的语音识别技术控制
 
@@ -71,12 +71,12 @@ ms.locfileid: "67270037"
 
    ![具有直接连接到控制台的扬声器的智能扬声器设置。](../media/intelligent-speakers2.png)
 
-> [!Note]
+> [!NOTE]
 > EPOS 和 Yealink 设备应具有“EPOS”或“Yealink”前缀，并在扬声器名称中包含“UAC2_RENDER”，麦克风名称中包含“UAC2_TEAMS”。 如果在下拉菜单中找不到这些麦克风和扬声器名称，请重启智能扬声器设备。
 
 ## <a name="enable-an-intelligent-speaker-user-recognition"></a>启用智能说话人用户识别
 
-语音配置文件数据可在与智能说话人的任何会议中使用。 有关会议设置的信息，请参阅 [Teams 会议策略](../meetings-policies-recording-and-transcription.md#allow-transcription) 和 [PowerShell 会议 cmdlet](/powershell/module/skype/set-csteamsmeetingpolicy) 。
+语音配置文件数据可在与智能说话人的任何会议中使用。 有关会议设置的信息，请参阅 [Teams 会议策略](../meetings-policies-recording-and-transcription.md#transcription) 和 [PowerShell 会议 cmdlet](/powershell/module/skype/set-csteamsmeetingpolicy) 。
 
 当策略设置为区分或非会议受邀者在会议期间走进来时，将创建用户的语音配置文件数据。 语音配置文件数据在会议结束时被关闭。
 
@@ -163,4 +163,4 @@ IT 管理员可以随时导出音频数据。
 
 ## <a name="related-topics"></a>相关主题
 
-[支持文章：使用智能扬声器标识会议室内参与者 ](https://support.microsoft.com/office/use-teams-intelligent-speakers-to-identify-in-room-participants-in-meeting-transcription-a075d6c0-30b3-44b9-b218-556a87fadc00)
+[支持文章：使用智能扬声器标识会议室内参与者](https://support.microsoft.com/office/use-teams-intelligent-speakers-to-identify-in-room-participants-in-meeting-transcription-a075d6c0-30b3-44b9-b218-556a87fadc00)

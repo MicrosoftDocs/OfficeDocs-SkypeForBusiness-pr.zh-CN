@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 815d3c6b1e97ea75eaa7ae4e35d3e41dd3c6e9e4
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: e309fa03e73dc13bff8bd1a90708c688bb0f5350
+ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396443"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67465990"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft Teams 中的 Walkie Talkie 应用
 
@@ -48,7 +48,7 @@ Teams 中的 Walkie Talkie 应用为团队提供即时推 (PTT) 通信，可在 
 
 ### <a name="enable-or-disable-walkie-talkie-for-specific-users-in-your-organization"></a>为组织中的特定用户启用或禁用 Walkie Talkie
 
-若要允许或阻止组织中的特定用户使用 Walkie Talkie，请确保在 [“管理应用](manage-apps.md) ”页面上为组织启用 Walkie Talkie。 然后创建自定义应用权限策略并将其分配给这些用户。 要了解详细信息，请参阅[在 Teams 中管理应用权限策略](teams-app-permission-policies.md)。
+若要允许或阻止组织中的特定用户使用 Walkie Talkie，请确保在 [“管理应用](manage-apps.md) ”页面上为组织启用 Walkie Talkie。 然后创建自定义应用权限策略，将其添加到应用设置策略，并将其分配给这些用户。 若要了解详细信息，请参阅 [Teams 中的“管理应用权限策略](teams-app-permission-policies.md)[”和“在 Microsoft Teams 中管理应用设置策略](teams-app-setup-policies.md)”。
 
 ### <a name="pin-walkie-talkie-to-teams"></a>将 Walkie Talkie 固定到 Teams
 

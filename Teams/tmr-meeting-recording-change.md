@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc315353e1ece0b4d455937c1677e35e3c18d152
-ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.openlocfilehash: e78cbb4740b5839af7c6c2d09450220a080d036f
+ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66794150"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67466111"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>使用OneDrive for Business和 SharePoint 或 Stream 进行会议录制
 
@@ -49,7 +49,7 @@ Microsoft Teams 推出了一种保存会议记录的新方法。 作为从经典
 - Teams 会议录制 (TMR) 的保留策略（S+C E5 自动保留标签）
 - 受益于OneDrive for Business和 SharePoint 信息治理
 - 易于设置权限和共享
-- 仅通过显式共享与来宾（外部用户）共享录制内容
+- 与仅具有显式共享的来宾共享录制
 - 请求访问流
 - 提供OneDrive for Business和 SharePoint 共享链接
 - 可更快地获得会议录制
@@ -67,7 +67,7 @@ Microsoft Teams 推出了一种保存会议记录的新方法。 作为从经典
 
 会议录制选项是 Teams 策略级别的设置。 以下示例说明了如何设置全局策略。 确保为分配给用户的策略设置会议录制选项。
 
-> [!Note]
+> [!NOTE]
 > Teams 会议策略更改需要一段时间才能传播。设置几小时后再次检查，然后注销并再次登录到 Teams 桌面应用，或者只需重启计算机即可。
 
 1. 安装 Teams PowerShell。
@@ -95,14 +95,13 @@ Microsoft Teams 推出了一种保存会议记录的新方法。 作为从经典
    Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "OneDriveForBusiness"
    ```
 
-> [!Note]
+> [!NOTE]
 > 如果某些用户分配了每个组织者或每个用户的策略，则必须在此策略上设置此设置（如果希望它们也将其存储在 OneDrive for Business 和 SharePoint 中）。 若要了解详细信息，请参阅[管理 Teams 中的会议策略](meeting-policies-overview.md)。
-
 
 ## <a name="permissions-or-role-based-access"></a>权限或基于角色的访问
 
-> [!Note]
-> 我们建议在共享 Teams 会议录制时，收件人必须是登录用户。 在 [共享 Share SharePoint 文件或文件夹](https://support.microsoft.com/office/share-sharepoint-files-or-folders-1fe37332-0f9a-4719-970e-d2578da4941c?redirectSourcePath=%25252fen-US%25252farticle%25252fShare-sites-or-documents-with-people-outside-your-organization-80E49744-E30F-44DB-8D51-16661B1D4232&ui=en-US&rs=en-US&ad=US)中所述的文件时，选择“组织 **)  (** 人员”选项。 外部共享不是为分发大型文件或大量文件而设计的。 为了防止欺诈和滥用情况，在向外部用户共享大量数据时可能会遇到问题。
+> [!NOTE]
+> 我们建议在共享 Teams 会议录制时，收件人必须是登录用户。 在 [共享 Share SharePoint 文件或文件夹](https://support.microsoft.com/office/1fe37332-0f9a-4719-970e-d2578da4941c)中所述的文件时，选择“组织 **()**”选项中的人员。 外部共享不是为分发大型文件或大量文件而设计的。
 
 |会议类型                               | 谁单击了“录制”？| 录制内容位于何处？                               |谁具有访问权限？ R/W、R 或共享                                                                                                                                                                                                                                                     |
 |-------------------------------------------|-----------------------|--------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -113,8 +112,8 @@ Microsoft Teams 推出了一种保存会议记录的新方法。 作为从经典
 |群组通话                                 |通话的任何成员 |单击“录制”的组成员的 OneDrive for Business 帐户  |单击“录制”的成员具有完全权限。 <br /><br /> 同一租户中的其他组成员具有读取权限。 <br /><br /> 来自不同租户的其他组成员没有权限。|
 |临时/计划的会议                    |组织者              |组织者的 OneDrive for Business 账户                     |组织者对录制内容具有完全权限。 <br /><br /> 会议的所有其他成员均具有读取访问权限。|
 |临时/计划的会议                    |其他会议成员   |单击“录制”的会议成员                                  |单击“录制”的成员对录制内容具有完全权限。 <br /><br />组织者具有编辑权限，且可以共享。<br /><br /> 所有其他会议成员均具有读取访问权限。|
-|与外部用户的临时/计划会议|组织者              |组织者的 OneDrive for Business 账户                     |组织者对录制内容具有完全权限。<br /> <br /> 来自组织者所在的同一租户的会议所有其他成员均具有读取访问权限。 <br /><br /> 所有其他外部成员均无访问权限，并且组织者必须将其共享给他们。|
-|与外部用户的临时/计划会议|其他会议成员   |单击“录制”的成员                                  |单击“录制”的成员对录制内容具有完全权限。 组织者具有编辑权限，且可以共享。 <br /><br /> 来自组织者所在的同一租户的会议所有其他成员均具有读取访问权限。 <br /><br />所有其他外部成员均无访问权限，并且组织者必须将其共享给他们。|
+|与外部参与者的临时/计划会议|组织者              |组织者的 OneDrive for Business 账户                     |组织者对录制内容具有完全权限。<br /> <br /> 来自组织者所在的同一租户的会议所有其他成员均具有读取访问权限。 <br /><br /> 所有其他外部参与者均无访问权限，并且组织者必须将其共享给他们。|
+|与外部参与者的临时/计划会议|其他会议成员   |单击“录制”的成员                                  |单击“录制”的成员对录制内容具有完全权限。 组织者具有编辑权限，且可以共享。 <br /><br /> 来自组织者所在的同一租户的会议所有其他成员均具有读取访问权限。 <br /><br />所有其他外部参与者均无访问权限，并且组织者必须将其共享给他们。|
 |频道会议                            |频道成员         |该频道的 Teams SharePoint 位置。 **注意**：基于 IP 的限制不支持将频道会议录制上传到 SharePoint。 建议使用 [Azure 条件访问](/azure/active-directory/conditional-access/overview)。 |单击“录制”的成员具有录制的编辑权限。 <br /> <br />其他每个成员的权限都基于频道 SharePoint 权限。|
 
 ## <a name="frequently-asked-questions"></a>常见问题解答
@@ -123,11 +122,11 @@ Microsoft Teams 推出了一种保存会议记录的新方法。 作为从经典
 
 - 对于非频道会议，录制内容存储在名为 **“录制**”的文件夹中，该文件夹位于OneDrive for Business的顶层，属于开始会议录制的人员。 示例：
 
-  <i>记录器的OneDrive for Business</i>/**记录器**
+  *记录器的OneDrive for Business*/**记录器**
 
 - 对于频道会议，录制内容存储在 Teams 网站文档库中名为 **“录制”** 的文件夹中。 示例：
 
-  <i>Teams 名称 - 频道名称</i>/**文件**/**录音**
+  *Teams 名称 - 频道名称*/**文件**/**录音**
 
 **当 Stream 文件 (（例如录制) ）存储在 SharePoint/OneDrive 中时，如何确定它们的去向？管理员是否能够更改其去向？**
 
@@ -139,7 +138,7 @@ Microsoft Teams 推出了一种保存会议记录的新方法。 作为从经典
 
 **谁有权查看会议录制？**
 
-- 对于非频道会议，除外部用户外，所有会议受邀者都将自动获得个人共享链接。 外部用户需要由会议组织者或开始会议录制的人员显式添加到共享列表中。
+- 对于非频道会议，除外部参与者外，所有会议受邀者都将自动获得个人共享链接。 外部参与者需要由会议组织者或开始会议录制的人员显式添加到共享列表中。
 
 - 对于频道会议，权限从频道中的所有者和成员列表继承。
 
@@ -148,7 +147,7 @@ Microsoft Teams 推出了一种保存会议记录的新方法。 作为从经典
 
 **如何管理字幕？**
 
-仅当用户在录制时打开了听录功能时，才会在播放期间提供 Teams 会议录制内容的隐藏式字幕。 管理员必须 [启用录制听录](meetings-policies-recording-and-transcription.md#allow-transcription) ，以确保其用户可以选择使用听录记录会议。
+仅当用户在录制时打开了听录功能时，才会在播放期间提供 Teams 会议录制内容的隐藏式字幕。 管理员必须 [启用录制听录](meetings-policies-recording-and-transcription.md#transcription) ，以确保其用户可以选择使用听录记录会议。
 
 作为所有者，你可以隐藏会议录制内容中的字幕，尽管会议脚本仍可在 Teams 上使用，除非你将其从 Teams 删除。
 

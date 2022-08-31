@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 了解 Microsoft Teams 生成的调试、媒体和桌面日志、可在其中找到日志以及如何帮助监视和故障排除。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7883fe7f3d8f9938e66151bb784fa5fc45a91c74
-ms.sourcegitcommit: f5d784df59a8010b390691bbb20c4ea66c46280b
+ms.openlocfilehash: ae6e6eb0c84eae8293f141940842506fa3f54142
+ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67005362"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67466030"
 ---
 # <a name="configure-log-files-for-monitoring-and-troubleshooting-in-teams"></a>在 Teams 中配置日志文件以进行监视和故障排除
 
@@ -118,7 +118,7 @@ ms.locfileid: "67005362"
 
 ### <a name="end-user-configuration"></a>最终用户配置
 
-为使最终用户能够记录 Teams 会议的诊断数据，他们必须在 Teams 客户端中启用该选项。 他们将转到 **“常规设置”** > **，选择**“ **为会议诊断启用日志记录** (需要重启 Teams) 复选框、重启 Teams 并重现问题。 必须重启 Teams 客户端才能开始日志记录。 用户可以通过右键单击其停靠 (Mac) 或任务栏中的图标 (Windows) 并选择“退出”来重启它。 退出后，他们可以单击应用图标以再次打开 Teams。
+为使最终用户能够记录 Teams 会议的诊断数据，他们必须在 Teams 客户端中启用该选项。 他们将转到 **“常规设置”** > **，选择****“启用媒体日志” (用于音频、视频和屏幕共享的诊断数据。需要重启 Teams)** (需要重启 Teams) 复选框，重启 Teams 并重现问题。 必须重启 Teams 客户端才能开始日志记录。 用户可以通过右键单击其停靠 (Mac) 或任务栏中的图标 (Windows) 并选择“退出”来重启它。 退出后，他们可以单击应用图标以再次打开 Teams。
 
 > [!NOTE]
 > 当用户注销 Teams 时，媒体日志记录将重置为默认值。

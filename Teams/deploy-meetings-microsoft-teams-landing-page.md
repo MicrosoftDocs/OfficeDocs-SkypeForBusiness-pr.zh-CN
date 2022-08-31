@@ -20,12 +20,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-get-started
-ms.openlocfilehash: 84cc77409aecf5525a16ef73e3dfa7e0115f7566
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: d6667564c326552cd5671c480bb1ee66a3311c93
+ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268567"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67466000"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Microsoft Teams 中的会议
 
@@ -52,7 +52,6 @@ Teams 为组织提供了现成的出色体验，并且大多数组织发现默�
 
 > [!TIP]
 > 观看下面的课程来详细了解会议：[Microsoft Teams 中的会议：面向 IT 专业人员的简介](https://aka.ms/teams-meetings-intro)。
-
 
 ## <a name="meetings-and-conferencing-prerequisites"></a>会议先决条件
 
@@ -150,7 +149,7 @@ Teams 提供了一组可用于为组织管理 Teams 的自定义管理员角色�
 
 | 询问你自己 | 操作 |
 |--------------|--------|
-| 是否要开启会议转录服务？|请参阅[开启或关闭录制转录](meetings-policies-recording-and-transcription.md#allow-transcription)|
+| 是否要开启会议转录服务？|请参阅[开启或关闭录制转录](meetings-policies-recording-and-transcription.md#transcription)|
 
 ### <a name="live-events-policies"></a>实时事件策略
 
@@ -203,6 +202,7 @@ Teams 提供两种用于监视和排除通话质量问题的方法：[通话分�
 |谁将在我的组织中负责管理会议服务？ | 请确保此人员具有管理会议服务所需的 Teams 管理员权限。 若要详细了解 Teams 管理员角色，请参阅[使用 Microsoft Teams 管理员角色来管理 Teams](using-admin-roles.md)。|
 
 ## <a name="next-steps"></a>后续步骤
+
 - 在整个组织中[推动采用](adopt-microsoft-teams-landing-page.md)会议。
 - [添加音频会议](deploy-audio-conferencing-teams-landing-page.md)
 - [部署云语音](cloud-voice-landing-page.md)
