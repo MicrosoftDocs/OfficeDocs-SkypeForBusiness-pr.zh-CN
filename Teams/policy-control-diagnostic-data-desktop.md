@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: majaisin
 description: Microsoft Teams 的策略控制的桌面属性和事件列表。
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c255fd02342eb6db1878608ad2da09683d7a83ec
-ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
-ms.translationtype: HT
+ms.openlocfilehash: 5bb9e4dfd604728ea1714d3ab2e663dab3b5c3c6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52863223"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608919"
 ---
 # <a name="required-desktop-diagnostic-data-for-microsoft-teams"></a>Microsoft Teams 所需的桌面诊断数据
 

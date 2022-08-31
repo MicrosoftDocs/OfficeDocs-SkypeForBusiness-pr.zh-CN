@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: majaisin
 description: Microsoft Teams 策略控制的移动设备属性和事件列表。
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ab0ae8fe2e1e3fee37a01de178c62fd45558b1d0
-ms.sourcegitcommit: a07040d1527692b4dbde7bd2c21994377ad0a92e
-ms.translationtype: HT
+ms.openlocfilehash: 91203a9e35954e695bea5482c41674137320b487
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53114121"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674234"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Microsoft Teams 所需的移动设备诊断数据
 
@@ -39,6 +39,7 @@ ms.locfileid: "53114121"
 > [!NOTE]
 > 关于PanelAction 事件属性的详细信息，请参阅[与面板操作事件一起发送的属性](#properties-sent-with-panelaction-events)。
 
+- **acceptUser** - 用户已接受 1：1 聊天。
 - **accessibilityUserConfiguration** - 当用户切换辅助功能时。
 - **acknowledgeSettingChange** - 在“我们已更新通知设置”对话框中确认更新。 这是一个用于确认更新通知和确定整体通知可靠性的功能成功指标。
 - **actionComposeMenu**
@@ -69,6 +70,7 @@ ms.locfileid: "53114121"
 - **admitAll** - 从“大厅”一节选择“**全部允许**”按钮的次数。
 - **admitParticipant** - 从会议名单中允许某人参加会议的次数。
 - **alertsNavAlert** - 点击源项目。
+- **aliasDiscoverabilitySettingOpened** - discoverabaility 设置的入口点。
 - **android: null** - 聊天机器人静音或取消静音。 这正增强只添加应用程序信息聊天的现有遥测。
 - **anonymousMeetingJoin** - 在匿名加入提供名称页上选择“**加入会议**”或在“名称”对话框中单击“**确定**”。
 - **anonymousMeetingJoinWelcome** - 在匿名加入会议登陆页面上选择“**作为来宾加入**”。
@@ -222,7 +224,7 @@ ms.locfileid: "53114121"
   - 关闭视频。
   - 实时会议或呼叫过程中选中了视频按钮。
 - **callPark** - 触发时间：
-  - 在 **…** 中选中了 **寄存呼叫**。
+  - ...**菜单中** 选择了 **“寄存呼叫**”。
   - “**检索**”按钮处于选中状态。
   - 在检索对话框中选中了 **拾取**。
   - 在检索对话框中选中了 **取消**。
@@ -450,6 +452,8 @@ ms.locfileid: "53114121"
 - **detailsTabClicked** - 在会议上选择了“**详细信息**”选项卡。
 - **deviceAddressBookSync** - 从设置页打开通讯簿同步时触发。
 - **deviceAddressBookUnsync** - 从设置页关闭通讯簿同步时触发。
+- **deviceSyncEnabled** - 已启用设备同步。
+- **deviceSyncDisabled** - 设备同步已禁用。
 - **dialIn** - 用户选择“拨入”会议（不同位置）。
 - **dialInBadNetworkBanner** - 已为不良连接横幅选择了“**拨号**”。
 - **dialInBadNetworkBannerCancel** - 在本机对话中取消“**拨入**”。
@@ -629,6 +633,7 @@ ms.locfileid: "53114121"
 - **launchLinksGallery** - 当用户从仪表板进入链接库时。
 - **launchSlideshow** - 用户从三个可能应用功能位置之一启动幻灯片全屏图像查看器。 
 - **Launch source such as direct, link, appShortcut** - 直接或通过链接启动（在应用程序启动时记录移动应用程序管理 (MAM) 或移动设备管理 (MDM) 遥测，为活动用户收集数据）。
+- **lastSearchableAliasTurnedOff** - 用户已禁用帐户的所有可搜索别名。
 - **leaveChat** - 确认离开聊天。
 - **legacyChatLink** - 已选中旧聊天的链接。
 - **链接** - 用户通过输入 Teams 应用程序启动兑换邀请链接。
@@ -688,7 +693,7 @@ ms.locfileid: "53114121"
 - **meetingDetailDeleteMeetingforSelf** - 从“会议详细信息”页中为自己删除会议。
 - **meetingDetailJoin** - 从“会议详细信息”页中选择“**会议加入**”按钮。
 - **meetingDetailParticipants** - 请参见“会议详细信息”页面中的所有参与者。
-- **meetingDetailScheduledMeeting** - 从计划会议对象 (**…**) 中选择“会议详细信息”页，或选择计划会议的“**详细信息**”选项卡。
+- **meetingDetailScheduledMeeting** - 从计划会议对象中选择的会议详细信息页 (**...**) ，或选择计划会议的 **“详细信息** ”选项卡。
 - **meetingDetailSearchParticipants** - 在会议日程中的会议参与者中选择“**搜索**”。
 - **meetingInsightFileClick** - 会议相关文件项已单击。
 - **meetingInsightFileLocatorClick** - 会议相关内容定位符提示按钮已单击。
@@ -724,6 +729,7 @@ ms.locfileid: "53114121"
 - **meetingUserGuest** - 来宾用户加入了会议。
 - **meetingUserTenant** - 租户内用户加入了会议。
 - **memeGenerated** - 当用户输入图像和文本数据生成 Meme 时。 
+- **meProfileFetch** - 指示成功提取和创建配置文件。
 - **messageCopyMessage** - 复制邮件。
 - **messageDelete** - 删除邮件。
 - **messageEditMessage** - 编辑邮件。
@@ -738,6 +744,7 @@ ms.locfileid: "53114121"
 - **MicrosoftWhiteboardClicked** - 在“**频道文件**”选项卡或“**会议聊天文件**”选项卡上选择了 Microsoft Whiteboard。
 - **moreOptionsClicked** - 当 **...** 右上角的菜单在任务项编辑器屏幕上被选中时触发。
 - **moveTaskClicked** - 任务项更多选项列表中的选项。
+- **msaAddDeleteAliasLinkClicked** - 链接以在 MSA 配置文件页上设置别名。
 - **multiCallEndFromUFD** - 在多个呼叫情况下，用户结束通话保持的次数。
 - **multiCallResumeFromUFD** - 用户选择从通话保持恢复呼叫的次数。
 - **multiCallSwitch** - 用户选择选项来切换呼叫并显示通话保持列表的次数。
@@ -851,6 +858,7 @@ ms.locfileid: "53114121"
 - **parental_consent_grant** - 用户向其 MSFamily 中的未成年人授予使用 TFL 中实时位置功能的权限。
 - **parental_consent_remove** - 用户撤销其 MSFamily 中未成年人使用 TFL 中实时位置功能的权限。
 - **pauseVoicemail** - 在语音邮件项目上点击了“**暂停**”。
+- **peoplePickerDismissed** - 指示人员选取器已解除。
 - **peoplePickerInvoked** - 人员选取器可在 Teams 移动版的七个位置使用，包括（但不限于）：
   - 新聊天选取器。
   - 转发邮件。
@@ -893,6 +901,7 @@ ms.locfileid: "53114121"
 - **privateMeetingJoin** - 从私人会议聊天中点击了“**会议加入**”按钮。
 - **processInBG** - 在后台处理传入通知 (Android)。
 - **processInFG** - 在前台处理传入通知 (Android)。
+- **profileNameSaved** - 配置文件名称已更新。
 - **progressItemClicked** - 确认用户已成功打开任务的进度选取器。
 - **promotedToPresenter** - 用户在对话框中提升与会者 - **更改** 按钮。
 - **provideFeedbackDismiss** - 关闭询问用户是否希望发送关于他们不喜欢该应用程序的反馈的提示。
@@ -1035,7 +1044,7 @@ ms.locfileid: "53114121"
 - **shareScreen** - 启动或停止屏幕共享。
 - **shareShift** - 共享排班时提供的信息。
 - **shareShiftsClicked** - 未完成班次的详细信息。
-- **shareTray** - **共享…** 在操作表中处于选中状态。
+- **shareTray** - **共享。。。** 在操作表中选择。
 - **shiftAssigneeClicked** - 显示特定排班详细信息的“排班日历视图”。
 - **shiftDetails** - 通过它可查看排班的详细信息。
 - **shiftDetailsCalendar** - 用户转到排班详细信息。
@@ -1260,6 +1269,7 @@ ms.locfileid: "53114121"
 > 
 - **acquire_resource_token_interactive**- 通过交互式登录获取身份验证令牌时触发的必需服务调用。 
 - **acquire_resource_token_silent**- 通过无提示登录获取身份验证令牌时触发的必需服务调用。
+- **add_buddy** - 捕获添加联系人的状态。
 - **app_crash2** - 在应用意外崩溃时触发。 提供有关 Teams 应用崩溃频率的信息。 
 - **app_incremental_sync_launch** - 确认药丸计数已为冷启动成功更新。
 - **app_incremental_sync_resume** - 确认药丸计数已为暖/热启动成功更新。
@@ -1299,6 +1309,7 @@ ms.locfileid: "53114121"
 - **delete_planner_plan** - 确认成功删除共享任务列表。
 - **delete_planner_task** - 确认成功删除共享任务项。
 - **json_parse_failure**- 提供有关 JSON 分析问题的频率的信息。
+- **fetch_me_profile** - 用户配置文件创建状态。
 - **getProfilePicture**- 获取用户配置图片必需的服务调用。 
 - **get_resource_token_async**：异步获取 Azure Active Directory 资源令牌所需的服务调用。
 - **get_resource_token_sync**：同步获取 Azure Active Directory 资源令牌所需的服务调用。
@@ -1344,6 +1355,7 @@ ms.locfileid: "53114121"
 - **show_meeting_participants** - 确认显示会议参与者名单已成功或失败。
 - **搜索** - 确认整个搜索会话已成功或失败。
 - **time_based_retention_shared_channel** - 捕获用于修剪数据库的性能数据。
+- **toggle_searchability** - 捕获用于标记/取消标记别名的网络调用状态。
 - **sync_user_entitlements_and_app_definitions** - 提取 aggregatedEntitlements 所需的服务调用。
 - **bots_load_mediacards** - 在聊天和频道中配置连接器卡片时实例化捕获。
 - **bots_load_one_card** - 在与机器人聊天时，捕获是否存在并加载了至少一张卡片。
@@ -1358,7 +1370,7 @@ ms.locfileid: "53114121"
 
 ## <a name="oneplayer-events"></a>OnePlayer 事件
 > [!NOTE]
-> 对于 OnePlayer 事件，仅应用 [OnePlayer 事件属性列表](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/212efdd56d2d52faacd03dd70d367ca0b5895e3a/Teams/policy-control-diagnostic-data-mobile.md#property-lists-for-oneplayer-events) 中列出的属性。
+> 对于 OnePlayer 事件，仅应用 [OnePlayer 事件属性列表](#property-lists-for-oneplayer-events) 中列出的属性。
 ### <a name="oneplayer-user-action-events"></a>OnePlayer 用户操作事件
 - **PlayerPlay** - 确认用户是否点击 OnePlayer 视图中的“播放”按钮。
 - **PlayerPause** - 确认用户是否点击 OnePlayer 视图中的“暂停”按钮。

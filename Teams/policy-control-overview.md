@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: majaisin
 description: Microsoft Teams 的策略控制概述。
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ed0e5aa3a39147238bf0ade57df509a31f0f13e8
-ms.sourcegitcommit: 7579dda8018691eb1a724cb0311b53333dc3ae5a
-ms.translationtype: HT
+ms.openlocfilehash: 13b807d98b92deaac54ad8b755295b73e90c6548
+ms.sourcegitcommit: b4bc3b4c1d167a075a25180818f61758eb56cd6b
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53142808"
+ms.lasthandoff: 11/16/2021
+ms.locfileid: "61041254"
 ---
 # <a name="policy-control-overview-for-microsoft-teams"></a>Microsoft Teams 的策略控制概述
 
@@ -87,9 +87,6 @@ Teams 软件有三个级别的诊断数据可供你选择：
 此诊断数据不包括用户姓名、其电子邮件地址或其他用户内容，例如 Teams 中共享的 Office 文件、在 Teams 中发送的聊天消息，或在 Teams 频道中发布的帖子文本。 我们的系统会创建一个与用户诊断数据相关联的唯一 ID。 当我们收到显示 Teams 应用崩溃 100 次的诊断数据时，此唯一 ID 可让我们确定是单个用户崩溃了 100 次，还是 100 个不同的用户分别崩溃了一次。 我们不会使用此唯一 ID 来标识特定用户。
 
 若要查看向 Microsoft 发送的诊断数据，你可以使用诊断数据查看器，它可通过 Microsoft 商店免费下载和安装。 有关详细信息，请参阅[将诊断数据查看器与 Office 配合使用](https://support.microsoft.com/topic/cf761ce9-d805-4c60-a339-4e07f3182855)。
-
-> [!NOTE]
-> 运行 Android 的设备上 Teams 支持诊断数据查看器。 对运行 Windows、macOS 或 iOS 的设备上对 Teams 的支持正正常运行。
 
 ## <a name="required-service-data-for-connected-experiences"></a>连接体验的所需服务数据
 
