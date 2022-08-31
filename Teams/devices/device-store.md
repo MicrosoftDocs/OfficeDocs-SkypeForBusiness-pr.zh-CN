@@ -17,12 +17,12 @@ search.appverid: MET150
 f1.keywords:
 - CSH
 description: 了解如何在 Teams 管理中心设备存储中浏览和购买设备
-ms.openlocfilehash: a6b68f6e1ffbde15f9f38dfcdeac881a7b3aabc1
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: d1e3d016f51c6113b6f09076f67647c32f7fd1fa
+ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267977"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67466210"
 ---
 # <a name="purchase-devices-in-the-teams-device-store"></a>在 Teams 设备存储中购买设备
 
@@ -32,7 +32,7 @@ Teams 管理中心中的设备存储允许你浏览、购买和预配经 Microso
 
 ## <a name="requirements"></a>要求
 
-若要使用设备存储，必须是全局管理员或 Teams 管理员。
+若要使用设备存储，必须是全局管理员、Teams 管理员或 Teams 设备管理员。
 
 ## <a name="browse-the-store"></a>浏览存储区
 
@@ -45,14 +45,6 @@ Teams 管理中心中的设备存储允许你浏览、购买和预配经 Microso
 可以使用信用卡或购买订单付款。 购买订单付款需要与履行提供程序一次性设置。
 
 所有订单在交付后最多可返回 30 天。
-
-## <a name="data-handling-and-sharing"></a>数据处理和共享
-
-Teams 设备存储需要共享基本用户和公司信息（包括用户和租户 GUID）和 UnifiedCommunications.com 才能在 Teams 管理中心进行购买。
-
-默认情况下，数据共享处于关闭状态。 若要启用它，请转到 Teams 设备存储，选择设置图标，然后打开设置。  
-
-关闭此设置时，不会共享数据，并且可以浏览 Teams 设备存储，但无法进行购买。 在设置打开时收集的数据，并与履行提供程序共享的数据按照其隐私声明中指定的处理方式进行处理。
 
 ## <a name="order-tracking-and-history"></a>订单跟踪和历史记录
 

@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 使用此表可查找有关在斯洛伐克获取和管理 Microsoft Teams 电话号码的信息。
-ms.openlocfilehash: 05f953c2ff98a71586cced881f21cc91786c30c5
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: c29dbf6493e106d0c2b6560b53c79dd3ae0f1967
+ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66789607"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67466080"
 ---
 # <a name="phone-number-management-for-slovakia"></a>斯洛伐克的电话号码管理
 
@@ -38,7 +38,7 @@ ms.locfileid: "66789607"
 |**你要做什么？**|**下载正确的表单**|
 |:-----|:-----|
 |获取未在 Microsoft Teams 管理中心列出的新用户或服务电话号码。 |在斯洛伐克，可以使用 Microsoft Teams 管理中心获取组织的电话号码。 还可以通过下载表单来提交新的电话号码请求 [，并联系 TNS 服务台以获取说明](contact-tns-service-desk.md)。<br/><br/>[斯洛伐克的新电话号码请求 (v.1.0)  (en-sk) ](https://download.microsoft.com/download/f/8/9/f895e7f5-c88a-4b0d-a97f-58e29c407df5/new-phone-number-request-for-slovakia-(v1.0)-(sk-SK).pdf)。 <br/><br/> 在将电话号码分配给你之前，必须下载“了解客户”表单，完整完成，并 [联系 TNS 服务台以获取说明](contact-tns-service-desk.md)。<br/><br/>新订单可能需要两到三周才能填补这个市场。  |
-|获取传输给我们的电话号码。   | 下载此表单。 <br/>[斯洛伐克 (LOA) 的授权书 (所有数字)  (v.1.1)  (en-sk) ](https://download.microsoft.com/download/5/e/2/5e294448-313e-4398-bd8e-bbaee92dc78d/letter-of-authorization-(loa)-for-slovakia-(all-numbers)-(v.1.1)-(en-sk).pdf)。 <br/> <br/>[斯洛伐克 (LOA) 的授权书 (所有数字)  (v.1.0)  (sk-sk) ](https://download.microsoft.com/download/f/2/d/f2d73643-c597-4da6-8e0e-d6d3af3737a3/letter-of-authorization-(loa)-for-slovakia-(all-numbers)-(v.1.1)-(sk-sk).pdf)。 <br/><br/>填写并 [联系 TNS 服务台以获取说明](contact-tns-service-desk.md)。 <br/><br/>转移号码可能需要四到五周才能在这个市场完成。 <br/><br/>这些数字目前不能用于会议。 |
+|获取传输给我们的电话号码。   | 下载此表单。 <br/>[斯洛伐克 (LOA) 的授权书 (所有数字)  (v.1.1)  (en-sk) ](https://download.microsoft.com/download/f/2/d/f2d73643-c597-4da6-8e0e-d6d3af3737a3/LOA-SK-GEO-EN.pdf)。 <br/><br/>填写并 [联系 TNS 服务台以获取说明](contact-tns-service-desk.md)。 <br/><br/>转移号码可能需要四到五周才能在这个市场完成。 <br/><br/>这些数字目前不能用于会议。 |
 |在全国电话目录中发布/取消发布电话号码 () 。  <br/> |有关要发布/取消发布的电话号码列表的[说明，请与 TNS 服务台联系](contact-tns-service-desk.md)。 <br/> |
 |将用户的号码更改为服务编号。  <br/> |有关要转换为服务号码的用户号列表的[说明，请与 TNS 服务台联系](contact-tns-service-desk.md)。 <br/> |
 |进行目录服务更新以调用队列或自动助理号码|若要添加或更改呼叫队列或自动助理号码，请联系 [TNS 服务台以获取说明](contact-tns-service-desk.md)。 |
