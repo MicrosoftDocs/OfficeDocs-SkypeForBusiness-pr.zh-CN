@@ -1,6 +1,6 @@
 ---
 title: 基于用户类型的 Teams 应用行为
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 ms.reviewer: joglocke
 manager: serdars
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 940c021b18c390a7b5c9ec0f8a3325c49c87dae5
-ms.sourcegitcommit: 903abff4ce79c10bf1fb936b8ad71f6315a43c18
+ms.openlocfilehash: 25686bff1059d79376b036d3c5e64893b42fe4ab
+ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/08/2022
-ms.locfileid: "67278596"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67486747"
 ---
 # <a name="behavior-of-microsoft-teams-apps-based-on-types-of-in-meeting-users"></a>基于会议内用户类型的 Microsoft Teams 应用的行为
 

@@ -15,12 +15,12 @@ description: 了解如何使用信用卡、借记卡或通过发票计费从 Tea
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 680f48fd75c85b219a4c1ed5b18289962637401b
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: 53a630fd887bd793f2b811e97e176cbd40ec1d0d
+ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396303"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67486717"
 ---
 # <a name="purchase-third-party-apps-for-teams"></a>购买适用于 Teams 的第三方应用
 
@@ -28,7 +28,7 @@ Teams 应用可以免费安装，但有些应用可能需要购买服务订阅�
 
 在 Microsoft Teams 管理中心的“[管理应用](manage-apps.md)”页面上，可以查看并管理组织的所有 Teams 应用。 例如，可以看到应用的组织级别状态和属性、将新的自定义应用上传到组织的应用商店、在组织级别阻止或允许应用，以及管理组织范围的应用设置。
 
-在这里，还可以为组织中用户的第三方应用所提供的服务购买许可证。 表中的“**许可证**”列指示应用是否提供 SaaS 订阅以供购买。
+在这里，还可以为组织中用户的第三方应用所提供的服务购买许可证。 表中的“**许可证**”列指示应用是否提供 SaaS 订阅以供购买。 最终用户可以使用信用卡、借记卡或发票计费来购买应用。
 
 ![购买许可证管理应用页面的屏幕截图。](media/manage-apps-new-page.png)
 

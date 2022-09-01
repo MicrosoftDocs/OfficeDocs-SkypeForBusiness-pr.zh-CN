@@ -1,6 +1,6 @@
 ---
 title: 修改组织 Teams 应用商店中应用的外观
-author: guptaashish
+author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
 ms.topic: article
@@ -16,16 +16,16 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何通过编辑应用详细信息和元数据来更改应用的外观并重新命名应用。
-ms.openlocfilehash: 304aa0b5d8becae641f69b0c389ca41160ad2e2f
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: 444cf5cda737b9d4b4c3dc7f4032b7eb0877f4aa
+ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67298881"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "67486917"
 ---
 # <a name="customize-appearance-of-apps-in-your-organizations-teams-store"></a>自定义组织 Teams 应用商店中应用的外观
 
-Microsoft Teams 允许管理员自定义 Teams 应用，以增强应用商店体验并保留其组织的品牌。 应用开发人员可以允许 Teams 管理员自定义其应用。然后，可以在 Teams 管理中心的“管理应用”页中根据组织需求更新应用属性。 可以自定义的详细信息如下：
+Microsoft Teams 允许管理员自定义 Teams 应用，以增强应用商店体验并遵循组织的品牌打造。 应用开发人员可以允许 Teams 管理员自定义其应用。然后，可以在 Teams 管理中心的“管理应用”页中根据组织需求更新应用属性。 可以自定义的详细信息如下：
 
 * 简短名称
 * 简短说明
