@@ -607,8 +607,8 @@ items:
                     href: meeting-policies-participants-and-guests.md
                   - name: 从用户中删除 RestrictedAnonymousAccess 会议策略
                     href: meeting-policies-restricted-anonymous-access.md
-          - name: 会议策略和会议过期时间
-            href: meeting-expiration.md
+          - name: 管理谁可以开始和安排会议
+            href: manage-who-can-schedule-meetings.md
           - name: 管理会议设置
             href: meeting-settings-in-teams.md
           - name: 用户设置更改时向其发送的电子邮件
@@ -863,8 +863,6 @@ items:
                 href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
           - name: 运营商连接
             items:
-              - name: 最近更新
-                href: operator-connect-whats-new.md
               - name: 运营商连接计划
                 href: operator-connect-plan.md
               - name: 配置运营商连接
@@ -953,6 +951,8 @@ items:
             href: search-for-phone-numbers-for-users.md
           - name: 为用户分配、更改或删除电话号码
             href: assign-change-or-remove-a-phone-number-for-a-user.md
+          - name: 管理电话号码的使用情况
+            href: manage-the-usage-of-a-phone-number.md
           - name: 查看组织中的电话号码列表
             href: see-a-list-of-phone-numbers-in-your-organization.md
           - name: 管理通话套餐的电话号码
@@ -1068,7 +1068,7 @@ items:
               - name: 步骤 5：向用户分配电话号码
                 href: business-voice/set-up-assign-numbers.md
               - name: 步骤 6：设置自动助理
-                href: create-a-phone-system-auto-attendant.md
+                href: create-a-phone-system-auto-attendant-smb.md
               - name: 步骤 7：端口电话号码（可选）
                 href: business-voice/port-phone-numbers.md
               - name: 设置后的资源
@@ -1084,7 +1084,7 @@ items:
               - name: 创建更多用户
                 href: business-voice/create-users.md
               - name: 设置呼叫队列
-                href: create-a-phone-system-call-queue.md
+                href: create-a-phone-system-call-queue-smb.md
           - name: 管理电话系统设置
             items:
               - name: 管理设备
@@ -1135,6 +1135,8 @@ items:
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-lithuania.md
               - name: 卢森堡的电话号码管理
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-luxembourg.md
+              - name: 墨西哥的电话号码管理
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-mexico.md
               - name: 新西兰的电话号码管理
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-new-zealand.md
               - name: 挪威的电话号码管理
@@ -1579,44 +1581,65 @@ items:
             href: apps-update-experience.md
           - name: 审核应用管理活动
             href: audit-app-management-activities.md
-          - name: 应用使用情况报告和分析
+          - name: 查看应用使用情况报告和分析
             href: teams-analytics-and-reports/app-usage-report.md
   - name: 行业和政府指南
     items:
       - name: 概述
         href: expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md
       - name: Teams 教育版
-        href: expand-teams-across-your-org/teams-for-education-landing-page.md
         items:
-          - name: 快速入门 - Teams 教育版管理员
-            href: teams-quick-start-edu.yml
-          - name: 远程学习入门
-            href: remote-learning-edu.md
-          - name: Teams EDU 策略和策略包
-            href: policy-packages-edu.md
-          - name: 向大型用户组分配策略
-            href: batch-group-policy-assignment-edu.md
-          - name: 用于为教师和学生创建安全组的 PowerShell 脚本
-            href: scripts/powershell-script-security-groups-edu.md
-          - name: 教育版管理员低带宽指南
-            href: edu-remote-low-bandwidth.md
-          - name: Teams 教育版策略向导
-            href: easy-policy-setup-edu.md
-          - name: Teams 教育版中的家长连接
-            href: edu-parents-app.md
-          - name: 职业指导
+          - name: Teams 教育版概述
+            href: expand-teams-across-your-org/teams-for-education-landing-page.md
+          - name: Teams 教育版入门
             items:
-              - name: 职业指导入门
-                href: career-coach.md
-              - name: 设置和配置职业指导
-                href: career-coach-set-up-steps.md
-              - name: 职业指导疑难解答
-                href: career-coach-troubleshoot.md
-              - name: 职业指导资源
-                href: career-coach-resources.md
-          - name: 监督 Teams 中的聊天
-            href: supervise-chats-edu.md
-          - name: 教育见解
+              - name: 快速入门 - 设置Teams 教育版
+                href: teams-quick-start-guide-edu.md
+              - name: 远程学习入门
+                href: remote-learning-edu.md
+              - name: 排查低带宽方案
+                href: edu-remote-low-bandwidth.md
+              - name: 为教育分配 Teams 许可证
+                href: teams-edu-licensing.md
+              - name: 适用于 IT 管理员的 Microsoft 教育常见问题解答
+                href: plan-teams-governance-edu.md
+              - name: 共享 Teams 采用资源
+                href: resources-teams-edu.md
+              - name: 教育 SKU 参考
+                href: sku-reference-edu.md
+          - name: 适用于教育的 Teams 策略
+            items:
+              - name: 管理 Teams 策略和策略包
+                href: policy-packages-edu.md
+              - name: 快速为用户设置策略
+                href: easy-policy-setup-edu.md
+              - name: 向大型用户组分配策略
+                href: batch-group-policy-assignment-edu.md
+              - name: 为教师和学生创建安全组
+                href: scripts/powershell-script-security-groups-edu.md
+          - name: 为教师设置功能
+            items:
+              - name: 在 Teams 中设置监督聊天
+                href: supervise-chats-edu.md
+              - name: 在 Teams 中设置分配
+                href: expand-teams-across-your-org/assignments-in-teams.md
+              - name: 在 Teams 中设置父连接
+                href: edu-parents-app.md
+              - name: 职业指导
+                items:
+                  - name: 职业指导入门
+                    href: career-coach.md
+                  - name: 设置和配置职业指导
+                    href: career-coach-set-up-steps.md
+                  - name: 职业指导疑难解答
+                    href: career-coach-troubleshoot.md
+                  - name: 职业指导资源
+                    href: career-coach-resources.md
+          - name: LMS 和 LTI 集成
+            items:
+              - name: 安装 Moodle LMS 集成
+                href: install-moodle-integration.md
+          - name: 了解具有教育版 Insights的学生
             items:
               - name: 见解入门
                 href: class-insights.md
@@ -1624,23 +1647,11 @@ items:
                 href: education-insights-sis-data-sync.md
               - name: 管理对 Insights 的用户访问
                 href: education-insights-manage-access.md
-              - name: 开始使用 Reflect
+              - name: 设置“反映”以获得情感见解
                 href: reflect.md
               - name: 了解有关阅读进度的见解
                 href: insights-for-reading-progress.md
-          - name: Teams 教育版中的分配
-            href: expand-teams-across-your-org/assignments-in-teams.md
-          - name: 面向教育版管理员的 Teams 资源
-            href: resources-teams-edu.md
-          - name: 面向管理员的 Microsoft 教育版管理常见问题解答
-            href: plan-teams-governance-edu.md
-          - name: 安装 Moodle 集成
-            href: install-moodle-integration.md
-          - name: Teams 许可教育版
-            href: teams-edu-licensing.md
-          - name: 教育 SKU 参考
-            href: sku-reference-edu.md
-          - name: 适用于教育版的 Teams 设备
+          - name: 查找用于教育的 Teams 设备
             href: devices-for-education.md
       - name: 适合一线员工的 Teams
         items:
@@ -1720,13 +1731,13 @@ items:
             href: get-started-with-teams-essentials.md
           - name: 将 Teams Essentials（AAD 标识）连接到电子邮件
             href: connect-teams-essentials-to-email.md
-      - name: 从 Kaizala 升级
+      - name: 从 Kaizala 移动
         items:
           - name: 入门
             href: get-started-kaizala-teams.md
-          - name: 准备升级
+          - name: 准备移动
             href: prepare-for-teams-kaizala.md
-          - name: 规划你的升级之旅
+          - name: 计划迁移到 Kaizala
             href: plan-your-move-kaizala.md
           - name: 导航 Microsoft Teams
             href: navigate-teams.md

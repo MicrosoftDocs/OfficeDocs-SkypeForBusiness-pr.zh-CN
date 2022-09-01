@@ -1,26 +1,26 @@
 ### YamlMime:Hub
 title: Skype for Business
-summary: Skype for Business 技术文档
+summary: Skype for Business技术文档
 brand: m365
 metadata:
   title: Skype for Business
-  description: Skype for Business 技术文档
+  description: Skype for Business技术文档
   ms.service: skype-for-business-online
   ms.topic: hub-page
   audience: ITPro
   author: samanro
   ms.author: samanro
   ms.date: 07/03/2019
-  localization_priority: Priority
-  ms.openlocfilehash: 4fddbad88364a26bee8c8217175080b80380ed60
-  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-  ms.translationtype: HT
+  ms.localizationpriority: high
+  ms.openlocfilehash: 35f0728c28765ccfeaffd2b2716280b9d20dfbb3
+  ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+  ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 03/23/2021
-  ms.locfileid: "51119031"
+  ms.lasthandoff: 08/26/2021
+  ms.locfileid: "58592986"
 additionalContent:
   sections:
-  - title: 面向 IT 专业人员
+  - title: 对于 IT 专业人员
     items:
     - title: Skype for Business Online
       summary: 在 Office 365 环境中查找用于管理 Skype for Business Online 的资源。
@@ -47,12 +47,12 @@ additionalContent:
       summary: 了解经认证的解决方案和设备。
       url: ../SfbPartnerCertification/certification/overview.md
     - title: 疑难解答
-      summary: 查找面向 IT 专业人员和管理员的疑难解答和支持资源。
+      summary: 查找 IT 专业人员和管理员的故障排除和支持资源。
       url: /office/troubleshoot
-  - title: 面向其他受众
+  - title: 对于其他受众
     items:
-    - title: 开发者
-      summary: 关于为 Skype for Business 开发解决方案的指南。
+    - title: 开发 人员
+      summary: 有关开发Skype for Business解决方案的指南。
       url: /skype-sdk/
     - title: 最终用户
       summary: 在 support.office.com 上查找 Skype for Business 用户的帮助、培训和技术支持。
