@@ -13,12 +13,12 @@ ms.collection:
 description: 了解 Teams PowerShell 中的最新更改。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0fc979e9c4c6aa12fb4538210ad5c5264ad49aa6
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: c83627143718f003675d8fbe1992dace9c864b5a
+ms.sourcegitcommit: 479e236aa8a9a91df4894ed3cce4c287a1354d80
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396673"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "67572052"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams PowerShell 发行说明
 
@@ -31,6 +31,7 @@ ms.locfileid: "67396673"
 
 | 日期 | 版本 | 汇报 |
 |------- | -------------------- | ------------------------------ |
+| 2022 年 9 月 | [4.7.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.7.0) |<li>修复了在 PS ISE 和 dotnet 应用程序上使用模块时进程清理的问题。</li><li>在 GA 中发布 [Get\|New]-CsBatchTeamsDeployment cmdlet。</li><li>发布 [New\|Set]-CSTeamsShiftsConnectionInstance，Test-CsTeamsShiftsConnectionValidate对 UKG 维度的支持。</li><li>修复了在 Connect-MicrosoftTeams 中使用 AccountId 参数在多个帐户之间进行选择时无法提取令牌的问题。</li><li>对于New-CsCallQueue cmdlet，会议模式&状态模式属性的默认值从 false 更改为 true。</li>
 | 2022 年 8 月 | [4.6.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.6.1-preview) |<li>修复了在 PS ISE 和 dotnet 应用程序上使用模块时进程清理的问题。</li>
 | 2022 年 7 月 | [4.6.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.6.0) |<li>为 Get-CsOnlineUser cmdlet 发布 AccountType 参数，该参数允许查询特定类型的用户。</li><li>AccountType 属性在指示用户类型的Get-CsOnlineUser输出中添加。 AccountType 的可能值为：“User” (用户帐户) ，“ResourceAccount” (应用终结点或资源帐户) ，“来宾” (来宾帐户) &“未知” (用户类型未知) 。</li><li>修复了 Grant-Cs\<PolicyName\> cmdlet 中排名&组参数的问题。</li><li>版本 [Get Set\|\|New\|Remove\|Grant]-CsTeamsEventsPolicy Cmdlet.</li><li>删除所有已弃用的&不受支持的 cmdlet。 [Teams PowerShell 支持的版本](teams-powershell-supported-versions.md#deprecated-cmdlets)中的详细信息。</li><li>发布 [New\|Get]-CsCloudCallDataConnection cmdlet 的现代化版本。</li><li>版本 [Get Remove\|]-SharedWithTeam cmdlet。</li><li>发布Get-TeamAllChannel cmdlet。</li><li>发布Get-TeamIncomingChannel cmdlet。</li><li>发布Get-AssociatedTeam cmdlet。</li><li>发布Get-SharedWithTeamUser cmdlet。</li><li>支持 Add-TeamChannelUser cmdlet 的 TenantId 可选参数。</li><li>发布Get-TeamTargetingHierarchyStatus & [删除\|Set]-TeamTargetingHierarchy cmdlet。</li>
 | 2022 年 7 月 | [4.5.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.5.1-preview) |<li>为 Get-CsOnlineUser cmdlet 发布 AccountType 参数，该参数允许查询特定类型的用户。</li><li>AccountType 属性在指示用户类型的Get-CsOnlineUser输出中添加。 AccountType 的可能值为：“User” (用户帐户) ，“ResourceAccount” (应用终结点或资源帐户) ，“来宾” (来宾帐户) &“未知” (用户类型未知) 。</li><li>修复了 Grant-Cs\<PolicyName\> cmdlet 中排名&组参数的问题。</li>

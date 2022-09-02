@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5865494b94c280295d13e0f99303bc76d1fc274
-ms.sourcegitcommit: 140c34f20f9cd48d7180ff03fddd60f5d1d3459f
-ms.translationtype: HT
+ms.openlocfilehash: e090c465b46370367d96a782e12f38161465ce33
+ms.sourcegitcommit: 479e236aa8a9a91df4894ed3cce4c287a1354d80
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "65249004"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "67572082"
 ---
 # <a name="use-end-to-end-encryption-for-one-to-one-microsoft-teams-calls"></a>将端到端加密用于一对一 Microsoft Teams 通话
 
@@ -34,6 +34,8 @@ ms.locfileid: "65249004"
 端到端加密（或 E2EE）发生在内容在发送之前进行加密，并且仅由预期收件人解密时。 通过端到端加密，只有两个终结点系统参与到加密和解密通话数据中。 其他任何一方（包括 Microsoft）都无权访问解密的对话。
 
 对于计划外一对一通话的 E2EE，只有一对一 Teams 通话的实时媒体流（即视频和语音数据）会进行端到端加密。 双方必须都启用此设置才能启用端到端加密。 [Microsoft 365 中的加密](/microsoft-365/compliance/encryption)保护通话中的聊天、文件共享、状态和其他内容。
+
+当双方使用适用于 Windows 或 Mac 的最新版本的 Teams 桌面客户端时，可以在双方之间进行端到端加密调用，它们位于具有 iOS 和 Android 最新更新的移动设备上，或者使用最新更新在 Windows 设备上Teams 会议室。
 
 如果未启用端到端加密，Teams 仍可使用基于行业标准的加密来保护通话或会议的安全。 在传输过程中和静态时，在通话期间交换的数据将始终是安全的。 有关详细信息，请参阅 [Teams 的媒体加密](teams-security-guide.md#media-encryption)。
 
