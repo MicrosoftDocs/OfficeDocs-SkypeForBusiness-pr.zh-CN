@@ -1503,6 +1503,8 @@ items:
         href: deploy-apps-microsoft-teams-landing-page.md
       - name: 管理 Microsoft 提供的应用
         items:
+          - name: 管理管理员应用
+            href: manage-admin-app.md
           - name: 管理 Bookings 应用
             href: bookings-app-admin.md
           - name: 管理列表应用
