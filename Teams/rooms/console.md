@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: 本文介绍如何设置和配置Microsoft Teams 会议室控制台及其外围设备。
-ms.openlocfilehash: 2a38154ebca1dfae282722fdb64e76389627ca15
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 40d49597ab3354eeaacc8d7c562917fbf653e727
+ms.sourcegitcommit: 9a9168d5c40bbb0cceaf3ffd11eb104c137f26b3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270107"
+ms.lasthandoff: 09/03/2022
+ms.locfileid: "67590169"
 ---
 # <a name="build-a-microsoft-teams-rooms-image"></a>生成Microsoft Teams 会议室映像
 
@@ -171,7 +171,7 @@ CreateSrsMedia.ps1脚本自动执行以下任务：
 Microsoft Teams 会议室应用应使用上面输入的凭据登录到 Microsoft Teams 或Skype for Business Server，还应开始使用这些相同的凭据将其日历与 Exchange 同步。 有关使用Teams 会议室的详细信息，请参阅[Microsoft Teams 会议室帮助](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)。
   
 > [!IMPORTANT]
-> Microsoft Teams 会议室依赖于已认证的控制台硬件。 即使包含Microsoft Teams 会议室控制台应用的正确创建映像也不会通过初始设置过程启动，除非检测到控制台硬件。 对于基于Surface Pro的解决方案，必须将Surface Pro连接到其随附的码头硬件才能通过此检查。
+> Microsoft Teams 会议室依赖于已认证的控制台硬件。 即使包含Microsoft Teams 会议室控制台应用的正确创建映像也不会通过初始设置过程启动，除非检测到控制台硬件。 对于基于Surface Pro的解决方案，必须将Surface Pro连接到其随附的码头硬件才能通过此检查。 有关受支持的硬件的详细信息，请[参阅Microsoft Teams 会议室要求](requirements.md)。
   
 > [!NOTE]
 > 如果触摸键盘上不支持符号，某些非英语用户可能需要在初始设置期间连接到控制台的物理键盘。

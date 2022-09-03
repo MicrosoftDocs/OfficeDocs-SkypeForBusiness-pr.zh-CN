@@ -17,12 +17,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: 远程管理Microsoft Teams 会议室设备使用的默认设置，包括应用自定义主题和创建主设置文件。
-ms.openlocfilehash: df9cc718ddcedb9745807dadd70c8e1a78748c6f
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 74ae005ceae3c17d64403990eda067e3d8bd7cfc
+ms.sourcegitcommit: 9a9168d5c40bbb0cceaf3ffd11eb104c137f26b3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67272097"
+ms.lasthandoff: 09/03/2022
+ms.locfileid: "67590159"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>使用 XML 配置文件远程管理Microsoft Teams 会议室控制台设置
 
@@ -52,7 +52,7 @@ ms.locfileid: "67272097"
   <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
   <SfbMeetingEnabled>true</SfbMeetingEnabled>
   <IsTeamsDefaultClient>true</IsTeamsDefaultClient>
-  <WebexMeetingsEnabled>true</WebexMeetingsEnabled>
+  <WebExMeetingsEnabled>true</WebExMeetingsEnabled>
   <ZoomMeetingsEnabled>true</ZoomMeetingsEnabled>
   <UseCustomInfoForThirdPartyMeetings>true</UseCustomInfoForThirdPartyMeetings>
   <CustomDisplayNameForThirdPartyMeetings>guestname</CustomDisplayNameForThirdPartyMeetings>
@@ -106,6 +106,8 @@ ms.locfileid: "67272097"
       <ExtendedFoRDisplayResolution>1920,1080</ExtendedFoRDisplayResolution> 
       <ExtendedFoRDisplayScaling>100</ExtendedFoRDisplayScaling> 
   </ExtendedFoRDisplay>  
+  <EnableDeviceEndToEndEncryption>false</EnableDeviceEndToEndEncryption>
+  <SplitVideoLayoutsDisabled>false</SplitVideoLayoutsDisabled>
 </SkypeSettings>
 ```
 
@@ -169,12 +171,14 @@ ms.locfileid: "67272097"
 | `<Video>`                                   | 布尔&#x2777;            |                | 控制Teams 会议室设备上的视频配置。 此元素具有两个属性：<br><ul><li><b>默认</b> 确定在会议开始时相机将处于活动状态的设备。 为了获得最佳体验，我们建议仅将Teams 会议室设备设置为`true``false`所有其他设备。</li><li><b>启用</b> 确定会议中的参与者是否可以打开或关闭相机。 可以在事件参与者希望共享不同视频透视的任何其他设备上将其设置 `true` 为 (例如参与者使用 Surface Hub 白板) 。 如果不希望参与者在设备上打开或关闭相机，请将其设置为 `false`。<p> 如果 **视频默认** 设置为 `true`“视频”，则忽略 **启用视频** 的设置，参与者可以打开或关闭相机。</li></ul> |
 | `<Whiteboard>`                              | 布尔&#x2777;            |                | 控制Teams 会议室设备上的白板配置。 此元素具有两个属性：<br><ul><li><b>默认</b> 确定会议开始时白板将处于活动状态的设备。 为了获得最佳体验，我们建议将Teams 会议室设备设置为`false`，并在 Surface Hub 上使用白板。</li><li><b>启用</b> 确定会议中的参与者是否可以打开或关闭白板。 如果不希望参与者在设备上打开或关闭白板，请将其设置为 `false`。<p> 如果 **将 Whiteboard 默认** 设置为 `true`，则将忽略 **启用 Whiteboard** 的设置，并且参与者可以打开或关闭白板。</li></ul>                                                                                                                                                   |
 | `<EnableResolutionAndScalingSetting>` | 布尔&#x2777; | 第一&#x2776; | 默认情况下，它将被禁用。 如果要更改会议室前面的分辨率和缩放，请将其设置为 true。 如果为 true，则将应用显示分辨率和缩放设置。 启用此设置后，此设置将影响 Main FoR 和扩展 FoR。 |
-| `<MainFoRDisplay>` | 容器 | | 如果设备使用单一显示模式，请使用此容器。<br><br>在双显示模式下，会议室主前 (FoR) 是一个屏幕，其中时钟 (会议) 和会议) 中的自预览视频 (。 `<MainFoRDisplayResolution>` 并且 `<MainFoRDisplayScaling>` 必须一次一起设置。 如果只使用任一 `<MainFoRDisplayResolution>` 或 `<MainFoRDisplayScaling>`，则会忽略它。 |
+| `<MainFoRDisplay>` | 容器 |第一&#x2776; | 如果设备使用单一显示模式，请使用此容器。<br><br>在双显示模式下，会议室主前 (FoR) 是一个屏幕，其中时钟 (会议) 和会议) 中的自预览视频 (。 `<MainFoRDisplayResolution>` 并且 `<MainFoRDisplayScaling>` 必须一次一起设置。 如果只使用任一 `<MainFoRDisplayResolution>` 或 `<MainFoRDisplayScaling>`，则会忽略它。 |
 | `<MainFoRDisplayResolution>` | String | | Width、Height (的输入数值，例如 1920，1080) 。 如果 FoR 不支持它，则会忽略它。|
 | `<MainFoRDisplayScaling>` | 数字 | | 缩放的输入数值。 有效值为 100 (建议) 、125、150、175、200、225、250、300、350、400、450 和 500。 如果输入 500 且 FoR 最多支持 300，则会将其设置为 300。|
-| `<ExtendedFoRDisplay>` | 容器 | | 在双显示模式下，会议室 (FoR) 扩展前部是一个屏幕，可在会议) 中看到共享内容 (。  `<ExtendedFoRDisplayResolution>` 并且 `<ExtendedFoRDisplayScaling>` 必须一次一起设置。 如果只使用任一 `<ExtendedFoRDisplayResolution>` 或 `<ExtendedFoRDisplayScaling>`，则会忽略它。 |
+| `<ExtendedFoRDisplay>` | 容器 |第一&#x2776;| 在双显示模式下，会议室 (FoR) 扩展前部是一个屏幕，可在会议) 中看到共享内容 (。  `<ExtendedFoRDisplayResolution>` 并且 `<ExtendedFoRDisplayScaling>` 必须一次一起设置。 如果只使用任一 `<ExtendedFoRDisplayResolution>` 或 `<ExtendedFoRDisplayScaling>`，则会忽略它。 |
 | `<ExtendedFoRDisplayResolution>` | String | |Width、Height (的输入数值，例如：1920，1080) 。 如果 FoR 不支持值，则将忽略该值。 |
 | `<ExtendedFoRDisplayScaling>` | 数字 | | 缩放的输入数值。 有效值为 100 (建议) 、125、150、175、200、225、250、300、350、400、450 和 500。 如果输入 500 且 FoR 最多支持 300，则会将其设置为 300。 |
+| `<EnableDeviceEndToEndEncryption>` | 布尔&#x2777; | | 默认值为 `false`. 指定 `true` 为一对一 Teams 调用启用端到端加密。 调用方和收件人都需要启用端到端加密才能正常工作。 |
+| `<SplitVideoLayoutsDisabled>` |  布尔&#x2777; | | 默认值为 `false`. 此设置仅适用于双显示室。 指定 `true` 在两个屏幕上禁用拆分视频库。 这还会禁用前行布局以及与前行布局关联的任何设置。 |
 
 &#x2776;所有一级元素都是可选的。 如果省略第一级元素，则其所有子参数在设备上保持不变。
   

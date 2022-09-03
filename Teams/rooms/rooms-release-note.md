@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: 管理员可以阅读Microsoft Teams 会议室的发行说明，其中列出了Microsoft Teams 会议室的累积改进。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9460694aec7a6b7f7c7f1648d8f9512ded4c01f7
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: d6cb8e8e01490f4c150ab77c1f4e6d896e6a2bce
+ms.sourcegitcommit: 9a9168d5c40bbb0cceaf3ffd11eb104c137f26b3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270077"
+ms.lasthandoff: 09/03/2022
+ms.locfileid: "67590179"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Microsoft Teams 会议室发行说明
 
@@ -40,6 +40,7 @@ Teams 会议室受现代生命周期策略的约束。 有关详细信息，请�
 
 |释放 |发布到 <br/> Microsoft Store |
 |--- |--- |
+|4.14.24.0 |9/2/2022 |
 |4.13.132.0 |8/2/2022 |
 |4.12.139.0 |7/14/2022 |
 |4.12.138.0 |5/26/2022 |
@@ -94,6 +95,19 @@ Teams 会议室受现代生命周期策略的约束。 有关详细信息，请�
 |RTM (1.0.8)  |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft Teams 会议室功能简介和问题解决
+
+### <a name="414240-922022"></a>4.14.24.0 (2022/9/2) 
+
+在此更新中引入：
+
+- 前行布局体验更新 <sup>1</sup> 
+- 固定和隐藏会议室视频 <sup>1</sup> 
+- 在双显示Teams 会议室 <sup>1</sup> 中关闭拆分库的管理员配置
+- 双显示Teams 会议室现在最多可以显示 18 个参与者视频流 <sup>2</sup>
+
+<sup>1</sup> 通过 XML 关闭拆分库的管理员配置，可在[使用 XML 配置文件远程管理Microsoft Teams 会议室控制台设置](../rooms/xml-config-file.md)中找到。
+
+<sup>2</sup> 此功能将推出到 Teams Web 客户端，大约需要两周时间才能完成。 有关详细信息，请参阅 [Teams 更新](../teams-client-update.md)。
 
 ### <a name="4131320-822022"></a>4.13.132.0 (2022/8/2) 
 

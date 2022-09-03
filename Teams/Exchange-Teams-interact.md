@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c94b1c7f33de136eea33ec7905e1e37a9ceb0e2
-ms.sourcegitcommit: 8d7a926758971bee491d24f23b1ad14f5e5c6f7f
+ms.openlocfilehash: 6b3251160c0ce44b02fffe4ff50c078a529c5d00
+ms.sourcegitcommit: 9a9168d5c40bbb0cceaf3ffd11eb104c137f26b3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/11/2022
-ms.locfileid: "66713360"
+ms.lasthandoff: 09/03/2022
+ms.locfileid: "67590199"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 与 Microsoft Teams 如何交互
 
@@ -86,7 +86,7 @@ Microsoft Teams 可与许多 Microsoft 365 和 Office 365 服务协同工作，�
 - 必须为用户启用 Microsoft 365 组创建，用户才能在 Microsoft Teams 中创建团队。
 
   > [!IMPORTANT]
-  > 如果在将用户移动到“**仅 Teams**”模式后卸载 Skype for Business 客户端，则在 Outlook 和其他 Office 应用中，状态可能会停止工作。 状态在 Teams 中显示良好。 若要解决此问题，请选择 Microsoft Teams 右上角的个人资料图片，然后选择“**设置**”。 在“**应用程序**”下的“**常规**”选项卡上，选择“**将 Teams 注册为 Office 的聊天应用（需要重新启动 Office 应用程序）**”。 选择此选项后，请关闭并重新打开所有 Office 应用，包括 Outlook。 打开 Outlook 后，状态信息将可用。
+  > 如果在将用户移动到“**仅 Teams**”模式后卸载 Skype for Business 客户端，则在 Outlook 和其他 Office 应用中，状态可能会停止工作。 状态在 Teams 中显示良好。 若要解决此问题，请选择 Microsoft Teams 右上角个人资料图片左侧的省略号按钮，然后选择 **“设置**”。 在“**应用程序**”下的“**常规**”选项卡上，选择“**将 Teams 注册为 Office 的聊天应用（需要重新启动 Office 应用程序）**”。 选择此选项后，请关闭并重新打开所有 Office 应用，包括 Outlook。 打开 Outlook 后，状态信息将可用。
 
 ## <a name="requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises"></a>为本地托管的邮箱创建和查看会议的要求
 
