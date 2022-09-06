@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: 本文概述了 Microsoft Teams 面板支持的功能。
-ms.openlocfilehash: 745e592e1c8451a47038c33a9f30d29a7a99d63c
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: d31ac86be9ac00b7aa8a77e37a906b32a00a2095
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268557"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606731"
 ---
 # <a name="microsoft-teams-panels"></a>Microsoft Teams 面板
 
@@ -54,7 +54,7 @@ Teams 面板支持以下功能：
 
 ## <a name="license-requirement"></a>许可证要求
 
-若要使用 Teams 面板，需要[Microsoft Teams 会议室标准版许可证](../rooms/rooms-licensing.md)。
+若要使用 Teams 面板，需要[Microsoft Teams 会议室许可证](../rooms/rooms-licensing.md)。
 
 > [!Note]
 > 如果已在安装 Teams 面板的会议空间中部署了Microsoft Teams 会议室，则无需额外的许可证即可使用 Teams 面板。
@@ -103,11 +103,12 @@ Teams 面板支持以下功能：
 
 每个 Teams 面板设备都需要 Microsoft 365 会议室资源帐户。 使用资源帐户凭据登录到面板设备上的 Microsoft Teams 应用。
 
-若要为 Teams 面板设置 Microsoft 365 资源帐户，建议购买[Microsoft Teams 会议室标准版许可证](#license-requirement)。 有关如何创建资源帐户并向其分配许可证的信息，请参阅 [为会议室和共享 Teams 设备创建资源帐户](../rooms/with-office-365.md)。
+若要为 Teams 面板设置 Microsoft 365 资源帐户，需要购买[Microsoft Teams 会议室许可证](#license-requirement)。
+有关如何创建资源帐户并向其分配许可证的信息，请参阅 [为会议室和共享 Teams 设备创建资源帐户](../rooms/with-office-365.md)。
 
 > [!NOTE]
 >
->- 如果已经为要安装面板的会议空间设置了会议室资源帐户，请使用相同的会议室资源帐户登录到面板设备。 但是，请确保会议室资源帐户分配了Microsoft Teams 会议室标准版许可证，以便将其用作面板资源帐户。
+>- 如果已经为要安装面板的会议空间设置了会议室资源帐户，请使用相同的会议室资源帐户登录到面板设备。 但是，请确保会议室资源帐户具有分配给它的Microsoft Teams 会议室许可证，以便将其用作面板资源帐户。
 >
 >- 如果已在安装 Teams 面板的会议空间中部署了Microsoft Teams 会议室，则无需购买用于部署面板的单独许可证。 管理员使用与同一空间的Microsoft Teams 会议室相同的凭据登录到面板设备。
 >

@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Devices
 description: 了解如何在 Teams Android 设备上设置用户界面。
-ms.openlocfilehash: 859c1d9d0f7a946f37b53ad81dc2a0637bb26621
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 830609d1bf02c38a2301c0d5a1b9e62ac836c908
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269317"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606831"
 ---
 # <a name="set-microsoft-teams-android-devices-user-interface"></a>设置 Microsoft Teams Android 设备用户界面
 
@@ -49,7 +49,7 @@ Teams Android 设备上有三种类型的用户界面：
 
 ## <a name="meeting-interface"></a>会议接口
 
-此图显示了分配了[Microsoft Teams 会议室标准版许可证的](/MicrosoftTeams/rooms/rooms-licensing)用户帐户。 Teams 会议室许可证用于会议室或共享空间，因此用户界面会更改，以便通过显示日历视图轻松加入会议：
+此图显示了分配了[Microsoft Teams 会议室许可证的](/MicrosoftTeams/rooms/rooms-licensing)用户帐户。 Teams 会议室许可证用于会议室或共享空间，因此用户界面会更改，以便通过显示日历视图轻松加入会议：
 
 :::image type="content" source="../media/teams-android-devices-meeting.jpg" alt-text="会议接口。":::
 
@@ -61,7 +61,7 @@ Teams Android 设备上有三种类型的用户界面：
 
 ## <a name="override-automatic-user-interface-detection"></a>替代自动用户界面检测
 
-在某些情况下，可以选择将许可证分配给与预期用途不匹配的帐户。 例如，可以将用户许可证分配给要在 Android 上登录到Teams 会议室的帐户。 默认情况下，你会看到最终用户界面，而不是会议室接口。 若要重写默认接口，请创建新的 [Teams IP Phone 策略](/powershell/module/skype/new-csteamsipphonepolicy?view=skype-ps) 并将其应用到该帐户。
+在某些情况下，可以选择将许可证分配给与预期用途不匹配的帐户。 例如，可以将用户许可证分配给要在 Android 上登录到Teams 会议室的帐户。 默认情况下，你会看到最终用户界面，而不是会议室接口。 若要重写默认接口，请创建新的 [Teams IP Phone 策略](/powershell/module/skype/new-csteamsipphonepolicy) 并将其应用到该帐户。
 
 > [!NOTE]
 > 分配给用户帐户的许可证必须至少具有与所需用户界面相同的许可证权利。 Common Area Phone 许可证仅允许通用区域电话用户界面。 会议室许可证允许会议室和公共区域电话用户界面。 E3 或 E5 许可证支持所有登录模式。

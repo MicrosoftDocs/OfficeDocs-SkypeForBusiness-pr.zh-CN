@@ -16,23 +16,32 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 本文介绍如何更新 Microsoft Teams 中的 Microsoft 应用、自定义应用和第三方应用，以及管理员如何为其提供便利。
-ms.openlocfilehash: ed91ad441b773833838796d9ea8c71038c842b88
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: b947e8b77bc167ccbdfb6a90bfa7c4ab96476efc
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67299041"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606091"
 ---
-# <a name="update-apps-in-microsoft-teams"></a>在 Microsoft Teams 中更新应用
+# <a name="teams-app-updates-and-admin-role"></a>Teams 应用更新和管理角色
 
-大多数情况下，当 Teams 应用商店中有新版本的应用可用时，系统会自动为用户更新该应用。 但是，新应用版本中的一些特定更改需要用户接受才能更新应用。 用户接受可确保了解功能或访问权限等更改。 如果应用开发人员对 Microsoft Teams 应用进行了以下特定更改，则最终用户必须批准应用更新：
+Teams 管理员可以帮助最终用户获取最新版本的应用。 为此，他们完成以下一项或两项任务：
 
-* 添加了机器人。
-* 现有机器人的 `botId` 属性或 `isNotificationOnly` 属性已更改。
-* 为机器人添加了 `SupportsCalling`、`SupportsVideo` 和 `SupportsFiles` 功能。
-* 添加了消息传递扩展。
-* 添加或更改了授权中的权限。
-* `Id` 或 `ApplicationPermissionsHash` 或两者都在 `webApplicationInfo` 内进行了更改。
+* 当应用开发人员或供应商提供新版本时，更新 Teams 应用商店中可用的第[三方应用](#updates-to-third-party-apps)。
+* 更新仅在开发人员提交新版本时在组织中可用的[自定义应用](#updates-to-custom-apps)。
+
+## <a name="updates-to-third-party-apps"></a>汇报到第三方应用
+
+用户若要安装和使用应用，必须向应用授予访问所需服务和信息的权限。 在大多数情况下，当 Teams 应用商店中提供了已安装应用的新版本时，系统会自动为所有用户更新该应用。 但是，新版本应用中的一些特定更改需要再次获得用户权限。 此重复用户接受可确保了解更改，例如功能或访问个人信息。 Teams 管理员可以 [代表用户向应用提供权限](app-permissions-admin-center.md)。
+
+如果应用开发人员对其应用进行了以下一项或多项更改，则最终用户必须批准应用的更新。
+
+* 添加或删除机器人。 使用属性更改机器人的 `botId` ID。
+* `isNotificationOnly`更改可能更改机器人通知的现有机器人的属性。
+* `SupportsVideo`更改`SupportsCalling`现有机器人的属性，`SupportsFiles`以添加调用、播放视频以及上传或下载文件的功能。
+* 在授权中添加或删除权限。
+* 添加或删除消息传递扩展、添加组选项卡、添加连接器或添加通道。
+* 更改清单文件中的 [`webApplicationInfo`](/microsoftteams/platform/resources/schema/manifest-schema#webapplicationinfo) 参数。
 
 <!--- image update
 :::image type="content" source="media/manage-your-custom-apps-update1.png" alt-text="New version available." lightbox="media/manage-your-custom-apps-update1.png":::
@@ -40,6 +49,11 @@ ms.locfileid: "67299041"
 :::image type="content" source="media/manage-your-custom-apps-update2.png" alt-text="Upgrade option for an app." lightbox="media/manage-your-custom-apps-update2.png":::
 --->
 
-## <a name="related-articles"></a>相关文章
+## <a name="updates-to-custom-apps"></a>汇报自定义应用
+
+在组织内创建和部署的自定义应用可供租户或组织上的用户使用。 Teams 管理员将自定义应用更新到组织内开发人员提供的新版本。 有关详细信息，请参阅 [管理员如何管理自定义应用](custom-app-overview.md)。
+
+## <a name="related-article"></a>相关文章
 
 * [了解应用中完成的更新的清单架构](/microsoftteams/platform/resources/schema/manifest-schema)。
+* [了解自定义应用管理](custom-app-overview.md)。

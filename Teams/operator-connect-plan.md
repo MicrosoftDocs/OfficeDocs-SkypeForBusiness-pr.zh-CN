@@ -1,5 +1,5 @@
 ---
-title: 运算符连接
+title: 规划运算符连接
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -21,18 +21,28 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 745587281c5566b1ba4fe0d1ea06a44d40c8a7f2
-ms.sourcegitcommit: 5a8a077b30a0eab2342afc422869adaa682a015b
+ms.openlocfilehash: 4e3d86bf4607b723f92958d34d9530764ab80daf
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/20/2022
-ms.locfileid: "66915180"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606441"
 ---
 # <a name="plan-for-operator-connect"></a>规划运算符连接
 
 运算符连接是提供公共交换电话网络 (PSTN) 与 Teams 和电话系统的连接的另一个选项。 有关 Teams 语音解决方案和 PSTN 连接选项的详细信息，请参阅 [规划 Teams 语音解决方案](cloud-voice-landing-page.md) 和 [PSTN 连接选项](pstn-connectivity.md)。
 
-本文介绍权益和要求，并提供指向参与 Microsoft Operator Connect 计划的操作员的链接。  如果确定操作员连接是组织正确的解决方案，请参阅本文后，请参阅 [“配置运算符连接](operator-connect-configure.md)”。  
+本文介绍权益和要求，并提供指向参与 Microsoft Operator Connect 计划的操作员的链接。  
+
+如果以下情况，则操作员连接可能是组织的正确解决方案：
+
+- Microsoft 通话套餐在地理位置不可用。
+
+- 首选运算符是 Microsoft 运算符连接计划的参与者。
+
+- 你希望找到一个新的运算符，以在 Teams 中启用呼叫。
+
+如果确定操作员连接是组织正确的解决方案，请参阅本文后，请参阅 [“配置运算符连接](operator-connect-configure.md)”。  
 
 ## <a name="benefits"></a>优点
 
@@ -48,11 +58,7 @@ ms.locfileid: "66915180"
 
 ## <a name="requirements"></a>要求
 
- 如果以下情况，则操作员连接可能是组织的正确解决方案：
-
-- Microsoft 通话套餐在地理位置不可用。
-- 首选运算符是 Microsoft 运算符连接计划的参与者。
-- 你希望找到一个新的运算符，以在 Teams 中启用呼叫。
+ 
 
 若要使用 Operator Connect 启用电话号码分配，请确保用户为：
 

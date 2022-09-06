@@ -18,12 +18,12 @@ f1.keywords:
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7e7ba6b94466874a1e1ab07496ece0d3c4f34dfb
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 5dcab13a6ee0c54e9fc88901c2fe022f35309e88
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269347"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606851"
 ---
 # <a name="teams-devices-for-education"></a>适用于教育的 Teams 设备
 
@@ -62,19 +62,19 @@ Teams 会议室通过提供独特的室内功能（如单触式联接、以智�
 
 **专为 Teams 构建**：
 
-高级音频、视频和共享
+高级音频、视频和共享。
 
 **适用于任何房间的扩展设备组合**：
 
-在 Android 或 Windows 操作系统中从完全模块化或集成的外形因素中进行选择
+在 Android 或 Windows 操作系统中从完全模块化或集成的外形系数中进行选择。
 
 **重新构想的房间体验**：
 
-无摩擦加入 Teams 会议，为学生和教育工作者参与包容性的协作会议
+无摩擦加入 Teams 会议，为学生和教师参与包容性的协作会议。
 
 **从一个位置轻松管理**：
 
-完全管理和使设备保持最新状态，并准备好进入 Teams 管理员中心，并使用 Microsoft Teams 会议室高级版 从 Microsoft 启用 24x7 主动管理
+完全管理和使设备保持最新状态，并准备好进入 Teams 管理员中心，并使用 Microsoft Teams 会议室 Pro 从 Microsoft 启用 24x7 主动管理。
 
 ## <a name="space-considerations"></a>空间注意事项
 

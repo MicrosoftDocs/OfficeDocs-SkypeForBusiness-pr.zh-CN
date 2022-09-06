@@ -16,16 +16,18 @@ ms.collection:
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: 本文讨论如何使用 Azure Monitor 以集成的端到端方式部署对Microsoft Teams 会议室的监视。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2b6d1931b0a1818b5146f6ac0e02c225fea3af52
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 5dbea45008024762f30d9555f4762c4377d2ed1f
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267447"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606411"
 ---
 # <a name="deploy-no-loc-textmicrosoft-teams-rooms-monitoring-with-no-loc-textazure-monitor"></a>使用 a0/a0 :::no-loc text="Microsoft Teams Rooms"::::::no-loc text="Azure Monitor":::
 
 本文讨论如何使用:::no-loc text="Azure Monitor":::设备设置和部署集成的端到端监视:::no-loc text="Microsoft Teams Rooms":::。
+
+[!INCLUDE [teams-pro-license-requirement](../includes/teams-pro-license-requirement.md)]
 
 你可以在内部:::no-loc text="Azure Monitor":::进行:::no-loc text="Log Analytics":::配置，以提供可帮助你管理:::no-loc text="Microsoft Teams Rooms":::的基本遥测和警报。 随着管理解决方案的成熟，你可能会决定部署其他数据和管理功能，以创建更详细的设备可用性和性能视图。
 
@@ -180,7 +182,7 @@ ms.locfileid: "67267447"
 5.  定义 **第二个磁贴**：<br>
     **传说：** 在过去一小时内发送检测信号的活动设备<br>
     **查询：** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(1h) | summarize TotalSRSDevices = dcount(Computer)```
-6.  选择 **“应用**”。
+6.  选择“**应用**”。
 
 ### <a name="create-a-tile-that-displays-active-devices"></a>创建显示活动设备的磁贴
 

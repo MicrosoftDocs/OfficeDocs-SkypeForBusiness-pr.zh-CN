@@ -23,20 +23,20 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.quantity
 - seo-marvel-mar2020
 description: 了解可以根据号码类型和许可证数量在 Microsoft Teams 中获取多少个电话号码。
-ms.openlocfilehash: 053a1772ed14b09c1bed159973f50bc47125c58e
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 629fed74d1c9f049ec28292e63f6fdb53fdc1c44
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156770"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606571"
 ---
 # <a name="how-many-telephone-numbers-can-you-get"></a>你能得到多少个电话号码？
 
 当你为组织查找和获取 Microsoft 提供的电话号码时，可以获得比分配的许可证更多的电话号码。 但这取决于你购买和分配的电话号码类型和许可证类型。
 
-获取和管理电话号码的方式因 PSTN 连接选项而异：Microsoft 呼叫计划、运营商连接或直接路由。 有关详细信息，请参阅 [管理组织的电话号码](manage-phone-numbers-landing-page.md)。
+获取和管理电话号码的方式因 PSTN 连接选项而异：Microsoft 呼叫计划、运营商连接、运营商连接移动 (公共预览版) 或直接路由。 有关详细信息，请参阅 [管理组织的电话号码](manage-phone-numbers-landing-page.md)。
 
-下表适用于 Microsoft 呼叫计划、 [音频会议](deploy-audio-conferencing-teams-landing-page.md)和语音应用，例如 [呼叫队列和自动助理](plan-auto-attendant-call-queue.md)。 有关运算符连接和直接路由的信息，请联系服务提供商。
+下表适用于 Microsoft 呼叫计划、 [音频会议](deploy-audio-conferencing-teams-landing-page.md)和语音应用，例如 [呼叫队列和自动助理](plan-auto-attendant-call-queue.md)。 有关运算符连接、运营商连接移动或直接路由的信息，请联系服务提供商。
 
 可以在 Microsoft Teams 管理中心中查看在搜索和获取过程中可从 Microsoft 获取的电话号码数量 (**获取电话号码**) 。
 

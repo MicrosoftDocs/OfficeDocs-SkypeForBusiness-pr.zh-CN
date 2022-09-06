@@ -27,12 +27,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: 了解如何为组织获取和管理用户 (订阅者) 和服务 (收费和免费) 电话号码。
-ms.openlocfilehash: 15caaa7b5d21ae86d0b0079aeb743690294fd85b
-ms.sourcegitcommit: 3f6ae7946b64e857f6358019be2f0fdf19a207ad
+ms.openlocfilehash: 613a3f5f287615c6e18024d1afba1d94d0fea67c
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/29/2022
-ms.locfileid: "67074670"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606741"
 ---
 # <a name="manage-telephone-numbers-for-your-organization"></a>管理组织的电话号码
 
@@ -54,7 +54,11 @@ Microsoft 正在努力简化数字类型，但目前需要决定：
 
 - 有关为 Operator Connect 管理电话号码的信息，请参阅 [使用 Operator Connect 设置电话号码](operator-connect-configure.md#set-up-phone-numbers)。
 
+- 有关管理运营商连接移动 (公共预览版) 电话号码的信息，请参阅[使用运营商连接移动设置电话号码](operator-connect-mobile-configure.md#set-up-phone-numbers)。
+
 - 有关管理直接路由的电话号码的信息，请参阅 [配置电话号码并启用企业语音](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice)。
+
+
 
 
 > [!NOTE]
@@ -102,7 +106,7 @@ Microsoft 提供的两种服务电话号码（收费和免费）可分配给音�
 
 通过 (Azure AD Connect) 的目录同步过程自动将此参数同步到 Microsoft 365 中的用户或资源帐户后，可以通过查看 [Get-CsOnlineUser](/powershell/module/skype/get-csonlineuser) cmdlet 输出中的 OnPremLineURi 参数来查看电话号码。
 
-| 哪里 | 参数 | 值 |
+| Where | 参数 | 值 |
 | :------------| :-------| :---------|
 | 本地 AD | msRTCSIP-Line | tel：+14255551234 |
 | Microsoft 365 | OnPremLineURi | tel：+14255551234 |

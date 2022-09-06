@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 了解 Microsoft Teams 的加载项许可证以及每个许可证的功能。
-ms.openlocfilehash: b4c416720a618cff106552126e0f7e1aaa87b1bc
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 84ea719c5038251efa9ddb767b3bf15a5aa40b00
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156800"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606081"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Microsoft Teams 加载项许可证
 
@@ -45,7 +45,7 @@ ms.locfileid: "67156800"
 |**Microsoft Teams 通话套餐** <br/> |如果希望用户能够在组织外部拨打电话号码，可以购买[Microsoft Teams 通话套餐](../calling-plans-for-office-365.md)以 Microsoft 作为 PSTN 提供商连接到 PSTN 电话号码。 有国内通话套餐、国际通话套餐和即用即付呼叫计划。 <br/> <br/> 若要了解 Teams 通话套餐是否在您的国家或地区可用，请参阅 [音频会议和通话套餐的国家/地区可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。 |
 |**通信额度** | 通信信用额度提供每月分钟数池，如果所有通话套餐分钟数在下月初之前使用，也可以用于 PSTN 电话呼叫。 如果想要音频会议、自动助理或呼叫队列的免费号码，则需要 [设置通信额度](../set-up-communications-credits-for-your-organization.md)。 <br/> |
 |**音频会议** <br/> |有时，组织中的人员需要使用电话来呼叫 Teams 会议，而不是他们的计算机。 为与需要使用电话呼叫的与会者安排或主持会议的用户[设置音频会议](../set-up-audio-conferencing-in-teams.md)。 <br/> <br/>要了解你所在国家或地区是否提供视频会议，请参阅 [音频会议和通话套餐的国家/地区可用情况](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。 有关定价信息，请参阅[音频会议定价](https://go.microsoft.com/fwlink/?linkid=799762)。  <br/> <br/>组织现在可以将第三方运算符用于其音频会议号码。 有关详细信息，请参阅[计划运营商连接会议](../operator-connect-conferencing-plan.md)。 <br/>|
-|**Microsoft Teams 会议室** <br/> | Microsoft Teams 会议室是一种额外的 Microsoft Teams 产品，可将视频、音频和内容共享引入会议室。 组织可以为这些功能购买Microsoft Teams 会议室独立许可证。 有关详细信息，请参阅 [Teams 会议室许可](../rooms/rooms-licensing.md)。 <br/>|
+|**Microsoft Teams 会议室** <br/> | Microsoft Teams 会议室是一种额外的 Microsoft Teams 产品，可将视频、音频和内容共享引入会议室。 <br/> <br/>Teams 会议室基本版是最多 25 个会议室的免费许可证，可为所有Teams 会议室设备提供核心会议和管理功能。 <br/> <br/>Teams 会议室 Pro 提供增强的会议体验和高级管理和安全性，帮助你大规模运行设备并启用包容性混合会议。 <br/> <br/>有关详细信息，请参阅 [Teams 会议室许可](../rooms/rooms-licensing.md)。 <br/>|
 
 ## <a name="which-microsoft-capabilities-are-available-with-my-plan"></a>我的计划提供了哪些 Microsoft 功能？
 

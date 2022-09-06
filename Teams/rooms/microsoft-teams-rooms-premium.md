@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解Microsoft Teams 会议室托管服务。
 f1keywords: ''
-ms.openlocfilehash: 322e67a0bc6e03db7960e64d2cd5e7a97b930dbc
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 5e59312d3febe2dc6b4178874bae21fc27fe77d2
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269577"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606281"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>Microsoft Teams 会议室托管服务
 
@@ -110,11 +110,11 @@ Microsoft Teams 会议室托管服务建立在 Microsoft 在启用软件的终�
 
 ## <a name="supported-regions"></a>支持的区域
 
-Microsoft Teams 会议室高级版许可证在以下具有音频会议的国家/地区可用：
+Microsoft Teams 会议室 Pro 许可证在以下具有音频会议的国家/地区提供：
 
 - 澳大利亚、奥地利、比利时、巴西、保加利亚、加拿大、克罗地亚、塞浦路斯、捷克共和国、丹麦、爱沙尼亚、芬兰、法国、德国、希腊、香港特别行政区、匈牙利、爱尔兰、意大利、日本、拉脱维亚、立陶宛、卢森堡、马耳他、墨西哥、摩纳哥、荷兰、新西兰、挪威、波兰、葡萄牙、罗马尼亚、俄罗斯、新加坡、斯洛伐克、斯洛文尼亚、南非、西班牙、瑞典、瑞士、台湾、英国、美国。
 
-Microsoft Teams 会议室高级版许可证在以下国家/地区可用，无需音频会议：
+Microsoft Teams 会议室 Pro 许可证在以下国家/地区可用，无需音频会议：
 
 - 安道尔，布维特岛，圣诞岛，可可 (基林) 群岛， 库克群岛、法罗群岛、斐济、直布罗陀、格陵兰岛、赫德岛和麦克唐纳群岛、冰岛、印度、基里巴斯、莱索托、列支敦士登、澳门特区、马绍尔群岛、密克罗尼西亚、瑙鲁、纽埃、诺福克岛、北马里亚纳群岛、帕劳、巴布亚新几内亚、皮特凯恩群岛、圣皮埃尔和米凯隆、萨摩亚、圣马力诺、所罗门群岛、斯威士兰、托克劳、 汤加、图瓦卢、瓦努阿图、梵蒂冈城、瓦利斯和富图纳。
 

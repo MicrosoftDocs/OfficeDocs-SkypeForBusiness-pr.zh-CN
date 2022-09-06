@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: 管理员可以阅读Microsoft Teams 会议室的发行说明，其中列出了Microsoft Teams 会议室的累积改进。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d6cb8e8e01490f4c150ab77c1f4e6d896e6a2bce
-ms.sourcegitcommit: 9a9168d5c40bbb0cceaf3ffd11eb104c137f26b3
+ms.openlocfilehash: 4905c22f974e464ed0079bad572623c83782cfda
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/03/2022
-ms.locfileid: "67590179"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606231"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Microsoft Teams 会议室发行说明
 
@@ -104,10 +104,11 @@ Teams 会议室受现代生命周期策略的约束。 有关详细信息，请�
 - 固定和隐藏会议室视频 <sup>1</sup> 
 - 在双显示Teams 会议室 <sup>1</sup> 中关闭拆分库的管理员配置
 - 双显示Teams 会议室现在最多可以显示 18 个参与者视频流 <sup>2</sup>
+- 支持 Microsoft Teams 会议室 Pro 和 Microsoft Teams 会议室基本会议室许可证 <sup>2</sup>
 
 <sup>1</sup> 通过 XML 关闭拆分库的管理员配置，可在[使用 XML 配置文件远程管理Microsoft Teams 会议室控制台设置](../rooms/xml-config-file.md)中找到。
 
-<sup>2</sup> 此功能将推出到 Teams Web 客户端，大约需要两周时间才能完成。 有关详细信息，请参阅 [Teams 更新](../teams-client-update.md)。
+<sup>2</sup> 此功能将推出到 Teams Web 客户端，从此更新发布完成之日起大约需要两周时间。 有关详细信息，请参阅 [Teams 更新](../teams-client-update.md)。
 
 ### <a name="4131320-822022"></a>4.13.132.0 (2022/8/2) 
 

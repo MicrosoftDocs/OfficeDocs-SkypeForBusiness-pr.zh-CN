@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e9a773e7c8767164480374826a2410050681505a
-ms.sourcegitcommit: 5a8a077b30a0eab2342afc422869adaa682a015b
+ms.openlocfilehash: d7397ade44b1e7ee68c176c51bb1af9880ca0373
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/20/2022
-ms.locfileid: "66915190"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606531"
 ---
 # <a name="configure-operator-connect"></a>配置运算符连接
 
@@ -58,6 +58,20 @@ ms.locfileid: "66915190"
 
 - 如果要将现有号码从直接路由移动到运算符连接，请参阅 [将数字从直接路由移动到运算符连接](#move-numbers-from-direct-routing-to-operator-connect)。
 
+### <a name="assign-numberes-to-emergency-addresses"></a>将号码分配到紧急地址
+
+紧急地址是与数字关联的静态位置。 在 Teams 管理中心创建紧急地址后，分配地址或稍后更改地址的方式将取决于操作员。
+
+若要将号码分配到紧急地址，操作员将实现以下三种方案之一：
+
+- 操作员将紧急地址分配给电话号码，并允许你稍后在 Teams 管理中心更改这些地址。
+
+- 操作员不分配地址，并允许你将紧急地址分配给 Teams 管理中心的电话号码。
+
+- 操作员将紧急地址分配给电话号码，不允许您更改这些地址。 在此方案中，需要与操作员联系，以更改电话号码及其分配的紧急地址。
+
+有关紧急呼叫的详细信息，请参阅 [管理紧急呼叫](what-are-emergency-locations-addresses-and-call-routing.md) 和 [计划并配置动态紧急呼叫](configure-dynamic-emergency-calling.md)。
+
 ### <a name="acquire-numbers-for-new-teams-users"></a>获取新 Teams 用户的数字
 
 若要获取新 Teams 用户的数字，请执行以下步骤：
@@ -72,20 +86,6 @@ ms.locfileid: "66915190"
 
 > [!NOTE]
 > 除了 [为用户获取电话号码](getting-phone-numbers-for-your-users.md)外，还可以为会议桥) 的音频会议 (、自动助理和呼叫队列等服务获取收费或免费电话号码 (也称为服务号码) 。 服务电话号码具有比用户或订阅者电话号码更高的并发呼叫容量。 例如，服务号码可以同时处理数百个呼叫，而用户的电话号码只能同时处理几个呼叫。 若要获取服务号码，请联系你的操作员。
-
-### <a name="emergency-addresses"></a>紧急地址
-
-紧急地址是与数字关联的静态位置。 在 Teams 管理中心创建紧急地址后，分配地址或稍后更改地址的方式将取决于操作员。
-
-若要将号码分配到紧急地址，操作员将实现以下三种方案之一：
-
-- 操作员将紧急地址分配给电话号码，并允许你稍后在 Teams 管理中心更改这些地址。
-
-- 操作员不分配地址，并允许你将紧急地址分配给 Teams 管理中心的电话号码。
-
-- 操作员将紧急地址分配给电话号码，不允许您更改这些地址。 在此方案中，需要与操作员联系，以更改电话号码及其分配的紧急地址。
-
-有关紧急呼叫的详细信息，请参阅 [管理紧急呼叫](what-are-emergency-locations-addresses-and-call-routing.md) 和 [计划并配置动态紧急呼叫](configure-dynamic-emergency-calling.md)。
 
 ### <a name="move-numbers-from-calling-plans-to-operator-connect"></a>将号码从呼叫计划移到运算符连接
 

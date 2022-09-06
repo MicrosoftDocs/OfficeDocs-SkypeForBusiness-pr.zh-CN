@@ -24,12 +24,12 @@ search.appverid: MET150
 description: 详细了解 Microsoft Teams 云语音功能以及你将为组织做出的部署决策。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2b1f4b0756e640d9b93e235b2724ce7841b4f44f
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 40f2a4f56b9d1c174696265300226263eb41a9de
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66240821"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606061"
 ---
 # <a name="plan-your-teams-voice-solution"></a>规划 Teams 语音解决方案
 
@@ -49,6 +49,7 @@ ms.locfileid: "66240821"
 
 - 具有通话套餐的电话系统
 - 具有自己的 PSTN 运营商和 Operator Connect 的电话系统
+- 具有自己的 PSTN 移动运营商的手机系统，运营商连接移动 (公共预览版) 
 - 具有自己的 PSTN 运营商和直接路由的电话系统
 - 将电话系统与呼叫计划、电话系统与操作员连接以及/或电话系统与直接路由配合使用的组合解决方案
 
@@ -150,9 +151,12 @@ ms.locfileid: "66240821"
 
 - [**具有通话套餐的电话系统**](pstn-connectivity.md#phone-system-with-calling-plan)。 以 Microsoft 为 PSTN 运营商的全云解决方案。
 
-- [**使用 Operator Connect 使用自己的 PSTN 运营商的电话系统**](operator-connect-plan.md)。 使用 Operator Connect 时，如果现有操作员参与 Microsoft Operator Connect 计划，则他们可以管理将 PSTN 调用引入 Teams 的服务。 有关运算符连接的优势和要求的信息，请参阅 [Plan Operator Connect](operator-connect-plan.md)。
+- [**使用 Operator Connect 使用自己的 PSTN 运营商的电话系统**](operator-connect-plan.md)。 借助 Operator Connect，如果现有操作员参与 Microsoft Operator Connect 计划，他们可以管理将 PSTN 调用引入 Teams 的服务。 
+
+- 使用运营商连接移动 **公开评审版本**[**，使用自己的 PSTN 移动运营商使用电话系统**](operator-connect-mobile-plan.md)。 使用运营商连接移动，如果你的现有运营商参与 Microsoft 运营商连接移动 计划，则他们可以管理服务，以便将启用 SIM 的移动电话号码与 Teams 配合使用。 
 
 - [**通过使用直接路由**](pstn-connectivity.md#phone-system-with-direct-routing) 将本地环境连接到 Teams，使用自己的 PSTN 运营商的电话系统。
+
 
 可以选择选项的组合，以便为复杂环境设计解决方案，或管理多步骤迁移。 稍后你将阅读有关迁移的详细信息。
 

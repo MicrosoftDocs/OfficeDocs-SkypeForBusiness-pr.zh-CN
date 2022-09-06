@@ -16,12 +16,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: 本文讨论使用 Azure Monitor 监视Skype for Business或 Teams 实现中的Microsoft Teams 会议室的规划注意事项。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ac3ac3af4e4f162238af0e9bf38c45569302fdfb
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 5640fd63ac413403105be7d5f23e413b2f19ebdf
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269567"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606391"
 ---
 # <a name="plan-microsoft-teams-rooms-monitoring-with-azure-monitor"></a>使用 Azure Monitor 规划Microsoft Teams 会议室监视
  
@@ -29,6 +29,8 @@ ms.locfileid: "67269567"
 
 > [!NOTE]
 > 还可以使用 Teams 管理中心[设置Teams 会议室运行状况监视](../alerts/device-health-status.md)。
+
+[!INCLUDE [teams-pro-license-requirement](../includes/teams-pro-license-requirement.md)]
 
 [Azure Monitor](/azure/azure-monitor/overview) 是从一开始就在云中设计的监视服务的集合。 Azure Monitor 组件完全托管在 Azure 中，而不是部署和管理本地资源。 配置最少，可以在几分钟内启动并运行。 通过一些自定义工作，它可以通过为各个会议室系统提供系统运行状况或故障通知来帮助监视Microsoft Teams 会议室，并且它可以扩展到管理数千个Microsoft Teams 会议室。
   

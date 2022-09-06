@@ -867,6 +867,12 @@ items:
                 href: operator-connect-plan.md
               - name: 配置运营商连接
                 href: operator-connect-configure.md
+          - name: 运营商连接移动
+            items:
+              - name: 规划运营商连接移动
+                href: operator-connect-mobile-plan.md
+              - name: 配置运营商连接移动
+                href: operator-connect-mobile-configure.md
           - name: 直接路由
             items:
               - name: 新增功能
@@ -977,6 +983,8 @@ items:
                 href: phone-number-calling-plans/supported-rate-centers-coverage-matrix.md
           - name: 管理运营商连接的电话号码
             href: operator-connect-configure.md#set-up-phone-numbers
+          - name: 管理运营商连接移动的电话号码
+            href: operator-connect-mobile-configure.md#set-up-phone-numbers
           - name: 管理直接路由的电话号码
             href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice
           - name: 许可和电话号码管理
@@ -1321,6 +1329,10 @@ items:
             items:
               - name: Microsoft Teams 会议室规划概述
                 href: rooms/rooms-plan.md
+              - name: Teams 会议室许可概述
+                href: rooms/rooms-licensing.md
+              - name: Teams 会议室管理中心许可
+                href: rooms/admin-center-license-overview.md
               - name: "Windows 和 Android 之间的 Teams 设备功能比较 \_"
                 href: rooms/teams-devices-feature-comparison.md
               - name: Teams 会议室指南
@@ -1335,8 +1347,6 @@ items:
                 href: rooms/requirements.md
               - name: 安全性
                 href: rooms/security.md
-              - name: 联机许可
-                href: rooms/rooms-licensing.md
               - name: 使用者 Azure Monitor 进行管理规划
                 href: rooms/azure-monitor-plan.md
           - name: 部署

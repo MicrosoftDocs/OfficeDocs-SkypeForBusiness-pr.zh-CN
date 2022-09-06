@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 了解如何搜索可按国家或地区和城市分配给用户的电话号码，并指定所需的号码数量。
-ms.openlocfilehash: 43aef76a16a8505e34407b15068a546dd2894343
-ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
+ms.openlocfilehash: b13e2365a3d0fb50e7fef5c7dc6a174d1b7376ff
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "66682501"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606191"
 ---
 # <a name="search-for-telephone-numbers-for-users"></a>搜索用户的电话号码
 
@@ -36,9 +36,9 @@ ms.locfileid: "66682501"
 
 如果选择 Microsoft 作为操作员，可以通过输入用户所需的电话号码数量从 Teams 管理中心获取号码。 该页面将根据你仍可获取的数量自动限制数量。 如果选择运算符连接运算符，将定向到所选运算符的登陆页以完成编号顺序。
 
-获取和管理电话号码的方式因 PSTN 连接选项而异：Microsoft 呼叫计划、运营商连接或直接路由。
+获取和管理电话号码的方式因 PSTN 连接选项而异：Microsoft 呼叫计划、运营商连接、运营商连接移动 (公共预览版) 或直接路由。
 
-本文适用于 [Microsoft 通话套餐](#search-for-telephone-numbers-for-microsoft-calling-plans) 和 [操作员连接](#search-for-telephone-numbers-for-operator-connect)。 有关所有选项的详细信息，请参阅 [管理组织的电话号码](/microsoftteams/manage-phone-numbers-landing-page)。
+本文适用于 [Microsoft 通话套餐](#search-for-telephone-numbers-for-microsoft-calling-plans)、[运算符连接](#search-for-telephone-numbers-for-operator-connect-or-operator-connect-mobile)和[运营商连接移动](#search-for-telephone-numbers-for-operator-connect-or-operator-connect-mobile)。 有关所有选项的详细信息，请参阅 [管理组织的电话号码](/microsoftteams/manage-phone-numbers-landing-page)。
 
 ## <a name="search-for-telephone-numbers-for-microsoft-calling-plans"></a>搜索 Microsoft 通话套餐的电话号码
 
@@ -71,7 +71,7 @@ ms.locfileid: "66682501"
 
 9. 返回到 **“电话号码** ”页时，选择要分配的电话号码或号码，然后单击 **“编辑** ”将其分配给用户。
 
-## <a name="search-for-telephone-numbers-for-operator-connect"></a>搜索运算符连接的电话号码
+## <a name="search-for-telephone-numbers-for-operator-connect-or-operator-connect-mobile"></a>搜索运算符连接或运营商连接移动的电话号码
 
 1. 转到 **Microsoft Teams 管理中心**。
 

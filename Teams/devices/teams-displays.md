@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: 本文概述了 Microsoft Teams 显示支持的功能。
-ms.openlocfilehash: 18b8219a3eef391170c7321ae994d79f1b73f016
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 8b06078633dd8c7ee43c2ee98ad1f3e4751d3a51
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268767"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606021"
 ---
 # <a name="microsoft-teams-displays"></a>Microsoft Teams 显示
 
@@ -59,9 +59,9 @@ Teams 许可证可以作为 [Microsoft 365 和Office 365订阅的一](/office365
 
 热桌面允许组织中的人员通过 Teams 和 Outlook 或设备本身提前保留临时工作区。 启用热桌面后，登录 Teams 的用户会显示其 Microsoft 365 凭据来访问其会议、聊天和文件。 注销后，其所有个人信息将从设备中删除。
 
-若要开始，需要获取Microsoft Teams 会议室标准版许可证并为每个 Teams 显示器创建资源帐户。 请参阅 [为会议室和共享 Teams 设备创建资源帐户](../rooms/with-office-365.md) 以创建资源帐户。
+若要开始，需要获取[Microsoft Teams 会议室许可证](../rooms/rooms-licensing.md)并为每个 Teams 显示创建资源帐户。 请参阅 [为会议室和共享 Teams 设备创建资源帐户](../rooms/with-office-365.md) 以创建资源帐户。
 
-创建资源帐户后，可以创建并分配策略以启用热桌面。 有关详细信息，请参阅 [New-CsTeamsIPPhonePolicy](/powershell/module/skype/new-csteamsipphonepolicy?view=skype-ps) 。
+创建资源帐户后，可以创建并分配策略以启用热桌面。 有关详细信息，请参阅 [New-CsTeamsIPPhonePolicy](/powershell/module/skype/new-csteamsipphonepolicy) 。
 
 > [!IMPORTANT]
 > 由于多个用户在共享工作区中使用具有热桌面的 Teams 显示，因此环境中的条件访问规则和其他标识配置（如多重身份验证）可能会影响这些设备并导致登录问题。 有关保护共享设备的指南，请参阅 [共享 Teams Android 设备的身份验证最佳做法](authentication-best-practices-for-android-devices.md)。

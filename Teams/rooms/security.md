@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Rooms
 description: 了解如何保护Microsoft Teams 会议室设备。
-ms.openlocfilehash: 4814bd5930bd311bf79fc749a1e736d1c3645165
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 231039324e15afb7b24f194623e54455d51e85c2
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270047"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606211"
 ---
 # <a name="microsoft-teams-rooms-security"></a>Microsoft Teams 会议室安全性
 
@@ -79,7 +79,7 @@ Teams 会议室设备包含一个名为“管理员”的管理帐户，其中�
 管理员帐户不是正确操作Teams 会议室设备所必需的，可以重命名甚至删除。 但是，在删除管理员帐户之前，请确保在删除附带Teams 会议室设备的帐户之前，先设置配置的备用本地管理员帐户。 有关如何使用内置 Windows 工具或 PowerShell 更改本地 Windows 帐户的密码的详细信息，请参阅以下内容：
 
 - [更改或重置 Windows 密码](https://support.microsoft.com/windows/change-or-reset-your-windows-password-8271d17c-9f9e-443f-835a-8318c8f68b9c)
-- [Set-LocalUser](/powershell/module/microsoft.powershell.localaccounts/set-localuser?view=powershell-5.1#example-2--change-the-password-on-an-account)
+- [Set-LocalUser](/powershell/module/microsoft.powershell.localaccounts/set-localuser#example-2--change-the-password-on-an-account)
 
 还可以将域帐户导入本地 Windows 管理员组。 可以使用Intune对 Azure AD 帐户执行此操作。 有关详细信息，请参阅[策略 CSP – RestrictedGroups。](/windows/client-management/mdm/policy-csp-restrictedgroups)
 
@@ -101,12 +101,12 @@ Windows 配置设计器可用于创建Windows 10预配包。 除了更改本地�
 
 通常，Teams 会议室具有与任何 Microsoft Teams 客户端相同的网络要求。 通过防火墙和其他安全设备进行的访问与任何其他 Microsoft Teams 客户端的Teams 会议室相同。 特定于Teams 会议室，作为 Teams“必需”列出的类别必须在防火墙上打开。 如果使用Microsoft Intune管理设备) ，Teams 会议室还需要访问Windows 更新、Microsoft Store 和Microsoft Intune (。 有关Microsoft Teams 会议室所需的 IP 和 URL 的完整列表，请参阅：
 
-- **Microsoft Teams** [Office 365 URL 和 IP 地址范围](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide#skype-for-business-online-and-microsoft-teams)
+- **Microsoft Teams** [Office 365 URL 和 IP 地址范围](/microsoft-365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)
 - **Windows 更新**[配置 WSUS](/windows-server/administration/windows-server-update-services/deploy/2-configure-wsus#211-connection-from-the-wsus-server-to-the-internet)
 - **适用于**[适用于企业的 Microsoft Store和教育的 Microsoft Store 先决条件](/microsoft-store/prerequisites-microsoft-store-for-business#proxy-configuration)
 - **Microsoft Intune**[网络终结点Microsoft Intune](/mem/intune/fundamentals/intune-endpoints)
 
-如果使用的是Microsoft Teams 会议室高级版Microsoft Teams 会议室托管服务组件，则还需要确保Teams 会议室可以访问以下 URL：
+如果使用 Microsoft Teams 会议室 Pro 的 Microsoft Teams 会议室 托管服务组件，则还需要确保Teams 会议室可以访问以下 URL：
 
 - agent.rooms.microsoft.com
 - global.azure-devices-provisioning.net
@@ -120,11 +120,13 @@ Windows 配置设计器可用于创建Windows 10预配包。 除了更改本地�
 - mmrprodnoamiot.azure-devices.net
 - mmrprodnoamstor.blob.core.windows.net
 
-Teams 会议室配置为使用最新的 Windows 更新（包括安全更新）自动对其进行修补。 Teams 会议室使用预设置的本地策略从每天凌晨 2：00 开始安装任何挂起的更新。 无需使用其他工具来部署和应用 Windows 汇报。 使用其他工具来部署和应用更新可能会延迟 Windows 修补程序的安装，从而导致部署安全性降低。 Teams 会议室应用是使用 Microsoft Store 部署的。 如果设备已获得Microsoft Teams 会议室标准版许可，则在夜间修补过程中会自动安装应用的任何新版本。 如果设备已获得Microsoft Teams 会议室高级版许可并在 Microsoft 托管服务中注册，则根据定义的推出计划安装新版本的Teams 会议室应用。
+Teams 会议室配置为使用最新的 Windows 更新（包括安全更新）自动对其进行修补。 Teams 会议室使用预设置的本地策略从每天凌晨 2：00 开始安装任何挂起的更新。 无需使用其他工具来部署和应用 Windows 汇报。 使用其他工具来部署和应用更新可能会延迟 Windows 修补程序的安装，从而导致部署安全性降低。 Teams 会议室应用是使用 Microsoft Store 部署的。
+
+<!-- LICENSE-REVIEW If your devices are licensed with Microsoft Teams Rooms Standard, any new versions of the app are automatically installed during the nightly patching process. If your devices are licensed with Microsoft Teams Rooms Premium and enrolled in the Microsoft Managed Service, new versions of the Teams Rooms app are installed per your defined rollout plan. -->
 
 Teams 会议室设备使用大多数 802.1X 或其他基于网络的安全协议。 但是，我们无法针对所有可能的网络安全配置测试Teams 会议室。 因此，如果出现可能跟踪到网络性能问题的性能问题，则可能需要在组织中配置这些协议时禁用这些协议。
 
-为了获得实时媒体的最佳性能，我们强烈建议将 Teams 媒体流量配置为绕过代理服务器和其他网络安全设备。 实时媒体非常敏感延迟，代理服务器和网络安全设备可能会显著降低用户的视频和音频质量。 此外，由于 Teams 媒体已加密，因此通过代理服务器传递流量没有实际好处。 有关详细信息，请参阅网络[ (云) - 一个架构师的观点](/microsoft-365/solutions/networking-design-principles?view=o365-worldwide)，讨论网络建议，以提高媒体与 Microsoft Teams 和Microsoft Teams 会议室的性能。
+为了获得实时媒体的最佳性能，我们强烈建议将 Teams 媒体流量配置为绕过代理服务器和其他网络安全设备。 实时媒体非常敏感延迟，代理服务器和网络安全设备可能会显著降低用户的视频和音频质量。 此外，由于 Teams 媒体已加密，因此通过代理服务器传递流量没有实际好处。 有关详细信息，请参阅网络[ (云) - 一个架构师的观点](/microsoft-365/solutions/networking-design-principles)，讨论网络建议，以提高媒体与 Microsoft Teams 和Microsoft Teams 会议室的性能。
 
 > [!IMPORTANT]
 > Teams 会议室不支持经过身份验证的代理服务器。

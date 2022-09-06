@@ -15,12 +15,12 @@ ms.reviewer: mikedav
 description: 了解如何为音频会议、电话系统和通话套餐等功能的用户分配 Teams 加载项许可证。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3b482781ee29094986c310158fe74f02662f790d
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 6c10ba390d906681434ae56272e4f112911bfcff
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268167"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606051"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>向用户分配 Teams 加载项许可证
 
@@ -143,6 +143,10 @@ ms.locfileid: "67268167"
 | 通信点数 | MCOPSTNPP |
 | 区域 1 国家/地区 (即用即付呼叫计划)  | MCOPSTN_PAYG_1 |
 | 区域 2 国家/地区 (即用即付呼叫计划)  | MCOPSTN_PAYG_2 |
+| Microsoft Teams 会议室基本 | Microsoft_Teams_Rooms_Basic |
+| Microsoft Teams 会议室基本无音频会议 | Microsoft_Teams_Rooms_Basic_without_Audio_Conferencing |
+| Microsoft Teams 会议室 Pro | Microsoft_Teams_Rooms_Pro |
+| 不带音频会议的 Microsoft Teams 会议室 Pro | Microsoft_Teams_Rooms_Pro_without_Audio_Conferencing |
 
 ## <a name="related-content"></a>相关内容
 

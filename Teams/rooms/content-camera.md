@@ -16,16 +16,18 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: 使用Microsoft Teams 会议室中的内容相机与图像处理软件交互，使演示者能够在模拟白板上绘制。
-ms.openlocfilehash: 08d360e62cd2d254f2c207e9b9eee9adea424c34
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: 6f8116e8c54c24d31a122d54ec505b72f4ef8fdc
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396663"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606371"
 ---
 # <a name="content-cameras"></a>内容照相机
 
 现在可以将内容相机与Microsoft Teams 会议室系统配合使用。 内容相机与特殊的图像处理软件和白板交互，使演示者能够在模拟白板上绘制内容并与远程参与者共享内容。
+
+[!INCLUDE [teams-pro-license-requirement](../includes/teams-pro-license-requirement.md)]
 
 有关内容相机功能的示例，请参阅以下视频。
 

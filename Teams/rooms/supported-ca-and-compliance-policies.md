@@ -13,16 +13,18 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Rooms
 description: 了解支持和推荐的条件访问和Intune设备符合性策略，以便Microsoft Teams 会议室。
-ms.openlocfilehash: b6f54e2bee4e77f794f03255ef51623bbe220342
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 1c9b3d2a40ce34076f917026300b8b7d0921d9c8
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271907"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606423"
 ---
 # <a name="supported-conditional-access-and-intune-device-compliance-policies-for-microsoft-teams-rooms-and-teams-android-devices"></a>Microsoft Teams 会议室和 Teams Android 设备支持的条件访问和Intune设备符合性策略
 
 本文为Microsoft Teams 会议室提供支持的条件访问和Intune设备符合性策略。 有关最佳做法和示例策略，请[参阅条件访问和Intune Microsoft Teams 会议室符合性最佳做法](conditional-access-and-compliance-for-devices.md)。
+
+[!INCLUDE [teams-pro-license-requirement](../includes/teams-pro-license-requirement.md)]
 
 > [!NOTE]
 > Teams 会议室必须已部署在要将条件访问策略分配到的设备上。 如果尚未部署Teams 会议室，请参阅[为会议室和共享 Teams 设备创建资源帐户](with-office-365.md)，并在 [Android 上部署Microsoft Teams 会议室](../devices/collab-bar-deploy.md)，了解详细信息。
@@ -34,7 +36,7 @@ ms.locfileid: "67271907"
 | 分配                               | Windows 上的Teams 会议室                                                                                                                                                                              | Android 和面板上的Teams 会议室                                                                                                                                                                              | Teams 手机和显示                                                                                                                                                    |
 |------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 用户或工作负荷标识              | 支持                                                                                                                                                                            | 支持                                                                                                                                                                            | 支持                                                                                                                                                            |
-| 云应用或操作                    | 支持 <br><br> Teams 会议室仅限 Teams 模式时需要访问以下三个云应用：Office 365 Exchange Online、Office 365 SharePoint Online 和 Microsoft Teams | 支持 <br><br> Teams 会议室仅限 Teams 模式时需要访问以下三个云应用：Office 365 Exchange Online、Office 365 SharePoint Online 和 Microsoft Teams | 支持<br><br>Teams Android 设备需要访问以下三个云应用：Office 365 Exchange Online、Office 365 SharePoint Online 和 Microsoft Teams |
+| 云应用或操作                    | 支持 <br><br> Teams 会议室仅限 Teams 模式时需要访问以下三个云应用：Office 365 Exchange Online、Office 365 SharePoint Online 和 Microsoft Teams | 支持 <br><br> Teams 会议室仅限 Teams 模式时需要访问以下三个云应用：Office 365 Exchange Online、Office 365 SharePoint Online 和 Microsoft Teams | 支持<br><br>Teams Android 设备需要访问以下三个云应用：Office 365 Exchange Online、Office 365 SharePoint Online 和 Microsoft Teams  |
 | **条件**                           | ---                                                                                                                                                                                  | ---                                                                                                                                                                                  | ---                                                                                                                                                                  |
 | 用户风险                                | 支持                                                                                                                                                                            | 支持                                                                                                                                                                            | 支持                                                                                                                                                            |
 | 登录风险                             | 支持                                                                                                                                                                            | 支持                                                                                                                                                                            | 支持                                                                                                                                                            |

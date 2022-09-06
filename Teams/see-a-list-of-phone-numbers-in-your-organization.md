@@ -23,18 +23,18 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 了解如何使用 Microsoft Teams 管理中心查看组织中所有电话号码以及分配给用户或未分配的所有号码的列表。
-ms.openlocfilehash: 84162b3971b1730df114482d30820dcf7e86a684
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: ac7c63515b34b8c199f8050933b6c3ccbc6f8d33
+ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66494459"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67606071"
 ---
 # <a name="see-a-list-of-telephone-numbers"></a>查看电话号码列表 
 
 有不同类型的电话号码，你可以分配给用户或语音应用程序，如 [音频会议](deploy-audio-conferencing-teams-landing-page.md) 或 [呼叫队列](plan-auto-attendant-call-queue.md)。 有关详细信息，请参阅 [管理组织的电话号码](/microsoftteams/manage-phone-numbers-landing-page)。
 
-本文适用于通话套餐和操作员连接。 有关直接路由的信息，请参阅 [配置电话号码并启用企业语音](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice)。
+本文适用于通话套餐、运算符连接和运营商连接移动 (公共预览版) 。 有关直接路由的信息，请参阅 [配置电话号码并启用企业语音](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice)。
   
 ## <a name="to-see-all-telephone-numbers-in-your-organization"></a>查看组织中的所有电话号码
 
