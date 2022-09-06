@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于加拿大的适用于Skype for Business和 Microsoft Teams 的 Microsoft 365 和 Office 365 服务。
-ms.openlocfilehash: c8648fc1eda7bdcc38b87611d11ec5263a89dfb8
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 4559208fdd651b586af8b2005f901071cb5c4030
+ms.sourcegitcommit: 8005e7953fcb6dcc78ba406925aeaaa49f08d3d9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270507"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "67609420"
 ---
 # <a name="availability-in-canada"></a>在加拿大的可用性
 
@@ -60,7 +60,7 @@ ms.locfileid: "67270507"
 | **功能**                                        | **详细信息**                                                                                                                                                                                                                                                                 |
 |:---------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |是否可购买通话套餐？  |是          |   
-|通话套餐可用分钟数。    |每个日历月有五个可用的计划选项： <ul><li>即用即付呼叫计划 </li><li> 120 分钟国内呼叫计划 </li><li> 240 分钟国内呼叫计划 </li><li> 1200 分钟国内呼叫计划 </li><li> 国际呼叫计划：1200分钟的国内或600分钟的国际呼叫 (以日历月) </li></ul>|
+|通话套餐可用分钟数。    |每个日历月有五个可用的计划选项： <ul><li>即用即付呼叫计划 </li><li> 120 分钟国内呼叫计划 </li><li> 240 分钟国内呼叫计划 </li><li> 3000 分钟国内通话套餐 </li><li> 国际呼叫计划：3000分钟的国内或600分钟的国际呼叫 (以日历月) </li></ul>|
 | 是否可以对高级号码进行出站调用？  <br/> | 目前不支持。<br/>                                                                                                                                                                                                                                            |
 | 是否可以拨打呼出电话？  <br/>                 | 可向 196 国家/地区（包括[这些国家/地区](users-can-make-outbound-calls-to-these-countries-and-regions.md)）拨打。<br/>                                                                                                                                                                  |
 
