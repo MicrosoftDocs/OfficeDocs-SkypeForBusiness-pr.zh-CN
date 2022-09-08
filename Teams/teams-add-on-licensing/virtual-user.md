@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - admindeeplinkMAC
 description: 了解如何将Microsoft Teams 电话资源帐户许可证分配给组织中自动助理和呼叫队列的资源帐户。
-ms.openlocfilehash: 348317ca659e03a9dacf8eaae603cff52a009912
-ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
+ms.openlocfilehash: 56b461c2de32f32dd51d72c5468e31f51b107310
+ms.sourcegitcommit: 09b77e83bc41914007606468e322d4ea47e2e8a4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67465980"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "67630422"
 ---
 # <a name="microsoft-teams-phone-resource-account-licenses"></a>Microsoft Teams 电话资源帐户许可证
 
@@ -43,7 +43,7 @@ ms.locfileid: "67465980"
 
 ### <a name="license-allocation-example"></a>许可证分配示例
 
-Contoso， Inc. 为每个员工) 购买了 600 个许可证，其中包括电话系统 (一个。 Contoso 分配了初始 25 个加 60 个 **Teams 电话资源帐户** 许可证，总共 85 个。 他们的组织有 90 个呼叫队列和具有电话号码的自动助理。 他们需要分配所有 **Teams 电话资源帐户** 许可证，并购买五个额外的 **Teams 电话资源帐户** 许可证。 
+Contoso， Inc. 为每个员工) 购买了 600 个许可证，其中包括电话系统 (一个。 Contoso 分配了初始 25 个加 60 个 **Teams 电话资源帐户** 许可证，总共 85 个。 他们的组织有 90 个呼叫队列和自动助理。 他们需要分配所有 **Teams 电话资源帐户** 许可证，并购买五个额外的 **Teams 电话资源帐户** 许可证。 
 
 ## <a name="how-to-obtain-microsoft-teams-phone-resource-account-licenses"></a>如何获取Microsoft Teams 电话资源帐户许可证
 
