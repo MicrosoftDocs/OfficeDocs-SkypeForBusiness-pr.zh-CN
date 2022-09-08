@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 了解哪些桌面和会议电话已通过 Microsoft Teams 认证，以产生最佳结果。
-ms.openlocfilehash: 4070bdb567556422c5ec2a3db78c3d3670e1dda9
-ms.sourcegitcommit: 9a9168d5c40bbb0cceaf3ffd11eb104c137f26b3
+ms.openlocfilehash: 5294b011ee8fbe852e2a82e2d700fbd212c0f4e8
+ms.sourcegitcommit: 8b33cc2c2e8f43e6ab4b17715d6a42692351ccad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/03/2022
-ms.locfileid: "67590189"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "67624302"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams 认证的 Android 设备
 
@@ -74,6 +74,7 @@ Microsoft Teams 设备认证计划确保认证设备符合高标准，在整个 
 
 | 设备模型 | 固件版本 | 当前认证结束日期 | 会议室大小                                        |  Android OS 版本    |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|-----------------------------------|
+| Logitech Tap IP (VR0029) 与 RoomMate (VR0030)  | `1.6.565`  |   2024 年 9 月 3 日  | 大型会议室 (4.5 米 x 8.5 米)  | 10 |
 | Yealink MeetingBoard 65” | `155.15.0.6 `   | 2024 年 9 月 3 日 | 中等大小的房间 (4.5 米 x 6 米)  | 10|
 | Yealink MeetingBar A20 | `133.15.0.108  `   | 2024 年 9 月 3 日 | 小型会议室 (4.5 米 x 4.5 米) | 10|
 | Yealink MeetingBar A30 | `133.15.0.108  `   | 2024 年 9 月 3 日 | 中等大小的房间 (4.5 米 x 6 米)  | 10|

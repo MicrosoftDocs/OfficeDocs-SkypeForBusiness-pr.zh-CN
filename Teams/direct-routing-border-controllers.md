@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 了解哪些会话边界控制器 (SBC) 已通过直接路由认证。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: acca97643340e59150ec1a81cf856c8c444155a8
-ms.sourcegitcommit: 8005e7953fcb6dcc78ba406925aeaaa49f08d3d9
+ms.openlocfilehash: fd42a6b9084e73d867a5c744a5b8852f20401ff5
+ms.sourcegitcommit: 8b33cc2c2e8f43e6ab4b17715d6a42692351ccad
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67609430"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "67624282"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>经认证可用于直接路由的会话边界控制器
 
@@ -73,7 +73,7 @@ Microsoft 与每个供应商合作：
 ||SBC 1000|&#10004;|&#10004;|8.x 或 9.x|&#10004;|&#10004;|
 ||SBC 2000|&#10004;|&#10004;|8.x 或 9.x|&#10004;|&#10004;|
 ||SBC SWe Lite|&#10004;|&#10004;|8.x 或 9.x|&#10004;|&#10004;|
-||EdgeMarc 系列|&#10004;||15.6.1||
+||EdgeMarc 系列|&#10004;|&#10004;|16.3.2||
 |[Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)|Think 365 SBC|&#10004;||1.4|||
 |[Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)|AP 1100|&#10004;|&#10004;|支持 8.3.0.0.1 并建议 8.4.x 和 9.x|&#10004;|&#10004;|
 ||AP 3900|&#10004;|&#10004;|支持 8.3.0.0.1 并建议 8.4.x 和 9.x|&#10004;|&#10004;|
