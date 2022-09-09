@@ -16,12 +16,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何在 Teams 管理中心管理对使用 Microsoft Power Platform 生成的自定义应用的访问。
-ms.openlocfilehash: b257c4cb32e236d427d58063d340c2bb1c743292
-ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.openlocfilehash: 4d566a766f3afd12cfe30099de6040ee75721455
+ms.sourcegitcommit: ebffec34c050421dc8d09a16907644657ce323f4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67486727"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "67637035"
 ---
 # <a name="manage-microsoft-power-platform-apps-in-the-teams-admin-center"></a>在 Teams 管理中心管理 Microsoft Power Platform 应用
 
@@ -52,7 +52,7 @@ ms.locfileid: "67486727"
 
 作为管理员，你可以控制 Microsoft Power Platform 应用是否在 Teams 的“应用”页面的“**使用 Power Platform 生成**”中列出。 可以在“[管理应用](manage-apps.md)”页面上的组织级别集体阻止或允许在 Power Apps 中创建的所有应用或在 Power Virtual Agents 中创建的所有应用，也可以使用[应用权限策略](teams-app-permission-policies.md)为特定用户阻止或允许。
 
-组织的应用商店中的“**共享的 Power Apps**”和“**共享的 Power Virtual Agent 应用**”应用代表在该特定平台上创建的所有应用。 如果为整个组织或特定用户阻止其中一个或两个应用，则用户可以查看此类应用（如阻止的应用），但无法在 Teams 中安装它们。 用户可以[请求管理员批准以允许应用](manage-apps.md#manage-user-requests-to-allow-apps)。
+组织的应用商店中的“**共享的 Power Apps**”和“**共享的 Power Virtual Agent 应用**”应用代表在该特定平台上创建的所有应用。 如果为整个组织或特定用户阻止其中一个或两个应用，则用户可以查看此类应用（如阻止的应用），但无法在 Teams 中安装它们。 用户可以[请求管理员批准以允许应用](user-requests-approve-apps.md)。
 
 请记住，你可以控制对在 Power Apps 和 Power Virtual Agents 中创建的所有应用的访问，但不能允许或阻止单个应用。 应用创建者决定谁可以通过 Power Apps 和 Power Virtual Agents 中的共享功能访问他们创建的应用。 如果创建者与用户共享他们在 Power Virtual Agents 中创建的应用，并且你阻止了该用户的“**共享的 Power Virtual Agents 应用**”，则用户将无法在 Teams 中查看或安装来自该平台的任何应用。
 

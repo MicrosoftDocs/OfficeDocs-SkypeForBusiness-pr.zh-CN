@@ -18,12 +18,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 67a6424d6fcde396ebdbb41b3c00fc4186e8e475
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: cfcd041fd755016ec04832f42c497e2b0ad51469
+ms.sourcegitcommit: ebffec34c050421dc8d09a16907644657ce323f4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396693"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "67637005"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理应用设置策略
 
@@ -92,7 +92,7 @@ ms.locfileid: "67396693"
 * 在其个人 Teams 环境中为最终用户安装应用。
 * 为最终用户将应用安装为 [消息传递扩展](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions)。
 
-如果 [应用权限](teams-app-permission-policies.md) 策略允许应用并且 Teams 管理员允许应用，则最终用户可以自行安装应用。相反，如果为用户或组织阻止应用，则最终用户可以 [请求管理员批准](manage-apps.md#manage-user-requests-to-allow-apps)。
+如果 [应用权限](teams-app-permission-policies.md) 策略允许应用并且 Teams 管理员允许应用，则最终用户可以自行安装应用。相反，如果为用户或组织阻止应用，则最终用户可以 [请求管理员批准](user-requests-approve-apps.md)。
 
 若要使用应用设置策略安装应用，请执行以下步骤：
 

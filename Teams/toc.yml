@@ -1585,8 +1585,10 @@ items:
             href: customize-your-app-store.md
           - name: 跨 Microsoft 365 管理对应用的访问
             href: manage-third-party-teams-apps.md
-          - name: 基于用户类型的应用行为
+          - name: 外部用户的应用行为
             href: non-standard-users.md
+          - name: 管理用户请求以允许应用
+            href: user-requests-approve-apps.md
           - name: 应用更新和管理员角色
             href: apps-update-experience.md
           - name: 审核应用管理活动

@@ -19,12 +19,12 @@ description: 了解如何管理 Teams 应用。 了解如何允许或阻止应�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: beaa10343570624b6ce9b01dbaf9f4a0e962b191
-ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.openlocfilehash: ca49ca15b026048d2c495d30a51eac0f809244b5
+ms.sourcegitcommit: ebffec34c050421dc8d09a16907644657ce323f4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67486877"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "67637045"
 ---
 # <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 管理中心管理 Teams 应用
 
@@ -85,38 +85,6 @@ Teams 管理中心提供用于完成大多数应用管理用例的选项。 此�
 
 仅当通过租户范围的设置允许应用并通过权限策略允许用户使用时，用户才能安装和使用应用。
 
-## <a name="manage-user-requests-to-allow-apps"></a>管理用户请求以允许应用
-
-最终用户可以查看但不能使用 Teams 应用商店中被阻止的应用。 对于被阻止的应用，可以选择请求管理员审批。 这些请求在 Teams 管理中心进行整理，管理员可以在需要时查看和管理这些请求。 强烈建议定期对最终用户请求进行会审检查。
-
-  :::image type="content" source="media/user-request-blocked-apps.png" alt-text="通过在 Teams 应用商店中选择“请求审批”选项，请求管理员批准被阻止的应用。":::
-
-### <a name="view-a-request"></a>查看请求
-
- 1. 登录到 Teams 管理中心并访问 **Teams 应用** > **[管理应用](https://admin.teams.microsoft.com/policies/manage-apps)**。
-
-    :::image type="content" source="media/requested-apps1.png" alt-text="针对被阻止应用的最终用户请求显示在 Teams 管理中心标题为“用户请求”的列中。" lightbox="media/requested-apps.png":::
-
- 1. 若要查看和检查每个应用的请求数，请 **按用户** 列对“请求”中的请求进行排序。 无法查看请求应用程序的用户名称。
- 1. 要允许应用程序，请选择应用程序的名称，并打开应用程序详细信息页面。
- 1. 选择 **“管理请求** ”并完成弹出对话框中显示的步骤。 根据用于阻止应用程序的方法，需要以下一个或多个步骤来取消阻止：
-
-    * 如果使用权限策略阻止应用，请通过修改 [权限策略](teams-app-permission-policies.md)来允许应用。
-    * 如果为所有用户阻止应用，请 [允许该应用](#allow-and-block-apps)。
-    * 如果所有用户都阻止了所有应用，请修改 [组织范围的设置](#manage-org-wide-app-settings)。
-
- 如果管理员允许应用，那么 Teams 不会通知最终用户其请求已处理。 用户可以在 Teams 应用商店中查看应用程序，以检查是否可以将应用程序添加到其 Teams 客户端。 如果应用程序得到管理员的批准，用户可以添加它。 或者，如果和管理员不批准请求并将其消除，则最终用户可以再次请求。
-
-### <a name="dismiss-a-user-request"></a>关闭用户请求
-
- 1. 选择要为其消除用户请求的应用的名称。
- 1. 选择 **“管理请求** ”，然后选择“消除对话框上 **的所有请求** ”。
- 1. 当请求被消除时，它会将用户请求重置为零。
-
-  :::image type="content" source="media/reject.png" alt-text="管理员可以通过允许应用程序批准用户请求，也可以消除请求且不进行任何操作。":::
-
-如果管理员关闭请求，则不会通知最终用户其请求已执行。 管理员消除请求后，最终用户可以再次请求应用程序。
-
 ## <a name="allow-the-apps-that-are-blocked-by-the-developers"></a>允许开发人员阻止的应用
 
 当开发人员将应用发布到 Teams 应用商店时，某些应用可能需要管理员来配置应用。 设置完应用程序后，管理员向最终用户提供应用程序。
@@ -159,3 +127,4 @@ Teams 管理中心提供用于完成大多数应用管理用例的选项。 此�
 ## <a name="related-article"></a>相关文章
 
 * [从 Skype for Business 管理中心过渡期间管理 Teams](manage-teams-skypeforbusiness-admin-center.md)
+* [管理用户请求以允许应用](user-requests-approve-apps.md)。

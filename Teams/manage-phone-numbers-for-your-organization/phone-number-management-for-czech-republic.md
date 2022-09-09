@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 使用此表可查找有关在捷克共和国获取和管理 Microsoft Teams 电话号码的信息。
-ms.openlocfilehash: 94dafbbcc7969bf70c2b335438982795dc7fb09f
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: 8c11bb079605ed1d9b1ceb9de8b0b2aa54909141
+ms.sourcegitcommit: ebffec34c050421dc8d09a16907644657ce323f4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66790217"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "67637015"
 ---
 # <a name="phone-number-management-for-the-czech-republic"></a>捷克共和国的电话号码管理
 
@@ -37,8 +37,8 @@ ms.locfileid: "66790217"
 
 |**你要做什么？**|**下载正确的表单**|
 |:-----|:-----|
-|获取未在 Microsoft Teams 管理中心列出的新用户或服务电话号码。 |在捷克共和国，可以使用 Microsoft Teams 管理中心获取组织的电话号码。 还可以通过下载表单来提交新的电话号码请求 [，并联系 TNS 服务台以获取说明](contact-tns-service-desk.md)。<br/><br/>`[New phone number request for the Czech Republic (v.1.0) cs-CZ](https://download.microsoft.com/download/2/f/0/2f015d86-3136-4d81-b323-e5b8cac3c272/new-phone-number-request-for-the-czech-republic-(v1.0)-(cs-CZ).pdf )`. <br/><br/> 必须先下载“了解客户”表单，完整完成，然后将其发送给我们，然后才能向你分配电话号码。<br/><br/>新订单可能需要两到三周才能填补这个市场。  |
-|获取传输给我们的电话号码。 | 下载此表单。 <br/><br/>[捷克共和国 (LOA) 的授权书 (所有数字)  (v.1.0)  (cz-cz) ](https://download.microsoft.com/download/6/f/6/6f66c134-5ad4-42d8-b7f9-f857fb5fd4ca/letter-of-authorization-(loa)-for-czech-republic-(all-numbers)-(v1.0)-(cz-cz).pdf)<br/><br/>填写并 [联系 TNS 服务台以获取说明](contact-tns-service-desk.md)。 还必须包含要为其转移号码的业务地址中的实用工具帐单。<br/><br/>转移号码可能需要两到三周才能在这个市场完成。 <br/><br/>这些数字目前不能用于会议。 |
+|获取未在 Microsoft Teams 管理中心列出的新用户或服务电话号码。 |在捷克共和国，可以使用 Microsoft Teams 管理中心获取组织的电话号码。 还可以通过下载“了解客户”表单并 [联系 TNS 服务台获取说明](contact-tns-service-desk.md)来提交新的电话号码请求。<br/><br/>必须先下载知道客户的表单，然后才能将数字分配给你： <br/><br/><ul><li>[了解你的捷克共和国客户表单](https://download.microsoft.com/download/6/f/6/6f66c134-5ad4-42d8-b7f9-f857fb5fd4ca/KYC-CZ-CZ.docx)</ul></li> <br/>新订单可能需要两到三周才能填补这个市场。
+|获取传输给我们的电话号码。 | 下载此表单。 <br/><br/>[捷克共和国 (LOA) 的授权书 (所有数字)  (v.2.0)  (cz-cz) ](https://download.microsoft.com/download/6/f/6/6f66c134-5ad4-42d8-b7f9-f857fb5fd4ca/LOA-CZ-GEO-EN.pdf)<br/><br/>填写并 [联系 TNS 服务台以获取说明](contact-tns-service-desk.md)。 还必须包括当前运算符中要传输的) 数 (的当前发票。<br/><br/>转移号码可能需要两到三周才能在这个市场完成。 <br/><br/>这些数字目前不能用于会议。 |
 |在全国电话目录中发布/取消发布电话号码 () 。  <br/> |有关要发布/取消发布的电话号码列表的[说明，请与 TNS 服务台联系](contact-tns-service-desk.md)。 <br/> |
 |将用户的号码更改为服务编号。  <br/> |有关要转换为服务号码的用户号列表的[说明，请与 TNS 服务台联系](contact-tns-service-desk.md)。 <br/> |
 |进行目录服务更新以调用队列或自动助理号码|若要添加或更改呼叫队列或自动助理号码，请联系 [TNS 服务台以获取说明](contact-tns-service-desk.md)。 |
