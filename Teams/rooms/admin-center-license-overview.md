@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 了解和比较 Teams 管理中心的Teams 会议室许可和功能可用性。
-ms.openlocfilehash: f880f2878c98e739c0367faafed252f93f4cd3d5
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: d88e7a0c0a6c17fb22f1cc94fcd4de65a3ff79a2
+ms.sourcegitcommit: 732a7f3e120cfa221d42b4e8af2cf9ff623488a1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606866"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "67633632"
 ---
 # <a name="microsoft-teams-rooms-license-overview-in-teams-admin-center"></a>Microsoft Teams 会议室 Teams 管理中心中的许可证概述
 
@@ -37,11 +37,11 @@ Teams 管理中心允许你从中心位置查看和管理Teams 会议室设备�
 
 ## <a name="see-which-licenses-are-assigned-to-teams-rooms-devices"></a>查看分配给Teams 会议室设备的许可证
 
-可以通过转到 Teams 管理中心中的 **Teams 设备** ，然后选择要查看的设备类别来查看设备拥有的许可证。 例如，如果选择 **Teams 设备** > **Teams 会议室在 Windows 上**，你将看到类似于下图的内容。 “**许可证”** 列显示分配给每个设备的Teams 会议室许可证。
+你可以通过转到 Teams 管理中心的 Teams 设备，然后选择 Windows 上的设备类别 (Teams 会议室、Android 上的Teams 会议室和 Surface Hub) ，查看设备拥有的许可证。 例如，如果选择 **Teams 设备** > **Teams 会议室在 Windows 上**，你将看到类似于下图的内容。 “**许可证”** 列显示分配给每个设备的Teams 会议室许可证。
 
 :::image type="content" source="../media/mtr-device-inventory-license-focus.png" alt-text="Teams 会议室清单，重点是标准、专业版和 Pro (试用版) 许可证。":::
 
-拥有 **Pro** 或 **Pro (试用版)** 许可证的设备可以访问 Teams 管理中心的所有功能。 具有其他许可证的设备可以访问这些功能的子集。 在按[许可证Teams 会议室功能可用性比较](#comparison-of-teams-rooms-feature-availability-by-license)中，可以查看每个许可证可用的功能。
+拥有 **Pro** 许可证的设备可以访问 Teams 管理中心的所有功能。 具有其他许可证的设备可以访问这些功能的子集。 在按[许可证Teams 会议室功能可用性比较](#comparison-of-teams-rooms-feature-availability-by-license)中，可以查看每个许可证可用的功能。
 
 > [!IMPORTANT]
 > 如果选择包含 Microsoft Teams 会议室 基本许可证和 Microsoft Teams 会议室 Pro 许可证的多个设备，则需要Microsoft Teams 会议室 Pro 许可证的操作将仅在已分配该许可证的设备上执行。 不会在分配Microsoft Teams 会议室基本许可证的设备上执行该操作。
