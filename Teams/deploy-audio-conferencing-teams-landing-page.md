@@ -20,12 +20,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c12891e2eb03aaca3f444a83bfd18ee752b8576
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: 1da45446c2ab1879dd8064537dc50dafd99ea013
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268807"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67641743"
 ---
 # <a name="learn-how-to-deploy-audio-conferencing-in-microsoft-teams"></a>了解如何在 Microsoft Teams 中部署音频会议
 
@@ -35,7 +35,7 @@ ms.locfileid: "67268807"
 
 本文根据组织的情况和业务需求来帮助你决定是否更改任何默认音频会议设置，然后引导你完成每项更改。 我们将这些设置分为两组：首先是[你更有可能更改的一组核心设置](#core-deployment-decisions)。 第二组包括你可能希望根据组织的需求配置的[其他设置](#additional-deployment-decisions)。
 
-你只需为打算安排或主持会议的人设置音频会议。 通过拨入方式参与的与会者无需任何分配的许可证或进行任何其他设置。 对于在旅途中并且无法使用其笔记本电脑或移动设备上的 Skype for Business 或 Teams 应用参与会议的用户来说，拨入（或呼入）会议非常有用。 
+你只需为打算安排或主持会议的人设置音频会议。 通过拨入方式参与的与会者无需任何分配的许可证或进行任何其他设置。 拨入 (呼叫) 会议对在路上且无法在笔记本电脑或移动设备上使用 Teams 应用参加会议的用户非常有用。
 
 ## <a name="audio-conferencing-prerequisites"></a>音频会议先决条件
 
@@ -44,7 +44,7 @@ ms.locfileid: "67268807"
 |询问你自己|操作 |
 |------------|-------|
 |我所在的国家/地区是否可以使用音频会议功能？|若要了解你所在的国家/地区是否可使用音频会议功能，请参阅[音频会议和通话套餐的国家/地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。|
-|我的用户是否有适当的 Teams 音频会议许可？|音频会议许可证作为 Microsoft 365 或 Office 365 E5 订阅的一部分提供，或作为 Microsoft 365 商业标准版 E1 或 E3 订阅的一项附加服务提供。 <ul><li>若要获取和分配许可证，请参阅[在 Microsoft 365 或 Office 365 中试用或购买音频会议功能](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)以及[分配或移除 Microsoft 365 商业应用版许可证](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)。</li><li> 若要了解详细信息，请阅读 [Microsoft Teams 附加许可](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。 </li><li>若要了解每种计划中包括哪些云功能，请参阅[基于计划的许可证选项](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)文章。</li></ul>|
+|我的用户是否有适当的 Teams 音频会议许可？|音频会议许可证作为 Microsoft 365 或 Office 365 E5 订阅的一部分提供，或作为 Microsoft 365 商业标准版 E1 或 E3 订阅的一项附加服务提供。 <ul><li>若要获取和分配许可证，请参阅[分配或删除Microsoft 365 商业应用版许可证](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)。</li><li> 若要了解详细信息，请阅读 [Microsoft Teams 附加许可](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。 </li><li>若要了解每种计划中包括哪些云功能，请参阅[基于计划的许可证选项](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)文章。</li></ul>|
 |是否需要为分配有音频会议许可证的用户购买通信点数？|若要了解详情，请阅读[什么是通信点数](what-are-communications-credits.md)，然后查看下面的[通信点数](#communications-credits)部分。|
 |||
 
@@ -82,7 +82,7 @@ Teams 音频会议允许你为会议网桥设置默认语言和备用语言。
 
 |询问你自己|操作 |
 |------------|-------|
-| 我应为自动助理问候选择哪些语言？ | 若要选择语言，请参阅[为音频会议设置自动助理语言](/SkypeForBusiness/audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json)。|
+| 我应为自动助理问候选择哪些语言？ | 若要选择语言，请参阅 [在 Microsoft Teams 中为音频会议设置自动助理语言](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)。|
 |||
 
 ### <a name="conferencing-bridge-settings"></a>会议网桥设置

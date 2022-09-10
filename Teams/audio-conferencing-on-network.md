@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 下面介绍了音频会议的网络。
-ms.openlocfilehash: 222a89df39f1fe6b2decb21431f3475a148a1a6c
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 56e2addc3b924d7d73df7475ad217a999dc0aca0
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267587"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67641873"
 ---
 # <a name="on-network-conferencing-for-audio-conferencing"></a>音频会议的网络会议
 
@@ -54,7 +54,7 @@ ms.locfileid: "67267587"
 
 需要配置站点的电话设备，以便通过直接路由中继将呼叫路由到组织会议网桥的任何服务号码。
 
-可以在 Teams 管理中心中找到 **会议 ->会议桥** 下的服务号码，或者使用 Skype for Business Online PowerShell cmdlet Get-CsOnlineDialInConferencingBridge。 有关其他信息，请参阅 [Microsoft Teams 中的音频会议号码](see-a-list-of-audio-conferencing-numbers-in-teams.md)列表。
+你可以在 Teams 管理中心（ **会议->会议桥** ）下或使用 Teams PowerShell cmdlet Get-CsOnlineDialInConferencingBridge 找到服务号码。 有关其他信息，请参阅 [Microsoft Teams 中的音频会议号码](see-a-list-of-audio-conferencing-numbers-in-teams.md)列表。
 
 > [!NOTE]
 > 此功能不适用于具有按分钟付费音频会议许可证的用户。

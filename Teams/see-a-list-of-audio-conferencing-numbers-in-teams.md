@@ -22,17 +22,17 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: 了解如何从 Microsoft Teams 中查找可用于音频会议的电话拨入式会议号码。
-ms.openlocfilehash: 33beda34a5c7079c5df910492264061216fb7072
-ms.sourcegitcommit: d0cbc23e10219dd2889011421010215a5d246031
+ms.openlocfilehash: de03b3a1b12cc6bdcef9326e80e970ece2bdc378
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2022
-ms.locfileid: "67460625"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67641883"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>在 Microsoft Teams 中查看音频会议号码列表
 
 为 Microsoft Teams 用户设置音频会议时，可以查看可用于音频会议的电话号码。 此列表将包含组织可用的所有音频会议电话号码。
-   
+
 **正在搜索价格？** 查看 **音频会议中的“音频会议速率**”[](https://www.microsoft.com/microsoft-teams/audio-conferencing)部分。
   
 如果仅有一个电话号码在你的组织中可用，则会将其作为你的所有用户的默认号码。 当多个电话号码可用时，你可以为每个用户选择默认电话号码。 此默认号码将包含在 Microsoft Teams 会议邀请中。
@@ -61,6 +61,3 @@ Windows PowerShell Office 365 的功能是管理用户以及允许或不允许�
 
 有关 Windows PowerShell 的详细信息，请参阅 [Microsoft Teams PowerShell 参考](/powershell/module/teams/?view=teams-ps)了解详细信息。
   
-## <a name="related-topics"></a>相关主题
-
-[尝试或购买 Microsoft 365 或 Office 365 中的音频会议](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

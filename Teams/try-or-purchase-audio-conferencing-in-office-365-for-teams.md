@@ -23,16 +23,16 @@ ms.custom:
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
 description: 了解如何尝试或购买 Microsoft 365 或Office 365的音频会议 (PSTN 会议) 许可证，以设置用户可以拨入的电话会议。
-ms.openlocfilehash: 861537c6c452612058d8e3ad8ae416b812d0bb32
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 5d93f9d81e2b70520d8c8044293f81aff2a36940
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271437"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67641913"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>尝试或购买 Microsoft 365 for Microsoft Teams 中的音频会议
 
-有时，组织中的人员需要使用电话拨入会议。 Microsoft Teams 仅针对这种情况包含音频会议功能！ 用户可以使用电话来呼叫 Microsoft Teams 会议，而不是在移动设备或电脑上使用 Microsoft Teams 应用。
+有时，组织中的人员需要使用电话拨入会议。 Microsoft Teams 仅针对这种情况包含音频会议功能！ 人员可以使用电话而不是在移动设备或电脑上使用 Microsoft Teams 应用来呼叫 Microsoft Teams 会议。
 
 只需为计划安排或主持会议的人员设置音频会议。 呼入会议的与会者不需要向其分配任何许可证，也不需要其他设置。
 
@@ -76,15 +76,15 @@ ms.locfileid: "67271437"
 
 ## <a name="step-2-set-the-audio-conferencing-provider-for-people-who-lead-or-schedule-meetings"></a>第 2 步：为领导或安排会议的人员设置音频会议提供商
 
-将 **音频会议** 许可证分配给组织中没有Skype for Business与第三方音频会议提供商集成的人员时，它们都已设置好，并准备就绪！ （您无需设置其音频会议提供商。）
+将 **音频会议** 许可证分配给组织中未将 Teams 与第三方音频会议提供商集成的人员时，它们都已设置并准备就绪！ （您无需设置其音频会议提供商。）
 
-如果已为用户启用了第三方音频会议提供商，则必须将这些用户的提供程序更改为 Microsoft。 若要更改用户的提供程序，请参阅 [将 Microsoft 分配为音频会议提供商](/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)。
+如果已为用户启用了第三方音频会议提供商，则必须将这些用户的提供程序更改为 Microsoft。 若要更改用户的提供程序，请参阅 [向用户分配 Teams 加载项许可证](teams-add-on-licensing/assign-teams-add-on-licenses.md)。
 
 ## <a name="step-3-other-admin-tasks"></a>第 3 步：其他管理任务
 
 以下步骤为 **可选** 步骤，但很多管理员喜欢执行这些操作：
 
-1. [自定义会议邀请](/skypeforbusiness/set-up-skype-for-business-online/customize-meeting-invitations)。 为用户设置的拨入号码将自动添加到要发送给与会者的会议邀请中。 但是，你也可以添加自己的帮助和法律链接、文本消息和比较小的公司图形。
+1. [自定义会议邀请](meeting-settings-in-teams.md#customize-meeting-invitations)。 为用户设置的拨入号码将自动添加到要发送给与会者的会议邀请中。 但是，你也可以添加自己的帮助和法律链接、文本消息和比较小的公司图形。
 
 2. [设置邀请中包含的电话号码](set-the-phone-numbers-included-on-invites-in-teams.md)。 这是用户安排的会议中显示的电话号码。
 

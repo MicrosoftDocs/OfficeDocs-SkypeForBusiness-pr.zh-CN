@@ -13,7 +13,6 @@ ms.collection:
 - M365-collaboration
 audience: Admin
 appliesto:
-- Skype for Business
 - Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords:
@@ -22,16 +21,16 @@ ms.custom:
 - Licensing
 - seo-marvel-mar2020
 description: 拨出和呼叫我几分钟的好处。 从 2019 年 12 月 1 日起，每个音频会议订阅每月为 A 区国家/地区提供 60 分钟的每个用户。
-ms.openlocfilehash: 18300c44c806689b601c8b14d8c871ecb0ff6ba4
-ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
+ms.openlocfilehash: 6df0b6f2157f16da6e992d465b524a5b582e0a12
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "65187008"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67642143"
 ---
 # <a name="audio-conferencing-subscription-dial-outcall-me-at-minutes-benefit"></a>音频会议订阅“拨出”/“呼叫我”分钟权益
 
-## <a name="microsoft-teams-and-skype-for-business-pstn-audio-conferencing"></a>Microsoft Teams和Skype for Business PSTN 音频会议
+## <a name="microsoft-teams-and-pstn-audio-conferencing"></a>Microsoft Teams 和 PSTN 音频会议
 
 每个音频会议标准订阅每月为每个用户提供 60 分钟，可用于在任何区域 A 国家/地区中拨出非高级号码，如本文档中所述。 此权益适用于音频会议 *每月订阅* 许可证，并且不扩展到音频会议每分钟付费许可证。
 
@@ -74,16 +73,15 @@ ms.locfileid: "65187008"
 
 ## <a name="how-can-i-monitor-minute-my-pool-usage"></a>如何监视池使用情况的分钟数？
 
-- 可以针对Microsoft Teams管理中心内的拨出分钟池监视使用情况。 在左侧导航栏中，转到 **Analytics & reportsUsage** >  **报表**，然后选择 **PSTN 分钟池**。 区域 A 拨出分钟池将在报表中标记为“对区域 A 国家/地区的出站呼叫”。
-- 当组织拨出分钟池的使用率达到 80% 和 100% 时，将向以下管理员发送电子邮件通知：
+- 可以针对 Microsoft Teams 管理中心内的拨出分钟池监视使用情况。 在左侧导航栏中，转到 **分析&报告** > **使用情况报告**，然后选择 **PSTN 分钟池**。 区域 A 拨出分钟池将在报表中标记为“对区域 A 国家/地区的出站呼叫”。
+- 当组织拨出分钟池的使用率达到 80% 和 100% 时，将向以下管理员发送Email通知：
 
   - 计费管理员
-  - Skype for Business管理员
   - 全局管理员
   - 用户管理员
   - 支持人员管理员
   - 服务支持管理员
-  - Azure AD加入设备本地管理员
+  - 已加入 Azure AD 的设备本地管理员
   - 应用程序管理员
   - 许可证管理员
   - 云设备管理员
@@ -91,7 +89,7 @@ ms.locfileid: "65187008"
   - 特权身份验证管理员
   - Teams 通信管理员
   - Teams 通信支持工程师
-  - Teams通信支持专家
+  - Teams 通信支持专家
   - Teams 管理员
 
 有关通信额度的其他信息，请参阅 [通信额度](what-are-communications-credits.md)。

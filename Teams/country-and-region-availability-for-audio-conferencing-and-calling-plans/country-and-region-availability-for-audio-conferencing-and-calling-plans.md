@@ -14,7 +14,6 @@ ms.collection:
 - M365-voice
 audience: Admin
 appliesto:
-- Skype for Business
 - Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords:
@@ -26,12 +25,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 了解某个国家或地区是否提供音频会议、电话系统、通话套餐、通信信用额度以及免费电话号码和免费电话号码。
-ms.openlocfilehash: 0bc0013f27e890e56224dcc1c645afbaf94b699a
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 2f9bc15a51765d595a1c8eb24c800971079b1207
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269177"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67641933"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>音频会议和通话套餐的国家/地区可用性
 
@@ -161,7 +160,7 @@ ms.locfileid: "67269177"
 
 ***
 
-验证其中一个Skype for Business或 Microsoft Teams 服务是否可用后，可以看到[Skype for Business和 Microsoft Teams 加载项许可](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)，以帮助你购买许可证并将其分配给用户。
+验证其中一个 Teams 服务是否可用后，可以看到 [Microsoft Teams 加载项许可](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) ，以帮助你购买许可证并将其分配给用户。
 
 > [!NOTE]
 >
@@ -171,12 +170,12 @@ ms.locfileid: "67269177"
 
 ### <a name="audio-conferencing"></a>音频会议
 
-有时，组织中的人员需要使用电话拨入会议。 Skype for Business和 Microsoft Teams 仅针对这种情况包含音频会议功能！ 可以使用电话拨入会议，而无需在移动设备或电脑上使用 Skype for Business 和 Microsoft Teams 应用。 当你决定要为组织举办音频会议时，请为组织中计划/主持音频会议的每个人购买一个 **音频会议** 许可证。
+有时，组织中的人员需要使用电话拨入会议。 Teams 仅针对这种情况包含音频会议功能！ 人员可以使用电话而不是在移动设备或电脑上使用 Teams 应用来呼叫会议。 当你决定要为组织举办音频会议时，请为组织中计划/主持音频会议的每个人购买一个 **音频会议** 许可证。
   
 借助音频会议，用户可以使用免费电话号码和免费电话号码拨入会议。 在以下国家/地区中，如果组织已启用音频会议，收费号码会自动作为共享音频会议号码分配给组织。 可以从其他城市向组织分配专用收费和免费号码。
 
 > [!IMPORTANT]
-> 没有包含所有音频会议拨入号码列表的资源。 若要确定你所在区域或国家/地区是否有可用的拨入电话号码，请依次转到“Skype for Business 管理中心” > “语音” > “电话号码”，然后依次单击“添加”和“新服务号码”。 使用“国家/地区”、“省/直辖市/自治区/地区”和“城市”列表来筛选搜索结果。 如果要查找免费服务号码，请从 **“州/地区**”列表中选择 **免费** 收费。
+> 没有包含所有音频会议拨入号码列表的资源。 若要了解你的区域或国家/地区中是否有可用的拨入电话号码，请转到 **Teams 管理中心** > **语音** > **电话号码**，单击 **“添加**”，然后单击 **“新建服务号码**”。 使用“国家/地区”、“省/直辖市/自治区/地区”和“城市”列表来筛选搜索结果。 如果要查找免费服务号码，请从 **“州/地区**”列表中选择 **免费** 收费。
 
 若要详细了解音频会议，请参阅[音频会议常见问题](../audio-conferencing-common-questions.md)
 
@@ -190,10 +189,10 @@ ms.locfileid: "67269177"
 > 拨出免费或免费电话号码可能是不可能的，因为某些免费号码只能从某个国家/地区的某个国家或地区运行。 例如，如果从美国拨打巴西的免费号码，呼叫可能不会成功，因为呼叫并非来自巴西境内或巴西境内的特定区域。 拨出免费号码的能力因拨打的免费号码的限制而异。 遗憾的是，我们无法控制此行为，因此，您的体验可能因拨号的免费号码和免费号码的限制而异。
   
 可使用 [通信信用额度](../what-are-communications-credits.md)从会议拨出到世界上未列出的其他国家/地区。 对于这些用户，需要 [为组织设置通信额度](../set-up-communications-credits-for-your-organization.md)。
-  
+
 ### <a name="phone-system"></a>电话系统
 
-使用电话系统，可以创建自动助理和呼叫队列， (使用收费或免费号码) 来接听组织的传入呼叫。 为用户添加呼叫计划时，他们可以使用Skype for Business来处理基本的呼叫控制任务，例如拨打和接听呼叫、转移呼叫以及静音和取消呼叫。 **电话系统** 用户在其通讯簿中单击一个名称，Skype for Business会给该人打电话。 为了拨打电话和接听电话，**电话系统** 用户使用其移动设备、带笔记本电脑或电脑的耳机，或使用Skype for Business的众多 IP 电话之一。
+使用电话系统，可以创建自动助理和呼叫队列， (使用收费或免费号码) 来接听组织的传入呼叫。 为用户添加呼叫计划时，他们可以使用 Teams 来处理基本的呼叫控制任务，例如放置和接收呼叫、转移呼叫以及静音和取消呼叫。 **电话系统** 用户单击其通讯簿中的名称，Teams 将呼叫该人员。 为了拨打电话和接听电话， **电话系统** 用户使用其移动设备、带笔记本电脑或电脑的耳机，或与 Teams 配合使用的众多 IP 电话之一。
 
 其中一些位置的收费电话号码的可用性可能在任意给定时间因库存级别而异。 除了为单个用户获取电话号码外，还可以搜索和获取会议桥) 、自动助理和呼叫队列等服务的收费或免费电话号码，例如音频会议 (。 这些称为“服务号码”。 若要获取电话号码，请参阅[获取服务电话号码](../getting-service-phone-numbers.md)。 不过，对于用户，在将通话套餐分配给他们后，你可以分配用户电话号码，以便他们能够拨打和接听电话。 若要查找这些电话号码，请参阅[为用户获取电话号码](../getting-phone-numbers-for-your-users.md)。 还可以参阅[为用户分配、更改或删除电话号码](../assign-change-or-remove-a-phone-number-for-a-user.md)。
 
@@ -222,7 +221,7 @@ ms.locfileid: "67269177"
 
 除了为单个用户获取电话号码外，还可以搜索和获取会议桥) 、自动助理和呼叫队列等服务的收费或免费电话号码，例如音频会议 (。 这些称为“服务号码”。
   
-下面列出了可以获取用于音频会议和通话套餐的收费服务号码的首都和主要城市。 可以使用 **Skype for Business管理中心** 从这些位置获取收费服务号码。
+下面列出了可以获取用于音频会议和通话套餐的收费服务号码的首都和主要城市。 可以使用 **Teams 管理中心** 从这些位置获取收费服务号码。
   
 如果想要获取收费或免费服务号码，可以看到 [获取服务电话号码](../getting-service-phone-numbers.md)。 如果已有要从其他提供商转移的收费或免费服务号码，请参阅 [组织管理电话号码](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
 
@@ -236,4 +235,4 @@ ms.locfileid: "67269177"
 
 ## <a name="related-topics"></a>相关主题
 
-[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../getting-service-phone-numbers.md)
+[获取 Microsoft Teams 的服务电话号码](../getting-service-phone-numbers.md)

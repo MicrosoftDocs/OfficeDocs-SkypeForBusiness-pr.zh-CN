@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 按照以下步骤为呼叫者创建默认电话号码以加入 Microsoft Teams 会议。
-ms.openlocfilehash: f0956007d5df72c1fd6c6ae905433e73bd855a56
-ms.sourcegitcommit: 312ff79ecab91412918793ec882bfc6e0143d30a
+ms.openlocfilehash: 27ff7040b27d2265bcdc5ab30f48cb919746471b
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66884841"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67642063"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>在 Microsoft Teams 中设置包含在邀请中的电话号码
 
@@ -100,6 +100,6 @@ Windows PowerShell Office 365 的功能是管理用户以及允许或不允许�
 
 ## <a name="related-topics"></a>相关主题
 
-[尝试或购买 Microsoft 365 或 Office 365 中的音频会议](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[尝试或购买 Microsoft 365 for Microsoft Teams 中的音频会议](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
 
 [更改音频会议网桥中的电话号码](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)

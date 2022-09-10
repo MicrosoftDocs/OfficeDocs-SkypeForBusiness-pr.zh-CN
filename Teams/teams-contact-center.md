@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 ms.collection:
 - M365-voice
-ms.openlocfilehash: 3125c79c5af23106420e2f6825128f170db4ff82
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 931d3bcda39724c55df3214c740f75890ec1cfbf
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269977"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67641753"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft Teams 的联系人中心集成
 
@@ -56,6 +56,7 @@ Microsoft Teams 认证计划的连接联系人中心验证每个参与提供商�
 | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `8x8` | https://www.8x8.com/8/8x8-contact-center-for-microsoft-teams                                                    |
 | `Anywhere365` | https://anywhere365.io/direct-routing-contact-center-for-microsoft-teams/                                      |
+| `Competella` | https://www.competella.com/microsoft-teams-skype-for-business                                  |
 | `ComputerTalk` | https://www.computer-talk.com/product/enterprise-contact-center/ice-contact-center-for-teams         |
 | `Content Guru` | https://www.contentguru.com/microsoft-teams-integration/    |
 | `Enghouse Interactive` | http://www.enghouseteams.com/         |
@@ -72,7 +73,6 @@ Microsoft Teams 认证计划的连接联系人中心验证每个参与提供商�
 | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `CentrePal` | https://www.centrepal.com/                                 |
 | `Cisco` | https://www.cisco.com/c/en/us/products/contact-center/webex-contact-center/index.html                                |
-| `Competella` | https://www.competella.com/microsoft-teams-skype-for-business                                  |
 | `ContactCenter4All` | www.contactcenter4all.com |
 | `Cirrus` | https://www.cirrusresponse.com/cloud-contact-centre/microsoft-teams/ |
 | `FrontStage` | https://www.frontstage.cc                                                                                        |

@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: '了解如何为业务中需要使用电话加入电话会议的人员设置拨号或音频会议。 '
-ms.openlocfilehash: 701c1b4826a52400d91d18d4aa26f11aac07d266
-ms.sourcegitcommit: 312ff79ecab91412918793ec882bfc6e0143d30a
+ms.openlocfilehash: 04c29b6eaf13d12bee1395d913519c971c7a25d1
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66884831"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67642123"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>设置 Microsoft Teams 的音频会议
 
@@ -105,8 +105,6 @@ ms.locfileid: "66884831"
 ## <a name="step-7-assign-dial-in-phone-numbers-for-users-who-lead-meetings"></a>第 7 步：给主持会议的用户分配电话拨入式电话号码
 
 请参阅 [设置 Microsoft Teams 中邀请中包含的电话号码](set-the-phone-numbers-included-on-invites-in-teams.md)。
-
-如果需要更多详细信息，请参阅[将 Microsoft 指定为音频会议提供商](/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)。
 
 > [!NOTE]
 > 还可以通过将电话号码添加到 *TeamsAudioconferencingpolicy* 并将策略分配给用户来设置电话号码。 添加到策略的收费和免费电话号码优先于通过音频会议设置窗格为用户单独设置的电话号码。 如果未将电话号码添加到 *Teamsaudioconferencingpolicy*，则通过音频会议设置窗格为用户单独设置的电话号码将显示在 Microsoft Teams 会议请求中。 [用于收费和免费号码的音频会议策略设置](audio-conferencing-toll-free-numbers-policy.md) 包含更多信息。

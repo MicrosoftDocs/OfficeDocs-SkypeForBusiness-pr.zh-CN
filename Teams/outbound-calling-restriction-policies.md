@@ -1,18 +1,17 @@
 ---
-title: 出站呼叫限制 - 音频会议 & PSTN 调用
+title: 出站呼叫限制 - 音频会议& PSTN 呼叫
 ms.reviewer: ''
 ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
 ms.topic: article
+ms.service: msteams
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection:
 - M365-voice
 audience: Admin
 appliesto:
-- Skype for Business
 - Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords:
@@ -21,12 +20,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 管理员可以控制用户可以进行的音频会议和最终用户 PSTN 调用的类型。
-ms.openlocfilehash: fd7dc24d7a920e5fb2c151600c3a6604381044e6
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 67c138db8522ec6eee1f384e182f5c8d01ea40fd
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674804"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67641763"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>音频会议和用户 PSTN 通话的出站通话限制策略
 
@@ -39,10 +38,10 @@ ms.locfileid: "65674804"
 |音频会议 PSTN 呼叫|限制出站类型 </br>允许从用户组织 </br>的会议内呼叫。|任何目标 (默认) </br>与组织者位于同一国家或地区 </br> 仅[限区域 A 国家/地区](audio-conferencing-zones.md) </br>不允许|
 |最终用户 PSTN 调用|限制可以由用户 </br>拨打的呼叫类型。|国际和国内 （默认值）</br>国内</br>无|
 
-若要了解哪些国家和地区被视为区域 A，请参阅[音频会议的国家/地区和区域](audio-conferencing-zones.md)。
+若要了解哪些国家和地区被视为区域 A，请参阅 [音频会议的国家/地区和区域](audio-conferencing-zones.md)。
 
    > [!NOTE]
-   > 如果拨号的号码位于为会议组织者设置了Microsoft 365或Office 365的同一国家/地区，则呼叫被视为国内电话 (在音频会议) 的情况下，或者最终用户在最终用户 PSTN 呼叫) 的情况下 (。
+   > 如果拨号的号码位于为会议组织者设置了 Microsoft 365 或Office 365的同一国家/地区，则呼叫被视为国内呼叫 (（对于音频会议) ），或者最终用户在最终用户 PSTN 呼叫) 的情况下 (。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]

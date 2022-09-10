@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 了解哪些桌面和会议电话已通过 Microsoft Teams 认证，以产生最佳结果。
-ms.openlocfilehash: c28cf614cf21b9a462ef140275d0282372387f3e
-ms.sourcegitcommit: ebffec34c050421dc8d09a16907644657ce323f4
+ms.openlocfilehash: b42ded686588d26bdd647adab136b4f0dba98cdb
+ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "67637075"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "67642093"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams 认证的 Android 设备
 
@@ -89,9 +89,7 @@ Microsoft Teams 设备认证计划确保认证设备符合高标准，在整个 
 | Logitech Rally Bar      | `1.2.788`     |   2024 年 9 月 3 日  |    中等大小的房间 (4.5 米 x 6 米)        | 10 |
 | AudioCodes RXV80 | `1.9.155`        |   2023 年 8 月 5 日  | 焦点室 (3 米 x 3 米)  </br> 小型会议室 (4.5 米 x 4.5 米)  | 9 |
 | EPOS EXPAND Vision 3T       | `1.2.0.21102.03`    | 2023 年 8 月 5 日 | 焦点室 (3 米 x 3 米)  </br> 小型会议室 (4.5 米 x 4.5 米)  | 9 |
-| Yealink MeetingBar A30       | `133.15.0.52`    | 2023 年 8 月 5 日   | 中等大小的房间 (4.5 米 x 6 米)  | 9 |
 | Yealink CTP18 触摸控制台  | `137.15.0.28`    | 2023 年 8 月 5 日   | 与 Yealink MeetingBar A20 和 Yealink MeetingBar A30 兼容 | 9 |
-| Yealink MeetingBar A20  | `133.15.0.19`      | 2023 年 8 月 5 日 | 焦点室 (3 米 x 3 米)  </br> 小型会议室 (4.5 米 x 4.5 米)  | 9 |
 | Poly Studio X30         | `3.1.1.216109`     | 2022 年 12 月 5 日  | 焦点室 (3 米 x 3 米)  </br> 小型会议室 (4.5 米 x 4.5 米)  | 8.1 |
 | Poly Studio X50         | `3.1.1.216109`     | 2022 年 12 月 5 日   | 焦点室 (3 米 x 3 米)  </br> 小型会议室 (4.5 米 x 4.5 米)  | 8.1 |
 | Poly TC8                | `3.3.2.210441`     | 2023 年 8 月 5 日 | 与 Poly Studio X30 和 Poly Studio X50 兼容  |  9  |
