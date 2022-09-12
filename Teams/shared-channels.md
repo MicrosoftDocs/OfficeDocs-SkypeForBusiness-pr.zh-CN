@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 了解如何在 Microsoft Teams 中使用和管理共享频道。
-ms.openlocfilehash: dd9edbe18a01ffc1a46a8cab76a383aed0bef5a4
-ms.sourcegitcommit: 09b77e83bc41914007606468e322d4ea47e2e8a4
+ms.openlocfilehash: 323d20c152af9595b6a738f917103a59ab4142ef
+ms.sourcegitcommit: 41a75f1ba5ceb09f8db7d468aa41b63a89ab9c30
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "67630452"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "67647546"
 ---
 # <a name="shared-channels-in-microsoft-teams"></a>Microsoft Teams 中的共享频道
 
@@ -118,7 +118,7 @@ Microsoft Teams 中的共享频道可创建协作空间，你可以在其中邀�
 
 ## <a name="considerations-around-file-access-in-shared-channels"></a>有关共享频道中的文件访问的注意事项
 
-通过使用 [标准 SharePoint 文件共享](https://support.microsoft.com/office/1fe37332-0f9a-4719-970e-d2578da4941c)，可以与频道外部的人员共享位于共享频道中的文件、文件夹和 OneNote 笔记本。
+共享通道中的文件、文件夹和 OneNote 笔记本可以与频道外部的人员共享 (但不能在组织外部使用 [标准 SharePoint 文件共享](https://support.microsoft.com/office/1fe37332-0f9a-4719-970e-d2578da4941c)) 。
 
 如果通过 SharePoint 向用户授予对共享频道中文件、文件夹或笔记本的访问权限，则从团队或共享频道中删除用户将不会删除用户对文件、文件夹或笔记本的访问权限。
 

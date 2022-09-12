@@ -18,30 +18,30 @@ description: 了解如何管理和配置最终用户请求，以允许在组织�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: c47578184aa97f9c6cc366e186c1590ef1e3fba4
-ms.sourcegitcommit: ebffec34c050421dc8d09a16907644657ce323f4
+ms.openlocfilehash: 122d41de6f1cb5ea67a5ce85ba9f8f7d02e26339
+ms.sourcegitcommit: 41a75f1ba5ceb09f8db7d468aa41b63a89ab9c30
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "67637306"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "67647536"
 ---
-# <a name="manage-user-requests-to-allow-apps-that-are-blocked-by-admins"></a>管理用户请求以允许管理员阻止的应用
+# <a name="manage-user-requests"></a>管理用户请求
 
-组织中阻止的应用可能会降低最终用户的工作效率和协作。 最终用户无法使用 Teams 应用商店中可用但组织中受阻止的应用。 但是，为了随时了解情况，最终用户可以查看被阻止的应用、查看应用的信息及其服务器的用例。 选择允许应用后，用户可以请求管理员批准，以便他们可以在 Teams 中使用这些应用。
+组织中阻止的应用可能会影响最终用户的工作效率和协作。 最终用户无法使用 Teams 应用商店中可用但组织中受阻止的应用。 但是，为了随时了解情况，最终用户可以查看被阻止的应用、查看应用的信息及其服务器的用例。 用户在评估请求后请求管理员批准，以便他们在 Teams 中使用这些应用。
 
-此功能提供有关组织内应用需求的信号。 可以轻松查看应用请求的聚合数，并就组织中要考虑允许的应用做出明智的决策。
+此功能提供有关组织内应用需求的信号。 可以轻松查看应用请求的聚合数。 它可帮助你就组织中允许的应用进行评估做出明智的决定。
 
 保留对用户允许或阻止的应用的完全控制。 如果选择允许应用，则用于管理应用的控件和 UI 保持不变。
 
-* 默认选项在 Teams 管理中心发送用户请求，你可以在其中 [查看用户请求并允许请求的应用](#view-user-requests-and-allow-the-requested-apps)。
+* 默认选项在 Teams 管理中心发送用户请求，你可以在其中 [查看用户请求并允许请求的应用](#view-user-requests)。
 
    :::image type="content" source="media/user-request-blocked-apps.png" alt-text="显示请求管理员批准阻止应用的选项的屏幕截图。":::
 
-* 通过自定义，可以通过将用户重定向到自定义应用请求方法来 [配置最终用户体验](#modify-the-default-setting-to-receive-end-user-requests-to-allow-an-app) 。 可以提供自定义短信来通知用户，并将用户定向到组织的内部 URL 以收集允许应用的请求。
+* 通过自定义，可以配置最适合组织的 [最终用户体验](#modify-the-default-setting-to-receive-end-user-requests) 。 可以提供向最终用户显示在 Teams 应用商店中被阻止应用的自定义指令，并将用户定向到内部站点以收集其请求。
 
-   :::image type="content" source="media/user-request-blocked-apps-redirected.png" alt-text="屏幕截图显示了管理员将允许应用请求 URL 重定向到自定义 URL 时应用在应用商店中的最终用户体验。":::
+   :::image type="content" source="media/user-request-blocked-apps-redirected.png" alt-text="屏幕截图显示了当管理员将允许应用请求 URL 重定向到内部站点时，应用商店中的应用的最终用户体验。":::
 
-## <a name="modify-the-default-setting-to-receive-end-user-requests-to-allow-an-app"></a>修改默认设置以接收最终用户请求以允许应用
+## <a name="modify-the-default-setting-to-receive-end-user-requests"></a>修改默认设置以接收最终用户请求
 
 若要配置自定义消息并将用户重定向到特定于组织的 URL 以请求应用审批，请执行以下步骤：
 
@@ -60,9 +60,9 @@ ms.locfileid: "67637306"
 
 1. 选择“**保存**”。
 
-## <a name="view-user-requests-and-allow-the-requested-apps"></a>查看用户请求并允许请求的应用
+## <a name="view-user-requests"></a>查看用户请求
 
-默认方法收到的最终用户请求显示在 Teams 管理中心。 可以轻松查看和管理请求。 强烈建议定期对最终用户请求进行会审检查。 若要查看和允许应用，请执行以下步骤：
+默认方法收到的最终用户请求显示在 Teams 管理中心。 可以轻松查看和管理请求。 建议定期进行会审以检查最终用户请求。 若要查看和允许应用，请执行以下步骤：
 
 1. 登录 Teams 管理中心并访问 **Teams 应用** > **[管理应用](https://admin.teams.microsoft.com/policies/manage-apps)** 页面。
 
@@ -82,7 +82,7 @@ ms.locfileid: "67637306"
    * 如果为所有用户阻止应用，请 [允许该应用](manage-apps.md#allow-and-block-apps)。
    * 如果所有用户都阻止了所有应用， [请修改组织范围的设置](manage-apps.md#manage-org-wide-app-settings)。
 
-1. （可选）若要切换到特定于组织 URL 的自定义配置，请在“管理用户请求”对话框中选择“配置用户请求”链接。 它将打开组织范围的应用设置窗格，可在其中 [配置最终用户请求体验](#modify-the-default-setting-to-receive-end-user-requests-to-allow-an-app)。
+1. （可选）若要切换到特定于组织 URL 的自定义配置，请在“管理用户请求”对话框中选择“配置用户请求”链接。 它将打开组织范围的应用设置窗格，可在其中 [配置最终用户请求体验](#modify-the-default-setting-to-receive-end-user-requests)。
 
 如果在 Teams 管理中心收到请求后允许应用，则 Teams 不会通知最终用户其请求已执行。 用户可以在 Teams 应用商店中检查应用，以检查是否允许应用。 允许后，用户可以使用“添加应用”选项。 如果在通过组织特定的方法接收请求后允许应用，则将应用内部机制来向最终用户提供状态更新。
 

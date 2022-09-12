@@ -1,7 +1,7 @@
 ---
 title: 为直接路由计划基于位置的路由
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d282a2cd9588c2e7104b3093d03da082e9cf388b
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.openlocfilehash: 795433f832d57767a7937be1a9d3e7f31e73f240
+ms.sourcegitcommit: 41a75f1ba5ceb09f8db7d468aa41b63a89ab9c30
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562621"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "67647436"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>为直接路由计划基于位置的路由
 
@@ -340,7 +340,7 @@ Location-Based路由的工作原理是根据用户 Teams 终结点的 IP 地址�
 
 #### <a name="inbound-calls-through-voice-apps-auto-attendant-or-call-queue"></a>通过语音应用 (自动助理或呼叫队列) 进行入站呼叫
 
-允许从启用了路由Location-Based网关的入站 PSTN 调用连接到自动助理或呼叫队列。 
+允许从启用了路由Location-Based网关的入站 PSTN 呼叫连接到自动助理或呼叫队列。 
 
 启用了Location-Based路由的用户在位于入站 PSTN 呼叫源自的同一站点时，支持接收这些应用程序的入站呼叫传输。
  
@@ -387,9 +387,9 @@ Location-Based路由不适用于以下类型的交互。 在以下情况下，�
 
 ### <a name="location-based-routing-for-conferencing"></a>Location-Based会议路由
 
-不允许在 PSTN 呼叫中启用Location-Based路由的用户使用其他用户或 PSTN 号码开始会议。 允许连接到自动助理或呼叫队列。
+在 PSTN 呼叫中没有音频会议许可证的启用了Location-Based路由的用户不允许使用其他用户或 PSTN 号码开始会议。 允许连接到自动助理或呼叫队列。
 
-如果用户有音频会议许可证，则用户必须与相关用户启动会议，并通过会议网桥调用 PSTN 以启动电话会议。
+如果用户有音频会议许可证，则用户必须与相关用户启动会议，并通过会议网桥调用 PSTN 以启动电话会议。 如果用户已在 PSTN 呼叫中，则可以通过使用会议网桥将呼叫升级为拨出，向呼叫添加另一个用户或 PSTN 号码。
 
 在没有音频会议许可证的用户发起的电话会议上，如果电话会议中至少有一个或至少已启用路由 Location-Based的用户，则不允许添加 PSTN 参与者。 如果在邀请任何启用了 Location-Based路由的参与者加入呼叫之前，至少有一个 PSTN 参与者是或是此类电话会议的一部分，则无法将启用路由的参与者添加到呼叫中Location-Based。
 
@@ -397,6 +397,7 @@ Location-Based路由不适用于以下类型的交互。 在以下情况下，�
 
 不得使用印度的任何电话设备部署音频会议的网络会议。
 
+不允许在 PSTN 呼叫中启用Location-Based路由的用户将该调用与其他调用合并。
 
 ### <a name="media-bypass-requirement-for-location-based-routing"></a>Location-Based路由的媒体旁路要求
 

@@ -1545,6 +1545,10 @@ items:
             href: adobe-acrobat-pdf-viewer-teams.md
           - name: 管理 Microsoft 365 和自定义连接器
             href: Office-365-custom-connectors.md
+          - name: 使用应用自定义自定义自定义应用品牌
+            href: customize-apps.md
+          - name: 跨 Microsoft 365 管理对应用的访问
+            href: manage-third-party-teams-apps.md
       - name: 管理自定义应用
         items:
           - name: 管理自定义和旁加载的应用
@@ -1579,13 +1583,11 @@ items:
             href: resource-specific-consent.md
           - name: 了解应用权限和对资源的访问
             href: app-permissions.md
-          - name: 自定义应用的外观和元数据
-            href: customize-apps.md
           - name: 为组织应用商店打造品牌
             href: customize-your-app-store.md
           - name: 跨 Microsoft 365 管理对应用的访问
             href: manage-third-party-teams-apps.md
-          - name: 外部用户的应用行为
+          - name: 将应用用作外部用户或来宾用户
             href: non-standard-users.md
           - name: 管理用户请求以允许应用
             href: user-requests-approve-apps.md

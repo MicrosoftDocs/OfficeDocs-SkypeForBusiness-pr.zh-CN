@@ -15,21 +15,21 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何在 Microsoft Teams 中的组织中使用标记。
-ms.openlocfilehash: 4f394d66521464e99c9492532cb1571931a8de27
-ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
+ms.openlocfilehash: 9c2da438d3f88a172759ec13672aec663ae6add9
+ms.sourcegitcommit: 41a75f1ba5ceb09f8db7d468aa41b63a89ab9c30
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "67418501"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "67647426"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>在 Microsoft Teams 中管理标记
 
-Microsoft Teams 中的标记使用户能够快速轻松地与团队中的一部分人员进行连接。 可以创建和分配自定义标记，以便根据角色、项目、技能或位置等属性对人员进行分类。 或者，标记可以根据人员在 [Shifts 应用](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?#PickTab=Shifts)中的日程安排和轮班信息自动分配给他们。 将标记添加到一个或多个团队成员后，该标记可在频道帖子中由团队中的任何人用于@mentions，仅通知分配了该聊天标记的人员。
+Microsoft Teams 中的标记使用户能够快速轻松地与团队中的一部分人员进行连接。 可以创建和分配自定义标记，以便根据角色、项目、技能或位置等属性对人员进行分类。 或者，标记可以根据人员在 [Shifts 应用](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6)中的日程安排和轮班信息自动分配给他们。 将标记添加到一个或多个团队成员后，该标记可在频道帖子中由团队中的任何人用于@mentions，仅通知分配了该聊天标记的人员。
 
 如前所述，Teams 中有两种类型的标记。
 
 - **自定义标记**：团队所有者和团队成员 (，如果他们拥有权限，) 可以手动创建标记并向人员分配标记。 例如，“设计器”或“放射学家”标记将访问团队中的这些人员集，而无需键入他们的名字。
-- **按班次标记**：使用此功能，在 Teams 的 [Shifts 应用](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_openshiftsappdesktop) 中自动分配与其计划和班次组名称匹配的标记。 例如，“EngineerOnCall”标记将到达在聊天或频道帖子中使用标记时计划在 Shifts 中工作的所有工程师。 通过按班次标记，当用户需要快速中继信息时，Teams 会从知道轮班员工的姓名中获取猜测。
+- **按班次标记**：使用此功能，在 Teams 的 [Shifts 应用](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_usetags) 中自动分配与其计划和班次组名称匹配的标记。 例如，“EngineerOnCall”标记将到达在聊天或频道帖子中使用标记时计划在 Shifts 中工作的所有工程师。 通过按班次标记，当用户需要快速中继信息时，Teams 会从知道轮班员工的姓名中获取猜测。
 
 > [!NOTE]
 > 专用频道或共享频道不支持标记。
