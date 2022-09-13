@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 13d7032c78a7863b46bb186553b0b67e67f8c626
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 07d5e443075a80ddad8bda2e490cdd906c3900bf
+ms.sourcegitcommit: 9de6b0b03f433e71fe239d292387eed33c11b531
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66494489"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "67657232"
 ---
 # <a name="skype-for-business-online-retirement"></a>Skype for Business Online 停用
 
@@ -46,9 +46,10 @@ Skype for Business Online 停用不会影响对本地部署 Skype for Business S
  - 在混合组织中，将本地用户迁移到云时，无论是否在云中`Move-CsUser`指定开关，`MoveToTeams`都会自动为用户分配 TeamsOnly 模式。
  - 无法为云中托管的用户分配 TeamsOnly 以外的模式。 联机用户 *不* 使用本地Skype for Business服务器。
 
-客户的剩余用户可能位于 Skype for Business Online 中，但尚未分配 TeamsOnly 模式。 客户应尽快将 TeamsOnly 模式分配给这些用户。 Microsoft 将为不在 TeamsOnly 模式下的Skype for Business联机用户提供辅助升级。 辅助升级体验取决于你的组织是纯在线组织还是具有本地Skype for Business用户的组织。 有关详细信息，请参阅[从 Skype for Business Online 到 Microsoft Teams 的辅助升级](upgrade-assisted.md)。
+客户的剩余用户可能位于 Skype for Business Online 中，但尚未分配 TeamsOnly 模式。 客户应尽快将 TeamsOnly 模式分配给这些用户。 Microsoft 将为不在 TeamsOnly 模式下的Skype for Business联机用户提供辅助升级。 辅助升级体验取决于你的组织是纯在线组织还是具有本地Skype for Business用户的组织。 有关详细信息，请参阅[从 Skype for Business Online 到 Microsoft Teams 的辅助升级](upgrade-assisted.md)。 辅助升级完成后，所有 *联机* 用户都将处于 TeamsOnly 模式。 *任何本地用户都保留在本地，不会成为 TeamsOnly*。
 
-辅助升级完成后，所有 *联机* 用户都将处于 TeamsOnly 模式。 TeamsOnly 模式下的用户在 Teams 中接收传入聊天和呼叫，并在 Teams 中安排会议。 他们无法在联机Skype for Business发起聊天、呼叫或安排会议。  但是，TeamsOnly 用户可以加入他们已拥有或将来接收的Skype for Business会议。 最后， *任何本地用户仍保留在本地，不会成为 TeamsOnly*。
+TeamsOnly 模式下的用户在 Teams 中接收传入聊天和呼叫，并在 Teams 中安排会议。 他们无法在联机Skype for Business发起聊天、呼叫或安排会议。 TeamsOnly 用户可以加入他们已拥有或将来接收的Skype for Business会议。 但是，在 Microsoft 删除给定 TeamsOnly 用户的 Skype for Business Online 基础结构后，TeamsOnly 用户只能匿名加入Skype for Business会议。  从 2022 年 6 月 30 日之后开始，新创建的 TeamsOnly 用户将不再使用 Skype for Business Online 基础结构进行预配，因此如果他们被邀请参加Skype for Business会议，则需要匿名加入。
+
 
 ## <a name="actions-to-take-before-june-30-2022"></a>要在 2022 年 6 月 30 日之前执行的操作
 现在，Skype for Business Online 已停用，Microsoft 将于 2022 年 6 月 30 日开始停用支持基础结构。  对于具有从任何版本的 Skype for Business 升级的 TeamsOnly 用户的任何组织，如果以下任一情况适用，则需要采取措施：
@@ -60,7 +61,7 @@ Skype for Business Online 停用不会影响对本地部署 Skype for Business S
 
  - **Skype for Business联机联系人：** 用户升级到 TeamsOnly 模式后，用户首次登录 Teams 时，该用户Skype for Business联机帐户中的任何现有联系人都将迁移到 Teams。 Microsoft 删除Skype for Business联机基础结构后，你不能再 *为尚未登录 Teams 的用户* 迁移联系人。 若要将联系人从Skype for Business迁移到 Teams，Microsoft 建议以前Skype for Business的所有用户至少在 2022 年 6 月 30 日之前登录一次 Teams。
 
- - **Skype for Business联机会议：** 将组织升级到 TeamsOnly 后，用户将创建所有新会议作为 Teams 会议。 在某些情况下，TeamsOnly 用户可能仍拥有之前组织的Skype for Business联机会议。 目前，升级的 TeamsOnly 用户和任何受邀与会者都可以使用其Skype for Business客户端加入这些Skype for Business联机会议。 但是，在 Microsoft 删除给定 TeamsOnly 用户的 Skype for Business Online 基础结构后，该用户组织的剩余Skype for Business联机会议将不再存在。 组织者和任何与会者将无法参加这些会议。 如果 TeamsOnly 组织中的用户拥有他们组织的剩余Skype for Business联机会议，Microsoft 建议将这些会议重新安排为 Teams 会议。 或者，管理员可以使用 [会议迁移服务](/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms#trigger-meeting-migration-manually-via-powershell-cmdlet) 将这些会议转换为 Teams 会议。 在任一情况下，请在 2022 年 6 月 30 日之前完成这些操作。  
+ - **Skype for Business联机会议：** 将组织升级到 TeamsOnly 后，用户将创建所有新会议作为 Teams 会议。 在某些情况下，TeamsOnly 用户可能仍拥有之前组织的Skype for Business联机会议。 目前，升级的 TeamsOnly 用户和任何受邀与会者都可以使用其Skype for Business客户端加入这些Skype for Business联机会议。 但是，在 Microsoft 删除给定 TeamsOnly 用户的 Skype for Business Online 基础结构后，该用户只能匿名加入 Skype for business 会议，并且 *该用户组织的* 剩余Skype for Business联机会议将不再存在。 组织者和任何与会者将无法参加这些会议。 如果 TeamsOnly 组织中的用户拥有他们组织的剩余Skype for Business联机会议，Microsoft 建议将这些会议重新安排为 Teams 会议。 或者，管理员可以使用 [会议迁移服务](/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms#trigger-meeting-migration-manually-via-powershell-cmdlet) 将这些会议转换为 Teams 会议。 在任一情况下，请在 2022 年 6 月 30 日之前完成这些操作。  
 
 
 ## <a name="how-microsoft-is-helping-customers-upgrade-to-teams"></a>Microsoft 如何帮助客户升级到 Teams

@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8e78d5905eaed7d9302ffdbf071c3dcf93f00fea
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: 9affb1fc93bf79cd7f583f0e74b02bd06f604f0d
+ms.sourcegitcommit: 9de6b0b03f433e71fe239d292387eed33c11b531
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616258"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "67657252"
 ---
 # <a name="manage-user-access-to-teams"></a>管理对 Teams 的用户访问
 
@@ -40,7 +40,7 @@ ms.locfileid: "66616258"
 
 ## <a name="using-the-microsoft-365-admin-center"></a>使用 Microsoft 365 管理中心
 
-Teams 用户级别许可证是直接通过 Microsoft 365 管理中心用户管理界面管理的。 管理员可以在创建新用户帐户时为新用户分配许可证，也可以为已有帐户的用户分配许可证。 
+Teams 用户级别许可证是直接通过 Microsoft 365 管理中心用户管理界面管理的。 管理员可以在创建新用户帐户时为新用户分配许可证，也可以为已有帐户的用户分配许可证。
 
 > [!IMPORTANT]
 > 管理员必须拥有全局管理员或用户管理管理员权限，才能管理 Microsoft Teams 许可证。
