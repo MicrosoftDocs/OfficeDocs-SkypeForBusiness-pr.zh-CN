@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 了解如何更改要用作服务号码或用户号码的电话号码的使用情况。
-ms.openlocfilehash: e07255420cf9b480aa28e25a635b799eed94bd0f
-ms.sourcegitcommit: d0cbc23e10219dd2889011421010215a5d246031
+ms.openlocfilehash: 5fb8e65a1a04a28cd69314d2919cefa7f2d988c4
+ms.sourcegitcommit: 087254ba68d75ea4f9205a972f1d8d554d9176c7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2022
-ms.locfileid: "67460692"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "67650884"
 ---
 # <a name="manage-the-usage-of-a-phone-number"></a>管理电话号码的使用情况
 
@@ -53,7 +53,7 @@ ms.locfileid: "67460692"
 
 ## <a name="still-need-assistance"></a>还需要帮助吗？
 
-如果需要帮助，请联系 [TNS 服务台](/contact-tns-service-desk.md)。
+如果需要帮助，请联系 [TNS 服务台](/MicrosoftTeams/manage-phone-numbers-for-your-organization/contact-tns-service-desk)。
 
 ## <a name="related-topics"></a>相关主题
 
