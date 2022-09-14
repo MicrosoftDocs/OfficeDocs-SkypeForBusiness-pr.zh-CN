@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 了解如何更改要用作服务号码或用户号码的电话号码的使用情况。
-ms.openlocfilehash: 5fb8e65a1a04a28cd69314d2919cefa7f2d988c4
-ms.sourcegitcommit: 087254ba68d75ea4f9205a972f1d8d554d9176c7
+ms.openlocfilehash: a2c87a5348e22081107573cd94843cfe4050a198
+ms.sourcegitcommit: 46b5dc0519d487e264b1386e5074085c2d090e9a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/13/2022
-ms.locfileid: "67650884"
+ms.locfileid: "67668629"
 ---
 # <a name="manage-the-usage-of-a-phone-number"></a>管理电话号码的使用情况
 
@@ -35,14 +35,16 @@ ms.locfileid: "67650884"
 
 若要使用 Teams 管理中心更改电话号码的使用情况：
 
-1. 打开 Microsoft Teams 管理中心，使用全局管理员或 Teams 管理员帐户登录。 这通常是用于注册 Microsoft 365 的帐户。
+1. 打开 Microsoft Teams 管理员中心，并使用全局管理员或 Teams 管理员帐户登录。 这通常是用于注册 Microsoft 365 的帐户。
 
 2. 在左侧导航栏中，选择 **“语音** \> **电话号码**”。
 
 3. 在 **“电话号码** ”页上，在列表中选择一个未分配的号码，然后选择 **“更改使用情况**”。
 
       > [!NOTE]
-      > 在尝试更改其使用情况之前，请确保选择 **未分配** 的号码，否则该选项将不可见。 如果当前分配了号码，则需要先从用户或资源帐户 [中删除电话号码](/MicrosoftTeams/assign-change-or-remove-a-phone-number-for-a-user#remove-a-phone-number-from-a-user) 。
+      > 如果看不到 **“更改使用情况”** 选项，请仔细检查以下内容：
+      > - 在尝试更改其使用情况之前，请确保选择 **未分配** 的号码，否则该选项将不可见。 如果当前分配了号码，则需要先从用户或资源帐户 [中删除电话号码](/MicrosoftTeams/assign-change-or-remove-a-phone-number-for-a-user#remove-a-phone-number-from-a-user) 。
+      > - 在“ **可用用法** ”列中必须具有多个类型的使用情况。 否则，你将无法通过 Teams 管理员中心更改数字类型。
 
 4. 在 **“更改使用情况** ”窗格中，打开电话号码的可用用法列表，然后在预期选项上选择它。
 
@@ -53,7 +55,7 @@ ms.locfileid: "67650884"
 
 ## <a name="still-need-assistance"></a>还需要帮助吗？
 
-如果需要帮助，请联系 [TNS 服务台](/MicrosoftTeams/manage-phone-numbers-for-your-organization/contact-tns-service-desk)。
+如果仍需要帮助，请联系 [TNS 服务台](/MicrosoftTeams/manage-phone-numbers-for-your-organization/contact-tns-service-desk)。
 
 ## <a name="related-topics"></a>相关主题
 
