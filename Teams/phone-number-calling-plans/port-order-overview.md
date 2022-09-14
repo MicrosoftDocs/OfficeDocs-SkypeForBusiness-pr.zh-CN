@@ -21,12 +21,12 @@ description: 大致了解什么是端口订单，以及如何将电话号码从�
 ms.collection:
 - M365-voice
 - m365initiative-voice
-ms.openlocfilehash: e9f267bfdb56558245fecefe240f2c09c07d4783
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: c5c8b68cfd97c8a39f0b4866fb7670473a9ecef3
+ms.sourcegitcommit: 46b5dc0519d487e264b1386e5074085c2d090e9a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270867"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67674373"
 ---
 # <a name="whats-a-port-order"></a>什么是转网订单？
 
@@ -40,7 +40,7 @@ ms.locfileid: "67270867"
 
 可以在所有受支持的国家或地区中移植或传输电话号码，但如何提交端口订单请求取决于电话号码来源的国家或地区。 有关支持号码移植的国家和地区的列表，请参阅 [管理组织的电话号码](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。  
 
-目前，Microsoft Teams 管理中心的[移植向导](transfer-phone-numbers-to-teams.md)支持获取英国、美国和加拿大的电话号码。 若要获取其他国家和地区的电话号码，可以 [手动提交端口订单](manually-submit-port-order.md)。
+目前，Microsoft Teams 管理中心的[移植向导](transfer-phone-numbers-to-teams.md)支持获取英国、Estados Unidos和加拿大的电话号码。 若要获取其他国家和地区的电话号码，可以 [手动提交端口订单](manually-submit-port-order.md)。
   
 ## <a name="what-numbers-can-be-transferred"></a>哪些号码可以转移？
 
@@ -53,7 +53,7 @@ ms.locfileid: "67270867"
 - 移动设备电话号码，例如用于手机和平板电脑的电话号码。
 
     > [!NOTE]
-    > 传输移动号码仅在美国和波多黎各可用。
+    > 传输移动号码仅在Estados Unidos和波多黎各可用。
   
 - 收费电话号码。
 
@@ -140,7 +140,7 @@ ms.locfileid: "67270867"
 ## <a name="can-user-subscriber-phone-numbers-be-converted-to-service-numbers"></a>用户（订阅者）电话号码是否可以转换为服务号码？
 <a name="bkmk_type_1"> </a>
 
-可以。 你只需要提交一个服务请求，在请求中提供你组织的租户 GUID 和你要转换的电话号码。 若要执行此操作，请参阅 [管理组织的电话号码](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+是的，他们可以。 若要执行此操作，请参阅 [管理电话号码的使用](../manage-the-usage-of-a-phone-number.md)情况。
 
 ## <a name="can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier"></a>是否可以将我的号码从 Teams 移植到其他电话服务提供商或运营商？
 

@@ -23,34 +23,20 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: 获取电话号码或端口 (为组织转移) 号码时，可能需要在 TNS 服务台获得帮助和支持。
-ms.openlocfilehash: 8fd5bb73ebdf5aba4cbadeb885404e1a6a6b4fca
-ms.sourcegitcommit: 9175c6d542dd825ce965d0cb7c67264f22315202
+ms.openlocfilehash: b490552b9f6f06a70e017b13f120bbb777cb9131
+ms.sourcegitcommit: 46b5dc0519d487e264b1386e5074085c2d090e9a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "66687868"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67674403"
 ---
 # <a name="telephone-number-services-tns---service-desk"></a>电话号码服务 (TNS) - 服务台
 
-有一个新的过程与电话号码服务 (TNS) 服务台交互。 现在可以在与 Teams 管理中心集成的单个位置打开票证、查看票证和跟踪通信。 本文介绍联系服务台所需的一切信息。
-
 > [!NOTE]
-> 自 2021 年 7 月 22 日起，当前电子邮件系统已停用。
+> 截至 2021 年 7 月 22 日，以前与 TNS 服务台联系的电子邮件系统已停用。
 
-若要联系服务台，请执行以下操作：
+有一个新的过程，从我们新的 **[电话号码服务中心](https://pstnsd.powerappsportals.com)** 与电话号码服务 (TNS) 服务台进行交互。 现在可以在与 Teams 管理中心集成的单个位置打开票证、查看票证和跟踪通信。 以下各节更详细地介绍了这些任务。
 
-1. 登录到 [Teams 管理中心](https://admin.teams.microsoft.com)。
-
-2. 在左侧窗格中，选择 **“语音**”，然后选择 **电话号码**。
-
-3. 在页面右上角，单击 **“操作**”，然后选择 **“获取电话号码支持**”。 你将转到 [电话号码服务中心](https://pstnsd.powerappsportals.com/)
-
-> [!NOTE]
-> 仅允许同一租户中的某个人创建案例。 例如，@fabrikam.com 中的某人无法代表 @contoso.com 创建案例。
-
-在电话号码服务中心，可以创建新案例、查看现有案例、与服务台通信以及管理用户配置文件。以下各节更详细地描述了这些任务。
-
-- **电话号码服务中心** - 导航到门户主页。
 
 - **[创建新案例](#create-a-new-case)** - 提交新请求或常规查询。
 
@@ -60,15 +46,16 @@ ms.locfileid: "66687868"
 
 - **[提供反馈](#view-and-manage-existing-cases)** – 与我们共享反馈。
 
-- **[你的姓名]** - 更新配置文件页。
-
 ## <a name="create-a-new-case"></a>新建案例
+
+> [!NOTE]
+> 仅允许同一租户中的某个人创建案例。 例如，@fabrikam.com 中的某人无法代表 @contoso.com 创建案例。
 
 若要创建新案例，请执行以下步骤：
 
 1. 选择 **从以下位置之一创建新案例** ：
 
-   - 从 **电话号码服务中心** 页、页面顶部或底部磁贴。
+   - 从 **电话号码服务中心** 主页、页面顶部或底部磁贴。
 
    - 从 **查看现有案例**  页。
 
@@ -168,7 +155,7 @@ ms.locfileid: "66687868"
 
   - **电话号码列表** - 要为其更改紧急地址的电话号码列表（在"说明"字段中输入所需的地址）。 上传包含电话号码列表的 csv 文件。
 
-***日期和时间。** 如果选择国家/地区 = 法国，日期 = 2021/8/14，时间 = 上午 10 点，则请求将在 2021 年 8 月 14 日上午 10 点执行。 法语时间。
+**日期和时间。** 如果选择国家/地区 = 法国，日期 = 2021/8/14，时间 = 上午 10 点，则请求将在 2021 年 8 月 14 日上午 10 点执行。 法语时间。
 
 #### <a name="case-title"></a>案例标题
 
