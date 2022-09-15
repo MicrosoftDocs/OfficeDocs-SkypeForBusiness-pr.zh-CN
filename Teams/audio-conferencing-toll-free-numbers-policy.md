@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - ms.teamsadmincenter.audioconferencing.overview
 description: 了解 Microsoft 365 或Office 365中的音频会议如何允许用户通过手机呼叫会议。
-ms.openlocfilehash: 7073fa9c870fc718b2d2c6e24e109878e0dd2d34
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 8fcc731f208dc3fecd42dd2c351714f67ad6a684
+ms.sourcegitcommit: 44d9f15f7f7c00b3651a11ff1e8b37dda1716a52
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269927"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "67732401"
 ---
 # <a name="audio-conferencing-policy-settings-for-toll-and-toll-free-numbers"></a>用于收费和免费号码的音频会议策略设置
 
@@ -36,6 +36,9 @@ ms.locfileid: "67269927"
 
 - 无法再通过 Teams 管理中心或 PowerShell 为单个用户管理 AllowTollFreeDialin 的设置。 租户管理员只能通过新的音频会议策略管理此设置。
 - 无法从 Teams 管理中心修改全局策略。
+
+> [!NOTE]
+> 对于为Skype for Business区域托管会议启用的客户，不支持自定义音频会议策略。 为区域托管会议启用的客户可以通过其默认设置管理用户的音频会议设置。 通过导航到“用户 **管理** -> 用户 **选择** -> 用户 **帐户**”，可以在 Teams 管理员中心更改 **用户** -> 的音频会议默认设置。
 
 在租户中启用 Teams 音频会议策略时，租户中将提供两个自动创建的策略。 两个自动创建的策略及其默认设置为：
 

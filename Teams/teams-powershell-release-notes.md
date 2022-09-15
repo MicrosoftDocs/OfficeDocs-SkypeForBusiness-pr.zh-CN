@@ -13,12 +13,12 @@ ms.collection:
 description: 了解 Teams PowerShell 中的最新更改。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c83627143718f003675d8fbe1992dace9c864b5a
-ms.sourcegitcommit: 479e236aa8a9a91df4894ed3cce4c287a1354d80
+ms.openlocfilehash: 5d488fbc8274b5b4e14a29e336b5ef0563872d56
+ms.sourcegitcommit: 44d9f15f7f7c00b3651a11ff1e8b37dda1716a52
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/02/2022
-ms.locfileid: "67572052"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "67732301"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams PowerShell 发行说明
 
@@ -31,6 +31,7 @@ ms.locfileid: "67572052"
 
 | 日期 | 版本 | 汇报 |
 |------- | -------------------- | ------------------------------ |
+| 2022 年 9 月 | [4.7.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.7.1-preview) |<li>在预览Connect-MicrosoftTeams中发布基于应用程序的身份验证支持。 支持的 cmdlet 正在逐步推出，在 [Teams PowerShell 模块中，基于应用程序的身份验证](teams-powershell-application-authentication.md)将提供更多详细信息。</li><li>在专用预览版中发布 [Get\|Set]-CsTeamsEducationConfiguration cmdlet。</li><li>[获取\|New]-CsTeamsShiftsConnectionTeamMap cmdlet - 添加了 TimeZone 属性。</li><li>从 Set-CsOnlineDialinConferencingUser 中删除 SendEmailFromAddress 和 SendEmailFromDisplayName 输入参数。</li><li>从 Set-TeamsAcsFederationConfiguration 中删除 AllowAllAcsResources 和 BlockedAcsResources 参数。</li>
 | 2022 年 9 月 | [4.7.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.7.0) |<li>修复了在 PS ISE 和 dotnet 应用程序上使用模块时进程清理的问题。</li><li>在 GA 中发布 [Get\|New]-CsBatchTeamsDeployment cmdlet。</li><li>发布 [New\|Set]-CSTeamsShiftsConnectionInstance，Test-CsTeamsShiftsConnectionValidate对 UKG 维度的支持。</li><li>修复了在 Connect-MicrosoftTeams 中使用 AccountId 参数在多个帐户之间进行选择时无法提取令牌的问题。</li><li>对于New-CsCallQueue cmdlet，会议模式&状态模式属性的默认值从 false 更改为 true。</li>
 | 2022 年 8 月 | [4.6.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.6.1-preview) |<li>修复了在 PS ISE 和 dotnet 应用程序上使用模块时进程清理的问题。</li>
 | 2022 年 7 月 | [4.6.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.6.0) |<li>为 Get-CsOnlineUser cmdlet 发布 AccountType 参数，该参数允许查询特定类型的用户。</li><li>AccountType 属性在指示用户类型的Get-CsOnlineUser输出中添加。 AccountType 的可能值为：“User” (用户帐户) ，“ResourceAccount” (应用终结点或资源帐户) ，“来宾” (来宾帐户) &“未知” (用户类型未知) 。</li><li>修复了 Grant-Cs\<PolicyName\> cmdlet 中排名&组参数的问题。</li><li>版本 [Get Set\|\|New\|Remove\|Grant]-CsTeamsEventsPolicy Cmdlet.</li><li>删除所有已弃用的&不受支持的 cmdlet。 [Teams PowerShell 支持的版本](teams-powershell-supported-versions.md#deprecated-cmdlets)中的详细信息。</li><li>发布 [New\|Get]-CsCloudCallDataConnection cmdlet 的现代化版本。</li><li>版本 [Get Remove\|]-SharedWithTeam cmdlet。</li><li>发布Get-TeamAllChannel cmdlet。</li><li>发布Get-TeamIncomingChannel cmdlet。</li><li>发布Get-AssociatedTeam cmdlet。</li><li>发布Get-SharedWithTeamUser cmdlet。</li><li>支持 Add-TeamChannelUser cmdlet 的 TenantId 可选参数。</li><li>发布Get-TeamTargetingHierarchyStatus & [删除\|Set]-TeamTargetingHierarchy cmdlet。</li>

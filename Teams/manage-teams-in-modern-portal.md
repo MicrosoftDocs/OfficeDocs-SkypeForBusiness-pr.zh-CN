@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fca16f3b09fc153717b24161eb8717f419171677
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: df00f6324d1f9a50adc42c8e8c5c4dfd2ff9bd14
+ms.sourcegitcommit: 44d9f15f7f7c00b3651a11ff1e8b37dda1716a52
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396323"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "67732291"
 ---
 # <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 管理中心中管理团队
 
@@ -149,3 +149,4 @@ Teams 概述网格中的团队列表中缺少一些团队。
 - [Teams cmdlet 参考](/powershell/teams/)  
 - [使用 Teams 管理员角色管理 Teams](using-admin-roles.md)
 - [在 Teams 中规划生命周期管理](plan-teams-lifecycle.md)
+- [Microsoft 365 管理中心概述](/microsoft-365/admin/admin-overview/admin-center-overview)

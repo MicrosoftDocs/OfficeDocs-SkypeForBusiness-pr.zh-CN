@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ec6958c481cf8d16477aeb7728b82b76de8f78b
-ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.openlocfilehash: f53dd50f78afa2d85c4858e2d98170b3dc044f55
+ms.sourcegitcommit: 44d9f15f7f7c00b3651a11ff1e8b37dda1716a52
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706709"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "67732311"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>获取 Microsoft Teams 的客户端
 
@@ -198,6 +198,9 @@ Teams 移动应用支持的移动平台如下：
 - **华为** <https://aka.ms/TeamsHuawei>
 - **Oppo** 在 Oppo 应用商店中搜索“Teams”
 - **百度** <https://aka.ms/teams_baidu_direct_dl>
+
+> [!NOTE]
+> 当用户从位于中国的 Android 应用商店之一安装 Teams 并为 Teams 启用推送通知时，Microsoft 将通过基于中国的推送通知服务提供 Teams 推送通知。
 
 ## <a name="browser-client"></a>浏览器客户端
 
