@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7e540200f42af23ff4382db7ed4ff528971501b9
-ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
+ms.openlocfilehash: 92d46cacd510f448943deba86a6ed25d4f4360ab
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706011"
+ms.locfileid: "67706509"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>适用于虚拟化桌面基础结构的 Teams
 
@@ -169,11 +169,9 @@ Microsoft 365 企业应用版不支持每台计算机安装 Teams。 若要使�
 
 ### <a name="deploy-the-teams-desktop-app-to-the-vm"></a>将 Teams 桌面应用部署到 VM
 
-1. 使用以下链接之一下载与 VDI VM 操作系统匹配的 Teams MSI 包：
-
+⁠1. 使用以下链接之一下载与 VDI VM 操作系统匹配的 Teams MSI 包：
     - [32 位版本](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)
     - [64 位版本](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)
-
     > [!NOTE]
     > 有关政府云，请参阅 [使用 Windows Installer (MSI) 批量安装 Teams ](msi-deployment.md) 以获取 MSI 文件的下载链接。
 
