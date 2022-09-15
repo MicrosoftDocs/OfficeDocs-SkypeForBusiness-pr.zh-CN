@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 了解哪些桌面和会议电话已通过 Microsoft Teams 认证，以产生最佳结果。
-ms.openlocfilehash: b42ded686588d26bdd647adab136b4f0dba98cdb
-ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
+ms.openlocfilehash: b35fbf4572c9db1a1fba5bf0ae341c596b9166b2
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/10/2022
-ms.locfileid: "67642093"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706021"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams 认证的 Android 设备
 
@@ -110,6 +110,7 @@ Microsoft Teams 设备认证计划确保认证设备符合高标准，在整个 
 
 | 设备模型| 固件版本 | 当前认证结束日期 | Android OS 版本 |                                         
 |:------------------------|:-----------------|:--------------|-----------------------|
+|EPOS 扩展لوحة التحكم   | `1.2.22206.03` | 2024 年 9 月 3 日 | 10 |
 |“整洁垫”面板    | `NFA1.20220211.1400` | 2023 年 8 月 5 日 | 9 |
 |Crestron TSS-770 | `2.001.0058` |2024 年 9 月 3 日  | 10 |
 |Crestron TSS-1070 | `2.001.0058`|2024 年 9 月 3 日 | 10 |
@@ -266,6 +267,7 @@ Microsoft Teams 设备认证计划确保认证设备符合高标准，在整个 
 
 | 设备模型  | 固件版本 | 包含的产品版本 |
 |:--------------|:-----------------|:-------------------------|
+| Yealink MeetingBoard 65” | `155.15.0.10 `   | 2022 更新#2A  |
 | Poly Studio X30 | `3.13.0.368067` | 2022 更新#2A   |
 | Poly Studio X50 | `3.13.0.368067` | 2022 更新#2A |
 | Poly TC8        | `3.13.0.210799`          | 2022 更新#2A   |

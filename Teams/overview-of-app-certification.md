@@ -17,20 +17,20 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 624d91cc7b8518417b45a787f2beae7cb75a7747
-ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.openlocfilehash: 7c67c10b967aeddd8ed170c65d169585dc06733d
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67486947"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706191"
 ---
 # <a name="microsoft-365-app-compliance-program-for-security-compliance-and-privacy-of-third-party-apps"></a>Microsoft 365 应用合规性计划，适用于第三方应用的安全性、合规性和隐私
 
 Microsoft 合规性计划根据派生自领先的行业标准框架的控件检查和审核应用。 该计划演示了为保护客户数据而实施的功能强大的安全性和合规性做法。 计划包括以下阶段：
 
-* 发布者验证。
-* 发布者证明。
-* Microsoft 365 认证。
+* [发布者验证](#publisher-verification)。
+* [发布者证明](#publisher-attestation)。
+* [Microsoft 365 认证](#microsoft-365-certification)。
 
 ## <a name="publisher-verification"></a>发布者验证
 

@@ -14,12 +14,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 本文讨论如何将恢复工具用于Microsoft Teams 会议室，用于使过期系统进入受支持的状态。
-ms.openlocfilehash: c50b59ff4ed1ee997b990b0776ef4a7ee0ac29c2
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 70b2d199c4fe13138e2f46fd0b49e95efbd18e9c
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271157"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706161"
 ---
 # <a name="use-the-microsoft-teams-rooms-recovery-tool"></a>使用 Microsoft Teams 会议室恢复工具
 
@@ -30,7 +30,7 @@ ms.locfileid: "67271157"
 下载最新的[Microsoft Teams 会议室安装包](https://go.microsoft.com/fwlink/?linkid=851168)，并将其提取到可Microsoft Teams 会议室访问的 USB 内存棒或网络共享。
 
 > [!NOTE]
-> 可通过多种方法从 MSI 中提取文件。 任何提取所有文件并保留其目录结构的机制都是可以接受的。 其中一种方法是使用表示 Microsoft Teams 会议室安装包的完整路径的命令`msiexec /a PathToMsi /qb TARGETDIR=PathToTarget``PathToMsi`，并`PathToTarget`表示要将文件提取到的文件夹的完整路径。
+> 可通过多种方法从 MSI 中提取文件。 任何提取所有文件并保留其目录结构的机制都是可以接受的。 其中一种方法是使用表示Microsoft Teams 会议室安装包的完整路径的命令`msiexec /a PathToMsi /qb TARGETDIR=PathToTarget``PathToMsi`，并`PathToTarget`表示要将文件提取到的文件夹的完整路径。
 
 ## <a name="running-the-tool"></a>运行工具
 

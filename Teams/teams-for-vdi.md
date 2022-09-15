@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e557e0901293c26d48e30ed163883f9cd97f12e
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: 7e540200f42af23ff4382db7ed4ff528971501b9
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66790347"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706011"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>适用于虚拟化桌面基础结构的 Teams
 
@@ -119,7 +119,7 @@ VMware Horizon 是一种新式平台，用于跨混合云安全交付虚拟桌�
 |---------|---------|---------|
 |vCPU   |    2 个核心     |  4、6 或 8 个内核<br>请务必了解 NUMA) 配置的基础非统一内存访问 (并相应地配置 VM。     |
 |RAM     |   4 GB      | 每个用户 512 MB 到 1 GB        |
-|存储    | 8 GB        | 40 GB 到 60 GB        |
+|存储空间    | 8 GB        | 40 GB 到 60 GB        |
 
 #### <a name="non-persistent-setup"></a>非永久性设置
 
@@ -165,7 +165,7 @@ Microsoft 365 企业应用版不支持每台计算机安装 Teams。 若要使�
 
 #### <a name="how-to-exclude-teams-deployment-through-microsoft-365-apps-for-enterprise"></a>如何通过Microsoft 365 企业应用版排除 Teams 部署
 
-若要详细了解 Teams 和Microsoft 365 企业应用版，请参阅[如何从新安装的Microsoft 365 企业应用版中排除 Teams](/DeployOffice/teams-install#how-to-exclude-microsoft-teams-from-new-installations-of-microsoft-365-apps)，并[使用组策略控制 Teams 的安装](/DeployOffice/teams-install#use-group-policy-to-control-the-installation-of-microsoft-teams)。
+若要详细了解 Teams 和Microsoft 365 企业应用版，请参阅[如何从新安装的Microsoft 365 企业应用版中排除 Teams](/DeployOffice/teams-install#how-to-exclude-microsoft-teams-from-new-installations-of-microsoft-365-apps)，并[使用نهج المجموعة控制 Teams 的安装](/DeployOffice/teams-install#use-group-policy-to-control-the-installation-of-microsoft-teams)。
 
 ### <a name="deploy-the-teams-desktop-app-to-the-vm"></a>将 Teams 桌面应用部署到 VM
 
@@ -202,7 +202,7 @@ Microsoft 365 企业应用版不支持每台计算机安装 Teams。 若要使�
         msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1 ALLUSERS=1
         ```
 
-        此过程将 Teams 安装到 `%ProgramFiles(x86)%` 64 位操作系统上的文件夹和 `%ProgramFiles%` 32 位操作系统上的文件夹。 此时，黄金图像设置已完成。
+        此过程将 Teams 安装到 `%ProgramFiles(x86)%` 32 位操作系统上的文件夹和 `%ProgramFiles%` 64 位操作系统上的文件夹。 此时，黄金图像设置已完成。
 
         > [!IMPORTANT]
         >  非永久性设置需要每台计算机安装 Teams。
@@ -210,7 +210,7 @@ Microsoft 365 企业应用版不支持每台计算机安装 Teams。 若要使�
         下一个交互式登录会话启动时，Teams 将启动并请求凭据。
 
         > [!NOTE]
-        > 这些示例还使用 `ALLUSERS=1` 参数。 设置此参数时，**Teams Machine-Wide安装程序** 将显示在 **控制面板** 和应用中的 **程序和功能** 中 **，&** 适用于计算机所有用户 **的 Windows 设置** 中的功能。 然后，所有用户都可以卸载 Teams（如果他们有管理员凭据）。
+        > 这些示例还使用 `ALLUSERS=1` 参数。 设置此参数时，**Teams Machine-Wide安装程序** 将显示在 **لوحة التحكم** 中的 **程序和功能** 中，以及应用 **中为** 计算机的所有用户& **Windows 设置** 中的功能。 然后，所有用户都可以卸载 Teams（如果他们有管理员凭据）。
         >
         > 了解两`ALLUSERS=1``ALLUSER=1`者的区别很重要。 该 `ALLUSERS=1` 参数可在非 VDI 和 VDI 环境中使用，而 `ALLUSER=1` 该参数仅在 VDI 环境中用于指定每台计算机的安装。
 
@@ -403,20 +403,12 @@ Teams 模块中提供了 Teams VDI 策略。 这些策略在非优化的 VDI 环
 > [!NOTE]
 > 这仅适用于非优化环境。
 
-### <a name="update-a-module-name"></a>更新模块名称
+### <a name="connect-to-microsoft-teams-powershell"></a>连接到 Microsoft Teams PowerShell
+
+按照 [安装 Microsoft Teams PowerShell 模块](/Teams/teams-powershell-install.md) 中的说明连接到 Microsoft Teams PowerShell 模块。 然后运行以下命令，确认所有 VDI cmdlet 都可用：
 
 ```PowerShell
-Update-Module -Name MicrosoftTeams -AllowPrerelease
-
-<# Import and connect to online (CSOnline runs the policies) #>
-Import-Module microsoftTeams
-if( -not $sess){
-    $session = New-CsOnlineSession
-    $pss = Import-PSSession $session
-}
-<# Check out the commands #>
 Get-Command -Noun *VDI*
-<#
 ```
 
 ### <a name="set-policies-to-limit-calling-features"></a>设置策略以限制调用功能
@@ -486,7 +478,7 @@ if($cleanup){
 - 通过每台计算机安装，VDI 上的 Teams 不会像非 VDI Teams 客户端那样自动更新。 必须按在 [VDI 部分安装或更新 Teams 桌面应用](#install-or-update-the-teams-desktop-app-on-vdi) 中所述安装新的 MSI 来更新 VM 映像。 必须卸载当前版本才能更新到较新版本。
 - 在 Citrix 环境中，如果用户在 Teams 运行时与虚拟机断开连接，Teams 更新可能会导致用户在重新连接时处于 AV 的非优化状态。 我们建议用户在与 Citrix 虚拟机断开连接之前退出 Teams，以避免这种情况。
 - 应按用户或每台计算机部署 Teams。 不支持针对每个用户和每台计算机并发部署 Teams。 若要从每台计算机或每个用户迁移到其中一种模式，请遵循卸载过程并重新部署到任一模式。
-- Azure 虚拟桌面目前不支持 macOS 和基于 Linux 的客户端。
+- Azure 虚拟桌面目前不支持基于 Linux 的客户端。
 - 快速的租户切换可能会导致 VDI 上的呼叫相关问题，例如屏幕共享不可用。 重启客户端将缓解这些问题。
 
 ### <a name="notifications"></a>通知

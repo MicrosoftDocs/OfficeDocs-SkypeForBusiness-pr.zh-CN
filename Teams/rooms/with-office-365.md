@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: 请阅读本文，了解如何为会议室和共享设备创建资源帐户，包括 Microsoft Teams 会议室、Surface Hub 上的Teams 会议室和 Teams 上的热桌面显示。
-ms.openlocfilehash: e9e7b2724c5c1d8fd85aff956affe96dadf9aaae
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: 213cd2019aa23c296706c70a66e3e873f7527ee9
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606221"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706629"
 ---
 # <a name="create-and-configure-resource-accounts-for-rooms-and-shared-teams-devices"></a>为会议室和共享 Teams 设备创建和配置资源帐户
 
@@ -271,7 +271,7 @@ Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -PasswordPolicies Disable
 2. 使用以下语法将密码设置为永不过期：
 
     ```PowerShell
-    Set-MsolUser -Identity <samAccountName> -PasswordNeverExpires $true
+    Set-MsolUser -UserPrincipalName <userPrincipalName> -PasswordNeverExpires $true
     ```
 
     本示例将帐户 ConferenceRoom01@contoso.com 的密码设置为永不过期。
@@ -326,7 +326,7 @@ Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -PasswordPolicies Disable
     
 2. 使用 `Set-AzureADUser` cmdlet 将使用位置分配给资源帐户。 这决定了哪些许可证 SKU 可用。
 
-    在此示例中，用户位于美国 (美国) ：
+    在此示例中，用户位于Estados Unidos (美国) ：
 
     ```PowerShell
     Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -UsageLocation 'US'
@@ -367,7 +367,7 @@ Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -PasswordPolicies Disable
 
 2.  使用 `Set-MsolUser` cmdlet 将使用位置分配给资源帐户。 这决定了哪些许可证 SKU 可用。
 
-    在此示例中，用户位于美国 (美国) 中。
+    在此示例中，用户位于Estados Unidos (美国) 中。
     
     ```PowerShell
     Set-MsolUser -UserPrincipalName 'ConferenceRoom01@contoso.com' -UsageLocation 'US'

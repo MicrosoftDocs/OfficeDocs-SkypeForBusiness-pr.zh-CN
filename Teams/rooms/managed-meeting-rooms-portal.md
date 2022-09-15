@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 提供会议室运行状况的视图。
 f1keywords: ''
-ms.openlocfilehash: d76f1f68e0cc73d2abd554ec5c2fc115139a6a0f
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 3587e1ab6e19fa7eac2519ccffe7c8f3bd19f2fc
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269207"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67707009"
 ---
 # <a name="microsoft-managed-meeting-rooms-portal"></a>Microsoft 托管会议室门户
 
@@ -60,7 +60,7 @@ ms.locfileid: "67269207"
 |**未监视** | 作为托管服务的一部分部署的 Microsoft 监视软件无法连接到云服务。 我们未收到有关设备的遥测数据。 |
 |<p>**正常/** </p><p>**不良** </p>|设备/外围设备中的异常。 |
 |**抑制** |如果已知设备正在维护中，并且其警报应被忽略，则可以故意禁止设备。 |
-|**载入** |添加设置时会议室设备的状态，但尚未准备好作为定期受支持的房间。 |
+|**载入** |添加安装程序时会议室设备的状态，但尚未准备好作为定期受支持的房间。 |
 |**事件** |影响需要操作的最终用户的会议体验的问题。 |
 |**配置错误** |检测到的配置不正确/常用。 |
 |**支持票证** |内部 Microsoft 跟踪标识符，用于跟踪有关事件的所有通信/操作。 |
@@ -122,7 +122,7 @@ ms.locfileid: "67269207"
 |**HDMI 引入** |HDMI 引入不正常。 |
 |**(** Exchange) 登录 |Microsoft Teams 会议室应用从 Exchange 访问日历信息，登录成功的任何问题都将报告为登录事件。 |
 |**(** Teams) 登录 |Microsoft Teams 会议室应用登录到设备，如果客户使用 Teams) ，则会报告此事件 (登录失败。 |
-|**登录** (Skype for Business)  |Microsoft Teams 会议室应用登录到设备，如果客户使用Skype for Business) ，将报告此事件 (登录失败Skype for Business)  |
+|**登录** (Skype for Business)  |Microsoft Teams 会议室应用登录到设备，如果客户使用Skype for Business) ，则会报告此事件 (登录失败。 |
 |**邻近感应传感器** |Microsoft Teams 会议室应用邀请与会者加入会议（如果他们在附近）。 此功能中的失败将在此事件下报告。 |
 
 **表 2：严重性为“警告”的事件**
@@ -146,7 +146,7 @@ ms.locfileid: "67269207"
 ![显示建议的事件操作的屏幕截图](../media/rooms-monitor-005.jpg)
 
 - 如果已执行此操作，可以在“响应”框中使用笔记响应事件，然后在发布前选择“分配给 Microsoft”。
-- 此外，根据您的审阅，通知可能不正确。 在这种情况下，请提供反馈并将其分配回 Microsoft。
+- 此外，根据你的审阅，通知可能不正确。 在这种情况下，请提供反馈并将其分配回 Microsoft。
 - 最后，如果要添加注释以为自己的团队或 Microsoft 团队提供其他上下文，请在不打开“分配给 Microsoft”的情况下发布消息。
 
 >[!NOTE]
@@ -168,7 +168,7 @@ ms.locfileid: "67269207"
 
 ![显示房间运行状况概述的屏幕截图](../media/rooms-monitor-007.jpg)
 
-**正常、不正常、断开连接** “会议室”视图顶部面板提供了一个快速的快照，了解有多少设备处于“正常”状态 (“正常”) ，有多少设备受到“不正常”)  (问题的影响，有多少设备未提供遥测 (“断开连接”) ，以及有多少设备被禁止发出警报 (作为替代) 。 使用不断发展的条件和启发式功能监视会议室的运行状况。 目标是尽可能准确地反映会议室中用户体验的现实，使其可操作。
+**正常、不正常、断开连接** “会议室”视图顶部面板提供了一个快速的快照，了解有多少设备处于良好状态 (“正常”) ，有多少设备受到“运行不正常”)  (问题的影响，有多少设备未提供遥测 (“已断开连接”) ，以及有多少设备被禁止发出警报 (作为替代) 。 使用不断发展的条件和启发式功能监视会议室的运行状况。 目标是尽可能准确地反映会议室中用户体验的现实，使其可操作。
 
 **正常/不正常的房间**：
 
@@ -205,7 +205,7 @@ ms.locfileid: "67269207"
 ![显示活动票证概述的屏幕截图](../media/rooms-monitor-012.png)
 
 活动票证：消息 UI 是与 Microsoft 服务工程师交互的主要通信工具，致力于修正标识的问题。 请务必确认来自 Microsoft 的通信，以确保我们为你提供尽可能最好的服务。 如果已执行建议的操作，请在“响应”框中使用笔记响应此事件，并在发布前单击“分配给 Microsoft”，将其分配回 Microsoft。
-此外，根据您的审阅，通知可能不正确。 在这种情况下，请提供反馈并将其分配回 Microsoft。
+此外，根据你的审阅，通知可能不正确。 在这种情况下，请提供反馈并将其分配回 Microsoft。
 最后，如果要添加注释以为自己的团队或 Microsoft 团队提供其他上下文，只需在不打开“分配给 Microsoft”的情况下发布消息
 
 ![显示活动票证消息的屏幕截图](../media/rooms-monitor-013.png)

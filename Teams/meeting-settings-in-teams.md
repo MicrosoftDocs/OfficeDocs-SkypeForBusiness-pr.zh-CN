@@ -1,7 +1,7 @@
 ---
 title: 管理会议设置
-author: CarolynRowe
-ms.author: crowe
+ms.author: mabond
+author: mkbond007
 manager: serdars
 ms.reviewer: sonua
 ms.topic: article
@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 了解如何管理用户在组织中安排的 Teams 会议的设置。
-ms.openlocfilehash: c76267ae5cd9a19cae272d995a24077a58a7ec6f
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
-ms.translationtype: HT
+ms.openlocfilehash: c25405dd305a8556309559d4941dd731331e6d75
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66789787"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706499"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理会议设置
 
@@ -179,7 +179,7 @@ ms.locfileid: "66789787"
 |:---             |:---                         |:---    |:---      |:---      |
 |音频            | 50,000–50,019               |TCP/UDP |46        |加速转发 (EF)|
 |视频            | 50,020–50,039               |TCP/UDP |34        |保证转发 (AF41)|
-|应用程序/屏幕共享| 50,040–50,059      |TCP/UDP |18         |保证转发 (AF21)|
+|应用程序/屏幕共享| 50,040–50,059      |TCP/UDP |18        |保证转发 (AF21)|
 | | | | |
 
 \* 分配的端口区域不能重叠，并且应该彼此相邻。

@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b5b67137aa581aae5a27ccc18935f621f51d5093
-ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
-ms.translationtype: HT
+ms.openlocfilehash: 3ec6958c481cf8d16477aeb7728b82b76de8f78b
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "64839013"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706709"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>获取 Microsoft Teams 的客户端
 
@@ -63,7 +63,7 @@ IT 专业人员可以选择将安装文件分发到其组织中计算机上的�
 
 Windows 版 Teams 在 [32 位](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)、[64 位](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)和 [ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true) 体系结构中提供可下载的 MSI 安装程序。 Teams 的 x86 体系结构（32 位与 64 位）与已安装的 Windows 和 Office 的体系结构无关。 建议在 64 位系统上使用 64 位版本的 Teams。
 
-Teams 需要 .NET Framework 4.5 或更高版本。如果未安装 .NET Framework 或更高版本，则 Teams 安装程序将为你提供安装。
+Teams 需要 .NET Framework 4.5 或更高版本。 如果未安装 .NET Framework 或更高版本，Teams 安装程序将提供供你安装。
 
 Windows 客户端部署到位于用户配置文件中的 AppData 文件夹中。 部署到用户的本地配置文件后，无需提升的权限即可安装客户端。 Windows 客户端会利用以下位置：
 
@@ -138,9 +138,9 @@ IT 专业人员可以使用托管部署解决方案（如 Jamf Pro）将 Teams �
 在 Debian 和 Ubuntu 分发上手动安装：
 
 ```bash
-curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
+curl https://packages.microsoft.com/keys/microsoft.asc | sudo gpg --dearmor -o /usr/share/keyrings/microsoft-archive-keyring.gpg
 
-sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/ms-teams stable main" > /etc/apt/sources.list.d/teams.list'
+sudo sh -c 'echo "deb [arch=amd64 signed-by=/usr/share/keyrings/microsoft-archive-keyring.gpg] https://packages.microsoft.com/repos/ms-teams stable main" > /etc/apt/sources.list.d/teams.list'
 
 sudo apt update
 sudo apt install teams

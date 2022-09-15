@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解Microsoft Teams 会议室托管服务。
 f1keywords: ''
-ms.openlocfilehash: 5e59312d3febe2dc6b4178874bae21fc27fe77d2
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: 07b18a45e376c594d23f836ff12f24474f25968b
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606281"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706469"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>Microsoft Teams 会议室托管服务
 
@@ -101,7 +101,7 @@ Microsoft Teams 会议室托管服务建立在 Microsoft 在启用软件的终�
 |**通过门户支持可用性**   | 24X7      |
 |**Microsoft Teams 会议室托管服务 SOC 的初始响应时间**   |  4 小时       |
 |**在客户不活动的情况下自动关闭票证**    |客户发起的门票：3 个工作日<br>系统启动的门票：15 个工作日</li>   </ul>      |
-|**重定向到更广泛的Microsoft 支持部门**   |与Microsoft Teams 会议室托管服务范围之外的另一个 Microsoft 产品相关的问题将定向到相应的支持团队。         |
+|**重定向到更广泛的pomoc techniczna firmy Microsoft**   |与Microsoft Teams 会议室托管服务范围之外的另一个 Microsoft 产品相关的问题将定向到相应的支持团队。         |
 |**重定向到原始设备制造商 (OEM) 支持**    |Microsoft Teams 会议室托管服务 SOC 能够了解问题，并在适用的情况下帮助协调与 OEM 的支持。 在某些情况下，你可能负责直接与 OEM 互动。         |
 
 此外，请记住，Microsoft Teams 会议室托管服务 SOC 将帮助组织中的 IT 操作，并且不能替代最终用户的帮助台服务。
@@ -112,7 +112,7 @@ Microsoft Teams 会议室托管服务建立在 Microsoft 在启用软件的终�
 
 Microsoft Teams 会议室 Pro 许可证在以下具有音频会议的国家/地区提供：
 
-- 澳大利亚、奥地利、比利时、巴西、保加利亚、加拿大、克罗地亚、塞浦路斯、捷克共和国、丹麦、爱沙尼亚、芬兰、法国、德国、希腊、香港特别行政区、匈牙利、爱尔兰、意大利、日本、拉脱维亚、立陶宛、卢森堡、马耳他、墨西哥、摩纳哥、荷兰、新西兰、挪威、波兰、葡萄牙、罗马尼亚、俄罗斯、新加坡、斯洛伐克、斯洛文尼亚、南非、西班牙、瑞典、瑞士、台湾、英国、美国。
+- 澳大利亚、奥地利、比利时、巴西、保加利亚、加拿大、克罗地亚、塞浦路斯、捷克共和国、丹麦、爱沙尼亚、芬兰、法国、德国、希腊、香港特别行政区、匈牙利、爱尔兰、意大利、日本、拉脱维亚、立陶宛、卢森堡、马耳他、墨西哥、摩纳哥、荷兰、新西兰、挪威、波兰、葡萄牙、罗马尼亚、俄罗斯、新加坡、斯洛伐克、斯洛文尼亚、南非、西班牙、瑞典、瑞士、台湾、英国、Estados Unidos。
 
 Microsoft Teams 会议室 Pro 许可证在以下国家/地区可用，无需音频会议：
 
@@ -124,7 +124,7 @@ Microsoft Teams 会议室 Pro 许可证在以下国家/地区可用，无需音�
 |包含的内容 |排除的内容 |已排除项的支持渠道  |
 |---------|---------|---------|
 |**服务配置**   |         |         |
-|有关Microsoft Teams 会议室 Windows 配置的调查和指导，包括Microsoft Teams 会议室应用设置、第一方网络配置、第一方软件设置以及建议的电源设置和配置。     |不直接属于 Microsoft Teams 会议室应用的任何第三方软件配置和调查。 此外，需要在第一方窗口或 Microsoft Teams 会议室应用设置之外进行配置的任何特定于 OEM 的配置。         |第三方标准支持渠道         |
+|有关Microsoft Teams 会议室 Windows 配置的调查和指导，包括Microsoft Teams 会议室应用设置、第一方网络配置、第一方软件设置以及建议的电源设置和配置。     |不直接属于Microsoft Teams 会议室应用的任何第三方软件配置和调查。 此外，需要第一方窗口外部配置的任何特定于 OEM 的配置，或Microsoft Teams 会议室应用设置。         |第三方标准支持渠道         |
 |**会议室帐户设置**    |         |         |
 |有关应请求设置会议室帐户的可用文档的方向。 对于登录或帐户配置问题，执行初始调查。     |执行建议的修正或执行建议的修正、配置第三方身份验证提供程序以及配置单个帐户功能时出现的问题。        |Microsoft 主流支持和第三方身份验证提供程序支持         |
 |**外围支持**    |         |         |

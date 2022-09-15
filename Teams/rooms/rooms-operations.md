@@ -14,12 +14,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 了解如何管理Microsoft Teams 会议室。
-ms.openlocfilehash: 93a4c2ff7d9c6a1f982a06ec8df6dabf790f8739
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 85979448c425f2ab0de9a5956ba4e74b2a5697cc
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67272217"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706659"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft Teams 会议室维护和操作
  
@@ -61,7 +61,7 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 
 若要远程设置会议室前台显示的规模和分辨率，请参阅[使用 XML 配置文件远程管理Microsoft Teams 会议室控制台设置](xml-config-file.md#set-front-of-room-scale-and-resolution)。
 
-若要在 Teams 会议室管理员设置中手动设置缩放和解析：
+若要在Teams 会议室管理设置中手动设置缩放和解析：
 
 1. 在 Teams 会议室中，切换到 [管理模式](#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running)
 
@@ -84,7 +84,7 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 ## <a name="microsoft-teams-rooms-reset-factory-restore"></a>Microsoft Teams 会议室重置 (工厂还原) 
 <a name="Reset"> </a>
 
-如果Microsoft Teams 会议室运行状况不佳，执行出厂重置可能会有所帮助。 为此，请使用 [Microsoft Teams 会议室恢复工具](recovery-tool.md) 并按照工厂还原说明操作。
+如果Microsoft Teams 会议室运行状况不佳，执行出厂重置可能会有所帮助。 为此，请使用[Microsoft Teams 会议室恢复工具](recovery-tool.md)并按照工厂还原说明操作。
 
 > [!NOTE]
 > 存在一个已知问题：如果 **“保留我的文件 - 删除应用和设置**”，但在 Windows 重置过程中选择“保留个人文件”选项，则Microsoft Teams 会议室可能变得不可用。 *请勿* 使用此选项。
@@ -103,7 +103,7 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 |帐户配置  <br/> |Teams 管理中心  <br/> |Teams 管理中心  <br/> |
 |访问日志  <br/> |Teams 管理中心  <br/> PowerShell  <br/> |Teams 管理中心 <br/> PowerShell  <br/>  |
    
-## <a name="configuring-group-policy-for-microsoft-teams-rooms"></a>为Microsoft Teams 会议室配置组策略
+## <a name="configuring-group-policy-for-microsoft-teams-rooms"></a>为Microsoft Teams 会议室配置نهج المجموعة
 <a name="GroupPolicy"> </a>
 
 本部分介绍Microsoft Teams 会议室依赖于其正常运行的系统设置。 
@@ -116,10 +116,10 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 
 - 如果使用Skype for Business，则加入Teams 会议室会自动导入组织的专用根证书链。
 
-将Teams 会议室加入域时，需要创建单独的组织单位 (OU) ，以便可以向所有Teams 会议室对象所在的 OU 提供组策略对象 (GPO) 排除项。 禁用所有 GPO 继承，以便不支持组策略设置不应用于Teams 会议室。 在将Teams 会议室加入域之前在 OU 中创建计算机对象，以确保不应用应用于默认计算机 OU 的组策略。
+将Teams 会议室加入域时，需要创建单独的组织单位 (OU) ，以便可以向所有Teams 会议室对象所在的 OU 提供نهج المجموعة对象 (GPO) 排除项。 禁用所有 GPO 继承，以便不支持نهج المجموعة设置不应用于Teams 会议室。 在将Teams 会议室加入域之前在 OU 中创建计算机对象，以确保不应用应用于默认计算机 OU 的组策略。
 
 > [!NOTE]
-> 即使创建单独的 OU 并阻止继承，某些组策略也可能导致问题（如果未设置替代）。 具有“无替代”集的组策略将使用块策略继承集来击败 OU。
+> 即使创建单独的 OU 并阻止继承，某些组策略也可能导致问题（如果未设置替代）。 具有“无替代”集的نهج المجموعة会击败具有块策略继承集的 OU。
 
 许多组织都有以下 GPO，这会影响Teams 会议室功能。 确保重写或阻止以下内容的继承：
 
@@ -130,7 +130,7 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
   - 提示用户网络连接较慢
   - 登录时启动特定程序
   - 在所有加入域的计算机上创建另一个域用户帐户。
-  - 将Windows 更新推送到Teams 会议室
+  - 将Windows Update推送到Teams 会议室
 
 将Microsoft Teams 会议室加入域时，请确保组策略不会覆盖下表中的设置。
 
@@ -141,7 +141,7 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 |net accounts /maxpwage:unlimited  <br/> 或对本地帐户禁用密码过期的等效方法。如果此操作失败，将最终导致 Skype 帐户无法登录，且被告知密码过期。请注意，这会影响计算机上的所有本地帐户，因此，此设置失败还会导致已有的管理帐户最终也过期。  <br/> |启用 Skype 帐户以始终登录  <br/> |
 
 > [!NOTE]
-> 当Microsoft Teams 会议室与下一版本的Windows 10 OS 兼容时，Teams 会议室通过Windows 更新自动更新到下一版本。 Microsoft Teams 会议室不应手动升级到下一版本的Windows 10，也不应通过启用适用于企业的Windows 更新 (WUFB) 组策略“为要接收的更新选择 Windows 就绪级别”和通过 GPO 选择“在收到预览版生成和功能汇报时选择”。 Teams 会议室启用这些组策略后，WINDOWS 10操作系统更新时会遇到问题。
+> 当Microsoft Teams 会议室与下一版本的Windows 10 OS 兼容时，Teams 会议室通过Windows Update自动更新到下一版本。 Microsoft Teams 会议室不应手动升级到下一版本的Windows 10，也不应通过启用适用于企业的Windows Update (WUFB) 组策略“为要接收的更新选择 Windows 就绪级别”和通过 GPO 选择“预览版本和功能汇报收到的时间”。 Teams 会议室启用这些组策略后，WINDOWS 10操作系统更新时会遇到问题。
 
 ## <a name="remote-management-using-powershell"></a>使用 PowerShell 进行远程管理
 <a name="RemotePS"> </a>
@@ -222,11 +222,13 @@ Copy-Item $movefile $targetDevice
 ## <a name="software-updates"></a>软件更新
 <a name="SWupdate"> </a>
 
-默认情况下，Microsoft Teams 会议室尝试连接到 Windows 应用商店以获取最新版本的Microsoft Teams 会议室软件。 因此，Teams 会议室需要定期访问 Internet。 在遇到支持问题之前，请确保Microsoft Teams 会议室加载了最新版本的应用。
+默认情况下，Microsoft Teams 会议室连接到Windows Update以检索操作系统和 USB 外围设备固件更新，并在配置的工作时间之外安装它们。 可以通过登录管理员帐户并运行 **“设置”** 应用来配置工作时间。
   
-Microsoft Teams 会议室连接到Windows 更新以检索操作系统和外围设备固件更新。 它还连接到 Microsoft Store 以检索应用程序更新。
+如果想要手动管理更新，并且无法按照正常过程[适用于企业的 Microsoft Store](https://businessstore.microsoft.com/store)[分发脱机应用](/microsoft-store/distribute-offline-apps)，则可以从[手动更新Microsoft Teams 会议室设备](/microsoftteams/rooms/manual-update)获取并运行最新的MTR-Update脚本。
 
-如果需要手动管理应用程序更新，但无法按照正常过程[适用于企业的 Microsoft Store](https://businessstore.microsoft.com/store)[分发脱机应用](/microsoft-store/distribute-offline-apps)，则可以获取Teams 会议室更新包，以便在支持的操作系统上执行应用更新。 更新版本可能落后于应用商店版本，并且可能并不总是与最新可用版本匹配。 请参阅[手动更新Microsoft Teams 会议室设备](manual-update.md)以了解详细信息。
+默认情况下，Microsoft Teams 会议室尝试连接到 Windows 应用商店以获取最新版本的Microsoft Teams 会议室软件。 因此，Teams 会议室需要定期访问 Internet。 在遇到支持问题之前，请确保Microsoft Teams 会议室加载了最新版本的应用。
+
+
 
 ## <a name="admin-mode-and-device-management"></a>管理模式和设备管理
 <a name="AdminMode"> </a>

@@ -15,18 +15,18 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 - ms.teamsadmincenter.directrouting.overview
-description: 详细了解 SIP 网关，例如要求和优势。
+description: 有关 SIP 网关的Mer informasjon，例如要求和优势。
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: adcaee64e2a95d41229afe580624c6798547cb85
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: fd4b50052483c9f6e5221f3555a962adfe2444d3
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271697"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706001"
 ---
 # <a name="plan-for-sip-gateway"></a>规划 SIP 网关
 
@@ -61,7 +61,7 @@ Teams 用户必须具有已启用 PSTN 呼叫的电话号码才能使用 SIP 网
 
 如果有 3PIP 或 SIP 设备，则必须具有：
 
-- 通过 E5 或独立许可证 (电话系统) 
+- Microsoft Teams、Skype for Business Online Plan 2 和 Microsoft 365 电话系统通过 E5 或独立许可证 (的许可证) 
 - PSTN 启用 (，即通过 Microsoft Teams 呼叫计划、直接路由或操作员连接) 电话号码
 - 适用于任何公共区域设备的通用区域电话许可证
 

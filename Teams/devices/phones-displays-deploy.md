@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: 本文概述了 Microsoft Teams Android 设备支持的功能。
-ms.openlocfilehash: ef30268ef966eca00a75a583c9acb6ae608a7a81
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 388848019806740074401400d0fad6847751489e
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267797"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67705991"
 ---
 # <a name="deploy-teams-phones-teams-displays-teams-panels-and-microsoft-teams-rooms-on-android-using-intune"></a>使用 Intune 在 Android 上部署 Teams 手机、Teams 显示器、Teams 面板和Microsoft Teams 会议室
 
@@ -30,7 +30,7 @@ ms.locfileid: "67267797"
 
 ## <a name="conditional-access"></a>条件访问
 
-条件访问是 Azure Active Directory (Azure AD) 功能，可帮助你确保访问Office 365资源的设备得到正确管理且安全。  如果将条件访问策略应用于 Teams 服务，则 Android 设备 (包括 Teams 手机、Teams 显示器、Teams 面板和 Android) 上的Microsoft Teams 会议室，访问 Teams 需要注册到Intune，并且其设置需要符合策略。  如果设备未注册到Intune，或者它已注册，但其设置不符合你的策略，条件访问将阻止用户登录或在设备上使用 Teams 应用。
+条件访问是 Azure Active Directory (Azure AD) 功能，可帮助你确保访问Office 365资源的设备得到正确管理和安全。 如果将条件访问策略应用于 Teams 服务，则 Android 设备 (包括 Teams 手机、Teams 显示器、Teams 面板和 Android) 上的Microsoft Teams 会议室，访问 Teams 需要注册到Intune，并且其设置需要符合策略。  如果设备未注册到Intune，或者它已注册，但其设置不符合你的策略，条件访问将阻止用户登录或在设备上使用 Teams 应用。
 
 通常，Intune中定义的符合性策略分配给用户组。  这意味着，如果将 Android 合规性策略分配给 user@contoso.com，则该策略将同样应用于其 Android 智能手机和任何 user@contoso.com 登录的基于 Android 的 Teams 设备。
 
@@ -46,6 +46,7 @@ ms.locfileid: "67267797"
 > [!NOTE]
 > - 如果租户管理员希望将公共区域电话注册到Intune，则他们需要向帐户添加Intune许可证，并按照步骤Intune注册。
 > - 如果用于登录 Teams 设备的用户帐户未获得Intune许可，则需要为该帐户禁用Intune合规性策略和注册限制。
+> - 如果用于登录 Teams 设备的用户帐户获得Intune许可，则 Teams 设备将在Intune中自动注册。
 
 
 

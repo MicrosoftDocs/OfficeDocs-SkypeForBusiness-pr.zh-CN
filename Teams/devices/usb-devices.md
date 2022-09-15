@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: 查看 (哪些 USB 外围设备（例如耳机、免提电话、网络摄像头和监视器）) 通过 Microsoft Teams 认证。
-ms.openlocfilehash: d7bc08eedf4c70222554b7aed05c0b2a150064e0
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: ad020877a9d6d8ba3a0af3b87e2307b69e7510c8
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268547"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706061"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>经 Microsoft Teams 认证的 USB 音频和视频设备
 
@@ -175,7 +175,7 @@ ms.locfileid: "67268547"
 |Jabra                |Evolve 40 耳机                                          |8/23/2020       |Skype for Business升级到 Microsoft Teams      |
 |Jabra                |Evolve 30 II 耳机                                       |8/23/2020       |Skype for Business升级到 Microsoft Teams      |
 |Jabra                |Evolve 20 Headset                                          |8/23/2020       |Skype for Business升级到 Microsoft Teams      |
-|EPOS/Sennhesier      |COMMAND 260 USB PTT                                        |8/20/2020       |Skype for Business升级到 Microsoft Teams      |
+|EPOS/Sennheiser      |COMMAND 260 USB PTT                                        |8/20/2020       |Skype for Business升级到 Microsoft Teams      |
 |EPOS/Sennheiser      |使用 USB-ED CC 01 MS 连接器影响 SC 660               |8/20/2020       |Skype for Business升级到 Microsoft Teams      |
 |EPOS/Sennheiser      |使用 USB-ED CC 01 MS 连接器影响 SC 630               |8/20/2020       |Skype for Business升级到 Microsoft Teams      |
 |EPOS/Sennheiser      |使用 USB-ED CC 01 MS 连接器影响 SC 260               |8/20/2020       |Skype for Business升级到 Microsoft Teams      |

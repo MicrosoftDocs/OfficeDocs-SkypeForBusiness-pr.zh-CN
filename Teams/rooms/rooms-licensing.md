@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 了解并比较Microsoft Teams 会议室中不同类型的通话和会议功能的可用许可证。
-ms.openlocfilehash: f2815dd99cb2b1882ec0783fc834d58db60c1b0d
-ms.sourcegitcommit: 087254ba68d75ea4f9205a972f1d8d554d9176c7
+ms.openlocfilehash: df84e94ebda02020e88d8bfc19fa42c86561b07d
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "67650814"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706669"
 ---
 # <a name="microsoft-teams-rooms-licenses"></a>Microsoft Teams 会议室许可证
 
@@ -76,11 +76,11 @@ Teams 会议室基本许可证可用于在会议室中许可单个经过认证�
 > [!IMPORTANT]
 > 旧版许可证不会自动转换为新许可证。 旧版许可证过期后，需要购买新Teams 会议室专业 (推荐) 或Teams 会议室基本许可证。 Teams 会议室 Pro 许可证可以通过Microsoft 365 管理中心或首选销售渠道购买。 Teams 会议室基本许可证只能通过Microsoft 365 管理中心购买。
 
-如果你的组织有企业协议，则可以继续使用现有的旧版许可证，直到下一个续订期。 还可以继续保留其他旧版许可证，直到下一个续订期。 有关详细信息，请与 Microsoft 代表联系。
+如果你的组织有Enterprise Agreement，则可以继续使用现有的旧版许可证，直到下一个续订期。 还可以继续保留其他旧版许可证，直到下一个续订期。 有关详细信息，请与 Microsoft 代表联系。
 
 <sup>*</sup>从 2022 年 10 月 1 日起，Microsoft 服务工程师将不再充当事件响应的中介。
 
-## <a name="teams-rooms-console-and-teams-client-feature-comparison"></a>Teams 会议室控制台和 Teams 客户端功能比较
+## <a name="teams-rooms-basic-and-teams-rooms-pro-feature-comparison"></a>Teams 会议室基本和Teams 会议室专业功能比较
 
 下表比较Teams 会议室基本和Teams 会议室专业版许可证，并显示每个许可证的可用功能。 如果某个功能不可用于许可证，则该功能不能在已分配该许可证的Teams 会议室设备上使用。 若要在Teams 会议室设备上使用功能，请分配该功能可用于该设备的许可证。
 

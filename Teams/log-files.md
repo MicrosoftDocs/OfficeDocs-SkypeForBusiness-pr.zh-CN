@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 了解 Microsoft Teams 生成的调试、媒体和桌面日志、可在其中找到日志以及如何帮助监视和故障排除。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2ab00f7a1eedf2b1341819c7ec1c67abeb5f6e38
-ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.openlocfilehash: 2edddca64bf0cb50dc29758fd60bc397cbc00f8b
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67486887"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67705811"
 ---
 # <a name="configure-log-files-for-monitoring-and-troubleshooting-in-teams"></a>在 Teams 中配置日志文件以进行监视和故障排除
 
@@ -35,6 +35,8 @@ ms.locfileid: "67486887"
 
 本文介绍这些日志及其使用方式。 有关排查特定问题的信息，请参阅： [Teams 疑难解答](/MicrosoftTeams/troubleshoot/teams)。 
 
+有关从Microsoft Teams 会议室设备收集日志的信息，请[参阅“下载设备日志](/microsoftteams/rooms/rooms-manage#download-device-logs)”。
+
 有关如何联系支持人员的信息，请参阅 [“获取支持](/microsoft-365/business-video/get-help-support)”。
 
 > [!NOTE]
@@ -46,7 +48,7 @@ ms.locfileid: "67486887"
 
 通过 Microsoft 支持创建支持请求时，支持工程师需要调试日志。 在创建支持请求之前手动启用调试日志可让 Microsoft 快速开始对问题进行故障排除。 仅当 Microsoft 请求时，才需要 **媒体** 或 **桌面** 日志。
 
-调试、桌面和媒体日志将收集在名为 _MSTeams 诊断日志 \<local date and time\>_ 的文件夹中。 使用Microsoft 支持部门打开支持请求时，可以压缩和共享此文件夹。 该文件夹将包含桌面、会议 (媒体) 和调试 (Web) 的文件夹。 可以使用以下键盘快捷方式收集文件：
+调试、桌面和媒体日志将收集在名为 _MSTeams 诊断日志 \<local date and time\>_ 的文件夹中。 使用pomoc techniczna firmy Microsoft打开支持请求时，可以压缩和共享此文件夹。 该文件夹将包含桌面、会议 (媒体) 和调试 (Web) 的文件夹。 可以使用以下键盘快捷方式收集文件：
 
 - Windows： <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd>
 

@@ -16,12 +16,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: 了解如何开发和执行持续维护和操作，以确保Microsoft Teams 会议室系统可供用户使用。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 85bb58005159b18a426aed0851ac7a80b11183eb
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: d9ce5a3ac479bc16526bb044bbc3e4c34d3b1d0e
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271089"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706819"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>管理 Microsoft Teams 会议室
 
@@ -171,18 +171,18 @@ Teams 会议室系统仪表板一目了然地显示所有设备的状态和运�
 
 若要查看有关设备的详细信息，请从设备列表中选择其名称。 在详细信息视图中，可以看到有关设备的以下信息：
 
-- **运行状况** 显示 Teams 会议室设备的总体运行状况。 运行状况状态可以是 **“正常** ”或 **“不正常**”。
+- **运行状况** 显示Teams 会议室设备的总体运行状况。 运行状况状态可以是 **“正常** ”或 **“不正常**”。
 - **脱机后** 显示上次 Microsoft 365 能够与设备通信的时间。
 - **设备状态** 显示设备的当前状态： **空闲**、 **Teams 会议**、 **Skype 会议** 或 **引入**。
-- **外设** 显示连接到 Teams 会议室设备的外围设备及其运行状况。 运行状况状态可以 **是连接** 状态，也可以 **是断开连接状态**。
-- **健康** 显示有关连接到 Teams 会议室设备的外围设备、网络连接、登录所需服务的状态以及软件版本信息的详细信息。
-- **细节** 显示制造商信息、网络 IP 地址和 Teams 会议室设备串行/MAC 地址。
+- **外设** 显示连接到Teams 会议室设备的外围设备及其运行状况。 运行状况状态可以 **是连接** 状态，也可以 **是断开连接状态**。
+- **健康** 显示有关连接到Teams 会议室设备的外围设备、网络连接、登录所需服务的状态以及软件版本信息的详细信息。
+- **细节** 显示制造商信息、网络 IP 地址和Teams 会议室设备串行/MAC 地址。
 - **活动** 显示过去的会议详细信息，包括会议日期和时间、参与者数、持续时间和音频质量。 有关会议详细信息的详细信息，请参阅本文后面的 [“会议活动详细信息](#meeting-activity-details) ”部分。
-- **历史** 显示 Teams 会议室设备上管理活动的历史记录，包括配置更新、设备重启和设备日志下载链接。
+- **历史** 显示Teams 会议室设备上的管理活动的历史记录，包括配置更新、设备重启和设备日志下载链接。
 
 #### <a name="meeting-activity-details"></a>会议活动详细信息
 
-Teams 会议室设备详细信息中的 **“活动** ”选项卡显示有关设备随时间推移参与的所有会议的高级和详细信息。 在 **“活动”** 选项卡中，可以看到会议召开时间、参加会议的参与者数以及会议期间的音频质量。
+Teams 会议室设备详细信息中的 **“活动**”选项卡显示有关设备随时间推移参与的所有会议的高级和详细信息。 在 **“活动”** 选项卡中，可以看到会议召开时间、参加会议的参与者数以及会议期间的音频质量。
 
 :::image type="content" source="../media/teams-rooms-meeting-activity-summary.png" alt-text="Teams 会议室设备活动摘要列表。":::
 

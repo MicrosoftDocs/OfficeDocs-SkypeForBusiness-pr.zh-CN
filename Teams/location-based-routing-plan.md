@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 795433f832d57767a7937be1a9d3e7f31e73f240
-ms.sourcegitcommit: 41a75f1ba5ceb09f8db7d468aa41b63a89ab9c30
+ms.openlocfilehash: f7b6b360f51c803aef3eb7811b15c17a748df5f0
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "67647436"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67705831"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>为直接路由计划基于位置的路由
 
@@ -397,7 +397,7 @@ Location-Based路由不适用于以下类型的交互。 在以下情况下，�
 
 不得使用印度的任何电话设备部署音频会议的网络会议。
 
-不允许在 PSTN 呼叫中启用Location-Based路由的用户将该调用与其他调用合并。
+不允许在 PSTN 呼叫中启用Location-Based路由的用户将该调用与其他调用合并。 不支持以下内容：录制 PSTN 调用和 PSTN 调用的符合性记录。
 
 ### <a name="media-bypass-requirement-for-location-based-routing"></a>Location-Based路由的媒体旁路要求
 

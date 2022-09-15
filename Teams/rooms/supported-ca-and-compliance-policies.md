@@ -13,12 +13,12 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Rooms
 description: 了解支持和推荐的条件访问和Intune设备符合性策略，以便Microsoft Teams 会议室。
-ms.openlocfilehash: 1c9b3d2a40ce34076f917026300b8b7d0921d9c8
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: a126d6624150d48ea002b0e7720e9dd5fe08d0ad
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606423"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706231"
 ---
 # <a name="supported-conditional-access-and-intune-device-compliance-policies-for-microsoft-teams-rooms-and-teams-android-devices"></a>Microsoft Teams 会议室和 Teams Android 设备支持的条件访问和Intune设备符合性策略
 
@@ -46,7 +46,7 @@ ms.locfileid: "67606423"
 | 设备筛选器                       | 支持                                                                                                                                                                            | 支持                                                                                                                                                                            | 支持                                                                                                                                                            |
 | **授予**                                | ---                                                                                                                                                                                  | ---                                                                                                                                                                                  | ---                                                                                                                                                                  |
 | 阻止访问                             | 支持                                                                                                                                                                            | 支持                                                                                                                                                                            | 支持                                                                                                                                                            |
-| 授予访问权限                             | 支持                                                                                                                                                                            | 支持                                                                                                                                                                            |                                                                                                                                                                      |
+| 授予访问权限                             | 支持                                                                                                                                                                            | 支持                                                                                                                                                                            | 支持                                                                                                                                                                    |
 | 需要多重身份验证      | 不支持                                                                                                                                                                        | 不支持                                                                                                                                                                        | 支持                                                                                                                                                            |
 | 要求将设备标记为合规 | 支持                                                                                                                                                                            | 支持                                                                                                                                                                            | 支持                                                                                                                                                            |
 | 需要已加入混合 Azure AD 的设备    | 不支持                                                                                                                                                                        | 不支持                                                                                                                                                                        | 不支持                                                                                                                                                        |

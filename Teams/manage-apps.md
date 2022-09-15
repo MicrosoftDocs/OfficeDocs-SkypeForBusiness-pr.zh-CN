@@ -19,12 +19,12 @@ description: 了解如何管理 Teams 应用。 了解如何允许或阻止应�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: ca49ca15b026048d2c495d30a51eac0f809244b5
-ms.sourcegitcommit: ebffec34c050421dc8d09a16907644657ce323f4
+ms.openlocfilehash: 3278d7cdbc144f839bbb6a675ff8f3e5168c80ed
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "67637045"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67705821"
 ---
 # <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 管理中心管理 Teams 应用
 
@@ -93,7 +93,7 @@ Teams 管理中心提供用于完成大多数应用管理用例的选项。 此�
 
 :::image type="content" source="media/blocked-by-publisher.png" alt-text="Teams 管理中心中被发布者状态阻止的屏幕截图。":::
 
-有关开发人员在默认情况下如何阻止应用程序的信息，请参阅 [隐藏应用程序，直到管理员批准](/microsoftteams/platform/concepts/design/enable-app-customization#hide-teams-app-until-admin-approves)。
+有关开发人员默认情况下如何阻止应用的信息，请参阅 [启用阻止应用，直到管理员允许应用](/microsoftteams/platform/concepts/design/enable-app-customization#hide-teams-app-until-admin-approves)。
 
 ## <a name="manage-org-wide-app-settings"></a>管理组织范围的应用设置
 

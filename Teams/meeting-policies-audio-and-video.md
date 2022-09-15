@@ -1,7 +1,7 @@
 ---
 title: 管理音频和视频的会议策略
-author: CarolynRowe
-ms.author: crowe
+ms.author: mabond
+author: mkbond007
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -18,13 +18,13 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.audioandvideo
 - seo-marvel-apr2020
-description: 了解如何在音频和视频的Teams中管理会议策略设置。
-ms.openlocfilehash: cb53cfa52b9e3be28b6400ab87a9fc3b329406b9
-ms.sourcegitcommit: a31c02892e35babbbcf5e7c303c7f14d7ba5cb52
+description: 了解如何在 Teams 中管理音频和视频的会议策略设置。
+ms.openlocfilehash: ac5c58c00f5069638c087d04a033e8e0ff3d4822
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64784686"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706842"
 ---
 # <a name="meeting-policy-settings-for-audio--video"></a>音频&视频的会议策略设置
 
@@ -50,7 +50,7 @@ ms.locfileid: "64784686"
 |**已启用传出和传入音频**    |会议允许传出和传入音频。这是默认设置。 |
 |**未启用**     |传出和传入音频在会议中已关闭。     |
 
-如果为用户设置为 **“未启用** ”，则该用户仍可以安排和组织会议，但无法使用音频。 若要加入会议，他们必须通过公共交换电话网络 (PSTN) 拨入电话，或者让会议呼叫并通过电话加入。 没有指定任何策略的会议参与者 (例如，匿名参与者) 将此设置为默认 **启用传出和传入音频**。 在Teams移动客户端上，如果未启用此设置，则用户必须通过 PSTN 拨入会议。
+如果为用户设置为 **“未启用** ”，则该用户仍可以安排和组织会议，但无法使用音频。 若要加入会议，他们必须通过公共交换电话网络 (PSTN) 拨入电话，或者让会议呼叫并通过电话加入。 没有指定任何策略的会议参与者 (例如，匿名参与者) 将此设置为默认 **启用传出和传入音频**。 在 Teams 移动客户端上，如果未启用此设置，则用户必须通过 PSTN 拨入会议。
 
 此设置不适用于 1:1 呼叫。 若要限制 1:1 通话，请配置 Teams [通话策略](teams-calling-policy.md) 并关闭 **“进行私人通话”** 设置。 此设置也不适用于 Surface Hub 和 Microsoft Teams 会议室设备等会议室设备。
 
@@ -80,7 +80,7 @@ ms.locfileid: "64784686"
 
 ### <a name="ip-video"></a>IP 视频
 
-这是按组织者和按用户策略的组合。 视频是会议的重要组成部分。 在一些组织中，管理员可能希望对有视频的用户会议进行更多的控制。 此设置控制是否可以在用户主持的会议和用户启动的 1:1 和群组通话中打开视频。 在Teams移动客户端上，此设置控制用户是否可以在会议中共享照片和视频。
+这是按组织者和按用户策略的组合。 视频是会议的重要组成部分。 在一些组织中，管理员可能希望对有视频的用户会议进行更多的控制。 此设置控制是否可以在用户主持的会议和用户启动的 1:1 和群组通话中打开视频。 在 Teams 移动客户端上，此设置控制用户是否可以在会议中共享照片和视频。
 
 由启用了此策略设置的用户组织的会议，如果与会者也启用了此策略设置，则允许与会者在会议中进行视频共享。 没有指定任何策略的会议参与者 (例如，匿名和联合参与者) 继承会议组织者的策略。
 
@@ -108,7 +108,7 @@ ms.locfileid: "64784686"
 
 #### <a name="which-ip-video-policy-setting-takes-precedence"></a>哪个 IP 视频策略设置优先？
 
-对于用户，视频的最多限制策略设置优先。此处为一些示例。
+对于用户来说，以视频的最限制性策略设置为优先。 此处为一些示例。
 
 |IP 视频|IP 视频模式|会议体验|
 |---------|---------|---------|
@@ -134,7 +134,7 @@ ms.locfileid: "64784686"
 
 #### <a name="teams-mobile-clients"></a>Teams 移动设备客户端
 
-对于Teams移动客户端上的用户，在会议期间共享照片和视频的功能也由 **IP 视频** 或 **IP 视频模式** 设置决定。 根据策略设置优先，将无法使用分享视频和照片的功能。 这不会影响屏幕共享，可以使用单独的 [屏幕共享模式](meeting-policies-content-sharing.md#screen-sharing-mode) 设置进行配置。 此外，还可以设置 [Teams 移动性策略](/powershell/module/skype/new-csteamsmobilitypolicy)，防止移动用户通过蜂窝连接使用 IP 视频，这意味着他们必须使用 WiFi 连接。
+对于 Teams 移动客户端上的用户，在会议期间共享照片和视频的功能也由 **IP 视频** 或 **IP 视频模式** 设置决定。 根据策略设置优先，将无法使用分享视频和照片的功能。 这不会影响屏幕共享，可以使用单独的 [屏幕共享模式](meeting-policies-content-sharing.md#screen-sharing-mode) 设置进行配置。 此外，还可以设置 [Teams 移动性策略](/powershell/module/skype/new-csteamsmobilitypolicy)，防止移动用户通过蜂窝连接使用 IP 视频，这意味着他们必须使用 WiFi 连接。
 
 ### <a name="media-bit-rate-kbs"></a>媒体位率 (Kbs)
 
@@ -148,13 +148,13 @@ ms.locfileid: "64784686"
 
 <a name="bkvideofilters"> </a>
 
-这是每用户策略。此设置控制用户是否可以自定义他们在会议中的视频背景。
+这是按用户策略。 此设置可以控制用户是否可以自定义会议中的视频背景。
 
-可以使用Teams管理中心和 PowerShell 来设置此策略。 可以使用 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet 编辑现有的 Teams 会议策略。 或者，使用 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet 创建一个新的 Teams 会议策略，然后将该策略分配给用户。
+可以使用 Teams 管理中心和 PowerShell 来设置此策略。 可以使用 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet 编辑现有的 Teams 会议策略。 或者，使用 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet 创建一个新的 Teams 会议策略，然后将该策略分配给用户。
 
-若要指定用户是否可以在会议中自定义其视频背景，请设置 **VideoFiltersMode** 参数 (在Teams管理中心) **中选择视频筛选器** 设置，如下所示：
+若要指定用户是否可以在会议中自定义其视频背景，请设置 **VideoFiltersMode** 参数 (在 Teams 管理中心) **中选择视频筛选器** 设置，如下所示：
 
-|在 PowerShell 中设置值|在管理中心Teams设置值 |行为  |
+|在 PowerShell 中设置值|在 Teams 管理中心设置值 |行为  |
 |---------|---------|---------|
 |**NoFilters** |**无筛选器**    |用户无法自定义其视频背景。|
 |**BlurOnly**     |**仅背景模糊**|用户可以选择模糊其视频背景。 |
@@ -166,11 +166,11 @@ ms.locfileid: "64784686"
 
 ### <a name="allow-custom-background-settings"></a>允许自定义背景设置
 
-可以添加要用于每个租户的自定义背景图像。 此功能允许公司将企业品牌应用于Teams会议。
+可以添加要用于每个租户的自定义背景图像。 此功能允许公司将企业品牌应用到 Teams 会议。
 
 1. 登录到 Teams 管理中心。
 
-2. 选择 **MeetingsMeeting** >  **PoliciesCustomize** >  会议映像。
+2. 选择 **“会议** > **会议策略** > **”自定义会议映像**。
 
    ![会议策略选择，其中突出显示了“自定义会议图像”按钮。](media/custom-background-image-button.png)
 
@@ -199,11 +199,11 @@ ms.locfileid: "64784686"
 > 更改可能需要长达 24 小时才能生效。
 
 > [!NOTE]
-> 此功能暂时在公共预览版中提供给所有Microsoft Teams客户。 若要在预览后获取此功能，每个用户都需要高级通信加载项许可证。 有关详细信息，请参阅 [Microsoft Teams 高级通信附加产品](/microsoftteams/teams-add-on-licensing/advanced-communications)。
+> 此功能在所有 Microsoft Teams 客户的公共预览版中暂时可用。 若要在预览后获取此功能，每个用户都需要高级通信加载项许可证。 有关详细信息，请参阅 [Microsoft Teams 高级通信附加产品](/microsoftteams/teams-add-on-licensing/advanced-communications)。
 
 ### <a name="far-end-camera-control-fecc-for-point-tilt-zoom-ptz-cameras"></a>远端相机控件 (FECC) 点倾斜缩放 (PTZ) 相机
 
-远端相机控件是一种策略，可以分配给Windows资源帐户上的Teams 会议室。 它允许连接到Teams会议室的 PTZ 摄像头在会议期间由Teams客户端应用中的会议参与者控制。
+远端相机控件是可分配给 Windows 资源帐户上Teams 会议室的策略。 它允许连接到 Teams 会议室的 PTZ 摄像头在会议期间由 Teams 客户端应用中的会议参与者控制。
 
 若要使用远端相机控件，会议参与者需要获取 **PTZ 相机控件** 应用。  请参阅 [“允许”和“阻止应用](manage-apps.md#allow-and-block-apps) ”，了解如何使应用在组织的应用商店中可用。
 
@@ -213,11 +213,11 @@ ms.locfileid: "64784686"
 |---------------|----------|
 |已禁用 | 这是默认设置。 设置为“禁用”时，任何人都不能使用 PTZ 相机控件。 |
 |AutoAcceptAll | PTZ 相机控件可自动提供给任何会议参与者。 |
-|AutoAcceptInTenant | PTZ 相机控件仅自动提供给与Teams会议室相同的组织中的参与者。 |
+|AutoAcceptInTenant | PTZ 相机控件仅自动提供给与 Teams 会议室相同的组织中的参与者。 |
 
-设置为`AutoAcceptAll`或`AutoAcceptInTenant`设置时`TeamsCameraFarEndPTZMode`，仍可在会议期间随时从Teams会议室手动关闭相机控件。 关闭相机时，相机控件也不可用。
+设置 `TeamsCameraFarEndPTZMode` 为 `AutoAcceptAll` 或 `AutoAcceptInTenant`设置时，仍可在会议期间随时从 Teams 会议室手动关闭相机控件。 关闭相机时，相机控件也不可用。
 
-支持任何具有机械 PTZ 和 UVC 控件的相机。 有关经过认证的Teams的摄像头列表，包括 PTZ 和非 PTZ 相机，请参阅 [USB 音频和视频外围设备的认证固件版本](rooms/requirements.md#certified-firmware-versions-for-usb-audio-and-video-peripherals)。 使用数字 PTZ 控件的相机或 Android 上的Teams 会议室尚不支持此功能。  
+支持任何具有机械 PTZ 和 UVC 控件的相机。 有关 Teams 认证的摄像头列表（包括 PTZ 和非 PTZ 相机），请参阅 [USB 音频和视频外围设备的认证固件版本](rooms/requirements.md#certified-firmware-versions-for-usb-audio-and-video-peripherals)。 使用数字 PTZ 控件的相机或 Android 上的Teams 会议室尚不支持此功能。  
 
 > [!NOTE]
 > 在测试 PTZ 控件之前更新相机固件。 请参阅原始设备制造商 (OEM) 文档来更新固件。

@@ -1,7 +1,7 @@
 ---
 title: Teams 云会议录制
-author: CarolynRowe
-ms.author: crowe
+ms.author: mabond
+author: mkbond007
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -19,12 +19,12 @@ description: 在 Teams 中部署云语音功能的实用指南，用于记录 Te
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f1ec379a7f8d30738fc71b66d840752137ce72bf
-ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
+ms.openlocfilehash: 1360847f187d98118d0b5468638cf1d6eb215fb8
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67466010"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706859"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 云会议录制
 
@@ -277,7 +277,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 对于非频道会议，录制内容存储在录制者的 OneDrive 中，因此员工离职后所有权和保留的处理将遵循常规的 [OneDrive 和 SharePoint 流程](/onedrive/retention-and-deletion#the-onedrive-deletion-process)。
 
-会议录制的默认过期时间为 120 天。 可以关闭会议自动过期设置或更改默认过期时间。 了解有关 [会议录制自动过期的](meetings-policies-recording-and-transcription.md#meetings-automatically-expire)详细信息。
+会议录制的默认过期时间为 120 天。 可以关闭会议自动过期设置或更改默认过期时间。 有关[会议录制自动过期的](meetings-policies-recording-and-transcription.md#meetings-automatically-expire)Mer informasjon。
 
 ## <a name="closed-captions-for-recordings"></a>录制内容的隐藏式字幕
 

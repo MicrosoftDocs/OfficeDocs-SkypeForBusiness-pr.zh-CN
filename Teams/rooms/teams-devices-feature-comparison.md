@@ -18,12 +18,12 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f9c4cf77b544e731e143f245a30e710417bebca
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 20c479760b2093e355bf2f0b3cbd8be0a1599002
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67272367"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706041"
 ---
 # <a name="teams-devices-for-shared-spaces-feature-comparison-between-windows-and-android"></a>Windows 和 Android 之间共享空间的 Teams 设备功能比较 
 Microsoft Teams 会议室体验是考虑到客户而设计的。 每个客户都有独特的需求，这就是为什么 Microsoft 提供了广泛的选项，包括 Windows 和 Android 上的Teams 会议室。 
@@ -46,6 +46,7 @@ Microsoft Teams 会议室体验是考虑到客户而设计的。 每个客户都
 ||直接来宾加入 |在线  |有空 |
 |**会议参与和协作**|直观的、专门构建的应用体验 |在线  |有空 |
 ||视频和内容布局 (例如“一起模式”、“大型库”、“仅限库”以及库和内容)  |在线  |有空 |
+||前行布局|在线|不可用|
 ||聊天气泡|在线 |即将提供 |
 ||举手，下手 |在线  |有空 |
 ||固定多个参与者 |在线  |即将提供 |

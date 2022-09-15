@@ -14,12 +14,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 使用 Microsoft Intune 和 Windows 配置设计器管理 Surface Hub 上的 Microsoft Teams 设置
-ms.openlocfilehash: 6e99922ebb7bb30db1b5e94fd1a4d30b8ec653b8
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 7296ed84cf34b47c562cb3ab5f5582fe1eec58ac
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67272207"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67705971"
 ---
 # <a name="manage-microsoft-teams-settings-on-surface-hub"></a>在 Surface Hub 上管理 Microsoft Teams 设置
 
@@ -28,7 +28,7 @@ ms.locfileid: "67272207"
 - [为Windows 10创建预配包](/windows/configuration/provisioning-packages/provisioning-create-package)
 - [什么是Microsoft Intune设备管理？](/mem/intune/remote-actions/device-management)
 
-如果只有几个 Surface Hub 设备并且可以轻松访问这些设备，则 Windows 配置设计器是一个不错的选择。 如果有许多 Surface Hub，或者它们位于远程位置，请在 Microsoft Endpoint Manager 中使用Microsoft Intune（如果部署在组织中）。 无论选择哪种方法，都需要创建一个 XML 配置文件，以便对 Surface Hub 上的 Teams 设置进行更改。
+如果只有几个 Surface Hub 设备并且可以轻松访问这些设备，则 Windows 配置设计器是一个不错的选择。 如果有许多 Surface Hub，或者它们位于远程位置，请在 Microsoft Endpoint Manager中使用Microsoft Intune（如果已在组织中部署）。 无论选择哪种方法，都需要创建一个 XML 配置文件，以便对 Surface Hub 上的 Teams 设置进行更改。
 
 ## <a name="teams-configuration-file-syntax"></a>Teams 配置文件语法
 
@@ -57,7 +57,7 @@ Surface Hub 上的 Teams 配置是使用 XML 文件定义的。 XML 文件包含
 | `<SurfaceHubSettings>`  | `<AutoAcceptProximateMeetingInvitations>` |           | 确定 Teams 是否会自动接受基于邻近的会议。<br>接受的值： `true``false`                                                                                                                                                                                                                                                                                                                                                                                                     |
 | `<SurfaceHubSettings>`  | `<CoordinatedMeetings>`                   |           | 包含协调会议的所有配置元素。                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 |                         |                                           | `enabled` | 确定 Teams 是否配置为与其他设备一起参加协调会议。<br>接受的值： `true``false`                                                                                                                                                                                                                                                                                                                                                                                |
-| `<CoordinatedMeetings>` | `<TrustedAccounts>`                       |           | 这是每个 Teams 会议室设备或 Surface Hub 的逗号分隔的 UPN 列表，设备应接受来自的会议加入请求，或者应将会议加入请求发送到其中。<br>接受的值：字符串                                                                                                                                                                                                                                                                                                                         |
+| `<CoordinatedMeetings>` | `<TrustedAccounts>`                       |           | 这是设备应接受会议加入请求的每个Teams 会议室设备或 Surface Hub 的逗号分隔的 UPN 列表，或者应向其发送会议加入请求。<br>接受的值：字符串                                                                                                                                                                                                                                                                                                                         |
 | `<CoordinatedMeetings>` | `<Settings>`                              |           | 包含协调会议的配置音频和视频配置元素                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | `<Settings>`            | `<Audio>`                                 |           | 控制 Surface Hub 上 Teams 的音频配置。                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 |                         |                                           | `default` | 确定会议开始时麦克风将处于活动状态的设备。 只有一个设备 (通常Teams 会议室设备) 可以设置`true`此字段，而其余设备必须设置此字段以避免`false`音频回显和反馈。<br>接受的值： `true``false`                                                                                                                                                                                                           |

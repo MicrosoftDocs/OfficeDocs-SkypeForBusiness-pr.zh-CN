@@ -15,12 +15,12 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom: ''
 description: 了解如何在电话系统中管理音乐保留功能。
-ms.openlocfilehash: 9d8fa247ffdc982c5d41777c68f6b620a92644e3
-ms.sourcegitcommit: 8fc2d6a824e1e119f54ea2347bc5c10cc076956d
+ms.openlocfilehash: e218de46e56c2e2f85ed2b19cea21cbc4d4679be
+ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/13/2022
-ms.locfileid: "66773751"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706171"
 ---
 # <a name="music-on-hold"></a>保留音乐
 
@@ -69,7 +69,7 @@ Microsoft Teams 呼叫方案中提供的默认音乐不含组织支付的任何�
 
 4. 选择 **“上传”文件** 以上传自定义音乐音频文件。
 
-5. 选择 **“应用**”。
+5. 选择“**应用**”。
 
 ### <a name="assign-a-custom-call-hold-policy-to-users"></a>为用户分配自定义呼叫保留策略
 
@@ -129,6 +129,8 @@ C:\> Grant-CsTeamsCallHoldPolicy -PolicyName "CustomMoH1" -Identity user1@contos
 | :------------| :------- | :------- | :------- | :------- | :------- |
 | 按住 1：1 PSTN 呼叫 | -音乐保持<br>-保留自定义音乐 | -音乐保持<br>-保留自定义音乐 | -音乐保持<br>-保留自定义音乐 | -音乐保持<br>-保留自定义音乐 | -音乐保持<br>-保留自定义音乐 |
 | 按住 1：1 Teams 呼叫 | -音乐保持<br>-保留自定义音乐 | -音乐保持<br>-保留自定义音乐 | -音乐保持<br>-保留自定义音乐 | -音乐保持<br>-保留自定义音乐 | -音乐保持<br>-保留自定义音乐 |
+| 在 1：1 PSTN 呼叫时保留传输 | -音乐保持<br>-保留自定义音乐 | -音乐保持<br>-保留自定义音乐 | | |
+| 在 1：1 Teams 呼叫时保留传输 | -音乐保持<br>-保留自定义音乐 | -音乐保持<br>-保留自定义音乐| | | |
 | 在 1：1 PSTN 呼叫时保留协商传输 |-音乐保持<br>-保留自定义音乐 || -音乐保持<br>-保留自定义音乐 | -音乐保持<br>-保留自定义音乐 | -音乐保持<br>-保留自定义音乐 |
 | 在 1：1 Teams 呼叫时保留协商转移 |-音乐保持<br>-保留自定义音乐 || -音乐保持<br>-保留自定义音乐 | -音乐保持<br>-保留自定义音乐 | -音乐保持<br>-保留自定义音乐 |
 

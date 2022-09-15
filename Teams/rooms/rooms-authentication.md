@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 会议室中的身份验证
+title: Windows 上Microsoft Teams 会议室中的身份验证
 ms.author: dstrome
 author: dstrome
 ms.reviewer: sohailta
@@ -14,15 +14,15 @@ ms.assetid: ''
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Rooms
-description: 了解如何为Microsoft Teams 会议室配置新式身份验证
-ms.openlocfilehash: ef576c2d785f3e3fb16afd42e6136b607711c28b
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+description: 了解如何在 Windows 上为Microsoft Teams 会议室配置新式身份验证
+ms.openlocfilehash: 23e08b48c5d161caf8091068abc4c9cda0061122
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268237"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706429"
 ---
-# <a name="authentication-in-microsoft-teams-rooms"></a>Microsoft Teams 会议室中的身份验证
+# <a name="authentication-in-microsoft-teams-rooms-on-windows"></a>Windows 上Microsoft Teams 会议室中的身份验证
 
 Microsoft Teams 会议室的帐户管理在应用程序级别进行处理。 应用程序连接到 Microsoft Teams、Skype for Business 和 Exchange 以获取资源帐户的资源，以启用通话和会议体验。 Teams 会议室使用专用资源帐户来允许始终启用功能、为使用调用计划) 配置的设备调用方案 (，以及自定义锁定机制。 这意味着Teams 会议室的身份验证以不同于最终用户设备的方式进行。  
 

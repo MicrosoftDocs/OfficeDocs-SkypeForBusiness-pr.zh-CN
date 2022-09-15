@@ -14,12 +14,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 配置Teams 会议室设备和 Surface Hub 以在一台设备或其他设备加入会议时加入会议。
-ms.openlocfilehash: f34e3637c9c9716c6f8ec87865c3c570820a0357
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 759574015f2138476e0b03ef6fa85b8b105d81ef
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270477"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706979"
 ---
 # <a name="set-up-coordinated-meetings-with-microsoft-teams-rooms-and-surface-hub"></a>使用 Microsoft Teams 会议室 和 Surface Hub 设置协调会议
 
@@ -73,7 +73,7 @@ ms.locfileid: "67270477"
 | **已启用视频**      | 确定会议中的参与者是否可以打开或关闭相机。 可以在事件参与者希望共享不同视频透视的任何其他设备上将其设置 `true` 为 (例如参与者使用 Surface Hub 白板) 。 如果不希望参与者在设备上打开或关闭相机，请将其设置为 `false`。<p> 如果 **视频默认** 设置为 `true`“视频”，则忽略此设置，参与者可以打开或关闭相机。         |
 | **白板默认值** | 确定Teams 会议室设备是否会显示会议参与者之一共享的白板。 如果有 Surface Hub，`true`并且没有 Surface Hub，建议将其设置`false`为。 此设置对 Surface Hub 没有影响。 Surface Hub 将始终显示会议参与者共享的白板。         |
 | **已启用白板** | 确定会议中的参与者是否可以打开或关闭白板。 如果不希望参与者在设备上打开或关闭白板，请将其设置为 `false`。 <p>如果 **将 Whiteboard 默认** 设置为 `true`，则忽略此设置，参与者可以打开或关闭白板。
-| **受信任的帐户**   | 这是每个 Teams 会议室设备或 Surface Hub 的逗号分隔的 UPN 列表，设备应接受来自的会议加入请求，或者应将会议加入请求发送到其中。 |
+| **受信任的帐户**   | 这是设备应接受会议加入请求的每个Teams 会议室设备或 Surface Hub 的逗号分隔的 UPN 列表，或者应向其发送会议加入请求。 |
 
 在后续列中，添加每个Teams 会议室设备和 Surface Hub。 在每个列中，填写与会议室所需的体验相对应的值。 下面是一个包含一个Teams 会议室设备和一个 Surface Hub 的示例：
 
@@ -148,7 +148,7 @@ ms.locfileid: "67270477"
 5. 将文件放在Teams 会议室设备`C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState`的文件夹中。 可以通过以下几种方式执行此操作：
 
     - 将 **文件复制到Teams 会议室设备** 需要启用文件共享并创建网络共享，然后才能将文件复制到设备。 执行此操作后，可以连接到网络共享并将文件复制到设备。 有关详细信息，请参阅[Microsoft Teams 会议室维护和操作](../rooms/rooms-operations.md)。
-    - **使用组策略** 创建组策略将文件复制到设备。 有关详细信息，请参阅[组策略概述](/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831791(v=ws.11))。
+    - **使用نهج المجموعة** 创建组策略将文件复制到设备。 有关详细信息，请[参阅نهج المجموعة概述](/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831791(v=ws.11))。
     - **在Teams 会议室设备上下载文件**，可以使用管理员模式登录到设备，然后从网络共享或 USB 驱动器将文件复制到设备。 有关详细信息，请参阅[切换到管理员模式](../rooms/rooms-operations.md#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running)。
     
 6. 重启设备。 可以通过以下几种方式执行此操作：

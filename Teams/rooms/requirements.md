@@ -16,12 +16,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: 了解支持Microsoft Teams 会议室的要求，包括选择合适的设备、麦克风、扬声器、相机和显示器。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 84566f8dea2f687d2981d56c837bb0d92241d254
-ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
+ms.openlocfilehash: bd4376a8d34be2c0184844b015531c7b496c94c4
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "67418471"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706679"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams 会议室要求
 
@@ -43,11 +43,11 @@ Microsoft Teams 会议室缩放到不同的房间大小。 Teams 会议室根据
 > 如果你有本地 Exchange Server，则 Microsoft Teams 会议室需要使用 Exchange Server 2013 SP1 或更高版本。
 
 ## <a name="hardware-requirements"></a>硬件要求
-硬件部署包括一系列 Microsoft Teams 会议室系统（结合经过认证的音频和视频外围设备）以及将这些设备集成在一起的电缆解决方案。  此处将介绍这些选项。
+硬件部署包括一系列Microsoft Teams 会议室系统，以及经过认证的音频和视频外围设备，以及用于将这些设备集成在一起的布线解决方案。  此处将介绍这些选项。
 
-**支持的 Microsoft Teams 会议室系统**
+**支持的Microsoft Teams 会议室系统**
 
-[会议室系统产品展示](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=20&page=1&filterIds=)中提供了所有当前的 Microsoft Teams 会议室设备和捆绑包。
+Teams 会议室[产品展示](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=20&page=1&filterIds=)中提供了所有当前Microsoft Teams 会议室设备和捆绑包。
 
   |控制台|处理器|RAM|磁盘|
   |:-----|:-----|:-----|:-----|
@@ -142,6 +142,7 @@ Microsoft Teams 会议室缩放到不同的房间大小。 Teams 会议室根据
 |[Aver VC520 PRO2 会议系统](https://www.averusa.com/products/conference-camera/vc520pro2) | 00.0.7200.79 |
 |[Aver VB342+ 相机声栏](https://www.averusa.com/products/conference-camera/vb342plus) | 声栏：0.0.0000.97|
 |[Aver CAM 540](https://www.averusa.com/products/conference-camera/cam540) |0.0.6002.83 |
+|[Aver CAM 550](https://www.averusa.com/products/conference-camera/cam550) |0.0.8000.51 |
 |[Aver CAM 520 专业版](https://www.averusa.com/products/conference-camera/cam520pro) |0.0.1000.73 |
 |[Aver CAM 520 Pro 2](https://www.averusa.com/products/conference-camera/cam520pro2) |0.0.7200.3 |
 |[Aver CAM 130](https://www.averusa.com/products/conference-camera/cam130) |0.0.7450.02 | &#x2714; |
@@ -220,6 +221,7 @@ Microsoft Teams 会议室缩放到不同的房间大小。 Teams 会议室根据
 |[Shure MXA 710 4 英尺墙体线性阵列麦克风](https://www.shure.com/products/microphones/mxa710) + </br>[Shure Intellimix P300 音频会议处理器](https://www.shure.com/products/mixers/p300) +</br>[MXN5-C 天花板扬声器](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 4 英尺墙体线性数组麦克风：1.2.0 </br> P300 DSP：4.4.8 </br> MXN5-C 扬声器：1.1.1 |
 |[使用 Intellimix Ceiling Array 麦克风的 Shure MXA 910](https://www.shure.com/products/microphones/mxa910) + </br> [Shure Intellimix Room Software](https://www.shure.com/products/software/intellimix_room) +</br> [Crestron UC-C100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)| Shure Intellimix Room Software： 3.0.4.14 </br> 使用 Intellimix Ceiling Array 麦克风的 Shure MXA 910：4.4.11 </br> Shure MXN5-C 扬声器：1.2.1 </br> 使用 ASUS Tek Computer INC 9934 计算的 Crestron UC-C100-T | 
 |[使用 Intellimix Ceiling Array 麦克风的 Shure MXA 910](https://www.shure.com/products/microphones/mxa910) + </br> [Shure Intellimix Room Software](https://www.shure.com/products/software/intellimix_room) +</br>联想 ThinkSmart Core | Shure Intellimix Room Software： 3.2.0.52 </br> 使用 Intellimix Ceiling Array 麦克风的 Shure MXA 910：4.4.11 </br> Shure MXN5-C 扬声器：1.2.1 |
+|[Shure MXA920XX-R 圆形天花板数组麦克风](https://www.shure.com/en-US/products/microphones/mxa920?variant=MXA920AL-R) + </br> [P300 处理器](https://www.shure.com/en-US/products/mixers/p300?variant=P300-IMX) + </br> [MXN5 扬声器](https://www.shure.com/en-US/products/loudspeakers/mxn5) | MXA920XX-R：1.1.56 </br> P300 处理器：4.7.7 </br> MXN5 扬声器：1.5.6 |
 |[使用 Intellimix Ceiling Array 麦克风的 Shure MXA 910](https://www.shure.com/products/microphones/mxa910) + </br> [Shure Intellimix Room Software](https://www.shure.com/products/software/intellimix_room) +</br>Dell Optiplex 7080 | Shure Intellimix Room Software： 3.2.0.52 </br> 使用 Intellimix Ceiling Array 麦克风的 Shure MXA 910：4.4.11 </br> Shure MXN5-C 扬声器：1.2.1 |
 |[Sennheiser TeamConnect 智能扬声器/TC ISP (T-Rock) ](https://en-us.sennheiser.com/tcisp)|1.0.2|
 |[Biamp Tesira Fore AVB VT4 固定音频 DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br>[Sennheiser TeamConnect Ceiling 2 麦克风](https://sennheiser.com/tcc2)+ &Dagger;</br>[Tesira EX-UBT](https://www.biamp.com/products/tesira/tesira-expanders) &Dagger; |  Biamp DSP：3.12.0.15 </br> TCC2：1.3.3 </br>EX-UBT：3.12.0.15 |

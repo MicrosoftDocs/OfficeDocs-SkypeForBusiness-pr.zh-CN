@@ -1,8 +1,8 @@
 ---
 title: 将 Skype 会议应用配置为与 Teams 配合使用
 ms.reviewer: ''
-author: CarolynRowe
-ms.author: crowe
+author: wlibebe
+ms.author: wlibebe
 manager: serdars
 ms.date: 06/21/2019
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9423d6e3ace2a0926478760c45812b4ff0103936
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: 9d66798b34807fea5dfb10cb6dc65a844c1b0781
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66789587"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706439"
 ---
 # <a name="configure-the-skype-meetings-app-to-work-with-teams"></a>将 Skype 会议应用配置为与 Teams 配合使用
 

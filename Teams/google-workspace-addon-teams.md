@@ -1,7 +1,7 @@
 ---
 title: 为 Google Workspace 设置 Microsoft Teams 会议加载项
-author: CarolynRowe
-ms.author: crowe
+ms.author: mabond
+author: mkbond007
 ms.reviewer: aravin
 manager: serdars
 ms.topic: article
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 020fdd048b25dc015036e49d00858c106cf9a7af
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: 0bd6897b770215af75862438996a365acd463c96
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66789177"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706639"
 ---
 # <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>为 Google Workspace 设置 Microsoft Teams 会议加载项
 
@@ -31,23 +31,23 @@ ms.locfileid: "66789177"
 
 必须由 Teams 管理员启用适用于 Google Workspace 的 Microsoft Teams 会议加载项，租户用户才能访问该应用。
 
-## <a name="enable-or-disable-microsoft-teams-meeting-add-on-for-google-workspace-in-the-azure-portal"></a>在Azure 门户中为 Google Workspace 启用或禁用 Microsoft Teams 会议加载项
+## <a name="enable-or-disable-microsoft-teams-meeting-add-on-for-google-workspace-in-the-azure-portal"></a>在Azure-Portal中为 Google Workspace 启用或禁用 Microsoft Teams 会议加载项
 
-作为租户管理员，可以使用Azure 门户从组织的管理员帐户启用或禁用适用于 Google Workspace 的 Microsoft Teams 会议加载项。
+作为租户管理员，可以使用Azure-Portal从组织的管理员帐户启用或禁用适用于 Google Workspace 的 Microsoft Teams 会议加载项。
 
 默认情况下启用加载项。
 
-1. 登录到Azure 门户。
+1. 登录到Azure-Portal。
 
 2. 选择 **企业应用程序** > **所有应用程序**。
 
 3. 搜索 **Google Workspace 的 Microsoft Teams 会议加载项**。
 
-   ![Azure 门户显示所有应用程序。](media/aad-add-google-workspace.png)
+   ![Azure-Portal显示所有应用程序。](media/aad-add-google-workspace.png)
 
 4. 选择 **“是**”。
 
-   ![Azure 门户显示 google 工作区属性。](media/google-workspace-properties.png)
+   ![Azure-Portal显示 google 工作区属性。](media/google-workspace-properties.png)
 
 5.  (可选) 若要禁用加载项，请在步骤 4 中选择 **“否** ”而不是 **“是** ”。
 

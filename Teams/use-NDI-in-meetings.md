@@ -1,7 +1,7 @@
 ---
 title: 广播会议内容
-author: CarolynRowe
-ms.author: crowe
+author: MicrosoftHeidi
+ms.author: heidip
 ms.reviewer: aalinne
 manager: serdars
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d048063f7b8efa6b853aa7273e0bcefaeb41b1f
-ms.sourcegitcommit: 9175c6d542dd825ce965d0cb7c67264f22315202
+ms.openlocfilehash: cc185a22c7ea4d849008989da29f50a8f98ebb9d
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "66687818"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67706809"
 ---
 # <a name="broadcast-meeting-content"></a>广播会议内容 
 
