@@ -1,14 +1,14 @@
 ---
-title: Microsoft Teams中的调用策略：呼叫和呼叫转发功能
-author: SerdarSoysal
-ms.author: tonysmit
+title: Microsoft Teams 中的呼叫策略：呼叫和呼叫转发功能
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: jastark
 audience: admin
 search.appverid: MET150
-description: 了解如何在Microsoft Teams中创建、修改和添加用户到自定义调用策略，以及各种调用策略设置。
+description: 了解如何在 Microsoft Teams 中创建、修改和添加用户到自定义调用策略以及各种调用策略设置。
 ms.localizationpriority: medium
 ms.collection:
 - M365-voice
@@ -20,16 +20,16 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a52b30e1ced457377d7dd1c820192cb856827ba
-ms.sourcegitcommit: 3b86e55787c34da76428d6915964ac4f3c6239fc
+ms.openlocfilehash: 6c785a6860c1ea45200253e9d2530a80e9dd28f6
+ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "65601591"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "67708258"
 ---
-# <a name="calling-and-call-forwarding-in-teams"></a>Teams中的呼叫和呼叫转接
+# <a name="calling-and-call-forwarding-in-teams"></a>Teams 中的呼叫和呼叫转发
 
-在Microsoft Teams中，调用策略控制哪些呼叫和呼叫转发功能可供用户使用。 呼叫策略确定用户是否可以进行私人呼叫、使用呼叫转接或同时拨打其他用户或外部电话号码、将呼叫路由到语音邮件、向呼叫组发送呼叫、使用委派进行入站和出站呼叫等。
+在 Microsoft Teams 中，呼叫策略控制哪些呼叫和呼叫转发功能可供用户使用。 呼叫策略确定用户是否可以进行私人呼叫、使用呼叫转接或同时拨打其他用户或外部电话号码、将呼叫路由到语音邮件、向呼叫组发送呼叫、使用委派进行入站和出站呼叫等。
 
 可以使用自动创建或创建和分配自定义策略的全局 (组织范围的默认) 策略。
 
@@ -37,7 +37,7 @@ ms.locfileid: "65601591"
 
 按照以下步骤创建自定义调用策略。
 
-1. 在Microsoft Teams管理中心的左侧导航中，转到 **VoiceCalling** >  策略。
+1. 在 Microsoft Teams 管理中心的左侧导航中，转到 **语音** > **呼叫策略**。
 2. 选择“**添加**”。
 3. 打开或关闭要在调用策略中使用的功能。
 4. 若要控制用户是否可以将入站呼叫路由到语音邮件，请选择 **“已启用** ”或 **“用户控制**”。 若要防止路由到语音邮件，请选择 **“已禁用**”。
@@ -47,7 +47,7 @@ ms.locfileid: "65601591"
 
 按照以下步骤编辑现有调用策略。
 
-1. 在Microsoft Teams管理中心的左侧导航中，选择 **VoiceCalling** >  策略。
+1. 在 Microsoft Teams 管理中心的左侧导航中，选择 **语音** > **呼叫策略**。
 2. 单击要修改的策略旁边，然后选择 **“编辑**”。
 3. 进行所需的更改，然后单击 **“保存**”。
 
@@ -61,7 +61,7 @@ ms.locfileid: "65601591"
 
 ### <a name="make-private-calls"></a>拨打私人电话
 
-此设置控制Teams中的所有调用功能。 关闭此功能以关闭Teams中的所有调用功能。
+此设置控制 Teams 中的所有调用功能。 关闭此功能以关闭 Teams 中的所有调用功能。
 
 ### <a name="call-forwarding-and-simultaneous-ringing-to-people-in-your-organization"></a>呼叫转接和同时向组织中的人员拨打电话
 
@@ -97,7 +97,7 @@ ms.locfileid: "65601591"
 
 ### <a name="web-pstn-calling"></a>Web PSTN 调用
 
-此设置使用户能够使用Teams Web 客户端调用 PSTN 号码。
+此设置使用户能够使用 Teams Web 客户端调用 PSTN 号码。
 
 ### <a name="automatically-answer-incoming-meeting-invites"></a>自动回答传入会议邀请
 
