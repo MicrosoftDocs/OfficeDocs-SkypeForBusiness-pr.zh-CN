@@ -1,5 +1,5 @@
 ---
-title: 登录 Microsoft Teams
+title: 不同的技术如何影响 Microsoft Teams 登录，包括限制登录和登录行为。
 author: MSFTTracyP
 ms.author: tracyp
 manager: dansimp
@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: anwara
-description: 了解新式身份验证的工作方式、如何切换帐户，以及如何排除新式身份验证故障，以及如何在登录时告诉团队忽略预先填充的用户名称（UPN）。
+description: 了解单一登录和新式身份验证等技术如何影响 iOS、Android、macOS 和电脑上的登录行为。 如何将团队与多个帐户配合使用，并限制登录。 包括如何告诉 Teams 在登录时忽略用户名 (UPN) 的预填充。
 ms.custom: seo-marvel-apr2020
 ms.localizationpriority: high
 ms.collection:
@@ -17,26 +17,34 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b6fb93bf7f8e3278ba4fba16604769c6f8f10e36
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
-ms.translationtype: HT
+ms.openlocfilehash: c37d9fd2140aaae9ccce443c81c537dcfb92305e
+ms.sourcegitcommit: 0181a62c8d5a3f5b28fbb5a15645f0e82a1b8f35
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681603"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "67734606"
 ---
-# <a name="sign-in-to-microsoft-teams"></a>登录 Microsoft Teams
+# <a name="how-different-technologies-effect-microsoft-teams-sign-on"></a>不同的技术如何影响 Microsoft Teams 登录
 
-## <a name="windows-users"></a>Windows 用户
+如果需要了解单一登录 (SSO) 、新式身份验证 (MS) 以及多重身份验证 (MA) 如何影响用户的登录体验，本文将帮助阐明用户和管理员可以期待看到的内容。 它还概述了 macOS、android 和 iOS 设备的登录行为、使用多个帐户的登录工作原理、如何在登录屏幕上删除自动填充的凭据或“预填充”以及如何限制登录。
+
+如果你的角色涉及了解 Microsoft 团队在登录期间的预期行为，请对本文进行书签。
+
+## <a name="microsoft-teams-and-windows-users-sign-in-recommendations"></a>Microsoft Teams 和 Windows 用户：登录建议
 
 Microsoft 建议组织使用带有“混合域加入”或“Azure AD 加入”配置的最新版 Windows 10。 使用最近的版本可以确保用户的账户在Windows的Web账户管理器中处于预先准备状态，从而实现单点登录到Teams和其他Microsoft应用程序。 单点登录提供了更好的用户体验（无声登录）和更好的安全状况。
 
 Microsoft Teams 使用新式身份验证使登录体验简单而安全。若要了解用户如何登录Teams，请参阅 [登录Teams](https://support.office.com/article/sign-in-to-teams-ea4b1443-d11b-4791-8ae1-9977e7723055)。
 
-### <a name="how-modern-authentication-works"></a>新式验证的工作原理
+### <a name="how-modern-authentication-ma-effects-your-sign-in-what-users-will-see-when-ma-is-on"></a>新式身份验证 (MA) 如何影响登录：当 MA 处于打开状态时，用户将看到什么
 
-新式验证是一种使 Teams 知道用户已在其他位置输入其凭据，如工作电子邮件和密码，而不再需要再次输入凭据即可启动应用。 体验的不同因几个因素而异，如用户在 Windows 上还是在 Mac 上工作异。 具体取决于你的组织是启用了单一身份验证还是多重身份验证。 多重身份验证通常包括通过电话、提供唯一代码、输入 PIN 或者指纹验证凭据。 下面是每个新式身份验证应用场景的描述。
+新式身份验证是让 Teams 知道用户已在其他位置输入其凭据（如工作电子邮件和密码）的过程的一部分，不应要求他们再次输入以启动应用。 体验因多种因素而异，例如用户在 Windows 操作系统或 Mac 上工作。
+
+登录行为也会有所不同，具体取决于组织是否已启用单因素身份验证或多重身份验证。 多重身份验证通常包括通过电话、提供唯一代码、输入 PIN 或者指纹验证凭据。 
 
 每个使用 Teams 的组织都可以使用现代身份验证。 如果用户无法完成此过程，则你的组织的 Azure AD 配置可能存在基础问题。 有关详细信息，请参阅[为什么我无法登录 Microsoft Teams？](https://support.office.com/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f)
+
+下面是用户在每个新式身份验证方案中可以期待的行为的破败。
 
 - 如果用户已使用工作或学校帐户登录到 Windows 或其他 Office 应用，在启动 Teams 时将直接进入应用。无需输入其凭据。
 
@@ -46,7 +54,7 @@ Microsoft Teams 使用新式身份验证使登录体验简单而安全。若要�
 
 - 如果用户登录到已加入域的计算机，则在启动 Teams 时，系统可能会要求他们再执行一个身份验证步骤，具体取决于你的组织是选择要求 MFA 还是其计算机已要求通过 MFA 登录。如果他们的计算机已要求通过 MFA 登录，则当他们打开 Teams 时，应用会自动启动。
 
-- 在加入域的电脑上，如果无法进行 SSO，Teams 可能会使用用户主体名称 (UPN) 预填充其登录屏幕。 在某些情况下，你可能不希望采取这种做法，尤其是在你的组织在本地和 Azure Active Directory 中使用不同 UPN 的情况下。 如果是这种情况，则可以使用以下 Windows 注册表项来关闭 UPN 的预填充：
+- 在已加入域的电脑上，如果无法使用 SSO，Teams 可能会使用用户主体名称预填充其登录屏幕 (UPN) 。 在某些情况下，你可能不希望采取这种做法，尤其是在你的组织在本地和 Azure Active Directory 中使用不同 UPN 的情况下。 如果是这种情况， **可以使用以下 Windows 注册表项关闭 UPN 的预填充**：
 
   Computer\HKEY_CURRENT_USER\Software\Microsoft\Office\Teams<br/>
   SkipUpnPrefill(REG_DWORD)<br/>
@@ -55,15 +63,15 @@ Microsoft Teams 使用新式身份验证使登录体验简单而安全。若要�
     > [!NOTE]
     > 默认情况下会跳过或忽略以“.local”或“.corp”结尾的用户名的用户名预填充，因此无需设置注册表项来关闭该功能。
 
-### <a name="signing-in-to-another-account-on-a-domain-joined-computer"></a>在加入域的计算机上登录到另一个帐户
+### <a name="microsoft-teams-sign-on-to-another-account-on-a-domain-joined-computer"></a>Microsoft Teams 登录到已加入域的计算机上的另一个帐户
 
 在加入域的计算机上的用户可能无法使用同一 Active Directory 域中的其他帐户登录 Teams。
 
-## <a name="macos-users"></a>MacOS 用户
+## <a name="macos-users-and-microsoft-teams-sign-on-prompts"></a>macOS 用户和 Microsoft Teams 登录提示
 
 在 macOS 上，Teams 将提示用户输入其用户名和凭据，并且可能会根据组织的设置提示进行多重身份验证。 用户输入其凭据后，他们无需再次提供凭据。 此后，只要是在同一台计算机上工作，Teams 都将自动启动。
 
-## <a name="teams-on-ios-and-android-users"></a>iOS 和 Android 版 Teams 用户
+## <a name="microsoft-teams-sign-on-for-ios-and-android-users"></a>适用于 iOS 和 Android 用户的 Microsoft Teams 登录
 
 登录时，移动用户将看到当前已登录的或其设备上以前登录的所有 Microsoft 365 帐户的列表。 用户可点击任意帐户进行登录。 移动登录有两种方案：
 
@@ -74,7 +82,7 @@ Microsoft Teams 使用新式身份验证使登录体验简单而安全。若要�
 > [!NOTE]
 > 对于要体验本部分中所述的登录体验的用户，其设备必须正在运行 Teams for iOS 版本2.0.13（内部版本 2020061704）或更高版本，或者 Teams for Android 版本 1416/1.0.0.2020061702 或更高版本。
 
-## <a name="using-teams-with-multiple-accounts"></a>使用多个 Teams 帐户
+## <a name="using-microsoft-teams-with-multiple-sign-in-accounts"></a>将 Microsoft Teams 与多个登录帐户配合使用
 
 Teams for iOS 和 Android 支持多个工作、学校和多个个人帐户并行使用。 Teams 桌面应用程序将在 2020 年 12 月支持并行使用一个工作/学校和一个个人帐户，随后将推出支持多个工作/学校帐户。
 
@@ -82,11 +90,11 @@ Teams for iOS 和 Android 支持多个工作、学校和多个个人帐户并行
 
 :::image type="content" source="media/sign-in-multiple-accounts.png" alt-text="在 Teams 中添加多个账户。":::
 
-## <a name="restrict-sign-in-to-teams"></a>无法登录到 Teams
+## <a name="restrict-sign-in-to-microsoft-teams"></a>将登录限制为 Microsoft Teams
 
 组织可能希望限制在受管理的设备上使用公司许可的应用的方式，例如，限制学生或员工访问其他组织中的数据，或将公司许可的应用用于个人的情况。 可通过设置 Teams 应用程序识别的设备策略来强制实施这些限制。
 
-### <a name="how-to-restrict-sign-in-on-mobile-devices"></a>如何限制移动设备上的登录
+### <a name="how-to-restrict-microsoft-teams-sign-in-on-mobile-devices"></a>如何限制移动设备上的 Microsoft Teams 登录
 
 Teams for iOS 和 Android 提供 IT 管理员将帐户配置推送到 Microsoft 365 帐户的功能。 此功能适用于使用[托管应用配置](https://developer.apple.com/library/archive/samplecode/sc2279/Introduction/Intro.html)通道（适用于iOS）或 [Android Enterprise](https://developer.android.com/work/managed-configurations) 通道（适用于Android）的任何移动设备管理（MDM）提供商。
 
@@ -108,9 +116,9 @@ Teams for iOS 和 Android 提供 IT 管理员将帐户配置推送到 Microsoft 
 
 若要创建托管 Android 设备的应用配置策略，请参阅[添加托管 Android 设备的应用配置策略](/mem/intune/apps/app-configuration-policies-use-android)。
 
-### <a name="how-to-restrict-sign-in-on-desktop-devices"></a>如何限制台式机设备上的登录
+### <a name="how-to-restrict-teams-sign-in-on-desktop-devices"></a>如何限制桌面设备上的 Teams 登录
 
-Windows 和 MacOS 上的 Teams 应用将支持限制登录到组织的设备策略。 可通过常规设备管理解决方案（例如 MDM（移动设备管理）或 GPO（组策略对象））设置策略。 
+Windows 和 macOS 上的 Microsoft Teams 应用正在获得对限制登录到组织的设备策略的支持。 可通过常规设备管理解决方案（例如 MDM（移动设备管理）或 GPO（组策略对象））设置策略。
 
 在设备上配置此策略时，用户仅可使用位于 Azure AD 租户（包含于策略中定义的 “租户允许列表” ）中的帐户登录。 该策略应用于所有登录，包括第一个和其他帐户。 如果你的组织包括多个 Azure AD 租户，则可以在允许列表中包含多个租户 ID。 Teams 应用中的 “添加其他帐户” 的链接可能仍处于可见状态，但它们不可操作。
 
@@ -137,13 +145,13 @@ Windows 和 MacOS 上的 Teams 应用将支持限制登录到组织的设备策�
 - 数据类型：字符串
 - 备注：输入逗号分隔的 Azure AD 租户 ID 列表
 
-### <a name="global-sign-in"></a>全局登录
+### <a name="global-sign-in-and-microsoft-teams"></a>全局登录和 Microsoft Teams
 
 现在，Teams Android 应用支持全局登录，为第一线工作者提供简便的登录体验。 员工可以从共享设备池中选取设备，使其在排班期间单一登录到“归为己有”。 在他们值班结束后，应能够执行注销，以便在设备上全局注销。 有关详细信息，请参阅[ Teams 注销](sign-out-of-teams.md)。 这将从设备中删除其所有个人和公司信息，以便其可以将设备返回设备池。 若要获取此功能，设备必须处于共享模式。 在退出之前，请确保在设备上结束任何活动会议或通话。若要了解如何设置共享设备，请参阅 [如何在 Android 中使用共享设备模式](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode)。
 
 该登录体验看起来类似于标准的 Teams 登录体验。
 
-## <a name="urls-and-ip-address-ranges"></a>URL 和 IP 地址范围
+## <a name="urls-and-ip-address-ranges-for-microsoft-teams"></a>Microsoft Teams 的 URL 和 IP 地址范围
 
 Teams 需要连接到 Internet。若要了解在 Office 365 计划、政府云和其他云中使用 Teams 的客户应该可以访问的终结点，请阅读 [Office 365 URL 和 IP 地址范围](/office365/enterprise/urls-and-ip-address-ranges)。
 

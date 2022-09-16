@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: 获取有关 Microsoft Teams 和 Skype for Business Online 的调用质量仪表板 (CQD) 使用的维度和度量的详细信息。
-ms.openlocfilehash: 8dda15990385db8e8ca9aeba7c56eba9d6b400ce
-ms.sourcegitcommit: 830357674103c0c5c99bd73d40261afe02a2da49
+ms.openlocfilehash: e59454349daf8121c759cef1cae350cf7294c1df
+ms.sourcegitcommit: 0181a62c8d5a3f5b28fbb5a15645f0e82a1b8f35
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/09/2022
-ms.locfileid: "67291418"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "67734616"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>通话质量仪表板 (CQD) 中提供的维度和度量
 
@@ -399,6 +399,14 @@ CQD 使用的字符串通常派生自数据文件，这些字符串几乎可以�
 | Good  | 布尔值  | 如此 如果流有足够的数据被归类为好或差，并且流被归类为良好。 否则为 False。   |   |
 | Unclassified  | 布尔值  | 如果流有足够的数据被归类为好或差，则为 False。 否则为 True。 <br/>**示例值：** 1 |   |
 | OnePercent PacketLoss  | 布尔值  | 如果数据包丢失超过 1%，则为 True;否则为 False。  |   |
+| 检测到入站网络问题 | Boolean | 如果为 true，则表示对媒体流可能因入站网络而受到影响的高度置信度。 | &bull; 此维度仅适用于 *流方向 == 一到二的流* |
+| 检测到上行问题| Boolean | 如果为 true，则表示媒体流可能由于网络上行而受到影响的置信度很高。 | &bull; 此维度不适用于 P2P 调用。 |
+| 检测到远程输入设备问题 | Boolean | 如果为 true，则表示对媒体流可能由于远程捕获设备而受到影响的高度置信度。 |
+| 检测到本地输入设备问题 | Boolean | 如果为 true，则表示对媒体流可能由于第一终结点上的呈现设备而受到影响的高度置信度。 | &bull; 此维度仅适用于 *流方向 == 一到二的流* |
+| 检测到的 Echo| Boolean | 如果为 true，则表示对媒体流可能因回显而受到影响的高度置信度。|
+| 检测到远程计算问题 | Boolean | 如果为 true，则表示对媒体流可能由于远程端的计算资源而受到影响的高度置信度。 |
+| 检测到本地计算问题 | Boolean | 如果为 true，则表示对媒体流可能因本地计算资源而受到影响的高度置信度。 | &bull; 此维度仅适用于 *流方向 == 一到二的流* |
+| 检测到的媒体模式问题 | Boolean | 如果为 true，则表示用户对入站媒体流的体验不佳的置信度很高。 | &bull; 此维度仅适用于 *流方向 == 一到二的流* |
 |**评级**||||
 | First Feedback Rating  | 用户评级 (1-5)  | 第一终结点对与流关联的通话进行的评级，等级为 1-5（5 = 很好）。0 表示向用户显示了通话评级调查，但用户没有对其体验进行评级。<br/> **示例值：** 5 | &bull; 未向第一终结点显示任何调查  |
 | Second Feedback Rating  | 用户评级 (1-5)  | 第二终结点对与流关联的通话进行的评级，等级为 1-5（5 = 很好）。0 表示向用户显示了通话评级调查，但用户没有对其体验进行评级。<br/> **示例值：** 5 | &bull; 未向第二终结点显示任何调查   |
