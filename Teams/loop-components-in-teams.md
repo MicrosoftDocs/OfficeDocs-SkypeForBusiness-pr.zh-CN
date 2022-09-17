@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e468622d4aac30756e54127072045831374c5425
-ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
+ms.openlocfilehash: 0e0b9c5a7ffef07a1d9245d2b1266a071b4ee0c2
+ms.sourcegitcommit: 89e3681a88f06a9c6860d9eaea598e57b928b68a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "67418641"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "67795051"
 ---
 # <a name="overview-of-loop-components-in-teams"></a>Teams 中的循环组件概述
 
@@ -82,7 +82,7 @@ OneDrive 保留策略适用于 .fluid 文件，就像它们适用于用户创建
 
 - Teams 消息传送中的创建/插入入口点将被隐藏。 用户将无法创建新的 .fluid 文件。
 - 以前作为交互式循环组件呈现的现有消息将改为呈现为超链接“循环组件”。 Teams 中不会显示交互式内容。
-- 当最终用户单击“循环组件”超链接或浏览到OneDrive for Business中的 .fluid 文件并单击打开时，它将在单独的浏览器选项卡中打开该文件，但最终用户将无法编辑该文件。
+- 当最终用户单击“循环组件”超链接或浏览到OneDrive for Business中的 .fluid 文件并单击打开时，它将在单独的浏览器选项卡中打开该文件。最终用户仍可编辑该文件。
 
 ## <a name="known-issues"></a>已知问题
 

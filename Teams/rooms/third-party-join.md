@@ -14,12 +14,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 本文讨论如何配置组织和Teams 会议室设备以支持加入 Cisco Webex 和 Zoom 的第三方会议。
-ms.openlocfilehash: 1cbcd54983c9122467fbf133cc97b2c189857c96
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 70d2cf03dea3fcfef3d08c07f4f771bd8a2ea70e
+ms.sourcegitcommit: 89e3681a88f06a9c6860d9eaea598e57b928b68a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268197"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "67794991"
 ---
 # <a name="enable-teams-rooms-devices-to-join-third-party-meetings"></a>启用Teams 会议室设备加入第三方会议
 
@@ -27,12 +27,15 @@ Microsoft Teams 会议室设备支持加入第三方联机会议（也称为直�
 
 支持的设备和服务：
 
-- Windows 上的 MTR，所有认证模型 - Zoom、Cisco Webex
+- Teams 会议室 Windows 上的所有认证模型 - Zoom、Cisco Webex
 
-- Android、Poly、Yealink 和 Logitech 认证模型上的 MTR - 缩放
+- Teams 会议室 Android 上的所有认证模型 - Zoom、Cisco Webex
+
+    > [!NOTE]
+    > Microsoft 定期在 Android 上发布Teams 会议室的新功能。 但是，在发布功能和在设备上可用功能之间可能会有延迟。 如果设备上没有可用的功能，请与设备制造商联系，了解该功能何时可用。
 
 > [!NOTE]
-> 若要从Teams 会议室设备加入 Cisco Webex 会议，需要使用 Cisco Webex Web 应用程序版本 WBS 40.7 或更高版本在 Webex Meetings Pro 中托管 Cisco 会议。 
+> 若要从Teams 会议室设备加入 Cisco Webex 会议，需要使用 Cisco Webex Web 应用程序版本 WBS 40.7 或更高版本在 Webex Meetings Pro 中托管 Cisco 会议。
 
 若要从Teams 会议室加入第三方会议，需要执行以下操作：
 

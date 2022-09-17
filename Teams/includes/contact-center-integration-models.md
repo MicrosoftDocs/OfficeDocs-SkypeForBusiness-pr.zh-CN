@@ -32,6 +32,9 @@ Connect 模型使用 Microsoft 认证的 SBC 和直接路由将联系人中心�
 
 - 使用 [<span class="underline">Microsoft 认证会话边框控制器 (SBC) </span>的解决方案提供商](../direct-routing-border-controllers.md)
 
+> [!NOTE]
+> 代理使用的联系人解决方案不需要电话系统许可证。 Teams 用户确实需要电话系统许可证和电话号码才能进行代理的呼叫传输。
+
 ### <a name="the-extend-model"></a>[**扩展模型**](#tab/extend)
 
 扩展模型使用 Microsoft Graph 中的 [Teams 客户端平台](/microsoftteams/platform/overview)、 [Teams Graph API](/graph/api/resources/teams-api-overview) 和 [云通信 API](/graph/api/resources/communications-api-overview) 与 Teams 客户端集成。 扩展模型还对所有联系人中心呼叫和呼叫控制体验使用 Teams 电话系统，联系人中心解决方案提供商与 Microsoft 365 一起充当电话运营商。
@@ -60,8 +63,7 @@ Connect 模型使用 Microsoft 认证的 SBC 和直接路由将联系人中心�
 
 - 在所有应用中保留 Teams 客户端体验的性能和质量
 
-> [!NOTE]
-> 代理机器人不需要电话系统许可证。 Teams 用户确实需要电话系统许可证和电话号码。
+
 
 ### <a name="the-power-model"></a>[**Power 模型**](#tab/power)
 
