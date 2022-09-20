@@ -7,6 +7,7 @@ ms.reviewer: prem
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: teams-apps
 audience: Admin
 ms.collection:
 - M365-collaboration
@@ -17,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 了解如何通过添加徽标、自定义背景和自定义文本颜色来自定义组织的 Teams 应用商店。
-ms.openlocfilehash: 4d26ba44fa9c9618476f7afdc7a59d7a4afd66ca
-ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.openlocfilehash: 4a7a34324619f3c076a5abd7069e129d59420e6a
+ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67486957"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67837202"
 ---
 # <a name="customize-your-organizations-app-store-in-microsoft-teams"></a>在 Microsoft Teams 中自定义组织的应用商店
 

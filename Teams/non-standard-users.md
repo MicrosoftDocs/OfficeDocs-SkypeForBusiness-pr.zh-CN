@@ -7,6 +7,7 @@ manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
+ms.subservice: teams-apps
 search.appverid: MET150
 description: 了解 Microsoft Teams 中的应用如何以不同的方式为来宾、联合用户和匿名用户工作。
 ms.localizationpriority: high
@@ -17,12 +18,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 25686bff1059d79376b036d3c5e64893b42fe4ab
-ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.openlocfilehash: 4e39aac93c7311785c0f740eded8a0021e321c43
+ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67486747"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67837492"
 ---
 # <a name="behavior-of-microsoft-teams-apps-based-on-types-of-in-meeting-users"></a>基于会议内用户类型的 Microsoft Teams 应用的行为
 

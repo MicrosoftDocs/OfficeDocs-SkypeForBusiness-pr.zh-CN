@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: 查看 (哪些 USB 外围设备（例如耳机、免提电话、网络摄像头和监视器）) 通过 Microsoft Teams 认证。
-ms.openlocfilehash: 481c145d5206789c5603ab46334127b6bb724c13
-ms.sourcegitcommit: 0181a62c8d5a3f5b28fbb5a15645f0e82a1b8f35
+ms.openlocfilehash: 258ea59d8218a88dafd19318ca9b03b8535f3a30
+ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/15/2022
-ms.locfileid: "67734596"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67837502"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>经 Microsoft Teams 认证的 USB 音频和视频设备
 
@@ -88,7 +88,9 @@ ms.locfileid: "67734596"
 
 | 制造商        | 模型                                                     | 合格      | 认证计划                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
-|Logi                 |Brio 500/505 相机                                       |9/14/2022       |Microsoft Teams 认证                           | 
+|Logi                 |Brio 500/505 相机                                       |9/14/2022       |Microsoft Teams 认证                           |
+|Jabra                |参与 50 II                                               |7/29/2022       |Microsoft Teams 认证                           |
+|Jabra                |参与 40 II                                               |7/29/2022       |Microsoft Teams 认证                           |
 |Logi                 |Dock 扬声器                                          |7/13/2022       |Microsoft Teams 认证                           |
 |戴尔                 |WB5023 相机                                              |6/29/2022       |Microsoft Teams 认证                           |
 |EPOS                 |ADAPT 560 II 耳机                                       |6/22/2022       |Microsoft Teams 认证                           |

@@ -5,6 +5,7 @@ ms.author: guptaashish
 manager: prkosh
 ms.topic: conceptual
 ms.service: msteams
+ms.subservice: teams-apps
 search.appverid: ''
 description: 了解用于在 Microsoft Teams 中管理应用的应用权限策略、应用设置策略和自定义应用策略。
 audience: admin
@@ -13,12 +14,12 @@ appliesto:
 - Microsoft Teams
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: 5a377923412ad1835e4a0a3c099d31adf283267b
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
-ms.translationtype: HT
+ms.openlocfilehash: ad7e99d10ebf53c7a85394edda84061f6caf0d29
+ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67299031"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67837562"
 ---
 # <a name="overview-of-app-policies-used-to-manage-access-to-apps"></a>用于管理应用访问权限的应用策略概述
 

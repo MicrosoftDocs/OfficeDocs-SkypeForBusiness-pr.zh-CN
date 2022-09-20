@@ -6,6 +6,7 @@ manager: prkosh
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.subservice: teams-apps
 audience: Admin
 ms.collection:
 - M365-collaboration
@@ -18,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: d7c23b424db102b21e88944e2ab55d8a2fe98c08
-ms.sourcegitcommit: 63dcc92b2d5d50e2c0c074a1209625e16086ca45
+ms.openlocfilehash: 4ba559d605f1465fda7caf9b253c18864c8b4c20
+ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "67299292"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67837372"
 ---
 # <a name="understand-and-manage-custom-and-sideloaded-apps"></a>了解和管理自定义和旁加载应用
 
@@ -33,7 +34,7 @@ Microsoft Teams 允许组织内的开发人员为组织的内部用户生成、�
 
 开发人员可以通过 Teams 提交自定义应用以获得管理员批准。可以使用应用设置策略来控制自定义应用的推出、分发和权限。
 
-:::image type="content" source="media/custom-app-policy-trimmed.png" alt-text="显示如何在组织范围内的设置面板中允许自定义应用的屏幕截图。" lightbox="media/custom-app-policy.png":::
+:::image type="content" source="media/custom-app-policy-trimmed.png" alt-text="屏幕截图显示如何在组织范围的设置面板中允许组织的自定义应用。" lightbox="media/custom-app-policy.png":::
 
 允许使用自定义应用后，最终用户可以通过在 Teams 应用商店的左侧导航中选择 **“为组织生成** ”来找到它。
 
@@ -53,13 +54,13 @@ Microsoft Teams 允许组织内的开发人员为组织的内部用户生成、�
 
 你可以创建自定义策略或编辑全局策略，以根据组织的需要允许或阻止自定义应用。 若要创建允许组织开发人员上传自定义应用的自定义策略，请执行以下步骤：
 
-1. 登录到 Teams 管理中心并访问 **Teams 应用** > **[设置策略](https://admin.teams.microsoft.com/policies/app-setup)**。
+1. 登录 Teams 管理中心并访问“**Teams 应用**” > **“[设置策略](https://admin.teams.microsoft.com/policies/app-setup)”**。
 
 1. 选择“**添加**”。
 
 1. 提供策略的名称和说明。
 
-1. 打开或关闭 **上传自定义应用**。
+1. 启用或禁用“**上传自定义应用**”。
 
 > [!NOTE]
 > 若要更改此设置，请允许租户的 [组织范围应用设置](manage-apps.md#manage-org-wide-app-settings)中的第三方应用。

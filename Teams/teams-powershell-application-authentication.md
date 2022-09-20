@@ -12,21 +12,21 @@ ms.collection:
 description: 了解 Teams PowerShell 模块中基于应用程序的身份验证，该模块用于管理 Microsoft Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 479dd64d6eece46335545e79e8f618b797e85f77
-ms.sourcegitcommit: 89e3681a88f06a9c6860d9eaea598e57b928b68a
+ms.openlocfilehash: b18c8505a255e0f937c077e1f905d721eb597889
+ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/16/2022
-ms.locfileid: "67795061"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67837662"
 ---
 # <a name="application-based-authentication-in-teams-powershell-module"></a>Teams PowerShell 模块中基于应用程序的身份验证
 
-Teams PowerShell 模块现在支持基于应用程序的身份验证，用于预览版 4.7.1 预览版或更高版本的有限 cmdlet 集。 目前，这种身份验证模式仅在商业环境中受支持。 对于以前在 Skype for Business Online 中为区域托管会议启用或已启用的客户，不支持此功能。
+Teams PowerShell 模块现在支持基于应用程序的身份验证，用于预览版 4.7.1 预览版或更高版本的有限 cmdlet 集。 目前，这种身份验证模式仅在商业环境中受支持。
 
 
 ## <a name="cmdlets-supported"></a>支持 Cmdlet
 
-支持所有非 \*Cs cmdlet (，例如 Get-Team) 、Get-CsTenant Get-CsOnlineUser & Get-CsOnlineVoiceUser。 其他 cmdlet 将逐步推出。 
+所有非 \*Cs cmdlet (例如 Get-Team) 、Get-CsTenant、Get-CsOnlineUser、Get-CsOnlineVoiceUser & \*-CsOnlineSipDomain cmdlet 都已受支持。 其他 cmdlet 将逐步推出。 
 
 
 ## <a name="examples"></a>示例
