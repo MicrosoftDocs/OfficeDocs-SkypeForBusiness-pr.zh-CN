@@ -3,6 +3,29 @@
 
 
 
+## <a name="week-of-september-12-2022"></a>2022 年 9 月 12 日当周
+
+
+| 发布日期 |主题标题 | 更改 |
+|------|------------|--------|
+| 9/12/2022 | [使用应用自定义为应用打造品牌，以满足组织的需求](/MicrosoftTeams/customize-apps) | 修改内容 |
+| 9/12/2022 | [用户请求管理员允许应用](/MicrosoftTeams/user-requests-approve-apps) | 修改内容 |
+| 9/13/2022 | [监视直接路由](/MicrosoftTeams/direct-routing-monitor-and-troubleshoot) | 修改内容 |
+| 9/13/2022 | [管理员的用户请求](/MicrosoftTeams/user-requests-approve-apps) | 修改内容 |
+| 9/13/2022 | [使用呼叫计划将电话号码移植到 Teams 电话系统](/MicrosoftTeams/business-voice/port-phone-numbers) | 修改内容 |
+| 9/13/2022 | [联系电话号码服务团队](/MicrosoftTeams/manage-phone-numbers-for-your-organization/contact-tns-service-desk) | 修改内容 |
+| 9/14/2022 | [适用于教育的 Teams 设备](/MicrosoftTeams/devices-for-education) | 修改内容 |
+| 9/14/2022 | [Skype for Business Online 停用](/MicrosoftTeams/skype-for-business-online-retirement) | 修改内容 |
+| 9/14/2022 | [了解 Microsoft Teams 和 Skype for Business 的共存和互操作性](/MicrosoftTeams/teams-and-skypeforbusiness-coexistence-and-interoperability) | 修改内容 |
+| 9/14/2022 | [适用于虚拟化桌面基础结构的 Teams](/MicrosoftTeams/teams-for-vdi) | 修改内容 |
+| 9/14/2022 | [Microsoft Teams 会议室门户](/MicrosoftTeams/rooms/managed-meeting-rooms-portal) | 修改内容 |
+| 9/14/2022 | [管理 Microsoft Teams 会议室](/MicrosoftTeams/rooms/rooms-manage) | 修改内容 |
+| 9/14/2022 | [Microsoft Teams 会议室维护和操作](/MicrosoftTeams/rooms/rooms-operations) | 修改内容 |
+| 9/15/2022 | [Teams PowerShell 模块中基于应用程序的身份验证](/MicrosoftTeams/teams-powershell-application-authentication) | 添加内容 |
+| 9/15/2022 | [不同的技术如何影响 Microsoft Teams 登录，包括限制登录和登录行为。](/MicrosoftTeams/sign-in-teams) | 修改内容 |
+| 9/16/2022 | [Teams PowerShell 模块中基于应用程序的身份验证](/MicrosoftTeams/teams-powershell-application-authentication) | 修改内容 |
+
+
 ## <a name="week-of-september-05-2022"></a>2022 年 9 月 5 日当周
 
 
@@ -128,35 +151,3 @@
 | 8/20/2022 | [在 Microsoft Teams 中配置实时事件设置](/MicrosoftTeams/teams-live-events/configure-teams-live-events) | 修改内容 |
 | 8/20/2022 | [在 Microsoft Teams 中为实时事件进行设置](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | 修改内容 |
 | 8/20/2022 | [在 Microsoft Teams 中为用户设置会议拨出确认](/MicrosoftTeams/set-up-meeting-dial-out-confirmation) | 修改内容 |
-
-
-## <a name="week-of-august-08-2022"></a>2022 年 8 月 8 日当周
-
-
-| 发布日期 |主题标题 | 更改 |
-|------|------------|--------|
-| 8/8/2022 | [Microsoft Teams 中的应用更新体验](/MicrosoftTeams/apps-update-experience) | 修改内容 |
-| 8/8/2022 | [在 Microsoft Teams 管理中心管理应用](/MicrosoftTeams/manage-apps) | 修改内容 |
-| 8/8/2022 | [对内容进行电子数据展示调查](/MicrosoftTeams/ediscovery-investigation) | 修改内容 |
-| 8/9/2022 | [在 Teams 中管理应用的应用策略概述](/MicrosoftTeams/app-policies) | 修改内容 |
-| 8/9/2022 | 云语音部署指导委员会 | 删除内容 |
-| 8/9/2022 | 加入清单 - 配置云语音工作负荷 - Microsoft Teams | 删除内容 |
-| 8/9/2022 | 加入清单 - 配置直接路由 - Microsoft Teams | 删除内容 |
-| 8/9/2022 | 加入清单 - 配置核心功能 - Microsoft Teams | 删除内容 |
-| 8/9/2022 | 加入清单 - 启用 Microsoft 365 或Office 365服务 | 删除内容 |
-| 8/9/2022 | Microsoft Teams 会议室参考 | 删除内容 |
-| 8/9/2022 | [管理自定义和旁加载应用](/MicrosoftTeams/custom-app-overview) | 添加内容 |
-| 8/9/2022 | [了解 Microsoft Teams 中的应用](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | 修改内容 |
-| 8/9/2022 | [Microsoft 提供的应用验证和应用测试概述](/MicrosoftTeams/overview-of-app-validation) | 修改内容 |
-| 8/9/2022 | [了解 Microsoft Teams 中的第三方应用](/MicrosoftTeams/overview-third-party-apps) | 修改内容 |
-| 8/9/2022 | [购买适用于 Teams 的第三方应用](/MicrosoftTeams/purchase-third-party-apps) | 修改内容 |
-| 8/9/2022 | [在 Microsoft Teams 中管理应用权限策略](/MicrosoftTeams/teams-app-permission-policies) | 修改内容 |
-| 8/9/2022 | [在 Microsoft Teams 中管理应用设置策略](/MicrosoftTeams/teams-app-setup-policies) | 修改内容 |
-| 8/9/2022 | [管理自定义应用策略和设置](/MicrosoftTeams/teams-custom-app-policies-and-settings) | 修改内容 |
-| 8/10/2022 | 直接路由 | 删除内容 |
-| 8/11/2022 | [了解 Microsoft Teams 中的应用](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | 修改内容 |
-| 8/11/2022 | [在 Microsoft Teams 管理中心管理应用](/MicrosoftTeams/manage-apps) | 修改内容 |
-| 8/11/2022 | [在 Microsoft Teams 中管理应用设置策略](/MicrosoftTeams/teams-app-setup-policies) | 修改内容 |
-| 8/12/2022 | [为 Microsoft Teams 设置自动助理](/MicrosoftTeams/create-a-phone-system-auto-attendant-smb) | 添加内容 |
-| 8/12/2022 | [在 Microsoft Teams 中创建呼叫队列](/MicrosoftTeams/create-a-phone-system-call-queue-smb) | 添加内容 |
-| 8/12/2022 | [Microsoft Teams 中的 Walkie Talkie 应用](/MicrosoftTeams/walkie-talkie) | 修改内容 |
