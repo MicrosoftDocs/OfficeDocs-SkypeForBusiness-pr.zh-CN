@@ -20,14 +20,16 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e8d908a0c6183f4d305b0b622060cfd2ed78922
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: d8c6af4cc86051c9233e06d0bf6c67abe1a4ad39
+ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396293"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67837332"
 ---
 # <a name="use-retail-team-templates"></a>使用零售团队模板
+
+## <a name="overview"></a>概述
 
 通过提供预定义的设置、频道和预安装的应用模板，Microsoft Treams 模板让你能够快速轻松地创建团队。
 
@@ -50,26 +52,28 @@ Teams 包括专为零售商需求设计的模板。 使用这些预建模板快�
 
 我们当前提供以下预建的零售团队模板。 若要查看，请在 Teams 管理中心的左侧导航栏中，转到 **Teams** > **团队模板**。
 
-### <a name="organize-a-store"></a>组织商店
+> [!NOTE]
+> 星号 (*) 指示模板是 *Microsoft 365 连接的模板*。 当用户使用模板创建团队时，连接的 SharePoint 模板将应用到网站和团队。 SharePoint 组件（如页面、列表和 Power Platform 集成）会自动添加并固定为团队中常规频道的选项卡。 用户可以直接从 Teams 中编辑这些页面和列表。
+>
+> 若要详细了解 SharePoint 模板，请 [参阅“应用”并自定义 SharePoint 网站模板](https://support.microsoft.com/office/apply-and-customize-sharepoint-site-templates-39382463-0e45-4d1b-be27-0e96aeec8398#ID0EDBJ=Team_site_templates)。
 
-将你的零售员工汇集到一个中心体验中，以管理任务、共享文档和解决客户问题。 整合其他应用程序，先从简化排版开始，然后是结束流程。
+### <a name="manage-a-store"></a>管理应用商店*
 
-| 模板类型 |TemplateId | 此基本模板包含的属性 |
-| ------------------|-- |----------------------------------------------------- |
-|组织商店| `retailStore` |频道： <ul><li>常规<li>换班</li><li>应用商店准备就绪<ul><li>检查&sup1;</li></ul></li><li>学习</li></ul> 应用： <ul><li>Wiki</li><li>任务</li><li>排班</li><li>检查</li></ul>|
+将你的零售员工汇集到一个中心体验中，以管理任务、共享文档和解决客户问题。 集成其他应用程序以简化轮班开始和结束过程。
 
-&sup1;将应用作为选项卡添加到频道中。
+> [!div class="mx-tdBreakAll"]
+>| 模板类型 |TemplateId | 此基本模板包含的属性 |
+>| ------------------|-- |----------------------------------------------------- |
+>| 管理应用商店| `retailStore` |频道： <ul><li>常规<li>Shift Handoff</li><li>应用商店就绪情况</li><li>学习</li></ul> 应用： <ul><li>审批</li><li>检查</li><li>列表<ul><li>清单列表</li></ul></li><li>SharePoint Pages<ul><li>我们的商店</li></ul></li><li>排班</li><li>Planner 和 To Do 的任务</li><li>Wiki</li></ul>|
 
-### <a name="manager-collaboration"></a>经理协作
+### <a name="retail-for-managers"></a>经理零售*
 
-经理协作模板非常适合一组经理创建团队，以便他们跨商店/地区进行协作等。例如，如果你的组织跨越多个地区，则可以为加利福尼亚地区创建一个经理协作团队，其中包括该地区的所有商店经理，以及该地区的区域经理。
+为一组经理创建一个团队，以便跨商店或区域进行协作。 例如，如果你的组织具有区域，则可以为加州区域创建一个团队，并包括该区域中的所有商店经理以及该区域的区域经理。
 
-| 模板类型| TemplateId | 此基本模板包含的属性 |
-| ------------------|- |----------------------------------------------------- |
-|适用于经理的零售|`retailManagerCollaboration` |频道： <ul><li>常规<li>运营<ul><li>任务 (操作任务) &sup1;</li><li>检查&sup1;</li></ul></li><li>学习<ul><li>任务 (学习任务) &sup1;</li></ul></li></ul> 应用： <ul><li>Wiki</li><li>任务</li><li>检查</li></ul>|
-||||
-
-&sup1;将应用作为选项卡添加到频道中。
+> [!div class="mx-tdBreakAll"]
+>| 模板类型| TemplateId | 此基本模板包含的属性 |
+>| ------------------|- |----------------------------------------------------- |
+>| 经理零售| `retailManagerCollaboration` |频道： <ul><li>常规<li>运营</li><li>学习</li></ul> 应用： <ul><li>审批</li><li>检查</li><li>SharePoint Pages<ul><li>我们的商店</li></ul></li><li>Planner 和 To Do 的任务</li><li>Wiki</li></ul>|
 
 ## <a name="use-team-templates-with-microsoft-graph"></a>将 Teams 模板与 Microsoft Graph 一起使用
 
@@ -77,16 +81,19 @@ Teams 包括专为零售商需求设计的模板。 使用这些预建模板快�
 
 下面是预建的医疗保健团队模板。
 
-### <a name="store"></a>应用商店
+> [!NOTE]
+> 星号 (*) 指示模板是 *Microsoft 365 连接的模板*。 当用户使用模板创建团队时，连接的 SharePoint 模板将应用到网站和团队。 SharePoint 组件（如页面、列表和 Power Platform 集成）会自动添加并固定为团队中常规频道的选项卡。 用户可以直接从 Teams 中编辑这些页面和列表。
+>
+> 若要详细了解 SharePoint 模板，请 [参阅“应用”并自定义 SharePoint 网站模板](https://support.microsoft.com/office/apply-and-customize-sharepoint-site-templates-39382463-0e45-4d1b-be27-0e96aeec8398#ID0EDBJ=Team_site_templates)。
 
-商店模板非常适合用于创建一个团队来代表单个零售商店位置。 通过使用商店模板，你可以为组织中的每个零售商店位置创建一个团队。
+### <a name="manage-a-store"></a>管理应用商店*
 
-| 模板类型 | TemplateId | 模板频道 |
-| ------------------ | -------------- | ----------------------------------------------------- |
-| 零售 - <br>商店 | `https://graph.microsoft.com/beta/teamsTemplates('retailStore')`| 频道 <ul><li>常规</li><li>排班处理&sup2;</li><li>应用商店准备就绪</li><li>学习&sup2;</li></ul>团队属性 <ul><li>团队可见性设置为“公共”</li></ul> <br>成员权限 <ul><li>无法创建、更新或删除频道 </li><li>无法添加或删除应用 </li><li>无法创建、更新或删除选项卡</li><li>无法创建、更新或删除连接器</li><ul>|
-||||
+使用此模板为组织中的每个零售商店位置创建一个团队。
 
-&sup2;自动收藏的频道
+> [!div class="mx-tdBreakAll"]
+>| 模板类型 | TemplateId | 模板频道 |
+>| ------------------ | -------------- | ----------------------------------------------------- |
+>| 零售 - <br>商店 | `https://graph.microsoft.com/beta/teamsTemplates('retailStore')`| 频道 <ul><li>常规</li><li>Shift Handoff</li><li>应用商店就绪情况</li><li>学习</li></ul>团队属性 <ul><li>团队可见性设置为“公共”</li></ul> <br>成员权限 <ul><li>无法创建、更新或删除频道 </li><li>无法添加或删除应用 </li><li>无法创建、更新或删除选项卡</li><li>无法创建、更新或删除连接器</li><ul>|
 
 为组织自定义商店模板的建议方法：
 
@@ -94,16 +101,14 @@ Teams 包括专为零售商需求设计的模板。 使用这些预建模板快�
 
 - 如果你的组织具有任何内部网站（例如 SharePoint 网站），请考虑将其固定为相关团队频道中的选项卡。
 
-### <a name="manager-collaboration"></a>经理协作
+### <a name="retail-for-managers"></a>经理零售*
 
-经理协作模板非常适合一组经理创建团队，以便他们跨商店/地区进行协作等。例如，如果你的组织跨越多个地区，则可以为加利福尼亚地区创建一个经理协作团队，其中包括该地区的所有商店经理，以及该地区的区域经理。
+使用此模板为一组经理创建团队，以便跨商店或区域进行协作。 例如，如果你的组织具有区域，则可以为加州区域创建一个团队，并包括该区域中的所有商店经理以及该区域的区域经理。
 
-| 模板类型 | TemplateId | 模板频道 |
-| ------------------ | -------------- | ----------------------------------------------------- |
-| 零售 - <br>商店 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')`| 频道 <ul><li>常规</li><li>操作&sup2;</li><li>学习&sup2;</li></ul>团队属性 <ul><li>团队可见性设置为“专用”</li></ul> <br>成员权限 <ul><li>可以创建、更新和删除频道 </li><li>可以添加和删除应用 </li><li>可以创建、更新和删除选项卡</li><li>可以创建、更新和删除连接器</li><ul>|
-||||
-
-&sup2;自动收藏的频道
+> [!div class="mx-tdBreakAll"]
+>| 模板类型 | TemplateId | 模板频道 |
+>| ------------------ | -------------- | ----------------------------------------------------- |
+>| 零售 - <br>经理协作 | `https://graph.microsoft.com/beta/teamsTemplates('retailManagerCollaboration')`| 频道 <ul><li>常规</li><li>运营</li><li>学习</li></ul>团队属性 <ul><li>团队可见性设置为“专用”</li></ul> <br>成员权限 <ul><li>可以创建、更新和删除频道 </li><li>可以添加和删除应用 </li><li>可以创建、更新和删除选项卡</li><li>可以创建、更新和删除连接器</li><ul>|
 
 为组织自定义经理协作模板的建议方法：
 
@@ -131,6 +136,9 @@ Teams 包括专为零售商需求设计的模板。 使用这些预建模板快�
   ]
 }
 ```
+
+> [!NOTE]
+> 如果使用 Microsoft Graph 通过 Microsoft 365 连接的模板从现有的 Microsoft 365 组或团队创建团队，则连接的 SharePoint 模板不会自动应用于网站或团队。 创建团队后，需要手动应用 SharePoint 网站模板。 在 Teams 中，转到团队，在 **SharePoint 中打开**>右上角选择 **更多选项**。 然后选择 **“设置应用** > **网站模板** ”，然后选择相应的网站模板。
 
 ## <a name="related-articles"></a>相关文章
 
