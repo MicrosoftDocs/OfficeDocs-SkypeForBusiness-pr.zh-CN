@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: b67c1b9500ad5df959831e17a183cb61ca3ed8a1
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: d6f2cc6685d6d9d80c2282cdfd1751a7d7f1916d
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271447"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808463"
 ---
 # <a name="microsoft-teams-training"></a>Microsoft Teams 培训
 
@@ -51,7 +51,7 @@ ms.locfileid: "67271447"
    :::column-end:::
 
    :::column:::
-   **[管理 IT 团队协作](/learn/paths/m365-manage-team-collaboration)** </br>
+   **[管理 IT 团队协作](/training/paths/m365-manage-team-collaboration)** </br>
    课程：了解如何使用 Teams 来促进组织内跨应用和设备的团队合作与沟通。
 
    :::column-end:::
@@ -60,12 +60,12 @@ ms.locfileid: "67271447"
 
 :::row:::
    :::column:::
-   **[采用专家认证](/learn/paths/m365-service-adoption/)** </br>Teams 提供 Microsoft 服务采用专家认证特色课程。了解如何在组织中推动 Microsoft 服务的采用。
+   **[采用专家认证](/training/paths/m365-service-adoption/)** </br>Teams 提供 Microsoft 服务采用专家认证特色课程。了解如何在组织中推动 Microsoft 服务的采用。
 
    :::column-end:::
 
    :::column:::
-   **[Microsoft 365 中的团队合作简介](/learn/modules/intro-to-teamwork-in-m365/index)** </br>
+   **[Microsoft 365 中的团队合作简介](/training/modules/intro-to-teamwork-in-m365/index)** </br>
    了解可促进所有工作人员开展团队合作的 Microsoft 365 工具（无论它们位于何处或如何接入你的组织）。
 
    :::column-end:::

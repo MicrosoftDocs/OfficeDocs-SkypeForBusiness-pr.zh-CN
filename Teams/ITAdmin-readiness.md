@@ -18,12 +18,12 @@ ms.custom:
 description: 为管理员提供有关如何规划、部署和运行 Microsoft Teams 的培训视频、PowerPoint 平台、教程和其他资源。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 133369477a9e633e3e7ccb6309d8cae037f86f90
-ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.openlocfilehash: 384f6f34a689e0337489d08e4956df425b497d5d
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67486897"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808373"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Microsoft Teams 管理员培训入门
 
@@ -39,8 +39,8 @@ ms.locfileid: "67486897"
 
 |&nbsp; |&nbsp; |&nbsp;  |
 |---------|---------|---------|
-|[**IT 的 Teams 必备组**](https://aka.ms/MicrosoftTeamsforIT) 件 - Microsoft 力学“Teams for IT”视频系列向你展示 - 管理员 - 如何推出、配置和管理 Teams。     |[**使用 Microsoft Teams 支持远程工作者**](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams) - 获取所需的指导（包括培训链接），以支持在家工作的用户。         |[**管理 IT 团队协作**](/learn/paths/m365-manage-team-collaboration) - 了解如何使用 Teams 促进组织内跨应用程序和设备的团队合作和通信。         |
-|[**服务采用专家认证**](/learn/paths/m365-service-adoption) - Microsoft 服务采用专家认证课程以 Teams 为特色。 了解如何推动你所在组织采用 Microsoft 服务。     |[**Microsoft 365 中的团队合作简介**](/learn/modules/intro-to-teamwork-in-m365/index) - Microsoft 服务采用专家认证课程以 Teams 为特色。 了解如何推动你所在组织采用 Microsoft 服务。        |[**Microsoft 365 认证：团队合作管理员助理**](/learn/certifications/m365-teamwork-administrator) - Microsoft 365 团队合作管理员配置、部署和管理 Microsoft 365 或Office 365工作负载，例如 SharePoint (联机、本地和混合) 、OneDrive 和 Teams。        |
+|[**IT 的 Teams 必备组**](https://aka.ms/MicrosoftTeamsforIT) 件 - Microsoft 力学“Teams for IT”视频系列向你展示 - 管理员 - 如何推出、配置和管理 Teams。     |[**使用 Microsoft Teams 支持远程工作者**](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams) - 获取所需的指导（包括培训链接），以支持在家工作的用户。         |[**管理 IT 团队协作**](/training/paths/m365-manage-team-collaboration) - 了解如何使用 Teams 促进组织内跨应用程序和设备的团队合作和通信。         |
+|[**服务采用专家认证**](/training/paths/m365-service-adoption) - Microsoft 服务采用专家认证课程以 Teams 为特色。 了解如何推动你所在组织采用 Microsoft 服务。     |[**Microsoft 365 中的团队合作简介**](/training/modules/intro-to-teamwork-in-m365/index) - Microsoft 服务采用专家认证课程以 Teams 为特色。 了解如何推动你所在组织采用 Microsoft 服务。        |[**Microsoft 365 认证：团队合作管理员助理**](/certifications/m365-teamwork-administrator) - Microsoft 365 团队合作管理员配置、部署和管理 Microsoft 365 或Office 365工作负载，例如 SharePoint (联机、本地和混合) 、OneDrive 和 Teams。        |
 
 <h2>技术培训</h2>
 

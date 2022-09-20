@@ -1,7 +1,7 @@
 ---
 title: 在 Microsoft Teams 中使用内容搜索
-author: v-tophillips
-ms.author: v-tophillips
+author: robmazz
+ms.author: robmazz
 manager: laurawi
 ms.topic: article
 audience: admin
@@ -16,12 +16,12 @@ ms.custom: seo-marvel-mar2020
 description: 了解如何使用Microsoft Purview 合规门户中的内容搜索来搜索存储在 Exchange Online、SharePoint Online、OneDrive for Business 和 OneNote 中的 Microsoft Teams 内容。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a069478dc65fcafb5e1354796360c994aa2f0d36
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: b976c5e3c6467a6c71bb51eb1ff3ef720813584b
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267437"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808233"
 ---
 # <a name="use-content-search-in-microsoft-teams"></a>在 Microsoft Teams 中使用内容搜索
 

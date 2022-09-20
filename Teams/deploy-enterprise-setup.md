@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f350e894148ef278a10e379d8a32b48202acd85d
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
-ms.translationtype: HT
+ms.openlocfilehash: 05196c679f1f45c9e89fe09973282c01181127e0
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66045991"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808383"
 ---
 # <a name="set-up-microsoft-teams-in-your-enterprise"></a>在你的 Office 365 组织中设置 Microsoft Teams
 
@@ -45,7 +45,7 @@ ms.locfileid: "66045991"
 强烈建议使用 [Teams 顾问](https://admin.teams.microsoft.com/teams-deployment) 帮助进行部署。 有关 Teams 顾问工作方式的详细信息，请参阅 [使用 Teams 顾问来帮助你推出 Microsoft Teams](use-advisor-teams-roll-out.md)。
 
 > [!TIP]
-> 请参阅如何使用 Teams 顾问来帮助你规划团队部署，方法可以是完成 [Microsoft Learn 上的 Teams 顾问](/learn/modules/m365-teams-rollout-using-advisor/) 模块。
+> 请参阅如何使用 Teams 顾问来帮助你规划团队部署，方法可以是完成 [Microsoft Learn 上的 Teams 顾问](/training/modules/m365-teams-rollout-using-advisor/) 模块。
 
 有关规划 Teams 的信息，请参阅 [Teams 企业部署概述](deploy-enterprise-overview.md)。
 
@@ -58,7 +58,7 @@ ms.locfileid: "66045991"
 聊天、团队和频道是 Teams 的基础。 **聊天** 允许一个或多个用户相互讨论、共享文件及私下会面。 **团队** 可对组织中的所有人员可见，或仅对团队成员可见。其允许相关人员在任何任务或场合，无论是长期运行的项目还是计划生日聚会中团结协作。 **团队** 的频道可以细分主题、项目、部门或其他对团队有意义的内容。 有关聊天、团队和频道的详细信息，请参阅[团队和频道概述](teams-channels-overview.md)。
 
 > [!TIP]
-> 完成 Microsoft Learn 中的 [管理 Microsoft Teams](/learn/modules/m365-teams-collab-manage-teams/) 模块，了解如何管理团队角色、访问权限和消息传递策略。
+> 完成 Microsoft Learn 中的 [管理 Microsoft Teams](/training/modules/m365-teams-collab-manage-teams/) 模块，了解如何管理团队角色、访问权限和消息传递策略。
 
 ### <a name="administration-and-team-ownership"></a>管理和团队所有权
 
@@ -88,7 +88,7 @@ ms.locfileid: "66045991"
 **音频会议** 允许参与者拨打会议电话号码并输入会议 ID 后，便可通过常规电话加入会议。 当参与者的 Internet 连接差、会议为仅语音会议或某些其他情况不允许他们通过 Teams 客户端加入会议时，音频会议便非常有用。
 
 > [!TIP]
-> 完成 Microsoft Learn 中的[使用 Microsoft Teams 管理会议、电话会议和事件](/learn/modules/m365-teams-collab-manage-meetings)模块，进一步熟悉相关内容。
+> 完成 Microsoft Learn 中的[使用 Microsoft Teams 管理会议、电话会议和事件](/training/modules/m365-teams-collab-manage-meetings)模块，进一步熟悉相关内容。
 
 ### <a name="meetings"></a>会议
 
@@ -159,7 +159,7 @@ Teams 和 Microsoft 365 提供了许多工具，可帮助你符合公司及其�
 请确保所有使用 Teams 的人员拥有 Teams 许可证。 有关分配 Teams 许可证的详细信息，请参阅[管理 Teams 用户访问权限](user-access.md#using-the-microsoft-365-admin-center)。
 
 > [!TIP]
-> 完成 Microsoft Learn 中的[部署 Microsoft Teams 客户端](/learn/modules/m365-teams-collab-deploy-clients/)模块，获得相关部署计划建议。
+> 完成 Microsoft Learn 中的[部署 Microsoft Teams 客户端](/training/modules/m365-teams-collab-deploy-clients/)模块，获得相关部署计划建议。
 
 若组织通过 Microsoft Endpoint Configuration Manager、组策略或第三方分配机制将软件部署到用户计算机，请参阅[使用 Microsoft Endpoint Configuration Manager 安装 Microsoft Teams](msi-deployment.md)。
 

@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d33573d86f2bcb485f6a7e7cfc550ea1f3184223
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: f21ce36c1c44b14b80c9ae1684a65c6bd82b7d63
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270487"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808873"
 ---
 # <a name="configure-sip-gateway"></a>配置 SIP 网关
 
@@ -120,7 +120,7 @@ ms.locfileid: "67270487"
 - 美洲： `http://noam.ipp.sdg.teams.microsoft.com`
 - 亚太： `http://apac.ipp.sdg.teams.microsoft.com`
 
-通过在 DHCP 服务器中配置上述 SIP 网关预配服务器 URL，将 SIP 设备添加到 Teams 组织。 若要详细了解 DHCP 服务器，请 [参阅部署和管理 DHCP](/learn/modules/deploy-manage-dynamic-host-configuration-protocol)。 此外，还可以使用 DHCP 选项 42 指定网络时间协议 (NTP) 服务器，使用 DHCP 选项 2 指定协调世界时 (UTC) 的偏移量（以秒为单位）。 组织中的设备将路由到 SIP 网关预配服务器。 成功预配的 SIP 手机将显示 Teams 徽标和用于登录的软按钮。
+通过在 DHCP 服务器中配置上述 SIP 网关预配服务器 URL，将 SIP 设备添加到 Teams 组织。 若要详细了解 DHCP 服务器，请 [参阅部署和管理 DHCP](/training/modules/deploy-manage-dynamic-host-configuration-protocol)。 此外，还可以使用 DHCP 选项 42 指定网络时间协议 (NTP) 服务器，使用 DHCP 选项 2 指定协调世界时 (UTC) 的偏移量（以秒为单位）。 组织中的设备将路由到 SIP 网关预配服务器。 成功预配的 SIP 手机将显示 Teams 徽标和用于登录的软按钮。
 
 确保 SIP 设备处于最小受支持的固件版本以进行载入。 在加入过程中，SIP 网关会将默认配置和身份验证用户界面推送到设备。 若要了解 SIP 设备所需的固件版本，请参阅 [规划 SIP 网关](sip-gateway-plan.md)。
 

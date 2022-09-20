@@ -1,7 +1,7 @@
 ---
 title: 在 Microsoft Teams 中搜索事件的审核日志
-author: v-tophillips
-ms.author: v-tophillips
+author: robmazz
+ms.author: robmazz
 manager: laurawi
 ms.topic: article
 audience: admin
@@ -12,22 +12,22 @@ f1.keywords:
 - NOCSH
 ms.reviewer: anwara
 search.appverid: MET150
-description: 了解如何从Microsoft Purview 合规门户中的审核日志中检索Microsoft Teams数据。
+description: 了解如何从Microsoft Purview 合规门户中的审核日志中检索 Microsoft Teams 数据。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bfab74d73038b18e3e0854e167de8991e43dc67e
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: f7d94411132b575aa4754aae993f070a36718a2d
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674404"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808443"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>在 Microsoft Teams 中搜索事件的审核日志
 
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-审核日志可帮助你调查跨Microsoft 365服务的特定活动。 对于Microsoft Teams，下面是一些经过审核的活动：
+审核日志可帮助你调查 Microsoft 365 服务中的特定活动。 对于 Microsoft Teams，下面是一些经过审核的活动：
 
 - 团队创建
 - 团队删除
@@ -35,7 +35,7 @@ ms.locfileid: "65674404"
 - 已删除的通道
 - 更改的通道设置
 
-有关审核的Teams活动的完整列表，请参阅[Teams活动中Teams活动](#teams-activities)和[班次](#shifts-in-teams-activities)。
+有关审核 Teams 活动的完整列表，请参阅 [Teams 活动](#teams-activities)和 Teams 活动中的 [排班](#shifts-in-teams-activities)。
 
 > [!NOTE]
 > 来自专用频道的审核事件也会记录为团队和标准频道的审核事件。
@@ -49,7 +49,7 @@ ms.locfileid: "65674404"
 
 ## <a name="retrieve-teams-data-from-the-audit-log"></a>从审核日志检索 Teams 数据
 
-1. 若要检索Teams活动的审核日志，请转到<https://compliance.microsoft.com>并选择 **“审核**”。
+1. 若要检索 Teams 活动的审核日志，请转到 <https://compliance.microsoft.com> 并选择 **“审核**”。
 
 2. 在 **“搜索** ”页上，筛选要审核的活动、日期和用户。
 
@@ -60,11 +60,11 @@ ms.locfileid: "65674404"
 > [!IMPORTANT]
 > 仅当启用审核时，审核数据才会显示在审核日志中。
 
-审核日志中保留和搜索审核记录的时间长度取决于Microsoft 365或Office 365订阅，特别是分配给用户的许可证类型。 若要了解详细信息，请参阅 [安全&合规中心服务说明](/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center)。
+审核日志中保留和搜索审核记录的时间长度取决于 Microsoft 365 或Office 365订阅，特别是分配给用户的许可证类型。 若要了解详细信息，请参阅 [安全&合规中心服务说明](/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center)。
 
-## <a name="tips-for-searching-the-audit-log"></a>使用技巧搜索审核日志
+## <a name="tips-for-searching-the-audit-log"></a>有关搜索审核日志的提示
 
-下面是有关在审核日志中搜索Teams活动的提示。
+下面是有关在审核日志中搜索 Teams 活动的提示。
 
 :::image type="content" alt-text="合规中心审核日志搜索页的屏幕截图" source="media/audit-log-search-page.png" lightbox="media/audit-log-search-page.png":::
 
@@ -78,36 +78,36 @@ ms.locfileid: "65674404"
 
 - 如果找到 5，000 个结果，则可能假定有超过 5，000 个事件符合搜索条件。 可以优化搜索条件并重新运行搜索以返回更少的结果，也可以通过选择“ **导出** > **下载所有结果**”来导出所有搜索结果。 有关导出审核日志的分步说明，请参阅 [将搜索结果导出到文件](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#step-3-export-the-search-results-to-a-file)。
 
-请查看 [此视频](https://www.youtube.com/embed/UBxaRySAxyE) ，了解如何使用音频日志搜索。 加入 Teams 的程序经理 Ansuman Acharya，他演示如何对Teams执行审核日志搜索。
+请查看 [此视频](https://www.youtube.com/embed/UBxaRySAxyE) ，了解如何使用音频日志搜索。 加入 Teams 的项目经理 Ansuman Acharya，他演示如何对 Teams 执行审核日志搜索。
 
-## <a name="teams-activities"></a>Teams活动
+## <a name="teams-activities"></a>Teams 活动
 
-下面是记录Teams Microsoft 365审核日志中用户和管理员活动的所有事件的列表。 该表包括“ **活动** ”列中显示的友好名称，以及导出搜索结果时在审核记录的详细信息和 CSV 文件中显示的相应操作的名称。
+以下是在 Microsoft 365 审核日志中为 Teams 中的用户和管理员活动记录的所有事件的列表。 该表包括“ **活动** ”列中显示的友好名称，以及导出搜索结果时在审核记录的详细信息和 CSV 文件中显示的相应操作的名称。
 
 |友好名称|操作|说明|
 |---|---|---|
 |向团队添加了机器人|BotAddedToTeam|用户将机器人添加到团队。|
 |添加频道|ChannelAdded|用户将频道添加到团队。|
 |添加了连接器|ConnectorAdded|用户将连接器添加到通道。|
-|添加了有关Teams会议 <sup>2</sup> 的详细信息|MeetingDetail|Teams添加了有关会议的信息，包括开始时间、结束时间和加入会议的 URL。|
-|添加了有关会议参与者 <sup>的信息 2</sup>|MeetingParticipantDetail|Teams添加了有关会议参与者的信息，包括每个参与者的用户 ID、参与者加入会议的时间以及参与者离开会议的时间。|
+|添加了有关 Teams 会议 <sup>2</sup> 的详细信息|MeetingDetail|Teams 添加了有关会议的信息，包括开始时间、结束时间和加入会议的 URL。|
+|添加了有关会议参与者 <sup>的信息 2</sup>|MeetingParticipantDetail|Teams 添加了有关会议参与者的信息，包括每个参与者的用户 ID、参与者加入会议的时间以及参与者离开会议的时间。|
 |添加了成员|MemberAdded|团队所有者将成员添加到团队、频道或群聊。|
 |添加了选项卡|TabAdded|用户将选项卡添加到频道。|
 |更改的通道设置|ChannelSettingChanged|当团队成员执行以下活动时，将记录 ChannelSettingChanged 操作。 对于上述每个活动，审核日志搜索结果的 **“项** ”列中会显示更改 (括号中所示的设置的说明。 <ul><li>更改团队频道的名称 (**频道名称**) </li><li>更改团队频道 (**频道说明**) </li> </ul>|
-|更改了组织设置|TeamsTenantSettingChanged|当以下活动由 Microsoft 365 管理中心 中的全局管理员执行时，将记录 TeamsTenantSettingChanged 操作。 这些活动影响组织范围的Teams设置。 若要了解详细信息，请参阅[管理组织的Teams设置](enable-features-office-365.md)。 <br>对于上述每个活动，审核日志搜索结果的 **“项** ”列中会显示更改的设置的说明 (在括号中显示) 。<ul><li>为组织启用或禁用Teams (**Microsoft Teams**) 。</li><li>为组织启用或禁用Microsoft Teams与Skype for Business之间的互操作性 (**Skype for Business互操作性**) 。</li><li>在组织图表视图)  (启用或禁用Microsoft Teams客户端中的组织 **图表视图**。</li><li>启用或禁用团队成员安排私人会议 (**私人会议安排**) 的能力。</li><li>启用或禁用团队成员安排频道会议 (**频道会议安排**) 的能力。</li><li>为Skype会议) 启用或禁用Teams **会议 (视频** 通话。</li><li>为组织启用或禁用Microsoft Teams会议中的屏幕共享， (Skype **会议的屏幕共享**) 。</li><li>启用或禁用 (“Giphys”) 添加动画图像的功能，以Teams (**动画图像**) 对话。</li><li>更改组织的内容分级设置 (**内容分级**) 。 内容分级限制可在对话中显示的动画图像的类型。</li><li>启用或禁用团队成员从 Internet 添加自定义模因)  (可自定义图像的功能， (**Internet) 中的可自定义图像** 进行团队对话。</li><li>启用或禁用团队成员向团队对话添加可编辑图像的功能 (称为贴纸)  (**可编辑图像**) 。</li><li>启用或禁用团队成员在组织范围的机器人)  (聊天和频道Microsoft Teams使用 **机器人的** 功能。</li><li>为Microsoft Teams启用特定机器人。 这不包括 T-Bot，Teams为组织启用机器人 (单个机器人) 时可用 **的帮助机器人**。</li><li>启用或禁用团队成员 (**扩展或选项卡**) 添加扩展或选项卡的功能。</li><li>启用或禁用专有机器人的旁加载，以便Microsoft Teams (**旁加载机器人**) 。</li><li>启用或禁用用户向频道电子邮件)  (Microsoft Teams频道发送 **电子邮件** 的功能。</li></ul>|
+|更改了组织设置|TeamsTenantSettingChanged|当以下活动由 Microsoft 365 管理中心 中的全局管理员执行时，将记录 TeamsTenantSettingChanged 操作。 这些活动影响组织范围的 Teams 设置。 若要了解详细信息，请参阅 [组织管理 Teams 设置](enable-features-office-365.md)。 <br>对于上述每个活动，审核日志搜索结果的 **“项** ”列中会显示更改的设置的说明 (在括号中显示) 。<ul><li>为组织启用或禁用 Teams (**Microsoft Teams**) 。</li><li>为组织启用或禁用 Microsoft Teams 与Skype for Business之间的互操作性 (**Skype for Business互操作性**) 。</li><li>启用或禁用 Microsoft Teams 客户端中的组织图表视图 (**组织图表视图**) 。</li><li>启用或禁用团队成员安排私人会议 (**私人会议安排**) 的能力。</li><li>启用或禁用团队成员安排频道会议 (**频道会议安排**) 的能力。</li><li>启用或禁用 Teams 会议中的视频呼叫 (**视频以进行 Skype 会议**) 。</li><li>为组织启用或禁用 Microsoft Teams 会议中的屏幕共享 (**Skype 会议的屏幕共享**) 。</li><li>启用或禁用将名为 Giphys () 的动画图像添加到 Teams 对话 (**动画图像**) 的功能。</li><li>更改组织的内容分级设置 (**内容分级**) 。 内容分级限制可在对话中显示的动画图像的类型。</li><li>启用或禁用团队成员从 Internet 添加自定义模因)  (可自定义图像的功能， (**Internet) 中的可自定义图像** 进行团队对话。</li><li>启用或禁用团队成员向团队对话添加可编辑图像的功能 (称为贴纸)  (**可编辑图像**) 。</li><li>启用或禁用该功能，使团队成员能够在 Microsoft Teams 聊天和频道中使用机器人 (**组织范围的机器人)**。</li><li>为 Microsoft Teams 启用特定机器人。 这不包括 T-Bot，它是在为组织启用机器人时提供的 Teams 帮助机器人， (**单个机器人**) 。</li><li>启用或禁用团队成员 (**扩展或选项卡**) 添加扩展或选项卡的功能。</li><li>为 Microsoft Teams 启用或禁用专有机器人的旁加载 (**端加载机器人**) 。</li><li>启用或禁用用户向 Microsoft Teams 频道发送电子邮件的功能 (**频道电子邮件**) 。</li></ul>|
 |在团队中更改成员的角色|MemberRoleChanged|团队所有者会更改团队中成员的角色。 以下值指示分配给用户的角色类型。 <br><br>**1** - 指示成员角色。<br>**2** - 指示所有者角色。<br>**3** - 指示来宾角色。<br><br>Members 属性还包括组织的名称和成员的电子邮件地址。|
-|更改了团队设置|TeamSettingChanged|当团队所有者执行以下活动时，将记录 TeamSettingChanged 操作。 对于上述每个活动，审核日志搜索结果的 **“项** ”列中会显示更改的设置的说明 (在括号中显示) 。<ul><li>更改团队的访问类型。 Teams可以设置为专用或公共 (**团队访问类型**) 。 当团队是专用 (默认设置) 时，用户只能通过邀请访问团队。 当团队公开时，任何人都可以发现它。</li><li>更改团队 (**团队分类**) 的信息分类。 例如，团队数据可以归类为业务影响大、业务影响中等或业务影响低。</li><li>更改团队名称 (**团队名称**) 。</li><li>更改团队说明 (**) 的团队说明** 。</li><li>对团队设置所做的更改。 若要访问这些设置，团队所有者可以右键单击团队，选择 **“管理团队**”，然后单击 **设置** 选项卡。对于这些活动，已更改的设置的名称会显示在审核日志搜索结果的 **“项**”列中。</li></ul>|
-|创建聊天 <sup>1、 </sup> <sup>2</sup>|ChatCreated|创建了Teams聊天。|
+|更改了团队设置|TeamSettingChanged|当团队所有者执行以下活动时，将记录 TeamSettingChanged 操作。 对于上述每个活动，审核日志搜索结果的 **“项** ”列中会显示更改的设置的说明 (在括号中显示) 。<ul><li>更改团队的访问类型。 可以将 Teams 设置为专用或公共 (**团队访问类型**) 。 当团队是专用 (默认设置) 时，用户只能通过邀请访问团队。 当团队公开时，任何人都可以发现它。</li><li>更改团队 (**团队分类**) 的信息分类。 例如，团队数据可以归类为业务影响大、业务影响中等或业务影响低。</li><li>更改团队名称 (**团队名称**) 。</li><li>更改团队说明 (**) 的团队说明** 。</li><li>对团队设置所做的更改。 若要访问这些设置，团队所有者可以右键单击团队，选择 **“管理团队**”，然后单击 **“设置”** 选项卡。对于这些活动，已更改的设置的名称会显示在审核日志搜索结果的 **“项** ”列中。</li></ul>|
+|创建聊天 <sup>1、 </sup> <sup>2</sup>|ChatCreated|创建了 Teams 聊天。|
 |创建的团队|TeamCreated|用户创建团队。|
 |删除了一条消息|MessageDeleted|已删除聊天或频道中的消息。|
 |删除了所有组织应用|DeletedAllOrganizationApps|从目录中删除了所有组织应用。|
 |已删除的应用|AppDeletedFromCatalog|已从目录中删除应用。|
 |已删除的通道|ChannelDeleted|用户从团队中删除频道。|
 |已删除的团队|TeamDeleted|团队所有者删除团队。|
-|在Teams中编辑了包含 URL 链接的消息|MessageEditedHasLink|用户编辑消息并在Teams中向其添加 URL 链接。|
+|在 Teams 中编辑了包含 URL 链接的消息|MessageEditedHasLink|用户编辑消息并在 Teams 中向其添加 URL 链接。|
 |导出的消息 <sup>1、 </sup> <sup>2</sup>|MessagesExported|已导出聊天或频道消息。|
 |未能验证对共享频道<sup>3</sup> 的邀请|FailedValidation|用户响应对共享频道的邀请，但邀请未通过验证。|
-|提取聊天 <sup>1、 </sup> <sup>2</sup>|ChatRetrieved|检索了Microsoft Teams聊天。|
+|提取聊天 <sup>1、 </sup> <sup>2</sup>|ChatRetrieved|检索了 Microsoft Teams 聊天。|
 |提取消息<sup>1、 </sup> <sup>2</sup> 的所有托管内容|MessageHostedContentsListed|检索消息中的所有托管内容，如图像或代码片段。|
 |已安装的应用|AppInstalled|已安装应用。|
 |对卡片执行的操作|PerformedCardAction|用户在聊天中对自适应卡片采取了操作。 自适应卡片通常由机器人用来在聊天中丰富显示信息和交互。 <br/><br/>**注意：** 审核日志中仅提供聊天中自适应卡片上的内联输入操作。 例如，当用户在由 Poll 机器人生成的自适应卡片的频道对话中提交投票响应时。 将打开对话框的用户操作（如“查看结果”）或对话框中的用户操作在审核日志中不可用。|
@@ -124,29 +124,29 @@ ms.locfileid: "65674404"
 |响应共享频道<sup>3</sup> 的邀请|InviteeResponded|用户响应了共享频道邀请。|
 |响应了对共享频道<sup>3</sup> 的受邀者响应|ChannelOwnerResponded|频道所有者响应了响应共享频道邀请的用户的响应。|
 |检索的消息 <sup>1、 </sup> <sup>2</sup>|MessagesListed|从聊天或频道检索消息。|
-|在Teams中发送了包含 URL 链接的消息|MessageCreatedHasLink|用户在Teams中发送包含 URL 链接的消息。|
+|在 Teams 中发送包含 URL 链接的消息|MessageCreatedHasLink|用户在 Teams 中发送包含 URL 链接的消息。|
 |已发送消息创建 <sup>1、 </sup> <sup>2</sup> 的更改通知|MessageCreatedNotification|已发送更改通知以通知订阅的侦听器应用程序新消息。|
 |已发送邮件删除更改通知 <sup>1、 </sup> <sup>2</sup>|MessageDeletedNotification|已发送更改通知，以通知订阅的侦听器应用程序已删除消息。|
 |已发送消息更新 <sup>1、 </sup> <sup>2</sup> 的更改通知|MessageUpdatedNotification|已发送更改通知以通知订阅的侦听器应用程序更新的消息。|
 |已发送共享频道<sup>3</sup> 的邀请|InviteSent|频道所有者或成员向共享频道发送邀请。 如果将频道策略配置为与外部用户共享频道，则可以向组织外部的人员发送对共享频道的邀请。|
 |订阅消息更改通知 <sup>1、 </sup> <sup>2</sup>|SubscribedToMessages|订阅由侦听器应用程序创建，用于接收消息的更改通知。|
 |卸载的应用|AppUninstalled|已卸载应用。|
-|更新后的应用|AppUpdatedInCatalog|已在目录中更新应用。|
-|更新了聊天 <sup>1、 </sup> <sup>2</sup>|ChatUpdated|更新了Teams聊天。|
+|已更新的应用|AppUpdatedInCatalog|已在目录中更新应用。|
+|更新了聊天 <sup>1、 </sup> <sup>2</sup>|ChatUpdated|Teams 聊天已更新。|
 |更新了消息 <sup>1、 </sup> <sup>2</sup>|MessageUpdated|已更新聊天或频道的消息。|
 |更新的连接器|ConnectorUpdated|用户修改了通道中的连接器。|
 |“更新”选项卡|TabUpdated|用户修改了通道中的选项卡。|
 |升级后的应用|AppUpgraded|应用已升级到目录中的最新版本。|
-|登录到Teams的用户|TeamsSessionStarted|用户登录到Microsoft Teams客户端。 此事件不会捕获令牌刷新活动。|
+|登录到 Teams 的用户|TeamsSessionStarted|用户登录到 Microsoft Teams 客户端。 此事件不会捕获令牌刷新活动。|
 
 > [!NOTE]
-> <sup>1</sup> 仅在通过调用 Microsoft 图形 API 执行操作时记录此事件的审核记录。 如果操作是在Teams客户端中执行的，则不会记录审核记录<br/><sup>2</sup> 此事件仅在审核 (高级版) 中可用。 这意味着在审核日志中记录这些事件之前，必须为用户分配相应的许可证。 有关仅在审核 (高级版) 中可用的活动的详细信息，[请参阅 Microsoft Purview 中的审核 (高级版) ](/microsoft-365/compliance/advanced-audit#advanced-audit-events)。 有关审核 (高级版) 许可要求，请参阅[Microsoft 365中的审核解决方案](/microsoft-365/compliance/auditing-solutions-overview#licensing-requirements)。 <br/> <sup>3</sup> 此事件以公共预览版提供。
+> <sup>1</sup> 仅在通过调用 Microsoft 图形 API 执行操作时记录此事件的审核记录。 如果操作在 Teams 客户端中执行，则不会记录审核记录<br/><sup>2</sup> 此事件仅在审核 (高级) 中可用。 这意味着在审核日志中记录这些事件之前，必须为用户分配相应的许可证。 有关仅在审核 (高级) 中可用的活动的详细信息， [请参阅 Microsoft Purview 中的审核 (高级) ](/microsoft-365/compliance/advanced-audit#advanced-audit-events)。 有关审核 (高级) 许可要求， [请参阅 Microsoft 365 中的审核解决方案](/microsoft-365/compliance/auditing-solutions-overview#licensing-requirements)。 <br/> <sup>3</sup> 此事件以公共预览版提供。
 
-## <a name="shifts-in-teams-activities"></a>Teams活动的班次
+## <a name="shifts-in-teams-activities"></a>Teams 活动中的班次
 
 **（处于预览阶段）**
 
-如果你的组织在Teams中使用 Shifts 应用，则可以在审核日志中搜索与 Shifts 应用相关的活动。 下面是记录Teams Microsoft 365审核日志中 Shifts 活动的所有事件的列表。
+如果你的组织在 Teams 中使用 Shifts 应用，则可以在审核日志中搜索与 Shifts 应用相关的活动。 以下是在 Microsoft 365 审核日志中为 Teams 中的 Shifts 活动记录的所有事件的列表。
 
 |友好名称|操作|说明|
 |---|---|---|
@@ -176,29 +176,29 @@ ms.locfileid: "65674404"
 |已取消的班次请求|RequestCancelled|用户取消了班次请求。|
 |更改的计划设置|ScheduleSettingChanged|用户更改 Shifts 设置中的设置。|
 |添加了员工集成|WorkforceIntegrationAdded|Shifts 应用与第三方系统集成。|
-|已接受的脱班消息|OffShiftDialogAccepted|用户确认轮班后要访问Teams的轮班消息。|
+|已接受的脱班消息|OffShiftDialogAccepted|用户确认轮班后访问 Teams 的轮班消息。|
 
 ## <a name="office-365-management-activity-api"></a>Office 365管理活动 API
 
-可以使用Office 365管理活动 API 检索有关Teams事件的信息。 若要详细了解Teams的管理活动 API 架构，请[参阅Teams架构](/office/office-365-management-api/office-365-management-activity-api-schema#microsoft-teams-schema)。
+可以使用Office 365管理活动 API 检索有关 Teams 事件的信息。 若要详细了解 Teams 的管理活动 API 架构，请参阅 [Teams 架构](/office/office-365-management-api/office-365-management-activity-api-schema#microsoft-teams-schema)。
 
-## <a name="attribution-in-teams-audit-logs"></a>Teams审核日志中的归因
+## <a name="attribution-in-teams-audit-logs"></a>Teams 审核日志中的归因
 
-Azure Active Directory (Azure AD) 、Microsoft 365 管理门户或Microsoft 365 组 图形 API添加或删除) 用户等Teams (的成员身份更改将显示在Teams 审核消息，并在常规频道中将消息归于团队的现有所有者，而不是操作的实际发起者。 在这些情况下，请查阅 Azure AD 或[Microsoft 365组审核日志](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)以查看相关信息。
+对 Teams (（例如，通过 Azure Active Directory (Azure AD) 、Microsoft 365 管理门户或Microsoft 365 组 图形 API添加或删除) 的用户）的成员身份更改将显示在 Teams 审核消息和常规频道中，并归于团队的现有所有者，而不是操作的实际发起者。 在这些情况下，请查阅 Azure AD 或 [Microsoft 365 组审核日志](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) ，查看相关信息。
 
-## <a name="use-defender-for-cloud-apps-to-set-activity-policies"></a>使用Defender for Cloud应用设置活动策略
+## <a name="use-defender-for-cloud-apps-to-set-activity-policies"></a>使用 Defender for Cloud Apps 设置活动策略
 
 使用[Microsoft Defender for Cloud Apps](/cloud-app-security/what-is-cloud-app-security)集成，可以设置[活动策略](/cloud-app-security/user-activity-policies)，以使用应用提供程序的 API 强制实施各种自动化进程。 借助这些策略，可以监视各种用户执行的特定活动，或遵循特定类型的活动的意外高速率。
 
-设置活动检测策略后，它会开始生成警报。 警报仅在创建策略后发生的活动上生成。 下面是一些示例方案，说明如何在应用Defender for Cloud中使用活动策略来监视Teams活动。
+设置活动检测策略后，它会开始生成警报。 警报仅在创建策略后发生的活动上生成。 下面是一些示例方案，说明如何在 Defender for Cloud Apps 中使用活动策略来监视 Teams 活动。
 
 ### <a name="external-user-scenario"></a>外部用户方案
 
-从业务角度来看，你可能想要关注一个方案是将外部用户添加到Teams环境中。 如果已启用外部用户，则监视其状态是一个好主意。  可以使用[Defender for Cloud应用](/cloud-app-security/what-is-cloud-app-security)来识别潜在威胁。
+从业务角度来看，你可能想要关注一个方案是将外部用户添加到 Teams 环境。 如果已启用外部用户，则监视其状态是一个好主意。  可以使用 [Defender for Cloud Apps](/cloud-app-security/what-is-cloud-app-security) 来识别潜在威胁。
 
 :::image type="content" alt-text="用于监视添加外部用户的策略。" source="media/TeamsExternalUserAddPolicy.png" lightbox="media/TeamsExternalUserAddPolicy.png":::
 
-此策略用于监视添加外部用户的屏幕截图允许你命名策略、根据业务需求设置严重性、将策略设置为 (在这种情况下) 单个活动，然后建立专门监视非内部用户添加情况的参数，并将此活动限制为Teams。
+此策略用于监视添加外部用户的屏幕截图允许你命名策略、根据业务需求设置严重性、将策略设置为 (在这种情况下) 单个活动，然后建立仅专门监视非内部用户添加情况的参数，并将此活动限制为 Teams。
 
 可以在活动日志中查看此策略的结果：
 
@@ -208,11 +208,11 @@ Azure Active Directory (Azure AD) 、Microsoft 365 管理门户或Microsoft 365 
 
 ### <a name="mass-delete-scenario"></a>批量删除方案
 
-如前所述，可以监视删除方案。 可以创建一个策略来监视Teams网站的大规模删除。 在此示例中，设置了基于警报的策略，以在 30 分钟内检测团队的大规模删除。
+如前所述，可以监视删除方案。 可以创建一个策略来监视 Teams 网站的大规模删除。 在此示例中，设置了基于警报的策略，以在 30 分钟内检测团队的大规模删除。
 
 :::image type="content" alt-text="显示为大规模团队删除检测设置策略的策略的策略。" source="media/TeamsMassDeletePolicy.png" lightbox="media/TeamsMassDeletePolicy.png":::
 
-如屏幕截图所示，可以为此策略设置许多不同的参数来监视Teams删除，包括严重性、单个或重复操作，以及将此操作限制为Teams和网站删除的参数。 这可以独立于模板完成，也可以创建一个模板来根据组织需求来基于此策略。
+如屏幕截图所示，可以为此策略设置许多不同的参数来监视 Teams 删除，包括严重性、单个或重复操作，以及将此限制为 Teams 和网站删除的参数。 这可以独立于模板完成，也可以创建一个模板来根据组织需求来基于此策略。
 
 建立适用于企业的策略后，可以在触发事件时查看活动日志中的结果：
 
@@ -226,11 +226,11 @@ Azure Active Directory (Azure AD) 、Microsoft 365 管理门户或Microsoft 365 
 
 ![活动策略的警报和治理操作的屏幕截图。](media/audit-log-governance.png)
 
-## <a name="use-defender-for-cloud-apps-to-set-anomaly-detection-policies"></a>使用Defender for Cloud应用设置异常情况检测策略
+## <a name="use-defender-for-cloud-apps-to-set-anomaly-detection-policies"></a>使用 Defender for Cloud Apps 设置异常情况检测策略
 
-Defender for Cloud应用中的[异常情况检测策略](/cloud-app-security/anomaly-detection-policy) (UEBA) 和机器学习 (ML) 提供现用的用户和实体行为分析，以便你可以立即在云环境中运行高级威胁检测。 由于它们已自动启用，因此新的异常情况检测策略通过提供即时检测来提供即时检测，针对用户和连接到网络的计算机和设备的众多行为异常提供即时结果。 此外，新策略还公开了来自Defender for Cloud应用检测引擎的更多数据，以帮助你加快调查过程并包含持续的威胁。
+Defender for Cloud Apps 中的[异常情况检测策略](/cloud-app-security/anomaly-detection-policy) (UEBA) 和机器学习 (ML) 提供现用的用户和实体行为分析，以便可以立即在云环境中运行高级威胁检测。 由于它们已自动启用，因此新的异常情况检测策略通过提供即时检测来提供即时检测，针对用户和连接到网络的计算机和设备的众多行为异常提供即时结果。 此外，新策略还公开了 Defender for Cloud Apps 检测引擎中的更多数据，以帮助你加快调查过程并包含持续的威胁。
 
-我们正在努力将Teams事件集成到异常情况检测策略中。 目前，可以为其他Office产品设置异常情况检测策略，并针对与这些策略匹配的用户执行操作项。
+我们正在努力将 Teams 事件集成到异常情况检测策略中。 目前，可以为其他 Office 产品设置异常情况检测策略，并针对与这些策略匹配的用户执行操作项。
 
 ## <a name="related-topics"></a>相关主题
 

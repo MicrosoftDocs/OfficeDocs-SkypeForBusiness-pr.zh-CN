@@ -21,12 +21,12 @@ appliesto:
 ms.custom:
 - seo-marvel-mar2020
 - intro-get-started
-ms.openlocfilehash: 54fcf3942d13fa0b759e796e5486808a5f5a40bb
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
-ms.translationtype: HT
+ms.openlocfilehash: ff5fce999adffc38e28d6daf787d6175deaa683a
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66045841"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808803"
 ---
 # <a name="get-started-with-microsoft-teams"></a>开始使用 Microsoft Teams
 
@@ -66,7 +66,7 @@ ms.locfileid: "66045841"
 如果不熟悉 Teams，熟悉它最好的方法就是立即开始使用它。 Teams 的出色的功能是，现在设置的方式不会影响以后需要执行的任何升级或迁移。
 
 > [!TIP]
-> 查看 Microsoft Learning for Teams [中可用的学习路径](/learn/teams/)。 可以浏览 [Teams 管理中心](/learn/modules/m365-teams-navigate-admin-portal/)，了解如何 [为 Teams](/learn/modules/m365-teams-connectivity/)配置网络，了解如何最好地为 [将用户载入到 Teams](/learn/modules/m365-teams-onboard-users/)等！
+> 查看 Microsoft Learning for Teams [中可用的学习路径](/training/teams/)。 可以浏览 [Teams 管理中心](/training/modules/m365-teams-navigate-admin-portal/)，了解如何 [为 Teams](/training/modules/m365-teams-connectivity/)配置网络，了解如何最好地为 [将用户载入到 Teams](/training/modules/m365-teams-onboard-users/)等！
 
 使用以下步骤来设置一些团队并加入一些早期采用者，以帮助你熟悉 Teams。
 

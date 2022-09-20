@@ -25,37 +25,37 @@ metadata:
   search.appverid: MET150
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 75ccc3c0953df013b2e13868f960a13d10ac13f0
-  ms.sourcegitcommit: 791d0a341ff873145fa893ece05055729b0b8d50
+  ms.openlocfilehash: 2ebea73a5311798aca39697fa14a698eedb0e1bb
+  ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 07/18/2022
-  ms.locfileid: "66838887"
+  ms.lasthandoff: 09/19/2022
+  ms.locfileid: "67808534"
 productDirectory:
   summary: 单击工作坊标题以注册或访问按需录制。
   items:
   - title: 负责 Teams 中的音频/视频质量
-    imageSrc: https://docs.microsoft.com/office/media/icons/health-teams.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/health-teams.svg
     summary: 希望确保用户在会议和语音功能上拥有最佳体验？ 我们将讨论帮助你管理服务质量的工具、报告和最佳做法，从制定主动策略到解决常见问题。
     url: https://aka.ms/ChalkTalkAVQuality
   - title: 所以。。。你想要使用 Teams 进行呼叫？
-    imageSrc: https://docs.microsoft.com/office/media/icons/headset-teams.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/headset-teams.svg
     summary: 与我们一起深入了解如何将 PSTN 调用功能添加到 Teams 部署。 我们将一起演练调用术语、关键概念和配置。
     url: https://aka.ms/ChalkTalkCalling
   - title: 使用 Microsoft Teams 为实时事件提供活力
-    imageSrc: https://docs.microsoft.com/office/media/icons/presenter-teams.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/presenter-teams.svg
     summary: 使用 Microsoft Teams 通过大型联机虚拟事件吸引和激励受众。 了解确保事件成功的最佳做法。
     url: https://aka.ms/ChalkTalksVirtualEvents
   - title: Teams 基础知识中的应用
-    imageSrc: https://docs.microsoft.com/office/media/icons/blocks-teams.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/blocks-teams.svg
     summary: 此基础会话涵盖基本功能，包括应用管理和安全性。 了解如何将工作流、生产力应用和每天使用的服务集成到单个统一体验中。
     url: https://aka.ms/ChalkTalkApps
   - title: 使用 Teams 中的应用增压密钥工作流
-    imageSrc: https://docs.microsoft.com/office/media/icons/bandwidth-efficiency-teams.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/bandwidth-efficiency-teams.svg
     summary: 通过将组织所依赖的应用引入 Teams，连接系统，提高自动化程度，并为用户提供改进的体验。
     url: https://aka.ms/ChalkTalkKeyApps
   - title: 使一线员工能够使用 Teams 执行更多操作
-    imageSrc: https://docs.microsoft.com/office/media/icons/devices-2-teams.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/devices-2-teams.svg
     summary: 探索最佳做法，为一线员工规划和实施高效对话、信息共享和计划管理的简化体验。
     url: https://aka.ms/TeamsFLW
 additionalContent:

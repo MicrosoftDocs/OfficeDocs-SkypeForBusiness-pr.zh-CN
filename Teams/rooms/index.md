@@ -19,12 +19,12 @@ ms.collection:
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: 了解如何设置Microsoft Teams 会议室，包括规划、部署和管理系统以创建理想的虚拟会议室。
 ms.custom: seo-marvel-may2020; intro-overview
-ms.openlocfilehash: f4c574ea230b28310c261504447dce5f0ee250cc
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: b424e3ac2a03db74566d8bbfc5e8dea1a40de792
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271197"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808403"
 ---
 # <a name="microsoft-teams-rooms"></a>Microsoft Teams 会议室
 
@@ -43,7 +43,7 @@ ms.locfileid: "67271197"
     :::column-end:::
 :::row-end:::
 
-<!-- The following three links to icon images work with site-relative URLs when published on docs.microsoft.com. -->
+<!-- The following three links to icon images work with site-relative URLs when published on learn.microsoft.com. -->
 
 |    <img src="/office/media/icons/list-123-teams.svg" width="40 px" height="40 px" alt="plan icon">           | <img src="/office/media/icons/deploy-teams.svg" width="40 px" height="40 px" alt="deploy icon">              |   <img src="/office/media/icons/toolbox.svg" width="40 px" height="40 px" alt="manage icon">            |
 | ------------- | ------------- | ------------- |

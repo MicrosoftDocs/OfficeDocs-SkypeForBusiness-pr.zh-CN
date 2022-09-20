@@ -24,20 +24,20 @@ metadata:
   search.appverid: MET150
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: fe5104d2047f734a0ae6df839bb980052ca2607e
-  ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+  ms.openlocfilehash: 6ae30ce1693944d10048ca1172657329202d7c0c
+  ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 07/14/2022
-  ms.locfileid: "66794520"
+  ms.lasthandoff: 09/19/2022
+  ms.locfileid: "67808653"
 productDirectory:
   items:
   - title: 规划升级（从这里开始！）
-    imageSrc: https://docs.microsoft.com/office/media/icons/get-started-teams.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/get-started-teams.svg
     summary: '无论是在 2021 年 7 月 31 日 Skype for Business Online (停用之前升级到 Teams，) 还是将方案从本地Skype for Business环境迁移到 Teams，成功的转换都解决了技术和用户准备情况。 发现经过验证的框架、最佳做法和资源，旨在帮助你成功从 Skype for Business Online、Skype for Business Server 或混合环境过渡到 Teams。 受众 – 所有 (业务赞助商、IT 管理员、用户就绪情况/更改管理器、项目主管) '
     url: https://aka.ms/SfBtoTeamsPlan
   - title: 实现 Teams 升级
-    imageSrc: https://docs.microsoft.com/office/media/icons/hybrid-teams.svg
+    imageSrc: https://learn.microsoft.com/office/media/icons/hybrid-teams.svg
     summary: 请加入我们，根据你的目标和当前Skype for Business环境，确定并准备执行将所有工作负荷移动到 Teams 的最佳技术方法。 大多数成功完成转换的客户都启用了 Teams 及其当前Skype for Business联机、Skype for Business Server或混合实现。 此会话将共享关键注意事项和有价值的资源，以帮助你为组织定义最佳迁移策略。 受众 - IT 管理员
     url: https://aka.ms/SfBtoTeamsImplement
 additionalContent:

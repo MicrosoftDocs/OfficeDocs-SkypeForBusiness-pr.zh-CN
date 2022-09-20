@@ -15,12 +15,12 @@ ms.collection:
 - m365initiative-edu
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e8f8a069b35bcd1b5a1b1216946d4734a5ec52a
-ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.openlocfilehash: 92e02822dbd4533f151d9551bb25aad1905184fc
+ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67486937"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "67808413"
 ---
 # <a name="resources-for-career-coach-in-microsoft-teams"></a>Microsoft Teams 中职业教练的资源
 
@@ -77,4 +77,4 @@ ms.locfileid: "67486937"
 | [在 Outlook 中与我预订](/microsoft-365/bookings/bookings-in-outlook) | 教师计划 1：1 约会的指南，例如职业服务课程和办公时间。 |
 | [Microsoft Bookings](/microsoft-365/bookings/bookings-overview) | IT 管理员指南，介绍如何设置Microsoft Bookings以管理员工和学生的亲自和虚拟约会，例如职业服务会话和办公时间。 |
 | [Microsoft Teams 会议支持](https://www.microsoft.com/videoplayer/embed/RE4rxIX?pid=ocpVideo0-innerdiv-oneplayer&postJsllMsg=true&maskLevel=20&market=en-us) | 面向学生的视频演练，了解如何使用 Teams 会议。 |
-| [提供引人入胜且易于访问的虚拟事件](/learn/paths/m365-virtual-events-fundamentals/) | 面向教师的在线课程，介绍如何使用 Microsoft Teams 和 Microsoft 365 提供引人入胜且易于访问的虚拟事件。 |
+| [提供引人入胜且易于访问的虚拟事件](/training/paths/m365-virtual-events-fundamentals/) | 面向教师的在线课程，介绍如何使用 Microsoft Teams 和 Microsoft 365 提供引人入胜且易于访问的虚拟事件。 |
