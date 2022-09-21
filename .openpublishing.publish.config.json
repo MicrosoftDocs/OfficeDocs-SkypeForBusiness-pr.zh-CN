@@ -4,8 +4,9 @@
       "docset_name": "OfficeDocs-LyncServer",
       "build_source_folder": "Lync",
       "build_output_subfolder": "OfficeDocs-LyncServer",
-      "locale": "zh-CN",
+      "locale": "zh-cn",
       "monikers": [],
+      "moniker_ranges": [],
       "open_to_public_contributors": false,
       "type_mapping": {
         "Conceptual": "Content",
@@ -20,8 +21,9 @@
       "docset_name": "OfficeDocs-MicrosoftTeams",
       "build_source_folder": "Teams",
       "build_output_subfolder": "OfficeDocs-MicrosoftTeams",
-      "locale": "zh-CN",
+      "locale": "zh-cn",
       "monikers": [],
+      "moniker_ranges": [],
       "open_to_public_contributors": false,
       "type_mapping": {
         "Conceptual": "Content",
@@ -37,7 +39,7 @@
       "docset_name": "OfficeDocs-SkypeForBusiness",
       "build_source_folder": "Skype",
       "build_output_subfolder": "OfficeDocs-SkypeForBusiness",
-      "locale": "zh-CN",
+      "locale": "zh-cn",
       "monikers": [],
       "moniker_ranges": [],
       "open_to_public_contributors": false,
@@ -52,20 +54,22 @@
       "version": 0
     }
   ],
-  "notification_subscribers": [],
-  "branches_to_filter": [
-    "live"
+  "notification_subscribers": [
+    "martio@microsoft.com"
   ],
-  "git_repository_url_open_to_public_contributors": "https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness",
+  "sync_notification_subscribers": [],
+  "branches_to_filter": [
+    "live-sxs"
+  ],
+  "git_repository_url_open_to_public_contributors": "https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness.zh-cn",
   "git_repository_branch_open_to_public_contributors": "live",
   "continue_with_document_error": true,
   "skip_source_output_uploading": false,
   "need_preview_pull_request": true,
-  "contribution_branch_mappings": {},
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
-      "url": "https://github.com/Microsoft/templates.docs.msft.zh-CN",
+      "url": "https://github.com/Microsoft/templates.docs.msft.zh-cn",
       "branch": "master",
       "branch_mapping": {}
     },
@@ -77,7 +81,7 @@
     },
     {
       "path_to_root": "Skype/common",
-      "url": "https://github.com/MicrosoftDocs/OfficeDocs-pr",
+      "url": "https://github.com/MicrosoftDocs/OfficeDocs-pr.zh-cn",
       "branch": "live",
       "branch_mapping": {}
     },
@@ -96,17 +100,30 @@
       "Publish",
       "Pdf"
     ],
+    "live-sxs": [
+      "Publish",
+      "Pdf"
+    ],
     "SkypeServer2019": [
+      "Publish",
+      "Pdf"
+    ],
+    "dstrome-SMB-voice": [
       "Publish",
       "Pdf"
     ]
   },
-  "need_generate_pdf_url_template": true,
   "targets": {
     "Pdf": {
       "template_folder": "_themes.pdf"
     }
   },
+  "contribution_branch_mappings": {},
+  "need_generate_pdf_url_template": true,
   "need_generate_pdf": false,
-  "need_generate_intellisense": false
+  "need_generate_intellisense": false,
+  "redirection_files": [
+    ".openpublishing.redirection.json",
+    ".openpublishing.redirection.lync.json"
+  ]
 }
