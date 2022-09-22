@@ -667,6 +667,40 @@ items:
                 href: teams-live-events/configure-teams-live-events.md
               - name: 实时事件录制策略
                 href: teams-live-events/live-events-recording-policies.md
+          - name: 创建 Teams 混合会议体验
+            items:
+              - name: 概述
+                href: hybrid-meetings-overview.md
+              - name: 混合会议原则
+                href: hybrid-meetings-principles.md
+              - name: 步骤 1 - 熟悉 Teams 会议功能
+                href: hybrid-meetings-features.md
+              - name: 步骤 2 - 宣传会议最佳做法
+                href: hybrid-meetings-educate-participants.md
+              - name: 步骤 3 - 设计和生成会议空间
+                href: hybrid-meetings-room-design.md
+              - name: 步骤 4 - 选择会议室设备
+                href: hybrid-meetings-device-select.md
+              - name: 步骤 5 - 设置设备
+                items:
+                  - name: 概述
+                    href: hybrid-meetings-device-config-intro.md
+                  - name: 步骤 1 - 购买Teams 会议室许可证
+                    href: hybrid-meetings-device-config-license.md
+                  - name: 步骤 2 - 创建资源帐户
+                    href: hybrid-meetings-device-config-account.md
+                  - name: 步骤 3 - 分配会议室许可证
+                    href: hybrid-meetings-device-config-assign.md
+                  - name: 步骤 4 - 配置邮箱属性
+                    href: hybrid-meetings-device-config-mailbox.md
+                  - name: 步骤 5 - 关闭密码过期
+                    href: hybrid-meetings-device-config-password.md
+                  - name: 步骤 6 - 配置会议策略
+                    href: hybrid-meetings-device-config-policies.md
+                  - name: 步骤 7 - 配置日历选项
+                    href: hybrid-meetings-device-config-calendar.md
+              - name: 步骤 6 - 管理和监视会议室和会议
+                href: hybrid-meetings-manage.md
       - name: 音频会议
         items:
           - name: M365 中的音频会议
