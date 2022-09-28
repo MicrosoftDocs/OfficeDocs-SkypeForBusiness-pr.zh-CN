@@ -1569,7 +1569,7 @@ items:
         items:
           - name: 了解第三方应用
             href: overview-third-party-apps.md
-          - name: 了解 Microsoft 提供的应用验证
+          - name: Microsoft 完成的应用检查、测试和验证
             href: overview-of-app-validation.md
           - name: 第三方应用的安全性、合规性和隐私
             href: overview-of-app-certification.md
@@ -1593,7 +1593,7 @@ items:
             href: submit-approve-custom-apps.md
           - name: 发布作为包提交的自定义应用
             href: upload-custom-apps.md
-          - name: 在 Teams 管理中心内管理 Power Platform 应用
+          - name: 管理使用 Power Platform 创建的自定义应用
             href: manage-power-platform-apps.md
       - name: 管理员控制以管理应用
         items:
