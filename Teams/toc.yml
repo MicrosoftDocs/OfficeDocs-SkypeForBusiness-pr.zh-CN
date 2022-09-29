@@ -1429,15 +1429,13 @@ items:
                 href: rooms/xml-config-file.md
               - name: 使用恢复工具
                 href: rooms/recovery-tool.md
-      - name: Microsoft Teams 会议室托管服务
+      - name: Microsoft Teams 会议室专业管理
         items:
           - name: 概述
             href: rooms/microsoft-teams-rooms-premium.md
-          - name: 获取并分配许可证
-            href: rooms/obtaining-assigning-license.md
-          - name: 注册 MTRP 托管服务
+          - name: 访问 Pro Management 门户
             href: rooms/enrolling-mtrp-managed-service.md
-          - name: 将设备注册到托管服务
+          - name: 将设备注册到 Pro 管理
             href: rooms/enroll-a-device.md
           - name: 基于角色的访问控制
             href: rooms/microsoft-teams-rooms-premium-rbac.md
@@ -1445,7 +1443,7 @@ items:
             href: rooms/managed-meeting-rooms-portal.md
           - name: 托管更新
             href: rooms/update-management.md
-          - name: 为 Teams 会议室配置 ServiceNow
+          - name: 配置 ServiceNow
             href: rooms/microsoft-teams-rooms-configure-servicenow.md
           - name: 面向合作伙伴的多租户管理
             href: rooms/multi-tenant-management-partner.md
@@ -1457,12 +1455,10 @@ items:
             href: rooms/health-and-usage-reports.md
           - name: 标准和会议室 Planner
             href: rooms/standards-and-room-planner.md
-          - name: 客户报告的事件
+          - name: 记录问题
             href: rooms/customer-reported-incidents.md
           - name: 数据和隐私信息
             href: rooms/data-and-privacy-info.md
-          - name: 使用 Teams 会议室移动应用程序
-            href: rooms/extended-mobile-app.md
       - name: 设备
         items:
           - name: Teams 设备存储
