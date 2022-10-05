@@ -1367,6 +1367,8 @@ items:
                 href: rooms/rooms-licensing.md
               - name: Teams 会议室管理中心许可
                 href: rooms/admin-center-license-overview.md
+              - name: Teams 会议室旧版许可
+                href: rooms/rooms-legacy-licensing.md
               - name: "Windows 和 Android 之间的 Teams 设备功能比较 \_"
                 href: rooms/teams-devices-feature-comparison.md
               - name: Teams 会议室指南
