@@ -1,6 +1,6 @@
 ---
 title: 预览)  (信息屏障和共享通道
-description: 本文介绍Microsoft Teams中的信息障碍如何支持共享通道
+description: 本文介绍 Microsoft Teams 中的信息障碍如何支持共享频道
 author: robmazz
 ms.author: robmazz
 manager: laurawi
@@ -9,6 +9,8 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
+- tier2
+- purview-compliance
 - M365-collaboration
 search.appverid: MET150
 f1.keywords:
@@ -16,18 +18,18 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: information-barriers
-ms.openlocfilehash: 6ee178252c00ec4c73dfaa036f17377cef401d30
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 5b214a4c60df7b50f508fec7985c6f38b65985e6
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922833"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68047212"
 ---
 # <a name="information-barriers-and-shared-channels-preview"></a>预览)  (信息屏障和共享通道
 
-Microsoft Teams中的[共享频道](shared-channels.md)创建协作空间，你可以在其中邀请不在团队中的人员。 [Microsoft Purview 信息屏障](/microsoft-365/compliance/information-barriers) 是可以实施的策略，用于限制和防止用户和组在组织内外相互通信。
+Microsoft Teams 中的[共享频道](shared-channels.md)创建协作空间，可在其中邀请不在团队中的人员。 [Microsoft Purview 信息屏障](/microsoft-365/compliance/information-barriers) 是可以实施的策略，用于限制和防止用户和组在组织内外相互通信。
 
-默认情况下，共享通道在Teams中启用。 你可以选择用户是否可以创建共享频道、他们是否可以与组织外部的人员共享该频道，以及他们是否可以通过 创建频道策略 来参与外部共享频道。 在组织中配置信息屏障策略时，在配置共享通道以验证现有频道成员和添加到共享通道的任何新用户是否违反信息屏障策略条件时，将执行检查。
+默认情况下，在 Teams 中启用共享通道。 你可以选择用户是否可以创建共享频道、他们是否可以与组织外部的人员共享该频道，以及他们是否可以通过 创建频道策略 来参与外部共享频道。 在组织中配置信息屏障策略时，在配置共享通道以验证现有频道成员和添加到共享通道的任何新用户是否违反信息屏障策略条件时，将执行检查。
 
 使用下表了解信息屏障策略在配置共享通道时如何影响通信并导致特定行为：
 

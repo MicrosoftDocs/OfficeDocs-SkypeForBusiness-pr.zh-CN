@@ -22,18 +22,21 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 了解和比较 Teams 管理中心的Teams 会议室许可和功能可用性。
-ms.openlocfilehash: d88e7a0c0a6c17fb22f1cc94fcd4de65a3ff79a2
-ms.sourcegitcommit: 732a7f3e120cfa221d42b4e8af2cf9ff623488a1
+ms.openlocfilehash: 0e4a3d4fc15f5e978731254e3344ee6e413ff682
+ms.sourcegitcommit: 401cee68d4f6f9470d614dda12b9cb023f382ff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "67633632"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "67999627"
 ---
 # <a name="microsoft-teams-rooms-license-overview-in-teams-admin-center"></a>Microsoft Teams 会议室 Teams 管理中心中的许可证概述
 
 Teams 管理中心允许你从中心位置查看和管理Teams 会议室设备及其外围设备。 本文介绍[你拥有哪些管理功能](#comparison-of-teams-rooms-feature-availability-by-license)，具体取决于Teams 会议室设备是分配Microsoft Teams 会议室基本许可证还是Microsoft Teams 会议室专业版许可证。
 
 有关Microsoft Teams 会议室许可证的详细信息，请[参阅Microsoft Teams 会议室许可证](rooms-licensing.md)。
+
+> [!NOTE]
+> 如果你有现有的Teams 会议室标准或Teams 会议室高级旧版许可证，则需要在旧版许可证过期时切换到 Teams 会议室 Pro。 如果有企业协议，则需要在下一个续订期切换到 Teams 会议室 Pro 许可证。 有关详细信息，请参阅[从 Teams 会议室 Standard 和 Teams 会议室 Premium 切换](rooms-licensing.md#switching-from-teams-rooms-standard-and-teams-rooms-premium)。
 
 ## <a name="see-which-licenses-are-assigned-to-teams-rooms-devices"></a>查看分配给Teams 会议室设备的许可证
 
@@ -73,7 +76,6 @@ Teams 管理中心允许你从中心位置查看和管理Teams 会议室设备�
 | **设备运行状况详细信息**                     |                             | &#x2714;                  |
 | **设备标记**                               |                             | &#x2714;                  |
 | **图形 API**                                |                             | &#x2714;                  |
-| **手动更新设备**                     |                             | &#x2714;                  |
 | **远程重启**                            |                             | &#x2714;                  |
 | **Windows 设备外围设备管理**     |                             | &#x2714;                  |
 | **Windows 设备设置**                   |                             | &#x2714;                  |

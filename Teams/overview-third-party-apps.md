@@ -8,6 +8,7 @@ manager: prkosh
 audience: admin
 ms.subservice: teams-apps
 ms.service: msteams
+ms.date: 08/10/2022
 ms.collection:
 - M365-collaboration
 f1.keywords:
@@ -17,16 +18,16 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f5d06f7db83fecdd4e6ab9cba39331753013da73
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: daffac19653da2b89213643596821abbb09996a4
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837302"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377559"
 ---
 # <a name="overview-of-third-party-apps-in-microsoft-teams"></a>Microsoft Teams 中的第三方应用概述
 
-除了 Microsoft 提供的应用外，Teams 应用商店还提供了许多由第三方软件开发人员创建的有用应用。 若要将这些内容用作管理员，请设置一个应用治理过程，以平衡最终用户的广泛要求以及组织的 IT 策略、标准和风险配置文件。 虽然这些应用是由第三方提供商创建的，但 Microsoft 会对这些应用的功能、可用性和安全性进行严格验证。 只有在验证后，Microsoft 才会在 Teams 应用商店中提供该应用。 为使最终用户从丰富的应用生态系统中受益，由管理员管理应用是关键步骤。
+除了 Microsoft 提供的应用外，Teams 应用商店还提供了许多由第三方软件开发人员创建的有用应用。 若要将这些应用用作管理员，请设置一个应用治理过程，以平衡最终用户的广泛要求以及组织的 IT 策略、标准和风险配置文件。 虽然这些应用是由第三方提供商创建的，但 Microsoft 会对这些应用的功能、可用性和安全性进行严格验证。 只有在验证后，Microsoft 才会在 Teams 应用商店中提供该应用。 为使最终用户从丰富的应用生态系统中受益，由管理员管理应用是关键步骤。
 
 Microsoft Teams 中的第三方应用不受 Microsoft 控制或拥有，不受 Microsoft 在线订阅协议管理。 你的组织对每个第三方应用的使用受该应用的条款和条件以及隐私声明的约束。 Teams 管理中心允许你在允许其使用之前，先验证应用、隐私声明和使用条款的所有权限。 一如既往，你可以允许少数特定用户或所有用户使用该应用。 对于第三方应用，对于自定义应用，Teams 允许管理员允许、阻止、治理和分析应用的使用。
 

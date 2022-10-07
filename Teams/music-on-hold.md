@@ -15,12 +15,12 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom: ''
 description: 了解如何在电话系统中管理音乐保留功能。
-ms.openlocfilehash: e218de46e56c2e2f85ed2b19cea21cbc4d4679be
-ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
+ms.openlocfilehash: 9e2a2aa352a1fd65955b35d4175b831653c694cb
+ms.sourcegitcommit: 52450514880fe72af0d0b2fab1419eadfc3a583f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706171"
+ms.lasthandoff: 10/07/2022
+ms.locfileid: "68499446"
 ---
 # <a name="music-on-hold"></a>保留音乐
 
@@ -93,7 +93,7 @@ Microsoft Teams 呼叫方案中提供的默认音乐不含组织支付的任何�
 下面显示了使用 Windows PowerShell 5.1 上传 MP3 音频文件的示例。 有关其他示例，请参阅 [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile)。
 
 ```PowerShell
-C:\> $content = Get-Content "C:\tmp\customMoH1.mp3" -Encoding byte -ReadCount 0
+C:\> $content = [System.IO.File]::ReadAllBytes('C:\tmp\customMoH1.mp3')
 C:\> $AudioFile = Import-CsOnlineAudioFile -FileName "customMoH1.mp3" -Content $content
 C:\> $AudioFile
 Id            : 56a56961f2794f098a359885ec1454a1
@@ -140,7 +140,7 @@ C:\> Grant-CsTeamsCallHoldPolicy -PolicyName "CustomMoH1" -Identity user1@contos
 
 - 仅当用户处于 TeamsOnly 模式时，保留音乐才可用。
 
-- 如果为调用的 Teams 用户启用了Location-Based路由，则无法向调用方播放“按住音乐”。
+- 如果为调用的 Teams 用户启用了Location-Based路由，则只会向调用方播放标准的 Hold 音乐。
 
 - 对于为共享行外观 (委派) 和使用呼叫寄存的用户配置的“保留时自定义音乐”不可用。 将播放标准的保留音乐。
 

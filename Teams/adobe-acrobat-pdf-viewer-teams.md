@@ -7,6 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.subservice: teams-apps
+ms.date: 09/25/2022
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
@@ -17,12 +18,12 @@ description: 了解如何将 Adobe Acrobat 设置为默认 PDF 查看器，以�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 3c9279c791a7f0e00d1b4a55161651c90b6b9763
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: 4051b09febdcadfdeb62bf9301823717e1b35fe4
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837702"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377570"
 ---
 # <a name="adobe-acrobat-as-a-default-pdf-viewer-in-microsoft-teams"></a>在 Microsoft Teams 中 Adobe Acrobat 作为默认 PDF 查看器
 
@@ -74,10 +75,10 @@ ms.locfileid: "67837702"
 
 了解有关此功能的以下信息：
 
-* 设置策略后，通常需要 [几个小时](teams-app-setup-policies.md) 才能使应用可供用户使用。
+* 设置策略后，应用通常 [需要几个小时](teams-app-setup-policies.md#considerations-and-limitations) 才能可供用户使用。
 * “查看 PDF 文件”作为选项卡固定在频道中，而在“分配”应用中的“查看 PDF 文件”继续由本机 Teams 体验提供支持。
 * 作为 Teams 中默认 PDF 查看器的 Adobe Acrobat 仅适用于桌面版和 Web 客户端。 移动客户端不支持此功能。
 * 用户需要 Adobe Acrobat 计划才能使用高级工具，例如导出 PDF、组织页面、合并文件、压缩 PDF 和保护 PDF。
 * 若要卸载应用，最终用户可以从 Teams 客户端中删除该应用。 管理员可以使用安装策略删除 Adobe Acrobat 应用。
 * 如果要阻止 Adobe Acrobat 应用，请将其从安装策略中删除。 这样会确保最终用户体验还原为使用本机 PDF 文件查看器。
-* 在 Teams 桌面客户端中，如果在登录到 Adobe Acrobat 应用时遇到任何问题，请在浏览器中使用 Teams 登录。
+* 如果在 Teams 桌面客户端登录到 Adobe Acrobat 应用时遇到任何问题，请 [在浏览器中使用 Teams](https://teams.microsoft.com/) 登录。

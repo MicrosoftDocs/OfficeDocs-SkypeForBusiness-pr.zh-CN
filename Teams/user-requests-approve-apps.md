@@ -7,9 +7,11 @@ ms.topic: article
 ms.service: msteams
 ms.subservice: teams-apps
 audience: admin
+ms.date: 09/20/2022
 ms.collection:
 - M365-collaboration
 - m365-frontline
+- highpri
 ms.reviewer: mhayrapetyan
 search.appverid: MET150
 f1keywords:
@@ -18,12 +20,12 @@ description: 了解如何管理和配置最终用户对组织中阻止的应用�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 0967aec80bb88dff12141040fead94af9aae0616
-ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
+ms.openlocfilehash: 382d3923d008f0bf70b2d9b9a4f3364709b4f2e1
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706221"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377600"
 ---
 # <a name="manage-user-requests"></a>管理用户请求
 
@@ -33,7 +35,7 @@ ms.locfileid: "67706221"
 
 保留对用户允许或阻止的应用的完全控制。 如果选择允许应用，则用于管理应用的控件和 UI 保持不变。
 
-* 默认选项将用户请求发送到 Teams 管理中心，你可以在其中 [查看用户请求并允许请求的应用](#view-user-requests-in-teams-admin-center)。
+* 默认选项将用户请求发送到 Teams 管理中心，你可以在其中 [查看用户请求并允许请求的应用](#view-and-act-on-user-requests-in-teams-admin-center)。
 
    :::image type="content" source="media/user-request-blocked-apps.png" alt-text="显示请求管理员批准阻止应用的选项的屏幕截图。":::
 
@@ -41,7 +43,7 @@ ms.locfileid: "67706221"
 
    :::image type="content" source="media/user-request-blocked-apps-redirected.png" alt-text="屏幕截图显示了管理员将允许应用请求 URL 重定向到特定于组织 URL 的应用时应用的最终用户体验。":::
 
-## <a name="view-user-requests-in-teams-admin-center"></a>在 Teams 管理中心查看用户请求
+## <a name="view-and-act-on-user-requests-in-teams-admin-center"></a>在 Teams 管理中心查看和处理用户请求
 
 默认方法收到的最终用户请求显示在 Teams 管理中心。 可以轻松查看和管理请求。 建议定期会审以检查最终用户请求。 若要查看和允许应用，请执行以下步骤：
 
@@ -90,7 +92,7 @@ Teams 提供了一条默认消息，供用户请求应用批准。 可以修改�
 
 ## <a name="dismiss-user-requests"></a>消除用户请求
 
-若要消除对允许应用的请求，请执行以下步骤：
+若要消除请求，请执行以下步骤：
 
 1. 选择要为其消除用户请求的应用的名称。
 1. 选择 **“管理请求**”。

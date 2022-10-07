@@ -1,5 +1,6 @@
 ---
 title: 使用 PowerShell 脚本更改信息屏障模式
+description: 部署信息屏障后，请使用此 PowerShell 脚本将租户中所有组的模式从打开更新为隐式更新。
 author: robmazz
 ms.author: robmazz
 manager: laurawi
@@ -7,31 +8,32 @@ ms.topic: article
 ms.reviewer: smahadevan
 ms.service: msteams
 audience: admin
-description: 部署信息屏障后使用此 PowerShell 脚本，将租户中所有组的模式从开放模式更新为隐式模式。
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
+- tier2
+- purview-compliance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3030f40ed61eb2e0e86967132d9575de8334a6c6
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: 63403c5e5ee495a7a110aa9239868fd6a9bb5803
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767489"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68047122"
 ---
 # <a name="change-information-barriers-modes-with-a-powershell-script"></a>使用 PowerShell 脚本更改信息屏障模式
 
-使用此 PowerShell 脚本更新租户中所有 (连接) 组在 IB Teams模式的信息屏障。 部署信息屏障后，需要更新这些组的模式。 在启用 IB 之前预配的组分配有 *打开模式。* 在 *开放* 模式下，没有任何适用的 IB 策略。 启用 IB 后， *隐式* 将成为你创建的任何新组的默认模式。 但是，现有组仍保留 *开放* 模式配置。 运行此脚本，将这些现有组更改为 *隐式* 模式。
+使用此 PowerShell 脚本更新租户中所有连接 Teams 的组的信息屏障 (IB) 模式。 部署信息屏障后，需要更新这些组的模式。 为启用 IB 之前预配的组分配 *开放* 模式。 在 *“打开* ”模式下，没有任何适用的 IB 策略。 启用 IB 后， *隐式* 会成为你创建的任何新组的默认模式。 但是，现有组仍保留 *开放* 模式配置。 运行此脚本以将这些现有组更改为 *隐式* 模式。
 
-在此脚本中，将使用 PowerShell 模块Exchange Online [Get-UnifiedGroup](/powershell/module/exchange/Set-UnifiedGroup) cmdlet 来更新模式。 若要了解有关使用 PowerShell 管理Teams，请参阅[powerShell Teams概述](./teams-powershell-overview.md)。
+在此脚本中，你将使用 [Get-UnifiedGroup](/powershell/module/exchange/Set-UnifiedGroup) cmdlet（位于 Exchange Online PowerShell 模块中）来更新模式。 若要详细了解如何使用 PowerShell 管理 Teams，请参阅 [Teams PowerShell 概述](./teams-powershell-overview.md)。
 
 ## <a name="sample-script"></a>示例脚本
 
-需使用分配给租户的工作或学校帐户全局管理员角色运行此脚本。
+你需要使用已分配为租户全局管理员角色的工作或学校帐户来运行此脚本。
 
 ```powershell
 <#

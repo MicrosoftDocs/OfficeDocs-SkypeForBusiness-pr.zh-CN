@@ -1,9 +1,9 @@
 ---
-title: 多租户审核
-author: donnah007
-ms.author: v-donnahill
+title: MTR Pro 门户中的审核日志记录
+author: altsou
+ms.author: altsou
 manager: serdars
-ms.reviewer: dstrome
+ms.reviewer: altsou
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -15,21 +15,21 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: TRM 的审核日志记录。
+description: MTR Pro 门户的审核日志记录。
 f1keywords: ''
-ms.openlocfilehash: de7f01a3c93dc31ff10c9e00cb3d0f3ef5806cb3
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 0436618e257128deb38d890cb92813ae13921e7d
+ms.sourcegitcommit: 64c01699022b47fdfec8dc6e2ca279e57eae3baa
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269098"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "68243913"
 ---
-# <a name="audit-logging-in-the-teams-rooms-managed-service"></a>Teams 会议室托管服务中的审核日志记录
+# <a name="audit-logging-in-the-mtr-pro-portal"></a>MTR Pro 门户中的审核日志记录
 
-Teams 会议室托管 (TRM) 服务中的审核允许你搜索用户和管理员在门户中执行的活动的审核记录。 默认情况下启用此功能。 只有托管服务管理员有权导出，然后查看日志。
+通过 MTR Pro 门户的审核日志，可以搜索用户和管理员执行的活动审核记录。 默认情况下启用此功能。 只有托管服务管理员有权导出，然后查看日志。
 
 > [!NOTE]
-> 在 TRM 服务中执行的操作不会记录在 Microsoft 365 或Office 365审核中 
+> 在 MTR Pro 门户中执行的操作不会记录在 Microsoft 365 或Office 365审核中 
 
 ## <a name="exporting-logs"></a>导出日志
 

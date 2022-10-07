@@ -8,6 +8,7 @@ manager: prkosh
 audience: admin
 ms.subservice: teams-apps
 ms.service: msteams
+ms.date: 09/22/2022
 ms.collection:
 - M365-collaboration
 f1.keywords:
@@ -17,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 713f30d148517f080c1799f71461d52e69d855ac
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: 992b557e72aaa855008f1bfec8073d800b65badf
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837652"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377540"
 ---
 # <a name="microsoft-365-app-compliance-program-for-security-compliance-and-privacy-of-third-party-apps"></a>Microsoft 365 应用合规性计划，适用于第三方应用的安全性、合规性和隐私
 
@@ -56,7 +57,7 @@ Microsoft 合规性计划根据派生自领先的行业标准框架的控件检�
 
   :::image type="content" source="media/attested-app-tac1.png" alt-text="在 Teams 管理中心，“发布者已证明”图标显示在所有已证明的应用上。":::
 
-* 在 Teams 管理中心内 [向应用授予权限](app-permissions-admin-center.md) 时，应用名称前面的蓝色复选标记会指示应用是经过发布者证明的应用，还是经过 Microsoft 365 认证的应用。
+* 在 Teams 管理中心，在 [向应用授予权限](app-permissions-admin-center.md)之前，应用名称前面的蓝色复选标记指示它是发布者证明的应用。 所有 Microsoft 365 应用也都经过发布者证明，因此 Microsoft 365 应用也会显示蓝色复选标记。
 
    :::image type="content" source="media/attested-app-tac2.png" alt-text="在 Teams 管理中心内用于授予权限的对话框上，蓝色复选标记指示这是经发布者证明的应用。":::
 
@@ -89,7 +90,7 @@ Microsoft 合规性计划根据派生自领先的行业标准框架的控件检�
 
   :::image type="content" source="media/m365cert-app-details-banner.png" alt-text="在 Teams 管理中心管理特定应用时，查看应用横幅中的 Microsoft 365 认证信息":::
 
-* 在 Teams 管理中心内 [向应用授予权限](app-permissions-admin-center.md) 时，应用名称前面的蓝色复选标记会指示应用是经过发布者证明的应用，还是经过 Microsoft 365 认证的应用。
+* 在 Teams 管理中心，在 [向应用授予权限](app-permissions-admin-center.md)之前，应用名称前面的蓝色复选标记指示它是发布者证明的应用。 所有 Microsoft 365 应用也都经过发布者证明，因此 Microsoft 365 应用也会显示蓝色复选标记。
 
    :::image type="content" source="media/attested-app-tac2.png" alt-text="在 Teams 管理中心的授予权限对话框中，管理员可以查看蓝色复选标记，确保应用已获得 Microsoft 365 证明":::
 

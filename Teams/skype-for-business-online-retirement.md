@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0e6118e42600bda58bf7ddc9d7f8e0fee0b7ad9f
-ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
+ms.openlocfilehash: 3c973daf4dc90a6de734c1c76aa352e7a7eeac28
+ms.sourcegitcommit: fc1787ad74a8c454f750a294def188b532cbadd5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706141"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67854388"
 ---
 # <a name="skype-for-business-online-retirement"></a>Skype for Business Online 停用
 
@@ -50,13 +50,14 @@ TeamsOnly 模式下的用户在 Teams 中接收传入聊天和呼叫，并在 Te
 
 ## <a name="guidance-for-organizations-with-on-premises-deployments-of-skype-for-business-server"></a>有关组织本地部署Skype for Business Server指南
 
- - 在жергілікті Active Directory环境中创建新用户时，如果这些用户将同步到 Azure AD，并且你打算为他们授予 Teams 许可证，那么 *在为这些用户分配许可证之前*，**必须先在本地Skype for Business部署中启用这些用户，并确保更改已通过 Azure AD connect 同步到云**.  可以使用 Get-CsOnlineUser 验证更改是否已完全同步到云。 如果用户的 HostingProvider= “SRV：”，则更改已同步。  它不应是“sipfed.online.lync.com”。   
+ - 在本地 Active Directory环境中创建新用户时，如果这些用户将同步到 Azure AD，并且你打算为这些用户授予 Teams 许可证，那么 *在为这些用户分配许可证之前*，**必须先在本地Skype for Business部署中启用这些用户，并确保更改已通过 Azure AD 连接同步到云**。  可以使用 Get-CsOnlineUser 验证更改是否已完全同步到云。 如果用户的 HostingProvider= “SRV：”，则更改已同步。  它不应是“sipfed.online.lync.com”。   
 
  - 请注意，一旦 Microsoft 从 2022 年 10 月开始删除混合组织的旧Skype for Business联机基础结构，TeamsOnly 用户将需要匿名加入Skype for Business会议。  有关详细信息，请参阅 [退休后的预期内容](#what-to-expect-post-retirement)。 另一种选择是，可以确保所有用户安排的会议 (组织中的本地或 Teams 仅) 是 Teams 会议，这使组织中的任何用户能够进行经过身份验证的会议加入， (受策略配置) 约束。 若要实现此目的，请执行以下操作：
    - 对于分配 **Skype for Business仅Skype for Business** 或 **使用 Teams 协作模式Skype for Business** 的任何用户，请将共存模式更改为 **使用 Teams 协作和会议Skype for Business**。  此模式提供与其他两个相同的功能，但用户安排的新会议将是 Teams 会议，而不是Skype for Business会议。 当将此模式直接分配给用户 (而不是租户级别) 时，默认情况下，它还会自动将任何Skype for Business会议转换为该用户组织的 Teams 会议。
    - 对于处于 Islands 模式的用户，可以通过将 TeamsMeetingPolicy 实例分配给 PreferredMeetingProviderForIslandsMode=Teams 来要求他们始终在 Teams 中安排会议。 
    - 若要确保将任何现有Skype for Business会议转换为 Teams 会议 (例如，如果有 Islands 用户) ，可以使用Start-CsExMeetingMigration触发[会议迁移服务](/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md#trigger-meeting-migration-manually-via-powershell-cmdlet)，将用户的会议转换为 Teams。
-  
+
+- 若要确保在用户从本地迁移到 TeamsOnly 时，从Skype for Business Server的任何联系人正确迁移到 Teams，请确保已迁移的用户在从本地迁移后的 30 天内登录到 Teams。 这是一个临时要求，因为 Microsoft 会将 Teams 从旧版 Skype for Business Online 基础结构中转换为一种临时要求。
 
 ## <a name="actions-to-take-before-june-30-2022"></a>要在 2022 年 6 月 30 日之前执行的操作
 现在，Skype for Business Online 已停用，Microsoft 将于 2022 年 6 月 30 日开始停用支持基础结构。  对于具有从任何版本的 Skype for Business 升级的 TeamsOnly 用户的任何组织，如果以下任一情况适用，则需要采取措施：

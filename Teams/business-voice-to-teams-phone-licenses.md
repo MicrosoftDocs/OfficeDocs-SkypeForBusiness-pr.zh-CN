@@ -1,7 +1,7 @@
 ---
 title: 从商务语音移动到 Teams 电话许可证
-author: dstrome
-ms.author: dstrome
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -13,12 +13,12 @@ appliesto:
 - Microsoft Teams
 ms.collection:
 - M365-voice
-ms.openlocfilehash: 6e7622e4b78e57f45209b90a525eb5fefbe8cd66
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 372526a66d4f3a434479c8d4f62e4681b4a39acc
+ms.sourcegitcommit: fc87f4300f53abf7a049936944abb21d0cade0d9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271227"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68480942"
 ---
 # <a name="move-from-business-voice-to-teams-phone-licenses"></a>从商务语音移动到 Teams 电话许可证
 

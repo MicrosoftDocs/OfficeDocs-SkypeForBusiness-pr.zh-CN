@@ -1,6 +1,6 @@
 ---
 title: 管理云语音邮件设置
-author: crowe
+author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: jenstr
@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 管理用户的语音邮件设置。
-ms.openlocfilehash: 7aa2fdf84f38cb9977b3a4156b28a96b98bbd9d7
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 96ac5e13360463150a5ff21bc8042b701a4f9717
+ms.sourcegitcommit: 401cee68d4f6f9470d614dda12b9cb023f382ff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269597"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "67999487"
 ---
 # <a name="manage-cloud-voicemail-settings-for-users"></a>为用户管理云语音邮件设置
 
@@ -48,7 +48,7 @@ ms.locfileid: "67269597"
 - 未设置传输目标。
 
 
-若要为用户管理云语音邮件功能，可以使用 Teams 管理中心或 PowerShell。 请注意，最终用户还可以通过转到 **“设置”->呼叫->配置语音邮件**，在 Teams 客户端中配置这些设置。
+若要为用户管理云语音邮件功能，可以使用 Teams 管理中心或 PowerShell。 最终用户还可以通过转到 **“设置”->呼叫->配置语音邮件**，在 Teams 客户端中配置这些设置。
 
 ## <a name="use-teams-admin-center"></a>使用 Teams 管理中心
 
@@ -75,9 +75,9 @@ ms.locfileid: "67269597"
 
 ## <a name="voicemail-settings"></a>语音邮件设置
 
-- **已启用语音邮件** - 此设置控制是否为用户启用云语音邮件。 如果设置为 false，则云语音邮件服务将不适用于用户，也不会为用户录制语音邮件。
+- **已启用语音邮件** - 此设置控制是否为用户启用云语音邮件。 如果设置为 false，则云语音邮件服务将不适用于用户，并且不会记录用户的语音邮件。
 
-- **提示语言** - 此设置指定用于云语音邮件中的提示的语言。 有关详细信息 [，请参阅更改问候语和电子邮件的默认语言](change-the-default-language-for-greetings-and-emails.md)。
+- **提示语言** - 此设置指定用于云语音邮件中的提示的语言。 有关详细信息，请参阅 [更改问候语和电子邮件的默认语言](change-the-default-language-for-greetings-and-emails.md)。
 
 - **问候语设置** - 云语音邮件可以在用户在办公室和用户外出时播放特定问候语。 用户可以录制这两个问候语，也可以使用文本转语音问候语。
 

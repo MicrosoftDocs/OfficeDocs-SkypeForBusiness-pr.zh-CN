@@ -8,6 +8,7 @@ manager: prkosh
 audience: admin
 ms.subservice: teams-apps
 ms.service: msteams
+ms.date: 08/11/2022
 ms.collection:
 - M365-collaboration
 f1.keywords:
@@ -17,14 +18,14 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ac48aaccfab94d3a0e54bd51dbc0db2dc4c3d6fa
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: eeb0c49dcf560b858b8723f813cc86b6b51c1daa
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837482"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377550"
 ---
-# <a name="validation-performed-by-microsoft-for-all-teams-apps"></a>Microsoft 对所有 Teams 应用执行的验证
+# <a name="testing-and-validation-done-by-microsoft-for-all-teams-apps"></a>Microsoft 针对所有 Teams 应用执行的测试和验证
 
 Microsoft 要求所有应用在应用商店中上架以供最终使用之前通过强制的验证。 它适用于 Teams 应用商店上发布的所有应用（自定义应用除外）。 此外，Microsoft 强烈建议应用开发人员参与应用的可选认证，以指示增强的合规性、安全、隐私控制。
 

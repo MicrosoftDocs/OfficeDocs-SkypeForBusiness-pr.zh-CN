@@ -1,10 +1,10 @@
 ---
 title: 运行状况和使用情况报告
-author: donnah007
-ms.author: v-donnahill
+author: altsou
+ms.author: altsou
 manager: serdars
 ms.date: 04/07/2022
-ms.reviewer: ''
+ms.reviewer: altsou
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -18,16 +18,16 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 报告报表运行状况和使用情况的节点数据
 f1keywords: ''
-ms.openlocfilehash: 87a04860a69799bf00492691dc24498076bd4924
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 9b1f3e1960cbe0089f498045922125b121679646
+ms.sourcegitcommit: 64c01699022b47fdfec8dc6e2ca279e57eae3baa
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271427"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "68243793"
 ---
 # <a name="health-and-usage-reports"></a>运行状况和使用情况报告
 
-报告节点包含有关 Microsoft 托管会议室和服务见解的运行状况和使用情况的数据。 **概述介绍了** 房间的租户范围的运行状况趋势。 “ **运行状况** ”选项卡显示包含相应运行状况数据的会议室列表。 基于日历信息和通话质量数据的房间使用情况在“ **使用** 情况”选项卡下可见。
+报告节点在 Pro Management 门户中包含有关Microsoft Teams 会议室运行状况和使用情况的数据。 **概述介绍了** 房间的租户范围的运行状况趋势。 “ **运行状况** ”选项卡显示包含相应运行状况数据的会议室列表。 基于日历信息和通话质量数据的房间使用情况在“ **使用** 情况”选项卡下可见。
 
 ## <a name="navigating-reports"></a>导航报表
 
@@ -42,7 +42,7 @@ ms.locfileid: "67271427"
 <!--!![A screenshot of the banner menu auto-generated](../media/health-and-usage-005.png)-->
 ### <a name="tickets-by-category"></a>按类别排列的票证
 
-该甜甜圈显示为所选时间跨度引发的总票证，组 (默认值为 7 天，所有组) 。 票证以其主要类别表示：音频、显示、外围设备、连接、版本控制和客户报告。
+该甜甜圈显示为所选时间跨度引发的总票证，组 (默认值为 7 天，所有组) 。 票证以其主要类别表示：音频、显示、外围设备、连接、版本控制和录制问题。
 
 <!--!![A screenshot of pie chart tickets by category](../media/health-and-usage-006.png)-->
 
@@ -56,20 +56,20 @@ ms.locfileid: "67271427"
 
 若要导航回来，请单击圆环或单击左上角的痕迹。
 
-若要导航到此列表视图中的特定票证，请单击 **“支持票证”库** 下的链接。
+若要导航到此列表视图中的特定票证，请单击 **“支持票证”列** 下的链接。
 
-### <a name="ticket-history"></a>票证历史记录
+<!--### Ticket history
 
-票证历史记录图显示指定时间段内分配给你或 Microsoft 的事件的比较。
+The ticket history graph shows a comparison of incidents assigned to you or Microsoft over the specified time period.
 
 > [!NOTE]
-> 如果票证在一天内更改了所有者，则无论谁拥有当天大部分时间的分配，都将将票证计入他们。 例如，如果在当天早期将票证分配给 Microsoft，则该票证将计入当天 **分配给 Microsoft** 的票证。
+> If a ticket changes owner in a day, whoever owns the assignment for the majority of that day will have the ticket counted towards them. For example, if you assign the ticket to Microsoft early in the day, the ticket counts towards **Assigned to Microsoft** for the day.
 
 <!--![A screen shot of Tickets history by different periods](../media/health-and-usage-009.png)-->
 
 ### <a name="health-history"></a>运行状况历史记录
 
-此图显示了运行状况部分) 租户中所有房间的平均运行状况 (定义，以及所有 MMR 客户的日常运行状况。 最多可以查看 90 天的平均运行状况。
+此图显示了 Health 部分中针对租户中所有房间) 的平均运行状况 (定义，以及所有 MTR Pro 客户的日常运行状况。 最多可以查看 90 天的平均运行状况。
 
 <!--!![A screenshot of rooms health and average health](../media/health-and-usage-010.png)-->
 

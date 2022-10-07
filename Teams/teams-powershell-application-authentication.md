@@ -12,12 +12,12 @@ ms.collection:
 description: 了解 Teams PowerShell 模块中基于应用程序的身份验证，该模块用于管理 Microsoft Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b18c8505a255e0f937c077e1f905d721eb597889
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: 7dab0f32a6547db5522f00d4750f7eff26ea5995
+ms.sourcegitcommit: 43db97b84ca70b1e6accfa7214d4106e4177a642
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837662"
+ms.lasthandoff: 09/29/2022
+ms.locfileid: "68218086"
 ---
 # <a name="application-based-authentication-in-teams-powershell-module"></a>Teams PowerShell 模块中基于应用程序的身份验证
 
@@ -26,7 +26,23 @@ Teams PowerShell 模块现在支持基于应用程序的身份验证，用于预
 
 ## <a name="cmdlets-supported"></a>支持 Cmdlet
 
-所有非 \*Cs cmdlet (例如 Get-Team) 、Get-CsTenant、Get-CsOnlineUser、Get-CsOnlineVoiceUser & \*-CsOnlineSipDomain cmdlet 都已受支持。 其他 cmdlet 将逐步推出。 
+以下 Cmdlet 已受支持，其他 cmdlet 将逐步推出。 
+
+  - 非 \*Cs cmdlet (例如 Get-Team) 
+  - Get-CsTenant
+  - Get-CsOnlineUser，Get-CsOnlineVoiceUser
+  - \*-CsOnlineSipDomain 
+  - \*-CsPhoneNumberAssignment
+  - \*-CsOnlineTelephoneNumberOrder，Get-CsOnlineTelephoneNumberType，Get-CsOnlineTelephoneNumberCountry
+  - \*-CsCallQueue
+  - \*-CsAutoAttendant， \*-CsAutoAttendant\*
+  - \*-CsOnlineVoicemailUserSettings
+  - Find-CsOnlineApplicationInstance， \*-CsOnlineApplicationInstanceAssociation， Get-CsOnlineApplicationInstanceAssociationStatus
+  - \*-CsOnlineSchedule，New-CsOnlineTimeRange，New-CsOnlineDateTimeRange
+  - \*-CsOnlineAudioFile
+  - Find-CsGroup
+  - \*-CsOnlineDialInConferencingUser， \*-CsOnlineDialInConferencingServiceNumber， \*-CsOnlineDialInConferencingBridge， Get-CsOnlineDialInConferencingLanguagesSupported， Set-CsOnlineDialInConferencingUserDefaultNumber
+  - \*-CsOnlineLisLocation， \*-CsOnlineLisCivicAddress， \*-CsOnlineLisWirelessAccessPoint， \*-CsOnlineLisPort， \*-CsOnlineLisSubnet， \*-CsOnlineEnhancedEmergencyServiceDisclaimer， \*-CsOnlineLisSwitch
 
 
 ## <a name="examples"></a>示例

@@ -1,9 +1,9 @@
 ---
-title: 将 Teams 会议室设备注册到托管服务
-author: donnah007
-ms.author: v-donnahill
+title: 将 Teams 会议室设备注册到专业管理
+author: altsou
+ms.author: altsou
 manager: serdars
-ms.date: 07/22/2022
+ms.date: 09/28/2022
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -15,18 +15,18 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 将Teams 会议室设备载入托管服务
+description: 将Teams 会议室设备载入 Pro Management 门户
 f1keywords: ''
-ms.openlocfilehash: 07fbb2b196c0f74b34dbe2018865181e57aca17b
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 808ef462f71e023ccec232942e780a53ea91e3b3
+ms.sourcegitcommit: 64c01699022b47fdfec8dc6e2ca279e57eae3baa
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67272037"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "68243783"
 ---
-# <a name="enroll-device-into-managed-service"></a>将设备注册到托管服务
+# <a name="enroll-device-into-pro-management"></a>将设备注册到 Pro Management
 
-部署需要将Microsoft Teams 会议室设备载入到Microsoft Teams 会议室托管服务。 监视服务代理用于经认证的 Microsoft Teams 会议室 (MTR) 系统和外围设备。
+部署需要将Microsoft Teams 会议室设备载入到 Microsoft Teams 会议室 Pro Management 门户。 监视服务代理用于经认证的 Microsoft Teams 会议室 (MTR) 系统和外围设备。
 
 ## <a name="prerequisites"></a>先决条件
 
@@ -40,7 +40,7 @@ ms.locfileid: "67272037"
 
    - 如果使用单个 ***代理服务器***： `bitsadmin /Util /SetIEProxy LOCALSYSTEM MANUAL_PROXY <proxyserver>:<port> ""`
 
-     *示例：*
+     *例子：*
 
      ```DOS
      bitsadmin /Util /SetIEProxy LOCALSYSTEM MANUAL_PROXY contosoproxy.corp.net:8080 ""
@@ -48,7 +48,7 @@ ms.locfileid: "67272037"
 
    - 如果使用 ***pac*** 文件： `bitsadmin /Util /SetIEProxy LOCALSYSTEM AUTOSCRIPT <pac file url>`
 
-     *示例：*
+     *例子：*
 
      ```DOS
      bitsadmin /Util /SetIEProxy LOCALSYSTEM AUTOSCRIPT `http://contosoproxy.corp.net/proxy.pac`
@@ -57,7 +57,7 @@ ms.locfileid: "67272037"
 ### <a name="enabling-tpm-settings"></a>启用 TPM 设置
 
 > [!NOTE]
-> 必须启用 TPM 才能注册托管服务。
+> 必须启用 TPM 才能注册 Pro Management。
 
 如果禁用了 Intel NUC 设备上的 TPM，请在这些设备上启用 TPM，如下所示：
 
@@ -96,7 +96,7 @@ ms.locfileid: "67272037"
 ## <a name="urls-required-for-communication"></a>通信所需的 URL
 
  > [!NOTE]
- > MTR 设备代理和 Microsoft Teams 会议室 - 托管服务门户之间的所有网络流量都是通过端口 443 的 SSL *。*  请参阅[Office 365 URL 和 IP 地址范围 - Microsoft 365 企业版 |Microsoft Docs](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide&preserve-view=true)。
+ > MTR 设备代理和 Microsoft Teams 会议室 Pro Management 门户之间的所有网络流量都是通过端口 443 的 SSL *。*  请参阅[Office 365 URL 和 IP 地址范围 - Microsoft 365 企业版 |Microsoft Docs](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide&preserve-view=true)。
 
 如果在企业环境中启用了 **流量允许列表** ，则必须允许以下主机：
 
@@ -116,11 +116,11 @@ mmrprodnoamstor.blob.core.windows.net
 
 注册过程涉及以下步骤：
 
-1. 在 Microsoft Teams 会议室 - 托管服务门户的左侧导航栏上 [http://portal.rooms.microsoft.com](https://portal.rooms.microsoft.com/)，展开 **“设置”** 并选择“**常规**”。
+1. 在Microsoft Teams 会议室专业管理门户 [http://portal.rooms.microsoft.com](https://portal.rooms.microsoft.com/)的左侧导航栏上，展开 **“设置”** 并选择“**常规**”。
 1. 在 *“注册会议室*”下，选择 **“下载安装程序**  ”以下载监视代理软件。
 1. **选：** 设置代理的代理设置;请参阅 [ (可选) 添加代理设置](#adding-proxy-settings-optional)。
 1. 安装代理安装程序 (下载在地铁设备上的第 2 步) 中，方法是：在地铁设备上本地运行 MSI，或者通过将 MSI 应用程序大规模发布到环境中的设备的正常方式 (组策略等) 
-1. 会议室在 5-10 分钟内显示在门户中。 如果没有，请联系 managedroomsupport@microsoft.com。
+1. 会议室在 5-10 分钟内显示在门户中。
 
    ![设置和自注册密钥的屏幕截图。](../media/software-installation-005new.png)
 
@@ -145,11 +145,11 @@ mmrprodnoamstor.blob.core.windows.net
 
 1. 阅读协议后，检查***我接受许可协议中的条款**，然后按 _*Install**。
 
-    这将开始Microsoft Teams 会议室 – 托管服务监视软件安装。 显示以管理员身份运行的提升 (提示) 。
+    这将开始安装 Microsoft Teams 会议室 Pro 监视软件。 显示以管理员身份运行的提升 (提示) 。
 
 1. 选择 **“是**”。
 
-    安装将继续。 在安装过程中，将打开控制台窗口，并开始Microsoft Teams 会议室 - 托管服务监视软件安装的最后阶段。
+    安装将继续。 在安装过程中，将打开控制台窗口并开始 Microsoft Teams 会议室 Pro 监视软件安装的最后阶段。
 
     > [!NOTE]
     > 请勿关闭窗口。 安装完成后，向导将显示“完成”按钮。
@@ -160,11 +160,11 @@ mmrprodnoamstor.blob.core.windows.net
 
 - **Intune注册**：Windows 设备上的Teams 会议室必须在Intune中注册。
   有关如何在 Intune 中的 Windows 设备上注册Teams 会议室的详细信息，请参阅使用 [Microsoft Endpoint Manager 在 Windows 设备上注册Microsoft Teams 会议室 - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/intune-customer-success/enrolling-microsoft-teams-rooms-on-windows-devices-with/ba-p/3246986)
-- **将 Windows 设备上的所有Teams 会议室作为成员的 Azure AD 组** - 在 Azure AD 中创建的组，其中包括应属于Microsoft Teams 会议室高级版服务的 Windows 设备上的所有Teams 会议室。 此组将用于针对 MTRP 代理的部署。
+- **将 Windows 设备上的所有Teams 会议室作为成员的 Azure AD 组** - 在 Azure AD 中创建的组，其中包括应属于Microsoft Teams 会议室高级版服务的 Windows 设备上的所有Teams 会议室。 此组将用于针对 MTR Pro 代理的部署。
   
 > [!NOTE]
 > 可以考虑将 Azure AD 中的动态组用于此目的，详细了解如何使用 [Microsoft Endpoint Manager 在 Windows 设备上注册Microsoft Teams 会议室 - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/intune-customer-success/enrolling-microsoft-teams-rooms-on-windows-devices-with/ba-p/3246986)
-- **下载 MTRP 代理****安装程序** - 从<https://aka.ms/serviceportalagentmsi>中下载代理的 zip 文件，并将 zip (ManagedRoomsInstaller.msi) 的内容提取到本地临时文件夹。
+- **下载 MTR Pro 代理****安装程序** - 从<https://aka.ms/serviceportalagentmsi>中下载代理的 zip 文件，并将 zip (ManagedRoomsInstaller.msi) 的内容提取到本地临时文件夹。
 
 **使用Intune进行安装**
 
@@ -180,7 +180,7 @@ mmrprodnoamstor.blob.core.windows.net
    1. 忽略应用版本：选择 **“是**”。
 
       > [!NOTE]
-      > MTRP 代理正在自我更新;因此，应显式忽略应用版本 (任何基线版本都可以自动更新) 。
+      > MTR Pro 代理正在自我更新;因此，应显式忽略应用版本 (任何基线版本都可以自动更新) 。
 
    1.  (可选) 类别：选择 **计算机管理**。
    
@@ -191,11 +191,11 @@ mmrprodnoamstor.blob.core.windows.net
 1. 单击 **“下一步** ”以显示 **“审阅 + 创建”** 页。
 1. 查看为应用输入的值和设置。 完成后，单击 **“创建**”将应用添加到Intune。
 
-完成此过程后，设备将在几分钟后开始安装 MTRP 代理。
+完成此过程后，设备将在几分钟后开始安装 MTR Pro 代理。
 
 > [!NOTE]
-> 安装后，MTRP 代理可能需要长达 8 小时才能对最新版本执行自我更新，并会在 MTRP 门户中列出。
-若要加快 MTRP 门户中的自动注册，请考虑在代理部署后重启 MTR 设备。
+> 安装后，MTR Pro 代理可能需要长达 8 小时才能执行对最新版本的自我更新，并会在 MTR Pro 门户中列出。
+若要加快 MTR Pro 门户中的自动注册，请考虑在代理部署后重启 MTR 设备。
 
 ## <a name="completing-enrollment"></a>完成注册
 
@@ -203,9 +203,7 @@ mmrprodnoamstor.blob.core.windows.net
 
 在 *载入* 状态下，会显示和更新会议室的状态，但不会引发任何警报或创建调查票证。
 
-选择会议室，然后选择 **“注册**  ”以开始接收事件警报、调查票证或报告事件。
-
-对于任何问题，请在门户中打开客户报告的事件，或联系 managedroomsupport@microsoft.com。
+选择会议室，然后选择 **“注册**  ”以开始接收事件警报。
 
 ### <a name="unenrolling-and-uninstalling-monitoring-software"></a>取消注册和卸载监视软件
 
@@ -225,15 +223,15 @@ mmrprodnoamstor.blob.core.windows.net
    C:\Users\admin\Downloads\MTRP\_Device\_Offboarding\MTRP\_Device\_Offboarding.ps1
    ```
 
-   此命令将设备重置为用户标准 MTR 更新，并删除 MTRP 监视代理和文件。
+   此命令将设备重置为用户标准 MTR 更新，并删除 MTR Pro 监视代理和文件。
 
-1. 在Microsoft Teams 会议室 - 托管服务门户的左侧菜单中，选择 **“会议室**”。
+1. 在Microsoft Teams 会议室专业管理门户的左侧菜单中，选择 **“会议室**”。
 1. 在提供的会议室列表中，选择要取消注册的房间，然后选择 **“取消注册”** 以停止获取事件警报或调查票证，或报告会议室的事件。
 
 ## <a name="troubleshooting-table"></a>故障排除表
 
 > [!NOTE]
-> 所有Microsoft Teams 会议室 – 托管服务监视错误记录在名为 **Microsoft 托管会议室** 的特定事件日志文件上。
+> 所有Microsoft Teams 会议室 Pro 监视错误都记录在名为 **Microsoft 托管会议室** 的特定事件日志文件上。
 
 ***应用程序运行时日志文件位置*** =
 

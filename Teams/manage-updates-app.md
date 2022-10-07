@@ -17,15 +17,16 @@ ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - m365-frontline
+- highpri
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 66ff8f642e3e006221507953a2fff1740237aea0
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: 3dc11a1a7bb841891906755a74d07585a55ec912
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67397103"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68047052"
 ---
 # <a name="manage-the-updates-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中管理组织的汇报应用
 
@@ -55,7 +56,7 @@ Microsoft Teams 应用中的汇报为组织成员提供了一个集中的位置�
 
 与此同时，一个远程工人团队正在更新商店的网站。 它们分布在时区之间，因此每天的站立会议并不方便。 相反，每个团队成员每天向团队领导提交关于其进度的汇报报告。
 
-[下载汇报 lookbook](https://go.microsoft.com/fwlink/?linkid=2197649&clcid=0x409)，查看有关可以使用汇报执行的更多示例。
+[下载汇报 lookbook](https://go.microsoft.com/fwlink/?linkid=2197649)，查看有关可以使用汇报执行的更多示例。
 
 ## <a name="required-permissions-and-licenses"></a>所需权限和许可证
 

@@ -8,6 +8,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.subservice: teams-apps
 audience: Admin
+ms.date: 09/29/2022
 ms.collection:
 - M365-collaboration
 f1.keywords:
@@ -17,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 了解如何跨Microsoft 365管理对 Teams 应用的访问。
-ms.openlocfilehash: e57e4ffb7e2b8ee347ee42588ed7b926ac345020
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: 291fd315f9fd5f171edfebaec1bcc0adbcb8edf4
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837472"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377580"
 ---
 # <a name="manage-access-to-teams-apps-across-microsoft-365"></a>跨 Microsoft 365 管理对 Teams 应用的访问
 
@@ -49,7 +50,7 @@ ms.locfileid: "67837472"
 | 用于管理访问权限的选项 |门户|全局管理员|Teams 管理员|
 |--|---|---|--|
 | 只有目标版本中的最终用户才能访问新应用。 将用户移动到标准版本。 请参阅 [设置标准或定向发布选项](/microsoft-365/admin/manage/release-options-in-office-365?view=o365-worldwide&preserve-view=true) | Microsoft 365 管理中心 | 是 | 否 |
-| 管理特定最终用户对新应用的访问权限。 请参阅 [“添加自定义权限策略](teams-app-permission-policies.md#create-a-custom-app-permission-policy) ”并将 [自定义策略分配给用户](policy-assignment-overview.md)。 | Teams 管理中心 | 是 | 是 |
+| 管理特定最终用户对新应用的访问权限。 请参阅 [“添加自定义权限策略](teams-app-permission-policies.md#create-an-app-permission-policy) ”并将 [自定义策略分配给用户](policy-assignment-overview.md)。 | Teams 管理中心 | 是 | 是 |
 | 管理组织中所有最终用户对新应用的访问权限。 请参阅 [“允许”或“阻止应用](manage-apps.md#allow-and-block-apps)”。 | Teams 管理中心 | 是 | 是 |
 
 > [!NOTE]
@@ -58,7 +59,7 @@ ms.locfileid: "67837472"
 > [!NOTE]
 > 在 Outlook 和 Office 中安装了同一应用的现有市场内加载项的用户将继续使用该应用。 加载项不是 Teams 应用，Teams 管理员无法控制访问权限。
 
-## <a name="see-also"></a>另请参阅
+## <a name="related-articles"></a>相关文章
 
 * [专为 Outlook 和 Office.com 推出预览版Microsoft 365而设计的 Microsoft Teams 应用](https://techcommunity.microsoft.com/t5/microsoft-365-blog/microsoft-teams-apps-designed-for-microsoft-365-coming-in/ba-p/3269538)
 * [了解Microsoft 365中的管理员角色](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide&preserve-view=true)  

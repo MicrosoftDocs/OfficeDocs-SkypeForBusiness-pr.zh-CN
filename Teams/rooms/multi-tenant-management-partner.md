@@ -1,10 +1,10 @@
 ---
 title: 合作伙伴的多租户客户管理
-author: donnah007
-ms.author: v-donnahill
+author: altsou
+ms.author: altsou
 ms.date: 07/25/2022
 manager: serdars
-ms.reviewer: dstrome
+ms.reviewer: altsou
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -18,37 +18,37 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 面向合作伙伴的 Mult-tenant 客户管理。
 f1keywords: ''
-ms.openlocfilehash: 37ba5cfc12229685bbe4ac8cf188301e9fa7b1f7
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: e4e89d483d15ad7f521afd9c0686b3d72ab9e09d
+ms.sourcegitcommit: 64c01699022b47fdfec8dc6e2ca279e57eae3baa
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269099"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "68243903"
 ---
 # <a name="multi-tenant-customer-management-for-partners"></a>合作伙伴的多租户客户管理
 
-Teams 会议室托管 (TRM) 服务中的多租户管理 (MTM) 可帮助合作伙伴组织使用自己的域凭据在一个位置管理多个客户。 合作伙伴用户将只看到他们分配管理的客户会议室。 可以为 MTM 租户中的每个客户应用自定义角色，使合作伙伴组织能够精细地控制客户资源的权限。 
+Teams 会议室 Pro Management 服务中的多租户管理 (MTM) 可帮助合作伙伴组织使用自己的域凭据在一个位置管理多个客户。 合作伙伴用户将只看到他们分配管理的客户会议室。 可以在 MTM 门户中为每个客户应用自定义角色，使合作伙伴组织能够精细地控制客户资源的权限。 
 
 可以通过此 [链接](https://partner.rooms.microsoft.com/)访问 MTM 门户。
 
 > [!Note] 
-> 合作伙伴组织无法通过 MTM 门户管理自己的会议室。 可以在 [TRM 门户](https://portal.rooms.microsoft.com/)中管理这些会议室。 
+> 合作伙伴组织无法通过 MTM 门户管理自己的会议室。 这些会议室可在 [专业管理门户中管理](https://portal.rooms.microsoft.com/)。 
 
 ## <a name="pre-requisites-for-managing-your-customers-through-the-mtm-experience"></a>通过 MTM 体验管理客户的先决条件
 
-若要获取对 MTM 门户的访问权限，必须将你的组织载入为 TRM 服务的精英合作伙伴。 要成为精英合作伙伴，请联系 askelite@microsoft.com。
+若要获取对 MTM 门户的访问权限，必须将你的组织加入为 MTR Pro Management 的精英合作伙伴。 要成为精英合作伙伴，请联系 askelite@microsoft.com。
 
 ## <a name="on-boarding-customers"></a>载入客户
 
-若要通过 TRM-MTM 门户管理客户，必须通过客户发送的邀请在合作伙伴组织的租户与客户之间建立关系。 
+若要通过 Pro Management-MTM 门户管理客户，必须通过客户发送的邀请在合作伙伴组织的租户与客户之间建立关系。 
 
 ## <a name="tenant-managers"></a>租户管理器
 
-此内置角色只能在 TRM-MTM 门户中配置。 此角色允许分配一组接受邀请但不参与客户会议室管理的用户。 建议配置角色。 否则，只有租户中具有托管服务管理员角色的用户才能接受邀请。
+此内置角色仅可在 Pro Management-MTM 门户中配置。 此角色允许分配一组接受邀请但不参与客户会议室管理的用户。 建议配置角色。 否则，只有租户中具有托管服务管理员角色的用户才能接受邀请。
 
 **配置租户管理器**
  
-1.  以全局管理员或托管服务管理员身份登录到 TRM-MTM 门户。
+1.  以全局管理员或托管服务管理员身份登录到 Pro Management-MTM 门户。
 2.  转到租户管理器。
 3.  选择 **“添加租户管理器**”。
 4.  在详细信息窗格中，搜索用户或安全组。
@@ -57,7 +57,7 @@ Teams 会议室托管 (TRM) 服务中的多租户管理 (MTM) 可帮助合作伙
 
 ### <a name="invitation-from-the-customer"></a>来自客户的邀请
 
-合作伙伴应向客户提供域名。 只有全局管理员、托管服务管理员和租户管理者角色才能在登录到 TRM-MTM 门户时查看并接受邀请。 
+合作伙伴应向客户提供域名。 只有全局管理员、托管服务管理员和租户管理者角色才能在登录到 Pro Management-MTM 门户时查看并接受邀请。 
 
 > [!Note]
 > 即使这些角色可以看到邀请和高级租户元数据，在为客户分配角色之前，你将看不到客户的数据。
@@ -66,7 +66,7 @@ Teams 会议室托管 (TRM) 服务中的多租户管理 (MTM) 可帮助合作伙
 
 **接受挂起的邀请**
 
-1. 以全局管理员、托管服务管理员或租户管理器的身份登录到 TRM-MTM 门户。
+1. 以全局管理员、托管服务管理员或租户管理器的身份登录到 Pro Management-MTM 门户。
 1. 转到 **租户**。
 1. 选择状态为“挂起”的邀请。
 1. 查看邀请详细信息。
@@ -94,7 +94,7 @@ Teams 会议室托管 (TRM) 服务中的多租户管理 (MTM) 可帮助合作伙
 
 **删除客户** 
 
-1. 以要删除的客户的主要管理员身份登录到 TRM-MTM 门户。
+1. 以要删除的客户的主要管理员身份登录到 Pro Management-MTM 门户。
 1. 转到 **租户**。
 1. 选择要删除的客户。
 1. 在“客户详细信息”窗格中，选择 **“删除客户**”。
@@ -104,7 +104,7 @@ Teams 会议室托管 (TRM) 服务中的多租户管理 (MTM) 可帮助合作伙
 
 合作伙伴角色允许将职责委派给其他人员。 这些角色的概念与 [基于角色的访问控制](microsoft-teams-rooms-premium-rbac.md)中所述相同，但在每个客户的上下文中。 此外，请务必注意，合作伙伴角色不同于客户的角色。 客户可以删除合作伙伴角色。 
 
-**主管理员** 角色是每个载入客户的唯一内置角色，并且在客户的上下文中几乎具有所有权限，对于 TRM 服务 (请参阅表 1) 。 合作伙伴** 角色权限仅扩展到客户指定的会议室。 例如，如果客户是全局组织，并分配合作伙伴来管理所有美国会议室，则主要管理员只能管理和委派这些会议室的权限。 合作伙伴无法查看客户在其他国家可能拥有的其他房间。 
+**主管理员** 角色是每个载入客户的唯一内置角色，并且在客户的上下文中几乎拥有所有权限，对于 Pro Management 服务 (请参阅表 1) 。 合作伙伴** 角色权限仅扩展到客户指定的会议室。 例如，如果客户是全局组织，并分配合作伙伴来管理所有美国会议室，则主要管理员只能管理和委派这些会议室的权限。 合作伙伴无法查看客户在其他国家可能拥有的其他房间。 
 
 **管理客户的 **合作伙伴** 角色中的用户**
 
@@ -155,24 +155,24 @@ Teams 会议室托管 (TRM) 服务中的多租户管理 (MTM) 可帮助合作伙
 ||修改|&#10004;|||&#10004;|
 
 > [!Note]
-> 分配为客户 A 主管理员的用户在 TRM 服务中仅具有该客户的完全权限。 客户 A 中用户的权限对其他客户没有影响。
+> 分配为客户 A 主管理员的用户在 Pro Management 服务中仅具有该客户的完全权限。 客户 A 中用户的权限对其他客户没有影响。
 
 ## <a name="security"></a>安全性
 
 最终客户保留对其数据访问权限的控制权，并可随时完全删除合作伙伴或特定角色。
 
-借助委派的访问功能，合作伙伴不会在 TRM 服务门户之外获得任何其他权限。 例如，通过使用此功能邀请合作伙伴管理 TRM 服务中的会议室，不会向 AAD 或 Teams 管理员中心或任何其他 Microsoft 产品授予任何权限。 此外，合作伙伴无权查看或修改邀请范围内未定义的会议室。
+使用委派的访问功能，合作伙伴不会在 Pro Management 门户之外获得任何其他权限。 例如，通过使用此功能邀请合作伙伴在专业管理门户中管理会议室，不会向 AAD 或 Teams 管理员中心或任何其他 Microsoft 产品授予任何权限。 此外，合作伙伴无权查看或修改邀请范围内未定义的会议室。
 
-建立合作伙伴（建立客户关系）后，如此文档的“载入客户”中所述，合作伙伴可以在 TRM 服务中查看会议室数据。 这包括 TRM 服务中存在但派生自其他 Microsoft 产品的任何数据。 例如，TRM 门户中的调用质量报告派生自 Teams 调用质量数据。
+建立合作伙伴（建立客户关系）后，如此文档的“载入客户”中所述，合作伙伴可以在 Pro Management 门户中查看会议室数据。 这包括 Pro Management 门户中存在但派生自其他 Microsoft 产品的任何数据。 例如，Pro Management 门户中的调用质量报告派生自 Teams 调用质量数据。
 
 数据驻留在客户的租户中，不会复制到合作伙伴的租户。 
 
 MTM 门户使用 AAD 身份验证来验证合作伙伴的登录凭据。 请务必注意，目前客户的身份验证策略不适用于合作伙伴。 例如，如果客户具有多重身份验证策略，则不会转换为合作伙伴。
 
-客户可以提取 TRM 服务的审核日志，其中包括合作伙伴活动。 请参阅 [Teams 会议室 托管服务中的审核日志记录](multi-tenant-auditing.md)。
+客户可以为 Pro Management 门户（包括合作伙伴活动）拉取审核日志。 请参阅 [Teams 会议室 托管服务中的审核日志记录](multi-tenant-auditing.md)。
 
 > [!Note]
-> AAD 审核和 O365 审核不会从 TRM 门户捕获日志。
+> AAD 审核和 O365 审核不会从 Pro Management 门户捕获日志。
 
 ## <a name="navigating-the-mtm-portal"></a>导航 MTM 门户
 

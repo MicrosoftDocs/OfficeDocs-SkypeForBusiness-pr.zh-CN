@@ -20,12 +20,12 @@ ms.localizationpriority: medium
 ms.custom:
 - Phone System
 description: 了解如何在 Microsoft Teams 中设置和管理自动助理。
-ms.openlocfilehash: b783f268fa60b5212d50962dbb78988e6158390d
-ms.sourcegitcommit: 850038f2248c1ea412f7b5daca26c0598baffa3c
+ms.openlocfilehash: 18ff00dc72a69ea5aed85a3531a100e28f2891d1
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "67443489"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046682"
 ---
 # <a name="set-up-an-auto-attendant"></a>设置自动助理
 
@@ -51,6 +51,7 @@ ms.locfileid: "67443489"
 
 ## <a name="whats-new-for-auto-attendants-in-the-past-6-months"></a>过去 6 个月自动助理的新增功能
  
+ - 9 月 - **“强制侦听** ”选项现在可用于“ **播放”菜单选项** ，适用于呼叫流、下班后的呼叫流和节假日期间的呼叫流。
  - 8 月 - 呼叫流中的 **播放菜单选项** 、下班后的呼叫流和节假日期间的呼叫流现在支持 \* (星号) 和 \# (磅) 键。
  - 7 月 - 假期期间的呼叫流现在支持 **“播放”菜单选项**。
  
@@ -107,6 +108,7 @@ ms.locfileid: "67443489"
 
 #### <a name="play-menu-options"></a>播放菜单选项
 
+*新建 - 可以启用强制侦听选项，要求调用方在进行选择之前侦听所有菜单选项。*
 *新建 - \* (星号) 和 \# (磅) 键现在可用于菜单选项*。
 
 对于拨号选项，请将电话键盘上的 0-9 个密钥分配给某个呼叫路由目标。 星号 () 和\# (磅) 的键\*由系统保留，无法重新分配。 按下其中任一键将重复当前菜单。
@@ -169,7 +171,9 @@ ms.locfileid: "67443489"
 
 你的自动助理可以为你 [设置的每个假日有](set-up-holidays-in-teams.md)一个呼叫流。 可以为每个自动助理添加最多 20 个计划假日。
 
-*新增功能 - **“播放”菜单选项** 现已在假日呼叫流中提供*。
+*新建 - 可以启用强制侦听选项，要求调用方在进行选择之前侦听所有菜单选项。*
+*新建 - \* (星号) 和 \# (磅) 键现在可用于菜单选项。*
+*新增功能 - **“播放”菜单选项** 现已在假日呼叫流中提供。*
 
 1. 在“假日呼叫设置”页上，选择 **“添加**”。
 

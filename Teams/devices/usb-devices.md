@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: 查看 (哪些 USB 外围设备（例如耳机、免提电话、网络摄像头和监视器）) 通过 Microsoft Teams 认证。
-ms.openlocfilehash: 258ea59d8218a88dafd19318ca9b03b8535f3a30
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: f00c0a81374f9c084d8fb7e6839d9f6742ec5192
+ms.sourcegitcommit: 44b5088647afa9a93b0ced575d10ee15b57aac0e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837502"
+ms.lasthandoff: 09/22/2022
+ms.locfileid: "67891702"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>经 Microsoft Teams 认证的 USB 音频和视频设备
 
@@ -88,6 +88,7 @@ ms.locfileid: "67837502"
 
 | 制造商        | 模型                                                     | 合格      | 认证计划                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|联想               |转到 USB-C ANC In-Ear耳机                             |9/20/2022       |Microsoft Teams 认证                           |
 |Logi                 |Brio 500/505 相机                                       |9/14/2022       |Microsoft Teams 认证                           |
 |Jabra                |参与 50 II                                               |7/29/2022       |Microsoft Teams 认证                           |
 |Jabra                |参与 40 II                                               |7/29/2022       |Microsoft Teams 认证                           |

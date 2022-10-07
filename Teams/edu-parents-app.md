@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 37de74db112dcbd5466659b385f1bb94d7c134aa
-ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
+ms.openlocfilehash: 5edde0613c9092a7ed48d57a4a22761e56eee142
+ms.sourcegitcommit: d3eb876e58c9e4a0a11a21b9292d3a6177508d81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "67418621"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "68329056"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>在Microsoft Teams 教育版中设置父连接
 
@@ -89,6 +89,7 @@ Teams 教育版中的家长连接可帮助教师使用 Teams 安全地与班级�
   - 拉取两个填充的 [父文件](/schooldatasync/parent-contact-sync-file-format) ，其余 v1 文件为空 (仅) 标头。
     - User.csv
     - Guardianrelationship.csv
+      - 需要为每个父级和监护人完成 *角色* 值，以指示他们是 *家长* 还是 *监护人*。
   - 若要查看 v1 CSV 文件的示例集，请参阅 [最小必需属性 GitHub 文件](https://github.com/OfficeDev/O365-EDU-Tools/tree/master/CSV%20Samples/SDS%20Format/Min%20Required%20Attributes)。
   - 如果要在初始同步后自动拉取 CSV 文件，请阅读 [CSV 文件同步自动化文档](/schooldatasync/csv-file-sync-automation)。
   - 有关设置 SDS 数据同步的帮助，请联系 [我们的客户成功团队](https://www.microsoft.com/fasttrack?rtc=1) 或 [开具支持票证](https://edusupport.microsoft.com/support?product_id=data_sync)。

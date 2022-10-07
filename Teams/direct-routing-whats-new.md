@@ -14,16 +14,22 @@ appliesto:
 - Microsoft Teams
 ms.collection:
 - M365-voice
-ms.openlocfilehash: 8db0f0c4d29f786166098587aafc3ec1db256e38
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 6d2496ef355df7a935dbf45321a8b8fd63b8e8de
+ms.sourcegitcommit: fc1787ad74a8c454f750a294def188b532cbadd5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271457"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "67854428"
 ---
 # <a name="whats-new-for-direct-routing"></a>直接路由的新增功能
 
 本文介绍直接路由中的新增功能。 请经常回头查看更新。
+
+## <a name="trunk-demoting-logic-based-on-sip-options"></a>基于 SIP 选项的中继降级逻辑
+
+针对中继运行状况引入了基于 SIP 选项的新功能。 在网关配置中启用 (查看Set-CsOnlinePSTNGateway cmdlet 和 SendSipOptions 参数) 时，出站调用的路由逻辑将不定期发送 SIP 选项 (预期周期的中继降级为 SBC 每分钟向 Microsoft 后端发送一个 SIP 选项) 。 这些降级的中继位于可用于出站呼叫的中继列表的末尾，并作为最后一个中继进行尝试;从而可能会减少调用设置时间。
+为该功能启用的任何中继在五分钟内未向任何 Microsoft 区域 (NOAM、EMEA、APAC、OCEA) SIP 代理发送至少一个 SIP 选项，将被视为降级。 如果中继仅将 SIP 选项发送到 Microsoft 区域 SIP 代理的子集，则先尝试这些路由，然后降级其余路由。
+
 
 ## <a name="sip-support"></a>SIP 支持
 
