@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cc250b0506614ef658ade9a491c5561a65b98800
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 976c73aebe698152c4824e3eaedfcc19a13ae525
+ms.sourcegitcommit: 1be178dc3b34575e1914e629f004f897c02e0097
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269667"
+ms.lasthandoff: 09/28/2022
+ms.locfileid: "68138485"
 ---
 # <a name="survivable-branch-appliance-sba-for-direct-routing"></a>用于直接路由的 Survivable Branch Appliance (SBA) 
 
@@ -208,6 +208,8 @@ C:\> Grant-CsTeamsSurvivableBranchAppliancePolicy -PolicyName $Null -Identity us
 向 SBC 供应商的支持组织报告任何问题。 报告问题时，指示已配置 Survivable Branch 设备。
 
 ## <a name="known-issues"></a>已知问题
+
+- 由于 SBA 依赖于有效期为 24 小时且每天续订的身份验证令牌，因此目前 SBA 可以支持自上次身份验证起长达 24 小时的中断。 这意味着，如果上次身份验证令牌续订后 20 小时发生中断，则 SBA 将仅在剩余的 4 小时内运行。
 
 - 添加新的 Survivable Branch Appliance 时，可能需要一些时间才能在 Survivable Branch Appliance 策略中使用它们。
 

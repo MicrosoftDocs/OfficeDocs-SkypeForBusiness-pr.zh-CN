@@ -1,7 +1,7 @@
 ---
 title: 实时事件录制策略
-author: CarolynRowe
-ms.author: crowe
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ description: 了解实时事件录制策略。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 5ae98255edf26843e59839192a9f20096182bfa2
-ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.openlocfilehash: abe4cb004ada98021e74823495e6208fc31c28fb
+ms.sourcegitcommit: fcedb958bf555d870215ae84fb83752304944716
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66794110"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68486552"
 ---
 # <a name="live-event-recording-policies-in-microsoft-teams"></a>Microsoft Teams 中的实时事件录制策略
 
@@ -56,7 +56,7 @@ ms.locfileid: "66794110"
 
 ## <a name="storage-and-persistence-behavior"></a>存储和持久性行为
 
-| 选项                                       | 省/市/自治区   | DVR                                                   | VOD                                                     | 录制                |
+| 选项                                       | 省/市/自治区   | Dvr                                                   | Vod                                                     | 录制                |
 | ------------------------------------------------ | ------------ | --------------------------------------------------------- | ----------------------------------------------------------- | ---------------------------- |
 | 适用于与会者的录制 | 选中     | DVR 可用，Azure 媒体服务 (AMS) 资产存储 180 天 | 与会者可以访问和观看活动                     |                              |
 |                                                  | 未选中 | DVR 可用，AMS 资产存储 180 天 | 与会者在活动结束后将无法访问 |                              |

@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 149a5a3e22a633ec4c889b68a91ac9c6db8e9f4b
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: 88be8ef1e43cc9d17fb541f6c56186959aeeb8a4
+ms.sourcegitcommit: 401cee68d4f6f9470d614dda12b9cb023f382ff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66789777"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "67999337"
 ---
 # <a name="meetings-first"></a>会议优先
 
@@ -32,9 +32,9 @@ ms.locfileid: "66789777"
 
 ## <a name="what-is-meetings-first"></a>什么是会议第一？
 
-会议优先基于 **SfBWithTeamsCollabAndMeetings** 共存模式。 会议第一不是产品或功能 - 它是一种配置，它使用 Teams 的功能和功能，Skype for Business提供独特的定制共存体验。
+会议优先基于 **SfBWithTeamsCollabAndMeetings** 共存模式。 会议优先不是产品或功能，它是一种使用 Teams 功能和功能的配置，Skype for Business提供独特的定制共存体验。
 
-在“会议第一”中，用户在 Teams 中创建会议，同时继续使用Skype for Business进行聊天、呼叫和状态。 Teams 和 Skype for Business 之间没有重叠的模式。 在 Teams 中，聊天、呼叫和状态处于Skype for Business和关闭状态。 这可在 Skype for Business 和 Teams 之间实现独特的“更好的结合”方案，从而增强用户在共存期间的体验，以及 **与仅限 Teams** 用户的互操作性方案。
+在“会议第一”中，用户在 Teams 中创建会议，同时继续使用Skype for Business进行聊天、呼叫和状态。 Teams 和 Skype for Business 之间没有重叠的模式。 在 Teams 中，聊天、呼叫和状态处于Skype for Business和关闭状态。 此配置可在 Skype for Business 和 Teams 之间实现独特的“更好的结合”方案，从而增强用户在共存期间的体验，以及 **与仅限 Teams** 用户的互操作性方案。
 
 ![Teams 和 Skype for Business 的更好结合方案的屏幕截图。](media/meetings-first-meeting-in-meeting.png)
 
@@ -43,7 +43,7 @@ ms.locfileid: "66789777"
 
 ## <a name="who-should-consider-meetings-first"></a>谁应该考虑会议第一？
 
-“会议第一”专为将Skype for Business Server与想要加速迁移到 Teams 会议的企业语音的组织而设计，尤其是那些具有强大 IT 纪律的组织，他们希望有一个托管的、确定性的 Teams 升级路径。
+会议第一是针对与想要加速迁移到 Teams 会议的企业语音使用Skype for Business Server的组织。 第一次会议尤其适用于具有强大 IT 规则的组织，这些组织希望有 Teams 的托管升级路径。
 
 对于复杂组织或大型组织，语音迁移通常是逐站点完成的，可能需要很长时间（可能需要几年时间）才能实现扩展共存方案。 如果这种共存处于 **Islands** 模式，用户始终可以选择两个会议解决方案 (Skype for Business和 Teams) ，这可能会导致混乱或不理想的情况。 与语音迁移不同，会议迁移通常可以在短时间内在整个公司中完成。 希望尽快完全切换到 Teams 会议的组织 (，而无需等待其语音迁移完成) 应考虑先开会。
 
@@ -57,7 +57,7 @@ ms.locfileid: "66789777"
 
 - 使用 [Teams 音频会议](tutorial-audio-conferencing.yml)预[配Skype for Business Server (本地) 用户](./tutorial-audio-conferencing.yml?tutorial-step=3)。
 - [会议迁移服务](/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)：用户组织的会议将迁移到云，并转换为 Teams 会议，因为用户被提升为会议第一 (需要Exchange Online) 。
-- Teams 中简化的用户体验，以 Teams 会议、团队和频道为中心， (可选择性地使用 [应用权限策略](teams-app-permission-policies.md)) 隐藏这些体验; [Teams 私人聊天、呼叫和自我存在](teams-client-experience-and-conformance-to-coexistence-modes.md) 不会在会议第一版中公开，使部署和采用工作能够完全专注于会议。
+- 在 Teams 中简化了用户体验，以 Teams 会议、团队和频道为中心， (可以使用 [应用权限策略](teams-app-permission-policies.md)) 进行隐藏。 [Teams 专用聊天、通话和自我存在](teams-client-experience-and-conformance-to-coexistence-modes.md) 不会在会议第一版中公开，因此部署和采用工作可以专注于会议。
 - 高级 [Teams 会议体验](tutorial-meetings-in-teams.yml)。
 - Teams 和Skype for Business之间的“更好在一起”： 
   - 自动保留：在 Teams 中的会议中，接听电话Skype for Business会将 Teams 会议置于保留状态，反之亦然。 这可防止用户通过会议参与者无意中听到其私人呼叫。
@@ -80,11 +80,11 @@ ms.locfileid: "66789777"
 
 满足这些要求后， (而不是之前的) ，用户可以[获得 Microsoft 365 或 Office 365 和 Teams 的许可](/office365/enterprise/assign-licenses-to-user-accounts)。
 
-为了获得最佳会议第一体验，应为用户启用[Exchange Online](exchange-teams-interact.md)、[SharePoint Online 和 OneDrive for Business](sharepoint-onedrive-interact.md) 以及 Microsoft 365 组创建。 对于邮箱位于本地 Exchange 的用户，或者没有 SharePoint Online 或 OneDrive For Business 或 Microsoft 365 组创建的用户，支持“会议第一”。 但是，他们的经验将不那么完整。 特别是，对于使用本地Exchange Server的组织，可能会 (，具体取决于Exchange Server) 创建和查看 Teams 客户端会议的一些限制，以及合规性功能。
+为了获得最佳会议第一体验，应为用户启用[Exchange Online](exchange-teams-interact.md)、[SharePoint Online 和 OneDrive for Business](sharepoint-onedrive-interact.md) 以及 Microsoft 365 组创建。 对于邮箱位于本地 Exchange 的用户，或者没有 SharePoint Online 或 OneDrive For Business 或 Microsoft 365 组创建的用户，支持“会议第一”。 但是，他们的经验将不那么完整。 对于使用本地Exchange Server的组织，可能会 (取决于Exchange Server) 创建和查看 Teams 客户端会议的一些限制，以及合规性功能方面的一些限制。
 
 用户必须至少获得 [Teams 的许可](/microsoft-365/admin/manage/assign-licenses-to-users)。 此外，它们可以根据需要获得 [音频会议](set-up-audio-conferencing-in-teams.md)许可。
 
-建议在向用户发放许可证时 [，将 **SfBOnly** 或 **SfBWithTeamsCollab**](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps) 模式作为租户默认授予。 这可确保在准备好启动“会议第一”之前，用户不会在默认 **的“岛屿** ”模式下自行开始使用 Teams。
+建议在向用户发放许可证时 [，将 **SfBOnly** 或 **SfBWithTeamsCollab**](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps) 模式作为租户默认授予。 此设置可确保在启动“会议第一”之前，用户不会在默认 **的“岛屿** ”模式下自行开始使用 Teams。
 
 Windows 和 Mac)  (、浏览器客户端和移动客户端上的完整桌面客户端都支持会议优先。 它还与[Microsoft Teams 会议室](/microsoftteams/room-systems/)兼容。 更好的一起需要完整的桌面客户端。
 
@@ -105,13 +105,13 @@ Windows 和 Mac)  (、浏览器客户端和移动客户端上的完整桌面客�
 
 ## <a name="configure-users-for-meetings-first"></a>为会议第一版配置用户
 
-获得用户许可并准备组织参加 Teams 会议后，即可为用户启用“会议第一”。 我们简化了：单个设置将全部完成！
+获得用户许可并准备组织参加 Teams 会议后，即可为用户启用“会议第一”。 我们简化了操作：一个设置将全部完成。
 
-会议第一版中的所有功能和用户体验（包括 Teams 客户端配置和[用户体验的自动符合](teams-client-experience-and-conformance-to-coexistence-modes.md)性、会议迁移服务和 Better Together 功能）都是通过授予用户 (或用户组或租户默认) [Microsoft Teams 管理中心](manage-teams-in-modern-portal.md)或 [PowerShell](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps) 中的 [SfBWithTeamsCollabAndMeetings 共存模式](setting-your-coexistence-and-upgrade-settings.md)来配置的。
+会议第一版中的所有功能和用户体验（包括 Teams 客户端配置和[用户体验的自动符合](teams-client-experience-and-conformance-to-coexistence-modes.md)性、会议迁移服务和 Better Together 功能）均通过授予用户 (或用户组进行配置，或租户默认) [Microsoft Teams 管理中心](manage-teams-in-modern-portal.md)或 [PowerShell](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps) 中的 [SfBWithTeamsCollabAndMeetings 共存模式](setting-your-coexistence-and-upgrade-settings.md)。
 
 ![用于启用“会议第一”的管理员设置的屏幕截图。](media/teams-meeting-admin-settings.png)
 
-（可选）如果要从用户 Teams 客户端的左侧导航中隐藏 Teams 和 Channels 应用程序，以进一步将体验集中在可通过应用 [设置策略](teams-app-setup-policies.md)实现的会议上。
+如果要在用户 Teams 客户端的左侧导航栏中隐藏 Teams 和 Channels 应用程序，以进一步专注于会议，可以使用 [应用设置策略](teams-app-setup-policies.md)。
 
 ## <a name="reporting-and-call-analytics"></a>报告和呼叫分析
 
@@ -119,4 +119,4 @@ Windows 和 Mac)  (、浏览器客户端和移动客户端上的完整桌面客�
 
 ## <a name="related-links"></a>相关链接
 
-查看本文后，可能需要参阅[“选择升级旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)”、“[迁移和互操作性指南](migration-interop-guidance-for-teams-with-skype.md)[”和“与Skype for Business共存”](coexistence-chat-calls-presence.md)以获取更多详细信息。
+有关详细信息，请参阅[“选择升级旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)”、“[迁移和互操作性指南](migration-interop-guidance-for-teams-with-skype.md)”，以及[与Skype for Business共存](coexistence-chat-calls-presence.md)，了解更多详细信息。

@@ -1,7 +1,7 @@
 ---
 title: 创建 Microsoft 365 用户，添加具有通话套餐捆绑许可证的 Teams 电话，并分配电话号码
-author: dstrome
-ms.author: dstrome
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 ms.collection:
 - M365-voice
-ms.openlocfilehash: ac665f46c7be619d26b0c6da371ba57e554a07ee
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: e7e623098971862727ccbac35c2952098a351c67
+ms.sourcegitcommit: fc87f4300f53abf7a049936944abb21d0cade0d9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271997"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68480952"
 ---
 # <a name="create-and-license-teams-phone-system-with-calling-plan-bundle-users-and-assign-them-phone-numbers"></a>使用呼叫计划捆绑用户创建和许可 Teams 电话系统，并为其分配电话号码
 

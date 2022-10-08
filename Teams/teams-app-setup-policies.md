@@ -8,6 +8,7 @@ ms.tgt.pltfrm: cloud
 ms.subservice: teams-apps
 ms.service: msteams
 audience: Admin
+ms.date: 09/26/2022
 ms.collection:
 - M365-collaboration
 appliesto:
@@ -19,12 +20,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: d192bffdc83510da021914627c65b03f190c6c63
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: dc84bc7be43182194af3a072edb875a6a257a9d5
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837172"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377330"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理应用设置策略
 
@@ -51,7 +52,7 @@ ms.locfileid: "67837172"
 
 |Teams 桌面客户端  |Teams 移动客户端 |
 |---------|---------|
-|![Teams 桌面客户端中的应用栏。](media/app-setup-policies-desktop-app-bar.png).  |   ![Teams 移动客户端中的应用栏。](media/mobile-app-ui.png)      |
+|![显示 Teams 桌面客户端中的应用栏的屏幕截图。](media/app-setup-policies-desktop-app-bar.png).  |   ![显示 Teams 移动客户端中的应用栏的屏幕截图。](media/mobile-app-ui.png)      |
 
 消息传递扩展位于撰写消息区域的底部。
 
@@ -112,7 +113,7 @@ ms.locfileid: "67837172"
 
 可以编辑全局策略中的设置，以包括所需的应用。 要为组织中的不同用户组自定义 Teams，请创建并分配一个或多个自定义策略。
 
-![用于管理策略或添加新策略的应用设置策略页面。](media/app-setup-policies-update.png)
+:::image type="content" source="media/app-setup-policies-update.png" alt-text="显示应用设置策略页的屏幕截图，其中包含用于管理策略或添加新策略的选项。":::
 
 ### <a name="edit-an-app-setup-policy"></a>编辑应用设置策略
 
@@ -161,7 +162,7 @@ ms.locfileid: "67837172"
 |Teams 桌面客户端 |Teams 移动客户端 |
 |---------|---------|
 |在 Teams 一侧的应用栏中，选择“**... 更多应用**”。| 在 Teams 底部附近的应用栏中，向上轻扫。|
-|![Teams 桌面客户端中的更多应用。](media/app-setup-policies-desktop-more-apps.png)   |![Teams 移动客户端中的更多应用](media/app-setup-policies-mobile-more-apps.png)  
+|![显示 Teams 桌面客户端中更多固定应用的屏幕截图。](media/app-setup-policies-desktop-more-apps.png)   |![显示 Teams 移动客户端中更多固定应用的屏幕截图](media/app-setup-policies-mobile-more-apps.png)  
 
 #### <a name="what-do-i-need-to-know-about-the-teams-mobile-experience"></a>我需要了解哪些 Teams 移动体验内容
 

@@ -10,6 +10,8 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
+- tier1
+- purview-compliance
 appliesto:
 - Microsoft Teams
 f1.keywords:
@@ -17,12 +19,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何使用敏感度标签保护 Microsoft Teams 中的团队。
-ms.openlocfilehash: 6bbeb4d804c9f397936d331df902cc295d044d75
-ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
+ms.openlocfilehash: 59bd67ea59787a1f73b2a0c808bfa3464c3bc31b
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67023765"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046872"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>Microsoft Teams 的敏感度标签
 

@@ -13,12 +13,12 @@ ms.collection:
 description: 了解如何使用 Teams PowerShell 管理 Microsoft Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66f873b163222d3d9745e68881da2b8071f60eec
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: a14658039f4edeb8e70ec195f036bf8321453c2c
+ms.sourcegitcommit: fcedb958bf555d870215ae84fb83752304944716
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396523"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68486572"
 ---
 # <a name="manage-teams-with-microsoft-teams-powershell"></a>使用 Microsoft Teams PowerShell 管理 Teams
 
@@ -69,8 +69,8 @@ Cloud Shell是一个交互式、经过身份验证且可访问浏览器的 shell
 ## <a name="manage-policies-via-powershell"></a>通过 PowerShell 管理策略
 
 > [!NOTE]
-> - Skype for Business联机连接器正在合并到 Teams PowerShell 中。 它目前以公共预览版提供。 随着时间的推移，适用于 Teams 的 Skype for Business Online cmdlet 将在 Teams PowerShell 模块中以本机方式提供。 安装步骤在 [安装 Teams PowerShell](teams-powershell-install.md) 一文中提供。
-> - 连接到 Skype for Business Online 后，该 cmdlet 将在 PowerShell 会话中提供。 有关详细信息，请参阅[使用 Office 365 PowerShell 管理联机Skype for Business](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)。
+> - Skype for Business联机连接器合并到 Teams PowerShell 中。 适用于 Teams 的 Skype for Business Online cmdlet 在 Teams PowerShell 模块中本机可用。 安装步骤在 [安装 Teams PowerShell](teams-powershell-install.md) 一文中提供。
+> - 连接到 Teams 后，该 cmdlet 将在 PowerShell 会话中可用。 有关详细信息，请参阅[使用 Office 365 PowerShell 管理联机Skype for Business](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)。
 
 在[Skype for Business cmdlet 模块](/powershell/module/teams)中查找用于管理策略的 cmdlet。
 

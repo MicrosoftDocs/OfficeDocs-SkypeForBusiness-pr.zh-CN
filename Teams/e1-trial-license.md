@@ -1,7 +1,7 @@
 ---
 title: 管理免费的 Office 365 E1 试用版
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 audience: Admin
@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9982f85ee8ff3262a246ec2df7f9ed3511c1c20c
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: b920d004fde707a399ee4b0383d7dcba985f6d3c
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270237"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377350"
 ---
 # <a name="manage-the-office-365-e1-trial"></a>管理 Office 365 E1 试用版
 
@@ -36,7 +36,7 @@ ms.locfileid: "67270237"
 激活 Office 365 E1 试用版后，请打开许可证供需要它的任何用户使用。 要了解操作方式，请参阅[管理用户对 Teams 的访问](user-access.md)。
 
 
-为需要 E1 试用版的用户启用该版本后，你可像管理拥有付费许可证的用户一样管理这些用户。有关详细信息，请参阅[为你的组织管理 Teams 设置](enable-features-office-365.md)。
+Once you've turned on the E1 Trial for the users who need it, you'll manage these users just like you manage users who have a paid license. For more information, see [Manage Teams settings for your organization](enable-features-office-365.md).
 
 
 
@@ -53,7 +53,7 @@ ms.locfileid: "67270237"
 有关详细信息，请参阅 [Microsoft Teams 服务说明](/office365/servicedescriptions/teams-service-description)。
 
 > [!NOTE]
-> 如果  E1 试用版许可证已终止，而用户没有立即升级到包含 Teams 的订阅，则会删除用户的数据。用户仍然存在于 Azure Active Directory 中，Teams 中的所有数据仍保留。如果向用户分配新的许可证以再次启用 Teams 功能，则所有内容将仍然存在。 
+> If the E1 Trial license ends and a user is not immediately upgraded to a subscription that includes Teams, the user data is not removed. The user still exists in Azure Active Directory and all data within Teams still remains. Once a new license is assigned to the user to enable Teams functionality again, all content will still exist. 
 
 ### <a name="remove-an-office-365-e1-trial-license"></a>删除 Office 365 E1 试用版许可证
 

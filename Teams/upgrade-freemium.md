@@ -1,7 +1,7 @@
 ---
 title: 将Microsoft Teams 免费版 (经典) 升级到订阅
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 123cb6343886f269a847d431b87f154855086d9b
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: de9862f9c6d5fff84e7fa6e763f0dee219a8c183
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66615738"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377340"
 ---
 # <a name="upgrade-microsoft-teams-free-classic-to-subscription-version"></a>将Microsoft Teams 免费版 (经典) 升级到订阅版本
 
@@ -40,7 +40,7 @@ Teams 免费 (经典) 专为中小型企业设计，具有以下功能：
 
 - 最大用户数为 500，000
 - 无限制的聊天消息和搜索
-- 来宾访问权限
+- 来宾访问
 - 与应用和服务集成，包括 Word、Excel、PowerPoint 和 OneNote 的联机版本
 - 每个用户 2 GB 的存储空间和 10 GB 的共享存储
 - 1：1 和组联机音频和视频通话
@@ -55,7 +55,7 @@ Teams 免费 (经典) 专为中小型企业设计，具有以下功能：
 - 每个用户 1 TB 的存储空间
 - 计划内会议
 - 音频会议
-- 增强的安全性和符合性功能，包括多重身份验证、单一登录和审核 (高级) 设置和报告
+- 增强的安全性和符合性功能，包括多重身份验证、单一登录和审核 (高级) 和报告
 - 管理控制和支持功能，包括 24 x 7 电话和 Web 支持、用于管理用户和应用的管理工具、Microsoft 365 或Office 365服务的使用情况报告、服务级别协议以及可配置的用户设置和策略
 
 有关 Teams 免费 (经典) 和 Teams 功能的详细比较，请参阅 [“比较 Teams”计划](https://products.office.com/microsoft-teams/free)。

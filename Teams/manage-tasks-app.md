@@ -19,12 +19,13 @@ appliesto:
 ms.collection:
 - M365-collaboration
 - m365-frontline
-ms.openlocfilehash: 23c75051268de176cc14a9b8df426e8d67f5a2d3
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+- highpri
+ms.openlocfilehash: 74b67a71f8b93f5f0ed898ef186beede056ec31a
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396493"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68047112"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中为组织管理 Tasks 应用
 
@@ -132,7 +133,7 @@ Contoso 总部和中级经理可以查看报告来了解每个门店和所有门
 
 ## <a name="power-automate-and-graph-api"></a>Power Automate 和 Graph API
 
-任务支持面向待办事项的 Power Automate 和面向 Planner 的 Graph API。要了解详细信息，请参阅：
+微软代办中 Tasksk 支持 Power Automate，Planner 中 Tasks 支持 Graph API。 若要了解详细信息，请参阅：
 
 - [Planner 任务和计划 API 概述](/graph/planner-concept-overview)
 - [将微软待办与 Power Automate 结合使用](https://support.office.com/article/using-microsoft-to-do-with-power-automate-526e8f75-217b-46e0-9e06-44780b72c295)

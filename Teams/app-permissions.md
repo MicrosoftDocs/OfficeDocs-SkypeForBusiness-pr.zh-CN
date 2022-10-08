@@ -19,16 +19,16 @@ ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 42044bf8f74c99b27db724e87ee35e700491aa8e
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: 64e63b4df818d792f722aed5b61315828a79bf76
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837192"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377130"
 ---
-# <a name="microsoft-teams-apps-permissions-and-considerations"></a>Microsoft Teams 应用权限和考虑事项
+# <a name="information-accessed-and-actions-performed-by-teams-apps-and-admin-considerations"></a>Teams 应用访问的信息和执行的操作以及管理员注意事项
 
-Microsoft Teams 应用是一种将一个或多个功能聚合到可安装、升级和卸载的应用中的方法。 应用的功能包括：
+Microsoft Teams 应用将一个或多个功能聚合到可安装、升级和卸载的应用中。 应用的功能包括：
 
 * 机器人
 * 消息传递扩展

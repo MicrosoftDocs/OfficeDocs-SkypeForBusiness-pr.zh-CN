@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29a048ccc02082ec019bb64dca9e89b7f265ff83
-ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
+ms.openlocfilehash: d7b74ecb85f6081533f5139b6f8f083b8958d47f
+ms.sourcegitcommit: 31fe510550ac1f5f8e53b2395014cb909a6eb723
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67465970"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "68350745"
 ---
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>管理智能扬声器的语音识别技术控制
 
@@ -130,13 +130,29 @@ IT 管理员可以随时导出音频数据。
 
 |**语言**|**国家/地区**|**区域性 ID**|
 |:-----|:-----|:-----|
+|阿拉伯语  <br/> |沙特阿拉伯 <br/> |ar-SA  <br/> |
+|中文  <br/> |中国 <br/> |zh-CN  <br/> |
+|中文  <br/> |台湾 <br/> |zh-TW  <br/> |
+|丹麦语  <br/> |丹麦 <br/> |da-DK  <br/> |
+|荷兰语  <br/> |荷兰 <br/> |nl-NL  <br/> |
 |英语  <br/> |澳大利亚 <br/> |en-AU  <br/> |
 |英语  <br/> |加拿大  <br/> |en-CA <br/> |
 |英语  <br/> |印度  <br/> |en-IN  <br/> |
 |英语  <br/> |新西兰  <br/> |en-NZ  <br/> |
 |英语  <br/> |英国  <br/> |en-GB  <br/> |
 |英语  <br/> |美国  <br/> |en-US  <br/> |
-
+|芬兰语  <br/> |芬兰  <br/> |fi-FI  <br/> |
+|法语  <br/> |加拿大 <br/> |fr-CA  <br/> |
+|法语  <br/> |法国 <br/> |fr-FR  <br/> |
+|意大利语  <br/> |意大利 <br/> |it-IT  <br/> |
+|日语  <br/> |日本 <br/> |ja-JP  <br/> |
+|挪威语  <br/> |挪威 <br/> |nb-NO  <br/> |
+|波兰语  <br/> |波兰 <br/> |pl-PL  <br/> |
+|葡萄牙语      <br/> |巴西 <br/> |pt-BR  <br/> |
+|俄语  <br/> |俄罗斯 <br/> |ru-RU  <br/> |
+|瑞典语  <br/> |瑞典 <br/> |sv-SE  <br/> |
+|西班牙语  <br/> |墨西哥  <br/> |es-MX  <br/> |
+|西班牙语  <br/> |西班牙  <br/> |es-ES  <br/> |
 
 ### <a name="in-meeting-transcription-locales"></a>会议内听录区域设置
 

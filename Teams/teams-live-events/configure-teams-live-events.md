@@ -1,7 +1,7 @@
 ---
 title: 在 Microsoft Teams 中配置实时事件设置
-author: CarolynRowe
-ms.author: crowe
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
 ms.date: 03/11/2019
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ac5bf29fbbe61b2e2224aeccb2082e31742816b
-ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.openlocfilehash: f526a3404d9077ecd97d877a914975218640028c
+ms.sourcegitcommit: fcedb958bf555d870215ae84fb83752304944716
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66794160"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68486562"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>在 Microsoft Teams 中配置实时事件设置
 
@@ -101,7 +101,7 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 > 如果计划使用外部应用或设备创建实时事件，则还需要使用[Microsoft Stream配置 eCDN 提供程序](/stream/network-caching)。 
 
 >[!Note]
-> 从使用 Microsoft Stream 到[使用 OneDrive for Business 和 SharePoint for meeting 进行会议录制](../tmr-meeting-recording-change.md)的改变将是分阶段进行的。在发布时，你将能够选择加入此体验，如果想继续使用 Stream，则在 11 月必须选择退出，在 2021 年初的某个时候，我们将要求所有客户使用 OneDrive for Business 和 SharePoint 进行新的会议录制。
+> The change from using Microsoft Stream to [OneDrive for Business and SharePoint for meeting recordings](../tmr-meeting-recording-change.md) will be a phased approach. At launch you'll be able to opt-in to this experience, in November you'll have to opt-out if you want to continue using Stream, and some time in early 2021 we'll require all customers to use OneDrive for Business and SharePoint for new meeting recordings.
 
 >[!Note]
 > 所选的 eCDN 解决方案受选第三方提供商的服务条款和隐私策略的约束，这将控制对 eCDN 提供程序解决方案的使用。 使用 eCDN 提供商的解决方案不受 Microsoft 批量许可条款或联机服务条款的约束。 如果不同意第三方提供商的条款，请不要在 Microsoft Teams 中启用 eCDN 解决方案。

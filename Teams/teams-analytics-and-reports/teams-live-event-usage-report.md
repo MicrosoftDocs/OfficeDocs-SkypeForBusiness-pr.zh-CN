@@ -17,12 +17,12 @@ description: 了解如何在 Microsoft Teams 管理中心使用 Teams 实时事�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 29a255c9248f07db00d4295e99d4062116ca4e76
-ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.openlocfilehash: 1a7f571610c49da16735cf66f65f725901fce56d
+ms.sourcegitcommit: b2692b3f6c60d8df5ba0677c68ff9c90a75a0d72
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66794090"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68033810"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Microsoft Teams 实时事件使用情况报告
 
@@ -48,7 +48,7 @@ Microsoft Teams 管理中心中的 Teams 实时事件使用情况报告显示组
 |**5**   |选择“**编辑列**”可在表格中添加或删除列。|
 
 ## <a name="notes"></a>注释
-我们最多显示 100 个符合当前报表条件的实时事件。 若要查看更多实时事件，请应用日期筛选器来减小列表大小。
+我们最多显示 100 个与当前报表条件匹配的实时事件。 若要查看更多实时事件，请应用日期筛选器来减小列表大小。
 
 匿名演示者不会包含在报表中。
 
