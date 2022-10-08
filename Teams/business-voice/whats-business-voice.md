@@ -1,7 +1,7 @@
 ---
 title: 适用于中小企业的 Teams 电话系统指南
-author: dstrome
-ms.author: dstrome
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -19,12 +19,12 @@ ms.custom:
 ms.collection:
 - M365-voice
 - M365initiative-voice
-ms.openlocfilehash: 40df60a1180f31422b3e9f78322cd89638ba600c
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 81c30b4c80d2244c3c9589380274bf0d1f2cceaa
+ms.sourcegitcommit: fc87f4300f53abf7a049936944abb21d0cade0d9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270277"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68480962"
 ---
 # <a name="teams-phone-system-guidance-for-small-and-medium-businesses"></a>适用于中小企业的 Teams 电话系统指南
 

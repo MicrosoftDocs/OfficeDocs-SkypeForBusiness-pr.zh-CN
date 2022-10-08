@@ -22,26 +22,34 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 了解并比较Microsoft Teams 会议室中不同类型的通话和会议功能的可用许可证。
-ms.openlocfilehash: df84e94ebda02020e88d8bfc19fa42c86561b07d
-ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.openlocfilehash: af5f30f1a4ae0d34421629ffec3c67a619798b50
+ms.sourcegitcommit: fc87f4300f53abf7a049936944abb21d0cade0d9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706669"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "68480482"
 ---
 # <a name="microsoft-teams-rooms-licenses"></a>Microsoft Teams 会议室许可证
 
-Microsoft 为参与 Teams 会议和呼叫的会议室设备提供两个许可证：
+Microsoft 为参与 Teams 会议和呼叫的Teams 会议室系统提供两个许可证：
 
 - **Microsoft Teams 会议室 Pro** 提供增强的室内会议体验，如智能音频和视频、前排和大型库以及双屏支持。 Teams 会议室 Pro 许可证还提供高级管理功能，例如远程设备管理、条件访问策略和详细的设备分析。
 
-    Teams 会议室专业版非常适合中型和企业组织，以及具有较大空间计数或更高级需求的小型组织。
+    Teams 会议室专业版非常适合中型和企业组织，以及具有较大空间计数或更高级需求的小型组织。 Teams 会议室 Pro 许可证可用于许可经过认证的Teams 会议室系统和 Teams 面板。
 
-- **Microsoft Teams 会议室基本** 版为购买认证Microsoft Teams 会议室设备的组织提供核心会议体验，无需额外付费。 Teams 会议室基本许可证包括计划、加入会议、内容共享和协作白板，以及现成的基本安全和管理功能。
+- **Microsoft Teams 会议室基本** 版为购买经过认证的Microsoft Teams 会议室系统的组织提供核心会议体验，无需额外付费。 Teams 会议室基本许可证包括计划、加入会议、内容共享和协作白板，以及现成的基本安全和管理功能。
 
-    最多可以分配 25 个Microsoft Teams 会议室基本许可证来Teams 会议室组织中的设备。 如果需要许可证超过 25 台设备，则需要Teams 会议室 Pro 许可证。
+    Teams 会议室基本许可证可用于在会议室中许可单个经过认证的Teams 会议室系统。 如果要使用同一资源帐户登录会议室中的多个Teams 会议室系统，则需要使用 Teams 会议室 Pro 许可证。
 
-Teams 会议室基本许可证可用于在会议室中许可单个经过认证的Teams 会议室设备。 如果要使用同一资源帐户（例如，Teams 会议室控制台、Surface Hub 和 (Teams 面板) ）登录会议室中的多个设备，则需要使用 Teams 会议室 Pro 许可证。
+    最多可以为组织中的Teams 会议室系统分配 25 个Microsoft Teams 会议室基本许可证。 如果需要许可超过 25 个Teams 会议室系统，则需要Teams 会议室 Pro 许可证。 Teams 会议室基本许可证仅可用于许可Teams 会议室系统，而不能用于 Teams 面板。
+
+Teams 会议室系统可以是下列功能之一：
+
+- 适用于 Windows 计算模块和附加触摸控制台的Teams 会议室
+- 通过基于 IP 的连接或 USB 连接连接的 Android 设备和触摸控制台的Teams 会议室
+- A Surface Hub
+
+在 Teams 管理中心内的Teams 会议室系统或设备上执行的远程管理任务取决于分配给系统或设备的许可证。 有关详细信息，请参阅 [Teams 管理中心的Microsoft Teams 会议室许可证概述](admin-center-license-overview.md)。
 
 [!INCLUDE [mtr-user-licensing](../includes/mtr-user-licensing.md)]
 
@@ -76,7 +84,9 @@ Teams 会议室基本许可证可用于在会议室中许可单个经过认证�
 > [!IMPORTANT]
 > 旧版许可证不会自动转换为新许可证。 旧版许可证过期后，需要购买新Teams 会议室专业 (推荐) 或Teams 会议室基本许可证。 Teams 会议室 Pro 许可证可以通过Microsoft 365 管理中心或首选销售渠道购买。 Teams 会议室基本许可证只能通过Microsoft 365 管理中心购买。
 
-如果你的组织有Enterprise Agreement，则可以继续使用现有的旧版许可证，直到下一个续订期。 还可以继续保留其他旧版许可证，直到下一个续订期。 有关详细信息，请与 Microsoft 代表联系。
+如果你的组织有企业协议，则可以继续使用现有的旧版许可证，直到下一个续订期。 还可以继续保留其他旧版许可证，直到下一个续订期。 有关详细信息，请与 Microsoft 代表联系。
+
+有关旧版许可证的信息，请[参阅Microsoft Teams 会议室旧许可证](rooms-legacy-licensing.md)。
 
 <sup>*</sup>从 2022 年 10 月 1 日起，Microsoft 服务工程师将不再充当事件响应的中介。
 

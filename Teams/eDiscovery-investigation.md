@@ -1,5 +1,6 @@
 ---
 title: 对内容进行电子数据展示调查
+description: 了解在需要执行电子数据展示时应执行的操作，例如需要提交所有电子存储信息以进行法律诉讼。
 author: robmazz
 ms.author: robmazz
 manager: laurawi
@@ -7,21 +8,23 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
+- tier1
+- purview-compliance
 - M365-collaboration
+- ediscovery
 ms.reviewer: anwara
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 了解在需要执行电子数据展示时应执行的操作，例如需要提交所有电子存储信息以进行法律诉讼。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e0579e0967a6f0309dbea6ee28430df3f34876be
-ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
+ms.openlocfilehash: a44245d31e6fc9f4b58c17832e596c6d73b56635
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "67808243"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046652"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>在 Microsoft Teams 中对内容进行电子数据展示调查
 
@@ -35,8 +38,8 @@ ms.locfileid: "67808243"
 
 并非所有 Teams 内容都是可电子数据展示的。 下表显示了可以使用 Microsoft 电子数据展示工具搜索的内容类型：
 
-|内容类型|注释|
-|---|---|
+|**内容类型**|**注释**|
+|:---------------|:--------|
 |音频录制||
 |卡片内容|有关详细信息，请参阅 [“搜索卡片内容](#search-for-card-content) ”。|
 |聊天链接||
@@ -53,6 +56,7 @@ ms.locfileid: "67808243"
 |喜欢、心和其他反应等 (反应) |2022 年 6 月 1 日之后，所有商业客户都支持响应。 此日期之前的反应不可用于电子数据展示。 已计划政府云支持。 没有法律上对反应的支持。|
 |主题||
 |表||
+|Teams 视频剪辑 (TVC) |通过右键单击预览 (按关键字搜索，搜索带有“Video-Clip”关键字和“另存为”每个 TVC 附件的.mp4文件将在 2022 年 10 月) 提供。 可在电子数据展示 [审阅集中](/microsoft-365/compliance/add-data-to-review-set)发现 TVC 数据。
 
 <sup>1</sup> 会议 (和呼叫) 元数据包括：
 

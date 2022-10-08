@@ -1,5 +1,6 @@
 ---
 title: 在 Microsoft Teams 中搜索事件的审核日志
+description: 了解如何从Microsoft Purview 合规门户中的审核日志中检索 Microsoft Teams 数据。
 author: robmazz
 ms.author: robmazz
 manager: laurawi
@@ -7,20 +8,22 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 ms.collection:
+- tier1
+- purview-compliance
 - M365-collaboration
+- audit
 f1.keywords:
 - NOCSH
 ms.reviewer: anwara
 search.appverid: MET150
-description: 了解如何从Microsoft Purview 合规门户中的审核日志中检索 Microsoft Teams 数据。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f7d94411132b575aa4754aae993f070a36718a2d
-ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
+ms.openlocfilehash: f82b9b77422f4f8aca8da3333e81f9b5e4c2cf35
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "67808443"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046642"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>在 Microsoft Teams 中搜索事件的审核日志
 
