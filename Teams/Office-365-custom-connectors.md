@@ -1,5 +1,5 @@
 ---
-title: 管理 Microsoft 365 和自定义连接器
+title: 管理 Microsoft 365 连接器和自定义连接器
 author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
@@ -7,25 +7,26 @@ ms.topic: article
 ms.service: msteams
 ms.subservice: teams-apps
 audience: admin
+ms.date: 09/01/2022
 ms.collection:
 - M365-collaboration
 ms.reviewer: lucarras
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 了解连接器如何通过经常将内容和更新直接传送到你所使用的 Teams 频道来保持团队更新。
+description: 了解连接器如何通过经常将内容和更新直接传送到 Teams 频道以供你使用的服务来保持团队的更新。
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 5e61a6705f470ee93c7169effdd56f35ca0dd6f4
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: fb65e7c91aa7ac0de7c8dade3a442f457d72657f
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837352"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377000"
 ---
-# <a name="manage-microsoft-365-and-custom-connectors"></a>管理 Microsoft 365 和自定义连接器
+# <a name="manage-microsoft-365-connectors-and-custom-connectors"></a>管理 Microsoft 365 连接器和自定义连接器
 
 为了使团队保持更新，连接器会将常用内容和服务更新直接传送到 Teams 频道。 通过使用连接器，你的 Teams 用户可以接收来自常用服务（例如 Trello、奇妙清单、GitHub 和 Azure DevOps 服务）的更新。 更新将直接发布到其团队的聊天流中。
 

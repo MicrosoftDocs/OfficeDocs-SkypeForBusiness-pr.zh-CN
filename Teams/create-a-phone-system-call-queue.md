@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: 了解如何在 Microsoft Teams 中设置呼叫队列。 呼叫队列提供问候消息、保持音乐、呼叫重定向和其他功能。
-ms.openlocfilehash: eaf165759e2310402fdec6147ba2153ec0ce792b
-ms.sourcegitcommit: 6b4dad9cea8fdad74c493ef62b085dbb9957235d
+ms.openlocfilehash: 7ddf3364420244e800827915c9232430ffc336c1
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67486757"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046852"
 ---
 # <a name="create-a-call-queue"></a>创建呼叫队列
 
@@ -220,6 +220,9 @@ ms.locfileid: "67486757"
   
 代理的 Teams 帐户必须设置为 TeamsOnly 模式。 不符合要求的代理不包括在呼叫路由列表中。 如果代理使用兼容的客户端，建议为呼叫队列启用会议模式。
 
+> [!TIP]
+> 建议设置“将 **会议模式** 设置为 **打开** ”。
+
 > [!NOTE]
 > 如果电话呼叫从启用了基于位置的路由的直接路由网关路由到队列，则不支持会议模式。
 >
@@ -230,12 +233,9 @@ ms.locfileid: "67486757"
 > 首次加入呼叫时，代理可能会在队列中听到已配置的音乐暂停长达 2 秒。
 
 
-> [!TIP]
-> 建议设置“将 **会议模式** 设置为 **打开** ”。
-
 选择呼叫应答选项后，选择 **“添加呼叫队列**”页底部的 **“下一步**”按钮。
 
-# <a name="step-4-agent-routing"></a>[步骤 4：代理路由](#tab/agent-routing)
+# <a name="step-4-agent-selection"></a>[步骤 4：代理选择](#tab/agent-selection)
 
 ## <a name="step-4-select-your-agent-routing-options"></a>步骤 4：选择代理路由选项
 
@@ -251,7 +251,8 @@ ms.locfileid: "67486757"
 
 - **最长的空闲** 路由每次调用已空闲时间最长的代理。 如果代理的状态可用，则代理被视为空闲状态。 在将状态更改为“可用”之前，其状态不可用的代理将无法接收呼叫。
 
-建议将 **路由方法** 设置为 **轮循机制** 或 **最长空闲**。
+> [!TIP]
+> 建议设置“ **将路由方法** 设置为 **轮循机制** ”或 **“最长空闲** ”。
 
 > [!NOTE]
 > 如果代理上启用了 [合规性录制](teams-recording-policy.md) ，则不支持 **会议模式** 和 **助理路由** 的组合。 如果需要使用 **会议模式**，请选择 **串行路由**、 **轮循机制** 或 **“最长空闲”** 作为 **路由方法**。 如果需要使用 **助理路由**，请将 **会议模式** 设置为 **“关闭**”。
@@ -272,7 +273,8 @@ ms.locfileid: "67486757"
 
 如果代理选择不接听呼叫，则无论其可用性状态设置为何种，它们都不会包含在呼叫路由列表中。
 
-建议启用 **基于状态的路由**。
+> [!TIP]
+> 建议设置 **基于状态的路由**。
 
 > [!NOTE]
 > 选择 **“最长空闲时间** ”作为路由方法时，需要并自动启用基于状态的路由，即使基于状态的路由切换将 **关闭** 并灰显。
@@ -293,7 +295,8 @@ ms.locfileid: "67486757"
 
 **代理警报时间** 指定在队列将呼叫重定向到下一个代理之前代理的电话将响多长时间。
 
-建议将 **代理警报时间** 设置为 **20 秒**。
+> [!TIP]
+> 建议将 **代理警报时间** 设置为至少 **20 秒** 。
 
 选择代理呼叫路由选项后，选择 **“添加呼叫队列**”页底部的 **“下一步**”按钮。
 
@@ -349,11 +352,11 @@ ms.locfileid: "67486757"
 - **会议模式** 为 **“打开”**
 - **路由方法** 到 **轮循机制** 或 **最长空闲**
 - **基于状态的路由** 到 **On**
-- **代理警报时间：** 至 **20 秒**
+- **代理警报时间：** 最少 **20 秒**
 
 ### <a name="call-queue-feature-compatibility"></a>呼叫队列功能兼容性
 
-|功能                          |Teams 桌面<sup>1</sup> |Teams Web | Teams Mobile<sup>2</sup> |Lync |IP 电话 | 标准呼叫队列 |基于通道的呼叫队列 | 注释 |
+|功能                          |Teams 桌面<sup>1</sup> |Teams Web | Teams Mobile<sup>2</sup> |Skype for Business |IP 电话 | 标准呼叫队列 |基于通道的呼叫队列 | 注释 |
 |:--------------------------------|:------------------------:|:--------:|:--------------:|:---:|:--------:|:--------------------:|:------------------------:|:--------|
 |**代理路由方法**        |                          |          |                |     |          |                      |                          |   |
 |`Attendant Routing`              |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |*Default*     |
@@ -373,8 +376,8 @@ ms.locfileid: "67486757"
 |`Channel based call queue`       |Y                         |n/a       |n/a             |n/a  |n/a       |n/a                   |Y                         |   |
 |**PSTN 连接方法**    |                          |          |                |     |          |                      |                          |请参阅注释 9   |
 |`Calling Plans`                  |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |   |
-|`Direct Routing`                 |Y                         |Y         |Y               |N    |否         |Y                     |Y                         |   |
-|`Operator Connect`               |Y                         |Y         |Y               |     |          |Y                     |Y                         |   |
+|`Direct Routing`                 |Y                         |Y         |Y               |N    |是         |Y<sup>6</sup>         |Y                         |   |
+|`Operator Connect`               |Y                         |Y         |Y               |     |Y         |Y<sup>6</sup>         |Y                         |   |
 |**杂项**                |                          |          |                |     |          |                      |                          |   |
 |`Call toast shows Resource Account Name` |Y                 |N         |Y               |Y    |          |Y                     |Y                         |              |
 
@@ -387,6 +390,8 @@ ms.locfileid: "67486757"
 5. 如果电话呼叫从启用了基于位置的路由的直接路由网关路由到队列，则不支持会议模式。
 6. 仅Microsoft Teams 电话。
 7. 通过“用户设置门户”页。[https://aka.ms/vmsettings](https://aka.ms/vmsettings)
+- GCCH： [https://dialin.cpc.gov.teams.microsoft.us/usp](https://dialin.cpc.gov.teams.microsoft.us/usp)
+- 国防部： [https://dialin.cpc.dod.teams.microsoft.us/usp](https://dialin.cpc.dod.teams.microsoft.us/usp)
 8. 仅支持公共频道。
 9. 自动助理和呼叫队列无法在 PSTN 连接方法之间传输调用。
 

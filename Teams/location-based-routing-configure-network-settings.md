@@ -1,7 +1,7 @@
 ---
 title: 配置网络设置 - 基于位置的路由
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.topic: article
 ms.reviewer: roykuntz
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 75aa7b4968ca2a549c35edbccdf6d87bd7df3106
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.openlocfilehash: 9a7c02a7299029ec267011f962880884d1d9f4d7
+ms.sourcegitcommit: 401cee68d4f6f9470d614dda12b9cb023f382ff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562611"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "67999327"
 ---
 # <a name="configure-network-settings-for-location-based-routing"></a>为基于位置的路由配置网络设置
 

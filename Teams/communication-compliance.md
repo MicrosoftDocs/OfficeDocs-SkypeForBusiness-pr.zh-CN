@@ -1,5 +1,6 @@
 ---
 title: 与 Microsoft Teams 的通信合规性
+description: 从 Microsoft Teams 的角度来看，了解通信合规性（内部风险解决方案集的一部分） (这是 M365 通信合规性功能) 的一部分。
 author: robmazz
 ms.author: robmazz
 manager: laurawi
@@ -7,21 +8,22 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: anwara
-description: 从 Microsoft Teams 的角度来看，了解通信合规性（内部风险解决方案集的一部分） (这是 M365 通信合规性功能) 的一部分。
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
 ms.collection:
+- tier1
+- purview-compliance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b96108f3bf548475cd19822967ba4e484fb26703
-ms.sourcegitcommit: b383b309dbdf9caac7ad7e4a94df8d89016dc485
+ms.openlocfilehash: 2907f1668247125936c69a6e3d3f2c8ddba87029
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66551199"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046672"
 ---
 # <a name="communication-compliance-with-microsoft-teams"></a>与 Microsoft Teams 的通信合规性
 

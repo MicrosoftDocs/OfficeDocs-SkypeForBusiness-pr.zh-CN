@@ -8,10 +8,12 @@ ms.service: msteams
 ms.subservice: teams-apps
 ms.custom: intro-get-started
 audience: admin
+ms.date: 09/29/2022
 ms.collection:
 - M365-collaboration
 - m365-frontline
-ms.reviewer: vaibhava
+- highpri
+ms.reviewer: kojika
 search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.manageapps.overview
@@ -19,14 +21,14 @@ description: 了解如何管理 Teams 应用。 了解如何允许或阻止应�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 3278d7cdbc144f839bbb6a675ff8f3e5168c80ed
-ms.sourcegitcommit: 0bf44683f5263d7bf635689b4c1d813bd9842650
+ms.openlocfilehash: 3d49d3e44e848b1d51388b148416fb897c335758
+ms.sourcegitcommit: d6e180791134426445a35fd485dcca18bde2006b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67705821"
+ms.lasthandoff: 10/07/2022
+ms.locfileid: "68494665"
 ---
-# <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 管理中心管理 Teams 应用
+# <a name="overview-of-app-management-and-governance-in-teams-admin-center"></a>Teams 管理中心中的应用管理和治理概述
 
 可在 Microsoft Teams 管理中心内的 **“Teams 应用”** 中管理你组织的应用。 使用“管理应用”页面可以查看和管理组织应用目录中的所有 Teams 应用、满足应用管理的突出用例、使用策略定义对应用的访问权限等。
 
@@ -52,7 +54,7 @@ Teams 管理中心提供用于完成大多数应用管理用例的选项。 此�
 | 通过允许和阻止应用来控制组织中的用户可用的应用。 还可以上传和批准自定义应用。 在此页面上管理应用后，可以使用应用权限和应用设置策略来配置组织应用商店中特定用户可用的应用。 | [在 Teams 管理中心管理应用](https://admin.teams.microsoft.com/policies/manage-apps) | 当前文章 |
 | 应用权限策略控制要向组织中的 Teams 用户提供哪些应用。 可使用全局 (组织范围) 默认策略并对其进行自定义，也可创建一个或多个策略来满足组织的需求。 | [权限策略](https://admin.teams.microsoft.com/policies/app-permission) | [管理应用权限策略](teams-app-permission-policies.md) |
 | 应用设置策略控制如何通过 Teams 应用向用户提供应用。 可使用全局 (默认为组织范围) 策略并对其进行自定义，也可创建自定义策略并将其分配给一组用户。 | [设置策略](https://admin.teams.microsoft.com/policies/app-setup) | [管理应用设置策略](teams-app-setup-policies.md) |
-| 可以开发和上传自定义应用作为应用包，并使其在组织的应用商店中可用。 | 管理应用中的组织范围 [应用](https://admin.teams.microsoft.com/policies/manage-apps)设置 | [管理自定义应用策略](teams-custom-app-policies-and-settings.md) |
+| 可以开发和上传自定义应用作为应用包，并使其在组织的应用商店中可用。 | 管理应用中的组织范围 [应用](https://admin.teams.microsoft.com/policies/manage-apps)设置 | [管理自定义应用的策略设置](teams-custom-app-policies-and-settings.md) |
 | 可以使用组织的徽标、自定义背景或颜色自定义 Teams 应用商店。 | [自定义存储](https://admin.teams.microsoft.com/policies/customize-appstore) | [自定义组织的应用商店](customize-your-app-store.md) |
 | Teams 应用使用情况报表提供有关正在使用的应用、活动用户和其他应用使用情况信息的信息。 | [使用率报告](https://admin.teams.microsoft.com/analytics/reports) | [Teams 应用使用情况报告](teams-analytics-and-reports/app-usage-report.md) |
 | 用户可以在主持会议或与来宾聊天时添加应用。 他们还可以使用来宾在加入外部托管的会议或聊天时共享的应用。 将应用托管用户组织的数据策略，以及该用户组织共享的任何第三方应用的数据共享做法。 | [外部访问](https://admin.teams.microsoft.com/company-wide-settings/external-communications) | [应用行为，具体取决于用户类型](non-standard-users.md) |
@@ -73,31 +75,25 @@ Teams 管理中心提供用于完成大多数应用管理用例的选项。 此�
 
 ## <a name="allow-and-block-apps"></a>允许和阻止应用
 
-“管理应用”页允许或阻止组织级别的单个应用。 该页面显示所有可用应用及其当前组织级别的应用状态。 应用列表包括 Microsoft、第三方开发人员和组织内开发人员提供的应用。
+作为管理员，你可以控制对所有用户在所有上下文中使用的所有类型的应用的访问。 Teams 提供精细的控件，用于为每个应用和每个用户配置访问权限。
 
-若要允许或阻止应用，请执行以下操作：
+若要允许应用，必须完成以下所有设置。 若要阻止应用，请通过以下任一设置阻止它。
+
+* [组织范围的应用设置](manage-apps.md#manage-org-wide-app-settings)：使用此设置允许在组织中使用应用。决定使用哪些特定应用。
+* [允许单个应用](manage-apps.md#allow-and-block-apps)：使用此设置在组织中允许特定应用。你决定哪些用户可以使用该应用。
+* [应用权限策略](teams-app-permission-policies.md)：使用策略允许所有或允许特定用户使用应用。 可以根据每个用户和每个应用来决定访问权限。
+
+“管理应用”页允许或阻止组织级别的单个应用。 该页面显示所有可用应用及其当前组织级别的应用状态。 若要允许或阻止应用，请执行以下步骤：
 
 1. 登录 Teams 管理中心并访问 **Teams 应用** > **[管理应用](https://admin.teams.microsoft.com/policies/manage-apps)**
-1. 从应用列表中选择应用。 可以按应用的名称进行搜索。
+1. 找到应用并选择它。
 1. 选择 **“允许** ”或 **“阻止”** 选项。
 
-在 Teams 管理中心的“ [管理应用](https://admin.teams.microsoft.com/policies/manage-apps) ”页上允许（或阻止）应用时，组织中的所有用户均允许（或阻止）特定应用。 此方法与上下文中的应用权限策略不同，因为允许（或阻止）应用通过权限策略，只会影响分配了策略的特定用户。
-
-仅当通过租户范围的设置允许应用并通过权限策略允许用户使用时，用户才能安装和使用应用。
-
-## <a name="allow-the-apps-that-are-blocked-by-the-developers"></a>允许开发人员阻止的应用
-
-当开发人员将应用发布到 Teams 应用商店时，某些应用可能需要管理员来配置应用。 设置完应用程序后，管理员向最终用户提供应用程序。
-
-例如，Contoso Electronics 是为 Microsoft Teams 创建技术支持应用的应用开发人员。 Contoso Electronics 希望其客户设置应用的某些属性，以便当用户与应用交互时，它按预期运行。 在管理员允许应用程序之前，它将在 Teams 管理中心显示为“**被发布者阻止**”，默认情况下对最终用户隐藏。 按照发布者的指南设置应用后，可以通过将状态更改为“ **允许**”，使其可供用户使用。
-
-:::image type="content" source="media/blocked-by-publisher.png" alt-text="Teams 管理中心中被发布者状态阻止的屏幕截图。":::
-
-有关开发人员默认情况下如何阻止应用的信息，请参阅 [启用阻止应用，直到管理员允许应用](/microsoftteams/platform/concepts/design/enable-app-customization#hide-teams-app-until-admin-approves)。
+若要允许特定用户使用应用，请参阅 [应用权限策略](teams-app-permission-policies.md)。
 
 ## <a name="manage-org-wide-app-settings"></a>管理组织范围的应用设置
 
-使用组织范围的应用设置来控制具有 [F 许可证](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt) 的用户是否获得定制的一线应用体验、用户是否可以安装第三方应用，以及用户是否可以上传或与组织中的自定义应用交互。 组织范围的应用设置可控制所有用户的行为，并且可覆盖分配给用户的任何其他应用权限策略。
+使用组织范围的应用设置来控制具有 [F 许可证](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt) 的用户是否获得定制的一线应用体验、用户是否可以安装第三方应用，以及用户是否可以上传或与组织中的自定义应用交互。
 
 > [!NOTE]
 > 若要了解如何在 Microsoft 365 Government 中使用组织范围的应用设置 - 政府社区云 Teams 的高 GCCH 和国防部 （DoD） 部署，请参阅 [在 Teams 中管理应用权限策略](teams-app-permission-policies.md)。
@@ -121,10 +117,58 @@ Teams 管理中心提供用于完成大多数应用管理用例的选项。 此�
 
     * **默认情况下，允许发布到应用商店的所有新的第三方应用**：控制发布到 Teams 应用商店的新第三方应用是否在 Teams 中自动可用。 仅在允许第三方应用时才能设置此选项。
 
-1. 在 **自定义应用** 下，关闭或打开 **允许与自定义应用交互**。 此设置控制用户是否可以与自定义应用交互。 要了解详细信息，请参阅[在 Teams 中管理自定义应用策略和设置](teams-custom-app-policies-and-settings.md)。
+1. 在 **自定义应用** 下，关闭或打开 **允许与自定义应用交互**。 此设置控制用户是否可以与自定义应用交互。 若要了解详细信息，请参阅 [管理自定义应用的策略和设置](teams-custom-app-policies-and-settings.md)。
+
+1. 选择“**保存**”。 设置在几个小时后生效。
+
+## <a name="manage-org-wide-app-settings-for-microsoft-365-government"></a>管理 Microsoft 365 政府版的组织范围的应用设置  
+
+在 Teams 的 Microsoft 365 政府版 - GCC、GCCH 和 DoD 部署中，默认情况下会阻止所有第三方应用。 在 GCCH 和 DOD 云中，第三方应用不可用。 此外，在 GCC 中，你会在 Microsoft Teams 管理中心的应用权限策略页上看到有关管理第三方应用的以下说明。
+
+:::image type="content" source="media/app-permission-policies-gcc.png" alt-text="GCCH 和 DoD 中应用权限策略的屏幕截图。":::
+
+使用组织范围的应用设置来控制用户是否可以安装第三方应用。 组织范围的应用设置可控制所有用户的行为，并且可覆盖分配给用户的任何其他应用权限策略。
+
+<!---1. On the **Permission policies** page, select **Org-wide app settings**. You can then configure the settings you want in the panel. 
+--->
+
+### <a name="for-gcc-clouds"></a>对于 GCC 云
+
+1. 在 **“Teams 应用** > **[管理应用](https://admin.teams.microsoft.com/policies/manage-apps)** ”页上，选择 **组织范围的应用设置**。 然后，你可以在面板中配置所需的设置。
+
+   :::image type="content" source="media/app-permission-policies-gcc-org-wide.png" alt-text="显示 GCC 中组织范围应用设置的屏幕截图。":::
+
+1. 在“**第三方应用**”下，关闭或打开这些设置以控制对第三方应用的访问权限：
+
+    * **允许第三方应用**：此选项控制用户是否可以使用第三方应用。 如果关闭此设置，则你的用户将不能安装或使用任何第三方应用。 在 Teams 的 Microsoft 365 政府版 - GCCH 和 DoD 部署中，此设置默认处于关闭状态。
+    * **默认情况下，允许发布到应用商店的所有新的第三方应用**：此选项控制发布到 Teams 应用商店的新第三方应用是否在 Teams 中自动可用。 仅在允许第三方应用时才能设置此选项。
+
+1. 在“**阻止的应用**”下，添加要在整个组织内阻止的应用。 在 Teams 的 Microsoft 365 政府版 - GCCH 和 DoD 部署中，默认情况下，所有第三方应用都会添加到此列表。 对于想要在组织中允许的任何第三方应用，请从此阻止的应用列表中移除该应用。 当你在组织范围内阻止某个应用时，无论是否在任何应用权限策略中允许此应用，系统都会自动为所有用户阻止该应用。
+
 1. 单击“**保存**”以使组织范围的应用设置生效。
+
+若要允许第三方应用，请编辑和使用全局 (组织范围的默认) 策略，或者创建和分配管理员创建的策略。
+
+### <a name="for-gcch-and-dod-clouds"></a>对于 GCCH 和 DoD 云
+
+1. 登录 Teams 管理中心并访问 **Teams 应用** > **[权限策略](https://admin.teams.microsoft.com/policies/app-permission)**。
+
+1. 选择 **组织范围的应用设置**。 在“**阻止的应用**”下，添加要在整个组织内阻止的应用。 在 Teams 的 Microsoft 365 政府版 - GCCH 和 DoD 部署中，默认情况下，所有第三方应用都会添加到此列表。 当你在组织范围内阻止某个应用时，无论是否在任何应用权限策略中允许此应用，系统都会自动为所有用户阻止该应用。
+
+   :::image type="content" source="media/app-permission-policies-gcch-dod-org-wide.png" alt-text="GCCH 和 DoD 中组织范围应用设置的屏幕截图。":::
+
+1. 单击“**保存**”以使组织范围的应用设置生效。
+
+## <a name="allow-the-apps-that-are-blocked-by-the-developers"></a>允许开发人员阻止的应用
+
+当开发人员将应用发布到 Teams 应用商店时，某些应用可能需要管理员来配置应用。 设置完应用程序后，管理员向最终用户提供应用程序。
+
+例如，Contoso Electronics 是为 Microsoft Teams 创建技术支持应用的应用开发人员。 Contoso Electronics 希望其客户设置应用的某些属性，以便当用户与应用交互时，它按预期运行。 在管理员允许应用程序之前，它将在 Teams 管理中心显示为“**被发布者阻止**”，默认情况下对最终用户隐藏。 按照发布者的指南设置应用后，可以通过将状态更改为“ **允许**”，使其可供用户使用。
+
+:::image type="content" source="media/blocked-by-publisher.png" alt-text="Teams 管理中心中被发布者状态阻止的屏幕截图。":::
+
+有关开发人员默认情况下如何阻止应用的信息，请参阅 [启用阻止应用，直到管理员允许应用](/microsoftteams/platform/concepts/design/enable-app-customization#hide-teams-app-until-admin-approves)。
 
 ## <a name="related-article"></a>相关文章
 
-* [从 Skype for Business 管理中心过渡期间管理 Teams](manage-teams-skypeforbusiness-admin-center.md)
 * [管理用户请求以允许应用](user-requests-approve-apps.md)。

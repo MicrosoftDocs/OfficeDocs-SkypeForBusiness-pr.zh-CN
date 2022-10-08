@@ -19,14 +19,16 @@ ms.custom:
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
+- tier3
+- purview-compliance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b23430398e213c7df9fcd72ccb9d32f88ee1ed1f
-ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
+ms.openlocfilehash: 659692af6a1236510d5b4572e66cbd299aa92c41
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "67418481"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046492"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>有关通话&会议的基于 Teams 策略的录制简介
 
@@ -138,7 +140,7 @@ Azure 和 Windows VM 要求仅适用于 Teams 机器人组件，这意味着合�
 
 ## <a name="compliance-recording-policy-assignment-and-provisioning"></a>合规性记录策略分配和预配
 
-IT 管理员可以通过创建和分配符合性记录策略来确定要记录的用户以及将用于每个用户的记录器。 当发生通信交互时，记录器会根据这些策略的配置自动邀请他们参与对话。 合规性记录策略使用 [Microsoft PowerShell](./teams-powershell-overview.md) 进行管理，可在每个组织的租户、每个用户和安全组级别应用。 可以找到有关[会议](./meeting-policies-overview.md)策略、[调用](./teams-calling-policy.md)策略和[组](./assign-policies-users-and-groups.md#assign-a-policy-to-a-group)策略的Microsoft Docs的详细信息。
+IT 管理员可以通过创建和分配符合性记录策略来确定要记录的用户以及将用于每个用户的记录器。 当发生通信交互时，记录器会根据这些策略的配置自动邀请他们参与对话。 合规性记录策略使用 [Microsoft PowerShell](./teams-powershell-overview.md) 进行管理，可在每个组织的租户、每个用户和安全组级别应用。 可以找到有关 Microsoft Learn for [Meeting 策略](./meeting-policies-overview.md)、 [调用策略](./teams-calling-policy.md) 和  [组策略](./assign-policies-users-and-groups.md#assign-a-policy-to-a-group)的详细信息。
 
 1. 在租户中创建应用程序实例。
 

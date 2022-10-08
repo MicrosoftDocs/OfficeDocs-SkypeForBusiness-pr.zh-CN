@@ -1,7 +1,7 @@
 ---
 title: Teams 消息传送中的优先级通知
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: salu
 ms.topic: reference
@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 了解 Microsoft Teams 消息传送中的优先级通知。
-ms.openlocfilehash: cca511df23aced6dac453736f532be985cd97928
-ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
+ms.openlocfilehash: cac864863ec3313b6a0298ece4c10124af6e34ca
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66825866"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377310"
 ---
 # <a name="messaging-policies-licensing"></a>消息策略许可
 

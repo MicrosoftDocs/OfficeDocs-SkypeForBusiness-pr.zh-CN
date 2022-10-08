@@ -1,7 +1,7 @@
 ---
 title: 适用于小型企业的 Microsoft Teams Essentials 快速入门指南
-author: adeejoseph
-ms.author: adjoseph
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 46624ff1e1eeeede5066cf6972cc92469cf8979c
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
-ms.translationtype: HT
+ms.openlocfilehash: ba285480bc1316d33ea6a5708ec7ef7e6d7451f9
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675044"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377620"
 ---
 # <a name="microsoft-teams-essentials-quickstart-guide-for-small-businesses"></a>适用于小型企业的 Microsoft Teams Essentials 快速入门指南
 
@@ -97,7 +97,7 @@ Microsoft Teams Essentials 可通过 Microsoft 的直接网站和选择 Microsof
 
 
 > [!IMPORTANT] 
-> 若要获得增强的管理和完整的 Teams 功能集，需要通过为用户购买适当的 [Microsoft 365或 Office 365 订阅计划](https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options) 升级到 Teams 的完整版本。我们建议这样做，因为你可以更灵活地管理组织协作的方式。
+> To get enhanced administration and entire full set of Teams features, you'll need to upgrade to the full version of Teams by purchasing an appropriate [Microsoft 365 or Office 365 subscription plan](https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options) for your users. We recommend this as you'll have more flexibility to manage the way your organization collaborates.
 
 ## <a name="administration-limits-and-specifications-for-microsoft-teams-essentials"></a>Microsoft Teams Essentials 的管理限制和规范
 
@@ -111,7 +111,7 @@ Microsoft Teams Essentials 可通过 Microsoft 的直接网站和选择 Microsof
 
 1. **购买订阅。** 转到 [适用于小型企业的 Microsoft Teams Essentials](https://www.microsoft.com/microsoft-teams/compare-microsoft-teams-options)，然后在 Microsoft Teams Essentials 下选择 **立即购买**。
 2. **使用现有电子邮件地址进行注册。** 使用现有电子邮件地址并按照说明购买用户许可证。
-3. **查看 Teams 服务说明。** 访问 [Microsoft Teams 服务说明](/office365/servicedescriptions/teams-service-description) 了解有关 Microsoft Teams 的详细信息。
+3. **评论 Teams 服务说明。** 请访问 [Microsoft Teams 服务说明](/office365/servicedescriptions/teams-service-description) 以了解更多有关 Microsoft Teams 的信息。
 
 完成这些任务后，即可规划、部署和使用 Teams 应用。
 
@@ -166,10 +166,10 @@ Microsoft Teams Essentials 可通过 Microsoft 的直接网站和选择 Microsof
 
 ### <a name="can-i-use-an-existing-email-system-with-microsoft-teams-essentials"></a>能否将现有电子邮件系统与 Microsoft Teams Essentials 配合使用？  
 
-是的。你可以保留现有电子邮件系统，并利用 Teams Essentials 进行会议、聊天和协作。  
+Yes. You can keep your existing email system and leverage Teams Essentials to meet, chat and collaborate.  
 
 ### <a name="can-i-connect-my-existing-calendar-solution-with-teams-essentials"></a>是否可以将现有日历解决方案与 Teams Essentials 相连接?
-是的。可以使用 Teams Essentials 从 Outlook.com 和 Google 同步现有日历。
+Yes. You can sync existing calendars from Outlook.com and Google with Teams Essentials.
 
 若要将现有日历解决方案与 Teams Essentials (AAD 标识) 连接，请按照本文后面的说明进行操作。
 

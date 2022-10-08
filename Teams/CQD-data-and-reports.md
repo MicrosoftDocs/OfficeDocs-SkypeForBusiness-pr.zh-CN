@@ -22,12 +22,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: 了解 Microsoft 呼叫质量仪表板 (CQD) 中提供的数据和报表。
-ms.openlocfilehash: ba30be8d63dab1f5720be5637ea0a28c26d5d877
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: 7d89c17f299302f39e00e6aebcfd9309ead3eaae
+ms.sourcegitcommit: 021cfac01a38282a8cde6e913d74be2d54c39162
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66789807"
+ms.lasthandoff: 09/29/2022
+ms.locfileid: "68218511"
 ---
 # <a name="data-and-reports-in-call-quality-dashboard-cqd"></a>调用质量仪表板中的数据和报表 (CQD) 
 
@@ -41,7 +41,7 @@ Microsoft 呼叫质量仪表板 (CQD) 使用近实时 (NRT) 数据馈送。 通�
 |---|---|
 |Teams 管理中心 [ (https://admin.teams.microsoft.com)](https://admin.teams.microsoft.com)|CQD 数据包含在 Teams 管理中心的 **“用户** ”页面上，以易于阅读的格式显示所需的最常见数据。 无法自定义在 **“用户**”下找到的 CQD 数据。|
 |CQD 门户 [ (https://cqd.teams.microsoft.com)](https://cqd.teams.microsoft.com)|可靠的摘要和满足大多数需求的详细报表，以及钻取筛选。 还可以在 CQD 门户中自定义报表。 <br><br>获取两个 [CQD 报表模板](#import-the-cqd-report-templates) ，以帮助分析 CQD 门户中的数据。|
-|Power BI|使用直接查询在 Power BI 中使用 [可自定义的 Power BI 模板](CQD-Power-BI-query-templates.md)查看 CQD 数据。 [下载适用于 CQD 的 Power BI 查询模板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)。<br><br>还可以 [使用 REST API 通过 Power BI 访问 CQD 数据](/skypeforbusiness/management-tools/call-quality-dashboard/data-api) 。 如果要下载 CQD 数据以便脱机处理，请使用此方法。 使用此方法的好处是提高性能，尤其适用于联机时在 Power BI 中陷入困境的大型数据集。|
+|Power BI|使用直接查询在 Power BI 中使用 [可自定义的 Power BI 模板](CQD-Power-BI-query-templates.md)查看 CQD 数据。 [下载适用于 CQD 的 Power BI 查询模板](https://www.microsoft.com/download/details.aspx?id=102291)。<br><br>还可以 [使用 REST API 通过 Power BI 访问 CQD 数据](/skypeforbusiness/management-tools/call-quality-dashboard/data-api) 。 如果要下载 CQD 数据以便脱机处理，请使用此方法。 使用此方法的好处是提高性能，尤其适用于联机时在 Power BI 中陷入困境的大型数据集。|
 |Graph API|使用[图形 API](/graph/api/resources/callrecords-api-overview)自行访问调用质量数据。 这是最复杂的方法，但它为你分析通话质量数据提供了最大的控制和灵活性。 例如，如果需要将其与组织的其他数据联接，则可以使用图形 API创建数据模型并合并调用质量数据。|
 
 ## <a name="import-the-cqd-report-templates"></a>导入 CQD 报表模板
@@ -74,6 +74,10 @@ Microsoft 呼叫质量仪表板 (CQD) 使用近实时 (NRT) 数据馈送。 通�
 - 用户逐字反馈
 - 对象 ID (终结点用户的 Active Directory 对象 ID) 
 - 电话号码
+- 自动助理标识
+- 呼叫队列标识
+- 视频电话会议 (VTC) 设备名称
+- 视频电话会议 (VTC) 设备详细信息
 
 ### <a name="admin-roles-with-and-without-euii-access"></a>管理员具有或无 EUII 访问权限的角色
 
@@ -103,7 +107,7 @@ CQD 支持以下滚动趋势类型：
 
 URL Date 参数接受 Day 字段。 滚动日报表使用 YYYY-MM-DD 格式指定的日期作为趋势的最后一天。 URL Date 参数“00”表示“today”。
 
-|URL|滚动日趋势的结束日期|
+|Url|滚动日趋势的结束日期|
 |:---|:---|
 |<span>\<cqdv3>https:///spd/#/Dashboard//\<reportid>2019-02/</span>|2019 年 2 月当前日|
 |<span>\<cqdv3>https:///spd/#/Dashboard//\<reportid>2019-02-15/</span>|2019 年 2 月 15 日|

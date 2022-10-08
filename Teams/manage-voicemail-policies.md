@@ -1,6 +1,6 @@
 ---
 title: 管理语音邮件策略
-author: crowe
+author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: jenstr
@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 管理用户的语音邮件策略。
-ms.openlocfilehash: da5909a1d460373be60bf26de08e414ca6470c8a
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: f6c14584ee5da1b15085cd4caddfc757fbb50476
+ms.sourcegitcommit: 401cee68d4f6f9470d614dda12b9cb023f382ff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267747"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "67999307"
 ---
 # <a name="manage-cloud-voicemail-policies-for-your-users"></a>为用户管理云语音邮件策略
 

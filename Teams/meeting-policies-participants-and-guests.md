@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 了解如何在 Teams 中为参与者和来宾管理会议策略设置。
-ms.openlocfilehash: 46db9b7f5a1fae40d3f46bad156e318a3e677d07
-ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.openlocfilehash: 5b489f312dd1fd1fcd9bdb6a301a65e76ab9ed91
+ms.sourcegitcommit: 9522d951700d19ab13c60a6452b3a8a4c824ee36
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706619"
+ms.lasthandoff: 09/26/2022
+ms.locfileid: "68018088"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>会议策略设置 - 参与者和来宾
 
@@ -62,7 +62,7 @@ ms.locfileid: "67706619"
  会议组织者可以在会议邀请中单击 **“会议选项** ”，以更改他们安排的每个会议的此设置。
 
 > [!NOTE]
-> 在会议选项中，设置标记为"谁可以绕过问题"。如果更改任何用户的默认设置，它将应用于该用户组织的所有新会议以及用户未修改会议选项的任何之前会议。
+> In the meeting options the setting is labeled "Who can bypass the lobby". If you change the default setting for any user, it will apply to all new meetings organized by that user and any prior meetings where the user didn't modify Meeting options.
   
 |设置值  |加入行为 |
 |---------|---------|
@@ -91,7 +91,7 @@ ms.locfileid: "67706619"
 
 |设置值 |行为  |
 |---------|---------|
-|**已禁用，但用户可以替代**     | 在会议期间，实时字幕不会自动为用户开启。 用户在溢出 (**...**) 菜单中看到 **“开启实时字幕”** 选项，即可其打开。 这是默认设置。 |
+|**未启用，但用户可以替代**     | 在会议期间，实时字幕不会自动为用户开启。 用户在溢出 (**...**) 菜单中看到 **“开启实时字幕”** 选项，即可其打开。 这是默认设置。 |
 |**未启用**     | 在会议期间，将禁用用户的实时字幕。 用户无法选择启用它们。          |
 
 <a name="bkcontentsharing"> </a>
@@ -119,7 +119,7 @@ ms.locfileid: "67706619"
 
 这是按组织者的策略。 此设置使 Microsoft 365 租户管理员能够 (Q&A) 启用或禁用问题&解答体验。
 
-当组织者创建或更新会议时，将强制执行此设置。 默认情况下，此设置已关闭。 Mer informasjon此处的 Q [&A。](/manage-qna-for-meetings)
+当组织者创建或更新会议时，将强制执行此设置。 默认情况下，此设置已关闭。 在此处详细了解 Q [&A。](/manage-qna-for-meetings)
 
 参数 QnAEngagementMode 在 PowerShell 中控制此策略。 Q&A 也可以在管理门户中进行调整。
 

@@ -6,7 +6,8 @@ manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: msteams
-ms.reviewer: v-quhur
+ms.reviewer: vapati
+ms.date: 09/27/2022
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -17,16 +18,16 @@ description: 了解如何在 Microsoft Teams 管理中心使用 Teams 应用使�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 745761b80bd2507a31cb76cdadc015eac8e9f7fd
-ms.sourcegitcommit: a4a65283e85d0c393c844dfd335df0d48e0e4105
+ms.openlocfilehash: 9db5378a439061639298b8bc3b48f4d3ef26c50b
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "67313924"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68376960"
 ---
 # <a name="microsoft-teams-app-usage-report"></a>Microsoft Teams 应用使用情况报告
 
-Microsoft Teams 管理中心的 Teams 应用使用情况报告提供有关用户在 Teams 中使用的应用的信息。  
+Microsoft Teams 管理中心的 Teams 应用使用情况报告提供有关用户在 Teams 中使用的应用的见解。 可以深入了解组织中的 Teams 应用活动。 本文介绍如何访问报表并查看和解释报表中的各种指标。 
 
 ## <a name="view-the-app-usage-report"></a>查看应用使用情况报告
 
@@ -36,7 +37,7 @@ Microsoft Teams 管理中心的 Teams 应用使用情况报告提供有关用户
 
 1. 在 **“查看报表** ”选项卡上的 **“报表**”下，选择 **“应用使用情况**”。
 
-1. 在 **“日期”范围** 下，选择一个区域，然后选择 **“运行报表**”。 可以查看 Teams 应用使用情况报告，了解过去 7 天、30 天或 90 天的趋势。
+1. 在 **“日期”范围** 下，选择一个区域，然后选择 **“运行报表**”。 可以查看 Teams 应用使用情况报告，了解过去 7 天、30 天、90 天和 180 天的趋势。
 
    :::image type="content" source="media/app-usage-report2-trimmed.png" alt-text="“应用使用情况”报表界面的屏幕截图。" lightbox="media/app-usage-report2.png":::
 
@@ -44,7 +45,7 @@ Microsoft Teams 管理中心的 Teams 应用使用情况报告提供有关用户
 
 :::image type="content" alt-text="Teams 管理中心中带有标注的 Teams 应用使用情况报告的屏幕截图。" source="media/app-usage-report5.png" lightbox="media/app-usage-report5.png":::
 
-每个报表的左上角都有一个日期，显示创建报表的日期。 报表通常反映从应用打开时起的 24 小时延迟。
+每个报表的左上角都有一个日期，显示创建报表的日期。 报告通常反映从应用打开时起的 24-48 小时延迟。
 
 管理员中心提供活动用户和日期的图表。 活动用户是在所选时间段内至少打开一次应用的用户数。
 

@@ -17,12 +17,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何使用反馈策略来控制组织中的 Teams 用户是否可以向 Microsoft 提交有关 Teams 的反馈。
-ms.openlocfilehash: 933c6971058c107ab881cb48bb0f2a9dbd74900d
-ms.sourcegitcommit: 44fd07d8e6e5fcbe5051de2300e180f295eaaad3
+ms.openlocfilehash: 9510a94a60a79a36292011fdcdad6afa97e6f56f
+ms.sourcegitcommit: d6e180791134426445a35fd485dcca18bde2006b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/15/2022
-ms.locfileid: "67339796"
+ms.lasthandoff: 10/07/2022
+ms.locfileid: "68494655"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理反馈策略
 
@@ -71,6 +71,7 @@ ms.locfileid: "67339796"
  - **屏幕截图**：使用 **AllowScreenshotCollection** 标志为用户添加屏幕截图集合选择加入。
  - **Email**：使用 **AllowEmailCollection** 标志添加电子邮件字段。
  - **日志收集**：使用 **AllowLogCollection** 标志为用户添加日志收集选择加入。 日志收集当前仅在移动设备上启用。 有关通过日志共享的数据的更多详细信息，请 [了解详细信息](https://go.microsoft.com/fwlink/?linkid=2168178)。
+ - **建议一项功能**：将 **EnableFeatureSuggestions** 参数设置为 True，以允许分配策略的用户建议功能。 将参数设置为“已禁用”会关闭该功能，并且分配了策略的用户没有提供反馈的选项。 默认设置取自 Microsoft 365 可选连接体验策略设置。 若要详细了解该设置，请参阅 [Office 中的可选连接体验概述](/deployoffice/privacy/optional-connected-experiences)。
 
 ## <a name="create-a-custom-feedback-policy"></a>创建自定义反馈策略
 

@@ -22,15 +22,16 @@ ms.collection:
 - microsoftcloud-retail
 - m365initiative-lists
 - m365-frontline
+- highpri
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 39d44feb46fa20cb27755792e7f2236ed16b051f
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: 9ea4e8cb49166c116d69c12d795659b55c93c556
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396273"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68047042"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中为组织管理 Lists 应用
 
@@ -84,7 +85,7 @@ SharePoint 中的权限集应用于 Lists 应用中创建的列表。 列表默�
 
 用户可以获得桌面、web 以及移动端的 Lists 体验。 需要记住的是，用户无法在 Teams 移动客户端中通过 Lists 创建新列表或固定现有列表。 要在 Teams 移动客户端中查看或编辑列表，必须首先通过 Teams 桌面或 web 客户端使用 Lists 创建或添加列表。
 
-来宾无法创建或删除列表。但可以向现有列表添加列表项、开始关于列表项的新对话，以及回复关于列表项的现有对话。
+Guests can't create or delete a list. They can add list items to existing lists, start new conversations about list items, and reply to existing conversations about list items.
 
 ### <a name="lists-and-the-sharepoint-app"></a>Lists 和 SharePoint 应用
 

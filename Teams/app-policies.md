@@ -6,60 +6,71 @@ manager: prkosh
 ms.topic: conceptual
 ms.service: msteams
 ms.subservice: teams-apps
+ms.date: 09/25/2022
 search.appverid: ''
-description: 了解用于在 Microsoft Teams 中管理应用的应用权限策略、应用设置策略和自定义应用策略。
+description: 了解用于管理 Microsoft Teams 中的应用的应用权限策略和设置策略。
 audience: admin
 ms.localizationpriority: high
 appliesto:
 - Microsoft Teams
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: ad7e99d10ebf53c7a85394edda84061f6caf0d29
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: 1c99cd9c0be3251a237b547cd8a2096d2d0e02af
+ms.sourcegitcommit: d6e180791134426445a35fd485dcca18bde2006b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837562"
+ms.lasthandoff: 10/07/2022
+ms.locfileid: "68494645"
 ---
-# <a name="overview-of-app-policies-used-to-manage-access-to-apps"></a>用于管理应用访问权限的应用策略概述
+# <a name="app-policies-used-to-manage-access-to-and-installation-of-apps"></a>用于管理对应用的访问和安装的应用策略
 
-Microsoft Teams 使用策略来控制访问和安装行为。 策略可帮助 Teams 管理员控制以下应用行为：
+Microsoft Teams 使用应用策略来控制应用的访问和安装行为。 应用策略可帮助 Teams 管理员控制以下应用行为：
 
-* 在粒度级别为用户配置应用访问权限。 它可帮助每个最终用户仅使用管理员允许的应用。
+* 为每个用户或一组用户配置应用的访问权限。 它可帮助管理员控制每个最终用户允许的应用。
 
-* 为特定用户固定相关应用。 它可帮助最终用户轻松入门并快速访问相关应用，因为固定的应用无需干预即可自动安装。
+* 为与组织需求相关的最终用户固定这些应用。 此外，管理员可以在不进行用户干预的情况下为最终用户安装应用。 它可帮助最终用户轻松开始使用相关应用。
+
+* 控制组织中的哪些开发人员可以提交自定义应用以进行管理员审批。 它可帮助你控制对自定义应用上传功能的访问。
 
 ## <a name="app-permission-policies"></a>应用权限策略
 
-利用应用权限策略，Teams 管理员可以控制组织中的哪些特定用户可以使用哪些应用。 可以定义应用和用户之间的确切访问映射，也可以定义这两者的任意组合。 例如，可以为所有用户允许一些应用，可以为特定用户组允许一些应用，也可以为特定用户允许特定应用。
+使用应用权限策略，Teams 管理员控制组织中每个用户可用的应用。 可以为所有用户允许一些应用，可以为特定用户组允许一些应用，也可以允许特定用户使用特定的应用。 应用权限策略与组织范围的设置协同工作，并允许或阻止每个应用的状态。
 
-应用权限策略适用于 Teams 中可用的所有应用类型。 例如，可以使用应用权限策略逐步推出第三方应用或自定义应用，对特定用户允许该应用。
+应用权限策略适用于 [Teams 中可用的所有应用类型](deploy-apps-microsoft-teams-landing-page.md)。 使用应用权限策略的一些示例方案包括：
+
+* 最初逐步向某些用户推出应用，最终向所有用户推出应用。
+* 仅允许 HR 部门成员使用自定义招聘和人才管理应用，并阻止所有其他组织用户使用。
 
 :::image type="content" source="media/app-permission-policy-trimmed.png" alt-text="应用权限策略的屏幕截图。" lightbox="media/app-permission-policy.png":::
 
-若要了解详细信息，请参阅[如何管理自定义应用策略和设置](teams-app-permission-policies.md)。
+若要了解详细信息，请参阅 [如何管理应用权限策略](teams-app-permission-policies.md)。
 
 ## <a name="app-setup-policies"></a>应用设置策略
 
-应用设置策略允许你为用户自定义应用体验。 选择要固定到 Teams 客户端中应用栏的应用，以及这些应用在 Web、桌面和移动客户端上的显示顺序。
+使用应用设置策略，可以配置其 Teams 客户端中用户可用的应用的方式和位置。 选择要固定到 Teams 客户端中的应用栏的应用，并定义应用的显示顺序。
 
-下面是一些有关如何使用应用设置策略的示例：
+固定或安装应用有助于提高组织中所需应用的感知和采用。 这些更改适用于 Web、桌面和移动 Teams 客户端。
 
-* 在其个人 Teams 环境中为最终用户安装应用。 它有助于提高对所需应用的认知和采用。 例如，为人力资源团队成员固定自定义招聘和人才管理应用。
-* 选择性地固定核心应用，如“聊天”、“团队”和“通话”。
+使用应用设置策略的一些示例方案包括：
+
+* 为人力资源团队成员固定自定义招聘和人才管理应用。
+* 更改组织的用户预固定核心应用的顺序。
 
 :::image type="content" source="media/app-setup-policy-trimmed.png" alt-text="Teams 管理中心中的应用设置策略的屏幕截图。" lightbox="media/app-setup-policy.png":::
 
 若要了解详细信息，请参阅[如何管理应用设置策略](teams-app-setup-policies.md)。
 
-## <a name="custom-app-policies"></a>自定义应用策略
+### <a name="option-to-upload-custom-apps"></a>用于上传自定义应用的选项
 
-Teams 允许组织内的开发人员为组织的内部用户生成、测试和部署自定义应用。 开发人员可以通过 Teams 提交其自定义应用，以供 Teams 管理员批准。 可以使用应用设置策略来控制组织中谁可以上传自定义应用。 管理员可以使用组织范围的应用设置允许其组织的最终用户使用自定义应用，并允许开发人员上传自定义应用。
+组织可以根据组织特定的要求委托创建自定义应用。 组织中的开发人员可以为组织的 Teams 内部用户生成、测试和部署自定义应用。 使用应用设置策略来控制组织中谁可以上传自定义应用。 使用组织范围的设置允许最终用户使用自定义应用。 使用权限策略仅允许特定最终用户使用自定义应用。
 
 :::image type="content" source="media/custom-app-policy-trimmed.png" alt-text="屏幕截图显示如何在组织范围的设置面板中允许组织的自定义应用。" lightbox="media/custom-app-policy.png":::
 
-若要了解详细信息，请参阅[如何管理自定义应用策略和设置](teams-custom-app-policies-and-settings.md)。
+若要了解详细信息，请参阅 [如何管理自定义应用的策略和设置](teams-custom-app-policies-and-settings.md)。
 
 ## <a name="related-articles"></a>相关文章
 
 * [使用策略管理 Teams](manage-teams-with-policies.md)
+* [管理应用权限策略](teams-app-permission-policies.md)
+* [管理应用设置策略](teams-app-setup-policies.md)
+* [管理自定义应用的策略和设置](teams-custom-app-policies-and-settings.md)

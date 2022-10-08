@@ -17,17 +17,18 @@ ms.collection:
 - M365-collaboration
 - microsoftcloud-healthcare
 - m365-frontline
+- highpri
 appliesto:
 - Microsoft Teams
 ms.reviewer: yinchang
 description: 了解如何管理和使用 Teams 管理中心和 Microsoft Graph 中的医疗保健团队模板，以快速轻松地为医疗保健组织创建团队。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4f3aa9d42ef86dde75acf8cbd559b6e50059a428
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: bdbb3e52f471e735b1b6c96a1502880c030ed89d
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67396913"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046482"
 ---
 # <a name="use-healthcare-team-templates"></a>使用医疗保健团队模板
 
@@ -41,7 +42,7 @@ Teams 包括专为医疗保健组织设计的模板。 使用这些预建模板�
 
 |如果是： | 然后，可以： |
 | ---- | --------- |
-| 管理人员或 IT 专业人员 |[在 Teams 管理中心中管理团队模板](#manage-team-templates-in-the-teams-admin-center)。查看团队模板，并应用模板策略，以控制员工可以在 Teams 中使用哪些模板来创建团队。 |
+| 管理人员或 IT 专业人员 |[Manage team templates in the Teams admin center](#manage-team-templates-in-the-teams-admin-center). View team templates and apply templates policies to control which templates your staff can use in Teams for creating teams. |
 | 开发人员 | [使用 Microsoft Graph ](#use-team-templates-with-microsoft-graph) 从团队模板中创建团队。 |
 
 ## <a name="manage-team-templates-in-the-teams-admin-center"></a>Teams 管理中心的管理团队模板
@@ -73,7 +74,7 @@ Teams 包括专为医疗保健组织设计的模板。 使用这些预建模板�
 &sup1;将应用作为选项卡添加到频道中。
 ## <a name="use-team-templates-with-microsoft-graph"></a>将 Teams 模板与 Microsoft Graph 一起使用
 
-开发人员可以使用 Microsoft Graph 基于预建的团队模板创建团队。若要详细了解如何将团队模板与 Microsoft Graph 配合使用，请参阅[使用 Microsoft Graph 团队模板入门](../../get-started-with-teams-templates.md)，[Microsoft Teams API 概述](/graph/teams-concept-overview)，[teamsTemplate 资源类型](/graph/api/resources/teamstemplate)。
+Developers can use Microsoft Graph to create teams from pre-built team templates. To learn more about using team templates with Microsoft Graph, see [Get started with team templates using Microsoft Graph](../../get-started-with-teams-templates.md), [Microsoft Teams API overview](/graph/teams-concept-overview), and [teamsTemplate resource type](/graph/api/resources/teamstemplate).
 
 下面是预建的医疗保健团队模板。
 ### <a name="ward"></a>病房

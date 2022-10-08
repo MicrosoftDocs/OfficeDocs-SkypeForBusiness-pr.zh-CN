@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - seo-marvel-apr2020
 description: 了解如何在 Teams 中管理常规会议策略设置。
-ms.openlocfilehash: 0278133ff33e811cc4f08e1ad2973f52615d1426
-ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.openlocfilehash: ba667e5fbbe4d0f5e4d1ece6dba5943691b572a6
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706951"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046722"
 ---
 # <a name="meeting-policy-settings---general"></a>会议策略设置 - 常规
 
@@ -154,7 +154,7 @@ ms.locfileid: "67706951"
 
 此策略控制哪些用户可以注册和参加网络研讨会。 此策略有两个选项，仅在打开 **会议注册** 时才可用。
 
-- 如果希望允许所有人（包括匿名用户）注册和参加组织中用户设置的网络研讨会，请设置 **“谁可以注册** 到 **每个人** ”。
+- 如果希望允许所有人（包括匿名用户）注册和参加组织设置中的用户的网络研讨会，请设置 **“谁可以注册** 到 **每个人** ”。
 - 如果希望仅允许组织中的用户注册和参加网络研讨会，请设置 **“谁可以注册** 到 **组织中的每个人** ”。
 
 默认情况下， **可以注册的人员** 设置为 **“每个人**”。 若要在 Teams 管理中心编辑此策略，请转到 **会议** > **会议策略**。
@@ -181,8 +181,9 @@ ms.locfileid: "67706951"
   如果将参数设置为 **Teams**，然后切换回 **TeamsAndSfB**，则将启用这两个会议加载项。 但是，请注意，现有的 Teams 会议联接链接不会迁移到Skype for Business。 只有在更改后安排的 Skype for Business 会议才会有 Skype for Business 会议加入链接。
 
 ## <a name="meeting-reactions"></a>会议反应
+可以通过 Teams 管理中心接口或 PowerShell 配置会议响应的可用性。 可以在会议策略的 **参与者&来宾** 部分下启用或禁用会议反应。
 
-AllowMeetingReactions 设置只能使用 PowerShell 应用。 在 Teams 管理中心，没有任何选项可以打开或关闭 AllowMeetingReactions。
+若要配置设置，请使用Set-CsTeamsMeetingPolicy cmdlet。 默认情况下启用此设置。 若要将其关闭，请将 **AllowMeetingReactions** 设置为 **False**。
 
 会议回应默认为“关闭”。 关闭用户的回应，并不意味着用户不能在自己安排的会议中使用回应。 无论默认设置如何，会议组织者仍然可以从会议选项页面开启回应。
 

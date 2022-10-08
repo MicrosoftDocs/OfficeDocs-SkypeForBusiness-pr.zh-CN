@@ -16,12 +16,12 @@ f1.keywords:
 description: 用于直接路由的本地媒体优化
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4c33b8225f3bcde32428348e85166ff4d4463738
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: a86758d3376b2232126d095f9c9b1a1a28371481
+ms.sourcegitcommit: 9522d951700d19ab13c60a6452b3a8a4c824ee36
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616088"
+ms.lasthandoff: 09/26/2022
+ms.locfileid: "68018108"
 ---
 # <a name="plan-for-local-media-optimization-for-direct-routing"></a>规划用于直接路由的本地媒体优化
 
@@ -232,7 +232,7 @@ Contoso 根据其业务要求实施了两个解决方案，其中包含用于直
 
 图 5.  具有“始终绕过”模式且用户位于“主页”站点的流量流
 
-![显示流量流本地媒体优化的图表。] (媒体/direct-routing-media-op-5.png“具有”始终绕过“模式的流量流，用户位于”主页“站点中) 
+![显示流量流本地媒体优化的图表。](media/direct-routing-media-op-5.png "具有“始终绕过”模式且用户位于“主页”站点的流量流")
 
 
 #### <a name="scenario-2-the-user-and-gateways-are-in-different-sites"></a>方案 2：用户和网关位于不同的站点中
@@ -255,7 +255,7 @@ Contoso 根据其业务要求实施了两个解决方案，其中包含用于直
 
 图 6.  “始终绕过”模式的流量流，用户不在“主页”站点中，而是在内部网络中
 
-![显示流量流本地媒体优化的图示。] (媒体/direct-routing-media-op-6.png“使用”始终绕过“模式的流量流，用户不在”主页“站点中，而是在内部网络中”) 
+![图中显示了流量流本地媒体优化。](media/direct-routing-media-op-6.png "“始终绕过”模式的流量流和用户不在“主页”站点中，而是在内部网络中")
 
 ### <a name="mode-2-only-for-local-users"></a>模式 2：仅适用于本地用户
 
@@ -295,7 +295,7 @@ Contoso 根据其业务要求实施了两个解决方案，其中包含用于直
 
 图 7. 流量流以“仅供本地用户使用”模式且用户位于“主页”站点
 
-![显示流量流本地媒体优化的另一个关系图。] (媒体/direct-routing-media-op-7.png“流量流”模式为“仅供本地用户使用”，用户位于“主页”站点中) 
+![另一个显示流量流本地媒体优化的图示。](media/direct-routing-media-op-7.png "流量流以“仅供本地用户使用”模式且用户位于“主页”站点")
 
 
 #### <a name="scenario-2-the-user-and-gateways-are-in-different-sites"></a>方案 2。 用户和网关位于不同的站点中
@@ -325,7 +325,7 @@ Contoso 根据其业务要求实施了两个解决方案，其中包含用于直
 
 图 8.  流量流以“仅供本地用户使用”模式，且用户不在“主页”站点中，而是在内部网络中
 
-![另一个图示显示了流量流本地媒体优化。] (媒体/direct-routing-media-op-8.png“仅限本地用户”模式的流量流中，用户不在“主页”站点中，而是在内部网络中“) 
+![另一张图显示了流量流本地媒体优化。](media/direct-routing-media-op-8.png "使用“仅供本地用户”模式的流量流，用户不在“主页”站点中，而是在内部网络中")
 
 ## <a name="known-issues"></a>已知问题
 

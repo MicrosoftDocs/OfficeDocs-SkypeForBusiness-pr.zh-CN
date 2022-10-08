@@ -1,7 +1,7 @@
 ---
 title: 在 Microsoft Teams 中规划实时事件
-author: CarolynRowe
-ms.author: crowe
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -20,44 +20,44 @@ description: 在本文中，你将了解在 Microsoft Teams 中设置实时事�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7e522227baf9d71cddd51c5cd0468b91bb6de3f8
-ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
-ms.translationtype: HT
+ms.openlocfilehash: 6c5b0865c5b3c466fe37b41422453ee0cc6f0c9b
+ms.sourcegitcommit: d6e180791134426445a35fd485dcca18bde2006b
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66825546"
+ms.lasthandoff: 10/07/2022
+ms.locfileid: "68494635"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中规划实时事件
 
 计划 Teams 实时事件时，若要在组织中召开大型会议，则在开始设置之前，需要考虑几个因素。
 
 > [!Note]
-> 有关不同平台上的 Teams 实时事件的详细信息，请参阅 [Teams 功能（按平台）](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。请参阅[让你的组织做好准备](../prepare-network.md)，了解 Teams 直播活动的带宽要求。
+> For details about Teams live events on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3). See [prepare your organization](../prepare-network.md) to learn about bandwidth requirements for Teams live events.
 
 ## <a name="who-can-attend-create-and-schedule-live-events"></a>谁可以参加、创建和计划实时事件
 
-任何人都可以在没有许可证的情况下参加实时事件。请阅读[管理员快速入门 - 会议和实时事件](../quick-start-meetings-live-events.md)。
+Anyone can attend a live event without a license. Read [Admin quick start - Meetings and live events](../quick-start-meetings-live-events.md).
 
 若要安排 Teams 实时事件，用户必须满足以下前提条件。
 
 以下是组织、制作或呈现 Teams 现场活动所必须分配的许可证：  
 
 - **组织：** Microsoft 或 Office 365 企业版 E1、E3 或 E5 许可证，**[或]** Microsoft 或 Office 365 教育版 A3 或 A5 许可证。 
-- **制作或呈现：** Microsoft 或 Office 365 企业版 E1、E3 或 E5 许可证，**[或]** Microsoft 或 Office 365 教育版 A1、A3 或 A5 许可证。此要求的例外情况是：如果满足 [来宾用户](plan-for-teams-live-events.md#guest-to-present) 的其他条件，来宾用户无需许可证即可出席。
+- **To produce or present:** A Microsoft or Office 365 Enterprise E1, E3 or E5 license, **[or]** a Microsoft or Office 365 Education A1, A3 or A5 license. The exception to this requirement is guest users can present without a license if the other criteria for [guest users](plan-for-teams-live-events.md#guest-to-present) is met.
 - Microsoft Teams 许可证 - 此许可证包含在第一个和第二个项目符合所列的许可证中。
-- 如果你计划将内容共享到外部应用或设备，则需要 Microsoft Stream 许可证；请参阅 [Microsoft Stream 许可证](/stream/license-overview)。
+- 如果你计划将内容共享到外部应用或设备，则需要 Microsoft Stream 许可证；请参阅 [Microsoft Stream 许可证](/stream/license-overview)。 如果使用较新的 Teams 编码器服务生成事件，则不需要流许可证。 
 
-  如果你希望用户仅进行录制和下载录制的内容，那么这些用户无需拥有 Microsoft Stream 许可证。这意味着录制的内容不会存储在 Microsoft Stream 中，而是存储在 Azure 媒体服务 (AMS) 中，且存储 180 天后被删除。目前，管理员无法控制或管理此设置来包含删除这些内容的功能。
+  Users won't need a Microsoft Stream license assigned if you want users to only record and download the recordings. This will mean that the recordings aren't stored in Microsoft Stream but are instead stored in Azure Media Services (AMS) with a 180-day limit before it's deleted. It's not something at this point that an admin can control or manage to include the ability to delete it.
 
 >[!Note]
-> 将会议录制从 Microsoft Stream 改为 [OneDrive for Business 和 SharePoint](../tmr-meeting-recording-change.md) 将是一种分阶段的方法。在发布时，你将能够选择加入此体验，如果想继续使用 Stream，则在 11 月你必须选择退出，在 2021 年初的某个时候，我们将要求所有客户使用 OneDrive for Business 和 SharePoint 进行会议录制。
+> The change from using Microsoft Stream to [OneDrive for Business and SharePoint for meeting recordings](../tmr-meeting-recording-change.md) will be a phased approach. At launch you'll be able to opt-in to this experience, in November you'll have to opt-out if you want to continue using Stream, and some time in early 2021 we'll require all customers to OneDrive for Business and SharePoint for meeting recordings.
 
 > [!NOTE]
 > 目前，没有任何 Microsoft 365 小型企业版计划可用于创建和保留 Teams 实时事件。
 
 注意，Microsoft 365 或 Office 365 许可证是经过身份验证的用户参见实时事件的必要条件，但是此要求取决于所使用的制作方式：
 
-- **使用 Teams 制作的事件**  必须为用户分配 Teams 许可证。
+- **对于 Teams 中生成的事件或使用 Teams 支持的编码器**  必须为用户分配 Teams 许可证。
 - **使用外部应用程序或设备制作的事件** 必须向该用户分配 Stream 许可证。
 
 > [!NOTE]
@@ -85,23 +85,23 @@ ms.locfileid: "66825546"
 2. 让该用户接受来宾邀请并加入团队。
 3. [安排直播活动并将来宾添加到活动组](https://support.microsoft.com/article/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2)。
 
-作为最佳做法，我们建议你为直播活动的制作者和演示者创建一个频道，以便他们可以在活动前聊天和共享信息。没有 Microsoft 365 凭据的来宾将无法在 Teams 中看到日历。为便于用户加入活动，制作者可将活动链接发布到相应频道。演示者随后可以打开 Teams，转到该频道，然后单击链接以加入该活动。
+As a best practice, we recommend that you create a channel for producers and presenters of the live event so they can chat and share information before the event. Guests who don't have Microsoft 365 credentials won't see the Calendar in Teams. To make it easy for them to join the event, producers can post the event link to the channel. Presenters can then open Teams, go to the channel, and then select the link to join the event.
 
 ## <a name="who-can-watch-live-events"></a>谁可以观看实时事件
 
-| 与会者可见性 | Teams 制作 | 外部应用或设备制作 |
-|------------------------------|-----------------|----------------------|
-|公共（匿名用户）      |  是            |  否                  |
-|来宾用户                   |  是<sup>1</sup>            |  否                  |
-|外部访问（联盟）公司中的任何人 |  是<sup>1</sup>|  否                  |
-|公司中的所有人           |  是            |  是                 |
-|指定组/人员      |  是            |  是                 |
+| 与会者可见性 | Teams 制作 | 外部应用或设备制作 | Teams 支持的编码器
+|------------------------------|-----------------|----------------------|----------------|
+|公共（匿名用户）      |  是            |  否                  | 是
+|来宾用户                   |  是<sup>1</sup>            |  否                  |  支持            |
+|外部访问（联盟）公司中的任何人 |  是<sup>1</sup>|  否                  | 是            |
+|公司中的所有人           |  是            |  是                 | 是                |
+|指定组/人员      |  是            |  是                 | 是                |
 
 <sup>1</sup> 只能通过“人员和组”邀请 <br>
 
-## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Teams 实时事件和Skype 会议直播
+## <a name="teams-live-events"></a>Teams 实时事件
 
-下表突出显示了实时事件中提供的核心功能以及区别 Skype 会议直播的方式。
+下表重点介绍了实时事件中提供的核心功能和功能
 
 > [!IMPORTANT]
 > **Microsoft 365 实时事件限制的增加**
@@ -112,7 +112,7 @@ ms.locfileid: "66825546"
 >- 一个租户可同时举办50场活动
 >- 每次广播的活动持续时间为16小时
 >
-> 此外，可通过 Microsoft 365 辅助计划规划最多 100,000 名与会者的实时活动。团队将评估每个请求，并共同确定可能可用的选项。[了解详情](https://aka.ms/Stream/Blog/LiveEventOptions)。 
+> Additionally, live events with up to 100,000 attendees can be planned through the Microsoft 365 live events assistance program. The team will assess each request and work with you to determine options that may be available. [Learn more](https://aka.ms/Stream/Blog/LiveEventOptions). 
 
 | 功能 | Skype 会议直播 | 在 Teams 中制作的事件 | 使用外部应用或设备制作的事件 |
 |---------|---------|---------|---------|
@@ -143,12 +143,12 @@ ms.locfileid: "66825546"
 |制作者直播后受众报告 |&#x2714; |&#x2714; |&#x274C; |
 |受众情绪分析 – 实时投票和民意调查 |&#x2714; (Microsoft Pulse) |&#x274C; |&#x274C; |
 
-<sup>1</sup> 设定的限制可能会更改。查看 [Teams 限制和规范](../limits-specifications-teams.md)。<br/>
+<sup>1</sup> The limits that are set might be changed. Check [Limits and specifications for Teams](../limits-specifications-teams.md).<br/>
 <sup>2</sup> 可在实时事件中拥有多达 100 位演示者和制作者，但列表中仅显示最后 10 位发言的人员。
 
 ## <a name="regional-availability"></a>区域可用性
 
-可在全球中的多个区域实用 Teams 实时事件。以下信息显示事件团队成员和参与者的空闲时间。
+You can use Teams live events in multiple regions across the world. The following information shows availability for event team members and attendees.
 
 > [!IMPORTANT]
 > 将根据组织者和 Microsoft 365 租户的位置自动选择事件的区域。

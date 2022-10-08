@@ -8,6 +8,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.subservice: teams-apps
 audience: Admin
+ms.date: 09/26/2022
 ms.collection:
 - M365-collaboration
 appliesto:
@@ -17,12 +18,12 @@ f1.keywords:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 了解如何在 Microsoft Teams 管理中心将自定义应用上传到组织的应用商店。
-ms.openlocfilehash: 60bb4c2ce41830dd789bd70763c8f3eb6ab8cde7
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: 51ea4bdc31ff59a34bdf28a991617fff0f4e7381
+ms.sourcegitcommit: d6e180791134426445a35fd485dcca18bde2006b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837312"
+ms.lasthandoff: 10/07/2022
+ms.locfileid: "68494605"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>通过上载应用包来发布自定义应用
 
@@ -31,7 +32,7 @@ ms.locfileid: "67837312"
 
 本文提供有关如何将 Teams 应用从开发到部署到发现的过程的端到端指导。 本指南重点介绍应用的 Teams 方面，适用于管理员和 IT 专业人员。 有关开发 Teams 应用的详细信息，请参阅 [Teams 开发人员文档](/microsoftteams/platform/)。
 
-![从开发到部署的应用概述。](media/upload-custom-apps.png)
+:::image type="content" source="media/upload-custom-apps.png" alt-text="从开发到部署的应用概述。":::
 
 ## <a name="create-your-app"></a>创建应用
 
@@ -84,7 +85,7 @@ Teams 应用商店中的所有应用都通过强制 [应用验证](overview-of-a
 
 1. 选择 **“上传**”，选择 **“上传**”，选择从开发人员处收到的应用包，然后选择 **“打开**”。
 
-   ![管理中心内自定义应用上传的屏幕截图。](media/manage-your-lob-apps-upload-new-app.png)
+   :::image type="content" source="media/manage-your-lob-apps-upload-new-app.png" alt-text="管理中心内自定义应用上传的屏幕截图。":::
 
 ## <a name="set-up-and-manage"></a>设置和管理
 
@@ -134,6 +135,6 @@ Teams 应用商店中的所有应用都通过强制 [应用验证](overview-of-a
 
 * [发布通过 Teams 应用提交 API 所提交的自定义应用](submit-approve-custom-apps.md)
 * [在 Microsoft Teams 管理中心管理应用](manage-apps.md)
-* [在 Teams 中管理自定义应用策略和设置](teams-custom-app-policies-and-settings.md)
+* [管理自定义应用的策略和设置](teams-custom-app-policies-and-settings.md)
 * [在 Teams 中管理应用权限策略](teams-app-permission-policies.md)
 * [在 Teams 中管理应用设置策略](teams-app-setup-policies.md)

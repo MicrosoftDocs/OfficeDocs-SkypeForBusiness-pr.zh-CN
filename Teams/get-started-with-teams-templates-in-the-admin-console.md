@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection:
 - M365-collaboration
 - m365-frontline
+- highpri
 description: 了解团队模板以及如何在 Microsoft Teams 管理中心管理它们。
 f1.keywords:
 - CSH
@@ -19,12 +20,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 41267db383d39c40ee18a67ee96538f205df52e4
-ms.sourcegitcommit: ceba5fd8f098c8d0eafaffe5c5301c845a3ae7ab
+ms.openlocfilehash: 2fc4f5c88e123981ee5224a76c28996306e51ded
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "67837552"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046892"
 ---
 # <a name="get-started-with-team-templates-in-the-teams-admin-center"></a>在管理中心内开始使用 Teams 模板
 
@@ -80,7 +81,7 @@ Microsoft Teams 中的团队模板是围绕业务需求或项目设计的团队�
 >| ------------------ | -------------- | ----------------------------------------------------- |
 >| 管理项目* |`com.microsoft.teams.template.ManageAProject`| 频道： <ul><li>常规</li> <li>公告</li> <li>资源</li> <li>规划</li></ul> 应用：<ul><li>审批</li><li>公告</li><li>列表<ul><li>项目跟踪器</li><li>问题跟踪器</li></ul></li><li>里程碑</li><li>OneNote</li><li>Power Automate</li><li>SharePoint Pages<ul><li>我们的网站</li></ul></li><li>Planner 和 To Do 的任务</li><li>Wiki</li></ul> |
 | 管理事件*|`com.microsoft.teams.template.ManageAnEvent` | 频道： <ul><li>常规</li> <li>公告</li> <li>预算</li> <li>内容</li><li>后勤工作</li> <li>规划</li> <li> 市场营销和 PR</li></ul> 应用：<ul><li>审批</li><li>公告</li> <li>员工想法</li><li>列表<ul><li>内容计划程序</li></ul></li><li>里程碑</li> <li>OneNote</li> <li>Power Automate</li> <li>SharePoint Pages<ul><li>我们的网站</li><li>关于我们的事件</li></ul><li>Planner 和 To Do 的任务</li><li>Wiki</li> |
-|载入员工*|`com.microsoft.teams.template.OnboardEmployees` | 频道： <ul><li>常规</li> <li>公告</li> <li>员工聊天</li> <li>培训</li></ul>应用：<ul><li>公告</li><li>员工想法</li><li>列表<ul><li>载入清单</li></ul></li><li>里程碑</li><li>Power Automate</li> <li>SharePoint Pages<ul><li>开始使用</li><li>培训</li></ul><li>Planner 和 To Do 的任务</li><li>Viva Engage</li><li>Wiki</li></ul>|
+|载入员工*|`com.microsoft.teams.template.OnboardEmployees` | 频道： <ul><li>常规</li> <li>公告</li> <li>员工聊天</li> <li>培训</li></ul>应用：<ul><li>公告</li><li>员工想法</li><li>列表<ul><li>载入清单</li></ul></li><li>里程碑</li><li>Power Automate</li> <li>SharePoint Pages<ul><li>入门</li><li>培训</li></ul><li>Planner 和 To Do 的任务</li><li>Viva Engage</li><li>Wiki</li></ul>|
 | 采用Office 365 |`com.microsoft.teams.template.AdoptOffice365`|  频道： <ul><li>常规</li> <li>公告</li> <li>冠军角</li> <li>团队窗体</li><li>日历</li></ul> 应用： <ul><li>Wiki</li>  <li>频道日历</li> <li>里程碑</li><li>公告</li></ul>
 |组织技术支持人员*| `com.microsoft.teams.template.OrganizeHelpDesk`|频道：<ul><li>常规</li><li>公告</li><li>常见问题</li></ul>应用：<ul><li>问题报告</li><li>列表<ul><li>设备</li><li>票</li></ul></li><li>OneNote</li><li>Power Automate</li><li>SharePoint Pages<ul><li>我们的网站</li><li>常见问题解答</li></ul></li><li>Planner 和 To Do 的任务</li><li>Wiki</li></ul> |
 |事件响应| `com.microsoft.teams.template.CoordinateIncidentResponse`|频道： <ul><li>常规<li>公告</li><li>后勤工作</li><li>规划</li><li>恢复</li><li>紧急</li></ul> 应用： <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>任务</li> <li>审批</li> <li>检查</li> <li>Power Automate</li><li>公告</li><li>里程碑</li></ul>|

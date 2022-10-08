@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: ''
-description: 如何从 ITAdmin 的角度在 Microsoft Teams 中配置 Walkie Talkie 应用。
+description: 如何从 IT 管理员的角度在 Microsoft Teams 中配置 Walkie Talkie 应用。
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -15,16 +15,17 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 - m365-frontline
+- highpri
 ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e309fa03e73dc13bff8bd1a90708c688bb0f5350
-ms.sourcegitcommit: 7a1fb6e15c21368afa34cd212865437781f721e2
+ms.openlocfilehash: cbce17ad584fdd4910f11129d2b246e4644e1583
+ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "67465990"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "68377300"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft Teams 中的 Walkie Talkie 应用
 
@@ -35,9 +36,16 @@ Teams 中的 Walkie Talkie 应用为团队提供即时推 (PTT) 通信，可在 
 > [!NOTE]
 > Walkie Talkie 目前在中国不可用。
 
+## <a name="license-requirements"></a>许可证要求
+
+Walkie Talkie 包含在 [Microsoft 365 和 Office 365 订阅](/office365/servicedescriptions/teams-service-description)中的所有 Teams 付费许可证中。 有关获取 Teams 的详细信息，请查看[如何实现访问 Microsoft Teams](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)？
+
 ## <a name="deploying-walkie-talkie"></a>部署 Walkie Talkie
 
 使用 Google Mobile Services (GMS) 和 iOS 设备的 Android 设备支持 Walkie Talkie。
+
+> [!NOTE]
+> 如果用户使用的是蓝牙配件，请确保移动设备管理 (MDM) 解决方案不会阻止蓝牙设备。
 
 ### <a name="enable-or-disable-walkie-talkie-in-your-organization"></a>在组织中启用或禁用 Walkie Talkie
 
@@ -113,10 +121,6 @@ Teams 中的 Walkie Talkie 需要 Internet 连接。 为了获得最佳体验，
 
 > [!NOTE]
 > 这些设备未通过 Teams 认证。 他们已被验证为使用 Teams Walkie Talkie。
-
-## <a name="license-requirements"></a>许可证要求
-
-Walkie Talkie 应用包含在 Office 365 订阅中 Teams 的所有付费许可证[中](/office365/servicedescriptions/teams-service-description)。 有关获取 Teams 的详细信息，请查看[如何实现访问 Microsoft Teams](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)？
 
 ## <a name="more-information"></a>更多信息
 

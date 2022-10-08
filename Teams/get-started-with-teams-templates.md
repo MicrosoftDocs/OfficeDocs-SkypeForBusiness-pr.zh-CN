@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection:
 - M365-collaboration
 - m365-frontline
+- highpri
 description: 了解仅适用于 Microsoft Graph 的团队模板。
 f1.keywords:
 - CSH
@@ -20,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c4251aa0293665b6fd41c66e352ca9c595378259
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: ca21b61f1d1889c101208c8b9617efb4a9c19795
+ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67397233"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "68046862"
 ---
 # <a name="get-started-with-team-templates-using-microsoft-graph"></a>开始使用 Microsoft Graph 的团队模板
 
@@ -66,9 +67,9 @@ This article is for you if you're:
 | 模板类型 | TemplateId | 此基本模板包含的属性 |
 | ------------------ | -------------- | ----------------------------------------------------- |
 | Standard | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('standard')` | 没有其他应用和属性 |
-| 教育 -<br>类团队 | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationClass')` | 应用：<ul><li>OneNote 课堂笔记本 (固定到“ **常规** ”选项卡)  </li><li>分配应用 (固定到“ **常规** ”选项卡) </li></ul> 团队属性：<ul><li>无法重写设置为 **HiddenMembership** (的团队可见性) </li></ul> |
-| 教育 -<br>员工团队 | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationStaff')` | 应用：<ul><li>OneNote 教职员工笔记本 (固定到“ **常规** ”选项卡) </li></ul> |
-|教育 -<br>PLC 团队 |`https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | 应用：<ul><li>OneNote PLC Notebook (固定到“ **常规** ”选项卡) </ul></li>|
+| 教育-<br>类团队 | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationClass')` | 应用：<ul><li>OneNote 课堂笔记本 (固定到“ **常规** ”选项卡)  </li><li>分配应用 (固定到“ **常规** ”选项卡) </li></ul> 团队属性：<ul><li>无法重写设置为 **HiddenMembership** (的团队可见性) </li></ul> |
+| 教育-<br>员工团队 | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationStaff')` | 应用：<ul><li>OneNote 教职员工笔记本 (固定到“ **常规** ”选项卡) </li></ul> |
+|教育-<br>PLC 团队 |`https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | 应用：<ul><li>OneNote PLC Notebook (固定到“ **常规** ”选项卡) </ul></li>|
 
 > [!NOTE]
 > 有关可在 Teams 客户端和 Microsoft Graph 中使用的预生成模板列表，请 [参阅 Teams 管理中心中的团队模板入](get-started-with-teams-templates-in-the-admin-console.md)门。
