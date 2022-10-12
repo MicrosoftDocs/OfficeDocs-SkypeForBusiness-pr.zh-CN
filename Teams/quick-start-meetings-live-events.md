@@ -22,12 +22,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d4e28437d6251156e16c2568c9adf9a708e412bd
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
-ms.translationtype: HT
+ms.openlocfilehash: dc99785bf5d0450e99022f230af7564693c6da7f
+ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66615668"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68532242"
 ---
 # <a name="meetings-webinars-and-live-events"></a>会议、网络研讨会和直播活动
 
@@ -35,10 +35,7 @@ ms.locfileid: "66615668"
 
 本文面向管理员和 IT 专业人员介绍了会议、网络研讨会和直播活动之间的差异。 然后提供了指向快速向用户推出此功能所需信息的链接。
 
-> [!NOTE]
-> 有关在不同平台上快速配置 Teams 会议和活动的详细信息，请参阅 [Teams 功能（按平台）](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
-
-[会议](#meetings)、[网络研讨会](#webinars) 和 [直播活动](#live-events) 是会议的全部三种类型，但网络研讨会和直播活动为组织者提供了对于对话和参与者的其他控制。网络研讨会提供双向交互，而直播活动提供托管的问答体验。 
+[Meetings](#meetings), [webinars](#webinars), and [live events](#live-events) are all types of meetings, but webinars and live events provide additional control for the organizer over the conversation and participants. Webinars provide two-way interaction while live events provide a managed Q&A experience. 
 
 不同类型的会议还具有不同的参与者限制和参与者功能。 
 
@@ -54,7 +51,13 @@ ms.locfileid: "66615668"
 
 **由通常的 10,000 人增加到 2022 年 12 月 31 日的 20,000 人。 在 Yammer 和/或 Microsoft Stream 中，可以安排人数更为庞大的直播活动。 有关详细信息，请参阅 [跨 Microsoft 365 的直播活动](/stream/live-event-m365)。 请注意，如果与会者人数超过 20,000 人，则活动需要 [直播活动协助计划](/stream/live-events-assistance)。
 
-请注意，NDI 在会议、网络研讨会和直播活动中完全受支持，从而允许使用 OBS 和 Wirecast 等工具生成广播。有关详细信息，请参阅 [在 Microsoft Teams 中使用 NDI® 技术](use-ndi-in-meetings.md)。
+Note that NDI is fully supported in meetings, webinars, and live events, allowing you to produce the broadcast by using tools such as OBS and Wirecast. For more information, see [Use NDI® technology in Microsoft Teams](use-ndi-in-meetings.md).
+
+> [!NOTE]
+> 有关其他信息并按角色获取有关使用 Microsoft Teams 传送联机事件的指导，请参 [阅虚拟事件 Playbook](https://adoption.microsoft.com/virtual-event-guidance/)。 还可以加入Microsoft Tech Community上的[虚拟事件论坛](https://aka.ms/VirtualEventForum)。
+
+> [!NOTE]
+> 有关在不同平台上快速配置 Teams 会议和活动的详细信息，请参阅 [Teams 功能（按平台）](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
 
 ## <a name="meetings"></a>会议
 
@@ -131,7 +134,7 @@ Teams 中的 **会议** 包括最多 1,000 人的音频、视频和屏幕共享�
 
 ## <a name="apps-for-meetings"></a>会议应用
 
-通过 Microsoft，可以通过集成和使用会议应用来增强会议体验。例如，Teams 会议中的 Whiteboard 集成由 Whiteboard Web 应用提供支持，允许 Teams 会议参与者在共享数字画布上一起绘制、速记和书写。
+Microsoft enables you to enhance meeting experiences by integrating and using meeting apps. For example, whiteboard integration in Teams meetings is powered by the Whiteboard web app, which lets Teams meeting participants draw, sketch, and write together on a shared digital canvas.
 
 可以通过使用 Teams 提供的应用、使用经过认证的第三方应用和模板，以及创建自己的自定义应用将会议应用添加到 Teams 部署中。
 
@@ -215,4 +218,3 @@ Teams 中的 **会议** 包括最多 1,000 人的音频、视频和屏幕共享�
 
 [Teams 限制和规范](limits-specifications-teams.md)
 
-[Microsoft 技术社区： Microsoft 365 中的实时事件](https://resources.techcommunity.microsoft.com/live-events/)

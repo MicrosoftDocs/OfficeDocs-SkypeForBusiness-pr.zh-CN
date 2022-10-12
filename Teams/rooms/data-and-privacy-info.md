@@ -18,12 +18,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 数据和隐私信息
 f1keywords: Microsoft Teams Rooms Managed Service Data and Privacy Information
-ms.openlocfilehash: 5799288005a5d30152a6f810c0aa40d451198390
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 50806ffce468ac9add956d6942c2b3b2e5885125
+ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270297"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68532462"
 ---
 # <a name="approach"></a>方法
 
@@ -48,8 +48,6 @@ ms.locfileid: "67270297"
 ## <a name="data-handling"></a>数据处理
 
 Microsoft 受数据传输、存储、使用和保留的严格标准约束。 Microsoft 具有数据处理标准策略，这些策略根据数据分类来规范数据的处理方式。
-
-
 
 ## <a name="technology-description"></a>技术说明
 
@@ -100,4 +98,8 @@ Microsoft 受数据传输、存储、使用和保留的严格标准约束。 Mic
 
 ## <a name="more-resources"></a>更多资源
 
-Microsoft Teams 会议室安全：/microsoftteams/rooms/security Microsoft 隐私声明： https://aka.ms/privacyMicrosoft 的数据管理：https://www.microsoft.com/trust-center/privacy/data-management托管服务服务说明：[Microsoft Teams 会议室托管服务](microsoft-teams-rooms-premium.md)
+适用于 Windows 安全性的Microsoft Teams 会议室：[[适用于 Windows 安全性的 Microsoft Teams](/microsoftteams/rooms/security-windows) \
+Android 安全Microsoft Teams 会议室：[适用于 Android 安全性的 Microsoft Teams](/microsoftteams/rooms/security-android) \
+Microsoft 隐私声明： https://aka.ms/privacy \
+Microsoft 的数据管理： https://www.microsoft.com/trust-center/privacy/data-management \
+托管服务说明： [Microsoft Teams 会议室托管服务](microsoft-teams-rooms-premium.md)

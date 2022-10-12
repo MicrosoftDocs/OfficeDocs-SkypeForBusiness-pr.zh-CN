@@ -12,12 +12,12 @@ ms.collection:
 description: 了解 Teams PowerShell 模块中基于应用程序的身份验证，该模块用于管理 Microsoft Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7dab0f32a6547db5522f00d4750f7eff26ea5995
-ms.sourcegitcommit: 43db97b84ca70b1e6accfa7214d4106e4177a642
+ms.openlocfilehash: 8dd4b230f7f22feb574463a96d4a4447bcf0cfb0
+ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2022
-ms.locfileid: "68218086"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68532492"
 ---
 # <a name="application-based-authentication-in-teams-powershell-module"></a>Teams PowerShell 模块中基于应用程序的身份验证
 
@@ -95,7 +95,7 @@ Teams PowerShell 模块使用应用程序 ID、租户 ID 和证书指纹提取�
 
 使用应用程序对象进行身份验证需要初始载入。 应用程序和服务主体可互换使用，但应用程序类似于类对象，而服务主体类似于类的实例。 可以在 [Azure Active Directory 中的应用程序和服务主体对象中了解有关这些对象的详细信息](/azure/active-directory/develop/app-objects-and-service-principals)。
 
-下面提到了在 Azure Ad 中创建应用程序的高级步骤，有关详细步骤，请参阅 [本文](/azure/active-directory/develop/howto-create-service-principal-portal)。
+下面提到在 Azure Ad 中创建应用程序的示例步骤，有关详细步骤，请参阅 [本文](/azure/active-directory/develop/howto-create-service-principal-portal)。
 
 1. 在 Azure AD 中注册应用程序
 2. 向应用程序分配 API 权限
@@ -103,7 +103,7 @@ Teams PowerShell 模块使用应用程序 ID、租户 ID 和证书指纹提取�
    - 对于非 \*Cs cmdlet - 所需的 Microsoft 图形 API权限为 `User.Read.All`， ， `Group.ReadWrite.All`， `AppCatalog.ReadWrite.All``Channel.Delete.All``TeamSettings.ReadWrite.All`， ， `ChannelSettings.ReadWrite.All`， 。 `ChannelMember.ReadWrite.All`  
 3. 生成自签名证书
 4. 将证书附加到 Azure AD 应用程序
-5. 将 Azure AD 角色分配到应用程序
+5. 将 [Azure AD 角色](/microsoftteams/using-admin-roles#teams-roles-and-capabilities) 分配到应用程序
 
 应用程序需要分配适当的 RBAC 角色。 由于应用是在 Azure AD 中预配的，因此可以使用任何受支持的内置角色。
  

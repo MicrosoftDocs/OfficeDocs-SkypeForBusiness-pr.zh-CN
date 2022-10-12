@@ -17,18 +17,21 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: 远程管理Microsoft Teams 会议室设备使用的默认设置，包括应用自定义主题和创建主设置文件。
-ms.openlocfilehash: e09501d4b39ddbb83e914d53fe61bfb97d1a4fa8
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: f0e563935725bf68ebf087d8a58a199683bac70f
+ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606201"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68532252"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>使用 XML 配置文件远程管理Microsoft Teams 会议室控制台设置
 
 本文介绍对Microsoft Teams 会议室设备使用的默认设置的远程管理，包括应用自定义主题。 它讨论如何创建主设置文件，以及有关如何根据需要将其放置在Teams 会议室的讨论链接。
   
-可以通过更新主 XML 文件并将副本发送到远程Teams 会议室设备来更改Teams 会议室的默认设置。 
+可以通过更新主 XML 文件并将副本发送到远程Teams 会议室设备来更改Teams 会议室的默认设置。
+
+> [!NOTE]
+> 某些功能仅在已分配Microsoft Teams 会议室 Pro 许可证的Teams 会议室设备上可用。 若要查看哪些功能需要Microsoft Teams 会议室 Pro，[请参阅Microsoft Teams 会议室许可证](rooms-licensing.md)。
   
 ## <a name="create-an-xml-configuration-file"></a>创建 XML 配置文件
 

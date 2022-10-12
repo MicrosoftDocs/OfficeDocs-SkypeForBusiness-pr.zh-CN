@@ -16,12 +16,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: 了解如何为部署Microsoft Teams 会议室准备基础结构，以便可以利用所有功能。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3f0224ebf0c6c8e0f21fe669bb8a92ff345b928b
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 7006f560c5d0991b74c14fc5eb0b13e829b642d9
+ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268947"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68532222"
 ---
 # <a name="prepare-your-environment"></a>准备环境
 
@@ -115,7 +115,7 @@ Microsoft Teams 会议室旨在从 Windows OS 继承代理设置。 通过以下
     
 11. 返回登录屏幕，选择 **Skype** 用户。 如果上述所有步骤都成功，则Microsoft Teams 会议室设备将成功登录。
     
-有关Microsoft Teams 会议室所需的 FQDN、端口和 IP 地址范围的完整详细信息，请参阅[“网络安全](./security.md#network-security)”一文。
+有关Microsoft Teams 会议室所需的 FQDN、端口和 IP 地址范围的完整详细信息，请参阅[“网络安全](./security-windows.md#network-security)”一文。
   
 ### <a name="admin-group-management"></a>管理员组管理
 
@@ -128,7 +128,7 @@ Microsoft Teams 会议室旨在从 Windows OS 继承代理设置。 通过以下
 
 ### <a name="microsoft-teams-rooms-local-user-account"></a>Microsoft Teams 会议室本地用户帐户
 
-Teams 会议室包含名为“Skype”的无密码本地帐户。 此帐户用于登录到 Windows 以启动Teams 会议室应用。 不支持将密码应用到此帐户。 有关详细信息，请参阅[Microsoft Teams 会议室安全](security.md)性。
+Teams 会议室包含名为“Skype”的无密码本地帐户。 此帐户用于登录到 Windows 以启动Teams 会议室应用。 不支持将密码应用到此帐户。 有关详细信息，请参阅[Microsoft Teams 会议室安全](security-windows.md)性。
   
 ### <a name="admin---local-administrator-account"></a>“Admin”- 本地管理员帐户
 
@@ -139,7 +139,7 @@ Microsoft Teams 会议室默认密码设置为“sfb”。 可以通过管理员
   
 本地管理员密码不是安装过程中的一个选项。
 
-可以在Microsoft Teams 会议室安全性文章中阅读有关[管理员](security.md)帐户的详细信息。
+可以在Microsoft Teams 会议室安全性文章中阅读有关[管理员](security-windows.md)帐户的详细信息。
   
 ### <a name="machine-account"></a>计算机帐户
 

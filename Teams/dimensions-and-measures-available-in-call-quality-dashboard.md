@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: 获取有关 Microsoft Teams 和 Skype for Business Online 的调用质量仪表板 (CQD) 使用的维度和度量的详细信息。
-ms.openlocfilehash: 730dd2f127c50d89f97c49c921e6b954a6043f65
-ms.sourcegitcommit: 43db97b84ca70b1e6accfa7214d4106e4177a642
+ms.openlocfilehash: f90db84232e544a6317771bb553733e330df7ce7
+ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2022
-ms.locfileid: "68218056"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68532272"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>通话质量仪表板 (CQD) 中提供的维度和度量
 
@@ -135,7 +135,11 @@ CQD 使用的字符串通常派生自数据文件，这些字符串几乎可以�
 | Second OS Architecture  | 字符串  | 第二终结点报告的硬件体系结构。 <br/> **示例值：** x64  | &bull; 终结点未报告此信息 <br/>&bull; 未收到来自此终结点的报告 <br/>&bull; 无法识别体系结构的格式  |
 | First Virtualization Flag  | 枚举 <br/>**可能的值：** <br/> “0x00” = None  <br/> “0x01” = Hyper-V <br/> “0x02” = VMware <br/> “0x04” = 虚拟电脑 <br/> “0x08” = Xen PC | 指示第一终结点报告的虚拟化环境类型的标志。 | <br/>&bull; 终结点未报告数据 |
 | Second Virtualization Flag  | 枚举 <br/>**可能的值：** <br/> “0x00” = None  <br/> “0x01” = Hyper-V <br/> “0x02” = VMware <br/> “0x04” = 虚拟电脑 <br/> “0x08” = Xen PC | 指示第二终结点报告的虚拟化环境类型的标志。  | <br/>&bull; 终结点未报告数据 |
-|第一终结点制作 |String |设备制造商，信息是从 Endpoint Data 文件 EndpointMake 字段中读取的。 | <br/>&bull; 终结点没有数据文件 |
+| 第一个 VTC 设备名称 | String | 第一终结点使用的 VTC 设备的友好名称 | <br/>&bull; 终结点未报告数据 <br/>&bull; 字段为 EUII，28 天过去了 |
+| 第二个 VTC 设备名称 | String | 第二终结点使用的 VTC 设备的友好名称 | <br/>&bull; 终结点未报告数据 <br/>&bull; 字段为 EUII，28 天过去了 |
+| 第一个 VTC 设备详细信息 | String | 第一终结点使用的 VTC 设备的平台和版本信息 <br/> **示例值：** 坦德伯格，529 | <br/>&bull; 终结点未报告数据 |
+| 第二个 VTC 设备详细信息 | String | 第二终结点使用的 VTC 设备的平台和版本信息 <br/> **示例值：** 坦德伯格，529 | <br/>&bull; 终结点未报告数据 |
+| 第一终结点制作 |String |设备制造商，信息是从 Endpoint Data 文件 EndpointMake 字段中读取的。 | <br/>&bull; 终结点没有数据文件 |
 | 第一终结点模型 |String|设备模型，信息从 Endpoint Data 文件 EndpointModel 字段中读取。| <br/>&bull; 终结点没有数据文件 |
 | 第一终结点类型|String|设备类型，信息从 Endpoint Data 文件 EndpointType 字段中读取。| <br/>&bull; 终结点没有数据文件 |
 | 第一终结点标签 1|String|可自定义标签，信息从终结点数据文件中读取。| <br/>&bull; 终结点没有数据文件 |

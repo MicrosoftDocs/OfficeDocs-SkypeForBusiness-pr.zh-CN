@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解 Microsoft Teams 会议室 Pro 管理。
 f1keywords: ''
-ms.openlocfilehash: 275906a47b2f86368256e7e09f42b2cf5c653ee8
-ms.sourcegitcommit: b2692b3f6c60d8df5ba0677c68ff9c90a75a0d72
+ms.openlocfilehash: d6644308f5c9de9b92c3d25df2595a036c232c7b
+ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68033770"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68532402"
 ---
 # <a name="microsoft-teams-rooms-pro-management"></a>Microsoft Teams 会议室专业管理
 
@@ -37,11 +37,9 @@ Microsoft Teams 会议室 Pro 管理监视解决方案建立在 Microsoft 在启
 
    自动执行更新、问题检测、Microsoft Teams 会议室问题解决的软件和机器学习。  
 
-- 专门的专家  
+- 更新管理  
 
-   一个专家团队，他们提供 24x7 服务操作、分层支持和事件解决帮助。  
-
-
+   基于客户可配置部署通道的自动会议应用程序和 Windows 更新业务流程。
 
 - 增强的见解  
 

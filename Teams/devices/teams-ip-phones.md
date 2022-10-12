@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 了解哪些桌面和会议电话已通过 Microsoft Teams 认证，以产生最佳结果。
-ms.openlocfilehash: a13551627b0bd4d41d44e64988452fae59dc7090
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: 2ba2b46bb4f6544a6b2c4c4455634aca4c0feef5
+ms.sourcegitcommit: 75a988ce64e3b6668dde3475e5cbf1f26de961ba
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68376860"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68539651"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams 认证的 Android 设备
 
@@ -84,6 +84,7 @@ Microsoft Teams 设备认证计划确保认证设备符合高标准，在整个 
 | Yealink MeetingBar A20 | `133.15.0.108  `   | 2024 年 9 月 3 日 | 小型会议室 (4.5 米 x 4.5 米) | 10|
 | Yealink MeetingBar A30 | `133.15.0.108  `   | 2024 年 9 月 3 日 | 中等大小的房间 (4.5 米 x 6 米)  | 10|
 | Logitech Tap IP VR0029     | `1.6.762`  |   2024 年 9 月 3 日  | 与 Logitech Rally Bar 和 Rally Bar Mini 兼容 | 10 |
+| Neat Bar Pro   | `NFD1.20220914.1210 ` | 2024 年 9 月 3 日  |  中等大小的房间 (4.5 米 x 6 米)  | 10|
 | 整洁条形图 | `NFB1.20220211.1400` |2024 年 9 月 3 日|    小型会议室 (4.5 米 x 4.5 米)  | 10 |
 | Neat Pad 触摸控制台 | `NFA1.20220211.1400`  | 2023 年 8 月 5 日 |  仅与 Neat Bar 兼容 | 9 |
 | 整洁的板 | `NFC1.20220211.1400 ` | 2024 年 9 月 3 日 |    小型会议室 (4.5 米 x 4.5 米)  | 10 |
