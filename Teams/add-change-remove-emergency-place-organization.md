@@ -19,12 +19,12 @@ f1.keywords:
 - NOCSH
 description: 了解如何为组织添加、更改或删除紧急位置。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 37ccf72868819c515a2f7320b112f81f31f65a34
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: 5ddaaf2e6c173b6546d337ebfc9f23464a52233c
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606711"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551496"
 ---
 # <a name="add-change-or-remove-a-place-for-an-emergency-location-in-your-organization"></a>在组织中添加、更改或删除紧急位置的地点
 
@@ -34,7 +34,7 @@ ms.locfileid: "67606711"
 
 本文介绍如何为组织添加、更改或删除紧急位置的位置。
 
-本文适用于 Microsoft 通话套餐、运算符连接、运营商连接移动 (公共预览版) 和直接路由。
+本文适用于 Microsoft 通话套餐、运营商连接、Teams Phone Mobile 和直接路由。
 
 在 Microsoft Teams 管理中心或使用 PowerShell 管理组织的紧急位置。
   

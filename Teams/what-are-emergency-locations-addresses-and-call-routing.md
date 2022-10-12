@@ -25,12 +25,12 @@ ms.custom:
 - Direct Routing
 - seo-marvel-mar2020
 description: 了解紧急呼叫，包括有关紧急地址、紧急呼叫路由和动态紧急呼叫的信息。
-ms.openlocfilehash: 2118bfd3f380ac5e5e2773f1f4ccdc703332893a
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: 4cff6fee53d7799b8ef0ba721d0c50c8625017f5
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606561"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551816"
 ---
 # <a name="manage-emergency-calling"></a>管理紧急呼叫
 
@@ -51,7 +51,7 @@ ms.locfileid: "67606561"
 - **已注册的地址** - 分配给每个用户的紧急地址。 注册的地址有时称为静态紧急地址或记录地址。  (目前，直接路由不支持注册的地址。 请尽快回来查看 updates.) 
 
 >[!Note]
->管理紧急呼叫的方式存在一些差异，具体取决于是使用 Microsoft 呼叫计划、运算符连接、运营商连接移动 (公共预览版) 还是直接路由来实现 [PSTN 连接](pstn-connectivity.md)。 本文中介绍了这些注意事项。
+>管理紧急呼叫的方式存在一些差异，具体取决于是使用 Microsoft 呼叫计划、运营商连接、Teams Phone Mobile 还是直接路由来 [实现 PSTN 连接](pstn-connectivity.md)。 本文中介绍了这些注意事项。
 
 ## <a name="emergency-address-validation"></a>紧急地址验证
 
@@ -179,23 +179,21 @@ Microsoft 建议在 Teams 管理中心使用地图搜索功能创建紧急地址
 
 - 如果紧急呼叫者无法将其紧急位置更新到筛选中心，则呼叫将传输到为呼叫者注册地址提供服务的 PSAP。
 
-## <a name="considerations-for-operator-connect-mobile"></a>运营商连接移动的注意事项
+## <a name="considerations-for-teams-phone-mobile"></a>Teams Phone Mobile 的注意事项
 
-以下部分介绍如何管理运营商连接移动用户的紧急呼叫。 若要了解运营商连接移动是否适合你的业务，请参阅 [PSTN 连接选项](pstn-connectivity.md)。
+以下部分介绍如何管理 Teams Phone Mobile 用户的紧急呼叫。 若要了解 Teams Phone Mobile 是否适合你的业务，请参阅 [PSTN 连接选项](pstn-connectivity.md)。
 
-**运营商连接移动是公共预览版。**
+### <a name="emergency-call-enablement-for-teams-phone-mobile"></a>Teams Phone Mobile 的紧急呼叫启用
 
-### <a name="emergency-call-enablement-for-operator-connect-mobile"></a>运营商连接移动的紧急呼叫启用
+每个 Teams Phone Mobile 用户都会自动启用紧急呼叫。 对于给定号码，紧急呼叫会自动路由到 Teams Phone Mobile 运营商。
 
-每个运营商连接移动用户都会自动启用紧急呼叫。 对于给定号码，紧急呼叫会自动路由到运营商连接移动运营商。
-
-租户管理员为运营商连接移动用户设置注册地址的能力取决于当运营商将用户上传到客户清单时分配给该号码的功能。 根据此设置，租户管理员可能需要或不能设置、修改或删除用户的紧急位置。
+租户管理员为 Teams Phone Mobile 用户设置注册地址的能力取决于当运营商将其上传到客户清单时分配给号码的功能。 根据此设置，租户管理员可能需要或不能设置、修改或删除用户的紧急位置。
 
 当通过启用 SIM 的智能手机的本机拨号器进行呼叫时，操作员可以使用地理坐标或单元格塔处理呼叫，以大致紧急位置获取帮助。
 
-### <a name="dynamic-emergency-calling-for-operator-connect-mobile"></a>动态紧急呼叫运营商连接移动
+### <a name="dynamic-emergency-calling-for-teams-phone-mobile"></a>Teams Phone Mobile 的动态紧急呼叫
 
-操作员连接的动态紧急呼叫提供根据 Teams 客户端的当前位置配置和路由紧急呼叫的功能。 自动路由到相应的公共安全应答点 (PSAP) 或通知安全部门人员的能力因 Teams 用户的使用情况而异。
+Teams Phone Mobile 的动态紧急呼叫提供根据 Teams 客户端的当前位置配置和路由紧急呼叫的功能。 自动路由到相应的公共安全应答点 (PSAP) 或通知安全部门人员的能力因 Teams 用户的使用情况而异。
 
 美国支持路由紧急呼叫的动态位置，如下所示。
 
@@ -207,9 +205,9 @@ Microsoft 建议在 Teams 管理中心使用地图搜索功能创建紧急地址
 
 有关详细信息，请参阅 [规划和配置动态紧急呼叫](configure-dynamic-emergency-calling.md)。
 
-### <a name="emergency-call-routing-for-operator-connect-mobile"></a>运营商连接移动的紧急呼叫路由
+### <a name="emergency-call-routing-for-teams-phone-mobile"></a>Teams Phone Mobile 的紧急呼叫路由
 
-当 Teams 运营商连接移动用户使用 Microsoft Teams 客户端拨打紧急号码时，如何将呼叫路由到 PSAP 取决于以下内容：
+当 Teams Teams Phone Mobile 用户使用 Microsoft Teams 客户端拨打紧急号码时，如何将呼叫路由到 PSAP 取决于以下内容：
 
 - 紧急地址是否由 Teams 客户端动态确定。
 

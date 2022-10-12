@@ -20,16 +20,16 @@ description: 了解如何在 Microsoft Teams 中使用和管理紧急呼叫策�
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.voice.emergencycallingpolicies.overview
-ms.openlocfilehash: 658e7191a821069d3fa9b13e02cc7cbcdfb29413
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: a6fa08808c9ef5fc258236735cc043e4bde366b1
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606551"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551516"
 ---
 # <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理紧急呼叫策略
 
-如果你的组织使用 Microsoft 呼叫计划、运算符连接、运营商连接移动 (公共预览版) 或直接路由作为 [PSTN 连接选项](pstn-connectivity.md)，则可以使用 Microsoft Teams 中的紧急呼叫策略来定义组织中的 Teams 用户发出紧急呼叫时会发生什么情况。
+如果你的组织使用 Microsoft 呼叫计划、运营商连接、Teams Phone Mobile 或直接路由作为 [PSTN 连接选项](pstn-connectivity.md)，则可以使用 Microsoft Teams 中的紧急呼叫策略来定义组织中的 Teams 用户发出紧急呼叫时会发生什么情况。
 
 当分配了策略的用户调用紧急服务时，可以设置通知谁以及通知他们的方式。 例如，可以配置策略设置以自动通知组织的安全部门，并让他们在紧急呼叫中侦听。  
 

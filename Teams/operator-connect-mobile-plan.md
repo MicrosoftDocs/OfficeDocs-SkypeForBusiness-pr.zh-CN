@@ -1,5 +1,5 @@
 ---
-title: 规划运营商连接移动
+title: 规划 Teams Phone Mobile
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -12,44 +12,44 @@ ms.collection:
 - m365initiative-voice
 ms.reviewer: crowe
 search.appverid: MET150
-description: 详细了解运营商连接移动，例如部署的要求和规划。
+description: 详细了解 Teams Phone Mobile，例如部署要求和规划。
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 53873df291ffcc0c1acbdf32a8e8ba6e6d13359b
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: 90af338ca5896a9e11ed4ea2537080237885c71c
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606869"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551716"
 ---
-# <a name="plan-for-operator-connect-mobile"></a>规划运营商连接移动
+# <a name="plan-for-teams-phone-mobile"></a>规划 Teams Phone Mobile
 
-**运营商连接移动是公共预览版。** 有关参与 Microsoft 运营商连接移动 计划的操作员及其服务可用的国家或地区列表，请参阅 [Microsoft 365 运营商连接移动](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/connect-mobile)。
+有关参与Microsoft Teams 电话移动计划以及其服务可用的国家或地区的运营商列表，请参阅 [Microsoft 365 Teams Phone Mobile](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/connect-mobile)。
 
-运营商连接移动是提供公共交换电话网络 (PSTN) 与 Teams 和电话系统的连接的另一个选项。 使用运营商连接移动，用户启用 SIM 的电话号码也是其 Teams 电话号码。 用户可以在 Microsoft Teams 中的移动服务和桌面线路上使用单个电话号码，并在网络和设备之间无缝切换。
+Teams Phone Mobile 是另一种选项，用于提供公共交换电话网络 (PSTN) 与 Microsoft Teams 和电话系统的连接。 使用 Teams Phone Mobile 时，用户启用 SIM 的电话号码也是其 Teams 电话号码。 用户可以在 Microsoft Teams 中的移动服务和桌面线路上使用单个电话号码，并在网络和设备之间无缝切换。
 
-运营商连接移动可在组织实现真正移动员工的战略中发挥关键作用，提供更灵活、更高效的以移动为中心的用户体验以及企业级的安全性和合规性设置。
+Teams Phone Mobile 可在组织实现真正移动员工的战略中发挥关键作用，提供更灵活、更高效的以移动为中心的用户体验，以及企业级的安全性和合规性设置。
 
-可以考虑将语音服务组合在一起。 例如，你可以为需要移动支持的销售和现场组织选择运营商连接移动，但对于依赖于桌面电话的现场呼叫中心组织，则选择另一种解决方案。 有关 Teams 语音解决方案和 PSTN 连接选项的详细信息，请参阅 [规划 Teams 语音解决方案](cloud-voice-landing-page.md) 和 [PSTN 连接选项](pstn-connectivity.md)。 
+可以考虑将语音服务组合在一起。 例如，你可以为需要移动支持的销售和现场组织选择 Teams Phone Mobile，但对于依赖于桌面电话的现场呼叫中心组织，则选择另一种解决方案。 有关 Teams 语音解决方案和 PSTN 连接选项的详细信息，请参阅 [规划 Teams 语音解决方案](cloud-voice-landing-page.md) 和 [PSTN 连接选项](pstn-connectivity.md)。 
 
-本文介绍运营商连接移动权益和要求。 运营商连接移动可能是组织在以下情况下的正确解决方案：
+本文介绍 Teams Phone 移动版的优势和要求。 如果以下情况，Teams Phone Mobile 可能是组织的正确解决方案：
 
 -   你希望将 Teams Phone 的主要公司拥有且启用了 SIM 的移动号码用作单个号码解决方案。
 
--   首选运算符是 Microsoft 运营商连接移动 计划的参与者。
+-   首选运算符是Microsoft Teams 电话移动计划的参与者。
 
 -   你希望找到一个新的运算符，以在 Teams 中启用呼叫。
 
-如果确定运营商连接移动是组织正确的解决方案，请参阅本文后，请参阅“[配置运营商连接移动](operator-connect-mobile-configure.md)”。
+如果确定 Teams Phone Mobile 是组织正确的解决方案，请参阅本文后，请参阅 [“配置 Teams Phone Mobile](operator-connect-mobile-configure.md)”。
 
 
 
 ## <a name="benefits"></a>优点
 
-如果现有操作员是运营商连接移动程序的参与者，则他们可以管理将 PSTN 调用引入 Teams 的服务。 运营商连接移动计划为组织提供以下优势：
+如果你的现有操作员是 Teams Phone Mobile 计划的参与者，则他们可以管理将 PSTN 呼叫引入 Teams 的服务。 Teams Phone Mobile 计划为组织提供以下优势：
 
 - **用户有一个业务提供的移动、桌面和 Microsoft Teams 号码**。 用户可以灵活、安全地从任何位置、设备或网络工作。  
 
@@ -65,7 +65,7 @@ ms.locfileid: "67606869"
 
 ## <a name="features"></a>功能
 
-运营商连接移动用户可以利用现有的[电话系统功能](here-s-what-you-get-with-phone-system.md)，以及以下各项：
+Teams Phone Mobile 用户可以利用现有的 [电话系统功能](here-s-what-you-get-with-phone-system.md)，以及以下各项：
 
 - **使用 Teams 启用 SIM 的电话号码呼叫**。 用户可以使用单个企业拥有的启用 SIM 的移动号码从智能手机的本机拨号器或 Teams 终结点拨打和接听呼叫。 当用户从智能手机的本机拨号器或任何 Teams 终结点发出出站呼叫时，他们可以显示其移动电话或公司服务号码。 传入呼叫将拨打智能手机本机拨号器，同时拨打活动 Teams 客户端。
 
@@ -92,11 +92,11 @@ ms.locfileid: "67606869"
 确保组织具有符合条件的 Microsoft 365 服务：
 
 - Teams 电话系统 SKU/E5
-- 运营商连接移动加载项 SKU
+- Teams Phone Mobile 加载项 SKU
 
-若要使用运营商连接移动启用电话号码分配，请确保用户：
+若要使用 Teams Phone Mobile 启用电话号码分配，请确保用户：
 
-- 拥有 Teams 电话和运营商连接移动许可证。 若要了解详细信息，请参阅 [什么是电话系统？](what-is-phone-system-in-office-365.md) 并向 [用户分配 Teams 加载项许可证](teams-add-on-licensing/assign-teams-add-on-licenses.md)。
+- 拥有 Teams 电话和 Teams 电话移动版许可证。 若要了解详细信息，请参阅 [什么是电话系统？](what-is-phone-system-in-office-365.md) 并向 [用户分配 Teams 加载项许可证](teams-add-on-licensing/assign-teams-add-on-licenses.md)。
 
 - 有一个符合条件的移动订阅与你的首选运营商，支持其启用了 SIM 的电话号码用于 Teams 电话。 操作员会将电话号码上传到 Microsoft 365 租户。
 

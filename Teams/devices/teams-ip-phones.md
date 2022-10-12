@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 了解哪些桌面和会议电话已通过 Microsoft Teams 认证，以产生最佳结果。
-ms.openlocfilehash: 2ba2b46bb4f6544a6b2c4c4455634aca4c0feef5
-ms.sourcegitcommit: 75a988ce64e3b6668dde3475e5cbf1f26de961ba
+ms.openlocfilehash: c113bdb4cba7193f5e82d7e993c9146f1563f869
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/12/2022
-ms.locfileid: "68539651"
+ms.locfileid: "68551466"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams 认证的 Android 设备
 
@@ -160,6 +160,8 @@ Microsoft Teams 设备认证计划确保认证设备符合高标准，在整个 
 
 | 设备模型  | 固件版本  | 包含的产品版本  |
 |:----------------|:--------------|:----------------------------|
+|Crestron UC-P8/I/C/CI     | `1.0.5.20`    | 2022 更新#3A |
+|Crestron UC-P10/I/C/CI | `1.0.5.20`    | 2022 更新#3A |
 |音频代码 C435HD/C448HD/C450HD/C455HD/C470HD | `1.17.764` | 2022 更新#3A    |
 |音频代码 C435HD/C455HD/C470HD | `1.17.741` | 2022 更新#3A    |
 |Poly Trio C60 | `7.3.2.0174` | 2022 更新#3A |
@@ -371,6 +373,8 @@ Microsoft Teams 设备认证计划确保认证设备符合高标准，在整个 
 
 | 设备模型  | 固件版本 | 包含的产品版本|
 |:--------------|:-----------------|:-------------------------|
+|Crestron UC-P10-TD     |1.0.0.57 |2022 更新#3A|
+|Crestron UC-P8-TD     |1.0.0.57 |2022 更新#3A|
 |联想思想智能视图| `CD-18781Y.211116.114` |2021 更新 #3  |
 |联想思想智能视图| `CD-18781Y.210507.111` |2021 更新 #2 |
 |联想思想智能视图| `CD-18781Y.210228.109` |2021 更新 #1 |

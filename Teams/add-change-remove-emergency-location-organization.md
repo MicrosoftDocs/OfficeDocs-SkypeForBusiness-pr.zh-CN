@@ -19,22 +19,22 @@ f1.keywords:
 - NOCSH
 description: 了解如何为组织添加、更改或删除紧急位置。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c0a195a221bff5b008f5754592450f4f2b1e42e6
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: 23eb549592c8ead6983253d1a228020f3851e1a7
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606631"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551486"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>添加、 更改或删除您的组织紧急地点
 
-无论选择哪种 [PSTN 连接选项](pstn-connectivity.md)，都可选择&mdash;Microsoft 呼叫计划、运算符连接、运营商连接移动 (公共预览版) 或直接路&mdash;由紧急位置，都可以与电话号码相关联。
+无论选择哪种 [PSTN 连接选项](pstn-connectivity.md) ，都可选择&mdash;Microsoft 呼叫计划、操作员连接、Teams Phone Mobile 或直接路由&mdash;紧急位置与电话号码相关联。
 
 但是，根据 PSTN 连接选项，管理紧急位置和位置要求的方式可能会有所不同。 有关详细信息，请参阅 [“管理紧急呼叫](what-are-emergency-locations-addresses-and-call-routing.md)”。
 
 本文介绍如何为组织添加、更改或删除紧急位置。 
 
-本文适用于 Microsoft 通话套餐、运算符连接、运营商连接移动 (公共预览版) 和直接路由。
+本文适用于 Microsoft 通话套餐、运营商连接、Teams Phone Mobile 和直接路由。
 
 在 Microsoft Teams 管理中心或使用 PowerShell 管理组织的紧急位置。
 

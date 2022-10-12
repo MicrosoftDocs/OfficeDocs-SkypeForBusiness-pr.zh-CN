@@ -19,12 +19,12 @@ localization_priority: Normal
 f1.keywords:
 - CSH
 description: Microsoft Teams 中的拨号计划和路由
-ms.openlocfilehash: 89332b5e5756bc33c92a67b641bab85b826bfe70
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: 3fc29dc27f1f3863ed313b75c8ef977cd27a6231
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606781"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551896"
 ---
 # <a name="overview"></a>概述
 
@@ -34,9 +34,9 @@ ms.locfileid: "67606781"
 - [创建并管理拨号计划](create-and-manage-dial-plans.md)
 - [将调用路由到未分配的 numbes](routing-calls-to-unassigned-numbers.md)
 
-本部分中的文章适用于连接到公共交换电话网络的所有选项 (PSTN) ：呼叫计划、运算符连接、运营商连接移动 (公共预览版) 和直接路由。 有关所有 PSTN 连接选项的详细信息，请参阅 [PSTN 连接选项](pstn-connectivity.md)。
+本部分中的文章适用于连接到公共交换电话网络 (PSTN) 的所有选项：呼叫计划、运营商连接、Teams 电话移动和直接路由。 有关所有 PSTN 连接选项的详细信息，请参阅 [PSTN 连接选项](pstn-connectivity.md)。
 
-如果选择呼叫计划、运算符连接或运营商连接移动，大多数呼叫路由由 Microsoft 或提供商处理。 但是，直接路由需要其他步骤来配置呼叫路由。 
+如果选择呼叫计划、运营商连接或 Teams Phone Mobile，大多数呼叫路由由 Microsoft 或提供商处理。 但是，直接路由需要其他步骤来配置呼叫路由。 
 
 对于直接路由，必须通过指定语音路由并向用户分配语音路由策略来配置呼叫路由。 可以在中继级别配置号码转换的拨号计划，以确保与会话边框控制器 (SBC) 互操作性。 有关详细信息，请参阅 [为直接路由配置语音路由](direct-routing-voice-routing.md)、 [管理语音路由策略](manage-voice-routing-policies.md) 和 [翻译电话号码](direct-routing-translate-numbers.md)。
 

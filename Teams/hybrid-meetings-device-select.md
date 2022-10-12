@@ -17,18 +17,18 @@ ms.collection:
 - m365solution-scenario
 ms.custom: ''
 keywords: ''
-ms.openlocfilehash: 33b55bfbff72cb2ddcd79b9620b2051ae0bd52fb
-ms.sourcegitcommit: 957502f999512a32794a9f99e292588d66ed8a33
+ms.openlocfilehash: dec612dd21ba72f984251db3e479040d41070ddc
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2022
-ms.locfileid: "67885509"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551806"
 ---
 # <a name="step-4---select-devices-that-enable-your-space-for-hybrid-meetings"></a>步骤 4 - 选择为混合会议启用空间的设备
 
 :::image type="content" source="media/hybrid-audience-audiovisual-small.png" alt-text="音频视觉受众" border="false"::: :::image type="content" source="media/hybrid-audience-itpro-small.png" alt-text="IT Pro 受众" border="false"::::::image type="content" source="media/hybrid-audience-facilities-small.png" alt-text="设施受众" border="false":::
 
-为Teams 会议室空间选择的设备取决于房间的设计和预算。 本文可帮助你了解创建Teams 会议室空间所需的设备、帮助你选择适合自己的注意事项和示例设备，以便查看哪些选项可用。
+为传统Microsoft Teams 会议室或签名Microsoft Teams 会议室空间选择的设备取决于房间的设计和预算。 本文可帮助你了解创建Teams 会议室空间所需的设备、帮助你选择适合自己的注意事项和示例设备，以便查看哪些选项可用。
 
 至少需要以下各项：
 
@@ -164,9 +164,9 @@ ms.locfileid: "67885509"
 - [Yamaha ADECIA 有线桌面解决方案](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/yamaha-adecia-wired-tabletop-solution/1049)
 - [带 Parlé 天花板麦克风的 Biamp 中等房间音频](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/biamp-medium-room-audio-with-parle-ceiling-mic/584)
 
-# <a name="hybrid-optimized"></a>[混合优化](#tab/hybrid)
+# <a name="signature-teams-rooms"></a>[签名Teams 会议室](#tab/signature)
 
-## <a name="touchscreen-console-and-compute-module"></a>触摸屏控制台和计算模块
+## <a name="signature-teams-rooms-touchscreen-consoles-and-compute-modules"></a>触摸屏控制台和计算模块Teams 会议室签名
 
 触摸屏控制台是用户在加入和管理会议时与之交互的设备。 计算模块是 Teams 会议室的大脑，Windows 10 企业版 IoT 运行。
 
@@ -183,11 +183,11 @@ ms.locfileid: "67885509"
 - [联想 ThinkSmart Core + 控制器](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-core-controller/948)
 - [Logitech Tap](https://www.logitech.com/products/video-conferencing/room-solutions/tap.939-001950.html)
 
-## <a name="hybrid-optimized-displays"></a>混合优化显示
+## <a name="signature-teams-rooms-displays"></a>签名Teams 会议室显示
 
 显示器可使内容生动，并且可以是大型平板电视或投影器，可投影到屏幕上。 可以有一个将内容和视频源组合在一起的显示器，也可以在一个显示器上设置包含内容的双显示器，在另一个显示器上设置视频源。 其中一个显示器甚至可以为交互式墨迹启用触摸。
 
-:::image type="content" source="media/hybrid-optimized-display.png" alt-text="显示前排、聊天和笔记的Teams 会议室显示。":::
+:::image type="content" source="media/signature-teams-rooms-display.png" alt-text="显示前行、聊天和笔记的签名Teams 会议室显示。":::
 
 
 ### <a name="display-type"></a>显示类型
@@ -202,7 +202,7 @@ ms.locfileid: "67885509"
 
 ### <a name="display-functions"></a>显示函数
 
-与所有其他Microsoft Teams 会议室解决方案一样，混合优化Microsoft Teams 会议室需要使用可适应以下功能的显示器来进行适当的操作：
+与所有其他Microsoft Teams 会议室解决方案一样，签名Teams 会议室需要使用可适应以下功能的显示器来进行适当的操作：
 
 - 基于 HDMI 同步的睡眠和快速唤醒睡眠。
   - 对于投影仪，必须支持自动预热和冷却期，而无需用户干预。
@@ -210,7 +210,7 @@ ms.locfileid: "67885509"
 
 ### <a name="display-placement"></a>显示位置
 
-混合优化的会议室要求将显示器放置在所有会议室会议参与者的前面，直接在表格对面。
+签名Teams 会议室要求将显示器放置在所有会议室会议参与者的前面，直接在表格对面。
 
 显示器的水平中心线必须居中与表相同的中心线。
 
@@ -218,11 +218,11 @@ ms.locfileid: "67885509"
 
 ### <a name="display-count"></a>显示计数
 
-混合优化的会议室要求显示器是单个宽纵横比显示器，或者是显示器的混合组合，当会议室内会议参与者看到时，可以实现单一显示的效果。
+签名Teams 会议室要求显示器是单个宽纵横比显示器，或者是显示器的混合组合，当会议室内会议参与者看到时，可以实现单一显示的效果。
 
 ### <a name="display-options"></a>显示选项
 
-下面是混合优化Teams 会议室的显示示例：
+下面是签名Teams 会议室的显示示例：
 
 - [Epson EB-PU1007 投影器与 ELPLX01S 超级短投掷镜头](https://epson.com/For-Work/Projectors/Large-Venue/EB-PU1007B-WUXGA-3LCD-Laser-Projector-with-4K-Enhancement/p/V11HA34820)
 - [Da-Lite UTB 轮廓屏幕|HD 渐进式 0.6 屏幕|电影范围 138“ 对角线](https://www.legrandav.com/products/da-lite/screens/fixed_frame_screens/utb_contour)
@@ -233,7 +233,7 @@ ms.locfileid: "67885509"
 
 相机应放置在会议室前部投影下方的会议室前面，但位于表格顶部，以尽可能接近眼光水平捕获所有会议室参与者。
 
-下面是混合优化Teams 会议室的主相机示例：
+下面是签名Teams 会议室的主要相机示例：
 
 - [Jabra Panacast 50](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/jabra-panacast-50-series/922)
 - [Logitech Rally](https://www.logitech.com/product/rally-ultra-hd-conferencecam)
@@ -269,7 +269,7 @@ ms.locfileid: "67885509"
 
 需要将演讲者定位为为所使用的设备或设备认证范围内的所有会议室参与者提供覆盖范围。
 
-下面是用于混合优化Teams 会议室的麦克风和扬声器示例：
+以下是用于签名Teams 会议室的麦克风和扬声器示例：
 
 - [联想 ThinkSmart Bar](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-bar/949)
 - [Biamp Devio 会议室中心与 Parle Ceiling 麦克风](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/biamp-devio-conference-room-hubs/920)

@@ -25,12 +25,12 @@ search.appverid: MET150
 description: 详细了解 Teams 调用 (PSTN 连接) 选项以及你将为组织做出的决定。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f547528f39e92be1660f670cad44c66726fe3ef2
-ms.sourcegitcommit: 401cee68d4f6f9470d614dda12b9cb023f382ff2
+ms.openlocfilehash: 974418a6a1cf963b66b1f0a8667c5ed75b73f72b
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "67999637"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551696"
 ---
 # <a name="pstn-connectivity-options"></a>PSTN 连接选项
 
@@ -44,7 +44,7 @@ Microsoft 通过电话系统为组织提供完整的专用分支交换 (PBX) 功
 
 - [**运算符连接**](#phone-system-with-operator-connect)。 借助 Operator Connect，如果现有运营商参与 Microsoft Operator Connect 计划，他们可以管理 PSTN 调用和会话边界控制器 (SBC) 。
 
-- [**运营商连接移动**](#phone-system-with-operator-connect-mobile)。 使用运营商连接移动，用户启用 SIM 的电话号码也是其 Teams 电话号码。 如果现有运营商参与 Microsoft 运营商连接移动 计划，他们可以管理将 PSTN 调用引入 Teams 的服务。  **运营商连接移动是公共预览版。**
+- [**Teams Phone Mobile**](#phone-system-with-teams-phone-mobile)。 使用 Microsoft Teams 电话 Mobile 时，用户启用 SIM 的电话号码也是其 Teams 电话号码。 如果现有运营商参与Microsoft Teams 电话移动计划，他们可以管理将 PSTN 调用引入 Teams 的服务。  
 
 - [**直接路由**](#phone-system-with-direct-routing)，通过将会话边界控制器 (的)  (SBC) 连接到电话系统，可以使用自己的 PSTN 运营商。
 
@@ -93,21 +93,19 @@ Microsoft 通过电话系统为组织提供完整的专用分支交换 (PBX) 功
 
 有关运算符连接的优势和要求的信息，以及参与此计划的运营商列表，请参阅 [Plan Operator Connect](operator-connect-plan.md)。 有关如何配置运算符连接的信息，请参阅 [配置运算符连接](operator-connect-configure.md)。
 
-## <a name="phone-system-with-operator-connect-mobile"></a>具有运营商连接移动的电话系统
+## <a name="phone-system-with-teams-phone-mobile"></a>使用 Teams Phone Mobile 的电话系统
 
-**运营商连接移动是公共预览版。**
+如果现有运营商参与Microsoft Teams 电话移动计划，他们可以管理将 PSTN 调用引入 Teams 的服务。 使用 Teams Phone Mobile 时，用户启用 SIM 的电话号码也是其 Teams 电话号码。  用户可以在 Microsoft Teams 中的移动服务和桌面线路上使用单个电话号码。  
 
-如果现有运营商参与 Microsoft 运营商连接移动 计划，他们可以管理将 PSTN 调用引入 Teams 的服务。 使用运营商连接移动，用户启用 SIM 的电话号码也是其 Teams 电话号码。  用户可以在 Microsoft Teams 中的移动服务和桌面线路上使用单个电话号码。  
+可以考虑将服务组合在一起。 例如，你可以为需要移动支持的销售和现场组织选择 Teams Phone Mobile，但对于依赖于桌面电话的现场呼叫中心组织，则选择另一种解决方案。 
 
-可以考虑将服务组合在一起。 例如，你可以为需要移动支持的销售和现场组织选择运营商连接移动，但对于依赖于桌面电话的现场呼叫中心组织，则选择另一种解决方案。 
-
-运营商连接移动可能是组织在以下情况下的正确解决方案：
+如果以下情况，Teams Phone Mobile 可能是组织的正确解决方案：
 
 - 你希望将 Teams Phone 的主要公司拥有且启用了 SIM 的移动号码用作单个号码解决方案。
-- 首选运算符是 Microsoft 运营商连接移动 计划的参与者。
+- 首选运算符是Microsoft Teams 电话移动计划的参与者。
 - 你希望找到一个新的运算符，以在 Teams 中启用呼叫。
 
-有关运营商连接移动的好处和要求以及参与此计划的运营商的链接的信息，请参阅[计划运营商连接移动](operator-connect-mobile-plan.md)。 有关如何配置运营商连接移动的信息，请参阅[配置运营商连接移动](operator-connect-mobile-configure.md)。
+有关 Teams Phone Mobile 的优点和要求以及参与此计划的运营商的链接的信息，请参阅 [Plan Teams Phone Mobile](operator-connect-mobile-plan.md)。 有关如何配置 Teams Phone Mobile 的信息，请参阅 [配置 Teams Phone Mobile](operator-connect-mobile-configure.md)。
 
 ## <a name="phone-system-with-direct-routing"></a>具有直接路由的电话系统
 
@@ -161,7 +159,7 @@ Microsoft 通过电话系统为组织提供完整的专用分支交换 (PBX) 功
 | :------------| :-------| :-------| :-------| :-------| 
 | 通话套餐 | -Microsoft 充当 PSTN 运营商。<br>-无需购买或管理 SBC。| 通过 Microsoft 获取。| -由 Microsoft 管理。 <br> -管理员为号码转换配置用户拨号计划。 | -由 Microsoft 启用。 <br> -管理员注册地址。 <br> -支持动态调用。 |
 | 运算符连接 | -Carrier 管理 PSTN 连接和 SBC。 <br> -无需购买或管理 SBC。 | -通过运营商获取。 <br> - 与运营商管理的紧急地址相关联的数字。 | -由运营商管理。 <br>-管理员为号码转换配置用户拨号计划。 | -由运营商启用。 <br> -管理员注册地址。 <br> -支持动态调用。 |
-| 运营商连接移动 | -Carrier 管理SIM-Enabled移动号码、PSTN 连接和 SBC。 <br> -无需购买或管理 SBC。 | -通过运营商获取。 <br> -与运营商管理的紧急地址相关联的数字。 | -由运营商管理。 <br> 管理员为号码转换配置用户拨号计划。 |- 由运营商启用。 <br> - 管理员注册地址。 <br> - 支持动态调用。 <br> - 运营商支持本机拨号器紧急呼叫。 |
+| Teams Phone Mobile | -Carrier 管理SIM-Enabled移动号码、PSTN 连接和 SBC。 <br> -无需购买或管理 SBC。 | -通过运营商获取。 <br> -与运营商管理的紧急地址相关联的数字。 | -由运营商管理。 <br> 管理员为号码转换配置用户拨号计划。 |- 由运营商启用。 <br> - 管理员注册地址。 <br> - 支持动态调用。 <br> - 运营商支持本机拨号器紧急呼叫。 |
 | 直接路由 | -需要从第三方供应商处购买的经过认证的 SBC。<br>-将 SBC 连接到电话系统。<br> -使用现有的 PSTN 运营商。 | 通过运营商获取。 | -需要管理员进行额外配置。<br>-管理员为号码转换配置中继拨号计划。 <br>-LBR 可用于限制通行费旁路。 | -需要管理员进行额外配置。 <br>-未支持的已注册地址。 <br>-支持动态调用，但需要其他配置。 |
 
 
@@ -181,7 +179,7 @@ Microsoft 有两种可用电话号码类型：订阅者 (用户) 号码（可分
 
 - 有关使用 Operator Connect 管理电话号码的信息，请参阅 [使用 Operator Connect 设置电话号码](operator-connect-configure.md#set-up-phone-numbers)。
 
-- 有关使用运营商连接移动管理电话号码的信息，请参阅[使用运营商连接移动设置电话号码](operator-connect-mobile-configure.md#set-up-phone-numbers)。
+- 有关使用 Teams Phone Mobile 管理电话号码的信息，请参阅 [使用 Teams Phone Mobile 设置电话号码](operator-connect-mobile-configure.md#set-up-phone-numbers)。
 
 - 有关管理直接路由的电话号码的信息，请参阅 [配置电话号码并启用企业语音](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice)。
 
@@ -191,7 +189,7 @@ Microsoft 有两种可用电话号码类型：订阅者 (用户) 号码（可分
 
 - 对于呼叫计划，大部分呼叫路由由 Microsoft 呼叫计划基础结构处理。 为呼叫授权和呼叫路由配置用于号码转换的用户拨号计划。 有关详细信息，请参阅[什么是拨号计划？](what-are-dial-plans.md)
 
-- 对于运算符连接和运营商连接移动，大部分呼叫路由由运营商管理。 为呼叫授权和呼叫路由配置用于号码转换的用户拨号计划。 有关详细信息，请参阅[什么是拨号计划？](what-are-dial-plans.md)
+- 对于运营商连接和 Teams Phone Mobile，大部分呼叫路由由运营商管理。 为呼叫授权和呼叫路由配置用于号码转换的用户拨号计划。 有关详细信息，请参阅[什么是拨号计划？](what-are-dial-plans.md)
 
 - 对于直接路由，必须通过指定语音路由并向用户分配语音路由策略来配置呼叫路由。 可以在中继级别配置号码转换的拨号计划，以确保与会话边框控制器 (SBC) 互操作性。 有关详细信息，请参阅 [为直接路由配置语音路由](direct-routing-voice-routing.md)、 [管理语音路由策略](manage-voice-routing-policies.md) 和 [翻译电话号码](direct-routing-translate-numbers.md)。 
 
@@ -213,7 +211,7 @@ Microsoft 有两种可用电话号码类型：订阅者 (用户) 号码（可分
 
 - 对于 Operator Connect，将自动为每个用户启用紧急呼叫。 用户必须具有与其分配的电话号码关联的已注册紧急地址。 支持基于 Teams 客户端) 位置的动态紧急呼叫 (。 有关详细信息，请参阅 [操作员连接的注意事项](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-operator-connect)。 
 
-- 对于运营商连接移动，将自动为每个用户启用紧急呼叫。 对于给定号码，紧急呼叫会自动路由到运营商连接移动运营商。 支持基于 Teams 客户端) 位置的动态紧急呼叫 (。 有关详细信息，请参阅[运营商连接移动的注意](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-operator-connect-mobile)事项。 
+- 对于 Teams Phone Mobile，将自动为每个用户启用紧急呼叫。 对于给定号码，紧急呼叫会自动路由到 Teams Phone Mobile 运营商。 支持基于 Teams 客户端) 位置的动态紧急呼叫 (。 有关详细信息，请参阅 [Teams Phone Mobile 的注意事项](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-teams-phone-mobile)。 
 
 - 对于直接路由，必须使用 Teams 紧急呼叫路由策略 (TeamsEmergencyCallRoutingPolicy) 为用户定义紧急呼叫策略。 该策略将定义紧急号码及其关联的路由目标。 直接路由用户不支持注册的紧急位置。 对于动态紧急呼叫，需要其他配置来路由紧急呼叫，并且可能用于合作伙伴连接。 有关详细信息，请参阅 [直接路由的注意事项](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-direct-routing)。
 

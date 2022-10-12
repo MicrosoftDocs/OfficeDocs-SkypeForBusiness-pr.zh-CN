@@ -27,12 +27,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: 了解如何为组织获取和管理用户 (订阅者) 和服务 (收费和免费) 电话号码。
-ms.openlocfilehash: 613a3f5f287615c6e18024d1afba1d94d0fea67c
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: 053d886a97591a6685582f0db0ca194eaa312896
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606741"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551886"
 ---
 # <a name="manage-telephone-numbers-for-your-organization"></a>管理组织的电话号码
 
@@ -54,7 +54,7 @@ Microsoft 正在努力简化数字类型，但目前需要决定：
 
 - 有关为 Operator Connect 管理电话号码的信息，请参阅 [使用 Operator Connect 设置电话号码](operator-connect-configure.md#set-up-phone-numbers)。
 
-- 有关管理运营商连接移动 (公共预览版) 电话号码的信息，请参阅[使用运营商连接移动设置电话号码](operator-connect-mobile-configure.md#set-up-phone-numbers)。
+- 有关管理 Teams Phone Mobile 的电话号码的信息，请参阅 [使用 Teams Phone Mobile 设置电话号码](operator-connect-mobile-configure.md#set-up-phone-numbers)。
 
 - 有关管理直接路由的电话号码的信息，请参阅 [配置电话号码并启用企业语音](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice)。
 

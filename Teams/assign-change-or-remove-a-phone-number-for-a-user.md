@@ -20,20 +20,20 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 了解如何为 Teams 用户分配、更改或删除工作电话号码，以便外部企业和客户端可以呼叫。
-ms.openlocfilehash: 1a959fd61200e7718cf1e14586d0060fb0e996ec
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: d26df14f2f75e205c1824b66c9b8f2f394972d43
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606641"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551652"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>为用户分配、更改或删除电话号码
 
-设置通话套餐、运算符连接或运营商连接移动 (公共预览版) 时，可将电话号码分配给用户。 在 Microsoft Teams 中，当用户单击 **“呼叫**”时，将列出你分配的电话号码。
+设置通话套餐、运营商连接或 Teams Phone Mobile 时，可将电话号码分配给用户。 在 Microsoft Teams 中，当用户单击 **“呼叫**”时，将列出你分配的电话号码。
 
-本文适用于通话套餐、运算符连接和运营商连接移动 (公共预览版) 。 有关在直接路由方案中从用户分配、更改或删除电话号码的信息，请参阅 [“为用户启用直接路由”、“语音”和“语音邮件](./direct-routing-enable-users.md)”。
+本文适用于通话套餐、运营商连接和 Teams Phone Mobile。 有关在直接路由方案中从用户分配、更改或删除电话号码的信息，请参阅 [“为用户启用直接路由”、“语音”和“语音邮件](./direct-routing-enable-users.md)”。
 
-在为呼叫计划、运算符连接或运营商连接移动用户分配号码之前，必须为用户获取号码。 有关详细信息，请参阅[获取呼叫计划用户的号码](getting-phone-numbers-for-your-users.md)、[为运算符连接用户设置号码](operator-connect-configure.md#set-up-phone-numbers)或[为运营商连接移动用户设置号码](operator-connect-mobile-configure.md)。
+在为呼叫计划、操作员连接或 Teams Phone Mobile 用户分配号码之前，必须为用户获取号码。 有关详细信息，请参阅 [获取呼叫计划用户的号码](getting-phone-numbers-for-your-users.md)、 [为 Operator Connect 用户设置号码](operator-connect-configure.md#set-up-phone-numbers)或 [为 Teams Phone Mobile 用户设置号码](operator-connect-mobile-configure.md)。
 
 > [!NOTE]
 > 查看用户是否分配了许可证的一种方法是转到 Microsoft Teams 管理中心> **用户**。 如果分配了许可证，则会在页面上指示该许可证。  还可以使用Microsoft 365 管理中心。
@@ -64,7 +64,7 @@ Set-CsPhoneNumberAssignment -Identity <user> -PhoneNumber <phone number> -PhoneN
 Set-CsPhoneNumberAssignment -Identity <user> -PhoneNumber <phone number> -PhoneNumberType OperatorConnect
 ```
 
-对于运营商连接移动数字：
+对于 Teams 手机号码：
 
 ```PowerShell
 Set-CsPhoneNumberAssignment -Identity <user> -PhoneNumber <phone number> -PhoneNumberType OCMobile
@@ -108,7 +108,7 @@ Set-CsPhoneNumberAssignment -Identity jack@contoso.com -PhoneNumber "+1425555010
 8. 若要分配或更改关联的紧急位置，请在 **“紧急”位置** 下搜索，然后选择该位置。
 
       > [!NOTE]
-      > 如果要更改运算符连接或运营商连接移动用户的数字，则可能或可能无法分配或更改关联的紧急位置。 此功能将取决于运算符。 有关详细信息，请与操作员联系。
+      > 如果要更改 Operator Connect 或 Teams Phone Mobile 用户的号码，则可能或可能无法分配或更改关联的紧急位置。 此功能将取决于运算符。 有关详细信息，请与操作员联系。
 
 9. 单击“**保存**”。
 

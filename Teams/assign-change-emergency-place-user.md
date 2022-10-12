@@ -18,22 +18,22 @@ f1.keywords:
 - NOCSH
 description: 本文介绍如何为组织中的用户分配或更改紧急位置的位置。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 749093e532dec92f8bf9788cc43fd0f052c461a4
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: 60bd471e42eb6e8c2404eef47636da2c9894268c
+ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606591"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68551636"
 ---
 # <a name="assign-or-change-the-place-for-an-emergency-location-for-a-user"></a>为用户分配或更改紧急位置的位置
 
-无论选择什么 [PSTN 连接选项](pstn-connectivity.md)，都需要&mdash;为每个电话号码或用户分配 Microsoft 呼叫计划、运算符连接、运营商连接移动 (公共预览版) 或直接路由&mdash;紧急位置。
+无论 [选择 PSTN 连接选项](pstn-connectivity.md) 如何，都需要&mdash;为每个电话号码或用户分配 Microsoft 呼叫计划、运营商连接、Teams Phone Mobile 或直接路由&mdash;紧急位置。
 
 但是，根据 PSTN 连接选项，为用户管理和分配紧急位置的方式可能会有所不同。 有关详细信息，请参阅 [“管理紧急呼叫](what-are-emergency-locations-addresses-and-call-routing.md)”。
 
 本文介绍如何在 Microsoft Teams 管理中心或使用 PowerShell 为用户分配或更改紧急位置 *的位置* 。
 
-本文适用于通话套餐、运算符连接和运营商连接移动 (公共预览版) 。
+本文适用于通话套餐、运营商连接和 Teams Phone Mobile。
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 管理中心
 
