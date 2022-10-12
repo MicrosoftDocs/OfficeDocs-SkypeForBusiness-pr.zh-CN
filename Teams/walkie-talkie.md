@@ -20,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cbce17ad584fdd4910f11129d2b246e4644e1583
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: 0475fd161d3b53a8fc60d3a1419d20e3de2bfada
+ms.sourcegitcommit: bb428cd5805151736f0a6786d737f67f2b3fc918
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68377300"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "68557475"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft Teams 中的 Walkie Talkie 应用
 
@@ -111,6 +111,8 @@ Teams 中的 Walkie Talkie 需要 Internet 连接。 为了获得最佳体验，
   - 手动设置：安装 Teams 后，转到 **“设置** > **”按钮**。 在“专用”按钮 (1 或 2) ，选择 **“长按”**，然后选择 **PTT 应用**。 选择“ **自定义**”旁边的蓝色方向盘，然后选择 **Teams**。
 - Kyocera [DuraForce 超级 5G](https://kyoceramobile.com/duraforce-ultra-5g/) 和 [DuraSport 5G](https://kyoceramobile.com/durasport-5g/)
   - 手动设置：安装 Teams 后，转到 **“设置** > **可编程密钥**”。 根据设备) 选择 **PTT 密钥** 或 **按住** (，然后选择 **Teams**。
+- Honeywell [CT30 XP](https://sps.honeywell.com/us/en/products/productivity/mobile-computers/handheld-computers/ct30-xp-handheld-computer)、 [CT30 XP HC](https://sps.honeywell.com/us/en/products/productivity/mobile-computers/handheld-computers/ct30-xp-hc-mobile-computer)、 [CT45 XP](https://sps.honeywell.com/us/en/products/productivity/mobile-computers/handheld-computers/ct45-ct45-xp)、 [EDA51](https://sps.honeywell.com/us/en/products/productivity/mobile-computers/handheld-computers/scanpal-eda51-handheld-computer)、 [EDA52](https://sps.honeywell.com/us/en/products/productivity/mobile-computers/handheld-computers/eda52-handheld-computer)、 [EDA52 HC](https://sps.honeywell.com/gb/en/products/productivity/mobile-computers/healthcare-computers/scanpal-eda52-healthcare-mobile-computer)、 
+  - 手动设置：安装 Teams 后，专用 PTT 按钮默认适用于 Walkie Talkie。
 - Samsung [Galaxy XCover Pro](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/)， [Galaxy XCover 5](https://www.samsung.com/de/smartphones/others/galaxy-xcover-5-black-64gb-sm-g525fzkdeeb/buy)， [Galaxy Tab Active 3](https://www.samsung.com/us/business/tablets/galaxy-tab-active/buy/)
   - 手动设置：安装 Teams 后，转到 **“设置** > **高级功能** > **”XCover/Active 密钥**。 使用 **应用打开控制 XCover 密钥** 并选择 **Teams**。
   - [MDM 设置](https://docs.samsungknox.com/admin/knox-service-plugin/intune-teams.htm)
