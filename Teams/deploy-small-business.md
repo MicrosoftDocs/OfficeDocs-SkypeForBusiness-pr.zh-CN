@@ -18,19 +18,19 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 32b55c026daad08aab22f1621190e2768e0b26e5
-ms.sourcegitcommit: 6754f2d11da0afff067f0872acf778a83fd1595e
+ms.openlocfilehash: 94c03224f25f1cd72c7e283411b0b1de6c38580e
+ms.sourcegitcommit: 2dab123ad74fcad4db5390e9b745f72497a05882
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "67808663"
+ms.lasthandoff: 10/13/2022
+ms.locfileid: "68560252"
 ---
 # <a name="set-up-microsoft-teams-in-your-small-business"></a>小型企业设置 Microsoft Teams
 
 自定义 Teams 的方法很多。 以下几节将展示如何设置每个 Teams 工作负载: **聊天、团队和频道**; **会议和电话会议**; 以及 **语音解决方案**。 设置各工作负载的顺序可自行决定。 我们建议先设置聊天、团队和频道工作负载，但也可从会话和电话会议、甚至云语音开始设置。 选择权在你。
 
 > [!NOTE]
-> 如果尚未执行此操作，我们强烈建议你部署 Team 时先进行试点。试点使你和一些早期采用者能够在规划和最终推出之前熟悉 Teams 及其功能。有关如何启动试点的更多信息，请查看 [Microsoft Teams 入门](get-started-with-teams-quick-start.md)。
+> If you haven't done so already, we strongly suggest that you begin your Teams deployment with a pilot. A pilot will allow you and a few early adopters to get familiar with Teams and its features before your planning and eventual roll out. For more information about how to start your pilot, check out [Get started with Microsoft Teams](get-started-with-teams-quick-start.md).
 
 在大范围推出 Teams 之前，请参阅[确保你已准备就绪](get-started-with-teams-quick-start.md#make-sure-youre-ready)中的项目确保组织已做好准备。
 
@@ -73,10 +73,9 @@ ms.locfileid: "67808663"
 > [!TIP]
 > 完成 Microsoft Learn 中的[使用 Microsoft Teams 管理会议、电话会议和事件](/training/modules/m365-teams-collab-manage-meetings)模块，进一步熟悉相关内容。
 
-Teams 默认启用会议，不过你仍然可控制组织者和参与者的会议体验。 你还可制定策略，规定会议前和会议期间相关人员可做和不可做的行为。 有关详细信息，请参阅以下文章：
+Teams 默认启用会议，不过你仍然可控制组织者和参与者的会议体验。 你还可制定策略，规定会议前和会议期间相关人员可做和不可做的行为。 有关详细信息，请查看以下文章：
 
 - [管理员快速入门 - Microsoft Teams 中的会议和实时事件](quick-start-meetings-live-events.md)
-- [中小型企业设置音频会议](audio-conferencing-smb.md)
 
 ### <a name="teams-phone-with-calling-plan"></a>包含通话套餐的 Teams 电话
 
@@ -86,7 +85,7 @@ Teams 默认启用会议，不过你仍然可控制组织者和参与者的会�
 
 ## <a name="deploy-clients"></a>部署客户端
 
-当你准备好让用户开始使用 Teams 时，他们可以在其 Windows、Mac、或 Linux 电脑上或者在其 Android 或 iOS 设备上安装 Teams 客户端。用户可以直接从 <https://teams.microsoft.com/downloads> 下载 Teams 客户端。
+When you're ready for your users to start using Teams, they can install the Teams client on their Windows, Mac, or Linux PC, or on their Android or iOS device. Users can download the Teams client directly from <https://teams.microsoft.com/downloads>.
 
 请确保所有使用 Teams 的人员拥有 Teams 许可证。 有关分配 Teams 许可证的详细信息，请参阅[管理 Teams 用户访问权限](user-access.md#using-the-microsoft-365-admin-center)。
 
