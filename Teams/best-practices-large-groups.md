@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 313c570cfcded3b5a896a773577863f7a8817fa8
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.openlocfilehash: 06fc3d0bdf0e4741918e380d13acd1b7391bd6ef
+ms.sourcegitcommit: 50ae550b738424b35df1636590831e6c124ca0c1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562401"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "68576398"
 ---
 # <a name="manage-large-teams-in-microsoft-teams---best-practices"></a>在 Microsoft Teams 中管理大型团队 - 最佳做法
 
@@ -76,7 +76,7 @@ Azure 门户允许用户批量导入/导出/删除 Microsoft 365 组中的成员
 
 ![显示“设置”窗格的“成员权限”部分的屏幕图像。](media/disable-bots-connectors.png "显示“设置”窗格的“成员权限”部分的屏幕图像。允许成员添加应用或连接器的选项不受选中。")
 
-请参阅 [应用、机器人&连接器](deploy-apps-microsoft-teams-landing-page.md)。
+请参阅 [Teams 应用概述](deploy-apps-microsoft-teams-landing-page.md)。
 
 ## <a name="regulate-team-and-channel-mentions"></a>规范团队和频道提及
 
