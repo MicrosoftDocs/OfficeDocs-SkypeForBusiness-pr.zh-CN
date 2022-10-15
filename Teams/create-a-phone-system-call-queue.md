@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: 了解如何在 Microsoft Teams 中设置呼叫队列。 呼叫队列提供问候消息、保持音乐、呼叫重定向和其他功能。
-ms.openlocfilehash: 7ddf3364420244e800827915c9232430ffc336c1
-ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+ms.openlocfilehash: 0b1c5950ce419e3ae828afa13fa32b61117734bf
+ms.sourcegitcommit: 50ae550b738424b35df1636590831e6c124ca0c1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68046852"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "68576458"
 ---
 # <a name="create-a-call-queue"></a>创建呼叫队列
 
@@ -365,7 +365,7 @@ ms.locfileid: "68046852"
 |`Serial`                         |Y                         |Y         |Y               |Y    |Y         |Y<sup>4</sup>         |Y<sup>4</sup>             |   |
 |**代理路由选项**        |                          |          |                |     |          |                      |                          |   |
 |`Presence Based Routing`<sup>3</sup>|Y                      |Y         |Y               |N    |Y         |Y                     |Y                         |*Default* |
-|`Agents can Opt-out`               |Y                       |Y         |Y               |Y<sup>7</sup>|Y<sup>7</sup>|Y          |Y                         |*Default*     |
+|`Agents can Opt-out`<sup>10</sup> |Y                       |Y         |Y               |Y<sup>7</sup>|Y<sup>7</sup>|Y          |Y                         |*Default*     |
 |**传输模式**               |                          |          |                |     |          |                      |                          |   |
 |`Conference Mode`<sup>5</sup>    |Y                         |Y         |Y               |N    |Y<sup>6</sup>|Y                  |Y                         |*Default* |
 |`Transfer Mode`                  |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |   |
@@ -390,10 +390,11 @@ ms.locfileid: "68046852"
 5. 如果电话呼叫从启用了基于位置的路由的直接路由网关路由到队列，则不支持会议模式。
 6. 仅Microsoft Teams 电话。
 7. 通过“用户设置门户”页。[https://aka.ms/vmsettings](https://aka.ms/vmsettings)
-- GCCH： [https://dialin.cpc.gov.teams.microsoft.us/usp](https://dialin.cpc.gov.teams.microsoft.us/usp)
-- 国防部： [https://dialin.cpc.dod.teams.microsoft.us/usp](https://dialin.cpc.dod.teams.microsoft.us/usp)
 8. 仅支持公共频道。
 9. 自动助理和呼叫队列无法在 PSTN 连接方法之间传输调用。
+10. 对于 GCCH/DOD，只能通过用户设置门户在以下处使用：
+- GCCH： [https://dialin.cpc.gov.teams.microsoft.us/usp](https://dialin.cpc.gov.teams.microsoft.us/usp)
+- 国防部： [https://dialin.cpc.dod.teams.microsoft.us/usp](https://dialin.cpc.dod.teams.microsoft.us/usp)
 
 ### <a name="supported-clients"></a>支持的客户端
 
