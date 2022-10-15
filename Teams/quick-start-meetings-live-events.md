@@ -22,12 +22,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2321b4c16938b045cfe281d4cf25d7882d449d9b
-ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
+ms.openlocfilehash: 5961e05ac1ec927fbaca31dc24279eca27ce0f9d
+ms.sourcegitcommit: 50ae550b738424b35df1636590831e6c124ca0c1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "68551856"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "68576408"
 ---
 # <a name="meetings-webinars-and-live-events"></a>会议、网络研讨会和直播活动
 
@@ -142,7 +142,7 @@ Microsoft enables you to enhance meeting experiences by integrating and using me
 
 | 文章 | 说明 |
 |----------|--------|
-| [应用、机器人和连接器](deploy-apps-microsoft-teams-landing-page.md) | 应用简介以及如何为组织部署应用。 |
+| [Teams 应用概述](deploy-apps-microsoft-teams-landing-page.md) | 应用简介以及如何为组织部署应用。 |
 | [Teams 会议应用](/microsoftteams/platform/apps-in-teams-meetings/teams-apps-in-meetings) | 会议应用扩展性、API 参考，以及如何为会议启用和配置应用的概述。 |
 | [在 Teams 中管理 Whiteboard](manage-whiteboard.md) | 介绍 Whiteboard 功能以及如何为组织启用和禁用。 |
 
