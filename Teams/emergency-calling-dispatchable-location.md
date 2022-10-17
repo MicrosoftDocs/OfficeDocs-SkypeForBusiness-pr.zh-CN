@@ -11,6 +11,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -19,12 +20,12 @@ f1.keywords:
 - NOCSH
 description: 了解 Microsoft 如何支持可调度的位置信息来支持紧急呼叫。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9efa5f6e9ad5b5f2434efb95265f58c9a603fdd5
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: d7fd3111991c4a2e5e0d16e5d46aba411b1553c3
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67272067"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584572"
 ---
 # <a name="emergency-addresses-for-remote-locations"></a>远程位置的紧急地址
 
@@ -87,7 +88,7 @@ Teams 的紧急地址可按不同类型分类。 以下列表显示拨打紧急�
 2. 选择“**添加**”。
 3. 输入紧急调用策略的名称，例如“E911WFH”。
 4. 打开 **外部位置查找模式**。
-5. 选择 **“应用**”。
+5. 选择“**应用**”。
 
 #### <a name="assign-a-custom-emergency-calling-policy-to-users"></a>为用户分配自定义紧急呼叫策略
 
