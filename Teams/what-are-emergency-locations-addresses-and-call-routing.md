@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -25,12 +26,12 @@ ms.custom:
 - Direct Routing
 - seo-marvel-mar2020
 description: 了解紧急呼叫，包括有关紧急地址、紧急呼叫路由和动态紧急呼叫的信息。
-ms.openlocfilehash: 4cff6fee53d7799b8ef0ba721d0c50c8625017f5
-ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
+ms.openlocfilehash: cb877c851158c5482fdd700d9164b5eb13ffd19f
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "68551816"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584643"
 ---
 # <a name="manage-emergency-calling"></a>管理紧急呼叫
 

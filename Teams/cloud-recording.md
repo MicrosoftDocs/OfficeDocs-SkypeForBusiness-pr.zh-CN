@@ -10,6 +10,7 @@ ms.collection:
 - M365-voice
 - M365-collaboration
 - m365initiative-meetings
+- highpri
 ms.reviewer: nakulm
 search.appverid: MET150
 ms.localizationpriority: high
@@ -19,12 +20,12 @@ description: 在 Teams 中部署云语音功能的实用指南，用于记录 Te
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1360847f187d98118d0b5468638cf1d6eb215fb8
-ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.openlocfilehash: b82e73e2e5bb470df4511027d13b2df5f1f715f8
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706859"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584883"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 云会议录制
 
@@ -238,8 +239,8 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 | 会议类型  | 谁单击了“录制”？| 录制内容位于何处？ | 谁具有访问权限？ R/W、R 或共享  |
 |-------------|-----------------------|------------------------|------------------------|
-|与内部参与方进行 1 对 1 通话             |呼叫方                 |呼叫方的 OneDrive 帐户                        |呼叫方是所有者，且具有完全权限。 <br /><br />被呼叫方（如果在同一租户中）具有只读访问权限。没有共享访问权限。 <br /><br /> 被呼叫方（如果位于不同租户中）没有访问权限。 呼叫方必须将其共享给被呼叫方。|
-|与内部参与方的 1 对 1 通话             |被呼叫方                 |被呼叫方的 OneDrive 帐户                        |被呼叫方是所有者，且具有完全权限。 <br /><br />呼叫方（如果在同一租户中）具有只读访问权限。 <br /><br />呼叫方（如果位于不同的租户中）无访问权限。 被呼叫方必须将其共享给呼叫方。|
+|与内部参与方进行 1 对 1 通话             |呼叫方                 |呼叫方的 OneDrive 帐户                        |呼叫方是所有者，且具有完全权限。 <br /><br />被呼叫方（如果在同一租户中）具有只读访问权限。 无共享访问权限。 <br /><br /> 被呼叫方（如果位于不同租户中）没有访问权限。 呼叫方必须将其共享给被呼叫方。|
+|与内部参与方的 1 对 1 通话             |被呼叫方                 |被呼叫方的 OneDrive 帐户                        |被呼叫方是所有者，且具有完全权限。 <br /><br />呼叫方（如果在同一租户中）具有只读访问权限。 无共享访问权限。 <br /><br />呼叫方（如果位于不同的租户中）无访问权限。 被呼叫方必须将其共享给呼叫方。|
 |使用外部呼叫进行 1：1 通话             |呼叫方                 |呼叫方的 OneDrive 帐户                        |呼叫方是所有者，且具有完全权限。<br /> <br />被呼叫方没有访问权限。 呼叫方必须将其共享给被呼叫方。|
 |使用外部呼叫进行 1：1 通话             |被呼叫方                 |被呼叫方的 OneDrive 帐户                        |被呼叫方是所有者，且具有完全权限。<br /><br />呼叫方没有访问权限。 被呼叫方必须将其共享给呼叫方。|
 |群组通话                                 |通话的任何成员 |单击“录制”的 OneDrive 帐户的组成员  |单击“录制”的成员具有完全权限。 <br /><br /> 来自同一租户的其他成员具有读取权限。 <br /><br /> 来自不同租户的其他组成员则没有权限。|
@@ -277,13 +278,13 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 对于非频道会议，录制内容存储在录制者的 OneDrive 中，因此员工离职后所有权和保留的处理将遵循常规的 [OneDrive 和 SharePoint 流程](/onedrive/retention-and-deletion#the-onedrive-deletion-process)。
 
-会议录制的默认过期时间为 120 天。 可以关闭会议自动过期设置或更改默认过期时间。 有关[会议录制自动过期的](meetings-policies-recording-and-transcription.md#meetings-automatically-expire)Mer informasjon。
+会议录制的默认过期时间为 120 天。 可以关闭会议自动过期设置或更改默认过期时间。 了解有关 [会议录制自动过期的](meetings-policies-recording-and-transcription.md#meetings-automatically-expire)详细信息。
 
 ## <a name="closed-captions-for-recordings"></a>录制内容的隐藏式字幕
 
 仅当用户在录制时打开了听录功能时，才会在播放期间提供 Teams 会议录制内容的隐藏式字幕。 管理员必须 [通过策略启用录制听录](#turn-on-or-turn-off-recording-transcription)，以确保其用户可以选择使用听录来记录会议。
 
-作为所有者，你可以隐藏会议录制内容中的字幕，尽管会议脚本仍可在 Teams 上使用，除非你将其从 Teams 删除。
+Captions help create inclusive content for viewers of all abilities. As an owner, you can hide captions on the meeting recording, although the meeting transcript will still be available on Teams unless you delete it there.
 
 今天,录制内容视频文件的隐藏式字幕已链接到 Teams 会议脚本。 在大多数情况下，此链接将在文件的生命周期内一直保存，但如果在同一 OneDrive 或 SharePoint 网站中复制该视频文件，则链接可能会损坏，这将导致字幕在复制的视频文件上不可用。
 
