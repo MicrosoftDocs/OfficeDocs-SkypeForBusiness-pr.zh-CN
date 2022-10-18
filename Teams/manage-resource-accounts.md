@@ -11,6 +11,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -21,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: 本文介绍如何在 Microsoft Teams 中创建、编辑和管理资源帐户。
-ms.openlocfilehash: 0b8c77f7d6371ba1bfefa9837488415405e48f67
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: ac3eb35894fa765dc44f46fcb489399b06adfa74
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66615798"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584023"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>在 Microsoft Teams 中管理资源帐户
 
@@ -60,7 +61,7 @@ ms.locfileid: "66615798"
 - **呼叫队列：** 11cd3e2e-fccb-42ad-ad00-878b93575e07
 
 > [!NOTE]
-> 如果希望 Skype For Business Server 2019 用户可以搜索呼叫队列或自动助理，则应在 Skype For Business Server 2019 上创建资源帐户，因为联机资源帐户不会同步到 Active Directory。 当 sipfederationtls 的 DNS SRV 记录解析为 Skype for Business Server 2019 时，**必须** 使用 SfB Management shell 在 Skype For Business Server 2019 上创建资源帐户并同步到 Azure AD。
+> 如果希望 Skype For Business Server 2019 用户能够搜索呼叫队列或自动助理，应在 Skype For Business Server 2019 上创建资源帐户，因为联机资源帐户不会同步到 Active Directory。 当 sipfederationtls 的 DNS SRV 记录解析为 Skype for Business Server 2019 时，**必须** 使用 SfB Management shell 在 Skype For Business Server 2019 上创建资源帐户并同步到 Azure AD。
 
 对于与Skype for Business Server混合的实现：
 
