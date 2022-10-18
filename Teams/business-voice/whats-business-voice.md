@@ -19,12 +19,13 @@ ms.custom:
 ms.collection:
 - M365-voice
 - M365initiative-voice
-ms.openlocfilehash: 81c30b4c80d2244c3c9589380274bf0d1f2cceaa
-ms.sourcegitcommit: fc87f4300f53abf7a049936944abb21d0cade0d9
+- highpri
+ms.openlocfilehash: 24d491eb223466eab76538db3080b103a905e3ad
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2022
-ms.locfileid: "68480962"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584933"
 ---
 # <a name="teams-phone-system-guidance-for-small-and-medium-businesses"></a>适用于中小企业的 Teams 电话系统指南
 

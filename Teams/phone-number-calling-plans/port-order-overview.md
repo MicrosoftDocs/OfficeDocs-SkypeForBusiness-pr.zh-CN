@@ -21,12 +21,13 @@ description: 大致了解什么是端口订单，以及如何将电话号码从�
 ms.collection:
 - M365-voice
 - m365initiative-voice
-ms.openlocfilehash: c5c8b68cfd97c8a39f0b4866fb7670473a9ecef3
-ms.sourcegitcommit: 46b5dc0519d487e264b1386e5074085c2d090e9a
+- highpri
+ms.openlocfilehash: f4160d8e5fac5ec1f706bb7c82a881248d092a59
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67674373"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584913"
 ---
 # <a name="whats-a-port-order"></a>什么是转网订单？
 
@@ -40,7 +41,7 @@ ms.locfileid: "67674373"
 
 可以在所有受支持的国家或地区中移植或传输电话号码，但如何提交端口订单请求取决于电话号码来源的国家或地区。 有关支持号码移植的国家和地区的列表，请参阅 [管理组织的电话号码](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。  
 
-目前，Microsoft Teams 管理中心的[移植向导](transfer-phone-numbers-to-teams.md)支持获取英国、Estados Unidos和加拿大的电话号码。 若要获取其他国家和地区的电话号码，可以 [手动提交端口订单](manually-submit-port-order.md)。
+目前，Microsoft Teams 管理中心的[移植向导](transfer-phone-numbers-to-teams.md)支持获取英国、美国和加拿大的电话号码。 若要获取其他国家和地区的电话号码，可以 [手动提交端口订单](manually-submit-port-order.md)。
   
 ## <a name="what-numbers-can-be-transferred"></a>哪些号码可以转移？
 
@@ -53,7 +54,7 @@ ms.locfileid: "67674373"
 - 移动设备电话号码，例如用于手机和平板电脑的电话号码。
 
     > [!NOTE]
-    > 传输移动号码仅在Estados Unidos和波多黎各可用。
+    > 传输移动号码仅在美国和波多黎各可用。
   
 - 收费电话号码。
 
@@ -157,9 +158,9 @@ ms.locfileid: "67674373"
 
 携号转网很简单。 但是，如果电话服务提供商出现问题、订单不完整且缺少信息或有拼写错误，订单可能会混乱。
   
-以下是我们发现客户在转网号码时最常见的错误。你无需致电客户支持，只需认真查看这些错误。
+Here are the most common mistakes we see customers make when they port numbers. Save yourself a call to customer support and double-check for these errors.
   
-- 确保你提供的帐户信息与你的电话运营商记录的信息完全匹配。不匹配的信息是最常见的出错原因，并会导致你的转网订单延迟。请确认满足以下条件：
+- Make sure the account information you give matches exactly what your phone carrier has on record. Mismatched information is the most common cause of errors and delay your port order. Verify the following is true:
 
   - 有权对帐户进行更改的姓名或人员是正确的。
 
