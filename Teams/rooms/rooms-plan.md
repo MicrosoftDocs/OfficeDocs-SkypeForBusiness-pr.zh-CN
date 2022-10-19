@@ -15,13 +15,14 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 - Teams_ITAdmin_Rooms
+- highpri
 description: 本文介绍部署下一代 Skype 会议室系统Microsoft Teams 会议室的相关规划注意事项。
-ms.openlocfilehash: fe973e7e6f3f6d84a4ddf1721ccc8c73fb5da928
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 0e6e3d53928a1a28572a8ea0a038ea772c934e7b
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67269747"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584443"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>规划Microsoft Teams 会议室
 
@@ -34,7 +35,8 @@ ms.locfileid: "67269747"
 Microsoft Teams 会议室提供完整的会议体验，可将高清视频、音频和内容共享引入各种规模的会议，从小型拥挤区域到大型会议室。
 
 ![用户点击Teams 会议室控制台，并在后台显示。](../media/room-systems-image1.jpg "用户点击Teams 会议室控制台，后台显示")
-[Microsoft Teams 会议室帮助](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)是一个很好的资源，用于了解有关Microsoft Teams 会议室的详细信息，以及它如何在部署过程中增加价值。
+
+[Microsoft Teams 会议室帮助](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)是一个很好的资源，可详细了解Microsoft Teams 会议室以及如何在部署过程中增加价值。
 
 ## <a name="microsoft-teams-rooms-components"></a>Microsoft Teams 会议室组件
 
@@ -49,7 +51,17 @@ Microsoft Teams 会议室包含以下关键组件，可提供出色的用户体�
 
 可以从许多供应商处采购这些组件作为预安装捆绑包，也可以按照 [本文中所述的要求](requirements.md)单独购买受支持的组件。
 
-可以使用 Microsoft Teams 部署Microsoft Teams 会议室或Skype for Business本地部署。  有关所需许可证的信息，请参阅 [Teams 会议室许可更新](rooms-licensing.md) 。
+## <a name="teams-rooms-licensing"></a>Teams 会议室许可
+
+每个会议室设备（如Teams 会议室控制台、Surface Hub 和 Teams 面板）都需要Teams 会议室许可证。 Teams 为Teams 会议室提供两个许可证：Microsoft Teams 会议室专业版和基本Microsoft Teams 会议室。
+
+Microsoft Teams 会议室专业版非常适合具有 25 个或更多会议室设备的组织，或者想要最全面的会议和设备管理体验的组织。 混合 Teams 会议更身临其境，具有 Front 行、内容相机、AI 支持的干扰抑制等功能，以及Microsoft Teams 会议室专业版可用的其他功能。 Teams 会议室管理员可以从 Teams 管理中心集中管理所有经过认证的Teams 会议室设备，从配置条件访问策略到分析有关设备运行状况和会议质量的丰富遥测数据。
+
+Microsoft Teams 会议室基本版适用于仅具有少数会议室设备且仅需要基本会议和管理功能的组织。 Microsoft Teams 会议室基本版允许你加入会议、共享内容和实时视频、使用 Direct Guest Join 加入 Zoom 和 Webex 会议，并在 Teams 管理中心执行基本设备清单和监视。
+
+在使用会议室设备之前，需要为其分配许可证。 有关详细信息，请参阅[Microsoft Teams 会议室许可证](rooms-licensing.md)。
+
+[!INCLUDE [mtr-user-licensing](../includes/mtr-user-licensing.md)]
 
 | &nbsp;   |  &nbsp;   |
 |-----------|------------|
@@ -142,7 +154,7 @@ _组织Microsoft Teams 会议室部署模板示例_
 
 你的组织必须持续执行监视、管理和管理任务，并且必须同意谁将在部署早期执行这些任务。
 
-许多组织都有一个 AV 团队或合作伙伴来管理其会议室和设备。 或者，你可以利用Microsoft Teams 会议室高级版让 Microsoft 帮助管理Teams 会议室。 确定谁将管理Microsoft Teams 会议室设备，以监视性能以及部署软件更新和修补程序。
+许多组织都有一个 AV 团队或合作伙伴来管理其会议室和设备。 或者，可以通过利用Microsoft Teams 会议室专业版让 Microsoft 帮助管理Teams 会议室。 确定谁将管理Microsoft Teams 会议室设备，以监视性能以及部署软件更新和修补程序。
 
 考虑要将Microsoft Teams 会议室相关调用路由到的帮助台队列，并向支持人员团队提供常见问题解答，以便他们更好地了解如何使用Microsoft Teams 会议室以及可以采取的关键故障排除步骤。 此常见问题解答的一个好起点是 [用户帮助](https://support.microsoft.com/office/microsoft-teams-rooms-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) 和 [已知问题](known-issues.md)。
 

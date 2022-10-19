@@ -10,6 +10,7 @@ audience: admin
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 ms.reviewer: crowe
 search.appverid: MET150
 description: 详细了解 Teams Phone Mobile，例如部署要求和规划。
@@ -18,16 +19,16 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 07a7a7652f5b634d9cc4c5bf7adfa14dfdcb3d3d
-ms.sourcegitcommit: 50ae550b738424b35df1636590831e6c124ca0c1
+ms.openlocfilehash: ffff1b3ae23b48a5f3fe0e697e43f13aaac8932d
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/14/2022
-ms.locfileid: "68576588"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68585061"
 ---
 # <a name="plan-for-teams-phone-mobile"></a>规划 Teams Phone Mobile
 
-有关参与Microsoft Teams 电话移动计划以及其服务可用的国家或地区的运营商列表，请参阅 [Microsoft 365 Teams Phone Mobile](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/teams-phone-mobile)。
+有关参与Microsoft Teams 电话移动版计划的运营商及其服务可用的国家或地区列表，请参阅 [Microsoft 365 Teams Phone Mobile](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/teams-phone-mobile)。
 
 Teams Phone Mobile 是另一种选项，用于提供公共交换电话网络 (PSTN) 与 Microsoft Teams 和电话系统的连接。 使用 Teams Phone Mobile 时，用户启用 SIM 的电话号码也是其 Teams 电话号码。 用户可以在 Microsoft Teams 中的移动服务和桌面线路上使用单个电话号码，并在网络和设备之间无缝切换。
 
@@ -39,7 +40,7 @@ Teams Phone Mobile 可在组织实现真正移动员工的战略中发挥关键�
 
 -   你希望将 Teams Phone 的主要公司拥有且启用了 SIM 的移动号码用作单个号码解决方案。
 
--   首选运算符是Microsoft Teams 电话移动计划的参与者。
+-   首选运算符是Microsoft Teams 电话移动版程序的参与者。
 
 -   你希望找到一个新的运算符，以在 Teams 中启用呼叫。
 

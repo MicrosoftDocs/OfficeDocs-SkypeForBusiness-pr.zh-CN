@@ -13,6 +13,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -30,12 +31,12 @@ ms.custom:
 - O365P_SFBVoiceCreditAether
 - Licensing
 description: '了解如何支付通信额度 (PSTN 使用) Skype for Business服务，并了解让用户保持持续电话系统访问的计划。 '
-ms.openlocfilehash: 0e8c737f8ed1ac4537c4453d77cc284719fb8086
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 42527a608cf6a020f1c8fc4f07f912ec95dd1a3a
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156640"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68583843"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>添加资金并管理通信点数
 
@@ -58,7 +59,7 @@ ms.locfileid: "67156640"
   
 作为管理员，可以手动添加资金，也可以设置自动充值 **，建议使用**。
   
-当你的余额低于你设置的触发器金额时，自动充值将自动充入钱款。我们建议使用自动充值，以防你忘记手动存入资金。当你的余额达到触发金额时，将自动存入资金。如果不选择自动充值，你面临余额低于零的风险。此时，你和你的用户将无法进行免费呼叫或国际呼叫。
+Auto-recharge automatically tops off your balance when it falls below the trigger amount you set. We recommend using auto-recharge so you don't have to remember to add funds manually. When your balance hits the trigger amount, funds are added automatically. If you don't choose auto-recharge, you run the risk of your balance falling below zero. At that point, you and your users won't be able to make toll-free calls or international calls.
   
 你可以随时更新你的付款选项。 在 **“订阅”页上** ，选择 **“通信额度**”并进行更新。
   

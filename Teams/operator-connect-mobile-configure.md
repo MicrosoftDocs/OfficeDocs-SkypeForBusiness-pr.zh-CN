@@ -10,6 +10,7 @@ audience: admin
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 ms.reviewer: crowe
 search.appverid: MET150
 description: 详细了解如何配置 Teams Phone Mobile。
@@ -18,16 +19,16 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e0ffdc63200289f6f77dccb5214e8b2e3c3b344f
-ms.sourcegitcommit: 50ae550b738424b35df1636590831e6c124ca0c1
+ms.openlocfilehash: 4f05eeb70808d39b721d1b33ba252c8257433c4a
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/14/2022
-ms.locfileid: "68576597"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584172"
 ---
 # <a name="configure-teams-phone-mobile"></a>配置 Teams Phone Mobile
 
-有关参与Microsoft Teams 电话移动计划以及其服务可用的国家或地区的运营商列表，请参阅 [Microsoft 365 Teams Phone Mobile](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/teams-phone-mobile)。
+有关参与Microsoft Teams 电话移动版计划的运营商及其服务可用的国家或地区列表，请参阅 [Microsoft 365 Teams Phone Mobile](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/teams-phone-mobile)。
 
 本文介绍如何配置 Teams Phone Mobile。 在配置 Teams Phone Mobile 之前，请务必阅读 [Teams Phone Mobile 计划](operator-connect-mobile-plan.md) ，了解有关权益、先决条件和许可的信息。
 

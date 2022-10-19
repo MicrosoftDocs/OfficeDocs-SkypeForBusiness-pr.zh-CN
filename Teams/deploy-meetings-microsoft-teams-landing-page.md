@@ -20,12 +20,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-get-started
-ms.openlocfilehash: efb18d7a4674fa990f5a133576ec10ed4d377e35
-ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.openlocfilehash: 7306184fe00c404820a0aa098497c2ec1262d15b
+ms.sourcegitcommit: 50ae550b738424b35df1636590831e6c124ca0c1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706489"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "68576561"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Microsoft Teams 中的会议
 
@@ -74,7 +74,7 @@ Teams 为组织提供了现成的出色体验，并且大多数组织发现默�
 
 ### <a name="teams-administrators"></a>Teams 管理员
 
-Teams 提供了一组可用于为组织管理 Teams 的自定义管理员角色。这些角色为管理员提供各种能力。
+Teams provides a set of custom administrator roles that can be used to manage Teams for your organization. The roles provide various capabilities to administrators.
 
 | 询问你自己 | 操作 |
 |--------------|--------|
@@ -143,7 +143,7 @@ Teams 提供了一组可用于为组织管理 Teams 的自定义管理员角色�
 用户可以录制其会议和组内呼叫，以便捕获音频、视频和屏幕共享活动。 还有一个用于为录像添加自动转录功能的选项，这样用户就能够回放包含隐藏式字幕的会议录像，并在转录文本中搜索重要的讨论事项。 录制在云中进行，并保存在 Microsoft Stream 中，因此用户可以安全地在组织中共享录像。 若要查找会议录像，请转到会议对话。
 
 >[!Note]
-> 从使用 Microsoft Stream 到[使用 OneDrive for Business 和 SharePoint for meeting 进行会议录制](tmr-meeting-recording-change.md)的改变将是分阶段进行的。在发布时，你将能够选择加入此体验，如果想继续使用 Stream，则在 11 月必须选择退出，在 2021 年初的某个时候，我们将要求所有客户使用 OneDrive for Business 和 SharePoint 进行新的会议录制。
+> The change from using Microsoft Stream to [OneDrive for Business and SharePoint for meeting recordings](tmr-meeting-recording-change.md) will be a phased approach. At launch you'll be able to opt-in to this experience, in November you'll have to opt-out if you want to continue using Stream, and some time in early 2021 we'll require all customers to use OneDrive for Business and SharePoint for new meeting recordings.
 
 若要了解详细信息，请参阅 [Teams 云会议录制](cloud-recording.md)。
 
@@ -206,4 +206,4 @@ Teams 提供两种用于监视和排除通话质量问题的方法：[通话分�
 - 在整个组织中[推动采用](adopt-microsoft-teams-landing-page.md)会议。
 - [添加音频会议](deploy-audio-conferencing-teams-landing-page.md)
 - [部署云语音](cloud-voice-landing-page.md)
-- 在 Teams 的初步部署中加入特别推荐的应用 - 例如 Planner。在推动 Teams 采用的过程中添加其他[应用、聊天机器人和连接器](deploy-apps-microsoft-teams-landing-page.md)。
+- 在 Teams 的初步部署中加入特别推荐的应用 - 例如 Planner。 在推动 Teams 采用时添加其他 [Teams 应用](deploy-apps-microsoft-teams-landing-page.md) 。

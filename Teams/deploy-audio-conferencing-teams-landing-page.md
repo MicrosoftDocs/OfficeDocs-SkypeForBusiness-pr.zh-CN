@@ -20,12 +20,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1da45446c2ab1879dd8064537dc50dafd99ea013
-ms.sourcegitcommit: 5abfb6f1abe10b6d32cf6eb97a890cf3138ed0e6
+ms.openlocfilehash: 7fafebf61cdf7e5b13cfbb6aaf08d73afef6f436
+ms.sourcegitcommit: 50ae550b738424b35df1636590831e6c124ca0c1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/10/2022
-ms.locfileid: "67641743"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "68576438"
 ---
 # <a name="learn-how-to-deploy-audio-conferencing-in-microsoft-teams"></a>了解如何在 Microsoft Teams 中部署音频会议
 
@@ -54,7 +54,7 @@ ms.locfileid: "67641743"
 
 ### <a name="teams-administrators"></a>Teams 管理员
 
-Teams 提供了一组可用于为组织管理 Teams 的自定义管理员角色。这些角色为管理员提供各种能力。
+Teams provides a set of custom administrator roles that can be used to manage Teams for your organization. The roles provide various capabilities to administrators.
 
 | 询问你自己 | 操作 |
 |--------------|--------|
@@ -65,7 +65,7 @@ Teams 提供了一组可用于为组织管理 Teams 的自定义管理员角色�
 
 ### <a name="conferencing-bridges-and-phone-numbers"></a>会议网桥和电话号码
 
-借助会议网桥，用户可以使用电话拨号方式加入会议。你可以为会议网桥使用默认设置，也可以更改电话号码（收费和免费）和其他设置，例如 PIN 或使用的语言。
+Conferencing bridges let people dial into meetings using a phone. You can use the default settings for a conferencing bridge or change the phone numbers (toll and toll-free) and other settings, such as the PIN or the languages that are used.
 
 请参阅[音频会议](audio-conferencing-in-office-365.md)了解详情。
 
@@ -87,7 +87,7 @@ Teams 音频会议允许你为会议网桥设置默认语言和备用语言。
 
 ### <a name="conferencing-bridge-settings"></a>会议网桥设置
 
-设置了会议网桥（包括默认语言和备用语言）之后，你应验证诸如进入/退出通知和 PIN 长度等默认设置是否符合你的要求。如果不符合，你可以更改这些设置。
+After setting up your conferencing bridge, including default and alternate languages, you should verify that the default settings such as entry/exit notifications and PIN length are the ones you want to use. If they're not, you can change them.
 
 |询问你自己|操作 |
 |------------|-------|
@@ -153,4 +153,4 @@ Teams 提供两种用于监视和排除通话质量问题的方法：[通话分�
 
 - 在组织内[推动采用](adopt-microsoft-teams-landing-page.md)音频会议。
 - [部署云语音](cloud-voice-landing-page.md)
-- 在 Teams 的初步部署中加入特别推荐的应用 - 例如 Planner。在推动 Teams 采用的过程中添加其他[应用、聊天机器人和连接器](deploy-apps-microsoft-teams-landing-page.md)。
+- 在 Teams 的初步部署中加入特别推荐的应用 - 例如 Planner。 在推动 Teams 采用时添加其他 [Teams 应用](deploy-apps-microsoft-teams-landing-page.md) 。

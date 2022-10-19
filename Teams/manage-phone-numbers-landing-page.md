@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 audience: Admin
 appliesto:
 - Skype for Business
@@ -27,12 +28,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: 了解如何为组织获取和管理用户 (订阅者) 和服务 (收费和免费) 电话号码。
-ms.openlocfilehash: 053d886a97591a6685582f0db0ca194eaa312896
-ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
+ms.openlocfilehash: 52069029e7dca69f5df9520ad1491464bf6b9aa9
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "68551886"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584232"
 ---
 # <a name="manage-telephone-numbers-for-your-organization"></a>管理组织的电话号码
 
@@ -121,7 +122,7 @@ Microsoft 提供的两种服务电话号码（收费和免费）可分配给音�
 
 ### <a name="change-where-direct-routing-phone-numbers-are-managed"></a>更改管理直接路由电话号码的位置
 
-若要更改直接路由电话号码的托管位置，需要从用户的 msRTCSIP-Line 属性中删除电话号码，或在本地 Active Directory中重新部署帐户。   
+若要更改直接路由电话号码的托管位置，需要从本地 Active Directory中的用户或资源帐户上的 msRTCSIP-Line 属性中删除电话号码。   
 
 有关详细信息，请参阅 [Active Directory 中所有本地用户的 Clear Skype for Business 属性](/skypeforbusiness/hybrid/cloud-consolidation-managing-attributes#method-2---clear-skype-for-business-attributes-for-all-on-premises-users-in-active-directory.md)。 请注意，需要将电话号码重新分配给 Microsoft 365 中的用户或资源帐户。
 

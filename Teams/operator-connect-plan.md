@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e3d86bf4607b723f92958d34d9530764ab80daf
-ms.sourcegitcommit: 75dfc3cd9b59282d68e35e4d7185da572eb3795c
+ms.openlocfilehash: 862b7f05efe4818a7778e979ecd725225806aacc
+ms.sourcegitcommit: ffc7532a4bb1f1f6b3031025b493a5ad20ba4366
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/06/2022
-ms.locfileid: "67606441"
+ms.lasthandoff: 10/13/2022
+ms.locfileid: "68570384"
 ---
 # <a name="plan-for-operator-connect"></a>规划运算符连接
 
@@ -54,11 +54,9 @@ ms.locfileid: "67606441"
 
 - **更快、更轻松的部署。** 可以快速连接到操作员并将电话号码分配给用户 - 全部来自 Teams 管理中心。
 
-- **增强了支持和可靠性。** 操作员提供技术支持和共享服务级别协议来改进支持服务，而由 Azure 提供支持的直接对等互连则创建一对一网络连接，以提高可靠性。
+- **增强了支持和可靠性。** 操作员提供技术支持和共享服务级别协议来改进支持服务，而由 Azure 提供支持的直接对等互连则创建一对一网络连接，以提高可靠性。 
 
 ## <a name="requirements"></a>要求
-
- 
 
 若要使用 Operator Connect 启用电话号码分配，请确保用户为：
 
@@ -66,3 +64,7 @@ ms.locfileid: "67606441"
 - 在 TeamsOnly 模式下。 请注意，用户需要处于 TeamsOnly 模式，但整个组织不会。 若要了解详细信息，请参阅[了解 Microsoft Teams 并Skype for Business共存和互操作性](teams-and-skypeforbusiness-coexistence-and-interoperability.md)。
 
 有关参与 Microsoft Operator Connect 计划的操作员及其服务可用的国家或地区列表，请参阅 [Microsoft 365 Operator Connect 目录](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory)。
+
+## <a name="support-boundaries"></a>支持边界
+有关技术支持，请先联系操作员连接操作员的客户支持。 如果需要，操作员连接运算符可以通过共享支持渠道将支持案例直接升级到 Microsoft 工程。 
+

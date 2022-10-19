@@ -16,12 +16,13 @@ appliesto:
 ms.collection:
 - M365-voice
 - M365initiative-voice
-ms.openlocfilehash: 8acf4064f294c4fa28a48413a270f0814e0e3ccb
-ms.sourcegitcommit: fc87f4300f53abf7a049936944abb21d0cade0d9
+- highpri
+ms.openlocfilehash: 5709c3becad75b1380b646b5ea5004ba71786063
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2022
-ms.locfileid: "68481098"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584613"
 ---
 # <a name="step-3-assign-teams-phone-with-calling-plan-bundle-licenses"></a>步骤 3：使用通话套餐捆绑许可证分配 Teams 电话
 
