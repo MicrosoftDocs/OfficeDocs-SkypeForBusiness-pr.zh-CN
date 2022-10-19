@@ -15,14 +15,15 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- highpri
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7e18aa0ad95033550d0ef2f7c6049e700d917798
-ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
+ms.openlocfilehash: bf113e8d14b70382d6b1704b8574385038099210
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "66606091"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68584313"
 ---
 # <a name="teams-in-remote-desktop-services"></a>远程桌面服务中的 Teams
 
@@ -53,7 +54,7 @@ RDS 提供部署灵活性、成本效率和扩展性。 RDS 通过各种部署�
 
 若要将 DisallowCalling 调用策略和 AllOff 会议策略分配给用户，请执行以下操作：
 
-1. 在 Microsoft Teams 管理中心的左侧导航中，转到 **“用户**”。
+1. 在 Microsoft Teams 管理中心的左侧导航中，转到“**用户**”。
 2. 选择用户名左侧，然后选择 **“编辑设置**”。
 3. 执行以下步骤：
 
@@ -61,7 +62,7 @@ RDS 提供部署灵活性、成本效率和扩展性。 RDS 通过各种部署�
 
     b.  在 **“会议策略**”下，选择 **“AllOff**”。
 
-4. 选择 **“应用**”。
+4. 选择“**应用**”。
 
 若要一次向多个用户分配策略，请执行以下操作：
 

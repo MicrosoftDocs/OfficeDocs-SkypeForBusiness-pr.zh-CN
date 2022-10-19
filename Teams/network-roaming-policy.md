@@ -16,13 +16,14 @@ ms.custom: ''
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- highpri
 description: 了解如何管理 Teams 网络漫游策略的设置。
-ms.openlocfilehash: c26cdec0fc41e40a9c3eac7d0324050740cf05ef
-ms.sourcegitcommit: 68162a8c9dee9a27af596353baabeda9b8fa64f3
-ms.translationtype: HT
+ms.openlocfilehash: f8b1d78754c5f608aa76d9261b2164abc4de9194
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "64853233"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68585064"
 ---
 # <a name="manage-video-and-media-settings-with-the-network-roaming-policy"></a>使用网络漫游策略管理视频和媒体设置
 
@@ -60,7 +61,7 @@ TeamsNetworkRoamingPolicy 包含以下参数：
  Set-CsTenantNetworkSite -Identity Burlington -NetworkRoamingPolicy $null
  ```
 
-要为未启用企业语音的用户启用网络漫游策略，还必须在 TeamsMeetingPolicy 中启用 AllowNetworkConfigurationSettingsLookup 设置。此设置默认为关闭。
+To enable the network roaming policy for users who are not enterprise voice enabled, you must also enable the AllowNetworkConfigurationSettingsLookup setting in TeamsMeetingPolicy. This setting is off by default.
 
 有关创建网络站点的详细信息，请参阅 [云语音功能的网络设置](cloud-voice-network-settings.md)。 
 

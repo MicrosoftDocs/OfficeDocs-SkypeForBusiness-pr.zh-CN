@@ -12,12 +12,12 @@ ms.collection:
 description: 了解 Teams PowerShell 模块中基于应用程序的身份验证，该模块用于管理 Microsoft Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8dd4b230f7f22feb574463a96d4a4447bcf0cfb0
-ms.sourcegitcommit: 8dd36e1e30a47316c15c99e964d0464715bcd742
+ms.openlocfilehash: d017f5e23685df6aa6c7ae0630724ad5d13d0425
+ms.sourcegitcommit: ffc7532a4bb1f1f6b3031025b493a5ad20ba4366
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "68532492"
+ms.lasthandoff: 10/13/2022
+ms.locfileid: "68570415"
 ---
 # <a name="application-based-authentication-in-teams-powershell-module"></a>Teams PowerShell 模块中基于应用程序的身份验证
 
@@ -28,7 +28,7 @@ Teams PowerShell 模块现在支持基于应用程序的身份验证，用于预
 
 以下 Cmdlet 已受支持，其他 cmdlet 将逐步推出。 
 
-  - 非 \*Cs cmdlet (例如 Get-Team) 
+  - \*新团队) 除外，非 Cs cmdlet (
   - Get-CsTenant
   - Get-CsOnlineUser，Get-CsOnlineVoiceUser
   - \*-CsOnlineSipDomain 
@@ -43,6 +43,7 @@ Teams PowerShell 模块现在支持基于应用程序的身份验证，用于预
   - Find-CsGroup
   - \*-CsOnlineDialInConferencingUser， \*-CsOnlineDialInConferencingServiceNumber， \*-CsOnlineDialInConferencingBridge， Get-CsOnlineDialInConferencingLanguagesSupported， Set-CsOnlineDialInConferencingUserDefaultNumber
   - \*-CsOnlineLisLocation， \*-CsOnlineLisCivicAddress， \*-CsOnlineLisWirelessAccessPoint， \*-CsOnlineLisPort， \*-CsOnlineLisSubnet， \*-CsOnlineEnhancedEmergencyServiceDisclaimer， \*-CsOnlineLisSwitch
+  - \*-CsCloudCallDataConnection
 
 
 ## <a name="examples"></a>示例

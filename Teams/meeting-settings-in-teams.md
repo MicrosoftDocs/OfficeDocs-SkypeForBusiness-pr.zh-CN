@@ -21,13 +21,14 @@ ms.custom:
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- highpri
 description: 了解如何管理用户在组织中安排的 Teams 会议的设置。
-ms.openlocfilehash: c25405dd305a8556309559d4941dd731331e6d75
-ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.openlocfilehash: 3faff1779830539470ae3d04cc73e58da65a637c
+ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706499"
+ms.lasthandoff: 10/16/2022
+ms.locfileid: "68583873"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理会议设置
 
@@ -103,7 +104,7 @@ ms.locfileid: "67706499"
 
 ## <a name="customize-meeting-invitations"></a>自定义会议邀请
 
-可以自定义 Teams 会议邀请以满足组织的需求。可添加组织的徽标，并包含有用的信息，如支持网站的链接和法律免责声明，以及纯文本页脚。
+You can customize Teams meeting invitations to meet your organization's needs. You can add your organization's logo and include helpful information, such as links to your support website and legal disclaimer, and a text-only footer.
 
 ### <a name="tips-for-creating-a-logo-for-meeting-invitations"></a>为会议邀请创建徽标的提示  
 
@@ -111,7 +112,7 @@ ms.locfileid: "67706499"
 2. 将图像保存为 JPG 或 PNG 格式。
 3. 将图像存储在收到邀请的每个人都可以访问的位置，例如公共网站。
 
-    现在，可以将其添加到会议邀请。请参阅后续步骤。
+    Now you can add it to your meeting invitations. See the next steps.
 
 ### <a name="customize-your-meeting-invitations"></a>自定义会议邀请
 
@@ -162,9 +163,9 @@ ms.locfileid: "67706499"
         
         > [!NOTE]
         > DSCP 标记通常通过源端口完成，UDP 通信流将默认通过目标端口 3478 路由到传输中继。 如果你的公司要求在目标端口上标记，请联系支持人员以启用与 UDP 端口 3479（音频）、3480（视频）和 3481（共享）的传输中继通信。
-    - 要指定端口范围，请在 **选择每种媒体实时流量的端口范围** 旁选择 **指定端口范围**，然后输入音频、视频和屏幕共享的起始和结束端口。选择该选项是实现 QoS 的必要条件。 
+    - To specify port ranges, next to **Select a port range for each type of real-time media traffic**, select  **Specify port ranges**, and then enter the starting and ending ports for audio, video, and screen sharing. Selecting this option is required to implement QoS. 
         > [!Note]
-        > 如果 **实时媒体流量的服务质量 (QoS) 标记** 已开启，则必须管理端口设置。它们不是自动管理的。
+        > If **Quality of Service (QoS) markers for real-time media traffic** is on, then you have to manage your port settings. They aren't managed automatically.
         
         > [!IMPORTANT]
         > 如果你选择了 **自动使用任何可用的端口**，则将使用 1024 和 65535 之间的可用端口。 仅在未实施 QoS 的情况下使用此选项。
@@ -184,4 +185,4 @@ ms.locfileid: "67706499"
 
 \* 分配的端口区域不能重叠，并且应该彼此相邻。
 
-在使用 QoS 一段时间后，会有关于这三种工作负载需求的使用信息，你可以根据具体需求选择想要做的改变。[呼叫质量仪表板](turning-on-and-using-call-quality-dashboard.md) 将对此有所帮助。
+After QoS has been in use for a while, you'll have usage information on the demand for each of these three workloads, and you can choose what changes to make based on your specific needs. [Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md) will be helpful with that.
