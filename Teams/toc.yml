@@ -719,8 +719,6 @@ items:
             items:
               - name: 设置音频会议
                 href: set-up-audio-conferencing-in-teams.md
-              - name: 设置音频会议 - 中小型企业的快速入门
-                href: audio-conferencing-smb.md
           - name: 管理
             items:
               - name: 管理音频会议服务
@@ -901,11 +899,11 @@ items:
                 href: operator-connect-plan.md
               - name: 配置运营商连接
                 href: operator-connect-configure.md
-          - name: 运营商连接移动
+          - name: Teams Phone Mobile
             items:
-              - name: 规划运营商连接移动
+              - name: 规划 Teams Phone Mobile
                 href: operator-connect-mobile-plan.md
-              - name: 配置运营商连接移动
+              - name: 配置 Teams Phone Mobile
                 href: operator-connect-mobile-configure.md
           - name: 直接路由
             items:
@@ -1017,7 +1015,7 @@ items:
                 href: phone-number-calling-plans/supported-rate-centers-coverage-matrix.md
           - name: 管理运营商连接的电话号码
             href: operator-connect-configure.md#set-up-phone-numbers
-          - name: 管理运营商连接移动的电话号码
+          - name: 管理 Teams Phone Mobile 的电话号码
             href: operator-connect-mobile-configure.md#set-up-phone-numbers
           - name: 管理直接路由的电话号码
             href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice
@@ -1381,8 +1379,10 @@ items:
                 href: rooms/rooms-prep.md
               - name: 要求
                 href: rooms/requirements.md
-              - name: 安全性
-                href: rooms/security.md
+              - name: Windows 安全性
+                href: rooms/security-windows.md
+              - name: Android 安全性
+                href: rooms/security-android.md
               - name: 使用者 Azure Monitor 进行管理规划
                 href: rooms/azure-monitor-plan.md
           - name: 部署
@@ -1431,7 +1431,7 @@ items:
                 href: rooms/xml-config-file.md
               - name: 使用恢复工具
                 href: rooms/recovery-tool.md
-      - name: Microsoft Teams 会议室专业管理
+      - name: Microsoft Teams 会议室专业版管理
         items:
           - name: 概述
             href: rooms/microsoft-teams-rooms-premium.md
@@ -1585,7 +1585,7 @@ items:
         items:
           - name: 管理自定义和旁加载的应用
             href: custom-app-overview.md
-          - name: 管理自定义应用策略和设置
+          - name: 管理自定义应用的策略和设置
             href: teams-custom-app-policies-and-settings.md
           - name: 发布使用 API 提交的自定义应用
             href: submit-approve-custom-apps.md
@@ -1615,7 +1615,7 @@ items:
             href: app-permissions.md
           - name: 为组织应用商店打造品牌
             href: customize-your-app-store.md
-          - name: 将应用用作外部用户或来宾用户
+          - name: 将应用用作外部用户或来宾
             href: non-standard-users.md
           - name: 管理用户请求
             href: user-requests-approve-apps.md
@@ -2057,6 +2057,8 @@ items:
             href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-vietnam.md
       - name: 辅助功能和合规性
         items:
+          - name: Teams 辅助功能指南
+            href: accessibility-guide-admin.md
           - name: 法国 Microsoft Teams 辅助功能合规性声明
             href: accessibility-declaration-of-conformance-in-france-for-teams.md
           - name: Skype for Business Online 和 Microsoft Teams 辅助功能解决方案
@@ -2065,6 +2067,10 @@ items:
             href: code-of-practice-for-the-united-kingdom-u-k.md
           - name: Microsoft 365 中的通话套餐 - 英国合规处理守则
             href: complaint-handling-code-for-the-united-kingdom-u-k.md
+          - name: 加拿大的 IP 中继 - 注册
+            href: ip-relay-canada-email-signup.md
+          - name: 加拿大 IP 中继 - 用户指南
+            href: ip-relay-canada-user-guide.md
           - name: 紧急呼叫条款和条件
             href: emergency-calling-terms-and-conditions.md
       - name: 共享频道错误
