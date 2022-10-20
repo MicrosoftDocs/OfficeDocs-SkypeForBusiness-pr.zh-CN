@@ -20,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2e11a0d89c7c49e27dd4237e67a67be93db2bcb6
-ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+ms.openlocfilehash: 3e0d47107771add6e091afeeddc35d47110d7938
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68046742"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614635"
 ---
 # <a name="use-end-to-end-encryption-for-one-to-one-microsoft-teams-calls"></a>将端到端加密用于一对一 Microsoft Teams 通话
 
@@ -86,9 +86,9 @@ ms.locfileid: "68046742"
 
 3. 选择默认策略，或选择“**添加**”以添加新策略，然后为新策略命名。
 
-4. 如果要为用户启用端到端加密，对于“**端到端呼叫加密**”，选择“**已禁用用户替代**”，然后选择“**保存**”。
+4. 若要为用户启用端到端加密，对于 **端到端呼叫加密**，请选择 **“未启用”，但用户可以启用**，然后选择 **“保存**”。
 
-   若要禁用端到端加密，请选择“**已禁用**”。
+   若要禁用端到端加密，请选择 **“未启用**”。
 
 完成策略设置后，按照管理其他 Teams 策略的相同方式将策略分配给用户、组或整个租户。 有关在 Teams 中使用策略的信息，请参阅[管理具有策略的 Teams](manage-teams-with-policies.md)。
 

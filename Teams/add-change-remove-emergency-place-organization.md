@@ -11,6 +11,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -19,12 +20,12 @@ f1.keywords:
 - NOCSH
 description: 了解如何为组织添加、更改或删除紧急位置。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 5ddaaf2e6c173b6546d337ebfc9f23464a52233c
-ms.sourcegitcommit: 179713dd2b22736c0d63060a6351eb69ec4abff2
+ms.openlocfilehash: 5421ff4e73d93c12244b3419342110b419f1b500
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "68551496"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614185"
 ---
 # <a name="add-change-or-remove-a-place-for-an-emergency-location-in-your-organization"></a>在组织中添加、更改或删除紧急位置的地点
 
