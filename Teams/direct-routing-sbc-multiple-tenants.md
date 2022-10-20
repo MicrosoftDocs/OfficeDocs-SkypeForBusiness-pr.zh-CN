@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 了解如何配置一个会话边界控制器 (SBC) ，为 Microsoft 合作伙伴和/或 PSTN 运营商提供多个租户。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9d7ee3960f88b1c6ed4ee140b4f291162e37da30
-ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
+ms.openlocfilehash: 3789270bc9826c11dee338b5221bc019191f50f2
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67024015"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614405"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>为多个租户配置会话边界控制器
 
@@ -136,10 +136,13 @@ SBC 需要证书才能对连接进行身份验证。 对于 SBC 托管方案，�
 
 注册域名后，需要通过添加至少一个 Teams 许可用户或资源帐户来激活它。 可接受的帐户将使用以下任何一个 SKU 获得许可：
 
-- 具有 Office 365 E1/E3/E5/A3/A5 或 Microsoft 365 E3/E5/A3/A5 的用户帐户
-- 具有 Office 365 F1/F3 或 Microsoft 365 F1/F3 的用户帐户
-- 使用公共区域电话的用户帐户
-- 具有 **Microsoft Teams 电话资源帐户许可证的资源帐户**
+- 具有 Office 365 E1/E3/E5 或 Microsoft 365 E3/E5 的用户帐户。
+- 具有Office 365 A1/A3/A5 或Microsoft 365 A1/A3/A5 的用户帐户。
+- 具有 Office 365 F3 或 Microsoft 365 F1/F3 的用户帐户。
+- 具有 Office 365 G1/G3/G5 或 Microsoft 365 G3/G5 的用户帐户。
+- 具有 Microsoft 365 商业基础版/Standard/Premium 的用户帐户。
+- 具有公共区域电话的用户帐户。
+- 具有 **Microsoft Teams 电话资源帐户许可证的资源帐户**。
 
 此外，帐户的 UPN (用户主体名称) 或Skype for Business本地 SIP 地址必须使用与新创建的域相同的 FQDN。
 
@@ -202,6 +205,7 @@ SBC 需要证书才能对连接进行身份验证。 对于 SBC 托管方案，�
 
 -   具有 Office 365 E1/E3/E5/A3/A5 或 Microsoft 365 E3/E5/A3/A5 的用户帐户
 -   具有 Office 365 F1/F3 或 Microsoft 365 F1/F3 的用户帐户
+-   具有Microsoft 365 商业基础版/标准/高级和 G3/G5 计划的用户帐户
 -   使用公共区域电话的用户帐户
 -   具有 **Microsoft Teams 电话资源帐户许可证的资源帐户**
 

@@ -1,7 +1,7 @@
 ---
-title: Microsoft Teams调用队列支持的语言
-author: CarolynRowe
-ms.author: crowe
+title: Microsoft Teams 调用队列支持的语言
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -20,15 +20,15 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: Microsoft Teams调用队列支持的语言
-ms.openlocfilehash: c33745aaa5a1b0ddbfb3c7438fdc8bf72c8af592
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+description: Microsoft Teams 调用队列支持的语言
+ms.openlocfilehash: 95826d1030b9ee1b2baf33ddecb8589cf5f08ebc
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674714"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614004"
 ---
-# <a name="microsoft-teams-call-queue-supported-languages"></a>Microsoft Teams调用队列支持的语言
+# <a name="microsoft-teams-call-queue-supported-languages"></a>Microsoft Teams 调用队列支持的语言
 
 调用队列支持以下语言的文本转语音 (TTS) ：
 

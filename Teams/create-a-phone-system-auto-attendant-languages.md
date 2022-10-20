@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 自动助理支持的语言
-author: CarolynRowe
-ms.author: crowe
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Microsoft Teams 自动助理支持的语言
-ms.openlocfilehash: 609c92d86c1fbacddf35093a1ad77df065f5da75
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: c769df020f178b2a69321c7b163e74a9fa1df4d6
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65676454"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614595"
 ---
 # <a name="microsoft-teams-auto-attendant-supported-languages"></a>Microsoft Teams 自动助理支持的语言
 

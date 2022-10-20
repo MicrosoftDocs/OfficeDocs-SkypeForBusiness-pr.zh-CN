@@ -16,12 +16,12 @@ f1.keywords:
 description: hHw 直接路由支持媒体旁路，为 ICE Lite 启用了会话边框控制器。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 59ea283069c6fc37590d6329aeac46e40484f8ca
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: e6f9715ee410116a66c572522a910cd16ef27154
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67267757"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614415"
 ---
 # <a name="overview"></a>概述
 
@@ -55,7 +55,7 @@ RFC 5389 所需的 SBC 必须忽略它们无法识别的任何 STUN 属性，并
 
 ### <a name="candidate-gathering"></a>候选人聚会
 
-SBC 必须只提供一个可公开访问的候选项。 目前，仅支持 IPV4 候选项。
+SBC 只能提供一个候选项。 目前，仅支持 IPV4 候选项。
 
 
 #### <a name="connectivity-checks"></a>连接性检查

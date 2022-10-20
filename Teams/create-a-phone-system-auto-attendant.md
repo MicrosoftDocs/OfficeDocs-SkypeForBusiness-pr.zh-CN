@@ -1,7 +1,7 @@
 ---
 title: 为 Microsoft Teams 设置自动助理
-author: CarolynRowe
-ms.author: crowe
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -21,12 +21,12 @@ ms.localizationpriority: medium
 ms.custom:
 - Phone System
 description: 了解如何在 Microsoft Teams 中设置和管理自动助理。
-ms.openlocfilehash: 97cf5ea5c6cab381ce21f1bcbf1af7fa9e0a0177
-ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
+ms.openlocfilehash: 7b9d34e7e33ee0274f957afc8b1c4efecb044974
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2022
-ms.locfileid: "68584773"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614365"
 ---
 # <a name="set-up-an-auto-attendant"></a>设置自动助理
 

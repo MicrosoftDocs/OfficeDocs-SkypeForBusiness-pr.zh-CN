@@ -17,13 +17,13 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: high
 search.appverid: MET150
-description: 了解如何在 Microsoft Teams 管理中心将自定义应用上传到组织的应用商店。
-ms.openlocfilehash: 51ea4bdc31ff59a34bdf28a991617fff0f4e7381
-ms.sourcegitcommit: d6e180791134426445a35fd485dcca18bde2006b
+description: 了解如何将自定义应用上传到组织的 Teams 应用商店。
+ms.openlocfilehash: 0b48061ab005e64d6fb6385fabb48f3b49ff87f0
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/07/2022
-ms.locfileid: "68494605"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614585"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>通过上载应用包来发布自定义应用
 
@@ -40,11 +40,11 @@ ms.locfileid: "68494605"
 
 ## <a name="validate"></a>验证
 
-### <a name="get-the-app-package"></a>获取应用包
+### <a name="receive-the-app-package"></a>接收应用包
 
-当应用准备好在生产环境中使用时，开发人员应生成应用包。 他们可以使用 [App Studio](/microsoftteams/platform/concepts/build-and-test/app-studio-overview)。 他们将以.zip格式向你发送文件。
+当应用准备好在生产环境中使用时，开发人员将使用 [开发人员门户](/microsoftteams/platform/concepts/build-and-test/manage-your-apps-in-developer-portal)生成应用包。 开发人员与你共享.zip格式的应用包。
 
-Teams 应用商店中的所有应用都通过强制 [应用验证](overview-of-app-validation.md) ，以符合全球 Teams 应用商店的质量和安全标准。 此外，Microsoft 强烈鼓励应用开发人员参与可选 [的应用合规性计划，该计划](overview-of-app-certification.md) 指示增强的合规性、安全和隐私控制。 有关详细信息，请参阅 [Teams 应用验证指南](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/teams-store-validation-guidelines)。
+Teams 应用商店中的所有应用都通过强制 [应用验证](overview-of-app-validation.md) ，以符合 Teams 应用商店的应用质量和安全标准。 此外，Microsoft 强烈鼓励应用开发人员参与可选 [的应用合规性计划，该计划](overview-of-app-certification.md) 指示增强的合规性、安全和隐私控制。 有关详细信息，请参阅 [Teams 应用验证指南](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/teams-store-validation-guidelines)。
 
 ### <a name="allow-trusted-users-to-upload-custom-apps"></a>允许受信任的用户上传自定义应用
 
@@ -119,7 +119,7 @@ Teams 应用商店中的所有应用都通过强制 [应用验证](overview-of-a
 
 ### <a name="end-user-update-experience"></a>最终用户更新体验
 
-在大多数情况下，完成应用更新后，会自动为最终用户显示新版本。 有关详细信息，请参阅 [最终用户更新体验](apps-update-experience.md)。
+在大多数情况下，发布新版本的应用后，会自动为最终用户更新该应用。 有关详细信息，请参阅 [最终用户应用更新体验](apps-update-experience.md)。
 
 ## <a name="remove-a-custom-app-from-your-organizations-store"></a>从组织的存储中删除自定义应用
 

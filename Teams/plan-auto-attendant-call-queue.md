@@ -1,7 +1,7 @@
 ---
 title: 规划 Teams 自动助理和呼叫队列
-author: CarolynRowe
-ms.author: crowe
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 了解自动助理和呼叫队列，以及如何使用它们帮助呼叫者通过菜单系统来联系组织中的人员或部门。
-ms.openlocfilehash: 05bbc5880e3a90751cfaada782573fd2d0b10c90
-ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
+ms.openlocfilehash: 8c02bd3d8881bcbfa0d998098b39106ed8476435
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2022
-ms.locfileid: "68584803"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68613954"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>规划 Teams 自动助理和呼叫队列
 

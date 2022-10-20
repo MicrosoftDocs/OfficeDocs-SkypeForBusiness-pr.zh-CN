@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 audience: Admin
 appliesto:
 - Skype for Business
@@ -22,12 +23,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 了解如何为用户设置云语音邮件。
-ms.openlocfilehash: 9d6752098ff9dee6294d53fb24f6b7df6ee8e21c
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: f73587fe2fe9a9449d938d9eac3d6193bbd7aa47
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616248"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614465"
 ---
 # <a name="set-up-cloud-voicemail"></a>设置云语音邮件
 

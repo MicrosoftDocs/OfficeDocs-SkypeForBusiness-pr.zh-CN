@@ -17,12 +17,13 @@ appliesto:
 ms.collection:
 - M365-voice
 - M365initiative-voice
-ms.openlocfilehash: d74b5a8cc3511c38001c9719c84f1f0b9db5051f
-ms.sourcegitcommit: fc87f4300f53abf7a049936944abb21d0cade0d9
+- highpri
+ms.openlocfilehash: d28d3eaf05a4a7ff1abfdc547b2b18c4c06ff78d
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2022
-ms.locfileid: "68480872"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614044"
 ---
 # <a name="set-up-the-teams-phone-system-with-calling-plan-bundle-for-small-to-medium-businesses"></a>为中小型企业设置具有通话套餐捆绑包的 Teams 电话系统
 

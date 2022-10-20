@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection:
 - M365-voice
 - m365initiative-voice
+- highpri
 audience: Admin
 appliesto:
 - Skype for Business
@@ -23,12 +24,12 @@ ms.custom:
 - Licensing
 - seo-marvel-apr2020
 description: Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization.
-ms.openlocfilehash: 8093b10d4918793c669f42b839999239d381a24a
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 4ad3b6702d31f59c237bf7867aadd0e8d1c05abf
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156570"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68613834"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>设置组织的通信点数
 
@@ -93,7 +94,7 @@ ms.locfileid: "67156570"
      >
      > 使用自动充值函数时，当达到触发量并处理充值事务时，将生成通信额度的发票。 通信信用额度首先以现出方式使用。 若要了解如何检查每月使用情况，请阅读 [Microsoft Teams PSTN 使用情况报告](/microsoftteams/teams-analytics-and-reports/pstn-usage-report)。
 
-6. 选择 **“位置”顺序**。
+6. 选择“**下单**”。
 
     >[!IMPORTANT]
     >如果你是批量许可客户，你可能希望使用企业协议进行付款。 如果您有多个企业协议编号，您将能够选择要用于付款的企业协议。 如果适用) 支持启用此操作，你还将有机会指定与企业协议编号 (关联的采购订单号。

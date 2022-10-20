@@ -1,7 +1,7 @@
 ---
 title: 自动助理和呼叫队列拨号和语音识别参考
-author: CarolynRowe
-ms.author: crowe
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 了解 Teams 中的自动助理和呼叫队列拨号和语音识别选项。
-ms.openlocfilehash: 93a20be62f09ed7b636c593ecac48927d70e237f
-ms.sourcegitcommit: 55ba3ed53421da6619724a360d15e80262241079
+ms.openlocfilehash: 3b6b1fd6932491a6f9ad17e109902484461f912f
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2022
-ms.locfileid: "67070723"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68613804"
 ---
 # <a name="auto-attendant-and-call-queue-dialing-and-voice-recognition-reference"></a>自动助理和呼叫队列拨号和语音识别参考
 
@@ -59,7 +59,7 @@ ms.locfileid: "67070723"
 
 ## <a name="dial-by-name---keypad-dtmf-entry"></a>按名字拨叫 - 键盘 (DTMF) 输入
 
-呼叫者可以使用“按名称拨号”来联系用户，方法是指定他们尝试联系的人员的完整或部分姓名。 输入名称时，可以使用各种格式。
+人员呼叫可以使用“按名称拨号”来联系用户，方法是指定他们尝试联系的人员的完整或部分姓名。 输入名称时，可以使用各种格式。
 
 搜索组织目录时，用户可以使用"0"（零）键来表示名字与姓氏之间或姓氏与名字之间的空格。 输入名称时，系统会要求他们使用 #键终止其键盘条目。 例如，"在你输入要联系的用户姓名后，请按 # 号"。 如果找到多个姓名，会向呼叫者提供姓名列表，供其从中选择。
 
@@ -88,7 +88,7 @@ ms.locfileid: "67070723"
 
 ### <a name="dial-by-name---name-recognition-with-speech"></a>按名字拨叫 - 使用语音识别姓名
 
-用户可以使用语音搜索组织中的其他人 (语音识别) 。 他们还可以通过说出他们试图找到的人员的完整或部分姓名来联系 Active Directory 中的任何人。 使用语音输入可以识别各种格式的名称，包括 FirstName、LastName、FirstName + LastName 或 LastName + FirstName。
+人员可以使用语音 (语音识别) 搜索组织中的其他人。 他们还可以通过说出他们试图找到的人员的完整或部分姓名来联系 Active Directory 中的任何人。 使用语音输入可以识别各种格式的名称，包括 FirstName、LastName、FirstName + LastName 或 LastName + FirstName。
   
 可以为自动助理启用语音识别，但未禁用 DTMF (手机键盘条目) 。 即使在自动助理上启用了语音识别，也可以随时使用手机键盘条目。
   

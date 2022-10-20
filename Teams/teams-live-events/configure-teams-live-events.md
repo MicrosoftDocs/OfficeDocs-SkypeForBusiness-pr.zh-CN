@@ -15,6 +15,7 @@ ms.collection:
 - m365initiative-meetings
 - m365initiative-meetings-enabler
 - enabler-strategic
+- highpri
 description: 了解如何管理组织中举行的 Teams 直播活动的设置。
 f1.keywords:
 - CSH
@@ -22,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f526a3404d9077ecd97d877a914975218640028c
-ms.sourcegitcommit: fcedb958bf555d870215ae84fb83752304944716
+ms.openlocfilehash: fd870acf26300b38ceb4b1e54b6e3bbdcbf1b92d
+ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2022
-ms.locfileid: "68486562"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68614555"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>在 Microsoft Teams 中配置实时事件设置
 
