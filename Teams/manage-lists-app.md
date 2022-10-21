@@ -26,12 +26,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 9ea4e8cb49166c116d69c12d795659b55c93c556
-ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+ms.openlocfilehash: ce10e758352396dd1ac8e6334e54c4e298df9a0f
+ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68047042"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68655848"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中为组织管理 Lists 应用
 
@@ -105,7 +105,7 @@ Lists 在你的组织中默认为所有 Teams 用户启用。 你可以在 Micro
 
 ### <a name="enable-or-disable-lists-for-specific-users-in-your-organization"></a>在你的组织中为某个特定用户启用或禁用 Lists
 
-要在你的组织中允许或阻止特定用户使用 Lists，请确保在[管理应用](manage-apps.md)页面中 Lists 已为你的组织打开，然后创建自定义应用权限策略并将其分配给特定用户。 要了解详细信息，请参阅[在 Teams 中管理自定义应用策略和设置](teams-app-permission-policies.md)。
+若要允许或阻止组织中的特定用户使用“列表”，请确保在 [“管理应用](manage-apps.md) ”页上为组织打开“列表”，然后为应用权限创建自定义策略并将其分配给这些用户。 要了解详细信息，请参阅[在 Teams 中管理应用权限策略](teams-app-permission-policies.md)。
 
 ## <a name="search-the-audit-log-for-list-events"></a>搜索列表事件的审核日志
 

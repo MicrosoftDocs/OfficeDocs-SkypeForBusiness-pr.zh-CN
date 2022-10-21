@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 - m365-frontline
 - highpri
-ms.openlocfilehash: 74b67a71f8b93f5f0ed898ef186beede056ec31a
-ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+ms.openlocfilehash: c64e2b9e2d77724d4972449390c59b7655ab1ff0
+ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68047112"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68656034"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中为组织管理 Tasks 应用
 
@@ -72,7 +72,7 @@ Tasks 在你的组织中默认为所有 Teams 用户启用。 你可以在 Micro
 
 ### <a name="enable-or-disable-tasks-for-specific-users-in-your-organization"></a>在你的组织中为某个特定用户启用或禁用 Tasks
 
-要在你的组织中允许或阻止特定用户使用 Tasks，请确保在[管理应用](manage-apps.md)页面中 Tasks 已为你的组织打开，然后创建自定义应用权限策略并将其分配给特定用户。 要了解详细信息，请参阅[在 Teams 中管理应用权限策略](teams-app-permission-policies.md)。
+若要允许或阻止组织中的特定用户使用任务，请确保在 [“管理应用](manage-apps.md) ”页上为组织启用任务，然后为应用权限创建自定义策略并将其分配给这些用户。 要了解详细信息，请参阅[在 Teams 中管理应用权限策略](teams-app-permission-policies.md)。
 
 ### <a name="pin-tasks-to-teams"></a>将任务固定到 Teams
 
@@ -88,7 +88,7 @@ Teams 中定制的一线应用体验为拥有 [F 许可证](https://www.microsof
 
 通过应用设置策略，可以自定义 Teams 以固定用户中对用户最重要的应用。
 
-要为用户固定 Tasks 应用，请编辑全局（默认为组织范围内）策略或创建并分配自定义应用设置策略。 要了解详细信息，请参阅[在 Teams 中管理应用设置策略](teams-app-setup-policies.md)。
+若要为用户固定 Tasks 应用，可以编辑全局 (组织范围的默认) 策略，或在应用设置策略中创建和分配自定义策略。 要了解详细信息，请参阅[在 Teams 中管理应用设置策略](teams-app-setup-policies.md)。
 
 ### <a name="a-users-my-tasks-is-visible-if-the-user-is-licensed-for-exchange-online"></a>如果用户具有 Exchange Online 许可证，“我的任务”会对用户可见。
 

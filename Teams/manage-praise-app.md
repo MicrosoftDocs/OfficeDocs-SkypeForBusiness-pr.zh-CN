@@ -13,12 +13,12 @@ ms.collection:
 - M365-collaboration
 - m365-frontline
 - highpri
-ms.openlocfilehash: f2cf8ee32e3c03811833ea5d5d4dc93ac6d51ead
-ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+ms.openlocfilehash: 5771aaa9122ddc79d4555c74d509d2c4a77f57fb
+ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68046712"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68655868"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 管理中心管理“表扬”应用
 
@@ -44,7 +44,7 @@ Microsoft Teams 中的“表扬”应用可帮助用户向组织或课堂成员�
 
 ## <a name="enable-or-disable-praise-for-specific-users-in-your-organization"></a>为组织中的特定用户启用或禁用“表扬”
 
-若要允许或阻止组织中的特定用户使用“表扬”，请确保在 [“管理应用](manage-apps.md) ”页上为组织启用了“表扬”。 然后创建自定义应用权限策略并将其分配给这些用户。 要了解详细信息，请参阅[在 Teams 中管理应用权限策略](teams-app-permission-policies.md)。
+若要允许或阻止组织中的特定用户使用“表扬”，请确保在 [“管理应用](manage-apps.md) ”页上为组织启用了“表扬”。 然后为应用权限创建自定义策略，并将其分配给这些用户。 要了解详细信息，请参阅[在 Teams 中管理应用权限策略](teams-app-permission-policies.md)。
 
 ## <a name="badges"></a>徽章
 

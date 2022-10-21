@@ -21,12 +21,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: adabe9321307bb9696636ae7ab882775705dcd27
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: 48c372afe2c7881a2af5c24e36915d510f9ff291
+ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68376990"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68655898"
 ---
 # <a name="understand-microsoft-teams-apps"></a>了解 Microsoft Teams 应用
 
@@ -89,9 +89,9 @@ Microsoft 使用应用开发方法创建并提供功能和生产就绪的示例�
 
 ## <a name="understand-app-capabilities"></a>了解应用功能
 
-为了提供丰富的体验，让最终用户能够在 Teams 内部工作，应用开发人员可以使用以下应用功能。 消息传递扩展允许用户与 Web 服务 Teams 客户端进行交互。 在外部系统中搜索或启动操作。 可以将交互结果作为丰富地格式化卡片发送到 Teams 客户端。 会议扩展性应用将开发人员的应用集成到会议中，并提供响应式的会议体验。
+为了提供丰富的体验，让最终用户能够在 Teams 内部工作，应用开发人员可以使用以下应用功能。 消息传递扩展允许用户与 Web 服务 Teams 客户端进行交互。 在外部系统中搜索或启动操作。 可以将交互结果作为格式丰富的卡片发送到 Teams 客户端。 会议扩展性应用将开发人员的应用集成到会议中，并提供响应式的会议体验。
 
-机器人也称为聊天机器人或对话机器人。 它是执行简单重复任务的应用。 机器人交互可以是快速问答，也可以是提供服务或协助访问的复杂对话。 用户可以一对一或在频道里进行聊天。 例如，可以使用 Polly 应用创建快速调查、获取反馈和进行脉冲检查。
+机器人也称为聊天机器人或对话机器人。 它是执行简单重复任务的应用。 机器人交互可以是快速问答，也可以是提供服务或协助访问的复杂对话。 用户可以与机器人一对一聊天或在频道中聊天。 例如，可以使用 Polly 应用创建快速调查、获取反馈和进行脉冲检查。
 
 选项卡是固定在频道顶部或聊天的 Teams 感知网页。 选项卡允许你使用类似 Web 的体验与内容和服务交互。 可以将选项卡作为频道的一部分添加到团队内部，为单个用户添加群组聊天或个人应用。
 

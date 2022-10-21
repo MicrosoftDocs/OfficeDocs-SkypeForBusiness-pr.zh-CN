@@ -25,12 +25,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: dd9bd57f815079fd80a58b739b927b900305725b
-ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+ms.openlocfilehash: 358a0078eed6f693922b3aaedb3eea38a8bb7f82
+ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68046622"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68655858"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中为组织管理“班次”应用
 
@@ -70,7 +70,7 @@ Teams 可用的所有企业 SKU 中均提供“班次”。
 
 ### <a name="enable-or-disable-shifts-for-specific-users-in-your-organization"></a>为你的组织中的特定用户启用或禁用“班次”
 
-若要允许或阻止组织中的特定用户使用 Shifts，请确保在 [“管理应用](../../manage-apps.md) ”页上为组织启用了 Shifts。 然后创建自定义应用权限策略并将其分配给这些用户。 要了解详细信息，请参阅[在 Teams 中管理应用权限策略](../../teams-app-permission-policies.md)。
+若要允许或阻止组织中的特定用户使用 Shifts，请确保在 [“管理应用](../../manage-apps.md) ”页上为组织启用了 Shifts。 然后为应用权限创建自定义策略，并将其分配给这些用户。 要了解详细信息，请参阅[在 Teams 中管理应用权限策略](../../teams-app-permission-policies.md)。
 
 ### <a name="pin-shifts-to-teams"></a>固定到 Teams 的班次
 
@@ -86,7 +86,7 @@ Teams 中定制的一线应用体验为拥有 [F 许可证](https://www.microsof
 
 通过应用设置策略，可以自定义 Teams 以固定对用户最重要的应用。
 
-可以通过添加 Shifts [应用创建自定义应用设置策略](../../teams-app-setup-policies.md) ，然后将 [策略分配](../../assign-policies-users-and-groups.md) 给用户。 或者，可以使用属于一线辅助角色和一线管理器策略包的应用设置策略。
+可以通过添加 Shifts 应用，然后将策略[分配给](../../assign-policies-users-and-groups.md)用户，[在应用设置策略中创建自定义](../../teams-app-setup-policies.md)策略。 或者，可以使用属于一线辅助角色和一线管理器策略包的应用设置策略。
 
 Teams 中的 [策略包](../../manage-policy-packages.md) 是预定义的策略和策略设置的集合，你可以将其分配给在组织中具有类似角色的用户。 一线工作者和一线管理器策略包中的一组策略包括一个应用设置策略，该策略固定 Shifts 应用和其他支持该角色的通信和协作活动的应用。
 

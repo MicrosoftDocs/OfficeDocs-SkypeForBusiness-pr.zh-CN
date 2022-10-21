@@ -20,12 +20,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: dc84bc7be43182194af3a072edb875a6a257a9d5
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: c741bb8a1b6ab7e27ec064dc0f22226f69bc6e10
+ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68377330"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68655888"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理应用设置策略
 
@@ -126,7 +126,7 @@ ms.locfileid: "68377330"
 
 1. 选择“**保存**”。
 
-### <a name="assign-a-custom-app-setup-policy-to-users-and-groups"></a>为用户和组分配自定义应用设置策略
+### <a name="assign-a-custom-policy-in-app-setup-policy-to-users-and-groups"></a>将应用设置策略中的自定义策略分配给用户和组
 
 要了解如何将策略分配给最终用户和组，请参阅 [如何将策略指派给用户和组](assign-policies-users-and-groups.md)。
 
@@ -151,7 +151,7 @@ ms.locfileid: "68377330"
 
 #### <a name="im-a-teams-for-education-admin-what-do-i-need-to-know-about-app-setup-policies-in-teams-for-education"></a>我是 Teams 教育版管理员。我需要了解 Teams 教育中的应用程序设置策略的什么内容
 
-“通话”应用在 Teams 教育版中不可用。 创建新自定义应用设置策略时，“通话”应用将显示在应用列表中。 然而，应用并没有固定到 Teams 客户端，Teams 教育版用户不会在 Teams 中看到“通话”应用程序。
+“通话”应用在 Teams 教育版中不可用。 在应用设置策略中创建新的自定义策略时，呼叫应用会显示在应用列表中。 然而，应用并没有固定到 Teams 客户端，Teams 教育版用户不会在 Teams 中看到“通话”应用程序。
 
 ### <a name="user-experience"></a>用户体验
 

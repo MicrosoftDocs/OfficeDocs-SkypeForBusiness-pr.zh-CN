@@ -21,12 +21,12 @@ description: 了解如何管理 Teams 应用。 了解如何允许或阻止应�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 3d49d3e44e848b1d51388b148416fb897c335758
-ms.sourcegitcommit: d6e180791134426445a35fd485dcca18bde2006b
+ms.openlocfilehash: dc7dbf1a4866fa85551d6ec46f7ea54c164ba655
+ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/07/2022
-ms.locfileid: "68494665"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68656048"
 ---
 # <a name="overview-of-app-management-and-governance-in-teams-admin-center"></a>Teams 管理中心中的应用管理和治理概述
 
@@ -40,8 +40,6 @@ ms.locfileid: "68494665"
 
 > [!NOTE]
 > “管理应用”页面在 Teams 的 Microsoft 365 政府社区云 High （GCCH） 或国防部 （DoD） 部署中不可用。
-
-在创建应用期间，开发人员会创建应用 ID 并将其添加到清单文件。 从列设置中启用列后，可以在“管理应用”`External app ID`页上查看此外部应用 ID。 还可以在自定义应用的应用详细信息页上查看它。 该 ID 仅适用于自定义应用。
 
 ## <a name="app-management-use-cases-and-the-available-interfaces"></a>应用管理用例和可用接口
 

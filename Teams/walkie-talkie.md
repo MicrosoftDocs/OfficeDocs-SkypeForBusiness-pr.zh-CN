@@ -20,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0475fd161d3b53a8fc60d3a1419d20e3de2bfada
-ms.sourcegitcommit: bb428cd5805151736f0a6786d737f67f2b3fc918
+ms.openlocfilehash: c575e3eb41654a579ec09c67975490db3dce194d
+ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "68557475"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68655828"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft Teams 中的 Walkie Talkie 应用
 
@@ -56,7 +56,7 @@ Walkie Talkie 包含在 [Microsoft 365 和 Office 365 订阅](/office365/service
 
 ### <a name="enable-or-disable-walkie-talkie-for-specific-users-in-your-organization"></a>为组织中的特定用户启用或禁用 Walkie Talkie
 
-若要允许或阻止组织中的特定用户使用 Walkie Talkie，请确保在 [“管理应用](manage-apps.md) ”页面上为组织启用 Walkie Talkie。 然后创建自定义应用权限策略，将其添加到应用设置策略，并将其分配给这些用户。 若要了解详细信息，请参阅 [Teams 中的“管理应用权限策略](teams-app-permission-policies.md)[”和“在 Microsoft Teams 中管理应用设置策略](teams-app-setup-policies.md)”。
+若要允许或阻止组织中的特定用户使用 Walkie Talkie，请确保在 [“管理应用](manage-apps.md) ”页面上为组织启用 Walkie Talkie。 然后为应用权限创建自定义策略，将其添加到应用设置策略，并将其分配给这些用户。 若要了解详细信息，请参阅 [Teams 中的“管理应用权限策略](teams-app-permission-policies.md)[”和“在 Microsoft Teams 中管理应用设置策略](teams-app-setup-policies.md)”。
 
 ### <a name="pin-walkie-talkie-to-teams"></a>将 Walkie Talkie 固定到 Teams
 
@@ -72,7 +72,7 @@ Teams 中定制的一线应用体验为拥有 [F 许可证](https://www.microsof
 
 通过应用设置策略，可以自定义 Teams 以固定用户中对用户最重要的应用。
 
-若要为用户固定 Walkie Talkie 应用，可以编辑全局 (组织范围的默认) 策略或创建和分配自定义应用设置策略。 要了解详细信息，请参阅[在 Teams 中管理应用设置策略](teams-app-setup-policies.md)。
+若要为用户固定 Walkie Talkie 应用，可以在应用设置策略中编辑全局 (组织范围的默认) 策略或创建和分配自定义策略。 要了解详细信息，请参阅[在 Teams 中管理应用设置策略](teams-app-setup-policies.md)。
 
 :::image type="content" source="media/deploy-walkie-talkie-2.png" alt-text="显示在“添加固定应用”窗格中将 Walkie Talkie 添加到固定应用列表的屏幕截图。" lightbox="media/deploy-walkie-talkie-2.png":::
 

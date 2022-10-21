@@ -18,12 +18,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何在 Teams 管理中心管理对使用 Microsoft Power Platform 生成的自定义应用的访问。
-ms.openlocfilehash: 93801bb30d0445d13de25976ab23668fde251466
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: 3a81d1db3de7cf4fa82b80526ffdb206bfbe8da6
+ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68377200"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68656028"
 ---
 # <a name="manage-microsoft-power-platform-apps-in-the-teams-admin-center"></a>在 Teams 管理中心管理 Microsoft Power Platform 应用
 
@@ -79,9 +79,9 @@ ms.locfileid: "68377200"
 
 若要允许或阻止组织中的特定用户访问在 Power Apps 或 Power Virtual Agents 中创建的应用，请创建和分配一个或多个自定义[应用权限策略](teams-app-permission-policies.md)。
 
-例如，若要阻止特定用户访问在 Power Apps 中创建的应用，请创建自定义应用权限策略来阻止“**共享的 Power Apps**”，然后将策略分配给这些用户。
+例如，若要阻止特定用户访问在 Power Apps 中创建的应用，请为应用权限创建自定义策略来阻止 **共享 Power Apps**，然后将策略分配给这些用户。
 
-:::image type="content" source="media/manage-power-platform-apps-app-permission-policy.png" alt-text="阻止共享的 Power Apps 应用的示例自定义应用权限策略的屏幕截图。":::
+:::image type="content" source="media/manage-power-platform-apps-app-permission-policy.png" alt-text="阻止共享 Power Apps 的应用权限自定义策略示例的屏幕截图。":::
 
 ### <a name="use-audit-logs-to-investigate-microsoft-power-platform-installation-activity"></a>使用审核日志调查 Microsoft Power Platform 安装活动
 

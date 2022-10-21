@@ -18,12 +18,12 @@ f1.keywords:
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 75548acc44d1f360e13dd5946e6e39726c744bb6
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 9c8d28a3f985a38e174030ddbe0e6d43e2153738
+ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67270677"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68656068"
 ---
 # <a name="microsoft-teams-appsline-of-business-lob-app-support-on-teams-panels"></a>Microsoft Teams 应用/业务线 (LOB) Teams 面板上的应用支持
 
@@ -58,7 +58,7 @@ Microsoft Teams 应用将关键信息、常用工具和受信任的流程引入�
 
 ## <a name="pin-apps-on-teams-panels-with-app-setup-policies"></a>使用应用设置策略将应用固定在 Teams 面板上
 
-由于 Teams 提供显示各种应用的功能，因此管理员可以确定哪些应用对组织最为重要，并且仅将这些应用固定到 Teams 面板 **主** 屏幕以快速访问。 如果有五个以上的固定应用或任何未固定的应用，它们将显示在 **“更多** ”屏幕下。 Microsoft 建议专门为 Teams 面板创建自定义应用设置策略。
+由于 Teams 提供显示各种应用的功能，因此管理员可以确定哪些应用对组织最为重要，并且仅将这些应用固定到 Teams 面板 **主** 屏幕以快速访问。 如果有五个以上的固定应用或任何未固定的应用，它们将显示在 **“更多** ”屏幕下。 Microsoft 建议在应用设置策略中专门为 Teams 面板创建自定义策略。
 
 ![应用设置策略页的用户界面屏幕截图。](media/appsetup1.png)
 
@@ -114,7 +114,7 @@ Microsoft 建议关闭 **“上传自定义应用** ”和 **“用户固定”*
 
 ### <a name="why-cant-i-find-an-app-in-the-add-pinned-apps-pane"></a>为什么在“添加固定应用”窗格中找不到应用？
 
-并非所有应用都可以通过应用设置策略固定到 Teams。 某些应用可能不支持此功能。 若要查找可固定的应用，请在 **“添加固定应用** ”窗格中搜索应用。 有关详细信息，请参阅使用 [应用设置策略中的常见问题解答](/microsoftteams/teams-app-setup-policies#why-cant-i-find-an-app-in-the-add-pinned-apps-pane)。
+并非所有应用都可以通过应用设置策略固定到 Teams。 某些应用可能不支持此功能。 要查找可以固定的应用，请在“**添加固定的应用**”窗格中搜索应用。 有关详细信息，请参阅使用 [应用设置策略中的常见问题解答](/microsoftteams/teams-app-setup-policies#why-cant-i-find-an-app-in-the-add-pinned-apps-pane)。
 
 ### <a name="why-am-i-seeing-an-user-pinning-pop-up-in-the-setup-policies-panel-after-i-turn-off-user-pinning"></a>为什么在关闭“用户固定”后，我在“设置策略”面板中看到“用户固定”弹出窗口？
 

@@ -21,12 +21,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 3dc11a1a7bb841891906755a74d07585a55ec912
-ms.sourcegitcommit: 507e186972bcbc56c1547a1b9f357bfd38170b5a
+ms.openlocfilehash: b51ba430a68e4b8979973ec5051036df39280e22
+ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/27/2022
-ms.locfileid: "68047052"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "68656138"
 ---
 # <a name="manage-the-updates-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中管理组织的汇报应用
 
@@ -125,7 +125,7 @@ Microsoft Teams 应用中的汇报为组织成员提供了一个集中的位置�
 
 通过应用设置策略，可以自定义 Teams 以固定用户中对用户最重要的应用。 应用固定到应用栏（Teams 桌面客户端侧面和 Teams 移动客户端底部的栏），用户可在其中快速轻松地访问应用栏。
 
-若要为用户固定汇报应用，可以编辑全局 (组织范围的默认) 策略，或创建和分配自定义应用设置策略。 要了解详细信息，请参阅[在 Teams 中管理应用设置策略](teams-app-setup-policies.md)。
+若要为用户固定汇报应用，可以编辑全局 (组织范围的默认) 策略，或在应用设置策略中创建和分配自定义策略。 要了解详细信息，请参阅[在 Teams 中管理应用设置策略](teams-app-setup-policies.md)。
 
 ## <a name="retention-policy"></a>保留策略
 
