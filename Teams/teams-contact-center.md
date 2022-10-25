@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 ms.collection:
 - M365-voice
-ms.openlocfilehash: 89035a967dafae3a2ccd3bbc9bcc6497cdea14cd
-ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
+ms.openlocfilehash: 38c466973b8a2dcc5b85f570cc9ed369bd4e7f1d
+ms.sourcegitcommit: e8c7a5ddc3399492485680e9a6f2593658cecca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68613814"
+ms.lasthandoff: 10/24/2022
+ms.locfileid: "68686040"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft Teams 的联系人中心集成
 
@@ -64,6 +64,7 @@ Microsoft Teams 认证计划的连接联系人中心验证每个参与提供商�
 | `Five9` | https://www.five9.com/products/application-integration/uc-integration                                                   |
 | `Genesys` | https://www.genesys.com/campaign/get-started-genesys-cloud-microsoft-teams                                      |
 | `Luware` | https://luware.com/en/solutions/                                                                                       |
+| `Mida Solutions` | https://www.midasolutions.com/c3-cloud-contact-center-for-teams/                                        |
 | `NICE inContact` | https://www.niceincontact.com/microsoft-teams                                                            |
 | `Puzzel` | https://www.puzzel.com/microsoft-teams                            |
 | `Talkdesk` | https://www.talkdesk.com/cloud-contact-center/integrations/microsoft-teams/                                  |
@@ -83,7 +84,6 @@ Microsoft Teams 认证计划的连接联系人中心验证每个参与提供商�
 | `Imagicle` | https://www.imagicle.com/en/integration/microsoft-teams/                                                                                        |
 | `Intermedia` | https://www.intermedia.com/products/contact-center                          |
 | `Landis Technologies` | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
-| `Mida Solutions` | https://www.midasolutions.com/c3-cloud-contact-center-for-teams/                                        |
 | `Netcall` | https://www.netcall.com/platform/contact-centre/                         |
 | `Novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
 | `ROGER365.io` | https://www.roger365.io/contact-center-teams                         |
