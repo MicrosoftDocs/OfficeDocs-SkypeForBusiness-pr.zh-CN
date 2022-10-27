@@ -18,12 +18,12 @@ description: 了解如何将 Adobe Acrobat 设置为默认 PDF 查看器，以�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 8adb2f4f0eafeabadd6f8716a338b24422d0ba35
-ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
+ms.openlocfilehash: 6a2e6c7ef80258ba07b3450ee983818f0b6ea6e1
+ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68656058"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "68738768"
 ---
 # <a name="adobe-acrobat-as-a-default-pdf-viewer-in-microsoft-teams"></a>在 Microsoft Teams 中 Adobe Acrobat 作为默认 PDF 查看器
 
@@ -43,9 +43,9 @@ ms.locfileid: "68656058"
 
 1. 登录到 Teams 管理中心并访问 **Teams 应用** > **[管理应用](https://admin.teams.microsoft.com/policies/manage-apps)**。
 
-1. 搜索 Adobe Acrobat 应用并将其选中。 它将打开应用详细信息页。
+1. 搜索 Adobe Acrobat 应用并将其选中。 这会打开应用详细信息页。
 
-1. 选择“ **权限”** 选项卡，然后选择 **“审阅”权限**。
+1. 选择“ **权限** ”选项卡，然后选择“ **查看权限**”。
 
    :::image type="content" source="media/permission-policy.png" alt-text="Teams 管理中心中应用权限的屏幕截图。" lightbox="media/teams-app-adobe-acrobat-permission.png":::
 
@@ -71,14 +71,16 @@ ms.locfileid: "68656058"
 
 选择保存后，Teams 将使用 Adobe Acrobat 应用作为 PDF 文件的默认文件处理程序。
 
-如果希望有选择地允许少数个人或组使用 Adobe Acrobat 应用，则可以为 [应用权限分配自定义策略](teams-app-permission-policies.md)。
+如果要有选择地允许几个个人或组使用 Adobe Acrobat 应用，可以为 [应用权限分配自定义策略](teams-app-permission-policies.md)。
+
+## <a name="considerations-and-limitations"></a>注意事项和限制
 
 了解有关此功能的以下信息：
 
-* 设置策略后，应用通常 [需要几个小时](teams-app-setup-policies.md#considerations-and-limitations) 才能可供用户使用。
+* 设置策略后，应用通常需要 [几个小时](teams-app-setup-policies.md#considerations-and-limitations) 才能对用户可用。
 * “查看 PDF 文件”作为选项卡固定在频道中，而在“分配”应用中的“查看 PDF 文件”继续由本机 Teams 体验提供支持。
 * 作为 Teams 中默认 PDF 查看器的 Adobe Acrobat 仅适用于桌面版和 Web 客户端。 移动客户端不支持此功能。
 * 用户需要 Adobe Acrobat 计划才能使用高级工具，例如导出 PDF、组织页面、合并文件、压缩 PDF 和保护 PDF。
 * 若要卸载应用，最终用户可以从 Teams 客户端中删除该应用。 管理员可以使用安装策略删除 Adobe Acrobat 应用。
-* 如果要阻止 Adobe Acrobat 应用，请将其从安装策略中删除。 这样会确保最终用户体验还原为使用本机 PDF 文件查看器。
-* 如果在 Teams 桌面客户端登录到 Adobe Acrobat 应用时遇到任何问题，请 [在浏览器中使用 Teams](https://teams.microsoft.com/) 登录。
+* 如果阻止 Adobe Acrobat 应用，则从设置策略中删除该应用。 这样会确保最终用户体验还原为使用本机 PDF 文件查看器。
+* 如果在 Teams 桌面客户端中登录到 Adobe Acrobat 应用时遇到任何问题，请在 [浏览器中使用 Teams](https://teams.microsoft.com/) 登录。

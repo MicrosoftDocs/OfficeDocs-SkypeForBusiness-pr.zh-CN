@@ -21,29 +21,29 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 48c372afe2c7881a2af5c24e36915d510f9ff291
-ms.sourcegitcommit: 1161cddd077056a9c1e2da99a84e35be0380b1b1
+ms.openlocfilehash: 1868b4e5e84803e24eacc812d638a961d6639606
+ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68655898"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "68738568"
 ---
 # <a name="understand-microsoft-teams-apps"></a>了解 Microsoft Teams 应用
 
-Teams 中的应用可帮助用户将工作区工具和服务汇集在一起，并与他人协作。 例如，最终用户在 Teams 中使用固定日历应用快速与他人协作，使用带有机器人功能的应用可以通知用户在 Teams 频道中使用 Web 服务质量的应用，以及用于在频道中共享任务，并向各种最终用户分配任务的应用。 Microsoft Teams 应用是基于 Web 的 SaaS 应用，无需在本地部署。
+Teams 中的应用可帮助用户将其工作区工具和服务汇集在一起，并与他人协作。 例如，最终用户在 Teams 中使用固定日历应用快速与他人协作，使用带有机器人功能的应用可以通知用户在 Teams 频道中使用 Web 服务质量的应用，以及用于在频道中共享任务，并向各种最终用户分配任务的应用。 Microsoft Teams 应用是基于 Web 的 SaaS 应用，无需在本地部署。
 
-作为管理员，你设置了一个应用治理过程，用于平衡最终用户的广泛要求以及组织的 IT 策略、标准和风险配置文件。
+作为管理员，你将设置一个应用治理流程，以平衡最终用户的广泛需求以及组织的 IT 策略、标准和风险配置文件。
 
-我们丰富的已验证和安全 Teams 应用 [目录](https://appsource.microsoft.com/marketplace/apps?product=office%3Bteams&page=1) 为最终用户提供了对组织每天需要的工具和服务的访问权限。 Teams 管理中心提供管理员企业级控件和配置来管理应用。 可在各种上下文（如会议、聊天和频道）中控制每个用户的应用可用性。
+我们广泛的经过验证的安全 Teams 应用 [目录](https://appsource.microsoft.com/marketplace/apps?product=office%3Bteams&page=1) 为最终用户提供了对组织每天所需的工具和服务的访问权限。 Teams 管理中心为管理员提供企业级控制和配置来管理应用。 可在各种上下文（如会议、聊天和频道）中控制每个用户的应用可用性。
 
 本文可帮助你了解应用的类型以及用户访问这些应用的位置。 若要详细了解应用的用途，请阅读 [针对最终用户的应用概述](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0)。
 
 最终用户可在 Teams 中使用不同类型的应用包括：
 
 * [属于 Teams 的核心应用](#core-apps)。
-* [Microsoft 创建的其他应用](#microsoft-provided-apps)。
-* 合作伙伴[提供的第三方应用](#third-party-apps-validated-by-microsoft) （由 Microsoft 验证）。
-* 由自己组织创建的[自定义应用](#custom-apps)。
+* [Microsoft 创建的其他应用](#apps-created-by-microsoft)。
+* 合作伙伴创建[的第三方应用](#third-party-apps-created-by-independent-app-developers) (Microsoft) 验证。
+* 由自己组织创建的[自定义应用](#custom-apps-created-within-an-organization-for-internal-use)。
 
 ## <a name="core-apps"></a>核心应用
 
@@ -51,7 +51,7 @@ Teams 中的应用可帮助用户将工作区工具和服务汇集在一起，�
 
 :::image type="content" source="media/core-apps-pinned1.png" alt-text="核心应用是默认情况下固定在 Teams 中的应用。" lightbox="media/core-apps-pinned2.png":::
 
-## <a name="microsoft-provided-apps"></a>Microsoft 提供的应用
+## <a name="apps-created-by-microsoft"></a>Microsoft 创建的应用
 
 Microsoft 提供了许多应用来提高工作效率和协作。 若要找到这些应用，你和最终用户可以在 Teams 管理中心中查找发布者为 Microsoft 的应用，或在 Team 应用商店中查找提供者为 Microsoft 的应用。
 
@@ -59,13 +59,13 @@ Teams自带一组内置应用，包括列表、任务、表扬、审批等。 �
 
 :::image type="content" source="media/microsoft-apps-in-tac1.png" alt-text="显示 Teams 管理中心中的 Microsoft 应用列表的屏幕截图。" lightbox="media/microsoft-apps-in-tac2.png":::
 
-## <a name="third-party-apps-validated-by-microsoft"></a>由 Microsoft 验证的第三方应用
+## <a name="third-party-apps-created-by-independent-app-developers"></a>由独立应用开发人员创建的第三方应用
 
-除了 Microsoft 提供的应用，可使用 Microsoft 认证第三方应用。 Microsoft 在 Teams 应用商店中提供这些应用之前，先验证这些应用的功能和安全性。 若要了解应用验证的优势，请参阅 [第三方应用的验证](overview-of-app-validation.md)。
+除了 Microsoft 提供的应用之外，还可以使用第三方应用。 Microsoft 会严格验证所有这些应用的功能和安全性。 在使这些应用在 Teams 应用商店中可用之前，会执行精心的手动和自动测试，即使在应用实时发布后，许多测试也会继续以常规节奏进行。 若要了解应用验证的优势，请参阅 [第三方应用的验证](overview-of-app-validation.md)。 某些应用订阅 [Microsoft 合规性计划](overview-of-app-certification.md) ，以在验证之外进行多层进一步检查。
 
 :::image type="content" source="media/3p-apps-in-teams.png" alt-text="Teams 应用商店中第三方应用示例的屏幕截图。":::
 
-## <a name="custom-apps"></a>自定义应用
+## <a name="custom-apps-created-within-an-organization-for-internal-use"></a>在组织内创建的自定义应用供内部使用
 
 组织中开发人员创建的应用称为自定义应用（或业务线应用）。 组织可以根据组织特定的要求委托创建自定义应用。 你有权为整个组织或特定用户允许或阻止此类应用。 组织中的开发人员可以通过使用 Teams 与 [Microsoft Power Platform](/microsoftteams/platform/samples/teams-low-code-solutions) 集成，快速构建自定义低代码解决方案。
 
@@ -77,13 +77,13 @@ Teams自带一组内置应用，包括列表、任务、表扬、审批等。 �
 
 ## <a name="about-app-templates"></a>关于应用模板
 
-Microsoft 使用应用开发方法创建并提供功能和生产就绪的示例应用。 这些应用统称为 Teams 的应用模板，并提供给：
+Microsoft 使用应用开发方法创建并提供功能和生产就绪示例应用。 这些应用统称为 Teams 应用模板，提供给：
 
 * 说明 Teams 中的一些协作用例。
 * 展示应用开发最佳做法和方法。
-* 提供开发人员可以扩展的开源应用来创建自己的应用。
+* 提供开发人员可以扩展以创建自己的应用的开源应用。
 
-组织开发人员通过对提供的源代码进行简单更改自定义应用模板。 为满足任何组织需求，可将这些应用作为自定义应用提供给最终用户。
+组织开发人员通过对提供的源代码进行简单更改来自定义应用模板。 为满足任何组织需求，可将这些应用作为自定义应用提供给最终用户。
 
 若要了解详细信息，请参阅 [Microsoft Teams 应用模板](https://adoption.microsoft.com/microsoft-teams/app-templates/)。
 
@@ -91,7 +91,7 @@ Microsoft 使用应用开发方法创建并提供功能和生产就绪的示例�
 
 为了提供丰富的体验，让最终用户能够在 Teams 内部工作，应用开发人员可以使用以下应用功能。 消息传递扩展允许用户与 Web 服务 Teams 客户端进行交互。 在外部系统中搜索或启动操作。 可以将交互结果作为格式丰富的卡片发送到 Teams 客户端。 会议扩展性应用将开发人员的应用集成到会议中，并提供响应式的会议体验。
 
-机器人也称为聊天机器人或对话机器人。 它是执行简单重复任务的应用。 机器人交互可以是快速问答，也可以是提供服务或协助访问的复杂对话。 用户可以与机器人一对一聊天或在频道中聊天。 例如，可以使用 Polly 应用创建快速调查、获取反馈和进行脉冲检查。
+机器人也称为聊天机器人或对话机器人。 它是执行简单重复任务的应用。 机器人交互可以是快速问答，也可以是提供服务或协助访问的复杂对话。 用户可以一对一或在频道中与机器人聊天。 例如，可以使用 Polly 应用创建快速调查、获取反馈和进行脉冲检查。
 
 选项卡是固定在频道顶部或聊天的 Teams 感知网页。 选项卡允许你使用类似 Web 的体验与内容和服务交互。 可以将选项卡作为频道的一部分添加到团队内部，为单个用户添加群组聊天或个人应用。
 
@@ -174,4 +174,4 @@ You can use activity reports to see how users in your organization are using Tea
 
 ## <a name="related-article"></a>相关文章
 
-* [详细了解 Teams 的应用模板](/microsoftteams/platform/samples/app-templates)。
+* [详细了解 Teams 应用模板](/microsoftteams/platform/samples/app-templates)。

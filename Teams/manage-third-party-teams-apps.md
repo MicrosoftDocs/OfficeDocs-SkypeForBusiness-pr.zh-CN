@@ -18,24 +18,24 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 了解如何跨Microsoft 365管理对 Teams 应用的访问。
-ms.openlocfilehash: ae11a72324bb4382012c751150a254773c9145b7
-ms.sourcegitcommit: c627bd1df17aefdc353bc4da6db169dfe169031e
+ms.openlocfilehash: 01aee1ebd59b52f05db36303d60358b86b95cf84
+ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/24/2022
-ms.locfileid: "68680562"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "68738798"
 ---
 # <a name="manage-access-to-teams-apps-across-microsoft-365"></a>跨 Microsoft 365 管理对 Teams 应用的访问
 
-除了在 Teams 中工作的应用外，应用开发人员还可以增强其 Microsoft Teams 应用以在 Outlook 和 Office.com 上工作。 在增强后，最终用户可以在 Teams、Microsoft Outlook 和 Microsoft Office.com 上使用增强的应用。 目前，只有 [目标版本](/microsoft-365/admin/manage/release-options-in-office-365?view=o365-worldwide&preserve-view=true) 中的最终用户才能在 Teams、Outlook 和 Office.com 中查看和使用这些特定应用。 [消息中心](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter/:/messages/MC334280)中提供了有关此更改的通知。
+除了在 Teams 中工作的应用外，应用开发人员还可以增强其 Microsoft Teams 应用以在 Outlook 和 Office.com 上工作。 在增强后，最终用户可以在 Teams、Microsoft Outlook 和 Microsoft Office.com 上使用增强的应用。 目前，只有 [目标版本中的](/microsoft-365/admin/manage/release-options-in-office-365?view=o365-worldwide&preserve-view=true) 最终用户才能在 Teams、Outlook 和 Office.com 中查看和使用这些特定应用。 [消息中心](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter/:/messages/MC334280)中提供了有关此更改的通知。
 
-## <a name="manage-the-enhanced-apps-access-microsoft-365"></a>管理增强型应用访问 Microsoft 365
+## <a name="manage-users-access-to-the-enhanced-apps"></a>管理用户对增强应用的访问权限
 
 现有的 Teams 管理员体验适用于管理对这些应用的访问。 Teams 管理员使用 Teams 管理中心来管理应用访问权限。 作为 Teams 管理员，你可以允许特定的最终用户使用增强的应用，或管理他们在 Teams、Outlook 和 Office.com 上对增强应用的访问权限。
 
-为了在 Outlook 和 Office.com 中使用，增强型应用将继续使用 Teams 中授予的现有权限。 增强应用的权限没有变化。 已在 Outlook 和 Office 中安装同一应用的现有市场内加载项的用户将继续使用该应用。 加载项不是 Teams 应用，Teams 管理员无法控制访问权限。
+为了在 Outlook 和 Office.com 中使用，增强型应用将继续使用 Teams 中授予的现有权限。 增强应用的权限没有变化。 已在 Outlook 和 Office 中安装了同一应用的现有市场内加载项的用户将继续使用该应用。 加载项不是 Teams 应用，Teams 管理员无法控制访问权限。
 
-Office 应用管理员可以联系全局管理员或 Teams 管理员来管理增强应用的访问权限。 有关详细信息，请参阅 [Microsoft 365 中的管理员角色](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide&preserve-view=true)。
+Office 应用管理员可以联系全局管理员或 Teams 管理员来管理增强型应用的访问权限。 有关详细信息，请参阅 [Microsoft 365 中的管理员角色](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide&preserve-view=true)。
 
 可以使用以下方法控制最终用户访问。
 
@@ -48,9 +48,9 @@ Office 应用管理员可以联系全局管理员或 Teams 管理员来管理增
 > [!NOTE]
 > 建议使用 [“标准发布”选项](/microsoft-365/admin/manage/release-options-in-office-365?view=o365-worldwide&preserve-view=true) 来管理最终用户访问权限。 其他选项会删除最终用户的访问权限，他们将无法再在 Teams 中使用现有应用。
 
-## <a name="list-of-enhanced-apps"></a>增强应用列表
+## <a name="list-of-enhanced-apps"></a>增强的应用列表
 
-增强型应用列表如下：
+增强的应用列表如下：
 
 * [Adobe Acrobat Sign](https://teams.microsoft.com/l/app/0f56a9d1-f502-40f9-a9e8-816d7adbb68b?source=app-details-dialog)
 * [更大的大脑 eLearning](https://teams.microsoft.com/l/app/12345514-afee-abcd-acde-c5b34109abcd?source=app-details-dialog)
@@ -64,7 +64,7 @@ Office 应用管理员可以联系全局管理员或 Teams 管理员来管理增
 * [PDF 工具](https://teams.microsoft.com/l/app/ca4b5141-5c46-47bc-a05e-2733d9bd69aa?source=app-details-dialog)
 * [Power BI](https://teams.microsoft.com/l/app/1c4340de-2a85-40e5-8eb0-4f295368978b)
 * [Priority Matrix](https://teams.microsoft.com/l/app/5be2b320-a5b7-4221-893c-dee506e4e365?source=app-details-dialog)
-* [Smart Connect for Jira](https://teams.microsoft.com/l/app/6402de97-ce33-4386-bf28-b37e9e139c09?source=app-details-dialog)
+* [适用于 Jira 的 Smart Connect](https://teams.microsoft.com/l/app/6402de97-ce33-4386-bf28-b37e9e139c09?source=app-details-dialog)
 * [即将计划](https://teams.microsoft.com/l/app/bf280b0d-b87d-4158-9f2a-70b63674cd27?source=app-details-dialog)
 * [简化](https://teams.microsoft.com/l/app/aa6e7fb6-34ac-4947-9c13-3565c66e368b?source=app-details-dialog)
 * [SurveyMonkey](https://teams.microsoft.com/l/app/0fd925a0-357f-4d25-8456-b3022aaa41a9)

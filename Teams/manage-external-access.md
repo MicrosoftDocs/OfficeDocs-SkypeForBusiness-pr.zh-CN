@@ -21,12 +21,12 @@ description: Teams 或 IT 管理员可以为其他域 (联合身份验证) 配�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 009d82d65a79bacfc0c5eca785cb595b5aebc793
-ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
+ms.openlocfilehash: f78e679785deb1ea4740721937440fa9aa81d0b0
+ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "67418511"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "68738718"
 ---
 # <a name="manage-external-meetings-and-chat-in-microsoft-teams"></a>在 Microsoft Teams 中管理外部会议和聊天
 
@@ -36,7 +36,7 @@ ms.locfileid: "67418511"
 
 在以下情况下使用外部访问：
   
-- 你在外部域中有需要聊天的用户。例如，Rob@contoso.com 和 Ann@northwindtraders.com 与 contoso.com 和 northwindtraders.com 域中的其他一些人协作处理某个项目。
+- You have users in external domains who need to chat. For example, Rob@contoso.com and Ann@northwindtraders.com are working on a project together along with some others in the contoso.com and northwindtraders.com domains.
 
 - 你希望自己组织内的人员使用 Teams 联系组织外特定企业中的人员。
 
@@ -49,7 +49,7 @@ ms.locfileid: "67418511"
 Teams 管理中心控制组织级别的外部访问。 大多数选项 (域限制除外) 都可在用户级别使用 PowerShell。 有关详细信息，请参阅以下的 [使用 PowerShell](#using-powershell)。
 
 > [!NOTE]
-> 如果在组织中关闭外部访问权限，组织外部的人员仍可以通过匿名加入加入会议。若要了解详细信息，请参阅 [管理 Teams 中的会议设置](meeting-settings-in-teams.md)。
+> If you turn off external access in your organization, people outside your organization can still join meetings through anonymous join. To learn more, see [Manage meeting settings in Teams](meeting-settings-in-teams.md).
 
 > [!NOTE]
 > 主持会议或与来自其他组织的人员聊天时，Teams 用户可以添加应用。 当他们加入由其他组织主持的会议或聊天时，也可以使用由这些组织的人共享的应用。 将应用主持用户组织的数据策略，以及该用户组织共享的任何第三方应用的数据共享实践。
@@ -160,7 +160,7 @@ Teams 管理中心控制组织级别的外部访问。 大多数选项 (域限�
 |启用/禁用组织未管理的 Teams 用户启动的对话|`-AllowTeamsConsumerInbound`|`-EnableTeamsConsumerInbound`|
 |启用/禁用与 Skype 的联合|`-AllowPublicUsers`|`-EnablePublicCloudAccess`|
 
-请务必注意，禁用策略将从租户“下滚”到用户。例如：
+请务必注意，禁用从租户到用户的策略“下滚”。 例如：
 
 ```PowerShell
 Set-CsTenantFederationConfiguration -AllowFederatedUsers $false
@@ -246,7 +246,7 @@ New-CsBatchPolicyAssignmentOperation -PolicyType ExternalAccessPolicy -PolicyNam
 |与一些联机用户（在 Skype for Business 或 Teams 中）和一些本地用户混合。 | 按照前面所述的联机组织步骤进行操作。 请注意，本地用户不支持与非托管 Teams 用户聊天。|
 
 > [!IMPORTANT]
-> 无需将任何 **Teams 域** 添加为允许的域，以使 Teams 用户与组织外部的非托管 Teams 用户进行通信。允许所有 **未托管的 Teams 域**。
+> You don't have to add any **Teams domains** as allowed domains in order to enable Teams users to communicate with unmanaged Teams users outside your organization. All **unamanged Teams domains** are allowed.
 
 ### <a name="enable-federation-between-users-in-your-organization-and-consumer-users-of-skype"></a>在组织用户与 Skype 消费者用户之间启用联合身份验证
 
@@ -259,7 +259,7 @@ New-CsBatchPolicyAssignmentOperation -PolicyType ExternalAccessPolicy -PolicyNam
 | 与一些联机用户（在 Skype for Business 或 Teams 中）和一些本地用户混合。| 为联机组织本地组织执行上述步骤。
 
 > [!IMPORTANT]
-> 你无需添加任何 **Skype 域** 作为允许的域，就可以使 Teams 或 Skype for Business Online 用户与你组织内部或外部的 Skype 用户进行通信。已允许所有 **Skype 域**。
+> You don't have to add any **Skype domains** as allowed domains in order to enable Teams or Skype for Business Online users to communicate with Skype users inside or outside your organization. All **Skype domains** are allowed.
 
 ## <a name="federation-diagnostic-tool"></a>联合诊断工具
 
@@ -276,11 +276,14 @@ New-CsBatchPolicyAssignmentOperation -PolicyType ExternalAccessPolicy -PolicyNam
 
 ## <a name="user-level-controls"></a>用户级控件
 
-当用户收到来自组织外部某人的 1：1 聊天时，他们将获得全屏体验，在此体验中，他们可以选择 **预览** 消息、 **接受** 聊天或 **阻止** 发送聊天的人员。
+当用户收到来自组织外部某人的 1：1 聊天时，他们将获得全屏体验，在该体验中，用户可以选择 **预览** 消息、 **接受** 聊天或 **阻止** 发送聊天的人员。
 
-阻止外部人员可在 Teams 中的多个位置使用，包括聊天列表中 () 菜单，以及人员卡片上) 菜单 (越多 **。** 用户还可以通过聊天列表上的 () 菜单、人员卡片上的 () 菜单或访问 **“设置****阻止联系** 人 > **编辑阻止的联系** > 人”来取消阻止外部人员。 在发送消息之前或之后，阻止是可用的。
+阻止外部人员可在 Teams 中的多个位置使用，包括聊天列表中的“越 (**...**) ”菜单，以及人员卡片上的“ (**...”**) 菜单。 用户还可以通过聊天列表中的“越 (**...**) ”菜单、“人脉”卡片上的“更多 (**...”**) 菜单，或通过访问 **“设置** > **阻止的联系人** > **”编辑阻止的联系人** 来取消阻止外部人员。 在发送消息之前或之后，可以阻止。
 
-阻止外部人员会阻止他们在 1：1 聊天中发送消息、将用户添加到新的群组聊天以及查看其状态。 当组聊天邀请被阻止时，被阻止的用户可以与阻止这些邀请的用户进行相同的聊天，因为聊天是在阻止之前启动的，或者是另一个成员发送了群聊邀请。
+阻止外部人员会阻止他们在 1：1 聊天中发送消息、将用户添加到新的群组聊天以及查看其状态。 虽然群聊邀请被阻止，但阻止的用户可以与阻止他们的用户进行相同的聊天，因为聊天是在阻止之前启动的，或者群聊邀请是由另一个成员发送的。
+
+> [!NOTE]
+> 没有 Teams 管理员设置或策略可以控制用户阻止与外部人员聊天的能力。
 
 ## <a name="related-topics"></a>相关主题
 
