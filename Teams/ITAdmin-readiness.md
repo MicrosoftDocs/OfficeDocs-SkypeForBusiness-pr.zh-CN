@@ -18,12 +18,12 @@ ms.custom:
 description: 培训视频、PowerPoint 幻灯片组、教程和其他资源，供管理员了解如何规划、部署和运行 Microsoft Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 50c3a4a3eaed8eea383d8e0856cfcd6a07b9772e
-ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
+ms.openlocfilehash: 0f8d251499ef55ef1b7621e63367f746d19c70e5
+ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "68738588"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "68784347"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Microsoft Teams 管理员培训入门
 
@@ -67,14 +67,14 @@ ms.locfileid: "68738588"
 
 | 模块 | PowerPoint 幻灯片组 (PDF)   |
 | ------------ | -------------------- |
-| 模块 1：Microsoft Teams 会议室简介  | [甲板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-1-introduction-to-microsoft-teams-rooms.pdf?raw=true) |
-| 模块 2：Microsoft Teams 网络  | [甲板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-2-network-readiness.pdf?raw=true) |
-| 模块 3：为适当的空间选择合适的设备  | [甲板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-3-choosing-the-right-device.pdf?live=true) |
-| 模块 4：部署Microsoft Teams 会议室  | [甲板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-4-deployment.pdf?raw=true) |
-| 模块 5：配置和启动Microsoft Teams 会议室  | [甲板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-5-starting-and-configuring-teams-rooms.pdf?raw=true) |
-| 模块 6：管理Microsoft Teams 会议室，第 1 部分  | [甲板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-6-managing-teams-rooms-part-1.pdf?raw=true) |
-| 模块 7：管理Microsoft Teams 会议室，第 2 部分  | [甲板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-7-managing-teams-rooms-part-2.pdf?raw=true) |
-| 模块 8：Microsoft Teams 会议室--提示、技巧和故障排除 | [甲板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8a-tips-tricks-troubleshooting.pdf?raw=true)|
+| 模块 1：Microsoft Teams 会议室简介  | [甲板](https://aka.ms/TeamsRoomsModule1) |
+| 模块 2：网络就绪情况  | [甲板](https://aka.ms/TeamsRoomsModule2) |
+| 模块 3：会议室设计和组件  | [甲板](https://aka.ms/TeamsRoomsModule3) |
+| 模块 4：资源帐户  | [甲板](https://aka.ms/TeamsRoomsModule4) |
+| 模块 5：启动和配置Microsoft Teams 会议室  | [甲板](https://aka.ms/TeamsRoomsModule5) |
+| 模块 6：管理Microsoft Teams 会议室，第 1 部分  | [甲板](https://aka.ms/TeamsRoomsModule6) |
+| 模块 7：管理Microsoft Teams 会议室，第 2 部分  | [甲板](https://aka.ms/TeamsRoomsModule7) |
+| 模块 8：功能、采用和故障排除 | [甲板](https://aka.ms/TeamsRoomsModule8)|
 | 一键式联接说明 |  [甲板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8b-one-touch-join-instructions.pdf?raw=true)  |
 | Microsoft Teams 会议室托管服务简介 | [甲板](https://download.microsoft.com/download/c/e/a/cead2658-d64d-43b7-a728-b4512b325fb8/module-7b-Teams-Managed-Rooms-intro.pdf)  |
 
@@ -84,11 +84,12 @@ ms.locfileid: "68738588"
 
 | 模块 | PowerPoint 幻灯片组 (PDF)   |
 | ------------| -------------------- |
-| 模块 1：Microsoft Teams Android 设备简介  |[甲板](https://download.microsoft.com/download/8/0/2/8020c233-8989-4def-b3ea-fb06365c663a/%281%29%20Introduction%20to%20Microsoft%20Teams%20Android%20Devices.pdf) |
-| 模块 2：规划 Microsoft Teams Android 设备|[甲板](https://download.microsoft.com/download/f/8/f/f8f94605-9545-449b-b5d3-f24efc55f966/Planning%20Microsoft%20Teams%20Android%20Devices.pdf) |
-|模块 3：Microsoft Teams Android 设备的功能 |[甲板](https://download.microsoft.com/download/c/9/9/c9922544-7e27-40af-bf19-dbdc8516f0c1/Module%203-%20Features%20of%20Microsoft%20Teams%20Android%20Devices.pdf)|
-|模块 4：管理 Microsoft Teams Android 设备|[甲板](https://download.microsoft.com/download/c/e/b/ceb686ff-9be2-495c-9e2e-80047765e5b4/(4)%20Managing%20Microsoft%20Teams%20Android%20Devices.pdf)|
-|模块 5：Microsoft Teams Android 设备 - 故障排除 |[甲板](https://download.microsoft.com/download/d/3/7/d3728209-5caa-4bfb-b46a-3b840e80142a/Microsoft%20Teams%20Android%20Devices%20-%20Troubleshooting.pdf)|
+| 模块 1：Microsoft Teams Android 设备简介  |[甲板](https://aka.ms/TeamsAndroidModule1) |
+| 模块 2：规划 Microsoft Teams Android 设备|[甲板](https://aka.ms/TeamsAndroidModule2) |
+| 模块 3：管理 Microsoft Teams Android 设备 |[甲板](https://aka.ms/TeamsAndroidModule3)|
+| 模块 4：Microsoft Teams 电话和 Microsoft Teams 显示器 |[甲板](https://aka.ms/TeamsAndroidModule4)|
+| 模块 5：Microsoft Teams 会议室和 Microsoft Teams 面板 |[甲板](https://aka.ms/TeamsAndroidModule5)|
+| 模块 6：采用和故障排除 |[甲板](https://aka.ms/TeamsAndroidModule6)|
 
 <h2>交互式指南</h2>
 

@@ -17,12 +17,12 @@ ms.localizationpriority: high
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 73c6098358d21b6fe2e3a0b15f3285a5a05ec082
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: 0aa6a64b799f3d00262ab8a086d477bda482ac40
+ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67271667"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "68784147"
 ---
 # <a name="teams-update-process"></a>Teams 更新过程
 
@@ -30,7 +30,7 @@ Teams Web 应用更新通常在每月第 4 个星期一发布。
 
 在通过我们的技术采用计划 (TAP) 进行严格的内部测试和验证后，Teams 桌面客户端更新每月发布一次。 桌面客户端更新通常从该月的第 4 个星期一开始，并在该周剩余时间内逐步向客户推出。 如果需要的是关键更新，Teams 将不采用此计划，而是在更新可用时立即发布。
 
-桌面客户端会自动更新。Teams 每隔几个小时在后台检查更新，下载更新，然后等待计算机处于空闲状态，然后再无提示安装更新。
+The desktop client updates itself automatically. Teams checks for updates every few hours behind the scenes, downloads it, and then waits for the computer to be idle before silently installing the update.
 
 用户还可以手动下载更新，方法是在应用右上角“**个人资料**”图标旁边的“**...**”下拉菜单中选择“**检查更新**”。 如果更新可用，则将在计算机处于空闲状态时下载并以无提示方式安装更新。
 
@@ -48,7 +48,7 @@ Teams 不向管理员提供通过任何传递机制部署更新的功能。
 
 ## <a name="servicing-agreement"></a>服务协议
 
-作为新式在线服务，Teams 客户端每隔两周自动更新一次。 由于 Teams 受新式生命周期策略的约束，因此用户应使用桌面客户端的最新版本。 自动更新可确保用户具有最新功能、性能增强、安全性和服务可靠性。
+作为新式联机服务的一部分，Teams 客户端每月大约更新一次。 当更新可供该客户端使用时，客户端会自动安装更新。 由于我们错开了全球更新的可用性，因此组织中的某些客户端可能会先于其他客户端收到新的更新。 由于 Teams 受新式生命周期策略的约束，因此用户应使用桌面客户端的最新版本。 自动更新可确保用户具有最新功能、性能增强、安全性和服务可靠性。
 
 为确定桌面客户端何时过期，如果用户的当前版本介于 1 到 3 个月之间，以及有新版本可用，则会显示应用内警报。 此应用内消息传送鼓励用户更新到最新版本的 Teams，或者在必要时联系 IT 管理员以执行此操作。 使用超过三个月的 Teams 桌面客户端的用户将看到阻止页面，该页面提供了立即更新、联系 IT 管理员或继续访问 Teams 网页版等选项。
 
