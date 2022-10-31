@@ -18,12 +18,12 @@ ms.custom:
 description: 培训视频、PowerPoint 幻灯片组、教程和其他资源，供管理员了解如何规划、部署和运行 Microsoft Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0f8d251499ef55ef1b7621e63367f746d19c70e5
-ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
+ms.openlocfilehash: b456bd4e9887c5d8d2f8ff61667c75ef14a6588a
+ms.sourcegitcommit: 57616ad45eaa8be7f78dd0126d324c8777c5a367
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "68784347"
+ms.lasthandoff: 10/31/2022
+ms.locfileid: "68792811"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Microsoft Teams 管理员培训入门
 
@@ -63,9 +63,9 @@ ms.locfileid: "68784347"
 
 <h2>适用于 IT & AV 专业人员的 Teams 会议室 基础</h2>
 
-<p>下表包含Microsoft Teams 会议室上以 PDF 格式) 随附的 PowerPoint 幻灯片组 (综合视频培训的链接。  
+<p>下表包含指向 PowerPoint 中Microsoft Teams 会议室的综合训练组的链接。  
 
-| 模块 | PowerPoint 幻灯片组 (PDF)   |
+| 模块 | PowerPoint 幻灯片组  |
 | ------------ | -------------------- |
 | 模块 1：Microsoft Teams 会议室简介  | [甲板](https://aka.ms/TeamsRoomsModule1) |
 | 模块 2：网络就绪情况  | [甲板](https://aka.ms/TeamsRoomsModule2) |
