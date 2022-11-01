@@ -20,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e0d47107771add6e091afeeddc35d47110d7938
-ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
+ms.openlocfilehash: b5d3aa5e3bf56f5fe5a3c0ecef428b2d7a3c7dce
+ms.sourcegitcommit: ab8f8e101e41774668b5e607fa72442105ca796e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68614635"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "68801884"
 ---
 # <a name="use-end-to-end-encryption-for-one-to-one-microsoft-teams-calls"></a>将端到端加密用于一对一 Microsoft Teams 通话
 
@@ -36,7 +36,7 @@ ms.locfileid: "68614635"
 
 对于计划外一对一通话的 E2EE，只有一对一 Teams 通话的实时媒体流（即视频和语音数据）会进行端到端加密。 双方必须都启用此设置才能启用端到端加密。 [Microsoft 365 中的加密](/microsoft-365/compliance/encryption)保护通话中的聊天、文件共享、状态和其他内容。
 
-当双方使用适用于 Windows 或 Mac 的最新版本的 Teams 桌面客户端时，可以在双方之间进行端到端加密调用，它们位于具有 iOS 和 Android 最新更新的移动设备上，或者使用最新更新在 Windows 设备上Teams 会议室。
+当双方使用适用于 Windows 或 Mac 的 Teams 桌面客户端的最新版本、在具有 iOS 和 Android 最新更新的移动设备上，或者使用最新更新的 Windows 设备上的Teams 会议室时，可以在双方之间进行端到端加密调用。
 
 如果未启用端到端加密，Teams 仍可使用基于行业标准的加密来保护通话或会议的安全。 在传输过程中和静态时，在通话期间交换的数据将始终是安全的。 有关详细信息，请参阅 [Teams 的媒体加密](teams-security-guide.md#media-encryption)。
 
@@ -66,6 +66,8 @@ ms.locfileid: "68614635"
 
 - 录制
 
+- 应用
+
 此外，如果你的组织使用合规性录制，则端到端加密不可用。 有关 Teams 如何支持合规性录制的详细信息，请参阅[基于 Teams 策略的通话和会议录制简介](teams-recording-policy.md)。
 
 ## <a name="configure-end-to-end-encryption-for-microsoft-teams"></a>为 Microsoft Teams 配置端到端加密
@@ -86,9 +88,9 @@ ms.locfileid: "68614635"
 
 3. 选择默认策略，或选择“**添加**”以添加新策略，然后为新策略命名。
 
-4. 若要为用户启用端到端加密，对于 **端到端呼叫加密**，请选择 **“未启用”，但用户可以启用**，然后选择 **“保存**”。
+4. 若要为用户启用端到端加密，对于 **“端到端呼叫加密**”，请选择“ **未启用，但用户可以启用**”，然后选择“ **保存**”。
 
-   若要禁用端到端加密，请选择 **“未启用**”。
+   若要禁用端到端加密，请选择“ **未启用**”。
 
 完成策略设置后，按照管理其他 Teams 策略的相同方式将策略分配给用户、组或整个租户。 有关在 Teams 中使用策略的信息，请参阅[管理具有策略的 Teams](manage-teams-with-policies.md)。
 
