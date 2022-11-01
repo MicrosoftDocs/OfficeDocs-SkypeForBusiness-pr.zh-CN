@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f9bca2e40263bdbce65a64bf0da2d5864941fc46
-ms.sourcegitcommit: 57616ad45eaa8be7f78dd0126d324c8777c5a367
+ms.openlocfilehash: 8a9e7afdf55fbcb85dcbbf907ef974a62e4e8492
+ms.sourcegitcommit: 86b9503eb0085e23176cb346767f880ea3a73e77
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2022
-ms.locfileid: "68792791"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "68808291"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>在 Microsoft Teams 中对内容进行电子数据展示调查
 
@@ -53,7 +53,7 @@ ms.locfileid: "68792791"
 |会议元数据<sup>1</sup>||
 |通道名称||
 |报价|引用的内容可搜索。 但是，搜索结果并不指示引用了内容。|
-| (的反应，如喜欢、心和其他反应) |2022 年 6 月 1 日之后，所有商业客户都支持响应。 此日期之前的反应不适用于电子数据展示。 计划提供政府云支持。 没有法律支持的反应。|
+| (的反应，如喜欢、心和其他反应) |2022 年 6 月 1 日之后，所有商业客户都支持响应。 此日期之前的反应不适用于电子数据展示。 现在支持扩展的反应。 若要了解反应历史记录，内容必须处于法律保留状态。|
 |主题||
 |表||
 |Teams 视频剪辑 (TVC) |在 2022 年 10 月) 年 10 月，通过右键单击预览 (按关键字搜索，使用“Video-Clip”关键字和“另存为”来搜索每个 TVC 附件.mp4文件。 TVC 数据可在电子数据展示 [审阅集中](/microsoft-365/compliance/add-data-to-review-set)发现。
@@ -204,17 +204,17 @@ Microsoft Teams 数据将在 Excel 电子数据展示导出输出中显示为即
    Start-ComplianceSearch <search name>
    ```
 
-6. 转到 [https://compliance.microsoft.com](https://compliance.microsoft.com) ，然后单击 **“显示所有** > **内容搜索**”。
+6. 转到 [https://compliance.microsoft.com](https://compliance.microsoft.com) ，然后选择 **“显示所有** > **内容搜索**”。
 
 7. 在搜索列表中，选择在步骤 4 中创建的搜索以显示浮出控件页面。
 
 8. 在浮出控件页上，可以执行以下操作：
 
-   - 单击“ **查看结果** ”可查看搜索结果并预览内容。
+   - 选择“ **查看结果** ”可查看搜索结果并预览内容。
 
-   - 在 **“查询** ”字段旁边，单击“ **编辑”** 进行编辑，然后重新运行搜索。 例如，可以添加搜索查询以缩小结果范围。
+   - 在 **“查询** ”字段旁边，选择“ **编辑”** 进行编辑，然后重新运行搜索。 例如，可以添加搜索查询以缩小结果范围。
 
-   - 单击“ **导出结果** ”以导出并下载搜索结果。
+   - 选择“ **导出结果** ”以导出并下载搜索结果。
 
 ## <a name="search-for-card-content"></a>搜索卡片内容
 
@@ -245,7 +245,7 @@ Teams 频道、1：1 聊天和 1xN 聊天中的应用生成的卡片内容存储
 
 - **非联合**：在与组织用户和来宾用户的 Teams 会议中，只有主持 Teams 会议的组织中的管理员可以从会议中搜索聊天消息中的内容。
 
-## <a name="related-topics"></a>相关主题
+## <a name="related-articles"></a>相关文章
 
 - [Microsoft 365 电子数据展示解决方案](/microsoft-365/compliance/ediscovery)
 - [电子数据展示 (标准) 入门 ](/microsoft-365/compliance/get-started-core-ediscovery)
