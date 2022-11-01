@@ -21,12 +21,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 1ff0095ef804f7e58dcbc81c45639228b0264da4
-ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
+ms.openlocfilehash: 83654452460da41bf72b0feca30d3373de1533ef
+ms.sourcegitcommit: ffcc4c7d5688fee28f5fdc8bb8e6b78afb1ee626
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "68784197"
+ms.lasthandoff: 10/31/2022
+ms.locfileid: "68795424"
 ---
 # <a name="understand-microsoft-teams-apps"></a>了解 Microsoft Teams 应用
 
@@ -89,15 +89,37 @@ Microsoft 使用应用开发方法创建并提供功能和生产就绪示例应�
 
 ## <a name="understand-app-capabilities"></a>了解应用功能
 
-为了提供丰富的体验，让最终用户能够在 Teams 内部工作，应用开发人员可以使用以下应用功能。 消息传递扩展允许用户与 Web 服务 Teams 客户端进行交互。 在外部系统中搜索或启动操作。 可以将交互结果作为格式丰富的卡片发送到 Teams 客户端。 会议扩展性应用将开发人员的应用集成到会议中，并提供响应式的会议体验。
+Teams 应用功能是可在应用中构建以启用集成和交互的核心功能。
 
-机器人也称为聊天机器人或对话机器人。 它是执行简单重复任务的应用。 机器人交互可以是快速问答，也可以是提供服务或协助访问的复杂对话。 用户可以一对一或在频道中与机器人聊天。 例如，可以使用 Polly 应用创建快速调查、获取反馈和进行脉冲检查。
+:::row:::
+    :::column span="":::
+    :::column-end:::
+    :::column span="3":::
+        :::image type="content" source="media/teams-app-capabilities-group.png" alt-text="显示 Microsoft Teams 应用的应用功能的图形。" border="false":::
+    :::column-end:::
+    :::column:::
+    :::column-end:::
+:::row-end:::
 
-选项卡是固定在频道顶部或聊天的 Teams 感知网页。 选项卡允许你使用类似 Web 的体验与内容和服务交互。 可以将选项卡作为频道的一部分添加到团队内部，为单个用户添加群组聊天或个人应用。
+为了提供允许最终用户在 Teams 中工作的丰富体验，应用开发人员使用以下功能创建应用：
 
-Webhook 和连接器将最终用户经常使用的服务（如 Jira Cloud 和 Bitbucket）内容和更新直接传送到频道对话中。 使用此功能应用可以与外部应用通信，并且可以从外部服务发送或接收通知和消息。
+* **机器人**：机器人也称为聊天机器人或对话机器人。 它是执行简单重复任务的应用。 机器人交互可以是快速问答，也可以是提供服务或协助访问的复杂对话。 用户可以在个人聊天、频道或群组聊天中与机器人进行对话。 有关详细信息，请参阅 [Microsoft Teams 中的机器人](/microsoftteams/platform/bots/what-are-bots)。
 
-消息传递扩展是插入应用内容或对消息执行操作的快捷方式，最终用户无需从对话中导航即可。 消息传递扩展插件可以具有搜索命令，供最终用户快速查找外部内容，并将其插入消息或操作命令中。
+  Teams 支持在私人聊天和频道中使用聊天机器人。 管理员可以控制是否允许在 Microsoft 365 和 Office 365 组织中使用机器人。 有关打开或关闭自定义机器人的信息，请参阅 [Teams 管理中心中的应用管理和治理概述](manage-apps.md)。
+
+* **选项卡**：选项卡是固定在频道或聊天顶部的 Teams 感知网页。 选项卡允许你使用类似 Web 的体验与内容和服务交互。 它们是简单的 HTML <iframe\> 标记，指向在应用清单中声明的域，并且可以作为频道添加到团队、群组聊天或个人用户的个人应用中。 有关详细信息，请参阅 [Microsoft Teams 选项卡](/microsoftteams/platform/tabs/what-are-tabs)。
+
+  在私人聊天中，默认情况下已创建了“对话”、“文件”、“组织”和“活动”选项卡。 除了这些内置选项卡，开发人员还可以设计和添加自定义选项卡。 有关详细信息，请参阅[在 Teams 中使用内置和自定义选项卡](/microsoftteams/platform/tabs/what-are-tabs)。
+
+* **Webhook 和连接器**：Webhook 和连接器有助于将 Web 服务连接到 Microsoft Teams 中的频道和团队。 Webhook 是用户定义的 HTTP 回调，可通知用户 Teams 通道中发生的任何操作。 这是应用获取实时数据的一种方式。 连接器允许用户订阅以接收来自 Web 服务的通知和消息。 有关详细信息，请参阅 [Webhook 和连接器](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors)。
+
+  若要允许用户在 Teams 中使用自定义连接器，请参阅 [在 Teams 中使用自定义连接器](office-365-custom-connectors.md)。
+
+* **消息传递扩展**：消息传递扩展是插入应用内容或对消息进行操作的快捷方式，无需最终用户离开对话。 用户可以从撰写消息区域、命令框或直接从邮件搜索或启动外部系统中的操作。 有关详细信息，请参阅 [消息扩展](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions?tabs=dotnet)。
+
+* **会议扩展**：用户可以通过在会议中集成选项卡、机器人和消息扩展来增强会议体验，并提高会议效率。 可以识别各种参与者角色和用户类型、获取会议事件以及生成会议内对话。 有关详细信息，请参阅 [Teams 会议应用](/microsoftteams/platform/apps-in-teams-meetings/teams-apps-in-meetings)。
+
+* **卡片和任务模块**：卡片在对话流中为用户提供各种视觉、音频和可选消息和帮助。 任务模块可帮助你在 Microsoft Teams 中创建模式弹出体验。 它们可用于开始和完成任务，或者显示丰富的信息（如视频或 Power 商业智能 (BI) 仪表板）。 有关详细信息，请参阅 [卡片和任务模块](/microsoftteams/platform/task-modules-and-cards/cards-and-task-modules)。
 
 若要查看映射到 Teams 功能的常见用例，请参阅 [将用例映射到 Teams 应用功能](/microsoftteams/platform/concepts/design/map-use-cases)。
 
@@ -172,6 +194,10 @@ You can use activity reports to see how users in your organization are using Tea
 
 --->
 
-## <a name="related-article"></a>相关文章
+## <a name="related-articles"></a>相关文章
 
 * [详细了解 Teams 应用模板](/microsoftteams/platform/samples/app-templates)。
+
+* [Teams 管理中心中的应用管理和治理概述](manage-apps.md)
+
+* [在 Microsoft Teams 管理中心管理应用](manage-apps.md)

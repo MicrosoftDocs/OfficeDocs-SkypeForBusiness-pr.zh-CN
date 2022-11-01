@@ -18,12 +18,12 @@ ms.custom:
 description: 培训视频、PowerPoint 幻灯片组、教程和其他资源，供管理员了解如何规划、部署和运行 Microsoft Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b456bd4e9887c5d8d2f8ff61667c75ef14a6588a
-ms.sourcegitcommit: 57616ad45eaa8be7f78dd0126d324c8777c5a367
+ms.openlocfilehash: 0dab76cd8cdca4270555a7f15b8f92f353f7afc5
+ms.sourcegitcommit: ffcc4c7d5688fee28f5fdc8bb8e6b78afb1ee626
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2022
-ms.locfileid: "68792811"
+ms.locfileid: "68795444"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Microsoft Teams 管理员培训入门
 
@@ -80,9 +80,9 @@ ms.locfileid: "68792811"
 
 <h2>Teams Android 设备</h2>
 
-<p>下表包含有关 Microsoft Teams Android 设备（包括 Teams 显示器、Teams 电话、适用于 Android 的Teams 会议室和 Teams 面板）上以 PDF 格式 (PowerPoint 幻灯片组) 的综合培训的链接。  
+<p>下表包含指向 Microsoft Teams Android 设备上的 PowerPoint 综合培训平台的链接，其中包括 Teams 显示器、Teams 电话、适用于 Android 的Teams 会议室和 Teams 面板。  
 
-| 模块 | PowerPoint 幻灯片组 (PDF)   |
+| 模块 | PowerPoint 幻灯片组  |
 | ------------| -------------------- |
 | 模块 1：Microsoft Teams Android 设备简介  |[甲板](https://aka.ms/TeamsAndroidModule1) |
 | 模块 2：规划 Microsoft Teams Android 设备|[甲板](https://aka.ms/TeamsAndroidModule2) |
