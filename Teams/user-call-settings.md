@@ -20,42 +20,42 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 了解如何为呼叫转接和委派配置用户设置。
-ms.openlocfilehash: c9d085027ed1b365e8aa47b5908c946c4234e5ca
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: 7d1ab3252461d57a99956c90a011a43620c76bea
+ms.sourcegitcommit: 18e66d54a9e349d4516253addc85cc12892c69a3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67397353"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "68851843"
 ---
 # <a name="configure-call-settings-for-your-users"></a>为用户配置呼叫设置
 
 本文介绍管理员如何更改用户的呼叫转接和委派设置。 你可能想要更改这些设置，例如，如果：
 
-- 用户请病假，你需要确保将给用户的传入呼叫转发给同事。
-- 你需要检查部门中所有用户的呼叫转发设置，并根据需要对其进行更正。
-- 已雇用一名新助理，你需要将助理添加为一组员工的代理人。
+- 用户休病假，你需要确保将用户的来电转接到同事。
+- 你需要检查部门中所有用户的呼叫转接设置，并可能根据需要对其进行更正。
+- 新助理已被雇用，你需要将该助理添加为一组员工的代理人。
 
 可以使用 Teams 管理中心或 Teams PowerShell cmdlet 查看和更改用户的呼叫设置。
 
-若要为用户设置呼叫设置，用户必须具有分配的 Microsoft Phone 系统许可证。
+若要为用户设置呼叫设置，用户必须具有分配的 Microsoft 电话系统许可证。
 
 ## <a name="use-the-teams-admin-center"></a>使用 Teams 管理中心
 
-可以使用 Teams 管理中心为用户配置呼叫转发和未应答设置、组呼叫取件和呼叫委派。
+可以使用 Teams 管理中心为用户配置呼叫转接和未应答设置、组呼叫应答和呼叫委派。
 
-若要配置即时调用转发设置，请执行以下操作：
+配置即时呼叫转接设置：
 
-1. 在 Teams 管理中心，转到 **“用户** > **管理用户”** ，然后选择一个用户。
+1. 在 Teams 管理中心中，转到 **“用户** > **管理用户** ”，然后选择一个用户。
 
-2. 在“用户详细信息”页上，转到 **“语音”** 选项卡。
+2. 在用户详细信息页上，转到“ **语音** ”选项卡。
 
-3. 在 **“呼叫应答规则**”下，选择 **“立即转发**”，然后选择适当的呼叫转发类型和目标。
+3. 在 **“呼叫应答规则**”下，选择“ **立即转接**”，然后选择相应的呼叫转接类型和目标。
 
-若要配置同时响铃，请在同一页上选择 **“响铃”用户的设备**。 在“ **还允许** ”下拉列表中，选择相应的同时响铃设置。
+若要配置同时响铃，请在同一页上选择“ **拨打用户设备**”。 在“ **还允许”** 下拉列表中，选择适当的同时响铃设置。
 
-若要配置未答复的设置，请在同一页上选择“ **If 未应答** ”下拉列表中的相应设置。 在 **重定向** 下拉列表之前的环形中，指定要等待的秒数。
+若要配置未处理设置，请在同一页上的“ **如果未得到处理** ”下拉列表中选择相应的设置。 在 **“重定向前的响铃数秒”** 下拉列表中，指定等待的秒数。
 
-呼叫委派和组呼叫取件的配置通过选择适当的类型集成到呼叫转发和未答复的设置中。 例如，若要配置调用也应响铃用户委托，请在同一页上选择“**也允许**”下的 **呼叫委** 派。 然后，通过选择 **“添加人员** ”并单击“ **保存**”来添加相应的委托。
+通过选择适当的类型，将呼叫委派和组呼叫应答的配置集成到呼叫转接和未应答设置中。 例如，若要配置呼叫还应拨打用户的代理人，请在同一页上选择“**允许**”下的“**呼叫委派**”。 然后，通过选择“ **添加人员** ”并单击“ **保存**”来添加相应的代理人。
 
 此视频演示查看和编辑用户语音设置的步骤。
 
@@ -63,17 +63,17 @@ ms.locfileid: "67397353"
 
 ## <a name="use-powershell"></a>使用 PowerShell
 
-可以使用 PowerShell 为用户配置呼叫转发和委派设置。  你将使用以下 cmdlet，这些 cmdlet 在 Teams PowerShell 模块版本 4.0 或更高版本中可用：
+可以使用 PowerShell 为用户配置呼叫转接和委派设置。  你将使用以下 cmdlet，这些 cmdlet 在 Teams PowerShell 模块 4.0 或更高版本中可用：
 
-- [Get-CsUserCallingSettings](/powershell/module/teams/get-csusercallingsettings) - 显示用户的呼叫转发设置、委托和委派者信息。
-- [Set-CsUserCallingSettings](/powershell/module/teams/set-csusercallingsettings) - 设置用户的调用转发设置。
+- [Get-CsUserCallingSettings](/powershell/module/teams/get-csusercallingsettings) - 显示用户的呼叫转接设置、委托和委托人信息。
+- [Set-CsUserCallingSettings](/powershell/module/teams/set-csusercallingsettings) - 设置用户的呼叫转接设置。
 - [New-CsUserCallingDelegate](/powershell/module/teams/new-csusercallingdelegate) - 添加具有用户权限的新委托。
 - [Set-CsUserCallingDelegate](/powershell/module/teams/set-csusercallingdelegate) - 更改现有委托的权限。
 - [Remove-CsUserCallingDelegate](/powershell/module/teams/remove-csusercallingdelegate) - 从用户中删除委托。
 
-### <a name="display-call-forward-and-delegation-settings-for-a-user"></a>显示用户的呼叫转发和委派设置
+### <a name="display-call-forward-and-delegation-settings-for-a-user"></a>显示用户的呼叫转接和委派设置
 
-若要显示用户的当前呼叫转发和委派设置，请使用Get-CsUserCallingSettings cmdlet，如以下示例所示：
+若要显示用户的当前呼叫转接和委派设置，请使用 Get-CsUserCallingSettings cmdlet，如以下示例所示：
 
 ```PowerShell
 Get-CsUserCallingSettings -Identity user1@contoso.com
@@ -101,23 +101,23 @@ ManageSettings : True
 ReceiveCalls   : True
 ```
 
-输出显示用户 1 已同时向配置的委托响铃。 未接听的呼叫在 20 秒后发送到语音邮件。 User2 定义为具有所有委托权限的委托。
+输出显示 user1 同时响铃到已配置的委托。 未接听的呼叫会在 20 秒后发送到语音邮件。 User2 定义为具有所有委托权限的委托。
 
-### <a name="set-call-forward-settings-for-a-user"></a>为用户设置呼叫转发设置
+### <a name="set-call-forward-settings-for-a-user"></a>为用户设置呼叫转接设置
 
-若要将 user1 的所有调用转发到 user2，请使用Set-CsUserCallingSettings cmdlet，如以下示例所示：
+若要将 user1 的所有调用转发到 user2，请使用 Set-CsUserCallingSettings cmdlet，如以下示例所示：
 
 ```PowerShell
 Set-CsUserCallingSettings -Identity user1@contoso.com -IsForwardingEnabled $true -ForwardingType Immediate -ForwardingTargetType SingleTarget -ForwardingTarget user2@contoso.com
 ```
 
-若要同时为 user3 拨打所有委托，请使用Set-CsUserCallingSettings cmdlet，如以下示例所示：
+若要同时拨打 user3 的所有委托，请使用 Set-CsUserCallingSettings cmdlet，如以下示例所示：
 
 ```PowerShell
 Set-CsUserCallingSettings -Identity user3@contoso.com -IsForwardingEnabled $true -ForwardingType Simultaneous -ForwardingTargetType MyDelegates
 ```
 
-以下示例使用 Set-CsUserCallingSettings cmdlet 为 user4 配置呼叫组，用户 5 和 user6 为成员。 对组成员的所有调用都按定义的顺序转发：
+以下示例使用 Set-CsUserCallingSettings cmdlet 配置 user4 的呼叫组，其中 user5 和 user6 作为成员。 对组成员的所有调用均按定义顺序转发：
 
 ```PowerShell
 $cgm = @("user5@contoso.com","user6@contoso.com")
@@ -131,7 +131,7 @@ Set-CsUserCallingSettings -Identity user4@contoso.com -IsForwardingEnabled $true
 
 ### <a name="add-a-calling-delegate-for-a-user"></a>为用户添加调用委托
 
-若要将 user2 添加为允许所有权限的 user1 委托，请使用New-CsUserCallingDelegate cmdlet，如以下示例所示：
+若要将 user2 添加为具有所有允许权限的 user1 的委托，请使用 New-CsUserCallingDelegate cmdlet，如以下示例所示：
 
 ```PowerShell
 New-CsUserCallingDelegate -Identity user1@contoso.com -Delegate user2@contoso.com -MakeCalls $true -ReceiveCalls $true -ManageSettings $true
@@ -139,19 +139,23 @@ New-CsUserCallingDelegate -Identity user1@contoso.com -Delegate user2@contoso.co
 
 ### <a name="change-calling-delegate-permissions"></a>更改调用委托权限
 
-若要更改委托权限（例如不允许 user2 对 user1 进行调用）请使用Set-CsUserCallingDelegate cmdlet，如以下示例所示：
+若要更改委托权限（例如不允许 user2 对 user1 发出调用），请使用 Set-CsUserCallingDelegate cmdlet，如以下示例所示：
 
 ```PowerShell
 Set-CsUserCallingDelegate -Identity user1@contoso.com -Delegate user2@contoso.com -MakeCalls $false
 ```
 
-### <a name="remove-a-calling-delegate-for-a-user"></a>删除用户的调用委托
+### <a name="remove-a-calling-delegate-for-a-user"></a>删除用户的呼叫委托
 
-若要删除 user2 作为 user1 的委托，请使用Remove-CsUserCallingDelegate cmdlet，如以下示例所示：
+若要删除 user2 作为 user1 的委托，请使用 Remove-CsUserCallingDelegate cmdlet，如以下示例所示：
 
 ```PowerShell
 Remove-CsUserCallingDelegate -Identity user1@contoso.com -Delegate user2@contoso.com
 ```
+
+## <a name="additional-notes"></a>其他说明
+
+- 从未由用户或租户管理员修改过呼叫应答规则的用户的默认行为是，未应答的呼叫将在 30 秒后转发到语音邮件。 在团队管理员中心或 Teams PowerShell 中为用户显示的设置会将未响应的目标显示为“无”，延迟为 20 秒。
 
 ## <a name="related-topics"></a>相关主题
 

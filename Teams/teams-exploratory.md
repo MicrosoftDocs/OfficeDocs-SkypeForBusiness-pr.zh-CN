@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a5124c36b48c4cd8d6d2a466cbdc46c962b9aa11
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: 5e5535be61aab03158aa11c68ebd3b753b3ca972
+ms.sourcegitcommit: 18e66d54a9e349d4516253addc85cc12892c69a3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68376840"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "68851772"
 ---
 # <a name="manage-the-microsoft-teams-exploratory-license"></a>管理 Microsoft Teams Exploratory 许可证
 
@@ -75,7 +75,7 @@ Users must be enabled to sign up for apps and trials (in the Microsoft 365 admin
 
 ## <a name="how-users-sign-up-for-the-teams-exploratory-experience"></a>如何注册 Teams 探索体验？
 
-符合条件的用户可通过登录到 Teams 桌面版或 Web 版 ([teams.microsoft.com](https://teams.microsoft.com)) 来注册 Teams Exploratory 体验。 目前，不支持通过移动设备启用 Exploratory。 当他们注册时，系统将自动向其分配此许可证，并且租户管理员会在组织中有人首次启动 Teams Exploratory 体验时收到一封电子邮件通知。
+符合条件的用户可通过登录到 Teams 桌面版或 Web 版 ([teams.microsoft.com](https://teams.microsoft.com)) 来注册 Teams Exploratory 体验。 目前，不支持通过移动设备启用 Exploratory。 当他们注册时，将自动为他们分配此许可证，并且租户管理员将在组织中有人首次启动 Teams 探索体验时收到电子邮件通知。
 
 ## <a name="manage-the-teams-exploratory-experience"></a>管理 Teams 探索体验
 
@@ -102,7 +102,7 @@ The Teams Exploratory experience comes with an Exchange Online license, but it w
 
 ### <a name="manage-availability-for-a-user-with-a-license-that-includes-teams"></a>为拥有包含 Teams 的许可证的用户管理可用性
 
-A user who is assigned a license that includes Teams isn't eligible for the Teams Exploratory experience. When the Teams service plan is turned on, the user can sign in and use Teams. If the service plan is disabled, the user can't sign in and the Teams Exploratory experience isn't available. You must have admin privileges.
+分配了包含 Teams 的许可证的用户不符合获取 Teams 探索体验的条件。 启用 Teams 服务计划时，用户可登录并使用 Teams。 如果服务计划被禁用，则用户无法登录，并且 Teams 探索体验不可用。 必须具有管理员权限。
 
 关闭对 Teams 的访问：
 
@@ -142,7 +142,9 @@ You can manage users who have the Teams Exploratory license just like you manage
 必须具有管理员权限才能从 Teams 探索升级用户。 有关详细信息，请参阅 [从 Teams 探索试用版升级用户](upgrade-from-teams-exploratory.md)。
 
 > [!NOTE]
-> If the Teams Exploratory license ends and a user isn't immediately upgraded to a subscription that includes Teams, they lose access to Teams after a 30-days grace period. Another 30 days after which, the data is deleted. The user still exists in Azure Active Directory. Once a new license is assigned to the user to enable Teams functionality again, all content will still exist if the user is added within the grace period time frame.
+> 如果 Teams 探索许可证结束，并且用户未立即升级到包含 Teams 的订阅，则他们在 30 天的宽限期后将失去对 Teams、OneDrive 和 Sharepoint 的访问权限。 再过 30 天，关联的 Teams、OneDrive 和 SharePoint 数据将被删除。 用户仍存在于 Azure Active Directory 中。
+> 
+> 一旦将新的许可证分配给用户以再次启用 Teams 功能，则如果在宽限期时间范围内添加用户，则所有内容仍将存在。
 
 ### <a name="remove-a-teams-exploratory-license"></a>删除 Teams 探索许可证
 
@@ -152,7 +154,7 @@ You can manage users who have the Teams Exploratory license just like you manage
 
 ## <a name="what-is-the-data-retention-policy"></a>什么是数据保留策略？
 
-请参阅 [Microsoft 365 订阅信息](/microsoft-365/commerce/subscriptions/what-if-my-subscription-expires?view=o365-worldwide)。
+请参阅 [Microsoft 365 订阅信息](/microsoft-365/commerce/subscriptions/what-if-my-subscription-expires)。
 
 ## <a name="how-long-does-the-teams-exploratory-experience-last"></a>Teams 探索体验持续多长时间
 
@@ -163,7 +165,7 @@ Teams 探索向所有新客户提供为期 12 个月的订阅（从初始用户�
 
 ### <a name="what-should-administrators-do-at-the-end-of-the-12-month-teams-exploratory-experience"></a>在 12 个月的 Teams Exploratory 体验结束后，管理员应该怎么做
 
-在 12 个月的订阅结束时，管理员应将其所有 Teams Exploratory 用户转换为包括 Teams 的付费许可证。 确保在Teams Exploratory订阅到期前完成这项工作至关重要，以避免对用户的体验造成任何干扰。
+在 12 个月的订阅结束时，管理员应将其所有 Teams Exploratory 用户转换为包括 Teams 的付费许可证。 请务必确保在 Teams Exploratory 订阅过期之前完成此操作，以避免对用户体验造成任何中断。
 
 
 > [!NOTE]
