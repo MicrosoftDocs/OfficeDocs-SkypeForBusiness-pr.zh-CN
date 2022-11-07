@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 了解哪些会话边界控制器 (SBC) 已通过直接路由认证。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c1908fc1dbfdecc978444d7fc004979c940f8b2a
-ms.sourcegitcommit: 3b2e8ec8c104863208f49f282ab0ffa619ff5057
+ms.openlocfilehash: 4eb53a81fbdddbf4f04d57be7f893ca3fbb6d88f
+ms.sourcegitcommit: b535a70df5bc842f597889582df3eb86371f8139
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/26/2022
-ms.locfileid: "68697351"
+ms.lasthandoff: 11/07/2022
+ms.locfileid: "68869567"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>经认证可用于直接路由的会话边界控制器
 
@@ -65,14 +65,14 @@ Microsoft 与每个供应商合作：
 ||Mediant 9000  SBC|&#10004;|&#10004;|支持的 7.20A.258（推荐的 7.40A.100 或 7.40A.250）|&#10004;|&#10004;|
 ||Virtual Edition SBC|&#10004;|&#10004;|支持的 7.20A.258（推荐的 7.40A.100 或 7.40A.250）|&#10004;|&#10004;|
 ||Mediant 云版本 SBC|&#10004;|&#10004;|支持的 7.20A.258（推荐的 7.40A.100 或 7.40A.250）|&#10004;|&#10004;|
-|[Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)|SBC 5100/5110|&#10004;|&#10004;|支持 10.1、9.2、8.2 和 7.2 的所有版本 (建议最新版本的 10.1) |&#10004;||
-||SBC 5200/5210|&#10004;|&#10004;|支持 10.1、9.2、8.2 和 7.2 的所有版本 (建议最新版本的 10.1) |&#10004;||
-||SBC 5400|&#10004;|&#10004;|支持 10.1、9.2、8.2 和 7.2 的所有版本 (建议最新版本的 10.1) ) |&#10004;||
-||SBC 7000|&#10004;|&#10004;|支持 10.1、9.2、8.2 和 7.2 的所有版本 (建议最新版本的 10.1) |&#10004;||
-||所有 SBC SWe 变体，包括托管产品/服务|&#10004;|&#10004;|支持 10.1、9.2、8.2 和 7.2 的所有版本 (建议最新版本的 10.1) |&#10004;||
+|[Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)|SBC 5100/5110|&#10004;|&#10004;|支持所有版本的 10.1、9.2、8.2 和 7.2 (推荐最新版本的 10.1) |&#10004;||
+||SBC 5200/5210|&#10004;|&#10004;|支持所有版本的 10.1、9.2、8.2 和 7.2 (推荐最新版本的 10.1) |&#10004;||
+||SBC 5400|&#10004;|&#10004;|支持所有版本的 10.1、9.2、8.2 和 7.2 (推荐最新版本 10.1) ) |&#10004;||
+||SBC 7000|&#10004;|&#10004;|支持所有版本的 10.1、9.2、8.2 和 7.2 (推荐最新版本的 10.1) |&#10004;||
+||所有 SBC SWe 变体，包括托管产品/服务|&#10004;|&#10004;|支持所有版本的 10.1、9.2、8.2 和 7.2 (推荐最新版本的 10.1) |&#10004;||
 ||SBC 1000|&#10004;|&#10004;|8.x、9.x 或 11.x|&#10004;|&#10004;|
 ||SBC 2000|&#10004;|&#10004;|8.x、9.x 或 11.x|&#10004;|&#10004;|
-||SBC SWe Edge (前 SWe Lite) |&#10004;|&#10004;|8.x、9.x 或 11.x|&#10004;|&#10004;|
+||SBC SWe Edge (以前为 SWe Lite) |&#10004;|&#10004;|8.x、9.x 或 11.x|&#10004;|&#10004;|
 ||EdgeMarc 系列|&#10004;|&#10004;|16.3.2||
 |[Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)|Think 365 SBC|&#10004;||1.4|||
 |[Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)|AP 1100|&#10004;|&#10004;|支持 8.3.0.0.1 并建议 8.4.x 和 9.x|&#10004;|&#10004;|
@@ -101,9 +101,9 @@ Microsoft 与每个供应商合作：
 |[Enghouse Networks](https://www.enghousenetworks.com/portfolio/network-infrastructure/cloud-native-session-border-controller-sbc/)|Dialogic BorderNet SBC|&#10004;|&#10004;|3.9.x|||
 |[Patton Electronics Co.](https://www.patton.com/microsoft/)|Patton SmartNode eSBC|&#10004;||3.19.x|||
 |[M5 Technologies（前身 Media5 Corporation）](https://www.m5t.com/solutions/sentinel-sbc-ms-teams-certified/)|Mediatrix Sentinel 系列|&#10004;||DGW 48.0.2340（推荐 DGW 48.1.2503）|||
-|[Ekinops](https://www.ekinops.com/solutions/voice-data-access/microsoft-direct-routing-sbc)|Ekinops Session Border Controller (ONeSBC)|&#10004;|&#10004;|支持的 6.8.x (建议的 6.9.x) |||
+|[Ekinops](https://www.ekinops.com/solutions/voice-data-access/microsoft-direct-routing-sbc)|Ekinops Session Border Controller (ONeSBC)|&#10004;|&#10004;|支持的 6.8.x (推荐的 6.9.x) |||
 ||Ekinops Virtual Session Border Controller (ONEvSBC)|&#10004;|&#10004;|支持 6.6.1m5ha1 (建议 6.8.x) |||
-|[46 Labs LLC](https://46labs.atlassian.net/wiki/spaces/peeredge/pages/61603842/Microsoft+Teams+Implementation+Guide+v1.0)|对等互连业务流程协调程序|&#10004;|&#10004;|1.0.6|||
+|[46 Labs LLC](https://46labs.atlassian.net/wiki/spaces/peeredge/pages/61603842/Microsoft+Teams+Implementation+Guide+v1.0)|Peeredge Orchestrator|&#10004;|&#10004;|1.0.6|||
 |[Frafos](https://www.frafos.com/ms-teams-abc-sbc)|ABC SBC|&#10004;||4.6|||
 
 <br/>
@@ -129,14 +129,14 @@ Microsoft 与每个供应商合作：
 ||Mediant 9000 SBC|支持的 7.20A.258（推荐 7.40A.100）|
 ||Mediant 虚拟版本 SBC|支持的 7.20A.258（推荐 7.40A.100）|
 ||Mediant 云版本 SBC|支持的 7.20A.258（推荐 7.40A.100）|
-|[功能区 SBC 核心](https://support.sonus.net/display/ALLDOC/SBC+8.2+-+Configure+Local+Media+Optimization)|SBC 5110|8.2|
-||SBC 5210|8.2|
-||SBC 5400|8.2|
-||SBC 7000|8.2|
-||SBC SWe|8.2|
-|[功能区 SBC Edge](https://support.sonus.net/display/UXDOC81/Best+Practice+-+Configuring+Microsoft+Teams+Local+Media+Optimization)|SBC SWe Lite|8.1.5|
-||SBC 1000|8.1.5|
-||SBC 2000|8.1.5|
+|[功能区 SBC 核心](https://support.sonus.net/display/ALLDOC/SBC+8.2+-+Configure+Local+Media+Optimization)|SBC 5110|8.2 或更高版本的 SW 版本|
+||SBC 5210|8.2 或更高版本的 SW 版本|
+||SBC 5400|8.2 或更高版本的 SW 版本|
+||SBC 7000|8.2 或更高版本的 SW 版本 |
+||SBC SWe|8.2 或更高版本的 SW 版本|
+|[功能区 SBC Edge](https://support.sonus.net/display/UXDOC81/Best+Practice+-+Configuring+Microsoft+Teams+Local+Media+Optimization)|SBC SWe Edge (以前为 SWe Lite) |8.1.5 或更高版本的 SW 版本|
+||SBC 1000|8.1.5 或更高版本的 SW 版本|
+||SBC 2000|8.1.5 或更高版本的 SW 版本|
 |[TE-SYSTEMS](https://www.anynode.de/local_media_optimization/)|anynode|4.0.1+|
 |[Oracle](https://www.oracle.com/industries/communications/enterprise-communications/session-border-controller/microsoft.html)|AP 1100|8.4.0.0.0|
 ||AP 3900|8.4.0.0.1 & 9.x|
@@ -165,14 +165,14 @@ Microsoft 与每个供应商合作：
 |[Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html)|VME 软件版本支持 8.3.0.1.2 &推荐 8.4.x 或 9.x|&#10004;|
 |[Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html)|AP 3950 软件版本支持 9.x|&#10004;|
 |[Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html)|AP 4900 软件版本支持 9.x|&#10004;|
-|[功能区](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[SBC 1000. 软件版本：8.1.1（内部版本 527）](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)|&#10004;|
-|[功能区](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[SBC 2000. 软件版本：8.1.1（内部版本 527）](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)|&#10004;|
-|[功能区](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 302。软件版本: 16.1.1](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
-|[功能区](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 304。软件版本: 16.1.1](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
-|[功能区](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 2900A。软件版本: 16.1.1](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
-|[功能区](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 4806。软件版本: 16.1.1](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
-|[功能区](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 4808。软件版本: 16.1.1](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
-|[功能区](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 6000。软件版本: 16.1.1](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
+|[功能区](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[SBC 1000。软件版本：8.1.1 (内部版本 527) 或更高版本的 SW 版本](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)|&#10004;|
+|[功能区](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[SBC 2000。软件版本：8.1.1 (内部版本 527) 或更高版本的 SW 版本](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)|&#10004;|
+|[功能区](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 302。软件版本：16.1.1 或更高版本的 SW 版本](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
+|[功能区](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 304。软件版本：16.1.1 或更高版本的 SW 版本](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
+|[功能区](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 2900A。软件版本：16.1.1 或更高版本的 SW 版本](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
+|[功能区](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 4806。软件版本：16.1.1 或更高版本的 SW 版本](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
+|[功能区](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 4808。软件版本：16.1.1 或更高版本的 SW 版本](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
+|[功能区](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions)|[EdgeMarc 6000。软件版本：16.1.1 或更高版本的 SW 版本](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)|&#10004;|
 |[TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)|具有 Grandstream GXW42xx 的 anynode (V1.0.7.10)|&#10004;|
 
 请注意授予主要版本的认证。 这意味着主要版本后 SBC 固件中任意编号的固件均受支持。

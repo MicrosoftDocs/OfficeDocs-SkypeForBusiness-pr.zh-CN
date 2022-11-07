@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 了解哪些桌面电话和会议电话已经过 Microsoft Teams 认证，以产生最佳结果。
-ms.openlocfilehash: f2b6e74dd276eabda4cb94459a18e87ea4e38c41
-ms.sourcegitcommit: 247ae32098c3601252249ce1de719f5215c8ab75
+ms.openlocfilehash: bcd55c0584c683f76a1dd033628bd99c48a18292
+ms.sourcegitcommit: b535a70df5bc842f597889582df3eb86371f8139
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2022
-ms.locfileid: "68810688"
+ms.lasthandoff: 11/07/2022
+ms.locfileid: "68869597"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams 认证的 Android 设备
 
@@ -86,10 +86,8 @@ Microsoft Teams 设备认证计划确保认证设备符合高标准，在整个 
 | Logitech Tap IP VR0029     | `1.6.762`  |   2024 年 9 月 3 日  | 与 Logitech Rally Bar 和 Rally Bar Mini 兼容 | 10 |
 | Neat Bar Pro   | `NFD1.20220914.1210 ` | 2024 年 9 月 3 日  |  中型房间 (4.5 m x 6 m)  | 10|
 | 整洁条形图 | `NFF1.20220914.1210` |2024 年 9 月 3 日|    中型房间 (4.5 m x 6 m)  | 10 |
-| 整洁条形图 | `NFB1.20220211.1400` |2024 年 9 月 3 日|    小型会议室 (4.5 m x 4.5 m)  | 10 |
 | Neat Pad 触摸控制台 | `NFA1.20220914.1206`  | 2024 年 9 月 3 日 | 仅与 Neat Bar 兼容 | 9 |
-| Neat Pad 触摸控制台 | `NFA1.20220211.1400`  | 2023 年 8 月 5 日 |  仅与 Neat Bar 兼容 | 9 |
-| 整洁板 | `NFC1.20220211.1400 ` | 2024 年 9 月 3 日 |    小型会议室 (4.5 m x 4.5 m)  | 10 |
+| 整洁板 | `NFC1.20220914.1210 ` | 2024 年 9 月 3 日 |    小型会议室 (4.5 m x 4.5 m)  | 10 |
 | Logitech Roommate | `1.4.71` | 2024 年 9 月 3 日  | 大型会议室 (4.5 米 x 8.5 米)   |   10  |
 | EPOS EXPAND 80T | `1.2.2.21182.10` | 2023 年 8 月 5 日 | 与 EPOS 视觉 3T 捆绑 | 9 |
 | Logitech Tap 设备     | `1.2.982`  |   2024 年 9 月 3 日  | 与 Logitech Rally Bar 和 Rally Bar Mini 兼容 | 10 |
@@ -427,7 +425,7 @@ Microsoft Teams 设备认证计划确保认证设备符合高标准，在整个 
 
 Microsoft Teams 许可证可以作为 [Microsoft 365 的一部分购买，也可以Office 365订阅](/office365/servicedescriptions/teams-service-description)。 若要详细了解在手机上使用 Microsoft Teams 所需的许可证，请参阅可用的 [电话系统许可证](https://products.office.com/microsoft-teams/voice-calling)。
 
-有关获取 Teams 的详细信息，请查看[როგორ გავაკეთო获取 Microsoft Teams 的访问权限？](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
+有关获取 Teams 的详细信息，请查看[如何实现获取 Microsoft Teams 的访问权限？](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
 如果你是寻求加入认证计划的供应商，请参阅 [如何加入](/skypeforbusiness/certification/how-to-join) ，了解要求和可用计划。
 

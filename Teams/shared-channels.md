@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 了解如何在 Microsoft Teams 中使用和管理共享频道。
-ms.openlocfilehash: 378088e4b1f12aee3d71f11fb54aacec8a0ca138
-ms.sourcegitcommit: 89e3681a88f06a9c6860d9eaea598e57b928b68a
+ms.openlocfilehash: ff975d406426bd85789541c0a7cfb0aba57cdf60
+ms.sourcegitcommit: b535a70df5bc842f597889582df3eb86371f8139
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/16/2022
-ms.locfileid: "67795071"
+ms.lasthandoff: 11/07/2022
+ms.locfileid: "68869675"
 ---
 # <a name="shared-channels-in-microsoft-teams"></a>Microsoft Teams 中的共享频道
 
@@ -39,7 +39,7 @@ Microsoft Teams 中的共享频道可创建协作空间，你可以在其中邀�
 
 ## <a name="getting-started-with-shared-channels"></a>共享频道入门
 
-共享频道在 Teams 中默认启动。你可以选择用户是否可以创建共享频道、他们是否可以与组织外部的人员共享该频道，以及他们是否可以通过 [创建频道策略](/MicrosoftTeams/teams-policies) 来参与外部共享频道。
+Shared channels is enabled by default in Teams. You can choose if people can create shared channels, if they can share them with people outside your organization, and if they can participate in external shared channels by [creating a channel policy](/MicrosoftTeams/teams-policies).
 
 如果计划与组织外部人员共享频道，请阅读 [计划外部协作](/microsoft-365/solutions/plan-external-collaboration) 以了解重要的规划注意事项。
 
@@ -69,10 +69,12 @@ Microsoft Teams 中的共享频道可创建协作空间，你可以在其中邀�
 
 如果共享频道所有者是一个或多个共享频道的最后一个所有者，则无法通过 Teams 客户端将其删除。
 
-如果最后一个共享频道所有者离开你的组织，或者从与团队关联的 Microsoft 365 组中删除了这些用户，则会自动将组织中的共享频道成员提升为共享频道所有者。 如果组织中没有要推广的成员，共享频道将保持无所有者状态。 Teams 管理员必须手动分配频道所有者。 请考虑添加多个所有者以避免出现这种情况。
+如果最后一个共享频道所有者离开你的组织，或者他们从与团队关联的 Microsoft 365 组中删除，则组织中的共享频道成员将自动提升为共享频道所有者。 如果没有来自组织的成员要推广，共享频道将保持无所有者身份。 Teams 管理员必须手动分配频道所有者。 请考虑添加多个所有者以避免出现这种情况。
+
+来宾（包括在其用户类型属性)  (转换为成员的来宾）无法添加到共享频道。
 
 > [!NOTE]
-> 如果两者在 Azure Active Directory 中不匹配，则必须使用其 UPN 而不是电子邮件地址添加外部参与者。
+> 如果两者在 Azure Active Directory 中不匹配，则必须使用其 UPN（而不是电子邮件地址）添加外部参与者。
 
 ## <a name="channel-owner-settings"></a>频道所有者设置
 
@@ -118,7 +120,7 @@ Microsoft Teams 中的共享频道可创建协作空间，你可以在其中邀�
 
 ## <a name="considerations-around-file-access-in-shared-channels"></a>有关共享频道中的文件访问的注意事项
 
-共享通道中的文件、文件夹和 OneNote 笔记本可以与频道外部的人员共享 (但不能在组织外部使用 [标准 SharePoint 文件共享](https://support.microsoft.com/office/1fe37332-0f9a-4719-970e-d2578da4941c)) 。
+共享频道中的文件、文件夹和 OneNote 笔记本可以与频道外部的人员共享 (但不能通过使用 [标准 SharePoint 文件共享](https://support.microsoft.com/office/1fe37332-0f9a-4719-970e-d2578da4941c)) 组织外部共享。
 
 如果通过 SharePoint 向用户授予对共享频道中文件、文件夹或笔记本的访问权限，则从团队或共享频道中删除用户将不会删除用户对文件、文件夹或笔记本的访问权限。
 
