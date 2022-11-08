@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 了解如何在 Teams 中为参与者和来宾管理会议策略设置。
-ms.openlocfilehash: 91d48a88aff2784a5e4d420b6ede7d03e3692678
-ms.sourcegitcommit: ab8f8e101e41774668b5e607fa72442105ca796e
+ms.openlocfilehash: a5d18ea0e3f8c6cd008a12258fd94c3a0b725ac3
+ms.sourcegitcommit: 1fe19c4a6e9f6116515df531786cc3e482e27093
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2022
-ms.locfileid: "68801783"
+ms.lasthandoff: 11/08/2022
+ms.locfileid: "68876278"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>会议策略设置 - 参与者和来宾
 
@@ -117,6 +117,17 @@ ms.locfileid: "68801783"
 |---------|---------|
 |**未启用，但用户可以替代**     | 在会议期间，实时字幕不会自动为用户开启。 用户在溢出 (**...**) 菜单中看到 **“开启实时字幕”** 选项，即可其打开。 这是默认设置。 |
 |**未启用**     | 在会议期间，将禁用用户的实时字幕。 用户无法选择启用它们。          |
+
+有关最终用户如何打开 **实时字幕** 的详细信息，请参阅 [在 Teams 会议中使用实时字幕](https://support.microsoft.com/office/4be2d304-f675-4b57-8347-cbd000a21260)。
+
+### <a name="live-translated-captions"></a>实时翻译的字幕
+
+> [!NOTE]
+> 此功能在公共预览版中暂时可用。 预览后，会议组织者必须具有 Teams Premium 许可证，与会者才能使用实时翻译字幕。
+
+默认情况下， **实时字幕** 以会议期间所说的语言显示。 **实时翻译字幕** 允许用户查看翻译为他们最熟悉的语言的字幕。
+
+若要启用 **实时翻译字幕**，必须将 **实时字幕** 设置为 **“未启用”，但用户可以** 在 Teams 管理中心中替代。 若要关闭 **实时翻译字幕**，请将其设置为 **“未启用**”。
 
 <a name="bkcontentsharing"> </a>
 
