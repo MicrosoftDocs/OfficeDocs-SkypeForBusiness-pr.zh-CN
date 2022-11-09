@@ -1,5 +1,5 @@
 ---
-title: Teams 和 Outlook 电子邮件集成
+title: 管理可操作的活动电子邮件
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -9,41 +9,39 @@ ms.service: msteams
 ms.reviewer: kblevens
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 了解 Teams 和 Outlook 电子邮件集成功能，包括允许用户在 Outlook 中的电子邮件与 Teams 中的聊天或频道对话之间共享信息的功能。
+description: 了解如何启用和禁用 Microsoft Teams 对话的可操作活动电子邮件
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 76a2ecf05a8769b51ffcb9827c0fe6ff75df7b18
-ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
+ms.openlocfilehash: 43435c436685c53e0ad077887a9fe9d991cf2d61
+ms.sourcegitcommit: f5480d0ca34b3160980a4b46b5afa34271293a26
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "66606231"
+ms.lasthandoff: 11/09/2022
+ms.locfileid: "68899686"
 ---
-# <a name="teams-and-outlook-email-integration"></a>Teams 和 Outlook 电子邮件集成
+# <a name="manage-actionable-activity-emails"></a>管理可操作的活动电子邮件
 
-Microsoft Teams 包含的功能使组织中的用户能够轻松地在 Outlook 中的电子邮件与 Teams 中的聊天或频道对话之间共享信息，并随时了解错过的对话。 本文概述了这些功能和适用的管理员控件。
+默认情况下，可操作活动电子邮件处于启用状态，并通知组织中的用户在 Microsoft Teams 上错过的对话。
 
-## <a name="share-to-outlook"></a>共享到 Outlook
+错过的活动电子邮件显示对对话的最新答复，包括错过邮件后发送的邮件。 此功能允许用户通过选择“答复”直接从 Outlook **进行答复**。
 
-**共享到 Outlook** 可让用户在 Outlook 中共享 Teams 对话的副本到电子邮件，而无需离开 Teams。 如果用户需要与其直接团队外部的用户或组织外部的用户共享对话或状态更新，则此功能非常方便。 转到 Teams 中对话的顶部，选择 **...更多选项**，然后选择 **“共享到 Outlook**”。  若要了解详细信息，请 [参阅 Teams 中的“共享到 Outlook](https://support.office.com/article/share-to-outlook-from-teams-f9dabbe9-9e9b-4e35-99dd-2eeeb67c4f6d)”。
+## <a name="disable-actionability-in-missed-activity-emails"></a>在错过的活动电子邮件中禁用可操作性
 
-![显示 Teams 中的“共享到 Outlook”功能的屏幕截图。](media/share-to-outlook.png)
+虽然此功能默认设置为启用，但可以通过运行以下命令来关闭整个组织的活动电子邮件中的可操作性：
 
-若要使用此功能，必须为用户启用Outlook 网页版。 如果关闭Outlook 网页版，则不会在 Teams 中为用户显示 **“共享到 Outlook**”选项。 有关如何打开和关闭Outlook 网页版的步骤，请参阅[启用或禁用邮箱Outlook 网页版](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app)。
+```Powershell
+Set-OrganizationConfig -SmtpActionableMessagesEnabled $false
+```
 
-## <a name="actionable-activity-emails"></a>可操作的活动电子邮件
-
-用户会自动获取可操作的错过活动电子邮件，以帮助他们赶上 Teams 中错过的对话。 错过的活动电子邮件显示来自对话的最新答复，包括错过邮件后发送的消息，用户可以单击 **“回复** ”以直接从 Outlook 内部回复。 若要了解详细信息，请参阅 [Outlook 中错过的活动电子邮件回复](https://support.office.com/article/reply-to-missed-activity-emails-from-outlook-bc0cf587-db26-4946-aac7-8eebd84f1381)。 
+禁用此功能后， **Teams 中的“答复** ”选项将替换为 **“答复** ”，使错过的活动电子邮件不再被视为可操作。 用户将无法再直接从 Outlook 做出响应，并被指示在 Teams 上继续对话。
 
 > [!NOTE]
-> Outlook for Mac或某些较旧版本的 Outlook for Windows 不支持此功能。 有关详细信息，请参阅 [Outlook 和 Office 365 组中的可操作消息](/outlook/actionable-messages/)。
+> Outlook for Mac或某些较旧版本的 Outlook for Windows 不支持此功能。 有关详细信息，请参阅 [Outlook 中的可操作邮件和Office 365组中](/outlook/actionable-messages/)的邮件。
 
-![显示错过的活动电子邮件的屏幕截图。](media/missed-activity-email.png)
+## <a name="related-topics"></a>相关主题
 
-![显示如何回复错过的活动电子邮件的屏幕截图。](media/missed-activity-email-reply.png)
+[回复 Outlook 中错过的活动电子邮件](https://support.office.com/article/reply-to-missed-activity-emails-from-outlook-bc0cf587-db26-4946-aac7-8eebd84f1381)。
 
-可以将 [Set-OrganizationConfig](/powershell/module/exchange/organization/set-organizationconfig) cmdlet 与 **SmtpActionableMessagesEnabled** 参数一起使用，以关闭可操作的电子邮件。 默认情况下， **SmtpActionableMessagesEnabled** 参数设置为 **true**。 将参数设置为 **false** 会关闭跨Office 365的可操作电子邮件。 对于 Teams 用户，这意味着在错过的活动电子邮件中无法使用直接在 Outlook 中响应的 **“回复** ”选项。 相反，错过的活动电子邮件包括 **Teams 中的“回复** ”选项，供用户在 Teams 中答复。
-
-另请参阅 [Outlook 和 Office 365 组中的可操作消息](/outlook/actionable-messages/)。
+[Outlook 和 Office 365 组中的可操作邮件](/outlook/actionable-messages/)。

@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 了解哪些桌面电话和会议电话已经过 Microsoft Teams 认证，以产生最佳结果。
-ms.openlocfilehash: bcd55c0584c683f76a1dd033628bd99c48a18292
-ms.sourcegitcommit: b535a70df5bc842f597889582df3eb86371f8139
+ms.openlocfilehash: 0af62514c1be6dbd82de75e053829af046d98dfe
+ms.sourcegitcommit: f5480d0ca34b3160980a4b46b5afa34271293a26
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2022
-ms.locfileid: "68869597"
+ms.lasthandoff: 11/09/2022
+ms.locfileid: "68899666"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams 认证的 Android 设备
 
@@ -292,67 +292,10 @@ Microsoft Teams 设备认证计划确保认证设备符合高标准，在整个 
 | Yealink MeetingBar A30 | `133.310.0.25 `   | 2022 更新#2A  |
 | Yealink CTP18 | `137.15.0.80`   | 2022 更新#2A  |
 | AudioCodes RXV80 | `1.16.191` | 2022 更新#2A   |
-| Poly Studio X30 | `3.12.0.366027` | 2022 更新 #1   |
-| Poly Studio X50 | `3.12.0.366027` | 2022 更新 #1  |
-| Logi Rallybar    | `1.6.552`         | 2022 更新 #2    |
-| Logi Rallybar Mini | `1.6.552`       | 2022 更新 #2   |
-| 整洁条形图 | `NFB1.20220512.2200` | 2022 更新 #2 |
-| Neat Pad 触摸控制台 | `NFA1.20220512.2158`  |  2022 更新 #2 |
-| 整洁板 | `NFC1.20220512.2200` |  2022 更新 #2 |
-| Yealink MeetingBar A20 | `133.15.0.95 `   | 2022 更新 #2  |
-| Yealink MeetingBar A30 | `133.15.0.95 `   | 2022 更新 #2  |
-| Yealink CTP18 | `137.15.0.53`     | 2022 更新 #2    |
-| Yealink VC210 + VC210 | `118.15.0.69`     | 2022 更新 #2    |
-| Logi Tap 设备  |  `1.5.705`   | 2022 更新 #1    |
-| Poly Studio X30 | `3.11.0.364021`          | 2022 更新 #1    |
-| Poly Studio X50 | `3.11.0.364021`          | 2022 更新 #1    |
-| Logi 室友 |   `1.6.290`   | 2022 更新 #1    |
-| Logi Rallybar Mini   |   `1.6.272`   | 2022 更新 #1  |
-| Logi Rallybar    |   `1.6.272`   | 2022 更新 #1   |
-| Logi 室友 |   `1.5.705`   | 2022 更新 #1    |
-| Logi Rallybar Mini   |   `1.5.705`   | 2022 更新 #1    |
-| Logi Rallybar    |   `1.5.705`   | 2022 更新 #1    |
-| EPOS EXPAND Vision 3T |`1.2.4.22042.05`   | 2022 更新 #1 |
-| AudioCodes RXV80 | `1.16.164 `   | 2022 更新 #1 |
-| Yealink VC210 | `118.15.0.65`   | 2022 更新 #1    |
-| Yealink MeetingBar A20 | `133.15.0.80 `   | 2022 更新 #1   |
-| Yealink MeetingBar A30 | `133.15.0.80 `   | 2022 更新 #1   |
-| Yealink CTP18 | `137.15.0.49`    | 2022 更新 #1   |
-| Poly Studio X30 | `3.9.0` | 2021 更新#2F   |
-| Poly Studio X50 | `3.9.0` | 2021 更新#2F   |
-| Poly TC8        | `3.9.0`          | 2021 更新#2F   |
-| Poly Studio X30 | `3.8.0`          | 2021 更新 #2    |
-| Poly Studio X50 | `3.8.0`          | 2021 更新 #2    |
-| Poly TC8        | `3.8.0`          | 2021 更新 #2    |
-| Logi Rallybar    | `1.3.538`         | 2021 更新#2B    |
-| Logi Rallybar Mini | `1.3.538`       | 2021 更新#2B    |
-| Logi Rallybar    | `1.4.228`         | 2021 更新#2B    |
-| Logi Rallybar Mini | `1.4.228`       | 2021 更新#2B    |
-| Poly Studio X30 | `3.7.0`          | 2021 更新#2A    |
-| Poly Studio X50 | `3.7.0`          | 2021 更新#2A    |
-| Poly TC8        | `3.7.0`          | 2021 更新#2A    |
-| Poly Studio X30 | `3.6.0.350035`  | 2021 更新#2A    |
-| Poly Studio X50 | `3.6.0.350035`  | 2021 更新#2A    |
-| Poly TC8 | `3.6.0.210534`  | 2021 更新#2A    |
-| EPOS EXPAND Vision 3T |`1.2.2.21182.10`   | 2021 更新 #2 |
-| AudioCodes RXV80 |`1.13.361`   | 2021 更新 #2 |
-| Yealink VC210 |`118.15.0.54`   | 2021 更新 #2    |
-| Yealink MeetingBar A20 | `133.15.0.60`     | 2021 更新 #2    |
-| Yealink MeetingBar A30 | `133.15.0.60`    | 2021 更新 #2    |
-| Yealink CTP18 | `137.15.0.37`    | 2021 更新 #2    |
-| Poly Studio X30 | `3.5.0.344025`          | 2021 更新 #2    |
-| Poly Studio X50 | `3.5.0.344025`        | 2021 更新 #2    |
-| Poly TC8 | `3.5.0.210489`         | 2021 更新 #2    |
-| Poly Studio X30 | `3.3.2.286154`          | 2021 更新 #1    |
-| Poly Studio X50 | `3.3.2.286154`          | 2021 更新 #1    |
-| Poly TC8 | `3.3.2.286154`                 | 2021 更新 #1    |
-| Yealink VC210 |`118.15.0.47`     | 2021 更新 #1    |
-| Yealink MeetingBar A20 | `133.15.0.54`     | 2021 更新 #1    |
-| Yealink MeetingBar A30 | `133.15.0.54`     | 2021 更新 #1    |
-| Yealink CTP18 | `137.15.0.30`     | 2021 更新 #1    |
-| Yealink VC210 + CP900 | `118.15.0.42`     | 2020 更新 #3    |
-| Poly Studio X30 | `3.2.3.280012`          | 2020 更新 #3    |
-| Poly Studio X50 | `3.2.3.280012`          | 2020 更新 #3    |
+
+|Poly Studio X30 | `3.14.1.374010` | 2022 更新#2B | |Poly Studio X50 | `3.14.1.374010` | 2022 更新#2B |
+
+|Poly Studio X30 | `3.12.0.366027` | 2022 更新 #1 | |Poly Studio X50 | `3.12.0.366027` | 2022 更新 #1 | |Logi Rallybar | `1.6.552`         | 2022 更新 #2 | |Logi Rallybar Mini | `1.6.552`       | 2022 更新 #2 | |整洁条形| `NFB1.20220512.2200` | 2022 更新 #2 | |Neat Pad 触控控制台| `NFA1.20220512.2158`  | 2022 更新 #2 | |整洁板| `NFC1.20220512.2200` | 2022 更新 #2 | |Yealink MeetingBar A20 | `133.15.0.95 `   | 2022 更新 #2 | |Yealink MeetingBar A30 | `133.15.0.95 `   | 2022 更新 #2 | |Yealink CTP18 | `137.15.0.53`     | 2022 更新 #2 | |Yealink VC210 + VC210 | `118.15.0.69`     | 2022 更新 #2 | |Logi Tap 设备|  `1.5.705`   | 2022 更新 #1 | |Poly Studio X30 | `3.11.0.364021`          | 2022 更新 #1 | |Poly Studio X50 | `3.11.0.364021`          | 2022 更新 #1 | |Logi 室友|   `1.6.290`   | 2022 更新 #1 | |Logi Rallybar Mini |   `1.6.272`   | 2022 更新 #1 | |Logi Rallybar |   `1.6.272`   | 2022 更新 #1 | |Logi 室友|   `1.5.705`   | 2022 更新 #1 | |Logi Rallybar Mini |   `1.5.705`   | 2022 更新 #1 | |Logi Rallybar |   `1.5.705`   | 2022 更新 #1 | |EPOS EXPAND Vision 3T |`1.2.4.22042.05`   |2022 更新 #1 | |AudioCodes RXV80 | `1.16.164 `   | 2022 更新 #1 | |Yealink VC210 | `118.15.0.65`   | 2022 更新 #1 | |Yealink MeetingBar A20 | `133.15.0.80 `   | 2022 更新 #1 | |Yealink MeetingBar A30 | `133.15.0.80 `   | 2022 更新 #1 | |Yealink CTP18 | `137.15.0.49`    | 2022 更新 #1 | |Poly Studio X30 | `3.9.0` | 2021 更新#2F | |Poly Studio X50 | `3.9.0` | 2021 更新#2F | |Poly TC8 | `3.9.0`          | 2021 更新#2F | |Poly Studio X30 | `3.8.0`          | 2021 更新 #2 | |Poly Studio X50 | `3.8.0`          | 2021 更新 #2 | |Poly TC8 | `3.8.0`          | 2021 更新 #2 | |Logi Rallybar | `1.3.538`         | 2021 更新#2B | |Logi Rallybar Mini | `1.3.538`       | 2021 更新#2B | |Logi Rallybar | `1.4.228`         | 2021 更新#2B | |Logi Rallybar Mini | `1.4.228`       | 2021 更新#2B | |Poly Studio X30 | `3.7.0`          | 2021 更新#2A | |Poly Studio X50 | `3.7.0`          | 2021 更新#2A | |Poly TC8 | `3.7.0`          | 2021 更新#2A | |Poly Studio X30 | `3.6.0.350035`  | 2021 更新#2A | |Poly Studio X50 | `3.6.0.350035`  | 2021 更新#2A | |Poly TC8 | `3.6.0.210534`  | 2021 更新#2A | |EPOS EXPAND Vision 3T |`1.2.2.21182.10`   |2021 更新 #2 | |AudioCodes RXV80 |`1.13.361`   |2021 更新 #2 | |Yealink VC210 |`118.15.0.54`   |2021 更新 #2 | |Yealink MeetingBar A20 | `133.15.0.60`     | 2021 更新 #2 | |Yealink MeetingBar A30 | `133.15.0.60`    | 2021 更新 #2 | |Yealink CTP18 | `137.15.0.37`    | 2021 更新 #2 | |Poly Studio X30 | `3.5.0.344025`          | 2021 更新 #2 | |Poly Studio X50 | `3.5.0.344025`        | 2021 更新 #2 | |Poly TC8 | `3.5.0.210489`         | 2021 更新 #2 | |Poly Studio X30 | `3.3.2.286154`          | 2021 更新 #1 | |Poly Studio X50 | `3.3.2.286154`          | 2021 更新 #1 | |Poly TC8 | `3.3.2.286154`                 | 2021 更新 #1 | |Yealink VC210 |`118.15.0.47`     |2021 更新 #1 | |Yealink MeetingBar A20 | `133.15.0.54`     | 2021 更新 #1 | |Yealink MeetingBar A30 | `133.15.0.54`     | 2021 更新 #1 | |Yealink CTP18 | `137.15.0.30`     | 2021 更新 #1 | |Yealink VC210 + CP900 | `118.15.0.42`     | 2020 更新 #3 | |Poly Studio X30 | `3.2.3.280012`          | 2020 更新 #3 | |Poly Studio X50 | `3.2.3.280012`          | 2020 更新 #3 |
 
 ### <a name="product-release-information-for-teams-displays"></a>Teams 显示器的产品发布信息
 
