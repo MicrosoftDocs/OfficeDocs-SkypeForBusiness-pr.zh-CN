@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: 了解如何在 Microsoft Teams 中设置呼叫队列。 呼叫队列提供问候消息、保留音乐、呼叫重定向和其他功能。
-ms.openlocfilehash: d4d263587e0ac78b2dff2949adcaa2af8133a3dc
-ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
+ms.openlocfilehash: 84dd975e93340f6b5985e8239e7bf78f051debbc
+ms.sourcegitcommit: e5f5a1a164576b317e89340e233c9b67f082d19c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "68738558"
+ms.lasthandoff: 11/09/2022
+ms.locfileid: "68890071"
 ---
 # <a name="create-a-call-queue"></a>创建呼叫队列
 
@@ -393,7 +393,7 @@ Teams 在 *呼叫者处于保留状态* 时为呼叫者提供默认音乐。
 1. Microsoft Teams Windows 客户端、Microsoft Teams Mac 客户端、虚拟化桌面基础结构上的 Microsoft Teams。
 2. Microsoft Teams iPhone 应用、Microsoft Teams Android 应用。
 3. 为代理路由方法选择“最长空闲时间”将自动启用基于状态的路由。
-4. 只能在将单个用户添加为标准呼叫队列的一部分时设置顺序。 使用通讯组列表或 Teams 频道时，顺序将按字母顺序排列。
+4. 无法设置调用代理的顺序。
 5. 如果电话呼叫从启用了基于位置的路由的直接路由网关路由到队列，则不支持会议模式。
 6. 仅限Microsoft Teams 电话。
 7. 通过 位于 [https://aka.ms/vmsettings](https://aka.ms/vmsettings)的“用户设置门户”页。
