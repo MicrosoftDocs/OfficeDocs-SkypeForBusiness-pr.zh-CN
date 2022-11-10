@@ -19,16 +19,16 @@ ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 64e63b4df818d792f722aed5b61315828a79bf76
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: 643c354086d93d7aa3edd4d73216b4b9d5dbbe56
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68377130"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912471"
 ---
-# <a name="information-accessed-and-actions-performed-by-teams-apps-and-admin-considerations"></a>Teams 应用访问的信息和执行的操作以及管理员注意事项
+# <a name="information-accessed-and-actions-performed-by-apps-and-related-admin-considerations"></a>应用访问的信息和执行的操作以及相关的管理员注意事项
 
-Microsoft Teams 应用将一个或多个功能聚合到可安装、升级和卸载的应用中。 应用的功能包括：
+Microsoft Teams 应用将一个或多个功能聚合到可以安装、升级和卸载的应用。 应用的功能包括：
 
 * 机器人
 * 消息传递扩展
@@ -37,17 +37,9 @@ Microsoft Teams 应用将一个或多个功能聚合到可安装、升级和卸�
 
 作为管理员，你仅管理应用。 但是，本文重点介绍功能级别的权限和注意事项，因为应用中的功能会影响应用所需的权限和风险配置文件。 对于使用情况，应用由用户同意，并由 IT 专业人员从策略角度进行管理。
 
-下面以大写字母列出的权限，例如`RECEIVE_MESSAGE`和 `REPLYTO_MESSAGE`仅用于说明和说明目的。 这些字符串或权限不会出现在 [Microsoft Teams 开发人员文档](/microsoftteams/platform/overview) 或 [Microsoft Graph权](/graph/permissions-reference)限中的任何位置。
+<!---  The permissions listed below in capital letters, for example `RECEIVE_MESSAGE` and `REPLYTO_MESSAGE` are only for illustration and explanation purpose. These strings or permissions don't appear anywhere in the [Microsoft Teams developer documentation](/microsoftteams/platform/overview) or the [permissions for Microsoft Graph](/graph/permissions-reference).  --->
 
 ## <a name="global-app-permissions-and-considerations"></a>全局应用权限和注意事项
-
-### <a name="required-permissions"></a>所需权限
-
-无
-
-### <a name="optional-permissions"></a>可选权限
-
-无
 
 ### <a name="considerations"></a>注意事项
 
@@ -59,25 +51,23 @@ Microsoft Teams 应用将一个或多个功能聚合到可安装、升级和卸�
 
 ## <a name="bots-and-messaging-extensions"></a>机器人和消息传递扩展
 
-### <a name="required-permissions"></a>所需权限
+### <a name="required-permissions-for-bots-and-messaging-extensions"></a>机器人和消息传递扩展所需的权限
 
-* RECEIVE_MESSAGE，REPLYTO_MESSAGE：机器人可以接收来自用户的消息并回复他们。<sup>1</sup>
+* 机器人可以接收来自用户的消息并对其进行答复。 某些机器人仅发送消息。 它们称为“仅通知机器人”，但该术语并不指允许或不允许机器人执行的操作。 这意味着机器人不提供对话体验。 Teams 使用此字段来禁用 UI 中通常会启用的功能。 与公开对话体验的机器人相比，机器人不受其允许执行的操作的限制。
+* 用户向机器人发送消息后，机器人可以随时向用户发送直接或主动消息。
+* 添加到团队的机器人可以获取团队中频道的名称和 ID 列表。
 
-* POST_MESSAGE_USER：用户向机器人发送消息后，机器人可以随时发送用户直接消息（也称为 *主动消息* ）。
+### <a name="optional-permissions-for-bots-and-messaging-extensions"></a>机器人和消息传递扩展的可选权限
 
-* GET_CHANNEL_LIST：添加到团队的机器人可以获取团队中频道的名称和 ID 列表。
+* 在频道中使用时，应用的机器人可以访问团队成员的基本标识信息， (名字、姓氏、用户主体名称 [UPN]、电子邮件地址) 。 当在个人或群组聊天中使用它时，机器人可以访问这些用户的相同信息。
 
-### <a name="optional-permissions"></a>可选权限
+* 应用的机器人可以向团队成员发送直接或主动消息，即使他们尚未与机器人交互。
 
-* 标识：在频道中使用时，应用的机器人可以访问团队成员的基本标识信息（名字、姓氏、用户主体名称 [UPN]、电子邮件地址）。 当在个人或群组聊天中使用它时，机器人可以访问这些用户的相同信息。
+* 以下不是显式权限，而是接收和答复消息的能力以及机器人可以使用的范围所暗示的。
 
-* POST_MESSAGE_TEAM：允许应用的机器人随时向团队成员发送直接（主动）消息，即使用户从未与机器人交互。
-
-* 下面不是显式权限，但由RECEIVE_MESSAGE和REPLYTO_MESSAGE以及可以在其中使用机器人的范围（在清单中声明）隐含：
-
-  * RECEIVE_MESSAGE_PERSONAL、REPLYTO_MESSAGE_PERSONAL
-  * RECEIVE_MESSAGE_GROUPCHAT、REPLYTO_MESSAGE_GROUPCHAT
-  * RECEIVE_MESSAGE_TEAM、REPLYTO_MESSAGE_TEAM
+  * 接收并回复个人消息。
+  * 接收群组聊天并回复。
+  * 接收并回复频道消息。
 
 * 下面不是显式权限，但由RECEIVE_MESSAGE和REPLYTO_MESSAGE以及可以在其中使用机器人的范围（在清单中声明）隐含：
 
@@ -87,7 +77,7 @@ Microsoft Teams 应用将一个或多个功能聚合到可安装、升级和卸�
 
 * SEND_FILES，RECEIVE_FILES：<sup>2</sup> 控制机器人是否可以在个人聊天中发送和接收文件（尚不支持群组聊天或频道）。
 
-### <a name="considerations"></a>注意事项
+### <a name="considerations-for-bots-and-messaging-extensions"></a>机器人和消息传递扩展的注意事项
 
 * 机器人只能访问已添加到的团队或已安装它们的用户。
 
@@ -97,13 +87,13 @@ Microsoft Teams 应用将一个或多个功能聚合到可安装、升级和卸�
 
 * 当用户与机器人进行交互时，如果机器人存储用户的 ID，则它可以随时发送用户直接消息。
 
-* 从理论上讲，机器人消息可能包含指向网络钓鱼或恶意软件站点的链接。 但是，用户、租户管理员或 Microsoft 可以全局阻止机器人。 [应用验证和验证检查](overview-of-app-validation.md) 可确保 Teams 应用商店中不提供任何虚假应用。
+* 从理论上讲，机器人消息可能包含指向网络钓鱼或恶意软件站点的链接。 但是，用户、租户管理员或 Microsoft 可以全局阻止机器人。 [应用验证和验证检查](overview-of-app-validation.md) 可确保任何虚假应用在 Teams 应用商店中不可用。
 
 * 机器人可以检索（并可能存储）应用已添加到的团队成员的基本标识信息，或在个人或群组聊天中为单个用户检索基本标识信息。 若要获取有关这些用户的更多信息，机器人必须要求他们登录到Azure Active Directory（Azure AD）。
 
 * 机器人可以检索（并可能存储）团队中的频道列表;此数据将离开公司网络。
 
-* 默认情况下，机器人无法代表用户执行操作，但机器人可以要求用户登录;用户登录后，机器人将拥有一个访问令牌，可以使用该令牌执行其他操作。 这些其他内容的确切内容取决于机器人以及用户登录的位置：机器人是在 https://apps.dev.microsoft.com/ 注册的Azure AD应用，可以有自己的权限集。
+* 默认情况下，机器人无法代表用户执行操作，但机器人可以要求用户登录;用户登录后，机器人将立即获得一个访问令牌，可用于执行其他操作。 这些其他内容的确切内容取决于机器人以及用户登录的位置：机器人是在 `https://apps.dev.microsoft.com/` 注册的Azure AD应用，可以有自己的权限集。
 
 * 将文件发送到机器人时，该文件将离开公司网络。 发送和接收文件需要用户批准每个文件。
 
@@ -136,7 +126,7 @@ SEND_AND_RECEIVE_WEB_DATA
 
 无（当前）
 
-### <a name="considerations"></a>注意事项
+### <a name="considerations-for-tabs"></a>选项卡的注意事项
 
 * 选项卡的风险配置文件几乎与在浏览器选项卡中运行的同一网站相同。
 
@@ -144,17 +134,9 @@ SEND_AND_RECEIVE_WEB_DATA
 
 ## <a name="connectors"></a>连接器
 
-外部系统中发生事件时，连接器会将消息发布到通道。
+外部系统中发生事件时，连接器会将消息发布到通道。 连接器所需的权限是能够在通道中发布消息。 连接器的可选权限是答复邮件的权限。 某些连接器支持可操作邮件，允许用户对连接器消息发布有针对性的答复。 例如，通过添加对 GitHub 问题的响应或向 Trello 卡片添加日期。
 
-### <a name="required-permissions"></a>所需权限
-
-POST_MESSAGE_CHANNEL
-
-### <a name="optional-permissions"></a>可选权限
-
-REPLYTO_CONNECTOR_MESSAGE。 某些连接器支持可操作邮件，允许用户将目标答复发布到连接器消息，例如通过添加对 GitHub 问题的响应或向 Trello 卡添加日期。
-
-### <a name="considerations"></a>注意事项
+### <a name="considerations-for-connectors"></a>连接器注意事项
 
 * 发布连接器消息的系统不知道其发布到的人员或接收邮件的人员：不会披露有关收件人的信息。 （Microsoft 是实际收件人，而不是租户;Microsoft 会将实际帖子发布到频道。）
 
@@ -175,17 +157,13 @@ REPLYTO_CONNECTOR_MESSAGE。 某些连接器支持可操作邮件，允许用户
 
 ## <a name="outgoing-webhooks"></a>传出 webhook
 
-_传出 Webhook_ 由团队所有者或团队成员创建。 它们不是 Teams 应用的功能;包含此信息是为了实现完整性。
+传出 Webhook 由团队所有者或团队成员创建。 它们不是 Teams 应用的功能;包含此信息是为了实现完整性。
 
-### <a name="required-permissions"></a>所需权限
+### <a name="required-permissions-for-outgoing-webhooks"></a>传出 Webhook 所需的权限
 
 RECEIVE_MESSAGE，REPLYTO_MESSAGE。 可以接收来自用户的消息并回复他们。
 
-### <a name="optional-permissions"></a>可选权限
-
-无
-
-### <a name="considerations"></a>注意事项
+### <a name="considerations-for-outgoing-webhooks"></a>传出 Webhook 的注意事项
 
 * 传出 Webhook 类似于机器人，但特权较少。 必须像机器人一样显式提及它们。
 

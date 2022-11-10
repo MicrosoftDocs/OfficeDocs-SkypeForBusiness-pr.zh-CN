@@ -14,18 +14,18 @@ ms.localizationpriority: high
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dd47f8e46147e3b4d30052ff4a1b9fcde6c128e1
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: cb7e4a4487a5411386978fb91a70c485bfa0ddc6
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68377150"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912591"
 ---
 # <a name="resource-specific-consent-in-microsoft-teams"></a>Microsoft Teams 中的资源特定同意
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-Microsoft Teams 中的资源特定同意使团队所有者能够同意应用访问团队数据。 此类访问的示例包括读取频道消息、创建和删除频道以及创建和删除频道选项卡的功能。
+特定于资源的同意 (RSC) 是一种 Microsoft Teams 和 Microsoft 图形 API集成，使应用能够使用 API 终结点来管理组织内团队的特定资源。 RSC 权限使团队所有者能够向应用程序授予访问和修改团队数据的许可。 Microsoft Teams 中的资源特定同意使团队所有者能够同意应用访问团队数据。 此类访问的示例包括读取频道消息、创建和删除频道以及创建和删除频道选项卡的功能。
 
 作为管理员，你可以控制组织中的团队所有者是否可以通过你使用 Azure AD (Azure AD) PowerShell 模块或 Azure 门户和 Microsoft Teams 管理中心配置的设置来表示同意。  
 
@@ -40,7 +40,7 @@ Microsoft Teams 中的资源特定同意使团队所有者能够同意应用访�
 > [!IMPORTANT]
 > 更改上述任何设置不会影响已获得同意的应用的数据访问。 例如，如果配置这些设置来防止团队所有者表示同意，则这些更改不会删除已授予的数据访问权限。
 
-#### <a name="the-users-can-consent-to-apps-accessing-company-data-on-their-behalf-setting"></a>用户可以同意应用代表其设置访问公司数据
+#### <a name="the-users-can-consent-to-apps-accessing-company-data-on-their-behalf-setting"></a>用户可以同意应用代表其访问公司数据设置
 
 此设置控制组织中的用户是否可以同意应用代表其进行访问。 若要使团队所有者能够表示同意，必须将此设置设置为“**是**”。 若要管理此设置，请执行以下操作：
 
@@ -65,9 +65,9 @@ Microsoft Teams 中的资源特定同意使团队所有者能够同意应用访�
 此组织范围的应用设置控制组织中的用户是否可以使用第三方应用。 必须启用此设置，团队所有者才能表示同意。 若要管理此设置，请执行以下操作：
 
 1. 登录到 Teams 管理中心并访问 **Teams 应用** > **[管理应用](https://admin.teams.microsoft.com/policies/manage-apps)**。
-1. 选择 **组织范围的应用设置** ，在第 **三方应用** 下，关闭或打开 **“允许第三方应用**”。
+1. 选择 **“组织范围的应用设置** ”，然后在 **“第三方应用”** 下关闭或打开 **“允许第三方应用**”。
 
-   :::image type="content" source="media/resource-specific-consent-org-wide-setting.png" alt-text="显示 Teams 设置中允许的第三方应用的屏幕截图。":::
+   :::image type="content" source="media/resource-specific-consent-org-wide-setting.png" alt-text="显示“允许 Teams 中的第三方应用”设置的屏幕截图。":::
 
 更改可能需要长达 24 小时才能生效。
 
@@ -76,17 +76,17 @@ Microsoft Teams 中的资源特定同意使团队所有者能够同意应用访�
 在“[管理应用](manage-apps.md#allow-and-block-apps)”页面上阻止或允许应用时，将对组织中的所有用户阻止或允许该应用。 仅当允许应用时，团队所有者才能对应用表示同意。 若要在组织级别允许或阻止应用，请执行以下操作：
 
 1. 登录到 Teams 管理中心并访问 **Teams 应用** > **[管理应用](https://admin.teams.microsoft.com/policies/manage-apps)**。
-1. 在“管理应用”页上，选择应用，然后选择 **“阻止** ”以阻止它或选择 **“允许** ”以允许它。
+1. 在“管理应用”页上，选择应用，然后选择“ **阻止** ”以阻止该应用，或选择“ **允许** ”以允许该应用。
 
 #### <a name="app-permission-policy-assigned-to-the-team-owner"></a>分配给团队所有者的应用权限策略
 
 团队所有者只能对其应用权限策略允许运行的应用表示同意。 若要查看和管理分配给团队所有者的应用权限策略，请执行以下操作：
 
 1. 在 Microsoft Teams 管理中心的左侧导航中，转到“**用户**”。
-1. 双击团队所有者的显示名称，然后选择 **“策略**”。
+1. 双击团队所有者的显示名称，然后选择“ **策略**”。
 1. 分配给团队所有者的策略在“**应用权限策略**”下列出。
 
-    * 若要分配其他策略，请选择 **“编辑**”，然后选择要分配的策略。
+    * 若要分配其他策略，请选择“ **编辑**”，然后选择要分配的策略。
     * 若要编辑分配给团队所有者的策略设置，请选择策略名称，然后进行所需的更改。  
 
 ## <a name="upload-custom-apps"></a>上传自定义应用
@@ -95,7 +95,7 @@ Microsoft Teams 中的资源特定同意使团队所有者能够同意应用访�
 
 ## <a name="related-articles"></a>相关文章
 
-* [可用的 RSC 权限](/microsoftteams/platform/graph-api/rsc/resource-specific-consent)
+* [在 Microsoft Graph 中利用 Teams 数据的 RSC 权限](/microsoftteams/platform/graph-api/rsc/resource-specific-consent)
 * [Microsoft Graph](https://developer.microsoft.com/graph)
 * [在 Microsoft Teams 管理中心中管理应用](manage-apps.md)
 * [在 Teams 中管理应用权限策略](teams-app-permission-policies.md)

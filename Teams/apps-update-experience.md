@@ -18,14 +18,14 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 本文介绍如何更新 Microsoft Teams 中的 Microsoft 应用、自定义应用和第三方应用，以及管理员如何为其提供便利。
-ms.openlocfilehash: 0f5631abcd773f09c5a926bf3459d56e8f9f92bf
-ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
+ms.openlocfilehash: d419e1ed29c6a1cd7a7390bdc0d5eb69371d8547
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "68738608"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912791"
 ---
-# <a name="teams-app-updates-and-admin-role"></a>Teams 应用更新和管理员角色
+# <a name="role-of-an-admin-in-upgrading-teams-apps"></a>升级 Teams 应用时管理员的角色
 
 Teams 管理员可以帮助最终用户获取最新版本的应用。 为此，他们完成以下一项或两项任务：
 
@@ -53,9 +53,9 @@ Teams 管理员可以帮助最终用户获取最新版本的应用。 为此，�
 
 ## <a name="updates-to-custom-apps"></a>汇报自定义应用
 
-在组织中创建和部署的自定义应用可供租户或组织中的用户使用。 Teams 管理员将自定义应用更新为组织内开发人员提供的新版本。 有关详细信息，请参阅 [管理员如何管理自定义应用](custom-app-overview.md)。
+在组织中创建和部署的自定义应用可供租户或组织中的用户使用。 当组织的开发人员提供新版本时，Teams 管理员将自定义应用更新为其新版本。 有关详细信息，请参阅 [管理员如何管理自定义应用](custom-app-overview.md)。
 
-## <a name="related-article"></a>相关文章
+## <a name="related-articles"></a>相关文章
 
 * [了解应用中完成的更新的清单架构](/microsoftteams/platform/resources/schema/manifest-schema)。
 * [了解自定义应用管理](custom-app-overview.md)。

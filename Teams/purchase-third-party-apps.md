@@ -1,5 +1,5 @@
 ---
-title: 购买第三方 Teams 应用的许可证
+title: 购买第三方应用和管理订阅
 author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
@@ -10,21 +10,21 @@ audience: admin
 ms.date: 10/04/2022
 ms.collection:
 - M365-collaboration
-ms.reviewer: chhavib, vaibhava, nsuter
+ms.reviewer: chhavib, nsuter
 search.appverid: MET150
 f1keywords: ''
-description: 了解如何使用信用卡、借记卡或通过发票计费从 Teams 应用商店购买许可证第三方应用。
+description: 了解如何使用信用卡、借记卡或通过发票计费在 Teams 应用商店中购买付费应用许可证。
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 73f16f3b8bdb11971f4cd7602c4262250e9fe068
-ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
+ms.openlocfilehash: 82364d5659009e067a6884551266c6fabf93dc04
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "68738548"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912421"
 ---
-# <a name="purchase-licenses-for-third-party-teams-apps"></a>购买第三方 Teams 应用的许可证
+# <a name="purchase-third-party-teams-apps-and-manage-subscriptions"></a>购买第三方 Teams 应用和管理订阅
 
 某些 Teams 应用可能需要购买服务订阅才能体验应用的完整功能和范围。 这些服务订阅称为软件即服务 (SaaS) 套餐。 可以通过 [AppSource](https://appsource.microsoft.com/) 和 [Microsoft Teams 管理中心](https://admin.teams.microsoft.com)购买许可证。
 

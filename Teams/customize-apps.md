@@ -18,14 +18,14 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何更改应用的元数据和外观，以重新命名它，以便在组织中更好地采用应用。
-ms.openlocfilehash: f12e6ead6c0d031100bcf30783de980986a14563
-ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
+ms.openlocfilehash: 870ee97b874b2600abf136cd045d47e9fca934d3
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "68738728"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912651"
 ---
-# <a name="use-app-customization-to-update-branding-of-apps-in-your-organizations-teams-store"></a>使用应用自定义更新组织的 Teams 应用商店中应用的品牌打造
+# <a name="use-app-customization-to-update-branding-of-apps-in-your-org-store"></a>使用应用自定义更新组织商店中应用的品牌打造
 
 Microsoft Teams 管理员可以修改某些 Teams 应用的外观，以便为其组织的最终用户提供个性化的品牌体验。 此类修改可以增强最终用户的 Teams 应用商店体验，并帮助遵守组织的品牌。 例如，管理员可以修改应用的说明和图标。 通过自定义，最终用户可以轻松地将应用标识为内部工具、了解其组织特定的用例，并放心地使用它。 管理员通过更改应用的某些元数据或属性进行这些更新。 更改仅在其组织中可用。 此功能称为应用自定义。
 
@@ -154,7 +154,7 @@ Microsoft Teams 管理员可以修改某些 Teams 应用的外观，以便为其
 | --- | --- |
 | 我的更新对最终用户不可用。 | 等待几个小时，让更改传播。 |
 | 我无法自定义应用。 | 交叉检查 [应用是否可自定义](#verify-if-an-app-is-customizable)。|
-| 我开始自定义应用，但无法保存或应用我的更改。 | 遵守字段的限制。 在 UI 上查找错误以及 [应用自定义的限制](#considerations-and-limitations-of-app-customization) |
+| 我开始自定义应用，但无法保存或应用我的更改。 | 遵守字段的限制。 在 UI 上查找错误以及 [应用自定义的限制](#considerations-and-limitations-of-app-customization)。 |
 | 管理应用页面未正确加载。 不显示应用列表。 | 使用中的管理员帐户必须分配有 Teams 许可证。 |
 
 <!--- Check ICM for error string. --->

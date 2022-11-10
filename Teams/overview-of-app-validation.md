@@ -18,14 +18,14 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: eeb0c49dcf560b858b8723f813cc86b6b51c1daa
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: 97da6b39ab6e6d9208c883ae60f0be08432e5222
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68377550"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912631"
 ---
-# <a name="testing-and-validation-done-by-microsoft-for-all-teams-apps"></a>Microsoft 针对所有 Teams 应用执行的测试和验证
+# <a name="know-about-the-testing-and-validation-done-by-microsoft-for-all-apps"></a>了解 Microsoft 对所有应用的测试和验证
 
 Microsoft 要求所有应用在应用商店中上架以供最终使用之前通过强制的验证。 它适用于 Teams 应用商店上发布的所有应用（自定义应用除外）。 此外，Microsoft 强烈建议应用开发人员参与应用的可选认证，以指示增强的合规性、安全、隐私控制。
 
@@ -42,7 +42,7 @@ Microsoft 要求所有应用在应用商店中上架以供最终使用之前通�
 
 * 确保应用请求的 Graph 权限确实是应用功能需要的权限，而不是任何额外权限。 定期检查现有应用的图形权限，以确保应用无需额外权限。
 * 要求用户登录的应用具有注销选项。
-* 所有应用的开发人员都会在 Microsoft 合作伙伴中心进行详细的验证过程。 验证包括电子邮件验证、业务验证等。 若要详细了解应用发布，请参阅[开发人员如何创建合作伙伴中心帐户](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/create-partner-center-dev-account)、[面向开发人员的提交指南](/office/dev/store/add-in-submission-guide)、[开发人员如何发布应用](https://aka.ms/PublishToTeamsStore)。
+* 所有应用的开发人员都在 Microsoft 合作伙伴中心进行详细的验证过程。 验证包括电子邮件验证、业务验证等。 若要详细了解应用发布，请参阅[开发人员如何创建合作伙伴中心帐户](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/create-partner-center-dev-account)、[面向开发人员的提交指南](/office/dev/store/add-in-submission-guide)、[开发人员如何发布应用](https://aka.ms/PublishToTeamsStore)。
 * 只有来自经过验证的开发人员的应用才能向最终用户寻求 Graph 权限。
 * 没有应用可以下载可执行文件。
 * 测试应用是否不包含广告、其他应用的促销。

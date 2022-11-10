@@ -18,17 +18,16 @@ f1.keywords:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 了解如何将自定义应用上传到组织的 Teams 应用商店。
-ms.openlocfilehash: 8886c2c0904e7ca9c9e0de1e5641b8587ffe50bf
-ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
+ms.openlocfilehash: c1a664390676f2df68c06c75dee57db3d3c7582c
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "68738578"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912441"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>通过上载应用包来发布自定义应用
 
-> [!NOTE]
-> 发布自定义 Teams 应用时，组织应用商店中的用户可以使用它。 发布自定义应用有两种方法，使用的方式取决于获取应用的方式。 **本文重点介绍如何通过上传开发人员发送给你的应用包（采用.zip格式）来发布自定义应用**。 当开发人员通过 Teams 应用提交 API 将应用直接提交到 [“管理应用](manage-apps.md) ”页面时，将使用另一种方法批准自定义应用。 若要了解有关该方法的详细信息，请参阅 [发布通过 Teams 应用提交 API 提交的自定义应用](submit-approve-custom-apps.md)。
+发布自定义 Teams 应用时，组织应用商店中的用户可以使用它。 发布自定义应用有两种方法，使用的方式取决于获取应用的方式。 本文重点介绍如何通过上传开发人员发送给你的应用包（采用.zip格式）来发布自定义应用。 当开发人员通过 Teams 应用提交 API 将应用直接提交到 [“管理应用](manage-apps.md) ”页面时，将使用另一种方法批准自定义应用。 若要了解有关该方法的详细信息，请参阅 [发布通过 Teams 应用提交 API 提交的自定义应用](submit-approve-custom-apps.md)。
 
 本文提供有关如何将 Teams 应用从开发到部署到发现的过程的端到端指导。 本指南重点介绍应用的 Teams 方面，适用于管理员和 IT 专业人员。 有关开发 Teams 应用的详细信息，请参阅 [Teams 开发人员文档](/microsoftteams/platform/)。
 

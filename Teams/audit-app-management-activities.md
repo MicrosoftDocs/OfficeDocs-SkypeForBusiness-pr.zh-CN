@@ -16,14 +16,14 @@ description: 了解如何审核组织中用户和管理员的 Teams 应用活动
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 7abaed00f8bb02daa63d30cd5092e007f8d5a8f5
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: 0fd3feb73705a95e0729cb1819d9f355ce3ef711
+ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68377530"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "68912781"
 ---
-# <a name="audit-for-app-management-activities-and-events"></a>审核应用管理活动和事件
+# <a name="audit-logs-of-app-management-activities-and-events"></a>审核应用管理活动和事件的日志
 
 Microsoft 365 中的 Microsoft Purview 审核（标准版），可以搜索最终用户和管理员在各种 Microsoft 365 服务中执行的活动审核记录。
 
@@ -72,7 +72,7 @@ Teams 中应用事件的审核日志可帮助你调查特定操作。 虽然你�
 > 当用户或管理员执行上述活动之一时，Teams 会生成并存储审核记录。 在审核（标准版）中，记录将保留 90 天，这意味着可以搜索过去三个月内发生的活动。
 
 > [!TIP]
-> 作为管理员，如果要创建每用户报表来了解用户是否已阻止或静音机器人，请参阅 [了解阻止、静音或卸载机器人的人员](/microsoftteams/platform/bots/how-to/conversations/send-proactive-messages?#understand-who-blocked-muted-or-uninstalled-a-bot)。
+> 作为管理员，如果要创建每用户报告，以了解用户是否已阻止或静音机器人，请参阅 [了解谁阻止、静音或卸载了机器人](/microsoftteams/platform/bots/how-to/conversations/send-proactive-messages?#understand-who-blocked-muted-or-uninstalled-a-bot)。
 
 ## <a name="related-articles"></a>相关文章
 
