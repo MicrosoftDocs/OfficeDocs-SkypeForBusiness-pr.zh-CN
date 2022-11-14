@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 707360ec39e82c86732433e42752cedbdb649119
-ms.sourcegitcommit: 17f4baf85e1ac6a2af5f5c6ea2d5aae763efd917
+ms.openlocfilehash: 1bd04b590a789756d0b41153b886be8ba6d777e7
+ms.sourcegitcommit: 2d1bb69e0d6bc35be0b57c7c5d87f58ab013dafb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "67405124"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "68928502"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Microsoft Teams 的硬件要求
 
@@ -44,7 +44,7 @@ ms.locfileid: "67405124"
 |.NET 版本    |  需要 .NET 4.5 CLR 或更高版本       |
 |视频    |  USB 2.0 视频摄像头       |
 |设备    |   标准笔记本电脑摄像头、麦克风和扬声器    |
-|视频通话和会议|<ul><li>需要双核处理器。 对于更高的视频/屏幕共享分辨率和帧速率，建议使用四核或更好的处理器。</li> <li>背景视频效果需要 Windows 10 或具有 AVX2 说明集的处理器。</li> <li>请参阅[硬件解码器和编码器驱动程序建议](hardware-decoders-and-encoders.md)，查看不受支持的解码器和编码器的列表。</li><li>在 Microsoft Teams 会议室中使用邻近度检测加入会议需要蓝牙 LE。 Windows 上的蓝牙 LE 要求在客户端设备上启用蓝牙，并且需要 64 位版本的 Teams 客户端。 此功能在 32 位 Teams 客户端上不可用。</li></ul> |
+|视频通话和会议|<ul><li>需要双核处理器。 对于更高的视频/屏幕共享分辨率和帧速率，建议使用四核或更好的处理器。</li> <li>背景视频效果需要 Windows 10 或具有 AVX2 说明集的处理器。</li> <li>请参阅[硬件解码器和编码器驱动程序建议](hardware-decoders-and-encoders.md)，查看不受支持的解码器和编码器的列表。</li><li>在 Microsoft Teams 会议室中使用邻近感应检测加入会议需要蓝牙 LE。 Windows 上的蓝牙 LE 需要在客户端设备上启用蓝牙，并且需要 64 位版本的 Teams 客户端。 此功能在 32 位 Teams 客户端上不可用。</li></ul> |
 |Teams 实时事件 | 如果要生成 Teams 实时事件，建议使用搭载 Core i5 Kaby Lake 处理器、4.0 GB RAM（或更高）和硬件编码器的计算机。 请参阅 [硬件解码器和编码器驱动程序建议](hardware-decoders-and-encoders.md)，查看 **不受支持** 的解码器和编码器的列表。 |
 
 ## <a name="hardware-requirements-for-teams-on-a-mac"></a>Teams 在 Mac 上的硬件要求
@@ -58,10 +58,13 @@ ms.locfileid: "67405124"
 |操作系统  |    MacOS 的三个最新版本之一。 可在此处查看有关最新 macOS 版本以及如何升级 macOS 版本的信息， [查看](https://support.apple.com/en-us/HT201260)。 例如，在发布新版本的 macOS 时，新版本和紧接其前两个版本将成为受支持的版本。      |
 |视频  |    兼容的网络摄像机     |
 |语音    |  兼容的麦克风和扬声器、带麦克风的耳机或等效设备       |
-|视频通话和会议 | <ul><li>需要双核处理器。 对于更高的视频/屏幕共享分辨率和帧速率，建议使用四核或更好的处理器。 </li><li>在 Microsoft Teams 会议室中使用邻近度检测加入会议需要蓝牙 LE。 蓝牙 LE 要求在客户端设备上启用蓝牙。</li></ul>
+|视频通话和会议 | <ul><li>需要双核处理器。 对于更高的视频/屏幕共享分辨率和帧速率，建议使用四核或更好的处理器。 </li><li>在 Microsoft Teams 会议室中使用邻近感应检测加入会议需要蓝牙 LE。 蓝牙 LE 要求在客户端设备上启用蓝牙。</li></ul>
 |
 
 ## <a name="hardware-requirements-for-teams-on-linux"></a>Teams 在 Linux 上的硬件要求
+
+> [!NOTE]
+> Linux 上的 Teams 桌面将于 2022 年 12 月停用。
 
 | 组件 | 要求 |
 |---------|---------|
