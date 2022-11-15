@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 了解如何在 Microsoft Teams 中使用和管理私人频道。
-ms.openlocfilehash: 2f6dd23c5f15d2c96a1a5bb7cec6f4b9107f436c
-ms.sourcegitcommit: 41a75f1ba5ceb09f8db7d468aa41b63a89ab9c30
+ms.openlocfilehash: f5513b5b86e77a49978e1dcd1cd09f6e12bff70a
+ms.sourcegitcommit: 2d1bb69e0d6bc35be0b57c7c5d87f58ab013dafb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "67647446"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "68962947"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft Teams 中的私人频道
 
@@ -34,9 +34,9 @@ Microsoft Teams 中的私人频道创建专用空间供团队展开协作。 仅
 例如，在以下情景中，私人频道非常有用：
 
 - 团队中的一组人员希望有一个专用空间来展开协作，而不必创建单独的团队。
-- 团队中的一部分人员希望有一个专用渠道来讨论敏感信息，如预算、资源、战略定位等。
+- 团队中的一部分人希望私人频道讨论敏感信息，例如预算、资源、战略定位等。
 
-锁定图标表示私人频道。只有私人频道的成员才能查看和参与他们添加到的私人频道。
+A lock icon indicates a private channel. Only members of private channels can see and participate in private channels that they are added to.
 
 创建私人频道后，它将链接到父团队，并且无法移动到其他团队。 此外，不能将私人频道转换为标准频道，反之亦然。
 
@@ -94,7 +94,7 @@ Microsoft Teams 中的私人频道创建专用空间供团队展开协作。 仅
 
 专用频道网站同步数据分类，并继承父团队网站的来宾访问权限。 网站集所有者和成员组的成员资格将与 Teams 中私人频道的成员资格保持同步。 无法通过 SharePoint 独立管理专用频道网站的网站权限。 
 
-Teams 管理专用频道网站的生命周期。如果网站在 Teams 外部删除，则后台作业会在 4 小时内还原网站，前提是专用频道仍处于活动状态。
+Teams manages the lifecycle of the private channel site. If the site is deleted outside of Teams, a background job restores the site within four hours as long as the private channel is still active.
 
 如果还原了含有专用频道的专用频道或团队，网站将随其一起还原。 如果已还原私人频道网站集，并且超出了私人频道的 30 天软删除时间段，则该网站集将作为独立网站集运行。
 
@@ -130,8 +130,6 @@ Teams 管理专用频道网站的生命周期。如果网站在 Teams 外部删�
 错过的活动电子邮件中不包含来自专用频道的通知。
 
 无法安排频道会议。
-
-无法使用会议标题自定义频道会议。
 
 ## <a name="related-topics"></a>相关主题
 
