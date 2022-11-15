@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 541ea844422dcd6620035508e62d6473f0c78b29
-ms.sourcegitcommit: 73b13cd8a79ba1724b9fb79c8356a7cacafb7dd3
+ms.openlocfilehash: 2a753e572cc9427a4b128379b52562437f739bea
+ms.sourcegitcommit: 0760416ee0bead3ada93f4d37f8aebc74222bd3c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 11/15/2022
-ms.locfileid: "68965028"
+ms.locfileid: "69019398"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 与 Microsoft Teams 如何交互
 
@@ -135,7 +135,7 @@ Microsoft Teams 可与许多 Microsoft 365 和 Office 365 服务协同工作，�
 - 对于状态，Microsoft Teams 必须检查邮箱是托管在 Exchange Online 上还是本地。 然后，该服务会决定在何处访问邮箱。 若要使 Teams 服务能够对 Exchange Online 服务进行 REST API 调用来检查邮箱位置，必须运行 Exchange 混合配置向导来部署 Exchange 混合环境，如[使用混合配置向导创建混合部署](/exchange/hybrid-deployment/deploy-hybrid)中所述。
 
 >[!Important]
->**GCC-H 客户：** GCC-High环境不支持 *委派 Teams 会议安排* 。 
+>**GCC-H 客户：** 当用户的邮箱托管在本地Exchange Server时，GCC-High环境不支持 *委派的 Teams 会议安排*。
 
 ## <a name="troubleshooting"></a>疑难解答
 

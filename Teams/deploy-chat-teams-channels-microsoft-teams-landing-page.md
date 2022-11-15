@@ -23,12 +23,12 @@ appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
 - seo-marvel-may2020
-ms.openlocfilehash: 04863f6dd914b935b68120fd5c2df6105770c634
-ms.sourcegitcommit: 50ae550b738424b35df1636590831e6c124ca0c1
+ms.openlocfilehash: 380b761b90f49549ad6605ee7ca069269a796ea9
+ms.sourcegitcommit: 0760416ee0bead3ada93f4d37f8aebc74222bd3c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/14/2022
-ms.locfileid: "68576448"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "69019388"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams 中的聊天、团队、频道和应用
 
@@ -38,12 +38,12 @@ Teams provides a great out-of-the-box collaboration experience for your organiza
 
 <br/>
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE476Yj]
+> [!VIDEO <https://www.microsoft.com/videoplayer/embed/RE476Yj>]
 
 You can use [Advisor for Teams](use-advisor-teams-roll-out.md) to help you roll out Microsoft Teams. Advisor for Teams walks you through your Teams rollout. It assesses your Microsoft 365 environment and identifies the most common configurations that you may need to update or modify before you can successfully roll out Teams.
 
 > [!TIP]
-> 我们建议你在 Teams 的初步部署中加入特别推荐的应用 - 例如 Planner。 在推动 Teams 采用时添加其他 [Teams 应用](deploy-apps-microsoft-teams-landing-page.md) 。
+> 我们建议你在 Teams 的初步部署中加入特别推荐的应用 - 例如 Planner。 在推动 [Teams](deploy-apps-microsoft-teams-landing-page.md) 采用时添加其他 Teams 应用。
 
  > [!Note]
  > 有关不同平台上 Teams 功能的详细信息，请参阅 [Teams 功能（按平台）](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
@@ -77,12 +77,12 @@ In addition to administrator roles, Teams lets you assign owner and member user 
 |询问你自己|操作 |
 |------------|-------|
 |应该为每个角色分配哪些人员？ | 若要比较每个角色的功能，请参阅[在 Microsoft Teams 中分配团队所有者、审阅人和成员](assign-roles-permissions.md)。
-|如何分配用户角色？ | 若要分配或更改角色，请参阅[分配用户角色](assign-roles-permissions.md#assign-a-user-role)。
+|如何分配用户角色？ | 若要分配或更改角色，请参阅[分配用户角色](assign-roles-permissions.md)。
 |我是否需要控制谁可以在频道中发布和答复？ | 若要配置审核，请参阅[在 Microsoft Teams 中设置和管理频道审核](manage-channel-moderation-in-teams.md)。
 
 ### <a name="messaging-policies"></a>消息策略
 
-Messaging policies control which chat and channel messaging features are available to users in Teams. For example, who can edit and delete sent messages, who can use chat, who can use memes in conversations, and more. By default, users are assigned the global messaging policy and all features are **On**. You can use the default global policy or create one or more custom messaging policies for people in your organization. 
+Messaging policies control which chat and channel messaging features are available to users in Teams. For example, who can edit and delete sent messages, who can use chat, who can use memes in conversations, and more. By default, users are assigned the global messaging policy and all features are **On**. You can use the default global policy or create one or more custom messaging policies for people in your organization.
 
 |询问你自己|操作 |
 |------------|-------|
@@ -104,7 +104,6 @@ Guest access in Teams lets individuals outside your organization access teams an
 
 > [!NOTE]
 > 有关外部访问和来宾访问的详细信息，请参阅此处 - [与 Microsoft Teams 中其他组织的用户通信](communicate-with-users-from-other-organizations.md)
-
 
 |询问你自己|操作 |
 |------------|-------|
@@ -153,9 +152,9 @@ The Global Admin, Teams Service Admin, and Reports Readers roles can view Teams 
 |------------|-------|
 |<br> 谁需要查看 Teams 使用情况报告，他们是否有查看这些报告的正确角色？ |<ul><li>如果用户不是管理员，请[分配报告阅读者角色](teams-activity-reports.md#reports-reader-role)。</li><li>请参阅[角色和权限](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)以及[查看和分配角色](/azure/active-directory/users-groups-roles/directory-manage-roles-portal)，了解如何在 Azure Active Directory 中分配管理员角色。|
 
-### <a name="teams-default-apps"></a>Teams 默认应用 
+### <a name="teams-default-apps"></a>Teams 默认应用
 
-Teams provides a number of first-party (Microsoft provided) and third-party apps to engage users, support productivity, and integrate commonly used business services into Teams. Get apps from the Teams Store. Apps are turned on by default in Teams. 
+Teams provides a number of first-party (Microsoft provided) and third-party apps to engage users, support productivity, and integrate commonly used business services into Teams. Get apps from the Teams Store. Apps are turned on by default in Teams.
 
 若要详细了解如何在 Teams 中推出和管理应用，请参阅我们的深入 [应用管理](deploy-apps-microsoft-teams-landing-page.md) 指南。
 
@@ -179,7 +178,7 @@ For the full Teams experience, every user should be enabled for Exchange, ShareP
 |------------|-------|
 | 是否能随当前 Exchange 和 SharePoint 部署一起部署所需的 Teams 功能？ |有关 Teams 中的 Exchange 和 SharePoint 的详细信息，请参阅：<ul><li> [Exchange 与 Teams 如何交互](exchange-teams-interact.md)</li><li>[ SharePoint Online 和 OneDrive 如何与 Teams 交互](sharepoint-onedrive-interact.md)|
 
-### <a name="teams-limits-and-specifications"></a>Teams 限制和规范 
+### <a name="teams-limits-and-specifications"></a>Teams 限制和规范
 
 规划 Teams 的企业部署时，你应考虑任何相关的限制和规范，例如团队中的最大成员数、用户可创建的最大团队数，诸如此类。
 
@@ -199,7 +198,6 @@ Organizations that maintain fine-grained control of their internet traffic shoul
 
 Your organization might require that you implement controls on how teams are named and classified, who can create teams, and team expiration, retention, and archiving. This is called governance. You can use Azure Active Directory (Azure AD) to configure each of these areas.
 
-
 | 询问你自己 | 操作 |
 |--------------|--------|
 |是否需要对谁可以创建团队进行控制？| 请阅读[在 Teams 中规划管理](plan-teams-governance.md)。|
@@ -214,7 +212,7 @@ A pinned app shows up in the side rail in Teams. By creating Teams application p
 |是否应该创建一组预先配置的固定 Teams 应用程序？ | 请阅读 [Teams 中应用的管理员设置](admin-settings.md)。|
 |如何决定哪些组接收这些应用分组？|请阅读[团队应用权限和注意事项](app-permissions.md)。|
 
-### <a name="archiving-and-compliance"></a>存档与合规性 
+### <a name="archiving-and-compliance"></a>存档与合规性
 
 Your organization might require that you implement controls on how teams are archived and the types of data that are held in certain types of teams. Read [Overview of security and compliance in Teams](security-compliance-overview.md) to learn which Teams settings are turned on by default.
 
@@ -224,7 +222,7 @@ Your organization might require that you implement controls on how teams are arc
 |是否需要配置团队存档？|若要存档或还原团队，请参阅[存档或还原团队](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7)。|
 |是否需要配置其他合规性设置？|有关安全性和合规性的详细信息，请参阅 [Teams 中的安全性和合规性概述](security-compliance-overview.md)。|
 
-### <a name="conditional-access"></a>条件访问 
+### <a name="conditional-access"></a>条件访问
 
 Teams relies heavily on Exchange and SharePoint for core productivity scenarios, including meetings, calendars, interop chats, and file sharing. Conditional access policies that are set for these cloud apps apply to Teams when a user signs in directly to Teams, on any client. Conditional access policies that are set for the Teams cloud app control aspects such as whether users can access Teams services from certain networks.
 
@@ -232,7 +230,7 @@ Teams relies heavily on Exchange and SharePoint for core productivity scenarios,
 |--------------|--------|
 |<br>是否需要为 Teams 配置条件访问？|<ul><li>若要了解访问策略的工作方式，请参阅[条件访问策略如何在 Teams 中发挥作用？](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)</li><li>若要为 Teams 设置多重身份验证 (MFA)，请参阅：<ul><li>[快速入门：具有 Azure Active Directory 条件访问权限的特定应用需要 MFA](/azure/active-directory/conditional-access/app-based-mfa)</li><li>[Azure Active Directory 条件访问设置参考](/azure/active-directory/conditional-access/technical-reference)</li></ul></ul>|
 
-### <a name="education-edu"></a>教育版 (EDU) 
+### <a name="education-edu"></a>教育版 (EDU)
 
 在教育行业工作的 IT 专业人员可以利用 Teams 教育版，该版本提供的许多功能经过定制，可满足学生、教职员工和更广泛行业特定于教育的方案需求。
 
@@ -251,7 +249,8 @@ Teams relies heavily on Exchange and SharePoint for core productivity scenarios,
 | 是否要在 Office 365 政府版 – GCC 环境中部署 Teams？ | 有关部署注意事项，请参阅[规划 Office 365 政府版 - GCC 部署](plan-for-government-gcc.md)。|
 
 ## <a name="next-steps"></a>后续步骤
+
 - [推动采用](adopt-microsoft-teams-landing-page.md)聊天、团队、频道和应用。
-- 在 Teams 的初步部署中加入特别推荐的应用 - 例如 Planner。 在推动 Teams 采用时添加其他 [Teams 应用](deploy-apps-microsoft-teams-landing-page.md) 。
+- 在 Teams 的初步部署中加入特别推荐的应用 - 例如 Planner。 在推动 [Teams](deploy-apps-microsoft-teams-landing-page.md) 采用时添加其他 Teams 应用。
 - [部署会议](deploy-meetings-microsoft-teams-landing-page.md)
 - [部署云语音](cloud-voice-landing-page.md)
