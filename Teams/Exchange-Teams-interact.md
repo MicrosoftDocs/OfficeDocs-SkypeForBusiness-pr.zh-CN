@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e52524c3113d7b2d776c355784772a8a059b221f
-ms.sourcegitcommit: fc87f4300f53abf7a049936944abb21d0cade0d9
+ms.openlocfilehash: 541ea844422dcd6620035508e62d6473f0c78b29
+ms.sourcegitcommit: 73b13cd8a79ba1724b9fb79c8356a7cacafb7dd3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2022
-ms.locfileid: "68480682"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "68965028"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 与 Microsoft Teams 如何交互
 
@@ -59,19 +59,19 @@ Exchange Online 或 Exchange Dedicated vNext 上托管的用户可以使用 Team
 
 <sup>4</sup> 具有本地 Exchange 邮箱的 Teams 用户可以在 Teams 中使用语音邮件，并在 Outlook 中接收语音邮件，但是无法在 Teams 客户端中查看或播放语音邮件。
 
-<sup>5</sup> 如果团队的所有者之一可以添加连接器，则该团队中的其他人将能够这样做，无论其邮箱是本地还是联机。
+<sup>5</sup> 如果团队的一个所有者可以添加连接器，该团队中的其他人将能够添加连接器，而不管其邮箱是本地还是联机。
 
 <sup>6</sup> 仅默认联系人文件夹中的联系人。 不支持访问其他联系人文件夹或子文件夹。
 
-<sup>7</sup> Teams 将遵循租户管理员配置的 [Outlook 网页版邮箱策略](/powershell/module/exchange/client-access/set-owamailboxpolicy)设置来控制用户是否可以更改个人资料图片。 如果策略中关闭 **-SetPhotoEnabled** 设置，则用户无法添加、更改或删除其个人资料图片，因此，如果管理员更改了照片，个人资料图片将不会同步到团队。
+<sup>7</sup> Teams 将遵循租户管理员配置的 [Outlook 网页版邮箱策略](/powershell/module/exchange/client-access/set-owamailboxpolicy)设置来控制用户是否可以更改个人资料图片。 如果在策略中关闭 **了 -SetPhotoEnabled** 设置，则用户无法添加、更改或删除其个人资料图片，因此，如果管理员更改照片，个人资料图片将不会同步到团队。
 
 <sup>8</sup> 需要满足[为本地托管的邮箱创建和查看会议的要求](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises)部分中列出的要求。
 
-<sup>9</sup> 还需要至少Exchange Online计划 1 许可证。 有关详细信息，请参阅 [搜索适用于本地用户的 Teams 聊天数据](/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users)。
+<sup>9</sup> 还需要至少Exchange Online计划 1 许可证。 有关详细信息，请参阅 [搜索本地用户的 Teams 聊天数据](/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users)。
 
-<sup>10</sup> 个本地用户可以使用 Teams 更新其个人资料图片，即使 `SetPhotoEnabled` Outlook 网页版邮箱策略设置为 `false`。
+<sup>10</sup> 即使 Outlook 网页版邮箱策略设置为 `false`，本地用户也可以使用 Teams 更新其个人资料图片`SetPhotoEnabled`。
  > [!NOTE]
- > 对于邮箱托管在本地的用户，当前不支持通过 Teams 客户端设置 Office (OOF) ;这些用户应通过 Outlook 客户端执行此操作。
+ > 对于在本地托管邮箱的用户，当前不支持通过 Teams 客户端设置 Office (OOF) ;这些用户应通过 Outlook 客户端执行此操作。
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>充分利用 Microsoft Teams 的要求
 
 Microsoft Teams 可与许多 Microsoft 365 和 Office 365 服务协同工作，为用户提供丰富的体验。 若要支持此体验，需启用某些功能或服务并分配许可证。
@@ -90,7 +90,7 @@ Microsoft Teams 可与许多 Microsoft 365 和 Office 365 服务协同工作，�
 ## <a name="requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises"></a>为本地托管的邮箱创建和查看会议的要求
 
   > [!NOTE]
-  > 目前仅在商业、GCC 和 GCC High 环境中支持为本地托管的邮箱创建和查看会议。
+  > 仅为 **本地托管的邮箱创建和查看会议** 功能仅在商业环境、GCC 和 GCC 高级环境中受支持。
 
 如果邮箱在本地托管，若要创建和查看会议，必须满足以下要求：
 
@@ -100,7 +100,7 @@ Microsoft Teams 可与许多 Microsoft 365 和 Office 365 服务协同工作，�
 
 - 邮箱托管在 Exchange Server 2016 累积更新 3 或更高版本中。
 
-- 自动发现和 Exchange Web 服务在外部发布。 有关哪些 Microsoft 365 服务需要访问本地自动发现和 Exchange Web 服务终结点的信息，请参阅[Office 365 IP 地址和 URL Web 服务中未包含的其他终结点](/microsoft-365/enterprise/additional-office365-ip-addresses-and-urls)。
+- 自动发现和 Exchange Web 服务在外部发布。 有关哪些 Microsoft 365 服务需要访问本地自动发现和 Exchange Web 服务终结点的信息，请参阅[未包含在 Office 365 IP 地址和 URL Web 服务中的其他终结点](/microsoft-365/enterprise/additional-office365-ip-addresses-and-urls)。
 
 - OAuth 身份验证最好通过运行完整混合配置（经典或新式）的 Exchange 混合配置向导进行配置。 如果无法使用混合配置向导，请按[配置 Exchange 和 Exchange Online 组织之间的 OAuth 身份验证](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)所述配置 OAuth。
 
@@ -113,12 +113,12 @@ Microsoft Teams 可与许多 Microsoft 365 和 Office 365 服务协同工作，�
 
 若要为这些用户启用日历委派，请执行以下操作：
 
-- 还必须完成在 [Skype for Business Online 和 Exchange Server 之间配置集成和 OAuth](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises) 中所述的步骤;这些步骤将为 Teams 计划应用程序提供确认委托权限所需的权限。
+- 还必须按照[在 Skype for Business Online 和 Exchange Server 之间配置集成和 OAuth](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises) 中所述完成步骤;这些步骤将为 Teams 计划应用程序提供确认委托权限所需的权限。
  
   > [!NOTE]
   > 步骤 2 包括 ArchiveApplication 的角色分配，这不是委派所必需的。
 
-- 代表其他人安排会议时，Outlook 的 Teams 计划加载项需要 Exchange 2013 CU19 或更高版本。 这是为了支持我们的服务对邮箱进行未经身份验证的发现，以检查代理人对委托人邮箱的权限。 代理人和委托人位置可以是 Exchange 2013 或更高版本，或者是 Exchange Online，但自动发现必须解析为 Exchange 2013 CU19 或更高版本。
+- 代表其他人安排会议时，Outlook 的 Teams 日程安排加载项需要 Exchange 2013 CU19 或更高版本。 这是为了支持我们的服务对邮箱进行未经身份验证的发现，以检查代理人对委托人邮箱的权限。 代理人和委托人位置可以是 Exchange 2013 或更高版本，或者是 Exchange Online，但自动发现必须解析为 Exchange 2013 CU19 或更高版本。
 
 ## <a name="additional-considerations"></a>其他注意事项
 
@@ -128,11 +128,14 @@ Microsoft Teams 可与许多 Microsoft 365 和 Office 365 服务协同工作，�
 
 - 使用条件访问控制和保护 Teams 和 Exchange 中合规性策略的配置。 有关详细信息，请参阅[条件访问策略如何在 Teams 中发挥作用？](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)
 
-- 如果你的组织具有合规性要求以确保可以发现所有会议讨论，则在组织者具有 Exchange 本地邮箱的情况下，应禁用私人会议。 有关详细信息，请参阅 [私人会议日程安排](./meeting-policies-in-teams-general.md#private-meeting-scheduling)。
+- 如果你的组织具有合规性要求以确保可以发现所有会议讨论，则在组织者具有 Exchange 本地邮箱的情况下，应禁用私人会议。 有关详细信息，请参阅 [私人会议安排](./meeting-policies-in-teams-general.md#private-meeting-scheduling)。
 
-- 在 Exchange 混合部署中，无论聊天参与者是基于云的邮箱还是本地邮箱，都可以搜索聊天消息中的内容。 若要了解详细信息，请参阅[搜索本地用户基于云的邮箱](/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users)。 若要了解如何在 Teams 中搜索内容，请[阅读Microsoft Purview 合规门户中的内容搜索](/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups)。
+- 在 Exchange 混合部署中，无论聊天参与者是基于云的邮箱还是本地邮箱，都可以搜索聊天消息中的内容。 若要了解详细信息，请参阅[搜索本地用户基于云的邮箱](/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users)。 若要了解如何在 Teams 中搜索内容，请阅读[Microsoft Purview 合规门户中的内容搜索](/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups)。
 
 - 对于状态，Microsoft Teams 必须检查邮箱是托管在 Exchange Online 上还是本地。 然后，该服务会决定在何处访问邮箱。 若要使 Teams 服务能够对 Exchange Online 服务进行 REST API 调用来检查邮箱位置，必须运行 Exchange 混合配置向导来部署 Exchange 混合环境，如[使用混合配置向导创建混合部署](/exchange/hybrid-deployment/deploy-hybrid)中所述。
+
+>[!Important]
+>**GCC-H 客户：** GCC-High环境不支持 *委派 Teams 会议安排* 。 
 
 ## <a name="troubleshooting"></a>疑难解答
 
