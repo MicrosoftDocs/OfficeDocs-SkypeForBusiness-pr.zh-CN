@@ -20,12 +20,12 @@ description: 在 Teams 中部署云语音功能的实用指南，用于记录 Te
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b82e73e2e5bb470df4511027d13b2df5f1f715f8
-ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
+ms.openlocfilehash: 281a8997e3020b229ce8b34919177c1f6f2318c9
+ms.sourcegitcommit: 73b13cd8a79ba1724b9fb79c8356a7cacafb7dd3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2022
-ms.locfileid: "68584883"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "68965744"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 云会议录制
 
@@ -109,6 +109,8 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $true
 | 我希望关闭大多数用户的录制功能，但有选择地启用允许录制的特定用户。 | <ol><li>确认全局 CsTeamsMeetingPolicy 中 AllowCloudRecording = False。<li>为大多数用户授予了全局 CsTeamsMeetingPolicy 或授予了 AllowCloudRecording = False 的 CsTeamsMeetingPolicy 策略之一。<li>为所有其他用户授予了 AllowCloudRecording = True 的 CsTeamsMeetingPolicy 策略之一。 <ol> |
 
 <a name="bd-channel"></a>
+> [!NOTE]
+> 如果启用了基于 Teams 策略的合规性录制的外部租户中的 Teams 用户加入租户上的会议或通话，则无论在租户上打开或关闭基于云的录制，该会议/通话将由另一个租户录制，以符合合规性。 如果用户不应从另一租户捕获录制内容，建议租户中属于会议一部分的演示者将用户从会议中删除。 有关 Teams 上基于策略的合规性录制的详细信息，请参阅用于 [通话&会议的基于 Teams 策略的录制简介](teams-recording-policy.md)。
 
 ### <a name="block-or-allow-download-of-channel-meeting-recordings"></a>阻止或允许下载频道会议录制内容
 
@@ -278,7 +280,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 对于非频道会议，录制内容存储在录制者的 OneDrive 中，因此员工离职后所有权和保留的处理将遵循常规的 [OneDrive 和 SharePoint 流程](/onedrive/retention-and-deletion#the-onedrive-deletion-process)。
 
-会议录制的默认过期时间为 120 天。 可以关闭会议自动过期设置或更改默认过期时间。 了解有关 [会议录制自动过期的](meetings-policies-recording-and-transcription.md#meetings-automatically-expire)详细信息。
+会议录制的默认过期时间为 120 天。 可以关闭“会议自动过期”设置或更改默认过期时间。 详细了解 [会议录制自动过期](meetings-policies-recording-and-transcription.md#meetings-automatically-expire)。
 
 ## <a name="closed-captions-for-recordings"></a>录制内容的隐藏式字幕
 
@@ -340,7 +342,7 @@ Captions help create inclusive content for viewers of all abilities. As an owner
    > [!div class="nextstepaction"]
    > [运行测试: 缺少会议录制](https://aka.ms/MissingRecordingDiag)
 
-2. 在“运行诊断”窗格中，在会议 URL 中输入会议 **的 URL，该 URL 记录** 字段 (通常在会议邀请) 以及会议记录时间？字段中的 **会议** 日期，然后选择 **“运行测试**”。
+2. 在“运行诊断”窗格中，在通常位于会议邀请 () 的会议 **录制字段的 URL** 字段中输入会议的 URL，并在“ **会议何时录制？”** 字段中输入会议日期，然后选择“ **运行测试**”。
 
 3. 测试将验证会议录制是否已成功完成，并且已上传到 Stream 或 OneDrive。
 

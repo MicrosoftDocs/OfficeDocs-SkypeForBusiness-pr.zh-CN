@@ -21,12 +21,12 @@ description: 在本文中，你将了解在 Microsoft Teams 中设置实时事�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 086a8bda521827ac048b8ea9928bd3a0c5e3b81f
-ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
+ms.openlocfilehash: a1bbc6452847182533271f4aa7c7652ff8b00ba3
+ms.sourcegitcommit: 73b13cd8a79ba1724b9fb79c8356a7cacafb7dd3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2022
-ms.locfileid: "68584383"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "68966311"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中规划实时事件
 
@@ -46,7 +46,7 @@ Anyone can attend a live event without a license. Read [Admin quick start - Meet
 - **组织：** Microsoft 或 Office 365 企业版 E1、E3 或 E5 许可证，**[或]** Microsoft 或 Office 365 教育版 A3 或 A5 许可证。 
 - **To produce or present:** A Microsoft or Office 365 Enterprise E1, E3 or E5 license, **[or]** a Microsoft or Office 365 Education A1, A3 or A5 license. The exception to this requirement is guest users can present without a license if the other criteria for [guest users](plan-for-teams-live-events.md#guest-to-present) is met.
 - Microsoft Teams 许可证 - 此许可证包含在第一个和第二个项目符合所列的许可证中。
-- 如果你计划将内容共享到外部应用或设备，则需要 Microsoft Stream 许可证；请参阅 [Microsoft Stream 许可证](/stream/license-overview)。 如果使用较新的 Teams 编码器服务生成事件，则不需要流许可证。 
+- 如果你计划将内容共享到外部应用或设备，则需要 Microsoft Stream 许可证；请参阅 [Microsoft Stream 许可证](/stream/license-overview)。 如果使用较新的 Teams 编码器服务来生成事件，则不需要流许可证。 
 
   Users won't need a Microsoft Stream license assigned if you want users to only record and download the recordings. This will mean that the recordings aren't stored in Microsoft Stream but are instead stored in Azure Media Services (AMS) with a 180-day limit before it's deleted. It's not something at this point that an admin can control or manage to include the ability to delete it.
 
@@ -58,7 +58,7 @@ Anyone can attend a live event without a license. Read [Admin quick start - Meet
 
 注意，Microsoft 365 或 Office 365 许可证是经过身份验证的用户参见实时事件的必要条件，但是此要求取决于所使用的制作方式：
 
-- **对于 Teams 中生成的事件或使用 Teams 支持的编码器**  必须为用户分配 Teams 许可证。
+- **对于在 Teams 中或使用 Teams Powered Encoder 生成的事件**  必须为用户分配 Teams 许可证。
 - **使用外部应用程序或设备制作的事件** 必须向该用户分配 Stream 许可证。
 
 > [!NOTE]
@@ -90,7 +90,7 @@ As a best practice, we recommend that you create a channel for producers and pre
 
 ## <a name="who-can-watch-live-events"></a>谁可以观看实时事件
 
-| 与会者可见性 | Teams 制作 | 外部应用或设备制作 | Teams 支持的编码器
+| 与会者可见性 | Teams 制作 | 外部应用或设备制作 | Teams Powered Encoder
 |------------------------------|-----------------|----------------------|----------------|
 |公共（匿名用户）      |  是            |  否                  | 是
 |来宾用户                   |  是<sup>1</sup>            |  否                  |  支持            |
@@ -102,7 +102,7 @@ As a best practice, we recommend that you create a channel for producers and pre
 
 ## <a name="teams-live-events"></a>Teams 实时事件
 
-下表重点介绍了实时事件中提供的核心功能和功能
+下表重点介绍直播活动中提供的核心功能和功能
 
 > [!IMPORTANT]
 > **Microsoft 365 实时事件限制的增加**
@@ -140,6 +140,7 @@ As a best practice, we recommend that you create a channel for producers and pre
 |实时辅助字幕与字幕 |&#x2714; |&#x2714; |&#x274C; |
 |实时事件录制字幕 |&#x2714; |&#x2714; |&#x2714; |
 |与会者 DVR 控件（暂停、后退） |&#x2714; |&#x2714; |&#x2714; |
+|Microsoft eCDN |&#x274C; |&#x2714; |&#x2714; |
 |合作伙伴 eCDN 支持 |&#x2714; (Kollective, Hive, Riverbed) |&#x2714; (Kollective, Hive, Ramp, Riverbed) |&#x2714; (Hive, Kollective, Ramp, Riverbed) |
 |制作者直播后受众报告 |&#x2714; |&#x2714; |&#x274C; |
 |受众情绪分析 – 实时投票和民意调查 |&#x2714; (Microsoft Pulse) |&#x274C; |&#x274C; |
