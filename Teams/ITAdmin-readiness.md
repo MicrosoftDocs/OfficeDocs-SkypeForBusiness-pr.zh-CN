@@ -18,12 +18,12 @@ ms.custom:
 description: 培训视频、PowerPoint 幻灯片组、教程和其他资源，供管理员了解如何规划、部署和运行 Microsoft Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dbba9535bed24c52578f8c01f37557774bbfa5e3
-ms.sourcegitcommit: e5f5a1a164576b317e89340e233c9b67f082d19c
+ms.openlocfilehash: 8e4b708a0fd250dd5ae8adeaa4f47f014ad359cd
+ms.sourcegitcommit: 2f9a83a1bae8cbee5a0d65464bd47f6735b2d206
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2022
-ms.locfileid: "68890061"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "69025154"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Microsoft Teams 管理员培训入门
 
@@ -61,6 +61,8 @@ ms.locfileid: "68890061"
 | 电话系统简介 | [Video](https://aka.ms/teams-phone-system) | [甲板](https://aka.ms/teams-phone-system-deck) |
 | 直接路由 | [视频 1：规划 Teams 中的直接路由](https://aka.ms/teams-dr-plan)<br>[视频 2：在 Teams 中配置和管理直接路由](https://aka.ms/teams-dr-config)<br>[视频 3：在 Teams 中迁移到直接路由](https://aka.ms/teams-dr-migrate)  | [甲板](https://aka.ms/teams-direct-routing-deck) |
 | 从 Skype for Business 升级到 Teams | [视频 1：升级简介](https://aka.ms/teams-upgrade-intro)</br>[视频 2：规划升级](https://aka.ms/teams-upgrade-plan)</br>[视频 3：共存和互操作性](https://aka.ms/teams-upgrade-coexistence-interop)</br>[视频 4：管理员体验](https://aka.ms/teams-upgrade-admin) | [甲板](https://aka.ms/teams-upgrade-deck)|
+| Teams 设备部署 playbook | | [甲板](https://aka.ms/teams-devices-deployment-playbook) |
+| Teams 电话部署 playbook | | [甲板](https://aka.ms/teams-phone-deployment-playbook) |
 
 <h2>适用于 IT & AV 专业人员的 Teams 会议室 基础</h2>
 
@@ -77,7 +79,6 @@ ms.locfileid: "68890061"
 | 模块 7：管理Microsoft Teams 会议室，第 2 部分  | [甲板](https://aka.ms/TeamsRoomsModule7) |
 | 模块 8：功能、采用和故障排除 | [甲板](https://aka.ms/TeamsRoomsModule8)|
 | 一键式联接说明 |  [甲板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8b-one-touch-join-instructions.pdf?raw=true)  |
-| Microsoft Teams 会议室托管服务简介 | [甲板](https://download.microsoft.com/download/c/e/a/cead2658-d64d-43b7-a728-b4512b325fb8/module-7b-Teams-Managed-Rooms-intro.pdf)  |
 
 <h2>Teams Android 设备</h2>
 
