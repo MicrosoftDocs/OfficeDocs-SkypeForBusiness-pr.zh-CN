@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 中的公共预览版
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -14,29 +14,29 @@ ms.reviewer: dansteve
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Learn about the public preview in Microsoft Teams. Try out new features and provide feedback.
+description: 了解 Microsoft Teams 中的公共预览版。尝试新增功能并提供反馈。
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: ffdd34d8a36726d96bc44ae766e91ca6ae77280b
-ms.sourcegitcommit: b535a70df5bc842f597889582df3eb86371f8139
+ms.openlocfilehash: e3fdf0901d150df63fded6dc49822ad81f81f7d5
+ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2022
-ms.locfileid: "68869583"
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059183"
 ---
 # <a name="microsoft-teams-public-preview"></a>Microsoft Teams 公共预览版
 
 > [!NOTE] 
-> 预览版中包含的功能可能不完整，在公开发布之前可能会发生更改。 它们仅用于评估和探索目的。 Office 365 政府社区云 (GCC) 不支持预览功能。
+> 预览版中包含的功能可能不完整，且可能会在公共版本中可用之前进行更改。这些功能仅用于评估和浏览目的。Office 365 政府社区云(GCC) 不支持预览版功能。
 
-Public Preview for Microsoft Teams provides early access to unreleased features in Teams. Previews allow you to explore and test upcoming features. We also welcome feedback on any feature in public previews. Public preview is enabled per Team user, so you don't need to worry about affecting your entire organization.
+Microsoft Teams 公共预览版提供对 Teams 中未发布的功能的早期访问权限。预览版允许浏览并测试即将推出的功能。此外，我们还欢迎针对公共预览版中的任何功能提供反馈。我们已为每个团队用户启用公共预览版，因此无需担心会影响整个组织。
 
-有关 Teams 公共预览版中可用内容的列表，请访问 [Microsoft Teams 公共预览版技术说明](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview)、[Teams 管理员功能的发行说明](/OfficeUpdates/teams-admin)和 [Office 当前频道发行说明 (预览版) ](/officeupdates/current-channel-preview)。
+有关 Teams 公共预览版中可用内容的列表，请访问 [Microsoft Teams 公共预览版技术说明](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview)、 [Teams 管理功能的发布说明](/OfficeUpdates/teams-admin)，以及 [Teams 中的新增内容](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de)。
 
 ## <a name="set-the-update-policy"></a>设置更新策略
 
-Public preview is enabled on a per-user basis, and the option to turn on public preview is controlled in an admin policy. Update policies are used to manage Teams and Office preview users who will see pre-release or preview features in the Teams app. You can use the Global (Org-wide default) policy and customize it, or create one or more custom policies for your users. The policy needs to be assigned to specific users because it doesn't over-write the global policy.
+我们已为每个用户启用公共预览版，并在管理策略中控制启用公共预览版的选项。更新策略用于管理 Teams 和 Office 预览版用户，这些用户将在 Teams 应用中查看预发布或预览版功能。可以使用全局(默认为组织范围内)策略并对其进行自定义，或为用户创建一个或多个自定义策略。由于策略不会覆盖全局策略，因此需将其分配给特定用户。
 
 1. 登录到 [Microsoft Teams 管理中心](https://admin.teams.microsoft.com/)。
 
@@ -73,14 +73,6 @@ Public preview is enabled on a per-user basis, and the option to turn on public 
 
 > [!NOTE]  
 > 只有当 **显示预览版功能** 设置为 **已启用** 时，此选项才可用。
-
-### <a name="public-preview-for-microsoft-teams-rooms-on-windows"></a>Windows 上 Microsoft Teams 会议室的公共预览版
-
-默认情况下，公共预览版处于关闭状态。 启用公共预览版后，最终用户可以访问启用的 Teams 会议室上的公共预览版功能。 若要启用公共预览版，请将 ```<EnablePublicPreview>True</EnablePublicPreview>``` 添加到 XML 配置文件。
-
-建议将 5-10 台设备注册到公共预览版。 
-
-所有公共预览版功能均在 [Microsoft Teams 公共预览版 - Microsoft 技术社区](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview) 中公布
 
 ## <a name="teams-now-follows-office-preview-users"></a>当前，Teams 关注 Office 预览版用户
 
