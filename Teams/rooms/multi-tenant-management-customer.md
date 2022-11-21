@@ -18,12 +18,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 客户的合作伙伴管理。
 f1keywords: ''
-ms.openlocfilehash: 0fef32202d256926448227f522b6160100cd05e1
-ms.sourcegitcommit: fcbbc197e43bcd63bf95cb329df9cb52e06ee356
+ms.openlocfilehash: 56aaf61092dd1bbd61c2734be6da1732f4882e49
+ms.sourcegitcommit: baf29d244b428712052553f9e4484e72e727247e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2022
-ms.locfileid: "68842160"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "69046861"
 ---
 # <a name="partner-management-for-customers"></a>客户的合作伙伴管理
 
@@ -77,7 +77,7 @@ Teams 会议室专业版管理服务中的合作伙伴管理使客户能够无�
 
 ## <a name="managing-partner-roles"></a>管理合作伙伴角色
 
-合作伙伴角色允许合作伙伴更精细地将职责委派给其他人员。 这些角色的概念与 [基于角色的访问控制](microsoft-teams-rooms-premium-rbac.md)中所述相同。 请务必注意，合作伙伴角色不同于自定义角色。 
+合作伙伴角色允许合作伙伴更精细地将职责委派给其他人员。 这些角色的概念与 [基于角色的访问控制](rooms-pro-rbac.md)中所述相同。 请务必注意，合作伙伴角色不同于自定义角色。 
 
 **主管理员** 角色是添加的每个合作伙伴的唯一内置角色。 此角色拥有你为 TRM 服务分配的合作伙伴的会议室的几乎所有权限 (请参阅 [表 1](#table-1)) 。 例如，如果在全球拥有会议室并分配合作伙伴来管理“所有美国会议室”，则主管理员只能管理和委派这些会议室的权限。 在这种情况下，此合作伙伴的主要管理员无法查看美国以外的任何会议室。 
 

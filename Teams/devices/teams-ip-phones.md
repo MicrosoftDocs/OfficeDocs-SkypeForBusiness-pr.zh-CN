@@ -9,6 +9,7 @@ ms.tgt.pltfrm: lync
 ms.service: msteams
 ms.collection:
 - M365-voice
+- Teams_ITAdmin_Devices
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -20,93 +21,129 @@ ms.custom:
 - Skype for Business Certification
 - dn947482
 - seo-marvel-apr2020
-description: 了解哪些桌面电话和会议电话经过认证Microsoft Teams产生最佳结果。
-ms.openlocfilehash: f4f6c926eb06120ba122a52d190ec73eae85c573
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+description: 了解哪些桌面电话和会议电话已经过 Microsoft Teams 认证，以产生最佳结果。
+ms.openlocfilehash: a285deed98c87d7d90f3f0d254a1c056b2dfc421
+ms.sourcegitcommit: ad7eb80a266a96bb894f3801b51587c07786c257
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62417425"
+ms.lasthandoff: 11/19/2022
+ms.locfileid: "69126928"
 ---
-# <a name="microsoft-teams-certified-devices"></a>Microsoft Teams认证的设备
+# <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams 认证的 Android 设备
 
-认证Microsoft Teams计划可确保使用经认证的桌面电话和会议电话的客户体验高质量的音频呼叫和会议体验。
+Microsoft Teams 设备认证计划确保认证设备符合高标准，在整个 Teams 体验中具有更高的性能目标和质量指标， (音频、视频、用户界面) 。 Microsoft 和 OEM 合作伙伴正在积极合作，确保设备满足所有认证要求，包括安全性、音频和视频质量、Teams 体验和辅助功能。
 
-Microsoft Teams认证计划可确保更高质量的栏，具有更高的性能目标和音频质量指标。 合作伙伴正在努力满足这个更高的要求，并且符合认证要求的设备符合要求。 我们的一些合作伙伴还致力于在 Skype for Business 与手机相同的硬件上为 Teams 服务提供支持。 
+> [!IMPORTANT]
+> Microsoft Teams 设备认证计划确保认证设备仅满足硬件设计和性能的特定要求。 认证计划不会评估功能级别或云环境支持。
+>
+> 有关适用于 Windows 的 Teams 会议室 和 android Teams 会议室 支持哪些功能（包括云环境支持）的信息，请参阅 [Windows 和 Android 功能比较Teams 会议室](../rooms/teams-devices-feature-comparison.md)。
 
+认证计划旨在确保所有认证设备运行 Android 版本，并具有 Teams 和 Teams 管理中心所需的功能集。 认证结束日期基于设备进入认证计划时运行的 Android OS 版本。 我们的 OEM 合作伙伴正在努力通过升级 Android OS 版本和重新认证，或通过发布最先进的新模型来延长认证的生存期。
 
-## <a name="currently-certified-teams-phones"></a>当前认证的Teams手机
+在认证期结束后，Microsoft 致力于在认证期结束后的两年内努力支持此类设备上的 Teams 客户端的最新版本。
 
-以下设备在手机认证计划Microsoft Teams认证：
+>[!NOTE]
+>认证结束日期将根据 OEM 合作伙伴升级到较新的 Android OS 版本的计划定期更新。
 
-|设备模型    | 固件版本    | 认证结束日期 | Android OS 版本                               |
+## <a name="certified-teams-phones"></a>经过认证的 Teams 电话
+
+以下设备已根据 Microsoft Teams 电话认证计划进行认证：
+
+|设备型号    | 固件版本    | 当前认证结束日期 | Android OS 版本                               |
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
-| 具有或不带话筒 (的 Crestron UC-P10-T)     | `1.0.0.80`       | 2023 年 8 月 5 日            | 9 |
-| 带或不带话筒 (的 Crestron UC-P8-T)      | `1.0.0.56`       | 2023 年 8 月 5 日            | 9 |
-| 带和不带话筒的 (UC-P10-C-T)   | `1.0.0.80`       | 2023 年 8 月 5 日            | 9 |
-| 带或不带话筒的 (UC-P8-C-T)    | `1.0.0.80`       | 2023 年 8 月 5 日            | 9 |
+| Poly CCX350                            | `8.0.1.4670`                                                  |  2023 年 8 月 5 日              | 9 |
+| Poly CCX505                            | `7.3.1.0811`                                                  |  2023 年 8 月 5 日              | 9 |
+| AudioCodes C450HD                      | `1.17.443`                                                  |    2023 年 8 月 5 日              | 9 |
+| AudioCodes C448HD (仅限上限模式)        |  `1.17.443`                                                   | 2023 年 8 月 5 日            | 9 |
+| Yealink CP965    | `143.15.0.7 `          | 2025 年 9 月 3 日     | 11 |
+| Crestron UC-P10/T/CT                   | `1.0.0.80`       | 2023 年 8 月 5 日            | 9 |
+| Crestron UC-P8/T /CT                   | `1.0.0.56`       | 2023 年 8 月 5 日            | 9 |
 | Audiocodes C470HD                      | `1.8.293   `                                               | 2023 年 8 月 5 日               | 9 |
 | Yealink MP52                           | `145.15.0.6 `                                              | 2023 年 8 月 5 日               | 9 |
 | AudioCodes C435HD                      | `1.12.33`                                                  | 2023 年 8 月 5 日               | 9 |
 | AudioCodes C455HD                      | `1.14.404`                                                 | 2023 年 8 月 5 日               | 9 |
 | Crestron UC-2                          |`1.0.1.46`                                                  | 2023 年 8 月 5 日               | 9 |
-| Lenovo ThinkSmart View                 | `CD-18781Y.200410.067`                                     | 2022 年 12 月 5 日             | 8.1 |
+| Lenovo ThinkSmart 视图                 | `CD-18781Y.200410.067`                                     | 2022 年 12 月 5 日             | 8.1 |
 | Poly Trio C60、Trio C60 NR、Trio C60 ND | `5.9.3.6155`                                              | 2023 年 8 月 5 日               | 9 |
 | Poly CCX400                            | `1.0.0.0200`                                               | 2023 年 8 月 5 日               | 9 |
 | Poly CCX600                            | `5.9.12.1122`                                              | 2023 年 8 月 5 日               | 9 |
 | Poly CCX500                            | `5.9.12.1122`                                              | 2023 年 8 月 5 日               | 9 |                                                                                                                                                        
-| 在 MP56、MP58、VP59 上支持 Yealink EXP50| 有关每个受支持的设备模型，请参阅 Update #7 固件版本 | 2023 年 8 月 5 日      | 9 |
+| MP56、MP58、VP59 上支持的 Yealink EXP50| 对于每个受支持的设备型号，请参阅 update #7 固件版本 | 2023 年 8 月 5 日      | 9 |
 | Yealink MP58 | `122.15.0.27`| 2023 年 8 月 5 日  | 9 |
 | Yealink MP54 | `122.15.0.27`| 2023 年 8 月 5 日  | 9 |
 | Yealink MP56 | `122.15.0.6` | 2023 年 8 月 5 日  | 9 |
 | Yealink VP59 | `91.15.0.16` | 2023 年 8 月 5 日  | 9 |
 
-## <a name="currently-certified-teams-rooms-on-android"></a>目前在 Android Teams 会议室认证
+## <a name="certified-teams-rooms-on-android"></a>Android 上的认证Teams 会议室
 
-以下设备在 Android 认证计划Microsoft Teams 会议室认证：
+以下设备已根据 Android 认证计划Microsoft Teams 会议室进行认证：
 
-| 设备模型 | 固件版本 | 认证结束日期  | 房间大小                                        |  Android OS 版本    |
+| 设备型号 | 固件版本 | 当前认证结束日期 | 房间大小                                        |  Android OS 版本    |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|-----------------------------------|
+| Logitech Tap IP (VR0029) with RoomMate (VR0030)  | `1.6.565`  |   2024 年 9 月 3 日  | 大型会议室 (4.5 米 x 8.5 米)  | 10 |
+| Yealink MeetingBoard 65” | `155.15.0.6 `   | 2024 年 9 月 3 日 | 中型房间 (4.5 m x 6 m)  | 10|
+| Yealink MeetingBar A20 | `133.15.0.108  `   | 2024 年 9 月 3 日 | 小型会议室 (4.5 m x 4.5 m) | 10|
+| Yealink MeetingBar A30 | `133.15.0.108  `   | 2024 年 9 月 3 日 | 中型房间 (4.5 m x 6 m)  | 10|
+| Logitech Tap IP VR0029     | `1.6.762`  |   2024 年 9 月 3 日  | 与 Logitech Rally Bar 和 Rally Bar Mini 兼容 | 10 |
+| Neat Bar Pro   | `NFD1.20220914.1210 ` | 2024 年 9 月 3 日  |  中型房间 (4.5 m x 6 m)  | 10|
+| 整洁条形图 | `NFF1.20220914.1210` |2024 年 9 月 3 日|    中型房间 (4.5 m x 6 m)  | 10 |
+| Neat Pad 触摸控制台 | `NFA1.20220914.1206`  | 2024 年 9 月 3 日 | 仅与 Neat Bar 兼容 | 9 |
+| 整洁板 | `NFC1.20220914.1210 ` | 2024 年 9 月 3 日 |    小型会议室 (4.5 m x 4.5 m)  | 10 |
+| Logitech Roommate | `1.4.71` | 2024 年 9 月 3 日  | 大型会议室 (4.5 米 x 8.5 米)   |   10  |
 | EPOS EXPAND 80T | `1.2.2.21182.10` | 2023 年 8 月 5 日 | 与 EPOS 视觉 3T 捆绑 | 9 |
-| Logitech Tap 设备     | `1.2.982`     |   2024 年 9 月 3 日  | 与 Logitech Rally Bar 和 Rally Bar Mini 兼容 | 10 |
-| Logitech Rally Bar Mini | `1.2.982`     |   2024 年 9 月 3 日  |    小型会议室 (4.5m x 4.5m)  | 10 |
-| Logitech Rally Bar      | `1.2.788`     |   2024 年 9 月 3 日  |    中型会议室 (450 万 x 6 米)        | 10 |
-| AudioCodes RXV80 | `1.9.155`        |   2023 年 8 月 5 日  | 3 米 (3 米的专注)  </br> 小型会议室 (450 万 x 450 万)  | 9 |
-| EPOS EXPAND Vision 3T       | `1.2.0.21102.03`    | 2023 年 8 月 5 日 | 3m x 3m (3m)  </br> 小型会议室 (450 万 x 450 万)  | 9 |
-| Yealink MeetingBar A30       | `133.15.0.52`    | 2023 年 8 月 5 日   | 中型会议室 (450 万 x 6 米)  | 9 |
+| Logitech Tap 设备     | `1.2.982`  |   2024 年 9 月 3 日  | 与 Logitech Rally Bar 和 Rally Bar Mini 兼容 | 10 |
+| Logitech Rally Bar Mini | `1.2.982`     |   2024 年 9 月 3 日  |    小型会议室 (4.5 m x 4.5 m)  | 10 |
+| Logitech Rally Bar      | `1.2.788`     |   2024 年 9 月 3 日  |    中型房间 (4.5 m x 6 m)        | 10 |
+| AudioCodes RXV80 | `1.9.155`        |   2023 年 8 月 5 日  | 焦点室 (3 m x 3 m)  </br> 小型会议室 (4.5 m x 4.5 m)  | 9 |
+| EPOS EXPAND Vision 3T       | `1.2.0.21102.03`    | 2023 年 8 月 5 日 | 焦点室 (3 m x 3 m)  </br> 小型会议室 (4.5 m x 4.5 m)  | 9 |
 | Yealink CTP18 触摸控制台  | `137.15.0.28`    | 2023 年 8 月 5 日   | 与 Yealink MeetingBar A20 和 Yealink MeetingBar A30 兼容 | 9 |
-| Yealink MeetingBar A20  | `133.15.0.19`      | 2023 年 8 月 5 日 | 3m x 3m (3m)  </br> 小型会议室 (450 万 x 450 万)  | 9 |
-| Poly Studio X30         | `3.1.1.216109`     | 2022 年 12 月 5 日  | 3m x 3m (3m)  </br> 小型会议室 (450 万 x 450 万)  | 8.1 |
-| Poly Studio X50         | `3.1.1.216109`     | 2022 年 12 月 5 日   | 3m x 3m (3m)  </br> 小型会议室 (450 万 x 450 万)  | 8.1 |
-| Poly TC8                | `3.3.2.210441`     | 2023 年 8 月 5 日 | 与 Poly Studio X30 和 Poly Studio X50 兼容 | 8.1 |  9  |
-| Yealink VC210           | `118.15.0.14`      | 2023 年 8 月 5 日 | 3m x 3m (3m)  </br> 小型会议室 (450 万 x 450 万)  |  9  |
+| Poly Studio X30         | `4.0.0.100885`     | 2024 年 9 月 4 日  | 小型会议室 (4.5 m x 4.5 m)  | 10 |
+| Poly Studio X50         | `4.0.0.100885`     | 2024 年 9 月 4 日   | 中型房间 (4.5 m x 6 m)  | 10 |
+| Poly G7500              | `4.0.0.1009138`    | 2024 年 9 月 4 日   | 大型会议室 (4.5 米 x 8.5 米)  | 10 |
+| Poly TC8                | `3.3.2.210441`     | 2023 年 8 月 5 日 | 与 Poly Studio X30 和 Poly Studio X50 兼容  |  9  |
+| Yealink VC210           | `118.15.0.14`      | 2023 年 8 月 5 日 | 焦点室 (3 m x 3 m)  </br> 小型会议室 (4.5 m x 4.5 m)  |  9  |
 
-## <a name="currently-certified-teams-displays"></a>当前经过认证的Teams显示器
+## <a name="certified-teams-displays"></a>认证 Teams 显示器
 
-以下设备在 Microsoft Teams Android 认证计划下认证：
+以下设备在 Microsoft Teams 显示器 Android 认证计划下获得认证：
 
-| 设备模型 | 固件版本 | 认证结束日期  | Android OS 版本 |
+| 设备型号 | 固件版本 | 当前认证结束日期  | Android OS 版本 |
 |:------------------------|:-----------------|:--------------|----------------------------------|
-|Lenovo ThinkSmart View|`CD-18781Y.201006.099`| 2022 年 12 月 5 日 |  8.1  |
+| 整帧 nf21f1 | `NFF1.20220914.1210` | 2024 年 9 月 3 日 | 10 |
+| Crestron UC-P8-TD |`1.0.0.42`| 2023 年 8 月 5 日 |  9  |
+| Crestron UC-P10-TD |`1.0.0.42`| 2023 年 8 月 5 日 |  9  |
+|Lenovo ThinkSmart 视图|`CD-18781Y.201006.099`| 2022 年 12 月 5 日 |  8.1  |
 
-## <a name="currently-certified-teams-panels"></a>当前认证的Teams面板
-以下设备在Microsoft Teams认证计划下认证：
+## <a name="certified-teams-panels"></a>认证 Teams 面板
+以下设备已通过 Microsoft Teams 面板认证计划认证：
 
-| 设备模型| 固件版本 | 认证结束日期 | Android OS 版本 |                                         
+| 设备型号| 固件版本 | 当前认证结束日期 | Android OS 版本 |                                         
 |:------------------------|:-----------------|:--------------|-----------------------|
-|Crestron TSS-770 | `1.003.0082` |2022 年 12 月 5 日  | 8.1 |
-|Crestron TSS-1070 | `1.003.0082`|2022 年 12 月 5 日 | 8.1 |
+|EPOS 展开控制面板   | `1.2.22206.03` | 2024 年 9 月 3 日 | 10 |
+|整洁垫面板    | `NFA1.20220211.1400` | 2023 年 8 月 5 日 | 9 |
+|Crestron TSS-770 | `2.001.0058` |2024 年 9 月 3 日  | 10 |
+|Crestron TSS-1070 | `2.001.0058`|2024 年 9 月 3 日 | 10 |
 |Yealink RoomPanel | `147.15.0.1`|2023 年 8 月 5 日   | 9 |
 |Logitech TAP 计划程序 | `1.3.111` |2024 年 9 月 3 日 | 10 |
 
-### <a name="product-release-information-for-teams-phones"></a>适用于手机的产品Teams信息
+### <a name="product-release-information-for-teams-phones"></a>Teams 手机的产品发布信息
 
 以下是最新的 Teams 手机应用和固件版本。
 
 #### <a name="app-versions"></a>应用版本
 
-| 产品发布 | 发布日期  | Microsoft Teams应用版本 | 公司门户 版本 | 管理员代理版本 |
+| 产品发布 | 发布日期  | Microsoft Teams 应用版本 | 公司门户版本 | 管理员代理版本 |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
+| 2022 更新 #4  | 2022 年 9 月 22 日| `1449/1.0.94.2022090705` |`5.0.5484.0` | `361` |
+| 2022 更新#3A| 2022 年 7 月 13 日   | `1449/1.0.94.2022062103` |`5.0.5304.0` | `322` |
+| 2022 更新 #3  | 2022 年 7 月 6 日   | `1449/1.0.94.2022061702` |`5.0.5304.0` | `322` |
+| 2022 更新#2A  | 2022 年 4 月 13 日   | `1449/1.0.94.2022041102` |`5.0.5304.0` | `322` |
+| 2022 更新 #2   | 2022 年 3 月 21 日   | `1449/1.0.94.2022030501` |`5.0.5304.0` | `322` |
+| 2022 更新#1C  | 2022 年 3 月 3 日  | `1449/1.0.94.2022022305` |`5.0.5304.0` | `322` |
+| 2022 更新#1B  | 2022 年 2 月 7 日   | `1449/1.0.94.2022020202` |`5.0.5304.0` | `322` |
+| 2022 更新#1A  | 2022 年 2 月 7 日   | `1449/1.0.94.2022011305` |`5.0.5304.0` | `322` |
+| 2022 更新 #1   | 2022 年 2 月 6 日   | `1449/1.0.94.2021724504` |`5.0.5304.0` | `322` |
+| 2021 更新#3C | 2021 年 12 月 16 日   | `1449/1.0.94.2021121302` | `5.0.5304.0` | `298` |
 | 2021 更新#3B | 2021 年 12 月 6 日   | `1449/1.0.94.2021112302 ` | `5.0.5304.0` | `298` |
 | 2021 更新#3A | 2021 年 11 月 22 日   | `1449/1.0.94.2021110101 ` | `5.0.5304.0` | `298` |
 | 2021 更新 #3  | 2021 年 11 月 3 日   | `1449/1.0.94.2021101205` | `5.0.5304.0` | `298` |
@@ -122,12 +159,61 @@ Microsoft Teams认证计划可确保更高质量的栏，具有更高的性能�
 
 #### <a name="firmware-versions"></a>固件版本
 
-在设备上安装新的固件版本时，可以确定 Microsoft Teams 应用、公司门户和管理代理的相应安装版本。 在"包含的产品发布"列中查找 **产品发布，** 然后在之前的"应用版本"表中 **查找产品** 发布。
+在设备上安装新的固件版本时，可以确定 Microsoft Teams 应用的相应已安装版本、公司门户和管理员代理。 在“包含的产品发布”列中查找 **产品版本** ，然后在前面的应用版本表中查找产品 **版本** 。
 
-| 设备模型        | 固件版本     | 包含的产品发布  |
-|:--------------------|:---------------------|:-------------------------|
+| 设备型号  | 固件版本  | 包含的产品版本  |
+|:----------------|:--------------|:----------------------------|
+|AudioCodes C448HD/C450HD  | `1.17.769`    | 2022 更新#3A|
+|Crestron UC-P8/I/C/CI     | `1.0.5.20`    | 2022 更新#3A |
+|Crestron UC-P10/I/C/CI | `1.0.5.20`    | 2022 更新#3A |
+|Audiocodes C435HD/C448HD/C450HD/C455HD/C470HD | `1.17.764` | 2022 更新#3A    |
+|Audiocodes C435HD/C455HD/C470HD | `1.17.741` | 2022 更新#3A    |
+|Poly Trio C60 | `7.3.2.0174` | 2022 更新#3A |
+|Poly CCX 400/500/600/505 | `7.3.2.0182` | 2022 更新#3A |
+|Yealink T55A/T56A/T58A   | `58.15.0.168`     | 2022 更新#3A  |
+|Yealink VP59  | `91.15.0.102`     | 2022 更新#3A  |
+|Yealink CP960  | `73.15.0.163`     | 2022 更新#3A  |
+|Yealink CP965  | `143.15.0.12`     | 2022 更新#3A  |
+|Yealink MP54/MP56/MP58  | `122.15.0.91`     | 2022 更新#3A  |
+|Yealink MP52  | `145.15.0.42`     | 2022 更新#3A  |
+|Poly Trio C60 | `7.3.1.0813` | 2022 更新#1C |
+|Poly CCX400/CCX500/CCX600/CCX505 | `7.3.1.0811` | 2022 更新#1C
+|Yealink T55A/T56A/T58A   | `58.15.0.157`     | 2022 更新#2A  |
+|Yealink VP59             | `91.15.0.90`      | 2022 更新#2A  |
+|Yealink CP960            | `73.15.0.153`     | 2022 更新#2A  |
+|Audiocodes C470HD  | `1.17.561` | 2022 更新#1C |
+|Yealink MP54/MP56/MP58   | `122.15.0.80`     | 2022 更新#2A  |
+|Yealink MP52 | `145.15.0.28`  | 2022 更新#2A         |
+|Audiocodes C470HD  | `1.17.558` | 2022 更新#1C   |
+|Audiocodes C455HD | `1.15.289`    | 2022 更新#1C    |
+|Audiocodes C448HD  | `1.14.524` | 2022 更新#1C |
+|Audiocodes C450HD  | `1.14.524` | 2022 更新#1C |
+|Audiocodes C470HD  | `1.14.524` | 2022 更新#1C   |
+|Audiocodes C435HD  | `1.14.524` | 2022 更新#1C  |
+| Poly Trio C60   | `7.2.1.1975`  | 2022 更新#1C                        |
+| Poly CCX400/CCX500/CCX600   | `7.2.1.1971`  | 2022 更新#1C            |
+| Crestron UC-P8/I/C/CI     | `1.0.4.82`    | 2022 更新#1A |
+| Crestron UC-P10/I/C/CI    | `1.0.4.82`    | 2022 更新#1A |
+| Poly Trio C60   | `7.2.1.1831`  | 2022 更新#1B                        |
+| Poly CCX400/CCX500/CCX600   | `7.2.1.1826`  | 2022 更新#1B                 |
+|Crestron UC-2     | `1.0.4.75`    | 2022 更新#1A |
+|Audiocodes C455HD | `1.15.271`    | 2022 更新#1A |
+|Audiocodes C448HD  | `1.14.500` | 2022 更新#1A |
+|Audiocodes C450HD  | `1.14.500` | 2022 更新#1A  |
+|Audiocodes C470HD  | `1.14.500` | 2022 更新#1A   |
+|Audiocodes C435HD  | `1.14.500` | 2022 更新#1A  |
+|Yealink T55/T56/T58   | `58.15.0.153`  | 2022 更新 #1 |
+|Yealink MP54/MP56/MP58   | `122.15.0.77`     | 2022 更新 #1  |
+| Yealink VP59   | `91.15.0.87`  | 2022 更新 #1     |
+| Yealink CP960  | `73.15.0.150`  | 2022 更新 #1      |
+| Yealink MP52 | `145.15.0.25`  | 2022 更新 #1         |
+| Poly Trio C60  | `7.1.4.0250 ` | 2021 更新#3C  |
+| Poly CCX400/CCX500/CCX600    | `7.1.4.0253  `| 2021 更新#3C  |
 | Poly Trio C60   | `7.1.4.0201`  | 2021 更新#3B                        |
 | Poly CCX400/CCX500/CCX600   | `7.1.4.0200`  | 2021 更新#3B                 |
+|Audiocodes C448HD  | `1.14.449` | 2021 更新 #3  |
+|Audiocodes C450HD  | `1.14.449` | 2021 更新 #3  |
+|Audiocodes C470HD  | `1.14.449` | 2021 更新 #3  |
 |Audiocodes C448HD  | `C448HD_TEAMS_1.14.449` | 2021 更新 #3  |
 |Audiocodes C450HD  | `C450HD_TEAMS_1.14.449` | 2021 更新 #3  |
 |Audiocodes C470HD  | `C470HD_TEAMS_1.14.449` | 2021 更新 #3  |
@@ -138,26 +224,26 @@ Microsoft Teams认证计划可确保更高质量的栏，具有更高的性能�
 |Yealink MP54/MP56/MP58   | `122.15.0.60`     | 2021 更新 #3  |
 |Yealink VP59             | `91.15.0.77`      | 2021 更新 #3  |
 |Yealink CP960            | `73.15.0.139`     | 2021 更新 #3  |
-| Poly Trio C60   | `7.0.3.0517`  | 2021 更新 #2                        |
+| Poly Trio C60           | `7.0.3.0517`      | 2021 更新 #2      |
 | Poly CCX400/CCX500/CCX600   | `7.0.3.0515` | 2021 更新 #2                     |
 | 音频代码 C448HD/C450HD/C470HD   | `1.10.143`  | 2021 更新 #2           |
 | Yealink T55/T56/T58   | `58.15.0.131`  | 2021 更新 #2                       |
 | Yealink VP59   | `91.15.0.63`  | 2021 更新 #2                               |
-| Yealink CP960  |`73.15.0.126`  | 2021 更新 #2                               |
-| Yealink MP56/MP54/MP58  |`122.15.0.44` | 2021 更新 #2                       |
-| Crestron UC-2  |`1.0.3.66` | 2021 更新 #2 |
+| Yealink CP960  | `73.15.0.126`  | 2021 更新 #2                               |
+| Yealink MP56/MP54/MP58  | `122.15.0.44` | 2021 更新 #2                       |
+| Crestron UC-2  | `1.0.3.66` | 2021 更新 #2 |
 | Poly Trio C60   | `7.0.2.1071`  | 2021 更新 #1                        |
 | Poly CCX400/CCX500/CCX600   | `7.0.2.1072`  | 2021 更新 #1                 |
 | 音频代码 C448HD/C450HD/C470HD   | `1.10.120`  | 2021 更新 #1       |
 | Yealink T55/T56/T58   | `58.15.0.124`  | 2021 更新 #1                      |
 | Yealink VP59   | `91.15.0.58`  | 2021 更新 #1                              |
-| Yealink CP960  |`73.15.0.117`  | 2021 更新 #1                              |
-| Yealink MP56/MP54/MP58  |`122.15.0.36`  | 2021 更新 #1                     |
-| Crestron UC-2  |`1.0.3.52` | 2021 更新 #1 |
+| Yealink CP960  | `73.15.0.117`  | 2021 更新 #1                              |
+| Yealink MP56/MP54/MP58  | `122.15.0.36`  | 2021 更新 #1                     |
+| Crestron UC-2  | `1.0.3.52` | 2021 更新 #1 |
 | AudioCodes C448HD   | `C450HD_TEAMS_1.8.288`  | 2020 更新 #7           |
 | AudioCodes C450HD   | `C450HD_TEAMS_1.8.288`  | 2020 更新 #7           |
 | Crestron UC-2       | `1.0.2.53`              | 2020 更新 #7            |
-| Lenovo ThinkSmart View|`CD-18781Y.200922.098` | 2020 更新 #6           |
+| Lenovo ThinkSmart 视图| `CD-18781Y.200922.098` | 2020 更新 #6           |
 | Poly CCX400         | `6.2.23.0202`       | 2020 更新 #7           |
 | Poly CCX500/CCX600  | `6.2.23.0202`         | 2020 更新 #7          |
 | Poly Trio C60       | `6.2.23.0202`          | 2020 更新 #7          |
@@ -166,18 +252,22 @@ Microsoft Teams认证计划可确保更高质量的栏，具有更高的性能�
 | Yealink VP59        | `91.15.0.54`         | 2020 更新 #7           |
 | Yealink CP960       | `73.15.0.115`      | 2020 更新 #7           |
 
-有关[Microsoft Teams支持](phones-for-teams.md)的功能的信息，请参阅手机功能集。
+有关这些设备支持的功能的信息，请参阅 [Microsoft Teams 电话功能集](phones-for-teams.md) 。
 
-请参阅[Microsoft Teams显示](teams-displays.md)。
+请参阅 [Microsoft Teams 显示器](teams-displays.md)。
 
-### <a name="product-release-information-for-teams-rooms-on-android"></a>Android 版 Teams 会议室产品发布信息
+### <a name="product-release-information-for-teams-rooms-on-android"></a>Android 上Teams 会议室的产品发布信息
 
-以下是 Android 应用和Teams 会议室的最新版本。
+以下是 Android 应用和固件版本上的最新Teams 会议室。
 
 #### <a name="app-versions"></a>应用版本
 
-| 产品发布| 发布日期 | Microsoft Teams应用版本 | 公司门户 版本 | 管理员代理版本 |
+| 产品发布| 发布日期 | Microsoft Teams 应用版本 | 公司门户版本 | 管理员代理版本 |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+| 2022 更新#2B  | 2022 年 9 月 15 日 |`1449/1.0.96.2022090606`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
+| 2022 更新#2A  | 2022 年 8 月 8 日 |`1449/1.0.96.2022072103`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
+| 2022 更新 #2  | 2022 年 5 月 25 日 |`1449/1.0.96.2022051102`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
+| 2022 更新 #1  | 2022 年 2 月 24 日 |`1449/1.0.96.2022011305`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
 | 2021 更新#2A | 2021 年 7 月 15 日  |`1449/1.0.96.2021070803`|  `5.0.5088.0` |  `1.0.0.202104280345.product version code: 262` |
 | 2021 更新 #2 | 2021 年 6 月 28 日  |`1449/1.0.96.2021051904`|  `5.0.5088.0` |  `1.0.0.202104280345.product version code: 262` |
 | 2021 更新#1A  |2021 年 5 月 12 日  |`1449/1.0.96.2021042903` |`5.0.4927.0`     |`1.0.0.202010121132.product version code: 223` |
@@ -188,22 +278,67 @@ Microsoft Teams认证计划可确保更高质量的栏，具有更高的性能�
 
 #### <a name="firmware-versions"></a>固件版本
 
-在设备上安装新的固件版本时，可以通过在"包含的产品发布"列中查找产品发布来确定相应的 Microsoft Teams 应用、公司门户 和管理代理安装 **的版本**。 然后，在上面的"应用版本 **"表中查找产品** 版本。
+在设备上安装新的固件版本时，可以通过在 **“包含** 的产品发布”列中查找产品版本来确定相应的 Microsoft Teams 应用、公司门户和管理员代理版本。 然后在上面的应用版本表中查找产品 **版本** 。
 
-| 设备模型  | 固件版本 | 包含的产品发布 |
+| 设备型号  | 固件版本 | 包含的产品版本 |
 |:--------------|:-----------------|:-------------------------|
-| Poly Studio X30 | `3.9.0`          | 2021 更新#2F   |
-| Poly Studio X50 | `3.9.0`          | 2021 更新#2F   |
+| Logi Rallybar  | `1.7.300`     | 2022 更新#2B  |
+| Logi Rallybar Mini  | `1.7.300`     | 2022 更新#2B  |
+| Logi RoomMate  | `1.7.202`   | 2022 更新#2B  |
+| Logi 控制台  | `1.7.200`    | 2022 更新#2B  |
+| EPOS EXPAND Vision 3T |`1.5.22242.02`   | 2022 更新 U2A |
+| Yealink MeetingBoard 65” | `155.15.0.10 `   | 2022 更新#2A  |
+| Poly Studio X30 | `3.13.0.368067` | 2022 更新#2A   |
+| Poly Studio X50 | `3.13.0.368067` | 2022 更新#2A |
+| Poly TC8        | `3.13.0.210799`          | 2022 更新#2A   |
+| Yealink MeetingBar A20 | `133.310.0.25 `   | 2022 更新#2A  |
+| Yealink MeetingBar A30 | `133.310.0.25 `   | 2022 更新#2A  |
+| Yealink CTP18 | `137.15.0.80`   | 2022 更新#2A  |
+| AudioCodes RXV80 | `1.16.191` | 2022 更新#2A   |
+| Poly Studio X30 | `3.14.1.374010` | 2022 更新#2B   |
+| Poly Studio X50 | `3.14.1.374010` | 2022 更新#2B  |
+| Poly Studio X30 | `3.12.0.366027` | 2022 更新 #1   |
+| Poly Studio X50 | `3.12.0.366027` | 2022 更新 #1  |
+| Logi Rallybar    | `1.6.552`         | 2022 更新 #2    |
+| Logi Rallybar Mini | `1.6.552`       | 2022 更新 #2   |
+| 整洁条形图 | `NFB1.20220512.2200` | 2022 更新 #2 |
+| Neat Pad 触摸控制台 | `NFA1.20220512.2158`  |  2022 更新 #2 |
+| 整洁板 | `NFC1.20220512.2200` |  2022 更新 #2 |
+| Yealink MeetingBar A20 | `133.15.0.95 `   | 2022 更新 #2  |
+| Yealink MeetingBar A30 | `133.15.0.95 `   | 2022 更新 #2  |
+| Yealink CTP18 | `137.15.0.53`     | 2022 更新 #2    |
+| Yealink VC210 + VC210 | `118.15.0.69`     | 2022 更新 #2    |
+| Logi Tap 设备  |  `1.5.705`   | 2022 更新 #1    |
+| Poly Studio X30 | `3.11.0.364021`          | 2022 更新 #1    |
+| Poly Studio X50 | `3.11.0.364021`          | 2022 更新 #1    |
+| Logi 室友 |   `1.6.290`   | 2022 更新 #1    |
+| Logi Rallybar Mini   |   `1.6.272`   | 2022 更新 #1  |
+| Logi Rallybar    |   `1.6.272`   | 2022 更新 #1   |
+| Logi 室友 |   `1.5.705`   | 2022 更新 #1    |
+| Logi Rallybar Mini   |   `1.5.705`   | 2022 更新 #1    |
+| Logi Rallybar    |   `1.5.705`   | 2022 更新 #1    |
+| EPOS EXPAND Vision 3T |`1.2.4.22042.05`   | 2022 更新 #1 |
+| AudioCodes RXV80 | `1.16.164 `   | 2022 更新 #1 |
+| Yealink VC210 | `118.15.0.65`   | 2022 更新 #1    |
+| Yealink MeetingBar A20 | `133.15.0.80 `   | 2022 更新 #1   |
+| Yealink MeetingBar A30 | `133.15.0.80 `   | 2022 更新 #1   |
+| Yealink CTP18 | `137.15.0.49`    | 2022 更新 #1   |
+| Poly Studio X30 | `3.9.0` | 2021 更新#2F   |
+| Poly Studio X50 | `3.9.0` | 2021 更新#2F   |
 | Poly TC8        | `3.9.0`          | 2021 更新#2F   |
 | Poly Studio X30 | `3.8.0`          | 2021 更新 #2    |
 | Poly Studio X50 | `3.8.0`          | 2021 更新 #2    |
 | Poly TC8        | `3.8.0`          | 2021 更新 #2    |
+| Logi Rallybar    | `1.3.538`         | 2021 更新#2B    |
+| Logi Rallybar Mini | `1.3.538`       | 2021 更新#2B    |
+| Logi Rallybar    | `1.4.228`         | 2021 更新#2B    |
+| Logi Rallybar Mini | `1.4.228`       | 2021 更新#2B    |
 | Poly Studio X30 | `3.7.0`          | 2021 更新#2A    |
 | Poly Studio X50 | `3.7.0`          | 2021 更新#2A    |
 | Poly TC8        | `3.7.0`          | 2021 更新#2A    |
-| Poly Studio X30 | `3.6.0.350035`          | 2021 更新#2A    |
-| Poly Studio X50 | `3.6.0.350035`        | 2021 更新#2A    |
-| Poly TC8 | `3.6.0.210534`              | 2021 更新#2A    |
+| Poly Studio X30 | `3.6.0.350035`  | 2021 更新#2A    |
+| Poly Studio X50 | `3.6.0.350035`  | 2021 更新#2A    |
+| Poly TC8 | `3.6.0.210534`  | 2021 更新#2A    |
 | EPOS EXPAND Vision 3T |`1.2.2.21182.10`   | 2021 更新 #2 |
 | AudioCodes RXV80 |`1.13.361`   | 2021 更新 #2 |
 | Yealink VC210 |`118.15.0.54`   | 2021 更新 #2    |
@@ -224,15 +359,16 @@ Microsoft Teams认证计划可确保更高质量的栏，具有更高的性能�
 | Poly Studio X30 | `3.2.3.280012`          | 2020 更新 #3    |
 | Poly Studio X50 | `3.2.3.280012`          | 2020 更新 #3    |
 
-### <a name="product-release-information-for-teams-displays"></a>适用于显示器的产品Teams信息
+### <a name="product-release-information-for-teams-displays"></a>Teams 显示器的产品发布信息
 
-以下是显示应用Microsoft Teams固件版本的最新版本。
+以下是最新的 Microsoft Teams 显示应用和固件版本。
 
 #### <a name="app-versions"></a>应用版本
 
-|产品发布| 发布日期 | Microsoft Teams应用版本 | 公司门户 版本 | 管理员代理版本 |
+|产品发布| 发布日期 | Microsoft Teams 应用版本 | 公司门户版本 | 管理员代理版本 |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
-|2021 更新 #4  |2022 年 1 月 5 日 |`1449/1.0.95.2021736401`    |`5.0.5304.0`            |  `1.0.0.202110130735.product (298)`
+|2022 更新 #1  |2022 年 11 月 14 日 |`1449/1.0.95.2022102603`    |`5.0.5484.0`            |  `1.0.0.202205230848.product (361)` |
+|2021 更新 #4  |2022 年 1 月 5 日 |`1449/1.0.95.2021736401`    |`5.0.5304.0`            |  `1.0.0.202110130735.product (298)` |
 |2021 更新 #3  |2021 年 12 月 8 日 |`1449/1.0.95.2021111203`    |`5.0.5304.0`            |  `1.0.0.202110130735.product (298)`|
 |2021 更新 #2  |2021 年 6 月 9 日 |`1449/1.0.95.2021042103`    |`5.0.5088.0`            |  `1.0.0.202103160138.product (256)`|
 |2021 更新 #1  |2021 年 3 月 18 日 |`1449/1.0.95.2021021104`    |`5.0.5045.0`            | `1.0.0.202101280722.product (253)`|
@@ -240,32 +376,48 @@ Microsoft Teams认证计划可确保更高质量的栏，具有更高的性能�
 
 #### <a name="firmware-versions"></a>固件版本
 
-在设备上安装新的固件版本时，可以通过在"包含的产品发布"列中查找产品发布来确定相应的 Microsoft Teams 应用、公司门户 和管理代理安装 **的版本**。 然后，在上面的"应用版本 **"表中查找产品** 版本。
+在设备上安装新的固件版本时，可以通过在 **“包含** 的产品发布”列中查找产品版本来确定相应的 Microsoft Teams 应用、公司门户和管理员代理版本。 然后在上面的应用版本表中查找产品 **版本** 。
 
-| 设备模型  | 固件版本 | 包含的产品发布|
+| 设备型号  | 固件版本 | 包含的产品版本|
 |:--------------|:-----------------|:-------------------------|
-|Lenovo ThinkSmart View| `CD-18781Y.211116.114` |2021 更新 #3  |
-|Lenovo ThinkSmart View| `CD-18781Y.210507.111` |2021 更新 #2 |
-|Lenovo ThinkSmart View| `CD-18781Y.210228.109` |2021 更新 #1 |
+|Crestron UC-P10-TD     |1.0.0.57 |2022 更新#3A|
+|Crestron UC-P8-TD     |1.0.0.57 |2022 更新#3A|
+|Lenovo ThinkSmart 视图| `CD-18781Y.211116.114` |2021 更新 #3  |
+|Lenovo ThinkSmart 视图| `CD-18781Y.210507.111` |2021 更新 #2 |
+|Lenovo ThinkSmart 视图| `CD-18781Y.210228.109` |2021 更新 #1 |
 
-### <a name="product-release-information-for-teams-panels"></a>开发面板的产品Teams信息
+### <a name="product-release-information-for-teams-panels"></a>Teams 面板的产品发布信息
 
 以下是最新的 Microsoft Teams 面板应用和固件版本。
 
 #### <a name="app-versions"></a>应用版本
 
-|产品发布| 发布日期 | Microsoft Teams应用版本 | 公司门户 版本 | 管理员代理版本 |
+|产品发布| 发布日期 | Microsoft Teams 应用版本 | 公司门户版本 | 管理员代理版本 |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
-|2021 更新 #1  |2021 年 8 月 12 日 |`1449/1.0.97.2021070601`|`5.0.5211.0`            |  `268`|
+|2022 更新#3A  | 2022 年 9 月 16 日 | `1449/1.0.97.2022739908` | `5.0.5304.0`  | `322` |
+|2022 更新 #3  | 2022 年 7 月 12 日 | `1449/1.0.97.2022739901` | `5.0.5304.0`  | `322` |
+|2022 更新 #2  | 2022 年 4 月 25 日 | `1449/1.0.97.2022733702` | `5.0.5304.0`  | `322` |
+|2022 更新#1A | 2022 年 2 月 25 日 | `1449/1.0.97.2022730007` | `5.0.5304.0`  | `322` |
+|2022 更新 #1  | 2022 年 2 月 22 日 |`1449/1.0.97.2021726501` | `5.0.5304.0 `  | `322` |
+|2021 更新 #1  | 2021 年 8 月 12 日 |`1449/1.0.97.2021070601`   | `5.0.5211.0`   |  `268`|
 
 #### <a name="firmware-versions"></a>固件版本
 
-在设备上安装新的固件版本时，可以通过在"包含的产品发布"列中查找产品版本来确定相应的 Microsoft Teams 应用、公司门户 和管理代理安装 **的版本**。 然后，在上面的"应用版本 **"表中查找产品** 版本。
+在设备上安装新的固件版本时，可以通过在 **“包含** 的产品发布”列中查找产品版本来确定相应的 Microsoft Teams 应用、公司门户和管理员代理版本。 然后在上面的应用版本表中查找产品 **版本** 。
 
-| 设备模型  | 固件版本 | 包含的产品发布|
+| 设备型号  | 固件版本 | 包含的产品版本|
 |:--------------|:-----------------|:-------------------------|
-|Crestron -TSS770| `1.004.0115` |2021 更新 #1 |
-|Crestron-TSS1070 | `1.004.0115` |2021 更新 #1 |
+|整洁垫面板 | `NFA1.20220914.1206` | 2022 更新#3A  |
+|Logitech Tap 计划程序 | `1.7.200` |2022 更新#3A  |
+|Yealink RoomPanel | ` 147.15.0.33 ` | 2022 更新 #3 |
+|整洁垫面板 | `NFA1.20220512.2210` | 2022 更新 #2  |
+|Logitech Tap 计划程序 | `1.6.762` |2022 更新 #2  |
+|整洁垫面板 |NFA1.20220512.2158 | 2022 更新 #2 |
+|Logitech Tap 计划程序 | `1.6.215` |2022 更新#1A  |
+|Crestron Touchpanel /770-T/1070-T | `1.006.0046 ` | 2022 更新 #1|
+|Yealink RoomPanel | ` 147.15.0.30 ` | 2022 更新 #1 |
+|Crestron -TSS770  | `1.004.0115` |2021 更新 #1 |
+|Crestron-TSS1070  | `1.004.0115` |2021 更新 #1 |
 |Yealink RoomPanel | `147.15.0.17` |2021 更新 #1 |
 |Logitech Tap 计划程序 | `1.5.209` |2021 更新 #1 |
 
@@ -273,16 +425,16 @@ Microsoft Teams认证计划可确保更高质量的栏，具有更高的性能�
 
 ## <a name="more-resources"></a>更多资源
 
-有关[Microsoft Teams支持](phones-for-teams.md)的功能的信息，请参阅手机功能集。
+有关这些设备支持的功能的信息，请参阅 [Microsoft Teams 电话功能集](phones-for-teams.md) 。
 
-请参阅 [在移动设备上查找固件版本](phones-for-teams.md) 以确定移动设备上的设备固件版本。
+请参阅 [在移动设备上查找固件版本](phones-for-teams.md) ，以确定移动设备上的设备固件版本。
 
-Microsoft Teams许可证可以作为订阅或订阅[Microsoft 365 Office 365的一部分](/office365/servicedescriptions/teams-service-description)。 若要详细了解在手机上使用 Microsoft Teams所需的许可证，请参阅可用的[手机系统许可证](https://products.office.com/microsoft-teams/voice-calling)。
+Microsoft Teams 许可证可以作为 [Microsoft 365 的一部分购买，也可以Office 365订阅](/office365/servicedescriptions/teams-service-description)。 若要详细了解在手机上使用 Microsoft Teams 所需的许可证，请参阅可用的 [电话系统许可证](https://products.office.com/microsoft-teams/voice-calling)。
 
-有关获取访问权限Teams，请参阅如何[获取访问Microsoft Teams？](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
+有关获取 Teams 的详细信息，请查看[如何实现获取 Microsoft Teams 的访问权限？](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
-如果你是希望加入认证计划的供应商，请参阅 [如何加入](/skypeforbusiness/certification/how-to-join) 了解要求和可用计划。
+如果你是寻求加入认证计划的供应商，请参阅 [如何加入](/skypeforbusiness/certification/how-to-join) ，了解要求和可用计划。
 
-[探索Microsoft Teams和认证设备。](https://products.office.com/microsoft-teams/across-devices/devices)
+[探索 Microsoft Teams 电话和认证设备。](https://products.office.com/microsoft-teams/across-devices/devices)
 
-[Teams和Skype互操作性](../teams-skype-interop.md)
+[Teams 和 Skype 互操作性](../teams-skype-interop.md)

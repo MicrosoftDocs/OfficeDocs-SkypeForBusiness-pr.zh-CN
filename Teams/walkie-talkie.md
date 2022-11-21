@@ -20,51 +20,51 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c426606cae959e4d1134fd7a1551b33484c06d9d
-ms.sourcegitcommit: e0dfa7dbfb03c41f096ed0ad80f44de8e147ed26
+ms.date: 11/17/2022
+ms.openlocfilehash: 90dcdf19f66b8c0f814540708be81bae36564b21
+ms.sourcegitcommit: f905ce4428155e81a56a1251351730f0eea3a421
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "68743137"
+ms.lasthandoff: 11/18/2022
+ms.locfileid: "69107424"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft Teams 中的 Walkie Talkie 应用
 
-Teams 中的 Walkie Talkie 应用为团队提供即时一键通 (PTT) 通信，可在 Android 和 iOS 上使用。 Walkie Talkie 允许用户使用他们所属的相同基础频道与其团队联系。 只有通过频道连接到 Walkie Talkie 的用户才能成为参与者，并且可以通过一次一次一个地使用一个推送来相互通信。
+Teams 中的 Walkie Talkie 应用为团队提供即时一键通 (PTT) 通信，可在 Android 和 iOS 上使用。 Walkie Talkie 允许用户使用他们所属的相同基础频道与其团队联系。
 
-借助 Teams 中的 Walkie Talkie，一线员工可以安全地与熟悉的 PTT 体验进行通信，而无需携带笨重的无线电，并且 Walkie Talkie 可在任何位置使用 WiFi 或手机网络连接。
+只有在频道中连接到 Walkie Talkie 的用户才能成为参与者，并且可以使用 PTT 相互通信。 用户将继续接收传输，直到他们点击  **“断开连接**”。
+
+借助 Teams 中的 Walkie Talkie，用户可以安全地与熟悉的 PTT 体验进行通信，而无需携带笨重的无线电，并且 Walkie Talkie 可在任何位置使用 WiFi 或手机网络连接。
 
 > [!NOTE]
 > 沃基对讲机目前在中国不可用。
 
 ## <a name="license-requirements"></a>许可证要求
 
-Walkie Talkie 包含在 [Microsoft 365 和 Office 365 订阅](/office365/servicedescriptions/teams-service-description)的所有 Teams 付费许可证中。 有关获取 Teams 的详细信息，请查看[如何实现获取 Microsoft Teams 的访问权限](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)？
+Walkie Talkie 包含在 [Microsoft 365 和 Office 365 订阅](/office365/servicedescriptions/teams-service-description)的所有 Teams 付费许可证中。 有关获取 Teams 的详细信息，请查看[如何实现获取 Microsoft Teams？](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
 ## <a name="deploying-walkie-talkie"></a>部署 Walkie Talkie
 
 使用 Google 移动服务 (GMS) 和 iOS 设备的 Android 设备支持 Walkie Talkie。
 
-> [!NOTE]
-> 如果用户使用的是蓝牙配件，请确保移动设备管理 (MDM) 解决方案不会阻止蓝牙设备。
+### <a name="step-1-make-sure-walkie-talkie-is-enabled-in-your-organization"></a>步骤 1：确保在你的组织中启用了 Walkie Talkie
 
-### <a name="enable-or-disable-walkie-talkie-in-your-organization"></a>在组织中启用或禁用 Walkie Talkie
+默认情况下，将为你组织中的所有 Teams 用户启用 Walkie Talkie 应用。
 
-默认情况下，将为你组织中的所有 Teams 用户启用 Walkie Talkie。 你可以在 Microsoft Teams 管理中心的[管理应用](manage-apps.md)页面在组织级别关闭或打开此应用。
+可在 Microsoft Teams 管理中心的 [“管理应用](manage-apps.md) ”页上控制该应用是否在组织级别可用。 若要确认在组织中已启用该应用，请执行以下操作：
 
 1. 在 Teams 管理中心的左侧导航中，转到“**Teams 应用**” > “**管理应用**”。
-2. 在应用列表中，搜索“Walkie Talkie”应用，将其选中，然后将 **“状态”** 切换开关切换为 **“已阻止** ”或 **“允许**”。
+2. 在应用列表中，搜索“Walkie Talkie”应用，将其选中，并确保“ **状态** ”开关设置为 **“允许**”。
 
-### <a name="enable-or-disable-walkie-talkie-for-specific-users-in-your-organization"></a>为组织中的特定用户启用或禁用 Walkie Talkie
+如果要允许或阻止组织中的特定用户使用 Walkie Talkie，请确保在 [“管理应用](manage-apps.md) ”页上为组织启用了 Walkie Talkie。 然后为应用权限创建自定义策略，并将其分配给这些用户。 要了解详细信息，请参阅[在 Teams 中管理应用权限策略](teams-app-permission-policies.md)。
 
-若要允许或阻止组织中的特定用户使用 Walkie Talkie，请确保在 [“管理应用](manage-apps.md) ”页上为你的组织启用了 Walkie Talkie。 然后为应用权限创建自定义策略，将其添加到应用设置策略，并将其分配给这些用户。 若要了解详细信息，请参阅 [在 Teams 中管理应用权限策略](teams-app-permission-policies.md) 和 [在 Microsoft Teams 中管理应用设置策略](teams-app-setup-policies.md)。
-
-### <a name="pin-walkie-talkie-to-teams"></a>将 Walkie Talkie 固定到 Teams
+### <a name="step-2-pin-walkie-talkie-to-teams"></a>步骤 2：将 Walkie Talkie 固定到 Teams
 
 #### <a name="use-the-tailored-frontline-app-experience-to-pin-walkie-talkie-and-other-apps-to-teams"></a>使用定制的一线应用体验将 Walkie Talkie 和其他应用固定到 Teams
 
 Teams 中定制的一线应用体验为拥有 [F 许可证](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt)的用户固定 Teams 中最相关的应用。 固定的应用包括 Walkie Talkie、排班、任务和审批。 默认情况下，此功能处于打开状态，为一线员工提供适合其需求的开箱即用体验。
 
-应用固定到应用栏（Teams 桌面客户端一侧和 Teams 移动客户端底部的栏），用户可以快速轻松地访问应用栏。
+应用被固定到 Teams 移动客户端底部的应用托盘，用户可在其中快速轻松地访问它们。
 
 若要了解详细信息，包括体验如何与设置的应用策略配合使用，请参阅 [为一线员工定制 Teams 应用](/microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)。
 
@@ -124,9 +124,16 @@ Teams 中的 Walkie Talkie 需要 Internet 连接。 要获得最佳体验，需
 > [!NOTE]
 > 这些设备未经过 Teams 认证。 它们已经过验证，可与 Teams Walkie Talkie 配合使用。
 
+## <a name="bluetooth-devices"></a>蓝牙设备
+
+> [!NOTE]
+> 如果用户使用的是蓝牙配件，请确保移动设备管理 (MDM) 解决方案不会阻止蓝牙设备。
+
+在运行 Android OS 版本 12 或更高版本的设备上，需要蓝牙权限，并且不再需要使用 BLE 堆栈进行连接的位置权限。 如果未在 Teams 级别授予“就近权限”，用户将收到蓝牙权限提示。 无论蓝牙配件（如头戴显示设备）是否已连接到其设备，都将显示此提示。 如果蓝牙配件已连接，则点击“ **允许”** 将 Walkie 对讲机连接到蓝牙配件。
+
 ## <a name="more-information"></a>更多信息
 
-- 如果一线员工使用移动数据通过 Teams 进行通信，则 Walkie Talkie 将使用相同的方法。
+- 如果用户使用移动数据通过 Teams 进行通信，则 Walkie Talkie 将使用相同的方法。
 - 对讲机在低带宽情况下或智能手机已连接并正常工作的情况下应能正常工作。 在没有连接的情况下，对讲机将不起作用。
 
 若要详细了解最终用户体验，请参阅：

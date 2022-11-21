@@ -23,12 +23,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: fab22ca4bda45f1f534055a5f43d64358dea8cec
-ms.sourcegitcommit: fcedb958bf555d870215ae84fb83752304944716
+ms.openlocfilehash: fb6e808b162736b5d3e682cf8ae00682b4334388
+ms.sourcegitcommit: baf29d244b428712052553f9e4484e72e727247e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2022
-ms.locfileid: "68486592"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "69046751"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Microsoft Teams 实时事件是什么
 
@@ -97,13 +97,12 @@ Teams 允许组织者创建具有相应与会者权限的事件、指定事件�
 
 ### <a name="enterprise-content-delivery-network-ecdn"></a>企业内容交付网络 (eCDN)
 
-eCDN 的目标是从 Internet 上获取视频内容，然后将内容分发到你的企业中而不受网络性能的影响。 你可以使用下列认证的 eCDN 合作伙伴之一来优化你的网络，以支持组织内主持的实时事件：
+eCDN 的目标是从 Internet 上获取视频内容，然后将内容分发到你的企业中而不受网络性能的影响。 可以使用 [Microsoft 第一方 eCDN 解决方案](/ecdn) ，或者使用以下经认证的 eCDN 合作伙伴之一来优化网络，以便为组织内举行的实时事件优化网络：
 
 - [Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/)
 - [Kollective](https://kollective.com/ecdn-solutions/microsoft-live-events/)
 - [Ramp](https://rampecdn.com)
 - [Riverbed](https://www.riverbed.com/solutions/office-365.html)
-- [Peer5](https://www.peer5.com/)
 
 ### <a name="attendee-experience"></a>与会者体验
 
