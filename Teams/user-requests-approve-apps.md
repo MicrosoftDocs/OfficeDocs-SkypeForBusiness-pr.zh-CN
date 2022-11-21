@@ -11,6 +11,7 @@ ms.date: 09/20/2022
 ms.collection:
 - M365-collaboration
 - m365-frontline
+- tier2
 - highpri
 ms.reviewer: mhayrapetyan
 search.appverid: MET150
@@ -20,12 +21,12 @@ description: 了解如何管理和配置最终用户请求，以批准组织中�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 00c8659d82b4c633790f1b663d11d27e015146f1
-ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
+ms.openlocfilehash: 0be54f15391793ebc63172df05133bb173da426e
+ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "68784387"
+ms.lasthandoff: 11/21/2022
+ms.locfileid: "69131051"
 ---
 # <a name="manage-user-requests"></a>管理用户请求
 

@@ -18,12 +18,12 @@ description: 了解如何将 Adobe Acrobat 设置为默认 PDF 查看器，以�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 546328ade88864f1412a2da6f94caf2d1f44aef8
-ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
+ms.openlocfilehash: 4b278ceba60cf22df93446b671ebefaa48d086a0
+ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "68912821"
+ms.lasthandoff: 11/21/2022
+ms.locfileid: "69131341"
 ---
 # <a name="set-adobe-acrobat-as-the-default-pdf-viewer-in-microsoft-teams"></a>在 Microsoft Teams 中将 Adobe Acrobat 设置为默认 PDF 查看器
 
@@ -39,7 +39,7 @@ ms.locfileid: "68912821"
 
 ## <a name="allow-adobe-acrobat-app-in-your-tenant"></a>允许租户使用 Adobe Acrobat 应用
 
-在设置应用之前，请确保允许在租户中使用该应用，即明确允许 Adobe Acrobat 应用，且应用权限策略允许该应用。 若要将 Adobe Acrobat 设置为 PDF 文件的默认应用，请执行以下步骤：
+若要将应用设置为默认 PDF 查看器，请确保允许在租户 [中使用第三方应用](manage-apps.md#manage-org-wide-app-settings) 。 然后按照以下说明将 Adobe Acrobat 设置为 PDF 文件的默认应用。
 
 1. 登录到 Teams 管理中心并访问 **Teams 应用** > **[管理应用](https://admin.teams.microsoft.com/policies/manage-apps)**。
 
@@ -71,16 +71,17 @@ ms.locfileid: "68912821"
 
 选择保存后，Teams 将使用 Adobe Acrobat 应用作为 PDF 文件的默认文件处理程序。
 
-如果要有选择地允许几个个人或组使用 Adobe Acrobat 应用，可以为 [应用权限分配自定义策略](teams-app-permission-policies.md)。
+如果要有选择地允许几个个人或组使用 Adobe Acrobat 应用，请使用 [应用权限策略](teams-app-permission-policies.md)。
 
 ## <a name="considerations-and-limitations"></a>注意事项和限制
 
 了解有关此功能的以下信息：
 
 * 设置策略后，应用通常需要 [几个小时](teams-app-setup-policies.md#considerations-and-limitations) 才能对用户可用。
-* “查看 PDF 文件”作为选项卡固定在频道中，而在“分配”应用中的“查看 PDF 文件”继续由本机 Teams 体验提供支持。
+* Teams 应用的本机 PDF 体验可用于查看固定在频道中作为选项卡且在“分配”应用中可用的 PDF 文件。
 * 作为 Teams 中默认 PDF 查看器的 Adobe Acrobat 仅适用于桌面版和 Web 客户端。 移动客户端不支持此功能。
 * 用户需要 Adobe Acrobat 计划才能使用高级工具，例如导出 PDF、组织页面、合并文件、压缩 PDF 和保护 PDF。
-* 若要卸载应用，最终用户可以从 Teams 客户端中删除该应用。 管理员可以使用安装策略删除 Adobe Acrobat 应用。
+* 若要卸载应用，最终用户可以从其 Teams 客户端中删除该应用。 管理员可以使用设置策略删除 Adobe Acrobat 应用。
 * 如果阻止 Adobe Acrobat 应用，则从设置策略中删除该应用。 这样会确保最终用户体验还原为使用本机 PDF 文件查看器。
-* 如果在 Teams 桌面客户端中登录到 Adobe Acrobat 应用时遇到任何问题，请在 [浏览器中使用 Teams](https://teams.microsoft.com/) 登录。
+* 如果在 Teams 桌面客户端中登录到 Adobe Acrobat 应用时遇到问题，请在 [浏览器中使用 Teams](https://teams.microsoft.com/) 登录。
+* 需要登录到免费的 [Adobe 帐户](https://acrobat.adobe.com/us/en/) 才能对 PDF 文件进行注释或批注。

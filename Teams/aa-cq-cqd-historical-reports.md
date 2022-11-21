@@ -22,29 +22,31 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: 了解如何使用 Teams 自动助理&呼叫队列历史报告 Power BI 报表来查看自动助理和呼叫队列历史数据。
-ms.openlocfilehash: b57180a339ea7aa1548acf16be1f95d3514c294b
-ms.sourcegitcommit: e5f5a1a164576b317e89340e233c9b67f082d19c
+ms.openlocfilehash: 3db0705ea1321b3ef6d2efef5a01e3283f091cc9
+ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2022
-ms.locfileid: "68890081"
+ms.lasthandoff: 11/21/2022
+ms.locfileid: "69131191"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>自动助理&呼叫队列历史报告
 
 此 Power BI 模板提供三个报表，使组织能够报告自动助理和呼叫队列正在处理的呼叫数。  它还提供代理性能见解。
 
-## <a name="v303-published-on-november-8-2022"></a>V3.0.3 已发布于 2022 年 11 月 8 日
+## <a name="v304-published-on-november-18-2022"></a>V3.0.4 于 2022 年 11 月 18 日发布
 
 Teams 自动助理&呼叫队列历史报告 Power BI 模板提供以下三个报表：
 
-- 自动助理报表显示传入自动助理的呼叫的分析。
-- “呼叫队列”报表显示对进入呼叫队列的呼叫的分析。
-- 代理时间线报表显示呼叫队列调用中处于活动状态的代理的时间线视图。
+- [自动助理](media/aa-cq-historical-report-sample-aa-v304.png)报表显示传入自动助理的呼叫的分析。
+- [“呼叫队列](media/aa-cq-historical-report-sample-cq-v304.png)”报表显示对进入呼叫队列的呼叫的分析。
+- [代理时间线](media/aa-cq-historical-report-sample-at-v304.png)报表显示呼叫队列调用中处于活动状态的代理的时间线视图。
 
 这些报表使用语音应用程序分析收集器 (VAAC) 服务中的数据。
 
 >[!NOTE]
 > 正在跨所有区域收集历史数据。  30 天的历史数据将在不同的时间可用，所有区域不晚于 2022 年 11 月 25 日提供整整 30 天的数据。
+>
+> GCCH/DOD 客户应继续使用 V1.63。
 
 ## <a name="v3xx-prerequisites"></a>V3.x.x 先决条件
 
@@ -64,15 +66,15 @@ Teams 自动助理&呼叫队列历史报告 Power BI 模板提供以下三个报
 
 执行以下步骤：
 
-1. 在计算机上下载并保存 [Teams 自动助理&呼叫队列历史报告V3.0.3.zip](https://www.microsoft.com/download/details.aspx?id=104623) 文件。
+1. 在计算机上下载并保存 [Teams 自动助理&呼叫队列历史报告V3.0.4.zip](https://www.microsoft.com/download/details.aspx?id=104623) 文件。
 
 1. 打开 zip 文件。
 
-1. 打开 `Teams Auto Attendant & Call Queue Historical Reports V3.0.3.pbit` 模板文件。 Power BI Desktop应启动。
+1. 打开 `Teams Auto Attendant & Call Queue Historical Reports V3.0.4.pbit` 模板文件。 Power BI Desktop应启动。
 
 1. 系统将提示你选择 **数据源**。  选择条目 `api.interfaces.records.teams.microsoft.com` 。
 
-  :::image type="content" source="media/aa-cq-historical-report-01-v300.png" alt-text="选择 api.interfaces.records.teams.microsoft.com Data Soure 的屏幕截图":::
+  :::image type="content" source="media/aa-cq-historical-report-01-v304.png" alt-text="选择 api.interfaces.records.teams.microsoft.com Data Soure 的屏幕截图":::
 
 1. 系统将提示你使用帐户登录。 选择“ **组织帐户**”，然后选择“ **登录**”。
 
@@ -91,13 +93,15 @@ Teams 自动助理&呼叫队列历史报告 Power BI 模板提供以下三个报
 ## <a name="v163-published-on-august-24-2022"></a>V1.63 已发布于 2022 年 8 月 24 日
 
 > [!IMPORTANT]
-> 对 V1.63 模板的支持将于 2022 年 11 月 21 日结束。
+> 对 V1.63 模板的公有云支持将于 2022 年 11 月 25 日结束。
+> 
+> GCCH/DOD 客户应继续使用 V1.63。
 
 **Teams 自动助理&呼叫队列历史报告 Power BI 模板** 提供以下三个报表：
 
-- 自动助理报表显示传入自动助理的呼叫的分析。
-- “呼叫队列”报表显示对进入呼叫队列的呼叫的分析。
-- 代理时间线报表显示呼叫队列调用中处于活动状态的代理的时间线视图。
+- [自动助理](media/aa-cq-historical-report-sample-aa-v163.png)报表显示传入自动助理的呼叫的分析。
+- [“呼叫队列](media/aa-cq-historical-report-sample-cq-v163.png)”报表显示对进入呼叫队列的呼叫的分析。
+- [代理时间线](media/aa-cq-historical-report-sample-at-v163.png)报表显示呼叫队列调用中处于活动状态的代理的时间线视图。
 
 这些报表使用 [通话质量仪表板 (CQD) ](CQD-Power-BI-query-templates.md) 数据存储中的数据。 
 
@@ -372,14 +376,25 @@ Teams 自动助理&呼叫队列历史报告 Power BI 模板提供以下三个报
 
 - <sup>1</sup> 自动助理和呼叫队列图中的 **传入呼叫源** 显示最终呼叫腿源，而不是初始呼叫腿源。 例如，如果自动助理接到外部呼叫并将呼叫转接到另一个自动助理或呼叫队列， **则传入呼叫源** 将报告为“内部”。
 
-## <a name="version-history"></a>版本历史记录
+## <a name="version-3xx-history"></a>版本 3.x.x 历史记录
+
+有关更改的详细列表，请参阅：Teams 自动助理&呼叫队列历史报告 - 下载的 zip 文件中的更改Log.docx 
 
 |版本  |发布日期     |文件名                                                           |说明                                         |
 |:--------|:------------------|:------------------------------------------------------------------|:---------------------------------------------------|
-|3.0.3    |2022 年 11 月 8 日   |Teams 自动助理&呼叫队列历史报告 V3.0.3        |请参阅：<br>CQD Teams 自动助理&呼叫队列历史记录报告 - 更改Log.docx下载的 zip 文件中的更改列表                                                                             |
+|3.0.4    |2022 年 11 月 18 日  |Teams 自动助理&呼叫队列历史报告 V3.0.4        |更正了错误，改进了调用分类，添加了图例 |
+|3.0.3    |2022 年 11 月 8 日   |Teams 自动助理&呼叫队列历史报告 V3.0.3        |更正了错误，添加了文档链接，优化了查询 |
 |3.0.1    |2022 年 10 月 26 日   |Teams 自动助理&呼叫队列历史报告 V3.0.1        |删除了测试数据源条目                   |
 |3.0.0    |2022 年 10 月 25 日   |Teams 自动助理&呼叫队列历史报告 V3.0.0        |新建后端数据源                             |
-|1.63     |2022 年 8 月 24 日    |CQD Teams 自动助理&呼叫队列历史报告 V1.63.pbit |请参阅：<br>CQD Teams 自动助理&呼叫队列历史记录报告 - 更改Log.docx下载的 zip 文件中的更改列表                                                                             |
-|1.60     |2022 年 7 月 22 日      |CQD Teams 自动助理&呼叫队列历史报告 V1.60.pbit |请参阅：<br>CQD Teams 自动助理&呼叫队列历史记录报告 - 更改Log.docx下载的 zip 文件中的更改列表                                                                             |
+
+
+## <a name="version-1xx-history"></a>版本 1.xx 历史记录
+
+有关更改的详细列表，请参阅：CQD Teams 自动助理&呼叫队列历史记录报告 - 下载的 zip 文件中的更改Log.docx                         
+
+|版本  |发布日期     |文件名                                                           |说明                                         |
+|:--------|:------------------|:------------------------------------------------------------------|:---------------------------------------------------
+|1.63     |2022 年 8 月 24 日    |CQD Teams 自动助理&呼叫队列历史报告 V1.63.pbit |                                                    |
+|1.60     |2022 年 7 月 22 日      |CQD Teams 自动助理&呼叫队列历史报告 V1.60.pbit |                                                    |
 |1.00     |2020 年 11 月 5 日   |CQ 和 AA 组合分析 20201105.pbit                         |初始版本                                     |
 

@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 489378c365b691184c07d42292fbb4b0d98b663e
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: 1ece44c5adf6d1c23a500988c84f813e438927b0
+ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68377170"
+ms.lasthandoff: 11/21/2022
+ms.locfileid: "69130891"
 ---
 # <a name="manage-user-access-to-teams"></a>管理对 Teams 的用户访问
 
@@ -54,7 +54,7 @@ Teams 用户级别许可证是直接通过 Microsoft 365 管理中心用户管�
 
 |&nbsp;|&nbsp;|
 |---------|---------|
-|![为用户启用 Teams 许可证的屏幕截图 1。](media/assign-teams-licenses-1.png)    | ![为用户启用 Teams 许可证的屏幕截图 2](media/assign-teams-licenses-2.png)        |
+|![为用户启用 Teams 许可证的第 1 个屏幕截图。](media/assign-teams-licenses-1.png)    | ![为用户启用 Teams 许可证的第 2 张屏幕截图](media/assign-teams-licenses-2.png)        |
 
 ### <a name="remove-a-teams-license"></a>删除 Teams 许可证
 
@@ -65,7 +65,7 @@ Teams 用户级别许可证是直接通过 Microsoft 365 管理中心用户管�
 
 |&nbsp;|&nbsp;|
 |---------|---------|
-|![为用户禁用 Teams 许可证的屏幕截图 1。](media/remove-teams-licenses-1.png)    | ![为用户禁用 Teams 许可证的屏幕截图 2](media/remove-teams-licenses-2.png)        |
+|![已为用户禁用 Teams 许可证的屏幕截图 1。](media/remove-teams-licenses-1.png)    | ![为用户禁用 Teams 许可证的第 2 个屏幕截图](media/remove-teams-licenses-2.png)        |
 
 ## <a name="using-powershell"></a>使用 PowerShell
 
@@ -100,7 +100,7 @@ Get-MsolAccountSku
 运行以下命令，其中 \<CompanyName:License> 是组织名称和在前一步中为许可计划所检索的标识符。 例如，ContosoSchool:ENTERPRISEPACK_STUDENT。
 
 ```powershell
-$acctSKU="<CompanyName:License>
+$acctSKU="<CompanyName:License>"
 $x = New-MsolLicenseOptions -AccountSkuId $acctSKU -DisabledPlans "TEAMS1"
 ```
 

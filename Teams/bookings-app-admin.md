@@ -20,15 +20,16 @@ ms.collection:
 - m365solution-healthcare
 - m365solution-scenario
 - m365-frontline
+- tier2
 - highpri
 ms.reviewer: ''
 description: 了解如何在 Teams 中为组织中的用户管理 Bookings 应用。
-ms.openlocfilehash: 3b3db2fed9177c089a27b89264ec85425d4ffbbf
-ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
+ms.openlocfilehash: 4669b27efb351c375d5d5fd1104843e21c6f5ba9
+ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "68784207"
+ms.lasthandoff: 11/21/2022
+ms.locfileid: "69131301"
 ---
 # <a name="manage-the-bookings-app-in-microsoft-teams"></a>在 Microsoft Teams 中管理 Bookings 应用
 

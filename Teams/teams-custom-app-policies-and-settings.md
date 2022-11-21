@@ -13,7 +13,7 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.localizationpriority: medium
+ms.localizationpriority: high
 search.appverid: MET150
 description: 了解如何管理策略和设置，以控制组织中的哪些人可以旁加载应用和上传自定义应用。
 f1.keywords:
@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - seo-marvel-mar2020
-ms.openlocfilehash: 7cf290c3f031becab73523fceb031cae4e0a55a8
-ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
+ms.openlocfilehash: 19f18d89ec2f423c1531639adb630992bdbdc547
+ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "68912411"
+ms.lasthandoff: 11/21/2022
+ms.locfileid: "69130991"
 ---
 # <a name="manage-custom-and-sideloaded-apps-in-teams-admin-center"></a>在 Teams 管理中心管理自定义应用和旁加载应用
 
@@ -41,9 +41,9 @@ Microsoft Teams 允许组织中的开发人员为组织内部用户生成、测�
 
 :::image type="content" source="media/built-for-your-org1.png" alt-text="Teams 桌面应用中 Teams 应用商店中自定义应用的屏幕截图。" lightbox="media/built-for-your-org2.png":::
 
-作为 Teams 管理员，可以使用自定义应用策略和设置来控制组织中的哪些人可以将自定义应用上传到 Microsoft Teams。 管理员决定哪些用户可以上传自定义应用，管理员和团队所有者可以确定组织中的特定团队是否允许向其添加自定义应用。 编辑自定义应用策略后，更改可能需要几个小时才能生效。 必须是全局管理员或 Teams 服务管理员才能管理这些策略。
+作为 Teams 管理员，可以使用自定义应用策略和设置来控制组织中的哪些人可以将自定义应用上传到 Microsoft Teams。 管理员决定哪些用户可以上传自定义应用，管理员和团队所有者可以确定组织中的特定团队是否允许向其添加自定义应用。 编辑自定义应用策略后，更改需要几个小时才能生效。 必须是全局管理员或 Teams 服务管理员才能管理这些策略。
 
-组织内的开发人员可以向 Teams 添加自定义应用程序，方法是将应用包（在 .zip 文件中）直接上传到团队或个人上下文中。 这与通过 Teams 应用商店添加应用程序的方式不同。 通过上传应用包添加自定义应用（也称为旁加载），可以让组织内的特定用户在应用准备广泛分发之前对其进行测试。
+组织内的开发人员可以向 Teams 添加自定义应用程序，方法是将应用包（在 .zip 文件中）直接上传到团队或个人上下文中。 此方法不同于通过 Teams 应用商店添加应用的方式。 通过上传应用包添加自定义应用（也称为旁加载），可以让组织内的特定用户在应用准备广泛分发之前对其进行测试。
 
 <!--- During the creation of an app, the developers create and add an app ID to the manifest file. You can view this external app ID on the Manage apps page after you enable the column `External app ID` from the column settings. You can also view it on the app details page of a custom app. The ID is applicable for custom apps only. --->
 
@@ -119,7 +119,7 @@ Microsoft Teams 允许组织中的开发人员为组织内部用户生成、测�
 
 ### <a name="org-wide-custom-app-setting"></a>组织范围内的自定义应用设置
 
-“[管理应用](manage-apps.md)”页面上的“**允许与自定义应用交互**”组织范围内的自定义应用设置适用于组织中的每个人，并控制他们是否可以上传自定义应用或与之交互。 此设置用作用户和团队自定义应用策略设置的主开/关开关。 它旨在作为安全事件期间的主开/关开关。 因此，即使启用了用户和团队自定义应用策略设置，除非启用了组织范围内的自定义应用设置，否则用户和团队的自定义应用策略设置将不会生效。
+“[管理应用](manage-apps.md)”页面上的“**允许与自定义应用交互**”组织范围内的自定义应用设置适用于组织中的每个人，并控制他们是否可以上传自定义应用或与之交互。 此设置用作用户和团队自定义应用策略设置的主开/关开关。 它旨在作为安全事件期间的主开/关开关。 用户和团队自定义应用策略设置仅在启用组织范围的自定义应用设置后生效。
 
 #### <a name="configure-the-org-wide-custom-app-setting"></a>配置组织范围内的自定义应用设置
 

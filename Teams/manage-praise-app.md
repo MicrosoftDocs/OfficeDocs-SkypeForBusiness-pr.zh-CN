@@ -12,13 +12,14 @@ description: 了解如何在 Microsoft Teams 管理中心管理“表扬”应�
 ms.collection:
 - M365-collaboration
 - m365-frontline
+- tier2
 - highpri
-ms.openlocfilehash: a14b35811158d253aa3a211521c568f23869b043
-ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
+ms.openlocfilehash: 31a185239607c2458636dd6cadc83b7462135112
+ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "68784337"
+ms.lasthandoff: 11/21/2022
+ms.locfileid: "69131171"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 管理中心管理“表扬”应用
 

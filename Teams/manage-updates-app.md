@@ -17,16 +17,17 @@ ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - m365-frontline
+- tier2
 - highpri
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 214ae4f925f3a33e82fb4eac8186f02e0a65cbc2
-ms.sourcegitcommit: e6182aa3b15346dc955333a2bc571565ef463a57
+ms.openlocfilehash: a17ea9ce12382439fb3f52d8e5f42264fb27d992
+ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "68784417"
+ms.lasthandoff: 11/21/2022
+ms.locfileid: "69131041"
 ---
 # <a name="manage-the-updates-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中管理组织的汇报应用
 
