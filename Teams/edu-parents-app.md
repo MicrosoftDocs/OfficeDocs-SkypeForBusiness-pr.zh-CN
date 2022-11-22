@@ -15,14 +15,16 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+ms.custom:
+- admindeeplinkTEAMS
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b4cb61038c08739afcd6a48825f8ddaa0cb7c573
-ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
+ms.openlocfilehash: f2d0d916028a026d7706fd317ba25d16af213a81
+ms.sourcegitcommit: 55d2f515f5040b4c083f529d7b818c84d42378a0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "68912811"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "69147479"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>在 Microsoft Teams 教育版 中设置父连接
 
@@ -42,12 +44,12 @@ Teams 教育版中的家长连接可帮助教师使用 Teams 安全地与课堂�
 家长连接允许教师和监护人使用 Teams 聊天、发送电子邮件和通话。
 
 - 教师可以启动与监护人的聊天。
-  - 如果监护人没有 Teams 使用者帐户或尚未加入 Teams，他们将收到来自教师的消息以及访问 Teams 的电子邮件邀请。 这仅适用于尚未达到邀请限制，并且聊天是从父连接重新输入的新聊天或现有聊天的情况。
+  - 如果监护人没有 Teams 使用者帐户或尚未加入 Teams，他们将收到来自教师的消息以及访问 Teams 的电子邮件邀请。 这仅适用于尚未达到邀请限制，并且聊天是新聊天或已从父连接重新输入的现有聊天的情况。
 - 它适用于监督聊天。 有关详细信息，请参阅 [在 Microsoft Teams 中使用监督式聊天](supervise-chats-edu.md)。
   - 默认情况下，监护人具有受限的权限，因此他们无法与学生聊天或从聊天中删除用户。
   - 租户管理员可更改此设置。
-- 教师可以单击监护人的电子邮件，使用其本机电子邮件客户端向他们发送电子邮件。
-- 教师可以单击监护人的电话号码在 Teams 中呼叫他们。
+- 教师可以选择监护人的电子邮件，以使用其本机电子邮件客户端向他们发送电子邮件。
+- 教师可以选择监护人的电话号码在 Teams 中呼叫他们。
 
 > [!IMPORTANT]
 > 若要单击以调用 Teams 中的功能，租户需要：
@@ -85,12 +87,14 @@ Teams 教育版中的家长连接可帮助教师使用 Teams 安全地与课堂�
   - 在 [支持部门](https://aka.ms/sdssupport)开具票证。
 
 - 目前，SDS 仅支持父联系人基于 CSV 的数据引入;但是，可以将 [PowerSchool API Sync](/schooldatasync/how-to-deploy-school-data-sync-by-using-powerschool-sync) 或 [OneRoster API Sync](/schooldatasync/how-to-deploy-school-data-sync-by-using-oneroster-sync) 用于所有名单数据，只需使用 CSV 添加家长联系人。
-  - 使用 [SDS v1 CSV 同步格式](/schooldatasync/school-data-sync-format-csv-files-for-sds)创建第二个同步配置文件。
-  - 拉取两个填充的 [父文件](/schooldatasync/parent-contact-sync-file-format) ，其余 v1 文件为空， (只是标头) 。
+  - 使用 [SDS v1 CSV 格式](/schooldatasync/school-data-sync-format-csv-files-for-sds) 或 [SDS v2.1 CSV 格式](/schooldatasync/sds-v2.1-csv-file-format-classic)创建第二个同步配置文件。
+  - 拉取两个填充的 [父文件](/schooldatasync/parent-contact-sync-file-format) ，其余 v1/v2.1 文件为空 (仅) 标头。
     - User.csv
     - Guardianrelationship.csv
-      - 需要为每个家长和监护人完成 *角色* 值，以指示他们是 *家长* 还是 *监护人*。
-  - 若要查看 v1 CSV 文件的示例集，请参阅 [最低必需属性 GitHub 文件](https://github.com/OfficeDev/O365-EDU-Tools/tree/master/CSV%20Samples/SDS%20Format/Min%20Required%20Attributes)。
+      - 需要为每个父级和监护人填写 *Role* 值，以指示他们是 还是 `parent` `guardian`。
+        - 应用中仅支持 或 `guardian` 的值`parent`。 其他值将导致错误。
+        - 对于 SDS v1 格式，它将标记为 **角色**，但对于 SDS v2.1 格式，它将标记为 **relationshipRole**。
+  - 若要查看 CSV 文件的示例集，请参阅 [最低必需属性 GitHub 文件](https://github.com/OfficeDev/O365-EDU-Tools/tree/master/CSV%20Samples/SDS%20Format/Min%20Required%20Attributes)。
   - 如果要在初始同步后自动拉取 CSV 文件，请阅读 [CSV 文件同步自动化文档](/schooldatasync/csv-file-sync-automation)。
   - 有关设置 SDS 数据同步的帮助，请联系 [我们的客户成功团队](https://www.microsoft.com/fasttrack?rtc=1) 或 [开具支持票证](https://edusupport.microsoft.com/support?product_id=data_sync)。
 
@@ -98,7 +102,10 @@ Teams 教育版中的家长连接可帮助教师使用 Teams 安全地与课堂�
 
 - 课堂团队所有者必须启用 Teams 聊天。
 - 类团队所有者必须具有外部访问权限，这些 **帐户不是由组织管理的** 已启用。
-  - 必须在租户级别和用户级别启用此功能。 可以在 Teams 管理中心的用户 **>外部访问** 中找到租户级别设置。 还可以通过 PowerShell 访问此设置。 用户级外部访问策略只能通过 PowerShell 进行访问。 有关进一步的指导，请参阅下面的 PowerShell 命令。
+  - 必须在租户级别和用户级别启用此功能。 可以在 Teams 管理中心的 **“用户>外部访问** ”中找到租户级设置。 还可以通过 PowerShell 访问此设置。 用户级外部访问策略只能通过 PowerShell 进行访问。 有关详细信息，请参阅 [下面的 PowerShell 命令](#allow-external-access-with-teams-accounts-not-managed-by-an-organization)。
+- 若要允许从父连接应用创建会议，必须启用以下策略：
+  - [允许私人会议安排](meeting-policies-in-teams.md#allow-scheduling-private-meetings)。
+  - [允许匿名用户加入会议](meeting-policies-participants-and-guests.md#let-anonymous-people-join-a-meeting)。
 
 #### <a name="parent-and-guardian-restrictions"></a>家长和监护人限制
 
@@ -130,7 +137,7 @@ Teams 教育版中的家长连接可帮助教师使用 Teams 安全地与课堂�
 
 下面是为家长和监护人启用外部访问的步骤。
 
-1. 安装最新的 Microsoft Teams PowerShell 模块预览版。
+1. 在此处 [https://www.powershellgallery.com/packages/MicrosoftTeams](https://www.powershellgallery.com/packages/MicrosoftTeams)安装最新的 Microsoft Teams PowerShell 模块。
 
     ```powershell
     Install-Module -Name PowerShellGet -Force -AllowClobber
@@ -156,8 +163,8 @@ Teams 教育版中的家长连接可帮助教师使用 Teams 安全地与课堂�
 
 4. 对于“全局”策略以外的每个策略，请检查为哪些用户分配了策略。
 
-   > [!NOTE]
-   > 未分配特定策略的任何用户都将回退到“全局”策略。 添加到租户的任何新用户都将分配“全局”策略。
+    > [!NOTE]
+    > 未分配特定策略的任何用户都将回退到“全局”策略。 添加到租户的任何新用户都将分配“全局”策略。
 
     ```powershell
     Get-CsOnlineUser -Filter {ExternalAccessPolicy -eq "<PolicyName>"} | Select-Object DisplayName,ObjectId,UserPrincipalName
@@ -187,6 +194,52 @@ Teams 教育版中的家长连接可帮助教师使用 Teams 安全地与课堂�
 随时可以使用 Teams 管理中心中的 [“允许”和“阻止应用](manage-apps.md#allow-and-block-apps) ”在租户级别关闭应用。 如果在租户级别将其关闭，则所有用户都将阻止它，即使打开了用户级权限也是如此。
 
 还可以使用 [Microsoft Teams 中的管理应用权限策略](teams-app-permission-policies.md)在用户级别关闭 Parents 应用。
+
+## <a name="set-a-preferred-invitation-channel"></a>设置首选邀请频道
+
+管理员可以选择电子邮件或短信作为其首选的父连接邀请通道。
+
+发送给家长和监护人的邮件将以纯文本形式显示，不应用 HTML、格式或样式。
+
+> [!NOTE]
+> 如果选择短信作为向家长和监护人发送父连接邀请的首选通道，请注意：
+>
+> - 家长和监护人电话号码必须采用 E.164 格式才能进行短信邀请和个人资料查找。
+>   - 例如，将电话号码的格式设置为 `+[country code][area code][phone number]`，例如 `+12223334444`。
+> - 接收短信邀请的家长和监护人可能会收取移动运营商短信费用。
+
+### <a name="set-a-preferred-invite-channel-in-the-teams-admin-center"></a>在 Teams 管理中心设置首选邀请频道
+
+1. 登录到 [Teams 管理中心](https://go.microsoft.com/fwlink/p/?linkid=2066851)。
+1. 转到 **“教育** > **家长和监护人设置**”。
+1. 在 **“首选联系人方法**”字段中，选择 **“Email**”或“**移动电话 - 短信**”。
+1. 保存更改。
+
+### <a name="set-a-preferred-invite-channel-using-powershell"></a>使用 PowerShell 设置首选邀请通道
+
+1. 在 安装 *4.9.0 或更高版本* 的 Teams PowerShell 模块 [https://www.powershellgallery.com/packages/MicrosoftTeams](https://www.powershellgallery.com/packages/MicrosoftTeams)。
+
+1. 运行以下命令并使用管理员凭据登录。
+
+    ```powershell
+    Connect-MicrosoftTeams
+    ```
+
+1. 运行以下命令以查看 的 `ParentGuardianPreferredContactMethod`当前值。
+
+    ```powershell
+    Get-CsTeamsEducationConfiguration
+    ```
+
+1. 运行以下命令之一来更改值。
+
+    ```powershell
+    Set-CsTeamsEducationConfiguration -ParentGuardianPreferredContactMethod Email
+    ```
+
+    ```powershell
+    Set-CsTeamsEducationConfiguration -ParentGuardianPreferredContactMethod SMS
+    ```
 
 ## <a name="more-information"></a>更多信息
 

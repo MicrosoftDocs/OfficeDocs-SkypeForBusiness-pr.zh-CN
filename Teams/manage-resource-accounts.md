@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: 本文介绍如何在 Microsoft Teams 中创建、编辑和管理资源帐户。
-ms.openlocfilehash: b9c7f5575d5e6df4370c07bf1cd581cbd1a396dd
-ms.sourcegitcommit: 9504b7a67e593f5575060b09b69817325e2a1f77
+ms.openlocfilehash: cde570c23b6d2e6b673f6cc0f49c9905c3b45fd1
+ms.sourcegitcommit: 55d2f515f5040b4c083f529d7b818c84d42378a0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/18/2022
-ms.locfileid: "69111129"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "69147429"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>在 Microsoft Teams 中管理资源帐户
 
@@ -42,13 +42,14 @@ ms.locfileid: "69111129"
 - [云自动助理](create-a-phone-system-auto-attendant.md)
 - [云呼叫队列](create-a-phone-system-call-queue.md)
 
-可以使用“**编辑**”选项编辑资源帐户 **的“显示名称****”和资源帐户** 类型。 完成后，单击“ **保存** ”。
+可以使用“**编辑**”选项编辑资源帐户 **的“显示名称****”和资源帐户** 类型。 完成后，选择“ **保存** ”。
 
-## <a name="change-an-existing-resource-account-to-use-a-teams-phone-resource-account-license"></a>更改现有资源帐户以使用 Teams 电话资源帐户许可证
-若要将现有资源帐户上的许可证从 **Teams 电话标准版** 许可证切换到 **Microsoft Teams 电话资源帐户** 许可证，需要获取 **Teams 电话资源帐户** 许可证，然后按照Microsoft 365 管理中心中的步骤将 [用户移动到其他订阅](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription).
+## <a name="change-an-existing-resource-account-to-use-a-microsoft-teams-phone-resource-account-license"></a>更改现有资源帐户以使用Microsoft Teams 电话资源帐户许可证
+
+若要将现有资源帐户上的许可证从 **Teams 电话标准版** 许可证切换到 **Microsoft Teams 电话资源帐户** 许可证，需要获取 **Microsoft Teams 电话资源帐户** 许可证，然后按照 中的步骤操作Microsoft 365 管理中心 [将用户移动到其他订阅](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription)。
 
 > [!WARNING]
-> 始终删除完整的Teams 电话标准版许可证，并在同一许可证活动中分配 **Microsoft Teams 电话资源帐户** 许可证。 如果删除旧许可证，保存帐户更改，添加新许可证，然后再次保存帐户设置，资源帐户可能不再按预期运行。 如果发生这种情况，我们建议为 **Microsoft Teams 电话资源帐户许可证创建新的资源帐户**，并删除损坏的资源帐户。
+> 始终删除 **Teams 电话标准版** 许可证，并在同一许可证活动中分配 **Microsoft Teams 电话资源帐户** 许可证。 如果删除旧许可证，保存帐户更改，添加新许可证，然后再次保存帐户设置，资源帐户可能不再按预期运行。 如果发生这种情况，我们建议为 **Microsoft Teams 电话资源帐户许可证创建新的资源帐户**，并删除损坏的资源帐户。
 
 ## <a name="skype-for-business-server-2019"></a>Skype For Business Server 2019
 
@@ -74,9 +75,9 @@ ms.locfileid: "69111129"
 
 删除之前，请确保将电话号码与资源帐户取消关联，以避免服务号码停滞在挂起模式。
 
-执行此操作后，可以在“用户”选项卡下的Microsoft 365 管理中心中删除资源帐户。
+执行此操作后，可以在“**用户**”选项卡下的Microsoft 365 管理中心中删除资源帐户。
 
-若要取消与资源帐户的直接路由电话号码的关联，请使用以下 cmdlet：
+若要取消关联资源帐户的直接路由电话号码，请使用以下 cmdlet：
 
 ```powershell
 Remove-CsPhoneNumberAssignment -Identity <Resource Account Object ID> -PhoneNumber <assigned phone number> -PhoneNumberType DirectRouting
