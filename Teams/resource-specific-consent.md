@@ -14,18 +14,16 @@ ms.localizationpriority: high
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb7e4a4487a5411386978fb91a70c485bfa0ddc6
-ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
+ms.openlocfilehash: 374cda125d688c4e38797f1afbee4ae3a55bb064
+ms.sourcegitcommit: d95a3408e31d3dec37c534c110b09a8847bec724
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "68912591"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "69156818"
 ---
 # <a name="resource-specific-consent-in-microsoft-teams"></a>Microsoft Teams 中的资源特定同意
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
-
-特定于资源的同意 (RSC) 是一种 Microsoft Teams 和 Microsoft 图形 API集成，使应用能够使用 API 终结点来管理组织内团队的特定资源。 RSC 权限使团队所有者能够向应用程序授予访问和修改团队数据的许可。 Microsoft Teams 中的资源特定同意使团队所有者能够同意应用访问团队数据。 此类访问的示例包括读取频道消息、创建和删除频道以及创建和删除频道选项卡的功能。
+特定于资源的同意 (RSC) 是一种Microsoft Teams 和Microsoft 图形 API集成，使应用能够使用 API 终结点来管理组织内团队的特定资源。 RSC 权限使团队所有者能够向应用程序授予访问和修改团队数据的许可。 Microsoft Teams 中的资源特定同意使团队所有者能够同意应用访问团队数据。 此类访问的示例包括读取频道消息、创建和删除频道以及创建和删除频道选项卡的功能。
 
 作为管理员，你可以控制组织中的团队所有者是否可以通过你使用 Azure AD (Azure AD) PowerShell 模块或 Azure 门户和 Microsoft Teams 管理中心配置的设置来表示同意。  
 
@@ -49,7 +47,7 @@ ms.locfileid: "68912591"
 
 还可以使用 PowerShell 管理此设置。 若要了解详细信息，请参阅[配置应用程序的用户同意](/azure/active-directory/manage-apps/configure-user-consent#configure-user-consent-to-applications)。
 
-#### <a name="the-enablegroupspecificconsent-setting"></a>“EnableGroupSpecificConsent”设置
+#### <a name="control-to-let-group-owners-consent-to-apps-that-access-company-data"></a>控制以允许组所有者同意访问公司数据的应用
 
 此设置控制组织中的用户是否可以同意应用访问他们拥有的组的公司数据。 必须启用此设置，团队所有者才能表示同意。 有关如何使用 PowerShell 管理此设置的步骤，请参阅[配置组所有者对应用程序的同意](/azure/active-directory/manage-apps/configure-user-consent#configure-group-owner-consent-to-apps-accessing-group-data)。
 
@@ -95,7 +93,7 @@ ms.locfileid: "68912591"
 
 ## <a name="related-articles"></a>相关文章
 
-* [在 Microsoft Graph 中利用 Teams 数据的 RSC 权限](/microsoftteams/platform/graph-api/rsc/resource-specific-consent)
+* [在 Microsoft Graph 中使用 Teams 数据的 RSC 权限](/microsoftteams/platform/graph-api/rsc/resource-specific-consent)
 * [Microsoft Graph](https://developer.microsoft.com/graph)
 * [在 Microsoft Teams 管理中心中管理应用](manage-apps.md)
 * [在 Teams 中管理应用权限策略](teams-app-permission-policies.md)
