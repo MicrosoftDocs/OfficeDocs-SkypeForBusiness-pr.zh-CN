@@ -1,5 +1,5 @@
 ---
-title: 如何使用 Microsoft Teams 面板设备
+title: 如何使用Microsoft Teams 面板设备
 ms.author: dstrome
 author: dstrome
 manager: serdars
@@ -17,22 +17,22 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: 本文提供有关如何使用 Teams 面板设备的指南。
-ms.openlocfilehash: fff3df797e043b83662aacc9a67ef1af45b733a4
-ms.sourcegitcommit: ab8f8e101e41774668b5e607fa72442105ca796e
+ms.openlocfilehash: b5dbe92b1c2c3f08683ca58a403fdbb4e318efca
+ms.sourcegitcommit: 75b29de261b4de652c7f2e89da4ad7158da773f1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2022
-ms.locfileid: "68801773"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "69183001"
 ---
 # <a name="how-to-use-microsoft-teams-panels"></a>如何使用 Microsoft Teams 面板
 
-Microsoft Teams 面板是安装在会议空间外的小型数字显示设备，通常位于入口旁边。 这些触摸屏面板是专用的 Microsoft Teams 设备，可提供有关会议空间和已安排会议的概览视图。 使用充满活力的彩色编码 LED 和主屏幕指示器，可以确定空间是可用还是从远处保留。 可以使用 Teams 面板在现场为临时会议保留可用会议空间。
+Microsoft Teams 面板是安装在会议空间外的紧凑数字显示设备，通常位于入口旁边。 这些触摸屏面板是专用Microsoft Teams 设备，可提供有关会议空间和已安排会议的概览视图。 使用充满活力的彩色编码 LED 和主屏幕指示器，可以确定空间是可用还是从远处保留。 可以使用 Teams 面板在现场为临时会议保留可用会议空间。
 
 Teams 面板设备预装了 Microsoft Teams，并显示通过 Outlook 或 Teams 日历安排的会议详细信息。
 
 本文为最终用户和管理员提供有关如何使用 Teams 面板设备的指南。 它还提供了有关使用这些设备的 [常见问题的](#frequently-asked-questions) 解答。
 
-有关面板设备的概述，以及如何在组织中规划、交付和管理这些设备，请参阅 [部署 Microsoft Teams 面板](teams-panels.md)。
+有关面板设备的概述，以及如何在组织中规划、交付和管理这些设备，请参阅[部署Microsoft Teams 面板](teams-panels.md)。
 
 有关快速入门，请查看 [Teams 面板入门](https://support.microsoft.com/office/get-started-with-teams-panels-fa5e85d1-7ff3-4f11-b0b0-277e2302c8be)。
 
@@ -125,7 +125,7 @@ Teams 面板设备预装了 Microsoft Teams，并显示通过 Outlook 或 Teams 
     :::image type="content" source="../media/panels-right-tile-reserved-adhoc.png" alt-text="显示会议空间是为临时会议保留的主屏幕。":::
 
     > [!NOTE]
-    > 如果会议空间是 Microsoft Teams 会议室，则可以使用会议室内 Microsoft Teams 会议室或 Surface Hub 设备 _加入_ 此 Teams 会议。
+    > 如果会议空间是Microsoft Teams 会议室，则可以使用会议室内Microsoft Teams 会议室或 Surface Hub 设备 _加入_ 此 Teams 会议。
 
 ### <a name="report-a-problem"></a>报告问题
 
@@ -211,6 +211,9 @@ Teams 面板设备预装了 Microsoft Teams，并显示通过 Outlook 或 Teams 
 此功能默认处于禁用状态，但可以根据设备启用此功能。 若要启用此功能，请转到 **“设置”>“设备设置”，>“会议”> Teams 管理员设置** ，然后打开“ **签出**”。
 
 > [!NOTE]
+> 如果在预定的预留结束前释放了会议室，组织者将收到来自该会议室拒绝它的电子邮件。 发生这种情况的原因是会议室从其计划中删除预留，以便其他用户可以预订。 可以忽略拒绝预留的消息。
+
+> [!NOTE]
 > 如果与它配对的Teams 会议室设备处于活动呼叫中，则Teams 面板不能用于释放房间。
 
 #### <a name="enable-or-disable-room-reservations"></a>启用或禁用会议室预留
@@ -231,7 +234,7 @@ Teams 面板设备预装了 Microsoft Teams，并显示通过 Outlook 或 Teams 
 
 默认情况下，会议室容量警告处于禁用状态，但可以按设备启用它们。 若要启用该功能，请执行以下操作：
 
-1. 按照将[Teams 面板与 Android 上的 Microsoft Teams 会议室配对](#pair-a-teams-panel-with-a-microsoft-teams-room-on-android)中的步骤操作。 面板和 Teams 会议室设备必须登录到同一资源帐户。
+1. 按照将[Teams 面板与 Android 上的Microsoft Teams 会议室配对](#pair-a-teams-panel-with-a-microsoft-teams-room-on-android)中的步骤进行操作。 面板和 Teams 会议室设备必须登录到同一资源帐户。
 2. 转到 **“设置”>“设备设置”，>“会议> Teams 管理员设置** ”，然后打开 **“最大会议室占用通知**”。
 
 #### <a name="enable-or-disable-viewing-of-room-equipment"></a>启用或禁用会议室设备的查看
