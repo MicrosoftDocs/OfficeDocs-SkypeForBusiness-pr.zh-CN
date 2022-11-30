@@ -16,12 +16,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: 了解支持Microsoft Teams 会议室的要求，包括选择合适的设备、麦克风、扬声器、相机和显示器。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e400b4776b991c40ea5bede4db6064433abba2e7
-ms.sourcegitcommit: 90c6d2fe8f37afa99b36f50a98bcfdd01bd5ec11
+ms.openlocfilehash: 62e1ca6b2254047a14a11cf4c4c9ffb10477a0e3
+ms.sourcegitcommit: ed7d3b12d4bfe48863de873360c2ae90bbb15530
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "68904767"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69194923"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams 会议室要求
 
@@ -36,9 +36,9 @@ Microsoft Teams 会议室缩放到不同的房间大小。 Teams 会议室根据
 - [基于计划的许可证选项：Microsoft Teams 会议室](rooms-licensing.md)
 
 > [!NOTE]
-> Microsoft Teams 会议室登录到 Microsoft Teams Skype for Business Server 2019 或 2015 Skype for Business Server，并可以加入由任何这些服务托管的会议。
+> Microsoft Teams 会议室登录到 Microsoft Teams、Skype for Business Server 2019 或 2015 Skype for Business Server，并可以加入由这些服务托管的会议。
 >
-> Microsoft Teams 会议室不支持 Lync Server 2013 等早期平台。 Microsoft Teams 会议室在由世纪互联或 DoD 环境运营的 Microsoft 365 或Office 365不受支持。
+> Microsoft Teams 会议室不支持 Lync Server 2013 等早期平台。 Microsoft 365 或由世纪互联运营的 Office 365 或 DoD 环境中不支持Microsoft Teams 会议室。
 >
 > 如果你有本地 Exchange Server，则 Microsoft Teams 会议室需要使用 Exchange Server 2013 SP1 或更高版本。
 
@@ -87,7 +87,7 @@ Teams 会议室[产品展示](https://products.office.com/microsoft-teams/across
   |[HP Presence Small Space Solution Plus AI Camera with Microsoft Teams 会议室](https://www.hp.com/us-en/solutions/presence.html)|Core i5/i7|8 GB/16 GB|256 GB|
   | Lenovo ThinkSmart Hub 500 |Core i5 |8 GB |128 GB |
   |[联想 ThinkSmart Hub](https://news.lenovo.com/pressroom/press-releases/new-thinksmart-hub-collaboration-solution-from-lenovo-helps-organizations-embrace-hybrid-working-model/) |Core i5 |8 GB |128 GB|
-  |联想 ThinkSmart 核心工具包 |Core i5|8 GB|128 GB|
+  |[Lenovo ThinkSmart Core Full Room Kit](https://www.lenovo.com/us/en/p/smart-devices/smart-office/thinksmart/thinksmart-core-full-room-kit-t/len102e0002?orgRef=https%253A%252F%252Fwww.google.com%252F) |Core i5|8 GB|128 GB|
   |[使用 Intel NUC 的 Logitech Tap](https://www.logitech.com/product/microsoft-rooms)|Core i5|8 GB |128 GB |
   |Logitech Tap 和 Intel Tiger Canyon NUC 电脑 |Core i5|8 GB|128 GB|
   |Logitech TAP Console with Lenovo Core Compute |Core i5|8 GB|128 GB|
@@ -236,7 +236,9 @@ Teams 会议室[产品展示](https://products.office.com/microsoft-teams/across
 |[Bose ControlSpace EX-440C DSP + </br>Bose P2600A AmpLink 功放 + Sennheiser TCC2 天花板麦克风 + </br> Bose DesignMax DM2C-P 吸顶扬声器](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html)|  Bose DSP：2.290  </br> P2600A：1.160  </br> TCC2：1.4.2  |  |
 |[Bose ControlSpace EX-1280C DSP](https://pro.bose.com/en_us/products/signal_processing_and_networking/controlspace_ex/cs_ex_1280c.html#v=cs_ex_1280c_black) +</br>Bose P2600A AmpLink 放大器 +</br> [Sennheiser TCC2 天花板麦克风](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html) +</br> [DesignMax DM2C -LP 天花板扬声器](https://pro.bose.com/en_us/products/loudspeakers/background_foreground/designmax/designmax_dm2c_lp.html#v=designmax_dm2c_lp_black) | Bose DSP：2.290  </br> P2600A：1.160  </br> TCC2：1.4.2  | 
 |[Bose ControlSpace EX-1280C DSP](https://pro.bose.com/en_us/products/signal_processing_and_networking/controlspace_ex/cs_ex_1280c.html#v=cs_ex_1280c_black) +</br>Bose P2600A AmpLink 放大器+</br> [Sennheiser TCC2 天花板麦克风](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html) +</br> [EdgeMax EM180 吸顶扬声器](https://pro.bose.com/en_us/products/loudspeakers/background_foreground/edgemax/edgemax_em180.html#v=edgemax_em180_white) | Bose DSP：2.290  </br> P2600A：1.160  </br> TCC2：1.4.2  |
-|QSC Q-SYS Core ([110f](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-110f/)、 [8 Flex](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-8-flex/)、 [Nano](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-nano/) 或 [NV-32-H](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/nv-32-h-core-capable/)) + </br> [Sennheiser TCC2 天花板麦克风](https://en-us.sennheiser.com/tcc2) + </br> QSC 功放 ([SPA 系列](https://www.qsc.com/solutions-products/power-amplifiers/installed/non-network/low-power-applications/spa-series/) 或 [CX-Q 系列](https://www.qsc.com/solutions-products/power-amplifiers/installed/network/cx-q-series/)) + </br> [QSC AcousticDesign 系列扬声器](https://www.qsc.com/solutions-products/loudspeakers/installed/passive/solutions/acousticdesigntm-series-solutions/) + </br> QSC IP 相机 ([PTZ-IP 20x60](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/)、 [PTZ-IP 12x72](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/)) 可选 + </br> [QSC Q-SYS I/O USB 桥可选](https://www.qsc.com/solutions-products/q-sys-ecosystem/audio-io-peripherals/io-usb-bridge/) | QSC Q-SYS Core、PTZ-IP 相机和 I/O USB 桥接：QSC Q-SYS 设计器 9.0.1-2104.022 </br> Sennheiser TCC2 天花板麦克风：TCC2 - 1.5.1，但丁 1.2.0 </br> QSC 放大器：不适用 </br> QSC AcousticDesign 系列扬声器：不适用 | 
+|QSC Q-SYS Core ([110f](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-110f/)、 [8 Flex](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-8-flex/)、 [Nano](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-nano/) 或 [NV-32-H](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/nv-32-h-core-capable/)) + </br> [Sennheiser TCC2 天花板麦克风](https://en-us.sennheiser.com/tcc2) + </br> QSC 功放 ([SPA 系列](https://www.qsc.com/solutions-products/power-amplifiers/installed/non-network/low-power-applications/spa-series/) 或 [CX-Q 系列](https://www.qsc.com/solutions-products/power-amplifiers/installed/network/cx-q-series/)) + </br> QSC AcousticDesign 系列扬声器 + </br> QSC IP 相机 ([PTZ-IP 20x60](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/)、 [PTZ-IP 12x72](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/)) 可选 + </br> [QSC Q-SYS I/O USB 桥可选](https://www.qsc.com/solutions-products/q-sys-ecosystem/audio-io-peripherals/io-usb-bridge/) | QSC Q-SYS Core、PTZ-IP 相机和 I/O USB 桥接：QSC Q-SYS 设计器 9.0.1-2104.022 </br> Sennheiser TCC2 天花板麦克风：TCC2 - 1.5.1，但丁 1.2.0 </br> QSC 放大器：不适用 </br> QSC AcousticDesign 系列扬声器：不适用 | 
+|Q-SYS Core ([110f](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-110f/)、 [8 Flex](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-8-flex/)、 [Nano](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-nano/) 或 [NV-32-H](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/nv-32-h-core-capable/)) + </br> 网络麦克风 ([Sennheiser TCC2](https://en-us.sennheiser.com/tcc2) 或 [AudioTechnica ATND1061](https://www.qsys.com/alliances-partnerships/audio-technica/?L=0)) + </br> Q-SYS 功放 ([SPA 系列](https://www.qsc.com/solutions-products/power-amplifiers/installed/non-network/low-power-applications/spa-series/) 或 [CX-Q 系列](https://www.qsc.com/solutions-products/power-amplifiers/installed/network/cx-q-series/)) + </br> AcousticDesign 系列扬声器 + </br> Q-SYS 网络摄像机 ([PTZ-IP 20x60](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/)、 [PTZ-IP 12x72](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/)、 [NC-12x80](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/)、 [NC 20x60](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/)、 [NC-110](https://www.qsys.com/products-solutions/q-sys/video/nc-series/nc-110-conference-camera/)) 可选 + </br> [Q-SYS I/O USB 桥可选](https://www.qsc.com/solutions-products/q-sys-ecosystem/audio-io-peripherals/io-usb-bridge/) | Q-SYS Core、网络相机和 I/O USB 桥接：Q-SYS 设计器 9.5.0 </br> Sennheiser TCC2 天花板麦克风：TCC2 - 1.5.1，但丁 1.2.0 </br> AudioTechnica ATND1061：1.0.2 </br> Q-SYS 放大器：不适用 </br> AcousticDesign 系列扬声器：不适用 |
+|Q-SYS Core ([110f](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-110f/)、 [8 Flex](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-8-flex/)、 [Nano](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-nano/) 或 [NV-32-H](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/nv-32-h-core-capable/)) + </br> 网络麦克风 ([Sennheiser TCC2](https://en-us.sennheiser.com/tcc2) 或 [AudioTechnica ATND1061](https://www.qsys.com/alliances-partnerships/audio-technica/?L=0)) + </br> Q-SYS 网络扬声器 ([NL-C4](https://www.qsys.com/products-solutions/q-sys/audio-network-loudspeakers/nl-series/nl-c4/) 或 [NL-P4](https://www.qsys.com/products-solutions/q-sys/audio-network-loudspeakers/nl-series/nl-p4/)) + </br>Q-SYS 网络摄像机 ([NC-12x80](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/)、 [NC-20x60](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/)、 [NC-110](https://www.qsys.com/products-solutions/q-sys/video/nc-series/nc-110-conference-camera/)) 可选 + </br> [Q-SYS I/O 桥可选](https://www.qsc.com/solutions-products/q-sys-ecosystem/audio-io-peripherals/io-usb-bridge/) | Q-SYS Core、网络相机、NL 系列扬声器和 I/O USB 桥：Q-SYS 设计器 9.5.0 </br> Sennheiser TCC2 天花板麦克风：TCC2 - 1.5.1，但丁 1.2.0 </br> AudioTechnica ATND1061：1.0.2 |
 |[Vaddio IntelliSHOT-M](https://www.legrandav.com/products/cameras/hd_fixed_camera/intellishot-eptz-camera) | 1.0.0 |
 
 
