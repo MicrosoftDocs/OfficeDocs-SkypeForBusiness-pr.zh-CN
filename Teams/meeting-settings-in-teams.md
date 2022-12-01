@@ -23,12 +23,12 @@ ms.collection:
 - m365initiative-meetings
 - highpri
 description: 了解如何管理用户在组织中安排的 Teams 会议的设置。
-ms.openlocfilehash: 3faff1779830539470ae3d04cc73e58da65a637c
-ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
+ms.openlocfilehash: e5cacfb81cf3bf1ef768051d2094b0a70af93927
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2022
-ms.locfileid: "68583873"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198334"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理会议设置
 
@@ -55,7 +55,7 @@ ms.locfileid: "68583873"
 
     ![管理中心内会议的参与者设置的屏幕截图。](media/meeting-settings-participants.png "Microsoft Teams 管理中心 Teams 会议的参与者设置的屏幕截图")
 
-> [!CAUTION]
+> [!Important]
 > 如果不希望匿名用户加入组织中由用户安排的会议，请关闭此设置。
 
 ### <a name="using-powershell-to-configure-per-organizer-policy"></a>使用 PowerShell 配置按组织者策略
@@ -99,7 +99,7 @@ ms.locfileid: "68583873"
 
 3. 在 **参与者** 下，"匿名 **用户可以与会议中的应用交互** 更改。
 
-> [!CAUTION]
+> [!Important]
 > 如果不希望匿名用户与组织中用户安排的会议中的应用交互，请关闭此设置。
 
 ## <a name="customize-meeting-invitations"></a>自定义会议邀请

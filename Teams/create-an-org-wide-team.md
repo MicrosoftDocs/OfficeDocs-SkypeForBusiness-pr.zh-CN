@@ -18,13 +18,15 @@ ms.collection:
 - ContentEnagagementFY23
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ee17d482c311a4bdd92ebad55e29058104a89b98
-ms.sourcegitcommit: e5f5a1a164576b317e89340e233c9b67f082d19c
+ms.custom:
+- seo-marvel-apr2020
+- chat-teams-channels-revamp
+ms.openlocfilehash: 5acc918c4fbe3994a93020e7b4b09db4ab1671f3
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2022
-ms.locfileid: "68890051"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198914"
 ---
 # <a name="use-organization-wide-teams-in-microsoft-teams-to-help-everyone-collaborate"></a>在 Microsoft Teams 中使用组织范围的团队来帮助每个人进行协作
 
@@ -46,7 +48,7 @@ ms.locfileid: "68890051"
 
 创建组织范围的团队时，所有全局管理员和 Teams 管理员都添加为团队所有者，所有活动用户将添加为团队成员。 团队成员不能离开组织范围的团队，但团队所有者可以根据需要手动添加或删除用户。 当 Teams 自动添加或删除某人时，将向常规频道发送通知。
 
-未经授权的用户也将添加到团队。 未经许可的用户首次登录 Teams 时，会为其分配 Microsoft Teams 探索许可证。 若要了解有关 Exploratory 许可证的详细信息，请查看 [管理 Microsoft Teams Exploratory 许可证](teams-exploratory.md)。
+未经授权的用户也将添加到团队。 未经许可的用户首次登录 Teams 时，系统会为他们分配Microsoft Teams 探索许可证。 若要了解有关 Exploratory 许可证的详细信息，请参阅[管理 Microsoft Teams Exploratory 许可证](teams-exploratory.md)。
 
 以下类型的帐户不会添加到组织范围的团队：
 
@@ -98,4 +100,4 @@ ms.locfileid: "68890051"
 
 ## <a name="related-topics"></a>相关主题
 
-观看有关如何 [在 Microsoft Teams 中创建组织范围的团队](https://www.youtube.com/watch?v=x3qGlwwCz_w)的视频。
+观看有关如何[在 Microsoft Teams 中创建组织范围的团队](https://www.youtube.com/watch?v=x3qGlwwCz_w)的视频。

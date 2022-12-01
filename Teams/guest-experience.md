@@ -1,5 +1,5 @@
 ---
-title: 来宾体验Microsoft Teams
+title: Microsoft Teams 中的来宾体验
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -17,35 +17,37 @@ ms.collection:
 - m365initiative-externalcollab
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-apr2020
-description: 本文介绍Microsoft Teams来宾可用的高级功能。
-ms.openlocfilehash: c7052eb22a68b146c3ee998b57ba877da82e11b4
-ms.sourcegitcommit: 640f55fe6144ff867b41b57e52f45b8a64cf779e
+ms.custom:
+- seo-marvel-apr2020
+- chat-teams-channels-revamp
+description: 本文介绍可供来宾使用Microsoft Teams 功能。
+ms.openlocfilehash: 960688d49f634ff5665fe4e1da2436e9bad669ac
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "63556628"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198904"
 ---
-# <a name="guest-experience-in-teams"></a>来宾体验Teams
+# <a name="guest-experience-in-teams"></a>Teams 中的来宾体验
 
-当来宾受邀加入团队时，他们将收到欢迎电子邮件。 此消息包含有关团队的一些信息，以及成为成员后期望获得的信息。 来宾必须通过在电子邮件中选择"打开Microsoft Teams才能访问团队及其频道来接受邀请。
+邀请来宾加入团队时，他们会收到欢迎电子邮件。 此消息包含有关团队的一些信息，以及他们成为成员后的预期情况。 来宾必须通过选择电子邮件中的“**打开Microsoft Teams**”来接受邀请，然后才能访问团队及其频道。
 
 > [!NOTE]
-> 将来宾添加到团队后，可能需要几个小时才能访问。
+> 将来宾添加到团队后，可能需要几个小时才能获得访问权限。
     
 ![显示欢迎电子邮件示例的屏幕截图。](media/guest-experience-image1.png)
     
-所有团队成员将在频道线索中看到一条消息，告知团队所有者添加了来宾并提供该来宾的姓名。 团队中的所有人都可以轻松识别谁是来宾。 频道线程右上角的标记指示团队中的来宾数，每个来宾的姓名旁边 (来宾 **) 标签。**
+所有团队成员将在频道线索中看到一条消息，告知团队所有者添加了来宾并提供该来宾的姓名。 团队中的所有人都可以轻松识别谁是来宾。 频道线程右上角的标记指示团队中的来宾数，每个来宾名称旁边会显示 **(来宾)** 标签。
 
-![显示标记的屏幕截图，指示团队中的来宾数。](media/guest-experience-image2.png)
+![显示标记的屏幕截图，该标记指示团队中的来宾数。](media/guest-experience-image2.png)
 
-请查看以下视频，了解以下视频中的来宾Teams：
-- [作为Teams加入会议](https://support.microsoft.com/office/join-a-teams-meeting-078e9868-f1aa-4414-8bb9-ee88e9236ee4)
-- [在会议或会议Teams外部来宾](https://support.microsoft.com/office/work-with-external-guests-180ed260-d3ef-4247-9f24-1984fc76d5f0)
+查看以下有关 Teams 中的来宾体验的视频：
+- [以来宾身份加入 Teams 会议](https://support.microsoft.com/office/join-a-teams-meeting-078e9868-f1aa-4414-8bb9-ee88e9236ee4)
+- [在 Teams 会议中与外部来宾协作](https://support.microsoft.com/office/work-with-external-guests-180ed260-d3ef-4247-9f24-1984fc76d5f0)
 
 ## <a name="comparison-of-team-member-and-guest-capabilities"></a>团队成员和来宾功能的比较
 
-下表比较了Teams团队成员及其来宾可用的活动功能。 Teams管理员控制来宾可用的功能。
+下表比较了组织团队成员及其来宾可用的 Teams 功能。 Teams 管理员控制来宾可用的功能。
 
 | Teams 中的功能 | 组织中的 Teams 用户 | 来宾 |
 |:-----|:-----|:-----|
@@ -54,8 +56,8 @@ ms.locfileid: "63556628"
 |参与频道对话  <br/> |&#x2713;|&#x2713;|
 |发布、删除和编辑消息  <br/> |&#x2713;|&#x2713;|
 |共享频道文件  <br/> |&#x2713;|&#x2713;|
-|访问SharePoint文件<br/> |&#x2713;|&#x2713;|
-|附加文件<br/> |&#x2713;|仅频道帖子|
+|访问 SharePoint 文件<br/> |&#x2713;|&#x2713;|
+|附加文件<br/> |&#x2713;|仅限频道帖子|
 |下载私人聊天文件<br/> |&#x2713;|&#x2713;|
 |在文件中搜索<br/> |&#x2713;||
 |共享聊天文件  <br/> |&#x2713;||
@@ -63,14 +65,14 @@ ms.locfileid: "63556628"
 |创建会议或访问计划  <br/> |&#x2713;||
 |访问 OneDrive for Business 存储  <br/> |&#x2713;||
 |创建租户范围和团队/频道来宾访问策略  <br/> |&#x2713;||
-|邀请组织域Microsoft 365 Office 365外部的用户 <br/>  *团队所有者控制此设置。*  <br/> <br/> |&#x2713;||
+|邀请 Microsoft 365 或Office 365组织的域之外的用户 <br/>  *团队所有者控制此设置。*  <br/> <br/> |&#x2713;||
 |创建团队  <br/> |&#x2713;||
 |发现和加入公用团队  <br/> |&#x2713;||
 |查看组织结构图  <br/> |&#x2713;||
 |使用内联翻译  <br/> |&#x2713;||
 |成为团队所有者  <br/> |&#x2713;||
 
-下表显示了与其他类型的用户相比，来宾可用的呼叫和会议功能。
+下表显示了与其他类型的用户相比，来宾可用的通话和会议功能。
 
 | 呼叫功能 | 来宾 | E1 和 E3 用户 | E5 和 企业语音 用户 |
 | --------------- | ----- | -------------- | -------------- |
@@ -103,7 +105,7 @@ ms.locfileid: "63556628"
 <sup>1</sup>即将推出此功能。
 
 > [!NOTE]
-> 目录中 **的来宾用户访问限制** Azure Active Directory (Azure AD) 确定目录中来宾的权限。 有三种政策选择。
+> Azure Active Directory (Azure AD 中的 **来宾用户访问限制** 策略) 确定目录中来宾的权限。 有三种政策选择。
 >  - "**来宾用户拥有与成员（最包容）相同的访问权限**"设置表示来宾与目录中的普通用户一样具有相同的目录数据访问权限。
 >  - "**来宾用户对目录对象的属性和成员身份拥有有限的访问权限** "设置表示来宾对某些目录任务没有权限，如枚举用户、组或其他使用 Microsoft Graph的目录资源。
 >  - "**来宾用户访问权限仅限于其自己的目录对象属性和成员身份（最严格）**"设置表示来宾仅可访问自己的目录对象。

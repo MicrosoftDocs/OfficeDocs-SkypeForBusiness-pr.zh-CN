@@ -18,13 +18,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.deploymentadvisor.overview
+- chat-teams-channels-revamp
 description: 使用 Advisor for Teams 帮助你计划和完成 Microsoft Teams 部署。
-ms.openlocfilehash: 795765459c7796449379fe4c8fb327140a19e9e2
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: e691a224679b8026ec91ecf3b1b5c16f6016c20e
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268817"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198324"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>使用 Advisor for Teams 帮助你推出 Microsoft Teams
 
@@ -142,7 +143,7 @@ Teams 顾问创建部署团队后，顾问机器人就会在“常规”频道�
 >
 
 > [!IMPORTANT]
-> Teams 顾问机器人仅用于向部署团队发送欢迎消息，而不收集任何额外信息。
+> Advisor for Teams 机器人仅用于向部署团队发送欢迎消息。 不会收集额外的数据。
 
 > [!IMPORTANT]
 > 默认情况下会启用 Teams 顾问机器人。 如果你使用或计划使用 Teams 顾问，请不要将其禁用。
@@ -212,7 +213,7 @@ Teams 顾问创建部署团队后，顾问机器人就会在“常规”频道�
 
 自定义你的网站并整理学习计划后，请考虑如何提高用户的认知，鼓励他们使用学习途径进行持续学习。
 
-使用通信频道以推广网站并生成认知。例如，在与用户的交流中加入标准的标语，如“查看我们的培训和支持网站，以了解如何通过 Teams 提高工作效率”。
+Use your communication channels to promote the site and generate awareness. For example, include a standard tagline such as “Check out our training and support site for how to get productive with Teams” in communications to your users.
 
 通过强调用户可以在 Teams 中协作的方式来吸引用户，然后引导他们进入学习路径网站以了解如何操作。
 
@@ -258,7 +259,7 @@ Advisor for Teams 请求你同意收集非 EUII（最终用户标识信息）。
 
 ### <a name="can-i-use-advisor-for-teams-with-fasttrack"></a>能否将 Teams 顾问与 FastTrack 配合使用
 
-可以，FastTrack 利用 Teams 顾问来帮助所有希望部署 Teams 的用户。他们可以使用 Teams 顾问协助部署团队进行初始安装（如果需要），还可在推出 Teams 期间根据需要提供关于特定主题的支持。
+Yes, FastTrack leverages Advisor for Teams for all customers looking to deploy Teams. They can assist with the initial setup of your Deployment team using Advisor for Teams (if required) and also provide as-needed support on specific topics during your Teams rollout.
 
 ### <a name="can-i-use-advisor-for-teams-with-a-partner"></a>能否在与合作伙伴协作的过程中使用 Teams 顾问
 

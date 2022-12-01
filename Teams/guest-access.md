@@ -11,7 +11,9 @@ search.appverid: MET150
 ms.localizationpriority: high
 f1.keywords:
 - CSH
-ms.custom: ms.teamsadmincenter.orgwidesettings.guestaccess.overview
+ms.custom:
+- ms.teamsadmincenter.orgwidesettings.guestaccess.overview
+- chat-teams-channels-revamp
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
@@ -19,12 +21,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 利用 Microsoft Teams 中的来宾访问功能，贵组织中的团队可以通过为贵组织外的人员授予访问团队和频道的权限来与其协作。
-ms.openlocfilehash: d7f850855ab131267b20bae07b015127777a21f4
-ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
-ms.translationtype: HT
+ms.openlocfilehash: 399cd1c0aecb7377292810b26cd123873405f547
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "64839063"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198464"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams 中的来宾访问
 
@@ -35,16 +37,16 @@ ms.locfileid: "64839063"
 
 来宾是组织中没有学校或工作帐户的人。 例如，来宾可以包括合作伙伴、供应商、提供商或顾问。 不属于你的组织的任何人都可作为来宾添加到 Teams 中。 这意味着具有企业帐户（即 Azure Active Directory 帐户）或消费者电子邮件帐户（带有 Outlook.com 和 Gmail.com 等）的任何人都可以在 Teams 中作为来宾进行参与，并且能够访问团队和频道体验。
 
-邀请来宾加入 Teams 时，将会在 Azure Active Directory 中为他们创建来宾帐户，这些帐户与其他 Microsoft 365 用户具有相同的合规性和审核保护。来宾访问受 Azure AD 和 Microsoft 365 服务限制的约束。
+When you invite a guest to Teams, a guest account is created for them in Azure Active Directory and they are covered by the same compliance and auditing protection as other Microsoft 365 users. Guest access is subject to Azure AD and Microsoft 365 service limits.
 
-来宾体验在设计上存在限制。有关来宾在 Teams 中可以和不可执行的操作完整列表，请参阅 [Microsoft Teams 中的来宾访问权限](guest-experience.md)。
+The guest experience has limitations by design. For a full list of what a guest can and can't do in Teams, see [Guest access in Microsoft Teams](guest-experience.md).
 
 > [!IMPORTANT]
-> 来宾用户遵循共存升级模式下的 Teams 组织范围内设置。此设置不能更改。
+> Guests follow Teams Org-wide settings for the coexistence Upgrade mode. This can't be changed.
 
 要将外部访问（联合身份验证）与来宾访问进行比较（并决定应使用哪个），请阅读[与 Teams 中其他组织的用户通信](communicate-with-users-from-other-organizations.md)。
 
-共享频道提供了来宾访问的替代方法，允许你邀请组织外部的人员，而无需使用 Azure AD 中的来宾帐户。如果要将来宾访问与共享频道进行比较，请参阅 [规划外部协作](/microsoft-365/solutions/plan-external-collaboration)。
+Shared channels offer an alternative to guest access, allowing you to invite people outside your organization without requiring a guest account in Azure AD. To compare guest access with shared channels, see [Plan external collaboration](/microsoft-365/solutions/plan-external-collaboration).
 
 若要设置来宾访问，请参阅[在团队中与来宾协作](/microsoft-365/solutions/collaborate-as-team)。 
 

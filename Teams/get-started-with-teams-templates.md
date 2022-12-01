@@ -20,14 +20,15 @@ f1.keywords:
 ms.custom:
 - NewAdminCenter_Update
 - seo-marvel-apr2020
+- chat-teams-channels-revamp
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4560e5845b2f9beabc8227d79bebc889c9d42c37
-ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
+ms.openlocfilehash: cc753913c90703295180765d7961c3747063011f
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/21/2022
-ms.locfileid: "69131121"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198294"
 ---
 # <a name="get-started-with-team-templates-using-microsoft-graph"></a>开始使用 Microsoft Graph 的团队模板
 
@@ -36,7 +37,7 @@ ms.locfileid: "69131121"
 
 Microsoft Teams 中的团队模板是围绕业务需求或项目设计的团队结构的定义。 使用团队模板，可以使用预定义的设置、频道和应用快速轻松地创建丰富的协作空间。 团队模板可帮助你在整个组织中部署一致的团队。
 
-使用 Microsoft Graph，可以 [创建自己的模板](/graph/api/resources/teamtemplate?view=graph-rest-beta) ，或使用 Teams 附带的预生成团队模板来创建团队。 在本文中，你将了解可在模板中定义的属性，以及仅适用于 Microsoft Graph 的预生成模板。
+使用 Microsoft Graph，可以[创建自己的模板](/graph/api/resources/teamtemplate?view=graph-rest-beta&preserve-view=true)，或使用 Teams 随附的预生成团队模板来创建团队。 在本文中，你将了解可在模板中定义的属性，以及预生成的模板，这些模板仅适用于 Microsoft Graph。
 
 如果你在以下的情况下，本文适合你：
 
@@ -78,5 +79,5 @@ Microsoft Teams 中的团队模板是围绕业务需求或项目设计的团队�
 ## <a name="related-articles"></a>相关文章
 
 - [在管理中心内开始使用 Teams 模板](get-started-with-teams-templates-in-the-admin-console.md)
-- [创建](/graph/api/team-post?view=graph-rest-beta) 预览版团队 () 
-- [New-Team](/powershell/module/teams/New-Team?view=teams-ps)
+- [创建](/graph/api/team-post?view=graph-rest-beta&preserve-view=true) 预览版团队 () 
+- [New-Team](/powershell/module/teams/New-Team?view=teams-ps&preserve-view=true)

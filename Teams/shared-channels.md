@@ -8,6 +8,7 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
+ms.custom: chat-teams-channels-revamp
 ms.collection:
 - M365-collaboration
 - m365initiative-securecollab
@@ -18,12 +19,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 了解如何在 Microsoft Teams 中使用和管理共享频道。
-ms.openlocfilehash: ff975d406426bd85789541c0a7cfb0aba57cdf60
-ms.sourcegitcommit: b535a70df5bc842f597889582df3eb86371f8139
+ms.openlocfilehash: b7f151b68bf37ccf3e14e3a442b4d2b1c6acc52f
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2022
-ms.locfileid: "68869675"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69199144"
 ---
 # <a name="shared-channels-in-microsoft-teams"></a>Microsoft Teams 中的共享频道
 
@@ -69,7 +70,7 @@ Shared channels is enabled by default in Teams. You can choose if people can cre
 
 如果共享频道所有者是一个或多个共享频道的最后一个所有者，则无法通过 Teams 客户端将其删除。
 
-如果最后一个共享频道所有者离开你的组织，或者他们从与团队关联的 Microsoft 365 组中删除，则组织中的共享频道成员将自动提升为共享频道所有者。 如果没有来自组织的成员要推广，共享频道将保持无所有者身份。 Teams 管理员必须手动分配频道所有者。 请考虑添加多个所有者以避免出现这种情况。
+如果最后一个共享频道所有者离开你的组织，或者他们从与团队关联的 Microsoft 365 组中删除，则组织中的共享频道的成员将自动提升为共享频道所有者。 如果没有来自组织的成员要推广，共享频道将保持无所有者身份。 Teams 管理员必须手动分配频道所有者。 请考虑添加多个所有者以避免出现这种情况。
 
 来宾（包括在其用户类型属性)  (转换为成员的来宾）无法添加到共享频道。
 

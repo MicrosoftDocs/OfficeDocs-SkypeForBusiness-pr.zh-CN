@@ -12,21 +12,22 @@ audience: admin
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
+ms.custom: chat-teams-channels-revamp
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: dc4e7e88e855432f17c7daed9584e20e0e4739f1
-ms.sourcegitcommit: fcbbc197e43bcd63bf95cb329df9cb52e06ee356
+ms.openlocfilehash: 93b8b06238b0f6e15ab5fac5dcb0caeece819d9e
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2022
-ms.locfileid: "68842110"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198354"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>设置团队目标层次结构
 
 设置团队目标层次结构将允许组织将内容发布到一大组团队。 团队目标层次结构定义层次结构中的所有团队彼此之间的关系、哪些用户可以发布任务，以及哪些团队用户有权发布到。 除非为组织设置了团队目标层次结构，否则将禁用所有用户的发布功能。 若要设置团队目标层次结构，需要创建一个定义层次结构的文件，然后将其上传到 Teams 以将其应用于组织。 上传架构后，Teams 中的应用可以使用它。
 
 > [!IMPORTANT]
-> 对于初始版本，只有任务应用支持分层团队。  将团队目标层次结构应用于组织将在任务应用中启用 [任务发布](https://support.microsoft.com/office/publish-task-lists-to-create-and-track-work-in-your-organization-095409b3-f5af-40aa-9f9e-339b54e705df) 。 你不会在 Microsoft Teams 的其他区域中看到团队层次结构。
+> 对于初始版本，只有任务应用支持分层团队。  将团队目标层次结构应用于组织将在任务应用中启用 [任务发布](https://support.microsoft.com/office/publish-task-lists-to-create-and-track-work-in-your-organization-095409b3-f5af-40aa-9f9e-339b54e705df) 。 在Microsoft Teams 的其他区域中看不到团队的层次结构。
 
 下面是如何在 Teams 中的“任务”应用中表示层次结构的示例。 创建任务列表后，发布团队的成员可以选择要发送 (发布) 任务列表的收件人团队。 选择团队时，发布团队可以按层次结构、属性或两者的组合进行筛选。<br>
 
@@ -198,7 +199,7 @@ Remove-TeamTargetingHierarchy
 ### <a name="install-the-teams-powershell-module"></a>安装 Teams PowerShell 模块
 
 > [!IMPORTANT]
-> 若要执行此步骤，必须从 [PowerShell 库](https://www.powershellgallery.com/packages/MicrosoftTeams/)安装并使用 Teams PowerShell 模块。 有关如何安装模块的步骤，请参阅 [安装 Microsoft Teams PowerShell 模块](teams-powershell-install.md)。
+> 若要执行此步骤，必须从 [PowerShell 库](https://www.powershellgallery.com/packages/MicrosoftTeams/)安装并使用 Teams PowerShell 模块。 有关如何安装模块的步骤，请参阅[安装 Microsoft Teams PowerShell 模块](teams-powershell-install.md)。
 
 ### <a name="sample-script"></a>示例脚本
 
@@ -266,7 +267,7 @@ Error: InvalidTeamId
 Description: TeamID in row # doesn't match a valid Group ID. Please view our documentation to learn how to get the proper GroupID for each team.
 ```
 
-检查以确保在架构 CSV 文件中为团队使用正确的 TeamId。 TeamId 应与为团队提供后盾的 Microsoft 365 组的组 ID 相同。 可以在 Microsoft Teams 管理中心中查找团队的组 ID。
+检查以确保在架构 CSV 文件中为团队使用正确的 TeamId。 TeamId 应与后备团队的 Microsoft 365 组的组 ID 相同。 可以在 Microsoft Teams 管理中心中查找团队的组 ID。
 
 1. 在 [Microsoft Teams 管理中心](https://admin.teams.microsoft.com/)的左侧导航栏中，转到 **“Teams** > **管理团队**”。
 2. 如果表中未显示 **“组 ID** ”列，请选择表格右上角的“ **编辑列** ”，然后打开 **“组 ID**”。

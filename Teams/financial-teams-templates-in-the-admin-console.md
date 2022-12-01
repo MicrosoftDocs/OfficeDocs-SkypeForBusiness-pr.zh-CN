@@ -17,14 +17,15 @@ f1.keywords:
 ms.custom:
 - NewAdminCenter_Update
 - seo-marvel-apr2020
+- chat-teams-channels-revamp
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 51ec855bc9065bb65c0f6eae14a3e41683cfbc6f
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
-ms.translationtype: HT
+ms.openlocfilehash: 096bab4289d5ac9e81c63f83cd73efd41d98e7be
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60046128"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198685"
 ---
 # <a name="use-financial-team-templates"></a>使用财务团队模板
 
@@ -38,7 +39,7 @@ Teams 包括专为金融服务组织设计的模板。 使用这些预建模板�
 
 |如果是： | 然后，可以： |
 | ---- | --------- |
-| 管理人员或 IT 专业人员 |[在 Teams 管理中心中管理团队模板](#manage-team-templates-in-the-teams-admin-center)。查看团队模板，并应用模板策略，以控制员工可以在 Teams 中使用哪些模板来创建团队。 |
+| 管理人员或 IT 专业人员 |[Manage team templates in the Teams admin center](#manage-team-templates-in-the-teams-admin-center). View team templates and apply templates policies to control which templates your staff can use in Teams for creating teams. |
 | 开发人员 | [使用 Microsoft Graph ](#use-team-templates-with-microsoft-graph) 从团队模板中创建团队。 |
 
 ## <a name="manage-team-templates-in-the-teams-admin-center"></a>Teams 管理中心的管理团队模板
@@ -60,7 +61,7 @@ Teams 包括专为金融服务组织设计的模板。 使用这些预建模板�
 
 ## <a name="use-team-templates-with-microsoft-graph"></a>将 Teams 模板与 Microsoft Graph 一起使用
 
-开发人员可以使用 Microsoft Graph 基于预建的团队模板创建团队。若要详细了解如何将团队模板与 Microsoft Graph 配合使用，请参阅[使用 Microsoft Graph 团队模板入门](get-started-with-teams-templates.md)，[Microsoft Teams API 概述](/graph/teams-concept-overview?view=graph-rest-1.0)，[teamsTemplate 资源类型](/graph/api/resources/teamstemplate?view=graph-rest-1.0)。
+Developers can use Microsoft Graph to create teams from pre-built team templates. To learn more about using team templates with Microsoft Graph, see [Get started with team templates using Microsoft Graph](get-started-with-teams-templates.md), [Microsoft Teams API overview](/graph/teams-concept-overview?view=graph-rest-1.0&preserve-view=true), and [teamsTemplate resource type](/graph/api/resources/teamstemplate?view=graph-rest-1.0&preserve-view=true).
 
 ### <a name="bank-branch"></a>银行分支机构
 

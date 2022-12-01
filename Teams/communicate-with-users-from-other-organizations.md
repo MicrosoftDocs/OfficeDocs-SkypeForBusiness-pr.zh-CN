@@ -7,6 +7,7 @@ ms.reviewer: vinbel, luises
 ms.topic: article
 ms.service: msteams
 audience: admin
+ms.custom: chat-teams-channels-revamp
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
@@ -18,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
 description: 了解如何使用外部访问和来宾访问在 Microsoft Teams 中与组织外部的人员进行通话和聊天以及查找和添加这些人员。
-ms.openlocfilehash: 14b1bee39caacc6465c64dbb2151cbeed936b3ff
-ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
+ms.openlocfilehash: f416453a93c07945f9df55c863f76cbb8b736a78
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "67418461"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198314"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>使用来宾访问权限和外部访问权限与组织外部的人员进行协作
 
@@ -44,16 +45,16 @@ ms.locfileid: "67418461"
 
 外部访问可供以下租户使用：
 - 托管企业帐户
-     - 仅在商业之间
+     - 仅限商业版之间
      - 仅在 GCC 之间
      - 仅在 GCC High 之间
      - 仅在 DOD 之间
 - 非托管 (个人) 帐户
      - 仅在商业帐户和个人帐户之间
 - Skype for Business互操作
-     - 在商业、GCC、GCC High 和 DoD 之间和跨区域
+     - 在商业、GCC、GCC High 和 DoD 之间和跨
 - Skype 互操作
-     - 仅在商业版和 Skype 之间
+     - 仅限商业版和 Skype 之间
 
 若要配置外部访问，请参阅[管理外部访问](manage-external-access.md)。 
 
@@ -64,7 +65,7 @@ ms.locfileid: "67418461"
 
 使用来宾访问将组织外部人员添加到团队，他们可在其中聊天、通话、开会和协作处理文件。 来宾可以获得几乎与本地团队成员相同的 Teams 功能。 有关详细信息，请参阅 [Teams 中的来宾体验](guest-experience.md)。
 
-来宾作为 B2B 协作用户添加到组织的 Azure Active Directory，并且必须使用其来宾帐户登录到 Teams。 这意味着，他们可能需要从自己的组织注销才能登录到你的组织。
+来宾作为 B2B 协作用户添加到组织的 Azure Active Directory，必须使用其来宾帐户登录到 Teams。 这意味着，他们可能需要从自己的组织注销才能登录到你的组织。
 
 来宾访问权限可供以下租户使用：
 
@@ -116,7 +117,7 @@ ms.locfileid: "67418461"
 <sup>1</sup> 前提是已将用户添加为来宾，并且对方已使用来宾帐户登录。<br>
 <sup>2</sup> 仅通过电子邮件或会话初始协议 (SIP) 地址。<br>
 <sup>3</sup> 支持来自不同组织的仅 Teams 对仅 Teams 用户的一对一聊天。 <br>
-<sup>4</sup> 默认情况下，外部参与者无法看到已拨入的参与者的电话号码。如果想要维持这些电话号码的隐私，请为“**进入/退出公告类型**”选择“**音调**”（这会阻止 Teams 读取号码）。若要了解更多详细信息，请参阅 [在 Microsoft Teams 中打开或关闭会议的进入和退出公告](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)。<br>
+<sup>4</sup> By default, external participants can't see the phone numbers of dialed-in participants. If you want to maintain the privacy of these phone numbers, select **Tones** for **Entry/exit announcement type** (this prevents the numbers from being read out by Teams). To learn more, read [Turn on or off entry and exit announcements for meetings in Microsoft Teams](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md). <br>
 <sup>5</sup> 默认允许，但可由 Teams 管理员禁用
 
 ## <a name="related-topics"></a>相关主题

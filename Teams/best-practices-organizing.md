@@ -16,13 +16,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 959a2936a762584ceee8c3292cc9ced343d33fc5
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.custom:
+- seo-marvel-mar2020
+- chat-teams-channels-revamp
+ms.openlocfilehash: bfaf40e383f5690641b28e833bf03e6f12c0023a
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562751"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198534"
 ---
 # <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>在 Microsoft Teams 中组织团队的最佳做法
 
@@ -47,7 +49,7 @@ ms.locfileid: "66562751"
 
 最佳做法：创建包含更大一组成员和更多频道的团队。 最大限度地减少需要个人参与的团队数量。 应将团队中的频道看作是主题或工作流程，用于帮助团队组织工作来实现共同目标。 没有要求应创建特定数量的频道。 每个团队都应根据自身的工作、优先级和风格来设计频道。
 
-对团队中每个人都可以参与的对话使用标准频道。 当你需要具有一组选择的团队成员的专注协作空间时，请利用 [专用频道](private-channels.md) 。 需要与团队外部人员协作时，请使用 [共享频道](shared-channels.md) 。
+对团队中每个人都可以参与的对话使用标准频道。 当你需要一个重点协作空间和一组精选的团队成员时，可以利用 [专用频道](private-channels.md) 。 需要与团队外部人员协作时，请使用 [共享频道](shared-channels.md) 。
 
 更大型的组织不妨将团队创建为“模板”，以标准化捕获到的特定类型工作相关信息。 这对于战略客户管理、课堂管理、医疗保健方案、索赔管理、事件管理以及适用于特定行业的其他方案很有用。 若要了解详细信息，请查看[开始使用 Teams 模板](get-started-with-teams-templates.md)和[适用于中小型企业的 Teams 模板](smb-templates.md)。
 

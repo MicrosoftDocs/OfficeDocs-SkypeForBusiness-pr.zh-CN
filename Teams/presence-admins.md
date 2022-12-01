@@ -8,7 +8,9 @@ ms.service: msteams
 audience: admin
 ms.reviewer: rakayala
 description: 了解 Teams 中的状态以及状态功能的管理设置。
-ms.custom: seo-marvel-apr2020
+ms.custom:
+- seo-marvel-apr2020
+- chat-teams-channels-revamp
 ms.localizationpriority: high
 search.appverid: MET150
 ms.collection:
@@ -17,12 +19,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b28dfccd79c99d633d56480963f06632cd758ae
-ms.sourcegitcommit: 72b6f7ab2a44dec395622bfe64119a48094960bd
+ms.openlocfilehash: 2f2969af142828ca5d478f29f2afee319ada91b7
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/08/2022
-ms.locfileid: "67283093"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198584"
 ---
 # <a name="user-presence-in-teams"></a>Teams 中的用户状态
 
@@ -47,13 +49,13 @@ ms.locfileid: "67283093"
 || ![空心红色圆圈，表示忙碌。](media/Presence_Busy_OOF.png) 正在通话，外出|
 |  ![带白线的红色圆圈，表示请勿打扰。](media/Presence_DND.png) 请勿打扰 ||
 || ![带白线的红色圆圈，表示正在演示。](media/Presence_DND.png) 正在演示|
-|| ![带白线的红色圆圈，表示正在专注。](media/Presence_DND.png) 正在专注。当用户在日历的 MyAnalytics/Insights 中安排专注时间后，就会发生专注。|
+|| ![带白线的红色圆圈，表示正在专注。](media/Presence_DND.png) 专注。 当用户在日历的 MyAnalytics/Insights 中安排专注时间时，就会发生专注。|
 | ![黄色时钟图标，表示离开。](media/Presence_Away.png) Away - 离开| ![黄色时钟图标，表示离开。](media/Presence_Away.png) Away - 离开|
 || ![黄色时钟图标，表示离开](media/Presence_Away.png)上次上线 *时间* 离开|
 |![黄色时钟图标，表示离开但马上回来。](media/Presence_Away.png) 马上回来| |
-|![带 x 的灰色圆圈，表示脱机。](media/Presence_Offline.png) 显示为脱机|![带 x 的灰色圆圈，表示脱机](media/Presence_Offline.png) 脱机。如果用户在几分钟内未登录其任何设备，则将显示为脱机。 |
+|![带 x 的灰色圆圈，表示脱机。](media/Presence_Offline.png) 显示为脱机|![带 x 的灰色圆圈，表示脱机](media/Presence_Offline.png) 脱机。  当用户在几分钟内未登录其任何设备时，他们将显示为脱机。 |
 || ![空心灰色圆圈，表示未知状态。](media/Presence_Unknown.png) 未知状态|
-|| ![带箭头的紫色圆圈，表示外出。](media/Presence_OOF.png) 外出。设置自动答复后，将使用外出。 |
+|| ![带箭头的紫色圆圈，表示外出。](media/Presence_OOF.png) 外出。 设置自动答复时，将使用“外出”。 |
 
  > [!NOTE]
  > 对于将邮箱托管到本地的用户，预期存在一个小时（上限）的状态延迟。
@@ -91,7 +93,7 @@ ms.locfileid: "67283093"
 
 以下管理员设置在 Skype for Business 和 Teams 中是不同的：
 
-- 在 Teams 中，除非启用隐私模式，否则始终为组织中的用户启用状态共享。 在隐私模式下，外部用户看不到状态。
+- 在 Teams 中，除非启用了隐私模式，否则始终为组织中的用户启用状态共享。 在隐私模式下，状态对外部用户不可见。
 - 在 Teams 中，“与所有人(包括联合服务)共享状态”对用户始终是启用的。 在“聊天”>“联系人”或“通话”>“联系人”下，可以看到用户的联系人列表（如果 Skype for Business 中有）。
 - 在 Teams 中，“客户端请勿打扰”和“特许”功能对用户始终是启用的。
 - 如果 Teams 已与 Outlook 集成，“日历(包括外出和其他日历信息)集成”对用户始终是启用的。

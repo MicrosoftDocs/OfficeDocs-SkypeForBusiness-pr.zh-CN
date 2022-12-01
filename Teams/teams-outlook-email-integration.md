@@ -9,17 +9,18 @@ ms.service: msteams
 ms.reviewer: kblevens
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 了解如何启用和禁用 Microsoft Teams 对话的可操作活动电子邮件
+description: 了解如何启用和禁用Microsoft Teams 对话的可操作活动电子邮件
 ms.collection:
 - M365-collaboration
+ms.custom: chat-teams-channels-revamp
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43435c436685c53e0ad077887a9fe9d991cf2d61
-ms.sourcegitcommit: f5480d0ca34b3160980a4b46b5afa34271293a26
+ms.openlocfilehash: de1bd12a0f079154a37156e3a01c3e5791bef10c
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2022
-ms.locfileid: "68899686"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198504"
 ---
 # <a name="manage-actionable-activity-emails"></a>管理可操作的活动电子邮件
 

@@ -15,16 +15,17 @@ f1.keywords:
 ms.custom:
 - NewAdminCenter_Update
 - seo-marvel-apr2020
+- chat-teams-channels-revamp
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e9178bb793f25d9c052041432c20af4be8fb4033
-ms.sourcegitcommit: 57616ad45eaa8be7f78dd0126d324c8777c5a367
+ms.openlocfilehash: 79a9472286a7e08e8c6dce4c4f40d76b7e4f2b4e
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2022
-ms.locfileid: "68792781"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198964"
 ---
 # <a name="archive-or-delete-a-team-in-microsoft-teams"></a>在 Microsoft Teams 中存档或删除团队
 
@@ -69,9 +70,9 @@ ms.locfileid: "68792781"
 
 ## <a name="restore-a-deleted-team"></a>还原已删除的团队
 
-按照以下步骤通过还原与团队关联的 Microsoft 365 组来还原已删除的团队。 为团队还原 Microsoft 365 组会还原团队内容，包括选项卡、标准频道和专用频道及其关联的网站集。
+按照以下步骤通过还原与团队关联的 Microsoft 365 组来还原已删除的团队。 还原团队的 Microsoft 365 组可还原团队内容，包括选项卡、标准频道和专用频道及其关联的网站集。
 
-默认情况下，已删除的 Microsoft 365 组将保留 30 天。 这 30 天时间被称为“软删除”，因为还可以对组进行还原。 若要了解详细信息，请参阅 [还原已删除的组](/microsoft-365/admin/create-groups/restore-deleted-group)。
+默认情况下，已删除Microsoft 365 组保留 30 天。 这 30 天时间被称为“软删除”，因为还可以对组进行还原。 若要了解详细信息，请参阅 [还原已删除的组](/microsoft-365/admin/create-groups/restore-deleted-group)。
 
 ### <a name="install-the-azureadpreview-module"></a>安装 AzureADPreview 模块
 
@@ -102,7 +103,7 @@ ms.locfileid: "68792781"
 
     提示登录时，请使用管理员帐户和密码登录。
 
-1. 运行以下命令以显示仍在 30 天保留期内的所有软删除 Microsoft 365 组的列表。 如果有多个组，请使用 **-All $True** 参数。
+1. 运行以下命令以显示 30 天保留期内的所有软删除Microsoft 365 组的列表。 如果有多个组，请使用 **-All $True** 参数。
 
     ```PowerShell
     Get-AzureADMSDeletedGroup

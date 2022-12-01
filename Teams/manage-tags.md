@@ -8,19 +8,20 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
+ms.custom: chat-teams-channels-revamp
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 了解如何在 Microsoft Teams 中管理组织中的标记使用方式。
-ms.openlocfilehash: 56a2daf53c362accec8059b11fba400547a7b6ff
-ms.sourcegitcommit: b535a70df5bc842f597889582df3eb86371f8139
+description: 了解如何在 Microsoft Teams 中管理组织中标记的使用方式。
+ms.openlocfilehash: ddf7956486db8bbd483ddde9d51c568450a7fe45
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2022
-ms.locfileid: "68869557"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69199114"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>在 Microsoft Teams 中管理标记
 
@@ -50,7 +51,7 @@ Microsoft Teams 中的标记允许用户快速轻松地与团队中的一部分�
 
 ## <a name="manage-tags-for-your-organization"></a>管理组织的标记
 
-作为管理员，可以在 Microsoft Teams 管理中心控制整个组织中的标记使用方式。 请注意，不能使用 PowerShell 来管理标记。
+作为管理员，可以在 Microsoft Teams 管理中心中控制整个组织中的标记使用方式。 请注意，不能使用 PowerShell 来管理标记。
 
 :::image type="content" source="media/manage-tags-admin-settings-shifts.png" alt-text="Microsoft Teams 管理中心中的标记设置的屏幕截图。":::
 
@@ -60,7 +61,7 @@ Microsoft Teams 中的标记允许用户快速轻松地与团队中的一部分�
 
 默认情况下，团队所有者可以创建、编辑和删除标记。 可以更改 **“谁可以管理标记** ”设置以允许团队所有者和团队成员管理标记，也可以关闭组织的标记。
 
-1. 在 Microsoft Teams 管理中心的左侧导航栏中，单击“ **Teams** \> **Teams 设置**”。
+1. 在 Microsoft Teams 管理中心的左侧导航栏中，单击“**Teams** \> **Teams 设置**”。
 
 2. 在 **“标记”** 下的“ **谁可以管理标记**”旁边，选择以下选项之一：
 
@@ -72,7 +73,7 @@ Microsoft Teams 中的标记允许用户快速轻松地与团队中的一部分�
 
 可以配置以下标记设置，以控制如何在组织中使用标记。
 
-1. 在 Microsoft Teams 管理中心的左侧导航栏中，单击“ **Teams** \> **Teams 设置**”。
+1. 在 Microsoft Teams 管理中心的左侧导航栏中，单击“**Teams** \> **Teams 设置**”。
 
 2. 在 **“标记”** 下，根据组织的需要设置以下内容。
 
