@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: 了解哪些 USB 外设和设备 (，例如头戴显示设备、免提电话、网络摄像头和监视器，) 已通过 Microsoft Teams 认证。
-ms.openlocfilehash: dcee4b84795ad825ccbd81ef30f3f44b745cfb82
-ms.sourcegitcommit: ed7d3b12d4bfe48863de873360c2ae90bbb15530
+ms.openlocfilehash: 8a767eb2572012496dc5dba94e989f969f12df27
+ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2022
-ms.locfileid: "69194933"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "69242306"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>经 Microsoft Teams 认证的 USB 音频和视频设备
 
@@ -81,7 +81,7 @@ ms.locfileid: "69194933"
 
 ## <a name="certified-devices"></a>认证设备
 
-*表 2022 年 10 月更新*
+*表已于 2022 年 11 月更新*
 
 > [!NOTE]
 > 日期格式为 MM/DD/YYYY。
@@ -93,7 +93,7 @@ ms.locfileid: "69194933"
 |Cisco                |桌面相机 4K                                             |10/15/2022      |Microsoft Teams 认证                           |
 |EPOS                 |EXPAND Vision 1/S6                                         |10/13/2022      |Microsoft Teams 认证                           |
 |联想               |Go USB-C ANC In-Ear Headphones                             |9/20/2022       |Microsoft Teams 认证                           |
-|Logi                 |Brio 500/505 相机                                       |9/14/2022       |Microsoft Teams 认证                           |
+|Logi                 |Brio 500/505/501 相机                                   |9/14/2022       |Microsoft Teams 认证                           |
 |Jabra                |参与 50 II                                               |7/29/2022       |Microsoft Teams 认证                           |
 |Jabra                |参与 40 II                                               |7/29/2022       |Microsoft Teams 认证                           |
 |Logi                 |停靠免提电话                                          |7/13/2022       |Microsoft Teams 认证                           |

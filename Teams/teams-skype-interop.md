@@ -13,12 +13,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: 了解组织中的 Teams 用户与 Skype (使用者) 用户之间的互操作性功能。
 ms.localizationpriority: medium
-ms.openlocfilehash: e8f6d102a3b66d5140473d0f2ab11b5af97fc78f
-ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
+ms.openlocfilehash: 5cbb4bdf492de67131c75c97685317ef8cae866c
+ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2022
-ms.locfileid: "69198674"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "69242316"
 ---
 # <a name="teams-and-skype-interoperability"></a>Teams 和 Skype 互操作性
 
@@ -87,7 +87,7 @@ Teams 用户接受或阻止来自 Skype 用户的初始对话请求后，他们�
 
 ### <a name="in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 管理中心
 
-在 Microsoft Teams 管理中心，转到 **“用户** > **外部访问权限**”，然后打开 **“用户可以与 Skype 用户通信**”。 有关如何配置此外部访问设置和其他外部访问设置的分步指南，请参阅 [在 Teams 中管理外部访问](./manage-external-access.md#allow-or-block-domains)。
+在 Microsoft Teams 管理中心，转到 **“用户** > **外部访问权限**”，然后打开 **“用户可以与 Skype 用户通信**”。 有关如何配置此外部访问设置和其他外部访问设置的分步指南，请参阅 [在 Teams 中管理外部访问](./manage-external-access.md)。
 
 ### <a name="using-powershell"></a>使用 PowerShell
 

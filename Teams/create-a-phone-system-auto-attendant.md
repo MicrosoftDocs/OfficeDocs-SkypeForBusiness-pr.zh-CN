@@ -1,5 +1,5 @@
 ---
-title: 为 Microsoft Teams 设置自动助理
+title: 设置Microsoft Teams 自动助理
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
@@ -20,15 +20,15 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom:
 - Phone System
-description: 了解如何在 Microsoft Teams 中设置和管理自动助理。
-ms.openlocfilehash: 68a3364130fa344786cffbc642fe77e0b7a6a2cd
-ms.sourcegitcommit: 0a13f96663c7466b08d654bedcb6206f302189a1
+description: 了解如何设置Microsoft Teams 自动助理。
+ms.openlocfilehash: 7f90aa2d61540895601d09c2f7eab9b133a6ee1a
+ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/22/2022
-ms.locfileid: "69139136"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "69242416"
 ---
-# <a name="set-up-an-auto-attendant"></a>设置自动助理
+# <a name="set-up-a-microsoft-teams-auto-attendant"></a>设置Microsoft Teams 自动助理
 
 自动助理允许用户呼叫你的组织并导航菜单系统，以便与正确的部门、呼叫队列、人员或操作员交谈。 可以使用 Microsoft Teams 管理中心或 PowerShell 为组织创建自动助理。
 
@@ -40,7 +40,7 @@ ms.locfileid: "69139136"
 - **组织中的人员** - 组织中可以接听语音呼叫的人员。 此人可以是联机用户，也可以是使用 Skype for Business Server 在本地托管的用户。
 - **语音应用** - 另一个自动助理或呼叫队列。  (选择此 destination 时，选择与自动助理或呼叫队列关联的资源帐户。) 
 - **Voicemail** - 与指定的 Microsoft 365 组关联的语音邮箱。 可以选择是否需要语音邮件听录和“请在音调后留言”。 系统提示。
-  - 在 M365 管理员中心为指定的 Microsoft 365 组启用“让组织外部的人员向此团队发送电子邮件”
+  - 在 M365 管理员 中心为指定的 Microsoft 365 组启用“让组织外部的人员向此团队发送电子邮件”
 - **外部电话号码** - 任何电话号码。 请参阅 [外部传输技术详细信息](create-a-phone-system-auto-attendant.md?tabs=general-info#external-phone-number-transfers---technical-details)。
 - **公告 (音频文件)** - 播放音频文件。 上传的录制公告消息，在 中保存为音频。WAV、.MP3 或 。WMA 格式。 录制不能大于 5 MB。 系统播放公告，然后返回到自动助理菜单。
 - **通知 (键入)** - 键入消息。 希望系统读取的文本。 最多可以输入 1000 个字符。 系统播放公告，然后返回到自动助理菜单。
@@ -199,7 +199,7 @@ ms.locfileid: "69139136"
 
 当调用方使用按名称拨号或按分机拨号时， *拨号范围* 定义目录中可用的用户。 默认的 **“所有联机用户**”包括组织中所有使用 Skype for Business Server 的联机用户或托管在本地的用户。
 
-可以通过选择“**包括**”或“排除”下的 **“自定义用户组**”并选择一个或多个 Microsoft 365 组、通讯组列表或安全组来包括或 **排除** 特定用户。 例如，你可能希望从拨号目录中排除组织中的高管。
+可以通过选择“**包括**”或“排除”下的 **“自定义用户组**”并选择一个或多个Microsoft 365 个组、通讯组列表或安全组来包含或排除特定用户。 例如，你可能希望从拨号目录中排除组织中的高管。
 
 如果用户同时位于这两个列表中，则会将其从目录中排除。
 

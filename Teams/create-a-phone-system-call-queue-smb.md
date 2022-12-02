@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft Teams 中创建呼叫队列
+title: 创建Microsoft Teams 呼叫队列
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
@@ -24,14 +24,14 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: 了解如何在 Microsoft Teams 中设置呼叫队列。 呼叫队列提供问候消息、保留音乐、呼叫重定向和其他功能。
-ms.openlocfilehash: 983f59d678d05780c7ce3c3f36fbfa7fd9747067
-ms.sourcegitcommit: e5f5a1a164576b317e89340e233c9b67f082d19c
+ms.openlocfilehash: b7cfd7d17c9813d9d3f3ee65ceb7d1a9f1c96be4
+ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2022
-ms.locfileid: "68890161"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "69242576"
 ---
-# <a name="create-a-call-queue"></a>创建呼叫队列
+# <a name="create-a-microsoft-teams-call-queue"></a>创建Microsoft Teams 呼叫队列 
 
 呼叫队列将呼叫者路由到组织中可以帮助解决特定问题的人员。 呼叫一次分发给队列中的人员，他们称为 *代理*。
 
@@ -131,8 +131,8 @@ ms.locfileid: "68890161"
 创建用于呼叫 ID 的新资源帐户后，仍需要：
 
 - 分配 [Teams 电话资源帐户许可证](manage-resource-accounts.md#assign-a-license)
-- 分配 Microsoft 通话套餐许可证、分配 Operator Connect 电话号码或为直接路由分配在线语音路由策略
-- 如果你使用的是 Microsoft 通话套餐，[请将服务电话号码分配给资源帐户](manage-resource-accounts.md#assign-a-service-number)
+- 分配Microsoft通话套餐许可证、分配运营商连接电话号码或为直接路由分配在线语音路由策略
+- 如果使用Microsoft通话套餐，请将[服务电话号码分配给资源帐户](manage-resource-accounts.md#assign-a-service-number)
 
 ### <a name="set-the-call-queue-language"></a>设置呼叫队列语言
 
@@ -160,7 +160,7 @@ Teams 在 *呼叫者处于保留状态* 时为呼叫者提供默认音乐。
 - 如果要播放特定的音频文件，请选择“ **播放音频文件** ”并上传 MP3、WAV 或 WMA 文件。
 
 > [!NOTE]
-> 你负责独立清除和保护与 Microsoft Teams 服务一起使用任何音乐或音频文件的一切必要权利和权限，其中可能包括来自所有相关权利持有者（可能包括艺术家）的任何音乐、音效、音频、品牌、名称和其他内容的知识产权和其他权利， 演员、表演者、音乐家、词曲作者、作曲家、唱片公司、音乐出版商、工会、公会、权利协会、集体管理组织以及拥有、控制或许可音乐版权、音效、音频和其他知识产权的任何其他方。
+> 你负责独立清除和保护与Microsoft Teams 服务一起使用任何音乐或音频文件的一切必要权利和权限，其中可能包括来自所有相关权利持有者（可能包括艺术家）的任何音乐、音效、音频、品牌、名称和其他内容的知识产权和其他权利， 演员、表演者、音乐家、词曲作者、作曲家、唱片公司、音乐出版商、工会、公会、权利协会、集体管理组织以及拥有、控制或许可音乐版权、音效、音频和其他知识产权的任何其他方。
 
 选择问候语和保持音乐后，选择 **“添加呼叫队列**”页面底部的“**下一步**”按钮。
 
@@ -205,7 +205,7 @@ Teams 在 *呼叫者处于保留状态* 时为呼叫者提供默认音乐。
 若要 **向队列添加组** ，请执行以下操作：
 
 1. 选择“ **添加组**”，搜索该组，单击“ **添加**”，然后单击“ **添加**”。 
-    1. 可以使用通讯组列表、安全组和 Microsoft 365 组或 Microsoft Teams 团队。
+    1. 可以使用通讯组列表、安全组和Microsoft 365 个组或Microsoft Teams 团队。
 
 > [!NOTE]
 > 添加到组的新用户可能需要长达 8 小时才能到达第一个呼叫。
@@ -390,8 +390,8 @@ Teams 在 *呼叫者处于保留状态* 时为呼叫者提供默认音乐。
 
 #### <a name="notes"></a>注释
 
-1. Microsoft Teams Windows 客户端、Microsoft Teams Mac 客户端、虚拟化桌面基础结构上的 Microsoft Teams。
-2. Microsoft Teams iPhone 应用、Microsoft Teams Android 应用。
+1. Microsoft Teams Windows 客户端、Microsoft Teams Mac 客户端Microsoft Teams 上的虚拟化桌面基础结构。
+2. Microsoft Teams iPhone 应用，Microsoft Teams Android 应用。
 3. 为代理路由方法选择“最长空闲时间”将自动启用基于状态的路由。
 4. 无法设置调用代理的顺序。
 5. 如果电话呼叫从启用了基于位置的路由的直接路由网关路由到队列，则不支持会议模式。
@@ -417,7 +417,7 @@ Teams 在 *呼叫者处于保留状态* 时为呼叫者提供默认音乐。
 - iPad Skype for Business 客户端（版本 6.16.0 及更高版本）
 - Microsoft Teams Windows 客户端 (32 位和 64 位版本) 
 - Microsoft Teams Mac 客户端
-- [虚拟化桌面基础结构](teams-for-vdi.md)上的 Microsoft Teams (Windows 虚拟桌面、Citrix 和 VMware) 
+- 在[虚拟化桌面基础结构](teams-for-vdi.md)上Microsoft Teams (Windows 虚拟桌面、Citrix 和 VMware) 
 - Microsoft Teams iPhone 应用
 - Microsoft Teams Android 应用
 
