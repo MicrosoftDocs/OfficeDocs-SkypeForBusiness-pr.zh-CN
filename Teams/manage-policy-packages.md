@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft Teams 中管理策略包
+title: 在 Teams 中管理策略包
 ms.author: mabond
 author: mkbond007
 manager: serdars
@@ -20,14 +20,14 @@ ms.custom:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何在 Microsoft Teams 中使用、管理和自定义策略包，以便在管理用户组的策略时简化、简化并帮助提供一致性。
-ms.openlocfilehash: f91fdcdecb66fbc08b8ce75563f6034594fd448c
-ms.sourcegitcommit: ad7eb80a266a96bb894f3801b51587c07786c257
+ms.openlocfilehash: 138b1cada469a71cf844c8a73b1cb12511fc68b2
+ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/19/2022
-ms.locfileid: "69128227"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "69245676"
 ---
-# <a name="manage-policy-packages-for-microsoft-teams"></a>管理 Microsoft Teams 的策略包
+# <a name="managing-policy-packages-in-teams"></a>在 Teams 中管理策略包
 
 Microsoft Teams 中的策略包是一组预定义的策略和策略设置，你可以将其分配给组织中具有类似角色的用户。 我们构建了策略包，以便在管理组织中用户组的策略时简化、简化并帮助提供一致性。  
 
@@ -87,7 +87,7 @@ Teams 当前包含以下策略包。
 
 若要创建新的自定义策略包，请执行以下操作：
 
-1. 在 Microsoft Teams 管理中心的左窗格中，选择“ **策略包**”，然后单击“ **添加**”。
+1. 在 Microsoft Teams 管理中心的左窗格中，选择“**策略包**”，然后单击“**添加**”。
 
     :::image type="content" source="media/policy-packages-add.png" alt-text="管理中心“策略包”页上的“添加”按钮的屏幕截图。" lightbox="media/policy-packages-add.png":::
 
@@ -120,13 +120,13 @@ Teams 当前包含以下策略包。
 
 ### <a name="view-the-settings-of-a-policy-in-a-policy-package"></a>在策略包中查看策略的设置
 
-1. 在 Microsoft Teams 管理中心的左窗格中，选择“ **策略包**”，然后通过单击包名称左侧选择策略包。
+1. 在 Microsoft Teams 管理中心的左窗格中，选择“**策略包**”，然后通过单击包名称左侧选择策略包。
 
 2. 选择要查看的策略。
 
 ### <a name="customize-policies-in-a-policy-package"></a>自定义策略包中的策略
 
-可以通过“ **策略包** ”页或直接转到 Microsoft Teams 管理中心中的策略页来编辑策略的设置。
+可以通过“**策略包**”页或直接转到 Microsoft Teams 管理中心中的策略页来编辑策略设置。
 
 1. 在 Microsoft Teams 管理中心的左窗格中，执行以下操作之一：
     - 选择“ **策略包**”，然后通过单击包名称左侧选择策略包。

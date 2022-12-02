@@ -20,14 +20,14 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d8efff8e93dd95ef2b1199b6a766f175e9b2afa4
-ms.sourcegitcommit: e5f5a1a164576b317e89340e233c9b67f082d19c
+ms.openlocfilehash: a02df903574c7e7db796294ad90c9e05ab732eb0
+ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2022
-ms.locfileid: "68892601"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "69245668"
 ---
-# <a name="calling-and-call-forwarding-in-teams"></a>Teams 中的呼叫和呼叫转接
+# <a name="calling-policies-calling-and-call-forwarding-features-in-teams"></a>呼叫策略：Teams 中的呼叫和呼叫转接功能
 
 在 Microsoft Teams 中，呼叫策略控制哪些呼叫和呼叫转接功能可供用户使用。 呼叫策略确定用户是否可以进行专用呼叫、使用呼叫转接或同时拨打其他用户或外部电话号码、将呼叫路由到语音邮件、向呼叫组发送呼叫、对入站和出站呼叫使用委派等。
 
@@ -47,7 +47,7 @@ ms.locfileid: "68892601"
 
 按照以下步骤编辑现有呼叫策略。
 
-1. 在 Microsoft Teams 管理中心的左侧导航栏中，选择“ **语音** > **呼叫策略**”。
+1. 在 Microsoft Teams 管理中心的左侧导航栏中，选择“**语音** > **呼叫策略**”。
 2. 单击要修改的策略旁边的，然后选择 **“编辑**”。
 3. 进行所需的更改，然后单击“ **保存**”。
 
