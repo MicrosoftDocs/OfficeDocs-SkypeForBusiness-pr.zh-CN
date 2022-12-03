@@ -23,19 +23,16 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
-adobe-target: true
-adobe-target-activity: ''
-adobe-target-experience: Experience B
-adobe-target-content: ./create-a-phone-system-call-queue-experiment
+robots: noindex
 description: 了解如何在 Microsoft Teams 中设置呼叫队列。 呼叫队列提供问候消息、保留音乐、呼叫重定向和其他功能。
-ms.openlocfilehash: ed3be4feffd516292b7dfe902ac7d1856f6f6a44
+ms.openlocfilehash: 401479f73b81fffcdcb6d5d1d3663a80e4fc7b86
 ms.sourcegitcommit: 54c691bd34980a47a5ebf58555529a618a8cada7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 12/03/2022
-ms.locfileid: "69251785"
+ms.locfileid: "69251989"
 ---
-# <a name="create-a-call-queue-in-microsoft-teams"></a>在 Microsoft Teams 中创建呼叫队列
+# <a name="create-a-call-queue"></a>创建呼叫队列
 
 呼叫队列将呼叫者路由到组织中可以帮助解决特定问题的人员。 呼叫一次分发给队列中的人员，他们称为 *代理*。
 
@@ -69,15 +66,13 @@ ms.locfileid: "69251785"
 
 ## <a name="follow-these-steps-to-set-up-your-call-queue"></a>按照以下步骤设置呼叫队列
 
-## <a name="step-1-general-info"></a>[步骤 1：常规信息](#tab/general-info)
-
-## <a name="step-1-set-up-general-information"></a>步骤 1：设置常规信息
+### <a name="step-1-set-up-general-information"></a>步骤 1：设置常规信息
 
 若要设置呼叫队列，请在 [Teams 管理中心](https://go.microsoft.com/fwlink/p/?linkid=2066851)中展开“ **语音**”，选择“ **呼叫队列**”，然后选择“ **添加**”。
 
 在顶部的框中键入呼叫队列的名称。
 
-### <a name="add-a-resource-account"></a>添加资源帐户
+#### <a name="add-a-resource-account"></a>添加资源帐户
 
 添加现有资源帐户：
 
@@ -102,7 +97,7 @@ ms.locfileid: "69251785"
 
 有关详细信息，请参阅 [管理 Teams 资源帐户](manage-resource-accounts.md)。
 
-### <a name="assign-a-calling-id-optional"></a>分配呼叫 ID (可选) 
+#### <a name="assign-a-calling-id-optional"></a>分配呼叫 ID (可选) 
 
 **适用于 Teams 频道/协作通话桌面用户和具有标准呼叫队列的 Teams 移动客户端用户。**
 
@@ -138,7 +133,7 @@ ms.locfileid: "69251785"
 - 分配Microsoft通话套餐许可证、分配运营商连接电话号码或为直接路由分配在线语音路由策略
 - 如果使用Microsoft通话套餐，请将[服务电话号码分配给资源帐户](manage-resource-accounts.md#assign-a-service-number)
 
-### <a name="set-the-call-queue-language"></a>设置呼叫队列语言
+#### <a name="set-the-call-queue-language"></a>设置呼叫队列语言
 
 选择 [支持的语言](create-a-phone-system-call-queue-languages.md)。
 
@@ -146,9 +141,7 @@ ms.locfileid: "69251785"
 
 选择语言后，选择 **“添加呼叫队列**”页底部的“**下一步**”按钮。
 
-## <a name="step-2-greeting-and-music"></a>[步骤 2：问候语和音乐](#tab/greeting-music)
-
-## <a name="step-2-add-a-greeting-and-on-hold-music"></a>步骤 2：添加问候语和保留音乐
+### <a name="step-2-add-a-greeting-and-on-hold-music"></a>步骤 2：添加问候语和保留音乐
 
 *新建 - 现在支持呼叫队列主 **问候语** (文本转语音 (TTS) ) 添加问候语消息。*
 
@@ -168,9 +161,7 @@ Teams 在 *呼叫者处于保留状态* 时为呼叫者提供默认音乐。
 
 选择问候语和保持音乐后，选择 **“添加呼叫队列**”页面底部的“**下一步**”按钮。
 
-## <a name="step-3-call-answering"></a>[步骤 3：呼叫应答](#tab/call-answering)
-
-## <a name="step-3-set-up-who-will-answer-incoming-calls"></a>步骤 3：设置谁将接听来电
+### <a name="step-3-set-up-who-will-answer-incoming-calls"></a>步骤 3：设置谁将接听来电
 
 查看将 [代理添加到呼叫队列的先决条件](plan-auto-attendant-call-queue.md#prerequisites)。
 
@@ -194,7 +185,7 @@ Teams 在 *呼叫者处于保留状态* 时为呼叫者提供默认音乐。
 >
 > 如果团队中有 200 多个成员，则只有前 200 名成员（按字母顺序）将作为代理添加到呼叫队列。
 
-### <a name="users-and-groups"></a>用户和组
+#### <a name="users-and-groups"></a>用户和组
 
 最多可以单独添加 20 个代理，通过组最多可以添加 200 个代理。
 
@@ -216,7 +207,7 @@ Teams 在 *呼叫者处于保留状态* 时为呼叫者提供默认音乐。
 >
 > 如果组中有 200 多个成员，则只会将前 200 个成员（按字母顺序）作为代理添加到呼叫队列。
 
-### <a name="conference-mode"></a>会议模式
+#### <a name="conference-mode"></a>会议模式
 
 **会议模式** 减少了在代理接受呼叫后呼叫方连接到代理所需的时间。 若要使会议模式正常工作，呼叫队列中的代理必须使用以下客户端之一：
 
@@ -241,9 +232,7 @@ Teams 在 *呼叫者处于保留状态* 时为呼叫者提供默认音乐。
 
 选择呼叫应答选项后，选择 **“添加呼叫队列**”页面底部的“**下一步**”按钮。
 
-## <a name="step-4-agent-selection"></a>[步骤 4：代理选择](#tab/agent-selection)
-
-## <a name="step-4-select-your-agent-routing-options"></a>步骤 4：选择代理路由选项
+### <a name="step-4-select-your-agent-routing-options"></a>步骤 4：选择代理路由选项
 
 **路由方法** 确定代理接收来自队列的调用的顺序。
 
@@ -269,7 +258,7 @@ Teams 在 *呼叫者处于保留状态* 时为呼叫者提供默认音乐。
 >
 > 向代理呈现的呼叫队列呼叫可能与基于位置的路由限制冲突。 在这种情况下，代理将接收呼叫 Toast，但无法应答呼叫。 这种情况将继续存在，直到另一个代理可以应答呼叫、调用方挂起或出现呼叫队列超时条件。  
 
-### <a name="presence-based-call-routing"></a>基于状态的呼叫路由
+#### <a name="presence-based-call-routing"></a>基于状态的呼叫路由
 
 **基于状态的呼叫路由** 使用呼叫代理的可用性状态来确定是否应将代理包含在所选路由方法的呼叫路由列表中。
 
@@ -291,13 +280,13 @@ Teams 在 *呼叫者处于保留状态* 时为呼叫者提供默认音乐。
 >
 > 启用基于状态的路由后，使用 Skype for Business 客户端的代理不会包含在呼叫路由列表中。 如果你有使用 Skype for Business 的代理，请不要启用基于状态的呼叫路由。
 
-### <a name="call-agents-can-opt-out-of-taking-calls"></a>呼叫代理可以选择不接听电话
+#### <a name="call-agents-can-opt-out-of-taking-calls"></a>呼叫代理可以选择不接听电话
 
 可以指定呼叫代理是否能够选择不接听呼叫。
 
 建议启用 **呼叫代理可以选择不接听电话**。
 
-### <a name="agent-alert-time"></a>代理警报时间
+#### <a name="agent-alert-time"></a>代理警报时间
 
 **代理警报时间** 指定在队列将呼叫重定向到下一个代理之前代理的电话将响铃的时间。
 
@@ -306,9 +295,7 @@ Teams 在 *呼叫者处于保留状态* 时为呼叫者提供默认音乐。
 
 选择代理呼叫路由选项后，选择 **“添加呼叫队列**”页面底部的“**下一步**”按钮。
 
-## <a name="step-5-call-overflow"></a>[步骤 5：调用溢出](#tab/call-overflow)
-
-## <a name="step-5-set-how-to-handle-call-overflow"></a>步骤 5：设置如何处理调用溢出
+### <a name="step-5-set-how-to-handle-call-overflow"></a>步骤 5：设置如何处理调用溢出
 
 **队列中的最大调用** 数指定在任何给定时间可以在队列中等待的最大调用数。
 
@@ -331,9 +318,7 @@ Teams 在 *呼叫者处于保留状态* 时为呼叫者提供默认音乐。
 
 选择呼叫溢出处理选项后，选择 **“添加呼叫队列**”页底部的“**下一步**”按钮。
 
-## <a name="step-6-call-timeout"></a>[步骤 6：呼叫超时](#tab/call-timeout)
-
-## <a name="step-6-set-how-to-handle-call-timeouts"></a>步骤 6：设置如何处理呼叫超时
+### <a name="step-6-set-how-to-handle-call-timeouts"></a>步骤 6：设置如何处理呼叫超时
 
 **呼叫超时：最长等待时间** 指定呼叫在重定向或断开连接之前可在队列中保持的最长时间。
 
@@ -351,8 +336,6 @@ Teams 在 *呼叫者处于保留状态* 时为呼叫者提供默认音乐。
 > 语音邮件 (个人) 将向用户发送呼叫，而不是按指示直接发送到其语音邮件。 支持部门正在对此进行调查。
 
 选择呼叫超时处理选项后，选择 **“添加呼叫队列**”页面底部的“**提交**”按钮。
-
----
 
 ## <a name="resources-for-complex-scenarios"></a>复杂方案的资源
 
@@ -404,8 +387,8 @@ Teams 在 *呼叫者处于保留状态* 时为呼叫者提供默认音乐。
 8. 仅支持公共频道。
 9. 自动助理和呼叫队列无法在 PSTN 连接方法之间转移呼叫。
 10. 对于 GCCH/DOD，只能通过以下位置的用户设置门户使用：
-- GCCH： [https://dialin.cpc.gov.teams.microsoft.us/usp](https://dialin.cpc.gov.teams.microsoft.us/usp)
-- 国防部： [https://dialin.cpc.dod.teams.microsoft.us/usp](https://dialin.cpc.dod.teams.microsoft.us/usp)
+    - GCCH： [https://dialin.cpc.gov.teams.microsoft.us/usp](https://dialin.cpc.gov.teams.microsoft.us/usp)
+    - 国防部： [https://dialin.cpc.dod.teams.microsoft.us/usp](https://dialin.cpc.dod.teams.microsoft.us/usp)
 
 ### <a name="supported-clients"></a>支持的客户端
 

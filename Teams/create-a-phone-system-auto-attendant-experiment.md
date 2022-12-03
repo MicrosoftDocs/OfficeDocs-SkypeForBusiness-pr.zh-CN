@@ -1,5 +1,5 @@
 ---
-title: 设置Microsoft Teams 自动助理
+title: 为 Microsoft Teams 设置自动助理
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
@@ -20,19 +20,16 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom:
 - Phone System
-adobe-target: true
-adobe-target-activity: ''
-adobe-target-experience: Experience B
-adobe-target-content: ./create-a-phone-system-auto-attendant-experiment
+robots: noindex
 description: 了解如何在 Microsoft Teams 中设置和管理自动助理。
-ms.openlocfilehash: 1908ccb02fa3aadc0bb906f718e5493eb8ff8e2f
+ms.openlocfilehash: cafbe1594666f156801f83b7944e4ecce4887752
 ms.sourcegitcommit: 54c691bd34980a47a5ebf58555529a618a8cada7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 12/03/2022
-ms.locfileid: "69251755"
+ms.locfileid: "69251988"
 ---
-# <a name="set-up-a-microsoft-teams-auto-attendant"></a>设置Microsoft Teams 自动助理
+# <a name="set-up-an-auto-attendant"></a>设置自动助理
 
 自动助理允许用户呼叫你的组织并导航菜单系统，以便与正确的部门、呼叫队列、人员或操作员交谈。 可以使用 Microsoft Teams 管理中心或 PowerShell 为组织创建自动助理。
 
@@ -52,7 +49,7 @@ ms.locfileid: "69251755"
 > [!NOTE]
 > 将呼叫重定向到 **组织中的人员** 时，该人员必须启用语音。 有关启用语音的详细信息，请参阅 [向用户分配 Teams 加载项许可证](teams-add-on-licensing/assign-teams-add-on-licenses.md)。
 >
-> 虽然定义 **运算符** 是可选的，但建议这样做。  如果自动助理配置中由于删除用户或共享语音邮件帐户而出现错误，则自动助理会将呼叫重定向到操作员。  如果未定义操作员，则自动助理将放弃呼叫。
+> 虽然定义 **运算符** 是可选的，但建议这样做。  如果呼叫者未在菜单上做出选择、反复选择无效选项或按名称或号码反复拨号失败，则自动助理会将呼叫重定向到操作员。  如果未定义操作员，则自动助理将放弃呼叫。
 
 ## <a name="whats-new-for-auto-attendants-in-the-past-6-months"></a>过去 6 个月自动助理的新增功能
 
@@ -75,9 +72,7 @@ ms.locfileid: "69251755"
 
 ## <a name="follow-these-steps-to-set-up-your-auto-attendant"></a>按照以下步骤设置自动助理
 
-## <a name="step-1-general-info"></a>[步骤 1：常规信息](#tab/general-info)
-
-## <a name="step-1-set-the-auto-attendants-general-information"></a>步骤 1：设置自动助理的常规信息
+### <a name="step-1-set-the-auto-attendants-general-information"></a>步骤 1：设置自动助理的常规信息
 
 若要设置自动助理，请在 [Teams 管理中心](https://go.microsoft.com/fwlink/p/?linkid=2066851)中展开“ **语音**”，选择“ **自动助理**”，然后选择“ **添加**”。
 
@@ -96,23 +91,21 @@ ms.locfileid: "69251755"
 
 设置自动助理的常规信息后，选择“ **下一步**”。
 
-## <a name="step-2-basic-call-flow"></a>[步骤 2：基本呼叫流](#tab/call-flow)
+### <a name="step-2-set-up-the-basic-call-flow"></a>步骤 2：设置基本调用流
 
-## <a name="step-2-set-up-the-basic-call-flow"></a>步骤 2：设置基本调用流
-
-### <a name="set-a-greeting"></a>设置问候语
+#### <a name="set-a-greeting"></a>设置问候语
 
 - 如果选择“ **播放音频文件** ”，则可以使用 **“上传文件** ”按钮上传在 中保存为音频的录制问候消息。WAV、.MP3 或 。WMA 格式。 录制不能大于 5 MB。
 
 - 如果选择“ **键入问候消息** ”，则系统将在自动助理接听呼叫时) 读取键入的文本， (最多 1000 个字符。
 
-### <a name="route-the-call"></a>路由呼叫
+#### <a name="route-the-call"></a>路由呼叫
 
 - 如果选择“ **断开连接**”，则自动助理将挂起呼叫。
 - 如果选择“ **重定向呼叫**”，则可以选择呼叫路由目标之一。
 - 如果选择“**播放”菜单选项**，可以选择“**播放音频文件****”或“键入问候消息**”，然后在菜单选项和目录搜索之间进行选择。
 
-#### <a name="play-menu-options"></a>播放菜单选项
+##### <a name="play-menu-options"></a>播放菜单选项
 
 *新建 - 可以启用强制侦听选项，该选项要求调用方在进行选择之前侦听所有菜单选项。*
 *新 - \* (星号) 和 \# (磅) 键现在可以在菜单选项中使用。*
@@ -131,7 +124,7 @@ ms.locfileid: "69251755"
 
 - **重定向到** - 呼叫者选择此选项时使用的呼叫路由目标。 如果要重定向到自动助理或呼叫队列，请选择与其关联的资源帐户。
 
-##### <a name="directory-search"></a>目录搜索
+###### <a name="directory-search"></a>目录搜索
 
 如果将拨号键分配给目标，建议选择 **“无****”进行目录搜索**。 如果调用方尝试使用分配给特定目标的密钥来拨号名称或分机，则他们可能会在输入完名称或分机之前意外地路由到目标。 建议为目录搜索创建单独的自动助理，并使用拨号键将主自动助理链接指向它。
 
@@ -148,9 +141,7 @@ ms.locfileid: "69251755"
 
 设置基本呼叫流选项后，选择“ **下一步**”。
 
-## <a name="step-3-after-hours-call-flow"></a>[步骤 3：下班后呼叫流](#tab/after-hours)
-
-## <a name="step-3-set-up-call-flow-for-after-hours-optional"></a>步骤 3：为下班后的呼叫流设置 (可选) 
+### <a name="step-3-set-up-call-flow-for-after-hours-optional"></a>步骤 3：为下班后的呼叫流设置 (可选) 
 
 可以为每个自动助理设置营业时间。
 
@@ -168,9 +159,7 @@ ms.locfileid: "69251755"
 
 添加下班后呼叫流后，选择“ **下一步**”。
 
-## <a name="step-4-holiday-call-flow"></a>[步骤 4：假日呼叫流](#tab/holidays)
-
-## <a name="step-4-set-up-call-flows-for-holidays-optional"></a>步骤 4：为假日设置呼叫流 (可选) 
+### <a name="step-4-set-up-call-flows-for-holidays-optional"></a>步骤 4：为假日设置呼叫流 (可选) 
 
 自动助理可以为 [你设置的每个假日](set-up-holidays-in-teams.md)提供呼叫流。 可以为每个自动助理添加最多 20 个计划假日。
 
@@ -197,9 +186,7 @@ ms.locfileid: "69251755"
 
 添加所有假期时间后，选择“ **下一步**”。
 
-## <a name="step-5-dial-scope"></a>[步骤 5：拨号范围](#tab/dial-scope)
-
-## <a name="step-5-set-up-dial-scope-optional"></a>步骤 5：设置拨号范围 (可选) 
+### <a name="step-5-set-up-dial-scope-optional"></a>步骤 5：设置拨号范围 (可选) 
 
 当调用方使用按名称拨号或按分机拨号时， *拨号范围* 定义目录中可用的用户。 默认的 **“所有联机用户**”包括组织中所有使用 Skype for Business Server 的联机用户或托管在本地的用户。
 
@@ -212,9 +199,7 @@ ms.locfileid: "69251755"
 
 选择 **“拨号范围** ”选项后，选择“ **下一步**”。
 
-## <a name="step-6-resource-accounts"></a>[步骤 6：资源帐户](#tab/resource-accounts)
-
-## <a name="step-6-set-up-resource-accounts-optional"></a>步骤 6： (可选) 设置资源帐户
+### <a name="step-6-set-up-resource-accounts-optional"></a>步骤 6： (可选) 设置资源帐户
 
 所有自动助理都必须具有关联的资源帐户。  第一级自动助理至少需要一个具有关联服务编号的资源帐户。 如果需要，可以将多个资源帐户分配给自动助理，每个帐户都有单独的服务编号。
 
@@ -223,8 +208,6 @@ ms.locfileid: "69251755"
 添加资源帐户后，选择“ **下一步**”。
 
 有关详细信息 [，请参阅管理 Teams 资源帐户](manage-resource-accounts.md) 。
-
----
 
 ## <a name="resources-for-complex-scenarios"></a>复杂方案的资源
 

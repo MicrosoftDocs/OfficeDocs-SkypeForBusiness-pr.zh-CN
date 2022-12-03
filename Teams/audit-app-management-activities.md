@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.subservice: teams-apps
 audience: admin
-ms.date: 08/24/2022
+ms.date: 12/02/2022
 ms.collection:
 - M365-collaboration
 search.appverid: MET150
@@ -16,48 +16,50 @@ description: 了解如何审核组织中用户和管理员的 Teams 应用活动
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 0fd3feb73705a95e0729cb1819d9f355ce3ef711
-ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
+ms.openlocfilehash: 5aee5bf00d486586b4bc8e9583504be5e4a9b922
+ms.sourcegitcommit: 54c691bd34980a47a5ebf58555529a618a8cada7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "68912781"
+ms.lasthandoff: 12/03/2022
+ms.locfileid: "69251875"
 ---
-# <a name="audit-logs-of-app-management-activities-and-events"></a>审核应用管理活动和事件的日志
+# <a name="search-audit-logs-for-app-management-activities-and-events"></a>搜索应用管理活动和事件的审核日志
 
 Microsoft 365 中的 Microsoft Purview 审核（标准版），可以搜索最终用户和管理员在各种 Microsoft 365 服务中执行的活动审核记录。
 
-在搜索审核之前，请确保完成以下先决条件：
+在搜索审核记录之前，请确保满足以下先决条件：
 
-* [获取组织订阅和用户许可](/microsoft-365/compliance/set-up-basic-audit)。
+* [获取组织的订阅和用户许可](/microsoft-365/compliance/set-up-basic-audit)。
 * [在 Microsoft Purview 合规门户中启用审核](/microsoft-365/compliance/turn-audit-log-search-on-or-off)。
 * [分配用于搜索审核日志的权限](/microsoft-365/compliance/set-up-basic-audit)。
 
 ## <a name="search-the-audit-logs-for-app-events-in-teams"></a>搜索 Teams 中的应用事件的审核日志
 
-Teams 中应用事件的审核日志可帮助你调查特定操作。 虽然你可以在日志中搜索各种操作，但下表列出了记录的一些 Teams 应用操作。 此外，还可以搜索与连接器、机器人、选项卡等相关的活动。
+Teams 中应用事件的审核日志可帮助你调查与管理员的应用管理相关的特定操作。 虽然可以在日志中搜索各种操作，但下表列出了记录的一些此类操作。
 
-| Teams 应用操作                  | 活动名称                | 说明                                              |
-|-----------------------------------|------------------------------|:---------------------------------------------------------|
-| **已安装的应用**                 | `AppInstalled`               | 已安装应用。                                     |
+| Teams 应用操作 | 门户中的活动名称 | 说明  |
+|-------|-------|:-------|
+| **已安装的应用**                 | `AppInstalled`               | 应用已安装或添加到 Teams 客户端。 |
 | **升级后的应用**                  | `AppUpgraded`                | 应用已升级到目录中的最新版本。 |
-| **卸载的应用**               | `AppUninstalled`             | 已卸载应用。                                   |
+| **卸载的应用**               | `AppUninstalled`             | 应用已卸载或从 Teams 客户端中删除。                                   |
 | **已发布的应用**                 | `AppPublishedToCatalog`      | 将应用添加到目录中。                          |
 | **已更新的应用**                   | `AppUpdatedInCatalog`        | 在目录中更新应用。                        |
 | **已删除的应用**                   | `AppDeletedFromCatalog`      | 从目录中删除应用。                      |
 | **删除了所有组织应用** | `DeletedAllOrganizationApps` | 从目录中删除了所有组织应用。          |
 
+<!--- organization apps = custom or 3p --->
+
 有关审核 Teams 活动的完整列表，请参阅 [Teams 活动](audit-log-events.md#teams-activities)和 Teams 活动中的 [排班](audit-log-events.md#shifts-in-teams-activities)。
 
 > [!NOTE]
-> 还会记录来自专用频道的应用事件，因为这些事件适用于 Teams 和标准频道。
+> 还会记录来自专用频道的应用事件，因为这些事件在 Teams 和标准频道中完成。
 
-使用合规性门户中的审核日志搜索工具搜索审核记录。 若要搜索应用事件审核日志，请执行以下步骤：
+若要搜索 Teams 应用活动的审核日志，请执行以下步骤：
 
 1. 登录到 Microsoft Purview 合规性门户，并转到 **解决方案** > **[审核](https://compliance.microsoft.com/auditlogsearch)**。
-1. 在审核页上，根据要求更新以下字段：
+1. 在 **“审核** ”页上，根据需要更新以下字段：
 
-   * **日期和时间范围**：选择开始日期和结束日期。
+   * **日期和时间范围**：选择要检查审核日志的时间段的开始和结束日期。
    * **活动**：输入 Microsoft Teams 活动。 从列表中，选择一个或多个应用活动。 若要快速查找 Teams 活动，可以`Teams activities`在“**活动**”搜索字段中搜索单词。
    * **文件、文件夹或网站**：输入文件名、URL 或其中一部分内容。
    * **用户**：添加要搜索其审核日志的用户。
@@ -66,7 +68,7 @@ Teams 中应用事件的审核日志可帮助你调查特定操作。 虽然你�
 
    :::image type="content" source="media/compliance-search-teams-activities-trimmed.png" alt-text="在 Microsoft Purview 合规门户中搜索 Teams 活动以审核 Teams 事件。" lightbox="media/compliance-search-teams-activities.png":::
 
-在合规性门户中搜索审核登录后，可以将审核记录导出为 CSV 文件。 有关详细信息，请参阅 [导出、配置和查看审核日志](/microsoft-365/compliance/export-view-audit-log-records)。
+可以将搜索的审核记录导出为 CSV 文件。 有关详细信息，请参阅 [导出、配置和查看审核日志](/microsoft-365/compliance/export-view-audit-log-records)。
 
 > [!NOTE]
 > 当用户或管理员执行上述活动之一时，Teams 会生成并存储审核记录。 在审核（标准版）中，记录将保留 90 天，这意味着可以搜索过去三个月内发生的活动。

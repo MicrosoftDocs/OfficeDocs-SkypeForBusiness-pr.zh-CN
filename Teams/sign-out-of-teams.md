@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 810e4a2c151284786092d664170388f17c0461e6
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
-ms.translationtype: HT
+ms.openlocfilehash: 93a338ef393c783c4fc2240b580f3cd316c354ee
+ms.sourcegitcommit: 54c691bd34980a47a5ebf58555529a618a8cada7
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66564110"
+ms.lasthandoff: 12/03/2022
+ms.locfileid: "69251885"
 ---
 # <a name="sign-out-of-microsoft-teams"></a>注销 Microsoft Teams
 
@@ -50,7 +50,7 @@ SSO 对注销有重要影响。当用户注销 Teams 时，系统会从 Teams �
 
 ## <a name="sign-out-of-teams-on-mobile-devices"></a>在移动设备上注销 Teams
 
-在移动设备上，要注销 Teams 可以转到菜单，选择 **更多** 菜单，然后选择 **注销**。注销后，下次启动应用时需要重新输入凭据。
+在移动设备上，可以通过转到用户图标，选择 **“设置”**，然后选择“ **注销**”来注销 Teams。注销后，下次启动应用时需要重新输入其凭据。
 
 ### <a name="global-sign-in-and-sign-out-for-frontline-workers"></a>适用于一线员工的全局登录和注销
 

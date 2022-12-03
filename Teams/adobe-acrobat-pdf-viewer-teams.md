@@ -18,16 +18,16 @@ description: 了解如何将 Adobe Acrobat 设置为默认 PDF 查看器，以�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 44721429b81b3f502a76a037add7a880e469add5
-ms.sourcegitcommit: ed7d3b12d4bfe48863de873360c2ae90bbb15530
+ms.openlocfilehash: 4776b2928ee734c1b37856e44d184c53bfc0dd90
+ms.sourcegitcommit: 54c691bd34980a47a5ebf58555529a618a8cada7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2022
-ms.locfileid: "69194983"
+ms.lasthandoff: 12/03/2022
+ms.locfileid: "69251895"
 ---
 # <a name="set-adobe-acrobat-as-the-default-pdf-viewer-in-microsoft-teams"></a>在 Microsoft Teams 中将 Adobe Acrobat 设置为默认 PDF 查看器
 
-作为管理员，你可以将 Adobe Acrobat 设置为默认应用，以便在 Microsoft Teams 中查看和编辑 PDF 文件。 最终用户可以查看、搜索、注释和批注 PDF 文件，而无需 Adobe Acrobat 订阅或 Adobe ID。
+作为管理员，你可以将 Adobe Acrobat 设置为默认应用，以便在 Microsoft Teams 中查看和编辑 PDF 文件。 最终用户可以查看和搜索 PDF 文件。 用户还可以在登录后免费对 PDF 文件进行注释和批注。
 
 若要将 Adobe Acrobat 应用配置为租户中 PDF 文件的默认处理程序，请完成以下先决条件步骤：
 
