@@ -10,6 +10,7 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
+- m365initiative-meetings
 appliesto:
 - Microsoft Teams
 f1.keywords:
@@ -20,14 +21,16 @@ ms.custom:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何在 Microsoft Teams 中使用、管理和自定义策略包，以便在管理用户组的策略时简化、简化并帮助提供一致性。
-ms.openlocfilehash: 138b1cada469a71cf844c8a73b1cb12511fc68b2
-ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
+ms.openlocfilehash: c2c5884261a4e55c64f3164fd805f708ed42598d
+ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/02/2022
-ms.locfileid: "69245676"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "69318408"
 ---
 # <a name="managing-policy-packages-in-teams"></a>在 Teams 中管理策略包
+
+[!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
 
 Microsoft Teams 中的策略包是一组预定义的策略和策略设置，你可以将其分配给组织中具有类似角色的用户。 我们构建了策略包，以便在管理组织中用户组的策略时简化、简化并帮助提供一致性。  
 
@@ -81,7 +84,7 @@ Teams 当前包含以下策略包。
 ## <a name="custom-policy-packages"></a>自定义策略包
 
 > [!NOTE]
-> 自定义策略包功能以预览版提供。 若要在预览版后使用此功能，每个用户都需要 Teams Premium 许可证。
+> 自定义策略包需要 Teams Premium。
 
 自定义策略包允许将自己的策略集捆绑到组织中具有类似角色的用户。 通过添加所需的策略类型和策略来创建自己的策略包。
 
