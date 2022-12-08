@@ -22,23 +22,21 @@ ms.collection:
 - m365-frontline
 - tier2
 - highpri
+- m365initiative-meetings
 ms.reviewer: ''
 description: 了解如何在 Teams 中为组织中的用户管理 Bookings 应用。
-ms.openlocfilehash: 4669b27efb351c375d5d5fd1104843e21c6f5ba9
-ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
+ms.openlocfilehash: abcd906f18b10b7d82b67682de439f1eb6592cd6
+ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/21/2022
-ms.locfileid: "69131301"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "69307517"
 ---
 # <a name="manage-the-bookings-app-in-microsoft-teams"></a>在 Microsoft Teams 中管理 Bookings 应用
 
-Microsoft Teams 中的 Bookings 应用提供了一种安排亲自和虚拟约会的简单方法。 例如，医疗保健访问、财务咨询、访谈、客户支持和教育办公时间。 若要了解详细信息，请参阅 [Teams 虚拟约会和 Bookings 应用](/microsoft-365/frontline/bookings-virtual-visits)。
+Microsoft Teams 中的 Bookings 应用提供了一种安排亲自和虚拟约会的简单方法。 例如，医疗保健访问、财务咨询、访谈、客户支持和教育办公时间。 若要了解详细信息，请参阅[使用 Teams 和 Bookings 应用虚拟约会](/microsoft-365/frontline/bookings-virtual-appointments)。
 
-计划人员可以从单个体验中管理多个部门和员工日历以及与内部和外部与会者的通信。 虚拟约会通过 Microsoft Teams 会议进行，会议提供强大的视频会议功能。
-
-> [!NOTE]
-> 只有调度员需要在 Teams 中安装 Bookings 应用。 进行或参与虚拟约会的员工不需要该应用。 他们只需从其 Outlook 或 Teams 日历或从其预订确认电子邮件中的 Teams 会议链接加入约会。
+计划人员可以从单个体验中管理多个部门和员工日历以及与内部和外部与会者的通信。 虚拟约会通过 Teams 会议进行，这些会议提供强大的视频会议功能。
 
 ## <a name="prerequisites-to-use-the-bookings-app-in-teams"></a>在 Teams 中使用 Bookings 应用的先决条件
 
@@ -50,9 +48,9 @@ Microsoft Teams 中的 Bookings 应用提供了一种安排亲自和虚拟约会
 
 ## <a name="availability-of-bookings-in-teams"></a>Teams 中 Bookings 可用性
 
-Microsoft Bookings适用于 Teams 的应用在桌面和 Web 上可用。 可以在 [Teams 管理中心的“应用”](https://teams.microsoft.com/l/app/4c4ec2e8-4a2c-4bce-8d8f-00fc664a4e5b?source=store-copy-link) 和 **“管理应用”** 下找到它。
+适用于 Teams 的 Bookings 应用在桌面和 Web 上可用。 可以在 [Teams 管理中心的“应用”](https://teams.microsoft.com/l/app/4c4ec2e8-4a2c-4bce-8d8f-00fc664a4e5b?source=store-copy-link) 和 **“管理应用”** 下找到它。
 
-### <a name="control-access-to-bookings-within-your-organization"></a>控制组织内对 Bookings 的访问权限
+## <a name="control-access-to-bookings-within-your-organization"></a>控制组织内对 Bookings 的访问权限
 
 有几种方式可以控制谁具有对 Bookings 应用和该应用特定功能的访问权限。 你可以使Microsoft Bookings应用可用，或者从Microsoft 365 管理中心禁用它。 或者，可以创建 Bookings 应用策略，以允许选定用户创建 Bookings 日历。 请参阅[获取对Microsoft Bookings的访问权限](/microsoft-365/bookings/get-access)。
 
@@ -64,17 +62,29 @@ Microsoft Bookings适用于 Teams 的应用在桌面和 Web 上可用。 可以�
 
 有关会议策略的详细信息，请参阅[在 Teams 中管理会议策略](meeting-policies-in-teams.md)和 [Teams 中的会议策略和会议过期。](meeting-expiration.md)
 
+## <a name="sms-text-notifications"></a>短信通知
+
+![信息图标](media/info.png) **此功能将移至 [Teams 高级](teams-add-on-licensing/licensing-enhance-teams.md) 版 (预览版) 。用户可以在预览期间继续使用此功能。预览版后，用户需要 Teams Premium 许可证。**
+
+你可以控制是否可以将短信通知发送给外部与会者，以便进行组织中员工安排的虚拟约会。
+
+默认情况下，此设置处于打开状态，并且为组织中的所有 Bookings 日历启用短信通知。 请记住，Bookings 管理员和计划人员稍后可以在 [计划约会类型和计划](/microsoft-365/frontline/bookings-virtual-appointments#scheduled-appointment-type) 的个人约会中根据需要选择关闭或打开短信通知。
+
+若要配置此设置，请转到Microsoft 365 管理中心 \> **“设置”** \> **组织设置**，然后选择“**预订**”。 选中或清除“**允许Microsoft发送短信通知**”复选框。
+
+详细了解如何 [为组织配置短信通知](/microsoft-365/bookings/turn-bookings-on-or-off)。
+
 ## <a name="optional-staff-approvals-setting"></a>可选员工审批策略
 
 在 Bookings 共享其计划可用性信息之前，您可以要求员工选择加入，然后其他人才能与他们安排约会。
 
-若要启用此设置，请转到 **Microsoft 365 管理中心** \> **设置** \> **设置**，然后选择“**预订**”。
+若要启用此设置，请转到“Microsoft 365 管理中心 \> **设置”** \> **组织设置**，然后选择“**预订**”。 选中“ **需要员工审批** ”复选框。
 
-启用此设置后，员工将收到一封电子邮件，要求他们批准预订日历的成员身份。  
+启用此设置后，员工会收到一封电子邮件，要求他们批准预订日历的成员身份。  
 
-此功能目前正逐步向全球 Microsoft 365 和 Office 365 客户推出。 如果环境中尚未提供所有选项，请尽快回来查看。
+详细了解 [如何配置员工审批设置](/microsoft-365/bookings/turn-bookings-on-or-off)。
 
-## <a name="changing-your-default-domain-when-setting-up-bookings-mailbox"></a>设置 Bookings 邮箱时更改默认域
+## <a name="changing-your-default-domain-when-setting-up-a-bookings-mailbox"></a>设置 Bookings 邮箱时更改默认域
 
 设置 Bookings 邮箱时，将使用 Microsoft 365 或 Office 365 组织的默认电子邮件域。 但是，向外部收件人发送会议邀请时，默认域可能会导致问题。 例如，你的邀请可能会被标记为垃圾邮件并移动到收件人的垃圾邮件文件夹，因此收件人可能永远不会看到你的邀请。
 
@@ -82,11 +92,11 @@ Microsoft Bookings适用于 Teams 的应用在桌面和 Web 上可用。 可以�
 
 如果需要在创建 Bookings 邮箱后更改默认域，请使用 PowerShell。
 
-```PowerShell
+```powerShell
 Set-Mailbox -identity business@domain.onmicrosoft.com -WindowsEmailAddress business@domain.com -EmailAddresses business@domain.com
 ```
 
-请参阅设置 [邮箱](/powershell/module/exchange/mailboxes/set-mailbox) cmdlet 的 PowerShell 文档。
+若要了解详细信息，请参阅 [设置邮箱](/powershell/module/exchange/mailboxes/set-mailbox)。
 
 > [!NOTE]
 > 如果使用 Exchange 混合配置，建议在更改默认域时全面测试本地 Exchange 与 Exchange Online 之间的邮件流。

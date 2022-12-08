@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b34f22d5ef038eff44b5488588902d1a99af8676
-ms.sourcegitcommit: fcedb958bf555d870215ae84fb83752304944716
+ms.openlocfilehash: 5ae4adf9d803ea0b3482451a9ece5d3ceb0df598
+ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2022
-ms.locfileid: "68486612"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "69307527"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 
@@ -162,12 +162,12 @@ Users who participate in conversations that are part of the chat list in Teams m
 
 <sup>1</sup> You can schedule as many Live Events as you want, but you can only run 15 at a time. As soon as the producer joins a live event, it's considered to be running. The producer who attempts to join the 16th live event gets an error.
 
-有关直播活动的详细信息，请转到 [Teams 直播活动](teams-live-events/plan-for-teams-live-events.md#teams-live-events)。 另请参阅[安排 Teams 实时事件](https://support.microsoft.com/office/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2)。
+有关实时事件的详细信息，请转到 [Teams 实时事件](teams-live-events/plan-for-teams-live-events.md#teams-live-events)。 另请参阅[安排 Teams 实时事件](https://support.microsoft.com/office/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2)。
 
 > [!IMPORTANT]
 > **Microsoft 365 实时事件限制的增加**
 >
-> **为了继续满足客户需求，我们将现场活动的临时限制增加延长至 2022 年 12 月 31 日，包括**：
+> **为了继续支持客户的需求，我们会将直播活动的临时限制提高延长到 2023 年 6 月 30 日，包括：**
 >
 >- 可为多达20,000名与会者提供活动支持
 >- 一个租户可同时举办50场活动
@@ -179,7 +179,7 @@ Users who participate in conversations that are part of the chat list in Teams m
 
 Teams presence in Outlook is supported on the Outlook 2013 desktop app and later. To learn more about presence in Teams, see [User presence in Teams](presence-admins.md).
 
-## <a name="storage"></a>存储
+## <a name="storage"></a>存储空间
 
 Each team in Microsoft Teams has a team site in SharePoint Online, and each channel in a team gets a folder within the default team site document library. Files shared within a conversation are automatically added to the document library, and permissions and file security options set in SharePoint are automatically reflected within Teams.
 

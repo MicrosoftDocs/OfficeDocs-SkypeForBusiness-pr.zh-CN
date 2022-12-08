@@ -9,15 +9,15 @@ audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-description: 了解 Teams PowerShell 模块中基于应用程序的身份验证，该模块用于管理 Microsoft Teams。
+description: 了解 Teams PowerShell 模块中基于应用程序的身份验证，该模块用于管理Microsoft Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9fd2928b62b71f0f981ecd0083cf4b15acc2da3f
-ms.sourcegitcommit: 2d1bb69e0d6bc35be0b57c7c5d87f58ab013dafb
+ms.openlocfilehash: 04cc2e3c069f30e44dd0c62a42be42fd1cce16b7
+ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/14/2022
-ms.locfileid: "68928329"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "69307947"
 ---
 # <a name="application-based-authentication-in-teams-powershell-module"></a>Teams PowerShell 模块中基于应用程序的身份验证
 
@@ -91,8 +91,8 @@ Teams PowerShell 模块使用应用程序 ID、租户 ID 和证书指纹提取�
 
 1. 在 Azure AD 中注册应用程序
 2. 向应用程序分配 API 权限
-   - 对于 \*-Cs cmdlet - 不需要 API 权限。
-   - 对于非 \*-Cs cmdlet - 所需的 Microsoft 图形 API权限为 `User.Read.All`、、`Group.ReadWrite.All`、`AppCatalog.ReadWrite.All`、`TeamSettings.ReadWrite.All``Channel.Delete.All`、`ChannelSettings.ReadWrite.All`、 `ChannelMember.ReadWrite.All`。  
+   - 对于 \*-Cs cmdlet - 所需的Microsoft 图形 API权限为 `Organization.Read.All`。
+   - 对于非 \*-Cs cmdlet - 所需的Microsoft 图形 API权限为 `Organization.Read.All`、、`User.Read.All`、`Group.ReadWrite.All`、`AppCatalog.ReadWrite.All``TeamSettings.ReadWrite.All`、`Channel.Delete.All``ChannelSettings.ReadWrite.All`、、 。 `ChannelMember.ReadWrite.All`  
 3. 生成自签名证书
 4. 将证书附加到 Azure AD 应用程序
 5. 将 [Azure AD 角色](/microsoftteams/using-admin-roles#teams-roles-and-capabilities) 分配给应用程序

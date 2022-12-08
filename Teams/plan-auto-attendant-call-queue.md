@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 了解自动助理和呼叫队列，以及如何使用它们帮助呼叫者在菜单系统中移动以联系组织中的人员或部门。
-ms.openlocfilehash: acaa4d3e4db56b1b64869f92d27f2dfd73c4afee
-ms.sourcegitcommit: 0dfe48fde767d8d9ed7bfc93684af05534acad12
+ms.openlocfilehash: 5b5076ecd8ea521071124f5400ac5c2831b4fbfe
+ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/24/2022
-ms.locfileid: "69166728"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "69307617"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>规划 Teams 自动助理和呼叫队列
 
@@ -78,7 +78,7 @@ ms.locfileid: "69166728"
 > [!NOTE]
 > 资源帐户已禁用登录，并且必须保持登录状态。 聊天和状态不适用于这些帐户。
 
-必须企业语音联机或本地用户启用从呼叫队列接收呼叫的代理。 此外，如果呼叫队列使用直接路由号码，则需要电话会议或转接呼叫的代理还需要：
+必须企业语音联机或本地用户启用从呼叫队列接收呼叫的代理。 有关详细信息，请参阅 [为用户分配、更改或删除电话号码](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user) 和 [为用户启用直接路由](/microsoftteams/direct-routing-enable-users)。 此外，如果呼叫队列使用直接路由号码，则需要电话会议或转接呼叫的代理还需要：
 
 - 如果呼叫队列使用传输模式，则分配 [的联机语音路由策略](manage-voice-routing-policies.md) 。
 - 如果呼叫队列使用会议模式，则分配的 [音频会议许可证](set-up-audio-conferencing-in-teams.md) 或 [联机语音路由策略](manage-voice-routing-policies.md) 。
@@ -193,7 +193,7 @@ ms.locfileid: "69166728"
 >
 > 这不适用于通过通讯组列表或频道配置的呼叫队列代理成员身份。 它还不适用于通过自动助理的“ **按名称拨号”** 或“ **按号码拨号”** 功能联系的用户。
 
-如果需要更广泛的功能（例如与工作流、机器人和短信集成），请考虑[Azure Communication Services](/azure/communication-services/overview)。
+如果需要更广泛的功能（例如与工作流、机器人和短信的集成），请考虑[Azure 通信服务](/azure/communication-services/overview)。
 
 ## <a name="related-topics"></a>相关主题
 
