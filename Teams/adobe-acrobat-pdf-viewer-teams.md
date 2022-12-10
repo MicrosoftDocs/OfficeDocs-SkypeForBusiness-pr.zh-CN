@@ -18,12 +18,12 @@ description: 了解如何将 Adobe Acrobat 设置为默认 PDF 查看器，以�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 4776b2928ee734c1b37856e44d184c53bfc0dd90
-ms.sourcegitcommit: 54c691bd34980a47a5ebf58555529a618a8cada7
+ms.openlocfilehash: 67be332ee916f30b0341dc3ac03e047558cead0c
+ms.sourcegitcommit: feb9b7d10e38f5a629ee9202b5aaec5beef4de9b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/03/2022
-ms.locfileid: "69251895"
+ms.lasthandoff: 12/10/2022
+ms.locfileid: "69343276"
 ---
 # <a name="set-adobe-acrobat-as-the-default-pdf-viewer-in-microsoft-teams"></a>在 Microsoft Teams 中将 Adobe Acrobat 设置为默认 PDF 查看器
 
@@ -66,7 +66,9 @@ ms.locfileid: "69251895"
 
 1. 选择“**保存**”。
 
-选择保存后，Teams 将使用 Adobe Acrobat 应用作为 PDF 文件的默认文件处理程序。
+1. （可选）如果你拥有 Adobe Acrobat 许可证，则可以允许使用Microsoft Azure Active Directory标识的 SSO。 建议按照 [设置标识和单一登录](https://helpx.adobe.com/enterprise/using/set-up-identity.html)中的说明配置 SSO。
+
+完成配置后，Teams 将使用 Adobe Acrobat 应用作为 PDF 文件的默认文件处理程序。
 
 如果要有选择地允许几个个人或组使用 Adobe Acrobat 应用，请使用 [应用权限策略](teams-app-permission-policies.md)。
 
@@ -81,4 +83,5 @@ ms.locfileid: "69251895"
 * 若要卸载应用，最终用户可以从其 Teams 客户端中删除该应用。 管理员可以使用设置策略删除 Adobe Acrobat 应用。
 * 如果阻止 Adobe Acrobat 应用，则从设置策略中删除该应用。 这样会确保最终用户体验还原为使用本机 PDF 文件查看器。
 * 如果在 Teams 桌面客户端中登录到 Adobe Acrobat 应用时遇到问题，请在 [浏览器中使用 Teams](https://teams.microsoft.com/) 登录。
-* 需要登录到免费的 [Adobe 帐户](https://acrobat.adobe.com/us/en/) 才能对 PDF 文件进行注释或批注。
+* 登录到免费的 [Adobe 帐户](https://acrobat.adobe.com/us/en/) ，对 PDF 文件进行注释或批注。 Teams 中的应用可以提供批注、组织、压缩和保护 PDF 文件等功能。 有关功能和先决条件的完整列表，请参阅 [使用 Acrobat 应用在 Teams 中管理 PDF 文件](https://www.adobe.com/content/dam/dx-dc/pdf/ue/acrobat-msft-teams-feature-comp-ue.pdf)。
+* 当您协作处理 PDF 文档时，该文档将临时 (存储长达 24 小时，) 位于所在区域的 Adobe 服务器上。 此临时存储用于促进暂时性处理。 文档从本地文件系统传输到服务器时，会进行端到端加密，并在服务器上保持加密状态。 请参阅 [Acrobat 的安全性](https://aka.ms/Adobe_Acrobat_Security)。

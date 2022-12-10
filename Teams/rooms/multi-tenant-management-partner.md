@@ -18,12 +18,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 面向合作伙伴的 Mult 租户客户管理。
 f1keywords: ''
-ms.openlocfilehash: 681efe6832a3829b54b23345f04e32151f130939
-ms.sourcegitcommit: baf29d244b428712052553f9e4484e72e727247e
+ms.openlocfilehash: 6a98ff56548dcefc48be41657b368a9634ad8123
+ms.sourcegitcommit: feb9b7d10e38f5a629ee9202b5aaec5beef4de9b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2022
-ms.locfileid: "69046821"
+ms.lasthandoff: 12/10/2022
+ms.locfileid: "69343302"
 ---
 # <a name="multi-tenant-customer-management-for-partners"></a>面向合作伙伴的多租户客户管理
 
@@ -36,7 +36,7 @@ Teams 会议室专业版管理服务中的多租户管理 (MTM) 可帮助合作�
 
 ## <a name="pre-requisites-for-managing-your-customers-through-the-mtm-experience"></a>通过 MTM 体验管理客户的先决条件
 
-若要访问 MTM 门户，你的组织必须作为 MTR Pro 管理的精英合作伙伴加入。 成为精英合作伙伴联系人 askelite@microsoft.com。
+提供多租户管理控制台访问权限的 Elite 计划已停止，我们不会将任何新合作伙伴加入此计划。 我们非常感谢你的理解和耐心，并将很快宣布一个新的格式。 
 
 ## <a name="on-boarding-customers"></a>载入客户
 
@@ -161,9 +161,9 @@ Teams 会议室专业版管理服务中的多租户管理 (MTM) 可帮助合作�
 
 最终客户保留对其数据的访问控制权，并且可以随时完全删除合作伙伴或特定角色。
 
-使用委派访问功能，合作伙伴不会在 Pro 管理门户之外获得任何其他特权。 例如，通过使用此功能邀请合作伙伴在 Pro Management 门户中管理会议室，不会向 AAD、Teams 管理员中心或任何其他 Microsoft 产品授予任何权限。 此外，合作伙伴无权查看或修改邀请范围中未定义的会议室。
+使用委派访问功能，合作伙伴不会在 Pro 管理门户之外获得任何其他特权。 例如，通过使用此功能邀请合作伙伴在 Pro Management 门户中管理会议室，不会向 AAD、Teams 管理员中心或任何其他Microsoft产品授予任何权限。 此外，合作伙伴无权查看或修改邀请范围中未定义的会议室。
 
-建立合作伙伴（客户关系）后，如本文档的“载入客户”中所述，合作伙伴可以在 Pro Management 门户中查看会议室数据。 这包括 Pro Management 门户中存在但派生自其他 Microsoft 产品的任何数据。 例如，Pro Management 门户中的通话质量报告派生自 Teams 通话质量数据。
+建立合作伙伴（客户关系）后，如本文档的“载入客户”中所述，合作伙伴可以在 Pro Management 门户中查看会议室数据。 这包括 Pro Management 门户中存在但派生自其他Microsoft产品的任何数据。 例如，Pro Management 门户中的通话质量报告派生自 Teams 通话质量数据。
 
 数据驻留在客户的租户中，不会复制到合作伙伴的租户。 
 
