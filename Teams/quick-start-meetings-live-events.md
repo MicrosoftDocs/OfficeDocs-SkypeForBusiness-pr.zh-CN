@@ -23,14 +23,16 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 982730f7c839eeab2a55bc8997eade8aec31bebc
-ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
+ms.openlocfilehash: 45148768d023b3cb6b609c1f315fe8d71031a573
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68614265"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392192"
 ---
 # <a name="meetings-webinars-and-live-events"></a>会议、网络研讨会和直播活动
+
+[!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
 
 在 Microsoft Teams 中有多种开会方式：会议、网络研讨会和直播活动。
 
@@ -44,7 +46,7 @@ ms.locfileid: "68614265"
 
 | 会议类型 | 参与者人数 | 交互 | 支持注册 |
 |----------|--------|--------|-----|
-| 会议  | 最多 20,000 人* | - 最多 1,000 名参与者具有完全交互式平等会议功能。 <br> - 超过 1,000 名参与者（最多 20,000 人）具有“[仅供查看](view-only-meeting-experience.md)”功能。  | 弱 |
+| 会议  | 最多 20,000 人* | - 最多 1,000 名参与者具有完全交互式平等会议功能。 <br> - 超过 1,000 名参与者（最多 20,000 人）具有“[仅供查看](view-only-meeting-experience.md)”功能。  | 是，会议注册 (网络研讨会 1.0)  |
 | 网络研讨会 | - 最多 1,000 人<br>-“[仅供查看](view-only-meeting-experience.md)”功能的限制即将增加。 |- 最多 1,000 名参与者具有完全交互式功能。<br> - 观众交互可配置。<br> - 可以指定演示者。 | 是 |
 | 直播活动 | 最多 20，000 人** |- 向大量观众广播。 <br>- 针对观众交互的主持问答。 <br> - 可以指定制作者和演示者，包括外部演示者。<br>- 支持更高级的生产功能。 | 弱 |
 
@@ -55,7 +57,7 @@ ms.locfileid: "68614265"
 Note that NDI is fully supported in meetings, webinars, and live events, allowing you to produce the broadcast by using tools such as OBS and Wirecast. For more information, see [Use NDI® technology in Microsoft Teams](use-ndi-in-meetings.md).
 
 > [!NOTE]
-> 有关其他信息并按角色获取有关使用 Microsoft Teams 传送联机事件的指导，请参 [阅虚拟事件 Playbook](https://aka.ms/VirtualEventPlaybook)。 还可以加入Microsoft Tech Community上的[虚拟事件论坛](https://aka.ms/VirtualEventForum)。
+> 有关使用 Microsoft Teams 传递联机事件的其他信息以及按角色获取指导，请参阅[虚拟事件 Playbook](https://aka.ms/VirtualEventPlaybook)。 还可以在Microsoft Tech Community加入[虚拟事件论坛](https://aka.ms/VirtualEventForum)。
 
 > [!NOTE]
 > 有关在不同平台上快速配置 Teams 会议和活动的详细信息，请参阅 [Teams 功能（按平台）](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
@@ -95,7 +97,30 @@ Teams 中的 **会议** 包括最多 1,000 人的音频、视频和屏幕共享�
 
 ## <a name="webinars"></a>网络研讨会
 
-**网络研讨会** 是结构化会议，演示者和参与者在其中具有明确的角色。 网络研讨会和 Teams 会议之间的一个关键区别是网络研讨会支持注册并提供与会者参与数据。 要在组织中启用网络研讨会，请参阅 [在 Teams 中设置网络研讨会](set-up-webinars.md)。
+**网络研讨会** 是结构化会议，演示者和参与者在其中具有明确的角色。 网络研讨会和 Teams 会议之间的一个主要区别在于，网络研讨会支持可靠的注册管理、可自定义的事件和注册站点以及面向事件的默认会议选项。
+
+如果你的组织已在使用网络研讨会，则你熟悉 Teams 会议策略和以下设置，这些设置允许你支持会议注册和跟踪参与数据：
+
+- allowMeetingRegistration (启用或禁用) 
+- WhoCanRegister (公司中的每个人（不包括来宾或) 
+
+随着新的网络研讨会体验的发布，将有一个新的 Teams 事件策略，其中包含以下设置：
+
+- allowWebinars (启用或禁用) 
+- EventAccessType (公司中的每个人（不包括来宾或) 
+
+新策略将继续支持注册和跟踪，并将为网络研讨会体验提供其他功能。 最初，以下各项将可用：
+
+- 条款和条件自定义问题
+- 演示者简介
+- 横幅、徽标和预定义颜色
+- 高级注册功能：手动审批、等待列表、注册日期和时间限制
+- 注册概述和管理：对于每个事件，都会提供注册状态摘要，其中包含处于不同注册状态的与会者列表，具体取决于已启用哪些注册功能。
+
+你将希望开始使用新策略，以利用新功能，因为它变得可用。
+
+有关功能和如何设置网络研讨会的详细信息，请参阅 [设置网络研讨会](set-up-webinars.md)。
+
 
 ### <a name="key-training-for-end-users"></a>面向最终用户的关键培训
 
@@ -152,6 +177,8 @@ Microsoft enables you to enhance meeting experiences by integrating and using me
 任何人都可以免费参加 Teams 会议、网络研讨会或公共直播活动，无需任何许可证。
 
 对于组织、安排和主持会议、网络研讨会或直播活动的人员，他们需要具有 [Microsoft Teams 服务说明](/office365/servicedescriptions/teams-service-description) 中列出的 Microsoft 365 许可证之一。 如果你已在使用 Teams，则你可能拥有组织和主持会议和直播活动所需的许可证。
+
+有关 Teams 高级许可的信息，请参阅 [Teams 高级许可](teams-add-on-licensing/licensing-enhance-teams.md)。
 
 要允许用户通过电话拨入会议，你需要设置音频会议。 有关音频会议的详细信息，请参阅 [Teams 中的音频会议](deploy-audio-conferencing-teams-landing-page.md)。
 

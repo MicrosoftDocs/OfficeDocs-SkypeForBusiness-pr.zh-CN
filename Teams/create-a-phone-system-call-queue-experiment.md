@@ -25,12 +25,12 @@ ms.custom:
 - Phone System - seo-marvel-apr2020
 robots: noindex
 description: 了解如何在 Microsoft Teams 中设置呼叫队列。 呼叫队列提供问候消息、保留音乐、呼叫重定向和其他功能。
-ms.openlocfilehash: 401479f73b81fffcdcb6d5d1d3663a80e4fc7b86
-ms.sourcegitcommit: 54c691bd34980a47a5ebf58555529a618a8cada7
+ms.openlocfilehash: 9750bfddbf43c1b0e103e6d6c31feaf4aa542590
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/03/2022
-ms.locfileid: "69251989"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392522"
 ---
 # <a name="create-a-call-queue"></a>创建呼叫队列
 
@@ -129,9 +129,9 @@ ms.locfileid: "69251989"
 
 创建用于呼叫 ID 的新资源帐户后，仍需要：
 
-- 分配 [Teams 电话资源帐户许可证](manage-resource-accounts.md#assign-a-license)
-- 分配Microsoft通话套餐许可证、分配运营商连接电话号码或为直接路由分配在线语音路由策略
-- 如果使用Microsoft通话套餐，请将[服务电话号码分配给资源帐户](manage-resource-accounts.md#assign-a-service-number)
+- 分配 [Teams 电话资源帐户许可证](manage-resource-accounts.md#assign-a-license)。
+- 分配Microsoft通话套餐许可证、分配运营商连接电话号码或为直接路由分配在线语音路由策略。
+- 如果使用的是通话套餐[，请将电话号码分配给资源帐户](manage-resource-accounts.md#assign-a-phone-number)Microsoft。
 
 #### <a name="set-the-call-queue-language"></a>设置呼叫队列语言
 

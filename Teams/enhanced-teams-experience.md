@@ -19,12 +19,12 @@ ms.localizationpriority: medium
 ms.custom:
 - Licensing
 description: 了解面向管理员和 IT 专业人员的 Microsoft Teams Premium。
-ms.openlocfilehash: 2d7c43f6dd46a635d7aceaaa95548b8c4f31f590
-ms.sourcegitcommit: 81b3403a1a77ba202690c2d88bd8d1d5257048e5
+ms.openlocfilehash: 9e7af9c777ba5fec8ca8b68da7f1069737702617
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 12/14/2022
-ms.locfileid: "69379459"
+ms.locfileid: "69392472"
 ---
 # <a name="microsoft-teams-premium---overview-for-administrators"></a>Microsoft Teams Premium - 管理员概述
 
@@ -63,8 +63,6 @@ Teams Premium 提供了保护会议的其他方法，具有以下关键功能：
 - **端到端加密** - 通过敏感度标签强制实施。 端到端加密为需要更高级别保护的会议提供了更高的安全性。
 
 
-
-
 | 功能/任务  | 面向管理员的文档 | 面向最终用户的文档
 | -------------------- | ----------- | ------------ |
 | 敏感度标签 | [使用三层保护配置 Teams 会议](configure-meetings-three-tiers-protection.md) | |
@@ -82,16 +80,17 @@ Teams Premium 提供以下用于自定义会议的其他功能：
 
 - **会议主题** - 允许组织在整个会议体验中扩展其视觉标识。 可以为单个租户中的各种业务部门和部门设置和创建会议主题。
 
-- **自定义会议背景** - 可以创建和定义可供最终用户使用的自定义会议背景。 
+- **组织的自定义会议背景** - 可以创建和定义自定义会议背景，然后可以使用 Teams Premium 许可证提供给最终用户。
 
-- **自定义一起模式场景** - 一个 Teams 应用，使组织中的开发人员能够定义和自定义会议的视频场景。  
+- **组织的自定义一起模式场景** - 你可以为会议创建、自定义或接受自定义的一起模式场景，然后可以使用 Teams Premium 许可证提供给最终用户。
+
 
 | 功能/任务 | 面向管理员的文档 | 面向最终用户的文档
 | -------------------- | ----------- | ------------ |
 | 会议模板 | - [概述](custom-meeting-templates-overview.md)<br>- [创建自定义会议模板](create-custom-meeting-template.md)| [使用自定义模板](https://support.microsoft.com/office/use-custom-templates-for-teams-meetings-78279be9-3283-4999-b24e-96fb0da2fb4f)
 | 会议主题 | [Teams 会议的主题](meeting-themes.md) | [使用会议主题](https://support.microsoft.com/office/use-meeting-themes-for-teams-meetings-fbfd826d-1112-4790-918a-5a82cac8250e) |
-| 自定义会议背景 | [会议背景](custom-meeting-backgrounds.md)| |
-| 自定义一起模式场景 | [面向你和开发人员的内容](/microsoftteams/platform/apps-in-teams-meetings/teams-together-mode)| |
+| 组织的自定义会议背景 | [会议背景](custom-meeting-backgrounds.md)| |
+| 组织的自定义联合模式场景 | [面向你和开发人员的内容](/microsoftteams/platform/apps-in-teams-meetings/teams-together-mode)| |
 
 
 

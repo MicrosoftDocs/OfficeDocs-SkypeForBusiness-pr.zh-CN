@@ -21,12 +21,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 了解 Microsoft Teams 的Microsoft附加许可证以及使用每个许可证获得的功能。
-ms.openlocfilehash: 74924c398d74f318311f41dfa8ac6797a57af385
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: d4a1beadc5e4252795bdbb4eb15767f3ec94ca2c
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69307767"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392102"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Microsoft Teams 附加许可证
 
@@ -41,13 +41,14 @@ ms.locfileid: "69307767"
 |许可证|说明|
 |-------|-----------|
 | **Microsoft Teams Premium** | Microsoft Teams Premium 是一个 Teams 附加许可证，它允许拥有 Microsoft 365 订阅的组织通过更多个性化和智能会议、增强的会议保护以及高级管理和报告功能等优势来增强其 Teams 体验。 有关 Teams Premium 附加许可证的详细信息，请参阅 [Microsoft Teams Premium 许可](licensing-enhance-teams.md)。 |
-| **Microsoft 365 商务语音** |商务语音是Microsoft适用于中小型企业的语音功能捆绑包，但自 2022 年 3 月 1 日起不再可供购买。 当前商务语音订阅者无法再续订其商务语音许可证。 <br/> <br/> 如果你是中小型企业，我们建议购买 [具有通话套餐许可证的 Teams 电话](../business-voice/whats-business-voice.md)（如果在你的地区可用）。 <br/> <br/> 或者，可以购买Teams 电话标准版许可证，以便连接到首选的第三方 PSTN 提供商。 |
-| **带通话套餐捆绑包的 Teams 电话** |具有通话套餐许可证的 Teams 电话捆绑了 Teams 电话系统的 PBX 功能和 PSTN 连接的国内通话套餐。 |
+| **Microsoft 365 商务语音** | 商务语音是Microsoft适用于中小型企业的语音功能捆绑包，但自 2022 年 3 月 1 日起不再可供购买。 当前商务语音订阅者无法再续订其商务语音许可证。 <br/> <br/> 如果你是中小型企业，我们建议购买 [具有通话套餐许可证的 Teams 电话](../business-voice/whats-business-voice.md)（如果在你的地区可用）。 <br/> <br/> 或者，可以购买Teams 电话标准版许可证，以便连接到首选的第三方 PSTN 提供商。 |
+| **带通话套餐捆绑包的 Teams 电话** | 具有通话套餐许可证的 Teams 电话捆绑了 Teams 电话系统的 PBX 功能和 PSTN 连接的国内通话套餐。 |
 | **Teams 电话标准版** |[Teams 电话系统](../what-is-phone-system-in-office-365.md) 是一项托管电话服务，可提供呼叫控制和专用分支交换 (PBX) 功能。 Teams 电话标准版许可证提供所有 Teams 电话系统功能，例如云语音邮件、呼叫方 ID、呼叫寄存、呼叫转接、自动助理、呼叫队列、呼叫转接和呼叫方 ID。 <br/> <br/>若要了解有关电话系统的详细信息，请参阅 [Teams 电话系统的以下功能](../here-s-what-you-get-with-phone-system.md)。 |
-| **Microsoft Teams 通话套餐** |如果用户需要拨打组织外部的电话号码，你可以购买[Microsoft Teams 通话套餐](../calling-plans-for-office-365.md)，以连接到 PSTN 电话号码，Microsoft作为 PSTN 提供商。 有国内通话套餐、国际通话套餐和即用即付通话套餐。 <br/> <br/> 若要了解 Teams 通话套餐在你的国家或地区是否可用，请参阅 [音频会议和通话套餐的国家和地区可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。 |
+| **Microsoft Teams 通话套餐** | 如果用户需要拨打组织外部的电话号码，你可以购买[Microsoft Teams 通话套餐](../calling-plans-for-office-365.md)，以连接到 PSTN 电话号码，Microsoft作为 PSTN 提供商。 有国内通话套餐、国际通话套餐和即用即付通话套餐。 <br/> <br/> 若要了解 Teams 通话套餐在你的国家或地区是否可用，请参阅 [音频会议和通话套餐的国家和地区可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。 |
 | **通信点数** | 通信额度提供可用于 PSTN 电话呼叫的每月分钟池，前提是所有通话套餐分钟数在下个月的月初之前都用到。 如果需要音频会议、自动助理或呼叫队列的免费号码，则需要 [设置通信点数](../set-up-communications-credits-for-your-organization.md)。 |
-| **音频会议** |有时，组织中的人员需要使用电话来拨入 Teams 会议，而不是使用他们的计算机。 为安排或主持会议与需要使用电话呼叫的与会者的用户[设置音频会议](../set-up-audio-conferencing-in-teams.md)。 <br/> <br/>要了解你所在国家或地区是否提供视频会议，请参阅 [音频会议和通话套餐的国家/地区可用情况](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。 有关定价信息，请参阅[音频会议定价](https://go.microsoft.com/fwlink/?linkid=799762)。  <br/> <br/>组织现在可以将第三方运营商用于其音频会议号码。 有关详细信息，请参阅[规划运营商连接会议](../operator-connect-conferencing-plan.md)。 |
+| **音频会议** | 有时，组织中的人员需要使用电话来拨入 Teams 会议，而不是使用他们的计算机。 为安排或主持会议与需要使用电话呼叫的与会者的用户[设置音频会议](../set-up-audio-conferencing-in-teams.md)。 <br/> <br/>要了解你所在国家或地区是否提供视频会议，请参阅 [音频会议和通话套餐的国家/地区可用情况](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。 有关定价信息，请参阅[音频会议定价](https://go.microsoft.com/fwlink/?linkid=799762)。  <br/> <br/>组织现在可以将第三方运营商用于其音频会议号码。 有关详细信息，请参阅[规划运营商连接会议](../operator-connect-conferencing-plan.md)。 |
 | **Microsoft Teams 会议室** | Microsoft Teams 会议室是另一个Microsoft Teams 产品，用于将视频、音频和内容共享引入会议室。 <br/> <br/>Teams 会议室 Basic 是最多 25 个会议室的免费许可证，为所有Teams 会议室设备提供核心会议和管理功能。 <br/> <br/>Teams 会议室专业版带来了增强的会议体验和高级管理和安全性，可帮助你大规模操作设备并启用包容性混合会议。 <br/> <br/>有关详细信息，请参阅 [Teams 会议室许可](../rooms/rooms-licensing.md)。 |
+| **Microsoft Teams 共享设备** | 许多组织在迁移到混合工作方案时需要灵活的工作场所解决方案。 Microsoft Teams 共享设备许可证旨在通过允许办公室将设备指定为共享设备（包括公用区域电话、用于热桌的 Teams 显示器和用于会议空间的 Teams 面板）来支持混合工作。 有关详细信息，请参阅 [Microsoft Teams 共享设备许可](teams-shared-device-license.md)。 |
 
 ## <a name="which-microsoft-capabilities-are-available-with-my-plan"></a>我的计划提供哪些Microsoft功能？
 

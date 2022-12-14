@@ -16,12 +16,12 @@ ms.reviewer: mikedav
 description: 了解如何向用户分配 Teams 附加许可证，以获取音频会议、电话系统和通话套餐等功能。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 635280582796f2b373efc0c763fea0887bcd6e42
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: 60bde63ab3cc499c022ef2d23b669b543d6f5dd9
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69307777"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392082"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>向用户分配 Teams 附加许可证
 
@@ -148,6 +148,7 @@ ms.locfileid: "69307777"
 | 不使用音频会议Microsoft Teams 会议室基本版 | Microsoft_Teams_Rooms_Basic_without_Audio_Conferencing |
 | Microsoft Teams 会议室专业版 | Microsoft_Teams_Rooms_Pro |
 | 不使用音频会议Microsoft Teams 会议室专业版 | Microsoft_Teams_Rooms_Pro_without_Audio_Conferencing |
+| Microsoft Teams 共享设备 | MCOCAP |
 | Microsoft Teams Premium | Microsoft_Teams_Premium |
 
 ## <a name="related-content"></a>相关内容

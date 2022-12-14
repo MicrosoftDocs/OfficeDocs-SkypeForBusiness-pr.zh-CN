@@ -28,12 +28,12 @@ adobe-target-activity: DocsExp–480823–A/B–Docs/TeamsSteps–HowToTabs–FY
 adobe-target-experience: Experience B
 adobe-target-content: ./create-a-phone-system-call-queue-experiment
 description: 了解如何在 Microsoft Teams 中设置呼叫队列。 呼叫队列提供问候消息、保留音乐、呼叫重定向和其他功能。
-ms.openlocfilehash: a55573b5a7c713366eb4f930f58de34971d21fce
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: da0b94281619940a955a7ca7aa0b4127fbb93f3c
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69307547"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392222"
 ---
 # <a name="create-a-call-queue-in-microsoft-teams"></a>在 Microsoft Teams 中创建呼叫队列
 
@@ -134,9 +134,9 @@ ms.locfileid: "69307547"
 
 创建用于呼叫 ID 的新资源帐户后，仍需要：
 
-- 分配 [Teams 电话资源帐户许可证](manage-resource-accounts.md#assign-a-license)
-- 分配Microsoft通话套餐许可证、分配运营商连接电话号码或为直接路由分配在线语音路由策略
-- 如果使用Microsoft通话套餐，请将[服务电话号码分配给资源帐户](manage-resource-accounts.md#assign-a-service-number)
+- 分配 [Teams 电话资源帐户许可证](manage-resource-accounts.md#assign-a-license)。
+- 分配Microsoft通话套餐许可证、分配运营商连接电话号码或为直接路由分配在线语音路由策略。
+- 如果使用的是通话套餐[，请将电话号码分配给资源帐户](manage-resource-accounts.md#assign-a-phone-number)Microsoft。
 
 ### <a name="set-the-call-queue-language"></a>设置呼叫队列语言
 

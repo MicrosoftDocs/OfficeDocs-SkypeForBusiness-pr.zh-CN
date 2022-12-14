@@ -23,12 +23,12 @@ ms.collection:
 - purview-compliance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 23de1b32e757df8cc1f971ad4e9bed255f95af41
-ms.sourcegitcommit: d95a3408e31d3dec37c534c110b09a8847bec724
+ms.openlocfilehash: 2e07da669e489a53dfabd2ee7c1fee2079497857
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/23/2022
-ms.locfileid: "69156828"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392162"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>通话&会议基于 Teams 策略的录制简介
 
@@ -42,7 +42,7 @@ Teams 已得到增强，以支持第三方录制解决方案的集成，包括�
 
 - 用于合规性录制的新管理策略，包括与现有 Teams 管理通话和会议工具和策略的集成
 
-可以在 Microsoft 365 A3/A5/E3/E5/Business Premium、Office 365 A3/A5/E3/E5 用户或 Teams 会议室/公共区域电话许可证上启用合规性录制。 
+可以在 Microsoft 365 A3/A5/E3/E5/Business Premium、Office 365 A3/A5/E3/E5 用户、Teams 会议室许可证或Microsoft Teams 共享设备许可证上启用合规性录制。
 
 > [!NOTE]
 > E911 紧急呼叫服务目前不支持合规性记录。

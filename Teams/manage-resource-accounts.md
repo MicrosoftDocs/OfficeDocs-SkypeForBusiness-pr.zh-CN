@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: 本文介绍如何在 Microsoft Teams 中创建、编辑和管理资源帐户。
-ms.openlocfilehash: cde570c23b6d2e6b673f6cc0f49c9905c3b45fd1
-ms.sourcegitcommit: 55d2f515f5040b4c083f529d7b818c84d42378a0
+ms.openlocfilehash: 3ac03e8531457d21d2988db0a86ca8bdca367f0a
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/22/2022
-ms.locfileid: "69147429"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392202"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>在 Microsoft Teams 中管理资源帐户
 
@@ -35,7 +35,7 @@ ms.locfileid: "69147429"
 
 ## <a name="next-steps"></a>后续步骤
 
-完成资源帐户设置并根据需要分配服务号码后，即可将资源帐户与自动助理或呼叫队列配合使用。
+完成资源帐户设置并根据需要分配电话号码后，即可将资源帐户与自动助理或呼叫队列配合使用。
 
 有关详细信息，请参阅以下参考：
 
@@ -73,7 +73,7 @@ ms.locfileid: "69147429"
 
 ## <a name="delete-a-resource-account"></a>删除资源帐户
 
-删除之前，请确保将电话号码与资源帐户取消关联，以避免服务号码停滞在挂起模式。
+删除之前，请确保将电话号码与资源帐户取消关联，以避免电话号码停滞在挂起模式。
 
 执行此操作后，可以在“**用户**”选项卡下的Microsoft 365 管理中心中删除资源帐户。
 

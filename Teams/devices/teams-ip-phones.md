@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 了解哪些桌面电话和会议电话经过认证，Microsoft Teams 以产生最佳结果。
-ms.openlocfilehash: f9012cd72807705f4f381b3443605b77c9d94000
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: 0055529d7bc0344faeb04e7d35bf0c9ed457510d
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69307937"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392352"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams 认证的 Android 设备
 
@@ -88,7 +88,7 @@ Microsoft Teams 设备认证计划确保认证设备符合高标准，在整个 
 | Logitech Tap IP VR0029     | `1.6.762`  |   2024 年 9 月 3 日  | 与 Logitech Rally Bar 和 Rally Bar Mini 兼容 | 10 |
 | Neat Bar Pro   | `NFD1.20220914.1210 ` | 2024 年 9 月 3 日  |  中型房间 (4.5 m x 6 m)  | 10|
 | 整洁条形图 | `NFF1.20220914.1210` |2024 年 9 月 3 日|    中型房间 (4.5 m x 6 m)  | 10 |
-| Neat Pad 触摸控制台 | `NFA1.20220914.1206`  | 2024 年 9 月 3 日 | 仅与 Neat Bar 兼容 | 9 |
+| Neat Pad 触摸控制台 | `NFA1.20220914.1206`  | 2024 年 9 月 3 日 | 与 Neat Bar & Neat Bar Pro 兼容 | 9 |
 | 整洁板 | `NFC1.20220914.1210 ` | 2024 年 9 月 3 日 |    小型会议室 (4.5 m x 4.5 m)  | 10 |
 | Logitech Roommate | `1.4.71` | 2024 年 9 月 3 日  | 大型会议室 (4.5 米 x 8.5 米)   |   10  |
 | EPOS EXPAND 80T | `1.2.2.21182.10` | 2023 年 8 月 5 日 | 与 EPOS 视觉 3T 捆绑 | 9 |
@@ -165,6 +165,7 @@ Microsoft Teams 设备认证计划确保认证设备符合高标准，在整个 
 
 | 设备型号  | 固件版本  | 包含的产品版本  |
 |:----------------|:--------------|:----------------------------|
+|Poly CCX350 | `8.0.2.2643` | 2022 更新#4A |
 |Yealink CP965  | `143.15.0.27`     | 2022 更新#4A  |
 |Yealink MP54/MP56/MP58  | `122.15.0.107`     | 2022 更新#4A  |
 |Yealink MP52  | `145.15.0.59`     | 2022 更新#4A  |
@@ -272,6 +273,7 @@ Microsoft Teams 设备认证计划确保认证设备符合高标准，在整个 
 
 | 产品发布| 发布日期 | Microsoft Teams 应用版本 | 公司门户版本 | 管理员代理版本 |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+| 2022 更新 #3  | 2022 年 12 月 13 日 |`1449/1.0.96.2022120503`| `5.0.5484.0` | `1.0.0.202205230848.product version code : 361` |
 | 2022 更新#2B  | 2022 年 9 月 15 日 |`1449/1.0.96.2022090606`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
 | 2022 更新#2A  | 2022 年 8 月 8 日 |`1449/1.0.96.2022072103`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
 | 2022 更新 #2  | 2022 年 5 月 25 日 |`1449/1.0.96.2022051102`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
@@ -290,6 +292,14 @@ Microsoft Teams 设备认证计划确保认证设备符合高标准，在整个 
 
 | 设备型号  | 固件版本 | 包含的产品版本 |
 |:--------------|:-----------------|:-------------------------|
+| Yealink MeetingBoard 86” | `155.15.0.17` | 2022 更新#2B |
+| 整洁条形图 | `NFB1.20220914.1215` | 2022 更新#2B |
+| Neat Bar Pro| `NFD1.20220914.1215` | 2022 更新#2B |
+| 整洁板 | `NFC1.20220914.1215` |  2022 更新#2B |
+| Neat Pad 触摸控制台 | `NFA1.20220914.1215`  |  2022 更新#2B |
+| Logi Rallybar  | `1.8.290`     | 2022 更新#2B  |
+| Logi Rallybar Mini  | `1.8.290`     | 2022 更新#2B  |
+| Logi 控制台  | `1.8.177`    | 2022 更新#2B  |
 | Logi Rallybar  | `1.7.300`     | 2022 更新#2B  |
 | Logi Rallybar Mini  | `1.7.300`     | 2022 更新#2B  |
 | Logi RoomMate  | `1.7.202`   | 2022 更新#2B  |

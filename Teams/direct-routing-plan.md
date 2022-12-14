@@ -19,12 +19,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: 了解Microsoft直接路由如何使你能够将受支持的客户提供的会话边界控制器 (SBC) 连接到电话系统。
-ms.openlocfilehash: e3da76d8fa3f848945607a7e27f6b162623951b3
-ms.sourcegitcommit: feb9b7d10e38f5a629ee9202b5aaec5beef4de9b
+ms.openlocfilehash: 811115c23d88ff3ce1b7fa6af8f8757afb33fecf
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/10/2022
-ms.locfileid: "69343182"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392322"
 ---
 # <a name="plan-direct-routing"></a>规划直接路由
 
@@ -122,26 +122,25 @@ Teams 用户可以启动一对一的 Teams 到 PSTN 或 Teams 到 Teams 呼叫�
 
 必须确保以下各项：
  
-- CsOnlineVoiceRoutingPolicy 分配给用户。 
+- CsOnlineVoiceRoutingPolicy 分配给用户。
 
-- 在租户级别为 Microsoft Teams 启用“允许专用呼叫”。 
+- 在租户级别为 Microsoft Teams 启用“允许专用呼叫”。
 
 直接路由还支持获得Microsoft通话套餐许可的用户。 具有通话套餐的电话系统可以使用直接路由接口路由某些呼叫。 但是，用户的电话号码必须在线获取或移植到Microsoft。  
 
-为同一用户混合通话套餐和直接路由连接是可选的，但可能很有用。 例如，向用户分配了Microsoft通话套餐，但想要使用 SBC 路由某些呼叫时。 最常见的方案之一是调用第三方 PBX。  对于第三方 PBX，所有呼叫（连接到该 PBX 的电话除外）都使用Microsoft呼叫计划进行路由，但对连接到第三方 PBX 的电话的呼叫将转到 SBC，因此保留在企业网络内，而不是 PSTN。 
+为同一用户混合通话套餐和直接路由连接是可选的，但可能很有用。 例如，向用户分配了Microsoft通话套餐，但想要使用 SBC 路由某些呼叫时。 最常见的方案之一是调用第三方 PBX。  对于第三方 PBX，所有呼叫（连接到该 PBX 的电话除外）都使用Microsoft呼叫计划进行路由，但对连接到第三方 PBX 的电话的呼叫将转到 SBC，因此保留在企业网络内，而不是 PSTN。
 
-有关电话系统许可的详细信息，请参阅[充分利用 Office](https://products.office.com/compare-all-microsoft-office-products?tab=2) 和[计划选项](/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options)和 [Microsoft Teams 附加许可](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。 
+有关电话系统许可的详细信息，请参阅[充分利用 Office](https://products.office.com/compare-all-microsoft-office-products?tab=2) 和[计划选项](/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options)和 [Microsoft Teams 附加许可](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
 
-## <a name="supported-end-points"></a>支持的终结点 
+## <a name="supported-end-points"></a>支持的终结点
 
 可以使用 作为终结点：
 
-- 任何 Teams 客户端。 
+- 任何 Teams 客户端。
 
-- 公用区域电话。 请参阅[为 Microsoft Teams 设置公用区域电话](./set-up-common-area-phones.md)。 设置具有直接路由的公用区域电话时，不需要通话套餐许可证。
+- 公用区域电话。 请参阅[为 Microsoft Teams 设置公用区域电话](./set-up-common-area-phones.md)。 使用直接路由设置公用区域电话时，不需要通话套餐许可证。
 
 - Skype for Business 3PIP 电话。 请参阅[使用 Microsoft Teams (3PIP) 支持的Skype for Business手机](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Skype-for-Business-phones-3PIP-support-with-Microsoft-Teams/ba-p/789351)
-
 
 ## <a name="sbc-domain-names"></a>SBC 域名
 
@@ -155,7 +154,8 @@ contoso.com|是|**有效名称：**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.com
 |contoso.onmicrosoft.com|否|SBC 名称不支持使用 *.onmicrosoft.com 域
 
 假设要使用新的域名。 例如，租户 contoso.com 为在租户中注册的域名，并且你希望使用 sbc1.sip.contoso.com。 在将 SBC 与名称 sbc1.sip.contoso.com 配对之前，必须在租户的“域”中注册域名 sip.contoso.com。 如果在注册域名之前尝试将 SBC 与 sbc1.sip.contoso.com 配对，将收到以下错误：“无法使用”sbc1.sip.contoso.com“域，因为它未为此租户配置。
-添加域名后，还需要使用 UPN user@sip.contoso.com 创建用户并分配 Teams 许可证。 将域名添加到租户的域后，最多可能需要 24 小时才能完全预配该域名，创建具有新名称的用户，并将许可证分配给该用户。 
+
+添加域名后，还需要使用 UPN user@sip.contoso.com 创建用户并分配 Teams 许可证。 将域名添加到租户的域后，最多可能需要 24 小时才能完全预配该域名，创建具有新名称的用户，并将许可证分配给该用户。
 
 一家公司可能在一个租户中具有多个 SIP 地址空间。 例如，公司可能将 contoso.com 作为 SIP 地址空间，fabrikam.com 作为第二个 SIP 地址空间。 某些用户具有地址 user@contoso.com，某些用户具有地址 user@fabrikam.com。 
 
@@ -166,14 +166,16 @@ SBC 只需要一个 FQDN，并且可以从配对租户中的任何地址空间�
   
 ## <a name="public-trusted-certificate-for-the-sbc"></a>SBC 的公共受信任证书
 
-Microsoft建议通过 (CSR) 生成证书签名请求来请求 SBC 的证书。 有关为 SBC 生成 CSR 的具体说明，请参阅 SBC 供应商提供的互连说明或文档。 
+Microsoft建议通过 (CSR) 生成证书签名请求来请求 SBC 的证书。 有关为 SBC 生成 CSR 的具体说明，请参阅 SBC 供应商提供的互连说明或文档。
 
 > [!NOTE]
 > 大多数证书颁发机构 (CA) 要求私钥大小至少为 2048。 生成 CSR 时，请记住这一点。
 
 证书需要将 SBC FQDN 用作 CN)  (公用名，或将使用者可选名称 (SAN) 字段。
 
-或者，直接路由支持 CN 和/或 SAN 中的通配符，并且通配符需要符合标准 [RFC HTTP Over TLS](https://tools.ietf.org/html/rfc2818#section-3.1)。 例如，使用 \*与 SBC FQDN sbc.contoso.com 匹配但与 sbc.test.contoso.com 不匹配的 .contoso.com。
+或者，直接路由支持 CN 和/或 SAN 中的通配符，并且通配符需要符合标准 [RFC HTTP Over TLS](https://tools.ietf.org/html/rfc2818#section-3.1)。
+
+例如，使用 \*与 SBC FQDN sbc.contoso.com 匹配但与 sbc.test.contoso.com 不匹配的 .contoso.com。
 
 直接路由 SIP 接口将仅信任证书颁发机构 (CA 签名的证书，) 属于Microsoft受信任的根证书计划的一部分。 请确保 SBC 证书由属于程序的 CA 签名，并且证书的扩展密钥用法 (EKU) 扩展包括服务器身份验证。
 了解详细信息：[计划要求 - Microsoft受信任的根程序](/security/trusted-root/program-requirements)
@@ -188,7 +190,7 @@ Microsoft建议通过 (CSR) 生成证书签名请求来请求 SBC 的证书。 �
 > [!NOTE]
 > 如果为 SBC 上的 Teams 连接启用了相互 TLS (MTLS) 支持，则必须在 Teams TLS 上下文的 SBC 受信任根存储中安装 Baltimore CyberTrust Root 和 DigiCert 全局根 G2 证书。  (这是因为Microsoft服务证书使用这两个根证书之一。) 若要下载这些根证书，请参阅[Office 365加密链](/microsoft-365/compliance/encryption-office-365-certificate-chains)。 有关详细信息，请参阅 [Office TLS 证书更改](/microsoft-365/compliance/encryption-office-365-tls-certificates-changes)。
 
-## <a name="sip-signaling-fqdns"></a>SIP 信号：FQDN 
+## <a name="sip-signaling-fqdns"></a>SIP 信号：FQDN
 
 直接路由在以下环境中提供：
 
@@ -274,6 +276,7 @@ SBC 会发出 DNS 查询来解析 sip.pstnhub.microsoft.com。 根据 SBC 位置
 |||||
 
 ## <a name="media-traffic-port-ranges"></a>媒体流量：端口范围
+
 请注意，如果要部署没有媒体旁路的直接路由，则以下要求适用。 有关媒体旁路的防火墙要求，请参阅 [使用直接路由规划媒体旁路](./direct-routing-plan-media-bypass.md)。
 
 媒体流量流入和流出Microsoft云中的单独服务。 媒体流量的 IP 地址范围如下所示。
@@ -292,7 +295,8 @@ SBC 会发出 DNS 查询来解析 sip.pstnhub.microsoft.com。 根据 SBC 位置
 - 52.127.88.0/21
 
 ### <a name="port-range-applicable-to-all-environments"></a>端口范围 (适用于所有环境) 
-下表显示了媒体处理器的端口范围： 
+
+下表显示了媒体处理器的端口范围：
 
 |交通|从|到|源端口|目标端口|
 |:--- |:--- |:--- |:--- |:--- |
@@ -301,7 +305,6 @@ SBC 会发出 DNS 查询来解析 sip.pstnhub.microsoft.com。 根据 SBC 位置
 
   > [!NOTE]
   > Microsoft建议 SBC 上每个并发调用至少两个端口。
-
 
 ## <a name="media-traffic-media-processors-geography"></a>媒体流量：媒体处理器地理位置
 
@@ -331,22 +334,23 @@ SBC 会发出 DNS 查询来解析 sip.pstnhub.microsoft.com。 根据 SBC 位置
 
 仅适用于非媒体旁路情况。 使用媒体旁路，媒体直接在 Teams 客户端和 SBC 之间流动。
 
-在云媒体处理器和 Microsoft Teams 客户端之间的一端，使用 SILK 或 G.722。 此段上的编解码器选择基于Microsoft算法，这些算法考虑了多个参数。 
+在云媒体处理器和 Microsoft Teams 客户端之间的一端，使用 SILK 或 G.722。 此段上的编解码器选择基于Microsoft算法，这些算法考虑了多个参数。
 
   > [!NOTE]
   > 不支持媒体重新定位。 在直接路由呼叫期间，如果 SBC 向 Teams 直接路由发送新的媒体 IP，尽管它是在 SIP 信令中协商的，但媒体永远不会从 Teams 直接路由发送到新的 IP 地址。
 
 ## <a name="supported-session-border-controllers-sbcs"></a>支持的会话边界控制器 (SBC) 
 
-Microsoft仅支持经过认证的 SBC 与直接路由配对。 由于企业语音对企业至关重要，因此Microsoft对所选 SBC 运行密集测试，并与 SBC 供应商合作，确保这两个系统兼容。 
+Microsoft仅支持经过认证的 SBC 与直接路由配对。 由于企业语音对企业至关重要，因此Microsoft对所选 SBC 运行密集测试，并与 SBC 供应商合作，确保这两个系统兼容。
 
-已验证的设备列为“Teams 直接路由认证”。 经过认证的设备保证适用于所有方案。 
+已验证的设备列为“Teams 直接路由认证”。 经过认证的设备保证适用于所有方案。
 
 有关支持的 SBC 的详细信息，请参阅 [认证为直接路由的会话边界控制器](direct-routing-border-controllers.md)。
 
 ## <a name="support-boundaries"></a>支持边界
+
 Microsoft 仅在与认证设备一起使用时支持具有直接路由的电话系统。 如果出现问题，必须先联系 SBC 供应商的客户支持。 如果需要，SBC 供应商将通过内部渠道将问题呈报给 Microsoft。 Microsoft 保留在非认证设备通过直接路由连接电话系统的情况下拒绝提供支持的权利。 如果 Microsoft 确定客户的直接路由问题与供应商的 SBC 设备有关，则客户需要重新联系 SBC 供应商以获得支持。
- 
+
 ## <a name="see-also"></a>另请参阅
 
 [配置直接路由](direct-routing-configure.md)

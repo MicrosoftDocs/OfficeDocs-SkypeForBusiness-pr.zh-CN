@@ -22,12 +22,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a4f5db5f79d2a273701e7c2cd8883c89aba2d1a2
-ms.sourcegitcommit: ad7eb80a266a96bb894f3801b51587c07786c257
+ms.openlocfilehash: 5d2bd923835da3c9ffcbf32e0675f1f0e4e63bd3
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/19/2022
-ms.locfileid: "69126958"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392212"
 ---
 # <a name="plan-for-sip-gateway"></a>规划 SIP 网关
 
@@ -62,9 +62,9 @@ Teams 用户必须具有启用了 PSTN 呼叫的电话号码才能使用 SIP 网
 
 如果你有 3PIP 或 SIP 设备，则必须：
 
-- 通过 E5 或独立许可证 (Microsoft Teams、Skype for Business Online Plan 2 和 Microsoft 365 电话系统许可证) 
-- PSTN 启用 (即通过 Microsoft Teams 通话套餐、直接路由或运营商连接) 电话号码
-- 任何公共区域设备的公用区域电话许可证
+- 通过 E5 或独立许可证Microsoft Teams、Skype for Business Online 计划 2 和 Microsoft 365 电话系统 (的许可证) 
+- PSTN 启用 (，即通过Microsoft Teams 通话套餐、直接路由或运营商连接) 电话号码
+- 适用于任何公共区域 **设备的Microsoft Teams 共享** 设备许可证
 
 ## <a name="compatible-devices"></a>兼容的设备
 

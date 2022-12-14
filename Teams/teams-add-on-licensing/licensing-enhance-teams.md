@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 ms.custom:
 - Licensing
 description: 了解如何使用 Microsoft Teams 高级版附加许可证增强 Microsoft Teams 体验
-ms.openlocfilehash: e650c5c40623e3748deb9275d439dfd5328a317b
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: ec0f71e252a38beca0613a546ef9ddd990f6a53d
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69308003"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392342"
 ---
 # <a name="microsoft-teams-premium-licensing"></a>Microsoft Teams 高级版许可
 
@@ -41,7 +41,6 @@ Microsoft Teams Premium 是一个 Teams 附加许可证，它允许订阅为 365
 - [Teams Premium 与 Teams 相比如何？](#how-does-teams-premium-compare-to-teams)
 - [是否有将迁移到 Teams 高级版的当前 Teams 功能？](#are-there-current-teams-features-that-will-move-to-teams-premium)
 - [购买 Teams Premium 的要求是什么？](#what-are-the-requirements-to-purchase-teams-premium)
-- [Teams 如何强制访问 Teams Premium 功能？](#how-does-teams-enforce-access-to-teams-premium-features)
 - [Teams Premium 与 Teams 会议室专业版 有何不同？](#how-does-teams-premium-differ-from-teams-rooms-pro)
 - [是否可以在购买许可证之前体验 Teams Premium？](#can-i-experience-teams-premium-before-buying-licenses)
 - [如何实现购买 Teams 高级版许可证？](#how-do-i-purchase-teams-premium-licenses)
@@ -60,7 +59,7 @@ Microsoft Teams Premium 是一个 Teams 附加许可证，它允许订阅为 365
 |---------|:-----:|:-------------:|
 | 主持和参加 Teams 会议 | X | X |
 | 体验 Teams 的标准外观 | X | X |
-| 使用标准 Teams 会议背景 | X | X |
+| 在用户级别使用标准和自定义会议背景| X | X |
 | 在会议期间阅读实时字幕 | X | X |
 | 为组织自定义会议模板 |  | X |
 | 将组织品牌添加到会议大厅 |  | X |
@@ -176,25 +175,6 @@ Microsoft Teams Premium 是一个 Teams 附加许可证，它允许订阅为 365
 **用户要求** 是：
 
 - 使用 Teams 的 Office 365 或 Microsoft 365 订阅。
-
-## <a name="how-does-teams-enforce-access-to-teams-premium-features"></a>Teams 如何强制访问 Teams Premium 功能？
-
-用户具有哪些 Teams 体验取决于其 Teams 许可证和 Teams 角色。 Teams 按功能检查用户的许可证和角色功能，以提供适当的体验。
-
-例如，在 Teams 会议中，Teams 将检查每个用户的 Teams 许可证以及他们是会议组织者还是与会者。 这些因素决定了用户的体验以及可能的其他参与者在会议中的体验。
-
-- **基于组织者：** 某些功能在组织者级别检查许可。 如果会议组织者具有功能的适当许可证，则该功能也将在会议期间共享并可供与会者访问。
-- **基于与会者：** 某些功能在与会者级别检查许可。 在会议期间，其他与会者不会共享和访问他们的 Teams 体验。
-
-下表显示了每个 Teams 高级版功能的许可证检查。
-
-|  | 基于组织者的许可证检查 | 基于与会者的许可证检查 |
-|--|-------------------------------|------------------------------|
-| **会议** | &#10004;使用自定义会议模板 </br> &#10004;使用自定义主题会议 </br> &#10004;将 Microsoft eCDN 用于实时事件 | &#10004;使用自定义一起模式场景 </br> &#10004;使用自定义背景和大厅 |
-| **网络研讨会** | &#10004;设置网络研讨会绿色会议室 </br> &#10004;管理网络研讨会模式 </br> &#10004;使用RTMP-In </br> &#10004;手动批准网络研讨会注册 </br> &#10004;创建注册等待列表 </br> &#10004;限制注册日期和时间 |  |
-| **会议保护** | &#10004;对最多 50 名参与者的会议使用端到端加密 </br> &#10004;向会议添加水印 </br> &#10004;将敏感度标签应用于会议 </br> &#10004;防止在会议聊天中复制/粘贴 </br> &#10004;控制谁可以录制会议 </br> &#10004;自定义用户策略包 |  |
-| **智能会议** | &#10004;实时阅读翻译的字幕 </br> &#10004;使用自动生成的章节导航会议 | &#10004;翻译会后听录 </br></br> *会议回顾 AI 功能：* </br> &#10004; 查看加入和离开会议时的时间戳 </br> &#10004;会议后接收建议的任务 </br> 使用建议的说话人&#10004;搜索 </br> &#10004;视图@mentions |
-| **虚拟约会** | &#10004;设置短信通知 </br> &#10004; Access Premium 虚拟约会 应用 </br> &#10004;为约会和大厅使用自定义背景 | &#10004;设置短信通知 </br> &#10004; Access Premium 虚拟约会 应用 </br> &#10004;查看和管理计划约会队列和按需约会队列 </br> &#10004;查看高级虚拟约会分析 </br> &#10004;发送预约后跟进 |
 
 ## <a name="how-does-teams-premium-differ-from-teams-rooms-pro"></a>Teams Premium 与 Teams 会议室专业版 有何不同？
 

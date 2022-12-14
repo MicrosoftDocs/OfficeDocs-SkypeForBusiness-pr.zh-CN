@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 872d2f904919186d631fbfbd913ee500ea6421d9
-ms.sourcegitcommit: 424b14534aa269bb408c97c368102a193b481656
+ms.openlocfilehash: c7a608132af2807c1fc59e25f7dac39433fe5dc5
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67706829"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392092"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Teams 仅查看会议体验
 
@@ -30,6 +30,9 @@ ms.locfileid: "67706829"
 
 > [!Note]
 > 如果会议达到容纳人数上限，Teams 将无缝扩展以容纳 10,000 人的仅限查看广播体验。 另外，在这个远程工作增加的时期，利用更大规模的 20,000 人广播到今年年底。 网络研讨会当前不支持仅限查看广播体验。
+
+> [!Note]
+> Teams 会议不是 TLE)  (Teams 实时事件，不会利用 eCDN Microsoft。 有关详细信息，请参阅[Microsoft eCDN 载入清单](/ecdn/integration/onboarding-checklist-for-tle-customers)。
 
 Microsoft Teams 允许最多 10,000 名与会者加入一个 Teams 会议。 达到主会议的容纳人数后（即 1000 个用户进入会议时），其他与会者将以仅限查看体验加入会议。
 
@@ -44,7 +47,7 @@ Microsoft Teams 允许最多 10,000 名与会者加入一个 Teams 会议。 达
 
 ## <a name="teams-view-only-experience-controls"></a>Teams 仅限查看体验控件
 
-你可以使用 [SkypeForBusiness PowerShell 模块](/powershell/module/skype/?view=skype-ps)中的 [`Set-CsTeamsMeetingPolicy`](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)cmdlet 或至少版本 2.0.0 的 [MicrosoftTeams 模块](https://www.powershellgallery.com/packages/MicrosoftTeams)启用仅限查看体验。
+你可以使用 [SkypeForBusiness PowerShell 模块](/powershell/module/skype/)中的 [`Set-CsTeamsMeetingPolicy`](/powershell/module/skype/set-csteamsmeetingpolicy)cmdlet 或至少版本 2.0.0 的 [MicrosoftTeams 模块](https://www.powershellgallery.com/packages/MicrosoftTeams)启用仅限查看体验。
 
 若要使用建议的 `MicrosoftTeams` 模块：
 
@@ -119,7 +122,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled
 - 在会议中举手。
 - 发送或查看反应。
 - 与集成到 Teams 会议中的任何 3P 应用交互，包括投票。
-- 对会议录制的访问权限。
+- 访问会议录制。
 
 ## <a name="view-only-feature-limitations"></a>仅查看功能限制
 
@@ -129,7 +132,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled
 - 仅查看的与会者不会列入出席报告中。
 - 仅查看的与会者将有单一的视频体验。 他们可以看到活动发言人或共享的内容，但不能两者同时看到。
 - 我们当前不支持 **库**、**大型库** 或仅供与会者浏览的 **同框场景模式**。
-- 仅限查看的与会者仅受以下大厅策略的支持：“组织中的人员”、“组织中的人员和来宾”、“组织中的人员、受信任的组织和来宾”和“每个人”。 如果你使用的大厅策略不支持仅限查看与会者，则该会议将拒绝仅限查看与会者加入会议。 
+- 仅查看与会者仅受以下大厅策略的支持：“我的组织中人员”、“我的组织和来宾中的人员”、“我的组织中的人员、受信任的组织和来宾”、“每个人”。 如果你使用的大厅策略不支持仅限查看与会者，则该会议将拒绝仅限查看与会者加入会议。 
 - 仅查看的与会者不会有和普通与会者一样的延迟。 <sup>1</sup>
 
   <sup>1</sup> 仅查看的与会者将在会议上有 30 秒的视频和音频延迟。  

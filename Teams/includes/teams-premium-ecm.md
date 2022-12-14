@@ -1,0 +1,1 @@
+![信息图标](../media/info.png) **本文中所述的一些功能需要 [Teams Premium (预览版)](/MicrosoftTeams/enhanced-teams-experience) 目前正在推出**
