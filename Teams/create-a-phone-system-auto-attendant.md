@@ -25,12 +25,12 @@ adobe-target-activity: DocsExp–480823–A/B–Docs/TeamsSteps–HowToTabs–FY
 adobe-target-experience: Experience B
 adobe-target-content: ./create-a-phone-system-auto-attendant-experiment
 description: 了解如何在 Microsoft Teams 中设置和管理自动助理。
-ms.openlocfilehash: 1484b70dca4ffe1e148522cf6e907f79be732702
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: 1294559d1fcca7b1dace8f12cd3203b7effa4c80
+ms.sourcegitcommit: 81b3403a1a77ba202690c2d88bd8d1d5257048e5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69307537"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69379388"
 ---
 # <a name="set-up-a-microsoft-teams-auto-attendant"></a>设置Microsoft Teams 自动助理
 
@@ -172,7 +172,7 @@ ms.locfileid: "69307537"
 
 ## <a name="step-4-set-up-call-flows-for-holidays-optional"></a>步骤 4：为假日设置呼叫流 (可选) 
 
-自动助理可以为 [你设置的每个假日](set-up-holidays-in-teams.md)提供呼叫流。 可以为每个自动助理添加最多 20 个计划假日。
+自动助理可以为 [你设置的每个假日](set-up-holidays-in-teams.md)提供呼叫流。 最多可以向每个自动助理添加 20 个假日集。 每个假日集最多可以包含 10 个唯一日期范围。 在添加到自动助理的所有假日集中，假日日期必须是唯一的。
 
 *新建 - 可以启用强制侦听选项，该选项要求调用方在进行选择之前侦听所有菜单选项。*
 *新 - \* (星号) 和 \# (磅) 键现在可以在菜单选项中使用。*

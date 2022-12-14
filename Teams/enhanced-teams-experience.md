@@ -19,12 +19,12 @@ ms.localizationpriority: medium
 ms.custom:
 - Licensing
 description: 了解面向管理员和 IT 专业人员的 Microsoft Teams Premium。
-ms.openlocfilehash: f38afe581c96cfe64bd5fd305c3d5f7f09b7c83e
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: 2d7c43f6dd46a635d7aceaaa95548b8c4f31f590
+ms.sourcegitcommit: 81b3403a1a77ba202690c2d88bd8d1d5257048e5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69308007"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69379459"
 ---
 # <a name="microsoft-teams-premium---overview-for-administrators"></a>Microsoft Teams Premium - 管理员概述
 
@@ -65,13 +65,13 @@ Teams Premium 提供了保护会议的其他方法，具有以下关键功能：
 
 
 
-| 功能/任务  | 面向管理员的文档 |
-| -------------------- | ----------- | 
-| 敏感度标签 | [使用三层保护配置 Teams 会议](configure-meetings-three-tiers-protection.md) | 
-| 水印 | [需要会议水印 (文章) ](watermark-meeting-content-video.md) |
-| 端到端加密 (E2EE)  | [敏感会议的加密](end-to-end-encrypted-meetings.md) | 
-| 模板、标签和策略 | [模板、敏感度标签和策略](meeting-templates-sensitivity-labels-policies.md)
-| 限制可以录制的人员 | [管理敏感会议的录制内容](manage-meeting-recording-options.md) | 
+| 功能/任务  | 面向管理员的文档 | 面向最终用户的文档
+| -------------------- | ----------- | ------------ |
+| 敏感度标签 | [使用三层保护配置 Teams 会议](configure-meetings-three-tiers-protection.md) | |
+| 水印 | [会议需要水印](watermark-meeting-content-video.md) | [会议水印](https://support.microsoft.com/office/watermark-for-teams-meetings-a9166432-f429-4a19-9a72-c9e8fdf4f589)|
+| 端到端加密 (E2EE)  | [敏感会议的加密](end-to-end-encrypted-meetings.md) | [使用加密](https://support.microsoft.com/office/use-end-to-end-encryption-for-teams-meetings-a8326d15-d187-49c4-ac99-14c17dbd617c)  |
+| 模板、标签和策略 | [模板、敏感度标签和策略](meeting-templates-sensitivity-labels-policies.md)  | [使用自定义模板](https://support.microsoft.com/office/use-custom-templates-for-teams-meetings-78279be9-3283-4999-b24e-96fb0da2fb4f) |
+| 限制可以录制的人员 | [管理敏感会议的录制内容](manage-meeting-recording-options.md) | [录制会议](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24?storagetype=stage#bkmk_whocanstartorstoparecording) |
 
 
 ## <a name="custom-meetings"></a>自定义会议
@@ -86,12 +86,12 @@ Teams Premium 提供以下用于自定义会议的其他功能：
 
 - **自定义一起模式场景** - 一个 Teams 应用，使组织中的开发人员能够定义和自定义会议的视频场景。  
 
-| 功能/任务 | 面向管理员的文档 |
-| -------------------- | ----------- | 
-| 会议模板 | - [概述](custom-meeting-templates-overview.md)<br>- [创建自定义会议模板](create-custom-meeting-template.md)|
-| 会议主题 | [Teams 会议的主题](meeting-themes.md) | 
-| 自定义会议背景 | [会议背景](custom-meeting-backgrounds.md)| 
-| 自定义一起模式场景 | [面向你和开发人员的内容](/microsoftteams/platform/apps-in-teams-meetings/teams-together-mode)| 
+| 功能/任务 | 面向管理员的文档 | 面向最终用户的文档
+| -------------------- | ----------- | ------------ |
+| 会议模板 | - [概述](custom-meeting-templates-overview.md)<br>- [创建自定义会议模板](create-custom-meeting-template.md)| [使用自定义模板](https://support.microsoft.com/office/use-custom-templates-for-teams-meetings-78279be9-3283-4999-b24e-96fb0da2fb4f)
+| 会议主题 | [Teams 会议的主题](meeting-themes.md) | [使用会议主题](https://support.microsoft.com/office/use-meeting-themes-for-teams-meetings-fbfd826d-1112-4790-918a-5a82cac8250e) |
+| 自定义会议背景 | [会议背景](custom-meeting-backgrounds.md)| |
+| 自定义一起模式场景 | [面向你和开发人员的内容](/microsoftteams/platform/apps-in-teams-meetings/teams-together-mode)| |
 
 
 
@@ -108,11 +108,11 @@ Teams Premium 通过新的 Teams 事件策略为用户提供高级网络研讨�
 - **注册概述和管理** - 对于每个事件，都会提供注册状态摘要，其中包含处于不同注册状态的与会者列表，具体取决于已启用哪些注册功能。
 
 
-| 功能/任务 | 面向管理员的文档 | 
-| -------------------- | ----------- | 
-| 了解会议、网络研讨会和实时事件 | [快速启动](quick-start-meetings-live-events.md) | 
-| 设置网络研讨会 | [设置网络研讨会](set-up-webinars.md) | 
-| 网络研讨会的会议策略 | [会议策略](meeting-policies-in-teams-general.md)
+| 功能/任务 | 面向管理员的文档 | 面向最终用户的文档
+| -------------------- | ----------- | ----------- |
+| 了解会议、网络研讨会和实时事件 | [快速启动](quick-start-meetings-live-events.md) | |
+| 设置网络研讨会 | [设置网络研讨会](set-up-webinars.md) | - [管理网络研讨会注册](https://support.microsoft.com/office/manage-webinar-registration-923f382a-0cca-433a-b38d-7461971192d1) <br> - [管理与会者看到的内容](https://support.microsoft.com/office/manage-what-attendees-see-in-teams-meetings-19bfd690-8122-49f4-bc04-c2c5f69b4e16)|
+| 网络研讨会的会议策略 | [会议策略](meeting-policies-in-teams-general.md) | |
 
 
 
