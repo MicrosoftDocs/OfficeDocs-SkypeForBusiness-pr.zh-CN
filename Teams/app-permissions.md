@@ -19,12 +19,12 @@ ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 643c354086d93d7aa3edd4d73216b4b9d5dbbe56
-ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
+ms.openlocfilehash: 43e960a623992502f07d028a152fec3104e8670b
+ms.sourcegitcommit: 7104222e5d379d1338fa8bf2555754d3ac5eeb82
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "68912471"
+ms.lasthandoff: 12/15/2022
+ms.locfileid: "69412245"
 ---
 # <a name="information-accessed-and-actions-performed-by-apps-and-related-admin-considerations"></a>应用访问的信息和执行的操作以及相关的管理员注意事项
 
@@ -68,12 +68,6 @@ Microsoft Teams 应用将一个或多个功能聚合到可以安装、升级和�
   * 接收并回复个人消息。
   * 接收群组聊天并回复。
   * 接收并回复频道消息。
-
-* 下面不是显式权限，但由RECEIVE_MESSAGE和REPLYTO_MESSAGE以及可以在其中使用机器人的范围（在清单中声明）隐含：
-
-  * RECEIVE_MESSAGE_PERSONAL、REPLYTO_MESSAGE_PERSONAL
-  * RECEIVE_MESSAGE_GROUPCHAT、REPLYTO_MESSAGE_GROUPCHAT
-  * RECEIVE_MESSAGE_TEAM、REPLYTO_MESSAGE_TEAM
 
 * SEND_FILES，RECEIVE_FILES：<sup>2</sup> 控制机器人是否可以在个人聊天中发送和接收文件（尚不支持群组聊天或频道）。
 

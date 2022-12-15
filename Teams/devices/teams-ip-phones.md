@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 了解哪些桌面电话和会议电话经过认证，Microsoft Teams 以产生最佳结果。
-ms.openlocfilehash: 0055529d7bc0344faeb04e7d35bf0c9ed457510d
-ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
+ms.openlocfilehash: e6e857539b47fdb991b92e90e7c9f2f1d609143c
+ms.sourcegitcommit: 7104222e5d379d1338fa8bf2555754d3ac5eeb82
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/14/2022
-ms.locfileid: "69392352"
+ms.lasthandoff: 12/15/2022
+ms.locfileid: "69412225"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams 认证的 Android 设备
 
@@ -402,7 +402,7 @@ Microsoft Teams 设备认证计划确保认证设备符合高标准，在整个 
 
 | 设备型号  | 固件版本 | 包含的产品版本|
 |:--------------|:-----------------|:-------------------------|
-|整帧 nf21f1 | `NFF1.20220914.1215` | 2022 年 11 月 30 日 |
+|整帧 nf21f1 | `NFF1.20220914.1215` | 2022 更新#3B |
 |Crestron UC-P10-TD     |1.0.0.57 |2022 更新#3A|
 |Crestron UC-P8-TD     |1.0.0.57 |2022 更新#3A|
 |Lenovo ThinkSmart 视图| `CD-18781Y.211116.114` |2021 更新 #3  |
