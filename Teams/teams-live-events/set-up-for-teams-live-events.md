@@ -21,12 +21,12 @@ description: 在 Teams 中设置实时事件，包括设置网络、分配许可
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a6fff8443899431176c904bf5a253ceed38d44f4
-ms.sourcegitcommit: 73b13cd8a79ba1724b9fb79c8356a7cacafb7dd3
+ms.openlocfilehash: 899229e5acfdbd5864cc055672f4ae7ac16e6dee
+ms.sourcegitcommit: 321de0e5d8846caaaab944826f6ca06394e707ef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/15/2022
-ms.locfileid: "68965098"
+ms.lasthandoff: 12/16/2022
+ms.locfileid: "69414710"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中为实时事件进行设置
 
@@ -51,7 +51,7 @@ ms.locfileid: "68965098"
 
 <a name="bkcreatepolicy"> </a>
 
-1. 在 Microsoft Teams 管理中心的左侧导航栏中，转到 **“会议** > **实时事件策略** > **”“管理策略** ”选项卡。
+1. 在 Microsoft Teams 管理中心的左侧导航中，转到 **“会议** > **实时事件策略** > **”“管理策略**”选项卡。
 2. 执行以下选项之一：
 
     - 如果要编辑现有默认策略，请选择“**全局(默认为组织范围)**”。
@@ -81,7 +81,7 @@ ms.locfileid: "68965098"
 
 若要让用户计划使用外部应用或设备生成的事件，还必须执行以下步骤：
 
-1. 为组织中的用户启用 Microsoft Stream。 Stream 作为符合条件的 Microsoft 365 或 Office 365 订阅的一部分或作为独立服务提供。 Stream 未包含在商业协作版或商业高级版计划中。 有关详细信息，请参阅 [Stream 许可概述](/stream/license-overview)。
+1. 为组织中的用户启用 Microsoft Stream。 流作为符合条件的 Microsoft 365 或 Office 365 订阅的一部分或作为独立服务提供。 Stream 未包含在商业协作版或商业高级版计划中。 有关详细信息，请参阅 [Stream 许可概述](/stream/license-overview)。
 
    >[!Note]
    > 将会议录制从 Microsoft Stream 改为 [OneDrive for Business 和 SharePoint](../tmr-meeting-recording-change.md) 将是一种分阶段的方法。 在发布时，你将能够选择加入此体验，如果想继续使用 Stream，则在 11 月你必须选择退出，在 2021 年初的某个时候，我们将要求所有客户使用 OneDrive for Business 和 SharePoint 进行新的会议录制。 详细了解如何 [**向用户分配许可证**](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) ，以便用户可以访问 Stream。 确保未按 [**本文**](/stream/disable-user-organization)中定义的用户阻止 Stream。
@@ -92,9 +92,9 @@ ms.locfileid: "68965098"
 
 ## <a name="step-4-set-up-a-video-distribution-solution-for-live-events-in-teams"></a>第 4 步：在 Teams 中为实时事件设置视频分发解决方案
 
-实时事件视频的播放使用自适应比特率流 (ABR)，但它是单播流，这意味着每个观看者都将从 Internet 上获取自己的视频流。 对于发送到组织内的大部分用户的实时事件或视频，观看者可能会消耗大量 Internet 带宽。 对于想要减少实时活动的 Internet 流量的组织，Microsoft 提供了第一方解决方案 [Microsoft eCDN](/ecdn) (企业内容分发网络) 。 直播活动解决方案还与 Microsoft 受信任的视频交付合作伙伴集成，提供软件定义的网络 (SDN) 或 eCDN。 这些 SDN/eCDN 平台使组织能够在不牺牲最终用户查看体验的情况下优化网络带宽。 这些解决方案有助于在整个企业网络中实现更具可缩放性和更高效的视频分发。
+实时事件视频的播放使用自适应比特率流 (ABR)，但它是单播流，这意味着每个观看者都将从 Internet 上获取自己的视频流。 对于发送到组织内的大部分用户的实时事件或视频，观看者可能会消耗大量 Internet 带宽。 对于想要减少实时活动的 Internet 流量的组织，Microsoft提供了第一方解决方案，[Microsoft eCDN](/ecdn) (企业内容分发网络) 。 直播活动解决方案还与Microsoft受信任的视频交付合作伙伴集成，提供软件定义的网络 (SDN) 或 eCDN。 这些 SDN/eCDN 平台使组织能够在不牺牲最终用户查看体验的情况下优化网络带宽。 这些解决方案有助于在整个企业网络中实现更具可缩放性和更高效的视频分发。
 
-- **Microsoft eCDN** Microsoft eCDN 已集成到 Teams 中，还与 Stream 和 Yammer 兼容。 它在企业网络中采用对等技术，从 WAN 连接卸载带宽。
+- **Microsoft eCDN** Microsoft eCDN 集成到 Teams 中，并且还与 Stream 和 Yammer 兼容。 它在企业网络中采用对等技术，从 WAN 连接卸载带宽。
 
 - **在 Teams 之外购买和设置你的解决方案** 通过 Microsoft 值得信赖的视频交付合作伙伴，在扩展视频交付方面获得专家帮助。 
 
@@ -104,9 +104,9 @@ ms.locfileid: "68965098"
 
 - **Kollective** 是基于云的智能对等互连分发平台，它利用现有网络基础结构以多种形式交付内容， (实时流式处理视频、点播视频、软件更新、安全修补程序等) 更快、更可靠、带宽更少。 我们的安全平台深受全球最大金融机构的信任，无需额外的硬件，安装和维护都非常简单。 [了解详细信息](https://kollective.com/microsoft-pilot/)。
 
-- **Ramp OmniCache** 提供下一代网络分发，并确保跨全球 WAN 的视频内容无缝交付，从而帮助事件制作者优化网络带宽并支持成功的实时事件广播和点播流。 即将对在 Teams 中制作的实时事件提供 OmniCache 支持。 [了解详细信息](https://rampecdn.com)。
+- **Ramp** 提供通用 eCDN 解决方案，用于安全无瑕的视频传送。 Ramp 深受顶级金融、医疗保健和政府机构的信任，可在本地部署云或混合部署，非常适合零信任环境。 我们的通用许可证包括 P2P、多播和缓存)  (所有三种 eCDN 交付方法，确保以最高质量传送实时流视频和点播视频，对带宽影响最低，以保护共享公司网络的业务关键型应用程序。 [了解详细信息](https://rampecdn.com/)。
 
-- **Riverbed** 是网络优化方面的行业标准，它正在将其加速解决方案扩展到 Microsoft Teams 和 Stream。  现在，Microsoft 365 客户可以放心地加速 365 流量，包括 Teams 和 Stream，以及大量其他领先的企业 SaaS 服务，以随时随地提高员工工作效率。 可以通过轻松的设置启用 Teams 和 Stream 加速，该设置附带 Riverbed 的世界级支持和持续投资的所有保证。
+- **Riverbed** 是网络优化方面的行业标准，它正在将其加速解决方案扩展到Microsoft Teams 和 Stream。  现在，Microsoft 365 客户可以放心地加速 365 个流量，包括 Teams 和 Stream，以及大量其他领先的企业 SaaS 服务，以随时随地提高员工工作效率。 可以通过轻松的设置启用 Teams 和 Stream 加速，该设置附带 Riverbed 的世界级支持和持续投资的所有保证。
 
 > [!NOTE]
 > 如果选择第三方 SDN 或 eCDN 解决方案，它将受所选 **第三方提供商的服务条款和隐私策略** 的约束，该条款将控制你对提供商解决方案的使用。 你对提供商解决方案的使用将不受 Microsoft 批量许可条款或联机服务条款的约束。 如果你不同意 **第三方提供商的条款**，则不要在 Teams 中启用该解决方案。

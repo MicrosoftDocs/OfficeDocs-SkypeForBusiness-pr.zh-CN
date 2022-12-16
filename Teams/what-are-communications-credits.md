@@ -24,12 +24,12 @@ ms.custom:
 - Licensing
 - admindeeplinkMAC
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: 6d64c89aa62d7209a1135234e975f492e7c182a9
-ms.sourcegitcommit: 0a13f96663c7466b08d654bedcb6206f302189a1
+ms.openlocfilehash: e66edfcb63b7569b02268b355c7b851c61763810
+ms.sourcegitcommit: 321de0e5d8846caaaab944826f6ca06394e707ef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/22/2022
-ms.locfileid: "69139156"
+ms.lasthandoff: 12/16/2022
+ms.locfileid: "69414690"
 ---
 # <a name="what-are-communications-credits"></a>什么是通信点数？
 
@@ -39,7 +39,7 @@ ms.locfileid: "69139156"
 
 - 从音频会议中拨出，以从世界任何地方添加其他人。
 
-- 使用安装 Microsoft Teams 应用或Skype for Business应用从音频会议会议拨出到你的移动电话，这些应用未包含在订阅中。
+- 使用 Microsoft Teams 应用或安装Skype for Business应用从音频会议会议拨出到移动电话，这些应用未包含在订阅中。
 
 - 当你拥有 **国内通话套餐** 订阅时，请拨打任何国际电话号码。
 
@@ -98,7 +98,7 @@ NCE)  (新的商业体验允许客户在使用服务后支付服务费用，也�
   
 ## <a name="communications-credits"></a>通信点数
 
-每个组织将有不同的通话套餐使用量和费率要考虑。 需要从当前服务提供商处获取此类使用情况数据。 对于已使用 Teams 作为服务提供商的组织，可以通过在 Microsoft Teams 管理中心中查看使用情况数据来获取使用情况数据，> **Analytics &报告** > **使用情况报告**，然后选择 **PSTN 和 SMS (预览版) 使用情况**。
+每个组织将有不同的通话套餐使用量和费率要考虑。 需要从当前服务提供商处获取此类使用情况数据。 对于已使用 Teams 作为其服务提供商的组织，可以在 Microsoft Teams 管理中心查看使用情况数据，> **Analytics &报告** > **使用情况报告**，然后选择 **PSTN 和 SMS (预览) 使用情况**。
   
 设置通信点数时，需要调查组织的呼叫使用情况，以确定需要投入的金额。 可以通过查看 PSTN 使用情况报告来获取呼叫使用情况信息。 此报表允许您将通话数据记录导出到 Excel 并创建自定义报表。
 
@@ -106,11 +106,11 @@ NCE)  (新的商业体验允许客户在使用服务后支付服务费用，也�
 
 - 计费管理员
 - Skype for Business管理员
-- 公司管理员
-- 用户帐户管理员
+- 全局管理员
+- 用户管理员
 - 支持管理员
 - 服务支持管理员
-- 设备管理员
+- 已加入 Azure AD 的设备本地管理员
 - 应用程序管理员
 - 许可证管理员
 - 云设备管理员
