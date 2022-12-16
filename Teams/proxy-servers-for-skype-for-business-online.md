@@ -22,14 +22,14 @@ ms.custom:
 - Optimization
 - seo-marvel-apr2020
 description: 本文提供有关将代理服务器与 Microsoft Teams 或 Skype for Business 配合使用的信息。
-ms.openlocfilehash: cdb4e6ccf05f597c87d066c18b1722eb08f89374
-ms.sourcegitcommit: e9718ad7e23317d490b238b3801267cb2e6b26e2
+ms.openlocfilehash: b2d46cbaa46670daf0235bfd020cae90c5bf624b
+ms.sourcegitcommit: 00a526c5b9829302f7c4e0631d0c2dac50b7d004
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/28/2022
-ms.locfileid: "69176669"
+ms.lasthandoff: 12/16/2022
+ms.locfileid: "69436678"
 ---
-# <a name="proxy-servers-for-teams-or-skype-for-business-online"></a>Teams 或 Skype for Business Online 的代理服务器
+# <a name="proxy-servers-for-teams-and-skype-for-business-online"></a>适用于 Teams 和 Skype for Business Online 的代理服务器
 
 本文提供有关将代理服务器与 Teams 或Skype for Business配合使用的指导。
   
@@ -39,33 +39,38 @@ ms.locfileid: "69176669"
   
 另外，使用代理会产生问题。 通过尝试通过代理服务器路由 Teams 流量，可能会因延迟和数据包丢失而引入环境与性能相关的问题。 此类问题将导致在此类 Teams 或Skype for Business场景中出现负面体验，例如音频和视频，其中实时流至关重要。
 
-建议 Teams 流量绕过代理服务器基础结构。
+建议 Teams 流量绕过代理服务器基础结构。 你可能希望通过将 Teams 电话和会议室设备置于其自己的 VLAN 上并为其提供 Internet 访问权限来实现此目的。
 
-## <a name="teams-phones"></a>Teams 电话
+## <a name="windows-based-teams-devices"></a>Windows-Based Teams 设备
 
-Teams 电话不支持代理服务器。
+基于 Windows 的 Teams 会议室和 Surface Hub 支持某些代理服务器，但不支持需要身份验证的代理服务器。
 
-我们的建议是确保 (TCP 443) 和媒体 (UDP 3478-3481) 流量绕过代理服务器基础结构。
+我们建议这些设备绕过代理基础结构，并通过防火墙访问 Microsoft 365 服务。
 
-## <a name="teams-meeting-rooms-and-panels"></a>Teams 会议室和面板
+## <a name="android-based-teams-devices"></a>Android-Based Teams 设备
 
-建议确保 Teams 会议室绕过代理基础结构。
+基于 Android 的 Teams 设备（包括 Teams 电话、面板、显示器和板）不支持代理服务器。
 
-基于 Windows 的 Teams 会议室支持代理服务器，但不支持需要身份验证的代理服务器。 基于 Android 的 Teams 会议室不支持代理服务器。
-  
+由于这些设备上运行的某些组件访问 Internet 的方式，无法通过代理路由所有流量。 必须确保这些设备与 Microsoft 365 服务之间的流量通过防火墙允许。
+
 ## <a name="if-you-need-to-use-a-proxy-server"></a>如果需要使用代理服务器
 
 某些组织无法绕过 Teams 代理或Skype for Business流量。 如果你是这种情况，需要留意上面提到的问题。
+
+> [!Note]
+> 如果在代理基础结构上使用专用签名的证书，则需要在 Teams 会议室设备上安装专用签名的证书和证书链，以允许设备信任证书。 不支持在 Teams 电话和其他基于 Android 的 Teams 设备上安装专用签名的证书。
   
 Microsoft 还强烈建议：
   
 - 使用本地外部 DNS 解析 (某些基于云的代理解决方案可能会导致 DNS 解析在另一个位置) 发生。
+
+- 确保 Teams 设备与我们的服务之间的路径尽可能短且直接
     
 - 使用基于 UDP 的直接路由，而不是依赖于基于 TCP 的媒体路由
     
-- 允许 UDP 流量 (3478-3481) 
+- 允许 Teams Media (3478-3481 的 UDP 流量通过防火墙) 
 
-- 允许所有必需的 URL 和 IP，包括 Azure、Office 365、Intune 和 Teams 会议室 Pro (使用的 URL 和 IP) 
+- 允许所有必需的 URL 和 IP，包括 Azure、Office 365、Intune 和 Teams Room Pro (，) 通过防火墙使用
     
 - 遵循网络指南中的其他建议： [为 Teams 准备组织的网络](prepare-network.md)
   

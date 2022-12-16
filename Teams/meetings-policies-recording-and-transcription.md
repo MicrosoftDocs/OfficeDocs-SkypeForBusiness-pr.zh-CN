@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.recordingandtranscription
 description: 了解如何在 Teams 中管理用于录制和听录的会议策略设置。
-ms.openlocfilehash: fd0dc824f380fb9a001442267445340944e055c4
-ms.sourcegitcommit: 2d1bb69e0d6bc35be0b57c7c5d87f58ab013dafb
+ms.openlocfilehash: 06a05d2eb8a8c1542b79fa4c37b68ea4a3aa6d32
+ms.sourcegitcommit: 00a526c5b9829302f7c4e0631d0c2dac50b7d004
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/14/2022
-ms.locfileid: "68928308"
+ms.lasthandoff: 12/16/2022
+ms.locfileid: "69436759"
 ---
 # <a name="meeting-policy-settings-for-recording--transcription"></a>用于录制&听录的会议策略设置
 
@@ -96,13 +96,13 @@ Set-CsTeamsMeetingPolicy -Identity Global -NewMeetingRecordingExpirationDays 50
 
 不应依赖会议过期设置来获得法律保护，因为最终用户可以修改他们控制的任何录制的到期日期。
 
-#### <a name="recording-expiration-settings-and-microsoft-365-retention-policies-in-microsoft-purview"></a>在 Microsoft Purview 中记录过期设置和 Microsoft 365 保留策略
+#### <a name="recording-expiration-settings-and-microsoft-365-retention-policies-in-microsoft-purview"></a>在 Microsoft Purview 中记录过期设置和Microsoft 365 个保留策略
 
-文件保留优先于文件删除。 在保留期结束后，Teams 会议录制过期策略无法删除具有 Purview 保留策略的 Teams 会议录制。 例如，如果你有一个 Purview 保留策略，其中指出文件将保留五年，并且 Teams 会议录制过期策略设置为 60 天，Teams 会议录制过期策略将在五年后删除录制内容。
+文件保留优先于文件删除。 在保留期结束后，Teams 会议录制过期策略无法删除具有 Purview 保留策略的 Teams 会议录制。 例如，如果你有一个 Purview 保留策略，其中指出文件将保留五年，并且 Teams 会议录制过期策略设置为 60 天，Teams 会议录制过期策略将在五年后永久删除录制内容。
 
 如果 Teams 会议录制过期策略和 Purview 删除策略具有不同的删除日期，则会在两个日期中的最早删除该文件。 例如，如果你有一个 Purview 删除策略，指出文件将在一年后删除，并且 Teams 会议录制过期设置为 120 天，Teams 会议录制过期策略将在 120 天后删除该文件。
 
-用户可以在过期日期之前手动删除其录制内容，除非存在阻止录制的 Purview 保留策略。
+用户可以在过期日期之前手动删除其录制内容，除非存在阻止录制的 Purview 保留策略。 如果用户手动删除了仍在保留期内的录制内容，则录制内容将保存在保留库中。 但是，录制内容将显示为已删除给最终用户。 若要了解详细信息，请参阅 [了解 SharePoint 和 OneDrive 的保留期](/microsoft-365/compliance/retention-policies-sharepoint#how-retention-works-for-sharepoint-and-onedrive)。
 
 ### <a name="deletion-of-recordings"></a>删除录制内容
 

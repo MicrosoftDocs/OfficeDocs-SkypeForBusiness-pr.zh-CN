@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 了解如何在 Teams 中为参与者和来宾管理会议策略设置。
-ms.openlocfilehash: a5d18ea0e3f8c6cd008a12258fd94c3a0b725ac3
-ms.sourcegitcommit: 1fe19c4a6e9f6116515df531786cc3e482e27093
+ms.openlocfilehash: 42321eb1edadeda928ab0cb9e78e166478b73ed9
+ms.sourcegitcommit: 00a526c5b9829302f7c4e0631d0c2dac50b7d004
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2022
-ms.locfileid: "68876278"
+ms.lasthandoff: 12/16/2022
+ms.locfileid: "69436668"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>会议策略设置 - 参与者和来宾
 
@@ -50,11 +50,11 @@ ms.locfileid: "68876278"
 
 ## <a name="let-anonymous-people-join-a-meeting"></a>允许匿名人员加入会议
 
-此按组织者设置允许任何人通过选择会议邀请中的链接，以匿名用户身份加入会议。 要了解更多信息，请参阅[在没有 Teams 帐户的情况下加入会议](https://support.microsoft.com/office/c6efc38f-4e03-4e79-b28f-e65a4c039508)。 匿名用户加入会议的能力也在组织级别受到控制，限制性更高的设置将有效。 若要了解详细信息，请参阅 [使用 Microsoft Teams 管理中心配置组织范围的策略](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings)。
+此按组织者设置允许任何人通过选择会议邀请中的链接，以匿名用户身份加入会议。 要了解更多信息，请参阅[在没有 Teams 帐户的情况下加入会议](https://support.microsoft.com/office/c6efc38f-4e03-4e79-b28f-e65a4c039508)。 匿名用户加入会议的能力也在组织级别受到控制，限制性更高的设置将有效。 若要了解详细信息，请参阅[使用 Microsoft Teams 管理中心配置组织范围的策略](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings)。
 
 ## <a name="let-anonymous-people-start-a-meeting"></a>允许匿名人员发起会议
 
-此设置是允许无领导电话拨入式会议的每个组织者策略。 此设置控制拨入用户是否可以在没有参加组织的经过身份验证的用户的情况下加入会议。 默认情况下，此设置处于关闭状态，这意味着拨入用户将在大厅中等待，直到组织中的经过身份验证的用户加入会议。
+此设置是允许无领导电话拨入式会议的每个组织者策略。 此设置控制匿名用户和拨入呼叫者是否可以在没有组织的经过身份验证的用户出席的情况下加入会议。 默认情况下，此设置处于关闭状态，这意味着匿名用户和拨入呼叫者将在大厅中等待，直到组织中经过身份验证的用户加入会议。
 
 > [!NOTE]
 > 如果此设置处于关闭状态，并且拨入用户首先加入会议并放置在大厅中，则组织用户必须使用 Teams 客户端加入会议，才能从大厅中允许该用户。 拨号用户没有大厅控制功能。
