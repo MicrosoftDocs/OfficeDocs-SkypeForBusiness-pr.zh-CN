@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 了解和比较以前可用于 Microsoft Teams 会议室 中不同类型的通话和会议功能的许可证。
-ms.openlocfilehash: a452267c789baa374f8bc5ade3fe050c4269831f
-ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
+ms.openlocfilehash: e02dd830f9d356400fa153305209dc59f48a765b
+ms.sourcegitcommit: b710fc61558a0e031d4e3e4000f234c495e2c4c6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/14/2022
-ms.locfileid: "69392389"
+ms.lasthandoff: 12/17/2022
+ms.locfileid: "69438432"
 ---
 # <a name="microsoft-teams-rooms-legacy-licenses"></a>Microsoft Teams 会议室旧版许可证
 
@@ -38,7 +38,7 @@ ms.locfileid: "69392389"
 
 ## <a name="licensing-solutions-for-shared-communication-devices"></a>共享通信设备的许可解决方案
 
-以下许可证适用于在 2022 年 9 月 6 日之前购买Teams 会议室设备 (，例如Microsoft Teams 会议室、Microsoft Surface Hub和Teams 会议室 android) 。
+以下许可证适用于在 2022 年 9 月 6 日之前在 Android () 上购买Teams 会议室设备（例如Microsoft Teams 会议室、Microsoft Surface Hub和Teams 会议室）的客户。
 
 |&nbsp;|Microsoft Teams 会议室标准版 |Microsoft Teams 会议室高级版 |
 |:--- |:---: |:---: |

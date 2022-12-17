@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-meetings
 - highpri
 description: 了解如何在 Teams 中管理网络研讨会和会议注册策略。
-ms.openlocfilehash: 37983f8597b9e1a0ed511c2d767c503494447481
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: 5493104b93a74dad6763e0a5ba6c9e6fd57575de
+ms.sourcegitcommit: b710fc61558a0e031d4e3e4000f234c495e2c4c6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69307577"
+ms.lasthandoff: 12/17/2022
+ms.locfileid: "69438470"
 ---
 # <a name="set-up-webinars-in-microsoft-teams"></a>在 Microsoft Teams 中设置网络研讨会
 
@@ -52,6 +52,9 @@ Microsoft现在提供了新的网络研讨会体验;本文介绍如何更新设�
 新的网络研讨会体验在 PowerShell 中配置。 请参阅 [有关如何设置新网络研讨会体验](#set-up-new-webinar-experience)的示例。
 
 有关会议、网络研讨会和直播活动之间的差异的详细信息，请参阅 [会议、网络研讨会和实时事件](quick-start-meetings-live-events.md)。
+
+> [!NOTE]
+> 新的网络研讨会体验不适用于 Microsoft 365 GCC、Microsoft 365 GCC High 或 Microsoft 365 DoD。 现有网络研讨会体验不适用于 Microsoft 365 GCC High 或 Microsoft 365 DoD。
 
 > [!IMPORTANT]
 > 若要让用户设置网络研讨会，必须在 SharePoint 中配置Microsoft Lists，方法是启用创建用于电子数据展示的个人列表。 若要了解详细信息，请参阅[Microsoft Lists的控制设置](/sharepoint/control-lists)。

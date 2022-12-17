@@ -18,12 +18,12 @@ ms.custom:
 description: 培训视频、PowerPoint 幻灯片组、教程和其他资源，供管理员了解如何规划、部署和运行 Microsoft Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8e4b708a0fd250dd5ae8adeaa4f47f014ad359cd
-ms.sourcegitcommit: 2f9a83a1bae8cbee5a0d65464bd47f6735b2d206
+ms.openlocfilehash: 3c91f1e7110b1756c39f6d8c6439cacdf820c602
+ms.sourcegitcommit: b710fc61558a0e031d4e3e4000f234c495e2c4c6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/16/2022
-ms.locfileid: "69025154"
+ms.lasthandoff: 12/17/2022
+ms.locfileid: "69438290"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Microsoft Teams 管理员培训入门
 
@@ -39,14 +39,14 @@ ms.locfileid: "69025154"
 
 |&nbsp; |&nbsp; |&nbsp;  |
 |---------|---------|---------|
-|[**适用于 IT 的 Teams 基础知识**](https://aka.ms/MicrosoftTeamsforIT) - Microsoft 机制“适用于 IT 的 Teams”视频系列向你（管理员）展示了如何推出、配置和管理 Teams。     |[**支持使用 Microsoft Teams 的远程工作人员**](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams) - 获取所需的指导（包括指向培训的链接）以支持在家办公的用户。         |[**管理 IT 团队协作**](/training/paths/m365-manage-team-collaboration) - 了解如何使用 Teams 促进组织中跨应用程序和设备的团队合作和通信。         |
-|[**服务采用专家认证**](/training/paths/m365-service-adoption) - Microsoft 服务采用专家认证课程以 Teams 为特色。 了解如何推动你所在组织采用 Microsoft 服务。     |[**Microsoft 365 中的团队合作简介**](/training/modules/intro-to-teamwork-in-m365/index) - Microsoft 服务采用专家认证课程以 Teams 为特色。 了解如何推动你所在组织采用 Microsoft 服务。        |[**Microsoft 365 认证：团队合作管理员助理**](/certifications/m365-teamwork-administrator) - Microsoft 365 团队合作管理员配置、部署和管理 Microsoft 365 或Office 365工作负载，例如 SharePoint (联机、本地和混合) 、OneDrive 和 Teams。        |
+|[**适用于 IT 的 Teams 基础知识**](https://aka.ms/MicrosoftTeamsforIT) - Microsoft机制“适用于 IT 的 Teams”视频系列向你（管理员）展示了如何推出、配置和管理 Teams。     |[**使用 Microsoft Teams 支持远程工作者**](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams) - 获取所需的指导（包括指向培训的链接）以支持在家办公的用户。         |[**管理 IT 团队协作**](/training/paths/m365-manage-team-collaboration) - 了解如何使用 Teams 促进组织中跨应用程序和设备的团队合作和通信。         |
+|[**服务采用专家认证**](/training/paths/m365-service-adoption) - Microsoft服务采用专家认证课程以 Teams 为特色。 了解如何推动你所在组织采用 Microsoft 服务。     |[**Microsoft 365 中的团队合作简介**](/training/modules/intro-to-teamwork-in-m365/index) - Microsoft服务采用专家认证课程以 Teams 为特色。 了解如何推动你所在组织采用 Microsoft 服务。        |[**Microsoft 365 认证：团队合作管理员助理**](/certifications/m365-teamwork-administrator) - Microsoft 365 团队协作管理员配置、部署和管理Microsoft 365 或Office 365工作负载，例如 SharePoint (联机、本地和混合) 、OneDrive 和 Teams。        |
 
 <h2>技术培训</h2>
 
 | 模块 | 视频 | PowerPoint 幻灯片组  |
 | ------------ | -------------------- | -------------------- |
-| [Microsoft 机械 - Teams Essentials for IT YouTube 频道](https://aka.ms/MicrosoftTeamsforIT) | [视频：适用于 IT 的 Teams Essentials](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn) (10：13) <br>[视频：部署&配置 Teams - 简介](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2) (8：22 分钟)   <br>[视频：安全性和合规性](https://youtu.be/91lHNKVVvQ4) (12：42 分钟) <br>[视频：Teams 安全性与合规性控制](https://www.youtube.com/watch?v=Km4T4hMM__k) (10：54 分钟) ||
+| [Microsoft机制 - Teams Essentials for IT YouTube 频道](https://aka.ms/MicrosoftTeamsforIT) | [视频：适用于 IT 的 Teams Essentials](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn) (10：13) <br>[视频：部署&配置 Teams - 简介](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2) (8：22 分钟)   <br>[视频：安全性和合规性](https://youtu.be/91lHNKVVvQ4) (12：42 分钟) <br>[视频：Teams 安全性与合规性控制](https://www.youtube.com/watch?v=Km4T4hMM__k) (10：54 分钟) ||
 | 基础 - 核心组件 | [Video](https://aka.ms/teams-foundations) | [甲板](https://aka.ms/teams-foundations-deck) |
 | 音频会议 |  | [甲板](https://aka.ms/teams-audio-conferencing-deck) |
 | 通话质量概述 | | [甲板](https://aka.ms/teams-quality-deck) |
@@ -82,15 +82,15 @@ ms.locfileid: "69025154"
 
 <h2>Teams Android 设备</h2>
 
-<p>下表包含指向 Microsoft Teams Android 设备上的 PowerPoint 综合培训平台的链接，其中包括 Teams 显示器、Teams 电话、适用于 Android 的Teams 会议室和 Teams 面板。  
+<p>下表包含指向Microsoft Teams Android 设备上的 PowerPoint 综合训练平台的链接，这些设备包括 Teams 显示器、Teams 电话、Android 上的Teams 会议室和 Teams 面板。  
 
 | 模块 | PowerPoint 幻灯片组  |
 | ------------| -------------------- |
 | 模块 1：Microsoft Teams Android 设备简介  |[甲板](https://aka.ms/TeamsAndroidModule1) |
-| 模块 2：规划 Microsoft Teams Android 设备|[甲板](https://aka.ms/TeamsAndroidModule2) |
-| 模块 3：管理 Microsoft Teams Android 设备 |[甲板](https://aka.ms/TeamsAndroidModule3)|
-| 模块 4：Microsoft Teams 电话和 Microsoft Teams 显示器 |[甲板](https://aka.ms/TeamsAndroidModule4)|
-| 模块 5：Microsoft Teams 会议室和 Microsoft Teams 面板 |[甲板](https://aka.ms/TeamsAndroidModule5)|
+| 模块 2：规划Microsoft Teams Android 设备|[甲板](https://aka.ms/TeamsAndroidModule2) |
+| 模块 3：管理Microsoft Teams Android 设备 |[甲板](https://aka.ms/TeamsAndroidModule3)|
+| 模块 4：Microsoft Teams 电话和Microsoft Teams 显示器 |[甲板](https://aka.ms/TeamsAndroidModule4)|
+| 模块 5：Microsoft Teams 会议室和Microsoft Teams 面板 |[甲板](https://aka.ms/TeamsAndroidModule5)|
 | 模块 6：采用和故障排除 |[甲板](https://aka.ms/TeamsAndroidModule6)|
 
 <h2>交互式指南</h2>
@@ -98,20 +98,20 @@ ms.locfileid: "69025154"
 | 标题                                                                       | 抽象                                                                                                                                                                                                               |  指向指南的链接                             |
 |-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
 | Teams 的标识、访问管理&威胁防护                   | 了解如何使用 Microsoft 管理中心和 PowerShell 配置访问和标识策略，以及如何为 Teams 启用Office 365高级威胁防护                                                            | [Teams 安全指南](https://aka.ms/teamsesecurityinteractiveguide)         |
-| Microsoft Teams 的 Microsoft Purview 数据丢失防护 (DLP) 策略                     | 了解如何将 Microsoft Teams 添加到现有 DLP 策略，以及如何创建新策略，无论是基于模板还是完全自定义组织的数据保护需求。                        | [Teams DLP 指南](https://aka.ms/teamsdlpguide)         |
-| 在 Teams 中管理合规性                                                | 使用 Microsoft 365 安全性、Microsoft 365 合规性和 Microsoft Teams 管理中心以及Windows PowerShell管理和配置Office 365组织的 Microsoft Teams 策略和设置。 | [在 Teams 中管理合规性指南](https://aka.ms/complianceinteamsinteractiveguide)      |
+| Microsoft Teams Microsoft Purview 数据丢失防护 (DLP) 策略                     | 了解如何将 Microsoft Teams 添加到现有 DLP 策略，以及如何创建新策略，无论是基于模板还是完全自定义组织的数据保护需求。                        | [Teams DLP 指南](https://aka.ms/teamsdlpguide)         |
+| 在 Teams 中管理合规性                                                | 使用 Microsoft 365 安全性、Microsoft 365 合规性和Microsoft Teams 管理中心，以及Windows PowerShell管理和配置Office 365组织的Microsoft Teams 策略和设置。 | [在 Teams 中管理合规性指南](https://aka.ms/complianceinteamsinteractiveguide)      |
 | Teams 顾问：在 Microsoft Teams 中部署聊天、团队、频道和应用 | 了解如何使用 Teams 顾问评估你的环境并制定用于部署聊天、团队、频道和应用的计划。                                                                                         |  [Teams 顾问指南](https://aka.ms/MicrosoftTeamsAdvisorInteractiveguide)  |
 | 使用 PowerShell 和动态组简化 Teams 管理        | 将Office 365组从静态成员身份转换为动态，并使用 Windows PowerShell 为所有成员分配新的应用权限策略。                                                                         |  [简化 Teams 管理指南](https://aka.ms/StreamliningTeamsadminInteractiveGuide) |
-| 在 Microsoft Teams 管理中心中管理 Teams 和来宾访问         | 了解如何为组织配置和管理 Microsoft Teams 和来宾访问权限。                                                                                                                              | [管理团队和来宾访问指南](https://aka.ms/TeamsandGuestAccessInteractiveGuide)    |
-| 配置 Teams 电话系统：自动助理&呼叫队列                   | 逐步完成使用 Microsoft Teams 管理中心创建和部署呼叫队列和自动助理作为 Microsoft Teams 呼叫的一部分的过程。                                                          |  [配置 Teams 电话系统指南](https://aka.ms/TeamsPhoneInteractiveGuide)             |
+| 在 Microsoft Teams 管理中心中管理 Teams 和来宾访问         | 了解如何为组织配置和管理Microsoft Teams 和来宾访问权限。                                                                                                                              | [管理团队和来宾访问指南](https://aka.ms/TeamsandGuestAccessInteractiveGuide)    |
+| 配置 Teams 电话系统：自动助理&呼叫队列                   | 逐步完成使用 Microsoft Teams 管理中心创建和部署呼叫队列和自动助理的过程，作为Microsoft Teams 呼叫的一部分。                                                          |  [配置 Teams 电话系统指南](https://aka.ms/TeamsPhoneInteractiveGuide)             |
 | 配置直接路由：连接 SBC 和语音路由                 | 使用Microsoft Teams 电话系统直接路由与现有电话基础结构集成。                                                                                                              | [配置直接路由指南](https://aka.ms/DirectRoutingInteractiveGuide)          |
-| 在 Microsoft Teams 中配置治理                                     | 了解如何为组织创建 Teams 消息保留策略，以及如何存档、删除和还原单个 Teams                                                                                   |  [在 Microsoft Teams 中配置治理指南](https://aka.ms/TeamsGovernanceInteractiveGuide)        |
-| 配置和部署 Microsoft Teams 会议                          | 逐步完成为 Microsoft Teams 部署会议工作负载的过程。                                                                                                                                       |  [配置和部署 Microsoft Teams 会议指南](https://aka.ms/TeamsMeetingsInteractiveGuide)          |
+| 在 Microsoft Teams 中配置治理                                     | 了解如何为组织创建 Teams 消息保留策略，以及如何存档、删除和还原单个 Teams                                                                                   |  [在 Microsoft Teams 指南中配置治理](https://aka.ms/TeamsGovernanceInteractiveGuide)        |
+| 配置和部署Microsoft Teams 会议                          | 逐步完成为 Microsoft Teams 部署会议工作负载的过程。                                                                                                                                       |  [配置和部署Microsoft Teams 会议指南](https://aka.ms/TeamsMeetingsInteractiveGuide)          |
 | 为 Microsoft Teams 配置音频会议                            | 了解 Teams 中的音频会议功能，并了解如何分配会议网桥和拨入电话号码。                                                                                          |  [为 Microsoft Teams 配置音频会议指南](https://aka.ms/AudioConferencingInteractiveGuide)      |
-| 为一线员工配置 Microsoft Teams                           | 了解如何为一线员工配置和部署正确的 Microsoft Teams 环境。                                                                                                                  | [为一线员工配置 Microsoft Teams 指南](https://aka.ms/ConfigFLWInteractiveGuide)              |
+| 为一线员工配置Microsoft Teams                           | 了解如何为一线员工配置和部署正确的Microsoft Teams 环境。                                                                                                                  | [为一线员工配置Microsoft Teams 指南](https://aka.ms/ConfigFLWInteractiveGuide)              |
 | 一线员工的身份：为 IT、经理和一线员工提供支持                    | 了解如何将 Microsoft Teams 与现有 HR 系统集成、配置轻型委派标识管理，以及为使用共享设备的用户配置简化的登录和无缝转换。                                                                                                                  | [一线员工标识指南](https://aka.ms/FLWIdentityIG)              |
-| 部署Microsoft Teams 会议室                           | 了解如何在 Microsoft Teams 管理中心创建和配置与 Microsoft Teams 会议室 一起使用的帐户和管理设备。                                                                                                                  | [部署Microsoft Teams 会议室](https://aka.ms/teamsroomslab)              |
-|使用 Teams 认证的 Android 设备|了解如何管理和升级 Microsoft Teams 电话、Microsoft Teams 显示器、Microsoft Teams 会议室和 Microsoft Teams 面板。|[使用 Microsoft Teams 认证的 Android 设备](https://aka.ms/teamsandroiddeviceslab)|
+| 部署Microsoft Teams 会议室                           | 了解如何在 Microsoft Teams 管理中心中创建和配置与 Microsoft Teams 会议室 一起使用的帐户和管理设备。                                                                                                                  | [部署Microsoft Teams 会议室](https://aka.ms/teamsroomslab)              |
+|使用 Teams 认证的 Android 设备|了解如何管理和升级Microsoft Teams 电话、Microsoft Teams 显示器、Microsoft Teams 会议室和Microsoft Teams 面板。|[使用 Microsoft Teams 认证的 Android 设备](https://aka.ms/teamsandroiddeviceslab)|
 
 <h2>快速入门指南</h2>
 

@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 了解哪些桌面电话和会议电话经过认证，Microsoft Teams 以产生最佳结果。
-ms.openlocfilehash: 56a8f5eb18600b62944732312c391ff7bd20201b
-ms.sourcegitcommit: 00a526c5b9829302f7c4e0631d0c2dac50b7d004
+ms.openlocfilehash: 4117cffe61e10c968cb92777ab5158732a62df21
+ms.sourcegitcommit: b710fc61558a0e031d4e3e4000f234c495e2c4c6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/16/2022
-ms.locfileid: "69436698"
+ms.lasthandoff: 12/17/2022
+ms.locfileid: "69438280"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams 认证的 Android 设备
 
@@ -36,7 +36,7 @@ Microsoft Teams 设备认证计划确保认证设备符合高标准，在整个 
 > [!IMPORTANT]
 > Microsoft Teams 设备认证计划可确保经过认证的设备仅满足硬件设计和性能的特定要求。 认证计划不会评估功能级别或云环境支持。
 >
-> 有关适用于 Windows 的 Teams 会议室 和 android Teams 会议室 支持哪些功能（包括云环境支持）的信息，请参阅 [Windows 和 Android 功能比较Teams 会议室](../rooms/teams-devices-feature-comparison.md)。
+> 有关 Windows 上的Teams 会议室和 Android 上的Teams 会议室支持哪些功能（包括云环境支持）的信息，请参阅 [Windows 和 Android 上的Teams 会议室功能比较](../rooms/teams-devices-feature-comparison.md)。
 
 认证计划旨在确保所有认证设备运行 Android 版本，并具有 Teams 和 Teams 管理中心所需的功能集。 认证结束日期基于设备进入认证计划时运行的 Android OS 版本。 我们的 OEM 合作伙伴正在努力通过升级 Android OS 版本和重新认证，或通过发布最先进的新模型来延长认证的生存期。
 
