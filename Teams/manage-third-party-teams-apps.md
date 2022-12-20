@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 了解如何跨Microsoft 365管理对 Teams 应用的访问。
-ms.openlocfilehash: 01aee1ebd59b52f05db36303d60358b86b95cf84
-ms.sourcegitcommit: c2d8c7f779f4f938f8355632ecfbfc9147b53bb2
+ms.openlocfilehash: 6f3420cce5b66441bc734b31c58325727efa26e3
+ms.sourcegitcommit: 1b186136273c27d7da567ac3f7f39da6a5aaa6cc
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "68738798"
+ms.lasthandoff: 12/20/2022
+ms.locfileid: "69447881"
 ---
 # <a name="manage-access-to-teams-apps-across-microsoft-365"></a>跨 Microsoft 365 管理对 Teams 应用的访问
 
@@ -52,25 +52,26 @@ Office 应用管理员可以联系全局管理员或 Teams 管理员来管理增
 
 增强的应用列表如下：
 
-* [Adobe Acrobat Sign](https://teams.microsoft.com/l/app/0f56a9d1-f502-40f9-a9e8-816d7adbb68b?source=app-details-dialog)
-* [更大的大脑 eLearning](https://teams.microsoft.com/l/app/12345514-afee-abcd-acde-c5b34109abcd?source=app-details-dialog)
-* [Bookings](https://teams.microsoft.com/l/app/4c4ec2e8-4a2c-4bce-8d8f-00fc664a4e5b?source=app-details-dialog)
-* [e2e-assure](https://teams.microsoft.com/l/app/8bdf3437-e038-4a93-abdc-00461630f6c3?source=app-details-dialog)
-* [ESi-Tik](https://teams.microsoft.com/l/app/fe9627db-f23e-42b1-b454-d4d1ca5af33e?source=app-details-dialog)
-* [镜头](https://teams.microsoft.com/l/app/cfaeb687-adc7-4e36-a847-39bb35bfb631?source=app-details-dialog)
+* [Adobe Acrobat Sign](https://teams.microsoft.com/l/app/0f56a9d1-f502-40f9-a9e8-816d7adbb68b)
+* [更大的大脑 eLearning](https://teams.microsoft.com/l/app/12345514-afee-abcd-acde-c5b34109abcd)
+* [Bookings](https://teams.microsoft.com/l/app/4c4ec2e8-4a2c-4bce-8d8f-00fc664a4e5b)
+* [e2e-assure](https://teams.microsoft.com/l/app/8bdf3437-e038-4a93-abdc-00461630f6c3)
+* [ESi-Tik](https://teams.microsoft.com/l/app/fe9627db-f23e-42b1-b454-d4d1ca5af33e)
+* [Go1](https://teams.microsoft.com/l/app/c859de61-8a6b-42e6-ba88-f639df33bc72)
+* [镜头](https://teams.microsoft.com/l/app/cfaeb687-adc7-4e36-a847-39bb35bfb631)
 * [Monday.com](https://teams.microsoft.com/l/app/eab2d3ce-6d6a-4415-abc4-5f40a8317b1f)
 * [Mural](https://teams.microsoft.com/l/app/c738b607-88dd-4f16-aefe-6a824c65d25d)
-* [我的贴纸](https://teams.microsoft.com/l/app/46fae4d0-faf5-11e9-80f3-53ad33b77bce?source=app-details-dialog)
-* [PDF 工具](https://teams.microsoft.com/l/app/ca4b5141-5c46-47bc-a05e-2733d9bd69aa?source=app-details-dialog)
+* [我的贴纸](https://teams.microsoft.com/l/app/46fae4d0-faf5-11e9-80f3-53ad33b77bce)
+* [PDF 工具](https://teams.microsoft.com/l/app/ca4b5141-5c46-47bc-a05e-2733d9bd69aa)
 * [Power BI](https://teams.microsoft.com/l/app/1c4340de-2a85-40e5-8eb0-4f295368978b)
-* [Priority Matrix](https://teams.microsoft.com/l/app/5be2b320-a5b7-4221-893c-dee506e4e365?source=app-details-dialog)
-* [适用于 Jira 的 Smart Connect](https://teams.microsoft.com/l/app/6402de97-ce33-4386-bf28-b37e9e139c09?source=app-details-dialog)
-* [即将计划](https://teams.microsoft.com/l/app/bf280b0d-b87d-4158-9f2a-70b63674cd27?source=app-details-dialog)
-* [简化](https://teams.microsoft.com/l/app/aa6e7fb6-34ac-4947-9c13-3565c66e368b?source=app-details-dialog)
+* [Priority Matrix](https://teams.microsoft.com/l/app/5be2b320-a5b7-4221-893c-dee506e4e365)
+* [适用于 Jira 的 Smart Connect](https://teams.microsoft.com/l/app/6402de97-ce33-4386-bf28-b37e9e139c09)
+* [即将计划](https://teams.microsoft.com/l/app/bf280b0d-b87d-4158-9f2a-70b63674cd27)
+* [简化](https://teams.microsoft.com/l/app/aa6e7fb6-34ac-4947-9c13-3565c66e368b)
 * [SurveyMonkey](https://teams.microsoft.com/l/app/0fd925a0-357f-4d25-8456-b3022aaa41a9)
-* [听录助手 TNA2](https://teams.microsoft.com/l/app/32c31ccd-b878-470e-9259-98c079ae5528?source=app-details-dialog)
-* [Umbiko](https://teams.microsoft.com/l/app/23fc1de6-dda0-4043-9ebb-a555e845843d?source=app-details-dialog)
-* [瓦尔多](https://teams.microsoft.com/l/app/1d041f16-ab49-4627-bfda-6b60ad2cab6a?source=app-details-dialog)
+* [听录助手 TNA2](https://teams.microsoft.com/l/app/32c31ccd-b878-470e-9259-98c079ae5528)
+* [Umbiko](https://teams.microsoft.com/l/app/23fc1de6-dda0-4043-9ebb-a555e845843d)
+* [瓦尔多](https://teams.microsoft.com/l/app/1d041f16-ab49-4627-bfda-6b60ad2cab6a)
 * [YouTube](https://teams.microsoft.com/l/app/com.microsoft.teamspace.tab.youtube)
 * [Zoho Projects](https://teams.microsoft.com/l/app/4a39aea9-8537-4c2f-b66d-ca364eb3b80d)
 
