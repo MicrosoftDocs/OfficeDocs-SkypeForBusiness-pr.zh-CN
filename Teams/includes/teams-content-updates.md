@@ -3,6 +3,15 @@
 
 
 
+## <a name="week-of-december-19-2022"></a>2022 年 12 月 19 日当周
+
+
+| 发布日期 |主题标题 | 更改 |
+|------|------------|--------|
+| 12/19/2022 | [跨 Microsoft 365 管理对 Teams 应用的访问](/MicrosoftTeams/manage-third-party-teams-apps) | 修改内容 |
+| 12/21/2022 | [Microsoft Teams 中的虚拟约会会议模板](/MicrosoftTeams/virtual-appointment-meeting-template) | 添加内容 |
+
+
 ## <a name="week-of-december-12-2022"></a>2022 年 12 月 12 日当周
 
 
