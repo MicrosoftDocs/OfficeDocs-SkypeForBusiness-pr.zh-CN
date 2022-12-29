@@ -22,12 +22,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 7713f1f2bf1f3a4866751d02ba702cb2d3d244f0
-ms.sourcegitcommit: d95a3408e31d3dec37c534c110b09a8847bec724
+ms.openlocfilehash: 7ded369ab991a37e711c416a7448447f148c069c
+ms.sourcegitcommit: 339a35e461c84ee309ade1a53299ba12231df7a3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/23/2022
-ms.locfileid: "69156838"
+ms.lasthandoff: 12/29/2022
+ms.locfileid: "69677412"
 ---
 # <a name="understand-microsoft-teams-apps-and-their-capabilities"></a>了解Microsoft Teams 应用及其功能
 
@@ -92,7 +92,7 @@ Teams自带一组内置应用，包括列表、任务、表扬、审批等。 �
 
 用户可以在 Teams 桌面或 Web 客户端的 Teams 应用存储中查看 Teams 中可用的所有应用。 用户可以按名称搜索、按类别浏览，以及按为组织构建的应用浏览，以及使用 Power Platform 构建的应用，以发现和安装 Teams 中的应用。
 
-可将应用固定到 Teams，以便于访问。 如果用户的设置策略允许并且 Teams 管理员允许应用，则用户可以 [自行固定](https://support.microsoft.com/office/pin-an-app-for-easy-access-3045fd44-6604-4ba7-8ecc-1c0d525e89ec) 应用。管理员可以固定应用和控制固定应用的行为，有关详细信息，请参阅 [应用设置策略](/teams-app-setup-policies)。
+可将应用固定到 Teams，以便于访问。 如果用户的设置策略允许并且 Teams 管理员允许应用，则用户可以 [自行固定](https://support.microsoft.com/office/pin-an-app-for-easy-access-3045fd44-6604-4ba7-8ecc-1c0d525e89ec) 应用。管理员可以固定应用和控制固定应用的行为，有关详细信息，请参阅 [应用设置策略](/microsoftteams/teams-app-setup-policies)。
 
 :::image type="content" source="media/user-app-experience-find-apps.png" alt-text="屏幕截图显示用户可以在 Microsoft Teams 中浏览应用的所有位置。" lightbox="media/user-app-experience-find-apps-full.png":::
 
