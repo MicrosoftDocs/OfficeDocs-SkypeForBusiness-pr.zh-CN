@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 了解如何在 Teams 中为参与者和来宾管理会议策略设置。
-ms.openlocfilehash: 42321eb1edadeda928ab0cb9e78e166478b73ed9
-ms.sourcegitcommit: 00a526c5b9829302f7c4e0631d0c2dac50b7d004
+ms.openlocfilehash: 26d2fd24d8b241b8f79276148ed27abd3e5412b1
+ms.sourcegitcommit: 84a832330c0a9f9fb818bbfb22e534fe035c1837
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/16/2022
-ms.locfileid: "69436668"
+ms.lasthandoff: 01/03/2023
+ms.locfileid: "69693385"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>会议策略设置 - 参与者和来宾
 
@@ -50,7 +50,7 @@ ms.locfileid: "69436668"
 
 ## <a name="let-anonymous-people-join-a-meeting"></a>允许匿名人员加入会议
 
-此按组织者设置允许任何人通过选择会议邀请中的链接，以匿名用户身份加入会议。 要了解更多信息，请参阅[在没有 Teams 帐户的情况下加入会议](https://support.microsoft.com/office/c6efc38f-4e03-4e79-b28f-e65a4c039508)。 匿名用户加入会议的能力也在组织级别受到控制，限制性更高的设置将有效。 若要了解详细信息，请参阅[使用 Microsoft Teams 管理中心配置组织范围的策略](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings)。
+此按组织者设置允许任何人通过选择会议邀请中的链接，以匿名用户身份加入会议。 要了解更多信息，请参阅[在没有 Teams 帐户的情况下加入会议](https://support.microsoft.com/office/c6efc38f-4e03-4e79-b28f-e65a4c039508)。 匿名用户加入会议的能力也在组织级别受到控制，限制性更高的设置将有效。 若要了解详细信息，请参阅 [使用 Microsoft Teams 管理中心配置组织范围的策略](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings)。
 
 ## <a name="let-anonymous-people-start-a-meeting"></a>允许匿名人员发起会议
 
@@ -61,14 +61,14 @@ ms.locfileid: "69436668"
 
 ## <a name="who-can-present-in-meetings"></a>谁可以在会议中演示
 
-这是按用户策略。 通过此设置，可更改 Teams 客户端中 **“会议选项中”** 的 **“谁能演示?”** 设置的默认值。 此策略设置影响所有会议，包括 “立即开会会议”。
+此设置是每用户策略，可用于更改 Teams 客户端中的 **会议选项** 中 **“谁可以演示？”** 设置的默认值。 “ **谁可以在会议中演示** ”策略设置会影响所有会议，包括“立即开会”会议。
 
 通过 **“谁能演示?”** 会议组织者可以选择谁可以成为会议中的演示者。 要了解更多信息，请参阅 [更改 Teams 会议的与会者设置](https://support.microsoft.com/office/53261366-dbd5-45f9-aae9-a70e6354f88e) 和 [Teams 会议中的角色](https://support.microsoft.com/office/c16fa7d0-1666-4dde-8686-0a0bfe16e019)。
 
-若要在 Teams 中指定 **“谁可以演示？”** 设置的默认值，请在策略中将 设置为以下设置之一：
+若要在 Teams 中指定 **“谁可以演示？”** 设置的默认值，请在 **“谁可以在会议中演示** ”策略中设置为以下设置之一：
 
 - **组织者，但用户可以替代**：只有会议组织者可以是演示者，并且所有会议参与者都指定为与会者。 此参数对应 Teams 中的 **“只有我”** 设置。
-- **组织中的每个人都可以替代**：组织中经过身份验证的用户（包括来宾用户）可以是演示者。 此设置对应于 Teams **中我的组织设置中的人员**。
+- **组织中的每个人都可以替代**：组织中经过身份验证的用户（包括来宾）可以是演示者。 此设置对应于 Teams **中我的组织设置中的人员**。
 - **所有人，但用户可以替代**：所有会议参与者都可以是演示者。 此值为默认值。 此设置对应于 Teams 中的 **“每个人”** 设置。
 
 请记住，在设置默认值后，会议组织者仍然可以在 Teams 中更改此设置，并选择谁可以在他们安排的会议中演示。
@@ -123,7 +123,7 @@ ms.locfileid: "69436668"
 ### <a name="live-translated-captions"></a>实时翻译的字幕
 
 > [!NOTE]
-> 此功能在公共预览版中暂时可用。 预览后，会议组织者必须具有 Teams Premium 许可证，与会者才能使用实时翻译字幕。
+> 此功能在公共预览版中暂时可用。 预览后，会议组织者必须具有Teams 高级版许可证，与会者才能使用实时翻译字幕。
 
 默认情况下， **实时字幕** 以会议期间所说的语言显示。 **实时翻译字幕** 允许用户查看翻译为他们最熟悉的语言的字幕。
 
@@ -145,7 +145,7 @@ ms.locfileid: "69436668"
 
 应用于会议组织者的策略可能会影响会议中的其他用户。 例如：
 
-- 如果组织者将 **“在会议中聊天****”设置为“为所有人打开”** 或 **“为所有人启用它，但匿名用户**”，则用户的个人策略将适用，并且设置为“**所有人关闭聊天**”的任何用户将无法在会议中聊天。
+- 如果组织者将 **“在会议中聊天** ”设置为 **“为所有人打开”** 或 **“为所有人启用”，但匿名用户**，则用户的个人策略将适用，并且设置“ **对所有人关闭聊天** ”的任何用户将无法在会议中聊天。
 - 如果组织者将 **“会议中的聊天** ”设置为 **“对所有人关闭”**，则组织者的政策将适用，并且没有人能够在会议中聊天。
 
 <a name="bkparticipantsandguests"> </a>
@@ -156,7 +156,7 @@ ms.locfileid: "69436668"
 
 当组织者创建或更新会议时，将强制实施此设置。 默认情况下，此设置已关闭。 详细了解 [Teams 会议中的 Q&A](/manage-qna-for-teams)。
 
-参数 QnAEngagementMode 在 PowerShell 中控制此策略。 Q&A 也可以在 Teams 管理中心内进行调整。
+Teams Q&A 可以在 Teams 管理中心的 **“参与者&来宾**”部分的“**会议** > **策略**”下进行调整。 参数 `-QnAEngagementMode` 在 PowerShell 中控制此策略。
 
 |设置值 |行为  |
 |---------|---------|
@@ -169,7 +169,7 @@ ms.locfileid: "69436668"
 
 ## <a name="enable-meeting-policy-settings"></a>启用会议策略设置
 
-若要启用会议策略设置，可以使用 [Teams 管理中心](https://admin.teams.microsoft.com/policies/meetings) (**会议策略** > **编辑策略** > **参与者&来宾**) 或 Teams PowerShell 中的 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet。 
+若要启用会议策略设置，可以使用 [Teams 管理中心](https://admin.teams.microsoft.com/policies/meetings) (**会议策略** > **编辑策略** > **参与者&来宾**) 或 Teams PowerShell 中的 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet。
 
 在此示例中，我们使用 PowerShell 修改全局会议策略，以允许任何人开始或加入会议。
 
@@ -178,7 +178,6 @@ Set-CsTeamsMeetingPolicy -Identity Global -AutoAdmittedUsers "Everyone" -AllowAn
 ```
 
 设置策略后，需要将其应用于用户。 如果修改了全局 (组织范围的默认) 策略，它将自动应用于用户。 需要等待至少 4 小时才能使任何策略更改生效，但最长可能需要 24 小时。
-
 
 ## <a name="related-topics"></a>相关主题
 

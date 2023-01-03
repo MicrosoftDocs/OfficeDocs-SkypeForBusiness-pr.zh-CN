@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 中的 Cortana 语音帮助
+title: Microsoft Teams 中的 Cortana 语音协助
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -20,27 +20,27 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 502f09891942796a326deba35e29fab234e6548a
-ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
+ms.openlocfilehash: f8070644139ebd32157693e941e3206a4e90cdad
+ms.sourcegitcommit: 84a832330c0a9f9fb818bbfb22e534fe035c1837
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2022
-ms.locfileid: "69198494"
+ms.lasthandoff: 01/03/2023
+ms.locfileid: "69693395"
 ---
 # <a name="cortana-voice-assistance-in-teams"></a>Teams 中的 Cortana 语音帮助
 
 > [!NOTE]
-> 美国、英国、加拿大、印度和澳大利亚的用户Microsoft适用于 iOS 和 Android 的 Teams 移动应用、Microsoft Teams 显示器和 Windows 上的Microsoft Teams 会议室支持 Cortana 语音协助。 Teams 移动应用中的 Cortana 语音帮助现在可供 en-US 中的 EDU 客户使用。 作为未来版本的一部分，将扩展到其他语言和区域。 Cortana 语音协助目前不适用于 GCC、GCC-High、DoD 和非美国 EDU 租户。
+> 适用于 iOS 和 Android 的 Microsoft Teams 移动应用、Microsoft Teams 显示以及 Windows 上的 Microsoft Teams 会议室 支持 Cortana 语音协助，适用于美国、英国、加拿大、印度和澳大利亚的用户。 Teams 移动应用中的 Cortana 语音帮助现在可供 en-US 中的 EDU 客户使用。 作为未来版本的一部分，将扩展到其他语言和区域。 Cortana 语音协助目前不适用于 GCC、GCC-High、DoD 和非美国 EDU 租户。
 
-Teams 移动应用、Windows Microsoft Teams 会议室和 Microsoft Teams 显示设备上的 Cortana 语音帮助使Microsoft 365 企业版用户能够使用口语自然语言简化通信、协作和会议相关任务。 用户可以通过选择位于 Teams 移动应用右上角的麦克风按钮，或者在Microsoft Teams 会议室中或使用Microsoft Teams 屏幕时说“Cortana”来与 Cortana 交谈。 为了在外出时免手动快速与团队联系，用户可以说出“呼叫 Megan”或“向我的下一次会议发送消息”等查询。 用户还可以通过说“加入我的下一次会议”来加入会议，并使用语音协助共享文件、检查日历等。 这些语音协助体验是使用 [Cortana 企业级服务](/microsoft-365/admin/misc/cortana-integration)提供的，这些服务完全符合Office 365的隐私、安全性和合规性承诺，如[在线服务条款 (OST) ](https://www.microsoft.com/licensing/product-licensing/products?rtc=1&preserve-view=true)所反映。
+Teams 移动应用、Windows Microsoft Teams 会议室和 Microsoft Teams 显示设备上的 Cortana 语音帮助使Microsoft 365 企业版用户使用口语自然语言简化通信、协作和会议相关任务。 用户可以通过选择位于 Teams 移动应用右上角的麦克风按钮，或者在 Microsoft Teams 会议室中或使用 Microsoft Teams 显示器时说“Cortana”来与 Cortana 交谈。 为了在外出时免手动快速与团队联系，用户可以说出“呼叫 Megan”或“向我的下一次会议发送消息”等查询。 用户还可以通过说“加入我的下一次会议”来加入会议，并使用语音协助共享文件、检查日历等。 这些语音协助体验是使用 [Cortana 企业级服务](/microsoft-365/admin/misc/cortana-integration)提供的，这些服务完全符合Office 365的隐私、安全性和合规性承诺，如[在线服务条款 (OST) ](https://www.microsoft.com/licensing/product-licensing/products?rtc=1&preserve-view=true)所反映。
 
 ## <a name="admin-control-and-limitations"></a>管理员控制和限制
 
 Teams 中的 Cortana 语音协助是使用完全遵守Office 365企业级隐私、安全性和合规性承诺的服务提供的，如在线服务条款 (OST) 所反映。 默认情况下，将为租户启用此功能。
 
-租户管理员可以使用策略 (TeamsCortanaPolicy) 来控制租户中的哪些人可以使用 Teams 中的 Cortana 语音协助。 此策略在用户帐户级别或租户级别设置。 管理员可以使用此策略控制中的 CortanaVoiceInvocationMode 字段来确定是禁用、仅通过一键调用启用 Cortana，还是使用唤醒词调用以及 (适用于支持 Cortana 的设备（如 Microsoft Teams 显示) ）
+租户管理员可以使用策略 (TeamsCortanaPolicy) 来控制租户中的哪些人可以使用 Teams 中的 Cortana 语音协助。 此策略在用户帐户级别或租户级别设置。 管理员可以使用此策略控制中的 CortanaVoiceInvocationMode 字段来确定是禁用、仅通过一键调用启用 Cortana，还是使用唤醒词调用以及 (适用于支持 Cortana 的设备，例如 Microsoft Teams 显示) 。
 
-管理员可以使用以下 PowerShell cmdlet 来管理此策略， (策略目前在 Microsoft Teams 管理中心) 不可用。
+管理员可以使用以下 PowerShell cmdlet 来管理此策略， (该策略目前在 Microsoft Teams 管理中心) 不可用。
 
 - [New-CsTeamsCortanaPolicy](/powershell/module/skype/New-CsTeamsCortanaPolicy)
 
@@ -52,29 +52,23 @@ Teams 中的 Cortana 语音协助是使用完全遵守Office 365企业级隐私�
 
 - [Remove-CsTeamsCortanaPolicy](/powershell/module/skype/Remove-CsTeamsCortanaPolicy)
 
-例如，以下命令创建名为“EmployeeCortanaPolicy”的新策略，禁用了 Microsoft Teams 中的 Cortana 语音协助。
+例如，以下命令创建名为“EmployeeCortanaPolicy”的新策略，其中 Microsoft Teams 中的 Cortana 语音协助处于禁用状态。
 
 ```PowerShell
 PS C:\> New-CsTeamsCortanaPolicy -Identity EmployeeCortanaPolicy -CortanaVoiceInvocationMode Disabled
 ```
 
-此示例演示如何更新名为“EmployeeCortanaPolicy”的现有策略，并在Microsoft Teams 中仅通过一键调用启用 Cortana 语音协助。 用户可以通过在 Teams 中选择 Cortana 麦克风按钮来调用 Cortana。 将禁用 (“你好小娜”或“Cortana”) 调用的唤醒词。
+此示例演示如何更新名为“EmployeeCortanaPolicy”的现有策略，并在 Microsoft Teams 中仅通过一键调用启用 Cortana 语音协助。 用户可以通过在 Teams 中选择 Cortana 麦克风按钮来调用 Cortana。 将禁用 (“你好小娜”或“Cortana”) 调用的唤醒词。
 
 ```PowerShell
 PS C:\> Set-CsTeamsCortanaPolicy -Identity EmployeeCortanaPolicy -CortanaVoiceInvocationMode PushToTalkUserOverride
 ```
 
-此示例演示如何更新策略，并使用按下按钮和唤醒词调用启用 Cortana 语音协助。
+此示例演示如何更新策略，并使用按下按钮和唤醒词调用启用 Cortana 语音协助。  (美国Microsoft 365 企业版用户的 Windows 移动应用、Windows 上的Microsoft Teams 会议室以及语言设置为 English 的 Microsoft Teams 显示支持唤醒词激活。) 
 
 ```PowerShell
 PS C:\> Set-CsTeamsCortanaPolicy -Identity EmployeeCortanaPolicy -CortanaVoiceInvocationMode WakeWordPushToTalkUserOverride
 ```
-
-目前，对于美国Microsoft 365 企业版用户的初始版本（英语），以下函数可用：
-
-- Teams 移动应用不支持唤醒词激活，但将来将支持该激活。
-
-- Windows 和 Microsoft Teams 显示设备上的Microsoft Teams 会议室将支持唤醒词激活。
 
 ## <a name="user-control"></a>用户控件
 
@@ -84,7 +78,7 @@ PS C:\> Set-CsTeamsCortanaPolicy -Identity EmployeeCortanaPolicy -CortanaVoiceIn
 
 - 在Microsoft Teams 会议室中选择麦克风按钮或说出“Cortana”。
 
-- Microsoft Teams 显示设备上说“Cortana”。
+- 在 Microsoft Teams 上说“Cortana”显示设备。
 
 可以使用设备中的设置来控制是否为设备启用了 Teams 中的 Cortana。
 

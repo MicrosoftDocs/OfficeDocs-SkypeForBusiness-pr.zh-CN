@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - seo-marvel-apr2020
 description: 了解如何在 Teams 中管理常规会议策略设置。
-ms.openlocfilehash: 97ba1da0301f1a5515caf88d5f428578b653653a
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: cc0d704c5a78d09da4c1332d48f795cdb611d134
+ms.sourcegitcommit: 84a832330c0a9f9fb818bbfb22e534fe035c1837
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69307507"
+ms.lasthandoff: 01/03/2023
+ms.locfileid: "69693375"
 ---
 # <a name="meeting-policy-settings---general"></a>会议策略设置 - 常规
 
@@ -37,8 +37,6 @@ ms.locfileid: "69307507"
 - [Outlook 加载项](#outlook-add-in)
 - [频道会议安排](#channel-meeting-scheduling)
 - [私人会议安排](#private-meeting-scheduling)
-- [立即在私人会议中开会](#meet-now-in-private-meetings)
-- [指定的演示者角色模式](#designated-presenter-role-mode)
 - [参与报告](#engagement-report)
 - [会议注册](#meeting-registration)
 - [网络研讨会](#webinars)
@@ -48,7 +46,7 @@ ms.locfileid: "69307507"
 
 ## <a name="meet-now-in-channels"></a>立即在频道中开会
 
-这是按用户政策，在会议开始前适用。 此设置控制用户是否可以在 Teams 频道中启动临时会议。 如果启用此功能，用户可以单击“ **会议** ”按钮启动临时会议或在频道中安排会议。 默认值为 True。
+这是按用户政策，在会议开始前适用。 此设置可控制用户是否可以在 Teams 频道中启动非计划会议。 如果启用此设置，用户可以单击“ **会议** ”按钮启动计划外会议或在频道中安排会议。 默认情况下，此设置处于打开状态。
 
 [![显示邮件下方立即开会图标的屏幕截图。](media/meeting-policies-meet-now.png)](media/meeting-policies-meet-now.png#lightbox)
 
@@ -58,7 +56,7 @@ ms.locfileid: "69307507"
 
 ![显示安排新会议的功能的屏幕截图。](media/meeting-policies-outlook-add-in.png)
 
-如果关闭此功能，用户在 Outlook 中创建新会议时将无法安排 Teams 会议。 例如，在 Windows 上的 Outlook 中，**“新 Teams 会议”** 选项不会显示在功能区中。
+如果关闭此设置，用户在 Outlook 中创建新会议时将无法安排 Teams 会议。 例如，在 Windows 上的 Outlook 中，**“新 Teams 会议”** 选项不会显示在功能区中。
 
 ## <a name="channel-meeting-scheduling"></a>频道会议安排
 
@@ -74,7 +72,7 @@ ms.locfileid: "69307507"
 
 [![显示用于选择要在其中安排会议的频道的日历选项的屏幕截图。](media/meeting-policies-select-a-channel-to-meet-in.png)](media/meeting-policies-select-a-channel-to-meet-in.png#lightbox)
 
-在频道帖子页中，将禁用以下内容：
+在频道帖子页中，将禁用以下功能：
 
 - 在频道回复撰写框中的 **“安排会议”** 按钮。
   ![显示用于选择要在其中安排会议的频道的日历选项的屏幕截图。](media/schedule-meeting-disabled-in-chat2.png)
@@ -89,7 +87,7 @@ ms.locfileid: "69307507"
 
 - 用户将无法在频道日历上拖动并选择时间块来创建频道会议。
 
-- 用户无法使用键盘快捷方式在频道日历上创建会议。
+- 用户无法使用键盘快捷键在频道日历上创建会议。
 
 在管理中心:
 
@@ -99,29 +97,9 @@ ms.locfileid: "69307507"
 
 ## <a name="private-meeting-scheduling"></a>私人会议安排
 
-这是按用户政策，在会议开始前适用。 此设置控制用户是否可以在 Teams 中安排私人会议。 当会议未发布到团队中的某个频道时，这个会议就是私人的。
+这是按用户政策，在会议开始前适用。 此设置控制用户是否可以在 Teams 中安排私人会议。 当会议未发布到团队中的某个频道时，这个会议就是私人的。 **默认情况下，私人会议安排** 处于打开状态。
 
-请注意，如果关闭“**允许安排私人会议****”和“允许频道会议安排**”，Teams 中的用户将禁用 **“添加所需与会者****”和“添加频道**”选项。 默认情况下，此设置已启动。
-
-## <a name="meet-now-in-private-meetings"></a>立即在私人会议中开会
-
-这是按用户政策，在会议开始前适用。 此设置控制用户是否可以启动临时私人会议。  默认情况下，此设置已启动。
-
-## <a name="designated-presenter-role-mode"></a>指定的演示者角色模式
-
-这是按用户策略。 通过此设置，可更改 Teams 客户端中 **“会议选项中”** 的 **“谁能演示?”** 设置的默认值。 此策略设置影响所有会议，包括 “立即开会会议”。
-
-通过 **“谁能演示?”** 会议组织者可以选择谁可以成为会议中的演示者。 要了解更多信息，请参阅 [更改 Teams 会议的与会者设置](https://support.microsoft.com/article/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e) 和 [Teams 会议中的角色](https://support.microsoft.com/article/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019)。
-
-目前，只能使用 PowerShell 来配置此策略设置。 可以使用 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet 编辑现有的 Teams 会议策略。 或者，使用 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet 创建一个新的 Teams 会议策略，并将其分配给用户。
-
-要在 Teams 中指定 **“谁能演示?”** 设置的默认值，请将 **DesignatedPresenterRoleMode** 参数设置为以下之一:
-
-- **EveryoneUserOverride**:  所有会议参与者都能成为演示者。 此值为默认值。 该参数对应 Teams 中的 **“每个人”** 设置。
-- **EveryoneInCompanyUserOverride**: 组织中的认证用户，包括客人用户，都能成为演示者。 此参数对应 Teams 中 **“我的组织中的人员”** 设置。
-- **OrganizerOnlyUserOverride**: 只有会议组织者可以成为演示者，所有其他会议参与者都将指定为与会者。 此参数对应 Teams 中的 **“只有我”** 设置。
-
-请记住，在设置默认值后，会议组织者仍然可以在 Teams 中更改此设置，并选择谁可以在他们安排的会议中演示。
+如果同时关闭 **“专用会议安排**”和 **“频道会议安排**”设置，Teams 中的用户将禁用 **“添加所需与会者****”和“添加频道**”选项。
 
 ## <a name="engagement-report"></a>参与报告
 
@@ -142,7 +120,7 @@ ms.locfileid: "69307507"
 
 ## <a name="meeting-registration"></a>会议注册
 
-这是按用户策略。 如果启用此功能，组织中的用户可以向会议添加注册。 默认情况下，此策略处于启用状态。
+这是按用户策略。 如果启用此设置，组织中的用户可以向会议添加注册。 默认情况下，此策略处于启用状态。
 
 若要了解有关会议注册的详细信息，请阅读 [配置会议注册](set-up-webinars.md#configure-meeting-registration)。
 
@@ -164,7 +142,7 @@ ms.locfileid: "69307507"
 
 若要指定希望用户可以使用哪种会议加载项，请按以下方式设置 **PreferredMeetingProviderForIslandsMode** 参数:
 
-- 将参数设置为 **TeamsAndSfB** 以启用 Outlook 中的 Teams 会议加载项和 Skype for Business 加载项。 此值为默认值。
+- 将参数设置为 **TeamsAndSfB** 以启用 Outlook 中的 Teams 会议加载项和 Skype for Business 加载项。 **TeamsAndSfB** 是默认值。
 - 将参数设置为 **Teams**，以便仅启用 Outlook 中的 Teams 会议加载项。 此策略设置可确保所有将来的会议均具有 Teams 会议的加入链接。 它不能将现有的 Skype for Business 会议加入链接迁移到 Teams。 该策略设置不会影响 Skype for Business 中的状态、聊天、PSTN 呼叫或任何其他功能，这意味着用户将继续使用 Skype for Business 的这些功能。
 
   如果将参数设置为 **Teams**，然后切换回 **TeamsAndSfB**，则将启用这两个会议加载项。 但请注意，现有 Teams 会议加入链接不会迁移到Skype for Business。 只有在更改后安排的 Skype for Business 会议才会有 Skype for Business 会议加入链接。
@@ -177,7 +155,7 @@ ms.locfileid: "69307507"
 
 若要在 PowerShell 中配置设置，请使用 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet。 若要将其关闭，请将 **AllowMeetingReactions** 设置为 **False**。
 
-关闭用户的回应，并不意味着用户不能在自己安排的会议中使用回应。 无论默认设置如何，会议组织者仍然可以从会议选项页面开启回应。
+关闭用户的反应并不意味着用户无法在他们安排的会议中使用反应。 无论默认设置如何，会议组织者仍然可以从会议选项页面开启回应。
 
 ## <a name="speaker-coach"></a>演讲者指导
 
