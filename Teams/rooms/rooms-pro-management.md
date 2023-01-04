@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解Microsoft Teams 会议室专业版管理。
 f1keywords: ''
-ms.openlocfilehash: cadf078c4d56c518acda73a44b62c55f346f189c
-ms.sourcegitcommit: 0e4e5b9933970827ea4be137ca98eab6994e2301
+ms.openlocfilehash: 9ef0db845e9eb0778bc53cbcf9e0998531daf6e0
+ms.sourcegitcommit: 2363af0ed4de97f1ec836ca2ad9e3854cf9fa601
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 01/04/2023
-ms.locfileid: "69696887"
+ms.locfileid: "69702085"
 ---
 # <a name="microsoft-teams-rooms-pro-management"></a>Microsoft Teams 会议室专业版管理
 
@@ -58,7 +58,7 @@ Microsoft Teams 会议室 Pro 管理监视解决方案建立在 Microsoft 在支
 |**更新管理**    |基于预配置的部署圈自动配置和交付Microsoft Teams 会议室应用程序。         |
 |**见解和建议**     |深入了解房间运行状况、使用情况和设备可靠性。         |
 |**合规性和认证**   |满足 Microsoft Online Services 的所有适用标准。         |
-|**支持的设备**    |经过认证的Microsoft Teams 会议室系统及其外围设备。<br>*Surface Hub 和 MTR Android 支持将在 2022 年下半年推出*        |
+|**支持的设备**    |经过认证的Microsoft Teams 会议室系统及其外围设备。<br>*Surface Hub 和 MTR Android 支持将在 2023 年推出*        |
 |**支持的区域**    |请参阅 [支持的区域](#supported-regions)。        |
 |**集成**    |现可与客户托管服务进行基本集成，以便进行事件协调。         |
 
