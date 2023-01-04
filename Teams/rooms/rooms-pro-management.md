@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解Microsoft Teams 会议室专业版管理。
 f1keywords: ''
-ms.openlocfilehash: d6644308f5c9de9b92c3d25df2595a036c232c7b
-ms.sourcegitcommit: baf29d244b428712052553f9e4484e72e727247e
+ms.openlocfilehash: cadf078c4d56c518acda73a44b62c55f346f189c
+ms.sourcegitcommit: 0e4e5b9933970827ea4be137ca98eab6994e2301
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2022
-ms.locfileid: "69046875"
+ms.lasthandoff: 01/04/2023
+ms.locfileid: "69696887"
 ---
 # <a name="microsoft-teams-rooms-pro-management"></a>Microsoft Teams 会议室专业版管理
 
