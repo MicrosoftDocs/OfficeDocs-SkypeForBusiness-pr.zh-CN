@@ -3,6 +3,14 @@
 
 
 
+## <a name="week-of-december-26-2022"></a>2022 年 12 月 26 日当周
+
+
+| 发布日期 |主题标题 | 更改 |
+|------|------------|--------|
+| 12/27/2022 | [Ignite 2020 的 Teams 会议](/MicrosoftTeams/ignite-2020-landing-page) | 修改内容 |
+
+
 ## <a name="week-of-december-19-2022"></a>2022 年 12 月 19 日当周
 
 
@@ -19,10 +27,10 @@
 |------|------------|--------|
 | 12/14/2022 | [Microsoft Teams 共享设备许可](/MicrosoftTeams/teams-add-on-licensing/teams-shared-device-license) | 添加内容 |
 | 12/14/2022 | [控制谁可以绕过 Microsoft Teams 中的会议大厅](/MicrosoftTeams/who-can-bypass-meeting-lobby) | 添加内容 |
-| 12/14/2022 | [设置Microsoft Teams Android 设备用户界面](/MicrosoftTeams/devices/teams-android-devices-user-interface) | 修改内容 |
+| 12/14/2022 | [设置 Microsoft Teams Android 设备用户界面](/MicrosoftTeams/devices/teams-android-devices-user-interface) | 修改内容 |
 | 12/14/2022 | [支持 Teams 的设备](/MicrosoftTeams/devices/teams-ip-phones) | 修改内容 |
 | 12/14/2022 | [规划直接路由](/MicrosoftTeams/direct-routing-plan) | 修改内容 |
-| 12/14/2022 | [Microsoft Teams Premium - 管理员概述](/MicrosoftTeams/enhanced-teams-experience) | 修改内容 |
+| 12/14/2022 | [Microsoft Teams 高级版 - 管理员概述](/MicrosoftTeams/enhanced-teams-experience) | 修改内容 |
 | 12/14/2022 | [为 Microsoft Teams 设置公用区域电话](/MicrosoftTeams/set-up-common-area-phones) | 修改内容 |
 | 12/14/2022 | [Microsoft Teams 高级版许可](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams) | 修改内容 |
 | 12/15/2022 | [音频会议常见问题](/MicrosoftTeams/audio-conferencing-common-questions) | 修改内容 |
@@ -30,7 +38,7 @@
 | 12/15/2022 | [Microsoft Teams 会议室 (Windows) 的发行说明](/MicrosoftTeams/rooms/rooms-release-note) | 修改内容 |
 | 12/16/2022 | [Teams 或 Skype for Business Online 的代理服务器](/MicrosoftTeams/proxy-servers-for-skype-for-business-online) | 修改内容 |
 | 12/16/2022 | [在 Android 上部署Microsoft Teams 会议室](/MicrosoftTeams/devices/collab-bar-deploy) | 修改内容 |
-| 12/16/2022 | [远程更新Microsoft Teams 设备](/MicrosoftTeams/devices/remote-update) | 修改内容 |
+| 12/16/2022 | [远程更新 Microsoft Teams 设备](/MicrosoftTeams/devices/remote-update) | 修改内容 |
 | 12/16/2022 | [Windows 安全Microsoft Teams 会议室](/MicrosoftTeams/rooms/security-windows) | 修改内容 |
 
 
@@ -40,7 +48,7 @@
 | 发布日期 |主题标题 | 更改 |
 |------|------------|--------|
 | 12/5/2022 | [在 Microsoft Teams 中管理 Bookings 应用](/MicrosoftTeams/bookings-app-admin) | 修改内容 |
-| 12/5/2022 | [为敏感会议配置Microsoft Teams 会议大厅](/MicrosoftTeams/configure-lobby-sensitive-meetings) | 添加内容 |
+| 12/5/2022 | [为敏感会议配置 Microsoft Teams 会议大厅](/MicrosoftTeams/configure-lobby-sensitive-meetings) | 添加内容 |
 | 12/5/2022 | [使用基线保护配置 Teams 会议](/MicrosoftTeams/configure-meetings-baseline-protection) | 添加内容 |
 | 12/5/2022 | [配置 Teams 会议，保护高度敏感数据](/MicrosoftTeams/configure-meetings-highly-sensitive-protection) | 添加内容 |
 | 12/5/2022 | [为 Teams 会议配置敏感数据保护](/MicrosoftTeams/configure-meetings-sensitive-protection) | 添加内容 |
@@ -49,10 +57,10 @@
 | 12/5/2022 | [Teams 会议的自定义会议背景](/MicrosoftTeams/custom-meeting-backgrounds) | 添加内容 |
 | 12/5/2022 | [Microsoft Teams 中的自定义会议模板概述](/MicrosoftTeams/custom-meeting-templates-overview) | 添加内容 |
 | 12/5/2022 | [需要对敏感 Teams 会议进行端到端加密](/MicrosoftTeams/end-to-end-encrypted-meetings) | 添加内容 |
-| 12/5/2022 | [Microsoft Teams Premium - 管理员概述](/MicrosoftTeams/enhanced-teams-experience) | 添加内容 |
+| 12/5/2022 | [Microsoft Teams 高级版 - 管理员概述](/MicrosoftTeams/enhanced-teams-experience) | 添加内容 |
 | 12/5/2022 | [管理敏感 Teams 会议的聊天](/MicrosoftTeams/manage-chat-sensitive-meetings) | 添加内容 |
 | 12/5/2022 | [管理敏感 Teams 会议的会议演示体验](/MicrosoftTeams/manage-meeting-presentation-experience) | 添加内容 |
-| 12/5/2022 | [管理敏感会议的Microsoft Teams 会议录制选项](/MicrosoftTeams/manage-meeting-recording-options) | 添加内容 |
+| 12/5/2022 | [管理敏感会议的 Microsoft Teams 会议录制选项](/MicrosoftTeams/manage-meeting-recording-options) | 添加内容 |
 | 12/5/2022 | [在 Microsoft Teams 中管理会议模板](/MicrosoftTeams/manage-meeting-templates) | 添加内容 |
 | 12/5/2022 | [在 Microsoft Teams 中管理虚拟约会应用](/MicrosoftTeams/manage-virtual-appointments-app) | 添加内容 |
 | 12/5/2022 | [管理大会策略](/MicrosoftTeams/meeting-policies-in-teams-general) | 修改内容 |
