@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-edu
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f95f9c1a3ad6a65dbefa4d48c0c5277e01b65f2
-ms.sourcegitcommit: 46dbff43eec9631863b74b2b49c9a29c6497d8e8
+ms.openlocfilehash: f93359c04dba3f926983214d9fa8b856f58915c6
+ms.sourcegitcommit: 78fbfcf4a1aafce5d39eea79c9461a9fc1bb3d38
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/20/2022
-ms.locfileid: "67397269"
+ms.lasthandoff: 01/05/2023
+ms.locfileid: "69707814"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Microsoft Teams 教育版见解 IT 管理员指南
 
@@ -47,7 +47,7 @@ ms.locfileid: "67397269"
 
 使用见解并不需要任何先决条件，教师只需将见解添加到左侧应用栏，或在 Teams 中将其添加为每个课堂的选项卡。
 
-教师由教职员工许可证标识。教师必须拥有教职员工许可证，并且是课堂团队所有者，这样才能查看“Insights”中的数据。
+Educators are identified by faculty licenses. Educators must have a faculty license and be a class team owner to see the data in Insights.
 
 ### <a name="education-leaders"></a>教育领导者
 
@@ -68,8 +68,6 @@ ms.locfileid: "67397269"
 > 见解会收集有关 Teams 中的学生活动的数据。
 >
 > 学生是 Teams 课堂团队的成员。 他们由其许可证标识，并且 **无权访问**“见解”应用或选项卡（即使他们是团队的所有者）。
->
-> *不能* 将来宾视为学生。
 
 ## <a name="where-do-users-find-insights"></a>用户可在何处找到见解？
 
@@ -84,7 +82,7 @@ ms.locfileid: "67397269"
 
 见解将展示课堂团队的所有频道中的活动数据，但它只能作为选项卡添加到公共频道。 该选项卡显示课堂团队中不是所有者的每个人（包括不是课堂团队所有者的教师）的活动。
 
-在两种视图中，教师都可以访问课堂数据。使用个人应用，教师需要向下钻取到课堂级别，而选项卡则允许直接访问课堂数据。
+In both views, an educator can access class data. Using the personal app, the educator needs to drill down to the class level, whereas the tab provides direct access to class data.
 
 在课堂级别，如果教师拥有课堂团队，则无需 IT 管理员执行任何其他操作即可使用见解。
 
@@ -114,7 +112,7 @@ ms.locfileid: "67397269"
 
 ## <a name="when-is-insights-used"></a>何时使用见解？
 
-Insights 支持整个学习周期的 **学习社区**。借助跨多个维度的实时指标，Insights 支持学校社区成员之间识别、反射、讨论和采取行动的持续循环。
+Insights supports learning communities throughout **the learning cycle**. With real-time metrics across multiple dimensions, Insights supports a continuous cycle of identification, reflection, discussion, and taking action amongst members of the school community.
 
 - **了解** 学生与教师、课程材料及其同伴进行互动的方式和时间，以及他们如何完成作业。
 - **反思** 投入的资源如何为学生取得成功提供支持，确定发展的领域以及需要协助的地方。
@@ -131,7 +129,7 @@ Insights 支持整个学习周期的 **学习社区**。借助跨多个维度的
 
 ### <a name="data-collection"></a>数据收集
 
-见解将从 Teams 的学生和教师活动中收集数据。 不会收集来宾数据。
+见解将从 Teams 的学生和教师活动中收集数据。
 
 见解 *不* 显示教师的相关数据。 对数据的分析为教学提供了切实可行的见解。
 
@@ -149,10 +147,10 @@ Insights 支持整个学习周期的 **学习社区**。借助跨多个维度的
 |**职业指导**|学生提供了专业（学习领域）和学年、职业指导应用中的学生活动，包括：技能、技能兴趣、职业兴趣、学习兴趣、职业相关活动。|
 
 > [!NOTE]
-> 几分钟后，所收集的大部分数据都会显示在 Insights 中。在会议结束后的几个小时会出现参加课堂会议（与某个课堂频道相关的会议）的提示，通常最多不超过 24 小时。
+> Most of the collected data shows up in Insights within a few minutes. Attendance in class meetings (meetings associated with one of the class channels) appears a few hours after the end of the meeting, usually up to 24 hours later.
 
 > [!NOTE]
-> 在教育版 Insights 中收集的数据将一直保留，直到 IT 管理员关闭 [“教育版分析”切换](#turn-sds-for-insights-on-or-off) 或租户的 Office 订阅结束。关闭 Teams 中的特定功能不会删除历史数据。
+> Data collected in Education Insights is kept until either the IT Admin turns off the [Education Analytics toggle](#turn-sds-for-insights-on-or-off) or the Office subscription for the tenant ends. Turning off specific features in Teams does not delete historic data.
 
 ### <a name="privacy-and-security"></a>隐私和安全
 
@@ -212,7 +210,7 @@ Microsoft 已从零开始构建见解以确保数据得到保护。 我们意识
 
 ## <a name="manage-permissions"></a>管理权限
 
-作为 IT 管理员，你可以为教育领导、地区领导、校长、教导主任、教师、学习领域负责人、项目主任、社会工作者和心理医生提供权限。教育工作者在拥有一个班级团队时，会 *自动* 获得权限。
+As an IT admin you can provide permissions for education leaders, district leaders, school principals, head teachers, counselors, heads of learning areas, program directors, social workers, and psychologists. Educators are *automatically* given permission when they own a class team.
 
 若要了解更多信息，请阅读 [**管理用户对教育版 Insights 的访问权限**](education-insights-manage-access.md)。
 
@@ -222,7 +220,7 @@ Microsoft 已从零开始构建见解以确保数据得到保护。 我们意识
 
 如果教师希望直接访问各个课堂，则可在顶部导航菜单上手动安装“见解”选项卡。 此选项卡允许位于 Teams 课堂中的教师直接访问相关数据，以便在课堂上下文中查看该数据。
 
-在两种视图中，教师都可以访问课堂数据。使用个人应用，教师需要向下钻取到课堂级别，而选项卡则允许直接访问课堂数据。
+In both views, an educator can access class data. Using the personal app, the educator needs to drill down to the class level, whereas the tab provides direct access to class data.
 
 > [!TIP]
 > 有关更多详细信息，请阅读[面向教育的 Teams 策略和策略包](./policy-packages-edu.md)。
@@ -256,7 +254,7 @@ Microsoft 已从零开始构建见解以确保数据得到保护。 我们意识
 1. 转到“**设置**” > “**管理教育版 Insights**”。
 1. 将 **为 Insights 收集活动数据** 的开关调整为打开或关闭。
 
-![SDS 管理中心切换以关闭和打开 Insights 的屏幕截图。](media/manage-insights-toggles.png)
+![SDS 管理中心切换为关闭和打开见解的屏幕截图。](media/manage-insights-toggles.png)
 
 #### <a name="turn-on-and-off-insights-from-the-teams-client"></a>从 Teams 客户端打开和关闭 Insights
 
@@ -264,7 +262,7 @@ Microsoft 已从零开始构建见解以确保数据得到保护。 我们意识
 1. 通过 Microsoft 365 管理员帐户，使用 *教育版 Insights* 右上角的省略号图标打开“**管理员设置**”页。
 1. 将 **为 Insights 收集活动数据** 的开关调整为打开或关闭。
 
-![Teams 客户端切换以关闭和打开 Insights 的屏幕截图。](media/admin-settings-main-screen.png)
+![用于关闭和打开见解的 Teams 客户端切换的屏幕截图。](media/admin-settings-main-screen.png)
 
 > [!NOTE]
 > 如果已关闭 Insights，则删除已收集的数据。 选择退出时删除的数据无法在以后还原，即使重新启用了 Insights 也是如此。
@@ -336,13 +334,7 @@ Insights 收集的完整数据在[此处](class-insights.md#data-collection)列�
 
 若要验证此项，请打开 [SDS 管理中心](https://sds.microsoft.com)，转到“**设置**” > “**管理教育版 Insights**”。 检查“为 Insights 收集活动数据”的状态。
 
-如果为关闭状态，请将其再次打开。Insights 开始收集数据，但可能需要多达 24 小时才能在报告中查看。
-
-### <a name="why-do-i-see-data-for-some-students-or-classes-not-all"></a>为什么会看到某些学生或班级的数据，而不是全部？
-
-我们仅收集 *已授权* 的学生的数据，因此最可能的原因就是有来宾学生参与课程，不会收集他们的数据。 你可能看到他们的姓名，但没有任何数据。
-
-检查学生的状态，确保所有学生都有学生许可证。
+If it's turned off, turn it back on.  Insights starts to collect data, but it may take up to 24 hours to see it in the reports.
 
 ### <a name="why-dont-educators-see-meeting-data"></a>为什么教师看不到会议数据？
 
@@ -351,7 +343,7 @@ Insights 收集的完整数据在[此处](class-insights.md#data-collection)列�
 此外，检查学生是否*[在没有 Teams 帐户的情况下加入了课堂](https://support.microsoft.com/office/c6efc38f-4e03-4e79-b28f-e65a4c039508)。 在此情况下不会收集学生活动。
 
 > [!TIP]
-> 对于那些想要跟踪学生出席情况的教师，你可以建议在会议期间发送一条消息，要求学生回复。这将在几分钟内注册他们的出席情况。
+> For those educators who want to track student attendance, you can recommend sending a message during the meeting asking students to reply. This registers their attendance within a few minutes.
 
 > [!NOTE]
 > 如果问题仍未解决，请 [打开支持票证](https://aka.ms/edusupport)。 包括阐明问题以及问题发生日期的相关屏幕截图。 添加你认为可帮助我们解决该问题的其他数据。

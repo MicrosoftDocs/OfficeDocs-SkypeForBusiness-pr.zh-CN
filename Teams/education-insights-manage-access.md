@@ -16,18 +16,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f97b2aea15fe626c7780f022e2d024729ad02589
-ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
-ms.translationtype: HT
+ms.openlocfilehash: 7203c9bda1a6e5c2bf9d90b490492fe7bbc3f64c
+ms.sourcegitcommit: 78fbfcf4a1aafce5d39eea79c9461a9fc1bb3d38
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "62363178"
+ms.lasthandoff: 01/05/2023
+ms.locfileid: "69707804"
 ---
 # <a name="manage-user-access-to-education-insights"></a>管理用户对 Education Insights 的访问权限
 
 本文档提供了管理用户对 [Microsoft Teams 中 Education Insights](class-insights.md) 的访问权限所需的步骤。
 
-你需要为教育领导、地区领导、校长、教导主任、教师、学习领域负责人、项目主任、社会工作者和心理医生提供权限。教育工作者在拥有一个班级团队时，会 *自动* 获得权限。
+You need to provide permissions for education leaders, district leaders, school principals, head teachers, counselors, heads of learning areas, program directors, social workers, and psychologists. Educators are *automatically* given permission when they own a class team.
 
 若要提供组织级别的见解，你必须[从学生信息系统 (SIS) 导入数据](education-insights-sis-data-sync.md)，以便 Insights 能够正确映射教育系统的层次结构。
 
@@ -37,7 +37,7 @@ ms.locfileid: "62363178"
 > [!TIP]
 > 我们建议为所有教育领导者启用 Insights，以便他们能够获得了解每所学校所需的数据，并能够快速发现问题并为教师提供支持。 即使只是运行试点项目，为所有教育领导者启用 Insights 可能仍然很有帮助，但这只针对试点用户组的通信。
 
-## <a name="manange-permissions"></a>管理权限
+## <a name="manage-permissions"></a>管理权限
 
 * 打开 Insights 应用，单击“**设置**”，然后选择“**用户权限**”
 
@@ -48,15 +48,17 @@ ms.locfileid: "62363178"
 > 
 > 仅向有需要的教育领导者和他们负责的组织单位提供权限。 如果你不确定是否需要特定组织的用户权限，请咨询机构的隐私主题专家，例如法律或人事部门人员。
 
+> [!IMPORTANT]
+> 首次分配权限后，仅当至少有 **两** 个用户访问了应用时，用户才能查看应用中的数据。 此要求有助于确保正确配置数据的时区，并为所有用户准确显示数据。 如果用户在授予权限后访问数据时遇到问题，请检查是否至少有两个用户访问了该应用。
+
 ## <a name="role-based-permissions"></a>基于角色的权限
 
-如果使用 [SDS V2.1 文件格式](/schooldatasync/sds-v2.1-csv-file-format) 或 [SDS V2 文件格式](/schooldatasync/sds-v2-csv-file-format)，则可以在教育系统中导入所有角色和学校的完整层次结构。通过此完整映射，可以向角色分配权限。 
+If you use [SDS V2.1 file format](/schooldatasync/sds-v2.1-csv-file-format) or [SDS V2 file format](/schooldatasync/sds-v2-csv-file-format), you can import all roles and the full hierarchy of schools within the education system. This complete mapping enables you to assign permissions to roles. 
 
 > [!NOTE]
 > 为用户分配角色时，他们将自动获得正确的权限，用以查看与他们相关的数据。
 >
 > 如果用户不再处于某个角色中，则会自动撤销他们该角色享有的权限（尽管他们可能仍然具有单个权限）。
-
 
 * 如果需要，请单击 **基于角色的权限** 选项卡。
 
@@ -92,14 +94,14 @@ ms.locfileid: "62363178"
 * 单击屏幕左上角的 **授予单个权限**。
 * 输入每个用户的用户名或电子邮件地址。
 * 选择权限级别：
-  * **所有** 表示用户看到所有级别的所有组织单位。这很少使用。
+  * **所有** 意味着用户会看到所有级别的所有组织单位。 这很少使用。
   * **特定组织** 意味着用户会看到所选组织单位及其下的所有组织单位。 开始键入并从列表中选择组织单位。
 * 单击 **授予权限** 来保存。
 
 ### <a name="change-the-individual-permission-of-a-user"></a>更改用户的单个权限
 * 对于相关用户，请单击铅笔图标以选择单个权限级别。
 * 选择权限级别：
-  * **所有** 表示用户看到所有级别的所有组织单位。这很少使用。
+  * **所有** 意味着用户会看到所有级别的所有组织单位。 这很少使用。
   * **特定组织** 意味着用户会看到所选组织单位及其下的所有组织单位。 开始键入并从列表中选择组织单位。
   * **无** 表示用户只能看到由其角色自动分配的组织单位（如果有）。
   
