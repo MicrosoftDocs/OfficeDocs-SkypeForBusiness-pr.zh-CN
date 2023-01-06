@@ -25,12 +25,12 @@ ms.collection:
 - m365initiative-meetings
 ms.reviewer: ''
 description: 了解如何在 Teams 中为组织中的用户管理 Bookings 应用。
-ms.openlocfilehash: abcd906f18b10b7d82b67682de439f1eb6592cd6
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: 66e3d0450eaad1843c94833cb7bb6d417959eb8c
+ms.sourcegitcommit: eb0e754d7e2877f686021d3ab75b6d8d44db3a95
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69307517"
+ms.lasthandoff: 01/06/2023
+ms.locfileid: "69727754"
 ---
 # <a name="manage-the-bookings-app-in-microsoft-teams"></a>在 Microsoft Teams 中管理 Bookings 应用
 
@@ -64,13 +64,16 @@ Microsoft Teams 中的 Bookings 应用提供了一种安排亲自和虚拟约会
 
 ## <a name="sms-text-notifications"></a>短信通知
 
-![信息图标](media/info.png) **此功能将移至 [Teams 高级](teams-add-on-licensing/licensing-enhance-teams.md) 版 (预览版) 。用户可以在预览期间继续使用此功能。预览版后，用户需要 Teams Premium 许可证。**
+![信息图标](media/info.png) **此功能将移动到 [Teams 高级版 (](teams-add-on-licensing/licensing-enhance-teams.md)预览版) 。用户可以在预览期间继续使用此功能。预览版后，用户需要Teams 高级版许可证。**
+
+> [!NOTE]
+> 我们将在 2023 年 3 月 1 日之前 (2023 年 1 月 31 日) 为拥有 Bookings 许可证的客户提供无限制的短信通知。 随着促销期的临近，我们将提供有关许可要求的其他详细信息。 请联系你的帐户团队或支持人员，在促销期后接收定价详细信息。
 
 你可以控制是否可以将短信通知发送给外部与会者，以便进行组织中员工安排的虚拟约会。
 
 默认情况下，此设置处于打开状态，并且为组织中的所有 Bookings 日历启用短信通知。 请记住，Bookings 管理员和计划人员稍后可以在 [计划约会类型和计划](/microsoft-365/frontline/bookings-virtual-appointments#scheduled-appointment-type) 的个人约会中根据需要选择关闭或打开短信通知。
 
-若要配置此设置，请转到Microsoft 365 管理中心 \> **“设置”** \> **组织设置**，然后选择“**预订**”。 选中或清除“**允许Microsoft发送短信通知**”复选框。
+若要配置此设置，请转到Microsoft 365 管理中心 \> **“设置”** \> **组织设置**，然后选择“**预订**”。 选中或清除“ **允许 Microsoft 发送短信通知** ”复选框。
 
 详细了解如何 [为组织配置短信通知](/microsoft-365/bookings/turn-bookings-on-or-off)。
 

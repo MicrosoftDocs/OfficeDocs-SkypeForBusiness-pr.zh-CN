@@ -22,16 +22,16 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 7ded369ab991a37e711c416a7448447f148c069c
-ms.sourcegitcommit: 339a35e461c84ee309ade1a53299ba12231df7a3
+ms.openlocfilehash: a41393f763c9d8ebb328d586f6ae12636e87b0b4
+ms.sourcegitcommit: eb0e754d7e2877f686021d3ab75b6d8d44db3a95
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/29/2022
-ms.locfileid: "69677412"
+ms.lasthandoff: 01/06/2023
+ms.locfileid: "69727734"
 ---
-# <a name="understand-microsoft-teams-apps-and-their-capabilities"></a>了解Microsoft Teams 应用及其功能
+# <a name="understand-microsoft-teams-apps-and-their-capabilities"></a>了解 Microsoft Teams 应用及其功能
 
-Teams 中的应用可帮助用户将其工作区工具和服务汇集在一起，并与他人协作。 例如，最终用户在 Teams 中使用固定日历应用快速与他人协作，使用带有机器人功能的应用可以通知用户在 Teams 频道中使用 Web 服务质量的应用，以及用于在频道中共享任务，并向各种最终用户分配任务的应用。 Microsoft Teams 应用是基于 Web 的 SaaS 应用，无需在本地部署。
+Teams 中的应用可帮助用户将其工作区工具和服务汇集在一起，并与他人协作。 例如，最终用户在 Teams 中使用固定日历应用快速与他人协作，使用带有机器人功能的应用可以通知用户在 Teams 频道中使用 Web 服务质量的应用，以及用于在频道中共享任务，并向各种最终用户分配任务的应用。 Microsoft Teams 应用类似于无需在本地部署的基于 Web 的 SaaS 应用。 最终用户将应用添加到 Teams 客户端不需要安装，例如二进制文件。
 
 作为管理员，你将设置一个应用治理流程，以平衡最终用户的广泛需求以及组织的 IT 策略、标准和风险配置文件。
 
@@ -52,17 +52,17 @@ Teams 中的应用可帮助用户将其工作区工具和服务汇集在一起�
 
 :::image type="content" source="media/core-apps-pinned1.png" alt-text="核心应用是默认情况下固定在 Teams 中的应用。" lightbox="media/core-apps-pinned2.png":::
 
-## <a name="apps-created-by-microsoft"></a>由 Microsoft 创建的应用
+## <a name="apps-created-by-microsoft"></a>Microsoft 创建的应用
 
 Microsoft 提供了许多应用来提高工作效率和协作。 若要找到这些应用，你和最终用户可以在 Teams 管理中心中查找发布者为 Microsoft 的应用，或在 Team 应用商店中查找提供者为 Microsoft 的应用。
 
 Teams自带一组内置应用，包括列表、任务、表扬、审批等。 建议在初始 Teams 推出中包括 Planner 等特色应用。
 
-:::image type="content" source="media/microsoft-apps-in-tac1.png" alt-text="显示 Teams 管理中心中Microsoft应用列表的屏幕截图。" lightbox="media/microsoft-apps-in-tac2.png":::
+:::image type="content" source="media/microsoft-apps-in-tac1.png" alt-text="显示 Teams 管理中心中的 Microsoft 应用列表的屏幕截图。" lightbox="media/microsoft-apps-in-tac2.png":::
 
 ## <a name="third-party-apps-created-by-independent-app-developers"></a>由独立应用开发人员创建的第三方应用
 
-除了Microsoft提供的应用外，还可以使用第三方应用。 Microsoft严格验证所有这些应用的功能和安全性。 在使这些应用在 Teams 应用商店中可用之前，会执行精心的手动和自动测试，即使在应用实时发布后，许多测试也会继续以常规节奏进行。 若要了解应用验证的优势，请参阅 [第三方应用的验证](overview-of-app-validation.md)。 某些应用订阅[Microsoft合规性计划](overview-of-app-certification.md)，以在验证之外进行多层进一步检查。
+除了 Microsoft 提供的应用之外，还可以使用第三方应用。 Microsoft 会严格验证所有这些应用的功能和安全性。 在使这些应用在 Teams 应用商店中可用之前，会执行精心的手动和自动测试，即使在应用实时发布后，许多测试也会继续以常规节奏进行。 若要了解应用验证的优势，请参阅 [第三方应用的验证](overview-of-app-validation.md)。 某些应用订阅 [Microsoft 合规性计划](overview-of-app-certification.md) ，以在验证之外进行多层进一步检查。
 
 :::image type="content" source="media/3p-apps-in-teams.png" alt-text="Teams 应用商店中第三方应用示例的屏幕截图。":::
 
@@ -78,7 +78,7 @@ Teams自带一组内置应用，包括列表、任务、表扬、审批等。 �
 
 ## <a name="about-app-templates"></a>关于应用模板
 
-使用应用开发方法，Microsoft创建并提供功能和生产就绪的示例应用。 这些应用统称为 Teams 应用模板，提供给：
+Microsoft 使用应用开发方法创建并提供功能和生产就绪示例应用。 这些应用统称为 Teams 应用模板，提供给：
 
 * 说明 Teams 中的一些协作用例。
 * 展示应用开发最佳做法和方法。
@@ -94,9 +94,9 @@ Teams自带一组内置应用，包括列表、任务、表扬、审批等。 �
 
 可将应用固定到 Teams，以便于访问。 如果用户的设置策略允许并且 Teams 管理员允许应用，则用户可以 [自行固定](https://support.microsoft.com/office/pin-an-app-for-easy-access-3045fd44-6604-4ba7-8ecc-1c0d525e89ec) 应用。管理员可以固定应用和控制固定应用的行为，有关详细信息，请参阅 [应用设置策略](/microsoftteams/teams-app-setup-policies)。
 
-:::image type="content" source="media/user-app-experience-find-apps.png" alt-text="屏幕截图显示用户可以在 Microsoft Teams 中浏览应用的所有位置。" lightbox="media/user-app-experience-find-apps-full.png":::
+:::image type="content" source="media/user-app-experience-find-apps.png" alt-text="显示用户可以在 Microsoft Teams 中浏览应用的所有位置的屏幕截图。" lightbox="media/user-app-experience-find-apps-full.png":::
 
-用户可以从 Teams 应用商店查找应用并将其添加到 Teams。 他们还可以直接从其正在使用的上下文添加应用，例如聊天或频道选项卡、Teams 会议或消息区域。 有关详细信息，请参阅[将应用添加到 Microsoft Teams](https://support.microsoft.com/office/add-an-app-to-microsoft-teams-b2217706-f7ed-4e64-8e96-c413afd02f77)。
+用户可以从 Teams 应用商店查找应用并将其添加到 Teams。 他们还可以直接从其正在使用的上下文添加应用，例如聊天或频道选项卡、Teams 会议或消息区域。 有关详细信息，请参阅 [将应用添加到 Microsoft Teams](https://support.microsoft.com/office/add-an-app-to-microsoft-teams-b2217706-f7ed-4e64-8e96-c413afd02f77)。
 
 仅当管理员允许应用并且应用通过 [权限策略](teams-app-permission-policies.md)提供给用户时，用户才能添加和使用应用。 组织的 IT 管理员完全控制谁可以在哪个上下文中安装哪些应用。 用户无法添加被阻止的应用，Teams 应用商店中具有锁图标的任何应用都将被阻止。 但是， [用户可以请求其组织的 IT 管理员进行审批](https://support.microsoft.com/office/request-apps-that-require-approval-by-your-org-924e3a9e-33f0-44c2-9e81-e875214c05ae)。 应用获得批准后，用户可以从 Teams 应用商店添加应用。
 
@@ -113,7 +113,7 @@ Teams 应用功能是开发人员在应用中构建的核心功能，用于满�
 
 * **机器人**：机器人也称为聊天机器人或对话机器人。 它是执行简单重复任务的应用。 机器人交互可以是快速问答，也可以是提供服务或协助访问的复杂对话。 用户可以在个人聊天、频道或群组聊天中与机器人进行对话。 有关详细信息，请参阅 [Microsoft Teams 中的机器人](/microsoftteams/platform/bots/what-are-bots)。
 
-* **选项卡**：选项卡是固定在频道或聊天顶部的 Teams 感知网页。 选项卡允许你使用类似 Web 的体验与内容和服务交互。 它们是简单的 HTML `iframe` 标记，可作为团队、群组聊天或个人用户个人应用中的频道一部分进行添加。 有关详细信息，请参阅[Microsoft Teams 选项卡](/microsoftteams/platform/tabs/what-are-tabs)。
+* **选项卡**：选项卡是固定在频道或聊天顶部的 Teams 感知网页。 选项卡允许你使用类似 Web 的体验与内容和服务交互。 它们是简单的 HTML `iframe` 标记，可作为团队、群组聊天或个人用户个人应用中的频道一部分进行添加。 有关详细信息，请参阅 [Microsoft Teams 选项卡](/microsoftteams/platform/tabs/what-are-tabs)。
 
 * **Webhook 和连接器**：Webhook 和连接器有助于将各种 Web 服务连接到 Microsoft Teams 中的频道和团队。 Webhook 是用户定义的 HTTP 回调，可通知用户 Teams 通道中发生的任何操作。 这是应用获取实时数据的一种方式。 连接器允许用户订阅以接收来自 Web 服务的通知和消息。 有关详细信息，请参阅 [Webhook 和连接器](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors)。
 
