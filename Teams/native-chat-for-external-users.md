@@ -15,21 +15,24 @@ ms.reviewer: vinbel
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 了解两个用户都 (处于 TeamsOnly 升级模式的 Microsoft Teams 中联合) 用户进行外部访问的本机 Teams 聊天体验。
-ms.openlocfilehash: 134216364fdd7397d8a7d72a2ae6684cfa9f90b4
-ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
+description: 了解 Microsoft Teams 中联合 () 用户（其中两个用户都处于 Teams 仅升级模式）中外部访问的本机 Teams 聊天体验。
+ms.openlocfilehash: 759ad4f03de099637df0e92a7a8925a7c18ae3fd
+ms.sourcegitcommit: 8f26bf0ff88f1f6881de32914be00d5f0cc7396a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2022
-ms.locfileid: "69198874"
+ms.lasthandoff: 01/09/2023
+ms.locfileid: "69740797"
 ---
 # <a name="native-chat-experience-for-external-federated-users-in-microsoft-teams"></a>Microsoft Teams 中外部 (联合) 用户的本机聊天体验
 
-当Microsoft Teams 用户与外部 (联合) 用户聊天时，聊天体验仅限于文本。 但是，如果你的 Teams 用户和其他组织中的人员都处于 TeamsOnly 升级模式，则可以获得“本机 Teams 聊天体验”，其中包括丰富的格式设置、@mentions和其他聊天功能。
+当 Microsoft Teams 用户与外部 (联合) 用户聊天时，聊天体验仅限于文本。 但是，如果你的 Teams 用户和其他组织中的人员都处于 TeamsOnly 升级模式，则可以获得“本机 Teams 聊天体验”，其中包括丰富的格式设置、@mentions和其他聊天功能。
 
 其他组织中的人员的本机聊天体验已为所有 Teams 租户启用，但并非所有人员都符合条件。 若要提供本机聊天体验，需要为 TeamsOnly 升级模式配置发送方和接收方。 若要详细了解升级策略，请阅读 [设置共存和升级设置](setting-your-coexistence-and-upgrade-settings.md)。
 
 若要查看 Teams 中外部访问用户的功能列表，请参阅 [比较外部访问和来宾访问](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access)。
+
+> [!NOTE]
+> 本机聊天体验不适用于跨 Microsoft 365 云环境：Microsoft 365 WorldWide (包括 GCC) 从/到 GCC High、GCC High from/to DoD 或 WW from/to DoD。
 
 ## <a name="how-do-i-know-if-im-in-a-native-chat"></a>如何实现知道我是否在本机聊天中？
 
