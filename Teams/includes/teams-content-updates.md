@@ -3,6 +3,18 @@
 
 
 
+## <a name="week-of-january-02-2023"></a>2023 年 1 月 2 日当周
+
+
+| 发布日期 |主题标题 | 更改 |
+|------|------------|--------|
+| 1/3/2023 | [管理大会策略](/MicrosoftTeams/meeting-policies-in-teams-general) | 修改内容 |
+| 1/3/2023 | [管理参与者和来宾的会议策略](/MicrosoftTeams/meeting-policies-participants-and-guests) | 修改内容 |
+| 1/3/2023 | [音频会议拨出/以分钟呼叫我](/MicrosoftTeams/audio-conferencing-subscription-dial-out) | 修改内容 |
+| 1/4/2023 | [Microsoft Teams 教育版见解 IT 管理员指南](/MicrosoftTeams/class-insights) | 修改内容 |
+| 1/5/2023 | 增强现有 Microsoft 365 组 | 删除内容 |
+
+
 ## <a name="week-of-december-26-2022"></a>2022 年 12 月 26 日当周
 
 
