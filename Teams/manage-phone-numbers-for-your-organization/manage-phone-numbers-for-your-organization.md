@@ -26,22 +26,22 @@ ms.custom:
 - ms.lync.lac.VASAMissingGeoCodes
 - Calling Plans
 - seo-marvel-apr2020
-description: 了解如何为组织获取和管理用户 (订阅者) 和服务 (Microsoft Teams 的收费和免费) 电话号码。
-ms.openlocfilehash: 5356fc0f3cdfd42d6ef3f06eea58f6ef77d59b83
-ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
+description: 了解如何为组织获取和管理用户 (订阅者) 和服务 (收费和免费) 电话号码。
+ms.openlocfilehash: b4fb8f3544a824bba8217f387be132bc5ae4b20e
+ms.sourcegitcommit: 1398c778e46b0d81c9710cd70d3818a2b7af995a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/02/2022
-ms.locfileid: "69242436"
+ms.lasthandoff: 01/09/2023
+ms.locfileid: "69749018"
 ---
 # <a name="manage-phone-numbers-for-calling-plan"></a>管理通话套餐的电话号码
 
 可通过四种方法获取用户 (订户) 和服务 (通话套餐的收费和免费) 电话号码：
 
 - [在 Microsoft Teams 管理中心中获取新用户电话号码](../getting-phone-numbers-for-your-users.md#get-new-phone-numbers-for-your-users)。
-- [在 Microsoft Teams 管理员 中心获取新的服务电话号码](../getting-service-phone-numbers.md#get-new-service-numbers)。
+- [在 Microsoft Teams 管理中心中获取新的服务电话号码](../getting-service-phone-numbers.md#get-new-service-numbers)。
 - [向我们转移或 _转网_ 现有电话号码](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md#create-a-port-order-and-transfer-your-phone-numbers-to-teams)。
-- 对于未在 Microsoft Teams 管理中心中列出的新电话号码，请使用请求表单。
+- 对于 Teams 管理中心中未列出的新电话号码，请使用请求表单。
 
 > [!IMPORTANT]
 > 在澳大利亚的新电话号码，请参阅[Telstra 语音服务](https://aka.ms/TelstraVoicePlan)。 有关日本的新电话号码，请参阅 [SoftBank 语音服务](https://aka.ms/SoftBankVoicePlan)。
@@ -97,22 +97,15 @@ ms.locfileid: "69242436"
 
 每个国家/地区有不同的说明、不同类型的电话号码 (地理/非地理和服务 (收费/免费) ) ，以及获取电话号码的规则/法规，以便可以在 Microsoft Teams 中使用。
 
-有时 (取决于你的国家或地区) 你将无法使用 Microsoft Teams 管理中心获取新用户 (订户) 或服务 (收费或免费) 电话号码，或者你可能需要 _特定_ 电话号码 (虚名请求) 或 _特定_ 区号。
+有时 (取决于你的国家或地区) 你无法使用 Microsoft Teams 管理中心获取新用户 (订阅者) 或服务 (收费或免费) 电话号码，或者你可能需要 _特定_ 电话号码 (虚名请求) 或 _特定_ 区号。
 
-如果是这样，你需要下载正确的 PDF LOA 表单， (每个国家/地区和电话号码类型) ，并将其寄回给我们。 我们的服务台将从那里获取它，并开始处理你的请求。
+如果是这样，你需要下载正确的 PDF LOA 表单， (每个国家/地区和电话号码类型) 并将其寄回给我们。 我们的服务台将从那里获取它，并开始处理你的请求。
 
 ### <a name="letters-of-authorization-loas-to-transferport-existing-phone-numbers"></a>) 转移/转网现有电话号码的授权书 (LOA 
 
-如果需要将现有电话号码从其他服务提供商转移到 Teams，则需要下载、填写授权书并发送给我们， (LOA) 。 LOA 授予Microsoft代表你请求这些现有号码并将其从其他服务提供商转移到 Teams 的权限。
+如果需要将现有电话号码从其他服务提供商转移到 Teams，则需要下载、填写、签名并向我们发送授权书， (LOA) 。 LOA 授予 Microsoft 代表你请求这些现有号码并将其从其他服务提供商转移到 Teams 的权限。
 
-如果您当前向其他运营商提供以下服务，请向我们发送 **LOA** ：
-
-- 用户 (订阅者) 号。
-- 服务 (音频会议网桥、自动助理或呼叫队列的收费) 号码。
-- Toll-Free电话号码。
-- 需要转移/转网的用户电话号码超过 999 个，但无法使用本地号码移植向导进入 Microsoft Teams 管理中心。
-
-获得 **已填写并签名** 的 LOA 后， [请与我们的 TNS 服务台联系](./contact-tns-service-desk.md) ，以便我们为你提供帮助。
+完成 **已填写并签名** 的 LOA 后，请在 Microsoft Teams 管理中心上传文档。 对于特殊情况，例如大量端口 (1000 多个) 、复杂端口，或者如果需要帮助， [请联系我们的 TNS 服务台](./contact-tns-service-desk.md)。
 
 ## <a name="still-need-assistance"></a>还需要帮助？
 

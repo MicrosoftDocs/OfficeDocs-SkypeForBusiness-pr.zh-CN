@@ -1,5 +1,5 @@
 ---
-title: 适用于 Microsoft Teams 的电话和设备
+title: Microsoft Teams 的电话和设备
 ms.author: dstrome
 author: dstrome
 manager: serdars
@@ -15,19 +15,19 @@ appliesto:
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
-description: 了解哪些 USB 外设和设备 (，例如头戴显示设备、免提电话、网络摄像头和监视器，) 已通过 Microsoft Teams 认证。
-ms.openlocfilehash: 8a767eb2572012496dc5dba94e989f969f12df27
-ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
+description: 了解哪些 USB 外设和设备 (，例如头戴显示设备、免提电话、摄像头和监视器，) 通过了 Microsoft Teams 认证。
+ms.openlocfilehash: 88ea7be3fc27fadccb25cd173b0df5f7f618004f
+ms.sourcegitcommit: 1398c778e46b0d81c9710cd70d3818a2b7af995a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/02/2022
-ms.locfileid: "69242306"
+ms.lasthandoff: 01/09/2023
+ms.locfileid: "69749068"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>经 Microsoft Teams 认证的 USB 音频和视频设备
 
 外围设备认证计划可确保 USB 外围设备 (，例如头戴显示设备、免提电话、摄像头和监视器，) 提供丰富的音频或视频质量。 认证设备 (即插即用&播放) ，无需额外配置，并通过 Microsoft Teams 和Skype for Business提供呼叫控制。 这些产品为最终用户和管理员提供了出色的体验。
 
-若要了解经过Microsoft Teams 测试和认证的设备，请转到 [Teams 应用商店](https://products.office.com/microsoft-teams/across-devices/devices)。
+若要了解经过 Microsoft Teams 测试和认证的设备，请转到 [Teams 应用商店](https://products.office.com/microsoft-teams/across-devices/devices)。
 
 有关 Teams 的呼叫控制支持的详细信息，请参阅 [在 Teams 中使用头戴显示设备控制呼叫](https://support.office.com/article/Control-calls-using-a-headset-in-Teams-65d6e104-444d-4013-b8c2-f11317dd69a8)。
 
@@ -36,14 +36,14 @@ ms.locfileid: "69242306"
 
 ## <a name="understanding-certification-categories"></a>了解认证类别
 
-从 Skype for Business 升级到 Teams 时，用户无需更换以前认证的设备。  Microsoft Teams 和Skype for Business用户支持所有经过认证的设备，但仅存在一些差异。  认证还为某些设备类别提供了进一步的指定。
+从 Skype for Business 升级到 Teams 时，用户无需更换以前认证的设备。  Microsoft Teams 和Skype for Business用户支持所有经过认证的设备，仅存在一些差异。  认证还为某些设备类别提供了进一步的指定。
 
-- **Skype for Business通过 Teams 升级认证**，此级别认证的设备最初已获得Skype for Business认证。 Microsoft与设备制造商合作，在不对原始硬件进行任何更改的情况下，尽可能提供最佳的 Teams 集成体验。 当不在通话中时， *挂钩开关* 按钮充当 Teams 按钮，并且可能会随着时间的推移包含更多函数。  此类别的设备可能会在营销材料上带有 Teams 认证徽章。
-- 此级别认证的 **Microsoft Teams** 设备表示经过认证的最新设备，以便获得无泄露的 Teams 体验。 这些设备提供先前认证的所有优势，还包括带 LED 指示器的专用 Teams 按钮。 对于大多数外形规格，Teams 按钮将是一个易于查找的具有 Teams 徽标的触觉按钮。 Microsoft继续与设备制造商合作，通过固件更新提供新的价值。
+- **Skype for Business通过 Teams 升级认证**，此级别认证的设备最初已获得Skype for Business认证。 Microsoft 与设备制造商合作，在不对原始硬件进行任何更改的情况下，尽可能提供最佳的 Teams 集成体验。 当不在通话中时， *挂钩开关* 按钮充当 Teams 按钮，并且可能会随着时间的推移包含更多函数。  此类别的设备可能会在营销材料上带有 Teams 认证徽章。
+- **Microsoft Teams 认证** 此级别认证的设备指示经过认证的最新设备，以便获得不泄露的 Teams 体验。 这些设备提供先前认证的所有优势，还包括带 LED 指示器的专用 Teams 按钮。 对于大多数外形规格，Teams 按钮将是一个易于查找的具有 Teams 徽标的触觉按钮。 Microsoft 将继续与设备制造商合作，通过固件更新不断提供新的价值。
 
 ### <a name="special-usage-designations"></a>特殊用途指定
 
-- **本机蓝牙认证的音频外围设备** 大多数经过 Microsoft Teams 认证的蓝牙头戴显示设备和免提电话设计为与 USB 硬件保护装置一起使用，用于连接到电脑和 Mac 主机。 许多用户一直要求选择直接将设备与主机配对，因为他们没有足够的 USB 端口，或者他们不想记住在不同位置工作时必须携带 USB 硬件保护装置。
+- **本机蓝牙认证的音频外围设备**  大多数经 Microsoft Teams 认证的蓝牙头戴显示设备和免提电话都设计为与 USB 硬件保护装置一起使用，以便连接到电脑和 Mac 主机。 许多用户一直要求选择直接将设备与主机配对，因为他们没有足够的 USB 端口，或者他们不想记住在不同位置工作时必须携带 USB 硬件保护装置。
 
     Windows 电脑上支持本机蓝牙认证的设备（包括耳机和免提电话）， (macOS 在未来) 可能受支持。 设备经过音频性能、通话控制和 Teams 按钮集成测试，无论使用还是不使用 USB 硬件保护装置。
 
@@ -52,7 +52,7 @@ ms.locfileid: "69242306"
 - **适用于 Open Office 的高级麦克风** 所有头戴显示设备都经过测试，以提供清晰的音频，但开放式办公室和其他嘈杂环境提出了更大的挑战。 具有此指定的头戴显示设备拾取头戴显示设备用户的声音，但不传输其邻居的声音。
 - **会议室大小** 共享设备（如免提电话和相机）具有受支持的使用距离。 建议的距离可能因制造商而异。 为了为客户提供明确的指导，所有共享设备都会在认证时针对明确定义的会议室大小和噪音环境进行测试。
 
-浏览[经过 Microsoft Teams 认证的设备](https://products.office.com/microsoft-teams/across-devices/devices)。
+浏览 [经过 Microsoft Teams 认证的设备](https://products.office.com/microsoft-teams/across-devices/devices)。
 
 ## <a name="end-user-experience"></a>最终用户体验
 
@@ -81,13 +81,16 @@ ms.locfileid: "69242306"
 
 ## <a name="certified-devices"></a>认证设备
 
-*表已于 2022 年 11 月更新*
+*表已于 2022 年 12 月更新*
 
 > [!NOTE]
 > 日期格式为 MM/DD/YYYY。
 
 | 制造商        | 模型                                                     | 合格      | 认证计划                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|联想               |T24mv-30 监视器                                           |12/19/2022      |Microsoft Teams 认证                           |
+|联想               |T27hv-30 监视器                                           |12/19/2022      |Microsoft Teams 认证                           |
+|联想               |电话会议基础免提电话                          |12/19/2022      |Microsoft Teams 认证                           |
 |EPOS                 |ADAPT 561 II 头戴显示设备                                       |10/20/2022      |Microsoft Teams 认证                           |
 |Jabra                |Evolve2 Buds                                               |10/17/2022      |Microsoft Teams 认证                           |
 |Cisco                |桌面相机 4K                                             |10/15/2022      |Microsoft Teams 认证                           |

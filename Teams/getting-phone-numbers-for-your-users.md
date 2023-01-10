@@ -21,28 +21,28 @@ f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
-description: 了解如何获取 Teams 的新号码、端口号码或传输现有号码，以及如何向用户显示更改。
-ms.openlocfilehash: 0e9b3c13c62c2adb5a3fa6a7dbe7665e9346a08d
-ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
+description: 了解如何获取 Teams 的新号码、移植或转移现有号码，以及如何向用户显示更改。
+ms.openlocfilehash: b4bdbc686a26bf179fbe85d2a19ca5b82c19b324
+ms.sourcegitcommit: 1398c778e46b0d81c9710cd70d3818a2b7af995a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2022
-ms.locfileid: "68583863"
+ms.lasthandoff: 01/09/2023
+ms.locfileid: "69749058"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>为用户获取电话号码
 
-在组织中设置用户以拨打和接听电话之前，必须为他们获取电话号码。
+必须先获取用户的电话号码，然后才能将组织中的用户设置为拨打和接听电话。
   
-可通过三种方式获取用户编号：
+有三种方法可以获取用户号码：
 
 - **使用 Microsoft Teams 管理中心。** 对于某些国家和地区，可以使用 Microsoft Teams 管理中心为用户获取号码。 请参阅 [获取用户的新电话号码](#get-new-phone-numbers-for-your-users)。
 
-- **转网现有的号码。** 可以从当前服务提供商或电话运营商移植或传输现有号码。 如需获取有助于执行此操作的详细信息，请参阅[将电话号码转接到 Teams](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md) 或[管理你的组织的电话号码](/microsoftteams/manage-phone-numbers-for-your-organization)。  
+- **转网现有的号码。** 可以从当前服务提供商或电话运营商转网或转移现有号码。 有关详细信息，请参阅 [将电话号码转移到 Teams](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md) 或 [管理组织的电话号码](/microsoftteams/manage-phone-numbers-for-your-organization)。  
   
-- **使用新号码的请求表单。** 有时 (取决于你的国家或地区) 你将无法使用 Microsoft Teams 管理员中心获取新电话号码，或者需要特定的电话号码或区号。 有关详细信息，请参阅[管理你的组织的电话号码](/microsoftteams/manage-phone-numbers-for-your-organization)。
+- **使用新号码的请求表单。** 有时 (取决于你的国家或地区) 你无法使用 Microsoft Teams 管理中心获取新的电话号码，或者需要特定的电话号码或区号。 有关详细信息，请参阅[为你的组织管理电话号码](/microsoftteams/manage-phone-numbers-for-your-organization)。
   
 > [!NOTE]
-> 如果需要帮助为组织设置电话号码，请[联系企业产品支持联系人 - 管理员帮助](/microsoft-365/admin/contact-support-for-business-products)。
+> 如果需要有关为组织设置电话号码的帮助，[请联系商业产品支持联系人 - 管理员帮助](/microsoft-365/admin/contact-support-for-business-products)。
 
 ## <a name="get-new-phone-numbers-for-your-users"></a>为用户获取新电话号码
 
@@ -50,48 +50,48 @@ ms.locfileid: "68583863"
 
 必须是 Teams 服务管理员才能管理这些策略。 请参阅 [Teams 管理员角色管理 Teams](./using-admin-roles.md) ，了解管理员角色和权限。
 
-1. 转到 Microsoft Teams 管理员中心。
+1. 登录到 [Microsoft Teams 管理中心](https://go.microsoft.com/fwlink/p/?linkid=2066851)。
 
-2. 在左侧导航栏中，转到 **语音** > **电话号码**，然后选择 **“添加**”。
+2. 在左侧导航中，转到 **“语音** > **电话号码**”，然后选择“ **添加**”。
 
 3. 输入订单的名称并添加说明。
 
 4. 在“位置和数量”页上，执行以下操作：
-    1. 在 **“国家或地区**”下，选择一个国家或地区。
-    2. 在 **“数字”类型** 下，选择 **“用户 (订阅服务器)**”。
-    3. 在 **“位置”** 下，选择一个位置。 如果需要创建新位置，请选择 **“添加位置**”。
-    4. 在 **“区域代码**”下，选择一个区域代码。
-    5. 在 **“数量**”下，输入组织所需的数字数，然后选择 **“下一步** ”以选择数字。
+    1. 在“ **国家或地区**”下，选择国家或地区。
+    2. 在 **“编号类型**”下，选择“ **用户 (订阅者)**”。
+    3. 在“ **位置**”下，选择一个位置。 如果需要创建新位置，请选择“ **添加位置**”。
+    4. 在“ **区号**”下，选择一个区号。
+    5. 在 **“数量**”下，输入组织所需的号码数，然后选择“ **下一步** ”以选择号码。
 
-5. 选择所需的数字。 有 10 分钟的时间选择电话号码并下订单。 如果花费超过 10 分钟，电话号码将返回到号码池。
+5. 选择所需的数字。 你有 10 分钟的时间选择电话号码并下订单。 如果花费的时间超过 10 分钟，电话号码将返回到号码池。
 
-6. 准备好下订单后，选择 **“放置”订单**。
+6. 准备好下订单后，选择“ **下订单**”。
 
     > [!IMPORTANT]
-    > 用户 (订户) 的电话号码数等于你分配的 **国内通话套餐****和国际通话套餐** 许可证总数乘以 1.1，外加 10 个额外的电话号码。 例如，如果你有 50 个用户与国内通话计划和/或国际通话计划，你可以获取 **65** 个电话号码 **(50 x 1.1 + 10)**。 请注意，如果有即用即付呼叫计划，则每个分配的许可证只能获取 1 个电话号码。
+    > ) 用户 (订阅者的电话号码数等于你分配的 **国内通话套餐****和国际通话套餐** 许可证总数乘以 1.1，加上 10 个附加电话号码。 例如，如果总共有 50 个用户使用国内通话套餐和/或国际通话套餐，则可以 **(50 x 1.1 + 10)** 获取 **65** 个电话号码。 请注意，如果你有即用即付通话套餐，则每个分配的许可证只能获取 1 个电话号码。
     >
-    > 有关详细信息，请参阅[可以获取多少电话号码？](./how-many-phone-numbers-can-you-get.md) 如果需要获得比这更多的电话号码，请[联系企业产品支持联系人 - 管理员帮助](/microsoft-365/admin/contact-support-for-business-products)。
+    > 有关详细信息，请参阅 [可以获取多少个电话号码？](./how-many-phone-numbers-can-you-get.md)。 如果需要获取超过此号码的电话号码，[请联系商业产品支持联系人 - 管理员帮助](/microsoft-365/admin/contact-support-for-business-products)。
   
 ## <a name="port-or-transfer-phone-numbers-from-your-service-provider-or-phone-carrier"></a>将你的服务提供商或电话运营商提供的电话号码转网或转移
   
-- 如果用户需要 999 个或更少的电话号码，请在 Microsoft Teams 管理员中心使用移植向导。 按照将 [电话号码传输到 Teams](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md) 中的步骤进行操作。 如果你的国家或地区未在移植向导中列出，则可以 [手动提交端口订单](phone-number-calling-plans/manually-submit-port-order.md) 或查看 [组织管理电话号码](/microsoftteams/manage-phone-numbers-for-your-organization) ，以便下载正确的授权书 (LOA) 。
+- 如果需要为用户提供 999 或更少的电话号码，请使用 Microsoft Teams 管理中心中的移植向导。 按照将 [电话号码转移到 Teams](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md) 中的步骤操作。 如果需要此过程的帮助，可以 [手动提交转网订单](phone-number-calling-plans/manually-submit-port-order.md) 或参阅 [管理组织的电话号码](/microsoftteams/manage-phone-numbers-for-your-organization) ，以下载正确的授权书 (LOA) 。
 
-- 如果需要移植超过 999 个电话号码，可以 [手动提交端口订单](phone-number-calling-plans/manually-submit-port-order.md) 或查看 [组织管理电话号码](/microsoftteams/manage-phone-numbers-for-your-organization) ，以便下载正确的授权书 (LOA) ，然后将其发送到 [TNS 服务台](manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) 以传输所有号码。
+- 如果需要移植超过 999 个电话号码，可以 [手动提交转网订单](phone-number-calling-plans/manually-submit-port-order.md) 或参阅 [管理组织的电话号码](/microsoftteams/manage-phone-numbers-for-your-organization) ，以下载正确的授权书 (LOA) 。 填写并签署 LOA 文档，然后联系你区域的 [TNS 服务台](manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) 。
 
 ## <a name="view-the-phone-numbers-for-your-organization"></a>查看组织的电话号码
 
 **使用 Microsoft Teams 管理中心**
 
-在管理中心的左侧导航中，转到 **语音** > **电话号码** 以查看组织的号码，包括位置、号码类型和状态信息。
+在管理中心的左侧导航中，转到 **“语音** > **电话号码** ”以查看组织的号码，包括位置、号码类型和状态信息。
   
 ## <a name="assign-phone-numbers-to-users"></a>向用户分配电话号码
 
-获取电话号码后，需要为每个用户分配一个号码。 有关详细信息，请参阅 [分配、更改或删除用户的电话号码](./assign-change-or-remove-a-phone-number-for-a-user.md) 。
+获取电话号码后，需要为每个用户分配一个号码。 有关详细信息，请参阅 [为用户分配、更改或删除电话号码](./assign-change-or-remove-a-phone-number-for-a-user.md)。
 
 > [!NOTE]
-> 如果需要获得比这更多的电话号码，请[联系企业产品支持联系人 - 管理员帮助](/microsoft-365/admin/contact-support-for-business-products)。
+> 如果需要获取超过此号码的电话号码，[请联系商业产品支持联系人 - 管理员帮助](/microsoft-365/admin/contact-support-for-business-products)。
 
-此视频演示向用户分配电话号码的步骤。
+此视频演示了向用户分配电话号码的步骤。
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE54mbS?autoplay=false]
 
