@@ -21,18 +21,18 @@ description: 在本文中，你将了解在 Microsoft Teams 中设置实时事�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f458aded53926fed8772de70af2a105cdf9e5fda
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: cde485a3cf290c105ae475e6f7733787ba6971a2
+ms.sourcegitcommit: 0d25efb3dae31d5199807a14baaf30e944f561ce
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69307647"
+ms.lasthandoff: 01/11/2023
+ms.locfileid: "69767603"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中规划实时事件
 
 计划 Teams 实时事件时，若要在组织中召开大型会议，则在开始设置之前，需要考虑几个因素。
 
-> [!Note]
+> [!NOTE]
 > For details about Teams live events on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3). See [prepare your organization](../prepare-network.md) to learn about bandwidth requirements for Teams live events.
 
 ## <a name="who-can-attend-create-and-schedule-live-events"></a>谁可以参加、创建和计划实时事件
@@ -43,15 +43,9 @@ Anyone can attend a live event without a license. Read [Admin quick start - Meet
 
 以下是组织、制作或呈现 Teams 现场活动所必须分配的许可证：  
 
-- **组织：** Microsoft 或 Office 365 企业版 E1、E3 或 E5 许可证，**[或]** Microsoft 或 Office 365 教育版 A3 或 A5 许可证。 
+- **组织：** Microsoft 或 Office 365 企业版 E1、E3 或 E5 许可证，**[或]** Microsoft 或 Office 365 教育版 A3 或 A5 许可证。
 - **To produce or present:** A Microsoft or Office 365 Enterprise E1, E3 or E5 license, **[or]** a Microsoft or Office 365 Education A1, A3 or A5 license. The exception to this requirement is guest users can present without a license if the other criteria for [guest users](plan-for-teams-live-events.md#guest-to-present) is met.
 - Microsoft Teams 许可证 - 此许可证包含在第一个和第二个项目符合所列的许可证中。
-- 如果你计划将内容共享到外部应用或设备，则需要 Microsoft Stream 许可证；请参阅 [Microsoft Stream 许可证](/stream/license-overview)。 如果使用较新的 Teams 编码器服务来生成事件，则不需要流许可证。 
-
-  Users won't need a Microsoft Stream license assigned if you want users to only record and download the recordings. This will mean that the recordings aren't stored in Microsoft Stream but are instead stored in Azure Media Services (AMS) with a 180-day limit before it's deleted. It's not something at this point that an admin can control or manage to include the ability to delete it.
-
->[!Note]
-> The change from using Microsoft Stream to [OneDrive for Business and SharePoint for meeting recordings](../tmr-meeting-recording-change.md) will be a phased approach. At launch you'll be able to opt-in to this experience, in November you'll have to opt-out if you want to continue using Stream, and some time in early 2021 we'll require all customers to OneDrive for Business and SharePoint for meeting recordings.
 
 > [!NOTE]
 > 目前，没有任何 Microsoft 365 小型企业版计划可用于创建和保留 Teams 实时事件。
@@ -59,7 +53,6 @@ Anyone can attend a live event without a license. Read [Admin quick start - Meet
 注意，Microsoft 365 或 Office 365 许可证是经过身份验证的用户参见实时事件的必要条件，但是此要求取决于所使用的制作方式：
 
 - **对于在 Teams 中或使用 Teams Powered Encoder 生成的事件**  必须为用户分配 Teams 许可证。
-- **使用外部应用程序或设备制作的事件** 必须向该用户分配 Stream 许可证。
 
 > [!NOTE]
 > “Teams 实时活动”现在可为美国政府云社区（GCC）组织提供。
@@ -72,7 +65,6 @@ Anyone can attend a live event without a license. Read [Admin quick start - Meet
 - Teams 会议中已启用视频共享（*TeamsMeetingPolicy -AllowIPVideo 参数 = True*）。
 - Teams 会议中启用屏幕共享（*TeamsMeetingPolicy -ScreenSharingMode parameter = EntireScreen*）。
 - Teams 中启用实时会议安排（*TeamsMeetingBroadcastPolicy -AllowBroadcastScheduling 参数 = True*）。
-- 使用 Stream 创建实时事件的权限（适用于外部应用或设备制作）。
 - 配置了共存模式，以能够安排 Teams 会议（*并行、会议优先或仅 Teams*）。
 
 > [!IMPORTANT]
@@ -93,7 +85,7 @@ As a best practice, we recommend that you create a channel for producers and pre
 | 与会者可见性 | Teams 制作 | 外部应用或设备制作 | Teams Powered Encoder
 |------------------------------|-----------------|----------------------|----------------|
 |公共（匿名用户）      |  是            |  否                  | 是
-|来宾用户                   |  是<sup>1</sup>            |  否                  |  支持            |
+|来宾用户                   |  是<sup>1</sup>            |  否                  |  是            |
 |外部访问（联盟）公司中的任何人 |  是<sup>1</sup>|  否                  | 是            |
 |公司中的所有人           |  是            |  是                 | 是                |
 |指定组/人员      |  是            |  是                 | 是                |
@@ -113,37 +105,37 @@ As a best practice, we recommend that you create a channel for producers and pre
 >- 一个租户可同时举办50场活动
 >- 每次广播的活动持续时间为16小时
 >
-> Additionally, live events with up to 100,000 attendees can be planned through the Microsoft 365 live events assistance program. The team will assess each request and work with you to determine options that may be available. [Learn more](https://aka.ms/Stream/Blog/LiveEventOptions). 
+> Additionally, live events with up to 100,000 attendees can be planned through the Microsoft 365 live events assistance program. The team will assess each request and work with you to determine options that may be available. [Learn more](https://aka.ms/Stream/Blog/LiveEventOptions).
 
-| 功能 | Skype 会议直播 | 在 Teams 中制作的事件 | 使用外部应用或设备制作的事件 |
-|---------|---------|---------|---------|
-|最大受众规模 |10,000 名与会者 |10,000 名与会者<sup>1</sup> |10,000 名与会者<sup>1</sup> |
-|实时事件最大持续时间 |4 小时 |4 小时 |4 小时 |
-|现场活动中演示者和制作者最大数量 |10 <sup>2</sup> |10 <sup>2</sup> |10 <sup>2</sup> |
-|每个 Microsoft 365 或 Office 365 组织的最大并发实时事件数量 |15  | 15  | 15  |
-|创建实时事件 |   Skype 会议直播门户 |团队、Yammer （通过 Teams） | Teams、Yammer （通过团队），Stream |
-|受众参与 – Yammer |&#x2714; |&#x2714;（集成体验） |&#x2714;（集成体验） |
-|受众参与 – 已审核问答 |&#x2714;  |&#x2714; |&#x2714; |
-|Windows 制作者客户端 |&#x2714; (Skype for Business) |&#x2714; (Teams) |&#x2714; （Stream、Teams （通过嵌入 Stream）） |
-|Mac 制作者客户端 |&#x274C;  | &#x2714; (Teams) |&#x2714; （Stream、Teams （通过嵌入 Stream）） |
-|制作者用户界面参与者计数 |&#x274C;  |&#x2714; (Teams) |&#x2714; （Stream、Teams （通过嵌入 Stream）） |
-|允许多个演示者 |&#x2714; (Skype for Business) |&#x2714; (Teams) |不适用  |
-|会议期间邀请演示者 |&#x2714; (Skype for Business) |&#x274C; |不适用 |
-|演示者通过 Web 和移动设备加入 |&#x2714; (Skype for Business)  |&#x274C; |不适用 |
-|外部访问（联盟）和来宾演示者/与会者 |&#x2714; (Skype for Business)  |  &#x2714; (Teams) |不适用 |
-|演示者 – PSTN 接入 |&#x274C; |&#x2714; (Teams) |不适用 |
-|演示屏幕 |&#x274C; |&#x2714; (Teams) |不适用 |
-|在 Windows 上共享系统音频（仅在屏幕共享时可用）|&#x274C; |&#x2714; (Teams) |&#x2714; |
-|演示 PowerPoint （PPT 共享） |&#x2714; |&#x274C;（通过屏幕共享缓解） |不适用 |
-|云基会议录制 |&#x2714; |&#x2714; |&#x2714; |
-|自动将录制发布到 Stream |&#x274C; |&#x274C; |&#x2714; |
-|实时辅助字幕与字幕 |&#x2714; |&#x2714; |&#x274C; |
-|实时事件录制字幕 |&#x2714; |&#x2714; |&#x2714; |
-|与会者 DVR 控件（暂停、后退） |&#x2714; |&#x2714; |&#x2714; |
-|Microsoft eCDN |&#x274C; |&#x2714; |&#x2714; |
-|合作伙伴 eCDN 支持 |&#x2714; (Kollective, Hive, Riverbed) |&#x2714; (Kollective, Hive, Ramp, Riverbed) |&#x2714; (Hive, Kollective, Ramp, Riverbed) |
-|制作者直播后受众报告 |&#x2714; |&#x2714; |&#x274C; |
-|受众情绪分析 – 实时投票和民意调查 |&#x2714; (Microsoft Pulse) |&#x274C; |&#x274C; |
+| 功能 | 在 Teams 中制作的事件 | 使用外部应用或设备制作的事件 |
+|---------|---------|---------|
+|最大受众规模 |10,000 名与会者<sup>1</sup> |10,000 名与会者<sup>1</sup> |
+|实时事件最大持续时间 |4 小时 |4 小时 |
+|现场活动中演示者和制作者最大数量 |10 <sup>2</sup> |10 <sup>2</sup> |
+|每个 Microsoft 365 或 Office 365 组织的最大并发实时事件数量 | 15  | 15  |
+|创建实时事件 |团队、Yammer （通过 Teams） | Teams、Yammer （通过团队），Stream |
+|受众参与 – Yammer |&#x2714;（集成体验） |&#x2714;（集成体验） |
+|受众参与 – 已审核问答 |&#x2714; |&#x2714; |
+|Windows 制作者客户端 |&#x2714; (Teams) |&#x2714; （Stream、Teams （通过嵌入 Stream）） |
+|Mac 制作者客户端 |&#x2714; (Teams) |&#x2714; （Stream、Teams （通过嵌入 Stream）） |
+|制作者用户界面参与者计数 |&#x2714; (Teams) |&#x2714; （Stream、Teams （通过嵌入 Stream）） |
+|允许多个演示者 |&#x2714; (Teams) |不适用  |
+|会议期间邀请演示者 |&#x274C; |不适用 |
+|演示者通过 Web 和移动设备加入 |&#x274C; |不适用 |
+|外部访问（联盟）和来宾演示者/与会者 |&#x2714; (Teams) |不适用 |
+|演示者 – PSTN 接入 |&#x2714; (Teams) |不适用 |
+|演示屏幕 |&#x2714; (Teams) |不适用 |
+|在 Windows 上共享系统音频（仅在屏幕共享时可用）|&#x2714; (Teams) |&#x2714; |
+|演示 PowerPoint （PPT 共享） |&#x274C;（通过屏幕共享缓解） |不适用 |
+|云基会议录制 |&#x2714; |&#x2714; |
+|自动将录制发布到 Stream |&#x274C; |&#x2714; |
+|实时辅助字幕与字幕 |&#x2714; |&#x274C; |
+|实时事件录制字幕 |&#x2714; |&#x2714; |
+|与会者 DVR 控件（暂停、后退） |&#x2714; |&#x2714; |
+|Microsoft eCDN |&#x2714; |&#x2714; |
+|合作伙伴 eCDN 支持 |&#x2714; (Kollective, Hive, Ramp, Riverbed) |&#x2714; (Hive, Kollective, Ramp, Riverbed) |
+|制作者直播后受众报告 |&#x2714; |&#x274C; |
+|受众情绪分析 – 实时投票和民意调查 |&#x274C; |&#x274C; |
 
 <sup>1</sup> The limits that are set might be changed. Check [Limits and specifications for Teams](../limits-specifications-teams.md).<br/>
 <sup>2</sup> 可在实时事件中拥有多达 100 位演示者和制作者，但列表中仅显示最后 10 位发言的人员。

@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 了解自动助理和呼叫队列，以及如何使用它们帮助呼叫者在菜单系统中移动以联系组织中的人员或部门。
-ms.openlocfilehash: 5b5076ecd8ea521071124f5400ac5c2831b4fbfe
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: 097d4d0e921e0481e4986cce6f599cbd55044138
+ms.sourcegitcommit: ae687f530d5505b96df7cb7ef4da3a36bd9afd29
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69307617"
+ms.lasthandoff: 01/10/2023
+ms.locfileid: "69763613"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>规划 Teams 自动助理和呼叫队列
 
@@ -71,8 +71,8 @@ ms.locfileid: "69307617"
 若要配置自动助理和呼叫队列，需要以下资源：
 
 - 每个自动助理和每个呼叫队列 [的资源帐户](manage-resource-accounts.md) 。
-- 每个[资源帐户的免费Microsoft Teams 电话资源帐户许可证](teams-add-on-licensing/virtual-user.md)，可从 Teams 用户或外部电话号码直接拨号。
-- 对于要从外部电话号码直接拨号的每个资源帐户，至少有一个[Microsoft服务](getting-service-phone-numbers.md)号码、[操作员连接](operator-connect-plan.md)[号码、直接路由](direct-routing-plan.md)号码或混合号码。
+- 每个[资源帐户的免费Microsoft Teams 电话](teams-add-on-licensing/virtual-user.md)资源帐户许可证。
+- 对于要从外部电话号码直接拨号的每个资源帐户，至少有一个 [Microsoft 服务](getting-service-phone-numbers.md)号码、[操作员连接](operator-connect-plan.md)[号码、直接路由](direct-routing-plan.md)号码或混合号码。
   - 服务号码可以是收费号码或免费号码。
 
 > [!NOTE]
@@ -107,7 +107,7 @@ ms.locfileid: "69307617"
 > [!NOTE]
 > 如果分配给资源帐户的通话套餐被禁用或删除，则通信 [点数](what-are-communications-credits.md)（如果在租户 (中可用，但未分配给资源帐户) ）将被使用。 如果没有通话套餐或通信额度，呼叫将失败。
 >
-> 仅Microsoft Teams 用户和呼叫代理支持自动助理和呼叫队列的直接路由服务号码。
+> 仅 Microsoft Teams 用户和呼叫代理支持自动助理和呼叫队列的直接路由服务号码。
 > 
 > 不支持在通话套餐、操作员连接和直接路由中继之间转移。
 > 
@@ -148,11 +148,11 @@ ms.locfileid: "69307617"
 **会议模式** 是呼叫队列中的一个选项，可显著减少将 Teams VOIP 呼叫和 PSTN 呼叫连接到代理所需的时间。 若要使会议模式正常工作，呼叫队列中的代理必须使用以下客户端之一：
 
 - 最新版本的 Microsoft Teams 桌面客户端、Android 应用或 iOS 应用。
-- Microsoft电话系统版本 1449/1.0.94.2020051601 或更高版本。
+- Microsoft 电话系统版本 1449/1.0.94.2020051601 或更高版本。
   
 将代理的 Teams 帐户设置为仅限 Teams 模式。 不符合要求的代理不包括在呼叫路由列表中。
 
-如果代理都使用兼容的客户端，我们建议为呼叫队列启用会议模式。
+默认情况下，会议模式处于启用状态。 如果代理不符合要求，则必须在呼叫队列配置期间手动禁用会议模式。
 
 **呼叫路由流** 计划有助于确定呼叫组织的人员最有效的路由。 若要了解如何规划呼叫路由流，请参阅 [规划呼叫路由流](plan-your-call-routing-flow.md)。
 

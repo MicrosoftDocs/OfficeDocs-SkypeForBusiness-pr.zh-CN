@@ -19,14 +19,17 @@ ms.custom:
 - admindeeplinkMAC
 robots: noindex
 description: 了解如何删除 Teams 免费 (经典) 许可证，并为组织的用户分配付费 Teams 许可证。
-ms.openlocfilehash: 027f84577a50d445eb01bce896417f23e503abb7
-ms.sourcegitcommit: 1398c778e46b0d81c9710cd70d3818a2b7af995a
+ms.openlocfilehash: 3015036d0656a80ac8440d2c193003cc7d67d9fc
+ms.sourcegitcommit: 0d25efb3dae31d5199807a14baaf30e944f561ce
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2023
-ms.locfileid: "69749150"
+ms.lasthandoff: 01/11/2023
+ms.locfileid: "69767663"
 ---
 # <a name="retire-microsoft-teams-free-classic-for-your-organization"></a>为组织停用Microsoft Teams 免费版 (经典) 
+
+> [!NOTE]
+> 如果你是 Teams 免费版 (经典) 用户，除非 IT 管理员在本文中执行以下操作，否则你将在 2023 年 4 月中旬失去对 Teams 的访问权限。
 
 2023 年 4 月中旬，Microsoft 将停用 **Microsoft Teams 免费版 (经典)** 许可证。
 

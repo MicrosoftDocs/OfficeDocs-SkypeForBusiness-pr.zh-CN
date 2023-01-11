@@ -17,18 +17,20 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 459845115d8a705673f21b5e8a57dadac59841f6
-ms.sourcegitcommit: f8da8f613fc3902d2607e322ad9dfbdeb8838c4c
+ms.openlocfilehash: f0d93bb05a6456499ab1c0c16070149d8cdfd949
+ms.sourcegitcommit: 0d25efb3dae31d5199807a14baaf30e944f561ce
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/21/2022
-ms.locfileid: "69624912"
+ms.lasthandoff: 01/11/2023
+ms.locfileid: "69767623"
 ---
 # <a name="virtual-appointment-meeting-template-in-microsoft-teams"></a>Microsoft Teams 中的虚拟约会会议模板
 
+![信息图标](media/info.png) **本文中所述的某些功能需要 [Teams 高级版](teams-add-on-licensing/licensing-enhance-teams.md) (预览版)**。
+
 ## <a name="overview"></a>概述
 
-虚拟约会模板是 Microsoft Teams 中的一个默认会议模板，用户可以使用该模板与客户、客户端和组织外部的其他人安排虚拟约会。 例如，使用它来安排和进行面试、指导会议、财务咨询、虚拟购物体验等。
+虚拟约会模板是 Microsoft Teams 中的一个默认会议模板，用户可以使用该模板来安排与组织外部的客户、客户端和其他人员进行虚拟约会。 例如，使用它来安排和进行面试、指导会议、财务咨询、虚拟购物体验等。
 
 该模板允许指定会议组织者通常控制的会议设置的值。 它使你能够灵活地应用默认设置并强制实施设置。 可以选择锁定设置，以便会议组织者在使用模板时无法更改这些设置。
 
