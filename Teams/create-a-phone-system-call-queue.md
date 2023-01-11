@@ -28,12 +28,12 @@ adobe-target-activity: DocsExp–480823–A/B–Docs/TeamsSteps–HowToTabs–FY
 adobe-target-experience: Experience B
 adobe-target-content: ./create-a-phone-system-call-queue-experiment
 description: 了解如何在 Microsoft Teams 中设置呼叫队列。 呼叫队列提供问候消息、保留音乐、呼叫重定向和其他功能。
-ms.openlocfilehash: da0b94281619940a955a7ca7aa0b4127fbb93f3c
-ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
+ms.openlocfilehash: 4b12b1e89b11902299f973a97bdace44a841029e
+ms.sourcegitcommit: ae687f530d5505b96df7cb7ef4da3a36bd9afd29
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/14/2022
-ms.locfileid: "69392222"
+ms.lasthandoff: 01/10/2023
+ms.locfileid: "69763563"
 ---
 # <a name="create-a-call-queue-in-microsoft-teams"></a>在 Microsoft Teams 中创建呼叫队列
 
@@ -81,14 +81,14 @@ ms.locfileid: "69392222"
 
 添加现有资源帐户：
 
-1. 在“ **资源帐户**”下，单击“ **添加** ”按钮，为此调用队列添加资源帐户。
+1. 在“ **资源帐户**”下，选择“ **添加** ”按钮，为此调用队列添加资源帐户。
 1. 在“ **添加帐户** ”窗格中，搜索要添加的资源帐户。
 1. 选择要分配给此调用队列的资源帐户旁边的“ **添加** ”按钮。
 1. 在窗格底部，选择“ **添加** ”按钮。
 
 如果需要创建资源帐户：
 
-1. 在“ **资源帐户**”下，单击“ **添加** ”按钮，为此调用队列添加资源帐户。
+1. 在“ **资源帐户**”下，选择“ **添加** ”按钮，为此调用队列添加资源帐户。
 1. 在“ **添加帐户** ”窗格中，搜索任意一组字母以拉取结果下拉列表。
 1. 选择结果底部的“ **+ 添加资源帐户** ”按钮。
 1. 在 **“添加资源帐户** ”窗格中：
@@ -106,7 +106,7 @@ ms.locfileid: "69392222"
 
 **适用于 Teams 频道/协作通话桌面用户和具有标准呼叫队列的 Teams 移动客户端用户。**
 
-可以通过使用电话号码指定一个或多个资源帐户，为代理分配出站呼叫方 ID 号码。 代理可以选择用于每个出站呼叫的出站呼叫方 ID 号。 在呼叫应用中，代理可以使用其呼叫队列 (CQ) /自动助理 (AA) 号码或他们自己的个人直接向内拨号 (DID) 。
+使用电话号码指定一个或多个资源帐户，为代理分配出站呼叫方 ID 号码。 代理可以选择用于每个出站呼叫的出站呼叫方 ID 号。 在呼叫应用中，代理可以使用其呼叫队列 (CQ) /自动助理 (AA) 号码或他们自己的个人直接向内拨号 (DID) 。
 
 > [!NOTE]
 > 用于调用 ID 的资源帐户必须具有 **Microsoft Teams 电话资源帐户** 许可证，并且分配有以下其中一项：
@@ -122,7 +122,7 @@ ms.locfileid: "69392222"
 
 如果没有分配了电话号码的资源帐户：
 
-1. 在 **“资源帐户**”下，单击“ **添加** ”按钮添加资源帐户。
+1. 在“ **资源帐户**”下，选择“ **添加** ”按钮以添加资源帐户。
 1. 在“ **添加帐户** ”窗格中，搜索任意一组字母以拉取结果下拉列表。
 1. 选择结果底部的“ **+ 添加资源帐户** ”按钮。
 1. 在 **“添加资源帐户** ”窗格中：
@@ -134,9 +134,9 @@ ms.locfileid: "69392222"
 
 创建用于呼叫 ID 的新资源帐户后，仍需要：
 
-- 分配 [Teams 电话资源帐户许可证](manage-resource-accounts.md#assign-a-license)。
-- 分配Microsoft通话套餐许可证、分配运营商连接电话号码或为直接路由分配在线语音路由策略。
-- 如果使用的是通话套餐[，请将电话号码分配给资源帐户](manage-resource-accounts.md#assign-a-phone-number)Microsoft。
+- 分配[Microsoft Teams 电话系统资源帐户许可证](manage-resource-accounts.md#assign-a-license)。
+- 分配 Microsoft 通话套餐许可证、分配运营商 Connect 电话号码，或为直接路由分配联机语音路由策略。
+- 如果你使用的是 Microsoft 通话套餐，请将 [电话号码分配给资源帐户](manage-resource-accounts.md#assign-a-phone-number)。
 
 ### <a name="set-the-call-queue-language"></a>设置呼叫队列语言
 
@@ -164,7 +164,7 @@ Teams 在 *呼叫者处于保留状态* 时为呼叫者提供默认音乐。
 - 如果要播放特定的音频文件，请选择“ **播放音频文件** ”并上传 MP3、WAV 或 WMA 文件。
 
 > [!NOTE]
-> 你负责独立清除和保护与Microsoft Teams 服务一起使用任何音乐或音频文件的一切必要权利和权限，其中可能包括来自所有相关权利持有者（可能包括艺术家）的任何音乐、音效、音频、品牌、名称和其他内容的知识产权和其他权利， 演员、表演者、音乐家、词曲作者、作曲家、唱片公司、音乐出版商、工会、公会、权利协会、集体管理组织以及拥有、控制或许可音乐版权、音效、音频和其他知识产权的任何其他方。
+> 你负责独立清除和保护与 Microsoft Teams 服务一起使用任何音乐或音频文件的一切必要权利和权限，其中可能包括来自所有相关权利持有者（可能包括艺术家）的任何音乐、音效、音频、品牌、名称和其他内容的知识产权和其他权利， 演员、表演者、音乐家、词曲作者、作曲家、唱片公司、音乐出版商、工会、公会、权利协会、集体管理组织以及拥有、控制或许可音乐版权、音效、音频和其他知识产权的任何其他方。
 
 选择问候语和保持音乐后，选择 **“添加呼叫队列**”页面底部的“**下一步**”按钮。
 
@@ -178,11 +178,11 @@ Teams 在 *呼叫者处于保留状态* 时为呼叫者提供默认音乐。
 
 最多可以通过 Teams 频道添加 200 个代理。 你必须是团队成员或频道的创建者或所有者，才能将频道添加到队列。
 
-如果要 [使用 Teams 通道来管理队列](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)：
+[若要使用 Teams 通道管理队列，请执行以下操作](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)：
 
 1. 选择 **“选择团队** ”单选按钮，然后选择“ **添加频道**”。
 1. 搜索要使用的团队，将其选中，然后选择“ **添加**”。
-1. 选择要使用的通道， (仅支持标准通道) 并选择“ **应用**”。
+1. 选择要使用 (仅支持标准频道或专用频道) 的频道，然后选择“ **应用**”。
 
 将 Teams 通道用于呼叫队列时，支持以下客户端：
 
@@ -193,6 +193,8 @@ Teams 在 *呼叫者处于保留状态* 时为呼叫者提供默认音乐。
 > 如果使用此选项，则呼叫队列可能需要长达 24 小时才能完全正常运行。
 >
 > 如果团队中有 200 多个成员，则只有前 200 名成员（按字母顺序）将作为代理添加到呼叫队列。
+> 
+> 即使专用频道只有一部分团队成员，呼叫也会分发给团队的所有成员。
 
 ### <a name="users-and-groups"></a>用户和组
 
@@ -204,12 +206,12 @@ Teams 在 *呼叫者处于保留状态* 时为呼叫者提供默认音乐。
 
 将 **用户添加到** 队列：
 
-1. 选择“ **添加用户**”，搜索用户，单击“ **添加**”，然后单击“ **添加**”。
+1. 选择 **“添加用户**”，搜索用户，选择“ **添加**”，然后选择“ **添加**”。
 
 若要 **向队列添加组** ，请执行以下操作：
 
-1. 选择“ **添加组**”，搜索该组，单击“ **添加**”，然后单击“ **添加**”。 
-    1. 可以使用通讯组列表、安全组和Microsoft 365 个组或Microsoft Teams 团队。
+1. 选择 **“添加组**”，搜索该组，选择“ **添加**”，然后选择“ **添加**”。 
+    1. 可以使用通讯组列表、安全组和 Microsoft 365 组或 Microsoft Teams 团队。
 
 > [!NOTE]
 > 添加到组的新用户可能需要长达 8 小时才能到达第一个呼叫。
@@ -221,7 +223,7 @@ Teams 在 *呼叫者处于保留状态* 时为呼叫者提供默认音乐。
 **会议模式** 减少了在代理接受呼叫后呼叫方连接到代理所需的时间。 若要使会议模式正常工作，呼叫队列中的代理必须使用以下客户端之一：
 
 - 最新版本的 Microsoft Teams 桌面客户端、Android 应用或 iOS 应用
-- Microsoft Teams 电话版本 1449/1.0.94.2020051601 或更高版本
+- Microsoft Teams 电话系统版本 1449/1.0.94.2020051601 或更高版本
   
 代理的 Teams 帐户必须设置为 TeamsOnly 模式。 不符合要求的代理不包括在呼叫路由列表中。 如果代理使用兼容的客户端，我们建议为呼叫队列启用会议模式。
 
@@ -229,9 +231,9 @@ Teams 在 *呼叫者处于保留状态* 时为呼叫者提供默认音乐。
 > 建议将 **“会议模式** ”设置为“ **打开** ”。
 
 > [!NOTE]
-> 如果电话呼叫从启用了基于位置的路由的直接路由网关路由到队列，则不支持会议模式。
+> 从启用了基于位置的路由的直接路由网关路由到队列的呼叫不支持会议模式。
 >
-> 如果电话呼叫从Skype for Business Server路由到队列，则不支持会议模式。
+> 从 Skype for Business Server 路由到队列的呼叫不支持会议模式。
 > 
 > 如果 Teams 用户需要使用呼叫队列进行咨询/转接呼叫，则需要会议模式。
 >
@@ -394,12 +396,12 @@ Teams 在 *呼叫者处于保留状态* 时为呼叫者提供默认音乐。
 
 #### <a name="notes"></a>注释
 
-1. Microsoft Teams Windows 客户端、Microsoft Teams Mac 客户端Microsoft Teams 上的虚拟化桌面基础结构。
-2. Microsoft Teams iPhone 应用，Microsoft Teams Android 应用。
+1. Microsoft Teams Windows 客户端、Microsoft Teams Mac 客户端、虚拟化桌面基础结构上的 Microsoft Teams。
+2. Microsoft Teams iPhone 应用、Microsoft Teams Android 应用。
 3. 为代理路由方法选择“最长空闲时间”将自动启用基于状态的路由。
 4. 无法设置调用代理的顺序。
 5. 如果电话呼叫从启用了基于位置的路由的直接路由网关路由到队列，则不支持会议模式。
-6. 仅限Microsoft Teams 电话。
+6. 仅Microsoft Teams 电话系统。
 7. 通过 位于 [https://aka.ms/vmsettings](https://aka.ms/vmsettings)的“用户设置门户”页。
 8. 仅支持公共频道。
 9. 自动助理和呼叫队列无法在 PSTN 连接方法之间转移呼叫。
@@ -420,7 +422,7 @@ Teams 在 *呼叫者处于保留状态* 时为呼叫者提供默认音乐。
 - iPad Skype for Business 客户端（版本 6.16.0 及更高版本）
 - Microsoft Teams Windows 客户端 (32 位和 64 位版本) 
 - Microsoft Teams Mac 客户端
-- 在[虚拟化桌面基础结构](teams-for-vdi.md)上Microsoft Teams (Windows 虚拟桌面、Citrix 和 VMware) 
+- [虚拟化桌面基础结构](teams-for-vdi.md)上的 Microsoft Teams (Windows 虚拟桌面、Citrix 和 VMware) 
 - Microsoft Teams iPhone 应用
 - Microsoft Teams Android 应用
 
@@ -440,9 +442,9 @@ Teams 在 *呼叫者处于保留状态* 时为呼叫者提供默认音乐。
 
 3. 测试将返回处理任何租户、策略和资源帐户配置的最佳后续步骤，以验证呼叫队列是否能够接收呼叫。
 
-## <a name="related-topics"></a>相关主题
+## <a name="related-articles"></a>相关文章
 
-[以下是你使用Microsoft Teams 电话](here-s-what-you-get-with-phone-system.md)
+[以下是使用 Microsoft Teams 电话 System 获得的功能](here-s-what-you-get-with-phone-system.md)
 
 [获取服务电话号码](getting-service-phone-numbers.md)
 

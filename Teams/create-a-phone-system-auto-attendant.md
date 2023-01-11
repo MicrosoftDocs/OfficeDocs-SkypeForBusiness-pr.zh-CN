@@ -1,5 +1,5 @@
 ---
-title: 设置Microsoft Teams 自动助理
+title: 设置 Microsoft Teams 自动助理
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
@@ -25,14 +25,14 @@ adobe-target-activity: DocsExp–480823–A/B–Docs/TeamsSteps–HowToTabs–FY
 adobe-target-experience: Experience B
 adobe-target-content: ./create-a-phone-system-auto-attendant-experiment
 description: 了解如何在 Microsoft Teams 中设置和管理自动助理。
-ms.openlocfilehash: 1294559d1fcca7b1dace8f12cd3203b7effa4c80
-ms.sourcegitcommit: 81b3403a1a77ba202690c2d88bd8d1d5257048e5
+ms.openlocfilehash: 11fcf4016cd6ef8f2f4301c18c9362af6bed30ec
+ms.sourcegitcommit: ae687f530d5505b96df7cb7ef4da3a36bd9afd29
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/14/2022
-ms.locfileid: "69379388"
+ms.lasthandoff: 01/10/2023
+ms.locfileid: "69763543"
 ---
-# <a name="set-up-a-microsoft-teams-auto-attendant"></a>设置Microsoft Teams 自动助理
+# <a name="set-up-a-microsoft-teams-auto-attendant"></a>设置 Microsoft Teams 自动助理
 
 自动助理允许用户呼叫你的组织并导航菜单系统，以便与正确的部门、呼叫队列、人员或操作员交谈。 可以使用 Microsoft Teams 管理中心或 PowerShell 为组织创建自动助理。
 
@@ -42,9 +42,9 @@ ms.locfileid: "69379388"
 
 - **Operator** - 为自动助理定义的运算符。 定义运算符是可选的。 运算符可以定义为此列表中的任何其他目标。
 - **组织中的人员** - 组织中可以接听语音呼叫的人员。 此人可以是联机用户，也可以是使用 Skype for Business Server 在本地托管的用户。
-- **语音应用** - 另一个自动助理或呼叫队列。  (选择此 destination 时，选择与自动助理或呼叫队列关联的资源帐户。) 
+- **语音应用** - 另一个自动助理或呼叫队列。 选择此目标时，选择与自动助理或呼叫队列关联的资源帐户。
 - **Voicemail** - 与指定的 Microsoft 365 组关联的语音邮箱。 可以选择是否需要语音邮件听录和“请在音调后留言”。 系统提示。
-  - 在 M365 管理员 中心为指定的 Microsoft 365 组启用“让组织外部的人员向此团队发送电子邮件”
+  - 在“Microsoft 365 管理中心”中，为指定的 Microsoft 365 组启用 **“让组织外部人员向此团队发送电子邮件**”。
 - **外部电话号码** - 任何电话号码。 请参阅 [外部传输技术详细信息](create-a-phone-system-auto-attendant.md?tabs=general-info#external-phone-number-transfers---technical-details)。
 - **公告 (音频文件)** - 播放音频文件。 上传的录制公告消息，在 中保存为音频。WAV、.MP3 或 。WMA 格式。 录制不能大于 5 MB。 系统播放公告，然后返回到自动助理菜单。
 - **通知 (键入)** - 键入消息。 希望系统读取的文本。 最多可以输入 1000 个字符。 系统播放公告，然后返回到自动助理菜单。
@@ -54,11 +54,10 @@ ms.locfileid: "69379388"
 >
 > 虽然定义 **运算符** 是可选的，但建议这样做。  如果自动助理配置中由于删除用户或共享语音邮件帐户而出现错误，则自动助理会将呼叫重定向到操作员。  如果未定义操作员，则自动助理将放弃呼叫。
 
-## <a name="whats-new-for-auto-attendants-in-the-past-6-months"></a>过去 6 个月自动助理的新增功能
+## <a name="whats-new-for-auto-attendants-in-the-past-six-months"></a>过去六个月自动助理的新增功能
 
 - 9 月 - **强制侦听** 选项现在可用于通话流、下班后的呼叫流和假日期间的呼叫流播放 **菜单选项** 。
 - 8 月 - 通话流中的 **“播放”菜单选项** 、下班后的呼叫流和假日期间的呼叫流现在支持 \* (星号) 和 \# (磅) 键。
-- 7 月 - 假日期间的呼叫流现在支持 **“播放”菜单选项**。
 
 ## <a name="steps-to-create-an-auto-attendant"></a>创建自动助理的步骤
 
@@ -87,7 +86,7 @@ ms.locfileid: "69379388"
 
 3. 指定此自动助理的时区。 如果 [为下班后创建单独的呼叫流](?tabs=after-hours)，则时区用于计算营业时间。
 
-4. 为此自动助理指定 [支持的语言](create-a-phone-system-auto-attendant-languages.md) 。 这是将用于系统生成的语音提示的语言。
+4. 为此自动助理指定 [支持的语言](create-a-phone-system-auto-attendant-languages.md) 。 此语言将用于系统生成的语音提示。
 
 5. 选择是否要启用语音输入。 启用后，每个菜单选项的名称将成为语音识别关键字。 例如，调用方可以说出“One”来选择映射到键 1 的菜单选项，也可以说出“Sales”来选择名为“Sales”的菜单选项。
 
@@ -133,7 +132,7 @@ ms.locfileid: "69379388"
 
 ##### <a name="directory-search"></a>目录搜索
 
-如果将拨号键分配给目标，建议选择 **“无****”进行目录搜索**。 如果调用方尝试使用分配给特定目标的密钥来拨号名称或分机，则他们可能会在输入完名称或分机之前意外地路由到目标。 建议为目录搜索创建单独的自动助理，并使用拨号键将主自动助理链接指向它。
+如果将拨号键分配给目标，建议选择 **“无****”进行目录搜索**。 在执行目录搜索之前，将匹配拨号键。  如果调用方开始使用分配给特定目标的拨号键输入名称或分机，则会在完成输入名称或分机之前将其路由到该目标。 建议为目录搜索创建单独的自动助理，并使用拨号键将主自动助理链接指向它。
 
 如果未分配拨号键，请选择 **目录搜索** 选项。
 
@@ -155,7 +154,7 @@ ms.locfileid: "69379388"
 可以为每个自动助理设置营业时间。
 
 - 如果没有设置营业时间，所有日期以及每天的所有时间均视为营业时间，因为默认情况下设置为全天候时间表。
-- 营业时间可以设置为白天的休息时间，所有未设置为营业时间的小时都被视为下班后。
+- 营业时间可以设置为白天的休息时间，所有未设置为营业时间的营业时间都被视为下班后。
 - 可以为下班后设置不同的来电处理选项和问候语。
 
 根据配置自动助理和呼叫队列的方式，可能只需为具有直接电话号码的自动助理指定下班后呼叫路由。
@@ -176,7 +175,6 @@ ms.locfileid: "69379388"
 
 *新建 - 可以启用强制侦听选项，该选项要求调用方在进行选择之前侦听所有菜单选项。*
 *新 - \* (星号) 和 \# (磅) 键现在可以在菜单选项中使用。*
-*新增 - **“播放”菜单选项** 现已在假日呼叫流中提供。*
 
 1. 在“假日呼叫设置”页上，选择“ **添加**”。
 
@@ -203,7 +201,7 @@ ms.locfileid: "69379388"
 
 当调用方使用按名称拨号或按分机拨号时， *拨号范围* 定义目录中可用的用户。 默认的 **“所有联机用户**”包括组织中所有使用 Skype for Business Server 的联机用户或托管在本地的用户。
 
-可以通过选择“**包括**”或“排除”下的 **“自定义用户组**”并选择一个或多个Microsoft 365 个组、通讯组列表或安全组来包含或排除特定用户。 例如，你可能希望从拨号目录中排除组织中的高管。
+可以通过选择“**包括**”或“排除”下的 **“自定义用户组**”并选择一个或多个 Microsoft 365 组、通讯组列表或安全组来包括或 **排除** 特定用户。 例如，你可能希望从拨号目录中排除组织中的高管。
 
 如果用户同时位于这两个列表中，则会将其从目录中排除。
 
@@ -222,7 +220,7 @@ ms.locfileid: "69379388"
 
 添加资源帐户后，选择“ **下一步**”。
 
-有关详细信息 [，请参阅管理 Teams 资源帐户](manage-resource-accounts.md) 。
+有关详细信息，请参阅 [管理 Teams 资源帐户](manage-resource-accounts.md)。
 
 ---
 
@@ -230,7 +228,7 @@ ms.locfileid: "69379388"
 
 ### <a name="external-phone-number-transfers---technical-details"></a>外部电话号码转移 - 技术详细信息
 
-请参阅 [先决条件](plan-auto-attendant-call-queue.md#prerequisites) ，以便允许自动助理在外部转移呼叫。  另外：
+请参阅 [先决条件](plan-auto-attendant-call-queue.md#prerequisites) ，以便允许自动助理在外部转移呼叫。  另外
 
 - 对于具有 [通话套餐许可证](calling-plans-for-office-365.md) 或 [运营商连接](operator-connect-plan.md) 号码的资源帐户，外部转接电话号码必须以 E.164 格式输入， (+[国家/地区代码][区号][电话号码]) 。
 
@@ -240,7 +238,7 @@ ms.locfileid: "69379388"
 
 - 对于通话套餐和运营商连接号码，将显示原始呼叫者的电话号码。
 - 对于直接路由号码，发送的数字基于 SBC 上的 P-Asserted-Identity (PAI) 设置，如下所示：
-  - 如果设置为“禁用”，则显示原始呼叫者的电话号码。 这是默认设置和建议的设置。
+  - 如果设置为“禁用”，则显示原始呼叫者的电话号码。 “禁用”是默认设置和建议的设置。
   - 如果设置为“已启用”，则显示资源帐户电话号码。
 
 在Skype for Business混合环境中，若要将自动助理呼叫转移到 PSTN，请创建一个新的本地用户，并将呼叫转接设置为 PSTN 号码。 必须为用户启用企业语音并分配有语音策略。 若要了解详细信息，请参阅 [自动助理呼叫转接到 PSTN](/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn)。
@@ -256,9 +254,9 @@ ms.locfileid: "69379388"
 
 2. 在“运行诊断”窗格中，在 **“用户名”或“Email**”字段中输入“资源帐户”，然后选择“**运行测试**”。
 
-3. 测试将识别阻止自动助理接收呼叫的租户、策略或资源帐户配置，并提供解决所发现问题的步骤。
+3. 这些测试将识别阻止自动助理接听呼叫的租户、策略或资源帐户配置，并提供解决所发现问题的步骤。
 
-## <a name="related-topics"></a>相关主题
+## <a name="related-articles"></a>相关文章
 
 [以下是使用 Teams Phone 获得的功能](./here-s-what-you-get-with-phone-system.md)
 

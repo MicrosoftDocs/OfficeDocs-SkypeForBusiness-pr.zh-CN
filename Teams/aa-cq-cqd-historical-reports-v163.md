@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 ROBOTS: NOINDEX, NOFOLLOW
 description: 了解如何使用 Teams 自动助理&呼叫队列历史报告 Power BI 报表查看 GCC High 和 DoD 客户的自动助理和呼叫队列历史数据。
-ms.openlocfilehash: 619be6d7f0f78f67ef2db0f0693de82120d128c4
-ms.sourcegitcommit: e9718ad7e23317d490b238b3801267cb2e6b26e2
+ms.openlocfilehash: cde953bfd8e9c95c60c795f6de91488506c2addf
+ms.sourcegitcommit: ae687f530d5505b96df7cb7ef4da3a36bd9afd29
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/28/2022
-ms.locfileid: "69176750"
+ms.lasthandoff: 01/10/2023
+ms.locfileid: "69763673"
 ---
 # <a name="auto-attendant-and-call-queue-historical-reports-for-gcc-high-and-dod"></a>GCC High 和 DoD 的自动助理和呼叫队列历史报告
 
@@ -50,7 +50,7 @@ ms.locfileid: "69176750"
 ## <a name="v163-prerequisites"></a>V1.63 先决条件
 
 ### <a name="power-bi-desktop"></a>Power BI Desktop
-需要安装Power BI Desktop。 你可以从 [Windows 应用商店安装并使用Microsoft](https://aka.ms/pbidesktopstore)免费版本。
+需要安装Power BI Desktop。 你可以从 [Microsoft Windows 应用商店](https://aka.ms/pbidesktopstore)安装并使用免费版本。
 
 最低兼容版本为 2.85.681.0 (2020 年 9 月) 。
 
@@ -66,15 +66,17 @@ ms.locfileid: "69176750"
 
 1. 在计算机上下载并保存 [CQD Power BI 查询模板](https://www.microsoft.com/download/details.aspx?id=102291) zip 文件。
 
-1. 打开 zip 文件。
+2. 打开 zip 文件。
 
-1. 打开 `CQD Teams Auto Attendant & Call Queue Historical Report V1.60.pbit` 模板文件。 Power BI Desktop应启动。
+3. 打开 `CQD Teams Auto Attendant & Call Queue Historical Report V1.63.pbit` 模板文件。 Power BI Desktop应启动。
 
-1. 系统将提示你选择 CQD 数据管道区域。 选择租户所在的区域。
+4. 系统将提示你选择 CQD 数据管道区域。 选择租户所在的区域。
 
-  :::image type="content" source="media/aa-cq-historical-report-01-v163.png" alt-text="选择 CQD 数据管道区域的屏幕截图。":::
+     :::image type="content" source="media/aa-cq-historical-report-01-v163.png" alt-text="选择 CQD 数据管道区域的屏幕截图。":::
 
-1. 可以使用 [Get-CsTenant](/powershell/module/skype/get-cstenant) cmdlet 获取租户所在的区域。
+    公有云租户
+
+5. 可以使用 [Get-CsTenant](/powershell/module/skype/get-cstenant) cmdlet 获取租户所在的区域。
 
     ```powershell
     (Get-CsTenant).ServiceInstance
@@ -82,19 +84,27 @@ ms.locfileid: "69176750"
     microsoftcommunicationsonline/noam-4a-s7
     ```
 
-    1. 该区域将显示在 之后， **/** 如上面的示例中所示，该区域为 `noam`。
+    该区域将显示在 之后， **/** 如上面的示例中所示，该区域为 `noam`。
 
- 1. 报告将使用示例数据启动。
+    GCC High 和 DoD 租户
+
+6. 更新模板以使用以下连接器之一：
+
+   - GCCH： `https://data.cqd.gov.teams.microsoft.us/RunQuery`
+   - 国防部： `https://data.cqd.dod.teams.microsoft.us/RunQuery`
+
+
+7. 报告将使用示例数据启动。
  
- 1. 若要查看自己的数据，请在Power BI Desktop中的 **查询** 下的“**开始**”选项卡上选择“**刷新**”。
+8. 若要查看自己的数据，请在Power BI Desktop中的 **查询** 下的“**开始**”选项卡上选择“**刷新**”。
 
    :::image type="content" source="media/aa-cq-historical-report-02-v163.png" alt-text="选择刷新选项的屏幕截图。":::
 
-1. 系统将提示你登录。 选择“ **组织帐户**”，然后选择“ **登录**”。
+9. 系统将提示你登录。 选择“ **组织帐户**”，然后选择“ **登录**”。
 
-  :::image type="content" source="media/aa-cq-historical-report-03-v163.png" alt-text="显示 V1.63 登录名的屏幕截图。":::
+   :::image type="content" source="media/aa-cq-historical-report-03-v163.png" alt-text="显示 V1.63 登录名的屏幕截图。":::
 
-1. 选择“ **连接**”，数据将刷新。
+10. 选择“ **连接**”，数据将刷新。
 
 ## <a name="data-latency-for-aa-and-cq-analytics"></a>AA 和 CQ 分析的数据延迟
 
@@ -116,11 +126,11 @@ ms.locfileid: "69176750"
 
 1. 选择功能区上的 **“视图”选项卡** 。
 
-  :::image type="content" source="media/aa-cq-historical-report-04.png" alt-text="选择“视图”选项卡以更改配色方案的屏幕截图。":::
+    :::image type="content" source="media/aa-cq-historical-report-04.png" alt-text="选择“视图”选项卡以更改配色方案的屏幕截图。":::
 
 2. 从下拉列表中选择颜色架构。
 
-  :::image type="content" source="media/aa-cq-historical-report-05.png" alt-text="显示各种配色方案的屏幕截图。":::
+    :::image type="content" source="media/aa-cq-historical-report-05.png" alt-text="显示各种配色方案的屏幕截图。":::
   
 ## <a name="auto-attendant-and-call-queue-historical-reports-definitions"></a>自动助理和呼叫队列历史报告定义
 
