@@ -18,22 +18,22 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6648502d9b6a3e727ef30f1e94289f1428d8a4e2
-ms.sourcegitcommit: b710fc61558a0e031d4e3e4000f234c495e2c4c6
+ms.openlocfilehash: 43026c80108adeff777e3a003fb93fece44d8c50
+ms.sourcegitcommit: 66d8e3d7a29a03c5deba9780964bc03f6587017f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/17/2022
-ms.locfileid: "69438524"
+ms.lasthandoff: 01/11/2023
+ms.locfileid: "69774807"
 ---
 # <a name="teams-rooms-on-windows-and-android-feature-comparison"></a>Windows 和 Android 上的Teams 会议室功能比较
 
-Microsoft Teams 会议室体验的设计考虑到了客户。 每个客户都有独特的需求，这就是为什么Microsoft提供了广泛的选项，包括 Windows 和 Android 上的Teams 会议室。 
+Microsoft Teams 会议室体验的设计考虑到了客户。 每个客户都有独特的需求，这就是为什么 Microsoft 提供广泛的选项，包括 Windows 和 Android 上的Teams 会议室。 
 
 核心功能在两个平台上都可用，因此最终用户始终可以拥有出色的音频和视频体验，使用一键式加入加入会议，以及访问实时字幕和举手等包容性功能。 
 
-由于Microsoft为 Teams 和Teams 会议室带来了新功能，因此我们努力将其引入所有平台，但由于多种因素（包括技术可行性和每个平台的客户反馈等），这些功能可能会在不同的时间推出。 这意味着你可能会在 Windows 上看到某些功能在 Android 平台推出之前推出。 
+由于 Microsoft 为 Teams 和Teams 会议室带来了新功能，因此我们努力将其引入所有平台，但由于多种因素（包括技术可行性和每个平台的客户反馈等），这些功能可能会在不同的时间推出。 这意味着你可能会在 Windows 上看到某些功能在 Android 平台推出之前推出。 
 
-为了帮助你了解不同平台上可用的功能，可以参考下面的图表，该图表将定期更新。 并非所有Teams 会议室功能都将包含在此列表中，因此请继续咨询 [Microsoft 365 路线图](https://www.microsoft.com/en-us/microsoft-365/roadmap)，并Microsoft销售代表了解更多详细信息。    
+为了帮助你了解不同平台上可用的功能，可以参考下面的图表，该图表将定期更新。 并非所有Teams 会议室功能都将包含在此列表中，因此请继续咨询 [Microsoft 365 路线图](https://www.microsoft.com/en-us/microsoft-365/roadmap)和 Microsoft 销售代表以了解其他详细信息。    
 
 ## <a name="teams-devices-for-shared-spaces"></a>共享空间的 Teams 设备
 
@@ -50,7 +50,7 @@ Microsoft Teams 会议室体验的设计考虑到了客户。 每个客户都有
 |                                          | 直接来宾加入                                                                                            | 在线                                                                                                                                      | 有空                                           |
 | **会议参与和协作** | 直观的专用应用体验                                                                      | 在线                                                                                                                                      | 有空                                           |
 |                                          | 视频和内容布局 (例如，“一起模式”、“大型库”、“仅限库”以及库和内容)  | 在线                                                                                                                                      | 有空                                           |
-|                                          | 前行布局                                                                                             | 在线                                                                                                                                      | 不可用                                       |
+|                                          | 前行布局                                                                                             | 在线                                                                                                                                      | 即将提供                                       |
 |                                          | 聊天气泡                                                                                                 | 在线                                                                                                                                      | 即将提供                                         |
 |                                          | 举手，下所有手                                                                                  | 在线                                                                                                                                      | 有空                                           |
 |                                          | 固定多个参与者                                                                                    | 在线                                                                                                                                      | 即将提供                                         |
@@ -60,7 +60,7 @@ Microsoft Teams 会议室体验的设计考虑到了客户。 每个客户都有
 |                                          | 实时隐藏式字幕                                                                                         | 在线                                                                                                                                      | 有空                                           |
 |                                          | 云录制和会议听录                                                                    | 在线                                                                                                                                      | 有空                                           |
 |                                          | 使用 Surface Hub 协调会议                                                                        | 在线                                                                                                                                      | 不可用                                       |
-|                                          | Microsoft白板 (屏幕墨迹书写与触摸屏显示)                                    | 在线                                                                                                                                      | 有空                                           |
+|                                          | Microsoft Whiteboard (屏幕墨迹书写，支持触摸屏显示)                                    | 在线                                                                                                                                      | 有空                                           |
 |                                          | 智能内容捕获                                                                                  | 在线                                                                                                                                      | 即将提供                                         |
 | **会议和设备控件**          | 移动设备上的会议室遥控器                                                                               | 在线                                                                                                                                      | 有空                                           |
 |                                          | 无线共享                                                                                             | 在线                                                                                                                                      | 有空                                           |
@@ -83,6 +83,7 @@ Microsoft Teams 会议室体验的设计考虑到了客户。 每个客户都有
 |                                          | 自动 Teams 应用更新                                                                                  | 在线                                                                                                                                      | 有空                                           |
 |                                          | 设备自动注册                                                                                       | 在线                                                                                                                                      | 有空                                           |
 |                                          | 通话质量分析                                                                                       | 在线                                                                                                                                      | 有空                                           |
+|                                          | 自定义主题                                                                                       | 在线                                                                                                                                      | 不可用                                           |
 | **适合/空间**                     | 焦点 (2-4 人)                                                                                            | 在线                                                                                                                                      | 有空                                           |
 |                                          | 小 (4-6 人)                                                                                            | 在线                                                                                                                                      | 有空                                           |
 |                                          | 中等 (6-12 人)                                                                                          | 在线                                                                                                                                      | 有空                                           |

@@ -28,12 +28,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization.
-ms.openlocfilehash: eaf08af459a5f6149b3068802b104c1458dfc727
-ms.sourcegitcommit: 0a13f96663c7466b08d654bedcb6206f302189a1
+ms.openlocfilehash: f09517572b27fb67ab9657dcfa4c7bd4c5c7867b
+ms.sourcegitcommit: 66d8e3d7a29a03c5deba9780964bc03f6587017f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/22/2022
-ms.locfileid: "69139106"
+ms.lasthandoff: 01/11/2023
+ms.locfileid: "69774717"
 ---
 # <a name="calling-plans-for-microsoft-teams"></a>Microsoft Teams 通话套餐
 
@@ -56,6 +56,9 @@ ms.locfileid: "69139106"
 
   - **即用即付通话套餐区域 2**：为奥地利、比利时、克罗地亚、捷克共和国、丹麦、爱沙尼亚、芬兰、法国、德国、匈牙利、爱尔兰、意大利、拉脱维亚、立陶宛、卢森堡、荷兰、新西兰、挪威、波兰、葡萄牙、罗马尼亚、新加坡、斯洛伐克、斯洛文尼亚、南非、西班牙、瑞典和瑞士的用户购买此套餐。
     - 区域 2 许可证目前在美国和波多黎各不可用。
+
+> [!NOTE]
+> 墨西哥有自己的即用即付通话计划。 它不属于任何区域。 必须购买独立的即用即付通话套餐。
 
 同一国家/地区的所有用户 (这是Microsoft 365 管理中心) 许可区域中定义的用户国家/地区位置，同一通话套餐共享分钟池。 例如，如果有 100 个用户位于同一国家/地区，分配了 120 分钟的国内通话套餐，则他们共享一个 12，000 分钟的池。 超过这些分钟的所有调用均按分钟计费。
 

@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: 管理员可以阅读Microsoft Teams 会议室的发行说明，其中列出了Microsoft Teams 会议室中的累积改进。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 256ab81b195d5a758e07c24741b1dc8a7ff13218
-ms.sourcegitcommit: b710fc61558a0e031d4e3e4000f234c495e2c4c6
+ms.openlocfilehash: f6d600552c2f636618ff14a1ccf88be60df74879
+ms.sourcegitcommit: 66d8e3d7a29a03c5deba9780964bc03f6587017f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/17/2022
-ms.locfileid: "69438360"
+ms.lasthandoff: 01/11/2023
+ms.locfileid: "69774727"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Microsoft Teams 会议室发行说明
 
@@ -40,7 +40,7 @@ Teams 会议室受新式生命周期策略的约束。 有关详细信息，请�
 
 |释放 |发布到 <br/> Microsoft Store |
 |--- |--- |
-|4.15.54.0 | 12/15/2022 |
+|4.15.58.0 | 12/15/2022 |
 |4.14.24.0 |9/2/2022 |
 |4.13.132.0 |8/2/2022 |
 |4.12.139.0 |7/14/2022 |
@@ -97,7 +97,7 @@ Teams 会议室受新式生命周期策略的约束。 有关详细信息，请�
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft Teams 会议室功能介绍和问题解决
 
-### <a name="415540-12152022"></a>4.15.54.0 (2022/12/15) 
+### <a name="415580-12152022"></a>4.15.58.0 (2022/12/15) 
 
 此更新中引入：
 
@@ -121,7 +121,7 @@ Teams 会议室受新式生命周期策略的约束。 有关详细信息，请�
 - 固定和隐藏会议室视频
 - 用于在双显示Teams 会议室 <sup>1</sup> 中关闭拆分库的管理员配置
 - 双显示Teams 会议室现在最多可以显示 18 个参与者视频流
-- 支持Microsoft Teams 会议室专业版和Microsoft Teams 会议室基本会议室许可证
+- 支持Microsoft Teams 会议室专业版和 Microsoft Teams 会议室基本会议室许可证
 
 <sup>1</sup> 有关通过 XML 关闭拆分库的管理员配置，请参阅[使用 XML 配置文件远程管理Microsoft Teams 会议室控制台设置](../rooms/xml-config-file.md)。
 
@@ -167,9 +167,9 @@ Teams 会议室受新式生命周期策略的约束。 有关详细信息，请�
 ### <a name="4121260-4272022"></a>4.12.126.0 (2022/4/27) 
 
 此更新中引入：
-- IT 管理员可以注册 Teams 会议室设备，以通过 XML 设置接收公共预览功能。 注册后，设备将开始接收 beta 版功能。 Microsoft [Teams 公共预览版 - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview) <sup>1，2</sup> 中宣布了进入 beta 测试的所有功能  
+- IT 管理员可以注册 Teams 会议室设备，以通过 XML 设置接收公共预览功能。 注册后，设备将开始接收 beta 版功能。 Microsoft [Teams 公共预览版 -Microsoft Tech Community](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview) <sup>1，2</sup> 中宣布了进入 beta 测试的所有功能  
 - IT 管理员可以通过 XML 设置<sup>2</sup> 远程设置会议室前显示分辨率和缩放
-- IT 管理员可以通过 XML 设置<sup>3</sup> 禁用Microsoft干扰抑制 
+- IT 管理员可以通过 XML 设置<sup>3</sup> 禁用 Microsoft 噪音抑制 
 - IT 管理员可以通过注册表项设置<sup>4</sup> 替代设备上的下载文件夹清理
 - 让用户加入托管在另一个云 (上的 Teams 会议，即 GCCH 客户可以加入在商业云上托管的 Teams 会议，反之亦然)  
 - Teams 会议室现在阻止从PowerPoint Live中的 URL 启动边缘浏览器，这是使用触摸显示器的 Teams 会议室的附加安全措施 
@@ -260,7 +260,7 @@ Teams 会议室受新式生命周期策略的约束。 有关详细信息，请�
 ### <a name="49120-7282021"></a>4.9.12.0 (2021/7/28) 
 
 此更新中引入：
-- Microsoft“仅 Teams”模式现在可在应用程序设置中使用，因此无需再设置Skype for Business帐户。 在此模式下，登录到 Teams 仅模式的设备以来宾用户身份加入Skype for Business会议。
+- 仅 Microsoft Teams 模式现在可在应用程序设置中使用，因此无需再设置Skype for Business帐户。 在此模式下，登录到 Teams 仅模式的设备以来宾用户身份加入Skype for Business会议。
 - 修复了导致呼叫音量降低的 HDMI 音频问题。 对于具有应用程序版本 4.9.12.0 的所有设备，将自动启用 HDMI 音频功能。
 
 > [!NOTE]
@@ -421,16 +421,16 @@ Teams 会议室受新式生命周期策略的约束。 有关详细信息，请�
 此更新中引入：
 
 - Skype 会议室系统应用商店应用将品牌重塑为“Microsoft Teams 会议室”
-- Microsoft Teams 会议室控制台用户界面重新对齐到Microsoft Teams
+- Microsoft Teams 会议室与 Microsoft Teams 重新对齐的控制台用户界面
 - 主题更新：仅保留会议室显示器前面的自定义背景图像，同时将主机背景设置为中性颜色，以确保主机 UI 控件满足颜色对比度 - 辅助功能要求
-- 用于 Teams 呼叫/会议的会议内呼叫控件的通用栏，以提供与Microsoft Teams 电脑/Web/移动客户端一致的体验<sup>1</sup>
+- 用于 Teams 呼叫/会议的会议内呼叫控件的通用栏，以提供与 Microsoft Teams 电脑/Web/移动客户端一致的体验<sup>1</sup>
 - Teams 通话/会议后通话质量反馈评分<sup>1</sup>
-- 从电脑/Web/移动 Teams 客户端共享时，在会议室显示Microsoft Teams 会议室前方接收/Microsoft 呈现白板<sup>1</sup> <sup>2</sup>
+- 从电脑/Web/移动 Teams 客户端<sup>1</sup> <sup>2</sup> 共享时，在会议室显示器前面 Microsoft Teams 会议室接收/呈现 Microsoft Whiteboard
 - 由于 Microsoft Teams 会议室 客户端的兼容性问题，删除了对 Windows 10 版本 1809 升级的支持。 Windows 10版本 19H1 支持将在将来的版本中添加
 
-<sup>1</sup> Microsoft使用 Teams 环的 Teams 服务推出。 此功能可能早于 4.0.105.0 客户端更新提供
+<sup>1</sup> 使用 Teams 环推出 Microsoft Teams 服务。 此功能可能早于 4.0.105.0 客户端更新提供
 
-<sup>2</sup> 要求 IT 管理员打开Microsoft Whiteboard。 此外，如果你有一个支持触摸的房间显示器的前面，你必须使用 Windows 设置校准多个触摸显示器，并具有设备管理员登录名，以开始使用Microsoft Whiteboard 从共享到 Teams 会议的房间显示器进行协作
+<sup>2</sup> 要求 IT 管理员打开 Microsoft Whiteboard。 此外，如果你有一个支持触摸的会议室显示正面，你必须使用 Windows 设置校准多个触摸显示器，并具有设备管理员登录名，以开始使用 Microsoft Whiteboard 从共享到 Teams 会议中的会议室显示器进行协作
 
 ### <a name="40850-0482019"></a>4.0.85.0 (2019/04/8) 
 
@@ -449,7 +449,7 @@ Teams 会议室受新式生命周期策略的约束。 有关详细信息，请�
 
 此更新中引入：
 
-- 用于Microsoft Teams P2P 会议和 PSTN 呼叫的 DTMF 键盘。 若要使Microsoft Teams 成为默认呼叫客户端，管理员必须将 IsTeamsDefaultClient 设置为 true
+- 用于 Microsoft Teams P2P 会议和 PSTN 呼叫的 DTMF 键盘。 若要使 Microsoft Teams 成为默认呼叫客户端，管理员必须将 IsTeamsDefaultClient 设置为 true
 - 将远程参与者的传入视频固定到会议室屏幕前的全屏。 在主机上使用参与者名单中的“固定”命令
 - 通过添加会议室前通知对大厅通知的改进
 - Microsoft Teams 会议室设备上未启用蓝牙信标时，删除了会议室前显示转换图标
@@ -515,7 +515,7 @@ Teams 会议室受新式生命周期策略的约束。 有关详细信息，请�
 
 此更新中引入：
 
-- 使Microsoft能够更灵活地管理 Windows 汇报的更改。
+- 使 Microsoft 能够更灵活地管理 Windows 汇报的更改。
 - 最终用户体验没有变化。
 
 ### <a name="311120-06052018"></a>3.1.112.0 (2018/06/05) 
