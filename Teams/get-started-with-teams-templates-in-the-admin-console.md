@@ -22,12 +22,12 @@ ms.custom:
 - chat-teams-channels-revamp
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a92848867cfa10782fdbb2d465fdd44f59ab9f8d
-ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
+ms.openlocfilehash: 063f84ffc0b34c99ff937c4a5496d5df3be2ddf5
+ms.sourcegitcommit: 387141880842c93ecf4a936aaa26342a3f996259
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2022
-ms.locfileid: "69198474"
+ms.lasthandoff: 01/12/2023
+ms.locfileid: "69778982"
 ---
 # <a name="get-started-with-team-templates-in-the-teams-admin-center"></a>在管理中心内开始使用 Teams 模板
 
@@ -42,12 +42,12 @@ ms.locfileid: "69198474"
 
 Microsoft Teams 中的团队模板是围绕业务需求或项目设计的团队结构的定义。 作为管理员，你可以使用模板在组织中轻松部署一致的团队。 借助模板，用户可以使用预定义的设置、频道和应用快速创建丰富的协作空间。
 
-可以在 Microsoft Teams 管理中心或使用 PowerShell 来管理团队模板。 可以使用我们提供的预生成模板，还可以 [创建自己的自定义模板](#create-your-own-team-templates)。 还可以 [应用模板策略](#apply-team-template-policies) 来控制哪些模板可供 Teams 中的用户使用。
+可以在 Microsoft Teams 管理中心或使用 PowerShell 管理团队模板。 可以使用我们提供的预生成模板，还可以 [创建自己的自定义模板](#create-your-own-team-templates)。 还可以 [应用模板策略](#apply-team-template-policies) 来控制哪些模板可供 Teams 中的用户使用。
 
 本文概述了如何在 Teams 管理中心使用团队模板。 你将了解模板中支持的属性、我们提供的预生成模板、模板大小限制、如何创建和管理模板等。
 
 > [!NOTE]
-> 用户可以 [从 Teams 应用中的预生成或自定义团队模板创建团队](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c) 。 开发人员还可以使用 Microsoft Graph 从预生成或自定义团队模板以编程方式创建团队。 若要了解详细信息，请参阅[使用 Microsoft Graph 开始使用团队模板](get-started-with-teams-templates.md)。
+> 用户可以 [从 Teams 应用中的预生成或自定义团队模板创建团队](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c) 。 开发人员还可以使用 Microsoft Graph 从预生成或自定义团队模板以编程方式创建团队。 若要了解详细信息，请参阅 [使用 Microsoft Graph 开始使用团队模板](get-started-with-teams-templates.md)。
 
 ## <a name="team-template-capabilities"></a>团队模板功能
 
@@ -74,27 +74,28 @@ Microsoft Teams 中的团队模板是围绕业务需求或项目设计的团队�
 可以复制预生成的模板，但不能对其进行编辑。 如果要更改预生成模板中的属性，可以从现有模板创建新模板，然后添加或删除所需的属性。 请记住，某些模板中的某些属性无法更改。
 
 > [!NOTE]
-> 星号 (*) 指示模板是 *Microsoft 365 连接的模板*。 当用户使用模板创建团队时，连接的 SharePoint 模板将应用于网站和团队。 SharePoint 组件（如页面、列表和 Power Platform 集成）会自动添加并固定为选项卡到团队中的“常规”频道。 用户可以直接从 Teams 中编辑这些页面和列表。
+> 星号 (*) 指示该模板是 *Microsoft 365 连接的模板*。 当用户使用模板创建团队时，连接的 SharePoint 模板将应用于网站和团队。 SharePoint 组件（如页面、列表和 Power Platform 集成）会自动添加并固定为选项卡到团队中的“常规”频道。 用户可以直接从 Teams 中编辑这些页面和列表。
 >
 > 若要了解有关 SharePoint 模板的详细信息，请参阅 [应用和自定义 SharePoint 网站模板](https://support.microsoft.com/office/apply-and-customize-sharepoint-site-templates-39382463-0e45-4d1b-be27-0e96aeec8398#ID0EDBJ=Team_site_templates)。
 
 >[!div class="mx-tdBreakAll"]
 >| 模板类型 | TemplateId | 此基本模板包含的属性 |
 >| ------------------ | -------------- | ----------------------------------------------------- |
->| 管理项目* |`com.microsoft.teams.template.ManageAProject`| 频道： <ul><li>常规</li> <li>公告</li> <li>资源</li> <li>规划</li></ul> 应用：<ul><li>审批</li><li>公告</li><li>列表<ul><li>项目跟踪器</li><li>问题跟踪器</li></ul></li><li>里程碑</li><li>OneNote</li><li>Power Automate</li><li>SharePoint Pages<ul><li>我们的站点</li></ul></li><li>按 Planner 和 To Do 完成的任务</li><li>Wiki</li></ul> |
-| 管理事件*|`com.microsoft.teams.template.ManageAnEvent` | 频道： <ul><li>常规</li> <li>公告</li> <li>预算</li> <li>内容</li><li>后勤工作</li> <li>规划</li> <li> 市场营销和公关</li></ul> 应用：<ul><li>审批</li><li>公告</li> <li>员工想法</li><li>列表<ul><li>内容计划程序</li></ul></li><li>里程碑</li> <li>OneNote</li> <li>Power Automate</li> <li>SharePoint Pages<ul><li>我们的站点</li><li>关于我们的活动</li></ul><li>按 Planner 和 To Do 完成的任务</li><li>Wiki</li> |
+>|管理项目* |`com.microsoft.teams.template.ManageAProject`| 频道： <ul><li>常规</li> <li>公告</li> <li>资源</li> <li>规划</li></ul> 应用：<ul><li>审批</li><li>公告</li><li>列表<ul><li>项目跟踪器</li><li>问题跟踪器</li></ul></li><li>里程碑</li><li>OneNote</li><li>Power Automate</li><li>SharePoint Pages<ul><li>我们的站点</li></ul></li><li>按 Planner 和 To Do 完成的任务</li><li>Wiki</li></ul> |
+|管理事件*|`com.microsoft.teams.template.ManageAnEvent` | 频道： <ul><li>常规</li> <li>公告</li> <li>预算</li> <li>内容</li><li>后勤工作</li> <li>规划</li> <li> 市场营销和公关</li></ul> 应用：<ul><li>审批</li><li>公告</li> <li>员工想法</li><li>列表<ul><li>内容计划程序</li></ul></li><li>里程碑</li> <li>OneNote</li> <li>Power Automate</li> <li>SharePoint Pages<ul><li>我们的站点</li><li>关于我们的活动</li></ul><li>按 Planner 和 To Do 完成的任务</li><li>Wiki</li> |
 |加入员工*|`com.microsoft.teams.template.OnboardEmployees` | 频道： <ul><li>常规</li> <li>公告</li> <li>员工聊天</li> <li>培训</li></ul>应用：<ul><li>公告</li><li>员工想法</li><li>列表<ul><li>载入清单</li></ul></li><li>里程碑</li><li>Power Automate</li> <li>SharePoint Pages<ul><li>开始使用</li><li>培训</li></ul><li>按 Planner 和 To Do 完成的任务</li><li>Viva Engage</li><li>Wiki</li></ul>|
-| 采用Office 365 |`com.microsoft.teams.template.AdoptOffice365`|  频道： <ul><li>常规</li> <li>公告</li> <li>冠军角</li> <li>团队表单</li><li>日历</li></ul> 应用： <ul><li>Wiki</li>  <li>频道日历</li> <li>里程碑</li><li>公告</li></ul>
+|采用Office 365 |`com.microsoft.teams.template.AdoptOffice365`|  频道： <ul><li>常规</li> <li>公告</li> <li>冠军角</li> <li>团队表单</li><li>日历</li></ul> 应用： <ul><li>公告</li>  <li>频道日历</li> <li>里程碑</li><li>Wiki</li></ul>|
 |组织技术支持*| `com.microsoft.teams.template.OrganizeHelpDesk`|频道：<ul><li>常规</li><li>公告</li><li>常见问题</li></ul>应用：<ul><li>问题报告</li><li>列表<ul><li>设备</li><li>票</li></ul></li><li>OneNote</li><li>Power Automate</li><li>SharePoint Pages<ul><li>我们的站点</li><li>常见问题解答</li></ul></li><li>按 Planner 和 To Do 完成的任务</li><li>Wiki</li></ul> |
-|事件响应| `com.microsoft.teams.template.CoordinateIncidentResponse`|频道： <ul><li>常规<li>公告</li><li>后勤工作</li><li>规划</li><li>恢复</li><li>紧急</li></ul> 应用： <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>任务</li> <li>审批</li> <li>检查</li> <li>Power Automate</li><li>公告</li><li>里程碑</li></ul>|
-| 危机通信* |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| 频道： <ul><li>常规<li>公告</li><li>高管更新</li><li>规划</li><li>后勤工作</li></ul>应用： <ul><li>审批</li><li>问题报告</li><li>列表<ul><li>内容计划程序</li><li>项目计划</li></ul></li><li>OneNote</li><li>Power Automate</li><li>SharePoint Pages<ul><li>我们的站点</li><li>最新更新</li></ul><li>按 Planner 和 To Do 完成的任务</li>|
-| 管理应用商店*| `com.microsoft.teams.template.retailStore` |频道： <ul><li>常规<li>Shift Handoff</li><li>存储就绪情况</li><li>学习</li></ul> 应用： <ul><li>审批</li><li>检查</li><li>列表<ul><li>清单列表</li></ul></li><li>SharePoint Pages<ul><li>我们的商店</li></ul></li><li>排班</li><li>按 Planner 和 To Do 完成的任务</li><li>Wiki</li></ul>|
-|银行分行| `com.microsoft.teams.template.CollaborateWithinABankBranch`|频道： <ul><li>常规<li>公告</li><li>小型会议室</li><li>客户会议</li><li>审批请求 </li><li>指导</li><li>技能开发</li><li>贷款处理</li><li>客户投诉</li><li>称赞</li><li>有趣的内容</li><li>合规性</li></ul>应用：<ul><li>表扬 </li><li>问题发布者</li><li>Wiki</li><li>日历</li><li>审批</li><li>公告</li><li>想法</li></ul>|
-| 患者护理| `com.microsoft.teams.template.healthcareWard`| 频道：<ul><li>常规</li><li>公告</li><li>小型会议室</li><li>循环配置</li><li>人员配备</li><li>培训</li></ul> 应用： <ul><li>Wiki</li><li>列表  </li><li>审批</li><li>公告</li><li>检查</li></ul>|
-|医院| `com.microsoft.teams.template.healthcareHospital` |频道： <ul><li>常规</li><li>公告</li><li>合规性</li><li>保管</li><li>人力资源</li><li>药房</li></ul> 应用： <ul><li>Wiki</li><li>列表</li><li>任务</li><li>审批</li><li>排班</li><li>公告</li><li>检查</li><li>想法</li></ul>|
-|质量与安全 |`com.microsoft.teams.template.QualitySafety`|频道： <ul><li>常规<li>公告</li><li>领导</li><li>维护</li><li>生产线 1</li><li>生产线 2</li><li>生产线 3</li><li>健康和安全</li><li>培训</li><li>有趣的内容</li></ul> 应用： <ul><li>Wiki</li><li>任务</li> <li>问题发布者</li> <li>检查</li> </ul>|
+|事件响应| `com.microsoft.teams.template.CoordinateIncidentResponse`|频道： <ul><li>常规<li>公告</li><li>后勤工作</li><li>规划</li><li>恢复</li><li>紧急</li></ul> 应用： <ul><li>审批</li><li>公告</li><li>Excel</li><li>检查</li><li>里程碑</li> <li>OneNote</li> <li>Power Automate</li> <li>SharePoint</li><li>按 Planner 和 To Do 完成的任务</li><li>Wiki</li></ul>|
+|危机通信* |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| 频道： <ul><li>常规<li>公告</li><li>高管更新</li><li>规划</li><li>后勤工作</li></ul>应用： <ul><li>审批</li><li>问题报告</li><li>列表<ul><li>内容计划程序</li><li>项目计划</li></ul></li><li>OneNote</li><li>Power Automate</li><li>SharePoint Pages<ul><li>我们的站点</li><li>最新更新</li></ul><li>按 Planner 和 To Do 完成的任务</li>|
+|管理应用商店*| `com.microsoft.teams.template.retailStore` |频道： <ul><li>常规<li>Shift Handoff</li><li>存储就绪情况</li><li>学习</li></ul> 应用： <ul><li>审批</li><li>检查</li><li>列表<ul><li>清单列表</li></ul></li><li>SharePoint Pages<ul><li>我们的商店</li></ul></li><li>排班</li><li>按 Planner 和 To Do 完成的任务</li><li>Wiki</li></ul>|
+|银行分行| `com.microsoft.teams.template.CollaborateWithinABankBranch`|频道： <ul><li>常规<li>公告</li><li>小型会议室</li><li>客户会议</li><li>审批请求 </li><li>指导</li><li>技能开发</li><li>贷款处理</li><li>客户投诉</li><li>称赞</li><li>有趣的内容</li><li>合规性</li></ul>应用：<ul><li>审批</li><li>公告</li><li>频道日历</li><li>员工想法</li><li>问题报告</li><li>表扬</li><li>排班</li><li>Wiki</li></ul>|
+|患者护理| `com.microsoft.teams.template.healthcareWard`| 频道：<ul><li>常规</li><li>公告</li><li>小型会议室</li><li>循环配置</li><li>人员配备</li><li>培训</li></ul> 应用： <ul><li>审批</li><li>公告</li><li>检查</li><li>列表</li><li>排班</li><li>按 Planner 和 To Do 完成的任务</li><li>Wiki</li></ul>|
+|医院| `com.microsoft.teams.template.healthcareHospital` |频道： <ul><li>常规</li><li>公告</li><li>合规性</li><li>保管</li><li>人力资源</li><li>药房</li></ul> 应用： <ul><li>审批</li><li>公告</li><li>员工想法</li><li>检查</li><li>列表</li><li>排班</li><li>按 Planner 和 To Do 完成的任务</li><li>Wiki</li></ul>|
+|质量与安全 |`com.microsoft.teams.template.QualitySafety`|频道： <ul><li>常规</li><li>领导</li><li>维护</li><li>生产线 1</li><li>生产线 2</li><li>生产线 3</li><li>健康和安全</li><li>培训</li><li>有趣的内容</li></ul> 应用： <ul><li>审批</li><li>检查</li><li>问题报告</li><li>排班</li> <li>按 Planner 和 To Do 完成的任务</li> <li>Wiki</li> </ul>|
 |面向经理的零售*| `com.microsoft.teams.template.retailManagerCollaboration` |频道： <ul><li>常规<li>运营</li><li>学习</li></ul> 应用： <ul><li>审批</li><li>检查</li><li>SharePoint Pages<ul><li>我们的商店</li></ul></li><li>按 Planner 和 To Do 完成的任务</li><li>Wiki</li></ul>|
-|管理志愿者| `com.microsoft.teams.template.ManageVolunteers` |频道： <ul><li>常规<li>公告</li><li>报告</li><li>志愿者管理</li><li>参与机会</li><li>志愿者登录</li></ul> 应用： <ul><li>网站</li><li>YouTube</li><li>Power BI</li><li>Power Apps</li><li>任务</li><li>SharePoint</li><li>OneNote</li></ul>|
+|管理志愿者| `com.microsoft.teams.template.ManageVolunteers` |频道： <ul><li>常规<li>公告</li><li>报告</li><li>志愿者管理</li><li>参与机会</li><li>志愿者登录</li></ul> 应用： <ul><li>OneNote</li><li>Power Apps</li><li>Power BI</li><li>SharePoint</li><li>按 Planner 和 To Do 完成的任务</li><li>网站</li><li>YouTube</li></ul>|
+|一线协作| `com.microsoft.teams.template.Frontline` |频道： <ul><li>常规<li>公告</li><li>Shift Handoff</li><li>运营</li><li>学习</li></ul> 应用： <ul><li>审批</li><li>问题报告</li><li>列表</li><li>表扬</li><li>排班</li><li>按 Planner 和 To Do 完成的任务</li></ul>|
 
 ### <a name="team-templates-by-category-and-industry"></a>按类别和行业划分的团队模板
 

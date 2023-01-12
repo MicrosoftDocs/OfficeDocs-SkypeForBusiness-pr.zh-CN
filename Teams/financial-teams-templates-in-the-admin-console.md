@@ -20,12 +20,12 @@ ms.custom:
 - chat-teams-channels-revamp
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 096bab4289d5ac9e81c63f83cd73efd41d98e7be
-ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
+ms.openlocfilehash: 4ea67bec0fd8750e32ebb5f65d0258fa7c172a46
+ms.sourcegitcommit: 387141880842c93ecf4a936aaa26342a3f996259
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2022
-ms.locfileid: "69198685"
+ms.lasthandoff: 01/12/2023
+ms.locfileid: "69778942"
 ---
 # <a name="use-financial-team-templates"></a>使用财务团队模板
 
@@ -50,27 +50,27 @@ Teams 包括专为金融服务组织设计的模板。 使用这些预建模板�
 
 我们当前为金融服务组织提供以下预建的团队模板。 若要查看，请在 Teams 管理中心的左侧导航栏中，转到 **Teams** > **团队模板**。
 
-### <a name="collaborate-within-a-bank-branch"></a>在银行分支机构内协作
+### <a name="bank-branch"></a>银行分行
 
 通过碰头会、客户会议、业务流程(如按揭合作)使银行分支机构员工集中协作，并通过“公告”和“称赞”让每个人都参与其中。
 
-| 模板类型 |TemplateId| 此基本模板包含的属性 |
-| ------------------ |--|----------------------------------------------------- |
-|银行分支机构| `CollaborateWithinABankBranch`|频道： <ul><li>常规<li>公告</li><li>小型会议室</li><li>客户会议</li><li>审批请求 </li><li>指导</li><li>技能开发</li><li>贷款处理</li><li>客户投诉</li><li>称赞</li><li>有趣的内容</li><li>合规性</li></ul>应用：<ul><li>表扬 </li><li>问题发布者</li><li>Wiki</li><li>日历</li><li>审批</li><li>公告</li><li>想法</li></ul>|
-||||
+>[!div class="mx-tdBreakAll"]
+>| 模板类型 |TemplateId| 此基本模板包含的属性 |
+>| ------------------ |--|----------------------------------------------------- |
+>|银行分行| `com.microsoft.teams.template.CollaborateWithinABankBranch`|频道： <ul><li>常规<li>公告</li><li>小型会议室</li><li>客户会议</li><li>审批请求 </li><li>指导</li><li>技能开发</li><li>贷款处理</li><li>客户投诉</li><li>称赞</li><li>有趣的内容</li><li>合规性</li></ul>应用：<ul><li>审批</li><li>公告</li><li>频道日历</li><li>员工想法</li><li>问题报告</li><li>表扬</li><li>排班</li><li>Wiki</li></ul>|
 
 ## <a name="use-team-templates-with-microsoft-graph"></a>将 Teams 模板与 Microsoft Graph 一起使用
 
 Developers can use Microsoft Graph to create teams from pre-built team templates. To learn more about using team templates with Microsoft Graph, see [Get started with team templates using Microsoft Graph](get-started-with-teams-templates.md), [Microsoft Teams API overview](/graph/teams-concept-overview?view=graph-rest-1.0&preserve-view=true), and [teamsTemplate resource type](/graph/api/resources/teamstemplate?view=graph-rest-1.0&preserve-view=true).
 
-### <a name="bank-branch"></a>银行分支机构
+### <a name="bank-branch"></a>银行分行
 
 通过碰头会、客户会议、业务流程(如按揭合作)使银行分支机构员工集中协作，并通过“公告”和“称赞”让每个人都参与其中。
 
-| 模板类型 |TemplateId| 模板频道 |
-| ------------------ |--|----------------------------------------------------- |
-|银行分支机构|`https://graph.microsoft.com/beta/teamsTemplates('CollaborateWithinABankBranch')`|常规<br>公告<br>小型会议室<br>客户会议<br>审批请求<br>指导<br>技能开发<br>贷款处理<br>客户投诉<br>称赞<br>有趣的内容<br>合规性|
-||||
+>[!div class="mx-tdBreakAll"]
+>| 模板类型 |TemplateId| 模板频道 |
+>| ------------------ |--|----------------------------------------------------- |
+>|银行分行|`https://graph.microsoft.com/beta/teamsTemplates('CollaborateWithinABankBranch')`|常规<br>公告<br>小型会议室<br>客户会议<br>审批请求<br>指导<br>技能开发<br>贷款处理<br>客户投诉<br>称赞<br>有趣的内容<br>合规性|
 
 > [!NOTE]
 > 有关适用于金融服务组织的其他模板，请参阅[在 Microsoft Graph 中为中小型企业构建团队模板](smb-templates.md)。

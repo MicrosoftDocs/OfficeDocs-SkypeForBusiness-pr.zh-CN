@@ -20,12 +20,12 @@ ms.custom:
 - chat-teams-channels-revamp
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 01621d73f1f16fa23a6b4c9042e7d0cecdc2f366
-ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
+ms.openlocfilehash: 287bd53ffee2780927d2aa147f3bc2e2e07b3dbd
+ms.sourcegitcommit: 387141880842c93ecf4a936aaa26342a3f996259
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2022
-ms.locfileid: "69198344"
+ms.lasthandoff: 01/12/2023
+ms.locfileid: "69778972"
 ---
 # <a name="use-general-team-templates-in-the-admin-center"></a>在管理中心使用常规团队模板
 
@@ -33,14 +33,14 @@ ms.locfileid: "69198344"
 
 通过提供预定义的设置、频道和预安装的应用模板，Microsoft Treams 模板让你能够快速轻松地创建团队。
 
-使用团队模板在整个组织中部署一致的团队。 模板还可以帮助用户了解如何有效地使用 Teams。 还可以扩展模板，以创建根据特定组织需求定制的团队。
+使用团队模板在整个组织中部署一致的团队。 模板还可以帮助用户了解如何有效地使用 Teams。
 
 Teams 包括我们针对特定业务需求和项目创建的预构建模板。 在本文中，我们将介绍可在组织中用于各种方案的一般模板类别。
 
 若要了解有关团队模板的详细信息，请参阅[管理中心的 Teams 模板入门](get-started-with-teams-templates-in-the-admin-console.md)。
 
 > [!NOTE]
-> 星号 (*) 指示模板是 *Microsoft 365 连接的模板*。 当用户使用模板创建团队时，连接的 SharePoint 模板将应用于网站和团队。 SharePoint 组件（如页面、列表和 Power Platform 集成）会自动添加并固定为选项卡到团队中的“常规”频道。 用户可以直接从 Teams 中编辑这些页面和列表。
+> 星号 (*) 指示该模板是 *Microsoft 365 连接的模板*。 当用户使用模板创建团队时，连接的 SharePoint 模板将应用于网站和团队。 SharePoint 组件（如页面、列表和 Power Platform 集成）会自动添加并固定为选项卡到团队中的“常规”频道。 用户可以直接从 Teams 中编辑这些页面和列表。
 >
 > 若要了解有关 SharePoint 模板的详细信息，请参阅 [应用和自定义 SharePoint 网站模板](https://support.microsoft.com/office/apply-and-customize-sharepoint-site-templates-39382463-0e45-4d1b-be27-0e96aeec8398#ID0EDBJ=Team_site_templates)。
 

@@ -24,12 +24,12 @@ appliesto:
 ms.reviewer: yinchang
 description: 了解如何管理和使用 Teams 管理中心和 Microsoft Graph 中的医疗保健团队模板，以快速轻松地为医疗保健组织创建团队。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a80d36b51d3f45ca906525d93e502dbfbba1cb6d
-ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
+ms.openlocfilehash: 17f5ce2774dd163f5f244bea0e685623f64ed59f
+ms.sourcegitcommit: 387141880842c93ecf4a936aaa26342a3f996259
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/21/2022
-ms.locfileid: "69131071"
+ms.lasthandoff: 01/12/2023
+ms.locfileid: "69778962"
 ---
 # <a name="use-healthcare-team-templates"></a>使用医疗保健团队模板
 
@@ -53,52 +53,52 @@ Teams 包括专为医疗保健组织设计的模板。 使用这些预建模板�
 若要了解有关团队模板的详细信息，请参阅[管理中心的 Teams 模板入门](../../get-started-with-teams-templates-in-the-admin-console.md)。
 
 我们目前提供以下预构建的医疗保健团队模板。 若要查看，请在 Teams 管理中心的左侧导航栏中，转到 **Teams** > **团队模板**。
+
 ### <a name="patient-care"></a>患者护理
 
- 此模板用于病房、医疗站或科室之间的通信和协作。 该模板可用于促进患者管理和帮助满足病房运营需求。 例如，在公告 *频道* 中发布病房通知，在 *人员配备* 频道中管理班次。
+简化病房、医疗站、或科室内的医疗沟通和协作。 使用此模板可促进患者管理和病房的运营需求。 例如，在公告 *频道* 中发布病房通知，在 *人员配备* 频道中管理班次。
 
-| 模板类型 |TemplateId| 此基本模板包含的属性 |
-| ------------------ |---|----------------------------------------------------- |
-| 患者护理 |`healthcareWard` | 频道：<ul><li>常规</li><li>公告<ul><li>公告&sup1;</li></ul></li><li>碰头会<ul><li>列出 (患者列表) &sup1;</li></ul></li><li>层数<ul><li>检查&sup1;</li></ul></li><li>人员配备</li><li>培训</li></ul> 应用： <ul><li>Wiki</li><li>列表</li><li>任务</li><li>审批</li><li>排班</li><li>公告</li><li>检查</li></ul>|
-||||
+>[!div class="mx-tdBreakAll"]
+>| 模板类型 |TemplateId| 此基本模板包含的属性 |
+>| ------------------ |---|----------------------------------------------------- |
+>| 患者护理 |`healthcareWard` | 频道：<ul><li>常规</li><li>公告</li><li>小型会议室</li><li>循环配置</li><li>人员配备</li><li>培训</li></ul> 应用： <ul><li>审批</li><li>公告</li><li>检查</li><li>列表</li><li>排班</li><li>按 Planner 和 To Do 完成的任务</li><li>Wiki</li></ul>|
 
-&sup1;将应用作为选项卡添加到频道中。
 ### <a name="hospital"></a>医院
 
-该医院模板用于医院内多个病房、医疗站和科室之间的沟通和协作。 此模板包含一组用于医院运营的频道，并且可以扩展用于自定义。
+简化医院内多个病房、医疗站和科室之间的沟通和协作。 此模板包含一组用于医院运营的频道，并且可以扩展用于自定义。
 
-| 模板类型 |TemplateId | 此基本模板包含的属性 |
-| ------------------|-- |----------------------------------------------------- |
-|医院|`healthcareHospital`|频道： <ul><li>常规<ul><li>列出&sup1;</li></ul></li><li>公告<ul><li>公告&sup1;</li></ul></li><li>合规性</li><ul><li>检查&sup1;</li></ul></li><li>保管</li><li>人力资源<ul><li>创意&sup1;</li></ul></li><li>药房</li></ul> 应用： <ul><li>Wiki</li><li>任务</li><li>列表</li><li>审批</li><li>排班</li><li>公告</li><li>检查</li><li>想法</li></ul>|
-||||
+>[!div class="mx-tdBreakAll"]
+>| 模板类型 |TemplateId | 此基本模板包含的属性 |
+>| ------------------|-- |----------------------------------------------------- |
+>|医院|`healthcareHospital`|频道： <ul><li>常规</li><li>公告</li><li>合规性</li></li><li>保管</li><li>人力资源</li><li>药房</li></ul>  应用： <ul><li>审批</li><li>公告</li><li>员工想法</li><li>检查</li><li>列表</li><li>排班</li><li>按 Planner 和 To Do 完成的任务</li><li>Wiki</li></ul>|
 
-&sup1;将应用作为选项卡添加到频道中。
 ## <a name="use-team-templates-with-microsoft-graph"></a>将 Teams 模板与 Microsoft Graph 一起使用
 
 Developers can use Microsoft Graph to create teams from pre-built team templates. To learn more about using team templates with Microsoft Graph, see [Get started with team templates using Microsoft Graph](../../get-started-with-teams-templates.md), [Microsoft Teams API overview](/graph/teams-concept-overview), and [teamsTemplate resource type](/graph/api/resources/teamstemplate).
 
 下面是预建的医疗保健团队模板。
-### <a name="ward"></a>病房
 
-病房模板用于病房、医疗站或科室之间的通信和协作。 该模板可用于促进患者管理和帮助满足病房运营需求。 例如，可在“*公告*”频道中发布病房公告，并可在“*人员配备*”中管理排班。 如果你想要简化病房操作，则此模板适合你。
+### <a name="patient-care"></a>患者护理
 
-|模板类型 |TemplateId |模板频道|
-|:--- |:---|:---|
-|医疗 - 病房 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')`   | 常规<br>公告&sup2; <br> 碰头会&sup2; <br> 层数&sup2; <br> 人员配备&sup2; <br> 训练&sup2; |
-|     | |         |
+此模板用于病房、医疗站或科室之间的通信和协作。 使用此模板可促进患者管理和病房的运营需求。 例如，可在“*公告*”频道中发布病房公告，并可在“*人员配备*”中管理排班。 如果你想要简化病房操作，则此模板适合你。
+
+>[!div class="mx-tdBreakAll"]
+>|模板类型 |TemplateId |模板频道|
+>|:--- |:---|:---|
+>|医疗 - 病房 | `https://graph.microsoft.com/beta/teamsTemplates('healthcareWard')`   | 常规<br>公告&sup2; <br> 碰头会&sup2; <br> 层数&sup2; <br> 人员配备&sup2; <br> 训练&sup2; |
 
 &sup2;自动收藏的频道
 
 ### <a name="hospital"></a>医院
 
-该医院模板用于医院内多个病房、医疗站和科室之间的沟通和协作。 此模板包括多个操作渠道，例如 *公告*、 *库房* 和 *药店*。 我们还提供一个脚本，可用于使用其他部门或专业渠道扩展模板。 可以根据需求对它进行编辑。
+该医院模板用于医院内多个病房、医疗站和科室之间的沟通和协作。 它包括多个运营渠道，例如 *公告*、 *保管* 和 *药房*。 我们还提供了一个脚本，可用于通过更多部门或专业频道扩展模板。 可以根据需求对它进行编辑。
 
-例如，如果有一个 *内分泌* 科室，但不需要设置 *眼科* 频道，则可以调整该脚本，包括 *内分泌* 频道，并删除 *眼科* 频道。 我们建议不要自动收藏这些专科频道或模型以病区为模型的频道，以避免通知饱和。 用户通常会收藏他们发现相关的任何频道。
+例如，如果你有 *内分泌科* ，但不需要 *眼科* 通道，则可以调整脚本以包括 *内分泌学* 通道并删除 *眼科* 通道。 我们建议不要自动收藏这些专科频道或模型以病区为模型的频道，以避免通知饱和。 用户通常会收藏他们发现相关的任何频道。
 
-|模板类型 |TemplateId |模板频道|
-|:--- |:---|:---|
-|医疗 - 医院 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')`   | 常规<br>公告&sup2; <br> 符合性&sup2; <br> 保管 <br> 人力资源 <br> 药房 |
-| | |  |
+>[!div class="mx-tdBreakAll"]
+>|模板类型 |TemplateId |模板频道|
+>|:--- |:---|:---|
+>|医疗 - 医院 | `https://graph.microsoft.com/beta/teamsTemplates('healthcareHospital')`   | 常规<br>公告&sup2; <br> 符合性&sup2; <br> 保管 <br> 人力资源 <br> 药房 |
 
 &sup2;自动收藏的频道
 

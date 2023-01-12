@@ -20,12 +20,12 @@ ms.custom:
 - chat-teams-channels-revamp
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b1818a4eee46cca88c873af35278453ab84b1341
-ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
+ms.openlocfilehash: cd5a1064c4a0104a4eab6d25a3adb0614c12d256
+ms.sourcegitcommit: 387141880842c93ecf4a936aaa26342a3f996259
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2022
-ms.locfileid: "69198954"
+ms.lasthandoff: 01/12/2023
+ms.locfileid: "69779052"
 ---
 # <a name="use-nonprofit-team-templates"></a>使用非营利组织团队模板
 
@@ -35,7 +35,7 @@ ms.locfileid: "69198954"
 
 Teams 包括一个管理志愿者团队模板，旨在简化志愿者管理活动。 使用此预建模板快速创建团队，以便员工就志愿者管理任务和活动进行沟通和协作。
 
-在本文中，你将了解管理志愿者团队模板以及如何使用它来创建团队。 本文还概述了如何在 Teams 管理中心内管理团队模板。
+在本文中，你将了解“管理志愿者团队”模板以及如何使用它来创建团队。 本文还概述了如何在 Teams 管理中心内管理团队模板。
 
 ## <a name="manage-volunteers-team-template"></a>管理志愿者团队模板
 
@@ -43,11 +43,12 @@ Teams 包括一个管理志愿者团队模板，旨在简化志愿者管理活�
 
 此模板包括旨在简化志愿者管理活动的频道和应用。 员工可以组织和共享加入材料和常用文档、查看报告、及时了解重要团队和活动公告等。 该模板还集成了 [Microsoft Cloud for Nonprofit](/industry/nonprofit/) 中的“[自愿者管理](/dynamics365/industry/nonprofit/volunteer-management-use)”应用，使员工能够管理 Microsoft Teams 中的志愿者参与机会。
 
-下面是管理志愿者团队模板附带的频道和应用。
+下面是“管理志愿者”团队模板附带的频道和应用。
 
-| 模板类型 |TemplateId | 此基本模板包含的属性 |
-| ------------------|-- |----------------------------------------------------- |
-|管理志愿者| `ManageVolunteers` |频道： <ul><li>常规<ul><li>网站&sup1;</li></ul><li>公告</li><li>报告<ul><li>Power BI&sup1;</li></ul></li><li>志愿者管理<ul><li>Power Apps&sup1;</li></ul></li><li>参与机会<ul><li>Tasks&sup1;</li></ul></li><li>志愿者登录<ul><li>SharePoint&sup1;</li><li>OneNote&sup1;</li></ul></li></ul> 应用： <ul><li>网站</li><li>YouTube</li><li>Power BI</li><li>Power Apps</li><li>任务</li><li>SharePoint</li><li>OneNote</li></ul>|
+>[!div class="mx-tdBreakAll"]
+>| 模板类型 |TemplateId | 此基本模板包含的属性 |
+>| ------------------|-- |----------------------------------------------------- |
+>|管理志愿者| `com.microsoft.teams.template.ManageVolunteers` |频道： <ul><li>常规<ul><li>网站&sup1;</li></ul><li>公告</li><li>报告<ul><li>Power BI&sup1;</li></ul></li><li>志愿者管理<ul><li>Power Apps&sup1;</li></ul></li><li>参与机会<ul><li>任务由 Planner 和 To Do&sup1;</li></ul></li><li>志愿者登录<ul><li>SharePoint&sup1;</li><li>OneNote&sup1;</li></ul></li></ul>应用： <ul><li>OneNote</li><li>Power Apps</li><li>Power BI</li><li>SharePoint</li><li>按 Planner 和 To Do 完成的任务</li><li>网站</li><li>YouTube</li></ul>|
 
 &sup1;将应用作为选项卡添加到频道中。
 
