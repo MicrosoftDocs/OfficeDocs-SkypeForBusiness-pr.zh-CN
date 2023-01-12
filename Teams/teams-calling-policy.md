@@ -20,12 +20,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a02df903574c7e7db796294ad90c9e05ab732eb0
-ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
+ms.openlocfilehash: a478e203ed973ff2199b4ad500de0441e200918d
+ms.sourcegitcommit: 387141880842c93ecf4a936aaa26342a3f996259
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/02/2022
-ms.locfileid: "69245668"
+ms.lasthandoff: 01/12/2023
+ms.locfileid: "69781433"
 ---
 # <a name="calling-policies-calling-and-call-forwarding-features-in-teams"></a>呼叫策略：Teams 中的呼叫和呼叫转接功能
 
@@ -47,7 +47,7 @@ ms.locfileid: "69245668"
 
 按照以下步骤编辑现有呼叫策略。
 
-1. 在 Microsoft Teams 管理中心的左侧导航栏中，选择“**语音** > **呼叫策略**”。
+1. 在 Microsoft Teams 管理中心的左侧导航栏中，选择“ **语音** > **呼叫策略**”。
 2. 单击要修改的策略旁边的，然后选择 **“编辑**”。
 3. 进行所需的更改，然后单击“ **保存**”。
 
@@ -61,23 +61,23 @@ ms.locfileid: "69245668"
 
 ### <a name="make-private-calls"></a>拨打私人电话
 
-此设置控制 Teams 中的所有通话功能。 关闭此功能可关闭 Teams 中的所有通话功能。
+此设置控制 Teams 中的所有通话功能。 关闭此设置以关闭 Teams 中的所有通话功能。
 
 ### <a name="cloud-recording-for-calling"></a>用于通话的云录制
 
-此设置控制用户是否可以录制呼叫。 默认情况下，这是关闭的。
+此设置控制用户是否可以录制呼叫。 默认情况下，此设置处于关闭状态。
 
 ### <a name="transcription"></a>转录
 
-此设置控制呼叫听录是否可供用户使用。 默认情况下，这是关闭的。
+此设置控制呼叫听录是否可供用户使用。 默认情况下，此设置处于关闭状态。
 
 ### <a name="call-forwarding-and-simultaneous-ringing-to-people-in-your-organization"></a>呼叫转接和同时响铃给组织中的人员
 
-此设置控制传入呼叫是否可以转接到其他用户，或者是否可以同时拨打组织中的另一个人电话。 默认情况下，此选项处于打开状态。
+此设置控制传入呼叫是否可以转接到其他用户，或者是否可以同时拨打组织中的另一个人电话。 默认情况下，此设置处于打开状态。
 
 ### <a name="call-forwarding-and-simultaneous-ringing-to-external-phone-numbers"></a>呼叫转接和同时拨打外部电话号码
 
-此设置控制传入呼叫是可以转接到外部号码，还是可以同时拨打外部号码。 默认情况下，此选项处于打开状态。
+此设置控制传入呼叫是可以转接到外部号码，还是可以同时拨打外部号码。 默认情况下，此设置处于打开状态。
 
 ### <a name="voicemail-is-available-for-routing-inbound-calls"></a>语音邮件可用于路由入站呼叫
 
@@ -89,7 +89,7 @@ ms.locfileid: "69245668"
 
 ### <a name="inbound-calls-can-be-routed-to-call-groups"></a>可将入站呼叫路由到呼叫组
 
-此设置控制传入呼叫是否可以转接到呼叫组。 默认情况下，此选项处于打开状态。
+此设置控制传入呼叫是否可以转接到呼叫组。 默认情况下，此设置处于打开状态。
 
 ### <a name="delegation-for-inbound-and-outbound-calls"></a>入站和出站呼叫的委派
 
@@ -97,7 +97,7 @@ ms.locfileid: "69245668"
 
 ### <a name="prevent-toll-bypass-and-send-calls-through-the-pstn"></a>防止绕过收费并通过 PSTN 发送呼叫
 
-将此设置为 **“开”** 将通过 PSTN 发送呼叫并产生费用，而不是通过网络发送电话并绕过通行费。 默认情况下，此设置处于关闭状态。
+启用此设置将通过 PSTN 发送呼叫并产生费用，而不是通过网络发送电话并绕过通行费。 默认情况下，此设置处于关闭状态。
 
 ### <a name="music-on-hold-for-pstn-calls"></a>PSTN 呼叫的保留音乐
 
@@ -110,14 +110,15 @@ ms.locfileid: "69245668"
 - **未启用** 未启用忙碌选项，并且当用户已在呼叫中时，仍可以向用户发送新的呼叫或传入呼叫。
 - **启用** 新的或传入的呼叫将被拒绝，并显示繁忙的信号。
 - **悬而未决** 将使用用户的未解决设置，例如路由到语音邮件或转发给其他用户。
+- **用户控制** 此选项当前不起作用;如果已设置，则将其读作将值设置为 **“未启用**”。
 
 ### <a name="web-pstn-calling"></a>Web PSTN 呼叫
 
-此设置使用户能够使用 Teams Web 客户端呼叫 PSTN 号码。 默认情况下，此选项处于打开状态。
+此设置使用户能够使用 Teams Web 客户端呼叫 PSTN 号码。 默认情况下，此设置处于打开状态。
 
 ### <a name="real-time-captions-in-teams-calls"></a>Teams 通话中的实时字幕
 
-此设置控制 Teams 通话中的实时字幕是否可供用户使用。 默认情况下，此选项处于打开状态。
+此设置控制 Teams 通话中的实时字幕是否可供用户使用。 默认情况下，此设置处于打开状态。
 
 ### <a name="automatically-answer-incoming-meeting-invites"></a>自动回答传入的会议邀请
 
@@ -125,11 +126,11 @@ ms.locfileid: "69245668"
 
 ### <a name="spam-filtering"></a>垃圾邮件筛选
 
-此设置允许你控制传入呼叫可用的垃圾邮件筛选类型。 可以执行基本和 Captcha 交互式语音 (IVR) 检查。 默认情况下，此选项处于打开状态。
+此设置允许你控制传入呼叫可用的垃圾邮件筛选类型。 可以执行基本和 Captcha 交互式语音 (IVR) 检查。 默认情况下，此设置处于打开状态。
 
 ### <a name="sip-devices-can-be-used-for-calls"></a>SIP 设备可用于呼叫
 
-此设置使用户能够使用 SIP 设备拨打和接听呼叫。 默认情况下，此功能处于关闭状态。
+此设置使用户能够使用 SIP 设备拨打和接听呼叫。 默认情况下，此设置处于关闭状态。
 
 ### <a name="open-apps-in-browser-for-incoming-pstn-calls"></a>在浏览器中为传入 PSTN 呼叫打开应用
 
