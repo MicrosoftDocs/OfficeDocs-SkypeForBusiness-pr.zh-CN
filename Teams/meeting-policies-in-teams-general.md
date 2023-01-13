@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- highpri
 appliesto:
 - Microsoft Teams
 f1.keywords:
@@ -20,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - seo-marvel-apr2020
 description: 了解如何在 Teams 中管理常规会议策略设置。
-ms.openlocfilehash: cc0d704c5a78d09da4c1332d48f795cdb611d134
-ms.sourcegitcommit: 84a832330c0a9f9fb818bbfb22e534fe035c1837
+ms.openlocfilehash: a2fea38c20ab20a735810d228cfeee571d3fdfca
+ms.sourcegitcommit: ca4d1011f3d62af203145431f0b19065ad81601b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/03/2023
-ms.locfileid: "69693375"
+ms.lasthandoff: 01/13/2023
+ms.locfileid: "69799938"
 ---
 # <a name="meeting-policy-settings---general"></a>会议策略设置 - 常规
 

@@ -23,12 +23,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45148768d023b3cb6b609c1f315fe8d71031a573
-ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
+ms.openlocfilehash: e9fbd6e9075ee5680eaae4dc88dde96c842c5a7b
+ms.sourcegitcommit: ca4d1011f3d62af203145431f0b19065ad81601b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/14/2022
-ms.locfileid: "69392192"
+ms.lasthandoff: 01/13/2023
+ms.locfileid: "69800048"
 ---
 # <a name="meetings-webinars-and-live-events"></a>会议、网络研讨会和直播活动
 
@@ -50,14 +50,14 @@ ms.locfileid: "69392192"
 | 网络研讨会 | - 最多 1,000 人<br>-“[仅供查看](view-only-meeting-experience.md)”功能的限制即将增加。 |- 最多 1,000 名参与者具有完全交互式功能。<br> - 观众交互可配置。<br> - 可以指定演示者。 | 是 |
 | 直播活动 | 最多 20，000 人** |- 向大量观众广播。 <br>- 针对观众交互的主持问答。 <br> - 可以指定制作者和演示者，包括外部演示者。<br>- 支持更高级的生产功能。 | 弱 |
 
-*由通常的 10,000 人增加到 2022 年 12 月 31 日的 20,000 人。
+*到 2023 年 6 月 30 日，通常的 10，000 个增加到 20，000 个。
 
-**由通常的 10,000 人增加到 2022 年 12 月 31 日的 20,000 人。 在 Yammer 和/或 Microsoft Stream 中，可以安排人数更为庞大的直播活动。 有关详细信息，请参阅 [跨 Microsoft 365 的直播活动](/stream/live-event-m365)。 请注意，如果与会者人数超过 20,000 人，则活动需要 [直播活动协助计划](/stream/live-events-assistance)。
+**到 2023 年 6 月 30 日，通常的 10，000 增加到 20，000。 在 Yammer 和/或 Microsoft Stream 中，可以安排人数更为庞大的直播活动。 有关详细信息，请参阅 [跨 Microsoft 365 的直播活动](/stream/live-event-m365)。 请注意，如果与会者人数超过 20,000 人，则活动需要 [直播活动协助计划](/stream/live-events-assistance)。
 
 Note that NDI is fully supported in meetings, webinars, and live events, allowing you to produce the broadcast by using tools such as OBS and Wirecast. For more information, see [Use NDI® technology in Microsoft Teams](use-ndi-in-meetings.md).
 
 > [!NOTE]
-> 有关使用 Microsoft Teams 传递联机事件的其他信息以及按角色获取指导，请参阅[虚拟事件 Playbook](https://aka.ms/VirtualEventPlaybook)。 还可以在Microsoft Tech Community加入[虚拟事件论坛](https://aka.ms/VirtualEventForum)。
+> 有关使用 Microsoft Teams 传递联机事件的其他信息以及按角色获取指导，请参阅 [虚拟事件 Playbook](https://aka.ms/VirtualEventPlaybook)。 还可以在Microsoft Tech Community加入[虚拟事件论坛](https://aka.ms/VirtualEventForum)。
 
 > [!NOTE]
 > 有关在不同平台上快速配置 Teams 会议和活动的详细信息，请参阅 [Teams 功能（按平台）](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
@@ -178,7 +178,7 @@ Microsoft enables you to enhance meeting experiences by integrating and using me
 
 对于组织、安排和主持会议、网络研讨会或直播活动的人员，他们需要具有 [Microsoft Teams 服务说明](/office365/servicedescriptions/teams-service-description) 中列出的 Microsoft 365 许可证之一。 如果你已在使用 Teams，则你可能拥有组织和主持会议和直播活动所需的许可证。
 
-有关 Teams 高级许可的信息，请参阅 [Teams 高级许可](teams-add-on-licensing/licensing-enhance-teams.md)。
+有关Teams 高级版许可的信息，请参阅[Teams 高级版许可](teams-add-on-licensing/licensing-enhance-teams.md)。
 
 要允许用户通过电话拨入会议，你需要设置音频会议。 有关音频会议的详细信息，请参阅 [Teams 中的音频会议](deploy-audio-conferencing-teams-landing-page.md)。
 

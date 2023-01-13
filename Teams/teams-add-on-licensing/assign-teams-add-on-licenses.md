@@ -9,6 +9,7 @@ ms.service: msteams
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- highpri
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -16,12 +17,12 @@ ms.reviewer: mikedav
 description: 了解如何向用户分配 Teams 附加许可证，以获取音频会议、电话系统和通话套餐等功能。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 60bde63ab3cc499c022ef2d23b669b543d6f5dd9
-ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
+ms.openlocfilehash: 162169bd3aa7a1641133e8729d4872f8547b58ed
+ms.sourcegitcommit: ca4d1011f3d62af203145431f0b19065ad81601b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/14/2022
-ms.locfileid: "69392082"
+ms.lasthandoff: 01/13/2023
+ms.locfileid: "69799928"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>向用户分配 Teams 附加许可证
 
@@ -38,7 +39,7 @@ ms.locfileid: "69392082"
 
 - 如果使用本地公用电话交换网 (PSTN) 连接，则只需分配Teams 电话标准版许可证。 请勿分配通话套餐许可证。
 
-- 向用户分配Microsoft通话套餐后，最长可能需要 24 小时才能在其 Teams 客户端中看到拨号盘。 如果拨号盘在 24 小时内未显示，请检查 [拨号盘配置](../dial-pad-configuration.md)。 如有必要，还可以 [联系支持人员](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
+- 向用户分配 Microsoft 通话套餐后，最长可能需要 24 小时才能在其 Teams 客户端中看到拨号盘。 如果拨号盘在 24 小时内未显示，请检查 [拨号盘配置](../dial-pad-configuration.md)。 如有必要，还可以 [联系支持人员](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
 
 - 如果未购买正确数量的许可证，则会收到错误消息。 如果需要购买更多通话套餐许可证，请选择购买更多套餐的选项。
 
@@ -125,11 +126,11 @@ ms.locfileid: "69392082"
 
 | 产品名称| SKU 部件名称 |
 |--------------|---------------|
-| Microsoft企业版 E5 (与电话系统)  | ENTERPRISEPREMIUM |
+| Microsoft Enterprise E5 (与电话系统)  | ENTERPRISEPREMIUM |
 | 没有音频会议) 的 Microsoft Enterprise E5 ( | ENTERPRISEPREMIUM_NOPSTNCONF |
-| Microsoft企业版 E5 (与音频会议)  | ENTERPRISEPREMIUM |
-| Microsoft企业版 E3 | ENTERPRISEPACK |
-| Microsoft企业版 E1 | STANDARDPACK |
+| 带音频会议) 的 Microsoft Enterprise E5 ( | ENTERPRISEPREMIUM |
+| Microsoft Enterprise E3 | ENTERPRISEPACK |
+| Microsoft Enterprise E1 | STANDARDPACK |
 | Microsoft 365 商业基础版 | O365_BUSINESS_ESSENTIALS|
 | Microsoft 365 商业标准版 | O365_BUSINESS_PREMIUM|
 | Microsoft 365 商业版 | SPB|
@@ -149,7 +150,7 @@ ms.locfileid: "69392082"
 | Microsoft Teams 会议室专业版 | Microsoft_Teams_Rooms_Pro |
 | 不使用音频会议Microsoft Teams 会议室专业版 | Microsoft_Teams_Rooms_Pro_without_Audio_Conferencing |
 | Microsoft Teams 共享设备 | MCOCAP |
-| Microsoft Teams Premium | Microsoft_Teams_Premium |
+| Microsoft Teams 高级版 | Microsoft_Teams_Premium |
 
 ## <a name="related-content"></a>相关内容
 

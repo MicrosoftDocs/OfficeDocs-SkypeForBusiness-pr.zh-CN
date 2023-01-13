@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams Premium - 管理员概述
+title: Microsoft Teams 高级版 - 管理员概述
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -10,6 +10,7 @@ search.appverid: MET150
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- highpri
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -18,21 +19,21 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.custom:
 - Licensing
-description: 了解面向管理员和 IT 专业人员的 Microsoft Teams Premium。
-ms.openlocfilehash: 9e7af9c777ba5fec8ca8b68da7f1069737702617
-ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
+description: 了解面向管理员和 IT 专业人员的Microsoft Teams 高级版。
+ms.openlocfilehash: 2abcdd1c9f9df0101bbf7d0e22720c71375728d0
+ms.sourcegitcommit: ca4d1011f3d62af203145431f0b19065ad81601b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/14/2022
-ms.locfileid: "69392472"
+ms.lasthandoff: 01/13/2023
+ms.locfileid: "69800286"
 ---
-# <a name="microsoft-teams-premium---overview-for-administrators"></a>Microsoft Teams Premium - 管理员概述
+# <a name="microsoft-teams-premium---overview-for-administrators"></a>Microsoft Teams 高级版 - 管理员概述
 
-![信息图标](media/info.png) **本文中所述的大多数功能都需要 Teams Premium，这是预览版。** 一些功能（例如，某些网络研讨会功能）也可用于其他许可证。 有关功能可用性和许可的详细信息，请参阅 [Teams Premium 许可](teams-add-on-licensing/licensing-enhance-teams.md)。
+![信息图标](media/info.png) **本文中所述的大多数功能都需要Teams 高级版，这是预览版。** 一些功能（例如，某些网络研讨会功能）也可用于其他许可证。 有关功能可用性和许可的详细信息，请参阅[Teams 高级版许可](teams-add-on-licensing/licensing-enhance-teams.md)。
 
-本文面向将部署和配置 Teams Premium 功能的 IT 专业人员和管理员。 本文简要介绍了这些功能，并提供了指向更详细文档的链接。
+本文面向将部署和配置Teams 高级版功能的 IT 专业人员和管理员。 本文简要介绍了这些功能，并提供了指向更详细文档的链接。
 
-Teams Premium 是一种附加许可证，可为 Teams 提供以下增强功能：  
+Teams 高级版是一个附加许可证，可为 Teams 提供以下增强功能：  
 
 -   为最终用户提供增强的会议体验
 -   增强会议安全性和保护 
@@ -40,9 +41,9 @@ Teams Premium 是一种附加许可证，可为 Teams 提供以下增强功能�
 
 
 > [!IMPORTANT]
-> 由于 Teams 高级版是公共预览版，因此在正式版中，Teams 当前提供的某些功能仅可通过 Teams 高级版许可证提供。 
+> 由于 Teams 高级版 是公共预览版，因此在正式版中，Teams 当前提供的某些功能只能通过Teams 高级版许可证提供。 
 
-以下部分介绍 Teams 高级版的增强功能：
+以下部分介绍以下Teams 高级版增强功能：
 
 - [受保护的会议](#protected-meetings)
 - [自定义会议](#custom-meetings)
@@ -54,7 +55,7 @@ Teams Premium 是一种附加许可证，可为 Teams 提供以下增强功能�
 
 ## <a name="protected-meetings"></a>受保护的会议
 
-Teams Premium 提供了保护会议的其他方法，具有以下关键功能： 
+Teams 高级版提供了保护会议的其他方法，具有以下关键功能： 
 
 - **敏感度标签** - 敏感度标签的扩展功能，用于控制通常由会议组织者控制的会议设置。 这些功能包括用于控制大厅、聊天、聊天复制、演示和录制功能的新设置。
 
@@ -74,15 +75,15 @@ Teams Premium 提供了保护会议的其他方法，具有以下关键功能：
 
 ## <a name="custom-meetings"></a>自定义会议
 
-Teams Premium 提供以下用于自定义会议的其他功能：
+Teams 高级版提供了以下用于自定义会议的其他功能：
 
 - **会议模板** - 用于控制会议组织者通常控制的会议设置。 使用模板，可以在组织中创建一致的会议体验，并帮助强制实施合规性要求和业务规则。
 
 - **会议主题** - 允许组织在整个会议体验中扩展其视觉标识。 可以为单个租户中的各种业务部门和部门设置和创建会议主题。
 
-- **组织的自定义会议背景** - 可以创建和定义自定义会议背景，然后可以使用 Teams Premium 许可证提供给最终用户。
+- **组织的自定义会议背景** - 可以创建和定义自定义会议背景，然后可以使用Teams 高级版许可证提供给最终用户。
 
-- **组织的自定义一起模式场景** - 你可以为会议创建、自定义或接受自定义的一起模式场景，然后可以使用 Teams Premium 许可证提供给最终用户。
+- **为组织自定义一起模式场景** - 你可以为会议创建、自定义或接受自定义的一起模式场景，然后可以使用Teams 高级版许可证提供给最终用户。
 
 
 | 功能/任务 | 面向管理员的文档 | 面向最终用户的文档
@@ -98,7 +99,7 @@ Teams Premium 提供以下用于自定义会议的其他功能：
 
 ## <a name="premium-events"></a>高级事件
 
-Teams Premium 通过新的 Teams 事件策略为用户提供高级网络研讨会体验。 新策略在继续支持注册和跟踪的同时，还将为会议主持人和组织者提供功能，例如：
+Teams 高级版使用新的 Teams 事件策略为用户提供高级网络研讨会体验。 新策略在继续支持注册和跟踪的同时，还将为会议主持人和组织者提供功能，例如：
 
 - **条款和条件自定义问题** - 向与会者演示。
 - **演示者简介** - 包含有关演示者的信息。
@@ -118,9 +119,9 @@ Teams Premium 通过新的 Teams 事件策略为用户提供高级网络研讨�
 
 ## <a name="advanced-virtual-appointments"></a>高级虚拟约会
 
-使用任何 Microsoft 365 许可证，最终用户可以使用基本虚拟约会功能来安排和加入企业到客户的会议。 例如，用户可以在 Bookings 日历中安排约会，外部与会者可以通过浏览器加入，而无需下载 Teams。 
+借助任何 Microsoft 365 许可证，最终用户可以使用基本虚拟约会功能来安排和加入企业到客户的会议。 例如，用户可以在 Bookings 日历中安排约会，外部与会者可以通过浏览器加入，而无需下载 Teams。 
 
-Teams Premium 提供高级虚拟约会功能，例如：
+Teams 高级版提供高级虚拟约会功能，例如：
 
 - 短信通知
 - 自定义候诊室
@@ -138,8 +139,8 @@ Teams Premium 提供高级虚拟约会功能，例如：
 
 可在此处找到其他资源：
 
-- [Microsoft Teams Premium 产品网站](https://www.microsoft.com/microsoft-teams/premium)
-- [Microsoft Teams Premium 博客](https://www.microsoft.com/microsoft-365/blog/2022/10/12/introducing-microsoft-teams-premium-the-better-way-to-meet/)
+- [Microsoft Teams 高级版产品网站](https://www.microsoft.com/microsoft-teams/premium)
+- [Microsoft Teams 高级版博客](https://www.microsoft.com/microsoft-365/blog/2022/10/12/introducing-microsoft-teams-premium-the-better-way-to-meet/)
 
 
 
