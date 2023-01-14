@@ -21,18 +21,18 @@ ms.localizationpriority: medium
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b34d554c0930efa622e60a695203e5fa35bd48ab
-ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
+ms.openlocfilehash: e545a6d4208e6f54abbf72327cf887d45b34e141
+ms.sourcegitcommit: 1934c4803b5b6ae9b9ccd49e695944446d5d5810
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/02/2022
-ms.locfileid: "69245749"
+ms.lasthandoff: 01/14/2023
+ms.locfileid: "69807444"
 ---
 # <a name="manage-devices-in-teams"></a>在 Teams 中管理设备 
 
-可以从 Microsoft Teams 管理中心管理组织中用于 Microsoft Teams 的设备。 可以查看和管理组织的设备清单，并执行更新、重启和监视设备的诊断等任务。 还可以创建配置文件并将其分配给设备或设备组。
+可以从 Microsoft Teams 管理中心管理组织中与 Microsoft Teams 一起使用的设备。 可以查看和管理组织的设备清单，并执行更新、重启和监视设备的诊断等任务。 还可以创建配置文件并将其分配给设备或设备组。
 
-若要管理设备，例如更改设备配置、重启设备、管理更新或查看设备和外围设备运行状况，需要分配以下Microsoft 365 个管理员角色之一：
+若要管理设备，例如更改设备配置、重启设备、管理更新或查看设备和外围设备运行状况，需要分配以下 Microsoft 365 管理员角色之一：
 
 - Microsoft 365 全局管理员
 - Teams 服务管理员
@@ -56,7 +56,7 @@ ms.locfileid: "69245749"
 
 可以使用 Teams 管理中心在整个组织中的 Windows 设备上查看和远程管理Teams 会议室。 借助 Teams 管理中心，可以轻松一目了然地查看哪些设备正常运行，哪些设备需要注意，并让你专注于特定设备，以查看有关设备运行状况、会议性能、通话质量和外围设备的详细信息。 
 
-下面是管理Teams 会议室设备的一些操作。 Teams 会议室设备可以在 **Windows 上的** teams **设备** > Teams 会议室下的 [Microsoft Teams 管理中心](https://admin.teams.microsoft.com)中找到。
+下面是管理Teams 会议室设备的一些操作。 Teams 会议室设备可以在 [Microsoft Teams 管理中心](https://admin.teams.microsoft.com)的 **Teams 设备** > **Teams 会议室 Windows 下** 找到。
 
 有关如何管理Teams 会议室设备的详细信息，请参阅[管理Microsoft Teams 会议室](../rooms/rooms-manage.md)。
 
@@ -86,6 +86,23 @@ ms.locfileid: "69245749"
 | 使用设备标记筛选设备        | 选择筛选器图标，选择 **“标记”** 字段，指定要筛选的设备标记，然后选择“ **应用**”。 有关使用设备标记筛选设备的详细信息，请参阅 [使用筛选器返回具有特定标记的设备](manage-device-tags.md#use-filters-to-return-devices-with-a-specific-tag)。 |
 | 查看设备历史记录和诊断     | 在“ **历史记录** ”列下，单击设备的 **“查看** ”链接以查看其更新历史记录和诊断详细信息。                                                                                                                                                                                         |
 
+### <a name="view-android-device-sign-in-failures"></a>查看 Android 设备登录失败
+
+如果登录 Android 设备时遇到问题，可以查看设备的详细信息页面，了解可能已发生哪些登录失败。
+
+1. 在左侧导航中，转到 **Teams 设备** >选择 Teams 设备类型。 例如，如果 Android 设备是手机，请选择“ **手机**”。
+2. 单击要查看其登录失败的手机的显示名称。 这将打开设备的详细信息页。
+3. 在设备详细信息页上，选择“**活动**”选项卡，然后在“**活动类型**”下拉列表 **中选择“登录失败**”。
+
+> [!NOTE]
+> 如果登录时遇到问题的设备未看到任何登录失败，请确保设备的固件位于其制造商提供的最新版本上。
+
+返回的结果包含以下信息：
+
+- 登录失败的时间。
+- 尝试登录到设备的帐户。
+- 失败的原因。
+
 ### <a name="use-configuration-profiles-in-teams"></a>在 Teams 中使用配置文件
 
 使用配置文件管理组织中不同 Teams 设备的设置和功能，包括 Android 上的Teams 会议室、Teams 显示器、Teams 手机和 Teams 面板。 可以创建或上传配置文件以包括要启用或禁用的设置和功能，然后将配置文件分配给设备或设备集。 
@@ -101,6 +118,7 @@ ms.locfileid: "69245749"
    新创建的配置文件将显示在配置文件列表中。
 
 #### <a name="assign-a-configuration-profile"></a>分配配置文件
+
 为 Teams 设备类型创建配置文件后，将其分配给一个或多个设备。
 
 1. 在左侧导航中，转到 **“Teams 设备”** >选择 Teams 设备类型。 例如，若要将配置文件分配给 Teams 面板设备，请选择“ **Teams 设备** > **Teams 面板**”。
