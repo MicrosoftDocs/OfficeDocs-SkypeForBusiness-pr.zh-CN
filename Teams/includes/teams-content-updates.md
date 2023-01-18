@@ -3,6 +3,42 @@
 
 
 
+## <a name="week-of-january-09-2023"></a>2023 年 1 月 9 日当周
+
+
+| 发布日期 |主题标题 | 更改 |
+|------|------------|--------|
+| 1/9/2023 | [为组织停用Microsoft Teams 免费版 (经典) ](/MicrosoftTeams/teams-add-on-licensing/remove-assign-free-licenses) | 添加内容 |
+| 1/9/2023 | [为用户获取电话号码](/MicrosoftTeams/getting-phone-numbers-for-your-users) | 修改内容 |
+| 1/9/2023 | [获取通话套餐的服务电话号码](/MicrosoftTeams/getting-service-phone-numbers) | 修改内容 |
+| 1/9/2023 | [管理通话套餐的电话号码](/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization) | 修改内容 |
+| 1/9/2023 | [手动提交转网订单](/MicrosoftTeams/phone-number-calling-plans/manually-submit-port-order) | 修改内容 |
+| 1/9/2023 | [将电话号码转移到 Microsoft Teams](/MicrosoftTeams/phone-number-calling-plans/transfer-phone-numbers-to-teams) | 修改内容 |
+| 1/10/2023 | [GCC High 和 DoD 的自动助理和呼叫队列历史报告](/MicrosoftTeams/aa-cq-cqd-historical-reports-v163) | 修改内容 |
+| 1/10/2023 | [更新了自动助理和呼叫队列历史报告](/MicrosoftTeams/aa-cq-cqd-historical-reports) | 修改内容 |
+| 1/10/2023 | [为 Microsoft Teams 设置自动助理](/MicrosoftTeams/create-a-phone-system-auto-attendant-smb) | 修改内容 |
+| 1/10/2023 | [设置 Microsoft Teams 自动助理](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 修改内容 |
+| 1/10/2023 | [创建 Microsoft Teams 呼叫队列](/MicrosoftTeams/create-a-phone-system-call-queue-smb) | 修改内容 |
+| 1/10/2023 | [在 Microsoft Teams 中创建呼叫队列](/MicrosoftTeams/create-a-phone-system-call-queue) | 修改内容 |
+| 1/10/2023 | [在 Teams 中管理资源帐户](/MicrosoftTeams/manage-resource-accounts) | 修改内容 |
+| 1/10/2023 | [Microsoft Teams 中流式传输的编码器配置](/MicrosoftTeams/teams-encoder-configuration) | 添加内容 |
+| 1/10/2023 | [Microsoft Teams 中用于流式传输的编码器设置](/MicrosoftTeams/teams-encoder-setup) | 添加内容 |
+| 1/10/2023 | [在 Microsoft Teams 中创建流](/MicrosoftTeams/teams-stream-create-event) | 添加内容 |
+| 1/10/2023 | [在 Microsoft Teams 中缩放视频交付](/MicrosoftTeams/teams-stream-ecdn) | 添加内容 |
+| 1/10/2023 | [Microsoft Teams 中用于流式传输的编码器概述](/MicrosoftTeams/teams-stream-overview) | 添加内容 |
+| 1/10/2023 | [Microsoft Teams 中的实时流式处理疑难解答](/MicrosoftTeams/teams-stream-troubleshooting) | 添加内容 |
+| 1/10/2023 | [在 Microsoft Teams 中为实时事件进行设置](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | 修改内容 |
+| 1/10/2023 | [Microsoft Teams 实时事件是什么？](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | 修改内容 |
+| 1/11/2023 | [使用医疗保健团队模板](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates-admin-console) | 修改内容 |
+| 1/11/2023 | [使用财务团队模板](/MicrosoftTeams/financial-teams-templates-in-the-admin-console) | 修改内容 |
+| 1/11/2023 | [在管理中心内开始使用 Teams 模板](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | 修改内容 |
+| 1/11/2023 | [管理中心中的制造团队模板入门](/MicrosoftTeams/manufacturing-teams-templates-in-the-admin-console) | 修改内容 |
+| 1/11/2023 | [使用非营利组织团队模板](/MicrosoftTeams/team-templates-nonprofit) | 修改内容 |
+| 1/11/2023 | [Microsoft Teams 中的呼叫策略：呼叫和呼叫转接功能](/MicrosoftTeams/teams-calling-policy) | 修改内容 |
+| 1/13/2023 | [在 Microsoft Teams 中管理设备](/MicrosoftTeams/devices/device-management) | 修改内容 |
+| 1/13/2023 | [管理 Microsoft Teams 会议室](/MicrosoftTeams/rooms/rooms-manage) | 修改内容 |
+
+
 ## <a name="week-of-january-02-2023"></a>2023 年 1 月 2 日当周
 
 
@@ -52,39 +88,3 @@
 | 12/16/2022 | [在 Android 上部署Microsoft Teams 会议室](/MicrosoftTeams/devices/collab-bar-deploy) | 修改内容 |
 | 12/16/2022 | [远程更新 Microsoft Teams 设备](/MicrosoftTeams/devices/remote-update) | 修改内容 |
 | 12/16/2022 | [Windows 安全Microsoft Teams 会议室](/MicrosoftTeams/rooms/security-windows) | 修改内容 |
-
-
-## <a name="week-of-december-05-2022"></a>2022 年 12 月 5 日当周
-
-
-| 发布日期 |主题标题 | 更改 |
-|------|------------|--------|
-| 12/5/2022 | [在 Microsoft Teams 中管理 Bookings 应用](/MicrosoftTeams/bookings-app-admin) | 修改内容 |
-| 12/5/2022 | [为敏感会议配置 Microsoft Teams 会议大厅](/MicrosoftTeams/configure-lobby-sensitive-meetings) | 添加内容 |
-| 12/5/2022 | [使用基线保护配置 Teams 会议](/MicrosoftTeams/configure-meetings-baseline-protection) | 添加内容 |
-| 12/5/2022 | [配置 Teams 会议，保护高度敏感数据](/MicrosoftTeams/configure-meetings-highly-sensitive-protection) | 添加内容 |
-| 12/5/2022 | [为 Teams 会议配置敏感数据保护](/MicrosoftTeams/configure-meetings-sensitive-protection) | 添加内容 |
-| 12/5/2022 | [使用三层保护配置 Teams 会议](/MicrosoftTeams/configure-meetings-three-tiers-protection) | 添加内容 |
-| 12/5/2022 | [在 Microsoft Teams 中创建自定义会议模板](/MicrosoftTeams/create-custom-meeting-template) | 添加内容 |
-| 12/5/2022 | [Teams 会议的自定义会议背景](/MicrosoftTeams/custom-meeting-backgrounds) | 添加内容 |
-| 12/5/2022 | [Microsoft Teams 中的自定义会议模板概述](/MicrosoftTeams/custom-meeting-templates-overview) | 添加内容 |
-| 12/5/2022 | [需要对敏感 Teams 会议进行端到端加密](/MicrosoftTeams/end-to-end-encrypted-meetings) | 添加内容 |
-| 12/5/2022 | [Microsoft Teams 高级版 - 管理员概述](/MicrosoftTeams/enhanced-teams-experience) | 添加内容 |
-| 12/5/2022 | [管理敏感 Teams 会议的聊天](/MicrosoftTeams/manage-chat-sensitive-meetings) | 添加内容 |
-| 12/5/2022 | [管理敏感 Teams 会议的会议演示体验](/MicrosoftTeams/manage-meeting-presentation-experience) | 添加内容 |
-| 12/5/2022 | [管理敏感会议的 Microsoft Teams 会议录制选项](/MicrosoftTeams/manage-meeting-recording-options) | 添加内容 |
-| 12/5/2022 | [在 Microsoft Teams 中管理会议模板](/MicrosoftTeams/manage-meeting-templates) | 添加内容 |
-| 12/5/2022 | [在 Microsoft Teams 中管理虚拟约会应用](/MicrosoftTeams/manage-virtual-appointments-app) | 添加内容 |
-| 12/5/2022 | [管理大会策略](/MicrosoftTeams/meeting-policies-in-teams-general) | 修改内容 |
-| 12/5/2022 | [将 Teams 会议模板、敏感度标签和管理策略用于敏感会议](/MicrosoftTeams/meeting-templates-sensitivity-labels-policies) | 添加内容 |
-| 12/5/2022 | [Teams 会议的会议主题](/MicrosoftTeams/meeting-themes) | 添加内容 |
-| 12/5/2022 | [会议、网络研讨会和直播活动](/MicrosoftTeams/quick-start-meetings-live-events) | 修改内容 |
-| 12/5/2022 | [设置网络研讨会](/MicrosoftTeams/set-up-webinars) | 修改内容 |
-| 12/5/2022 | [Microsoft Teams 高级版许可](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams) | 添加内容 |
-| 12/5/2022 | [Microsoft Teams 附加许可证](/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing) | 修改内容 |
-| 12/5/2022 | [需要敏感 Teams 会议的水印](/MicrosoftTeams/watermark-meeting-content-video) | 添加内容 |
-| 12/7/2022 | [适用于小型企业的 Microsoft Teams Essentials 快速入门指南](/MicrosoftTeams/get-started-with-teams-essentials) | 修改内容 |
-| 12/7/2022 | [管理Microsoft Teams 免费版 (经典) ](/MicrosoftTeams/manage-freemium) | 修改内容 |
-| 12/7/2022 | [Microsoft Teams 所需的移动诊断数据](/MicrosoftTeams/policy-control-diagnostic-data-mobile) | 修改内容 |
-| 12/7/2022 | [将Microsoft Teams 免费版 (经典) 升级到订阅](/MicrosoftTeams/upgrade-freemium) | 修改内容 |
-| 12/8/2022 | [使用实时遥测来解决会议质量不佳的问题](/MicrosoftTeams/use-real-time-telemetry-to-troubleshoot-poor-meeting-quality) | 修改内容 |
