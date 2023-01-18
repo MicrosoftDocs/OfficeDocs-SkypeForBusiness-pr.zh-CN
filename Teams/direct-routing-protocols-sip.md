@@ -16,12 +16,12 @@ f1.keywords:
 description: 直接路由协议
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a5a05dbc6519c4f90cf0cc0d49e996467bf10230
-ms.sourcegitcommit: 321de0e5d8846caaaab944826f6ca06394e707ef
+ms.openlocfilehash: 6cf7bf4040a75e59518312edd32c9c4e77f11728
+ms.sourcegitcommit: 95a56dab4e30f7ad6615ebd4a4a0f61996fdc20f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/16/2022
-ms.locfileid: "69414720"
+ms.lasthandoff: 01/17/2023
+ms.locfileid: "69812709"
 ---
 # <a name="direct-routing---sip-protocol"></a>直接路由 - SIP 协议
 
@@ -46,7 +46,7 @@ ms.locfileid: "69414720"
 > 请注意，SIPS URI 不应与直接路由一起使用，因为它不受支持。
 > 检查会话边界控制器配置，并确保未在 SIP 请求中使用“替换”标头。 直接路由将拒绝定义了替换标头的 SIP 请求。
 
-在传入呼叫上，SIP 代理需要查找呼叫目标租户，并查找此租户中的特定用户。 租户管理员可以在多个租户中配置非 DID 号码，例如 +1001。 因此，必须查找要对其执行数字查找的特定租户，因为非 DID 号码在多个Microsoft 365 或Office 365组织中可能相同。  
+在传入呼叫上，SIP 代理需要查找呼叫目标租户，并查找此租户中的特定用户。 租户管理员可以在多个租户中配置非 DID 号码，例如 +1001。 因此，请务必查找要对其执行数字查找的特定租户，因为非 DID 号码在多个 Microsoft 365 或Office 365组织中可能相同。  
 
 本部分介绍 SIP 代理如何查找租户和用户，以及如何对传入连接执行 SBC 身份验证。
 
@@ -72,17 +72,17 @@ ms.locfileid: "69414720"
 
 2. 尝试使用联系人标头中显示的完整 FQDN 名称查找租户。  
 
-   检查联系人标头 (sbc1.adatum.biz) 中的 FQDN 名称是否在任何Microsoft 365 或Office 365组织中注册为 DNS 名称。 如果找到，则会在 SBC FQDN 注册为域名的租户中查找用户。 如果未找到，则应用步骤 3。   
+   检查联系人标头 (sbc1.adatum.biz) 中的 FQDN 名称是否在任何 Microsoft 365 或Office 365组织中注册为 DNS 名称。 如果找到，则会在 SBC FQDN 注册为域名的租户中查找用户。 如果未找到，则应用步骤 3。   
 
 3. 仅当步骤 2 失败时，步骤 3 才适用。 
 
-   删除主机部分 adatum.biz) 后，从 FQDN（联系人标头 (FQDN： sbc12.adatum.biz）中删除主机部分，并检查此名称是否在任何Microsoft 365 或Office 365组织中注册为 DNS 名称。 如果找到，则在此租户中执行用户查找。 如果未找到，则调用失败。
+   删除主机部分后，从 FQDN（联系人标头 (FQDN： sbc12.adatum.biz）中删除主机部分：adatum.biz) ，并检查此名称是否在任何 Microsoft 365 或Office 365组织中注册为 DNS 名称。 如果找到，则在此租户中执行用户查找。 如果未找到，则调用失败。
 
 4. 使用请求 URI 中显示的电话号码，在步骤 2 或步骤 3 中找到的租户中执行反向号码查找。 将提供的电话号码与在上一步骤中找到的租户中的用户 SIP URI 匹配。
 
 5. 应用中继设置。 查找租户管理员为此 SBC 设置的参数。
 
-   Microsoft不支持在Microsoft SIP 代理和配对的 SBC 之间拥有第三方 SIP 代理或用户代理服务器，这可能会修改配对 SBC 创建的请求 URI。
+   Microsoft 不支持在 Microsoft SIP 代理和配对的 SBC 之间拥有第三方 SIP 代理或用户代理服务器，这可能会修改配对 SBC 创建的请求 URI。
 
    本文稍后将介绍两个查找 (步骤 2 和 3) ，其中一个 SBC 与多个租户互连， (运营商方案) 。
 
@@ -90,7 +90,7 @@ ms.locfileid: "69414720"
 
 #### <a name="contact-header"></a>联系人标头
 
-对于 (选项、INVITE) 到Microsoft SIP 代理的所有传入 SIP 消息，联系人标头必须在 URI 主机名中具有配对的 SBC FQDN，如下所示：
+对于所有传入 SIP 消息 (选项，邀请) Microsoft SIP 代理，联系人标头必须在 URI 主机名中具有配对的 SBC FQDN，如下所示：
 
 语法：联系人：<sBC 的 sip：phone 或 sip address@FQDN;transport=tls> 
 
@@ -98,7 +98,7 @@ ms.locfileid: "69414720"
 
 语法：Contact： <sip：FQDN of the SBC;transport=tls>
 
-此名称 (FQDN) 也必须位于“公用名”或“使用者可选名称”字段中， () 提供的证书。 Microsoft支持在证书的“公用名”或“使用者可选名称”字段中使用名称 () 的通配符值。   
+此名称 (FQDN) 也必须位于“公用名”或“使用者可选名称”字段中， () 提供的证书。 Microsoft 支持在证书的“公用名”或“使用者可选名称”字段中使用名称 () 的通配符值。   
 
 [RFC 2818 第 3.1 节](https://tools.ietf.org/html/rfc2818#section-3.1)介绍了对通配符的支持。 特别：
 
@@ -133,11 +133,11 @@ SIP 代理需要计算新的对话内客户端事务的下一跃点 FQDN， (例
 
 根据 [RFC 3261 第 8.1.1.8 节](https://tools.ietf.org/html/rfc3261#section-8.1.1.8)，任何可能导致新对话框的请求都需要联系人标头。 仅当代理希望在对话中保持未来请求的路径时，才需要Record-Route。 如果代理 SBC 与 [用于直接路由的本地媒体优化](./direct-routing-media-optimization.md)一起使用，则需要配置记录路由，因为代理 SBC 需要保留在路由中。 
 
-如果未使用代理 SBC，Microsoft建议仅使用联系人标头：
+如果未使用代理 SBC，Microsoft 建议仅使用联系人标头：
 
-- 根据 [RFC 3261 第 20.30 节](https://tools.ietf.org/html/rfc3261#section-20.30)Record-Route，如果代理希望在对话中保持未来请求的路径，则这一点并不重要，如果没有配置代理 SBC，因为所有流量都在Microsoft SIP 代理和配对 SBC 之间传输。 
+- 根据 [RFC 3261 第 20.30 节](https://tools.ietf.org/html/rfc3261#section-20.30)Record-Route，如果代理希望在对话中保留未来请求的路径，则这在未配置代理 SBC 时并不重要，因为所有流量都在 Microsoft SIP 代理和配对 SBC 之间进行。 
 
-- Microsoft SIP 代理仅使用联系人标头 (不使用记录路由) 来确定发送出站 ping 选项时的下一跃点。 如果未使用代理 SBC，则仅配置一个参数 (Contact) 而不是两个 (Contact 和 Record-Route) 可以简化管理。 
+- Microsoft SIP 代理仅使用联系人标头 (而不使用记录路由) 来确定发送出站 ping 选项时的下一跃点。 如果未使用代理 SBC，则仅配置一个参数 (Contact) 而不是两个 (Contact 和 Record-Route) 可以简化管理。 
 
 若要计算下一跃点，SIP 代理使用：
 
@@ -228,7 +228,7 @@ SBC 必须支持带替换的邀请。
 
 ## <a name="size-of-sdp-considerations"></a>SDP 的大小注意事项
 
-直接路由接口可能会发送超过 1，500 字节的 SIP 消息。  SDP 的大小主要导致此问题。 但是，如果 SBC 后面有 UDP 中继，如果消息从 Microsoft SIP 代理转发到未修改的中继，则可能会拒绝该消息。 Microsoft建议在将消息发送到 UDP 中继时，在 SBC 上剥离 SDP 中的一些值。 例如，可以删除 ICE 候选项或未使用的编解码器。
+直接路由接口可能会发送超过 1，500 字节的 SIP 消息。  SDP 的大小主要导致此问题。 但是，如果 SBC 后面有 UDP 中继，如果消息从 Microsoft SIP 代理转发到未修改的中继，则它可能会拒绝该消息。 Microsoft 建议在将消息发送到 UDP 中继时，在 SBC 上剥离 SDP 中的一些值。 例如，可以删除 ICE 候选项或未使用的编解码器。
 
 ## <a name="call-transfer"></a>呼叫转移
 
@@ -317,11 +317,11 @@ SIP 代理支持 (始终在非旁路呼叫上提供) 会话计时器，但不在
 
 SIP 代理分析 Request-URI，如果存在参数 user=phone，则服务会将 Request-URI 作为电话号码进行处理，并将该号码与用户匹配。 如果没有参数，SIP 代理将应用启发法来确定请求 URI 用户类型 (电话号码或 SIP 地址) 。
 
-Microsoft建议始终应用 user=phone 参数来简化呼叫设置过程。
+Microsoft 建议始终应用 user=phone 参数来简化呼叫设置过程。
 
 ## <a name="history-info-header"></a>History-Info标头
 
-History-Info标头用于重新定位 SIP 请求，并“提供 () 用于捕获请求历史记录信息的标准机制，以便为网络和最终用户启用各种服务”。 有关详细信息，请参阅 [RFC 4244 - 第 1.1 节](http://www.ietf.org/rfc/rfc4244.txt)。 对于Microsoft电话系统，此标头用于模拟和呼叫转接方案。  
+History-Info标头用于重新定位 SIP 请求，并“提供 () 用于捕获请求历史记录信息的标准机制，以便为网络和最终用户启用各种服务”。 有关详细信息，请参阅 [RFC 4244 - 第 1.1 节](http://www.ietf.org/rfc/rfc4244.txt)。 对于 Microsoft 电话系统，此标头用于模拟和呼叫转接方案。  
 
 如果发送，则启用History-Info，如下所示：
 
@@ -336,7 +336,7 @@ History-Info标头用于重新定位 SIP 请求，并“提供 () 用于捕获�
   > [!NOTE]
   > 由 RFC 4244) 第 3.3 节中定义的机制确定的专用 (条目将按原样转发，因为 SIP 中继提供程序是受信任的对等方。
 
-- 忽略入站History-Info。
+- 启用 ForwardCallHistory 参数时，将保留入站History-Info。 保留History-Info可用于循环防护。
 
 以下是 SIP 代理发送的 History-info 标头的格式：
 
@@ -363,7 +363,7 @@ History-Info受强制 TLS 机制的保护。
 
 ## <a name="retry-after"></a>Retry-After
 
-如果直接路由数据中心繁忙，该服务可以每隔一秒向 SBC 发送Retry-After消息。 当 SBC 收到包含Retry-After标头以响应 INVITE 的 503 消息时，SBC 必须终止该连接，并尝试下一个可用的数据中心Microsoft。
+如果直接路由数据中心繁忙，该服务可以每隔一秒向 SBC 发送Retry-After消息。 当 SBC 收到包含 Retry-After 标头的 503 消息以响应 INVITE 时，SBC 必须终止该连接并尝试下一个可用的 Microsoft 数据中心。
 
 ## <a name="handling-retries-603-response"></a>处理 603 响应)  (重试
 如果最终用户在拒绝传入呼叫后观察到一个呼叫的多个未接来电，则意味着 SBC 或 PSTN 中继提供商的重试机制配置错误。 必须重新配置 SBC 以停止针对 603 响应的重试工作。

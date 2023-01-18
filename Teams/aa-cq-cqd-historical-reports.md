@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: 了解如何使用更新的 Teams 自动助理&呼叫队列历史报告 Power BI 报表来查看自动助理和呼叫队列历史数据。
-ms.openlocfilehash: ed267cf2d96f15236aa68339049d2c721249ec00
-ms.sourcegitcommit: ae687f530d5505b96df7cb7ef4da3a36bd9afd29
+ms.openlocfilehash: 0ff8e7d1b5a1b9901c5b8a5da49d67fbf8ac5275
+ms.sourcegitcommit: 95a56dab4e30f7ad6615ebd4a4a0f61996fdc20f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/10/2023
-ms.locfileid: "69763553"
+ms.lasthandoff: 01/17/2023
+ms.locfileid: "69812729"
 ---
 # <a name="auto-attendant-and-call-queue-historical-reports"></a>自动助理和呼叫队列历史报告
 
@@ -302,9 +302,13 @@ Teams 自动助理&呼叫队列历史报告 Power BI 模板提供以下三个报
 
 ## <a name="known-issues"></a>已知问题
 
-- 呼叫队列和自动助理由资源帐户的 ID 而不是呼叫队列/自动助理名称显示。  若要显示自动助理或呼叫队列的所有流量，必须选择分配给自动助理或呼叫队列的所有资源帐户。
+- **“呼叫队列**”报表上的 **“呼叫结果”** 视觉对象可能会报告大量 **_“未知_**”呼叫。 这是由于支持人员正在努力更正的呼叫分类问题造成的。  这只是一个呼叫分类问题，系统已成功处理这些调用。
 
-- 仪表板中只有 28 天的历史记录可用，因为呼叫队列/自动助理数据被视为个人数据，并受数据隐私保留策略的约束。
+- 仅报告接听呼叫的第一个自动助理或呼叫队列中的呼叫和呼叫者操作。  当一个自动助理转移到另一个自动助理) 或链接呼叫队列 (当一个呼叫队列转移到另一个呼叫队列) 时，链接式自动助理中的呼叫和调用方操作 (。 
+
+- 呼叫队列和自动助理由资源帐户的 ID 而不是呼叫队列或自动助理名称显示。  若要显示自动助理或呼叫队列的所有流量，必须选择分配给自动助理或呼叫队列的所有资源帐户。
+
+- 仪表板中只有 28 天的历史记录可用，因为呼叫队列和自动助理数据被视为个人数据，并受数据隐私保留策略的约束。
 
 - 在某些情况下， **云呼叫队列代理时间线** 报表上的代理应答呼叫计数可能与 Teams 客户端呼叫历史记录中显示的呼叫数不同。 Teams 客户端呼叫历史记录正确。 支持人员正在调查，但目前估计没有可用的修复时间。
 

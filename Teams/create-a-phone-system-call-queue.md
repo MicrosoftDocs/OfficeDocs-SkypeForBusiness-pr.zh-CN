@@ -28,12 +28,12 @@ adobe-target-activity: DocsExp–480823–A/B–Docs/TeamsSteps–HowToTabs–FY
 adobe-target-experience: Experience B
 adobe-target-content: ./create-a-phone-system-call-queue-experiment
 description: 了解如何在 Microsoft Teams 中设置呼叫队列。 呼叫队列提供问候消息、保留音乐、呼叫重定向和其他功能。
-ms.openlocfilehash: 4b12b1e89b11902299f973a97bdace44a841029e
-ms.sourcegitcommit: ae687f530d5505b96df7cb7ef4da3a36bd9afd29
+ms.openlocfilehash: b7bb107dc87ababd9c514655521525b6997fac29
+ms.sourcegitcommit: 95a56dab4e30f7ad6615ebd4a4a0f61996fdc20f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/10/2023
-ms.locfileid: "69763563"
+ms.lasthandoff: 01/17/2023
+ms.locfileid: "69812719"
 ---
 # <a name="create-a-call-queue-in-microsoft-teams"></a>在 Microsoft Teams 中创建呼叫队列
 
@@ -400,10 +400,10 @@ Teams 在 *呼叫者处于保留状态* 时为呼叫者提供默认音乐。
 2. Microsoft Teams iPhone 应用、Microsoft Teams Android 应用。
 3. 为代理路由方法选择“最长空闲时间”将自动启用基于状态的路由。
 4. 无法设置调用代理的顺序。
-5. 如果电话呼叫从启用了基于位置的路由的直接路由网关路由到队列，则不支持会议模式。
+5. 如果电话呼叫从启用了Location-Based路由的直接路由网关路由到队列，则不支持会议模式。 有关Location-Based路由的呼叫队列实现，请参阅 [语音应用 (自动助理或呼叫队列) ](location-based-routing-plan.md#inbound-calls-through-voice-apps-auto-attendant-or-call-queue)。
 6. 仅Microsoft Teams 电话系统。
 7. 通过 位于 [https://aka.ms/vmsettings](https://aka.ms/vmsettings)的“用户设置门户”页。
-8. 仅支持公共频道。
+8. 仅支持标准通道。
 9. 自动助理和呼叫队列无法在 PSTN 连接方法之间转移呼叫。
 10. 对于 GCCH/DOD，只能通过以下位置的用户设置门户使用：
 - GCCH： [https://dialin.cpc.gov.teams.microsoft.us/usp](https://dialin.cpc.gov.teams.microsoft.us/usp)

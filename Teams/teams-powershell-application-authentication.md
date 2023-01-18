@@ -9,15 +9,15 @@ audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-description: 了解 Teams PowerShell 模块中基于应用程序的身份验证，该模块用于管理Microsoft Teams。
+description: 了解 Teams PowerShell 模块中基于应用程序的身份验证，该模块用于管理 Microsoft Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04cc2e3c069f30e44dd0c62a42be42fd1cce16b7
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: 60d9bf64233db3f5e615c0904c6eb376f187266c
+ms.sourcegitcommit: 95a56dab4e30f7ad6615ebd4a4a0f61996fdc20f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69307947"
+ms.lasthandoff: 01/17/2023
+ms.locfileid: "69812839"
 ---
 # <a name="application-based-authentication-in-teams-powershell-module"></a>Teams PowerShell 模块中基于应用程序的身份验证
 
@@ -47,6 +47,13 @@ Teams PowerShell 模块现在支持基于应用程序的身份验证，版本为
   Connect-MicrosoftTeams -CertificateThumbprint "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" -ApplicationId "00000000-0000-0000-0000-000000000000" -TenantId "YYYYYYYY-YYYY-YYYY-YYYY-YYYYYYYYYYYY"
   ```
   使用 CertificateThumbprint 参数时，需要在运行命令的计算机上安装证书。 证书应安装在用户证书存储中。
+  
+- 使用证书对象进行连接：
+
+  ```powershell
+  Connect-MicrosoftTeams -Certificate <%X509Certificate2 object%> -ApplicationId "00000000-0000-0000-0000-000000000000" -TenantId "YYYYYYYY-YYYY-YYYY-YYYY-YYYYYYYYYYYY"
+  ```
+  使用 Certificate 参数时，无需在运行命令的计算机上安装证书。 运行脚本时，可以远程存储证书&提取证书。 Teams PowerShell 模块版本 4.9.2-preview 或更高版本中提供了 Certificate 参数。
   
 - 使用访问令牌进行连接：
   
@@ -91,8 +98,8 @@ Teams PowerShell 模块使用应用程序 ID、租户 ID 和证书指纹提取�
 
 1. 在 Azure AD 中注册应用程序
 2. 向应用程序分配 API 权限
-   - 对于 \*-Cs cmdlet - 所需的Microsoft 图形 API权限为 `Organization.Read.All`。
-   - 对于非 \*-Cs cmdlet - 所需的Microsoft 图形 API权限为 `Organization.Read.All`、、`User.Read.All`、`Group.ReadWrite.All`、`AppCatalog.ReadWrite.All``TeamSettings.ReadWrite.All`、`Channel.Delete.All``ChannelSettings.ReadWrite.All`、、 。 `ChannelMember.ReadWrite.All`  
+   - 对于 \*-Cs cmdlet - 所需的 Microsoft 图形 API 权限为 `Organization.Read.All`。
+   - 对于非 \*-Cs cmdlet - 所需的 Microsoft 图形 API权限为 `Organization.Read.All`、、`User.Read.All`、`Group.ReadWrite.All`、`AppCatalog.ReadWrite.All``TeamSettings.ReadWrite.All`、`Channel.Delete.All`、`ChannelSettings.ReadWrite.All`、 。 `ChannelMember.ReadWrite.All`  
 3. 生成自签名证书
 4. 将证书附加到 Azure AD 应用程序
 5. 将 [Azure AD 角色](/microsoftteams/using-admin-roles#teams-roles-and-capabilities) 分配给应用程序
