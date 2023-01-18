@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 了解哪些桌面电话和会议电话已经过 Microsoft Teams 认证，以产生最佳结果。
-ms.openlocfilehash: 26d5e0c4ec5255629183f4720fcfca6b816f86db
-ms.sourcegitcommit: 95a56dab4e30f7ad6615ebd4a4a0f61996fdc20f
+ms.openlocfilehash: fc9b078744f2d681989ed49befd4ba84b4aec90a
+ms.sourcegitcommit: 40cba40b1babdb3fbfc1a416b7eeb0118f8353df
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2023
-ms.locfileid: "69812829"
+ms.lasthandoff: 01/18/2023
+ms.locfileid: "69820337"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams 认证的 Android 设备
 
@@ -431,6 +431,7 @@ Microsoft Teams 设备认证计划确保认证设备符合高标准，在整个 
 
 | 设备型号  | 固件版本 | 包含的产品版本|
 |:--------------|:-----------------|:-------------------------|
+|Logitech Tap 计划程序 | `1.8.181` |2022 更新 #4  |
 |Yealink RoomPanel | ` 147.15.0.36 ` | 2022 更新 #4 |
 |整洁垫面板 | `NFA1.20220914.1215` | 2022 更新#3A  |
 |整洁垫面板 | `NFA1.20220914.1206` | 2022 更新#3A  |

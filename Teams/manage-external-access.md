@@ -22,12 +22,12 @@ description: Teams 或 IT 管理员可以为其他域 (联合身份验证) 配�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: d3396c9982cfe4de9eacc085bfe3a572fdc4b667
-ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
+ms.openlocfilehash: c405bdfb0690e0a34e7c3f92bb2e276780eb4ebe
+ms.sourcegitcommit: 40cba40b1babdb3fbfc1a416b7eeb0118f8353df
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/02/2022
-ms.locfileid: "69242426"
+ms.lasthandoff: 01/18/2023
+ms.locfileid: "69820347"
 ---
 # <a name="manage-external-meetings-and-chat-in-microsoft-teams"></a>在 Microsoft Teams 中管理外部会议和聊天
 
@@ -48,6 +48,9 @@ ms.locfileid: "69242426"
 外部访问策略包括组织和用户级别的每种联合类型的控制。 无论所有用户的用户级别设置如何，在组织级别关闭策略都会将其关闭。 默认情况下启用所有外部访问设置。
 
 Teams 管理中心控制组织级别的外部访问。 大多数选项 (域限制除外) 都可在用户级别使用 PowerShell。 有关详细信息，请参阅以下的 [使用 PowerShell](#using-powershell)。
+
+> [!NOTE]
+> 不同云环境 (（如 Microsoft 365 和 Office 365 政府版) ）之间的外部访问需要 Teams 的外部 DNS 记录。 有关详细信息，请参阅 [Teams 所需的外部 DNS 记录](/microsoft-365/enterprise/external-domain-name-system-records#external-dns-records-required-for-teams)。
 
 > [!NOTE]
 > If you turn off external access in your organization, people outside your organization can still join meetings through anonymous join. To learn more, see [Manage meeting settings in Teams](meeting-settings-in-teams.md).
