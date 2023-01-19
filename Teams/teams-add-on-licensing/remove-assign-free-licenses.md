@@ -17,14 +17,13 @@ ms.localizationpriority: medium
 ms.custom:
 - Licensing
 - admindeeplinkMAC
-robots: noindex
 description: 了解如何删除 Teams 免费 (经典) 许可证，并为组织的用户分配付费 Teams 许可证。
-ms.openlocfilehash: 3015036d0656a80ac8440d2c193003cc7d67d9fc
-ms.sourcegitcommit: 0d25efb3dae31d5199807a14baaf30e944f561ce
+ms.openlocfilehash: 7e9596f631c461e3c1e9134b279c232e384aba6b
+ms.sourcegitcommit: ff5411084dc34754462d5fd67b64db7a7e76f1e1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/11/2023
-ms.locfileid: "69767663"
+ms.lasthandoff: 01/19/2023
+ms.locfileid: "69823291"
 ---
 # <a name="retire-microsoft-teams-free-classic-for-your-organization"></a>为组织停用Microsoft Teams 免费版 (经典) 
 
