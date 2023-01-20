@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: 了解如何使用更新的 Teams 自动助理&呼叫队列历史报告 Power BI 报表来查看自动助理和呼叫队列历史数据。
-ms.openlocfilehash: 0ff8e7d1b5a1b9901c5b8a5da49d67fbf8ac5275
-ms.sourcegitcommit: 95a56dab4e30f7ad6615ebd4a4a0f61996fdc20f
+ms.openlocfilehash: dad1fa07d476aa5bcfa1e39818d9d7a01b7fdc56
+ms.sourcegitcommit: 776820a6c927fafabdfad9f50654fe7648d77bf3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2023
-ms.locfileid: "69812729"
+ms.lasthandoff: 01/20/2023
+ms.locfileid: "69845909"
 ---
 # <a name="auto-attendant-and-call-queue-historical-reports"></a>自动助理和呼叫队列历史报告
 
@@ -537,11 +537,9 @@ Teams 自动助理&呼叫队列历史报告 Power BI 模板提供以下三个报
 
 ### <a name="preparation"></a>制备
 
-下载 [Postman](https://www.postman.com/)。
-
-下载存储库： [sync_pstn_avs分析](https://skype.visualstudio.com/SBS/_git/sync_pstn_avs-analytics) 并将其解压缩。
-
-将文件夹导入 Postman。 
+1. 下载 [Postman](https://www.postman.com/)。
+1. 解压缩下载的 [zip 文件说明中的文件](#v3xx-installation)。`sync_pstn_avs-analytics.zip`
+1. 将文件夹导入 Postman。 
 
 :::image type="content" source="media/aa-cq-historical-report-postman-01.png" alt-text="显示导入已完成的屏幕截图":::
 
@@ -555,7 +553,6 @@ Teams 自动助理&呼叫队列历史报告 Power BI 模板提供以下三个报
 6. 单击“**保存**”。
 
 :::image type="content" source="media/aa-cq-historical-report-postman-02.png" alt-text="显示配置的用户名、密码和租户 ID 字段的屏幕截图":::
-
 
 7. 在左侧栏菜单上选择 **“集合** ”。
 8. 选择 **“配置 API 访问令牌 - 生产** ”，然后导航到“ **正文** ”选项卡。
@@ -585,7 +582,6 @@ Teams 自动助理&呼叫队列历史报告 Power BI 模板提供以下三个报
 :::image type="content" source="media/aa-cq-historical-report-postman-04.png" alt-text="显示包含 dataResult 字段的查询结果的屏幕截图":::
 
 在这种情况下，数据将按照查询维度和度量属性中请求的顺序位于“dataResult”字段中。
-
 
 ### <a name="compress-the-json-query"></a>压缩 JSON 查询
 

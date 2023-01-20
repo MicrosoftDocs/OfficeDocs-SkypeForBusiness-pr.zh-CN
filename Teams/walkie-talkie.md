@@ -22,12 +22,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.date: 11/17/2022
-ms.openlocfilehash: abb14f937064b394106e0cf2d58f756371a7c04e
-ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
+ms.openlocfilehash: c4184e82e99fa4f3169fea14c62f3a892750bf8c
+ms.sourcegitcommit: 776820a6c927fafabdfad9f50654fe7648d77bf3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/21/2022
-ms.locfileid: "69131271"
+ms.lasthandoff: 01/20/2023
+ms.locfileid: "69845889"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft Teams 中的 Walkie Talkie 应用
 
@@ -131,6 +131,10 @@ Teams 中的 Walkie Talkie 需要 Internet 连接。 要获得最佳体验，需
 > 如果用户使用的是蓝牙配件，请确保移动设备管理 (MDM) 解决方案不会阻止蓝牙设备。
 
 在运行 Android OS 版本 12 或更高版本的设备上，需要蓝牙权限，并且不再需要使用 BLE 堆栈进行连接的位置权限。 如果未在 Teams 级别授予“就近权限”，用户将收到蓝牙权限提示。 无论蓝牙配件（如头戴显示设备）是否已连接到其设备，都将显示此提示。 如果蓝牙配件已连接，则点击“ **允许”** 将 Walkie 对讲机连接到蓝牙配件。
+
+## <a name="get-insight-into-walkie-talkie-usage-and-performance"></a>深入了解 Walkie Talkie 使用情况和性能
+
+Teams 管理中心中的 [Walkie Talkie 使用情况和性能报告](teams-analytics-and-reports/walkie-talkie-usage-report.md) 提供了你组织中的 Walkie Talkie 活动和性能概述。 该报表提供诸如进行和接收的 PTT 传输数、通道活动、传输持续时间以及设备和参与者详细信息等信息。
 
 ## <a name="more-information"></a>更多信息
 

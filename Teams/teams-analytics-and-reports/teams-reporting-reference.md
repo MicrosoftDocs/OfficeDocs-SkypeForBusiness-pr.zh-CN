@@ -19,12 +19,12 @@ description: 在本文中，你将了解 Microsoft Teams 管理中心中提供�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e93a34f19ecf53e05a51fe36983a9f46f741e67e
-ms.sourcegitcommit: 40cba40b1babdb3fbfc1a416b7eeb0118f8353df
+ms.openlocfilehash: 1062afeebfde89835330fbc4f367e0fccbe01513
+ms.sourcegitcommit: 776820a6c927fafabdfad9f50654fe7648d77bf3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/18/2023
-ms.locfileid: "69820317"
+ms.lasthandoff: 01/20/2023
+ms.locfileid: "69845919"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft Teams 分析和报告
 
@@ -66,6 +66,7 @@ Microsoft Teams 管理中心提供了适用于 Microsoft Teams 的新分析和�
 |[Teams 虚拟约会使用情况报告](/microsoft-365/frontline/virtual-appointments-usage-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)|是|是|否|否| 虚拟约会数<br>预订约会数<br> (EHR) 集成约会的 Teams 电子健康记录数<br>约会的平均持续时间<br>与会者的平均大厅等待时间<br>开始时间<br>会议 ID<br>大厅等待时间<br>持续时间<br>地位<br>产品类型<br>与会者<br>部门<br>发送的短信<br>约会是否使用了高级虚拟约会功能|
 |[Teams 高级虚拟约会活动报告](/microsoft-365/frontline/advanced-virtual-appointments-activity-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json) |是|是|否|否|使用高级虚拟约会功能的用户数<br>使用短信通知的用户数<br>即将) 使用大厅聊天 (的用户数<br>执行按需约会的用户数|
 |[Teams EHR 连接器虚拟约会报表](/microsoft-365/frontline/ehr-connector-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json) |是|是|否|否| 开始时间<br>持续时间<br>会议组织者) 的主要 (名称<br>主要组织者的电子邮件 (会议组织者) 的电子邮件<br>部门<br>服务员<br>大厅等待时间<br>约会是否在分配限制内|
+|[Walkie Talkie 使用情况和性能报告](walkie-talkie-usage-report.md) |是|是|否|否| 指标包括进行和接收的推送到通话 (PTT) 传输数、通道活动数、传输持续时间以及设备和参与者详细信息。|
 [!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
 
 ## <a name="make-the-user-specific-data-anonymous"></a>使用户特定的数据匿名

@@ -1,7 +1,7 @@
 ---
 title: Teams：管理会议策略
-author: tonysmit
-ms.author: tonysmit
+ms.author: mabond
+author: mkbond007
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -25,12 +25,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 了解如何在 Teams 中管理会议策略设置。 使用策略设置来控制用户安排会议参与者可用的功能。
-ms.openlocfilehash: 374c51a1356ebdc7940185f64a98a334ce7bb66d
-ms.sourcegitcommit: f0e2a5928e9b959daf45202b9f256f65c2087195
+ms.openlocfilehash: 9b4d816902f5956bdc3dabee5a79fc644768d170
+ms.sourcegitcommit: 776820a6c927fafabdfad9f50654fe7648d77bf3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "68613994"
+ms.lasthandoff: 01/20/2023
+ms.locfileid: "69845869"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>管理 Teams 中的会议策略
 
@@ -324,7 +324,7 @@ IP 视频的模式是按用户策略。 此设置控制是否可以在会议和�
 
 - [屏幕共享模式](#screen-sharing-mode)
 - [允许参与者授予或请求控制权](#allow-a-participant-to-give-or-request-control)
-- [外部参与者可以提供或请求控制](#external-participants-can-give-or-request-control)
+- [外部参与者可以授予或请求控制](#external-participants-can-give-or-request-control)
 - [允许 PowerPoint 共享](#allow-powerpoint-sharing)
 - [允许白板](#allow-whiteboard)
 - [允许共享笔记](#allow-shared-notes)
@@ -334,7 +334,7 @@ IP 视频的模式是按用户策略。 此设置控制是否可以在会议和�
 > [!NOTE]
 > This feature is still in development. Screen sharing is a per-participant policy, however, it can be affected by the organizer's screen sharing settings, as described in this section.
 
-此设置控制是否允许在用户的会议中进行桌面和/或窗口共享。 没有分配任何策略的会议参与者 (例如，外部参与者) 继承会议组织者的策略。
+此设置控制是否允许在用户的会议中进行桌面和/或窗口共享。 未分配任何策略的会议参与者 (例如，外部参与者) 继承会议组织者的策略。
 
 |设置值 |行为  |
 |---------|---------|
@@ -379,7 +379,7 @@ IP 视频的模式是按用户策略。 此设置控制是否可以在会议和�
 > [!NOTE]
 > 若要在共享过程中授予并控制共享内容，双方必须都使用 Teams 桌面客户端。 如果任何一方在浏览器中运行 Teams，则不支持控制。 这是由我们计划修复的一个技术限制造成。
 
-### <a name="external-participants-can-give-or-request-control"></a>外部参与者可以提供或请求控制
+### <a name="external-participants-can-give-or-request-control"></a>外部参与者可以授予或请求控制
 
 这是按用户策略。 无论会议组织者设置了什么，组织是否为用户设置了这个功能，都无法控制外部参与者的行为。 该参数控制是否可以让外部参与者控制或请求控制共享者的屏幕，这取决于共享者在其组织的会议策略中设置的内容。 Teams 会议的外部与会者可分为以下几类:  
 
@@ -387,7 +387,7 @@ IP 视频的模式是按用户策略。 此设置控制是否可以在会议和�
 - 来宾
 - 外部访问用户  
 
-外部访问用户是否可以在共享时将控制权授予其他外部参与者，外部 **参与者可以在其组织中提供或请求控制** 设置。
+外部访问用户是否可以将控制权授予其他外部参与者，而共享由 **外部参与者可以授予或请求** 其组织中的控制设置。
 
 要使用 PowerShell 来控制外部参与者是否可以授予控制权或接受控制权请求，请使用AllowExternalParticipantGiveRequestControl cmdlet。
 

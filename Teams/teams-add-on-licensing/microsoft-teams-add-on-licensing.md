@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 了解 Microsoft Teams 的 Microsoft 附加许可证以及使用每个许可证获得的功能。
-ms.openlocfilehash: cdda8211bb700683d94782a7db719e5860e7d6eb
-ms.sourcegitcommit: ca4d1011f3d62af203145431f0b19065ad81601b
+ms.openlocfilehash: 490eb833c923ba1a247bb140222b449530131947
+ms.sourcegitcommit: 776820a6c927fafabdfad9f50654fe7648d77bf3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/13/2023
-ms.locfileid: "69799918"
+ms.lasthandoff: 01/20/2023
+ms.locfileid: "69845879"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Microsoft Teams 附加许可证
 
@@ -59,12 +59,12 @@ ms.locfileid: "69799918"
 
 无论你是小型企业、企业组织、教育机构、政府机构还是非营利组织，都有三种方法可以获取 Teams 电话系统和 PSTN 连接：
 
-- 购买 Microsoft 365 商业版、E1/E3、A1/A3 或 G1/G3 计划，并添加 **具有通话套餐** 捆绑许可证的 Teams 电话。
+- 购买具有 AAD、Microsoft 365 商业版、E1/E3、A1/A3、F1/F3 或 G1/G3 计划的 Teams Essentials，并添加 **具有通话套餐捆绑许可证的 Teams 电话** 。
   - 此模型将为你提供 Teams 电话系统 PBX 功能和 Microsoft 国内通话套餐。
   - 如果希望 Microsoft 处理所有电话号码管理和计费，请选择此设置。
   - 查看 [带通话套餐捆绑许可证的 Teams 电话是否在你的区域中可用](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
 
-- 购买 E1/E3、A1/A3 或 G1/G3 计划，添加 **Teams 电话标准版** 许可证，并选择 Microsoft 独立通话套餐或第三方 PSTN 运营商。
+- 购买具有 AAD、E1/E3、A1/A3、F1/F3 或 G1/G3 计划的 Teams Essentials，添加 **Teams 电话标准版** 许可证，并选择 Microsoft 独立通话套餐或第三方 PSTN 运营商。
   - 此模型将提供 Teams 电话系统，但你仍需要连接到 PSTN。
   - 若要查看所有 PSTN 连接选项，请参阅 [PSTN 连接选项](../pstn-connectivity.md)。
   - 若要了解所有语音解决方案，请参阅 [规划 Teams 语音解决方案](../cloud-voice-landing-page.md)。
