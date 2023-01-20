@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 了解如何获取 Teams 的新号码、移植或转移现有号码，以及如何向用户显示更改。
-ms.openlocfilehash: b4bdbc686a26bf179fbe85d2a19ca5b82c19b324
-ms.sourcegitcommit: 1398c778e46b0d81c9710cd70d3818a2b7af995a
+ms.openlocfilehash: d92d48f95e620767148d3917a78d1e72c87f0645
+ms.sourcegitcommit: fd56fb16ed60b027d3f8de96711d143825f9c184
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2023
-ms.locfileid: "69749058"
+ms.lasthandoff: 01/20/2023
+ms.locfileid: "69835485"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>为用户获取电话号码
 
@@ -78,6 +78,13 @@ ms.locfileid: "69749058"
 
 - 如果需要移植超过 999 个电话号码，可以 [手动提交转网订单](phone-number-calling-plans/manually-submit-port-order.md) 或参阅 [管理组织的电话号码](/microsoftteams/manage-phone-numbers-for-your-organization) ，以下载正确的授权书 (LOA) 。 填写并签署 LOA 文档，然后联系你区域的 [TNS 服务台](manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) 。
 
+> [!NOTE]
+> 有关用于移植/转移现有电话号码的 LOA 和其他文档要求的详细信息，请参阅 [管理通话套餐的电话号码](/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)。
+>
+>若要为用户移植/转移 999 或更少的电话号码，请将已完成且已签名的 LOA 上传到 Microsoft Teams 管理中心以供进一步处理。 
+>
+> 若要移植/转移超过 999 个电话号码，或者如果在 Microsoft Teams 管理中心的移植过程中遇到问题，可以 [手动将转网订单提交](/microsoftteams/phone-number-calling-plans/manually-submit-port-order) 到你区域的 TNS 服务台。
+
 ## <a name="view-the-phone-numbers-for-your-organization"></a>查看组织的电话号码
 
 **使用 Microsoft Teams 管理中心**
@@ -87,9 +94,6 @@ ms.locfileid: "69749058"
 ## <a name="assign-phone-numbers-to-users"></a>向用户分配电话号码
 
 获取电话号码后，需要为每个用户分配一个号码。 有关详细信息，请参阅 [为用户分配、更改或删除电话号码](./assign-change-or-remove-a-phone-number-for-a-user.md)。
-
-> [!NOTE]
-> 如果需要获取超过此号码的电话号码，[请联系商业产品支持联系人 - 管理员帮助](/microsoft-365/admin/contact-support-for-business-products)。
 
 此视频演示了向用户分配电话号码的步骤。
 

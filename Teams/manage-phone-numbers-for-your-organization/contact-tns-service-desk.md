@@ -22,40 +22,40 @@ ms.custom:
 - ms.teamsadmincenter.voice.contacttnssupport
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
-description: 获取电话号码或端口 (为组织转移) 号码时，可能需要在 TNS 服务台获得帮助和支持。
-ms.openlocfilehash: b490552b9f6f06a70e017b13f120bbb777cb9131
-ms.sourcegitcommit: 46b5dc0519d487e264b1386e5074085c2d090e9a
+description: 当你为组织获取电话号码或端口 (转移) 号码时，可能需要在 TNS 服务台获取帮助和支持。
+ms.openlocfilehash: 9984775a05458592fe1789c0dd8b173a08783220
+ms.sourcegitcommit: fd56fb16ed60b027d3f8de96711d143825f9c184
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "67674403"
+ms.lasthandoff: 01/20/2023
+ms.locfileid: "69835555"
 ---
 # <a name="telephone-number-services-tns---service-desk"></a>电话号码服务 (TNS) - 服务台
 
 > [!NOTE]
-> 截至 2021 年 7 月 22 日，以前与 TNS 服务台联系的电子邮件系统已停用。
+> 截至 2021 年 7 月 22 日，以前联系 TNS 服务台的电子邮件系统已停用。
 
-有一个新的过程，从我们新的 **[电话号码服务中心](https://pstnsd.powerappsportals.com)** 与电话号码服务 (TNS) 服务台进行交互。 现在可以在与 Teams 管理中心集成的单个位置打开票证、查看票证和跟踪通信。 以下各节更详细地介绍了这些任务。
+可通过新的电话号码服务中心与电话号码服务 (TNS) 服务台 **[进行交互。](https://pstnsd.powerappsportals.com)** 现在可以在与 Teams 管理中心集成的单个位置打开票证、查看票证和跟踪通信。 以下各节更详细地介绍了这些任务。
 
 
 - **[创建新案例](#create-a-new-case)** - 提交新请求或常规查询。
 
-- **[查看现有事例](#view-and-manage-existing-cases)** - 跟踪和监视现有案例 () 。
+- **[查看现有案例](#view-and-manage-existing-cases)** - 跟踪和监视现有案例 () 。
 
-- **[查看公司案例](#view-and-manage-existing-cases)** – 跟踪和监视公司现有案例 () 。 如果公司的同事已打开任何案例，则可在此视图中查找这些案例。
+- **[查看我的公司案例](#view-and-manage-existing-cases)** - 跟踪和监视公司的现有案例 () 。 如果公司的同事已打开任何案例，则可在此视图中查找这些案例。
 
-- **[提供反馈](#view-and-manage-existing-cases)** – 与我们共享反馈。
+- **[提供反馈](#view-and-manage-existing-cases)** - 与我们分享你的反馈。
 
 ## <a name="create-a-new-case"></a>新建案例
 
 > [!NOTE]
-> 仅允许同一租户中的某个人创建案例。 例如，@fabrikam.com 中的某人无法代表 @contoso.com 创建案例。
+> 仅允许来自同一租户的人员创建案例。 例如，来自 @fabrikam.com 的人员无法代表 @contoso.com 创建案例。
 
 若要创建新案例，请执行以下步骤：
 
 1. 选择 **从以下位置之一创建新案例** ：
 
-   - 从 **电话号码服务中心** 主页、页面顶部或底部磁贴。
+   - 在 **“电话号码服务中心** ”主页中，位于页面顶部或底部磁贴。
 
    - 从 **查看现有案例**  页。
 
@@ -63,7 +63,7 @@ ms.locfileid: "67674403"
 
 2. 提供案例详细信息，如[下一部分](#provide-case-details)中所述。
 
-3. 输入所有值后，选择 **“提交**”。 你将看到一个新屏幕，可在其中查看事例编号。
+3. 输入所有值后，选择“ **提交**”。 你将看到一个新屏幕，可在其中查看案例编号。
 
 ### <a name="provide-case-details"></a>提供案例详细信息
 
@@ -83,7 +83,7 @@ ms.locfileid: "67674403"
 
 - **提交新请求**- 如果要提交新请求，请选择此选项。 例如，想要提交端口请求，或从 Microsoft 购买电话号码。
 
-- **常规查询** - 如果在帮助确定请求上有问题，请选择此选项。 例如，需要知道是否可以将无线号码移植到 Microsoft，或者需要知道 Microsoft 是否支持虚免费号码。
+- **常规查询** - 如果存在有助于确定请求的问题，请选择此选项。 例如，需要知道是否可以将无线号码移植到 Microsoft，或者需要知道 Microsoft 是否支持虚免费号码。
 
 #### <a name="country-or-region"></a>国家或地区
 
@@ -119,7 +119,7 @@ ms.locfileid: "67674403"
 
   - **首选日期/时间*** - 要更改数字清单类型的日期和时间。 有关详细信息，请参阅日期和时间。
 
-  - **复选框 - 我了解，若要更新清单类型，我的电话号码需要未分配** - 除非未分配租户中的电话号码，否则 Microsoft 无法处理电话号码类型更改请求。 如果在将来的日期请求此更改，则需要确保在请求的日期和时间之前未分配数字。
+  - **复选框 - 我知道，为了能够更新清单类型，需要取消分配我的电话号码** - 除非未分配租户中的电话号码，否则 Microsoft 无法处理电话号码类型更改请求。 如果在将来的日期请求此更改，则需要确保在请求的日期和时间之前未分配数字。
 
   - **电话号码列表** - 要更改其类型的电话号码列表。 上传包含电话号码列表的 csv 文件。
 
@@ -127,7 +127,7 @@ ms.locfileid: "67674403"
 
   - **数字类型** - 选择数字的类型。 请参阅[电话号码类型](../different-kinds-of-phone-numbers-used-for-calling-plans.md)。
 
-  - **尝试从 Teams 管理员中心门户获取电话号码** - 是否尝试从 Microsoft Teams 管理员中心购买这些电话号码？
+  - **尝试从 Teams 管理员 中心门户获取电话号码** - 是否尝试从 Microsoft Teams 管理员中心购买这些电话号码？
 
   - **所需的电话号码数量 - 要购买的电话号码数量。**
 
@@ -143,11 +143,18 @@ ms.locfileid: "67674403"
 
   - **将端口订单命名** - 为端口申请提供易于记住的名称。
 
-  - **请求的移植日期/时间*** - 要将数字移植到 Microsoft 的日期和时间。 这不是保证的移植日期，因为当前号码所有者必须先批准我们的端口请求。 查看日期和时间。
+  - **请求的移植日期/时间*** - 要将数字移植到 Microsoft 的日期和时间。 这不是有保证的移植日期，因为当前号码所有者必须先批准我们的转网请求。 查看日期和时间。
 
   - **移植号码列表** - 要移植到 Microsoft 的电话号码列表。 上传包含电话号码列表的 csv 文件。
 
   - **授权书 （LOA）** - 在此处附加已签名和填写的 LOA。 如果没有 LOA，Microsoft 无法处理端口请求。
+
+    > [!NOTE]
+    > 有关用于移植/转移现有电话号码的 LOA 和其他文档要求的详细信息，请参阅 [管理通话套餐的电话号码](/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)。
+    >
+    >若要为用户移植/转移 999 或更少的电话号码，请将已完成且已签名的 LOA 上传到 Microsoft Teams 管理中心以供进一步处理。
+    >
+    > 若要移植/转移超过 999 个电话号码，或者如果在 Microsoft Teams 管理中心的移植过程中遇到问题，可以 [手动将转网订单提交](/microsoftteams/phone-number-calling-plans/manually-submit-port-order) 到你区域的 TNS 服务台。
 
 - **地址更新**– 更新紧急呼叫地址。 请注意，此字段仅适用于所选国家/地区。
 
@@ -168,7 +175,7 @@ ms.locfileid: "67674403"
 
 #### <a name="description"></a>说明
 
-介绍你尝试实现的内容，并列出 Microsoft 电话号码服务 (TNS) 服务台的问题。
+描述你尝试实现的目标，并列出有关 Microsoft 电话号码服务 (TNS) 服务台的问题。
 
 #### <a name="additional-supporting-documents"></a>其他支持文档
 
@@ -180,7 +187,7 @@ ms.locfileid: "67674403"
 
 - 通过选择 **打开案例**、**所有案例** 或 **已结案例** 来 **筛选案例**。
 
-- 通过打开现有案例、向下滚动并选择 **“添加注释**”，**与 TNS 服务台就案例进行通信**。 将显示一个新窗口。 在批注框中输入消息。 如果) 可用，请将任何支持文档附加 (，然后选择“ **提交**”。
+- 通过打开现有案例、向下滚动并选择“**添加注释**”，**与 TNS 服务台就** 你的案例进行通信。 将显示一个新窗口。 在批注框中输入消息。 附加任何支持文档 (（如果可用) ），然后选择“ **提交**”。
 
   **来自 TNS 服务台** 的响应将显示在同一时间线下。 当案例有更新时，将收到更新的自动电子邮件通知。
 
@@ -194,7 +201,7 @@ ms.locfileid: "67674403"
 
 - 若要了解所在国家或地区的可用功能，请参阅[音频会议和通话套餐的国家/地区可用情况](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
 
-- 有关组织电话号码 () 适当类型的信息，请参阅 [不同类型的电话号码](../different-kinds-of-phone-numbers-used-for-calling-plans.md)。
+- 有关组织的电话号码的相应类型 () 的信息，请参阅 [不同类型的电话号码](../different-kinds-of-phone-numbers-used-for-calling-plans.md)。
 
 - 有关管理组织电话号码的信息，请参阅 [管理组织的电话号码](manage-phone-numbers-for-your-organization.md)。
 

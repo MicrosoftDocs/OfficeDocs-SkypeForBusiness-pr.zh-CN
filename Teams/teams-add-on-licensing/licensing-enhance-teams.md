@@ -3,7 +3,7 @@ title: Microsoft Teams 高级版许可
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
-ms.reviewer: ''
+ms.reviewer: jogruszc
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
@@ -18,12 +18,12 @@ ms.localizationpriority: medium
 ms.custom:
 - Licensing
 description: 了解如何使用 Microsoft Teams 高级版 附加许可证增强 Microsoft Teams 体验
-ms.openlocfilehash: d9307bc9b26421f4930c4355f42c274b5aad12a3
-ms.sourcegitcommit: ca4d1011f3d62af203145431f0b19065ad81601b
+ms.openlocfilehash: 36cc97d1eca47f94276c26ec7d8aeefb1e244d17
+ms.sourcegitcommit: fd56fb16ed60b027d3f8de96711d143825f9c184
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/13/2023
-ms.locfileid: "69800065"
+ms.lasthandoff: 01/20/2023
+ms.locfileid: "69835565"
 ---
 # <a name="microsoft-teams-premium-licensing"></a>Microsoft Teams 高级版许可
 
@@ -42,9 +42,11 @@ Microsoft Teams 高级版是一种 Teams 附加许可证，它允许拥有 Micro
 - [Teams 高级版与 Teams 相比如何？](#how-does-teams-premium-compare-to-teams)
 - [是否有将迁移到Teams 高级版的当前 Teams 功能？](#are-there-current-teams-features-that-will-move-to-teams-premium)
 - [购买Teams 高级版有什么要求？](#what-are-the-requirements-to-purchase-teams-premium)
+- [应为哪些用户分配Teams 高级版许可证？](#which-users-should-be-assigned-teams-premium-licenses)
 - [Teams 高级版与Teams 会议室专业版有何不同？](#how-does-teams-premium-differ-from-teams-rooms-pro)
 - [在购买许可证之前，我是否可以体验Teams 高级版？](#can-i-experience-teams-premium-before-buying-licenses)
 - [如何实现购买Teams 高级版许可证？](#how-do-i-purchase-teams-premium-licenses)
+- [分配用户许可证后是否需要管理员配置？](#is-admin-configuration-required-after-assigning-users-licenses)
 
 若要了解如何设置和配置Teams 高级版功能，请参阅 [Microsoft Teams 高级版 - 管理员概述](/microsoftteams/enhanced-teams-experience)，其中还包括最终用户文档的链接（当文档可用时）。
 
@@ -69,7 +71,9 @@ Microsoft Teams 高级版是一种 Teams 附加许可证，它允许拥有 Micro
 | 在会议期间阅读实时翻译的字幕 |  | X |
 | 翻译会议后听录 (*即将)* |  | X |
 | 启用实时数据存储 |  | X |
-| 为实时事件启用 eCDN |  | X |
+| 为实时事件启用 eCDN\* |  | X |
+
+\**eCDN 可以作为独立许可证获取，如果需要，可以在Teams 高级版之外购买更多许可证。若要了解 eCDN 独立许可，请参阅 [Microsoft eCDN](https://www.microsoft.com/microsoft-teams/ecdn)。*
 
 ### <a name="webinars"></a>网络研讨会
 
@@ -106,7 +110,7 @@ Microsoft Teams 高级版是一种 Teams 附加许可证，它允许拥有 Micro
 | 自定义用户策略包 |  | X |
 | 启用高级会议监视和警报 |  | X |
 
-\**此功能仅适用于具有Microsoft 365 E5订阅的Teams 高级版用户。有关许可要求的详细信息，请参阅 [购买Teams 高级版有哪些要求？](#what-are-the-requirements-to-purchase-teams-premium)*
+\**此功能仅适用于具有Microsoft 365 E5订阅或 Microsoft E3 订阅以及高级合规性许可证的Teams 高级版用户。有关许可要求的详细信息，请参阅 [购买Teams 高级版有哪些要求？](#what-are-the-requirements-to-purchase-teams-premium)*
 
 ### <a name="meetings-reporting"></a>会议报告
 
@@ -147,35 +151,51 @@ Microsoft Teams 高级版是一种 Teams 附加许可证，它允许拥有 Micro
 移动到Teams 高级版的功能包括：
 
 - 实时翻译的字幕。
+  - 在Teams 高级版正式发布后的 60 天内，所有 Teams 订阅者均可使用。
 - Teams 会议录制中的时间线标记，用于用户何时离开或加入会议。
+  - 在Teams 高级版正式发布后的 30 天内，所有 Teams 订阅者均可使用。
 - 自定义组织在一起模式场景。
+  - 在Teams 高级版正式发布后的 30 天内，所有 Teams 订阅者均可使用。
 - 虚拟约会：短信通知。
+  - 在Teams 高级版正式发布后的 30 天内，所有 Teams 订阅者均可使用。
 - 虚拟约会：Teams 管理中心中的组织分析。
+  - 在Teams 高级版正式发布后的 30 天内，所有 Teams 订阅者均可使用。
 - 虚拟约会：计划的队列视图。
+  - 在Teams 高级版正式发布后的 30 天内，所有 Teams 订阅者均可使用。
 
 ### <a name="is-there-a-grace-period-to-switch-to-team-premium-before-my-users-lose-functionality"></a>在用户失去功能之前，是否有切换到 Team Premium 的宽限期？
 
-当Teams 高级版可供购买时，管理员将有 30 天的宽限期来购买Teams 高级版。
+当Teams 高级版可供购买时，管理员将有 60 天的宽限期来购买Teams 高级版。
 
-在 30 天宽限期过后，用户将无法访问以前在 Teams 中没有Teams 高级版加载项的功能，除非管理员为其用户购买并分配Teams 高级版许可证。
+在 60 天宽限期过后，用户将失去对以前在 Teams 中提供的功能的访问权限，而无需Teams 高级版加载项，除非管理员为其用户购买并分配Teams 高级版许可证。
 
 某些租户可能具有Teams 高级版试用版许可证。 试用许可证过期后，用户将立即失去Teams 高级版功能。 与自定义模板和会议背景等Teams 高级版功能关联的资产将保留在租户中，但会灰显且不可用。
 
 ## <a name="what-are-the-requirements-to-purchase-teams-premium"></a>购买Teams 高级版有什么要求？
 
-在发布时，Teams 高级版将通过所有 Microsoft 购买渠道（包括 EA、EAS、EES、CSP、Web Direct、NCE - 客户主导和 NCE - 合作伙伴主导）在全球范围内进行购买。
+在发布时，Teams 高级版将通过所有 Microsoft 购买渠道（包括 EA、EAS、CSP、Web Direct、NCE - 客户主导和 NCE – 合作伙伴主导）在全球范围内购买。
 
 在为用户购买Teams 高级版许可证之前，请确保租户和用户满足要求。
 
 **租户要求** 为：
 
-- 必须是商业、全球公共部门、EDU、GCC 或非营利性租户。
+- 必须是商业、全球公共部门、EDU 或非营利性租户。
   - 在常规版本中，Microsoft 不会为Teams 高级版提供特定于 EDU 的许可证或 EDU 折扣。
-  - GCC High 和 DoD 租户无法在正式发布时购买Teams 高级版许可证。
+  - GCC、GCC High 和 DoD 许可证将在正式发布后的某个时候可用。
 
 **用户要求** 是：
 
 - 使用 Teams 的Office 365或 Microsoft 365 订阅。
+
+### <a name="can-i-acquire-teams-premium-features-without-the-teams-premium-license"></a>是否可以在没有Teams 高级版许可证的情况下获取Teams 高级版功能？
+
+Teams 高级版将大量 Teams 功能捆绑到单个许可证下。 在某些情况下，可以通过其他许可方案获取单个Teams 高级版功能。 但是，Teams 高级版许可证旨在成为增强组织和用户的 Teams 体验的最全面和最简单的途径。
+
+## <a name="which-users-should-be-assigned-teams-premium-licenses"></a>应为哪些用户分配Teams 高级版许可证？
+
+Teams 高级版是按用户、按月许可证，任何受益于Teams 高级版功能的用户都需要分配Teams 高级版许可证。
+
+虚拟约会外部参与者没有许可证要求。
 
 ## <a name="how-does-teams-premium-differ-from-teams-rooms-pro"></a>Teams 高级版与Teams 会议室专业版有何不同？
 
@@ -208,3 +228,26 @@ Teams 高级版许可证分配给组织的用户，Teams 会议室专业版许�
 购买Teams 高级版许可证后，将在[Microsoft 365 管理中心](https://go.microsoft.com/fwlink/p/?linkid=834822)中将许可证分配给用户。
 
 有关在Microsoft 365 管理中心中分配许可证的说明，请参阅[向用户分配 Microsoft 365 许可证](/microsoft-365/admin/manage/assign-licenses-to-users)。
+
+## <a name="is-admin-configuration-required-after-assigning-users-licenses"></a>分配用户许可证后是否需要管理员配置？
+
+许多Teams 高级版功能要求 IT 管理员配置该功能，然后用户才能访问该功能。
+
+以下列表指示Teams 高级版需要管理员配置才能用户访问该功能的功能：
+
+- 对最多 50 名参与者的会议使用端到端加密
+- 向会议添加水印
+- 添加敏感度标签
+- 阻止复制和粘贴会议聊天
+- 使用组织自定义背景
+- 使用组织自定义的一起模式场景
+- 正在分配自定义策略包
+- 使用组织自定义会议模板
+- 查看组织自定义品牌
+- 将 eCDN 用于实时事件
+- 使用 RTMP-In
+- 发送虚拟约会的短信通知
+- 访问 虚拟约会 Premium 应用
+- 在 Teams 管理中心访问虚拟约会数据
+
+有关说明的链接，请参阅 [Microsoft Teams 高级版 - 管理员概述](/microsoftteams/enhanced-teams-experience)。

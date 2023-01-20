@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 了解如何获取新的电话号码和转网或转移音频会议、自动助理和呼叫队列的现有号码， (Teams 服务号码) 。
-ms.openlocfilehash: f72e24db204a53680a3f82469a7a77ca81943d8f
-ms.sourcegitcommit: 1398c778e46b0d81c9710cd70d3818a2b7af995a
+ms.openlocfilehash: 21f577f2db325d57b9f87a2329dcd3ab121b4d5e
+ms.sourcegitcommit: fd56fb16ed60b027d3f8de96711d143825f9c184
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2023
-ms.locfileid: "69749048"
+ms.lasthandoff: 01/20/2023
+ms.locfileid: "69835455"
 ---
 # <a name="service-phone-numbers-for-calling-plans"></a>通话套餐的服务电话号码
 
@@ -74,7 +74,11 @@ ms.locfileid: "69749048"
 如果移植向导出现问题，可以 [手动提交转网订单](phone-number-calling-plans/manually-submit-port-order.md) 或转到 [管理组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)，选择国家或地区，然后下载授权书 (LOA) 。 对于每种类型的服务号码，必须提交单独的转网订单， (例如，收费与免费) 将使用 LOA 转移。 在 LOA 中，必须选择正确的服务编号类型。 请确保指定 (传输服务号码，而不是) 的用户或订阅者号码，否则并发呼叫容量可能不足以处理呼叫量。  
 
 > [!NOTE]
-> 可以在 Microsoft Teams 管理中心购买额外的电话号码。 对于特殊情况，例如大量端口 (1000 多个) 、复杂端口，或者如果需要帮助， [请联系 TNS 服务台](manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)。
+> 有关用于移植/转移现有电话号码的 LOA 和其他文档要求的详细信息，请参阅 [管理通话套餐的电话号码](/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)。
+>
+>若要为用户移植/转移 999 或更少的电话号码，请将已完成且已签名的 LOA 上传到 Microsoft Teams 管理中心以供进一步处理。 还可以在 Microsoft Teams 管理中心购买额外的电话号码。
+>
+> 若要移植/转移超过 999 个电话号码，或者如果在 Microsoft Teams 管理中心的移植过程中遇到问题，可以 [手动将转网订单提交](/microsoftteams/phone-number-calling-plans/manually-submit-port-order) 到你区域的 TNS 服务台。
 
 ## <a name="view-the-phone-numbers-for-your-organization"></a>查看组织的电话号码
 

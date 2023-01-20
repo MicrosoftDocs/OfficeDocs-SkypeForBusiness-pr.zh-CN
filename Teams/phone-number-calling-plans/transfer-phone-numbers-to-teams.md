@@ -20,12 +20,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解如何使用移植向导将电话号码从当前服务提供商转移到 Microsoft Teams。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 20c4caf97c5344d48f93feed47dc181495dd318d
-ms.sourcegitcommit: 1398c778e46b0d81c9710cd70d3818a2b7af995a
+ms.openlocfilehash: dd296bcf987016cf77af538edcb2e04328ab525b
+ms.sourcegitcommit: fd56fb16ed60b027d3f8de96711d143825f9c184
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2023
-ms.locfileid: "69749038"
+ms.lasthandoff: 01/20/2023
+ms.locfileid: "69835475"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>将电话号码转移到 Microsoft Teams
 
@@ -39,9 +39,6 @@ ms.locfileid: "69749038"
   > 免费电话号码的移植可用性可能因国家和地区而异。 若要查找详细信息，请参阅你所在的国家或地区特定文档，查看对移植服务的可用支持。
 
 ## <a name="create-a-port-order-and-transfer-your-phone-numbers-to-teams"></a>创建转网订单并将电话号码转移到 Teams
-
-> [!NOTE]
-> 如果在 Teams 管理中心中遇到移植过程问题，可以 [手动将转网订单提交](manually-submit-port-order.md) 到 TNS 服务台。 若要获取手动提交转网订单所需的表单，请在 [“管理组织的电话号码](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)”下拉列表中选择你的国家或地区。
 
 1. 在 Microsoft Teams 管理中心的左侧导航中，转到 **“语音** > **电话号码**”。 选择“ **编号**”，然后选择“ **端口** ”以启动移植向导。
 2. 查看 **“入门** ”页上的信息，然后准备就绪后，选择“ **下一步**”。
@@ -84,6 +81,10 @@ ms.locfileid: "69749038"
 
     > [!NOTE]
     > 上传 LOA 后，提交订单。 仅上传 LOA 是不够的。 您还必须提交订单，以便对其进行处理。
+    >
+    > 有关用于移植/转移现有电话号码的 LOA 和其他文档要求的详细信息，请参阅 [管理通话套餐的电话号码](/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)。
+    >
+    > 若要移植/转移超过 999 个电话号码，或者如果在 Microsoft Teams 管理中心的移植过程中遇到问题，可以 [手动将转网订单提交](/microsoftteams/phone-number-calling-plans/manually-submit-port-order) 到你区域的 TNS 服务台。
 
 7. 查看订单详细信息，然后选择“ **提交**”。
 
