@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: 获取有关通话质量仪表板 (CQD) Microsoft Teams 和 Skype for Business Online 使用的尺寸和度量的详细信息。
-ms.openlocfilehash: 8516bc63f5202bbbd9796f81615bbcd4630ac720
-ms.sourcegitcommit: b5ee4bc883ecd968843db6743430e2c463c72e5b
+ms.openlocfilehash: 2a0097d18c8a57fa8eb3645b932b4c992bd26ecc
+ms.sourcegitcommit: 5e0900ed7a21ed4e854cc00dbfb4ae4ff2372262
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2023
-ms.locfileid: "69787166"
+ms.lasthandoff: 01/23/2023
+ms.locfileid: "69950449"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>通话质量仪表板中提供的尺寸和度量值 (CQD) 
 
@@ -362,7 +362,7 @@ CQD 使用的字符串通常派生自数据文件，这些字符串几乎可以�
 | 网络抖动最小值|事件数|会话期间在 20 秒时段内计算的最小网络抖动。| |
 | Video Post FECPLR  | 范围（比率）  | 应用 FEC 后，跨所有视频流和编解码器汇总的丢包率。 值按范围分组表示。 <br/> **示例值：** 014：[0 - 0.01)  | <br/>&bull; 流不是视频或基于视频的屏幕共享流  <br/>&bull; 接收流的终结点未报告数据   |
 | Video Local Frame Loss Percentage Avg  | 范围（百分比）  | 向用户显示的视频帧丢失平均百分比。 值按范围分组表示。 其中包括从网络丢失恢复的帧。 <br/> **示例值：** 160：[80 - 85)  | <br/>&bull; 流不是视频或基于视频的屏幕共享流  <br/>&bull; 接收流的终结点未报告数据   |
-| 接收帧速率平均值  | 范围（每秒帧数）  | 在会话持续期间计算到的所有视频流每秒接收的平均帧数。 值按范围分组表示。 <br/> **示例值：** 101：[14.5 - 15)  | <br/>&bull; 流不是视频或基于视频的屏幕共享流  <br/>&bull; 接收流的终结点未报告数据   |
+| Recv Frame Rate Average  | 范围（每秒帧数）  | 在会话持续期间计算到的所有视频流每秒接收的平均帧数。 值按范围分组表示。 <br/> **示例值：** 101：[14.5 - 15)  | <br/>&bull; 流不是视频或基于视频的屏幕共享流  <br/>&bull; 接收流的终结点未报告数据   |
 | Low Frame Rate Call Percent | 范围（百分比）  | 帧速率低于 7.5 帧/秒的通话时间的百分比。 值按范围分组表示。 <br/> **示例值：** 099：[13.5 - 14)  | <br/>&bull; 流不是视频或基于视频的屏幕共享流  <br/>&bull; 接收流的终结点未报告数据   |
 | Video Packet Loss Rate  | 范围（比率）  | 在会话持续期间计算到的平均丢包比率（小数），根据 RFC3550 指定。 值按范围分组表示。 <br/> **示例值：** 037：[0.75 - 0.8)  | <br/>&bull; 流不是视频或基于视频的屏幕共享流  <br/>&bull; 接收流的终结点未报告数据   |
 | Video Frame Rate Avg  | 范围（每秒帧数）  | 在会话持续期间计算到的视频流每秒接收的平均帧数。 值按范围分组表示。 <br/> **示例值：** 135：[31.5 - 32)   | <br/>&bull; 流不是视频或基于视频的屏幕共享流  <br/>&bull; 接收流的终结点未报告数据  |
@@ -408,10 +408,10 @@ CQD 使用的字符串通常派生自数据文件，这些字符串几乎可以�
 | OnePercent PacketLoss  | 布尔值  | 如果数据包丢失超过 1%，则为 True，否则为 False。  |   |
 | 检测到入站网络问题 | Boolean | 如果为 true，则表示媒体流可能由于入站网络而受到影响的高置信度。 | &bull; 此维度仅适用于流 *方向 == 第一到第二的流* |
 | 检测到上行问题| Boolean | 如果为 true，则表示媒体流可能由于网络上行而受到影响的高置信度。 | &bull; 此维度不适用于 P2P 调用。 |
-| 检测到远程输入设备问题 | Boolean | 如果为 true，则表示媒体流可能由于远程捕获设备而受到影响的高置信度。 |
+| 检测到其他用户设备问题 | Boolean | 如果为 true，则表示媒体流可能由于远程捕获设备而受到影响的高置信度。 |
 | 检测到本地输入设备问题 | Boolean | 如果为 true，则表示媒体流可能由于第一终结点上的呈现设备而受到影响的高置信度。 | &bull; 此维度仅适用于流 *方向 == 第一到第二的流* |
-| 检测到回显| Boolean | 如果为 true，则表示媒体流可能由于回显而受到影响的高置信度。|
-| 检测到远程计算问题 | Boolean | 如果为 true，则表示媒体流可能由于远程端的计算资源而受到影响的高置信度。 |
+| 检测到回声问题 | Boolean | 如果为 true，则表示媒体流可能由于回显而受到影响的高置信度。|
+| 检测到其他用户计算问题 | Boolean | 如果为 true，则表示媒体流可能由于远程端的计算资源而受到影响的高置信度。 |
 | 检测到本地计算问题 | Boolean | 如果为 true，则表示媒体流可能由于本地计算资源而受到影响的高置信度。 | &bull; 此维度仅适用于流 *方向 == 第一到第二的流* |
 | 检测到媒体模式问题 | Boolean | 如果为 true，则表示用户对入站媒体流的体验较差的置信度很高。 | &bull; 此维度仅适用于流 *方向 == 第一到第二的流* |
 |**评级**||||
@@ -434,12 +434,12 @@ CQD 使用的字符串通常派生自数据文件，这些字符串几乎可以�
 | Second Echo Percent Send  | 范围（百分比）  | 第二终结点在回声取消后在音频中检测到时间回声的百分比。 值按范围分组表示。 <br/> **示例值：** 068：[5 - 10)  | &bull; 指示非音频流 <br/>&bull; 第二终结点未报告数据 |
 | First Send Signal Level  | 范围（dB、分贝）  | Average energy level of sent audio for audio classified as mono speech, or left channel of stereo speech by the first endpoint. Values grouped by range. <br/> **示例值：** 055：[-15 - -10)  | &bull; 这是非音频流 <br/>&bull; 第一终结点未报告数据 |
 | Second Send Signal Level  | 范围（dB、分贝）  | Average energy level of sent audio for audio classified as mono speech, or left channel of stereo speech by the second endpoint. Values grouped by range. <br/> **示例值：** 055：[-15 - -10)  | &bull; 指示非音频流 <br/>&bull; 第二终结点未报告数据  |
-| 首次接收信号级别  | 范围（dB、分贝）  | Average energy level of received audio for audio classified as mono speech, or left channel of stereo speech by the first endpoint. Values grouped by range. <br/> **示例值：** 056：[-10 - -5)   | &bull; 这是非音频流 <br/>&bull; 第一终结点未报告数据 |
-| 第二个接收信号级别  | 范围（dB、分贝）  | Average energy level of received audio for audio classified as mono speech, or left channel of stereo speech by the second endpoint. Values grouped by range. <br/> **示例值：** 056：[-10 - -5)  | &bull; 指示非音频流 <br/>&bull; 第二终结点未报告数据  |
+| First Recv Signal Level | 范围（dB、分贝）  | Average energy level of received audio for audio classified as mono speech, or left channel of stereo speech by the first endpoint. Values grouped by range. <br/> **示例值：** 056：[-10 - -5)   | &bull; 这是非音频流 <br/>&bull; 第一终结点未报告数据 |
+| Second Recv Signal Level  | 范围（dB、分贝）  | Average energy level of received audio for audio classified as mono speech, or left channel of stereo speech by the second endpoint. Values grouped by range. <br/> **示例值：** 056：[-10 - -5)  | &bull; 指示非音频流 <br/>&bull; 第二终结点未报告数据  |
 | First Send Noise Level  | 范围（dB、分贝）  | 分类为单声道噪音或立体声左声道噪音（由第一终结点发送）的音频的平均能量水平。 值按范围分组表示。 <br/> **示例值：** 048：[-50 - -45)   | &bull; 这是非音频流 <br/>&bull; 第一终结点未报告数据 |
 | Second Send Noise Level  | 范围（dB、分贝）  | 第二终结点分类为单声道噪音或立体声左声道噪音的音频的平均能量水平。 值按范围分组表示。 <br/> **示例值：** 048：[-50 - -45)   | &bull; 指示非音频流 <br/>&bull; 第二终结点未报告数据 |
-| 首次接收的噪音级别  | 范围（dB、分贝）  | 第一终结点接收的单声道噪音或立体声左声道噪声的平均能量水平。 值按范围分组表示。 <br/> **示例值：** 048：[-50 - -45)   | &bull; 这是非音频流 <br/>&bull; 第一终结点未报告数据 |
-| 第二个接收噪音级别  | 范围（dB、分贝）  | 第二终结点接收的单声道噪声或立体声左声道噪声的平均能量水平。 值按范围分组表示。 <br/> **示例值：** 048：[-50 - -45)   | &bull; 指示非音频流 <br/>&bull; 第二终结点未报告数据 |
+| First Recv Noise Level  | 范围（dB、分贝）  | 第一终结点接收的单声道噪音或立体声左声道噪声的平均能量水平。 值按范围分组表示。 <br/> **示例值：** 048：[-50 - -45)   | &bull; 这是非音频流 <br/>&bull; 第一终结点未报告数据 |
+| Second Recv Noise Level  | 范围（dB、分贝）  | 第二终结点接收的单声道噪声或立体声左声道噪声的平均能量水平。 值按范围分组表示。 <br/> **示例值：** 048：[-50 - -45)   | &bull; 指示非音频流 <br/>&bull; 第二终结点未报告数据 |
 |第一个初始信号级别 RMS | 范围（dB、分贝） | 第一终结点调用前 30 秒接收信号的均方根 (RMS) 。 请参阅 [2.2.1.28.1 子元素](/openspecs/office_protocols/ms-qoe/3c78f383-73fe-49f6-89cb-614e7aa8b2e7)  | |
 | 第二个初始信号级别 RMS |范围（dB、分贝） | 第二终结点调用的前 30 秒，均方根 (RMS) 接收的信号。 有关详细信息 [，请参阅 2.2.1.28.1 子元素](/openspecs/office_protocols/ms-qoe/3c78f383-73fe-49f6-89cb-614e7aa8b2e7) 。||
 | 第一个 RxAGC 信号级别 |范围（dB、分贝）| 在第一个入站音频流的自动增益控制 (AGC) 接收的信号级别。| |
@@ -456,7 +456,7 @@ CQD 使用的字符串通常派生自数据文件，这些字符串几乎可以�
 | First CPU Insufficient Event Ratio  | 范围（比率）  | Fraction of the call that the first endpoint detected the CPU resources available were insufficient and caused poor quality of the audio sent and received. Values grouped by range. <br/> **示例值：** 016：[0.02 - 0.03)   | &bull; 指示非音频流 <br/>&bull; 第一终结点未报告数据 |
 | Second CPU Insufficient Event Ratio  | 范围（比率）  | Fraction of the call that the second endpoint detected the CPU resources available were insufficient and caused poor quality of the audio sent and received. Values grouped by range. <br/> **示例值：** 016：[0.02 - 0.03)   | &bull; 指示非音频流 <br/>&bull; 第二终结点未报告数据 |
 | First Device Half Duplex AEC Event Ratio  | 范围（比率）  | 第一终结点检测到问题并在半双工模式下操作声学回声消除器，这影响了实时双向通信的能力。 值按范围分组表示。 <br/> **示例值：** 016：[0.02 - 0.03)   | &bull; 这是非音频流 <br/>&bull; 第一终结点未报告数据 |
-| Second Device Half Duplex AEC Event Ratio  | 范围（比率）  | 第二终结点检测到问题并在半双工模式下操作声学回声消除器，这影响了实时双向通信的能力。 值按范围分组表示。 <br/> **示例值：** 016：[0.02 - 0.03)  | &bull; 指示非音频流 <br/>&bull; 第二终结点未报告数据  |
+| Second Device HalfDuplex AEC 事件比率  | 范围（比率）  | 第二终结点检测到问题并在半双工模式下操作声学回声消除器，这影响了实时双向通信的能力。 值按范围分组表示。 <br/> **示例值：** 016：[0.02 - 0.03)  | &bull; 指示非音频流 <br/>&bull; 第二终结点未报告数据  |
 | First Device Render Not Functioning Event Ratio  | 范围（比率）  | 第一终结点检测到呈现设备无法正常工作的调用的一小部分。 值按范围分组表示。 <br/> **示例值：** 016：[0.02 - 0.03)  | &bull; 这是非音频流 <br/>&bull; 第一终结点未报告数据  |
 | Second Device Render Not Functioning Event Ratio  | 范围（比率）  | 第二终结点检测到呈现设备无法正常工作的调用的一小部分。 值按范围分组表示。 <br/> **示例值：** 016：[0.02 - 0.03)   | &bull; 指示非音频流 <br/>&bull; 第二终结点未报告数据 |
 | First Device Capture Not Functioning Event Ratio  | 范围（比率）  | 第一终结点检测到捕获设备无法正常工作的调用的一小部分。 值按范围分组表示。 <br/> **示例值：** 016：[0.02 - 0.03)  | &bull; 这是非音频流 <br/>&bull; 第一终结点未报告数据  |
@@ -472,7 +472,7 @@ CQD 使用的字符串通常派生自数据文件，这些字符串几乎可以�
 | First Device Echo Event Ratio  | 范围（比率）  | 满足以下条件的通话的比率（小数）：第一终结点检测到回声，导致发送的音频质量差。 值按范围分组表示。 <br/> **示例值：** 016：[0.02 - 0.03)   | &bull; 这是非音频流 <br/>&bull; 第一终结点未报告数据 |
 | Second Device Echo Event Ratio  | 范围（比率）  | 满足以下条件的通话的比率（小数）：第二终结点检测到回声，导致发送的音频质量差。 值按范围分组表示。 <br/> **示例值：** 016：[0.02 - 0.03)   | &bull; 指示非音频流 <br/>&bull; 第二终结点未报告数据 |
 | First Device Near End To Echo Ratio Event Ratio | 范围（比率）| 第一终结点检测到近端信号与回声比率导致音频质量不佳的呼叫的分数。 值按范围分组表示。 <br/> **示例值：** 016：[0.02 - 0.03)  | &bull; 这是非音频流 <br/>&bull; 第一终结点未报告数据|
-| Second Device Near End To Echo Ratio Event Ratio  | 范围（比率）  | 第二终结点检测到近端信号与回声级别的比率导致音频质量不佳的呼叫的分数。 值按范围分组表示。 <br/> **示例值：** 016：[0.02 - 0.03)   | &bull; 指示非音频流 <br/>&bull; 第二终结点未报告数据 |
+| Second Device NearEnd to Echo Ratio 事件比率  | 范围（比率）  | 第二终结点检测到近端信号与回声级别的比率导致音频质量不佳的呼叫的分数。 值按范围分组表示。 <br/> **示例值：** 016：[0.02 - 0.03)   | &bull; 指示非音频流 <br/>&bull; 第二终结点未报告数据 |
 | First Device Render Zero Volume Event Ratio  | 范围（比率）  | 满足以下条件的通话的比率（小数）：第一终结点检测到设备呈现音量设置为 0。 值按范围分组表示。  <br/> **示例值：** 016：[0.02 - 0.03)  | &bull; 这是非音频流 <br/>&bull; 第一终结点未报告数据 |
 | Second Device Render Zero Volume Event Ratio  | 范围（比率）  | 满足以下条件的通话的比率（小数）：第二终结点检测到设备呈现音量设置为 0。 值按范围分组表示。 <br/> **示例值：** 016：[0.02 - 0.03)  | &bull; 指示非音频流 <br/>&bull; 第二终结点未报告数据  |
 | First Device Render Mute Event Ratio  | 范围（比率）  | 满足以下条件的通话的比率（小数）：第一终结点检测到设备呈现被静音。 值按范围分组表示。 <br/> **示例值：** 016：[0.02 - 0.03)    | &bull; 这是非音频流 <br/>&bull; 第一终结点未报告数据 |
@@ -493,7 +493,7 @@ CQD 使用的字符串通常派生自数据文件，这些字符串几乎可以�
 | Stun Version  | 整型  | 建立通话所使用的 STUN 协议的版本。  | <br/>&bull; 终结点未报告数据 <br/> **示例值：** 2  |
 | Media Relay  | 字符串  | 用于会话的一个或多个媒体中继的 IP 地址。 对于流，可能会报告一对中继，中间用"+"隔开。 <br/> **示例值：** "13.107.8.2 + 13.107.8.2"  | &bull; 终结点未报告此数据  |
 | Is Anonymous Join Session  | 布尔值  | 如果用户匿名加入会议，则为 True，否则为 False。   | &bull; 没有用于确定用户是否匿名加入的数据   |
-| 具有媒体诊断 Blob  | Boolean  | 如何会话具有媒体诊断数据，则为 True，否则为 False。   | &bull; 未为此流收集一些信号数据   |
+| Has Media Diag Blob  | 布尔值  | 如何会话具有媒体诊断数据，则为 True，否则为 False。   | &bull; 未为此流收集一些信号数据   |
 | Call Setup Failure Reason  | 枚举  | 通话未能建立媒体连接的原因分类。 <br/>**可能的值：** <br/> **缺少 FW 深度数据包检查豁免规则** - 指示路径上的网络设备可能因深度数据包检查规则而阻止建立媒体路径。 这可能是因为未正确配置代理或防火墙规则。 <br/> **缺少 FW IP 阻止豁免规则** - 指示路径上的网络设备可能阻止建立到Office 365网络的媒体路径。 这可能是因为未正确将代理或防火墙规则配置为允许访问用于 Skype for Business 流量的 IP 地址和端口。 <br/> **其他** - 指示无法建立调用的媒体路径，但无法对根本原因进行分类。 <br/> 不是媒体故障 - 指示在建立媒体路径时未检测到问题。  | &bull; 由于未知媒体问题，呼叫设置失败  |
 | 会话类型  | 枚举 <br/>**可能的值：** <br/> Conf、P2P  | 指示呼叫会话类型是会议 (Conf) 还是对等呼叫 (P2P) 方案。 <br/> **示例值：** Conf | |
 | CDR 响应原因  | 枚举 <br/>**可能的值：** <br/> 0 或 200 = “OK” <br/> 410 = “MediaConnectivityErrors”<br/> 480 = “UserUnavailable”<br/> 487 = “PickupTimedOut” <br/> 603 = “CallDeclined” <br/> 所有其他 CDR 代码 = “Other” | 提供通话会话结束的原因、呼叫是否成功，并允许区分不完整的呼叫 (无应答、忙碌、拒绝) 和失败呼叫 (媒体建立) 。 请注意，410 错误可能并不总是与“失败”分类相关联;这是由于标识的排除项造成的，因此不被视为影响媒体故障。 <br/> **示例值：** 还行 | <br/>&bull; 值“Other”表示响应代码在诊断上在 Microsoft 工程团队之外没有用处 |

@@ -17,20 +17,22 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 了解如何在敏感 Teams 会议中对与会者视频和共享内容启用或要求水印。
-ms.openlocfilehash: 199ba2d84ca4187a7d8e3c4f9a4d471bb9251598
-ms.sourcegitcommit: ca4d1011f3d62af203145431f0b19065ad81601b
+ms.openlocfilehash: 6037bc6e9dbe79d9ecee10666f4c34e4e778216a
+ms.sourcegitcommit: 5e0900ed7a21ed4e854cc00dbfb4ae4ff2372262
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/13/2023
-ms.locfileid: "69800249"
+ms.lasthandoff: 01/23/2023
+ms.locfileid: "69950499"
 ---
 # <a name="require-a-watermark-for-sensitive-teams-meetings"></a>需要敏感 Teams 会议的水印
 
 [!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
 
-你可以为屏幕上共享的内容和与会者视频启用在 Teams 会议中显示的水印。 水印显示会议参与者的电子邮件地址。 会议参与者无法关闭水印。 
+你可以为屏幕上共享的内容和与会者视频启用在 Teams 会议中显示的水印。 水印显示会议参与者的电子邮件地址。 会议参与者无法关闭水印。
 
-Teams 桌面版、Teams 移动版、Windows 上的Microsoft Teams 会议室和 Surface Hub 上的 Microsoft Teams 会议室 支持水印。  (Android 上的Microsoft Teams 会议室不支持水印。) 人员从不受支持的平台（包括[云视频互操作 (CVI) ](cloud-video-interop.md)）加入会议将能够查看没有水印的内容。
+Teams 桌面版和移动设备支持水印。 人员从不受支持的平台加入会议将具有仅音频体验。
+
+从 [云视频互操作 (CVI) ](cloud-video-interop.md)加入的参与者将能够查看没有水印的内容。
 
 使用水印时，以下参与者将具有仅音频体验：
 
@@ -38,6 +40,10 @@ Teams 桌面版、Teams 移动版、Windows 上的Microsoft Teams 会议室和 S
 - 虚拟桌面基础结构 (VDI) 参与者
 - 匿名参与者
 - 溢出参与者
+- Windows 上的Microsoft Teams 会议室和 Surface Hub 上的 Microsoft Teams 会议室
+- Android 上的Microsoft Teams 会议室
+- 较旧的 Teams 客户端
+- [Microsoft Teams 会议室设备上的直接来宾加入](/microsoftteams/rooms/third-party-join)
 
 > [!Note]
 > 敏感度标签、自定义会议模板和水印中的会议设置需要Teams 高级版。
