@@ -17,13 +17,15 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom:
 - Licensing
+- admindeeplinkTEAMS
+- admindeeplinkMAC
 description: 了解如何使用 Microsoft Teams 高级版 附加许可证增强 Microsoft Teams 体验
-ms.openlocfilehash: 36cc97d1eca47f94276c26ec7d8aeefb1e244d17
-ms.sourcegitcommit: fd56fb16ed60b027d3f8de96711d143825f9c184
+ms.openlocfilehash: 1d85c5d601dc74d7c308f05fa07bd99a2f274791
+ms.sourcegitcommit: 1f4a0b7cf03f63438bb37668d053853494c92168
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/20/2023
-ms.locfileid: "69835565"
+ms.lasthandoff: 01/23/2023
+ms.locfileid: "69948559"
 ---
 # <a name="microsoft-teams-premium-licensing"></a>Microsoft Teams 高级版许可
 
@@ -146,30 +148,24 @@ Microsoft Teams 高级版是一种 Teams 附加许可证，它允许拥有 Micro
 
 ## <a name="are-there-current-teams-features-that-will-move-to-teams-premium"></a>是否有将迁移到Teams 高级版的当前 Teams 功能？
 
-随着 Teams 高级版 的正式发布，某些 Teams 功能将从 Teams 许可证迁移到Teams 高级版许可证。 若要允许用户继续使用这些功能，需要购买并分配Teams 高级版许可证。
+随着 Teams 高级版 的正式发布，某些 Teams 功能将从 Teams 许可证迁移到Teams 高级版许可证。 其中每个功能在正式发布后都有 30 天或 60 天的宽限期。 宽限期到期后，用户将无法访问该功能。
+
+若要允许用户继续使用这些功能，需要购买并分配Teams 高级版许可证。
 
 移动到Teams 高级版的功能包括：
 
 - 实时翻译的字幕。
-  - 在Teams 高级版正式发布后的 60 天内，所有 Teams 订阅者均可使用。
+  - Teams 高级版正式发布后，所有 Teams 订阅者在 60 天的宽限期内可用。
 - Teams 会议录制中的时间线标记，用于用户何时离开或加入会议。
-  - 在Teams 高级版正式发布后的 30 天内，所有 Teams 订阅者均可使用。
+  - Teams 高级版正式发布后，所有 Teams 订阅者在 60 天的宽限期内可用。
 - 自定义组织在一起模式场景。
-  - 在Teams 高级版正式发布后的 30 天内，所有 Teams 订阅者均可使用。
+  - Teams 高级版正式发布后，所有 Teams 订阅者可在 30 天的宽限期内使用。
 - 虚拟约会：短信通知。
-  - 在Teams 高级版正式发布后的 30 天内，所有 Teams 订阅者均可使用。
+  - Teams 高级版正式发布后，所有 Teams 订阅者可在 30 天的宽限期内使用。
 - 虚拟约会：Teams 管理中心中的组织分析。
-  - 在Teams 高级版正式发布后的 30 天内，所有 Teams 订阅者均可使用。
+  - Teams 高级版正式发布后，所有 Teams 订阅者可在 30 天的宽限期内使用。
 - 虚拟约会：计划的队列视图。
-  - 在Teams 高级版正式发布后的 30 天内，所有 Teams 订阅者均可使用。
-
-### <a name="is-there-a-grace-period-to-switch-to-team-premium-before-my-users-lose-functionality"></a>在用户失去功能之前，是否有切换到 Team Premium 的宽限期？
-
-当Teams 高级版可供购买时，管理员将有 60 天的宽限期来购买Teams 高级版。
-
-在 60 天宽限期过后，用户将失去对以前在 Teams 中提供的功能的访问权限，而无需Teams 高级版加载项，除非管理员为其用户购买并分配Teams 高级版许可证。
-
-某些租户可能具有Teams 高级版试用版许可证。 试用许可证过期后，用户将立即失去Teams 高级版功能。 与自定义模板和会议背景等Teams 高级版功能关联的资产将保留在租户中，但会灰显且不可用。
+  - Teams 高级版正式发布后，所有 Teams 订阅者可在 30 天的宽限期内使用。
 
 ## <a name="what-are-the-requirements-to-purchase-teams-premium"></a>购买Teams 高级版有什么要求？
 
@@ -233,21 +229,20 @@ Teams 高级版许可证分配给组织的用户，Teams 会议室专业版许�
 
 许多Teams 高级版功能要求 IT 管理员配置该功能，然后用户才能访问该功能。
 
-以下列表指示Teams 高级版需要管理员配置才能用户访问该功能的功能：
+以下列表指示Teams 高级版功能，这些功能需要先在 [Teams 管理中心](https://go.microsoft.com/fwlink/p/?linkid=2066851)进行管理员配置，然后用户才能访问该功能：
 
-- 对最多 50 名参与者的会议使用端到端加密
-- 向会议添加水印
-- 添加敏感度标签
-- 阻止复制和粘贴会议聊天
-- 使用组织自定义背景
-- 使用组织自定义的一起模式场景
-- 正在分配自定义策略包
-- 使用组织自定义会议模板
-- 查看组织自定义品牌
-- 将 eCDN 用于实时事件
-- 使用 RTMP-In
-- 发送虚拟约会的短信通知
-- 访问 虚拟约会 Premium 应用
-- 在 Teams 管理中心访问虚拟约会数据
+- 对最多 50 名参与者的会议使用端到端加密。
+- 向会议添加水印。
+- 添加敏感度标签。
+- 阻止复制和粘贴会议聊天。
+- 使用组织自定义背景。
+- 使用组织自定义的一起模式场景。
+  - 管理员必须创建自定义“一起”模式场景。
+- 正在分配自定义策略包。
+- 使用组织自定义的会议模板。
+- 查看组织自定义品牌。
+- 对实时事件使用 eCDN。
+- 使用 RTMP-In。
+- 使用品牌自定义虚拟约会大厅。
 
 有关说明的链接，请参阅 [Microsoft Teams 高级版 - 管理员概述](/microsoftteams/enhanced-teams-experience)。
