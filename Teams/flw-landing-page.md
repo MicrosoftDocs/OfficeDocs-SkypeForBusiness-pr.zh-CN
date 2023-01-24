@@ -17,12 +17,13 @@ ms.collection:
 - highpri
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0ed56d9b9a34a62b36e14bb788d59a3167748686
-ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
+ms.date: 11/21/2022
+ms.openlocfilehash: 0579a04a14e2d197ba882069cebb5d6c2516be02
+ms.sourcegitcommit: b665a2d8cf938b7c47b2770c31820b5ab0f02ac6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/21/2022
-ms.locfileid: "69131231"
+ms.lasthandoff: 01/24/2023
+ms.locfileid: "69969902"
 ---
 # <a name="get-started-with-teams-for-frontline-workers"></a>适合一线员工的 Teams
 
