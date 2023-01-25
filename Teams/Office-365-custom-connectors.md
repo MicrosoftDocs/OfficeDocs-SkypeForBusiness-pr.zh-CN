@@ -7,39 +7,38 @@ ms.topic: article
 ms.service: msteams
 ms.subservice: teams-apps
 audience: admin
-ms.date: 09/01/2022
+ms.date: 01/24/2023
 ms.collection:
 - M365-collaboration
 ms.reviewer: lucarras
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 了解连接器如何通过经常将内容和更新直接传送到 Teams 频道以供你使用的服务来保持团队的更新。
+description: 了解连接器如何通过经常将内容和更新直接传送到你所使用的服务的 Teams 频道来使团队保持最新状态。
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: fb65e7c91aa7ac0de7c8dade3a442f457d72657f
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: bf38711da0205e7c674e769942d00d340d51f66e
+ms.sourcegitcommit: 1cb5f7129562eb2b228da23497c0e09e53da3872
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68377000"
+ms.lasthandoff: 01/25/2023
+ms.locfileid: "69983680"
 ---
 # <a name="manage-microsoft-365-connectors-and-custom-connectors"></a>管理 Microsoft 365 连接器和自定义连接器
 
-为了使团队保持更新，连接器会将常用内容和服务更新直接传送到 Teams 频道。 通过使用连接器，你的 Teams 用户可以接收来自常用服务（例如 Trello、奇妙清单、GitHub 和 Azure DevOps 服务）的更新。 更新将直接发布到其团队的聊天流中。
+Microsoft Teams 中的连接器将内容和服务更新直接从第三方服务传送到 Teams 频道。 使用连接器，用户可以从 Trello、奇妙清单、GitHub 和 Azure DevOps Services 等常用服务接收更新。 更新将直接发布到聊天流中。 这样，所有成员都可以轻松保持同步并快速接收相关信息。
 
-Microsoft 365 连接器会同时用于 Microsoft Teams 和 Microsoft 365 组。 它们使所有成员都能够轻松保持同步并快速接收相关信息。 可以在 Microsoft Teams 和 Microsoft Exchange 中使用相同的连接器。 但是，如果禁用为 Microsoft 365 组配置的任何连接器，它还会禁用 Microsoft 365 组创建连接器的功能。
+Microsoft 365 连接器与 Teams 和 Microsoft 365 组一起使用。 可以在 Teams 和 Microsoft Exchange 中使用相同的连接器。 
 
-如果团队权限允许，团队的任何成员都可以使用连接器将其团队连接到常用云服务，并且所有团队成员都会收到来自该服务的活动通知。 最初设置连接器的成员离开后，连接器将继续工作。 具有添加或删除权限的任何团队成员都可以修改其他成员设置的连接器。
+<!--- However, if you disable any connectors configured for a Microsoft 365 group, it also disables the ability for the Microsoft 365 group to create connectors. --->
+
+如果团队权限允许，团队的任何成员都可以在团队中添加连接器，并且所有团队成员都会收到来自该服务的活动的通知。 具有添加或删除权限的任何团队成员都可以修改其他成员设置的连接器。
 
 ## <a name="enable-or-disable-connectors-in-teams"></a>在 Teams 中启用或禁用连接器
 
-The Exchange Online PowerShell V2 模块使用新式身份验证并使用多重身份验证 (MFA) 连接到 Microsoft 365 中所有与 Exchange 相关 PowerShell 环境。 管理员可以使用 Exchange Online PowerShell 禁用整个租户或特定组邮箱的连接器，从而影响该租户或邮箱中的所有用户。 无法对少数特定用户禁用。 此外，默认情况下，政府社区云 (GCC 租户) 禁用连接器。
-
-> [!NOTE]
-> 默认情况下，政府云社区 (GCC) 环境中禁用连接器。 若要启用这些参数，请将 `ConnectorsEnabled` 或 `ConnectorsEnabledForTeams` 参数设置为 `$true` 使用 `SetOrganizationConfig` .cmdlet。 连接到 [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps&preserve-view=true)。
+Exchange Online PowerShell v2 模块使用新式身份验证，并与多重身份验证 (MFA) 配合使用，以连接到 Microsoft 365 中所有与 Exchange 相关的 PowerShell 环境。 管理员可以使用 Exchange Online PowerShell 禁用整个租户或特定组邮箱的连接器，从而影响该租户或邮箱中的所有用户。 无法对少数特定用户禁用。
 
 租户设置将替代组设置。 例如，如果管理员为组启用连接器并对租户禁用连接器，则会禁用该组的连接器。 要在 Teams 中启用连接器，请使用新式身份验证（无论是否使用 MFA）[连接到 Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps#connect-to-exchange-online-powershell-using-modern-authentication-with-or-without-mfa&preserve-view=true)。
 
@@ -81,7 +80,60 @@ Teams 连接器正在转换为新的 URL 以增强安全性。 在转换期间�
 
    :::image type="content" source="media/teams-url-updated.png" alt-text="“URL 是最新”消息的屏幕截图。":::
 
+## <a name="considerations-when-using-connectors-in-teams"></a>在 Teams 中使用连接器时的注意事项
+
+* 默认情况下，政府云社区 (GCC) 环境中禁用连接器。 若要启用这些参数，请将 `ConnectorsEnabled` 或 `ConnectorsEnabledForTeams` 参数设置为 `$true` 使用 `SetOrganizationConfig` .cmdlet。 连接到 [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps&preserve-view=true)。
+
+* 如果向团队添加连接器的用户离开团队，连接器将继续工作。
+
+* 以下连接器从 2023 年 1 月起不可用：
+
+  * 哈哈
+  * AIRBRAKE
+  * AIRCALL
+  * APPLINKS
+  * APPSIGNAL
+  * 青苗
+  * BITBUCKET
+  * BITBUCKETSERVER
+  * 伙计
+  * BUGSNAG
+  * BUILDKITE
+  * CATSONE
+  * CHATRA
+  * CIRCLECI
+  * CODESHIP
+  * GETRESPONSE
+  * GHOSTINSPECTOR
+  * 槽
+  * HEROKU
+  * HONEYBADGER
+  * 对讲机
+  * LOGENTRIES
+  * NEWRELIC
+  * OPSGENIE
+  * PAGERDUTY
+  * PAPERTRAIL
+  * PINGDOM
+  * PIVOTALTRACKER
+  * RAYGUN
+  * ROLLBAR
+  * RUNSCOPE
+  * SATISMETER
+  * 信号
+  * 哨兵
+  * SHAREPOINTNEWS
+  * SIMPLEINOUT
+  * STATUSPAGEIO
+  * 颠覆
+  * TEAMFOUNDATIONSERVER
+  * TESTFAIRY
+  * TRAVISCI
+  * UPDOWN
+  * USERLIKE
+  * XPDEV
+
 ## <a name="related-articles"></a>相关文章
 
 * [自定义连接器和 Webhook 概述](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors)
-* [创建 Office 365 连接器](/microsoftteams/platform/webhooks-and-connectors/how-to/connectors-creating)
+* [如何创建Office 365连接器](/microsoftteams/platform/webhooks-and-connectors/how-to/connectors-creating)

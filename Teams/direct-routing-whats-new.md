@@ -14,12 +14,12 @@ appliesto:
 - Microsoft Teams
 ms.collection:
 - M365-voice
-ms.openlocfilehash: 85a700faf37044c97c432707b07b6d6699c6692b
-ms.sourcegitcommit: 1f4a0b7cf03f63438bb37668d053853494c92168
+ms.openlocfilehash: 87befd2ff63fc5e3f0aa9e1c715972e5061b8fc7
+ms.sourcegitcommit: e09591a0df9848b50bfeda29650e91e9d35724af
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/23/2023
-ms.locfileid: "69948579"
+ms.lasthandoff: 01/24/2023
+ms.locfileid: "69981867"
 ---
 # <a name="whats-new-for-direct-routing"></a>直接路由的新增功能
 
@@ -43,7 +43,7 @@ Microsoft 将向 Teams 直接路由 SIP 终结点引入新的信号 IP。 若要
 
 防止服务影响：
 
-- 对于任何分类或 ACL 规则，请使用建议的子网： (52.112.0.0/14 和 52.120.0.0/14) 。
+- 对于任何分类或 ACL 规则，请使用建议的子网： (52.112.0.0/14 和 52.122.0.0/15) 。
 - 为直接路由配置会话边界控件时，停止使用 sip-all FQDN。
 
 有关详细信息，请参阅 [计划直接路由](direct-routing-plan.md)。

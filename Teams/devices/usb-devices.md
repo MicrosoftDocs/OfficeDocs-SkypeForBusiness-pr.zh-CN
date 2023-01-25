@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: 了解哪些 USB 外设和设备 (，例如头戴显示设备、免提电话、摄像头和监视器，) 通过了 Microsoft Teams 认证。
-ms.openlocfilehash: 88ea7be3fc27fadccb25cd173b0df5f7f618004f
-ms.sourcegitcommit: 1398c778e46b0d81c9710cd70d3818a2b7af995a
+ms.openlocfilehash: f8c964dddf2214540e9c384993f46c5a3d944da1
+ms.sourcegitcommit: 3056f95e9f654b78636949f43eacdde297e52c6e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2023
-ms.locfileid: "69749068"
+ms.lasthandoff: 01/25/2023
+ms.locfileid: "69990387"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>经 Microsoft Teams 认证的 USB 音频和视频设备
 
@@ -81,13 +81,27 @@ ms.locfileid: "69749068"
 
 ## <a name="certified-devices"></a>认证设备
 
-*表已于 2022 年 12 月更新*
+*表 2023 年 1 月更新*
 
 > [!NOTE]
 > 日期格式为 MM/DD/YYYY。
 
 | 制造商        | 模型                                                     | 合格      | 认证计划                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|EPOS                 |SDW 5061 头戴显示设备与 SDW D1 DECT USB 硬件保护装置              |1/20/2023       |Microsoft Teams 认证                           |
+|EPOS                 |带 SDW D1 DECT USB 硬件保护装置的 SDW 5031 头戴显示设备              |1/20/2023       |Microsoft Teams 认证                           |
+|EPOS                 |SDW 5011 头戴显示设备与 SDW D1 DECT USB 硬件保护装置              |1/20/2023       |Microsoft Teams 认证                           |
+|戴尔                 |P2424HEB 监视器                                           |1/18/2023       |Microsoft Teams 认证                           |
+|戴尔                 |P2724DEB 监视器                                           |1/18/2023       |Microsoft Teams 认证                           |
+|戴尔                 |P3424WEB Monitor                                           |1/18/2023       |Microsoft Teams 认证                           |
+|Yealink              |BH76 头戴显示设备                                               |12/22/2022      |Microsoft Teams 认证                           |
+|罗技             |Brio 300/301/305 相机                                    |12/22/2022      |Microsoft Teams 认证                           |
+|聚                 |带硬件保护装置版本 v1008 的 Savi 7310 UC 系列头戴显示设备     |12/22/2022      |Microsoft Teams 认证                           |
+|聚                 |带硬件保护装置版本的 Savi 7320 UC 系列头戴显示设备 v1008     |12/22/2022      |Microsoft Teams 认证                           |
+|Yealink              |WH62 双/单声道便携式头戴显示设备                            |12/21/2022      |Microsoft Teams 认证                           |
+|Yealink              |带 DECT 硬件保护装置的 WH63 便携式头戴显示设备                     |12/21/2022      |Microsoft Teams 认证                           |
+|Cisco                |320 系列 (321/322) 头戴显示设备                              |12/20/2022      |Microsoft Teams 认证                           |
+|Cisco                |720 系列 (721/722) 头戴显示设备                              |12/20/2022      |Microsoft Teams 认证                           |
 |联想               |T24mv-30 监视器                                           |12/19/2022      |Microsoft Teams 认证                           |
 |联想               |T27hv-30 监视器                                           |12/19/2022      |Microsoft Teams 认证                           |
 |联想               |电话会议基础免提电话                          |12/19/2022      |Microsoft Teams 认证                           |
@@ -97,15 +111,18 @@ ms.locfileid: "69749068"
 |EPOS                 |EXPAND Vision 1/S6                                         |10/13/2022      |Microsoft Teams 认证                           |
 |联想               |Go USB-C ANC In-Ear Headphones                             |9/20/2022       |Microsoft Teams 认证                           |
 |Logi                 |Brio 500/505/501 相机                                   |9/14/2022       |Microsoft Teams 认证                           |
+|索尼                 |YY2969 Earbuds                                             |9/6/2022        |Microsoft Teams 认证                           |
 |Jabra                |参与 50 II                                               |7/29/2022       |Microsoft Teams 认证                           |
 |Jabra                |参与 40 II                                               |7/29/2022       |Microsoft Teams 认证                           |
 |Logi                 |停靠免提电话                                          |7/13/2022       |Microsoft Teams 认证                           |
+|Microsoft            |音频扩展坞免提电话                                    |7/12/2022       |Microsoft Teams 认证                           |
 |戴尔                 |WB5023 相机                                              |6/29/2022       |Microsoft Teams 认证                           |
 |EPOS                 |ADAPT 560 II 头戴显示设备                                       |6/22/2022       |Microsoft Teams 认证                           |
 |EPOS                 |C10/C20/C50 系列头戴显示设备                                |5/31/2022       |Microsoft Teams 认证                           |
 |Jabra                |Engage55 单声道/立体声耳机                               |5/25/2022       |Microsoft Teams 认证                           |
 |EPOS                 |EXPAND 40T 免提电话                                    |5/24/2022       |Microsoft Teams 认证                           | 
 |戴尔                 |U3223QZ 监视器                                            |5/24/2022       |Microsoft Teams 认证                           |
+|Microsoft            |演示者+                                                 |5/12/2022       |Microsoft Teams 认证                           |
 |聚                 |Studio P21 监视器                                         |5/12/2022       |Microsoft Teams 认证                           |
 |Yealink              |UH38 头戴显示设备                                               |5/2/2022        |Microsoft Teams 认证                           |   
 |Yealink              |BH72 头戴显示设备                                               |5/2/2022        |Microsoft Teams 认证                           |

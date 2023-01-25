@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5ae4adf9d803ea0b3482451a9ece5d3ceb0df598
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: ee791259b938345876e9761344616fac7d1d9e45
+ms.sourcegitcommit: 3056f95e9f654b78636949f43eacdde297e52c6e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69307527"
+ms.lasthandoff: 01/25/2023
+ms.locfileid: "69990407"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 
@@ -123,16 +123,14 @@ Users who participate in conversations that are part of the chat list in Teams m
 
 |功能     | 最大限制 |
 |------------|---------------|
-|会议中的人数（可聊天和通话）  | 1000，包括 GCC、GCCH 和 DoD，但不包括 A1 (300)。 “**仅供查看**”允许最多 20，000 名仅收听的参与者加入组织者拥有 E3/E5/A3/A5 SKU 以及政府版（GCC、GCC High 和 DoD）许可证。 仅查看体验很快也可用于网络研讨会。 了解关于 [仅供查看体验](view-only-meeting-experience.md) 的详细信息。<sup>1，2</sup>|
+|会议中的人数（可聊天和通话）  | 1000，包括 GCC、GCCH 和 DoD，但不包括 A1 (300)。|
 |通过视频或音频通话聊天的人员数 | 20 |
 |PowerPoint 文件的最大大小 | 2 GB|
 |Teams 保留了不会上传到 Microsoft Stream 且可供本地下载的[会议记录](cloud-recording.md) | 20 天 |
 | 会议记录最大长度 | 4 小时或 1.5 GB。 达到此限制后，录制将结束并自动重启。
+
+有关详细信息，请参阅 [会议、网络研讨会和实时事件](/microsoftteams/quick-start-meetings-live-events)。  
   
-<sup>1</sup> 为了在大型会议、网络研讨会和直播活动中获得最佳体验，Microsoft 建议使用最新版本的 Teams 桌面客户端或 Teams 移动客户端。
-
-<sup>2</sup> 大型会议、网络研讨会和直播活动中的演示者应使用 Teams 桌面客户端。 有关托管大型会议的更多提示，请参阅 [大型 Teams 会议最佳做法](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16)。
-
 > [!NOTE]
 > 分组讨论室只能在与会者少于 300 人的会议上创建。 此外，在会议中创建分组讨论室会自动将会议平台的数量限制在 300 个。 建议最终用户不要在预计超过 300 人的会议上启动分组讨论室。 有关大型 Team 会议的更多信息，请与最终用户共享 [大型 Teams 会议的最佳实践](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16) 指南。
 
@@ -152,15 +150,19 @@ Users who participate in conversations that are part of the chat list in Teams m
 > [!NOTE]
 > Microsoft Teams 会议的时间限制为 30 小时。
 
-## <a name="teams-live-events"></a>Teams 实时事件
+## <a name="live-events"></a>直播活动
+  
+直播活动是结构化会议，组织能够安排和制作活动，将其流式传输给多达 20,000 人的大规模在线受众。 在直播活动中，受众交互是一种托管的问答体验。
 
 |功能     | 最大限制 |
 |------------|---------------|
-|受众规模 | 10,000 名与会者 |
+|受众规模 | 最多 20，000 名与会者 <sup>1</sup> |
 |事件持续时间 | 4 小时 |
-|Microsoft 365 或 Office 365 组织中运行的并发实时事件数 <sup>1</sup> | 15 |
+|在 Microsoft 365 或 Office 365 组织 <sup>2</sup> 中运行的并发实时事件 | 15 |
 
-<sup>1</sup> You can schedule as many Live Events as you want, but you can only run 15 at a time. As soon as the producer joins a live event, it's considered to be running. The producer who attempts to join the 16th live event gets an error.
+<sup>1</sup> 到 2023 年 6 月 30 日，通常的 10，000 增加到 20，000。 在 Yammer 和/或 Microsoft Stream 中，可以安排人数更为庞大的直播活动。 有关详细信息，请参阅 [跨 Microsoft 365 的直播活动](/stream/live-event-m365)。 请注意，如果与会者人数超过 20,000 人，则活动需要 [直播活动协助计划](/stream/live-events-assistance)。  
+  
+<sup>2</sup> 你可以根据需要安排任意数量的实时事件，但一次只能运行 15 个。 一旦制造者加入实时事件，即被视为正在运行。 尝试加入第 16 个实时事件的制造者将收到错误消息。
 
 有关实时事件的详细信息，请转到 [Teams 实时事件](teams-live-events/plan-for-teams-live-events.md#teams-live-events)。 另请参阅[安排 Teams 实时事件](https://support.microsoft.com/office/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2)。
 

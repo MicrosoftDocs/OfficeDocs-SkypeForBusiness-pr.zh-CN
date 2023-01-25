@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 对于 IT 专业人员 - 了解匿名会议参与在 Microsoft Teams 中的工作原理。
-ms.openlocfilehash: fe4dbec2bc606838bd5cafbaec5ef9d9ecdd8a88
-ms.sourcegitcommit: 1f4a0b7cf03f63438bb37668d053853494c92168
+ms.openlocfilehash: a4f1833059febf2f8481cba9f1b3716519613e89
+ms.sourcegitcommit: 1cb5f7129562eb2b228da23497c0e09e53da3872
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/23/2023
-ms.locfileid: "69948682"
+ms.lasthandoff: 01/25/2023
+ms.locfileid: "69983730"
 ---
 # <a name="manage-anonymous-participant-access-to-teams-meetings-it-admins"></a> (IT 管理员) 管理对 Teams 会议的匿名参与者访问权限
 
@@ -34,9 +34,9 @@ ms.locfileid: "69948682"
 - **匿名用户可以加入会议** Teams 会议设置 (组织级别) 必须启用。
 - 必须为会议组织者分配一个 Teams 会议策略，其中“ **允许匿名人员加入会议** ”控件已打开。
 
-默认情况下，组织和默认全局会议策略中启用匿名加入。
+默认情况下，组织和默认全局会议策略中将启用匿名会议加入。 我们建议保持组织级别设置，并使用会议策略为不同的用户打开或关闭匿名会议加入， (会议组织者) 。
 
-请注意，如果启用了匿名加入，大厅策略会影响匿名参与者加入会议的方式。 有关详细信息，请参阅 [控制谁可以绕过 Microsoft Teams 中的会议大厅](who-can-bypass-meeting-lobby.md)。
+请注意，如果启用了匿名会议加入，大厅策略会影响匿名参与者加入会议的方式。 有关详细信息，请参阅 [控制谁可以绕过 Microsoft Teams 中的会议大厅](who-can-bypass-meeting-lobby.md)。
 
 #### <a name="meetings-with-trusted-organizations"></a>与受信任组织的会议
 
@@ -81,15 +81,15 @@ ms.locfileid: "69948682"
 
 可以使用以下方法控制匿名参与者是否可以加入会议：
 
-- `-DisableAnonymousJoin` [Set-CsTeamsMeetingConfiguration](/powershell/module/skype/set-csteamsmeetingconfiguration) 中用于配置组织级别设置的参数。  (我们建议将此设置保留为 False，并使用 Set-CsTeamsMeetingPolicy -AllowAnonymousUsersToJoinMeeting 在用户或组级别控制匿名加入。) 
+- `-DisableAnonymousJoin` [Set-CsTeamsMeetingConfiguration](/powershell/module/skype/set-csteamsmeetingconfiguration) 中用于配置组织级别设置的参数。  (建议将此设置保留为 False，并使用 Set-CsTeamsMeetingPolicy -AllowAnonymousUsersToJoinMeeting 在用户或组级别控制匿名会议加入。) 
 - `-AllowAnonymousUsersToJoinMeeting` [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) 中的参数，用于配置用户级别会议策略
 
-若要允许匿名参与者加入会议，必须通过设置以下值将这两者都配置为允许匿名加入：
+若要允许匿名参与者加入会议，必须通过设置以下值将这两者都配置为允许匿名加入会议：
 
 - `Set-CsTeamsMeetingConfiguration -DisableAnonymousJoin` 设置为 **$false**
 - `Set-CsTeamsMeetingPolicy -AllowAnonymousUsersToJoinMeeting`设置为相关会议组织者的 **$true**
 
-## <a name="block-anonymous-join-for-specific-client-types"></a>阻止特定客户端类型的匿名加入
+## <a name="block-anonymous-meeting-join-for-specific-client-types"></a>阻止特定客户端类型的匿名会议加入
 
 允许匿名参与者加入会议时，他们可以使用 Teams 客户端或使用[Azure 通信服务](/azure/communication-services/)生成的自定义客户端。 
 

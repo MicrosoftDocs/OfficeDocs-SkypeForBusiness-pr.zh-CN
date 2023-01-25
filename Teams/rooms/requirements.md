@@ -16,12 +16,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: 了解支持Microsoft Teams 会议室的要求，包括选择合适的设备、麦克风、扬声器、相机和显示器。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 62e1ca6b2254047a14a11cf4c4c9ffb10477a0e3
-ms.sourcegitcommit: ed7d3b12d4bfe48863de873360c2ae90bbb15530
+ms.openlocfilehash: c5b1c9adda541926b48a943f796380fa8730a4a5
+ms.sourcegitcommit: 3056f95e9f654b78636949f43eacdde297e52c6e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2022
-ms.locfileid: "69194923"
+ms.lasthandoff: 01/25/2023
+ms.locfileid: "69990397"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams 会议室要求
 
@@ -36,9 +36,9 @@ Microsoft Teams 会议室缩放到不同的房间大小。 Teams 会议室根据
 - [基于计划的许可证选项：Microsoft Teams 会议室](rooms-licensing.md)
 
 > [!NOTE]
-> Microsoft Teams 会议室登录到 Microsoft Teams、Skype for Business Server 2019 或 2015 Skype for Business Server，并可以加入由这些服务托管的会议。
+> Microsoft Teams 会议室登录到 Microsoft Teams Skype for Business Server 2019 或 2015 Skype for Business Server，并可以加入由任何这些服务托管的会议。
 >
-> Microsoft Teams 会议室不支持 Lync Server 2013 等早期平台。 Microsoft 365 或由世纪互联运营的 Office 365 或 DoD 环境中不支持Microsoft Teams 会议室。
+> Microsoft Teams 会议室不支持 Lync Server 2013 等早期平台。 Microsoft Teams 会议室在由世纪互联或 DoD 环境运营的 Microsoft 365 或Office 365不受支持。
 >
 > 如果你有本地 Exchange Server，则 Microsoft Teams 会议室需要使用 Exchange Server 2013 SP1 或更高版本。
 
@@ -97,6 +97,7 @@ Teams 会议室[产品展示](https://products.office.com/microsoft-teams/across
   |[Poly G85-T Kit with Poly Eagle Eye Director II, with Lenovo](https://www.poly.com/us/en/support/products/video-conferencing/poly-room-solutions/g85) |Core i5| 8 GB | 128 GB|
   |Poly GC8 控制台与联想 Thinksmart Core|Core i5|8 GB|128 GB|
   |Poly GC8 控制台与 Dell Optiplex 7080|Core i5|8 GB|128 GB|
+  |[Poly GC8 控制台与 HP 800 G9 计算 -MTR-W](https://www.poly.com/us/en/solutions/platform/microsoft/video/teams-rooms-windows)|Core i5|8 GB|128 GB|
   |[使用 Intel NUC 的 Yealink MVC300](https://www.yealink.com/products_154.html)|Core i5|8 GB |128 GB |
   |[使用 Intel NUC 的 Yealink MVC500](https://www.yealink.com/products_126.html)|Core i5|8 GB |128 GB |
   |[使用 Intel NUC 的 Yealink MVC800](https://www.yealink.com/products_125.html)|Core i5|8 GB|128 GB|
