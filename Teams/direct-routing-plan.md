@@ -19,12 +19,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: 了解 Microsoft 直接路由如何使你能够将受支持的客户提供的会话边界控制器 (SBC) 连接到电话系统。
-ms.openlocfilehash: ba0db105d94fef7c81d79929c5cc7f9371f0fc6c
-ms.sourcegitcommit: 1f4a0b7cf03f63438bb37668d053853494c92168
+ms.openlocfilehash: 5d7912adf0c97bd0d26e6000efdd42d745e55dc3
+ms.sourcegitcommit: 1cb5f7129562eb2b228da23497c0e09e53da3872
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/23/2023
-ms.locfileid: "69948509"
+ms.lasthandoff: 01/25/2023
+ms.locfileid: "69983690"
 ---
 # <a name="plan-direct-routing"></a>规划直接路由
 
@@ -189,6 +189,11 @@ Microsoft 建议通过 (CSR) 生成证书签名请求来请求 SBC 的证书。 
 
 > [!NOTE]
 > 如果为 SBC 上的 Teams 连接启用了相互 TLS (MTLS) 支持，则必须在 Teams TLS 上下文的 SBC 受信任根存储中安装 Baltimore CyberTrust Root 和 DigiCert 全局根 G2 证书。  (这是因为 Microsoft 服务证书使用这两个根证书之一。) 若要下载这些根证书，请参阅[Office 365加密链](/microsoft-365/compliance/encryption-office-365-certificate-chains)。 有关详细信息，请参阅 [Office TLS 证书更改](/microsoft-365/compliance/encryption-office-365-tls-certificates-changes)。
+  
+若要验证 MTLS 连接是否源自 Teams 基础结构，应将 SBC 配置为在 Teams 服务器端证书上实现以下检查：
+- 检查证书颁发链是否源自以下根 CA 之一 - [Baltimore CyberTrust Root](/microsoft-365/compliance/encryption-office-365-certificate-chains.md#baltimore-cybertrust-root)
+-- [DigiCert Global Root G2](/microsoft-365/compliance/encryption-office-365-certificate-chains.md#digicert-global-root-g2)
+- 检查证书“使用者可选名称”是否包含“sip.pstnhub.microsoft.com”
 
 ## <a name="sip-signaling-fqdns"></a>SIP 信号：FQDN
 
@@ -284,7 +289,7 @@ SBC 会发出 DNS 查询来解析 sip.pstnhub.microsoft.com。 根据 SBC 位置
 ### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Microsoft 365、Office 365 和 Office 365 GCC 环境
 
 - 52.112.0.0/14 (IP 地址从 52.112.0.1 到 52.115.255.254) 。
-- 52.120.0.0/14 (IP 地址从 52.120.0.1 到 52.123.255.254) 。
+- 52.122.0.0/15 (IP 地址从 52.122.0.1 到 52.123.255.254) 。
 
 ### <a name="office-365-dod-environment"></a>Office 365 DoD 环境
 
